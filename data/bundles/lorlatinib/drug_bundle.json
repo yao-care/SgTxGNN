@@ -1,0 +1,1854 @@
+{
+  "drug": {
+    "inn": "Lorlatinib",
+    "drugbank_id": "DB12130",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "fibromatosis, gingival",
+        "txgnn_score": 0.9981209635734558,
+        "txgnn_rank": 3243,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of lung",
+        "txgnn_score": 0.9975305199623108,
+        "txgnn_rank": 3994,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hamartoma of lung",
+        "txgnn_score": 0.9975098371505736,
+        "txgnn_rank": 4021,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung hilum carcinoma",
+        "txgnn_score": 0.9973880648612976,
+        "txgnn_rank": 4156,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37934724",
+            "title": "Neoadjuvant Lorlatinib Induces Pathological Complete Response in Advanced ALK-Positive Lung Cancer: A Case Report.",
+            "abstract": "BACKGROUND Chemotherapy has been the conventional treatment method for advanced non-small-cell lung cancer (NSCLC). Nevertheless, the identification and comprehension of oncogenic driver alterations have paved the way for targeted therapies, significantly enhancing patient outcomes. The management of locally advanced NSCLC that is positive for ALK presents a challenge due to the lack of reported randomized controlled trials. The efficacy of neoadjuvant and adjuvant targeted therapy in this context remains uncertain. CASE REPORT A 54-year-old man was diagnosed with stage IIIB (pT1N3M0) upper right lung adenocarcinoma carrying the EML4-ALK fusion gene. Clinically, the patient had multiple enlarged lymph nodes in the right hilum and mediastinum, with the largest measuring approximately 28×19 mm by CT scan and we found that the L4 lymph node was invaded by metastasis. Then, the patient received 1 cycle of chemotherapy with paclitaxel in combination with nedaplatin and subsequently received",
+            "journal": "The American journal of case reports",
+            "year": "2023",
+            "authors": [
+              "Li Jie",
+              "Liu Junwei",
+              "Zhang Guqin",
+              "Hu Weidong",
+              "Wang Xianguo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Middle Aged",
+              "Lung Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Neoadjuvant Therapy",
+              "Anaplastic Lymphoma Kinase",
+              "Lactams, Macrocyclic",
+              "Protein Kinase Inhibitors",
+              "Aminopyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37934724/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung benign neoplasm",
+        "txgnn_score": 0.9973551034927368,
+        "txgnn_rank": 4185,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38819031",
+            "title": "Lorlatinib Versus Crizotinib in Patients With Advanced ALK-Positive Non-Small Cell Lung Cancer: 5-Year Outcomes From the Phase III CROWN Study.",
+            "abstract": "Lorlatinib improved progression-free survival (PFS) and intracranial activity versus crizotinib in patients with previously untreated, advanced, ALK-positive non-small cell lung cancer (NSCLC) in the phase III CROWN study. Here, we report long-term outcomes from CROWN after 5 years of follow-up.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2024",
+            "authors": [
+              "Solomon Benjamin J",
+              "Liu Geoffrey",
+              "Felip Enriqueta",
+              "Mok Tony S K",
+              "Soo Ross A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase III",
+              "Randomized Controlled Trial",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lactams",
+              "Lung Neoplasms",
+              "Crizotinib",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Pyrazoles",
+              "Lactams, Macrocyclic",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38819031/"
+          },
+          {
+            "pmid": "36535300",
+            "title": "Efficacy and safety of first-line lorlatinib versus crizotinib in patients with advanced, ALK-positive non-small-cell lung cancer: updated analysis of data from the phase 3, randomised, open-label CROWN study.",
+            "abstract": "After a median follow-up of 18·3 months, the third-generation anaplastic lymphoma kinase (ALK) tyrosine-kinase inhibitor, lorlatinib, improved progression-free survival in patients with treatment-naive, ALK-positive non-small-cell lung cancer in the phase 3 CROWN study. Here we report updated efficacy data, including intracranial activity, from an unplanned analysis after 3 years of follow-up.",
+            "journal": "The Lancet. Respiratory medicine",
+            "year": "2023",
+            "authors": [
+              "Solomon Benjamin J",
+              "Bauer Todd M",
+              "Mok Tony S K",
+              "Liu Geoffrey",
+              "Mazieres Julien"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Lactams, Macrocyclic",
+              "Protein Kinase Inhibitors",
+              "Brain Neoplasms",
+              "Aminopyridines",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36535300/"
+          },
+          {
+            "pmid": "33207094",
+            "title": "First-Line Lorlatinib or Crizotinib in Advanced ALK-Positive Lung Cancer.",
+            "abstract": "Lorlatinib, a third-generation inhibitor of anaplastic lymphoma kinase (ALK), has antitumor activity in previously treated patients with ALK-positive non-small-cell lung cancer (NSCLC). The efficacy of lorlatinib, as compared with that of crizotinib, as first-line treatment for advanced ALK-positive NSCLC is unclear.",
+            "journal": "The New England journal of medicine",
+            "year": "2020",
+            "authors": [
+              "Shaw Alice T",
+              "Bauer Todd M",
+              "de Marinis Filippo",
+              "Felip Enriqueta",
+              "Goto Yasushi"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Female",
+              "Humans",
+              "Hyperlipidemias"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33207094/"
+          },
+          {
+            "pmid": "35534623",
+            "title": "Third-generation EGFR and ALK inhibitors: mechanisms of resistance and management.",
+            "abstract": "The discoveries of EGFR mutations and ALK rearrangements as actionable oncogenic drivers in non-small-cell lung cancer (NSCLC) has propelled a biomarker-directed treatment paradigm for patients with advanced-stage disease. Numerous EGFR and ALK tyrosine kinase inhibitors (TKIs) with demonstrated efficacy in patients with EGFR-mutant and ALK-rearranged NSCLCs have been developed, culminating in the availability of the highly effective third-generation TKIs osimertinib and lorlatinib, respectively. Despite their marked efficacy, resistance to these agents remains an unsolved fundamental challenge. Both 'on-target' mechanisms (largely mediated by acquired resistance mutations in the kinase domains of EGFR or ALK) and 'off-target' mechanisms of resistance (mediated by non-target kinase alterations such as bypass signalling activation or phenotypic transformation) have been identified in patients with disease progression on osimertinib or lorlatinib. A growing understanding of the biology a",
+            "journal": "Nature reviews. Clinical oncology",
+            "year": "2022",
+            "authors": [
+              "Cooper Alissa J",
+              "Sequist Lecia V",
+              "Lin Jessica J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35534623/"
+          },
+          {
+            "pmid": "33685866",
+            "title": "Spectrum of Mechanisms of Resistance to Crizotinib and Lorlatinib in ROS1 Fusion-Positive Lung Cancer.",
+            "abstract": "Current standard initial therapy for advanced, ROS proto-oncogene 1, receptor tyrosine kinase fusion (ROS1)-positive (ROS1+) non-small cell lung cancer (NSCLC) is crizotinib or entrectinib. Lorlatinib, a next-generation anaplastic lymphoma kinase/ROS1 inhibitor, recently demonstrated efficacy in ROS1+ NSCLC, including in crizotinib-pretreated patients. However, mechanisms of lorlatinib resistance in ROS1+ disease remain poorly understood. Here, we assessed mechanisms of resistance to crizotinib and lorlatinib.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2021",
+            "authors": [
+              "Lin Jessica J",
+              "Choudhury Noura J",
+              "Yoda Satoshi",
+              "Zhu Viola W",
+              "Johnson Ted W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Alleles",
+              "Amino Acid Substitution",
+              "Aminopyridines",
+              "Antigens, Differentiation, B-Lymphocyte",
+              "Biopsy",
+              "Cell Line, Tumor",
+              "Crizotinib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33685866/"
+          },
+          {
+            "pmid": "38554546",
+            "title": "A pragmatic guide for management of adverse events associated with lorlatinib.",
+            "abstract": "Lorlatinib is a brain-penetrant, third-generation tyrosine kinase inhibitor (TKI) indicated for the treatment of anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer (NSCLC). In clinical trials, lorlatinib has shown durable efficacy and a manageable safety profile in treatment-naive patients and in those who have experienced progression while receiving first- and/or second-generation ALK TKIs. Lorlatinib has a distinct safety profile from other ALK TKIs, including hyperlipidemia and central nervous system effects. Clinical trial data showed that most adverse events (AEs) can be managed effectively or reversed with dose modifications (such as dose interruptions or reductions) or with concomitant medications without compromising clinical efficacy or quality of life for patients. A pragmatic approach to managing AEs related to lorlatinib is required. We present patient-focused recommendations for the evaluation and management of select AEs associated with lorlat",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2024",
+            "authors": [
+              "Liu Geoffrey",
+              "Mazieres Julien",
+              "Stratmann Jan",
+              "Ou Sai-Hong Ignatius",
+              "Mok Tony"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lactams",
+              "Aminopyridines",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Pyrazoles",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Lactams, Macrocyclic",
+              "Anaplastic Lymphoma Kinase",
+              "Drug-Related Side Effects and Adverse Reactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38554546/"
+          },
+          {
+            "pmid": "39368244",
+            "title": "Systematic review and network meta-analysis of lorlatinib with comparison to other anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitors (TKIs) as first-line treatment for ALK-positive advanced non-smallcell lung cancer (NSCLC).",
+            "abstract": "Next-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitors (TKIs) (alectinib, brigatinib, and lorlatinib) demonstrate superior progression-free survival (PFS) over chemotherapy or crizotinib as first-line (1L) treatment of ALK-positive advanced non-smallcell lung cancer (NSCLC).",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2024",
+            "authors": [
+              "Ou Sai-Hong",
+              "Kilvert Hannah",
+              "Candlish Jane",
+              "Lee Ben",
+              "Polli Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Comparative Study",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lactams",
+              "Lung Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Aminopyridines",
+              "Pyrazoles",
+              "Protein Kinase Inhibitors",
+              "Lactams, Macrocyclic",
+              "Tyrosine Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39368244/"
+          },
+          {
+            "pmid": "30892989",
+            "title": "ALK Resistance Mutations and Efficacy of Lorlatinib in Advanced Anaplastic Lymphoma Kinase-Positive Non-Small-Cell Lung Cancer.",
+            "abstract": "Lorlatinib is a potent, brain-penetrant, third-generation anaplastic lymphoma kinase (ALK)/ROS1 tyrosine kinase inhibitor (TKI) with robust clinical activity in advanced ALK-positive non-small-cell lung cancer, including in patients who have failed prior ALK TKIs. Molecular determinants of response to lorlatinib have not been established, but preclinical data suggest that ALK resistance mutations may represent a biomarker of response in previously treated patients.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2019",
+            "authors": [
+              "Shaw Alice T",
+              "Solomon Benjamin J",
+              "Besse Benjamin",
+              "Bauer Todd M",
+              "Lin Chia-Chi"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Biomarkers, Tumor",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Decision-Making",
+              "DNA Mutational Analysis",
+              "Disease Progression",
+              "Drug Resistance, Neoplasm",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30892989/"
+          },
+          {
+            "pmid": "30413378",
+            "title": "Lorlatinib in patients with ALK-positive non-small-cell lung cancer: results from a global phase 2 study.",
+            "abstract": "Lorlatinib is a potent, brain-penetrant, third-generation inhibitor of ALK and ROS1 tyrosine kinases with broad coverage of ALK mutations. In a phase 1 study, activity was seen in patients with ALK-positive non-small-cell lung cancer, most of whom had CNS metastases and progression after ALK-directed therapy. We aimed to analyse the overall and intracranial antitumour activity of lorlatinib in patients with ALK-positive, advanced non-small-cell lung cancer.",
+            "journal": "The Lancet. Oncology",
+            "year": "2018",
+            "authors": [
+              "Solomon Benjamin J",
+              "Besse Benjamin",
+              "Bauer Todd M",
+              "Felip Enriqueta",
+              "Soo Ross A"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Biomarkers, Tumor",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30413378/"
+          },
+          {
+            "pmid": "35605188",
+            "title": "Post Hoc Analysis of Lorlatinib Intracranial Efficacy and Safety in Patients With ALK-Positive Advanced Non-Small-Cell Lung Cancer From the Phase III CROWN Study.",
+            "abstract": "Lorlatinib significantly improved progression-free survival (PFS) versus crizotinib and showed robust intracranial activity in patients with previously untreated advanced ALK-positive non-small-cell lung cancer (NSCLC) in the phase III CROWN trial. Here, we report post hoc efficacy outcomes in patients with and without brain metastases at baseline, and present data on the incidence and management of CNS adverse events (AEs) in CROWN.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2022",
+            "authors": [
+              "Solomon Benjamin J",
+              "Bauer Todd M",
+              "Ignatius Ou Sai-Hong",
+              "Liu Geoffrey",
+              "Hayashi Hidetoshi"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Anaplastic Lymphoma Kinase",
+              "Lung Neoplasms",
+              "Quality of Life",
+              "Lactams, Macrocyclic",
+              "Brain Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Aminopyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35605188/"
+          },
+          {
+            "pmid": "41114991",
+            "title": "Lung Cancer in Nonsmoking Individuals: A Review.",
+            "abstract": "Lung cancer in nonsmoking individuals (defined as people who have smoked fewer than 100 cigarettes in their lifetime) accounts for 15% to 20% of all lung cancer cases worldwide. In the US, the annual incidence of lung cancer in nonsmoking individuals is 14.4 to 20.8 per 100 000 person-years in females and 4.8 to 12.7 per 100 000 person-years in males.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Murphy Cian",
+              "Pandya Tej",
+              "Swanton Charles",
+              "Solomon Benjamin J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Male",
+              "Adenocarcinoma",
+              "Anaplastic Lymphoma Kinase",
+              "ErbB Receptors",
+              "Lung Neoplasms",
+              "Mutation",
+              "Non-Smokers",
+              "Receptor Protein-Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41114991/"
+          },
+          {
+            "pmid": "39269178",
+            "title": "NVL-655 Is a Selective and Brain-Penetrant Inhibitor of Diverse ALK-Mutant Oncoproteins, Including Lorlatinib-Resistant Compound Mutations.",
+            "abstract": "Three generations of tyrosine kinase inhibitors (TKI) have been approved for anaplastic lymphoma kinase (ALK) fusion-positive non-small cell lung cancer. However, none address the combined need for broad resistance coverage, brain activity, and avoidance of clinically dose-limiting TRK inhibition. NVL-655 is a rationally designed TKI with >50-fold selectivity for ALK over 96% of the kinome tested. In vitro, NVL-655 inhibits diverse ALK fusions, activating alterations, and resistance mutations, showing ≥100-fold improved potency against ALKG1202R single and compound mutations over approved ALK TKIs. In vivo, it induces regression across 12 tumor models, including intracranial and patient-derived xenografts. NVL-655 inhibits ALK over TRK with 22-fold to >874-fold selectivity. These preclinical findings are supported by three case studies from an ongoing first-in-human phase I/II trial of NVL-655 which demonstrate preliminary proof-of-concept clinical activity in heavily pretreated patien",
+            "journal": "Cancer discovery",
+            "year": "2024",
+            "authors": [
+              "Lin Jessica J",
+              "Horan Joshua C",
+              "Tangpeerachaikul Anupong",
+              "Swalduz Aurélie",
+              "Valdivia Augusto"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Humans",
+              "Mice",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Brain",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39269178/"
+          },
+          {
+            "pmid": "30890623",
+            "title": "Clinical Management of Adverse Events Associated with Lorlatinib.",
+            "abstract": "Lorlatinib is a novel, highly potent, brain-penetrant, third-generation ALK/ROS1 tyrosine kinase inhibitor (TKI), which has broad-spectrum potency against most known resistance mutations that can develop during treatment with crizotinib and second-generation ALK TKIs. The safety profile of lorlatinib was established based on 295 patients who had received the recommended dose of lorlatinib 100 mg once daily. Adverse events associated with lorlatinib are primarily mild to moderate in severity, with hypercholesterolemia (82.4%), hypertriglyceridemia (60.7%), edema (51.2%), peripheral neuropathy (43.7%), and central nervous system effects (39.7%) among the most frequently reported. These can be effectively managed with dose modification and/or standard supportive medical therapy, as indicated by a low incidence of permanent discontinuations due to adverse reactions. Most patients (81.0%) received at least one lipid-lowering agent. Prescription of supportive therapy should also consider the",
+            "journal": "The oncologist",
+            "year": "2019",
+            "authors": [
+              "Bauer Todd M",
+              "Felip Enriqueta",
+              "Solomon Benjamin J",
+              "Thurm Holger",
+              "Peltz Gerson"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase I as Topic",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Neoplasm",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30890623/"
+          },
+          {
+            "pmid": "27432227",
+            "title": "Molecular Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in ALK-Rearranged Lung Cancer.",
+            "abstract": "Advanced, anaplastic lymphoma kinase (ALK)-positive lung cancer is currently treated with the first-generation ALK inhibitor crizotinib followed by more potent, second-generation ALK inhibitors (e.g., ceritinib and alectinib) upon progression. Second-generation inhibitors are generally effective even in the absence of crizotinib-resistant ALK mutations, likely reflecting incomplete inhibition of ALK by crizotinib in many cases. Herein, we analyzed 103 repeat biopsies from ALK-positive patients progressing on various ALK inhibitors. We find that each ALK inhibitor is associated with a distinct spectrum of ALK resistance mutations and that the frequency of one mutation, ALKG1202R, increases significantly after treatment with second-generation agents. To investigate strategies to overcome resistance to second-generation ALK inhibitors, we examine the activity of the third-generation ALK inhibitor lorlatinib in a series of ceritinib-resistant, patient-derived cell lines, and observe that t",
+            "journal": "Cancer discovery",
+            "year": "2016",
+            "authors": [
+              "Gainor Justin F",
+              "Dardaei Leila",
+              "Yoda Satoshi",
+              "Friboulet Luc",
+              "Leshchiner Ignaty"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lactams",
+              "Lactams, Macrocyclic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27432227/"
+          },
+          {
+            "pmid": "37012551",
+            "title": "Lorlatinib with or without chemotherapy in ALK-driven refractory/relapsed neuroblastoma: phase 1 trial results.",
+            "abstract": "Neuroblastomas harbor ALK aberrations clinically resistant to crizotinib yet sensitive pre-clinically to the third-generation ALK inhibitor lorlatinib. We conducted a first-in-child study evaluating lorlatinib with and without chemotherapy in children and adults with relapsed or refractory ALK-driven neuroblastoma. The trial is ongoing, and we report here on three cohorts that have met pre-specified primary endpoints: lorlatinib as a single agent in children (12 months to <18 years); lorlatinib as a single agent in adults (≥18 years); and lorlatinib in combination with topotecan/cyclophosphamide in children (<18 years). Primary endpoints were safety, pharmacokinetics and recommended phase 2 dose (RP2D). Secondary endpoints were response rate and 123I-metaiodobenzylguanidine (MIBG) response. Lorlatinib was evaluated at 45-115 mg/m2/dose in children and 100-150 mg in adults. Common adverse events (AEs) were hypertriglyceridemia (90%), hypercholesterolemia (79%) and weight gain (87%). Neu",
+            "journal": "Nature medicine",
+            "year": "2023",
+            "authors": [
+              "Goldsmith Kelly C",
+              "Park Julie R",
+              "Kayser Kimberly",
+              "Malvar Jemily",
+              "Chi Yueh-Yun"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "3-Iodobenzylguanidine",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Neoplasm Recurrence, Local",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37012551/"
+          },
+          {
+            "pmid": "39232917",
+            "title": "Comparative Efficacy and Safety of Lorlatinib Versus Alectinib and Lorlatinib Versus Brigatinib for ALK-Positive Advanced/Metastatic NSCLC: Matching-Adjusted Indirect Comparisons.",
+            "abstract": "The comparative efficacy and safety of lorlatinib, a third-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor (TKI), versus second-generation ALK TKIs as a first-line treatment for ALK+ advanced/metastatic nonsmall cell lung cancer (NSCLC) remains uncertain as there are no head-to-head clinical trials.",
+            "journal": "Clinical lung cancer",
+            "year": "2024",
+            "authors": [
+              "Garcia Christine",
+              "Abrahami Devin",
+              "Polli Anna",
+              "Chu Haitao",
+              "Chandler Conor"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study",
+              "Clinical Trial, Phase III"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Piperidines",
+              "Organophosphorus Compounds",
+              "Carbazoles",
+              "Lactams",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39232917/"
+          },
+          {
+            "pmid": "38331773",
+            "title": "Identifying optimal ALK inhibitors in first- and second-line treatment of patients with advanced ALK-positive non-small-cell lung cancer: a systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy, safety and effects on quality of life of different ALK-inhibitors for global and Asian patients with advanced ALK-positive non-small-cell lung cancer (NSCLC).",
+            "journal": "BMC cancer",
+            "year": "2024",
+            "authors": [
+              "Zhao Mingye",
+              "Shao Taihang",
+              "Shao Hanqiao",
+              "Zhou Caicun",
+              "Tang Wenxi"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Bayes Theorem",
+              "Quality of Life",
+              "Anaplastic Lymphoma Kinase",
+              "Protein Kinase Inhibitors",
+              "Carbazoles",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38331773/"
+          },
+          {
+            "pmid": "40024442",
+            "title": "First-Line Lorlatinib Versus Crizotinib in Asian Patients With Advanced ALK-Positive NSCLC: Five-Year Outcomes From the CROWN Study.",
+            "abstract": "Lorlatinib, a third-generation anaplastic lymphoma kinase inhibitor, reported significantly longer progression-free survival (PFS) than crizotinib in the phase 3 CROWN trial (NCT03052608) in patients with previously untreated advanced anaplastic lymphoma kinase-positive NSCLC. Efficacy was similar in the Asian subgroup. We present an updated subgroup analysis in Asian patients after five years of follow-up.",
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2025",
+            "authors": [
+              "Wu Yi-Long",
+              "Kim Hye Ryun",
+              "Soo Ross A",
+              "Zhou Qing",
+              "Akamatsu Hiroaki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Male",
+              "Female",
+              "Aminopyridines",
+              "Middle Aged",
+              "Lactams",
+              "Anaplastic Lymphoma Kinase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40024442/"
+          },
+          {
+            "pmid": "40714367",
+            "title": "Managing lorlatinib together: An overview and practical guide for patients by ALK-positive NSCLC patients and medical experts.",
+            "abstract": "Lorlatinib is an oral treatment for patients with advanced ALK-positive non-small cell lung cancer (NSCLC). Its efficacy was demonstrated in the CROWN clinical study, in which data from 5 years of follow-up demonstrated effective long-term disease control in patients with advanced ALK-positive NSCLC. While lorlatinib has a distinct side effect profile, its side effects are generally manageable. Managing side effects successfully is critical to preserving patient quality of life and promoting adherence to treatment-both of which are key to maximizing the long-term benefits of lorlatinib. The CROWN study showed that lorlatinib-associated side effects can be managed with dose adjustments, such as lowering the daily dose, without sacrificing treatment effectiveness. This guide, developed collaboratively by patients living with advanced ALK-positive NSCLC and healthcare professionals experienced with managing lorlatinib treatment, aims to help patients understand what to expect from treatme",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2025",
+            "authors": [
+              "Pronsati Nancee",
+              "Liu Geoffrey",
+              "Bauer Todd M",
+              "Felip Enriqueta",
+              "Goto Yasushi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Lactams",
+              "Aminopyridines",
+              "Lactams, Macrocyclic",
+              "Protein Kinase Inhibitors",
+              "Quality of Life",
+              "Antineoplastic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40714367/"
+          },
+          {
+            "pmid": "31669155",
+            "title": "Lorlatinib in advanced ROS1-positive non-small-cell lung cancer: a multicentre, open-label, single-arm, phase 1-2 trial.",
+            "abstract": "Lorlatinib is a potent, brain-penetrant, third-generation tyrosine kinase inhibitor (TKI) that targets ALK and ROS1 with preclinical activity against most known resistance mutations in ALK and ROS1. We investigated the antitumour activity and safety of lorlatinib in advanced, ROS1-positive non-small-cell lung cancer (NSCLC).",
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "authors": [
+              "Shaw Alice T",
+              "Solomon Benjamin J",
+              "Chiari Rita",
+              "Riely Gregory J",
+              "Besse Benjamin"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aminopyridines",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31669155/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung germ cell tumor",
+        "txgnn_score": 0.9972954392433168,
+        "txgnn_rank": 4249,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37012551",
+            "title": "Lorlatinib with or without chemotherapy in ALK-driven refractory/relapsed neuroblastoma: phase 1 trial results.",
+            "abstract": "Neuroblastomas harbor ALK aberrations clinically resistant to crizotinib yet sensitive pre-clinically to the third-generation ALK inhibitor lorlatinib. We conducted a first-in-child study evaluating lorlatinib with and without chemotherapy in children and adults with relapsed or refractory ALK-driven neuroblastoma. The trial is ongoing, and we report here on three cohorts that have met pre-specified primary endpoints: lorlatinib as a single agent in children (12 months to <18 years); lorlatinib as a single agent in adults (≥18 years); and lorlatinib in combination with topotecan/cyclophosphamide in children (<18 years). Primary endpoints were safety, pharmacokinetics and recommended phase 2 dose (RP2D). Secondary endpoints were response rate and 123I-metaiodobenzylguanidine (MIBG) response. Lorlatinib was evaluated at 45-115 mg/m2/dose in children and 100-150 mg in adults. Common adverse events (AEs) were hypertriglyceridemia (90%), hypercholesterolemia (79%) and weight gain (87%). Neu",
+            "journal": "Nature medicine",
+            "year": "2023",
+            "authors": [
+              "Goldsmith Kelly C",
+              "Park Julie R",
+              "Kayser Kimberly",
+              "Malvar Jemily",
+              "Chi Yueh-Yun"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "3-Iodobenzylguanidine",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Neoplasm Recurrence, Local",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37012551/"
+          },
+          {
+            "pmid": "37147298",
+            "title": "Circulating tumor DNA reveals mechanisms of lorlatinib resistance in patients with relapsed/refractory ALK-driven neuroblastoma.",
+            "abstract": "Activating point mutations in Anaplastic Lymphoma Kinase (ALK) have positioned ALK as the only mutated oncogene tractable for targeted therapy in neuroblastoma. Cells with these mutations respond to lorlatinib in pre-clinical studies, providing the rationale for a first-in-child Phase 1 trial (NCT03107988) in patients with ALK-driven neuroblastoma. To track evolutionary dynamics and heterogeneity of tumors, and to detect early emergence of lorlatinib resistance, we collected serial circulating tumor DNA samples from patients enrolled on this trial. Here we report the discovery of off-target resistance mutations in 11 patients (27%), predominantly in the RAS-MAPK pathway. We also identify newly acquired secondary compound ALK mutations in 6 (15%) patients, all acquired at disease progression. Functional cellular and biochemical assays and computational studies elucidate lorlatinib resistance mechanisms. Our results establish the clinical utility of serial circulating tumor DNA sampling ",
+            "journal": "Nature communications",
+            "year": "2023",
+            "authors": [
+              "Berko Esther R",
+              "Witek Gabriela M",
+              "Matkar Smita",
+              "Petrova Zaritza O",
+              "Wu Megan A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Circulating Tumor DNA",
+              "Drug Resistance, Neoplasm",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Mutation",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37147298/"
+          },
+          {
+            "pmid": "40551396",
+            "title": "Pulmonary Toxicity Associated With Concurrent Lorlatinib and Anti-GD2 Monoclonal Antibody Therapy in Patients With Neuroblastoma.",
+            "abstract": "The anaplastic lymphoma kinase (ALK) inhibitor lorlatinib demonstrated safety without pulmonary toxicity in early-phase trials in patients with neuroblastoma. Lorlatinib is being tested with chemotherapy and immunotherapy in the Children's Oncology Group study ANBL1531. However, pulmonary toxicity was noted in patients receiving lorlatinib concurrently with anti-disialoganglioside 2 (GD2) monoclonal antibody (mAb) dinutuximab on the trial.",
+            "journal": "Pediatric blood & cancer",
+            "year": "2025",
+            "authors": [
+              "Wei Wei",
+              "Fader Maggie Eidson",
+              "Kushner Brian H",
+              "Cardenas Fiorella Iglesias",
+              "Kramer Kim"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Neuroblastoma",
+              "Female",
+              "Male",
+              "Aminopyridines",
+              "Retrospective Studies",
+              "Child, Preschool",
+              "Infant",
+              "Lactams, Macrocyclic",
+              "Child"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40551396/"
+          },
+          {
+            "pmid": "36602782",
+            "title": "Combination Therapies Targeting ALK-aberrant Neuroblastoma in Preclinical Models.",
+            "abstract": "ALK-activating mutations are identified in approximately 10% of newly diagnosed neuroblastomas and ALK amplifications in a further 1%-2% of cases. Lorlatinib, a third-generation anaplastic lymphoma kinase (ALK) inhibitor, will soon be given alongside induction chemotherapy for children with ALK-aberrant neuroblastoma. However, resistance to single-agent treatment has been reported and therapies that improve the response duration are urgently required. We studied the preclinical combination of lorlatinib with chemotherapy, or with the MDM2 inhibitor, idasanutlin, as recent data have suggested that ALK inhibitor resistance can be overcome through activation of the p53-MDM2 pathway.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2023",
+            "authors": [
+              "Tucker Elizabeth R",
+              "Jiménez Irene",
+              "Chen Lindi",
+              "Bellini Angela",
+              "Gorrini Chiara"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Mice",
+              "Animals",
+              "Humans",
+              "Anaplastic Lymphoma Kinase",
+              "Aminopyridines",
+              "Lactams, Macrocyclic",
+              "Neuroblastoma",
+              "Protein Kinase Inhibitors",
+              "Lung Neoplasms",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36602782/"
+          },
+          {
+            "pmid": "37561984",
+            "title": "Anaplastic Lymphoma Kinase Inhibitors for Therapy of Neuroblastoma in Adults.",
+            "abstract": "Adult-onset neuroblastoma (AON) differs significantly in biology and clinical behavior from childhood-onset disease. AON poses therapeutic challenges since tolerance of intensive multimodality therapies that are standard of care for pediatric neuroblastoma (NB) is poor. AON is enriched for somatic mutations including anaplastic lymphoma kinase (ALK), deemed to be an oncogenic driver in NB. ALK inhibitors (ALKis), therefore, have the potential to be of therapeutic benefit. The purpose of this study is to report on their use in AON.",
+            "journal": "JCO precision oncology",
+            "year": "2023",
+            "authors": [
+              "Stiefel Jessica",
+              "Kushner Brian H",
+              "Roberts Stephen S",
+              "Iglesias-Cardenas Fiorella",
+              "Kramer Kim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Humans",
+              "Middle Aged",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37561984/"
+          },
+          {
+            "pmid": "40626442",
+            "title": "First-line lorlatinib treatment in a 19-year-old patient with ALK-rearranged pulmonary large-cell neuroendocrine carcinoma: a case report and literature review.",
+            "abstract": "Pulmonary large-cell neuroendocrine carcinoma (LCNEC) is a rare and aggressive subtype of nonsmall cell lung cancer, typically occurring in elderly male smokers. Its occurrence in the adolescent population is exceptionally uncommon, with only a handful of cases reported in the literature. Even more rarely, LCNEC harbors ALK fusions, an unusual molecular alteration with important therapeutic relevance. We report a 19-year-old female patient who presented with bone pain and was found to have widespread skeletal and mediastinal lymph node involvement. Initial workup revealed elevated serum calcitonin and carcinoembryonic antigen (CEA) levels, and histopathology showed high-grade neuroendocrine carcinoma with immunoreactivity for chromogranin, synaptophysin, CD56, as well as calcitonin and CEA. Due to the neuroendocrine phenotype and calcitonin positivity, metastatic medullary thyroid carcinoma was initially suspected. However, thyroid fine needle aspiration from the suspicious thyroid nod",
+            "journal": "Anti-cancer drugs",
+            "year": "2026",
+            "authors": [
+              "Kemik Fatih",
+              "Bulutay Pinar",
+              "Kıkılı Cevat İlteriş",
+              "Köylü Bahadir",
+              "Demir Nazan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lung Neoplasms",
+              "Carcinoma, Neuroendocrine",
+              "Young Adult",
+              "Lactams",
+              "Anaplastic Lymphoma Kinase",
+              "Female",
+              "Lactams, Macrocyclic",
+              "Aminopyridines",
+              "Carcinoma, Large Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40626442/"
+          },
+          {
+            "pmid": "38032104",
+            "title": "SHP2 Inhibition with TNO155 Increases Efficacy and Overcomes Resistance of ALK Inhibitors in Neuroblastoma.",
+            "abstract": "Survival rates among patients with high-risk neuroblastoma remain low and novel therapies for recurrent neuroblastomas are required. ALK is commonly mutated in primary and relapsed neuroblastoma tumors and ALK tyrosine kinase inhibitors (TKI) are promising treatments for ALK-driven neuroblastoma; however, innate or adaptive resistance to single-agent ALK-TKIs remain a clinical challenge. Recently, SHP2 inhibitors have been shown to overcome ALK-TKI resistance in lung tumors harboring ALK rearrangements. Here, we have assessed the efficacy of the SHP2 inhibitor TNO155 alone and in combination with the ALK-TKIs crizotinib, ceritinib, or lorlatinib for the treatment of ALK-driven neuroblastoma using in vitro and in vivo models. In comparison to wild-type, ALK-mutant neuroblastoma cell lines were more sensitive to SHP2 inhibition with TNO155. Moreover, treatment with TNO155 and ALK-TKIs synergistically reduced cell growth and promoted inactivation of ALK and MAPK signaling in ALK-mutant ne",
+            "journal": "Cancer research communications",
+            "year": "2023",
+            "authors": [
+              "Valencia-Sama Ivette",
+              "Kee Lynn",
+              "Christopher Gabriella",
+              "Ohh Michael",
+              "Layeghifard Mehdi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mice",
+              "Animals",
+              "Zebrafish",
+              "Anaplastic Lymphoma Kinase",
+              "Drug Resistance, Neoplasm",
+              "Neoplasm Recurrence, Local",
+              "Protein Kinase Inhibitors",
+              "Lactams, Macrocyclic",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38032104/"
+          },
+          {
+            "pmid": "30322862",
+            "title": "Lorlatinib Treatment Elicits Multiple On- and Off-Target Mechanisms of Resistance in ALK-Driven Cancer.",
+            "abstract": ": Targeted therapy changed the standard of care in ALK-dependent tumors. However, resistance remains a major challenge. Lorlatinib is a third-generation ALK inhibitor that inhibits most ALK mutants resistant to current ALK inhibitors. In this study, we utilize lorlatinib-resistant anaplastic large cell lymphoma (ALCL), non-small cell lung cancer (NSCLC), and neuroblastoma cell lines in vitro and in vivo to investigate the acquisition of resistance and its underlying mechanisms. ALCL cells acquired compound ALK mutations G1202R/G1269A and C1156F/L1198F in vitro at high drug concentrations. ALCL xenografts selected in vivo showed recurrent N1178H (5/10 mice) and G1269A (4/10 mice) mutations. Interestingly, intracellular localization of NPM/ALKN1178H skewed toward the cytoplasm in human cells, possibly mimicking overexpression. RNA sequencing of resistant cells showed significant alteration of PI3K/AKT and RAS/MAPK pathways. Functional validation by small-molecule inhibitors confirmed the",
+            "journal": "Cancer research",
+            "year": "2018",
+            "authors": [
+              "Redaelli Sara",
+              "Ceccon Monica",
+              "Zappa Marina",
+              "Sharma Geeta G",
+              "Mastini Cristina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30322862/"
+          },
+          {
+            "pmid": "38394779",
+            "title": "An Infant-Type Hemispheric Glioma With SOX5::ALK: A Novel Fusion.",
+            "abstract": "Infant-type hemispheric glioma (IHG) is a rare pediatric brain tumor with variable response to chemotherapy and radiotherapy. Molecular insights into IHG can be useful in identifying potentially active targeted therapy. A male fetus was found to have congenital hydrocephalus at the gestational age of 37 weeks. Fetal MRI showed a 2.6 × 2.0-cm tumor located at the frontal horn of the left lateral ventricle, involving the left basal nuclei and thalamus. Tumor biopsy at the age of 2 days revealed an IHG consisting of spindle tumor cells with strong expression of GFAP and ALK. Targeted RNA sequencing detected a novel fusion gene of SOX5::ALK. After initial chemotherapy with cyclophosphamide, carboplatin, and etoposide for 2 cycles, the tumor size progressed markedly and the patient underwent a subtotal resection of brain tumor followed by treatment with lorlatinib, an ALK tyrosine kinase inhibitor with central nervous system (CNS) activity. After 3 months of treatment, reduction of tumor si",
+            "journal": "Journal of the National Comprehensive Cancer Network : JNCCN",
+            "year": "2024",
+            "authors": [
+              "Tsai Chia Chin",
+              "Huang Man-Hsu",
+              "Fang Chia-Lang",
+              "Hsieh Kevin Li-Chun",
+              "Hsieh Tsung-Han"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Infant",
+              "Child",
+              "Male",
+              "Humans",
+              "Infant, Newborn",
+              "Lung Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Anaplastic Lymphoma Kinase",
+              "Lactams, Macrocyclic",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38394779/"
+          },
+          {
+            "pmid": "37343514",
+            "title": "Safety and efficacy of lorlatinib against ALK-driven refractory or relapsed neuroblastoma.",
+            "abstract": "We spotlight the promising preliminary findings reported by Goldsmith et al. of a phase 1 first-in-child study showcasing the safety and efficacy of lorlatinib against treatment-refractory or relapsed ALK-driven neuroblastoma.1.",
+            "journal": "Cell reports. Medicine",
+            "year": "2023",
+            "authors": [
+              "Suk Yujin",
+              "Singh Sheila K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Protein Kinase Inhibitors",
+              "Neoplasm Recurrence, Local",
+              "Lactams, Macrocyclic",
+              "Neuroblastoma",
+              "Aminopyridines",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37343514/"
+          },
+          {
+            "pmid": "37000961",
+            "title": "Lorlatinib for ALK-fused, infant-type hemispheric glioma with lung metastasis: a case report.",
+            "abstract": "Infant-type hemispheric glioma, a new subtype of pediatric high-grade glioma, arises in the cerebral hemispheres. Despite better survival outcomes, the treatment of infant-type hemispheric glioma is still facing challenges. Here, we reported a case of QKI-ALK fusion, infant-type hemispheric glioma with lung metastasis who achieved a complete clinical response after lorlatinib treatment. This typical case demonstrated the importance of appropriate molecularly targeted treatments in ALK-fused tumors, and lorlatinib may serve as an effective complement to conventional chemotherapy and radiotherapy in primary glioma harboring ALK fusions and its metastasis.",
+            "journal": "Annals of clinical and translational neurology",
+            "year": "2023",
+            "authors": [
+              "Lai Mingyao",
+              "Li Shaoqun",
+              "Li Hainan",
+              "Hu Qingjun",
+              "Li Juan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Infant",
+              "Child",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Anaplastic Lymphoma Kinase",
+              "Protein Kinase Inhibitors",
+              "Lung Neoplasms",
+              "Lactams, Macrocyclic",
+              "Glioma",
+              "Aminopyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37000961/"
+          },
+          {
+            "pmid": "31319969",
+            "title": "Transformation to neuroendocrine carcinoma as a resistance mechanism to lorlatinib.",
+            "abstract": "Small cell transformation is a well-recognized mechanism of resistance to EGFR-TKI therapy in EGFR-mutant NSCLC, yet it remains a poorly-described phenomenon in ALK-rearranged NSCLC.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2019",
+            "authors": [
+              "Coleman Niamh",
+              "Wotherspoon Andrew",
+              "Yousaf Nadia",
+              "Popat Sanjay"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Neuroendocrine",
+              "Cell Line, Tumor",
+              "Cell Transformation, Neoplastic",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31319969/"
+          },
+          {
+            "pmid": "34210658",
+            "title": "Exceptional response to the ALK and ROS1 inhibitor lorlatinib and subsequent mechanism of resistance in relapsed ALK F1174L-mutated neuroblastoma.",
+            "abstract": "Treatment of high-risk neuroblastoma typically incorporates multiagent chemotherapy, surgery, radiation therapy, autologous stem cell transplantation, immunotherapy, and differentiation therapy. The discovery of activating mutations in ALK receptor tyrosine kinase (ALK) in ∼8% of neuroblastomas opens the possibility of further improving outcomes for this subset of patients with the addition of ALK inhibitors. ALK inhibitors have shown efficacy in tumors such as non-small-cell lung cancer and anaplastic large cell lymphoma in which wild-type ALK overexpression is driven by translocation events. In contrast, ALK mutations driving neuroblastomas are missense mutations in the tyrosine kinase domain yielding constitutive activation and differing sensitivity to available ALK inhibitors. We describe a case of a patient with relapsed, refractory, metastatic ALK F1174L-mutated neuroblastoma who showed no response to the first-generation ALK inhibitor crizotinib but had a subsequent complete res",
+            "journal": "Cold Spring Harbor molecular case studies",
+            "year": "2021",
+            "authors": [
+              "Liu Tingting",
+              "Merguerian Matthew D",
+              "Rowe Steven P",
+              "Pratilas Christine A",
+              "Chen Allen R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Child, Preschool",
+              "DNA Mutational Analysis",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "High-Throughput Nucleotide Sequencing",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34210658/"
+          },
+          {
+            "pmid": "27483357",
+            "title": "The ALK inhibitor PF-06463922 is effective as a single agent in neuroblastoma driven by expression of ALK and MYCN.",
+            "abstract": "The first-in-class inhibitor of ALK, c-MET and ROS1, crizotinib (Xalkori), has shown remarkable clinical efficacy in treatment of ALK-positive non-small cell lung cancer. However, in neuroblastoma, activating mutations in the ALK kinase domain are typically refractory to crizotinib treatment, highlighting the need for more potent inhibitors. The next-generation ALK inhibitor PF-06463922 is predicted to exhibit increased affinity for ALK mutants prevalent in neuroblastoma. We examined PF-06463922 activity in ALK-driven neuroblastoma models in vitro and in vivo In vitro kinase assays and cell-based experiments examining ALK mutations of increasing potency show that PF-06463922 is an effective inhibitor of ALK with greater activity towards ALK neuroblastoma mutants. In contrast to crizotinib, single agent administration of PF-06463922 caused dramatic tumor inhibition in both subcutaneous and orthotopic xenografts as well as a mouse model of high-risk neuroblastoma driven by Th-ALK(F1174L)",
+            "journal": "Disease models & mechanisms",
+            "year": "2016",
+            "authors": [
+              "Guan J",
+              "Tucker E R",
+              "Wan H",
+              "Chand D",
+              "Danielson L S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Clinical Trials as Topic",
+              "Crizotinib",
+              "Lactams",
+              "Lactams, Macrocyclic",
+              "Mice, Inbred BALB C"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27483357/"
+          },
+          {
+            "pmid": "25733882",
+            "title": "PF-06463922 is a potent and selective next-generation ROS1/ALK inhibitor capable of blocking crizotinib-resistant ROS1 mutations.",
+            "abstract": "Oncogenic c-ros oncogene1 (ROS1) fusion kinases have been identified in a variety of human cancers and are attractive targets for cancer therapy. The MET/ALK/ROS1 inhibitor crizotinib (Xalkori, PF-02341066) has demonstrated promising clinical activity in ROS1 fusion-positive non-small cell lung cancer. However, emerging clinical evidence has shown that patients can develop resistance by acquiring secondary point mutations in ROS1 kinase. In this study we characterized the ROS1 activity of PF-06463922, a novel, orally available, CNS-penetrant, ATP-competitive small-molecule inhibitor of ALK/ROS1. In vitro, PF-06463922 exhibited subnanomolar cellular potency against oncogenic ROS1 fusions and inhibited the crizotinib-refractory ROS1(G2032R) mutation and the ROS1(G2026M) gatekeeper mutation. Compared with crizotinib and the second-generation ALK/ROS1 inhibitors ceritinib and alectinib, PF-06463922 showed significantly improved inhibitory activity against ROS1 kinase. A crystal structure o",
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2015",
+            "authors": [
+              "Zou Helen Y",
+              "Li Qiuhua",
+              "Engstrom Lars D",
+              "West Melissa",
+              "Appleman Vicky"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Animals",
+              "Carcinogenesis",
+              "Cell Proliferation",
+              "Crizotinib",
+              "Crystallography, X-Ray",
+              "Disease Models, Animal",
+              "Drug Resistance, Neoplasm",
+              "Glioma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25733882/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary sulcus neoplasm",
+        "txgnn_score": 0.9972954392433168,
+        "txgnn_rank": 4250,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+        "txgnn_score": 0.99720698595047,
+        "txgnn_rank": 4359,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "junctional epidermolysis bullosa",
+        "txgnn_score": 0.9971792697906494,
+        "txgnn_rank": 4393,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+        "txgnn_score": 0.9968861937522888,
+        "txgnn_rank": 4721,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31985497",
+            "title": "Lorlatinib-Associated Acute Respiratory Distress Syndrome.",
+            "abstract": "",
+            "journal": "American journal of therapeutics",
+            "year": "2020",
+            "authors": [
+              "Sharma Shaurya",
+              "Kommineni Krishna",
+              "Mehta Sanwal Singh",
+              "Singh Harpriya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Humans",
+              "Lactams",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Pyrazoles",
+              "Respiration, Artificial",
+              "Respiratory Distress Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31985497/"
+          },
+          {
+            "pmid": "40287137",
+            "title": "A Real-World Pharmacovigilance Analysis of Lorlatinib-Associated Metabolic Effects Using the FDA Adverse Events Reporting System (FAERS) Database From 2013 to 2024.",
+            "abstract": "The advent of anaplastic lymphoma kinase (ALK) inhibitors, including lorlatinib, has transformed the treatment of ALK-rearranged malignancies. While lorlatinib effectively overcomes resistance mutations and penetrates the central nervous system, its use is associated with metabolic adverse events, including hypercholesterolemia, hypertriglyceridemia, and weight gain. These complications increase cardiovascular risks, disrupt metabolic homeostasis, and may affect therapy adherence.",
+            "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+            "year": "2025",
+            "authors": [
+              "Frey Connor"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pharmacovigilance",
+              "Adverse Drug Reaction Reporting Systems",
+              "United States",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Lactams",
+              "Lactams, Macrocyclic",
+              "United States Food and Drug Administration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40287137/"
+          },
+          {
+            "pmid": "34836510",
+            "title": "Comparative efficacy and safety of first-line treatments for advanced non-small cell lung cancer with ALK-rearranged: a meta-analysis of clinical trials.",
+            "abstract": "Whereas there are many pharmacological interventions prescribed for patients with advanced anaplastic lymphoma kinase (ALK)- rearranged non-small cell lung cancer (NSCLC), comparative data between novel generation ALK-tyrosine kinase inhibitors (TKIs) remain scant. Here, we indirectly compared the efficacy and safety of first-line systemic therapeutic options used for the treatment of ALK-rearranged NSCLC.",
+            "journal": "BMC cancer",
+            "year": "2021",
+            "authors": [
+              "Ma Hao-Chuan",
+              "Liu Yi-Hong",
+              "Ding Kai-Lin",
+              "Liu Yu-Feng",
+              "Zhao Wen-Jie"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Gene Rearrangement",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34836510/"
+          },
+          {
+            "pmid": "40157899",
+            "title": "The Role of GLP-1 Agonists in Mitigating Lorlatinib-Induced Metabolic Syndrome: Two Case Studies.",
+            "abstract": "",
+            "journal": "Clinical lung cancer",
+            "year": "2025",
+            "authors": [
+              "Pietroluongo Erica",
+              "Pannain Silvana",
+              "Garassino Marina Chiara",
+              "Bestvina Christine M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40157899/"
+          },
+          {
+            "pmid": "39537504",
+            "title": "Complex dyslipidemia induced by lorlatinib therapy: A case study.",
+            "abstract": "Lorlatinib is an anaplastic lymphoma kinase (ALK) inhibitor, which is currently used for the treatment of ALK-positive metastatic non-small cell lung cancer (NSCLC). Previous reports have noticed an association between lorlatinib and hyperlipidemia, however the specific mechanisms for this side effect remain unknown. Some investigators have reported nephrotic syndrome to be the underlying cause of lorlatinib-induced hyperlipidemia.",
+            "journal": "Journal of clinical lipidology",
+            "year": "2025",
+            "authors": [
+              "West Julianna",
+              "Garg Abhimanyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Aminopyridines",
+              "Dyslipidemias",
+              "Lactams",
+              "Lactams, Macrocyclic",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Cholesterol, LDL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39537504/"
+          },
+          {
+            "pmid": "33789526",
+            "title": "A possible mechanism of hyperlipidemia in a patient with metastatic non-small cell lung cancer on lorlatinib therapy.",
+            "abstract": "We report the case of a woman who developed hyperlipidemia on lorlatinib therapy found to have minimal change disease. We review therapies for cancer known to alter the lipid profile, in addition to reviewing secondary hyperlipidemia workup. We also propose a mechanism for lorlatinib-induced hyperlipidemia.",
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2021",
+            "authors": [
+              "McGee Katherine",
+              "Stone Neil J",
+              "Wadhwani Shikha",
+              "Kanwar Yashpal S",
+              "Villaflor Victoria"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female",
+              "Humans",
+              "Hyperlipidemias",
+              "Lactams",
+              "Lung Neoplasms",
+              "Middle Aged",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33789526/"
+          },
+          {
+            "pmid": "38344203",
+            "title": "Effective treatment of advanced lung adenocarcinoma with paraneoplastic leukemoid reaction with Lorlatinib: a case report.",
+            "abstract": "Lorlatinib is a new generation ALK kinase inhibitor. We describe a 52-year-old patient with ALK-positive advanced lung adenocarcinoma who achieved remission after multi-line therapy combined with paraneoplastic leukemoid reaction treated with Lorlatinib.",
+            "journal": "Frontiers in oncology",
+            "year": "2024",
+            "authors": [
+              "Niu Ruiqi",
+              "Zhang Yiruo",
+              "Pang Jingdan",
+              "Zhou Qing",
+              "Lei Yu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38344203/"
+          },
+          {
+            "pmid": "32852665",
+            "title": "The risk of nephrotic syndrome with non-VEGF inhibitory antineoplastic drugs: from viewpoint of the adverse event reports in Japan.",
+            "abstract": "",
+            "journal": "Clinical and experimental nephrology",
+            "year": "2021",
+            "authors": [
+              "Okada Kouji",
+              "Usui Kensuke",
+              "Kikuchi Daisuke",
+              "Takahashi Masanori",
+              "Watanabe Yoshiteru"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adverse Drug Reaction Reporting Systems",
+              "Aminopyridines",
+              "Antineoplastic Agents",
+              "Dasatinib",
+              "Humans",
+              "Japan",
+              "Lactams",
+              "Nephrotic Syndrome",
+              "Odds Ratio",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32852665/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12130",
+    "name": "Lorlatinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lorlatinib"
+      },
+      "queried_at": "2026-03-09T21:08:35.018011",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lorlatinib"
+      },
+      "queried_at": "2026-03-09T21:08:39.977476",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T21:08:43.783931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T21:08:50.273682",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T21:08:56.267724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T21:08:57.017091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T21:09:04.047952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T21:09:05.061884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T21:09:05.909666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T21:09:11.544343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T21:09:12.977595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T21:09:14.260572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T21:09:17.302042",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T21:09:22.116173",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T21:09:23.365153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T21:09:26.381600",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T21:09:32.848154",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T21:09:34.276498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T21:09:37.322759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T21:09:42.831415",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T21:09:44.031479",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T21:09:51.367773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T21:09:53.012839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T21:09:54.323376",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T21:10:02.538941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T21:10:08.384908",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T21:10:08.993242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T21:10:13.117496",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T21:10:14.587813",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T21:10:15.764264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T21:10:22.178627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lorlatinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T21:10:26.934413",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T21:10:26.972145"
+  }
+}

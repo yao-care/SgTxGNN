@@ -1,0 +1,555 @@
+{
+  "drug": {
+    "inn": "Isatuximab",
+    "drugbank_id": "DB14811",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.9822518825531006,
+        "txgnn_rank": 15889,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38275249",
+            "title": "Reply to: Successful Isatuximab Desensitization in a Patient With Refractory Multiple Myeloma and Indolent Systemic Mastocytosis.",
+            "abstract": "",
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2024",
+            "authors": [
+              "Torres Górriz M C",
+              "Borrás Cuartero J",
+              "Pesántez Méndez C G",
+              "Stein Coronado C I",
+              "Enrique E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple Myeloma",
+              "Desensitization, Immunologic",
+              "Mastocytosis, Systemic",
+              "Antibodies, Monoclonal, Humanized"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38275249/"
+          },
+          {
+            "pmid": "38888584",
+            "title": "Successful Desensitization to Isatuximab in a Patient With Refractory Multiple Myeloma and Indolent Systemic Mastocytosis. Reply to: Anaphylactic Shock due to Isatuximab and Successful Desensitization.",
+            "abstract": "",
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2024",
+            "authors": [
+              "Hutten E M",
+              "Roeloffzen W Wh",
+              "Lambeck A Ja",
+              "van den Born-Bondt T",
+              "Oude Elberink H Ng"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple Myeloma",
+              "Anaphylaxis",
+              "Mastocytosis, Systemic",
+              "Desensitization, Immunologic",
+              "Antibodies, Monoclonal, Humanized",
+              "Drug Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38888584/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cholangiocarcinoma, susceptibility to",
+        "txgnn_score": 0.6507823467254639,
+        "txgnn_rank": 46650,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "minimally invasive lung adenocarcinoma",
+        "txgnn_score": 0.6355070471763611,
+        "txgnn_rank": 47066,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "placenta disease",
+        "txgnn_score": 0.628367006778717,
+        "txgnn_rank": 47295,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "GCGR-related hyperglucagonemia",
+        "txgnn_score": 0.6180393099784851,
+        "txgnn_rank": 47599,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobin C-beta-thalassemia syndrome",
+        "txgnn_score": 0.6150068640708923,
+        "txgnn_rank": 47684,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "giant cell reparative granuloma",
+        "txgnn_score": 0.5941299796104431,
+        "txgnn_rank": 48418,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dental caries",
+        "txgnn_score": 0.5871424674987793,
+        "txgnn_rank": 48724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colon inflammatory polyp",
+        "txgnn_score": 0.5871372818946838,
+        "txgnn_rank": 48725,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epidural abscess",
+        "txgnn_score": 0.5805347561836243,
+        "txgnn_rank": 49030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14811",
+    "name": "Isatuximab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Isatuximab"
+      },
+      "queried_at": "2026-03-10T07:35:17.517842",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Isatuximab"
+      },
+      "queried_at": "2026-03-10T07:35:20.566651",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T07:35:22.409849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T07:35:27.402074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T07:35:29.220655",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "queried_at": "2026-03-10T07:35:29.886444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "queried_at": "2026-03-10T07:35:34.102104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "queried_at": "2026-03-10T07:35:35.009778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T07:35:35.688899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T07:35:38.986103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T07:35:39.756885",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "placenta disease"
+      },
+      "queried_at": "2026-03-10T07:35:40.368107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "placenta disease"
+      },
+      "queried_at": "2026-03-10T07:35:43.740447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "placenta disease"
+      },
+      "queried_at": "2026-03-10T07:35:44.436748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "queried_at": "2026-03-10T07:35:45.113507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "queried_at": "2026-03-10T07:35:48.435723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "queried_at": "2026-03-10T07:35:49.291769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "queried_at": "2026-03-10T07:35:49.963477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "queried_at": "2026-03-10T07:35:53.292592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "queried_at": "2026-03-10T07:35:53.997555",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "queried_at": "2026-03-10T07:35:54.918996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "queried_at": "2026-03-10T07:35:58.514797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "queried_at": "2026-03-10T07:35:59.247882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "dental caries"
+      },
+      "queried_at": "2026-03-10T07:35:59.800236",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "dental caries"
+      },
+      "queried_at": "2026-03-10T07:36:04.697100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "dental caries"
+      },
+      "queried_at": "2026-03-10T07:36:05.401484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "colon inflammatory polyp"
+      },
+      "queried_at": "2026-03-10T07:36:05.902548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "colon inflammatory polyp"
+      },
+      "queried_at": "2026-03-10T07:36:09.057991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "colon inflammatory polyp"
+      },
+      "queried_at": "2026-03-10T07:36:09.920218",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "epidural abscess"
+      },
+      "queried_at": "2026-03-10T07:36:10.648806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "epidural abscess"
+      },
+      "queried_at": "2026-03-10T07:36:14.445871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "epidural abscess"
+      },
+      "queried_at": "2026-03-10T07:36:15.219173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:36:15.224905"
+  }
+}

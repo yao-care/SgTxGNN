@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Desonide",
+    "drugbank_id": "DB01260",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "polyp of vocal cord",
+        "txgnn_score": 0.9990910291671752,
+        "txgnn_rank": 1821,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of middle ear",
+        "txgnn_score": 0.99908447265625,
+        "txgnn_rank": 1835,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of external auditory canal",
+        "txgnn_score": 0.9990532994270324,
+        "txgnn_rank": 1891,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of frontal sinus",
+        "txgnn_score": 0.999052107334137,
+        "txgnn_rank": 1892,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of ureter",
+        "txgnn_score": 0.9990434050559998,
+        "txgnn_rank": 1915,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vulva",
+        "txgnn_score": 0.9990365505218506,
+        "txgnn_rank": 1923,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroepithelial polyp",
+        "txgnn_score": 0.999032497406006,
+        "txgnn_rank": 1928,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neoplastic polyp",
+        "txgnn_score": 0.999021291732788,
+        "txgnn_rank": 1952,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epulis",
+        "txgnn_score": 0.9990211725234984,
+        "txgnn_rank": 1953,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine polyp",
+        "txgnn_score": 0.9989994168281556,
+        "txgnn_rank": 1988,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01260",
+    "name": "Desonide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Desonide"
+      },
+      "queried_at": "2026-03-09T12:52:31.125200",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Desonide"
+      },
+      "queried_at": "2026-03-09T12:53:00.056495",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-09T12:53:01.928084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-09T12:53:06.597409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-09T12:53:08.191402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-09T12:53:09.012773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-09T12:53:16.853388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-09T12:53:17.994832",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of external auditory canal"
+      },
+      "queried_at": "2026-03-09T12:53:19.245078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of external auditory canal"
+      },
+      "queried_at": "2026-03-09T12:53:26.414232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of external auditory canal"
+      },
+      "queried_at": "2026-03-09T12:53:27.212096",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-09T12:53:28.006898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-09T12:53:32.883733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-09T12:53:36.535199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-09T12:53:38.601429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-09T12:53:43.749442",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-09T12:53:44.746239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of vulva"
+      },
+      "queried_at": "2026-03-09T12:53:45.577600",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of vulva"
+      },
+      "queried_at": "2026-03-09T12:53:51.311132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "polyp of vulva"
+      },
+      "queried_at": "2026-03-09T12:53:54.005455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "fibroepithelial polyp"
+      },
+      "queried_at": "2026-03-09T12:53:55.879959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "fibroepithelial polyp"
+      },
+      "queried_at": "2026-03-09T12:54:02.811229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "fibroepithelial polyp"
+      },
+      "queried_at": "2026-03-09T12:54:04.273220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "neoplastic polyp"
+      },
+      "queried_at": "2026-03-09T12:54:05.604690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "neoplastic polyp"
+      },
+      "queried_at": "2026-03-09T12:54:12.897300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "neoplastic polyp"
+      },
+      "queried_at": "2026-03-09T12:54:13.903412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-09T12:54:16.008472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-09T12:54:20.919216",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-09T12:54:21.865290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-09T12:54:22.522022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-09T12:54:26.797626",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desonide",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-09T12:54:28.302233",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:54:28.330106"
+  }
+}

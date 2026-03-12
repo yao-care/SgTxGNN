@@ -1,0 +1,1940 @@
+{
+  "drug": {
+    "inn": "Tolnaftate",
+    "drugbank_id": "DB00525",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "ectothrix infectious disease",
+        "txgnn_score": 0.9858627915382384,
+        "txgnn_rank": 13665,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Majocchi granuloma",
+        "txgnn_score": 0.9858627915382384,
+        "txgnn_rank": 13667,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cutaneous candidiasis",
+        "txgnn_score": 0.985443115234375,
+        "txgnn_rank": 13934,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "16989127",
+            "title": "[Use of topical antifungal agents].",
+            "abstract": "Topical antifungal agents are not absorbed when given orally. They act by direct contact on the fungus, this type of action requires the simultaneous presence of antifungal and fungus for a minimum of time. There are a large number of compounds belonging to different families of antifungals: polyens, azoles, allylamine and morpholine and antiseptic substances. The treatment of oropharyngeal candidiasis is based on topical antifungal agents: amphotericin B or nystatin, imidazoles such as clotrimazole or miconazole. Systemic antifungal agents are indicated in case or poor compliance to topical agents, in prophylaxis of highly relapsing disease, in oesophageal candidiasis and in Candida onychomycosis. A topical antifungal agent is the first choice to treat Candida intertrigo. In any case predisposing factors should be eradicated or amended. Infection to Malassezia spp. are treated topically with azoles or selenium sulphur. Oral ketoconazole is an alternative in severe cases. Dermatophytos",
+            "journal": "Therapie",
+            "year": "2006",
+            "authors": [
+              "Dupont Bertrand"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Humans",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16989127/"
+          },
+          {
+            "pmid": "1097234",
+            "title": "Clotrimazole: a review of its antifungal activity and therapeutic efficacy.",
+            "abstract": "Clotrimazole 2, a synthetic imidazole derivative, is primarily used locally in the treatment of vaginal and skin infections due to yeasts and dermatophytes. In vitro, it is most active against Candida spp., Trichophyton spp., Microsporum spp. and Malazzesia fuffur (Pityrosporon orbiculare). In addition, it has some in vitro activity against certain Gram-positive bacteria, and at very high concentrations has activity against Trichomonas spp. In the treatment of vaginal candidiasis, clotrimazole vaginal tablets have produced cure rates comparable with those of conventional nystatin vaginal tablets. There have been no published comparisons with nystatin vaginal cream or foaming vaginal tablets - nystatin dosage forms preferred by some clinicians. Cootrimazole has also been successful in patients who had failed to respond to other antifungal agents such as nystatin and amphotericin B. Results in trichomonal vaginitis are not impressive. Skin infections caused by Candida or dermatophytes ha",
+            "journal": "Drugs",
+            "year": "1975",
+            "authors": [
+              "Sawyer P R",
+              "Brogden R N",
+              "Pinder R M",
+              "Speight T M",
+              "Avery"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amoeba",
+              "Animals",
+              "Candidiasis",
+              "Clotrimazole",
+              "Dogs",
+              "Drug Resistance, Microbial",
+              "Female",
+              "Fungi",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1097234/"
+          },
+          {
+            "pmid": "6459255",
+            "title": "Comparative merits of two topical corticosteroid antimicrobial drugs.",
+            "abstract": "The anti-inflammatory and antimicrobial activities of two topical creams, one containing halcinonide, neomycin and nystatin (HNN), and the other betamethasone valerate, gentamicin, iodochlorhydroxyquin and tolnaftate (BGI), were compared in a randomized, parallel study of 154 patients (eighty-seven secondarily infected eczematous dermatoses; sixty-seven cutaneous candidiasis). Repeated clinical assessments showed that the two creams produced equivalent therapeutic responses both in patients with infected eczematous lesions and candidiasis. HNN and BGI creams eradicated the bacterial pathogens isolated prior to treatment in 80% and 76%, respectively, of the patients with eczematous dermatoses. The organism most frequently isolated in these patients was S. aureus. Local irritation prompting discontinuance of therapy occurred in just one patient receiving HNN, and two patients receiving BGI.",
+            "journal": "The Journal of international medical research",
+            "year": "1981",
+            "authors": [
+              "Barba-Rubio J",
+              "Calle-Vélez G",
+              "Dominguez-Soto L",
+              "Londoño F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Inflammatory Agents",
+              "Betamethasone Valerate",
+              "Candidiasis, Cutaneous",
+              "Clinical Trials as Topic",
+              "Clioquinol",
+              "Female",
+              "Gentamicins",
+              "Halcinonide",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6459255/"
+          },
+          {
+            "pmid": "1096122",
+            "title": "Topical treatment of dermatophytoses and candidoses.",
+            "abstract": "In a double-blind trial clotrimazole cream was compared with tolnaftate cream in the treatment of dermatophytoses and with nystatin cream in the treatment of candidoses. Clotrimazole was shown to be effective against both dermatophytoses and candidoses and was as effective and acceptable as tolnaftate and nystatin creams in each condition.",
+            "journal": "The Practitioner",
+            "year": "1975",
+            "authors": [
+              "Keczkes K",
+              "Leighton I",
+              "Good C S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Candida",
+              "Candidiasis, Cutaneous",
+              "Child",
+              "Child, Preschool",
+              "Clinical Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1096122/"
+          },
+          {
+            "pmid": "4574130",
+            "title": "The treatment of cutaneous candidiasis in rabbits.",
+            "abstract": "",
+            "journal": "Sabouraudia",
+            "year": "1973",
+            "authors": [
+              "Wildfeuer A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Animals",
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis, Cutaneous",
+              "Carbonates",
+              "Gentian Violet",
+              "Hexachlorophene",
+              "Hydrocarbons, Halogenated",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4574130/"
+          },
+          {
+            "pmid": "1037098",
+            "title": "New topical agents for dermatophytosis.",
+            "abstract": "Several new synthetic antifungal agents have recently become available for topical use. Reported experiences with haloprogin, miconazole and clotrimazole are reviewed. Topical preparations of these agents are nonirritating and effective in the treatment of superficial fungus infections. They are effective in the management of tinea versicolor and cutaneous candidiasis as well as dermatophytosis.",
+            "journal": "Cutis",
+            "year": "1976",
+            "authors": [
+              "Smith E B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Clotrimazole",
+              "Dermatomycoses",
+              "Humans",
+              "Miconazole",
+              "Ointments",
+              "Phenyl Ethers",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1037098/"
+          },
+          {
+            "pmid": "14210891",
+            "title": "TREATMENT OF CUTANEOUS FUNGOUS INFECTION WITH TOLNAFTATE.",
+            "abstract": "",
+            "journal": "Journal of the South Carolina Medical Association",
+            "year": "1964",
+            "authors": [
+              "VANDEERVE J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Biomedical Research",
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Drug Therapy",
+              "Griseofulvin",
+              "Humans",
+              "Naphthalenes",
+              "Tinea",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14210891/"
+          },
+          {
+            "pmid": "5162367",
+            "title": "Common cutaneous manifestations and problems of diabetes mellitus.",
+            "abstract": "",
+            "journal": "Postgraduate medicine",
+            "year": "1971",
+            "authors": [
+              "Fusaro R M",
+              "Goetz F C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Candidiasis",
+              "Diabetes Complications",
+              "Diabetic Angiopathies",
+              "Foot Diseases",
+              "Glucose",
+              "Griseofulvin",
+              "Humans",
+              "Injections, Intramuscular",
+              "Nystatin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5162367/"
+          },
+          {
+            "pmid": "14275504",
+            "title": "TOLNAFTATE, A POTENT TOPICAL ANTIFUNGAL AGENT.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1965",
+            "authors": [
+              "ROBINSON H M",
+              "RASKIN J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Biomedical Research",
+              "Candidiasis, Cutaneous",
+              "Dermatologic Agents",
+              "Dermatomycoses",
+              "Drug Therapy",
+              "Epidermophyton",
+              "Griseofulvin",
+              "Humans",
+              "Malassezia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14275504/"
+          },
+          {
+            "pmid": "4943591",
+            "title": "Chemotherapeutic evaluation of clotrimazole (Bay b 5097, 1 (o-chloro- - -diphenylbenzyl) imidazole).",
+            "abstract": "Clotrimazole has a broad spectrum of activity against yeast and filamentous fungi in vitro and also in vivo when given orally or parenterally to experimentally infected mice and when administered orally or topically to infected guinea pigs. In vitro a distinct inoculum effect has been observed with a number of strains of Candida and Torulopsis; minimal inhibitory concentrations have tended to increase with increased incubation time. With prolonged incubation times, resistance can be developed to clotrimazole in vitro, but this resistance is readily reversible upon passage in drug-free broth. The degree of in vivo activity of clotrimazole against Candida depends on the severity of infection used. Orally it appears to be more effective when administered by gavage than when given mixed in the diet. Pretreatment with the agent may decrease its efficacy because of drug inactivation. Against dermatophytes, clotrimazole has a degree of activity similar to griseofulvin when given orally, but i",
+            "journal": "Applied microbiology",
+            "year": "1971",
+            "authors": [
+              "Waitz J A",
+              "Moss E L",
+              "Weinstein M J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Antifungal Agents",
+              "Bacteria",
+              "Benzene Derivatives",
+              "Biological Assay",
+              "Candida",
+              "Candida albicans",
+              "Candidiasis",
+              "Fungi"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4943591/"
+          },
+          {
+            "pmid": "659044",
+            "title": "Topical agents in the treatment of superficial fungal infections.",
+            "abstract": "",
+            "journal": "International journal of dermatology",
+            "year": "1978",
+            "authors": [
+              "Winfield J L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Humans",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/659044/"
+          },
+          {
+            "pmid": "4563192",
+            "title": "Tolnaftate in the treatment of superficial mycotic infections.",
+            "abstract": "",
+            "journal": "The Southeast Asian journal of tropical medicine and public health",
+            "year": "1972",
+            "authors": [
+              "Vibhatavanija T",
+              "Phanich V",
+              "Thianprasit M",
+              "Youngchaiyud U"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Cutaneous",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Humans",
+              "Tinea",
+              "Tinea Pedis",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4563192/"
+          },
+          {
+            "pmid": "4565229",
+            "title": "Clinical efficacy studies of haloprogin, a new topical antimicrobial agent.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1972",
+            "authors": [
+              "Hermann H W"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alkynes",
+              "Anti-Infective Agents, Local",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Humans",
+              "Iodine",
+              "Phenols",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4565229/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endothrix infectious disease",
+        "txgnn_score": 0.9851253032684326,
+        "txgnn_rank": 14113,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "superficial mycosis",
+        "txgnn_score": 0.9848018288612366,
+        "txgnn_rank": 14323,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "778288",
+            "title": "Superficial mycoses.",
+            "abstract": "Twenty-five years ago many of the topical remedies for superficial mycoses were irritating, toxic, or allergenic. Total x-ray depilation of the scalp was the accepted mode of therapy for tinea capitis. The introduction of topical nystatin for candidiasis and tolnaftate for dermatophytosis were major advances, but tinea capitis, onychomycosis, and chronic tinea pedis still presented problems. Soon after its introduction in 1958, griseofulvin became the definitive form of therapy for all types of dermatophytosis and played a major role in abolishing large-scale epidemics of tinea capitis in some countries. Recently, haloprogin and the imidazole derivatives, miconazole and clotrimazole, which are topically active against dermatophytes and Candida albicans, have become available. Selective indicator media for isolating dermatophytes are useful diagnostic tools, but quicker methods of diagnosis which require little interpretation are still lacking. Epidemiologic studies in Vietnam again rev",
+            "journal": "The Journal of investigative dermatology",
+            "year": "1976",
+            "authors": [
+              "Taplin D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Animals",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Candidiasis",
+              "Dermatomycoses",
+              "Female",
+              "Griseofulvin",
+              "Hair Removal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/778288/"
+          },
+          {
+            "pmid": "1379146",
+            "title": "Superficial fungal infections of the skin. Diagnosis and current treatment recommendations.",
+            "abstract": "Superficial fungal infections are common. Most diagnoses of fungal infections of the skin can be made by physical examination, assisted by the use of a Wood's lamp, skin scrapings for microscopic examination, and fungal cultures. Dermatophyte infections are common at all ages, in both sexes, and they have a worldwide distribution. These infections include tinea capitis, tinea cruris, tinea pedis, tinea corporis, tinea manuum and tinea barbae. Tinea versicolor, caused by Malassezia furfur, and candidal infections are also common. Treatment modalities include oral and topical agents. Good personal hygiene is an important adjunct to antifungal therapy. Decisions regarding the appropriateness of therapy in a given patient must take into account the extent and location of the infection, the benefits and risks of each of the treatments, and cost. Oral therapies include griseofulvin, ketoconazole, and itraconazole. There are a large variety of topical treatments, including nystatin, selenium ",
+            "journal": "Drugs",
+            "year": "1992",
+            "authors": [
+              "Rezabek G H",
+              "Friedman A D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1379146/"
+          },
+          {
+            "pmid": "1090684",
+            "title": "Evaluation of the effectiveness of griseofulvin, tolnaftate, and placebo in the topical therapy of superficial dermatophytoses.",
+            "abstract": "",
+            "journal": "The Journal of investigative dermatology",
+            "year": "1975",
+            "authors": [
+              "Zarowny D P",
+              "Rogers R S",
+              "Tindall J P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Topical",
+              "Adult",
+              "Arthrodermataceae",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Griseofulvin",
+              "Humans",
+              "Ointments",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1090684/"
+          },
+          {
+            "pmid": "8077504",
+            "title": "Current therapy of dermatophytosis.",
+            "abstract": "In the past dermatophytes were treated with topical agents or, in the case of more recalcitrant or extensive disease, with oral antifungals (griseofulvin or ketoconazole). Topical therapies may be effective in many cases, but they have limitations. They may be viewed as inconvenient by the patient, thereby affecting compliance. Therapy with early oral antifungals entails long treatment periods until complete cure is obtained. For ketoconazole rare but serious side effects can occur, particularly with prolonged use. Griseofulvin is still the drug of choice for the treatment of tinea capitis of the Microsporum type. In recent years a few new antimycotic agents have been developed for systemic therapy of superficial fungal infections. Itraconazole is a broad-spectrum triazole. Fluconazole belongs to the same chemical class and was used mainly in systemic yeast infections and mucosal candidosis. Terbinafine is an allylamine and has been found to be effective and safe in brief therapy of de",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1994",
+            "authors": [
+              "Degreef H J",
+              "DeDoncker P R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acquired Immunodeficiency Syndrome",
+              "Administration, Oral",
+              "Administration, Topical",
+              "Allylamine",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Drug Administration Schedule",
+              "Fluconazole",
+              "Griseofulvin",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8077504/"
+          },
+          {
+            "pmid": "4619464",
+            "title": "A double-blind comparison of clotrimazole and tolnaftate therapy of superficial dermatophytoses.",
+            "abstract": "",
+            "journal": "Postgraduate medical journal",
+            "year": "1974",
+            "authors": [
+              "Male O"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Clotrimazole",
+              "Humans",
+              "Imidazoles",
+              "Tinea",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4619464/"
+          },
+          {
+            "pmid": "5844107",
+            "title": "Tolnaftate in superficial fungus infections.",
+            "abstract": "",
+            "journal": "American journal of diseases of children (1960)",
+            "year": "1965",
+            "authors": [
+              "Alban J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antifungal Agents",
+              "Child",
+              "Child, Preschool",
+              "Humans",
+              "Infant",
+              "Naphthalenes",
+              "Tinea",
+              "Tinea Capitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5844107/"
+          },
+          {
+            "pmid": "16989127",
+            "title": "[Use of topical antifungal agents].",
+            "abstract": "Topical antifungal agents are not absorbed when given orally. They act by direct contact on the fungus, this type of action requires the simultaneous presence of antifungal and fungus for a minimum of time. There are a large number of compounds belonging to different families of antifungals: polyens, azoles, allylamine and morpholine and antiseptic substances. The treatment of oropharyngeal candidiasis is based on topical antifungal agents: amphotericin B or nystatin, imidazoles such as clotrimazole or miconazole. Systemic antifungal agents are indicated in case or poor compliance to topical agents, in prophylaxis of highly relapsing disease, in oesophageal candidiasis and in Candida onychomycosis. A topical antifungal agent is the first choice to treat Candida intertrigo. In any case predisposing factors should be eradicated or amended. Infection to Malassezia spp. are treated topically with azoles or selenium sulphur. Oral ketoconazole is an alternative in severe cases. Dermatophytos",
+            "journal": "Therapie",
+            "year": "2006",
+            "authors": [
+              "Dupont Bertrand"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Humans",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16989127/"
+          },
+          {
+            "pmid": "10398626",
+            "title": "Systematic review of topical treatments for fungal infections of the skin and nails of the feet.",
+            "abstract": "To identify and synthesise the evidence for efficacy and cost effectiveness of topical treatments for superficial fungal infections of the skin and nails of the feet.",
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "1999",
+            "authors": [
+              "Hart R",
+              "Bell-Syer S E",
+              "Crawford F",
+              "Torgerson D J",
+              "Young P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Allylamine",
+              "Antifungal Agents",
+              "Azoles",
+              "Cost-Benefit Analysis",
+              "Dermatomycoses",
+              "Foot Dermatoses",
+              "Humans",
+              "Nonprescription Drugs",
+              "Onychomycosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10398626/"
+          },
+          {
+            "pmid": "14288002",
+            "title": "EFFECT OF TOLNAFTATE ON SUPERFICIAL MYCOTIC INFECTIONS.",
+            "abstract": "",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1964",
+            "authors": [
+              "ROBINSON H M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans",
+              "Naphthalenes",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14288002/"
+          },
+          {
+            "pmid": "3753622",
+            "title": "Superficial mycoses. Therapeutic agents and clinical applications.",
+            "abstract": "",
+            "journal": "Postgraduate medicine",
+            "year": "1986",
+            "authors": [
+              "Griffith M L",
+              "Flowers F P",
+              "Araujo O E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candidiasis",
+              "Ciclopirox",
+              "Griseofulvin",
+              "Humans",
+              "Imidazoles",
+              "Phenyl Ethers",
+              "Pyridones",
+              "Tinea",
+              "Tinea Versicolor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3753622/"
+          },
+          {
+            "pmid": "8393313",
+            "title": "[New antifungal agents in the treatment of superficial dermatomycoses].",
+            "abstract": "New antifungals for topical and systemic treatment of superficial mycotic infections of the skin and nails have been developed in the last decade. Terconazole is a potent drug in treating topically vaginal candidiasis. Amorolfine belongs to the chemical class of morpholine derivatives and is topically active against a wide range of fungal infections. Also naftifine and terbinafine, two new allylamines, can be used in local therapy of superficial mycotic infections of the skin. Itraconazole and fluconazole are both new triazoles for systemic use. Itraconazole has a broader spectrum and a higher safety profile than ketoconazole, caused by a greater specificity for the fungal cytochrome P 450 14-alpha-demethylase. The pharmacokinetic properties result in shorter treatments, even in onychomycosis. The mode of action of fluconazole is the same as for the azoles. This drug was being studied particularly in systemic mycoses and mucosal candidiasis. The activity of orally terbinafine is direct",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "1993",
+            "authors": [
+              "Degreef H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Azoles",
+              "Dermatomycoses",
+              "Fluconazole",
+              "Humans",
+              "Itraconazole",
+              "Ketoconazole",
+              "Naphthalenes",
+              "Terbinafine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8393313/"
+          },
+          {
+            "pmid": "14288003",
+            "title": "EFFECT OF TOLNAFTATE IN SUPERFICIAL FUNGUS INFECTIONS.",
+            "abstract": "",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1964",
+            "authors": [
+              "NEUHAUSER I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Fungi",
+              "Humans",
+              "Naphthalenes",
+              "Tolnaftate",
+              "Toxicology"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14288003/"
+          },
+          {
+            "pmid": "1037098",
+            "title": "New topical agents for dermatophytosis.",
+            "abstract": "Several new synthetic antifungal agents have recently become available for topical use. Reported experiences with haloprogin, miconazole and clotrimazole are reviewed. Topical preparations of these agents are nonirritating and effective in the treatment of superficial fungus infections. They are effective in the management of tinea versicolor and cutaneous candidiasis as well as dermatophytosis.",
+            "journal": "Cutis",
+            "year": "1976",
+            "authors": [
+              "Smith E B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Clotrimazole",
+              "Dermatomycoses",
+              "Humans",
+              "Miconazole",
+              "Ointments",
+              "Phenyl Ethers",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1037098/"
+          },
+          {
+            "pmid": "23248398",
+            "title": "A study to evaluate the price control of antifungal medicines and its practical applicability.",
+            "abstract": "Superficial fungal infections are common and treatment imposes economic burden on the patients. Government of India had introduced price control over griseofulvin and tolnaftate in 1995; however, this measure can only benefit the needy if the policy is harmonized with the health-care service provider, that is, dermatologists. The aim of this study was to evaluate the existing Government mechanisms over price control of antifungal medications and its reach to the people-in-need.",
+            "journal": "Indian journal of pharmacology",
+            "year": "2012",
+            "authors": [
+              "Sil Amrita",
+              "Das Nilay Kanti",
+              "Ghosh Pramit",
+              "Datta Pijush Kanti",
+              "Islam Chowdhury Nazrul"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Cost Control",
+              "Federal Government",
+              "Government Regulation",
+              "Humans",
+              "India",
+              "Mycoses",
+              "Physicians",
+              "Practice Patterns, Physicians'",
+              "Surveys and Questionnaires"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23248398/"
+          },
+          {
+            "pmid": "4563192",
+            "title": "Tolnaftate in the treatment of superficial mycotic infections.",
+            "abstract": "",
+            "journal": "The Southeast Asian journal of tropical medicine and public health",
+            "year": "1972",
+            "authors": [
+              "Vibhatavanija T",
+              "Phanich V",
+              "Thianprasit M",
+              "Youngchaiyud U"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Cutaneous",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Humans",
+              "Tinea",
+              "Tinea Pedis",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4563192/"
+          },
+          {
+            "pmid": "20347665",
+            "title": "Current concepts in systemic and topical therapy for superficial mycoses.",
+            "abstract": "There presently exists a wide selection of choices in the treatment of superficial mycoses. The main categories of broad-spectrum agents are the allylamines and imidazoles, which have been tried and proven over more than 2 decades of usage with good safety. Nystatin and griseofulvin have even longer experience of about 5 decades but have niche usage for yeasts and dermatophytes, respectively. Although no new therapeutic groups have appeared, extensive development of vehicles and delivery systems has enhanced therapeutic results and increased patient compliance.",
+            "journal": "Clinics in dermatology",
+            "year": "2010",
+            "authors": [
+              "Millikan Larry E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Azoles",
+              "Dermatomycoses",
+              "Drug Administration Schedule",
+              "Drug Resistance, Fungal",
+              "Fluconazole",
+              "Griseofulvin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20347665/"
+          },
+          {
+            "pmid": "5952516",
+            "title": "A topical agent for the treatment of superficial fungal infections of the skin. Tolnaftate (Tinactin).",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1966",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dermatomycoses",
+              "Humans",
+              "Thiocarbamates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5952516/"
+          },
+          {
+            "pmid": "5856396",
+            "title": "[Local therapeutic trial of tolnaftate in the control of several superficial cutaneous mycoses].",
+            "abstract": "",
+            "journal": "Prensa medica argentina",
+            "year": "1965",
+            "authors": [
+              "Molina Leguizamón E B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Mycoses",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5856396/"
+          },
+          {
+            "pmid": "4893178",
+            "title": "Observations on a clinico-therapeutic trial with a new tropical fugicidal agent-Tolnaftate 1 p.c. solution: (brand name in India-Tinaderm) on superficial mycotic infections of the skin.",
+            "abstract": "",
+            "journal": "Indian journal of dermatology",
+            "year": "1969",
+            "authors": [
+              "Banerjee B N",
+              "Chakravarty J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4893178/"
+          },
+          {
+            "pmid": "659044",
+            "title": "Topical agents in the treatment of superficial fungal infections.",
+            "abstract": "",
+            "journal": "International journal of dermatology",
+            "year": "1978",
+            "authors": [
+              "Winfield J L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Humans",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/659044/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tinea profunda",
+        "txgnn_score": 0.9814144968986512,
+        "txgnn_rank": 16328,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ophthalmic herpes zoster",
+        "txgnn_score": 0.9215790629386902,
+        "txgnn_rank": 32036,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "orbital cellulitis",
+        "txgnn_score": 0.9075056314468384,
+        "txgnn_rank": 34017,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "skin disease caused by infection",
+        "txgnn_score": 0.9044952988624572,
+        "txgnn_rank": 34346,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05315141",
+            "title": "Multicenter Cohort Study of ANCA-associated Small Vasculitis in Hunan Province of China",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2022-03-16",
+            "completion_date": "2027-03-16",
+            "country": "China",
+            "enrollment": 500,
+            "brief_summary": "This study aimed to explore the incidence of Anti-neutrophil cytoplasmic antibody (ANCA）-associated vasculitis (AAV) progression and its association with adverse consequences. It will enroll approximately 500 AAV patients in Hunan province of China and follow-up for at least 5 years. Demographic characteristics, clinical and laboratory data will be collected at baseline and every follow-up. The principal clinical outcomes of the study consist of end stage renal disease (ESRD) and death.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Fulfill 2012 criteria of ANCA associated vasculitis and agree to sign informed consent\n\nExclusion Criteria:\n\n* Do not agree to sign informed consent",
+            "endpoints": [
+              "Death",
+              "End stage renal disease or significant loss of renal function"
+            ],
+            "sponsor": "Xiangya Hospital of Central South University",
+            "url": "https://clinicaltrials.gov/study/NCT05315141"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03404895",
+            "title": "The Mount Sinai Diabetic Foot Ulcer Prospective Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2018-04-13",
+            "completion_date": "2024-12",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "The purpose of this study is to evaluate whether placing stent(s) for a blockage in a leg vein will help improve the healing of diabetic foot ulcers (DFU). The investigators know from having taken care of many patients with diabetic foot ulcers that it is a major cause of disability and amputation. These diabetic foot ulcers frequently heal slowly or not at all. They sometimes become infected and require antibiotic therapy, debridement and amputation. The investigators normally take care of a di",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Presence of diabetic foot ulcer within the foot (located distal to the ankle and proximal to base of toes)\n* Lower extremity edema\n* MRA or CTA showing stenosis of iliac vein or indirect findings that suggest presence of iliac vein stenosis (distal venous dilation and presence",
+            "endpoints": [
+              "Number of days to ulcer healing"
+            ],
+            "sponsor": "Icahn School of Medicine at Mount Sinai",
+            "url": "https://clinicaltrials.gov/study/NCT03404895"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07162688",
+            "title": "Effects and Mechanism of Omega-3 Polyunsaturated Fatty Acids on Acute Graft-versus-host Disease (aGVHD) After Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "PHASE1, PHASE2",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2025-05-16",
+            "completion_date": "2028-06-15",
+            "country": "China",
+            "enrollment": 30,
+            "brief_summary": "Study Title:\n\nA Study on the Effects and Mechanisms of Omega-3 Polyunsaturated Fatty Acids on Acute Graft-Versus-Host Disease (aGVHD) Following Allogeneic Hematopoietic Stem Cell Transplantation\n\nStudy Type:\n\nOpen-label, randomized, single-center proof-of-concept clinical trial\n\nObjective:\n\nTo evaluate the immunomodulatory and metabolic effects of Omega-3 polyunsaturated fatty acids (PUFAs) in patients undergoing allogeneic hematopoietic stem cell transplantation (allo-HSCT), and to explore thei",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients undergoing allogeneic hematopoietic stem cell transplantation (allo-HSCT)\n2. Age 18 to 65 years (inclusive)\n3. Male or female\n4. Eastern Cooperative Oncology Group (ECOG) performance status ≤ 3\n5. Expected survival of at least 100 days\n6. Willingness to participate a",
+            "endpoints": [
+              "Incidence and Severity of Acute Graft-versus-Host Disease (aGVHD) Within 100 Days After Allogeneic Hematopoietic Stem Cell Transplantation"
+            ],
+            "sponsor": "Fujian Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT07162688"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37415917",
+            "title": "Tinea pedis: an updated review.",
+            "abstract": "Tinea pedis is one of the most common superficial fungal infections of the skin, with various clinical manifestations. This review aims to familiarize physicians with the clinical features, diagnosis and management of tinea pedis.",
+            "journal": "Drugs in context",
+            "year": "2023",
+            "authors": [
+              "Leung Alexander Kc",
+              "Barankin Benjamin",
+              "Lam Joseph M",
+              "Leong Kin Fon",
+              "Hon Kam Lun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37415917/"
+          },
+          {
+            "pmid": "38874607",
+            "title": "[Dermatomycoses: topical and systemic antifungal treatment].",
+            "abstract": "Topical antifungals with activity against dermatophytes include amorolfine, allylamines, azoles, ciclopiroxolamine, and tolnaftate. Polyene antimycotics, such as amphotericin B and nystatin, alternatively, miconazole are suitable for yeast infections of the skin and mucous membranes. For severe yeast infections of the skin and mucous membranes, oral triazole antimycotics, such as fluconazole and itraconazole, are used. Pityriasis versicolor is treated topically with antimycotics, and in severe forms also orally with itraconazole, alternatively fluconazole. Terbinafine, itraconazole and fluconazole are currently available for the systemic treatment of severe dermatophytoses, tinea capitis and onychomycosis. In addition to proven therapeutic regimens, unapproved (off-label use) intermittent low-dose therapies are increasingly being used, particularly in onychomycosis. Oral antimycotics for the treatment of tinea capitis and onychomycosis in children and adolescents can only be used off-l",
+            "journal": "Dermatologie (Heidelberg, Germany)",
+            "year": "2024",
+            "authors": [
+              "Nenoff Pietro",
+              "Klonowski Esther",
+              "Uhrlaß Silke",
+              "Schaller Martin",
+              "Paasch Uwe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Administration, Topical",
+              "Administration, Oral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38874607/"
+          },
+          {
+            "pmid": "32653607",
+            "title": "Tolnaftate inhibits ergosterol production and impacts cell viability of Leishmania sp.",
+            "abstract": "Leishmaniasis is an infectious disease caused by protozoan parasites of the genus Leishmania. The treatment of all forms of leishmaniasis relies on first-line drug, pentavalent antimonial, and in cases of drug failure, the second-line drug amphotericin B has been used. Besides the high toxicity of drugs, parasites can be resistant to antimonial in some areas of the World, making it necessary to perform further studies for the characterization of new antileishmanial agents. Thus, the aim of the present work was to evaluate the leishmanicidal activity of tolnaftate, a selective reversible and non-competitive inhibitor of the fungal enzyme squalene epoxidase, which is involved in the biosynthesis of ergosterol, essential to maintain membrane physiology in fungi as well as trypanosomatids. Tolnaftate eliminated promastigote forms of L. (L.) amazonensis, L. (V.) braziliensis and L. (L.) infantum (EC50 ~ 10 μg/mL and SI ~ 20 for all leishmanial species), and intracellular amastigote forms of",
+            "journal": "Bioorganic chemistry",
+            "year": "2020",
+            "authors": [
+              "Yamamoto Eduardo Seiji",
+              "de Jesus Jéssica Adriana",
+              "Bezerra-Souza Adriana",
+              "Brito Juliana R",
+              "Lago João Henrique G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Antiprotozoal Agents",
+              "Cell Survival",
+              "Ergosterol",
+              "Humans",
+              "Leishmania",
+              "Leishmaniasis",
+              "Mice",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32653607/"
+          },
+          {
+            "pmid": "37736606",
+            "title": "First report of tinea corporis caused by Trichophyton quinckeanum in Iran and its antifungal susceptibility profile.",
+            "abstract": "Trichophyton quinckeanum, a known zoophilic dermatophyte responsible for favus form in rodents and camels, is occasionally reported to cause human infections.",
+            "journal": "Current medical mycology",
+            "year": "2022",
+            "authors": [
+              "Aghili Seyed Reza",
+              "Alehashemi Raheleh",
+              "Abastabar Mahdi",
+              "Niknejad Farhad",
+              "Haghani Iman"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37736606/"
+          },
+          {
+            "pmid": "1379146",
+            "title": "Superficial fungal infections of the skin. Diagnosis and current treatment recommendations.",
+            "abstract": "Superficial fungal infections are common. Most diagnoses of fungal infections of the skin can be made by physical examination, assisted by the use of a Wood's lamp, skin scrapings for microscopic examination, and fungal cultures. Dermatophyte infections are common at all ages, in both sexes, and they have a worldwide distribution. These infections include tinea capitis, tinea cruris, tinea pedis, tinea corporis, tinea manuum and tinea barbae. Tinea versicolor, caused by Malassezia furfur, and candidal infections are also common. Treatment modalities include oral and topical agents. Good personal hygiene is an important adjunct to antifungal therapy. Decisions regarding the appropriateness of therapy in a given patient must take into account the extent and location of the infection, the benefits and risks of each of the treatments, and cost. Oral therapies include griseofulvin, ketoconazole, and itraconazole. There are a large variety of topical treatments, including nystatin, selenium ",
+            "journal": "Drugs",
+            "year": "1992",
+            "authors": [
+              "Rezabek G H",
+              "Friedman A D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1379146/"
+          },
+          {
+            "pmid": "1097234",
+            "title": "Clotrimazole: a review of its antifungal activity and therapeutic efficacy.",
+            "abstract": "Clotrimazole 2, a synthetic imidazole derivative, is primarily used locally in the treatment of vaginal and skin infections due to yeasts and dermatophytes. In vitro, it is most active against Candida spp., Trichophyton spp., Microsporum spp. and Malazzesia fuffur (Pityrosporon orbiculare). In addition, it has some in vitro activity against certain Gram-positive bacteria, and at very high concentrations has activity against Trichomonas spp. In the treatment of vaginal candidiasis, clotrimazole vaginal tablets have produced cure rates comparable with those of conventional nystatin vaginal tablets. There have been no published comparisons with nystatin vaginal cream or foaming vaginal tablets - nystatin dosage forms preferred by some clinicians. Cootrimazole has also been successful in patients who had failed to respond to other antifungal agents such as nystatin and amphotericin B. Results in trichomonal vaginitis are not impressive. Skin infections caused by Candida or dermatophytes ha",
+            "journal": "Drugs",
+            "year": "1975",
+            "authors": [
+              "Sawyer P R",
+              "Brogden R N",
+              "Pinder R M",
+              "Speight T M",
+              "Avery"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amoeba",
+              "Animals",
+              "Candidiasis",
+              "Clotrimazole",
+              "Dogs",
+              "Drug Resistance, Microbial",
+              "Female",
+              "Fungi",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1097234/"
+          },
+          {
+            "pmid": "2029718",
+            "title": "Oxiconazole nitrate: pharmacology, efficacy, and safety of a new imidazole antifungal agent.",
+            "abstract": "Oxiconazole nitrate (1%) cream became available in the United States in 1989 for the once-daily treatment of tinea pedis, tinea cruris, and tinea corporis. It has also proved valuable in the once-daily treatment of tinea (pityriasis) versicolor. In vitro oxiconazole is highly effective against many dermatophytes, including Trichophyton rubrum, Trichophyton mentagrophytes, Trichophyton tonsurans, and Epidermophyton floccosum. After application to the skin, oxiconazole is rapidly absorbed into the stratum corneum, maximum concentrations often being attained within 100 minutes. Fungicidal concentrations are maintained in the epidermis, upper corium, and deeper corium for at least five hours, and levels exceeding the minimum inhibitory concentrations of susceptible fungi are present in the corneum, epidermis, upper corium, and the hair follicle for over 16 hours. Applied once daily for four weeks in the treatment of tinea pedis or for two weeks in the treatment of tinea corporis, tinea cru",
+            "journal": "Clinical therapeutics",
+            "year": "1991",
+            "authors": [
+              "Jegasothy B V",
+              "Pakes G E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Fungi",
+              "Humans",
+              "Imidazoles",
+              "Tinea",
+              "Tinea Pedis",
+              "Tinea Versicolor",
+              "Yeasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2029718/"
+          },
+          {
+            "pmid": "2940791",
+            "title": "Current treatment of dermatophytoses.",
+            "abstract": "There is a wide variety of highly effective topical antifungal agents available for the treatment of dermatophytosis. In more widespread infections or those involving hair or nails oral therapy with griseofulvin or ketoconazole can be used. With both forms of therapy certain types of dermatophyte infection are clinically resistant to treatment. These include onychomycosis, infections of the sole caused by T.rubrum and certain forms of tinea capitis (e.g. favus) or tinea corporis. In future consideration needs to be given to find the optimum duration and frequency of treatment and better methods of allowing penetration of drugs into nails and heavely keratinised sites.",
+            "journal": "Acta dermato-venereologica. Supplementum",
+            "year": "1986",
+            "authors": [
+              "Hay R J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Griseofulvin",
+              "Humans",
+              "Imidazoles",
+              "Ketoconazole",
+              "Onychomycosis",
+              "Phenyl Ethers",
+              "Tinea",
+              "Tinea Capitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2940791/"
+          },
+          {
+            "pmid": "2619275",
+            "title": "In vitro and in vivo activities of piritetrate (M-732), a new antidermatophytic thiocarbamate.",
+            "abstract": "Piritetrate (M-732), a new topical antifungal agent belonging chemically to the thiocarbamates, was demonstrated to possess a potent selective antidermatophytic activity. In terms of its MICs in susceptibility testing, mainly done by using Sabouraud dextrose agar plates, piritetrate exhibited several- to 10-fold-stronger antidermatophytic activity than tolnaftate, a reference thiocarbamate. Furthermore, piritetrate was found to show a broader antifungal spectrum than tolnaftate; relatively many species and strains of dematiaceous fungi, dimorphic fungi, and some other filamentous fungi as well as a few strains of Cryptococcus neoformans were fairly susceptible to piritetrate, while almost all the tested species and strains were resistant to tolnaftate. All the tested species of the genus Candida were, however, resistant to both compounds. Variables which can influence antimicrobial activity caused few changes in the MICs of either compound against Trichophyton mentagrophytes; however, ",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1989",
+            "authors": [
+              "Iwata K",
+              "Yamashita T",
+              "Uehara H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Bacteria",
+              "Culture Media",
+              "Fungi",
+              "Guinea Pigs",
+              "Hydrogen-Ion Concentration",
+              "Male",
+              "Mice",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2619275/"
+          },
+          {
+            "pmid": "8393313",
+            "title": "[New antifungal agents in the treatment of superficial dermatomycoses].",
+            "abstract": "New antifungals for topical and systemic treatment of superficial mycotic infections of the skin and nails have been developed in the last decade. Terconazole is a potent drug in treating topically vaginal candidiasis. Amorolfine belongs to the chemical class of morpholine derivatives and is topically active against a wide range of fungal infections. Also naftifine and terbinafine, two new allylamines, can be used in local therapy of superficial mycotic infections of the skin. Itraconazole and fluconazole are both new triazoles for systemic use. Itraconazole has a broader spectrum and a higher safety profile than ketoconazole, caused by a greater specificity for the fungal cytochrome P 450 14-alpha-demethylase. The pharmacokinetic properties result in shorter treatments, even in onychomycosis. The mode of action of fluconazole is the same as for the azoles. This drug was being studied particularly in systemic mycoses and mucosal candidiasis. The activity of orally terbinafine is direct",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "1993",
+            "authors": [
+              "Degreef H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Azoles",
+              "Dermatomycoses",
+              "Fluconazole",
+              "Humans",
+              "Itraconazole",
+              "Ketoconazole",
+              "Naphthalenes",
+              "Terbinafine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8393313/"
+          },
+          {
+            "pmid": "3435103",
+            "title": "Activity of terbinafine in experimental fungal infections of laboratory animals.",
+            "abstract": "The allylamine derivative terbinafine is the first antifungal agent with primary fungicidal properties against dermatophytes which acts systemically after oral application as well as locally after topical application. Comparative oral studies carried out with griseofulvin and ketoconazole in model infections such as guinea pig trichophytosis and microsporosis revealed terbinafine to be superior to the reference compounds both clinically and mycologically. An excellent antimycotic activity of terbinafine was also demonstrable after topical treatment of guinea pig dermatophytoses caused by Trichophyton mentagrophytes or Microsporum canis. Results of comparative chemotherapeutic studies carried out with econazole and tolnaftate demonstrated superior efficacy of terbinafine in the treatment of both trichophytosis and microsporosis. Skin infections of guinea pigs caused by Candida albicans and vaginal candidiasis in rats proved to be responsive to a topical application of terbinafine also. ",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1987",
+            "authors": [
+              "Petranyi G",
+              "Meingassner J G",
+              "Mieth H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Clotrimazole",
+              "Dermatomycoses",
+              "Female",
+              "Guinea Pigs",
+              "Ketoconazole",
+              "Miconazole",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3435103/"
+          },
+          {
+            "pmid": "2073116",
+            "title": "Effects of butenafine hydrochloride, a new benzylamine derivative, on experimental dermatophytosis in guinea pigs.",
+            "abstract": "Butenafine hydrochloride, N-4-tert-butylbenzyl-N-methyl-1-naphthalenemethylamine hydrochloride (butenafine), is a novel antifungal agent of the class of benzylamine derivatives. Butenafine was investigated for its activity against guinea pig dermatophytosis caused by Trichophyton mentagrophytes or Microsporum canis in comparison with those of naftifine, tolnaftate, clotrimazole, and bifonazole. Topical butenafine showed excellent efficacy against dermatophytosis when it was applied once daily, and the effect was superior to those of all four reference drugs. When applied once at 24 or 48 h before infection, the drug exhibited excellent prophylactic efficacy against experimental T. mentagrophytes infection. The concentrations of butenafine in animal skin at 24 and 48 h after application of 0.2 ml of a 1% solution were several hundred times higher than those required to kill T. mentagrophytes and M. canis. The good efficacy of butenafine against dermatophytosis may be attributable to its",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1990",
+            "authors": [
+              "Arika T",
+              "Yokoo M",
+              "Hase T",
+              "Maeda T",
+              "Amemiya K"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Benzylamines",
+              "Dermatomycoses",
+              "Gas Chromatography-Mass Spectrometry",
+              "Guinea Pigs",
+              "Male",
+              "Microbial Sensitivity Tests",
+              "Microsporum",
+              "Naphthalenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2073116/"
+          },
+          {
+            "pmid": "6505909",
+            "title": "[Dermatophytosis caused by Aphanoascus fulvescens].",
+            "abstract": "Aphanoascus fulvescens was isolated from lesions resembling a dermatophyte infection in a 45-year-old woman who had used steroid cream for several months to treat a dermatosis of the neck. Treatment with griseofulvin and tolnaftate cured the lesions in 6 weeks. The microscopic characteristics of the isolate and its size differed slightly from those described by several other authors, and bore a closer resemblance to isolates previously described from Australia and New Guinea.",
+            "journal": "Sabouraudia",
+            "year": "1984",
+            "authors": [
+              "Marín G",
+              "Campos R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ascomycota",
+              "Dermatomycoses",
+              "Drug Therapy, Combination",
+              "Female",
+              "Griseofulvin",
+              "Humans",
+              "Middle Aged",
+              "Skin",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6505909/"
+          },
+          {
+            "pmid": "7247367",
+            "title": "In vivo antimycotic activity of naftifine.",
+            "abstract": "Naftifine, a new antifungal agent belonging chemically to the allylamines, was tested for its in vivo activity after topical application against guinea pig skin infections caused by Trichophyton mentagrophytes, T. mentagrophytes var. quinckeanum, or Microsporum racemosum. Compared with standard compounds, naftifine proved to be highly effective mycologically and clinically after topical application in the above models.",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1981",
+            "authors": [
+              "Petranyi G",
+              "Georgopoulos A",
+              "Mieth H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Econazole",
+              "Guinea Pigs",
+              "Male",
+              "Miconazole",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7247367/"
+          },
+          {
+            "pmid": "718181",
+            "title": "Interdigital athlete's foot. The interaction of dermatophytes and resident bacteria.",
+            "abstract": "Quantitative cultures in 140 cases of interdigital \"athlete's foot\" established the following clinical-microbiological correlations. In 39 cases of mild, scaling, relatively asymptomatic variety, fungi were recovered in 84% of cases. As the disease progressed to maceration, hyperkeratosis, and increased symptoms, recovery of fungi fell to 55% in moderately symptomatic and to 36% in severe cases. Symptomatic cases had increasing numbers of resident aerobic organisms, particularly large colony diphtheroids. Experimental manipulations of the interspace microflora in volunteers, monitored with quantitative cultures, demonstrated that symptomatic, macerated, hyperkeratotic process results from an overgrowth of resident organisms if the stratum corneum barrier is damaged by preexisting fungi, while overgrowth of the same organisms in normal, fungus-free interspaces does not produce lesions. These experiments support the conclusion that athlete's foot represents a continuum from a relatively ",
+            "journal": "Archives of dermatology",
+            "year": "1978",
+            "authors": [
+              "Leyden J J",
+              "Kligman A M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Bacteria",
+              "Child",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/718181/"
+          },
+          {
+            "pmid": "9567397",
+            "title": "[Mycetomas caused by Microsporum canis. Report of one case].",
+            "abstract": "We report an eight years old boy presenting with a pyogenic granuloma of the scalp, generalized alopecia, descamative plates in the neck, trunk and limbs and nail involvement. Cultures for fungus of all these lesions disclosed Microspore canis. The patient was treated with oral griseofulvin, miconazole and topical tolnaftate. Five years later and after several incomplete treatments, the patient returns with a fistulous mass of 15 x 8 cm in the dorsal area whose culture revealed Microspore canis. The mass was excised and oral ketoconazole was indicated. After three months of follow up, the patient was lost from control.",
+            "journal": "Revista medica de Chile",
+            "year": "1997",
+            "authors": [
+              "Zaror L",
+              "Moreno M I",
+              "Hering M",
+              "Siegmund I",
+              "Norambuena L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Child",
+              "Humans",
+              "Male",
+              "Microsporum",
+              "Mycetoma",
+              "Onychomycosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9567397/"
+          },
+          {
+            "pmid": "6487194",
+            "title": "Favus in a fighting cock caused by Microsporum gallinae.",
+            "abstract": "The first diagnosis of favus in chickens in Costa Rica was made in a 1-year-old fighting cock that had lesions surrounding the comb. The etiologic agent was isolated and identified as Microsporum gallinae. The rooster recovered during topical treatment with tolnaftate and oral treatment with griseofulvin.",
+            "journal": "Avian diseases",
+            "year": "1984",
+            "authors": [
+              "Fonseca E",
+              "Mendoza L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chickens",
+              "Comb and Wattles",
+              "Male",
+              "Microsporum",
+              "Poultry Diseases",
+              "Tinea Favosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6487194/"
+          },
+          {
+            "pmid": "3992426",
+            "title": "[Tinea caused by Microsporum canis in children under 30 days of age].",
+            "abstract": "Six cases of ringworm due to Microsporum canis are reported in infants no more than 30 days old. The infections came from cats. The patients responded to therapy with griseofulvin and tolnaftate, miconazole or iodine.",
+            "journal": "Sabouraudia",
+            "year": "1985",
+            "authors": [
+              "Zaror L",
+              "Moreno M I",
+              "Bilbao M T"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cat Diseases",
+              "Cats",
+              "Dermatomycoses",
+              "Diagnosis, Differential",
+              "Dog Diseases",
+              "Dogs",
+              "Female",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3992426/"
+          },
+          {
+            "pmid": "2756514",
+            "title": "Clinical examinations with chinofungin spray and chinofungin powder.",
+            "abstract": "Tolnaftate is effective in the local treatment of dermatophyte infections. It is recommended primarily in infections caused by Trichophyton rubrum, Trichophyton mentagrophytes, Epidermophyton floccosum, Microsporum canis and Malassezia furfur. It may be useful as an adjuvant local therapy in chronic dermatophyte infections treated with griseofulvin.",
+            "journal": "Therapia Hungarica (English edition)",
+            "year": "1989",
+            "authors": [
+              "Török I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aerosols",
+              "Chronic Disease",
+              "Dermatomycoses",
+              "Humans",
+              "Powders",
+              "Tinea Versicolor",
+              "Tolnaftate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2756514/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious mononucleosis",
+        "txgnn_score": 0.9008677005767822,
+        "txgnn_rank": 34722,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00525",
+    "name": "Tolnaftate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tolnaftate"
+      },
+      "queried_at": "2026-03-09T20:00:04.252181",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tolnaftate"
+      },
+      "queried_at": "2026-03-09T20:00:08.530869",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T20:00:10.709258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T20:00:17.685435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T20:00:19.998471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T20:00:21.576356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T20:00:27.165266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T20:00:27.966532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-09T20:00:29.104331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-09T20:00:38.021084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-09T20:00:41.355663",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T20:00:42.176878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T20:00:47.171774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T20:00:48.520369",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T20:00:51.313586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T20:00:55.904216",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T20:01:00.767498",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T20:01:02.075084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T20:01:06.634050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T20:01:07.851745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "ophthalmic herpes zoster"
+      },
+      "queried_at": "2026-03-09T20:01:08.915507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "ophthalmic herpes zoster"
+      },
+      "queried_at": "2026-03-09T20:01:13.127928",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "ophthalmic herpes zoster"
+      },
+      "queried_at": "2026-03-09T20:01:13.980419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "orbital cellulitis"
+      },
+      "queried_at": "2026-03-09T20:01:15.447790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "orbital cellulitis"
+      },
+      "queried_at": "2026-03-09T20:01:21.702459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "orbital cellulitis"
+      },
+      "queried_at": "2026-03-09T20:01:22.505201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "skin disease caused by infection"
+      },
+      "queried_at": "2026-03-09T20:01:24.876910",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "skin disease caused by infection"
+      },
+      "queried_at": "2026-03-09T20:01:29.487694",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "skin disease caused by infection"
+      },
+      "queried_at": "2026-03-09T20:01:33.429980",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "infectious mononucleosis"
+      },
+      "queried_at": "2026-03-09T20:01:34.708892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "infectious mononucleosis"
+      },
+      "queried_at": "2026-03-09T20:01:40.918838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tolnaftate",
+        "disease": "infectious mononucleosis"
+      },
+      "queried_at": "2026-03-09T20:01:42.099984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T20:01:42.119406"
+  }
+}

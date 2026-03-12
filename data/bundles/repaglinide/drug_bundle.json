@@ -1,0 +1,551 @@
+{
+  "drug": {
+    "inn": "Repaglinide",
+    "drugbank_id": "DB00912",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.987708330154419,
+        "txgnn_rank": 12266,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.9848265647888184,
+        "txgnn_rank": 14308,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.9848265647888184,
+        "txgnn_rank": 14309,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.98466956615448,
+        "txgnn_rank": 14405,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.9779850244522096,
+        "txgnn_rank": 17987,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9765126705169678,
+        "txgnn_rank": 18648,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9760565757751464,
+        "txgnn_rank": 18854,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.9757801294326782,
+        "txgnn_rank": 18977,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10746006",
+            "title": "[Insulin secretion and repaglinide].",
+            "abstract": "The natural history of type 2 diabetes involves a progressive pancreatic beta-cell dysfunction leading to quantitative, qualitative and/or temporal abnormalities in insulin secretion and insensitivity to insulin action which predominates in muscles. These abnormalities can be observed during early phases of glucose intolerance, but their determinism remains unclear. The high prevalence of type 2 diabetes, its increasing incidence among developed countries and the huge cost induced by diabetic complications explain why this disease is being viewed as a major public health issue. An earlier diagnosis by general practitioners and more intensive treatments are urged for patient and social beneficial outcome. In addition to non pharmacological (dietary, physical activity) approaches, several drugs were established as efficient therapies for type 2 diabetic patients: sulfonylureas acting by enhancing insulin secretion, metformin improving insulin resistance, or acarbose delaying carbohydrate",
+            "journal": "Diabetes & metabolism",
+            "year": "1999",
+            "authors": [
+              "Owens D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carbamates",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Angiopathies",
+              "Diet, Diabetic",
+              "Exercise",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Insulin Secretion",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10746006/"
+          },
+          {
+            "pmid": "10746008",
+            "title": "[The impact of regulation of postprandial glucose in practice].",
+            "abstract": "Meal and post-meal periods define a post-prandial state covering about 66% of day duration and characterized by a glucose and other nutrients influx into the blood flow. Post-prandial hyperglycemia can be an early feature of glucose intolerance, indicating a failure to control for post-prandial glucose load, but mostly characterizes type 2 diabetes, reflecting quantitative and/or qualitative abnormalities in insulin secretion by pancreatic beta cells. Post-prandial hyperglycemia contributes to raise glycated hemoglobin (HbA1c) level, which as an indicator of total glycemic load, is tightly correlated with the incidence of micro- and macroangiopathy in type 2 diabetes. It can induce or deteriorate fasting hyperglycemia and be associated with coagulation activation and/or lipid metabolism abnormalities, the latter being considered as cardiovascular risk factors, even in non diabetic populations. Therefore caring for post-prandial glucose regulation is particularly relevant in glucose int",
+            "journal": "Diabetes & metabolism",
+            "year": "1999",
+            "authors": [
+              "Vergès B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Blood Glucose",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Hyperglycemia",
+              "Insulin",
+              "Insulin Secretion",
+              "Islets of Langerhans",
+              "Postprandial Period"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10746008/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.9743435382843018,
+        "txgnn_rank": 19590,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.9359328746795654,
+        "txgnn_rank": 29557,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00912",
+    "name": "Repaglinide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Repaglinide"
+      },
+      "queried_at": "2026-03-10T06:29:15.764015",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Repaglinide"
+      },
+      "queried_at": "2026-03-10T06:29:17.819064",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T06:29:18.366031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T06:29:21.051697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T06:29:21.652399",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:22.151420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:25.611039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:26.363526",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:27.316925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:32.149401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:32.918491",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:33.614205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:36.462992",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T06:29:37.167935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:29:37.675217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:29:42.448803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:29:43.124705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:29:43.679565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:29:46.973636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:29:47.699219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T06:29:48.425329",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T06:29:53.786603",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T06:29:54.606684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T06:29:55.232738",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T06:29:59.257165",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T06:30:01.653529",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:30:02.183678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:30:04.989038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:30:06.224673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T06:30:06.885195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T06:30:10.451446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Repaglinide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T06:30:11.253673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:30:11.277130"
+  }
+}

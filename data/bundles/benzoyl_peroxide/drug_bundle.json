@@ -1,0 +1,605 @@
+{
+  "drug": {
+    "inn": "Benzoyl peroxide",
+    "drugbank_id": "DB09096",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "vulvar inverted follicular keratosis",
+        "txgnn_score": 0.9991899132728576,
+        "txgnn_rank": 1658,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "2-hydroxyethyl methacrylate sensitization",
+        "txgnn_score": 0.9943451881408693,
+        "txgnn_rank": 7057,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9916894435882568,
+        "txgnn_rank": 9257,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.990576148033142,
+        "txgnn_rank": 10139,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07015931",
+            "title": "Efficacy of 0.025% Retinoic Acid Cream Compared to 0.1% Adapalene Cream on Mild Acne Vulgaris, as Well as Safety Profile and Post-Acne Sequelae in Fitzpatrick Skin Types III-V: A Randomized Double-Blind Clinical Trial Using the Split-Face Method",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2024-11-30",
+            "completion_date": "2025-03-15",
+            "country": "Indonesia",
+            "enrollment": 23,
+            "brief_summary": "The goal of this clinical trial is to compare the effectiveness, safety profile, and post-acne sequelae of 0.025% retinoic acid cream versus 0.1% adapalene cream for mild acne vulgaris in individuals with Fitzpatrick skin types III-V.\n\nMain research questions are:\n\n1. How does 0.025% retinoic acid cream compare to 0.1% adapalene cream in reducing the total number of acne lesions in patients with mild acne vulgaris and Fitzpatrick skin types III-V?\n2. What is the severity of adverse effects that ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of mild acne vulgaris, defined as fewer than 20 comedonal lesions, fewer than 15 inflammatory lesions, or a total lesion count of 30 or less, with a difference in total lesion count between the two sides of the face ≤ 5 lesions.\n* Minimum age of 15 years.\n* ",
+            "endpoints": [
+              "Comparison of the percentage reduction in total acne lesions between the 0.025% tretinoin cream group and the 0.1% adapalene cream group"
+            ],
+            "sponsor": "Indonesia University",
+            "url": "https://clinicaltrials.gov/study/NCT07015931"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21034705",
+            "title": "[Pseudofolliculitis barbae].",
+            "abstract": "Pseudofolliculitis barbae is a chronic, irritating, and potentially disfiguring condition that develops as a result of attempts to eliminate hair from the beard area, usually by shaving. It is difficult to determine the incidence of the disorder, but some studies report that it affects up to 1 of every 5 caucasian individuals and that it is much more common in black persons. Clinically it is characterized by the appearance of inflammatory papules and pustules. Once pseudofolliculitis has become established, treatment consists of avoiding shaving and the use of medical treatment similar to that used in acne. However, the long-term result is much more dependent on prevention through a correct shaving technique. In severe cases or when a definitive solution is sought, the treatment of choice is photodepilation.",
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2010",
+            "authors": [
+              "Ribera M",
+              "Fernández-Chico N",
+              "Casals M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzoyl Peroxide",
+              "Black People",
+              "Cicatrix",
+              "Combined Modality Therapy",
+              "Dermatologic Agents",
+              "Disease Susceptibility",
+              "Eflornithine",
+              "Facial Dermatoses",
+              "Female",
+              "Folliculitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21034705/"
+          },
+          {
+            "pmid": "39090034",
+            "title": "Acne vulgaris in black pediatric patients: clinical presentation, treatment patterns, and unique needs.",
+            "abstract": "Acne vulgaris is a common dermatological diagnosis observed in pediatric patients with skin of color, often resulting in scarring, keloid formation, and post-inflammatory hyperpigmentation, significantly impacting their quality of life. This exploratory retrospective chart review included 77 black pediatric patients seen at a tertiary care center for acne vulgaris between 2018 and 2023. We analyzed demographics, acne descriptors, and treatment modalities. The most common acne morphology was comedonal acne (83.6%), with 71% of the patients being female. Significant age differences were observed particularly for acne at the chin and overall face. Treatment regimens commonly prescribed included combinations of adapalene and benzoyl peroxide (22%), topical antibiotics, tretinoin, and benzoyl peroxide (34%). Given the higher risk of sequelae for patients with darker skin, it is crucial to address their unique treatment needs. This study highlights the distinctive characteristics of acne in ",
+            "journal": "Dermatology online journal",
+            "year": "2024",
+            "authors": [
+              "Jordan Kristiana M",
+              "Famisan Demi O",
+              "Myer Summer N",
+              "Fine Jeffrey",
+              "Ren Yunyi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Acne Vulgaris",
+              "Female",
+              "Child",
+              "Male",
+              "Retrospective Studies",
+              "Adolescent",
+              "Black or African American",
+              "Dermatologic Agents",
+              "Anti-Bacterial Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39090034/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.9891166090965272,
+        "txgnn_rank": 11182,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.9885213375091552,
+        "txgnn_rank": 11671,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "phototoxic dermatitis",
+        "txgnn_score": 0.9877309203147888,
+        "txgnn_rank": 12256,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25982754",
+            "title": "Allergic contact dermatitis caused by topical antiacne drugs.",
+            "abstract": "Acne is a chronic inflammatory disease for which a long-lasting therapy, very often with topical drugs, is necessary. Despite the fact that several topical antiacne drugs (in particular, tretinoin, benzoyl peroxide, clindamycin and erythromycin) are used for many years, often on broad skin surfaces and for long periods of time, their potential for contact sensitization is low. Their potential for phototoxic and photoallergic reactions is also low. Much more frequent is irritant contact dermatitis caused by some of these drugs, in particular, retinoids and benzoyl peroxide, for which the short contact therapy has been recently suggested.",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2015",
+            "authors": [
+              "Veraldi Stefano",
+              "Brena Michela",
+              "Barbareschi Mauro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Administration, Topical",
+              "Anti-Bacterial Agents",
+              "Benzoyl Peroxide",
+              "Dermatitis, Allergic Contact",
+              "Humans",
+              "Retinoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25982754/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9869787693023682,
+        "txgnn_rank": 12854,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9859421849250792,
+        "txgnn_rank": 13602,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodermatitis",
+        "txgnn_score": 0.9766564965248108,
+        "txgnn_rank": 18577,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09096",
+    "name": "Benzoyl peroxide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Benzoyl peroxide"
+      },
+      "queried_at": "2026-03-09T13:35:54.587370",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Benzoyl peroxide"
+      },
+      "queried_at": "2026-03-09T13:36:31.695485",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-09T13:36:32.653057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-09T13:36:37.968283",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-09T13:36:38.730277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "queried_at": "2026-03-09T13:36:39.344398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "queried_at": "2026-03-09T13:36:43.397073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "queried_at": "2026-03-09T13:36:45.033433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T13:36:45.547403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T13:36:49.170460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T13:36:50.226188",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T13:36:51.644254",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T13:36:57.772008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T13:37:01.001720",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T13:37:01.896419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T13:37:06.617348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T13:37:07.518877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T13:37:08.331597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T13:37:12.228445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T13:37:13.966795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "phototoxic dermatitis"
+      },
+      "queried_at": "2026-03-09T13:37:14.847114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "phototoxic dermatitis"
+      },
+      "queried_at": "2026-03-09T13:37:19.696748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "phototoxic dermatitis"
+      },
+      "queried_at": "2026-03-09T13:37:23.891611",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T13:37:24.859534",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T13:37:29.717005",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T13:37:30.987187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T13:37:32.460093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T13:37:36.754822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T13:37:37.931014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "neurodermatitis"
+      },
+      "queried_at": "2026-03-09T13:37:38.996502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "neurodermatitis"
+      },
+      "queried_at": "2026-03-09T13:37:42.997485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzoyl peroxide",
+        "disease": "neurodermatitis"
+      },
+      "queried_at": "2026-03-09T13:37:43.928974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T13:37:43.945061"
+  }
+}

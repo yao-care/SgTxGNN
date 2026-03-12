@@ -1,0 +1,1559 @@
+{
+  "drug": {
+    "inn": "Choline salicylate",
+    "drugbank_id": "DB14006",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.998420000076294,
+        "txgnn_rank": 2863,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9981581568717957,
+        "txgnn_rank": 3198,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "897386",
+            "title": "[Usefulness of choline salicylate in the treatment of children with rheumatoid arthritis].",
+            "abstract": "",
+            "journal": "Reumatologia",
+            "year": "1977",
+            "authors": [
+              "Gutowska-Grzegorczyk G"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Arthritis, Juvenile",
+              "Child",
+              "Child, Preschool",
+              "Choline",
+              "Drug Tolerance",
+              "Humans",
+              "Infant",
+              "Salicylates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/897386/"
+          },
+          {
+            "pmid": "3740556",
+            "title": "Sensitivity to non-acetylated salicylates in a patient with asthma, nasal polyps, and rheumatoid arthritis.",
+            "abstract": "A woman experienced exacerbations of bronchial asthma after taking aspirin and other non-steroidal anti-inflammatory drugs (NSAIDs) for rheumatoid arthritis. On oral challenges, she developed an urticarial reaction after tartrazine; urticarial and bronchospastic reactions after salicylsalicylic acid; and urticarial and bronchospastic reactions after choline magnesium trisalicylate. Non-acetylated salicylates have been recommended for use in aspirin- and/or tartrazine-sensitive patients. The results of sensitivity studies of our patient indicates that such patients may also be sensitive to non-acetylated salicylates.",
+            "journal": "Annals of allergy",
+            "year": "1986",
+            "authors": [
+              "Chudwin D S",
+              "Strub M",
+              "Golden H E",
+              "Frey C",
+              "Richmond G W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Albuterol",
+              "Arthritis, Rheumatoid",
+              "Asthma",
+              "Bronchial Spasm",
+              "Choline",
+              "Drug Combinations",
+              "Drug Hypersensitivity",
+              "Female",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3740556/"
+          },
+          {
+            "pmid": "377958",
+            "title": "Drug therapy reviews: antirheumatic agents.",
+            "abstract": "The pathophysiology, symptoms and drug treatment of rheumatic disease are reviewed. Antirheumatic drugs reviewed are salicylates (including aspirin, sodium salicylate, choline salicylate, choline magnesium salicylate, salsalate), phenylpropionic acid derivatives (fenoprofen, ibuprofen, naproxen), indole derivatives (sulindac, tolmetin and indomethacin), pyrazolone derivatives (phenylbutazone, oxyphenbutazone), gold compounds, penicillamine, antimalarials mefenamic acid, corticosteroids and immunosuppressives. Simple analgesic therapy (acetaminophen, aspirin, propoxyphene) is used in the early stage of the disease. As the disease progresses, aspirin remains the drug of choice for antiinflammatory activity but the phenylpropionic acid or indole derivatives may be preferred in patients unable to tolerate salicylates. If such nonsteroidal antiinflammatory agents are not effective, parenteral therapy with gold compounds or oral penicillamine usually is indicated. Indomethacin or phenylbutaz",
+            "journal": "American journal of hospital pharmacy",
+            "year": "1979",
+            "authors": [
+              "Evens R P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Antimalarials",
+              "Glucocorticoids",
+              "Gold",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Indomethacin",
+              "Mefenamic Acid",
+              "Penicillamine",
+              "Phenylbutazone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/377958/"
+          },
+          {
+            "pmid": "7188920",
+            "title": "[Choline salicylate as an antirheumatism agent].",
+            "abstract": "",
+            "journal": "Fysiatricky a reumatologicky vestnik",
+            "year": "1980",
+            "authors": [
+              "Truhlár P",
+              "Machácek P",
+              "Marat V",
+              "Vinklár R"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Choline",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Salicylates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7188920/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypertensive disorder",
+        "txgnn_score": 0.9980707764625548,
+        "txgnn_rank": 3311,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04553003",
+            "title": "Glucocorticosteroid Therapy on Drug-induced Liver Injury: a Prospective Non-randomized Concurrent Control Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2020-08-01",
+            "completion_date": "2025-04-01",
+            "country": "China",
+            "enrollment": 80,
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of glucocorticosteroid for treatment of drug-induced liver injury.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of DILI\n2. RUCAM score≥6 and with liver histology\n3. Meet any of the following conditions:\n\n   1. TBIL ≥ 10 fold ULN ;\n   2. TBIL ≥ 5 fold ULN and serum AST or ALT ≥ 20 fold ULN\n\nExclusion Criteria:\n\n1. An chronic onset (≥6 months)\n2. Other liver diseases, ",
+            "endpoints": [
+              "percentage of patients that AST or ALT decline 25% at day 4"
+            ],
+            "sponsor": "West China Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04553003"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06885827",
+            "title": "Interventional Vitamin Mix Glaucoma Study (IVMGS) - A Prospective, Randomized, Two-Arm, Single-Center Study Protocol in Existing Glaucoma Patients.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-03-31",
+            "completion_date": "2027-03-31",
+            "country": "Sweden",
+            "enrollment": 80,
+            "brief_summary": "This study aims to determine whether a combination of vitamins (B6, B9, B12, and choline) can help protect the eyes of people with glaucoma and slow vision loss. The study will assess whether these vitamins support retinal cells and maintain or improve their function.\n\nAdults aged 18 and older with primary open-angle glaucoma (including normal-tension glaucoma) or pseudoexfoliation glaucoma, and those with mild to moderate glaucoma, may be eligible. Participants must meet specific medical criter",
+            "eligibility_criteria": "Eligibility Criteria\n\nInclusion Criteria:\n\nPatients with the following characteristics will be eligible for inclusion in the trial:\n\n* 18 years or older at the time of inclusion\n* Diagnosis of Primary Open-Angle Glaucoma (POAG), Normal Tension-Glaucoma (NTG) or Pseudoexfoliation Glaucoma (PEXG) in o",
+            "endpoints": [
+              "Change in photopic negative response (PhNR) on electroretinography (ERG)"
+            ],
+            "sponsor": "Karolinska Institutet",
+            "url": "https://clinicaltrials.gov/study/NCT06885827"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06347094",
+            "title": "Precision Nutrition to Improve Cardiometabolic Health With Dietary (Poly)Phenols (PRE-CARE-DIET)",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-04-22",
+            "completion_date": "2025-12-31",
+            "country": "Italy",
+            "enrollment": 330,
+            "brief_summary": "This chronic study aims at assessing whether the effects of a personalized, plant-based diet rich in (poly)phenols on cardiometabolic health depend on the capability to metabolize dietary (poly)phenols, creating predictive models able to explain, at individual level, the cardiometabolic response. This study presents an observational part, for targeted recruitment and volunteers characterization, and an experimental part for the dietary and deep phenotyping.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (40-80 y.o.)\n* Non-clinically diagnosed for cardiometabolic diseases at baseline examination\n* At least one of the following risk factors: overweight or obese, central obesity (waist:hip ratio \\> 0.90 in males and \\> 0.85 in females or waist circumference ≥ 94 cm in mal",
+            "endpoints": [
+              "Assessing the effect of a (poly)phenol-rich diet on 10-year cardiovascular risk: Systematic Coronary Risk Estimation",
+              "Assessing the effect of a (poly)phenol-rich diet on 10-year cardiovascular risk: Systematic Coronary Risk Estimation-Older Persons"
+            ],
+            "sponsor": "University of Parma",
+            "url": "https://clinicaltrials.gov/study/NCT06347094"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03130894",
+            "title": "Association Between Microbiota-dependent Metabolite Trimethylamine-N-oxide and Type 2 Diabetes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2012-01-01",
+            "completion_date": "2016-06-30",
+            "country": "N/A",
+            "enrollment": 2694,
+            "brief_summary": "Background: The association of trimethylamine-N-oxide (TMAO), a microbiota dependent metabolite from dietary choline and carnitine, with type 2 diabetes was inconsistent.\n\nObjective: The investigators planned to investigate the association between plasma TMAO and newly diagnosed type 2 diabetes as well as whether the association could be modified by the TMAO-generating enzyme flavin monooxygenase 3 (FMO3) polymorphisms.\n\nDesign: This is an age- and sex-matched case-control study of 2694 particip",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Concomitantly, we recruited healthy individuals who were frequency-matched by age (±5 years) and sex to patients from an unselected population undergoing a routine health check-up in the same hospital.\n* The inclusion criteria for controls and newly diagnosed type 2 diabetes w",
+            "endpoints": [
+              "type 2 diabetes"
+            ],
+            "sponsor": "Huazhong University of Science and Technology",
+            "url": "https://clinicaltrials.gov/study/NCT03130894"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05333315",
+            "title": "The Effects of Five Different Food Supplements With Restriction Diet on the Components of the Metabolic Syndrome in Overweight and Obese Adults",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-04-20",
+            "completion_date": "2022-07-15",
+            "country": "Slovenia",
+            "enrollment": 120,
+            "brief_summary": "In recent years, dietary supplement are of great interest for the improvement of human health. This study is designed as a parallel, randomized, double blind study exploring the efficacy of two months daily oral dosing of five different food supplements together with diet restriction in 120 otherwise healthy overweight or obese adults on different biochemical and anthropometric parameters.",
+            "eligibility_criteria": "Inclusion Criteria: BMI \\> 25 kg/m2\n\n* BMI \\> 25 kg/m2\n* personally signed and dated informed consent form\n* ability to understand and willingness to comply with all protocols required visits assessments and interventions\n\nExclusion Criteria:\n\n* use of dietary supplements\n* use of medication for any",
+            "endpoints": [
+              "Change in body fat"
+            ],
+            "sponsor": "University of Primorska",
+            "url": "https://clinicaltrials.gov/study/NCT05333315"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00696475",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Study Assessing the Efficacy and Safety of Diazoxide Choline in Non-Diabetic Hypertriglyceridemic Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-06",
+            "completion_date": "2009-03",
+            "country": "United States",
+            "enrollment": 80,
+            "brief_summary": "Hypertriglyceridemia affects 30% of the population in the US. Very high level of triglycerides is a known risk factor for pancreatitis. In addition, studies have shown that hypertriglyceridemia is an independent risk factor for cardiovascular disease.\n\nDiazoxide is a KATP channel opener. It has been approved by the FDA as an oral suspension for the treatment of hyperinsulinemic hypoglycemic conditions and as an IV solution for malignant hypertension. Preclinical and clinical studies suggest that",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* triglycerides ≥ 250 mg/dL and \\< 600 mg/dL\n* BMI between 18.5 and 45\n* Signed informed consent form\n\nExclusion Criteria:\n\n* Fasting glucose ≥ 126 mg/dL\n* Glycosylated hemoglobin (HbA1c) \\> 6.5%\n* LDL cholesterol \\> 190 mg/dL\n* Known history of type I and II DM\n* Known history ",
+            "endpoints": [
+              "To assess the effect on triglycerides of repeated doses of Diazoxide Choline Controlled-Release Tablet over a period of 56 days in hypertriglyceridemic subjects"
+            ],
+            "sponsor": "Essentialis, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00696475"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03046693",
+            "title": "Citicoline Effect on Non-arteritic Anterior Ischemic Optic Neuropathy (NAION) : Pattern Electroretinography Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2017-01-16",
+            "completion_date": "2017-05",
+            "country": "Indonesia",
+            "enrollment": 38,
+            "brief_summary": "Clinical trial.gov\n\nBrief summary :\n\nNon-arteritic anterior ischemic optic neuropathy (NAION) is an optic neuropathy due to acute or subacute ischemic event of anterior optic nerve axons retrolaminar part that was vascularized by posterior ciliary brevis artery. The incidence of ischemia will be followed by axonal edema and causing compartment syndrome and heighten the incidence of ischemic.\n\nIn NAION, the main pathology occurs at the level of the optical nerve, the axons of retinal ganglion cel",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients aged 20-65 years.\n2. NAION patients who have been diagnosed clinically by a minimum of 1 consultant Division NO with onset ≥6 weeks.\n3. Best corrected visual acuity ≥ 1/60 Snellen\n4. Patients have to get an explanation about the purpose of the research and all the pr",
+            "endpoints": [
+              "P50 wave amplitude",
+              "N95 wave amplitude"
+            ],
+            "sponsor": "Indonesia University",
+            "url": "https://clinicaltrials.gov/study/NCT03046693"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05067998",
+            "title": "The Benefits of Natural Medicine, Vitamin IV Therapy and Supplements: Maintaining Good Health Through Nature",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-12-21",
+            "completion_date": "2026-09-17",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "Herbal Medicine is known as the medicinal use of herbal substances as a means of treating different conditions in the human body to ensure that the body remains in optimal health and wellness. These substances are known to contain very active ingredients in it and as such is also a very potent means of managing diseases and ailments in the body.\n\nHerbal medicine has always been a standby source of getting relief from various conditions over centuries, however, it can be categorically said that t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* N/A\n\nExclusion Criteria:\n\n* N/A",
+            "endpoints": [
+              "Reduction in Symptoms related to Specific Illness or Disorder"
+            ],
+            "sponsor": "The Essence of Integrative Health and Medicine Practice",
+            "url": "https://clinicaltrials.gov/study/NCT05067998"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04422743",
+            "title": "Effect of the Fixed Combination Citicoline 500 mg Plus Homotaurine 50 mg on Pattern Electroretinogram in Well Controlled Primary Open Angle Glaucoma: A Multicenter, Prospective, Randomized, Single Blind, Cross-over Study",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2018-01-25",
+            "completion_date": "2020-09-11",
+            "country": "Italy",
+            "enrollment": 63,
+            "brief_summary": "the general purpose of the study is to evaluate the potential beneficial effects of supplementation of a fixed combination of Citicoline 500 mg plus Homotaurine 50 mg on retinal ganglion cells (RGCs) function in subjects with glaucoma by pattern electroretinogram.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* age between 40 and 75 years;\n* diagnosis of primary OAG (POAG) from, at least, 3 years;\n* visual acuity \\> 0.7 (7/10) decimals;\n* refractive error \\< 5 D (spheric) and \\< 2D (toric);\n* transparent diopter means (cornea and lens);\n* controlled IOP (\\<18 mmHg, morning value) wit",
+            "endpoints": [
+              "To assess effects of adding the fixed combination of Citicoline 500 mg plus Homotaurine 50 mg (Neuprozin® - NP), one tablet a day, on PERG examination at four months of therapy, compared to standard of care alone, as add-on to standard therapy"
+            ],
+            "sponsor": "Fondazione IRCCS Policlinico San Matteo di Pavia",
+            "url": "https://clinicaltrials.gov/study/NCT04422743"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05242224",
+            "title": "Evolutionary Nutrition Pilot: Enhancing Fetal Growth and Brain Development",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-01-05",
+            "completion_date": "2025-06",
+            "country": "Ecuador",
+            "enrollment": 200,
+            "brief_summary": "Globally, 250 million children do not reach their developmental potential and 155 million are stunted, yet few population-based studies have examined the direct effects of nutrient deficiencies on early brain development. This study will examine an evolutionary nutrition intervention during pregnancy derived from diets consumed for 99.9% of hominin history when bodies and brains were healthier. A pilot clinical trial will be conducted in the central highlands of Ecuador to compare fetal and newb",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* healthy\n* in their first trimester\n* carrying a singleton pregnancy\n\nExclusion Criteria:\n\n* less than 18 years of age\n* have a chronic health condition (HIV, TB, epilepsy, etc.)\n* have a multiple pregnancy (twins, triplets, etc.)\n* intend to move away from the study area\n* hav",
+            "endpoints": [
+              "Length-for-age Z (LAZ)",
+              "Plasma concentrations of Docosahexaenoic acid (DHA)",
+              "Plasma concentrations of Linoleic acid (LA)"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT05242224"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02822144",
+            "title": "General Anesthesia Versus Sedation During Intra-arterial Treatment for Stroke",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-09-29",
+            "completion_date": "2020-08",
+            "country": "France",
+            "enrollment": 351,
+            "brief_summary": "In France, the annual incidence rate of acute ischaemic stroke is around 150 000 patients, 65 % of whom keep long-term disability. Several multicentric randomized controlled trials have shown the benefit of a mechanical thrombectomy in the acute phase of ischaemic stroke on functional disability, compared to a medical treatment alone (thrombolysis).\n\nThe timeliness of revascularisation is an essential factor of good prognosis. This intra-arterial treatment, associated with thrombolysis if applic",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Body mass index \\< or equal to 35 kg/m² ,\n* Indication for thrombectomy, after multidisciplinary consultation,\n* Proximal artery occlusion in the anterior circulation (internal carotid artery, M1, M2,...), confirmed on imaging (angioscan or angio-MRI),\n* Writ",
+            "endpoints": [
+              "Score on the modified Rankin scale"
+            ],
+            "sponsor": "Rennes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02822144"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04003090",
+            "title": "Evaluation of Citicoline Concentration in Human Vitreous After Topical Administration: a Cross-sectional Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2018-03-21",
+            "completion_date": "2019-01-31",
+            "country": "Italy",
+            "enrollment": 26,
+            "brief_summary": "Elegible patients were included in the study and underwent treatment with a solution of citicoline 1% eye-drops, 0.2% high molecular weight hyaluronic acid and 0.01% benzalkonium chloride prior to surgery. The vitreous samples were taken at the beginning of the surgery and analyzed for qualitative/quantitative determination of vitreous concentration of citicoline and its metabolites by means of high performance liquid chromatography.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* age \\> 18 years\n* ability to understand and sign the written informed consent\n* diagnosis of epiretinal membrane (ERM) with surgical indication for pars-plana vitrectomy\n\nExclusion Criteria:\n\n* laser treatments and ocular surgery in the past 6 months\n* hypersensitivity to the ",
+            "endpoints": [
+              "Citicoline and metabolites concentration in human vitreous"
+            ],
+            "sponsor": "Istituto di Ricerca Neuroftalmologia S.r.l.",
+            "url": "https://clinicaltrials.gov/study/NCT04003090"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02145013",
+            "title": "Assessment and Impact of Portal Hypertension Before and During Liver Resection in Patients With Hepatocellular Carcinoma",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2013-11",
+            "completion_date": "2018-05-30",
+            "country": "France",
+            "enrollment": 200,
+            "brief_summary": "According to the BCLC guidelines, surgical resection of hepatocellular carcinoma complicating cirrhosis is restricted to patients with preserved liver function, single nodule without vascular invasion and with hepatic venous gradient below 10 mmHg.\n\nHowever, other guideline treatment, especially from eastern countries demonstrated that surgical resection is safe and feasible and provides better survival than the treatment recommended by the BCLC system for patients with similar stage.\n\nThe prima",
+            "eligibility_criteria": "Patients with hepatocellular carcinoma who undergo surgical resection (intention to treat analysis)",
+            "endpoints": [
+              "Mortality"
+            ],
+            "sponsor": "Henri Mondor University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02145013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05315206",
+            "title": "Modulation of Neuronal Connettivity Along the Visual Pathways in Patients Affected by Glaucoma Throug Treatment With Citicoline Oral Solution: Multimodal Morpho-funcional Study",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-01-25",
+            "completion_date": "2025-07",
+            "country": "Italy",
+            "enrollment": 29,
+            "brief_summary": "A prospective, multicentre, randomized, blinded, masked study that involves the enrollment of 60 patients affected by open angle glaucoma (OAG).\n\nPatients selected according to the inclusion / exclusion criteria, after signing the informed consent, will be randomized into two groups:\n\n1. In a group of patients with OAG, Citicoline in oral solution (10 ml / day, Neurotidine®) will be administered for 12 months (Citicoline Treated Group, TC Group)\n2. in another group of patients with OAG will be a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 20 and 70 years old\n* Diagnosis of glaucoma. Glaucoma is defined as: glaucomatous damage of the CV (Humphrey 24-2 standard SITA with mean deviation between -6 and -25 dB) and glaucomatous appearance of the optic nerve\n* Visual acuity not less than 5/10\n* Eye pressu",
+            "endpoints": [
+              "Retino-cortical time (RCT) changes after treatment with citicoline in oral solution."
+            ],
+            "sponsor": "Fondazione G.B. Bietti, IRCCS",
+            "url": "https://clinicaltrials.gov/study/NCT05315206"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00404729",
+            "title": "Phase 4 Study of Evaluation of Neural Conduction Along the Visual Pathways Before and After Oral Treatment With Citicoline in Patients With Optic Nerve Diseases",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-02-28",
+            "completion_date": "2006-07-30",
+            "country": "Italy",
+            "enrollment": 60,
+            "brief_summary": "In the management of glaucoma, as for as in other optic nerve diseases, an important goal of ophthalmologists is represented by the possibility of influencing visual function.\n\nIn this regard, Parisi et al \\[Ophthalmology 1999; 106:1126-1134.\\] suggested the intramuscular treatment with Cytidine-5-diphosphocholine (CDP-Choline or citicoline) to improve glaucomatous visual defects. In particular, recent studies reported the effects of citicoline on glaucomatous retinal and postretinal visual stru",
+            "eligibility_criteria": "Inclusion Criteria:\n\nGlaucoma Patients:\n\n* IOP \\> 23 mmHg and \\< 28 mmHg (average of the two highest readings of the daily curve, from 8:00 a.m. to 6:00 p.m., six independent readings, one every two hours) without medical treatment;\n* HFA with MD \\< - 2 dB; CPSD \\> +2 dB; fixation losses, false posi",
+            "endpoints": [
+              "VEPs responses"
+            ],
+            "sponsor": "Fondazione G.B. Bietti, IRCCS",
+            "url": "https://clinicaltrials.gov/study/NCT00404729"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05527106",
+            "title": "Evaluation of the Effect of Citicoline (Cebrolux 800 mg) and Docosahexaenoic Acid (DHA) Compound (BrudyPio 1.5 g) on the Visual Function of Patients With Glaucoma With a Pilot Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2015-03-12",
+            "completion_date": "2022-05-25",
+            "country": "Spain",
+            "enrollment": 73,
+            "brief_summary": "Pilot, single-blind, randomized and controlled study to evaluate the changes produced in the visual function of patients with glaucoma after oral administration for 3 months of citicoline and docosahexaenoic Acid (DHA) vs citicoline and docosahexaenoic Acid (DHA) vs vitamin C.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with chronic, primary or secondary, open or closed angle glaucoma, diagnosed by meeting the following criteria:\n\n   * Signs of structural damage: thinning of the optical nerve or peripapillary hemorrhage or decrease in the nerve fiber layer that can be seen by OCT.\n ",
+            "endpoints": [
+              "Effect on Mean Defect (MD)",
+              "Effect on Visual Field Index (VFI)"
+            ],
+            "sponsor": "Institut Catala de Retina",
+            "url": "https://clinicaltrials.gov/study/NCT05527106"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02067026",
+            "title": "Measuring the Impact of Dietary Supplementation With a High Fiber, High Antioxidant Aleurone on Biomarkers of Cardiovascular Disease and Gut Microbiota in Adults With High Body Mass Index",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2014-01",
+            "completion_date": "2015-07",
+            "country": "Italy",
+            "enrollment": 75,
+            "brief_summary": "Study hypothesis Aleurone-rich food supplementation modifies cardiovascular and metabolic risk profiles and gut microbiota in subjects with high BMI\n\nPrimary objectives of the trial are to evaluate whether wheat Aleurone-rich food supplementation modifies (1) fasting homocysteine levels; (2) human biofluid primary metabolites; (3) human biofluid secondary (microbiota-derived) metabolites; (4) fecal bile acid and fecal sterol concentrations.\n\nSecondary objectives are to evaluate whether wheat Ale",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* BMI above 30 kg/m\\^2\n\nExclusion Criteria:\n\n* fasting blood glucose \\>300 mg/dl;\n* triglycerides \\>500 mg/dl;\n* uncontrolled hypertension (BP \\>160/100 mm Hg under antihypertensive therapy); cardiovascular disease (myocardial infarction, percutaneous transluminal coronary angio",
+            "endpoints": [
+              "change in total plasma homocysteine (tHcy)"
+            ],
+            "sponsor": "Fondazione Edmund Mach",
+            "url": "https://clinicaltrials.gov/study/NCT02067026"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06431113",
+            "title": "Effect of Fixed Combination Citicoline 500 mg, Homotaurine 50 mg, Pyrroloquinoline Quinone (Neuprozin Mito®) on Pattern Electroretinogram in Controlled Open Angle Glaucoma Patients:A Multicenter, Randomized, Single Blind, Cross-over Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2024-01-27",
+            "completion_date": "2025-03-01",
+            "country": "Italy",
+            "enrollment": 40,
+            "brief_summary": "The goal of this clinical trial is to examine the effect of the fixed combination Citicoline 500 mg, Homotaurine 50 mg, Pyrroloquinoline quinone (PQQ) disodium salt (Neuprozin Mito®) on pattern electroretinogram (PERG) in patients with primary open angle glaucoma on well controlled intraocular pressure It will also learn about the safety of this fixed combination. The main questions it aims to answer are:\n\nDoes the fixed combination Citicoline 500 mg, Homotaurine 50 mg, Pyrroloquinoline quinone ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* age \\> 18 years;\n* diagnosis of primary OAG (POAG) from, at least, 3 years;\n* visual acuity \\> 0.7 (7/10) decimals;\n* refractive error \\< 5 Diopter (D) (spheric) and \\< 2D (toric);\n* transparent diopter means (cornea and lens);\n* controlled intraocular pressure (IOP) (\\<18 mmH",
+            "endpoints": [
+              "To compare the effects of adding the fixed combination of Citicoline 500 mg+Homotaurine 50 mg+Pyrroloquinoline quinone (Neuprozin Mito® - NPM) on pattern-electroretinogram -PERG- amplitudes",
+              "To compare the effects of adding the fixed combination of Citicoline 500 mg+Homotaurine 50 mg+Pyrroloquinoline quinone (Neuprozin Mito® - NPM) on PERG latencies"
+            ],
+            "sponsor": "Fondazione IRCCS Policlinico San Matteo di Pavia",
+            "url": "https://clinicaltrials.gov/study/NCT06431113"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.998021364212036,
+        "txgnn_rank": 3375,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00564408",
+            "title": "Experimental Study That Investigates the Effect of an Acetylcholine Analogue in Terms of Headache and Changes in Intra- and Extra-cerebral Vessels During and After Infusion of Carbachol",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2007-08",
+            "completion_date": "2009-02",
+            "country": "Denmark",
+            "enrollment": 12,
+            "brief_summary": "The purpose of this study is to test if carbachol infusion induces headache in migraine subjects as well as intra- and extra-cerebral vasodilatation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Migraine without aura\n* Weight 50-100 kg\n\nExclusion Criteria:\n\n* Other significant diseases\n* Migraine 5 days prior to experiment",
+            "endpoints": [
+              "Headache response after Carbachol infusion"
+            ],
+            "sponsor": "Danish Headache Center",
+            "url": "https://clinicaltrials.gov/study/NCT00564408"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04220606",
+            "title": "Glutamate Concentrations in the Brain Over the Course of a Migraine-like Attack",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2015-04",
+            "completion_date": "2016-04",
+            "country": "N/A",
+            "enrollment": 39,
+            "brief_summary": "To investigate the glutaminergic system in the onset of migraine-like attacks.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with migraine without aura according to the International Classification of Headache Disorders (ICHD)-3 beta criteria from 2013.\n* At least one migraine attack per month in the preceding six months\n\nExclusion Criteria:\n\n* Other neurological disorders apart from migra",
+            "endpoints": [
+              "Glutamate"
+            ],
+            "sponsor": "Leiden University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04220606"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04256837",
+            "title": "Effect of Transcutaneous Electrical Auricular Stimulation of the Vagus Nerve in Kidney Transplant Recipients",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2020-01-13",
+            "completion_date": "2021-01-07",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "Kidney transplantation entails the implantation of a live or deceased organ into a recipient. As a result of this event, there is an inflammatory response in the recipient elicited by the transplanted organ.\n\nAt the present time, immunosuppressive treatments are routinely used to avoid rejection of the transplanted organ. Although effective in this goal, there is currently an unmet need to develop new strategies to control the innate inflammatory responses and to reduce the injury caused to the ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Kidney transplant recipients of both live and deceased donors\n\nExclusion Criteria:\n\n* Refusal to participate in the study",
+            "endpoints": [
+              "Levels of blood inflammatory cytokines in kidney transplant recipients after transcutaneous auricular electrical vagus nerve stimulation."
+            ],
+            "sponsor": "Northwell Health",
+            "url": "https://clinicaltrials.gov/study/NCT04256837"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "txgnn_score": 0.9977160692214966,
+        "txgnn_rank": 3756,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover, controlled hypoxia exposure may represent a treatment strategy for age-related neurological disorders. This review discusses evidence of hypoxia's beneficial vs. detrimental impacts on the aging brain and the molecular mechanisms that mediate these divergent effects. It draws upon an extensive literature search on the effects of hypoxia/altitude on brain aging, and detailed analysis of all identified studies directly comparing brain responses to hypoxia in young vs. aged humans or rodents. Spe",
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Aging",
+              "Brain",
+              "Hypoxia",
+              "Neuroprotection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33862277/"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiology, clinical medicine, and sports technology. Here, we explore the foundations of this nascent field and outline a path to determine how chronic continuous hypoxia can be safely, effectively, and practically delivered to patients.",
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39841808/"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity by modulating immune cell proliferation, development and effector function, largely via transcriptional changes driven by hypoxia-inducible factor (HIF). By contrast, in pathological immunological niches, such as tumours and chronically inflamed, infected or ischaemic tissues, pathological hypoxia can drive tissue dysfunction and disease development through immune cell dysregulation. Here, we differentiate between the effects of physiological and pathological hypoxia on immune cells and the cons",
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cellular Microenvironment",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Immune System",
+              "Immunity",
+              "Immunity, Innate",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28972206/"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcription factor of the cellular response to hypoxia. Further, acRIP-sequencing, Ribosome profiling sequencing, RNA-sequencing, and functional studies confirm that NAT10 in turn activates the HIF-1 pathway and subsequent glucose metabolism reprogramming by mediating SEPT9 mRNA ac4C modification. The formation of the NAT10/SEPT9/HIF-1α positive feedback loop leads to excessive activation of the HIF-1 pathway and induces glycolysis addiction. Combined anti-angiogenesis and ac4C inhibition attenuate hyp",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stomach Neoplasms",
+              "Feedback",
+              "Glycolysis",
+              "RNA, Messenger",
+              "Hypoxia",
+              "N-Terminal Acetyltransferases",
+              "Cytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37328448/"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute and chronic hypoxia. Hypoxia can impair several cognitive domains such as attention, learning and memory, procession speed and executive function, which are similar in acute and chronic hypoxia. The severity of cognitive deficit correlates with the duration and degree of hypoxia. Recovery can be achieved after acute hypoxia, while sequelae or even dementia can be observed after chronic hypoxia, perhaps due to the different molecular mechanisms. Cardiopulmonary compensatory response, glycolysis,",
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Cognitive Dysfunction",
+              "Hippocampus",
+              "Humans",
+              "Hypoxia",
+              "Neurofibrillary Tangles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34618295/"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with the goal of providing mechanistic insight and novel therapeutic targets. In this article we review both the normal biological effects of hypoxia as well as the alterations that occur in specific disease conditions with an emphasis on the cell signaling and gene transcription mechanisms that underlie the changes associated with chronic hypoxia. Comparisons of studies in the fields of cardiac ischemia and tumor angiogenesis reveal the complexities within the microenvironment that control response",
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gene Expression Regulation",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Myocardial Ischemia",
+              "Neoplasm Metastasis",
+              "Neoplasms",
+              "Neovascularization, Pathologic",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21328446/"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypoxia evokes a temporary delay of ingrowth of cholinergic and serotonergic fibres into the hippocampus and neocortex, and causes an enhanced neurodegeneration of 5-HT-ir axons during aging. Neonatal anoxia suppresses hippocampal ChAT activity and up-regulates muscarinic receptor sites for 3H-QNB and 3H-pirenzepine binding in the hippocampus in the early postnatal age. The altered development of axonal arborization and pre- and postsynaptic cholinergic functions may be an important underlying mecha",
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Behavior",
+              "Brain",
+              "Humans",
+              "Hypoxia",
+              "Neurotransmitter Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8817697/"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and DUBs are regulated by hypoxia. While hypoxia is a powerful HIF regulator, less is known about hypoxia-regulated DUBs and their impact on HIFs. Here, we review current knowledge about the relationship of E3s, DUBs, and hypoxia signaling. We also discuss the reciprocal regulation of DUBs by hypoxia and use of DUB-specific drugs in cancer.",
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Deubiquitinating Enzymes",
+              "Homeostasis",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Neoplasms",
+              "Oxygen",
+              "Protein Transport",
+              "Proteolysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31706510/"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dissemination. Consequently, substantial effort has been made to detect hypoxia in human tumours and identify realistic approaches to overcome hypoxia and improve cancer therapy outcomes. Hypoxia-targeting strategies include improving oxygen availability, sensitising hypoxic cells to radiation, preferentially killing these cells, locating the hypoxic regions in tumours and increasing the radiation dose to those areas, or applying high energy transfer radiation, which is less affected by hypoxia. De",
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Hypoxia",
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34535359/"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the setting of adequate oxygen exchange from the lungs to the blood are discussed. An algorithm is proposed for diagnosing patients who present with hypoxia.",
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Algorithms",
+              "Cell Hypoxia",
+              "Child, Preschool",
+              "Decision Trees",
+              "Diagnosis, Differential",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11172576/"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related events, possibly by exacerbating tissue hypoxia in the central nervous system. Accordingly, increasing oxygen supply can mitigate pathological and clinical parameters in MS models. In contrast, stimulating the endogenous hypoxia response and adaptation systems by controlled exposure to hypoxia (hypoxia conditioning) renders the central nervous system more resistant to hypoxic insults, thereby attenuating pathology and symptomatology in MS models. Overlapping mechanisms likely play a role in the ",
+            "journal": "Redox biology",
+            "year": "2025",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Multiple Sclerosis",
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen",
+              "Central Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40347693/"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who live at sea level. However, hypobaric hypoxia is present and oxygenation is lower than at sea level, and it is still unknown what other changes may be caused by hypobaric hypoxia at this altitude.",
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "pub_types": [
+              "Editorial",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Altitude",
+              "Hypoxia",
+              "Altitude Sickness",
+              "Acclimatization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40815459/"
+          },
+          {
+            "pmid": "15192444",
+            "title": "Chronic hypoxia: common traits between chronic obstructive pulmonary disease and altitude.",
+            "abstract": "Loss of body mass and exercise intolerance are common findings in chronic obstructive pulmonary disease and are often difficult to reverse despite optimal nutritional intake. Similar findings have been reported in healthy individuals during high-altitude exposure. The role of hypoxia in modulating metabolism has been largely investigated in vitro and in animal studies. More fragmentary is the knowledge regarding hypoxia effects on in-vivo human metabolism. This paper reviews recent literature regarding the effects of chronic exposure to hypoxia on metabolism, particularly comparing chronic obstructive pulmonary disease patients with humans exposed to high altitude.",
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "year": "2004",
+            "authors": [
+              "Raguso Comasia A",
+              "Guinot Sofia L",
+              "Janssens Jean-Paul",
+              "Kayser Bengt",
+              "Pichard Claude"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Altitude",
+              "Animals",
+              "Chronic Disease",
+              "Cytokines",
+              "DNA-Binding Proteins",
+              "Energy Metabolism",
+              "Exercise",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15192444/"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "abstract": "",
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "authors": [
+              "Ferrer S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adenosine Monophosphate",
+              "Adenosine Triphosphate",
+              "Animals",
+              "Brain",
+              "Brain Edema",
+              "Humans",
+              "Hypercapnia",
+              "Hypoxia, Brain",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4585366/"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy, release of extracellular vesicles, and generation of pre-metastatic niches. Hypoxia also affects bone cells, such as osteoblasts and osteoclasts, and immune cells, which also act to support the development and progression of bone metastases. Paradoxically, hypoxia and related signaling molecules are recognized as high-priority therapeutic targets and many candidate drugs are currently under preclinical and clinical investigation. The present review focuses on our current knowledge of the potent",
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Neoplasms",
+              "Bone and Bones",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Signal Transduction",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30423905/"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Findings Epidemiological studies suggest that living in high-altitude areas increases the risk of migraine and especially migraine with aura. Human provocation models show that hypoxia provokes migraine with and without aura, whereas cluster headache has not been reliably induced by hypoxia. Possible pathophysiological mechanisms include hypoxia-induced release of nitric oxide and calcitonin gene-related peptide, cortical spreading depression and leakage of the blood-brain barrier. Conclusion There ",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cluster Headache",
+              "Humans",
+              "Hypoxia",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27146279/"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator, reports also indicate that hypoxia governs the activity of CMGC kinases, including DYRK1 kinases. Prolyl hydroxylation of DYRK1 kinases by PHD1 constitutes a novel mechanism of kinase maturation and activation. This modification \"primes\" DYRK1 kinases for subsequent tyrosine autophosphorylation, a vital step in their activation cascade. This mechanism adds a layer of intricacy to comprehending the regulation of CMGC kinases, and underscores the complex interplay between distinct post-translati",
+            "journal": "BMB reports",
+            "year": "2023",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Phosphorylation",
+              "Cell Hypoxia",
+              "Protein Processing, Post-Translational",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37915135/"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic subunit of the RNA exosome, in an HIF-independent manner. EXOSC10 is a multifunctional exoribonuclease enriched in the nucleolus that mediates the processing and degradation of various RNA species. We demonstrate that the ubiquitin-specific protease 36 (USP36) SUMOylates EXOSC10 and we reveal SUMO1/sentrin-specific peptidase 3 (SENP3) as the enzyme-mediating deSUMOylation of EXOSC10. Under hypoxia, EXOSC10 dissociates from USP36 and translocates from the nucleolus to the nucleoplasm concomitant wit",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Transcriptome",
+              "Exosomes",
+              "Hypoxia",
+              "Transcriptional Activation",
+              "Oxygen",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Sumoylation",
+              "Exoribonucleases",
+              "Exosome Multienzyme Ribonuclease Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38279024/"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "abstract": "",
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Acclimatization",
+              "Altitude",
+              "Animals",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Oxygen",
+              "Signal Transduction",
+              "Translational Research, Biomedical"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24557798/"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of the HIF-1 pathway are beneficial and promote the repair process, producing tissue that might not perfectly reform its original architecture but that has its function substantially restored. However, in some cases of chronic injury, chronic hypoxia and pathological repair, the hypoxia pathway might be responsible for driving the process of fibrosis and can lead to excessive scarring and compromised organ function.",
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease",
+              "Fibrosis",
+              "Humans",
+              "Hypoxia",
+              "Organ Specificity",
+              "Oxygen",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27423661/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+        "txgnn_score": 0.9977160692214966,
+        "txgnn_rank": 3757,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant hypertensive renal disease",
+        "txgnn_score": 0.9976804256439208,
+        "txgnn_rank": 3808,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant renovascular hypertension",
+        "txgnn_score": 0.9976804256439208,
+        "txgnn_rank": 3809,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Raynaud disease",
+        "txgnn_score": 0.997588038444519,
+        "txgnn_rank": 3926,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.997532606124878,
+        "txgnn_rank": 3991,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02145013",
+            "title": "Assessment and Impact of Portal Hypertension Before and During Liver Resection in Patients With Hepatocellular Carcinoma",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2013-11",
+            "completion_date": "2018-05-30",
+            "country": "France",
+            "enrollment": 200,
+            "brief_summary": "According to the BCLC guidelines, surgical resection of hepatocellular carcinoma complicating cirrhosis is restricted to patients with preserved liver function, single nodule without vascular invasion and with hepatic venous gradient below 10 mmHg.\n\nHowever, other guideline treatment, especially from eastern countries demonstrated that surgical resection is safe and feasible and provides better survival than the treatment recommended by the BCLC system for patients with similar stage.\n\nThe prima",
+            "eligibility_criteria": "Patients with hepatocellular carcinoma who undergo surgical resection (intention to treat analysis)",
+            "endpoints": [
+              "Mortality"
+            ],
+            "sponsor": "Henri Mondor University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02145013"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14006",
+    "name": "Choline salicylate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Choline salicylate"
+      },
+      "queried_at": "2026-03-09T19:38:44.513890",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Choline salicylate"
+      },
+      "queried_at": "2026-03-09T19:38:47.367200",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T19:38:48.046386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T19:38:52.173239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T19:38:53.088902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T19:38:53.739201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T19:38:57.280598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T19:38:59.821700",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "hypertensive disorder"
+      },
+      "queried_at": "2026-03-09T19:39:02.168648",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "hypertensive disorder"
+      },
+      "queried_at": "2026-03-09T19:39:07.404074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "hypertensive disorder"
+      },
+      "queried_at": "2026-03-09T19:39:08.852921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T19:39:11.170300",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T19:39:16.288675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T19:39:17.750879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-09T19:39:19.773024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-09T19:39:25.199018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-09T19:39:42.854551",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-09T19:39:43.933084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-09T19:39:48.130205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-09T19:39:50.204609",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-09T19:39:51.573335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-09T19:39:58.193076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-09T19:40:00.447183",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-09T19:40:01.952608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-09T19:40:05.276237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-09T19:40:06.491238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-09T19:40:07.737756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-09T19:40:15.350578",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-09T19:40:16.379572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T19:40:16.974728",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T19:40:22.348828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choline salicylate",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T19:40:23.926673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:40:23.932705"
+  }
+}

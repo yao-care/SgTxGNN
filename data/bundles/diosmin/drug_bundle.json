@@ -1,0 +1,586 @@
+{
+  "drug": {
+    "inn": "Diosmin",
+    "drugbank_id": "DB08995",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.9941745400428772,
+        "txgnn_rank": 7244,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.94410902261734,
+        "txgnn_rank": 28006,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9424933195114136,
+        "txgnn_rank": 28335,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heparin cofactor 2 deficiency",
+        "txgnn_score": 0.9416989088058472,
+        "txgnn_rank": 28502,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "factor 5 excess with spontaneous thrombosis",
+        "txgnn_score": 0.9368458986282348,
+        "txgnn_rank": 29377,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "antithrombin deficiency type 2",
+        "txgnn_score": 0.9363236427307128,
+        "txgnn_rank": 29484,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombophilia",
+        "txgnn_score": 0.929439902305603,
+        "txgnn_rank": 30730,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33496999",
+            "title": "Livedoid vasculopathy in 75 Brazilian patients in a single-center institution: Clinical, histopathological and therapy evaluation.",
+            "abstract": "This study presents a single center experience with livedoid vasculopathy (LV). A rare disease that can lead to severe quality of life impairment. Characterize clinical data of LV patients at the Dermatology Division at the University of São Paulo. A retrospective and transversal study was conducted, from 1 January 2005 to 31 December 2019. About 75 patients diagnosed as LV and confirmed by skin biopsy were included. Epidemiology, clinical appearance, histopathology data, and treatment history were observed. There were 78.66% Caucasian women, with a mean age of 39.9 years. Frequent cutaneous manifestations were ulcers, atrophic blanche-like scars, hyperpigmentation, purpuras, telangiectasias, and livedo racemosa. Pain, pruritus, and hypoesthesia were the main symptoms. After treatment, almost 40% of cases relapsed during spring and summer months. About 66% of cases had thrombophilia factors associated, such as high levels of lipoprotein(a). Frequent treatments included acetylsalicylic ",
+            "journal": "Dermatologic therapy",
+            "year": "2021",
+            "authors": [
+              "Criado Paulo Ricardo",
+              "Pagliari Carla",
+              "Morita Thâmara Cristiane Alves Batista",
+              "Marques Gabriela Franco",
+              "Pincelli Thais Prota Hussein"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Brazil",
+              "Female",
+              "Humans",
+              "Livedo Reticularis",
+              "Prospective Studies",
+              "Quality of Life",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33496999/"
+          },
+          {
+            "pmid": "24214586",
+            "title": "[Pathogenetic percularities of fetal distress in pregnant women with preeclampsia].",
+            "abstract": "It was performed the investigation of the fetal regulatory systems condition with the heart rate variability method application in 94 women with preeclampsia. It was established that preeclamptic patients had thrombophilia that was accompanied by increased reversible aggregation of platelets in response to low doses of ADP and collagen stimulation. The fetal deterioration in this group was characterized by decreased fetal heart rate variability fractal components with a relative predominance of the central sympathetic control circuit. The augmented sympathetic tone played the significant role in fetal rigid rhythm and decelerations appearance and has formed the fetal myocardium hypoxic injury and the suppressed sinus node response. The usage of semisynthetic diosmin 1 tablet (600 mg) 2 times daily in preeclamptic ladies has a pronounced disaggregant effect and improved fetal autonomic nervous regulation in its projections on hemodynamics. The restoration of the fetal cardiorespiratory ",
+            "journal": "Georgian medical news",
+            "year": "2013",
+            "authors": [
+              "Lakhno I V"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blood Platelets",
+              "Cell Aggregation",
+              "Diosmin",
+              "Female",
+              "Heart Rate",
+              "Humans",
+              "Pre-Eclampsia",
+              "Pregnancy",
+              "Pregnancy Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24214586/"
+          },
+          {
+            "pmid": "25327750",
+            "title": "[Application of rivaroxabane in patients with proteins C and S deficiency].",
+            "abstract": "",
+            "journal": "Khirurgiia",
+            "year": "2014",
+            "authors": [
+              "Poliantsev A A",
+              "Frolov D V",
+              "Linchenko D V",
+              "Shchelokova Iu V"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticoagulants",
+              "Blood Coagulation",
+              "Diosmin",
+              "Drug Combinations",
+              "Drug Monitoring",
+              "Female",
+              "Hesperidin",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25327750/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9274432063102722,
+        "txgnn_rank": 31107,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bone Paget disease",
+        "txgnn_score": 0.9252913594245912,
+        "txgnn_rank": 31432,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-syndromic esophageal malformation",
+        "txgnn_score": 0.9198227524757384,
+        "txgnn_rank": 32358,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08995",
+    "name": "Diosmin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Diosmin"
+      },
+      "queried_at": "2026-03-10T04:17:59.412130",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Diosmin"
+      },
+      "queried_at": "2026-03-10T04:18:00.405052",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T04:18:01.111873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T04:18:03.907367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T04:18:05.279809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T04:18:05.821926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T04:18:09.139086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T04:18:10.027249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T04:18:11.595121",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T04:18:18.266560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T04:18:19.216634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T04:18:20.059194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T04:18:23.629204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T04:18:24.358502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T04:18:24.812731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T04:18:27.731340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T04:18:29.507497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T04:18:30.211199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T04:18:33.991669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T04:18:34.665304",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T04:18:35.172409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T04:18:39.035648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T04:18:40.939708",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T04:18:41.458738",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T04:18:47.224039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T04:18:47.936096",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T04:18:48.528940",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T04:18:51.811969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T04:18:52.612780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T04:18:53.273093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T04:18:56.360439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diosmin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T04:18:57.101746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:18:57.114029"
+  }
+}

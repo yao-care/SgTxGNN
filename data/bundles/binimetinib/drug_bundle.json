@@ -1,0 +1,1359 @@
+{
+  "drug": {
+    "inn": "Binimetinib",
+    "drugbank_id": "DB11967",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "choroideremia",
+        "txgnn_score": 0.986281156539917,
+        "txgnn_rank": 13375,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-cutaneous melanoma",
+        "txgnn_score": 0.9860395193099976,
+        "txgnn_rank": 13538,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03898908",
+            "title": "Phase II, Multicentre Clinical Trial to Evaluate the Activity of Encorafenib and Binimetinib Administered Before Local Treatment in Patients With BRAF Mutant Melanoma Metastatic to the Brain",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-07-18",
+            "completion_date": "2023-07-31",
+            "country": "Spain",
+            "enrollment": 48,
+            "brief_summary": "Phase II clinical trial, with two cohorts of patients included in parallel, all with melanoma BRAF mutated and brain metastases without previous local treatment in the brain. Cohort 1 will include patients with asymptomatic brain metastases and cohort 2 will include patients with symptomatic brain metastasis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent of approved by the investigator's Institutional Review Board (IRB)/Independent Ethics Committee (IEC), prior to the performance of any trial activities.\n* Histologically confirmed diagnosis of unresectable metastatic cutaneous melanoma, or unknown prim",
+            "endpoints": [
+              "Intracranial Objective Response (iORR) by Modified RECIST 1.1 Before Local Radiotherapy Treatment in Full Dataset"
+            ],
+            "sponsor": "Grupo Español Multidisciplinar de Melanoma",
+            "url": "https://clinicaltrials.gov/study/NCT03898908"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03235245",
+            "title": "Combination of Targeted Therapy (Encorafenib and Binimetinib) Followed by Combination of Immunotherapy (Ipilimumab and Nivolumab) vs Immediate Combination of Immunotherapy in Patients With Unresectable or Metastatic Melanoma With BRAF V600 Mutation : an EORTC Randomized Phase II Study (EBIN)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-10-30",
+            "completion_date": "2027-01",
+            "country": "Spain, United Kingdom, France, Netherlands, Germany, Italy, Denmark, Finland, Poland",
+            "enrollment": 271,
+            "brief_summary": "This is a multicenter, 2-arm open-label, randomized comparative phase II study. The objective of this trial is to prospectively evaluate whether a sequential approach with an induction period of 12 weeks with encorafenib + binimetinib followed by combination immunotherapy with nivolumab + ipilimumab improves progression free survival compared to combination immunotherapy nivolumab + ipilimumab alone in patients with BRAF V600 mutation-positive unresectable or metastatic melanoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed unresectable stage III or IV cutaneous or mucosal melanoma\n* Presence of BRAF V600E or V600K mutation in tumor tissue prior to enrolment as per local assessment\n* Tumor tissue from an unresectable or metastatic site of disease must be ",
+            "endpoints": [
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT03235245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06774989",
+            "title": "Real-life Pharmacological Monitoring of Encorafenib-Binimetinib in the Treatment of Metastatic Melanoma",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-01-02",
+            "completion_date": "2028-01",
+            "country": "France",
+            "enrollment": 66,
+            "brief_summary": "In recent years, the prognosis for BRAFV600E-mutant metastatic melanoma has been transformed with targeted therapies combining BRAF and MEK inhibitors (dabrafenib-trametinib and encorafenib-cobimetinib), which have improved progression-free survival and overall survival. However, adverse events are very frequent, and a significant proportion of patients progress secondarily. Several clinical studies have shown that inter-individual variability in plasma exposure to BRAF inhibitors (dabrafenib, v",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAdults ≥ 18 years of age\n\n* Histologically confirmed advanced melanoma, stage III/stage IV inoperable (primary cutaneous, mucosal or unknown)\n* Treatment with encorafenib and/or binimetinib, whatever the line of treatment, for curative purposes.\n* Affiliated to a social security",
+            "endpoints": [
+              "association between the plasma exposure of encorafenib and binimetinib and the occurrence of dose-limiting toxicity"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06774989"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03911869",
+            "title": "A Phase 2, Open-Label, Randomized, Multicenter Trial of Encorafenib + Binimetinib Evaluating a Standard-dose and a High-dose Regimen in Patients With BRAFV600-Mutant Melanoma Brain Metastasis",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2019-04-30",
+            "completion_date": "2022-01-27",
+            "country": "Australia, Belgium, Italy, Argentina, United States",
+            "enrollment": 13,
+            "brief_summary": "This is a multicenter, randomized open-label Phase 2 study to assess the safety, efficacy and pharmacokinetic (PK) of 2 dosing regimens of encorafenib + binimetinib combination in patients with BRAFV600-mutant melanoma with brain metastasis. Approximately 100 patients will be enrolled, including 9 patients in a Safety Lead-in of the high-dose treatment arm. After a Screening Period, treatment will be administered in 28-day cycles and will continue until disease progression, unacceptable toxicity",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Histologically confirmed diagnosis of cutaneous melanoma with metastases to the brain.\n* Presence of B-RAF proto-oncogene, V600 mutant (BRAFV600) mutation in tumor tissue previously determined by a local PCR or NGS-based assay at any time prior to Screening or by a central",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicities (DLTs): Safety Lead-in (SLI) Phase",
+              "Number of Participants With Treatment Emergent Adverse Events Graded by National Cancer Institute Common Toxicity Criteria for Adverse Events (NCI _CTCAE) Version (v) 4.03: SLI Phase",
+              "Number of Participants With Hepatology Laboratory Test Abnormalities: SLI Phase"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03911869"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07022457",
+            "title": "UK ENcorafenib and BInimetinib Real-world Study in Melanoma (UK-EnBiRiM): A Prospective Observational Real-world App-based Study to Explore HRQoL Outcomes, of Adults With Metastatic Cutaneous BRAF V600 Mutation-positive Melanoma, Initiated on Combination Encorafenib and Binimetinib Therapy in the UK",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-07-31",
+            "completion_date": "2028-01-13",
+            "country": "United Kingdom",
+            "enrollment": 50,
+            "brief_summary": "This is a prospective longitudinal multi-centre observational study conducted in the United Kingdom, in patients with metastatic cutaneous BRAF V600 mutation-positive melanoma assigned to receive encorafenib and binimetinib. The aim of this study is to learn about how encorafenib and binimetinib perform, patients' experiences of using them, and how they might affect patient's quality of life, in the real world, when these treatments are prescribed by doctors instead of in a clinical trial. Parti",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Aged 18 years or older\n* Willing and capable of providing written informed consent\n* Access to a smartphone\n* Diagnosis of metastatic cutaneous melanoma with presence of BRAF V600 mutation in tumour tissue prior to enrolment\n* Clinical decision has been made to begin encorafen",
+            "endpoints": [
+              "Describe the change from baseline over 24 months of FACT-Melanoma (FACT-M) scores of patients initiated on encorafenib plus binimetinib"
+            ],
+            "sponsor": "Pierre Fabre Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT07022457"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01781572",
+            "title": "A Phase Ib/II, Multicenter, Open Label, Study of LEE011 in Combination With MEK162 in Adult Patients With NRAS Mutant Melanoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-06",
+            "completion_date": "2018-02-20",
+            "country": "Australia, Netherlands, Germany, Italy, United States",
+            "enrollment": 102,
+            "brief_summary": "In the phase Ib, the primary purpose is to establish the maximum tolerated dose (MTD)(s)/recommended phase ll dose (RP2D) and schedule of LEE011 and MEK162 orally administered combination. Once the MTD(s)/RP2D have been determined for each tested schedule, additional patients will be enrolled in the phase II portion of the study at the RP2D on the chosen schedule in order to assess the anti-tumor activity of the combination in addition to continued evaluation of safety.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 - 1.\n* Patients enrolled into phase Ib may be enrolled with evaluable disease only. Patients enrolled into the phase II expansion must have at least one measurable lesion as defined by RECI",
+            "endpoints": [
+              "Number of Dose Limiting Toxicities (Phase Ib)",
+              "Objective Response Rate (ORR) (Phase II)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01781572"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05370807",
+            "title": "A Phase-2 Clinical Trial of Regorafenib in Patients With Pretreated Advanced Melanoma - Definition of Two Additional Stratified Patient Cohorts of Regorafenib Plus BRAF-/MEK-inhibitors in Pretreated BRAF V600-mutant Melanoma Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-10-03",
+            "completion_date": "2025-03",
+            "country": "Belgium",
+            "enrollment": 48,
+            "brief_summary": "There are in total 3 cohorts. Cohort A: 16 patients will receive a daily dose of 80mg regorafenib up until progressive disease, unacceptable toxicity or withdrawal of consent. Dose can be escalated intra-patient up to 120 mg if no AE with a grad \\>1 at 28 days. Patients get a baseline evaluation and have a consultation every 2 weeks for evaluation during treatment. This evaluation consists out of lab tests, PET/CT (not bi-weekly), MRI (not bi-weekly) and physical evaluation.\n\nPrimary endpoint is",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. ≥ 18 years of age.\n2. Signed written informed consent.\n3. Histologically confirmed advanced melanoma that is either stage III (unresectable) or stage IV (metastatic, unresectable)\n4. Subjects must have failed prior systemic treatment with immune checkpoint inhibitors, includi",
+            "endpoints": [
+              "To measure the anti-tumor acitivity of regorafenib treatment in patients with advanced pretreated melanoma."
+            ],
+            "sponsor": "Universitair Ziekenhuis Brussel",
+            "url": "https://clinicaltrials.gov/study/NCT05370807"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03543969",
+            "title": "Pilot Study of Adaptive BRAF-MEK Inhibitor Therapy for Advanced BRAF Mutant Melanoma",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-06-14",
+            "completion_date": "2026-12",
+            "country": "United States",
+            "enrollment": 14,
+            "brief_summary": "This pilot early phase I trial studies how well encorafenib, binimetinib, and nivolumab work in treating patients with BRAF mutant stage IIIC-IV melanoma. Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with nivolumab, may induce changes in body's immune system and may interfere with the ability of tumor cells to grow and spread. Giving encorafenib, binimetinib, and nivolumab may kill more tumor cells.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must be 18 years of age or above\n* Subjects must have cytologically or histologically-confirmed unresectable melanoma that harbors a BRAF V600E mutation determined by pyrosequencing assay or equivalent genotyping assay in a Clinical Laboratory Improvement Act (CLIA) c",
+            "endpoints": [
+              "8 Week Completion Rate"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03543969"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06887088",
+            "title": "Phase II, Single Arm, Multicentre Clinical Trial to Evaluate the Activity of Encorafenib Plus Binimetinib Followed by Cemiplimab And Fianlimab in Patients With BRAF Mutated Melanoma and Symptomatic Brain Metastases",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-05-29",
+            "completion_date": "2028-01",
+            "country": "Spain",
+            "enrollment": 33,
+            "brief_summary": "Brain metastases in patients with advanced and metastatic melanoma are a frequent complication and a significant cause of morbidity and mortality in this patient population. As the incidence of brain metastases continues to increase in patients with metastatic melanoma, it is urgent that the investigators identify effective therapies.\n\nENCEFALO is a Phase II, single arm, multicentre clinical trial designed to evaluate the activity of encorafenib plus binimetinib followed by cemiplimab and fianli",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients eligible for inclusion in this study must meet all the following criteria:\n\n* Written informed consent approved by the Independent Ethics Committee (IEC), prior to the performance of any trial activities.\n* Histologically confirmed diagnosis of unresectable metastatic B",
+            "endpoints": [
+              "intracranial progression-free survival (icPFS) follow-up"
+            ],
+            "sponsor": "Grupo Español Multidisciplinar de Melanoma",
+            "url": "https://clinicaltrials.gov/study/NCT06887088"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04655157",
+            "title": "A Multi-Center Phase I/II Open Label Study to Evaluate Safety and Efficacy in Participants With Metastatic BRAF-mutant Melanoma Treated With Encorafenib With and Without Binimetinib in Combination With Nivolumab and Low-dose Ipilimumab. (QUAD 01: Quadruple Therapy in Melanoma)",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2021-05-28",
+            "completion_date": "2022-09-20",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "Patients with unresectable or metastatic BRAF-mutant melanoma high-risk patients will be given 450 mg orally (PO) daily (QD) plus binimetinib 45 mg PO twice daily (BID) together with nivolumab administered intravenously (IV) at 3mg/kg and ipilimumab administered IV at 1 mg/kg every 3 weeks for 4 doses, followed by nivolumab administered IV at 480mg every 4 weeks until progression or discontinuation due to toxicity. Concurrently, a triple therapy arm will be explored with encorafenib 300 mg PO QD",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed Written Informed Consent\n\n   1. Participants must have signed and dated an IRB/IEC approved written informed consent form in accordance with regulatory and institutional guidelines. This must be obtained before the performance of any protocol-related procedures that ar",
+            "endpoints": [
+              "Recommended Phase II Dose (RP2D) of Encorafenib + Nivolumab + Ipilimumab",
+              "Recommended Phase II Dose (RP2D) of Encorafenib + Binimetinib + Nivolumab + Ipilimumab"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT04655157"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02910700",
+            "title": "A Phase II Study of the TRIplet Combination of Dabrafenib, Nivolumab, and Trametinib in Patients With Metastatic Melanoma (TRIDeNT) or Binimetinib, EnCorafenib, and NivolumAb (TRIBECA)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-12-09",
+            "completion_date": "2027-12-08",
+            "country": "United States",
+            "enrollment": 52,
+            "brief_summary": "This phase II trial studies the side effects and how well nivolumab with trametinib and dabrafenib, or encorafenib and binimetinib work in treating patients with BRAF-mutated stage III-IV melanoma that has spread to other places in the body (metastatic) or cannot be removed by surgery (unresectable). Immunotherapy with monoclonal antibodies, such as nivolumab, may induce changes in the body's immune system and may interfere with the ability of tumor cells to grow and spread. Trametinib, dabrafen",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed metastatic melanoma (stage IV) or unresectable Stage III that have progressed on or after receiving prior PD-1 directed therapy; only patients with BRAF V600 mutated melanoma are eligible; please note that patients with brain metastasis are not require",
+            "endpoints": [
+              "Objective response rate (ORR) as measured by Response Evaluation Criteria in Solid Tumors version 1.1 on both arms"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02910700"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05004350",
+            "title": "A Multicenter, Randomized, Open-label, 2-arm, Phase II Study With a Safety lead-in Phase Evaluating the Combination of Encorafenib and Cetuximab Versus Irinotecan/Cetuximab or Infusional 5-fluorouracil (5-FU)/Folinic Acid (FA)/Irinotecan (FOLFIRI)/Cetuximab in Chinese Patients With BRAF V600E Mutant Metastatic Colorectal Cancer.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-09-14",
+            "completion_date": "2024-12-07",
+            "country": "China",
+            "enrollment": 107,
+            "brief_summary": "Encorafenib is currently being developed (with or without binimetinib), in combination with cetuximab, for the treatment of adult patients with B-RAF proto-oncogene, serine/threonine kinase V600E mutant (BRAF V600E) metastatic colorectal cancer (mCRC), who have received prior systemic therapy.",
+            "eligibility_criteria": "Inclusion Criteria for Molecular Prescreening:\n\nThe following inclusion criteria must be met for a participant to be eligible to undergo molecular tumor prescreening:\n\n* Chinese male or female participant with age ≥18 years at the time of informed consent.\n* Histologically- or cytologically-confirme",
+            "endpoints": [
+              "Safety Lead-in Phase: Incidence of Dose Limiting Toxicities (DLTs) during the DLT-evaluation period (which is the first 28 days after the first dose of study intervention in the SLI)",
+              "Randomized Phase 2: Progression-free Survival (PFS) by Blinded (to treatment received) Independent Central Review (BICR)"
+            ],
+            "sponsor": "Pierre Fabre Medicament",
+            "url": "https://clinicaltrials.gov/study/NCT05004350"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03563729",
+            "title": "Efficacy of Immunotherapy in Melanoma Patients With Brain Metastases Treated With Steroids",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2018-06-06",
+            "completion_date": "2028-06-06",
+            "country": "Denmark",
+            "enrollment": 80,
+            "brief_summary": "This clinical trial is to clarify whether treatment with a checkpoint inhibitor alone (pembrolizumab) or two in combination (ipilimumab and nivolumab), results in clinical benefit for MM patients with brain metastases and in need of steroid treatment. Patients will be treated in four arms depending on steroid dose level at inclusion (\\> 10 \\< 25 mg prednisolone or \\> 25 mg prednisolone) and treatment (pembrolizumab alone or the combination of ipilimumab and nivolumab).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed metastatic melanoma with radiologically verified brain metastasis\n* Need for systemic steroid treatment (prednisolone \\> 10 mg daily; dexamethasone \\> 1.6 mg daily, hydrocortisone \\> 40 mg daily or equivalent) due to brain metastasis\n* At least one mea",
+            "endpoints": [
+              "6 months progression-free survival rate",
+              "6 months overall survival rate"
+            ],
+            "sponsor": "Herlev Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03563729"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05270044",
+            "title": "Adjuvant Encorafenib & Binimetinib vs. Placebo in Fully Resected Stage IIB/C BRAF V600E/K Mutated Melanoma: a Randomized Triple-blind Phase III Study in Collaboration With the EORTC Melanoma Group",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-05-02",
+            "completion_date": "2035-05-02",
+            "country": "Australia, Belgium, Austria, Canada, Netherlands, Italy, Czechia, Sweden, Serbia, Poland, Norway, United Kingdom, France, Brazil, Germany, Argentina, Hungary, Switzerland, Spain, Romania, Portugal, Greece, South Africa",
+            "enrollment": 815,
+            "brief_summary": "The purpose of the Columbus-AD study is to evaluate the efficacy and safety of 12 months of encorafenib in combination with binimetinib in adjuvant setting of BRAF V600E/K mutant stage IIB/C melanoma versus the current standard of care (surveillance).",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPre-Screening\n\n* Male or female ≥ 18 years of age;\n* Surgically resected, with tumour free margins, and histologically/pathologically confirmed new diagnosis of stage II (pT3b-pT4bN0) cutaneous melanomaa;\n* Sentinel node (SN) biopsy within 14 weeks from initial diagnosis of mela",
+            "endpoints": [
+              "Recurrence-free survival (RFS)"
+            ],
+            "sponsor": "Pierre Fabre Medicament",
+            "url": "https://clinicaltrials.gov/study/NCT05270044"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03864042",
+            "title": "An Open-label Phase 1 Study to Evaluate Drug-Drug Interactions of Agents Co-Administered With Encorafenib and Binimetinib in Patients With BRAF V600-mutant Unresectable or Metastatic Melanoma or Other Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2018-01-02",
+            "completion_date": "2023-05-29",
+            "country": "Spain, Canada, Belgium, Netherlands, United States",
+            "enrollment": 56,
+            "brief_summary": "This is an open-label, 3-arm, fixed-sequence study to evaluate the effect of single and multiple oral doses of encorafenib in combination with binimetinib on the single oral dose pharmacokinetics (PK) of cytochrome P450 (CYP) enzyme probe substrates using a probe cocktail, on an organic anion-transporting polypeptide/breast cancer resistance protein (OATP/BCRP) substrate using rosuvastatin and on a CYP2B6 substrate using bupropion. The effect of multiple oral doses of the moderate cytochrome P45",
+            "eligibility_criteria": "Key Inclusion Criteria - Patients must meet all of the inclusion criteria to be eligible for enrollment into the study:\n\n* Histologically confirmed diagnosis of locally advanced, unresectable or metastatic cutaneous melanoma or unknown primary melanoma American Joint Committee on Cancer (AJCC) Stage",
+            "endpoints": [
+              "Maximum Concentration (Cmax) of Plasma Midazolam on Day -7, Day 1, and Day 14",
+              "Cmax of Plasma Total 1-OH Midazolam on Day -7, Day 1, and Day 14",
+              "Cmax of Plasma Free 1-OH Midazolam on Day -7, Day 1, and Day 14"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03864042"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04741997",
+            "title": "A Randomized Pilot Trial of Adjuvant Therapy Based on Pathologic Response After Neoadjuvant Encorafenib and Binimetinib in Advanced Melanoma",
+            "phase": "EARLY_PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-05-24",
+            "completion_date": "2027-07",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "The purpose of this study is to assess rate of disease relapse and hazard rate of disease relapse after neoadjuvant therapy based on the statuses of pathologic complete response or non-pathologic complete response, and postoperative adjuvant therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years at the time of informed consent\n* Histologically confirmed diagnosis of melanoma. Any primary or unknown origin is permitted.\n* Melanoma must have a BRAFV600 mutation (using a CLIA-validated assay), either stage III (B/C/D) or Stage IV (AJCC 8th edition).\n* ECOG",
+            "endpoints": [
+              "Rate of Disease Relapse"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT04741997"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05355701",
+            "title": "A PHASE 1, OPEN-LABEL, DOSE ESCALATION AND DOSE EXPANSION STUDY TO EVALUATE THE SAFETY, TOLERABILITY, PHARMACOKINETICS, AND ANTI TUMOR ACTIVITY OF PF-07799933 (ARRY-440) AS A SINGLE AGENT AND IN COMBINATION THERAPY IN PARTICIPANTS 16 YEARS AND OLDER WITH ADVANCED SOLID TUMORS WITH BRAF ALTERATIONS",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2022-07-05",
+            "completion_date": "2030-05-06",
+            "country": "Israel, Canada, United States",
+            "enrollment": 267,
+            "brief_summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called PF-07799933) administered as a single agent and in combination with other study medicines in people with solid tumors.\n\nThis study is seeking participants who have an advanced solid tumor with a certain type of abnormal gene called \"BRAF\" and available treatments are no longer effective in controlling their cancer.\n\nAll participants in this study will receive PF-07799933. PF-07799933 comes a",
+            "eligibility_criteria": "This study is seeking participants who meet the following key eligibility criteria:\n\nInclusion Criteria:\n\n* Diagnosis of advanced/metastatic solid tumor including primary brain tumor.\n* Qualifying BRAF alteration (V600 or non-V600 Class II/Class III BRAF alteration), in tumor tissue and/or blood (ie",
+            "endpoints": [
+              "Number of participants with dose limiting toxicities (DLTs) (Part 1 and Part 2)",
+              "Number of participants with treatment-emergent adverse events (AEs) (Part 1 and Part 2)",
+              "Number of participants with clinically significant change from baseline in laboratory abnormalities (Part 1 and Part 2)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05355701"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03979651",
+            "title": "MEK and Autophagy Inhibition in Metastatic/Locally Advanced, Unresectable Neuroblastoma RAS (NRAS) Melanoma: A Phase Ib/II Trial of Trametinib Plus Hydroxychloroquine in Patients With NRAS Melanoma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-10-15",
+            "completion_date": "2023-01-03",
+            "country": "France",
+            "enrollment": 29,
+            "brief_summary": "Patients with metastatic Neuroblastoma RAS (NRAS) melanoma are currently treated with first line immune checkpoint inhibitors (nivolumab, pembrolizumab). Thus far, no targeted therapy has been approved in NRAS mutated melanoma as a second line treatment, because although the use of a MEK inhibitor (binimetinib) alone was superior to the gold standard chemotherapy (dacarbazine) in a phase 3 trial, the progression free survival gain was very modest.\n\nIn vitro and in vivo work from the study team's",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically confirmed metastatic or locally advanced unresectable malignant melanoma with an activating NRAS mutation.\n2. Available archival tissue, or if not, the patient is willing to provide a baseline tumor biopsy\n3. Patient must have progressed during or after a first",
+            "endpoints": [
+              "Incidence of Dose-Limiting Toxicities (DLTs)",
+              "Percentage of patients with a partial or complete response to treatment"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT03979651"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01763164",
+            "title": "The NEMO Trial (NRAS Melanoma and MEK Inhibitor):A Randomized Phase III, Open Label, Multicenter, Two-arm Study Comparing the Efficacy of MEK162 Versus Dacarbazine in Patients With Advanced Unresectable or Metastatic NRAS Mutation-positive Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-07-12",
+            "completion_date": "2019-06-04",
+            "country": "Australia, Belgium, Austria, United States, Canada, South Korea, Netherlands, Italy, Russia, Czechia, Sweden, Poland, Japan, United Kingdom, France, Brazil, Germany, Argentina, Israel, Hungary, Switzerland, Spain, Turkey (Türkiye), Slovakia, Portugal, Greece, South Africa",
+            "enrollment": 402,
+            "brief_summary": "Two-arm, randomized, prospective, open-label, multi-center, phase III study to compare the efficacy and safety of MEK162 (45 mg BID) versus dacarbazine (1000 mg/m2 IV every 3 weeks) in patients with advanced (Stage IIIC) unresectable or metastatic (Stage IV) NRAS Q61 mutation-positive cutaneous or unknown primary melanoma. The mutation analysis will be performed at a central laboratory. Only those patients with Q61 mutation per central laboratory and meet all eligibility criteria will be randomi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of locally advanced, unresectable or metastatic cutaneous or melanoma of unknown primary AJCC Stage IIIC or IV (uveal and mucosal melanoma are excluded)\n* Presence of NRAS Q61 mutation in tumor tissue prior to randomization as determined by a Novartis designated cent",
+            "endpoints": [
+              "Progression-Free Survival (PFS) by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01763164"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04657991",
+            "title": "A PHASE 3, RANDOMIZED, DOUBLE-BLIND STUDY OF ENCORAFENIB AND BINIMETINIB PLUS PEMBROLIZUMAB VERSUS PLACEBO PLUS PEMBROLIZUMAB IN PARTICIPANTS WITH BRAF V600E/K MUTATION-POSITIVE METASTATIC OR UNRESECTABLE LOCALLY ADVANCED MELANOMA",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-01-15",
+            "completion_date": "2026-08-31",
+            "country": "Belgium, Austria, United States, Ukraine, Canada, Italy, Russia, Czechia, Poland, Norway, United Kingdom, France, New Zealand, Brazil, Germany, Argentina, Israel, Mexico, Hungary, Switzerland, Spain, Turkey (Türkiye), Slovakia, Finland, Bulgaria, Greece, South Africa",
+            "enrollment": 257,
+            "brief_summary": "The purpose of this study is to learn about the effects of three study medicines (encorafenib, binimetinib, and pembrolizumab) given together for the treatment of melanoma that:\n\n* is advanced or metastatic (spread to other parts of the body);\n* has a certain type of abnormal gene called \"BRAF\"; and\n* has not received prior treatment.\n\nAll participants in this study will receive pembrolizumab at the study clinic once every 3 weeks as an intravenous (IV) infusion (given directly into a vein). In ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female participants ≥ 18 years at the time of informed consent.\n* Participants who are willing and able to comply with all scheduled visits, treatment plan, laboratory tests, lifestyle considerations, and other study procedures.\n* Histologically confirmed unresectable ",
+            "endpoints": [
+              "Safety Lead In (SLI): Incidence of Dose Limiting Toxicities (DLTs)",
+              "Phase 3: Objective Response (OR) by Blinded Independent Central Review (BICR)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04657991"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04760080",
+            "title": "Adjunction of Hydroxychloroquine in Patients With a Metastatic Melanoma Who Are Resistant to BRAF and MEK Inhibitors : a Retrospective Case-control Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-01-01",
+            "completion_date": "2020-10-01",
+            "country": "France",
+            "enrollment": 31,
+            "brief_summary": "Patients with a BRAF mutated melanoma are usually treated in France by a first line of immunotherapy followed by a second line that combines a BRAF inhibitor (dabrafenib, vemurafenib, encorafenib) and a MEK inhibitor (trametinib, cobimetinib, binimetinib).\n\nThe combination dabrafenib/trametinib is initially very efficient but it is unfortunately limited because acquired resistances usually occur after a year of treatment. Patients who become resistant to dabrafenib/trametinib and immunotherapy, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with metastatic melanoma with an activating BRAF mutation\n* Who received at least one line of immunotherapy\n* Whose disease is resistant to a BRAF inhibitor used as a single agent or in combination with a MEK inhibitor\n* Who received either cytotoxic chemotherapy or t",
+            "endpoints": [
+              "Comparison of progression free survival (PFS) in patients who are resistant to dabrafenib/trametinib who receive dabrafenib/trametinib/hydroxychloroquine despite tumor progression versus cytotoxic chemotherapy"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT04760080"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01801358",
+            "title": "A Phase Ib/II, Open-label, Multicenter Study of AEB071 and MEK162 in Adult Patients With Metastatic Uveal Melanoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2013-08",
+            "completion_date": "2015-05",
+            "country": "Spain, United Kingdom, France, Netherlands, Germany, United States",
+            "enrollment": 38,
+            "brief_summary": "A phase Ib dose-escalation study of the AEB071 and MEK162 combination in adult patients with confirmed metastatic uveal melanoma. Cohorts of 3-6 patients will be assessed for dose limiting toxicities (DLTs) during Cycle 1 until the maximum tolerated dose (MTD) of the combination therapy is determined. The MTD or Phase 2 Recommended Dose (P2RD) will be used in a Phase II part of the study, which will enrol 55 patients each into two randomized groups: the combination therapy or MEK162 alone. The P",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent\n* Male and female patients aged 18 years or older\n* A history of uveal (ocular) melanoma with biopsy-confirmed metastatic disease\n* Consent to providing 3 tumor biopsy samples throughout the course of the study\n* Presence of measurable disease\n* A WHO ",
+            "endpoints": [
+              "Phase Ib: Incidence of Dose Limiting Toxicities (DLT) During the First Cycle",
+              "Phase II: Progression Free Survival (PFS)"
+            ],
+            "sponsor": "Array BioPharma",
+            "url": "https://clinicaltrials.gov/study/NCT01801358"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04221438",
+            "title": "A Phase II Neoadjuvant Study of Encorafenib With Binimetinib in Patients With Resectable Locoregional Metastases From Cutaneous or Unknown Primary Melanoma (Stages III N1B/C/D)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2021-09-22",
+            "completion_date": "2025-01-31",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "This phase II trial studies how well encorafenib and binimetinib work before surgery in treating patients with BRAF V600-mutated stage IIIB-D melanoma that has spread to the lymph nodes. Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. This trial also studies how well 18F-FLT positron emission tomography (PET)/computed tomography (CT) works in predicting the response of melanoma to encorafenib and binimetinib. 18F-FLT is an im",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must have histologically proven melanoma that is clinically evident (macroscopic lymphadenectomy \\[LAD\\]) stage III B/C/D, (American Joint Committee on Cancer \\[AJCC\\] 8th edition) of cutaneous origin or unknown primary. Patients must have at least one clinically evide",
+            "endpoints": [
+              "Pathologic Complete Response"
+            ],
+            "sponsor": "Eastern Cooperative Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT04221438"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04543188",
+            "title": "A TWO-PART, PHASE 1A/B, OPEN-LABEL, MULTICENTER TRIAL EVALUATING PHARMACOKINETICS, SAFETY AND EFFICACY OF PF 07284890 (ARRY 461) IN PARTICIPANTS WITH BRAF V600 MUTANT SOLID TUMORS WITH AND WITHOUT BRAIN INVOLVEMENT",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2021-01-08",
+            "completion_date": "2024-03-20",
+            "country": "Israel, Canada, United States",
+            "enrollment": 65,
+            "brief_summary": "First-in-human study to assess safety, tolerability, PK, and preliminary activity of PF-07284890 as a single agent and in combination with binimetinib in participants with BRAF V600-mutated advanced solid tumor malignancies with and without brain involvement.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥16 years at the time of consent\n* Histologically confirmed diagnosis of advanced/metastatic solid tumor including primary brain tumor\n* Documented evidence of a BRAF V600 mutation in tumor tissue or blood\n* Confirmation of availability of adequate tumor tissue for submiss",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicities (DLTs): Phase 1a",
+              "Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious TEAEs, Serious Treatment Related TEAEs, Grade 3 or 4 TEAEs and Grade 5 TEAEs by NCI CTCAE v5.0: Phase 1a",
+              "Number of Participants With Hematology Laboratory Abnormalities of Any CTCAE Grade: Phase 1a"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04543188"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01320085",
+            "title": "A Phase II, Open-label Study to Assess the Safety and Efficacy of Oral MEK162 in Adults With Locally Advanced and Unresectable or Metastatic Malignant Cutaneous Melanoma, Harboring BRAFV600 or NRAS Mutations",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-03-24",
+            "completion_date": "2023-02-06",
+            "country": "Switzerland, Netherlands, Germany, Italy, United States",
+            "enrollment": 183,
+            "brief_summary": "The study will assess the safety and efficacy of single-agent MEK162 in adult patients with locally advanced and unresectable or metastatic malignant cutaneous melanoma, harboring BRAFV600E or NRAS mutations.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Locally advanced or metastatic cutaneous melanoma AJCC Stage IIIB to IV, not potentially curable with surgery\n* BRAF or NRAS mutation in tumor tissue\n* All patients enrolled should provide sufficient fresh or archival tumor sample at baseline to enable confirmation of BRAF or ",
+            "endpoints": [
+              "Percentage of Participants With Objective Response (OR)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01320085"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02465060",
+            "title": "Molecular Analysis for Therapy Choice (MATCH)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2015-08-17",
+            "completion_date": "2026-12-31",
+            "country": "Guam, Puerto Rico, United States",
+            "enrollment": 6452,
+            "brief_summary": "This phase II MATCH screening and multi-sub-trial studies how well treatment that is directed by genetic testing works in patients with solid tumors, lymphomas, or multiple myelomas that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced) and does not respond to treatment (refractory). Patients must have progressed following at least one line of standard treatment or for which no agreed upon treatment approach exists. Genetic tests l",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ELIGIBILITY CRITERIA FOR SCREENING BIOPSY (STEP 0)\n* Patients must be \\>= 18 years of age. Because no dosing or adverse event data are currently available on the use of study investigational agents in patients \\< 18 years of age, children are excluded from this study\n* Patient",
+            "endpoints": [
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02465060"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05260684",
+            "title": "Comparative Effectiveness of Different Targeted Therapies for BRAF-mutated Unresectable/Metastatic Melanoma in the United States",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-01-17",
+            "completion_date": "2023-12-31",
+            "country": "United States",
+            "enrollment": 716,
+            "brief_summary": "This study aims to compare real-world effectiveness of BRAF/MEK inhibitors in BRAF-mutant metastatic melanoma patients in the United States by line of therapy.\n\nThe Flatiron Health electronic health record (EHR) data from US cancer clinics will be used for this retrospective database analysis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with melanoma based on International Classification of Disease 9th and 10th Revisions (ICD-9: 172.x; ICD-10: C43x, D03x) and ≥2 visits on different days in the Flatiron database on or after January 1, 2011.\n* Clinically confirmed diagnosis of melanoma with pathologic",
+            "endpoints": [
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05260684"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01363232",
+            "title": "A Phase Ib, Open-label, Multi-center, Dose-escalation and Expansion Study of an Orally Administered Combination of BKM120 Plus MEK162 in Adult Patients With Selected Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-08",
+            "completion_date": "2017-12-18",
+            "country": "Switzerland, Spain, Canada, Netherlands, Germany, United States, Singapore",
+            "enrollment": 89,
+            "brief_summary": "This is an open label, dose finding, phase Ib clinical trial to determine the maximum tolerated dose (MTD) and/or the recommended phase II dose (RP2D) of the orally administered phosphatidylinositol 3'-kinase (PI3K) inhibitor BKM120 in combination with the MEK1/2 inhibitor MEK162. This combination will be explored in patients with epidermal growth factor receptor (EGFR) mutant non-small cell lung cancer (NSCLC) which has progressed on EGFR inhibitors and triple negative breast cancer, as well as",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically/ cytologically confirmed, advanced non resectable solid tumors\n* Measurable or non-measurable, but evaluable disease as determined by RECIST\n\nExclusion Criteria:\n\n* Patients with primary CNS tumor or CNS tumor involvement.\n* Diabetes mellitus\n* Unacceptable ocul",
+            "endpoints": [
+              "Incidence of Dose Limiting Toxicities"
+            ],
+            "sponsor": "Array BioPharma",
+            "url": "https://clinicaltrials.gov/study/NCT01363232"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04913285",
+            "title": "A Phase 1/1b Open-label, Multicenter Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Antitumor Activity of KIN-2787 in Participants With BRAF and/or NRAS Mutation-positive Solid Tumors.",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-08-04",
+            "completion_date": "2029-03-30",
+            "country": "Australia, Spain, France, Italy, United States, China, Taiwan",
+            "enrollment": 400,
+            "brief_summary": "The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary efficacy of KIN-2787 in adults with BRAF/NRAS-mutated advanced or metastatic solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provide written informed consent prior to initiation of any study-specific procedures.\n* Metastatic or advanced stage solid tumor\n* Known BRAF Class I, Class II, or Class III alteration or melanoma with an NRAS mutation as confirmed by previous genomic analysis of tumor tissue",
+            "endpoints": [
+              "Part A1 Dose escalation monotherapy:",
+              "Part A2 Dose Escalation: KIN-2787 + Binimetinib Combination",
+              "In Part B (Dose Expansion) - objective response rate (ORR) using RECIST v1.1."
+            ],
+            "sponsor": "Pierre Fabre Medicament",
+            "url": "https://clinicaltrials.gov/study/NCT04913285"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01820364",
+            "title": "Phase II, Multi-center, Open-label Study of Single-agent LGX818 Followed by a Rational Combination With Agents After Progression on LGX818, in Adult Patients With Locally Advanced or Metastatic BRAF V600 Melanoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2013-11",
+            "completion_date": "2015-03",
+            "country": "Switzerland, Australia, Spain, Canada, Germany, United States",
+            "enrollment": 15,
+            "brief_summary": "The primary purpose of the Phase II CLGX818X2102 study is to assess the anti-tumor activity of LGX818 in combination with selected agents.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* locally advanced or metastatic melanoma\n* confirmed BRAF V600 mutation\n* patients naïve to a selective BRAF inhibitor\n* fresh tumor biopsy at baseline, and patient agrees for a mandatory biopsy at the time of relapse\n* life expectancy ≥ 3 months\n* World Health Organization (WH",
+            "endpoints": [
+              "Tumor Response (Overall Response Rate) Per Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 (Part I & Part II)"
+            ],
+            "sponsor": "Array BioPharma",
+            "url": "https://clinicaltrials.gov/study/NCT01820364"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04045691",
+            "title": "Encorafenib Plus Binimetinib in Patients With Locally Advanced, Unresectable or Metastatic BRAFV600-mutated Melanoma: a Multi-centric, Multinational, Prospective, Longitudinal, Non-interventional Study in Germany, Austria and Switzerland - BERING MELANOMA",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2019-10-17",
+            "completion_date": "2027-09",
+            "country": "Austria, Switzerland, Germany",
+            "enrollment": 750,
+            "brief_summary": "BERING-MELANOMA - designed as a prospective, longitudinal, non-interventional study - investigates real-world effectiveness, quality of life, safety and tolerability of encorafenib plus binimetinib in unresectable advanced or metastatic BRAF(Rapidly Accelerated Fibrosarcoma isoform B)-V600-mutant malignant melanoma after commercial availability of these two products in Germany, Austria and Switzerland. The study focusses on the documentation of the first and second line setting (i.e. after one l",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent of the patient with regard to the pseudonymized documentation as well as the transfer and processing of his/her data within the study and the ADOREG \\[Cancer Registry of German Working Group of Dermato-Oncology\\] registry (data transfer to ADOREG regis",
+            "endpoints": [
+              "Progression-free survival"
+            ],
+            "sponsor": "Pierre Fabre Pharma GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT04045691"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05767879",
+            "title": "Open Label Phase 2 Study Neo-Adjuvant BRAF/MEK Inhibition Followed by Surgery and Adjuvant BRAF/MEK Inhibition in In-transit Melanoma Metastases (NASAM)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-01-01",
+            "completion_date": "2026-01-01",
+            "country": "Netherlands",
+            "enrollment": 28,
+            "brief_summary": "Phase 2 open-label single arm intervention study administering encorafenib/binimetinib in neo-adjuvant setting followed by surgery and subsequent adjuvant encorafenib/binimetinib in in-transit melanoma patients without lymph node and distant metastases.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age over 18 years old\n* World Health Organization (WHO) Performance Status 0 or I\n* Primary cutaneous melanoma or unknown primary melanoma with pathologically confirmed in-transit metastatic melanoma\n* Patients must have undergone complete disease staging including: PET-CT sca",
+            "endpoints": [
+              "Efficacy of neo-adjuvant encorafenib/binimetinib"
+            ],
+            "sponsor": "Leiden University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05767879"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04720768",
+            "title": "A Phase 1B Study to Evaluate the Safety, Tolerability and Preliminary Efficacy of the Combination of Encorafenib, Binimetinib and Palbociclib in Patients With BRAF-mutant Metastatic Melanoma (The CELEBRATE Study)",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-06-04",
+            "completion_date": "2024-12-04",
+            "country": "Australia",
+            "enrollment": 78,
+            "brief_summary": "This is an open-label, phase IB, non-randomised study consisting of a dose escalation phase and expansion phase, evaluating the safety, tolerability and preliminary efficacy of the combination of encorafenib, binimetinib and palbociclib in patients with BRAF-mutant metastatic melanoma.\n\nDose escalation phase: Previously treated or treatment-naïve patients will be evaluated after the first cycle for dose-limiting toxicities to ascertain the recommended phase 2 dose (RP2D) of encorafenib, binimeti",
+            "eligibility_criteria": "Inclusion Criteria:\n\nDose Escalation Phase only: (Australia only)\n\n1. Patients who are naïve to, or have received prior BRAF and MEK inhibitor combination therapy. Prior treatment with chemotherapy and biological therapy (e.g. checkpoint inhibitor therapy) is permitted.\n\n   Dose Expansion Phase only",
+            "endpoints": [
+              "Dose-limiting toxicity (DLTs)"
+            ],
+            "sponsor": "Peter MacCallum Cancer Centre, Australia",
+            "url": "https://clinicaltrials.gov/study/NCT04720768"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01909453",
+            "title": "A 2-part Phase III Randomized, Open Label, Multicenter Study of LGX818 Plus MEK162 Versus Vemurafenib and LGX818 Monotherapy in Patients With Unresectable or Metastatic BRAF V600 Mutant Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-09-12",
+            "completion_date": "2024-09-03",
+            "country": "Australia, United States, Canada, South Korea, Netherlands, Italy, Russia, Czechia, Sweden, Norway, Poland, Colombia, Japan, France, United Kingdom, Brazil, Germany, Argentina, Israel, Mexico, Hungary, Switzerland, Spain, Turkey (Türkiye), Slovakia, South Africa, Portugal, Greece, Singapore",
+            "enrollment": 921,
+            "brief_summary": "This is 2-part, randomized, open label, multi-center, parallel group, phase III study comparing the efficacy and safety of LGX818 plus MEK162 to vemurafenib and LGX818 monotherapy in patients with locally advanced unresectable or metastatic melanoma with BRAF V600 mutation. A total of approximately 900 patients will be randomized.\n\nPart 1:\n\nPatients will be randomized in a 1:1:1 ratio to one of 3 treatment arms:\n\n1. LGX818 450 mg QD plus MEK162 45 mg BID (denoted as Combo 450 arm)\n2. LGX818 300 ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of locally advanced, unresectable or metastatic cutaneous melanoma or unknown primary melanoma (AJCC Stage IIIB, IIIC, or IV)\n* Presence of BRAF V600E or V600K mutation in tumor tissue prior to randomization\n* Naïve untreated patients or patients who have progressed ",
+            "endpoints": [
+              "Part 1: Progression Free Survival (PFS) by BIRC in Combo 450 Group as Compared to Vemurafenib Group",
+              "Part 1: PFS by BIRC in Combo 450 Group as Compared to LGX818 Group"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01909453"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03947385",
+            "title": "A Phase 1/2 Study of IDE196 in Patients With Solid Tumors Harboring GNAQ/11 Mutations or PRKC Fusions",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-06-28",
+            "completion_date": "2027-06-15",
+            "country": "Australia, Canada, United States",
+            "enrollment": 336,
+            "brief_summary": "This is a Phase 1/2, multi-center, open-label basket study designed to evaluate the safety and anti-tumor activity of IDE196 in patients with solid tumors harboring GNAQ or GNA11 (GNAQ/11) mutations or PRKC fusions, including metastatic uveal melanoma (MUM), cutaneous melanoma, colorectal cancer, and other solid tumors.\n\nPhase 1 (dose escalation - monotherapy) will assess safety, tolerability and pharmacokinetics of IDE196 via standard dose escalation scheme and determine the recommended Phase 2",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be ≥18 years of age and able to provide written informed consent\n* Diagnosis of the following:\n\n  o MUM: Uveal melanoma with histological or cytological confirmed metastatic disease. Metastatic disease may be treatment naïve or have progressed on or after most rec",
+            "endpoints": [
+              "Dose-limiting Toxicity (DLT)",
+              "Maximum Tolerated Dose (MTD)",
+              "Recommended Phase 2 Dose (RP2D) as monotherapy, in combination with Binimetinib, or in combination with Crizotinib"
+            ],
+            "sponsor": "IDEAYA Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT03947385"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02902042",
+            "title": "A Randomized Phase I / II Open Label, Multicentre Study of Encorafenib Plus Binimetinib and PD-1 Antibody Pembrolizumab in Patients With Unresectable or Metastatic BRAF V600 Mutant Melanoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-04-24",
+            "completion_date": "2020-11-30",
+            "country": "Germany",
+            "enrollment": 16,
+            "brief_summary": "This study will investigate the influence of maintenance therapy on progression-free survival (PFS) and overall survival (OS) after combination therapy with BRAF/MEK (MAP-ERK kinase) inhibitors and PD-1 antibody pembrolizumab.\n\nIn the safety phase I part the optimal dose of pembrolizumab in combination with BRAF inhibitor and MEK inhibitor and the safety of this three-drugs-combination regime will be determined.\n\nIn the randomized part 2 different maintenance therapies will be tested for toxicit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Willing and able to provide written informed consent/assent for the trial.\n* Being ≥ 18 years of age on day of signing informed consent.\n* Histologically confirmed diagnosis of locally advanced, unresectable or metastatic melanoma AJCC (2017) Stage IIIB, IIIC, IIID or IV with ",
+            "endpoints": [
+              "Phase I: Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability of the triple combination treatment]",
+              "Phase II: Progression-free survival (PFS)",
+              "Phase II: PFS rate at 12 months"
+            ],
+            "sponsor": "University Hospital, Essen",
+            "url": "https://clinicaltrials.gov/study/NCT02902042"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05954546",
+            "title": "Overall Survival (OS) in Patients With Metastatic BRAFV600-mutant Melanoma Treated With Encorafenib Plus Binimetinib in the COLUMBUS Trial Versus in Real-world Practice Data",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2023-07-21",
+            "completion_date": "2023-12-31",
+            "country": "United States",
+            "enrollment": 275,
+            "brief_summary": "Brief summary The purpose of this study is to compare how effective, encorafenib plus binimetinib is in the real-world and clinical trial settings. And produce results to show that combining data on encorafenib plus binimetinib from both the real-world and clinical trial settings is possible for future research studies.\n\nThis study group is identified from the database who:\n\n* Have taken at least 1 order or administration of encorafenib plus binimetinib treatment after the confirmation of having",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Diagnosis of melanoma (International Classification of Diseases 9th or 10th Revision Clinical Modification - ICD-9-CM: 172.X; ICD-10-CM: C43.x) and secondary malignancy or metastasis (ICD-9-CM: 196.x, 197.x, 198.x; ICD-10-CM: C77.x, C78.x, C79.x).\n* Confirmed BRAF V600E/V600K ",
+            "endpoints": [
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05954546"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05097599",
+            "title": "StrataPATH™ (Precision Indications for Approved Therapies): A Study Evaluating the Clinical Activity and Safety of Approved Drugs Within Biomarker-Guided Patients With Solid Tumors",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-04-29",
+            "completion_date": "2024-06-12",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "StrataPATH™ is a non-randomized, open-label trial designed to explore efficacy and safety of multiple FDA-approved and commercially available cancer therapies in new, biomarker-guided patient populations.",
+            "eligibility_criteria": "To be eligible to participate in this study, an individual must meet each of the criterion below and the criteria indicated in the selected biomarker/drug cohort appendix:\n\n1. Male or female ≥18 years of age.\n2. Pathologically confirmed solid tumor\n3. Participants must be able to follow study visit ",
+            "endpoints": [
+              "Overall response rate (ORR) defined as the percentage of participants with a best overall response of CR or PR based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1, as assessed by the investigator"
+            ],
+            "sponsor": "Strata Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT05097599"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02159066",
+            "title": "The LOGIC 2 Trial A Phase II, Multi-center, Open-label Study of Sequential LGX818/MEK162 Combination Followed by a Rational Combination With Targeted Agents After Progression, to Overcome Resistance in Adult Patients With Locally Advanced or Metastatic BRAF V600 Melanoma.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-07-23",
+            "completion_date": "2023-01-10",
+            "country": "Switzerland, Australia, Spain, United Kingdom, Canada, Netherlands, Germany, Italy, United States",
+            "enrollment": 158,
+            "brief_summary": "The primary purpose of this study is to assess the anti-tumor activity of LGX818/MEK162 in combination with targeted agents after progression on LGX818/MEK162 combination therapy, as well as the safety and tolerability of the novel triple combinations.",
+            "eligibility_criteria": "INCLUSION CRITERIA:\n\n* Age ≥ 18 years\n* Histologically confirmed diagnosis of unresectable stage III or metastatic melanoma (stage IIIC to IV per American Joint Committee on Cancer \\[AJCC\\])\n* Documented evidence of BRAF V600 mutation.\n* Newly obtained tumor biopsy at baseline, and patient agrees to",
+            "endpoints": [
+              "Overall Response Rate (ORR): Part II"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT02159066"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04074096",
+            "title": "Randomised Phase 2 Trial Testing the Addition of Upfront Stereotactic Radiosurgery to Binimetinib Encorafenib Pembrolizumab Compared to Binimetinib Encorafenib Pembrolizumab Alone in BRAFV600 Mutation-positive Melanoma With Brain Metastasis",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-09-05",
+            "completion_date": "2029-04-15",
+            "country": "France",
+            "enrollment": 10,
+            "brief_summary": "This study evaluates the addition of stereotactic radiosurgery (SRS) to the combination of binimetinib + encorafenib + pembrolizumab in the treatment of BRAFⱽ⁶⁰⁰ mutation-positive melanoma with brain metastases (MBM).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provided written informed consent prior to any trial specific procedures.\n2. Aged ≥18 years old.\n3. An Eastern Cooperative Oncology Group (ECOG) Performance Status of 0-1.\n4. Histologically confirmed Stage IV M1d cutaneous melanoma or unknown primary melanoma that is metastat",
+            "endpoints": [
+              "Intracranial (IC) progression-free survival (PFS)"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT04074096"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "41774417",
+            "title": "Epidermotropic Metastatic Melanoma Presenting as Eruptive Primary Melanomas.",
+            "abstract": "We report on the use of molecular profiling to diagnose epidermotropic metastatic melanoma (EMM) in a patient who presented with eruptive primary melanomas. On histopathology, the patient's metastatic lesions resembled superficial spreading melanomas and were indistinguishable from independent primary melanomas. The patient's presumed primary melanoma was a stage IIIB nodular melanoma. Despite treatment with adjuvant nivolumab, the patient continued to form new superficial spreading melanomas. Due to suspicion for EMM, commercial panel sequencing was performed on tissue from four tumors. Comparison of reported somatic variants revealed a mutational profile that was conserved across all four lesions, establishing a diagnosis of stage IV EMM. Considering the progressive disease on immunotherapy, treatment was transitioned to encorafenib plus binimetinib, resulting in regression of existing lesions and cessation of new skin lesion formation. Aside from micrometastatic sentinel lymph node ",
+            "journal": "Pigment cell & melanoma research",
+            "year": "2025",
+            "authors": [
+              "Strong Jennifer",
+              "Winkie Mitchell J",
+              "Hallaert Patrick",
+              "Whitecar Scott B",
+              "Keung Elaine S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Melanoma",
+              "Skin Neoplasms",
+              "Male",
+              "Middle Aged",
+              "Female",
+              "Neoplasm Metastasis",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41774417/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell melanoma",
+        "txgnn_score": 0.9856765270233154,
+        "txgnn_rank": 13788,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "eyelid melanoma",
+        "txgnn_score": 0.985442042350769,
+        "txgnn_rank": 13935,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "scrotum melanoma",
+        "txgnn_score": 0.98415607213974,
+        "txgnn_rank": 14707,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lentigo maligna melanoma",
+        "txgnn_score": 0.981933891773224,
+        "txgnn_rank": 16077,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant melanoma of the mucosa",
+        "txgnn_score": 0.981933891773224,
+        "txgnn_rank": 16080,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03235245",
+            "title": "Combination of Targeted Therapy (Encorafenib and Binimetinib) Followed by Combination of Immunotherapy (Ipilimumab and Nivolumab) vs Immediate Combination of Immunotherapy in Patients With Unresectable or Metastatic Melanoma With BRAF V600 Mutation : an EORTC Randomized Phase II Study (EBIN)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-10-30",
+            "completion_date": "2027-01",
+            "country": "Spain, United Kingdom, France, Netherlands, Germany, Italy, Denmark, Finland, Poland",
+            "enrollment": 271,
+            "brief_summary": "This is a multicenter, 2-arm open-label, randomized comparative phase II study. The objective of this trial is to prospectively evaluate whether a sequential approach with an induction period of 12 weeks with encorafenib + binimetinib followed by combination immunotherapy with nivolumab + ipilimumab improves progression free survival compared to combination immunotherapy nivolumab + ipilimumab alone in patients with BRAF V600 mutation-positive unresectable or metastatic melanoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed unresectable stage III or IV cutaneous or mucosal melanoma\n* Presence of BRAF V600E or V600K mutation in tumor tissue prior to enrolment as per local assessment\n* Tumor tissue from an unresectable or metastatic site of disease must be ",
+            "endpoints": [
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT03235245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04511013",
+            "title": "A Randomized Phase 2 Trial of Encorafenib + Binimetinib + Nivolumab vs Ipilimumab + Nivolumab in BRAF-V600 Mutant Melanoma With Brain Metastases",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-01-06",
+            "completion_date": "2027-06-30",
+            "country": "United States",
+            "enrollment": 112,
+            "brief_summary": "This phase II trial compares the effect of encorafenib, binimetinib, and nivolumab versus ipilimumab and nivolumab in treating patients with BRAF- V600 mutant melanoma that has spread to the brain (brain metastases). Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Ipilimumab and nivolumab are monoclonal antibodies that may interfere with the ability of tumor cells to grow and spread. This trial aims to find out which approach",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have histologically and pathologically confirmed melanoma that has metastasized to the brain\n* Any primary (cutaneous, acral/mucosal, etc) or unknown origin are permitted, except that participants with uveal primary are not eligible\n* Participants must have B",
+            "endpoints": [
+              "Progression-free survival"
+            ],
+            "sponsor": "SWOG Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT04511013"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "CDK4 linked melanoma",
+        "txgnn_score": 0.981933891773224,
+        "txgnn_rank": 16078,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "superficial spreading melanoma",
+        "txgnn_score": 0.981933891773224,
+        "txgnn_rank": 16079,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41774417",
+            "title": "Epidermotropic Metastatic Melanoma Presenting as Eruptive Primary Melanomas.",
+            "abstract": "We report on the use of molecular profiling to diagnose epidermotropic metastatic melanoma (EMM) in a patient who presented with eruptive primary melanomas. On histopathology, the patient's metastatic lesions resembled superficial spreading melanomas and were indistinguishable from independent primary melanomas. The patient's presumed primary melanoma was a stage IIIB nodular melanoma. Despite treatment with adjuvant nivolumab, the patient continued to form new superficial spreading melanomas. Due to suspicion for EMM, commercial panel sequencing was performed on tissue from four tumors. Comparison of reported somatic variants revealed a mutational profile that was conserved across all four lesions, establishing a diagnosis of stage IV EMM. Considering the progressive disease on immunotherapy, treatment was transitioned to encorafenib plus binimetinib, resulting in regression of existing lesions and cessation of new skin lesion formation. Aside from micrometastatic sentinel lymph node ",
+            "journal": "Pigment cell & melanoma research",
+            "year": "2025",
+            "authors": [
+              "Strong Jennifer",
+              "Winkie Mitchell J",
+              "Hallaert Patrick",
+              "Whitecar Scott B",
+              "Keung Elaine S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Melanoma",
+              "Skin Neoplasms",
+              "Male",
+              "Middle Aged",
+              "Female",
+              "Neoplasm Metastasis",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41774417/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acral lentiginous melanoma (disease)",
+        "txgnn_score": 0.981933891773224,
+        "txgnn_rank": 16076,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04511013",
+            "title": "A Randomized Phase 2 Trial of Encorafenib + Binimetinib + Nivolumab vs Ipilimumab + Nivolumab in BRAF-V600 Mutant Melanoma With Brain Metastases",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-01-06",
+            "completion_date": "2027-06-30",
+            "country": "United States",
+            "enrollment": 112,
+            "brief_summary": "This phase II trial compares the effect of encorafenib, binimetinib, and nivolumab versus ipilimumab and nivolumab in treating patients with BRAF- V600 mutant melanoma that has spread to the brain (brain metastases). Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Ipilimumab and nivolumab are monoclonal antibodies that may interfere with the ability of tumor cells to grow and spread. This trial aims to find out which approach",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have histologically and pathologically confirmed melanoma that has metastasized to the brain\n* Any primary (cutaneous, acral/mucosal, etc) or unknown origin are permitted, except that participants with uveal primary are not eligible\n* Participants must have B",
+            "endpoints": [
+              "Progression-free survival"
+            ],
+            "sponsor": "SWOG Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT04511013"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11967",
+    "name": "Binimetinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Binimetinib"
+      },
+      "queried_at": "2026-03-10T05:46:10.378114",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Binimetinib"
+      },
+      "queried_at": "2026-03-10T05:46:12.090348",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T05:46:12.577812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T05:46:15.554467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T05:46:16.159697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:18.400821",
+      "status": "success",
+      "result_count": 40,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:21.556258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:23.329026",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:23.839847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:26.646170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:27.594214",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:28.076700",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:31.293815",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:31.946361",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:32.626768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:35.377738",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:36.078347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:36.547751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:39.259467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:39.979760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "malignant melanoma of the mucosa"
+      },
+      "queried_at": "2026-03-10T05:46:40.651780",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "malignant melanoma of the mucosa"
+      },
+      "queried_at": "2026-03-10T05:46:43.428367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "malignant melanoma of the mucosa"
+      },
+      "queried_at": "2026-03-10T05:46:44.827003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "CDK4 linked melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:45.335660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "CDK4 linked melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:48.794507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "CDK4 linked melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:49.428852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "superficial spreading melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:50.055453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "superficial spreading melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:52.991662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "superficial spreading melanoma"
+      },
+      "queried_at": "2026-03-10T05:46:55.180875",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T05:46:55.908317",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T05:46:59.001635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Binimetinib",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T05:46:59.747531",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:46:59.754799"
+  }
+}

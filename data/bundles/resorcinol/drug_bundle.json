@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Resorcinol",
+    "drugbank_id": "DB11085",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.9983489513397216,
+        "txgnn_rank": 2961,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9981955885887146,
+        "txgnn_rank": 3146,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.998185932636261,
+        "txgnn_rank": 3162,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.9981740713119508,
+        "txgnn_rank": 3178,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9981131553649902,
+        "txgnn_rank": 3252,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9974690675735474,
+        "txgnn_rank": 4062,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid vasculitis",
+        "txgnn_score": 0.9807438254356384,
+        "txgnn_rank": 16690,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypermobility of coccyx",
+        "txgnn_score": 0.9802042841911316,
+        "txgnn_rank": 16936,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyarticular juvenile rheumatoid arthritis",
+        "txgnn_score": 0.9800278544425964,
+        "txgnn_rank": 17008,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ankylosing spondylitis",
+        "txgnn_score": 0.9797956943511964,
+        "txgnn_rank": 17106,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11085",
+    "name": "Resorcinol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Resorcinol"
+      },
+      "queried_at": "2026-03-09T18:12:54.291459",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Resorcinol"
+      },
+      "queried_at": "2026-03-09T18:13:06.842413",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T18:13:07.917175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T18:13:11.648444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T18:13:12.979177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T18:13:13.696660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T18:13:19.029228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T18:13:20.696641",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T18:13:21.494162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T18:13:27.102873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T18:13:28.421831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T18:13:29.342105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T18:13:33.226333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T18:13:34.384895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T18:13:35.017904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T18:13:40.460621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T18:13:43.068291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T18:13:44.891589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T18:13:49.161831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T18:13:50.103095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "rheumatoid vasculitis"
+      },
+      "queried_at": "2026-03-09T18:13:51.009545",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "rheumatoid vasculitis"
+      },
+      "queried_at": "2026-03-09T18:13:56.517747",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "rheumatoid vasculitis"
+      },
+      "queried_at": "2026-03-09T18:13:58.118952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "hypermobility of coccyx"
+      },
+      "queried_at": "2026-03-09T18:13:58.695153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "hypermobility of coccyx"
+      },
+      "queried_at": "2026-03-09T18:14:05.064914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "hypermobility of coccyx"
+      },
+      "queried_at": "2026-03-09T18:14:07.159394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T18:14:08.151541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T18:14:11.796913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T18:14:13.379310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "ankylosing spondylitis"
+      },
+      "queried_at": "2026-03-09T18:14:14.553100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "ankylosing spondylitis"
+      },
+      "queried_at": "2026-03-09T18:14:18.492882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Resorcinol",
+        "disease": "ankylosing spondylitis"
+      },
+      "queried_at": "2026-03-09T18:14:19.654942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:14:19.665974"
+  }
+}

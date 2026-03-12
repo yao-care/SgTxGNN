@@ -1,0 +1,1970 @@
+{
+  "drug": {
+    "inn": "Telmisartan",
+    "drugbank_id": "DB00966",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9998338222503662,
+        "txgnn_rank": 542,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain stem infarction",
+        "txgnn_score": 0.9997995495796204,
+        "txgnn_rank": 624,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ABri amyloidosis",
+        "txgnn_score": 0.9996960163116456,
+        "txgnn_rank": 804,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cerebral artery occlusion",
+        "txgnn_score": 0.9995070695877076,
+        "txgnn_rank": 1136,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01075698",
+            "title": "A Trial of Telmisartan Prevention of Cardiovascular Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2009-07",
+            "completion_date": "2016-03",
+            "country": "Japan",
+            "enrollment": 1228,
+            "brief_summary": "The present research is conducted as a randomized, parallel-group, controlled, open study (using the PROBE method) to primarily verify the effects on various biomarkers in high-risk hypertensive patients treated with ARB (telmisartan, ARB group) as compared with those in patients receiving ordinary therapy (non-ARB group (ordinary therapy group)). In addition, onset of cardiovascular events and levels of markers that are associated with cardiovascular events are observed over time to examine the",
+            "eligibility_criteria": "Inclusion Criteria: Patients who meet all of the criteria listed in \\[1\\] to \\[4\\] below and who have at least one cardiovascular risk listed in \\[1\\] to \\[5\\] below will be included in the study.\n\n1. Outpatients\n2. Age: ≥ 40 to \\< 80\n3. Hypertension: Systolic blood pressure of ≥ 140 mmHg or diastol",
+            "endpoints": [
+              "The effects of ARB therapy and that of standard therapy except ARB on the biomarker levels (UACR and BNP)"
+            ],
+            "sponsor": "Kumamoto University",
+            "url": "https://clinicaltrials.gov/study/NCT01075698"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03785067",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) Cognitive Sub-Study",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2020-02-27",
+            "completion_date": "2021-02-03",
+            "country": "Australia, Netherlands",
+            "enrollment": 1,
+            "brief_summary": "A Sub-Study of an investigator initiated and conducted, multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial (TRIDENT) to determine the effect of more intensive long-term blood pressure control, provided by a fixed low-dose combination blood pressure lowering pill (\"Triple Pill\") strategy on top of standard of care, for slowing memory decline as measured by Cambridge Neuropsychological Test Automated Battery (CANTAB), in patients with a hist",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Eligible for, randomised and continuing in the TRIDENT Main Study\n2. Must be able to attend the site conducting the cognitive assessments. In Sydney, this will either be at the same site as where TRIDENT study is conducted or at the BMC, University of Sydney, Camperdown.\n3. A",
+            "endpoints": [
+              "Memory as measured by the Cambridge Neuropsychological Test Automated Battery (CANTAB) Paired Associates Learning (PAL) subtest"
+            ],
+            "sponsor": "The George Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03785067"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03783754",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) MRI Sub-study",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2018-08-09",
+            "completion_date": "2021-03-21",
+            "country": "Australia",
+            "enrollment": 4,
+            "brief_summary": "TRIDENT Main Study:\n\nTRIDENT is a multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial of a fixed low-dose combination BP-lowering pill (\"Triple Pill\") strategy on top of standard of care, in patients with a history of acute intracerebral haemorrhage (ICH) and systolic blood pressure (SBP) levels defined as 'high normal to borderline high', and on either minimal or no BP-lowering treatment according to current guidelines.\n\nMRI Sub-Study Cent",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Eligible for, randomised and continuing in TRIDENT Main Study\n2. No contraindications to MRI scan of the brain\n3. Provide informed consent for the MRI Sub-Study\n\nExclusion Criteria:\n\n1. Any MRI contraindications (e.g. metallic implants, claustrophobia, etc.)\n2. Less than 6 we",
+            "endpoints": [
+              "Change in T2 FLAIR white matter hyperintensities (WMH) volume"
+            ],
+            "sponsor": "The George Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03783754"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24780412",
+            "title": "Telmisartan reduces progressive oxidative stress and phosphorylated α-synuclein accumulation in stroke-resistant spontaneously hypertensive rats after transient middle cerebral artery occlusion.",
+            "abstract": "Telmisartan is an angiotensin receptor blocker with high lipid solubility, also called metabosartan, which exerts a special protective effect on both acute brain damage and chronic neurodegeneration. We examined the effects of telmisartan on oxidative stress by advanced glycation end product (AGE) and 4-hydroxynonenal (4-HNE) assays and the accumulation of phosphorylated α-synuclein (pSyn) in the brain of stroke-resistant spontaneously hypertensive rats (SHR-SR). At the age of 12 weeks, SHR-SR received transient middle cerebral artery occlusion (tMCAO) for 90 minutes and were divided into the following 3 groups: the vehicle group, the low-dose telmisartan group (.3 mg/kg/day), and the high-dose telmisartan group (3 mg/kg/day, postoperatively). Immunohistologic analysis was performed when rats were 6, 12, and 18 months old. AGE, 4-HNE, and pSyn-positive cells (per square millimeter) increased with age in the cerebral cortex and hippocampus of the vehicle group, in the low-dose telmisart",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2014",
+            "authors": [
+              "Sato Kota",
+              "Yamashita Toru",
+              "Kurata Tomoko",
+              "Lukic Violeta",
+              "Fukui Yusuke"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aldehydes",
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Pressure",
+              "Brain",
+              "Glycation End Products, Advanced",
+              "Hypertension",
+              "Infarction, Middle Cerebral Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24780412/"
+          },
+          {
+            "pmid": "25307428",
+            "title": "Long-term amelioration of telmisartan on metabolic syndrome-related molecules in stroke-resistant spontaneously hypertensive rat after transient middle cerebral artery occlusion.",
+            "abstract": "Telmisartan is expected to ameliorate not only hypertension, but also metabolic syndrome as a metabosartan. We examined the effects of telmisartan on metabolic syndrome-related molecules such as insulin receptor (IR), peroxisome proliferator-activated receptor gamma (PPAR-γ), and angiotensin 2 type 1 receptor (AT1R) in stroke-resistant spontaneously hypertensive rat (SHR-SR) after transient middle cerebral artery occlusion (tMCAO), by administering telmisartan at either 0 (vehicle), .3 mg/kg/day (low dose), or 3 mg/kg/day (high dose), postoperatively, from 3 months of age and performed immunohistologic analysis at 6, 12, and 18 months of age. Compared with the vehicle group, the 2 telmisartan groups dose dependently decreased the number of IR- and AT1R-positive neurons in the cerebral cortex in the ipsilateral cerebral cortex from 6 to 18 months after tMCAO. On the other hand, the number of PPAR-γ-positive neurons increased in a dose-dependent manner in the 2 telmisartan groups from 6 ",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2014",
+            "authors": [
+              "Deguchi Kentaro",
+              "Kurata Tomoko",
+              "Fukui Yusuke",
+              "Liu Wentao",
+              "Yun Zhai"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Cerebral Cortex",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "Metabolic Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25307428/"
+          },
+          {
+            "pmid": "19604102",
+            "title": "Angiotensin II type 1 receptor blocker telmisartan reduces cerebral infarct volume and peri-infarct cytosolic phospholipase A(2) level in experimental stroke.",
+            "abstract": "The angiotensin II type 1 receptor (AT(1)R) blocker (ARB) telmisartan is a unique drug that has a neuroprotective action and acts as an agonistic ligand for peroxisome proliferator-activated receptor-gamma. We produced rat models of middle cerebral artery occlusion and examined infarct volume as well as immunohistochemical localization and protein expression levels of cytosolic phospholipase A(2) (cPLA(2)), which is involved in neurotoxicity, in brains obtained 24 h after occlusion. Rats pretreated for 7 days with various doses of telmisartan or vehicle (n = 8) were compared. The infarct volume was significantly reduced in the 1.0 mg/kg dosage group compared with that of other dosage groups and vehicle group. Furthermore, pretreatment with telmisartan 1.0 mg/kg induced significant amelioration of sensorimotor function in forelimb and hindlimb placing tests. Histopathologically, neurons in the peri-infarct cortical regions of vehicle-pretreated rats showed acute ischemic changes, but ne",
+            "journal": "Journal of neurotrauma",
+            "year": "2009",
+            "authors": [
+              "Kobayashi Tomonori",
+              "Kawamata Takakazu",
+              "Shibata Noriyuki",
+              "Okada Yoshikazu",
+              "Kobayashi Makio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Biomarkers",
+              "Brain",
+              "Brain Infarction",
+              "Brain Ischemia",
+              "Cytoprotection",
+              "Cytosol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19604102/"
+          },
+          {
+            "pmid": "28699721",
+            "title": "Comparison of pre- and post-ischemic treatment of telmisartan and nimodipine combination in experimentally induced cerebral ischemia.",
+            "abstract": "Time dependent intervention plays a crucial role in preventing neurodegeneration after ischemic insult. The intensity of excitotoxicity is greater in the secondary reperfusion phase (2-4 h) compared to the primary occlusion phase (2 h), which could be attributed to secondary elevation of excitatory amino acids (EAA) in cerebral ischemia. In the present study, we tried to assess the neuroprotective effects of telmisartan and nimodipine (TM-NM) combination on the secondary reperfusion phase. The drug treatments were made immediately after reperfusion and their effects were compared with pre-treatment. The neuroprotective effect was studied using middle cerebral artery occlusion (MCAo) transient ischemic model in rats. On the 7th day after reperfusion, the rats were subjected to behavioral studies. The brain was dissected out on the 9th day to measure neurobiochemical alterations and for histopathological observations. The results have shown that TM-NM (5 mg/kg) attenuated the EAA release",
+            "journal": "Indian journal of experimental biology",
+            "year": "2016",
+            "authors": [],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Brain Ischemia",
+              "Drug Combinations",
+              "Energy Metabolism",
+              "Excitatory Amino Acids",
+              "Glutathione",
+              "Male",
+              "Motor Activity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28699721/"
+          },
+          {
+            "pmid": "24650592",
+            "title": "Non-hypotensive dose of telmisartan and nimodipine produced synergistic neuroprotective effect in cerebral ischemic model by attenuating brain cytokine levels.",
+            "abstract": "The hypothesis of the present study is that the anti-inflammatory property of telmisartan (TM), an AT1 blocker that may exert neuroprotection through attenuation of excitatory amino acids by controlling cytokines and reactive oxygen species, release during ischemia. The neuroprotective effect of TM and its combination with nimodipine (NM) were studied in rats by using middle cerebral artery occlusion method followed by ischemic reperfusion (IR) after 2 h of occlusion. The drugs were administered 30 min prior to the surgery and continued throughout the study period. After 24 h of IR the neurological deficit was assessed, and the locomotor activity and open field behaviour were assessed on the seventh day. On the ninth day, the brains were isolated for neurochemical and cytokine measurements and histopathological studies. The results have shown that treatment of TM (5 & 10 mg/kg) gradually reduced the glutamate, aspartate and glutamine synthetase levels. It also restored the ATP, Na(+)K(",
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "2014",
+            "authors": [
+              "Justin A",
+              "Sathishkumar M",
+              "Sudheer A",
+              "Shanthakumari S",
+              "Ramanathan M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Brain",
+              "Brain Ischemia",
+              "Cytokines",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Hypotension",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24650592/"
+          },
+          {
+            "pmid": "41341617",
+            "title": "Attenuation of cerebral ischemia-reperfusion induced neurotoxicity by telmisartan, ertugliflozin, and omaveloxolone through Nrf2/HO-1 pathway modulation: In vivo and in silico insights.",
+            "abstract": "Ischemia-reperfusion (IR) injury in the brain is a major cause of brain damage and neurotoxicity, particularly in patients with hypertension and diabetes, where oxidative stress and inflammation play critical roles. This study investigated the effects of telmisartan, ertugliflozin and omaveloxolone, on cerebral ischemia reperfusion IR-induced damage and neurotoxicity through modulation of the nuclear factor erythroid 2-related factor 2/ heme oxygenase-1 (Nrf2/HO-1) signaling pathway. Forty-two rats were divided into seven groups, including controls and treatment groups that received the drugs before ischemia induction via bilateral common carotid artery occlusion (BCCAO) followed by reperfusion. All three agents markedly enhanced Nrf2 immunoreactivity through immunohistochemical analysis and heme oxygenase-1 (HO-1) gene expression in brain tissues compared to controls. They also attenuated neurotoxic outcomes by reducing histopathological damage and lowering inflammatory mediators such",
+            "journal": "Toxicology reports",
+            "year": "2025",
+            "authors": [
+              "Alyassery Yasser J H",
+              "Bairam Ahsan F",
+              "Martin Carlos Medina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41341617/"
+          },
+          {
+            "pmid": "21901125",
+            "title": "Prevention and intervention studies with telmisartan, ramipril and their combination in different rat stroke models.",
+            "abstract": "The effects of AT1 receptor blocker, telmisartan, and the ACE inhibitor, ramipril, were tested head-to head and in combination on stroke prevention in hypertensive rats and on potential neuroprotection in acute cerebral ischemia in normotensive rats.",
+            "journal": "PloS one",
+            "year": "2011",
+            "authors": [
+              "Thoene-Reineke Christa",
+              "Rumschüssel Kay",
+              "Schmerbach Kristin",
+              "Krikov Maxim",
+              "Wengenmayer Christina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Benzoates",
+              "Male",
+              "Ramipril",
+              "Random Allocation",
+              "Rats",
+              "Rats, Inbred SHR",
+              "Rats, Wistar"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21901125/"
+          },
+          {
+            "pmid": "25245484",
+            "title": "Telmisartan ameliorates inflammatory responses in SHR-SR after tMCAO.",
+            "abstract": "Telmisartan, an angiotensin receptor blocker with high lipid solubility, also called metabo-sartan, not only reduces blood pressure (BP), but also ameliorates inflammation in the cerebral cortex and in adipose tissue. We examined the effects of telmisartan on inflammatory responses of monocyte chemotactic protein-1, tumor necrosis factor-α, and ionized calcium-binding adapter molecule 1 in the brain of spontaneously hypertensive rat stroke-resistant (SHR-SR) after transient middle cerebral artery occlusion (tMCAO). At 12 weeks of age, SHR-SR received tMCAO for 90 minutes and were divided into 3 groups, that is, the vehicle group, a low-dose telmisartan group (.3 mg/kg/day), and a high-dose telmisartan group (3 mg/kg/day). Immunohistological analysis was performed when rats became 6, 12 and 18 months old. Monocyte chemotactic protein-1, tumor necrosis factor-α, and ionized calcium-binding adapter molecule 1 cells (/mm(2)) immunoreactivities increased with age in the cerebral cortex and ",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2014",
+            "authors": [
+              "Sato Kota",
+              "Yamashita Toru",
+              "Kurata Tomoko",
+              "Fukui Yusuke",
+              "Hishikawa Nozomi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Pressure",
+              "Calcium-Binding Proteins",
+              "Cerebral Cortex",
+              "Chemokine CCL2",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25245484/"
+          },
+          {
+            "pmid": "32992165",
+            "title": "PPARγ Activation-Mediated Egr-1 Inhibition Benefits Against Brain Injury in an Experimental Ischaemic Stroke Model.",
+            "abstract": "Inflammatory response is a critical contributor to cerebral ischaemia injuries and blood-brain barrier (BBB) dysfunction. Early growth response-1 (Egr-1), an oxygen-sensing transcription factor which is rapidly and markedly triggered in ischaemic events, acts as a master switch coordinating the upregulation of multiple target proinflammatory genes. Here, we explored whether peroxisome proliferator-activated receptor-gamma (PPARγ) activation by telmisartan can modulate Egr-1 expression and the subsequent inflammatory responses in a rat model of cerebral ischaemia.",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2020",
+            "authors": [
+              "Li Yue-Yi",
+              "Guo Jia-Hui",
+              "Liu Ya-Qiang",
+              "Dong Jing-Hui",
+              "Zhu Chun-Hua"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Brain",
+              "Claudin-5",
+              "Disease Models, Animal",
+              "Early Growth Response Protein 1",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "PPAR gamma",
+              "Rats, Sprague-Dawley"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32992165/"
+          },
+          {
+            "pmid": "24435631",
+            "title": "Long-term effect of telmisartan on Alzheimer's amyloid genesis in SHR-SR after tMCAO.",
+            "abstract": "Telmisartan is expected to reduce not only the level of blood pressure but also neuroinflammation and neurotoxicity via pleiotrophic effects as a metabo-sartan. We examined the effects of telmisartan on Alzheimer's disease (AD) pathology in spontaneously hypertensive rat stroke resistant (SHR-SR) after transient middle cerebral artery occlusion (tMCAO) by giving either telmisartan at 0 (vehicle), 0.3 mg/kg/day (low dose, with no reduction of blood pressure), or 3 mg/kg/day (high dose, with a significant reduction of blood pressure) p.o. from 3 months (M) of age, and performed immunohistological analysis at 6, 12, and 18 M of age. The numbers of amyloid β (Aβ)-positive neurons in the cerebral cortex and hippocampus and senile plaque (SP) in the ipsilateral cerebral cortex progressively increased with age until 18 M in the SHR-SR after tMCAO. On the other hand, low-dose telmisartan significantly reduced the number of Aβ-positive neuron as well as SP at 6, 12, and 18 M. High-dose telmisar",
+            "journal": "Translational stroke research",
+            "year": "2015",
+            "authors": [
+              "Kurata Tomoko",
+              "Lukic Violeta",
+              "Kozuki Miki",
+              "Wada Daisuke",
+              "Miyazaki Kazunori"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Amyloid beta-Peptides",
+              "Analysis of Variance",
+              "Animals",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Pressure",
+              "Body Weight",
+              "Brain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24435631/"
+          },
+          {
+            "pmid": "25534368",
+            "title": "Neurovascular protection by telmisartan via reducing neuroinflammation in stroke-resistant spontaneously hypertensive rat brain after ischemic stroke.",
+            "abstract": "Telmisartan is a highly lipid-soluble angiotensin receptor blocker (ARB), which improves insulin sensitivity and reduces triglyceride levels and, thus, is called metabo-sartan. We examined the effects of telmisartan on neurovascular unit (N-acetylglucosamine oligomer [NAGO], collagen IV, and glial fibrillary acidic protein [GFAP]) and neuroinflammation (matrix metalloproteinase-9 [MMP-9] and inflammasome) in brain of stroke-resistant spontaneously hypertensive rat (SHR-SR). At 12 weeks of age, SHR-SR received transient middle cerebral artery occlusion (tMCAO) for 90 minutes and were divided into the following 3 groups, that is, vehicle group, low-dose telmisartan group (.3 mg/kg/d), and high-dose telmisartan group (3 mg/kg/d, postoral). Immunohistologic analysis at ages 6, 12, and 18 months showed progressive decreases of NAGO-positive endothelium and collagen IV-positive basement membrane and progressive increases of MMP-9-positive neurons, GFAP-positive astrocytes, and NLRP3-positive",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2015",
+            "authors": [
+              "Kono Syoichiro",
+              "Kurata Tomoko",
+              "Sato Kota",
+              "Omote Yoshio",
+              "Hishikawa Nozomi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetylglucosamine",
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Pressure",
+              "Carrier Proteins",
+              "Cerebral Cortex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25534368/"
+          },
+          {
+            "pmid": "29241675",
+            "title": "Effect of Telmisartan on Preventing Learning and Memory Deficits Via Peroxisome Proliferator-Activated Receptor-γ in Vascular Dementia Spontaneously Hypertensive Rats.",
+            "abstract": "This study aimed to explore the effect of telmisartan (TEL), as a partial peroxisome proliferator-activated receptor-γ (PPAR-γ) agonist, in vascular dementia (VaD) rats induced by middle cerebral artery occlusion (MCAO).",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2018",
+            "authors": [
+              "Gao Yuan",
+              "Li Wei",
+              "Liu Yali",
+              "Wang Yan",
+              "Zhang Jianchao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetylcholinesterase",
+              "Animals",
+              "Behavior, Animal",
+              "Benzimidazoles",
+              "Benzoates",
+              "Choline O-Acetyltransferase",
+              "Dementia, Vascular",
+              "Disease Models, Animal",
+              "Drug Partial Agonism",
+              "GPI-Linked Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29241675/"
+          },
+          {
+            "pmid": "20498620",
+            "title": "Low dose of telmisartan prevents ischemic brain damage with peroxisome proliferator-activated receptor-gamma activation in diabetic mice.",
+            "abstract": "Telmisartan is a unique AT1 receptor blocker with a peroxisome proliferator-activated receptor gamma (PPAR-gamma) agonistic action. Activation of PPAR-gamma could prevent inflammation and brain damage.",
+            "journal": "Journal of hypertension",
+            "year": "2010",
+            "authors": [
+              "Iwanami Jun",
+              "Mogi Masaki",
+              "Tsukuda Kana",
+              "Min Li-Juan",
+              "Sakata Akiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Anilides",
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Flow Velocity",
+              "Blood Pressure",
+              "Cerebral Cortex",
+              "Cytokines",
+              "Diabetes Mellitus, Experimental"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20498620/"
+          },
+          {
+            "pmid": "19699780",
+            "title": "Cerebroprotective action of telmisartan by inhibition of macrophages/microglia expressing HMGB1 via a peroxisome proliferator-activated receptor gamma-dependent mechanism.",
+            "abstract": "Telmisartan is known to block angiotensin (Ang) II type-1 receptors (AT(1)R), and also activate peroxisome proliferator-activated receptor gamma (PPARgamma) signaling. Recently, PPARgamma has been implicated as a regulator of cellular proliferation and inflammatory responses. In the present study, we investigated the anti-inflammatory effects of telmisartan on middle cerebral artery (MCA) occlusion in mice. Telmisartan was administered orally to mice at 2h before and 2h after MCA occlusion. Infarct size was determined at 24h after MCA occlusion. In addition, cerebral blood flow (CBF) was measured during MCA occlusion. The effect of telmisartan on inflammatory markers, including Iba1 (macrophage/microglia marker) immunoreactivity and plasma high-mobility group box1 (HMGB1), was also investigated at 24h after MCA. Telmisartan significantly decreased the infarct area in dose-dependent manner without affecting CBF. Furthermore, the cerebroprotective effect of telmisartan was inhibited by G",
+            "journal": "Neuroscience letters",
+            "year": "2009",
+            "authors": [
+              "Haraguchi Tamami",
+              "Takasaki Kotaro",
+              "Naito Tetsuya",
+              "Hayakawa Kazuhide",
+              "Katsurabayashi Shutaro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Benzimidazoles",
+              "Benzoates",
+              "Cerebral Cortex",
+              "HMGB1 Protein",
+              "Ischemic Attack, Transient",
+              "Macrophages",
+              "Male",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19699780/"
+          },
+          {
+            "pmid": "22714093",
+            "title": "The intrinsic PEDF is regulated by PPARγ in permanent focal cerebral ischemia of rat.",
+            "abstract": "Inflammatory damage plays a pivotal role in cerebral ischemia and may represent a target for treatment. Pigment epithelium-derived factor (PEDF) is proven to possess neuroprotective property. But there is little known about the intrinsic PEDF after cerebral ischemia. This study evaluated the time course expression of the intrinsic PEDF and its underlying regulation mechanisms after cerebral ischemia. Male Sprague-Dawley rats were subjected to permanent middle cerebral artery occlusion. Telmisartan (PPARγ agonist) and GW9662 (PPARγ antagonist) were systemically administered to explore the effect on PPARγ, PEDF, NF-κB and MMP-9 expression at 24 h after cerebral ischemia by western blot and qRT-PCR. The neurological deficits, brain water content and infarct volume were measured. Compared with normal group, the expressions of PEDF and PPARγ decreased, and the expression of NF-κB and MMP-9 increased at early stage after ischemia (P < 0.05). Compared with the vehicle group, the decrease of P",
+            "journal": "Neurochemical research",
+            "year": "2012",
+            "authors": [
+              "Zhu Chunhua",
+              "Zhang Xiangjian",
+              "Qiao Huimin",
+              "Wang Lina",
+              "Zhang Xiaolin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Base Sequence",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blotting, Western",
+              "Brain Ischemia",
+              "DNA Primers",
+              "Eye Proteins",
+              "Male",
+              "Matrix Metalloproteinase 9"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22714093/"
+          },
+          {
+            "pmid": "25174563",
+            "title": "Strong improvement of apolipoprotein E/low-density lipoprotein receptor signals by telmisartan in poststroke spontaneously hypertensive stroke resistant.",
+            "abstract": "Telmisartan, an angiotensin receptor blocker also called metabosartan, is a promising solution for preventing cognitive decline or the incidence of dementia.",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2014",
+            "authors": [
+              "Yamashita Toru",
+              "Zhai Yun",
+              "Kurata Tomoko",
+              "Hishikawa Nozomi",
+              "Morimoto Nobutoshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Apolipoproteins E",
+              "Benzimidazoles",
+              "Benzoates",
+              "Cerebral Cortex",
+              "Dose-Response Relationship, Drug",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "Mitogen-Activated Protein Kinase 1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25174563/"
+          },
+          {
+            "pmid": "18360031",
+            "title": "Attenuation of focal brain ischemia by telmisartan, an angiotensin II type 1 receptor blocker, in atherosclerotic apolipoprotein E-deficient mice.",
+            "abstract": "The effects of an angiotensin II (Ang II) type 1 (AT(1)) receptor blocker (ARB) on focal brain ischemia and atherosclerotic lesions were explored in atherosclerotic apolipoprotein E-deficient (ApoEKO) mice treated with a high-cholesterol diet (HCD). The ischemic brain area and neurological deficit 24 h after middle cerebral artery (MCA) occlusion were significantly greater in ApoEKO mice treated with HCD for 10 weeks than in those with a normal standard diet. The reduction of cerebral surface blood flow in the penumbral region and the increase in superoxide production in the ischemic area were exaggerated in HCD-treated ApoEKO mice. Histological analysis showed atherosclerotic changes in the proximal aorta and deposition of lipid droplets in the arterial wall in the brain. Administration of an ARB, telmisartan (0.3 mg/kg/day), for the last 2 weeks after 8 weeks of HCD feeding attenuated the ischemic brain area, the neurological deficit, the superoxide production in the ischemic area, a",
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2008",
+            "authors": [
+              "Iwai Masaru",
+              "Inaba Shinji",
+              "Tomono Yumiko",
+              "Kanno Harumi",
+              "Iwanami Jun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Aorta",
+              "Apolipoproteins E",
+              "Atherosclerosis",
+              "Benzimidazoles",
+              "Benzoates",
+              "Brain Ischemia",
+              "Cerebrovascular Circulation",
+              "Infarction, Middle Cerebral Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18360031/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "txgnn_score": 0.9993314743041992,
+        "txgnn_rank": 1449,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover, controlled hypoxia exposure may represent a treatment strategy for age-related neurological disorders. This review discusses evidence of hypoxia's beneficial vs. detrimental impacts on the aging brain and the molecular mechanisms that mediate these divergent effects. It draws upon an extensive literature search on the effects of hypoxia/altitude on brain aging, and detailed analysis of all identified studies directly comparing brain responses to hypoxia in young vs. aged humans or rodents. Spe",
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Aging",
+              "Brain",
+              "Hypoxia",
+              "Neuroprotection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33862277/"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiology, clinical medicine, and sports technology. Here, we explore the foundations of this nascent field and outline a path to determine how chronic continuous hypoxia can be safely, effectively, and practically delivered to patients.",
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39841808/"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity by modulating immune cell proliferation, development and effector function, largely via transcriptional changes driven by hypoxia-inducible factor (HIF). By contrast, in pathological immunological niches, such as tumours and chronically inflamed, infected or ischaemic tissues, pathological hypoxia can drive tissue dysfunction and disease development through immune cell dysregulation. Here, we differentiate between the effects of physiological and pathological hypoxia on immune cells and the cons",
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cellular Microenvironment",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Immune System",
+              "Immunity",
+              "Immunity, Innate",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28972206/"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcription factor of the cellular response to hypoxia. Further, acRIP-sequencing, Ribosome profiling sequencing, RNA-sequencing, and functional studies confirm that NAT10 in turn activates the HIF-1 pathway and subsequent glucose metabolism reprogramming by mediating SEPT9 mRNA ac4C modification. The formation of the NAT10/SEPT9/HIF-1α positive feedback loop leads to excessive activation of the HIF-1 pathway and induces glycolysis addiction. Combined anti-angiogenesis and ac4C inhibition attenuate hyp",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stomach Neoplasms",
+              "Feedback",
+              "Glycolysis",
+              "RNA, Messenger",
+              "Hypoxia",
+              "N-Terminal Acetyltransferases",
+              "Cytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37328448/"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute and chronic hypoxia. Hypoxia can impair several cognitive domains such as attention, learning and memory, procession speed and executive function, which are similar in acute and chronic hypoxia. The severity of cognitive deficit correlates with the duration and degree of hypoxia. Recovery can be achieved after acute hypoxia, while sequelae or even dementia can be observed after chronic hypoxia, perhaps due to the different molecular mechanisms. Cardiopulmonary compensatory response, glycolysis,",
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Cognitive Dysfunction",
+              "Hippocampus",
+              "Humans",
+              "Hypoxia",
+              "Neurofibrillary Tangles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34618295/"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with the goal of providing mechanistic insight and novel therapeutic targets. In this article we review both the normal biological effects of hypoxia as well as the alterations that occur in specific disease conditions with an emphasis on the cell signaling and gene transcription mechanisms that underlie the changes associated with chronic hypoxia. Comparisons of studies in the fields of cardiac ischemia and tumor angiogenesis reveal the complexities within the microenvironment that control response",
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gene Expression Regulation",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Myocardial Ischemia",
+              "Neoplasm Metastasis",
+              "Neoplasms",
+              "Neovascularization, Pathologic",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21328446/"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypoxia evokes a temporary delay of ingrowth of cholinergic and serotonergic fibres into the hippocampus and neocortex, and causes an enhanced neurodegeneration of 5-HT-ir axons during aging. Neonatal anoxia suppresses hippocampal ChAT activity and up-regulates muscarinic receptor sites for 3H-QNB and 3H-pirenzepine binding in the hippocampus in the early postnatal age. The altered development of axonal arborization and pre- and postsynaptic cholinergic functions may be an important underlying mecha",
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Behavior",
+              "Brain",
+              "Humans",
+              "Hypoxia",
+              "Neurotransmitter Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8817697/"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and DUBs are regulated by hypoxia. While hypoxia is a powerful HIF regulator, less is known about hypoxia-regulated DUBs and their impact on HIFs. Here, we review current knowledge about the relationship of E3s, DUBs, and hypoxia signaling. We also discuss the reciprocal regulation of DUBs by hypoxia and use of DUB-specific drugs in cancer.",
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Deubiquitinating Enzymes",
+              "Homeostasis",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Neoplasms",
+              "Oxygen",
+              "Protein Transport",
+              "Proteolysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31706510/"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dissemination. Consequently, substantial effort has been made to detect hypoxia in human tumours and identify realistic approaches to overcome hypoxia and improve cancer therapy outcomes. Hypoxia-targeting strategies include improving oxygen availability, sensitising hypoxic cells to radiation, preferentially killing these cells, locating the hypoxic regions in tumours and increasing the radiation dose to those areas, or applying high energy transfer radiation, which is less affected by hypoxia. De",
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Hypoxia",
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34535359/"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the setting of adequate oxygen exchange from the lungs to the blood are discussed. An algorithm is proposed for diagnosing patients who present with hypoxia.",
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Algorithms",
+              "Cell Hypoxia",
+              "Child, Preschool",
+              "Decision Trees",
+              "Diagnosis, Differential",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11172576/"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we outline the links between cancer and autoimmunity regarding hypoxia-induced factors, such as HIF-1α, and describe the role of hypoxia in the modulation of the autoimmune response.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Neoplasms",
+              "Autoimmune Diseases",
+              "Autoimmunity",
+              "Animals",
+              "Tumor Microenvironment",
+              "T-Lymphocytes, Helper-Inducer",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40963621/"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related events, possibly by exacerbating tissue hypoxia in the central nervous system. Accordingly, increasing oxygen supply can mitigate pathological and clinical parameters in MS models. In contrast, stimulating the endogenous hypoxia response and adaptation systems by controlled exposure to hypoxia (hypoxia conditioning) renders the central nervous system more resistant to hypoxic insults, thereby attenuating pathology and symptomatology in MS models. Overlapping mechanisms likely play a role in the ",
+            "journal": "Redox biology",
+            "year": "2025",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Multiple Sclerosis",
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen",
+              "Central Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40347693/"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who live at sea level. However, hypobaric hypoxia is present and oxygenation is lower than at sea level, and it is still unknown what other changes may be caused by hypobaric hypoxia at this altitude.",
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "pub_types": [
+              "Editorial",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Altitude",
+              "Hypoxia",
+              "Altitude Sickness",
+              "Acclimatization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40815459/"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "abstract": "",
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "authors": [
+              "Ferrer S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adenosine Monophosphate",
+              "Adenosine Triphosphate",
+              "Animals",
+              "Brain",
+              "Brain Edema",
+              "Humans",
+              "Hypercapnia",
+              "Hypoxia, Brain",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4585366/"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy, release of extracellular vesicles, and generation of pre-metastatic niches. Hypoxia also affects bone cells, such as osteoblasts and osteoclasts, and immune cells, which also act to support the development and progression of bone metastases. Paradoxically, hypoxia and related signaling molecules are recognized as high-priority therapeutic targets and many candidate drugs are currently under preclinical and clinical investigation. The present review focuses on our current knowledge of the potent",
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Neoplasms",
+              "Bone and Bones",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Signal Transduction",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30423905/"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Findings Epidemiological studies suggest that living in high-altitude areas increases the risk of migraine and especially migraine with aura. Human provocation models show that hypoxia provokes migraine with and without aura, whereas cluster headache has not been reliably induced by hypoxia. Possible pathophysiological mechanisms include hypoxia-induced release of nitric oxide and calcitonin gene-related peptide, cortical spreading depression and leakage of the blood-brain barrier. Conclusion There ",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cluster Headache",
+              "Humans",
+              "Hypoxia",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27146279/"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator, reports also indicate that hypoxia governs the activity of CMGC kinases, including DYRK1 kinases. Prolyl hydroxylation of DYRK1 kinases by PHD1 constitutes a novel mechanism of kinase maturation and activation. This modification \"primes\" DYRK1 kinases for subsequent tyrosine autophosphorylation, a vital step in their activation cascade. This mechanism adds a layer of intricacy to comprehending the regulation of CMGC kinases, and underscores the complex interplay between distinct post-translati",
+            "journal": "BMB reports",
+            "year": "2023",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Phosphorylation",
+              "Cell Hypoxia",
+              "Protein Processing, Post-Translational",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37915135/"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic subunit of the RNA exosome, in an HIF-independent manner. EXOSC10 is a multifunctional exoribonuclease enriched in the nucleolus that mediates the processing and degradation of various RNA species. We demonstrate that the ubiquitin-specific protease 36 (USP36) SUMOylates EXOSC10 and we reveal SUMO1/sentrin-specific peptidase 3 (SENP3) as the enzyme-mediating deSUMOylation of EXOSC10. Under hypoxia, EXOSC10 dissociates from USP36 and translocates from the nucleolus to the nucleoplasm concomitant wit",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Transcriptome",
+              "Exosomes",
+              "Hypoxia",
+              "Transcriptional Activation",
+              "Oxygen",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Sumoylation",
+              "Exoribonucleases",
+              "Exosome Multienzyme Ribonuclease Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38279024/"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "abstract": "",
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Acclimatization",
+              "Altitude",
+              "Animals",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Oxygen",
+              "Signal Transduction",
+              "Translational Research, Biomedical"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24557798/"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of the HIF-1 pathway are beneficial and promote the repair process, producing tissue that might not perfectly reform its original architecture but that has its function substantially restored. However, in some cases of chronic injury, chronic hypoxia and pathological repair, the hypoxia pathway might be responsible for driving the process of fibrosis and can lead to excessive scarring and compromised organ function.",
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease",
+              "Fibrosis",
+              "Humans",
+              "Hypoxia",
+              "Organ Specificity",
+              "Oxygen",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27423661/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+        "txgnn_score": 0.9993314743041992,
+        "txgnn_rank": 1450,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant hypertensive renal disease",
+        "txgnn_score": 0.999303698539734,
+        "txgnn_rank": 1501,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant renovascular hypertension",
+        "txgnn_score": 0.999303698539734,
+        "txgnn_rank": 1502,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intracerebral hemorrhage",
+        "txgnn_score": 0.9992530941963196,
+        "txgnn_rank": 1573,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02699645",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT), Substudies: MRI, Cognitive",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-09-28",
+            "completion_date": "2025-08-27",
+            "country": "Australia, Nigeria, United Kingdom, Sri Lanka, Brazil, Netherlands, Malaysia, Singapore, Taiwan, Georgia",
+            "enrollment": 1671,
+            "brief_summary": "An investigator initiated and conducted, multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial to determine the effect of more intensive blood pressure control provided by a fixed low-dose combination blood pressure lowering pill (\"Triple Pill\") strategy on top of standard of care, on time to first occurrence of recurrent stroke in patients with a history of stroke due to intracerebral haemorrhage.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (≥18 years) with a history of primary ICH that is confirmed by imaging (copy of the brain imaging report to be uploaded to the database, labelled with participant identification (ID) and with personal identifiers removed)\n* Clinically stable, as judged by investigator\n*",
+            "endpoints": [
+              "Recurrent Stroke"
+            ],
+            "sponsor": "The George Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02699645"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03785067",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) Cognitive Sub-Study",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2020-02-27",
+            "completion_date": "2021-02-03",
+            "country": "Australia, Netherlands",
+            "enrollment": 1,
+            "brief_summary": "A Sub-Study of an investigator initiated and conducted, multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial (TRIDENT) to determine the effect of more intensive long-term blood pressure control, provided by a fixed low-dose combination blood pressure lowering pill (\"Triple Pill\") strategy on top of standard of care, for slowing memory decline as measured by Cambridge Neuropsychological Test Automated Battery (CANTAB), in patients with a hist",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Eligible for, randomised and continuing in the TRIDENT Main Study\n2. Must be able to attend the site conducting the cognitive assessments. In Sydney, this will either be at the same site as where TRIDENT study is conducted or at the BMC, University of Sydney, Camperdown.\n3. A",
+            "endpoints": [
+              "Memory as measured by the Cambridge Neuropsychological Test Automated Battery (CANTAB) Paired Associates Learning (PAL) subtest"
+            ],
+            "sponsor": "The George Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03785067"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03783754",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) MRI Sub-study",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2018-08-09",
+            "completion_date": "2021-03-21",
+            "country": "Australia",
+            "enrollment": 4,
+            "brief_summary": "TRIDENT Main Study:\n\nTRIDENT is a multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial of a fixed low-dose combination BP-lowering pill (\"Triple Pill\") strategy on top of standard of care, in patients with a history of acute intracerebral haemorrhage (ICH) and systolic blood pressure (SBP) levels defined as 'high normal to borderline high', and on either minimal or no BP-lowering treatment according to current guidelines.\n\nMRI Sub-Study Cent",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Eligible for, randomised and continuing in TRIDENT Main Study\n2. No contraindications to MRI scan of the brain\n3. Provide informed consent for the MRI Sub-Study\n\nExclusion Criteria:\n\n1. Any MRI contraindications (e.g. metallic implants, claustrophobia, etc.)\n2. Less than 6 we",
+            "endpoints": [
+              "Change in T2 FLAIR white matter hyperintensities (WMH) volume"
+            ],
+            "sponsor": "The George Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03783754"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40045320",
+            "title": "Development of cerebral microhemorrhages in a mouse model of hypertension.",
+            "abstract": "Cerebral microhemorrhages (CMH) are the pathological substrate for MRI-demonstrable cerebral microbleeds, which are associated with cognitive impairment and stroke. Aging and hypertension are the main risk factors for CMH. In this study, we investigated the development of CMH in a mouse model of aging and hypertension. Hypertension was induced in aged (17-month-old) female and male C57BL/6J mice via angiotensin II (Ang II), a potent vasoconstrictor. We investigated the vascular origin of CMH using three-dimensional images of 1-mm thick brain sections. We examined Ang II-induced CMH formation with and without telmisartan, an Ang II type 1 receptor (AT1R) blocker. To evaluate the effect of microglia and perivascular macrophages on CMH formation, mice were treated with PLX3397, a selective colony-stimulating factor 1 receptor (CSF1R) inhibitor, to achieve microglial and macrophage depletion. Iba-1 and CD206 labeling were used to study the relative contributions of microglia and macrophage",
+            "journal": "Journal of neuroinflammation",
+            "year": "2025",
+            "authors": [
+              "Xie Danny F",
+              "Fang Chuo",
+              "Crouzet Christian",
+              "Hung Yu-Han",
+              "Vallejo Adrian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Male",
+              "Mice, Inbred C57BL",
+              "Hypertension",
+              "Disease Models, Animal",
+              "Cerebral Hemorrhage",
+              "Angiotensin II",
+              "Female",
+              "Telmisartan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40045320/"
+          },
+          {
+            "pmid": "27078703",
+            "title": "Telmisartan ameliorates oxidative stress and subarachnoid haemorrhage-induced cerebral vasospasm.",
+            "abstract": "Growing evidence suggests that oxidative stress is one of the factors contributing to subarachnoid haemorrhage (SAH)-induced cerebral vasospasm. SAH-induced cerebral vasospam alters thioredoxin (Trx) cycle enzymes and thioredoxin-interacting protein (TXNIP) as an important endogenous antioxidant system. In this study, we have explored the effects of telmisartan on the vascular morphological changes, endothelial apoptosis, tissue oxidative stress status and the level of Trx cycle enzymes/ TXNIP in a rabbit SAH model.",
+            "journal": "Neurological research",
+            "year": "2016",
+            "authors": [
+              "Erdi Fatih",
+              "Keskin Fatih",
+              "Esen Hasan",
+              "Kaya Bulent",
+              "Feyzioglu Bahadir"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Gas Analysis",
+              "Brain Stem",
+              "Carrier Proteins",
+              "Cell Cycle Proteins",
+              "Disease Models, Animal",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27078703/"
+          },
+          {
+            "pmid": "17538008",
+            "title": "Blockade of AT1 receptor reduces apoptosis, inflammation, and oxidative stress in normotensive rats with intracerebral hemorrhage.",
+            "abstract": "Angiotensin II exerts its central nervous system effects primarily via its receptors AT1 and AT2, and it participates in the pathogenesis of ischemia via AT1. The selective AT1 receptor blocker (ARB) is used in the hypertension treatment, and it exerts a variety of pleiotropic effects, including antioxidative, antiapoptotic, and anti-inflammatory effects. In this study, we investigated the therapeutic effect of the ARB telmisartan in experimental intracerebral hemorrhage (ICH) in normotensive rats. ICH was induced via the collagenase infusion or autologous blood injection. Either telmisartan at 30 mg/kg/dose or phosphate-buffered saline was orally administered 2 h after ICH induction. We evaluated hemorrhage volume, brain water content, and functional recovery, and we performed the histological analysis for terminal deoxynucleotidyl transferase dUTP nick-end labeling, leukocyte infiltration, and microglia activation. A variety of intracellular signals, in terms of oxidative stress, apo",
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2007",
+            "authors": [
+              "Jung Keun-Hwa",
+              "Chu Kon",
+              "Lee Soon-Tae",
+              "Kim Se-Jeong",
+              "Song Eun-Cheol"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Apoptosis",
+              "Benzimidazoles",
+              "Benzoates",
+              "Cerebral Hemorrhage",
+              "Inflammation",
+              "Neuroprotective Agents",
+              "Nitric Oxide Synthase Type III",
+              "Oxidative Stress"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17538008/"
+          },
+          {
+            "pmid": "34994269",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease Events Trial: Rationale, design and progress.",
+            "abstract": "Patients who suffer intracerebral hemorrhage (ICH) are at very high risk of recurrent ICH and other serious cardiovascular events. A single-pill combination (SPC) of blood pressure (BP) lowering drugs offers a potentially powerful but simple strategy to optimize secondary prevention.",
+            "journal": "International journal of stroke : official journal of the International Stroke Society",
+            "year": "2022",
+            "authors": [
+              "Anderson Craig S",
+              "Rodgers Anthony",
+              "de Silva H Asita",
+              "Martins Sheila Ouriques",
+              "Klijn Catharina Jm"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Stroke",
+              "Cerebral Hemorrhage",
+              "Antihypertensive Agents",
+              "Chronic Disease",
+              "Cerebral Infarction",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34994269/"
+          },
+          {
+            "pmid": "28868047",
+            "title": "In Premature Newborns Intraventricular Hemorrhage Causes Cerebral Vasospasm and Associated Neurodisability via Heme-Induced Inflammasome-Mediated Interleukin-1 Production and Nitric Oxide Depletion.",
+            "abstract": "Intraventricular hemorrhage (IVH) occurs in 60-70% of neonates weighing 500-750 g and 10-20% of those weighing 1,000-1,500 g. All forms of IVH have been associated with neurocognitive deficits. Both subarachnoid and IVHs have been associated with delayed vasospasm leading to neurological deficits. Pathways linking hemoglobin release from blood clots to vasospasm include heme-induced activation of inflammasomes releasing interleukin-1 (IL-1) that can cause calcium dependent and independent vasospasm. Free hemoglobin is a potent scavenger of nitric oxide (NO). Depletion of NO, a potent endogenous vasodilator, has been associated with features of vasospasm.",
+            "journal": "Frontiers in neurology",
+            "year": "2017",
+            "authors": [
+              "Eisenhut Michael",
+              "Choudhury Samyami"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28868047/"
+          },
+          {
+            "pmid": "37489780",
+            "title": "Tizanidine Induced Hypotension: Report of a Case and Review of the Literature.",
+            "abstract": "Spasticity is a common sequelae of stroke, and often these patients receive anti-spastic drugs such as baclofen or tizanidine. Stroke patients have multiple co-morbidities such as hypertension, diabetes, and seizure. Tizanidine is an α2 and imidazole receptor agonist at a spinal and supraspinal level resulting in reduced central sympathetic outflow and causing hypotension rarely, especially in those receiving beta-blockers or angiotensin-converting enzyme inhibitors.",
+            "journal": "Current drug safety",
+            "year": "2024",
+            "authors": [
+              "Mahajan Roopali",
+              "Kalita Jayantee"
+            ],
+            "pub_types": [
+              "Review",
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Bradycardia",
+              "Hypotension, Controlled",
+              "Hypertension",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Hypotension",
+              "Stroke",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37489780/"
+          },
+          {
+            "pmid": "24636673",
+            "title": "Differences in ischemic and hemorrhagic recurrence rates among race-ethnic groups in the PRoFESS secondary stroke prevention trial.",
+            "abstract": "Epidemiological studies show that vascular risk factors are the same across the world but their effect vary between different race-ethnic groups. However, few studies have evaluated differences in recurrent stroke rates in various race-ethnicities. In >20 000 patients spanning 35 countries encompassing most race-ethnicities, we evaluated the incidence of ischemic and hemorrhagic strokes and myocardial infarction in patients within the context of the largest secondary stroke prevention trial (Prevention Regimen for Effectively Avoiding Secondary Strokes) to identify any significant differences.",
+            "journal": "International journal of stroke : official journal of the International Stroke Society",
+            "year": "2014",
+            "authors": [
+              "Estol Conrado J",
+              "Bath Philip M W",
+              "Gorelick Philip B",
+              "Cotton Daniel",
+              "Martin Renee Hebert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Benzoates",
+              "Blood Pressure",
+              "Drug Therapy, Combination",
+              "Ethnicity",
+              "Female",
+              "Humans",
+              "Intracranial Hemorrhages"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24636673/"
+          },
+          {
+            "pmid": "15834293",
+            "title": "Comparative effects of the angiotensin II receptor blocker, telmisartan, and the angiotensin-converting enzyme inhibitor, ramipril, on cerebrovascular structure in spontaneously hypertensive rats.",
+            "abstract": "Antihypertensive treatment with angiotensin-converting enzyme inhibitors (ACEIs) reverses cerebral arteriolar remodeling, thus restoring dilatation and hence the lower limit of cerebral blood flow (CBF) autoregulation (LLCBF). The objective of this study was to determine whether angiotensin II receptor AT1 blockers (ARBs) produce the same effect.",
+            "journal": "Journal of hypertension",
+            "year": "2005",
+            "authors": [
+              "Dupuis François",
+              "Atkinson Jeffrey",
+              "Limiñana Patrick",
+              "Chillon Jean-Marc"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Animals",
+              "Arterioles",
+              "Benzimidazoles",
+              "Benzoates",
+              "Cerebral Arteries",
+              "Cerebrovascular Circulation",
+              "Homeostasis",
+              "Hypertension",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15834293/"
+          },
+          {
+            "pmid": "22957022",
+            "title": "Differential effects of short-term treatment with two AT1 receptor blockers on diameter of pial arterioles in SHR.",
+            "abstract": "Chronic treatment with angiotensin receptor blockers is largely accepted for protecting cerebral circulation during hypertension, but beneficial effects of short-term treatments are questionable, as highlighted by the recent SCAST trial. We compared the impact of 10 days treatment with candesartan (as SCAST) versus telmisartan (previously described to reverse arteriolar remodeling, chronic treatment) on pial arterioles of spontaneously hypertensive rats (SHR). We explored whether PPAR-gamma agonist activity or AT(1) receptor blockade are involved in their differential effects. In the first study, 4-month-old male SHR were treated with telmisartan (TELMI, 2 mg/kg per day) or candesartan cilexetil (CANDE, 10 mg/kg per day) and compared to vehicle treated SHR and normotensive WKY. In a second study, SHR were treated with CANDE, pioglitazone (a PPAR-gamma agonist, PIO 2.5 mg/kg per day) or CANDE+PIO, compared to TELMI. Internal diameter of pial arterioles (ID, cranial window) was measured ",
+            "journal": "PloS one",
+            "year": "2012",
+            "authors": [
+              "Foulquier Sébastien",
+              "Dupuis François",
+              "Perrin-Sarrado Caroline",
+              "Gatè Katy Maguin",
+              "Leroy Pierre"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin Receptor Antagonists",
+              "Animals",
+              "Arterioles",
+              "Benzimidazoles",
+              "Benzoates",
+              "Biphenyl Compounds",
+              "Brain",
+              "Cerebrovascular Circulation",
+              "Hypertension",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22957022/"
+          },
+          {
+            "pmid": "34311786",
+            "title": "Hypertensive cerebral hemorrhage with undetectable plasma vascular endothelial growth factor levels in a patient receiving intravitreal injection of aflibercept for bilateral diabetic macular edema: a case report.",
+            "abstract": "Intravitreal injections of anti-vascular endothelial growth factor are commonly used to treat macular diseases, including diabetic macular edema. Anti-vascular endothelial growth factor drugs can enter the systemic circulation after intravitreal injections and appear to suppress circulating vascular endothelial growth factor levels. However, whether this can cause any systemic adverse events remains unknown.",
+            "journal": "Journal of medical case reports",
+            "year": "2021",
+            "authors": [
+              "Yoshimoto Miwako",
+              "Takeda Nobuhiko",
+              "Yoshimoto Takayuki",
+              "Matsumoto Shun"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Angiogenesis Inhibitors",
+              "Diabetes Mellitus",
+              "Diabetic Retinopathy",
+              "Humans",
+              "Intracranial Hemorrhage, Hypertensive",
+              "Intravitreal Injections",
+              "Macular Edema",
+              "Male",
+              "Pharmaceutical Preparations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34311786/"
+          },
+          {
+            "pmid": "19148963",
+            "title": "Telmisartan for prevention of cardiovascular events.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2009",
+            "authors": [
+              "Fichet Jérôme",
+              "Bressolle Christophe"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Benzimidazoles",
+              "Benzoates",
+              "Cardiovascular Diseases",
+              "Cerebral Hemorrhage",
+              "Humans",
+              "Hypertension",
+              "Secondary Prevention",
+              "Stroke",
+              "Telmisartan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19148963/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Braddock syndrome",
+        "txgnn_score": 0.9991569519042968,
+        "txgnn_rank": 1711,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00966",
+    "name": "Telmisartan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Telmisartan"
+      },
+      "queried_at": "2026-03-09T08:45:07.286864",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Telmisartan"
+      },
+      "queried_at": "2026-03-09T08:45:09.450545",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T08:45:10.083936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T08:45:13.381559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T08:45:14.637166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-09T08:45:15.648384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-09T08:45:20.386851",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-09T08:45:21.283598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T08:45:22.624480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T08:45:27.193829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T08:45:28.317435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "cerebral artery occlusion"
+      },
+      "queried_at": "2026-03-09T08:45:29.128679",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "cerebral artery occlusion"
+      },
+      "queried_at": "2026-03-09T08:45:36.327914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "cerebral artery occlusion"
+      },
+      "queried_at": "2026-03-09T08:45:40.369942",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-09T08:45:41.722614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-09T08:45:45.290810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-09T08:45:50.386220",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-09T08:45:51.887322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-09T08:45:55.516904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-09T08:45:56.601995",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-09T08:45:57.270041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-09T08:46:02.982820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-09T08:46:03.935810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-09T08:46:04.799245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-09T08:46:10.004357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-09T08:46:10.773990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "intracerebral hemorrhage"
+      },
+      "queried_at": "2026-03-09T08:46:11.518619",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "intracerebral hemorrhage"
+      },
+      "queried_at": "2026-03-09T08:46:14.470737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "intracerebral hemorrhage"
+      },
+      "queried_at": "2026-03-09T08:46:18.486031",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:19.216914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:23.501201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Telmisartan",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:25.191475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:46:25.193668"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Agalsidase beta",
+    "drugbank_id": "DB00103",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cervical neuroblastoma",
+        "txgnn_score": 0.9837276935577391,
+        "txgnn_rank": 14961,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schwannoma of jugular foramen",
+        "txgnn_score": 0.9834590554237366,
+        "txgnn_rank": 15140,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottis neoplasm",
+        "txgnn_score": 0.9832090735435486,
+        "txgnn_rank": 15311,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of tongue",
+        "txgnn_score": 0.9830884337425232,
+        "txgnn_rank": 15409,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of floor of mouth",
+        "txgnn_score": 0.9830833673477172,
+        "txgnn_rank": 15415,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of buccal mucosa",
+        "txgnn_score": 0.9830797910690308,
+        "txgnn_rank": 15419,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of hypopharynx",
+        "txgnn_score": 0.9830119013786316,
+        "txgnn_rank": 15455,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity inverting papilloma",
+        "txgnn_score": 0.9828717708587646,
+        "txgnn_rank": 15530,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vestibulocochlear nerve neoplasm",
+        "txgnn_score": 0.9828449487686156,
+        "txgnn_rank": 15549,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "jugular foramen meningioma",
+        "txgnn_score": 0.9828381538391112,
+        "txgnn_rank": 15553,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00103",
+    "name": "Agalsidase beta",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Agalsidase beta"
+      },
+      "queried_at": "2026-03-10T07:27:32.061222",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Agalsidase beta"
+      },
+      "queried_at": "2026-03-10T07:27:33.724748",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-10T07:27:34.264983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-10T07:27:37.685387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-10T07:27:38.369711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-10T07:27:38.882177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-10T07:27:42.105343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-10T07:27:42.827698",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-10T07:27:43.418001",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-10T07:27:46.437923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-10T07:27:47.338006",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-10T07:27:47.979891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-10T07:27:51.591256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-10T07:27:52.365893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-10T07:27:53.288950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-10T07:27:58.333065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-10T07:27:59.025887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of buccal mucosa"
+      },
+      "queried_at": "2026-03-10T07:27:59.519497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of buccal mucosa"
+      },
+      "queried_at": "2026-03-10T07:28:02.485095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of buccal mucosa"
+      },
+      "queried_at": "2026-03-10T07:28:03.402533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-10T07:28:04.107339",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-10T07:28:07.010975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-10T07:28:07.804175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "nasal cavity inverting papilloma"
+      },
+      "queried_at": "2026-03-10T07:28:08.561746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "nasal cavity inverting papilloma"
+      },
+      "queried_at": "2026-03-10T07:28:11.224990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "nasal cavity inverting papilloma"
+      },
+      "queried_at": "2026-03-10T07:28:11.916827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "vestibulocochlear nerve neoplasm"
+      },
+      "queried_at": "2026-03-10T07:28:12.403038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "vestibulocochlear nerve neoplasm"
+      },
+      "queried_at": "2026-03-10T07:28:15.375031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "vestibulocochlear nerve neoplasm"
+      },
+      "queried_at": "2026-03-10T07:28:16.314086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "jugular foramen meningioma"
+      },
+      "queried_at": "2026-03-10T07:28:16.825871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "jugular foramen meningioma"
+      },
+      "queried_at": "2026-03-10T07:28:20.186462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Agalsidase beta",
+        "disease": "jugular foramen meningioma"
+      },
+      "queried_at": "2026-03-10T07:28:22.070955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:28:22.086087"
+  }
+}

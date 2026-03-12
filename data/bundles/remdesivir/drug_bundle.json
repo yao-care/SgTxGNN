@@ -1,0 +1,1850 @@
+{
+  "drug": {
+    "inn": "Remdesivir",
+    "drugbank_id": "DB14761",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.995043158531189,
+        "txgnn_rank": 6448,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HIV infectious disease",
+        "txgnn_score": 0.9932407140731812,
+        "txgnn_rank": 8039,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05780541",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19 (Trial H6: PF-07304814)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2021-09-15",
+            "completion_date": "2023-07-14",
+            "country": "Denmark, United States",
+            "enrollment": 58,
+            "brief_summary": "This study looks at the safety and effectiveness of PF-07304814 in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either PF-07304814 plus current standard of care (SOC), or with placebo plus current SOC. This is ACTIV-3/TICO Treatment Trial H6.",
+            "eligibility_criteria": "Inclusion Criteria: Refer to the master protocol (NCT04501978)\n\nExclusion Criteria: Refer to the master protocol (NCT04501978)\n\nAdditional Exclusion Criteria:\n\n1. Participants with moderate to severe hepatic impairment (i.e. Child-Pugh class B or C) or acute liver failure.\n2. Participants receiving ",
+            "endpoints": [
+              "Number of Participants With Sustained Recovery",
+              "Number of Participants With an Ordinal Outcome on Day 5"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT05780541"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05780463",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19 (Trial H5: MP0420)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-06-11",
+            "completion_date": "2023-06-08",
+            "country": "Switzerland, Nigeria, Spain, United Kingdom, Denmark, United States, Uganda, Greece, Singapore, Poland",
+            "enrollment": 485,
+            "brief_summary": "This study looks at the safety and effectiveness of MP0420 in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either MP0420 plus current standard of care (SOC), or with placebo plus current SOC. This is ACTIV-3/TICO Treatment Trial H5.",
+            "eligibility_criteria": "Inclusion Criteria: Refer to the master protocol (NCT04501978)\n\nExclusion Criteria: Refer to the master protocol (NCT04501978)\n\nAdditional Exclusion Criteria:\n\n1. Pregnant women\n2. Nursing mothers\n3. Women of child-bearing potential who are unwilling to acknowledge the strong advice to abstain from ",
+            "endpoints": [
+              "Number of Participants With Sustained Recovery",
+              "Number of Participants With an Ordinal Outcome on Day 5"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT05780463"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06729593",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With Acute Respiratory Distress Syndrome Associated With COVID-19 (Trial H2: Remdesivir)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-04-20",
+            "completion_date": "2022-11-20",
+            "country": "United States",
+            "enrollment": 87,
+            "brief_summary": "This study looks at the safety and effectiveness of Remdesivir in treating COVID-19 in people who have been hospitalized with the infection and who have acute respiratory failure. Participants in the study will be treated with Remdesivir plus current standard of care (SOC), or with placebo plus current SOC.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nRefer to the master protocol (NCT04843761)\n\nExclusion Criteria:\n\nRefer to the master protocol (NCT04843761)\n\nAdditional Exclusion Criteria:\n\n* Prior receipt of any dose of remdesivir during the present illness\n* GFR (glomerular filtration rate) \\< 30 ml/min and not receiving dia",
+            "endpoints": [
+              "Number of Participants With a 6-category Primary Ordinal Outcome (Recovery) at Day 90"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT06729593"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05605093",
+            "title": "Strategies and Treatments for Respiratory Infections & Viral Emergencies (STRIVE): Shionogi Protease Inhibitor",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2022-12-23",
+            "completion_date": "2025-10-28",
+            "country": "Australia, United States, Peru, Ukraine, South Korea, Thailand, Poland, Japan, Nigeria, United Kingdom, Zimbabwe, Brazil, Germany, Argentina, Denmark, Uganda, Mexico, Georgia, Switzerland, Spain, Singapore, Greece, South Africa, Puerto Rico",
+            "enrollment": 602,
+            "brief_summary": "Treatments are needed to improve outcomes among patients hospitalized for COVID-19, including direct-acting antiviral (DAA) agents to mitigate the pathology driven by ongoing viral replication. This trial will evaluate S-217622 (ensitrelvir), an anti-SARS-CoV2 3C-like protease inhibitor (PI) developed by Shionogi \\&; Co. Ltd.\n\nThe study design is a randomized, placebo-controlled, multi-center international clinical trial that will evaluate the clinical efficacy of ensitrelvir when given in addit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Informed consent for trial participation.\n* Hospital admission (or boarding in an emergency department or other area awaiting hospital admission) with signs and/or symptoms of a respiratory infection.\n* Confirmation of SARS-CoV2 infection by nucleic acid test ",
+            "endpoints": [
+              "Days to Recovery Scale assessed over 60 days (DRS-60)"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT05605093"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04385719",
+            "title": "An Open-label, Randomized, Single Intravenous Dosing Study to Investigate the Effect of Fixed-dose Combinations of Tenofovir/Lamivudine or Atazanavir/Ritonavir on the Pharmacokinetics of Remdesivir in Ugandan Healthy Volunteers",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-05-05",
+            "completion_date": "2021-07-16",
+            "country": "Uganda",
+            "enrollment": 24,
+            "brief_summary": "Ebola and HIV are found predominately in the same regions of the world and countries in sub-Saharan Africa are most affected by both diseases. For Ebola, no approved therapies exist. However, new investigational drugs are being evaluated to understand if they are effective against the Ebola virus. Remdesivir is an anti-Ebola investigational drug for the treatment of Ebola. Little is known about how the blood levels of remdesivir relate to how effective it is in patients with HIV taking antiretro",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Evidence of a personally signed and dated informed consent document indicating that the participant has been informed of all pertinent aspects of the study.\n2. Participants who are willing and able to comply with scheduled visits, treatment plan, laboratory tests, and other s",
+            "endpoints": [
+              "Number of adverse events categorised by body system",
+              "Percentage of participants with adverse events categorised by body system",
+              "Peak Concentration (CMax) of remdesivir in peripheral blood mononuclear cells (PBMCs) and Plasma"
+            ],
+            "sponsor": "Makerere University",
+            "url": "https://clinicaltrials.gov/study/NCT04385719"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05925140",
+            "title": "Comparative LUSZ Therapeutic Study of Antiviral, Antiretroviral, and Immunosuppressive Treatments in Hospitalized COVID-19 Patients With High-Risk Factors, Biomarkers, and Disease Progression.",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2020-03-28",
+            "completion_date": "2025-12-30",
+            "country": "Lebanon",
+            "enrollment": 1000,
+            "brief_summary": "This study aims first to assess the efficacy, safety, and effectiveness of the LUSZ COVID-19 therapy consisting of a comparative study of three different treatment approaches: antiviral, antiretroviral, and immunosuppressive IL-6 receptor antagonist, and second to identify high-risk factors and biomarkers associated with fatal outcomes in hospitalized COVID-19 patients. The study seeks to validate a novel predictive scoring model for disease progression and evaluate the impact of these treatment",
+            "eligibility_criteria": "Eligibility Criteria for Hospitalized Patients:\n\nInclusion criteria:\n\n* Age ≥ 18 years.\n* Gender-neutral\n* Fulfills WHO case definition, including a positive PCR for COVID-19 from any specimen (e.g., nasopharyngeal, throat, saliva, urine, stool, and other bodily fluid).\n* Not received any therapy (r",
+            "endpoints": [
+              "Mortality rate",
+              "Clinical improvement rate"
+            ],
+            "sponsor": "Lebanese University",
+            "url": "https://clinicaltrials.gov/study/NCT05925140"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04492475",
+            "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults (ACTT-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-08-05",
+            "completion_date": "2020-12-21",
+            "country": "South Korea, United States, Mexico, Singapore, Japan",
+            "enrollment": 969,
+            "brief_summary": "ACTT-3 will evaluate the combination of interferon beta-1a and remdesivir compared to remdesivir alone. Subjects will be assessed daily while hospitalized. If the subjects are discharged from the hospital, they will have a study visit at Days 15, 22, and 29. For discharged subjects, it is preferred that the Day 15 and 29 visits are in person to obtain safety laboratory tests and oropharyngeal (OP) swab and blood (serum only) samples for secondary research as well as clinical outcome data. Howeve",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Admitted to a hospital with symptoms suggestive of COVID-19.\n2. Subject (or legally authorized representative) provides informed consent prior to initiation of any study procedures.\n3. Subject (or legally authorized representative) understands and agrees to comply with planne",
+            "endpoints": [
+              "Time to Recovery for Participants With Baseline Ordinal Score 4, 5 and 6",
+              "Time to Recovery for Participants With Baseline Ordinal Score 4, 5 and 6 by Race",
+              "Time to Recovery for Participants With Baseline Ordinal Score 4, 5 and 6 by Ethnicity"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04492475"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04292730",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate COVID-19 Compared to Standard of Care Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-03-15",
+            "completion_date": "2020-06-26",
+            "country": "Hong Kong, Spain, Switzerland, France, South Korea, United Kingdom, Netherlands, Germany, Italy, United States, China, Sweden, Singapore, Taiwan, Japan",
+            "enrollment": 1113,
+            "brief_summary": "The primary objective of this study was to evaluate the efficacy of 2 remdesivir (RDV) regimens compared to standard of care (SOC), with respect to clinical status assessed by a 7-point ordinal scale on Day 11.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Willing and able to provide written informed consent prior to performing study procedures (participants ≥ 18 years of age) or assent (participants ≥ 12 and \\< 18 years of age) prior to performing study procedures. For participants ≥ 12 and \\< 18 years of age, a parent or l",
+            "endpoints": [
+              "Part A: Percentage of Participants in Each Clinical Status Category as Assessed by a 7-Point Ordinal Scale on Day 11"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT04292730"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05780268",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19 (Trial H1: LY3819253 (LY-CoV555))",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-08-05",
+            "completion_date": "2021-02-01",
+            "country": "Singapore, Denmark, United States, Spain",
+            "enrollment": 314,
+            "brief_summary": "This study looks at the safety and effectiveness of LY3819253 in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either LY3819253 plus current standard of care (SOC), or with placebo plus current SOC. This is ACTIV-3/TICO Treatment Trial H1.",
+            "eligibility_criteria": "Inclusion Criteria: Refer to the master protocol (NCT04501978)\n\nExclusion Criteria: Refer to the master protocol (NCT04501978)\n\nAdditional Criteria:\n\nNon-pregnant female participants who are of reproductive potential and male participants who are able to father a child must abstain from male/female ",
+            "endpoints": [
+              "Number of Participants With Sustained Recovery",
+              "Number of Participants With an Ordinal Outcome on Day 5"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT05780268"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05780281",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19 (Trial H2: VIR-7831 (GSK4182136))",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-12-16",
+            "completion_date": "2022-10-04",
+            "country": "Switzerland, Spain, United Kingdom, Denmark, United States, Uganda, Singapore, Poland",
+            "enrollment": 367,
+            "brief_summary": "This study looks at the safety and effectiveness of VIR-7831 in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either VIR-7831 plus current standard of care (SOC), or with placebo plus current SOC. This is ACTIV-3/TICO Treatment Trial H2.",
+            "eligibility_criteria": "Inclusion Criteria: Refer to the master protocol (NCT04501978)\n\nExclusion Criteria: Refer to the master protocol (NCT04501978)\n\nAdditional Exclusion Criteria:\n\n1. Pregnant women\n2. Nursing mothers\n\nIn addition, prior to the initial futility assessment which is performed when approximately 150 partic",
+            "endpoints": [
+              "Number of Participants With Sustained Recovery",
+              "Number of Participants With an Ordinal Outcome on Day 5"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT05780281"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04669990",
+            "title": "Remdesivir and Convalescent Plasma Therapy for Treatment of COVID-19 Infection in Nepal : A Registry Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-11-19",
+            "completion_date": "2021-11-19",
+            "country": "Nepal",
+            "enrollment": 2000,
+            "brief_summary": "The pandemic COVID-19 does not have an established treatment. Clinical trials of antiviral drugs against SARS CoV-2 are currently in progress. Clinical study done by NIH which included 1059 patients indicated that those who received Remdesivir had a median recovery time of 11 days as compared with 15 days in those who received placebo. Remdesivir has recently received full approval for COVID-19 by US FDA, and emergency use authorization (EUA) by multiple countries including European Commission a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients who receive treatment with CPT or Remdesivir will be eligible for the study. Treatment decision will be based on decision of the treating physicians. However, following guidelines for treatment are provided based on current standard of care: For Remdesivir: Patien",
+            "endpoints": [
+              "Demographics of recipients",
+              "Co-morbidity of recipient",
+              "Adverse events of convalescent COVID-19 plasma and Remdesivir Therapy"
+            ],
+            "sponsor": "Nepal Health Research Council",
+            "url": "https://clinicaltrials.gov/study/NCT04669990"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04359095",
+            "title": "Effectiveness and Safety of Medical Treatment for SARS-CoV-2 (COVID-19) in Colombia: A Pragmatic Randomized Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-08-18",
+            "completion_date": "2021-06-30",
+            "country": "Colombia",
+            "enrollment": 650,
+            "brief_summary": "Introduction: The COVID-19 pandemic is characterized by significant morbidity and mortality. Treatments have been administered to patients with COVID-19 in order to control viral infection, among them: Hydroxychloroquine (HCQ), Lopinavir/Ritonavir (Lop/r), Remdesivir, Favipavir, Emtricitabine/ Tenofovir acting over bacterial co-infection Azithromycin (Azithro), or modifying the inflammatory response of the host (Tocilizumab, colchicine, dexamethasone, and by other mechanisms (rosuvastatin). Exce",
+            "eligibility_criteria": "Inclusion Criteria:\n\nEligibility criteria for institutions:\n\n* Centralized pharmacy department which allows safe storage of drugs\n* Centralized pharmacy department that follows good clinical practice protocols for investigation\n\nand either\n\n* ICU capacity of at least 10 beds with available ventilato",
+            "endpoints": [
+              "Mortality",
+              "Number of Participants with Treatment Related Severe Adverse Events as Assessed by the NCORP Guidance for Collection of Adverse Events Related to COVID-19 Infection"
+            ],
+            "sponsor": "Universidad Nacional de Colombia",
+            "url": "https://clinicaltrials.gov/study/NCT04359095"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04546581",
+            "title": "An International Multicenter, Adaptive, Randomized Double-Blind, Placebo-Controlled Trial of the Safety, Tolerability and Efficacy of Anti-Coronavirus Hyperimmune Intravenous Immunoglobulin for the Treatment of Adult Hospitalized Patients at Onset of Clinical Progression of COVID-19",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-10-08",
+            "completion_date": "2021-05-21",
+            "country": "Nigeria, Spain, United Kingdom, Denmark, United States, Greece, Japan",
+            "enrollment": 593,
+            "brief_summary": "This protocol will serve as a platform for assessing treatments for adult patients hospitalized for medical management of COVID-19 without related serious end-organ failure. Trials will involve sites around the world strategically chosen to ensure rapid enrollment. This trial will compare hyperimmune intravenous immunoglobulin (hIVIG) with matched placebo, when added to standard of care (SOC), for preventing further disease progression and mortality related to COVID-19. SOC will include remdesiv",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* SARS-CoV-2 infection documented by polymerase chain reaction (PCR) or other nucleic acid test (NAT) within 3 days prior to randomization OR documented by NAT more than 3 days prior to randomization AND progressive disease suggestive of ongoing SARS-CoV-2 infection\n* Symptomati",
+            "endpoints": [
+              "Ordinal Outcome Scale - Day 7",
+              "Primary Safety Outcome - Death, SAE or Grade 3 or 4 Events Through Day 7"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT04546581"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05780437",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19 (Trial H4: AZD7442)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-02-10",
+            "completion_date": "2023-06-09",
+            "country": "Switzerland, Spain, United Kingdom, Denmark, United States, Uganda, Greece, Singapore, Poland",
+            "enrollment": 1455,
+            "brief_summary": "This study looks at the safety and effectiveness of AZD7442 in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either a AZD7442 plus current standard of care (SOC), or with placebo plus current SOC. This is ACTIV-3/TICO Treatment Trial H4.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n• Refer to the master protocol (NCT04501978)\n\nExclusion Criteria:\n\n* Refer to the master protocol (NCT04501978)\n* Additional Exclusion Criteria:\n\n  * Pregnant women\n  * Nursing mothers\n  * Women of child-bearing potential who are unwilling to acknowledge the strong advice to abs",
+            "endpoints": [
+              "Number of Participants With Sustained Recovery",
+              "Number of Participants With an Ordinal Outcome on Day 5"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT05780437"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04843761",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With Acute Respiratory Distress Syndrome Associated With COVID-19",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-04-20",
+            "completion_date": "2022-11-20",
+            "country": "United States",
+            "enrollment": 473,
+            "brief_summary": "This study looks at the safety and effectiveness of different drugs in treating COVID-19 in people who have been hospitalized with the infection and who have acute respiratory failure. Participants in the study will be treated with either a study drug plus current standard of care (SOC), or with placebo plus current SOC.\n\nSubstudy H1: Aviptadil for Severely Ill Inpatients With COVID-19 (NCT06729606)\n\nSubstudy H2: Remdesivir for Severely Ill Inpatients With COVID-19 (NCT06729593)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent.\n* Requiring admission for inpatient hospital acute medical care for clinical manifestations of COVID-19 (not for purely public health or quarantine purposes).\n* Current respiratory failure (i.e. receipt of high-flow nasal cannula, non-invasive ventilat",
+            "endpoints": [
+              "Substudy Analysis Cohorts"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04843761"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04501978",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-08-04",
+            "completion_date": "2023-07-14",
+            "country": "Switzerland, Nigeria, Spain, United Kingdom, Denmark, United States, Uganda, Greece, Singapore, Poland",
+            "enrollment": 2753,
+            "brief_summary": "This study looks at the safety and effectiveness of different drugs in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either a study drug plus current standard of care (SOC), or with placebo plus current SOC.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent.\n* Positive test for COVID-19 and progressive disease suggestive of ongoing COVID-19 infection.\n* Symptoms of COVID-19 for ≤ 12 days.\n* Require admission to hospital for acute medical care (not for purely public health or quarantine purposes).\n\nExclusio",
+            "endpoints": [
+              "Time from randomization to sustained recovery"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04501978"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04681430",
+            "title": "Reconvalescent Plasma / Camostat Mesylate Early in Sars-CoV-2 Q-PCR (COVID-19) Positive High-risk Individuals",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-01-08",
+            "completion_date": "2021-10-29",
+            "country": "Germany",
+            "enrollment": 22,
+            "brief_summary": "This study is a 4-arm, multicenter, randomized, partly double- blind, controlled trial to evaluate the safety and efficacy of convalescent serum (CP) or camostat mesylate with control or placebo in adult patients diagnosed with SARS-CoV-2 and high risk for moderate/severe COVID-19. The working hypothesis to be tested in the RES-Q-HR study is that the early use of convalescent plasma (CP) or camostat mesylate (Foipan®) reduces the likelihood of disease progression to modified WHO stages 4b-8 in S",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Individuals (female, male, diverse) ≥ 18 years with SARS-CoV-2 infection, confirmed by PCR before study enrollment\n2. SARS-CoV-2 positive PCR ≤ 3 days old (date of NP swab)\n3. Presence of ≥ 1 SARS-CoV-2 typical symptom (fever, cough, shortness of breath, sore throat, headache",
+            "endpoints": [
+              "WHO ordinal Covid-19 scale up to day 28"
+            ],
+            "sponsor": "Heinrich-Heine University, Duesseldorf",
+            "url": "https://clinicaltrials.gov/study/NCT04681430"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05780424",
+            "title": "A Multicenter, Adaptive, Randomized, Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for Hospitalized Patients With COVID-19 (Trial H3: BRII-196/BRII-198)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-12-16",
+            "completion_date": "2022-10-10",
+            "country": "Switzerland, Spain, United Kingdom, Denmark, United States, Uganda, Singapore, Poland",
+            "enrollment": 353,
+            "brief_summary": "This study looks at the safety and effectiveness of BRII-196/BRII-198 in treating COVID-19 in people who have been hospitalized with the infection. Participants in the study will be treated with either BRII-196/BRII-198 plus current standard of care (SOC), or with placebo plus current SOC. This is ACTIV-3/TICO Treatment Trial H3.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Refer to the master protocol (NCT04501978)\n\nExclusion Criteria:\n\n* Refer to the master protocol (NCT04501978)\n* Additional Exclusion Criteria:\n\n  * Pregnant women\n  * Nursing mothers\n* In addition, prior to the initial futility assessment which is performed when approximately ",
+            "endpoints": [
+              "Number of Participants With an Ordinal Outcome on Day 5"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT05780424"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04280705",
+            "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-02-21",
+            "completion_date": "2020-05-21",
+            "country": "Spain, United Kingdom, South Korea, Germany, Denmark, United States, Mexico, Greece, Singapore, Japan",
+            "enrollment": 1062,
+            "brief_summary": "This study is an adaptive, randomized, double-blind, placebo-controlled trial to evaluate the safety and efficacy of novel therapeutic agents in hospitalized adults diagnosed with COVID-19. The study is a multicenter trial that will be conducted in up to approximately 100 sites globally. The study will compare different investigational therapeutic agents to a control arm. There will be interim monitoring to introduce new arms and allow early stopping for futility, efficacy, or safety. If one the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Admitted to a hospital with symptoms suggestive of COVID-19 infection.\n2. Subject (or legally authorized representative) provides informed consent prior to initiation of any study procedures.\n3. Subject (or legally authorized representative) understands and agrees to comply w",
+            "endpoints": [
+              "Time to Recovery",
+              "Time to Recovery by Race",
+              "Time to Recovery by Ethnicity"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04280705"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04292899",
+            "title": "A Phase 3 Randomized Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe COVID-19",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-03-06",
+            "completion_date": "2020-06-30",
+            "country": "Hong Kong, Spain, Switzerland, France, South Korea, United Kingdom, Netherlands, Germany, Italy, United States, China, Sweden, Singapore, Taiwan, Japan",
+            "enrollment": 4891,
+            "brief_summary": "The primary objective of this study is to evaluate the efficacy of 2 remdesivir (RDV) regimens with respect to clinical status assessed by a 7-point ordinal scale on Day 14.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Willing and able to provide written informed consent, or with a legal representative who can provide informed consent, or enrolled under International Conference on Harmonization (ICH) E6(R2) 4.8.15 emergency use provisions as deemed necessary by the investigator (age ≥ 18",
+            "endpoints": [
+              "Part A: Percentage of Participants in Each Clinical Status Category as Assessed by a 7-Point Ordinal Scale on Day 14"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT04292899"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02818582",
+            "title": "PREVAIL IV: Double-Blind, Randomized, Two-Phase, Placebo-Controlled, Phase II Trial of GS-5734 to Assess the Antiviral Activity, Longer-Term Clearance of Ebola Virus, and Safety in Male Ebola Survivors With Evidence of Ebola Virus Persistence in Semen",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-07-01",
+            "completion_date": "2020-08-31",
+            "country": "Guinea, Liberia",
+            "enrollment": 38,
+            "brief_summary": "Background:\n\nSome people have Ebola virus in their body for months after they recover from Ebola virus disease. Some may have health problems from the virus while others are fine. These people may be able to pass the virus to others. There are currently no drugs for people who have survived Ebola virus disease but still have the virus in their body. A new drug, GS-5734, might help get rid of Ebola virus in semen.\n\nObjective:\n\nTo test if GS-5734 helps get rid of Ebola virus in semen and is safe f",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nIndividuals must meet all of the following criteria to be eligible for study participation:\n\n* Men more than or equal to 18 years of age.\n* One of two semen samples with Ebola virus RNA detection (defined as a positive PCR for NP or GP using the GeneXpert assay within 42 days ",
+            "endpoints": [
+              "Mean Assay Negativity Rate (ANR) for Ebola Virus During the Treatment Phase",
+              "Mean Assay Negativity Rate (ANR) for Ebola Virus During the Follow-up Phase"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT02818582"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04582266",
+            "title": "Pharmacokinetics and Safety of Remdesivir for Treatment of COVID-19 in Pregnant and Non-Pregnant Women in the United States",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-03-31",
+            "completion_date": "2022-04-13",
+            "country": "United States",
+            "enrollment": 54,
+            "brief_summary": "IMPAACT 2032 was a Phase IV prospective, open label, non-randomized opportunistic study. The objectives of this study were to describe the pharmacokinetic (PK) properties and safety of remdesivir (RDV) administered intravenously as part of clinical care among hospitalized pregnant and non-pregnant women of childbearing potential with coronavirus disease of 2019 (COVID-19). RDV was provided and managed by the participant's treating physician and was not provided as part of this study.",
+            "eligibility_criteria": "Inclusion Criteria: Arm 1 (Pregnant Women)\n\n* Of legal age or otherwise able to provide independent informed consent or is unable to provide informed consent (e.g., impaired capacity) and a Legally Authorized Representative (LAR) is willing and able to provide written informed consent on behalf of t",
+            "endpoints": [
+              "PK Outcome: Geometric Mean Area Under the Plasma Concentration-time Curve (AUC) of Remdesivir (RDV) in Arm 1",
+              "PK Outcome: Geometric Mean Half-life (t1/2) of Remdesivir (RDV) in Arm 1",
+              "PK Outcome: Geometric Mean Trough Concentration (Ctrough) of GS-441524 in Arm 1"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04582266"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04570982",
+            "title": "Compassionate Use of Remdesivir and Convalescent Plasma Therapy for Treatment of COVID-19 Infection in Nepal : A Prospective Observational Study (Amended Protocol)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-07-30",
+            "completion_date": "2020-12-30",
+            "country": "Nepal",
+            "enrollment": 200,
+            "brief_summary": "The objective of this compassionate use study is to provide access and evaluate the outcome of Remdesivir and COVID-19 convalescent plasma use in patients with COVID-19. This protocol provides a coordinated approach for distribution and guidance for safe and effective administration of Remdesivir and convalescent plasma with antibodies against SARS CoV-2 for treatment of patients with COVID-19 infection who are most likely to benefit from this investigational treatment and monitor them for the f",
+            "eligibility_criteria": "A. INCLUSION CRITERIA\n\nAll patients:\n\n1. Minimum 18 years of age\n2. Laboratory-confirmed diagnosis of COVID-19 infection with PCR test positive for SARS-CoV-2\n3. Hospitalized patients admitted to an acute care facility for the treatment of COVID-19\n4. Signed informed consent provided by the patient ",
+            "endpoints": [
+              "Availability of convalescent plasma",
+              "Amount of Plasma",
+              "Demographics of recipients"
+            ],
+            "sponsor": "Nepal Health Research Council",
+            "url": "https://clinicaltrials.gov/study/NCT04570982"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "41136410",
+            "title": "Acute SARS-CoV-2 infection.",
+            "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a respiratory pathogen that emerged in December 2019 and caused a global pandemic by March 2020, with >7 million deaths due to coronavirus disease 2019 (COVID-19) globally as of September 2025. The clinical syndrome of COVID-19 ranges from asymptomatic infection to severe disease with pneumonia and death. SARS-CoV-2 variant type, inoculum, previous exposure and host factors influence the clinical trajectory. Identification of key structural proteins of SARS-CoV-2 and insights into the pathophysiology of the immune response to infection led to the development of effective preventive (vaccines and monoclonal antibodies) and therapeutic (antivirals and immunomodulatory agents) agents. Antiviral agents, such as remdesivir and nirmatrelvir-ritonavir, inhibit viral replication and immunomodulatory agents, such as tocilizumab and baricitinib, act to reduce a dysregulated immune response to SARS-CoV-2. The pandemic had economic an",
+            "journal": "Nature reviews. Disease primers",
+            "year": "2025",
+            "authors": [
+              "Sherman Amy C",
+              "Gray Glenda E",
+              "Cao Bin",
+              "To Kelvin K W",
+              "Rouphael Nadine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "COVID-19",
+              "SARS-CoV-2",
+              "Antiviral Agents",
+              "COVID-19 Vaccines",
+              "COVID-19 Drug Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41136410/"
+          },
+          {
+            "pmid": "33264556",
+            "title": "Repurposed Antiviral Drugs for Covid-19 - Interim WHO Solidarity Trial Results.",
+            "abstract": "World Health Organization expert groups recommended mortality trials of four repurposed antiviral drugs - remdesivir, hydroxychloroquine, lopinavir, and interferon beta-1a - in patients hospitalized with coronavirus disease 2019 (Covid-19).",
+            "journal": "The New England journal of medicine",
+            "year": "2021",
+            "authors": [
+              "Pan Hongchao",
+              "Peto Richard",
+              "Henao-Restrepo Ana-Maria",
+              "Preziosi Marie-Pierre"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Monophosphate",
+              "Aged",
+              "Alanine",
+              "Antiviral Agents",
+              "COVID-19",
+              "Drug Therapy, Combination",
+              "Female",
+              "Hospital Mortality",
+              "Hospitalization",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33264556/"
+          },
+          {
+            "pmid": "36097825",
+            "title": "Qualitative Subgenomic RNA to Monitor the Response to Remdesivir in Hospitalized Patients With Coronavirus Disease 2019: Impact on the Length of Hospital Stay and Mortality.",
+            "abstract": "There is no reliable microbiological marker to guide the indication and the response to antiviral treatment in patients with coronavirus disease 2019 (COVID-19). We aimed to evaluate the dynamics of subgenomic RNA (sgRNA) in patients with COVID-19 before and after receiving treatment with remdesivir.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2023",
+            "authors": [
+              "Alonso-Navarro Rodrigo",
+              "Cuesta Genoveva",
+              "Santos Marta",
+              "Cardozo Celia",
+              "Rico Verónica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "COVID-19",
+              "Subgenomic RNA",
+              "SARS-CoV-2",
+              "Length of Stay",
+              "COVID-19 Drug Treatment",
+              "Antiviral Agents",
+              "Adenosine Monophosphate",
+              "Alanine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36097825/"
+          },
+          {
+            "pmid": "33864090",
+            "title": "A combined assay for quantifying remdesivir and its metabolite, along with dexamethasone, in serum.",
+            "abstract": "As global confirmed cases and deaths from coronavirus disease 2019 (COVID-19) surpass 100 and 2.2 million, respectively, quantifying the effects of the widespread treatment of remdesivir (GS-5734, Veklury) and the steroid dexamethasone is becoming increasingly important. Limited pharmacokinetic studies indicate that remdesivir concentrations in serum decrease quickly after dosing, so its primary serum metabolite GS-441524 may have more analytical utility.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2021",
+            "authors": [
+              "Reckers Andrew",
+              "Wu Alan H B",
+              "Ong Chui Mei",
+              "Gandhi Monica",
+              "Metcalfe John"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine",
+              "Adenosine Monophosphate",
+              "Alanine",
+              "Antiviral Agents",
+              "Chromatography, Liquid",
+              "Dexamethasone",
+              "Furans",
+              "Humans",
+              "Pyrroles",
+              "SARS-CoV-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33864090/"
+          },
+          {
+            "pmid": "35229634",
+            "title": "The FDA-Approved Drug Cobicistat Synergizes with Remdesivir To Inhibit SARS-CoV-2 Replication In Vitro and Decreases Viral Titers and Disease Progression in Syrian Hamsters.",
+            "abstract": "Combinations of direct-acting antivirals are needed to minimize drug resistance mutations and stably suppress replication of RNA viruses. Currently, there are limited therapeutic options against the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), and testing of a number of drug regimens has led to conflicting results. Here, we show that cobicistat, which is an FDA-approved drug booster that blocks the activity of the drug-metabolizing proteins cytochrome P450-3As (CYP3As) and P-glycoprotein (P-gp), inhibits SARS-CoV-2 replication. Two independent cell-to-cell membrane fusion assays showed that the antiviral effect of cobicistat is exerted through inhibition of spike protein-mediated membrane fusion. In line with this, incubation with low-micromolar concentrations of cobicistat decreased viral replication in three different cell lines including cells of lung and gut origin. When cobicistat was used in combination with remdesivir, a synergistic effect on the inhibition of v",
+            "journal": "mBio",
+            "year": "2022",
+            "authors": [
+              "Shytaj Iart Luca",
+              "Fares Mohamed",
+              "Gallucci Lara",
+              "Lucic Bojana",
+              "Tolba Mahmoud M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Monophosphate",
+              "Alanine",
+              "Animals",
+              "Antiviral Agents",
+              "Cobicistat",
+              "Cricetinae",
+              "Disease Progression",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Mesocricetus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35229634/"
+          },
+          {
+            "pmid": "33002954",
+            "title": "Treatment of coronavirus disease 2019.",
+            "abstract": "Coronavirus disease 2019 (COVID-19) is a highly contagious and potentially lethal pandemic caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). No specific antiviral treatment is currently available. The purpose of this review is to highlight the main repurposed drug treatments with in-vitro or in-vivo efficacy against the SARS-CoV-2.",
+            "journal": "Current opinion in HIV and AIDS",
+            "year": "2020",
+            "authors": [
+              "Hung Ivan F N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Antiviral Agents",
+              "Betacoronavirus",
+              "COVID-19",
+              "Coronavirus Infections",
+              "Humans",
+              "Immunization, Passive",
+              "Interferon-beta",
+              "Pandemics",
+              "Pneumonia, Viral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33002954/"
+          },
+          {
+            "pmid": "34859557",
+            "title": "Retrospective evaluation of an observational cohort by the Central and Eastern Europe Network Group shows a high frequency of potential drug-drug interactions among HIV-positive patients receiving treatment for coronavirus disease 2019 (COVID-19).",
+            "abstract": "The aim of this international multicentre study was to review potential drug-drug interactions (DDIs) for real-life coadministration of combination antiretroviral therapy (cART) and coronavirus disease 2019 (COVID-19)-specific medications.",
+            "journal": "HIV medicine",
+            "year": "2022",
+            "authors": [
+              "Lakatos Botond",
+              "Kowalska Justyna",
+              "Antoniak Sergii",
+              "Gokengin Deniz",
+              "Begovac Josip"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Adult",
+              "Anti-HIV Agents",
+              "Drug Interactions",
+              "Emtricitabine",
+              "Female",
+              "HIV Infections",
+              "HIV Seropositivity",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34859557/"
+          },
+          {
+            "pmid": "35817072",
+            "title": "Tixagevimab-cilgavimab for treatment of patients hospitalised with COVID-19: a randomised, double-blind, phase 3 trial.",
+            "abstract": "Tixagevimab-cilgavimab is a neutralising monoclonal antibody combination hypothesised to improve outcomes for patients hospitalised with COVID-19. We aimed to compare tixagevimab-cilgavimab versus placebo, in patients receiving remdesivir and other standard care.",
+            "journal": "The Lancet. Respiratory medicine",
+            "year": "2022",
+            "authors": [],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal",
+              "Antibodies, Neutralizing",
+              "Double-Blind Method",
+              "Humans",
+              "Treatment Outcome",
+              "COVID-19 Drug Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35817072/"
+          },
+          {
+            "pmid": "35073629",
+            "title": "Oral antivirals for the prevention and treatment of SARS-CoV-2 infection.",
+            "abstract": "Vaccines and antivirals are the classical weapons deployed to contain, prevent, and treat life-threatening viral illnesses. Specifically, for SARS-CoV-2 infection, vaccines protect against severe COVID-19 disease manifestations and complications. However, waning immunity and emergence of vaccine escape mutants remains a growing threat. This is highlighted by the current surge of the omicron COVID-19 variant. Thus, there is a race to find treatment alternatives. We contend that oral small molecule antivirals that halt SARSCoV- 2 infection are essential. Compared to currently available monoclonal antibodies and remdesivir, where parenteral administration is required, oral antivirals offer treatments in an outpatient setting with dissemination available on a larger scale. In response to this need at 2021's end, regulatory agencies provided emergency use authorization for both molnupiravir and nirmatrelvir. These medicines act on the viral polymerase and protease, respectively. Each is giv",
+            "journal": "AIDS reviews",
+            "year": "2022",
+            "authors": [
+              "Soriano Vicente",
+              "de-Mendoza Carmen",
+              "Edagwa Benson",
+              "Treviño Ana",
+              "Barreiro Pablo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "HIV Infections",
+              "Humans",
+              "Pandemics",
+              "SARS-CoV-2",
+              "COVID-19 Drug Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35073629/"
+          },
+          {
+            "pmid": "34633268",
+            "title": "The use of antiviral drugs in children.",
+            "abstract": "Viral infections are particularly common among children. They often have a mild course, are self-limiting and do not need any specific treatment. However, in some cases, the disease can be severe and lead to permanent disabilities. A variety of antiviral drugs are available for the treatments of certain infectious agents: for instance, acyclovir is used to treat herpes simplex virus encephalitis. Recommendations for flu treatment may change according to the current epidemiological surveillance data, on the basis of which antiviral sensibility can be forecast: recommended drugs for the 2020-21 flu season are oseltamivir, zanamivir, peramivir and baloxavir. Some drugs are used to treat congenital infections, such as valganciclovir and ganciclovir in congenital cytomegalovirus infection. Antiretroviral prophylaxis in newborns from HIV-1 infected mothers must be initiated as soon as possible, with one or more drugs according to therapeutic regimens based on the baby's risk category. Accord",
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2022",
+            "authors": [
+              "Motisi Marco Antonio",
+              "Tamborino Agnese",
+              "Parigi Sara",
+              "Galli Luisa",
+              "de Martino Maurizio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "COVID-19",
+              "Child",
+              "Drug Therapy, Combination",
+              "Genotype",
+              "Hepacivirus",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34633268/"
+          },
+          {
+            "pmid": "36165855",
+            "title": "Recent Drug Development and Medicinal Chemistry Approaches for the Treatment of SARS-CoV-2 Infection and COVID-19.",
+            "abstract": "COVID-19, caused by SARS-CoV-2 infection, continues to be a major public health crisis around the globe. Development of vaccines and the first cluster of antiviral drugs has brought promise and hope for prevention and treatment of severe coronavirus disease. However, continued development of newer, safer, and more effective antiviral drugs are critically important to combat COVID-19 and counter the looming pathogenic variants. Studies of the coronavirus life cycle revealed several important biochemical targets for drug development. In the present review, we focus on recent drug design and medicinal chemistry efforts in small molecule drug discovery, including the development of nirmatrelvir that targets viral protein synthesis and remdesivir and molnupiravir that target viral RdRp. These are recent FDA approved drugs for the treatment of COVID-19.",
+            "journal": "ChemMedChem",
+            "year": "2022",
+            "authors": [
+              "Ghosh Arun K",
+              "Mishevich Jennifer L",
+              "Mesecar Andrew",
+              "Mitsuya Hiroaki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "SARS-CoV-2",
+              "Chemistry, Pharmaceutical",
+              "Antiviral Agents",
+              "Drug Development",
+              "COVID-19 Drug Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36165855/"
+          },
+          {
+            "pmid": "38675889",
+            "title": "No Remdesivir Resistance Observed in the Phase 3 Severe and Moderate COVID-19 SIMPLE Trials.",
+            "abstract": "Remdesivir (RDV) is a broad-spectrum nucleotide analog prodrug approved for the treatment of COVID-19 in hospitalized and non-hospitalized patients with clinical benefit demonstrated in multiple Phase 3 trials. Here we present SARS-CoV-2 resistance analyses from the Phase 3 SIMPLE clinical studies evaluating RDV in hospitalized participants with severe or moderate COVID-19 disease. The severe and moderate studies enrolled participants with radiologic evidence of pneumonia and a room-air oxygen saturation of ≤94% or >94%, respectively. Virology sample collection was optional in the study protocols. Sequencing and related viral load data were obtained retrospectively from participants at a subset of study sites with local sequencing capabilities (10 of 183 sites) at timepoints with detectable viral load. Among participants with both baseline and post-baseline sequencing data treated with RDV, emergent Nsp12 substitutions were observed in 4 of 19 (21%) participants in the severe study and",
+            "journal": "Viruses",
+            "year": "2024",
+            "authors": [
+              "Hedskog Charlotte",
+              "Spinner Christoph D",
+              "Protzer Ulrike",
+              "Hoffmann Dieter",
+              "Ko Chunkyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase III",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Alanine",
+              "Adenosine Monophosphate",
+              "SARS-CoV-2",
+              "Antiviral Agents",
+              "COVID-19 Drug Treatment",
+              "Drug Resistance, Viral",
+              "Viral Load",
+              "COVID-19",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38675889/"
+          },
+          {
+            "pmid": "38028857",
+            "title": "A Comparative Study of Antiretroviral (Lopinavir/Ritonavir) and Remdesivir Used in the Pandemic in Iraq on the Clinical Outcome in Patients with SARS-CoV-2.",
+            "abstract": "The SARS-CoV-2 virus, which emerged in December 2019, has infected millions worldwide and caused many deaths. Due to its high mortality rate, several studies assessed the effectiveness of different drugs against COVID-19, mainly in reducing the hospitalization rate among the elderly and compromised patients. Lopinavir-ritonavir combination and remdesivir were among the medications used to treat COVID-19. Due to considerable differences in the effectiveness and clinical outcomes of the two treatments, this study aimed to compare the clinical outcomes between COVID-19 patients treated with antiretrovirals (lopinavir-ritonavir) and remdesivir. A total of 33 patients on lopinavir-ritonavir and 35 on remdesivir were selected for this study. A retrospective comparative analysis was conducted based on demographic characteristics, hospital stay, laboratory parameters of C-reactive protein (CRP) and plasma blood oxygen saturation (SPO2), clinical treatment, and a clinical outcome assessment ext",
+            "journal": "Archives of Razi Institute",
+            "year": "2023",
+            "authors": [
+              "Alabdalaali M M",
+              "Hadi A M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Ritonavir",
+              "Lopinavir",
+              "SARS-CoV-2",
+              "Antiviral Agents",
+              "COVID-19",
+              "Pandemics",
+              "Retrospective Studies",
+              "Iraq"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38028857/"
+          },
+          {
+            "pmid": "36347057",
+            "title": "CROI 2022: advances in antiviral therapy for HIV, COVID-19, and viral hepatitis.",
+            "abstract": "The 2022 Conference on Retroviruses and Opportunistic Infections provided a rich source of new data and comprehensive reviews on antiviral therapy. For COVID-19, intramuscular sotrovimab was noninferior to intravenous sotrovimab, serostatus did not predict the efficacy of sotrovimab, and molnupiravir appeared safe and modestly effective in decreasing hospitalization rates. Trials from low- and middle-income countries provided data to support transitioning those on first-line therapy with or without virologic suppression and those virologically suppressed on second-line therapy to dolutegravir-based regimens. Additional data supported the use of lenacapavir as a long-acting antiretroviral drug. Data across the United States demonstrate the negative impact of the COVID-19 pandemic on the HIV care continuum, although enhanced outreach efforts and decentralization of antiretroviral therapy delivery were associated with improvements in care engagement outcomes. Researchers described potenti",
+            "journal": "Topics in antiviral medicine",
+            "year": "2022",
+            "authors": [
+              "Gunaratne Shauna H",
+              "Tieu Hong-Van",
+              "Wilkin Timothy J",
+              "Taylor Barbara S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "United States",
+              "HIV Infections",
+              "Pandemics",
+              "HIV-1",
+              "SARS-CoV-2",
+              "Virus Latency",
+              "Anti-Retroviral Agents",
+              "Hepatitis, Viral, Human"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36347057/"
+          },
+          {
+            "pmid": "32657527",
+            "title": "SARS-CoV-2 and HIV coinfection: clinical experience from Rhode Island, United States.",
+            "abstract": "Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) has infected >6 million people worldwide since December 2019. Global reports of HIV/SARS-CoV-2 coinfection are limited. To better understand the impact of the coronavirus disease 2019 (COVID-19) pandemic on persons with HIV and improve their care, we present an outpatient and inpatient clinical experience of HIV/SARS-CoV-2 coinfection from Rhode Island, US.",
+            "journal": "Journal of the International AIDS Society",
+            "year": "2020",
+            "authors": [
+              "Byrd Katrina M",
+              "Beckwith Curt G",
+              "Garland Joseph M",
+              "Johnson Jennie E",
+              "Aung Su"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Ambulatory Care",
+              "Betacoronavirus",
+              "COVID-19",
+              "Coinfection",
+              "Coronavirus Infections",
+              "Female",
+              "HIV Infections",
+              "Hospitalization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32657527/"
+          },
+          {
+            "pmid": "33469197",
+            "title": "Maternal endothelial dysfunction in HIV-associated preeclampsia comorbid with COVID-19: a review.",
+            "abstract": "This review assesses markers of endothelial dysfunction (ED) associated with the maternal syndrome of preeclampsia (PE). We evaluate the role of antiretroviral therapy (ART) in human immunodeficiency virus (HIV)-infected preeclamptic women. Furthermore, we briefly discuss the potential of lopinavir/ritonavir (LPV/r), dolutegravir (DTG) and remdesivir (RDV) in drug repurposing and their safety in pregnancy complicated by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. In HIV infection, the trans-activator of transcription protein, which has homology with vascular endothelial growth factor, impairs angiogenesis, leading to endothelial injury and possible PE development despite neutralization of their opposing immune states. Markers of ED show strong evidence supporting the adverse role of ART in PE development and mortality compared to treatment-naïve pregnancies. Coronavirus disease 2019 (COVID-19), caused by SARS-CoV-2 infection, exploits angiotensin-converting ",
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2021",
+            "authors": [
+              "Naidoo Nitalia",
+              "Moodley Jagidesa",
+              "Naicker Thajasvarie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "COVID-19",
+              "Endothelium",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Infant, Newborn",
+              "Pandemics",
+              "Pre-Eclampsia",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33469197/"
+          },
+          {
+            "pmid": "32587649",
+            "title": "Medical Management of COVID-19: Evidence and Experience.",
+            "abstract": "Coronavirus disease 2019 is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), and this infectious disease is termed COVID-19 in short. On a global scale, as of June 1, 2020, the World Health Organization (WHO) published statistics of 6,057,853 infected patients and 371,166 deaths worldwide. Despite reported observational data about the experimental use of certain drugs, there is no conclusively proven curative therapy for COVID-19 as of now; however, remdesivir received emergency use authorization (EUA) by the Food and Drug Administration (FDA) recently for use in patients hospitalized with COVID-19. There are several ongoing clinical trials related to the pharmacological choices of therapy for COVID-19 patients; however, drug trials related to observational studies so far have yielded mixed results and therefore have created a sense of confusion among healthcare professionals (HCPs). In this review article, we seek to collate and provide a summary of treatment st",
+            "journal": "Journal of clinical medicine research",
+            "year": "2020",
+            "authors": [
+              "Bose Subhasish",
+              "Adapa Sreedhar",
+              "Aeddula Narothama Reddy",
+              "Roy Sasmit",
+              "Nandikanti Deepak"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32587649/"
+          },
+          {
+            "pmid": "32876009",
+            "title": "It Ain't Over Till It's Over: The Triple Threat of COVID-19, TB, and HIV.",
+            "abstract": "",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "2020",
+            "authors": [
+              "Kay Alexander W",
+              "Ness Tara E",
+              "Martinez Leonardo",
+              "Mandalakas Anna M"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Adenosine Monophosphate",
+              "Alanine",
+              "Antitubercular Agents",
+              "Antiviral Agents",
+              "Betacoronavirus",
+              "COVID-19",
+              "Coinfection",
+              "Comorbidity",
+              "Coronavirus Infections",
+              "Drug Interactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32876009/"
+          },
+          {
+            "pmid": "34696838",
+            "title": "Mechanisms of inhibition of viral RNA replication by nucleotide analogs.",
+            "abstract": "Nucleotide analogs are the cornerstone of direct acting antivirals used to control infection by RNA viruses. Here we review what is known about existing nucleotide/nucleoside analogs and the kinetics and mechanisms of RNA and DNA replication, with emphasis on the SARS-CoV-2 RNA dependent RNA polymerase (RdRp) in comparison to HIV reverse transcriptase and Hepatitis C RdRp. We demonstrate how accurate kinetic analysis reveals surprising results to explain the effectiveness of antiviral nucleoside analogs providing guidelines for the design of new inhibitors.",
+            "journal": "The Enzymes",
+            "year": "2021",
+            "authors": [
+              "Johnson Kenneth A",
+              "Dangerfield Tyler"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Monophosphate",
+              "Alanine",
+              "Antiviral Agents",
+              "COVID-19",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Kinetics",
+              "Nucleotides",
+              "RNA, Viral",
+              "SARS-CoV-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34696838/"
+          },
+          {
+            "pmid": "37722451",
+            "title": "Plasma Protein Binding Determination for Unstable Ester Prodrugs: Remdesivir and Tenofovir Alafenamide.",
+            "abstract": "Remdesivir (RDV) and tenofovir alafenamide (TAF) are prodrugs designed to be converted to their respective active metabolites. Plasma protein binding (PPB) determination of these prodrugs is important for patients with possible alteration of free fraction of the drugs due to plasma protein changes in renal impairment, hepatic impairment, or pregnancy. However, the prodrugs' instability in human plasma presents a challenge for accurate PPB determination. In this research work, two approaches were used in the method development and qualification for PPB assessment of RDV and TAF. For RDV, dichlorvos was used to inhibit esterase activity to stabilize the prodrug in plasma during equilibrium dialysis (ED). The impact of dichlorvos on protein binding was evaluated and determined to be insignificant by comparing the unbound fraction (fu) determined by the ED method with dichlorvos present and the fu determined by an ultrafiltration method without dichlorvos. In contrast to RDV, TAF degradati",
+            "journal": "Journal of pharmaceutical sciences",
+            "year": "2023",
+            "authors": [
+              "Wen Anita",
+              "Qin Ann Ran-Ran",
+              "Tarnowski Thomas",
+              "Ling Kah Hiing John",
+              "Zhang Haeyoung"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Tenofovir",
+              "Anti-HIV Agents",
+              "Protein Binding",
+              "Prodrugs",
+              "Dichlorvos",
+              "Adenine",
+              "Alanine",
+              "Blood Proteins",
+              "HIV Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37722451/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.9906502962112428,
+        "txgnn_rank": 10075,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.9906502962112428,
+        "txgnn_rank": 10076,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.99034321308136,
+        "txgnn_rank": 10296,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.9903252124786376,
+        "txgnn_rank": 10307,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9834400415420532,
+        "txgnn_rank": 15155,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9737169742584229,
+        "txgnn_rank": 19822,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37949319",
+            "title": "Fangchinoline inhibits SARS-CoV-2 and MERS-CoV entry.",
+            "abstract": "The COVID-19 pandemic caused by SARS-CoV-2, lead to mild to severe respiratory illness and resulted in 6.9 million deaths worldwide. Although vaccines are effective in preventing COVID-19, they may not be sufficient to protect immunocompromised individuals from this respiratory illness. Moreover, novel emerging variants of SARS-CoV-2 pose a risk of new COVID-19 waves. Therefore, identification of effective antivirals is critical in controlling SARS and other coronaviruses, such as MERS-CoV. We show that Fangchinoline (Fcn), a bisbenzylisoquinoline alkaloid, inhibits replication of SARS-CoV, SARS-CoV-2, and MERS-CoV in a range of in vitro assays, by blocking entry. Therapeutic use of Fcn inhibited viral loads in the lungs, and suppressed associated airway inflammation in hACE2. Tg mice and Syrian hamster infected with SARS-CoV-2. Combination of Fcn with remdesivir (RDV) or an anti-leprosy drug, Clofazimine, exhibited synergistic antiviral activity. Compared to Fcn, its synthetic derivat",
+            "journal": "Antiviral research",
+            "year": "2023",
+            "authors": [
+              "Sadhu Srikanth",
+              "Dandotiya Jyotsna",
+              "Dalal Rajdeep",
+              "Khatri Ritika",
+              "Mykytyn Anna Z"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mice",
+              "Animals",
+              "SARS-CoV-2",
+              "Middle East Respiratory Syndrome Coronavirus",
+              "COVID-19",
+              "Antiviral Agents",
+              "Pandemics",
+              "Benzylisoquinolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37949319/"
+          },
+          {
+            "pmid": "33727703",
+            "title": "Clofazimine broadly inhibits coronaviruses including SARS-CoV-2.",
+            "abstract": "The COVID-19 pandemic is the third outbreak this century of a zoonotic disease caused by a coronavirus, following the emergence of severe acute respiratory syndrome (SARS) in 20031 and Middle East respiratory syndrome (MERS) in 20122. Treatment options for coronaviruses are limited. Here we show that clofazimine-an anti-leprosy drug with a favourable safety profile3-possesses inhibitory activity against several coronaviruses, and can antagonize the replication of SARS-CoV-2 and MERS-CoV in a range of in vitro systems. We found that this molecule, which has been approved by the US Food and Drug Administration, inhibits cell fusion mediated by the viral spike glycoprotein, as well as activity of the viral helicase. Prophylactic or therapeutic administration of clofazimine in a hamster model of SARS-CoV-2 pathogenesis led to reduced viral loads in the lung and viral shedding in faeces, and also alleviated the inflammation associated with viral infection. Combinations of clofazimine and re",
+            "journal": "Nature",
+            "year": "2021",
+            "authors": [
+              "Yuan Shuofeng",
+              "Yin Xin",
+              "Meng Xiangzhi",
+              "Chan Jasper Fuk-Woo",
+              "Ye Zi-Wei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Monophosphate",
+              "Alanine",
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Antiviral Agents",
+              "Biological Availability",
+              "Cell Fusion",
+              "Cell Line",
+              "Clofazimine",
+              "Coronavirus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33727703/"
+          },
+          {
+            "pmid": "35588019",
+            "title": "Optimal Drug Regimen and Combined Drug Therapy and Its Efficacy in the Treatment of COVID-19: A Within-Host Modeling Study.",
+            "abstract": "The COVID-19 pandemic has resulted in more than 524 million cases and 6 million deaths worldwide. Various drug interventions targeting multiple stages of COVID-19 pathogenesis can significantly reduce infection-related mortality. The current within-host mathematical modeling study addresses the optimal drug regimen and efficacy of combination therapies in the treatment of COVID-19. The drugs/interventions considered include Arbidol, Remdesivir, Interferon (INF) and Lopinavir/Ritonavir. It is concluded that these drugs, when administered singly or in combination, reduce the number of infected cells and viral load. Four scenarios dealing with the administration of a single drug, two drugs, three drugs and all four are discussed. In all these scenarios, the optimal drug regimen is proposed based on two methods. In the first method, these medical interventions are modeled as control interventions and a corresponding objective function and optimal control problem are formulated. In this fra",
+            "journal": "Acta biotheoretica",
+            "year": "2022",
+            "authors": [
+              "Chhetri Bishal",
+              "Bhagat Vijay M",
+              "Vamsi D K K",
+              "Ananth V S",
+              "Prakash Bhanu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiviral Agents",
+              "Pandemics",
+              "Pharmaceutical Preparations",
+              "SARS-CoV-2",
+              "COVID-19 Drug Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35588019/"
+          },
+          {
+            "pmid": "33052331",
+            "title": "Clofazimine is a broad-spectrum coronavirus inhibitor that antagonizes SARS-CoV-2 replication in primary human cell culture and hamsters.",
+            "abstract": "COVID-19 pandemic is the third zoonotic coronavirus (CoV) outbreak of the century after severe acute respiratory syndrome (SARS) in 2003 and Middle East respiratory syndrome (MERS) since 2012. Treatment options for CoVs are largely lacking. Here, we show that clofazimine, an anti-leprosy drug with a favorable safety and pharmacokinetics profile, possesses pan-coronaviral inhibitory activity, and can antagonize SARS-CoV-2 replication in multiple in vitro systems, including the human embryonic stem cell-derived cardiomyocytes and ex vivo lung cultures. The FDA-approved molecule was found to inhibit multiple steps of viral replication, suggesting multiple underlying antiviral mechanisms. In a hamster model of SARS-CoV-2 pathogenesis, prophylactic or therapeutic administration of clofazimine significantly reduced viral load in the lung and fecal viral shedding, and also prevented cytokine storm associated with viral infection. Additionally, clofazimine exhibited synergy when administered w",
+            "journal": "Research square",
+            "year": "2020",
+            "authors": [
+              "Yuan Shuofeng",
+              "Yin Xin",
+              "Meng XiangZhi",
+              "Chan Jasper",
+              "Ye Zi-Wei"
+            ],
+            "pub_types": [
+              "Preprint",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33052331/"
+          },
+          {
+            "pmid": "35151836",
+            "title": "Chemical profiling and unraveling of anti-COVID-19 biomarkers of red sage (Lantana camara L.) cultivars using UPLC-MS/MS coupled to chemometric analysis, in vitro study and molecular docking.",
+            "abstract": "Red sage (Lantana camara L.) (Verbenaceae) is a widely spread plant that was traditionally used in Brazil, India, Kenya, Thailand, Mexico, Nigeria, Australia and Southeast Asia for treating several ailments including rheumatism and leprosy. Despite its historical role in relieving respiratory diseases, limited studies progressed to the plant's probable inhibition to respiratory viruses especially after the striking spread of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infections.",
+            "journal": "Journal of ethnopharmacology",
+            "year": "2022",
+            "authors": [
+              "Darwish Reham S",
+              "El-Banna Alaa A",
+              "Ghareeb Doaa A",
+              "El-Hosseny Mostafa F",
+              "Seadawy Mohamed G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Chemometrics",
+              "Chromatography, High Pressure Liquid",
+              "Chromatography, Liquid",
+              "Lantana",
+              "Molecular Docking Simulation",
+              "Plant Extracts",
+              "Plant Leaves",
+              "SARS-CoV-2",
+              "Tandem Mass Spectrometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35151836/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "antithrombin deficiency type 2",
+        "txgnn_score": 0.9724674224853516,
+        "txgnn_rank": 20337,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cytomegalovirus infection",
+        "txgnn_score": 0.97078537940979,
+        "txgnn_rank": 20950,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40160532",
+            "title": "Clinical and molecular landscape of prolonged SARS-CoV-2 infection with resistance to remdesivir in immunocompromised patients.",
+            "abstract": "Patients with hematologic diseases have experienced coronavirus disease 2019 (COVID-19) with a prolonged, progressive course. Here, we present clinical, pathological, and virological analyses of three cases of prolonged COVID-19 among patients undergoing treatment for B-cell lymphoma. These patients had all been treated with anti-CD20 antibody and bendamustine. Despite various antiviral treatments, high severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) levels persisted for >4 weeks, and two of them succumbed to COVID-19. The autopsy showed bronchopneumonia, interstitial pneumonia, alveolar hemorrhage, and fibrosis. Overlapping cytomegalovirus, fungal and/or bacterial infections were also confirmed. Sequencing of SARS-CoV-2 showed accumulation of mutations and changes in variant allele frequencies over time. NSP12 mutations V792I and M794I appeared independently in two cases as COVID-19 progressed. In vitro drug susceptibility analysis and an animal experiment using recombina",
+            "journal": "PNAS nexus",
+            "year": "2025",
+            "authors": [
+              "Iriyama Chisako",
+              "Ichikawa Takaya",
+              "Tamura Tomokazu",
+              "Takahata Mutsumi",
+              "Ishio Takashi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40160532/"
+          },
+          {
+            "pmid": "35229789",
+            "title": "Cytomegalovirus and Severe Acute Respiratory Syndrome Coronavirus 2 Co-infection in Renal Transplants: A Retrospective Study from a Single Center.",
+            "abstract": "There is a scarcity of data regarding the impact of cytomegalovirus (CMV) infection complicating the coronavirus disease-2019 (COVID-19) course. The objective of the study was to explore the clinical profile and outcome of CMV co-infection with COVID-19. This is a single-center retrospective study of COVID-19 cases with concomitant CMV infection. A total of 18 cases were diagnosed with CMV infection during the study period May 2020 to December 2020. The median age (Interquartile range) of the study was 45 (53-38) years with predominant male sex (n = 14, 77%). The baseline donor-recipient status for CMV included D+/R+ (10, 55%), D-/R+(6, 33%), and D+/R- (2, 12%). COVID-19 severity in the study included mild (1, 7%), moderate (5, 28%), severe (8, 44%), and critical (4, 22%) cases. Criteria for hyperinflammatory state was met by 77% (n = 14) of cases. The most common therapeutic modality for COVID-19 given was remdesivir (n = 13), tocilizumab (n = 4), and convalescent plasma (n = 4). The ",
+            "journal": "Saudi journal of kidney diseases and transplantation : an official publication of the Saudi Center for Organ Transplantation, Saudi Arabia",
+            "year": "2021",
+            "authors": [
+              "Meshram Hari Shankar",
+              "Kute Vivek B",
+              "Patel Himanshu",
+              "Banerjee Subho",
+              "Desai Sudeep"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "COVID-19",
+              "Coinfection",
+              "Cytomegalovirus",
+              "Humans",
+              "Immunization, Passive",
+              "Kidney Transplantation",
+              "Male",
+              "Middle Aged",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35229789/"
+          },
+          {
+            "pmid": "36765433",
+            "title": "Severe acute respiratory syndrome coronavirus-2 Alpha variant (B.1.1.7), original wild-type severe acute respiratory syndrome coronavirus 2, and cytomegalovirus co-infection in a young adult with acute lymphoblastic leukemia, case report, and review of the possible cytomegalovirus reactivation mechanisms.",
+            "abstract": "Like other viral infections, severe acute respiratory syndrome coronavirus-2 infection could affect different human body systems, including host immune responses. Three years after its pandemic, we learn more about this novel coronavirus. As we expected, different co-infections with various organisms, such as viruses, bacteria, and even fungi, have been reported. However, concurrent infection with two severe acute respiratory syndrome coronavirus-2 strains and cytomegalovirus is extremely unusual. We have only a rudimentary understanding of such co-infections and their long-term consequences for patients with cancer.",
+            "journal": "Journal of medical case reports",
+            "year": "2023",
+            "authors": [
+              "Amanati Ali",
+              "Shahriari Mahdi",
+              "Bordbar Mohammad Reza",
+              "Hedayati Seyyed Bozorgmehr",
+              "Ziyaeyan Mazyar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Young Adult",
+              "Adolescent",
+              "SARS-CoV-2",
+              "COVID-19",
+              "Cytomegalovirus",
+              "Coinfection",
+              "Valganciclovir",
+              "Iran"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36765433/"
+          },
+          {
+            "pmid": "41533748",
+            "title": "Cytomegalovirus DNAemia in Hospitalized Adults With SARS-CoV-2 Infection Requiring Supplemental Oxygen: Virologic and Clinical Characteristics and Association With Outcomes.",
+            "abstract": "Cytomegalovirus (CMV) reactivation occurs in the context of coronavirus disease 2019 (COVID-19); however, the viral kinetics, risk factors, and clinical outcomes are poorly defined.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2025",
+            "authors": [
+              "Boeckh Michael",
+              "Xie Hu",
+              "Stevens-Ayers Terry",
+              "Sircy Linda",
+              "Zamora Danniel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41533748/"
+          },
+          {
+            "pmid": "34633268",
+            "title": "The use of antiviral drugs in children.",
+            "abstract": "Viral infections are particularly common among children. They often have a mild course, are self-limiting and do not need any specific treatment. However, in some cases, the disease can be severe and lead to permanent disabilities. A variety of antiviral drugs are available for the treatments of certain infectious agents: for instance, acyclovir is used to treat herpes simplex virus encephalitis. Recommendations for flu treatment may change according to the current epidemiological surveillance data, on the basis of which antiviral sensibility can be forecast: recommended drugs for the 2020-21 flu season are oseltamivir, zanamivir, peramivir and baloxavir. Some drugs are used to treat congenital infections, such as valganciclovir and ganciclovir in congenital cytomegalovirus infection. Antiretroviral prophylaxis in newborns from HIV-1 infected mothers must be initiated as soon as possible, with one or more drugs according to therapeutic regimens based on the baby's risk category. Accord",
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2022",
+            "authors": [
+              "Motisi Marco Antonio",
+              "Tamborino Agnese",
+              "Parigi Sara",
+              "Galli Luisa",
+              "de Martino Maurizio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "COVID-19",
+              "Child",
+              "Drug Therapy, Combination",
+              "Genotype",
+              "Hepacivirus",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34633268/"
+          },
+          {
+            "pmid": "37189207",
+            "title": "Cytomegalovirus reactivation with high viral load in a patient of coronavirus disease 2019 acute respiratory distress syndrome: a case report.",
+            "abstract": "Cytomegalovirus establishes life-long latency after primary infection in childhood. Cytomegalovirus reactivation has been well reported in immune-compromised patients; however, in the last few years it has been observed that cytomegalovirus reactivation also occurs in critically ill patients without exogenous immunosuppression, which increases length of intensive care unit stay and mortality rate.",
+            "journal": "Journal of medical case reports",
+            "year": "2023",
+            "authors": [
+              "Pal Sourav",
+              "Garg Atul",
+              "Agarwal Anupam",
+              "Ghoshal Ujjala",
+              "Singh Pooja"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Cytomegalovirus",
+              "Viral Load",
+              "COVID-19",
+              "Ganciclovir",
+              "Respiratory Distress Syndrome",
+              "Antiviral Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37189207/"
+          },
+          {
+            "pmid": "38223743",
+            "title": "Successful treatment of SARS-CoV-2 in an immunocompromised patient with persistent infection for 245 days: A case report.",
+            "abstract": "Immunocompromised patients receiving B-cell-depleting therapies are at increased risk of persistent SARS-CoV-2 infection, with many experiencing fatal outcomes. We report a successful outcome in a patient with rheumatoid arthritis (RA) on rituximab diagnosed with COVID-19 in July 2020 with persistent infection for over 245 days.",
+            "journal": "Heliyon",
+            "year": "2024",
+            "authors": [
+              "Overbeck Victoria",
+              "Taylor Bradford P",
+              "Turcinovic Jacquelyn",
+              "Qiu Xueting",
+              "Schaeffer Beau"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38223743/"
+          },
+          {
+            "pmid": "36678744",
+            "title": "The Trimeric Artesunate Analog TF27, a Broadly Acting Anti-Infective Model Drug, Exerts Pronounced Anti-SARS-CoV-2 Activity Spanning Variants and Host Cell Types.",
+            "abstract": "Starting in 2019, the spread of respiratory syndrome coronavirus 2 (SARS-CoV-2) and the associated pandemic of the corona virus disease (COVID-19) has led to enormous efforts in the development of medical countermeasures. Although innovative vaccines have scaled back the number of severe COVID cases, the emergence of the omicron variant (B.1.1.529) illustrates how vaccine development struggles to keep pace with viral evolution. On the other hand, while the recently approved antiviral drugs remdesivir, molnupiravir, and Paxlovid are considered as broadly acting anti-coronavirus therapeutics, only molnupiravir and Paxlovid are orally available and none of these drugs are recommended for prophylactic use. Thus, so far unexploited small molecules, targeting strategies, and antiviral mechanisms are urgently needed to address issues in the current pandemic and in putative future outbreaks of newly emerging variants of concern. Recently, we and others have described the anti-infective potenti",
+            "journal": "Pharmaceutics",
+            "year": "2022",
+            "authors": [
+              "Hahn Friedrich",
+              "Wangen Christina",
+              "Häge Sigrun",
+              "Herrmann Lars",
+              "Herrmann Alexandra"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36678744/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14761",
+    "name": "Remdesivir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Remdesivir"
+      },
+      "queried_at": "2026-03-10T03:23:13.275028",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Remdesivir"
+      },
+      "queried_at": "2026-03-10T03:23:22.283862",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:23:23.641674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:23:27.092860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:23:28.088426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T03:23:32.364603",
+      "status": "success",
+      "result_count": 23,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T03:23:38.648599",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T03:23:43.270239",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T03:23:43.796316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T03:23:47.159460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T03:23:47.945221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T03:23:48.504647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T03:23:52.291580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T03:23:53.092180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-10T03:23:53.653996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-10T03:23:57.195440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-10T03:23:58.211872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:23:58.873872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:24:02.961204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:24:03.800207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T03:24:04.511595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T03:24:08.700107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T03:24:09.486833",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T03:24:10.610445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T03:24:14.291788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T03:24:19.333453",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T03:24:19.850279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T03:24:23.119770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T03:24:23.816644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T03:24:24.309483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T03:24:27.894296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Remdesivir",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T03:24:31.116253",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:24:31.132153"
+  }
+}

@@ -1,0 +1,2104 @@
+{
+  "drug": {
+    "inn": "Ceritinib",
+    "drugbank_id": "DB09063",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "fibromatosis, gingival",
+        "txgnn_score": 0.9985623955726624,
+        "txgnn_rank": 2663,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of lung",
+        "txgnn_score": 0.9981698989868164,
+        "txgnn_rank": 3182,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hamartoma of lung",
+        "txgnn_score": 0.9981061220169068,
+        "txgnn_rank": 3260,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung hilum carcinoma",
+        "txgnn_score": 0.9980151653289796,
+        "txgnn_rank": 3384,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung benign neoplasm",
+        "txgnn_score": 0.9980024695396424,
+        "txgnn_rank": 3403,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27432227",
+            "title": "Molecular Mechanisms of Resistance to First- and Second-Generation ALK Inhibitors in ALK-Rearranged Lung Cancer.",
+            "abstract": "Advanced, anaplastic lymphoma kinase (ALK)-positive lung cancer is currently treated with the first-generation ALK inhibitor crizotinib followed by more potent, second-generation ALK inhibitors (e.g., ceritinib and alectinib) upon progression. Second-generation inhibitors are generally effective even in the absence of crizotinib-resistant ALK mutations, likely reflecting incomplete inhibition of ALK by crizotinib in many cases. Herein, we analyzed 103 repeat biopsies from ALK-positive patients progressing on various ALK inhibitors. We find that each ALK inhibitor is associated with a distinct spectrum of ALK resistance mutations and that the frequency of one mutation, ALKG1202R, increases significantly after treatment with second-generation agents. To investigate strategies to overcome resistance to second-generation ALK inhibitors, we examine the activity of the third-generation ALK inhibitor lorlatinib in a series of ceritinib-resistant, patient-derived cell lines, and observe that t",
+            "journal": "Cancer discovery",
+            "year": "2016",
+            "authors": [
+              "Gainor Justin F",
+              "Dardaei Leila",
+              "Yoda Satoshi",
+              "Friboulet Luc",
+              "Leshchiner Ignaty"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lactams",
+              "Lactams, Macrocyclic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27432227/"
+          },
+          {
+            "pmid": "27573755",
+            "title": "The role of the ALK receptor in cancer biology.",
+            "abstract": "A vast array of oncogenic variants has been identified for anaplastic lymphoma kinase (ALK). Therefore, there is a need to better understand the role of ALK in cancer biology in order to optimise treatment strategies. This review summarises the latest research on the receptor tyrosine kinase ALK, and how this information can guide the management of patients with cancer that is ALK-positive. A variety of ALK gene alterations have been described across a range of tumour types, including point mutations, deletions and rearrangements. A wide variety of ALK fusions, in which the kinase domain of ALK and the amino-terminal portion of various protein partners are fused, occur in cancer, with echinoderm microtubule-associated protein-like 4 (EML4)-ALK being the most prevalent in non-small-cell lung cancer (NSCLC). Different ALK fusion proteins can mediate different signalling outputs, depending on properties such as subcellular localisation and protein stability. The ALK fusions found in tumou",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2016",
+            "authors": [
+              "Hallberg B",
+              "Palmer R H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Embryonic Development",
+              "Humans",
+              "Lymphoma, Large-Cell, Anaplastic",
+              "Neoplasms",
+              "Neuroblastoma",
+              "Oncogene Proteins, Fusion",
+              "Point Mutation",
+              "Receptor Protein-Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27573755/"
+          },
+          {
+            "pmid": "33435596",
+            "title": "Treatment of Brain Metastases of Non-Small Cell Lung Carcinoma.",
+            "abstract": "Lung cancer is one of the most common malignant neoplasms. As a result of the disease's progression, patients may develop metastases to the central nervous system. The prognosis in this location is unfavorable; untreated metastatic lesions may lead to death within one to two months. Existing therapies-neurosurgery and radiation therapy-do not improve the prognosis for every patient. The discovery of Epidermal Growth Factor Receptor (EGFR)-activating mutations and Anaplastic Lymphoma Kinase (ALK) rearrangements in patients with non-small cell lung adenocarcinoma has allowed for the introduction of small-molecule tyrosine kinase inhibitors to the treatment of advanced-stage patients. The Epidermal Growth Factor Receptor (EGFR) is a transmembrane protein with tyrosine kinase-dependent activity. EGFR is present in membranes of all epithelial cells. In physiological conditions, it plays an important role in the process of cell growth and proliferation. Binding the ligand to the EGFR causes ",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Rybarczyk-Kasiuchnicz Agnieszka",
+              "Ramlau Rodryg",
+              "Stencel Katarzyna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acrylamides",
+              "Aniline Compounds",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33435596/"
+          },
+          {
+            "pmid": "28126333",
+            "title": "First-line ceritinib versus platinum-based chemotherapy in advanced ALK-rearranged non-small-cell lung cancer (ASCEND-4): a randomised, open-label, phase 3 study.",
+            "abstract": "The efficacy of ceritinib in patients with untreated anaplastic lymphoma kinase (ALK)-rearranged non-small-cell lung cancer (NSCLC) is not known. We assessed the efficacy and safety of ceritinib versus platinum-based chemotherapy in these patients.",
+            "journal": "Lancet (London, England)",
+            "year": "2017",
+            "authors": [
+              "Soria Jean-Charles",
+              "Tan Daniel S W",
+              "Chiari Rita",
+              "Wu Yi-Long",
+              "Paz-Ares Luis"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cisplatin",
+              "Disease-Free Survival",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28126333/"
+          },
+          {
+            "pmid": "38331773",
+            "title": "Identifying optimal ALK inhibitors in first- and second-line treatment of patients with advanced ALK-positive non-small-cell lung cancer: a systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy, safety and effects on quality of life of different ALK-inhibitors for global and Asian patients with advanced ALK-positive non-small-cell lung cancer (NSCLC).",
+            "journal": "BMC cancer",
+            "year": "2024",
+            "authors": [
+              "Zhao Mingye",
+              "Shao Taihang",
+              "Shao Hanqiao",
+              "Zhou Caicun",
+              "Tang Wenxi"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Bayes Theorem",
+              "Quality of Life",
+              "Anaplastic Lymphoma Kinase",
+              "Protein Kinase Inhibitors",
+              "Carbazoles",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38331773/"
+          },
+          {
+            "pmid": "28838397",
+            "title": "Management of ceritinib therapy and adverse events in patients with ALK-rearranged non-small cell lung cancer.",
+            "abstract": "Anaplastic lymphoma kinase rearrangement (ALK+) occurs in approximately 2-7% of patients with non-small cell lung cancer (NSCLC), contributing to a considerable number of patients with ALK+ NSCLC worldwide. Ceritinib is a next generation ALK inhibitor (ALKi), approved by the European Medicines Agency in 2015. In the first-in-human, phase I study, ceritinib demonstrated rapid and durable responses in ALK patients previously treated with a different ALKi and in those who were ALKi-naive. As ceritinib is starting to be used routinely for the treatment of patients with ALK+ NSCLC, experience is growing with regard to ideal therapy management. In this review we provide a brief background to the development of ceritinib. The optimal treatment management and adverse events associated with ceritinib in clinical trials and in clinical practice are then discussed in detail, and where applicable, an expert consensus on specific recommendations are made. In clinical trials, the most common adverse",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2017",
+            "authors": [
+              "Califano Raffaele",
+              "Greystoke Alastair",
+              "Lal Rohit",
+              "Thompson Joyce",
+              "Popat Sanjay"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Disease Management",
+              "Disease Progression",
+              "Drug Interactions",
+              "Drug Resistance, Neoplasm",
+              "Follow-Up Studies",
+              "Gene Rearrangement"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28838397/"
+          },
+          {
+            "pmid": "29455675",
+            "title": "The function and therapeutic targeting of anaplastic lymphoma kinase (ALK) in non-small cell lung cancer (NSCLC).",
+            "abstract": "Lung cancer is the leading cause of death by cancer in North America. A decade ago, genomic rearrangements in the anaplastic lymphoma kinase (ALK) receptor tyrosine kinase were identified in a subset of non-small cell lung carcinoma (NSCLC) patients. Soon after, crizotinib, a small molecule ATP-competitive ALK inhibitor was proven to be more effective than chemotherapy in ALK-positive NSCLC patients. Crizotinib and two other ATP-competitive ALK inhibitors, ceritinib and alectinib, are approved for use as a first-line therapy in these patients, where ALK rearrangement is currently diagnosed by immunohistochemistry and in situ hybridization. The clinical success of these three ALK inhibitors has led to the development of next-generation ALK inhibitors with even greater potency and selectivity. However, patients inevitably develop resistance to ALK inhibitors leading to tumor relapse that commonly manifests in the form of brain metastasis. Several new approaches aim to overcome the variou",
+            "journal": "Molecular cancer",
+            "year": "2018",
+            "authors": [
+              "Golding Brandon",
+              "Luu Anita",
+              "Jones Robert",
+              "Viloria-Petit Alicia M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Biomarkers, Tumor",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Gene Rearrangement",
+              "Humans",
+              "Lung Neoplasms",
+              "Molecular Diagnostic Techniques",
+              "Molecular Targeted Therapy",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29455675/"
+          },
+          {
+            "pmid": "37597303",
+            "title": "Comparative safety of anaplastic lymphoma kinase tyrosine kinase inhibitors in advanced anaplastic lymphoma kinase-mutated non-small cell lung cancer: Systematic review and network meta-analysis.",
+            "abstract": "Anaplastic lymphoma kinase-tyrosine kinase inhibitors (ALK-TKIs) are new treatment for advanced non-small cell lung cancer. Here, we quantified the toxicity profiles of different ALK-TKIs to guide clinical decision making.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2023",
+            "authors": [
+              "Luo Yuyao",
+              "Zhang Zhe",
+              "Guo XuanZhu",
+              "Tang Xuemei",
+              "Li Sijie"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anaplastic Lymphoma Kinase",
+              "Protein-Tyrosine Kinases",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Tyrosine Kinase Inhibitors",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37597303/"
+          },
+          {
+            "pmid": "32369239",
+            "title": "Efficacy and safety of ceritinib in anaplastic lymphoma kinase-rearranged non-small cell lung cancer: A systematic review and meta-analysis.",
+            "abstract": "Ceritinib is a new, oral, potent and selective second-generation anaplastic lymphoma kinase (ALK) inhibitor approved by the Food and Drug Administration of the United States in April 2014. It is active in crizotinib-resistant patients, especially in patients with non-small cell lung cancer (NSCLC) and brain metastasis. The aim of this study was to analyse the effects and side effects of ceritinib in ALK-rearranged NSCLC.",
+            "journal": "Journal of clinical pharmacy and therapeutics",
+            "year": "2020",
+            "authors": [
+              "Tian Wei",
+              "Zhang Ping",
+              "Yuan Yuan",
+              "Deng Xiao-Hui",
+              "Yue Rui"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32369239/"
+          },
+          {
+            "pmid": "31576479",
+            "title": "Model-Based Economic Evaluation of Ceritinib and Platinum-Based Chemotherapy as First-Line Treatments for Advanced Non-Small Cell Lung Cancer in China.",
+            "abstract": "A trial-based assessment was completed to evaluate the cost-effectiveness of ceritinib as a first-line treatment for advanced non-small cell lung cancer (NSCLC) with rearrangement of anaplastic lymphoma kinase.",
+            "journal": "Advances in therapy",
+            "year": "2019",
+            "authors": [
+              "Peng Ye",
+              "Ma Fang",
+              "Tan Chongqing",
+              "Wan Xiaomin",
+              "Yi Lidan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Non-Small-Cell Lung",
+              "China",
+              "Cost-Benefit Analysis",
+              "Disease-Free Survival",
+              "Humans",
+              "Lung Neoplasms",
+              "Models, Economic",
+              "Platinum",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31576479/"
+          },
+          {
+            "pmid": "24980964",
+            "title": "Ceritinib: first global approval.",
+            "abstract": "Ceritinib is an oral anaplastic lymphoma kinase (ALK) inhibitor developed by Novartis for the treatment of tumours characterised by genetic abnormalities in ALK. ALK is a member of the insulin receptor family of tyrosine kinases that can become oncogenic when fused to other proteins. Ceritinib has been approved in the US under 'Breakthrough Therapy' designation for the second-line treatment of ALK-positive non-small cell lung cancer (NSCLC). Regulatory submissions have also been made in the EU and other countries. Phase III development is ongoing worldwide to evaluate ceritinib both as a first- and second-line therapy for ALK-positive NSCLC. This article summarizes the milestones in the development of ceritinib leading to this first approval for the treatment of patients with ALK-positive metastatic NSCLC who have progressed on or are intolerant to crizotinib.",
+            "journal": "Drugs",
+            "year": "2014",
+            "authors": [
+              "Dhillon Sohita",
+              "Clark Madeleine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Drug Approval",
+              "Humans",
+              "Lung Neoplasms",
+              "Pyrimidines",
+              "Receptor Protein-Tyrosine Kinases",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24980964/"
+          },
+          {
+            "pmid": "27738095",
+            "title": "Ceritinib: A primer for pharmacists.",
+            "abstract": "Clinical pharmacists are important contributors to the care of patients with cancer; it is therefore critical for oncology clinical pharmacists to stay current with new anticancer therapies. This review summarizes the epidemiology and pathogenesis of non-small cell lung cancer, including the most common genetic alterations, as well as the mechanism of action, clinical development, pharmacodynamics and pharmacokinetics of the anaplastic lymphoma kinase inhibitor ceritinib for the treatment of patients with anaplastic lymphoma kinase-positive non-small cell lung cancer. Targeted therapies based on the presence of specific mutations are an important development in the treatment of non-small cell lung cancer. However, acquired resistance to the first anaplastic lymphoma kinase-inhibitor approved by the U.S. Food and Drug Administration, crizotinib, is observed in almost half of patients treated with it. Ceritinib is an oral anaplastic lymphoma kinase-inhibitor that has demonstrated more po",
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2017",
+            "authors": [
+              "Au Trang H",
+              "Cavalieri Courtney C",
+              "Stenehjem David D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lung Neoplasms",
+              "Pharmacists",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27738095/"
+          },
+          {
+            "pmid": "25258420",
+            "title": "Ceritinib: a new tyrosine kinase inhibitor for non-small-cell lung cancer.",
+            "abstract": "To review ceritinib for the treatment of anaplastic lymphoma kinase (ALK)-positive metastatic non-small-cell lung cancer (NSCLC).",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2015",
+            "authors": [
+              "Cooper Maryann R",
+              "Chim Helen",
+              "Chan Hoyi",
+              "Durand Cheryl"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase I as Topic",
+              "Diarrhea",
+              "Disease-Free Survival",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lung Neoplasms",
+              "Nausea",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25258420/"
+          },
+          {
+            "pmid": "32838488",
+            "title": "[Safety and Preliminary Efficacy of Ceritinib 450 mg with Food in Chinese ALK-positive Non-small Cell Lung Cancer].",
+            "abstract": "Anaplastic lymphoma kinase (ALK) rearrangement is a common driver gene of non-small cell lung cancer (NSCLC). Ceritinib is a second-generation ALK inhibitor, which can bring survival benefits to ALK-positive metastatic NSCLC. However, few studies focus on the safety and efficacy of ceritinib in China. Therefore, this study intends to investigate the safety and preliminary efficacy of ceritinib 450 mg with meals in Chinese patients with ALK-positive NSCLC through a real world study.",
+            "journal": "Zhongguo fei ai za zhi = Chinese journal of lung cancer",
+            "year": "2020",
+            "authors": [
+              "Tian Yuke",
+              "Tian Tian",
+              "Yu Ping",
+              "Ren Li",
+              "Gong Youling"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female",
+              "Humans",
+              "Lung Neoplasms",
+              "Male",
+              "Middle Aged",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32838488/"
+          },
+          {
+            "pmid": "25101329",
+            "title": "Ceritinib for the treatment of non-small cell lung cancer.",
+            "abstract": "Non-small cell lung cancer (NSCLC) represents the paradigm of personalized treatment in human cancer. Several oncogenic alterations with druggable potential have been identified, with ALK rearrangements representing one of the newest and most appealing. Crizotinib is now recognized as the standard of care in chemotherapy-pretreated ALK-positive NSCLC due to the positive results of a recently published trial. Unfortunately, no patient exposed to crizotinib can be cured, and after a median time of 1 year, resistance inevitably occurs. Overcoming resistance is the major challenge in clinical oncology and many molecules are currently under evaluation, including ceritinib (LDK-378). Ceritinib is an oral, potent, second-generation ALK inhibitor recently approved by the U.S. Food and Drug Administration. Preclinical data showed impressive antitumor activity against crizotinib-resistant clones, and based on available data, ceritinib could represent a suitable option in crizotinib-resistant NSC",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2014",
+            "authors": [
+              "Landi L",
+              "Cappuzzo F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Lung Neoplasms",
+              "Pyrimidines",
+              "Receptor Protein-Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25101329/"
+          },
+          {
+            "pmid": "28740365",
+            "title": "Spotlight on ceritinib in the treatment of ALK+ NSCLC: design, development and place in therapy.",
+            "abstract": "The identification of echinoderm microtubule-associated protein-like 4 (EML4) and anaplastic lymphoma kinase (ALK) fusion gene in non-small cell lung cancer (NSCLC) has radically changed the treatment of a subset of patients harboring this oncogenic driver. Crizotinib was the first ALK tyrosine kinase inhibitor to receive fast approval and is currently indicated as the first-line therapy for advanced, ALK-positive NSCLC patients. However, despite crizotinib's efficacy, patients almost invariably progress, with the central nervous system being one of the most common sites of relapse. Different mechanisms of acquired resistance have been identified, including secondary ALK mutations, ALK copy number alterations and activation of bypass tracks. Different highly potent and brain-penetrant next-generation ALK inhibitors have been developed and tested in NSCLC patients with ALK rearrangements. Ceritinib, a structurally distinct and selective ALK inhibitor, showed 20 times higher potency than",
+            "journal": "Drug design, development and therapy",
+            "year": "2017",
+            "authors": [
+              "Santarpia Mariacarmela",
+              "Daffinà Maria Grazia",
+              "D'Aveni Alessandro",
+              "Marabello Grazia",
+              "Liguori Alessia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase I as Topic",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28740365/"
+          },
+          {
+            "pmid": "37183647",
+            "title": "[Ceritinib as First-line Treatment for Advanced Lung Adenocarcinoma  with COX7A2L-ALK Fusion: A Case Report and Literature Review].",
+            "abstract": "Lung cancer is the most common in incidence and mortality worldwide. With the development of next generation sequencing (NGS) detection technology, more and more patients with rare anaplastic lymphoma kinase (ALK) fusion mutations were detected. A case of advanced lung adenocarcinoma with rare COX7A2L-ALK (C2:A20) fusion detected by NGS was reported in Peking Union Medical College Hospital, and all cases with rare ALK fusion mutations were searched from medical datebase from January 1, 2014 to March 31, 2021, to investigate the treatment of rare ALK fusion mutations with ALK inhibitors. The best response of the patient was assessed as partial response (PR) with Ceritinib treatment. By literature review, 22 cases of rare ALK fusion were reported in 19 articles. Combined with this case, 23 cases were analyzed. The objective response rate (ORR) was 82.6% (19/23) and disease control rate (DCR) was 95.7% (22/23) for rare ALK fusions patients treated with ALK inhibitors. Lung adenocarcinoma ",
+            "journal": "Zhongguo fei ai za zhi = Chinese journal of lung cancer",
+            "year": "2023",
+            "authors": [
+              "Yuan Jiao",
+              "Pan Ruili",
+              "Zhong Wei",
+              "Wang Mengzhao"
+            ],
+            "pub_types": [
+              "Review",
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anaplastic Lymphoma Kinase",
+              "Lung Neoplasms",
+              "Crizotinib",
+              "Adenocarcinoma of Lung",
+              "Protein Kinase Inhibitors",
+              "Oncogene Proteins, Fusion",
+              "Pyrimidines",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37183647/"
+          },
+          {
+            "pmid": "25458559",
+            "title": "Ceritinib (LDK378): a potent alternative to crizotinib for ALK-rearranged non-small-cell lung cancer.",
+            "abstract": "The success in identifying the chromosomal rearrangements involving the anaplastic lymphoma kinase (ALK) as an oncogenic driver has thoroughly changed the treatment of non-small-cell lung cancer. In the past decade, targeted drugs have emerged as an efficient personalized strategy for ALK-rearranged non-small-cell lung cancer. The accelerated approval of potent ALK inhibitors, such as crizotinib and more recently ceritinib (LDK378), based on the well designed phase I/II trials has been a landmark success in clinical cancer research and contributes a new era of oncogenic targeted therapy characterized by elegant clinical trial design. In this review, we aim to present the current knowledge on acquired resistance of crizotinib known as a first-in-class ALK inhibitor and potential solutions to improve the cost-effectiveness, and to review the difference between ceritinib and crizotinib; preclinical data and results of the elegant early clinical trial of ceritinib which promoted its accele",
+            "journal": "Clinical lung cancer",
+            "year": "2015",
+            "authors": [
+              "Li Sen",
+              "Qi Xiaolong",
+              "Huang Yufeng",
+              "Liu Dingfeng",
+              "Zhou Fangyu"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Drug Resistance, Neoplasm",
+              "Gene Rearrangement",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25458559/"
+          },
+          {
+            "pmid": "34864500",
+            "title": "Postmarketing safety of anaplastic lymphoma kinase (ALK) inhibitors: an analysis of the FDA Adverse Event Reporting System (FAERS).",
+            "abstract": "Inhibitors of the anaplastic lymphoma kinase (ALK) gene mutation are highly effective treatments for ALK-positive lung cancer. We conducted this pharmacovigilance analysis using the Food and Drug Administration Adverse Event Reporting System (FAERS).",
+            "journal": "ESMO open",
+            "year": "2021",
+            "authors": [
+              "Omar N E",
+              "Fahmy Soliman A I",
+              "Eshra M",
+              "Saeed T",
+              "Hamad A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adverse Drug Reaction Reporting Systems",
+              "Anaplastic Lymphoma Kinase",
+              "Bayes Theorem",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Humans",
+              "Lung Neoplasms",
+              "Product Surveillance, Postmarketing",
+              "Protein Kinase Inhibitors",
+              "United States",
+              "United States Food and Drug Administration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34864500/"
+          },
+          {
+            "pmid": "28891712",
+            "title": "Molecular and clinical features of second-generation anaplastic lymphoma kinase inhibitors: ceritinib.",
+            "abstract": "The discovery of ALK rearrangement in non-small-cell lung cancer (NSCLC) triggered rapid clinical development of a family of specific drugs targeting this alteration, called ALK inhibitors. Despite high rate of responses, the vast majority of patients treated with first-generation ALK inhibitor crizotinib will ultimately develop disease progression. The second-generation ALK inhibitor, ceritinib, is an oral, small-molecule that inhibits the ALK kinase activity with a potency 20-fold greater than crizotinib, being able to tackle some of the principal mechanisms of resistance to crizotinib. Evidences from five large prospective clinical trials have so far showed impressive activity of ceritinib in ALK inhibitor pretreated and naive NSCLC patients. This review will focus on the preclinical and clinical data available regarding ceritinib pharmacology, clinical efficacy and safety profile.",
+            "journal": "Future oncology (London, England)",
+            "year": "2017",
+            "authors": [
+              "De Pas Tommaso",
+              "Pala Laura",
+              "Catania Chiara",
+              "Conforti Fabio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Drug Evaluation, Preclinical",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28891712/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung germ cell tumor",
+        "txgnn_score": 0.9980003237724304,
+        "txgnn_rank": 3407,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02605746",
+            "title": "A Phase 0/II Study of Ceritinib (LDK378) in Preoperative Glioblastoma Multiforme (GBM) and CNS Metastasis Patients Scheduled for Resection to Evaluate Central Nervous System (CNS) Penetration",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2016-02-17",
+            "completion_date": "2019-07-12",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "This is two parallel studies to examine pharmacokinetic (PK), pharmacodynamic (PD), and pharmacogenetic (PG) endpoints following short-interval therapy (10-14) daily doses without dose reduction and interruption) with the ALK (anaplastic lymphoma kinase) small-molecule inhibitor, ceritinib.\n\nThe Phase 0 study will investigate:\n\n1. first recurrence GBM patients and\n2. patients with CNS metastases from solid tumors such as, but not limited to, NSCLC (non-small cell lung cancer) and melanoma.\n\nThe ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* One prior resection of GBM or MRI evidence of solid tumor CNS metastasis\n* All GBM and NSLC metastases must be ALK+\n* Eastern Cooperative Oncology Group performance status ≤2\n* Archival tumor tissue block available for research use\n* Ability to understand written informed cons",
+            "endpoints": [
+              "Plasma Concentration",
+              "Cerebrospinal Concentration",
+              "Intratumoral Concentration"
+            ],
+            "sponsor": "St. Joseph's Hospital and Medical Center, Phoenix",
+            "url": "https://clinicaltrials.gov/study/NCT02605746"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27573755",
+            "title": "The role of the ALK receptor in cancer biology.",
+            "abstract": "A vast array of oncogenic variants has been identified for anaplastic lymphoma kinase (ALK). Therefore, there is a need to better understand the role of ALK in cancer biology in order to optimise treatment strategies. This review summarises the latest research on the receptor tyrosine kinase ALK, and how this information can guide the management of patients with cancer that is ALK-positive. A variety of ALK gene alterations have been described across a range of tumour types, including point mutations, deletions and rearrangements. A wide variety of ALK fusions, in which the kinase domain of ALK and the amino-terminal portion of various protein partners are fused, occur in cancer, with echinoderm microtubule-associated protein-like 4 (EML4)-ALK being the most prevalent in non-small-cell lung cancer (NSCLC). Different ALK fusion proteins can mediate different signalling outputs, depending on properties such as subcellular localisation and protein stability. The ALK fusions found in tumou",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2016",
+            "authors": [
+              "Hallberg B",
+              "Palmer R H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Embryonic Development",
+              "Humans",
+              "Lymphoma, Large-Cell, Anaplastic",
+              "Neoplasms",
+              "Neuroblastoma",
+              "Oncogene Proteins, Fusion",
+              "Point Mutation",
+              "Receptor Protein-Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27573755/"
+          },
+          {
+            "pmid": "34702773",
+            "title": "A Phase 0 Trial of Ceritinib in Patients with Brain Metastases and Recurrent Glioblastoma.",
+            "abstract": "Ceritinib is an orally bioavailable, small-molecule inhibitor of anaplastic lympoma kinase (ALK), insulin-like growth factor 1 receptor (IGFR1), and focal adhesion kinase (FAK), which are highly expressed in glioblastoma and many brain metastases. Preclinical and clinical studies indicate that ceritinib has antitumor activity in central nervous system (CNS) malignancies. This phase 0 trial measured the tumor pharmacokinetics (PK) and pharmacodynamics (PD) of ceritinib in patients with brain metastasis or recurrent glioblastoma.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2022",
+            "authors": [
+              "Mehta Shwetal",
+              "Fiorelli Roberto",
+              "Bao Xun",
+              "Pennington-Krygier Chelsea",
+              "Derogatis Alanna"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Brain Neoplasms",
+              "Chromatography, Liquid",
+              "Glioblastoma",
+              "Humans",
+              "Lung Neoplasms",
+              "Neoplasm Recurrence, Local",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34702773/"
+          },
+          {
+            "pmid": "38032104",
+            "title": "SHP2 Inhibition with TNO155 Increases Efficacy and Overcomes Resistance of ALK Inhibitors in Neuroblastoma.",
+            "abstract": "Survival rates among patients with high-risk neuroblastoma remain low and novel therapies for recurrent neuroblastomas are required. ALK is commonly mutated in primary and relapsed neuroblastoma tumors and ALK tyrosine kinase inhibitors (TKI) are promising treatments for ALK-driven neuroblastoma; however, innate or adaptive resistance to single-agent ALK-TKIs remain a clinical challenge. Recently, SHP2 inhibitors have been shown to overcome ALK-TKI resistance in lung tumors harboring ALK rearrangements. Here, we have assessed the efficacy of the SHP2 inhibitor TNO155 alone and in combination with the ALK-TKIs crizotinib, ceritinib, or lorlatinib for the treatment of ALK-driven neuroblastoma using in vitro and in vivo models. In comparison to wild-type, ALK-mutant neuroblastoma cell lines were more sensitive to SHP2 inhibition with TNO155. Moreover, treatment with TNO155 and ALK-TKIs synergistically reduced cell growth and promoted inactivation of ALK and MAPK signaling in ALK-mutant ne",
+            "journal": "Cancer research communications",
+            "year": "2023",
+            "authors": [
+              "Valencia-Sama Ivette",
+              "Kee Lynn",
+              "Christopher Gabriella",
+              "Ohh Michael",
+              "Layeghifard Mehdi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mice",
+              "Animals",
+              "Zebrafish",
+              "Anaplastic Lymphoma Kinase",
+              "Drug Resistance, Neoplasm",
+              "Neoplasm Recurrence, Local",
+              "Protein Kinase Inhibitors",
+              "Lactams, Macrocyclic",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38032104/"
+          },
+          {
+            "pmid": "37561984",
+            "title": "Anaplastic Lymphoma Kinase Inhibitors for Therapy of Neuroblastoma in Adults.",
+            "abstract": "Adult-onset neuroblastoma (AON) differs significantly in biology and clinical behavior from childhood-onset disease. AON poses therapeutic challenges since tolerance of intensive multimodality therapies that are standard of care for pediatric neuroblastoma (NB) is poor. AON is enriched for somatic mutations including anaplastic lymphoma kinase (ALK), deemed to be an oncogenic driver in NB. ALK inhibitors (ALKis), therefore, have the potential to be of therapeutic benefit. The purpose of this study is to report on their use in AON.",
+            "journal": "JCO precision oncology",
+            "year": "2023",
+            "authors": [
+              "Stiefel Jessica",
+              "Kushner Brian H",
+              "Roberts Stephen S",
+              "Iglesias-Cardenas Fiorella",
+              "Kramer Kim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Humans",
+              "Middle Aged",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37561984/"
+          },
+          {
+            "pmid": "31780656",
+            "title": "The targetable kinase PIM1 drives ALK inhibitor resistance in high-risk neuroblastoma independent of MYCN status.",
+            "abstract": "Resistance to anaplastic lymphoma kinase (ALK)-targeted therapy in ALK-positive non-small cell lung cancer has been reported, with the majority of acquired resistance mechanisms relying on bypass signaling. To proactively identify resistance mechanisms in ALK-positive neuroblastoma (NB), we herein employ genome-wide CRISPR activation screens of NB cell lines treated with brigatinib or ceritinib, identifying PIM1 as a putative resistance gene, whose high expression is associated with high-risk disease and poor survival. Knockdown of PIM1 sensitizes cells of differing MYCN status to ALK inhibitors, and in patient-derived xenografts of high-risk NB harboring ALK mutations, the combination of the ALK inhibitor ceritinib and PIM1 inhibitor AZD1208 shows significantly enhanced anti-tumor efficacy relative to single agents. These data confirm that PIM1 overexpression decreases sensitivity to ALK inhibitors in NB, and suggests that combined front-line inhibition of ALK and PIM1 is a viable str",
+            "journal": "Nature communications",
+            "year": "2019",
+            "authors": [
+              "Trigg Ricky M",
+              "Lee Liam C",
+              "Prokoph Nina",
+              "Jahangiri Leila",
+              "Reynolds C Patrick"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Apoptosis",
+              "Biphenyl Compounds",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm",
+              "Gene Knockdown Techniques",
+              "Humans",
+              "Mice",
+              "N-Myc Proto-Oncogene Protein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31780656/"
+          },
+          {
+            "pmid": "31559892",
+            "title": "A case of primary pulmonary atypical carcinoid with EML4-ALK rearrangement.",
+            "abstract": "Targeted therapy has revolutionized the treatment pattern of advanced drive gene mutation positive non-small cell lung cancer (NSCLC). Advanced testing techniques enable physicians to detect these gene alterations in the clinic, thereby offering targeted therapies as treatment options to their patients. In this article, we reported a 52-year-old Chinese female with a pulmonary nodule in her left lower lung. After thoracoscopic lobectomy, a histopathological diagnosis of moderately differentiated atypical carcinoid (AC) was made. Anaplastic lymphoma kinase (ALK) rearrangement was detected, which is a rare phenomenon in AC. After the failure of chemotherapy and radiotherapy, the patient started taking crizotinib, subsequently with ceritinib, and then alectinib. This sequential therapy approach has significant clinical benefits for the patient. This article reviewed the clinical significance and drug resistance mechanism of ALK rearrangement in lung cancer. We also discussed recent and on",
+            "journal": "Cancer biology & therapy",
+            "year": "2020",
+            "authors": [
+              "Liu Na",
+              "Wang Jingjing",
+              "Fu Xiao",
+              "Zheng Xiaoqiang",
+              "Gao Huan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Carcinoid Tumor",
+              "Female",
+              "Gene Rearrangement",
+              "Humans",
+              "Lung Neoplasms",
+              "Middle Aged",
+              "Oncogene Proteins, Fusion",
+              "Prognosis",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31559892/"
+          },
+          {
+            "pmid": "26568289",
+            "title": "Discovery of Inhibitors That Overcome the G1202R Anaplastic Lymphoma Kinase Resistance Mutation.",
+            "abstract": "The treatment of patients with advanced non-small-cell lung cancer harboring chromosomal rearrangements of anaplastic lymphoma kinase (ALK) has been revolutionized by the development of crizotinib, a small-molecule inhibitor of ALK, ROS1, and MET. However, resistance to crizotinib inevitably develops through a variety of mechanisms, leading to relapse both systemically and in the central nervous system (CNS). This has motivated the development of \"second-generation\" ALK inhibitors, including alectinib and ceritinib, that overcome some of the mutations leading to resistance. However, most of the reported ALK inhibitors do not show inhibition of the G1202R mutant, which is one of the most common mutations. Herein, we report the development of a structural analogue of alectinib (JH-VIII-157-02) that is potent against the G1202R mutant as well as a variety of other frequently observed mutants. In addition, JH-VIII-157-02 is capable of penetrating the CNS of mice following oral dosing.",
+            "journal": "Journal of medicinal chemistry",
+            "year": "2015",
+            "authors": [
+              "Hatcher John M",
+              "Bahcall Magda",
+              "Choi Hwan Geun",
+              "Gao Yang",
+              "Sim Taebo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lung",
+              "Lung Neoplasms",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26568289/"
+          },
+          {
+            "pmid": "25733882",
+            "title": "PF-06463922 is a potent and selective next-generation ROS1/ALK inhibitor capable of blocking crizotinib-resistant ROS1 mutations.",
+            "abstract": "Oncogenic c-ros oncogene1 (ROS1) fusion kinases have been identified in a variety of human cancers and are attractive targets for cancer therapy. The MET/ALK/ROS1 inhibitor crizotinib (Xalkori, PF-02341066) has demonstrated promising clinical activity in ROS1 fusion-positive non-small cell lung cancer. However, emerging clinical evidence has shown that patients can develop resistance by acquiring secondary point mutations in ROS1 kinase. In this study we characterized the ROS1 activity of PF-06463922, a novel, orally available, CNS-penetrant, ATP-competitive small-molecule inhibitor of ALK/ROS1. In vitro, PF-06463922 exhibited subnanomolar cellular potency against oncogenic ROS1 fusions and inhibited the crizotinib-refractory ROS1(G2032R) mutation and the ROS1(G2026M) gatekeeper mutation. Compared with crizotinib and the second-generation ALK/ROS1 inhibitors ceritinib and alectinib, PF-06463922 showed significantly improved inhibitory activity against ROS1 kinase. A crystal structure o",
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2015",
+            "authors": [
+              "Zou Helen Y",
+              "Li Qiuhua",
+              "Engstrom Lars D",
+              "West Melissa",
+              "Appleman Vicky"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Animals",
+              "Carcinogenesis",
+              "Cell Proliferation",
+              "Crizotinib",
+              "Crystallography, X-Ray",
+              "Disease Models, Animal",
+              "Drug Resistance, Neoplasm",
+              "Glioma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25733882/"
+          },
+          {
+            "pmid": "29907598",
+            "title": "Clinical response of the novel activating ALK-I1171T mutation in neuroblastoma to the ALK inhibitor ceritinib.",
+            "abstract": "Tumors with anaplastic lymphoma kinase (ALK) fusion rearrangements, including non-small-cell lung cancer and anaplastic large cell lymphoma, are highly sensitive to ALK tyrosine kinase inhibitors (TKIs), underscoring the notion that such cancers are addicted to ALK activity. Although mutations in ALK are heavily implicated in childhood neuroblastoma, response to the ALK TKI crizotinib has been disappointing. Embryonal tumors in patients with DNA repair defects such as Fanconi anemia (FA) often have a poor prognosis, because of lack of therapeutic options. Here we report a child with underlying FA and ALK mutant high-risk neuroblastoma responding strongly to precision therapy with the ALK TKI ceritinib. Conventional chemotherapy treatment caused severe, life-threatening toxicity. Genomic analysis of the initial biopsy identified germline FANCA mutations as well as a novel ALK-I1171T variant. ALK-I1171T generates a potent gain-of-function mutant, as measured in PC12 cell neurite outgrowt",
+            "journal": "Cold Spring Harbor molecular case studies",
+            "year": "2018",
+            "authors": [
+              "Guan Jikui",
+              "Fransson Susanne",
+              "Siaw Joachim Tetteh",
+              "Treis Diana",
+              "Van den Eynden Jimmy"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "3T3 Cells",
+              "Adolescent",
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Brain Neoplasms",
+              "Fanconi Anemia",
+              "Fanconi Anemia Complementation Group A Protein",
+              "Humans",
+              "Male",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29907598/"
+          },
+          {
+            "pmid": "33362184",
+            "title": "[Ceritinib in the treatment of an adult patient with advanced neuroblastoma positive to the somatic activating mutation of ALK F1174L.].",
+            "abstract": "The ALK gene (anaplastic lymphoma kinase) encodes a highly conserved tyrosine kinase receptor whose physiological function has not yet been fully established; in particular the fusion of ALK (mainly EML4-ALK) is the gene alteration that most frequently involves 3-7% of all non-small cell lung cancers. Neuroblastoma in adults (NB) is a rare tumor that can present somatic activating mutations in the ALK gene in 8-9% of patients (and up to 14% of high-risk NBs); these mutations occur in the tyrosine kinase domain in three key positions (F1174, F1245 and R1275), which account for approximately 85% of all ALK mutations in NB. In this article, we report the case of an adult patient with advanced mutation-positive NB treated with an ALK inhibitor ceritinib showing a therapeutic opportunity due to the molecular diagnostic techniques now available.",
+            "journal": "Recenti progressi in medicina",
+            "year": "2020",
+            "authors": [
+              "Soto Parra Hector Josè",
+              "Noto Laura",
+              "Aiello Marco Maria"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Neuroblastoma",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Receptor Protein-Tyrosine Kinases",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33362184/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary sulcus neoplasm",
+        "txgnn_score": 0.9980003237724304,
+        "txgnn_rank": 3408,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+        "txgnn_score": 0.9979239702224731,
+        "txgnn_rank": 3519,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of which are characterised by the selective degeneration of the frontal and temporal cortices. Genetics is an important risk factor for frontotemporal dementia. Advances in clinical, imaging, and molecular characterisation have increased the accuracy of frontotemporal dementia diagnosis, thus allowing for the accurate differentiation of these syndromes from psychiatric disorders. As the understanding of the molecular basis for frontotemporal dementia improves, rational therapies are beginning to em",
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alzheimer Disease",
+              "Aphasia",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Mental Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26595641/"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontotemporal lobar degeneration, with a much broader range of signs and symptoms at presentation than has been previously considered. Accurate and early diagnosis of frontotemporal dementia is now a possibility due to development of neuropsychological measures with a special focus on social cognition. Advances in plasma and CSF biomarkers, and innovations in structural and functional imaging, will prove useful for future clinical trials in people with frontotemporal dementia.",
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Neurodegenerative Diseases",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35182511/"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. In this article, the authors discuss the clinical presentation, diagnostic criteria, neuropathology, genetics, and treatments of these disorders.",
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Frontotemporal Dementia",
+              "History, 20th Century",
+              "Humans",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28410663/"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive dementia (PPA). We searched PubMed, MEDLINE, and Google Scholar for articles about FTD disease published in English between January 1, 1975 till 2018. We used the search terms \"frontotemporal dementia,\" \"Fronto temporal dementia-motor neuron disease,\" \"dementia,\" \"cognition,\" \"behavioral variant,\" and \"primary progressive aphasia.",
+            "journal": "Neurology India",
+            "year": "2021",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Executive Function",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Language",
+              "Neurodegenerative Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34747778/"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Frontotemporal Dementia",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39620838/"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Neuroimaging",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32439025/"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia requires three of six clinically discriminating features (disinhibition, apathy/inertia, loss of sympathy/empathy, perseverative/compulsive behaviours, hyperorality and dysexecutive neuropsychological profile). 'Probable' behavioural variant frontotemporal dementia adds functional disability and characteristic neuroimaging, while behavioural variant frontotemporal dementia 'with definite frontotemporal lobar degeneration' requires histopathological confirmation or a pathogenic mutation. Sixteen bra",
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Behavior",
+              "Female",
+              "Frontotemporal Dementia",
+              "Guidelines as Topic",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neuropsychological Tests",
+              "Reproducibility of Results"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21810890/"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35678399/"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Drug Development",
+              "Frontotemporal Dementia",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38687620/"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disease, and limbic-predominant age-related transactivation response DNA-binding protein 43 encephalopathy, as well as exacerbate the progression of amyotrophic lateral sclerosis (ALS) and FTD caused by the hexanucleotide repeat expansion in the C9orf72 gene. Elevating and/or restoring PGRN levels is an attractive therapeutic strategy and is being investigated for neurodegenerative diseases through multiple mechanisms of action.",
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microglia",
+              "Mutation",
+              "Neurodegenerative Diseases",
+              "Progranulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35039149/"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several diagnostic criteria have been proposed, which in essence all require a history of slowly progressive motor symptoms, with UMN and LMN signs on neurological examination, clear spread of symptoms through the body, the exclusion of other disorder that cause similar symptoms and an EMG that it is compatible with LMN loss. ALS is heterogeneous disorder that may present in multitude ways, which makes the diagnosis challenging. Therefore, a systematic approach in the diagnostic process is required in li",
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Amyotrophic Lateral Sclerosis",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38802173/"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to further expand knowledge of the biologic processes at play in FTD and may in turn propel research toward identifying curative and preventative pharmacologic therapies. The aim of this chapter is to discuss the clinical, pathologic, and genetic complexities of FTD and related disorders.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31753137/"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several primary psychiatric disorders including bipolar affective disorder and schizophrenia. Emphasis will be placed on the behavioral variant of FTD (bvFTD), which is the common clinical syndrome seen with degeneration of the frontal lobes and is the most likely to be encountered in psychiatric settings.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Psychotropic Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31727221/"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Neuropsychological Tests",
+              "Psychiatric Status Rating Scales"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27042904/"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Positron-Emission Tomography",
+              "Primary Progressive Nonfluent Aphasia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28330541/"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based on protein accumulation in the brain. Pathogenic mutations in different genes have been identified. Specific pharmacological treatment is the main research goal. Meanwhile the management must focus on early correct diagnosis, symptom alleviation, caregiver support and educational interventions.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Behavioral Symptoms",
+              "C9orf72 Protein",
+              "Diagnostic Errors",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microtubule-Associated Proteins",
+              "Middle Aged",
+              "Neuroimaging",
+              "Personality Assessment",
+              "Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25998110/"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical Alzheimer disease and heralded by behavioral or communication manifestations. There is a behavioral variant and a language variant, referred to as primary progressive aphasia.",
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Neuropsychological Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26613998/"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the differential diagnosis and improving diagnostic accuracy. As such, neuroimaging is considered a core investigative tool in the evaluation of neurodegenerative disorders. Furthermore, patterns of neurodegeneration correlate with the underlying neuropathological substrates of the frontotemporal dementia syndromes, which can aid clinicians in determining the underlying etiology and improve prognostication. This review explores the advancements in neuroimaging and discusses the phenotypic and pathol",
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Genetic Variation",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neuroimaging",
+              "Positron-Emission Tomography",
+              "tau Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34389969/"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "abstract": "",
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Psychiatry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23611342/"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzheimer's disease commit crimes. The neurobiological origin of delinquency in dementia is poorly understood. On the basis of current study results first delinquency in older age can be explained by impairment of social cognition, difficulties in making appropriate emotional contributions and disturbed control of behavior. Affection of frontal and anterior temporal brain structures seem to be of high relevance. As dementia impairs criminal responsibility psychiatrists are confronted with a forensic ",
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Brain",
+              "Criminal Behavior",
+              "Criminals",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33575835/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+        "txgnn_score": 0.9977642297744752,
+        "txgnn_rank": 3700,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26008987",
+            "title": "Update on Cardiovascular Safety of Tyrosine Kinase Inhibitors: With a Special Focus on QT Interval, Left Ventricular Dysfunction and Overall Risk/Benefit.",
+            "abstract": "We previously reviewed the cardiovascular safety of 16 tyrosine kinase inhibitors (TKIs), approved for use in oncology as of 30 September 2012. Since then, the indications for some of them have been widened and an additional nine TKIs have also been approved as of 30 April 2015. Eight of these nine are indicated for use in oncology and one (nintedanib) for idiopathic pulmonary fibrosis. This report is an update on the cardiovascular safety of those 16 TKIs, including the post-marketing data concerning their pro-arrhythmic effects, and reviews the cardiovascular safety of the nine new TKIs approved since (afatinib, cabozantinib, ceritinib, dabrafenib, ibrutinib, lenvatinib, nintedanib, ponatinib, and trametinib). As before, we focus on specific aspects of cardiovascular safety, namely their potential to induce QT interval prolongation, left ventricular (LV) dysfunction and hypertension but now also summarise the risks of arterial thromboembolic events (ATEs) associated with these agents",
+            "journal": "Drug safety",
+            "year": "2015",
+            "authors": [
+              "Shah Rashmi R",
+              "Morganroth Joel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Long QT Syndrome",
+              "Protein Kinase Inhibitors",
+              "Risk Assessment",
+              "Ventricular Dysfunction, Left"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26008987/"
+          },
+          {
+            "pmid": "34836510",
+            "title": "Comparative efficacy and safety of first-line treatments for advanced non-small cell lung cancer with ALK-rearranged: a meta-analysis of clinical trials.",
+            "abstract": "Whereas there are many pharmacological interventions prescribed for patients with advanced anaplastic lymphoma kinase (ALK)- rearranged non-small cell lung cancer (NSCLC), comparative data between novel generation ALK-tyrosine kinase inhibitors (TKIs) remain scant. Here, we indirectly compared the efficacy and safety of first-line systemic therapeutic options used for the treatment of ALK-rearranged NSCLC.",
+            "journal": "BMC cancer",
+            "year": "2021",
+            "authors": [
+              "Ma Hao-Chuan",
+              "Liu Yi-Hong",
+              "Ding Kai-Lin",
+              "Liu Yu-Feng",
+              "Zhao Wen-Jie"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Gene Rearrangement",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34836510/"
+          },
+          {
+            "pmid": "31280988",
+            "title": "[Diffuse infiltrative lung disease, pericarditis, pleural effusion and ceritinib hypersensitivity].",
+            "abstract": "Tyrosine kinase inhibitors are now major actors for the treatment of non-small-cell metastatic lung cancers where ROS 1 gene rearrangement is present. Because of the rapid development of these new therapies, developing information about their monitoring and knowledge about their potential toxicities is essential. We describe the case of a patient who was treated with ceritinib as a third line approach for a metastatic lung adenocarcinoma with ROS1 rearrangement. After two months, the patient developed acute respiratory distress with pericarditis and pleurisy. A hypersensitivity reaction was suggested and supported by favorable clinical and radiological outcomes within three days following ceritinib discontinuation and systemic corticosteroid introduction. Pleural effusion, pericarditis and diffuse pulmonary infiltration associated to ceritinib have not often been described previously. Despite few data of pulmonary toxicity related to ceritinib, the current observation highlights the ne",
+            "journal": "Revue des maladies respiratoires",
+            "year": "2019",
+            "authors": [
+              "Gaillard C-M",
+              "Chumbi-Flores W",
+              "Gaillot-Durand L",
+              "Craighero F",
+              "Devouassoux G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cardiotoxicity",
+              "Drug Hypersensitivity",
+              "Female",
+              "Humans",
+              "Lung Diseases, Interstitial",
+              "Lung Neoplasms",
+              "Neoplasm Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31280988/"
+          },
+          {
+            "pmid": "29413968",
+            "title": "Current perspective: Osimertinib-induced QT prolongation: new drugs with new side-effects need careful patient monitoring.",
+            "abstract": "An increasing number of tyrosine kinase inhibitors (TKIs) are available for the treatment of non-small cell lung cancer (NSCLC). QT prolongation is one of the known, but relatively rare, adverse events of several TKIs (e.g. osimertinib, crizotinib, ceritinib). Screening for QT prolongation in (high risk) patients is advised for these TKIs. When a QT prolongation develops, the physician is challenged with the question whether to (permanently) discontinue the TKI. In this perspective, we report on a patient who developed a grade III QT prolongation during osimertinib (a third-generation epidermal growth factor receptor [EGFR]-TKI) treatment. On discontinuation of osimertinib, she developed a symptomatic disease flare, not responding to subsequent systemic treatment. The main aim of this perspective is to describe the management of QT prolongation in stage IV EGFR driver mutation NSCLC patients. We also discuss the ethical question of how to weigh the risk of a disease flare due to therap",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2018",
+            "authors": [
+              "Schiefer Mart",
+              "Hendriks Lizza E L",
+              "Dinh Trang",
+              "Lalji Ulrich",
+              "Dingemans Anne-Marie C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acrylamides",
+              "Adenocarcinoma",
+              "Adenocarcinoma of Lung",
+              "Aniline Compounds",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Decision-Making",
+              "Drug Monitoring",
+              "Electrocardiography",
+              "ErbB Receptors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29413968/"
+          },
+          {
+            "pmid": "29449735",
+            "title": "ALK-positive adenocarcinoma of the lung expressing neuroendocrine markers and presenting as a \"pituitary adenoma\".",
+            "abstract": "We report an ALK-rearranged adenocarcinoma of the lung presenting as a pituitary metastasis, clinically simulating a pituitary adenoma. The patient, a 50 year-old, former-smoking woman was admitted with a Parinaud's syndrome characterized by progressive oculomotor impairment of visual verticality, bitemporal hemianopsia and nystagmus. Imaging studies showed a sellar tumor and the biopsy revealed a TTF-1 and napsin positive lung adenocarcinoma strongly expressing synaptophysin and CD56, also harboring ALK rearrangement. A subsequent CT scan disclosed the primary lung mass of the left upper lobe. The patient progressed after 4 cycles of cisplatin/pemetrexed as first line treatment, but showed a partial response and a significant clinical benefit from the combination of ceritinib and nivolumab in a phase Ib trial. Despite its central nervous system tropism, ALK-rearranged adenocarcinoma manifesting with pituitary gland involvement was never reported. Second generation ALK inhibitors seem ",
+            "journal": "Pathologica",
+            "year": "2017",
+            "authors": [
+              "Mengoli M C",
+              "Bertolini F",
+              "Maur M",
+              "Barbieri F",
+              "Longo L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma of Lung",
+              "Adenoma",
+              "Anaplastic Lymphoma Kinase",
+              "Biomarkers, Tumor",
+              "Female",
+              "Gene Rearrangement",
+              "Humans",
+              "Immunohistochemistry",
+              "Lung Neoplasms",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29449735/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "junctional epidermolysis bullosa",
+        "txgnn_score": 0.9977450966835022,
+        "txgnn_rank": 3724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09063",
+    "name": "Ceritinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ceritinib"
+      },
+      "queried_at": "2026-03-09T19:12:07.652112",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ceritinib"
+      },
+      "queried_at": "2026-03-09T19:12:12.853775",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T19:12:13.883023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T19:12:18.670153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T19:12:20.285425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T19:12:21.464770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T19:12:26.066151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T19:12:28.086280",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T19:12:29.552473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T19:12:36.045648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T19:12:36.852604",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T19:12:37.719541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T19:12:43.866365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T19:12:44.737590",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T19:12:45.476835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T19:12:51.388744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T19:13:00.152299",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T19:13:01.191627",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T19:13:05.373665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T19:13:11.384872",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T19:13:12.237804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T19:13:17.121223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T19:13:17.965364",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T19:13:20.196261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T19:13:31.743978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T19:13:39.678553",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T19:13:41.168023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T19:13:45.018644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T19:13:49.537765",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T19:13:50.487968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T19:13:54.664857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceritinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T19:13:56.014488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:13:56.019564"
+  }
+}

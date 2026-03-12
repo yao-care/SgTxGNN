@@ -1,0 +1,2137 @@
+{
+  "drug": {
+    "inn": "Trametinib",
+    "drugbank_id": "DB08911",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "choroideremia",
+        "txgnn_score": 0.993073582649231,
+        "txgnn_rank": 8176,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-cutaneous melanoma",
+        "txgnn_score": 0.992961585521698,
+        "txgnn_rank": 8264,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02039947",
+            "title": "BRF117277: A Phase II, Open-Label, Multicentre Study of Dabrafenib Plus Trametinib in Subjects With BRAF Mutation-Positive Melanoma That Has Metastasized to the Brain",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-02-21",
+            "completion_date": "2018-02-14",
+            "country": "Australia, Spain, France, Canada, Germany, Italy, United States",
+            "enrollment": 127,
+            "brief_summary": "This is a multi-cohort, open label, Phase II study with Dabrafenib (GSK2118436) and Trametinib (GSK1120212) combination therapy in subject with BRAF mutation-positive melanoma that has metastasized to the brain. This study will evaluate the safety and efficacy of 4 cohorts. Cohorts will consist of; V600 E, D, K, R mutations, metastases to the brain, symptomatic and asymptomatic, with or without prior local (brain) therapy, with or without prior local (brain) therapy, and range of ECOG scores fro",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ECOG Performance Status range of 0-2\n* Histologically confirmed cutaneous metastatic melanoma of V600 E, K, D or R.\n* May be systemic naïve or received up to two previous systemic treatment regimens for metastatic melanoma.\n* Must be able to undergo MRI and have at least one m",
+            "endpoints": [
+              "Intracranial Response (IR) Rate in Cohort A"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02039947"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02858921",
+            "title": "A Phase II, Randomised, Open Label Study of Neoadjuvant Dabrafenib, Trametinib and / or Pembrolizumab in BRAF V600 Mutant Resectable Stage IIIB/C Melanoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2017-11-08",
+            "completion_date": "2024-11",
+            "country": "Australia",
+            "enrollment": 60,
+            "brief_summary": "This study aims to determine which of 3 drug combinations best reduces the size of tumour prior to surgery for advanced melanoma and prevents the recurrence of melanoma after surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥18 years of age\n* Written informed consent.\n* Histologically confirmed, resectable American Joint Committee on Cancer (AJCC, 8th edition) stage IIIB, IIIC (Tx, T0, T1-4, N1b, N2b, N3b, M0) cutaneous melanoma or unknown primary melanoma with sufficient cutaneous and/or nodal d",
+            "endpoints": [
+              "Pathological response rate"
+            ],
+            "sponsor": "Melanoma Institute Australia",
+            "url": "https://clinicaltrials.gov/study/NCT02858921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02977052",
+            "title": "Multicenter Phase 2 Study to Identify of the Optimal Neo-Adjuvant Combination Scheme of Ipilimumab and Nivolumab (OpACIN-neo)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2016-11-24",
+            "completion_date": "2025-06",
+            "country": "Austria, Australia, Sweden, Netherlands",
+            "enrollment": 186,
+            "brief_summary": "This is an open-label three-arm phase 2 trial (including a Simon stage 2 design) consisting of 90 stage III melanoma patients randomized 1:1:1 to receive either 2 courses 3 mg/kg ipilimumab + 1 mg/kg nivolumab every 3 weeks (Arm A), 2 courses 1 mg/kg ipilimumab + 3 mg/kg nivolumab every 3 weeks (Arm B), or 2 courses ipilimumab 3 mg/kg, directly followed by 2 courses nivolumab 3 mg/kg every 2 weeks (Arm C). All three treatment arms are applied prior to surgery at week 6, 30 patients per arm. Pati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults at least 18 years of age\n* World Health Organization (WHO) Performance Status 0 or 1\n* Cytologically or histologically confirmed resectable stage III melanoma with one or more macroscopic lymph node metastases (measurable according to RECIST 1.1), that can be biopsied, ",
+            "endpoints": [
+              "Safety as measured by the frequency of grade 3/4 immune-related adverse events, using CTCAE 4.03",
+              "Response rate according to RECIST 1.1",
+              "Pathological response according to central pathological revision, according to pathological response criteria"
+            ],
+            "sponsor": "The Netherlands Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02977052"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06774989",
+            "title": "Real-life Pharmacological Monitoring of Encorafenib-Binimetinib in the Treatment of Metastatic Melanoma",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-01-02",
+            "completion_date": "2028-01",
+            "country": "France",
+            "enrollment": 66,
+            "brief_summary": "In recent years, the prognosis for BRAFV600E-mutant metastatic melanoma has been transformed with targeted therapies combining BRAF and MEK inhibitors (dabrafenib-trametinib and encorafenib-cobimetinib), which have improved progression-free survival and overall survival. However, adverse events are very frequent, and a significant proportion of patients progress secondarily. Several clinical studies have shown that inter-individual variability in plasma exposure to BRAF inhibitors (dabrafenib, v",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAdults ≥ 18 years of age\n\n* Histologically confirmed advanced melanoma, stage III/stage IV inoperable (primary cutaneous, mucosal or unknown)\n* Treatment with encorafenib and/or binimetinib, whatever the line of treatment, for curative purposes.\n* Affiliated to a social security",
+            "endpoints": [
+              "association between the plasma exposure of encorafenib and binimetinib and the occurrence of dose-limiting toxicity"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06774989"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01619774",
+            "title": "An Open-Label Phase II Study of the Combination of GSK2118436 and GSK1120212 in Patients With Metastatic Melanoma Which is Refractory or Resistant to BRAF Inhibitor",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-09",
+            "completion_date": "2015-08",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "The goal of this clinical research study is to learn if the combination of 2 drugs dabrafenib and trametinib can help to control melanoma that has or has not spread to the brain. The safety of this drug combination will also be studied.\n\nDabrafenib is designed to block the mutated BRAF protein. This mutation is only found in moles of the skin and in melanoma cells. By blocking the protein, the drug may slow the growth of or kill cancer cells that have the protein.\n\nTrametinib is designed to bloc",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Capable of giving written informed consent, which includes compliance with the requirements and restrictions listed in the consent form.\n2. Patients must have histologically or cytologically confirmed Stage IV or recurrent or unresectable Stage III melanoma.\n3. BRAF mutation-",
+            "endpoints": [
+              "Overall Response Rate (ORR)",
+              "Number of Participants by Response"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01619774"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05370807",
+            "title": "A Phase-2 Clinical Trial of Regorafenib in Patients With Pretreated Advanced Melanoma - Definition of Two Additional Stratified Patient Cohorts of Regorafenib Plus BRAF-/MEK-inhibitors in Pretreated BRAF V600-mutant Melanoma Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-10-03",
+            "completion_date": "2025-03",
+            "country": "Belgium",
+            "enrollment": 48,
+            "brief_summary": "There are in total 3 cohorts. Cohort A: 16 patients will receive a daily dose of 80mg regorafenib up until progressive disease, unacceptable toxicity or withdrawal of consent. Dose can be escalated intra-patient up to 120 mg if no AE with a grad \\>1 at 28 days. Patients get a baseline evaluation and have a consultation every 2 weeks for evaluation during treatment. This evaluation consists out of lab tests, PET/CT (not bi-weekly), MRI (not bi-weekly) and physical evaluation.\n\nPrimary endpoint is",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. ≥ 18 years of age.\n2. Signed written informed consent.\n3. Histologically confirmed advanced melanoma that is either stage III (unresectable) or stage IV (metastatic, unresectable)\n4. Subjects must have failed prior systemic treatment with immune checkpoint inhibitors, includi",
+            "endpoints": [
+              "To measure the anti-tumor acitivity of regorafenib treatment in patients with advanced pretreated melanoma."
+            ],
+            "sponsor": "Universitair Ziekenhuis Brussel",
+            "url": "https://clinicaltrials.gov/study/NCT05370807"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03149029",
+            "title": "A Phase II Trial of Abbreviated MAPK Targeted Therapy Plus Pembrolizumab in Patients With Unresectable or Metastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-11-27",
+            "completion_date": "2025-12-31",
+            "country": "United States",
+            "enrollment": 16,
+            "brief_summary": "This research study is studying a combination of drugs as a possible treatment for unresectable or metastatic melanoma.\n\nThe drugs involved in this study are:\n\n* Pembrolizumab (Keytruda)\n* Trametinib (Mekinist)\n* Dabrafenib (Tafinlar)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have histologically confirmed metastatic or unresectable melanoma.\n* Participants must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as ≥ 20 mm with conventi",
+            "endpoints": [
+              "The Rate of Clinical Benefit"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03149029"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05907304",
+            "title": "An Open-label Study to Assess the Safety and Efficacy of Naporafenib (ERAS-254) Administered With Trametinib in Previously Treated Patients With Locally Advanced Unresectable or Metastatic Solid Tumor Malignancies With RAS Q61X Mutations",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-08-17",
+            "completion_date": "2026-12",
+            "country": "Australia, United Kingdom, Canada, South Korea, United States",
+            "enrollment": 86,
+            "brief_summary": "To evaluate the efficacy of naporafenib administered with trametinib in patients with rat sarcoma viral oncogene (RAS) Q61X solid tumors\n\n* To evaluate the safety and tolerability of naporafenib administered with trametinib in patients with RAS Q61X solid tumors\n* To characterize the pharmacokinetic (PK) profile of naporafenib and trametinib when administered to patients with RAS Q61X solid tumors",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. Willing and able to provide written informed consent\n2. Age ≥ 12 years\n3. A locally advanced or metastatic tumor who has progressed on or for which no standard therapy exists. Patients who are intolerant to standard therapy or who are not a candidate for standard therapy ",
+            "endpoints": [
+              "To evaluate the efficacy of naporafenib administered with trametinib in patients with rat sarcoma viral oncogene (RAS) Q61X solid tumors"
+            ],
+            "sponsor": "Erasca, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05907304"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02143050",
+            "title": "A Phase I/II Trial of Dabrafenib, Trametinib and Metformin Administered to Unresectable Stage IIIC and Stage IV BRAF V600E + Melanoma Patients",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2014-09",
+            "completion_date": "2017-11-17",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The main purpose is to evaluate the clinical response, safety and survival of the FDA approved drugs Dabrafenib, Trametinib in combination with Metformin. Investigators hypothesize that the combination of an FDA approved non toxic dose of oral Metformin with the B-Raf inhibitor, Dabrafenib and the MEK inhibitor, Trametinib will yield little toxicity and improve clinical outcomes in terms of objective response rates and survival in metastatic melanoma patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female patients \\> 18 years of age\n* Patients with histologically confirmed BRAFV600E melanoma (Stage IIIC or\n* Stage IV, American Joint Commission on Cancer)\n* Eastern Cooperative Oncology Group Performance Status of 0 to 2\n* Life expectancy \\> 3 months\n* At least 1 s",
+            "endpoints": [
+              "Observation of two CTCAE drug related grade 4 toxicities in six patients.",
+              "Clinical Response Rate"
+            ],
+            "sponsor": "University of Louisville",
+            "url": "https://clinicaltrials.gov/study/NCT02143050"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01972347",
+            "title": "An Open Label, Single Centre, Phase II Pilot Study of Neoadjuvant Dabrafenib + Trametinib in Patients With Resectable American Joint Committee on Cancer (AJCC) Stage IIIB-C BRAF V600 Mutation Positive Melanoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-10-01",
+            "completion_date": "2026-05-01",
+            "country": "Australia",
+            "enrollment": 35,
+            "brief_summary": "This is an open label, single centre, phase II study of neoadjuvant drug treatment with dabrafenib + trametinib in patients with resectable American Joint Committee on Cancer (AJCC) Stage IIIB-C BRAF V600 mutation positive melanoma.\n\nThe main aim of this study is to find out if giving of a new combined drug treatment to patients with melanoma that has spread to the lymph nodes BEFORE they have surgery, will result in improved clinical and pathological response of the melanoma tissue after 12 wee",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Histologically confirmed AJCC Stage IIIB or IIIC (Tx, T1-4, N1b, N2b, N2c, N3, Mo) cutaneous melanoma or unknown primary determined to be BRAF V600 mutation positive, with sufficient nodal or in-transit disease to enable biopsies prior to surgery.Patients must ",
+            "endpoints": [
+              "The proportion of viable melanoma tissue, compared to baseline, in dissected lymph node and / or in-transit tumour tissue after 12 weeks of neoadjuvant treatment."
+            ],
+            "sponsor": "Melanoma Institute Australia",
+            "url": "https://clinicaltrials.gov/study/NCT01972347"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03501368",
+            "title": "Phase 1 Study of Trametinib + Ceritinib in Patients With Unresectable Melanoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2018-06-27",
+            "completion_date": "2024-12-30",
+            "country": "United States",
+            "enrollment": 27,
+            "brief_summary": "The main purpose of this study is to determine the risks and benefits of ceritinib (ZYKADIA) given in combination with trametinib (MEKINIST) in patients who have progressed on prior melanoma therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of advanced/unresectable melanoma (AJCC v.8 Stage 3C/D/4)\n* Measurable disease, defined as per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1\n* Must have at least one tumor site accessible for a biopsy\n* Documented disease refractory to at least one PD1/PD",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) and recommended Phase 2 Dose (RP2D)",
+              "Overall Response Rate (ORR)"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03501368"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02399943",
+            "title": "Molecular Basket Trial In Multiple Malignancies With Common Target Pathway Aberrancies",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-06",
+            "completion_date": "2022-03-31",
+            "country": "Canada",
+            "enrollment": 14,
+            "brief_summary": "This is a phase 2 study (the second phase in testing a new drug or drug combination) to see how useful the combination of two drugs, panitumumab and trametinib, are in patients with advanced colorectal cancer with KRAS, NRAS, or BRAF wild type (genes that are not mutated).\n\nPanitumumab is a drug that is approved by Health Canada for the treatment of advanced colorectal cancer with KRAS wild type. Panitumumab works by binding to and blocking the protein, epidermal growth factor receptor (EGFR) fr",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* KRAS/NRAS/BRAF wild type colorectal cancer, not responsive to standard therapies, no approved or curative therapy, refuse standard therapy\n* Prior 5-FU, oxaliplatin and irinotecan\n* ECOG Performance Status of 0 or 1\n* Able to swallow/retain oral drug",
+            "endpoints": [
+              "Percentage of patients who experience complete response, partial response, or stable disease"
+            ],
+            "sponsor": "University Health Network, Toronto",
+            "url": "https://clinicaltrials.gov/study/NCT02399943"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05668585",
+            "title": "A Phase 1/2 Open-Label Multicenter Trial to Characterize the Safety, Tolerability, and Preliminary Efficacy of CFT1946 as Monotherapy and Combination Therapy in Subjects With BRAF V600 Mutant Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2022-12-08",
+            "completion_date": "2025-11-05",
+            "country": "Spain, United Kingdom, France, Germany, United States",
+            "enrollment": 89,
+            "brief_summary": "The purpose of this study is to evaluate the safety and tolerability of CFT1946 as well as to determine the maximum tolerated dose (MTD) and/or the recommended Phase 2 dose (RP2D) of CFT1946 as monotherapy (Arm A) and in combination with trametinib (CFT1946 + trametinib; Arm B) or Cetuximab (CFT1946 + cetuximab; Arm C).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject (or legally authorized representative, where applicable) is willing and able to provide signed informed consent and can follow protocol requirements\n2. Subject is ≥18 years of age at time of informed consent\n3. Eastern Cooperative Oncology Group performance status of ",
+            "endpoints": [
+              "Frequency and severity of AEs and SAEs",
+              "Incidence of dose limiting toxicities (DLTs)",
+              "Number of subjects with changes between baseline and post-baseline safety assessments based on safety laboratory results graded by CTCAE v5.0"
+            ],
+            "sponsor": "C4 Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05668585"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03944356",
+            "title": "BRAF-/MEK-Inhibition With Dabrafenib and Trametinib in Melanoma Patients in the Adjuvant Setting: a Non-interventional Observatory Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-07-01",
+            "completion_date": "2024-10-08",
+            "country": "Germany",
+            "enrollment": 232,
+            "brief_summary": "Adjuvant therapy with dabrafenib plus trametinib in melanoma was approved in 2018 by the EMA (EUropean Medicines Agency).\n\nThe purpose of this non-interventional study is to assess the usage of adjuvant dabrafenib and trametinib in clinical practice, where the patient population may differ from study population.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with complete surgical resection of histologically confirmed AJCC (American Joint Committee on Cancer) (8th edition) clinical stage III (IIIA, IIIB, IIIC, IIID) melanoma, for whom a decision for adjuvant treatment with dabrafenib and trametinib has been made before en",
+            "endpoints": [
+              "Median time on treatment"
+            ],
+            "sponsor": "EuMelaReg gGmbH",
+            "url": "https://clinicaltrials.gov/study/NCT03944356"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01978236",
+            "title": "An Open-Label, Multicentre, Corollary Study of Pre-Operative Therapy With Dabrafenib and the Combination of Dabrafenib With Trametinib in Subjects With BRAF Mutation-Positive Metastatic Melanoma to the Brain",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2014-04-08",
+            "completion_date": "2017-04-26",
+            "country": "Australia, United States",
+            "enrollment": 6,
+            "brief_summary": "This is a global, multi-centre, open-label, study of GSK2118436 conducted in up to 30 evaluable subjects with resectable, BRAF V600E or V600K mutation-positive metastatic melanoma to the brain. All subjects in this study are required to have accessible extracranial metastases and are agreeable to undergo repetitive biopsies. The first cohort of 15 subjects will receive dabrafenib orally 150mg twice daily (BID) for 7 to 14 days prior to surgery (Cohort A); the second cohort of 15 subjects will re",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent\n* Histologically-confirmed metastatic melanoma (Stage IV), carrying BRAF V600E or V600K mutation as determined by testing certified for clinical diagnostic purposes. Previously performed certified BRAF testing is acceptable. If no prior BRAF mut",
+            "endpoints": [
+              "Concentrations of Dabrafenib, Its Metabolites Hydroxy-, Carboxy- and Desmethyl-dabrafenib in Peripheral Blood (Plasma)",
+              "Concentrations of Dabrafenib, Its Metabolites Hydroxy-, Carboxy- and Desmethyl-dabrafenib in Parenchymal Brain Metastases",
+              "Concentrations of Dabrafenib, Its Metabolites Hydroxy-, Carboxy- and Desmethyl-dabrafenib) and Trametinib (Cohort B Only) in CSF Samples."
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01978236"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02910700",
+            "title": "A Phase II Study of the TRIplet Combination of Dabrafenib, Nivolumab, and Trametinib in Patients With Metastatic Melanoma (TRIDeNT) or Binimetinib, EnCorafenib, and NivolumAb (TRIBECA)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-12-09",
+            "completion_date": "2027-12-08",
+            "country": "United States",
+            "enrollment": 52,
+            "brief_summary": "This phase II trial studies the side effects and how well nivolumab with trametinib and dabrafenib, or encorafenib and binimetinib work in treating patients with BRAF-mutated stage III-IV melanoma that has spread to other places in the body (metastatic) or cannot be removed by surgery (unresectable). Immunotherapy with monoclonal antibodies, such as nivolumab, may induce changes in the body's immune system and may interfere with the ability of tumor cells to grow and spread. Trametinib, dabrafen",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed metastatic melanoma (stage IV) or unresectable Stage III that have progressed on or after receiving prior PD-1 directed therapy; only patients with BRAF V600 mutated melanoma are eligible; please note that patients with brain metastasis are not require",
+            "endpoints": [
+              "Objective response rate (ORR) as measured by Response Evaluation Criteria in Solid Tumors version 1.1 on both arms"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02910700"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02130466",
+            "title": "A Phase I/II Study to Assess the Safety and Efficacy of MK-3475 in Combination With Trametinib and Dabrafenib in Subjects With Advanced Melanoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-05-29",
+            "completion_date": "2021-07-14",
+            "country": "N/A",
+            "enrollment": 184,
+            "brief_summary": "This is a 5-part dose-finding and preliminary efficacy study of pembrolizumab (Pembro) + dabrafenib (D) + trametinib (T) for participants with advanced melanoma and solid tumors.\n\nParts 1 and 2 are open-label to find and confirm the maximum tolerated dose (MTD)/maximum administered dose (MAD) for Pembro+D+T. The primary hypothesis (Parts 1 and 2) is that Pembro+D+T is sufficiently well-tolerated to permit clinical investigation.\n\nPart 3 is a double-blind study of Pembro+D+T versus placebo+D+T. T",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Histologically-confirmed diagnosis of advanced (unresectable Stage III) or metastatic (Stage IV) melanoma excluding mucosal, or ocular melanoma (or a histologically or cytologically-documented locally-advanced or metastatic solid malignancy in Parts 4 and 5)\n* At least 1 measu",
+            "endpoints": [
+              "Parts 1, 2, 4, and 5: Number of Participants Who Experienced Dose-limiting Toxicities (DLTs)",
+              "Part 2: Objective Response Rate (ORR) Per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1) as Assessed by Investigator in Participants Without BRAF V600 E or K Mutations",
+              "Part 5: ORR Per RECIST 1.1 as Assessed by Investigator in Participants Without BRAF V600 E or K Mutations or With Solid Tumors Irrespective of BRAF Status"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02130466"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05063058",
+            "title": "Feasibility Study of Biomarker-driven Therapy Based on a Comprehensive Molecular Analysis of Tumor Tissue and Blood Collections in Melanoma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-01",
+            "completion_date": "2021-08",
+            "country": "N/A",
+            "enrollment": 100,
+            "brief_summary": "Patients included will undergo biopsy and the molecular analysis will be discussed at the institutional molecular tumor board. The recommandation of the molecular tumor board will be provided to the physician in charge of the patient for final treatment desicion.\n\nThe main endpoints are the number of patients with actionable molecular alterations, the number of patients with a treatment recommendation, the number of patients receiving the recommended therapy, overall survival of the patients tre",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* histologically proven metastatic melanoma failing standard treatments\n* age ≥ 18 years\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0-2\n* life expectancy ≥ 24 weeks\n* adequate renal, liver, and bone marrow functions\n\nExclusion Criteria:\n\n\\- history of ca",
+            "endpoints": [
+              "Feasibility (actionable molecular alterations)",
+              "Feasibility (number of patients with a treatment recommendation)",
+              "Feasibility (number of patients receiving the recommended therapy)"
+            ],
+            "sponsor": "Charite University, Berlin, Germany",
+            "url": "https://clinicaltrials.gov/study/NCT05063058"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03949153",
+            "title": "Cryotherapy Under Interventional Radiology Combined With in Situ Ipilimumab and a Flat Dose of Nivolumab in Stage IIIB/C Melanoma. Prospective Proof of Concept Study.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-08-16",
+            "completion_date": "2022-03-18",
+            "country": "France",
+            "enrollment": 19,
+            "brief_summary": "Melanoma is the deadliest form of skin cancer and its incidence has doubled every 20 years in France, where this cancer is responsible of more than 1600 deaths each year.\n\nPatients with early diagnosis have good prognosis and can be generally cured by surgery only. Advanced melanoma however has a very bad prognosis.\n\nLoco-regional lymph nodes are usually the first distant localization in metastatic melanoma. Lymph node dissection is then the recommended treatment, although it's impact on surviva",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject with previously treated (or unknown) primary stage IIIB/IIIC melanoma with lymph node metastases, with at least one ≥1 cm3 that is accessible to cryotherapy under interventional radiology (IR), assessed at the inclusion visit (V1).\n2. ECOG performance status (0 to 2) ",
+            "endpoints": [
+              "Number of failures linked to the procedure"
+            ],
+            "sponsor": "University Hospital, Strasbourg, France",
+            "url": "https://clinicaltrials.gov/study/NCT03949153"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03563729",
+            "title": "Efficacy of Immunotherapy in Melanoma Patients With Brain Metastases Treated With Steroids",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2018-06-06",
+            "completion_date": "2028-06-06",
+            "country": "Denmark",
+            "enrollment": 80,
+            "brief_summary": "This clinical trial is to clarify whether treatment with a checkpoint inhibitor alone (pembrolizumab) or two in combination (ipilimumab and nivolumab), results in clinical benefit for MM patients with brain metastases and in need of steroid treatment. Patients will be treated in four arms depending on steroid dose level at inclusion (\\> 10 \\< 25 mg prednisolone or \\> 25 mg prednisolone) and treatment (pembrolizumab alone or the combination of ipilimumab and nivolumab).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed metastatic melanoma with radiologically verified brain metastasis\n* Need for systemic steroid treatment (prednisolone \\> 10 mg daily; dexamethasone \\> 1.6 mg daily, hydrocortisone \\> 40 mg daily or equivalent) due to brain metastasis\n* At least one mea",
+            "endpoints": [
+              "6 months progression-free survival rate",
+              "6 months overall survival rate"
+            ],
+            "sponsor": "Herlev Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03563729"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04666272",
+            "title": "Effectiveness and Safety of Dabrafenib in Combination With Trametinib as Adjuvant Treatment for Chinese Patients With Stage III BRAF V600 Mutation-positive Melanoma After Complete Resection",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-12-31",
+            "completion_date": "2028-02-04",
+            "country": "China",
+            "enrollment": 78,
+            "brief_summary": "This is a prospective, open label, single-arm, multicenter, non-interventional study of dabrafenib in combination with trametinib as adjuvant treatment for Chinese patients with stage III BRAF V600 mutation positive melanoma after complete resection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatient(s) must meet all of the following criteria to be eligible for inclusion:\n\n1. ≥18 years old of age at the time of informed consent and of Chinese descent\n2. Signed written informed consent\n3. Going to receive commercial dabrafenib and trametinib according to approved labe",
+            "endpoints": [
+              "Relapse-free survival (RFS)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04666272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05714371",
+            "title": "Retrospective Assessment of Adverse Events-related Healthcare Resource Utilization and Costs of Immune Checkpoint Inhibitor and Targeted Therapy for Adjuvant Treatment of Melanoma",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-10-02",
+            "completion_date": "2022-01-27",
+            "country": "United States",
+            "enrollment": 618,
+            "brief_summary": "This was a retrospective cohort study using the PharMetrics database. The analysis was conducted using the most recent 5 years of data from the database, January 1, 2015, to October 30, 2020. Included patients were followed for outcome evaluation from the index date (first prescription of treatment, immunotherapy \\[IO\\], or targeted therapy \\[TT\\] following diagnosis of non-metastatic malignant melanoma and evidence of first lymph node resection), until the first occurrence or end of continuous ",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Patients with at least one diagnosis of malignant melanoma of skin anytime from the start of data collection until the start of study period.\n* Patients with a procedure of first lymph node dissection or nodal basin ultrasound surveillance, per the National Comprehensive Cancer",
+            "endpoints": [
+              "Number of patients on first systemic adjuvant therapy with adverse avents (AEs)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05714371"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03979651",
+            "title": "MEK and Autophagy Inhibition in Metastatic/Locally Advanced, Unresectable Neuroblastoma RAS (NRAS) Melanoma: A Phase Ib/II Trial of Trametinib Plus Hydroxychloroquine in Patients With NRAS Melanoma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-10-15",
+            "completion_date": "2023-01-03",
+            "country": "France",
+            "enrollment": 29,
+            "brief_summary": "Patients with metastatic Neuroblastoma RAS (NRAS) melanoma are currently treated with first line immune checkpoint inhibitors (nivolumab, pembrolizumab). Thus far, no targeted therapy has been approved in NRAS mutated melanoma as a second line treatment, because although the use of a MEK inhibitor (binimetinib) alone was superior to the gold standard chemotherapy (dacarbazine) in a phase 3 trial, the progression free survival gain was very modest.\n\nIn vitro and in vivo work from the study team's",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically confirmed metastatic or locally advanced unresectable malignant melanoma with an activating NRAS mutation.\n2. Available archival tissue, or if not, the patient is willing to provide a baseline tumor biopsy\n3. Patient must have progressed during or after a first",
+            "endpoints": [
+              "Incidence of Dose-Limiting Toxicities (DLTs)",
+              "Percentage of patients with a partial or complete response to treatment"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT03979651"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02083354",
+            "title": "An Open-Label, Multi-Center Study to Investigate the Objective Response Rate of Dabrafenib in Combination With Trametinib in Subjects With BRAF V600 Mutation-Positive Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-03-18",
+            "completion_date": "2021-04-19",
+            "country": "Hong Kong, South Korea, Thailand, China, Taiwan",
+            "enrollment": 77,
+            "brief_summary": "This was a single-arm, open-label, multi-center, Phase II study to evaluate dabrafenib and trametinib combination therapy in subjects with BRAF V600 mutation-positive, unresectable or metastatic Acral lentiginous or cutaneous melanoma. This study evaluated the objective response rate (ORR), progression free survival (PFS), duration of response, overall survival (OS), safety and efficacy, to assess steady state (all subjects) exposure to dabrafenib, dabrafenib metabolites, and trametinib and char",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent, which includes compliance with the requirements and restrictions listed in the consent form.\n* \\>=18 years of age.\n* Histologically confirmed acral lentiginous or cutaneous melanoma that is either Stage IIIC (unresectable) or Stage IV (metastat",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02083354"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02296112",
+            "title": "A Phase II Open-Label, Two-Arm Study of the MEK Inhibitor, Trametinib, to Investigate the Safety and Anti-Cancer Activity in Subjects With Melanoma With BRAF Non-V600 Mutations",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-01",
+            "completion_date": "2021-04-16",
+            "country": "United States",
+            "enrollment": 9,
+            "brief_summary": "This phase II trial studies trametinib in treating patients with melanoma with v-Raf murine sarcoma viral oncogene homolog B (BRAF) non-V600 mutations that has spread to other places in the body. Trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent\n* Histologically or cytologically confirmed diagnosis of melanoma\n* BRAF mutation in loci other than V600 (BRAF nonV600 MUT) or BRAF fusion detected by genetic testing of the primary tumor or regional/distant metastasis\n* Subjects must provide e",
+            "endpoints": [
+              "Overall Response Rate in \"High Affinity\" Group"
+            ],
+            "sponsor": "Vanderbilt-Ingram Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02296112"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01940809",
+            "title": "A Sequential Safety and Biomarker Study of BRAF-MEK Inhibition on the Immune Response in the Context of Combined CTLA-4 Blockade and PD-1 Blockade for BRAF Mutant Melanoma",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2013-08-28",
+            "completion_date": "2022-03-04",
+            "country": "United States",
+            "enrollment": 15,
+            "brief_summary": "This randomized phase I trial studies the side effects and best way to give ipilimumab with or without dabrafenib, trametinib and/or nivolumab in treating patients with melanoma that has spread to other parts of the body (metastatic) or cannot be removed by surgery. Monoclonal antibodies, such as ipilimumab and nivolumab, may interfere with the ability of cancer cells to grow and spread. Dabrafenib and trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Study participants must have histologically or cytologically confirmed unresectable or metastatic malignant melanoma\n* Study participants must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to",
+            "endpoints": [
+              "Incidence of grade 3 or higher immune-related adverse events (irAEs), graded according to the National Cancer Institute (NCI) CTCAE v4.0"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01940809"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02416232",
+            "title": "An Open Label Non Randomized Access Study of Trametinib for Patients With Advanced Unresectable (Stage IIIc) or Distant Metastatic (Stage IV) BRAF V600E/K Mutation Positive Cutaneous Melanoma",
+            "phase": "N/A",
+            "status": "NO_LONGER_AVAILABLE",
+            "start_date": "",
+            "completion_date": "",
+            "country": "France",
+            "enrollment": "N/A",
+            "brief_summary": "This is a single arm open label, multicenter, non randomized, access study of trametinib for subjects with histologically confirmed cutaneous melanoma with a BRAF V600E/K positive mutation that is either advanced unresectable (stage IIIc) or distant metastatic (stage IV). Trametinib may be given as monotherapy or in combination since first line metastatic melanoma as per inclusion criteria. Subjects who received prior BRAF inhibitor may be included if they have not progressed under such treatmen",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provides signed and dated informed consent, with age at the time of consent \\>=18 years.\n* Has histologically confirmed cutaneous melanoma BRAF V600E/K positive mutation either unresectable (stage IIIc) or distant metastatic (stage IV).\n* Is not eligible for enrolment in any o",
+            "endpoints": [],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT02416232"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04154163",
+            "title": "Appropriate Dosing to Optimise Personalised Cancer Treatments",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-01-10",
+            "completion_date": "2021-03-05",
+            "country": "United Kingdom",
+            "enrollment": 18,
+            "brief_summary": "This is a pilot study to assess feasibility of dried blood spot (DBS) samples for pharmacokinetic measurements of targeted anti-cancer drugs in oncology patients such as patients with BRAF-mutant melanoma receiving targeted treatment with BRAF and MEK inhibitors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female participants\n* Age 18 years and over\n* Confirmed diagnosis of stage 4 or stage 3 unresectable cancers; BRAF+ melanoma, c-KIT+ melanoma, advanced renal cell carcinoma, non-small cell lung carcinoma and ovarian carcinoma.\n* Able to perform study assessments\n* Indi",
+            "endpoints": [
+              "The accuracy of DBS for measuring drug levels in venous blood following standard doses of targeted therapies for metastatic cancers such as BRAF mutant melanoma"
+            ],
+            "sponsor": "University of Dundee",
+            "url": "https://clinicaltrials.gov/study/NCT04154163"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02915666",
+            "title": "A Phase 1B Clinical Trial of Dabrafenib, Trametinib Plus Digoxin in Patients With Unresectable or Metastatic BRAF V600 Mutant Melanoma",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2016-10",
+            "completion_date": "2017-07-17",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This study is being done to find out if the combination of dabrafenib, trametinib and digoxin will lessen the side effects that you may experience and to measure your response and duration of response to the combination of drugs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologic diagnosis of unresectable or metastatic BRAF V600 mutant melanoma.\n2. Age \\> 18 years.\n3. Naïve or any number of prior systemic therapeutic regimens for unresectable stage III or stage IV melanoma, except prior BRAF or MEK inhibitor agents. This includes chemothera",
+            "endpoints": [
+              "Frequency of DLTs"
+            ],
+            "sponsor": "University of Texas Southwestern Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02915666"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01928940",
+            "title": "A Japanese Open-label Phase I/II Study to Assess the Safety, Tolerability, Pharmacokinetics and Efficacy of GSK2118436 and GSK1120212 Combination Therapy in Subjects With BRAF V600E/K Mutation Positive Advanced Solid Tumors (Phase I Part) and BRAF V600E/K Mutation Positive Cutaneous Melanoma (Phase II Part).",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-08-15",
+            "completion_date": "2016-07-04",
+            "country": "Japan",
+            "enrollment": 12,
+            "brief_summary": "This is a Japanese Phase I/II, open-label, non-controlled study to evaluate the safety, tolerability, pharmacokinetic profile, and efficacy of the combination of GSK2118436 and GSK1120212 in subjects with BRAF V600E/K mutation positive advanced solid tumors (Phase I part) and BRAF V600E/K mutation positive cutaneous melanoma (Phase II part).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Capable of given written informed consent, which includes compliance with the requirements and restrictions listed in the consent form.\n* Male or female age 20 years or greater; able to swallow and retain oral medication.\n* BRAF mutation positive advanced solid tumor ( Phase I",
+            "endpoints": [
+              "Phase I: Number of Participants With Any Adverse Event (AE) and Any Serious Adverse Event (SAE)",
+              "Phase I: Number of Participants With a Dose-limiting Toxicity (DLT)",
+              "Phase I: Number of Participants With the Indicated Worst-case Change From Baseline (BL) in the Indicated Clinical Chemistry Parameters (CCPs)"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01928940"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02974725",
+            "title": "A Phase Ib, Open-label, Multicenter Study of Oral LXH254-centric Combinations in Adult Patients With Advanced or Metastatic KRAS or BRAF Mutant Non-Small Cell Lung Cancer or NRAS Mutant Melanoma",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2017-02-24",
+            "completion_date": "2024-04-24",
+            "country": "Australia, Spain, France, South Korea, Belgium, Germany, Israel, Italy, United States, Sweden, Poland",
+            "enrollment": 241,
+            "brief_summary": "To characterize safety and tolerability and identify a recommended dose and regimen for the LXH254 in combination with LTT462 or trametinib or ribociclib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have advanced or metastatic NSCLC or cutaneous melanoma\n* Presence of KRAS or BRAF mutation (NSCLC) or NRAS mutation (cutaneous melanoma) in tumor tissue\n* All patients participating in this clinical trial must have progressed following standard therapy or, in th",
+            "endpoints": [
+              "Number of participants with Adverse Events (AEs) as a measure of safety and tolerability",
+              "Dose limiting toxicities (DLTs) (dose escalation only)",
+              "Tolerability measured by the number of subjects who have interruptions/reductions of study treatment and reason for interruptions/reductions"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02974725"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04310397",
+            "title": "Altering Adjuvant Therapy Based on Pathologic Response to Neoadjuvant Dabrafenib and Trametinib (ALTER-PATH NeoDT)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2020-01-29",
+            "completion_date": "2023-10-09",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "This phase II trial studies how well dabrafenib, trametinib, and spartalizumab works in treating patients with BRAF V600E or V600K mutation positive stage IIIB/C/D melanoma, who do not achieve a pathologic complete response after 8 weeks of dabrafenib and trametinib treatment. Patients who achieve a pathologic complete response after 8 weeks of neoadjuvant dabrafenib and trametinib will receive adjuvant dabrafenib and trametinib. Dabrafenib and trametinib may stop the growth of tumor cells by bl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Capable of giving written informed consent, which includes compliance with the requirements and restrictions listed in the consent form\n* Patients must have histologically or cytologically confirmed clinically detected, node involved Stage IIIB/C/D melanoma by American Joint C",
+            "endpoints": [
+              "Survival Rate in Stage IIIb/C/D Subjects"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04310397"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01597908",
+            "title": "A Phase III, Randomised, Open-label Study Comparing the Combination of the BRAF Inhibitor, Dabrafenib and the MEK Inhibitor, Trametinib to the BRAF Inhibitor Vemurafenib in Subjects With Unresectable (Stage IIIc) or Metastatic (Stage IV) BRAF V600E/K Mutation Positive Cutaneous Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-06-04",
+            "completion_date": "2019-04-25",
+            "country": "Australia, Belgium, Austria, United States, Ukraine, Canada, South Korea, Netherlands, Italy, Russia, Czechia, Sweden, Ireland, Norway, Poland, United Kingdom, France, New Zealand, Brazil, Germany, Argentina, Israel, Denmark, Hungary, Switzerland, Spain, Finland, Taiwan",
+            "enrollment": 704,
+            "brief_summary": "This was a two-arm, open-label, randomized, Phase III study comparing dabrafenib (GSK2118436) and trametinib (GSK1120212) combination therapy with vemurafenib.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* \\>= 18 years of age\n* Stage IIIc or Stage IV BRAF V600E/K cutaneous melanoma\n* Measurable disease according to RECIST 1.1\n* Women of childbearing potential with negative serum pregnancy test prior to randomisation\n* Eastern Cooperative Oncology Group (ECOG) Performance Sta",
+            "endpoints": [
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01597908"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01072175",
+            "title": "An Open-Label, Dose-Escalation, Phase I/II Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics and Clinical Activity of the BRAF Inhibitor GSK2118436 in Combination With the MEK Inhibitor GSK1120212 in Subjects With BRAF Mutant Metastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-03-26",
+            "completion_date": "2018-02-27",
+            "country": "Australia, United States",
+            "enrollment": 430,
+            "brief_summary": "This was an open-label, dose escalation study to investigate the safety, pharmacokinetics, pharmacodynamics and clinical activity of GSK2118436 and GSK1120212 in combination. This study was designed in four parts. In Part A, the effect of repeat doses of GSK1120212 on the pharmacokinetics of single dose GSK2118436 was investigated prior to evaluating combination regimens. In Part B, the range of tolerated dose combinations was identified using a dose-escalation procedure. In Part C, different do",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Capable of given written informed consent, which includes compliance with the requirements and restrictions listed in the consent form.\n* Male or female age 18 years or greater; able to swallow and retain oral medication.\n* BRAF mutation positive melanoma or colorectal can",
+            "endpoints": [
+              "Part A: Maximum Plasma Concentration (Cmax) of a Single Dose of Dabrafenib Administered Alone and in Combination With Trametnib",
+              "Part A: AUC (0-t) and AUC (0-inf) of Dabrafenib and Its Metabolites",
+              "Part B: Number of Participants With Any Adverse Event (AE) or Serious Adverse Event (SAE)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01072175"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01387204",
+            "title": "An Open-label Mass Balance Study to Investigate the Absorption, Distribution, Metabolism and Elimination of a Single Oral Dose of MEK Inhibitor [14C]GSK1120212 in Male Subjects With Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-02-15",
+            "completion_date": "2011-07-18",
+            "country": "United States",
+            "enrollment": 6,
+            "brief_summary": "GSK1120212 is a reversible and highly selective allosteric inhibitor of MEK1 and MEK2 activation and kinase activity currently being developed for the treatment of malignant melanoma. This is a Phase I, open-label, non-randomized, single-dose study designed to characterize the absorption, distribution, metabolism, and elimination (ADME) of a single oral dose of MEK inhibitor \\[14C\\]GSK1120212 as a solution in male subjects with solid tumor malignancies. A sufficient number of subjects will be en",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male 18 years old or older.\n2. Written informed consent provided\n3. Body weight greater than or equal to 45 kg and a BMI greater than or equal to 19 kg/m2 and less than or equal to 35 kg/m2 (inclusive).\n4. Able to swallow and retain oral medication.\n5. Histologically or cytol",
+            "endpoints": [
+              "Total excretion of radioactivity"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01387204"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02281760",
+            "title": "A Phase II Therapeutic Trial of the Use of Dabrafenib and Trametinib in Patients With BRAF V600E Mutation Positive Lesions in Erdheim Chester Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-11-01",
+            "completion_date": "2018-08-29",
+            "country": "United States",
+            "enrollment": 9,
+            "brief_summary": "Erdheim-Chester Diseases (ECD) is a very rare non-Langerhans cell histiocytosis of unknown origin and pathogenesis. It has been reported mainly in adult males over the age of 40 years, although cases have been reported in females as well. Children are rarely affected. Mutation of the BRAF gene, specifically BRAFV600E, has been recently identified in 50% of Erdheim Chester lesions in a French cohort. This somatic mutation is believed to be the driver mutation in positive cases. The clinical chara",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n* All patients will be previously or simultaneously enrolled in the natural history ECD protocol #11-HG-0207, Clinical and Basic Investigations into Erdheim Chester disease . Eligible patients must have been diagnosed with Erdheim Chester disease, confirmed by pathological eval",
+            "endpoints": [
+              "Number of Participants With Partial Response to Dabrafenib and Trametinib",
+              "Number of Participants With Adverse Events to Dabrafenib and/or Trametinib",
+              "Clinical Response Rate to Dabrafenib/Trametinib Combination Therapy in a Cohort of Patients With BRAFV600E Positive Erdheim Chester Disease."
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT02281760"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02300935",
+            "title": "Phase I Study of Trametinib and Nab-paclitaxel in Patients With Melanoma",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2015-12",
+            "completion_date": "2016-01-20",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This study will investigate the combination of two drugs, trametinib and nab-paclitaxel, in patients with advanced unresectable or metastatic melanoma. Each drug has shown activity in trials of patients with melanoma. However, the combination of these two drugs has not been studied. In this trial the investigators will determine the maximum dose of the drug combination to be administered to patients with advanced unresectable or metastatic melanoma and examine the safety profile of the drug comb",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (≥18 years) with histologically or cytologically-confirmed advanced unresectable or metastatic melanoma. BRAF mutation-positive and wild-type tumors are allowed.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n* Adequate hematologic, renal, and ",
+            "endpoints": [
+              "Number of patients with Adverse Events (AEs) as a Measure of Safety and Tolerability"
+            ],
+            "sponsor": "SCRI Development Innovations, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02300935"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05275374",
+            "title": "A Dose-escalation and Expansion Phase I/IIa Study of XP-102 and XP-102 in Combination With Trametinib in Advanced Solid Tumor Patients With a BRAF V600 Mutation (ENHANCE)",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-12-31",
+            "completion_date": "2028-12-30",
+            "country": "N/A",
+            "enrollment": 221,
+            "brief_summary": "This is a first-in-human multi-center study which will be conducted in advanced malignant solid tumors patients. The solid tumor type is limited to melanoma, colorectal, non-small-cell lung, and thyroid cancer with positive BRAF V600 mutation. This study is divided into three stages: Phase Ia: a dose-escalation phase of XP-102; Phase Ib: a dose-escalation and sample size expansion phase of XP-102 plus trametinib; Phase IIa: an expansion phase of XP-102 plus trametinib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥18 years of age\n* Advanced malignant solid tumor patients with a BRAF V600 mutation (limited to melanoma, colorectal cancer, non-small cell lung cancer, or thyroid cancer).\n* Must have failed conventional treatment or for whom no therapy of proven efficacy exists or who is no",
+            "endpoints": [
+              "Characterize the safety of XP-102.",
+              "Evaluate the pharmacokinetics of XP-102.",
+              "Establish maximum tolerated dose of XP-102."
+            ],
+            "sponsor": "Xynomic Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05275374"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02872259",
+            "title": "A Phase Ib/II Randomised Open Label Study of BGB324 in Combination With Pembrolizumab or Dabrafenib/Trametinib Compared to Pembrolizumab or Dabrafenib/Trametinib Alone, in Patients With Advanced Non-resectable (Stage IIIc) or Metastatic (Stage IV) Melanoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-02-13",
+            "completion_date": "2024-05-23",
+            "country": "Norway",
+            "enrollment": 74,
+            "brief_summary": "The purpose of the study is to assess the safety and efficacy of BGB324 given together with standard treatment, pembrolizumab or dabrafenib and trametinib, compared to standard treatment alone,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients able to understand and willing to sign a written protocol specific informed consent and 18 years or older at the time of consent\n2. Histologically confirmed advanced cutaneous melanoma that is either non-resectable (Stage IIIc) or metastatic (Stage IV) with:\n\n   1. A",
+            "endpoints": [
+              "Objective Response Rate (ORR) assessed according to RECIST Version 1.1",
+              "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0"
+            ],
+            "sponsor": "Haukeland University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02872259"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04760080",
+            "title": "Adjunction of Hydroxychloroquine in Patients With a Metastatic Melanoma Who Are Resistant to BRAF and MEK Inhibitors : a Retrospective Case-control Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-01-01",
+            "completion_date": "2020-10-01",
+            "country": "France",
+            "enrollment": 31,
+            "brief_summary": "Patients with a BRAF mutated melanoma are usually treated in France by a first line of immunotherapy followed by a second line that combines a BRAF inhibitor (dabrafenib, vemurafenib, encorafenib) and a MEK inhibitor (trametinib, cobimetinib, binimetinib).\n\nThe combination dabrafenib/trametinib is initially very efficient but it is unfortunately limited because acquired resistances usually occur after a year of treatment. Patients who become resistant to dabrafenib/trametinib and immunotherapy, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with metastatic melanoma with an activating BRAF mutation\n* Who received at least one line of immunotherapy\n* Whose disease is resistant to a BRAF inhibitor used as a single agent or in combination with a MEK inhibitor\n* Who received either cytotoxic chemotherapy or t",
+            "endpoints": [
+              "Comparison of progression free survival (PFS) in patients who are resistant to dabrafenib/trametinib who receive dabrafenib/trametinib/hydroxychloroquine despite tumor progression versus cytotoxic chemotherapy"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT04760080"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05299580",
+            "title": "\"Dabrafenib and Trametinib in Circulating Free DNA BRAFV600 Mutated Metastatic Melanoma Patients: a Prospective Phase II, Open Label, Multicentre Study - (Bioliquid TAILOR Study - BIOTAILOR)\"",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2021-02-18",
+            "completion_date": "2023-03-30",
+            "country": "Italy",
+            "enrollment": 0,
+            "brief_summary": "There is evidence from cohort studies and metanalysis that a shift from BRAFWT to BRAF mutated melanomas can occur (Colombino JCO 2012, Valchis EJC 2017). Based on previous studies we expect that 15% of tissue BRAF WT patients treated with anti PD-1 will become circulating free DNA BRAF (CfDNA BRAF) mutation-positive and, at progression, they will be elegible to be treated with dabrafenib/trametinib. We aimed to design a clinical phase II trial in order to evaluate the activity of Dabrafenib and",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients of either sex aged ≥ 18 years;\n2. Histologically confirmed stage III (unresectable) or stage IV melanoma;\n3. Tissue BRAFWT signature and a molecular shift to circulating free DNA BRAF mutated positive melanomas upon progression to anti PD-1 therapy;\n4. Tumor biopsy, ",
+            "endpoints": [
+              "Overall Response Rate"
+            ],
+            "sponsor": "Fondazione Melanoma Onlus",
+            "url": "https://clinicaltrials.gov/study/NCT05299580"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02645149",
+            "title": "Molecular Profiling and Matched Targeted Therapy for Patients With Unresectable Advanced or Metastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-11-22",
+            "completion_date": "2025-12-01",
+            "country": "Australia",
+            "enrollment": 216,
+            "brief_summary": "This is a patient oriented translational research project aiming to improve clinical outcomes for patients with BRAF and NRAS wild-type unresectable Stage III or Stage IV metastatic melanoma who have progressed on, or are unable to receive standard therapy (in general, immunotherapy). Consecutive patients seen at three major clinics and fitting the broad eligibility criteria will be invited to participate.\n\nThe approach is designed to test the impact of different targeted drugs on different muta",
+            "eligibility_criteria": "Inclusion criteria for Part 1:\n\n1. Written informed consent for Part 1\n2. Newly diagnosed, histologically confirmedand , unresectable Stage IIIB, IIIC or Stage IV melanoma including cutaneous (including acral, ungual subtypes), ocular (including uveal and extra-uveal), mucosal, and unknown primary).",
+            "endpoints": [
+              "Type and frequency of genetic aberrations in BRAF/NRAS wild-type metastatic melanoma",
+              "Proportion of patients with BRAS/NRAS wild-type melanoma receiving targeted therapy"
+            ],
+            "sponsor": "Melanoma Institute Australia",
+            "url": "https://clinicaltrials.gov/study/NCT02645149"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05171374",
+            "title": "Prospective Evaluation of Clinical Outcomes in Patients With Resectable or Metastatic BRAF+ Melanoma Treated With Dabrafenib and Trametinib in Real Practice",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2021-09-30",
+            "completion_date": "2024-09-30",
+            "country": "Russia",
+            "enrollment": 500,
+            "brief_summary": "Prospective evaluation of clinical outcomes in patients with resectable or metastatic BRAF+ melanoma treated with dabrafenib and trametinib in real practice",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female patients aged 18 years or older;\n* Histologically confirmed stage III resectable or stage IV metastatic cutaneous melanoma with confirmed BRAF mutation, for whom the treating physician took the decision to initiate treatment with dabrafenib and trametinib before",
+            "endpoints": [
+              "12-month RFS rate",
+              "12-month PFS rate"
+            ],
+            "sponsor": "MelanomaPRO, Russia",
+            "url": "https://clinicaltrials.gov/study/NCT05171374"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02097225",
+            "title": "Phase I Study of AT13387 in Combination With Dabrafenib and Trametinib in Patients With BRAF-Mutant Melanoma and Other Solid Tumors",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2014-05-29",
+            "completion_date": "2022-10-26",
+            "country": "United States",
+            "enrollment": 22,
+            "brief_summary": "This phase I trial studies the side effects and best dose of onalespib when given together with dabrafenib and trametinib in treating patients with BRAF-mutant melanoma or solid tumors that have spread to another place in the body (metastatic) or cannot be removed by surgery. Onalespib, dabrafenib, and trametinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed, BRAF-mutant (V600E/K) solid tumor (molecularly confirmed using Cobas assay or a comparable Food and Drug Administration \\[FDA\\]-approved assay) that is metastatic or unresectable, have received and tolerated prior BRAF or BRAF and M",
+            "endpoints": [
+              "Maximum Tolerated Dose of Dabrafenib",
+              "Maximum Tolerated Dose of Trametinib",
+              "Maximum Tolerated Dose of Onalespib"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02097225"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01941927",
+            "title": "Phase II Clinical Trial of the MEK Inhibitor Trametinib With the AKT Inhibitor GSK2141795 in BRAF Wild-type Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-09-10",
+            "completion_date": "2017-05-03",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "This is a multicenter phase II clinical study of trametinib in combination with GSK2141795 in patients with BRAF wild-type mutation melanoma. All patients will receive continuous dosing of trametinib (2 mg) in combination with GSK2141795 (25 mg) oral daily until progression of disease, withdrawal of consent, or the development of intolerable treatment associated toxicity. Imaging (CT or MRI) will be performed within 7 days prior to day 1 of Odd Cycles, starting with Cycle 3.\n\nPatients may contin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years.\n2. Histologically or cytologically confirmed Malignant Melanoma.\n3. Unresectable Stage III or Stage IV disease.\n4. Measureable disease by RECIST 1.1\n5. Eastern Cooperative Oncology Group (ECOG) performance status 0-2\n6. Resolution of all acute toxic effects of",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "University of California, San Francisco",
+            "url": "https://clinicaltrials.gov/study/NCT01941927"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07440290",
+            "title": "DETERMINE (Determining Extended Therapeutic Indications for Existing Drugs in Rare Molecularly Defined Indications Using a National Evaluation Platform Trial): An Umbrella-Basket Platform Trial to Evaluate the Efficacy of Targeted Therapies in Rare Adult, Paediatric and Teenage/Young Adult (TYA) Cancers With Actionable Genomic Alterations, Including Common Cancers With Rare Actionable Alterations. Treatment Arm 07: Dabrafenib in Combination With Trametinib in Adult, Paediatric and TYA Patients With BRAF V600 Mutation-Positive Cancers.",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-02",
+            "completion_date": "2029-10",
+            "country": "United Kingdom",
+            "enrollment": 30,
+            "brief_summary": "This clinical trial is looking at two drugs called dabrafenib and trametinib. Dabrafenib and trametinib are approved as standard of care treatment for adult patients with melanoma (a type of skin cancer) or lung cancer and in children with glioma (a type of brain tumour). This means they have gone through clinical trials and been approved by the Medicines and Healthcare products Regulatory Agency (MHRA) in the UK. Dabrafenib and trametinib work in patients with a particular mutation in their can",
+            "eligibility_criteria": "THE PATIENT MUST FULFIL THE ELIGIBILITY CRITERIA WITHIN THE DETERMINE MASTER PROTOCOL (NCT05722886) AND WITHIN THE TREATMENT ARM 07 (DABRAFENIB AND TRAMETINIB) OUTLINED BELOW\\* \\*When dabrafenib- and trametinib-specific inclusion/exclusion criteria or precautions below differ from those specified in",
+            "endpoints": [
+              "Objective response (OR)",
+              "Durable Clinical Benefit (DCB)"
+            ],
+            "sponsor": "Cancer Research UK",
+            "url": "https://clinicaltrials.gov/study/NCT07440290"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04547946",
+            "title": "Impact of Melanoma Adjuvant Treatment With Tafinlar® + Mekinist® (Dabrafenib + Trametinib) on Patients Quality of Life (QoL) and Clinical Outcomes in Portuguese Real World Setting",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-10-15",
+            "completion_date": "2022-06-07",
+            "country": "Portugal",
+            "enrollment": 3,
+            "brief_summary": "The primary objective for this non-interventional study was to assess the quality of life of melanoma patients under adjuvant treatment with dabrafenib and trametinib in real world setting in Portugal through disease specific FACT-M questionnaire and generic EQ-5D-3L questionnaire. The secondary study objectives were to assess the usage of adjuvant dabrafenib and trametinib in clinical practice and to evaluate clinical outcomes in patients that started adjuvant treatment with dabrafenib and tram",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with complete surgical resection of histologically confirmed AJCC (8th edition) clinical stage III (IIIA, IIIB, IIIC, IIID) melanoma, in whom a decision for adjuvant treatment with dabrafenib and trametinib has been made before entering the study\n\n  * V600E/K mutation",
+            "endpoints": [
+              "Change from baseline in FACT-M score",
+              "Change from baseline in EQ-5D-3L score"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04547946"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02967692",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Phase III Study Comparing the Combination of PDR001, Dabrafenib and Trametinib Versus Placebo, Dabrafenib and Trametinib in Previously Untreated Patients With Unresectable or Metastatic BRAF V600 Mutant Melanoma",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2017-02-17",
+            "completion_date": "2024-08-21",
+            "country": "Australia, Belgium, Austria, United States, Canada, Netherlands, Italy, Chile, Czechia, Russia, Sweden, Thailand, Japan, Norway, Poland, United Kingdom, France, Brazil, Germany, Argentina, Israel, Denmark, Mexico, Hungary, Switzerland, Spain, Portugal, Bulgaria, Greece",
+            "enrollment": 568,
+            "brief_summary": "The purpose of this study was to evaluate safety and efficacy of the combination of an anti-PD-1 antibody (PDR001), a BRAF inhibitor (dabrafenib) and a MEK inhibitor (trametinib) in patients with BRAF V600 mutant, unresectable and metastatic melanoma.",
+            "eligibility_criteria": "Inclusion criteria Part 1: Safety run-in\n\n* Histologically confirmed, unresectable or metastatic melanoma with BRAF V600 mutation\n* Aspartate transaminase (AST) \\< 2.5× ULN and Alanine transaminase (ALT) \\< 2.5× ULN\n* Measurable disease according to RECIST 1.1\n* ECOG performance status ≤ 1\n\nPart 2: ",
+            "endpoints": [
+              "Safety Run-In (Part 1): Number of Participants With Dose Limiting Toxicities (DLTs)",
+              "Biomarker Cohort (Part 2): Change From Baseline in Programmed Cell Death-ligand 1 (PD-L1) Expression Upon Treatment With Spartalizumab in Combination With Dabrafenib and Trametinib",
+              "Biomarker Cohort (Part 2): Change From Baseline in CD8+ Cells Upon Treatment With Spartalizumab in Combination With Dabrafenib and Trametinib"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02967692"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06712875",
+            "title": "A Pilot Study Evaluating the Toxicity and Clinical Benefit of Mitogen-activated Protein Kinase (MAPK) Pathway Inhibition Combined With Programmed Cell Death-1 Checkpoint Blockade (Anti-PD1) for the Treatment of BRAF-altered Pediatric Gliomas",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-04-01",
+            "completion_date": "2029-06",
+            "country": "United States",
+            "enrollment": 27,
+            "brief_summary": "Pediatric gliomas harboring BRAF-alterations, commonly BRAFV600 mutation or KIAA1549-BRAF fusion, are currently treated with either chemotherapy or mitogen activated protein kinase (MAPK) inhibitors, such as, dabrafenib and/or trametinib. Unfortunately, some BRAF-altered gliomas can progress or have rebound growth after discontinuation of therapy. Data from BRAFV600E-mutant melanoma has shown potential synergy between MAPK inhibition and anti-programmed cell death 1 (anti-PD1) checkpoint blockad",
+            "eligibility_criteria": "Inclusion Criteria:\n\nCohort A Only:\n\n* Patients with histologically confirmed diagnosis of pediatric high- or low-grade glioma harboring a KIAA1549-BRAF fusion: Low-grade glioma that is recurrent or progressive OR High-grade glioma that is newly diagnosed or recurrent OR\n* Patients with NF1-associat",
+            "endpoints": [
+              "Safety based on number of participants with treatment-related adverse events based on scoring from CTCAE v4.0"
+            ],
+            "sponsor": "Ann & Robert H Lurie Children's Hospital of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT06712875"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01245062",
+            "title": "A Phase III Randomized, Open-label Study Comparing GSK1120212 to Chemotherapy in Subjects With Advanced or Metastatic BRAF V600E/K Mutation-positive Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-11-22",
+            "completion_date": "2016-12-16",
+            "country": "Australia, Belgium, Austria, United States, Ukraine, Canada, Italy, Russia, Czechia, Sweden, Poland, Norway, United Kingdom, France, New Zealand, Germany, Argentina, Switzerland, Greece",
+            "enrollment": 322,
+            "brief_summary": "This is a two-arm, open-label, randomized Phase III study comparing single agent GSK1120212 to chemotherapy (either dacarbazine or paclitaxel) in subjects with Stage IIIc or Stage IV malignant cutaneous melanoma. All subjects must have a BRAF mutation-positive tumour sample. Subjects who have received up to one prior regimen of chemotherapy in the advanced or metastatic melanoma setting will be enrolled into the study. Subjects with any prior BRAF or MEK inhibitor use will be excluded. Approxima",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥18 years of age\n* Stage III unresectable (Stage IIIc) or metastatic (Stage IV) cutaneous melanoma which is also determined to be BRAF V600E/K mutation-positive by the central laboratory\n* Received no prior treatment or up to one prior regimen of chemotherapy for advanced or m",
+            "endpoints": [
+              "Progression-free Survival in BRAF V600E Mutation-positive Participants Without a History of Brain Metastases as Assessed by the Investigator and Independent Review"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01245062"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell melanoma",
+        "txgnn_score": 0.9927614331245422,
+        "txgnn_rank": 8416,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31361915",
+            "title": "Two cases of BRAF-mutated, bulbar conjunctival melanoma, and review of the published literature.",
+            "abstract": "We describe two patients with BRAF-mutated melanoma of the epithelioid cell type arising from primary acquired melanosis with severe atypia of the right bulbar conjunctiva. Patient 1 was a 71-year-old Japanese man. After adjuvant cryotherapy and enucleation of the right eyeball, therapy with vemurafenib was administered for a distant metastasis to a lumbar vertebra, accompanied by erythema multiforme and two keratinous tumours. The patient died due to metastases to the liver and multiple vertebrae, despite therapy with nivolumab and combination therapy with dabrafenib plus trametinib. Patient 2 was a 72-year-old Japanese man. After adjuvant cryotherapy, periodic mitomycin C eye drops, and excision of the superficial portion of the right parotid gland and the dissection of cervical lymph nodes, he was treated with adjuvant combination therapy with dabrafenib plus trametinib. Dermatologists should be familiar with BRAF-mutated conjunctival melanoma, which is usually located on the bulbar",
+            "journal": "Clinical and experimental dermatology",
+            "year": "2020",
+            "authors": [
+              "Kiyohara T",
+              "Tanimura H",
+              "Miyamoto M",
+              "Shijimaya T",
+              "Nagano N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Conjunctiva",
+              "Conjunctival Neoplasms",
+              "Fatal Outcome",
+              "Humans",
+              "Liver Neoplasms",
+              "Lymphatic Metastasis",
+              "MAP Kinase Kinase Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31361915/"
+          },
+          {
+            "pmid": "31747798",
+            "title": "Lacrimal Sac Malignant Melanoma in 15 Japanese Patients: Case Report and Literature Review.",
+            "abstract": "Background. Primary malignant melanoma of the lacrimal sac is rare. A patient with lacrimal sac melanoma was presented, and 14 Japanese patients with lacrimal sac melanoma in the literature were reviewed. Case Presentation. A 78-year-old Japanese man was presented with painless swelling of the lacrimal sac on the left side. Dacryocystectomy revealed diffuse infiltration with large epithelioid cells, sometimes with pigments, which were positive for cocktail mix of antibodies to tyrosinase, melan A (MART-1), and HMB45, leading to pathological diagnosis of melanoma. One month later, positron emission tomography (PET) revealed 2 high-uptake sites (SUVmax = 10.29 and 15.38) at the levels of medial canthus and nasolacrimal duct, but no abnormal uptake in the other site of the body. The lesion had the BRAF V600E mutation. He began to take daily oral dabrafenib (BRAF inhibitor) and trametinib (MEK inhibitor), leading to no abnormal uptake on PET in half a year. He had stable disease in good ph",
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2019",
+            "authors": [
+              "Matsuo Toshihiko",
+              "Tanaka Takehiro",
+              "Yamasaki Osamu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Eye Neoplasms",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Melanoma",
+              "Mutation",
+              "Nasolacrimal Duct",
+              "Oximes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31747798/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "eyelid melanoma",
+        "txgnn_score": 0.992644429206848,
+        "txgnn_rank": 8514,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31361915",
+            "title": "Two cases of BRAF-mutated, bulbar conjunctival melanoma, and review of the published literature.",
+            "abstract": "We describe two patients with BRAF-mutated melanoma of the epithelioid cell type arising from primary acquired melanosis with severe atypia of the right bulbar conjunctiva. Patient 1 was a 71-year-old Japanese man. After adjuvant cryotherapy and enucleation of the right eyeball, therapy with vemurafenib was administered for a distant metastasis to a lumbar vertebra, accompanied by erythema multiforme and two keratinous tumours. The patient died due to metastases to the liver and multiple vertebrae, despite therapy with nivolumab and combination therapy with dabrafenib plus trametinib. Patient 2 was a 72-year-old Japanese man. After adjuvant cryotherapy, periodic mitomycin C eye drops, and excision of the superficial portion of the right parotid gland and the dissection of cervical lymph nodes, he was treated with adjuvant combination therapy with dabrafenib plus trametinib. Dermatologists should be familiar with BRAF-mutated conjunctival melanoma, which is usually located on the bulbar",
+            "journal": "Clinical and experimental dermatology",
+            "year": "2020",
+            "authors": [
+              "Kiyohara T",
+              "Tanimura H",
+              "Miyamoto M",
+              "Shijimaya T",
+              "Nagano N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Conjunctiva",
+              "Conjunctival Neoplasms",
+              "Fatal Outcome",
+              "Humans",
+              "Liver Neoplasms",
+              "Lymphatic Metastasis",
+              "MAP Kinase Kinase Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31361915/"
+          },
+          {
+            "pmid": "27893585",
+            "title": "Conjunctival Melanoma Responsive to Combined Systemic BRAF/MEK Inhibitors.",
+            "abstract": "This report demonstrates a unique case of conjunctival melanoma harboring a BRAF V600E mutation responsive to systemic therapy with BRAF and MEK inhibitors. While systemic therapy would not be appropriate in patients with local disease alone, it may act therapeutically in cases of higher stage ocular surface and eyelid melanoma.",
+            "journal": "Ophthalmic plastic and reconstructive surgery",
+            "year": "2017",
+            "authors": [
+              "Dagi Glass Lora R",
+              "Lawrence Donald P",
+              "Jakobiec Frederick A",
+              "Freitag Suzanne K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Biopsy",
+              "Conjunctival Neoplasms",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Imidazoles",
+              "Melanoma",
+              "Middle Aged",
+              "Oximes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27893585/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "scrotum melanoma",
+        "txgnn_score": 0.9920610189437866,
+        "txgnn_rank": 8991,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant melanoma of the mucosa",
+        "txgnn_score": 0.9913809895515442,
+        "txgnn_rank": 9502,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04489433",
+            "title": "Managed Access Program (MAP) Cohort Treatment Plan CDRB436B2005CM to Provide Access to Trametinib and Dabrafenib for Patients With BRAF Mutation-positive Metastatic Melanoma",
+            "phase": "N/A",
+            "status": "NO_LONGER_AVAILABLE",
+            "start_date": "",
+            "completion_date": "",
+            "country": "N/A",
+            "enrollment": "N/A",
+            "brief_summary": "The purpose of this Cohort Treatment Plan is to allow access to trametinib (monotherapy or in combination) and dabrafenib (monotherapy or in combination) for eligible patients diagnosed with metastatic melanoma BRAF mutation-positive.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients eligible for inclusion in this Treatment Plan have to meet all of the following criteria:\n\n1. Has or is willing to give consent to the Treating Physician in accordance with the local regulatory requirements, with age at the time of consent ≥18 years.\n2. Has confirmed BR",
+            "endpoints": [],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04489433"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04666272",
+            "title": "Effectiveness and Safety of Dabrafenib in Combination With Trametinib as Adjuvant Treatment for Chinese Patients With Stage III BRAF V600 Mutation-positive Melanoma After Complete Resection",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-12-31",
+            "completion_date": "2028-02-04",
+            "country": "China",
+            "enrollment": 78,
+            "brief_summary": "This is a prospective, open label, single-arm, multicenter, non-interventional study of dabrafenib in combination with trametinib as adjuvant treatment for Chinese patients with stage III BRAF V600 mutation positive melanoma after complete resection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatient(s) must meet all of the following criteria to be eligible for inclusion:\n\n1. ≥18 years old of age at the time of informed consent and of Chinese descent\n2. Signed written informed consent\n3. Going to receive commercial dabrafenib and trametinib according to approved labe",
+            "endpoints": [
+              "Relapse-free survival (RFS)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04666272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02645149",
+            "title": "Molecular Profiling and Matched Targeted Therapy for Patients With Unresectable Advanced or Metastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-11-22",
+            "completion_date": "2025-12-01",
+            "country": "Australia",
+            "enrollment": 216,
+            "brief_summary": "This is a patient oriented translational research project aiming to improve clinical outcomes for patients with BRAF and NRAS wild-type unresectable Stage III or Stage IV metastatic melanoma who have progressed on, or are unable to receive standard therapy (in general, immunotherapy). Consecutive patients seen at three major clinics and fitting the broad eligibility criteria will be invited to participate.\n\nThe approach is designed to test the impact of different targeted drugs on different muta",
+            "eligibility_criteria": "Inclusion criteria for Part 1:\n\n1. Written informed consent for Part 1\n2. Newly diagnosed, histologically confirmedand , unresectable Stage IIIB, IIIC or Stage IV melanoma including cutaneous (including acral, ungual subtypes), ocular (including uveal and extra-uveal), mucosal, and unknown primary).",
+            "endpoints": [
+              "Type and frequency of genetic aberrations in BRAF/NRAS wild-type metastatic melanoma",
+              "Proportion of patients with BRAS/NRAS wild-type melanoma receiving targeted therapy"
+            ],
+            "sponsor": "Melanoma Institute Australia",
+            "url": "https://clinicaltrials.gov/study/NCT02645149"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06337617",
+            "title": "A Multi-center Retrospective Study With Secondary Use of Data of Tafinlar (Dabrafenib) Plus Mekinist (Trametinib) in Chinese Patients With BRAF V600 Mutation Positive Melanoma",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-05-10",
+            "completion_date": "2023-06-29",
+            "country": "China",
+            "enrollment": 90,
+            "brief_summary": "This was a multi-center, observational, retrospective cohort study to evaluate the effectiveness and safety of dabrafenib in combination with trametinib in Chinese patients with unresectable or metastatic BRAF V600 mutation positive melanoma, for mucosal melanoma patients (Cohort A) and non-mucosal melanoma patients (Cohort B, cutaneous and acral melanoma), separately. Study population was identified as patients initiating dabrafenib plus trametinib from 01 May 2020 to 31 July 2022 who fulfilled",
+            "eligibility_criteria": "Inclusion Criteria:\n\nCohorts A and B:\n\n* Initiated dabrafenib and trametinib combination therapy (D+T) according to approved label between 01 May 2020 and 31 July 2022\n* Was ≥18 years old of age at the initiation of D+T\n* Had at least one tumor assessment after initiation of D+T\n* Written informed c",
+            "endpoints": [
+              "Real-world overall response rate (rwORR)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT06337617"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29650281",
+            "title": "Recent developments and obstacles in the treatment of melanoma with BRAF and MEK inhibitors.",
+            "abstract": "Metastatic melanoma is a least common form of cancer as it accounts only for 1% of all cancer cases. But, it is most deadly in nature and is haunting mankind for long emotionally as well as economically. The sites for the onset of the disease are pigment-producing cells of the skin, mucosa, eye etc. It has the potential to spread other sites like subcutaneous tissue, lymph nodes, lungs, liver, bone and brain. The United States Food & Drug Administration has approved various drug molecules from time to time. The molecules (Dabrafenib-BRAF inhibitor and Trametinib-MEK inhibitor) have proved their credentials alone and in combination as well. These molecules have demonstrated good results for various end points like median progression free survival, overall survival, objective response etc. The median progression free survival for patients using dabrafenib and trametinib were 5.1 and 4.8 months, respectively (administered singly). It has increased to 11.4 months in the combination treatme",
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2018",
+            "authors": [
+              "Wahid Mohd",
+              "Jawed Arshad",
+              "Mandal Raju K",
+              "Dar Sajad A",
+              "Akhter Naseem"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease-Free Survival",
+              "Humans",
+              "Melanoma",
+              "Mitogen-Activated Protein Kinase Kinases",
+              "Mutation",
+              "Protein Kinase Inhibitors",
+              "Proto-Oncogene Proteins B-raf",
+              "Skin Neoplasms",
+              "Survival Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29650281/"
+          },
+          {
+            "pmid": "40445056",
+            "title": "[Melanoma of the maxillary sinus mucosa].",
+            "abstract": "The article presents an overview of the intermediate results of treatment for maxillary sinus melanoma in a 66-year-old patient. The importance of timely diagnosis and active surgical tactics for achieving the best survival results up to 5 years is noted. After further examination, the diagnosis was confirmed, the patient underwent genomic sequencing of the tumor tissue biopsy, which revealed a BRAF mutation. In this regard, adjuvant therapy was prescribed according to the dabrafenib+trametinib regimen. It was noted that this rare pathology requires careful study, monitoring of clinical outcomes and features of surgical tactics, considering the multifocal nature of the tumor and its high aggressiveness in comparison with the cutaneous form. In the future, the possibility of surgical intervention is discussed, extensive resection is considered, the expected volume, which can reach the removal of both soft tissue and bone structures up to resection of a part of the lower wall of the orbi",
+            "journal": "Stomatologiia",
+            "year": "2025",
+            "authors": [
+              "Beteeva M Yu",
+              "Zaderenko I A",
+              "Mkrtchyan K S",
+              "Muraev A A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Melanoma",
+              "Maxillary Sinus Neoplasms",
+              "Maxillary Sinus",
+              "Proto-Oncogene Proteins B-raf",
+              "Male",
+              "Imidazoles",
+              "Pyridones",
+              "Oximes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40445056/"
+          },
+          {
+            "pmid": "32943547",
+            "title": "Efficacy, Tolerability, and Pharmacokinetics of Combined Targeted MEK and Dual mTORC1/2 Inhibition in a Preclinical Model of Mucosal Melanoma.",
+            "abstract": "Melanomas arising in the mucous membranes are a rare and aggressive subtype. New treatment approaches are needed, yet accumulating sufficient evidence to improve patient outcomes is difficult. Clinical and pathological correlates between human and canine mucosal melanomas are substantial, and the relatively greater incidence of spontaneous naturally occurring mucosal melanoma in dogs represents a promising opportunity for predictive modeling. The genomic landscapes of human and canine mucosal melanoma appear highly diverse and generally lack recurring hotspot mutations associated with cutaneous melanomas. Although much remains to be determined, evidence indicates that Ras/MAPK and/or PI3K/AKT/mTOR signaling pathway activations are common in both species and may represent targets for therapeutic intervention. Sapanisertib, an mTORC1/2 inhibitor, was selected from a PI3K/mTOR inhibitor library to collaborate with MEK inhibition; the latter preclinical efficacy was demonstrated previously",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2020",
+            "authors": [
+              "Wei Bih-Rong",
+              "Hoover Shelley B",
+              "Peer Cody J",
+              "Dwyer Jennifer E",
+              "Adissu Hibret A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Intramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Disease Models, Animal",
+              "Drug Monitoring",
+              "Female",
+              "Humans",
+              "Mechanistic Target of Rapamycin Complex 1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32943547/"
+          },
+          {
+            "pmid": "27463366",
+            "title": "Synergistic targeted inhibition of MEK and dual PI3K/mTOR diminishes viability and inhibits tumor growth of canine melanoma underscoring its utility as a preclinical model for human mucosal melanoma.",
+            "abstract": "Human mucosal melanoma (MM), an uncommon, aggressive and diverse subtype, shares characteristics with spontaneous MM in dogs. Although BRAF and N-RAS mutations are uncommon in MM in both species, the majority of human and canine MM evaluated exhibited RAS/ERK and/or PI3K/mTOR signaling pathway activation. Canine MM cell lines, with varying ERK and AKT/mTOR activation levels reflective of naturally occurring differences in dogs, were sensitive to the MEK inhibitor GSK1120212 and dual PI3K/mTOR inhibitor NVP-BEZ235. The two-drug combination synergistically decreased cell survival in association with caspase 3/7 activation, as well as altered expression of cell cycle regulatory proteins and Bcl-2 family proteins. In combination, the two drugs targeted their respective signaling pathways, potentiating reduction of pathway mediators p-ERK, p-AKT, p-S6, and 4E-BP1 in vitro, and in association with significantly inhibited solid tumor growth in MM xenografts in mice. These findings provide evi",
+            "journal": "Pigment cell & melanoma research",
+            "year": "2016",
+            "authors": [
+              "Wei Bih-Rong",
+              "Michael Helen T",
+              "Halsey Charles H C",
+              "Peer Cody J",
+              "Adhikari Amit"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cell Proliferation",
+              "Dogs",
+              "Drug Synergism",
+              "Female",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "MAP Kinase Kinase Kinases",
+              "MAP Kinase Signaling System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27463366/"
+          },
+          {
+            "pmid": "28092667",
+            "title": "Oncogenic BRAF fusions in mucosal melanomas activate the MAPK pathway and are sensitive to MEK/PI3K inhibition or MEK/CDK4/6 inhibition.",
+            "abstract": "Despite remarkable progress in cutaneous melanoma genomic profiling, the mutational landscape of primary mucosal melanomas (PMM) remains unclear. Forty-six PMMs underwent targeted exome sequencing of 111 cancer-associated genes. Seventy-six somatic nonsynonymous mutations in 42 genes were observed, and recurrent mutations were noted on eight genes, including TP53 (13%), NRAS (13%), SNX31 (9%), NF1 (9%), KIT (7%) and APC (7%). Mitogen-activated protein kinase (MAPK; 37%), cell cycle (20%) and phosphatidylinositol 3-kinase (PI3K)-mTOR (15%) pathways were frequently mutated. We biologically characterized a novel ZNF767-BRAF fusion found in a vemurafenib-refractory respiratory tract PMM, from which cell line harboring ZNF767-BRAF fusion were established for further molecular analyses. In an independent data set, NFIC-BRAF fusion was identified in an oral PMM case and TMEM178B-BRAF fusion and DGKI-BRAF fusion were identified in two malignant melanomas with a low mutational burden (number of",
+            "journal": "Oncogene",
+            "year": "2017",
+            "authors": [
+              "Kim H S",
+              "Jung M",
+              "Kang H N",
+              "Kim H",
+              "Park C-W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Biomarkers, Tumor",
+              "Cell Proliferation",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Female",
+              "Humans",
+              "MAP Kinase Kinase 1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28092667/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lentigo maligna melanoma",
+        "txgnn_score": 0.9913809895515442,
+        "txgnn_rank": 9505,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acral lentiginous melanoma (disease)",
+        "txgnn_score": 0.9913809895515442,
+        "txgnn_rank": 9503,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02083354",
+            "title": "An Open-Label, Multi-Center Study to Investigate the Objective Response Rate of Dabrafenib in Combination With Trametinib in Subjects With BRAF V600 Mutation-Positive Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-03-18",
+            "completion_date": "2021-04-19",
+            "country": "Hong Kong, South Korea, Thailand, China, Taiwan",
+            "enrollment": 77,
+            "brief_summary": "This was a single-arm, open-label, multi-center, Phase II study to evaluate dabrafenib and trametinib combination therapy in subjects with BRAF V600 mutation-positive, unresectable or metastatic Acral lentiginous or cutaneous melanoma. This study evaluated the objective response rate (ORR), progression free survival (PFS), duration of response, overall survival (OS), safety and efficacy, to assess steady state (all subjects) exposure to dabrafenib, dabrafenib metabolites, and trametinib and char",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent, which includes compliance with the requirements and restrictions listed in the consent form.\n* \\>=18 years of age.\n* Histologically confirmed acral lentiginous or cutaneous melanoma that is either Stage IIIC (unresectable) or Stage IV (metastat",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02083354"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06337617",
+            "title": "A Multi-center Retrospective Study With Secondary Use of Data of Tafinlar (Dabrafenib) Plus Mekinist (Trametinib) in Chinese Patients With BRAF V600 Mutation Positive Melanoma",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-05-10",
+            "completion_date": "2023-06-29",
+            "country": "China",
+            "enrollment": 90,
+            "brief_summary": "This was a multi-center, observational, retrospective cohort study to evaluate the effectiveness and safety of dabrafenib in combination with trametinib in Chinese patients with unresectable or metastatic BRAF V600 mutation positive melanoma, for mucosal melanoma patients (Cohort A) and non-mucosal melanoma patients (Cohort B, cutaneous and acral melanoma), separately. Study population was identified as patients initiating dabrafenib plus trametinib from 01 May 2020 to 31 July 2022 who fulfilled",
+            "eligibility_criteria": "Inclusion Criteria:\n\nCohorts A and B:\n\n* Initiated dabrafenib and trametinib combination therapy (D+T) according to approved label between 01 May 2020 and 31 July 2022\n* Was ≥18 years old of age at the initiation of D+T\n* Had at least one tumor assessment after initiation of D+T\n* Written informed c",
+            "endpoints": [
+              "Real-world overall response rate (rwORR)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT06337617"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "balloon cell malignant melanoma",
+        "txgnn_score": 0.9913809895515442,
+        "txgnn_rank": 9504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nodular malignant melanoma",
+        "txgnn_score": 0.9913809895515442,
+        "txgnn_rank": 9501,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02645149",
+            "title": "Molecular Profiling and Matched Targeted Therapy for Patients With Unresectable Advanced or Metastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-11-22",
+            "completion_date": "2025-12-01",
+            "country": "Australia",
+            "enrollment": 216,
+            "brief_summary": "This is a patient oriented translational research project aiming to improve clinical outcomes for patients with BRAF and NRAS wild-type unresectable Stage III or Stage IV metastatic melanoma who have progressed on, or are unable to receive standard therapy (in general, immunotherapy). Consecutive patients seen at three major clinics and fitting the broad eligibility criteria will be invited to participate.\n\nThe approach is designed to test the impact of different targeted drugs on different muta",
+            "eligibility_criteria": "Inclusion criteria for Part 1:\n\n1. Written informed consent for Part 1\n2. Newly diagnosed, histologically confirmedand , unresectable Stage IIIB, IIIC or Stage IV melanoma including cutaneous (including acral, ungual subtypes), ocular (including uveal and extra-uveal), mucosal, and unknown primary).",
+            "endpoints": [
+              "Type and frequency of genetic aberrations in BRAF/NRAS wild-type metastatic melanoma",
+              "Proportion of patients with BRAS/NRAS wild-type melanoma receiving targeted therapy"
+            ],
+            "sponsor": "Melanoma Institute Australia",
+            "url": "https://clinicaltrials.gov/study/NCT02645149"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          },
+          {
+            "pmid": "40036344",
+            "title": "Congenital melanocytic naevi initiated by BRAF fusion oncogene with firmness, pruritus and desmoplastic stroma.",
+            "abstract": "Large and giant congenital melanocytic naevi (CMN) present a risk for developing melanoma or neurocutaneous melanosis. Most CMN are caused by NRAS or, less commonly, BRAF mutations.",
+            "journal": "The British journal of dermatology",
+            "year": "2025",
+            "authors": [
+              "Roy Simon F",
+              "Agim Nnenna G",
+              "Mir Adnan",
+              "Couts Kasey L",
+              "Vandergriff Travis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Nevus, Pigmented",
+              "Proto-Oncogene Proteins B-raf",
+              "Skin Neoplasms",
+              "Female",
+              "Male",
+              "Retrospective Studies",
+              "Pruritus",
+              "Adult",
+              "Oncogene Proteins, Fusion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40036344/"
+          },
+          {
+            "pmid": "39767221",
+            "title": "It Looks Like a Zebra but Is Not: [18F]FDG PET/CT in a Giant Cutaneous Malignant Melanoma Mimicking Squamous Cell Carcinoma.",
+            "abstract": "Cutaneous malignant melanoma (MM) is the most aggressive form of skin cancer, associated with high mortality and rising incidence rates in Europe despite prevention efforts. Nodular MM, the most aggressive subtype, often mimics other skin tumors, complicating diagnosis. We present the case of a 66-year-old woman with a large, ulcerated tumor beneath the left scapula, along with multiple nodular lesions on the left arm and chest. Initially suspected to be an aggressive squamous cell carcinoma, the diagnosis was confirmed as invasive cutaneous MM with a BRAF(V600) mutation via biopsy. Staging with PET/CT revealed extensive glucose metabolism in the tumors and surrounding tissues, as well as metastatic lymphadenopathy. The disease was classified as stage IV (T4bN3cM1a0). Neoadjuvant systemic therapy with BRAF and MEK inhibitors (Dabrafenib and Trametinib) was initiated to reduce tumor size. Remarkable regression was observed within a week, with further reduction in tumor size after one mo",
+            "journal": "Diagnostics (Basel, Switzerland)",
+            "year": "2024",
+            "authors": [
+              "Proietti Ilaria",
+              "Azzella Giulia",
+              "Dirzu Diana",
+              "Di Cristofano Claudio",
+              "Bagni Oreste"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39767221/"
+          },
+          {
+            "pmid": "30376465",
+            "title": "Clinical experience with combination BRAF/MEK inhibitors for melanoma with brain metastases: a real-life multicenter study.",
+            "abstract": "BRAF and MEK kinase inhibitors can be highly effective in treating BRAF-mutant melanomas, but their safety and activity in patients with active/symptomatic brain metastases are unclear. We sought to shed light on this open clinical question. We conducted a multicenter retrospective study on real-life patients with melanoma and active brain metastases treated with combination BRAF/MEK inhibitors. A total of 65 patients were included (38 men and 27 women; median age: 49 years). Of them, 53 patients received dabrafenib/trametinib, 10 received vemurafenib/cobimetinib, one received encorafenib/binimetinib, and one received vemurafenib/trametinib. We did not observe any unexpected treatment-related safety signals in our cohort. Overall, 17 patients continued on therapy through the cutoff date. After initiation of therapy, steroid dose could be decreased in 22 of 33 patients (11 tapered off entirely), anticonvulsants were stopped in four of 21, and narcotics were stopped in four of 12. Median",
+            "journal": "Melanoma research",
+            "year": "2019",
+            "authors": [
+              "Drago Joshua Z",
+              "Lawrence Donald",
+              "Livingstone Elisabeth",
+              "Zimmer Lisa",
+              "Chen Tianqi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Brain Neoplasms",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30376465/"
+          },
+          {
+            "pmid": "24879511",
+            "title": "Panniculitis in patients treated with BRAF inhibitors: a case series.",
+            "abstract": "Panniculitis is a rare complication of BRAF inhibitor therapy that is used to treat patients with BRAF-mutated metastatic melanoma. We present a clinicopathologic review of 9 patients who developed panniculitis while on BRAF inhibitor therapy. In 13% of patients on vemurafenib, 3% of patients on dabrafenib and 10% on combination of dabrafenib + trametinib, tender erythematous nodular lesions of panniculitis appeared on legs, arms and trunk. Histological evaluation of 8 biopsies from 7 patients showed predominantly neutrophilic infiltrate in 4, lymphocytic in 1, and mixed in 3. Lesions with neutrophilic infiltrate appeared in earlier stages of treatment than those with mixed or lymphocytic infiltrate. All biopsies showed lobular involvement and 5 also had a septal component. In addition, 1 biopsy had lichenoid inflammation in the epidermis and the other had evidence of vasculitis. Most patients responded to conservative medical management without the need to reduce or to stop BRAF inhib",
+            "journal": "The American Journal of dermatopathology",
+            "year": "2014",
+            "authors": [
+              "Choy Bonita",
+              "Chou Shaun",
+              "Anforth Rachael",
+              "Fernández-Peñas Pablo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Indoles",
+              "Male",
+              "Melanoma",
+              "Middle Aged",
+              "Oximes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24879511/"
+          },
+          {
+            "pmid": "32877390",
+            "title": "[Panniculitis in association with target therapy in melanoma patient, what the dermatologist should know: A case report].",
+            "abstract": "Target therapies are currently a therapeutic option increasingly used for the management of patients with metastatic melanoma. However, there are multiple adverse pharmacological effects associated with their use that have been described. Cutaneous adverse reactions are the most frequent. We report the case of a 55-year-old man with a diagnosis of stage IV BRAFV600E-mutated metastatic cutaneous melanoma undergoing treatment with dabrafenib/trametinib, who consulted due to the development of erythematous nodular lesions in the upper and lower limbs associated with febrile sensation during the course of treatment. Infection was ruled out and a biopsy of the skin lesions was done, which provided the histopathological confirmation of a predominantly septal, granulomatous with leukocytoclastic vasculitis, mixed panniculitis. Panniculitis associated with this therapy has been described in the literature and has been considered an immune-mediated pharmacological adverse effect. It is consider",
+            "journal": "Medwave",
+            "year": "2020",
+            "authors": [
+              "Manubens-Vargas Víctor",
+              "Rodríguez-Ortubia Manuel",
+              "Salas-Gianini Alejandra",
+              "Valenzuela Fernando",
+              "Carreño-Toro Laura"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Dermatologists",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Melanoma",
+              "Middle Aged",
+              "Molecular Targeted Therapy",
+              "Oximes",
+              "Panniculitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32877390/"
+          },
+          {
+            "pmid": "25788221",
+            "title": "Clinical observation of panniculitis in two patients with BRAF-mutated metastatic melanoma treated with a combination of a BRAF inhibitor and a MEK inhibitor.",
+            "abstract": "Treatment with selective BRAF or MEK inhibitors is frequently associated with cutaneous toxicities, including squamous cell carcinoma (SCC), papillomas and rash. These cutaneous adverse effects are typically observed at a lower incidence during combined BRAF and MEK inhibitor therapy.",
+            "journal": "European journal of dermatology : EJD",
+            "year": "2015",
+            "authors": [
+              "Galliker Nadja A",
+              "Murer Carla",
+              "Kamarashev Jivko",
+              "Dummer Reinhard",
+              "Goldinger Simone M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Benzimidazoles",
+              "Carbamates",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Melanoma",
+              "Mitogen-Activated Protein Kinases",
+              "Oximes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25788221/"
+          },
+          {
+            "pmid": "32614358",
+            "title": "PET-guided Switch from Immunotherapy to Targeted Therapy in a Metastatic Melanoma Patient: a personalized approach.",
+            "abstract": "An early identification of non-responders in oncology is of crucial importance to rapidly switch treatment regimens. Here we report a positron emission tomography, (PET)-guided switch from immunotherapy to targeted therapy in a patient affected by metastatic melanoma. We describe the case of a 78-years-old male patient diagnosed with nodular melanoma, submitted to baseline PET/CT with 18fluorodeoxyglucose (18F-FDG) that showed cutaneous and skeletal metastases (stage IV). The patients started immunotherapy with pembrolizumab. A PET/CT performed 3 months after the start of immunotherapy demonstrated progressive metabolic disease both at skeletal and cutaneous level, confirmed also by the biopsy. As patients resulted positive for BRAF V600k mutation, treatment regimen was rapidly switched to combined anti-BRAF/MEK targeted therapy. The PET/CT performed 3 months later, showed almost complete metabolic response. Ten months after the beginning of targeted therapy, the patient continues to p",
+            "journal": "La Clinica terapeutica",
+            "year": "2020",
+            "authors": [
+              "Proietti I",
+              "Filippi L",
+              "Michelini S",
+              "Porta N",
+              "Bernardini N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Imidazoles",
+              "Immunotherapy",
+              "Male",
+              "Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32614358/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08911",
+    "name": "Trametinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Trametinib"
+      },
+      "queried_at": "2026-03-10T03:06:19.854794",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Trametinib"
+      },
+      "queried_at": "2026-03-10T03:06:30.043233",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T03:06:31.104277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T03:06:35.911112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T03:06:36.978080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:43.686118",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:47.471057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:48.619598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:49.134736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:52.802945",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:55.434995",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:56.094798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T03:06:59.301299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:01.826518",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:02.389663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:05.750761",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:06.521896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "malignant melanoma of the mucosa"
+      },
+      "queried_at": "2026-03-10T03:07:07.484690",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "malignant melanoma of the mucosa"
+      },
+      "queried_at": "2026-03-10T03:07:10.522686",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "malignant melanoma of the mucosa"
+      },
+      "queried_at": "2026-03-10T03:07:13.564182",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:15.151315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:19.556037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:22.597681",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T03:07:23.269956",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T03:07:27.938935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T03:07:30.473806",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "balloon cell malignant melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:31.169589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "balloon cell malignant melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:34.825318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "balloon cell malignant melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:35.847762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "nodular malignant melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:37.631412",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "nodular malignant melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:41.417773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trametinib",
+        "disease": "nodular malignant melanoma"
+      },
+      "queried_at": "2026-03-10T03:07:43.907230",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:07:43.924761"
+  }
+}

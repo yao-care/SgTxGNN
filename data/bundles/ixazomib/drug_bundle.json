@@ -1,0 +1,623 @@
+{
+  "drug": {
+    "inn": "Ixazomib",
+    "drugbank_id": "DB09570",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.9617310762405396,
+        "txgnn_rank": 23831,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38558233",
+            "title": "A real-world retrospective-prospective analysis of efficacy and safety of combined ixazomib, lenalidomide, and dexamethasone in relapsed/refractory multiple myeloma: The northern Italy experience.",
+            "abstract": "Ixazomib, lenalidomide, and dexamethasone (IRd) have been approved for the treatment of relapsed/refractory multiple myeloma (RRMM) based on the results of the TOURMALINE-MM1.",
+            "journal": "Cancer medicine",
+            "year": "2024",
+            "authors": [
+              "Furlan Anna",
+              "Cea Michele",
+              "Pavan Laura",
+              "Galli Monica",
+              "Clissa Cristina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lenalidomide",
+              "Multiple Myeloma",
+              "Retrospective Studies",
+              "Dexamethasone",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Boron Compounds",
+              "Glycine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38558233/"
+          },
+          {
+            "pmid": "32193630",
+            "title": "Ixazomib-based regimens for relapsed/refractory multiple myeloma: are real-world data compatible with clinical trial outcomes? A multi-site Israeli registry study.",
+            "abstract": "Ixazomib, the first oral proteasome inhibitor (PI), has been approved for the treatment of relapsed refractory multiple myeloma (RRMM) in combination with lenalidomide and dexamethasone, based on the TOURMALINE-MM1 phase 3 trial, which demonstrated the efficacy and safety of this all-oral triplet, compared with lenalidomide-dexamethasone. However, clinical trial outcomes do not always translate into real-world outcomes. The aim of this study was to assess the outcomes of ixazomib-based combination for treatment of patients with RRMM in a real-world setting. All consecutive RRMM patients who received at least one cycle of ixazomib-based treatment combination between June 2013 and June 2018 were identified. Data was extracted from medical charts focusing on demographics, disease characteristics, prior treatment, and responses. Primary endpoint was progression-free survival (PFS); secondary endpoints included overall response rate (ORR), overall survival (OS), safety, and tolerability. A ",
+            "journal": "Annals of hematology",
+            "year": "2020",
+            "authors": [
+              "Cohen Yael C",
+              "Magen Hila",
+              "Lavi Noa",
+              "Gatt Moshe E",
+              "Chubar Evgeni"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Boron Compounds",
+              "Data Analysis",
+              "Female",
+              "Follow-Up Studies",
+              "Glycine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32193630/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "CMM7",
+        "txgnn_score": 0.8196187615394592,
+        "txgnn_rank": 40888,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pediatric leptomeningeal melanoma",
+        "txgnn_score": 0.8084518313407898,
+        "txgnn_rank": 41412,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar melanoma (disease)",
+        "txgnn_score": 0.8035273551940918,
+        "txgnn_rank": 41688,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell uveal melanoma",
+        "txgnn_score": 0.7960734963417053,
+        "txgnn_rank": 42012,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.7386829257011414,
+        "txgnn_rank": 44147,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melanoma",
+        "txgnn_score": 0.7288607954978943,
+        "txgnn_rank": 44438,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27783987",
+            "title": "The combination of MLN2238 (ixazomib) with interferon-alpha results in enhanced cell death in melanoma.",
+            "abstract": "The ubiquitin-proteasome signaling pathway is critical for cell cycle regulation and neoplastic growth. Proteasome inhibition can activate apoptotic pathways. Bortezomib, a selective proteasome inhibitor, has anti-melanoma activity. MLN2238 (ixazomib), an oral proteasome inhibitor, has improved pharmacotherapeutic parameters compared to bortezomib. Interferon-alpha (IFN-α), an immune boosting agent, is FDA-approved for treatment of melanoma. In this study in vitro and in vivo evaluation of the antitumor potential of ixazomib and combination treatments with ixazomib and IFN-α were performed. Apoptosis induced by ixazomib was first observed at 12 hours and was maximal at 48 hours with similar levels of cell death compared to bortezomib. IFN-α alone had little effect on cell viability in vitro. However, the combination of ixazomib with IFN-α significantly enhanced ixazomib's ability to induce apoptotic cell death in BRAF V600E mutant and BRAF wild-type human melanoma tumor cells. The comb",
+            "journal": "Oncotarget",
+            "year": "2016",
+            "authors": [
+              "Suarez-Kelly Lorena P",
+              "Kemper Gregory M",
+              "Duggan Megan C",
+              "Stiff Andrew",
+              "Noel Tiffany C"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Apoptosis Regulatory Proteins",
+              "Boron Compounds",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Glycine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27783987/"
+          },
+          {
+            "pmid": "31540997",
+            "title": "The Zinc-Finger AN1-Type Domain 2a Gene Acts as a Regulator of Cell Survival in Human Melanoma: Role of E3-Ligase cIAP2.",
+            "abstract": "The zinc-finger AN1-type domain-2a gene, also known as AIRAP (arsenite-inducible RNA-associated protein), was initially described as an arsenite-inducible gene in Caenorhabditis elegans and mammalian cells. Differently from the AIRAP worm homologue, aip-1, a gene known to play an important role in preserving animal lifespan and buffering arsenic-induced proteotoxicity, mammals have a second, constitutively expressed, AIRAP-like gene (AIRAPL), recently implicated in myeloid transformation. We have identified human AIRAP as a canonical heat-shock gene, whose expression, differently from AIRAPL, is strictly dependent on the proteotoxic-stress regulator heat-shock factor 1 (HSF1). AIRAP function is still not well defined and there is no information on AIRAP in cancer. Herein we show that bortezomib and next-generation proteasome inhibitors ixazomib and carfilzomib markedly induce AIRAP expression in human melanoma at concentrations comparable to plasma-levels in treated patients. AIRAP-dow",
+            "journal": "Molecular cancer research : MCR",
+            "year": "2019",
+            "authors": [
+              "Pizzato Scomazzon Sofia",
+              "Riccio Anna",
+              "Santopolo Silvia",
+              "Lanzilli Giulia",
+              "Coccia Marta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Baculoviral IAP Repeat-Containing 3 Protein",
+              "Boron Compounds",
+              "Bortezomib",
+              "Cell Line, Tumor",
+              "Cell Transformation, Neoplastic",
+              "Gene Expression Regulation, Neoplastic",
+              "Glycine",
+              "Heat Shock Transcription Factors",
+              "Humans",
+              "Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31540997/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal neoplasm",
+        "txgnn_score": 0.7098858952522278,
+        "txgnn_rank": 45044,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.685944676399231,
+        "txgnn_rank": 45748,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intellectual disability, autosomal dominant 55, with seizures",
+        "txgnn_score": 0.6198759078979492,
+        "txgnn_rank": 47551,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09570",
+    "name": "Ixazomib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ixazomib"
+      },
+      "queried_at": "2026-03-10T09:05:05.047969",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ixazomib"
+      },
+      "queried_at": "2026-03-10T09:05:08.763363",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T09:05:09.258236",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T09:05:12.156150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T09:05:14.526431",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T09:05:15.384337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T09:05:18.966954",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T09:05:20.256973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:21.263662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:24.772100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:25.619219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:05:26.962255",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:05:30.649633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:05:31.367084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:31.959935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:34.974962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:35.798148",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:05:36.399357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:05:39.654648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:05:40.674403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:41.220260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:44.800517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T09:05:46.637721",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T09:05:47.301635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T09:05:50.726666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T09:05:51.660661",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T09:05:52.511192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T09:05:57.920137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T09:05:59.251238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "intellectual disability, autosomal dominant 55, with seizures"
+      },
+      "queried_at": "2026-03-10T09:06:00.407606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "intellectual disability, autosomal dominant 55, with seizures"
+      },
+      "queried_at": "2026-03-10T09:06:03.873548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ixazomib",
+        "disease": "intellectual disability, autosomal dominant 55, with seizures"
+      },
+      "queried_at": "2026-03-10T09:06:05.459539",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:06:05.466087"
+  }
+}

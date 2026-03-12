@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Brompheniramine",
+    "drugbank_id": "DB00835",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9987395405769348,
+        "txgnn_rank": 2417,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.99549663066864,
+        "txgnn_rank": 6069,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9891969561576844,
+        "txgnn_rank": 11112,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9890882968902588,
+        "txgnn_rank": 11207,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9874952435493468,
+        "txgnn_rank": 12445,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.9852772355079652,
+        "txgnn_rank": 14029,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "IgE responsiveness, atopic",
+        "txgnn_score": 0.9836612343788148,
+        "txgnn_rank": 14997,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9350991249084472,
+        "txgnn_rank": 29749,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasopharyngitis",
+        "txgnn_score": 0.9345776438713074,
+        "txgnn_rank": 29833,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anorectal stricture",
+        "txgnn_score": 0.8086456060409546,
+        "txgnn_rank": 41408,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00835",
+    "name": "Brompheniramine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Brompheniramine"
+      },
+      "queried_at": "2026-03-09T18:32:51.290535",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Brompheniramine"
+      },
+      "queried_at": "2026-03-09T18:33:09.148374",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T18:33:10.042022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T18:33:14.381798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T18:33:15.200425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T18:33:16.076568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T18:33:23.071397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T18:33:28.330056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T18:33:30.032641",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T18:33:37.469349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T18:33:38.285248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:33:38.888541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:33:44.489226",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:33:45.980265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T18:33:47.849488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T18:34:02.540999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T18:34:03.958385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T18:34:05.497894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T18:34:11.686428",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T18:34:12.761093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T18:34:14.151132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T18:34:20.078668",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T18:34:21.608437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:34:22.260116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:34:26.799411",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:34:27.707646",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:34:28.313162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:34:31.406521",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:34:32.287743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T18:34:33.067517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T18:34:36.987744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brompheniramine",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T18:34:37.859664",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:34:37.865476"
+  }
+}

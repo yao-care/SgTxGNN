@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Omidenepag isopropyl",
+    "drugbank_id": "DB15071",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pancreatitis",
+        "txgnn_score": 0.997597634792328,
+        "txgnn_rank": 3912,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperphosphatemia (disease)",
+        "txgnn_score": 0.9973435997962952,
+        "txgnn_rank": 4200,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.993065595626831,
+        "txgnn_rank": 8183,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.993065595626831,
+        "txgnn_rank": 8184,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharospasm",
+        "txgnn_score": 0.9926595091819764,
+        "txgnn_rank": 8502,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial visceral myopathy",
+        "txgnn_score": 0.99186909198761,
+        "txgnn_rank": 9133,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alcoholic cardiomyopathy",
+        "txgnn_score": 0.9915707111358644,
+        "txgnn_rank": 9346,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lipase deficiency, combined",
+        "txgnn_score": 0.9899656772613524,
+        "txgnn_rank": 10553,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "varicose disease",
+        "txgnn_score": 0.989768087863922,
+        "txgnn_rank": 10693,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hiatus hernia (disease)",
+        "txgnn_score": 0.9896337985992432,
+        "txgnn_rank": 10796,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15071",
+    "name": "Omidenepag isopropyl",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Omidenepag isopropyl"
+      },
+      "queried_at": "2026-03-09T16:51:49.555323",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Omidenepag isopropyl"
+      },
+      "queried_at": "2026-03-09T16:52:00.389163",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "pancreatitis"
+      },
+      "queried_at": "2026-03-09T16:52:01.668080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "pancreatitis"
+      },
+      "queried_at": "2026-03-09T16:52:06.955358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "pancreatitis"
+      },
+      "queried_at": "2026-03-09T16:52:07.818004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "hyperphosphatemia (disease)"
+      },
+      "queried_at": "2026-03-09T16:52:08.455930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "hyperphosphatemia (disease)"
+      },
+      "queried_at": "2026-03-09T16:52:13.388478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "hyperphosphatemia (disease)"
+      },
+      "queried_at": "2026-03-09T16:52:14.434810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T16:52:17.210265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T16:52:22.537751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T16:52:23.690363",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T16:52:24.940483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T16:52:31.736429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T16:52:33.032724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "blepharospasm"
+      },
+      "queried_at": "2026-03-09T16:52:33.709482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "blepharospasm"
+      },
+      "queried_at": "2026-03-09T16:52:38.240999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "blepharospasm"
+      },
+      "queried_at": "2026-03-09T16:52:39.178079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T16:52:39.993540",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T16:52:44.199055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T16:52:45.627697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "alcoholic cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T16:52:46.172182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "alcoholic cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T16:52:50.331852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "alcoholic cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T16:52:52.871959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "lipase deficiency, combined"
+      },
+      "queried_at": "2026-03-09T16:52:55.004482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "lipase deficiency, combined"
+      },
+      "queried_at": "2026-03-09T16:52:58.639320",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "lipase deficiency, combined"
+      },
+      "queried_at": "2026-03-09T16:52:59.575112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-09T16:53:00.088167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-09T16:53:03.969842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-09T16:53:05.024720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "hiatus hernia (disease)"
+      },
+      "queried_at": "2026-03-09T16:53:06.233623",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "hiatus hernia (disease)"
+      },
+      "queried_at": "2026-03-09T16:53:11.717601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Omidenepag isopropyl",
+        "disease": "hiatus hernia (disease)"
+      },
+      "queried_at": "2026-03-09T16:53:13.673287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:53:13.684372"
+  }
+}

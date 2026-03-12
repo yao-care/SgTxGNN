@@ -1,0 +1,937 @@
+{
+  "drug": {
+    "inn": "Bacitracin",
+    "drugbank_id": "DB00626",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.9999918937683104,
+        "txgnn_rank": 44,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exposure keratitis",
+        "txgnn_score": 0.999907374382019,
+        "txgnn_rank": 324,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-human animal disease",
+        "txgnn_score": 0.9996955394744872,
+        "txgnn_rank": 807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "otitis externa",
+        "txgnn_score": 0.9996887445449828,
+        "txgnn_rank": 829,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "17503066",
+            "title": "Topical treatment of acute otitis externa: clinical comparison of an antibiotics ointment alone or in combination with hydrocortisone acetate.",
+            "abstract": "The study was designed to investigate the potential contribution of hydrocortisone acetate to the efficacy and safety of an antibiotics ointment in the treatment of acute otitis externa (AOE). In a double-blind study 151 patients with a unilateral acute bacterial otitis externa were randomized either to receive an ointment with polymyxin-B sulfate (7,500 I.E./g) + bacitracin (300 I.E./g) alone (AB) or the same antibiotic ointment with 10 mg hydrocortisone acetate/g ointment (AB + HC). Primary efficacy endpoint was the change of an aggregate clinical symptom score (CSS) (subscores: redness, swelling, pain and secretion) found at Visit 2 versus baseline (Visit 1). Secondary outcome parameters were the change of the CSS from Visit 1 to the study termination, and the changes in the subscores and of a visual analog scale for pain. In the group treated with AB + HC, significantly more patients with severe redness [14 (56%) vs. 7 (28%), P = 0.045] or severe secretion [23 (70%) vs. 10 (40%), P",
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2007",
+            "authors": [
+              "Mösges Ralph",
+              "Domröse Christian M",
+              "Löffler Jürgen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Topical",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Hydrocortisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17503066/"
+          },
+          {
+            "pmid": "9820118",
+            "title": "Susceptibility of bacterial isolates from chronic canine otitis externa to twenty antibiotics.",
+            "abstract": "In this paper we present the results of studies on the susceptibility to antibiotics of bacteria isolated from chronic canine otitis externa. We tested 46 bacterial strains (S. aureus, coagulase-negative staphylococci, Corynebacterium spp., and gram-negative bacilli) with 20 different antibiotics. We observed increased resistance to antibiotics of bacteria isolated from canine otitis externa as compared to the resistance reported earlier. This may be due to the indiscriminate use of some antibiotics in the last years and indicates the importance of sensitivity testing for the effective treatment of chronic otitis externa, especially that caused by gram-negative bacilli. The clinician may initiate empiric treatment with antibiotics before obtaining the sensitivity test results; the best results may be expected from a topical application of Bacitracin or Chloramphenicol, and from a systemic therapy with Cephalosporines. Therapeutical scheme for treating various bacterial groups are prese",
+            "journal": "Zentralblatt fur Veterinarmedizin. Reihe B. Journal of veterinary medicine. Series B",
+            "year": "1998",
+            "authors": [
+              "Guedeja-Marrón J",
+              "Blanco J L",
+              "Ruperez C",
+              "Garcia M E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacterial Infections",
+              "Chronic Disease",
+              "Corynebacterium",
+              "Dog Diseases",
+              "Dogs",
+              "Gram-Negative Bacteria",
+              "Microbial Sensitivity Tests",
+              "Otitis Externa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9820118/"
+          },
+          {
+            "pmid": "14055264",
+            "title": "PRACTICAL TREATMENT OF OTITIS EXTERNA.",
+            "abstract": "",
+            "journal": "Maryland state medical journal",
+            "year": "1963",
+            "authors": [
+              "ELIA J C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacitracin",
+              "Benzocaine",
+              "Humans",
+              "Hydrocortisone",
+              "Neomycin",
+              "Oils",
+              "Otitis Externa",
+              "Undecylenic Acids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14055264/"
+          },
+          {
+            "pmid": "4306877",
+            "title": "[The use of antibiotics in otologic practice].",
+            "abstract": "",
+            "journal": "Zeitschrift fur arztliche Fortbildung",
+            "year": "1969",
+            "authors": [
+              "Heinemann M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Bronchitis",
+              "Chloramphenicol",
+              "Chronic Disease",
+              "Ear Diseases",
+              "Humans",
+              "Labyrinth Diseases",
+              "Laryngitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4306877/"
+          },
+          {
+            "pmid": "165871",
+            "title": "Use of trimethoprim-sulfamethoxazole in external otitis.",
+            "abstract": "",
+            "journal": "Canadian Medical Association journal",
+            "year": "1975",
+            "authors": [
+              "Pomahac A C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Anti-Inflammatory Agents",
+              "Bacitracin",
+              "Bacterial Infections",
+              "Child",
+              "Child, Preschool",
+              "Drug Combinations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/165871/"
+          },
+          {
+            "pmid": "14048629",
+            "title": "[THE LOCAL TREATMENT OF INFLAMMATORY, SECRETORY EAR PROCESSES WITH NEBACETIN STYLI].",
+            "abstract": "",
+            "journal": "Zeitschrift fur Laryngologie, Rhinologie, Otologie und ihre Grenzgebiete",
+            "year": "1963",
+            "authors": [
+              "BACHMANN W",
+              "HEIN H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacitracin",
+              "Drug Resistance",
+              "Drug Resistance, Microbial",
+              "Humans",
+              "Neomycin",
+              "Otitis Externa",
+              "Otitis Media",
+              "Secretory Pathway"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14048629/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postinfectious vasculitis",
+        "txgnn_score": 0.9996788501739502,
+        "txgnn_rank": 852,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "post-bacterial disorder",
+        "txgnn_score": 0.9996724128723145,
+        "txgnn_rank": 862,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06902532",
+            "title": "Effectiveness of Coconut Oil Pulling With Clove Oil, Coconut Oil Pulling and Fluoride Mouthwash on Streptococcus Mutans Count in Children",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-05-01",
+            "completion_date": "2026-01-01",
+            "country": "Egypt",
+            "enrollment": 105,
+            "brief_summary": "This study aims to compare the effectiveness of coconut oil pulling with clove oil, coconut oil pulling alone, and fluoride mouthwash in reducing Streptococcus mutans levels in children aged 6-12 years. Participants will be randomly assigned to one of three groups:\n\n1. Coconut Oil Pulling with Clove Oil Group - Daily swishing with coconut oil mixed with clove oil.\n2. Coconut Oil Pulling Group - Daily swishing with coconut oil alone.\n3. Fluoride Mouthwash Group (Control) - Using fluoride mouthwas",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1.Children aged 6-12 years old. 2.Both male and female participants. 3.Patients in good general health condition with no systemic disease. 4.Patients' first guardians must provide written informed consent to participate in the study\n\nExclusion Criteria:\n\n* 1.Patients who have ",
+            "endpoints": [
+              "streptococcus mutans count"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT06902532"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04550546",
+            "title": "Effects of Nystatin Suspension Oral Application on Oral Microbial Community",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-05-15",
+            "completion_date": "2022-02-28",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "The purpose of this study is to examine the effect of a prescription mouth rinse (Nystatin),an FDA approved drug, on the different types of bacteria in the mouth. Results from this study may help understand the effect that Nystatin oral rinse has on certain types of oral bacteria, which may also cause tooth decay.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Willing to participate in this study and able to come for follow-up appointments.\n* Has positive oral Candida detection and the amount of oral Candida meet the laboratory criteria for diagnosing oral Candidiasis (\\>= 400 colony forming unit in saliva).\n* Has ≥ 10,000 CFU/mL of",
+            "endpoints": [
+              "Mean change in S. Mutans carriage"
+            ],
+            "sponsor": "University of Rochester",
+            "url": "https://clinicaltrials.gov/study/NCT04550546"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05569850",
+            "title": "In Vivo Evaluation of Antibacterial Toothpaste Efficiency and Patients' Satisfaction: a Double-blind Randomised Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-12-01",
+            "completion_date": "2023-07-15",
+            "country": "Italy",
+            "enrollment": 100,
+            "brief_summary": "The primary objective of this randomized controlled clinical trial (RCCT) will be to compare the efficacy in reducing the quantity of Streptococcus mutans (S. Mutans) in saliva of a recently introduced toothpaste compared to a commercially available toothpaste. The secondary outcomes will be to assess patients' impression of the toothpastes (in terms of taste, satisfaction etc.), and to investigate potential changes in dentin hypersensitivity, plaque formation and gingival inflammation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with minimum 20 teeth;\n2. Good oral hygiene level (gingival bleeding index not exceeding 20%)\n3. Patients willing to participate in the study and able to sign an informed consent\n\nExclusion Criteria:\n\n1. Tooth anomalies (amelogenesis imperfecta, dentinogenesis imperf",
+            "endpoints": [
+              "Bacterial Count of Streptococcus Mutans (S. Mutans)"
+            ],
+            "sponsor": "University of Bologna",
+            "url": "https://clinicaltrials.gov/study/NCT05569850"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00534391",
+            "title": "Dose Antibiotic Need in Hordeolum After Incision and Curettage? : A Randomized, Placebo-controlled Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2007-09",
+            "completion_date": "2008-12",
+            "country": "Thailand",
+            "enrollment": 120,
+            "brief_summary": "To compare the effectiveness of combined antibiotic ophthalmic solution (neomycin sulfate, polymyxin B sulfate and gramicidin) with placebo (artificial tear) in the treatment of hordeolum after incision and curettage",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* at least 5-millimeters hordeolum\n* the onset within 7 days\n\nExclusion Criteria:\n\n* previous incision and curettage of the same site within 1 month or more than 3 times\n* lesions in the adjacent areas suggesting of complications associated with hordeolum such as preseptal cellu",
+            "endpoints": [
+              "Pain scale"
+            ],
+            "sponsor": "Chulalongkorn University",
+            "url": "https://clinicaltrials.gov/study/NCT00534391"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03855527",
+            "title": "Effectiveness of Silver Diamine Fluoride as Cavity Disinfectant After Atraumatic Restorative Treatment in Primary Teeth: A Randomized Clinical Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-01-12",
+            "completion_date": "2019-03-20",
+            "country": "Egypt",
+            "enrollment": 60,
+            "brief_summary": "The purpose of this study is to evaluate the effectiveness of silver diamine fluoride (SDF) compared to chlorhexidine (CHX) as a cavity disinfectant in primary molars after Atraumatic Restorative Treatment approach (ART).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Children free of any systemic disease or special health care needs.\n* Class I cavity involving dentin in primary molars.\n* Lesion wide enough to allow access of instruments.\n* Informed consent fulfilled.\n\nExclusion Criteria:\n\n* Signs of irreversible pulpitis or pulp necrosis.\n",
+            "endpoints": [
+              "Microbiological assessment of total viable bacterial count",
+              "Microbiological assessment of streptococcus mutans count",
+              "Microbiological assessment of lactobacilli count"
+            ],
+            "sponsor": "University of Alexandria",
+            "url": "https://clinicaltrials.gov/study/NCT03855527"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05874219",
+            "title": "The Effect of Mupirocin 2% Ointment on the Duration of Stay of Temporary Hemodialysis Catheter Compared to Other Spray Antibiotics",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2023-04-10",
+            "completion_date": "2023-05-25",
+            "country": "Egypt",
+            "enrollment": 150,
+            "brief_summary": "In dialysis centers, many patients are undergoing hemodialysis simultaneously, which facilitates the spread of microorganisms by direct or indirect contact through the devices, equipment, surface contact, and hands of health profession Over time, catheters are prone to higher rates of infection, thrombosis, and central venous stenosis, it has also been shown that catheters are an independent (of infection) inflammatory stressor and lead to increased morbidity .\n\nCatheters are aptly referred to a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n-Adults patients receiving long-term hemodialysis using temporary right internal jugular hemodialysis catheter\n\nExclusion Criteria:\n\n* Age below 16\n* Noncompliance patients\n* Mechanical complications",
+            "endpoints": [
+              "Catheter related infection"
+            ],
+            "sponsor": "Future University in Egypt",
+            "url": "https://clinicaltrials.gov/study/NCT05874219"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03478150",
+            "title": "Evaluation of The Antibacterial Effect of Laser Diode and Zinc Oxide Nano-particles on Streptococcus Mutans Bacteria Used as Cavity Disinfectants in Deep Carious Lesions : A Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2018-04-01",
+            "completion_date": "2019-02-28",
+            "country": "Egypt",
+            "enrollment": 30,
+            "brief_summary": "this is a randomized controlled clinical trial, evaluating the antibacterial effect of laser diode and zinc oxide nano-particles when used as cavity disinfectants.Two groups, including 15 patients each, will be randomly allocated so that each group receives one of either interventions (15 patients will undergo cavity disinfection by laser diode, while the other 15 patients will undergo cavity disinfection by zinc oxide nano-particles). For each patient, a dentin sample will be taken before and a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Normal adults will be recruited in this study, with free medical history\n* Have not received antibiotic therapy since 1 month before sampling\n* Good oral hygiene\n* Co-operative patients approving the trial\n* In each patient required one or two deeply carious class v cavities e",
+            "endpoints": [
+              "Change in the bacterial Count (Streptococcus Mutans) CFU/ml after cavity disinfection"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT03478150"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03052842",
+            "title": "A Phase 2, Single-blind, Randomized, Placebo-controlled Study to Evaluate the Microbiology, Safety and Tolerability of C16G2 Strip Administered in Multiple Doses to Adolescent and Adult Dental Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-02-09",
+            "completion_date": "2017-04-05",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "Single-blind study to evaluate whether C16G2 Strip administered in multiple doses can effectively kill the bacteria in the oral cavity that cause dental caries..",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males and females, 12-75 years of age\n2. Adults subjects provide written informed consent and adolescent subjects give written or verbal assent, as appropriate, and parent(s) or legal guardian(s) give written informed consent\n3. Female subjects of childbearing potential must ",
+            "endpoints": [
+              "Antimicrobial Activity of C16G2",
+              "Total Oral Bacterial Levels"
+            ],
+            "sponsor": "Armata Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03052842"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02099240",
+            "title": "Prospective Randomized Study to Compare Clinical Outcomes in Patients With Osteomyelitis Treated With Intravenous Antibiotics Versus Intravenous Antibiotics With an Early Switch to Oral Antibiotics",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2014-03-06",
+            "completion_date": "2018-11-07",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "Based on the current literature, investigators hypothesize that patients with osteomyelitis who are treated with the standard approach of intravenous antibiotics for the full duration of therapy will have the same clinical outcomes as patients treated with the experimental approach of intravenous antibiotics with early switch to oral antibiotics.\n\nThe primary objective of this study is to compare patients with osteomyelitis treated with the standard approach of intravenous antibiotics for the fu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Only adult patients will be invited to participate in this trial (age ≥ 18 years). A patient will be considered a candidate to participate in this trial if the following two inclusion criteria are present:\n\n  1. Isolation of an organism from bone culture that is susceptible to",
+            "endpoints": [
+              "Clinical Failures"
+            ],
+            "sponsor": "University of Louisville",
+            "url": "https://clinicaltrials.gov/study/NCT02099240"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00705354",
+            "title": "Pilot Study To Evaluate A Pharmacologically Active Nasal Sponge Following",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2009-01",
+            "completion_date": "2010-10",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This study will compare the incidence of post-op infection after sinus surgery using conventional post-op oral antibiotics to the incidence of infection after sinus surgery when a bio-resorbable antibiotic soaked nasal sponge is used in the nasal cavity in lieu of post-op oral antibiotics. The nasal sponge is a routine nasal dressing used after sinus surgery and will therefore be placed in all patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects requiring Endoscopic Sinus Surgery\n\nExclusion Criteria:\n\n* Pediatric subjects \\<18 years",
+            "endpoints": [
+              "The two groups of subjects will be compared on clincal & demographic characteristics. Evaluation of any new infection (no or yes)."
+            ],
+            "sponsor": "Lahey Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00705354"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00634166",
+            "title": "Prospective Evaluation of the Effects of Topical Therapy With Sulfamylon® For 5% Topical Solution on Autograft Healing in Subjects With Thermal Injuries Requiring Meshed Autografts: A Comparison to a Historical Control Group",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2007-09",
+            "completion_date": "2014-04",
+            "country": "United States",
+            "enrollment": 220,
+            "brief_summary": "The primary objective is to compare the effectiveness of treatment with Sulfamylon® solution as the initial topical moist dressing over meshed autografts following the initial graft procedure on preventing graft loss in a prospective cohort of subjects versus a historical control group in a non-inferiority trial.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nIn order for prospective subjects to be eligible for entry into the study:\n\n* Subjects must have thermal injuries of 20-60% TBSA requiring at least one meshed autograft on the chest, abdomen, or proximal upper and lower extremities following surgical excision of the burn injury.",
+            "endpoints": [
+              "Percentage of Participants With Graft Loss After Initial Meshed Autograft Procedure on Days 5-7."
+            ],
+            "sponsor": "Viatris Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00634166"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03196219",
+            "title": "A Phase 2, Open-label and Single-Blind Study to Evaluate the Microbiology, Safety and Tolerability of C16G2 Varnish and Strip Administered in Multiple Doses to Adolescent and Adult Dental Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-07-07",
+            "completion_date": "2018-01-10",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "An open-label and single-blind phase 2 study to evaluate the oral microbiology, safety and tolerability of multiple C16G2 Varnish and Strip applications in male and female dental subjects 12-75 years of age. The study will compare multiple study drug administrations of C16G2 Varnish and/or C16G2 Strip in three study arms.\n\nIn Study Arm 1 eight subjects will be enrolled in an open-label manner and will receive a daily dose of C16G2 Varnish application over 3 days followed by 14 doses of C16G2 Str",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males and females, 12-75 years of age\n2. Adults subjects provide written informed consent and adolescent subjects give written or verbal assent, as appropriate, and parent(s) or legal guardian(s) give written informed consent\n3. Female subjects of childbearing potential must ",
+            "endpoints": [
+              "Antimicrobial Activity of C16G2",
+              "Total Oral Bacterial Levels"
+            ],
+            "sponsor": "Armata Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03196219"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infective urethral stricture",
+        "txgnn_score": 0.9996504783630372,
+        "txgnn_rank": 910,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "post-infectious syndrome",
+        "txgnn_score": 0.9996473789215088,
+        "txgnn_rank": 913,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02809131",
+            "title": "Randomized Noninferiority Study of an Antibacterial Envelope Alone Versus Envelope Plus Intraoperative Antibacterial Irrigant and Postoperative Antibiotics to Prevent Cardiac Implantable Electronic Device Infections in High-Risk Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-04-01",
+            "completion_date": "2021-09-30",
+            "country": "United States",
+            "enrollment": 1010,
+            "brief_summary": "The number of cardiac implantable electronic devices (CIEDs) implanted each year has grown rapidly over the past two decades. CIED infections, defined as infections involving the generator implant site (pocket) and/or intravascular leads, have become increasingly prevalent, with the rate of growth in infections outpacing that of CIED procedures. The odds of both short term and long term mortality are at least doubled in patients who suffer CIED infections, and long term survival is particularly ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years old\n* Able to give informed consent\n* At least 2 of the following risk factors for infection:\n\n  * Diabetes mellitus\n  * Chronic kidney disease (estimated creatinine clearance \\<30 ml/min\n  * Therapeutic anticoagulation\n  * Chronic heart failure\n  * Chronic use o",
+            "endpoints": [
+              "Number of Patients With a Major Cardiac Implantable Electronic Devices (CIED) Infection"
+            ],
+            "sponsor": "Vanderbilt University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02809131"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06992453",
+            "title": "Disentangling Microbiome Engraftment by Multi-omics of the Gut Ecosystem During Fecal Transplant",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-06-01",
+            "completion_date": "2029-02-19",
+            "country": "Italy",
+            "enrollment": 90,
+            "brief_summary": "The gut microbiota plays a key role in immunity and metabolism and contributes to diseases such as recurrent C. difficile infection (rCDI), ulcerative colitis (UC), and metabolic syndrome (MetS). Microbiota therapeutics, particularly fecal microbiota transplantation (FMT), show promise-achieving \\~90% cure rates in rCDI-but demonstrate variable efficacy in chronic conditions. Microbiome engraftment appears critical for FMT success, yet consistent predictors remain lacking. A meta-analysis of 20 ",
+            "eligibility_criteria": "Inclusion Criteria:\n\nCoorte: Patients affected by Ulcerative Colitis\n\n* Age ≥18 years.\n* Biologic-naïve active UC\n* UC with mild-to-moderate activity (total Mayo score 3-10 + endoscopic subscore≥1) (23)\n* UC during stable maintenance therapy (\\> 8 weeks with salicylates, immunosuppressants);\n* Abili",
+            "endpoints": [
+              "Longitudinal Analysis of Host-Microbiome Interactions Driving Microbial Engraftment"
+            ],
+            "sponsor": "Catholic University of the Sacred Heart",
+            "url": "https://clinicaltrials.gov/study/NCT06992453"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00000635",
+            "title": "Treatment of Acyclovir-Resistant Mucocutaneous Herpes Simplex Disease in Patients With AIDS: Open Label Pilot Study of Topical Trifluridine",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "",
+            "completion_date": "1992-04",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "To determine the safety, effectiveness, and toxicity of topical (local) trifluridine in treating mucocutaneous (at the nasal, oral, vaginal, and anal openings) Herpes simplex virus ( HSV ) disease that has shown resistance to acyclovir in HIV-infected patients. HSV infection in patients with AIDS is often associated with skin sores and frequent recurrences. Treatment with the drug acyclovir results in healing for most patients, but repeated treatment sometimes results in resistance of the virus ",
+            "eligibility_criteria": "Inclusion Criteria\n\nConcurrent Medication: Included:\n\n* All medications deemed essential for best patient care, including zidovudine (AZT), Pneumocystis carinii pneumonia (PCP) prophylaxis, and acute or maintenance therapies for other opportunistic infections.\n\nPatients must have the following:\n\n* H",
+            "endpoints": [],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00000635"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infection-related hemolytic uremic syndrome",
+        "txgnn_score": 0.999618411064148,
+        "txgnn_rank": 966,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Chagas cardiomyopathy",
+        "txgnn_score": 0.9996101260185242,
+        "txgnn_rank": 982,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00626",
+    "name": "Bacitracin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bacitracin"
+      },
+      "queried_at": "2026-03-09T08:01:11.325031",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bacitracin"
+      },
+      "queried_at": "2026-03-09T08:01:15.239471",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T08:01:15.895357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T08:01:19.758102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T08:01:20.659971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-09T08:01:21.720346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-09T08:01:26.146124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-09T08:01:26.968195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "non-human animal disease"
+      },
+      "queried_at": "2026-03-09T08:01:27.669523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "non-human animal disease"
+      },
+      "queried_at": "2026-03-09T08:01:32.697737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "non-human animal disease"
+      },
+      "queried_at": "2026-03-09T08:01:34.839007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "otitis externa"
+      },
+      "queried_at": "2026-03-09T08:01:35.813097",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "otitis externa"
+      },
+      "queried_at": "2026-03-09T08:01:41.291976",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "otitis externa"
+      },
+      "queried_at": "2026-03-09T08:01:43.741519",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-09T08:01:44.453120",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-09T08:01:48.279913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-09T08:01:49.647438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-09T08:01:52.645721",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-09T08:01:56.178602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-09T08:01:57.185029",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-09T08:01:57.735415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-09T08:02:02.661559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-09T08:02:03.501313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-infectious syndrome"
+      },
+      "queried_at": "2026-03-09T08:02:07.446445",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-infectious syndrome"
+      },
+      "queried_at": "2026-03-09T08:02:11.685467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-infectious syndrome"
+      },
+      "queried_at": "2026-03-09T08:02:12.630523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "queried_at": "2026-03-09T08:02:13.376054",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "queried_at": "2026-03-09T08:02:16.528954",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "queried_at": "2026-03-09T08:02:17.236051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T08:02:17.759163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T08:02:21.302770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T08:02:21.956937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:02:21.958060"
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "drug": {
+    "inn": "Benzydamine",
+    "drugbank_id": "DB09084",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "benign prostatic hyperplasia (disease)",
+        "txgnn_score": 0.9925832748413086,
+        "txgnn_rank": 8567,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9757779836654664,
+        "txgnn_rank": 18980,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.971735179424286,
+        "txgnn_rank": 20610,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral vascular disease",
+        "txgnn_score": 0.9618598818778992,
+        "txgnn_rank": 23800,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "5397591",
+            "title": "[Association of benzydamine and tetracycline in acute and subacute inflammation in internal medicine].",
+            "abstract": "",
+            "journal": "Il Policlinico. Sezione pratica",
+            "year": "1969",
+            "authors": [
+              "Molinis G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Bronchitis",
+              "Bronchopneumonia",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Phlebitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5397591/"
+          },
+          {
+            "pmid": "5382105",
+            "title": "[Clinical observations on the anti-inflammatory activity of the association of benzydamine and tetracycline].",
+            "abstract": "",
+            "journal": "La Clinica terapeutica",
+            "year": "1969",
+            "authors": [
+              "Cairella M",
+              "Volpari B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-Inflammatory Agents",
+              "Bronchitis",
+              "Child",
+              "Enteritis",
+              "Female",
+              "Humans",
+              "Inflammation",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5382105/"
+          },
+          {
+            "pmid": "772478",
+            "title": "[Topical treatment of thrombophlebitis with feprazone and benzydamine. Controlled clinical study].",
+            "abstract": "Topical anti-inflammatory management of superficial and deep phlebopathy with feprazone and benzidamine was compared in a double-blind test. Both drugs were active and well tolerated. Significantly less time was needed to obtain a cure with feprazone.",
+            "journal": "Minerva medica",
+            "year": "1976",
+            "authors": [
+              "Bagliani A",
+              "Montalbetti L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Analysis of Variance",
+              "Anti-Inflammatory Agents",
+              "Benzydamine",
+              "Clinical Trials as Topic",
+              "Female",
+              "Feprazone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/772478/"
+          },
+          {
+            "pmid": "5606258",
+            "title": "[On the use of benzydamine in dermatology].",
+            "abstract": "",
+            "journal": "Il Policlinico. Sezione medica",
+            "year": "1967",
+            "authors": [
+              "Pasi F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Phlebitis",
+              "Pyrazoles",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5606258/"
+          },
+          {
+            "pmid": "5123780",
+            "title": "[A new anti-inflammatory agent in angiology: benzydamine hydrochloride].",
+            "abstract": "",
+            "journal": "Phlebologie",
+            "year": "1971",
+            "authors": [
+              "Merlen J F",
+              "Coget J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Female",
+              "Hemorrhoids",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Phlebitis",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5123780/"
+          },
+          {
+            "pmid": "5622836",
+            "title": "[Benzydamine in inflammatory phlebopathies of the lower limbs].",
+            "abstract": "",
+            "journal": "Minerva dermatologica",
+            "year": "1967",
+            "authors": [
+              "Rasponi L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Factors",
+              "Aged",
+              "Female",
+              "Humans",
+              "Inflammation",
+              "Leg Dermatoses",
+              "Leg Ulcer",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5622836/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.9580192565917968,
+        "txgnn_rank": 24737,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04899401",
+            "title": "A Randomized, Open, Controlled Study to Evaluate the Efficacy and Safety of PediaFlù® (Dietary Supplement) Along With Standard of Care in Children With Acute Tonsillopharyngitis / Rhinopharyngitis Versus Standard of Care Only",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-06-03",
+            "completion_date": "2021-08-12",
+            "country": "Romania",
+            "enrollment": 130,
+            "brief_summary": "Sore throat or acute tonsillopharyngitis, often referred to as angina catarrhalis in Central and Eastern Europe, affects mainly children, adolescents and young adults and represents one of the most common reasons to consult a family physician. While most patients complaining of sore throats have an infection, it has been estimated that fewer than 20% present with a clear indication for antibiotic therapy, i.e., are positive for hemolytic streptococcus.\n\nAcute tonsillopharyngitis (ATP) is a highl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients will be eligible for inclusion if all the following criteria are respected:\n* male and female (children 3 - 10 years old);\n* acute tonsillitis / rhinopharyngitis (sore throat, catarrhal angina), duration of complaints ≤ 48 hours,\n* Absence of pharyngeal exudate and/or",
+            "endpoints": [
+              "Tonsillitis severity score",
+              "Number of treatment failure",
+              "AE/SAE incidence."
+            ],
+            "sponsor": "Pediatrica S.r.l",
+            "url": "https://clinicaltrials.gov/study/NCT04899401"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03282045",
+            "title": "A Multicenter, Single-blind, Randomized, Placebo-controlled Comparative Study on Efficacy and Safety of the Lysobact Complete Spray®, Tantum Verde® Spray and Pharyngal® Oromucosal Spray in the Treatment of Acute Sore Throat in Common Cold",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-10",
+            "completion_date": "2018-05-24",
+            "country": "Bosnia and Herzegovina",
+            "enrollment": 346,
+            "brief_summary": "The primary objective of this multicenter, single-blind, randomized, placebo-controlled, prospective, comparative study with parallel design and 4-arms is to evaluate superiority of Lysobact Complete Spray® against placebo and non inferiority of Lysobact Complete Spray® against active comparators (Tantum Verde® and Pharyngal®) in terms of efficacy based on the pain VAS scores evaluated by the patient using Sore Throat Pain Intensity Scale (STPIS).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with acute tonsillo-pharyngitis symptoms in common cold and by using a scale-based symptom Tonsillo-Pharyngitis Assessment (TPA) as an objective finding of pharyngeal infection, with a score of ≥5\n* Patients who will be treated only on a symptomatic treatment basis, a",
+            "endpoints": [
+              "to evaluate superiority of Lysobact Complete Spray® against placebo and non-inferiority of Lysobact Complete Spray® against active comparators"
+            ],
+            "sponsor": "Bosnalijek D.D",
+            "url": "https://clinicaltrials.gov/study/NCT03282045"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40626097",
+            "title": "Development and refinement of the sore throat pain model as an assay for measuring therapeutic effects on acute pain.",
+            "abstract": "The physical and subjective status of patients with acute throat pain has been developed and refined over the past 40 years as an acute pain model to measure changes in patient-reported symptoms attributed to active pharmacologic intervention when patients with painful pharyngitis are evaluated under randomized, double-blind, placebo-controlled conditions. Acute, painful pharyngitis is a familiar experience for the majority of adults and children (\"a sore throat\" is the most common example of the aches and pains of the common cold). As such, the condition has served as a general acute pain model to demonstrate the acute effects of non-prescription-strength analgesic agents (for mild-to-moderate pain) and prescription-strength analgesics (for moderate-to-severe pain). Here we discuss the methodologic features of this clinical pharmacology assay as it was refined from its original examinations of classic, orally administered, acute analgesics (aspirin, acetaminophen, aspirin with caffein",
+            "journal": "Frontiers in pain research (Lausanne, Switzerland)",
+            "year": "2025",
+            "authors": [
+              "Schachtel Bernard P",
+              "Shephard Adrian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40626097/"
+          },
+          {
+            "pmid": "37000110",
+            "title": "Comparative evaluation of rapidity of action of benzydamine hydrochloride 0.3% oromucosal spray and benzydamine hydrochloride 3 mg lozenges in patients with acute sore throat: A phase IV randomized trial.",
+            "abstract": "Acute sore throat (ST) can occur as part of a common cold of viral origin or caused by pharyngeal bacterial pathogens. The majority of patients with acute ST complain of pain on swallowing and dry scratchiness which can have a negative impact on the quality of life (QoL). This study aimed to evaluate the time to pain relief in patients with acute ST, following a single administration of benzydamine hydrochloride (HCl) 0.3% oromucosal spray or benzydamine HCl 3 mg lozenges.",
+            "journal": "Medicine",
+            "year": "2023",
+            "authors": [
+              "Valerio Carmelina",
+              "Di Loreto Giorgio",
+              "Salvatori Enrica",
+              "Cattaneo Agnese"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Clinical Trial, Phase IV",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Benzydamine",
+              "Quality of Life",
+              "Common Cold",
+              "Pharyngitis",
+              "Tablets",
+              "Pain",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37000110/"
+          },
+          {
+            "pmid": "31718214",
+            "title": "Comparative Study of the Efficacy of the Lysozyme, Benzydamine and Chlorhexidine Oral Spray in the Treatment of Acute Tonsillopharyngitis - Results of a Pilot Study.",
+            "abstract": "Lysozyme is a natural antimicrobial and immunomodulatory enzyme, which is produced as a host response to infectious agents. The objective of this study was to compare the efficacy and safety of lysozyme-based versus benzydamine and chlorhexidinebased oral spray in patients with an acute tonsillopharyngitis associated with a common cold.",
+            "journal": "Acta medica academica",
+            "year": "2019",
+            "authors": [
+              "Golac-Guzina Nataša",
+              "Novaković Zorica",
+              "Sarajlić Zehra",
+              "Šukalo Aziz",
+              "Džananović Jasna"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Infective Agents, Local",
+              "Anti-Inflammatory Agents",
+              "Benzydamine",
+              "Chlorhexidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31718214/"
+          },
+          {
+            "pmid": "8984600",
+            "title": "[Decongestant nasal spray. Results of a rhinomanometric double-blind study].",
+            "abstract": "Between november 1993 and july 1995 60 patients with a common cold underwent randomized and double-blind testing of 3 commercial nasal sprays-benzydamine, xylometazoline combined with the secretolytic S-carboxymethylcysteine, and phenylephrine combined with the antihistaminic dimethindene maleate. After prior active rhinomanometric measurement of the untreated nose, the test substance was applied. The change of nasal patency was registered after 3 and 10 minutes and then after 2, 4, 6 and 8 hours. At the end the patient gave a subjective evaluation of the used spray. There was no change in nasal obstruction following application of NaCl or benzydamine. Xylometazoline/S-carboxymethylcysteine (+87%) or phenylephrine/ dimethindene maleate (+113%) augmented nasal patency within minutes. Using phenylephrine/dimethindene maleate the effect lasted less than 2 hours, while after xylometazoline/S-carboxymethylcysteine decongestion lasted more than 6 hours. The patients also subjectively reporte",
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1996",
+            "authors": [
+              "Maranta C A",
+              "Simmen D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Adolescent",
+              "Adult",
+              "Airway Resistance",
+              "Anti-Infective Agents, Local",
+              "Carbocysteine",
+              "Common Cold",
+              "Dimethindene",
+              "Double-Blind Method",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8984600/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral arterial disease",
+        "txgnn_score": 0.9556333422660828,
+        "txgnn_rank": 25311,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9522626399993896,
+        "txgnn_rank": 26183,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "toxocariasis",
+        "txgnn_score": 0.9512929916381836,
+        "txgnn_rank": 26398,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "subarachnoid hemorrhage (disease)",
+        "txgnn_score": 0.9485650062561036,
+        "txgnn_rank": 27026,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.9482243657112122,
+        "txgnn_rank": 27099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09084",
+    "name": "Benzydamine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Benzydamine"
+      },
+      "queried_at": "2026-03-10T05:13:34.895190",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Benzydamine"
+      },
+      "queried_at": "2026-03-10T05:13:37.805143",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "queried_at": "2026-03-10T05:13:38.418282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "queried_at": "2026-03-10T05:13:41.792698",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "queried_at": "2026-03-10T05:13:42.492881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T05:13:42.997437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T05:13:46.859148",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T05:13:47.593126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T05:13:48.248417",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T05:13:52.312710",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T05:13:53.294049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "peripheral vascular disease"
+      },
+      "queried_at": "2026-03-10T05:13:54.022670",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "peripheral vascular disease"
+      },
+      "queried_at": "2026-03-10T05:13:57.456247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "peripheral vascular disease"
+      },
+      "queried_at": "2026-03-10T05:13:59.300701",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T05:13:59.993100",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T05:14:03.059429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T05:14:05.257728",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T05:14:05.804565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T05:14:08.875146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T05:14:09.602411",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T05:14:10.257191",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T05:14:14.865724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T05:14:17.178755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "toxocariasis"
+      },
+      "queried_at": "2026-03-10T05:14:18.511050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "toxocariasis"
+      },
+      "queried_at": "2026-03-10T05:14:22.626819",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "toxocariasis"
+      },
+      "queried_at": "2026-03-10T05:14:23.924244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "subarachnoid hemorrhage (disease)"
+      },
+      "queried_at": "2026-03-10T05:14:24.797037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "subarachnoid hemorrhage (disease)"
+      },
+      "queried_at": "2026-03-10T05:14:29.277046",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "subarachnoid hemorrhage (disease)"
+      },
+      "queried_at": "2026-03-10T05:14:29.969352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T05:14:30.605435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T05:14:33.442516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzydamine",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T05:14:34.149260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:14:34.152957"
+  }
+}

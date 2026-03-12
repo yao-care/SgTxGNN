@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Icodextrin",
+    "drugbank_id": "DB00702",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9852594137191772,
+        "txgnn_rank": 14036,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-syndromic esophageal malformation",
+        "txgnn_score": 0.9740573167800904,
+        "txgnn_rank": 19709,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "C1 inhibitor deficiency",
+        "txgnn_score": 0.9728939533233644,
+        "txgnn_rank": 20171,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "potassium deficiency disease",
+        "txgnn_score": 0.9719060063362122,
+        "txgnn_rank": 20544,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "serpinopathy with toxic serpin polymerization",
+        "txgnn_score": 0.9706421494483948,
+        "txgnn_rank": 21014,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary angioedema with C1Inh deficiency",
+        "txgnn_score": 0.9681044816970824,
+        "txgnn_rank": 21889,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal disease",
+        "txgnn_score": 0.9676947593688964,
+        "txgnn_rank": 22011,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial visceral myopathy",
+        "txgnn_score": 0.9634223580360411,
+        "txgnn_rank": 23323,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal tubular acidosis",
+        "txgnn_score": 0.9581459164619446,
+        "txgnn_rank": 24709,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vitamin deficiency disorder",
+        "txgnn_score": 0.9578006863594056,
+        "txgnn_rank": 24781,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00702",
+    "name": "Icodextrin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Icodextrin"
+      },
+      "queried_at": "2026-03-10T07:00:30.185802",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Icodextrin"
+      },
+      "queried_at": "2026-03-10T07:00:30.900471",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T07:00:31.579172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T07:00:35.436934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T07:00:36.119759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:00:36.819002",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:00:40.646953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:00:42.079731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "queried_at": "2026-03-10T07:00:42.628354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "queried_at": "2026-03-10T07:00:45.377602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "queried_at": "2026-03-10T07:00:46.121844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "potassium deficiency disease"
+      },
+      "queried_at": "2026-03-10T07:00:47.986862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "potassium deficiency disease"
+      },
+      "queried_at": "2026-03-10T07:00:51.815868",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "potassium deficiency disease"
+      },
+      "queried_at": "2026-03-10T07:00:52.962826",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "serpinopathy with toxic serpin polymerization"
+      },
+      "queried_at": "2026-03-10T07:00:53.844834",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "serpinopathy with toxic serpin polymerization"
+      },
+      "queried_at": "2026-03-10T07:00:56.925695",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "serpinopathy with toxic serpin polymerization"
+      },
+      "queried_at": "2026-03-10T07:00:57.923776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "hereditary angioedema with C1Inh deficiency"
+      },
+      "queried_at": "2026-03-10T07:00:58.722638",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "hereditary angioedema with C1Inh deficiency"
+      },
+      "queried_at": "2026-03-10T07:01:01.582512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "hereditary angioedema with C1Inh deficiency"
+      },
+      "queried_at": "2026-03-10T07:01:02.651279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T07:01:03.650835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T07:01:08.655190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T07:01:09.689612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-10T07:01:10.367891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-10T07:01:14.475059",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-10T07:01:15.952782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-10T07:01:16.670872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-10T07:01:19.995088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-10T07:01:20.620851",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "vitamin deficiency disorder"
+      },
+      "queried_at": "2026-03-10T07:01:21.183173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "vitamin deficiency disorder"
+      },
+      "queried_at": "2026-03-10T07:01:24.592401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Icodextrin",
+        "disease": "vitamin deficiency disorder"
+      },
+      "queried_at": "2026-03-10T07:01:25.710391",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:01:25.732803"
+  }
+}

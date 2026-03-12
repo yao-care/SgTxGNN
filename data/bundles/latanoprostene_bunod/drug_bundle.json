@@ -1,0 +1,582 @@
+{
+  "drug": {
+    "inn": "Latanoprostene bunod",
+    "drugbank_id": "DB11660",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "visceral calciphylaxis",
+        "txgnn_score": 0.9975588321685792,
+        "txgnn_rank": 3957,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9970625042915344,
+        "txgnn_rank": 4531,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "arterial thoracic outlet syndrome",
+        "txgnn_score": 0.9963449835777284,
+        "txgnn_rank": 5268,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "venous thoracic outlet syndrome",
+        "txgnn_score": 0.9963449835777284,
+        "txgnn_rank": 5269,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurogenic thoracic outlet syndrome",
+        "txgnn_score": 0.9956201910972596,
+        "txgnn_rank": 5955,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vascular disease",
+        "txgnn_score": 0.9953492283821106,
+        "txgnn_rank": 6193,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03949244",
+            "title": "Effect of Nailfold Application of Latanoprostene Bunod on Nailfold Capillary Blood Flow",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2019-08-15",
+            "completion_date": "2020-10-01",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "The purpose of this study is to look at the relationship of small blood vessels irregularities observed with an imaging system called video nailfold capillaroscopy in people with primary open-angle glaucoma. Nailfold capillaroscopy (NFC) is a video camera with a magnifying lens used for studying the movement of blood in small blood vessels. It is simple, safe and does not penetrate the skin. The skin fold that is at the tip of the finger is called the \"nailfold\". NFC has been used to assess bloo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 40 years old to 80 years old\n* All participants will have open angles and no signs of secondary glaucoma such as exfoliation syndrome\n* Untreated intraocular pressure (IOP) may be ≤ 21mmHg or ≥ 21mmHg in both eyes\n* The cup-to-disc ratio (CDR) ≥ 0.6 in both eyes and CDR asymme",
+            "endpoints": [
+              "NFC Blood Flow at Baseline and 15 Minutes"
+            ],
+            "sponsor": "Icahn School of Medicine at Mount Sinai",
+            "url": "https://clinicaltrials.gov/study/NCT03949244"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03931317",
+            "title": "A Randomized, Single Center, Masked, Crossover Study Comparing the Effects of Latanoprostene Bunod and Timolol on Retinal Blood Vessel Density and Visual Acuity in Patients With Ocular Hypertension or Primary Open Angle Glaucoma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2018-12-03",
+            "completion_date": "2023-03-01",
+            "country": "United States",
+            "enrollment": 70,
+            "brief_summary": "The purpose of this research study is to compare the effect of Latanoprostene Bunod and Timolol on eye pressure and blood vessels of the back of the eye.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must be between 40 to 90 years of age, inclusive, on the date the Informed Consent Form (ICF) is signed and with the capacity to provide voluntary informed consent.\n* Subjects must be able to read, understand, and provide written informed consent on the Institutional ",
+            "endpoints": [
+              "retinal blood vessel density (peripapillary and macular)"
+            ],
+            "sponsor": "University of California, San Diego",
+            "url": "https://clinicaltrials.gov/study/NCT03931317"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30028313",
+            "title": "Glaucomatous optic neuropathy treatment options: the promise of novel therapeutics, techniques and tools to help preserve vision.",
+            "abstract": "Peripheral vision loss followed by \"tunnel vision\" and eventual irreversible blindness is the fate of patients afflicted by various forms of glaucoma including primary open-angle glaucoma (POAG) and normotensive glaucoma (NTG). These complex and heterogeneous diseases are characterized by extensive death of retinal ganglion cells (RGCs) accompanied by retraction and severance of their axonal connections to the brain and thus damage to and thinning of the optic nerve. Since patients suffering from this glaucomatous optic neuropathy (GON) first notice visual impairment when they have lost > 40% of their RGCs, early diagnosis is the key to retard the progression of glaucoma. Elevated intraocular pressure (IOP), low cerebrospinal and/or low intracranial fluid pressure, advancing age, and ethnicity are major risk factors associated with POAG. However, retinal vascular abnormalities and a high sensitivity of RGCs and optic nerve head components to neurotoxic, inflammatory, oxidative and mech",
+            "journal": "Neural regeneration research",
+            "year": "2018",
+            "authors": [
+              "Sharif Najam A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30028313/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic spontaneous coronary artery dissection",
+        "txgnn_score": 0.9951791763305664,
+        "txgnn_rank": 6339,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "angiodysplasia of stomach",
+        "txgnn_score": 0.9951157569885254,
+        "txgnn_rank": 6392,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphangiectasis",
+        "txgnn_score": 0.994836926460266,
+        "txgnn_rank": 6626,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemangioendothelioma",
+        "txgnn_score": 0.9946670532226562,
+        "txgnn_rank": 6765,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38113361",
+            "title": "Serous Retinal Detachment in a Patient With a Port-Wine Birthmark Associated With Prostaglandin Analog Therapy.",
+            "abstract": "An 11-year-old girl with a port-wine birthmark (PWB), diffuse choroid hemangioma (DCH), and glaucoma experienced decreased vision upon starting treatment with bimatoprost. The patient was switched to latanoprostene bunod. Her vision remained reduced. Shortly after, she was diagnosed with serous retinal detachment (SRD). Both SRD and vision improved following prostaglandin analog (PGA) cessation. Patients with PWB are likely to have DCH and glaucoma. DCH itself poses a risk factor for SRD. Certain glaucoma management modalities may further increase this risk. This report highlights the importance of regular surveillance for SRD in patients with DCH who are receiving PGA. [Ophthalmic Surg Lasers Imaging Retina 2023;54:723-729.].",
+            "journal": "Ophthalmic surgery, lasers & imaging retina",
+            "year": "2023",
+            "authors": [
+              "Mueller Anna",
+              "Chang Ta Chen Peter"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Child",
+              "Retinal Detachment",
+              "Glaucoma",
+              "Hemangioma",
+              "Choroid Neoplasms",
+              "Choroid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38113361/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11660",
+    "name": "Latanoprostene bunod",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Latanoprostene bunod"
+      },
+      "queried_at": "2026-03-09T22:53:18.337853",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Latanoprostene bunod"
+      },
+      "queried_at": "2026-03-09T22:53:26.322556",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "visceral calciphylaxis"
+      },
+      "queried_at": "2026-03-09T22:53:27.820102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "visceral calciphylaxis"
+      },
+      "queried_at": "2026-03-09T22:53:41.039030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "visceral calciphylaxis"
+      },
+      "queried_at": "2026-03-09T22:53:43.088421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T22:53:44.833345",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T22:53:53.654882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T22:53:55.045648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "arterial thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:03.042187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "arterial thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:07.252870",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "arterial thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:18.428583",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "venous thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:20.270961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "venous thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:50.459810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "venous thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:52.097261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "neurogenic thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:54:56.486869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "neurogenic thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:55:02.099832",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "neurogenic thoracic outlet syndrome"
+      },
+      "queried_at": "2026-03-09T22:55:04.693261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "vascular disease"
+      },
+      "queried_at": "2026-03-09T22:55:07.849777",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "vascular disease"
+      },
+      "queried_at": "2026-03-09T22:55:12.304451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "vascular disease"
+      },
+      "queried_at": "2026-03-09T22:55:35.213963",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "idiopathic spontaneous coronary artery dissection"
+      },
+      "queried_at": "2026-03-09T22:55:37.796134",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "idiopathic spontaneous coronary artery dissection"
+      },
+      "queried_at": "2026-03-09T22:55:43.346664",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "idiopathic spontaneous coronary artery dissection"
+      },
+      "queried_at": "2026-03-09T22:55:45.148395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "angiodysplasia of stomach"
+      },
+      "queried_at": "2026-03-09T22:55:47.406902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "angiodysplasia of stomach"
+      },
+      "queried_at": "2026-03-09T22:55:54.536881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "angiodysplasia of stomach"
+      },
+      "queried_at": "2026-03-09T22:56:15.270410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "lymphangiectasis"
+      },
+      "queried_at": "2026-03-09T22:56:49.848170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "lymphangiectasis"
+      },
+      "queried_at": "2026-03-09T22:56:53.256366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "lymphangiectasis"
+      },
+      "queried_at": "2026-03-09T22:56:55.494041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "hemangioendothelioma"
+      },
+      "queried_at": "2026-03-09T22:56:57.492858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "hemangioendothelioma"
+      },
+      "queried_at": "2026-03-09T22:57:06.690649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Latanoprostene bunod",
+        "disease": "hemangioendothelioma"
+      },
+      "queried_at": "2026-03-09T22:57:10.722182",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:57:10.846683"
+  }
+}

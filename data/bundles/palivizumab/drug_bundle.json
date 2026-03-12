@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Palivizumab",
+    "drugbank_id": "DB00110",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "benign neoplasm of tongue",
+        "txgnn_score": 0.9993940591812134,
+        "txgnn_rank": 1313,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottis neoplasm",
+        "txgnn_score": 0.9993915557861328,
+        "txgnn_rank": 1316,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical neuroblastoma",
+        "txgnn_score": 0.9993759989738464,
+        "txgnn_rank": 1337,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of hypopharynx",
+        "txgnn_score": 0.9993711113929749,
+        "txgnn_rank": 1350,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of floor of mouth",
+        "txgnn_score": 0.999366581439972,
+        "txgnn_rank": 1362,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tumor of testis and paratestis",
+        "txgnn_score": 0.9993646740913392,
+        "txgnn_rank": 1368,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cystic neoplasm",
+        "txgnn_score": 0.9993619322776794,
+        "txgnn_rank": 1378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schwannoma of jugular foramen",
+        "txgnn_score": 0.9993593096733092,
+        "txgnn_rank": 1380,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mesenchymoma",
+        "txgnn_score": 0.9993578791618348,
+        "txgnn_rank": 1383,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thyroglossal duct cyst",
+        "txgnn_score": 0.9993544220924376,
+        "txgnn_rank": 1391,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00110",
+    "name": "Palivizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Palivizumab"
+      },
+      "queried_at": "2026-03-09T14:53:33.686137",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Palivizumab"
+      },
+      "queried_at": "2026-03-09T14:53:43.546947",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-09T14:53:45.037299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-09T14:53:49.740385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-09T14:53:50.604829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-09T14:53:51.188727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-09T14:53:54.660935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-09T14:53:56.027746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-09T14:53:57.416764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-09T14:54:04.439973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-09T14:54:05.890286",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-09T14:54:06.522598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-09T14:54:09.686496",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-09T14:54:11.583160",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-09T14:54:12.462727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-09T14:54:15.760297",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-09T14:54:17.737873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "tumor of testis and paratestis"
+      },
+      "queried_at": "2026-03-09T14:54:18.342683",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "tumor of testis and paratestis"
+      },
+      "queried_at": "2026-03-09T14:54:23.738079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "tumor of testis and paratestis"
+      },
+      "queried_at": "2026-03-09T14:54:25.176316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "cystic neoplasm"
+      },
+      "queried_at": "2026-03-09T14:54:26.282825",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "cystic neoplasm"
+      },
+      "queried_at": "2026-03-09T14:54:32.075519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "cystic neoplasm"
+      },
+      "queried_at": "2026-03-09T14:54:33.139869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-09T14:54:33.790688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-09T14:54:40.230515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-09T14:54:41.461227",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "mesenchymoma"
+      },
+      "queried_at": "2026-03-09T14:54:42.693956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "mesenchymoma"
+      },
+      "queried_at": "2026-03-09T14:54:46.749612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "mesenchymoma"
+      },
+      "queried_at": "2026-03-09T14:54:47.416922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "thyroglossal duct cyst"
+      },
+      "queried_at": "2026-03-09T14:54:47.932530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "thyroglossal duct cyst"
+      },
+      "queried_at": "2026-03-09T14:54:53.388867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palivizumab",
+        "disease": "thyroglossal duct cyst"
+      },
+      "queried_at": "2026-03-09T14:54:54.472342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T14:54:54.487825"
+  }
+}

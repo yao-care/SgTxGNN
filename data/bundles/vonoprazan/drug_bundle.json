@@ -1,0 +1,2020 @@
+{
+  "drug": {
+    "inn": "Vonoprazan",
+    "drugbank_id": "DB11739",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "active peptic ulcer disease",
+        "txgnn_score": 0.9997374415397644,
+        "txgnn_rank": 722,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03214952",
+            "title": "Drug Use Surveillance of Takecab Tablets for \"Gastric Ulcer, Duodenal Ulcer, and Reflux Esophagitis\"",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-03-01",
+            "completion_date": "2018-10-31",
+            "country": "Japan",
+            "enrollment": 3183,
+            "brief_summary": "The purpose of this survey is to evaluate the safety and effectiveness of vonoprazan tablets in patients with gastric ulcer, duodenal ulcer, and reflux esophagitis in the routine clinical setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\- Participants with gastric ulcer, duodenal ulcer, and reflux esophagitis\n\nExclusion Criteria:\n\n* Participants with previous history of hypersensitivity to ingredients in Takecab tablets\n* Participants taking atazanavir sulfate or rilpivirine hydrochloride\n* Participants meetin",
+            "endpoints": [
+              "Percentage of Participants With Gastric Ulcer Who Had One or More Adverse Drug Reactions",
+              "Percentage of Participants With Duodenal Ulcer Who Had One or More Adverse Drug Reactions",
+              "Percentage of Participants With Reflux Esophagitis Who Had One or More Adverse Drug Reactions"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT03214952"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03116841",
+            "title": "Vonoprazan Study of Investigating the Effect on Sleep Disturbance Associated With Reflux Esophagitis- Exploratory Evaluation (VISTAEXE)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2017-08-02",
+            "completion_date": "2017-12-20",
+            "country": "Japan",
+            "enrollment": 3,
+            "brief_summary": "The purpose of this study is to exploratorily evaluate the effect of vonoprazan 20 mg on sleep disturbance of patients with reflux esophagitis, who have heartburn and/or regurgitation and ≥ 6.0 in the Pittsburgh Sleep Quality Index (PSQI) global score despite the maintenance treatment with PPI other than vonoprazan.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants who completed the initial treatment with PPIs (esomeprazole, omeprazole, rabeprazole, or lansoprazole) and have received high dose PPIs (esomeprazole 20 mg, omeprazole 20 mg, rabeprazole 10 mg, or lansoprazole 30 mg) for more than 8 weeks at the time of informed ",
+            "endpoints": [
+              "Changes From Start of Administration (Week 0) in Pittsburgh Sleep Quality Index (PSQI) Global Score at End of Study"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT03116841"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36660052",
+            "title": "Management of Helicobacter pylori infection.",
+            "abstract": "Helicobacter pylori infection exhibits a wide disease spectrum ranging from asymptomatic gastritis, peptic ulcer disease, to gastric cancer. H. pylori can induce dysbiosis of gastric microbiota in the pathway of carcinogenesis and successful eradication can restore gastric homeostasis. Diagnostic testing and treatment for H. pylori infection is recommended in patients with active or past history of peptic ulcer, chronic dyspepsia, chronic non-steroidal anti-inflammatory drugs (NSAID) or aspirin use, precancerous gastric lesions, gastric cancer, mucosa-associated lymphoid tissue (MALT) lymphoma, family history of gastric cancer, family history of peptic ulcers, household family member having active H. pylori infection, iron deficiency anemia, idiopathic thrombocytopenic purpura, or vitamin B12 deficiency. Recommended first-line regimens for H. pylori eradication are classified according to clarithromycin resistance. In areas of high clarithromycin resistance (≥15%), we recommend 14-day ",
+            "journal": "JGH open : an open access journal of gastroenterology and hepatology",
+            "year": "2023",
+            "authors": [
+              "Aumpan Natsuda",
+              "Mahachai Varocha",
+              "Vilaichone Ratha-Korn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36660052/"
+          },
+          {
+            "pmid": "38345252",
+            "title": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.",
+            "abstract": "Los Angeles grade C/D esophagitis is a severe manifestation of gastroesophageal reflux disease that require active treatment and close follow-up. Potassium competitive acid blockers (P-CAB) are promising alternatives to proton pump inhibitors (PPI). We aimed to compare the efficacy and safety of P-CAB and PPI in healing grade C/D esophagitis to aid clinical decision-making.",
+            "journal": "The American journal of gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Zhuang Qianjun",
+              "Chen Songfeng",
+              "Zhou Xuyu",
+              "Jia Xingyu",
+              "Zhang Mengyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Comparative Study",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Esophagitis",
+              "Esophagitis, Peptic",
+              "Gastroesophageal Reflux",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Randomized Controlled Trials as Topic",
+              "Sulfonamides",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38345252/"
+          },
+          {
+            "pmid": "26369775",
+            "title": "The First-in-Class Potassium-Competitive Acid Blocker, Vonoprazan Fumarate: Pharmacokinetic and Pharmacodynamic Considerations.",
+            "abstract": "Vonoprazan fumarate (Takecab) is a first-in-class potassium-competitive acid blocker that has been available in the market in Japan since February 2015. Vonoprazan is administered orally at 20 mg once daily for the treatment of gastroduodenal ulcer, at 20 and 10 mg once daily for the treatment and secondary prevention of reflux esophagitis, respectively, at 10 mg once daily for the secondary prevention of low-dose aspirin- or non-steroidal anti-inflammatory drug-induced peptic ulcer, and at 20 mg twice daily in combination with clarithromycin and amoxicillin for the eradication of Helicobacter pylori. It inhibits H(+),K(+)-ATPase activities in a reversible and potassium-competitive manner with a potency of inhibition approximately 350 times higher than the proton pump inhibitor, lansoprazole. Vonoprazan is absorbed rapidly and reaches maximum plasma concentration at 1.5-2.0 h after oral administration. Food has minimal effect on its intestinal absorption. Oral bioavailability in humans",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2016",
+            "authors": [
+              "Echizen Hirotoshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Biological Availability",
+              "Cytochrome P-450 CYP2C19",
+              "H(+)-K(+)-Exchanging ATPase",
+              "Humans",
+              "Peptic Ulcer",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26369775/"
+          },
+          {
+            "pmid": "38976448",
+            "title": "Randomized, Double-Blind, Active-Controlled Phase 3 Study to Evaluate Efficacy and Safety of Zastaprazan Compared With Esomeprazole in Erosive Esophagitis.",
+            "abstract": "Zastaprazan is a potent potassium-competitive acid blocker developed to treat gastroesophageal reflux disease. The aim of this study was to evaluate the efficacy and safety of zastaprazan compared with esomeprazole in patient with erosive esophagitis (EE).",
+            "journal": "The American journal of gastroenterology",
+            "year": "2025",
+            "authors": [
+              "Oh Jung-Hwan",
+              "Kim Hyun-Soo",
+              "Cheung Dae Young",
+              "Lee Hang Lak",
+              "Lee Dong Ho"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Equivalence Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Anti-Ulcer Agents",
+              "Double-Blind Method",
+              "Esomeprazole",
+              "Esophagitis, Peptic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38976448/"
+          },
+          {
+            "pmid": "28988197",
+            "title": "Vonoprazan prevents ulcer recurrence during long-term NSAID therapy: randomised, lansoprazole-controlled non-inferiority and single-blind extension study.",
+            "abstract": "To assess the non-inferiority of vonoprazan to lansoprazole for secondary prevention of non-steroidal anti-inflammatory drug (NSAID)-induced peptic ulcer (PU) and the safety of vonoprazan during extended use.",
+            "journal": "Gut",
+            "year": "2018",
+            "authors": [
+              "Mizokami Yuji",
+              "Oda Kazunori",
+              "Funao Nobuo",
+              "Nishimura Akira",
+              "Soen Satoshi"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Anti-Ulcer Agents",
+              "Double-Blind Method",
+              "Equivalence Trials as Topic",
+              "Female",
+              "Gastrointestinal Hemorrhage",
+              "Humans",
+              "Lansoprazole",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28988197/"
+          },
+          {
+            "pmid": "41415806",
+            "title": "Therapeutic advances and future directions in Helicobacter pylori eradication.",
+            "abstract": "Helicobacter pylori (H. pylori) is a globally prevalent pathogen associated with a spectrum of gastrointestinal diseases, including chronic gastritis, peptic ulcer disease, and gastric malignancies. Although clarithromycin-based triple therapy continues to be effective in certain geographic areas, increasing global resistance highlights the need for treatment approaches tailored to local antibiotic susceptibility patterns. Recent clinical trials have shifted toward optimized quadruple regimens, particularly bismuth- and vonoprazan-based therapies, and resistance-guided treatment. Novel agents such as Rifasutenizol (TNP-2198) are entering phase 3 evaluation and show activity against multidrug-resistant strains. Adjunctive and alternative strategies including probiotics, phytochemicals, phage-derived enzymes, and nanoparticle-based delivery demonstrate synergistic effects in improving eradication and reducing antibiotic-associated adverse events. Multi-strain probiotic formulations and p",
+            "journal": "Frontiers in microbiology",
+            "year": "2025",
+            "authors": [
+              "Suresh Vidya",
+              "Sreekumar Amritavarshini",
+              "Kumar Anil",
+              "Sadasivan Shine",
+              "Biswas Raja"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41415806/"
+          },
+          {
+            "pmid": "32998241",
+            "title": "The Potential Benefits of Vonoprazan as Helicobacter pylori Infection Therapy.",
+            "abstract": "Helicobacter pylori infection is a severe global health problem that is closely associated with acid-related diseases and gastric malignancies. Eradicating H. pylori is strongly recommended for lowering peptic ulcer recurrence and preventing gastric cancer. The current approved H. pylori eradication regimen combines a proton pump inhibitor (PPI) with two antibiotics. Unfortunately, this regimen failed to meet expectations mostly due to antibiotic resistance and insufficient gastric acid suppression. Vonoprazan, a novel potassium-competitive acid blocker, showed promising results as a PPI replacement. Vonoprazan inhibits gastric acid secretion by acting as a reversible competitive inhibitor against potassium ions and forming disulfide bonds with the cysteine molecule of H+/K+-ATPase. Vonoprazan has superior pharmacological characteristics over PPI, such as no requirement for acid activation, stability in acidic conditions, shorter optimum acid suppression period, and resistance to cytoc",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2020",
+            "authors": [
+              "Miftahussurur Muhammad",
+              "Pratama Putra Boby",
+              "Yamaoka Yoshio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32998241/"
+          },
+          {
+            "pmid": "39156336",
+            "title": "A Comprehensive Review on the Efficacy and Safety of Vonoprazan in the Management of Gastric Acid-Related Diseases.",
+            "abstract": "Gastric acid-related diseases, including gastroesophageal reflux disease (GERD), peptic ulcer disease (PUD), and Helicobacter pylori (H. pylori) infection, present significant clinical challenges due to their prevalence and potential for severe complications. Effective management of these conditions is essential for symptom relief, mucosal healing, and prevention of complications. This review aims to evaluate the efficacy and safety of vonoprazan, a novel potassium-competitive acid blocker (P-CAB), in the treatment of gastric acid-related diseases and to compare it with traditional proton pump inhibitors (PPIs). A comprehensive analysis of clinical trials and studies was conducted to assess the effectiveness of vonoprazan in managing GERD, PUD, and H. pylori infection. The safety profile of vonoprazan was also reviewed, and comparisons were made to PPIs and other gastric acid suppressants. Vonoprazan demonstrates superior and more consistent acid suppression than PPIs, resulting in rap",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Padwale Vishal",
+              "Kirnake Vijendra",
+              "Daswani Ravi",
+              "Kodmalwar Akshay",
+              "Gupta Anusha"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39156336/"
+          },
+          {
+            "pmid": "41735211",
+            "title": "A Systematic Review on Exploration of Extracts and Phytochemicals for Peptic Ulcer from 2018 to 2024.",
+            "abstract": "Worldwide, peptic ulcer disease affects a large number of individuals. In order to treat this condition, new, safe, and efficient treatments must be created because of the growing resistance to many traditional drugs. Several synthetic medications are available to treat ulcers. However, compared to natural products, newer medications are much more costly and are likely to have more adverse effects.",
+            "journal": "Current topics in medicinal chemistry",
+            "year": "2026",
+            "authors": [
+              "Nooreen Zulfa",
+              "Wal Ankita",
+              "Rai Vinayak",
+              "Sarma Tanmay",
+              "Imran Mohd"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41735211/"
+          },
+          {
+            "pmid": "41472371",
+            "title": "Antibiotic Resistance in Helicobacter pylori in the Asia-Pacific Region: A Call for Coordinated Regional Strategies.",
+            "abstract": "Helicobacter pylori infection remains globally prevalent and is a major cause of chronic gastritis, peptic ulcer disease, and gastric cancer (GC). The Asia-Pacific region has the highest global burden of infection and GC mortality; however, the effectiveness of eradication therapy is increasingly being compromised by antibiotic resistance. Between 1990 and 2022, resistance to clarithromycin (CAM), metronidazole (MNZ), and levofloxacin (LVX) increased markedly from 7%, 37%, and 9% to 30%, 61%, and 35%, respectively, whereas resistance to amoxicillin and tetracycline remained low at approximately 4%. Multidrug-resistant H. pylori strains are increasingly being reported in Southeast Asia. The resistance rates among the pediatric and adolescent population in East Asia are similarly high, 37% for CAM, 51% for MNZ, and 19% for LVX, suggesting intrafamilial transmission. The key molecular mechanisms include genetic mutations in 23S rRNA, rdxA/frxA, and gyrA/gyrB, along with adaptive traits su",
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2026",
+            "authors": [
+              "Otani Koji",
+              "Lai Wan Ying",
+              "Liou Jyh-Ming",
+              "Fujiwara Yasuhiro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Helicobacter pylori",
+              "Humans",
+              "Helicobacter Infections",
+              "Anti-Bacterial Agents",
+              "Asia",
+              "Drug Resistance, Multiple, Bacterial",
+              "Drug Resistance, Bacterial",
+              "Pacific Islands"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41472371/"
+          },
+          {
+            "pmid": "37066678",
+            "title": "A translational pharmacokinetic/pharmacodynamic approach supports optimal vonoprazan dosing for erosive oesophagitis and Helicobacter pylori infection.",
+            "abstract": "Treatment of acid-related disorders relies on gastric acid suppression. The percentage of time intragastric pH is >4 (pH >4 holding time ratio [HTR]) is important for healing erosive oesophagitis; and the pH >6 HTR is critical for eradication of Helicobacter pylori infection, as bacterial replication is active and antibiotic effectiveness is optimised. Vonoprazan, a potassium-competitive acid blocker approved in the USA and other countries, suppresses gastric acid secretion in a predictable, rapid and consistent manner, extended over prolonged periods.",
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2023",
+            "authors": [
+              "Scarpignato Carmelo",
+              "Howden Colin W",
+              "Leifke Eckhard",
+              "Mulford Darcy J",
+              "Lahu Gezim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Helicobacter Infections",
+              "Proton Pump Inhibitors",
+              "Helicobacter pylori",
+              "Peptic Ulcer",
+              "Pyrroles",
+              "Esophagitis",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37066678/"
+          },
+          {
+            "pmid": "41241208",
+            "title": "In vivo and in silico assays demonstrate that the hydroalcoholic extract of Aloysia polystachya and carvone promote anti-ulcer effects.",
+            "abstract": "Aloysia polystachya (Griseb.) Moldenke is a medicinal plant that has long been used in South American medicine to treat a variety of diseases, most notably gastrointestinal issues. Despite its well-known ethnobotanical usage, this plant's putative anti-gastric ulcer action has yet to be investigated.",
+            "journal": "Journal of ethnopharmacology",
+            "year": "2026",
+            "authors": [
+              "Steffler Amanda M",
+              "Miorando Daniela",
+              "Maccagnan Juliana C",
+              "Freschi Khetlyn",
+              "Borba Ana L T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Stomach Ulcer",
+              "Plant Extracts",
+              "Anti-Ulcer Agents",
+              "Male",
+              "Rats",
+              "Molecular Docking Simulation",
+              "Ethanol",
+              "Computer Simulation",
+              "Rats, Wistar"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41241208/"
+          },
+          {
+            "pmid": "41094194",
+            "title": "Olorofim, a potential novel drug candidate against Helicobacter pylori infection.",
+            "abstract": "Helicobacter pylori infection is widely prevalent and can lead to peptic ulcer disease and gastric cancer. Treatment is challenged by a growing rate of antibiotic resistance. In this study, we evaluated the efficacy of olorofim (F901318), a DHODH inhibitor against Aspergillus fumigatus, in targeting H. pylori. The minimum inhibitory concentration (MIC) of olorofim against H. pylori reference and three multiple drug-resistant strains was determined. The nature of its growth inhibitory effect was assessed using liquid and solid bacterial culture. The general toxicity of olorofim was assessed against other bacteria and reassessed against eukaryotic cells. The effect of olorofim on DHODH activity was tested using a substrate reduction assay. Pairwise sequence alignment was carried out on H. pylori and A. fumigatus DHODH amino acid sequences. The MIC of olorofim against H. pylori reference strain and three MDR strains ranged from 0.075 to 0.625 µg mL-1. The growth-inhibitory effect was demo",
+            "journal": "The Journal of antibiotics",
+            "year": "2026",
+            "authors": [
+              "Ghaffari Saba",
+              "Esmaeili Maryam",
+              "Mohammadi Marjan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Helicobacter pylori",
+              "Microbial Sensitivity Tests",
+              "Anti-Bacterial Agents",
+              "Helicobacter Infections",
+              "Aspergillus fumigatus",
+              "Pyrroles",
+              "Humans",
+              "Sulfonamides",
+              "Drug Resistance, Multiple, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41094194/"
+          },
+          {
+            "pmid": "37625445",
+            "title": "Lupeol: A Triterpenoid Isolated from the Stem Bark of Hymenocardia Acida (tul.) Exhibits a van der Waal Antagonism on the Alpha Subunit of Gastric H+K+Atpase - A Promising Antiulcer Principle.",
+            "abstract": "Hymenocardia acida (HA) is one of the numerous medicinal plants in Nigeria with ethnomedicinal history of usage in the treatment of ulcer. The study aimed at isolating antiulcer principle(s) from the stem bark of HA as well as the mechanism of action determination.",
+            "journal": "Drug research",
+            "year": "2023",
+            "authors": [
+              "Oluwasegun Adedokun",
+              "Ogochukwu Ume",
+              "Ugochukwu Ojukwu",
+              "Mussaddiq Ismail",
+              "Bunyamin Ayinde"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Rats",
+              "Animals",
+              "Plant Extracts",
+              "Phytotherapy",
+              "Ulcer",
+              "Anti-Ulcer Agents",
+              "Triterpenes",
+              "Rats, Wistar",
+              "H(+)-K(+)-Exchanging ATPase",
+              "Plant Bark"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37625445/"
+          },
+          {
+            "pmid": "22512618",
+            "title": "Discovery of a novel pyrrole derivative 1-[5-(2-fluorophenyl)-1-(pyridin-3-ylsulfonyl)-1H-pyrrol-3-yl]-N-methylmethanamine fumarate (TAK-438) as a potassium-competitive acid blocker (P-CAB).",
+            "abstract": "In our pursuit of developing a novel and potent potassium-competitive acid blocker (P-CAB), we synthesized pyrrole derivatives focusing on compounds with low log D and high ligand-lipophilicity efficiency (LLE) values. Among the compounds synthesized, the compound 13e exhibited potent H(+),K(+)-ATPase inhibitory activity and potent gastric acid secretion inhibitory action in vivo. Its maximum efficacy was more potent and its duration of action was much longer than those of proton pump inhibitors (PPIs). Therefore, compound 13e (1-[5-(2-fluorophenyl)-1-(pyridin-3-ylsulfonyl)-1H-pyrrol-3-yl]-N-methylmethanamine fumarate, TAK-438) was selected as a drug candidate for the treatment of gastroesophageal reflux disease (GERD), peptic ulcer, and other acid-related diseases.",
+            "journal": "Journal of medicinal chemistry",
+            "year": "2012",
+            "authors": [
+              "Arikawa Yasuyoshi",
+              "Nishida Haruyuki",
+              "Kurasawa Osamu",
+              "Hasuoka Atsushi",
+              "Hirase Keizo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Ulcer Agents",
+              "Dogs",
+              "Enzyme Inhibitors",
+              "Fumarates",
+              "Gastric Mucosa",
+              "H(+)-K(+)-Exchanging ATPase",
+              "Humans",
+              "Inhibitory Concentration 50",
+              "Magnetic Resonance Spectroscopy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22512618/"
+          },
+          {
+            "pmid": "28267236",
+            "title": "Effect of vonoprazan on the treatment of artificial gastric ulcers after endoscopic submucosal dissection: Prospective randomized controlled trial.",
+            "abstract": "Proton pump inhibitors are effective for the treatment of gastric ulcers after endoscopic submucosal dissection (ESD). However, the most excellent therapy is controversial. Vonoprazan, an active potassium-competitive acid blocker, has a strong gastric acid secretion inhibitory effect, but its efficacy for the treatment of post-ESD gastric ulcers is unclear. Herein, we aimed to determine the healing effect of vonoprazan on post-ESD gastric ulcers.",
+            "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society",
+            "year": "2017",
+            "authors": [
+              "Tsuchiya Izumi",
+              "Kato Yuri",
+              "Tanida Emiko",
+              "Masui Yoshifumi",
+              "Kato Shingo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Endoscopic Mucosal Resection",
+              "Esomeprazole",
+              "Female",
+              "Humans",
+              "Male",
+              "Postoperative Complications",
+              "Prospective Studies",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28267236/"
+          },
+          {
+            "pmid": "31482260",
+            "title": "In vivo antiulcer activity, phytochemical exploration, and molecular modelling of the polyphenolic-rich fraction of Crepis sancta extract.",
+            "abstract": "Bioactivity-guided investigation of the methanol extract of Crepis sancta aerial parts, collected off Al-Tafilah, South Jordan, was applied, and in this study, the extract was explored for its phytochemical components and in vivo antiulcer activity. In addition, a docking study involving the purified compounds with the newly crystalized gastric proton pump (PDB # 5YLU) was performed. In-depth phytochemical investigation using the state-of-the-art chromatographic and analytical techniques was implemented resulting in the identification of two eudesmane-type sesquiterpenoids, 3-oxo-γ-costic acid (1) and its methyl ester (2) together with seven different methoxylated flavonols (3-9) as the extract's major components. The in vivo antiulcer study at three different doses (50, 100, and 200 mg/kg) against ethanol-induced gastric ulcer in male albino rats, compared to omeprazole (20 mg/kg) as a standard proton pump inhibitor antiulcer drug, revealed that the tested extract, at the middle and t",
+            "journal": "Inflammopharmacology",
+            "year": "2020",
+            "authors": [
+              "Ebada Sherif S",
+              "Al-Jawabri Nariman A",
+              "Youssef Fadia S",
+              "Albohy Amgad",
+              "Aldalaien Sa'ed M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Ulcer Agents",
+              "Crepis",
+              "Gastric Mucosa",
+              "Male",
+              "Omeprazole",
+              "Phytochemicals",
+              "Phytotherapy",
+              "Plant Extracts",
+              "Polyphenols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31482260/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peptic ulcer perforation",
+        "txgnn_score": 0.9996709823608398,
+        "txgnn_rank": 866,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04728516",
+            "title": "The Effect of Vonoprazan-based Dual Eradication Therapy vs PPI Treatment on Gastrointestinal Bleeding in ACS Patients With Hp Infection and Coronary Stents: an Open-label, Randomized, Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2023-04-12",
+            "completion_date": "2026-06-30",
+            "country": "China",
+            "enrollment": 2600,
+            "brief_summary": "Patients with acute coronary syndrome (ACS) after Percutaneous Coronary Intervention (PCI) require routine treatment with dual antiplatelet (DAPT) treatment, but with the high risk of bleeding, gastrointestinal bleeding is the most common type of major bleeding. Helicobacter pylori (Hp) infection is a high-risk factor for gastrointestinal bleeding, with an incidence of about 50%. Foreign authoritative DAPT guidelines do not give individual guidance to Hp-infected patients. It is recommended that",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with ACS and PCI treatment and postoperative DAPT ≥ 6 months;\n2. Hp infection is positive;\n3. Age ≥18 years old;\n4. The patient himself or his authorized client signs the subject's consent.\n\nExclusion Criteria:\n\n1. Previous history of gastrointestinal ulcer bleeding;",
+            "endpoints": [
+              "Gastrointestinal bleeding of 6 months in patients with ACS after PCI"
+            ],
+            "sponsor": "Qilu Hospital of Shandong University",
+            "url": "https://clinicaltrials.gov/study/NCT04728516"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33620586",
+            "title": "Evidence-based clinical practice guidelines for peptic ulcer disease 2020.",
+            "abstract": "The Japanese Society of Gastroenterology (JSGE) revised the third edition of evidence-based clinical practice guidelines for peptic ulcer disease in 2020 and created an English version. The revised guidelines consist of nine items: epidemiology, hemorrhagic gastric and duodenal ulcers, Helicobacter pylori (H. pylori) eradication therapy, non-eradication therapy, drug-induced ulcers, non-H. pylori, and nonsteroidal anti-inflammatory drug (NSAID) ulcers, remnant gastric ulcers, surgical treatment, and conservative therapy for perforation and stenosis. Therapeutic algorithms for the treatment of peptic ulcers differ based on ulcer complications. In patients with NSAID-induced ulcers, NSAIDs are discontinued and anti-ulcer therapy is administered. If NSAIDs cannot be discontinued, the ulcer is treated with proton pump inhibitors (PPIs). Vonoprazan (VPZ) with antibiotics is recommended as the first-line treatment for H. pylori eradication, and PPIs or VPZ with antibiotics is recommended as ",
+            "journal": "Journal of gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Kamada Tomoari",
+              "Satoh Kiichi",
+              "Itoh Toshiyuki",
+              "Ito Masanori",
+              "Iwamoto Junichi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Evidence-Based Practice",
+              "Japan",
+              "Peptic Ulcer",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33620586/"
+          },
+          {
+            "pmid": "39294424",
+            "title": "Vonoprazan vs. Proton Pump Inhibitors for Treatment and Prevention of Gastric and/or Duodenal Ulcers: A Systematic Review with Meta-Analysis.",
+            "abstract": "Although Vonoprazan, a potassium-competitive acid blocker, is superior to proton pump inhibitors (PPIs) in treating Helicobacter pylori and erosive esophagitis, its efficacy for treating gastric and/or duodenal ulcers remains controversial. This meta-analysis summarizes the efficacy and safety of Vonoprazan vs. PPI for treating and preventing gastric and/or duodenal ulcers.",
+            "journal": "Digestive diseases and sciences",
+            "year": "2024",
+            "authors": [
+              "Simadibrata Daniel Martin",
+              "Lesmana Elvira",
+              "Pratama Muhammad Iqbal Adi",
+              "Sugiharta Adrianus Jonathan",
+              "Kalaij Ayers Gilberth Ivano"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Duodenal Ulcer",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Randomized Controlled Trials as Topic",
+              "Stomach Ulcer",
+              "Sulfonamides",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39294424/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastrojejunal ulcer",
+        "txgnn_score": 0.9996709823608398,
+        "txgnn_rank": 867,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36228734",
+            "title": "Vonoprazan Versus Lansoprazole for Healing and Maintenance of Healing of Erosive Esophagitis: A Randomized Trial.",
+            "abstract": "For decades, proton pump inhibitors (PPIs) have been the mainstay of treatment for erosive esophagitis. The potassium-competitive acid blocker vonoprazan provides more potent acid inhibition than PPIs, but data on its efficacy for erosive esophagitis are limited.",
+            "journal": "Gastroenterology",
+            "year": "2023",
+            "authors": [
+              "Laine Loren",
+              "DeVault Kenneth",
+              "Katz Philip",
+              "Mitev Stefan",
+              "Lowe John"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Lansoprazole",
+              "Pyrroles",
+              "Sulfonamides",
+              "Esophagitis",
+              "Proton Pump Inhibitors",
+              "Peptic Ulcer",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36228734/"
+          },
+          {
+            "pmid": "33620586",
+            "title": "Evidence-based clinical practice guidelines for peptic ulcer disease 2020.",
+            "abstract": "The Japanese Society of Gastroenterology (JSGE) revised the third edition of evidence-based clinical practice guidelines for peptic ulcer disease in 2020 and created an English version. The revised guidelines consist of nine items: epidemiology, hemorrhagic gastric and duodenal ulcers, Helicobacter pylori (H. pylori) eradication therapy, non-eradication therapy, drug-induced ulcers, non-H. pylori, and nonsteroidal anti-inflammatory drug (NSAID) ulcers, remnant gastric ulcers, surgical treatment, and conservative therapy for perforation and stenosis. Therapeutic algorithms for the treatment of peptic ulcers differ based on ulcer complications. In patients with NSAID-induced ulcers, NSAIDs are discontinued and anti-ulcer therapy is administered. If NSAIDs cannot be discontinued, the ulcer is treated with proton pump inhibitors (PPIs). Vonoprazan (VPZ) with antibiotics is recommended as the first-line treatment for H. pylori eradication, and PPIs or VPZ with antibiotics is recommended as ",
+            "journal": "Journal of gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Kamada Tomoari",
+              "Satoh Kiichi",
+              "Itoh Toshiyuki",
+              "Ito Masanori",
+              "Iwamoto Junichi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Evidence-Based Practice",
+              "Japan",
+              "Peptic Ulcer",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33620586/"
+          },
+          {
+            "pmid": "35226174",
+            "title": "Evidence-based clinical practice guidelines for gastroesophageal reflux disease 2021.",
+            "abstract": "In Japan, with the increasing prevalence of gastroesophageal reflux disease (GERD) and growing public interest, the Japanese Society of Gastroenterology issued Evidence-based Clinical Practice Guidelines for GERD (1st edition) in 2009 and a revised 2nd edition in 2015. A number of studies on GERD were subsequently conducted in Japan and abroad, and vonoprazan, a potassium-competitive acid blocker (P-CAB), became available for the first time in Japan in February 2015. The revised 3rd edition (Japanese edition), which incorporates new findings and information, was published in April 2021. These guidelines are summarized herein, particularly sections related to the treatment of GERD. The important clinical issues addressed in the present revision are (i) the introduction of treatment algorithms that classify GERD into reflux esophagitis and non-erosive reflux disease, (ii) the clarification of treatment algorithms based on to the severity of reflux esophagitis, and (iii) the positioning o",
+            "journal": "Journal of gastroenterology",
+            "year": "2022",
+            "authors": [
+              "Iwakiri Katsuhiko",
+              "Fujiwara Yasuhiro",
+              "Manabe Noriaki",
+              "Ihara Eikichi",
+              "Kuribayashi Shiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Esophagitis, Peptic",
+              "Evidence-Based Practice",
+              "Gastroenterology",
+              "Gastroesophageal Reflux",
+              "Humans",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35226174/"
+          },
+          {
+            "pmid": "39145848",
+            "title": "Potassium-competitive Acid Blockers: Current Clinical Use and Future Developments.",
+            "abstract": "Acid suppression with proton pump inhibitors (PPIs) represents the standard of care in the treatment of acid-related diseases. However, despite their effectiveness, PPIs display some intrinsic limitations, which underlie the unmet clinical needs that have been identified over the past decades. The aims of this review are to summarize the current status and future development of the new class of antisecretory drugs (potassium-competitive acid blockers, P-CABs) that have recently been introduced into medical practice.",
+            "journal": "Current gastroenterology reports",
+            "year": "2024",
+            "authors": [
+              "Scarpignato Carmelo",
+              "Hunt Richard H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Proton Pump Inhibitors",
+              "Gastroesophageal Reflux",
+              "Helicobacter Infections",
+              "Peptic Ulcer",
+              "Gastric Acid",
+              "Helicobacter pylori",
+              "Pyrroles",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39145848/"
+          },
+          {
+            "pmid": "39294424",
+            "title": "Vonoprazan vs. Proton Pump Inhibitors for Treatment and Prevention of Gastric and/or Duodenal Ulcers: A Systematic Review with Meta-Analysis.",
+            "abstract": "Although Vonoprazan, a potassium-competitive acid blocker, is superior to proton pump inhibitors (PPIs) in treating Helicobacter pylori and erosive esophagitis, its efficacy for treating gastric and/or duodenal ulcers remains controversial. This meta-analysis summarizes the efficacy and safety of Vonoprazan vs. PPI for treating and preventing gastric and/or duodenal ulcers.",
+            "journal": "Digestive diseases and sciences",
+            "year": "2024",
+            "authors": [
+              "Simadibrata Daniel Martin",
+              "Lesmana Elvira",
+              "Pratama Muhammad Iqbal Adi",
+              "Sugiharta Adrianus Jonathan",
+              "Kalaij Ayers Gilberth Ivano"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Duodenal Ulcer",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Randomized Controlled Trials as Topic",
+              "Stomach Ulcer",
+              "Sulfonamides",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39294424/"
+          },
+          {
+            "pmid": "38388872",
+            "title": "Vonoprazan: A Review in Helicobacter pylori Infection.",
+            "abstract": "Treatment for the eradication of Helicobacter pylori infection, a leading cause of peptic ulcer disease and an important risk factor for gastric cancer and mucosa-associated lymphoid tissue lymphoma, is indicated whenever infection is identified. However, treatment success rates with current guideline-recommended proton-pump inhibitor (PPI)-based regimens remain suboptimal, with one potential factor associated with treatment failure being inadequate acid suppression. Vonoprazan (Voquezna®) is a first-in-class potassium-competitive acid blocker with the potential to provide potent and sustained acid suppression. Following clinical trials conducted mainly in Asia (supported by post-marketing experience from Asia) and the phase III PHALCON-HP trial conducted in the USA and Europe, vonoprazan is now approved in the USA for use in combination with amoxicillin (dual therapy) or amoxicillin and clarithromycin (triple therapy) for the treatment of H. pylori infection in adults. The vonoprazan-",
+            "journal": "Drugs",
+            "year": "2024",
+            "authors": [
+              "Shirley Matt"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Helicobacter Infections",
+              "Anti-Bacterial Agents",
+              "Helicobacter pylori",
+              "Drug Therapy, Combination",
+              "Amoxicillin",
+              "Clarithromycin",
+              "Pyrroles",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38388872/"
+          },
+          {
+            "pmid": "26369775",
+            "title": "The First-in-Class Potassium-Competitive Acid Blocker, Vonoprazan Fumarate: Pharmacokinetic and Pharmacodynamic Considerations.",
+            "abstract": "Vonoprazan fumarate (Takecab) is a first-in-class potassium-competitive acid blocker that has been available in the market in Japan since February 2015. Vonoprazan is administered orally at 20 mg once daily for the treatment of gastroduodenal ulcer, at 20 and 10 mg once daily for the treatment and secondary prevention of reflux esophagitis, respectively, at 10 mg once daily for the secondary prevention of low-dose aspirin- or non-steroidal anti-inflammatory drug-induced peptic ulcer, and at 20 mg twice daily in combination with clarithromycin and amoxicillin for the eradication of Helicobacter pylori. It inhibits H(+),K(+)-ATPase activities in a reversible and potassium-competitive manner with a potency of inhibition approximately 350 times higher than the proton pump inhibitor, lansoprazole. Vonoprazan is absorbed rapidly and reaches maximum plasma concentration at 1.5-2.0 h after oral administration. Food has minimal effect on its intestinal absorption. Oral bioavailability in humans",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2016",
+            "authors": [
+              "Echizen Hirotoshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Biological Availability",
+              "Cytochrome P-450 CYP2C19",
+              "H(+)-K(+)-Exchanging ATPase",
+              "Humans",
+              "Peptic Ulcer",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26369775/"
+          },
+          {
+            "pmid": "40388079",
+            "title": "Vonoprazan: A Review in Erosive Esophagitis and Non-Erosive Gastro-Esophageal Reflux Disease.",
+            "abstract": "Vonoprazan (Voquezna®) is a potassium-competitive acid blocker (PCAB) with improved pharmacodynamic and pharmacokinetic properties compared with proton-pump inhibitors (PPIs) that allow for stronger control of gastric acid with once-daily oral administration and no requirement to be taken in relation to timing of meals for optimal efficacy. In the USA, vonoprazan has been approved as a first-in-class treatment for healing and maintenance of healing of erosive esophagitis, and for relief of heartburn in adult patients with erosive esophagitis and non-erosive gastro-esophageal reflux disease (GERD). In pivotal phase III trials, vonoprazan was non-inferior to the PPI lansoprazole in healing and superior to lansoprazole in maintenance of healing of erosive esophagitis, and was superior to placebo for treating heartburn in US patients with non-erosive GERD. Vonoprazan was generally well tolerated; the most common adverse events included abdominal pain, constipation, diarrhea, nausea, and dy",
+            "journal": "Drugs",
+            "year": "2025",
+            "authors": [
+              "Fung Simon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pyrroles",
+              "Sulfonamides",
+              "Gastroesophageal Reflux",
+              "Proton Pump Inhibitors",
+              "Esophagitis, Peptic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40388079/"
+          },
+          {
+            "pmid": "39466255",
+            "title": "The Role of P-CABs in GERD.",
+            "abstract": "Potassium-competitive acid blockers (P-CABs) constitute a relatively new class of gastric acid-suppressing drugs. Among this class, vonoprazan is the first to have been approved in the United States. However, some P-CABs including vonoprazan, tegoprazan, and fexuprazan have been available in other countries since at least 2014. The first aim of this article is to review pharmacological differences between P-CABs that are currently approved or in development with proton pump inhibitors. The specific focus thereafter is on the likely role of P-CABs in the treatment of different manifestations of gastroesophageal reflux disease. Multiple clinical trials have compared P-CABs with proton pump inhibitors in erosive esophagitis. Additional trials have compared P-CABs with placebo in nonerosive reflux disease. Relevant results are reviewed, and inferences are drawn for their use in the United States. Finally, consideration is given to additional, potential uses of P-CABs in the broader spectru",
+            "journal": "The American journal of gastroenterology",
+            "year": "2025",
+            "authors": [
+              "Howden Colin W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gastroesophageal Reflux",
+              "Proton Pump Inhibitors",
+              "Sulfonamides",
+              "Pyrroles",
+              "Esophagitis, Peptic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39466255/"
+          },
+          {
+            "pmid": "36660052",
+            "title": "Management of Helicobacter pylori infection.",
+            "abstract": "Helicobacter pylori infection exhibits a wide disease spectrum ranging from asymptomatic gastritis, peptic ulcer disease, to gastric cancer. H. pylori can induce dysbiosis of gastric microbiota in the pathway of carcinogenesis and successful eradication can restore gastric homeostasis. Diagnostic testing and treatment for H. pylori infection is recommended in patients with active or past history of peptic ulcer, chronic dyspepsia, chronic non-steroidal anti-inflammatory drugs (NSAID) or aspirin use, precancerous gastric lesions, gastric cancer, mucosa-associated lymphoid tissue (MALT) lymphoma, family history of gastric cancer, family history of peptic ulcers, household family member having active H. pylori infection, iron deficiency anemia, idiopathic thrombocytopenic purpura, or vitamin B12 deficiency. Recommended first-line regimens for H. pylori eradication are classified according to clarithromycin resistance. In areas of high clarithromycin resistance (≥15%), we recommend 14-day ",
+            "journal": "JGH open : an open access journal of gastroenterology and hepatology",
+            "year": "2023",
+            "authors": [
+              "Aumpan Natsuda",
+              "Mahachai Varocha",
+              "Vilaichone Ratha-Korn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36660052/"
+          },
+          {
+            "pmid": "26935876",
+            "title": "Vonoprazan, a novel potassium-competitive acid blocker, as a component of first-line and second-line triple therapy for Helicobacter pylori eradication: a phase III, randomised, double-blind study.",
+            "abstract": "The objective of this study was to assess the efficacy, safety and tolerability of vonoprazan, a novel potassium-competitive acid blocker, as a component of Helicobacter pylori eradication therapy.",
+            "journal": "Gut",
+            "year": "2016",
+            "authors": [
+              "Murakami Kazunari",
+              "Sakurai Yuuichi",
+              "Shiino Madoka",
+              "Funao Nobuo",
+              "Nishimura Akira"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Amoxicillin",
+              "Anti-Bacterial Agents",
+              "Breath Tests",
+              "Clarithromycin",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Drug Monitoring",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26935876/"
+          },
+          {
+            "pmid": "31409606",
+            "title": "Phase III, randomised, double-blind, multicentre study to evaluate the efficacy and safety of vonoprazan compared with lansoprazole in Asian patients with erosive oesophagitis.",
+            "abstract": "To establish the non-inferior efficacy of vonoprazan versus lansoprazole in the treatment of Asian patients with erosive oesophagitis (EO).",
+            "journal": "Gut",
+            "year": "2020",
+            "authors": [
+              "Xiao Yinglian",
+              "Zhang Shutian",
+              "Dai Ning",
+              "Fei Guijun",
+              "Goh Khean-Lee"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Esophagitis, Peptic",
+              "Female",
+              "Humans",
+              "Lansoprazole",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31409606/"
+          },
+          {
+            "pmid": "38252210",
+            "title": "Pantoprazole and Vonoprazan Performed Well in Preventing Peptic Ulcer Recurrence in Low-Dose Aspirin Users.",
+            "abstract": "Low-dose aspirin (LDA) administration is associated with an elevated risk of recurring peptic ulcer (PU) and gastrointestinal (GI) hemorrhage.",
+            "journal": "Digestive diseases and sciences",
+            "year": "2024",
+            "authors": [
+              "An Haoyu",
+              "Chen Jing",
+              "Li Shicong",
+              "Chen Anni"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pantoprazole",
+              "Peptic Ulcer",
+              "Aspirin",
+              "Proton Pump Inhibitors",
+              "Recurrence",
+              "Sulfonamides",
+              "Pyrroles",
+              "Secondary Prevention",
+              "Gastrointestinal Hemorrhage"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38252210/"
+          },
+          {
+            "pmid": "38582271",
+            "title": "Comparison of Vonoprazan Versus Intravenous Proton Pump Inhibitor for Prevention of High-Risk Peptic Ulcers Rebleeding After Successful Endoscopic Hemostasis: A Multicenter Randomized Noninferiority Trial.",
+            "abstract": "High-dose proton pump inhibitor (PPI) therapy has been recommended to prevent rebleeding of high-risk peptic ulcer (PU) after hemostasis. Vonoprazan has been proven to be noninferior to PPIs in various acid-related diseases. This study aimed to compare the efficacy of vonoprazan vs PPI for preventing high-risk PU rebleeding after hemostasis.",
+            "journal": "Gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Geeratragool Tanawat",
+              "Kaosombatwattana Uayporn",
+              "Boonchote Arpapun",
+              "Chatthammanat Suvikrom",
+              "Preechakawin Nutchanun"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Comparative Study",
+              "Equivalence Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Hemostasis, Endoscopic",
+              "Infusions, Intravenous",
+              "Peptic Ulcer Hemorrhage",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38582271/"
+          },
+          {
+            "pmid": "38345252",
+            "title": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.",
+            "abstract": "Los Angeles grade C/D esophagitis is a severe manifestation of gastroesophageal reflux disease that require active treatment and close follow-up. Potassium competitive acid blockers (P-CAB) are promising alternatives to proton pump inhibitors (PPI). We aimed to compare the efficacy and safety of P-CAB and PPI in healing grade C/D esophagitis to aid clinical decision-making.",
+            "journal": "The American journal of gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Zhuang Qianjun",
+              "Chen Songfeng",
+              "Zhou Xuyu",
+              "Jia Xingyu",
+              "Zhang Mengyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Comparative Study",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Esophagitis",
+              "Esophagitis, Peptic",
+              "Gastroesophageal Reflux",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Randomized Controlled Trials as Topic",
+              "Sulfonamides",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38345252/"
+          },
+          {
+            "pmid": "29282636",
+            "title": "Vonoprazan: A Novel and Potent Alternative in the Treatment of Acid-Related Diseases.",
+            "abstract": "Although proton pump inhibitors (PPIs) have been used widely, acid-related diseases are still associated with a huge burden on the health care system. Recently, the efficacy and safety of a new acid suppressant named vonoprazan in the treatment of acid-related diseases have been evaluated by a series of studies. As a novel potassium-competitive acid blocker, vonoprazan may provide reversible acid suppression by preventing K+ from binding to gastric H+/K+-ATPase. It has been clinically used for the short-term treatment of gastroesophageal reflux disease (GERD), peptic ulcer disease and Helicobacter pylori (H. pylori) infection in Japan. The healing rate of GERD and gastric ulcers by vonoprazan is more than 95 and 90%, respectively; also, it is effective in curing PPI-resistant GERD. It increases H. pylori eradication rate to more than 88% as part of both first-line and second-line therapy. It is also effective in the eradication of clarithromycin-resistant H. pylori strains. All of thes",
+            "journal": "Digestive diseases and sciences",
+            "year": "2018",
+            "authors": [
+              "Yang Xiaoxiao",
+              "Li Yueyue",
+              "Sun Yiyuan",
+              "Zhang Mingming",
+              "Guo Chuanguo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gastroesophageal Reflux",
+              "Helicobacter Infections",
+              "Helicobacter pylori",
+              "Humans",
+              "Peptic Ulcer",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29282636/"
+          },
+          {
+            "pmid": "39269391",
+            "title": "AGA Clinical Practice Update on Integrating Potassium-Competitive Acid Blockers Into Clinical Practice: Expert Review.",
+            "abstract": "The purpose of this American Gastroenterological Association (AGA) Institute Clinical Practice Update (CPU) is to summarize the available evidence and offer expert Best Practice Advice on the integration of potassium-competitive acid blockers (P-CABs) in the clinical management of foregut disorders, specifically including gastroesophageal reflux disease, Helicobacter pylori infection, and peptic ulcer disease.",
+            "journal": "Gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Patel Amit",
+              "Laine Loren",
+              "Moayyedi Paul",
+              "Wu Justin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gastroesophageal Reflux",
+              "Proton Pump Inhibitors",
+              "Peptic Ulcer",
+              "Gastroenterology",
+              "Helicobacter Infections",
+              "Evidence-Based Medicine",
+              "Societies, Medical",
+              "Treatment Outcome",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39269391/"
+          },
+          {
+            "pmid": "36127938",
+            "title": "Vonoprazan in the management of erosive oesophagitis and peptic ulcer-induced medication: a systematic review.",
+            "abstract": "Vonoprazan has been found to promote a better antisecretory effect addressing acid-related diseases' unmet needs.",
+            "journal": "Przeglad gastroenterologiczny",
+            "year": "2022",
+            "authors": [
+              "Chinzon Décio",
+              "Moraes-Filho Joaquim Prado P",
+              "Domingues Gerson",
+              "Guedes Juliana Leite Soares",
+              "Santos Cláudia Yang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36127938/"
+          },
+          {
+            "pmid": "39301419",
+            "title": "Efficacy and safety of vonoprazan versus proton pump inhibitors in the treatment of peptic ulcer disease: a systematic review and network meta-analysis for randomized controlled trails.",
+            "abstract": "Vonoprazan, a novel acid suppressant, has been employed in the treatment of peptic ulcer disease in recent years. However, the efficacy and safety of vonoprazan versus proton-pump inhibitors remains controversial. To address this gap, a systematic review and network meta-analysis were conducted to evaluate the efficacy and safety of vonoprazan in comparison with various proton-pump inhibitors.",
+            "journal": "Frontiers in nutrition",
+            "year": "2024",
+            "authors": [
+              "Tian Lidi",
+              "Xiang Dan",
+              "Yue Feili",
+              "Li Runjie",
+              "Zhou Youping"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39301419/"
+          },
+          {
+            "pmid": "40923937",
+            "title": "Potassium-competitive acid blockers.",
+            "abstract": "Acid suppression is the mainstay of management of common foregut disorders, including gastroesophageal reflux disease (GERD), peptic ulcer disease and Helicobacter pylori infection. Drawbacks of standard management with proton pump inhibitors (PPIs) include acid lability requiring enteric coating, slow onset of effect, lack of suppression of nocturnal acid breakthrough, and need for administration before meals.",
+            "journal": "Current opinion in gastroenterology",
+            "year": "2025",
+            "authors": [
+              "Davis Trevor A",
+              "Gyawali C Prakash"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gastroesophageal Reflux",
+              "Helicobacter Infections",
+              "Proton Pump Inhibitors",
+              "Peptic Ulcer",
+              "Helicobacter pylori",
+              "Gastric Acid",
+              "Pyrroles",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40923937/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hiatus hernia (disease)",
+        "txgnn_score": 0.9988222718238832,
+        "txgnn_rank": 2291,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41426852",
+            "title": "Vonoprazan Therapy in Gastroesophageal Reflux Disease (GERD): Effects on the Severity and Frequency of GERD in Relation to Hiatus Hernia.",
+            "abstract": "Objective This study aimed to assess vonoprazan's effectiveness in reducing the severity and frequency of gastroesophageal reflux disease (GERD) symptoms in relation to hiatus hernia. Methods This prospective single-arm cohort study (before and after treatment) was conducted at Hayatabad Medical Complex, Peshawar, from January 1, 2025, to August 31, 2025. It enrolled 110 patients with GERD, based on clinical evaluation and endoscopic confirmation to exclude other pathologies and evaluate for the presence of hiatus hernia. Inclusion criteria included patients aged 18-65 years presenting with typical GERD symptoms, such as heartburn or regurgitation. Patients were excluded if they had a history of gastrointestinal surgery, esophageal malignancy, pregnancy, lactation, and significant hepatic or renal impairment or were on concurrent acid-suppressive medications. All patients were given 20 mg vonoprazan monotherapy for four weeks. Symptom severity and frequency were assessed pre- and post-",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Ur Rehman Adnan",
+              "Khan Muhammad Shoaib",
+              "Iltaf Muhammad",
+              "Ahmad Wiqas",
+              "Jan Naeem"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41426852/"
+          },
+          {
+            "pmid": "36649678",
+            "title": "Examination on Factors Affecting Symptom Change after Drug Withdrawal in Patients with Mild Erosive Gastroesophageal Reflux Disease Undergoing Symptom-Controlled Maintenance Therapy with Acid-Secretion Inhibition Drugs.",
+            "abstract": "In patients with gastroesophageal reflux disease (GERD) on maintenance therapy with acid-suppressive drugs, it is not clear what background factors allow patients to discontinue the drugs. The aims of this study were to examine the relationship of the changes in the frequency and severity of gastrointestinal symptoms after discontinuation of acid-secretion inhibitors for erosive GERD (eGERD) with possible patient background factors and to identify factors that influence these changes.",
+            "journal": "Digestion",
+            "year": "2023",
+            "authors": [
+              "Tanaka Hironori",
+              "Takeuchi Toshihisa",
+              "Nishida Shinya",
+              "Hongo Hitosi",
+              "Takii Michiaki"
+            ],
+            "pub_types": [
+              "Multicenter Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Helicobacter Infections",
+              "Helicobacter pylori",
+              "Gastroesophageal Reflux",
+              "Hernia, Hiatal",
+              "Proton Pump Inhibitors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36649678/"
+          },
+          {
+            "pmid": "38821110",
+            "title": "The presence of hiatal hernia is a significant predictor for symptomatic recurrence after cessation of vonoprazan therapy for gastroesophageal reflux disease: a long-term observational study.",
+            "abstract": "Gastroesophageal reflux disease (GERD) symptoms frequently recur after cessation of acid blockers. The presence of a hiatal hernia may worsen GERD symptoms and increase the risk of esophageal malignancy. The aim of this study is to clarify the timing and predictors for recurrence of GERD symptoms after cessation of vonoprazan (VPZ) therapy.",
+            "journal": "Scandinavian journal of gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Shinozaki Satoshi",
+              "Osawa Hiroyuki",
+              "Miura Yoshimasa",
+              "Sakamoto Hirotsugu",
+              "Hayashi Yoshikazu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Hernia, Hiatal",
+              "Retrospective Studies",
+              "Sulfonamides",
+              "Gastroesophageal Reflux",
+              "Middle Aged",
+              "Recurrence",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38821110/"
+          },
+          {
+            "pmid": "41231641",
+            "title": "Gastroesophageal reflux disease: comprehensive review from medical to surgical management.",
+            "abstract": "Gastroesophageal reflux disease (GERD) affects 6-20% of the population globally, with lower prevalence in Asia and higher rates in Western countries. The disorder, diagnosed across multiple specialties, manifests through a spectrum of symptoms-ranging from classic heartburn and regurgitation to atypical and extra-esophageal presentations. Management often becomes fragmented as patients consult various providers. This review aims to comprehensively evaluate gastroesophageal reflux disease management, from lifestyle modifications and pharmacotherapy to diagnostic pathways and surgical interventions.",
+            "journal": "International journal of surgery (London, England)",
+            "year": "2025",
+            "authors": [
+              "Gupta Anupam Kumar"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41231641/"
+          },
+          {
+            "pmid": "34547219",
+            "title": "Predictors and timing for the development of symptomatic gastroesophageal reflux disease after successful Helicobactor pylori eradication therapy.",
+            "abstract": "Helicobacter pylori (H. pylori) eradication success increases the incidence of erosive esophagitis by normalization of gastric acid secretion. The aim of this study is to clarify predictors and timing for the development of symptomatic gastroesophageal reflux disease (GERD) after successful H. pylori eradication based on long-term follow-up.",
+            "journal": "Scandinavian journal of gastroenterology",
+            "year": "2022",
+            "authors": [
+              "Shinozaki Satoshi",
+              "Osawa Hiroyuki",
+              "Hayashi Yoshikazu",
+              "Miura Yoshimasa",
+              "Yano Tomonori"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Gastroesophageal Reflux",
+              "Helicobacter Infections",
+              "Helicobacter pylori",
+              "Humans",
+              "Proton Pump Inhibitors",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34547219/"
+          },
+          {
+            "pmid": "36716726",
+            "title": "Long-Term Clinical Course after Successful Initial Treatment in Patients with Mild Erosive Esophagitis: A Prospective Follow-Up Study.",
+            "abstract": "This study aimed to investigate the clinical course of patients with healed mild erosive esophagitis and clarify the predictive factors for continuous treatment.",
+            "journal": "Digestion",
+            "year": "2023",
+            "authors": [
+              "Okanobu Hideharu",
+              "Kohno Tomohiko",
+              "Boda Kazuki",
+              "Ochi Hidenori",
+              "Furukawa Yoshinari"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Follow-Up Studies",
+              "Proton Pump Inhibitors",
+              "Hernia, Hiatal",
+              "Prospective Studies",
+              "Esophagitis",
+              "Peptic Ulcer",
+              "Endoscopy, Gastrointestinal",
+              "Disease Progression",
+              "Esophagitis, Peptic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36716726/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "achlorhydria",
+        "txgnn_score": 0.998644769191742,
+        "txgnn_rank": 2552,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastric dilatation",
+        "txgnn_score": 0.9985051155090332,
+        "txgnn_rank": 2746,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31611534",
+            "title": "Vonoprazan-associated Gastric Mucosal Redness: A Report of Four Cases.",
+            "abstract": "To date, no cases of vonoprazan-associated gastric mucosal redness have been reported, and its endoscopic and pathological features remain largely unclear. We report four cases of vonoprazan-associated gastric mucosal redness. In all cases, esophagogastroduodenoscopy (EGD) demonstrated linear or spotty redness that newly appeared in the greater curvature of the middle gastric body after the initiation of vonoprazan, which disappeared after its discontinuation. A tissue biopsy taken from the gastric mucosa with redness revealed inflammatory cell infiltration, parietal cell protrusions (PCPs), and oxyntic gland dilatation. To our knowledge, this is the first report describing the endoscopic and pathological features of vonoprazan-associated gastric mucosal redness.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2020",
+            "authors": [
+              "Kubo Kimitoshi",
+              "Kimura Noriko",
+              "Matsuda Soichiro",
+              "Tsuda Momoko",
+              "Mabe Katsuhiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Endoscopy, Digestive System",
+              "Female",
+              "Gastric Mucosa",
+              "Gastroesophageal Reflux",
+              "Humans",
+              "Inflammation",
+              "Male",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31611534/"
+          },
+          {
+            "pmid": "33993429",
+            "title": "Marked reduction in the number of white globe appearance lesions in the noncancerous stomach after exchanging vonoprazan for esomeprazole treatment: a follow-up case report.",
+            "abstract": "Recently, an association has been suggested between development of white globe appearance lesions in the noncancerous stomach and treatment with a potassium-competitive acid blocker or a proton pump inhibitor. We previously reported two cases with development of white globe appearance lesions after vonoprazan treatment, suggesting a similar association. Here, we present the follow-up report of one of those two cases, concerning a 68-year-old woman who developed multiple white globe appearance lesions 1 year after starting vonoprazan treatment for severe gastroesophageal reflux disease leading to esophageal stricture. The patient refused to continue vonoprazan treatment after the lesions developed, and esomeprazole was initiated instead. Three months later, most of the white globe appearance lesions had disappeared, without worsening of her gastroesophageal reflux disease. Histologically, mucosal structural changes induced by vonoprazan, such as parietal cell protrusion with oxyntic gla",
+            "journal": "Clinical journal of gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Miwa Wataru",
+              "Hiratsuka Takashi",
+              "Sato Ken",
+              "Fujino Takashi",
+              "Kato Yo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Esomeprazole",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Proton Pump Inhibitors",
+              "Pyrroles",
+              "Stomach",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33993429/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cascade stomach",
+        "txgnn_score": 0.9985051155090332,
+        "txgnn_rank": 2747,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36343209",
+            "title": "Endoscopy Deliverable and Mushroom-Cap-Inspired Hyperboloid-Shaped Drug-Laden Bioadhesive Hydrogel for Stomach Perforation Repair.",
+            "abstract": "Gastrointestinal tract perforation is a full-thickness injury that causes bleeding and fatal infection of the peritoneum. This condition worsens in an acidic gastric environment which interferes with the normal coagulation cascade. Current endoscopic clips to repair gastric perforations are ineffective, and metal or plastic occluders need secondary surgery to remove them. Herein, we report a self-expandable, endoscopy deliverable, adhesive hydrogel to block gastric perforation. We found the nanosilica coating significantly enhanced the adhesive strength even under a simulated strong acidic stomach environment. The developed device was disulfide cross-linked for the reducible degraded gel. By loading with vonoprazan fumarate (VF) and acidic fibroblast growth factor (AFGF), the hyperboloid-shaped device can have a sustained drug release to regulate intragastric pH and promote wound healing. The gel device can be compressed and then expanded like a mushroom when applied in an acute gastri",
+            "journal": "ACS nano",
+            "year": "2023",
+            "authors": [
+              "Liu Shuang",
+              "Luan Zhaohui",
+              "Wang Tongchuan",
+              "Xu Kaige",
+              "Luo Qiang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Swine",
+              "Rabbits",
+              "Hydrogels",
+              "Agaricales",
+              "Swine, Miniature",
+              "Endoscopy",
+              "Stomach Diseases",
+              "Stomach",
+              "Adhesives"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36343209/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pylorospasm",
+        "txgnn_score": 0.9985051155090332,
+        "txgnn_rank": 2748,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Dieulafoy lesion",
+        "txgnn_score": 0.9985051155090332,
+        "txgnn_rank": 2749,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic duodenitis",
+        "txgnn_score": 0.9973617196083068,
+        "txgnn_rank": 4183,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33620586",
+            "title": "Evidence-based clinical practice guidelines for peptic ulcer disease 2020.",
+            "abstract": "The Japanese Society of Gastroenterology (JSGE) revised the third edition of evidence-based clinical practice guidelines for peptic ulcer disease in 2020 and created an English version. The revised guidelines consist of nine items: epidemiology, hemorrhagic gastric and duodenal ulcers, Helicobacter pylori (H. pylori) eradication therapy, non-eradication therapy, drug-induced ulcers, non-H. pylori, and nonsteroidal anti-inflammatory drug (NSAID) ulcers, remnant gastric ulcers, surgical treatment, and conservative therapy for perforation and stenosis. Therapeutic algorithms for the treatment of peptic ulcers differ based on ulcer complications. In patients with NSAID-induced ulcers, NSAIDs are discontinued and anti-ulcer therapy is administered. If NSAIDs cannot be discontinued, the ulcer is treated with proton pump inhibitors (PPIs). Vonoprazan (VPZ) with antibiotics is recommended as the first-line treatment for H. pylori eradication, and PPIs or VPZ with antibiotics is recommended as ",
+            "journal": "Journal of gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Kamada Tomoari",
+              "Satoh Kiichi",
+              "Itoh Toshiyuki",
+              "Ito Masanori",
+              "Iwamoto Junichi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Evidence-Based Practice",
+              "Japan",
+              "Peptic Ulcer",
+              "Proton Pump Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33620586/"
+          },
+          {
+            "pmid": "39712905",
+            "title": "Profound gastric mucosal changes and severe rebound acid hypersecretion after long-term Vonoprazan use: A case report.",
+            "abstract": "Vonoprazan is a novel acid blocker with greater potency than proton pump inhibitors. A Japanese study reported no significant safety concerns over 5 years of Vonoprazan use; however, elevated serum gastrin and increased parietal cell and foveolar hyperplasia were observed, and long-term safety data beyond 5 years are limited. We report a case that used Vonoprazan for 6 years, complicated by significant gastric epithelial changes during treatment and acute duodenal mucosal lesions following its discontinuation. A 76-year-old, treated with proton pump inhibitors for over 10 years, was switched to Vonoprazan due to his worsening symptoms. After its use, hemorrhagic hyperplastic polyps became prominent. Given concerns about Vonoprazan's effect on the gastric epithelium, the medication was changed to high-dose H2 blocker therapy. Two months later, the patient complained of vomiting and black tarry stools. Esophagogastroduodenoscopy revealed a significant reduction of gastric polyps but mult",
+            "journal": "DEN open",
+            "year": "2025",
+            "authors": [
+              "Suda Hiroko",
+              "Eto Sachi",
+              "Sakurai Koichi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39712905/"
+          },
+          {
+            "pmid": "27891632",
+            "title": "Randomised clinical trial: efficacy and safety of vonoprazan vs. lansoprazole in patients with gastric or duodenal ulcers - results from two phase 3, non-inferiority randomised controlled trials.",
+            "abstract": "Vonoprazan is a new potassium-competitive acid blocker for treatment of acid-related diseases.",
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2017",
+            "authors": [
+              "Miwa H",
+              "Uedo N",
+              "Watari J",
+              "Mori Y",
+              "Sakurai Y"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Ulcer Agents",
+              "Double-Blind Method",
+              "Duodenal Ulcer",
+              "Endoscopy",
+              "Female",
+              "Humans",
+              "Lansoprazole",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27891632/"
+          },
+          {
+            "pmid": "34085115",
+            "title": "Effect of a proton-pump inhibitor on intestinal microbiota in patients taking low-dose aspirin.",
+            "abstract": "Low-dose aspirin (LDA) administration prevents cerebral infarction and myocardial infarction, but many studies found an association with mucosal injury. Proton-pump inhibitors (PPIs) can prevent gastric and duodenal mucosal damage, but they may exacerbate small-intestinal mucosal injury by altering the microbiota. We aimed to assess the effect of PPIs on the intestinal flora of LDA users.",
+            "journal": "European journal of clinical pharmacology",
+            "year": "2021",
+            "authors": [
+              "Tsujimoto Hiroyuki",
+              "Hirata Yuki",
+              "Ueda Yasuhiro",
+              "Kinoshita Naohiko",
+              "Tawa Hideki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Aspirin",
+              "Case-Control Studies",
+              "Comorbidity",
+              "Dose-Response Relationship, Drug",
+              "Esomeprazole",
+              "Female",
+              "Gastrins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34085115/"
+          },
+          {
+            "pmid": "31406072",
+            "title": "[Refractory eosinophilic gastroenteritis with gastritis, duodenal ulcer, and colitis: a case report].",
+            "abstract": "Eosinophilic gastroenteritis is a rare disease that causes various abdominal symptoms that result from the infiltration of eosinophils in the digestive tract. However, this condition has been poorly explored, and the treatment criteria and prognosis after treatment are still unclear. A 20-year-old man with a refractory duodenal ulcer had been undergoing treatment since 14 years of age at another hospital. He was admitted to our hospital with abdominal pain and anemia (hemoglobin:6.3g/dL). His blood test showed elevated serum immunoglobulin E levels, considering that he was allergic to many foods. Furthermore, endoscopic biopsy detected the occurrence of eosinophilic gastroenteritis with gastritis, duodenal ulcer, and colitis. We treated him by avoiding allergenic foods and prescribing antihistamine and vonoprazan;however, duodenal ulcer and gastrointestinal tract inflammation did not show improvement. Thus, he was diagnosed with wide-ranging and refractory eosinophilic gastroenteritis ",
+            "journal": "Nihon Shokakibyo Gakkai zasshi = The Japanese journal of gastro-enterology",
+            "year": "2019",
+            "authors": [
+              "Miura Yuko",
+              "Iwamoto Fumihiko",
+              "Ishida Yasuaki",
+              "Kuno Toru",
+              "Tanaka Keisuke"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Colitis",
+              "Duodenal Ulcer",
+              "Enteritis",
+              "Eosinophilia",
+              "Gastritis",
+              "Humans",
+              "Male",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31406072/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11739",
+    "name": "Vonoprazan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Vonoprazan"
+      },
+      "queried_at": "2026-03-09T10:07:38.800703",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Vonoprazan"
+      },
+      "queried_at": "2026-03-09T10:07:40.691210",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "active peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T10:07:41.245503",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "active peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T10:07:45.116278",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "active peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T10:07:52.797875",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "peptic ulcer perforation"
+      },
+      "queried_at": "2026-03-09T10:07:53.798105",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "peptic ulcer perforation"
+      },
+      "queried_at": "2026-03-09T10:07:57.517778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "peptic ulcer perforation"
+      },
+      "queried_at": "2026-03-09T10:08:02.975797",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "gastrojejunal ulcer"
+      },
+      "queried_at": "2026-03-09T10:08:03.694921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "gastrojejunal ulcer"
+      },
+      "queried_at": "2026-03-09T10:08:07.384551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "gastrojejunal ulcer"
+      },
+      "queried_at": "2026-03-09T10:08:14.134085",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "hiatus hernia (disease)"
+      },
+      "queried_at": "2026-03-09T10:08:14.933284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "hiatus hernia (disease)"
+      },
+      "queried_at": "2026-03-09T10:08:18.815230",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "hiatus hernia (disease)"
+      },
+      "queried_at": "2026-03-09T10:08:23.939373",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "achlorhydria"
+      },
+      "queried_at": "2026-03-09T10:08:24.617465",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "achlorhydria"
+      },
+      "queried_at": "2026-03-09T10:08:28.184203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "achlorhydria"
+      },
+      "queried_at": "2026-03-09T10:08:29.715307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "gastric dilatation"
+      },
+      "queried_at": "2026-03-09T10:08:30.424066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "gastric dilatation"
+      },
+      "queried_at": "2026-03-09T10:08:35.235009",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "gastric dilatation"
+      },
+      "queried_at": "2026-03-09T10:08:37.321892",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "cascade stomach"
+      },
+      "queried_at": "2026-03-09T10:08:37.967766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "cascade stomach"
+      },
+      "queried_at": "2026-03-09T10:08:40.766423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "cascade stomach"
+      },
+      "queried_at": "2026-03-09T10:08:42.534760",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "pylorospasm"
+      },
+      "queried_at": "2026-03-09T10:08:43.198042",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "pylorospasm"
+      },
+      "queried_at": "2026-03-09T10:08:49.712593",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "pylorospasm"
+      },
+      "queried_at": "2026-03-09T10:08:50.966710",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "Dieulafoy lesion"
+      },
+      "queried_at": "2026-03-09T10:08:51.601569",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "Dieulafoy lesion"
+      },
+      "queried_at": "2026-03-09T10:09:01.434239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "Dieulafoy lesion"
+      },
+      "queried_at": "2026-03-09T10:09:02.599174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "hemorrhagic duodenitis"
+      },
+      "queried_at": "2026-03-09T10:09:03.848751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "hemorrhagic duodenitis"
+      },
+      "queried_at": "2026-03-09T10:09:06.979739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vonoprazan",
+        "disease": "hemorrhagic duodenitis"
+      },
+      "queried_at": "2026-03-09T10:09:09.447313",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:09:09.462164"
+  }
+}

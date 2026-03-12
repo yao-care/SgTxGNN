@@ -1,0 +1,2726 @@
+{
+  "drug": {
+    "inn": "Gemcitabine",
+    "drugbank_id": "DB00441",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.999829888343811,
+        "txgnn_rank": 557,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00014456",
+            "title": "A Dose-Escalation Trial Of The Combination Of Docetaxel, Gemcitabine And Filgrastim (NEUPOGEN) For The Treatment Of Patients With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2000-03",
+            "completion_date": "2005-10",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Colony-stimulating factors such as filgrastim may increase the number of immune cells found in bone marrow or peripheral blood and may help a person's immune system recover from the side effects of chemotherapy.\n\nPURPOSE: Phase I trial to study the effectiveness of combination chemotherapy plus filgrastim in treating patients who have advanced solid tumors.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed advanced solid tumor that is not curable by surgery or radiotherapy\n\n  * Sarcoma\n  * Melanoma\n  * Carcinoma of unknown primary\n  * Pancreatic cancer\n  * Lung cancer\n  * Ovarian cancer\n  * Breast cancer\n  * Bladder cancer\n  * Gastr",
+            "endpoints": [
+              "Determine the maximal tolerated dose of docetaxel in combination with gemcitabine given intravenously every 2 weeks with pegfilgrastim support",
+              "Define dose limiting adverse events associated with the combination"
+            ],
+            "sponsor": "Dartmouth-Hitchcock Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00014456"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00995488",
+            "title": "ABX209: Phase II Trial of Combination ABI-007, Carboplatin, and Gemcitabine for First Line Treatment of Advanced Urothelial Cancer.",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2009-10",
+            "completion_date": "2013-11",
+            "country": "United States",
+            "enrollment": 16,
+            "brief_summary": "This study will evaluate the safety and efficacy of the combination of ABI-007, carboplatin and gemcitabine in the treatment of patients with advanced bladder cancer.\n\nStudy participants will have been diagnosed with advanced bladder cancer. Cisplatin based chemotherapy in this setting has activity but is not curative. Furthermore, patients with this disease have comorbidities that limit the use of cisplatin based therapy. Combination paclitaxel, carboplatin and gemcitabine is active and well to",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female patients at least 18 years of age.\n* Histologic or cytologic diagnosis of urothelial carcinoma (transitional cell carcinoma either pure or mixed histology) that is metastatic or locally recurrent or locally advanced and not eligible for higher priority trials.\n",
+            "endpoints": [
+              "Percentage of Participants With a Partial or Complete Response"
+            ],
+            "sponsor": "University of Michigan Rogel Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00995488"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00620295",
+            "title": "Phase I Study of Bortezomib and Gemcitabine in Elderly Patients With Solid Tumors (X05227)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2007-03",
+            "completion_date": "2009-10",
+            "country": "United States",
+            "enrollment": 17,
+            "brief_summary": "RATIONALE: Bortezomib may stop the growth of solid tumors by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. Drugs used in chemotherapy, such as gemcitabine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving bortezomib together with gemcitabine may kill more tumor cells.\n\nPURPOSE: This phase I trial is studying the side effects and best dose of bortezomib and gemcitabine in ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed diagnosis of advanced non-hematologic malignancy, including any of the following:\n\n  * Breast cancer\n  * Lung cancer\n  * Colon cancer\n  * Pancreatic cancer\n  * Head and neck cancer\n  * Sarcoma\n* Must have failed or become intolerant to",
+            "endpoints": [
+              "Maximum tolerated dose of bortezomib and gemcitabine"
+            ],
+            "sponsor": "Masonic Cancer Center, University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT00620295"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02851381",
+            "title": "Compassionate Single Subject Use of FG-3019 in Locally Advanced, Unresectable Pancreatic Cancer (Emergency Use of a Test Article)",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2016-08",
+            "completion_date": "2017-08",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "Single compassionate use subject is an 83 year old woman with a history of lymph node positive breast cancer and recently diagnosed pancreatic cancer in May. With an Eastern Cooperative Oncology Group (ECOG) of 2, it is felt that she cannot tolerate more aggressive chemotherapy. The investigators propose to administer FG-3019 on a compassionate pleas basis in combination with gemzar. The patient is currently being treated and is tolerating gemzar.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed Consent form\n* Have adequate liver function\n* Have adequate bone marrow function\n\nExclusion Criteria:\n\n* History of allergy or hypersensitivity to human, humanized or chimeric monoclonal antibodies\n* Any medical or surgical condition that may place the subject at increa",
+            "endpoints": [
+              "FG-3019 treatment regimen to increase OS (overall survival)"
+            ],
+            "sponsor": "Jonsson Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02851381"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00027989",
+            "title": "An Open-Label, Single-Arm, Phase II Study of Liposomal Doxorubicin (Doxil) and Gemcitabine in the Treatment of Women With Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2001-12",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of combining liposomal doxorubicin with gemcitabine in treating women who have metastatic breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed metastatic breast cancer\n* Measurable disease\n* Hormone receptor status:\n\n  * Not specified\n\nPATIENT CHARACTERISTICS:\n\nAge:\n\n* 18 and over\n\nSex:\n\n* Female\n\nMenopausal status:\n\n* Not specified\n\nPerformance status:\n\n* Karnofsky 60-1",
+            "endpoints": [],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00027989"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00039546",
+            "title": "'tAnGo', A Phase III Randomised Trial Of Gemcitabine In Paclitaxel-Containing, Epirubicin-Based, Adjuvant Chemotherapy For ER/PgR-Poor, Early Stage, Breast Cancer",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2001-08",
+            "completion_date": "",
+            "country": "United Kingdom",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells. It is not yet known which chemotherapy regimen is more effective in treating women after surgery for breast cancer.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of paclitaxel, epirubicin, and cyclophosphamide with or without gemcitabine in treating women who have undergone surgery for breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed newly diagnosed invasive breast cancer\n\n  * Early stage disease\n  * Completely resected disease\n\n    * No more than 8 weeks since prior resection\n* Any nodal status\n* Indication for adjuvant chemotherapy\n* No metastatic disease\n* Hormone receptor ",
+            "endpoints": [],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00039546"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07097142",
+            "title": "The Phase III Adaptive Radiation and Chemotherapy for Muscle Invasive Bladder Cancer Trial (ARCHER)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2026-05-11",
+            "completion_date": "2030-05-31",
+            "country": "United States",
+            "enrollment": 486,
+            "brief_summary": "This phase III trial compares the effect of decreased number of radiation (ultra-hypofractionated) treatments to the usual radiation number of treatments (hypofractionation) with standard of care chemotherapy, with cisplatin, gemcitabine or mitomycin and 5-fluorouracil for the treatment of patients with muscle invasive bladder cancer. Hypofractionated radiation therapy delivers higher doses of radiation therapy over a short period of time. Ultra-hypofractionated radiation therapy delivers radiat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically proven, cT2-T3,N0M0 urothelial carcinoma of the bladder prior to randomization.\n\n  * Note: Patients with mixed urothelial carcinoma will be eligible for the trial, but the presence of small cell carcinoma will make a patient ineligible\n* Must undergo a transuret",
+            "endpoints": [
+              "Bladder-intact event-free survival (BI-EFS)"
+            ],
+            "sponsor": "NRG Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT07097142"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00110084",
+            "title": "Phase II Trial of Weekly Nab (Nanoparticle Albumin Bound)-Paclitaxel (Nab-paclitaxel) (Abraxane®) in Combination With Gemcitabine in Patients With Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-08",
+            "completion_date": "2010-08",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as ABI-007(Nab-Paclitaxel((Nanoparticle Albumin Bound)-Paclitaxel)) and gemcitabine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more tumor cells.\n\nPURPOSE: This phase II trial is studying how well giving ABI-007 together with gemcitabine works in treating women with metastatic breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed invasive breast cancer\n\n  \\- Clinical evidence of metastatic disease\n\n  \\+ No bone metastases or other non-measurable disease as the only evidence of metastasis\n* Measurable disease, defined as at least 1 measurable lesion\n\n  \\- T",
+            "endpoints": [
+              "Proportion of Patients With Confirmed Responses"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00110084"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04579224",
+            "title": "A Phase III Randomized Trial of Eribulin (NSC #707389) With Gemcitabine Versus Standard of Care (Physician's Choice) for Treatment of Metastatic Urothelial Carcinoma Refractory to, or Ineligible for, Anti PD1/PDL1 Therapy",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2021-06-28",
+            "completion_date": "2030-08-15",
+            "country": "United States",
+            "enrollment": 184,
+            "brief_summary": "This phase III trial compares the usual chemotherapy treatment to eribulin plus gemcitabine in treating patients with urothelial cancer that has spread from where it first started (primary site) to other places in the body (metastatic). Chemotherapy drugs, such as eribulin, gemcitabine, docetaxel, paclitaxel, and sacituzumab govitecan work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. This tri",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must have predominant histologically or cytologically proven urothelial carcinoma in a metastatic site\n* Participant must have evidence of metastatic urothelial carcinoma based on CT or MRI within 28 days prior to registration\n* Participant must have had progressio",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT04579224"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04216290",
+            "title": "Phase II Study of Bladder-SparIng ChemoradiatioN With Durvalumab in Clinical Stage III, Node PosItive BladdeR CancEr (INSPIRE)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-03-17",
+            "completion_date": "2026-06-30",
+            "country": "United States",
+            "enrollment": 95,
+            "brief_summary": "This phase II trial studies the benefit of adding an immunotherapy drug called MEDI4736 (durvalumab) to standard chemotherapy and radiation therapy in treating bladder cancer which has spread to the lymph nodes. Drugs used in standard chemotherapy work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Cisplatin is in a class of medications known as platinum-containing compounds. It works by killin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* STEP 1 (RANDOMIZATION) ELIGIBILITY CRITERIA:\n* Patient must be \\>= 18 years of age.\n* Patient must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2 at the time of step 1 randomization.\n* Patient must have histologically proven pure or mixed urothelia",
+            "endpoints": [
+              "Clinical complete response (CR)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT04216290"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00561119",
+            "title": "Phase III, Multicenter, Randomized Trial of Maintenance Versus Observation After Achieving Clinical Response in Pts With Metastatic or Recurrent Breast Cancer Who Received 6 Cycles of Gemcitabine Plus Paclitaxel(GP) as 1st-line Chemotherapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-05",
+            "completion_date": "2016-12",
+            "country": "South Korea",
+            "enrollment": 326,
+            "brief_summary": "The primary goal of therapy in patients with metastatic breast cancer is palliation and prolongation of life with quality. Although there are no randomized trials comparing chemotherapy with supportive care in women with metastatic breast cancer, chemotherapy clearly provides a survival benefit in metastatic breast cancer. Due to diagnosis at earlier phases of metastatic disease and more effective therapies, the median survival of patients treated with modern taxane-based chemotherapy is now rea",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Histologically Confirmed Metastatic, or Recurrent Breast Cancer\n* Age over 18 Years\n* ECOG Performance Status 0-2\n* Premenopausal or Postmenopausal Breast Cancer Patients With Measurable or Non-Measurable Lesions, Who Are Candidates for Chemotherapy\n* Life Expectancy ≥ 3 Months",
+            "endpoints": [
+              "Progression free survival"
+            ],
+            "sponsor": "Samsung Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00561119"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00440622",
+            "title": "A Multicenter Randomized Phase III Study of Gemcitabine Plus Herceptin Combination Versus the Capecitabine Plus Herceptin Combination in Pretreated Patients With HER-2 Positive Metastatic Breast Cancer",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2003-04",
+            "completion_date": "2008-11",
+            "country": "Greece",
+            "enrollment": 90,
+            "brief_summary": "The optimal treatment for pretreated patients with metastatic breast cancer has not been established. Gemcitabine and capecitabine are two active agents in this setting. For women with Her-2 positive breast cancer, combinations of either gemcitabine or capecitabine (Xeloda) plus Herceptin has been proved active and well tolerated.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent\n* Histologically confirmed metastatic breast adenocarcinoma (stage IV) without any prior chemotherapy received\n* HER-2 overexpression 2+ or 3+ using IHC or FISH +\n* Measurable disease\n* At least one prior chemotherapy regimen\n* Not in a prior irradiation field",
+            "endpoints": [
+              "Time to progression (TTP) between the two treatment arms"
+            ],
+            "sponsor": "Hellenic Oncology Research Group",
+            "url": "https://clinicaltrials.gov/study/NCT00440622"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00004095",
+            "title": "Phase I Trial of Irinotecan (CPT-11) and Gemcitabine in Patients With Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "1999-08",
+            "completion_date": "2008-10",
+            "country": "United States",
+            "enrollment": 38,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase I trial to study the effectiveness of combining irinotecan and gemcitabine in treating patients who have unresectable or metastatic solid tumors.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed metastatic or surgically unresectable solid tumor, having received the following maximum number of prior therapies for advanced disease:\n\n  * Bladder cancer - no more than 1 prior therapy\n  * Breast cancer - no more than 2 prior therapies\n  * Colo",
+            "endpoints": [],
+            "sponsor": "Northwestern University",
+            "url": "https://clinicaltrials.gov/study/NCT00004095"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00408408",
+            "title": "A Randomized Phase III Trial of Neoadjuvant Therapy in Patients With Palpable and Operable Breast Cancer Evaluating the Effect on Pathologic Complete Response (pCR) of Adding Capecitabine or Gemcitabine to Docetaxel When Administered Before AC With or Without Bevacizumab and Correlative Science Studies Attempting to Identify Predictors of High Likelihood for pCR With Each of the Regimens",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2006-11",
+            "completion_date": "2018-03",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 1206,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more tumor cells. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Bevacizumab may also stop the g",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The patient must have consented to participate and must have signed and dated an appropriate Institutional Review Board (IRB)-approved consent form that conforms to federal and institutional guidelines for the study treatment and submission of pre-entry core biopsy material fo",
+            "endpoints": [
+              "Pathologic Complete Response (pCR) of the Primary Tumor in the Breast"
+            ],
+            "sponsor": "NSABP Foundation Inc",
+            "url": "https://clinicaltrials.gov/study/NCT00408408"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00462865",
+            "title": "A Phase II Study of Adjuvant Gemcitabine/Capecitabine and Bevacizumab for Patients Treated Neoadjuvantly Chemotherapy for Early Stage Breast Cancer With High Risk for Relapse",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2007-11",
+            "completion_date": "2014-01",
+            "country": "United States",
+            "enrollment": 18,
+            "brief_summary": "Women with breast cancer who are not eligible for breast conserving surgery or who have node-involvement are sometimes treated with chemotherapy up front, in hopes of allowing for a woman to keep her breast and decreasing the size of the excision for her breast cancer. While current research has shown that survival is the same whether women are treated with chemotherapy first or surgery first for breast cancer, the investigators do not yet know how to treat women with persistent breast cancer af",
+            "eligibility_criteria": "Inclusion Criteria:\n\nGeneral health\n\n* Women Age \\>18.\n* ECOG Performance status 0-1\n* Life expectancy must be 3 months. Clinical stage\n* Histologically or cytologically adenocarcinoma of breast\n* Pre-operative stage II-III per AJCC 6th edition, based on baseline evaluation by clinical examination, ",
+            "endpoints": [
+              "Toxicity Related to Treatment"
+            ],
+            "sponsor": "Brown University",
+            "url": "https://clinicaltrials.gov/study/NCT00462865"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06027268",
+            "title": "ToPCourT: A Phase II Trial of Trilaciclib, Pembrolizumab, Gemcitabine and Carboplatin in Locally Advanced Unresectable or Metastatic Triple-Negative Breast Cancer (TNBC)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-01-10",
+            "completion_date": "2027-03",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "The goal of this phase II study is to test the combination of trilaciclib, pembrolizumab, gemcitabine, and carboplatin in locally advanced unresectable or metastatic triple-negative breast cancer.\n\nThe main questions it aims to answer are:\n\n* to evaluate the anti-cancer efficacy (assess how well it works)\n* to evaluate the safety and tolerability (how well the body can handle the treatment) of this combination of anti-cancer therapy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Written informed consent and HIPAA authorization for release of personal health information signed by the patient\n2. Male or female with locally advanced unresectable or metastatic TNBC\n3. Age ≥ 18 years at the time of consent\n4. Eastern Cooperative Oncology Group (ECOG) Perf",
+            "endpoints": [
+              "Objective Response"
+            ],
+            "sponsor": "Wake Forest University Health Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT06027268"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00565851",
+            "title": "A Phase III Randomized Controlled Clinical Trial of Carboplatin and Paclitaxel (or Gemcitabine) Alone or in Combination With Bevacizumab (NSC #704865) Followed by Bevacizumab and Secondary Cytoreductive Surgery in Platinum-Sensitive, Recurrent Ovarian, Peritoneal Primary and Fallopian Tube Cancer. NCI-Supplied Agents: Bevacizumab (NSC #704865)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2007-12-06",
+            "completion_date": "2028-01-01",
+            "country": "United States, South Korea, Japan",
+            "enrollment": 1052,
+            "brief_summary": "This randomized phase III trial studies carboplatin, paclitaxel and gemcitabine hydrochloride when given together with or without bevacizumab after surgery to see how well it works in treating patients with ovarian, epithelial, primary peritoneal, or fallopian tube cancer that has come back. Drugs used in chemotherapy, such as carboplatin, paclitaxel and gemcitabine hydrochloride work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients enrolled after August 28, 2011 must be candidates for cytoreductive surgery and consent to have their surgical treatment determined by randomization\n* Patients must have histologic diagnosis of epithelial ovarian carcinoma, peritoneal primary or fallopian tube carcino",
+            "endpoints": [
+              "To Determine if Surgical Secondary Cytoreduction in Addition to Adjuvant Chemotherapy Increases the Duration of Overall Survival in Patients With Recurrent Platinum Sensitive Epithelial Ovarian Cancer, Peritoneal Primary or Fallopian Tube Cancer",
+              "To Determine if the Addition of Bevacizumab Increases the Duration of Overall Survival Relative to Second-line Paclitaxel and Carboplatin Alone in Patients With Recurrent Platinum Sensitive Epithelial Ovarian, Peritoneal Primary or Fallopian Tube Cancer"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00565851"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06630325",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART): Adaptive Clinical Treatment (ACT)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2025-06-24",
+            "completion_date": "2033-06-30",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This phase II trial tests the how well a precision medicine approach (serial measurements of molecular and architectural response to therapy \\[SMMART\\])-adaptive clinical treatment \\[ACT\\]) works in treating patients with sarcoma, prostate, breast, ovarian or pancreatic cancer that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). SMMART testing uses genetic and protein tests to learn how cancer changes and to understand what drug",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-SCREENING: Written informed consent prior to any Pre-Screening activities, study-specific procedures or interventions\n* PRE-SCREENING: At least 18 years of age at time of informed consent. Persons of all gender identities, biological sexes, races, and ethnicities will be i",
+            "endpoints": [
+              "Proportion of participants who receive an adaptive clinical treatment (ACT) therapy based serial measurements of molecular and architectural responses to therapy (SMMART)-ACT tumor board recommendation"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06630325"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02252887",
+            "title": "Phase II Study of Gemcitabine, Trastuzumab, and Pertuzumab in the Treatment of Metastatic HER2-Positive Breast Cancer After Prior Trastuzumab/Pertuzumab- or Pertuzumab-Based Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-01-12",
+            "completion_date": "2025-07-24",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "The purpose of this study is to see if a combination of drugs can help to treat breast cancer. This is a Phase II study which will test whether this combination of drugs is effective and will provide further information on side effects and safety. A standard chemotherapy, gemcitabine, will be combined with 2 other drugs that target the HER2 receptor. The HER2 receptor is a growth protein on the surface of some breast cancer cells that provides messages telling the breast cancer cell to grow. The",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ to 18\n* Stage IV HER2 (+) breast cancer\n* Histologically documented HER2 (+) breast cancer as defined as IHC 3+ or FISH amplification of ≥ 2.0 of primary or metastatic site; results from the local lab are acceptable.\n* lECOG performance status 0 -1\n* Prior treatment with",
+            "endpoints": [
+              "progression free"
+            ],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02252887"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03678883",
+            "title": "Phase 1/2 Study of 9-ING-41, a Glycogen Synthase Kinase-3 Beta (GSK-3β) Inhibitor, As a Single Agent and Combined with Chemotherapy, in Patients with Refractory Hematologic Malignancies or Solid Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-01-04",
+            "completion_date": "2026-01",
+            "country": "Spain, France, Canada, Belgium, Netherlands, United States, Portugal",
+            "enrollment": 350,
+            "brief_summary": "GSK-3β is a potentially important therapeutic target in human malignancies. The Actuate 1801 Phase 1/2 study is designed to evaluate the safety and efficacy of 9-ING-41, a potent GSK-3β inhibitor, as a single agent and in combination with cytotoxic agents, in patients with refractory cancers.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient -\n\n  1. Is able to understand and voluntarily sign a written informed consent and is willing and able to comply with the protocol requirements including scheduled visits, treatment plan, laboratory tests and other study procedures.\n  2. Is aged ≥ 18 years\n  3. Has path",
+            "endpoints": [
+              "Parts 1/2: Number of participants with treatment-related adverse events as assessed by CTCAE v4.03",
+              "Part 3 Arm B"
+            ],
+            "sponsor": "Actuate Therapeutics Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03678883"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04164082",
+            "title": "Phase II Trial of Intravesical Gemcitabine and MK-3475 (Pembrolizumab) in the Treatment of Patients With BCG-Unresponsive Non-Muscle Invasive Bladder Cancer",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-03-18",
+            "completion_date": "2026-12-09",
+            "country": "Guam, Puerto Rico, United States",
+            "enrollment": 161,
+            "brief_summary": "This phase II trial studies the effect of adding pembrolizumab to gemcitabine in treating patients with non-muscle invasive bladder cancer whose cancer does not respond to Bacillus Calmette-Guerin (BCG) treatment. Chemotherapy drugs, such as gemcitabine, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Immunotherapy with monoclonal antibodies, such as pembrolizumab, may help the patient's im",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* High grade Ta, T1 or CIS urothelial carcinoma. Accrual of patients with Ta or T1 disease may be closed to ensure adequate patients enrollment to meet the primary endpoint\n* Persistent disease (defined as not achieving disease free status) after completing therapy with at least",
+            "endpoints": [
+              "Complete response rate in the carcinoma in situ (CIS) subpopulation",
+              "Event-free survival at 18 months"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT04164082"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00679029",
+            "title": "Adjuvant Doxorubicin, Cyclophosphamide Followed by Avastin Given With Paclitaxel and Gemcitabine for Stage II and III Breast Cancer That Does Not Over-express Human Epidermal Growth Factor Receptor 2 (HER-2)/Neu",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2008-05-02",
+            "completion_date": "2010-11-18",
+            "country": "United States",
+            "enrollment": 15,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as doxorubicin hydrochloride, cyclophosphamide, paclitaxel, and gemcitabine hydrochloride, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Bevacizumab ma",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histological diagnosis of invasive breast cancer: By pathologic evaluation, primary tumor must be T1-4N1-3M0 or T3-4N 0M0 that is ER/PR positive or negative and HER-2/neu negative (1+) immunocytochemistry or not amplified by Fluorescence in situ hybridization (FISH)\n* OR By pa",
+            "endpoints": [
+              "Percentage of Participants With Study Drug-associated Adverse Events Leading to Dose Holds or Reductions",
+              "Count of Participants With Related Serious Adverse Events (SAEs) by NCI Common Toxicity Criteria v3.0"
+            ],
+            "sponsor": "University of Nebraska",
+            "url": "https://clinicaltrials.gov/study/NCT00679029"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05809895",
+            "title": "AdvanTIG-211: A Randomized, Double-blind, Placebo-controlled, Phase II Study Evaluating the Efficacy and Safety of Ociperlimab (WCD118) Combined With Tislelizumab (VDT482) Plus Chemotherapy Versus Placebo Combined With Pembrolizumab Plus Chemotherapy as First-line Therapy for Participants With Advanced Triple Negative Breast Cancer (TNBC)",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2023-09-15",
+            "completion_date": "2029-07-18",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "The primary scientific question of interest of this study is whether the combination of ociperlimab, tislelizumab and chemotherapy improves progression-free survival (PFS) compared to the combination of placebo, pembrolizumab and chemotherapy as first-line therapy for adult men and women with advanced triple negative breast cancer (TNBC) whose tumors express programmed death ligand 1 (PD - L1) \\[combined positive score (CPS) ≥10\\], regardless of study treatment discontinuation or start of new an",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Participant has histologically confirmed diagnosis of advanced (loco-regionally recurrent and not amenable to curative therapy, or metastatic (stage IV)) TNBC\n* Participant has completed systemic treatment for Stage I-III breast cancer, if indicated, and ≥ 6 months have el",
+            "endpoints": [
+              "Progression-free Survival (PFS) based on investigator assessment using RECIST 1.1 criteria in Arm A and B"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05809895"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00006007",
+            "title": "A Phase II Study of a Combination of MTA (LY231514) and Gemcitabine in Patients With Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2000-12",
+            "completion_date": "2008-05",
+            "country": "Canada, United States",
+            "enrollment": 59,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combining LY231514 plus gemcitabine in treating women who have metastatic breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed breast cancer with clinical evidence of metastatic disease\n* Bidimensionally measurable disease\n\n  * If bisphosphonates used, must have measurable disease site other than bone\n  * No bone only disease\n* Must have received a prior ",
+            "endpoints": [
+              "time to progression"
+            ],
+            "sponsor": "Alliance for Clinical Trials in Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT00006007"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05007106",
+            "title": "A Multicenter, Open-label, Phase 2 Basket Study of MK-7684A, a Co-formation of Vibostolimab (MK-7684) With Pembrolizumab (MK-3475), With or Without Other Anticancer Therapies in Participants With Selected Solid Tumors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-09-16",
+            "completion_date": "2025-08-05",
+            "country": "Colombia, Spain, France, Canada, South Korea, Turkey (Türkiye), Netherlands, Germany, Israel, Italy, United States, Chile, Poland, Taiwan, Japan",
+            "enrollment": 613,
+            "brief_summary": "The purpose of this study is to determine the safety, tolerability, and preliminary efficacy of pembrolizumab/vibostolimab co-formulation (MK-7684A) with or without other anticancer therapies in participants with selected advanced solid tumors. The primary hypothesis is that pembrolizumab/vibostolimab co-formulation is superior to pembrolizumab alone in terms of objective response rate or progression-free survival in participants with cervical cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* One of the following histologically or cytologically confirmed, advanced (unresectable or metastatic) solid tumors:\n\n  * Squamous cell carcinoma, adenosquamous carcinoma, or adenocarcinoma of the cervix\n  * Endometrial cancer\n  * Head and neck squamous cell carcinoma (HNSCC)\n ",
+            "endpoints": [
+              "Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 as Assessed by Blinded Independent Central Review (BICR)",
+              "Progression-Free Survival (PFS) per RECIST 1.1 as Assessed by BICR",
+              "ORR per RECIST 1.1 as Assessed by Investigator in Participants with Selected Solid Tumors"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT05007106"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01325558",
+            "title": "A Phase I, Open-Label, Multi-center, Competitive Enrollment and Dose-escalation Study of ALT-836 in Combination With Gemcitabine for Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-05",
+            "completion_date": "2015-02",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This is a Phase I, open-label, multi-center, competitive enrollment and dose-escalation study of ALT-836 in combination with standard of care gemcitabine in participants who have locally advanced or metastatic solid tumors. The purpose of this study is to determine the maximum tolerated dose (MTD), and to assess the safety and pharmacokinetic profile of ALT-836 given with gemcitabine. The clinical benefit, progression-free survival and overall survival of study participants will also be assessed",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed\n* Locally advanced or metastatic non-hematologic malignancies\n* Measureable\n* Refractory to standard therapies or single agent gemcitabine is indicated as a standard treatment option\n\nPRIOR/CONCURRENT THERAPY:\n\n* No concurrent rad",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of ALT-836 in combination with gemcitabine",
+              "Safety Profile",
+              "Clinical Benefit"
+            ],
+            "sponsor": "Altor BioScience",
+            "url": "https://clinicaltrials.gov/study/NCT01325558"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00003540",
+            "title": "Phase II Study of Gemcitabine in the Treatment of Patients With Metastatic Breast Cancer Previously Treated With Adriamycin and Taxol",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "1998-06",
+            "completion_date": "2002-11",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of gemcitabine in treating women with metastatic breast cancer previously treated with doxorubicin and paclitaxel.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed metastatic breast cancer\n* Bidimensionally measurable disease\n\n  * No bone scan abnormalities alone\n  * Lytic lesions in conjunction with bone scan abnormalities allowed\n  * No pure blastic bone metastases\n  * No pleural or peritoneal effusions\n  ",
+            "endpoints": [],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00003540"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03076372",
+            "title": "A Phase-1 Study Evaluating the Safety, Pharmacology and Preliminary Activity of MM-310 in Patients With Solid Tumors",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2017-02-22",
+            "completion_date": "2018-12",
+            "country": "United States",
+            "enrollment": 34,
+            "brief_summary": "MM-310 is a liposomal formulation of a docetaxel prodrug that targets the EphA2 receptor on cancer cells. Docetaxel is an approved chemotherapeutic drug.This study is a Phase 1 open-label study of MM-310 in patients with solid tumors. In the first part of the study, MM-310 will be assessed as a monotherapy until a maximum tolerated dose (MTD) is established. After an MTD of MM-310 as a monotherapy is established, an expansion cohort and MM-310 in combination with other therapies will be assessed",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must have one of the following cancers, for which the patient has either received or been intolerant to all therapy known to confer clinical benefit\n\n  * Urothelial carcinoma\n  * Gastric/gastroesophageal junction/esophageal carcinoma (G/GEJ/E)\n  * Squamous Cell Carcinoma of th",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) of MM-310 monotherapy administered once every 3 weeks in patients with metastatic solid tumors."
+            ],
+            "sponsor": "Merrimack Pharmaceuticals",
+            "url": "https://clinicaltrials.gov/study/NCT03076372"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05770713",
+            "title": "Treatment Patterns And Clinical Outcomes Among Patients Receiving CDK4/6 Inhibitors Combinations For HR+/HER2- Advanced/Metastatic Breast Cancer In A Canadian Real World Setting",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-10-12",
+            "completion_date": "2023-02-28",
+            "country": "Canada",
+            "enrollment": 48,
+            "brief_summary": "CDK4/6 inhibitors are approved medicines indicated for the treatment of a kind of advanced/metastatic breast cancer, called hormone receptors positive (HR+)/ Human epidermal growth factor receptor 2 negative (HER2-) disease. They are given orally in combination with hormonal therapies.\n\nThe purpose of this study is to better understand how the CDK4/6 inhibitors combinations are used in real-life conditions and their clinical impact for the treatment of Canadian patients affected by (HR+)/ (HER2-",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HR+/HER2- breast cancer diagnosis with confirmed metastatic or advanced disease\n* Diagnosed with ABC/MBC between 01 Jan 2016 and 01 July 2021\n* Treatment with CDK4/6 inhibitor\n\nExclusion Criteria:\n\n* Patient does not have ABC/MBC\n* Patient has indicated HR- or HER2+ status\n* P",
+            "endpoints": [
+              "Number of Participants Classified According to Treatment Pattern"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05770713"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03329950",
+            "title": "A Phase 1 Study of CDX-1140 as Monotherapy or in Combination in Patients With Advanced Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-12-01",
+            "completion_date": "2022-09-13",
+            "country": "United States",
+            "enrollment": 132,
+            "brief_summary": "This is a study to determine the maximum tolerated dose (MTD) for CDX-1140 (CD40 antibody), either alone or in combination with CDX-301 (FLT3L), pembrolizumab, or chemotherapy and to further evaluate its tolerability and efficacy in expansion cohorts once the MTD is determined.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. Recurrent, locally advanced or metastatic melanoma (including mucosal and/or ocular), bladder/urothelial, non-small cell lung cancer, pancreatic adenocarcinoma, breast, colorectal, gastric, esophageal, renal cell, hepatic, ovarian fallopian or primary peritoneal carcinoma",
+            "endpoints": [
+              "Safety and Tolerability of CDX-1140 as assessed by CTCAE v5.0"
+            ],
+            "sponsor": "Celldex Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT03329950"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00942331",
+            "title": "A Randomized Double-Blinded Phase III Study Comparing Gemcitabine, Cisplatin, and Bevacizumab to Gemcitabine, Cisplatin, and Placebo in Patients With Advanced Transitional Cell Carcinoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-07-15",
+            "completion_date": "2021-06-15",
+            "country": "Puerto Rico, United States",
+            "enrollment": 506,
+            "brief_summary": "This randomized phase III trial studies gemcitabine hydrochloride, cisplatin, and bevacizumab to see how well they work compared with gemcitabine hydrochloride and cisplatin in treating patients with urinary tract cancer that has spread to other places in the body. Drugs used in chemotherapy, such as gemcitabine hydrochloride and cisplatin, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Im",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically documented metastatic or unresectable transitional cell (urothelial) carcinoma of the urinary tract (renal pelvis, ureter, bladder, prostate, or urethra), with metastatic or locally advanced disease (T4b, N2, N3, or M1); patie",
+            "endpoints": [
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00942331"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01905592",
+            "title": "A Phase III, Randomized, Open Label, Multicenter, Controlled Trial of Niraparib Versus Physician's Choice in Previously-treated, HER2 Negative, Germline BRCA Mutation-positive Breast Cancer Patients",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2014-02-25",
+            "completion_date": "2021-10-26",
+            "country": "Spain, United Kingdom, France, Canada, Belgium, Netherlands, Italy, Israel, United States, Portugal, Hungary, Greece, Iceland, Poland",
+            "enrollment": 216,
+            "brief_summary": "The purpose of this study is to compare progression-free survival (PFS) in patients with advanced/metastatic breast cancer who have a BRCA mutation when treated with niraparib as compared to those treated with physician's choice",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Germline BRCA1 or BRCA2 mutation; patients with unknown BRCA status who meet NCCN BRCA screening criteria will be screened for BRCA mutation.\n2. Histologically or cytologically confirmed HER2-negative metastatic or locally advanced disease that is not amenable to resection or",
+            "endpoints": [
+              "Progression Free Survival (PFS) - Central Review Assessment"
+            ],
+            "sponsor": "Tesaro, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01905592"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03423849",
+            "title": "Prospective Randomized Controlled Study of the Maintenance Regimen and Revised Regimen for Advanced Breast Cancer Survivors After First-line Salvage Therapy",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2018-02-08",
+            "completion_date": "2020-02-08",
+            "country": "N/A",
+            "enrollment": 200,
+            "brief_summary": "Worldwide, breast cancer is the most incident and prevalent cancer among women. Despite advances in the treatment of advanced breast cancer (ABC) during the past decade, adjuvant systemic therapy has yield little progression for such patients. ABC remains an incurable disease, responsible for approximate 40,000 deaths annually and a median life expectancy of no more than 3 years. The NCCN guidelines clearly define routine adjuvant chemotherapy regimens for the early breast cancer, however, for t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients were required to give written informed consent.\n* Patients with distant metastasis who primary received anthracycline and taxane adjuvant chemotherapy after surgery.\n* After inorelbine and gemcitabine (NG) or vinorelbine and platinum (NP) regiments for 6 cycles,pa",
+            "endpoints": [
+              "Disease-free survival (DFS)"
+            ],
+            "sponsor": "Shandong Cancer Hospital and Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03423849"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00005614",
+            "title": "Management of Metastatic Breast Cancer in Frail Patients",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "1999-08",
+            "completion_date": "2000-06",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of gemcitabine in treating elderly women who have metastatic breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Metastatic breast cancer Measurable disease No progression after 3 or more different forms of chemotherapy Hormone receptor positive breast cancer must be refractory to at least two forms of hormonal treatment (including antiestrogen, aromatase inhibitor, and/or progestin) u",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00005614"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03839823",
+            "title": "A Phase II Randomized Study of the Combination of Ribociclib Plus Goserelin Acetate With Hormonal Therapy Versus Physician Choice Chemotherapy in Premenopausal or Perimenopausal Patients With Hormone Receptor-positive/ HER2-negative Inoperable Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-02-25",
+            "completion_date": "2023-05-10",
+            "country": "Lebanon, Turkey (Türkiye), India, South Africa, Thailand, Saudi Arabia, Malaysia, Russia, Jordan, Singapore, Vietnam, Taiwan, Egypt",
+            "enrollment": 222,
+            "brief_summary": "To compare the combination of Ribociclib plus goserelin acetate with hormonal therapy versus combination chemotherapy in premenopausal or perimenopausal patients with advanced or metastatic breast cancer",
+            "eligibility_criteria": "INCLUSION CRITERIA\n\n1. Patient was an adult female ≥ 18 years old and \\< 60 years old at the time of informed consent.\n2. Patient had a histologically and/or cytologically confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive breast cancer based on the most recently",
+            "endpoints": [
+              "Progression-free Survival"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT03839823"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02996825",
+            "title": "A Phase I Dose-Escalation Safety and Tolerability Study of MirvetuximabSoravtansine (IMGN853) and Gemcitabine in Patients With FRa-positive Recurrent Ovarian, Primary Peritoneal, Fallopian Tube, Endometrial Cancer, or Triple Negative Breast Cancer (TNBC)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-03-22",
+            "completion_date": "2024-02-09",
+            "country": "United States",
+            "enrollment": 44,
+            "brief_summary": "This phase I trial studies the side effects and best dose of mirvetuximab soravtansine and gemcitabine hydrochloride in treating patients with folate receptor (FR) alpha-positive ovarian, primary peritoneal, fallopian tube, endometrial, or triple negative breast cancer that has come back. Mirvetuximab soravtansine is a monoclonal antibody, called mirvetuximab, linked to a chemotherapy drug called DM4. Mirvetuximab attaches to FOLR1 positive cancer cells in a targeted way and delivers DM4 to kill",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients must have one of the following pathologically documented recurrent tumor types with FRalpha positivity by the Ventana immunohistochemistry (IHC):\n\n  * Ovarian, primary peritoneal, fallopian tube (with exclusion of low grade, clear cell or sarcomatoid histologies f",
+            "endpoints": [
+              "Recommended phase II dose assessed by Common Terminology Criteria for Adverse Events version 4"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02996825"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00006459",
+            "title": "Phase III Study of Gemcitabine Plus Paclitaxel Versus Paclitaxel in Patients With Unresectable, Locally Recurrent or Metastatic Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2000-07",
+            "completion_date": "2005-10",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells. It is not yet known if paclitaxel is more effective with or without gemcitabine for advanced breast cancer.\n\nPURPOSE: Randomized phase III trial to study the effectiveness of paclitaxel with or without gemcitabine in treating women who have advanced breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Histologically or cytologically proven unresectable, locally recurrent, or metastatic breast cancer not amenable to surgery or radiotherapy of curative intent No inflammatory breast cancer unless evidence of metastatic disease No bone metastases, pleural effusion, or ascites",
+            "endpoints": [],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT00006459"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02282020",
+            "title": "A Phase III, Open Label, Randomised, Controlled, Multi-centre Study to Assess the Efficacy and Safety of Olaparib Monotherapy Versus Physician's Choice Single Agent Chemotherapy in the Treatment of Platinum Sensitive Relapsed Ovarian Cancer in Patients Carrying Germline BRCA1/2 Mutations.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-02-06",
+            "completion_date": "2022-07-19",
+            "country": "Spain, Canada, South Korea, Belgium, Brazil, Italy, Argentina, Israel, United States, Mexico, Czechia, Hungary, Poland",
+            "enrollment": 266,
+            "brief_summary": "Comparison of olaparib vs. physician's choice of single agent standard of care non-platinum based chemotherapy in patients with germline Breast Cancer susceptibility gene (gBRCA) mutated ovarian cancer who have progressed at least 6 months after the last platinum based chemotherapy. Patient should have received at least 2 prior lines of platinum based chemotherapy. The aim of the study is to assess the efficacy and safety of olaparib tablets.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must be ≥ 18 years of age\n* Patients with histologically diagnosed relapsed high grade serous ovarian cancer (including primary peritoneal and/or fallopian tube cancer) or high grade endometrioid cancer. Patients are eligible to undergo BRCA testing even if they have ",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT02282020"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01050322",
+            "title": "A Randomized Open-Label, Phase II Study of Lapatinib-capecitabine or Lapatinib-vinorelbine or Lapatinib/Gemcitabine in Subjects With Her2/Neu Amplified Metastatic Breast Cancer Patients Progression After Taxanes Treatment",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-11",
+            "completion_date": "2011-09",
+            "country": "Argentina, Peru, Brazil",
+            "enrollment": 142,
+            "brief_summary": "Despite these initial positive signals in recent statistics, breast cancer continues to claim a substantial number of lives approximately 500,000 deaths worldwide in 2005 Thus the current treatment paradigm - surgery, radiation and systemic chemo and or hormonal therapy and biological therapies -still fails to cure a significant number of women with early breast cancer and new treatment strategies are needed to improve current results both in early and advance disease.\n\nRecurrent or metastatic b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed informed consent must be obtained according to local ethical committee requirements.\n2. Subjects must be older than 18 years old.\n3. Histologically confirmed invasive adenocarcinoma of the breast which is stage IIIb, stage IIIc with T4 lesion, or stage IV disease \\[acc",
+            "endpoints": [
+              "Clinical benefit rate"
+            ],
+            "sponsor": "Latin American Cooperative Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT01050322"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06098378",
+            "title": "Retrospective Study of Patients With Thrombotic Microangiopathy Associated With Mitomycin C, Treated or Not With Eculizumab: Clinical Characteristics and and Outcome of These Patients",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2023-06-07",
+            "completion_date": "2025-06-07",
+            "country": "France",
+            "enrollment": 30,
+            "brief_summary": "Thrombotic microangiopathies (TMA) are defined as a triad combining mechanical hemolytic anemia, peripheral thrombocytopenia and ischemic organ damage.\n\nMitomycin C is an alkylating agent used as chemotherapy in adenocarcinomas of the breast, lung, pancreas, rectum and anal carcinoma. Mitomycin-C-induced TMA (m-TMA) is a potentially serious complication of chemotherapy: its estimated incidence ranges from 4 to 15% and its mortality exceeds 70%, with an estimated median survival of 2 months. This",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients (\\>=18 years)\n* Having received treatment with mitomycin C (regardless of the method of administration and indication) between 01/01/1990 and 12/31/2023\n* and having developed a picture of thrombotic microangiopathy attributed to mitomycin C:\n\n  * biological: de",
+            "endpoints": [
+              "Overall and renal survival after the m-TMA episode"
+            ],
+            "sponsor": "University Hospital, Strasbourg, France",
+            "url": "https://clinicaltrials.gov/study/NCT06098378"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02632448",
+            "title": "A Phase 1b/2a Three-Part Open-Label Multicenter Study to Evaluate the Safety and Efficacy of LY2880070 as Monotherapy and in Combination With Gemcitabine in Patients With Advanced or Metastatic Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-05-16",
+            "completion_date": "2025-04-14",
+            "country": "Canada, United States, Croatia, Poland",
+            "enrollment": 229,
+            "brief_summary": "The main purpose of this 3-part study is to evaluate the safety and efficacy of the study drug known as LY2880070 in participants with advanced or metastatic solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a performance status of 0 or 1 on the Eastern Cooperative Oncology Group (ECOG) scale\n* Have an estimated life expectancy of greater than or equal to (≥)12 weeks\n* Have adequate organ function\n* Have received 1-4 prior systemic therapies for locally advanced or metastatic",
+            "endpoints": [
+              "Maximum Tolerated Dose(s)"
+            ],
+            "sponsor": "Esperas Pharma Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02632448"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02046421",
+            "title": "Carboplatin, Gemcitabine, and Mifepristone for Advanced Breast Cancer and Recurrent or Persistent Epithelial Ovarian Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2018-05",
+            "country": "United States",
+            "enrollment": 31,
+            "brief_summary": "This phase I trial studies the side effects and best dose of gemcitabine hydrochloride and mifepristone when given together with carboplatin in treating patients with breast cancer that is metastatic or cannot be removed by surgery or recurrent or persistent ovarian epithelial, fallopian tube, or primary peritoneal cancer. Drugs used in chemotherapy, such as carboplatin and gemcitabine hydrochloride, work in different ways to stop the growth of tumor cells, either by killing the cells or by stop",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients are eligible if they have the following: metastatic or unresectable breast cancer, recurrent or persistent epithelial ovarian, fallopian tube, or primary peritoneal cancer\n* Ovarian cancer patients with both platinum-sensitive and platinum-resistant disease are eligib",
+            "endpoints": [
+              "MTD/RP2D, defined as < 1/6 patients at highest dose level below max administered dose or fewer than 33% of patients experiencing dose limiting toxicity (DLT), graded according to the Common Terminology Criteria for Adverse Events (CTCAE) version (v) 4.0"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT02046421"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03997968",
+            "title": "A Multi-Center, Open Label Phase 1/2 Study of CYT-0851 in Patients With Relapsed/Refractory B-Cell Malignancies and Advanced Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-10-09",
+            "completion_date": "2024-12-20",
+            "country": "United States",
+            "enrollment": 169,
+            "brief_summary": "This clinical trial is an interventional, active-treatment, open-label, multi-center, Phase 1/2 study. The study objectives are to assess the safety, tolerability and pharmacokinetics (PK) of CYT-0851 in patients with relapsed/refractory B-cell malignancies and advanced solid tumors and to identify a recommended Phase 2 dose as a monotherapy and in combination with chemotherapy for evaluation in these patients.",
+            "eligibility_criteria": "Key Phase 1 Inclusion Criteria\n\n1. Male or female ≥18 years of age at time of informed consent.\n\n   1. Female subjects of childbearing potential must be non-lactating, not pregnant as confirmed by a negative serum pregnancy test at most 30 days before enrollment and within 72 hours before the first ",
+            "endpoints": [
+              "Part A: Incidence of dose limiting toxicity",
+              "Part B: Objective response rate",
+              "Part C: Incidence of dose limiting toxicity"
+            ],
+            "sponsor": "Cyteir Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03997968"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00070278",
+            "title": "A Phase III Randomized Neoadjuvant Study of Sequential Epirubicin/Cyclophosphamide and Paclitaxel + - Gemcitabine in Poor Risk Early Breast Cancer",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2005-01",
+            "completion_date": "",
+            "country": "United Kingdom",
+            "enrollment": 800,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as epirubicin, cyclophosphamide, paclitaxel, and gemcitabine use different ways to stop tumor cells from dividing so they stop growing or die. Giving combination chemotherapy before surgery may shrink the tumor so that it can be removed during surgery. It is not yet known which combination chemotherapy regimen is more effective in treating early breast cancer.\n\nPURPOSE: This randomized phase III trial is studying different regimens of combination chemo",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed invasive breast cancer\n\n  * Grade 2 or 3\n* Tumor size at least 3 cm by ultrasound\n* No evidence of metastatic disease\n* Hormone receptor status:\n\n  * Not specified\n\nPATIENT CHARACTERISTICS:\n\nAge\n\n* Not specified\n\nSex\n\n* Female\n\nMenopausal status\n\n",
+            "endpoints": [
+              "Complete pathological response after 4 courses"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00070278"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00183794",
+            "title": "Phase II Clinical Trial of Docetaxel in Combination With Gemcitabine in Platinum-Resistant Ovarian Cancer and Primary Peritoneal Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2002-11",
+            "completion_date": "2010-05",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "This study is for patients with advanced ovarian cancer that has reappeared after treatment with conventional therapy. The purpose of this study is to determine if the combination of docetaxel and gemcitabine will be effective in reducing or eliminating the tumor(s) in patients with ovarian cancer.\n\nDocetaxel is approved by the Food and Drug Administration (FDA) for the treatment of breast and lung cancer; gemcitabine is approved by the FDA for the treatment of pancreatic and lung cancer. Neithe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically proven diagnosis of epithelial ovarian ca\n* Must have platinum-resistant disease. (Defined as progression during the most recent platinum-based chemotx or relapse \\< 6 months after the most recent platinum-based chemotx regimen.)\n* Measurable or evaluable diseas",
+            "endpoints": [
+              "Tumor Response Type: CR, PR, SD or PD"
+            ],
+            "sponsor": "University of Southern California",
+            "url": "https://clinicaltrials.gov/study/NCT00183794"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01178411",
+            "title": "An Extension Protocol for Subjects Who Were Previously Enrolled in Other Tivantinib (ARQ 197) Protocols",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-08-31",
+            "completion_date": "2019-01-14",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "This is an extension study that will allow participants to continue to receive study therapy when the original studies into which they were enrolled have reached their designated end-dates. This extension study is designed to further evaluate the safety and tolerability of tivantinib (ARQ 197) monotherapy or in combination with other drug(s) when given to participants who tolerated previous treatment well and may benefit from the continuing treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent to participate in clinical study of tivantinib\n* Male or female participants of the age defined in the original protocol they were enrolled.\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) ≤3 (or ≤2 for tivantinib-naive parti",
+            "endpoints": [
+              "Extent of Exposure to ARQ 197 in Participants Benefiting From Prior ARQ 197 Therapy"
+            ],
+            "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+            "url": "https://clinicaltrials.gov/study/NCT01178411"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02393248",
+            "title": "A Phase 1/2, Open-Label, Dose-Escalation, Safety and Tolerability Study of INCB054828 in Subjects With Advanced Malignancies (FIGHT-101)",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2015-02-27",
+            "completion_date": "2021-12-17",
+            "country": "Denmark, United States",
+            "enrollment": 201,
+            "brief_summary": "The purpose of this study will be to evaluate the safety, tolerability, and pharmacological activity of pemigatinib in subjects with advanced malignancies. This study will have three parts, dose escalation (Part 1), dose expansion (Part 2) and combination therapy (Part 3).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female subjects, age 18 years or older on day of signing consent\n2. Part 1: Any advanced solid tumor malignancy; Part 2: Subjects with squamous non-small cell lung cancer, cholangiocarcinoma/gastric cancer, urothelial cancer, breast/endometrial cancer, multiple myelom",
+            "endpoints": [
+              "Parts 1 and 2 Combined: Number of Participants With Any Treatment-emergent Adverse Event (TEAE)",
+              "Part 3: Number of Participants With Any TEAE",
+              "E0 Following Once Daily Dosing of Pemigatinib as Monotherapy in Parts 1 and 2"
+            ],
+            "sponsor": "Incyte Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT02393248"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00005991",
+            "title": "Phase I/II Study of Gemcitabine and Doxil Combination Chemotherapy in Patients With Advanced Solid Tumors (Phase I)/Breast Cancer (Phase II)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "1997-08-25",
+            "completion_date": "2003-02-14",
+            "country": "United States",
+            "enrollment": 76,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of gemcitabine and liposomal doxorubicin in treating women who have metastatic breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Histologically confirmed metastatic breast cancer Bidimensionally measurable disease No uncontrolled brain metastases or leptomeningeal disease Brain metastases treated with surgery and/or radiotherapy allowed if neurologic status is stable two weeks after last dose of dexam",
+            "endpoints": [],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00005991"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01352494",
+            "title": "A Multi-center Phase II Trial to Evaluate the Efficacy and Safety of Neoadjuvant Chemotherapy With DoceTaxel(Doxotel) and Gemcitabine(Gemcibine)in Locally Advanced Breast Cancer",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2011-05",
+            "completion_date": "2015-05",
+            "country": "South Korea",
+            "enrollment": 99,
+            "brief_summary": "The purpose of this study is to assess the response of docetaxel and gemcitabine in the neoadjuvant setting in women with locally advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Women aged : 20\\~70 years\n2. World Health Organization (WHO) (Eastern Cooperative Oncology Group \\[ECOG\\]) performance status 0-2\n3. Patients with measurable lesion assessed by imaging using the RECIST (Response Evaluation Criteria In Solid Tumor) guideline\n4. Have given writ",
+            "endpoints": [
+              "Complete remission rate was assessed by pathologic examination after surgery."
+            ],
+            "sponsor": "Korean Breast Cancer Study Group",
+            "url": "https://clinicaltrials.gov/study/NCT01352494"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00244933",
+            "title": "Phase II Trial of Gemcitabine and Genistein in Metastatic Breast Cancer Patients With Biomarker Assays",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-02",
+            "completion_date": "2009-10",
+            "country": "United States",
+            "enrollment": 19,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as gemcitabine hydrochloride and genistein, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving gemcitabine hydrochloride together with genistein may kill more tumor cells.\n\nPURPOSE: This phase II trial is studying how well giving gemcitabine hydrochloride together with genistein works in treating women with stage IV breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed breast cancer\n\n  * Stage IV disease\n  * Clinical and/or radiological evidence of metastatic disease\n* Measurable disease\n\n  * Prior radiotherapy allowed provided there is ≥ 1 measurable disease site outside the radiation field\n* N",
+            "endpoints": [
+              "Objective Response Rate by RECIST Criteria Following"
+            ],
+            "sponsor": "Barbara Ann Karmanos Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00244933"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "12138397",
+            "title": "Gemcitabine and targeted therapy in metastatic breast cancer.",
+            "abstract": "Gemcitabine, a new cytotoxic nucleoside analog, has demonstrable single-agent antitumor activity in metastatic breast cancer. Recently, nearly 20 phase II clinical trials of gemcitabine alone or as part of combination therapy have confirmed its role in this disease. As a single agent, gemcitabine leads to response rates ranging from 16% to 37% in either first-line and/or refractory settings. Combined with platinum, taxanes, vinorelbine, and anthracyclines as doublets or triplets, response rates in the range of 50% to 80% have been reported in small phase II clinical trials. The relatively mild toxicity profile of gemcitabine makes it an attractive agent to evaluate in combination with targeted drugs such as trastuzumab, tyrosine kinase inhibitors, and angiogenesis inhibitors, among others. In this review we summarize current available data of gemcitabine in the management of metastatic breast cancer, and provide a perspective of gemcitabine in future clinical research for management of",
+            "journal": "Seminars in oncology",
+            "year": "2002",
+            "authors": [
+              "Qu Guangzhi",
+              "Perez Edith A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Docetaxel",
+              "Female",
+              "Humans",
+              "Neoplasm Metastasis",
+              "Paclitaxel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12138397/"
+          },
+          {
+            "pmid": "14754468",
+            "title": "Gemcitabine and platinum combinations in patients with breast cancer previously treated with anthracyclines and/or taxanes.",
+            "abstract": "As anthracycline-based regimens have become a standard treatment and are frequently used in the adjuvant therapy of breast cancer, the number of anthracycline-resistant cancers has begun to increase. Taxanes have also become more commonly used in the first-line metastatic and adjuvant setting, producing a need for new treatment options that are not cross-resistant with anthracyclines or taxanes and that have a relative non-overlapping toxicity profile with these agents. The combination of gemcitabine/cisplatin has been shown to have synergistic cytotoxic activity in vitro in breast cancer cell lines. In addition, several phase II trials have suggested that this combination is feasible and active in patients who have received prior anthracycline and/or taxane therapy.",
+            "journal": "Clinical breast cancer",
+            "year": "2004",
+            "authors": [
+              "Perez Edith A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anthracyclines",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Bridged-Ring Compounds",
+              "Carboplatin",
+              "Cisplatin",
+              "Clinical Trials as Topic",
+              "Deoxycytidine",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14754468/"
+          },
+          {
+            "pmid": "34580061",
+            "title": "ALDH1A1 Activity in Tumor-Initiating Cells Remodels Myeloid-Derived Suppressor Cells to Promote Breast Cancer Progression.",
+            "abstract": "Tumor-initiating cells (TIC) are associated with tumor initiation, growth, metastasis, and recurrence. Aldehyde dehydrogenase 1A1 (ALDH1A1) is a TIC marker in many cancers, including breast cancer. However, the molecular mechanisms underlying ALDH1A1 functions in solid tumors remain largely unknown. Here we demonstrate that ALDH1A1 enzymatic activity facilitates breast tumor growth. Mechanistically, ALDH1A1 decreased the intracellular pH in breast cancer cells to promote phosphorylation of TAK1, activate NFκB signaling, and increase the secretion of GM-CSF, which led to myeloid-derived suppressor cell expansion and immunosuppression. Furthermore, the ALDH1A1 inhibitor disulfiram and chemotherapeutic agent gemcitabine cooperatively inhibited breast tumor growth and tumorigenesis by purging ALDH+ TICs and activating T-cell immunity. These findings elucidate how active ALDH1A1 modulates the immune system to promote tumor development, highlighting new therapeutic strategies for malignant b",
+            "journal": "Cancer research",
+            "year": "2021",
+            "authors": [
+              "Liu Cuicui",
+              "Qiang Jiankun",
+              "Deng Qiaodan",
+              "Xia Jie",
+              "Deng Lu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aldehyde Dehydrogenase 1 Family",
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Biomarkers, Tumor",
+              "Breast Neoplasms",
+              "Cell Movement",
+              "Cell Proliferation",
+              "Deoxycytidine",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34580061/"
+          },
+          {
+            "pmid": "40779028",
+            "title": "Carboplatin, gemcitabine, and mifepristone for advanced breast and recurrent/persistent epithelial ovarian cancer.",
+            "abstract": "Preclinical models of glucocorticoid receptor (GR)-positive breast cancer (BC) and ovarian cancer (OC) suggest GR activity inhibits chemotherapy-induced apoptosis, and GR antagonism using mifepristone (Mif) enhances cytotoxicity. We performed a phase I trial combining mifepristone, carboplatin (C), gemcitabine (G).",
+            "journal": "Breast cancer research and treatment",
+            "year": "2025",
+            "authors": [
+              "Stringer-Reasor Erica M",
+              "Saha Poornima",
+              "Kocherginsky Masha",
+              "Lastra Ricardo",
+              "Baker Gabrielle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase I"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carboplatin",
+              "Carcinoma, Ovarian Epithelial",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40779028/"
+          },
+          {
+            "pmid": "38262235",
+            "title": "A phase I study of Mirvetuximab Soravtansine and gemcitabine in patients with FRα-positive recurrent ovarian, primary peritoneal, fallopian tube, or endometrial cancer, or triple negative breast cancer.",
+            "abstract": "Platinum-resistant epithelial ovarian cancer (EOC), recurrent endometrial cancer (EC), and triple negative breast cancer (TNBC) are difficult to treat after failing standard therapies. This phase I study evaluated mirvetuximab soravtansine (MIRV) and gemcitabine in patients with recurrent FRα-positive EOC, EC, or TNBC to determine the maximum tolerated dose (MTD)/recommended phase 2 dose (RP2D) (primary endpoint).",
+            "journal": "Gynecologic oncology",
+            "year": "2024",
+            "authors": [
+              "Cristea Mihaela C",
+              "Stewart Daphne",
+              "Synold Timothy",
+              "Ruel Nora",
+              "Mortimer Joanne"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Gemcitabine",
+              "Ovarian Neoplasms",
+              "Triple Negative Breast Neoplasms",
+              "Fallopian Tubes",
+              "Neoplasm Recurrence, Local",
+              "Carcinoma, Ovarian Epithelial",
+              "Endometrial Neoplasms",
+              "Diarrhea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38262235/"
+          },
+          {
+            "pmid": "14768404",
+            "title": "Gemcitabine, anthracycline, and taxane combinations for advanced breast cancer.",
+            "abstract": "In patients with advanced breast cancer, treatment with paclitaxel and doxorubicin has been shown to produce impressive overall response rates (up to 94%) and to prolong overall survival significantly over a combination of fluorouracil (5-FU), doxorubicin, and cyclophosphamide (Cytoxan, Neosar) in one prospective phase III clinical study. These results have been challenged, however, by other data demonstrating no survival advantage for taxane-based therapies. In addition, the combination of paclitaxel and doxorubicin has repeatedly been shown to be complicated by the development of treatment-related congestive heart failure, when cumulative doxorubicin doses exceed 300-360 mg/m2. Consequently, attempts have been made to increase the complete remission rate and overall survival resulting from first-line treatment of metastatic breast cancer without compromising patient safety. Gemcitabine (Gemzar)--a relatively effective, well-tolerated and partially non-cross-resistant antitumor compou",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2003",
+            "authors": [
+              "Zielinski Christoph C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anthracyclines",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Bridged-Ring Compounds",
+              "Clinical Trials, Phase II as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14768404/"
+          },
+          {
+            "pmid": "14719116",
+            "title": "Rationale for the use of gemcitabine in breast cancer (Review).",
+            "abstract": "Many active cytotoxic drugs and several regimens exist for breast cancer therapy. However, these conventional treatments have not changed the outcome of patients with locally advanced and metastatic disease. As a consequence, the dynamic balance between chemotherapy-induced side effects and benefits attributable to relief of cancer-related symptoms must be carefully considered in this setting. Gemcitabine is a pyrimidine nucleoside antimetabolite that has shown activity in a variety of solid tumors, a good toxicity profile, and non-overlapping toxicity with other chemotherapeutic drugs. As a single agent, gemcitabine yields response rates ranging from 14 to 37% as first-line treatment for advanced breast cancer and 12-30% as salvage therapy for patients previously treated with anthracycline and/or taxane treatment. Combined with vinorelbine, platinum, anthracyclines, and taxanes as doublets or triplets, response rates of 50 to 80% have been reported in phase II clinical studies. Gemcit",
+            "journal": "International journal of oncology",
+            "year": "2004",
+            "authors": [
+              "Silvestris N",
+              "D'Aprile M",
+              "Andreola G",
+              "Locopo N",
+              "Marini L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Cisplatin",
+              "Clinical Trials as Topic",
+              "Deoxycytidine",
+              "Docetaxel",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14719116/"
+          },
+          {
+            "pmid": "15685821",
+            "title": "Gemcitabine and platinum-based chemotherapy in metastatic breast cancer.",
+            "abstract": "Although anthracyclines and the taxanes comprise the most active first-line cytotoxic treatments in patients with hormone-insensitive or life-threatening metastatic breast cancer, many patients progress and require other chemotherapeutic agents. Development of new combinations and/or agents is thus needed. Gemcitabine (Gemzar) and platinum compounds have been employed as single agents, and the addition of gemcitabine to the platinums results in significant clinical benefit and response rates. Correlative biologic studies are expected from several already-reported trials and may help elucidate predictive factors for both response and toxicity when combining gemcitabine and the platinums. Trials incorporating these doublets in earlier stages of breast cancer or in the neoadjuvant setting may further elucidate their role in breast cancer treatment.",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2004",
+            "authors": [
+              "Li Hsiao C",
+              "Russell Christy A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents, Phytogenic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carboplatin",
+              "Cisplatin",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Deoxycytidine",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15685821/"
+          },
+          {
+            "pmid": "24295415",
+            "title": "Liposomal chemotherapeutics.",
+            "abstract": "Currently, six liposomal chemotherapeutics have received clinical approval and many more are in clinical trials or undergoing preclinical evaluation. Liposomes exhibit low toxicity and improve the biopharmaceutical features and therapeutic index of drugs, thereby increasing efficacy and reducing side effects. In this review we discuss the advantages of using liposomes for the delivery of chemotherapeutics. Gemcitabine and paclitaxel have been chosen as examples to illustrate how the performance of a metabolically unstable or poorly water-soluble drug can be greatly improved by liposomal incorporation. We look at the beneficial effects of liposomes in a variety of solid and blood-borne tumors, including thyroid cancer, pancreatic cancer, breast cancer and multiple myeloma.",
+            "journal": "Future oncology (London, England)",
+            "year": "2013",
+            "authors": [
+              "Gentile Emanuela",
+              "Cilurzo Felisa",
+              "Di Marzio Luisa",
+              "Carafa Maria",
+              "Ventura Cinzia Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Deoxycytidine",
+              "Doxorubicin",
+              "Drug Delivery Systems",
+              "Female",
+              "Humans",
+              "Liposomes",
+              "Multiple Myeloma",
+              "Paclitaxel",
+              "Pancreatic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24295415/"
+          },
+          {
+            "pmid": "12057039",
+            "title": "Preclinical studies of gemcitabine and trastuzumab in breast and lung cancer cell lines.",
+            "abstract": "Overexpression of the HER2/neu oncogene and receptor protein has been reported in 20%-30% of patients with breast cancer and is associated with a poor prognosis. HER2/neu expression in breast cancer patients assessed by fluorescence in situ hybridization or immunohistochemistry is a predictor for response to trastuzumab, a humanized monoclonal antibody against the HER2/neu cell-surface protein. Data regarding HER2/neu expression in lung cancer are more limited, and there is little information regarding HER2/neu expression and response to trastuzumab alone or in combination with chemotherapeutic agents. Gemcitabine is an active agent against non-small-cell lung cancer (NSCLC) and has demonstrated activity in breast cancer as well. In vitro modified tetrazolium salt growth assays were performed to determine whether the combination of trastuzumab/gemcitabine produced synergistic or additive effects on breast and lung cancer cell lines. The effects of trastuzumab alone, gemcitabine alone, ",
+            "journal": "Clinical breast cancer",
+            "year": "2002",
+            "authors": [
+              "Hirsch Fred R",
+              "Helfrich Barbara",
+              "Franklin Wilbur A",
+              "Varella-Garcia Marileila",
+              "Chan Daniel C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Small Cell",
+              "Deoxycytidine",
+              "Drug Evaluation, Preclinical",
+              "Drug Synergism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12057039/"
+          },
+          {
+            "pmid": "15685819",
+            "title": "Gemcitabine and paclitaxel in metastatic breast cancer: a review.",
+            "abstract": "Gemcitabine (Gemzar) and paclitaxel are active drugs in the treatment of metastatic breast cancer. Phase I clinical trials data have suggested that the gemcitabine plus paclitaxel combination is safe in breast cancer patients. Two doses/administration schedules have been preferred in subsequent phase II and III trials: gemcitabine on days 1 and 8 plus a taxane on day 1, every 3 weeks; or gemcitabine plus a taxane on days 1 and 14, every 4 weeks. In phase II trials, 114 of 221 patients (52%) responded to gemcitabine/paclitaxel therapy. Response rates were lower among patients who received previous chemotherapy for metastatic disease (response rates: 45%, second line and 70%, first line). Toxicity of gemcitabine/paclitaxel regimens has generally been low, with few cases of neutropenia or nonhematologic toxicity. Results of the randomized phase III registration trial show a clear advantage for gemcitabine plus paclitaxel over paclitaxel alone in time to disease progression, objective resp",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2004",
+            "authors": [
+              "Colomer Ramon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anthracyclines",
+              "Antibiotics, Antineoplastic",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents, Phytogenic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Deoxycytidine",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15685819/"
+          },
+          {
+            "pmid": "15685824",
+            "title": "Gemcitabine in combination with trastuzumab and/or platinum salts in breast cancer cells with HER2 overexpression.",
+            "abstract": "Trastuzumab (Herceptin) is an effective treatment in patients with HER2-overexpressing metastatic breast cancer. Risk of trastuzumab-induced cardiotoxicity raises concerns regarding combined use with anthracyclines or other potentially cardiotoxic agents following anthracycline treatment. We characterized interactions between trastuzumab and gemcitabine (Gemzar) and the combination of gemcitabine and cisplatin or carboplatin (Paraplatin) as such combinations might help reduce the risk of cardiotoxicity. Multiple drug effect/combination index isobologram analysis was used to study the efficacy of chemotherapeutic drug plus trastuzumab combinations in HER2-overexpressing breast cancer cell lines. Combination index values were derived from parameters of the median effect plots, and statistical tests were used to determine whether the mean combination index at multiple effect levels significantly differed from a combination index value of 1.0 (values < 1.0 indicate synergy; values > 1.0, a",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2004",
+            "authors": [
+              "Konecny Gottfried E",
+              "Pegram Mark D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carboplatin",
+              "Cell Line, Tumor",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Drug Antagonism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15685824/"
+          },
+          {
+            "pmid": "12057038",
+            "title": "Overview: gemcitabine as single-agent therapy for advanced breast cancer.",
+            "abstract": "Breast cancer is one of the most common cancers worldwide. Various therapies, such as hormonal therapy, chemotherapy, and biologic therapies, can increase cure rates in the early-stage setting and improve survival and quality of life in specific advanced-disease settings. For advanced disease, the optimal timing, type, and combination of drugs remain to be defined. Gemcitabine is a newer agent with a unique mode of action that involves DNA chain termination and mechanisms that result in self-potentiation. This results in a broad spectrum of activity in many types of solid tumors including breast cancer. As a single agent, gemcitabine yields response rates ranging from 14%-37% as first-line therapy for advanced breast cancer and 23%-42% as salvage therapy. However, these were small studies with large confidence intervals around all the indices of benefit including response rate, response duration, and time to disease progression. Gemcitabine was associated with higher response rates whe",
+            "journal": "Clinical breast cancer",
+            "year": "2002",
+            "authors": [
+              "Tripathy Debu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Breast Neoplasms",
+              "Clinical Trials, Phase II as Topic",
+              "Deoxycytidine",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Neoplasm Metastasis",
+              "Ribonucleotide Reductases",
+              "Survival Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12057038/"
+          },
+          {
+            "pmid": "25398698",
+            "title": "Docetaxel, gemcitabine and bevacizumab as salvage chemotherapy for HER-2-negative metastatic breast cancer.",
+            "abstract": "To evaluate the activity and safety of the docetaxel, gemcitabine and bevacizumab combination, administered biweekly, in pretreated patients with HER-2-negative metastatic breast cancer (MBC).",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2015",
+            "authors": [
+              "Kontopodis E",
+              "Kentepozidis N",
+              "Christophyllakis Ch",
+              "Boukovinas I",
+              "Kalykaki A"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Breast",
+              "Breast Neoplasms",
+              "Cohort Studies",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25398698/"
+          },
+          {
+            "pmid": "19856651",
+            "title": "Docetaxel and gemcitabine in the treatment of metastatic breast carcinoma: a dose finding study.",
+            "abstract": "Patients with metastatic breast cancer previously treated with anthracyclines for advanced disease are usually refractory to any further treatment with anthracyclines and have a poor prognosis. Therefore, new drugs or new combinations of drugs are needed. One approach has been to focus on the type of chemotherapy with low toxicity that preserves quality of life during treatment, such as weekly drug administration.",
+            "journal": "Tumori",
+            "year": "2009",
+            "authors": [
+              "Leonardi Vita",
+              "Palmisano Valentina",
+              "Pepe Alessio",
+              "Usset Antonella",
+              "Manuguerra Giovanna"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carcinoma",
+              "Deoxycytidine",
+              "Docetaxel",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19856651/"
+          },
+          {
+            "pmid": "26372358",
+            "title": "Genomic signatures for paclitaxel and gemcitabine resistance in breast cancer derived by machine learning.",
+            "abstract": "Increasingly, the effectiveness of adjuvant chemotherapy agents for breast cancer has been related to changes in the genomic profile of tumors. We investigated correspondence between growth inhibitory concentrations of paclitaxel and gemcitabine (GI50) and gene copy number, mutation, and expression first in breast cancer cell lines and then in patients. Genes encoding direct targets of these drugs, metabolizing enzymes, transporters, and those previously associated with chemoresistance to paclitaxel (n = 31 genes) or gemcitabine (n = 18) were analyzed. A multi-factorial, principal component analysis (MFA) indicated expression was the strongest indicator of sensitivity for paclitaxel, and copy number and expression were informative for gemcitabine. The factors were combined using support vector machines (SVM). Expression of 15 genes (ABCC10, BCL2, BCL2L1, BIRC5, BMF, FGF2, FN1, MAP4, MAPT, NFKB2, SLCO1B3, TLR6, TMEM243, TWIST1, and CSAG2) predicted cell line sensitivity to paclitaxel wi",
+            "journal": "Molecular oncology",
+            "year": "2016",
+            "authors": [
+              "Dorman Stephanie N",
+              "Baranova Katherina",
+              "Knoll Joan H M",
+              "Urquhart Brad L",
+              "Mariani Gabriella"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Deoxycytidine",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Humans",
+              "Machine Learning",
+              "Paclitaxel",
+              "Support Vector Machine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26372358/"
+          },
+          {
+            "pmid": "12722022",
+            "title": "Gemcitabine and trastuzumab in metastatic breast cancer.",
+            "abstract": "The background, rationale, and preliminary results of a phase II trial of gemcitabine plus trastuzumab in heavily pretreated metastatic breast cancer patients are presented. Gemcitabine and trastuzumab both exhibit single-agent activity in previously treated metastatic breast cancer. Preclinical studies of gemcitabine and trastuzumab in combination showed additive or synergistic antitumor effects in human breast cancer cell lines that overexpress HER2. A multicenter phase II trial was thus conducted to define the safety and efficacy of gemcitabine/trastuzumab in patients previously treated for metastatic breast cancer. Women with measurable metastatic breast cancer whose primary or secondary tumor overexpressed HER2 were eligible for inclusion. Gemcitabine 1,200 mg/m(2) was administered on days 1 and 8 of a 21-day cycle. Trastuzumab was administered at a loading dose of 4 mg/kg initially, then at 2 mg/kg weekly thereafter. Preliminary analysis of 38 evaluable patients showed that gemci",
+            "journal": "Seminars in oncology",
+            "year": "2003",
+            "authors": [
+              "O'shaughnessy Joyce"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Deoxycytidine",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Neoplasm Metastasis",
+              "Erb-b2 Receptor Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12722022/"
+          },
+          {
+            "pmid": "15685820",
+            "title": "Gemcitabine and docetaxel in metastatic breast cancer.",
+            "abstract": "Use of the gemcitabine (Gemzar) plus docetaxel (Taxotere) combination in metastatic breast cancer is motivated by the different mechanisms of action of the drugs, partially nonoverlapping toxicity profiles, and good single-agent activities of both drugs in treatment-naive and anthracycline-pretreated patients. In phase II trials, combinations of gemcitabine at 900 or 1,000 mg/m2 on days 1 and 8 and docetaxel at 75 to 100 mg/m2 on either day 1 or day 8 every 3 weeks, or gemcitabine at 800 mg/m2 on days 1, 8, and 15 and docetaxel at 35 mg/m2 on days 1, 8, and 15 or 100 mg/m2 on day 1 every 4 weeks, have produced response rates of 36% to 79% in patients receiving primarily second-line treatment; response rates were greater than 50% in five of six studies. In phase II trials using every-2-week regimens of gemcitabine at 1,500 or 2,000 mg/m2 on day 1 and docetaxel at 50 or 65 mg/m2 on day 1 or 55 mg/m2 on day 8, response rates were 50% in pretreated patients and 66% in treatment-naive patie",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2004",
+            "authors": [
+              "Seidman Andrew D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents, Phytogenic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Deoxycytidine",
+              "Docetaxel",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15685820/"
+          },
+          {
+            "pmid": "30076320",
+            "title": "Thymoquinone synergizes gemcitabine anti-breast cancer activity via modulating its apoptotic and autophagic activities.",
+            "abstract": "The use of anti-cancer adjuvant therapy is rationalized by potentiating the efficacy, and/or protecting from major side effects of chemotherapeutics. Thymoquinone (TQ) is a naturally occurring compound with cumulative evidence of anti-cancer properties. In this study, we assessed the chemomodulatory potential of TQ to gemcitabine (GCB) against human breast adenocarcinoma (MCF-7), and ductal carcinoma (T47D) cells. TQ showed cytotoxic effects against MCF-7 and T47D with IC50's of 64.9 ± 14 µM and 165 ± 2 µM, respectively. The IC50's of GCB against MCF-7 and T47D were 0.9 ± 0.18 µM and 14.3 ± 2.8 µM and were significantly reduced after combination with TQ to 0.058 ± 12 µM and 2.3 ± 0.2 µM, respectively. The CI- values were indicative of synergism in MCF-7 and T47D cells (0.15 and 0.30, respectively). Further investigation showed that GCB caused significant anti-proliferative effect reflected by increasing cell population in S-phase in both cell lines. TQ potentiated GCB-induced anti-prol",
+            "journal": "Scientific reports",
+            "year": "2018",
+            "authors": [
+              "Bashmail Hanan A",
+              "Alamoudi Aliaa A",
+              "Noorwali Abdulwahab",
+              "Hegazy Gehan A",
+              "AJabnoor Ghada"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Autophagy",
+              "Benzoquinones",
+              "Biomarkers, Tumor",
+              "Breast Neoplasms",
+              "Cell Cycle",
+              "Cell Line, Tumor",
+              "Deoxycytidine",
+              "Drug Synergism",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30076320/"
+          },
+          {
+            "pmid": "38472166",
+            "title": "Serum exosomal miR-3662 down-regulates the expression of RBMS3 to promote malignant progression and gemcitabine resistance of breast cancer cells.",
+            "abstract": "Breast cancer (BC) is a prevalent malignancy among women worldwide. As an anticancer drug of pyrimidine nucleoside analogs, gemcitabine can be used to treat BC, but its clinical application is restricted due to drug resistance. This study investigated the effect of serum exosomal microRNA-3662 (miR-3662) on gemcitabine resistance in BC cells by targeting RNA-Binding Motif Single-Stranded Interacting Protein 3 (RBMS3) and related molecular mechanisms. We performed the bioinformatics analyses on the differential miRNAs in BC and predicted the downstream regulators. Quantitative real-time polymerase chain reaction was conducted to determine miR-3662 and RBMS3 expression, while dual luciferase was conducted to confirme the regulatory relationship between them. Flow cytometry, cell counting kit-8, and transwell assays were applied to assess apoptosis, cell viability, invasion, and migration. The expression of marker proteins (TSG101, CD63, and CD81) in patients' serum exosomes was evaluated",
+            "journal": "Chemical biology & drug design",
+            "year": "2024",
+            "authors": [
+              "Li Xiang",
+              "Chu Xu",
+              "Wang Hao",
+              "Xiang Ling",
+              "Yue Xuandi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Gemcitabine",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "MicroRNAs",
+              "Luciferases",
+              "Cell Proliferation",
+              "Trans-Activators",
+              "RNA-Binding Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38472166/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rectum mucinous adenocarcinoma",
+        "txgnn_score": 0.9976748824119568,
+        "txgnn_rank": 3820,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01643499",
+            "title": "A Genotype-guided Dosing Study of mFOLFIRINOX in Previously Untreated Patients With Advanced Gastrointestinal Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-03-26",
+            "completion_date": "2019-07",
+            "country": "United States",
+            "enrollment": 79,
+            "brief_summary": "This study is being done to determine the dose of a chemotherapy drug (irinotecan \\[irinotecan hydrochloride\\]) that can be tolerated as part of a combination of drugs. There is a combination of chemotherapy drugs often used to treat gastrointestinal cancer, which consists of 5-FU (fluorouracil), leucovorin (leucovorin calcium), irinotecan and oxaliplatin and is known as \"FOLFIRINOX\". FOLFIRINOX is a current drug therapy combination (or regimen) used for people with advanced pancreatic cancer, a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed locally advanced or metastatic pancreatic adenocarcinoma, colorectal adenocarcinoma, gastric adenocarcinoma, cholangiocarcinoma, gall bladder adenocarcinoma, ampullary carcinoma, adenocarcinoma of unclear primary (with a gastrointestin",
+            "endpoints": [
+              "DLT rate in course 1 for each of the two most common genotype groups (*1*1 and *1*28)"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT01643499"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colon mucinous adenocarcinoma",
+        "txgnn_score": 0.9976296424865724,
+        "txgnn_rank": 3871,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03210298",
+            "title": "Multicenter, International Online Documentation of Indications and Results of Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC Und PITAC) for Treating Malignant Peritoneal and Pleural Diseases",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2016-01",
+            "completion_date": "2022-09",
+            "country": "Switzerland, Australia, Spain, France, Belgium, Austria, Argentina, Germany, Denmark, Italy, Russia, Singapore, Poland",
+            "enrollment": 1000,
+            "brief_summary": "Multicentric, international, web-based prospective documentation of the indications and results of Pressurized Aerosol Chemotherapy (so-called PIPAC or PITAC) for treating malignant pleural and peritoneal diseases. Indication is decided by the treating physician. There are no predefined inclusion or exclusion criteria.",
+            "eligibility_criteria": "Inclusion criteria:\n\n* verified peritoneal metastasis\n* colorectal cancer\n* ovarian cancer\n* gastric cancer\n* appendical cancer\n* pseudomyxoma peritonei\n* malignant mesothelioma\n* pancreatic cancer\n* gallbladder cancer\n* small bowel cancer\n\nExclusion criteria\n\n\\- bowel obstruction",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "University of Magdeburg",
+            "url": "https://clinicaltrials.gov/study/NCT03210298"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01643499",
+            "title": "A Genotype-guided Dosing Study of mFOLFIRINOX in Previously Untreated Patients With Advanced Gastrointestinal Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-03-26",
+            "completion_date": "2019-07",
+            "country": "United States",
+            "enrollment": 79,
+            "brief_summary": "This study is being done to determine the dose of a chemotherapy drug (irinotecan \\[irinotecan hydrochloride\\]) that can be tolerated as part of a combination of drugs. There is a combination of chemotherapy drugs often used to treat gastrointestinal cancer, which consists of 5-FU (fluorouracil), leucovorin (leucovorin calcium), irinotecan and oxaliplatin and is known as \"FOLFIRINOX\". FOLFIRINOX is a current drug therapy combination (or regimen) used for people with advanced pancreatic cancer, a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed locally advanced or metastatic pancreatic adenocarcinoma, colorectal adenocarcinoma, gastric adenocarcinoma, cholangiocarcinoma, gall bladder adenocarcinoma, ampullary carcinoma, adenocarcinoma of unclear primary (with a gastrointestin",
+            "endpoints": [
+              "DLT rate in course 1 for each of the two most common genotype groups (*1*1 and *1*28)"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT01643499"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26805374",
+            "title": "[A Case of Invasive Intraductal Papillary Mucinous Carcinoma, Penetrating the Stomach, Colon, and Jejunum].",
+            "abstract": "A 69-year-old woman was admitted to a nearby clinic complaining of abdominal pain. Abdominal CT showed a 10 cm diameter huge cystic lesion in the body and tail of the pancreas. The patient was referred to our institution for treatment. Endoscopic ultrasonography (EUS) revealed a cystic mass with a solid lesion. Endoscopic retrograde pancreatography(ERP) demonstrated mucous at the opening of the papilla of Vater and dilatation of the pancreatic duct with a solid nodule. Contrast radiography revealed a fistula from the tumor to the jejunum. A biopsy specimen from the lesion showed adenocarcinoma. Intraoperative findings showed a tumor occupying the pancreas body and tail with suspected invasion to the stomach, jejunum, and transverse colon. We performed distal pancreatectomy with partial resection of stomach, jejunum, and colon. Pathological findings showed an invasive type of IPMC, with invasion to the subserosal layer of the stomach and colon and the mucous layer of the jejunum. While ",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2015",
+            "authors": [
+              "Goto Tadahiro",
+              "Toyama Hirochika",
+              "Asari Sadaki",
+              "Terai Sachio",
+              "Kinoshita Hisoka"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Pancreatic Ductal",
+              "Chemotherapy, Adjuvant",
+              "Colon",
+              "Deoxycytidine",
+              "Drug Combinations",
+              "Duodenum",
+              "Fatal Outcome",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26805374/"
+          },
+          {
+            "pmid": "16957443",
+            "title": "Sister Mary Joseph's nodule as a presenting sign of internal malignancy.",
+            "abstract": "CASE 1: A 64-year-old, otherwise healthy woman was referred to the surgery clinic for a presumed umbilical hernia. On physical examination, a cutaneous nodule was noted on the umbilical region and the patient was referred to the dermatology clinic. The patient was reexamined and an erythematous nodule was observed in the umbilicus measuring 2.5 cm in diameter. The patient denied pain, change in bowel habits, or weight loss. There were no other abdominal masses, no sign of ascites, and no regional lymphadenopathy. A skin biopsy from the nodule showed mucinous adenocarcinoma. Immunohistochemical staining was positive for carcinoembryonic antigen, and negative for cytokeratin (CK)7 and CK20. These results were consistent with a Sister Mary Joseph's nodule and led to the diagnosis of an occult colon carcinoma. The patient had no risk factors for colorectal carcinoma. The patient underwent surgery in another hospital, and died 3 months after the initial diagnosis of Sister Mary Joseph's nod",
+            "journal": "Skinmed",
+            "year": "2006",
+            "authors": [
+              "Dodiuk-Gad Roni",
+              "Ziv Michael",
+              "Loven David",
+              "Schafer Jan",
+              "Shani-Adir Ayelet"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Skin Neoplasms",
+              "Umbilicus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16957443/"
+          },
+          {
+            "pmid": "28133201",
+            "title": "[Long-Term Survival in Response to Multimodality Therapy in a Patient with Invasive Pancreatic Cancer with Cyst Formation].",
+            "abstract": "The patient was a 61-year-old man. Computed tomography(CT)in April 2007 revealed a pancreatic cyst in the tail of the pancreas. Rapid enlargement was noted in November 2007, and the patient was referred to the surgery department. CT showed a cystic lesion containing a nodular shadow in the pancreatic tail. Tumor marker measurements yielded normal carcinoembryonic antigen(CEA)and carbohydrate antigen 19-9(CA19-9)levels, but the duke pancreatic monoclonal antigen type 2(DUPAN-2)level was elevated. A diagnosis of mucinous cystic neoplasm(MCN)of the pancreas was made in December 2007, and distal pancreatectomy and partial colectomy were performed. The pathological diagnosis was a mucinous pancreatic cyst in the pancreatic tail and a moderately differentiated tubular adenocarcinoma that had invaded the spleen and serosal adipose tissue of the transverse colon. No clear ovarian-type stroma was detected, and there was no definitive evidence of MCN. The postoperative course was favorable and c",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2016",
+            "authors": [
+              "Makino Hironobu",
+              "Kametaka Hisashi",
+              "Fukada Tadaomi",
+              "Seike Kazuhiro",
+              "Hasegawa Akio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Adenocarcinoma, Mucinous",
+              "Antimetabolites, Antineoplastic",
+              "Chemotherapy, Adjuvant",
+              "Cysts",
+              "Deoxycytidine",
+              "Fatal Outcome",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28133201/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "villoglandular endometrial endometrioid adenocarcinoma",
+        "txgnn_score": 0.9975923895835876,
+        "txgnn_rank": 3920,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endometrial mixed adenocarcinoma",
+        "txgnn_score": 0.9975923895835876,
+        "txgnn_rank": 3919,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22635030",
+            "title": "Gemcitabine for advanced endometrial cancer: a retrospective study of the Memorial sloan-Kettering Cancer Center experience.",
+            "abstract": "Gemcitabine is active in several gynecologic malignancies including ovarian cancer, cervical cancer, and uterine leiomyosarcoma. It has been used in an off-label setting for the treatment of advanced endometrial cancer, despite lack of published data showing efficacy. We performed a retrospective study to determine the progression-free survival and response rate of endometrial cancer patients treated with gemcitabine at Memorial Sloan-Kettering Cancer Center.",
+            "journal": "International journal of gynecological cancer : official journal of the International Gynecological Cancer Society",
+            "year": "2012",
+            "authors": [
+              "Grisham Rachel Nicole",
+              "Adaniel Christina",
+              "Hyman David M",
+              "Ma Weining",
+              "Iasonos Alexia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Clear Cell",
+              "Aged",
+              "Aged, 80 and over",
+              "Antimetabolites, Antineoplastic",
+              "CA-125 Antigen",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine",
+              "Endometrial Neoplasms",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22635030/"
+          },
+          {
+            "pmid": "14599858",
+            "title": "A phase II trial of three sequential doublets for the treatment of advanced müllerian malignancies.",
+            "abstract": "In an effort to improve the results of primary chemotherapy for müllerian malignancies a novel chemotherapy program was piloted that delivered three sequential chemotherapy doublets. The primary endpoints were surgically defined response rates and evaluation of toxicity.",
+            "journal": "Gynecologic oncology",
+            "year": "2003",
+            "authors": [
+              "Matulonis U",
+              "Campos S",
+              "Duska L",
+              "Fuller A",
+              "Berkowitz R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Combined Modality Therapy",
+              "Cystadenocarcinoma, Papillary",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine",
+              "Doxorubicin",
+              "Drug Administration Schedule",
+              "Endometrial Neoplasms",
+              "Fallopian Tube Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14599858/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endometrial mucinous adenocarcinoma",
+        "txgnn_score": 0.9975247979164124,
+        "txgnn_rank": 4002,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01652794",
+            "title": "A Phase 1 Study of Carboplatin and Gemcitabine Chemotherapy and Stereotactic Body Radiosurgery for the Palliative Treatment of Persistent or Recurrent Gynecologic Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "The purpose of this phase I study is to determine the highest dose of carboplatin and gemcitabine (gemcitabine hydrochloride) that can be given safely to subjects with gynecologic cancer, in combination with stereotactic body radiation therapy (SBRT). This dose is called the maximum tolerated dose (MTD). To determine the MTD, patients will receive different amounts of carboplatin and gemcitabine.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has diagnosis of a persistent or recurrent gynecologic cancer\n* Patient age is \\> 18 years.\n* Patient must have at least one abdominopelvic measurable site of disease as defined by 9.1.3;. A treatment planning 18F-FDG positron emission tomography and computed tomograph",
+            "endpoints": [
+              "Rate of acute grade 3-5 toxicities following carboplatin/gemcitabine hydrochloride and SBRT treatment graded based on CTCAE, version 4.0"
+            ],
+            "sponsor": "Case Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01652794"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19473054",
+            "title": "Gemcitabine and carboplatin treatment in patients with relapsing ovarian cancer.",
+            "abstract": "Despite progress in primary treatment of patients with advanced ovarian cancer, the majority develop recurrence of the disease. A platinum salt treatment, either as monotherapy or in combination with another cytostatic agent, is indicated for patients who have relapsed 6 or more months after primary treatment and thus have platinum-sensitive relapse. Because repeated use of paclitaxel treatment may lead to substantial neurotoxicity, the combination of gemcitabine with carboplatin represents a suitable treatment option, which is widely used in common clinical practice in the Czech Republic and Slovakia. This non-interventional, prospective study observed the effectiveness and tolerability of second-line treatment with gemcitabine and carboplatin in patients with platinum-sensitive relapse of ovarian cancer in routine clinical practice. The primary endpoint was to evaluate the survival and secondary endpoints were to evaluate time to disease progression, objective tumor response rate, an",
+            "journal": "Neoplasma",
+            "year": "2009",
+            "authors": [
+              "Sufliarsky J",
+              "Chovanec J",
+              "Svetlovska D",
+              "Minarik T",
+              "Packan T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Mucinous",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Carcinoma, Endometrioid",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine",
+              "Disease Progression"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19473054/"
+          },
+          {
+            "pmid": "21436695",
+            "title": "Pegylated liposomal doxorubicin and gemcitabine in a fixed dose rate infusion for the treatment of patients with poor prognosis of recurrent ovarian cancer: a phase Ib study.",
+            "abstract": "Pegylated liposomal doxorubicin (PLD) is currently the reference treatment for platinum-resistant ovarian cancer. The combination of PLD and gemcitabine and the administration of gemcitabine at a fixed dose rate infusion (FDRI) seem to have additive activity in this disease setting. We have launched a phase Ib study with the combination of FDRI gemcitabine followed by PLD in recurrent ovarian cancer with a platinum-free interval of less than 1 year, with parallel pharmacokinetic and pharmacogenetic studies.",
+            "journal": "International journal of gynecological cancer : official journal of the International Gynecological Cancer Society",
+            "year": "2011",
+            "authors": [
+              "Crespo Guillermo",
+              "Sierra Marta",
+              "Losa Raquel",
+              "Berros José Pablo",
+              "Villanueva Noemí"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Clear Cell",
+              "Adenocarcinoma, Mucinous",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine",
+              "Doxorubicin",
+              "Endometrial Neoplasms",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21436695/"
+          },
+          {
+            "pmid": "25374244",
+            "title": "Efficacy of permanent iodine-125 seed implants and gemcitabine chemotherapy in patients with platinum- resistant recurrent ovarian carcinoma.",
+            "abstract": "The aim of this study was to explore the efficacy and adverse reactions of CT-guided radioactive 125I-seed implantation treatment combined with chemotherapy for platinum-resistant recurrent ovarian carcinoma.",
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2014",
+            "authors": [
+              "Yang Hui",
+              "Liu Yu-Hui",
+              "Xu Liang",
+              "Liu Li-Heng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Mucinous",
+              "Antimetabolites, Antineoplastic",
+              "Brachytherapy",
+              "Chemoradiotherapy",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine",
+              "Drug Resistance, Neoplasm",
+              "Endometrial Neoplasms",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25374244/"
+          },
+          {
+            "pmid": "23698798",
+            "title": "Feasibility of adjuvant chemotherapy after pelvic exenteration for gynecologic malignancies.",
+            "abstract": "It is well documented that recurrence after pelvic exenteration remains high (up to 50%), and patients may require a prolonged period of recuperation following this aggressive surgery. We conducted a retrospective review to evaluate the feasibility of administering adjuvant chemotherapy after pelvic exenteration for gynecologic malignancies.",
+            "journal": "International journal of gynecological cancer : official journal of the International Gynecological Cancer Society",
+            "year": "2013",
+            "authors": [
+              "Andikyan Vaagn",
+              "Khoury-Collado Fady",
+              "Sandadi Samith",
+              "Tew William P",
+              "O'Cearbhaill Roisin E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Adenocarcinoma, Mucinous",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Camptothecin",
+              "Carcinoma, Squamous Cell",
+              "Chemotherapy, Adjuvant",
+              "Deoxycytidine",
+              "Endometrial Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23698798/"
+          },
+          {
+            "pmid": "23296063",
+            "title": "Improved survival trends in platinum-resistant patients with advanced ovarian, fallopian or peritoneal cancer treated with first-line paclitaxel/platinum chemotherapy: the impact of novel agents.",
+            "abstract": "The prognosis for patients with platinum-resistant advanced ovarian cancer remains poor. The impact of approved agents on survival has not been clarified during the last decade. We studied survival trends during the last 15 years in platinum-resistant patients treated with cytoreductive surgery followed by paclitaxel/platinum chemotherapy.",
+            "journal": "Oncology",
+            "year": "2013",
+            "authors": [
+              "Bamias Aristotle",
+              "Bamia Christine",
+              "Zagouri Flora",
+              "Kostouros Efthimios",
+              "Kakoyianni Konstantina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Clear Cell",
+              "Adenocarcinoma, Mucinous",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Cisplatin",
+              "Cystadenocarcinoma, Serous",
+              "Drug Resistance, Neoplasm",
+              "Endometrial Neoplasms",
+              "Fallopian Tube Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23296063/"
+          },
+          {
+            "pmid": "23886213",
+            "title": "Phase II clinical study on the GEMOX regimen as second- line therapy for advanced ovarian cancer.",
+            "abstract": "To investigate the effectiveness and adverse effects of gemcitabine by fixed-dose rate infusion plus oxaliplatin (GEMOX regimen) as second-line therapy for advanced ovarian cancer.",
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2013",
+            "authors": [
+              "Yuan Shao-Fei",
+              "Zhang Lian-Ping",
+              "Zhu Lin-Jia",
+              "Chen Wen-Jun",
+              "Zheng Wei-E"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Clear Cell",
+              "Adenocarcinoma, Mucinous",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Case-Control Studies",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine",
+              "Endometrial Neoplasms",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23886213/"
+          },
+          {
+            "pmid": "23725151",
+            "title": "Treatment outcomes of paclitaxel for refractory or recurrent epithelial ovarian cancer patients in Thailand.",
+            "abstract": "To study the response rate, toxicity profiles, and survival of refractory or recurrent epithelial ovarian cancer (EOC) patients treated with paclitaxel.",
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2013",
+            "authors": [
+              "Pitakkarnkul Supakorn",
+              "Tangjitgamol Siriwan",
+              "Srijaipracharoen Sunamchok",
+              "Manusirivithaya Sumonmal",
+              "Pataradool Kamol"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Clear Cell",
+              "Adenocarcinoma, Mucinous",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Body Mass Index",
+              "Carboplatin",
+              "Carcinoma, Transitional Cell",
+              "Cisplatin",
+              "Cyclophosphamide",
+              "Cystadenocarcinoma, Serous",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23725151/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical mucinous adenocarcinoma",
+        "txgnn_score": 0.9974721074104308,
+        "txgnn_rank": 4054,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04683939",
+            "title": "Phase I/IIa, First-in-human, Open-label, Dose Escalation Trial With Expansion Cohorts to Evaluate Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of BNT141 as a Monotherapy and in Combination With Other Anti-cancer Agents in Patients With CLDN18.2-positive Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-01-18",
+            "completion_date": "2023-07-24",
+            "country": "Canada, United States",
+            "enrollment": 13,
+            "brief_summary": "This study was planned as an open-label, multi-site, Phase I/IIa dose escalation, safety, and pharmacokinetic (PK) trial of BNT141 followed by expansion cohorts in patients with Claudin 18.2 (CLDN18.2)-positive tumors.\n\nThe sponsor decided to stop the development of BNT141 on 24 July 2023 and the study was terminated early.",
+            "eligibility_criteria": "Key inclusion criteria:\n\nFor all Parts:\n\n* Metastatic or unresectable solid tumor.\n* Histological or cytological documentation of a solid tumor via a pathology report.\n* CLDN18.2-positive tumor sample defined as moderate-to-strong CLDN18.2 protein expression defined as intermediate (2+) to strong (3",
+            "endpoints": [
+              "Occurrence of Treatment-emergent Adverse Events (TEAEs) Within a Patient Including Grade ≥ 3, Serious, Fatal TEAE by Relationship",
+              "Occurrence of Dose Reductions and Discontinuation of BNT141 Due to TEAEs",
+              "Occurrence of Dose-limiting Toxicities (DLTs) Within a Patient During the DLT Evaluation Period"
+            ],
+            "sponsor": "BioNTech SE",
+            "url": "https://clinicaltrials.gov/study/NCT04683939"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01652794",
+            "title": "A Phase 1 Study of Carboplatin and Gemcitabine Chemotherapy and Stereotactic Body Radiosurgery for the Palliative Treatment of Persistent or Recurrent Gynecologic Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "The purpose of this phase I study is to determine the highest dose of carboplatin and gemcitabine (gemcitabine hydrochloride) that can be given safely to subjects with gynecologic cancer, in combination with stereotactic body radiation therapy (SBRT). This dose is called the maximum tolerated dose (MTD). To determine the MTD, patients will receive different amounts of carboplatin and gemcitabine.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has diagnosis of a persistent or recurrent gynecologic cancer\n* Patient age is \\> 18 years.\n* Patient must have at least one abdominopelvic measurable site of disease as defined by 9.1.3;. A treatment planning 18F-FDG positron emission tomography and computed tomograph",
+            "endpoints": [
+              "Rate of acute grade 3-5 toxicities following carboplatin/gemcitabine hydrochloride and SBRT treatment graded based on CTCAE, version 4.0"
+            ],
+            "sponsor": "Case Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01652794"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35699889",
+            "title": "Genomic analysis of an aggressive case with metastatic intrahepatic mucinous cholangiocarcinoma.",
+            "abstract": "Intrahepatic mucinous cholangiocarcinoma (IHMC) is rare and behaves notoriously; however, the details of the clinicopathological characteristics of IHMC remain unknown. A 70-year-old man was admitted for examination of the hepatic mass in the S1 segment. He underwent extended left hepatic lobectomy. Histopathological evaluation demonstrated mixed papillary carcinoma that comprised well to moderately differentiated tubular adenocarcinoma and signet-ring cell carcinoma with large amounts of mucus lakes. Tumor was relapsed 9 months after surgery. Although he received chemotherapy with the combination of gemcitabine and cisplatin, he had renal failure and discontinued the chemotherapy. He received palliative radiotherapy for metastasis in the cervical spine. Then, the patient treated with S-1, however, he died 16 months after the initial diagnosis. The autopsy findings showed multiple nodules in the lungs, pleura, kidneys, adrenal glands, stomach, pancreas, and lymph nodes. Histological ex",
+            "journal": "Clinical journal of gastroenterology",
+            "year": "2022",
+            "authors": [
+              "Masaki Yoshiharu",
+              "Akutsu Noriyuki",
+              "Adachi Yasushi",
+              "Ishigami Keisuike",
+              "Iwata Norikazu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bile Duct Neoplasms",
+              "Bile Ducts, Intrahepatic",
+              "Carcinogenesis",
+              "Cholangiocarcinoma",
+              "Genomics",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35699889/"
+          },
+          {
+            "pmid": "36938358",
+            "title": "Case report: Pathological and genetic features of pancreatic undifferentiated carcinoma with osteoclast-like giant cells.",
+            "abstract": "Objectives: Pancreatic undifferentiated carcinoma accounts for 2%-7% of pancreatic carcinomas. We aimed to investigate the pathological and genetic characteristics of pancreatic undifferentiated carcinoma with osteoclast-like giant cells and the key points of treatment. Methods: The clinical data and follow-up results of four patients diagnosed with pancreatic undifferentiated carcinoma with osteoclast-like giant cells between May 2015 and May 2020 at the First Affiliated Hospital of Xi'an Jiaotong University were retrospectively analyzed. Results: Chief complaints included \"pain and discomfort in the upper abdomen\" (2/4), \"nausea and vomiting\" (1/4) or no symptoms (1/4). Preoperative mildly elevated tumor markers included carcinoembryonic antigen (1/4) and CA19-9 (1/4). The tumors were located in the tail of the pancreas in three patients and the head and neck in one patient. Tumor metastasis was found in pancreatic adipose tissue in two patients and lymph node metastasis in one patie",
+            "journal": "Pathology oncology research : POR",
+            "year": "2023",
+            "authors": [
+              "Zhao Ni",
+              "Mei Nan",
+              "Yi Ye",
+              "Wang Hongyan",
+              "Wang Yajian"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Osteoclasts",
+              "Carcinoma",
+              "Retrospective Studies",
+              "Adenocarcinoma",
+              "Pancreatic Neoplasms",
+              "Giant Cells",
+              "Pancreatic Ducts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36938358/"
+          },
+          {
+            "pmid": "26581412",
+            "title": "An indeterminate mucin-producing cystic neoplasm containing an undifferentiated carcinoma with osteoclast-like giant cells: a case report of a rare association of pancreatic tumors.",
+            "abstract": "Only few case reports of mucinous cystic pancreatic neoplasm containing an undifferentiated carcinoma with osteoclast-like giant cells have been described in the literature. In the majority of cases this unusual association of tumors seems related to a favorable outcome. We present the second case of an indeterminate mucin-producting cystic neoplasm containing an area of carcinoma with osteoclast-like giant cells. The specific features of the two histotypes and the rapid course of the disease make our clinical case remarkable.",
+            "journal": "BMC gastroenterology",
+            "year": "2015",
+            "authors": [
+              "Chiarelli Marco",
+              "Guttadauro Angelo",
+              "Gerosa Martino",
+              "Marando Alessandro",
+              "Gabrielli Francesco"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Mucinous",
+              "Aged",
+              "Antimetabolites, Antineoplastic",
+              "Carcinoma",
+              "Chemotherapy, Adjuvant",
+              "Deoxycytidine",
+              "Fatal Outcome",
+              "Female",
+              "Giant Cells",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26581412/"
+          },
+          {
+            "pmid": "30692448",
+            "title": "[A Case of Long-Term Survival after Reoperation for Neck Lymph Node Metastasis Occurring Seven Years after Pancreaticoduodenectomy for Pancreatic Adenocarcinoma].",
+            "abstract": "A 59-year-old woman with pancreatic cancer underwent pancreaticoduodenectomy. The tumor was histologically diagnosed as a well-differentiated tubular adenocarcinoma with a small amount of mucinous component. After resection, the patient underwent hepatic perfusion therapy using 5-FU and gemcitabine chemotherapy for 1 year. 7 years after the initial surgery, CT and PET-CT revealed an isolated enlarged lymph node in the left neck. As the patient had no other metastasis, lymphadenectomy was performed. A diagnosis of lymph node metastasis originating from pancreatic cancer was confirmed on the basis of histological and immunohistopathological assessments. After the second resection, chemotherapy with S-1 was administered for 1 year. The patient has been alive without tumor relapse for 11 years. In patients with late recurrence after pancreatectomy, aggressive isolated lymph node resection and maintained chemotherapy may contribute to the improvement in prognosis.",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2018",
+            "authors": [
+              "Ando Takuya",
+              "Takizawa Kazuyasu",
+              "Yuza Kizuki",
+              "Soma Daiki",
+              "Toge Koji"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Female",
+              "Humans",
+              "Lymph Node Excision",
+              "Lymphatic Metastasis",
+              "Middle Aged",
+              "Pancreatic Neoplasms",
+              "Pancreaticoduodenectomy",
+              "Positron Emission Tomography Computed Tomography",
+              "Reoperation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30692448/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gallbladder mucinous adenocarcinoma",
+        "txgnn_score": 0.997454822063446,
+        "txgnn_rank": 4085,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03210298",
+            "title": "Multicenter, International Online Documentation of Indications and Results of Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC Und PITAC) for Treating Malignant Peritoneal and Pleural Diseases",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2016-01",
+            "completion_date": "2022-09",
+            "country": "Switzerland, Australia, Spain, France, Belgium, Austria, Argentina, Germany, Denmark, Italy, Russia, Singapore, Poland",
+            "enrollment": 1000,
+            "brief_summary": "Multicentric, international, web-based prospective documentation of the indications and results of Pressurized Aerosol Chemotherapy (so-called PIPAC or PITAC) for treating malignant pleural and peritoneal diseases. Indication is decided by the treating physician. There are no predefined inclusion or exclusion criteria.",
+            "eligibility_criteria": "Inclusion criteria:\n\n* verified peritoneal metastasis\n* colorectal cancer\n* ovarian cancer\n* gastric cancer\n* appendical cancer\n* pseudomyxoma peritonei\n* malignant mesothelioma\n* pancreatic cancer\n* gallbladder cancer\n* small bowel cancer\n\nExclusion criteria\n\n\\- bowel obstruction",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "University of Magdeburg",
+            "url": "https://clinicaltrials.gov/study/NCT03210298"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01643499",
+            "title": "A Genotype-guided Dosing Study of mFOLFIRINOX in Previously Untreated Patients With Advanced Gastrointestinal Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-03-26",
+            "completion_date": "2019-07",
+            "country": "United States",
+            "enrollment": 79,
+            "brief_summary": "This study is being done to determine the dose of a chemotherapy drug (irinotecan \\[irinotecan hydrochloride\\]) that can be tolerated as part of a combination of drugs. There is a combination of chemotherapy drugs often used to treat gastrointestinal cancer, which consists of 5-FU (fluorouracil), leucovorin (leucovorin calcium), irinotecan and oxaliplatin and is known as \"FOLFIRINOX\". FOLFIRINOX is a current drug therapy combination (or regimen) used for people with advanced pancreatic cancer, a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed locally advanced or metastatic pancreatic adenocarcinoma, colorectal adenocarcinoma, gastric adenocarcinoma, cholangiocarcinoma, gall bladder adenocarcinoma, ampullary carcinoma, adenocarcinoma of unclear primary (with a gastrointestin",
+            "endpoints": [
+              "DLT rate in course 1 for each of the two most common genotype groups (*1*1 and *1*28)"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT01643499"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "25731241",
+            "title": "[A case of advanced gallbladder cancer with mediastinum lymph node metastasis successfully treated with multimodality therapy].",
+            "abstract": "A 69 -year-old female with advanced gallbladder cancer underwent cholecystectomy, S4a/S5 segmentectomy of the liver, and resection of the extra-hepatic bile duct in October 2005. Adjuvant chemotherapy consisted of gemcitabine (GEM) and tegafururacil (UFT) administered consecutively. Four years after surgery, computed tomography revealed a single enlarged lymph node in the mediastinum, along with ¹⁸F-fluorodeoxyglucose accumulation and increased carcinoembryonic antigen (CEA) levels. Therefore, the mediastinal lymph node was considered to be a metastasis and GEM was readministered. Although the patient was treated with GEM for 1 year, the accumulation of 18F-fluorodeoxyglucose in the lymph node remained elevated. No other distant metastases were detected. Abronchoscopic biopsy histologically confirmed mucinous adenocarcinoma in the lymph node. Thus, the mediastinal lymph node was resected. Post-surgery, there was no evidence of recurrence during the 30-month follow up period without che",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2014",
+            "authors": [
+              "Katagiri Munetoshi",
+              "Katayose Yu",
+              "Yabuuchi Shinichi",
+              "Karasawa Hideaki",
+              "Sato Jun"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Mucinous",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Deoxycytidine",
+              "Female",
+              "Gallbladder Neoplasms",
+              "Humans",
+              "Lymphatic Metastasis",
+              "Mediastinal Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25731241/"
+          },
+          {
+            "pmid": "40671744",
+            "title": "Radiofrequency ablation of liver metastases in a patient with pancreatic cancer and long-term survival: A case report.",
+            "abstract": "According to the GLOBCAN2022 database, pancreatic cancer has become the 6th leading cause of cancer-related death worldwide. The latest statistics suggest that the incidence of pancreatic cancer is increasing at a rate of 0.5% to 1.0% per year, and it is expected to become the 2nd leading cause of tumor-related deaths in the United States by 2030. More than 50% of pancreatic cancer patients have already developed distant metastases at the time of diagnosis, with the liver being the most common site. Patients with pancreatic cancer with liver metastasis (PCLM) have a worse prognosis than those with locally progressed pancreatic cancer, with a median survival of less than six months. Therefore, the outcome of liver metastases is often a vital determinant of the prognosis of patients with PCLM. There are few successful cases of localized treatment for PCLM patients. Our department recently performed local radiofrequency ablation (RFA) treatment for a PCLM patient through an evidence-based",
+            "journal": "World journal of clinical cases",
+            "year": "2025",
+            "authors": [
+              "Yong Jin-Peng",
+              "Mu Xiao-Yan",
+              "Zhou Chao-Feng",
+              "Zhang Ke-Ke",
+              "Gao Jie-Qiong"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40671744/"
+          },
+          {
+            "pmid": "20527247",
+            "title": "Ovarian metastasis following gallbladder carcinoma: a case report.",
+            "abstract": "Mucinous ovarian cancer raises problems of differential diagnoses because it is often difficult to distinguish the primary from the metastatic form. Most metastatic ovarian tumors originate from the gastrointestinal tract, mainly colorectal, gastric, pancreatic; the gallbladder is a very rare source of ovarian metastases.",
+            "journal": "European journal of gynaecological oncology",
+            "year": "2010",
+            "authors": [
+              "Carlomagno C",
+              "Insabato L",
+              "Bifulco G",
+              "De Placido S",
+              "Lauria R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Deoxycytidine",
+              "Disease-Free Survival",
+              "Female",
+              "Gallbladder Neoplasms",
+              "Humans",
+              "Incidental Findings",
+              "Lymph Node Excision",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20527247/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rete ovarii adenocarcinoma",
+        "txgnn_score": 0.9973324537277222,
+        "txgnn_rank": 4212,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mucin-rich endometrial endometrioid adenocarcinoma",
+        "txgnn_score": 0.997307300567627,
+        "txgnn_rank": 4234,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00441",
+    "name": "Gemcitabine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gemcitabine"
+      },
+      "queried_at": "2026-03-09T10:34:11.373084",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gemcitabine"
+      },
+      "queried_at": "2026-03-09T10:34:20.190646",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:27.888907",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:30.958925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:34.857260",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "rectum mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:36.020584",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "rectum mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:40.515570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "rectum mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:41.264928",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "colon mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:43.256569",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "colon mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:47.042098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "colon mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:49.935334",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "villoglandular endometrial endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:50.457411",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "villoglandular endometrial endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:55.094876",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "villoglandular endometrial endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:55.950731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "endometrial mixed adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:34:56.855298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "endometrial mixed adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:00.297762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "endometrial mixed adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:03.582521",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "endometrial mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:04.206424",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "endometrial mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:07.789862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "endometrial mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:10.152211",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:13.920255",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:18.140681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:21.159887",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "gallbladder mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:21.665461",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "gallbladder mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:25.208357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "gallbladder mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:29.382670",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "rete ovarii adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:31.841669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "rete ovarii adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:36.728548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "rete ovarii adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:37.759171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "mucin-rich endometrial endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:38.521805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "mucin-rich endometrial endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:42.404689",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemcitabine",
+        "disease": "mucin-rich endometrial endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T10:35:44.040229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:35:44.057548"
+  }
+}

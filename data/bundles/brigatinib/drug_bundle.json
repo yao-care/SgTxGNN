@@ -1,0 +1,1956 @@
+{
+  "drug": {
+    "inn": "Brigatinib",
+    "drugbank_id": "DB12267",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "fibromatosis, gingival",
+        "txgnn_score": 0.9989116191864014,
+        "txgnn_rank": 2152,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of lung",
+        "txgnn_score": 0.9985575079917908,
+        "txgnn_rank": 2674,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hamartoma of lung",
+        "txgnn_score": 0.9985259175300598,
+        "txgnn_rank": 2717,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung hilum carcinoma",
+        "txgnn_score": 0.9984899759292604,
+        "txgnn_rank": 2773,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung benign neoplasm",
+        "txgnn_score": 0.9984734654426576,
+        "txgnn_rank": 2798,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34537440",
+            "title": "Brigatinib Versus Crizotinib in ALK Inhibitor-Naive Advanced ALK-Positive NSCLC: Final Results of Phase 3 ALTA-1L Trial.",
+            "abstract": "In the phase 3 study entitled ALK in Lung cancer Trial of brigAtinib in 1st Line (ALTA-1L), which is a study of brigatinib in ALK inhibitor-naive advanced ALK-positive NSCLC, brigatinib exhibited superior progression-free survival (PFS) versus crizotinib in the two planned interim analyses. Here, we report the final efficacy, safety, and exploratory results.",
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2021",
+            "authors": [
+              "Camidge D Ross",
+              "Kim Hye Ryun",
+              "Ahn Myung-Ju",
+              "Yang James C H",
+              "Han Ji-Youn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Crizotinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Organophosphorus Compounds",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34537440/"
+          },
+          {
+            "pmid": "30280657",
+            "title": "Brigatinib versus Crizotinib in ALK-Positive Non-Small-Cell Lung Cancer.",
+            "abstract": "Brigatinib, a next-generation anaplastic lymphoma kinase (ALK) inhibitor, has robust efficacy in patients with ALK-positive non-small-cell lung cancer (NSCLC) that is refractory to crizotinib. The efficacy of brigatinib, as compared with crizotinib, in patients with advanced ALK-positive NSCLC who have not previously received an ALK inhibitor is unclear.",
+            "journal": "The New England journal of medicine",
+            "year": "2018",
+            "authors": [
+              "Camidge D Ross",
+              "Kim Hye Ryun",
+              "Ahn Myung-Ju",
+              "Yang James Chih-Hsin",
+              "Han Ji-Youn"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30280657/"
+          },
+          {
+            "pmid": "36038416",
+            "title": "Efficacy and Safety of Brigatinib Compared With Crizotinib in Asian vs. Non-Asian Patients With Locally Advanced or Metastatic ALK-Inhibitor-Naive ALK+ Non-Small Cell Lung Cancer: Final Results From the Phase III ALTA-1L Study.",
+            "abstract": "Brigatinib is a next-generation anaplastic lymphoma kinase (ALK) inhibitor with demonstrated efficacy in locally advanced and metastatic non-small cell lung cancer (NSCLC) in crizotinib-refractory and ALK inhibitor-naive settings. This analysis assessed brigatinib in Asian vs. non-Asian patients from the first-line ALTA-1L trial.",
+            "journal": "Clinical lung cancer",
+            "year": "2022",
+            "authors": [
+              "Ahn Myung J",
+              "Kim Hye R",
+              "Yang James C H",
+              "Han Ji-Yu",
+              "Li Jacky Yu-Chung"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Asian People",
+              "Organophosphorus Compounds",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36038416/"
+          },
+          {
+            "pmid": "35575153",
+            "title": "Strengths and pitfalls of brigatinib in non-small cell lung cancer patients' management.",
+            "abstract": "The treatment landscape of advanced non-small cell lung cancer (NSCLC) patients has dramatically changed over the past 10 years, particularly thanks to the advent and development of several tyrosine kinase inhibitors (TKI) targeting oncogenic drivers. Among them, patients bearing anaplastic lymphoma kinase (ALK) translocations, which are causative of 3-5% of all advanced NSCLC, have seen dramatically improved their clinical outcomes moving life expectancy at 5 years from less than 5% to 50%. In fact, multiple ALK inhibitors (ALKi) entered in the therapeutic algorithm of ALK+ patients, multiplying their treatment opportunities. Remarkably, in the near future we could take advantage of up to different 6 molecules for the first-line approach (crizotinib, ceritinib, alectinib, brigatinib, plus ensartinib and lorlatinib). Among available ALKi, brigatinib, a second-generation (2G) inhibitor, showed notable activity in this setting, also against central nervous system (CNS) disease, and a goo",
+            "journal": "Minerva medica",
+            "year": "2022",
+            "authors": [
+              "Tabbò Fabrizio",
+              "DE Filippis Marco",
+              "Jacobs Francesca",
+              "Novello Silvia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Non-Small-Cell Lung",
+              "Humans",
+              "Lung Neoplasms",
+              "Organophosphorus Compounds",
+              "Protein-Tyrosine Kinases",
+              "Proto-Oncogene Proteins",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35575153/"
+          },
+          {
+            "pmid": "37574132",
+            "title": "Brigatinib Versus Alectinib in ALK-Positive NSCLC After Disease Progression on Crizotinib: Results of Phase 3 ALTA-3 Trial.",
+            "abstract": "This open-label, phase 3 trial (ALTA-3; NCT03596866) compared efficacy and safety of brigatinib versus alectinib for ALK+ NSCLC after disease progression on crizotinib.",
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2023",
+            "authors": [
+              "Yang James Chih-Hsin",
+              "Liu Geoffrey",
+              "Lu Shun",
+              "He Jianxing",
+              "Burotto Mauricio"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anaplastic Lymphoma Kinase",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Disease Progression",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Piperidines",
+              "Organophosphorus Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37574132/"
+          },
+          {
+            "pmid": "38331773",
+            "title": "Identifying optimal ALK inhibitors in first- and second-line treatment of patients with advanced ALK-positive non-small-cell lung cancer: a systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy, safety and effects on quality of life of different ALK-inhibitors for global and Asian patients with advanced ALK-positive non-small-cell lung cancer (NSCLC).",
+            "journal": "BMC cancer",
+            "year": "2024",
+            "authors": [
+              "Zhao Mingye",
+              "Shao Taihang",
+              "Shao Hanqiao",
+              "Zhou Caicun",
+              "Tang Wenxi"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Bayes Theorem",
+              "Quality of Life",
+              "Anaplastic Lymphoma Kinase",
+              "Protein Kinase Inhibitors",
+              "Carbazoles",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38331773/"
+          },
+          {
+            "pmid": "32780660",
+            "title": "Brigatinib Versus Crizotinib in Advanced ALK Inhibitor-Naive ALK-Positive Non-Small Cell Lung Cancer: Second Interim Analysis of the Phase III ALTA-1L Trial.",
+            "abstract": "Brigatinib, a next-generation anaplastic lymphoma kinase (ALK) inhibitor, demonstrated superior progression-free survival (PFS) and improved health-related quality of life (QoL) versus crizotinib in advanced ALK inhibitor-naive ALK-positive non-small cell lung cancer (NSCLC) at first interim analysis (99 events; median brigatinib follow-up, 11.0 months) in the open-label, phase III ALTA-1L trial (ClinicalTrials.gov identifier: NCT02737501). We report results of the second prespecified interim analysis (150 events).",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2020",
+            "authors": [
+              "Camidge D Ross",
+              "Kim Hye Ryun",
+              "Ahn Myung-Ju",
+              "Yang James C H",
+              "Han Ji-Youn"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Female",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32780660/"
+          },
+          {
+            "pmid": "39232917",
+            "title": "Comparative Efficacy and Safety of Lorlatinib Versus Alectinib and Lorlatinib Versus Brigatinib for ALK-Positive Advanced/Metastatic NSCLC: Matching-Adjusted Indirect Comparisons.",
+            "abstract": "The comparative efficacy and safety of lorlatinib, a third-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor (TKI), versus second-generation ALK TKIs as a first-line treatment for ALK+ advanced/metastatic nonsmall cell lung cancer (NSCLC) remains uncertain as there are no head-to-head clinical trials.",
+            "journal": "Clinical lung cancer",
+            "year": "2024",
+            "authors": [
+              "Garcia Christine",
+              "Abrahami Devin",
+              "Polli Anna",
+              "Chu Haitao",
+              "Chandler Conor"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study",
+              "Clinical Trial, Phase III"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Piperidines",
+              "Organophosphorus Compounds",
+              "Carbazoles",
+              "Lactams",
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39232917/"
+          },
+          {
+            "pmid": "37597303",
+            "title": "Comparative safety of anaplastic lymphoma kinase tyrosine kinase inhibitors in advanced anaplastic lymphoma kinase-mutated non-small cell lung cancer: Systematic review and network meta-analysis.",
+            "abstract": "Anaplastic lymphoma kinase-tyrosine kinase inhibitors (ALK-TKIs) are new treatment for advanced non-small cell lung cancer. Here, we quantified the toxicity profiles of different ALK-TKIs to guide clinical decision making.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2023",
+            "authors": [
+              "Luo Yuyao",
+              "Zhang Zhe",
+              "Guo XuanZhu",
+              "Tang Xuemei",
+              "Li Sijie"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anaplastic Lymphoma Kinase",
+              "Protein-Tyrosine Kinases",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Tyrosine Kinase Inhibitors",
+              "Crizotinib",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37597303/"
+          },
+          {
+            "pmid": "30804663",
+            "title": "Brigatinib for ALK-positive metastatic non-small-cell lung cancer: design, development and place in therapy.",
+            "abstract": "Despite the benefits of first and second generation anaplastic lymphoma kinase (ALK) inhibitors in the management of ALK-rearranged advanced non-small-cell lung cancer (NSCLC), the development of acquired resistance poses an ongoing dilemma. Brigatinib has demonstrated a wider spectrum of preclinical activity against crizotinib-resistant ALK mutant advanced NSCLC. The current review narrates a brief history of tyrosine kinases, the development and clinical background of brigatinib (including its pharmacology and molecular structure) and its use in ALK-positive NSCLC.",
+            "journal": "Drug design, development and therapy",
+            "year": "2019",
+            "authors": [
+              "Ali Robert",
+              "Arshad Junaid",
+              "Palacio Sofia",
+              "Mudad Raja"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Proliferation",
+              "Drug Design",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Organophosphorus Compounds",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30804663/"
+          },
+          {
+            "pmid": "34139965",
+            "title": "Comparison of lorlatinib, alectinib and brigatinib in ALK inhibitor-naive/untreated ALK-positive advanced non-small-cell lung cancer: a systematic review and network meta-analysis.",
+            "abstract": "Because of lacking of head-to-head comparison among lorlatinib, alectinib and brigatinib for patients with ALK inhibitor-naive or untreated (ALK inhibitor-naive and chemotherapy-naive) ALK-positive advanced non-small-cell lung cancer (NSCLC), the optimal option for these patients still remains undefined. We searched published reports that described the activity and safety of those novel ALK inhibitors (lorlatinib, alectinib and brigatinib) for ALK inhibitor-naive or untreated (ALK inhibitor-naive and chemotherapy-naive) ALK-positive advanced NSCLC. Five randomized controlled trials were identified, covering 1111 subjects. In the network meta-analysis, lorlatinib seemed to prolong progression free survival than brigatinib (Hazard Ratio: 0.57, P = 0.03) and alectinib (Hazard ratio: 0.65, P = 0.05) for previously untreated patients with ALK-positive advanced NSCLC as assessed by the independent review committee. Meanwhile, lorlatinib significantly improved significant progression free sur",
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2022",
+            "authors": [
+              "Wang Lida",
+              "Sheng Zhixin",
+              "Zhang Junying",
+              "Song Jiwu",
+              "Teng Lili"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Humans",
+              "Lactams",
+              "Lung Neoplasms",
+              "Organophosphorus Compounds",
+              "Piperidines",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34139965/"
+          },
+          {
+            "pmid": "39368244",
+            "title": "Systematic review and network meta-analysis of lorlatinib with comparison to other anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitors (TKIs) as first-line treatment for ALK-positive advanced non-smallcell lung cancer (NSCLC).",
+            "abstract": "Next-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitors (TKIs) (alectinib, brigatinib, and lorlatinib) demonstrate superior progression-free survival (PFS) over chemotherapy or crizotinib as first-line (1L) treatment of ALK-positive advanced non-smallcell lung cancer (NSCLC).",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2024",
+            "authors": [
+              "Ou Sai-Hong",
+              "Kilvert Hannah",
+              "Candlish Jane",
+              "Lee Ben",
+              "Polli Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Comparative Study",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lactams",
+              "Lung Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Aminopyridines",
+              "Pyrazoles",
+              "Protein Kinase Inhibitors",
+              "Lactams, Macrocyclic",
+              "Tyrosine Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39368244/"
+          },
+          {
+            "pmid": "28475456",
+            "title": "Brigatinib in Patients With Crizotinib-Refractory Anaplastic Lymphoma Kinase-Positive Non-Small-Cell Lung Cancer: A Randomized, Multicenter Phase II Trial.",
+            "abstract": "Purpose Most crizotinib-treated patients with anaplastic lymphoma kinase gene ( ALK)-rearranged non-small-cell lung cancer (ALK-positive NSCLC) eventually experience disease progression. We evaluated two regimens of brigatinib, an investigational next-generation ALK inhibitor, in crizotinib-refractory ALK-positive NSCLC. Patients and Methods Patients were stratified by brain metastases and best response to crizotinib. They were randomly assigned (1:1) to oral brigatinib 90 mg once daily (arm A) or 180 mg once daily with a 7-day lead-in at 90 mg (180 mg once daily [with lead-in]; arm B). Investigator-assessed confirmed objective response rate (ORR) was the primary end point. Results Of 222 patients enrolled (arm A: n = 112, 109 treated; arm B: n = 110, 110 treated), 154 (69%) had baseline brain metastases and 164 of 222 (74%) had received prior chemotherapy. With 8.0-month median follow-up, investigator-assessed confirmed ORR was 45% (97.5% CI, 34% to 56%) in arm A and 54% (97.5% CI, 43",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2017",
+            "authors": [
+              "Kim Dong-Wan",
+              "Tiseo Marcello",
+              "Ahn Myung-Ju",
+              "Reckamp Karen L",
+              "Hansen Karin Holmskov"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cough",
+              "Crizotinib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28475456/"
+          },
+          {
+            "pmid": "39197358",
+            "title": "Real-world treatment sequencing and effectiveness of second- and third-generation ALK tyrosine kinase inhibitors for ALK-positive advanced non-small cell lung cancer.",
+            "abstract": "With multiple targeted therapies approved for anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer (NSCLC), it is increasingly important to understand outcomes with various sequences of next-generation ALK tyrosine kinase inhibitors (TKIs). We describe contemporary sequencing patterns and treatment effectiveness of first-line (1L) and second-line (2L) treatments in patients who received second-generation ALK TKIs in the 1L treatment of ALK-positive NSCLC in the United States.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2024",
+            "authors": [
+              "Bauman Jessica R",
+              "Liu Geoffrey",
+              "Preeshagul Isabel",
+              "Liu Stephen V",
+              "Melosky Barbara"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Male",
+              "Anaplastic Lymphoma Kinase",
+              "Protein Kinase Inhibitors",
+              "Female",
+              "Middle Aged",
+              "Aged",
+              "Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39197358/"
+          },
+          {
+            "pmid": "40222406",
+            "title": "First-Line Alectinib, Brigatinib, and Lorlatinib for Advanced Anaplastic Lymphoma Kinase-Positive Non-Small Cell Lung Cancer: A Cost-Effectiveness Analysis.",
+            "abstract": "To evaluate the cost-effectiveness of alectinib, brigatinib, and lorlatinib as first-line therapies for anaplastic lymphoma kinase-positive advanced non-small cell lung cancer from a US healthcare sector perspective.",
+            "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+            "year": "2025",
+            "authors": [
+              "Mudumba Rahul",
+              "Nieva Jorge J",
+              "Padula William V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cost-Benefit Analysis",
+              "Lung Neoplasms",
+              "Carbazoles",
+              "Piperidines",
+              "Organophosphorus Compounds",
+              "Aminopyridines",
+              "Lactams, Macrocyclic",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40222406/"
+          },
+          {
+            "pmid": "39923717",
+            "title": "Efficacy and safety of brigatinib in patients with ALK TKI-naive advanced ALK+ NSCLC: Integrated analysis of the ALTA-1L and J-ALTA trials.",
+            "abstract": "Brigatinib approval as a first-line anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor (TKI) for advanced ALK+ non-small cell lung cancer (NSCLC) is supported by results of a non-Japanese global phase 3 trial (ALTA-1L) and a separate phase 2 trial conducted in Japan (J-ALTA). To evaluate outcomes in a larger global patient population, we conducted an integrated analysis of pooled efficacy and safety data from ALTA-1L and J-ALTA.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2025",
+            "authors": [
+              "Camidge D Ross",
+              "Sugawara Shunichi",
+              "Kondo Masashi",
+              "Kim Hye Ryun",
+              "Ahn Myung-Ju"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39923717/"
+          },
+          {
+            "pmid": "35608148",
+            "title": "Indirect comparisons of brigatinib and alectinib for front-line ALK-positive non-small-cell lung cancer.",
+            "abstract": "Aim: To conduct an indirect treatment comparison (ITC) of the relative efficacy of brigatinib and alectinib for progression-free survival in people with tyrosine kinase inhibitor (TKI)-naive ALK-positive non-small-cell lung cancer (NSCLC). Methods: Final aggregate and patient-level data from the ALTA-1L trial comparing brigatinib to crizotinib and published aggregate data from ALEX (comparing alectinib to crizotinib) were contrasted using Bucher ITC and matching-adjusted indirect comparisons (MAICs). Results: No statistically significant differences were identified between brigatinib and alectinib in reducing the risk of disease progression overall and in patients with baseline central nervous system metastases. Conclusion: Brigatinib appeared similar to alectinib in reducing risk of disease progression for people with TKI-naive ALK-positive NSCLC.",
+            "journal": "Future oncology (London, England)",
+            "year": "2022",
+            "authors": [
+              "Reckamp Karen L",
+              "Lin Huamao M",
+              "Cranmer Holly",
+              "Wu Yanyu",
+              "Zhang Pingkuan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Crizotinib",
+              "Disease Progression",
+              "Humans",
+              "Lung Neoplasms",
+              "Organophosphorus Compounds",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35608148/"
+          },
+          {
+            "pmid": "30638036",
+            "title": "Brigatinib: Novel ALK Inhibitor for Non-Small-Cell Lung Cancer.",
+            "abstract": "We review here the pharmacology, pharmacokinetics, efficacy, safety, dosage and administration, potential drug-drug interactions and place in therapy of brigatinib for abnormal anaplastic lymphoma kinase (ALK) specific non-small-cell lung cancer (NSCLC).",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2019",
+            "authors": [
+              "Spencer Sara A",
+              "Riley Angela C",
+              "Matthew Adia",
+              "Di Pasqua Anthony J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female",
+              "Humans",
+              "Organophosphorus Compounds",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30638036/"
+          },
+          {
+            "pmid": "28597393",
+            "title": "Brigatinib: First Global Approval.",
+            "abstract": "Brigatinib (ALUNBRIG™) is a small molecule antineoplastic anaplastic lymphoma kinase (ALK) inhibitor being developed by ARIAD Pharmaceuticals (a wholly-owned subsidiary of Takeda Pharmaceutical Company). In April 2017 brigatinib received accelerated approval in the USA for the treatment of patients with ALK-positive metastatic non-small cell lung cancer (NSCLC) who have progressed on or are intolerant to crizotinib. The development of resistance to crizotinib is a therapeutic challenge that has led to the development of second-generation ALK-inhibitors such as brigatinib, which have activity against treatment-resistant ALK mutants. This article summarizes the milestones in the development of brigatinib leading to this first global approval for the treatment of patients with ALK-positive metastatic NSCLC who have progressed on or are intolerant to crizotinib.",
+            "journal": "Drugs",
+            "year": "2017",
+            "authors": [
+              "Markham Anthony"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Drug Approval",
+              "Humans",
+              "Lung Neoplasms",
+              "Organophosphorus Compounds",
+              "Pyrimidines",
+              "Receptor Protein-Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28597393/"
+          },
+          {
+            "pmid": "37493887",
+            "title": "Clinical Pharmacology of Brigatinib: A Next-Generation Anaplastic Lymphoma Kinase Inhibitor.",
+            "abstract": "Brigatinib, a next-generation anaplastic lymphoma kinase (ALK) inhibitor designed to overcome mechanisms of resistance associated with crizotinib, is approved for the treatment of ALK-positive advanced or metastatic non-small cell lung cancer. After oral administration of single doses of brigatinib 30-240 mg, the median time to reach maximum plasma concentration ranged from 1 to 4 h. In patients with advanced malignancies, brigatinib showed dose linearity over the dose range of 60-240 mg once daily. A high-fat meal had no clinically meaningful effect on systemic exposures of brigatinib (area under the plasma concentration-time curve); thus, brigatinib can be administered with or without food. In a population pharmacokinetic analysis, a three-compartment pharmacokinetic model with transit absorption compartments was found to adequately describe brigatinib pharmacokinetics. In addition, the population pharmacokinetic analyses showed that no dose adjustment is required based on body weigh",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2023",
+            "authors": [
+              "Gupta Neeraj",
+              "Hanley Michael J",
+              "Griffin Robert J",
+              "Zhang Pingkuan",
+              "Venkatakrishnan Karthik"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Cytochrome P-450 CYP3A Inhibitors",
+              "Protein Kinase Inhibitors",
+              "Organophosphorus Compounds",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37493887/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+        "txgnn_score": 0.9984261989593506,
+        "txgnn_rank": 2855,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of which are characterised by the selective degeneration of the frontal and temporal cortices. Genetics is an important risk factor for frontotemporal dementia. Advances in clinical, imaging, and molecular characterisation have increased the accuracy of frontotemporal dementia diagnosis, thus allowing for the accurate differentiation of these syndromes from psychiatric disorders. As the understanding of the molecular basis for frontotemporal dementia improves, rational therapies are beginning to em",
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alzheimer Disease",
+              "Aphasia",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Mental Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26595641/"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontotemporal lobar degeneration, with a much broader range of signs and symptoms at presentation than has been previously considered. Accurate and early diagnosis of frontotemporal dementia is now a possibility due to development of neuropsychological measures with a special focus on social cognition. Advances in plasma and CSF biomarkers, and innovations in structural and functional imaging, will prove useful for future clinical trials in people with frontotemporal dementia.",
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Neurodegenerative Diseases",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35182511/"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. In this article, the authors discuss the clinical presentation, diagnostic criteria, neuropathology, genetics, and treatments of these disorders.",
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Frontotemporal Dementia",
+              "History, 20th Century",
+              "Humans",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28410663/"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive dementia (PPA). We searched PubMed, MEDLINE, and Google Scholar for articles about FTD disease published in English between January 1, 1975 till 2018. We used the search terms \"frontotemporal dementia,\" \"Fronto temporal dementia-motor neuron disease,\" \"dementia,\" \"cognition,\" \"behavioral variant,\" and \"primary progressive aphasia.",
+            "journal": "Neurology India",
+            "year": "2021",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Executive Function",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Language",
+              "Neurodegenerative Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34747778/"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Frontotemporal Dementia",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39620838/"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Neuroimaging",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32439025/"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia requires three of six clinically discriminating features (disinhibition, apathy/inertia, loss of sympathy/empathy, perseverative/compulsive behaviours, hyperorality and dysexecutive neuropsychological profile). 'Probable' behavioural variant frontotemporal dementia adds functional disability and characteristic neuroimaging, while behavioural variant frontotemporal dementia 'with definite frontotemporal lobar degeneration' requires histopathological confirmation or a pathogenic mutation. Sixteen bra",
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Behavior",
+              "Female",
+              "Frontotemporal Dementia",
+              "Guidelines as Topic",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neuropsychological Tests",
+              "Reproducibility of Results"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21810890/"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35678399/"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Drug Development",
+              "Frontotemporal Dementia",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38687620/"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disease, and limbic-predominant age-related transactivation response DNA-binding protein 43 encephalopathy, as well as exacerbate the progression of amyotrophic lateral sclerosis (ALS) and FTD caused by the hexanucleotide repeat expansion in the C9orf72 gene. Elevating and/or restoring PGRN levels is an attractive therapeutic strategy and is being investigated for neurodegenerative diseases through multiple mechanisms of action.",
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microglia",
+              "Mutation",
+              "Neurodegenerative Diseases",
+              "Progranulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35039149/"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several diagnostic criteria have been proposed, which in essence all require a history of slowly progressive motor symptoms, with UMN and LMN signs on neurological examination, clear spread of symptoms through the body, the exclusion of other disorder that cause similar symptoms and an EMG that it is compatible with LMN loss. ALS is heterogeneous disorder that may present in multitude ways, which makes the diagnosis challenging. Therefore, a systematic approach in the diagnostic process is required in li",
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Amyotrophic Lateral Sclerosis",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38802173/"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to further expand knowledge of the biologic processes at play in FTD and may in turn propel research toward identifying curative and preventative pharmacologic therapies. The aim of this chapter is to discuss the clinical, pathologic, and genetic complexities of FTD and related disorders.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31753137/"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several primary psychiatric disorders including bipolar affective disorder and schizophrenia. Emphasis will be placed on the behavioral variant of FTD (bvFTD), which is the common clinical syndrome seen with degeneration of the frontal lobes and is the most likely to be encountered in psychiatric settings.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Psychotropic Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31727221/"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Neuropsychological Tests",
+              "Psychiatric Status Rating Scales"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27042904/"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Positron-Emission Tomography",
+              "Primary Progressive Nonfluent Aphasia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28330541/"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based on protein accumulation in the brain. Pathogenic mutations in different genes have been identified. Specific pharmacological treatment is the main research goal. Meanwhile the management must focus on early correct diagnosis, symptom alleviation, caregiver support and educational interventions.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Behavioral Symptoms",
+              "C9orf72 Protein",
+              "Diagnostic Errors",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microtubule-Associated Proteins",
+              "Middle Aged",
+              "Neuroimaging",
+              "Personality Assessment",
+              "Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25998110/"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical Alzheimer disease and heralded by behavioral or communication manifestations. There is a behavioral variant and a language variant, referred to as primary progressive aphasia.",
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Neuropsychological Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26613998/"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the differential diagnosis and improving diagnostic accuracy. As such, neuroimaging is considered a core investigative tool in the evaluation of neurodegenerative disorders. Furthermore, patterns of neurodegeneration correlate with the underlying neuropathological substrates of the frontotemporal dementia syndromes, which can aid clinicians in determining the underlying etiology and improve prognostication. This review explores the advancements in neuroimaging and discusses the phenotypic and pathol",
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Genetic Variation",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neuroimaging",
+              "Positron-Emission Tomography",
+              "tau Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34389969/"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "abstract": "",
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Psychiatry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23611342/"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzheimer's disease commit crimes. The neurobiological origin of delinquency in dementia is poorly understood. On the basis of current study results first delinquency in older age can be explained by impairment of social cognition, difficulties in making appropriate emotional contributions and disturbed control of behavior. Affection of frontal and anterior temporal brain structures seem to be of high relevance. As dementia impairs criminal responsibility psychiatrists are confronted with a forensic ",
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Brain",
+              "Criminal Behavior",
+              "Criminals",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33575835/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung germ cell tumor",
+        "txgnn_score": 0.9983932375907898,
+        "txgnn_rank": 2901,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34371380",
+            "title": "Sustained response to brigatinib in a patient with refractory metastatic pheochromocytoma harboring R1192P anaplastic lymphoma kinase mutation: a case report from the Austrian Group Medical Tumor Therapy next-generation sequencing registry and discussion of the literature.",
+            "abstract": "Metastatic pheochromocytoma and paraganglioma (PPGL) are rare diseases with dismal prognosis and standard therapies are lacking. We herein report the first case of a germline anaplastic lymphoma kinase (ALK) mutation in a patient with chemorefractory metastatic pheochromocytoma in the absence of mutations of known PPGL-associated predisposing genes. Therapy with the ALK inhibitor (ALKi) brigatinib led to dramatic and durable disease remission, despite previous disease progression on the ALKi alectinib. This case underscores the potential clinical use of molecular profiling in rare diseases with limited treatment options and suggests that the ALK-R1192P point mutation might predict sensitivity to brigatinib.",
+            "journal": "ESMO open",
+            "year": "2021",
+            "authors": [
+              "Heregger R",
+              "Huemer F",
+              "Hutarew G",
+              "Hecht S",
+              "Cheveresan L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Gland Neoplasms",
+              "Anaplastic Lymphoma Kinase",
+              "Austria",
+              "High-Throughput Nucleotide Sequencing",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Organophosphorus Compounds",
+              "Pheochromocytoma",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34371380/"
+          },
+          {
+            "pmid": "39395329",
+            "title": "Therapeutic effects of an ALK inhibitor, brigatinib, on lung large cell neuroendocrine carcinoma with EML4-ALK fusion.",
+            "abstract": "A 64-year-old light-smoking woman was clinically diagnosed with lung large-cell neuroendocrine carcinoma (LCNEC) with a metastatic brain tumor. An Oncomine Dx Targeted Test using metastatic brain tissue revealed that the patient's lung cancer cells had an EML4-ALK rearrangement. Patients with LCNEC and anaplastic lymphoma kinase (ALK) gene rearrangements are rare, and there is currently no standard treatment. Based on the genomic analysis, we treated the patient with brigatinib, an ALK inhibitor. We describe here a patient with LCNEC who responded significantly to brigatinib without serious adverse events.",
+            "journal": "Respiratory investigation",
+            "year": "2024",
+            "authors": [
+              "Suetsugu Takayuki",
+              "Masada Yutaka",
+              "Kozono Tomoki",
+              "Morita Kahoru",
+              "Yonezawa Hajime"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Lung Neoplasms",
+              "Middle Aged",
+              "Organophosphorus Compounds",
+              "Oncogene Proteins, Fusion",
+              "Carcinoma, Neuroendocrine",
+              "Pyrimidines",
+              "Anaplastic Lymphoma Kinase",
+              "Gene Rearrangement"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39395329/"
+          },
+          {
+            "pmid": "37561984",
+            "title": "Anaplastic Lymphoma Kinase Inhibitors for Therapy of Neuroblastoma in Adults.",
+            "abstract": "Adult-onset neuroblastoma (AON) differs significantly in biology and clinical behavior from childhood-onset disease. AON poses therapeutic challenges since tolerance of intensive multimodality therapies that are standard of care for pediatric neuroblastoma (NB) is poor. AON is enriched for somatic mutations including anaplastic lymphoma kinase (ALK), deemed to be an oncogenic driver in NB. ALK inhibitors (ALKis), therefore, have the potential to be of therapeutic benefit. The purpose of this study is to report on their use in AON.",
+            "journal": "JCO precision oncology",
+            "year": "2023",
+            "authors": [
+              "Stiefel Jessica",
+              "Kushner Brian H",
+              "Roberts Stephen S",
+              "Iglesias-Cardenas Fiorella",
+              "Kramer Kim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Humans",
+              "Middle Aged",
+              "Anaplastic Lymphoma Kinase",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Crizotinib",
+              "Lactams, Macrocyclic",
+              "Lung Neoplasms",
+              "Neuroblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37561984/"
+          },
+          {
+            "pmid": "31780656",
+            "title": "The targetable kinase PIM1 drives ALK inhibitor resistance in high-risk neuroblastoma independent of MYCN status.",
+            "abstract": "Resistance to anaplastic lymphoma kinase (ALK)-targeted therapy in ALK-positive non-small cell lung cancer has been reported, with the majority of acquired resistance mechanisms relying on bypass signaling. To proactively identify resistance mechanisms in ALK-positive neuroblastoma (NB), we herein employ genome-wide CRISPR activation screens of NB cell lines treated with brigatinib or ceritinib, identifying PIM1 as a putative resistance gene, whose high expression is associated with high-risk disease and poor survival. Knockdown of PIM1 sensitizes cells of differing MYCN status to ALK inhibitors, and in patient-derived xenografts of high-risk NB harboring ALK mutations, the combination of the ALK inhibitor ceritinib and PIM1 inhibitor AZD1208 shows significantly enhanced anti-tumor efficacy relative to single agents. These data confirm that PIM1 overexpression decreases sensitivity to ALK inhibitors in NB, and suggests that combined front-line inhibition of ALK and PIM1 is a viable str",
+            "journal": "Nature communications",
+            "year": "2019",
+            "authors": [
+              "Trigg Ricky M",
+              "Lee Liam C",
+              "Prokoph Nina",
+              "Jahangiri Leila",
+              "Reynolds C Patrick"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Apoptosis",
+              "Biphenyl Compounds",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm",
+              "Gene Knockdown Techniques",
+              "Humans",
+              "Mice",
+              "N-Myc Proto-Oncogene Protein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31780656/"
+          },
+          {
+            "pmid": "27049722",
+            "title": "Brigatinib, an anaplastic lymphoma kinase inhibitor, abrogates activity and growth in ALK-positive neuroblastoma cells, Drosophila and mice.",
+            "abstract": "Anaplastic lymphoma kinase (ALK) is a tyrosine kinase receptor which has been implicated in numerous solid and hematologic cancers. ALK mutations are reported in about 5-7% of neuroblastoma cases but the ALK-positive percentage increases significantly in the relapsed patient population. Crizotinib, the first clinically approved ALK inhibitor for the treatment of ALK-positive lung cancer has had less dramatic responses in neuroblastoma. Here we investigate the efficacy of a second-generation ALK inhibitor, brigatinib, in a neuroblastoma setting. Employing neuroblastoma cell lines, mouse xenograft and Drosophila melanogaster model systems expressing different constitutively active ALK variants, we show clear and efficient inhibition of ALK activity by brigatinib. Similar abrogation of ALK activity was observed in vitro employing a set of different constitutively active ALK variants in biochemical assays. These results suggest that brigatinib is an effective inhibitor of ALK kinase activi",
+            "journal": "Oncotarget",
+            "year": "2016",
+            "authors": [
+              "Siaw Joachim T",
+              "Wan Haiying",
+              "Pfeifer Kathrin",
+              "Rivera Victor M",
+              "Guan Jikui"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Animals, Genetically Modified",
+              "Antineoplastic Agents",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Drosophila",
+              "Enzyme Inhibitors",
+              "Humans",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27049722/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary sulcus neoplasm",
+        "txgnn_score": 0.9983932375907898,
+        "txgnn_rank": 2902,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "junctional epidermolysis bullosa",
+        "txgnn_score": 0.9983158111572266,
+        "txgnn_rank": 3013,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+        "txgnn_score": 0.9982988238334656,
+        "txgnn_rank": 3035,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38904277",
+            "title": "Brigatinib in NF2-Related Schwannomatosis with Progressive Tumors.",
+            "abstract": "NF2-related schwannomatosis (NF2-SWN, formerly called neurofibromatosis type 2) is a tumor predisposition syndrome that is manifested by multiple vestibular schwannomas, nonvestibular schwannomas, meningiomas, and ependymomas. The condition is relentlessly progressive with no approved therapies. On the basis of preclinical activity of brigatinib (an inhibitor of multiple tyrosine kinases) in NF2-driven nonvestibular schwannoma and meningioma, data were needed on the use of brigatinib in patients with multiple types of progressive NF2-SWN tumors.",
+            "journal": "The New England journal of medicine",
+            "year": "2024",
+            "authors": [
+              "Plotkin Scott R",
+              "Yohay Kaleb H",
+              "Nghiemphu Phioanh L",
+              "Dinh Christine T",
+              "Babovic-Vuksanovic Dusica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II",
+              "Multicenter Study",
+              "Adaptive Clinical Trial",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Disease Progression",
+              "Adolescent",
+              "Neurofibromatoses",
+              "Administration, Oral",
+              "Humans",
+              "Neurilemmoma",
+              "Pyrimidines",
+              "Organophosphorus Compounds",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38904277/"
+          },
+          {
+            "pmid": "34264955",
+            "title": "Brigatinib causes tumor shrinkage in both NF2-deficient meningioma and schwannoma through inhibition of multiple tyrosine kinases but not ALK.",
+            "abstract": "Neurofibromatosis Type 2 (NF2) is an autosomal dominant genetic syndrome caused by mutations in the NF2 tumor suppressor gene resulting in multiple schwannomas and meningiomas. There are no FDA approved therapies for these tumors and their relentless progression results in high rates of morbidity and mortality. Through a combination of high throughput screens, preclinical in vivo modeling, and evaluation of the kinome en masse, we identified actionable drug targets and efficacious experimental therapeutics for the treatment of NF2 related schwannomas and meningiomas. These efforts identified brigatinib (ALUNBRIG®), an FDA-approved inhibitor of multiple tyrosine kinases including ALK, to be a potent inhibitor of tumor growth in established NF2 deficient xenograft meningiomas and a genetically engineered murine model of spontaneous NF2 schwannomas. Surprisingly, neither meningioma nor schwannoma cells express ALK. Instead, we demonstrate that brigatinib inhibited multiple tyrosine kinase",
+            "journal": "PloS one",
+            "year": "2021",
+            "authors": [
+              "Chang Long-Sheng",
+              "Oblinger Janet L",
+              "Smith Abbi E",
+              "Ferrer Marc",
+              "Angus Steven P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Pyrimidines",
+              "Anaplastic Lymphoma Kinase",
+              "Mice",
+              "Humans",
+              "Neurilemmoma",
+              "Organophosphorus Compounds",
+              "Meningioma",
+              "Protein Kinase Inhibitors",
+              "Neurofibromin 2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34264955/"
+          },
+          {
+            "pmid": "34836510",
+            "title": "Comparative efficacy and safety of first-line treatments for advanced non-small cell lung cancer with ALK-rearranged: a meta-analysis of clinical trials.",
+            "abstract": "Whereas there are many pharmacological interventions prescribed for patients with advanced anaplastic lymphoma kinase (ALK)- rearranged non-small cell lung cancer (NSCLC), comparative data between novel generation ALK-tyrosine kinase inhibitors (TKIs) remain scant. Here, we indirectly compared the efficacy and safety of first-line systemic therapeutic options used for the treatment of ALK-rearranged NSCLC.",
+            "journal": "BMC cancer",
+            "year": "2021",
+            "authors": [
+              "Ma Hao-Chuan",
+              "Liu Yi-Hong",
+              "Ding Kai-Lin",
+              "Liu Yu-Feng",
+              "Zhao Wen-Jie"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Anaplastic Lymphoma Kinase",
+              "Antineoplastic Agents",
+              "Carbazoles",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Gene Rearrangement",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34836510/"
+          },
+          {
+            "pmid": "40831118",
+            "title": "[Molecular Pathogenesis, Genetic Profiles, and Therapeutic Strategies for NF2-Related Schwannomatosis].",
+            "abstract": "Neurofibromatosis type 2 (NF2), now redefined as NF2-related schwannomatosis (NF2-SWN), is a hereditary tumor syndrome characterized by bilateral vestibular schwannomas, multiple meningiomas, and other central nervous system tumors. The revised diagnostic criteria incorporate genetic testing and consideration of somatic mosaicism, enabling a more accurate and earlier diagnosis. A strong genotype-phenotype correlation has been established: truncating mutations are associated with an earlier onset and severe clinical course, whereas missense or splice-site mutations are often linked to milder phenotypes and better functional outcomes. Immune and molecular profiling have revealed distinct subtypes of vestibular schwannomas and meningiomas, reflecting differences in tumor behavior and therapeutic responses. In young patients presenting with unilateral vestibular schwannoma, clinicians should remain alert to the possibility of NF2-SWN and consider surveillance based on progression and genet",
+            "journal": "No shinkei geka. Neurological surgery",
+            "year": "2025",
+            "authors": [
+              "Teranishi Yu",
+              "Miyawaki Satoru",
+              "Saito Nobuhito"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mutation",
+              "Neurilemmoma",
+              "Neurofibromatoses",
+              "Neurofibromatosis 2",
+              "Neurofibromin 2",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40831118/"
+          },
+          {
+            "pmid": "34987411",
+            "title": "Fatal Tumour Lysis Syndrome Induced by Brigatinib in a Lung Adenocarcinoma Patient Treated With Sequential ALK Inhibitors: A Case Report.",
+            "abstract": "Tumour lysis syndrome (TLS) represents a group of fatal metabolic derangements resulting from the rapid breakdown of tumour cells. TLS typically occurs soon after the administration of chemotherapy in haematologic malignancies but is rarely observed in solid tumours. Here, we report a case of brigatinib-induced TLS after treatment with sequential anaplastic lymphoma kinase (ALK) inhibitors in a patient with advanced ALK-rearranged lung adenocarcinoma. The patient was treated sequentially with crizotinib, alectinib, and ensartinib. High-throughput molecular profiling after disease progression indicated that brigatinib may overcome ALK resistance mutations, so the patient was administered brigatinib as the fourth-line treatment. After 22 days of therapy, he developed oliguria, fever, and progressive dyspnoea. Clinical manifestations and laboratory findings met the diagnostic criteria for TLS. The significant decrease in the abundance of ALK mutations in plasma indicated a therapeutic res",
+            "journal": "Frontiers in pharmacology",
+            "year": "2021",
+            "authors": [
+              "Wang Yadong",
+              "Wang Tiange",
+              "Xue Jianchao",
+              "Jia Ziqi",
+              "Liu Xinyu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34987411/"
+          },
+          {
+            "pmid": "41756440",
+            "title": "N-Cadherin Dynamically Regulates Schwannoma Migration and Represents a Novel Therapeutic Target in NF2-Related Schwannomatosis.",
+            "abstract": "NF2-related schwannomatosis (NF2-SWN) is a devastating tumor predisposition syndrome marked by multiple schwannomas and substantial morbidity. Vestibular Schwannoma (VS), the hallmark tumor, causes deafness, vertigo and potentially fatal brainstem compression. A subset develops brainstem adhesions, making surgery - the only treatment option - highly risky in the absence of FDA-approved therapies. During NF2-SWN progression, schwannoma cells migrate from the extracellular matrix (ECM)-rich internal auditory canal to the arachnoid-lined brainstem, yet mechanisms driving this transition remain incompletely defined. We previously demonstrated that adherent schwannoma is associated with elevated matrix metalloproteinase-9 (MMP-9) activity. N-cadherin (N-cad), a key cell-matrix adhesion molecule and regulator of cancer cell migration, has not been studied in NF2-SWN. Integrating RNA sequencing, multiple NF2 schwannoma mouse models and primary human VS cultures, we demonstrate that N-cad is o",
+            "journal": "Research square",
+            "year": "2026",
+            "authors": [
+              "Ren Yin",
+              "Nguyen Han",
+              "Fisher Melanie",
+              "Zhou Ruiqi",
+              "Jan Taha"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Preprint"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41756440/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12267",
+    "name": "Brigatinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Brigatinib"
+      },
+      "queried_at": "2026-03-09T17:43:07.260348",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Brigatinib"
+      },
+      "queried_at": "2026-03-09T17:43:09.575577",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T17:43:10.173286",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T17:43:14.053425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T17:43:14.971599",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T17:43:15.783751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T17:43:19.139130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T17:43:19.873374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T17:43:20.502241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T17:43:23.479229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T17:43:24.076708",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T17:43:24.703076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T17:43:28.893936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T17:43:29.799166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T17:43:30.474914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T17:43:34.682848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T17:43:42.300286",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T17:43:43.702830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T17:43:49.399440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T17:43:56.935823",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T17:43:57.895433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T17:44:02.040561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T17:44:06.250000",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T17:44:07.722367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T17:44:12.008350",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T17:44:13.508852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T17:44:14.658812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T17:44:19.246315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T17:44:20.830800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T17:44:22.013144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T17:44:27.787277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brigatinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T17:44:31.340676",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T17:44:31.363056"
+  }
+}

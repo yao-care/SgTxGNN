@@ -1,0 +1,531 @@
+{
+  "drug": {
+    "inn": "Mebeverine",
+    "drugbank_id": "DB12554",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9800727367401124,
+        "txgnn_rank": 16995,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "insomnia (disease)",
+        "txgnn_score": 0.969410002231598,
+        "txgnn_rank": 21486,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9681801199913024,
+        "txgnn_rank": 21863,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autonomic nervous system disease",
+        "txgnn_score": 0.930701494216919,
+        "txgnn_rank": 30514,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhinitis",
+        "txgnn_score": 0.8458723425865173,
+        "txgnn_rank": 39487,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial mitral valve prolapse",
+        "txgnn_score": 0.8152852058410645,
+        "txgnn_rank": 41113,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dysautonomia",
+        "txgnn_score": 0.8122681379318237,
+        "txgnn_rank": 41270,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroduodenitis",
+        "txgnn_score": 0.8110682368278503,
+        "txgnn_rank": 41312,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19334485",
+            "title": "[How to raise efficacy of gastroesophageal reflux disease treatment].",
+            "abstract": "To specify dysfunction of the stomach and duodenum in gastroesophageal reflux disease (GRD) to offer more effective pathogenetic pharmacotherapy of GRD.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2009",
+            "authors": [
+              "Vakhrushev Ia M",
+              "Potapova L O",
+              "Muravtseva O V"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Domperidone",
+              "Drug Therapy, Combination",
+              "Esophageal pH Monitoring",
+              "Female",
+              "Gastric Acidity Determination",
+              "Gastric Emptying",
+              "Gastroesophageal Reflux"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19334485/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mitral valve prolapse (disease)",
+        "txgnn_score": 0.7869874835014343,
+        "txgnn_rank": 42404,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "MVP1",
+        "txgnn_score": 0.7681533694267273,
+        "txgnn_rank": 43158,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12554",
+    "name": "Mebeverine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mebeverine"
+      },
+      "queried_at": "2026-03-10T07:42:08.459480",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mebeverine"
+      },
+      "queried_at": "2026-03-10T07:42:11.141556",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T07:42:11.746413",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T07:42:14.832119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T07:42:15.740845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:17.164901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:20.805154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:21.559476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:22.096359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:25.327837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:26.858614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T07:42:28.420574",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T07:42:31.631769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T07:42:32.529165",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-10T07:42:32.997207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-10T07:42:35.997342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-10T07:42:36.789729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "familial mitral valve prolapse"
+      },
+      "queried_at": "2026-03-10T07:42:37.296079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "familial mitral valve prolapse"
+      },
+      "queried_at": "2026-03-10T07:42:40.125759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "familial mitral valve prolapse"
+      },
+      "queried_at": "2026-03-10T07:42:40.849877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "dysautonomia"
+      },
+      "queried_at": "2026-03-10T07:42:41.374498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "dysautonomia"
+      },
+      "queried_at": "2026-03-10T07:42:45.284769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "dysautonomia"
+      },
+      "queried_at": "2026-03-10T07:42:45.979617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T07:42:46.644410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T07:42:50.293869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T07:42:52.283946",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "mitral valve prolapse (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:52.904805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "mitral valve prolapse (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:56.052895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "mitral valve prolapse (disease)"
+      },
+      "queried_at": "2026-03-10T07:42:56.848472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "MVP1"
+      },
+      "queried_at": "2026-03-10T07:42:57.506857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "MVP1"
+      },
+      "queried_at": "2026-03-10T07:43:01.104601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mebeverine",
+        "disease": "MVP1"
+      },
+      "queried_at": "2026-03-10T07:43:01.879459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:43:01.883120"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Amylmetacresol",
+    "drugbank_id": "DB13908",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9998656511306764,
+        "txgnn_rank": 459,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9996019005775452,
+        "txgnn_rank": 996,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9988710284233092,
+        "txgnn_rank": 2232,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ciliary body disease",
+        "txgnn_score": 0.9970263838768004,
+        "txgnn_rank": 4572,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "panuveitis (disease)",
+        "txgnn_score": 0.9967560172080994,
+        "txgnn_rank": 4837,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "iris disease",
+        "txgnn_score": 0.9963376522064208,
+        "txgnn_rank": 5274,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious anterior uveitis",
+        "txgnn_score": 0.995723843574524,
+        "txgnn_rank": 5852,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uveitis",
+        "txgnn_score": 0.9953213334083556,
+        "txgnn_rank": 6221,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ciliary body cancer",
+        "txgnn_score": 0.9946451187133788,
+        "txgnn_rank": 6788,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of ciliary body",
+        "txgnn_score": 0.9945462942123412,
+        "txgnn_rank": 6875,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13908",
+    "name": "Amylmetacresol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Amylmetacresol"
+      },
+      "queried_at": "2026-03-09T10:06:20.504707",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Amylmetacresol"
+      },
+      "queried_at": "2026-03-09T10:06:23.418466",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T10:06:23.972055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T10:06:27.223421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T10:06:27.942607",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T10:06:28.951834",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T10:06:37.096723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T10:06:38.093668",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T10:06:38.740817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T10:06:50.159242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T10:06:51.864586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body disease"
+      },
+      "queried_at": "2026-03-09T10:06:52.436459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body disease"
+      },
+      "queried_at": "2026-03-09T10:06:59.070994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body disease"
+      },
+      "queried_at": "2026-03-09T10:06:59.904934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "panuveitis (disease)"
+      },
+      "queried_at": "2026-03-09T10:07:00.533794",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "panuveitis (disease)"
+      },
+      "queried_at": "2026-03-09T10:07:03.985847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "panuveitis (disease)"
+      },
+      "queried_at": "2026-03-09T10:07:05.537306",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "iris disease"
+      },
+      "queried_at": "2026-03-09T10:07:06.564679",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "iris disease"
+      },
+      "queried_at": "2026-03-09T10:07:10.842186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "iris disease"
+      },
+      "queried_at": "2026-03-09T10:07:12.202198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "infectious anterior uveitis"
+      },
+      "queried_at": "2026-03-09T10:07:13.134240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "infectious anterior uveitis"
+      },
+      "queried_at": "2026-03-09T10:07:17.038614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "infectious anterior uveitis"
+      },
+      "queried_at": "2026-03-09T10:07:18.094004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "uveitis"
+      },
+      "queried_at": "2026-03-09T10:07:18.889650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "uveitis"
+      },
+      "queried_at": "2026-03-09T10:07:25.883098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "uveitis"
+      },
+      "queried_at": "2026-03-09T10:07:26.535702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body cancer"
+      },
+      "queried_at": "2026-03-09T10:07:27.056041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body cancer"
+      },
+      "queried_at": "2026-03-09T10:07:30.365172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body cancer"
+      },
+      "queried_at": "2026-03-09T10:07:31.983220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "benign neoplasm of ciliary body"
+      },
+      "queried_at": "2026-03-09T10:07:32.665032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "benign neoplasm of ciliary body"
+      },
+      "queried_at": "2026-03-09T10:07:36.771728",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "benign neoplasm of ciliary body"
+      },
+      "queried_at": "2026-03-09T10:07:37.549513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:07:37.560439"
+  }
+}

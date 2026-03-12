@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Rasburicase",
+    "drugbank_id": "DB00049",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypouricemia, renal",
+        "txgnn_score": 0.999872088432312,
+        "txgnn_rank": 431,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypoxanthine guanine phosphoribosyltransferase partial deficiency",
+        "txgnn_score": 0.9997153878211976,
+        "txgnn_rank": 769,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic porphyria",
+        "txgnn_score": 0.9996650218963624,
+        "txgnn_rank": 882,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "early-onset familial noncirrhotic portal hypertension",
+        "txgnn_score": 0.9996525049209596,
+        "txgnn_rank": 901,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatopulmonary syndrome",
+        "txgnn_score": 0.9996525049209596,
+        "txgnn_rank": 902,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primitive portal vein thrombosis",
+        "txgnn_score": 0.9996525049209596,
+        "txgnn_rank": 903,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic copper-associated cirrhosis",
+        "txgnn_score": 0.9996525049209596,
+        "txgnn_rank": 904,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatoportal sclerosis",
+        "txgnn_score": 0.9996525049209596,
+        "txgnn_rank": 905,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal tubular acidosis",
+        "txgnn_score": 0.9984662532806396,
+        "txgnn_rank": 2805,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disorder of phenylalanine metabolism",
+        "txgnn_score": 0.9982909560203552,
+        "txgnn_rank": 3046,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00049",
+    "name": "Rasburicase",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Rasburicase"
+      },
+      "queried_at": "2026-03-09T09:12:33.725052",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Rasburicase"
+      },
+      "queried_at": "2026-03-09T09:12:43.085054",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hypouricemia, renal"
+      },
+      "queried_at": "2026-03-09T09:12:44.113361",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hypouricemia, renal"
+      },
+      "queried_at": "2026-03-09T09:12:47.439563",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hypouricemia, renal"
+      },
+      "queried_at": "2026-03-09T09:12:48.688548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hypoxanthine guanine phosphoribosyltransferase partial deficiency"
+      },
+      "queried_at": "2026-03-09T09:12:49.877811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hypoxanthine guanine phosphoribosyltransferase partial deficiency"
+      },
+      "queried_at": "2026-03-09T09:12:55.836116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hypoxanthine guanine phosphoribosyltransferase partial deficiency"
+      },
+      "queried_at": "2026-03-09T09:12:56.455777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-09T09:12:57.004167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-09T09:13:01.080888",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-09T09:13:01.818751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-09T09:13:02.335605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-09T09:13:05.999890",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-09T09:13:07.163019",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-09T09:13:07.732952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-09T09:13:11.000147",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-09T09:13:11.931589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-09T09:13:12.536930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-09T09:13:15.791360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-09T09:13:16.697818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-09T09:13:17.993264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-09T09:13:22.407031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-09T09:13:23.237102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-09T09:13:23.848289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-09T09:13:26.653923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-09T09:13:27.309412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-09T09:13:27.877418",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-09T09:13:31.802075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-09T09:13:32.508097",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-09T09:13:32.981043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-09T09:13:35.676150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rasburicase",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-09T09:13:36.424755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:13:36.428006"
+  }
+}

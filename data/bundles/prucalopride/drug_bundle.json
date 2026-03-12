@@ -1,0 +1,578 @@
+{
+  "drug": {
+    "inn": "Prucalopride",
+    "drugbank_id": "DB06480",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypoalphalipoproteinemia",
+        "txgnn_score": 0.9982424974441528,
+        "txgnn_rank": 3099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.9966887831687928,
+        "txgnn_rank": 4919,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenal ulcer (disease)",
+        "txgnn_score": 0.9965206384658812,
+        "txgnn_rank": 5084,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "oral candidiasis",
+        "txgnn_score": 0.9963843822479248,
+        "txgnn_rank": 5233,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete familial combined hyperlipidemia",
+        "txgnn_score": 0.9962318539619446,
+        "txgnn_rank": 5393,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyloidosis (disease)",
+        "txgnn_score": 0.9962083101272584,
+        "txgnn_rank": 5417,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34231480",
+            "title": "Patients with Specific Gastrointestinal Motility Disorders are Commonly Diagnosed as Functional GI Disorders in the Early Stage by Community Physicians due to Lack of Awareness.",
+            "abstract": "Data on specific gastrointestinal (GI) motility disorders, such as gastroparesis (GP), chronic intestinal pseudo-obstruction (CIPO), and colonic inertia (CI), as well as awareness among doctors about these disorders are scanty in Asia.",
+            "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Ghoshal Uday C",
+              "Bhut Bhavesh",
+              "Misra Asha"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Chronic Disease",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Gastrointestinal Motility",
+              "Health Knowledge, Attitudes, Practice",
+              "Humans",
+              "Intestines",
+              "Middle Aged",
+              "Physicians"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34231480/"
+          },
+          {
+            "pmid": "40376135",
+            "title": "Bowel Blockage Without a Block: Amyloidosis Presenting as Chronic Intestinal Pseudo-Obstruction.",
+            "abstract": "We present the case of a 61-year-old man with a history of schizophrenia and non-ischemic cardiomyopathy who was admitted with chronic nausea, vomiting, and abdominal pain. His clinical course was marked by recurrent hospitalizations due to persistently dilated small bowel and multiple exploratory laparotomies, all failing to yield a definitive diagnosis, raising suspicion for chronic intestinal pseudo-obstruction. Extensive testing for vascular, paraneoplastic, infectious, and autoimmune causes was unremarkable. Given his unexplained cardiomyopathy and elevated serum light chains with a mild M spike, amyloidosis was suspected. A biopsy of the abdominal fat pad with Congo red staining confirmed amyloid deposition. His symptoms showed partial improvement with prucalopride, but he continues to require total parenteral nutrition and a venting gastrostomy tube for symptom management. Amyloid subtyping and a bone marrow biopsy are pending to determine the underlying etiology.",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Modi Rangesh",
+              "Nguefang Guy",
+              "Patel Freny",
+              "Modi Prince",
+              "Luna Landa Edgar M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40376135/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "strongyloidiasis",
+        "txgnn_score": 0.996045172214508,
+        "txgnn_rank": 5567,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HIV infectious disease",
+        "txgnn_score": 0.9960024952888488,
+        "txgnn_rank": 5599,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary amyloidosis",
+        "txgnn_score": 0.9955537915229796,
+        "txgnn_rank": 6009,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34231480",
+            "title": "Patients with Specific Gastrointestinal Motility Disorders are Commonly Diagnosed as Functional GI Disorders in the Early Stage by Community Physicians due to Lack of Awareness.",
+            "abstract": "Data on specific gastrointestinal (GI) motility disorders, such as gastroparesis (GP), chronic intestinal pseudo-obstruction (CIPO), and colonic inertia (CI), as well as awareness among doctors about these disorders are scanty in Asia.",
+            "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Ghoshal Uday C",
+              "Bhut Bhavesh",
+              "Misra Asha"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Chronic Disease",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Gastrointestinal Motility",
+              "Health Knowledge, Attitudes, Practice",
+              "Humans",
+              "Intestines",
+              "Middle Aged",
+              "Physicians"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34231480/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acquired amyloid peripheral neuropathy",
+        "txgnn_score": 0.9954955577850342,
+        "txgnn_rank": 6072,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06480",
+    "name": "Prucalopride",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Prucalopride"
+      },
+      "queried_at": "2026-03-09T20:31:26.383072",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Prucalopride"
+      },
+      "queried_at": "2026-03-09T20:31:57.008263",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-09T20:31:57.938577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-09T20:32:03.452264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-09T20:32:05.667584",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-09T20:32:07.193993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-09T20:32:11.735975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-09T20:32:13.885990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-09T20:32:15.094706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-09T20:32:21.304337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-09T20:32:23.666037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "oral candidiasis"
+      },
+      "queried_at": "2026-03-09T20:32:24.924800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "oral candidiasis"
+      },
+      "queried_at": "2026-03-09T20:32:30.234941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "oral candidiasis"
+      },
+      "queried_at": "2026-03-09T20:32:31.178347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T20:32:33.706370",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T20:32:41.085863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T20:32:42.665076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "amyloidosis (disease)"
+      },
+      "queried_at": "2026-03-09T20:32:44.047482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "amyloidosis (disease)"
+      },
+      "queried_at": "2026-03-09T20:32:48.560117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "amyloidosis (disease)"
+      },
+      "queried_at": "2026-03-09T20:32:51.840689",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "strongyloidiasis"
+      },
+      "queried_at": "2026-03-09T20:32:52.458823",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "strongyloidiasis"
+      },
+      "queried_at": "2026-03-09T20:32:58.202912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "strongyloidiasis"
+      },
+      "queried_at": "2026-03-09T20:32:59.489118",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-09T20:33:00.026383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-09T20:33:06.090813",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-09T20:33:09.248693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "primary amyloidosis"
+      },
+      "queried_at": "2026-03-09T20:33:11.691418",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "primary amyloidosis"
+      },
+      "queried_at": "2026-03-09T20:33:18.995195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "primary amyloidosis"
+      },
+      "queried_at": "2026-03-09T20:33:27.083136",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "acquired amyloid peripheral neuropathy"
+      },
+      "queried_at": "2026-03-09T20:33:27.695130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "acquired amyloid peripheral neuropathy"
+      },
+      "queried_at": "2026-03-09T20:33:32.262175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prucalopride",
+        "disease": "acquired amyloid peripheral neuropathy"
+      },
+      "queried_at": "2026-03-09T20:33:34.194501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T20:33:34.227782"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Carbinoxamine",
+    "drugbank_id": "DB00748",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9999371767044068,
+        "txgnn_rank": 231,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.999643325805664,
+        "txgnn_rank": 920,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.998786985874176,
+        "txgnn_rank": 2353,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9987316727638244,
+        "txgnn_rank": 2428,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9986675977706908,
+        "txgnn_rank": 2519,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.9973447918891908,
+        "txgnn_rank": 4195,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "IgE responsiveness, atopic",
+        "txgnn_score": 0.9967725872993468,
+        "txgnn_rank": 4824,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9731684327125548,
+        "txgnn_rank": 20051,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchial disease",
+        "txgnn_score": 0.9329116344451904,
+        "txgnn_rank": 30121,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.932096779346466,
+        "txgnn_rank": 30261,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00748",
+    "name": "Carbinoxamine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Carbinoxamine"
+      },
+      "queried_at": "2026-03-09T08:56:33.875761",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Carbinoxamine"
+      },
+      "queried_at": "2026-03-09T08:56:44.138024",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T08:56:45.345323",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T08:56:49.908835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T08:56:51.341549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T08:56:52.641682",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T08:56:55.600297",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T08:56:56.601561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T08:56:58.310199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T08:57:02.879338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T08:57:06.141127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T08:57:07.204479",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T08:57:10.521285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T08:57:11.153745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T08:57:12.744431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T08:57:16.825756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T08:57:18.043594",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T08:57:19.055151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T08:57:23.154570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T08:57:25.098464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T08:57:26.346257",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T08:57:29.953187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T08:57:30.954008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T08:57:31.644324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T08:57:35.398213",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T08:57:36.457951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "bronchial disease"
+      },
+      "queried_at": "2026-03-09T08:57:37.355288",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "bronchial disease"
+      },
+      "queried_at": "2026-03-09T08:57:42.569404",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "bronchial disease"
+      },
+      "queried_at": "2026-03-09T08:57:43.598400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T08:57:44.621706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T08:57:47.760711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbinoxamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T08:57:48.812354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:57:48.831486"
+  }
+}

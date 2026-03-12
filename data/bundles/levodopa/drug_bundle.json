@@ -1,0 +1,2815 @@
+{
+  "drug": {
+    "inn": "Levodopa",
+    "drugbank_id": "DB01235",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Rasmussen subacute encephalitis",
+        "txgnn_score": 0.9905540347099304,
+        "txgnn_rank": 10154,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "PLA2G6-associated neurodegeneration",
+        "txgnn_score": 0.9874852299690248,
+        "txgnn_rank": 12454,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32183746",
+            "title": "Genotype-phenotype correlations of adult-onset PLA2G6-associated Neurodegeneration: case series and literature review.",
+            "abstract": "Phospholipase A2 group VI (PLA2G6) mutations associated with neurodegeneration (PLAN) manifest as heterogeneous neurodegenerative disorders with variable ages of onset. The genotype-phenotype correlation is not well-established. We aim to describe three adult patients with PLAN and combined these data with results from previous studies to elucidate adult-onset PLA2G6 phenotype-genotype correlations.",
+            "journal": "BMC neurology",
+            "year": "2020",
+            "authors": [
+              "Chu Yung-Tsai",
+              "Lin Han-Yi",
+              "Chen Pei-Lung",
+              "Lin Chin-Hsien"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Asian People",
+              "Cohort Studies",
+              "Female",
+              "Genetic Association Studies",
+              "Group VI Phospholipases A2",
+              "High-Throughput Nucleotide Sequencing",
+              "Humans",
+              "Levodopa",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32183746/"
+          },
+          {
+            "pmid": "39184971",
+            "title": "The Clinical, Radiological and Genetic Spectrum of PLA2G6-Associated Neurodegeneration: An Experience From a Tertiary Center.",
+            "abstract": "Despite being the second most common type of neurodegeneration with brain iron accumulation, there is limited literature on PLA2G6-associated neurodegeneration (PLAN) within the Asian ethnicity, particularly in the Indian context.",
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2024",
+            "authors": [
+              "Holla Vikram V",
+              "Samim M M",
+              "Kumari Riyanka",
+              "Dhar Debjyoti",
+              "Phulpagar Prashant"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Group VI Phospholipases A2",
+              "Male",
+              "Female",
+              "Adolescent",
+              "Young Adult",
+              "Adult",
+              "Retrospective Studies",
+              "Child",
+              "Neuroaxonal Dystrophies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39184971/"
+          },
+          {
+            "pmid": "34622992",
+            "title": "Dissecting the Phenotype and Genotype of PLA2G6-Related Parkinsonism.",
+            "abstract": "Complex parkinsonism is the commonest phenotype in late-onset PLA2G6-associated neurodegeneration.",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2022",
+            "authors": [
+              "Magrinelli Francesca",
+              "Mehta Sahil",
+              "Di Lazzaro Giulia",
+              "Latorre Anna",
+              "Edwards Mark J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Age of Onset",
+              "Atrophy",
+              "Dystonia",
+              "Genotype",
+              "Group VI Phospholipases A2",
+              "Humans",
+              "Mutation",
+              "Parkinsonian Disorders",
+              "Pedigree",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34622992/"
+          },
+          {
+            "pmid": "25197640",
+            "title": "Mutations in the ATP13A2 gene and Parkinsonism: a preliminary review.",
+            "abstract": "Parkinson's disease (PD) is a major neurodegenerative disorder for which the etiology and pathogenesis remain as elusive as for Alzheimer's disease. PD appears to be caused by genetic and environmental factors, and pedigree and cohort studies have identified numerous susceptibility genes and loci related to PD. Autosomal recessive mutations in the genes Parkin, Pink1, DJ-1, ATP13A2, PLA2G6, and FBXO7 have been linked to PD susceptibility. Such mutations in ATP13A2, also named PARK9, were first identified in 2006 in a Chilean family and are associated with a juvenile-onset, levodopa-responsive type of Parkinsonism called Kufor-Rakeb syndrome (KRS). KRS involves pyramidal degeneration, supranuclear palsy, and cognitive impairment. Here we review current knowledge about the ATP13A2 gene, clinical characteristics of patients with PD-associated ATP13A2 mutations, and models of how the ATP13A2 protein may help prevent neurodegeneration by inhibiting α-synuclein aggregation and supporting nor",
+            "journal": "BioMed research international",
+            "year": "2014",
+            "authors": [
+              "Yang Xinglong",
+              "Xu Yanming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Mutation",
+              "Neuronal Ceroid-Lipofuscinoses",
+              "Parkinson Disease",
+              "Proton-Translocating ATPases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25197640/"
+          },
+          {
+            "pmid": "24368176",
+            "title": "Beta-propeller protein-associated neurodegeneration (BPAN), a rare form of NBIA: novel mutations and neuropsychiatric phenotype in three adult patients.",
+            "abstract": "Neurodegeneration with brain iron accumulation (NBIA) comprises a group of rare neuropsychiatric syndromes characterized by iron accumulation in the basal ganglia. The pantothenate kinase-associated neurodegeneration (PKAN) was the first NBIA form to be genetically identified almost 15 years ago. Nowadays, eight types can be genetically distinguished. More recently, a novel NBIA was delineated and termed Static Encephalopathy of childhood with Neurodegeneration in Adulthood (SENDA), characterized by early intellectual disability followed by delayed progressive motor and cognitive deterioration with an onset in the second to third decade. Very recently, mutations in the WD repeat-containing protein 45 (WDR45) gene located on Xp11.23 were shown to be the causal factor. The protein encoded by WDR45 propels protein interaction important for autophagy. This form was therefore retermed Beta-propeller Protein Associated Neurodegeneration (BPAN). Here, the first three Dutch patients with genet",
+            "journal": "Parkinsonism & related disorders",
+            "year": "2014",
+            "authors": [
+              "Verhoeven Willem M A",
+              "Egger Jos I M",
+              "Koolen David A",
+              "Yntema Helger",
+              "Olgiati Simone"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Carrier Proteins",
+              "Female",
+              "Humans",
+              "Mental Disorders",
+              "Middle Aged",
+              "Mutation",
+              "Pantothenate Kinase-Associated Neurodegeneration",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24368176/"
+          },
+          {
+            "pmid": "18570303",
+            "title": "Characterization of PLA2G6 as a locus for dystonia-parkinsonism.",
+            "abstract": "Although many recessive loci causing parkinsonism dystonia have been identified, these do not explain all cases of the disorder.",
+            "journal": "Annals of neurology",
+            "year": "2009",
+            "authors": [
+              "Paisan-Ruiz Coro",
+              "Bhatia Kailash P",
+              "Li Abi",
+              "Hernandez Dena",
+              "Davis Mary"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Intramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cerebellum",
+              "Chromosomes, Human, Pair 22",
+              "DNA Mutational Analysis",
+              "Dystonia",
+              "Family Health",
+              "Female",
+              "Group VI Phospholipases A2",
+              "Homozygote",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18570303/"
+          },
+          {
+            "pmid": "14997456",
+            "title": "[Tourettism, hemiballism and juvenile Parkinsonism: expanding the clinical spectrum of the neurodegeneration associated to pantothenate kinase deficiency (Hallervorden Spatz syndrome)].",
+            "abstract": "Pantothenate kinase deficiency (Hallervorden-Spatz syndrome, HSS) triggers cerebral neurodegeneration with iron deposition in the basal ganglia. The classical form has an early onset in infancy, a progressive course, the presence of extrapyramidal symptoms (dystonia, chorea, rigidity) and pigmentary retinitis. There are atypical late onset forms with predominance of symptoms of Parkinsonism and dementia, which progress slowly and course somewhat less progressively.",
+            "journal": "Revista de neurologia",
+            "year": "2004",
+            "authors": [
+              "Carod-Artal F J",
+              "Vargas A P",
+              "Marinho P B",
+              "Fernandes-Silva T V",
+              "Portugal D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Diagnosis, Differential",
+              "Dyskinesias",
+              "Female",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Pantothenate Kinase-Associated Neurodegeneration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14997456/"
+          },
+          {
+            "pmid": "27268037",
+            "title": "Clinical heterogeneity of PLA2G6-related Parkinsonism: analysis of two Saudi families.",
+            "abstract": "Recessive mutations in PLA2G6 have been associated with different neurodegenerative disorders, including infantile neuroaxonal dystrophy, neurodegeneration with brain iron accumulation and more recently, early-onset dystonia parkinsonism.",
+            "journal": "BMC research notes",
+            "year": "2016",
+            "authors": [
+              "Bohlega Saeed A",
+              "Al-Mubarak Bashayer R",
+              "Alyemni Eman A",
+              "Abouelhoda Mohamed",
+              "Monies Dorota"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Family Health",
+              "Female",
+              "Genetic Heterogeneity",
+              "Genotype",
+              "Group VI Phospholipases A2",
+              "Haplotypes",
+              "High-Throughput Nucleotide Sequencing",
+              "Homozygote",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27268037/"
+          },
+          {
+            "pmid": "32767480",
+            "title": "Impaired proteasome activity and neurodegeneration with brain iron accumulation in FBXO7 defect.",
+            "abstract": "FBXO7 is implicated in the ubiquitin-proteasome system and parkin-mediated mitophagy. FBXO7defects cause a levodopa-responsive parkinsonian-pyramidal syndrome(PPS).",
+            "journal": "Annals of clinical and translational neurology",
+            "year": "2020",
+            "authors": [
+              "Correa-Vela Marta",
+              "Lupo Vincenzo",
+              "Montpeyó Marta",
+              "Sancho Paula",
+              "Marcé-Grau Anna"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Consanguinity",
+              "Epilepsy",
+              "F-Box Proteins",
+              "Female",
+              "Humans",
+              "Iron Metabolism Disorders",
+              "Neuroaxonal Dystrophies",
+              "Paraplegia",
+              "Parkinsonian Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32767480/"
+          },
+          {
+            "pmid": "3016582",
+            "title": "Idiopathic Parkinson's disease and the Lewy body disorders.",
+            "abstract": "A common clinical manifestation of idiopathic Lewy body disease is levodopa responsive idiopathic Parkinson's disease. Infrequently features such as dementia or autonomic failure predominate. The Lewy body is also reported; as an incidental finding in 7-10% of normal individuals mostly over the age of 60 as an incidental sporadic finding in Parkinson's syndrome from other causes, mostly over the age of sixty; in an additional group of degenerative disorders at a younger age, some with familial inheritance. The incidental finding of Lewy bodies can precede clinical Parkinson's disease. It is though they do not occur as an age-related feature, although this cannot be stated with certainty. Current evidence suggests that about 10% of the population may possess the pathological substratum for idiopathic Parkinson's disease.",
+            "journal": "Neuropathology and applied neurobiology",
+            "year": "1986",
+            "authors": [
+              "Gibb W R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Ataxia Telangiectasia",
+              "Autonomic Nervous System Diseases",
+              "Brain",
+              "Brain Diseases",
+              "Cerebellar Ataxia",
+              "Corpus Striatum",
+              "Dementia",
+              "Guam",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3016582/"
+          },
+          {
+            "pmid": "20669327",
+            "title": "Early-onset L-dopa-responsive parkinsonism with pyramidal signs due to ATP13A2, PLA2G6, FBXO7 and spatacsin mutations.",
+            "abstract": "Seven autosomal recessive genes associated with juvenile and young-onset Levodopa-responsive parkinsonism have been identified. Mutations in PRKN, DJ-1, and PINK1 are associated with a rather pure parkinsonian phenotype, and have a more benign course with sustained treatment response and absence of dementia. On the other hand, Kufor-Rakeb syndrome has additional signs, which distinguish it clearly from Parkinson's disease including supranuclear vertical gaze palsy, myoclonic jerks, pyramidal signs, and cognitive impairment. Neurodegeneration with brain iron accumulation type I (Hallervorden-Spatz syndrome) due to mutations in PANK2 gene may share similar features with Kufor-Rakeb syndrome. Mutations in three other genes, PLA2G6 (PARK14), FBXO7 (PARK15), and Spatacsin (SPG11) also produce clinical similar phenotypes in that they presented with rapidly progressive parkinsonism, initially responsive to Levodopa treatment but later, developed additional features including cognitive decline",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2010",
+            "authors": [
+              "Paisán-Ruiz Coro",
+              "Guevara Rocio",
+              "Federoff Monica",
+              "Hanagasi Hasmet",
+              "Sina Fardaz"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Intramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Brain",
+              "F-Box Proteins",
+              "Female",
+              "Genetic Association Studies",
+              "Genotype",
+              "Group VI Phospholipases A2",
+              "Humans",
+              "Levodopa",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20669327/"
+          },
+          {
+            "pmid": "20629144",
+            "title": "Indian-subcontinent NBIA: unusual phenotypes, novel PANK2 mutations, and undetermined genetic forms.",
+            "abstract": "Neurodegeneration with brain iron accumulation (NBIA) is etiologically, clinically, and by imaging a heterogeneous group including NBIA types 1 [pantothenate kinase-associated neurodegeneration (PKAN)] and 2 (PLA2G6-associated neurodegeneration), neuroferritinopathy, and aceruloplasminaemia. Data on genetically defined Indian-subcontinent NBIA cases are limited. We report 6 patients from the Indian-subcontinent with a movement disorder and MRI basal ganglia iron deposition, compatible with diagnosis of an NBIA syndrome. All patients were screened for abnormalities in serum ceruloplasmin and ferritin levels and mutations in NBIA-associated genes [pantothenate kinase 2 (PANK2), PLA2G6 and ferritin light chain (exon 4)]. We present clinical, imaging and genetic data correlating phenotype-genotype relations. Four patients carried PANK2 mutations, two of these were novel. The clinical phenotype was mainly dystonic with generalized dystonia and marked orobulbar features in the 4 adolescent-o",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2010",
+            "authors": [
+              "Aggarwal Annu",
+              "Schneider Susanne A",
+              "Houlden Henry",
+              "Silverdale Monty",
+              "Paudel Reema"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arginine-tRNA Ligase",
+              "Ceruloplasmin",
+              "Female",
+              "Ferritins",
+              "Humans",
+              "India",
+              "Iron Metabolism Disorders",
+              "Magnetic Resonance Imaging",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20629144/"
+          },
+          {
+            "pmid": "31505688",
+            "title": "Childhood Dystonia-Parkinsonism Following Infantile Spasms-Clinical Clue to Diagnosis in Early Beta-Propeller Protein-Associated Neurodegeneration.",
+            "abstract": "Beta-propeller protein-associated neurodegeneration (BPAN) is a very rare, X-linked dominant (XLD) inherited member of the neurodegeneration with brain iron accumulation (NBIA) disease family.",
+            "journal": "Neuropediatrics",
+            "year": "2020",
+            "authors": [
+              "Hornemann Frauke",
+              "Le Duc Diana",
+              "Roth Christian",
+              "Pfäffle Roland",
+              "Huhle Dagmar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Dystonia",
+              "Female",
+              "Humans",
+              "Infant",
+              "Iron Metabolism Disorders",
+              "Magnetic Resonance Imaging",
+              "Neuroaxonal Dystrophies",
+              "Parkinsonian Disorders",
+              "Spasms, Infantile"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31505688/"
+          },
+          {
+            "pmid": "17569231",
+            "title": "Neurodegeneration with brain iron accumulation: clinical, radiographic and genetic heterogeneity and corresponding therapeutic options.",
+            "abstract": "Neurodegeneration with brain iron accumulation (NBIA), formerly known as Hallervorden-Spatz syndrome, is a heterogeneous group of disorders with different treatment options.",
+            "journal": "Acta neurologica Belgica",
+            "year": "2007",
+            "authors": [
+              "Clement Frederik",
+              "Devos David",
+              "Moreau Caroline",
+              "Coubes Philippe",
+              "Destee Alain"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Brain",
+              "Brain Diseases, Metabolic",
+              "DNA Mutational Analysis",
+              "Diagnosis, Differential",
+              "Dystonia",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Iron"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17569231/"
+          },
+          {
+            "pmid": "41769496",
+            "title": "Adult-Onset PLA2G6-Associated Parkinsonism With Claval Hypertrophy: A Rare Radiological-Genetic Association.",
+            "abstract": "A man in his 20s presented with rapidly progressive spastic parkinsonism, right-hand focal dystonia, memory impairment, and behavioural changes over eight months, resulting in complete dependence. Examination showed spasticity, rigidity, bradykinesia, ankle clonus, postural instability, slowed saccades, and cognitive deficits (Mini-Mental State Examination 25/30, Montreal Cognitive Assessment 20/30). Brain magnetic resonance imaging revealed mild cerebellar atrophy, claval hypertrophy, and minimal lentiform susceptibility blooming. Whole-exome sequencing identified a heterozygous pathogenic PLA2G6 variant (c.2222G>A; p.Arg741Gln). No family history was present. Symptomatic treatment with levodopa/carbidopa, trihexyphenidyl, and baclofen yielded partial initial benefit but limited sustained response over six months of follow-up. This case expands the adult-onset PLA2G6-associated neurodegeneration phenotype by combining aggressive progression, early cognitive involvement, and rare infan",
+            "journal": "Cureus",
+            "year": "2026",
+            "authors": [
+              "Mishra Biswamohan",
+              "Mishra Om",
+              "Nayak Manoj Kumar",
+              "Pradhan Nikhilesh",
+              "Sarangi Pradosh Kumar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41769496/"
+          },
+          {
+            "pmid": "8439265",
+            "title": "Rehabilitation of patients with Hallervorden-Spatz syndrome.",
+            "abstract": "Hallervorden-Spatz Syndrome is an infrequently occurring disorder involving pigmentary degeneration of the globus pallidus, red nucleus, and substantia nigra. Resultant corticospinal and extrapyramidal signs and symptoms predominate early in the course of the disease, with concomitant intellectual deterioration paralleling the developing muscular disorder. To date, there have been no reports in the literature of rehabilitative intervention in patients with this disabling pathology. We report the case of a 43-year-old man whose illness spanned 20 years. He was referred for rehabilitation after a precipitous decline in function over the course of six months. An interdisciplinary team approach was implemented and various medical strategies were used, including the initiation of carbidopa-levodopa. An improvement in functional skills, communication, and the ability to use cognitive strategies was observed. We conclude that a multidisciplinary team approach and in selected cases, the use of",
+            "journal": "Archives of physical medicine and rehabilitation",
+            "year": "1993",
+            "authors": [
+              "Seibel M O",
+              "Date E S",
+              "Zeiner H",
+              "Schwartz M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Activities of Daily Living",
+              "Adult",
+              "Carbidopa",
+              "Drug Therapy, Combination",
+              "Exercise Therapy",
+              "Humans",
+              "Levodopa",
+              "Male",
+              "Movement Disorders",
+              "Pantothenate Kinase-Associated Neurodegeneration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8439265/"
+          },
+          {
+            "pmid": "14580665",
+            "title": "Familial pediatric rapidly progressive extrapyramidal syndrome: is it Hallervorden-Spatz disease?",
+            "abstract": "The clinical features of two children of a family with rapidly progressive extrapyramidal-pyramidal-dementia complex have been described. Inheritance seems most likely to be autosomal recessive. Magnetic resonance imaging results of brain were negative. Even so, the authors argued in favor of a diagnosis of Hallervorden-Spatz disease because the cases fulfilled the clinical criteria for diagnosis of this disease. Apart from the negative magnetic resonance findings, the other unusual feature was the early development of levodopa-induced dyskinesia. Few conditions need to be considered in the differential diagnosis of a childhood-onset rapidly progressive extrapyramidal syndrome. Such conditions include Wilson's disease, Hallervorden-Spatz disease (HSD), juvenile form of Huntington's disease, juvenile neuronal ceroid lipofuscinosis, early-onset Machado-Joseph disease neuroacanthocytosis, storage disorders, and variant form of dopa-response dystonias (DRD). Rarer conditions are Leigh's di",
+            "journal": "Pediatric neurology",
+            "year": "2003",
+            "authors": [
+              "Chakravarty Ambar",
+              "Mukherjee Angshuman",
+              "Sen Ansu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Basal Ganglia Diseases",
+              "Child",
+              "Dementia",
+              "Diagnosis, Differential",
+              "Dyskinesias",
+              "Dystonia",
+              "Extrapyramidal Tracts",
+              "Female",
+              "Genes, Recessive",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14580665/"
+          },
+          {
+            "pmid": "11551749",
+            "title": "Striatal and pontocerebellar hypoperfusion in Hallervorden-Spatz syndrome.",
+            "abstract": "Hallervorden-Spatz syndrome is a group of rare and severe disorders marked by extrapyramidal symptoms and iron accumulation in the globi pallidi, usually visible by magnetic resonance imaging. To assist in determining the functional correlates of these structural abnormalities, positron emission tomography was used to measure regional cerebral blood flows and dopaminergic function in a patient with Hallervorden-Spatz syndrome that manifested as progressive generalized dystonia, optic atrophy, and bilateral pallidal \"eye of the tiger\" sign. Voxel-by-voxel analysis of positron emission tomography images revealed no pallidal abnormalities but demonstrated significant hypoperfusion of the head of the right caudate nucleus, pons, and cerebellar vermis. Dopaminergic function of the basal ganglia, which was assessed based on visual- analysis of fixation of 18F-labeled fluoro-levodopa, was normal. These data suggest that Hallervorden-Spatz syndrome pathogenesis is not confined to the globi pal",
+            "journal": "Pediatric neurology",
+            "year": "2001",
+            "authors": [
+              "Castelnau P",
+              "Zilbovicius M",
+              "Ribeiro M J",
+              "Hertz-Pannier L",
+              "Ogier H"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Cerebrovascular Circulation",
+              "Child",
+              "Dopamine",
+              "Humans",
+              "Male",
+              "Pantothenate Kinase-Associated Neurodegeneration",
+              "Tomography, Emission-Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11551749/"
+          },
+          {
+            "pmid": "12532925",
+            "title": "Hallervorden Spatz syndrome (pantothenate kinase associated neurodegeneration) in two Sardinian brother with homozygous mutation in PANK 2 gene.",
+            "abstract": "",
+            "journal": "Journal of neurology",
+            "year": "2002",
+            "authors": [
+              "Cossu Giovanni",
+              "Melis Maurizio",
+              "Floris Gianluca",
+              "Hayflick Susan J",
+              "Spissu Andrea"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dibenzothiazepines",
+              "Female",
+              "Globus Pallidus",
+              "Homozygote",
+              "Humans",
+              "Italy",
+              "Levodopa",
+              "Magnetic Resonance Imaging",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12532925/"
+          },
+          {
+            "pmid": "7487542",
+            "title": "[Precocious Parkinson's disease associated with \"eye-of-the-tiger\" type pallidal lesions].",
+            "abstract": "We report the case of a 56-years-old woman patient, born to unrelated parents, who since 26-years-old gradually developed bradykinesia, rigidity, tremor of both hands, and speech and gait difficulties. Her past history was unremarkable. There was no family history of neurologic disease. She was admitted to our Hospital at age 39 and at that time she presented a full parkinsonian syndrome. The following tests were normal or negative: routine blood studies, serum copper, ceruloplasmin and cerebrospinal fluid examination. There was not Kayser-Fleicher ring, and fundoscopic examination revealed no abnormalities. Levodopa was introduced and response was good for more than ten years, despite early-onset of dyskinesias (three months after the introduction of the drug). After 30 years under levodopa she still presents a moderate response but with severe fluctuations of the motor performance. Except for slowness of cognition she developed no other neuropsychological impairments, and a recent ne",
+            "journal": "Arquivos de neuro-psiquiatria",
+            "year": "1995",
+            "authors": [
+              "Barbosa E R",
+              "Bittar M S",
+              "Bacheschi L A",
+              "Comerlatti L R",
+              "Scaff M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Diagnosis, Differential",
+              "Female",
+              "Globus Pallidus",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Middle Aged",
+              "Pantothenate Kinase-Associated Neurodegeneration",
+              "Parkinson Disease, Secondary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7487542/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myelitis",
+        "txgnn_score": 0.9846591949462892,
+        "txgnn_rank": 14409,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9302666",
+            "title": "Systemic lupus erythematosus associated with transverse myelitis and parkinsonian symptoms.",
+            "abstract": "A 31-year old woman developed transverse myelitis after 10 years remission since she was first diagnosed as systemic lupus erythematosus. Although pulse methyl prednisolone resolved her myelitis, Parkinson-like symptoms developed subsequently after reduction of steroid. Treatments including apheresis did not improve her Parkinson-like symptoms such as rigidity, akinesia, impairment of speech and mask-like facial expression. Levodopa was effective as a symptomatic therapy. Orally administered cyclophosphamide eventually led her to remission and withdrawal from levodopa. Her clinical course and the absence of other possible causes prompted us to conclude that Parkinsonian symptoms as well as transverse myelitis may have developed as manifestations of central nervous system lupus.",
+            "journal": "Lupus",
+            "year": "1997",
+            "authors": [
+              "Osawa H",
+              "Yamabe H",
+              "Kaizuka M",
+              "Tamura N",
+              "Tsunoda S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antiparkinson Agents",
+              "Cyclophosphamide",
+              "Female",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Levodopa",
+              "Lupus Erythematosus, Systemic",
+              "Myelitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9302666/"
+          },
+          {
+            "pmid": "32372748",
+            "title": "Case Report: Dengue Virus-Triggered Parkinsonism in an Adolescent.",
+            "abstract": "Dengue fever continues to be an important cause of morbidity and mortality in tropical and subtropical countries. A wide range of neurological manifestations including dengue encephalopathy, Guillain-Barre syndrome, acute disseminated encephalomyelitis, transverse myelitis, cranial nerve palsies, and myositis have been reported following dengue infection. But parkinsonism secondary to dengue virus infection is uncommon, with only three published case reports in adults and one in children. We describe a 13-year-old pre-morbidly normal boy, who presented with bradykinesia, bradyphonia, mask-like facies, and cogwheel rigidity while recovering from uncomplicated DF. He responded favorably to levodopa/carbidopa supplementation and had resolution of symptoms over the next 2 weeks. We also did a comparative review of all published cases of dengue-induced parkinsonism. Post-dengue, parkinsonism is uncommon, and treating clinicians should be aware of this uncommon but treatable neurological com",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "2020",
+            "authors": [
+              "Panda Prateek Kumar",
+              "Sharawat Indar Kumar",
+              "Bolia Rishi",
+              "Shrivastava Yash"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antiparkinson Agents",
+              "Brain",
+              "Carbidopa",
+              "Dengue",
+              "Diffusion Magnetic Resonance Imaging",
+              "Drug Combinations",
+              "Electroencephalography",
+              "Humans",
+              "India"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32372748/"
+          },
+          {
+            "pmid": "6767916",
+            "title": "[Usefulness of new drugs].",
+            "abstract": "",
+            "journal": "MMW, Munchener medizinische Wochenschrift",
+            "year": "1980",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cost-Benefit Analysis",
+              "Humans",
+              "Hypertension",
+              "Influenza Vaccines",
+              "Levodopa",
+              "Measles Vaccine",
+              "Parkinson Disease",
+              "Poliomyelitis",
+              "Poliovirus Vaccine, Oral",
+              "Psychotropic Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6767916/"
+          },
+          {
+            "pmid": "8407144",
+            "title": "Postpolio syndrome--response to deprenyl (selegiline).",
+            "abstract": "Two patients with postpolio syndrome are presented. The first case developed mild Parkinson's syndrome, for which she was treated with a levodopa/carbidopa combination followed by the institution of deprenyl. An unexpected improvement in the symptoms of postpolio syndrome was noted. The second patient who was unaffected by Parkinson's syndrome was started on deprenyl alone and reported a similar improvement in symptomatology.",
+            "journal": "The International journal of neuroscience",
+            "year": "1993",
+            "authors": [
+              "Bamford C R",
+              "Montgomery E B",
+              "Muñoz J E",
+              "Stumpf C",
+              "Pry S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carbamazepine",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Pain",
+              "Postpoliomyelitis Syndrome",
+              "Selegiline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8407144/"
+          },
+          {
+            "pmid": "8277583",
+            "title": "[Movement disorders in HTLV-I associated myelopathy (HAM)].",
+            "abstract": "Periodic movements in sleep (nocturnal myoclonus) are characterized by a triple flexion of the ankle, knee and hip, which are particularly evident during 1-2 and 2-3 sleep stages. Iijima et al (1991) reported these movements in 5 out of 7 HAM patients, suggesting that nocturnal myoclonus is not rare in HAM. L-dopa and bromocriptine are reported to be the most effective. Spinal myoclonus (SM) is characterized by symmetric, rhythmic involuntary contractions of muscle groups supplied by one or several contiguous segments of the spinal cord. There has been only one case report of SM by Kanda et al (1988). Clonazepam and tetrabenazine are reported to be the most effective. Tremor is characterized by a sinusoidal oscillatory movement produced by synchronous or alternating contractions of reciprocally innervated antagonist muscles. Postural finger tremor was seen in about 40% of HAM patients (Suwazono et al, 1989). Painful, paroxysmal muscle contractions of the lower limbs were reported in on",
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1993",
+            "authors": [
+              "Osawa M",
+              "Maruyama S"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clonazepam",
+              "Diagnosis, Differential",
+              "Electromyography",
+              "Humans",
+              "Levodopa",
+              "Myoclonus",
+              "Paraparesis, Tropical Spastic",
+              "Polysomnography",
+              "Spinal Cord"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8277583/"
+          },
+          {
+            "pmid": "22922",
+            "title": "[Ocular consequences of systemic therapy].",
+            "abstract": "",
+            "journal": "La Revue du praticien",
+            "year": "1977",
+            "authors": [
+              "Dubois-Poulsen A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Antipsychotic Agents",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Ethambutol",
+              "Eye Diseases",
+              "Glaucoma",
+              "Humans",
+              "Levodopa",
+              "Myelitis",
+              "Optic Neuritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22922/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "transaldolase deficiency",
+        "txgnn_score": 0.981978476047516,
+        "txgnn_rank": 16025,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paralysis agitans, juvenile, of Hunt",
+        "txgnn_score": 0.98029226064682,
+        "txgnn_rank": 16886,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fructose-1,6-bisphosphatase deficiency",
+        "txgnn_score": 0.9781272411346436,
+        "txgnn_rank": 17929,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "progressive supranuclear palsy-corticobasal syndrome",
+        "txgnn_score": 0.9758291840553284,
+        "txgnn_rank": 18957,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04925622",
+            "title": "Complex Eye Movements in Parkinson's Disease and Related Movement Disorders",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-01-04",
+            "completion_date": "2022-04-15",
+            "country": "United States",
+            "enrollment": 90,
+            "brief_summary": "Diagnosing Parkinson's disease (PD) depends on the clinical history of the patient and the patient's response to specific treatments such as levodopa. Unfortunately, a definitive diagnosis of PD is still limited to post-mortem evaluation of brain tissues. Furthermore, diagnosis of idiopathic PD is even more challenging because symptoms of PD overlap with symptoms of other conditions such as essential tremor (ET) or Parkinsonian syndromes (PSs) such as progressive supranuclear palsy (PSP), multip",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients assigned to PD or non-PD group based on medical records\n* Control participants will be without previous diagnosis of a movement disorder\n* Experimental groups and normal controls matched by age and gender\n\nExclusion Criteria:\n\n* Severe drug/alcohol use\n* Severe medica",
+            "endpoints": [
+              "Percent of patients accurately diagnosed with SaccadeDX"
+            ],
+            "sponsor": "Saccadous, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04925622"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06836921",
+            "title": "WECARE APD: Randomized Trial to Evaluate the Impact of a Single Multidisciplinary Team Visit for Atypical Parkinsonian Disorders: a Feasibility Study",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-03-15",
+            "completion_date": "2026-07-20",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "Atypical Parkinsonian disorders (APD) are a group of brain disorders that look like Parkinson's disease but progress faster and don't respond well to common treatments like levodopa. These conditions include Progressive Supranuclear Palsy (PSP), Corticobasal Syndrome (CBS), and Multiple System Atrophy (MSA). Caring for APD patients is especially challenging because the symptoms worsen quickly and require multiple specialists, often leading to separate visits with different doctors and therapists",
+            "eligibility_criteria": "Inclusion Criteria (Participants must meet all of the following conditions to be eligible for the study):\n\n* Participants must be older than 40 years.\n* The participant must meet the standard international consensus criteria for a clinically probable diagnosis of one of the following neurodegenerati",
+            "endpoints": [
+              "Percentage of Eligible Participants Willing to be Randomized",
+              "Percentage of Participants Completing Outcome Assessment",
+              "Satisfaction survey (Quantitative)"
+            ],
+            "sponsor": "Western University",
+            "url": "https://clinicaltrials.gov/study/NCT06836921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06949865",
+            "title": "Clinical Research on Optimization of Acute Levodopa Challenge Test and Exploration of New Motor Paradigm Based on the Integration of Perception Technology and Artificial Intelligence",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-05-28",
+            "completion_date": "2026-12-31",
+            "country": "China",
+            "enrollment": 2000,
+            "brief_summary": "A quantitative evaluation method was developed for Parkinson's disease and other atypical parkinonism by integrating an innovative motor paradigm with perception technologies and artificial intelligence. Combined with traditional motor paradigms and the acute levodopa challenge test, this study aims to identify diagnostic cut-off values for PD and other atypical parkinonism, explore digital biomarkers for early and differential diagnosis, and establish a corresponding diagnostic model.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Parkinson's disease (PD) group: 1. Patients with confirmed Parkinson's disease diagnosed based on the 2015 International Movement Disorder Society (MDS) Parkinson's Disease Diagnostic Criteria; 2. Patients with early-stage PD meet the Hoehn-Yahr score ≤ 2.5 points, and patien",
+            "endpoints": [
+              "Accuracy",
+              "Diagnostic Odds Ratio",
+              "Specificity"
+            ],
+            "sponsor": "Beijing Tiantan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06949865"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02994719",
+            "title": "Gait Pattern Analysis in Neurological Disease",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2016-03-01",
+            "completion_date": "2026-06-20",
+            "country": "United States",
+            "enrollment": 120,
+            "brief_summary": "The purpose of this study is to investigate whether speed-dependent measures of gait can be identified in patients with neurological conditions that affect gait, particularly in subjects with parkinsonian disorders.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-85 (for both healthy and affected subjects).\n* Presence of at least 2 of the following: bradykinesia, rest tremor, rigidity, postural instability (UK PD Brain Bank Criteria) (Affected subjects only).\n* Montreal Cognitive Assessment will be employed to determine whether ",
+            "endpoints": [
+              "Gait speed"
+            ],
+            "sponsor": "Beth Israel Deaconess Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02994719"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06174948",
+            "title": "The Use of the CUE1/CUE1+ Device in People With Idiopathic Parkinson's Disease and Related Disorders: A Feasibility Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-03-25",
+            "completion_date": "2025-03-31",
+            "country": "United Kingdom",
+            "enrollment": 70,
+            "brief_summary": "People with Parkinson's disease (PD) commonly experience a range of both motor (e.g., bradykinesia, rigidity, tremor, and postural instability) and non-motor (e.g., fatigue, psychiatric and behavioural disturbances, autonomic dysfunction, cognitive impairment, sleep dysfunction and olfactory loss) features. Currently, it is challenging to alleviate these symptoms with first-line treatment, the medications such as levodopa. The CUE1 is a non-invasive device, which is approved for sale in the UK m",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults over 18 years old\n* Clinical diagnosis of idiopathic PD and related disorders including progressive supranuclear palsy (PSP), multiple system atrophy (MSA), corticobasal degeneration (CBD), and vascular Parkinsonism (VaP) as well as atypical dystonias and tremor disorde",
+            "endpoints": [
+              "Recruitment rate",
+              "Compliance with interventions",
+              "Dropout rate"
+            ],
+            "sponsor": "Queen Mary University of London",
+            "url": "https://clinicaltrials.gov/study/NCT06174948"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07322458",
+            "title": "The Effect of Spinal Cord Stimulation on Orthostatic Hypotension in Parkinsonism and Its Related Mechanisms",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-01",
+            "completion_date": "2028-06-30",
+            "country": "China",
+            "enrollment": 40,
+            "brief_summary": "Parkinson's disease (PDS) is a syndrome characterized by tremor, bradykinesia, rigidity, and postural disturbances. Causes include Parkinson's disease (PD), multiple system atrophy (MSA), progressive supranuclear palsy (PSP), and corticobasal degeneration (CBD). Non-motor symptoms of PDS, such as neurogenic orthostatic hypotension (nOH), have received more intensive research due to their greater disabling potential compared to motor symptoms. In patients with PD and MSA, nOH can lead to intolera",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Aged between 40 and 80 years;\n* 2\\. No dementia as measured by the cMMSE scale (formal cMMSE score should be \\>20 for subjects with 1 to 6 years of formal education; cMMSE score should be \\>24 for subjects with \\>6 years of formal education);\n* 3\\. Able and willing to foll",
+            "endpoints": [
+              "Change of blood pressure from baseline to immediately post-operation or post transcutaneous stimulation",
+              "Change of blood pressure from baseline to 3 months post-operation or post transcutaneous stimulation",
+              "Change of blood pressure from baseline to 6 months post-operation or post transcutaneous stimulation"
+            ],
+            "sponsor": "Ruijin Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07322458"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31356287",
+            "title": "Progressive Supranuclear Palsy, Corticobasal Degeneration, and Multiple System Atrophy.",
+            "abstract": "Patients who have parkinsonian features, especially without tremor, that are not responsive to levodopa, usually have one of these three major neurodegenerative disorders rather than Parkinson disease: progressive supranuclear palsy (PSP), multiple system atrophy (MSA), or corticobasal degeneration (CBD). Each of these disorders eventually develops signs and symptoms that distinguish it from idiopathic Parkinson disease, but these may not be present at disease onset. Although these conditions are not generally treatable, it is still important to correctly diagnose the condition as soon as possible.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2019",
+            "authors": [
+              "Greene Paul"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Basal Ganglia Diseases",
+              "Diagnosis, Differential",
+              "Dopamine Agents",
+              "Female",
+              "Humans",
+              "Levodopa",
+              "Male",
+              "Middle Aged",
+              "Multiple System Atrophy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31356287/"
+          },
+          {
+            "pmid": "30051337",
+            "title": "Therapeutic Management of the Overlapping Syndromes of Atypical Parkinsonism.",
+            "abstract": "Progressive supranuclear palsy, corticobasal degeneration and multiple system atrophy account for approximately 10% of neurodegenerative parkinsonism. Considerable clinical overlap exists between these disorders that extends to features considered characteristic of each disease. Clinical diagnostic criteria have attempted to increase the accuracy of clinical diagnosis as accurate diagnosis is necessary to inform prognosis and to facilitate the recognition of disease-modifying treatments. Currently no such treatment exists. Nevertheless, many clinical trials aiming to change the natural history of these diseases are ongoing. The spread and accumulation of abnormal proteins are among the pathophysiological mechanisms targeted. For the time being, however, only symptomatic treatment is available. Levodopa is used to treat parkinsonism, but patients usually show a poor or transient response. Amantadine is also used in practice for the same indication. Botulinum toxin can alleviate focal dy",
+            "journal": "CNS drugs",
+            "year": "2018",
+            "authors": [
+              "Giagkou Nikolaos",
+              "Stamelou Maria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Disease Management",
+              "Dystonic Disorders",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Parkinsonian Disorders",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30051337/"
+          },
+          {
+            "pmid": "38881158",
+            "title": "Expanding the Spectrum of GBA1-Associated Neurodegenerative Diseases in an Italian Family.",
+            "abstract": "Heterozygous mutations in GBA1 gene are known as most common genetic risk factor for Parkinson's disease (PD). However, role of GBA1 mutations in non-α-synuclein disorders is unclear.",
+            "journal": "Movement disorders clinical practice",
+            "year": "2024",
+            "authors": [
+              "Sorrentino Cristiano",
+              "Dati Giovanna",
+              "Cuoco Sofia",
+              "Barone Paolo",
+              "Pellecchia Maria Teresa"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glucosylceramidase",
+              "Female",
+              "Aged",
+              "Male",
+              "Neurodegenerative Diseases",
+              "Italy",
+              "Parkinson Disease",
+              "Mutation",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38881158/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Lewy body dementia",
+        "txgnn_score": 0.9724525213241576,
+        "txgnn_rank": 20347,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03305809",
+            "title": "Effect of LY3154207 on Cognition in Mild-to-Moderate Dementia Due to Lewy Body Dementia (LBD) Associated With Idiopathic Parkinson's Disease (PD) or Dementia With Lewy Bodies (DLB)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-11-09",
+            "completion_date": "2020-07-10",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 344,
+            "brief_summary": "A randomized placebo-controlled trial to evaluate the safety and efficacy of three doses of study drug LY3154207 treated for 12 weeks in participants with mild-to-moderate dementia associated with LBD (PDD or DLB).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have dementia as defined by a decline in cognitive function, which in the opinion of the investigator has resulted in functional impairment.\n* Meet diagnostic criteria for PD per MDS criteria or DLB per 4th Consensus Report of the DLB Consortium.\n* Have a score on the MoCA of ",
+            "endpoints": [
+              "Change From Baseline in the Continuity of Attention (CoA) Composite Score of the Cognitive Drug Research Computerized Cognition Battery (CDR-CCB)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT03305809"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06949865",
+            "title": "Clinical Research on Optimization of Acute Levodopa Challenge Test and Exploration of New Motor Paradigm Based on the Integration of Perception Technology and Artificial Intelligence",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-05-28",
+            "completion_date": "2026-12-31",
+            "country": "China",
+            "enrollment": 2000,
+            "brief_summary": "A quantitative evaluation method was developed for Parkinson's disease and other atypical parkinonism by integrating an innovative motor paradigm with perception technologies and artificial intelligence. Combined with traditional motor paradigms and the acute levodopa challenge test, this study aims to identify diagnostic cut-off values for PD and other atypical parkinonism, explore digital biomarkers for early and differential diagnosis, and establish a corresponding diagnostic model.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Parkinson's disease (PD) group: 1. Patients with confirmed Parkinson's disease diagnosed based on the 2015 International Movement Disorder Society (MDS) Parkinson's Disease Diagnostic Criteria; 2. Patients with early-stage PD meet the Hoehn-Yahr score ≤ 2.5 points, and patien",
+            "endpoints": [
+              "Accuracy",
+              "Diagnostic Odds Ratio",
+              "Specificity"
+            ],
+            "sponsor": "Beijing Tiantan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06949865"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04062279",
+            "title": "Predictors of Parkinson's Disease Progression in Sample of Egyptian Patients; Clinical and Biochemical",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2019-11-15",
+            "completion_date": "2024-10-01",
+            "country": "Egypt",
+            "enrollment": 100,
+            "brief_summary": "it is a prospective longitudinal observational study, aiming to to identify clinical, and biochemical baseline predictors of motor and non-motor PD progression in sample of Egyptian patients. it measures the baseline motor, non-motor, biochemical and imaging characteristics at enrollment and its relation to PD progression over 3 years",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • All are Arabic-speaking individuals diagnosed with PD by a movement disorder neurologist based on the UK bank criteria for idiopathic Parkinson's disease.\n\n  * An oral informed consent will be taken from the cases before they participate in the study.\n\nExclusion Criteria:\n\n*",
+            "endpoints": [
+              "predictors of progression of motor features of PD",
+              "predictors of progression of non motor features of PD"
+            ],
+            "sponsor": "Ain Shams University",
+            "url": "https://clinicaltrials.gov/study/NCT04062279"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06112392",
+            "title": "Stellate Ganglion Block in Patients With Advanced Primary Parkinson's Disease: a Small, Open, Randomized Controlled Clinical Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2023-07-28",
+            "completion_date": "2024-06-30",
+            "country": "China",
+            "enrollment": 38,
+            "brief_summary": "At present, there are no reports on the application of stellate ganglion block in the treatment of Parkinson's disease patients at home and abroad. Based on the preliminary clinical observation, this project intends to apply stellate ganglion block in the treatment of patients with intermediate and advanced Parkinson's disease through an open, randomized controlled small sample clinical study. To determine whether stellate ganglion block can effectively improve motor symptoms and non-motor sympt",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with Parkinson's disease who met the diagnostic criteria for MDS as \"probable PD\" or\" confirmed PD\" in 2016\n\nInclusion criteria:\n\n1. Age 40-85;\n2. Patients with Parkinson's disease who met the diagnostic criteria of MDS as \"probable PD\" or\" confirmed PD\" in 2016;\n3. T",
+            "endpoints": [
+              "Improved MDS-UPDRS scale scoring"
+            ],
+            "sponsor": "Zhujiang Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06112392"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03764215",
+            "title": "An Open Label, Phase Ib Study to Evaluate the Impact of Low Doses of Nilotinib Treatment on Safety, Tolerability and Biomarkers in Huntington's Disease",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2018-11-15",
+            "completion_date": "2020-11-30",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "Based on strong pre-clinical evidence of the effects of Nilotinib on neurodegenerative pathologies, including autophagic clearance of neurotoxic proteins, neurotransmitters (dopamine and glutamate), immunity and behavior, the investigators conducted an open label pilot clinical trial in mid-to-advanced PD with dementia (PDD) and Dementia with Lewy Bodies (DLB) (stage 3-4) patients. Participants (N=12) were randomized 1:1 to once daily oral dose of 150mg and 300mg Nilotinib for 6 months. The inve",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent\n* Capable of providing informed consent and complying with study procedures. Subjects who are unable to provide consent may use a Legally Authorized Representative (LAR).\n* Patients between the age of 25-90 years, medically stable\n* Clinical diagnosis ",
+            "endpoints": [
+              "Number of participants experiencing any Adverse events and Serious Adverse Events",
+              "CSF levels of biomarkers linked to Disease symptoms Chorea and behavioral symptoms",
+              "Number of participants tolerating the drug by the ability of remaining on treatment"
+            ],
+            "sponsor": "Georgetown University",
+            "url": "https://clinicaltrials.gov/study/NCT03764215"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26085043",
+            "title": "Pharmacological Management of Lewy Body Dementia: A Systematic Review and Meta-Analysis.",
+            "abstract": "The authors examined research on effects, costs, and patient and caregiver views of pharmacological management strategies for Lewy body dementia.",
+            "journal": "The American journal of psychiatry",
+            "year": "2015",
+            "authors": [
+              "Stinton Chris",
+              "McKeith Ian",
+              "Taylor John-Paul",
+              "Lafortune Louise",
+              "Mioshi Eneida"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Attitude to Health",
+              "Caregivers",
+              "Excitatory Amino Acid Antagonists",
+              "Humans",
+              "Lewy Body Disease",
+              "Neuroprotective Agents",
+              "Nootropic Agents",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26085043/"
+          },
+          {
+            "pmid": "16237129",
+            "title": "Diagnosis and management of dementia with Lewy bodies: third report of the DLB Consortium.",
+            "abstract": "The dementia with Lewy bodies (DLB) Consortium has revised criteria for the clinical and pathologic diagnosis of DLB incorporating new information about the core clinical features and suggesting improved methods to assess them. REM sleep behavior disorder, severe neuroleptic sensitivity, and reduced striatal dopamine transporter activity on functional neuroimaging are given greater diagnostic weighting as features suggestive of a DLB diagnosis. The 1-year rule distinguishing between DLB and Parkinson disease with dementia may be difficult to apply in clinical settings and in such cases the term most appropriate to each individual patient should be used. Generic terms such as Lewy body (LB) disease are often helpful. The authors propose a new scheme for the pathologic assessment of LBs and Lewy neurites (LN) using alpha-synuclein immunohistochemistry and semiquantitative grading of lesion density, with the pattern of regional involvement being more important than total LB count. The new",
+            "journal": "Neurology",
+            "year": "2005",
+            "authors": [
+              "McKeith I G",
+              "Dickson D W",
+              "Lowe J",
+              "Emre M",
+              "O'Brien J T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Corpus Striatum",
+              "Diagnosis, Differential",
+              "Dopamine Plasma Membrane Transport Proteins",
+              "Drug Tolerance",
+              "Humans",
+              "Lewy Bodies",
+              "Lewy Body Disease",
+              "REM Sleep Behavior Disorder",
+              "alpha-Synuclein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16237129/"
+          },
+          {
+            "pmid": "36402160",
+            "title": "Safety and efficacy of continuous subcutaneous foslevodopa-foscarbidopa in patients with advanced Parkinson's disease: a randomised, double-blind, active-controlled, phase 3 trial.",
+            "abstract": "Levodopa is the most effective symptomatic therapy for Parkinson's disease, but patients with advanced Parkinson's disease develop motor fluctuations with chronic oral levodopa therapy. Foslevodopa-foscarbidopa is a soluble formulation of levodopa and carbidopa prodrugs that is delivered as a 24-h/day continuous subcutaneous infusion, and we aimed to assess the safety and efficacy of this formulation in patients with advanced Parkinson's disease.",
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "authors": [
+              "Soileau Michael J",
+              "Aldred Jason",
+              "Budur Kumar",
+              "Fisseha Nahome",
+              "Fung Victor Sc"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carbidopa",
+              "Levodopa",
+              "Antiparkinson Agents",
+              "Parkinson Disease",
+              "Cellulitis",
+              "Dopamine Agonists",
+              "Dyskinesias"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36402160/"
+          },
+          {
+            "pmid": "30680679",
+            "title": "Pharmacological Management of Dementia with Lewy Bodies.",
+            "abstract": "Dementia with Lewy bodies (DLB) is a complex disease that involves a variety of cognitive, behavioral and neurological symptoms, including progressive memory loss, visual hallucinations, parkinsonism, cognitive fluctuations and rapid eye movement sleep behavior disorder (RBD). These symptoms may appear in varying combinations and levels of severity in each patient who is seen in the clinic, making diagnosis and treatment a challenge. DLB is the third most common of all the neurodegenerative diseases behind both Alzheimer's disease and Parkinson's disease (PD). The median age of onset for DLB (76.3 years) is younger than that seen in PD dementia (81.4 years). New pathological studies have shown that most DLB patients have variable amounts of Alzheimer's changes in their brains, explaining the wide variability in this disease's clinical presentation and clinical course. This review discusses the three cholinesterase inhibitors that have been shown to be effective in managing the cognitiv",
+            "journal": "Drugs & aging",
+            "year": "2019",
+            "authors": [
+              "Hershey Linda A",
+              "Coleman-Jackson Rhonda"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Aged",
+              "Anticonvulsants",
+              "Antiparkinson Agents",
+              "Cholinesterase Inhibitors",
+              "Clinical Trials, Phase II as Topic",
+              "Clonazepam",
+              "Humans",
+              "Levodopa",
+              "Lewy Body Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30680679/"
+          },
+          {
+            "pmid": "35619045",
+            "title": "Current Therapies and Drug Development Pipeline in Lewy Body Dementia: An Update.",
+            "abstract": "The term Lewy body dementia refers to either of two related diagnoses: dementia with Lewy bodies (DLB) and Parkinson's disease dementia (PDD). Clinical management of Lewy body dementia is challenging. The current treatment options focus on relieving symptoms; no disease-modifying therapies are available. There are currently no US Food and Drug Administration (FDA) approved drugs for the treatment of DLB, and there are only a few for PDD. Cholinesterase inhibitors are shown to be beneficial in improving cognitive symptoms in Lewy body dementia. Rivastigmine was approved by the FDA to treat PDD. Donepezil was approved in Japan as a treatment for DLB. Levodopa may provide modest benefit in treating motor symptoms and zonisamide in adjunct to low-dose levodopa helps with parkinsonism. Treatment of autonomic symptoms are based on symptomatic treatment with off-label agents. Our main objective in this article is to present an overview of the current pharmacological options available to treat",
+            "journal": "Drugs & aging",
+            "year": "2022",
+            "authors": [
+              "MacDonald Steve",
+              "Shah Ayushi Samir",
+              "Tousi Babak"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dementia",
+              "Drug Development",
+              "Humans",
+              "Levodopa",
+              "Lewy Body Disease",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35619045/"
+          },
+          {
+            "pmid": "10442673",
+            "title": "Lewy body dementia.",
+            "abstract": "Although Lewy body dementia (LBD) has received a considerable amount of interest in the last decade, there still exists a certain level of confusion concerning the clinical and neuropathological features associated with this disorder. According to many researchers, LBD represents a distinct dementing illness with specific clinical features. The neuropathological hallmark for this disorder is the Lewy body, a spherical intraneuronal cytoplasmic inclusion originally described in brainstem nuclei in Parkinson's disease. In LBD, Lewy bodies are found in subcortical nuclei, such as the substantia nigra, as well as diffusely in the neocortex. Recently, a consortium on dementia with Lewy bodies was held that established consensus guidelines for the clinical and pathological diagnosis of LBD. This review will focus on the newest developments in LBD, addressing specifically clinical and neuropathological features, diagnostic classification, genetics and potential pharmacotherapy.",
+            "journal": "Annals of medicine",
+            "year": "1999",
+            "authors": [
+              "Brown D F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Levodopa",
+              "Lewy Bodies",
+              "Male",
+              "Parkinson Disease",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10442673/"
+          },
+          {
+            "pmid": "38333295",
+            "title": "Insights into the management of Lewy body dementia: a scoping review.",
+            "abstract": "Lewy body dementia (LBD) is situated at the convergence of neurodegenerative disorders, posing an intricate and diverse clinical dilemma. The accumulation of abnormal protein in the brain, namely, the Lewy body causes disturbances in typical neural functioning, leading to a range of cognitive, motor, and mental symptoms that have a substantial influence on the overall well-being and quality of life of affected individuals. There is no definitive cure for the disease; however, several nonpharmacological and pharmacological modalities have been tried with questionable efficacies. The aim of this study is to figure out the role of different interventional strategies in the disease. Donepezil, rivastigmine, memantine, and galantamine were the commonly used drugs for LBD. Together with that, levodopa, antipsychotics, armodafinil, piracetam, and traditional medications like yokukansan were also used, when indicated. Talking about nonpharmacological measures, exercise, physical therapy, multi",
+            "journal": "Annals of medicine and surgery (2012)",
+            "year": "2024",
+            "authors": [
+              "Khan Sajjad Ahmed",
+              "Khan Sadab",
+              "Kausar Huma",
+              "Shah Rajat",
+              "Luitel Anish"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Scoping Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38333295/"
+          },
+          {
+            "pmid": "30807982",
+            "title": "Diffuse Lewy body disease.",
+            "abstract": "Diffuse Lewy body disease, also called dementia with Lewy bodies (DLB), is defined as progressive dementia and pathological Lewy bodies distributed in the central and autonomic nervous systems. The clinical features are dementia, cognitive fluctuations, visual hallucinations, parkinsonism, and REM sleep behavior disorder (RBD). Confirmatory techniques include dopamine transporter imaging, meta-iodobenzylguanidine (MIBG) myocardial scintigraphy, and polysomnography. The pathology finding in DLB is misfolded alpha-synuclein, the main component of Lewy bodies, propagating in the central nervous system. This may interrupt the acetylcholine pathway and activate an inflammatory response. Mutations of several genes have been found in patients with DLB, including SNCA, GBA, and APOE. The differential diagnosis of DLB and Parkinson's disease with dementia (PDD) is a debated issue. Clinical features distinguishing DLB from PDD include the timing of dementia and visual hallucinations, responses t",
+            "journal": "Journal of the neurological sciences",
+            "year": "2019",
+            "authors": [
+              "Lin Yu Wei",
+              "Truong Daniel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Dementia",
+              "Diagnosis, Differential",
+              "Humans",
+              "Lewy Body Disease",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30807982/"
+          },
+          {
+            "pmid": "38562616",
+            "title": "Association of Parkinson's disease to Parkinson's plus syndromes, Lewy body dementia, and Alzheimer's dementia.",
+            "abstract": "Parkinson's disease (PD) is a condition that affects movement and is usually seen in those over the age of 50. It is caused by the death of dopaminergic neurons, particularly in the substantia nigra. PD has shifted from being perceived as an uncommon condition to a significant neurological illness, mostly due to the increasing number of elderly individuals and the impact of environmental factors. Parkinson's plus syndromes, such as progressive supranuclear palsy (PSP), multiple system atrophy (MSA), corticobasal degeneration (CBD), and vascular Parkinsonism (VaP), provide difficulties in distinguishing them clinically from PD since they have similar characteristics.",
+            "journal": "Health science reports",
+            "year": "2024",
+            "authors": [
+              "Prajjwal Priyadarshi",
+              "Kolanu Nikhil Deep",
+              "Reddy Yeruva Bheemeswara",
+              "Ahmed Aneeqa",
+              "Marsool Mohammed Dheyaa Marsool"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38562616/"
+          },
+          {
+            "pmid": "14594099",
+            "title": "Dementia with Lewy bodies. Review of diagnosis and pharmacologic management.",
+            "abstract": "To review clinical features of dementia with Lewy bodies (DLB) and to guide family physicians in pharmacologic management, including medications to avoid. QUALITY OF EVIDENCE A MEDLINE: search of literature from 1995 to 2002 used the MeSH terms dementia with Lewy bodies/diagnosis, dementia with Lewy bodies/therapy, and antipsychotics/dementia with Lewy bodies. Level II and III evidence was available for diagnosis and treatment of DLB. One randomized controlled trial of rivastigmine was reviewed and appraised.",
+            "journal": "Canadian family physician Medecin de famille canadien",
+            "year": "2003",
+            "authors": [
+              "Frank Christopher"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiparkinson Agents",
+              "Antipsychotic Agents",
+              "Cholinesterase Inhibitors",
+              "Humans",
+              "Lewy Body Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14594099/"
+          },
+          {
+            "pmid": "17572053",
+            "title": "[Lewy body dementia and Parkinson disease dementia].",
+            "abstract": "Lewy body dementia and Parkinson disease dementia are frequent causes of degenerative dementia: 20% of the dementias in patients older than 65 years are caused by the former and nearly 80% of patients with advanced Parkinson disease develop the latter. Symptoms of Lewy body dementia include fluctuations of cognitive performance, frontal and visuospatial impairment, visual hallucinations, and parkinsonism. Parkinson disease dementia could be differentiated in two subtypes: a \"subcortical\" subtype, characterized by frontal impairment with apathy and dullness and a \"cortical\" subtype with symptoms similar to those of Lewy body dementia. Mastery of potential iatrogenic factors is important: psychotropic drugs must be prescribed at the strict minimum, and L-dopa monotherapy at the minimal dose acceptable for correcting Parkinsonian motor symptoms should be the rule. Acetylcholinesterase inhibitors may be useful in both these types of dementia: rivastigmine is approved for treating Parkinson",
+            "journal": "Presse medicale (Paris, France : 1983)",
+            "year": "2007",
+            "authors": [
+              "Meyniel Claire",
+              "Damier Philippe"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antiparkinson Agents",
+              "Antipsychotic Agents",
+              "Cholinesterase Inhibitors",
+              "Clozapine",
+              "Dementia",
+              "Diagnosis, Differential",
+              "Disease Progression",
+              "Dopamine Agents",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17572053/"
+          },
+          {
+            "pmid": "36266468",
+            "title": "Mitochondrial biogenesis, telomere length and cellular senescence in Parkinson's disease and Lewy body dementia.",
+            "abstract": "Progressive age is the single major risk factor for neurodegenerative diseases. Cellular aging markers during Parkinson's disease (PD) have been implicated in previous studies, however the majority of studies have investigated the association of individual cellular aging hallmarks with PD but not jointly. Here, we have studied the association of PD with three aging hallmarks (telomere attrition, mitochondrial dysfunction, and cellular senescence) in blood and the brain tissue. Our results show that PD patients had 20% lower mitochondrial DNA copies but 26% longer telomeres in blood compared to controls. Moreover, telomere length in blood was positively correlated with medication (Levodopa Equivalent Daily Dose, LEDD) and disease duration. Similar results were found in brain tissue, where patients with Parkinson's disease (PD), Parkinson's disease dementia (PDD) and Dementia with Lewy Bodies (DLB) showed (46-95%) depleted mtDNA copies, but (7-9%) longer telomeres compared to controls. I",
+            "journal": "Scientific reports",
+            "year": "2022",
+            "authors": [
+              "Asghar Muhammad",
+              "Odeh Amani",
+              "Fattahi Ahmad Jouni",
+              "Henriksson Alexandra Edwards",
+              "Miglar Aurelie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Parkinson Disease",
+              "Lewy Body Disease",
+              "Dementia",
+              "Organelle Biogenesis",
+              "Levodopa",
+              "Cellular Senescence",
+              "DNA, Mitochondrial",
+              "Telomere"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36266468/"
+          },
+          {
+            "pmid": "9382476",
+            "title": "Familial parkinsonism, dementia, and Lewy body disease: study of family G.",
+            "abstract": "Genetic influences are thought by many to play an important role in the cause of Parkinson's disease. We studied two closely intermarried families (Family G) whose ancestors immigrated to the United States from Russia. We investigated this family clinically, genealogically, and pathologically. Our pedigree contained 102 members spanning six generations, with 10 affected individuals and 1 affected spouse. Detailed telephone interviews were conducted with affected individuals, with their spouses, and with their at-risk siblings. Medical records of deceased and living affected patients were collected. Physical examinations were performed on 7 at-risk and 5 affected persons. Typical levodopa-responsive parkinsonism with bradykinesia, rigidity, resting tremor, and impaired postural reflexes was seen in 4 members, dementia was present in 3, and 3 had both dementia and parkinsonism. An autopsy completed on 1 individual, our index case, demonstrated Lewy bodies in the brainstem and neocortex a",
+            "journal": "Annals of neurology",
+            "year": "1997",
+            "authors": [
+              "Denson M A",
+              "Wszolek Z K",
+              "Pfeiffer R F",
+              "Wszolek E K",
+              "Paschall T M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Amygdala",
+              "Dementia",
+              "Female",
+              "Genes, Dominant",
+              "Humans",
+              "Lewy Bodies",
+              "Locus Coeruleus",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9382476/"
+          },
+          {
+            "pmid": "19191343",
+            "title": "Levodopa use and sleep in patients with dementia with Lewy bodies.",
+            "abstract": "Sleep disturbance and excessive daytime somnolence (EDS) are features of Parkinson's disease (PD) and dementia with Lewy bodies (DLB) that may be influenced by dopamine replacement therapy. The effect of levodopa on sleep and EDS in DLB is unknown and unclear in PD. The aim of this study is to determine if levodopa treatment alters sleep symptoms and EDS in DLB. Dopamine naïve patients with DLB (n = 15; mean mini mental state examination (MMSE) score 17.7(4.6)) and PD (n = 9; mean MMSE 25.5(2.2)) were assessed using the Epworth sleep scale, Parkinson's disease sleep scale, and the neuropsychiatric inventory prior to initiating treatment with levodopa. All measures were repeated after 3 and 6 months of levodopa therapy. The median final daily levodopa dose was 300 mg in both groups. Baseline sleep measures were comparable between groups. Levodopa treatment did not affect sleep or lead to increased EDS in DLB patients. The use of levodopa does not appear to adversely affect subjective sl",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2009",
+            "authors": [
+              "Molloy Sophie",
+              "Minett Thais",
+              "O'Brien John T",
+              "McKeith Ian G",
+              "Burn David J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antiparkinson Agents",
+              "Female",
+              "Humans",
+              "Levodopa",
+              "Lewy Body Disease",
+              "Male",
+              "Mental Status Schedule",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19191343/"
+          },
+          {
+            "pmid": "15109582",
+            "title": "Dementia with Lewy bodies and Parkinson's disease.",
+            "abstract": "Lewy bodies (LB) in the central nervous system are associated with several different clinical syndromes including Parkinson's disease (PD) and dementia with Lewy bodies (DLB). Long term follow up of PD patients finds up to 78% eventually develop dementia, most of these patients exhibiting fluctuating cognition and visual hallucinations similar to DLB and with extensive cortical LB at autopsy. alpha-Synuclein positive, neuritic pathology, in the putamen of DLB and Parkinson's disease dementia (PDD), may contribute to postural-instability gait difficulty, parkinsonism, diminished levodopa responsiveness and increased neuroleptic sensitivity. Cognitive and neuropsychiatric symptoms improve with cholinesterase inhibitor treatment in both patient groups. DLB and PDD should be seen as different points on a spectrum of LB disease. Distinguishing them as separate disorders may be useful in clinical practice, but may be of limited value in terms of investigating and treating the underlying neur",
+            "journal": "Parkinsonism & related disorders",
+            "year": "2004",
+            "authors": [
+              "McKeith I G",
+              "Mosimann U P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Lewy Body Disease",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15109582/"
+          },
+          {
+            "pmid": "14676464",
+            "title": "Pathology and neurotransmitter abnormalities of dementia with Lewy bodies.",
+            "abstract": "The neuropathology of dementia with Lewy bodies (DLB) is characterized by the presence of Lewy bodies (LBs) and Lewy neurites (LNs) in specific systems throughout the brainstem, diencephalon, basal ganglia and neocortex. DLB shares many features with Parkinson's disease (PD) with respect to LB distribution in the brainstem, and there is recent evidence that Lewy pathology (LP), which consists of LBs and LNs, may progress in a systematic fashion through the brain regardless of clinical phenotype. Increasing evidence supports a central role for LNs in Lewy neurodegeneration and engenders a 'neuritic dystrophy hypothesis' described herein. LP formation also occurs in Alzheimer's disease (AD) and other dementias, and it is unclear whether there is a common underlying pathophysiology in these diseases or if the LP merely represents a common final pathway. Cholinergic deficits are evident in both DLB and AD, with reductions in acetylcholine and abnormalities in nicotinic and muscarinic recep",
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2004",
+            "authors": [
+              "Duda John E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetylcholine",
+              "Aged",
+              "Alzheimer Disease",
+              "Brain",
+              "Diagnosis, Differential",
+              "Dopamine Plasma Membrane Transport Proteins",
+              "Humans",
+              "Lewy Bodies",
+              "Lewy Body Disease",
+              "Membrane Glycoproteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14676464/"
+          },
+          {
+            "pmid": "21970305",
+            "title": "Treatment of dementia with Lewy bodies and Parkinson's disease dementia.",
+            "abstract": "Parkinson's disease dementia (PDD) and dementia with Lewy bodies (DLB) account for 10-15% of late onset dementias. Key treatment targets include cognitive and functional impairments, neuropsychiatric symptoms including intense and persistent visual hallucinations, and parkinsonism. Six-month, placebo-controlled randomized controlled trials (RCTs) of the cholinesterase inhibitor rivastigmine have indicated modest but significant benefits in cognition, function, global outcome and neuropsychiatric symptoms in both PDD and DLB. The evidence base for other cholinesterase inhibitors from RCTs is inconclusive. More recent RCTs with memantine in PDD/DLB patients indicate a benefit with regard to global outcome, with some suggestion of a specific benefit with respect to sleep disturbance. Given the risk of severe antipsychotic sensitivity reactions, antipsychotics should be avoided. A significant proportion of PDD/DLB patients are responsive to levodopa, but care needs to be taken with anti-pa",
+            "journal": "Drugs & aging",
+            "year": "2011",
+            "authors": [
+              "Ballard Clive",
+              "Kahn Zunera",
+              "Corbett Anne"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Lewy Body Disease",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21970305/"
+          },
+          {
+            "pmid": "11419914",
+            "title": "Dementia with Lewy bodies: clinical features and treatment.",
+            "abstract": "Dementia with Lewy bodies (DLB) accounts for 15 to 20% of late-onset dementias. The overlap of cognitive symptoms, neuropsychiatric features, parkinsonism and severe sensitivity to antipsychotic drugs raise a number of key management issues. The neurochemical profile of DLB provides a good theoretical rationale for the potential value of cholinesterase inhibitor therapy, which is supported by clinical evidence from a number of case series and one placebo-controlled double-blind trial. It appears that cholinesterase inhibitor treatment is well tolerated and improves fluctuating confusion, cognition and psychotic symptoms; however, the evidence can still only be considered preliminary and a further double-blind study is imperative. Given the high prevalence of severe sensitivity to antipsychotic drugs in patients with DLB, their role in the treatment of psychiatric symptoms and behavioural problems is uncertain, although a small case report literature indicates that some patients may ben",
+            "journal": "Drugs & aging",
+            "year": "2001",
+            "authors": [
+              "Campbell S",
+              "Stephens S",
+              "Ballard C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antiparkinson Agents",
+              "Antipsychotic Agents",
+              "Cholinesterase Inhibitors",
+              "Cognition Disorders",
+              "Diagnosis, Differential",
+              "Humans",
+              "Levodopa",
+              "Lewy Body Disease",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11419914/"
+          },
+          {
+            "pmid": "31177296",
+            "title": "Upper limb movements in dementia with Lewy body: a quantitative analysis.",
+            "abstract": "Dementia with Lewy body is a neurodegenerative disorder affecting both cognitive and motor domains. Motor impairment manifests predominantly as a symmetrical/mild asymmetrical parkinsonian syndrome that is only mildly responsive to Levodopa. To characterize motor dysfunction in dementia with Lewy body, we quantitatively assessed upper limb movements using a motion-capture system. Ten patients and ten healthy controls were tested while performing the hand-to-mouth movement of which speed, smoothness and accuracy features were measured. The results showed that individuals with dementia with Lewy body required a longer time to complete the task, particularly due to a prolonged duration of the adjusting phase (i.e., when approaching the target/mouth). The overall motor performance of dementia with Lewy body patients closely resembled what previously observed in patients affected by both Parkinson's disease and ataxia while performing the same task. Moreover, the severity of parkinsonian sy",
+            "journal": "Experimental brain research",
+            "year": "2019",
+            "authors": [
+              "Fadda Laura",
+              "Corona Federica",
+              "Floris Gianluca",
+              "Mascia Marcello Mario",
+              "Cossa Barbara"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Case-Control Studies",
+              "Cohort Studies",
+              "Female",
+              "Humans",
+              "Lewy Body Disease",
+              "Male",
+              "Middle Aged",
+              "Movement",
+              "Psychomotor Performance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31177296/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple system atrophy, parkinsonian type",
+        "txgnn_score": 0.970194697380066,
+        "txgnn_rank": 21201,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06836921",
+            "title": "WECARE APD: Randomized Trial to Evaluate the Impact of a Single Multidisciplinary Team Visit for Atypical Parkinsonian Disorders: a Feasibility Study",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-03-15",
+            "completion_date": "2026-07-20",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "Atypical Parkinsonian disorders (APD) are a group of brain disorders that look like Parkinson's disease but progress faster and don't respond well to common treatments like levodopa. These conditions include Progressive Supranuclear Palsy (PSP), Corticobasal Syndrome (CBS), and Multiple System Atrophy (MSA). Caring for APD patients is especially challenging because the symptoms worsen quickly and require multiple specialists, often leading to separate visits with different doctors and therapists",
+            "eligibility_criteria": "Inclusion Criteria (Participants must meet all of the following conditions to be eligible for the study):\n\n* Participants must be older than 40 years.\n* The participant must meet the standard international consensus criteria for a clinically probable diagnosis of one of the following neurodegenerati",
+            "endpoints": [
+              "Percentage of Eligible Participants Willing to be Randomized",
+              "Percentage of Participants Completing Outcome Assessment",
+              "Satisfaction survey (Quantitative)"
+            ],
+            "sponsor": "Western University",
+            "url": "https://clinicaltrials.gov/study/NCT06836921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06831500",
+            "title": "A Monocentric, Randomized, Double-blind Study to Assess the Feasibility of Conducting a Full-scale Randomized Controlled Trial (RCT) Assessing the Effect of Carbidopa/Levodopa Ratio on Orthostatic Hypotension (OH) in Multiple System Atrophy - Parkinsonian Type (MSA-P) and Parkinson Disease (PD) Patients (CARBIDOH)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-07-18",
+            "completion_date": "2026-11",
+            "country": "Switzerland",
+            "enrollment": 36,
+            "brief_summary": "This study is aimed at patients with multi-system atrophy - parkinsonian type (P-MSA) or Parkinson's disease (PD) receiving dopaminergic drugs and suffering from orthostatic hypotension (OH).\n\nOH is a drop in blood pressure when standing, which can lead to symptoms of dizziness, lightheadedness, a black veil in front of the eyes and, when severe, can lead to fainting. HO is one of the symptoms present in AMS-P and PD.\n\nThe standard treatment for parkinsonian symptoms of slowness and stiffness is",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Informed consent form signed.\n2. Patient over 18 years and under 80 years of age.\n3. Patient with Multiple System Atrophy- Parkinsonian type (MSA-P) (confirmed by diagnostic criteria for clinically established and clinically probable multiple system atrophy (11); OR Patient w",
+            "endpoints": [
+              "Feasibility of future large-scale double-blind randomized controlled trial (RCT)"
+            ],
+            "sponsor": "University of Lausanne Hospitals",
+            "url": "https://clinicaltrials.gov/study/NCT06831500"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02994719",
+            "title": "Gait Pattern Analysis in Neurological Disease",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2016-03-01",
+            "completion_date": "2026-06-20",
+            "country": "United States",
+            "enrollment": 120,
+            "brief_summary": "The purpose of this study is to investigate whether speed-dependent measures of gait can be identified in patients with neurological conditions that affect gait, particularly in subjects with parkinsonian disorders.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-85 (for both healthy and affected subjects).\n* Presence of at least 2 of the following: bradykinesia, rest tremor, rigidity, postural instability (UK PD Brain Bank Criteria) (Affected subjects only).\n* Montreal Cognitive Assessment will be employed to determine whether ",
+            "endpoints": [
+              "Gait speed"
+            ],
+            "sponsor": "Beth Israel Deaconess Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02994719"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06174948",
+            "title": "The Use of the CUE1/CUE1+ Device in People With Idiopathic Parkinson's Disease and Related Disorders: A Feasibility Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-03-25",
+            "completion_date": "2025-03-31",
+            "country": "United Kingdom",
+            "enrollment": 70,
+            "brief_summary": "People with Parkinson's disease (PD) commonly experience a range of both motor (e.g., bradykinesia, rigidity, tremor, and postural instability) and non-motor (e.g., fatigue, psychiatric and behavioural disturbances, autonomic dysfunction, cognitive impairment, sleep dysfunction and olfactory loss) features. Currently, it is challenging to alleviate these symptoms with first-line treatment, the medications such as levodopa. The CUE1 is a non-invasive device, which is approved for sale in the UK m",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults over 18 years old\n* Clinical diagnosis of idiopathic PD and related disorders including progressive supranuclear palsy (PSP), multiple system atrophy (MSA), corticobasal degeneration (CBD), and vascular Parkinsonism (VaP) as well as atypical dystonias and tremor disorde",
+            "endpoints": [
+              "Recruitment rate",
+              "Compliance with interventions",
+              "Dropout rate"
+            ],
+            "sponsor": "Queen Mary University of London",
+            "url": "https://clinicaltrials.gov/study/NCT06174948"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03129451",
+            "title": "The Microbiome in Parkinson's Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2017-04-17",
+            "completion_date": "2021-01-07",
+            "country": "United States",
+            "enrollment": 23,
+            "brief_summary": "To investigate the dynamic relationship between the intestinal microbiota and Inflammation in subjects with Parkinson's disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Individuals with Parkinson's disease (including multiple system atrophy). Males and females are eligible for the study. Appendectomized cohort must have had their appendectomy at least 20 years before Parkinson's disease onset\n\nExclusion Criteria:\n\n* 1\\. Body Mass Index greate",
+            "endpoints": [
+              "The current study determines whether certain Parkinson's subtypes are prone to pro-inflammatory microbiomes."
+            ],
+            "sponsor": "Corewell Health West",
+            "url": "https://clinicaltrials.gov/study/NCT03129451"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24615754",
+            "title": "Multiple system atrophy of the cerebellar type: clinical state of the art.",
+            "abstract": "Multiple system atrophy (MSA) is a late-onset, sporadic neurodegenerative disorder clinically characterized by autonomic failure and either poorly levodopa-responsive parkinsonism or cerebellar ataxia. It is neuropathologically defined by widespread and abundant central nervous system α-synuclein-positive glial cytoplasmic inclusions and striatonigral and/or olivopontocerebellar neurodegeneration. There are two clinical subtypes of MSA distinguished by the predominant motor features: the parkinsonian variant (MSA-P) and the cerebellar variant (MSA-C). Despite recent progress in understanding the pathobiology of MSA, investigations into the symptomatology and natural history of the cerebellar variant of the disease have been limited. MSA-C presents a unique challenge to both clinicians and researchers alike. A key question is how to distinguish early in the disease course between MSA-C and other causes of adult-onset cerebellar ataxia. This is a particularly difficult question, because ",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2014",
+            "authors": [
+              "Lin David J",
+              "Hermann Katherine L",
+              "Schmahmann Jeremy D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebellar Ataxia",
+              "Cerebellum",
+              "Disease Models, Animal",
+              "Humans",
+              "Multiple System Atrophy",
+              "Parkinsonian Disorders",
+              "alpha-Synuclein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24615754/"
+          },
+          {
+            "pmid": "29157667",
+            "title": "A case of multiple system atrophy-parkinsonian type with stuttering- and palilalia-like dysfluencies and putaminal atrophy.",
+            "abstract": "Both developmental and acquired stuttering are related to the function of the basal ganglia-thalamocortical loop, which includes the putamen. Here, we present a case of stuttering- and palilalia-like dysfluencies that manifested as an early symptom of multiple system atrophy-parkinsonian type (MSA-P) and bilateral atrophy of the putamen. The patient was a 72-year-old man with no history of developmental stuttering who presented with a stutter for consultation with our otorhinolaryngology department. The patient was diagnosed with MSA-P based on parkinsonism, autonomic dysfunction, and bilateral putaminal atrophy revealed by T2-weighted magnetic resonance imaging. Treatment with levodopa improved both the motor functional deficits related to MSA-P and stuttering-like dysfluencies while reading; however, the palilalia-like dysfluencies were much less responsive to levodopa therapy. The patient died of aspiration pneumonia two years after his first consultation at our hospital. In conclus",
+            "journal": "Journal of fluency disorders",
+            "year": "2018",
+            "authors": [
+              "Kikuchi Yoshikazu",
+              "Umezaki Toshiro",
+              "Uehara Taira",
+              "Yamaguchi Hiroo",
+              "Yamashita Koji"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Multiple System Atrophy",
+              "Parkinsonian Disorders",
+              "Putamen",
+              "Stuttering"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29157667/"
+          },
+          {
+            "pmid": "27787721",
+            "title": "Current Treatment of Multiple System Atrophy.",
+            "abstract": "Treatment of patients with multiple system atrophy (MSA) is complex and purely symptomatic to date. No disease-modifying treatment is available so far, leaving a survival time of usually less than 10 years after diagnosis is made. Clinically, two forms of movement disorders characterize this disease, either a hypokinetic rigid parkinsonian movement disorder in MSA of the parkinsonian type or ataxia in MSA of the cerebellar type. In both variants of the disease, autonomic symptoms are mandatory for establishing the diagnosis of MSA. While hypokinetic rigid symptoms of patients with MSA of the parkinsonian type can respond to some extent to dopaminergic treatment, no effective symptomatic treatment for the cerebellar symptoms is available so far. Particular attention should be paid to autonomic symptoms, as these symptoms are known to strongly affect the patients' quality of life. Here, we discuss the current state of the art in MSA treatment.",
+            "journal": "Current treatment options in neurology",
+            "year": "2016",
+            "authors": [
+              "Maaß Sylvia",
+              "Levin Johannes",
+              "Höglinger Günter"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27787721/"
+          },
+          {
+            "pmid": "41790245",
+            "title": "Balance biomarker for early differentiation of Parkinson's disease and multiple system atrophy with parkinsonian type.",
+            "abstract": "Parkinson's disease (PD) and multiple system atrophy with parkinsonian type (MSA-P) share various motor and nonmotor symptoms, complicating early differential diagnosis, although prognosis and levodopa response differ.",
+            "journal": "Journal of neurology",
+            "year": "2026",
+            "authors": [
+              "Chang Hee Jin",
+              "Kim Jong Ho",
+              "Song Han-Wook",
+              "Lee Sanghyun",
+              "Kwon Eunjin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple System Atrophy",
+              "Parkinson Disease",
+              "Male",
+              "Female",
+              "Aged",
+              "Middle Aged",
+              "Postural Balance",
+              "Machine Learning",
+              "Diagnosis, Differential"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41790245/"
+          },
+          {
+            "pmid": "39072635",
+            "title": "The recovery of sympathetic skin responses with levodopa in a patient with multiple system atrophy-parkinsonian type.",
+            "abstract": "Herein, we report a 62-year-old female patient with Multiple system atrophy (MSA) at whom the sympathetic skin responses (SSRs) were absent at initial investigations. However, the levodopa therapy provided normalization of SSRs and moderately improvement in orthostatic hypotension-related symptoms. Based on this rare illustration, we discuss the possible mechanisms underlying the pathophysiology of autonomic dysfunction in MSA. We remark on the need for future clinical and experimental studies in this field.",
+            "journal": "Neurocase",
+            "year": "2024",
+            "authors": [
+              "Onder Halil",
+              "Yurtdas Mustafa",
+              "Comoglu Selcuk"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Multiple System Atrophy",
+              "Levodopa",
+              "Antiparkinson Agents",
+              "Hypotension, Orthostatic",
+              "Galvanic Skin Response",
+              "Sympathetic Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39072635/"
+          },
+          {
+            "pmid": "40471272",
+            "title": "Vascular parkinsonism: an update.",
+            "abstract": "Vascular parkinsonism (VP), resulting from cerebrovascular disease, is a rare disorder with a characteristic motor and non-motor clinical profile distinct from sporadic/idiopathic Parkinson disease (PD) and other parkinsonian disorders. It accounts for 3-6% of all parkinsonian syndromes and may overlap with other parkinsonisms. Clinical features of VP are heterogenous and include bilateral rigidity with lower body predominance, bradykinesia, postural instability, shuffling gait, falls, corticospinal symptoms and cognitive impairment, tremor being rare or absent. An international working group recommended three VP subtypes: (1) the acute or subacute poststroke type: asymmetric parkinsonism due to involvement of the nigrostriatal system and response to dopaminergic drugs, (2) the more frequent insidious onset subtype due to ischemic deep white matter lesions and/or lacunar infarcts presents with progressive, symmetrical parkinsonism, prominent postural instability, gait impairment, corti",
+            "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+            "year": "2025",
+            "authors": [
+              "Jellinger Kurt A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Parkinsonian Disorders",
+              "Cerebrovascular Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40471272/"
+          },
+          {
+            "pmid": "38974422",
+            "title": "A Patient with Multiple System Atrophy-Parkinsonian Type Presenting with Progressive Micrographia.",
+            "abstract": "Herein, we present the case of a 57-year-old male patient who was admitted to our center due to progressive writing difficulty and slowness of his right hand over the last 3 years. In conclusion of the clinical and laboratory workup, a diagnosis of multiple system atrophy (MSA) was established. Our report on progressive micrographia (PM) constitutes a crucial sample remarking on this intriguing manifestation in another disease subtype of MSA, which differs from Parkinson's disease in terms of the clinical and pathophysiological processes. We think that further studies are warranted to clarify the significance of this entity in movement disorder in clinical practice and to reveal the underlying neural mechanisms.",
+            "journal": "Asian journal of neurosurgery",
+            "year": "2024",
+            "authors": [
+              "Onder Halil",
+              "Cetin Beyza Nur",
+              "Comoglu Selcuk"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38974422/"
+          },
+          {
+            "pmid": "34776506",
+            "title": "Video Representation of Dopamine-Responsive Multiple System Atrophy Cerebellar Type.",
+            "abstract": "BACKGROUND Multiple system atrophy cerebellar type (MSA-C) is a subtype of MSA that presents with predominant ataxia along with lesser signs of parkinsonism and autonomic dysfunction. Previous studies have shown benefits from carbidopa/levodopa therapy for the MSA parkinsonian subtype but few studies have focused on the MSA-C subtype. We present a video case of MSA-C that demonstrated significant improvement with carbidopa/levodopa therapy. CASE REPORT A right-handed 61-year-old man with a past medical history of chronic microvascular ischemia, mild lower extremity neuropathy, and lumbar and cervical stenosis status after decompression presented with progressive worsening gait changes over several months with acute deterioration before admission. The initial neurological workup demonstrated bilateral cogwheel rigidity; difficulty with movement initiation. including standing up from a seated position; slow saccadic eye movements; masked facies (hypomimia); right ankle clonus; bilateral ",
+            "journal": "The American journal of case reports",
+            "year": "2021",
+            "authors": [
+              "Doan Jonathan",
+              "Sheikh Irfan",
+              "Elmer Lawrence",
+              "Rashid Mehmood"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cerebellum",
+              "Dopamine",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Multiple System Atrophy",
+              "Parkinson Disease",
+              "Parkinsonian Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34776506/"
+          },
+          {
+            "pmid": "7922469",
+            "title": "Clinical features and natural history of multiple system atrophy. An analysis of 100 cases.",
+            "abstract": "The clinical features and natural history of 100 patients diagnosed as probable multiple system atrophy (MSA) are described. In all 14 (of 41 deceased) cases who underwent post-mortem examination of the brain, the diagnosis was confirmed pathologically, providing some validation of the clinical diagnostic criteria used. There were 67 men and 33 women. Median age at onset (at time of first reported symptom) was 53 (range 33-76) years. Autonomic symptoms were the initial feature in 41% of the patients, but had subsequently developed in 97% at latest follow-up. The most frequent autonomic symptom in men was impotence, and in women was urinary incontinence. Symptomatic orthostatic hypotension, although present in 68%, was severe in only 15% of patients. Parkinsonism was the initial feature in 46%, but had subsequently developed in 91% of subjects at latest follow-up. It was the predominant motor disorder [striatonigral degeneration (SND) type] in 82% of the patients, and was usually asymme",
+            "journal": "Brain : a journal of neurology",
+            "year": "1994",
+            "authors": [
+              "Wenning G K",
+              "Ben Shlomo Y",
+              "Magalhães M",
+              "Daniel S E",
+              "Quinn N P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Brain Diseases",
+              "Cerebellar Diseases",
+              "Corpus Striatum",
+              "Female",
+              "Humans",
+              "Levodopa",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7922469/"
+          },
+          {
+            "pmid": "17131231",
+            "title": "Dystonia in Parkinson's disease.",
+            "abstract": "Dystonia can occasionally be found in idiopathic Parkinson's disease. It is very uncommon in untreated patients and is more frequently seen as a complication of its treatment. In this review, the various types of dystonia occurring in PD, the differential diagnosis with other parkinsonian syndromes associated with dystonia and treatments available are revised. Dystonia unrelated to treatment can be typical (blepharospasm, torticollis), atypical (parkinsonian writer's cramp, camptocormia, anismus), or occurring in earlyonset Parkinson disease (the so-called kinesigenic foot dystonia, considered a hallmark of early-onset Parkinson's disease). Early and prominent dystonia in untreated patients with parkinsonism should raise the suspicion of other entities other than Parkinson's disease, such as progressive supranuclear palsy, multiple system atrophy or corticobasal degeneration. In patients on chronic dopaminergic treatment, peak-dose dystonia, diphasic dystonia and off-dystonia can be se",
+            "journal": "Journal of neurology",
+            "year": "2006",
+            "authors": [
+              "Tolosa Eduardo",
+              "Compta Yaroslau"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dystonia",
+              "Humans",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17131231/"
+          },
+          {
+            "pmid": "37752324",
+            "title": "Rapidly progressive multiple system atrophy in a patient carrying LRRK2 G2019S mutation.",
+            "abstract": "Multiple system atrophy (MSA) is considered a primarily sporadic neurodegenerative disease, but the role of genetic is poorly understood.",
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2024",
+            "authors": [
+              "Carrer Tommaso",
+              "Bonato Giulia",
+              "Sandre Michele",
+              "Emmi Aron",
+              "Campagnolo Marta"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "alpha-Synuclein",
+              "Multiple System Atrophy",
+              "Leucine-Rich Repeat Serine-Threonine Protein Kinase-2",
+              "Mutation",
+              "Parkinson Disease",
+              "Parkinsonian Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37752324/"
+          },
+          {
+            "pmid": "31128455",
+            "title": "Distinct clinical features of predominant pre-synaptic and trans-synaptic nigrostriatal dysfunction in multiple system atrophy.",
+            "abstract": "The severity of parkinsonism and response to levodopa vary in patients with multiple system atrophy (MSA) because of the heterogeneity of nigrostriatal neuropathology.",
+            "journal": "Journal of the neurological sciences",
+            "year": "2019",
+            "authors": [
+              "Ryu Ho-Sung",
+              "Oh Minyoung",
+              "Oh Jungsu S",
+              "Moon Hyojeong",
+              "Park Kye Won"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Case-Control Studies",
+              "Cerebellar Ataxia",
+              "Corpus Striatum",
+              "Female",
+              "Fluorodeoxyglucose F18",
+              "Functional Neuroimaging",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31128455/"
+          },
+          {
+            "pmid": "41306404",
+            "title": "Rapidly Progressive Multiple System Atrophy-Cerebellar Type in a 52-Year-Old Woman: Diagnostic Challenges in a Resource-Limited Setting.",
+            "abstract": "Multiple system atrophy (MSA) is a progressive adult-onset neurodegenerative disorder that manifests as a variable combination of cerebellar, parkinsonian, and autonomic dysfunctions. We report a case of a 52-year-old woman who presented with rapidly progressive gait ataxia, dysarthria, orthostatic hypotension, and urinary urgency. MRI of the brain demonstrated pontocerebellar atrophy with the characteristic \"hot cross bun\" sign, supporting a diagnosis of Multiple System Atrophy-cerebellar type (MSA-C). Despite receiving levodopa and supportive therapy, the symptoms progressed over 8 months, highlighting the unusually rapid disease course. This case highlights the diagnostic value of targeted clinical assessment and MRI when advanced confirmatory tests are inaccessible, underscoring the importance of early recognition and multidisciplinary symptom management in resource-constrained settings.",
+            "journal": "Clinical case reports",
+            "year": "2025",
+            "authors": [
+              "Singh Khushi V",
+              "Nimmagadda Sai Priya",
+              "Panda Ameesh",
+              "Rohith Rarigela",
+              "Patel Tirth J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41306404/"
+          },
+          {
+            "pmid": "36292111",
+            "title": "The Assessment of Subregions in the Frontal Lobe May Be Feasible in the Differential Diagnosis of Progressive Supranuclear Palsy-Parkinsonism Predominant (PSP-P) and Multiple System Atrophy (MSA).",
+            "abstract": "Progressive Supranuclear Palsy-Parkinsonism Predominant (PSP-P) is associated with moderate responsiveness to levodopa treatment and a possible lack of typical PSP milestones. The clinical manifestation of PSP-P poses difficulties in neurological examination. In the early stages it is often misdiagnosed as Parkinson's Disease, and in the more advanced stages PSP-P shows more symptoms in common with Multiple System Atrophy-Parkinsonian type (MSA-P). The small number of tools enabling differential diagnosis of PSP-P and MSA leads to the necessity of searching for parameters facilitating in vivo diagnosis. In this study, 14 patients with PSP-P and 21 patients with MSA-P were evaluated using Single Photon Emission Computed Tomography. Considering the fact that PSP is linked with frontal deficits, regions of the frontal lobe were assessed in the context of hypoperfusion and their possible usefulness in the differential diagnosis with MSA-P. The outcome of the work revealed that the right mi",
+            "journal": "Diagnostics (Basel, Switzerland)",
+            "year": "2022",
+            "authors": [
+              "Alster Piotr",
+              "Madetko-Alster Natalia",
+              "Migda Bartosz",
+              "Nieciecki Michał",
+              "Koziorowski Dariusz"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36292111/"
+          },
+          {
+            "pmid": "24116345",
+            "title": "Tremor in Multiple System Atrophy - a review.",
+            "abstract": "Multiple system atrophy (MSA) is a rare neurodegenerative movement disorder characterized by a rapidly progressive course. The clinical presentation can include autonomic failure, parkinsonism, and cerebellar signs. Differentiation from Parkinson's disease (PD) is difficult if there is levodopa-responsive parkinsonism, rest tremor, lack of cerebellar ataxia, or mild/delayed autonomic failure. Little is known about tremor prevalence and features in MSA.",
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2013",
+            "authors": [
+              "Kaindlstorfer Christine",
+              "Granata Roberta",
+              "Wenning Gregor Karl"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24116345/"
+          },
+          {
+            "pmid": "22605703",
+            "title": "Psychotic-affective symptoms and multiple system atrophy expand phenotypes of spinocerebellar ataxia type 2.",
+            "abstract": "Spinocerebellar ataxia type 2 (SCA2) is a progressive neurodegenerative disorder, characterised by ataxic gait, slow saccades and peripheral neuropathy. Levodopa-responsive parkinsonism could be a clinical phenotype of SCA2, especially those of Chinese origin. In addition to these motor symptoms, SCA2 has been associated with depression and cognitive dysfunction, with only rare reports of psychosis. The authors report the presence of severe psychosis, major depression and multiple system atrophy in affected subjects of a Taiwanese family with intermediate CAG repeats within the ATXN2 gene. The identification of this rare and distinctive SCA2 phenotype expands the current knowledge of the phenotypic variability of SCA2 and suggests that modifier genes could influence the clinical phenotype of SCA2.",
+            "journal": "BMJ case reports",
+            "year": "2012",
+            "authors": [
+              "Chen Kai-Hsiang",
+              "Lin Chin-Hsien",
+              "Wu Ruey-Meei"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Ataxins",
+              "Major Depressive Disorder",
+              "Female",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Multiple System Atrophy",
+              "Mutation",
+              "Nerve Tissue Proteins",
+              "Parkinsonian Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22605703/"
+          },
+          {
+            "pmid": "11139988",
+            "title": "[Dementia with Lewy bodies].",
+            "abstract": "Dementia with Lewy bodies (DLB) is the second most frequent neuropathologically diagnosed degenerative dementing illness. The clinical characteristics are progressive dementia, parkinsonian syndrome, fluctuations of cognitive functions, alertness, and attention, visual hallucinations (usually detailed and well described), depression, REM sleep behavior disorder, adverse responses to standard neuroleptics doses, falls, syncopes, systematized delusions, and other modalities of hallucinations. Specificity of the clinical diagnostic criteria is high (95%), and sensitivity is considerably lower. Mean age at disease onset ranges between 60 and 68 years. The male gender prevails. Disease duration is 6 to 8 years. The differential diagnoses of DLB are dementia of the Alzheimer type, Parkinson's disease, subcortical arteriosclerotic encephalopathy, progressive supranuclear palsy, multiple system atrophy, and rarely Creutzfeldt-Jakob disease. The genetic background of the disease is unclear. Mag",
+            "journal": "Der Nervenarzt",
+            "year": "2000",
+            "authors": [
+              "Ransmayr G",
+              "Wenning G K",
+              "Seppi K",
+              "Jellinger K",
+              "Poewe W"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Brain",
+              "Cholinesterase Inhibitors",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Female",
+              "Humans",
+              "Levodopa",
+              "Lewy Body Disease",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11139988/"
+          },
+          {
+            "pmid": "39954076",
+            "title": "Pathomechanisms of neuropsychiatric disturbances in atypical parkinsonian disorders: a current view.",
+            "abstract": "Multiple system atrophy (MSA), corticobasal degeneration (CBD) and progressive supranuclear palsy (PSP) are the most common atypical parkinsonisms. These adult-onset and lethal neurodegenerative disorders of unknown etiology are clinically characterized by varying combinations of autonomic, levodopa-poorly responsive parkinsonsm, motor, non-motor, cerebellar syndromes, behavioral, cognitive and other neuropsychiatric disorders. Although their pathological hallmarks are different-MSA α-synucleinopathy, CBD and PSP 4-repeat (4R) tauopathies-their neuropsychiatric disturbances include anxiety, depression, agitations, attention-executive dysfunctions, less often compulsive and REM sleep behavior disorders (RBD), which may contribute to disease progression and reduced quality of life (QoL) of patients and caregivers. The present paper reviews the prevalence and type of neuropsychiatric profile in these atypical parkinsonian syndromes, their neuroimaging, and pathogenic backgrounds based on ",
+            "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+            "year": "2025",
+            "authors": [
+              "Jellinger Kurt A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple System Atrophy",
+              "Supranuclear Palsy, Progressive",
+              "Corticobasal Degeneration",
+              "Parkinsonian Disorders",
+              "Mental Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39954076/"
+          },
+          {
+            "pmid": "20922810",
+            "title": "Presentation, diagnosis, and management of multiple system atrophy in Europe: final analysis of the European multiple system atrophy registry.",
+            "abstract": "Multiple system atrophy (MSA) is a Parkinson's Disease (PD)-like α-synucleinopathy clinically characterized by dysautonomia, parkinsonism, cerebellar ataxia, and pyramidal signs in any combination. We aimed to determine whether the clinical presentation of MSA as well as diagnostic and therapeutic strategies differ across Europe and Israel. In 19 European MSA Study Group centres all consecutive patients with a clinical diagnosis of MSA were recruited from 2001 to 2005. A standardized minimal data set was obtained from all patients. Four-hundred thirty-seven MSA patients from 19 centres in 10 countries were included. Mean age at onset was 57.8 years; mean disease duration at inclusion was 5.8 years. According to the consensus criteria 68% were classified as parkinsonian type (MSA-P) and 32% as cerebellar type (MSA-C) (probable MSA: 72%, possible MSA: 28%). Symptomatic dysautonomia was present in almost all patients, and urinary dysfunction (83%) more common than symptomatic orthostatic ",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2010",
+            "authors": [
+              "Köllensperger Martin",
+              "Geser Felix",
+              "Ndayisaba Jean-Pierre",
+              "Boesch Sylvia",
+              "Seppi Klaus"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Age of Onset",
+              "Antiparkinson Agents",
+              "Cerebellar Ataxia",
+              "Europe",
+              "Female",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Levodopa",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20922810/"
+          },
+          {
+            "pmid": "17534959",
+            "title": "Levodopa responsiveness in disorders with parkinsonism: a review of the literature.",
+            "abstract": "A literature review was conducted to investigate whether or not levodopa (LD) responsiveness (LR) is a useful criterion in the diagnosis of parkinsonian disorders. Although LR does appear to differ among the parkinsonian disorders, there is considerable confusion in the literature. While most patients with Parkinson's disease (PD) have a sustained benefit from LD, a small minority of patients with documented PD do not respond. The literature suggests that the LR rate is higher for multiple system atrophy (MSA), progressive supranuclear palsy (PSP), and corticobasal degeneration (CBD) than based on published diagnostic criteria. Magnitude and duration of response to LD and tolerability (time course, type and distribution of dyskinesias, mental effects and motor worsening) may be useful features in distinguishing PD, MSA, PSP, and CBD. Efforts should be directed toward better defining LR when used for diagnostic purposes and in scientific publications.",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2007",
+            "authors": [
+              "Constantinescu Radu",
+              "Richard Irene",
+              "Kurlan Roger"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiparkinson Agents",
+              "Education, Medical, Continuing",
+              "Humans",
+              "Levodopa",
+              "Parkinsonian Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17534959/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "X-linked intellectual disability-ataxia-apraxia syndrome",
+        "txgnn_score": 0.96455717086792,
+        "txgnn_rank": 22975,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40088079",
+            "title": "Patients with Allan-Herndon-Dudley Syndrome (MCT8 Deficiency) Display Symptoms of Parkinsonism in Childhood and Respond to Levodopa/Carbidopa Treatment.",
+            "abstract": "Patients with mutations in the monocarboxylate transporter 8 (MCT8, SLC16A2) suffer from X-linked recessive Allan-Herndon-Dudley syndrome (AHDS), which is characterized by developmental delay and a severe movement disorder. Current trials using thyroid hormone derivatives to overcome the transporter defect have failed to achieve patient-oriented therapeutic goals.",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2025",
+            "authors": [
+              "Wilpert Nina-Maria",
+              "Hewitt Angela L",
+              "Pons Roser",
+              "Henke Marie-Thérèse",
+              "Dell'Orco Andrea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Levodopa",
+              "Carbidopa",
+              "Male",
+              "Female",
+              "Child",
+              "Drug Combinations",
+              "X-Linked Intellectual Disability",
+              "Parkinsonian Disorders",
+              "Child, Preschool"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40088079/"
+          },
+          {
+            "pmid": "41144879",
+            "title": "Altered Dopamine Metabolism and Response to Treatment with Levodopa/Carbidopa in MCT8 Deficiency.",
+            "abstract": "Allan-Herndon-Dudley syndrome (AHDS)/monocarboxylate transporter 8 (MCT8) deficiency is a rare X-linked encephalopathy caused by SLC16A2 variants, impairing thyroid hormone (TH) transport into the brain. This leads to early central nervous system (CNS) TH deficiency, affecting brain maturation. Dopaminergic circuit involvement is suggested by both pathophysiology and clinical features, reminiscent of infantile parkinsonism.",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2026",
+            "authors": [
+              "Bruschi Fabio",
+              "Vaia Ylenia",
+              "Antonello Clara E",
+              "Spada Marco",
+              "Porta Francesco"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Levodopa",
+              "Carbidopa",
+              "Male",
+              "Dopamine",
+              "Female",
+              "Drug Combinations",
+              "Child, Preschool",
+              "Muscle Hypotonia",
+              "X-Linked Intellectual Disability"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41144879/"
+          },
+          {
+            "pmid": "40767387",
+            "title": "Prolonged Follow-Up in a 30-Year-Old Male With a Novel Pathogenic Variant in MSL3 : A Case Report and a Brief Review of the Literature.",
+            "abstract": "Basilicata-Akhtar syndrome (BAS) is an ultra-rare X-linked neurodevelopmental disorder caused by pathogenic variants in the MSL3 gene, critical for histone H4 acetylation and chromatin regulation. To date, only 42 cases have been documented, affecting both males and females, with most variants being de novo and loss-of-function. We present a case of a 30-year-old male with BAS, exhibiting developmental delay, intellectual disability, hypotonia, motor disturbances, and dysmorphic features. Genetic testing revealed a novel de novo hemizygous variant in the MSL3 gene (NM_078629:c.1293G > A, NP_523353.2:p.(Trp431*)), leading to loss of function. Neuroimaging showed multifocal leukoencephalopathy, and the individual is receiving treatment with carbidopa-levodopa with improvement in bradykinesia and camptocormia. This case expands our understanding of BAS and highlights the importance of genetic testing, especially Exome Sequencing (ES), in diagnosing rare conditions. Early diagnosis and mul",
+            "journal": "American journal of medical genetics. Part A",
+            "year": "2025",
+            "authors": [
+              "Pisanò Giulia",
+              "Cesaroni Carlo Alberto",
+              "Rizzi Susanna",
+              "Pantani Agnese",
+              "Cavalli Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Male",
+              "Exome Sequencing",
+              "Follow-Up Studies",
+              "Intellectual Disability",
+              "Mutation",
+              "Phenotype",
+              "Chromosomal Proteins, Non-Histone",
+              "DNA-Binding Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40767387/"
+          },
+          {
+            "pmid": "41074240",
+            "title": "RAB39B Related Parkinsonism in an Italian Family: A Unique Use of Advanced Therapies.",
+            "abstract": "Parkinson's disease (PD) is a neurodegenerative disorder that may sometimes be caused by deleterious genetic variants. Among them, RAB39B polymorphisms are known as rare causes of early-onset PD associated with intellectual disability (Waisman's syndrome). Here we describe a 45-year-old white male affected by developmental delay, childhood onset intellectual disability, epilepsy, and PD who was treated with subthalamic deep brain stimulation and subcutaneous L-DOPA infusion. Next Generation Sequencing analysis revealed a currently unknown pathogenic hemizygous sequence variant c.463C>T (NM_171998.4) in the RAB39B gene, confirmed also in the proband's mother, affected by late-onset PD. This report expands the number of described RAB39B mutations in individuals with early- and late-onset, X-linked PD.",
+            "journal": "Annals of clinical and translational neurology",
+            "year": "2026",
+            "authors": [
+              "Del Regno Caterina",
+              "Ermanis Giovanni",
+              "Lettieri Christian",
+              "Bernardini Andrea",
+              "Pellitteri Gaia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Parkinsonian Disorders",
+              "rab GTP-Binding Proteins",
+              "Italy",
+              "Deep Brain Stimulation",
+              "Pedigree",
+              "Levodopa",
+              "Parkinson Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41074240/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01235",
+    "name": "Levodopa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Levodopa"
+      },
+      "queried_at": "2026-03-10T01:46:19.351255",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Levodopa"
+      },
+      "queried_at": "2026-03-10T01:46:43.849352",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "queried_at": "2026-03-10T01:46:44.520609",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "queried_at": "2026-03-10T01:46:49.605665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "queried_at": "2026-03-10T01:46:52.255258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "queried_at": "2026-03-10T01:46:53.565327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "queried_at": "2026-03-10T01:46:59.204844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "queried_at": "2026-03-10T01:47:05.250575",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "myelitis"
+      },
+      "queried_at": "2026-03-10T01:47:06.024522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "myelitis"
+      },
+      "queried_at": "2026-03-10T01:47:10.052498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "myelitis"
+      },
+      "queried_at": "2026-03-10T01:47:12.862476",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "transaldolase deficiency"
+      },
+      "queried_at": "2026-03-10T01:47:13.945032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "transaldolase deficiency"
+      },
+      "queried_at": "2026-03-10T01:47:17.156172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "transaldolase deficiency"
+      },
+      "queried_at": "2026-03-10T01:47:18.059191",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "queried_at": "2026-03-10T01:47:18.871100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "queried_at": "2026-03-10T01:47:23.499775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "queried_at": "2026-03-10T01:47:25.060229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "queried_at": "2026-03-10T01:47:25.929156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "queried_at": "2026-03-10T01:47:31.437891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "queried_at": "2026-03-10T01:47:32.955245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "progressive supranuclear palsy-corticobasal syndrome"
+      },
+      "queried_at": "2026-03-10T01:47:34.937041",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "progressive supranuclear palsy-corticobasal syndrome"
+      },
+      "queried_at": "2026-03-10T01:47:40.208132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "progressive supranuclear palsy-corticobasal syndrome"
+      },
+      "queried_at": "2026-03-10T01:47:42.840165",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "Lewy body dementia"
+      },
+      "queried_at": "2026-03-10T01:47:45.882684",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "Lewy body dementia"
+      },
+      "queried_at": "2026-03-10T01:47:49.677413",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "Lewy body dementia"
+      },
+      "queried_at": "2026-03-10T01:47:53.779762",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "multiple system atrophy, parkinsonian type"
+      },
+      "queried_at": "2026-03-10T01:47:54.856562",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "multiple system atrophy, parkinsonian type"
+      },
+      "queried_at": "2026-03-10T01:47:58.300138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "multiple system atrophy, parkinsonian type"
+      },
+      "queried_at": "2026-03-10T01:48:02.724378",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "queried_at": "2026-03-10T01:48:04.712127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "queried_at": "2026-03-10T01:48:08.079169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Levodopa",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "queried_at": "2026-03-10T01:48:11.595096",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:48:11.616581"
+  }
+}

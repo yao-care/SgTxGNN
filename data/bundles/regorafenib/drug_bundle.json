@@ -1,0 +1,1210 @@
+{
+  "drug": {
+    "inn": "Regorafenib",
+    "drugbank_id": "DB08896",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9975576400756836,
+        "txgnn_rank": 3959,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01900743",
+            "title": "Activity and Safety of Regorafenib in Patients With Metastatic Soft Tissue Sarcoma Previously Treated With Anthracycline-based Chemotherapy : a Multinational, Randomized, Phase II, Placebo-controlled Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-06-05",
+            "completion_date": "2020-09-16",
+            "country": "Austria, France",
+            "enrollment": 219,
+            "brief_summary": "This is an international (France, Austria and Germany), randomized, double-blind, placebo-controlled, phase II study to evaluate the efficacy and safety of regorafenib in patients with histologically proven metastatic and/or unresectable Soft Tissue Sarcoma (STS) after failure or intolerance to doxorubicin (or other anthracycline).\n\nFive cohorts will be defined:\n\nCohort A: Liposarcoma Cohort B: Leiomyosarcoma Cohort C: Synovial sarcoma Cohort D: other sarcomas (see Appendix C) Cohort E: Leiomyos",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Histological documentation of soft tissue sarcoma (including uterus)with available Formalin Fixed Paraffin Embedded (FFPE) blocks. Eligible soft tissue sarcomas are non-adipocytic soft tissue sarcomas\n* Prior treatment with doxorubicin or other anthracycline. M",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Centre Oscar Lambret",
+            "url": "https://clinicaltrials.gov/study/NCT01900743"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02048371",
+            "title": "SARC024: A Blanket Protocol to Study Oral Regorafenib in Patients With Selected Sarcoma Subtypes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-07",
+            "completion_date": "2022-05",
+            "country": "United States",
+            "enrollment": 131,
+            "brief_summary": "Although regorafenib was approved for use in patients who had progressive GIST despite imatinib and/or sunitinib on the basis of phase II and phase III data, it has not been examined in a systematic fashion in patients with other forms of sarcoma.\n\nGiven the activity of sorafenib, sunitinib and pazopanib in soft tissue sarcomas, and evidence of activity of sorafenib in osteogenic sarcoma and possibly Ewing/Ewing-like sarcoma, there is precedent to examine SMOKIs (small molecule oral kinase inhib",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 10 year for Liposarcoma, Osteosarcoma, Ewing sarcoma and Mesenchymal Chondrosarcoma; Age ≥ 5 years for Rhabdomyosarcoma cohorts\n* Weight ≥ 15 kg (33 lb)\n* Patients must have histologically or cytologically confirmed advanced/metastatic liposarcoma, osteogenic sarcoma, Ew",
+            "endpoints": [
+              "Progression-free Survival (PFS). Cohort A and Cohort B",
+              "Progression-free Survival (PFS). Cohort C, Cohort D, and Cohort E"
+            ],
+            "sponsor": "Sarcoma Alliance for Research through Collaboration",
+            "url": "https://clinicaltrials.gov/study/NCT02048371"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29902612",
+            "title": "Efficacy and safety of regorafenib compared to placebo and to post-cross-over regorafenib in advanced non-adipocytic soft tissue sarcoma.",
+            "abstract": "The placebo-controlled phase-2 REGOSARC trial demonstrated the efficacy of regorafenib in patients with leiomyosarcoma, synovial sarcoma and other non-adipocytic sarcoma but not in liposarcoma. Patients initially allocated to placebo were allowed to receive regorafenib after progression. We report here an updated analysis of the trial including evaluation of regorafenib activity after cross-over.",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2018",
+            "authors": [
+              "Brodowicz Thomas",
+              "Mir Olivier",
+              "Wallet Jennifer",
+              "Italiano Antoine",
+              "Blay Jean-Yves"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Cross-Over Studies",
+              "Disease Progression",
+              "Double-Blind Method",
+              "Female",
+              "Follow-Up Studies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29902612/"
+          },
+          {
+            "pmid": "29931504",
+            "title": "Growing Role of Regorafenib in the Treatment of Patients with Sarcoma.",
+            "abstract": "Sarcomas encompass a group of rare solid tumors responsible for approximately 1% of all cancer-related deaths in the United States each year. Subtypes include, but are not limited to, soft tissue sarcomas (STS) such as leiomyosarcoma, liposarcoma, pleomorphic sarcoma, and gastrointestinal stromal tumor (GIST). Treatment options for patients with STS vary depending on, among other factors, histological subtype. Data from a mix of phase 2 and phase 3 trials have suggested that the orally available multikinase inhibitor regorafenib may have efficacy in patients with STS who have progressed on previous lines of systemic therapy. Some clinical benefit of regorafenib has been shown in patients with leiomyosarcoma, synovial sarcoma, GIST, Ewing's sarcoma, and other sarcoma subtypes, suggesting a broad spectrum of potential activity in this population. Studies have also shown that the safety profile of regorafenib is acceptable in these patients, with adverse events that can be managed through",
+            "journal": "Targeted oncology",
+            "year": "2018",
+            "authors": [
+              "Agulnik Mark",
+              "Attia Steven"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Phenylurea Compounds",
+              "Pyridines",
+              "Sarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29931504/"
+          },
+          {
+            "pmid": "33290314",
+            "title": "Efficacy and safety of anlotinib in patients with unresectable or metastatic well-differentiated/dedifferentiated liposarcoma: a single-center retrospective study.",
+            "abstract": "Treatment options for unresectable local recurrence or metastatic well-differentiated/dedifferentiated liposarcoma (WDLS/DDLS) remain limited. Different liposarcoma subtypes have varying clinical features and sensitivities to treatment regimens. The multitarget tyrosine kinase inhibitors (TKIs), such as pazopanib and regorafenib, have been approved for use in nonadipocytic soft tissue sarcomas (STS). Anlotinib, another TKI, has been approved in China for treating metastatic STS that has progressed after the use of anthracycline-based regimens. In this study, we aimed to evaluate the role of anlotinib in the treatment of local recurrence or metastatic WDLS/DDLS. From August 2018 to June 2020, 17 patients with unresectable local recurrence or metastatic WDLS/DDLS treated with anlotinib in our center were included. The follow-up cutoff time was set as 20 October 2020. Baseline and observation indicators were collected and analyzed. Estimated median progression-free survival (PFS) was 27.9",
+            "journal": "Anti-cancer drugs",
+            "year": "2021",
+            "authors": [
+              "Li Zhi-Ke",
+              "Liu Jie",
+              "Deng Yao-Tiao",
+              "Jiang Yu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents, Immunological",
+              "Female",
+              "Humans",
+              "Indoles",
+              "Liposarcoma",
+              "Male",
+              "Middle Aged",
+              "Neoplasm Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33290314/"
+          },
+          {
+            "pmid": "27751846",
+            "title": "Safety and efficacy of regorafenib in patients with advanced soft tissue sarcoma (REGOSARC): a randomised, double-blind, placebo-controlled, phase 2 trial.",
+            "abstract": "Regorafenib is a multikinase inhibitor with proven activity in refractory gastrointestinal stromal tumours and chemotherapy-refractory advanced colorectal cancers. We assessed this agent's efficacy and safety in patients with metastatic soft tissue sarcomas previously treated with anthracycline.",
+            "journal": "The Lancet. Oncology",
+            "year": "2016",
+            "authors": [
+              "Mir Olivier",
+              "Brodowicz Thomas",
+              "Italiano Antoine",
+              "Wallet Jennifer",
+              "Blay Jean-Yves"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Disease-Free Survival",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Phenylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27751846/"
+          },
+          {
+            "pmid": "32701199",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Phase II Study of Regorafenib Versus Placebo in Advanced/Metastatic, Treatment-Refractory Liposarcoma: Results from the SARC024 Study.",
+            "abstract": "The results from the liposarcoma cohort of SARC024 confirm previously published data and do not support the routine use of regorafenib in this patient population. Continued exploration of novel therapies, including combination approaches, is warranted for a patient population in whom limited treatment options exist.",
+            "journal": "The oncologist",
+            "year": "2020",
+            "authors": [
+              "Riedel Richard F",
+              "Ballman Karla V",
+              "Lu Yao",
+              "Attia Steven",
+              "Loggers Elizabeth T"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Liposarcoma",
+              "Male",
+              "Middle Aged",
+              "Phenylurea Compounds",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32701199/"
+          },
+          {
+            "pmid": "40975452",
+            "title": "Maintenance after first-line treatment for advanced soft tissue sarcoma.",
+            "abstract": "Doxorubicin-based chemotherapy remains the best treatment modality for patients with advanced soft tissue sarcoma (STS), despite limited therapeutic efficacy. Moreover, subsequent salvage treatments exhibit reduced effectiveness. Consequently, the investigation of maintenance therapy in patients with non-progressive STS is pertinent. We reviewed non-randomized trials, although their interpretation was constrained by the lack of internal comparators. We examined eight randomized trials investigating maintenance therapy in patients with STS. Among seven trials assessing continuation maintenance therapy, two demonstrated significant improvement in progression-free survival (PFS): trabectedin following doxorubicin/trabectedin treatment in patients with advanced/metastatic leiomyosarcoma and anlotinib following epirubicin/anlotinib treatment across all histological subtypes. One trial investigating switch maintenance with regorafenib reported significant improvement in PFS in patients with ",
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2025",
+            "authors": [
+              "Penel Nicolas",
+              "Pautier Patricia",
+              "Blay Jean-Yves"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sarcoma",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Randomized Controlled Trials as Topic",
+              "Maintenance Chemotherapy",
+              "Doxorubicin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40975452/"
+          },
+          {
+            "pmid": "25884155",
+            "title": "Study protocol of REGOSARC trial: activity and safety of regorafenib in advanced soft tissue sarcoma: a multinational, randomized, placebo-controlled, phase II trial.",
+            "abstract": "Angiogenesis, among other signaling pathways, plays a key-role in sarcoma biology. Regorafenib (RE) has recently been shown to be effective in imatinib and sunitinib-refractory GIST in a phase III trial.",
+            "journal": "BMC cancer",
+            "year": "2015",
+            "authors": [
+              "Brodowicz Thomas",
+              "Liegl-Atzwager Bernadette",
+              "Tresch Emmanuelle",
+              "Taieb Sophie",
+              "Kramar Andrew"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Austria",
+              "Disease-Free Survival",
+              "Double-Blind Method",
+              "Female",
+              "Follow-Up Studies",
+              "France",
+              "Germany",
+              "Humans",
+              "Male",
+              "Phenylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25884155/"
+          },
+          {
+            "pmid": "28295221",
+            "title": "REGOSARC: Regorafenib versus placebo in doxorubicin-refractory soft-tissue sarcoma-A quality-adjusted time without symptoms of progression or toxicity analysis.",
+            "abstract": "In a placebo-controlled, randomized phase 2 trial (ClinicalTrials.gov identifier NCT01900743), regorafenib improved progression-free survival (PFS) for patients with doxorubicin-pretreated advanced nonadipocytic sarcoma. A quality-adjusted time without symptoms of progression or toxicity (Q-TWiST) post hoc exploratory analysis was applied to provide an integrated measure of its clinical benefit.",
+            "journal": "Cancer",
+            "year": "2017",
+            "authors": [
+              "Berry Vincent",
+              "Basson Laurent",
+              "Bogart Emilie",
+              "Mir Olivier",
+              "Blay Jean-Yves"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alopecia",
+              "Anorexia",
+              "Antineoplastic Agents",
+              "Asthenia",
+              "Diarrhea",
+              "Double-Blind Method",
+              "Fecal Incontinence",
+              "Female",
+              "Hand-Foot Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28295221/"
+          },
+          {
+            "pmid": "26266019",
+            "title": "Clinical Activity of Pazopanib in Metastatic Extraosseous Ewing Sarcoma.",
+            "abstract": "We report a response to pazopanib in a 69-year-old man with heavily pre-treated metastatic extraosseous Ewing sarcoma in addition to molecular profiling of his tumor. To our knowledge, this case is the earliest to demonstrate activity of an oral multi-targeted kinase inhibitor in Ewing sarcoma. This case provides rationale for adding a Ewing sarcoma arm to SARC024, a phase II study of regorafenib, another multi-targeted kinase inhibitor, in patients with liposarcoma, osteosarcoma and Ewing and Ewing-like sarcomas (NCT02048371). This national multi-institutional study is ongoing.",
+            "journal": "Rare tumors",
+            "year": "2015",
+            "authors": [
+              "Attia Steven",
+              "Okuno Scott H",
+              "Robinson Steven I",
+              "Webber Nicholas P",
+              "Indelicato Daniel J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26266019/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.9968173503875732,
+        "txgnn_rank": 4775,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "clear cell renal carcinoma",
+        "txgnn_score": 0.994672954082489,
+        "txgnn_rank": 6759,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03475953",
+            "title": "A Phase I/II Study of Regorafenib Plus Avelumab in Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2018-05-04",
+            "completion_date": "2025-12-31",
+            "country": "France",
+            "enrollment": 747,
+            "brief_summary": "Assessment of the efficacy and safety of Regorafenib and Avelumab in patients with advanced or metastatic solid tumors (ten cohorts), once the Recommanded Phase II Dose (RP2D) has been determined (phase I trial).\n\nAssessement of the efficacy and safety of a low-dose of regorafenib (80mg/day) with avelumab in patients with advanced or metastatic colorectal tumors.",
+            "eligibility_criteria": "Inclusion Criteria :\n\n1. Histology:\n\n   * Dose escalation part: histologically confirmed non MSI-H or deficient-MMR colorectal cancer, or GIST, or esophageal or gastric carcinoma or hepatobiliary cancers,\n   * Phase II trials : histologically confirmed\n\n     * non MSI-H or deficient-MMR colorectal c",
+            "endpoints": [
+              "PHASE I : Recommended phase II dose (RP2D)",
+              "PHASE II (7cohorts A, C, D, E, F and G) : Assessment of the antitumor activity of regorafenib",
+              "Phase II (cohorts B, H, I, M, N, O and P): Assessment of the antitumor activity of regorafenib"
+            ],
+            "sponsor": "Institut Bergonié",
+            "url": "https://clinicaltrials.gov/study/NCT03475953"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified renal cell carcinoma",
+        "txgnn_score": 0.9924460053443908,
+        "txgnn_rank": 8679,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
+        "txgnn_score": 0.9924460053443908,
+        "txgnn_rank": 8680,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma associated with neuroblastoma",
+        "txgnn_score": 0.9924460053443908,
+        "txgnn_rank": 8681,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "childhood kidney cell carcinoma",
+        "txgnn_score": 0.9907317757606506,
+        "txgnn_rank": 10007,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulva sarcoma",
+        "txgnn_score": 0.990567147731781,
+        "txgnn_rank": 10145,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "spindle cell liposarcoma",
+        "txgnn_score": 0.9884797930717468,
+        "txgnn_rank": 11696,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma (disease)",
+        "txgnn_score": 0.9867313504219056,
+        "txgnn_rank": 13025,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03890731",
+            "title": "A Single Arm, Open-label, Multicenter Phase 2 Study of Regorafenib in Participants Who Have Been Treated in a Previous Bayer-sponsored Regorafenib Study (Monotherapy or Combination Treatment) That Has Reached the Primary Completion Endpoint or the Main Data Analysis, or Has Been Stopped Prematurely.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-04-02",
+            "completion_date": "2023-02-28",
+            "country": "United Kingdom, Germany, Italy, United States, Japan",
+            "enrollment": 6,
+            "brief_summary": "The purpose of this study is to enable participants, currently receiving regorafenib in a Bayer-sponsored clinical trial, to continue treatment after their respective study has been closed. Patients participating in this study will be observed to collect information on how safe the drugs are and how this treatment is tolerated.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must be age-eligible in the feeder study at the time of signing the informed consent.\n* Participant is currently participating in any Bayer-sponsored regorafenib study and is receiving study treatment.\n* Participant is currently benefiting from treatment with regor",
+            "endpoints": [
+              "Number and Severity of Participants With Adverse Events (AEs) and Serious AEs (SAEs)",
+              "Severity (by Worst Grade) of Participants With Adverse Events (AEs) and Serious AEs (SAEs)",
+              "Number and Severity of Participants With Drug-related Adverse Events (AEs) and Serious AEs (SAEs)"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT03890731"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06047379",
+            "title": "An Open-label Phase 1/2 Dose Finding, Safety and Efficacy Study of Oral NEO212 in Patients With Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or Uncontrolled Brain Metastasis in Patients With Select Solid Tumors.",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2027-08-31",
+            "country": "United States",
+            "enrollment": 134,
+            "brief_summary": "This multi-site, Phase 1/2 clinical trial is an open-label study to identify the safety, pharmacokinetics, and efficacy of a repeated dose regimen of NEO212 alone for the treatment of patients with radiographically-confirmed progression of Astrocytoma IDH- mutant, Glioblastoma IDH-wildtype, and the safety, pharmacokinetics and efficacy of a repeated dose regimen of NEO212 when given with select SOC for the treatment of solid tumor patients with radiographically confirmed uncontrolled metastases ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be ≥ 18yrs of age.\n* Patient must have the ability to understand, and the willingness to sign, a written informed consent form.\n* Patient has been on a stable or decreasing dose of steroids for at least five days prior to the date of informed consent.\n* Any toxici",
+            "endpoints": [
+              "Phase 1: safety and tolerability of increasing dose levels of orally administered NEO212 alone in patients with Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or patients with select solid tumors with uncontrolled metastases to the brain",
+              "Phase 1: Identify the maximum tolerated dose (MTD) of NEO212",
+              "Phase 1: Determine the recommended Phase 2 dose (RP2D) of NEO212"
+            ],
+            "sponsor": "Neonc Technologies, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06047379"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01466504",
+            "title": "A Study of the Effect of Sorafenib or Regorafenib on p63 Expression and Keratinocyte Differentiation in Human Skin",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "start_date": "2011-05",
+            "completion_date": "2013-04",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "Skin toxicity is a frequently observed side effect in the era of \"molecularly targeted therapies\". Skin toxicity following administration of protein kinase inhibitors such as sorafenib, regorafenib, lapatinib, sunitinib, and others can be debilitating to the patient, resulting in dose reduction and discontinuation of treatment. The mechanisms of skin toxicity induced by targeted chemotherapy, such as sorafenib or regorafenib, are poorly understood. Further research is warranted to better underst",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female, 18 years old or older.\n2. Histologically or cytologically confirmed diagnosis of a solid tumor (RCC, HCC, or colorectal cancer).\n3. Participants are planning to initiate treatment with either sorafenib or regorafenib as a single chemotherapeutic agent\n4. Able ",
+            "endpoints": [
+              "p63 expression levels"
+            ],
+            "sponsor": "Dartmouth-Hitchcock Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01466504"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00664326",
+            "title": "A Phase II Uncontrolled Study of BAY73-4506 in Previously Untreated Patients With Metastatic or Unresectable Renal Cell Cancer (RCC)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-04-30",
+            "completion_date": "2019-04-02",
+            "country": "United Kingdom, France, Germany, United States, Finland, Poland",
+            "enrollment": 49,
+            "brief_summary": "This is a uncontrolled, open-label, non-randomized Phase II study of oral BAY73-4506 to evaluate the response rate of BAY73-4506 in previously untreated patients with metastatic or unresectable renal cell cancer (RCC).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female patients \\>/= 18 years of age.\n* Patients, who suffer from unresectable and/or metastatic, measurable predominantly clear cell RCC (renal cell carcinoma histologically) or cytologically documented.\n* Patients must be previously untreated for advanced disease. Pr",
+            "endpoints": [
+              "Objective Tumor Response",
+              "Tumor Response"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT00664326"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03475953",
+            "title": "A Phase I/II Study of Regorafenib Plus Avelumab in Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2018-05-04",
+            "completion_date": "2025-12-31",
+            "country": "France",
+            "enrollment": 747,
+            "brief_summary": "Assessment of the efficacy and safety of Regorafenib and Avelumab in patients with advanced or metastatic solid tumors (ten cohorts), once the Recommanded Phase II Dose (RP2D) has been determined (phase I trial).\n\nAssessement of the efficacy and safety of a low-dose of regorafenib (80mg/day) with avelumab in patients with advanced or metastatic colorectal tumors.",
+            "eligibility_criteria": "Inclusion Criteria :\n\n1. Histology:\n\n   * Dose escalation part: histologically confirmed non MSI-H or deficient-MMR colorectal cancer, or GIST, or esophageal or gastric carcinoma or hepatobiliary cancers,\n   * Phase II trials : histologically confirmed\n\n     * non MSI-H or deficient-MMR colorectal c",
+            "endpoints": [
+              "PHASE I : Recommended phase II dose (RP2D)",
+              "PHASE II (7cohorts A, C, D, E, F and G) : Assessment of the antitumor activity of regorafenib",
+              "Phase II (cohorts B, H, I, M, N, O and P): Assessment of the antitumor activity of regorafenib"
+            ],
+            "sponsor": "Institut Bergonié",
+            "url": "https://clinicaltrials.gov/study/NCT03475953"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30304963",
+            "title": "Nivolumab for the treatment of hepatocellular carcinoma.",
+            "abstract": "T-cell checkpoint inhibition as a cancer treatment approach has been the main breakthrough in cancer treatment during the last years. Since the approval of the first commercial CTLA-4 antibody ipilimumab in 2011 for the treatment of melanoma, research and drug development in this field has accelerated massively. In 2014, the US Food and Drug Administration (FDA) approved the first PD-1 targeting agent, namely pembrolizumab, shortly followed by nivolumab. Areas covered: Nivolumab is a fully human immunoglobulin G4 anti-PD-1 monoclonal antibody which is approved for multiple advanced malignancies, including melanoma, non-small cell lung cancer, renal cell cancer, Hodgkin's lymphoma, squamous head and neck cancer, and urothelial carcinoma. In September 2017, nivolumab was approved by the FDA for liver cancer as a second line treatment after failure of sorafenib based on the data of the multi-cohort phase 1/2 trial CheckMate-040. This article reviews the concept of immunotherapy in liver c",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2018",
+            "authors": [
+              "Finkelmeier Fabian",
+              "Waidmann Oliver",
+              "Trojan Joerg"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Immunological",
+              "Carcinoma, Hepatocellular",
+              "Drug Development",
+              "Humans",
+              "Immunotherapy",
+              "Liver Neoplasms",
+              "Nivolumab",
+              "Programmed Cell Death 1 Receptor",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30304963/"
+          },
+          {
+            "pmid": "22959186",
+            "title": "Regorafenib for patients with previously untreated metastatic or unresectable renal-cell carcinoma: a single-group phase 2 trial.",
+            "abstract": "Regorafenib inhibits VEGF receptors 1, 2, and 3 and PDGF receptors like other anti-angiogenic tyrosine-kinase inhibitors approved for treatment of advanced renal-cell cancer. Regorafenib also inhibits other potentially important angiogenic kinases like TIE2, activation of which is thought to be important in tumour escape mechanisms. This phase 2, open-label, non-randomised study assessed the safety and efficacy of the multikinase inhibitor regorafenib for treatment of renal-cell carcinoma.",
+            "journal": "The Lancet. Oncology",
+            "year": "2012",
+            "authors": [
+              "Eisen Tim",
+              "Joensuu Heikki",
+              "Nathan Paul D",
+              "Harper Peter G",
+              "Wojtukiewicz Marek Z"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Carcinoma, Renal Cell",
+              "Female",
+              "Humans",
+              "Kidney Neoplasms",
+              "Male",
+              "Middle Aged",
+              "Neoplasm Metastasis",
+              "Phenylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22959186/"
+          },
+          {
+            "pmid": "25139705",
+            "title": "[Pharmacotherapy of solid tumors. New hopes and frustrations].",
+            "abstract": "Recent years have seen dramatic changes in the biological understanding and treatment of solid tumors. Based on the tumor biology, targeting agents have been developed which directly affect the underlying genetic or immunological changes found in specific tumor entities. Significant increases in survival have delivered the functional proof of the concept of targeted and immunological tumor therapy. The management and adherence of the patient as well as optimized cooperation with clinicians are decisive for the results of therapy and disease control.Several solid tumors are currently under investigation in clinical studies evaluating the (sequential) therapy with targeting and immunologically active agents, e.g. tyrosine kinase and mTOR inhibitors, targeting antibodies, such as bevacizumab, specific antagonists, such as enzalutamide and immunological checkpoint inhibitors via PD(L)1 and/or CTLA 4 antibodies.Currently approved agents have dramatically changed the landscape of treatment o",
+            "journal": "Der Internist",
+            "year": "2014",
+            "authors": [
+              "Grünwald V",
+              "Rickmann M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Molecular Targeted Therapy",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25139705/"
+          },
+          {
+            "pmid": "33436042",
+            "title": "The integration of immune checkpoint inhibitors with VEGF targeted agents in advanced gastric and gastroesophageal adenocarcinoma: a review on the rationale and results of early phase trials.",
+            "abstract": "Several targeted therapies have shown efficacy in patients with advanced gastric cancer (GC) and gastroesophageal junction adenocarcinoma (GEJC), including anti-angiogenic agents and immune checkpoint inhibitors. Ramucirumab, an anti-VEGFR2 antibody, has shown efficacy in GC, but the benefits are limited, in part due to MET-mediated resistance. Other VEGF targeted agents like VEGF tyrosine kinase inhibitors (TKIs) with broad multi-kinase inhibitory spectrum like regorafenib and cabozantinib have also shown modest single agent activity in early phase trials. For immune checkpoint inhibitors, pembrolizumab (anti-PD-1) monotherapy confers survival advantage as 3rd line therapy for the PD-L1 expressing GC and GEJC population and has been approved for use in this setting. Extensive tumor microenvironment immune modulatory effects from antiangiogenic agents have been demonstrated from preclinical data which support the clinical study rationale of dual blockade of VEGF and immune checkpoint. ",
+            "journal": "Journal of hematology & oncology",
+            "year": "2021",
+            "authors": [
+              "Saeed Anwaar",
+              "Park Robin",
+              "Sun Weijing"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Disease Progression",
+              "Esophageal Neoplasms",
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Molecular Targeted Therapy",
+              "Stomach Neoplasms",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33436042/"
+          },
+          {
+            "pmid": "26921392",
+            "title": "Addition of DHA Synergistically Enhances the Efficacy of Regorafenib for Kidney Cancer Therapy.",
+            "abstract": "Kidney cancer is the sixth most common cancer in the United States, and its incidence is increasing. The treatment of this malignancy took a major step forward with the recent introduction of targeted therapeutics, such as kinase inhibitors. Unfortunately, kinase inhibition is associated with the onset of resistance after 1 to 2 years of treatment. Regorafenib, like many multikinase inhibitors, was designed to block the activities of several key kinase pathways involved in oncogenesis (Ras/Raf/MEK/ERK) and tumor angiogenesis (VEGF-receptors), and we have recently shown that it also possesses soluble epoxide hydrolase (sEH) inhibitory activity, which may be contributing to its salutary effects in patients. Because sEH inhibition results in increases in the DHA-derived epoxydocosapentaenoic acids that we have previously described to possess anticancer properties, we asked whether the addition of DHA to a therapeutic regimen in the presence of regorafenib would enhance its beneficial effe",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2016",
+            "authors": [
+              "Kim Jeffrey",
+              "Ulu Arzu",
+              "Wan Debin",
+              "Yang Jun",
+              "Hammock Bruce D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antimetabolites, Antineoplastic",
+              "Biomarkers",
+              "Cell Line, Tumor",
+              "Cytochrome P-450 Enzyme System",
+              "Dehydroepiandrosterone",
+              "Disease Models, Animal",
+              "Drug Synergism",
+              "Endothelial Cells",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26921392/"
+          },
+          {
+            "pmid": "32535637",
+            "title": "Phase I trial evaluating safety and efficacy of intratumorally administered inflammatory allogeneic dendritic cells (ilixadencel) in advanced gastrointestinal stromal tumors.",
+            "abstract": "The majority of patients with advanced gastrointestinal stromal tumor (GIST) develop resistance to imatinib, and subsequent treatments have limited efficacy. Ilixadencel (allogeneic inflammatory dendritic cells) is a cell-based immune primer injected intratumorally that previously has been clinically investigated in metastatic renal cell carcinoma and hepatocellular carcinoma.",
+            "journal": "Cancer immunology, immunotherapy : CII",
+            "year": "2020",
+            "authors": [
+              "Fröbom Robin",
+              "Berglund Erik",
+              "Berglund David",
+              "Nilsson Inga-Lena",
+              "Åhlén Jan"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Dendritic Cells",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Gastrointestinal Neoplasms",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32535637/"
+          },
+          {
+            "pmid": "26403941",
+            "title": "Oral adverse events in cancer patients treated with VEGFR-directed multitargeted tyrosine kinase inhibitors.",
+            "abstract": "This study characterized the incidence and clinical features of oral adverse events among cancer patients who received VEGFR-directed multitargeted tyrosine kinase inhibitor (VR-TKI) therapies.",
+            "journal": "Oral oncology",
+            "year": "2015",
+            "authors": [
+              "Yuan Anna",
+              "Kurtz Sharyn L",
+              "Barysauskas Constance M",
+              "Pilotte Amy P",
+              "Wagner Andrew J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Mouth Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26403941/"
+          },
+          {
+            "pmid": "35672730",
+            "title": "Clinical and microbiological features of obstructive cholangitis with bloodstream infection caused by Pandoraea apista identified by MALDI-TOF mass spectrometry and ribosomal RNA sequencing in a cancer patient.",
+            "abstract": "Pandoraea species are multidrug-resistant glucose-nonfermenting gram-negative bacilli that are usually isolated from patients with cystic fibrosis (CF) and from water and soil. Reports of diseases, including bloodstream infections, caused by Pandoraea spp. in non-CF patients are rare, and the clinical and microbiological characteristics are unclear. The identification of Pandorea spp. is limited by conventional microbiological methods and may be misidentified as other species owing to overlapping biochemical profiles. Here, we report the first case of obstructive cholangitis with bacteremia caused by Pandoraea apista in a patient with advanced colorectal cancer. A 61-year-old man with advanced colorectal cancer who underwent right nephrectomy for renal cell carcinoma 4 years earlier with well-controlled diabetes mellitus was admitted to our hospital with fever for 2 days. The last chemotherapy (regorafenib) was administered approximately 3 weeks ago, and an endoscopic ultrasound-guided",
+            "journal": "BMC infectious diseases",
+            "year": "2022",
+            "authors": [
+              "Itoh Naoya",
+              "Akazawa Nana",
+              "Ishibana Yuichi",
+              "Masuishi Toshiki",
+              "Nakata Akinobu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacteremia",
+              "Burkholderiaceae",
+              "Cholangitis",
+              "Colorectal Neoplasms",
+              "Cystic Fibrosis",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "RNA, Ribosomal",
+              "RNA, Ribosomal, 16S"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35672730/"
+          },
+          {
+            "pmid": "23922108",
+            "title": "Changes in tumour vessel density upon treatment with anti-angiogenic agents: relationship with response and resistance to therapy.",
+            "abstract": "We examine how changes in a surrogate marker of tumour vessel density correlate with response and resistance to anti-angiogenic therapy.",
+            "journal": "British journal of cancer",
+            "year": "2013",
+            "authors": [
+              "Vasudev N S",
+              "Goh V",
+              "Juttla J K",
+              "Thompson V L",
+              "Larkin J M G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Angiogenesis Inhibitors",
+              "Biomarkers, Tumor",
+              "Blood Vessels",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23922108/"
+          },
+          {
+            "pmid": "40565798",
+            "title": "Corneal Perforation as a Possible Ocular Adverse Event Caused by Cabozantinib: A Clinical Case and Brief Review.",
+            "abstract": "Background: Cabozantinib is a Vascular Endothelial Growth Factor Receptor Tyrosine Kinase Inhibitor (VEGFR-TKI). These drugs are employed as therapy for several malignancies. In detail, Cabozantinib has demonstrated its efficacy against several malignancies. On the other hand, Cabozantinib and other VEGFR-TKIs can be responsible for various adverse events (AEs), in particular hepatic and dermatological AEs. Methods: To date, limited data are available in the literature regarding ocular AEs due to therapy with these drugs. In this regard, one case of corneal perforation during treatment with a VEGFR-TKI, Regorafenib, has been reported, while there are no data about Cabozantinib. In this paper, we present another clinical case of corneal perforation in a patient affected by advanced RCC and treated with Cabozantinib as a second-line therapy. The patient started Cabozantinib at the dosage of 60 mg/die although it was necessary to apply some dose reductions because of grade 2 AEs (accordin",
+            "journal": "Journal of clinical medicine",
+            "year": "2025",
+            "authors": [
+              "Laface Carmelo",
+              "Scartozzi Luca",
+              "Pisano Chiara",
+              "Vanella Paola",
+              "Greco Antonio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40565798/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08896",
+    "name": "Regorafenib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Regorafenib"
+      },
+      "queried_at": "2026-03-09T22:57:17.741481",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Regorafenib"
+      },
+      "queried_at": "2026-03-09T22:57:22.094301",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T22:57:23.651810",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T22:57:31.380104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T22:57:40.110761",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T22:57:43.518044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T22:57:49.194407",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T22:57:53.206886",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "clear cell renal carcinoma"
+      },
+      "queried_at": "2026-03-09T22:57:56.550090",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "clear cell renal carcinoma"
+      },
+      "queried_at": "2026-03-09T22:58:03.843906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "clear cell renal carcinoma"
+      },
+      "queried_at": "2026-03-09T22:59:49.878728",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:59:50.951980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:59:58.694977",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:59:59.647574",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T23:00:00.692990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T23:00:11.379341",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T23:00:13.295479",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T23:00:14.697631",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T23:00:22.812564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T23:00:24.620711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T23:00:26.086627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T23:00:31.326697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T23:00:32.474783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "vulva sarcoma"
+      },
+      "queried_at": "2026-03-09T23:00:33.929266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "vulva sarcoma"
+      },
+      "queried_at": "2026-03-09T23:00:43.025503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "vulva sarcoma"
+      },
+      "queried_at": "2026-03-09T23:00:43.785077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "spindle cell liposarcoma"
+      },
+      "queried_at": "2026-03-09T23:00:44.767461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "spindle cell liposarcoma"
+      },
+      "queried_at": "2026-03-09T23:00:53.343319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "spindle cell liposarcoma"
+      },
+      "queried_at": "2026-03-09T23:00:55.019020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma (disease)"
+      },
+      "queried_at": "2026-03-09T23:00:58.347331",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma (disease)"
+      },
+      "queried_at": "2026-03-09T23:01:03.134800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Regorafenib",
+        "disease": "renal cell carcinoma (disease)"
+      },
+      "queried_at": "2026-03-09T23:01:10.102995",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T23:01:10.129433"
+  }
+}

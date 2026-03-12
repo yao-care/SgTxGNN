@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Nintedanib",
+    "drugbank_id": "DB09079",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.9915469288825988,
+        "txgnn_rank": 9372,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9913488030433656,
+        "txgnn_rank": 9538,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.9911873936653136,
+        "txgnn_rank": 9665,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart fibrosarcoma",
+        "txgnn_score": 0.988830029964447,
+        "txgnn_rank": 11411,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "axial spondylometaphyseal dysplasia",
+        "txgnn_score": 0.988689124584198,
+        "txgnn_rank": 11512,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrohpic lateral sclerosis type 22",
+        "txgnn_score": 0.988599419593811,
+        "txgnn_rank": 11605,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroblastic neoplasm",
+        "txgnn_score": 0.9884138703346252,
+        "txgnn_rank": 11738,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kidney fibrosarcoma",
+        "txgnn_score": 0.9882670044898988,
+        "txgnn_rank": 11856,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "conventional fibrosarcoma",
+        "txgnn_score": 0.988059937953949,
+        "txgnn_rank": 12018,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis, susceptibility to",
+        "txgnn_score": 0.9879952073097228,
+        "txgnn_rank": 12064,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09079",
+    "name": "Nintedanib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Nintedanib"
+      },
+      "queried_at": "2026-03-10T05:29:27.790297",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Nintedanib"
+      },
+      "queried_at": "2026-03-10T05:29:35.693033",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T05:29:36.552478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T05:29:40.765953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T05:29:41.269456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:41.935201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:45.416749",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:46.307139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:46.901801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:50.534038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:51.697278",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:52.413791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:55.755827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:29:56.484022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T05:29:57.047386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T05:30:00.063435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T05:30:00.910846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T05:30:01.599016",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T05:30:05.171877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T05:30:06.040409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T05:30:07.647705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T05:30:11.623999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T05:30:12.541932",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:30:13.137614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:30:16.738084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:30:17.688414",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:30:18.205827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:30:22.291109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T05:30:23.034251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T05:30:23.587318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T05:30:27.019358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nintedanib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T05:30:27.709515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:30:27.726030"
+  }
+}

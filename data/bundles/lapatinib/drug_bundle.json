@@ -1,0 +1,641 @@
+{
+  "drug": {
+    "inn": "Lapatinib",
+    "drugbank_id": "DB01259",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.9929613471031188,
+        "txgnn_rank": 8265,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroblastic neoplasm",
+        "txgnn_score": 0.9842612743377686,
+        "txgnn_rank": 14645,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34239043",
+            "title": "A SNAI2-PEAK1-INHBA stromal axis drives progression and lapatinib resistance in HER2-positive breast cancer by supporting subpopulations of tumor cells positive for antiapoptotic and stress signaling markers.",
+            "abstract": "Intercellular mechanisms by which the stromal microenvironment contributes to solid tumor progression and targeted therapy resistance remain poorly understood, presenting significant clinical hurdles. PEAK1 (Pseudopodium-Enriched Atypical Kinase One) is an actin cytoskeleton- and focal adhesion-associated pseudokinase that promotes cell state plasticity and cancer metastasis by mediating growth factor-integrin signaling crosstalk. Here, we determined that stromal PEAK1 expression predicts poor outcomes in HER2-positive breast cancers high in SNAI2 expression and enriched for MSC content. Specifically, we identified that the fibroblastic stroma in HER2-positive breast cancer patient tissue stains positive for both nuclear SNAI2 and cytoplasmic PEAK1. Furthermore, mesenchymal stem cells (MSCs) and cancer-associated fibroblasts (CAFs) express high PEAK1 protein levels and potentiate tumorigenesis, lapatinib resistance and metastasis of HER2-positive breast cancer cells in a PEAK1-dependen",
+            "journal": "Oncogene",
+            "year": "2021",
+            "authors": [
+              "Hamalian Sarkis",
+              "Güth Robert",
+              "Runa Farhana",
+              "Sanchez Francesca",
+              "Vickers Eric"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Lapatinib",
+              "Humans",
+              "Breast Neoplasms",
+              "Female",
+              "Drug Resistance, Neoplasm",
+              "Snail Family Transcription Factors",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Apoptosis",
+              "Signal Transduction",
+              "Endoplasmic Reticulum Chaperone BiP"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34239043/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "conventional fibrosarcoma",
+        "txgnn_score": 0.9836085438728333,
+        "txgnn_rank": 15041,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kidney fibrosarcoma",
+        "txgnn_score": 0.983465313911438,
+        "txgnn_rank": 15138,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cysticercosis",
+        "txgnn_score": 0.9833549857139589,
+        "txgnn_rank": 15232,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart fibrosarcoma",
+        "txgnn_score": 0.982469916343689,
+        "txgnn_rank": 15766,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "low grade fibromyxoid sarcoma",
+        "txgnn_score": 0.9822787046432496,
+        "txgnn_rank": 15874,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Plasmodium falciparum malaria",
+        "txgnn_score": 0.980230748653412,
+        "txgnn_rank": 16916,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32235391",
+            "title": "Lapatinib, Nilotinib and Lomitapide Inhibit Haemozoin Formation in Malaria Parasites.",
+            "abstract": "With the continued loss of antimalarials to resistance, drug repositioning may have a role in maximising efficiency and accelerating the discovery of new antimalarial drugs. Bayesian statistics was previously used as a tool to virtually screen USFDA approved drugs for predicted β-haematin (synthetic haemozoin) inhibition and in vitro antimalarial activity. Here, we report the experimental evaluation of nine of the highest ranked drugs, confirming the accuracy of the model by showing an overall 93% hit rate. Lapatinib, nilotinib, and lomitapide showed the best activity for inhibition of β-haematin formation and parasite growth and were found to inhibit haemozoin formation in the parasite, providing mechanistic insights into their mode of antimalarial action. We then screened the USFDA approved drugs for binding to the β-haematin crystal, applying a docking method in order to evaluate its performance. The docking method correctly identified imatinib, lapatinib, nilotinib, and lomitapide.",
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2020",
+            "authors": [
+              "de Sousa Ana Carolina C",
+              "Maepa Keletso",
+              "Combrinck Jill M",
+              "Egan Timothy J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antimalarials",
+              "Benzimidazoles",
+              "Binding Sites",
+              "Chloroquine",
+              "Drug Repositioning",
+              "Drug Resistance",
+              "Erythrocytes",
+              "Hemeproteins",
+              "High-Throughput Screening Assays",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32235391/"
+          },
+          {
+            "pmid": "29301082",
+            "title": "Optimization of Physicochemical Properties for 4-Anilinoquinoline Inhibitors of Plasmodium falciparum Proliferation.",
+            "abstract": "We recently reported the medicinal chemistry reoptimization of a known human tyrosine kinase inhibitor, lapatinib, against a variety of parasites responsible for numerous tropical diseases, including human African trypanosomiasis ( Trypanosoma brucei), Chagas disease ( T. cruzi), Leishmaniasis ( Leishmania spp.), and malaria ( Plasmodium falciparum). Herein, we report our continuing efforts to optimize this series against P. falciparum. Through the design of a library of compounds focused on reducing the lipophilicity and molecular weight, followed by an SAR exploration, we have identified NEU-1953 (40). This compound is a potent inhibitor of P. falciparum with an improved ADME profile over the previously reported compound, NEU-961 (3).",
+            "journal": "ACS infectious diseases",
+            "year": "2018",
+            "authors": [
+              "Mehta Naimee",
+              "Ferrins Lori",
+              "Leed Susan E",
+              "Sciotti Richard J",
+              "Pollastri Michael P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Antimalarials",
+              "Chemical Phenomena",
+              "Humans",
+              "Molecular Structure",
+              "Plasmodium falciparum",
+              "Quinazolines",
+              "Structure-Activity Relationship"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29301082/"
+          },
+          {
+            "pmid": "25685309",
+            "title": "EVALUATION OF AROMATIC 6-SUBSTITUTED THIENOPYRIMIDINES AS SCAFFOLDS AGAINST PARASITES THAT CAUSE TRYPANOSOMIASIS, LEISHMANIASIS, AND MALARIA.",
+            "abstract": "Target repurposing is a proven method for finding new lead compounds that target Trypanosoma brucei, the causative agent of human African trypanosomiasis. Due to the recent discovery of a lapatinib-derived analog 2 with excellent potency against T. brucei (EC50 = 42 nM) and selectivity over human host cells, we have explored other classes of human tyrosine kinase inhibitor scaffolds in order to expand the range of chemotypes for pursuit. Following library expansion, we found compound 11e to have an EC50 of 84 nM against T. brucei cells while maintaining selectivity over human hepatocytes. In addition, the library was tested against causative agents of Chagas' disease, leishmaniasis, and malaria. Two analogs with sub-micromolar potencies for T. cruzi (4j) and Plasmodium falciparum (11j) were discovered, along with an analog with considerable potency against Leishmania major amastigotes (4e). Besides identifying new and potent protozoan growth inhibitors, these data highlight the value o",
+            "journal": "MedChemComm",
+            "year": "2015",
+            "authors": [
+              "Woodring Jennifer L",
+              "Patel Gautam",
+              "Erath Jessey",
+              "Behera Ranjan",
+              "Lee Patricia J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25685309/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "coenurosis",
+        "txgnn_score": 0.9745715260505676,
+        "txgnn_rank": 19499,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphangiomyoma",
+        "txgnn_score": 0.9728931784629822,
+        "txgnn_rank": 20172,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20979677",
+            "title": "Chemotherapy-associated recurrent pneumothoraces in lymphangioleiomyomatosis.",
+            "abstract": "Lymphangioleiomyomatosis is a rare cause of pneumothorax in women. We present the case of a 48-year-old woman with lymphangioleiomyomatosis, who had never had a pneumothorax prior to commencing chemotherapy for breast cancer. During chemotherapy she developed 3 pneumothoraces and 2 episodes of pneumomediastinum. We suggest that the pneumothoraces were caused by the chemotherapy. To our knowledge, this is the first reported case of chemotherapy triggering pneumothoraces in a woman with lymphangioleiomyomatosis.",
+            "journal": "Respiratory care",
+            "year": "2010",
+            "authors": [
+              "Kelly Emer",
+              "Mhurchu Elaine Ni",
+              "Sukor Sumainizah",
+              "McDonnell Timothy J",
+              "Tryfonopoulos Dimitrios"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Lapatinib",
+              "Lung Neoplasms",
+              "Lymphangioleiomyomatosis",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20979677/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01259",
+    "name": "Lapatinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lapatinib"
+      },
+      "queried_at": "2026-03-10T04:59:14.103647",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lapatinib"
+      },
+      "queried_at": "2026-03-10T04:59:15.516035",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T04:59:16.007831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T04:59:19.304828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T04:59:20.050048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:59:20.606275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:59:23.953513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:59:25.985859",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:26.723100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:30.082500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:31.612155",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:32.952960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:36.736505",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:37.428643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "cysticercosis"
+      },
+      "queried_at": "2026-03-10T04:59:37.918521",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "cysticercosis"
+      },
+      "queried_at": "2026-03-10T04:59:40.725481",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "cysticercosis"
+      },
+      "queried_at": "2026-03-10T04:59:41.471156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:42.053620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:45.823724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:46.603567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "low grade fibromyxoid sarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:47.112745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "low grade fibromyxoid sarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:50.365806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "low grade fibromyxoid sarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:51.266205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T04:59:51.831982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T04:59:55.285835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T04:59:57.766489",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "coenurosis"
+      },
+      "queried_at": "2026-03-10T04:59:58.438531",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "coenurosis"
+      },
+      "queried_at": "2026-03-10T05:00:02.825336",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "coenurosis"
+      },
+      "queried_at": "2026-03-10T05:00:03.611419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-10T05:00:04.301755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-10T05:00:07.131914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lapatinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-10T05:00:09.229518",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:00:09.233299"
+  }
+}

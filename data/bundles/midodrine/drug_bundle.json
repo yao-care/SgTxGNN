@@ -1,0 +1,1235 @@
+{
+  "drug": {
+    "inn": "Midodrine",
+    "drugbank_id": "DB00211",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "variably protease-sensitive prionopathy",
+        "txgnn_score": 0.9999265670776368,
+        "txgnn_rank": 256,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faciodigitogenital syndrome",
+        "txgnn_score": 0.9994847774505616,
+        "txgnn_rank": 1178,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "attention deficit-hyperactivity disorder",
+        "txgnn_score": 0.9994107484817504,
+        "txgnn_rank": 1287,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05159687",
+            "title": "A Randomized, Prospective, Placebo-Controlled, Crossover Study of Atomoxetine in the Prevention of Vasovagal Syncope (POST7)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-06-01",
+            "completion_date": "2027-09",
+            "country": "Canada",
+            "enrollment": 180,
+            "brief_summary": "Project rationale: Vasovagal syncope (VVS) affects up to 50% of people, and recurrent syncope markedly reduces quality of life. We recently reported that it is frequently associated with injury and not surprisingly with clinical anxiety. Although conservative measures help many patients there remain many who require more care. CIHR-funded studies have shown that fludrocortisone and midodrine are effective but cannot be used in patients with contraindications such as hypertension and heart failur",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Syncope according to the American College of Cardiology Guidelines 2017\n2. At least 2 vasovagal syncope spells in the preceding 12 months\n3. At least -2 on the Syncope Symptom Score for Structurally Normal Hearts\n4. At least 18 years old with informed consent\n\nExclusion Crite",
+            "endpoints": [
+              "The primary outcome measure will be the proportion of patients having at least one syncope recurrence."
+            ],
+            "sponsor": "University of Calgary",
+            "url": "https://clinicaltrials.gov/study/NCT05159687"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotensive disorder",
+        "txgnn_score": 0.9989669322967528,
+        "txgnn_rank": 2046,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02307526",
+            "title": "Acetylcholinesterase Inhibition: A Novel Approach in the Treatment of Orthostatic Hypotension in Spinal Cord Injury",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-01",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "Due to de-centralized cardiovascular control, persons with spinal cord injury (SCI) experience blood pressure (BP) dysregulation which manifests in chronic hypotension with exacerbation during orthostatic positioning. Although many individuals with SCI remain asymptomatic to hypotension and orthostatic hypotension (OH), we recently reported reduced memory and marginally reduced attention and processing speed in hypotensive individuals with SCI compared to a normotensive cohort. Thus, we believe ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-65 years old\n* Spinal cord injury with American Spinal Injury Association Impairment Scale (AIS) level of Grade A, B, C or D 9non-ambulatory)\n* Neurological level of injury C3-T2\n* Duration of injury greater than 1 year\n\nExclusion Criteria:\n\n* Currently taking medicatio",
+            "endpoints": [
+              "Systolic Blood Pressure",
+              "Diastolic Blood Pressure",
+              "Heart Rate"
+            ],
+            "sponsor": "James J. Peters Veterans Affairs Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02307526"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02893553",
+            "title": "The Effects of Normalizing Blood Pressure on Cerebral Blood Flow in Hypotensive Individuals With Spinal Cord Injury",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-12",
+            "completion_date": "2021-12",
+            "country": "United States",
+            "enrollment": 21,
+            "brief_summary": "Dysregulation of blood pressure (BP), secondary to decentralized autonomic nervous system (ANS) control of the cardiovascular system, often results in chronic hypotension and orthostatic hypotension (OH) in persons with spinal cord injury (SCI), particularly in those with high cord lesions (i.e., above T6). While most hypotensive individuals with chronic SCI remain asymptomatic and do not complain of symptoms associated with cerebral hypoperfusion, evidence of reduced resting cerebral blood flow",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSpinal Cord Injured\n\n* Any level of injury\n* Any ASIA grade of SCI\n* Primarily wheelchair dependent for mobility\n* Duration of injury ˃ 1 year\n\nExclusion Criteria:\n\n* Current illness or infection\n* History of severe autonomic dysreflexia (AD: condition where BP increases)\n* More",
+            "endpoints": [
+              "Systolic Blood Pressure",
+              "Number of Participants With Normal Blood Pressure Readings"
+            ],
+            "sponsor": "James J. Peters Veterans Affairs Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02893553"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01030874",
+            "title": "Effect of Treatment of Orthostatic Hypotension on a Rehabilitation Unit",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2011-10",
+            "completion_date": "2016-05",
+            "country": "United States",
+            "enrollment": 356,
+            "brief_summary": "For patients recovering from acute illness, the ability to stand, walk, climb stairs, and participate in therapy are critical to their recovery and eventual discharge to the least restrictive environment. Orthostatic hypotension is a common finding in medically ill adult and elderly patients and is a potentially reversible contributor to functional impairment. This 4-year project will be a randomized controlled trial of a multidisciplinary-multicomponent intervention to determine whether routine",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients admitted to the nursing home, and rehabilitation unit\n\nExclusion Criteria:\n\n* hospice admission\n* respite admission\n* long-stay admission\n* transplant admission\n* inability to stand\n* expected length of stay less than 14 days\n* patients specifically admitted for t",
+            "endpoints": [
+              "Orthostatic Hypotension at Discharge"
+            ],
+            "sponsor": "VA Office of Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT01030874"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03431194",
+            "title": "Midodrine is Effective in Management of Intradialytic Hypotension Among Critically-ill Patients With Acute Kidney Injury",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-10-01",
+            "completion_date": "2017-04-06",
+            "country": "N/A",
+            "enrollment": 80,
+            "brief_summary": "The aim of this randomized trial was to assess the efficacy of oral midodrine tablets for the management of intradialytic hypotension among critically ill patients with acute kidney injury.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ICU patients\n* acute kidney injury\n* age above 18 years\n* documented hypotension during dialysis\n\nExclusion Criteria:\n\n* packed red blood cells transfusion\n* intravenous inotropes\n* alteration of blood pressure medications",
+            "endpoints": [
+              "Number of hypotensive episodes"
+            ],
+            "sponsor": "Benha University",
+            "url": "https://clinicaltrials.gov/study/NCT03431194"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05548985",
+            "title": ": Oral Midodrine for Prophylaxis Against Post Spinal Anaesthesia Hypotension During Hip Arthroplasty in Elderly Population: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-10-17",
+            "completion_date": "2023-07-15",
+            "country": "Egypt",
+            "enrollment": 58,
+            "brief_summary": "Hip fracture is a common and serious healthcare problem which commonly affects elderly populations. The common route of anesthesia for hip arthroplasty is spinal anesthesia. Elderly populations are characterized by high incidence of post spinal anesthesia hypotension; furthermore, elderly patients commonly have systemic medical disorder; therefore, this population is highly vulnerable to perioperative hypotension. Moreover , intraoperative hypotension during hip surgery has been recently recogni",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Elderly patients (\\>65).\n* ASA I-II-III.\n* Scheduled for hip joint surgery under spinal anaesthesia\n\nExclusion Criteria:\n\n* • Uncontrolled hypertension\n\n  * Liver cell failure (child B or C).\n  * Chronic renal failure on regular dialysis\n  * Contraindications of spinal anaesth",
+            "endpoints": [
+              "Intraoperative ephedrine consumption"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT05548985"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02307565",
+            "title": "Blood Pressure, Cerebral Blood Flow and Cognition in SCI",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-03",
+            "completion_date": "2019-12",
+            "country": "United States",
+            "enrollment": 19,
+            "brief_summary": "Following spinal cord injury autonomic regulation of the cardiovascular system is impaired, which results in a variety of measurable abnormalities in blood pressure. Evidence of causality has been documented in the general medical literature with findings of improved cognitive function following acute increases in blood pressure using the anti-hypotensive agent Midodrine Hydrochloride (midodrine). Additionally, a recent report documented an inverse association between blood pressure and depressi",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSpinal Cord Injured\n\n* Between the ages of 18-65 years old.\n* Level of injury is between C1-T12\n* Primarily wheelchair dependent for ambulation\n* Have a spinal cord injury that is ASIA Impairment Scale (AIS) grade of A, B or C\n* Injury occurred more than 1 year ago\n* Low blood p",
+            "endpoints": [
+              "Systolic Blood Pressure"
+            ],
+            "sponsor": "James J. Peters Veterans Affairs Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02307565"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05839652",
+            "title": "Treatment of Orthostatic Hypotension in Individuals With Spinal Cord Injury",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2023-07-01",
+            "completion_date": "2026-06-30",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "The purpose of this study is to identify the effects of non-pharmacological and pharmacological anti-hypotensive treatment interventions on orthostatic hemodynamic responses, symptoms of autonomic dysreflexia and orthostatic hypotension, and levels of fatigue and comfort in hypotensive individuals with SCI.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* traumatic spinal cord injury\n* at least 12 months post injury\n* injury level of C1-T6\n* AIS A, B or C\n* non-ambulatory\n* non-ventilator\n\nExclusion Criteria:\n\n* Active psychiatric disorder\n* Stroke or cerebrovascular disease\n* Alzheimer's Disease or dementia\n* Unmanaged cardiac",
+            "endpoints": [
+              "Systolic blood pressure"
+            ],
+            "sponsor": "James J. Peters Veterans Affairs Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05839652"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03037879",
+            "title": "Treating Cognitive Deficits in Traumatic Spinal Cord Injury: A Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-04-13",
+            "completion_date": "2021-09-30",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "Multiple studies in the spinal cord injury (SCI) population have documented deficits in learning and memory (LM) and processing speed (PS) that adversely impact daily life and the ability to benefit from rehabilitation. The investigators have previously attributed the cognitive deficits demonstrated in the SCI population to low blood pressure (BP) and cerebral blood flow (CBF) and are currently conducting a study to determine the effect of a 30-day elevation in BP (using midodrine hydrochloride ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primary language is English;\n* Level of Spinal Cord Injury between C1 and T12;\n* Non-ambulatory (wheelchair dependent);\n* American Spinal Injury Association (AISA) grade A, B or C;\n* Spinal Cord Injury occurred more than 1 year ago.\n\nExclusion Criteria:\n\n* Acute illness or inf",
+            "endpoints": [
+              "Neuropsychological Tests [Change from baseline at immediate follow up (post treatment) and long term follow-up (6months post treatment)]"
+            ],
+            "sponsor": "James J. Peters Veterans Affairs Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03037879"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06405555",
+            "title": "Midodrine in Heart Failure With Reduced Ejection Fraction With Hypotension: A Pilot, Open-label, Randomized Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-08-01",
+            "completion_date": "2026-07-01",
+            "country": "N/A",
+            "enrollment": 56,
+            "brief_summary": "The evidence-based pharmacologic treatments available for patients with heart failure with reduced ejection fraction (HFrEF) has been established over the last few decades of cardiovascular research. These treatments, termed Foundational Guideline-Directed-Medical Therapies (GDMT), prolong patient life, improve patient-reported symptoms, and reduce hospitalizations for heart failure. A direct effect of most medication classes encompassed within GDMT is the reduction in blood pressure due to thei",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults \\>= 18 years of age.\n* LVEF \\<= 40 % within the last 3 months as determined by any one of: Transthoracic echocardiogram, transesophageal echocardiogram, cardiac magnetic resonance imaging, MUGA scan, angiogram with left ventriculogram.\n* AHA/ACC Stage B or C Heart Failu",
+            "endpoints": [
+              "Enrollment rate",
+              "Percent enrollment",
+              "Randomization proportion"
+            ],
+            "sponsor": "Ottawa Heart Institute Research Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT06405555"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32979782",
+            "title": "Pharmacologic treatment of orthostatic hypotension.",
+            "abstract": "Neurogenic orthostatic hypotension (OH) is a disabling disorder caused by impairment of the normal autonomic compensatory mechanisms that maintain upright blood pressure. Nonpharmacologic treatment is always the first step in the management of this condition, but a considerable number of patients will require pharmacologic therapies. Denervation hypersensitivity and impairment of baroreflex buffering makes these patients sensitive to small doses of pressor agents. Understanding the underlying pathophysiology can help in selecting between treatment options. In general, patients with low \"sympathetic reserve\", i.e., those with peripheral noradrenergic degeneration (pure autonomic failure, Parkinson's disease) and low plasma norepinephrine, tend to respond better to \"norepinephrine replacers\" (midodrine and droxidopa). On the other hand, patients with relatively preserved \"sympathetic reserve\", i.e., those with impaired central autonomic pathways but spared peripheral noradrenergic fibers",
+            "journal": "Autonomic neuroscience : basic & clinical",
+            "year": "2020",
+            "authors": [
+              "Park Jin-Woo",
+              "Okamoto Luis E",
+              "Shibao Cyndya A",
+              "Biaggioni Italo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Multiple System Atrophy",
+              "Parkinson Disease",
+              "Pure Autonomic Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32979782/"
+          },
+          {
+            "pmid": "35029940",
+            "title": "Orthostatic Hypotension: A Practical Approach.",
+            "abstract": "Orthostatic hypotension is defined as a decrease in blood pressure of 20 mm Hg or more systolic or 10 mm Hg or more diastolic within three minutes of standing from the supine position or on assuming a head-up position of at least 60 degrees during tilt table testing. Symptoms are due to inadequate physiologic compensation and organ hypoperfusion and include headache, lightheadedness, shoulder and neck pain (coat hanger syndrome), visual disturbances, dyspnea, and chest pain. Prevalence of orthostatic hypotension in the community setting is 20% in older adults and 5% in middle-aged adults. Risk factors such as diabetes mellitus increase the prevalence of orthostatic hypotension in all age groups. Orthostatic hypotension is associated with a significant increase in cardiovascular risk and falls, and up to a 50% increase in relative risk of all-cause mortality. Diagnosis is confirmed by performing a bedside simplified Schellong test, which consists of blood pressure and heart rate measure",
+            "journal": "American family physician",
+            "year": "2022",
+            "authors": [
+              "Kim Michael J",
+              "Farrell Jennifer"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Accidental Falls",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Blood Pressure",
+              "Chest Pain",
+              "Diabetes Mellitus",
+              "Diet",
+              "Dizziness",
+              "Droxidopa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35029940/"
+          },
+          {
+            "pmid": "38123372",
+            "title": "Orthostatic hypotension: Review and expert position statement.",
+            "abstract": "Orthostatic hypotension is defined as a drop in systolic blood pressure of at least 20mmHg or a drop in diastolic blood pressure of at least 10mmHg within 3minutes of standing. It is a common disorder, especially in high-risk populations such as elderly subjects and patients with neurological diseases, and is associated with markedly increased morbidity and mortality. Its management can be challenging, particularly in cases where supine hypertension is associated with severe orthostatic hypotension. Education of the patient, non-pharmacological measures, and drug adaptation are the cornerstones of treatment. Pharmacological treatment should be individualized according to the severity, underlying cause, 24-hour blood pressure profile, and associated coexisting conditions. First-line therapies are midodrine and fludrocortisone, which may need to be combined for optimal care of severe cases.",
+            "journal": "Revue neurologique",
+            "year": "2024",
+            "authors": [
+              "Vidal-Petiot E",
+              "Pathak A",
+              "Azulay J-P",
+              "Pavy-Le Traon A",
+              "Hanon O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Consensus Statement"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Hypotension, Orthostatic",
+              "Midodrine",
+              "Hypertension",
+              "Blood Pressure",
+              "Nervous System Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38123372/"
+          },
+          {
+            "pmid": "31996627",
+            "title": "Management of Orthostatic Hypotension.",
+            "abstract": "This article reviews the management of orthostatic hypotension with emphasis on neurogenic orthostatic hypotension.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2020",
+            "authors": [
+              "Palma Jose-Alberto",
+              "Kaufmann Horacio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Diagnosis, Differential",
+              "Disease Management",
+              "Female",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31996627/"
+          },
+          {
+            "pmid": "25644760",
+            "title": "Terlipressin plus albumin versus midodrine and octreotide plus albumin in the treatment of hepatorenal syndrome: A randomized trial.",
+            "abstract": "Hepatorenal syndrome (HRS), a serious complication of cirrhosis, is associated with high mortality without treatment. Terlipressin with albumin is effective in the reversal of HRS. Where terlipressin is not available, as in the United States, midodrine and octreotide with albumin are used as an alternative treatment of HRS. The aim was to compare the effectiveness of terlipressin plus albumin versus midodrine and octreotide plus albumin in the treatment of HRS in a randomized controlled trial. Twenty-seven patients were randomized to receive terlipressin with albumin (TERLI group) and 22 to receive midodrine and octreotide plus albumin (MID/OCT group). The TERLI group received terlipressin by intravenous infusion, initially 3 mg/24 hours, progressively increased to 12 mg/24 hours if there was no response. The MID/OCT group received midodrine orally at an initial dose of 7.5 mg thrice daily, with the dose increased to a maximum of 12.5 mg thrice daily, together with octreotide subcutane",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2015",
+            "authors": [
+              "Cavallin Marta",
+              "Kamath Patrick S",
+              "Merli Manuela",
+              "Fasolato Silvano",
+              "Toniutto Pierluigi"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Albumins",
+              "Analysis of Variance",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies",
+              "Hepatorenal Syndrome",
+              "Humans",
+              "Infusions, Intravenous",
+              "Kaplan-Meier Estimate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25644760/"
+          },
+          {
+            "pmid": "38205630",
+            "title": "Orthostatic Hypotension in Adults With Hypertension: A Scientific Statement From the American Heart Association.",
+            "abstract": "Although orthostatic hypotension (OH) has long been recognized as a manifestation of autonomic dysfunction, a growing body of literature has identified OH as a common comorbidity of hypertension. This connection is complex, related to pathophysiology in blood pressure regulation and the manner by which OH is derived as the difference between 2 blood pressure measurements. While traditional therapeutic approaches to OH among patients with neurodegenerative disorders focus on increasing upright blood pressure to prevent cerebral hypoperfusion, the management of OH among patients with hypertension is more nuanced; resting hypertension is itself associated with adverse outcomes among these patients. Although there is substantial evidence that intensive blood pressure treatment does not cause OH in the majority of patients with essential hypertension, some classes of antihypertensive agents may unmask OH in patients with an underlying autonomic impairment. Practical steps to manage OH among",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2024",
+            "authors": [
+              "Juraschek Stephen P",
+              "Cortez Melissa M",
+              "Flack John M",
+              "Ghazi Lama",
+              "Kenny Rose Anne"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "American Heart Association",
+              "Hypertension",
+              "Midodrine",
+              "Blood Pressure",
+              "Antihypertensive Agents",
+              "Autonomic Nervous System Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38205630/"
+          },
+          {
+            "pmid": "37978969",
+            "title": "AGA Clinical Practice Update on the Use of Vasoactive Drugs and Intravenous Albumin in Cirrhosis: Expert Review.",
+            "abstract": "Cirrhosis is a major cause of morbidity and mortality in the United States and worldwide. It consists of compensated, decompensated, and further decompensated stages; median survival is more than 15 years, 2 years, and 9 months for each stage, respectively. With each stage, there is progressive worsening of portal hypertension and the vasodilatory-hyperdynamic circulatory state, resulting in a progressive decrease in effective arterial blood volume and renal perfusion. Vasoconstrictors reduce portal pressure via splanchnic vasoconstriction and are used in the management of variceal hemorrhage. Intravenous (IV) albumin increases effective arterial blood volume and is used in the prevention of acute kidney injury (AKI) and death after large-volume paracentesis and in patients with spontaneous bacterial peritonitis (SBP). The combination of vasoconstrictors and albumin is used in the reversal of hepatorenal syndrome (HRS-AKI), the most lethal complication of cirrhosis. Because a potent va",
+            "journal": "Gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Garcia-Tsao Guadalupe",
+              "Abraldes Juan G",
+              "Rich Nicole E",
+              "Wong Vincent Wai-Sun"
+            ],
+            "pub_types": [
+              "Review",
+              "Practice Guideline",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Terlipressin",
+              "Pharmaceutical Preparations",
+              "Octreotide",
+              "Esophageal and Gastric Varices",
+              "Ascites",
+              "End Stage Liver Disease",
+              "Gastrointestinal Hemorrhage",
+              "Severity of Illness Index",
+              "Vasoconstrictor Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37978969/"
+          },
+          {
+            "pmid": "33886735",
+            "title": "Dysautonomia: A Forgotten Condition - Part 1.",
+            "abstract": "Dysautonomia covers a range of clinical conditions with different characteristics and prognoses. They are classified as Reflex Syndromes, Postural Orthostatic Tachycardia Syndrome (POTS), Chronic Fatigue Syndrome, Neurogenic Orthostatic Hypotension (nOH) and Carotid Sinus Hypersensitivity Syndrome. Reflex (vasovagal) syndromes will not be discussed in this article. Reflex (vasovagal) syndromes are mostly benign and usually occur in patients without an intrinsic autonomic nervous system (ANS) or heart disease. Therefore, they are usually studied separately. Cardiovascular Autonomic Neuropathy (CAN) is the term most currently used to define dysautonomia with impairment of the sympathetic and/or parasympathetic cardiovascular autonomic nervous system. It can be idiopathic, such as multisystemic atrophy or pure autonomic failure, or secondary to systemic pathologies such as diabetes mellitus, neurodegenerative diseases, Parkinson's disease, dementia syndromes, chronic renal failure, amyloi",
+            "journal": "Arquivos brasileiros de cardiologia",
+            "year": "2021",
+            "authors": [
+              "Rocha Eduardo Arrais",
+              "Mehta Niraj",
+              "Távora-Mehta Maria Zildany Pinheiro",
+              "Roncari Camila Ferreira",
+              "Cidrão Alan Alves de Lima"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Autonomic Nervous System Diseases",
+              "Brazil",
+              "Droxidopa",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Tilt-Table Test"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33886735/"
+          },
+          {
+            "pmid": "40624434",
+            "title": "Dysautonomia: a common comorbidity of systemic disease.",
+            "abstract": "Referring to a broad spectrum of the autonomic symptoms, autonomic disorders, and general dysfunction of the autonomic nervous system, dysautonomia is one of the common and under-recognized comorbidities of a wide variety of systemic disease, including diabetes, autoimmune disorders, vitamin deficiencies, and hormonal dysregulation. The most common autonomic disorders encountered in clinical practice are postural orthostatic tachycardia syndrome (POTS), neurocardiogenic syncope (NCS), and orthostatic hypotension (OH), which may be undiagnosed or often mislabeled with psychiatric disorders. Typical clinical features of dysautonomia, such as orthostatic dizziness/lightheadedness, orthostatic intolerance, palpitations, exercise intolerance, cognitive dysfunction, and fatigue, should prompt a diagnostic investigation for dysautonomia, which includes an in-office 10-min stand test or a tilt table test in conjunction with other autonomic function tests if available. Treatment approach consis",
+            "journal": "Immunologic research",
+            "year": "2025",
+            "authors": [
+              "Blitshteyn Svetlana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Primary Dysautonomias",
+              "Comorbidity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40624434/"
+          },
+          {
+            "pmid": "2480881",
+            "title": "Midodrine. A review of its pharmacological properties and therapeutic use in orthostatic hypotension and secondary hypotensive disorders.",
+            "abstract": "Midodrine, a peripheral alpha-adrenergic agonist, finds use in the clinical management of patients with orthostatic hypotension or hypotension secondary to other clinical conditions or drug therapies. Midodrine is almost completely absorbed after oral administration and undergoes enzymatic hydrolysis to form its pharmacologically active metabolite, de-glymidodrine. In patients with refractory orthostatic hypotension oral midodrine increases standing blood pressure and improves symptoms of orthostatism, such as weakness, syncope, blurred vision and fatigue, without any associated cardiac stimulation. Comparative studies have shown midodrine to be clinically at least as effective as other sympathomimetic agents (norfenefrine, etilefrine, dimetofrine and ephedrine) and dihydroergotamine in this regard. Additionally, midodrine appears to cause less frequent and severe adverse effects associated with alpha-receptor agonism such as piloerection and urinary hesitancy. The most commonly experi",
+            "journal": "Drugs",
+            "year": "1989",
+            "authors": [
+              "McTavish D",
+              "Goa K L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Ethanolamines",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Midodrine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2480881/"
+          },
+          {
+            "pmid": "28050656",
+            "title": "The recommendations of a consensus panel for the screening, diagnosis, and treatment of neurogenic orthostatic hypotension and associated supine hypertension.",
+            "abstract": "Neurogenic orthostatic hypotension (nOH) is common in patients with neurodegenerative disorders such as Parkinson's disease, multiple system atrophy, pure autonomic failure, dementia with Lewy bodies, and peripheral neuropathies including amyloid or diabetic neuropathy. Due to the frequency of nOH in the aging population, clinicians need to be well informed about its diagnosis and management. To date, studies of nOH have used different outcome measures and various methods of diagnosis, thereby preventing the generation of evidence-based guidelines to direct clinicians towards 'best practices' when treating patients with nOH and associated supine hypertension. To address these issues, the American Autonomic Society and the National Parkinson Foundation initiated a project to develop a statement of recommendations beginning with a consensus panel meeting in Boston on November 7, 2015, with continued communications and contributions to the recommendations through October of 2016. This pap",
+            "journal": "Journal of neurology",
+            "year": "2017",
+            "authors": [
+              "Gibbons Christopher H",
+              "Schmidt Peter",
+              "Biaggioni Italo",
+              "Frazier-Mills Camille",
+              "Freeman Roy"
+            ],
+            "pub_types": [
+              "Consensus Statement",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypertension",
+              "Hypotension, Orthostatic",
+              "Supine Position"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28050656/"
+          },
+          {
+            "pmid": "36075500",
+            "title": "AGA Clinical Practice Update on the Evaluation and Management of Acute Kidney Injury in Patients With Cirrhosis: Expert Review.",
+            "abstract": "The purpose of this American Gastroenterological Association (AGA) Institute Clinical Practice Update is to review the available published evidence and expert advice regarding the clinical management of patients with suspected acute kidney injury in patients with cirrhosis.",
+            "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "year": "2022",
+            "authors": [
+              "Flamm Steven L",
+              "Wong Florence",
+              "Ahn Joseph",
+              "Kamath Patrick S"
+            ],
+            "pub_types": [
+              "Review",
+              "Practice Guideline",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Terlipressin",
+              "Creatinine",
+              "Midodrine",
+              "Octreotide",
+              "Liver Cirrhosis",
+              "Acute Kidney Injury",
+              "Albumins",
+              "Norepinephrine",
+              "Anti-Inflammatory Agents, Non-Steroidal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36075500/"
+          },
+          {
+            "pmid": "12180246",
+            "title": "Orthostatic hypotension.",
+            "abstract": "A common problem among elderly people, orthostatic hypotension is associated with significant morbidity and mortality, which may be caused by medications, the cumulative effects of age- and hypertension-related alterations in blood pressure regulation, or age-associated diseases that impair autonomic function. Evaluation requires multiple blood pressure measurements taken at different times of the day and after meals or medications. Central and peripheral nervous system disorders should be sought, and the laboratory evaluation should concentrate on ruling out diabetes mellitus, amyloidosis, occult malignancy, and vitamin deficiencies. If orthostatic hypotension is detected, it should be considered a risk factor for adverse outcomes and treated first with nonpharmacologic interventions, including the withdrawal of potentially hypotensive medications. In patients with hypertension and orthostatic hypotension, the judicious treatment of hypertension may be helpful. For persistent, symptom",
+            "journal": "Clinics in geriatric medicine",
+            "year": "2002",
+            "authors": [
+              "Mukai Seiji",
+              "Lipsitz Lewis A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Blood Pressure",
+              "Frail Elderly",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Middle Aged",
+              "Risk Factors",
+              "Syncope"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12180246/"
+          },
+          {
+            "pmid": "34532186",
+            "title": "COVID-19-Associated Dysautonomia.",
+            "abstract": "Orthostatic hypotension (OH) refers to a significant reduction in blood pressure (BP) that occurs on standing. It mainly results when autonomic reflexes are impaired or when the intravascular volume is depleted. Symptoms can range from syncope, dizziness, even angina or stroke. Major mechanisms causing OH are autonomic dysfunction affecting the baroreflex, severe volume depletion, and adverse medication effects. Case reports have described neurologic symptom association with coronavirus disease 2019 (COVID-19) including dysautonomia. Although most common symptoms of COVID have been primarily respiratory including fever, cough, shortness of breath, myriad other presentations including neurological, gastrointestinal, cardiac, and thromboembolic presentations have also been described. We describe a patient who was found to have OH and recurrent falls secondary to underlying COVID-19 infection and associated dysautonomia who was successfully treated with midodrine and fludrocortisone.",
+            "journal": "Cureus",
+            "year": "2021",
+            "authors": [
+              "Suresh Krithika",
+              "Alam Md Didar Ul",
+              "Satkovich Emily"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34532186/"
+          },
+          {
+            "pmid": "31733702",
+            "title": "Orthostatic Hypotension in Parkinson Disease.",
+            "abstract": "Orthostatic hypotension (OH) is a sustained fall in blood pressure on standing that can cause symptoms of organ hypoperfusion. OH is associated with increased morbidity and mortality and leads to a significant number of hospital admissions. OH can be caused by volume depletion, blood loss, cardiac pump failure, large varicose veins, medications, or defective activation of sympathetic nerves and reduced norepinephrine release upon standing. Neurogenic OH is a frequent and disabling problem in patients with synucleinopathies such as Parkinson disease, multiple system atrophy, and pure autonomic failure, and it is commonly associated with supine hypertension. Several therapeutic options are available.",
+            "journal": "Clinics in geriatric medicine",
+            "year": "2020",
+            "authors": [
+              "Palma Jose-Alberto",
+              "Kaufmann Horacio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Parkinson Disease",
+              "Patient Care Management"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31733702/"
+          },
+          {
+            "pmid": "33705537",
+            "title": "Neurogenic Orthostatic Hypotension. Lessons From Synucleinopathies.",
+            "abstract": "Maintenance of upright blood pressure critically depends on the autonomic nervous system and its failure leads to neurogenic orthostatic hypotension (NOH). The most severe cases are seen in neurodegenerative disorders caused by abnormal α-synuclein deposits: multiple system atrophy (MSA), Parkinson's disease, Lewy body dementia, and pure autonomic failure (PAF). The development of novel treatments for NOH derives from research in these disorders. We provide a brief review of their underlying pathophysiology relevant to understand the rationale behind treatment options for NOH. The goal of treatment is not to normalize blood pressure but rather to improve quality of life and prevent syncope and falls by reducing symptoms of cerebral hypoperfusion. Patients not able to recognize NOH symptoms are at a higher risk for falls. The first step in the management of NOH is to educate patients on how to avoid high-risk situations and providers to identify medications that trigger or worsen NOH. C",
+            "journal": "American journal of hypertension",
+            "year": "2021",
+            "authors": [
+              "Idiaquez Juan Francisco",
+              "Idiaquez Juan",
+              "Casar Juan Carlos",
+              "Biaggioni Italo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Synucleinopathies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33705537/"
+          },
+          {
+            "pmid": "39619823",
+            "title": "Effects of 30-Day Midodrine Administration, Compared to Placebo, on Blood Pressure, Cerebral Blood Flow Velocity, and Cognitive Performance in Persons with SCI.",
+            "abstract": "Individuals with spinal cord injury (SCI) at and above T6 experience impaired descending cortical control of the autonomic nervous system, which predisposes them to blood pressure (BP) disorders including persistent hypotension.",
+            "journal": "Topics in spinal cord injury rehabilitation",
+            "year": "2024",
+            "authors": [
+              "Peters Caitlyn G",
+              "Weir Joseph P",
+              "Chiaravalloti Nancy D",
+              "Dyson-Hudson Trevor A",
+              "Kirshblum Steven C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Midodrine",
+              "Male",
+              "Female",
+              "Double-Blind Method",
+              "Blood Pressure",
+              "Cerebrovascular Circulation",
+              "Cross-Over Studies",
+              "Adult",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39619823/"
+          },
+          {
+            "pmid": "37535437",
+            "title": "Terlipressin in the management of liver disease.",
+            "abstract": "Terlipressin is a synthetic vasopressin analog which has been recently approved in the United States by the Food and Drug Administration for the treatment of hepatorenal syndrome. Terlipressin stimulates vasopressin receptors located on the smooth muscle vasculature of the splanchnic circulation and renal tubules which results in splanchnic vasoconstriction with improved renal perfusion and antidiuretic activity, respectively.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2023",
+            "authors": [
+              "Scheinberg Andrew R",
+              "Martin Paul",
+              "Turkeltaub Joshua A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Terlipressin",
+              "Lypressin",
+              "Hepatorenal Syndrome",
+              "Esophageal and Gastric Varices",
+              "Gastrointestinal Hemorrhage",
+              "Vasoconstrictor Agents",
+              "Liver Cirrhosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37535437/"
+          },
+          {
+            "pmid": "28577744",
+            "title": "Orthostatic hypotension: A review.",
+            "abstract": "Orthostatic hypotension, defined by a drop in blood pressure of at least 20mmHg for systolic blood pressure and at least 10mmHg for diastolic blood pressure within 3minutes of standing up, is a frequent finding, particularly in elderly patients. It is associated with a significant increase in morbidity and mortality. Although it is often multifactorial, the first favoring factor is medications. Other etiologies are divided in neurogenic orthostatic hypotension, characterized by autonomic failure due to central or peripheral nervous system disorders, and non-neurogenic orthostatic hypotension, mainly favoured by hypovolemia. Treatment always requires education of the patient regarding triggering situations and physiological countermanoeuvers. Pharmacological treatment may sometimes be necessary and mainly relies on volume expansion by fludrocortisone and/or a vasopressor agents such as midodrine. There is no predefined blood pressure target, the goal of therapy being the relief of sympt",
+            "journal": "Nephrologie & therapeutique",
+            "year": "2017",
+            "authors": [
+              "Joseph Adrien",
+              "Wanono Ruben",
+              "Flamant Martin",
+              "Vidal-Petiot Emmanuelle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Anti-Inflammatory Agents",
+              "Drug Therapy, Combination",
+              "Fludrocortisone",
+              "Humans",
+              "Hypotension, Orthostatic",
+              "Hypovolemia",
+              "Midodrine",
+              "Nervous System Diseases",
+              "Sympathomimetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28577744/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+        "txgnn_score": 0.9985851049423218,
+        "txgnn_rank": 2634,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinoatrial node disease",
+        "txgnn_score": 0.9977412223815918,
+        "txgnn_rank": 3729,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "24634993",
+            "title": "Increased central arterial stiffness explains baroreflex dysfunction in spinal cord injury.",
+            "abstract": "After cervical spinal cord injury (SCI), orthostatic hypotension and intolerance commonly ensue. The cardiovagal baroreflex plays an important role in the acute regulation of blood pressure (BP) and is associated with the onset of presyncope. The cardiovagal baroreflex is dysfunctional after SCI; however, this may be influenced by either increased stiffening of the arteries containing the stretch-receptors (which has been shown in SCI) or a more downstream neural mechanism (i.e., solitary nucleus, sinoatrial node). Identifying where along this pathway baroreflex dysfunction occurs may highlight a potential therapeutic target. This study examined the relationship between spontaneous cardiovagal baroreflex sensitivity (BRS) and common carotid artery (CCA) stiffness in those with high level SCI before and after midodrine (alpha1-agonist) administration, as well as in able-bodied controls, to evaluate: (1) the role arterial stiffening plays mediating baroreflex function after SCI and (2) t",
+            "journal": "Journal of neurotrauma",
+            "year": "2014",
+            "authors": [
+              "Phillips Aaron A",
+              "Krassioukov Andrei V",
+              "Ainslie Philip N",
+              "Cote Anita T",
+              "Warburton Darren E R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenergic alpha-1 Receptor Agonists",
+              "Adult",
+              "Baroreflex",
+              "Blood Pressure",
+              "Carotid Artery, Common",
+              "Cervical Cord",
+              "Female",
+              "Heart Rate",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24634993/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monogenic obesity",
+        "txgnn_score": 0.9971358776092528,
+        "txgnn_rank": 4450,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "specific developmental disorder",
+        "txgnn_score": 0.9969890713691713,
+        "txgnn_rank": 4611,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete hypertelorism (disease)",
+        "txgnn_score": 0.9969117045402528,
+        "txgnn_rank": 4697,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinoatrial block",
+        "txgnn_score": 0.996614158153534,
+        "txgnn_rank": 4995,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00211",
+    "name": "Midodrine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Midodrine"
+      },
+      "queried_at": "2026-03-09T08:48:47.381782",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Midodrine"
+      },
+      "queried_at": "2026-03-09T08:48:49.416105",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-09T08:48:50.007223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-09T08:48:53.278447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-09T08:48:54.391145",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T08:48:54.928415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T08:48:58.402733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T08:48:59.109811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T08:48:59.881196",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T08:49:04.495766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T08:49:05.788973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "hypotensive disorder"
+      },
+      "queried_at": "2026-03-09T08:49:07.950128",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "hypotensive disorder"
+      },
+      "queried_at": "2026-03-09T08:49:11.447904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "hypotensive disorder"
+      },
+      "queried_at": "2026-03-09T08:49:14.194848",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "queried_at": "2026-03-09T08:49:14.785560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "queried_at": "2026-03-09T08:49:18.326575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "queried_at": "2026-03-09T08:49:19.067611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-09T08:49:20.217808",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-09T08:49:23.820964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-09T08:49:26.756415",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "monogenic obesity"
+      },
+      "queried_at": "2026-03-09T08:49:27.363019",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "monogenic obesity"
+      },
+      "queried_at": "2026-03-09T08:49:30.911574",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "monogenic obesity"
+      },
+      "queried_at": "2026-03-09T08:49:31.625512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "specific developmental disorder"
+      },
+      "queried_at": "2026-03-09T08:49:32.230378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "specific developmental disorder"
+      },
+      "queried_at": "2026-03-09T08:49:35.611866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "specific developmental disorder"
+      },
+      "queried_at": "2026-03-09T08:49:36.609063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-09T08:49:37.471891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-09T08:49:41.047776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-09T08:49:42.054293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-09T08:49:42.578698",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-09T08:49:46.978762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Midodrine",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-09T08:49:47.830148",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:49:47.842992"
+  }
+}

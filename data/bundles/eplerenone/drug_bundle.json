@@ -1,0 +1,2019 @@
+{
+  "drug": {
+    "inn": "Eplerenone",
+    "drugbank_id": "DB00700",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+        "txgnn_score": 0.9950036406517028,
+        "txgnn_rank": 6484,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "txgnn_score": 0.9950036406517028,
+        "txgnn_rank": 6485,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover, controlled hypoxia exposure may represent a treatment strategy for age-related neurological disorders. This review discusses evidence of hypoxia's beneficial vs. detrimental impacts on the aging brain and the molecular mechanisms that mediate these divergent effects. It draws upon an extensive literature search on the effects of hypoxia/altitude on brain aging, and detailed analysis of all identified studies directly comparing brain responses to hypoxia in young vs. aged humans or rodents. Spe",
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Aging",
+              "Brain",
+              "Hypoxia",
+              "Neuroprotection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33862277/"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiology, clinical medicine, and sports technology. Here, we explore the foundations of this nascent field and outline a path to determine how chronic continuous hypoxia can be safely, effectively, and practically delivered to patients.",
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39841808/"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity by modulating immune cell proliferation, development and effector function, largely via transcriptional changes driven by hypoxia-inducible factor (HIF). By contrast, in pathological immunological niches, such as tumours and chronically inflamed, infected or ischaemic tissues, pathological hypoxia can drive tissue dysfunction and disease development through immune cell dysregulation. Here, we differentiate between the effects of physiological and pathological hypoxia on immune cells and the cons",
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cellular Microenvironment",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Immune System",
+              "Immunity",
+              "Immunity, Innate",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28972206/"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcription factor of the cellular response to hypoxia. Further, acRIP-sequencing, Ribosome profiling sequencing, RNA-sequencing, and functional studies confirm that NAT10 in turn activates the HIF-1 pathway and subsequent glucose metabolism reprogramming by mediating SEPT9 mRNA ac4C modification. The formation of the NAT10/SEPT9/HIF-1α positive feedback loop leads to excessive activation of the HIF-1 pathway and induces glycolysis addiction. Combined anti-angiogenesis and ac4C inhibition attenuate hyp",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stomach Neoplasms",
+              "Feedback",
+              "Glycolysis",
+              "RNA, Messenger",
+              "Hypoxia",
+              "N-Terminal Acetyltransferases",
+              "Cytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37328448/"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute and chronic hypoxia. Hypoxia can impair several cognitive domains such as attention, learning and memory, procession speed and executive function, which are similar in acute and chronic hypoxia. The severity of cognitive deficit correlates with the duration and degree of hypoxia. Recovery can be achieved after acute hypoxia, while sequelae or even dementia can be observed after chronic hypoxia, perhaps due to the different molecular mechanisms. Cardiopulmonary compensatory response, glycolysis,",
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Cognitive Dysfunction",
+              "Hippocampus",
+              "Humans",
+              "Hypoxia",
+              "Neurofibrillary Tangles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34618295/"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with the goal of providing mechanistic insight and novel therapeutic targets. In this article we review both the normal biological effects of hypoxia as well as the alterations that occur in specific disease conditions with an emphasis on the cell signaling and gene transcription mechanisms that underlie the changes associated with chronic hypoxia. Comparisons of studies in the fields of cardiac ischemia and tumor angiogenesis reveal the complexities within the microenvironment that control response",
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gene Expression Regulation",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Myocardial Ischemia",
+              "Neoplasm Metastasis",
+              "Neoplasms",
+              "Neovascularization, Pathologic",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21328446/"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypoxia evokes a temporary delay of ingrowth of cholinergic and serotonergic fibres into the hippocampus and neocortex, and causes an enhanced neurodegeneration of 5-HT-ir axons during aging. Neonatal anoxia suppresses hippocampal ChAT activity and up-regulates muscarinic receptor sites for 3H-QNB and 3H-pirenzepine binding in the hippocampus in the early postnatal age. The altered development of axonal arborization and pre- and postsynaptic cholinergic functions may be an important underlying mecha",
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Behavior",
+              "Brain",
+              "Humans",
+              "Hypoxia",
+              "Neurotransmitter Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8817697/"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and DUBs are regulated by hypoxia. While hypoxia is a powerful HIF regulator, less is known about hypoxia-regulated DUBs and their impact on HIFs. Here, we review current knowledge about the relationship of E3s, DUBs, and hypoxia signaling. We also discuss the reciprocal regulation of DUBs by hypoxia and use of DUB-specific drugs in cancer.",
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Deubiquitinating Enzymes",
+              "Homeostasis",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Neoplasms",
+              "Oxygen",
+              "Protein Transport",
+              "Proteolysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31706510/"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dissemination. Consequently, substantial effort has been made to detect hypoxia in human tumours and identify realistic approaches to overcome hypoxia and improve cancer therapy outcomes. Hypoxia-targeting strategies include improving oxygen availability, sensitising hypoxic cells to radiation, preferentially killing these cells, locating the hypoxic regions in tumours and increasing the radiation dose to those areas, or applying high energy transfer radiation, which is less affected by hypoxia. De",
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Hypoxia",
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34535359/"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the setting of adequate oxygen exchange from the lungs to the blood are discussed. An algorithm is proposed for diagnosing patients who present with hypoxia.",
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Algorithms",
+              "Cell Hypoxia",
+              "Child, Preschool",
+              "Decision Trees",
+              "Diagnosis, Differential",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11172576/"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related events, possibly by exacerbating tissue hypoxia in the central nervous system. Accordingly, increasing oxygen supply can mitigate pathological and clinical parameters in MS models. In contrast, stimulating the endogenous hypoxia response and adaptation systems by controlled exposure to hypoxia (hypoxia conditioning) renders the central nervous system more resistant to hypoxic insults, thereby attenuating pathology and symptomatology in MS models. Overlapping mechanisms likely play a role in the ",
+            "journal": "Redox biology",
+            "year": "2025",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Multiple Sclerosis",
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen",
+              "Central Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40347693/"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who live at sea level. However, hypobaric hypoxia is present and oxygenation is lower than at sea level, and it is still unknown what other changes may be caused by hypobaric hypoxia at this altitude.",
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "pub_types": [
+              "Editorial",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Altitude",
+              "Hypoxia",
+              "Altitude Sickness",
+              "Acclimatization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40815459/"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "abstract": "",
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "authors": [
+              "Ferrer S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adenosine Monophosphate",
+              "Adenosine Triphosphate",
+              "Animals",
+              "Brain",
+              "Brain Edema",
+              "Humans",
+              "Hypercapnia",
+              "Hypoxia, Brain",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4585366/"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy, release of extracellular vesicles, and generation of pre-metastatic niches. Hypoxia also affects bone cells, such as osteoblasts and osteoclasts, and immune cells, which also act to support the development and progression of bone metastases. Paradoxically, hypoxia and related signaling molecules are recognized as high-priority therapeutic targets and many candidate drugs are currently under preclinical and clinical investigation. The present review focuses on our current knowledge of the potent",
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Neoplasms",
+              "Bone and Bones",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Signal Transduction",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30423905/"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Findings Epidemiological studies suggest that living in high-altitude areas increases the risk of migraine and especially migraine with aura. Human provocation models show that hypoxia provokes migraine with and without aura, whereas cluster headache has not been reliably induced by hypoxia. Possible pathophysiological mechanisms include hypoxia-induced release of nitric oxide and calcitonin gene-related peptide, cortical spreading depression and leakage of the blood-brain barrier. Conclusion There ",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cluster Headache",
+              "Humans",
+              "Hypoxia",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27146279/"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator, reports also indicate that hypoxia governs the activity of CMGC kinases, including DYRK1 kinases. Prolyl hydroxylation of DYRK1 kinases by PHD1 constitutes a novel mechanism of kinase maturation and activation. This modification \"primes\" DYRK1 kinases for subsequent tyrosine autophosphorylation, a vital step in their activation cascade. This mechanism adds a layer of intricacy to comprehending the regulation of CMGC kinases, and underscores the complex interplay between distinct post-translati",
+            "journal": "BMB reports",
+            "year": "2023",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Phosphorylation",
+              "Cell Hypoxia",
+              "Protein Processing, Post-Translational",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37915135/"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic subunit of the RNA exosome, in an HIF-independent manner. EXOSC10 is a multifunctional exoribonuclease enriched in the nucleolus that mediates the processing and degradation of various RNA species. We demonstrate that the ubiquitin-specific protease 36 (USP36) SUMOylates EXOSC10 and we reveal SUMO1/sentrin-specific peptidase 3 (SENP3) as the enzyme-mediating deSUMOylation of EXOSC10. Under hypoxia, EXOSC10 dissociates from USP36 and translocates from the nucleolus to the nucleoplasm concomitant wit",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Transcriptome",
+              "Exosomes",
+              "Hypoxia",
+              "Transcriptional Activation",
+              "Oxygen",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Sumoylation",
+              "Exoribonucleases",
+              "Exosome Multienzyme Ribonuclease Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38279024/"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "abstract": "",
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Acclimatization",
+              "Altitude",
+              "Animals",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Oxygen",
+              "Signal Transduction",
+              "Translational Research, Biomedical"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24557798/"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of the HIF-1 pathway are beneficial and promote the repair process, producing tissue that might not perfectly reform its original architecture but that has its function substantially restored. However, in some cases of chronic injury, chronic hypoxia and pathological repair, the hypoxia pathway might be responsible for driving the process of fibrosis and can lead to excessive scarring and compromised organ function.",
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease",
+              "Fibrosis",
+              "Humans",
+              "Hypoxia",
+              "Organ Specificity",
+              "Oxygen",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27423661/"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we outline the links between cancer and autoimmunity regarding hypoxia-induced factors, such as HIF-1α, and describe the role of hypoxia in the modulation of the autoimmune response.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Neoplasms",
+              "Autoimmune Diseases",
+              "Autoimmunity",
+              "Animals",
+              "Tumor Microenvironment",
+              "T-Lymphocytes, Helper-Inducer",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40963621/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant hypertensive renal disease",
+        "txgnn_score": 0.9949553608894348,
+        "txgnn_rank": 6517,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant renovascular hypertension",
+        "txgnn_score": 0.9949553608894348,
+        "txgnn_rank": 6518,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Braddock syndrome",
+        "txgnn_score": 0.9933951497077942,
+        "txgnn_rank": 7921,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic pulmonary heart disease",
+        "txgnn_score": 0.9561815857887268,
+        "txgnn_rank": 25173,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01115855",
+            "title": "The Effect Of Eplerenone Versus Placebo On Cardiovascular Mortality And Heart Failure Hospitalization In Japanese Subjects With Chronic Heart Failure",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-07",
+            "completion_date": "2015-09",
+            "country": "Japan",
+            "enrollment": 221,
+            "brief_summary": "A study to compare the efficacy and safety of eplerenone in Japanese chronic heart failure patients with placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Japanese chronic systolic heart failure patients with LVEF =\\<30% by echocardiography and NYHA II or more\n* Patients who receive standard therapy (Angiotensin converting enzyme inhibitors, angiotensin receptor blockers, beta-blocker or diuretic)\n\nExclusion Criteria:\n\n* Patient",
+            "endpoints": [
+              "Number of Participants With First Occurrence of Cardiovascular (CV) Mortality or Hospitalization Due to Heart Failure (HF)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01115855"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00232180",
+            "title": "The Effect Of Eplerenone Versus Placebo On Cardiovascular Mortality And Heart Failure Hospitalization In Subjects With NYHA Class II Chronic Systolic Heart Failure",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-03",
+            "completion_date": "2012-01",
+            "country": "Australia, India, Belgium, United States, Ukraine, Canada, South Korea, Netherlands, Italy, Russia, Czechia, Sweden, Ireland, Poland, Hong Kong, United Arab Emirates, United Kingdom, France, Germany, Argentina, Venezuela, Mexico, Hungary, Spain, Slovakia, South Africa, Portugal, Greece, Singapore",
+            "enrollment": 2743,
+            "brief_summary": "In an earlier study, eplerenone was shown to improve survival in patients who had heart failure immediately following a heart attack. However, it is not known how patients with established mild-to-moderate heart failure (NYHA Class II), who have the additional risk of sudden death, will respond if treated with eplerenone. In this trial, eplerenone plus standard heart failure medicines is being compared to placebo plus standard heart failure medicines in terms of an additional ability to prolong ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* History (Hx) of chronic systolic heart failure of ischemic or non-ischemic etiology of at least 4 weeks duration; Currently, New York Heart Association (NYHA) functional Class II and on optimal dose, or maximally tolerated dose of standard heart failure medicines (advisable to",
+            "endpoints": [
+              "Number of Participants With First Occurrence of Cardiovascular (CV) Mortality or Hospitalization Due to Heart Failure (HF) (Adjudicated): Up to Cut-off Date",
+              "Number of Participants With First Occurrence of Cardiovascular (CV) Mortality or Hospitalization Due to Heart Failure (HF) (Adjudicated)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00232180"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07029503",
+            "title": "Swedish Cardiac And Renal Failure Study-1 (SCARF-1): An Open-Label Pilot Trial to Evaluate the Feasibility, Safety and Efficacy of Eplerenone in Patients With Heart Failure With Reduced Ejection Fraction and Severe Chronic Kidney Disease",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2026-02",
+            "completion_date": "2027-10",
+            "country": "Sweden",
+            "enrollment": 40,
+            "brief_summary": "Previous studies have shown that patients with heart failure with reduced pumping function and preserved kidney function experience improved symptoms, longer survival, and fewer hospitalizations when treated with medications such as eplerenone. However, individuals with impaired kidney function have been excluded from these trials due to concerns about potential adverse effects on potassium levels, kidney function, and possibly also blood pressure. As a result, clear treatment recommendations fo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The participant has given their written consent to participate\n* A diagnosis of HFrEF according to current criteria, for at least three months before the screening visit\n* Echocardiography within 24 months of the screening visit with ejection fraction ≤ 40%. The responsible in",
+            "endpoints": [
+              "The primary endpoint is the proportion of participants who complete the treatment period with and without the need to use a potassium binder"
+            ],
+            "sponsor": "Karolinska Institutet",
+            "url": "https://clinicaltrials.gov/study/NCT07029503"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02354352",
+            "title": "Therapeutic Potential for Aldosterone Inhibition in Duchenne Muscular Dystrophy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-03-20",
+            "completion_date": "2018-05",
+            "country": "United States",
+            "enrollment": 52,
+            "brief_summary": "The study is to demonstrate non-inferiority of spironolactone vs. eplerenone in preserving cardiac and pulmonary function in patients with preserved LV ejection fraction. Males with Duchenne muscular dystrophy (DMD) confirmed clinically and by mutation analysis will be enrolled. Subjects will be randomized to either eplerenone or spironolactone. Subjects will use a drug diary to record daily compliance of taking the study medication as well as any concerns they may have during the study period. ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Boys age ≥7 years with DMD confirmed clinically and by mutation analysis able to undergo cardiac magnetic resonance (CMR) without sedation\n* LV EF ≥45% (+/-5%) by clinically-acquired echocardiography, nuclear scan or cardiac MRI done within 2 weeks of enrollment\n\nExclusion Cri",
+            "endpoints": [
+              "Left Ventricular Strain"
+            ],
+            "sponsor": "Ohio State University",
+            "url": "https://clinicaltrials.gov/study/NCT02354352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06697353",
+            "title": "ROVER Japan/ Real-world Outcomes of Patients Treated With Vericiguat in Japanese Routine Care: a Retrospective Cohort Study Using a Hospital Administrative Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2024-11-01",
+            "completion_date": "2025-09-19",
+            "country": "Japan",
+            "enrollment": 4936,
+            "brief_summary": "This is an observational study in which data already collected from people with chronic heart failure is studied.\n\nChronic HFrEF is a long-term condition where the left side of the heart does not pump blood out to the body as well as it should. Blood and fluid may collect in the lungs, blood vessels, and tissues causing shortness of breath or tiredness. Over time, heart failure can lead to other serious medical conditions that may result in hospital stays or even death.\n\nThe study drug, vericigu",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients who initiate vericiguat (identified by Anatomical Therapeutic Chemical \\[ATC\\] code C01DX22, generic name and receipt code \\[to be defined in the SAP\\]) between September 2021 and July 2024\n\n* Patients who have diagnosis code of HF (identified by World Health Organizati",
+            "endpoints": [
+              "Incidence rates of clinical outcomes in patients who initiate vericiguat"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT06697353"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05580510",
+            "title": "\"An Open-label Clinical Trial to Evaluate the Safety and Efficacy of Empagliflozin and Sacubitril/Valsartan in Adult Patients With Chronic Heart Failure With Reduced Ejection Fraction Associated With Congenital Heart Disease\"",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-02-06",
+            "completion_date": "2024-03-29",
+            "country": "Mexico",
+            "enrollment": 160,
+            "brief_summary": "The treatment of adult patients with congenital heart disease (ACHD) and heart failure (HF) represents a great challenge since, to date, there is no standardized guideline for this specific population. Although new treatments for HF have been proposed, such as Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors and neprilisin and angiotensin receptor inhibitors, the benefit of these drugs in patients with HF associated with congenital heart disease in adults has not yet been demonstrated. For this",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* NYHA functional class II-IV\n* Diagnosis of CHD: repaired, palliated or without previous treatment\n* Systemic ventricular ejection fraction \\<40%\n* Without unplanned hospital admissions within 3 months prior to randomization\n* The participant is willing and able to give informe",
+            "endpoints": [
+              "3D echocardiographic systemic ventricular end-diastolic volume index",
+              "3D echocardiographic systemic ventricular end-systolic volume index"
+            ],
+            "sponsor": "Instituto Nacional de Cardiologia Ignacio Chavez",
+            "url": "https://clinicaltrials.gov/study/NCT05580510"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29499691",
+            "title": "Eplerenone attenuates pathological pulmonary vascular rather than right ventricular remodeling in pulmonary arterial hypertension.",
+            "abstract": "Aldosterone is a mineralocorticoid hormone critically involved in arterial blood pressure regulation. Although pharmacological aldosterone antagonism reduces mortality and morbidity among patients with severe left-sided heart failure, the contribution of aldosterone to the pathobiology of pulmonary arterial hypertension (PAH) and right ventricular (RV) heart failure is not fully understood.",
+            "journal": "BMC pulmonary medicine",
+            "year": "2018",
+            "authors": [
+              "Boehm Mario",
+              "Arnold Nadine",
+              "Braithwaite Adam",
+              "Pickworth Josephine",
+              "Lu Changwu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arterial Pressure",
+              "Disease Models, Animal",
+              "Eplerenone",
+              "Heart Ventricles",
+              "Hypertension, Pulmonary",
+              "Hypoxia",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29499691/"
+          },
+          {
+            "pmid": "32919912",
+            "title": "Associations Between Depressive Symptoms and HFpEF-Related Outcomes.",
+            "abstract": "This study analyzed changes in depressive symptoms in patients with heart failure and preserved ejection fraction (HFpEF) who were enrolled in the TOPCAT (Aldosterone Antagonist Therapy for Adults With Heart Failure and Preserved Systolic Function) trial.",
+            "journal": "JACC. Heart failure",
+            "year": "2020",
+            "authors": [
+              "Chandra Alvin",
+              "Alcala Michael A D",
+              "Claggett Brian",
+              "Desai Akshay S",
+              "Fang James C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Depression",
+              "Heart Failure",
+              "Humans",
+              "Male",
+              "Mineralocorticoid Receptor Antagonists",
+              "Stroke Volume",
+              "Treatment Outcome",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32919912/"
+          },
+          {
+            "pmid": "24067600",
+            "title": "A cornerstone of heart failure treatment is not effective in experimental right ventricular failure.",
+            "abstract": "Right ventricular (RV) failure due to increased pressure load causes significant morbidity and mortality in patients with congenital heart diseases and pulmonary arterial hypertension. It is unknown whether renin-angiotensin-aldosterone-system (RAAS) inhibition (the cornerstone of left ventricular failure treatment) is effective in RV failure. We investigated the effects of combination treatment of aldosterone-blocker eplerenone+angiotensin II receptor blocker losartan (Ep/Lo) on RV remodeling and function in a model of RV failure due to increased pressure load.",
+            "journal": "International journal of cardiology",
+            "year": "2013",
+            "authors": [
+              "Borgdorff Marinus A",
+              "Bartelds Beatrijs",
+              "Dickinson Michael G",
+              "Steendijk Paul",
+              "Berger Rolf M F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease Models, Animal",
+              "Drug Therapy, Combination",
+              "Eplerenone",
+              "Heart Failure",
+              "Losartan",
+              "Male",
+              "Random Allocation",
+              "Rats",
+              "Rats, Wistar"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24067600/"
+          },
+          {
+            "pmid": "17481946",
+            "title": "Clinical trials update from the American College of Cardiology 2007: ALPHA, EVEREST, FUSION II, VALIDD, PARR-2, REMODEL, SPICE, COURAGE, COACH, REMADHE, pro-BNP for the evaluation of dyspnoea and THIS-diet.",
+            "abstract": "This article provides information and a commentary on trials relevant to the pathophysiology, prevention and treatment of heart failure, presented at the American College of Cardiology meeting in March 2007. Unpublished reports should be considered as preliminary data, as analyses may change in the final publication. The ALPHA study suggested that patients with heart failure (HF) due to idiopathic dilated cardiomyopathy who have a negative T-wave alternans test have a good prognosis and are unlikely to benefit from ICD therapy. EVEREST provides some evidence of short-term symptom benefit of tolvaptan in patients with acute decompensated HF but no clinically important long-term benefit. FUSION II failed to show a benefit of nesiritide in patients with chronic decompensated HF. Reducing blood pressure in hypertensive patients improved diastolic dysfunction in VALIDD. Eplerenone did not improve left ventricular remodelling in mild to moderate chronic HF. Selecting HF patients for revascul",
+            "journal": "European journal of heart failure",
+            "year": "2007",
+            "authors": [
+              "Cleland John G F",
+              "Coletta Alison P",
+              "Clark Andrew L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Brain-Derived Neurotrophic Factor",
+              "Cardiac Output, Low",
+              "Cause of Death",
+              "Combined Modality Therapy",
+              "Defibrillators, Implantable",
+              "Dyspnea",
+              "Follow-Up Studies",
+              "Heart Failure",
+              "Hospitalization",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17481946/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete susceptibility to ischemic stroke",
+        "txgnn_score": 0.8629423975944519,
+        "txgnn_rank": 38214,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain stem infarction",
+        "txgnn_score": 0.7724885940551758,
+        "txgnn_rank": 43020,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cerebrovascular disorder",
+        "txgnn_score": 0.6964016556739807,
+        "txgnn_rank": 45460,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05198791",
+            "title": "The Effect of Mineralocorticoid Receptor Antagonist Therapy in Patients With Acute Myocardial Infection or Injury and Cardiovascular Risk Factors: a Registry-based, Stratified-medicine, Randomised, Controlled Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-02-04",
+            "completion_date": "2026-07-31",
+            "country": "United Kingdom",
+            "enrollment": 350,
+            "brief_summary": "Patients with heart attack or heart injury are tested (angiogram) for blockages in their arteries. Many patients develop heart problems caused by damage to small (microvascular) blood vessels. These issues are also relevant to patients with coronarvirus-19 disease (COVID-19). Eplerenone reduces blood vessel injury and is used to treat heart failure.\n\nAim: to test the use of eplerenone in patients with heart attack/heart injury who have small vessel disease, including patients with COVID-19\n\nPati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Acute myocardial infarction or myocardial injury and no obstructive coronary arteries.\n* Cardiovascular risk factor (≥1): age \\>70 years, atrial fibrillation, diabetes, current smoker, eGFR 30 - 60 mL/ minute/1.73 m2, prior MI, treated hypertension or COVID-19",
+            "endpoints": [
+              "Within patient change in NTproBNP"
+            ],
+            "sponsor": "NHS National Waiting Times Centre Board",
+            "url": "https://clinicaltrials.gov/study/NCT05198791"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05744986",
+            "title": "The Systemic Effects of Transcatheter Renal Artery Sympathetic Denervation Using a Second- Generation Radiofrequency Ablation Catheter: A Multicenter Observational Study.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2022-11-22",
+            "completion_date": "2025-01-22",
+            "country": "Hong Kong",
+            "enrollment": 100,
+            "brief_summary": "Hypertension is a common health problem that affects millions of people in the world. Poorly controlled blood pressure (BP) leads to cardiovascular, cerebrovascular and renal complications. Despite the availability of multitudes of anti-hypertensive drugs, the percentage of patients achieving optimal control of hypertension has remained disappointingly low.\n\nResistant hypertension (rHT) is defined as the failure to achieve target BP despite concurrent use of antihypertensive drugs of different c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject age \\>18.\n2. Subject (or legal guardian) understands the study procedures and provides written informed consent.\n3. Subject is recruited for Transcatheter Renal Denervation Procedure.\n\nExclusion Criteria:\n\nThere is no exclusion criteria.",
+            "endpoints": [
+              "Changes in SBP and DBP as measured by office BP measurement and by 24 hours ABPM",
+              "Changes in Echocardiographic parameters including LV wall thickness, LV mass, LV dimension, LV systolic function, LV diastolic function, LV global longitudinal strain, LA volume, LA strain, descending aortic circumferential strain, and RV function.",
+              "Changes in arterial stiffness as measured by brachial pulse wave velocity."
+            ],
+            "sponsor": "Chinese University of Hong Kong",
+            "url": "https://clinicaltrials.gov/study/NCT05744986"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30022799",
+            "title": "Controlling resistant hypertension.",
+            "abstract": "Resistant hypertension (failure to achieve target blood pressures with three or more antihypertensive drugs including a diuretic) is an important and preventable cause of stroke. Hypertension is highly prevalent in China (>60% of persons above age 65), and only ~6% of hypertensives in China are controlled to target levels. Most strokes occur among persons with resistant hypertension; approximately half of strokes could be prevented by blood pressure control. Reasons for uncontrolled hypertension include (1) non-compliance; (2) consumption of substances that aggravated hypertension, such as excess salt, alcohol, licorice, decongestants and oral contraceptives; (3) therapeutic inertia (failure to intensify therapy when target blood pressures are not achieved); and (4) diagnostic inertia (failure to investigate the cause of resistant hypertension). In China, an additional factor is lack of availability of appropriate antihypertensive therapy in many healthcare settings. Sodium restriction",
+            "journal": "Stroke and vascular neurology",
+            "year": "2018",
+            "authors": [
+              "Spence J David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antihypertensive Agents",
+              "Blood Pressure",
+              "China",
+              "Diet, Healthy",
+              "Diet, Mediterranean",
+              "Dietary Approaches To Stop Hypertension",
+              "Drug Resistance",
+              "Drug Therapy, Combination",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30022799/"
+          },
+          {
+            "pmid": "34351870",
+            "title": "Differential restoration of functional hyperemia by antihypertensive drug classes in hypertension-related cerebral small vessel disease.",
+            "abstract": "Dementia resulting from small vessel diseases (SVDs) of the brain is an emerging epidemic for which there is no treatment. Hypertension is the major risk factor for SVDs, but how hypertension damages the brain microcirculation is unclear. Here, we show that chronic hypertension in a mouse model progressively disrupts on-demand delivery of blood to metabolically active areas of the brain (functional hyperemia) through diminished activity of the capillary endothelial cell inward-rectifier potassium channel, Kir2.1. Despite similar efficacy in reducing blood pressure, amlodipine, a voltage-dependent calcium-channel blocker, prevented hypertension-related damage to functional hyperemia whereas losartan, an angiotensin II type 1 receptor blocker, did not. We attribute this drug class effect to losartan-induced aldosterone breakthrough, a phenomenon triggered by pharmacological interruption of the renin-angiotensin pathway leading to elevated plasma aldosterone levels. This hypothesis is sup",
+            "journal": "The Journal of clinical investigation",
+            "year": "2021",
+            "authors": [
+              "Koide Masayo",
+              "Harraz Osama F",
+              "Dabertrand Fabrice",
+              "Longden Thomas A",
+              "Ferris Hannah R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amlodipine",
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Antihypertensive Agents",
+              "Cerebral Small Vessel Diseases",
+              "Cerebrovascular Circulation",
+              "Dementia, Vascular",
+              "Disease Models, Animal",
+              "Drug Therapy, Combination",
+              "Eplerenone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34351870/"
+          },
+          {
+            "pmid": "24243991",
+            "title": "Diuretics: a review and update.",
+            "abstract": "Diuretics have been recommended as first-line treatment of hypertension and are also valuable in the management of hypervolemia and electrolyte disorders. This review summarizes the key features of the most commonly used diuretics. We then provide an update of clinical trials for diuretics during the past 5 years. Compared to other classes of medications, thiazide diuretics are at least as effective in reducing cardiovascular events (CVEs) in patients with hypertension and are more effective than β-blockers and angiotensin-converting enzyme inhibitors in reducing stroke. Observational cohort data and a network analysis have shown that CVEs are lowered by one-fifth from chlorthalidone when compared to the commonly used thiazide, hydrochlorothiazide. Relative to placebo, chlorthalidone increases life expectancy. In those aged 80 years and older, the diuretic, indapamide, lowers CVEs relative to placebo. The aldosterone antagonist, eplerenone, lowers total mortality in early congestive he",
+            "journal": "Journal of cardiovascular pharmacology and therapeutics",
+            "year": "2014",
+            "authors": [
+              "Roush George C",
+              "Kaur Ramdeep",
+              "Ernst Michael E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Animals",
+              "Antihypertensive Agents",
+              "Blood Volume",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Drug Design",
+              "Humans",
+              "Hypertension",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24243991/"
+          },
+          {
+            "pmid": "33586138",
+            "title": "Aldosterone antagonists for people with chronic kidney disease requiring dialysis.",
+            "abstract": "People with chronic kidney disease (CKD) requiring dialysis are at a particularly high risk of cardiovascular death and morbidity. Several clinical studies suggested that aldosterone antagonists would be a promising treatment option for people undergoing dialysis. However, the clinical efficacy and potential harm of aldosterone antagonists for people with CKD on dialysis has yet to be determined.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2021",
+            "authors": [
+              "Hasegawa Takeshi",
+              "Nishiwaki Hiroki",
+              "Ota Erika",
+              "Levack William Mm",
+              "Noma Hisashi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Bias",
+              "Cardiovascular Diseases",
+              "Cause of Death",
+              "Cerebrovascular Disorders",
+              "Eplerenone",
+              "Gynecomastia",
+              "Humans",
+              "Hyperkalemia",
+              "Mineralocorticoid Receptor Antagonists",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33586138/"
+          },
+          {
+            "pmid": "15134822",
+            "title": "Aldosterone target organ protection by eplerenone.",
+            "abstract": "The classical mineralocorticoid effect of aldosterone on unidirectional transepithelial sodium transport in the kidney was long thought to be the predominant effect of this hormone. However, there is convincing evidence for additional extrarenal actions of aldosterone that are mediated via activation of mineralocorticoid receptors (MRs) in the heart, vasculature and brain. It is now postulated that many of the detrimental effects of aldosterone are mediated through MR activation in these nonclassical target organs. The selective aldosterone blocker, eplerenone (Inspra), is under development for human therapeutic use for treatment of hypertension and heart failure post-myocardial infarction (MI). Clinical and preclinical studies have linked elevated aldosterone to hypertension, left ventricular and vascular remodeling, cardiac, renal, and cerebral vascular inflammation and injury, and increased risk of mortality in heart failure patients. Multiple studies in experimental models of hyper",
+            "journal": "Molecular and cellular endocrinology",
+            "year": "2004",
+            "authors": [
+              "Rudolph Amy E",
+              "Rocha Ricardo",
+              "McMahon Ellen G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aldosterone",
+              "Blood Vessels",
+              "Brain",
+              "Clinical Trials as Topic",
+              "Eplerenone",
+              "Heart Failure",
+              "Humans",
+              "Hypertension",
+              "Mineralocorticoid Receptor Antagonists",
+              "Myocardial Infarction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15134822/"
+          },
+          {
+            "pmid": "17083071",
+            "title": "Differences between cardiac and arterial fibrosis and stiffness in aldosterone-salt rats: effect of eplerenone.",
+            "abstract": "Previous experiments have studied separately the development of either cardiac or aortic fibrosis and stiffness in aldosterone (Aldo)-salt hypertensive rats. Our aim was to determine in vivo the effects of Aldo and the Aldo receptor antagonist eplerenone (Epl) on simultaneous changes in cardiac and arterial structure and function and their interactions.",
+            "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+            "year": "2006",
+            "authors": [
+              "Nehme Johnny",
+              "Mercier Nathalie",
+              "Labat Carlos",
+              "Benetos Athanase",
+              "Safar Michel E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Aorta",
+              "Blood Pressure",
+              "Blotting, Northern",
+              "Carotid Artery Diseases",
+              "Collagen",
+              "Eplerenone",
+              "Fibrosis",
+              "Heart Diseases",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17083071/"
+          },
+          {
+            "pmid": "34750713",
+            "title": "The Role of Combined SGLT1/SGLT2 Inhibition in Reducing the Incidence of Stroke and Myocardial Infarction in Patients with Type 2 Diabetes Mellitus.",
+            "abstract": "In patients with type 2 diabetes mellitus (T2DM), both sodium-glucose cotransporter 2 inhibitors (SGLT2is) and glucagon-like peptide receptor agonists (GLP-1 RAs) have demonstrated significant improvements in cardiovascular and kidney outcomes independent of their glycemic benefits. This paper will briefly compare the effect of SGLT2is and GLP-1 RAs to that of the SGLT1/2 inhibitor sotagliflozin on the incidence of myocardial infarction (MI) and stroke in patients with T2DM and further postulate mechanisms to account for these findings.",
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "2022",
+            "authors": [
+              "Pitt Bertram",
+              "Steg Gabriel",
+              "Leiter Lawrence A",
+              "Bhatt Deepak L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diabetes Mellitus, Type 2",
+              "Glycosides",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Incidence",
+              "Myocardial Infarction",
+              "Quality of Life",
+              "Sodium-Glucose Transporter 1",
+              "Sodium-Glucose Transporter 2 Inhibitors",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34750713/"
+          },
+          {
+            "pmid": "33853035",
+            "title": "New frontiers in pharmacologic obstructive sleep apnea treatment: A narrative review.",
+            "abstract": "Obstructive sleep apnea (OSA) is the most common form of sleep-disordered breathing characterized by intermittent partial or complete closure of the upper airway during sleep. If left untreated, OSA is associated with adverse cardiovascular outcomes such as hypertension, coronary heart disease, heart failure, cardiac arrhythmia, stroke, and death. Positive airway pressure (PAP) is often considered the first-line treatment for OSA. While PAP can be very effective in reducing the number of obstructive apneas and hypopneas, its impact on prevention of adverse cardiovascular consequences remains controversial, and treatment adherence is often poor. Hence, the necessity for novel treatment options to help those who cannot adhere to positive airway pressure treatment. Different classes of medications have been tested with regards to their effect on OSA severity. This review 1) provides an update on the epidemiology and pathophysiology of OSA, 2) outlines the mechanistic rationale for medicat",
+            "journal": "Sleep medicine reviews",
+            "year": "2021",
+            "authors": [
+              "Schütz Sonja G",
+              "Dunn Abbey",
+              "Braley Tiffany J",
+              "Pitt Bertram",
+              "Shelgikar Anita V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Continuous Positive Airway Pressure",
+              "Humans",
+              "Sleep",
+              "Sleep Apnea Syndromes",
+              "Sleep Apnea, Obstructive",
+              "Stroke",
+              "Wakefulness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33853035/"
+          },
+          {
+            "pmid": "12670749",
+            "title": "Amiloride reduces stroke and renalinjury in stroke-prone hypertensive rats.",
+            "abstract": "We previously reported that the mineralocorticoid receptor antagonists spironolactone and eplerenone markedly reduce proteinuria and vascular injury in saline-drinking stroke-prone spontaneously hypertensive rats (SHRSP). Presently, we examined whether amiloride, an epithelial sodium channel blocker, would also protect against pathology in these rats.",
+            "journal": "American journal of hypertension",
+            "year": "2003",
+            "authors": [
+              "Sepehrdad Reza",
+              "Chander Praveen N",
+              "Oruene Alafuro",
+              "Rosenfeld Louis",
+              "Levine Seymour"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Amiloride",
+              "Animals",
+              "Blood Pressure",
+              "Body Weight",
+              "Brain",
+              "Diuretics",
+              "Dose-Response Relationship, Drug",
+              "Genetic Predisposition to Disease",
+              "Hypertension",
+              "Kidney"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12670749/"
+          },
+          {
+            "pmid": "37047470",
+            "title": "Effects of Mineralocorticoid Receptor Blockade and Statins on Kidney Injury Marker 1 (KIM-1) in Female Rats Receiving L-NAME and Angiotensin II.",
+            "abstract": "Kidney injury molecule-1 (KIM-1) is a biomarker of renal injury and a predictor of cardiovascular disease. Aldosterone, via activation of the mineralocorticoid receptor, is linked to cardiac and renal injury. However, the impact of mineralocorticoid receptor activation and blockade on KIM-1 is uncertain. We investigated whether renal KIM-1 is increased in a cardiorenal injury model induced by L-NAME/ANG II, and whether mineralocorticoid receptor blockade prevents the increase in KIM-1. Since statin use is associated with lower aldosterone, we also investigated whether administering eiSther a lipophilic statin (simvastatin) or a hydrophilic statin (pravastatin) prevents the increase in renal KIM-1. Female Wistar rats (8-10 week old), consuming a high salt diet (1.6% Na+), were randomized to the following conditions for 14 days: control; L-NAME (0.2 mg/mL in drinking water)/ANG II (225 ug/kg/day on days 12-14); L-NAME/ANG II + eplerenone (100 mg/kg/day p.o.); L-NAME/ANG II + pravastatin ",
+            "journal": "International journal of molecular sciences",
+            "year": "2023",
+            "authors": [
+              "Huang Jiayan",
+              "Caliskan Guzelce Ezgi",
+              "Gholami Shadi K",
+              "Gawelek Kara L",
+              "Mitchell Richard N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Rats",
+              "Aldosterone",
+              "Angiotensin II",
+              "Blood Pressure",
+              "Eplerenone",
+              "Hepatitis A Virus Cellular Receptor 1",
+              "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37047470/"
+          },
+          {
+            "pmid": "30118343",
+            "title": "Mineralocorticoid receptor antagonism improves parenchymal arteriole dilation via a TRPV4-dependent mechanism and prevents cognitive dysfunction in hypertension.",
+            "abstract": "Hypertension and mineralocorticoid receptor activation cause cerebral parenchymal arteriole remodeling; this can limit cerebral perfusion and contribute to cognitive dysfunction. We used a mouse model of angiotensin II-induced hypertension to test the hypothesis that mineralocorticoid receptor activation impairs both transient receptor potential vanilloid (TRPV)4-mediated dilation of cerebral parenchymal arterioles and cognitive function. Mice (16-18 wk old, male, C57Bl/6) were treated with angiotensin II (800 ng·kg-1·min-1) with or without the mineralocorticoid receptor antagonist eplerenone (100 mg·kg-1·day-1) for 4 wk; sham mice served as controls. Data are presented as means ± SE; n = 5-14 mice/group. Eplerenone prevented the increased parenchymal arteriole myogenic tone and impaired carbachol-induced (10-9-10-5 mol/l) dilation observed during hypertension. The carbachol-induced dilation was endothelium-derived hyperpolarization mediated because it could not be blocked by N-nitro-l",
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2018",
+            "authors": [
+              "Diaz-Otero Janice M",
+              "Yen Ting-Chieh",
+              "Fisher Courtney",
+              "Bota Daniel",
+              "Jackson William F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II",
+              "Animals",
+              "Antihypertensive Agents",
+              "Arterioles",
+              "Behavior, Animal",
+              "Brain",
+              "Cognition",
+              "Cognition Disorders",
+              "Disease Models, Animal",
+              "Eplerenone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30118343/"
+          },
+          {
+            "pmid": "29622372",
+            "title": "Treatment of Unruptured Cerebral Aneurysms with the Mineralocorticoid Receptor Blocker Eplerenone-Pilot Study.",
+            "abstract": "Currently there are no pharmacological therapies for patients with unruptured cerebral aneurysms. Elsewhere we showed that the mineralocorticoid receptor antagonist eplerenone prevented the formation of cerebral aneurysms in our ovariectomized hypertensive aneurysm rat model. The current pilot study evaluated whether it can be used to prevent the growth and rupture of cerebral aneurysms in hypertensive patients.",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2018",
+            "authors": [
+              "Nagahiro Shinji",
+              "Tada Yoshiteru",
+              "Satomi Junichiro",
+              "Kinouchi Tomoya",
+              "Kuwayama Kazuyuki"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aneurysm, Ruptured",
+              "Brain",
+              "Disease Progression",
+              "Eplerenone",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Intracranial Aneurysm",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29622372/"
+          },
+          {
+            "pmid": "29447733",
+            "title": "Stroke Risk in Patients With Reduced Ejection Fraction After Myocardial Infarction Without Atrial Fibrillation.",
+            "abstract": "Stroke can occur after myocardial infarction (MI) in the absence of atrial fibrillation (AF).",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2018",
+            "authors": [
+              "Ferreira João Pedro",
+              "Girerd Nicolas",
+              "Gregson John",
+              "Latar Ichraq",
+              "Sharma Abhinav"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Atrial Fibrillation",
+              "Carvedilol",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Myocardial Infarction",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29447733/"
+          },
+          {
+            "pmid": "20577123",
+            "title": "Reduction of endothelial tight junction proteins is related to cerebral aneurysm formation in rats.",
+            "abstract": "The formation of cerebral aneurysms is associated with endothelial damage and macrophage migration. Hypothesizing that the opening of tight junctions due to the disappearance of the tight junction proteins occludin and zona occludens-1 (ZO-1) in damaged endothelia allows macrophage migration, leading to cerebral aneurysm formation, we investigated the role of tight junction proteins.",
+            "journal": "Journal of hypertension",
+            "year": "2010",
+            "authors": [
+              "Tada Yoshiteru",
+              "Yagi Kenji",
+              "Kitazato Keiko T",
+              "Tamura Tetsuya",
+              "Kinouchi Tomoya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Base Sequence",
+              "Brain",
+              "Cells, Cultured",
+              "Chemokine CCL2",
+              "DNA Primers",
+              "Endothelial Cells",
+              "Eplerenone",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20577123/"
+          },
+          {
+            "pmid": "20861841",
+            "title": "High plasma aldosterone concentration is a novel risk factor of cognitive impairment in patients with hypertension.",
+            "abstract": "Cognitive impairment leading to dementia is associated with high prevalence of hypertension, decreased quality of life and poor prognosis. Aldosterone is known as a risk factor for cardiovascular and cerebrovascular diseases. In addition, mineral corticoid receptors are abundantly expressed in the hippocampus, which plays a pivotal role in cognitive function; however, it has not been determined whether plasma aldosterone level is associated with cognitive impairment in patients with hypertension. We enrolled 68 patients with essential hypertension and assessed their cardiovascular risk factors, including blood pressure, hyperlipidemia, diabetes mellitus, obesity, smoking, history of cerebral infarction, renal function, parameters of inflammation, oxidative stress and nitric oxide bioavailability, a parameter of cerebral blood flow and carotid plaque by ultrasound examination, plasma renin activity and plasma aldosterone concentration (PAC). The mini-mental state examination (MMSE) was ",
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2011",
+            "authors": [
+              "Yagi Shusuke",
+              "Akaike Masashi",
+              "Aihara Ken-ichi",
+              "Iwase Takashi",
+              "Yoshida Sumiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Aldosterone",
+              "Cognition",
+              "Cognition Disorders",
+              "Female",
+              "Humans",
+              "Hypertension",
+              "Linear Models"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20861841/"
+          },
+          {
+            "pmid": "19620512",
+            "title": "Role of mineralocorticoid receptor on experimental cerebral aneurysms in rats.",
+            "abstract": "Activation of the renin-angiotensin (Ang)-aldosterone system is involved in the pathology of vascular diseases. Although the blockade of the mineralocorticoid receptor protects against vascular diseases, its role in cerebral aneurysms remains to be elucidated. We treated female rats subjected to renal hypertension, increased hemodynamic stress, and estrogen deficiency for 3 months with the mineralocorticoid receptor blocker eplerenone (30 or 100 mg/kg per day) or vehicle (vehicle control). Eplerenone reduced the incidence of cerebral aneurysms and saline intake without lowering of the blood pressure. In the aneurysmal wall, the production of Ang II and nitrotyrosine was increased. The mRNA levels of Ang-converting enzyme 1 and NADPH oxidase subunits NOX4, Rac1, monocyte chemoattractant protein 1, and matrix metalloproteinase 9 were increased. Eplerenone brought about a reduction in these molecules, suggesting that mineralocorticoid receptor blockade suppresses cerebral aneurysm formati",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2009",
+            "authors": [
+              "Tada Yoshiteru",
+              "Kitazato Keiko T",
+              "Tamura Tetsuya",
+              "Yagi Kenji",
+              "Shimada Kenji"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aldosterone",
+              "Angiotensin II",
+              "Animals",
+              "Blood Pressure",
+              "Cerebral Arteries",
+              "Chemokine CCL2",
+              "Eplerenone",
+              "Female",
+              "Gene Expression",
+              "Hypertension, Renal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19620512/"
+          },
+          {
+            "pmid": "17475237",
+            "title": "Pretreatment with eplerenone reduces stroke volume in mouse middle cerebral artery occlusion model.",
+            "abstract": "Eplerenone, a mineralocorticoid receptor antagonist, is reported to be effective to prevent end-stage cardiovascular damage induced by aldosterone. However, the effect of eplerenone on brain damage is not fully understood. Here, we investigated whether pretreatment with eplerenone attenuates stroke size in mice subjected to middle cerebral artery occlusion. Middle cerebral artery occlusion with a microfilament technique induced focal ischemia, to approximately 25% of the total area in a coronal section of the brain. Treatment with eplerenone at a dose of 1.67 mg/g chow significantly reduced the ischemic area, ischemic volume, and neurological deficit, without a blood pressure-lowering effect. Laser-Doppler flowmetry analysis showed a decrease in surface cerebral blood flow in the peripheral region after 1 h of middle cerebral artery occlusion. This decrease was smaller in mice treated with eplerenone. Superoxide production evaluated by staining with dihydroethidium was attenuated in th",
+            "journal": "European journal of pharmacology",
+            "year": "2007",
+            "authors": [
+              "Iwanami Jun",
+              "Mogi Masaki",
+              "Okamoto Shoko",
+              "Gao Xin-Yu",
+              "Li Jian-Mei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Pressure",
+              "Brain Ischemia",
+              "Disease Models, Animal",
+              "Eplerenone",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Mineralocorticoid Receptor Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17475237/"
+          },
+          {
+            "pmid": "23096235",
+            "title": "Mineralocorticoid receptors/epithelial Na(+) channels in the choroid plexus are involved in hypertensive mechanisms in stroke-prone spontaneously hypertensive rats.",
+            "abstract": "Increase in cerebrospinal fluid (CSF) Na(+) concentration ([Na(+)]) precedes hypertension and is a key step in the development of salt-induced hypertension. In the choroid plexus (CP), epithelial Na(+) channels (ENaCs) have an important role in Na(+) transport from the blood into the CSF. However, it remains unknown whether the mineralocorticoid receptors (MR)/ENaCs pathway in the CP of stroke-prone spontaneously hypertensive rats (SHRSP) is involved in neural mechanisms of hypertension. Therefore, we examined the role of the MR/ENaCs pathway in the CP in the development of hypertension in SHRSP associated with an increase in CSF [Na(+)]. As a marker of MR activation, serum/glucocorticoid-inducible kinase 1 (Sgk1) expression levels in the CP were measured and found to be greater in SHRSP than in Wistar-Kyoto (WKY) rats. CSF [Na(+)] levels were also higher in SHRSP than in WKY rats. In SHRSP, high-salt intake (8%) increased blood pressure and urinary norepinephrine excretion compared wi",
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2013",
+            "authors": [
+              "Nakano Masatsugu",
+              "Hirooka Yoshitaka",
+              "Matsukawa Ryuichi",
+              "Ito Koji",
+              "Sunagawa Kenji"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Pressure",
+              "Choroid Plexus",
+              "Disease Models, Animal",
+              "Epithelial Sodium Channels",
+              "Eplerenone",
+              "Hypertension",
+              "Immediate-Early Proteins",
+              "Male",
+              "Mineralocorticoid Receptor Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23096235/"
+          },
+          {
+            "pmid": "22717248",
+            "title": "Effects of aldosterone on human atherosclerosis: plasma aldosterone and progression of carotid plaque.",
+            "abstract": "In animal models, aldosterone has adverse cardiac and vascular effects independent of blood pressure, and these are ameliorated by spironolactone or eplerenone (mineralocorticoid receptor antagonists). Both agents reduce mortality in human systolic heart failure. We studied the effect of plasma aldosterone on human carotid atherosclerosis.",
+            "journal": "The Canadian journal of cardiology",
+            "year": "2012",
+            "authors": [
+              "de Rita Omar",
+              "Hackam Daniel G",
+              "Spence J David"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aldosterone",
+              "Biomarkers",
+              "Carotid Artery Diseases",
+              "Disease Progression",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Plaque, Atherosclerotic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22717248/"
+          },
+          {
+            "pmid": "23316294",
+            "title": "Myeloid mineralocorticoid receptor during experimental ischemic stroke: effects of model and sex.",
+            "abstract": "Mineralocorticoid receptor (MR) antagonists have protective effects in the brain during experimental ischemic stroke, and we have previously demonstrated a key role for myeloid MR during stroke pathogenesis. In this study, we explore both model- and sex-specific actions of myeloid MR during ischemic stroke.",
+            "journal": "Journal of the American Heart Association",
+            "year": "2012",
+            "authors": [
+              "Frieler Ryan A",
+              "Ray Jessica J",
+              "Meng He",
+              "Ramnarayanan Sai P",
+              "Usher Michael G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Ischemia",
+              "Disease Models, Animal",
+              "Eplerenone",
+              "Female",
+              "Gene Expression Profiling",
+              "Immunohistochemistry",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23316294/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cerebral artery occlusion",
+        "txgnn_score": 0.6837957501411438,
+        "txgnn_rank": 45798,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "17475237",
+            "title": "Pretreatment with eplerenone reduces stroke volume in mouse middle cerebral artery occlusion model.",
+            "abstract": "Eplerenone, a mineralocorticoid receptor antagonist, is reported to be effective to prevent end-stage cardiovascular damage induced by aldosterone. However, the effect of eplerenone on brain damage is not fully understood. Here, we investigated whether pretreatment with eplerenone attenuates stroke size in mice subjected to middle cerebral artery occlusion. Middle cerebral artery occlusion with a microfilament technique induced focal ischemia, to approximately 25% of the total area in a coronal section of the brain. Treatment with eplerenone at a dose of 1.67 mg/g chow significantly reduced the ischemic area, ischemic volume, and neurological deficit, without a blood pressure-lowering effect. Laser-Doppler flowmetry analysis showed a decrease in surface cerebral blood flow in the peripheral region after 1 h of middle cerebral artery occlusion. This decrease was smaller in mice treated with eplerenone. Superoxide production evaluated by staining with dihydroethidium was attenuated in th",
+            "journal": "European journal of pharmacology",
+            "year": "2007",
+            "authors": [
+              "Iwanami Jun",
+              "Mogi Masaki",
+              "Okamoto Shoko",
+              "Gao Xin-Yu",
+              "Li Jian-Mei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Pressure",
+              "Brain Ischemia",
+              "Disease Models, Animal",
+              "Eplerenone",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Mineralocorticoid Receptor Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17475237/"
+          },
+          {
+            "pmid": "23316294",
+            "title": "Myeloid mineralocorticoid receptor during experimental ischemic stroke: effects of model and sex.",
+            "abstract": "Mineralocorticoid receptor (MR) antagonists have protective effects in the brain during experimental ischemic stroke, and we have previously demonstrated a key role for myeloid MR during stroke pathogenesis. In this study, we explore both model- and sex-specific actions of myeloid MR during ischemic stroke.",
+            "journal": "Journal of the American Heart Association",
+            "year": "2012",
+            "authors": [
+              "Frieler Ryan A",
+              "Ray Jessica J",
+              "Meng He",
+              "Ramnarayanan Sai P",
+              "Usher Michael G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Ischemia",
+              "Disease Models, Animal",
+              "Eplerenone",
+              "Female",
+              "Gene Expression Profiling",
+              "Immunohistochemistry",
+              "Infarction, Middle Cerebral Artery",
+              "Male",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23316294/"
+          },
+          {
+            "pmid": "17670862",
+            "title": "Intact female stroke-prone hypertensive rats lack responsiveness to mineralocorticoid receptor antagonists.",
+            "abstract": "Data from the Framingham Heart Study suggest that women may be more sensitive to the deleterious cardiovascular remodeling effects of aldosterone. Previous studies from our laboratory have shown that chronic treatment with spironolactone, a mineralocorticoid receptor (MR) antagonist, decreases ischemic cerebral infarct size and prevents remodeling of the middle cerebral artery (MCA) in male spontaneously hypertensive stroke-prone rats (SHRSP). Therefore, we hypothesized that MR antagonism would reduce ischemic infarct size and prevent MCA remodeling in female SHRSP. Six-week-old female SHRSP were treated for 6 wk with spironolactone (25 or 50 mg.kg(-1).day(-1)) or eplerenone (100 mg.kg(-1).day(-1)) and compared with untreated controls. At 12 wk, cerebral ischemia was induced for 18 h using the intraluminal suture occlusion technique, or the MCA was isolated for analysis of passive structure using a pressurized arteriograph. MR antagonism had no effect on infarct size or passive MCA str",
+            "journal": "American journal of physiology. Regulatory, integrative and comparative physiology",
+            "year": "2007",
+            "authors": [
+              "Rigsby Christiné S",
+              "Burch Ashley E",
+              "Ogbi Safia",
+              "Pollock David M",
+              "Dorrance Anne M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Ischemia",
+              "Cerebral Arteries",
+              "Eplerenone",
+              "Female",
+              "Male",
+              "Mineralocorticoid Receptor Antagonists",
+              "Ovariectomy",
+              "Rats",
+              "Rats, Inbred SHR"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17670862/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00700",
+    "name": "Eplerenone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Eplerenone"
+      },
+      "queried_at": "2026-03-10T03:28:04.747304",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Eplerenone"
+      },
+      "queried_at": "2026-03-10T03:28:06.468316",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T03:28:07.161050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T03:28:10.207533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T03:28:11.102359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T03:28:11.961802",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T03:28:15.601786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T03:28:20.932345",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-10T03:28:21.651816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-10T03:28:25.021592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-10T03:28:25.817155",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T03:28:26.599276",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T03:28:32.665429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T03:28:33.782910",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-10T03:28:34.364464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-10T03:28:37.913078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-10T03:28:38.743704",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T03:28:46.031621",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T03:28:49.533401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T03:28:53.072702",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T03:28:53.951688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T03:28:58.023371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T03:29:00.875637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T03:29:01.755105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T03:29:05.914479",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T03:29:06.654125",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-10T03:29:07.181593",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-10T03:29:09.970862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-10T03:29:13.621113",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "cerebral artery occlusion"
+      },
+      "queried_at": "2026-03-10T03:29:14.229962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "cerebral artery occlusion"
+      },
+      "queried_at": "2026-03-10T03:29:17.455585",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eplerenone",
+        "disease": "cerebral artery occlusion"
+      },
+      "queried_at": "2026-03-10T03:29:19.359136",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:29:19.366683"
+  }
+}

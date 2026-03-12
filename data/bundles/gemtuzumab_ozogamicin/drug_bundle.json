@@ -1,0 +1,1624 @@
+{
+  "drug": {
+    "inn": "Gemtuzumab ozogamicin",
+    "drugbank_id": "DB00056",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Richter syndrome",
+        "txgnn_score": 0.9805676341056824,
+        "txgnn_rank": 16766,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bulbar polio",
+        "txgnn_score": 0.9791573882102966,
+        "txgnn_rank": 17408,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic myelogenous leukemia, BCR-ABL1 positive",
+        "txgnn_score": 0.9789146184921264,
+        "txgnn_rank": 17517,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00038831",
+            "title": "Phase I/II Evaluation of Safety and Activity of Mylotarg Plus Melphalan and Fludarabine as Preparative Therapy for Older or Medically Infirm Patients Undergoing Allogeneic Bone Marrow and Peripheral Blood Stem Cell Transplantation",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2001-05",
+            "completion_date": "2006-10",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "The goal of this clinical research study is to find the highest safe dose of Mylotarg that can be combined with chemotherapy in patients receiving allogeneic bone marrow transplantation. Researchers will study the effects of this treatment combination on patients with high-risk acute leukemia, chronic myelogenous leukemia, or myelodysplastic syndrome.\n\nPrimary Objective:\n\n1\\. To determine the safety and maximum tolerated dose of Mylotarg as part of a reduced-intensity preparative regimen patient",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 12-75 years of age\n* Patients are eligible if deemed ineligible for conventional high dose chemotherapy programs because of concurrent medical conditions. Patients with refractory AML are always eligible if ejection fraction \\> 35, FEV1, FVC, or DLCO \\> 40%, abnormal ",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Mylotarg as Determined by Number of Participants With Dose Limiting Toxicity (DLT) at Each Dose Level"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00038831"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03589729",
+            "title": "Cardioprotection With Dexrazoxane in Acute Myeloid Leukemia (AML), High-Risk Myelodysplastic Syndrome (MDS), Myeloid Blast Phase of Chronic Myeloid Leukemia (CML), Ph+ AML, and Myeloid Blast Phase of Myeloproliferative Neoplasms",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2018-09-19",
+            "completion_date": "2027-12-31",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "This phase II trial studies how well dexrazoxane hydrochloride works in preventing heart-related side effects of chemotherapy in participants with blood cancers, such as acute myeloid leukemia, myelodysplastic syndrome, chronic myeloid leukemia, and myeloproliferative neoplasms. Chemoprotective drugs, such as dexrazoxane hydrochloride, may protect the heart from the side effects of drugs used in chemotherapy, such as cladribine, idarubicin, cytarabine, and gemtuzumab ozogamicin, in participants ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Baseline left ventricular ejection fraction (LVEF) is greater than or equal to 50% by echocardiography (echo) or multigated acquisition (MUGA) scan.\n* Patients of child bearing potential should use contraception.\n* Patients with a diagnosis of acute myeloid leukemia (AML), or ",
+            "endpoints": [
+              "Percentage of patients experiencing a decrease in left ventricular ejection fraction (LVEF)"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03589729"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00038805",
+            "title": "Allogeneic Stem Cell Transplantation Using Mylotarg (CMA-676) Plus Nonmyeloablative Chemotherapy in Older or Medically Infirm Patients With High-Risk Acute Leukemia (ALL), Chronic Myelogenous Leukemia (CML) or Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2001-05",
+            "completion_date": "2004-11",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "Primary Objective:\n\nTo determine the safety and maximum tolerated dose of CMA-676 as part of an intensive but nonmyeloablative preparative regimen in older or medically infirm patients undergoing mini-allogeneic peripheral blood stem cell transplantation\n\nSecondary Objectives:\n\n1. To evaluate response rates, engraftment kinetics and degree of chimerism achievable with this strategy.\n2. To evaluate disease-free and overall survival and relapse rates.\n3. To evaluate the need and ability to give mu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 12-75 years of age\n* Patients are eligible if deemed ineligible for conventional high dose chemotherapy programs because of concurrent medical conditions. Patients with refractory AML are eligible provided ejection fraction \\>= 35%; FEV1, FVC, or DLCO \\>= 40%; GPT \\< ",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of CMA-676"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00038805"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "17353625",
+            "title": "[Hematological malignancies].",
+            "abstract": "The same progress in the recent therapeutic strategy for older adults with hematological malignancies has also been seen in younger adults. The standard initial therapy for elderly acute promylocytic leukemia is the combination with all-trans retinoic acid and anthracyclines. For other acute myeloid leukemias (AML), many trials of combination chemotherapy have not improved the outcome of elderly patients. Gemtuzumab ozogamicin,which is an immunoconjugate binding to CD 33 on the surface of AML blasts, has produced good results for elderly patients in either monotherapy or in combination with conventional chemotherapeutic drugs. One of the BCR-ABL tyrosine kinase inhibitors, imatinib mesylate, is active for elderly Philadelphia-positive leukemia including acute lymphoblastic leukemia and chronic myeloid leukemia. In the treatment of elderly diffuse large B cell lymphoma, combination of rituximab and cyclophosphamide+doxorubicin+vincristine+prednisone (CHOP) has become the therapy of choi",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2007",
+            "authors": [
+              "Usui Noriko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cyclophosphamide",
+              "Doxorubicin",
+              "Drug Administration Schedule",
+              "Gemtuzumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17353625/"
+          },
+          {
+            "pmid": "21993666",
+            "title": "CD34(+)/CD38(-) stem cells in chronic myeloid leukemia express Siglec-3 (CD33) and are responsive to the CD33-targeting drug gemtuzumab/ozogamicin.",
+            "abstract": "CD33 is a well-known stem cell target in acute myeloid leukemia. So far, however, little is known about expression of CD33 on leukemic stem cells in chronic leukemias.",
+            "journal": "Haematologica",
+            "year": "2012",
+            "authors": [
+              "Herrmann Harald",
+              "Cerny-Reiterer Sabine",
+              "Gleixner Karoline V",
+              "Blatt Katharina",
+              "Herndlhofer Susanne"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ADP-ribosyl Cyclase 1",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD",
+              "Antigens, CD34",
+              "Antigens, Differentiation, Myelomonocytic",
+              "Cell Proliferation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21993666/"
+          },
+          {
+            "pmid": "15886328",
+            "title": "Safety and efficacy of gemtuzumab ozogamicin in pediatric patients with advanced CD33+ acute myeloid leukemia.",
+            "abstract": "This open-label, dose-escalation study evaluated the safety and efficacy of single-agent gemtuzumab ozogamicin, a humanized anti-CD33 antibody-targeted chemotherapeutic agent, for pediatric patients with multiple relapsed or primary refractory acute myeloid leukemia (AML). Twenty-nine children 1 to 16 years of age (relapsed disease, 19; refractory disease, 10) received gemtuzumab ozogamicin ranging from 6 to 9 mg/m2 per dose for 2 doses (separated by 2 weeks) infused over 2 hours. All patients had anticipated myelosuppression. Other toxicities included grade 3/4 hyperbilirubinemia (7%) and elevated hepatic transaminase levels (21%); the incidence of grade 3/4 mucositis (3%) or sepsis (24%) was relatively low. One patient treated at 9 mg/m2 developed veno-occlusive disease (VOD) of the liver and defined the dose-limiting toxicity. Thirteen patients underwent hematopoietic stem-cell transplantation less than 3.5 months after the last dose of gemtuzumab ozogamicin; 6 (40%) developed VOD. ",
+            "journal": "Blood",
+            "year": "2005",
+            "authors": [
+              "Arceci Robert J",
+              "Sande Jane",
+              "Lange Beverly",
+              "Shannon Kevin",
+              "Franklin Janet"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adolescent",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD",
+              "Antigens, Differentiation, Myelomonocytic",
+              "Blast Crisis",
+              "Child",
+              "Child, Preschool"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15886328/"
+          },
+          {
+            "pmid": "35536916",
+            "title": "Management of chronic myeloid leukemia in myeloid blastic phase with novel therapies: a systematic literature review.",
+            "abstract": "Chronic myeloid leukemia at myeloid blastic phase (CML-MBP) is a rapidly lethal illness, and its prognosis is dismal with standard therapy. As the clinical and histological characteristics of CML-MBP closely resemble acute myeloid leukemia (AML), the management of these two entities has historically gone hand in hand. The remarkable success of tyrosine kinase inhibitors (TKI) for chronic phase CML significantly reduced the incidence of CML-MBP.",
+            "journal": "Expert review of hematology",
+            "year": "2022",
+            "authors": [
+              "Yılmaz Umut",
+              "Bulan Batuhan",
+              "Belli Çağrı",
+              "Eşkazan Ahmet Emre"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Azacitidine",
+              "Gemtuzumab",
+              "Humans",
+              "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+              "Leukemia, Myeloid, Acute",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35536916/"
+          },
+          {
+            "pmid": "15487459",
+            "title": "Targeted therapies for cancer 2004.",
+            "abstract": "The regulatory agency approvals in the United States and Europe of imatinib mesylate (Gleevec) for patients with bcr/abl-positive chronic myelogenous leukemia, cetuximab (Erbitux) for patients with epidermal growth factor receptor overexpressing metastatic colorectal cancer, the antiangiogenesis agent bevacizumab (Avastin), and the proteasome inhibitor bortezomib (Velcade)--and the considerable public interest in new anticancer drugs that take advantage of specific genetic defects that render the malignant cells more likely to respond to specific treatment--are driving a new era of integrated diagnostics and therapeutics. The recent discovery of a drug response predicting activating mutation in the epidermal growth factor receptor gene for patients with non-small cell lung cancer treated with gefitinib (Iressa) has intensified this interest. In this review, the history of targeted anticancer therapies is highlighted, with focus on the development of molecular diagnostics for hematologi",
+            "journal": "American journal of clinical pathology",
+            "year": "2004",
+            "authors": [
+              "Ross Jeffrey S",
+              "Schenkein David P",
+              "Pietrusko Robert",
+              "Rolfe Mark",
+              "Linette Gerald P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Bevacizumab",
+              "Breast Neoplasms",
+              "Cetuximab",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Gemtuzumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15487459/"
+          },
+          {
+            "pmid": "34764108",
+            "title": "Gemtuzumab-ozogamicin and blinatumomab as treatment for refractory mixed-phenotype blast crisis in chronic myeloid leukaemia.",
+            "abstract": "In the tyrosine kinase inhibitor era, the blast phase of chronic myeloid leukaemia (BP-CML) renders an uncommon presentation and has a poor prognosis with an estimated overall survival below 20%. Mixed-phenotype blast phase is even more infrequent, presenting in 3.3% of these patients. Blast phase manifests along haematological sarcomas, with extramedullary activity in lymph nodes, skin and bone. We report the case of a patient with an ovarian sarcoma as an extramedullary presentation of mixed-phenotype BP-CML refractory to conventional treatment which responded to immunotherapy against CD33 and CD19.",
+            "journal": "BMJ case reports",
+            "year": "2021",
+            "authors": [
+              "Ovilla-Martinez Roberto",
+              "Weber Sánchez Luis Alejandro",
+              "Cota-Rangel Xóchitl",
+              "Baez-Islas Pamela Elena"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Bispecific",
+              "Blast Crisis",
+              "Gemtuzumab",
+              "Humans",
+              "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34764108/"
+          },
+          {
+            "pmid": "11895761",
+            "title": "Hepatic sinusoidal obstruction after gemtuzumab ozogamicin (Mylotarg) therapy.",
+            "abstract": "Gemtuzumab ozogamicin (Mylotarg) targets leukemia cells expressing the CD33 receptor by means of a monoclonal antibody conjugated to a cytotoxic agent, calicheamicin. Treatment of acute myeloid leukemia (AML) with gemtuzumab ozogamicin may result in liver injury. We reviewed the course of 23 patients who were given gemtuzumab ozogamicin for AML that had relapsed after hematopoietic cell transplantation. Liver toxicity was assessed through physical examination, serum tests, histologic examination, and hepatic venous pressure measurements. Liver injury developed in 11 patients after gemtuzumab ozogamicin administration; it was manifested as weight gain, ascites, and jaundice in 7 patients. Seven patients died with persistent liver dysfunction and either multiorgan failure or sepsis at a median of 40 days after gemtuzumab ozogamicin infusion. Portal pressure measurements were elevated in 2 patients. Results of liver histologic examination in 5 patients showed sinusoidal injury with extens",
+            "journal": "Blood",
+            "year": "2002",
+            "authors": [
+              "Rajvanshi Pankaj",
+              "Shulman Howard M",
+              "Sievers Eric L",
+              "McDonald George B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aminoglycosides",
+              "Anti-Bacterial Agents",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Aspartate Aminotransferases",
+              "Bilirubin",
+              "Blast Crisis",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11895761/"
+          },
+          {
+            "pmid": "22534616",
+            "title": "Twice-daily fludarabine and cytarabine combination with or without gentuzumab ozogamicin is effective in patients with relapsed/refractory acute myeloid leukemia, high-risk myelodysplastic syndrome, and blast- phase chronic myeloid leukemia.",
+            "abstract": "We evaluated the efficacy and safety of the combination of twice-daily fludarabine and cytarabine (BIDFA) in patients with refractory/relapsed acute myeloid leukemia (AML), high-risk myelodysplastic syndromes (MDS), and chronic myeloid leukemia in myeloid blast phase (CML-BP). One hundred seven patients were enrolled. Overall, 27 (26%) patients responded with a complete remission (CR) rate of 21% and CR without platelet recovery (CRp) of 5%. The overall 4-week mortality rate was 9%. In conclusion, BIDFA is active and safe in heavily pretreated patients with myeloid malignancies.",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2012",
+            "authors": [
+              "Jabbour Elias",
+              "Garcia-Manero Guillermo",
+              "Cortes Jorge",
+              "Ravandi Farhad",
+              "Plunkett William"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Blast Crisis",
+              "Cytarabine",
+              "Disease-Free Survival",
+              "Gemtuzumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22534616/"
+          },
+          {
+            "pmid": "15454492",
+            "title": "Influence of CD33 expression levels and ITIM-dependent internalization on gemtuzumab ozogamicin-induced cytotoxicity.",
+            "abstract": "Gemtuzumab ozogamicin (GO; Mylotarg), a novel immunoconjugate used for treatment of acute myeloid leukemia (AML), contains the humanized anti-CD33 antibody (hP67.6) as a carrier to facilitate cellular uptake of the toxic calicheamicin-gamma(1) derivative. By use of lentivirus-mediated gene transfer to manipulate CD33 expression in myeloid cell lines that normally lack CD33 (murine 32D cells) or have very low levels of CD33 (human OCI-AML3 and KG-1a cells), we here show a quantitative relationship between CD33 expression and GO-induced cytotoxicity. The CD33 cytoplasmic immunoreceptor tyrosine-based inhibitory motifs (ITIMs) control internalization of antibody bound to CD33. Disruption of the ITIMs by introduction of point mutations not only prevented effective internalization of antibody-bound CD33 but also significantly reduced GO-induced cytotoxicity. Together, our data imply a pivotal role of both the number of CD33 molecules expressed on the cell surface and the amount of internali",
+            "journal": "Blood",
+            "year": "2005",
+            "authors": [
+              "Walter Roland B",
+              "Raden Brian W",
+              "Kamikura Darren M",
+              "Cooper Jonathan A",
+              "Bernstein Irwin D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD",
+              "Antigens, Differentiation, Myelomonocytic",
+              "Binding Sites",
+              "Blast Crisis",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Flow Cytometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15454492/"
+          },
+          {
+            "pmid": "25721896",
+            "title": "CD33-specific chimeric antigen receptor T cells exhibit potent preclinical activity against human acute myeloid leukemia.",
+            "abstract": "Patients with chemo-refractory acute myeloid leukemia (AML) have a dismal prognosis. Chimeric antigen receptor T (CART) cell therapy has produced exciting results in CD19+ malignancies and may overcome many of the limitations of conventional leukemia therapies. We developed CART cells to target CD33 (CART33) using the anti-CD33 single chain variable fragment used in gemtuzumab ozogamicin (clone My96) and tested the activity and toxicity of these cells. CART33 exhibited significant effector functions in vitro and resulted in eradication of leukemia and prolonged survival in AML xenografts. CART33 also resulted in human lineage cytopenias and reduction of myeloid progenitors in xenograft models of hematopoietic toxicity, suggesting that permanently expressed CD33-specific CART cells would have unacceptable toxicity. To enhance the viability of CART33 as an option for AML, we designed a transiently expressed mRNA anti-CD33 CAR. Gene transfer was carried out by electroporation into T cells",
+            "journal": "Leukemia",
+            "year": "2015",
+            "authors": [
+              "Kenderian S S",
+              "Ruella M",
+              "Shestova O",
+              "Klichinsky M",
+              "Aikawa V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blast Crisis",
+              "Blotting, Western",
+              "Cell Proliferation",
+              "Cell- and Tissue-Based Therapy",
+              "Female",
+              "Flow Cytometry",
+              "Humans",
+              "Immunoenzyme Techniques",
+              "Leukemia, Myeloid, Acute"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25721896/"
+          },
+          {
+            "pmid": "11466696",
+            "title": "Mylotarg (gemtuzumab ozogamicin) therapy is associated with hepatic venoocclusive disease in patients who have not received stem cell transplantation.",
+            "abstract": "Mylotarg (Wyeth-Ayerst Laboratories, St. Davids, PA) is the brand name for a calicheamicin-conjugated humanized anti-CD33 monoclonal antibody (gemtuzumab ozogamicin, CMA-676) and has been approved recently for the treatment of a subset of elderly patients who have relapsed acute myeloid leukemia (AML). Mylotarg is associated with an incidence of approximately 20% Grade 3 or 4 hyperbilirubinemia and liver transaminitis in this patient population. Hepatic venoocclusive disease (VOD) has been reported in patients who have undergone stem cell transplantation (SCT) after Mylotarg therapy. Outside of the SCT setting, VOD has been associated very rarely with cytotoxic therapy.",
+            "journal": "Cancer",
+            "year": "2001",
+            "authors": [
+              "Giles F J",
+              "Kantarjian H M",
+              "Kornblau S M",
+              "Thomas D A",
+              "Garcia-Manero G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aminoglycosides",
+              "Anti-Bacterial Agents",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Cohort Studies",
+              "Female",
+              "Hematopoietic Stem Cell Transplantation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11466696/"
+          },
+          {
+            "pmid": "21252264",
+            "title": "Twelfth biannual report of the Cochrane Haematological Malignancies Group--focus on tyrosine kinase inhibitors.",
+            "abstract": "This 12th biannual report of the Cochrane Haematological Malignancies Group highlights recently published randomized controlled trials in the field of hemato-oncology, covering the publication period from September 1, 2009, through June 30, 2010. Implication for clinical practice and methodological aspects are the main principles used to select trials for this report. Studies on tyrosine kinase inhibitors for patients with chronic myeloid leukemia were identified through electronic search of MEDLINE with a broad search filter that covered all topics in hemato-oncology combined with a highly sensitive search filter for randomized studies as described in the Cochrane Handbook for Systematic Reviews of Interventions.",
+            "journal": "Journal of the National Cancer Institute",
+            "year": "2011",
+            "authors": [
+              "Skoetz Nicole",
+              "Kluge Sabine",
+              "Monsef Ina",
+              "Bauer Kathrin",
+              "Siebert Hendrik"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Benzamides",
+              "Cyclophosphamide",
+              "Dasatinib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21252264/"
+          },
+          {
+            "pmid": "20709669",
+            "title": "Peripheral blasts on day 21 of induction chemotherapy in a patient with core binding factor acute myeloid leukemia: more than meets the eye.",
+            "abstract": "The combination of fludarabine, high-dose cytarabine, gemtuzumab ozogamicin, and granulocyte colony-stimulating factor (G-CSF), the FLAG-GO protocol, has resulted in excellent response rates and superior relapse-free survival as first-line therapy for patients with core binding factor acute myeloid leukemia (AML). A side effect of administration of G-CSF is an increase in peripheral white blood cell count and blast cell percentage during the recovery phase of the bone marrow after induction chemotherapy. A 60-year-old man with inversion 16 AML was admitted for induction chemotherapy with the FLAG-GO protocol at our institution. On day 21 of his induction regimen, he was noted to have blasts in both the peripheral smear and in the bone marrow that resolved on their own without any intervention by day 28. Our case report underscores the importance of recognizing this phenomenon associated with the administration of G-CSF, and waiting for 5-7 days before administering re-induction therapy",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2010",
+            "authors": [
+              "Parikh Sameer A",
+              "Kadia Tapan",
+              "Jabbour Elias"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Blast Crisis",
+              "Core Binding Factors",
+              "Cytarabine",
+              "Granulocyte Colony-Stimulating Factor",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Male",
+              "Middle Aged",
+              "Vidarabine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20709669/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "metastatic neoplasm",
+        "txgnn_score": 0.9725630283355712,
+        "txgnn_rank": 20297,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00091234",
+            "title": "Gemtuzumab Ozogamicin (GO) Monotherapy Versus Standard Supportive Care for Previously Untreated AML in Elderly Patients Who Are Not Eligible for Intensive Chemotherapy: A Randomized Phase II/III Trial (AML-19) of the EORTC-LG and GIMEMA-ALWP",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2004-06",
+            "completion_date": "",
+            "country": "Italy, Belgium, Netherlands",
+            "enrollment": 279,
+            "brief_summary": "RATIONALE: Monoclonal antibodies such as gemtuzumab ozogamicin can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. It is not yet known whether gemtuzumab ozogamicin is more effective than standard supportive care in treating older patients who have acute myeloid leukemia.\n\nPURPOSE: This randomized phase II/III trial is studying two different gemtuzumab ozogamicin regimens to see how well they work compared to standard supportive",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed acute myeloid leukemia (AML)\n\n  * At least 20% bone marrow blasts by bone marrow aspiration or biopsy\n  * All subtypes except M3 (acute promyelocytic leukemia) are allowed\n* Previously untreated primary or secondary disease (including AML after my",
+            "endpoints": [
+              "Proportion of patients able to start continuation therapy (Phase II)",
+              "Overall survival (Phase III)"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT00091234"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00274781",
+            "title": "A Phase II Trial of Combination Therapy With Arsenic Trioxide (Trisenox) and Gemtuzumab Ozogamicin (Mylotarg) for the Treatment of Adult Patients With Advanced Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-02",
+            "completion_date": "2010-11",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide and gemtuzumab ozogamicin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving arsenic trioxide together with gemtuzumab ozogamicin works in treating patients with advanced myelodysplastic syndromes.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of one of the following hematologic malignancies:\n\n  * Myelodysplastic syndromes (MDS) of one of the following French-American-British (FAB) classifications:\n\n    * Refractory anemia with excess blasts (RAEB) (WHO RAEB-1)\n    * RAEB in transformation (RAEB-t) (R",
+            "endpoints": [
+              "Complete and Partial Remission Per the International Working Group (IWG) Criteria for Myelodysplastic Syndromes (MDS) or Acute Myeloid Leukemia (AML)"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00274781"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03226418",
+            "title": "A Phase II Study of the Impact of Clinicogenetic Risk-Stratified Management on Outcomes of Acute Myeloid Leukemia in Older Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-07-07",
+            "completion_date": "2024-10-01",
+            "country": "United States",
+            "enrollment": 75,
+            "brief_summary": "Acute myeloid leukemia (AML) is among the most common hematologic malignancies in adults and accounts for approximately 10,000 deaths in the United States every year. AML is commonly diagnosed in sixth or seventh decades of life. The management of AML is complex in older patients because of associated comorbidities, intolerance to high-dose chemotherapy and high-risk tumor biology. In real world practice, over one-third of patients aged 60 years and older do not receive initial chemotherapy for ",
+            "eligibility_criteria": "Inclusion criteria:\n\n* New diagnosis of de novo, secondary or treatment-related acute myeloid leukemia (AML), other AML equivalent such as myeloid sarcoma, myelodysplastic syndrome in transformation to AML, or high-grade treatment-related myeloid neoplasm\n* 60 years of age or older\n* Karnofsky Perfo",
+            "endpoints": [
+              "Rate of Complete Remission and Mortality in the Entire Cohort of Older Patients"
+            ],
+            "sponsor": "University of Nebraska",
+            "url": "https://clinicaltrials.gov/study/NCT03226418"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04293562",
+            "title": "A Phase 3 Randomized Trial for Patients With De Novo AML Comparing Standard Therapy Including Gemtuzumab Ozogamicin (GO) to CPX-351 With GO, and the Addition of the FLT3 Inhibitor Gilteritinib for Patients With FLT3 Mutations",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2020-07-21",
+            "completion_date": "2029-06-30",
+            "country": "Australia, Canada, Puerto Rico, United States",
+            "enrollment": 1186,
+            "brief_summary": "This phase III trial compares standard chemotherapy to therapy with liposome-encapsulated daunorubicin-cytarabine (CPX-351) and/or gilteritinib for patients with newly diagnosed acute myeloid leukemia with or without FLT3 mutations. Drugs used in chemotherapy, such as daunorubicin, cytarabine, and gemtuzumab ozogamicin, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. CPX-351 is made up of ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients must be enrolled on APEC14B1 and consented to Eligibility Screening (Part A) prior to enrollment and treatment on AAML1831\n* Patients must be less than 22 years of age at the time of study enrollment\n* Patient must be newly diagnosed with de novo AML according to ",
+            "endpoints": [
+              "Event-free survival (EFS)"
+            ],
+            "sponsor": "Children's Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT04293562"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05166135",
+            "title": "Real-world Study in Acute Leukemia: Epidemiology, Treatment Patterns and Outcomes for B-cell ALL and AML in Adult Patients From Latin America - LOYAL Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-12-10",
+            "completion_date": "2022-11-15",
+            "country": "Colombia, Argentina, Chile, Brazil",
+            "enrollment": 589,
+            "brief_summary": "The objective of the study is to describe the current epidemiology, treatment patterns, outcomes and healthcare resource use of adult patients diagnosed with relapsed/refractory (R/R) B-cell ALL and de novo AML in 4 Latin American countries.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥18 years old at diagnosis\n* Confirmed diagnosis of relapsed/refractory B-cell ALL or de novo AML diagnosed between 01 January 2015 and 31 December 2019\n* At least 1 line of treatment for R/R B-cell ALL or de novo AML within the study period\n\nExclusion Criteria:\n\n* Pa",
+            "endpoints": [
+              "Number of Participants According to Health Insurance Type",
+              "Number of Participants According to Country of Residence",
+              "Number of Participants With Comorbidities"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05166135"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02117297",
+            "title": "Allogeneic Stem Cell Transplantation Following by Targeted Immune Therapy) (Gemtuzumab Ozogamicin) in Average Risk Acute Myelogenous Leukemia and Myelodysplastic Syndrome (AML/MDS)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-01-12",
+            "completion_date": "2023-03-30",
+            "country": "United States",
+            "enrollment": 26,
+            "brief_summary": "Allogeneic stem cell transplantation followed by targeted immune therapy with Gemtuzumab Ozogamicin (Mylotarg) will be given to patients with average risk AML or MDS.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nDisease Status:\n\n* AML 1st CR with a matched family donor\n* AML 1st CR with unrelated donor\n* AML 2nd CR or CRP\n* MDS and \\< or = 5% bone marrow myeloblasts at diagnosis\n\nDisease Immunophenotype:\n\n* Disease must express a minimum of \\> or = 10% CD33 positivity for patients with ",
+            "endpoints": [
+              "to evaluate incidence of graft failure",
+              "to evaluate survival rates",
+              "to determine toxicity"
+            ],
+            "sponsor": "New York Medical College",
+            "url": "https://clinicaltrials.gov/study/NCT02117297"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00658814",
+            "title": "A Phase II Trial of Azacitidine (NSC-102816) Plus Gemtuzumab Ozogamicin (NSC-720568) as Induction and Post-Remission Therapy in Patients of Age 60 and Older With Previously Untreated Non-M3 Acute Myeloid Leukemia",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2008-12-01",
+            "completion_date": "2026-03-19",
+            "country": "United States",
+            "enrollment": 133,
+            "brief_summary": "This phase II trial is studying the side effects of giving azacitidine together with gemtuzumab ozogamicin to see how well it works in treating older patients with previously untreated acute myeloid leukemia. Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Azacitidine may also stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Monoclonal ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Morphologically confirmed diagnosis of acute myeloid leukemia (AML) with classification other than WHO acute promyelocytic leukemia (FAB M3), based on bone marrow examination performed within 14 days prior to registration; patients with World Health Organization (WHO) acute pr",
+            "endpoints": [
+              "Complete Response",
+              "30-Day Survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00658814"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00909168",
+            "title": "Induction, Consolidation and Intensification Therapy for Patients Younger Than 66 Years With Previously Untreated CD33 Positive Acute Myeloid Leukemia (AML)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-03",
+            "completion_date": "2013-03",
+            "country": "Italy",
+            "enrollment": 130,
+            "brief_summary": "This is a prospective, open, non-randomized, non-controlled, phase II, clinical trial for treatment of newly diagnosed AML patients, younger than 66 years.\n\nTrial is based on:\n\n* INDUCTION: FLAI + Gemtuzumab-Ozogamicin (FLAI-GO).\n* CONSOLIDATION: Intermediate dose AraC + IDA (IDAC+IDA) +/- one course of high dose AraC (HDAC)\n* INTENSIFICATION: Allo-BMT, ASCT\n* MAINTENANCE: AraC\n\n  a) Primary endpoints:\n* Feasibility, Efficacy (CR+PR rate) and Toxicity of FLAI + Gemtuzumab-Ozogamicin.\n* RFS, DFS ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-65 years.\n* WHO PS grade 0-2 (Appendix B) or Karnofsky \\> 70.\n* AML according to the new WHO criteria, i.e., % of BM blasts ≥ 20%. NB. this % should be assessed on a BM aspiration or on a BM biopsy\n* All FAB subtypes except M3.\n* CD33 positivity (\\> 20%). It is mandator",
+            "endpoints": [
+              "Feasibility, Efficacy (CR+PR rate) and Toxicity of FLAI + Gemtuzumab-Ozogamicin.",
+              "RFS, DFS and OS."
+            ],
+            "sponsor": "University Hospital, Udine, Italy",
+            "url": "https://clinicaltrials.gov/study/NCT00909168"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00052299",
+            "title": "Gemtuzumab Ozogamicin (GO) Combined With Standard Intensive Chemotherapy Versus Standard Intensive Chemotherapy Alone For Induction/Consolidation In Patients 61-75 Years Old With Previously Untreated AML: A Randomized Phase III Trial (AML-17) Of The EORTC-LG and the GIMEMA-ALWP",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2002-09",
+            "completion_date": "2012-02",
+            "country": "France, Belgium, Netherlands, Austria, Italy, Germany, Portugal",
+            "enrollment": 472,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. Monoclonal antibodies can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. It is not yet known if combining combination chemotherapy with monoclonal antibody therapy will kill more cancer cells.\n\nPURPOSE: Randomized phase III trial to determine the effectiveness of combination chemotherapy with or without gemtu",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of acute myeloid leukemia (AML)\n\n  * Bone marrow blasts at least 20% by bone marrow aspiration or biopsy\n  * FAB subtypes M0-M2 and M4-M7\n\n    * No acute promyelocytic leukemia (FAB subtype M3)\n* Previously untreated primary or secondary AML, including AML after",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT00052299"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00136084",
+            "title": "A Collaborative Trial for the Treatment of Patients With Newly Diagnosed Acute Myeloid Leukemia or Myelodysplasia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2002-08",
+            "completion_date": "2012-06",
+            "country": "United States",
+            "enrollment": 238,
+            "brief_summary": "The purpose of this study is to compare the effectiveness of two multi-agent chemotherapy regimens using different dosages of cytarabine to eliminate all detectable leukemia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of acute myeloid leukemia by immunophenotyping, morphology, and cytochemical staining; myelodysplasia; or biphenotypic leukemia.\n* Age less than or equal to 21 years at time of study entry.\n* No prior therapy for this malignancy (patients with secondary AML following",
+            "endpoints": [
+              "Minimal Residual Disease (MRD)."
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00136084"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05955261",
+            "title": "A Collaboration Phase 2 Study of Venetoclax in Combination With Conventional Chemotherapy in Pediatric Patients With Acute Myeloid Leukemia",
+            "phase": "PHASE2",
+            "status": "SUSPENDED",
+            "start_date": "2023-07-25",
+            "completion_date": "2034-03",
+            "country": "United States",
+            "enrollment": 70,
+            "brief_summary": "This is a phase 2 study to test the hypothesis that venetoclax in combination with standard chemotherapy will be tolerable and active in pediatric patients with newly diagnosed acute myeloid leukemia (AML).\n\nPrimary Objectives:\n\n* Establish the tolerability adding venetoclax to standard chemotherapy in pediatric patients with AML\n* Estimate the proportion of patients who become minimal residual disease (MRD) negative by flow cytometry after one course of venetoclax-based induction therapy\n\nSecon",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of AML fulfilling the criteria of the WHO classification of myeloid neoplasms or \\< 20% marrow myeloblasts and evidence of a clonal de novo AML genetic abnormality or myeloid sarcoma or primary myelodysplastic syndrome (MDS) with ≥ 10% blasts or a complete blood coun",
+            "endpoints": [
+              "Minimal residual disease (MRD)-negativity rate",
+              "Incidence of death or unacceptable adverse event"
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05955261"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00038831",
+            "title": "Phase I/II Evaluation of Safety and Activity of Mylotarg Plus Melphalan and Fludarabine as Preparative Therapy for Older or Medically Infirm Patients Undergoing Allogeneic Bone Marrow and Peripheral Blood Stem Cell Transplantation",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2001-05",
+            "completion_date": "2006-10",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "The goal of this clinical research study is to find the highest safe dose of Mylotarg that can be combined with chemotherapy in patients receiving allogeneic bone marrow transplantation. Researchers will study the effects of this treatment combination on patients with high-risk acute leukemia, chronic myelogenous leukemia, or myelodysplastic syndrome.\n\nPrimary Objective:\n\n1\\. To determine the safety and maximum tolerated dose of Mylotarg as part of a reduced-intensity preparative regimen patient",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 12-75 years of age\n* Patients are eligible if deemed ineligible for conventional high dose chemotherapy programs because of concurrent medical conditions. Patients with refractory AML are always eligible if ejection fraction \\> 35, FEV1, FVC, or DLCO \\> 40%, abnormal ",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Mylotarg as Determined by Number of Participants With Dose Limiting Toxicity (DLT) at Each Dose Level"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00038831"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00044733",
+            "title": "A Dose-Finding Study of the Safety of Gemtuzumab Ozogamicin as Single Agent Treatment of Patients With Relapsed Acute Myelogenous Leukemia After Autologous or Allogenic Hematopoietic Stem Cell Transplant (HSCT)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2000-03",
+            "completion_date": "2004-09",
+            "country": "United States",
+            "enrollment": 38,
+            "brief_summary": "The primary objective of this study is to evaluate the safety of gemtuzumab ozogamicin in relapsed CD33-positive AML patients who received HSCT. If the MTD dose is not reached, 9 mg/m2 will be the maximum tested dose. A secondary objective is to assess efficacy in terms of the number of patients attaining a complete (CR) or morphological (CRp) remission.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Patients with CD33+ AML who have experienced relapse after autologous or allogeneic HSCT. Flow cytometry, performed at the study site, must demonstrate that the patient has AML that is CD33 positive, based on local laboratory criteria (Patients with history of MDS pretransplant",
+            "endpoints": [],
+            "sponsor": "Wyeth is now a wholly owned subsidiary of Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00044733"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00077116",
+            "title": "Idarubicin and Ara-C in Combination With Gemtuzumab-Ozogamicin (IAGO) for Young Untreated Patients, Without an HLA Identical Sibling, With High Risk MDS or AML Developing After a Preceding Period With MDS During 6 Months Duration: A Phase II Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-11",
+            "completion_date": "",
+            "country": "Germany, Switzerland, Belgium, Netherlands",
+            "enrollment": 31,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as idarubicin and cytarabine, work in different ways to stop cancer cells from dividing so they stop growing or die. Monoclonal antibodies, such as gemtuzumab ozogamicin, can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. Giving monoclonal antibody therapy together with chemotherapy may kill more cancer cells. Giving healthy stem cells from a donor whose blood closely resembles the pa",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed diagnosis of 1 of the following:\n\n  * High-risk myelodysplastic syndromes (MDS), including any of the following:\n\n    * Refractory anemia with excess blasts (RAEB) with \\> 10% blast cells in the bone marrow\n    * RAEB in transformation\n    * Other",
+            "endpoints": [
+              "Rate of complete remission (CR) or complete remission with incomplete recovery of platelets (CRp) as measured by Cheson response criteria after the start of treatment",
+              "Severe toxicity after the start of treatment"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT00077116"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00008151",
+            "title": "Gemtuzumab Ozogamicin (GO), Fludarabine, And Low-Dose TBI Followed By Donor Stem Cell Transplantation For Patients With Advanced Acute Myeloid Leukemia Or Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2000-10",
+            "completion_date": "2002-07",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Monoclonal antibodies such as gemtuzumab ozogamicin can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. Peripheral stem cell or bone marrow transplantation may be able to replace immune cells that were destroyed by chemotherapy and radiation therapy used to kill cancer cells.\n\nPURPOSE: Phase II trial to study the effectiveness of gemtuzumab ozogamicin combined with fludarabine and total-body irradiation followed by do",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Diagnosis of recurrent or refractory acute myeloid leukemia CD33 positive Greater than 5% morphologically identified blasts in the marrow OR Diagnosis of myelodysplastic syndrome CD33 positive Greater than 5% morphologically identified blasts in the marrow (refractory anemia",
+            "endpoints": [],
+            "sponsor": "Fred Hutchinson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00008151"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00454480",
+            "title": "A Programme of Treatment Development for Older Patients With Acute Myeloid Leukemia and High Risk Myelodysplastic Syndrome",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-08",
+            "completion_date": "",
+            "country": "United Kingdom",
+            "enrollment": 2000,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as gemtuzumab ozogamicin, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Tipifarnib may stop the growth of cancer cells by blocking some of the enzymes needed for cell g",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of 1 of the following:\n\n  * Acute myeloid leukemia (AML) meeting the following criteria:\n\n    * De novo or secondary AML\n    * No acute promyelocytic leukemia\n  * High-risk myelodysplastic syndromes (\\> 10% marrow blasts; refractory anemia with excess blasts-2)\n",
+            "endpoints": [
+              "Overall survival",
+              "Achievement of complete remission and reasons for failure",
+              "Duration of remission, relapse rates, and deaths"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00454480"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04915612",
+            "title": "A Phase I Study of Liposomal Cytarabine and Daunorubicin (CPX-351) in Combination With Gemtuzumab Ozogamicin (GO) in Relapsed Refractory Pediatric Patients With Acute Myeloid Leukemia (AML)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-05-21",
+            "completion_date": "2025-01-30",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "This phase I trial studies the best dose and side effects of liposomal cytarabine, daunorubicin, and gemtuzumab ozogamicin in treating pediatric patients with acute myeloid leukemia that has returned after treatment (relapsed) or does not respond to treatment (refractory). Chemotherapy drugs, such as liposomal cytarabine and daunorubicin, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Gemt",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pediatric patients with diagnosis of CD33 positive (\\> 3%),\n\n  * Newly diagnosed secondary AML\n  * Relapsed refractory acute myeloid leukemia by World Health Organization (WHO) criteria Patients must have \\>= 5% blasts in the bone marrow as assessed by morphology or flow cytom",
+            "endpoints": [
+              "Maximum tolerated dose",
+              "Incidence of adverse events"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04915612"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03878927",
+            "title": "Phase I Trial, With an Expansion Cohort, of CPX-351 (Cytarabine:Daunorubicin) Liposome Injection in Combination With Gemtuzumab in Subjects With Acute Myeloid Leukemia >55 Years of Age Who Have Not Been Treated With Intensive Chemotherapy",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2019-08-23",
+            "completion_date": "2022-09-01",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "This is an open label study to assess the safety and efficacy of CPX-351 in combination with gemtuzumab ozogamicin (GO) as first intensive therapy in older (age \\>55 years) subjects with newly diagnosed AML who are eligible for intensive induction chemotherapy, or AML subjects who previously failed low-intensity therapy but who would be eligible for high-intensity chemotherapy, with companion cognitive function testing to determine whether this contributes to outcome in these subjects. Subjects ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ability to understand and voluntarily give informed consent\n* Age≥55 years at the time of study treatment\n* Pathological diagnosis of AML according to WHO criteria (with \\>20% blasts in the peripheral blood or bone marrow) including:\n\n  * De novo AML with intermediate or adver",
+            "endpoints": [
+              "Feasible dose of Gemtuzumab Ozogamicin (GO) in combination with CPX-351 (cytarabine:daunorubicin) in older subjects with AML"
+            ],
+            "sponsor": "Weill Medical College of Cornell University",
+            "url": "https://clinicaltrials.gov/study/NCT03878927"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00038805",
+            "title": "Allogeneic Stem Cell Transplantation Using Mylotarg (CMA-676) Plus Nonmyeloablative Chemotherapy in Older or Medically Infirm Patients With High-Risk Acute Leukemia (ALL), Chronic Myelogenous Leukemia (CML) or Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2001-05",
+            "completion_date": "2004-11",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "Primary Objective:\n\nTo determine the safety and maximum tolerated dose of CMA-676 as part of an intensive but nonmyeloablative preparative regimen in older or medically infirm patients undergoing mini-allogeneic peripheral blood stem cell transplantation\n\nSecondary Objectives:\n\n1. To evaluate response rates, engraftment kinetics and degree of chimerism achievable with this strategy.\n2. To evaluate disease-free and overall survival and relapse rates.\n3. To evaluate the need and ability to give mu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 12-75 years of age\n* Patients are eligible if deemed ineligible for conventional high dose chemotherapy programs because of concurrent medical conditions. Patients with refractory AML are eligible provided ejection fraction \\>= 35%; FEV1, FVC, or DLCO \\>= 40%; GPT \\< ",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of CMA-676"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00038805"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03531918",
+            "title": "A Single-Center Phase 1/2 Study of Single- or Fractioned-Dose Gemtuzumab Ozogamicin in Combination With G-CSF, Cladribine, Cytarabine, and Mitoxantrone for Previously Untreated Adult Acute Myeloid Leukemia or High-Grade Myeloid Neoplasm",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-09-14",
+            "completion_date": "2021-11-01",
+            "country": "United States",
+            "enrollment": 66,
+            "brief_summary": "This phase I/II trial studies the side effects and best dosing frequency of gemtuzumab ozogamicin when given in combination with granulocyte colony stimulating factor (G-CSF), cladribine, cytarabine and mitoxantrone (GCLAM) and to see how well they work in treating participants with acute myeloid leukemia or high-grade myeloid tumors (neoplasms) that have not been previously treated. Antibody-drug conjugates, such as gemtuzumab ozogamicin, act by directly delivering toxic chemotherapy to cancer ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of untreated \"high-grade\" myeloid neoplasm (≥ 10% blasts in blood or bone marrow) or acute myeloid leukemia (AML) other than acute promyelocytic leukemia (APL) with t(15;17)(q22;q12) or variants according to the 2016 World Health Organization (WHO) classification; ou",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Gemtuzumab Ozogamicin (GO) When Added to GCLAM (Phase 1)",
+              "Event-free Survival (EFS) Rate (Phase 2)"
+            ],
+            "sponsor": "Fred Hutchinson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03531918"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00028899",
+            "title": "A Dose Finding Study of the Safety of Gemtuzumab Ozogamicin Combined With Conventional Chemotherapy for Patients With Relapsed or Refractory Acute Myeloid Leukemia",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2002-07",
+            "completion_date": "2012-03",
+            "country": "Australia, Canada, United States",
+            "enrollment": 47,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop cancer cells from dividing so they stop growing or die. Monoclonal antibodies such as gemtuzumab ozogamicin can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. Combining monoclonal antibody therapy with combination chemotherapy may kill more cancer cells.\n\nPURPOSE: Phase I trial to study the effectiveness of combining gemtuzumab ozogamicin with combination chem",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of primary acute myeloid leukemia (AML) or myelodysplastic syndromes\n\n  * Relapsed (remission duration less than 1 year) OR\n  * Failed induction (failed to achieve an initial complete response)\n* Patients with AML as a second malignant neoplasm allowed provided ",
+            "endpoints": [
+              "Event Free Survival"
+            ],
+            "sponsor": "Children's Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT00028899"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01698879",
+            "title": "Treatment of de Novo Acute Myeloid Leukemia With the Combination of Idarubicin, Cytarabine, and Gemtuzumab Ozogamicin (Mylotarg ®), Associated or Not Priming With G-CSF. Prospective Study of Efficacy and Toxicity",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-10",
+            "completion_date": "2016-09-26",
+            "country": "Spain",
+            "enrollment": 46,
+            "brief_summary": "Acute myeloid leukemia (AML) is a neoplasm of immature hematopoietic cells (blasts) with altered ripening capacity. Due to excessive proliferation, the blasts displace normal hematopoietic cells and bone marrow failure appears. Leukemic cells also infiltrate extramedullary tissues.\n\nFollowing the standard chemotherapy treatment, the CR rate achieved is around 65-75% for all patients and 15% lower when considering only patients over 65 years. Modifications to the standard regimen consist of repla",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with primary or \"de novo\" AML, different than promyelocytic or M3 subtype.\n2. Age 18 to 70 years.\n3. Written informed consent form\n\nExclusion Criteria:\n\n1. Acute leukemia appeared after a myeloproliferative process or a myelodysplastic syndrome longer than 6 months, ",
+            "endpoints": [
+              "Complete Remission of the Disease"
+            ],
+            "sponsor": "Grupo Cooperativo de Estudio y Tratamiento de las Leucemias Agudas y Mielodisplasias",
+            "url": "https://clinicaltrials.gov/study/NCT01698879"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00049179",
+            "title": "A Phase II Study of Gemtuzumab Ozogamicin (Mylotarg) and Standard Dose ARA-C for Patients With Relapsed Acute Myeloid Leukemia (AML)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-04",
+            "completion_date": "2010-10",
+            "country": "United States",
+            "enrollment": 33,
+            "brief_summary": "RATIONALE: Monoclonal antibodies such as gemtuzumab ozogamicin can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. Drugs used in chemotherapy such as cytarabine use different ways to stop cancer cells from dividing so they stop growing or die. Combining gemtuzumab ozogamicin with cytarabine may kill more cancer cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combining gemtuzumab ozogamicin with cytarabine in treati",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed acute myeloid leukemia (AML)\n\n  * FAB M1-2 or M4-7\n  * No blastic transformation of chronic myelogenous leukemia\n* In first relapse after prior complete response\n\n  * Patients who relapsed after autologous or allogeneic bone marrow or peripheral b",
+            "endpoints": [
+              "CR"
+            ],
+            "sponsor": "SWOG Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT00049179"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00006122",
+            "title": "Gemtuzumab Ozogamicin (CMA-676) Followed or Not by Intensive Chemotherapy as Initial Treatment for Elderly Patients With Acute Myeloid Leukemia: An EORTC-LG Pilot Phase II Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2000-06",
+            "completion_date": "",
+            "country": "France, Croatia, Belgium, Netherlands, Austria, Germany, Italy",
+            "enrollment": 106,
+            "brief_summary": "RATIONALE: Monoclonal antibodies such as gemtuzumab ozogamicin can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. Drugs used in chemotherapy uses different ways to stop cancer cells from dividing so they stop growing or die. Combining gemtuzumab ozogamicin with chemotherapy may kill more cancer cells.\n\nPURPOSE: Phase II trial to study the effectiveness of gemtuzumab ozogamicin with or without chemotherapy in treating older pati",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Diagnosis of primary or secondary acute myeloid leukemia (AML) Previously untreated At least 20% marrow blasts AML after myelodysplastic syndrome allowed No leukemia after other myeloproliferative diseases No acute promyelocytic leukemia (M3) or blastic phase chronic myeloge",
+            "endpoints": [],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT00006122"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00121303",
+            "title": "Randomised Induction and Post Induction Therapy in Older Patients (≥61 Years of Age) With Acute Myeloid Leukemia (AML) and Refractory Anemia With Excess Blasts (RAEB, RAEB-t)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2005-01",
+            "completion_date": "2016-06",
+            "country": "United Kingdom",
+            "enrollment": 600,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as cytarabine and daunorubicin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as gemtuzumab ozogamicin, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. It is not yet known whether cytarabine and daunorubicin fo",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed diagnosis of 1 of the following:\n\n  * Acute myeloid leukemia (AML)\n\n    * M0-M2 or M4-M7 FAB subtype\n\n      * No AML with cytogenetic abnormality t(15;17) (M3)\n    * Patients with secondary AML progressing from prior myelodysplasi",
+            "endpoints": [
+              "Event-free survival after induction therapy",
+              "Disease-free survival after maintenance therapy"
+            ],
+            "sponsor": "Stichting Hemato-Oncologie voor Volwassenen Nederland",
+            "url": "https://clinicaltrials.gov/study/NCT00121303"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04849910",
+            "title": "A First-In-Human, Open-Label, Multicenter Study of VOR33 in Patients With Acute Myeloid Leukemia Who Are at High-Risk for Leukemia Relapse Following Hematopoietic Cell Transplantation",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2021-12-16",
+            "completion_date": "2025-05-28",
+            "country": "Canada, United States",
+            "enrollment": 67,
+            "brief_summary": "This is a Phase 1/2a, multicenter, open-label, first-in-human (FIH) study of VOR33 in participants with AML or MDS who are undergoing human leukocyte antigen (HLA)-matched allogeneic hematopoietic cell transplant (HCT).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Must be ≥18 and ≤70 years of age.\n2. Patients with AML must have one of the following groups of features that are known to be a risk factor for leukemia relapse:\n\n   * BM in morphological remission (\\<5% blasts) with adverse-risk disease related genetics at presentation (acco",
+            "endpoints": [
+              "Incidence of neutrophil engraftment"
+            ],
+            "sponsor": "Vor Biopharma",
+            "url": "https://clinicaltrials.gov/study/NCT04849910"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02473146",
+            "title": "Etude Exploratoire randomisée Comparant le Traitement Par Gemtuzumab Ozogamicin /Cytarabine au Traitement Standard Par Idarubicine/Cytarabinechez Les Sujets âgés de 60 à 80 Ans et présentant Une LAM et un Caryotype Non défavorable",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-11-18",
+            "completion_date": "2023-09-07",
+            "country": "France",
+            "enrollment": 225,
+            "brief_summary": "Purpose : The main objective of this study is to assess the efficacy and tolerance of the addition of repeated doses of low doses (3mg/m2) of Gemtuzumab Ozogamicin (GO) in addition with standard doses of Ara-C in previously untreated patients aged 60 to 80 years with de novo acute myeloblastic leukemia (AML) and non adverse cytogenetics. The main end point for efficacy is 2 years-event free survival. The secondary efficacy endpoints are CR/Cri rates, cumulative incidence of relapse and overall s",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a morphologically proven diagnosis AML and both the following criteria:\n* Age ≥ 60 years and \\< 80 years.\n* Not previously treated for their disease.\n* With favourable or intermediate-risk cytogenetics. (Patients with urgent clinical need to begin treatment might",
+            "endpoints": [
+              "EFS (defined as the time from randomization to the date of assessment of response if CR or Cri had not been achieved, relapse or death)"
+            ],
+            "sponsor": "Versailles Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02473146"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02182596",
+            "title": "A Dose-finding Phase I/II Trial of Daunorubicin and Cytarabine Combined to Fractionated Mylotarg® as Re-induction Treatment in Patients With First Relapse of Acute Myeloid Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-06",
+            "completion_date": "2011-01",
+            "country": "France",
+            "enrollment": 20,
+            "brief_summary": "For several years, the effective standard induction chemotherapy for AML has been limited to the association of anthracycline and aracytine. GO is the first effective targeted antibody used in leukemia patients. In a previous study, we showed efficacy and safety of fractionated doses of GO used as a single agent for treatment of adult AML patients in first relapse. In the present study the possibility of combining fractionated doses of GO to escalated doses of a 3+7 regimen old is studied in rel",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients with a morphologically proven diagnosis of CD33-positive AML and :\n\n1. Age ≥ 50 years and ≤ 70 years.\n2. First relapsing AML with a duration of first CR ≥ 3 and ≤18 months\n3. ECOG performance status 0 to 3\n4. Negative serology HIV, HBV and HBC (except post vaccination)\n",
+            "endpoints": [
+              "Dose-limiting toxicity (DLT) defined by the occurrence of any G3 or G4 non reversible toxicity at day 45 excluding myelosuppression or infection due to neutropenia, and response defined by complete remission at day 45"
+            ],
+            "sponsor": "Acute Leukemia French Association",
+            "url": "https://clinicaltrials.gov/study/NCT02182596"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04337138",
+            "title": "Characteristics, Treatment Patterns, and Clinical Outcomes in Acute Myeloid Leukemia (AML) Patients Using Mylotarg - a US Real-World Study Using Electronic Medical Record Data",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-04-07",
+            "completion_date": "2020-07-31",
+            "country": "United States",
+            "enrollment": 32,
+            "brief_summary": "The aim of this observational study is to describe treatment patterns and effectiveness outcomes in a sample of oncology patients treated for AML with Mylotarg through up to two additional relapsed/refractory (R/R)-based lines of therapy (through third-line therapy). The study will use United States oncology electronic medical record (EMR) data. All study data are secondary data and will have been collected retrospectively from existing clinical data originally collected as part of routine care.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of acute myeloid leukemia (AML) on or after 01 December 2014 through Clinical Research Nurse (CRN) review of provider documentation of AML diagnosis in the medical record;\n* Receipt of Mylotarg at any point during first three lines of therapy following init",
+            "endpoints": [
+              "Real-World Event-Free Survival (rwEFS)",
+              "Real-World Relapse Free Survival (rwRFS)",
+              "Real-World Overall Survival (rwOS)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04337138"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "17326049",
+            "title": "Combination therapy with arsenic trioxide, all-trans retinoic acid, and gemtuzumab ozogamicin in recurrent acute promyelocytic leukemia.",
+            "abstract": "From 20% to 30% of patients with acute promyelocytic leukemia (APL) who are treated with all-trans retinoic acid (ATRA) develop recurrent disease. Arsenic trioxide (ATO) is an effective agent for the salvage of patients with recurrent APL, and gemtuzumab ozogamicin (GO) has shown activity in patients with APL.",
+            "journal": "Cancer",
+            "year": "2007",
+            "authors": [
+              "Aribi Ahmed",
+              "Kantarjian Hagop M",
+              "Estey Elihu H",
+              "Koller Charles A",
+              "Thomas Deborah A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Gemtuzumab",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17326049/"
+          },
+          {
+            "pmid": "15120666",
+            "title": "Monoclonal antibodies as therapeutic agents for cancer.",
+            "abstract": "Targeted therapies are the focus of much research in oncology. After the development of imatinib for the treatment of chronic myeloid leukaemia, biological therapies that target tumour-associated antigens give hope for improvement of survival in many cancers. At the American Society of Clinical Oncology (ASCO) conference in 2003, data for the antibodies bevacizumab and cetuximab highlighted promising results in clinical trials, including an improvement in survival for metastatic colorectal cancer. Positive results for other antibodies in various stages of clinical development provide hope that anticancer antibodies will have an effect on clinical oncology practice in the next 10 years.",
+            "journal": "The Lancet. Oncology",
+            "year": "2004",
+            "authors": [
+              "Harris Marion"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alemtuzumab",
+              "Aminoglycosides",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antibodies, Neoplasm",
+              "Bevacizumab",
+              "Cetuximab",
+              "Clinical Trials as Topic",
+              "Gemtuzumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15120666/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant spiradenoma",
+        "txgnn_score": 0.972335398197174,
+        "txgnn_rank": 20390,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "5q35 microduplication syndrome",
+        "txgnn_score": 0.9715928435325624,
+        "txgnn_rank": 20673,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuralgic amyotrophy",
+        "txgnn_score": 0.9574392437934875,
+        "txgnn_rank": 24867,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic neuralgia",
+        "txgnn_score": 0.9539621472358704,
+        "txgnn_rank": 25726,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+        "txgnn_score": 0.9509475827217102,
+        "txgnn_rank": 26468,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05166135",
+            "title": "Real-world Study in Acute Leukemia: Epidemiology, Treatment Patterns and Outcomes for B-cell ALL and AML in Adult Patients From Latin America - LOYAL Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-12-10",
+            "completion_date": "2022-11-15",
+            "country": "Colombia, Argentina, Chile, Brazil",
+            "enrollment": 589,
+            "brief_summary": "The objective of the study is to describe the current epidemiology, treatment patterns, outcomes and healthcare resource use of adult patients diagnosed with relapsed/refractory (R/R) B-cell ALL and de novo AML in 4 Latin American countries.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥18 years old at diagnosis\n* Confirmed diagnosis of relapsed/refractory B-cell ALL or de novo AML diagnosed between 01 January 2015 and 31 December 2019\n* At least 1 line of treatment for R/R B-cell ALL or de novo AML within the study period\n\nExclusion Criteria:\n\n* Pa",
+            "endpoints": [
+              "Number of Participants According to Health Insurance Type",
+              "Number of Participants According to Country of Residence",
+              "Number of Participants With Comorbidities"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05166135"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00798213",
+            "title": "A Phase 2 Study of SCH 727965 in Subjects With Relapsed and Refractory Acute Myelogenous Leukemia and Acute Lymphoblastic Leukemia",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2009-01",
+            "completion_date": "2010-04",
+            "country": "N/A",
+            "enrollment": 29,
+            "brief_summary": "Participants with acute myelogenous leukemia (AML) will be randomized to SCH 727965 or gemtuzumab ozogamicin. All participants with acute lymphoblastic leukemia (ALL) will receive SCH 727965. Part 1 of the study will determine the activity of SCH 727965 treatment in participants with AML and participants with ALL. Part 2 of the study will determine the activity of SCH 727965 treatment in participants with AML who experienced disease progression after standard treatment with gemtuzumab ozogamicin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* For participants with AML:\n\n  * Age \\>=60 years, either sex, any race.\n  * Diagnosis of CD33-positive AML by World Health Organization criteria.\n  * Must be in first or second relapse, or have primary refractory or refractory disease at first salvage, and not be considered a c",
+            "endpoints": [
+              "Overall response rate of initial treatment with SCH 727965 in subjects with AML or ALL.",
+              "Overall response rate in participants with AML treated with SCH 727965 after disease progression on comparator."
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00798213"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00038805",
+            "title": "Allogeneic Stem Cell Transplantation Using Mylotarg (CMA-676) Plus Nonmyeloablative Chemotherapy in Older or Medically Infirm Patients With High-Risk Acute Leukemia (ALL), Chronic Myelogenous Leukemia (CML) or Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2001-05",
+            "completion_date": "2004-11",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "Primary Objective:\n\nTo determine the safety and maximum tolerated dose of CMA-676 as part of an intensive but nonmyeloablative preparative regimen in older or medically infirm patients undergoing mini-allogeneic peripheral blood stem cell transplantation\n\nSecondary Objectives:\n\n1. To evaluate response rates, engraftment kinetics and degree of chimerism achievable with this strategy.\n2. To evaluate disease-free and overall survival and relapse rates.\n3. To evaluate the need and ability to give mu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 12-75 years of age\n* Patients are eligible if deemed ineligible for conventional high dose chemotherapy programs because of concurrent medical conditions. Patients with refractory AML are eligible provided ejection fraction \\>= 35%; FEV1, FVC, or DLCO \\>= 40%; GPT \\< ",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of CMA-676"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00038805"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent",
+        "txgnn_score": 0.938637912273407,
+        "txgnn_rank": 29048,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18565291",
+            "title": "[Novel medical treatment modalities in hematology].",
+            "abstract": "Today several monoclonal antibodies, including the anti-CD20 antibody (rituximab), the anti-CD52 antibody (alemtuzumab) and the anti-CD33 antibody (gemtuzumab ozogamacin) are all integrated in the therapeutic armamentarium of patients with malignant lymphoma, chronic lymphocytic leukaemia and acute myelogenous leukaemia, respectively. Rituximab has also been shown to be highly effective in the treatment of refractory autoimmune haemolytic anemias, idiopathic thrombocytopenia, and relapsing thrombotic thrombocytopenic purpura. New signal transduction inhibitors, dasatinib and nilotinib, are being used in patients with chronic myelogeneous leukaemia who develop resistance to imatinib. Thalidomide, lenalidomide and bortezomib have all been shown to be highly effective in multiple myeloma, and JAK2-inhibitors have entered phase II studies of patients with JAK2-positive primary myelofibrosis and related diseases.",
+            "journal": "Ugeskrift for laeger",
+            "year": "2008",
+            "authors": [
+              "Hasselbalch Hans Carl",
+              "Birgens Henrik",
+              "Dufva Inge Høgh",
+              "Dalseg Anne-Marie",
+              "Brown Peter de Nully"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aminoglycosides",
+              "Anemia, Hemolytic",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Benzoates",
+              "Boronic Acids",
+              "Bortezomib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18565291/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00056",
+    "name": "Gemtuzumab ozogamicin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin"
+      },
+      "queried_at": "2026-03-10T07:11:16.713923",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin"
+      },
+      "queried_at": "2026-03-10T07:11:19.689982",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "Richter syndrome"
+      },
+      "queried_at": "2026-03-10T07:11:20.648312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "Richter syndrome"
+      },
+      "queried_at": "2026-03-10T07:11:23.408134",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "Richter syndrome"
+      },
+      "queried_at": "2026-03-10T07:11:24.167390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T07:11:24.742202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T07:11:28.190065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T07:11:28.802730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T07:11:29.450364",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T07:11:32.711857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T07:11:35.017807",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "metastatic neoplasm"
+      },
+      "queried_at": "2026-03-10T07:11:38.411393",
+      "status": "success",
+      "result_count": 29,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "metastatic neoplasm"
+      },
+      "queried_at": "2026-03-10T07:11:41.390546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "metastatic neoplasm"
+      },
+      "queried_at": "2026-03-10T07:11:43.307557",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "malignant spiradenoma"
+      },
+      "queried_at": "2026-03-10T07:11:43.902471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "malignant spiradenoma"
+      },
+      "queried_at": "2026-03-10T07:11:49.149002",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "malignant spiradenoma"
+      },
+      "queried_at": "2026-03-10T07:11:49.885748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T07:11:50.423410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T07:11:54.061843",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T07:11:54.724167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T07:11:55.253782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T07:11:58.707425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T07:11:59.448967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T07:12:00.011666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T07:12:02.773267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T07:12:03.502467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "acute lymphoblastic/lymphocytic leukemia"
+      },
+      "queried_at": "2026-03-10T07:12:04.384501",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "acute lymphoblastic/lymphocytic leukemia"
+      },
+      "queried_at": "2026-03-10T07:12:08.294296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "acute lymphoblastic/lymphocytic leukemia"
+      },
+      "queried_at": "2026-03-10T07:12:09.089477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "queried_at": "2026-03-10T07:12:09.792164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "queried_at": "2026-03-10T07:12:12.550820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gemtuzumab ozogamicin",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "queried_at": "2026-03-10T07:12:14.410519",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:12:14.413373"
+  }
+}

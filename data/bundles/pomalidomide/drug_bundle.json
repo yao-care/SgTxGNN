@@ -1,0 +1,861 @@
+{
+  "drug": {
+    "inn": "Pomalidomide",
+    "drugbank_id": "DB08910",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.9396286606788636,
+        "txgnn_rank": 28881,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02046915",
+            "title": "Phase II Multicenter, Open-label, Single Arm Clinical Study of Pomalidomide and dexamethasonE in RelapSed Myeloma Plus rEsponse Adapted Cyclophosphamide as a Tailored InnoVativE Strategy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-04",
+            "completion_date": "2017-08-17",
+            "country": "Germany",
+            "enrollment": 60,
+            "brief_summary": "Highest treatment efficacy in patients with refractory myeloma may be achieved with regimens combining novel agents and alkylating agents. However, in applying this approach the patients are at substantial risks of a critical myelosuppression. Pomalidomide demonstrates significant activity in combination with Dexamethasone in relapsed or refractory multiple myeloma. This trial is an attempt to further improve the efficacy of Pomalidomide/Dexamethasone as well as to balance efficacy and toxicity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be ≥ 18 years at the time of signing the informed consent.\n* Understand and voluntarily sign an informed consent prior to any study related assessments/procedures are conducted.\n* Able to adhere to the study visit schedule and other protocol requirements.\n* Subjects must ",
+            "endpoints": [
+              "response rate"
+            ],
+            "sponsor": "University Hospital Tuebingen",
+            "url": "https://clinicaltrials.gov/study/NCT02046915"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21181954",
+            "title": "Multiple myeloma: 2011 update on diagnosis, risk-stratification, and management.",
+            "abstract": "Multiple myeloma is malignant plasma-cell disorder that accounts for ∼10% of all hematologic malignancies.",
+            "journal": "American journal of hematology",
+            "year": "2011",
+            "authors": [
+              "Rajkumar S Vincent"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Multiple Myeloma",
+              "Risk Factors",
+              "Survival Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21181954/"
+          },
+          {
+            "pmid": "22180161",
+            "title": "Multiple myeloma: 2012 update on diagnosis, risk-stratification, and management.",
+            "abstract": "Multiple myeloma accounts for ∼10% of all hematologic malignancies.",
+            "journal": "American journal of hematology",
+            "year": "2012",
+            "authors": [
+              "Rajkumar S Vincent"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Maintenance Chemotherapy",
+              "Middle Aged",
+              "Multiple Myeloma",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22180161/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "CMM7",
+        "txgnn_score": 0.7495293617248535,
+        "txgnn_rank": 43817,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pediatric leptomeningeal melanoma",
+        "txgnn_score": 0.7355407476425171,
+        "txgnn_rank": 44220,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar melanoma (disease)",
+        "txgnn_score": 0.7331593036651611,
+        "txgnn_rank": 44292,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell uveal melanoma",
+        "txgnn_score": 0.7220881581306458,
+        "txgnn_rank": 44629,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melanoma",
+        "txgnn_score": 0.6330132484436035,
+        "txgnn_rank": 47141,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41276688",
+            "title": "A selective RPL15 PROTAC degrader enhances anti-PD-1 immunotherapy in a murine melanoma tumor model.",
+            "abstract": "Damage-associated molecular patterns (DAMPs) are secreted from damaged or dying cells and activate innate immune signaling via pattern-recognition receptors such as Toll-like receptors and cGAS. We previously showed that topotecan, a chemotherapeutic drug and topoisomerase I (TOP1) inhibitor, binds to ribosomal protein RPL15 and induces the secretion of DAMPs from cancer cells, which activate cGAS-STING signaling in dendritic cells. RPL15-knockdown B16-F10 melanoma tumors were sensitized to anti-PD-1 antibody, suggesting that RPL15 inhibition may have the potential to improve immune checkpoint inhibitor efficacy. However, topotecan and its derivatives, including SN-38, are highly cytotoxic because of their TOP1 inhibitory activity. Here, we synthesized SN-38-conjugated pomalidomide (SN38-PROTAC) and showed that SN38-PROTAC induced ubiquitin-mediated degradation of RPL15, but not TOP1. SN38-PROTAC treatment induced DAMP secretion from cancer cells, which activated cGAS-STING signaling i",
+            "journal": "Oncogene",
+            "year": "2025",
+            "authors": [
+              "Takahashi Runa",
+              "Yamamoto Kazuki",
+              "Toya Hikaru",
+              "Shoji Haruka",
+              "Kawanishi Kohei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Ribosomal Proteins",
+              "Melanoma, Experimental",
+              "Immunotherapy",
+              "Programmed Cell Death 1 Receptor",
+              "Humans",
+              "Disease Models, Animal",
+              "Cell Line, Tumor",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41276688/"
+          },
+          {
+            "pmid": "32899586",
+            "title": "Immunomodulatory Drugs in Acute Myeloid Leukemia Treatment.",
+            "abstract": "Immunomodulatory drugs (IMiDs) are analogs of thalidomide. They have immunomodulatory, antiangiogenic and proapoptotic properties and exert a role in regulating the tumor microenvironment. Recently IMiDs have been investigated for their pleiotropic properties and their therapeutic applications in both solid tumors (melanoma, prostate carcinoma and differentiated thyroid cancer) and hematological malignancies. Nowadays, they are applied in de novo and relapsed/refractory multiple myeloma, in myelodysplastic syndrome, in del5q syndrome with specific use of lenalidomide and B-cell lymphoma. Several studies have been conducted in the last few years to explore IMiDs possible use in acute myeloid leukemia treatment. Here we report the mechanisms of action of IMiDs in acute myeloid leukemia and their potential future therapeutic application in this disease.",
+            "journal": "Cancers",
+            "year": "2020",
+            "authors": [
+              "Piccolomo Antonio",
+              "Schifone Claudia Pia",
+              "Strafella Vanda",
+              "Specchia Giorgina",
+              "Musto Pellegrino"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32899586/"
+          },
+          {
+            "pmid": "40779718",
+            "title": "Disrupting the MC1R/α-MSH-pCREB-MITF Axis: Rhein-based PROTAC D16 as a Potent Melanogenesis Inhibitor.",
+            "abstract": "Melanin protects skin from ultraviolet rays, but excessive or misdistributed synthesis can cause issues like melasma, freckles, or melanoma. Rhein from traditional Chinese herbs shows various bioactivities, with recent structural modifications enhancing its derivatives, but its effect on melanogenesis is unreported. The study reports synthesizing and evaluating D16, Rhein-based proteolysis targeting chimera (PROTACs) utilizing pomalidomide as an E3 ligand. D16 exhibited significantly reduced cytotoxicity, with half-maximal inhibitory concentration values exceeding 100 µM in both B16-F10 melanoma and human immortalized keratinocyte cells, indicating a low level of toxicity. In addition, mechanistic studies revealed that D16 suppresses melanin production primarily through the melanocortin 1 receptor/α-melanocyte-stimulating hormone signaling pathway, with further analysis suggesting phosphorylated cyclic adenosine monophosphate-response element binding protein (pCREB) as a key target. Th",
+            "journal": "Chemistry & biodiversity",
+            "year": "2025",
+            "authors": [
+              "Xu Meng",
+              "Zhang Ziqing",
+              "Zhang Peixi",
+              "He Xinyi",
+              "Zeng Huagong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Melanins",
+              "Animals",
+              "Mice",
+              "Microphthalmia-Associated Transcription Factor",
+              "alpha-MSH",
+              "Anthraquinones",
+              "Receptor, Melanocortin, Type 1",
+              "Cyclic AMP Response Element-Binding Protein",
+              "Molecular Docking Simulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40779718/"
+          },
+          {
+            "pmid": "24030134",
+            "title": "Pomalidomide, dabrafenib mesylate, and trametinib dimethyl sulfoxide.",
+            "abstract": "",
+            "journal": "Journal of the American Pharmacists Association : JAPhA",
+            "year": "2013",
+            "authors": [
+              "Hussar Daniel A",
+              "Kaminski Jessica L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Humans",
+              "Imidazoles",
+              "Melanoma",
+              "Multiple Myeloma",
+              "Oximes",
+              "Pyridones",
+              "Pyrimidinones",
+              "Skin Neoplasms",
+              "Thalidomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24030134/"
+          },
+          {
+            "pmid": "30315115",
+            "title": "Pomalidomide Inhibits PD-L1 Induction to Promote Antitumor Immunity.",
+            "abstract": ": Thalidomide-like drugs have been approved for the treatment of human multiple myeloma, with their direct antitumor effects and immunomodulatory functions well documented. However, the exact molecular mechanisms that govern these effects remain unclear. Here we demonstrate that pomalidomide promotes immune response by inhibiting expression of PD-L1. Pomalidomide inhibited PD-L1 expression on tumor cells to promote CTL activity in vitro and suppressed PD-L1 upregulation on antigen-presenting cells to prevent peptide-induced T-cell tolerance. Knockout of PD-L1 on tumor cells or in mice completely eliminated the immunomodulatory effect of pomalidomide. Furthermore, pomalidomide synergized with other immunotherapies to improve anticancer therapy. Taken together, this study identifies a new mechanism for the immunomodulatory functions of pomalidomide in cancer therapy. These results also offer a clinical approach for blocking PD-L1 induction and potentially promoting antitumor immunity. SI",
+            "journal": "Cancer research",
+            "year": "2018",
+            "authors": [
+              "Fujiwara Yuki",
+              "Sun Yi",
+              "Torphy Robert J",
+              "He Jiadai",
+              "Yanaga Katsuhiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "B7-H1 Antigen",
+              "Cell Line, Tumor",
+              "Cytotoxicity, Immunologic",
+              "Gene Expression Profiling",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "Immunity",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30315115/"
+          },
+          {
+            "pmid": "36500607",
+            "title": "Investigation into the Use of Encorafenib to Develop Potential PROTACs Directed against BRAFV600E Protein.",
+            "abstract": "BRAF is a serine/threonine kinase frequently mutated in human cancers. BRAFV600E mutated protein is targeted through the use of kinase inhibitors which are approved for the treatment of melanoma; however, their long-term efficacy is hampered by resistance mechanisms. The PROTAC-induced degradation of BRAFV600E has been proposed as an alternative strategy to avoid the onset of resistance. In this study, we designed a series of compounds where the BRAF kinase inhibitor encorafenib was conjugated to pomalidomide through different linkers. The synthesized compounds maintained their ability to inhibit the kinase activity of mutated BRAF with IC50 values in the 40-88 nM range. Selected compounds inhibited BRAFV600E signaling and cellular proliferation of A375 and Colo205 tumor cell lines. Compounds 10 and 11, the most active of the series, were not able to induce degradation of mutated BRAF. Docking and molecular dynamic studies, conducted in comparison with the efficient BRAF degrader P5B, ",
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2022",
+            "authors": [
+              "Marini Elisabetta",
+              "Marino Marco",
+              "Gionfriddo Giulia",
+              "Maione Federica",
+              "Pandini Marta"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Proto-Oncogene Proteins B-raf",
+              "Proteolysis Targeting Chimera",
+              "Sulfonamides",
+              "Protein Kinase Inhibitors",
+              "Cell Line, Tumor",
+              "Mutation",
+              "Carbamates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36500607/"
+          },
+          {
+            "pmid": "29581547",
+            "title": "Protein targeting chimeric molecules specific for bromodomain and extra-terminal motif family proteins are active against pre-clinical models of multiple myeloma.",
+            "abstract": "Bromodomain and extraterminal (BET) domain containing protein (BRD)-4 modulates the expression of oncogenes such as c-myc, and is a promising therapeutic target in diverse cancer types. We performed pre-clinical studies in myeloma models with bi-functional protein-targeting chimeric molecules (PROTACs) which target BRD4 and other BET family members for ubiquitination and proteasomal degradation. PROTACs potently reduced the viability of myeloma cell lines in a time-dependent and concentration-dependent manner associated with G0/G1 arrest, reduced levels of CDKs 4 and 6, increased p21 levels, and induction of apoptosis. These agents specifically decreased cellular levels of downstream BRD4 targets, including c-MYC and N-MYC, and a Cereblon-targeting PROTAC showed downstream effects similar to those of an immunomodulatory agent. Notably, PROTACs overcame bortezomib, dexamethasone, lenalidomide, and pomalidomide resistance, and their activity was maintained in otherwise isogenic myeloma c",
+            "journal": "Leukemia",
+            "year": "2018",
+            "authors": [
+              "Zhang Xiaohui",
+              "Lee Hans C",
+              "Shirazi Fazal",
+              "Baladandayuthapani Veerabhadran",
+              "Lin Heather"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Motifs",
+              "Animals",
+              "Antineoplastic Agents",
+              "Cell Cycle Checkpoints",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Humans",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29581547/"
+          },
+          {
+            "pmid": "15598423",
+            "title": "Immunomodulatory drugs inhibit expression of cyclooxygenase-2 from TNF-alpha, IL-1beta, and LPS-stimulated human PBMC in a partially IL-10-dependent manner.",
+            "abstract": "Immunomodulatory drugs (IMiDs) are potent inhibitors of TNF-alpha and IL-1beta and elevators of IL-10 production in LPS-stimulated human PBMC. They are currently in clinical trials for various diseases, including multiple myeloma, myelodysplastic syndrome, and melanoma. In the present study, we have investigated the effects of thalidomide, CC-5013 and CC-4047 on the expression of COX-2 by stimulated PBMC. Our results show that thalidomide and IMiDs inhibited the expression of COX-2 but not the COX-1 protein in LPS-TNF-alpha and IL-1beta stimulated PBMC and shortened the half-life of COX-2 mRNA in a dose-dependent manner. They also inhibited the synthesis of prostaglandin E2 from LPS-stimulated PBMC. While anti-TNF-alpha or IL-1beta neutralizing antibodies had no effect on COX-2 expression, anti-IL-10 neutralizing antibody elevated the expression of COX-2 mRNA, and protein from treated PBMC. These data suggest that the anti-inflammatory and anti-tumor effects of IMiDs may be due in part",
+            "journal": "Cellular immunology",
+            "year": "2004",
+            "authors": [
+              "Payvandi Faribourz",
+              "Wu Lei",
+              "Haley Maura",
+              "Schafer Peter H",
+              "Zhang Ling-Hua"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blotting, Northern",
+              "Blotting, Western",
+              "Cyclooxygenase 2",
+              "Dinoprostone",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Humans",
+              "Immunologic Factors",
+              "Interleukin-10",
+              "Isoenzymes",
+              "Lenalidomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15598423/"
+          },
+          {
+            "pmid": "15249589",
+            "title": "Phase I study of an immunomodulatory thalidomide analog, CC-4047, in relapsed or refractory multiple myeloma.",
+            "abstract": "To assess the safety, efficacy, and immunomodulatory effects of CC-4047 (Actimid; Celgene, San Diego, CA) in patients with relapsed or refractory myeloma.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2004",
+            "authors": [
+              "Schey S A",
+              "Fields P",
+              "Bartlett J B",
+              "Clarke I A",
+              "Ashan G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Aged",
+              "Cytokines",
+              "Female",
+              "Humans",
+              "Male",
+              "Maximum Tolerated Dose",
+              "Middle Aged",
+              "Multiple Myeloma",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15249589/"
+          },
+          {
+            "pmid": "18805433",
+            "title": "The anti-cancer drug lenalidomide inhibits angiogenesis and metastasis via multiple inhibitory effects on endothelial cell function in normoxic and hypoxic conditions.",
+            "abstract": "Lenalidomide (Revlimid) is approved for the treatment of transfusion-dependent patients with anemia due to low- or intermediate-1-risk Myelodysplastic Syndromes (MDS) associated with a del 5q cytogenetic abnormality with or without additional cytogenetic abnormalities, and in combination with dexamethasone for the treatment of multiple myeloma patients who have received at least one prior therapy. Previous reports suggest that lenalidomide is anti-angiogenic and this property appears to be related to efficacy in patients with MDS. We have investigated the effect of lenalidomide on the formation of microvessels in a novel in vitro angiogenesis assay utilizing human umbilical arterial rings and in a capillary-like cord formation assay using cultured primary endothelial cells. We found that lenalidomide consistently inhibits both sprout formation by arterial rings and cord formation by endothelial cells in a dose-dependent manner. We also found an inhibitory effect of lenalidomide on the ",
+            "journal": "Microvascular research",
+            "year": "2009",
+            "authors": [
+              "Lu Ling",
+              "Payvandi Faribourz",
+              "Wu Lei",
+              "Zhang Ling-Hua",
+              "Hariri Robert J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adherens Junctions",
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Antigens, CD",
+              "Antineoplastic Agents",
+              "Basic Helix-Loop-Helix Proteins",
+              "Cadherins",
+              "Cell Differentiation",
+              "Cell Hypoxia",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18805433/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cholangiocarcinoma, susceptibility to",
+        "txgnn_score": 0.6025519371032715,
+        "txgnn_rank": 48099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital temporomandibular joint ankylosis",
+        "txgnn_score": 0.59620600938797,
+        "txgnn_rank": 48349,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polydipsia",
+        "txgnn_score": 0.5924836993217468,
+        "txgnn_rank": 48491,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.5868351459503174,
+        "txgnn_rank": 48737,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08910",
+    "name": "Pomalidomide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pomalidomide"
+      },
+      "queried_at": "2026-03-10T09:45:23.456682",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pomalidomide"
+      },
+      "queried_at": "2026-03-10T09:45:38.961499",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T09:45:39.662388",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T09:45:43.556588",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T09:45:46.129392",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T09:45:46.629521",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T09:45:49.753730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T09:45:50.770059",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T09:45:52.081843",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T09:45:55.820743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T09:45:56.567553",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:45:57.060849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:46:01.656422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:46:02.354276",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T09:46:02.856582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T09:46:06.540238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T09:46:07.275066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T09:46:07.803202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T09:46:11.769158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T09:46:15.303520",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "queried_at": "2026-03-10T09:46:15.959222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "queried_at": "2026-03-10T09:46:19.218898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "queried_at": "2026-03-10T09:46:20.704893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "congenital temporomandibular joint ankylosis"
+      },
+      "queried_at": "2026-03-10T09:46:21.580348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "congenital temporomandibular joint ankylosis"
+      },
+      "queried_at": "2026-03-10T09:46:27.162656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "congenital temporomandibular joint ankylosis"
+      },
+      "queried_at": "2026-03-10T09:46:28.556482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "polydipsia"
+      },
+      "queried_at": "2026-03-10T09:46:29.984687",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "polydipsia"
+      },
+      "queried_at": "2026-03-10T09:46:34.160290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "polydipsia"
+      },
+      "queried_at": "2026-03-10T09:46:36.025513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:46:37.175831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:46:41.706291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pomalidomide",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T09:46:42.558546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:46:42.561900"
+  }
+}

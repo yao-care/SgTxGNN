@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Nemolizumab",
+    "drugbank_id": "DB15252",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9855227470397948,
+        "txgnn_rank": 13883,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.9849344491958618,
+        "txgnn_rank": 14230,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.9849344491958618,
+        "txgnn_rank": 14231,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.9849344491958618,
+        "txgnn_rank": 14232,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.9849344491958618,
+        "txgnn_rank": 14233,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9849344491958618,
+        "txgnn_rank": 14234,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9846733808517456,
+        "txgnn_rank": 14402,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9846733808517456,
+        "txgnn_rank": 14403,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.984083354473114,
+        "txgnn_rank": 14762,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9823686480522156,
+        "txgnn_rank": 15829,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15252",
+    "name": "Nemolizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Nemolizumab"
+      },
+      "queried_at": "2026-03-10T06:58:35.431923",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Nemolizumab"
+      },
+      "queried_at": "2026-03-10T06:58:38.378822",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T06:58:39.059387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T06:58:42.705912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T06:58:43.454103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T06:58:44.861075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T06:58:47.939532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T06:58:48.672225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T06:58:49.167144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T06:58:51.955453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T06:58:52.556428",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T06:58:53.118112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T06:58:55.731767",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T06:58:56.456636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T06:58:57.067642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T06:59:00.473552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T06:59:01.262626",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T06:59:01.821580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T06:59:05.241103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T06:59:05.917128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T06:59:06.395861",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T06:59:09.982505",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T06:59:10.867256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T06:59:12.169675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T06:59:15.217848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T06:59:15.842547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T06:59:16.372304",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T06:59:19.392560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T06:59:20.138256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T06:59:20.947294",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T06:59:23.720575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nemolizumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T06:59:25.073857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:59:25.085531"
+  }
+}

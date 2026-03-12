@@ -1,0 +1,838 @@
+{
+  "drug": {
+    "inn": "Tetracaine",
+    "drugbank_id": "DB09085",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9993242025375366,
+        "txgnn_rank": 1466,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.9992271661758424,
+        "txgnn_rank": 1608,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.9991771578788756,
+        "txgnn_rank": 1677,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "3388274",
+            "title": "[Effect of intratracheal instillation of a physiological solution on the mechanics of breathing in patients with chronic bronchitis and bronchial asthma].",
+            "abstract": "A study was made of respiratory mechanics in 20 patients with chronic bronchitis and 10 patients with bronchial asthma before and after saline intratracheal instillation (at once and within 120 min). Disorders of the elastic and non-elastic mechanical properties of the lungs and the relationship of these changes with the presence and expression of the bronchial obstruction syndrome were revealed.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "1988",
+            "authors": [
+              "Nemerov E V"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, Local",
+              "Asthma",
+              "Biomechanical Phenomena",
+              "Bronchitis",
+              "Chronic Disease",
+              "Female",
+              "Humans",
+              "Instillation, Drug",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3388274/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.999171018600464,
+        "txgnn_rank": 1683,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.99914813041687,
+        "txgnn_rank": 1724,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02372786",
+            "title": "A Double Blind Randomized Controlled Trial Comparing the Efficacy of 7% Lidocaine / 7% Tetracaine Cream Versus 2,5% Lidocaine / 2,5% Prilocaine Cream for Local Anaesthesia During Laser Treatment of Acne Keloidalis Nuchae and Tattoo Removal",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-11",
+            "completion_date": "2015-09",
+            "country": "Netherlands",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to compare the efficacy of 7% lidocaine / 7% tetracaine cream and 2,5% lidocaine / 2,5% prilocaine cream in reducing self-reported pain during a single laser procedure in the treatment of acne keloidalis nuchae and tattoo removal.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • Subject has provided written informed consent;\n\n  * Subject is ≥ 18 years of age at time of screening;\n  * Group A: subjects with acne keloidalis nuchae;\n  * Group B: subjects with an uniform, black, professionally placed tattoo\n\nExclusion Criteria:\n\n* • Known sensitivity to",
+            "endpoints": [
+              "Self-reported pain (10 point visual analog scale)."
+            ],
+            "sponsor": "Erasmus Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02372786"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27377616",
+            "title": "Comparison of lidocaine/tetracaine cream and lidocaine/prilocaine cream for local anaesthesia during laser treatment of acne keloidalis nuchae and tattoo removal: results of two randomized controlled trials.",
+            "abstract": "Pain is a common adverse effect of dermatological laser procedures. Currently, no standard topical anaesthetic cream exists for deeper dermal laser procedures.",
+            "journal": "The British journal of dermatology",
+            "year": "2017",
+            "authors": [
+              "Greveling K",
+              "Prens E P",
+              "Ten Bosch N",
+              "van Doorn M B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acne Keloid",
+              "Acute Pain",
+              "Adult",
+              "Anesthetics, Combined",
+              "Anesthetics, Local",
+              "Cosmetic Techniques",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Laser Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27377616/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9991232752799988,
+        "txgnn_rank": 1766,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9990148544311525,
+        "txgnn_rank": 1967,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.995502769947052,
+        "txgnn_rank": 6057,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30625770",
+            "title": "Cauda equina syndrome after spinal anesthesia: A case report.",
+            "abstract": "A 72-year-old man undergoing emergency arthroscopic irrigation and debridement of the left knee joint due to pyogenic arthritis developed cauda equina syndrome after spinal anesthesia with 0.5% hyperbaric tetracaine mixed with epinephrine. Epinephrine was added to local anesthetic to prolong the duration and to increase the quality of spinal anesthesia. There was no paresthesia on needle placement. We injected anesthetics twice because the first subarachnoid injection failed. The patient experienced impaired sensation in the perineal region and alterations in bowel and urinary habits. Magnetic resonance imaging revealed spondylolisthesis and disc protrusion (L4-5), with spinal stenosis (L5-S1), but did not show suspicious lesions such as hematoma and abscess. We suggest the causative factors are temporary neural compression due to his spinal diseases and spinal cord ischemia due to decreased spinal blood flow because of epinephrine. We also cannot rule out the tetracaine neurotoxicity.",
+            "journal": "Korean journal of anesthesiology",
+            "year": "2009",
+            "authors": [
+              "Jang Kwang Uk",
+              "Lee Jung Sam"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30625770/"
+          },
+          {
+            "pmid": "11685003",
+            "title": "Cauda equina syndrome after spinal tetracaine: electromyographic evaluation--20 years follow-up.",
+            "abstract": "",
+            "journal": "Anesthesiology",
+            "year": "2001",
+            "authors": [
+              "Vianna P T",
+              "Resende L A",
+              "Ganem E M",
+              "Gabarra R C",
+              "Yamashita S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Electromyography",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Polyradiculopathy",
+              "Tetracaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11685003/"
+          },
+          {
+            "pmid": "1994754",
+            "title": "Cauda equina syndrome after continuous spinal anesthesia.",
+            "abstract": "Four cases of cauda equina syndrome occurring after continuous spinal anesthesia are reported. In all four cases, there was evidence of a focal sensory block and, to achieve adequate analgesia, a dose of local anesthetic was given that was greater than that usually administered with a single-injection technique. We postulate that the combination of maldistribution and a relatively high dose of local anesthetic resulted in neurotoxic injury. Suggestions that may reduce the potential for neurotoxicity are discussed. Use of a lower concentration and a \"ceiling\" or maximum dose of local anesthetic to establish the block should be considered. If maldistribution of local anesthetic is suspected (as indicated by a focal sensory block), the use of maneuvers to increase the spread of local anesthetic is recommended. If such maneuvers prove unsuccessful, the technique should be abandoned.",
+            "journal": "Anesthesia and analgesia",
+            "year": "1991",
+            "authors": [
+              "Rigler M L",
+              "Drasner K",
+              "Krejcie T C",
+              "Yelich S J",
+              "Scholnick F T"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anesthesia, Spinal",
+              "Cauda Equina",
+              "Female",
+              "Humans",
+              "Lidocaine",
+              "Male",
+              "Middle Aged",
+              "Nerve Compression Syndromes",
+              "Postoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1994754/"
+          },
+          {
+            "pmid": "9033758",
+            "title": "[Neurotoxicity of intrathecally administrated agents].",
+            "abstract": "Spinal anaesthetics can induce histopathologic lesions and regional haemodynamic alterations in the spinal cord. There are numerous causes of neurologic lesions, including direct trauma of the spinal cord and nerve roots during puncture or catheter insertion, compromised spinal cord perfusion and direct neurotoxic effect. Histopathologic lesions are localized either in meninges (meningitis or arachnoiditis) or in neuraxis (myelitis or axonal degeneration). Neurotoxicity can result from decrease in neuronal blood supply, elicited by high concentrations of the solutions, long duration exposure to local anaesthetics, and the use of adjuvants. They have been implicated in the occurrence of cauda equina syndrome after continuous spinal anaesthesia using hyperbaric solution of lidocaine and tetracaine given through small diameter catheters. Selective spinal analgesia is induced by spinal opioids without motor blockade except for meperidine. Complications occurred in patients after high doses",
+            "journal": "Annales francaises d'anesthesie et de reanimation",
+            "year": "1996",
+            "authors": [
+              "Malinovsky J M",
+              "Pinaud M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Baclofen",
+              "Calcitonin",
+              "Clonidine",
+              "Humans",
+              "Meninges",
+              "Midazolam",
+              "Nerve Fibers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9033758/"
+          },
+          {
+            "pmid": "20739341",
+            "title": "Gadolinium enhancement of cauda equina after combined spinal-epidural anaesthesia.",
+            "abstract": "The occurrence of neurological symptoms after spinal anaesthesia has been reported with several local anaesthetics including lidocaine, prilocaine, mepivacaine, tetracaine and bupivacaine. Although hyperbaric bupivacaine is known to induce neurological symptoms less frequently than lidocaine, a few cases of cauda equina syndrome (CES) following the intraspinal injection of bupivacaine have been reported in the English literature. We describe lumbar MRI findings for a 29-year-old woman presenting with CES after caesarean section.",
+            "journal": "The British journal of radiology",
+            "year": "2010",
+            "authors": [
+              "Takasu M",
+              "Okita M",
+              "Araki T",
+              "Tanitame N",
+              "Tamura A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, Epidural",
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Bupivacaine",
+              "Cesarean Section",
+              "Female",
+              "Gadolinium",
+              "Humans",
+              "Peripheral Nervous System Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20739341/"
+          },
+          {
+            "pmid": "8017646",
+            "title": "Irreversible conduction block in isolated nerve by high concentrations of local anesthetics.",
+            "abstract": "Delivery of large doses of local anesthetics for spinal anesthesia by repeated injections or continuous infusion could expose the cauda equina to concentrations of drug that may be neurotoxic per se. We studied this possible neurotoxic effect by assessing recovery from conduction blockade of desheathed peripheral nerves after exposure to some of the local anesthetic solutions commonly used for spinal anesthesia.",
+            "journal": "Anesthesiology",
+            "year": "1994",
+            "authors": [
+              "Lambert L A",
+              "Lambert D H",
+              "Strichartz G R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Anesthesia, Spinal",
+              "Animals",
+              "Bupivacaine",
+              "Dose-Response Relationship, Drug",
+              "In Vitro Techniques",
+              "Lidocaine",
+              "Nerve Block",
+              "Neural Conduction",
+              "Rana catesbeiana"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8017646/"
+          },
+          {
+            "pmid": "10876464",
+            "title": "AANA Journal course: transient neurologic symptoms and spinal anesthesia.",
+            "abstract": "A universal goal of anesthesia providers is to provide the safest, most effective anesthesia and analgesia for their patients. When reports emerge showing problems or complications with an agent or technique that previously was thought safe, recommendations often are adopted in anesthesia departments to avoid or abandon the agent or technique, or alternatives are sought. Hyperbaric 5% lidocaine has been an effective and safe spinal anesthetic agent for short procedures for years. During the past decade, controversy arose over its use because it was implicated as the cause of transient neurologic symptoms and cauda equina syndrome. Use of bupivacaine or tetracaine results in a much lower incidence, but these agents are not as well suited to brief or outpatient procedures as is the shorter acting lidocaine. Substantial research has been conducted detailing the search for reasons these complications occur and how to prevent them. A sample of the findings is summarized in an attempt to pre",
+            "journal": "AANA journal",
+            "year": "2000",
+            "authors": [
+              "Sime A C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Bupivacaine",
+              "Cauda Equina",
+              "Humans",
+              "Incidence",
+              "Lidocaine",
+              "Nerve Compression Syndromes",
+              "Nurse Anesthetists",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10876464/"
+          },
+          {
+            "pmid": "8024139",
+            "title": "Persistent sacral sensory deficit induced by intrathecal local anesthetic infusion in the rat.",
+            "abstract": "Several cases of cauda equina syndrome after continuous spinal anesthesia have been recently reported. One possible etiology is toxic exposure of the sacral roots resulting from intrathecal maldistribution of a relatively large dose of local anesthetic. The current experiments sought to determine whether a local anesthetic solution, injected intrathecally to produce a restricted distribution of anesthesia, could result in a sacral deficit. In addition, we sought to test the hypothesis that, when equal volumes are administered intrathecally, significant differences exist in the potential to three commonly used anesthetic solutions to induce sensory impairment.",
+            "journal": "Anesthesiology",
+            "year": "1994",
+            "authors": [
+              "Drasner K",
+              "Sakura S",
+              "Chan V W",
+              "Bollen A W",
+              "Ciriales R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Local",
+              "Anesthetics",
+              "Animals",
+              "Injections, Spinal",
+              "Lidocaine",
+              "Male",
+              "Rats",
+              "Rats, Sprague-Dawley",
+              "Sacrococcygeal Region",
+              "Sensation Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8024139/"
+          },
+          {
+            "pmid": "8982894",
+            "title": "Conus medullaris injury following both tetracaine and lidocaine spinal anesthesia.",
+            "abstract": "Multiple reports of cauda equina syndrome and transient radicular nerve root irritation have suggested that lidocaine spinal anesthesia may be responsible. In this case report, a patient with a preexisting diabetic neuropathy received a partial block following a tetracaine spinal, which was followed by a lidocaine spinal. Following block resolution, a new conus medullaris syndrome was diagnosed. Because of the close proximity of the cauda equina and the conus medullaris, differentiation between these syndromes can be difficult. The preexisting diabetic neuropathy may have predisposed this patient to neurologic injury. The choice of a different local anesthetic drug with less neurotoxic potential such as bupivacaine may have prevented this injury.",
+            "journal": "Journal of clinical anesthesia",
+            "year": "1996",
+            "authors": [
+              "Waters J H",
+              "Watson T B",
+              "Ward M G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Bupivacaine",
+              "Cauda Equina",
+              "Circumcision, Male",
+              "Diabetes Mellitus, Type 1",
+              "Diabetic Neuropathies",
+              "Elective Surgical Procedures",
+              "Follow-Up Studies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8982894/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9941301941871644,
+        "txgnn_rank": 7272,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pityriasis simplex",
+        "txgnn_score": 0.9756431579589844,
+        "txgnn_rank": 19041,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09085",
+    "name": "Tetracaine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tetracaine"
+      },
+      "queried_at": "2026-03-09T12:54:30.913206",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tetracaine"
+      },
+      "queried_at": "2026-03-09T12:54:32.878011",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T12:54:34.204485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T12:54:38.078522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T12:54:39.401034",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T12:54:40.610848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T12:54:44.460575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T12:54:45.802711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T12:54:46.467582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T12:54:51.322482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T12:54:56.802194",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T12:54:57.762767",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T12:55:03.753505",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T12:55:10.978289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T12:55:13.555806",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T12:55:18.946365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T12:55:23.319154",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T12:55:24.229702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T12:55:31.361429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T12:55:32.425618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T12:55:33.007124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T12:55:37.313273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T12:55:38.922098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T12:55:39.981929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T12:55:45.546469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T12:55:48.376101",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T12:55:49.655948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T12:55:54.364430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T12:55:55.139897",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "pityriasis simplex"
+      },
+      "queried_at": "2026-03-09T12:55:56.030730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "pityriasis simplex"
+      },
+      "queried_at": "2026-03-09T12:55:59.863787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetracaine",
+        "disease": "pityriasis simplex"
+      },
+      "queried_at": "2026-03-09T12:56:01.012350",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:56:01.030355"
+  }
+}

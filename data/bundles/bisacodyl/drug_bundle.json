@@ -1,0 +1,574 @@
+{
+  "drug": {
+    "inn": "Bisacodyl",
+    "drugbank_id": "DB09020",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "exercise-induced malignant hyperthermia",
+        "txgnn_score": 0.97694730758667,
+        "txgnn_rank": 18444,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dyspepsia",
+        "txgnn_score": 0.9567620158195496,
+        "txgnn_rank": 25026,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02125604",
+            "title": "A Multicenter, Open-Label, Single-Arm Study to Evaluate Gastrointestinal Tolerability in Subjects With Relapsing-Remitting Multiple Sclerosis Receiving Dimethyl Fumarate (TOLERATE)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2016-03",
+            "country": "Germany",
+            "enrollment": 214,
+            "brief_summary": "The primary objective of this study is to evaluate the effect of symptomatic therapies on gastrointestinal-related events reported by participants with relapsing-remitting multiple sclerosis initiating therapy with BG00012 (dimethyl fumarate, DMF) in the clinical practice setting.\n\nThe secondary objectives of this study in this study population are as follows: to evaluate gastrointestinal-related events requiring symptomatic therapy and the role of those therapies over time; to evaluate gastroin",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Have a confirmed diagnosis of relapsing-remitting multiple sclerosis according to the current McDonald Criteria and satisfy the therapeutic indication as described in the official local registration for Tecfidera (dimethyl fumarate)\n* Naïve to dimethyl fumarate and fumaric",
+            "endpoints": [
+              "Number of Participants Who Utilized Symptomatic Therapy With Gastrointestinal-Related Events During the 12-Week Treatment Period: Modified Overall Gastrointestinal Symptom Scale (MOGISS)",
+              "Number of Participants Who Utilized Symptomatic Therapy With Gastrointestinal-Related Events During the 12-Week Treatment Period: Modified Acute Gastrointestinal Symptom Scale (MAGISS)",
+              "Worst Severity Of Gastrointestinal-Related Events In Participants Who Utilized Symptomatic Therapy During the 12-Week Treatment Period, MOGISS"
+            ],
+            "sponsor": "Biogen",
+            "url": "https://clinicaltrials.gov/study/NCT02125604"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19820488",
+            "title": "Comparison study of different bowel preparation regimens and different fecal-tagging agents on tagging efficacy, patients' compliance, and diagnostic performance of computed tomographic colonography: preliminary study.",
+            "abstract": "To compare and find the optimal combination of bowel preparation regimens and different concentrations of barium-based fecal-tagging agents on computed tomographic colonography in terms of tagging efficacy, patients' compliance, and diagnostic performance.",
+            "journal": "Journal of computer assisted tomography",
+            "year": "2009",
+            "authors": [
+              "Yoon Soon Ho",
+              "Kim Se Hyung",
+              "Kim Sang Gyun",
+              "Kim Soo Jin",
+              "Lee Jeong Min"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Barium",
+              "Bisacodyl",
+              "Cathartics",
+              "Citric Acid",
+              "Colonic Polyps",
+              "Colonography, Computed Tomographic",
+              "Contrast Media"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19820488/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.945877492427826,
+        "txgnn_rank": 27626,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant hyperthermia, susceptibility to",
+        "txgnn_score": 0.9418126940727234,
+        "txgnn_rank": 28481,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.9406712651252748,
+        "txgnn_rank": 28686,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03074448",
+            "title": "Aquanet Bowel Cleansing Device Versus Oral Sodium Picosulfate for Pre-endoscopy Bowel Preparation: Propensity Score Analysis for Interventional Effectiveness Evaluation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-05",
+            "completion_date": "2015-09",
+            "country": "Brazil",
+            "enrollment": 314,
+            "brief_summary": "Poor or inadequate bowel preparation is one of the most common reasons for a repeated or failed colonoscopy. Preparation methods shown to be effective include the use of either bowel-cleansing devices or oral laxatives. Despite the acceptable effectiveness and safety of both bowel-cleansing methods, very few studies have been performed to evaluate which method is more effective. The main aim is to perform an observational study followed by propensity score modeling to evaluate and compare the qu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women, aged 14-90 years\n* Must have had \\>3 spontaneous bowel movements per week for one month prior to the colonoscopy.\n* Willing and able to complete the entire process, comply with study instructions, and understand and sign the informed consent.\n\nExclusion Criteria",
+            "endpoints": [
+              "Quality of bowel preparation"
+            ],
+            "sponsor": "Kaiser Clinic and Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03074448"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9389821290969848,
+        "txgnn_rank": 28990,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial periodic paralysis",
+        "txgnn_score": 0.9350376725196838,
+        "txgnn_rank": 29758,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9313885569572448,
+        "txgnn_rank": 30378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant hyperthermia of anesthesia",
+        "txgnn_score": 0.9292327761650084,
+        "txgnn_rank": 30780,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute pulmonary heart disease",
+        "txgnn_score": 0.9277798533439636,
+        "txgnn_rank": 31039,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09020",
+    "name": "Bisacodyl",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bisacodyl"
+      },
+      "queried_at": "2026-03-10T08:07:28.962548",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bisacodyl"
+      },
+      "queried_at": "2026-03-10T08:07:31.432663",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-10T08:07:34.591778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-10T08:07:40.488202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-10T08:07:43.536169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-10T08:07:45.565538",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-10T08:07:49.797154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-10T08:07:52.940429",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:07:53.573379",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:07:58.177579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:07:59.811086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "malignant hyperthermia, susceptibility to"
+      },
+      "queried_at": "2026-03-10T08:08:02.372984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "malignant hyperthermia, susceptibility to"
+      },
+      "queried_at": "2026-03-10T08:08:06.926342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "malignant hyperthermia, susceptibility to"
+      },
+      "queried_at": "2026-03-10T08:08:08.249038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T08:08:09.233967",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T08:08:13.397256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T08:08:14.179372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T08:08:14.843013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T08:08:21.347300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T08:08:22.501797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "familial periodic paralysis"
+      },
+      "queried_at": "2026-03-10T08:08:23.198385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "familial periodic paralysis"
+      },
+      "queried_at": "2026-03-10T08:08:27.544491",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "familial periodic paralysis"
+      },
+      "queried_at": "2026-03-10T08:08:29.910070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T08:08:30.793426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T08:08:35.030814",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T08:08:36.295885",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "malignant hyperthermia of anesthesia"
+      },
+      "queried_at": "2026-03-10T08:08:37.230501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "malignant hyperthermia of anesthesia"
+      },
+      "queried_at": "2026-03-10T08:08:41.953562",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "malignant hyperthermia of anesthesia"
+      },
+      "queried_at": "2026-03-10T08:08:43.063393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T08:08:44.193956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T08:08:48.507062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bisacodyl",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T08:08:50.352875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:08:50.366040"
+  }
+}

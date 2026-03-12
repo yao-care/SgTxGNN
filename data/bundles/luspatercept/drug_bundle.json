@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Luspatercept",
+    "drugbank_id": "DB12281",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "monosomy X",
+        "txgnn_score": 0.959967851638794,
+        "txgnn_rank": 24290,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic infarction",
+        "txgnn_score": 0.9569668769836426,
+        "txgnn_rank": 24980,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic veno-occlusive disease",
+        "txgnn_score": 0.9490730166435242,
+        "txgnn_rank": 26922,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peliosis hepatis",
+        "txgnn_score": 0.9475354552268982,
+        "txgnn_rank": 27240,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "syndrome with combined immunodeficiency",
+        "txgnn_score": 0.9428017735481262,
+        "txgnn_rank": 28257,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyruvate kinase deficiency of red cells",
+        "txgnn_score": 0.938415825366974,
+        "txgnn_rank": 29087,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thalassemia, beta+, silent allele",
+        "txgnn_score": 0.9332443475723268,
+        "txgnn_rank": 30064,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial apolipoprotein C-II deficiency",
+        "txgnn_score": 0.9305318593978882,
+        "txgnn_rank": 30564,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adenosine deaminase deficiency",
+        "txgnn_score": 0.9286441802978516,
+        "txgnn_rank": 30881,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Hb Bart's hydrops fetalis",
+        "txgnn_score": 0.9275041222572328,
+        "txgnn_rank": 31092,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12281",
+    "name": "Luspatercept",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Luspatercept"
+      },
+      "queried_at": "2026-03-10T08:58:47.339562",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Luspatercept"
+      },
+      "queried_at": "2026-03-10T08:58:49.298055",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "monosomy X"
+      },
+      "queried_at": "2026-03-10T08:58:49.936484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "monosomy X"
+      },
+      "queried_at": "2026-03-10T08:58:53.808204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "monosomy X"
+      },
+      "queried_at": "2026-03-10T08:58:54.685920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "hepatic infarction"
+      },
+      "queried_at": "2026-03-10T08:58:55.402515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "hepatic infarction"
+      },
+      "queried_at": "2026-03-10T08:58:59.350342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "hepatic infarction"
+      },
+      "queried_at": "2026-03-10T08:59:00.052003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "hepatic veno-occlusive disease"
+      },
+      "queried_at": "2026-03-10T08:59:00.567550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "hepatic veno-occlusive disease"
+      },
+      "queried_at": "2026-03-10T08:59:04.268648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "hepatic veno-occlusive disease"
+      },
+      "queried_at": "2026-03-10T08:59:04.943165",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "peliosis hepatis"
+      },
+      "queried_at": "2026-03-10T08:59:05.541020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "peliosis hepatis"
+      },
+      "queried_at": "2026-03-10T08:59:09.389325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "peliosis hepatis"
+      },
+      "queried_at": "2026-03-10T08:59:10.066691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "syndrome with combined immunodeficiency"
+      },
+      "queried_at": "2026-03-10T08:59:11.086991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "syndrome with combined immunodeficiency"
+      },
+      "queried_at": "2026-03-10T08:59:14.307560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "syndrome with combined immunodeficiency"
+      },
+      "queried_at": "2026-03-10T08:59:15.248575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T08:59:15.944470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T08:59:20.200721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T08:59:21.245697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "thalassemia, beta+, silent allele"
+      },
+      "queried_at": "2026-03-10T08:59:22.113647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "thalassemia, beta+, silent allele"
+      },
+      "queried_at": "2026-03-10T08:59:25.413510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "thalassemia, beta+, silent allele"
+      },
+      "queried_at": "2026-03-10T08:59:26.586023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-10T08:59:27.438627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-10T08:59:31.366411",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-10T08:59:32.439183",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-10T08:59:33.668685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-10T08:59:36.959135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-10T08:59:37.835139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "Hb Bart's hydrops fetalis"
+      },
+      "queried_at": "2026-03-10T08:59:39.236171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "Hb Bart's hydrops fetalis"
+      },
+      "queried_at": "2026-03-10T08:59:43.400734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Luspatercept",
+        "disease": "Hb Bart's hydrops fetalis"
+      },
+      "queried_at": "2026-03-10T08:59:44.768522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:59:44.778880"
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "drug": {
+    "inn": "Leuprolide",
+    "drugbank_id": "DB00007",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.9969743490219116,
+        "txgnn_rank": 4627,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00002881",
+            "title": "PHASE III TRIAL OF ORCHIECTOMY/LHRH ANALOG + FLUTAMIDE + SURAMIN + HYDROCORTISONE VS ORCHIECTOMY/LHRH ANALOG + FLUTAMIDE IN PATIENTS WITH METASTATIC PROSTATE CANCER",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1996-10",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Hormone therapy may be an effective treatment for prostate cancer.\n\nPURPOSE: Randomized phase III trial to evaluate the effectiveness of treatment with flutamide and suramin with or without hydrocortisone in men who have metastatic or recurrent prostate cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Histologically confirmed adenocarcinoma of the prostate that is stage D2 Measurable or evaluable disease required with at least one of the following: At least 7 bone lesions Visceral involvement No more than 50% replacement of liver by tumor No clinical suspicion of brain me",
+            "endpoints": [],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00002881"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "20133250",
+            "title": "Metastatic prostatic adenocarcinoma mimicking inflammatory breast carcinoma: a case report.",
+            "abstract": "Prostate adenocarcinoma can manifest as a fairly indolent tumor or as a very aggressive cancer with significant invasive and metastatic potential. Common metastatic sites include bone, liver, lymph nodes, and adrenal glands. Dermatologic manifestations are rare. We present a case of a man who presented with breast skin changes that mimicked inflammatory breast carcinoma with specialized testing ultimately giving a diagnosis of metastatic prostatic adenocarcinoma. A 78-year-old man presented with left breast redness and swelling. Examination revealed an erythematous rash with subcutaneous edema over the left hemithoracic area. A breast ultrasound showed no focal mass, and a breast core biopsy had no evidence of tumor. A skin biopsy showed metastatic carcinoma in dermal lymphatics, and the tumor was found to have no estrogen or progesterone receptors or HER2 expression. Computed tomography scans, positron emission tomography, and a nuclear bone scan revealed widespread skeletal metastase",
+            "journal": "Clinical breast cancer",
+            "year": "2010",
+            "authors": [
+              "Njiaju Uchenna O",
+              "Truica Cristina I"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Aged",
+              "Anilides",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms, Male",
+              "Capecitabine",
+              "Carotid Stenosis",
+              "Coronary Artery Disease",
+              "Cyclophosphamide",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20133250/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9968632459640504,
+        "txgnn_rank": 4742,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9897671341896056,
+        "txgnn_rank": 10694,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9897522926330566,
+        "txgnn_rank": 10706,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9869235157966614,
+        "txgnn_rank": 12897,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.986581802368164,
+        "txgnn_rank": 13161,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.9758801460266112,
+        "txgnn_rank": 18927,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "arthropathy",
+        "txgnn_score": 0.9747686982154846,
+        "txgnn_rank": 19420,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20133250",
+            "title": "Metastatic prostatic adenocarcinoma mimicking inflammatory breast carcinoma: a case report.",
+            "abstract": "Prostate adenocarcinoma can manifest as a fairly indolent tumor or as a very aggressive cancer with significant invasive and metastatic potential. Common metastatic sites include bone, liver, lymph nodes, and adrenal glands. Dermatologic manifestations are rare. We present a case of a man who presented with breast skin changes that mimicked inflammatory breast carcinoma with specialized testing ultimately giving a diagnosis of metastatic prostatic adenocarcinoma. A 78-year-old man presented with left breast redness and swelling. Examination revealed an erythematous rash with subcutaneous edema over the left hemithoracic area. A breast ultrasound showed no focal mass, and a breast core biopsy had no evidence of tumor. A skin biopsy showed metastatic carcinoma in dermal lymphatics, and the tumor was found to have no estrogen or progesterone receptors or HER2 expression. Computed tomography scans, positron emission tomography, and a nuclear bone scan revealed widespread skeletal metastase",
+            "journal": "Clinical breast cancer",
+            "year": "2010",
+            "authors": [
+              "Njiaju Uchenna O",
+              "Truica Cristina I"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Aged",
+              "Anilides",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms, Male",
+              "Capecitabine",
+              "Carotid Stenosis",
+              "Coronary Artery Disease",
+              "Cyclophosphamide",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20133250/"
+          },
+          {
+            "pmid": "11992038",
+            "title": "Changes in bone mineral density, lean body mass and fat content as measured by dual energy x-ray absorptiometry in patients with prostate cancer without apparent bone metastases given androgen deprivation therapy.",
+            "abstract": "We characterize the consequences of androgen deprivation therapy on body composition in elderly men.",
+            "journal": "The Journal of urology",
+            "year": "2002",
+            "authors": [
+              "Berruti Alfredo",
+              "Dogliotti Luigi",
+              "Terrone Carlo",
+              "Cerutti Stefania",
+              "Isaia Giancarlo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Absorptiometry, Photon",
+              "Adipose Tissue",
+              "Aged",
+              "Aged, 80 and over",
+              "Androgen Antagonists",
+              "Antineoplastic Agents, Hormonal",
+              "Body Composition",
+              "Body Mass Index",
+              "Bone Density",
+              "Bone Diseases, Metabolic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11992038/"
+          },
+          {
+            "pmid": "19400418",
+            "title": "Complete remission of OC-resistant catamenial shoulder joint pain and inguinal pain associated with extraperitoneal endometriosis following personalized GnRH agonist therapy.",
+            "abstract": "Patients with severe extraperitoneal endometriosis require rapid remission and cannot wait for the effects of oral contraceptive hormones (OCs) to appear.",
+            "journal": "Clinical and experimental obstetrics & gynecology",
+            "year": "2009",
+            "authors": [
+              "Tanaka T",
+              "Umesaki N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Endometriosis",
+              "Female",
+              "Fertility Agents, Female",
+              "Gonadotropin-Releasing Hormone",
+              "Humans",
+              "Inguinal Canal",
+              "Injections, Subcutaneous",
+              "Leuprolide",
+              "Middle Aged",
+              "Shoulder Pain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19400418/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Behr syndrome",
+        "txgnn_score": 0.9184363484382628,
+        "txgnn_rank": 32605,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonic stenosis (disease)",
+        "txgnn_score": 0.876071572303772,
+        "txgnn_rank": 37109,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39355923",
+            "title": "Effects of Catheter-Based Renal Denervation in Hypertension: A Systematic Review and Meta-Analysis.",
+            "abstract": "Several sham-controlled trials have investigated the efficacy and safety of catheter-based renal denervation (RDN) with mixed outcomes. We aimed to perform a comprehensive meta-analysis of all randomized, sham-controlled trials investigating RDN with first- and second-generation devices in hypertension.",
+            "journal": "Circulation",
+            "year": "2024",
+            "authors": [
+              "Vukadinović Davor",
+              "Lauder Lucas",
+              "Kandzari David E",
+              "Bhatt Deepak L",
+              "Kirtane Ajay J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Blood Pressure",
+              "Catheter Ablation",
+              "Hypertension",
+              "Kidney",
+              "Randomized Controlled Trials as Topic",
+              "Renal Artery",
+              "Sympathectomy",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39355923/"
+          },
+          {
+            "pmid": "37942641",
+            "title": "Antithrombotic and Statin Prescription After Intracerebral Hemorrhage in the Get With The Guidelines-Stroke Registry.",
+            "abstract": "Survivors of intracerebral hemorrhage (ICH) face an increased risk of ischemic cardiovascular events. Current ICH guidelines do not provide definitive recommendations regarding the use of antithrombotic and statin therapies. We, therefore, sought to study practice patterns and factors associated with the use of such medications after ICH.",
+            "journal": "Stroke",
+            "year": "2023",
+            "authors": [
+              "Murthy Santosh B",
+              "Zhang Cenai",
+              "Shah Shreyansh",
+              "Schwamm Lee H",
+              "Fonarow Gregg C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "Fibrinolytic Agents",
+              "Atrial Fibrillation",
+              "Cross-Sectional Studies",
+              "Anticoagulants",
+              "Stroke",
+              "Cerebral Hemorrhage",
+              "Registries"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37942641/"
+          },
+          {
+            "pmid": "37556796",
+            "title": "Risk Assessment of Kidney Disease Progression and Efficacy of SGLT2 Inhibition in Patients With Type 2 Diabetes.",
+            "abstract": "To develop a risk assessment tool to identify patients with type 2 diabetes (T2D) at higher risk for kidney disease progression and who might benefit more from sodium-glucose cotransporter 2 (SGLT2) inhibition.",
+            "journal": "Diabetes care",
+            "year": "2023",
+            "authors": [
+              "Moura Filipe A",
+              "Berg David D",
+              "Bellavia Andrea",
+              "Dwyer Jamie P",
+              "Mosenzon Ofri"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Benzhydryl Compounds",
+              "Diabetes Mellitus, Type 2",
+              "Disease Progression",
+              "Glomerular Filtration Rate",
+              "Kidney",
+              "Myocardial Infarction",
+              "Renal Insufficiency, Chronic",
+              "Risk Assessment",
+              "Sodium-Glucose Transporter 2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37556796/"
+          },
+          {
+            "pmid": "37609850",
+            "title": "Short-Term DAPT and DAPT De-Escalation Strategies for Patients With Acute Coronary Syndromes: A Systematic Review and Network Meta-Analysis.",
+            "abstract": "Short-term (≤6 months) dual antiplatelet therapy (DAPT) and DAPT de-escalation become attractive for patients with acute coronary syndrome.",
+            "journal": "Circulation. Cardiovascular interventions",
+            "year": "2023",
+            "authors": [
+              "Kuno Toshiki",
+              "Watanabe Atsuyuki",
+              "Shoji Satoshi",
+              "Fujisaki Tomohiro",
+              "Ueyama Hiroki"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Acute Coronary Syndrome",
+              "Platelet Aggregation Inhibitors",
+              "Clopidogrel",
+              "Ticagrelor",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37609850/"
+          },
+          {
+            "pmid": "37335828",
+            "title": "Defining Strategies of Modulation of Antiplatelet Therapy in Patients With Coronary Artery Disease: A Consensus Document from the Academic Research Consortium.",
+            "abstract": "Antiplatelet therapy is the mainstay of pharmacologic treatment to prevent thrombotic or ischemic events in patients with coronary artery disease treated with percutaneous coronary intervention and those treated medically for an acute coronary syndrome. The use of antiplatelet therapy comes at the expense of an increased risk of bleeding complications. Defining the optimal intensity of platelet inhibition according to the clinical presentation of atherosclerotic cardiovascular disease and individual patient factors is a clinical challenge. Modulation of antiplatelet therapy is a medical action that is frequently performed to balance the risk of thrombotic or ischemic events and the risk of bleeding. This aim may be achieved by reducing (ie, de-escalation) or increasing (ie, escalation) the intensity of platelet inhibition by changing the type, dose, or number of antiplatelet drugs. Because de-escalation or escalation can be achieved in different ways, with a number of emerging approach",
+            "journal": "Circulation",
+            "year": "2023",
+            "authors": [
+              "Capodanno Davide",
+              "Mehran Roxana",
+              "Krucoff Mitchell W",
+              "Baber Usman",
+              "Bhatt Deepak L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Consensus Statement"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Platelet Aggregation Inhibitors",
+              "Coronary Artery Disease",
+              "Hemorrhage",
+              "Blood Platelets",
+              "Dual Anti-Platelet Therapy",
+              "Acute Coronary Syndrome",
+              "Thrombosis",
+              "Percutaneous Coronary Intervention",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37335828/"
+          },
+          {
+            "pmid": "37199147",
+            "title": "Shorter Door-to-Needle Times Are Associated With Better Outcomes After Intravenous Thrombolytic Therapy and Endovascular Thrombectomy for Acute Ischemic Stroke.",
+            "abstract": "Existing data and clinical trials could not determine whether faster intravenous thrombolytic therapy (IVT) translates into better long-term functional outcomes after acute ischemic stroke among those treated with endovascular thrombectomy (EVT). Patient-level national data can provide the required large population to study the associations between earlier IVT, versus later, with longitudinal functional outcomes and mortality in patients receiving IVT+EVT combined treatment.",
+            "journal": "Circulation",
+            "year": "2023",
+            "authors": [
+              "Man Shumei",
+              "Solomon Nicole",
+              "Mac Grory Brian",
+              "Alhanti Brooke",
+              "Uchino Ken"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "United States",
+              "Ischemic Stroke",
+              "Cohort Studies",
+              "Brain Ischemia",
+              "Treatment Outcome",
+              "Medicare",
+              "Fibrinolytic Agents",
+              "Thrombolytic Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37199147/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00007",
+    "name": "Leuprolide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Leuprolide"
+      },
+      "queried_at": "2026-03-10T01:05:17.244820",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Leuprolide"
+      },
+      "queried_at": "2026-03-10T01:05:37.840007",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T01:05:43.337472",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T01:05:50.143938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T01:05:54.814640",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T01:05:56.045180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T01:06:00.490154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T01:06:11.362299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T01:06:13.348077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T01:06:18.296835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T01:06:19.856516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T01:06:20.986308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T01:06:26.448040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T01:06:27.614268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T01:06:30.263483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T01:06:34.174764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T01:06:35.392097",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T01:06:37.997432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T01:06:43.214236",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T01:06:46.076053",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T01:06:47.558519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T01:06:53.050359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T01:06:54.317680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "arthropathy"
+      },
+      "queried_at": "2026-03-10T01:06:54.908503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "arthropathy"
+      },
+      "queried_at": "2026-03-10T01:06:59.470737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "arthropathy"
+      },
+      "queried_at": "2026-03-10T01:07:03.625895",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "Behr syndrome"
+      },
+      "queried_at": "2026-03-10T01:07:04.607114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "Behr syndrome"
+      },
+      "queried_at": "2026-03-10T01:07:10.108249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "Behr syndrome"
+      },
+      "queried_at": "2026-03-10T01:07:12.857361",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "pulmonic stenosis (disease)"
+      },
+      "queried_at": "2026-03-10T01:07:13.496138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "pulmonic stenosis (disease)"
+      },
+      "queried_at": "2026-03-10T01:07:18.003082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leuprolide",
+        "disease": "pulmonic stenosis (disease)"
+      },
+      "queried_at": "2026-03-10T01:07:21.836771",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:07:21.844540"
+  }
+}

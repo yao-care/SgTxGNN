@@ -1,0 +1,792 @@
+{
+  "drug": {
+    "inn": "Megestrol acetate",
+    "drugbank_id": "DB00351",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "uterine corpus endometrial carcinoma",
+        "txgnn_score": 0.9994428753852844,
+        "txgnn_rank": 1238,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04046185",
+            "title": "PD-1 Inhibitor Combined With Progesterone Treatment in Early Stage Endometrial Cancer Patients Who Want to Preserve Fertility",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2019-10-01",
+            "completion_date": "2022-10-01",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "We want to make a comparison of PD-1 inhibitor combined with progesterone versus progesterone alone in the treatment of early stage endometrial cancer patients who want to preserve fertility.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Early endometrial cancer patients (cancer confined in the endometrium, endometrioid histology, G1-2)\n2. Patients want to preserve fertility\n3. Informed consent acquired\n4. Age \\<18, \\>= 45\n5. Eastern Cooperative Oncology Group (ECOG) performance status score \\<=1\n6. Normal bl",
+            "endpoints": [
+              "Pathologic complete remission rate of endometrial curettage tissues",
+              "Pathologic partial remission rate of endometrial curettage tissues"
+            ],
+            "sponsor": "Shanghai First Maternity and Infant Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04046185"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00503581",
+            "title": "A Randomized Phase II Evaluation of Continuous Progestin Therapy vs. Sequential Progestin Therapy in the Treatment of Endometrial Intraepithelial Neoplasia (EIN) From a Referred Cohort of Atypical Endometrial Hyperplasia (AEH) or EIN Patients That Desire Uterine Preservation",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2007-07",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 9,
+            "brief_summary": "This randomized phase II trial is studying how well megestrol works in treating patients with endometrial neoplasia or endometrial hyperplasia. Estrogen can cause the growth of endometrial cancer cells. Hormone therapy using megestrol may fight endometrial cancer by blocking the use of estrogen by the abnormal cells.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have a diagnosis of atypical endometrial hyperplasia (AEH) or endometrial intraepithelial neoplasia (EIN) diagnosed by dilatation and curettage (D\\&C), Novak curettage, Vabra aspirate, or Pipelle endometrial biopsy at the enrolling institution within 12 weeks of ",
+            "endpoints": [
+              "Number of Patients Who Experience a Response as Determined by a Central Blinded Review of the Three Post Treatment Endometrial"
+            ],
+            "sponsor": "GOG Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT00503581"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00729586",
+            "title": "A Randomized Phase II Trial of Temsirolimus (NCI-Supplied Agent, NSC # 683864) or the Combination of Hormonal Therapy Plus Temsirolimus in Women With Advanced, Persistent, or Recurrent Endometrial Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-09",
+            "completion_date": "2017-02",
+            "country": "United States",
+            "enrollment": 73,
+            "brief_summary": "This randomized phase II trial studies how well temsirolimus with or without megestrol acetate and tamoxifen citrate works in treating patients with endometrial cancer that has spread to other places in the body and usually cannot be cured or controlled with treatment, has returned after a period of improvement, or is persistent. Temsirolimus may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Estrogen can cause the growth of endometrial cancer cells. Hormo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed advanced (International Federation of Gynecologists and Obstetricians \\[FIGO\\] stage III or IV), persistent, or recurrent endometrial carcinoma, which is not likely to be curable by surgery or radiotherapy; histologic documentation o",
+            "endpoints": [
+              "Percentage of Participants With a Confirmed Objective Tumor Response Using RECIST Version 1.0"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00729586"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endometrial transitional cell carcinoma",
+        "txgnn_score": 0.999413013458252,
+        "txgnn_rank": 1282,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary breast ovarian cancer syndrome",
+        "txgnn_score": 0.9989032745361328,
+        "txgnn_rank": 2164,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "borderline epithelial tumor of ovary",
+        "txgnn_score": 0.9987962245941162,
+        "txgnn_rank": 2341,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "12640101",
+            "title": "Calcifications in ovary and endometrium and their neoplasms.",
+            "abstract": "In this study, we investigated the role of hormones in the pathogenesis of calcifications in ovary and in endometrium and their neoplasms of the gynecologic tract and assessed the anatomic location and incidence of these calcifications. The study consists of three parts designed to investigate the pathogenesis, the location, and the incidence of calcifications in ovary and endometrium and their neoplasms. In the first part, 79 female guinea pigs were divided into 10 groups, and different hormones, given weekly for 12 months, were administered to the guinea pigs by group. A control group of 7 guinea pigs received sterile water. Calcifications developed in 5 of 7 guinea pigs treated with prolactin, 10 of 20 treated with human chorionic gonadotropin, 5 of 11 treated with estradiol, 3 of 7 treated with estrone, 1 of 6 treated with growth hormone, and 1 of 10 treated with testosterone; in 20 of the guinea pigs, the calcifications developed in the stroma of the endometrium, and in 5 guinea p",
+            "journal": "Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc",
+            "year": "2003",
+            "authors": [
+              "Silva Elvio G",
+              "Deavers Michael T",
+              "Parlow A F",
+              "Gershenson David M",
+              "Malpica Anais"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Calcinosis",
+              "Chorionic Gonadotropin",
+              "Clomiphene",
+              "Dihydrotestosterone",
+              "Endometrial Neoplasms",
+              "Endometrium",
+              "Estradiol",
+              "Estrone",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12640101/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine carcinosarcoma",
+        "txgnn_score": 0.9983569979667664,
+        "txgnn_rank": 2947,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31157684",
+            "title": "Synchronous Well-differentiated Endometrioid Adenocarcinoma and Leiomyosarcoma of the Uterus With Pulmonary Metastasis in a 50-Yr-Old Woman: A Case Report and Review of Literature.",
+            "abstract": "The most common synchronous gynecologic malignancies are endometrial and ovarian cancers. However, synchronous endometrial adenocarcinoma and uterine leiomyosarcoma are extremely rare. We report the case of a 50-yr-old woman who was diagnosed with concomitant endometrial adenocarcinoma and uterine leiomyosarcoma. The sarcomatous neoplasm was positive for anti-smooth muscle actin and CD10, and focally positive for Cytokeratin AE1/AE3 and Cytokeratin Cam 5.2. She underwent total abdominal hysterectomy with bilateral salpingoopherectomy followed by radiation, brachytherapy, and chemotherapy. Three years later, she presented with cough and dyspnea and was found to have pulmonary metastasis. These tumor cells were positive for anti-smooth muscle actin, Cytokeratin AE1/AE3, Cytokeratin Cam 5.2, and epithelial membrane antigen, and therefore a diagnosis of lung metastasis from myometrial leiomyosarcoma was made. She received chemotherapy postoperatively. Currently, the patient has multiple lu",
+            "journal": "International journal of gynecological pathology : official journal of the International Society of Gynecological Pathologists",
+            "year": "2020",
+            "authors": [
+              "Abbas Alizeh",
+              "Ud Din Nasir",
+              "Kayani Naila"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Carcinoma, Endometrioid",
+              "Drug Therapy",
+              "Endometrial Neoplasms",
+              "Female",
+              "Humans",
+              "Hysterectomy",
+              "Leiomyosarcoma",
+              "Lung",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31157684/"
+          },
+          {
+            "pmid": "19767065",
+            "title": "Hormone receptor expression in uterine sarcomas: prognostic and therapeutic roles.",
+            "abstract": "OBJECTIVES.: The utility of hormone therapy in the management of uterine sarcomas is poorly defined. We hypothesize that estrogen receptor (ER) expression is common in uterine sarcomas, and carries prognostic significance. Further, we hypothesize that ER-positive uterine sarcomas respond to hormone therapy. METHODS.: We retrospectively reviewed charts of patients with uterine sarcomas. Stepwise Cox proportional hazards regression model was used to evaluate variables related to the risk of death: age, histology, stage, use of pelvic radiotherapy, and ER expression. In addition, we examined clinical outcomes in patients treated with aromatase inhibitors, megestrol acetate, depot medroxyprogesterone acetate, and tamoxifen. RESULTS.: Fifty-four patients underwent immunohistochemical staining, and 34 (63%) were ER-positive. Kaplan-Meier survival analysis and log-rank test indicated that patients with ER-positive sarcomas demonstrated improved overall survival when compared with ER-negative ",
+            "journal": "Gynecologic oncology",
+            "year": "2009",
+            "authors": [
+              "Ioffe Y J",
+              "Li A J",
+              "Walsh C S",
+              "Karlan B Y",
+              "Leuchter R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenosarcoma",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Carcinosarcoma",
+              "Female",
+              "Humans",
+              "Receptors, Estrogen",
+              "Retrospective Studies",
+              "Sarcoma",
+              "Sarcoma, Endometrial Stromal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19767065/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "placenta cancer",
+        "txgnn_score": 0.9983506202697754,
+        "txgnn_rank": 2958,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "7626488",
+            "title": "Estrone sulfate-sulfatase and 17 beta-hydroxysteroid dehydrogenase activities: a hypothesis for their role in the evolution of human breast cancer from hormone-dependence to hormone-independence.",
+            "abstract": "The evaluation of estrogens (estrone, estradiol, and their sulfates) in the breast tissue of post-menopausal patients with breast cancer indicates high levels, particularly of estrone sulfate (E1S) which is 15-25 times higher than in the plasma. Breast cancer tissue contains the enzymes necessary for local synthesis of estradiol and it was demonstrated that, despite the presence of the sulfatase and its messenger in hormone-dependent and hormone-independent breast cancer cells, this enzyme operates particularly in hormone-dependent cells. Different progestins: Nomegestrol acetate, Promegestone, progesterone, as well as Danazol, can block the conversion of E1S to E2 very strongly in hormone-dependent breast cancer cells. The last step in the formation of estradiol is the conversion of E1 to this estrogen by the action of 17 beta-hydroxysteroid dehydrogenase. This activity is preferentially in the reductive direction (formation of E2) in hormone-dependent cells, but oxidative (E2-->E1) i",
+            "journal": "The Journal of steroid biochemistry and molecular biology",
+            "year": "1995",
+            "authors": [
+              "Pasqualini J R",
+              "Chetrite G",
+              "Nguyen B L",
+              "Maloche C",
+              "Delalonde L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "17-Hydroxysteroid Dehydrogenases",
+              "Breast Neoplasms",
+              "Estrogens",
+              "Estrone",
+              "Female",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "In Vitro Techniques",
+              "Megestrol",
+              "Placenta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7626488/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian clear cell adenocarcinoma",
+        "txgnn_score": 0.9980204105377196,
+        "txgnn_rank": 3377,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian cancer",
+        "txgnn_score": 0.9971229434013368,
+        "txgnn_rank": 4463,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07319429",
+            "title": "Refining Fertility-sparing Treatment in Endometrial Carcinoma Based on Molecular Classification: a Prospective Multicenter Umbrella Clinical Study（FEMUS）",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-12-15",
+            "completion_date": "2029-12-31",
+            "country": "China",
+            "enrollment": 260,
+            "brief_summary": "Endometrial cancer (EC) stands among the most common gynecological malignancies in developed countries and regions, with a notable trend toward younger age at onset. Correspondingly, the demand for fertility-sparing treatment (FST) has been increasingly prominent among young EC patients. High-potency progestogens remain the sole therapeutic option recommended by international guidelines for this patient population; however, approximately 30% of patients exhibit no response to such treatment.\n\nTh",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years and ≤ 45 years;\n2. Strong willingness to preserve fertility/uterus: Patients who have fertility requirements and insist on preserving fertility; or patients who have no fertility requirements but insist on preserving the uterus;\n3. Newly diagnosed endometrial c",
+            "endpoints": [
+              "The complete response rate (CRR) at 32 weeks after initiating treatment."
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT07319429"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05316467",
+            "title": "Weight Management Plus Megestrol Acetate in Early-stage Endometrioid Carcinoma: Two Single-arm, Prospective and Open-label Clinical Study",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-05-01",
+            "completion_date": "2027-02-28",
+            "country": "China",
+            "enrollment": 89,
+            "brief_summary": "To investigate the efficacy of weight management plus megestrol acetate in obese patients with early endometrioid carcinoma（EEC）asking for fertility-sparing treatment",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. 18 years≤age≤45years\n2. BMI (body mass index) ≥24kg/m2\n3. Consent informed and signed\n4. Pathologically confirmed as endometrial carcinoma Patients with endometrial specimens obtained by endometrial biopsy, diagnostic curettage or hysteroscopy and diagnosed histologically as ",
+            "endpoints": [
+              "Pathological complete response (CR) rates"
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT05316467"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06979596",
+            "title": "A Multicenter, Open-label, Phase 2 Basket Study of MK-5684 in Participants With Selected Solid Tumors (OMAHA-015)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-08-11",
+            "completion_date": "2027-11-04",
+            "country": "Spain, Turkey (Türkiye), United Kingdom, Canada, Brazil, Thailand, Argentina, United States, Peru, Chile, Malaysia, Singapore, Taiwan",
+            "enrollment": 250,
+            "brief_summary": "Researchers want to learn if MK-5684 (the study medicine) can treat breast cancer, ovarian cancer, and endometrial cancer. MK-5684, the study medicine, is designed to treat cancer by blocking the body from making steroid hormones.\n\nResearchers will compare MK-5684 to the standard treatments for each cancer type in this study.\n\nThe goal of this study is to learn if people who receive MK-5684 live longer without the cancer growing or spreading compared to people who receive a standard treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nThe main inclusion criteria include but are not limited to the following:\n\n* Cohort A:\n\n  * Has a diagnosis of hormone receptor positive/Human Epidermal Growth Factor Receptor 2 negative (HR+/HER2-) invasive breast carcinoma that is either locally advanced disease not amenable t",
+            "endpoints": [
+              "Progression-Free Survival (PFS) - All Cohorts"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT06979596"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06549855",
+            "title": "PD-1 Inhibitor Combined With Progesterone Treatment in Fertility Sparing Therapy for Mismatch Repair-deficient Endometrial Cancer",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-10",
+            "completion_date": "2029-10",
+            "country": "China",
+            "enrollment": 10,
+            "brief_summary": "The objective of this study was to investigate the feasibility of a PD-1 inhibitor in combination with progesterone as a means of preserving fertility in patients with early-stage mismatch repair-deficient (MMRd) endometrial cancer who wish to preserve fertility.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Be between the ages of 18-45 years old;\n* Stage IA (FIGO 2009) ;\n* Confirmed diagnosis of endometrial adenocarcinoma G1-G2 based upon D\\&C or hysteroscopy;\n* Molecular classification of MMRd, determined by immunohistochemical (IHC) for MMR proteins and by the second generation",
+            "endpoints": [
+              "Complete remission (CR) rate",
+              "Time to CR"
+            ],
+            "sponsor": "Peking University People's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06549855"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00005975",
+            "title": "A Phase III Trial of Placebo Versus Megestrol Acetate 20 MG/Day Versus Megestrol Acetate 40 MG/Day as Treatment for Symptoms of Ovarian Failure in Women Treated for Breast Cancer: SWOG Study S9626",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1998-04",
+            "completion_date": "2002-03",
+            "country": "N/A",
+            "enrollment": 288,
+            "brief_summary": "RATIONALE: Megestrol may be effective in treating hot flashes following treatment for breast cancer. It is not yet known which regimen of megestrol is most effective for hot flashes.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of different doses of megestrol in treating hot flashes in patients who have undergone therapy for breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Diagnosis of infiltrating breast cancer (T1-3, N0-1, M0) treated with appropriate local and regional therapy Chemotherapy and/or surgery completed At least 10 hot flashes per week OR At least 5 severe or very severe hot flashes per week No prior participation in NCI sponsore",
+            "endpoints": [
+              "Effectiveness and duration of the benefit of placebo and 2 dose levels of megestrol acetate in reduction of severe and/or frequent hot flashes in patients with history of adequate local and regional treatment of invasive breast cancer"
+            ],
+            "sponsor": "SWOG Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT00005975"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05945407",
+            "title": "Establishment of a Network Platform for Fertility-sparing in Patients With Endometrial Cancer and Study on Fertility-sparing Therapy for Patients With Stage IA Endometrial Cancer.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2016-08-01",
+            "completion_date": "2027-12-31",
+            "country": "China",
+            "enrollment": 57,
+            "brief_summary": "The goal of this clinical trial is to explore the feasibility and outcome of fertility-sparing therapy in Stage IA G1-G2 Endometrial Cancer with less than 1/2 myometrial invasion. Researchers will render participants indication-extended fertility-sparing therapy. Researchers will compare the myometrial invasion group with the no myometrial invasion group to see if it is possible to propose an extension indication of fertility-sparing therapy for endometrial cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Stage IA (FIGO 2009) ;\n* Pathological diagnosis: endometrial adenocarcinoma G1-G2;\n* MRI or ultrasound: tumor limited to endometrium or invading less than 1/2 of myometrium；\n* 18 years old ≤ Age ≤ 45 years old;\n* With a strong desire for fertility preservation；\n* Sign the info",
+            "endpoints": [
+              "complete remission rate"
+            ],
+            "sponsor": "Peking University People's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05945407"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant dysgerminomatous germ cell tumor of ovary",
+        "txgnn_score": 0.996577799320221,
+        "txgnn_rank": 5043,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "low-grade neuroendocrine tumor of the corpus uteri",
+        "txgnn_score": 0.9960629343986512,
+        "txgnn_rank": 5535,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00351",
+    "name": "Megestrol acetate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Megestrol acetate"
+      },
+      "queried_at": "2026-03-09T14:29:43.307694",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Megestrol acetate"
+      },
+      "queried_at": "2026-03-09T14:29:47.581096",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "uterine corpus endometrial carcinoma"
+      },
+      "queried_at": "2026-03-09T14:29:49.761287",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "uterine corpus endometrial carcinoma"
+      },
+      "queried_at": "2026-03-09T14:29:54.272275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "uterine corpus endometrial carcinoma"
+      },
+      "queried_at": "2026-03-09T14:29:55.102338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "endometrial transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T14:29:55.675975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "endometrial transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T14:30:02.923745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "endometrial transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T14:30:04.427899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "hereditary breast ovarian cancer syndrome"
+      },
+      "queried_at": "2026-03-09T14:30:06.545926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "hereditary breast ovarian cancer syndrome"
+      },
+      "queried_at": "2026-03-09T14:30:12.477447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "hereditary breast ovarian cancer syndrome"
+      },
+      "queried_at": "2026-03-09T14:30:14.887266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "borderline epithelial tumor of ovary"
+      },
+      "queried_at": "2026-03-09T14:30:15.879111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "borderline epithelial tumor of ovary"
+      },
+      "queried_at": "2026-03-09T14:30:21.033786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "borderline epithelial tumor of ovary"
+      },
+      "queried_at": "2026-03-09T14:30:23.806940",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "uterine carcinosarcoma"
+      },
+      "queried_at": "2026-03-09T14:30:24.779888",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "uterine carcinosarcoma"
+      },
+      "queried_at": "2026-03-09T14:30:29.879258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "uterine carcinosarcoma"
+      },
+      "queried_at": "2026-03-09T14:30:32.256997",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "placenta cancer"
+      },
+      "queried_at": "2026-03-09T14:30:33.554818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "placenta cancer"
+      },
+      "queried_at": "2026-03-09T14:30:38.326006",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "placenta cancer"
+      },
+      "queried_at": "2026-03-09T14:30:41.209680",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "ovarian clear cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:30:42.262315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "ovarian clear cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:30:48.005158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "ovarian clear cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:30:48.782193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "ovarian cancer"
+      },
+      "queried_at": "2026-03-09T14:30:51.003290",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "ovarian cancer"
+      },
+      "queried_at": "2026-03-09T14:30:55.825306",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "ovarian cancer"
+      },
+      "queried_at": "2026-03-09T14:30:58.222266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "malignant dysgerminomatous germ cell tumor of ovary"
+      },
+      "queried_at": "2026-03-09T14:30:59.546997",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "malignant dysgerminomatous germ cell tumor of ovary"
+      },
+      "queried_at": "2026-03-09T14:31:05.061172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "malignant dysgerminomatous germ cell tumor of ovary"
+      },
+      "queried_at": "2026-03-09T14:31:05.922256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "low-grade neuroendocrine tumor of the corpus uteri"
+      },
+      "queried_at": "2026-03-09T14:31:06.733608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "low-grade neuroendocrine tumor of the corpus uteri"
+      },
+      "queried_at": "2026-03-09T14:31:11.574591",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Megestrol acetate",
+        "disease": "low-grade neuroendocrine tumor of the corpus uteri"
+      },
+      "queried_at": "2026-03-09T14:31:13.120251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T14:31:13.129785"
+  }
+}

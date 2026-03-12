@@ -1,0 +1,1098 @@
+{
+  "drug": {
+    "inn": "Mesterolone",
+    "drugbank_id": "DB13587",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9819570779800416,
+        "txgnn_rank": 16045,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "type 1 diabetes mellitus",
+        "txgnn_score": 0.965386152267456,
+        "txgnn_rank": 22731,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15025811",
+            "title": "The role of the biochemistry department in the diagnosis of pituitary apoplexy.",
+            "abstract": "A 47-year-old man presented with severe clinical hypoglycaemia. He had long-standing insulin-dependent diabetes with previously good glycaemic control. Intense headaches and vomiting initiated hospitalization. A brain computed tomography (CT) scan was normal, and a lumbar puncture showed elevated cerebrospinal fluid (CSF) protein [0.67 g/L; normal range (NR) 0.15-0.45 g/L], suggesting resolving viral meningitis. Routine thyroid function tests were abnormal (free thyroxine 10.6 pmol/L, NR 9-22.5 pmol/L; thyroid-stimulating hormone 0.16 mU/L, NR 0.35-5 mU/L). In the absence of evident thyroid therapy, the laboratory policy required an urgent cortisol assay to be added; this was very abnormal (42 nmol/L), suggesting hypopituitarism. Later analysis showed that concentrations of gonadotrophins and adrenocorticotrophin were low. An urgent pituitary magnetic resonance imaging scan revealed an unsuspected pituitary tumour with recent haemorrhage (pituitary apoplexy). The patient was given intr",
+            "journal": "Annals of clinical biochemistry",
+            "year": "2004",
+            "authors": [
+              "Williams H R T",
+              "Oliver N S",
+              "Murphy F",
+              "Howell M",
+              "Badman M K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Brain",
+              "Clinical Laboratory Techniques",
+              "Diabetes Mellitus, Type 1",
+              "Headache",
+              "Hormones",
+              "Hospital Departments",
+              "Humans",
+              "Hypoglycemia",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15025811/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic asthma",
+        "txgnn_score": 0.9632193446159364,
+        "txgnn_rank": 23401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+        "txgnn_score": 0.9620795249938964,
+        "txgnn_rank": 23714,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Homeodomain Proteins",
+              "Transcription Factors",
+              "Anterior Eye Segment",
+              "Eye Abnormalities",
+              "Forkhead Transcription Factors",
+              "Mutation",
+              "Eye Diseases, Hereditary",
+              "Bone and Bones",
+              "Hearing Loss, Sensorineural"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35882526/"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurrence risk can be determined only after complete evaluation of the patient and other family members.",
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Pagon R A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Choroid",
+              "Coloboma",
+              "Eye",
+              "Eye Abnormalities",
+              "Female",
+              "Genes, Dominant",
+              "Genes, Recessive",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6782689/"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle interhemispheric variant\" of HPE at the less severe end of the spectrum. Between them, different intermediate forms demonstrate a continuum in a wide phenotypic spectrum rather than well-defined categories. Although the term \"HPE\" suggests a disorder affecting only the prosencephalon, other brain structures are involved, underlining the complexity of the malformation. Because of close spatiotemporal interactions and common signaling pathways contributing to the development of both brain and face, co",
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anencephaly",
+              "Brain",
+              "Central Nervous System",
+              "Dandy-Walker Syndrome",
+              "Eye Abnormalities",
+              "Face",
+              "Holoprosencephaly",
+              "Humans",
+              "Prosencephalon",
+              "Spinal Cord"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30182440/"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Coloboma",
+              "Humans",
+              "Infant",
+              "Neuroimaging",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Retinal Vessels"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33870948/"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough examination of the child's eye, often with general anesthesia. Different clinical aspects can be observed: simple megalocornea without ocular or systemic anomalies, megalocornea with ocular and/or systemic anomalies as well as multiple malformation syndromes, dermatological diseases, skeletal diseases, and genetic or chromosomic diseases. A systematic general pediatric examination is therefore necessary. Congenital megalocornea must be considered, first of all, as a differential diagnosis of primar",
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Cornea",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Genetic Linkage",
+              "Glaucoma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11941259/"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Choroid",
+              "Choroidal Neovascularization",
+              "Coloboma",
+              "Diagnosis, Differential",
+              "Humans",
+              "Optic Disk",
+              "Optic Nerve Diseases",
+              "Pigment Epithelium of Eye",
+              "Retina",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10498002/"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "authors": [
+              "Savino P J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Coloboma",
+              "Fundus Oculi",
+              "Humans",
+              "Ischemia",
+              "Nerve Compression Syndromes",
+              "Ophthalmoscopy",
+              "Optic Disk",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Optic Neuritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6390155/"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a result, the horse owner frequently receives misinformation. Hopefully, this brief coverage of congenital ocular anomalies will provide useful information and assist in appropriate communication to concerned parties.",
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "authors": [
+              "Roberts S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cataract",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Eyelid Diseases",
+              "Horse Diseases",
+              "Horses",
+              "Nasolacrimal Duct",
+              "Night Blindness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1458324/"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used in four eyelids with congenital distichiasis, with very good results.",
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Cryotherapy",
+              "Eyelashes",
+              "Eyelids",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16848213/"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Branchio-Oto-Renal Syndrome",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22963965/"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, appropriate facial embryology, assessment and surgical considerations of the various congenital craniofacial abnormalities are reviewed. The expanding availability of craniofacial surgeons and surgical teams along with improved surgical results will ultimately require an increasing involvement by many more ophthalmologists in the evaluation and management of these congenital abnormalities.",
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Craniofacial Dysostosis",
+              "Craniosynostoses",
+              "Eye Abnormalities",
+              "Facial Bones",
+              "Humans",
+              "Orbit",
+              "Skull",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2237761/"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Infant",
+              "Humans",
+              "Nasolacrimal Duct",
+              "Lacrimal Duct Obstruction",
+              "Eyelids",
+              "Lacrimal Apparatus",
+              "Eyelid Diseases",
+              "Treatment Outcome",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36636984/"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Child",
+              "Eyelids",
+              "Female",
+              "Fraser Syndrome",
+              "Humans",
+              "Male",
+              "Microphthalmos",
+              "Rare Diseases",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35791156/"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Coloboma",
+              "DNA Mutational Analysis",
+              "DNA-Binding Proteins",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11581073/"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases, respectively. Thirty-four (54%) of the 63 CAKUT-associated genes (55 'green' and 8 'amber') had a reported ocular phenotype. Five of the 6 most common CAKUT-associated genes (PAX2, EYA1, SALL1, GATA3, PBX1) that represent 30% of all diagnoses had ocular features. The ocular abnormalities found with most CAKUT-associated genes and with five of the six commonest were coloboma, microphthalmia, optic disc anomalies, refraction errors (astigmatism, myopia, and hypermetropia), and cataract. Seven of ",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Mice",
+              "Animals",
+              "Humans",
+              "Kidney",
+              "Urinary Tract",
+              "Vesico-Ureteral Reflux",
+              "Urogenital Abnormalities"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37468646/"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate or uvula 7/21, high, broad nasal bridge 15/15, cranial abnormality 6/21, congenital heart defect 5/21, cryptorchidism 9/21, and mental retardation 11/17. In our series, the most frequent anomalies include telecanthus 18/18, hypospadias 18/18, cleft lip/palate or uvula 8/18, high, broad nasal bridge 10/11, cranial abnormality 12/18, congenital heart defect 3/18, upper urinary tract anomaly 4/9, and mental retardation 10/12. There is also an increased incidence of like-sex twinning, 11/18 in our fa",
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Cleft Lip",
+              "Cleft Palate",
+              "Diseases in Twins",
+              "Eyelids",
+              "Humans",
+              "Hypospadias",
+              "Male",
+              "Pedigree",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3050099/"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of posterior embryotoxon with iris bridging strands (Axenfeld anomaly) and iris hypoplasia causing corectopia and pseudopolycoria (Rieger anomaly). Glaucoma due to iridogoniodysgenesis is the main source of morbidity and is typically diagnosed during infancy or childhood in over half of affected individuals. Angle bypass surgery, such as glaucoma drainage devices and trabeculectomies, is often needed to obtain intraocular pressure control. A multi-disciplinary approach including glaucoma specialists a",
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36926528/"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Eyebrows",
+              "Eyelashes",
+              "Eyelids",
+              "Humans",
+              "Infant, Newborn",
+              "Macrostomia",
+              "Male",
+              "Surgical Flaps",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2036354/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+        "txgnn_score": 0.9616716504096984,
+        "txgnn_rank": 23846,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic nephropathy",
+        "txgnn_score": 0.960383951663971,
+        "txgnn_rank": 24173,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intrinsic asthma",
+        "txgnn_score": 0.9602718949317932,
+        "txgnn_rank": 24204,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.9599494934082032,
+        "txgnn_rank": 24292,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Jeune syndrome situs inversus",
+        "txgnn_score": 0.9480225443840028,
+        "txgnn_rank": 27143,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart disease",
+        "txgnn_score": 0.9473866820335388,
+        "txgnn_rank": 27279,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18808528",
+            "title": "Adverse effect of the anabolic-androgenic steroid mesterolone on cardiac remodelling and lipoprotein profile is attenuated by aerobicz exercise training.",
+            "abstract": "Abuse of anabolic-androgenic steroids (AAS) for improving physical performance is associated with serious, sometimes fatal, adverse effects. The aim of the present work was to investigate the effects of AAS on the cardiac structure and the plasma lipoprotein profile isolated and in combination with exercise. Transgenic mice with a human lipaemic phenotype (expressing cholesteryl ester transfer protein on the LDL receptor knockout background) were used in this study. Sedentary and exercised mice (treadmill running, five times per week for 6 weeks) were treated with mesterolone (2 microg/g body weight) or vehicle (control-C) in the last 3 weeks. Four groups were compared: (i) exercise + mesterolone (Ex-M), (ii) exercise + vehicle (Ex-C), (iii) sedentary + mesterolone (Sed-M) and (iv) sedentary + vehicle (Sed-C). Arterial blood pressure and body mass increased in all groups along time, but Sed-M reached the highest values and Ex-C the lowest. Treatment with mesterolone increased total cho",
+            "journal": "International journal of experimental pathology",
+            "year": "2008",
+            "authors": [
+              "Fontana Karina",
+              "Oliveira Helena Coutinho Franco",
+              "Leonardo Marta Beatriz",
+              "Mandarim-de-Lacerda Carlos Alberto",
+              "da Cruz-Höfling Maria Alice"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anabolic Agents",
+              "Animals",
+              "Cholesterol Ester Transfer Proteins",
+              "Exercise",
+              "Humans",
+              "Hypertrophy, Left Ventricular",
+              "Lipoproteins",
+              "Male",
+              "Mesterolone",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18808528/"
+          },
+          {
+            "pmid": "3201976",
+            "title": "Turner syndrome: effect of hormone therapies on height velocity and adult height.",
+            "abstract": "76 patients with Turner syndrome received estrogen alone, androgen and estrogen started simultaneously or, after preceding androgen therapy, estrogen with or without androgen. Six patients had spontaneous pubertal development and received no estrogen. Two patients received human growth hormone with androgen during greater than 2.0 years. Height velocity increased during all therapies to mean SD scores of 7.6 during androgen-estrogen started simultaneously, 4.6 during androgen alone, 4.2 during androgen-estrogen after preceding androgen, 2.7 during estrogen alone, and 0.6 during estrogen after preceding androgen. Adult height was measured in all cases, it was 145.5 +/- 5.7 (mean +/- SD) for the whole series without significant differences between the groups. It correlated strongly with midparent height, and was greater for patients with the 45,X karyotype than for the others combined.",
+            "journal": "Acta paediatrica Scandinavica",
+            "year": "1988",
+            "authors": [
+              "Lenko H L",
+              "Söderholm A",
+              "Perheentupa J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Body Height",
+              "Child",
+              "Drug Therapy, Combination",
+              "Estradiol",
+              "Female",
+              "Fluoxymesterone",
+              "Growth",
+              "Humans",
+              "Mesterolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3201976/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13587",
+    "name": "Mesterolone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mesterolone"
+      },
+      "queried_at": "2026-03-10T07:38:19.931220",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mesterolone"
+      },
+      "queried_at": "2026-03-10T07:38:21.037527",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:38:21.578977",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:38:24.505296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:38:25.153733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "queried_at": "2026-03-10T07:38:25.623428",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "queried_at": "2026-03-10T07:38:28.663532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "queried_at": "2026-03-10T07:38:30.937408",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T07:38:31.419310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T07:38:34.786100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T07:38:35.411312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T07:38:36.054769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T07:38:39.996523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T07:38:42.955650",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T07:38:43.525368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T07:38:46.369458",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T07:38:47.116472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T07:38:48.533421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T07:38:51.406772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T07:38:52.125314",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T07:38:52.784506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T07:38:56.656445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T07:38:57.392839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:38:58.553362",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:39:01.355370",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:39:02.615649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T07:39:03.267875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T07:39:06.807805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T07:39:07.504831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T07:39:08.108023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T07:39:11.017836",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mesterolone",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T07:39:12.882245",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:39:12.886190"
+  }
+}

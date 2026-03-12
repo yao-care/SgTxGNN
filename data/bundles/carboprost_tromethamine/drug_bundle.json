@@ -1,0 +1,520 @@
+{
+  "drug": {
+    "inn": "Carboprost tromethamine",
+    "drugbank_id": "DB00429",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "atypical coarctation of aorta",
+        "txgnn_score": 0.9998866319656372,
+        "txgnn_rank": 370,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aortic malformation",
+        "txgnn_score": 0.9997740387916564,
+        "txgnn_rank": 674,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04481503",
+            "title": "Transthoracic Echocardiography of Cardiac Function of Parturients in Labor",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-09-05",
+            "completion_date": "2024-05-01",
+            "country": "United States",
+            "enrollment": 150,
+            "brief_summary": "This echocardiography study will characterize heart structure and function during labor. Imaging of the heart during the stress of labor could increase detection of subclinical cardiovascular disease using advanced imaging techniques. Cardiac serum biomarkers and complication rates will also be measured and compared between patients with and without evidence of cardiovascular disease on echocardiography.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All healthy parturients 18 years of age or older with estimated gestation greater than or equal to 37 weeks who are expected to deliver during their hospitalization.\n* During the echocardiographic exam, the patient must be in active labor with cervical dilation between 6-10 cm",
+            "endpoints": [
+              "The proportion of patients with an abnormal strain pattern as compared to parturients not in labor",
+              "The proportion of patients with diastolic dysfunction as compared to parturients not in labor"
+            ],
+            "sponsor": "Dartmouth-Hitchcock Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04481503"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9996519088745116,
+        "txgnn_rank": 907,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9996360540390016,
+        "txgnn_rank": 933,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9992871880531312,
+        "txgnn_rank": 1525,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-syndromic esophageal malformation",
+        "txgnn_score": 0.9991658926010132,
+        "txgnn_rank": 1696,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.9991586208343506,
+        "txgnn_rank": 1705,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.9988948702812196,
+        "txgnn_rank": 2188,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal disease",
+        "txgnn_score": 0.9982931017875672,
+        "txgnn_rank": 3044,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9968615770339966,
+        "txgnn_rank": 4744,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00429",
+    "name": "Carboprost tromethamine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Carboprost tromethamine"
+      },
+      "queried_at": "2026-03-09T09:42:42.824498",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Carboprost tromethamine"
+      },
+      "queried_at": "2026-03-09T09:42:44.434807",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "atypical coarctation of aorta"
+      },
+      "queried_at": "2026-03-09T09:42:45.351589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "atypical coarctation of aorta"
+      },
+      "queried_at": "2026-03-09T09:42:49.159501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "atypical coarctation of aorta"
+      },
+      "queried_at": "2026-03-09T09:42:50.472345",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "aortic malformation"
+      },
+      "queried_at": "2026-03-09T09:42:51.277253",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "aortic malformation"
+      },
+      "queried_at": "2026-03-09T09:42:57.198126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "aortic malformation"
+      },
+      "queried_at": "2026-03-09T09:42:58.477388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T09:42:59.340611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T09:43:05.563493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T09:43:06.489942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T09:43:08.028893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T09:43:13.458790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T09:43:15.375027",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T09:43:16.292366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T09:43:20.035067",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T09:43:20.732072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-09T09:43:21.777613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-09T09:43:27.224377",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-09T09:43:28.792543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T09:43:31.836032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T09:43:36.886680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T09:43:37.937856",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-09T09:43:38.727680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-09T09:43:44.156113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-09T09:43:44.878011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-09T09:43:45.532659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-09T09:43:48.706183",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-09T09:43:49.523451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T09:43:50.228476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T09:43:53.274939",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carboprost tromethamine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T09:43:53.923669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:43:53.927645"
+  }
+}

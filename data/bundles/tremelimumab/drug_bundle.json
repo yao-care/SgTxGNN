@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Tremelimumab",
+    "drugbank_id": "DB11771",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.984890639781952,
+        "txgnn_rank": 14260,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.9841392636299132,
+        "txgnn_rank": 14722,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.9841392636299132,
+        "txgnn_rank": 14723,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.9841392636299132,
+        "txgnn_rank": 14724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.9841392636299132,
+        "txgnn_rank": 14725,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9841392636299132,
+        "txgnn_rank": 14726,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9838792681694032,
+        "txgnn_rank": 14886,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9838792681694032,
+        "txgnn_rank": 14887,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9832661151885986,
+        "txgnn_rank": 15281,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9819371104240416,
+        "txgnn_rank": 16068,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11771",
+    "name": "Tremelimumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tremelimumab"
+      },
+      "queried_at": "2026-03-10T07:07:39.952341",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tremelimumab"
+      },
+      "queried_at": "2026-03-10T07:07:42.772182",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:07:43.357461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:07:47.151955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:07:48.148110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:07:48.833166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:07:52.583163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:07:53.234254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:07:53.804808",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:07:57.132462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:07:57.880492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:07:58.383287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:08:01.933192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:08:02.655467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:08:03.251905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:08:06.653437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:08:07.628570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:08:08.886340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:08:12.434473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:08:15.049247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:08:15.685931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:08:18.635828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:08:19.583016",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:08:20.054275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:08:24.692290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:08:25.397152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:08:25.950618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:08:29.603639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:08:30.288218",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:31.013173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:33.790153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tremelimumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:34.593222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:08:34.600203"
+  }
+}

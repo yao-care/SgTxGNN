@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Cinchocaine",
+    "drugbank_id": "DB00527",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.997661590576172,
+        "txgnn_rank": 3827,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9976196885108948,
+        "txgnn_rank": 3889,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.997187077999115,
+        "txgnn_rank": 4382,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.9971643090248108,
+        "txgnn_rank": 4411,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.9967280626296996,
+        "txgnn_rank": 4865,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9966482520103456,
+        "txgnn_rank": 4963,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9964710474014282,
+        "txgnn_rank": 5140,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal myasthenia gravis",
+        "txgnn_score": 0.9766436219215392,
+        "txgnn_rank": 18581,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune disease of peripheral nervous system",
+        "txgnn_score": 0.976639986038208,
+        "txgnn_rank": 18584,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myasthenia gravis with thymus hyperplasia",
+        "txgnn_score": 0.9755404591560364,
+        "txgnn_rank": 19090,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00527",
+    "name": "Cinchocaine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cinchocaine"
+      },
+      "queried_at": "2026-03-09T19:42:46.348651",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cinchocaine"
+      },
+      "queried_at": "2026-03-09T19:42:49.313774",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T19:42:50.802923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T19:42:57.840807",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T19:42:59.505092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T19:43:00.157641",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T19:43:06.643274",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T19:43:07.890792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T19:43:10.409252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T19:43:17.739314",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T19:43:19.032318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T19:43:20.097793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T19:43:24.808295",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T19:43:26.685927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T19:43:28.537903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T19:43:33.654544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T19:43:34.679947",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T19:43:36.027724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T19:43:44.571536",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T19:43:45.807229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T19:43:46.416014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T19:43:51.538020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T19:43:53.174908",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-09T19:43:53.925875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-09T19:44:01.008937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-09T19:44:02.055891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-09T19:44:03.083020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-09T19:44:07.659882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-09T19:44:09.585296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-09T19:44:10.557187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-09T19:44:15.506762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-09T19:44:17.636639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:44:17.650914"
+  }
+}

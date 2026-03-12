@@ -1,0 +1,2137 @@
+{
+  "drug": {
+    "inn": "Anastrozole",
+    "drugbank_id": "DB01217",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9967766404151917,
+        "txgnn_rank": 4819,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05150652",
+            "title": "Phase 2 Study of Neoadjuvant Endocrine Therapy in ER-positive, HER2-negative Early Stage Breast Cancer",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-02-18",
+            "completion_date": "2026-06-09",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "The goal of this study is to access whether treatment of early state estrogen-rich breast cancers with neoadjuvant endocrine therapy will result in higher rates of margin negativity on lumpectomy specimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically confirmed invasive breast cancer, clinically stage I-II.\n* Clinically lymph node negative\n* Eligible for anti-endocrine treatment (per medical oncologist)\n* Postmenopausal women\n* Ability to understand and the willingness to sign a written informed consent docum",
+            "endpoints": [
+              "Change in margin status"
+            ],
+            "sponsor": "University of Kentucky",
+            "url": "https://clinicaltrials.gov/study/NCT05150652"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00629616",
+            "title": "A Randomized Multicenter Phase II Study Identifying Hormone Sensitivity Profiles and Evaluating the Efficacy of Anastrozole and Fulvestrant in the Neo-adjuvant Treatment of Operable Breast Cancer in Postmenopausal Women.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-10",
+            "completion_date": "2018-04",
+            "country": "France",
+            "enrollment": 116,
+            "brief_summary": "RATIONALE: Estrogen can cause the growth of breast cancer cells. Hormone therapy using anastrozole or fulvestrant may fight breast cancer by lowering the amount of estrogen the body makes or by blocking the use of estrogen by the tumor cells. Giving hormone therapy before surgery may be an effective treatment for breast cancer. It is not yet known whether anastrozole is more effective than fulvestrant when given before surgery in treating women with breast cancer.\n\nPURPOSE: This randomized phase",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed infiltrating breast adenocarcinoma\n\n  * Large, operable tumor\n  * Stage T2 (≥ 3 cm) or T3-T4 (excluding inflammatory disease), N0-N3, M0 disease\n\n    * No bilateral inflammatory breast tumors (T4d \\[PEV-2 or PEV-3\\])\n  * Elston-Ellis grade I or II",
+            "endpoints": [
+              "Clinical tumor response as assessed by RECIST criteria"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT00629616"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01028352",
+            "title": "UMCC 2008.62: Prospective Pilot Study Evaluating the Use of Duloxetine for Treatment of Aromatase Inhibitor-associated Musculoskeletal Symptoms in Breast Cancer Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2008-10",
+            "completion_date": "2011-10",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "Many women with breast cancer who are treated with aromatase inhibitor medications develop aches and pains during treatment, and some develop numbness and tingling in their hands and feet. Some examples of aromatase inhibitor medications include anastrozole (Arimidex), exemestane (Aromasin), and letrozole (Femara). Frequently, pain medications do not work very well to relieve the pain. Duloxetine (Cymbalta) is a medication that was originally developed to treat depression. It has also been found",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female;\n* Histologically proven stage 0-III invasive carcinoma of the breast that is ER and/or PR positive by immunohistochemical staining, who are receiving a standard dose of aromatase inhibitor (AI) therapy (letrozole 2.5mg once daily or exemestane 25mg once daily or anastr",
+            "endpoints": [
+              "Percentage of Patients Who Experience 30% Reduction in Average Pain Score From Baseline to 8 Weeks Due to Duloxetine Therapy."
+            ],
+            "sponsor": "University of Michigan Rogel Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01028352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04568616",
+            "title": "Phase II Study of Neoadjuvant ArOMatase Inhibitor Therapy for ER+ Breast Cancer (NAOMI)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-08-13",
+            "completion_date": "2029-08-13",
+            "country": "United States",
+            "enrollment": 178,
+            "brief_summary": "This is a single-arm, open-label study testing the effects of neoadjuvant therapy with the aromatase inhibitor letrozole in post-menopausal women with Stage I-III ER+, HER2- breast cancer. Eligible subjects will be treated with letrozole therapy for 4 to 24 weeks prior to surgical resection of the tumor. Tumor specimens obtained at baseline (diagnostic biopsy) and at surgery (surgical specimen) will be compared using molecular analyses. A subset of subjects will be asked to provide an optional r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologic documentation of invasive breast cancer by core needle or incisional biopsy. Subjects without excess baseline tumor tissue are eligible and evaluable for Primary Objective #2 (re: adherence). Excess baseline biopsy tumor tissue sufficient to make ten 5- micron sect",
+            "endpoints": [
+              "Change in Tumor CPT1-alpha levels",
+              "Determine subject adherence to endocrine therapy as measured via urine analysis",
+              "Treatment Satisfaction Questionnaire for Medication (TSQM) side effects score"
+            ],
+            "sponsor": "Dartmouth-Hitchcock Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04568616"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00688194",
+            "title": "Overcoming Endocrine Resistance in Metastatic Breast Cancer: A Randomized Trial With Factorial Design Comparing Fulvestrant ± Lapatinib ± Aromatase Inhibitor in Metastatic Breast Cancer Progressing After Aromatase Inhibitor Therapy",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2008-05",
+            "completion_date": "",
+            "country": "Italy",
+            "enrollment": 396,
+            "brief_summary": "RATIONALE: Estrogen can cause the growth of breast cancer cells. Hormone therapy using fulvestrant and exemestane, anastrozole, or letrozole may fight breast cancer by blocking the use of estrogen by the tumor cells and by lowering the amount of estrogen the body makes. Lapatinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. It is not yet known whether fulvestrant is more effective with or without lapatinib and/or aromatase inhibitor therapy in treati",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed breast cancer\n\n  * Metastatic disease\n* Confirmed disease progression after treatment with an aromatase inhibitor (AI) administered in the adjuvant or metastatic setting\n\n  * Must have demonstrated a prior response to AI therapy (",
+            "endpoints": [
+              "Progression-free survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00688194"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00573755",
+            "title": "Phase II Randomized Study of Sorafenib Compared to Placebo When Administered in Combination With Aromatase Inhibitors for Postmenopausal Women With Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2007-12",
+            "completion_date": "2013-04",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "RATIONALE: Sorafenib may stop the growth of tumor cells by blocking blood flow to the tumor and by blocking some of the enzymes needed for cell growth. Estrogen can cause the growth of breast cancer cells. Aromatase inhibition therapy using letrozole, anastrozole, or exemestane may fight breast cancer by lowering the amount of estrogen the body makes. It is not yet known whether sorafenib is more effective than a placebo when given together with letrozole, anastrozole, or exemestane in treating ",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed adenocarcinoma of the breast\n\n  * Metastatic disease\n* Measurable disease, defined as ≥ 1 unidimensionally measurable lesion ≥ 20 mm by conventional techniques (i.e., MRI or CT scan of chest, abdomen and pelvis) or ≥ 10 mm by spir",
+            "endpoints": [
+              "Progression-free Survival"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00573755"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00186121",
+            "title": "A Phase II Trial of Arimidex Plus Zoladex in the Treatment of Hormone Receptor Positive, Metastatic Carcinoma of the Breast in Premenopausal Women",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2000-10",
+            "completion_date": "2013-06",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "To evaluate the antitumor activity, toxicity, and effectiveness of the combination of goserelin (Zoladex) and anastrozole (Arimidex) in the treatment of premenopausal women with hormone receptor positive metastatic carcinoma of the breast.",
+            "eligibility_criteria": "INCLUSION CRITERIA\n\n* Histologically-confirmed, bi-dimensionally measurable, recurrent or metastatic carcinoma of the breast that is progressive\n* Premenopausal, defined as any of:\n\n  1. Last menstrual period within 3 months, or\n  2. Post-hysterectomy without bilateral oophorectomy and with follicle",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Stanford University",
+            "url": "https://clinicaltrials.gov/study/NCT00186121"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00681928",
+            "title": "The Effect of Aromatase Inhibition on the Cognitive Function of Older Patients With Breast Cancer",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2007-10",
+            "completion_date": "2011-01",
+            "country": "United States",
+            "enrollment": 72,
+            "brief_summary": "RATIONALE: Gathering information about cognitive function over time in postmenopausal women with breast cancer may help doctors learn about the long-term effects of aromatase inhibitor therapy and plan the best treatment.\n\nPURPOSE: This clinical trial is studying cognitive function in older postmenopausal women with stage I, stage II, or stage III breast cancer receiving hormone therapy and in healthy volunteers.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Meets 1 of the following criteria:\n\n  * Patient diagnosed with breast cancer\n\n    * Stage I-III disease\n    * Estrogen receptor- and/or progesterone receptor-positive\n    * Planning to start treatment with anastrozole or letrozole\n  * Age-matched healthy volunteer (contro",
+            "endpoints": [
+              "Impact of treatment with an aromatase inhibitor on cognitive function"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00681928"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04023292",
+            "title": "Comparative Study for the Degree of Biological Changes After Short-term 2 Weeks and 4 Weeks Preoperative Endocrine Therapy in Luminal Breast Cancer",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2019-07",
+            "completion_date": "2025-07",
+            "country": "China",
+            "enrollment": 185,
+            "brief_summary": "RATIONALE: Estrogen can promote proliferation of tumor cells in hormone receptors (HR)-positive breast cancer. The standard therapy of Luminal subtypes is endocrine therapy, which can influence proliferation of tumor cells by blocking the use of estrogen by cancer cells or lowering the amount of estrogen the body makes. Thus, markers of proliferation are candidate markers of efficacy after short-term (e.g., 2 weeks or 4 weeks) preoperative hormone therapy. Ki-67 is most commonly used among these",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed the informed consent.\n2. Female aged between 18 and 70 years.\n3. Pathologically diagnosed operable invasive breast cancer meeting the following criterias:\n\n   * Hormone receptor (HR)-positive: pathologically diagnosed estrogen receptor (ER)-positive and/or progesterone",
+            "endpoints": [
+              "Percentage Change From Pre-treatment to Post-treatment in Ki-67 Labelling Index"
+            ],
+            "sponsor": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+            "url": "https://clinicaltrials.gov/study/NCT04023292"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01016665",
+            "title": "Anastrozole Reduced Proliferation and Progesterone Receptor Indexes in Short Term Hormone Therapy. A Prospective Placebo Double Blind Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2005-04",
+            "completion_date": "2008-06",
+            "country": "Brazil",
+            "enrollment": 71,
+            "brief_summary": "Background: Identification of new biomarkers with potential predictive and prognostic role has contributed unequivocally to breast cancer treatment.\n\nAlthough traditionally endocrine therapy is based on hormonal receptors status (estrogen - ER and progesterone- PR), some patients become hormone resistant. In order to identify a possible profile associated to hormonal resistance, some biomarkers have been assessed after short period primary hormone therapy (HT).\n\nObjectives: To compare the expres",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Invasive breast cancer post-menopausal women\n* Estrogen and/or progesterone receptor positive\n\nExclusion Criteria:\n\n* Patients with endocrine disease\n* Hormone therapy users or those who had been pregnant in the last 12 months before the diagnosis\n* Patients with a negative ex",
+            "endpoints": [
+              "Expression of progesterone"
+            ],
+            "sponsor": "Federal University of São Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT01016665"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04012918",
+            "title": "Capecitabine in Combination With Aromatase Inhibitor Versus Aromatase Inhibitors, in Hormonal Receptor Positive Recurrent or Metastatic Breast Cancer Patients, Randomized Controlled Study (CONCEPT Trial)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2018-08-30",
+            "completion_date": "2021-02",
+            "country": "Egypt",
+            "enrollment": 124,
+            "brief_summary": "Women with recurrent or metastatic breast cancer who are hormone receptor positive are candidates for first line hormonal therapy including aromatase inhibitors. In the past few years new combination therapies became available as fulvastrant or palbociclib with letrezole; increasing the progression free survival (PFS). A retrospective study showed that combination of capecitabine with aromatase inhibitors increase PFS as 1st and 2nd line line treatment another prospective study showed the same r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adult women with locoregionally recurrent or metastatic disease not amenable to curative therapy\n2. Eastern Cooperative Oncology Group (ECOG) 0-2\n3. Hormone receptor positive\n4. No prior systemic anti-cancer therapy for advanced ER+ disease ( hormonal therapy)\n5. Measurable d",
+            "endpoints": [
+              "Progress-free survival"
+            ],
+            "sponsor": "Ain Shams University",
+            "url": "https://clinicaltrials.gov/study/NCT04012918"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00077168",
+            "title": "Randomised Trial Testing Observation (No Radiotherapy) Against Radiotherapy In Women With Low-Risk Completely Excised ER Positive Ductal Carcinoma In Situ (DCIS) Of The Breast On Adjuvant Endocrine Therapy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2004-04",
+            "completion_date": "",
+            "country": "United Kingdom",
+            "enrollment": 2000,
+            "brief_summary": "RATIONALE: Radiation therapy uses high-energy x-rays to damage tumor cells. It is not yet known whether radiation therapy after surgery is effective in preventing a recurrence of ductal carcinoma in situ.\n\nPURPOSE: This randomized phase II trial is studying adjuvant radiation therapy to see how well it works compared to observation after surgery in treating women with estrogen receptor positive or progesterone receptor positive ductal carcinoma in situ and are also receiving either tamoxifen or ",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of unifocal ductal carcinoma in situ of the breast without an invasive component\n\n  * Microinvasion (defined as 1 or more foci of invasion each \\< 1 mm) allowed\n* Prior complete microscopic excision (within the past 6 months) with a minimum radial margin of 1 mm",
+            "endpoints": [
+              "Local tumor control (invasive and in situ local recurrence)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00077168"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00002644",
+            "title": "International Breast Cancer Intervention Study: A Multicentre Trial of Tamoxifen to Prevent Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1994-01",
+            "completion_date": "2011-03-30",
+            "country": "United Kingdom",
+            "enrollment": 7154,
+            "brief_summary": "The International Breast Cancer Intervention Study I (IBIS-I) was designed to investigate the use of tamoxifen in preventing breast cancer in women with a higher risk of developing the disease. Recruitment of women to IBIS-I ended in March 2001 and it recruited 7154 women from 36 centres in 9 countries. The results of the study showed that tamoxifen reduced the incidence of breast cancer by one third in these high risk women but with some serious side effects. IBIS-II was designed to continue th",
+            "eligibility_criteria": "Inclusion criteria:\n\nThe entry criteria are based on a relative risk of at least two-fold for women aged 45-70 years, four-fold for women aged 40-44 years and ten-fold for women aged 35-39 years.\n\nAge 45-70 years\n\n1. First degree relative who developed breast cancer at age 50 or less\n2. First degree",
+            "endpoints": [],
+            "sponsor": "Queen Mary University of London",
+            "url": "https://clinicaltrials.gov/study/NCT00002644"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05190094",
+            "title": "Multicenter, First-line Metastatic Open-label Prospective Phase II Trial Evaluating the Combination of Palbociclib (CDK 4/6 Inhibitor) and Hormone Therapy (Letrozole or Anastrozole) in Women With Luminal, HER2 Negative Advanced Breast Cancer: Evaluation of the Prediction of Individual Treatment Efficacy Using Infrared Laser Spectroscopy Analysis on Liquid Biopsies (Quantum Optics).",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-12-20",
+            "completion_date": "2026-06",
+            "country": "Saudi Arabia, Algeria, Jordan",
+            "enrollment": 80,
+            "brief_summary": "This study is a multicenter, international, open-label phase II study. Based on inclusion/exclusion criteria, eligible pre and postmenopausal patients with newly diagnosed metastatic luminal hormone receptor-positive and HER2 negative breast cancer, will be prospectively treated with a standard combination of hormone therapy (Letrozole or Anastrozole) and Palbociclib. This combination will continue until progression. Treatment response will be evaluated every three months using clinical and radi",
+            "eligibility_criteria": "Inclusion Criteria:\n\nTo be enrolled in the study, patients should meet the following inclusion criteria:\n\n1. Written informed consent before beginning specific protocol procedures including expected cooperation of the patients for the treatment and follow-up must be obtained and documented according",
+            "endpoints": [
+              "Rate of Objective Clinical Response",
+              "Sensitivity and Specificity of prediction of the efficacy of the combination (palbociclib +AI)."
+            ],
+            "sponsor": "International Cancer Research Group, United Arab Emirates",
+            "url": "https://clinicaltrials.gov/study/NCT05190094"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00784862",
+            "title": "A Randomised, Double Blind Trial to Assess the Pharmacokinetics of Arimidex Alone, Nolvadex Alone, or Arimidex and Nolvadex in Combination, When Used as Adjuvant Treatment for Breast Cancer in Postmenopausal Women",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1998-06",
+            "completion_date": "1999-03",
+            "country": "N/A",
+            "enrollment": 9358,
+            "brief_summary": "To assess the effect of ARIMIDEX on the pharmacokinetics of tamoxifen and the effects of tamoxifen on the pharmacokinetics of ARIMIDEX..",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eligible for entry into the main ATAC trial 1033IL/0029\n* Patients must have been taking ATAC trial medication for at least 3 months (i.e. patients must have reached at least visit 2 of the main ATAC study)\n* Patients should be taking their medication in the mornings for at le",
+            "endpoints": [
+              "Steady state plasma trough concentrations of tamoxifen, desmethyltamoxifen and anastrozole"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT00784862"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05584644",
+            "title": "Treatment Patterns and Clinical Outcomes Among Indian Patients Receiving Palbociclib Combinations for HR+/HER2- Advanced/Metastatic Breast Cancer in Real World Settings",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-05-24",
+            "completion_date": "2022-02-22",
+            "country": "India",
+            "enrollment": 150,
+            "brief_summary": "The purpose of this clinical study is to describe the patient population, breast cancer treatment, and breast cancer treatment results of adult female patients who have received palbociclib combination treatments for advanced or metastatic breast cancer in India.\n\nThere are two groups of patients this study will describe. The first group of patients will have received palbociclib in combination with aromatase inhibitor (as prescribed by the Physician) for the treatment of postmenopausal women wi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HR+/HER2- breast cancer diagnosis with confirmed metastatic or advanced disease\n* Received palbociclib with aromatase inhibitor (as prescribed by the Physician) as initial endocrine therapy in postmenopausal metastatic breast cancer (MBC) patients or with fulvestrant in patien",
+            "endpoints": [
+              "Number of Participants According to the Starting Dose of Palbociclib",
+              "Duration of Treatment",
+              "Number of Participants Who Had Any Palbociclib Dose Reduction"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05584644"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06311383",
+            "title": "A Non-interventional Study for Women With HR-positive, HER2-negative Locally Advanced or Metastatic Breast Cancer to Evaluate the Real-world Effectiveness of Treatment Algorithms Beginning With Kisqali (Ribociclib) in Combination With an Aromatase Inhibitor/Fulvestrant, or With Endocrine Therapy or Chemotherapy as First Line Treatment",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2017-10-09",
+            "completion_date": "2025-03-10",
+            "country": "Germany",
+            "enrollment": 2610,
+            "brief_summary": "This is a non-interventional observational study conducted in Germany to evaluate the real-world effectiveness, tolerability, safety, and quality of life in patients with locally advanced/metastatic HR+/HER2- breast cancer treated with one of the following 1st line treatments: Ribociclib + AI/FUL, or endocrine monotherapy, or chemotherapy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a histological diagnosis of locally advanced/metastatic HR+/HER2- breast cancer. Histological diagnosis does not necessarily origin from metastasis, but must reflect the most recent disease status\n* No prior systemic treatment for locally advanced/metastatic dise",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT06311383"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03671330",
+            "title": "Phase II Randomized, Double-blind, Placebo-controlled Study of LEE011(Ribociclib) or Placebo in Combination With Endocrine Therapy for the Treatment of Pre- and Postmenopausal Chinese Women With HR Positive, HER2-negative, Advanced Breast Cancer, Including a Subset With Pharmacokinetic Analysis.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-08-29",
+            "completion_date": "2025-05-09",
+            "country": "China",
+            "enrollment": 327,
+            "brief_summary": "This is a Phase II randomized, double-blind, placebo-controlled study involving premenopausal and postmenopausal Chinese women plus an open-label single arm of pharmacokinetic cohort of LEE011 in combination with Letrozole in Chinese postmenopausal women with HR+, HER2- negative advanced breast cancer.\n\nThree cohorts of patients will be enrolled: PK cohort, premenopausal cohort, and postmenopausal cohort.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has a histologically and/or cytologically confirmed diagnosis of estrogen receptor (ER) positive and/or progesterone receptor positive breast cancer by local laboratory (based on most recently analyzed biopsy).\n* Patient has HER2-negative breast cancer (based on most r",
+            "endpoints": [
+              "Progressive free survival (PFS) based on local assessment by RECIST 1.1 guideline"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT03671330"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00111241",
+            "title": "Assessment of Knee Joint Articular Cartilage Volume Change, Bone Loss and Change in Body Composition in Women Treated With Anastrozole or Letrozole and Comparison With Untreated Controls",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2005-05",
+            "completion_date": "2011-12",
+            "country": "Australia",
+            "enrollment": 115,
+            "brief_summary": "Many women with breast cancer are treated with a class of drugs called aromatase inhibitors (mainly letrozole or anastrozole), which lowers the amount of estrogen being produced in the body. Women on aromatase inhibitors appear to experience joint pains and arthralgia. The aim of this study is to determine whether the joint pains experienced by some women on aromatase inhibitors is associated with more defects in their cartilage, compared to women not receiving this therapy. Using the magnetic r",
+            "eligibility_criteria": "Inclusion Criteria:\n\nGroup 1 :\n\n* Aged 40 - 65\n* Non-hysterectomised women who have undergone breast surgery\n* Women on aromatase inhibitors within preceding 12 weeks\n\nGroup 2 : control group\n\n* Healthy, non-hysterectomised women aged 40-65 .\n\nExclusion Criteria:\n\n* Previous knee injury requiring no",
+            "endpoints": [
+              "Knee Cartilage Volume"
+            ],
+            "sponsor": "Monash University",
+            "url": "https://clinicaltrials.gov/study/NCT00111241"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04436744",
+            "title": "A Randomized, Multicenter, Open-Label, Two-Arm, Phase II, Neoadjuvant Study Evaluating the Efficacy, Safety, and Pharmacokinetics of GDC-9545 Plus Palbociclib Compared With Anastrozole Plus Palbociclib for Postmenopausal Women With Estrogen Receptor-Positive and HER2-Negative Untreated Early Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-09-04",
+            "completion_date": "2021-11-24",
+            "country": "Australia, Spain, South Korea, Brazil, Germany, United States, Russia, Hungary, Ukraine, Taiwan, Poland",
+            "enrollment": 221,
+            "brief_summary": "This is a randomized, multicenter, open-label, two-arm, Phase II study to evaluate the efficacy, safety, and pharmacokinetics of giredestrant versus anastrozole (in the window-of-opportunity phase) and giredestrant plus palbociclib compared with anastrozole plus palbociclib (in the neoadjuvant phase) in postmenopausal women with untreated, estrogen receptor (ER)-positive, human epidermal growth factor receptor-2 (HER2)-negative, early breast cancer.\n\nThe study consists of a screening period of u",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Postmenopausal women age ≥18 years\n* Histologically confirmed operable or inoperable invasive breast carcinoma\n* Candidate for neoadjuvant treatment and considered appropriate for endocrine therapy\n* Willingness to undergo breast surgery after neoadjuvant treatment and to prov",
+            "endpoints": [
+              "Relative Percent Change in Ki67 Scores From Baseline to Week 2"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04436744"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00849030",
+            "title": "A Randomised, Double Blind Trial Comparing Arimidex Alone With Nolvadex Alone With Arimidex and Nolvadex in Combination, as Adjuvant Treatment in Post-Menopausal Women With Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1996-07",
+            "completion_date": "2010-04",
+            "country": "N/A",
+            "enrollment": 9358,
+            "brief_summary": "The aim of this study is to test whether Arimidex alone or in combination with Tamoxifen is beneficial in the treatment of breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with histologically proven operable invasive breast cancer\n* Patients who have completed all primary surgery and chemotherapy (if given), and are candidates to receive hormonal adjuvant therapy\n* Women defined as post-menopausal\n\nExclusion Criteria:\n\n* Patients in who",
+            "endpoints": [
+              "Time to recurrence of breast cancer",
+              "Safety and side effects"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT00849030"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00301457",
+            "title": "A Prospective Randomised, Open, Multicentre, Phase III Study to Assess Different Durations of Anastrozole Therapy After 2 to 3 Years Tamoxifen as Adjuvant Therapy in Postmenopausal Women With Breast Cancer.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-06",
+            "completion_date": "2022-04",
+            "country": "Netherlands",
+            "enrollment": 1914,
+            "brief_summary": "The purpose of this study is to determine whether 6 years adjuvant anastrozole will improve the disease free survival compared to 3 years adjuvant anastrozole in postmenopausal hormone sensitive breast cancer patients, subsequent to 2-3 years tamoxifen",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* postmenopausal patients with hormone receptor positive breast cancer who have already received 2 to 3 years of adjuvant tamoxifen, and who never had signs of loco-regional recurrences or distant metastasis\n\nExclusion Criteria:\n\n* Previous hormonal therapy as adjuvant breast ca",
+            "endpoints": [
+              "To assess the disease free survival (DFS) with 6 years of adjuvant anastrozole compared with 3 years of adjuvant anastrozole in postmenopausal hormone sensitive breast cancer patients, subsequent to 2 to 3 years of adjuvant tamoxifen"
+            ],
+            "sponsor": "Maastricht University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00301457"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00638391",
+            "title": "Postmenopausal Women With Early Hormone-Receptor Positive Breast Cancer/no Metastasis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2005-05",
+            "completion_date": "2007-03",
+            "country": "N/A",
+            "enrollment": 1600,
+            "brief_summary": "The purpose of this study is the initial/followed by 5 year adjuvant therapy with Anastrozole.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Postmenopausal women with early hormone receptor positive breast cancer/no metastasis\n\nExclusion Criteria:\n\n* None",
+            "endpoints": [
+              "evaluation of Anastrozole therapy as adjuvant treatment in post.menopausal women with not advanced breast cancer únder naturalistic conditions"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT00638391"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02689921",
+            "title": "A Phase II Study of NEOADjuvant Aromatase Inhibitor and Pertuzumab/Trastuzumab (NEOADAPT)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2016-04",
+            "completion_date": "2018-12",
+            "country": "United States",
+            "enrollment": 7,
+            "brief_summary": "This is a prospective, single-arm, phase II study of 32 evaluable patients treated with NEOADjuvant Aromatase inhibitor and Pertuzumab/Trastuzumab (NEOADAPT) without chemotherapy for hormone receptor positive (HR+), \\[i.e. Estrogen Receptor positive (ER+) and/or Progesterone Receptor positive (PR+)\\] HER2+ localized, non-metastatic stage I - IIb breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ability to provide signed, written informed consent\n* Histologically or cytologically confirmed non-metastatic adenocarcinoma of the breast (stage I-II)\n* Candidate for curative-intent treatment\n* ER+ and/or PR+ and HER2-positive (Fluorescence In Situ Hybridization-positive or",
+            "endpoints": [
+              "Evidence of Pathological Response"
+            ],
+            "sponsor": "Midwestern Regional Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02689921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00078832",
+            "title": "International Breast Cancer Intervention Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2003-09",
+            "completion_date": "2021-05-31",
+            "country": "Switzerland, Australia, Turkey (Türkiye), United Kingdom, Belgium, Germany, Italy, Denmark, Finland, Portugal, Chile, Hungary, Malta, Ireland",
+            "enrollment": 3864,
+            "brief_summary": "RATIONALE: Chemoprevention therapy is the use of certain drugs to try to prevent the development of cancer. Anastrozole may be effective in preventing breast cancer.\n\nPURPOSE: This randomized clinical trial is studying how well anastrozole works in preventing breast cancer in postmenopausal women who are at increased risk for the disease.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Meets at least 1 of the relative risk factors based on age as follows:\n\n  * 45 to 70 years of age:\n\n    * First-degree relative who developed breast cancer at ≤ 50 years of age\n    * First-degree relative who developed bilateral breast cancer\n    * Two or more first- or s",
+            "endpoints": [
+              "Development of histologically confirmed breast cancer, both invasive and non-invasive with median follow-up at 5 years"
+            ],
+            "sponsor": "Queen Mary University of London",
+            "url": "https://clinicaltrials.gov/study/NCT00078832"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05861830",
+            "title": "An Exploratory Study on Predicting the Efficacy of Dalpiciclib in Combination With Endocrine Therapy for HR-Positive and HER2-Negative Recurrent/Metastatic Breast Cancer Patients After CDK4/6 Inhibitor Treatment Failure Using 18F-FES PET/CT",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2023-05-15",
+            "completion_date": "2026-06-30",
+            "country": "China",
+            "enrollment": 80,
+            "brief_summary": "CDK4/6 inhibitors are currently the standard treatment for female breast cancer patients with HR+ tumors. However, there is no established standard treatment for patients who experience treatment failure with CDK4/6 inhibitors. The MAINTAIN study has shown clinical benefits by switching to Ribociclib and changing endocrine therapy after progression on CDK4/6 inhibitors. We hypothesize that combining Dalpiciclib with physician-selected endocrine therapy, following treatment failure with CDK4/6 in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The recent pathology results showed HR-positive and HER2-negative.\n* 18F-FES-PET/CT showed at least one ER-positive lesion.\n* Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) score: 0-2 points.\n* Expected survival time ≥ 3 months.\n* Previous antitumor therapy:",
+            "endpoints": [
+              "Investigator-assessed PFS"
+            ],
+            "sponsor": "Peking Union Medical College Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05861830"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02767661",
+            "title": "A Phase 3 Randomized Controlled Study of Metronomic Capecitabine Combined With Aromatase Inhibitor Versus Aromatase Inhibitor Alone for First Line Treatment in Hormone Receptor-positive, Her2-negative Metastatic Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-07-19",
+            "completion_date": "2023-08-25",
+            "country": "China",
+            "enrollment": 263,
+            "brief_summary": "The study is designed to compare the clinical benefit following treatment with aromatase inhibitor in combination with metronomic capecitabine versus aromatase inhibitor alone in women with hormone receptor-positive, Her2-negative advanced breast cancer who have not received prior systemic anti-cancer therapies for their advanced/metastatic disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult women with locoregionally recurrent or metastatic disease not amenable to curative therapy\n* Confirmed diagnosis of ER positive/Her2-negative breast cancer\n* No prior systemic anti-cancer therapy for locoregionally recurrent or metastatic disease\n* Any menopausal status,",
+            "endpoints": [
+              "Progress-free survival"
+            ],
+            "sponsor": "Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT02767661"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05297617",
+            "title": "Single-arm Study to De-escalate Adjuvant Endocrine Therapy Duration in Women With HR+ HER2- Breast Cancer at Very Low Risk of Metastasis",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-10-12",
+            "completion_date": "2035-11",
+            "country": "France",
+            "enrollment": 696,
+            "brief_summary": "Hormone therapy is recommended for five years in all patients with hormone receptor-positive breast cancer, but there is no consensus on its duration in low-risk tumours and especially in postmenopausal women. Adjuvant endocrine therapy (ET) is associated with substantial side effects and long-term decreased quality of life.\n\nMoreover, while it has been shown that ET provides a real benefit in reducing the relapse rate over time, the deterioration in quality of life may also have a negative effe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Postmenopausal women: Postmenopausal status is defined by any of the following:\n\n   * Prior bilateral oophorectomy\n   * Age ≥60 years\n   * Age \\>50 and \\<60 years and amenorrheic for at least 12 months, and follicle-stimulating hormone (FSH) and estradiol in the postmenopausa",
+            "endpoints": [
+              "Distant relapse-free interval (DRFI)"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT05297617"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06016738",
+            "title": "A Phase 3 Randomized, Open-Label Study of OP-1250 Monotherapy vs Standard of Care for the Treatment of ER+, HER2- Advanced or Metastatic Breast Cancer Following Endocrine and CDK 4/6 Inhibitor Therapy (OPERA-01)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2023-11-16",
+            "completion_date": "2027-09-30",
+            "country": "Australia, Belgium, United States, Canada, South Korea, Netherlands, Italy, Czechia, Thailand, Poland, Hong Kong, United Kingdom, France, Brazil, Germany, Argentina, Mexico, Hungary, Spain, Romania, Portugal, Bulgaria, Malaysia, Puerto Rico, Taiwan",
+            "enrollment": 510,
+            "brief_summary": "This phase 3 clinical trial compares the safety and efficacy of palazestrant (OP-1250) to the standard-of-care options of fulvestrant or an aromatase inhibitor in women and men with breast cancer whose disease has advanced on one endocrine therapy in combination with a CDK4/6 inhibitor.",
+            "eligibility_criteria": "Key inclusion criteria:\n\n* Adult female or male participants.\n* ER+, HER2- locally advanced or metastatic breast cancer that is not amenable to curative therapy.\n* Evaluable disease (measurable disease or bone-only disease).\n* Previously received a CDK4/6 inhibitor in combination with an endocrine t",
+            "endpoints": [
+              "Dose-Selection Part: Incidence of adverse events",
+              "Dose-Selection Part: Incidence of dose reduction",
+              "Dose-Selection Part: Incidence of drug discontinuation"
+            ],
+            "sponsor": "Olema Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06016738"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01381874",
+            "title": "Randomized, Open-Label Study of Abiraterone Acetate (JNJ-212082) Plus Prednisone With or Without Exemestane in Postmenopausal Women With ER+ Metastatic Breast Cancer Progressing After Letrozole or Anastrozole Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-08-24",
+            "completion_date": "2018-08-08",
+            "country": "Spain, United Kingdom, France, South Korea, Belgium, Netherlands, United States, Russia, Ukraine, Luxembourg, Ireland, Poland",
+            "enrollment": 297,
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of oral abiraterone acetate plus oral prednisone and oral abiraterone acetate plus oral prednisone plus oral exemestane, each compared with oral exemestane alone, in postmenopausal women with estrogen receptor-positive (ER+) metastatic (spreading) breast cancer that has relapsed after treatment with letrozole or anastrozole.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female patients must be postmenopausal\n* ER+, Human epidermal growth factor receptor 2 (Her2) negative metastatic breast cancer\n* Disease must have been sensitive to anastrozole or letrozole therapy prior to disease progression\n* No more than two prior lines of therapy in the ",
+            "endpoints": [
+              "Progression-Free Survival (PFS)",
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Janssen Research & Development, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01381874"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06223698",
+            "title": "Optimizing Extended Adjuvant Endocrine Therapy in Patients With Breast Cancer: a Registry-based Randomized Clinical Trial - SWE-Switch Breast Cancer Trial",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-05-02",
+            "completion_date": "2035-05-02",
+            "country": "Sweden",
+            "enrollment": 3832,
+            "brief_summary": "Based on the risk of late recurrence in breast cancer patients with luminal disease with high-risk for recurrence, extended adjuvant endocrine therapy beyond 5 years is recommended as a valid treatment option. In premenopausal women at diagnosis converted to postmenopausal after the first five years of tamoxifen, two treatment strategies for extended adjuvant endocrine therapy are available, namely continuing with tamoxifen or switching to aromatase inhibitors (AI). No randomized evidence does e",
+            "eligibility_criteria": "Inclusion Criteria:\n\nCohort 1 (premenopausal women at diagnosis converted to postmenopausal)\n\n1. Women who were pre- or perimenopausal at diagnosis\n2. Luminal breast cancer (defined as estrogen-receptor positive \\>/=10%, HER2-negative disease).\n3. Treated with tamoxifen for at least 80% of a 5-year ",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "Region Örebro County",
+            "url": "https://clinicaltrials.gov/study/NCT06223698"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01745289",
+            "title": "Long-term Anastrozole Versus Tamoxifen Treatment Effects (LATTE)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2010-10",
+            "completion_date": "2017-05",
+            "country": "United Kingdom",
+            "enrollment": 2671,
+            "brief_summary": "Established in 2010, the Long-term Anastrozole vs Tamoxifen Treatment Effects (LATTE) observational study aims to collect vital long-term safety and efficacy data on anastrozole and tamoxifen, drugs that were taken by post-menopausal women as part of the Anastrozole Tamoxifen Alone or in Combination (ATAC) trial. ATAC was a crucial breast cancer trial evaluating the use of aromatase inhibitors (AIs) in the adjuvant setting, with a median follow-up of over 10 years. The ATAC trial assessed the sa",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients randomised to one of the monotherapy arms in the ATAC Trial\n* alive at 10 years follow-up\n\nExclusion Criteria:\n\n* patients who have withdrawn consent to participate in the ATAC Trial or this study\n* where the LATTE Executive Committee determines that there is no possi",
+            "endpoints": [
+              "Time to recurrence"
+            ],
+            "sponsor": "Queen Mary University of London",
+            "url": "https://clinicaltrials.gov/study/NCT01745289"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00719966",
+            "title": "Effect of Aromatase Inhibitor Therapy for Breast Cancer on Endothelial Function",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2008-09-18",
+            "completion_date": "2020-01-24",
+            "country": "United States",
+            "enrollment": 109,
+            "brief_summary": "RATIONALE: Aromatase inhibitor therapy is used in treating postmenopausal women who have hormone-dependent breast cancer. It is not yet known what effect aromatase inhibitor therapy has on blood vessel function.\n\nPURPOSE: This clinical trial is studying the effect of aromatase inhibitor therapy on blood vessel function in postmenopausal women with breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of breast cancer\n* Ductal carcinoma in situ (DCIS) allowed provided the patient will not receive tamoxifen as part of treatment for their cancer\n* May not have had a prior mastectomy with requirement for mastectomy of the contralateral breast\n* No requirement fo",
+            "endpoints": [
+              "Endothelial dysfunction as a result of aromatase inhibitor therapy"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00719966"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00049062",
+            "title": "A Phase II And Biologic Correlative Study Investigating ARIMIDEX In Combination With IRESSA (ZD1839) In Post-Menopausal Patients With Estrogen Receptor-Positive Metastatic Breast Carcinoma Who Have Previously Failed Hormonal Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2002-09",
+            "completion_date": "2007-10",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Estrogen can stimulate the growth of breast cancer cells. Anastrozole may fight breast cancer by blocking the production of estrogen by the tumor cells. Biological therapies such as ZD 1839 may interfere with the growth of the tumor cells and slow the growth of advanced solid tumors. Combining anastrozole with ZD 1839 may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combining anastrozole with ZD 1839 in treating postmenopausal women who have metastatic",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed breast cancer\n\n  * Metastatic or locally advanced unresectable disease\n* At least 1 measurable target lesion that has not been irradiated\n\n  * New lesions in a previously irradiated field allowed as sites of measurable disease\n* Progressive diseas",
+            "endpoints": [],
+            "sponsor": "The University of Texas Health Science Center at San Antonio",
+            "url": "https://clinicaltrials.gov/study/NCT00049062"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04906395",
+            "title": "Phase 3,Single Arm,Open-Label Study Evaluating Ovarian Suppression Following 3 Month Leuprolide Acetate For Injectable Suspension (TOL2506) in Combination With Endocrine Therapy in Premenopausal Subjects With Hormone-Receptor-Positive (HR+),Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Breast Cancer",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-07-01",
+            "completion_date": "2026-04-30",
+            "country": "Canada, India, Brazil, Argentina, United States, Mexico, Puerto Rico",
+            "enrollment": 250,
+            "brief_summary": "This is a phase 3, single arm, open-label study evaluating the effectiveness of TOL2506 to suppress ovarian function in premenopausal women with HR+, HER2-negative breast cancer. The study will also aim to assess the safety of TOL2506 in men with HR+, HER2-negative breast cancer. The Screening Period will be conducted in two parts: 1) an abbreviated, initial screening where premenopausal status will be determined prior to neoadjuvant or adjuvant chemotherapy (if planned) and 2) the full screenin",
+            "eligibility_criteria": "Inclusion Criteria:\n\nFemale\n\n1. Able to understand the investigational nature of this study and provide written informed consent prior to the participation in the trial\n2. Age 18 to 49, inclusive\n3. Diagnosis of Stage I, II, or III HR+, HER2-negative breast cancer (ER\\>1% and/or, PR\\>1%, HER2-negati",
+            "endpoints": [
+              "Suppression of ovarian function"
+            ],
+            "sponsor": "Tolmar Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04906395"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00641303",
+            "title": "A Multi-Center Randomized Controlled Double Blind Trial Assessing the Effect of Acupuncture in Reducing Musculoskeletal Symptoms in Breast Cancer Patients Taking Aromatase Inhibitors",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2008-05",
+            "completion_date": "2011-11",
+            "country": "United States",
+            "enrollment": 51,
+            "brief_summary": "RATIONALE: Acupuncture may help relieve muscle and bone pain caused by aromatase inhibitor therapy, such as letrozole, exemestane, and anastrozole.\n\nPURPOSE: This randomized phase II trial is studying acupuncture to see how well it works in reducing muscle and bone symptoms in women receiving letrozole, exemestane, or anastrozole for stage 0, stage I, stage II, or stage III breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed invasive carcinoma of the breast\n\n  * Stage 0-III disease\n* Estrogen receptor- and/or progesterone receptor-positive by immunohistochemical staining\n* Must be receiving a standard dose of aromatase inhibitor (AI) therapy (i.e., letrozole 2.5 mg on",
+            "endpoints": [
+              "Health Assessment Questionnaire Disability Index (HAQ-DI) score",
+              "Pain scores on visual analog scale (VAS)"
+            ],
+            "sponsor": "University of Maryland, Baltimore",
+            "url": "https://clinicaltrials.gov/study/NCT00641303"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03898947",
+            "title": "Evaluation of Endometrial Changes in Breast Cancer Women With or Without Hormonal Therapies",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2019-12",
+            "country": "N/A",
+            "enrollment": 1329,
+            "brief_summary": "A history of breast cancer is a risk factor for the development of endometrial pathologies, such as typical and atypical glandular hyperplasia, endometrial polyps, uterine fibroids, endometrial adenocarcinoma and uterine sarcoma, probably due to some common risk factors (eg. obesity, nulliparity). Even if ethiopathogenesis for breast cancer and endometrial pathologies is not well established, both genetic factors and hyperestrogenic state may be play a pivotal role for their development. Indeed,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* History of breast cancer treated with surgery (regardless of the adjuvant radio/chemotherapy)\n\nExclusion Criteria:\n\n* Incomplete data collection\n* Recurrence of breast cancer\n* Any other concomitant disease\n* Any pharmacological treatment (wash-out: 3 months) other than Tamoxi",
+            "endpoints": [
+              "Endometrial pathologies"
+            ],
+            "sponsor": "Università degli Studi dell'Insubria",
+            "url": "https://clinicaltrials.gov/study/NCT03898947"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00562458",
+            "title": "ARIMIDEX Study ( Non-interventional Study to Evaluate Arimidex in Adjuvant Therapy in Partial or Complete Response or Stabilized Disease After First Line Chemotherapy in Postmenopausal Women With Advanced Breast Cancer)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2006-12",
+            "completion_date": "",
+            "country": "N/A",
+            "enrollment": 200,
+            "brief_summary": "To evaluate Arimidex 6 month therapy as an adjuvant treatment in postmenopausal patients with advanced breast cancer in whom a partial or complete response or stabilized disease were obtained with first line chemotherapy, by tumoral response assessment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients to be included in the program are that ones according to the indications specified in the Romanian anastrozole (Arimidex) approved SmPC (attached to the protocol)and who are already treated with anastrozole for at least 1 month before inclusion in this program/non-int",
+            "endpoints": [],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT00562458"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00354640",
+            "title": "A Trial Assessing the Effect of Simvastatin on the Pharmacokinetics of Anastrozole",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-06",
+            "completion_date": "2011-11",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "RATIONALE: Chemoprevention is the use of certain drugs to keep cancer from forming, growing, or coming back. The use of simvastatin and anastrozole may stop cancer from forming, growing, or coming back in patients with invasive breast cancer, ductal carcinoma in situ, or a high risk of breast cancer.\n\nPURPOSE: This phase II trial is studying how well giving simvastatin together with anastrozole works in treating postmenopausal women with invasive breast cancer, ductal carcinoma in situ, or a hig",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Meets any of the following criteria:\n\n  * History of invasive breast cancer\n  * History of ductal carcinoma in situ\n  * At high risk for breast cancer, defined as being on anastrozole for chemoprevention of breast cancer\n* Receiving anastrozole for ≥ 30 days as adjuvant b",
+            "endpoints": [
+              "Change in Blood Concentrations"
+            ],
+            "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+            "url": "https://clinicaltrials.gov/study/NCT00354640"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00274469",
+            "title": "A Randomized, Open-Label, Parallel-Group, Multicentre, Phase II Study to Compare the Efficacy and Tolerability of Fulvestrant (FASLODEX™) 500 mg With Anastrozole (ARIMIDEX™) 1 mg as First Line Hormonal Treatment for Postmenopausal Women With Hormone Receptor Positive Advanced Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-02-06",
+            "completion_date": "2017-01-13",
+            "country": "Spain, United Kingdom, France, Brazil, Italy, United States, Bulgaria, Czechia, Poland",
+            "enrollment": 205,
+            "brief_summary": "The purpose of this study is to compare the efficacy and tolerability of Faslodex (fulvestrant) with Arimidex (anastrozole) in postmenopausal women with hormone receptor positive advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed hormone receptor positive advanced breast cancer, postmenopausal women\n\nExclusion Criteria:\n\n* Previous treatment for advanced breast cancer (previous treatment for early breast cancer is allowed).",
+            "endpoints": [
+              "Clinical Benefit Rate"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT00274469"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01921296",
+            "title": "UMCC 2013.051: Prospective Pilot Study Evaluating the Use of Cyclobenzaprine for Treatment of Sleep Disturbance, Fatigue, and Musculoskeletal Symptoms in Aromatase Inhibitor-treated Breast Cancer Patients",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2013-08",
+            "completion_date": "2015-04",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "Many women with breast cancer who are treated with aromatase inhibitor medications develop difficulty sleeping and fatigue during treatment. Some examples of aromatase inhibitor medications include anastrozole (Arimidex), exemestane (Aromasin), and letrozole (Femara). Frequently, sleeping pills do not work very well to improve sleep. Cyclobenzaprine (Flexeril) is a medication that was originally developed to treat muscle spasms. It may also improve sleep in patients with chronic pain disorders, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female gender, age ≥ 18, postmenopausal.\n* Histologically proven stage 0-III invasive carcinoma of the breast\n* Initiating or have been receiving a standard dose of aromatase inhibitor therapy (letrozole 2.5mg once daily or exemestane 25mg once daily or anastrozole 1mg once da",
+            "endpoints": [
+              "Number of Patients That Experience an Improvement in Sleep Quality as Assessed Using the Pittsburgh Sleep Quality Index (PSQI) With 8 Weeks of Cyclobenzaprine Therapy."
+            ],
+            "sponsor": "University of Michigan Rogel Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01921296"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01509079",
+            "title": "Phase 2 Study Vitamin D3 Effects on Musculoskeletal Symptoms With Use of Aromatase Inhibitors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 116,
+            "brief_summary": "The Purpose of this study is to determine whether vitamin D3 supplements will decrease the muscle and bone pain that are reported by women who take Aromatase Inhibitors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Women with a history of stage I-IIIa invasive breast cancer\n* History of hormone-receptor positive cancer (either ER + or PR + or both)\n* Are prescribed and are taking anastrozole, letrozole or exemestane for at least one month and have at least 7 months of AI",
+            "endpoints": [
+              "Change in Musculoskeletal Symptom Sub-scale on the Breast Cancer Prevention Trial Symptom Scale",
+              "Change in Hand Grip Strength"
+            ],
+            "sponsor": "HealthPartners Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01509079"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06507618",
+            "title": "A Randomized, Phase III Trial of Pre-Operative Window of Endocrine Therapy to Inform Radiation Therapy Decisions in Older Women With Early-Stage Breast Cancer (POWER II)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-07-19",
+            "completion_date": "2034-03-01",
+            "country": "United States",
+            "enrollment": 354,
+            "brief_summary": "This is a Phase III, multisite exploratory study for women ≥ 65 years of age with early stage estrogen receptor positive (ER+) breast cancer. These individuals will be treated randomly assigned to one of two groups:\n\nIntervention, treated with 3 months of pre-operative endocrine therapy (pre-ET) OR Control, participants follow standard of care and proceed directly to breast cancer surgery.\n\nBoth arms will be assessed for tolerance and compliance to the endocrine therapy by patient reported outco",
+            "eligibility_criteria": "Inclusion Criteria (summary):\n\n* Diagnosis of ER+, PR +/-, and HER2- non amplified invasive breast cancer and clinically negative nodes\n* ECOG performance status 0-2\n* Females, aged ≥ 65 years\n* Patient is eligible for BCS and opted for BCS\n* Patient is a candidate for radiation therapy\n* Patient is",
+            "endpoints": [
+              "Proportion of participants who omit Radiation Therapy (RT) and are non-adherent to Endocrine Therapy (ET)",
+              "Proportion of participants who are treated with Breast Cancer Surgery (BCS) + RT + AET"
+            ],
+            "sponsor": "University of Virginia",
+            "url": "https://clinicaltrials.gov/study/NCT06507618"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05768139",
+            "title": "First-in-Human Study of STX-478, a Mutant-Selective PI3Kα Inhibitor as Monotherapy and in Combination With Other Antineoplastic Agents in Participants With Advanced Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-04-17",
+            "completion_date": "2030-07",
+            "country": "Spain, France, Belgium, Netherlands, Germany, Italy, United States, Ireland, Japan",
+            "enrollment": 720,
+            "brief_summary": "Study STX-478-101 (LY4064809) is a multipart, open-label, phase 1/2 study evaluating the safety, tolerability, pharmacokinetics (PK), and preliminary antitumor activity of STX-478 (LY4064809) in participants with advanced solid tumors with P13Ka mutations.\n\nPart 1 will evaluate STX-478 as monotherapy in participants with advanced solid tumors. Part 2 will evaluate STX-478 therapy as combination therapy with fulvestrant in participants with hormone receptor positive (HR+) breast cancer. Part 3 wi",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Has an advanced or refractory solid tumor malignancy that is metastatic or locally advanced and unresectable (as specified by Cohort)\n* Has a new or recent tumor biopsy (collected at screening, if feasible) or will provide an adequate tissue sample prior to screening\n* Has",
+            "endpoints": [
+              "Number of participants who experience at least 1 Dose Limiting Toxicity (DLT)",
+              "Proportion of participants who experience at least 1 DLT during the first 28 days of treatment",
+              "Cmax of STX-478"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT05768139"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04852081",
+            "title": "Analysis of Therapy Sequence in Women With Hormone Receptor-positive, HER2-negative Metastatic Breast Cancer in Russia: A Multicentre Retrospective Observational Real-life Study.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2021-01-01",
+            "completion_date": "2021-12-01",
+            "country": "Russia",
+            "enrollment": 1000,
+            "brief_summary": "A assessment of the efficacy of first-/second-line endocrine therapies ± target therapies and chemotherapy in real-life of in patients with hormone receptor-positive (HR+)/HER2-negative metastatic breast cancer has not yet been conducted in Moscow.\n\nMethods: Observational, retrospective study carried out in oncology hospitals in Moscow, in patients with hormone receptor-positive (HR+)/HER2-negative metastatic breast cancer. The descriptive analysis will be conducted for patient characteristics, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has a histologically and/or cytologically confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive breast cancer based on the most recently analyzed tissue sample and all tested by local laboratory. ER should be more than 10% ER positive ",
+            "endpoints": [
+              "To describe treatment sequences of all lines of therapy received by HER2 + mBC patients in Moscow"
+            ],
+            "sponsor": "Blokhin's Russian Cancer Research Center",
+            "url": "https://clinicaltrials.gov/study/NCT04852081"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04852887",
+            "title": "A Phase III Clinical Trial Evaluating De-Escalation of Breast Radiation for Conservative Treatment of Stage I, Hormone Sensitive, HER-2 Negative, Oncotype Recurrence Score Less Than or Equal to 18 Breast Cancer",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2021-06-07",
+            "completion_date": "2041-07",
+            "country": "Hong Kong, Canada, United States, Japan",
+            "enrollment": 1670,
+            "brief_summary": "This Phase III Trial evaluates whether breast conservation surgery and endocrine therapy results in a non-inferior rate of invasive or non-invasive ipsilateral breast tumor recurrence (IBTR) compared to breast conservation with breast radiation and endocrine therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • The patient or a legally authorized representative must provide study-specific informed consent prior to pre-entry/Step 1 and, for patients treated in the U.S., authorization permitting release of personal health information.\n\n  * The patient must have an ECOG performance st",
+            "endpoints": [
+              "Time to invasive or noninvasive IBTR."
+            ],
+            "sponsor": "NRG Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT04852887"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05501704",
+            "title": "ETHAN: A Phase II Study Comparing Different Endocrine THerapies for mAle Breast caNcer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-10-11",
+            "completion_date": "2036-04-01",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "This research study is looking to see how well male breast cancer responds to preoperative treatment with endocrine therapy and which endocrine therapy regimen is the most effective treatment for male breast cancer.\n\nThe drugs used in this study are:\n\n* Tamoxifen\n* Anastrozole\n* Degarelix\n* Abemaciclib",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men aged 18 years or older, with diagnosis of invasive breast cancer who have not undergone surgical resection of the primary tumor and axillary nodes.\n* Stage I, II, or III per American Joint Committee on Cancer (AJCC) staging 8th edition (112).\n* Breast cancer must be hormon",
+            "endpoints": [
+              "Change in Ki-67",
+              "RCB index"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT05501704"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04584853",
+            "title": "PreOperative Endocrine Therapy for Individualised Care With Abemaciclib",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-12-23",
+            "completion_date": "2030-10",
+            "country": "United Kingdom",
+            "enrollment": 123,
+            "brief_summary": "POETIC-A is a phase 3 trial which targets post-menopausal primary breast cancer patients with a high 5-year risk of relapse as determined by a high Ki67 after 2 weeks aromatase inhibitor therapy pre-surgery. Eligible patients will be randomised to standard adjuvant endocrine therapy alone or standard adjuvant endocrine therapy with a CDK4/6 inhibitor called abemaciclib.",
+            "eligibility_criteria": "Registration Stage Inclusion Criteria:\n\n1. Women determined to be postmenopausal according to established local criteria.\n2. Diagnosed operable invasive breast cancer with a clinical/radiological tumour size ≥1.0cm\\*\n3. Grade 2 or 3 tumours\n4. Preoperative full assessment completed (including bilate",
+            "endpoints": [
+              "Time to tumour (local or distant disease) recurrence"
+            ],
+            "sponsor": "Institute of Cancer Research, United Kingdom",
+            "url": "https://clinicaltrials.gov/study/NCT04584853"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00053911",
+            "title": "Randomized And Multicentric Phase III Study Evaluating The Benefit By Using A Chemotherapy With FEC 100 And Docetaxel In Non Metastatic Breast Cancer Which Has Relapsed After A Conservative Surgery",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2002-11",
+            "completion_date": "",
+            "country": "France",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug, and giving them after surgery, may kill any remaining tumor cells following surgery. It is not yet known whether combination chemotherapy is more effective than observation in treating relapsed nonmetastatic breast cancer.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of combination chemotherapy with that of observation in treat",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed adenocarcinoma of the breast\n\n  * No contralateral breast cancer\n* Local tumor recurrence more than 6 months after conservative surgery\n* Complete or conservative resection of the recurrent tumor NOTE: Initial complete surgical resection not allow",
+            "endpoints": [
+              "Evaluation of the disease free survival"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT00053911"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05827081",
+            "title": "A Phase IIIb Study to Characterize the Efficacy and Safety of Adjuvant Ribociclib Plus Endocrine Therapy in a Close-to-clinical Practice Patient Population With HR+ HER2- Early Breast Cancer (Adjuvant WIDER)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-02-28",
+            "completion_date": "2030-09-20",
+            "country": "Hong Kong, Australia, Turkey (Türkiye), Canada, India, South Korea, Germany, Argentina, Israel, United States, China, Portugal, Mexico, Puerto Rico, Taiwan",
+            "enrollment": 1400,
+            "brief_summary": "The purpose of this open-label, multicenter, phase IIIb, single-arm study is to characterize the efficacy and safety of the combination of ribociclib and standard adjuvant endocrine therapy (ET) on invasive breast cancer-free survival (iBCFS), in a close to clinical practice patient population with HR-positive (HR+), HER2-negative (HER2-), Anatomic Stage Group III, IIB, and a subset of Stage IIA Early Breast Cancer (EBC).",
+            "eligibility_criteria": "Key Inclusion criteria:\n\n* Participant is an adult, male or female ≥ 18 years of age at the time of informed consent form signature (IC).\n* Participant has a histologically and/or cytologically confirmed diagnosis of estrogen-receptor positive and/or progesterone receptor positive breast cancer (BC)",
+            "endpoints": [
+              "Invasive Breast Cancer Free Survival (iBCFS) rate at 3 years"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05827081"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "20923259",
+            "title": "Anastrozole.",
+            "abstract": "Anastrozole is a third-generation aromatase inhibitor used in the adjuvant setting for the treatment of hormone receptor-positive breast cancer. Several adjuvant randomized trials have reported greater efficacy for anastrozole when compared to tamoxifen.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2010",
+            "authors": [
+              "Kelly Catherine M",
+              "Buzdar Aman U"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Estrogen Antagonists",
+              "Female",
+              "Humans",
+              "Nitriles",
+              "Polymorphism, Single Nucleotide",
+              "Postmenopause"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20923259/"
+          },
+          {
+            "pmid": "31839281",
+            "title": "Use of anastrozole for breast cancer prevention (IBIS-II): long-term results of a randomised controlled trial.",
+            "abstract": "Two large clinical trials have shown a reduced rate of breast cancer development in high-risk women in the initial 5 years of follow-up after use of aromatase inhibitors (MAP.3 and International Breast Cancer Intervention Study II [IBIS-II]). Here, we report blinded long-term follow-up results for the IBIS-II trial, which compared anastrozole with placebo, with the objective of determining the efficacy of anastrozole for preventing breast cancer (both invasive and ductal carcinoma in situ) in the post-treatment period.",
+            "journal": "Lancet (London, England)",
+            "year": "2020",
+            "authors": [
+              "Cuzick Jack",
+              "Sestak Ivana",
+              "Forbes John F",
+              "Dowsett Mitch",
+              "Cawthorn Simon"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Anastrozole",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Carcinoma, Ductal, Breast",
+              "Carcinoma, Intraductal, Noninfiltrating",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31839281/"
+          },
+          {
+            "pmid": "15639680",
+            "title": "Results of the ATAC (Arimidex, Tamoxifen, Alone or in Combination) trial after completion of 5 years' adjuvant treatment for breast cancer.",
+            "abstract": "The standard adjuvant endocrine treatment for postmenopausal women with hormone-receptor-positive localised breast cancer is 5 years of tamoxifen, but recurrences and side-effects restrict its usefulness. The aromatase inhibitor anastrozole was compared with tamoxifen for 5 years in 9366 postmenopausal women with localised breast cancer. After a median follow-up of 68 months, anastrozole significantly prolonged disease-free survival (575 events with anastrozole vs 651 with tamoxifen, hazard ratio 0.87, 95% CI 0.78-0.97, p=0.01) and time-to-recurrence (402 vs 498, 0.79, 0.70-0.90, p=0.0005), and significantly reduced distant metastases (324 vs 375, 0.86, 0.74-0.99, p=0.04) and contralateral breast cancers (35 vs 59, 42% reduction, 12-62, p=0.01). Almost all patients have completed their scheduled treatment, and fewer withdrawals occurred with anastrozole than with tamoxifen. Anastrozole was also associated with fewer side-effects than tamoxifen, especially gynaecological problems and va",
+            "journal": "Lancet (London, England)",
+            "year": "2005",
+            "authors": [
+              "Howell A",
+              "Cuzick J",
+              "Baum M",
+              "Buzdar A",
+              "Dowsett M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Disease-Free Survival",
+              "Estrogen Antagonists",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15639680/"
+          },
+          {
+            "pmid": "16034487",
+            "title": "Anastrozole.",
+            "abstract": "Recent trials have indicated that the aromatase inhibitors (anastrozole, letrozole, exemestane) are more effective than tamoxifen, the standard adjuvant treatment for estrogen receptor-positive breast cancer, both in adjuvant and first-line advanced settings. This paper reviews the mode of action and the main clinical trials done with anastrozole, the only aromatase inhibitor currently licensed for use in the adjuvant setting in estrogen receptor-positive tumors. Results from studies using anastrozole as a first-line treatment in advanced disease strongly suggest that this drug should now be considered as an alternative first-line therapy to tamoxifen in postmenopausal women with estrogen receptor-positive advanced breast cancer. As a second-line treatment in tamoxifen failures, anastrozole has shown a better survival rate and a better side-effect profile than megestrol acetate. Similarly, the use of anastrozole in the adjuvant setting has shown a significantly prolonged disease-free s",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2005",
+            "authors": [
+              "Cuzick Jack"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Neoplasm Recurrence, Local"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16034487/"
+          },
+          {
+            "pmid": "16439860",
+            "title": "Role of anastrozole across the breast cancer continuum: from advanced to early disease and prevention.",
+            "abstract": "Breast tumorigenesis is a continuum from preinvasive lesions to early breast cancer and advanced disease. In this article the data supporting the use of the aromatase inhibitor anastrozole in postmenopausal women across this continuum are reviewed. In advanced disease, anastrozole has a significant survival benefit and tolerability advantage compared with megestrol acetate when used as second-line treatment. As first-line therapy, anastrozole significantly prolongs time to progression compared with tamoxifen in women with hormone receptor-positive (HR+) disease. In the adjuvant setting, anastrozole has superior efficacy and tolerability compared with tamoxifen in newly diagnosed patients and those who have already received 2-3 years' prior adjuvant tamoxifen. Therefore, anastrozole should be considered a preferred treatment option for postmenopausal women with HR+ early breast cancer. Furthermore, anastrozole has preoperative efficacy in HR+ large or locally advanced tumors. Finally, a",
+            "journal": "Oncology",
+            "year": "2006",
+            "authors": [
+              "Nabholtz Jean-Marc"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Disease-Free Survival",
+              "Estrogen Receptor Modulators",
+              "Female",
+              "Humans",
+              "Neoadjuvant Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16439860/"
+          },
+          {
+            "pmid": "28614542",
+            "title": "Use of anastrozole in the chemoprevention and treatment of breast cancer: A literature review.",
+            "abstract": "Aromatase inhibitors have emerged as an alternative endocrine therapy for the treatment of hormone sensitive breast cancer in postmenopausal women. The use of third-generation inhibitors represented by exemestane, letrozol and anastrozole is currently indicated. Anastrozole is a nonsteroidal compound and a potent selective inhibitor of the aromatase enzyme. Although a few studies have shown that its pharmacodynamic and pharmacokinetic properties may be affected by interindividual variability, this drug has been recently used in all configurations of breast cancer treatment. In metastatic disease, it is currently considered the first-line treatment for postmenopausal women with estrogen receptor-positive breast tumors. Anastrozole has shown promising results in the adjuvant treatment of early-stage breast cancer in postmenopausal women. It has also achieved interesting results in the chemoprevention of the disease. Therefore, due to the importance of anastrozole both for endocrine treat",
+            "journal": "Revista da Associacao Medica Brasileira (1992)",
+            "year": "2017",
+            "authors": [
+              "Barros-Oliveira Maria da Conceição",
+              "Costa-Silva Danylo Rafhael",
+              "Andrade Danielle Benigno de",
+              "Borges Umbelina Soares",
+              "Tavares Cléciton Braga"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemoprevention",
+              "Chemotherapy, Adjuvant",
+              "Female",
+              "Humans",
+              "Nitriles",
+              "Postmenopause"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28614542/"
+          },
+          {
+            "pmid": "14687437",
+            "title": "Focus on anastrozole and breast cancer.",
+            "abstract": "This commentary article provides an overview of recent clinical research trials involving anastrozole and its evolving role in the management of breast cancer. Anti-aromatase agents inhibit the cytochrome P-450 component of the aromatase enzyme complex responsible for the final step of estrogen biosynthesis in peripheral tissues which are the main source of estrogen in postmenopausal women. Anastrozole is a third-generation non-steroidal aromatase inhibitor. It has been shown to be superior to megestrol acetate, in terms of survival and adverse effects, as a second-line therapy in postmenopausal women with estrogen receptor (ER)- and/or progesterone receptor (PgR)-positive advanced breast cancer. Phase III clinical trials have also demonstrated that anastrozole significantly prolongs the time to tumour progression compared with tamoxifen as a first-line therapy for ER- and/or PgR-positive advanced breast cancer in postmenopausal women. Furthermore, the preliminary results of the Arimid",
+            "journal": "Current medical research and opinion",
+            "year": "2003",
+            "authors": [
+              "Mokbel K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Drug Therapy, Combination",
+              "Enzyme Inhibitors",
+              "Estrogens",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14687437/"
+          },
+          {
+            "pmid": "41024216",
+            "title": "Possible role of anastrozole-induced hormonal alterations in pathogenesis of mammary apocrine carcinoma and follicular lymphoma: a case report and review of the literature.",
+            "abstract": "In postmenopausal women, aromatase inhibitors decrease estrogen levels and increase local dihydrotestosterone concentrations. In this case report, we describe interesting associations between aromatase-inhibitor-induced hormonal changes and the development of apocrine mammary carcinoma and follicular lymphoma.",
+            "journal": "Journal of medical case reports",
+            "year": "2025",
+            "authors": [
+              "Kitagawa Yukiko",
+              "Nassiri Mehdi",
+              "Mesa Hector",
+              "Prakash Jamunabai",
+              "Popnikolov Nikolay"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Female",
+              "Humans",
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Carcinoma, Ductal, Breast",
+              "Lymphoma, Follicular",
+              "Mammography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41024216/"
+          },
+          {
+            "pmid": "16761927",
+            "title": "Anastrozole for breast cancer: recent advances and ongoing challenges.",
+            "abstract": "Third-generation aromatase inhibitors are accepted widely as alternatives to tamoxifen for the treatment of advanced breast cancer in postmenopausal women and, currently, are increasingly replacing tamoxifen in the adjuvant setting. This drug profile focuses on recent clinical developments in the use of anastrozole and, in particular, on the Arimidex, Tamoxifen, Alone or in Combination trial, which has shown that initial adjuvant treatment with anastrozole has significant efficacy and tolerability advantages compared with tamoxifen for postmenopausal women with early breast cancer. Results of adjuvant switching, extended adjuvant and preoperative (neoadjuvant) studies are reviewed and the potential of anastrozole in a range of clinical settings is discussed. Treatment recommendations and the future role of anastrozole in the management of patients with early breast cancer are also considered.",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2006",
+            "authors": [
+              "Buzdar Aman U"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Female",
+              "Humans",
+              "Nitriles",
+              "Tamoxifen",
+              "Triazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16761927/"
+          },
+          {
+            "pmid": "24716940",
+            "title": "Fulvestrant 250 mg versus anastrozole 1 mg in the treatment of advanced breast cancer: a meta-analysis of randomized controlled trials.",
+            "abstract": "Most patients with advanced breast cancer experience resistance to endocrine treatment and eventual disease progression. This meta-analysis was designed to compare the efficacy and tolerability of fulvestrant 250 mg with anastrozole 1mg in postmenopausal women with advanced breast cancer.",
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2014",
+            "authors": [
+              "Gong Dan-Dan",
+              "Man Chang-Feng",
+              "Xu Juan",
+              "Fan Yu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Breast Neoplasms",
+              "Disease Progression",
+              "Estradiol",
+              "Female",
+              "Fulvestrant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24716940/"
+          },
+          {
+            "pmid": "24292402",
+            "title": "Impact of BMI on serum estradiol and bone turnover markers in postmenopausal women with hormone-sensitive early breast cancer treated with anastrozole.",
+            "abstract": "Obesity increases the risk of all-cause and breast cancer mortality. As obese patients have higher levels of aromatase enzyme activity, conflicting results on the effect of body mass index (BMI) of a standard dose aromatase inhibitor on estradiol depletion have been reported.",
+            "journal": "Journal of cancer research and clinical oncology",
+            "year": "2014",
+            "authors": [
+              "Kyvernitakis I",
+              "Knöll D",
+              "Struck M",
+              "Hars O",
+              "Bauer T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Aromatase Inhibitors",
+              "Body Mass Index",
+              "Bone and Bones",
+              "Breast Neoplasms",
+              "Collagen Type I",
+              "Estradiol",
+              "Female",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24292402/"
+          },
+          {
+            "pmid": "21508387",
+            "title": "Effect of tamoxifen or anastrozole on steroid sulfatase activity and serum androgen concentrations in postmenopausal women with breast cancer.",
+            "abstract": "In postmenopausal women estrogens can be formed by the aromatase pathway, which gives rise to estrone, and the steroid sulfatase (STS) route which can result in the formation of estrogens and androstenediol, a steroid with potent estrogenic properties. Aromatase inhibitors, such as anastrozole, are now in clinical use whereas STS inhibitors, such as STX64, are still undergoing clinical evaluation. STX64 was recently shown to block STS activity and reduce serum androstenediol concentrations in postmenopausal women with breast cancer. In contrast, little is known about the effects of aromatase inhibitors or anti-estrogens on STS activity or serum androgen levels.",
+            "journal": "Anticancer research",
+            "year": "2011",
+            "authors": [
+              "Stanway S J",
+              "Palmieri C",
+              "Stanczyk F Z",
+              "Folkerd E J",
+              "Dowsett M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Androgens",
+              "Antineoplastic Agents, Hormonal",
+              "Breast Neoplasms",
+              "Female",
+              "Gas Chromatography-Mass Spectrometry",
+              "Humans",
+              "Neoplasms, Hormone-Dependent",
+              "Nitriles",
+              "Postmenopause"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21508387/"
+          },
+          {
+            "pmid": "26160683",
+            "title": "Testosterone and breast cancer prevention.",
+            "abstract": "Testosterone (T) is the most abundant biologically active hormone in women. Androgen receptors (AR) are located throughout the body including the breast where T decreases tissue proliferation. However, T can be aromatized to estradiol (E2), which increases proliferation and hence, breast cancer (BCA) risk. Increased aromatase expression and an imbalance in the ratio of stimulatory estrogens to protective androgens impacts breast homeostasis. Recent clinical data supports a role for T in BCA prevention. Women with symptoms of hormone deficiency treated with pharmacological doses of T alone or in combination with anastrozole (A), delivered by subcutaneous implants, had a reduced incidence of BCA. In addition, T combined with A effectively treated symptoms of hormone deficiency in BCA survivors and was not associated with recurrent disease. Most notably, T+A implants placed in breast tissue surrounding malignant tumors significantly reduced BCA tumor size, further supporting T direct anti",
+            "journal": "Maturitas",
+            "year": "2015",
+            "authors": [
+              "Glaser R",
+              "Dimitrakakis C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Androgens",
+              "Aromatase",
+              "Aromatase Inhibitors",
+              "Breast",
+              "Breast Neoplasms",
+              "Drug Implants",
+              "Estrogens",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26160683/"
+          },
+          {
+            "pmid": "12113022",
+            "title": "Anastrozole: pharmacological and clinical profile in postmenopausal women with breast cancer.",
+            "abstract": "A significant proportion of breast cancers are estrogen-dependent and are therefore amenable to endocrine therapy. Although tamoxifen has been the mainstream of endocrine treatment for over 20 years, new agents have entered the clinic, which have potentially superior activity and an improved safety profile. The development of orally-active, potent and selective third-line aromatase inhibitors represents a major advantage in the management of hormone-sensitive breast cancer. Anastrozole (Arimidex) was the first of these agents to become available and is currently widely indicated for both first- and second-line treatment for postmenopausal women with breast cancer. This review focuses on the biochemical properties and clinical efficacy of anastrozole, providing an overview of the current clinical status and possible future applications.",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2001",
+            "authors": [
+              "Köberle D",
+              "Thürlimann B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Pharmaceutic",
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Breast Neoplasms",
+              "Clinical Trials as Topic",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Neoadjuvant Therapy",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12113022/"
+          },
+          {
+            "pmid": "11487258",
+            "title": "Pharmacokinetics of anastrozole and tamoxifen alone, and in combination, during adjuvant endocrine therapy for early breast cancer in postmenopausal women: a sub-protocol of the 'Arimidex and tamoxifen alone or in combination' (ATAC) trial.",
+            "abstract": "The ATAC trial evaluates in a randomized, double-blind design, Arimidextrade mark (anastrozole) alone or in combination with tamoxifen, relative to tamoxifen alone as 5-year adjuvant treatment in postmenopausal women with early breast cancer. Patients included in the pharmacokinetic (PK) sub-protocol had been in ATAC for > or =3 months, taking their medication in the morning and were 100% compliant for the preceding 14 days. Blood samples were collected 24 +/- 4 h after last dose. Trough (C(min)) plasma concentrations of anastrozole, tamoxifen and desmethyltamoxifen (DMT) were measured by validated methods. The PK results were based on a total of 347 patients (131 anastrozole (1 mg o.d.), 111 tamoxifen (20 mg o.d.), 105 anastrozole and tamoxifen (1 and 20 mg o.d. respectively)). The geometric mean steady-state trough plasma concentrations of tamoxifen and DMT were statistically equivalent in patients receiving tamoxifen alone or in combination with anastrozole: geometric mean tamoxifen",
+            "journal": "British journal of cancer",
+            "year": "2001",
+            "authors": [
+              "Dowsett M",
+              "Cuzick J",
+              "Howell A",
+              "Jackson I"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Double-Blind Method",
+              "Enzyme Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11487258/"
+          },
+          {
+            "pmid": "25203739",
+            "title": "The influence of genetic polymorphisms on the efficacy and side effects of anastrozole in postmenopausal breast cancer patients.",
+            "abstract": "Breast cancer is a common cause of cancer mortality among women. Several genetic factors have been implicated in its development. Current treatment guidelines for estrogen receptor-positive breast cancer recommend that anastrozole [or any of the other two aromatase inhibitors (letrozole and exemestane)] is used as an alternative to tamoxifen or following several years of tamoxifen treatment. Nevertheless, this approach is still associated with many challenges, ranging from the recurrence of breast cancer to considerable interindividual variability in the tolerability of anastrozole, which may cause adverse effects, such as musculoskeletal symptoms, and lead to the withdrawal of many patients from treatment. Variabilities in the genes encoding the drug target (aromatase) or its metabolizing enzymes (CYP3A and UGT1A) contribute toward the interindividual variability in anastrozole's pharmacokinetics and/or pharmacodynamics. This paper reviews the role of genetic polymorphisms of CYP19A1,",
+            "journal": "Pharmacogenetics and genomics",
+            "year": "2014",
+            "authors": [
+              "Abubakar Murtala B",
+              "Wei Keat",
+              "Gan Siew Hua"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase",
+              "Breast Neoplasms",
+              "Cytochrome P-450 CYP3A",
+              "Female",
+              "Glucuronosyltransferase",
+              "Humans",
+              "Nitriles",
+              "Polymorphism, Single Nucleotide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25203739/"
+          },
+          {
+            "pmid": "34048027",
+            "title": "Interaction Between SNP Genotype and Efficacy of Anastrozole and Exemestane in Early-Stage Breast Cancer.",
+            "abstract": "Aromatase inhibitors (AIs) are the treatment of choice for hormone receptor-positive early breast cancer in postmenopausal women. None of the third-generation AIs are superior to the others in terms of efficacy. We attempted to identify genetic factors that could differentiate between the effectiveness of adjuvant anastrozole and exemestane by examining single-nucleotide polymorphism (SNP)-treatment interaction in 4,465 patients. A group of SNPs were found to be differentially associated between anastrozole and exemestane regarding outcomes. However, they showed no association with outcome in the combined analysis. We followed up common SNPs near LY75 and GPR160 that could differentiate anastrozole from exemestane efficacy. LY75 and GPR160 participate in epithelial-to-mesenchymal transition and growth pathways, in both cases with SNP-dependent variation in regulation. Collectively, these studies identified SNPs that differentiate the efficacy of anastrozole and exemestane and they sugg",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2021",
+            "authors": [
+              "Cairns Junmei",
+              "Kalari Krishna R",
+              "Ingle James N",
+              "Shepherd Lois E",
+              "Ellis Matthew J"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Androstadienes",
+              "Antigens, CD",
+              "Antineoplastic Agents, Hormonal",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Epithelial-Mesenchymal Transition",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34048027/"
+          },
+          {
+            "pmid": "19445563",
+            "title": "Comparative review of anastrozole, letrozole and exemestane in the management of early breast cancer.",
+            "abstract": "The hormonal therapy of patients with endocrine-sensitive early breast cancer has mainly consisted, for several decades, of the gold standard tamoxifen. The efficacy and favorable toxicity profiles of third-generation aromatase inhibitors (AIs), anastrozole, letrozole and exemestane, in advanced disease led to their development in early breast cancer. Recent results consistently show the superiority of these agents over tamoxifen. Adjuvant trials evaluated AIs using four different therapeutic approaches: (1) Upfront strategy: randomization of newly diagnosed patients: tamoxifen for 5 years versus AI for 5 years. (2) Sequencial strategy: randomization of newly diagnosed patients: tamoxifen (2 - 3 years) followed by AI or the inverse for a total of 5 years versus upfront AI for 5 years. (3) Switch strategy: delayed randomization (or analysis) after 2 - 3 years of tamoxifen (patients free of disease): 2 - 3 years of tamoxifen versus 2 - 3 years of AI (total treatment 5 years). (4) Extende",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2009",
+            "authors": [
+              "Nabholtz Jean-Marc",
+              "Mouret-Reynier Marie-Ange",
+              "Durando Xavier",
+              "Van Praagh Isabelle",
+              "Al-Sukhun Sana"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Androstadienes",
+              "Animals",
+              "Breast Neoplasms",
+              "Disease Management",
+              "Early Detection of Cancer",
+              "Female",
+              "Humans",
+              "Letrozole",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19445563/"
+          },
+          {
+            "pmid": "32632513",
+            "title": "Genetic and clinical predictors of arthralgia during letrozole or anastrozole therapy in breast cancer patients.",
+            "abstract": "Female patients with breast cancer frequently develop arthralgia when treated with aromatase inhibitors (AI). Although the mechanism of AI-induced arthralgia is unknown, potential biomarkers have been identified. The purpose of this study was to investigate the clinical and genetic predictors of AI-induced arthralgia in a prospective cohort of patients with estrogen receptor-positive breast cancer.",
+            "journal": "Breast cancer research and treatment",
+            "year": "2020",
+            "authors": [
+              "Borrie Adrienne E",
+              "Rose Finnley A",
+              "Choi Yun-Hee",
+              "Perera Francisco E",
+              "Read Nancy"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anastrozole",
+              "Aromatase",
+              "Aromatase Inhibitors",
+              "Arthralgia",
+              "Biomarkers",
+              "Breast Neoplasms",
+              "Estrogen Receptor alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32632513/"
+          },
+          {
+            "pmid": "30499075",
+            "title": "Endocrine Therapy for Ductal Carcinoma In Situ (DCIS) of the Breast with Breast Conserving Surgery (BCS) and Radiotherapy (RT): a Meta-Analysis.",
+            "abstract": "The management of ductal carcinoma in situ (DCIS) with endocrine therapy remains controversial. A meta-analysis was conducted to evaluate the role of endocrine therapy for DCIS with breast conserving surgery (BCS) and radiotherapy (RT). A total of 7 articles with randomized controlled trials were included. Five articles compared the effects of BCS and RT followed by tamoxifen (TAM) or not (BCS + RT + TAM vs BCS + RT) and 2 compared the effects of TAM and anastrozole (ANA). TAM obviously reduced the rates of recurrence of ipsilateral breast cancer (IBCR), recurrence of contralateral breast cancer (CBCR), recurrence of ipsilateral invasive breast cancer (IBCR-INV) and recurrence of contralateral DCIS (CBCR-DCIS), and increased the rate of event-free survival (EFS). While ANA reduced the rates of CBCR and recurrence of contralateral invasive breast cancer (CBCR-INV). Patients with ANA had higher incidence of arthralgia, osteoporosis, hypercholesteremia, headache and vaginal dryness, but l",
+            "journal": "Pathology oncology research : POR",
+            "year": "2020",
+            "authors": [
+              "Yan Yanli",
+              "Zhang Long",
+              "Tan Li",
+              "Ma Xiaowei",
+              "Zhang Yong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Breast Neoplasms",
+              "Carcinoma, Intraductal, Noninfiltrating",
+              "Combined Modality Therapy",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Mastectomy, Segmental",
+              "Neoplasm Recurrence, Local"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30499075/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuroblastoma",
+        "txgnn_score": 0.995262861251831,
+        "txgnn_rank": 6264,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.9941877126693726,
+        "txgnn_rank": 7218,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.9940896034240724,
+        "txgnn_rank": 7307,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal neoplasm",
+        "txgnn_score": 0.993299126625061,
+        "txgnn_rank": 8006,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "21403449",
+            "title": "[A case of possible retroperitoneal metastasis of breast cancer successfully treated with oral S-1 and cyclophosphamide therapy after TC therapy].",
+            "abstract": "We report a case of possible retroperitoneal metastasis of breast cancer successfully treated with oral S-1 and cyclophosphamide therapy after docetaxel and cyclophosphamide (TC) therapy. A 57-year-old woman with a history of bilateral breast cancer showed an increase in tumor markers during treatment with oral anastrozole as postoperative adjuvant therapy 4 years after her second cancer surgery. After careful examination, the patient was diagnosed as having multiple bone metastases and her medication was changed to oral letrozole. After 3 months, the patient developed left back pain and was referred to our hospital. CT scanning showed an enhanced mass in the region from the left perirenal and posterior pararenal spaces to the left psoas major muscle and the anterior aspect of the left iliacus muscle, suggesting retroperitoneal metastasis. TC therapy was performed and, as a result, tumor markers decreased and the mass disappeared on CT imaging. After discontinuation of TC therapy, the ",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2011",
+            "authors": [
+              "Yoneyama Kimiyasu",
+              "Takeshita Toshio",
+              "Suzuki Hiroshi",
+              "Morise Masaki",
+              "Suzuki Tetsutarou"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Docetaxel",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21403449/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monocytic leukemia",
+        "txgnn_score": 0.9916377663612366,
+        "txgnn_rank": 9285,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhabdomyosarcoma (disease)",
+        "txgnn_score": 0.9886138439178468,
+        "txgnn_rank": 11588,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.9880742430686952,
+        "txgnn_rank": 12011,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29343958",
+            "title": "Preparation of anastrozole loaded PEG-PLA nanoparticles: evaluation of apoptotic response of breast cancer cell lines.",
+            "abstract": "Anastrozole (ANS) is an aromatase inhibitor that is widely used as a treatment for breast cancer in postmenopausal women. Despite the wide use of ANS, it is associated with serious side effects due to uncontrolled delivery. In addition, ANS exhibits low solubility and short plasma half-life. Nanotechnology-based drug delivery has the potential to enhance the efficacy of drugs and overcome undesirable side effects. In this study, we aimed to prepare novel ANS-loaded PLA-PEG-PLA nanoparticles (ANS-NPs) and to compare the apoptotic response of MCF-7 cell line to both ANS and ANS-loaded NPs.",
+            "journal": "International journal of nanomedicine",
+            "year": "2018",
+            "authors": [
+              "Alyafee Yusra A",
+              "Alaamery Manal",
+              "Bawazeer Shahad",
+              "Almutairi Mansour S",
+              "Alghamdi Badr"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Apoptosis",
+              "Aromatase Inhibitors",
+              "Breast Neoplasms",
+              "Cell Survival",
+              "Drug Delivery Systems",
+              "Female",
+              "Gene Expression Regulation, Neoplastic",
+              "Half-Life",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29343958/"
+          },
+          {
+            "pmid": "11161223",
+            "title": "Drug approval summaries: arsenic trioxide, tamoxifen citrate, anastrazole, paclitaxel, bexarotene.",
+            "abstract": "This report summarizes information on drugs recently approved by the Food and Drug Administration, Office of Drug Evaluation I, Division of Oncology Drug Products. Five applications supporting new claims will be discussed: Trisenox (arsenic trioxide) for induction of remission and consolidation in patients with acute promyelocytic leukemia who are refractory to, or have relapsed from, retinoid and anthracycline chemotherapy, and whose disease is characterized by the presence of the t(15;17) translocation or PML/RAR-alpha gene expression; Nolvadex (tamoxifen citrate) in women with ductal carcinoma in situ, following breast surgery and radiation, to reduce the risk of invasive breast cancer; Arimidex (anastrazole) for first-line treatment of postmenopausal women with hormone receptor positive or hormone receptor unknown locally advanced or metastatic breast cancer; Taxol (paclitaxel), 175 mg/m(2) by 3 h infusion in combination with cisplatin for first-line treatment of advanced ovarian c",
+            "journal": "The oncologist",
+            "year": "2001",
+            "authors": [
+              "Cohen M H",
+              "Hirschfeld S",
+              "Flamm Honig S",
+              "Ibrahim A",
+              "Johnson J R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Anticarcinogenic Agents",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Agents, Phytogenic",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Bexarotene",
+              "Breast Neoplasms",
+              "Drug Approval"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11161223/"
+          },
+          {
+            "pmid": "17326321",
+            "title": "t(8;16) AML developed subsequent to breast cancer therapy.",
+            "abstract": "We report a breast cancer patient who developed acute myeloid leukemia (AML) one year following her adjuvant chemotherapy consisting of cyclophosphamide, adriamycin and 5-fluorouracil. Cytogenetic examination of bone marrow samples resulted in t(8;16)(p11.2;p13.3), which is a chromosome rearrangement observed in de novo and treatment related AML M4/M5 with a poor prognosis.",
+            "journal": "Hematology (Amsterdam, Netherlands)",
+            "year": "2006",
+            "authors": [
+              "Sahin Feride Iffet",
+              "Yilmaz Zerrin",
+              "Karakuş Sema",
+              "Boğa Salih",
+              "Akçali Zefer"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anastrozole",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bone Marrow",
+              "Breast Neoplasms",
+              "Carcinoma, Ductal, Breast",
+              "Carcinoma, Lobular",
+              "Chemotherapy, Adjuvant",
+              "Chromosomes, Human, Pair 16",
+              "Chromosomes, Human, Pair 8"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17326321/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "collagenopathy",
+        "txgnn_score": 0.9878310561180116,
+        "txgnn_rank": 12187,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphocytic hypereosinophilic syndrome",
+        "txgnn_score": 0.9877839684486388,
+        "txgnn_rank": 12227,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01217",
+    "name": "Anastrozole",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Anastrozole"
+      },
+      "queried_at": "2026-03-10T01:24:04.327141",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Anastrozole"
+      },
+      "queried_at": "2026-03-10T01:24:25.435127",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T01:24:45.354639",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T01:24:52.045299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T01:25:00.746739",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "neuroblastoma"
+      },
+      "queried_at": "2026-03-10T01:25:01.677534",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "neuroblastoma"
+      },
+      "queried_at": "2026-03-10T01:25:06.914555",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "neuroblastoma"
+      },
+      "queried_at": "2026-03-10T01:25:08.479051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T01:25:09.309843",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T01:25:13.146423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T01:25:14.756463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:25:16.410767",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:25:20.168403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:25:21.542372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T01:25:22.460855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T01:25:27.727199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T01:25:32.293138",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "monocytic leukemia"
+      },
+      "queried_at": "2026-03-10T01:25:33.217745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "monocytic leukemia"
+      },
+      "queried_at": "2026-03-10T01:25:38.174154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "monocytic leukemia"
+      },
+      "queried_at": "2026-03-10T01:25:39.304012",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:25:41.333570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:25:47.273214",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:25:48.826767",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T01:25:50.611192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T01:25:56.538252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T01:26:00.507859",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "collagenopathy"
+      },
+      "queried_at": "2026-03-10T01:26:01.392135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "collagenopathy"
+      },
+      "queried_at": "2026-03-10T01:26:06.310419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "collagenopathy"
+      },
+      "queried_at": "2026-03-10T01:26:08.469968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "lymphocytic hypereosinophilic syndrome"
+      },
+      "queried_at": "2026-03-10T01:26:10.059536",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "lymphocytic hypereosinophilic syndrome"
+      },
+      "queried_at": "2026-03-10T01:26:18.344639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Anastrozole",
+        "disease": "lymphocytic hypereosinophilic syndrome"
+      },
+      "queried_at": "2026-03-10T01:26:20.679026",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:26:20.727096"
+  }
+}

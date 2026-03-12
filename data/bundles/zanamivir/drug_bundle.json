@@ -1,0 +1,666 @@
+{
+  "drug": {
+    "inn": "Zanamivir",
+    "drugbank_id": "DB00558",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pyelonephritis",
+        "txgnn_score": 0.9983874559402466,
+        "txgnn_rank": 2911,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disorder of tyrosine metabolism",
+        "txgnn_score": 0.9902348518371582,
+        "txgnn_rank": 10372,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "23675925",
+            "title": "Emergence of oseltamivir resistance: control and management of influenza before, during and after the pandemic.",
+            "abstract": "Neuraminidase inhibitors (NAIs), such as oseltamivir and zanamivir, are the medicines of choice against influenza A or B. Oseltamivir resistance can be conferred by a single point missense mutation from histidine to tyrosine at position 275 (H275Y) of the neuraminidase gene. Oseltamivir resistance in seasonal influenza A/H1N1 strains rose markedly during the 2007-2008 season. Furthermore, oseltamivir resistant (OsR) strains of pandemic influenza A/H1N1 2009 (influenza A(H1N1)pdm09) have been increasingly isolated, although the majority remain sensitive. These OsR strains retain virulence, replicative fitness and transmissibility from person to person, with outbreaks reported. Treatment options in those at risk of severe or complicated disease are limited to zanamivir which is only licenced in those over the age of 5 years; of further concern, strains demonstrating low level resistance to both oseltamivir and zanamivir have been reported. Strategies to reduce emergence of resistant stra",
+            "journal": "Infectious disorders drug targets",
+            "year": "2013",
+            "authors": [
+              "Dixit Rashmi",
+              "Khandaker Gulam",
+              "Ilgoutz Scott",
+              "Rashid Harunor",
+              "Booy Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibiotic Prophylaxis",
+              "Antiviral Agents",
+              "Child",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Viral",
+              "Enzyme Inhibitors",
+              "Global Health",
+              "Humans",
+              "Influenza A Virus, H1N1 Subtype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23675925/"
+          },
+          {
+            "pmid": "25727669",
+            "title": "A surface plasmon resonance assay for measurement of neuraminidase inhibition, sensitivity of wild-type influenza neuraminidase and its H274Y mutant to the antiviral drugs zanamivir and oseltamivir.",
+            "abstract": "Antiviral resistance is currently monitored by a labelled enzymatic assay, which can give inconsistent results because of the short half-life of the labelled product, and variations in assay conditions. In this paper, we describe a competitive surface plasmon resonance (SPR) inhibition assay for measuring the sensitivities of wild-type neuraminidase (WT NA) and the H274Y (histidine 274 tyrosine) NA mutant to antiviral drugs. The two NA isoforms were expressed in High-five™ (Trichoplusia ni) insect cells. A spacer molecule (1,6-hexanediamine (HDA)) was conjugated to the 7-hydroxyl group of zanamivir, and the construct (HDA-zanamivir) was immobilized onto a SPR sensor chip to obtain a final immobilization response of 431 response units. The immobilized HDA-zanamivir comprised a bio-specific ligand for the WT and mutant proteins. The effects of the natural substrate (sialic acid) and two inhibitors (zanamivir and oseltamivir) on NA binding to the immobilized ligand were studied. The proce",
+            "journal": "Journal of molecular recognition : JMR",
+            "year": "2015",
+            "authors": [
+              "Somasundaram Balaji",
+              "Fee Conan J",
+              "Fredericks Rayleen",
+              "Watson Andrew J A",
+              "Fairbanks Antony J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiviral Agents",
+              "Cell Line",
+              "Enzyme Inhibitors",
+              "Humans",
+              "Influenza, Human",
+              "Inhibitory Concentration 50",
+              "Insecta",
+              "Mutation",
+              "Neuraminidase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25727669/"
+          },
+          {
+            "pmid": "21367898",
+            "title": "Effect of an asparagine-to-serine mutation at position 294 in neuraminidase on the pathogenicity of highly pathogenic H5N1 influenza A virus.",
+            "abstract": "Like the histidine-to-tyrosine substitution at position 274 in neuraminidase (NA H274Y), an asparagine-to-serine mutation at position 294 in this protein (NA N294S) confers oseltamivir resistance to highly pathogenic H5N1 influenza A viruses. However, unlike viruses with the NA H274Y mutation, the properties of viruses possessing NA N294S are not well understood. Here, we assessed the effect of the NA N294S substitution on the replication and pathogenicity of human H5N1 viruses and on the efficacy of the NA inhibitors oseltamivir and zanamivir in mouse and ferret models. Although NA N294S-possessing H5N1 viruses were attenuated in mice and ferrets compared to their oseltamivir-sensitive counterparts, one of the infected ferrets died from systemic infection, demonstrating the potential lethality in ferrets of oseltamivir-resistant H5N1 viruses with the NA N294S substitution. The efficacy of oseltamivir, but not that of zanamivir, against an NA N294S-possessing virus was substantially im",
+            "journal": "Journal of virology",
+            "year": "2011",
+            "authors": [
+              "Kiso Maki",
+              "Ozawa Makoto",
+              "Le Mai Thi Quynh",
+              "Imai Hirotaka",
+              "Takahashi Kei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Substitution",
+              "Animals",
+              "Antiviral Agents",
+              "Asparagine",
+              "Disease Models, Animal",
+              "Drug Resistance, Viral",
+              "Female",
+              "Ferrets",
+              "Influenza A Virus, H5N1 Subtype",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21367898/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "teratogenic Pierre Robin syndrome",
+        "txgnn_score": 0.9893972873687744,
+        "txgnn_rank": 10966,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disorder of phenylalanine metabolism",
+        "txgnn_score": 0.9886088371276855,
+        "txgnn_rank": 11592,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria",
+        "txgnn_score": 0.98406720161438,
+        "txgnn_rank": 14773,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "legionnaire disease, susceptibility to",
+        "txgnn_score": 0.9840080738067628,
+        "txgnn_rank": 14818,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "susceptibility to HIV infection",
+        "txgnn_score": 0.9840080738067628,
+        "txgnn_rank": 14819,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01231620",
+            "title": "A Phase III International, Randomized, Double-blind, Double-dummy Study to Evaluate the Efficacy and Safety of 300 mg or 600 mg of Intravenous Zanamivir Twice Daily Compared to 75 mg of Oral Oseltamivir Twice Daily in the Treatment of Hospitalized Adults and Adolescents With Influenza",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-01-15",
+            "completion_date": "2015-03-18",
+            "country": "Australia, India, Belgium, United States, Canada, South Korea, Netherlands, Russia, Czechia, Thailand, Norway, Hong Kong, Colombia, Poland, France, United Kingdom, New Zealand, Brazil, Germany, Denmark, Mexico, Hungary, Spain, Slovakia, China, Greece, South Africa, Taiwan",
+            "enrollment": 626,
+            "brief_summary": "The purpose of this study is to test the safety and efficacy of zanamivir given intravenously and how well it works at two different doses in hospitalized adolescents and adults with flu. Zanamivir will be compared with oseltamivir, which is used for treating flu.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female aged 16 years; a female is eligible to enter and participate in the study if she is:\n\n  1. of non-childbearing potential (i.e., physiologically incapable of becoming pregnant, including any female who is post- menopausal); or,\n  2. of child-bearing potential, ha",
+            "endpoints": [
+              "Time to Clinical Response (TTCR) in Participants With Confirmed Influenza"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01231620"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01014988",
+            "title": "An Open-label, Multi-center, Single Arm Study to Evaluate the Safety and Tolerability of Intravenous Zanamivir in the Treatment of Hospitalized Adult, Adolescent and Pediatric Subjects With Confirmed Influenza Infection",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-11",
+            "completion_date": "2015-02",
+            "country": "Hong Kong, Australia, Spain, France, Canada, United Kingdom, Brazil, United States, Russia, Norway, South Africa, Thailand, Japan",
+            "enrollment": 202,
+            "brief_summary": "The purpose of this study is to determine whether zanamivir aqueous solution given by intravenous injection is safe in treating hospitalized patients with confirmed influenza infection. A single arm open-label design has been selected to achieve the primary objective of providing regulatory authorities with safety data on IV zanamivir.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female aged greater than or equal to 6 months of age; a female is eligible to enter and participate in the study if she is:\n\n  1. of non-childbearing potential (i.e., physiologically incapable of becoming pregnant, including any female who is post-menopausal); or,\n  2.",
+            "endpoints": [
+              "Number of Participants With Any Adverse Event (AE) Considered to be Related to Study Treatment",
+              "Number of Participants With Any Severe or Grade 3/4 AEs",
+              "Number of Participants With Any Severe or Grade 3/4 Treatment-related AE"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01014988"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21074490",
+            "title": "Resistance and virulence mutations in patients with persistent infection by pandemic 2009 A/H1N1 influenza.",
+            "abstract": "Pandemic 2009 influenza A/H1N1 (H1N1v) is resistant to adamantanes, leaving neuraminidase inhibitors as the only therapeutic option. Other mutations are considered to be associated with virulence and clinical severity. However, out of the surveillance programs, few studies analyze the presence of resistance/virulent H1N1v variants in certain clinical circumstances.",
+            "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+            "year": "2011",
+            "authors": [
+              "Alonso María",
+              "Rodríguez-Sánchez Belén",
+              "Giannella Maddalena",
+              "Catalán Pilar",
+              "Gayoso Jorge"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antiviral Agents",
+              "Drug Resistance, Viral",
+              "Female",
+              "Hemagglutinin Glycoproteins, Influenza Virus",
+              "Humans",
+              "Immunocompromised Host",
+              "Influenza A Virus, H1N1 Subtype",
+              "Influenza, Human"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21074490/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dengue virus, susceptibility to",
+        "txgnn_score": 0.9840080738067628,
+        "txgnn_rank": 14820,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aspergillosis, susceptibility to",
+        "txgnn_score": 0.9840080738067628,
+        "txgnn_rank": 14821,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Schistosoma mansoni infection, susceptibility",
+        "txgnn_score": 0.983537256717682,
+        "txgnn_rank": 15090,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00558",
+    "name": "Zanamivir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Zanamivir"
+      },
+      "queried_at": "2026-03-09T19:46:19.419748",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Zanamivir"
+      },
+      "queried_at": "2026-03-09T19:46:26.010502",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "pyelonephritis"
+      },
+      "queried_at": "2026-03-09T19:46:27.597508",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "pyelonephritis"
+      },
+      "queried_at": "2026-03-09T19:46:33.166035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "pyelonephritis"
+      },
+      "queried_at": "2026-03-09T19:46:35.042922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "disorder of tyrosine metabolism"
+      },
+      "queried_at": "2026-03-09T19:46:35.658416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "disorder of tyrosine metabolism"
+      },
+      "queried_at": "2026-03-09T19:46:41.931549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "disorder of tyrosine metabolism"
+      },
+      "queried_at": "2026-03-09T19:46:46.354992",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "teratogenic Pierre Robin syndrome"
+      },
+      "queried_at": "2026-03-09T19:46:47.569174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "teratogenic Pierre Robin syndrome"
+      },
+      "queried_at": "2026-03-09T19:46:52.097796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "teratogenic Pierre Robin syndrome"
+      },
+      "queried_at": "2026-03-09T19:46:55.434347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-09T19:46:59.041469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-09T19:47:11.853500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-09T19:47:13.734553",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+      },
+      "queried_at": "2026-03-09T19:47:15.007673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+      },
+      "queried_at": "2026-03-09T19:47:27.301577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+      },
+      "queried_at": "2026-03-09T19:47:28.744517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "legionnaire disease, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:29.403128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "legionnaire disease, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:33.983965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "legionnaire disease, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:34.653217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "susceptibility to HIV infection"
+      },
+      "queried_at": "2026-03-09T19:47:38.256310",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "susceptibility to HIV infection"
+      },
+      "queried_at": "2026-03-09T19:47:42.532918",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "susceptibility to HIV infection"
+      },
+      "queried_at": "2026-03-09T19:47:46.258968",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "dengue virus, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:47.512667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "dengue virus, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:50.934756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "dengue virus, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:52.137658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "aspergillosis, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:52.994098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "aspergillosis, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:56.662464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "aspergillosis, susceptibility to"
+      },
+      "queried_at": "2026-03-09T19:47:57.501119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "Schistosoma mansoni infection, susceptibility"
+      },
+      "queried_at": "2026-03-09T19:47:58.790855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "Schistosoma mansoni infection, susceptibility"
+      },
+      "queried_at": "2026-03-09T19:48:04.196456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanamivir",
+        "disease": "Schistosoma mansoni infection, susceptibility"
+      },
+      "queried_at": "2026-03-09T19:48:05.443912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:48:05.451816"
+  }
+}

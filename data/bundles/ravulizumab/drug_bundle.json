@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Ravulizumab",
+    "drugbank_id": "DB11580",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
+        "txgnn_score": 0.9995638728141784,
+        "txgnn_rank": 1052,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cyclic hematopoiesis",
+        "txgnn_score": 0.9993830919265748,
+        "txgnn_rank": 1326,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hyperoxaluria",
+        "txgnn_score": 0.9989585876464844,
+        "txgnn_rank": 2066,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe congenital neutropenia",
+        "txgnn_score": 0.9987093210220336,
+        "txgnn_rank": 2456,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency",
+        "txgnn_score": 0.9985502362251282,
+        "txgnn_rank": 2681,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary immunodeficiency syndrome due to p14 deficiency",
+        "txgnn_score": 0.9983200430870056,
+        "txgnn_rank": 3004,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.998248815536499,
+        "txgnn_rank": 3089,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "X-linked severe congenital neutropenia",
+        "txgnn_score": 0.998193085193634,
+        "txgnn_rank": 3148,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9981209635734558,
+        "txgnn_rank": 3244,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "megaloblastic anemia (disease)",
+        "txgnn_score": 0.9979647397994996,
+        "txgnn_rank": 3453,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11580",
+    "name": "Ravulizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ravulizumab"
+      },
+      "queried_at": "2026-03-09T13:19:55.569714",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ravulizumab"
+      },
+      "queried_at": "2026-03-09T13:19:58.084486",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency"
+      },
+      "queried_at": "2026-03-09T13:19:58.872173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:03.140567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:04.154534",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "cyclic hematopoiesis"
+      },
+      "queried_at": "2026-03-09T13:20:07.228449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "cyclic hematopoiesis"
+      },
+      "queried_at": "2026-03-09T13:20:11.423501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "cyclic hematopoiesis"
+      },
+      "queried_at": "2026-03-09T13:20:12.123781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary hyperoxaluria"
+      },
+      "queried_at": "2026-03-09T13:20:12.846047",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary hyperoxaluria"
+      },
+      "queried_at": "2026-03-09T13:20:17.474177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary hyperoxaluria"
+      },
+      "queried_at": "2026-03-09T13:20:19.094353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T13:20:19.945491",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T13:20:24.101287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T13:20:24.804798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:26.135019",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:31.528343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:34.312690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:37.222377",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:43.072971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-09T13:20:44.390190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T13:20:45.546647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T13:20:52.421396",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T13:20:53.922433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "X-linked severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T13:20:55.193217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "X-linked severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T13:21:00.478931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "X-linked severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T13:21:02.283904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T13:21:03.491176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T13:21:09.264319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T13:21:11.279089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "megaloblastic anemia (disease)"
+      },
+      "queried_at": "2026-03-09T13:21:12.297705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "megaloblastic anemia (disease)"
+      },
+      "queried_at": "2026-03-09T13:21:16.382469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ravulizumab",
+        "disease": "megaloblastic anemia (disease)"
+      },
+      "queried_at": "2026-03-09T13:21:17.297764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T13:21:17.313763"
+  }
+}

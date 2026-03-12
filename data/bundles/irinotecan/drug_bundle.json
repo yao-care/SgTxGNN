@@ -1,0 +1,2152 @@
+{
+  "drug": {
+    "inn": "Irinotecan",
+    "drugbank_id": "DB00762",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.990832269191742,
+        "txgnn_rank": 9937,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02033551",
+            "title": "An Extension Study to Evaluate the Safety of Veliparib as Single Agent Therapy or in Combination With Chemotherapy in Subjects With Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2013-12",
+            "completion_date": "2016-09",
+            "country": "Spain, United States, Netherlands",
+            "enrollment": 47,
+            "brief_summary": "This is an extension study to evaluate the safety of Veliparib monotherapy or in combination with Carboplatin plus Paclitaxel or modified Folinic Acid/Fluorouracil/Irinotecan (FOLFIRI) in subjects with solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must have confirmed solid malignancy that is metastatic, and standard curative measures or other therapy that may provide clinical benefit do not exist or are no longer effective.\n* For Veliparib monotherapy (must have tumor with defects in DNA repair mechanisms (BRCA mutation",
+            "endpoints": [
+              "Number of subjects with adverse events"
+            ],
+            "sponsor": "AbbVie",
+            "url": "https://clinicaltrials.gov/study/NCT02033551"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03875313",
+            "title": "A Phase 1b/2 Open Label, Dose Escalation and Expansion Study of the Glutaminase Inhibitor CB-839 in Combination With the PARP Inhibitor Talazoparib in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2019-05-20",
+            "completion_date": "2020-07-29",
+            "country": "United States",
+            "enrollment": 33,
+            "brief_summary": "This is a Phase 1b/2 study to determine the recommended phase 2 dose (RP2D), safety and tolerability, pharmacokinetics (PK) and clinical activity of the glutaminase inhibitor CB-839 with the poly adenosine diphosphate ribose polymerase (PARP) inhibitor talazoparib in participants with advanced/metastatic solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n(Part 1)\n\n-Documented incurable/locally advanced or metastatic solid tumors that have either relapsed or are refractory or intolerant to standard therapies of proven clinical benefit.\n\n(Part 2) Meets 1 of the 3 defined cohorts:\n\n* Cohort 1: Documented incurable/locally advanced ",
+            "endpoints": [
+              "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) Excluding Deaths Due to Disease Progression",
+              "Number of Participants With Laboratory Abnormalities (Hematology, Clinical Chemistry) at More Than 1 Clinic Visit",
+              "Number of Participants With Dose-Limiting Toxicities (DLTs)"
+            ],
+            "sponsor": "Calithera Biosciences, Inc",
+            "url": "https://clinicaltrials.gov/study/NCT03875313"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06047379",
+            "title": "An Open-label Phase 1/2 Dose Finding, Safety and Efficacy Study of Oral NEO212 in Patients With Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or Uncontrolled Brain Metastasis in Patients With Select Solid Tumors.",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2027-08-31",
+            "country": "United States",
+            "enrollment": 134,
+            "brief_summary": "This multi-site, Phase 1/2 clinical trial is an open-label study to identify the safety, pharmacokinetics, and efficacy of a repeated dose regimen of NEO212 alone for the treatment of patients with radiographically-confirmed progression of Astrocytoma IDH- mutant, Glioblastoma IDH-wildtype, and the safety, pharmacokinetics and efficacy of a repeated dose regimen of NEO212 when given with select SOC for the treatment of solid tumor patients with radiographically confirmed uncontrolled metastases ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be ≥ 18yrs of age.\n* Patient must have the ability to understand, and the willingness to sign, a written informed consent form.\n* Patient has been on a stable or decreasing dose of steroids for at least five days prior to the date of informed consent.\n* Any toxici",
+            "endpoints": [
+              "Phase 1: safety and tolerability of increasing dose levels of orally administered NEO212 alone in patients with Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or patients with select solid tumors with uncontrolled metastases to the brain",
+              "Phase 1: Identify the maximum tolerated dose (MTD) of NEO212",
+              "Phase 1: Determine the recommended Phase 2 dose (RP2D) of NEO212"
+            ],
+            "sponsor": "Neonc Technologies, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06047379"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04279509",
+            "title": "Selecting Chemotherapy With High-throughput Drug Screen Assay Using Patient Derived Organoids in Patients With Refractory Solid Tumours (SCORE)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2019-05-29",
+            "completion_date": "2022-05",
+            "country": "Singapore",
+            "enrollment": 35,
+            "brief_summary": "This is a single-centre study based on the Simon 2-stage optimax design: 12 patients will be enrolled initially (Stage I), which will then be expanded to a further 13 patients (Stage II) if 3 or more patients enrolled in stage I of the study achieve an objective response with the chemotherapeutic agent selected by the drug screen assay. A total of 25 patients will be included in both stages of study.\n\nPatients enrolled on study will undergo a fresh biopsy of tumour lesion to obtain cells that wi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 21 years.\n* Histological or cytological diagnosis of head and neck squamous cell carcinoma (HNSCC), colorectal, breast or epithelial ovarian cancer.\n* ECOG 0-1.\n* At least 1 tumour lesion (primary or metastatic) amenable to fresh biopsy\n* At least 1 measurable tumour les",
+            "endpoints": [
+              "Overall radiological response rate",
+              "Correlation between patient genotype, tumor biomarkers and blood biomarkers with clinical outcome"
+            ],
+            "sponsor": "National University Hospital, Singapore",
+            "url": "https://clinicaltrials.gov/study/NCT04279509"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03253575",
+            "title": "CANscriptTM Clinical Outcomes in a Real-World Setting (ANCERS)-2: A Prospective, Multicenter, Observational Study Examining the Clinical Utility of CANscriptTM in Routine Clinical Practice",
+            "phase": "N/A",
+            "status": "SUSPENDED",
+            "start_date": "2017-07-13",
+            "completion_date": "2019-12-15",
+            "country": "United States",
+            "enrollment": 800,
+            "brief_summary": "The purpose of this study is to test the CANscript™ sensitivity assay, which is a new and different assay developed to test the sensitivity of different cancer types to physician selected therapies (both drugs and/or drug combinations) indicated for the stage and type of cancer for treatment. CANscript™ tests how a patients specific tumor reacts to the therapies being considered by the treating physician. CANscript™ test results have been shown to closely correspond with actual clinical results,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female patient ≥18 years old\n2. ECOG performance status of ≤ 2\n3. The patient's tumor must be amenable to a tumor biopsy sampling, so that CANscript can be performed\n4. The patient must have disease that is measurable by standard imaging techniques, per the RECIST 1.1",
+            "endpoints": [
+              "CANscript decision impact will be captured via a study specific questionnaire"
+            ],
+            "sponsor": "Mitra RxDx, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03253575"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04579224",
+            "title": "A Phase III Randomized Trial of Eribulin (NSC #707389) With Gemcitabine Versus Standard of Care (Physician's Choice) for Treatment of Metastatic Urothelial Carcinoma Refractory to, or Ineligible for, Anti PD1/PDL1 Therapy",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2021-06-28",
+            "completion_date": "2030-08-15",
+            "country": "United States",
+            "enrollment": 184,
+            "brief_summary": "This phase III trial compares the usual chemotherapy treatment to eribulin plus gemcitabine in treating patients with urothelial cancer that has spread from where it first started (primary site) to other places in the body (metastatic). Chemotherapy drugs, such as eribulin, gemcitabine, docetaxel, paclitaxel, and sacituzumab govitecan work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. This tri",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must have predominant histologically or cytologically proven urothelial carcinoma in a metastatic site\n* Participant must have evidence of metastatic urothelial carcinoma based on CT or MRI within 28 days prior to registration\n* Participant must have had progressio",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT04579224"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01770353",
+            "title": "A Phase I Study in Patients Treated With MM-398 (Nanoliposomal Irinotecan, Nal-IRI) to Determine Tumor Drug Levels and to Evaluate the Feasibility of Ferumoxytol Magnetic Resonance Imaging to Measure Tumor Associated Macrophages and to Predict Patient Response to Treatment",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-11",
+            "completion_date": "2018-10-02",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "This is a Phase I study to understand the biodistribution of MM-398 and to determine the feasibility of using Ferumoxytol as a tumor imaging agent.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAll subjects:\n\n* Pathologically confirmed diagnosis of solid tumors\n* Metastatic disease\n* Eastern Cooperative Oncology Group (ECOG) Performance Status 0 to 1\n* Adequate bone marrow, hepatic and renal function\n* Normal Electrocardiogram (ECG)\n* 18 years of age or above\n* Able to",
+            "endpoints": [
+              "Pilot Phase: Tumour Levels of Irinotecan and SN-38 at Cycle 1 Day 4",
+              "Expansion Phase: Impact of the Quality of MRI Scan on Tumour Evaluation",
+              "Expansion Phase: Best Overall Tumour Response (BOR) by Tumour FMX Uptake Classification at 16 - 24 Hours Post-FMX Dose"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT01770353"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03562390",
+            "title": "Irinotecan for Advanced and Metastatic Breast Cancer Previously Treated Using Anthracyclines- and Taxanes-containing Regimens: Protocol for a Phase II, Open-label, Single-arm Trial",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2017-04-01",
+            "completion_date": "2021-12",
+            "country": "China",
+            "enrollment": 124,
+            "brief_summary": "This trial aims to evaluate the safety and efficacy of third-line or later irinotecan treatment for locally recurrent or metastatic breast cancer among Chinese patients who have received at least two regimens containing anthracyclines and taxanes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age of 18-70 years;\n* Female patients with histologically or cytologically confirmed breast cancer;\n* Patients with locally recurrent or metastatic breast cancer who have been treated with at least two chemotherapy regimens;\n* Measurable lesions (based on computed tomography o",
+            "endpoints": [
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "Liaoning Cancer Hospital & Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03562390"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02419495",
+            "title": "Phase IB Study to Evaluate the Safety of Selinexor (KPT-330) in Combination With Multiple Standard Chemotherapy or Immunotherapy Agents in Patients With Advanced Malignancies",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2015-06-26",
+            "completion_date": "2024-09-16",
+            "country": "United States",
+            "enrollment": 221,
+            "brief_summary": "This phase Ib trial studies the side effects and best dose of selinexor when given together with several different standard chemotherapy or immunotherapy regimens in treating patients with malignancies that have spread to other places in the body and usually cannot be cured or controlled with treatment (advanced). Selinexor may stop the growth of cancer cells by blocking enzymes needed for cell growth. Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed malignant neoplasms (not including hematological malignancies and brain tumors) untreated or previously treated requiring further treatment; patients in Arm L (pembrolizumab), Arm M (nivolumab), and Arms N, O, P (niv",
+            "endpoints": [
+              "Incidence of adverse events"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02419495"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05453825",
+            "title": "A Phase 2, Multicenter, Open-Label Basket Study of Navicixizumab Monotherapy or in Combination With Paclitaxel or Irinotecan in Patients With Select Advanced Solid Tumors",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-08-05",
+            "completion_date": "2024-12-15",
+            "country": "United States",
+            "enrollment": 180,
+            "brief_summary": "This is a study of navicixizumab monotherapy or in combination with paclitaxel or irinotecan in patients with advanced cancer. Patients will be enrolled into one of the following cancer cohorts:\n\n* Cohort A: CRC\n* Cohort B: Gastric and GEJ cancer\n* Cohort C: TNBC\n* Cohort D: Platinum-resistant/refractory epithelial ovarian, primary peritoneal, or fallopian tube cancer (ovarian cancer)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient provides informed consent.\n2. Patient is ≥18 years old.\n3. Patient has one of the following locally advanced or metastatic, unresectable solid malignancies that is incurable:\n\n   * CRC\n   * Gastric or GEJ cancer\n   * TNBC\n   * Platinum-resistant/refractory epithelial ",
+            "endpoints": [
+              "Overall Response Rate (ORR)",
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "OncXerna Theraputics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05453825"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01631552",
+            "title": "A Phase I/II Study of IMMU-132 (hRS7-SN38 Antibody Drug Conjugate) in Patients With Epithelial Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-12-17",
+            "completion_date": "2020-08-13",
+            "country": "United States",
+            "enrollment": 515,
+            "brief_summary": "The primary objective in Phase I is to evaluate the safety and tolerability of sacituzumab govitecan-hziy (SG) as a single agent administered in 21-day treatment cycles in previously treated participants with advanced epithelial cancer. In Phase II, the primary objective is to evaluate the safety and efficacy of sacituzumab govitecan-hziy administered in 21-day treatment cycles at a dose selected in Phase I.\n\nTumor types in the study will include: cervical, colorectal, endometrial, ovarian, esop",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Individuals able to understand and give written informed consent.\n* Histologically or cytologically confirmed epithelial cancer of one of the following types:\n\n  * Gastric adenocarcinoma (GC)\n  * Esophageal cancer (EC)\n  * Hepatocellular carcinoma (HCC)\n  * Non-small-cell lung",
+            "endpoints": [
+              "Percentage of Participants Experiencing Any Treatment Emergent Adverse Events and Serious Treatment Emergent Adverse Events",
+              "Percentage of Participants Who Permanently Discontinued Sacituzumab Govitecan-hziy (SG) Due to Any Adverse Events, Excluding Adverse Events Leading to Death",
+              "Percentage of Participants Who Required Dose Interruption Due to Any Adverse Events"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT01631552"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06769425",
+            "title": "A Phase I Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Efficacy of HS-10502 Combination Treatment in Subjects With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2025-05-07",
+            "completion_date": "2026-08-31",
+            "country": "China",
+            "enrollment": 157,
+            "brief_summary": "HS-10502 is a PARP1-specific selective inhibitor. The purpose if this study is to assess the safety, tolerability, pharmacokinetics (PK), and efficacy of HS-10502 Combination Treatment in subjects with advanced solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males or females aged 18 years or older (≥18 years).\n* Patients diagnosed with pathologically confirmed advanced solid tumors.\n* Subjects have at least one target lesion as assessed per the RECIST 1.1.\n* Eastern Cooperative Oncology Group Performance Status (ECOG PS) score of ",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) of HS-10502（Stage 1：Dose escalating stage）",
+              "Maximum applicable dose (MAD) of HS-10502（Stage 1：Dose escalating stage）",
+              "Efficacy of HS-10502: Objective response rate (ORR)（Stage 2： Dose expansion stage）"
+            ],
+            "sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT06769425"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05107674",
+            "title": "A Phase 1a, Dose Escalation, Safety and Tolerability Study of NX-1607, a Casitas B-lineage Lymphoma Proto-oncogene (CBL-B) Inhibitor, in Adults With Advanced Malignancies, With Phase 1b Expansion in Select Tumor Types",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-09-29",
+            "completion_date": "2028-02-28",
+            "country": "United Kingdom, United States",
+            "enrollment": 345,
+            "brief_summary": "This is a first-in-human Phase 1a/1b multicenter, open-label oncology study designed to evaluate the safety and anti-cancer activity of NX-1607 in patients with advanced malignancies.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Age ≥ 18 years.\n* Measurable disease per disease-specific response criteria.\n* Patients must have disease that is metastatic or unresectable and have received standard treatment options, are not candidates for standard treatment options, or will otherwise be prevented from",
+            "endpoints": [
+              "Incidence of treatment-emergent adverse events (TEAEs), including Grade ≥ 3 TEAEs, treatment-emergent serious adverse events (SAEs), TEAEs leading to study drug discontinuation, and deaths due to TEAEs",
+              "Incidence of immune-related AEs (irAEs), all deaths, and dose-limiting toxicities (DLTs)",
+              "Objective Response Rate (ORR) per disease-specific response criteria as assessed by the Investigator"
+            ],
+            "sponsor": "Nurix Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05107674"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05238831",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: Adaptive Clinical Treatment (ACT)",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2023-01-30",
+            "completion_date": "2026-05-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "SMMART-ACT is a feasibility pilot study to determine if testing samples from a participant's cancer using a precision medicine approach can be used to identify specific drugs or drug combinations that can help control their disease. The safety and tolerability of the drug or drug combination is also to be studied. Another purpose is for researchers to study tumor cells to try to learn why some people respond to a certain therapy and others do not, and why some cancer drugs stop working. The stud",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-SCREENING: Written informed consent prior to any pre-screening activities, study-specific procedures or interventions.\n* PRE-SCREENING: At least 18 years of age at time of informed consent. Persons of all gender identities, biological sexes, races, and ethnicities will be ",
+            "endpoints": [
+              "Proportion of participants who receive an ACT therapy based an ACT Tumor Board recommendation."
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT05238831"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03170960",
+            "title": "A Phase 1b Dose-Escalation Study of Cabozantinib (XL184) Administered Alone or in Combination With Atezolizumab to Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-09-05",
+            "completion_date": "2027-09-30",
+            "country": "Australia, Spain, France, United Kingdom, Belgium, Netherlands, Germany, Italy, United States",
+            "enrollment": 914,
+            "brief_summary": "This is a multicenter Phase 1b, open-label study to assess safety, tolerability, preliminary efficacy, and pharmacokinetics (PK) of cabozantinib taken in combination with atezolizumab in subjects with multiple tumor types, including advanced urothelial carcinoma (UC) (including bladder, renal pelvis, ureter, urethra), renal cell carcinoma (RCC), castration-resistant prostate cancer (CRPC), non-small-cell lung cancer (NSCLC), triple negative breast cancer (TNBC), ovarian cancer (OC), endometrial ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Cytologically or histologically and radiologically confirmed solid tumor that is inoperable, locally advanced, metastatic, or recurrent:\n\n   * Dose-Escalation Stage:\n\n     * Subjects with UC (including renal pelvis, ureter, bladder, urethra) after prior platinum-based therapy",
+            "endpoints": [
+              "Dose Escalation: MTD/Recommended Dose",
+              "Dose Expansion: ORR"
+            ],
+            "sponsor": "Exelixis",
+            "url": "https://clinicaltrials.gov/study/NCT03170960"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04640480",
+            "title": "A Phase I, Open-Label, Dose-finding Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Intravenously Infused SNB-101(as SN-38) in Patients With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2020-10-21",
+            "completion_date": "2026-01-05",
+            "country": "South Korea",
+            "enrollment": 21,
+            "brief_summary": "SNB-101 is a novel nano-particle formulation of SN-38, the active metabolite of irinotecan(CPT-11). Study SNB101P01 is a multicenter, open-label, dose escalation, phase 1 study of SNB 101 with its active ingredient SN-38, in participants with advanced solid tumors. Dose escalation will occur using a modified accelerated titration design (ATD).\n\nAll participants will receive SNB 101 in different cohorts. SNB 101 will be administered intravenously to participants on day 1 and day 15 of each 28 day",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a histologically or cytologically confirmed, locally advanced or metastatic disease, has progressed after systemic standard of care treatment for advanced disease and is not suitable for complete surgical resection.\n* Patients with measurable or evaluable disease",
+            "endpoints": [
+              "Dose-limiting toxicity(DLT)",
+              "Permanent discontinuation of SNB-101 and dose reduction due to adverse events(AEs)",
+              "Number of participants with clinically meaningful changes in Laboratory test results from baseline"
+            ],
+            "sponsor": "SN BioScience",
+            "url": "https://clinicaltrials.gov/study/NCT04640480"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00083148",
+            "title": "Phase I Study of Irinotecan Followed by Capecitabine in Patients With Advanced Breast Carcinoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2002-11",
+            "completion_date": "2006-09",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as irinotecan and capecitabine, work in different ways to stop tumor cells from dividing so they stop growing or die. Irinotecan may help capecitabine kill more tumor cells by making tumor cells more sensitive to the drug.\n\nPURPOSE: This phase I trial is studying the side effects and best dose of irinotecan and capecitabine in treating women with advanced breast cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of breast cancer not eligible for potentially curative therapy or studies of higher priority\n\n  * Advanced disease\n  * Tumor accessible to biopsy AND not irradiated\n* Failed at least 1 prior chemotherapy regimen (not including adjuvant chemotherapy)\n* Hormone re",
+            "endpoints": [],
+            "sponsor": "Roswell Park Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00083148"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00072852",
+            "title": "Phase II Trial of Irinotecan in Patients With Advanced Metastatic Breast Cancer Who Have Experienced Failure of an Anthracycline, a Taxane, and Capecitabine",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-11",
+            "completion_date": "2007-05",
+            "country": "Colombia, Australia, New Zealand, Argentina, United States",
+            "enrollment": 134,
+            "brief_summary": "The purpose of this phase II, randomized, open-label clinical trial is to study 2 schedules of single-agent Irinotecan in women with metastatic breast cancer who have experienced failure of prior therapy with an anthracycline, a taxane, and capecitabine. Patients will receive Irinotecan capsules either once each day for 5 days, or once a day for 14 days in 3 week cycles.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women with diagnosis of primary adenocarcinoma of the breast\n* Presence of locally advanced or metastatic disease non-amenable to surgery or radiation therapy with curative intent\n* At least one measurable lesion \\>20mm (or \\>10 mm with spiral CT scan)\n* Must have received (an",
+            "endpoints": [
+              "To evaluate the safety and efficacy of Irinotecan in refractory breast cancer."
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00072852"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01178411",
+            "title": "An Extension Protocol for Subjects Who Were Previously Enrolled in Other Tivantinib (ARQ 197) Protocols",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-08-31",
+            "completion_date": "2019-01-14",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "This is an extension study that will allow participants to continue to receive study therapy when the original studies into which they were enrolled have reached their designated end-dates. This extension study is designed to further evaluate the safety and tolerability of tivantinib (ARQ 197) monotherapy or in combination with other drug(s) when given to participants who tolerated previous treatment well and may benefit from the continuing treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent to participate in clinical study of tivantinib\n* Male or female participants of the age defined in the original protocol they were enrolled.\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) ≤3 (or ≤2 for tivantinib-naive parti",
+            "endpoints": [
+              "Extent of Exposure to ARQ 197 in Participants Benefiting From Prior ARQ 197 Therapy"
+            ],
+            "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+            "url": "https://clinicaltrials.gov/study/NCT01178411"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00004095",
+            "title": "Phase I Trial of Irinotecan (CPT-11) and Gemcitabine in Patients With Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "1999-08",
+            "completion_date": "2008-10",
+            "country": "United States",
+            "enrollment": 38,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase I trial to study the effectiveness of combining irinotecan and gemcitabine in treating patients who have unresectable or metastatic solid tumors.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed metastatic or surgically unresectable solid tumor, having received the following maximum number of prior therapies for advanced disease:\n\n  * Bladder cancer - no more than 1 prior therapy\n  * Breast cancer - no more than 2 prior therapies\n  * Colo",
+            "endpoints": [],
+            "sponsor": "Northwestern University",
+            "url": "https://clinicaltrials.gov/study/NCT00004095"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00031681",
+            "title": "A Phase I Study of UCN-01 in Combination With Irinotecan in Resistant Solid Tumor Malignancies (Part I) and in Triple Negative (ER-Negative, PgR-Negative, HER-2 Not-Amplified) Recurrent Breast Cancers (Part II)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2001-12",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 41,
+            "brief_summary": "This phase I trial is studying the side effects and best dose of giving 7-hydroxystaurosporine together with irinotecan hydrochloride in treating patients with metastatic or unresectable solid tumors, including triple-negative breast cancer (currently enrolling only patients with triple-negative breast cancer since 6/8/2007). Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Giving 7-hydroxystaurosporine together with irinotecan hydrochl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Part I (closed to accrual as of 6/8/2007)\n\n  * Histologically confirmed solid tumor that is metastatic or unresectable for which standard curative measures do not exist or are no longer effective, including the following:\n\n    * Gastrointestinal tract cancer\n    * Lung cancer\n",
+            "endpoints": [
+              "MTD of irinotecan hydrochloride in combination with 7-hydroxystaurosporine in patients with resistant solid tumor malignancies (Part I)",
+              "DLT of irinotecan hydrochloride in combination with 7-hydroxystaurosporine in patients with resistant solid tumor malignancies (Part I)",
+              "Toxicities associated with irinotecan hydrochloride in combination with 7-hydroxystaurosporine in patients with resistant solid tumor malignancies (Part I)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00031681"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03678883",
+            "title": "Phase 1/2 Study of 9-ING-41, a Glycogen Synthase Kinase-3 Beta (GSK-3β) Inhibitor, As a Single Agent and Combined with Chemotherapy, in Patients with Refractory Hematologic Malignancies or Solid Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-01-04",
+            "completion_date": "2026-01",
+            "country": "Spain, France, Canada, Belgium, Netherlands, United States, Portugal",
+            "enrollment": 350,
+            "brief_summary": "GSK-3β is a potentially important therapeutic target in human malignancies. The Actuate 1801 Phase 1/2 study is designed to evaluate the safety and efficacy of 9-ING-41, a potent GSK-3β inhibitor, as a single agent and in combination with cytotoxic agents, in patients with refractory cancers.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient -\n\n  1. Is able to understand and voluntarily sign a written informed consent and is willing and able to comply with the protocol requirements including scheduled visits, treatment plan, laboratory tests and other study procedures.\n  2. Is aged ≥ 18 years\n  3. Has path",
+            "endpoints": [
+              "Parts 1/2: Number of participants with treatment-related adverse events as assessed by CTCAE v4.03",
+              "Part 3 Arm B"
+            ],
+            "sponsor": "Actuate Therapeutics Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03678883"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30786188",
+            "title": "Sacituzumab Govitecan-hziy in Refractory Metastatic Triple-Negative Breast Cancer.",
+            "abstract": "Standard chemotherapy is associated with low response rates and short progression-free survival among patients with pretreated metastatic triple-negative breast cancer. Sacituzumab govitecan-hziy is an antibody-drug conjugate that combines a humanized monoclonal antibody, which targets the human trophoblast cell-surface antigen 2 (Trop-2), with SN-38, which is conjugated to the antibody by a cleavable linker. Sacituzumab govitecan-hziy enables delivery of high concentrations of SN-38 to tumors.",
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "authors": [
+              "Bardia Aditya",
+              "Mayer Ingrid A",
+              "Vahdat Linda T",
+              "Tolaney Sara M",
+              "Isakoff Steven J"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anemia",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Antineoplastic Agents",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Diarrhea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30786188/"
+          },
+          {
+            "pmid": "36027558",
+            "title": "Sacituzumab Govitecan in Hormone Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Metastatic Breast Cancer.",
+            "abstract": "Hormone receptor-positive (HR+) human epidermal growth factor receptor 2-negative (HER2-) endocrine-resistant metastatic breast cancer is treated with sequential single-agent chemotherapy with poor outcomes. Sacituzumab govitecan (SG) is a first-in-class antibody-drug conjugate with an SN-38 payload targeting trophoblast cell-surface antigen 2, an epithelial antigen expressed in breast cancer.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2022",
+            "authors": [
+              "Rugo Hope S",
+              "Bardia Aditya",
+              "Marmé Frederik",
+              "Cortes Javier",
+              "Schmid Peter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Capecitabine",
+              "Cyclin-Dependent Kinase 4",
+              "Female",
+              "Humans",
+              "Immunoconjugates",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36027558/"
+          },
+          {
+            "pmid": "36302269",
+            "title": "Antibody-drug conjugates targeting TROP-2: Clinical development in metastatic breast cancer.",
+            "abstract": "Antibody drug conjugates (ADCs) combine the potent cytotoxicity of chemotherapy with the antigen -specific targeted approach of antibodies into one single molecule. Trophoblast cell surface antigen 2 (TROP-2) is a transmembrane glycoprotein involved in calcium signal transduction and is expressed in multiple tumor types. TROP-2 expression is higher in HER2-negative breast tumors (HR+/HR-) and is associated with worse survival. Sacituzumab govitecan (SG) is a first-in-class TROP-2-directed ADC with an anti-TROP-2 antibody conjugated to SN-38, a topoisomerase inhibitor via a hydrolysable linker. This hydrolysable linker permits intracellular and extracellular release of the membrane permeable payload enabling the \"bystander effect\" contributing to the efficacy of this agent. There was significant improvement in progression free survival (PFS) and overall survival (OS) with SG versus chemotherapy in pretreated metastatic triple negative breast cancer (TNBC), resulting in regulatory approv",
+            "journal": "Breast (Edinburgh, Scotland)",
+            "year": "2022",
+            "authors": [
+              "Shastry Mythili",
+              "Jacob Saya",
+              "Rugo Hope S",
+              "Hamilton Erika"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Immunoconjugates",
+              "Irinotecan",
+              "Topoisomerase Inhibitors",
+              "Triple Negative Breast Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36302269/"
+          },
+          {
+            "pmid": "26101915",
+            "title": "Trop-2 is a novel target for solid cancer therapy with sacituzumab govitecan (IMMU-132), an antibody-drug conjugate (ADC).",
+            "abstract": "Trop-2 is a novel target for ADC therapy because of its high expression by many solid cancers. The rational development of IMMU-132 represents a paradigm shift as an ADC that binds a well-known moderately-cytotoxic drug, SN-38, to the anti-Trop-2 antibody. In vitro and in vivo studies show enhanced efficacy, while there is a gradual release of SN-38 that contributes to the overall effect. IMMU-132 is most efficacious at a high drug:antibody ratio (DAR) of 7.6:1, which does not affect binding and pharmacokinetics. It targets up to 136-fold more SN-38 to a human cancer xenograft than irinotecan, SN-38's prodrug. IMMU-132 delivers SN-38 in its most active, non-glucuronidated form, which may explain the lower frequency of severe diarrhea than with irinotecan. Thus, this ADC, carrying a moderately-toxic drug targeting Trop-2 represents a novel cancer therapeutic that is showing promising activity in patients with several metastatic cancer types, including triple-negative breast cancer, non-",
+            "journal": "Oncotarget",
+            "year": "2015",
+            "authors": [
+              "Goldenberg David M",
+              "Cardillo Thomas M",
+              "Govindan Serengulam V",
+              "Rossi Edmund A",
+              "Sharkey Robert M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Cell Line, Tumor",
+              "Female",
+              "Humans",
+              "Immunoconjugates",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26101915/"
+          },
+          {
+            "pmid": "28632865",
+            "title": "Effect of First-Line Chemotherapy Combined With Cetuximab or Bevacizumab on Overall Survival in Patients With KRAS Wild-Type Advanced or Metastatic Colorectal Cancer: A Randomized Clinical Trial.",
+            "abstract": "Combining biologic monoclonal antibodies with chemotherapeutic cytotoxic drugs provides clinical benefit to patients with advanced or metastatic colorectal cancer, but the optimal choice of the initial biologic therapy in previously untreated patients is unknown.",
+            "journal": "JAMA",
+            "year": "2017",
+            "authors": [
+              "Venook Alan P",
+              "Niedzwiecki Donna",
+              "Lenz Heinz-Josef",
+              "Innocenti Federico",
+              "Fruth Briant"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Camptothecin",
+              "Canada",
+              "Cetuximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28632865/"
+          },
+          {
+            "pmid": "32223649",
+            "title": "TROPiCS-02: A Phase III study investigating sacituzumab govitecan in the treatment of HR+/HER2- metastatic breast cancer.",
+            "abstract": "Patients with HR+/HER2- metastatic breast cancer (MBC) whose cancers have progressed despite conventional therapies represent an unmet clinical need. Trop-2, a transmembrane calcium signal transducer, is highly expressed in MBC and plays a role in tumor growth and progression. Sacituzumab govitecan (SG) is a novel antibody-drug conjugate comprising an Trop-2 antibody coupled to SN-38, the active metabolite of irinotecan, via a unique hydrolyzable linker. SG has demonstrated promising activity in a Phase I/II IMMU-132-01 basket study in heavily pretreated solid tumors, including HR+/HER2- MBC. We describe the registrational Phase III TROPiCS-02 study (NCT03901339), evaluating SG versus treatment of physician's choice in HR+/HER2- MBC. Trial registration number: NCT03901339.",
+            "journal": "Future oncology (London, England)",
+            "year": "2020",
+            "authors": [
+              "Rugo Hope S",
+              "Bardia Aditya",
+              "Tolaney Sara M",
+              "Arteaga Carlos",
+              "Cortes Javier"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Antineoplastic Agents, Immunological",
+              "Biomarkers, Tumor",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32223649/"
+          },
+          {
+            "pmid": "31208270",
+            "title": "Antibody-drug conjugates targeting TROP-2 and incorporating SN-38: A case study of anti-TROP-2 sacituzumab govitecan.",
+            "abstract": "Antibody-drug conjugates (ADCs) that exploit the active metabolite SN-38, which is derived from the popular anticancer drug, irinotecan (a camptothecin that inhibits the nuclear topoisomerase I enzyme, inducing double-stranded DNA breaks during the mitotic S-phase of affected cells), represent a substantial advance in the ADC field. SN-38 has been conjugated to a humanized antibody against trophoblast cell surface antigen 2 (TROP-2), which is involved in cancer signaling pathways and has increased expression by many cancer cell types, yielding the ADC sacituzumab govitecan. By conjugating a higher number of SN-38 molecules to the immunoglobulin (drug-to-antibody ratio = 7-8:1), and giving higher (10 mg/kg) and repeated therapy cycles (Days 1 and 8 of 21-day cycles), enhanced drug uptake by the targeted cancer cells is achieved. Based on a unique conjugation method, the lactone ring of the SN-38 molecule is stabilized and the molecule is protected from glucuronidation, a process that co",
+            "journal": "mAbs",
+            "year": "2019",
+            "authors": [
+              "Goldenberg David M",
+              "Sharkey Robert M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review",
+              "Video-Audio Media"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Clinical Trials, Phase III as Topic",
+              "Drug Delivery Systems",
+              "Female",
+              "Humans",
+              "Immunoconjugates",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31208270/"
+          },
+          {
+            "pmid": "28558150",
+            "title": "Sacituzumab govitecan (IMMU-132), an anti-Trop-2-SN-38 antibody-drug conjugate for the treatment of diverse epithelial cancers: Safety and pharmacokinetics.",
+            "abstract": "Sacituzumab govitecan (IMMU-132), an antitrophoblastic cell-surface antigen (anti-Trop-2) humanized antibody-SN-38 conjugate, had encouraging efficacy in the phase 1 clinical trial. This report further examines the pharmacokinetics and safety of multiple cycles of IMMU-132 at doses of 8 or 10 mg/kg in patients with diverse advanced epithelial cancers.",
+            "journal": "Cancer",
+            "year": "2017",
+            "authors": [
+              "Ocean Allyson J",
+              "Starodub Alexander N",
+              "Bardia Aditya",
+              "Vahdat Linda T",
+              "Isakoff Steven J"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Antineoplastic Agents, Phytogenic",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Female",
+              "Glucuronosyltransferase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28558150/"
+          },
+          {
+            "pmid": "25915780",
+            "title": "Sacituzumab Govitecan (IMMU-132), an Anti-Trop-2/SN-38 Antibody-Drug Conjugate: Characterization and Efficacy in Pancreatic, Gastric, and Other Cancers.",
+            "abstract": "Sacituzumab govitecan (IMMU-132) is an antibody-drug conjugate (ADC) made from a humanized anti-Trop-2 monoclonal antibody (hRS7) conjugated with the active metabolite of irinotecan, SN-38. In addition to its further characterization, as the clinical utility of IMMU-132 expands to an ever-widening range of Trop-2-expressing solid tumor types, its efficacy in new disease models needs to be explored in a nonclinical setting. Unlike most ADCs that use ultratoxic drugs and stable linkers, IMMU-132 uses a moderately toxic drug with a moderately stable carbonate bond between SN-38 and the linker. Flow cytometry and immunohistochemistry disclosed that Trop-2 is expressed in a wide range of tumor types, including gastric, pancreatic, triple-negative breast (TNBC), colonic, prostate, and lung. While cell-binding experiments reveal no significant differences between IMMU-132 and parental hRS7 antibody, surface plasmon resonance analysis using a Trop-2 CM5 chip shows a significant binding advanta",
+            "journal": "Bioconjugate chemistry",
+            "year": "2015",
+            "authors": [
+              "Cardillo Thomas M",
+              "Govindan Serengulam V",
+              "Sharkey Robert M",
+              "Trisal Preeti",
+              "Arrojo Roberto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibody-Dependent Cell Cytotoxicity",
+              "Antigens, Neoplasm",
+              "Apoptosis",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Cell Line, Tumor",
+              "Clinical Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25915780/"
+          },
+          {
+            "pmid": "40513578",
+            "title": "Cisplatin and temozolomide combinatorial treatment triggers hypermutability and immune surveillance in experimental cancer models.",
+            "abstract": "Hypermutation induced by mismatch repair (MMR) inactivation leads to immune surveillance in colorectal cancer (CRC) and in several other malignancies. We investigated the impact of a rationally designed chemotherapy combination on the generation of hypermutation and immunogenicity in otherwise immune-refractory CRC and breast cancer mouse models. Combinatorial treatment with cisplatin (CDDP) and temozolomide (TMZ) induces an adaptive downregulation of MMR, resulting in chemotherapy-dependent hypermutability and increase in predicted neoantigens. This combination specifically alters the immune fitness of the tumors, ultimately leading to CD8+ T cell-mediated immune surveillance, immunoediting of chemotherapy-induced neoantigens, and durable immunological memory. Treatment with CDDP and TMZ also remodels the innate immune microenvironment and induces long-lasting responses and complete rejections when combined with anti-PD-1 therapy in mice. The same effects are not observed using the cl",
+            "journal": "Cancer cell",
+            "year": "2025",
+            "authors": [
+              "Vitiello Pietro Paolo",
+              "Rousseau Benoit",
+              "Chilà Rosaria",
+              "Battuello Paolo",
+              "Amodio Vito"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Temozolomide",
+              "Mice",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cisplatin",
+              "Female",
+              "Tumor Microenvironment",
+              "Humans",
+              "Immunologic Surveillance",
+              "Colorectal Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40513578/"
+          },
+          {
+            "pmid": "23168366",
+            "title": "Continuation of bevacizumab after first progression in metastatic colorectal cancer (ML18147): a randomised phase 3 trial.",
+            "abstract": "Bevacizumab plus fluoropyrimidine-based chemotherapy is standard treatment for first-line and bevacizumab-naive second-line metastatic colorectal cancer. We assessed continued use of bevacizumab plus standard second-line chemotherapy in patients with metastatic colorectal cancer progressing after standard first-line bevacizumab-based treatment.",
+            "journal": "The Lancet. Oncology",
+            "year": "2013",
+            "authors": [
+              "Bennouna Jaafar",
+              "Sastre Javier",
+              "Arnold Dirk",
+              "Österlund Pia",
+              "Greil Richard"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Colorectal Neoplasms",
+              "Disease-Free Survival",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23168366/"
+          },
+          {
+            "pmid": "25944802",
+            "title": "First-in-Human Trial of a Novel Anti-Trop-2 Antibody-SN-38 Conjugate, Sacituzumab Govitecan, for the Treatment of Diverse Metastatic Solid Tumors.",
+            "abstract": "Sacituzumab govitecan (IMMU-132) is an antibody-drug conjugate (ADC) targeting Trop-2, a surface glycoprotein expressed on many epithelial tumors, for delivery of SN-38, the active metabolite of irinotecan. This phase I trial evaluated this ADC as a potential therapeutic for pretreated patients with a variety of metastatic solid cancers.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2015",
+            "authors": [
+              "Starodub Alexander N",
+              "Ocean Allyson J",
+              "Shah Manish A",
+              "Guarino Michael J",
+              "Picozzi Vincent J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Combined Modality Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25944802/"
+          },
+          {
+            "pmid": "28291390",
+            "title": "Efficacy and Safety of Anti-Trop-2 Antibody Drug Conjugate Sacituzumab Govitecan (IMMU-132) in Heavily Pretreated Patients With Metastatic Triple-Negative Breast Cancer.",
+            "abstract": "Purpose Trop-2, expressed in most triple-negative breast cancers (TNBCs), may be a potential target for antibody-drug conjugates. Sacituzumab govitecan, an antibody-drug conjugate, targets Trop-2 for the selective delivery of SN-38, the active metabolite of irinotecan. Patients and Methods We evaluated sacituzumab govitecan in a single-arm, multicenter trial in patients with relapsed/refractory metastatic TNBC who received a 10 mg/kg starting dose on days 1 and 8 of 21-day repeated cycles. The primary end points were safety and objective response rate; secondary end points were progression-free survival and overall survival. Results In 69 patients who received a median of five prior therapies (range, one to 12) since diagnosis, the confirmed objective response rate was 30% (partial response, n = 19; complete response, n = 2), the median response duration was 8.9 (95% CI, 6.1 to 11.3) months, and the clinical benefit rate (complete response + partial response + stable disease ≥ 6 months",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2017",
+            "authors": [
+              "Bardia Aditya",
+              "Mayer Ingrid A",
+              "Diamond Jennifer R",
+              "Moroose Rebecca L",
+              "Isakoff Steven J"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, Neoplasm",
+              "Antineoplastic Agents",
+              "Breast Neoplasms, Male",
+              "Camptothecin",
+              "Cell Adhesion Molecules",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28291390/"
+          },
+          {
+            "pmid": "38578394",
+            "title": "Population Pharmacokinetics of Sacituzumab Govitecan in Patients with Metastatic Triple-Negative Breast Cancer and Other Solid Tumors.",
+            "abstract": "Sacituzumab govitecan (SG) is an antibody-drug conjugate composed of an antibody with affinity for Trop-2 coupled to SN-38 via hydrolyzable linker. SG is approved for patients with metastatic triple-negative breast cancer (mTNBC) who have received two or more prior chemotherapies (at least one in a metastatic setting) and for patients with pretreated hormone receptor positive (HR+)/human epidermal growth factor receptor 2 negative (HER2-) metastatic breast cancer.",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2024",
+            "authors": [
+              "Sathe Abhishek G",
+              "Singh Indrajeet",
+              "Singh Pratap",
+              "Diderichsen Paul M",
+              "Wang Xiaohui"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Young Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Camptothecin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38578394/"
+          },
+          {
+            "pmid": "12800602",
+            "title": "Rationale for mitomycin and irinotecan use in advanced breast cancer.",
+            "abstract": "For women who develop hormone-refractory metastatic breast cancer, or who have breast cancers that are not estrogen-dependent (hormone receptor-negative), treatment with chemotherapy is the best option. Mitomycin (Mutamycin) and irinotecan (CPT-11, Camptosar) have marginal activity in breast cancer. However, the sequential administration of mitomycin and irinotecan appears to have synergism in preclinical studies, as mitomycin upregulates the level of topoisomerase I, the target of irinotecan. A phase I clinical trial of pharmacologically based sequential administration of mitomycin on day 1 followed by irinotecan on days 2 and 8 was performed in previously treated solid tumor patients. In five heavily pretreated women with breast cancer, one patient had a complete response, one patient had a partial response, and one patient had stable disease. Upregulation of topoisomerase I gene expression in peripheral blood mononuclear cells was observed in two of the responding patients. A phase ",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2003",
+            "authors": [
+              "Xu Yiqing",
+              "Shapiro Charles L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibiotics, Antineoplastic",
+              "Antineoplastic Agents, Phytogenic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12800602/"
+          },
+          {
+            "pmid": "35882754",
+            "title": "Alteration of Trop-2 expression in breast cancer cells by clinically used therapeutic agents and acquired tamoxifen resistance.",
+            "abstract": "Sacituzumab govitecan is an antibody-drug conjugate that delivers SN-38, an active metabolite of irinotecan, to the target molecule, trophoblast cell-surface antigen 2 (Trop-2). It is a promising drug for triple-negative breast cancer and is anticipated to be effective for luminal breast cancer. The efficacy of the agent relies on the expression of Trop-2 rather than its intracellular function. However, conditions that alter the Trop-2 expression have not been well investigated.",
+            "journal": "Breast cancer (Tokyo, Japan)",
+            "year": "2022",
+            "authors": [
+              "Zhu Jing",
+              "Wu Wenwen",
+              "Togashi Yukiko",
+              "Taira Nihira Naoe",
+              "Johmura Yoshikazu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Antigens, Neoplasm",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Immunoconjugates",
+              "Irinotecan",
+              "p38 Mitogen-Activated Protein Kinases",
+              "Proto-Oncogene Proteins c-akt",
+              "Tamoxifen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35882754/"
+          },
+          {
+            "pmid": "39013199",
+            "title": "Expert consensus: Profiling and management of advanced or metastatic epithelial ovarian cancer.",
+            "abstract": "Introduction and objective: The approach to patients with advanced or metastatic high-grade epithelial ovarian cancer (EOC) has evolved over time with the advent of new therapies and multimodal strategies. The objective of this consensus of experts is to generate national recommendations for the profiling and management of advanced or metastatic high-grade OEC, defined as stages III and IV of the “The International Federation of Gynecology and Obstetrics (FIGO) classification at the time of diagnosis to base on the literature review that included international evidence-based clinical practice guidelines (CPG). Material and methods: Eleven panelists (oncologists and gynecological oncologists) answered 8 questions about the profiling and management of advanced or metastatic ovarian epithelial carcinoma. The panelists were chosen for their academic profile and influence in national health institutions. Guidelines from the “ESMO Standardized Operating Procedures Consensus Conference” were ",
+            "journal": "Revista colombiana de obstetricia y ginecologia",
+            "year": "2024",
+            "authors": [
+              "Pierre Marc E",
+              "Manneh Ray",
+              "Hernández Abraham",
+              "Rodríguez Juliana",
+              "Fletcher Angélica V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Consensus Statement",
+              "Practice Guideline",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Ovarian Neoplasms",
+              "Carcinoma, Ovarian Epithelial",
+              "Evidence-Based Medicine",
+              "Neoplasm Grading",
+              "Neoplasm Staging",
+              "Cytoreduction Surgical Procedures",
+              "Neoplasms, Glandular and Epithelial",
+              "Consensus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39013199/"
+          },
+          {
+            "pmid": "41371050",
+            "title": "Liposomal irinotecan in patients with HER2-negative breast cancer and brain metastases: The PHENOMENAL phase 2 study.",
+            "abstract": "Patients with breast cancer (BC) and brain metastases (BMs) have a poor prognosis, particularly those with human epidermal growth factor 2-negative (HER2[-]) BC, including hormone receptor-positive (HR[+]) and triple-negative breast cancer (TNBC). Liposomal irinotecan (nal-IRI) crosses the blood-brain barrier and enhances antitumor activity.",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2026",
+            "authors": [
+              "Borrego Manuel Ruiz",
+              "López-Bravo David Páez",
+              "Vila Mireia Margelí",
+              "Pérez-García José Manuel",
+              "Fernández María"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Irinotecan",
+              "Brain Neoplasms",
+              "Aged",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Adult",
+              "Liposomes",
+              "Breast Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41371050/"
+          },
+          {
+            "pmid": "9726101",
+            "title": "Irinotecan in lymphoma, leukemia, and breast, pancreatic, ovarian, and small-cell lung cancers.",
+            "abstract": "Irincotecan (CPT-11 [Camptosar] has a board range of antitumor activity. Extensive preclinical and early clinical work has demonstrated its activity against many tumor types--head and neck, esophagus, stomach, pancreas, liver, colon/rectum, kidney, lymph nodes, ovary, uterine, cervix, sarcoma, melanoma, acute and chronic leukemia, mesothelioma, and cancers of unknown primary site. Most of the phase II and III trials have focused on colorectal and other gastrointestinal, non-small-cell lung, and cervical cancers (discussed elsewhere in this monograph). This article presents preliminary results of studies exploring the use of irinotecan in lymphoma, leukemia, and breast, pancreatic, ovarian, and small-cell lung cancers. In all of these studies, the number of patients enrolled is small, drug doses and schedules differ (often within the same case series), and little information is available on response duration and overall survival. Nevertheless, irinotecan has shown reproducible if at tim",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "1998",
+            "authors": [
+              "Rosen L S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Phytogenic",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female",
+              "Humans",
+              "Irinotecan",
+              "Leukemia",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9726101/"
+          },
+          {
+            "pmid": "39768216",
+            "title": "Targeting Refractory Triple-Negative Breast Cancer with Sacituzumab Govitecan: A New Era in Precision Medicine.",
+            "abstract": "Advanced triple-negative breast cancer (TNBC) has poorer outcomes due to its aggressive behavior and restricted therapeutic options. While therapies like checkpoint inhibitors and PARP inhibitors offer some benefits, chemotherapy remains ineffective beyond the first line of treatment. Antibody-drug conjugates (ADCs) like sacituzumab govitecan-hziy (SG) represent a significant advancement. SG combines SN-38, an irinotecan derivative, with a Trop-2-targeting antibody via a pH-sensitive linking moiety, achieving a good drug:antibody ratio. In a phase I-II study involving metastatic TNBC (mTNBC) individuals, SG achieved an overall response rate of 33.3% and a median response period of 7.7 months. The phase III ASCENT trial demonstrated SG's efficacy in relapsed or refractory TNBC, improving median progression-free survival and median overall survival compared to chemotherapy. Common side effects include neutropenia, nausea, and fatigue. This article highlights the clinical potential, pharm",
+            "journal": "Cells",
+            "year": "2024",
+            "authors": [
+              "Khan Saif",
+              "Jandrajupalli Suresh Babu",
+              "Bushara Nashwa Zaki Ali",
+              "Raja Rama Devi Patel",
+              "Mirza Shadab"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Triple Negative Breast Neoplasms",
+              "Antibodies, Monoclonal, Humanized",
+              "Camptothecin",
+              "Immunoconjugates",
+              "Precision Medicine",
+              "Female",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39768216/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic carcinoma with mixed differentiation",
+        "txgnn_score": 0.9860826134681702,
+        "txgnn_rank": 13516,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07077551",
+            "title": "NALIRIFOX as Second-Line Chemotherapy in Extrapulmonary High-grade Neuroendocrine Neoplasms: a Prospective, Single-center, Single-arm Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-04-22",
+            "completion_date": "2028-12-31",
+            "country": "China",
+            "enrollment": 28,
+            "brief_summary": "High-grade neuroendocrine neoplasms (NENs) comprise both well-differentiated grade 3 neuroendocrine tumors (G3 NETs) and poorly differentiated neuroendocrine carcinomas (NECs). Mixed neuroendocrine-non-neuroendocrine neoplasms (MiNENs) nearly always include poorly differentiated NEC as the neuroendocrine component. Liposomal irinotecan hydrochloride and NALIRIFOX (liposomal irinotecan hydrochloride with fluorouracil and oxaliplatin) obtained a significant breakthrough in pancreatic cancer treatm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provide written Informed Consent Form to voluntarily enroll in this study.\n2. Men or women aged 18-75.\n3. Histologically or cytologically confirmed metastatic neuroendocrine carcinoma, neuroendocrine tumour G3 or mixed neuroendocrine-non-neuroendocrine tumour (neuroendocrine ",
+            "endpoints": [
+              "6-month Progression-Free Survival"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT07077551"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38744314",
+            "title": "Efficacy and Toxicity Analysis of mFOLFIRINOX in High-Grade Gastroenteropancreatic Neuroendocrine Neoplasms.",
+            "abstract": "High-grade neuroendocrine neoplasms (NENs) comprise both well-differentiated grade 3 neuroendocrine tumors (G3 NETs) and poorly differentiated neuroendocrine carcinomas (NECs). Mixed neuroendocrine-non-neuroendocrine neoplasms (MiNENs) nearly always include poorly differentiated NEC as the neuroendocrine component. The efficacy and safety of frontline mFOLFIRINOX chemotherapy has never been investigated in patients with high-grade NENs.",
+            "journal": "Journal of the National Comprehensive Cancer Network : JNCCN",
+            "year": "2024",
+            "authors": [
+              "Borghesani Michele",
+              "Reni Anna",
+              "Lauricella Eleonora",
+              "Rossi Alice",
+              "Moscarda Viola"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Neuroendocrine Tumors",
+              "Aged",
+              "Pancreatic Neoplasms",
+              "Retrospective Studies",
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38744314/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoclastic giant cell tumor of pancreas",
+        "txgnn_score": 0.9859703183174132,
+        "txgnn_rank": 13585,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "solid pseudopapillary carcinoma of pancreas",
+        "txgnn_score": 0.9859703183174132,
+        "txgnn_rank": 13586,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22399634",
+            "title": "Peritoneal carcinomatosis from solid pseudopapillary neoplasm (Frantz's tumour) of the pancreas treated with HIPEC.",
+            "abstract": "Solid pseudopapillary neoplasm (SPN) is a rare malignant tumour accounting for 0.1% to 2.7% of all pancreatic neoplasms and affecting young women. Peritoneal carcinomatosis (PC) is even rarer, with only 11 reported cases. We describe a twelfth case occurring 13 years after the resection of an SPN which ruptured peroperatively. This 35-year-old woman had first undergone complete cytoreductive surgery (CCRS) alone and disease had relapsed within 8 months. Ultimately, further CCRS was combined with hyperthermic intraperitoneal chemotherapy (HIPEC) with oxaliplatin and irinotecan. The patient is now alive and disease free 31 months after her last operation. In the literature, the surgical treatment of PC from an SPN has yielded disappointing results, with a 58% recurrence rate at intervals ranging from 1 to 19 years. As none of these patients developed distant metastases, indicating a strictly peritoneal disease, HIPEC might be a solution for preventing such recurrences.",
+            "journal": "Anticancer research",
+            "year": "2012",
+            "authors": [
+              "Honore C",
+              "Goere D",
+              "Dartigues P",
+              "Burtin P",
+              "Dumont F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Female",
+              "Humans",
+              "Pancreatic Neoplasms",
+              "Peritoneal Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22399634/"
+          },
+          {
+            "pmid": "40038436",
+            "title": "Whole-genome analysis of an aggressive metastatic pancreatic solid pseudopapillary neoplasm.",
+            "abstract": "Pancreatic solid pseudopapillary neoplasms (SPNs) are uncommon tumors that rarely exhibit aggressive behavior. Given disease rarity, comprehensive studies to understand tumor biology, clinical course, and optimal management are limited. We describe an unusual case of a 55-year-old man with metastatic pancreatic SPN, where whole-genome and transcriptome analyses of the primary tumor and a metastatic liver lesion revealed a shared homozygous non-canonical mutation in APC. The patient received upfront modified FOLFIRINOX (infusional 5-fluorouracil, irinotecan, and oxaliplatin) chemotherapy due to rapidly progressive symptoms, demonstrating an early and sustained treatment response. Therefore, we identified potential genetic determinants of tumorigenesis and progression in a pathologically and clinically aggressive SPN, which may have important prognostic and treatment implications.",
+            "journal": "NPJ precision oncology",
+            "year": "2025",
+            "authors": [
+              "Cheng Phoebe T M",
+              "Topham James T",
+              "Aldeheshi Ayman",
+              "Taylor Gregory A",
+              "Pleasance Erin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40038436/"
+          },
+          {
+            "pmid": "36505136",
+            "title": "Late Recurrence of Pancreatic Solid Pseudopapillary Neoplasm With Peritoneal Carcinomatosis Treated With Cytoreductive Surgery (CRS) and Hyperthermic Intraperitoneal Chemotherapy (HIPEC): A Case Report.",
+            "abstract": "Pancreatic solid pseudopapillary neoplasm (SPN) is a rare malignant tumour predominantly affecting young women. The occurrence of peritoneal carcinomatosis (PC) in this setting is an even rarer condition, usually related to perioperative tumour rupture. We present a case of a 43-year-old woman who previously underwent distal splenopancreatectomy after the diagnosis of a pancreatic SPN. Thirteen years later, the patient underwent a radical hysterectomy due to a uterine myoma. Intraoperatively, a peritoneal mass was additionally found and resected. Histological examination revealed an implant with morphology compatible with pancreatic SPN. The patient was then referred to our institution. Staging MRI and CT revealed multiple nodular lesions adjacent to the left colon, suggestive of peritoneal implants. The patient was then submitted to cytoreductive surgery (CRS) combined with hyperthermic intraperitoneal chemotherapy (HIPEC) with oxaliplatin and irinotecan. Histological examination conf",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Nogueiro Jorge",
+              "Gomes Fábio",
+              "Pacheco João",
+              "Santos-Sousa Hugo",
+              "Meireles Sara"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36505136/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic intraductal papillary-mucinous carcinoma",
+        "txgnn_score": 0.9856477975845336,
+        "txgnn_rank": 13804,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40189770",
+            "title": "[A Case Report-Remarkable Response of mFOLFIRINOX in Recurrent Hepatic Metastasis of Intraductal Papillary Mucinous Carcinoma(IPMC)].",
+            "abstract": "A 76-year-old female presented with multiple pancreatic cystic lesions, the largest measuring 10 mm in diameter, which were identified during an examination by another department at our hospital. Following referral to our department, she underwent observation because CT scans showed that the lesions tended to enlarge. Subsequent MRCP confirmed a diagnosis of a mixed-type IPMN, prompting surgical intervention. A distal pancreatectomy with D2 lymphadenectomy was performed. Pathological examination revealed IPMC(pT1cpN0M0, pStage ⅠA). Postoperatively, the patient received adjuvant S-1 therapy. In the second year after surgery, CT and MRI revealed hepatic recurrence in segments S8(12 mm)and S5 (5 mm). mFOLFIRINOX was initiated, and after 8 courses, a follow-up CT showed the complete disappearance of both lesions, achieving a complete response(CR). mFOLFIRINOX was continued for 21 courses, without recurrence, over the subsequent year. This case highlights the efficacy of mFOLFIRINOX in trea",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2025",
+            "authors": [
+              "Obata Yuichi",
+              "Maeda Yoshinari",
+              "Kihara Himawari",
+              "Kijima Taiki",
+              "Kitamura Yoshinori"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Aged",
+              "Liver Neoplasms",
+              "Pancreatic Neoplasms",
+              "Recurrence",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Adenocarcinoma, Mucinous",
+              "Drug Combinations",
+              "Pancreatectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40189770/"
+          },
+          {
+            "pmid": "29264591",
+            "title": "Metastatic adenocarcinoma of the pancreas presents as metastases to the axillary/supraclavicular region as the first sign of the disease.",
+            "abstract": "Mucinous tumors of the pancreas are rare and the diagnosis of invasive carcinoma can be a dilemma. While metastatic disease from mucinous cystadenocarcinoma (MCAC) and invasive intraductal papillary mucinous neoplasms (IPMN) have been reported, no extraperitoneal mucinous cystic metastatic disease has been described. When metastatic, the overall survival rates for invasive adenocarcinoma, mucinous cystadenocarcinoma (MCAC) and invasive intraductal papillary mucinous neoplasms (IPMN) are similar. The best improvement in the overall and progression free survival has been demonstrated with FOLFIRINOX (folinic acid - fluorouracil - irinotecan - oxaliplatin) for metastatic adenocarcinoma and Gemcitabine based regimens for MCAC. However, the variable responses of metastatic mucinous lesions have been observed and the overall prognosis remains poor. We describe a case of a patient who presented with metastatic adenocarcinoma of the pancreas as cystic masses in the supraclavicular and axillary",
+            "journal": "Annals of hepato-biliary-pancreatic surgery",
+            "year": "2017",
+            "authors": [
+              "Stewart Blake A",
+              "Adjei Abdul",
+              "Zhang Xiaohong",
+              "Oxenberg Jacqueline C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29264591/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic intraductal papillary-mucinous neoplasm",
+        "txgnn_score": 0.9848365187644958,
+        "txgnn_rank": 14300,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38229493",
+            "title": "Margin-negative minimally invasive pancreatoduodenectomy following FOLFIRINOX neoadjuvant chemotherapy in invasive intraductal papillary mucinous neoplasm of pancreas: a case report.",
+            "abstract": "This study shows a case of neoadjuvant chemotherapy application for the management of a 34-year-old male patient diagnosed with invasive intraductal papillary mucinous neoplasm (IPMN), for which curative margin-negative resection initially seemed challenging. Five cycles of the FOLFIRINOX regimen (5-fluorouracil, leucovorin, irinotecan, and oxaliplatin) were administered preoperatively, resulting in a significant reduction of the intraductal mass size and deformity of the main vessels. The patient subsequently underwent a successful robotic pylorus-preserving pancreatoduodenectomy. Postoperatively, the patient received adjuvant chemotherapy with FOLFIRINOX, and after 5 months, showed no signs of tumor recurrence or specific complications. These findings suggest that neoadjuvant therapy can be a potentially effective strategy even in advanced invasive IPMN. Further research is necessary to establish guidelines for its application.",
+            "journal": "Korean journal of clinical oncology",
+            "year": "2023",
+            "authors": [
+              "Kim Jinho",
+              "Park Seokjin",
+              "Yim Eunsang",
+              "Park Su Hyeong",
+              "Kang Chang Moo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38229493/"
+          },
+          {
+            "pmid": "29264591",
+            "title": "Metastatic adenocarcinoma of the pancreas presents as metastases to the axillary/supraclavicular region as the first sign of the disease.",
+            "abstract": "Mucinous tumors of the pancreas are rare and the diagnosis of invasive carcinoma can be a dilemma. While metastatic disease from mucinous cystadenocarcinoma (MCAC) and invasive intraductal papillary mucinous neoplasms (IPMN) have been reported, no extraperitoneal mucinous cystic metastatic disease has been described. When metastatic, the overall survival rates for invasive adenocarcinoma, mucinous cystadenocarcinoma (MCAC) and invasive intraductal papillary mucinous neoplasms (IPMN) are similar. The best improvement in the overall and progression free survival has been demonstrated with FOLFIRINOX (folinic acid - fluorouracil - irinotecan - oxaliplatin) for metastatic adenocarcinoma and Gemcitabine based regimens for MCAC. However, the variable responses of metastatic mucinous lesions have been observed and the overall prognosis remains poor. We describe a case of a patient who presented with metastatic adenocarcinoma of the pancreas as cystic masses in the supraclavicular and axillary",
+            "journal": "Annals of hepato-biliary-pancreatic surgery",
+            "year": "2017",
+            "authors": [
+              "Stewart Blake A",
+              "Adjei Abdul",
+              "Zhang Xiaohong",
+              "Oxenberg Jacqueline C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29264591/"
+          },
+          {
+            "pmid": "40189770",
+            "title": "[A Case Report-Remarkable Response of mFOLFIRINOX in Recurrent Hepatic Metastasis of Intraductal Papillary Mucinous Carcinoma(IPMC)].",
+            "abstract": "A 76-year-old female presented with multiple pancreatic cystic lesions, the largest measuring 10 mm in diameter, which were identified during an examination by another department at our hospital. Following referral to our department, she underwent observation because CT scans showed that the lesions tended to enlarge. Subsequent MRCP confirmed a diagnosis of a mixed-type IPMN, prompting surgical intervention. A distal pancreatectomy with D2 lymphadenectomy was performed. Pathological examination revealed IPMC(pT1cpN0M0, pStage ⅠA). Postoperatively, the patient received adjuvant S-1 therapy. In the second year after surgery, CT and MRI revealed hepatic recurrence in segments S8(12 mm)and S5 (5 mm). mFOLFIRINOX was initiated, and after 8 courses, a follow-up CT showed the complete disappearance of both lesions, achieving a complete response(CR). mFOLFIRINOX was continued for 21 courses, without recurrence, over the subsequent year. This case highlights the efficacy of mFOLFIRINOX in trea",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2025",
+            "authors": [
+              "Obata Yuichi",
+              "Maeda Yoshinari",
+              "Kihara Himawari",
+              "Kijima Taiki",
+              "Kitamura Yoshinori"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Aged",
+              "Liver Neoplasms",
+              "Pancreatic Neoplasms",
+              "Recurrence",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Adenocarcinoma, Mucinous",
+              "Drug Combinations",
+              "Pancreatectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40189770/"
+          },
+          {
+            "pmid": "30948915",
+            "title": "Long-term survival of a patient with advanced pancreatic cancer under adjunct treatment with Viscum album extracts: A case report.",
+            "abstract": "Advanced pancreatic cancer (aPC) has a poor prognosis with limited survival benefit from current standard treatment. Viscum album extracts (VAE) are used by many cancer patients, showing immune-stimulating effects, improved quality of life, and a survival benefit in patients with aPC.",
+            "journal": "World journal of gastroenterology",
+            "year": "2019",
+            "authors": [
+              "Werthmann Paul G",
+              "Kempenich Robert",
+              "Lang-Avérous Gerlinde",
+              "Kienle Gunver S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Fluorouracil",
+              "Humans",
+              "Irinotecan",
+              "Leucovorin",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Middle Aged",
+              "Oxaliplatin",
+              "Pancreatic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30948915/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic signet ring cell adenocarcinoma",
+        "txgnn_score": 0.9848189353942872,
+        "txgnn_rank": 14313,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01643499",
+            "title": "A Genotype-guided Dosing Study of mFOLFIRINOX in Previously Untreated Patients With Advanced Gastrointestinal Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-03-26",
+            "completion_date": "2019-07",
+            "country": "United States",
+            "enrollment": 79,
+            "brief_summary": "This study is being done to determine the dose of a chemotherapy drug (irinotecan \\[irinotecan hydrochloride\\]) that can be tolerated as part of a combination of drugs. There is a combination of chemotherapy drugs often used to treat gastrointestinal cancer, which consists of 5-FU (fluorouracil), leucovorin (leucovorin calcium), irinotecan and oxaliplatin and is known as \"FOLFIRINOX\". FOLFIRINOX is a current drug therapy combination (or regimen) used for people with advanced pancreatic cancer, a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed locally advanced or metastatic pancreatic adenocarcinoma, colorectal adenocarcinoma, gastric adenocarcinoma, cholangiocarcinoma, gall bladder adenocarcinoma, ampullary carcinoma, adenocarcinoma of unclear primary (with a gastrointestin",
+            "endpoints": [
+              "DLT rate in course 1 for each of the two most common genotype groups (*1*1 and *1*28)"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT01643499"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35013129",
+            "title": "Establishment of gastric signet ring cell carcinoma organoid for the therapeutic drug testing.",
+            "abstract": "Signet ring cell carcinoma (SRCC) has specific oncogenesis and phenotypic and treatment resistance heterogeneity. Systemic therapies are often ineffective, and predictive biomarkers to guide treatment are urgently needed. Tumor organoids have recently emerged as an ideal model for drug testing and screening. Here, we report gastric organoids established from tumor tissues comprising four SRCCs and eight non-SRCCs. Tumor organoids demonstrated different growth characteristics and morphologies. Changes in the original tumor genome were maintained during long-term culture from whole-exome sequencing (WES) analysis. Immunohistochemistry and H&E staining showed that the tissue characteristics of the primary tumor could be recapitulated. In addition, organoid lines successfully formed tumors in immunodeficient mice and maintained tumorigenic character. Different responses to 5-fluorouracil, oxaliplatin, docetaxel and irinotecan treatment were observed in SRCC and non-SRCC organoids. These re",
+            "journal": "Cell death discovery",
+            "year": "2022",
+            "authors": [
+              "Li Guoliang",
+              "Ma Shuai",
+              "Wu Quanyou",
+              "Kong Defeng",
+              "Yang Zhenrong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35013129/"
+          },
+          {
+            "pmid": "37543827",
+            "title": "Clinical benefits of FOLFOXIRI combined with bevacizumab for advanced-stage primary signet ring cell carcinoma of the appendix: A case report.",
+            "abstract": "Signet-ring cell carcinoma, which is an infrequent type of colorectal cancer. Abdominal pain is the primary presenting complaint of patients with acute appendicitis. It is difficult to diagnose patients with appendiceal carcinomas accompanying with symptoms of acute appendicitis.",
+            "journal": "Medicine",
+            "year": "2023",
+            "authors": [
+              "Huang Nana",
+              "Lu Yishan",
+              "Wang Rui",
+              "Gao Ping",
+              "Liu Ge"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Adult",
+              "Camptothecin",
+              "Appendix",
+              "Organoplatinum Compounds",
+              "Oxaliplatin",
+              "Female",
+              "Humans",
+              "Appendicitis",
+              "Appendiceal Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37543827/"
+          },
+          {
+            "pmid": "17108732",
+            "title": "[A case of long-term survival of 3-years 4 months after combination chemotherapy of MTX, 5-FU and low-dose CDDP (MFP) for type 4 gastric cancer with pleuritis, peritoneal dissemination and Krukenberg tumor].",
+            "abstract": "A 41-year-old woman presented to the Department of Obstetrics and Gynecology of our hospital because of abdominal distension and irregular genital bleeding. Computed tomography and ultrasonography of the abdomen revealed bilateral ovarian tumors, massive ascites, and bilateral pleural effusion. Type IV advanced gastric cancer was diagnosed on upper gastrointestinal endoscopy. The patient was admitted to our department. She received 3 courses of combination chemotherapy with methotrexate, 5-fluorouracil, and low-dose cisplatin. Pleural effusion and ascites disappeared. Surgery (total gastrectomy, resection of the tail of the pancreas, lymph-node dissection, total hysterectomy, and adnexectomy) was performed, and the patient was discharged. Chemotherapy was repeated after surgery. Lymph-node metastasis recurred 1 year 8 months after the start of chemotherapy. Treatment was switched to irinotecan plus cisplatin, and the lymph nodes shrank. After 9 months, 3 courses of TS-1 were administer",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2006",
+            "authors": [
+              "Nakayama Norisuke",
+              "Tanabe Satoshi",
+              "Koizumi Wasaburo",
+              "Higuchi Katsuhiko",
+              "Sasaki Tohru"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cisplatin",
+              "Drug Administration Schedule",
+              "Female",
+              "Fluorouracil",
+              "Gastrectomy",
+              "Humans",
+              "Hysterectomy",
+              "Krukenberg Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17108732/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mixed ductal-endocrine carcinoma of pancreas",
+        "txgnn_score": 0.9846037030220032,
+        "txgnn_rank": 14444,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant exocrine pancreas neoplasm",
+        "txgnn_score": 0.984516143798828,
+        "txgnn_rank": 14507,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31679214",
+            "title": "Gemcitabine: A Review of Chemoresistance in Pancreatic Cancer.",
+            "abstract": "Pancreatic ductal adenocarcinoma, an exocrine tumor, is the most common type of cancer of the pancreas and one of the top five most prominent causes of cancer-associated mortality worldwide. The survival rate for pancreatic cancer is sadly less than 8%. The high fatality rate is partly related to late diagnosis and partly to the aggressive nature of malignant cells that disseminate to nearby tissues at an early stage of the disease, making treatment difficult. Available treatment choices consist of both medical and surgical: removal of the tumor, use of various medications like chemotherapeutic drugs and immunotherapeutic agents, radiation therapy, and targeted drug therapy. Since most patients suffer from advanced cancer at the time of diagnosis, chemotherapy becomes the primary therapeutic option in such cases. Drugs like Gemcitabine, Abraxane, FOLFIRINOX, and newer combination therapies are all effective in management, either curatively or palliatively. However, chemoresistance pose",
+            "journal": "Critical reviews in oncogenesis",
+            "year": "2019",
+            "authors": [
+              "Sarvepalli Deepika",
+              "Rashid Mamoon Ur",
+              "Rahman Asad Ur",
+              "Ullah Waqas",
+              "Hussain Ishtiaq"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Albumin-Bound Paclitaxel",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Pancreatic Ductal",
+              "Deoxycytidine",
+              "Drug Resistance, Neoplasm",
+              "Fluorouracil",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31679214/"
+          },
+          {
+            "pmid": "39576455",
+            "title": "Survival Outcomes and Genetic Characteristics of Resected Pancreatic Acinar Cell Carcinoma.",
+            "abstract": "Pancreatic acinar cell carcinoma (pACC) is a rare neoplasm of the exocrine pancreas. There is a dearth of information about tumor characteristics and patient outcomes. This study describes the clinical characteristics, genetic alterations, and survival outcomes of resected pACC.",
+            "journal": "Annals of surgical oncology",
+            "year": "2025",
+            "authors": [
+              "Blair Alex B",
+              "Radomski Shannon N",
+              "Chou Joanne",
+              "Liu Mengyuan",
+              "Howell Thomas Clark"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Acinar Cell",
+              "Male",
+              "Pancreatic Neoplasms",
+              "Female",
+              "Middle Aged",
+              "Pancreatectomy",
+              "Survival Rate",
+              "Retrospective Studies",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39576455/"
+          },
+          {
+            "pmid": "14533437",
+            "title": "Biweekly low-dose sequential gemcitabine, 5-fluorouracil, leucovorin, and cisplatin (GFP): a highly active novel therapy for metastatic adenocarcinoma of the exocrine pancreas.",
+            "abstract": "Phase II studies have suggested an improved response rate and acceptable toxicity profile associated with gemcitabine combinations compared to gemcitabine alone for treatment of metastatic adenocarcinoma of the pancreas. The GFP regimen (gemcitabine, 5-fluorouracil, leucovorin, and cisplatin) is based on laboratory evidence of disease-specific chemotherapy interaction. This retrospective analysis examined the outcome of 49 consecutive patients with histologically confirmed metastatic pancreatic adenocarcinoma treated between July 1998 and September 2000. Day 1 treatment consisted of gemcitabine 500 mg/m2 over 30 minutes and then leucovorin 300 mg bolus, 5-fluorouracil (5-FU) 400 mg/m2 bolus, followed by infusional 5-FU 600 mg/m2 over 8 hours. Day 2 consisted of leucovorin 300 mg bolus, 5-FU 400 mg/m2 bolus, followed by cisplatin 50-75 mg/m2 over 30 minutes and then infusional 5-FU 600 mg/m2 over 8 hours. Treatment was administered every 2 weeks. Median patient age was 61.5 years, 74% w",
+            "journal": "Cancer investigation",
+            "year": "2003",
+            "authors": [
+              "Araneo Miguel",
+              "Bruckner Howard W",
+              "Grossbard Michael L",
+              "Frager David",
+              "Homel Peter"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Drug Administration Schedule",
+              "Female",
+              "Fluorouracil",
+              "Humans",
+              "Infusions, Intravenous",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14533437/"
+          },
+          {
+            "pmid": "15191206",
+            "title": "Pancreatic carcinoma with brain metastases: case report and literature review.",
+            "abstract": "The case of a patient developing multiple brain metastases from carcinoma of the exocrine pancreas has been described. A 56-year-old man with stage IV pancreatic cancer attained a clinical and radiographic response while receiving the G-FLIP chemotherapy regimen (biweekly gemcitabine, irinotecan, 5-fluorouracil, leucovorin and cisplatin). After 4 months of therapy, he developed gait imbalance and weakness in the right hand. An MRI of the brain showed multiple 1-2 mm enhancing nodules in the cerebral hemispheres and pons. A subsequent biopsy confirmed that these were pancreatic carcinoma metastases. The patient experienced a rapid deterioration in his neurological status and died 3 days after brain biopsy. Previously reported cases of brain metastases from pancreatic cancer are reviewed.",
+            "journal": "Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver",
+            "year": "2004",
+            "authors": [
+              "El Kamar F G",
+              "Jindal K",
+              "Grossbard M L",
+              "Mizrachi H H",
+              "Kozuch P S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brain Neoplasms",
+              "Fatal Outcome",
+              "Humans",
+              "Liver Neoplasms",
+              "Male",
+              "Middle Aged",
+              "Pancreatic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15191206/"
+          },
+          {
+            "pmid": "30407325",
+            "title": "Response of germline BRCA2-mutated advanced pancreatic acinar cell carcinoma to olaparib: A case report.",
+            "abstract": "Pancreatic acinar cell carcinoma (PACC) is a relatively rare malignancy of the exocrine pancreas. BRCA2, a cancer susceptibility gene, has been widely studied in breast and ovarian carcinomas as mutation carriers for this gene are at a high risk for cancer development. Olaparib, an oral poly(adenosine diphosphate-ribose) polymerase (PARP) inhibitor, has been approved for the treatment of ovarian cancer with any BRCA 1/2 mutations. Herein, we report the first case of a germline BRCA2-mutated unresectable advanced PACC patient who responded well to olaparib treatment.",
+            "journal": "Medicine",
+            "year": "2018",
+            "authors": [
+              "Li Mao",
+              "Mou Yu",
+              "Hou Shengzhong",
+              "Cao Dan",
+              "Li Ang"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "BRCA2 Protein",
+              "Brachytherapy",
+              "Carcinoma, Acinar Cell",
+              "Drug Combinations",
+              "Fatal Outcome",
+              "Fluorouracil",
+              "Humans",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30407325/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "undifferentiated pancreatic carcinoma",
+        "txgnn_score": 0.984234631061554,
+        "txgnn_rank": 14665,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02345460",
+            "title": "Preoperative Folfirinox for Resectable Pancreatic Adenocarcinoma - A Phase II Study",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2015-09",
+            "completion_date": "2016-03",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "This phase II trial studies how well combination chemotherapy works in treating patients with pancreatic cancer before undergoing surgery. Drugs used in chemotherapy, such as irinotecan hydrochloride, oxaliplatin, leucovorin calcium, and fluorouracil (FOLFIRINOX), work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving more than one drug (combination chemotherapy) before surgery may make the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed carcinoma of the pancreas; most cases will be adenocarcinoma; cases with \"undifferentiated\" or \"poorly differentiated\" carcinoma will also be eligible\n* There should be no evidence of metastatic disease on imaging of",
+            "endpoints": [
+              "Number of Patients Undergoing Surgical Resection After Receiving at Least 4 of the 6 Courses of Preoperative Chemotherapy"
+            ],
+            "sponsor": "Case Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02345460"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31035768",
+            "title": "Undifferentiated Carcinoma of the Pancreas - a Case Report.",
+            "abstract": "Undifferentiated carcinoma of pancreas (pancreatic cancer - PC) is a rare subtype of malignant PC. It was thought to be a sarcoma of the pancreas due to its typical morphological pattern. There are three histomorphological variants: anaplastic, sarcomatoid, and carcinosarcoma. There is also a separate category: undifferentiated pancreatic carcinoma with osteoclast-like giant cells. In contrast to ductal adenocarcinoma of the pancreas, undifferentiated carcinoma of pancreas is characterized by more aggressive behavior, other predilection localization of tumor and different predilection for localization of tumor and metastasis, a larger primary tumor, and different symptomatology at the time of diagnosis.",
+            "journal": "Klinicka onkologie : casopis Ceske a Slovenske onkologicke spolecnosti",
+            "year": "2018",
+            "authors": [
+              "Kašperová B",
+              "Jurišová S",
+              "Macúch J",
+              "Bumberová M",
+              "Janega P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Fatal Outcome",
+              "Fluorouracil",
+              "Humans",
+              "Irinotecan",
+              "Leucovorin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31035768/"
+          },
+          {
+            "pmid": "28011495",
+            "title": "Granulocyte Colony-stimulating Factor Producing Anaplastic Carcinoma of the Pancreas: Case Report and Review of the Literature.",
+            "abstract": "We report on the case of a 67-year-old man with granulocyte colony-stimulating factor (G-CSF) producing anaplastic carcinoma of the pancreas. Preoperative routine tests revealed an elevated white blood cell (WBC) count of 25.2 G/l, consisting almost exclusively of neutrophilic granulocytes (23.31 G/l) with a predominance of segmented neutrophils (78% of all neutrophilic granulocytes), and elevated levels of C-reactive protein at 87 mg/l. Upon surgery, local tumour infiltration was more extensive than expected from preoperative imaging. However, no peritoneal dissemination was found and curative resection was attempted. Only seven days after the operation, signs of relapse were seen upon computed tomograpy. Histology revealed an undifferentiated anaplastic carcinoma, on the basis of a poorly differentiated ductal adenocarcinoma. Immunohistochemistry demonstrated G-CSF and G-CSF-Receptor expression in some CD68-positive syncytial macrophages. Granulocyte colony-stimulating factor (G-CSF)",
+            "journal": "Anticancer research",
+            "year": "2017",
+            "authors": [
+              "Vinzens Sarah",
+              "Zindel Joel",
+              "Zweifel Martin",
+              "Rau Tilman",
+              "Gloor Beat"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Camptothecin",
+              "Carcinoma",
+              "Female",
+              "Fluorouracil",
+              "Granulocyte Colony-Stimulating Factor",
+              "Humans",
+              "Irinotecan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28011495/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00762",
+    "name": "Irinotecan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Irinotecan"
+      },
+      "queried_at": "2026-03-10T05:44:15.973484",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Irinotecan"
+      },
+      "queried_at": "2026-03-10T05:44:16.842317",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:17.770391",
+      "status": "success",
+      "result_count": 22,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:21.060817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:24.788537",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic carcinoma with mixed differentiation"
+      },
+      "queried_at": "2026-03-10T05:44:25.372809",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic carcinoma with mixed differentiation"
+      },
+      "queried_at": "2026-03-10T05:44:28.170899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic carcinoma with mixed differentiation"
+      },
+      "queried_at": "2026-03-10T05:44:29.938988",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "osteoclastic giant cell tumor of pancreas"
+      },
+      "queried_at": "2026-03-10T05:44:30.419242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "osteoclastic giant cell tumor of pancreas"
+      },
+      "queried_at": "2026-03-10T05:44:34.359128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "osteoclastic giant cell tumor of pancreas"
+      },
+      "queried_at": "2026-03-10T05:44:35.182484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "solid pseudopapillary carcinoma of pancreas"
+      },
+      "queried_at": "2026-03-10T05:44:35.745203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "solid pseudopapillary carcinoma of pancreas"
+      },
+      "queried_at": "2026-03-10T05:44:40.905717",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "solid pseudopapillary carcinoma of pancreas"
+      },
+      "queried_at": "2026-03-10T05:44:42.897800",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic intraductal papillary-mucinous carcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:43.446090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic intraductal papillary-mucinous carcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:46.877164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic intraductal papillary-mucinous carcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:48.552807",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic intraductal papillary-mucinous neoplasm"
+      },
+      "queried_at": "2026-03-10T05:44:49.092264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic intraductal papillary-mucinous neoplasm"
+      },
+      "queried_at": "2026-03-10T05:44:52.625088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic intraductal papillary-mucinous neoplasm"
+      },
+      "queried_at": "2026-03-10T05:44:54.495960",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic signet ring cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:55.143995",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic signet ring cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T05:44:57.998198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "pancreatic signet ring cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T05:45:00.194489",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "mixed ductal-endocrine carcinoma of pancreas"
+      },
+      "queried_at": "2026-03-10T05:45:00.751041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "mixed ductal-endocrine carcinoma of pancreas"
+      },
+      "queried_at": "2026-03-10T05:45:03.502360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "mixed ductal-endocrine carcinoma of pancreas"
+      },
+      "queried_at": "2026-03-10T05:45:04.199849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "malignant exocrine pancreas neoplasm"
+      },
+      "queried_at": "2026-03-10T05:45:05.287512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "malignant exocrine pancreas neoplasm"
+      },
+      "queried_at": "2026-03-10T05:45:08.458715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "malignant exocrine pancreas neoplasm"
+      },
+      "queried_at": "2026-03-10T05:45:10.757086",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "undifferentiated pancreatic carcinoma"
+      },
+      "queried_at": "2026-03-10T05:45:11.290944",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "undifferentiated pancreatic carcinoma"
+      },
+      "queried_at": "2026-03-10T05:45:14.450579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Irinotecan",
+        "disease": "undifferentiated pancreatic carcinoma"
+      },
+      "queried_at": "2026-03-10T05:45:17.281459",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:45:17.286635"
+  }
+}

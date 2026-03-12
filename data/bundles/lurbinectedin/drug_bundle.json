@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Lurbinectedin",
+    "drugbank_id": "DB12674",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9944039583206176,
+        "txgnn_rank": 7015,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HIV infectious disease",
+        "txgnn_score": 0.9934335947036744,
+        "txgnn_rank": 7885,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.992622137069702,
+        "txgnn_rank": 8532,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis",
+        "txgnn_score": 0.992620587348938,
+        "txgnn_rank": 8533,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cytomegalovirus infection",
+        "txgnn_score": 0.9913502931594848,
+        "txgnn_rank": 9535,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.9908735752105712,
+        "txgnn_rank": 9899,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.9908735752105712,
+        "txgnn_rank": 9900,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious bovine rhinotracheitis",
+        "txgnn_score": 0.9908628463745116,
+        "txgnn_rank": 9906,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant catarrh",
+        "txgnn_score": 0.9908628463745116,
+        "txgnn_rank": 9907,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Mills syndrome",
+        "txgnn_score": 0.9907519817352296,
+        "txgnn_rank": 9996,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12674",
+    "name": "Lurbinectedin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lurbinectedin"
+      },
+      "queried_at": "2026-03-10T04:08:03.697609",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lurbinectedin"
+      },
+      "queried_at": "2026-03-10T04:08:05.755438",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T04:08:06.334865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T04:08:09.523096",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T04:08:10.771558",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T04:08:11.272754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T04:08:14.589929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T04:08:15.377116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:08:15.975279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:08:19.524980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:08:20.380147",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T04:08:21.623651",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T04:08:25.208322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T04:08:25.949902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T04:08:26.559326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T04:08:29.274537",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T04:08:30.040195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T04:08:30.674129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T04:08:34.194175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T04:08:35.895313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:08:36.472751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:08:39.583758",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:08:40.640577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T04:08:41.726780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T04:08:45.399994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T04:08:46.527938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T04:08:47.074860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T04:08:49.936104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T04:08:50.632559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "Mills syndrome"
+      },
+      "queried_at": "2026-03-10T04:08:51.228105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "Mills syndrome"
+      },
+      "queried_at": "2026-03-10T04:08:54.915199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lurbinectedin",
+        "disease": "Mills syndrome"
+      },
+      "queried_at": "2026-03-10T04:08:55.832123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:08:55.843153"
+  }
+}

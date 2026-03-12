@@ -1,0 +1,529 @@
+{
+  "drug": {
+    "inn": "Desflurane",
+    "drugbank_id": "DB01189",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9889886975288392,
+        "txgnn_rank": 11286,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9873762130737304,
+        "txgnn_rank": 12558,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "manic bipolar affective disorder",
+        "txgnn_score": 0.9768803119659424,
+        "txgnn_rank": 18476,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Tourette syndrome",
+        "txgnn_score": 0.9747297167778016,
+        "txgnn_rank": 19439,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis fibrosa",
+        "txgnn_score": 0.9701784253120422,
+        "txgnn_rank": 21206,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic granulomatous myositis",
+        "txgnn_score": 0.9701784253120422,
+        "txgnn_rank": 21207,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trichotillomania",
+        "txgnn_score": 0.9691150784492492,
+        "txgnn_rank": 21590,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.969021201133728,
+        "txgnn_rank": 21614,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18835973",
+            "title": "Peripheral nerve blockade in a patient with Charcot-Marie-Tooth disease.",
+            "abstract": "",
+            "journal": "Canadian journal of anaesthesia = Journal canadien d'anesthesie",
+            "year": "2008",
+            "authors": [
+              "Bui Ann H",
+              "Marco Alan P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anesthetics, Inhalation",
+              "Anesthetics, Intravenous",
+              "Anesthetics, Local",
+              "Bupivacaine",
+              "Charcot-Marie-Tooth Disease",
+              "Coronary Artery Disease",
+              "Desflurane",
+              "Diabetes Mellitus, Type 2",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18835973/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibromyalgia",
+        "txgnn_score": 0.9659157395362854,
+        "txgnn_rank": 22568,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myofascial pain syndrome",
+        "txgnn_score": 0.9649367332458496,
+        "txgnn_rank": 22863,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01189",
+    "name": "Desflurane",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Desflurane"
+      },
+      "queried_at": "2026-03-10T06:12:29.936990",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Desflurane"
+      },
+      "queried_at": "2026-03-10T06:12:31.889792",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T06:12:32.611772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T06:12:36.720543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T06:12:37.412304",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T06:12:38.025665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T06:12:42.127250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T06:12:42.588564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-10T06:12:43.126976",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-10T06:12:46.722071",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-10T06:12:47.609363",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-10T06:12:48.162756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-10T06:12:51.060561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-10T06:12:51.817822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T06:12:52.456262",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T06:12:55.676395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T06:12:58.704622",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T06:12:59.265469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T06:13:02.609253",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T06:13:03.459199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-10T06:13:03.978017",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-10T06:13:08.179112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-10T06:13:08.871538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T06:13:09.366522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T06:13:12.477404",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T06:13:14.273112",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T06:13:15.568420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T06:13:19.516210",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T06:13:20.125208",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T06:13:20.763281",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T06:13:23.581672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Desflurane",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T06:13:24.317874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:13:24.325138"
+  }
+}

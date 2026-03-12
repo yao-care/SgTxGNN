@@ -1,0 +1,884 @@
+{
+  "drug": {
+    "inn": "Denosumab",
+    "drugbank_id": "DB06643",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9963066577911376,
+        "txgnn_rank": 5305,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9922665953636168,
+        "txgnn_rank": 8820,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00925600",
+            "title": "A Double-blind, Placebo-controlled Study to Evaluate New or Worsening Lens Opacifications in Subjects With Non-metastatic Prostate Cancer Receiving Denosumab for Bone Loss Due to Androgen-Deprivation Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-11-30",
+            "completion_date": "2016-05-12",
+            "country": "Australia, France, Canada, India, New Zealand, Slovakia, Latvia, United States, Slovenia, Bulgaria, Czechia, Hungary, Mexico, Russia, Ukraine, Greece, South Africa, Poland",
+            "enrollment": 769,
+            "brief_summary": "This is a phase 3, randomized, double-blind, placebo-controlled study to evaluate new or worsening lens opacifications in men with non-metastatic prostate cancer receiving denosumab for bone loss due to androgen deprivation therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men ≥ 30 years of age with non-metastatic prostate cancer, having undergone bilateral orchiectomy or initiated androgen deprivation therapy (ADT) with gonadotropin-releasing hormone (GnRH) agonists and is expected to continue on ADT for at least 12 months\n* Adequate visual acc",
+            "endpoints": [
+              "Percentage of Participants With Lens Opacification Event Development or Progression by Month 12"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT00925600"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38899553",
+            "title": "Denosumab, for osteoporosis, reduces the incidence of type 2 diabetes, risk of foot ulceration and all-cause mortality in adults, compared with bisphosphonates: An analysis of real-world, cohort data, with a systematic review and meta-analysis.",
+            "abstract": "To evaluate the impact of denosumab on (i) the incidence of type 2 diabetes (T2D), and (ii) long-term health outcomes (microvascular [neuropathy, retinopathy, nephropathy] and macrovascular [cardiovascular disease, cerebrovascular accident] complications, and all-cause mortality) in patients with T2D, before (iii) combining results with prior studies using meta-analysis.",
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2024",
+            "authors": [
+              "Henney Alex E",
+              "Riley David R",
+              "O'Connor Ben",
+              "Hydes Theresa J",
+              "Anson Matthew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Bone Density Conservation Agents",
+              "Cohort Studies",
+              "Denosumab",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Foot",
+              "Diphosphonates",
+              "Incidence",
+              "Osteoporosis",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38899553/"
+          },
+          {
+            "pmid": "36960265",
+            "title": "Evaluation of Usage of a Fracture Risk Assessment by FRAX Tool in Adults With Type 2 Diabetes Mellitus.",
+            "abstract": "Fragility fractures are increasingly recognized as a complication of type 2 diabetes mellitus (T2DM). The FRAX-Port® is a calculation tool that assesses the 10-year risk of either major and hip fracture, integrating several clinical risk factors, including T2DM. We aimed to evaluate the fracture risk in adults with T2DM and determine the rate of patients at high risk for fracture under anti-osteoporotic therapy.",
+            "journal": "Cureus",
+            "year": "2023",
+            "authors": [
+              "Santos Monteiro Sílvia",
+              "da Silva Santos Tiago",
+              "Fonseca Liliana",
+              "Dores Jorge"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36960265/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatitis",
+        "txgnn_score": 0.9725456833839417,
+        "txgnn_rank": 20305,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01978483",
+            "title": "Effect of RANKL Inhibition on UV-induced Immunosuppression",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2014-06",
+            "country": "Canada",
+            "enrollment": 31,
+            "brief_summary": "Ultraviolet (UV) light is part of normal sunlight and has many effects on human skin and health. One of the harmful effects of long-term UV light exposure is that it can cause skin cancer. The mechanism by which UV light causes skin cancer is not entirely understood. One of the ways UV light causes cancer is by modifying DNA molecules in the cells of the skin. Another mechanism involved in cancer formation by UV light is immunosuppression. By this mechanism, UV light inactivates cells of the imm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Men or postmenopausal women 18 years of age or older at time of consent.\n* 2\\. Male subject or his female partner (this criterion does not apply to post-menopausal female) is willing to use effective contraceptive method for at least 30 days before Day 0 and at least 1 mon",
+            "endpoints": [
+              "Change in dermal thickness: denosumab group vs placebo group of Cohort 2"
+            ],
+            "sponsor": "Innovaderm Research Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01978483"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32656848",
+            "title": "Denosumab and lichen planus: two cases.",
+            "abstract": "",
+            "journal": "Clinical and experimental dermatology",
+            "year": "2021",
+            "authors": [
+              "Cachia M",
+              "Betts A",
+              "Aquilina S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Bone Density Conservation Agents",
+              "Denosumab",
+              "Drug Eruptions",
+              "Female",
+              "Humans",
+              "Lichen Planus",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32656848/"
+          },
+          {
+            "pmid": "30826782",
+            "title": "c-ANCA vasculitis after initiation of denosumab.",
+            "abstract": "Denosumab is a fully human antibody to receptor activator of nuclear factor kappa-B ligand (RANKL), and it is administered every 6 months in women with postmenopausal osteoporosis (PMO) at high risk for fracture. Adverse effects of denosumab include musculoskeletal pain, hypercholesterolaemia, symptomatic hypocalcaemia, osteonecrosis of the jaw and cutaneous events such as angioedema, cellulitis and pustular dermatitis. While the possibility of vasculitis was mentioned in the product Monograph as well as in the WHO Newsletter, this is the first case, to our knowledge, of cytoplasmic-ANCA (c-ANCA) associated vasculitis officially published in the literature. 1 2 The pathogenic mechanisms behind drug-induced vasculitis remain to be defined and appear to be multifactorial. Once suspicion for drug-induced vasculitis arises, the offending agent should be discontinued and immunosuppressive therapy should be initiated according to the severity of organ involvement to inhibit progression to se",
+            "journal": "BMJ case reports",
+            "year": "2019",
+            "authors": [
+              "Sanchez Alexandra",
+              "Lozier Matthew",
+              "Adkinson Brian Cody",
+              "Ilaiwy Amro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis",
+              "Antibodies, Antineutrophil Cytoplasmic",
+              "Bone Density Conservation Agents",
+              "Denosumab",
+              "Female",
+              "Humans",
+              "Osteoporosis, Postmenopausal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30826782/"
+          },
+          {
+            "pmid": "29076163",
+            "title": "Denosumab-induced cutaneous hypersensitivity reaction with distinct clinical and histopathologic findings.",
+            "abstract": "Cutaneous reactions from targeted biologics are increasingly common. We describe a case of a cutaneous lichenoid drug eruption from the RANK inhibitor denosumab and a previously unreported lymphohistiocytic reaction pattern. The clinical and histopathological details of this case will aid in recognition, diagnosis, and treatment of drug rashes from denosumab.",
+            "journal": "Journal of cutaneous pathology",
+            "year": "2018",
+            "authors": [
+              "King Brian J",
+              "Lehman Julia S",
+              "Sartori Valinotti Julio C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bone Density Conservation Agents",
+              "Denosumab",
+              "Drug Eruptions",
+              "Female",
+              "Humans",
+              "Lichenoid Eruptions",
+              "Osteoporosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29076163/"
+          },
+          {
+            "pmid": "22108301",
+            "title": "Denosumab for the reduction of bone loss in postmenopausal osteoporosis: a review.",
+            "abstract": "Osteoporosis is a prevalent condition that may lead to increased risks for bone fracture and other morbidities and increased health care costs. Treatment modalities for osteoporosis aim to prevent further bone loss and to reduce the risk for fracture. Denosumab is a human monoclonal antibody developed for use in osteoporosis. It inhibits the receptor activator of nuclear factor κB ligand, a cytokine that mediates osteoclast-mediated bone resorption.",
+            "journal": "Clinical therapeutics",
+            "year": "2011",
+            "authors": [
+              "Bridgeman Mary Barna",
+              "Pathak Rolee"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Bone Density Conservation Agents",
+              "Clinical Trials as Topic",
+              "Denosumab",
+              "Fractures, Bone",
+              "Humans",
+              "Osteoporosis, Postmenopausal",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22108301/"
+          },
+          {
+            "pmid": "39175449",
+            "title": "Denosumab-induced Acute Generalized Exanthematous Pustulosis.",
+            "abstract": "",
+            "journal": "Acta dermato-venereologica",
+            "year": "2024",
+            "authors": [
+              "Marovt Maruška",
+              "Marko Pij B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Denosumab",
+              "Acute Generalized Exanthematous Pustulosis",
+              "Bone Density Conservation Agents",
+              "Female",
+              "Aged",
+              "Biopsy",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39175449/"
+          },
+          {
+            "pmid": "36184744",
+            "title": "Erythema nodosum with incidental calciphylaxis secondary to zoledronic acid and denosumab.",
+            "abstract": "Erythema nodosum (EN) is the most common clinical presentation of panniculitis, an inflammatory process that affects subcutaneous cellular tissue, characterized by the acute appearance of painful erythematous nodules predominantly in the lower extremities. An unusual case of EN is presented below, secondary to the administration of zoledronic acid (ZA) and denosumab, in which incidental histopathological findings of calciphylaxis were also found.",
+            "journal": "International journal of rheumatic diseases",
+            "year": "2022",
+            "authors": [
+              "Pérez Haded Iván",
+              "Bayona D'vera Juan Sebastián",
+              "Blanco Espinoza Andrea Sofía",
+              "Llamas Castellanos Bruny Carolina",
+              "Rolón Cadena Mariam Carolina"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Erythema Nodosum",
+              "Zoledronic Acid",
+              "Denosumab",
+              "Calciphylaxis",
+              "Panniculitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36184744/"
+          },
+          {
+            "pmid": "35960103",
+            "title": "Comprehensive treatment outcomes of giant cell tumor of the spine: A retrospective study.",
+            "abstract": "There is no consensus on a treatment strategy for spinal giant cell tumor of bone (GCTB) because of the difficulty in their treatment. Treatment options often include the use of the controversial denosumab, an antibody therapy aimed at tumor shrinkage, different curettage techniques, resection, or a combination of these therapies. The current study aimed to identify treatment methods associated with favorable outcomes in patients with spinal GCTB. We retrospectively reviewed 5 patients with spinal GCTB, including patients with tumors of the sacrum, treated at our hospital between September 2011 and November 2020. Two men and 3 women were included in the study. The median follow-up period was 74 months (range: 14-108 months). We surveyed the tumor site, treatment method, denosumab use, and outcomes. The median age was 17 years (range: 17-42 years). There were 2 cases of sacral GCTB and 1 case each of lumbar, cervical, and thoracic vertebral GCTB. The comorbidities observed included hepa",
+            "journal": "Medicine",
+            "year": "2022",
+            "authors": [
+              "Hashimoto Kazuhiko",
+              "Nishimura Shunji",
+              "Miyamoto Hiroshi",
+              "Toriumi Kensuke",
+              "Ikeda Terumasa"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Bone Density Conservation Agents",
+              "Bone Neoplasms",
+              "Denosumab",
+              "Female",
+              "Giant Cell Tumor of Bone",
+              "Humans",
+              "Male",
+              "Retrospective Studies",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35960103/"
+          },
+          {
+            "pmid": "31890758",
+            "title": "DRESS syndrome in response to Denosumab: First documented case report.",
+            "abstract": "Denosumab is an antiresorptive drug targeting RANK ligand, currently licensed for postmenopausal and male osteoporosis, bone loss associated with hormone ablation in men with prostate cancer and with systemic glucocorticoid treatment, and also used in oncology for the treatment of bone metastases and unresectable giant cell tumour of bone. When used for the treatment of osteoporosis or bone loss the drug is usually well-tolerated with non-specific musculoskeletal pain being the most common side effect. However denosumab has been associated with some dermatological manifestations including dermatitis, eczema, pruritus and, less commonly, cellulitis. All these side effects are generally mild and self-limiting. We hereby report the first documented case of Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) syndrome following denosumab administration. DRESS syndrome is an extremely rare but potentially life-threatening hypersensitivity reaction. The syndrome should be considered",
+            "journal": "Bone reports",
+            "year": "2020",
+            "authors": [
+              "Al-Attar Mariam",
+              "De Santis Maria",
+              "Massarotti Marco"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31890758/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9665858149528505,
+        "txgnn_rank": 22362,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00925600",
+            "title": "A Double-blind, Placebo-controlled Study to Evaluate New or Worsening Lens Opacifications in Subjects With Non-metastatic Prostate Cancer Receiving Denosumab for Bone Loss Due to Androgen-Deprivation Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-11-30",
+            "completion_date": "2016-05-12",
+            "country": "Australia, France, Canada, India, New Zealand, Slovakia, Latvia, United States, Slovenia, Bulgaria, Czechia, Hungary, Mexico, Russia, Ukraine, Greece, South Africa, Poland",
+            "enrollment": 769,
+            "brief_summary": "This is a phase 3, randomized, double-blind, placebo-controlled study to evaluate new or worsening lens opacifications in men with non-metastatic prostate cancer receiving denosumab for bone loss due to androgen deprivation therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men ≥ 30 years of age with non-metastatic prostate cancer, having undergone bilateral orchiectomy or initiated androgen deprivation therapy (ADT) with gonadotropin-releasing hormone (GnRH) agonists and is expected to continue on ADT for at least 12 months\n* Adequate visual acc",
+            "endpoints": [
+              "Percentage of Participants With Lens Opacification Event Development or Progression by Month 12"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT00925600"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32026309",
+            "title": "Risk of Cataract Surgery and Age-Related Macular Degeneration After Initiation of Denosumab vs Zoledronic Acid for Osteoporosis: A Multi-Database Cohort Study.",
+            "abstract": "There is a relative lack of head-to-head comparisons of denosumab against other osteoporosis drugs on safety. We aimed to explore ocular outcomes in patients with osteoporosis initiating denosumab vs zoledronic acid.",
+            "journal": "Drugs & aging",
+            "year": "2020",
+            "authors": [
+              "Lee Hemin",
+              "Jin Yinzhu",
+              "Roh Miin",
+              "Tsacogianis Theodore N",
+              "Park Sangshin"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bone Density Conservation Agents",
+              "Cataract Extraction",
+              "Cohort Studies",
+              "Databases, Factual",
+              "Denosumab",
+              "Female",
+              "Humans",
+              "Macular Degeneration",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32026309/"
+          },
+          {
+            "pmid": "24433001",
+            "title": "Denosumab treatment for juvenile Paget's disease: results from two adult patients with osteoprotegerin deficiency (\"Balkan\" mutation in the TNFRSF11B gene).",
+            "abstract": "Most patients with juvenile Paget's disease (JPD) have homozygous loss-of-function mutations in the TNFRSF11B gene resulting in osteoprotegerin deficiency. Because recombinant osteoprotegerin is not available for clinical use, an alternative therapeutic approach could be denosumab, which acts on the same pathway.",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2014",
+            "authors": [
+              "Polyzos Stergios A",
+              "Singhellakis Panagiotis N",
+              "Naot Dorit",
+              "Adamidou Fotini",
+              "Malandrinou Fotini C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies, Monoclonal, Humanized",
+              "Bone Density Conservation Agents",
+              "Denosumab",
+              "Female",
+              "Humans",
+              "INDEL Mutation",
+              "Male",
+              "Osteitis Deformans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24433001/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9623388648033142,
+        "txgnn_rank": 23651,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.9581494331359864,
+        "txgnn_rank": 24707,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9520124197006226,
+        "txgnn_rank": 26243,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.9497143030166626,
+        "txgnn_rank": 26769,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.9478498101234436,
+        "txgnn_rank": 27190,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9466676115989684,
+        "txgnn_rank": 27439,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06643",
+    "name": "Denosumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Denosumab"
+      },
+      "queried_at": "2026-03-10T02:08:45.146201",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Denosumab"
+      },
+      "queried_at": "2026-03-10T02:08:47.571161",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:08:49.407639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:08:52.608618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:08:54.124313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:08:58.187909",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:09:05.589943",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:09:08.964957",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T02:09:09.989629",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T02:09:14.112327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T02:09:17.970236",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T02:09:19.490048",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T02:09:24.528887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T02:09:27.774754",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T02:09:29.644217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T02:09:34.370158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T02:09:35.581429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T02:09:36.785376",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T02:09:42.182080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T02:09:43.210780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T02:09:44.460326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T02:09:48.707203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T02:09:50.113296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T02:09:50.833875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T02:09:54.812036",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T02:09:55.798084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T02:09:56.388436",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T02:10:00.574719",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T02:10:01.517157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T02:10:02.099324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T02:10:05.308234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Denosumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T02:10:06.493871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:10:06.508455"
+  }
+}

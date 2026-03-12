@@ -1,0 +1,532 @@
+{
+  "drug": {
+    "inn": "Cladribine",
+    "drugbank_id": "DB00242",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "parameningeal embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.9977322816848756,
+        "txgnn_rank": 3745,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+        "txgnn_score": 0.9977309107780457,
+        "txgnn_rank": 3746,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "embryonal extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.997588276863098,
+        "txgnn_rank": 3924,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prostate embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.9975007176399232,
+        "txgnn_rank": 4032,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.9974740147590636,
+        "txgnn_rank": 4051,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhabdomyosarcoma (disease)",
+        "txgnn_score": 0.9974408149719238,
+        "txgnn_rank": 4094,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liver sarcoma",
+        "txgnn_score": 0.9969664216041564,
+        "txgnn_rank": 4635,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15241520",
+            "title": "[\"Smoldering systemic mastocytosis. \"Successful therapy with cladribine].",
+            "abstract": "Mastocytoses are a heterogenous group of diseases characterized by proliferation and accumulation of mast cells in the skin and other organs. They are subdivided into cutaneous mastocytoses; systemic forms, which may appear with or without skin lesions; mast cell sarcomas and extracutaneous, localized, benign mastocytomas. Systemic mastocytoses apart from the skin mainly involve bone marrow, gastrointestinal tract, bones, lymph nodes, spleen and liver. Whereas indolent forms of systemic mastocytosis are mainly treated with antihistamines, glucocorticosteroids and PUVA therapy, the more aggressive forms, including mast cell leukemia, often require cytostatic chemotherapy. A 53-year old patient with beginning \"smoldering systemic mastocytosis\" failed to respond to high-dose systemic glucocorticosteroids and interferon-alpha. Treatment with cladribine led to an impressive improvement of skin lesions, a significant decrease in tryptase serum levels and stabilization of bone marrow infiltra",
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2004",
+            "authors": [
+              "Schleyer V",
+              "Meyer S",
+              "Landthaler M",
+              "Szeimies R-M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Biopsy",
+              "Cladribine",
+              "Follow-Up Studies",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Infusions, Intravenous",
+              "Male",
+              "Mastocytosis, Systemic",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15241520/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "skeletal muscle neoplasm",
+        "txgnn_score": 0.9895555377006532,
+        "txgnn_rank": 10845,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gestational trophoblastic neoplasm",
+        "txgnn_score": 0.9836560487747192,
+        "txgnn_rank": 15000,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pleural adenomatoid tumor",
+        "txgnn_score": 0.9806957840919496,
+        "txgnn_rank": 16710,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00242",
+    "name": "Cladribine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cladribine"
+      },
+      "queried_at": "2026-03-09T22:23:21.123087",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cladribine"
+      },
+      "queried_at": "2026-03-09T22:23:47.948573",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:23:49.264906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:23:56.820943",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:23:58.352393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-09T22:24:00.592231",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-09T22:24:08.835397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-09T22:24:11.467460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:12.421168",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:21.448319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:22.621341",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:23.441151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:28.747312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:33.516573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:34.439402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:38.889718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:39.594720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-09T22:24:40.704221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-09T22:24:44.665400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-09T22:24:46.650568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "liver sarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:48.858887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "liver sarcoma"
+      },
+      "queried_at": "2026-03-09T22:24:55.690025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "liver sarcoma"
+      },
+      "queried_at": "2026-03-09T22:25:00.393928",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "skeletal muscle neoplasm"
+      },
+      "queried_at": "2026-03-09T22:25:01.798163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "skeletal muscle neoplasm"
+      },
+      "queried_at": "2026-03-09T22:25:07.850401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "skeletal muscle neoplasm"
+      },
+      "queried_at": "2026-03-09T22:25:09.145132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "gestational trophoblastic neoplasm"
+      },
+      "queried_at": "2026-03-09T22:25:10.541314",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "gestational trophoblastic neoplasm"
+      },
+      "queried_at": "2026-03-09T22:25:15.042228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "gestational trophoblastic neoplasm"
+      },
+      "queried_at": "2026-03-09T22:25:17.141044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "pleural adenomatoid tumor"
+      },
+      "queried_at": "2026-03-09T22:25:18.004697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "pleural adenomatoid tumor"
+      },
+      "queried_at": "2026-03-09T22:25:26.176777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cladribine",
+        "disease": "pleural adenomatoid tumor"
+      },
+      "queried_at": "2026-03-09T22:25:32.402946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:25:32.433424"
+  }
+}

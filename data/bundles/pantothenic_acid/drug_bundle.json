@@ -1,0 +1,969 @@
+{
+  "drug": {
+    "inn": "Pantothenic acid",
+    "drugbank_id": "DB01783",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "congenital prothrombin deficiency",
+        "txgnn_score": 0.9996415376663208,
+        "txgnn_rank": 922,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02392767",
+            "title": "Effect of a Dietary Supplement on Endothelial Function in Volunteers With Light to Moderate Hypertension - a Randomised, Double-blind, Placebo Controlled Cross-over Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2014-10",
+            "completion_date": "2015-08",
+            "country": "Germany",
+            "enrollment": 25,
+            "brief_summary": "The effect of a combination product (Verum ) with L-arginine, Pycnogenol, vitamin K2, R-(+)-alpha-lipoic acid and vitamins B6, B12 and folic acid is investigated in a double blind placebo-controlled cross-over study. Volunteers with hypertension and hyperhomocysteinemia are randomly assigned to the dietary supplement or placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* borderline blood pressure (systolic 130-149)\n* homocystein level \\>10µmol/l\n\nExclusion Criteria:\n\ne.g.\n\n* BMI \\<20kg/m2 and \\>32kg/m2\n* use of antihypertensives, anticoagulants, and statins\n* cardiovascular diseases e.g. stroke, myocardial infarction\n* use of L-arginine and ot",
+            "endpoints": [
+              "Change in Endothelial Function Between the Visit at Start of Supplementation Phase and the Visit on the Final Day of the 4 Week Supplementation Phase (Delta \"lnRHI\")"
+            ],
+            "sponsor": "Dr. Loges & Co. GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT02392767"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ochronosis disorder",
+        "txgnn_score": 0.9977516531944276,
+        "txgnn_rank": 3713,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glycerol metabolism disease",
+        "txgnn_score": 0.9977242350578308,
+        "txgnn_rank": 3751,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35296075",
+            "title": "Altered Fecal Metabolomics and Potential Biomarkers of Psoriatic Arthritis Differing From Rheumatoid Arthritis.",
+            "abstract": "Psoriatic arthritis (PsA) is a chronic inflammatory joint disease, and the diagnosis is quite difficult due to the unavailability of reliable clinical markers. This study aimed to investigate the fecal metabolites in PsA by comparison with rheumatoid arthritis (RA), and to identify potential diagnostic biomarkers for PsA. The metabolic profiles of the fecal samples from 27 PsA and 29 RA patients and also 36 healthy controls (HCs) were performed on ultra-high-performance liquid chromatography coupled with hybrid triple quadrupole time-of-flight mass spectrometry (UHPLC-Q-TOF-MS). And differentially altered metabolites were screened and assessed using multivariate analysis for exploring the potential biomarkers of PsA. The results showed that 154 fecal metabolites were significantly altered in PsA patients when compared with HCs, and 45 metabolites were different when compared with RA patients. A total of 14 common differential metabolites could be defined as candidate biomarkers. Furthe",
+            "journal": "Frontiers in immunology",
+            "year": "2022",
+            "authors": [
+              "Wang Nan",
+              "Yang Linjiao",
+              "Shang Lili",
+              "Liang Zhaojun",
+              "Wang Yanlin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Arthritis, Psoriatic",
+              "Arthritis, Rheumatoid",
+              "Biomarkers",
+              "Humans",
+              "Metabolomics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35296075/"
+          },
+          {
+            "pmid": "20505214",
+            "title": "Metabolic signatures of exercise in human plasma.",
+            "abstract": "Exercise provides numerous salutary effects, but our understanding of how these occur is limited. To gain a clearer picture of exercise-induced metabolic responses, we have developed comprehensive plasma metabolite signatures by using mass spectrometry to measure >200 metabolites before and after exercise. We identified plasma indicators of glycogenolysis (glucose-6-phosphate), tricarboxylic acid cycle span 2 expansion (succinate, malate, and fumarate), and lipolysis (glycerol), as well as modulators of insulin sensitivity (niacinamide) and fatty acid oxidation (pantothenic acid). Metabolites that were highly correlated with fitness parameters were found in subjects undergoing acute exercise testing and marathon running and in 302 subjects from a longitudinal cohort study. Exercise-induced increases in glycerol were strongly related to fitness levels in normal individuals and were attenuated in subjects with myocardial ischemia. A combination of metabolites that increased in plasma in ",
+            "journal": "Science translational medicine",
+            "year": "2010",
+            "authors": [
+              "Lewis Gregory D",
+              "Farrell Laurie",
+              "Wood Malissa J",
+              "Martinovic Maryann",
+              "Arany Zoltan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Animals",
+              "Blood",
+              "Cell Line",
+              "Energy Metabolism",
+              "Exercise",
+              "Humans",
+              "Male",
+              "Metabolomics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20505214/"
+          },
+          {
+            "pmid": "22380686",
+            "title": "Liquid chromatography-mass spectrometry-based metabolomic analysis of livers from aged rats.",
+            "abstract": "We used UPLC-Q-TOF MS to analyze hepatic metabolites of rats aged 6, 12, 18, and 24 months; the MS data were processed by partial least-squares discriminant analysis (PLS-DA) to investigate the discrimination among sample groups. Rats were significantly separated with increasing age, except those aged between 6 and 12 months. We identified only 25 of 120 metabolites contributing to the separation: lipid metabolites (glycerol-3-phosphate, linolenic acid, lysophosphatidylcholines [lysoPCs]), energy metabolism intermediates (betaine, carnitine, acylcarnitines, creatine, pantothenic acid), nucleic acid metabolites (inosine, xanthosine, uracil, hypoxanthine, xanthine), and tyrosine. Aging accumulated energy metabolism intermediates, hypoxanthine, xanthine, and 2 major lysoPCs (C18:0 and C22:6). The NAD level and NAD/NADH ratio decreased with age. It was indicated that aging might decrease energy production through β-oxidation because of a decrease in NAD despite the accumulation of lipid en",
+            "journal": "Journal of proteome research",
+            "year": "2012",
+            "authors": [
+              "Son Nari",
+              "Hur Haeng Jeon",
+              "Sung Mi Jeong",
+              "Kim Myung-Sunny",
+              "Hwang Jin-Taek"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Animals",
+              "Chromatography, Liquid",
+              "Discriminant Analysis",
+              "Energy Metabolism",
+              "Least-Squares Analysis",
+              "Lipid Metabolism",
+              "Liver",
+              "Male",
+              "Mass Spectrometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22380686/"
+          },
+          {
+            "pmid": "34868045",
+            "title": "Regulatory Effect of Resveratrol on Inflammation Induced by Lipopolysaccharides via Reprograming Intestinal Microbes and Ameliorating Serum Metabolism Profiles.",
+            "abstract": "The purpose of this study was to explore the regulatory effect of resveratrol (RES) on lipopolysaccharide (LPS)-induced inflammation and its influence on intestinal microorganisms and serum atlas in murine models during the development of inflammation to explore a novel method for the regulation of inflammation. Mice were randomly assigned to three groups: control (CON), LPS, and RES-LPS. The results showed that RES mitigated the inflammatory damage to the intes-tines and liver induced by LPS. Compared with the LPS group, RES treatment decreased the levels of TNF-α, IL-6, IFN-γ, myeloperoxidase, and alanine aminotransferase in the liver. Serum metabolic profile monitoring showed that, compared with the CON group, LPS decreased the levels of five metabolites, including cycloartomunin and glycerol triundecanoate, and increased the levels of eight metabolites, including N-linoleoyl taurine and PE(O-16:0/20:5(5Z), 8Z, 11Z, 14Z, 17Z). Conversely, RES treatment increased the levels of eight ",
+            "journal": "Frontiers in immunology",
+            "year": "2021",
+            "authors": [
+              "Ding Sujuan",
+              "Jiang Hongmei",
+              "Fang Jun",
+              "Liu Gang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Biomarkers",
+              "Cytokines",
+              "Disease Management",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Gastrointestinal Microbiome",
+              "Inflammation",
+              "Inflammation Mediators"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34868045/"
+          },
+          {
+            "pmid": "41597540",
+            "title": "Effects of Dietary Supplementation with Dihydromyricetin on Hindgut Microbiota and Metabolite Profiles in Dairy Cows.",
+            "abstract": "High-yielding dairy cows suffer from a high metabolic load and oxidative stress, which lead to systemic inflammation and metabolic disorders, increasing the susceptibility of these cows to various production diseases. Dihydromyricetin (DMY) has demonstrated potent antioxidant and anti-inflammatory physiological functions; however, research into its application in ruminants remains limited. This study investigated whether DMY supplementation is associated with the maintenance of metabolic homeostasis through the regulation of gut microbiota and metabolite profiles. A total of 14 mid-lactation Holstein dairy cows were randomly divided into two groups (n = 7 per group) and supplemented with DMY at 0 or 0.05% in their basal diet for 60 consecutive days. The effects of DMY on the blood biochemical indicators and the antioxidant capacity of the dairy cows were then determined. Alterations to the gut microbiome and the fecal and plasma metabolome were analyzed through 16S rDNA sequencing and ",
+            "journal": "Microorganisms",
+            "year": "2025",
+            "authors": [
+              "Yu Jie",
+              "Ao Yingnan",
+              "Chen Hongbo",
+              "Liu Chenhui",
+              "Deng Tinxian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41597540/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "folic acid deficiency anemia",
+        "txgnn_score": 0.9959555864334106,
+        "txgnn_rank": 5639,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03891589",
+            "title": "Promotion of Optimized Complementary Feeding With or Without Home Fortification (Taburia) Prevents the Decrease of Nutrient Intake, Level of Micronutrient, and Anthropometric Indices, Also Digestive Health Among Under-Five Children",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2018-01-01",
+            "completion_date": "2018-10-31",
+            "country": "Indonesia",
+            "enrollment": 215,
+            "brief_summary": "Malnourished among under-five children characterized by growth faltering is a public health concern in Indonesia. It requires serious action from the governments because of the prevalence of underweight, stunting, and wasting are increasing. These impacts are irreversible resulting in the low quality of future human resources. Several studies showed that growth faltering among under-five children starts at age six months when the amount of breastmilk reduced, complementary feeding initiated, and",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Under-five children aged 6-11 months (baseline) with normal nutritional status based on weight for height/length z-score (more than -2 SD based on the World Health Organization (WHO) Growth standard (2006))\n* Resided in the study location\n* Parent or carer agreed to participat",
+            "endpoints": [
+              "Change from baseline nutrient intake at 6 months",
+              "Change from baseline nutrient density at 6 months",
+              "Change from baseline level of serum ferritin at 6 months"
+            ],
+            "sponsor": "Udayana University",
+            "url": "https://clinicaltrials.gov/study/NCT03891589"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02567981",
+            "title": "Impact of the Consumption of an M+ Fortified Premix (Chapuditos®) in 4 Rural Municipalities in the Department of La Libertad, El Salvador in Children From 6 to 59 Months.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2015-09",
+            "completion_date": "2020-09",
+            "country": "El Salvador",
+            "enrollment": 4577,
+            "brief_summary": "Adequate nutrition during the first years of life is essential to reach full body and brain development potential. Children under the age of 5 in Central America and El Salvador suffer from micronutrient deficiencies. In El Salvador, \\~ 20% of children under the age of 5 suffer from chronic undernutrition which is reflected in low length-for-their age Z-scores and anemia. This trial will examine the impact on health and growth in young children that will receive either a 21 micronutrient fortifi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Parental signed informed consent.\n* Age 6 to 42 months when study begins (so child can be followed up for at least 1 year).\n* Permanent resident of selected municipalities and no intention to move for the next two years.\n* Availability and commitment to attend well child visit",
+            "endpoints": [
+              "Changes in mean hemoglobin concentrations",
+              "Prevalence of anemia",
+              "Changes in mean length/height-for age z-scores (HAZ)"
+            ],
+            "sponsor": "The Mathile Institute for the Advancement of Human Nutrition",
+            "url": "https://clinicaltrials.gov/study/NCT02567981"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03444155",
+            "title": "Pilot Study for the Evaluation of the Effectiveness of Natural Versus Synthetic Vitamin B Complexes in Humans.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-05-08",
+            "completion_date": "2017-11-17",
+            "country": "Austria",
+            "enrollment": 30,
+            "brief_summary": "In a cross-over study the investigators evaluate the effects of natural (Panmol-B-Complex) (Pan \\[Greek\\] = all; moles \\[Latin\\] = molecules/particles - brand name) versus synthetic vitamin B complexes to identify the bioavailability of distinct vitamins as well as long-term effects. The primary hypothesis for this study: \"Natural Vitamin B-complexes are as effective as synthetic Vitamin B-complexes or better.\" For this reason 30 subjects (18 to 65y; BMI \\>19 to \\<29) were recruited for this stu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female\n* 18-65 y\n* Healthy\n\nExclusion Criteria:\n\n* Cholesterol \\>240mg/dl\n* Study inclusion in the past 2 months\n* Pregnancy and lactation period\n* Clinical diagnosis of chronic infections\n* Ingestion of trace elements, vitamin- and fatty acid supplements in the past ",
+            "endpoints": [
+              "Serum Thiamine",
+              "Serum Riboflavin",
+              "Serum Pyridoxine"
+            ],
+            "sponsor": "Medical University of Graz",
+            "url": "https://clinicaltrials.gov/study/NCT03444155"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06425796",
+            "title": "Impact of Maternal Adiposity on Maternal Iron Status and Requirements: a Randomised Intervention Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-05-20",
+            "completion_date": "2026-01-19",
+            "country": "United Kingdom",
+            "enrollment": 312,
+            "brief_summary": "This study aims to explore how body fat influences the response to either 25 or 50 mg of daily iron supplements during pregnancy. We will conduct a double-blind randomized controlled intervention study involving 312 pregnant women recruited from antenatal clinics in the Northern Trust Area. Participants will be randomly assigned to receive either 25 or 50 mg of iron per day from 12 weeks of pregnancy until delivery, using the Active Iron supplement brand. Blood samples will be collected at 12, 2",
+            "eligibility_criteria": "Inclusion Criteria:- Pregnant women\n\n* Age ≥ 18 years\n* BMI ≥18.5 kg/m2\n* Without current pregnancy complications (for example, severe bleeding, Diabetes Mellitus, hyperemesis gravidarum, ectopic and molar pregnancies)\n* At least 12 Gestational Week\n* Singleton pregnancy confirmed with the first ult",
+            "endpoints": [
+              "* - Adjusted maternal ferritin concentrations in response to iron supplementation (ng/mL)"
+            ],
+            "sponsor": "University of Ulster",
+            "url": "https://clinicaltrials.gov/study/NCT06425796"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21021037",
+            "title": "ANEMIA and granulocytopenia in relation to pantothenic acid and folic acid deficiencies.",
+            "abstract": "",
+            "journal": "Nutrition reviews",
+            "year": "1946",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Agranulocytosis",
+              "Anemia",
+              "Folic Acid Deficiency",
+              "Humans",
+              "Pantothenic Acid",
+              "Vitamin B Complex",
+              "Vitamins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21021037/"
+          },
+          {
+            "pmid": "21929634",
+            "title": "Review of fortified food and beverage products for pregnant and lactating women and their impact on nutritional status.",
+            "abstract": "Fortified beverages and supplementary foods, when given during pregnancy, have been shown to have positive effects on preventing maternal anaemia and iron deficiency. Studies show that use of micronutrient fortified supplementary foods, especially those containing milk and/or essential fatty acids during pregnancy, increase mean birthweight by around 60-73 g. A few studies have also shown that fortified supplementary foods have impacts on increasing birth length and reducing preterm delivery. Fortification levels have ranged generally from 50% to 100% of the recommended nutrient intake (RNI). Iron, zinc, copper, iodine, selenium, vitamins A, D, E, C, B1, B2, B6, and B12, folic acid, niacin and pantothenic acid are important nutrients that have been included in fortified beverages and supplemental foods for pregnant and lactating women. While calcium has been shown to reduce the risk of pre-eclampsia and maternal mortality, calcium, phosphorus, potassium, magnesium and manganese can hav",
+            "journal": "Maternal & child nutrition",
+            "year": "2011",
+            "authors": [
+              "Yang Zhenyu",
+              "Huffman Sandra L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anemia, Iron-Deficiency",
+              "Beverages",
+              "Birth Weight",
+              "Dietary Supplements",
+              "Female",
+              "Food, Fortified",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Infant, Premature, Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21929634/"
+          },
+          {
+            "pmid": "3724048",
+            "title": "Nutritional deficiency anemias in nonhuman primates.",
+            "abstract": "The purpose of this report is to review past studies in which anemias, occurred spontaneously in nonhuman primates due to feeding inadequate diets or were induced by feeding diets deficient in a nutrient. Included is a review of anemias induced by deficiencies of iron, niacin, pyridoxine, pantothenic acid, protein, riboflavin, cyanocobalamin, folic acid, ascorbic acid and alpha-tocopherol. The anemia induced by deficiency of each nutrient is discussed with emphasis on the major clinical signs as well as peripheral blood and bone marrow pathology. Results of supplementation of the diet following induction of deficiency states are discussed also. Whenever applicable, a discussion is included of the use of nonhuman primates as animal models for studies simulating parallel nutritional deficiencies in man.",
+            "journal": "Laboratory animal science",
+            "year": "1986",
+            "authors": [
+              "Wixson S K",
+              "Griffith J W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Anemia",
+              "Anemia, Hypochromic",
+              "Anemia, Macrocytic",
+              "Animals",
+              "Ascorbic Acid Deficiency",
+              "Deficiency Diseases",
+              "Niacin",
+              "Pantothenic Acid",
+              "Primates",
+              "Protein Deficiency"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3724048/"
+          },
+          {
+            "pmid": "23297780",
+            "title": "Significant reduction of serum homocysteine level and oral symptoms after different vitamin-supplement treatments in patients with burning mouth syndrome.",
+            "abstract": "Serum homocysteine level is a biomarker of cardiovascular disease.",
+            "journal": "Journal of oral pathology & medicine : official publication of the International Association of Oral Pathologists and the American Academy of Oral Pathology",
+            "year": "2013",
+            "authors": [
+              "Sun Andy",
+              "Lin Hung-Pin",
+              "Wang Yi-Ping",
+              "Chen Hsin-Ming",
+              "Cheng Shih-Jung"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anemia, Iron-Deficiency",
+              "Burning Mouth Syndrome",
+              "Calcium",
+              "Female",
+              "Ferric Compounds",
+              "Folic Acid",
+              "Folic Acid Deficiency"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23297780/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine inflammatory disease",
+        "txgnn_score": 0.9914081692695618,
+        "txgnn_rank": 9473,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41223999",
+            "title": "Pantothenic acid alleviates endometrial injury induced by vagotomy in mice.",
+            "abstract": "Endometrial injury triggers inflammation responses, and persistent inflammation is a recognized cause of infertility. Emerging evidence underscores the critical role of the vagus nerve in modulating immunity. Although vagotomy is known to induce systemic inflammation, the specific mechanism by which the vagus nerve regulates uterine health is still unclear. In this study, we employed a vagotomy model to investigate the therapeutic potential of pantothenic acid in alleviating endometrial injury. Our results showed that left cervical vagotomy reduces the integrity of the endometrium and the expression of barrier proteins such as Claudin-3, Occludin, and ZO-1. Vagotomy increases the levels of inflammatory cytokines (TNF-α and IL-1β) and LPS in uterine tissue and serum through the NF-κB signaling pathway. Furthermore, we found that vagotomy promotes ferroptosis by decreasing the protein expression of SLC7A11 and GPX4 and increasing the level of COX2. Vagotomy significantly altered thecompo",
+            "journal": "Mucosal immunology",
+            "year": "2026",
+            "authors": [
+              "Yuan Chongshan",
+              "Zhang Yun",
+              "He Yuhong",
+              "Su Nier",
+              "Peng Chong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Vagotomy",
+              "Mice",
+              "Endometrium",
+              "Pantothenic Acid",
+              "NF-kappa B",
+              "Cytokines",
+              "Vagus Nerve",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41223999/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "xanthogranulomatous pyelonephritis",
+        "txgnn_score": 0.99102520942688,
+        "txgnn_rank": 9783,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.9910151362419128,
+        "txgnn_rank": 9793,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40272030",
+            "title": "Prenatal Brain Abnormalities in Sodium-Dependent Multivitamin Transporter Deficiency.",
+            "abstract": "In treatable neurometabolic disorders, early diagnosis and prompt initiation of treatment are key to improved survival and outcomes. Biallelic variants in SLC5A6 cause sodium-dependent multivitamin transporter deficiency (OMIM # 618973), which is treatable with high-dose pantothenic acid, biotin, and alpha lipoic acid. So far, the onset has been postnatal in all reported patients. A review of the prenatal imaging showed ventriculomegaly at 32 weeks of gestation. After birth, the infant exhibited developmental regression. At 6 months of age, he developed acute metabolic shock in the setting of a urinary tract infection. Rapid exome analysis identified compound heterozygous pathogenic variants in SLC5A6 and confirmed the diagnosis of sodium-dependent multivitamin transporter deficiency. After the infant was initiated on treatment with high-dose biotin and pantothenic acid, we noted dramatic improvements in the hematological, cutaneous, cardiac, and gastrointestinal symptoms. Although the",
+            "journal": "American journal of medical genetics. Part A",
+            "year": "2025",
+            "authors": [
+              "Ogawa Eri",
+              "Kosaki Kenjiro",
+              "Takenouchi Toshiki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Pregnancy",
+              "Biotin",
+              "Brain",
+              "Mutation",
+              "Pantothenic Acid",
+              "Prenatal Diagnosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40272030/"
+          },
+          {
+            "pmid": "40548707",
+            "title": "Exploring the antimicrobial activity of pantothenamides against uropathogenic Escherichia coli.",
+            "abstract": "Metabolic processes required for bacterial pathogens to adapt in the host are potential targets for the development of much-needed new antimicrobial agents. The bacterial central metabolic enzyme 1-deoxy-d-xylulose 5-phosphate synthase (DXPS) is required for the synthesis of essential isoprenoids, thiamin diphosphate (ThDP), and pyridoxal phosphate (PLP) and is believed to function in bacterial adaptations requiring these metabolites. DXPS inhibition impairs a PLP-dependent adaptation of Uropathogenic Escherichia coli (UPEC) to d-serine, a bacteriostatic host metabolite in urine that inhibits pantothenate production in Coenzyme A (CoA) biosynthesis. CoA is required for a functioning tricarboxylic acid (TCA cycle, which is critical for UPEC survival in the urinary tract. Accordingly, inhibition of DXPS also sensitizes UPEC to N-pentylpantothenamide (N5-Pan, 1), an inhibitor of CoA synthesis. However, 1 is enzymatically hydrolyzed by pantetheinases, presenting challenges for its use in i",
+            "journal": "Microbiology spectrum",
+            "year": "2025",
+            "authors": [
+              "DeColli Alicia A",
+              "Meyers David J",
+              "Ranjit Arina",
+              "Paule James",
+              "Serrano-Diaz Erika"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Uropathogenic Escherichia coli",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Mice",
+              "Pantothenic Acid",
+              "Urinary Tract Infections",
+              "Escherichia coli Infections",
+              "Humans",
+              "Female",
+              "Coenzyme A"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40548707/"
+          },
+          {
+            "pmid": "22105344",
+            "title": "Lip ulceration associated with intravenous administration of zoledronic acid: report of a case.",
+            "abstract": "Although osteonecrosis of the jaw is a well-known adverse reaction of bisphosphonates (BPs), random cases of oral mucosal ulceration after per os administration of BP-aledronate have been attributed to prolonged mucosal irritation. This report, for the first time, describes the mucosal ulceration related to intravenous use of zoledronic acid (ZA). A 52-year-old female patient presented with painful ulcers on both cutaneous/mucosal surfaces of the lower lip and a 2-month history of osteonecrosis of the mandible beside the right lower canine. Her medical record included intravenous administration of ZA for 10 months for primary breast cancer metastatic to bone. Examination of the peripheral blood showed severe anemia and a slightly increased white blood cell count, due to urinary tract infection by E. coli, but no evidence of a viral infection. The treatment of anemia and E. coli infection did not improve the labial ulcers. Biopsy from the mucosal lesion revealed a non-specific ulceratio",
+            "journal": "Head and neck pathology",
+            "year": "2012",
+            "authors": [
+              "Andreadis Dimitrios",
+              "Mauroudis Stergios",
+              "Poulopoulos Athanasios",
+              "Markopoulos Anastasios",
+              "Epivatianos Apostolos"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analgesics",
+              "Antidepressive Agents",
+              "Bone Density Conservation Agents",
+              "Bone Neoplasms",
+              "Breast Neoplasms",
+              "Diphosphonates",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22105344/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.991004228591919,
+        "txgnn_rank": 9797,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.991004228591919,
+        "txgnn_rank": 9798,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Keshan disease",
+        "txgnn_score": 0.989425778388977,
+        "txgnn_rank": 10944,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01783",
+    "name": "Pantothenic acid",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pantothenic acid"
+      },
+      "queried_at": "2026-03-09T12:34:22.410333",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pantothenic acid"
+      },
+      "queried_at": "2026-03-09T12:34:25.352304",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-09T12:34:25.964196",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-09T12:34:31.584674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-09T12:34:34.739185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "ochronosis disorder"
+      },
+      "queried_at": "2026-03-09T12:34:35.472003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "ochronosis disorder"
+      },
+      "queried_at": "2026-03-09T12:34:40.221858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "ochronosis disorder"
+      },
+      "queried_at": "2026-03-09T12:34:41.163454",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "glycerol metabolism disease"
+      },
+      "queried_at": "2026-03-09T12:34:42.023560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "glycerol metabolism disease"
+      },
+      "queried_at": "2026-03-09T12:34:47.986941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "glycerol metabolism disease"
+      },
+      "queried_at": "2026-03-09T12:34:52.532672",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "folic acid deficiency anemia"
+      },
+      "queried_at": "2026-03-09T12:34:53.546346",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "folic acid deficiency anemia"
+      },
+      "queried_at": "2026-03-09T12:34:58.400757",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "folic acid deficiency anemia"
+      },
+      "queried_at": "2026-03-09T12:35:01.871053",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T12:35:02.732513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T12:35:07.114707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T12:35:10.639620",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T12:35:13.718314",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T12:35:18.724176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T12:35:20.067470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T12:35:23.208182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T12:35:29.357996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T12:35:32.851218",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T12:35:33.713999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T12:35:41.266837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T12:35:43.972290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T12:35:46.513743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T12:35:50.467311",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T12:35:51.539743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "Keshan disease"
+      },
+      "queried_at": "2026-03-09T12:35:52.696291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "Keshan disease"
+      },
+      "queried_at": "2026-03-09T12:35:57.749476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pantothenic acid",
+        "disease": "Keshan disease"
+      },
+      "queried_at": "2026-03-09T12:35:59.010280",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:35:59.022569"
+  }
+}

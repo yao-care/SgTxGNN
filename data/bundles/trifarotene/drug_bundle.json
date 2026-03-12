@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Trifarotene",
+    "drugbank_id": "DB12808",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "zinc, elevated plasma",
+        "txgnn_score": 0.993970274925232,
+        "txgnn_rank": 7398,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "txgnn_score": 0.9932199716567992,
+        "txgnn_rank": 8057,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "demodicidosis of sebaceous gland",
+        "txgnn_score": 0.984188675880432,
+        "txgnn_rank": 14686,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "spondyloarthropathy, susceptibility to",
+        "txgnn_score": 0.9826143383979796,
+        "txgnn_rank": 15696,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malaria",
+        "txgnn_score": 0.9757056832313538,
+        "txgnn_rank": 19011,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Zollinger-Ellison syndrome",
+        "txgnn_score": 0.959603786468506,
+        "txgnn_rank": 24385,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ehlers-Danlos syndrome",
+        "txgnn_score": 0.955325484275818,
+        "txgnn_rank": 25384,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Beare-Stevenson cutis gyrata syndrome",
+        "txgnn_score": 0.9426487684249878,
+        "txgnn_rank": 28304,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "isolated congenital adermatoglyphia",
+        "txgnn_score": 0.9413843154907228,
+        "txgnn_rank": 28552,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant atrophic papulosis",
+        "txgnn_score": 0.9387601613998412,
+        "txgnn_rank": 29030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12808",
+    "name": "Trifarotene",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Trifarotene"
+      },
+      "queried_at": "2026-03-09T16:04:25.137919",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Trifarotene"
+      },
+      "queried_at": "2026-03-09T16:04:39.996902",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-09T16:04:40.852375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-09T16:04:44.622065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-09T16:04:45.976021",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-09T16:04:46.877486",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-09T16:04:51.718851",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-09T16:04:52.399017",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "queried_at": "2026-03-09T16:04:53.027673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "queried_at": "2026-03-09T16:04:56.120971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "queried_at": "2026-03-09T16:04:56.825966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T16:04:58.145389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T16:05:03.271416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T16:05:04.552456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-09T16:05:05.494673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-09T16:05:09.530669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-09T16:05:10.488998",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Zollinger-Ellison syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:11.270811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Zollinger-Ellison syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:17.070605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Zollinger-Ellison syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:18.017785",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Ehlers-Danlos syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:18.721967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Ehlers-Danlos syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:22.331720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Ehlers-Danlos syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:23.368522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:24.135173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:29.578175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "queried_at": "2026-03-09T16:05:30.769265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "queried_at": "2026-03-09T16:05:32.469568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "queried_at": "2026-03-09T16:05:38.049453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "queried_at": "2026-03-09T16:05:39.637646",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "malignant atrophic papulosis"
+      },
+      "queried_at": "2026-03-09T16:05:40.994136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "malignant atrophic papulosis"
+      },
+      "queried_at": "2026-03-09T16:05:46.225330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trifarotene",
+        "disease": "malignant atrophic papulosis"
+      },
+      "queried_at": "2026-03-09T16:05:47.942162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:05:47.957503"
+  }
+}

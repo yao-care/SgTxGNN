@@ -1,0 +1,3652 @@
+{
+  "drug": {
+    "inn": "Neomycin",
+    "drugbank_id": "DB00994",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9854524731636048,
+        "txgnn_rank": 13930,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00945334",
+            "title": "Double-blind, Placebo Controlled Trial Comparing Neomycin to Rifaximin Plus Neomycin in the Treatment of Methane Positive Subjects With Constipation-predominant Irritable Bowel Syndrome",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2009-08",
+            "completion_date": "2013-06",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "In this study the investigators aim to compare the efficacy of neomycin to a combination of rifaximin and neomycin in the treatment of C-IBS subjects with methane on their breath test. This study will be conducted in collaboration with Dr. John DiBaise at the Mayo Clinic in Scottsdale, AZ and Dr. Satish Rao in Georgia Regents University in Augusta, GA.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Rome III positive IBS subjects (18-75 years of age)\n* Meet criteria for constipation predominant IBS symptoms including ≤ 3 complete spontaneous bowel movements per week with hard or lumpy stools.\n* Presence of detectable methane on single breath sample (≥ 3ppm).\n* If subjects",
+            "endpoints": [
+              "Severity of Constipation in Each Arm at Week 1 After Completion of Therapy"
+            ],
+            "sponsor": "Cedars-Sinai Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00945334"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00259155",
+            "title": "Rifaximin in the Treatment of Small Intestinal Bacterial Overgrowth and IBS: Double Blind Randomized Controlled Trial (Multicenter Trial)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-07",
+            "completion_date": "2007-01",
+            "country": "N/A",
+            "enrollment": 92,
+            "brief_summary": "We have recently shown that the majority of patients with irritable bowel syndrome (IBS) have an abnormal lactulose breath test to suggest the presence of bacterial overgrowth of the small intestine. In open label and double blind treatment of IBS subjects with antibiotics, a dramatic improvement in clinical symptoms are observed. In these studies, the antibiotic chosen was neomycin, which is noted to have an efficacy of 20-25% in normalizing the lactulose breath test. A more efficacious antibio",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects will be selected for all studies based on the Rome I criteria. This will be the preferred method of identifying IBS patients to avoid pre-selecting patients with C- IBS. The goal is to evaluate methane as the determinant of transit, not constipation or diarrhea sympto",
+            "endpoints": [
+              "Global improvement in IBS"
+            ],
+            "sponsor": "Cedars-Sinai Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00259155"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19996983",
+            "title": "A combination of rifaximin and neomycin is most effective in treating irritable bowel syndrome patients with methane on lactulose breath test.",
+            "abstract": "There is a growing interest in methane and its association with constipation in functional bowel disease. Neomycin-based treatment of methane-positive subjects has resulted in improvement of constipation. Rifaximin, although superior for the treatment of irritable bowel syndrome compared with other antibiotics, seems less effective in methane-positive subjects. In this study, we evaluate 3 different antibiotic treatments in patients who have a methane-positive breath test: rifaximin only, neomycin only, and the combination of neomycin and rifaximin.",
+            "journal": "Journal of clinical gastroenterology",
+            "year": "2010",
+            "authors": [
+              "Low Kimberly",
+              "Hwang Laura",
+              "Hua Johnson",
+              "Zhu Amy",
+              "Morales Walter"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents",
+              "Breath Tests",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Irritable Bowel Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19996983/"
+          },
+          {
+            "pmid": "38700306",
+            "title": "Dysbiosis in Irritable Bowel Syndrome.",
+            "abstract": "The human gut microbiota fosters the development of a dynamic group of microorganisms impacted by diverse variables that include genetics, diet, infection, stress, ingested drugs, such as antibiotics and small intestine bacterial overgrowth (SIBO) as well as the gut microbiota itself. These factors may influence the change in microbial composition, which results in dysbiosis (microbial imbalance) and exposes the gut to pathogenic insults. Dysbiosis is incidental to the etiology of inflammatory diseases such as irritable bowel syndrome (IBS) and metabolic diseases, including type 2 diabetes and obesity. IBS exhibits different symptoms like abdominal pain or discomfort, distention/bloating, and flatulence. To treat IBS, modification of dysregulated gut microbiota can be done using treatment strategies like a low-fermentable oligosaccharides, disaccharides, monosaccharides, and polyols (FODMAP) diet, antibiotics that cannot be absorbed like rifaximin and neomycin, probiotics and prebiotic",
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2023",
+            "authors": [
+              "Abraham Philip",
+              "Pratap Nitesh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Dysbiosis",
+              "Fecal Microbiota Transplantation",
+              "Gastrointestinal Microbiome",
+              "Irritable Bowel Syndrome",
+              "Prebiotics",
+              "Probiotics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38700306/"
+          },
+          {
+            "pmid": "26819502",
+            "title": "Is irritable bowel syndrome an infectious disease?",
+            "abstract": "Irritable bowel syndrome (IBS) is the most common of all gastroenterological diseases. While many mechanisms have been postulated to explain its etiology, no single mechanism entirely explains the heterogeneity of symptoms seen with the various phenotypes of the disease. Recent data from both basic and clinical sciences suggest that underlying infectious disease may provide a unifying hypothesis that better explains the overall symptomatology. The presence of small intestinal bowel overgrowth (SIBO) has been documented in patients with IBS and reductions in SIBO as determined by breath testing correlate with IBS symptom improvement in clinical trials. The incidence of new onset IBS symptoms following acute infectious gastroenteritis also suggests an infectious cause. Alterations in microbiota-host interactions may compromise epithelial barrier integrity, immune function, and the development and function of both central and enteric nervous systems explaining alterations in the brain-gut",
+            "journal": "World journal of gastroenterology",
+            "year": "2016",
+            "authors": [
+              "Thompson John Richard"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacteria",
+              "Dysbiosis",
+              "Gastrointestinal Microbiome",
+              "Host-Pathogen Interactions",
+              "Humans",
+              "Intestines",
+              "Irritable Bowel Syndrome",
+              "Probiotics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26819502/"
+          },
+          {
+            "pmid": "31363445",
+            "title": "Methane and Constipation-predominant Irritable Bowel Syndrome: Entwining Pillars of Emerging Neurogastroenterology.",
+            "abstract": "Functional gut disorders have long known to cause depravity in quality of life. Among the group of these heterogeneous disorders, irritable bowel syndrome (IBS) has been known to affect a large chunk of our population. IBS is not as simple as it sounds. Caused by a multitude of factors, the heterogeneity of this disorder has laid the foundation for research and the new principles of neurogastroenterology. Dysbiosis and methane production are one of the forthcoming factors that are currently under investigation. Down the road of exclusive enteric anaerobic fermentation of polysaccharides, methane is produced. It was considered to be an inert gas in the past, with little to no role in gut activity but now it is established that it has an impressive role in the etiology of constipation-predominant IBS (C-IBS). Acting as a neurotransmitter, it is known to affect ileal and colonic transit time, which has currently been shown in animal studies. Many laxatives, ionophore antibiotics, drugs li",
+            "journal": "Cureus",
+            "year": "2019",
+            "authors": [
+              "Bin Waqar Syed Hamza",
+              "Rehan Aiman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31363445/"
+          },
+          {
+            "pmid": "40240267",
+            "title": "Treatment of small intestinal bacterial overgrowth in Chilean patients with irritable bowel syndrome: A prospective and comparative study.",
+            "abstract": "Patients with disorders of the gut-brain axis, such as irritable bowel syndrome (IBS), often exhibit small intestinal bacterial overgrowth (SIBO). Its treatment includes rifaximin (RF), ciprofloxacin (CF), neomycin, sulfamethoxazole-trimethoprim, and metronidazole (MZ). RF is a non-absorbable antibiotic, postulated to have fewer adverse effects. Our aim was to assess symptomatic response and SIBO eradication in patients with IBS, using three antibiotic regimens.",
+            "journal": "Revista de gastroenterologia de Mexico (English)",
+            "year": "2025",
+            "authors": [
+              "von Muhlenbrock C",
+              "Landskron G",
+              "Madrid A M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Young Adult",
+              "Anti-Bacterial Agents",
+              "Breath Tests",
+              "Chile",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40240267/"
+          },
+          {
+            "pmid": "30288076",
+            "title": "Short-course therapy for diarrhea-predominant irritable bowel syndrome: understanding the mechanism, impact on gut microbiota, and safety and tolerability of rifaximin.",
+            "abstract": "Irritable bowel syndrome (IBS) is a common gastrointestinal (GI) disorder characterized by abdominal pain that occurs with defecation or alterations in bowel habits. Further classification is based on the predominant bowel habit: constipation-predominant IBS, diarrhea-predominant IBS (IBS-D), or mixed IBS. The pathogenesis of IBS is unclear and is considered multifactorial in nature. GI dysbiosis, thought to play a role in IBS pathophysiology, has been observed in patients with IBS. Alterations in the gut microbiota are observed in patients with small intestinal bacterial overgrowth, and overgrowth may occur in a subset of patients with IBS. The management of IBS includes therapies targeting the putative factors involved in the pathogenesis of the condition. However, many of these interventions (eg, eluxadoline and alosetron) require long-term, daily administration and have important safety considerations. Agents thought to modulate the gut microbiota (eg, antibiotics and probiotics) h",
+            "journal": "Clinical and experimental gastroenterology",
+            "year": "2018",
+            "authors": [
+              "Chang Christopher"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30288076/"
+          },
+          {
+            "pmid": "24666019",
+            "title": "Emerging role of probiotics and antimicrobials in the management of irritable bowel syndrome.",
+            "abstract": "To review the potential role of probiotics and antimicrobials for management of functional bowel disorders (FBDs), with a focus on irritable bowel syndrome (IBS).",
+            "journal": "Current medical research and opinion",
+            "year": "2014",
+            "authors": [
+              "Cash Brooks D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Infective Agents",
+              "Humans",
+              "Irritable Bowel Syndrome",
+              "Neomycin",
+              "Probiotics",
+              "Rifamycins",
+              "Rifaximin",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24666019/"
+          },
+          {
+            "pmid": "24788320",
+            "title": "Antibiotic treatment of constipation-predominant irritable bowel syndrome.",
+            "abstract": "The antibiotic rifaximin is used to treat non-constipated irritable bowel syndrome (IBS). Methane production is associated with constipation and its severity in constipation-predominant IBS (C-IBS). A previous retrospective study suggested that rifaximin and neomycin was superior to neomycin alone in improving symptoms in methane-positive subjects.",
+            "journal": "Digestive diseases and sciences",
+            "year": "2014",
+            "authors": [
+              "Pimentel Mark",
+              "Chang Christopher",
+              "Chua Kathleen Shari",
+              "Mirocha James",
+              "DiBaise John"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Infective Agents",
+              "Breath Tests",
+              "Constipation",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans",
+              "Irritable Bowel Syndrome",
+              "Male",
+              "Methane"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24788320/"
+          },
+          {
+            "pmid": "19303541",
+            "title": "[Irritable bowel syndrome: dietary and pharmacological therapeutic options].",
+            "abstract": "In irritable bowel syndrome, the main objectives of the treatment are the relief of abdominal pain then the improvement of bowel disturbances. Spasmolytic agents, or clays remain routinely the first line pharmacological options. The efficacy of dietary recommendations is not validated in most of the cases while dietary fibers, mainly insoluble fibers, may even worsen abdominal discomfort. In C-IBS, osmotic laxatives or macrogol are effective to improve colonic transit while loperamide and also colestyramine can be prescribed to reduce the number of stools of D-IBS patients. When the first line treatment fails to improve symptoms, antidepressants (tricyclic rather than SSRs) can be prescribed at lower doses than that recommended for depression. In meta-analysis, the odds ratio for pain relief varies from 2 to 4 and strongly depends on the patient's compliance to the treatment. Probiotics, pregabalin and even antibiotics (i.e neomycin, metronidazole or rifaximin), are possible new therap",
+            "journal": "Gastroenterologie clinique et biologique",
+            "year": "2009",
+            "authors": [
+              "Ducrotté P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abdominal Pain",
+              "Analgesics",
+              "Anesthetics, Local",
+              "Anti-Bacterial Agents",
+              "Antidepressive Agents",
+              "Central Nervous System Depressants",
+              "Diet",
+              "Dietary Fiber",
+              "Gastrointestinal Agents",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19303541/"
+          },
+          {
+            "pmid": "16832617",
+            "title": "Neomycin improves constipation-predominant irritable bowel syndrome in a fashion that is dependent on the presence of methane gas: subanalysis of a double-blind randomized controlled study.",
+            "abstract": "Recent studies have shown that normalization of the lactulose breath test (LBT) with neomycin leads to a significant reduction in irritable bowel syndrome (IBS) symptoms. This subanalysis was done on the constipation-predominant IBS subgroup of patients (C-IBS) to test the ability of neomycin to improve constipation and its correlation with the elimination of methane on breath test. IBS subjects underwent LBT in a blinded fashion. They were then randomly allocated to neomycin or placebo groups. For the purpose of this analysis, only the C-IBS subjects were identified. They were then evaluated for global improvement, abdominal pain, and constipation severity. The ability of neomycin to eliminate methane and its associated improvement in constipation was also determined. One hundred eleven subjects meeting Rome I criteria for IBS were included in the study. Thirty-nine of these had C-IBS. Of these, 20 received placebo and 19 received neomycin. With neomycin, a global improvement of 36.7+",
+            "journal": "Digestive diseases and sciences",
+            "year": "2006",
+            "authors": [
+              "Pimentel Mark",
+              "Chatterjee Soumya",
+              "Chow Evelyn J",
+              "Park Sandy",
+              "Kong Yuthana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Breath Tests",
+              "Constipation",
+              "Double-Blind Method",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Irritable Bowel Syndrome",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16832617/"
+          },
+          {
+            "pmid": "22298980",
+            "title": "Antibiotics for the treatment of irritable bowel syndrome.",
+            "abstract": "Irritable bowel syndrome (IBS) is a common functional gastrointestinal disorder with an estimated worldwide prevalence of 10-20%. IBS can be associated with severe gastrointestinal symptoms, including abdominal pain, bloating, and altered bowel function. Although the causes of IBS remain undefined, recent research has increasingly suggested roles for gut flora in IBS. These roles involve postinfectious IBS, which can occur after a single episode of acute gastroenteritis, and small intestinal bacterial overgrowth, in which elevated populations of aerobic and anaerobic bacteria cause abdominal pain and altered bowel function. More recently, potential roles for methanogens in contributing to IBS subtypes have also been identified. In this paper, we review the different mechanisms by which gut flora may contribute to IBS and also discuss the efficacy and safety of various antibiotic therapies for treating IBS symptoms.",
+            "journal": "Gastroenterology & hepatology",
+            "year": "2011",
+            "authors": [
+              "Basseri Robert J",
+              "Weitsman Stacy",
+              "Barlow Gillian M",
+              "Pimentel Mark"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298980/"
+          },
+          {
+            "pmid": "12591062",
+            "title": "Normalization of lactulose breath testing correlates with symptom improvement in irritable bowel syndrome. a double-blind, randomized, placebo-controlled study.",
+            "abstract": "We have recently found an association between abnormal lactulose breath test (LBT) findings and irritable bowel syndrome (IBS). The current study was designed to test the effect of antibiotic treatment for IBS in a double-blind fashion.",
+            "journal": "The American journal of gastroenterology",
+            "year": "2003",
+            "authors": [
+              "Pimentel Mark",
+              "Chow Evelyn J",
+              "Lin Henry C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Breath Tests",
+              "Case-Control Studies",
+              "Colonic Diseases, Functional",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Lactulose",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12591062/"
+          },
+          {
+            "pmid": "24161699",
+            "title": "Rifaximin alters intestinal bacteria and prevents stress-induced gut inflammation and visceral hyperalgesia in rats.",
+            "abstract": "Rifaximin is used to treat patients with functional gastrointestinal disorders, but little is known about its therapeutic mechanism. We propose that rifaximin modulates the ileal bacterial community, reduces subclinical inflammation of the intestinal mucosa, and improves gut barrier function to reduce visceral hypersensitivity.",
+            "journal": "Gastroenterology",
+            "year": "2014",
+            "authors": [
+              "Xu Dabo",
+              "Gao Jun",
+              "Gillilland Merritt",
+              "Wu Xiaoyin",
+              "Song Il"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Biomarkers",
+              "Blotting, Western",
+              "Cytokines",
+              "DNA, Bacterial",
+              "Drug Administration Schedule",
+              "Gastrointestinal Agents",
+              "Hyperalgesia",
+              "Ileitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24161699/"
+          },
+          {
+            "pmid": "14724846",
+            "title": "Lactulose breath testing, bacterial overgrowth, and IBS: just a lot of hot air?",
+            "abstract": "",
+            "journal": "Gastroenterology",
+            "year": "2003",
+            "authors": [
+              "Hasler William L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacteria",
+              "Breath Tests",
+              "Humans",
+              "Intestines",
+              "Irritable Bowel Syndrome",
+              "Lactulose",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14724846/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral arterial disease",
+        "txgnn_score": 0.9828472137451172,
+        "txgnn_rank": 15547,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9773983359336852,
+        "txgnn_rank": 18250,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37184554",
+            "title": "[Possibilities of differential diagnosis of chronic diseases of the nasal cavity after surgical treatment and topical antibiotic therapy].",
+            "abstract": "The study was performed to assess the endoscopic state of the nasal mucosa after the use of local anti-inflammatory and antibacterial therapy, in particular, Polydexa nasal spray with phenylephrine containing Dexamethasone sodium metasulfobenzoate + Neomycin + Polymyxin B + Phenylephrine, and for the treatment of granulomatosis with polyangiitis.",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2023",
+            "authors": [
+              "Karpishchenko S A",
+              "Zubareva A A",
+              "Bolozneva E V",
+              "Savchenko E M",
+              "Zueva E A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Nasal Cavity",
+              "Rhinitis",
+              "Granulomatosis with Polyangiitis",
+              "Diagnosis, Differential",
+              "Sinusitis",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Phenylephrine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37184554/"
+          },
+          {
+            "pmid": "26596945",
+            "title": "Neomycin Sulfate Improves the Antimicrobial Activity of Mupirocin-Based Antibacterial Ointments.",
+            "abstract": "In the midst of the current antimicrobial pipeline void, alternative approaches are needed to reduce the incidence of infection and decrease reliance on last-resort antibiotics for the therapeutic intervention of bacterial pathogens. In that regard, mupirocin ointment-based decolonization and wound maintenance practices have proven effective in reducing Staphylococcus aureus transmission and mitigating invasive disease. However, the emergence of mupirocin-resistant strains has compromised the agent's efficacy, necessitating new strategies for the prevention of staphylococcal infections. Herein, we set out to improve the performance of mupirocin-based ointments. A screen of a Food and Drug Administration (FDA)-approved drug library revealed that the antibiotic neomycin sulfate potentiates the antimicrobial activity of mupirocin, whereas other library antibiotics did not. Preliminary mechanism of action studies indicate that neomycin's potentiating activity may be mediated by inhibition ",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2016",
+            "authors": [
+              "Blanchard Catlyn",
+              "Brooks Lauren",
+              "Beckley Andrew",
+              "Colquhoun Jennifer",
+              "Dewhurst Stephen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Carrier State",
+              "Drug Combinations",
+              "Drug Resistance, Bacterial",
+              "Drug Synergism",
+              "Female",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26596945/"
+          },
+          {
+            "pmid": "883783",
+            "title": "[Microflora of the nasal cavity and its sensitivity to antibiotics in patients with chronic rhinitis treated by cryotherapy].",
+            "abstract": "Cryotherapy is used in treatment of chronic rhinitis and pharyngitis. The effect of cryotherapy on the qualitative and quantitative composition of the microflora was studied. Staphylococci prevailed in the rhinitis patients, streptococci, Clebsiella and Neisseria being registered more rarely. The staphlococcal isolates were highly sensitive to monomycin, neomycin, erythromycin and levomycetin. The results of the dynamic study showed that the flora composition did not significantly change during cryotherapy and the sensitivity level of the staphylococcal isolates to the antibodies remained unchanged.",
+            "journal": "Antibiotiki",
+            "year": "1977",
+            "authors": [
+              "Efremova S A",
+              "Kurina S A",
+              "Grig M G",
+              "Sazpnova I M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacteria",
+              "Chronic Disease",
+              "Cryosurgery",
+              "Humans",
+              "Nasal Cavity",
+              "Nose",
+              "Rhinitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/883783/"
+          },
+          {
+            "pmid": "16677241",
+            "title": "Nasal nitric oxide in objective evaluation of chronic rhinosinusitis therapy.",
+            "abstract": "The assessment of the response of chronic rhinosinusitis (CRS) to therapy is difficult. Computerized tomographic (CT) scans cannot be repeatedly used so measures such as symptom scores, endoscopic findings, and parallel measures such as saccharin clearance time are employed instead.",
+            "journal": "Allergy",
+            "year": "2006",
+            "authors": [
+              "Ragab S M",
+              "Lund V J",
+              "Saleh H A",
+              "Scadding G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Adult",
+              "Aerosols",
+              "Chronic Disease",
+              "Dexamethasone",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Female",
+              "Glucocorticoids",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16677241/"
+          },
+          {
+            "pmid": "23301102",
+            "title": "Isolation and characterization of methicillin-resistant Staphylococcus aureus from pork farms and visiting veterinary students.",
+            "abstract": "In the last decade livestock-associated methicillin-resistant S. aureus (LA-MRSA) has become a public health concern in many parts of the world. Sequence type 398 (ST398) has been the most commonly reported type of LA-MRSA. While many studies have focused on long-term exposure experienced by swine workers, this study focuses on short-term exposures experienced by veterinary students conducting diagnostic investigations. The objectives were to assess the rate of MRSA acquisition and longevity of carriage in students exposed to pork farms and characterize the recovered MRSA isolates. Student nasal swabs were collected immediately before and after farm visits. Pig nasal swabs and environmental sponge samples were also collected. MRSA isolates were identified biochemically and molecularly including spa typing and antimicrobial susceptibility testing. Thirty (30) veterinary students were enrolled and 40 pork farms were visited. MRSA was detected in 30% of the pork farms and in 22% of the st",
+            "journal": "PloS one",
+            "year": "2013",
+            "authors": [
+              "Frana Timothy S",
+              "Beahm Aleigh R",
+              "Hanson Blake M",
+              "Kinyon Joann M",
+              "Layman Lori L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animal Husbandry",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Carrier State",
+              "Female",
+              "Humans",
+              "Livestock",
+              "Male",
+              "Meat"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23301102/"
+          },
+          {
+            "pmid": "30459747",
+            "title": "Subinhibitory Concentrations of Amoxicillin, Lincomycin, and Oxytetracycline Commonly Used to Treat Swine Increase Streptococcus suis Biofilm Formation.",
+            "abstract": "Streptococcus suis is a bacterial swine pathogen with a significant economic burden. It typically colonizes the tonsil and nasal cavity of swine causing a variety of symptoms ranging from asymptomatic carriage to lethal systemic disease. A key barrier toward the development of improved vaccines or interventions for S. suis infections is a gap in our understanding of the mechanisms contributing to persistence in the host, in which colonized pigs continue to shed and transmit S. suis. We hypothesized that exposure to sub-MICs of antibiotics commonly used by the swine industry would increase the biofilm capacity of S. suis strains. Using a 96-well plate MIC protocol, we experimentally determined the MIC for each of 12 antibiotics for a virulent strain of S. suis strain that consistently formed biofilms using a standard crystal violet assay. Using this static biofilm assay, we demonstrated that sub-MICs of bacitracin, carbadox, chlortetracycline, enrofloxacin, gentamicin, neomycin, sulfadi",
+            "journal": "Frontiers in microbiology",
+            "year": "2018",
+            "authors": [
+              "Waack Ursula",
+              "Nicholson Tracy L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30459747/"
+          },
+          {
+            "pmid": "25312093",
+            "title": "Dacryocystitis following a nasolacrimal duct obstruction caused by an ectopic intranasal tooth in a dog.",
+            "abstract": "To describe a nasolacrimal duct (NLD) obstruction secondary to an ectopic tooth in a 5-year-old male Border collie. The dog was presented with a 1-month history of mucopurulent discharge from the left eye (OS) preceded by a lifelong history of epiphora OS. Treatment with neomycin/polymyxin B/dexamethasone ophthalmic solution had not improved the clinical signs, and the NLD was not patent when irrigated by the referring veterinarian.",
+            "journal": "Veterinary ophthalmology",
+            "year": "2015",
+            "authors": [
+              "Voelter-Ratson Katrin",
+              "Hagen Regine",
+              "Grundmann Stefan",
+              "Spiess Bernhard Martin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dacryocystitis",
+              "Dog Diseases",
+              "Dogs",
+              "Lacrimal Duct Obstruction",
+              "Male",
+              "Nasolacrimal Duct",
+              "Nose",
+              "Tooth Eruption, Ectopic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25312093/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic dermatitis",
+        "txgnn_score": 0.9765138030052184,
+        "txgnn_rank": 18647,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "14164961",
+            "title": "PERIORAL DERMATITIS.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1964",
+            "authors": [
+              "MIHAN R",
+              "AYRES S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenal Cortex Hormones",
+              "Chloroquine",
+              "Clioquinol",
+              "Dermatitis",
+              "Dermatitis, Perioral",
+              "Dermatitis, Seborrheic",
+              "Epidemiology",
+              "Facial Dermatoses",
+              "Fluocinolone Acetonide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14164961/"
+          },
+          {
+            "pmid": "4150199",
+            "title": "Otitis externa.",
+            "abstract": "",
+            "journal": "The Journal of laryngology and otology",
+            "year": "1974",
+            "authors": [
+              "Peterkin G A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aluminum",
+              "Anti-Bacterial Agents",
+              "Asthma",
+              "Dermatitis, Contact",
+              "Dermatitis, Seborrheic",
+              "Dermatologic Agents",
+              "Diagnosis, Differential",
+              "Eczema",
+              "Humans",
+              "Hygiene"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4150199/"
+          },
+          {
+            "pmid": "123709",
+            "title": "Dermatologic therapy.",
+            "abstract": "",
+            "journal": "Annals of allergy",
+            "year": "1975",
+            "authors": [
+              "Finnerty E F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Inflammatory Agents",
+              "Dermatitis",
+              "Dermatitis, Seborrheic",
+              "Dermatologic Agents",
+              "Drug Prescriptions",
+              "Eczema",
+              "Female",
+              "Humans",
+              "Hydrocortisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/123709/"
+          },
+          {
+            "pmid": "130835",
+            "title": "Role of microorganisms in dandruff.",
+            "abstract": "The role of microorganisms in dandruff was studied, by suppressing individually and then collectively the three major components of the scalp microflora. The effect on dandruff was assessed subjectively by clinical grading and objectively by the corneocyte count. No effect on dandruff was demonstrated when scalp organisms were suppressed. In the second group of experiments, dandruff was suppressed by selenium sulfide shampooling and the effect of continued suppression of Pityrosporum with topically applied amphotericin was measured. According to our criteria, dandruff returned to pretreatment levels, despite continued suppression of Pityrosporum. The studies demonstrate that the increased number of scalp microorganisms found in dandruff occurs as a secondary event to increased nutrients and that scalp organisms play no primary role in the pathogenesis of dandruff.",
+            "journal": "Archives of dermatology",
+            "year": "1976",
+            "authors": [
+              "Leyden J J",
+              "McGinley K J",
+              "Kligman A M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Clinical Trials as Topic",
+              "Demeclocycline",
+              "Dermatitis, Seborrheic",
+              "Humans",
+              "Malassezia",
+              "Neomycin",
+              "Propionibacterium acnes",
+              "Scalp",
+              "Scalp Dermatoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/130835/"
+          },
+          {
+            "pmid": "8240027",
+            "title": "Neomycin--a frequent contact allergen.",
+            "abstract": "The incidence of allergic contact dermatitis from neomycin evaluated in relation to 1381 verified cases of allergic contact dermatitis showed a progressive increase (5.00, 7.69, 10.18%) over a three-year period (1990-1992). Sensitivity to neomycin was investigated with special reference to possible cross-reactions between neomycin and the allergens that are commonly used in the manufacture of cosmetic products. Contact sensitivity to neomycin was found to be present with the other diagnoses, such as atopic dermatitis, seborrhoeic dermatitis, hypostasic dermatitis and psoriasis vulgaris.",
+            "journal": "Arhiv za higijenu rada i toksikologiju",
+            "year": "1993",
+            "authors": [
+              "Lipozencić J",
+              "Milavec-Puretić V",
+              "Trajković S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dermatitis, Allergic Contact",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Male",
+              "Middle Aged",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8240027/"
+          },
+          {
+            "pmid": "14232189",
+            "title": "A NEW LOTION FOR THE TREATMENT OF ACNE VULGARIS.",
+            "abstract": "A therapeutic assessment of a new lotion containing methylprednisolone, neomycin, colloidal sulfur and aluminum chlorhydroxide complex (Neo-Medrol Acne Lotion) was carried out on 187 patients suffering from acne vulgaris.Of the 187 patients, 165 showed excellent or good response. Following enthusiastic acceptance of the lotion by the patients in the initial study, a second random study with an additional 134 subjects was undertaken to compare the active lotion with the lotion base alone.The active lotion was superior to the placebo lotion in this study, at a statistically significant level. The overall findings suggest that this lotion is an efficient preparation for the control of acne vulgaris (early and late types) and it also showed promise in the treatment of a few cases of acne rosacea and seborrheic dermatitis facialis.",
+            "journal": "Canadian Medical Association journal",
+            "year": "1965",
+            "authors": [
+              "EREAUX L P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Aluminum",
+              "Biomedical Research",
+              "Chlorobutanol",
+              "Dermatitis, Seborrheic",
+              "Drug Combinations",
+              "Drug Therapy",
+              "Emulsions",
+              "Humans",
+              "Methylprednisolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14232189/"
+          },
+          {
+            "pmid": "17026693",
+            "title": "The aetiology of eyelid dermatitis: a 10-year retrospective analysis.",
+            "abstract": "Few studies have examined the aetiology of eyelid dermatitis across broad demographics. The objectives of this study were (i) to compare the diagnoses of patients with isolated eyelid dermatitis to the diagnoses of patients with additional sites of involvement and (ii) to determine the relevant allergens among patients with allergic eyelid dermatitis. A retrospective analysis of 1215 patients patch tested over 10 years was conducted in this study. Compared to patients without eyelid dermatitis, patients with this entity were more often female. Of the 105 patients with eyelid dermatitis, 43.8% had allergic contact dermatitis (ACD), 36.2% seborrhoeic dermatitis, 11.4% other dermatitis/dermatoses, 7.6% irritant contact dermatitis, 3.8% psoriasis, and 2.9% atopic eczema. With isolated eyelid dermatitis, seborrhoeic dermatitis was the most frequent diagnosis (46.3%) followed by ACD (35.2%). Allergens commonly causing allergic eyelid dermatitis consisted of fragrances, metals, neomycin, olea",
+            "journal": "Contact dermatitis",
+            "year": "2006",
+            "authors": [
+              "Amin Kathani A",
+              "Belsito Donald V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Allergens",
+              "Child",
+              "Child, Preschool",
+              "Dermatitis",
+              "Eyelid Diseases",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17026693/"
+          },
+          {
+            "pmid": "2137101",
+            "title": "\"Wash leather scrotum\" (scrotal dermatitis): a treatable cause of male infertility.",
+            "abstract": "A group of 16 male patients with infertility had dermatitis of the scrotum and groins giving lichenified oedematous skin; the resulting thickening and loss of rugosity produced a characteristic appearance that we have termed wash leather scrotum. Treatment of the dermatosis resulted in an improvement in sperm count and motility in most patients, and 5 couples produced one or more pregnancies.",
+            "journal": "Fertility and sterility",
+            "year": "1990",
+            "authors": [
+              "Hendry W F",
+              "Munro D D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Anti-Inflammatory Agents",
+              "Clobetasol",
+              "Dermatitis",
+              "Dermatitis, Seborrheic",
+              "Female",
+              "Humans",
+              "Male",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2137101/"
+          },
+          {
+            "pmid": "14022418",
+            "title": "[New case of Senear-Usher seborrheic pemphigus having benefited from a local treatment with neomycin-triamcinolone ointment].",
+            "abstract": "",
+            "journal": "Bulletin de la Societe francaise de dermatologie et de syphiligraphie",
+            "year": "1962",
+            "authors": [
+              "COLOMB D",
+              "JEANNEROD M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dermatitis",
+              "Dermatitis, Seborrheic",
+              "Humans",
+              "Neomycin",
+              "Ointments",
+              "Pemphigus",
+              "Sebaceous Gland Diseases",
+              "Triamcinolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14022418/"
+          },
+          {
+            "pmid": "4237222",
+            "title": "The value of neomycin in topical corticosteroid preparations.",
+            "abstract": "",
+            "journal": "Southern medical journal",
+            "year": "1969",
+            "authors": [
+              "Lloyd K M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Clinical Trials as Topic",
+              "Dermatitis",
+              "Dermatitis, Contact",
+              "Dermatitis, Seborrheic",
+              "Eczema",
+              "Fluocinolone Acetonide",
+              "Humans",
+              "Neomycin",
+              "Neurodermatitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4237222/"
+          },
+          {
+            "pmid": "14253660",
+            "title": "[THE SPECTRUM OF EFFECTIVENESS OF A NEW TOPICAL CORTICOID IN DERMATOLOGIC PRACTICE].",
+            "abstract": "",
+            "journal": "Medizinische Klinik",
+            "year": "1964",
+            "authors": [
+              "FRIDERICH H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Dermatitis",
+              "Dermatitis, Seborrheic",
+              "Dexamethasone",
+              "Drug Therapy",
+              "Eczema",
+              "Female",
+              "Humans",
+              "Leg Ulcer",
+              "Lichen Planus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14253660/"
+          },
+          {
+            "pmid": "14022419",
+            "title": "[New case of Senear-Usher seborrheic pemphigus having improved from a locally applied treatment with a neomycin-triamcinolone ointment].",
+            "abstract": "",
+            "journal": "Lyon medical",
+            "year": "1962",
+            "authors": [
+              "COLOMB D",
+              "JEANNEROD M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dermatitis",
+              "Dermatitis, Seborrheic",
+              "Humans",
+              "Neomycin",
+              "Ointments",
+              "Pemphigus",
+              "Sebaceous Gland Diseases",
+              "Triamcinolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14022419/"
+          },
+          {
+            "pmid": "14108368",
+            "title": "[THERAPEUTIC EXPERIENCES WITH HYDROCORTISONE LOTION IN THE TREATMENT OF VARIOUS DERMATOSES].",
+            "abstract": "",
+            "journal": "Zeitschrift fur Haut- und Geschlechtskrankheiten",
+            "year": "1963",
+            "authors": [
+              "GOYERT K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Balanitis",
+              "Cheilitis",
+              "Dermatitis",
+              "Dermatitis, Seborrheic",
+              "Dermatology",
+              "Dermatomycoses",
+              "Eczema",
+              "Erythema Multiforme",
+              "Granuloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14108368/"
+          },
+          {
+            "pmid": "145611",
+            "title": "[Neo-medrol acne lotion in the treatment of seborrhea].",
+            "abstract": "",
+            "journal": "Przeglad dermatologiczny",
+            "year": "1977",
+            "authors": [
+              "Kibler-Nockowska M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Adolescent",
+              "Adult",
+              "Chlorobutanol",
+              "Dermatitis, Seborrheic",
+              "Dosage Forms",
+              "Drug Combinations",
+              "Drug Evaluation",
+              "Facial Dermatoses",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/145611/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral vascular disease",
+        "txgnn_score": 0.9761751890182496,
+        "txgnn_rank": 18800,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29916184",
+            "title": "Antibiotics protect against EAE by increasing regulatory and anti-inflammatory cells.",
+            "abstract": "A seven day pretreatment course of an oral antibiotic cocktail (Ampicillin, Metronidazole, Neomycin Sulfate, and Vancomycin) was shown to induce changes in peripheral immune regulation and protect mice from signs of experimental autoimmune encephalomyelitis (EAE). To determine if a shorter course of antibiotic pretreatment could also protect the mice from EAE and induce regulatory immune cells, studies were conducted using the same oral antibiotic cocktail for three days. In addition, the CNS was examined to determine the effects of antibiotic pretreatment on EAE disease course and immune modulation within the affected tissue. The shorter three day pretreatment course was also significantly protective against severe EAE in C57BL/6 mice. Moreover, our study found increased frequencies of regulatory cells and a decrease in the frequency of anti-inflammatory macrophages in the spleen of EAE protected mice. Additionally, a chemokine and chemokine receptor array run on mRNA from spinal cord",
+            "journal": "Metabolic brain disease",
+            "year": "2018",
+            "authors": [
+              "Seifert Hilary A",
+              "Benedek Gil",
+              "Nguyen Ha",
+              "Gerstner Grant",
+              "Zhang Ying"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "B-Lymphocytes",
+              "Chemokines",
+              "Down-Regulation",
+              "Encephalomyelitis, Autoimmune, Experimental",
+              "Female",
+              "Immunomodulation",
+              "Lymph Nodes",
+              "Macrophages"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29916184/"
+          },
+          {
+            "pmid": "233892",
+            "title": "Contact dermatitis in patients with leg ulcers.",
+            "abstract": "The incidence of contact allergy to 63 substances, including active principles and excipients used in a variety of topical preparations, has been studied by patch testing in 306 patients being treated conservatively for stasis dermatitis with or without ulceration. Positive reactions to one or more test compounds were recorded in 177 patients. The main offenders among drugs were neomycin, sulphonamide and promethazine; among the excipients, they were parabens, lanolins and benzoyl peroxide. Frequent reactions were observed to certain substances of the 'para' group, benzocaine, diaminodiphenylmethane, aniline and paraphenylendiamine, with the first three acting mainly as indicators of cross-sensitization. The extension and spread of allergic dermatitis can also be produced by drugs administered systematically. Recognition of the allergens responsible for allergic contact dermatitis arising at the lower leg site is a necessary condition if chronicity and spread of the dermatitis are to b",
+            "journal": "Contact dermatitis",
+            "year": "1975",
+            "authors": [
+              "Angelini G",
+              "Rantuccio F",
+              "Meneghini C L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Dermatitis, Allergic Contact",
+              "Dermatitis, Contact",
+              "Drug Hypersensitivity",
+              "Eczema",
+              "Female",
+              "Humans",
+              "Leg Dermatoses",
+              "Leg Ulcer",
+              "Male",
+              "Pharmaceutic Aids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/233892/"
+          },
+          {
+            "pmid": "234642",
+            "title": "An anti-neomycin antibody interfering with ABO grouping and antibody screening.",
+            "abstract": "",
+            "journal": "Transfusion",
+            "year": "1975",
+            "authors": [
+              "Hysell J K",
+              "Gray J M",
+              "Hysell J W",
+              "Beck M L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ABO Blood-Group System",
+              "Aminoglycosides",
+              "Ampicillin",
+              "Antibodies",
+              "Chlorothiazide",
+              "Chromatography, DEAE-Cellulose",
+              "Chymotrypsin",
+              "Coombs Test",
+              "Cross Reactions",
+              "Demeclocycline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/234642/"
+          },
+          {
+            "pmid": "4397994",
+            "title": "Malacoplakia of the colon.",
+            "abstract": "",
+            "journal": "Archives of pathology",
+            "year": "1971",
+            "authors": [
+              "Di Silvio T V",
+              "Bartlett E F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Bacterial Agents",
+              "Cephalothin",
+              "Colonic Diseases",
+              "Doxycycline",
+              "Escherichia coli Infections",
+              "Fasting",
+              "Granuloma",
+              "Humans",
+              "Lincomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4397994/"
+          },
+          {
+            "pmid": "4310343",
+            "title": "Risk of infection with intravenous indwelling catheters: effect of application of antibiotic ointment.",
+            "abstract": "",
+            "journal": "The Journal of infectious diseases",
+            "year": "1969",
+            "authors": [
+              "Zinner S H",
+              "Denny-Brown B C",
+              "Braun P",
+              "Burke J P",
+              "Toala P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Catheterization",
+              "Cross Infection",
+              "Humans",
+              "Infusions, Parenteral",
+              "Neomycin",
+              "Ointments",
+              "Phlebitis",
+              "Polymyxins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4310343/"
+          },
+          {
+            "pmid": "4310342",
+            "title": "Application of antibiotic ointment to the site of venous catheterization--a controlled trial.",
+            "abstract": "",
+            "journal": "The Journal of infectious diseases",
+            "year": "1969",
+            "authors": [
+              "Norden C W"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Catheterization",
+              "Clinical Trials as Topic",
+              "Cross Infection",
+              "Humans",
+              "Infusions, Parenteral",
+              "Neomycin",
+              "Ointments",
+              "Phlebitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4310342/"
+          },
+          {
+            "pmid": "5068024",
+            "title": "[Therapy of ulcus cruris].",
+            "abstract": "",
+            "journal": "Munchener medizinische Wochenschrift (1950)",
+            "year": "1972",
+            "authors": [
+              "Walther H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bacitracin",
+              "Bandages",
+              "Cicatrix",
+              "Female",
+              "Humans",
+              "Leg Ulcer",
+              "Male",
+              "Neomycin",
+              "Thrombophlebitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5068024/"
+          },
+          {
+            "pmid": "7117060",
+            "title": "Prophylaxis of deep venous thrombosis in colorectal surgery.",
+            "abstract": "A group of 230 patients undergoing elective colorectal surgery was analyzed for the presence of deep venous thrombosis (DVT). Prophylaxis against DVT was practiced with low-dose heparin (either 5000 IU every eight hours, or 5000 IU every 12 hours for seven days) in 199 patients. Prevention of infection was attempted with preoperative administration of Enterobiotic in 155 patients and of Vibramycin in 11 patients. DVT was diagnosed in 46 patients. The frequency of DVT did not differ significantly between patients who underwent resections of the colon and those who underwent rectal surgery. DVT was diagnosed in 27 of the 73 infected patients, which was significantly higher than the incidence of 19 with DVT among the 157 uninfected patients. The frequency of DVT among patients in the two heparin regimens was 15 and 17 per cent respectively, which was significantly lower than with untreated patients. No lethal pulmonary embolism was found and no patient showed clinical signs of embolism. I",
+            "journal": "Diseases of the colon and rectum",
+            "year": "1982",
+            "authors": [
+              "Törngren S",
+              "Rieger A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Bacterial Infections",
+              "Colon",
+              "Doxycycline",
+              "Heparin",
+              "Humans",
+              "Middle Aged",
+              "Neomycin",
+              "Oxytetracycline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7117060/"
+          },
+          {
+            "pmid": "879128",
+            "title": "Budd-chiari syndrome after taking oral contraceptives. A case report and review of 14 reported cases.",
+            "abstract": "A case of Budd-Chiari syndrome in a young woman taking oral contraceptives is described. Her main complaints were abdominal pain and ascites without hepatosplenomegaly and the subsequent development of shock. Diagnosis was established by selective hepatic arteriogram and vena cavagram. She was treated with supportive measures, anticoagulants and neomycin. At the time of this report, the patient is slowly convalescing, taking coumadin, diuretics and Aldactone, as well as supplementary vitamins. Reviewed are 14 cases of Budd-Chiari syndrome occurring while patients were taking oral contraceptives.",
+            "journal": "The American journal of digestive diseases",
+            "year": "1977",
+            "authors": [
+              "Wu S M",
+              "Spurny O M",
+              "Klotz A P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Budd-Chiari Syndrome",
+              "Ethinyl Estradiol",
+              "Female",
+              "Heparin",
+              "Humans",
+              "Liver",
+              "Methods",
+              "Norethindrone",
+              "Radiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/879128/"
+          },
+          {
+            "pmid": "14248730",
+            "title": "A CLINICAL AND BACTERIOLOGIC STUDY OF INFECTIONS ASSOCIATED WITH VENOUS CUTDOWNS.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "1965",
+            "authors": [
+              "MORAN J M",
+              "ATWOOD R P",
+              "ROWE M I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacitracin",
+              "Biomedical Research",
+              "Catheterization",
+              "Drug Therapy",
+              "Humans",
+              "Infusions, Parenteral",
+              "Minor Surgical Procedures",
+              "Neomycin",
+              "Ointments",
+              "Phlebitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14248730/"
+          },
+          {
+            "pmid": "4431191",
+            "title": "[Use of Kalanchoe juice for the treatment of trophic leg ulcers].",
+            "abstract": "",
+            "journal": "Khirurgiia",
+            "year": "1974",
+            "authors": [
+              "Bershteĭn E I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Leg Ulcer",
+              "Male",
+              "Middle Aged",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4431191/"
+          },
+          {
+            "pmid": "5399454",
+            "title": "[Clinical observations on the use of F.I. 6321 on reparative processes of cutaneous lesions].",
+            "abstract": "",
+            "journal": "Annali italiani di chirurgia",
+            "year": "1969",
+            "authors": [
+              "Stoppani L",
+              "Trassini R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Androstanes",
+              "Burns",
+              "Female",
+              "Humans",
+              "Ketones",
+              "Male",
+              "Middle Aged",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5399454/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9735432863235474,
+        "txgnn_rank": 19900,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05984004",
+            "title": "A Double-blind, Randomized, Placebo-controlled Study to Evaluate the Safety of Postbiotic Nasal Spray Using Killed Spores of Bacillus Subtilis DSM32444 in Healthy Volunteers",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-09-26",
+            "completion_date": "2023-04-20",
+            "country": "Vietnam",
+            "enrollment": 60,
+            "brief_summary": "Rhinitis is a type of upper respiratory infection with a common nasal pathology especially in Southeast Asia, which is characterized by the presence of one or more of the following symptoms: itchy nose, sneezing, runny nose, and nasal congestion. The treatment of acute rhinosinusitis and allergic rhinitis in hospitals is currently carried out according to the general professional guidance of the Vietnam Ministry of Health. A common treatment regime for patients with rhinosinusitis in Vietnam inc",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy volunteers must be ≥18 years of age, at the time of signing the informed consent.\n* Participants who are able to use an e-Diary or Paper Diary during the study to report their health status\n* Participants capable of giving a signed informed consent form (ICF)\n\nExclusio",
+            "endpoints": [
+              "To compare the safety and tolerability following multiple doses of postbiotic DSM32444 nasal spray for 7 days with Placebo in Heathy Volunteers"
+            ],
+            "sponsor": "Huro Biotech Joint Stock Company",
+            "url": "https://clinicaltrials.gov/study/NCT05984004"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05999955",
+            "title": "An Open-label, Randomized, Active-controlled Study to Evaluate the Safety of Postbiotic Nasal Spray Using Inactivated DSM32444 Spores in the Treatment of Acute Rhinosinusitis, as Compared With Neomycin/ Dexamethasone/Xylometazoline Spray",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-12-29",
+            "completion_date": "2023-05-25",
+            "country": "Vietnam",
+            "enrollment": 60,
+            "brief_summary": "Rhinitis is a type of upper respiratory infection with a common nasal pathology especially in Southeast Asia, which is characterized by the presence of one or more of the following symptoms: itchy nose, sneezing, runny nose, and nasal congestion. Other symptoms occasionally experienced include headache, excessive pain reaction, cough, fever. Rhinitis can be idiopathic or due to a variety of causes, including allergens, medications, endocrine/metabolic, infectious, inflammatory, and abnormal nasa",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed rhinosinusitis patients (according to Vietnam's MOH guidelines for diagnosis of rhinosinusitis), ≥18 years of age, at the time of signing the informed consent.\n* Must be in generally good health, except rhinosinusitis\n* Patients who are able to use an e-Diary or Pape",
+            "endpoints": [
+              "To compare efficacy following multiple doses of the SPEROVID Nasal Spray for 10 days with those of the Neomycin/ Dexamethasone/Xylometazoline Nasal Spray in Acute Rhinosinusitis Patients assessed by time to symptom resolution"
+            ],
+            "sponsor": "Huro Biotech Joint Stock Company",
+            "url": "https://clinicaltrials.gov/study/NCT05999955"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31407824",
+            "title": "Topical (local) antibiotics for respiratory infections with sore throat: An antibiotic stewardship perspective.",
+            "abstract": "The overuse and misuse of antibiotics, especially for viral, and self-limiting, respiratory tract infections such as sore throat, increases the risk of the development and spread of antimicrobial resistance within communities. Up to 80% of sore throat cases have a viral aetiology, and even when the infection is bacterial, most cases resolve without antibiotics. However, antibiotics are still frequently and often inappropriately prescribed for the treatment of sore throat. Furthermore, topical (local) antibiotics for treatment of sore throat are widely available over the counter. The objective of this systematic review was to establish the evidence for the benefits, risk of harm and antimicrobial resistance associated with topical (local) antibiotics used for patients with sore throat.",
+            "journal": "Journal of clinical pharmacy and therapeutics",
+            "year": "2019",
+            "authors": [
+              "Essack Sabiha",
+              "Bell John",
+              "Burgoyne Douglas S",
+              "Duerden Martin",
+              "Shephard Adrian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Bacterial Agents",
+              "Antimicrobial Stewardship",
+              "Humans",
+              "Pharyngitis",
+              "Respiratory Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31407824/"
+          },
+          {
+            "pmid": "32352619",
+            "title": "Understanding the risk of emerging bacterial resistance to over the counter antibiotics in topical sore throat medicines.",
+            "abstract": "The aims of this study were to explore the development of bacterial resistance and cross-resistance in four common human pathogens following realistic exposure to antibiotics found in over-the-counter (OTC) sore throat medicines: gramicidin, neomycin, bacitracin and tyrothricin.",
+            "journal": "Journal of applied microbiology",
+            "year": "2020",
+            "authors": [
+              "Wesgate R",
+              "Evangelista C",
+              "Atkinson R",
+              "Shepard A",
+              "Adegoke O"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents, Local",
+              "Bacteria",
+              "Drug Resistance, Bacterial",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Nonprescription Drugs",
+              "Pharyngitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32352619/"
+          },
+          {
+            "pmid": "13601166",
+            "title": "[Immediate resolutive effect of neomycin in a case of pharyngitis caused by Pseudomonas aeruginosa resistant to polymyxin B].",
+            "abstract": "",
+            "journal": "Il Policlinico. Sezione pratica",
+            "year": "1958",
+            "authors": [
+              "BISETTI A",
+              "BOCCITTO G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antibiotics, Antitubercular",
+              "Dermatologic Agents",
+              "Humans",
+              "Medical Records",
+              "Neomycin",
+              "Pharyngitis",
+              "Polymyxin B",
+              "Pseudomonas Infections",
+              "Pseudomonas aeruginosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13601166/"
+          },
+          {
+            "pmid": "17633139",
+            "title": "A six-month audit of the isolation of Fusobacterium necrophorum from patients with sore throat in a district general hospital.",
+            "abstract": "Fusobacterium necrophorum is an obligate anaerobe believed to be a member of the normal flora of the human oropharangeal and urogenital tract. It has been associated with deep-seated infections and was first described in 1936 by Lemierre, a French microbiologist. There is now strong evidence to suggest that it is also a cause of recurrent sore throat and persistent sore throat syndrome (PSTS) without leading to full systemic infection. It is considered to be the second most common cause of sore throat after group A beta-haemolytic streptococci. This study was performed over a six-month period (October 2004 to March 2005) at the Eastbourne District General Hospital. All throat swabs received in the laboratory are cultured routinely for haemolytic group A streptococci and pathogenic Corynebacteria spp. During the study period an extra fastidious anaerobic blood agar plate with neomycin was inoculated, with a 30 microg vancomycin disc placed at the junction of the second and third streaks",
+            "journal": "British journal of biomedical science",
+            "year": "2007",
+            "authors": [
+              "Amess J A",
+              "O'Neill W",
+              "Giollariabhaigh C Ni",
+              "Dytrych J K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Child",
+              "Child, Preschool",
+              "Corynebacterium diphtheriae",
+              "Diphtheria",
+              "Disk Diffusion Antimicrobial Tests",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17633139/"
+          },
+          {
+            "pmid": "1952710",
+            "title": "[Evaluation of tixocortol pivalate-neomycin combination versus ++a placebo excipient in acute rhinopharyngitis in children].",
+            "abstract": "Effectiveness and clinical tolerance of the tixocortol-neomycin combination (Pivalone-Neomycin nasal suspension) used as monotherapy were evaluated in a double-blind placebo-controlled study (placebo: vehicle i.e., N-cetylpyridinium chloride, sodium chloride, sodium hydroxide solution, benzyl alcohol, purified water, monosodium phosphate) in 211 pediatric patients (aged 6 months to 8 years) with uncomplicated acute rhinopharyngitis. After seven days therapy, improvement in symptoms of acute rhinopharyngitis, especially rhinorrhea and nocturnal cough, was greater in the tixocortol-neomycin group. Physical evaluation documented significant improvements in local superinfection with disappearance of mucopurulent nasal secretions and posterior drip. Locoregional outcome, evaluated on severity of infectious complications and antibiotic use, was also more favorable in the tixocortol-neomycin group. These results, together with the good clinical tolerance of the study drug, demonstrate the val",
+            "journal": "Annales de pediatrie",
+            "year": "1991",
+            "authors": [
+              "Reinert P",
+              "Narcy P",
+              "Paliwoda A",
+              "Rouffiac E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Anti-Inflammatory Agents",
+              "Child",
+              "Child, Preschool",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Humans",
+              "Hydrocortisone",
+              "Infant",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1952710/"
+          },
+          {
+            "pmid": "7194883",
+            "title": "New medium selective for Fusobacterium species and differential for Fusobacterium necrophorum.",
+            "abstract": "Fusobacterium egg yolk agar is a new medium selective for Fusobacterium species and differential for Fusobacterium necrophorum. The medium is a Brucella Agar base (Difco Laboratories, Detroit, Mich.) containing vancomycin, neomycin, josamycin, and egg yolk. All species of fusobacteria grew with only minimal inhibition. The mean log difference in counts between Fusobacterium egg yolk agar and control media for 30 strains of seven species of fusobacteria was 0.1922. F. necrophorum typically showed a strong lipase reaction. Most other organisms were significantly inhibited by the medium.",
+            "journal": "Journal of clinical microbiology",
+            "year": "1981",
+            "authors": [
+              "Morgenstein A A",
+              "Citron D M",
+              "Finegold S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Agar",
+              "Egg Yolk",
+              "Female",
+              "Fusobacterium",
+              "Fusobacterium Infections",
+              "Fusobacterium necrophorum",
+              "Humans",
+              "Pharyngitis",
+              "Pharynx",
+              "Species Specificity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7194883/"
+          },
+          {
+            "pmid": "40251549",
+            "title": "A retrospective clinical evaluation of the quality of antibiotic use in treating ear, nose and throat infections in ambulatory care setting of a teaching hospital in Ghana: findings and implications.",
+            "abstract": "Ear, nose and throat (ENT) infections are often associated with high levels of morbidity and mortality. Antibiotic overuse and misuse for most ENT infections have been reported, caused by a lack of expertise or uncertainties to distinguish between infection types. This study sought to determine the level of appropriateness of antibiotics for ENT infections and its associated factors in ambulatory care in a teaching hospital in Ghana to guide future policies given rising resistance rates.",
+            "journal": "BMC infectious diseases",
+            "year": "2025",
+            "authors": [
+              "Sefah Israel Abebrese",
+              "Dzonu Innocent Reality",
+              "Korbuvi John",
+              "Aku Thelma Alalbila",
+              "Alqifari Saleh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ghana",
+              "Female",
+              "Anti-Bacterial Agents",
+              "Retrospective Studies",
+              "Male",
+              "Adult",
+              "Hospitals, Teaching",
+              "Cross-Sectional Studies",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40251549/"
+          },
+          {
+            "pmid": "6476803",
+            "title": "[Interrelation of the antibiotic sensitivity (resistance) of staphylococci, clinical forms of the infection and production of protein A].",
+            "abstract": "Two hundred and thirty-two strains of Staph. aureus isolated from patients with staphylococcal infections were studied. The strains were isolated from the blood of patients with sepsis, from the purulent foci on the skin and in the subcutaneous fat, from the nasopharyngeal mucosa of patients with tonsillitis and inflammation of the upper respiratory tract, from the sputum of patients with the pneumonia signs and from the pus of patients with otitis. The pathogens were identified with the routine methods. The quantitative content of protein A in the strains was determined by the method of indirect hemagglutination with red blood cells sensitized with the hemolytic serum. The data obtained were analysed with regard to the strain group and characteristics of the strain resistance or sensitivity to benzylpenicillin, erythromycin, oleandomycin, chloramphenicol, streptomycin, neomycin, kanamycin, monomycin, ristomycin and furagin K. Statistically significant differences in the protein A cont",
+            "journal": "Antibiotiki",
+            "year": "1984",
+            "authors": [
+              "Fomenko G A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Child",
+              "Drug Resistance, Microbial",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Otitis",
+              "Pneumonia, Staphylococcal",
+              "Pyoderma",
+              "Sepsis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6476803/"
+          },
+          {
+            "pmid": "4306877",
+            "title": "[The use of antibiotics in otologic practice].",
+            "abstract": "",
+            "journal": "Zeitschrift fur arztliche Fortbildung",
+            "year": "1969",
+            "authors": [
+              "Heinemann M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Bronchitis",
+              "Chloramphenicol",
+              "Chronic Disease",
+              "Ear Diseases",
+              "Humans",
+              "Labyrinth Diseases",
+              "Laryngitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4306877/"
+          },
+          {
+            "pmid": "883783",
+            "title": "[Microflora of the nasal cavity and its sensitivity to antibiotics in patients with chronic rhinitis treated by cryotherapy].",
+            "abstract": "Cryotherapy is used in treatment of chronic rhinitis and pharyngitis. The effect of cryotherapy on the qualitative and quantitative composition of the microflora was studied. Staphylococci prevailed in the rhinitis patients, streptococci, Clebsiella and Neisseria being registered more rarely. The staphlococcal isolates were highly sensitive to monomycin, neomycin, erythromycin and levomycetin. The results of the dynamic study showed that the flora composition did not significantly change during cryotherapy and the sensitivity level of the staphylococcal isolates to the antibodies remained unchanged.",
+            "journal": "Antibiotiki",
+            "year": "1977",
+            "authors": [
+              "Efremova S A",
+              "Kurina S A",
+              "Grig M G",
+              "Sazpnova I M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacteria",
+              "Chronic Disease",
+              "Cryosurgery",
+              "Humans",
+              "Nasal Cavity",
+              "Nose",
+              "Rhinitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/883783/"
+          },
+          {
+            "pmid": "4311499",
+            "title": "[Epidemiology of pseudomonas infections].",
+            "abstract": "",
+            "journal": "Zentralblatt fur Bakteriologie, Parasitenkunde, Infektionskrankheiten und Hygiene. 1. Abt. Medizinisch-hygienische Bakteriologie, Virusforschung und Parasitologie. Originale",
+            "year": "1968",
+            "authors": [
+              "Nezval J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Child, Preschool",
+              "Chloramphenicol",
+              "Cystitis",
+              "Czechoslovakia",
+              "Female",
+              "Gastroenteritis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4311499/"
+          },
+          {
+            "pmid": "5352836",
+            "title": "Antimicrobial therapy in theory and practice. II. Clinical approach to antimicrobial therapy.",
+            "abstract": "",
+            "journal": "The Journal of pediatrics",
+            "year": "1969",
+            "authors": [
+              "McCracken G H",
+              "Eichenwald H F",
+              "Nelson J D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ampicillin",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents",
+              "Arthritis, Juvenile",
+              "Bronchopneumonia",
+              "Child",
+              "Child, Preschool",
+              "Endocarditis, Bacterial",
+              "Enteritis",
+              "Erythromycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5352836/"
+          },
+          {
+            "pmid": "10510642",
+            "title": "[Local treatment of upper respiratory tract inflammation with izofra].",
+            "abstract": "",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "1999",
+            "authors": [
+              "Luchikhin L A",
+              "Kochetygov D M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Female",
+              "Framycetin",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Nose",
+              "Pharyngitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10510642/"
+          },
+          {
+            "pmid": "25588492",
+            "title": "[The comparative effectiveness of framycetin included in combined therapy of adenoiditis in the children].",
+            "abstract": "The objective of the present study was to evaluate the effectiveness of framycetin included in combined therapy of adenoiditis in the children. The study involved 67 children at the mean age of 6.9±2.7 years. Group 1 was comprised of 35 children given framycetin as topical therapy, the patients of group 2 were treated by the endonasal administration of a 2% silver proteinate solution. It was shown that the use of framycetin as a component of combined therapy of adenoiditis enhances the effectiveness of the treatment and compliance to therapy in comparison with the same parameters in the case of the application of traditional topical antibacterial preparations.",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2014",
+            "authors": [
+              "Soldatskiĭ Iu L",
+              "Denisova O A",
+              "Ivanenko A M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Infective Agents, Local",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Female",
+              "Framycetin",
+              "Humans",
+              "Male",
+              "Nasal Lavage"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25588492/"
+          },
+          {
+            "pmid": "570561",
+            "title": "Evaluation of primary plating media for the isolation of group A streptococcus from delayed throat cultures.",
+            "abstract": "Sulfamethoxazole-trimethoprim blood agar (SXT-BA), neomycin blood agar (NEO-BA) and plain sheep blood agar plates (SBA) were compared for isolating group A streptococci in 1,954 throat cultures. SBA and SXT-BA had similar isolation rates (approximately 75% of all positive isolates). NEO-BA was significantly better (87% recovery). A combination of any two media gave 92-95% recovery of group A streptococci from throat specimens.",
+            "journal": "Health laboratory science",
+            "year": "1978",
+            "authors": [
+              "Pien F D",
+              "Rudoy R",
+              "Goto N",
+              "Uemura H S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Agar",
+              "Animals",
+              "Child",
+              "Child, Preschool",
+              "Humans",
+              "Neomycin",
+              "Pharyngitis",
+              "Sheep",
+              "Streptococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/570561/"
+          },
+          {
+            "pmid": "14084375",
+            "title": "CHEMOTHERAPY IN INFECTIONS OF THE EAR, NOSE AND THROAT.",
+            "abstract": "",
+            "journal": "The Practitioner",
+            "year": "1963",
+            "authors": [
+              "MCLAY K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Dihydrostreptomycin Sulfate",
+              "Framycetin",
+              "Kanamycin",
+              "Meningitis",
+              "Mycoses",
+              "Neomycin",
+              "Otitis Externa",
+              "Otitis Media",
+              "Sinusitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14084375/"
+          },
+          {
+            "pmid": "14211178",
+            "title": "[PHYSIOLOGICAL, PHYSIOPATHOLOGICAL AND CLINICAL TRIALS WITH C.1465].",
+            "abstract": "",
+            "journal": "Revue de laryngologie - otologie - rhinologie",
+            "year": "1964",
+            "authors": [
+              "FLOTTES L",
+              "RIU R",
+              "ALAVOINE J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphetamine",
+              "Amphetamines",
+              "Anti-Bacterial Agents",
+              "Common Cold",
+              "Framycetin",
+              "Humans",
+              "Hydrocortisone",
+              "Nasal Decongestants",
+              "Nasal Polyps",
+              "Nose"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14211178/"
+          },
+          {
+            "pmid": "14243367",
+            "title": "[THE ANTIBIOTIC TREATMENT OF BRONCHIAL DISEASES AND PNEUMONIA].",
+            "abstract": "",
+            "journal": "Munchener medizinische Wochenschrift (1950)",
+            "year": "1964",
+            "authors": [
+              "DENNIG H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aerosols",
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Bacteriological Techniques",
+              "Bronchitis",
+              "Chloramphenicol",
+              "Diagnosis",
+              "Drug Therapy",
+              "Humans",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14243367/"
+          },
+          {
+            "pmid": "14135859",
+            "title": "[SENSITIVITY TO ANTIBIOTICS OF HAEMOPHILUS INFLUENZAE STRAINS].",
+            "abstract": "",
+            "journal": "Orvosi hetilap",
+            "year": "1964",
+            "authors": [
+              "FUEZI M",
+              "D ENES B",
+              "SZENTGYOERGYI Z"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Child",
+              "Chloramphenicol",
+              "Erythromycin",
+              "Haemophilus influenzae",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Kanamycin",
+              "Neomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14135859/"
+          },
+          {
+            "pmid": "924814",
+            "title": "[Special problems in the chemotherapy of bacterial infections in otolaryngology (author's transl)].",
+            "abstract": "The different occurrences of pathogens in acute and chronic otitis media, sinusitis, tonsillitis and infections of the respiratory tract are described, with consideration given to the development of gram-negative flora. Therapeutic plans are presented with regard to each of the possible organism patterns. Specific emphasis is given to the aminoglycoside antibiotics which can affect the auditory and vestibular systems.",
+            "journal": "HNO",
+            "year": "1977",
+            "authors": [
+              "Wagner W H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminoglycosides",
+              "Bacterial Infections",
+              "Ear",
+              "Gentamicins",
+              "Humans",
+              "Kanamycin",
+              "Neomycin",
+              "Otitis Media",
+              "Otorhinolaryngologic Diseases",
+              "Respiratory Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/924814/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9713605046272278,
+        "txgnn_rank": 20750,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatitis",
+        "txgnn_score": 0.9646630883216858,
+        "txgnn_rank": 22940,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02338076",
+            "title": "A Study to Document the Effect of Petrolatum on Innate Immune Responses in the Skin",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2013-06",
+            "completion_date": "2015-02",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "Petrolatum is a very well-known emollient that has been used since the 1800's. Not only has it been used to help with dry skin, but it is also marketed as a substance that protects minor cuts and burns. In the past it was thought to be inferior to topical antibiotics in infection prevention for cutaneous wounds. However, in 1996 a large, multicenter trial including over 900 patients showed that petrolatum is as safe and effective as the topical antibiotic, bacitracin in preventing infections for",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy male or female between 18 and 85 years of age\n* Able to give verbal and written informed consent\n\nExclusion Criteria:\n\n* Subjects taking any of the following systemic or topical therapies (on the back) within 2 weeks of enrollment: corticosteroids, immunosuppressants, ",
+            "endpoints": [
+              "Expression Levels of Antimicrobial Peptides in Samples of Normal Appearing Skin and Skin Subjected to Occlusion With and Without Petrolatum.",
+              "Measurement of Innate Immune Genes (IL6, IL8, and IL1B) in Skin Biopsy Samples With Petrolatum Occlusion, Normal Skin and Occlusion Without Petrolatum to See if There is Any Difference in Expression"
+            ],
+            "sponsor": "Rockefeller University",
+            "url": "https://clinicaltrials.gov/study/NCT02338076"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06747611",
+            "title": "Evaluation of Microbiota Transplant Therapy in Patients With Alopecia Areata",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-08-21",
+            "completion_date": "2028-03-15",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "Alopecia Areata (AA) is among the most highly prevalent human autoimmune diseases, leading to disfiguring hair loss due to the collapse of immune privilege of the hair follicle and subsequent autoimmune attack. AA affects about 5.3 million people in the United States alone, including males and females across all ethnic groups, with a lifetime risk of 2.1%. Autoimmunity develops against the hair follicle, resulting in non-scarring hair loss that may begin as patches that can coalesce and progress",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 18 to 75 years of age with moderate to severe alopecia areata (SALT score \\>30%).\n* Patients with a diagnosis of patch type alopecia areata, totalis, or universalis..\n* Duration of hair loss \\>=3 months..\n* No evidence of active, ongoing regrowth present at baseline.\n",
+            "endpoints": [
+              "Engraftment"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT06747611"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00795951",
+            "title": "Clinical Evaluation of T.R.U.E. TEST® Panel 1.1, 2.1 and 3.1: in Children and Adolescents",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2008-11",
+            "completion_date": "2009-11",
+            "country": "United States",
+            "enrollment": 102,
+            "brief_summary": "Open, prospective, single-site, non-randomized study of the efficacy and safety of T.R.U.E. TEST allergens in children and adolescents ages 6-18.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Symptoms and history potentially consistent with allergic contact dermatitis based on symptoms and clinical history (i.e., subjects are visiting the clinic/physician to diagnose, treat or resolve this condition).\n* Children and adolescents 6 to 18 years of age, and in general ",
+            "endpoints": [
+              "Positive Reactions: Nickel Sulfate",
+              "Positive Reactions: Neomycin Sulfate",
+              "Positive Reactions: Wool Alcohol"
+            ],
+            "sponsor": "Allerderm",
+            "url": "https://clinicaltrials.gov/study/NCT00795951"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40107276",
+            "title": "Prevalence of Contact Allergy to Neomycin in Dermatitis Patients: A Systematic Review and Meta-Analysis.",
+            "abstract": "Neomycin, an aminoglycoside antibiotic frequently employed in topical formulations, is a recognised allergen that is part of many baseline series and can cause contact allergy (CA) in both adults and children. It is an allergen of interest as it has a widespread use in over-the-counter and prescription products globally, but geographical variations may exist. This study aimed to establish prevalence estimates of CA to neomycin in dermatitis patients and to investigate potential geographical variations. Three databases (PubMed, Embase, and Web of Science) were screened, revealing 70 included studies comprising 456 372 adults and 17 720 children who underwent patch testing. The pooled prevalence of CA to neomycin was found to be 3.2% (95% confidence interval [CI]: 2.6%-3.8%) in adults and 4.3% (95% CI: 2.65%-6.3%) in children. The highest prevalences were observed in North America (adults: 6.4%; children: 8.1%) and South Asia (adults: 4.9%), while Europe showed lower rates (adults: 2.5%;",
+            "journal": "Contact dermatitis",
+            "year": "2025",
+            "authors": [
+              "Jensen Mikkel Bak",
+              "Isufi Daniel",
+              "Larsen Christoffer Kursawe",
+              "Schwensen Jakob Ferløv Baselius",
+              "Alinaghi Farzad"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Dermatitis, Allergic Contact",
+              "Neomycin",
+              "Patch Tests",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40107276/"
+          },
+          {
+            "pmid": "30145645",
+            "title": "Contact Dermatitis to Medications and Skin Products.",
+            "abstract": "Consumer products and topical medications today contain many allergens that can cause a reaction on the skin known as allergic contact dermatitis. This review looks at various allergens in these products and reports current allergic contact dermatitis incidence and trends in North America, Europe, and Asia. First, medication contact allergy to corticosteroids will be discussed along with its five structural classes (A, B, C, D1, D2) and their steroid test compounds (tixocortol-21-pivalate, triamcinolone acetonide, budesonide, clobetasol-17-propionate, hydrocortisone-17-butyrate). Cross-reactivities between the steroid classes will also be examined. Next, estrogen and testosterone transdermal therapeutic systems, local anesthetic (benzocaine, lidocaine, pramoxine, dyclonine) antihistamines (piperazine, ethanolamine, propylamine, phenothiazine, piperidine, and pyrrolidine), topical antibiotics (neomycin, spectinomycin, bacitracin, mupirocin), and sunscreen are evaluated for their potenti",
+            "journal": "Clinical reviews in allergy & immunology",
+            "year": "2019",
+            "authors": [
+              "Nguyen Henry L",
+              "Yiannias James A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Animals",
+              "Cosmetics",
+              "Dermatitis, Allergic Contact",
+              "Drug Hypersensitivity",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30145645/"
+          },
+          {
+            "pmid": "29766368",
+            "title": "Systemic Contact Dermatitis.",
+            "abstract": "Systemic contact dermatitis (SCD) traditionally refers to a skin condition where an individual who is cutaneously sensitized to an allergen will subsequently react to that same allergen or a cross reacting allergen via a different route. It occurs to allergens including metals, medications, and foods. The exact pathophysiology underlying this disease remains unknown, although it appears to be mediated by type 4 hypersensitivity reactions and possibly type 3 hypersensitivity reactions. The p-I concept (pharmacologic interaction with immunoreceptors) hypothesized that drugs are able to bind directly to a T cell receptor without first being presented by MHC (major histocompatibility complex) molecules and without prior metabolism, which would help explain why SCD can be seen on first exposure to medications. Nomenclature remains a challenge as SCD can be subcategorized using terms such as ACDS (allergic contact dermatitis syndrome) and its four clinical stages, Baboon syndrome, and SDRIFE",
+            "journal": "Clinical reviews in allergy & immunology",
+            "year": "2019",
+            "authors": [
+              "Aquino Marcella",
+              "Rosner Greg"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Animals",
+              "Dermatitis, Contact",
+              "Drug Hypersensitivity",
+              "Food Hypersensitivity",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29766368/"
+          },
+          {
+            "pmid": "12169122",
+            "title": "Allergic otitis externa.",
+            "abstract": "Chronic otitis externa is a common condition, which is usually successfully treated by topical medications and aural toilet. In cases that persist despite conventional treatment, a diagnosis of allergic otitis externa should be considered. Sensitization to otic medications (secondary contact otitis) is not uncommon. Topical aminoglycosides are the most common sensitizers although many components of topical preparations can cause sensitization. Patients who may have developed allergic otitis externa should undergo patch testing. Otolaryngologists should consider using topical antibiotics with a low allergenic potential and avoiding neomycin when treating patients with otitis externa. Primary contact otitis may occur to metals used in earrings and also to hearing aid moulds. Treatment of both primary and secondary contact otitis consists of identifying the allergen, avoiding further contact and use of simple preparations avoiding common sensitizers.",
+            "journal": "Clinical otolaryngology and allied sciences",
+            "year": "2002",
+            "authors": [
+              "Sood S",
+              "Strachan D R",
+              "Tsikoudas A",
+              "Stables G I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chronic Disease",
+              "Dermatitis, Allergic Contact",
+              "Humans",
+              "Otitis Externa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12169122/"
+          },
+          {
+            "pmid": "891176",
+            "title": "Tobramycin-neomycin cross-sensitivity.",
+            "abstract": "Fifty normal control volunteers were patch tested to 20% neomycin as well as tobramycin 1%, 10%, 20% and 30% in white petrolatum. Tobramycin is a new aminoglycoside antibiotic for prescription ophthalmologic use in the United States. There were no reactions on any of the control volunteers. Twenty known and proven neomycin-allergic patients were then tested to tobramycin 10% and 20% in white petrolatum, as well as to neomycin 20% aqueous and 20% in white petrolatum. All 20 reacted with a 2+ or greater response to the neomycin patch tests. Twelve out of the 20 or 60% of the neomycin-allergic patients reacted to the 10% tobramycin in white petrolatum. Thirteen out of 20 or 65% reacted to 20% tobramycin in white petrolatum. From these data, tobramycin (ophthalmic) should not be used to treat known neomycin-allergic patients without first patch testing the patient with 20% tobramycin in white petrolatum. It appears probable that 65% of neomycin-allergic patients would react with a dermatit",
+            "journal": "Contact dermatitis",
+            "year": "1977",
+            "authors": [
+              "Schorr W F",
+              "Ridgway H B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Chemical Phenomena",
+              "Chemistry",
+              "Cross Reactions",
+              "Humans",
+              "Hypersensitivity",
+              "Neomycin",
+              "Patch Tests",
+              "Tobramycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/891176/"
+          },
+          {
+            "pmid": "32618793",
+            "title": "Pediatric contact dermatitis: what's new.",
+            "abstract": "Allergic contact dermatitis (ACD) was once thought to be rare in children but recent studies have demonstrated that the prevalence of ACD is common and appears to be increasing in children. Current trends including toys, hobbies, and personal care products may play a role in potentially new allergen exposure or resurgence of certain allergens, making ACD a moving target in children.",
+            "journal": "Current opinion in pediatrics",
+            "year": "2020",
+            "authors": [
+              "Tam Idy",
+              "Yu JiaDe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Child",
+              "Dermatitis, Allergic Contact",
+              "Dermatitis, Atopic",
+              "Dermatitis, Contact",
+              "Humans",
+              "Patch Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32618793/"
+          },
+          {
+            "pmid": "18413103",
+            "title": "Neomycin.",
+            "abstract": "",
+            "journal": "Dermatitis : contact, atopic, occupational, drug",
+            "year": "2008",
+            "authors": [
+              "Patel Anisha B",
+              "Katta Rajani"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Bacterial Agents",
+              "Dermatitis, Allergic Contact",
+              "Humans",
+              "Neomycin",
+              "Skin Diseases, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18413103/"
+          },
+          {
+            "pmid": "8629854",
+            "title": "Chronic finger dermatitis after trauma. Diagnosis: posttraumatic eczema with allergic contact dermatitis to neomycin, bacitracin, and topical corticosteroids.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1996",
+            "authors": [
+              "Sherertz E F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Bacitracin",
+              "Chronic Disease",
+              "Dermatitis, Allergic Contact",
+              "Eczema",
+              "Finger Injuries",
+              "Fingers",
+              "Hand Dermatoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8629854/"
+          },
+          {
+            "pmid": "4161674",
+            "title": "Contact dermatitis from neomycin and framycetin.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1965",
+            "authors": [
+              "Kirton V",
+              "Munro-Ashman D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Blepharitis",
+              "Dermatitis, Contact",
+              "Drug Eruptions",
+              "Framycetin",
+              "Hand Dermatoses",
+              "Humans",
+              "Leg Ulcer",
+              "Neomycin",
+              "Otitis Externa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4161674/"
+          },
+          {
+            "pmid": "37003899",
+            "title": "Neomycin: sources of contact and sensitization evaluation in 1162 patients treated at a tertiary service.",
+            "abstract": "Neomycin is used in several over-the-counter pharmaceutical formulations in Brazil. In Europe and Canada, where it is not freely available, its sensitization frequency is lower than in the United States, where this does not occur.",
+            "journal": "Anais brasileiros de dermatologia",
+            "year": "2023",
+            "authors": [
+              "Scherrer Maria Antonieta Rios",
+              "Abreu Érica Possa",
+              "Rocha Vanessa Barreto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Neomycin",
+              "Dermatitis, Allergic Contact",
+              "Retrospective Studies",
+              "Allergens",
+              "Patch Tests",
+              "Pharmaceutical Preparations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37003899/"
+          },
+          {
+            "pmid": "480541",
+            "title": "Contact dermatitis to neomycin sulfate.",
+            "abstract": "The prevalence of contact allergic dermatitis and nonallergic irritant reactions to neomycin sulfate was determined in a large group of young adults who had a noteworthy exposure to topical antibiotics. Only two subjects (0.09%) had contact allergy proved by closed patch testing, while 20 (0.9%) had nonallergic irritant reactions to 20% neomycin sulfate and 17 (0.78%) had nonallergic reactions to one of the hydrophilic ointment bases. In a separate population of 653 children referred for diagnostic patch testing, only one subject had contact allergy to neomycin. All three subjects who had reactions had a history of repeated use of neomycin on chronically damaged skin. These results support the conclusion that intermittent use of neomycin on minor cuts and wounds is not associated with an excessive rate of sensitization.",
+            "journal": "JAMA",
+            "year": "1979",
+            "authors": [
+              "Leyden J J",
+              "Kligman A M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Dermatitis, Contact",
+              "Drug Hypersensitivity",
+              "Female",
+              "Humans",
+              "Male",
+              "Neomycin",
+              "Patch Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/480541/"
+          },
+          {
+            "pmid": "29305764",
+            "title": "The Role and Diagnosis of Allergic Contact Dermatitis in Patients with Atopic Dermatitis.",
+            "abstract": "Patients with atopic dermatitis (AD) have increased penetration of allergens, immune dysregulation (including shared cytokine pathways), and frequent use of emollients and topical medications, all of which may predispose toward developing allergic contact dermatitis (ACD). Recent systematic reviews have suggested that ACD is a significant clinical problem in both children and adults with AD. While this remains controversial, ACD remains an important comorbidity and potential exacerbant of AD in clinical practice. Common relevant allergens, include lanolin, neomycin, formaldehyde, sesquiterpene lactone mix, compositae mix, and fragrances that are commonly found in AD patients' personal care products. We herein review the clinical scenarios where patch testing is indicated in AD. In addition, we review the contraindications, preferred patch-testing series, pitfalls, and challenges determining the relevance of positive patch-test reactions in AD patients.",
+            "journal": "American journal of clinical dermatology",
+            "year": "2018",
+            "authors": [
+              "Owen Joshua L",
+              "Vakharia Paras P",
+              "Silverberg Jonathan I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Allergens",
+              "Child",
+              "Comorbidity",
+              "Dermatitis, Allergic Contact",
+              "Dermatitis, Atopic",
+              "Disease Progression",
+              "Emollients",
+              "Humans",
+              "Incidence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29305764/"
+          },
+          {
+            "pmid": "20826990",
+            "title": "Pediatric contact dermatitis.",
+            "abstract": "Allergic contact dermatitis (ACD) in children, until recently, was considered rare. ACD was considered as a disorder of the adult population and children were thought to be spared due to a lack of exposure to potential allergens and an immature immune system. Prevalence of ACD to even the most common allergens in children, like poison ivy and parthenium, is relatively rare as compared to adults. However, there is now growing evidence of contact sensitization of the pediatric population, and it begins right from early childhood, including 1-week-old neonates. Vaccinations, piercing, topical medicaments and cosmetics in younger patients are potential exposures for sensitization. Nickel is the most common sensitizer in almost all studies pertaining to pediatric contact dermatitis. Other common allergens reported are cobalt, fragrance mix, rubber, lanolin, thiomersol, neomycin, gold, mercapto mix, balsum of Peru and colophony. Different factors like age, sex, atopy, social and cultural pra",
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2010",
+            "authors": [
+              "Sharma Vinod K",
+              "Asati Dinesh P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Child",
+              "Dermatitis, Contact",
+              "Humans",
+              "India",
+              "Nickel",
+              "Patch Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20826990/"
+          },
+          {
+            "pmid": "23169209",
+            "title": "Allergic contact dermatitis in children with and without atopic dermatitis.",
+            "abstract": "Prevalence and causes of allergic contact dermatitis (ACD) in children vary with time and geographical area.",
+            "journal": "Dermatitis : contact, atopic, occupational, drug",
+            "year": "2012",
+            "authors": [
+              "Schena Donatella",
+              "Papagrigoraki Anastasia",
+              "Tessari Gianpaolo",
+              "Peroni Anna",
+              "Sabbadini Chiara"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Age Distribution",
+              "Allergens",
+              "Child",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Coloring Agents",
+              "Cosmetics",
+              "Dermatitis, Allergic Contact",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23169209/"
+          },
+          {
+            "pmid": "20137735",
+            "title": "Neomycin.",
+            "abstract": "",
+            "journal": "Dermatitis : contact, atopic, occupational, drug",
+            "year": "2010",
+            "authors": [
+              "Sasseville Denis"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Dermatitis, Allergic Contact",
+              "Humans",
+              "Neomycin",
+              "Patch Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20137735/"
+          },
+          {
+            "pmid": "27374131",
+            "title": "Frequency and trends of contact allergy to and iatrogenic contact dermatitis caused by topical drugs over a 25-year period.",
+            "abstract": "Allergic contact dermatitis is the most common adverse reaction caused by topical drugs.",
+            "journal": "Contact dermatitis",
+            "year": "2016",
+            "authors": [
+              "Gilissen Liesbeth",
+              "Goossens An"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Age Distribution",
+              "Aged",
+              "Aged, 80 and over",
+              "Anesthetics, Local",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents, Local"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27374131/"
+          },
+          {
+            "pmid": "1017192",
+            "title": "Incidence of neomycin and framycetin sensitivity.",
+            "abstract": "A total of 450 consecutive patients were patch-tested to both neomycin and framycetin (20% in petrolatum). Thirteen patients were sensitive to both preparations, 10 to neomycin alone and four to framycetin alone. The significance of these results is discussed, with particular reference to the constituents of the preparations and the allergenic groups involved.",
+            "journal": "Contact dermatitis",
+            "year": "1976",
+            "authors": [
+              "Carruthers J A",
+              "Cronin E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dermatitis, Contact",
+              "Framycetin",
+              "Humans",
+              "Neomycin",
+              "Patch Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1017192/"
+          },
+          {
+            "pmid": "14164961",
+            "title": "PERIORAL DERMATITIS.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1964",
+            "authors": [
+              "MIHAN R",
+              "AYRES S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenal Cortex Hormones",
+              "Chloroquine",
+              "Clioquinol",
+              "Dermatitis",
+              "Dermatitis, Perioral",
+              "Dermatitis, Seborrheic",
+              "Epidemiology",
+              "Facial Dermatoses",
+              "Fluocinolone Acetonide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14164961/"
+          },
+          {
+            "pmid": "39778913",
+            "title": "Prevalence and Determinants of Sensitisation to Neomycin in North-Eastern Italy, 1997-2021.",
+            "abstract": "Allergic contact dermatitis (ACD) induced by topical application of neomycin is frequently reported.",
+            "journal": "Contact dermatitis",
+            "year": "2025",
+            "authors": [
+              "Cegolon Luca",
+              "Larese Filon Francesca"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Italy",
+              "Neomycin",
+              "Dermatitis, Allergic Contact",
+              "Female",
+              "Patch Tests",
+              "Male",
+              "Middle Aged",
+              "Prevalence",
+              "Anti-Bacterial Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39778913/"
+          },
+          {
+            "pmid": "4242005",
+            "title": "Neomycin and framycetin in topical preparations.",
+            "abstract": "",
+            "journal": "Drug and therapeutics bulletin",
+            "year": "1969",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Drug Eruptions",
+              "Framycetin",
+              "Humans",
+              "Neomycin",
+              "Ointments",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4242005/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ischemic disease",
+        "txgnn_score": 0.9637365937232972,
+        "txgnn_rank": 23229,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39183959",
+            "title": "Identification of FDA-approved drugs that induce heart regeneration in mammals.",
+            "abstract": "Targeting Meis1 and Hoxb13 transcriptional activity could be a viable therapeutic strategy for heart regeneration. In this study, we performd an in silico screening to identify FDA-approved drugs that can inhibit Meis1 and Hoxb13 transcriptional activity based on the resolved crystal structure of Meis1 and Hoxb13 bound to DNA. Paromomycin (Paro) and neomycin (Neo) induced proliferation of neonatal rat ventricular myocytes in vitro and displayed dose-dependent inhibition of Meis1 and Hoxb13 transcriptional activity by luciferase assay and disruption of DNA binding by electromobility shift assay. X-ray crystal structure revealed that both Paro and Neo bind to Meis1 near the Hoxb13-interacting domain. Administration of Paro-Neo combination in adult mice and in pigs after cardiac ischemia/reperfusion injury induced cardiomyocyte proliferation, improved left ventricular systolic function and decreased scar formation. Collectively, we identified FDA-approved drugs with therapeutic potential ",
+            "journal": "Nature cardiovascular research",
+            "year": "2024",
+            "authors": [
+              "Ahmed Mahmoud Salama",
+              "Nguyen Ngoc Uyen Nhi",
+              "Nakada Yuji",
+              "Hsu Ching-Cheng",
+              "Farag Ayman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Regeneration",
+              "Myocytes, Cardiac",
+              "Homeodomain Proteins",
+              "Cell Proliferation",
+              "Myeloid Ecotropic Viral Integration Site 1 Protein",
+              "Neomycin",
+              "Myocardial Reperfusion Injury",
+              "Disease Models, Animal",
+              "Drug Approval"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39183959/"
+          },
+          {
+            "pmid": "32185753",
+            "title": "The effects of nitroglycerin in the zone of stasis in a rat burn model.",
+            "abstract": "Studies evaluating the recovery of the zone of stasis is an important issue in burn research. In this study, we aimed to evaluate and compare the efficiency of an anti-ischemic and vasodilatory agent, a topical agent containing 2% nitroglycerin with 1% silver sulfadiazine, and bacitracin-neomycin sulfate in the zone of stasis histomorphologically and immunohistochemically.",
+            "journal": "Ulusal travma ve acil cerrahi dergisi = Turkish journal of trauma & emergency surgery : TJTES",
+            "year": "2020",
+            "authors": [
+              "Gündüz Metin",
+              "Sekmenli Tamer",
+              "Uğurluoğlu Ceyhan",
+              "Çiftçi İlhan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Burns",
+              "Disease Models, Animal",
+              "Edema",
+              "Inflammation",
+              "Male",
+              "Nitroglycerin",
+              "Rats",
+              "Silver Sulfadiazine",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32185753/"
+          },
+          {
+            "pmid": "32404038",
+            "title": "Distinct Commensal Bacterial Signature in the Gut Is Associated With Acute and Long-Term Protection From Ischemic Stroke.",
+            "abstract": "Background and Purpose- Commensal gut bacteria have a profound impact on stroke pathophysiology. Here, we investigated whether modification of the microbiota influences acute and long-term outcome in mice subjected to stroke. Methods- C57BL/6 male mice received a cocktail of antibiotics or single antibiotic. After 4 weeks, fecal bacterial density of the 16S rRNA gene was quantitated by qPCR, and phylogenetic classification was obtained by 16S rRNA gene sequencing. Infarct volume and hemispheric volume loss were measured 3 days and 5 weeks after middle cerebral artery occlusion, respectively. Neurological deficits were tested by the Tape Test and the open field test. Results- Mice treated with a cocktail of antibiotics displayed a significant reduction of the infarct volume in the acute phase of stroke. The neuroprotective effect was abolished in mice recolonized with a wild-type microbiota. Single antibiotic treatment with either ampicillin or vancomycin, but not neomycin, was sufficie",
+            "journal": "Stroke",
+            "year": "2020",
+            "authors": [
+              "Benakis Corinne",
+              "Poon Carrie",
+              "Lane Diane",
+              "Brea David",
+              "Sita Giulia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Animals",
+              "Bacteria",
+              "Brain Ischemia",
+              "Gastrointestinal Microbiome",
+              "Male",
+              "Mice",
+              "RNA, Bacterial",
+              "RNA, Ribosomal, 16S",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32404038/"
+          },
+          {
+            "pmid": "30624992",
+            "title": "Potential Influences of Gut Microbiota on the Formation of Intracranial Aneurysm.",
+            "abstract": "Gut microbiota modulates metabolic and immunoregulatory axes and contributes to the pathophysiology of diseases with inflammatory components, such as atherosclerosis, diabetes mellitus, and ischemic stroke. Inflammation is emerging as a critical player in the pathophysiology of an intracranial aneurysm. Therefore, we hypothesized that the gut microbiota affects aneurysm formation by modulating inflammation. We induced intracranial aneurysms in mice by combining systemic hypertension and a single injection of elastase into the cerebrospinal fluid. Depletion of the gut microbiota was achieved via an oral antibiotic cocktail of vancomycin, metronidazole, ampicillin, and neomycin. Antibiotics were given 3 weeks before aneurysm induction and either continued until the end of the experiment or stopped 1 day before aneurysm induction. We also assessed the effects of the gut microbiota depletion on macrophage infiltration and mRNA levels of inflammatory cytokines. Gut microbiota depletion by a",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2019",
+            "authors": [
+              "Shikata Fumiaki",
+              "Shimada Kenji",
+              "Sato Hiroki",
+              "Ikedo Taichi",
+              "Kuwabara Atsushi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies",
+              "Gastrointestinal Microbiome",
+              "Humans",
+              "Intracranial Aneurysm",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30624992/"
+          },
+          {
+            "pmid": "12403673",
+            "title": "Prostacyclin-deficient mice develop ischemic renal disorders, including nephrosclerosis and renal infarction.",
+            "abstract": "Prostacyclin (PGI2) is a short-lived endogenous inhibitor of platelet aggregation and a potent vasodilator and regulator of the growth of vascular smooth muscle cells. To study the role of PGI2 in the vascular system in vivo, PGI2-deficient (PGID) mice were established by genetic disruption of the PGI2 synthase gene.",
+            "journal": "Circulation",
+            "year": "2002",
+            "authors": [
+              "Yokoyama Chieko",
+              "Yabuki Tomoko",
+              "Shimonishi Manabu",
+              "Wada Masayuki",
+              "Hatae Toshihisa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Animals",
+              "Aorta, Thoracic",
+              "Blood Pressure",
+              "Blood Urea Nitrogen",
+              "Creatinine",
+              "Cytochrome P-450 Enzyme System",
+              "Dinoprostone",
+              "Disease Progression",
+              "Epoprostenol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12403673/"
+          },
+          {
+            "pmid": "11171550",
+            "title": "Gene targeting in hemostasis. Alpha2-antiplasmin.",
+            "abstract": "Apha2-antiplasmin (AP), the main physiological plasmin inhibitor in mammalian plasma, is a 70 kDa single chain serpin (serine proteinase inhibitor) with reactive site peptide bond Arg-Met. It inhibits plasmin very rapidly (second-order inhibition rate constant of = 2 x 107 M-1.s-1) following formation of an inactive 1:1 stoichiometric complex. The high reaction rate requires the presence of a free active site and free lysine-binding site(s) in plasmin. The pathophysiologic relevance of AP is suggested by the finding that homozygous deficient patients show a bleeding tendency; heterozygotes, in contrast, frequently have no or only mild bleeding complications. Inactivation of the AP gene in mice was achieved by replacing, via homologous recombination in embryonic stem cells, a 7 kb genomic sequence encoding the entire murine protein with the neomycin resistance expression cassette. Homozygous AP deficient mice display normal fertility, viability and development. They have an enhanced end",
+            "journal": "Frontiers in bioscience : a journal and virtual library",
+            "year": "2001",
+            "authors": [
+              "Lijnen H R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cardiovascular Diseases",
+              "Female",
+              "Fibrinolysin",
+              "Fibrinolysis",
+              "Gene Targeting",
+              "Germ-Line Mutation",
+              "Hemostasis",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11171550/"
+          },
+          {
+            "pmid": "24211797",
+            "title": "Neamine induces neuroprotection after acute ischemic stroke in type one diabetic rats.",
+            "abstract": "Angiogenin is a member of the ribonuclease superfamily and promotes degradation of the basement membrane and the extracellular matrix. After stroke in type one diabetes (T1DM) rats, Angiogenin is significantly increased and the Angiogenin is inversely correlated with functional outcome. Neamine, an aminoglycoside antibiotic, blocks nuclear translocation of Angiogenin, thereby abolishing the biological activity of Angiogenin. In this study, we therefore investigated the effect and underlying protective mechanisms of Neamine treatment of stroke in T1DM.",
+            "journal": "Neuroscience",
+            "year": "2014",
+            "authors": [
+              "Ning R",
+              "Chopp M",
+              "Zacharek A",
+              "Yan T",
+              "Zhang C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Angiopoietins",
+              "Animals",
+              "Blood Pressure",
+              "Blood-Brain Barrier",
+              "Body Temperature",
+              "Caspase 3",
+              "Diabetes Mellitus, Experimental",
+              "Disease Models, Animal",
+              "Extravasation of Diagnostic and Therapeutic Materials",
+              "Framycetin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24211797/"
+          },
+          {
+            "pmid": "27505423",
+            "title": "Intestinal Microbial Metabolites Are Linked to Severity of Myocardial Infarction in Rats.",
+            "abstract": "Intestinal microbiota determine severity of myocardial infarction in rats. We determined whether low molecular weight metabolites derived from intestinal microbiota and transported to the systemic circulation are linked to severity of myocardial infarction. Plasma from rats treated for seven days with the non-absorbed antibiotic vancomycin or a mixture of streptomycin, neomycin, polymyxin B and bacitracin was analyzed using mass spectrometry-based metabolite profiling platforms. Antibiotic-induced changes in the abundance of individual groups of intestinal microbiota dramatically altered the host's metabolism. Hierarchical clustering of dissimilarities separated the levels of 284 identified metabolites from treated vs. untreated rats; 193 were altered by the antibiotic treatments with a tendency towards decreased metabolite levels. Catabolism of the aromatic amino acids phenylalanine, tryptophan and tyrosine was the most affected pathway comprising 33 affected metabolites. Both antibio",
+            "journal": "PloS one",
+            "year": "2016",
+            "authors": [
+              "Lam Vy",
+              "Su Jidong",
+              "Hsu Anna",
+              "Gross Garrett J",
+              "Salzman Nita H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Gastrointestinal Microbiome",
+              "Metabolomics",
+              "Myocardial Infarction",
+              "Phenotype",
+              "Rats",
+              "Vancomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27505423/"
+          },
+          {
+            "pmid": "23511189",
+            "title": "Insulin-like growth factor 1 inhibits hair cell apoptosis and promotes the cell cycle of supporting cells by activating different downstream cascades after pharmacological hair cell injury in neonatal mice.",
+            "abstract": "Sensorineural hearing loss, which is mainly caused by cochlear hair cell damage, is an intractable disease, as cochlear hair cells and supporting cells are unable to proliferate in postnatal mammals. As a novel and potent treatment for sensorineural hearing loss, we have studied IGF-1 and found that it protects cochlear hair cells from the damage caused by noise and ischemic trauma. Through a clinical trial, we have also confirmed that IGF-1 is an effective treatment for idiopathic sudden sensorineural hearing loss. In the current study, we attempted to identify the downstream pathways of the IGF-1 signal and the mechanisms by which IGF-1 protects the neonatal mouse cochlear hair cells that have been damaged by neomycin. IGF-1 activated both the PI3K/Akt and MEK/ERK pathways to maintain the hair cell numbers in the injured cochlea. The PI3K/Akt pathway specifically protected the cochlear inner hair cells through the inhibition of apoptosis. In contrast, the MEK/ERK pathway induced the ",
+            "journal": "Molecular and cellular neurosciences",
+            "year": "2013",
+            "authors": [
+              "Hayashi Yushi",
+              "Yamamoto Norio",
+              "Nakagawa Takayuki",
+              "Ito Juichi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cell Cycle",
+              "Hair Cells, Auditory",
+              "Insulin-Like Growth Factor I",
+              "MAP Kinase Signaling System",
+              "Mice",
+              "Mice, Inbred ICR",
+              "Neomycin",
+              "Phosphatidylinositol 3-Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23511189/"
+          },
+          {
+            "pmid": "21788586",
+            "title": "Mitochondrial transporter ATP binding cassette mitochondrial erythroid is a novel gene required for cardiac recovery after ischemia/reperfusion.",
+            "abstract": "Oxidative stress and mitochondrial dysfunction are central mediators of cardiac dysfunction after ischemia/reperfusion. ATP binding cassette mitochondrial erythroid (ABC-me; ABCB10; mABC2) is a mitochondrial transporter highly induced during erythroid differentiation and predominantly expressed in bone marrow, liver, and heart. Until now, ABC-me function in heart was unknown. Several lines of evidence demonstrate that the yeast ortholog of ABC-me protects against increased oxidative stress. Therefore, ABC-me is a potential modulator of the outcome of ischemia/reperfusion in the heart.",
+            "journal": "Circulation",
+            "year": "2011",
+            "authors": [
+              "Liesa Marc",
+              "Luptak Ivan",
+              "Qin Fuzhong",
+              "Hyde Brigham B",
+              "Sahin Ergun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "ATP-Binding Cassette Transporters",
+              "Animals",
+              "Cardiac Volume",
+              "Catalase",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Mice, Mutant Strains"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21788586/"
+          },
+          {
+            "pmid": "11956240",
+            "title": "Elucidation of the thromboregulatory role of CD39/ectoapyrase in the ischemic brain.",
+            "abstract": "Endothelial CD39 metabolizes ADP released from activated platelets. Recombinant soluble human CD39 (solCD39) potently inhibited ex vivo platelet aggregation in response to ADP and reduced cerebral infarct volumes in mice following transient middle cerebral artery occlusion, even when given 3 hours after stroke. Postischemic platelet and fibrin deposition were decreased and perfusion increased without increasing intracerebral hemorrhage. In contrast, aspirin did not increase postischemic blood flow or reduce infarction volume, but did increase intracerebral hemorrhage. Mice lacking the enzymatically active extracellular portion of the CD39 molecule were generated by replacement of exons 4-6 (apyrase-conserved regions 2-4) with a PGKneo cassette. Although CD39 mRNA 3' of the neomycin cassette insertion site was detected, brains from these mice lacked both apyrase activity and CD39 immunoreactivity. Although their baseline phenotype, hematological profiles, and bleeding times were normal,",
+            "journal": "The Journal of clinical investigation",
+            "year": "2002",
+            "authors": [
+              "Pinsky David J",
+              "Broekman M Johan",
+              "Peschon Jacques J",
+              "Stocking Kim L",
+              "Fujita Tomoyuki"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphatases",
+              "Animals",
+              "Antigens, CD",
+              "Apyrase",
+              "Aspirin",
+              "Brain Ischemia",
+              "Disease Models, Animal",
+              "Humans",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11956240/"
+          },
+          {
+            "pmid": "1829598",
+            "title": "Human lipoprotein(a) quantified by 'capture' ELISA.",
+            "abstract": "Plasma lipoprotein(a), Lp(a), is the most important known genetically controlled independent risk factor for the prediction of early atherosclerosis (AS) and coronary artery disease (CAD) in a significant subpopulation of Caucasians. A sensitive, specific 'capture' enzyme linked immunosorbent assay (ELISA) is reported for the assay of human plasma Lp(a). There is no interference from low density lipoprotein (LDL), plasminogen, or from endogenous lipids, hemoglobin, or bilirubin. An immobilized polyclonal rabbit antibody 'captures' the Lp(a) ligand, and then a monoclonal murine antibody 'recognizes' it. Alkaline phosphatase conjugated rabbit antimouse IgG and para-nitrophenyl phosphate substrate 'detect' and 'indicate' colorimetrically the amount of Lp(a) bound. Quantitation is relative to a commercially available secondary clinical standard. The frequency distribution for a predominantly Caucasian reference population is highly skewed toward the higher concentrations. The median plasma",
+            "journal": "Annals of clinical and laboratory science",
+            "year": "1991",
+            "authors": [
+              "Doetsch K",
+              "Roheim P S",
+              "Thompson J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Colorimetry",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Humans",
+              "Immunoglobulin G",
+              "Lipoprotein(a)",
+              "Lipoproteins",
+              "Myocardial Infarction",
+              "Rabbits",
+              "Reference Values"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1829598/"
+          },
+          {
+            "pmid": "18480180",
+            "title": "Bioluminescence imaging to monitor the in vivo distribution of administered mesenchymal stem cells in acute kidney injury.",
+            "abstract": "Effective and targeted delivery of cells to injured organs is critical to the development of cell therapies. However, currently available in vivo cell tracking methods still lack sufficient sensitivity and specificity. We examined, therefore, whether a highly sensitive and specific bioluminescence method is suitable to noninvasively image the organ distribution of administered mesenchymal stem cells (MSCs) in vivo. MSCs were transfected with a luciferase/neomycin phosphotransferase construct (luc/neo-MSC). Bioluminescence of these cells was measured (charge-coupled device camera) after treatment with luciferin, showing a linear increase of photon emission with rising cell numbers. To track these cells in vivo, groups of mice were injected with 1 x 10(5) luc/neo-MSCs/animal and imaged with bioluminescence imaging at various time points. Injection of cells in the suprarenal aorta showed diffuse distribution of cells in normal animals, whereas distinct localization to the kidneys was obse",
+            "journal": "American journal of physiology. Renal physiology",
+            "year": "2008",
+            "authors": [
+              "Tögel Florian",
+              "Yang Ying",
+              "Zhang Ping",
+              "Hu Zhuma",
+              "Westenfelder Christof"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Animals",
+              "Female",
+              "Firefly Luciferin",
+              "Luminescent Measurements",
+              "Male",
+              "Mesenchymal Stem Cell Transplantation",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18480180/"
+          },
+          {
+            "pmid": "4553533",
+            "title": "Experimental intestinal malabsorption states and their relation to clinical syndromes.",
+            "abstract": "",
+            "journal": "Klinische Wochenschrift",
+            "year": "1972",
+            "authors": [
+              "Robinson J W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biological Transport",
+              "Celiac Disease",
+              "Colchicine",
+              "Dogs",
+              "Folic Acid Antagonists",
+              "Glutens",
+              "Guinea Pigs",
+              "Humans",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4553533/"
+          },
+          {
+            "pmid": "6481578",
+            "title": "Laboratory basis for the medical management of necrotizing enterocolitis (NEC).",
+            "abstract": "Necrotizing enterocolitis (NEC) is a serious condition affecting the neonate that may be responsive to medical management. This study evaluates the efficacy of supplemental oxygen (FiO2 40% and 50%), systemic antibiotics (ampicillin and gentamicin, cephamandole) and oral antibiotics (trimethoprim-sulfamethoxazole, neomycin and gentamicin) in a weanling rat bowel ischemia model induced by a transient (one minute) occlusion of the superior mesenteric artery. Animals were evaluated for overall survival, duration of survival, presence of bowel necrosis or perforation at seven days. Mortality in ischemic controls was 83.8%. This was reduced to 52% by FiO2 of 50%, and 40% with systemic ampicillin and gentamicin (with or without FiO2 50%) (P less than .001). Length of survival was 3.4 days in controls and increased from 5.4 to 5.9 days in rats given FiO2 50% and/or ampicillin and gentamicin (P less than .001). The incidence of bowel necrosis in controls was 60% and was reduced to 25% in rats ",
+            "journal": "Journal of pediatric surgery",
+            "year": "1984",
+            "authors": [
+              "Katz S",
+              "Gross K R",
+              "Ross D",
+              "Read D",
+              "Wolfe M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Disease Models, Animal",
+              "Enterocolitis, Pseudomembranous",
+              "Longevity",
+              "Oxygen Inhalation Therapy",
+              "Rats",
+              "Rats, Inbred Strains"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6481578/"
+          },
+          {
+            "pmid": "22469518",
+            "title": "β-Glucan treatment prevents progressive burn ischaemia in the zone of stasis and improves burn healing: an experimental study in rats.",
+            "abstract": "Saving the zone of stasis is one of the major goals of burn specialists. Increasing the tissue tolerance to ischaemia and inhibiting inflammation have been proposed to enable salvage of this zone. After a burn, excessive inflammation, including increased vascular permeability, local tissue oedema and neutrophil activation, causes local tissue damage by triggering vascular thrombosis and blocking capillaries, resulting in tissue ischaemia and necrosis. Oxygen radicals also contribute to tissue damage after a burn. However, macrophages play a pivotal role in the response to burn. We studied β-glucan because of its many positive systemic effects that are beneficial to burn healing, including immunomodulatory effects, antioxidant effects (free-radical scavenging activity) and effects associated with the reduction of the inflammatory response. There were four test groups in this study with eight rats in each group. Group 1 was the control group, group 2 was administered a local pomade (baci",
+            "journal": "Burns : journal of the International Society for Burn Injuries",
+            "year": "2013",
+            "authors": [
+              "Firat Cemal",
+              "Samdanci Emine",
+              "Erbatur Serkan",
+              "Aytekin Ahmet Hamdi",
+              "Ak Muharrem"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Antioxidants",
+              "Burns",
+              "Disease Models, Animal",
+              "Ischemia",
+              "Male",
+              "Neutrophils",
+              "Rats",
+              "Rats, Sprague-Dawley"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22469518/"
+          },
+          {
+            "pmid": "14288107",
+            "title": "SERRATIA MARCESCENS INFECTION COMPLICATING PERITONEAL DIALYSIS.",
+            "abstract": "",
+            "journal": "British medical journal",
+            "year": "1965",
+            "authors": [
+              "MCCRACKEN A W",
+              "LIPSCOMB F E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Drug Resistance",
+              "Drug Resistance, Microbial",
+              "Drug Therapy",
+              "Humans",
+              "Infarction",
+              "Kanamycin",
+              "Neomycin",
+              "Peritoneal Dialysis",
+              "Peritoneal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14288107/"
+          },
+          {
+            "pmid": "4935702",
+            "title": "[Pathogenesis and treatment of portal encephalopathy].",
+            "abstract": "",
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1971",
+            "authors": [
+              "Müting D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alkalosis",
+              "Alkalosis, Respiratory",
+              "Anti-Bacterial Agents",
+              "Arginine",
+              "Asparagine",
+              "Brain",
+              "Collateral Circulation",
+              "Diet Therapy",
+              "Dietary Proteins",
+              "Enema"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4935702/"
+          },
+          {
+            "pmid": "13529534",
+            "title": "The effect of antibiotics and visceral hypothermia in the prevention of ischemic shock.",
+            "abstract": "",
+            "journal": "Surgical forum",
+            "year": "1957",
+            "authors": [
+              "LEBRIE S J",
+              "PARKINS W M",
+              "VARS H M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antibiotics, Antitubercular",
+              "Aorta",
+              "Aortic Diseases",
+              "Disease",
+              "Humans",
+              "Hypothermia",
+              "Neomycin",
+              "Shock"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13529534/"
+          },
+          {
+            "pmid": "14210369",
+            "title": "THE NATURE OF IRREVERSIBLE SHOCK: EXPERIMENTAL AND CLINICAL OBSERVATIONS.",
+            "abstract": "",
+            "journal": "Annals of surgery",
+            "year": "1964",
+            "authors": [
+              "LILLEHEI R C",
+              "LONGERBEAM J K",
+              "BLOCH J H",
+              "MANAX W G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Blood Flow Velocity",
+              "Blood Pressure Determination",
+              "Blood Transfusion",
+              "Blood Volume Determination",
+              "Coronary Disease",
+              "Dogs",
+              "Epinephrine",
+              "Escherichia coli Infections",
+              "Hematocrit",
+              "Heparin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14210369/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9595782160758972,
+        "txgnn_rank": 24392,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05999955",
+            "title": "An Open-label, Randomized, Active-controlled Study to Evaluate the Safety of Postbiotic Nasal Spray Using Inactivated DSM32444 Spores in the Treatment of Acute Rhinosinusitis, as Compared With Neomycin/ Dexamethasone/Xylometazoline Spray",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-12-29",
+            "completion_date": "2023-05-25",
+            "country": "Vietnam",
+            "enrollment": 60,
+            "brief_summary": "Rhinitis is a type of upper respiratory infection with a common nasal pathology especially in Southeast Asia, which is characterized by the presence of one or more of the following symptoms: itchy nose, sneezing, runny nose, and nasal congestion. Other symptoms occasionally experienced include headache, excessive pain reaction, cough, fever. Rhinitis can be idiopathic or due to a variety of causes, including allergens, medications, endocrine/metabolic, infectious, inflammatory, and abnormal nasa",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed rhinosinusitis patients (according to Vietnam's MOH guidelines for diagnosis of rhinosinusitis), ≥18 years of age, at the time of signing the informed consent.\n* Must be in generally good health, except rhinosinusitis\n* Patients who are able to use an e-Diary or Pape",
+            "endpoints": [
+              "To compare efficacy following multiple doses of the SPEROVID Nasal Spray for 10 days with those of the Neomycin/ Dexamethasone/Xylometazoline Nasal Spray in Acute Rhinosinusitis Patients assessed by time to symptom resolution"
+            ],
+            "sponsor": "Huro Biotech Joint Stock Company",
+            "url": "https://clinicaltrials.gov/study/NCT05999955"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00350337",
+            "title": "Phase II, Randomized, Observer-Blind, Single Center, Controlled Study of Two Doses of Various Formulations of WRAIR Live Attenuated Tetravalent Dengue Vaccine Compared to Placebo Control Administered on 0-6-Month Schedule to Healthy Adults",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-04-05",
+            "completion_date": "2008-03-13",
+            "country": "United States",
+            "enrollment": 86,
+            "brief_summary": "This descriptive study will evaluate the safety and immunogenicity of 3 different formulations of the WRAIR dengue vaccine compared to a placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A healthy male or female adult 18-45 years at the time of vaccination;\n* Free of obvious health problems as established by medical history and physical examination before entering into the study;\n* Written informed consent obtained from the subject;\n* Able to read the Subject ",
+            "endpoints": [
+              "N Antibody, Geometric Mean Titer(GMT) to Dengue Serotypes 1, 2, 3 and 4",
+              "Percentage of Subjects Seropositive for Dengue Serotypes 1, 2, 3 and 4",
+              "Occurrence of Any, and Grade 3 Solicited Adverse Events (AEs) Within 21 Days Follow-up After Dose 1 of Study Vaccine"
+            ],
+            "sponsor": "U.S. Army Medical Research and Development Command",
+            "url": "https://clinicaltrials.gov/study/NCT00350337"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40162625",
+            "title": "The Lung Microbiome Modulates Pain-Like Behavior Via the Lung-Brain Axis in a Nitroglycerin-Induced Chronic Migraine Mouse Model.",
+            "abstract": "Chronic migraine is one of the most common pain disorders, characterized by significant disability and a lack of safe, long-term, and effective treatment options. Recent studies highlight the interaction between the lung microbiota and the central nervous system. In this study, a nitroglycerin (NTG)-induced chronic migraine model is constructed in male C57BL/6 mice to explore these interactions. Notable alterations are observed in the lung microbiota of migraine-afflicted mice. Notably, there is a marked decrease in Proteobacteria in the chronic migraine group, associated with short-chain fatty acids and 5-hydroxytryptamine (5-HT). After the intratracheal injection of neomycin, the diversity of the lung microbiota is altered, resulting in the relief of migraines. This effect is also observed in mice that receive neomycin-treated bronchoalveolar lavage fluid (BALF) transplantation, further demonstrating the role of lung microbiota in this process. The altered lung microbiota activate th",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2025",
+            "authors": [
+              "Liu Biying",
+              "Huang Chengya",
+              "Li Xin",
+              "Yu Haonan",
+              "Xia Yuefeng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Migraine Disorders",
+              "Mice",
+              "Lung",
+              "Disease Models, Animal",
+              "Nitroglycerin",
+              "Male",
+              "Mice, Inbred C57BL",
+              "Microbiota",
+              "Brain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40162625/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00994",
+    "name": "Neomycin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Neomycin"
+      },
+      "queried_at": "2026-03-10T06:59:26.772923",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Neomycin"
+      },
+      "queried_at": "2026-03-10T06:59:28.389045",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T06:59:28.946320",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T06:59:31.980484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T06:59:33.975704",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T06:59:34.465800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T06:59:38.737238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T06:59:39.444153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T06:59:39.919579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T06:59:43.214865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T06:59:45.324496",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T06:59:45.966057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T06:59:48.773782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T06:59:51.435258",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "peripheral vascular disease"
+      },
+      "queried_at": "2026-03-10T06:59:53.075382",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "peripheral vascular disease"
+      },
+      "queried_at": "2026-03-10T06:59:56.864622",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "peripheral vascular disease"
+      },
+      "queried_at": "2026-03-10T06:59:59.238996",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T07:00:00.042697",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T07:00:03.121927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T07:00:05.088126",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T07:00:05.664020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T07:00:08.874667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T07:00:09.543725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T07:00:10.089145",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T07:00:12.886309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T07:00:16.133190",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "ischemic disease"
+      },
+      "queried_at": "2026-03-10T07:00:17.189850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "ischemic disease"
+      },
+      "queried_at": "2026-03-10T07:00:20.036685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "ischemic disease"
+      },
+      "queried_at": "2026-03-10T07:00:23.949212",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:00:24.536281",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:00:27.243803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Neomycin",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:00:29.186969",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:00:29.192636"
+  }
+}

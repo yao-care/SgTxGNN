@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Safinamide",
+    "drugbank_id": "DB06654",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Rasmussen subacute encephalitis",
+        "txgnn_score": 0.9962546825408936,
+        "txgnn_rank": 5369,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myelitis",
+        "txgnn_score": 0.9946162104606628,
+        "txgnn_rank": 6805,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "PLA2G6-associated neurodegeneration",
+        "txgnn_score": 0.9921810626983644,
+        "txgnn_rank": 8887,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "transaldolase deficiency",
+        "txgnn_score": 0.9894357919692992,
+        "txgnn_rank": 10936,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fructose-1,6-bisphosphatase deficiency",
+        "txgnn_score": 0.9878530502319336,
+        "txgnn_rank": 12171,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paralysis agitans, juvenile, of Hunt",
+        "txgnn_score": 0.9876067042350768,
+        "txgnn_rank": 12349,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Lewy body dementia",
+        "txgnn_score": 0.9842878580093384,
+        "txgnn_rank": 14629,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "X-linked intellectual disability-ataxia-apraxia syndrome",
+        "txgnn_score": 0.979292094707489,
+        "txgnn_rank": 17350,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lethal infantile mitochondrial myopathy",
+        "txgnn_score": 0.9788089394569396,
+        "txgnn_rank": 17584,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "X-linked intellectual disability-cerebellar hypoplasia syndrome",
+        "txgnn_score": 0.9768268465995787,
+        "txgnn_rank": 18502,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06654",
+    "name": "Safinamide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Safinamide"
+      },
+      "queried_at": "2026-03-09T15:34:09.896413",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Safinamide"
+      },
+      "queried_at": "2026-03-09T15:34:11.976010",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "queried_at": "2026-03-09T15:34:13.418955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "queried_at": "2026-03-09T15:34:18.681178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "queried_at": "2026-03-09T15:34:20.092032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "myelitis"
+      },
+      "queried_at": "2026-03-09T15:34:21.933541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "myelitis"
+      },
+      "queried_at": "2026-03-09T15:34:29.681158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "myelitis"
+      },
+      "queried_at": "2026-03-09T15:34:30.734974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "queried_at": "2026-03-09T15:34:31.384736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "queried_at": "2026-03-09T15:34:37.352467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "queried_at": "2026-03-09T15:34:39.538549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "transaldolase deficiency"
+      },
+      "queried_at": "2026-03-09T15:34:40.994089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "transaldolase deficiency"
+      },
+      "queried_at": "2026-03-09T15:34:46.832744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "transaldolase deficiency"
+      },
+      "queried_at": "2026-03-09T15:34:48.368779",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "queried_at": "2026-03-09T15:34:49.195037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "queried_at": "2026-03-09T15:34:54.080243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "queried_at": "2026-03-09T15:34:56.038670",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "queried_at": "2026-03-09T15:34:56.961547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "queried_at": "2026-03-09T15:35:02.309179",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "queried_at": "2026-03-09T15:35:03.542985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "Lewy body dementia"
+      },
+      "queried_at": "2026-03-09T15:35:05.129354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "Lewy body dementia"
+      },
+      "queried_at": "2026-03-09T15:35:11.117801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "Lewy body dementia"
+      },
+      "queried_at": "2026-03-09T15:35:12.329914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "queried_at": "2026-03-09T15:35:13.190299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "queried_at": "2026-03-09T15:35:18.038471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "queried_at": "2026-03-09T15:35:19.313286",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "lethal infantile mitochondrial myopathy"
+      },
+      "queried_at": "2026-03-09T15:35:20.182512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "lethal infantile mitochondrial myopathy"
+      },
+      "queried_at": "2026-03-09T15:35:27.481746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "lethal infantile mitochondrial myopathy"
+      },
+      "queried_at": "2026-03-09T15:35:28.732092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+      },
+      "queried_at": "2026-03-09T15:35:30.252419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+      },
+      "queried_at": "2026-03-09T15:35:35.889391",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Safinamide",
+        "disease": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+      },
+      "queried_at": "2026-03-09T15:35:37.606876",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T15:35:37.671477"
+  }
+}

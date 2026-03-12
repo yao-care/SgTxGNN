@@ -1,0 +1,2696 @@
+{
+  "drug": {
+    "inn": "Ticagrelor",
+    "drugbank_id": "DB08816",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "intracranial arteriosclerosis",
+        "txgnn_score": 0.9996780157089232,
+        "txgnn_rank": 855,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02605447",
+            "title": "A Prospective, Multicenter, Single-arm Study Designed to Assess the Safety of 3-month Dual Antiplatelet Therapy (DAPT) in Subjects at High Risk for Bleeding Undergoing Percutaneous Coronary Intervention (PCI) With the SYNERGY Everolimus-Eluting Platinum Chromium Coronary Stent System",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-02-16",
+            "completion_date": "2019-07-17",
+            "country": "Switzerland, Brazil, Germany, Latvia, United States, Sweden, Japan",
+            "enrollment": 2009,
+            "brief_summary": "The EVOLVE Short DAPT Study is a prospective, multicenter, single-arm study designed to assess the safety of 3-month DAPT in subjects at high risk for bleeding undergoing PCI with a SYNERGY Stent System.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject is considered at high risk for bleeding, defined as meeting one or more of the following criteria at the time of enrollment:\n\n   * ≥ 75 years of age and, in the opinion of the investigator, the risk of major bleeding associated with \\>3 months of DAPT outweighs the be",
+            "endpoints": [
+              "Number of Participants Who Experienced Death or Myocardial Infarction (MI)",
+              "Number of Participants Who Experienced Stent Thrombosis (ST)"
+            ],
+            "sponsor": "Boston Scientific Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT02605447"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06058130",
+            "title": "Combination of Antiplatelet and Anticoagulation for Acute Ischemic Stroke Patients Witn Concomitant Non-valvular Atrial Fibrillation and Extracranial/Intracranial Artery Stenosis",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2023-09-29",
+            "completion_date": "2026-01-01",
+            "country": "China",
+            "enrollment": 2171,
+            "brief_summary": "The goal of this clinical trial is to compare the safety and effectiveness of anticoagulation combined with antiplatelet therapy in acute ischemic stroke (AIS) patients with concomitant non-valvular atrial fibrillation (NVAF) and extracranial/intracranial artery stenosis. Participants will be 1:1 randomized into anticoagulation alone or anticoagulation combined with antiplatelet therapy. The primary endpoint is composite events 3 months after enrollment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 18 years old\n* Acute ischemic stroke or TIA with onset \\< 7 days\n* Have a history or newly diagnosed as NVAF\n* Concomitant stenosis (\\>50%) of carotid artery/intracranial artery, of which the ischemic lesion located within the territory\n\nExclusion Criteria:\n\n* Chronic r",
+            "endpoints": [
+              "The rate of 90-day Composite events"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT06058130"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07354828",
+            "title": "Optimization and Validation of Quality Control Indicators for Coronary Revascularization Based on Antiplatelet Therapy: Establishment of a Quality Control Standard System for Coronary Revascularization in Coronary Heart Disease Based on Dual Antiplatelet Therapy (DAPT)",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-12-30",
+            "completion_date": "2029-06-30",
+            "country": "China",
+            "enrollment": 3500,
+            "brief_summary": "Study Purpose Coronary heart disease (CAD) is a leading global cause of death, with Acute Coronary Syndrome (ACS) as its acute and life-threatening subtype. Percutaneous Coronary Intervention (PCI) plus stent implantation is the first-line treatment for ACS, and post-PCI Dual Antiplatelet Therapy (DAPT, aspirin + P2Y₁₂ inhibitor) is core for thrombosis prevention but increases bleeding risk. Approximately 40% of ACS patients are classified as High Bleeding Risk (HBR). China lacks a unified DAPT ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged ≥ 18 years\n* Clinically diagnosed with ACS and received implantation of at least one drug-eluting stent (DES)\n* Meets 1 major criterion or 2 minor criteria of the ARC-HBR high-bleeding-risk definition\n* Able to complete the OPT-CAD score calculation\n* Judged by the invest",
+            "endpoints": [
+              "The overall composite of 11 performance measures for DAPT-based Quality Control Standard System for Coronary Artery Disease Revascularization.",
+              "Accuracy of the OPT-CAD score in predicting ischemia risk in high-bleeding-risk patients."
+            ],
+            "sponsor": "Shenyang Northern Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07354828"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04948749",
+            "title": "Drug Eluting Stenting and Aggressive Medical Treatment for Preventing Recurrent Stroke in Intracranial Atherosclerotic Disease Trial: a Prospective, Randomized, Open-labelled, Blinded End-point Trial (DREAM-PRIDE)",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2021-07-02",
+            "completion_date": "2026-12",
+            "country": "China",
+            "enrollment": 792,
+            "brief_summary": "The aim of DREAM-PRIDE is to evaluate whether implantation of drug-eluting stent (DES) combined with aggressive medical treatment is more efficacious in prevention of 1-year stroke recurrence than standard medical treatment alone for symptomatic intracranial atherosclerotic disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age from 18 to 85 years\n2. Patients with ischemic stroke within 30 days of enrolment attributed to 70% to 99% stenosis of a major intracranial artery (internal carotid artery \\[C4-C7\\], middle cerebral artery \\[M1\\], vertebral artery \\[V4\\], or basilar artery) on CTA (Accordi",
+            "endpoints": [
+              "Any stroke or death within 30 days of enrollment or any revascularization procedure OR an ischemic stroke in the territory of the symptomatic intracranial artery between 31 day to 1 year.",
+              "Severe or moderate bleeding (GUSTO score)"
+            ],
+            "sponsor": "Beijing Tiantan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04948749"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05047172",
+            "title": "Comparison of Anti-coagulation and Anti-Platelet Therapies for Intracranial Vascular Atherostenosis (CAPTIVA)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-08-02",
+            "completion_date": "2028-05-31",
+            "country": "Canada, United States",
+            "enrollment": 1683,
+            "brief_summary": "The primary goal of the trial is to determine if the experimental arms (rivaroxaban or ticagrelor or both) are superior to the clopidogrel arm for lowering the 1-year rate of ischemic stroke, intracerebral hemorrhage, or vascular death.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Acute focal symptoms or signs of any duration associated with imaging, pathological, or other objective evidence of arterial infarction OR clinical evidence of cerebral, spinal cord, or retinal focal arterial ischemic injury based on symptoms persisting greater than or equal t",
+            "endpoints": [
+              "Number of participants with parenchymal ICH or non-ICH major hemorrhage",
+              "Number of participants with ischemic stroke, intracerebral hemorrhage or vascular death"
+            ],
+            "sponsor": "University of Florida",
+            "url": "https://clinicaltrials.gov/study/NCT05047172"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03620760",
+            "title": "A Prospective, Randomised, Open-labeled, Parallel Group Study to Assess the Efficacy and Safety of Low Dose Ticagrelor Compared With Standard Dose Ticagrelor in Patients With Unstable Angina Pectoris After Drug Eluting Stent Implantation",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2018-08-07",
+            "completion_date": "2020-12-31",
+            "country": "China",
+            "enrollment": 2036,
+            "brief_summary": "The study is to evaluate efficacy and safety of low dose of ticagrelor therapy for Chinese unstable angina patients treated with non-urgent coronary stent implantation, to examine whether lower dose ticagrelor (45 mg twice-daily) is not inferior to standard dose (90 mg twice-daily) for the prevention of major adverse cardiovascular and cerebrovascular events, as well as will reduce the incidence of bleeding during long-term treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients admission for coronary artery disease treatment with non-emergency percutaneous intervention with stent deployment\n* 18 years≤age≤80 years\n* Patients understands the study requirements and the treatment procedures and provided informed consent before the procedure\n\nEx",
+            "endpoints": [
+              "Incidence of major adverse cardiovascular and cerebrovascular events (MACCEs) and major bleeding event"
+            ],
+            "sponsor": "Beijing Anzhen Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03620760"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01732822",
+            "title": "A Randomized, Double-blind, Parallel Group, Multicentre Phase IIIb Study to Compare Ticagrelor With Clopidogrel Treatment on the Risk of Cardiovascular Death, Myocardial Infarction and Ischemic Stroke in Patients With Established Peripheral Artery Disease (EUCLID Examining Use of tiCagreLor In paD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-12-04",
+            "completion_date": "2016-09-26",
+            "country": "United States, Philippines, Ukraine, Canada, South Korea, Netherlands, Italy, Chile, Czechia, Russia, Sweden, Thailand, Poland, Japan, United Kingdom, France, Brazil, Germany, Argentina, Mexico, Hungary, Vietnam, Spain, Turkey (Türkiye), Romania, Slovakia, China, Bulgaria",
+            "enrollment": 13885,
+            "brief_summary": "The purpose of this study is to compare the effects of ticagrelor and clopidogrel in patients with Peripheral Artery Disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and Female patients 50 years old or older Symptomatic peripheral artery disease\n\nExclusion Criteria:\n\n* Patients needing dual anti-platlet drug treatment before start of study Planned revascularisation or amputation\n* Patients with known bleeding disorders\n* Patients with",
+            "endpoints": [
+              "Composite of Cardiovascular (CV) Death/MI/Ischemic Stroke"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT01732822"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06714526",
+            "title": "Effect of Genotype-Guided Oral P2Y12 Inhibitor Selection vs Conventional Clopidogrel Therapy in Symptomatic Intracranial Atherosclerotic Disease: A Pilot Prospective, Randomized, Open-label, Blinded-endpoint (PROBE) Multi- Centre Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-10-07",
+            "completion_date": "2027-08",
+            "country": "Canada",
+            "enrollment": 100,
+            "brief_summary": "Stroke is an important cause of death, disability, and memory problems in adults. The build-up of plaque in arteries inside the brain is known as \"intracranial atherosclerotic disease\" or \"ICAD\" for short, and can reduce blood flow in the brain. Clopidogrel is a medicine used to prevent strokes because it stops blood from clotting. However, there are some people who do not get as much benefit from Clopidogrel because of differences in their genes; they have a variation in a certain gene and thei",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 40 years old, male and female.\n* TIA or ischemic stroke secondary to symptomatic atherosclerotic stenosis of 30- 99% involving the intracranial ICA or MCA or posterior circulation arteries as evidenced by CT or MR angiography.\n* Index TIA or ischemic stroke event occurre",
+            "endpoints": [
+              "Rate of recruitment",
+              "Rate of study completion",
+              "Rate of protocol deviations"
+            ],
+            "sponsor": "Sunnybrook Health Sciences Centre",
+            "url": "https://clinicaltrials.gov/study/NCT06714526"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07164859",
+            "title": "Safety and Efficacy of Very Short Dual Antiplatelet Therapy Followed by P2Y12 Inhibitor Monotherapy in Older Patients Undergoing Percutaneous Coronary Intervention (SOLOPCI)",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-10",
+            "completion_date": "2029-10",
+            "country": "France",
+            "enrollment": 1700,
+            "brief_summary": "The goal of this clinical trial is to learn if reducing the duration of dual antiplatelet therapy (DAPT) after percutaneous coronary intervention (short treatment regimen, stopping aspirin at day 7) is as safe and efficient as the standard DAPT duration (standard treatment regimen) in elderly patients ≥ 65 years.\n\nThe main questions it aims to answer are:\n\nDoes the reduction of the duration of DAPT reduces rates of bleeding without increasing the risk of cardiovascular events? Researchers will c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥ 65 years\n* Successfully treated with percutaneous coronary intervention (PCI) with ≥ 1 drug-eluting stent (final TIMI 3 flow and visually estimated residual diameter stenosis \\<30%) for acute coronary syndrome (including ST-elevation myocardial infarction, non-ST-el",
+            "endpoints": [
+              "net clinical benefit"
+            ],
+            "sponsor": "University Hospital, Caen",
+            "url": "https://clinicaltrials.gov/study/NCT07164859"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01813435",
+            "title": "GLOBAL LEADERS: A Clinical Study Comparing Two Forms of Anti-platelet Therapy After Stent Implantation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-07-01",
+            "completion_date": "2018-04-26",
+            "country": "Switzerland, Australia, Spain, France, Canada, United Kingdom, Brazil, Belgium, Austria, Germany, Italy, Denmark, Netherlands, Portugal, Bulgaria, Hungary, Singapore, Poland",
+            "enrollment": 15991,
+            "brief_summary": "After a stent procedure, it is common practice to prescribe anti-platelet medication to prevent the blood from clotting. The main objective of this study is to determine if there is a better medication strategy to prevent blood from clotting and at the same time minimising the number of complications.\n\nThere are two medication strategies:\n\n* Study group: Dual anti-platelet therapy (ticagrelor combined with aspirin) for 1 month, and then ticagrelor alone for another 23 months OR\n* Control group: ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n-\"All comer\" patients\n\n1. Age ≥18 years;\n2. Presence of one or more coronary artery stenoses of 50% or more in a native coronary artery or in a saphenous venous or arterial bypass conduit suitable for coronary stent implantation. The vessel should have a reference vessel diamete",
+            "endpoints": [
+              "Number of Participants With a Composite of All-cause Mortality or Non-fatal New Q-wave Myocardial Infarction (MI)"
+            ],
+            "sponsor": "ECRI bv",
+            "url": "https://clinicaltrials.gov/study/NCT01813435"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06857045",
+            "title": "A Prospective, Multicenter, Open-label, Randomized Controlled Trial of 3-month Versus 6-month Dual Antiplatelet Therapy After Implantation of NOVA Intracranial Sirolimus-eluting Stent System",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2024-07-09",
+            "completion_date": "2026-06",
+            "country": "China",
+            "enrollment": 0,
+            "brief_summary": "This study is a prospective, multicenter, open-label, randomized controlled clinical trial, aims to assess the clinical non-inferiority of 3 months (short-term) vs 6 months (long-term) of Dual Anti-Platelet Therapy (DAPT) in patients after implanted NOVA intracranial sirolimus-eluting stent system. All participants met the inclusion criteria will be 1:1 randomized to 3 months or 12 months of DAPT at index procedure.",
+            "eligibility_criteria": "Inclusion criteria\n\n1. Males or females between 35 and 80 years of age.\n2. Symptomatic intracranial arteriosclerosis stenosis with reference diameter 2.25-4.00mm;.\n3. Intracranial artery stenosis (≥70%) conformed by DSA.\n4. Subjects who voluntarily participate in the study and sign informed consent ",
+            "endpoints": [
+              "Any stroke, death and major bleeding"
+            ],
+            "sponsor": "Sino Medical Sciences Technology Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06857045"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39862061",
+            "title": "Design and early progress of the Comparison of Anticoagulation and anti-Platelet Therapies for Intracranial Vascular Atherostenosis (CAPTIVA) trial.",
+            "abstract": "The usual antithrombotic treatment for symptomatic intracranial atherosclerotic stenosis (ICAS) consists of dual treatment with clopidogrel and aspirin for 90 days followed by aspirin alone but the risk of recurrent stroke remains high up to 12 months. The Comparison of Anticoagulation and anti-Platelet Therapies for Intracranial Vascular Atherostenosis (CAPTIVA) trial was designed to determine whether other combinations of dual antithrombotic therapy are superior to clopidogrel and aspirin.",
+            "journal": "International journal of stroke : official journal of the International Stroke Society",
+            "year": "2025",
+            "authors": [
+              "Hoh Brian L",
+              "Martin Renee' H",
+              "Yeatts Sharon D",
+              "Turan Tanya N",
+              "Boyette Renee M"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Anticoagulants",
+              "Aspirin",
+              "Clopidogrel",
+              "Double-Blind Method",
+              "Dual Anti-Platelet Therapy",
+              "Intracranial Arteriosclerosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39862061/"
+          },
+          {
+            "pmid": "38252758",
+            "title": "Focused Update on Intracranial Atherosclerosis: Introduction, Highlights, and Knowledge Gaps.",
+            "abstract": "",
+            "journal": "Stroke",
+            "year": "2024",
+            "authors": [
+              "Hoh Brian L",
+              "Chimowitz Marc I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Intracranial Arteriosclerosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38252758/"
+          },
+          {
+            "pmid": "39658130",
+            "title": "Lower Ticagrelor Dosing in the Dual Antiplatelet Regimen for Neurointerventional Procedures.",
+            "abstract": "Ticagrelor, a P2Y12 inhibitor, offers a rapid onset and consistent platelet inhibition, making it a viable alternative for dual antiplatelet therapy (DAPT). The optimal ticagrelor dose for neurointerventional procedures, however, remains unclear. We report our experience with ticagrelor 60 mg twice daily plus aspirin 81 mg daily compared with the standard aspirin and clopidogrel regimen for intracranial stenting.",
+            "journal": "Journal of neurointerventional surgery",
+            "year": "2025",
+            "authors": [
+              "Mehta Amol",
+              "Reddi Preethi",
+              "Bose S Javin",
+              "Finesilver Joshua",
+              "Goldman Daryl"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ticagrelor",
+              "Male",
+              "Female",
+              "Platelet Aggregation Inhibitors",
+              "Retrospective Studies",
+              "Middle Aged",
+              "Aged",
+              "Clopidogrel",
+              "Aspirin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39658130/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Monckeberg arteriosclerosis",
+        "txgnn_score": 0.999403953552246,
+        "txgnn_rank": 1303,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "priapism",
+        "txgnn_score": 0.9974594712257384,
+        "txgnn_rank": 4078,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03615924",
+            "title": "A Randomised, Double-Blind, Parallel-Group, Multicentre, Phase III Study to Evaluate the Effect of Ticagrelor Versus Placebo in Reducing the Rate of Vaso-Occlusive Crises in Paediatric Patients With Sickle Cell Disease (HESTIA3)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2018-09-26",
+            "completion_date": "2020-08-13",
+            "country": "Lebanon, Spain, Turkey (Türkiye), United Kingdom, India, Brazil, Belgium, Italy, Ghana, United States, Uganda, Kenya, Greece, South Africa, Tanzania, Egypt",
+            "enrollment": 193,
+            "brief_summary": "The purpose of the study is to Evaluate the Effect of Ticagrelor versus Placebo in Reducing the Rate of Vaso-Occlusive Crises in Paediatric Patients with Sickle Cell Disease",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provision of signed and dated informed consent prior to any study specific procedures not part of standard medical care (local regulations and international guidelines are to be followed in determining the assent/consent requirements for children).\n2. Male or female paediatri",
+            "endpoints": [
+              "Number of Vaso-Occlusive Crisis Events"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT03615924"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28261826",
+            "title": "A literature review of antithrombotic and anticoagulating agents on sexual function.",
+            "abstract": "Although millions of people receive antithrombotic agents (ATAs) or anticoagulating agents (ACAs) for vascular prophylaxis daily, the negative impact of these agents on sexual function has not been systematically studied. Therefore, a literature search was conducted to determine the effects of the marketed ATAs and ACAs on sexual function. In regard to men, the results show that thienopyridine derivatives increase the risk of erectile dysfunction (ED) and decrease libido and sexual function. The relationship between aspirin use and ED is inconsistent, ranging from a moderate risk to beneficial effects. Nonetheless, aspirin appears to result in a lower risk for ED than does clopidogrel, and seems to benefit patients with lithium-induced ED. Coumarin can cause vasculogenic priapism. In regard to women, only a single report of genital haemorrhage was found. Available data exclusively focus on male subjects. Taken together, ATAs and ACAs can disturb sexual function in different aspects in ",
+            "journal": "Andrologia",
+            "year": "2017",
+            "authors": [
+              "Chen L W-H",
+              "Yin H-L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Erectile Dysfunction",
+              "Female",
+              "Fibrinolytic Agents",
+              "Humans",
+              "Male",
+              "Sexual Dysfunction, Physiological"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28261826/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ischemic disease",
+        "txgnn_score": 0.9963722229003906,
+        "txgnn_rank": 5242,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03016611",
+            "title": "Chewing Ticagrelor Versus Prasugrel in ST-elevation Myocardial Infarction - A Platelet Reactivity Study",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2017-02",
+            "completion_date": "",
+            "country": "Israel",
+            "enrollment": 100,
+            "brief_summary": "To examine the efficacy of chewing Ticagrelor versus Prasugrel in ST-elevation Myocardial Infarction (STEMI) patients on platelet reactivity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients presenting with STEMI\n2. Informed, written consent\n\nExclusion Criteria:\n\n1. Age \\< 18 years or Age \\> 75 years\n2. Active bleeding; bleeding diathesis; coagulopathy\n3. Increased risk of bradycardic events\n4. History of gastrointestinal or genitourinary bleeding \\<2 mo",
+            "endpoints": [
+              "Residual platelet reactivity by Platelet Reactivity Units (PRU) VerifyNow 1 hour after Ticagrelor/Prasugrel LD"
+            ],
+            "sponsor": "Sheba Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03016611"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02545933",
+            "title": "Adjunctive Vorapaxar Therapy in Patients With Prior Myocardial Infarction Treated With New Generation P2Y12 Receptor Inhibitors Prasugrel and Ticagrelor (VORA-PRATIC): A Prospective, Randomized, Pharmacodynamic Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-02",
+            "completion_date": "2020-01",
+            "country": "United States",
+            "enrollment": 130,
+            "brief_summary": "Dual antiplatelet therapy (DAPT) with aspirin and a P2Y12 receptor inhibitor represents the standard of care for the long-term secondary prevention of atherothrombotic events in patients with myocardial infarction (MI). However, rates of ischemic recurrences remain high, which may be in part due to the fact that other platelet signaling pathways, such as thrombin-induced platelet aggregation, continue to be activated. Vorapaxar is a protease-activated receptor (PAR)-1 inhibitor, which exerts pot",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. Patients with a prior MI within the previous 2 weeks to 12 months.\n2. On DAPT with low-dose aspirin (81mg od) and either prasugrel (10mg od) or ticagrelor (90mg bid) as per standard-of-care for at least 2 weeks.\n3. Free from bleeding and ischemic events after the index MI eve",
+            "endpoints": [
+              "Maximal Platelet Aggregation"
+            ],
+            "sponsor": "University of Florida",
+            "url": "https://clinicaltrials.gov/study/NCT02545933"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06826144",
+            "title": "Chronic Remote Ischemic Conditioning in Small Infarctions Associated with Stent-assisted Coiling of Unruptured Intracranial Aneurysms: a Single-center Randomized Controlled Trial.",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-02-20",
+            "completion_date": "2026-06-01",
+            "country": "N/A",
+            "enrollment": 84,
+            "brief_summary": "1. Disease Description Stent-assisted coiling has become an effective treatment modality for intracranial aneurysms. With continuous advancements in periprocedural antiplatelet regimens, the incidence of symptomatic thromboembolic events has significantly decreased. However, the rate of procedure-related microembolic infarctions, which are characterized by punctate hyperintense signals on DWI, remains high (10%-76.5%). The underlying causes of these microembolic infarctions remain controversial ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\) Age 18-80; 2) Unruptured aneurysm with surgical indications; 3) Stent assisted aneurysm embolization; 4) Patients were willing to receive ischemic adaptation therapy.\n\nExclusion Criteria:\n\n* 1\\) Age \\< 18 years old; 2) Complicated with cerebrovascular malformations, moyamo",
+            "endpoints": [
+              "Efficacy of Remote Ischemic Conditioning (RIC) in Preventing Small Infarctions Associated with Stent-Assisted Aneurysm Coiling"
+            ],
+            "sponsor": "The First Affiliated Hospital with Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT06826144"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01755520",
+            "title": "A Randomized, Parallel Group, Double-Blind Study of Ticagrelor Compared With Aspirin for Prevention of Vascular Events in Patients Undergoing Coronary Artery Bypass Graft Operation TiCAB- Ticagrelor in CABG",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2013-04-24",
+            "completion_date": "2018-05-19",
+            "country": "Austria, Switzerland, Germany",
+            "enrollment": 1893,
+            "brief_summary": "The primary objective of this study ist to test the hypothesis that ticagrelor is superior to Aspirin (ASA) fort he prevention of major cardio- and cerebrovascular events (MACCE) in patients undergoing artery bypass operation.\n\nThe primary efficiacy MACCE-endpoint is the composite of cardiovascular death, myocardial infarction, recurent revascularisation, and stroke at twelve month after coronary artery bypass operation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients 18 years of age or older\n2. Informed, written consent by the patient\n3. Indication for CABG surgery:\n\n   * coronary three vessel disease, or\n   * left main stenosis, or\n   * two vessel disease with impaired left ventricular function (\\<50%)\n\nExclusion Criteria:\n\n1. C",
+            "endpoints": [
+              "MACCE"
+            ],
+            "sponsor": "Deutsches Herzzentrum Muenchen",
+            "url": "https://clinicaltrials.gov/study/NCT01755520"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04267224",
+            "title": "Efficacy and Safety of Early Versus Late Loading Dose of Ticagrelol in Patients With ST Segment Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-03-01",
+            "completion_date": "2021-04-01",
+            "country": "N/A",
+            "enrollment": 800,
+            "brief_summary": "Current guidelines recommend percutaneous coronary intervention (PCI) for most patients with ST segment elevation acute myocardial infarction (STEMI) or with non ST segment elevation acute coronary syndrome (NSTEACS) . In STEMI patients, PCI is advised in all patients in the first 12 hours after onset of symptoms, the earlier the better.\n\nThis condition is referred to as \"no-reflow phenomenon.\" , no-reflow is defined as suboptimal myocardial reperfusion through a part of coronary circulation wit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients who were diagnosed as STEMI according to criteria developed by the European Society of Cardiology.\n2. Onset of maximal intensity of chest pain within 12 hours before procedure.\n\nExclusion Criteria:\n\n1. Contraindication to Ticagrelor (e.g., hypersensitivity, active bl",
+            "endpoints": [
+              "The incidence of Major adverse cardiovascular events (MACE)",
+              "The occurrence of major or minor bleeding"
+            ],
+            "sponsor": "Assiut University",
+            "url": "https://clinicaltrials.gov/study/NCT04267224"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05821062",
+            "title": "Effect of Antiplatelet Therapies in Patients With Depression and Coronary Disease",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2022-04-14",
+            "completion_date": "2024-02",
+            "country": "Italy",
+            "enrollment": 400,
+            "brief_summary": "Depression after an acute coronary syndrome (ACS) but also at any time after CAD diagnosis, is highly associated with death, and it predicts mortality more than any other risk factor, comorbidity or follow-up events, suggesting that the standard medical therapy may not be sufficient to prevent the poor prognosis in these patients.\n\nThis study aims to assess whether depression might affect the response to dual antiplatelet therapy (DAPT) as recommended in coronary artery disease (CAD) patients.\n\n",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Centro Cardiologico Monzino: Patients/subjects of both sexes, aged between 18 and 85 years with or without depression, with CAD:\n\n   * Group 1: CAD patients in ASA+CLP (100mg+75mg/daily) therapy with the absence of acute coronary symptoms for at least 5 months.\n   * Group 2: ",
+            "endpoints": [
+              "Verify whether depression affects the platelet response during ASA plus CLP therapy in CAD patients",
+              "Verify whether depression affects the coagulation during ASA plus CLP therapy in CAD patients",
+              "Verify whether depression affects oxidative stress during ASA plus CLP therapy in CAD patients"
+            ],
+            "sponsor": "Centro Cardiologico Monzino",
+            "url": "https://clinicaltrials.gov/study/NCT05821062"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02605447",
+            "title": "A Prospective, Multicenter, Single-arm Study Designed to Assess the Safety of 3-month Dual Antiplatelet Therapy (DAPT) in Subjects at High Risk for Bleeding Undergoing Percutaneous Coronary Intervention (PCI) With the SYNERGY Everolimus-Eluting Platinum Chromium Coronary Stent System",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-02-16",
+            "completion_date": "2019-07-17",
+            "country": "Switzerland, Brazil, Germany, Latvia, United States, Sweden, Japan",
+            "enrollment": 2009,
+            "brief_summary": "The EVOLVE Short DAPT Study is a prospective, multicenter, single-arm study designed to assess the safety of 3-month DAPT in subjects at high risk for bleeding undergoing PCI with a SYNERGY Stent System.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject is considered at high risk for bleeding, defined as meeting one or more of the following criteria at the time of enrollment:\n\n   * ≥ 75 years of age and, in the opinion of the investigator, the risk of major bleeding associated with \\>3 months of DAPT outweighs the be",
+            "endpoints": [
+              "Number of Participants Who Experienced Death or Myocardial Infarction (MI)",
+              "Number of Participants Who Experienced Stent Thrombosis (ST)"
+            ],
+            "sponsor": "Boston Scientific Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT02605447"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06451198",
+            "title": "IndObufen Versus asPirin After Coronary Drug-eluting Stent implantaTION in Elderly Patients With Acute Coronary Syndrome",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2026-02-25",
+            "completion_date": "2028-12-31",
+            "country": "China",
+            "enrollment": 2846,
+            "brief_summary": "The OPTION2 trial (randomized controlled trial of IndObufen versus asPirin after coronary drug-eluting stent implantaTION in elderly patients with acute coronary syndrome) was designed to compare the 1-year clinical efficacy and safety of indobufen-based dual antiplatelet therapy (DAPT) (indobufen 100mg bid plus ticagrelor 90mg bid) or conventional DAPT (aspirin 100mg qd plus ticagrelor 90mg bid) in acute coronary syndrome (ACS) patients aged over 65 years old undergoing coronary drug-eluting st",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age over 65 years old\n* Diagnosed with acute coronary syndrome (unstable angina/ non-ST elevation myocardial infarction/ ST elevation myocardial infarction)\n* Treated with at least 1 DES implanted in the coronary lesion\n* Receiving dual antiplatelet therapy (aspirin plus ticag",
+            "endpoints": [
+              "net adverse clinical events (NACEs)"
+            ],
+            "sponsor": "Shanghai Zhongshan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06451198"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05043610",
+            "title": "Transplantation of Mesenchymal Stem Cells for Prevention of Acute Myocardial Infarction Induced Heart Failure: a Phase III Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-09-15",
+            "completion_date": "2024-11-01",
+            "country": "Iran",
+            "enrollment": 420,
+            "brief_summary": "Results from recent clinical trials on bone marrow mononuclear cell (BM-MNC) transplantation show that this intervention can help reduce the incidence of heart failure (HF) after acute myocardial infarction (AMI). However, no study has evaluated the effect of the transplantation of mesenchymal stem cells (MSCs) on a clinical endpoint such as HF.\n\nThis single-blinded, randomized, multicenter trial aims to establish whether the intracoronary infusion of umbilical cord-derived Wharton's jelly MSCs ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-65 years\n* Either gender\n* First myocardial infarction in the preceding 3 to 7 days\n* Post-acute myocardial infarction left ventricular ejection fraction \\< 40%\n* Negative pregnancy test (for women of reproductive age)\n* Written informed consent\n\nExclusion Criteria:\n\n* ",
+            "endpoints": [
+              "Incidence of Heart Failure"
+            ],
+            "sponsor": "Shiraz University of Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT05043610"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06584812",
+            "title": "A Phase I Study to Evaluate the Pharmacokinetics, Pharmacodynamics and Safety in Healthy Subjects with Multiple Administration of Tiprogrel",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2024-09-09",
+            "completion_date": "2024-12-17",
+            "country": "China",
+            "enrollment": 14,
+            "brief_summary": "This study is designed to evaluate the pharmacokinetics, pharmacodynamics and safety in healthy subjects with multiple administration of Tiprogrel.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female Healthy Subjects\n2. Subject has the ability and willingness to comply with study procedures and follow-up examination.\n\n3：18 to 50 years of age (including the threshold) 4: Body mass index (BMI) ≥ 19.0 to ≤ 28.0 kg/m2; total body weight of male subject ≥ 50 kg",
+            "endpoints": [
+              "PK parameters： Cmax",
+              "PK parameters： Cmax",
+              "PK parameters： AUC"
+            ],
+            "sponsor": "Tianjin Institute of Pharmaceutical Research Co., Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT06584812"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06339021",
+            "title": "Evaluation of Neointimal Coverage After Guiding De-escalation of Antiplatelet Treatment in Patients With ST-elevation Myocardial Infarction Undergoing Percutaneous Coronary Intervention by Optical Coherence Tomography or Angiography of STEMI Patients",
+            "phase": "EARLY_PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-04-01",
+            "completion_date": "2026-12-01",
+            "country": "China",
+            "enrollment": 80,
+            "brief_summary": "Optical coherence tomography (OCT) offers a high-resolution intravascular imaging modality to accurately assess vessel and lumen geometry and identify the hallmark of a culprit lesion including plaque disruption and thrombus. In addition, the incorporation of the MLD MAX algorithm into daily practice guides an efficient and easily-memorable workflow for optimized OCT-guided percutaneous coronary intervention (PCI) with drug-eluting stents (DES). Regarding the antithrombotic therapy after revascu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. 18 \\~ 85 years old adult patients;\n2. Patients diagnosed with STEMI and undergoing PCI.\n3. Patients able and willing to give written informed consent and to comply with the requirements of this study protocol.\n\nExclusion Criteria:\n\n1. Prior history of intracranial hemorrhage ",
+            "endpoints": [
+              "Neointimal thickness after DES implantation"
+            ],
+            "sponsor": "Shenyang Northern Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06339021"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02215993",
+            "title": "Sampling P2Y12 Receptor Inhibition With Prasugrel and Ticagrelor in Patients Submitted to Thrombolysis After Loading Dose of Clopidogrel",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-07",
+            "completion_date": "2014-10",
+            "country": "Brazil",
+            "enrollment": 50,
+            "brief_summary": "Introduction:\n\nPlatelet aggregation plays an important role in ischemic complications in patients undergoing to percutaneous coronary intervention (PCI). The addition of clopidogrel, as a second antiplatelet agent, to acetylsalicylic acid (ASA) was effective in reducing major cardiovascular events in patients with acute coronary syndrome (ACS).\n\nHowever, approximately 30% of ACS patients are resistant to clopidogrel, representing a population of medically vulnerable and high risk for major cardi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* less than 75 years\n* sign the consent form\n* Acute coronary syndrome with ST-segment elevation submitted to thrombolysis\n\nExclusion Criteria:\n\n* use of IIbIIIa inhibitor\n* less than 60 kg\n* history of stroke\n* Patients with sick sinus syndrome, atrioventricular block second or",
+            "endpoints": [
+              "Assessment of change in platelet aggregation"
+            ],
+            "sponsor": "Federal University of São Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT02215993"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02817789",
+            "title": "Safety Profile Evaluation of TICagrelor Alone Compared to a Combination of Lysine Acetylsalicylate-Clopidogrel in the Context of Transcatheter Aortic Valve Implantation (TAVI)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-05-09",
+            "completion_date": "2018-05-30",
+            "country": "France",
+            "enrollment": 50,
+            "brief_summary": "Transcatheter Aortic Valve Implantation (TAVI) is now the method of choice to treat aortic stenosis in old and frail patients. Antiplatelet therapy must be associated for the procedure and during few weeks after implantation in the aim to minimize cerebral embolization. But for now, the best antiplatelet regimen has to be determined. In this context, investigators want to evaluate the safety of use of ticagrelor alone versus standardized therapy which involves lysine acetylsalicylate and clopido",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of informed consent prior to any study specific procedures\n* Female or male aged \\> 18 years\n* Patient eligible for TAVI as recommended by French health care system authority (HAS)\n\nExclusion Criteria:\n\n* Allergy, hypersensitivity, or contraindication to lysine acety",
+            "endpoints": [
+              "Number of patient presenting at least one event of the Valve Academic Research Consortium-2 (VARC2) composite endpoint",
+              "Number of patient died",
+              "Number of patient presenting stroke or Transient Ischemic Attack (TIA)"
+            ],
+            "sponsor": "University Hospital, Bordeaux",
+            "url": "https://clinicaltrials.gov/study/NCT02817789"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02118870",
+            "title": "Randomized Evaluation of Short-term DUal Anti Platelet Therapy in Patients With Acute Coronary Syndrome Treated With the COMBO Dual-therapy stEnt",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-06-10",
+            "completion_date": "2018-09",
+            "country": "N/A",
+            "enrollment": 1500,
+            "brief_summary": "Background:\n\nThe optimal duration of dual antiplatelet therapy in ACS patients treated with DES is still under debate. This is especially true for STEMI patients in the era of new anticoagulants and antiplatelet agents. Yet, the potential benefits of longterm dual antiplatelet therapy in avoiding thrombotic complications may be clearly counterbalanced by a higher risk of major bleeding complications. In particular, the COMBO dual therapy stent, being associated with early re-endothelization, may",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. The patient must be ≥18 years of age\n2. The patient has been diagnosed with STEMI, NSTEMI or UA\n3. The Patient is willing to comply with specified follow-up evaluations\n4. The Patient has been informed of the nature of the study, agrees to its provisions and has been provided",
+            "endpoints": [
+              "Composite of all cause mortality, Myocardial Infarction (MI), ST, stroke, taret vessel revascularization (TVR) and bleeding (BARC II, III and V) at 360 days"
+            ],
+            "sponsor": "Diagram B.V.",
+            "url": "https://clinicaltrials.gov/study/NCT02118870"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01587651",
+            "title": "A Pharmacodynamic Evaluation of Switching From Ticagrelor to Prasugrel in Subjects With Stable Coronary Artery Disease: 2nd Switching Antiplatelet Agents",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2013-02",
+            "country": "United Kingdom, United States",
+            "enrollment": 110,
+            "brief_summary": "This is a Phase 4, multicenter, open-label (blinded Pharmacodynamic PD results), randomized, 3-arm, parallel-design study of subjects with stable Coronary Artery Disease CAD. This study will compare the PD effect of prasugrel 10 mg QD (once-daily) maintenance dose with ticagrelor 90 mg BID (twice daily) maintenance dose in subjects with stable CAD who have previously received ticagrelor loading does (LD) and maintenance dose (MD)..",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female; age \\>= 18 and \\< 75 years\n* Weight \\>= 60 kg\n* Receiving low dose ASA (75 mg to 150 mg daily) for at least 7 days at the time of Visit 1 and able to continue the same regimen throughout the study\n* Stable CAD. CAD is defined as any of the following:\n* History ",
+            "endpoints": [
+              "P2Y12 Reaction Units"
+            ],
+            "sponsor": "Daiichi Sankyo",
+            "url": "https://clinicaltrials.gov/study/NCT01587651"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03039205",
+            "title": "Evaluation of Platelet Aggregation and Adenosine Levels in Patients With Coronary Artery Disease and Chronic Kidney Dysfunction Taking Dual Antiplatelet Therapy With Aspirin and Clopidogrel or Ticagrelor",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-11-07",
+            "completion_date": "2019-12-19",
+            "country": "Brazil",
+            "enrollment": 90,
+            "brief_summary": "About 35% of patients hospitalized with Acute Coronary Syndromes (ACS) have some degree of renal dysfunction. Chronic kidney disease (CKD) is not only associated to worse prognosis in ACS patients, but leads also to an increased risk of bleeding, which may importantly influence the risk-benefit ratio of antiplatelet therapy in this population. The responsible mechanisms for increased rate of ischemic events in this population are not completely elucidated.\n\nAntiplatelet therapy is of paramount i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients in use of aspirin for at least 7 days prior to randomization;\n* Documented obstructive coronary artery disease by angiography;\n* At least 12 months from the last episode of myocardial infarction (MI);\n* Agree to sign the Informed Consent.\n\nExclusion Criteria:\n\n* Prior",
+            "endpoints": [
+              "Platelet aggregation evaluated by VerifyNow® P2Y12 (difference between clopidogrel and ticagrelor) in patients with and without renal dysfunction randomized to treatment with either clopidogrel or ticagrelor"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT03039205"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04981041",
+            "title": "Escalated Single Platelet Inhibition for One Month Plus Direct Oral Anticoagulation in Patients With Atrial Fibrillation and acUte coRonary Syndrome Undergoing percutaneoUS Coronary Intervention",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2021-12-16",
+            "completion_date": "2025-06-16",
+            "country": "Germany",
+            "enrollment": 2334,
+            "brief_summary": "The selection of the optimal antithrombotic therapy in patients with nonvalvular atrial fibrillation (AF) and acute coronary syndrome (ACS) undergoing percutaneous coronary intervention (PCI) is challenging. Until recently, triple antithrombotic therapy (TAT) consisting in Aspirin plus Clopidogrel plus OAC was considered the treatment of choice. While efficiently preventing ischaemic events, TAT is associated with an increase in bleeding complications. Therefore, in the past years several random",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent\n* Age ≥ 18 years\n* Atrial fibrillation requiring oral anticoagulation\n* STEMI or NSTEMI (biomarker positive acute coronary syndrome) and successful completion of PCI (randomization will take place within 24h after successful PCI)\n\nExclusion Criteria:\n\n",
+            "endpoints": [
+              "Major ischaemic events defined as the composite of all-cause mortality, myocardial infarction, definite or probable stent thrombosis, ischaemic stroke and systemic thromboembolism",
+              "Bleeding type 2 or higher according to the Bleeding Academic Research Consortium (BARC) criteria"
+            ],
+            "sponsor": "Ludwig-Maximilians - University of Munich",
+            "url": "https://clinicaltrials.gov/study/NCT04981041"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04143646",
+            "title": "New Technologies for Intensive Prevention Programs - NET-IPP",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-05-01",
+            "completion_date": "2026-10-30",
+            "country": "Germany",
+            "enrollment": 864,
+            "brief_summary": "In a randomized trial patients hospitalized for myocardial infarction are prospectively enrolled and assigned to either a web-based intensive prevention program or usual care (1 : 1 randomization). The web-based program includes telemetric transmission of data on cardiocascular risk factors (physical activity, blood pressure, body weight) by patients to the study center, e-learning modules by the study center and repetitive electronic contacts by e-mails and apps between a prevention assistant a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Hospitalization due to acute myocardial infarction (ST-elevation or non-ST-elevation myocardial infarction) defined according to valid international guidelines\n2. Access to internet and consent to participate in a web-based prevention program\n3. Consent for genetic risk asses",
+            "endpoints": [
+              "Rate of participants with serious adverse cardiovascular events"
+            ],
+            "sponsor": "Herzzentrum Bremen",
+            "url": "https://clinicaltrials.gov/study/NCT04143646"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05015699",
+            "title": "A Prospective, Multi-center, Single-group Target Value Post-marketing Clinical Study to Evaluate the Safety and Effectiveness of the HT Supreme Drug-eluting Stent System in the Treatment of \"Real-world\" Patients With Coronary Heart Disease",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2021-09",
+            "completion_date": "2025-07",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "PIONEER IV CHINA is sought to investigate the safety and efficacy of 11-month ticagrelor monotherapy following one-month dual antiplatelet therapy (DAPT) after HT Supreme drug-eluting stent system at 12 months follow-up.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female patient ≥18 years of age;\n2. Patient has chronic stable angina, acute coronary syndromes or silent ischemia;\n3. Presence of one or more coronary artery stenoses of ≥50% (by visual assessment) in a native coronary artery (with or without prior stent/other device",
+            "endpoints": [
+              "Rate of Patient-oriented Composite Endpoint (PoCE) at 12 months post-procedure."
+            ],
+            "sponsor": "Sino Medical Sciences Technology Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05015699"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06058130",
+            "title": "Combination of Antiplatelet and Anticoagulation for Acute Ischemic Stroke Patients Witn Concomitant Non-valvular Atrial Fibrillation and Extracranial/Intracranial Artery Stenosis",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2023-09-29",
+            "completion_date": "2026-01-01",
+            "country": "China",
+            "enrollment": 2171,
+            "brief_summary": "The goal of this clinical trial is to compare the safety and effectiveness of anticoagulation combined with antiplatelet therapy in acute ischemic stroke (AIS) patients with concomitant non-valvular atrial fibrillation (NVAF) and extracranial/intracranial artery stenosis. Participants will be 1:1 randomized into anticoagulation alone or anticoagulation combined with antiplatelet therapy. The primary endpoint is composite events 3 months after enrollment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 18 years old\n* Acute ischemic stroke or TIA with onset \\< 7 days\n* Have a history or newly diagnosed as NVAF\n* Concomitant stenosis (\\>50%) of carotid artery/intracranial artery, of which the ischemic lesion located within the territory\n\nExclusion Criteria:\n\n* Chronic r",
+            "endpoints": [
+              "The rate of 90-day Composite events"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT06058130"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07203846",
+            "title": "Modulation of Gut Microflora With Rifaximin to Reduce High Platelet Reactivity in Post-Acute Coronary Syndrome Patients on Ticagrelor (FLORA-ACS)",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-01",
+            "completion_date": "2027-06-30",
+            "country": "Poland",
+            "enrollment": 50,
+            "brief_summary": "The FLORA-ACS study aims to evaluate the relationship between dysbiosis and high platelet reactivity during treatment with ticagrelor in patients with a history of acute coronary syndromes and investigate the use of rifaximin to eliminate dysbiosis and thus provide effective antiplatelet treatment.",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Between 18 and 80 years of age\n* History of acute coronary syndrome no sooner than 1 month and no later than 12 months prior to study inclusion\n* Current treatment with ticagrelor (90 mg orally twice a day)\n* High platelet reactivity assessed with multiple electrode aggregomet",
+            "endpoints": [
+              "Change in platelet reactivity in Multiplate",
+              "Achievement of platelet reactivity below HPR"
+            ],
+            "sponsor": "Collegium Medicum w Bydgoszczy",
+            "url": "https://clinicaltrials.gov/study/NCT07203846"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02110303",
+            "title": "Dual Antiplatelet Therapy to Inhibit Coronary Atherosclerosis and Myocardial Injury in Patients With Necrotic High-Risk Coronary Plaque Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-03",
+            "completion_date": "2018-04",
+            "country": "United Kingdom",
+            "enrollment": 220,
+            "brief_summary": "Heart attacks are most commonly caused by rupture of fatty deposits (plaques) within the wall of heart blood vessels. It appears that this process can also frequently occur without causing any symptoms and these events likely explain the development of narrowing within the heart arteries which can subsequently produce symptoms of angina (chest pain).\n\nPrevious research has shown a specialised scanner known as a PET (positron emission tomography) scan can identify these recently ruptured plaques ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged ≥40 years with angiographically proven multivessel coronary artery disease defined as at least two major epicardial vessels with any combination of either (a) \\>50% luminal stenosis, or (b) previous revascularization (percutaneous coronary intervention or coronar",
+            "endpoints": [
+              "Plasma high sensitivity cardiac troponin I (hsTnI) concentration in patients with coronary 18F-fluoride uptake."
+            ],
+            "sponsor": "University of Edinburgh",
+            "url": "https://clinicaltrials.gov/study/NCT02110303"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04483583",
+            "title": "Tailoring P2Y12 Inhibiting Therapy in Patients Requiring Oral Anticoagulation After Undergoing Percutaneous Coronary Intervention:The Switching Anti-Platelet and Anti-Coagulant Therapy (SWAP-AC) - 2 Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-12-08",
+            "completion_date": "2025-01-07",
+            "country": "United States",
+            "enrollment": 81,
+            "brief_summary": "Clopidogrel is the P2Y12 inhibitor of choice in PCI patients requiring OAC. However, concerns have been raised based on the notion that a considerable number of patients may have inadequate response to clopidogrel. Although practice recommendations indicate that the use of potent P2Y12 inhibitors (i.e., ticagrelor) may be considered in patients at increased thrombotic risk, they do not recommend routine testing to identify patients with poor response to clopidogrel. The aim of this study is to a",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Age ≥ 18 years\n* Willing and able to provide written informed consent\n* Undergone successful PCI and treated with DAPT (aspirin plus a P2Y12 inhibitor) per standard of care\n* On treatment with a novel oral anticoagulant (apixaban, dabigatran, edoxaban, or rivaroxaban) for any ",
+            "endpoints": [
+              "Platelet Reactivity Measured as PRU"
+            ],
+            "sponsor": "University of Florida",
+            "url": "https://clinicaltrials.gov/study/NCT04483583"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03525145",
+            "title": "Platelet Reactivity And Clinical ThrombotIC Events Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2018-09-01",
+            "completion_date": "2020-05-31",
+            "country": "China",
+            "enrollment": 1500,
+            "brief_summary": "Platelet function testing has been considered for DAPT strategy adjustments to reduce the patient's risk of ischemia and bleeding. Although several previous RCT studies did not find any benefit in the detection of platelet function， the previous studies were mostly low-risk populations, and the P2Y12 receptor antagonists were simply clopidogrel, and the detection methods were relatively simple. Therefore, the need for platelet monitoring in high-risk ACS patients receiving new potent P2Y12 inhib",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18-80 years old;\n2. There was a history of at least one acute coronary syndrome (ACS) attack within 14 days before enrollment, including unstable angina, non-ST elevation myocardial infarction, or ST-elevation myocardial infarction;\n3. Being treated with aspirin and a P2Y",
+            "endpoints": [
+              "Cardiovascular thrombotic events"
+            ],
+            "sponsor": "Shenyang Northern Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03525145"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01369186",
+            "title": "Drug Drug Interactions of Antiplatelet Drugs and Morphine",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-05",
+            "completion_date": "2015-01",
+            "country": "Austria",
+            "enrollment": 95,
+            "brief_summary": "Study Objective: To investigate potential drug-drug interactions (pharmacokinetics and pharmacodynamics) of morphine and antiplatelet drugs (aspirin, clopidogrel, prasugrel, ticagrelor)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy volunteers ≥ 18 years of age\n* No intake of NSARs and P2Y12-inhibitors within 14 days before study entry\n* Written informed consent\n\nExclusion Criteria:\n\n* Known coagulation disorders\n* Relevant impairment of hepatic function (elevated transaminases, ≥ 2 fold)\n* Releva",
+            "endpoints": [
+              "Platelet function"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT01369186"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01743937",
+            "title": "A Randomized, Controlled, Open Label Trial Comparing the Ischemic Preconditioning Effects of Ticagrelor and Clopidogrel in Humans",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2013-01",
+            "completion_date": "2017-12",
+            "country": "United States",
+            "enrollment": 18,
+            "brief_summary": "Antiplatelet therapy remains a cornerstone in the treatment of acute and chronic coronary artery disease. Aspirin was the first such therapy to prove its benefits in acute myocardial infarction. Compared to aspirin monotherapy, the combination of aspirin and clopidogrel, a thienopyridine P2Y12 inhibitor, has been demonstrated to reduce adverse event rates among patients with acute coronary syndromes (with or without ST-segment elevation) and those receiving intracoronary stents. In the Triton-TI",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Undergoing clinically-indicated PCI for stable or progressive exertional angina without rest angina, ST-segment shift, or elevated CK-MB or troponin-T or I\n* Willing and able to give informed consent and to comply with study procedures\n* Found to have single or two-vessel obst",
+            "endpoints": [
+              "Degree of ST-segment elevation by intracoronary ECG during coronary balloon inflation"
+            ],
+            "sponsor": "University of Texas Southwestern Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01743937"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03732066",
+            "title": "Web basEd soCial Media tecHnology to Improvement in Adherence to Dual anTiplatelet Therapy Following Drug-Eluting Stent Implantation (WeChat), a Randomized Controlled Branch on Antiplatelet of RESCIND Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2019-01-14",
+            "completion_date": "2021-09-30",
+            "country": "China",
+            "enrollment": 760,
+            "brief_summary": "Few studies have attempt to improve DAPT adherence through social media. The investigators will explore the prevalence of DAPT discontinuation and prove the hypothesis that using social media will improve DAPT adherence among patients requiring DAPT following DES implantation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* aged ≥18 years\n* diagnosed CHD and underwent DES implantation\n* provide written informed consent\n\nExclusion Criteria:\n\n* pregnancy\n* malignant tumor or end-stage disease with a life expectancy of \\<1 year;\n* refusal to use social media\n* refusal to provide written informed con",
+            "endpoints": [
+              "Rate of Discontinuation of Dual Antiplatelet Drug"
+            ],
+            "sponsor": "Guangdong Provincial People's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03732066"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01992523",
+            "title": "Mojito Study (Mashed Or Just Integral Pill of TicagrelOr ? )",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2014-04",
+            "country": "Greece, Italy",
+            "enrollment": 82,
+            "brief_summary": "The aim of the Mashed Or Just Integral pill of TicagrelOr (MOJITO) study is to evaluate the superiority of Ticagrelor 180 mg LD mashed pill versus Ticagrelor 180 mg LD integral pill both orally administrated in decreasing residual platelet reactivity 1 hour after the administration among 70 patients with STEMI (ST segment elevation myocardial infarction) undergoing PPCI (primary percutaneous coronary intervention) with bivalirudin monotherapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients presenting within 12 hours from the onset of symptoms with STEMI\n* Informed, written consent\n\nExclusion Criteria:\n\n* Age \\< 18 years or Age \\> 75 years\n* Active bleeding; bleeding diathesis; coagulopathy\n* Increased risk of bradycardiac events\n* History of gastrointes",
+            "endpoints": [
+              "Residual Platelet Reactivity"
+            ],
+            "sponsor": "Careggi Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01992523"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07437456",
+            "title": "AF-CARD Registry (Real-World Clinical Practice Registry of Patients With Atrial Fibrillation)",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-09",
+            "completion_date": "2029-01",
+            "country": "Russia",
+            "enrollment": 3500,
+            "brief_summary": "Multicenter Non-Interventional Real-World Clinical Practice Registry of Patients with Atrial Fibrillation. The primary objective of the registry is an epidemiological assessment of the characteristics, clinical outcomes, and therapeutic approaches in patients with atrial fibrillation and a CHA₂DS₂-VASc score of no more than 2 for men and no more than 3 for women.",
+            "eligibility_criteria": "Retrospective Part The retrospective part will include patients who attended a physician consultation for atrial fibrillation three years ago and who met the inclusion criteria at that time.\n\nInclusion criteria for the retrospective part:\n\n* Male or female patients aged 18 to 64 years at the time of",
+            "endpoints": [
+              "Cumulative incidence of thromboembolic complications"
+            ],
+            "sponsor": "Eurasian Association of Therapists",
+            "url": "https://clinicaltrials.gov/study/NCT07437456"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01957527",
+            "title": "Offset of Ticagrelor's Effect on Endothelial Function as Assessed With Peripheral Arterial Tonometry (EndoPAT Assay)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2015-08",
+            "country": "Greece",
+            "enrollment": 30,
+            "brief_summary": "Ticagrelor administration, whose molecule resembles to adenosine, led to reduction in overall mortality and thrombotic cardiovascular (CV) events when directly compared to clopidogrel in the PLATO trial, implicating possible pleiotropic actions for the drug. It has been shown that ticagrelor increases adenosine concentration, by interfering with its red blood cells' uptake and by inducing the release of ATP which is then converted to adenosine. Recent studies in healthy volunteers and patients w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age above 18-80 years old\n2. Patients with Coronary Artery Disease receiving ticagrelor maintenance dose (MD) 90mg x 2 and are about to discontinue the treatment due to the completion of 1 year of dual antiplatelet therapy.\n3. Patients giving written Informed Consent.\n\nExclus",
+            "endpoints": [
+              "Reactive Hyperemia Index (RHI) on Day 0 and on Day 5"
+            ],
+            "sponsor": "University of Patras",
+            "url": "https://clinicaltrials.gov/study/NCT01957527"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01757483",
+            "title": "Effectiveness of Risk Minimisation Interventions for Ticagrelor in Canada",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2012-11",
+            "completion_date": "2014-12",
+            "country": "Canada",
+            "enrollment": 244,
+            "brief_summary": "This study is designed to evaluate the effectiveness of the current ticagrelor risk minimisation strategy in Canada through a prescriber knowledge and understanding (KAU) survey of selected important identified safety concerns (i.e., bleeding, dyspnea and drug interactions) and ASA dosage.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\- N/A (All prescribers will be contacted for participation)\n\nExclusion Criteria:\n\n\\- Participation in a previous wave of the survey.",
+            "endpoints": [
+              "KAU Questionnaire: Knowledge of the 4 key safety issues pertaining to ticagrelor (adequate or inadequate for each safety issue)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT01757483"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01385319",
+            "title": "Zotarolimus-eluting Endeavor Sprint Stent in Uncertain DES Candidates (ZEUS) Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2011-06",
+            "completion_date": "2017-12",
+            "country": "Italy, Hungary, Portugal, Switzerland",
+            "enrollment": 1606,
+            "brief_summary": "To prospectively evaluate in a multicenter open label trial whether the use of zotarolimus-eluting ENDEAVOR Stent implantation in patients at low restenosis or at high bleeding or thrombotic risk will decrease the incidence of 12-month major adverse cardiac events (MACE) including overall death, any myocardial infarction (MI) or any target vessel revascularization (TVR).",
+            "eligibility_criteria": "Inclusion Criteria:\n\nA) low restenosis risk based on angiographic findings defined as follows:\n\n----patients will be considered at low restenosis risk if no planned stent lower than 3.0 mm is intended to be implanted in lesions expect left main or vein graft\n\nB) high bleeding risk and/or presence of",
+            "endpoints": [
+              "MACE"
+            ],
+            "sponsor": "Università degli Studi di Ferrara",
+            "url": "https://clinicaltrials.gov/study/NCT01385319"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06853535",
+            "title": "Precision Antiplatelet Therapy Guided by Platelet Aggregation Function in Patients With Acute Ischemic STROKE",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-05-23",
+            "completion_date": "2027-12-31",
+            "country": "China",
+            "enrollment": 5138,
+            "brief_summary": "The objective of this clinical trial is to evaluate the efficacy and safety of platelet aggregation function - guided precision anti - platelet therapy in patients with acute cerebral infarction. The main question it aims to answer is: among the cerebral infarction patients with possible clopidogrel resistance detected by platelet aggregation function tests, what is the efficacy and safety of using ticagrelor to replace the clopidogrel treatment regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years old.\n2. Patients diagnosed with acute non-disabling ischaemic stroke or transient ischaemic attack (TIA) with moderate to high stroke risk in accordance with the WHO diagnostic criteria, defined as follows:\n\n   * Acute non-disabling ischaemic stroke: NIHSS scor",
+            "endpoints": [
+              "Recurrent stroke (including ischemic and hemorrhagic stroke) within 90 days"
+            ],
+            "sponsor": "Sichuan Provincial People's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06853535"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04001374",
+            "title": "Platelet Sub-study of the TWILIGHT Trial",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-06-28",
+            "completion_date": "2018-02-28",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "TWILIGHT study is a multicenter RCT comparing treatment with ticagrelor alone versus ticagrelor plus aspirin in high-risk patients after PCI. All patients will receive DAPT (ticagrelor plus aspirin) for the initial 3 months post-PCI and then be randomized to either Ticagrelor alone OR Ticagrelor plus Aspirin DAPT.\n\nTo investigate the pharmacodynamic effects of the two treatments in this trial, a 'Platelet Sub-study' will be conducted only at the Mount Sinai Medical Center. The sub-study will rec",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients enrolled in the TWILIGHT trial:\n\nClinical Inclusion Criteria (must meet at least one):\n\n* Adult patients ≥ 65 years of age\n* Troponin (+) acute coronary syndrome\n* Female gender\n* Established vascular disease defined as previous MI, documented PAD or CAD/PAD revasculari",
+            "endpoints": [
+              "Thrombus size (Badimon Chamber)"
+            ],
+            "sponsor": "Icahn School of Medicine at Mount Sinai",
+            "url": "https://clinicaltrials.gov/study/NCT04001374"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01947959",
+            "title": "A Pharmacoepidemiological Study of Rivaroxaban Use and Potential Adverse Outcomes in Routine Clinical Pratice in Germany",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-12-22",
+            "completion_date": "2020-09-30",
+            "country": "Germany",
+            "enrollment": 665533,
+            "brief_summary": "This prospective cohort study will provide information about: characteristics of Rivaroxaban use in patients who are prescribed Rivaroxaban for the first time compared to patients who are prescribed Phenprocoumon for the first time, the occurrence of intracranial haemorrhage, gastrointestinal and urogenital bleeding, and the occurrence of non-infective liver disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All male and female patients who have been prescribed for the first time either Rivaroxaban or standard of care from the date of market authorization of rivaroxaban to Dec 31, 2017\n\nExclusion Criteria:\n\n* Patients who have any record of being dispensed their index drug in the ",
+            "endpoints": [
+              "Descriptive analysis of demographic and clinical characteristics of patients who are prescribed oral rivaroxaban for the first time in comparison with those who are prescribed standard of care for the first time",
+              "Characteristics of rivaroxaban use in comparison with standard of care",
+              "Safety: occurrence of intracranial haemorrhage leading to hospitalization among users of rivaroxaban in comparison with individuals receiving current standard of care"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT01947959"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04702113",
+            "title": "Evaluating Pharmacogenomic Variants for Cardiology Therapeutics: the Lighthouse Pilot (Association Between Genetic Variant Scores and P2Y12 Inhibitor Effects)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-12-03",
+            "completion_date": "2023-07-27",
+            "country": "United States",
+            "enrollment": 300,
+            "brief_summary": "Cipherome's Lighthouse is a clinical decision support tool that incorporates a patient's pharmacogenetic information to determine therapeutic strategy, including determining appropriate dosage or assessing the likelihood of toxicity of a therapeutic regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects over 18 years of age, who are:\n* On clopidogrel, prasugrel or ticagrelor after percutaneous stent\n* Completed informed consent\n\nExclusion Criteria:\n\n* Failure to provide informed consent.\n* Lost to follow-up prior to 60 days.",
+            "endpoints": [
+              "Evaluation of aggregate costs"
+            ],
+            "sponsor": "Cipherome, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04702113"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02298088",
+            "title": "Phase III, Randomized, International, Multicenter, Open Label, With Blinded Adjudication of Outcomes, Non-Inferiority Clinical Trial to Explore the Safety and Efficacy of Ticagrelor Compared With Clopidogrel in Patients With Acute Coronary Syndrome With ST Elevation Treated With Pharmacological Thrombolysis.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-08",
+            "completion_date": "2019-01",
+            "country": "Australia, Colombia, Canada, New Zealand, Brazil, Argentina, China, Peru, Russia, Ukraine",
+            "enrollment": 3799,
+            "brief_summary": "Administration of Ticagrelor in patients with ST elevation myocardial infarction treated with pharmacological thrombolysis",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients of both sexes aged ≥ 18 years and \\< 75 years with ACS with ST segment elevation with onset during the previous 24 hours, documented by cardiac ischemic symptoms due to atherosclerosis of \\> 10 minutes duration at rest, treated with pharmacological thrombolysis\n* Fibr",
+            "endpoints": [
+              "Safety Outcome as a measure of Time to TIMI-defined first major bleeding"
+            ],
+            "sponsor": "Hospital do Coracao",
+            "url": "https://clinicaltrials.gov/study/NCT02298088"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07268859",
+            "title": "Effect of Fan Application in Preventing Ticagrelor-associated Dyspnea in Patients With Acute Coronary Syndrome.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-03-15",
+            "completion_date": "2026-01-30",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 110,
+            "brief_summary": "This study will be conducted in the coronary intensive care unit of Dr. Siyami Ersek Chest, Heart and Vascular Surgery Training and Research Hospital. It aims to investigate the effect of hand fan therapy on ticagrelor-associated dyspnea in patients receiving ticagrelor.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Between the ages of 18 and 65,\n* No severe hearing and vision problems,\n* Can speak and understand Turkish,\n* Easy to communicate with,\n* First-time sufferer of acute coronary syndrome (ACS) for the first time,\n* Decided to start ticagrelor therapy,\n* Able to adapt to treatmen",
+            "endpoints": [
+              "Incidence of ticagrelor-associated dyspnea"
+            ],
+            "sponsor": "Acibadem University",
+            "url": "https://clinicaltrials.gov/study/NCT07268859"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01660373",
+            "title": "Ticagrelor vs. Tirofiban, Comparison of Anti-platelet Effects in Patients With Non-ST Elevation Acute Coronary Syndrome(TE-CLOT Trial : Ticagrelor's Effect for CLOT Prevention) ; A Single Center, Open-label Randomized Controlled Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2012-08",
+            "completion_date": "2013-08",
+            "country": "South Korea",
+            "enrollment": 100,
+            "brief_summary": "This is a single-center, open-label prospective randomized pharmacodynamic investigation of two anti platelet regimens in patients who are planned to undergo PCI for non-ST segment elevation acute coronary syndrome(NSTE-ACS) for 24 hours\n\n1. Ticagrelor : loading dose(180mg) followed by maintenance dose(90mg bid)\n2. Tirofiban : 0.4ug/kg/min for 30min followed by 0.1ug/kg/min\n\n   * both agents will be given on top of aspirin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with recent or current ischemic symptoms at the time of randomization will be eligible if 2 of the following criteria are met: ST-T change indicating ischemia; a positive test of biomarker indication myocardial necrosis; or one of several risk factors(age ≥60 years\n* ",
+            "endpoints": [
+              "Percentage IPA after 20µmol/l ADP at 2 hour"
+            ],
+            "sponsor": "Pusan National University Yangsan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01660373"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05283356",
+            "title": "Single Antiplatelet Treatment With Ticagrelor or Aspirin After Transcatheter Aortic Valve Implantation: Multicenter Randomized Clinical Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2022-01-21",
+            "completion_date": "2025-06-30",
+            "country": "Spain",
+            "enrollment": 1206,
+            "brief_summary": "The optimal pharmacological therapy after transcatheter aortic valve implantation (TAVI) to prevent valve thrombosis and reduce thromboembolic complications without significantly increasing the risk of bleeding is not yet fully defined and constitutes an important unmet clinical need. Recently, single antiplatelet therapy (SAPT) with Aspirin has been increasingly adopted to avoid bleeding early after TAVI compared with dual antiplatelet therapy. However, TAVI population is affected by a diversit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provision of informed consent prior to any study specific procedures.\n2. Adult patients (more than 18 years) with ability to understand and accept the participation in the clinical trial.\n3. Patients with degenerative symptomatic severe aortic stenosis (AS) accepted for TAVI ",
+            "endpoints": [
+              "Safety and efficacy of Ticagrelor vs Aspirin in the incidence of NACE at 12 months after TAVI."
+            ],
+            "sponsor": "Fundacin Biomedica Galicia Sur",
+            "url": "https://clinicaltrials.gov/study/NCT05283356"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02505399",
+            "title": "TIcagrelor in Rotational Atherectomy to Reduce TROPonin Enhancement: the TIRATROP Study, a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-11",
+            "completion_date": "2018-05-30",
+            "country": "France",
+            "enrollment": 180,
+            "brief_summary": "Rotational atherectomy (RA) prior to angioplasty is the reference treatment for highly calcified atherosclerotic coronary lesions. It aims at fragmenting calcium deposits into microscopic particulates to allow less hazardous coronary revascularization and stenting. The main drawback associated with the procedure is the subsequent enhancement of platelet aggregation which promotes the distal embolization of micro-thrombi and atherosclerotic fragments. In order to limit these complications, a doub",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Stable coronary patient, or patient presenting with a non ST-elevation acute coronary syndrome without troponin elevation, or with troponin back to normal,\n* Patient treated with a combination of Aspirin + Clopidogrel before hospitalization at the study center,\n* Patient with",
+            "endpoints": [
+              "area under the curve corresponding to troponin level as a function of time"
+            ],
+            "sponsor": "University Hospital, Toulouse",
+            "url": "https://clinicaltrials.gov/study/NCT02505399"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05858918",
+            "title": "Evaluation the Effect of Ticagrelor and Clopidogrel in Stable Coronary Syndrome A Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-10-01",
+            "completion_date": "2023-03-01",
+            "country": "Iran",
+            "enrollment": 476,
+            "brief_summary": "Elective PCI were included in the study. Patients were randomized into two different groups. One group took ASA 80 mg once daily and clopidogrel 75 mg once a day, and the other one took ASA 80 mg once a day and ticagrelor 90 mg twice a day. After six months of close follow-up, patients were asked to give a score to their dyspnea and asked about the major advance cardiovascular events ( MACE)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Experiencing elective percutaneous coronary intervention (PCI).\n\nExclusion Criteria:\n\n* Patients diagnosed with hypersensitivity to either ticagrelor or clopidogrel\n* Active pathological bleeding\n* Patients who consumed anticoagulants in the course of their medical therapy",
+            "endpoints": [
+              "dyspnoea",
+              "Number of patients with major adverse cardiovascular events"
+            ],
+            "sponsor": "Shiraz University of Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT05858918"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02699008",
+            "title": "High On-treatment Platelet Reactivity to Adenosine Diphosphate Identified by Multiple Platelet Function Assay Guide to Modify Anti-platelet Strategy in Patients Undergoing Percutaneous Coronary Intervention",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2014-01",
+            "completion_date": "2015-10",
+            "country": "China",
+            "enrollment": 477,
+            "brief_summary": "High on-treatment platelet reactivity to adenosine diphosphate was a important reason to cause ischemic events in antiplatelet therapy. Using single testing to definite HPR may miss the \"true HPR\" or over estimate HPR, which may lead to randomized trials failed. It is not known whether combined multiple platelet function testing could assist to ensure\"ture\"HPR and improve clinical outcomes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ACS patients（UAP;USTEMI,STEMI）\n* Undergoing PCI\n* Oral antiplatelet therapy\n\nExclusion Criteria:\n\n* Stable CAD",
+            "endpoints": [
+              "Major adverse cardiovascular events"
+            ],
+            "sponsor": "Wuhan Asia Heart Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02699008"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02288260",
+            "title": "RuSsian RegisTry of Acute CoronaRy SyndromE TreAtMent and Approach in Dual Antiplatelet Therapy (STREAM)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-04-13",
+            "completion_date": "2018-07-29",
+            "country": "Russia",
+            "enrollment": 5470,
+            "brief_summary": "This NIS is a multi-centre, observational, descriptive, cross-sectional study including all consecutive patients with Acute Coronary Syndrome (ACS) and a single-arm, prospective, longitudinal cohort study which will include patients hospitalized for ACS and who are with ticagrelor on discharge from hospital.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Part A,B: Subjects whose data have been entered in the Russian ACS Registry\n* PART A,B: Discharged from hospital after MI with ST-segment elevation (STEMI), MI NST segment elevation (NSTEMI) or Unstable angina. Hospitalized during 24 hours of ACS symptoms onset\n* Part B: Patie",
+            "endpoints": [
+              "Proportion of patients receiving different types of short-term antithrombotic treatment according to different type of acute coronary syndrome (STEMI - ST-elevation myocardial infarction, NSTE(Non-ST-elevation)-ACS and Unstable Angina). (Part A)",
+              "Proportion of patients taking ticagrelor with cardiovascular (CV) events after discharge from hospital depending on DAT (Dual Antiplatelet Therapy) duration. (Part B)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT02288260"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06691191",
+            "title": "Switching From Dual Antiplatelet Therapy to Monotherapy With Potent P2Y12 Inhibitors: Pharmadodynamic Comparison Between Prasugrel and Ticagrelor Monotherapy. The Switching Antiplatelet -7 (SWAP-7) Study",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-01-08",
+            "completion_date": "2026-12-31",
+            "country": "United States",
+            "enrollment": 48,
+            "brief_summary": "Ticagrelor currently represents the most tested and commonly used P2Y12 inhibitor monotherapy following percutaneous coronary intervention. The purpose of this study is to conduct a head-to-head comparison on the pharmacodynamic efficacy of ticagrelor-based and prasugrel-based single antiplatelet therapy. To determine if the PD profiles of ticagrelor- and prasugrel-based SAPT are comparable, we aim to conduct a non-inferiority study between the two strategies.",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. Patients on DAPT with aspirin plus prasugrel 10 mg or ticagrelor 90 mg bid as per standard of care at least 90 days after PCI.\n2. Age between 18 and 75 years old\n3. Able to provide written informed consent\n\nExclusion criteria:\n\n1. Prior history of stent thrombosis\n2. PCI with",
+            "endpoints": [
+              "Platelet reactivity measured by VerifyNow"
+            ],
+            "sponsor": "University of Florida",
+            "url": "https://clinicaltrials.gov/study/NCT06691191"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02539160",
+            "title": "Impact of Chronic Kidney Disease on the Pharmacodynamic and Pharmacokinetic Effects of Ticagrelor in Patients With Diabetes Mellitus and Coronary Artery Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-02",
+            "completion_date": "2020-06-17",
+            "country": "United States",
+            "enrollment": 101,
+            "brief_summary": "Patients with diabetes mellitus (DM) are at increased risk of atherothrombotic events. Importantly, DM is a key risk factor for the development of chronic kidney disease (CKD), which further enhances atherothrombotic risk. Clopidogrel is the most widely used platelet P2Y12 receptor inhibitor. However, despite its clinical benefit, patients with DM and CKD frequently experience recurrent atherothrombotic events. Ticagrelor is an oral, reversible, non-competitive P2Y12 receptor inhibitor with more",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\>18 years.\n* Type 2 DM, defined according to World Health Organization (WHO) definition, on treatment with oral hypoglycemic agents and/or insulin for at least 2 months without any changes in treatment regimen;\n* Angiographically documented CAD.\n* On treatment with low-do",
+            "endpoints": [
+              "Platelet Reactivity Measured by Vasodilator Stimulated Phosphoprotein (VASP) Platelet Reactivity Index (PRI %)"
+            ],
+            "sponsor": "University of Florida",
+            "url": "https://clinicaltrials.gov/study/NCT02539160"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06013020",
+            "title": "Safety and Efficacy of Century Clot-Guided Prophylactic Rivaroxaban Therapy for Post ST-Segment Elevation Myocardial Infarction Complicating Left Ventricular Thrombus Compared With Conventional Antiplatelet Therapy",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2024-04-01",
+            "completion_date": "2027-12-31",
+            "country": "China",
+            "enrollment": 374,
+            "brief_summary": "To manage the ST-segment elevation myocardial infarction (STEMI) caused by plaque rupture, triggers platelet activation/aggregation and thrombin generation, requires dual (platelet and coagulation) pathway inhibition. However, triple antithrombotic therapy with standard dual antiplatelet therapy (DAPT) and oral anticoagulant (OAC) in the STEMI setting is a challenge, since that increase in potential risk of bleeding.\n\nAlthough the incidence of left ventricular thrombus (LVT) formation after STEM",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ischemic chest discomfort for at least 30 minutes, with at least 1-mm (0.1-mv) ST-segment elevation in anterior leads on a standard 12-lead electrocardiogram.\n* Patients provide written informed consent prior to enrollment.\n\nExclusion Criteria:\n\n* Intracranial, gastrointestina",
+            "endpoints": [
+              "The incidence of left ventricular thrombus (LVT) formation.",
+              "The incidence of clinically significant bleeding according to International Society on Thrombosis and Hemostasis (ISTH) criteria."
+            ],
+            "sponsor": "Zunyi Medical College",
+            "url": "https://clinicaltrials.gov/study/NCT06013020"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06318481",
+            "title": "Twice a Day Clopidogrel vs Ticagrelor in Reducing Major Cardiac Events in Patients With Acute STEMI Undergoing Primary Percutaneous Intervention- TADCLOT- a Double Blind Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2024-02-19",
+            "completion_date": "2025-02-20",
+            "country": "Pakistan",
+            "enrollment": 2200,
+            "brief_summary": "Compare the safety and efficacy of a twice-daily Clopidogrel regimen vs. Ticagrelor in reducing major adverse events in patients undergoing primary PCI in a double-blind randomized controlled trial.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ST-segment elevation ≥1 mm in ≥ 2 contiguous ECG leads or New or presumably New left bundle branch block\n* Age ≥18 years\n* Written informed consent\n\nExclusion Criteria:\n\n* Patients with STEMI secondary to stent thrombosis or index event being a complication of PCI within 30 da",
+            "endpoints": [
+              "Evaluation of efficacy and safety"
+            ],
+            "sponsor": "National Institute of Cardiovascular Diseases, Pakistan",
+            "url": "https://clinicaltrials.gov/study/NCT06318481"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04570345",
+            "title": "3 Months Versus 12 Months Dual Antiplatelet Therapy After Second Generation Sirolimus Stent Implantation in ST-elevation Myocardial Infarction(BULK-STEMI)",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2021-01-01",
+            "completion_date": "2022-08",
+            "country": "South Korea",
+            "enrollment": 1002,
+            "brief_summary": "To compare the clinical outcomes of dual antiplatelet therapy with aspirin and P2Y12 receptor inhibitor vs. ticagrelor monotherapy at 3 months after PCI in patients with ST-elevation myocardial infarction.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥ 19 years old\n* Patients who received new generation sirolimus-eluting (Osiro®) stent implantation for treating ACS\n* Provision of informed consent\n\nExclusion Criteria:\n\n* Age \\> 80 years\n* Pregnant women or women with potential childbearing\n* Life expectancy \\< 1 ye",
+            "endpoints": [
+              "NACE: net clinical adverse event",
+              "Major adverse cardiac and cerebrovaascular event(MACCE)",
+              "Major bleeding (BARC type 3,5)"
+            ],
+            "sponsor": "Dong-A University",
+            "url": "https://clinicaltrials.gov/study/NCT04570345"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02725099",
+            "title": "Chewing Versus Traditional Oral Administration of Ticagrelor in ST-elevation Myocardial Infarction Patients - A Platelet Reactivity Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-05",
+            "completion_date": "2017-01",
+            "country": "Israel",
+            "enrollment": 50,
+            "brief_summary": "To examine chewing versus traditional oral administration of ticagrelor in ST-elevation Myocardial Infarction (STEMI) patients on platelet reactivity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients presenting with STEMI\n2. Informed, written consent\n\nExclusion Criteria:\n\n1. Age \\< 18 years or Age \\> 90 years\n2. Active bleeding; bleeding diathesis; coagulopathy\n3. Increased risk of bradycardic events\n4. History of gastrointestinal or genitourinary bleeding \\<2 mo",
+            "endpoints": [
+              "Residual platelet reactivity by Platelet Reactivity Units (PRU) VerifyNow 1 hour after ticagrelor LD"
+            ],
+            "sponsor": "Sheba Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02725099"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31475798",
+            "title": "Ticagrelor in Patients with Stable Coronary Disease and Diabetes.",
+            "abstract": "Patients with stable coronary artery disease and diabetes mellitus who have not had a myocardial infarction or stroke are at high risk for cardiovascular events. Whether adding ticagrelor to aspirin improves outcomes in this population is unclear.",
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "authors": [
+              "Steg P Gabriel",
+              "Bhatt Deepak L",
+              "Simon Tabassome",
+              "Fox Kim",
+              "Mehta Shamir R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aspirin",
+              "Coronary Artery Disease",
+              "Diabetes Mellitus, Type 2",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies",
+              "Hemorrhage",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31475798/"
+          },
+          {
+            "pmid": "40888737",
+            "title": "Ticagrelor and Aspirin or Aspirin Alone after Coronary Surgery for Acute Coronary Syndrome.",
+            "abstract": "Patients benefit from antiplatelet therapy after coronary-artery bypass grafting (CABG) for an acute coronary syndrome. Whether the addition of ticagrelor to aspirin, as compared with aspirin alone, further reduces the risk of adverse cardiovascular outcomes is unclear.",
+            "journal": "The New England journal of medicine",
+            "year": "2025",
+            "authors": [
+              "Jeppsson Anders",
+              "James Stefan",
+              "Moller Christian H",
+              "Malm Carl Johan",
+              "Dalén Magnus"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Video-Audio Media"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Acute Coronary Syndrome",
+              "Aspirin",
+              "Coronary Artery Bypass",
+              "Hemorrhage",
+              "Kaplan-Meier Estimate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40888737/"
+          },
+          {
+            "pmid": "34244703",
+            "title": "Efficacy and Safety of Ticagrelor and Aspirin in Patients With Moderate Ischemic Stroke: An Exploratory Analysis of the THALES Randomized Clinical Trial.",
+            "abstract": "Prior trials of dual antiplatelet therapy excluded patients with moderate ischemic stroke. These patients were included in the Acute Stroke or Transient Ischaemic Attack Treated With Ticagrelor and ASA for Prevention of Stroke and Death (THALES) trial, but results have not been reported separately, raising concerns about safety and efficacy in this subgroup.",
+            "journal": "JAMA neurology",
+            "year": "2021",
+            "authors": [
+              "Wang Yongjun",
+              "Pan Yuesong",
+              "Li Hao",
+              "Amarenco Pierre",
+              "Denison Hans"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aspirin",
+              "Dual Anti-Platelet Therapy",
+              "Female",
+              "Humans",
+              "Ischemic Stroke",
+              "Male",
+              "Middle Aged",
+              "Patient Acuity",
+              "Platelet Aggregation Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34244703/"
+          },
+          {
+            "pmid": "37587580",
+            "title": "Bleeding and Ischemic Risks of Ticagrelor Monotherapy After Coronary Interventions.",
+            "abstract": "In TWILIGHT (Ticagrelor With Aspirin or Alone in High-Risk Patients After Coronary Intervention), among high-risk patients undergoing percutaneous coronary intervention (PCI), ticagrelor monotherapy vs continuation of dual antiplatelet therapy (DAPT) with aspirin and ticagrelor after completing a 3-month course of DAPT was associated with reduced bleeding, without an increase in ischemic events.",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2023",
+            "authors": [
+              "Mendieta Guiomar",
+              "Mehta Shamir",
+              "Baber Usman",
+              "Angiolillo Dominick J",
+              "Briguori Carlo"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aspirin",
+              "Heart",
+              "Hemorrhage",
+              "Percutaneous Coronary Intervention",
+              "Platelet Aggregation Inhibitors",
+              "Ticagrelor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37587580/"
+          },
+          {
+            "pmid": "34708996",
+            "title": "Ticagrelor versus Clopidogrel in CYP2C19 Loss-of-Function Carriers with Stroke or TIA.",
+            "abstract": "Comparisons between ticagrelor and clopidogrel for the secondary prevention of stroke in CYP2C19 loss-of-function carriers have not been extensively performed.",
+            "journal": "The New England journal of medicine",
+            "year": "2021",
+            "authors": [
+              "Wang Yongjun",
+              "Meng Xia",
+              "Wang Anxin",
+              "Xie Xuewei",
+              "Pan Yuesong"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aspirin",
+              "Clopidogrel",
+              "Cytochrome P-450 CYP2C19",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34708996/"
+          },
+          {
+            "pmid": "33877270",
+            "title": "Oral Antiplatelet Therapy After Acute Coronary Syndrome: A Review.",
+            "abstract": "Acute coronary syndrome (ACS) is a major cause of morbidity and mortality in the United States with an annual incidence of approximately 1 million. Dual antiplatelet therapy (DAPT), consisting of aspirin and a P2Y12 inhibitor (clopidogrel, ticagrelor, or prasugrel) reduces cardiovascular event rates after ACS.",
+            "journal": "JAMA",
+            "year": "2021",
+            "authors": [
+              "Kamran Hassan",
+              "Jneid Hani",
+              "Kayani Waleed T",
+              "Virani Salim S",
+              "Levine Glenn N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Coronary Syndrome",
+              "Administration, Oral",
+              "Aspirin",
+              "Cardiovascular Diseases",
+              "Clopidogrel",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Platelet Aggregation Inhibitors",
+              "Prasugrel Hydrochloride",
+              "Purinergic P2Y Receptor Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33877270/"
+          },
+          {
+            "pmid": "36891903",
+            "title": "Platelet-Derived MicroRNAs Regulate Cardiac Remodeling After Myocardial Ischemia.",
+            "abstract": "Platelets can infiltrate ischemic myocardium and are increasingly recognized as critical regulators of inflammatory processes during myocardial ischemia and reperfusion (I/R). Platelets contain a broad repertoire of microRNAs (miRNAs), which, under certain conditions such as myocardial ischemia, may be transferred to surrounding cells or released into the microenvironment. Recent studies could demonstrate that platelets contribute substantially to the circulating miRNA pool holding the potential for so far undiscovered regulatory functions. The present study aimed to determine the role of platelet-derived miRNAs in myocardial injury and repair following myocardial I/R.",
+            "journal": "Circulation research",
+            "year": "2023",
+            "authors": [
+              "Schütte Jan Philipp",
+              "Manke Mailin-Christin",
+              "Hemmen Katherina",
+              "Münzer Patrick",
+              "Schörg Barbara F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Mice",
+              "Animals",
+              "Blood Platelets",
+              "MicroRNAs",
+              "Ventricular Remodeling",
+              "Myocardial Reperfusion Injury",
+              "Myocardial Ischemia",
+              "Myocardial Infarction",
+              "Coronary Artery Disease",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36891903/"
+          },
+          {
+            "pmid": "31556978",
+            "title": "Ticagrelor with or without Aspirin in High-Risk Patients after PCI.",
+            "abstract": "Monotherapy with a P2Y12 inhibitor after a minimum period of dual antiplatelet therapy is an emerging approach to reduce the risk of bleeding after percutaneous coronary intervention (PCI).",
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "authors": [
+              "Mehran Roxana",
+              "Baber Usman",
+              "Sharma Samin K",
+              "Cohen David J",
+              "Angiolillo Dominick J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aspirin",
+              "Coronary Disease",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Hemorrhage",
+              "Humans",
+              "Kaplan-Meier Estimate",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31556978/"
+          },
+          {
+            "pmid": "29893152",
+            "title": "Ticagrelor for the prevention of ischemic events in patients with prior myocardial infarction and peripheral artery disease.",
+            "abstract": "Cardiovascular disease (CVD) is the main cause of death in the world. Coronary artery disease (CAD) is the most common form of CVD presentation, but the prevalence of peripheral artery disease (PAD) is increasing. Patients with polyvascular disease comprise a very high-risk population that has been infrequently studied. Areas covered: The authors review the current evidence of the efficacy and safety of ticagrelor in the setting of acute coronary syndrome and stable patients post-MI with and without PAD and summarize its pharmacokinetics, pharmacodynamics, and regulatory issues. Expert opinion: Randomized studies showed that ticagrelor is superior to clopidogrel in patients with acute coronary syndromes, and is superior to placebo in the chronic phase (>1 year) post-myocardial infarction. Sub-analyses of these studies suggest that patients with myocardial infarction and PAD, compared to patients without these characteristics, may have greater benefit with ticagrelor. Nonetheless, the g",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2018",
+            "authors": [
+              "Nicolau José C",
+              "Baracioli Luciano M",
+              "Giugliano Robert P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Coronary Syndrome",
+              "Adenosine",
+              "Government Regulation",
+              "Half-Life",
+              "Hemorrhage",
+              "Humans",
+              "Myocardial Infarction",
+              "Peripheral Arterial Disease",
+              "Purinergic P2Y Receptor Antagonists",
+              "Ticagrelor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29893152/"
+          },
+          {
+            "pmid": "35727586",
+            "title": "Time Course for Benefit and Risk With Ticagrelor and Aspirin in Individuals With Acute Ischemic Stroke or Transient Ischemic Attack Who Carry CYP2C19 Loss-of-Function Alleles: A Secondary Analysis of the CHANCE-2 Randomized Clinical Trial.",
+            "abstract": "Dual antiplatelet therapy (DAPT) with ticagrelor and aspirin has been found to be effective for secondary prevention after minor ischemic stroke or transient ischemic attack (TIA) in individuals who carry CYP2C19 loss-of-function (LOF) alleles; however, uncertainties remain about the time course of benefit and risk with ticagrelor and aspirin in these patients.",
+            "journal": "JAMA neurology",
+            "year": "2022",
+            "authors": [
+              "Pan Yuesong",
+              "Meng Xia",
+              "Jin Aoming",
+              "Johnston S Claiborne",
+              "Li Hao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alleles",
+              "Aspirin",
+              "Clopidogrel",
+              "Cytochrome P-450 CYP2C19",
+              "Drug Therapy, Combination",
+              "Female",
+              "Hemorrhage",
+              "Humans",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35727586/"
+          },
+          {
+            "pmid": "25773268",
+            "title": "Long-term use of ticagrelor in patients with prior myocardial infarction.",
+            "abstract": "The potential benefit of dual antiplatelet therapy beyond 1 year after a myocardial infarction has not been established. We investigated the efficacy and safety of ticagrelor, a P2Y12 receptor antagonist with established efficacy after an acute coronary syndrome, in this context.",
+            "journal": "The New England journal of medicine",
+            "year": "2015",
+            "authors": [
+              "Bonaca Marc P",
+              "Bhatt Deepak L",
+              "Cohen Marc",
+              "Steg Philippe Gabriel",
+              "Storey Robert F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine",
+              "Aged",
+              "Aspirin",
+              "Cardiovascular Diseases",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Drug Therapy, Combination",
+              "Female",
+              "Hemorrhage",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25773268/"
+          },
+          {
+            "pmid": "38899464",
+            "title": "CYP2C19 Genetic Testing for Oral P2Y12 Inhibitor Therapy: A Scientific Statement From the American Heart Association.",
+            "abstract": "There is significant variability in the efficacy and safety of oral P2Y12 inhibitors, which are used to prevent ischemic outcomes in common diseases such as coronary and peripheral arterial disease and stroke. Clopidogrel, a prodrug, is the most used oral P2Y12 inhibitor and is activated primarily after being metabolized by a highly polymorphic hepatic cytochrome CYP2C219 enzyme. Loss-of-function genetic variants in CYP2C219 are common, can result in decreased active metabolite levels and increased on-treatment platelet aggregation, and are associated with increased ischemic events on clopidogrel therapy. Such patients can be identified by CYP2C19 genetic testing and can be treated with alternative therapy. Conversely, universal use of potent oral P2Y12 inhibitors such as ticagrelor or prasugrel, which are not dependent on CYP2C19 for activation, has been recommended but can result in increased bleeding. Recent clinical trials and meta-analyses have demonstrated that a precision medici",
+            "journal": "Circulation",
+            "year": "2024",
+            "authors": [
+              "Pereira Naveen L",
+              "Cresci Sharon",
+              "Angiolillo Dominick J",
+              "Batchelor Wayne",
+              "Capers Quinn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cytochrome P-450 CYP2C19",
+              "Purinergic P2Y Receptor Antagonists",
+              "Administration, Oral",
+              "American Heart Association",
+              "United States",
+              "Platelet Aggregation Inhibitors",
+              "Clopidogrel",
+              "Genetic Testing",
+              "Prasugrel Hydrochloride"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38899464/"
+          },
+          {
+            "pmid": "37429630",
+            "title": "Impact of body mass index on efficacy and safety of ticagrelor versus clopidogrel in patients with minor stroke or transient ischemic attack.",
+            "abstract": "Body mass index (BMI) may affect the response to platelet P2Y12 receptor inhibitors. We aimed to explore whether BMI influenced the efficacy and safety of ticagrelor and clopidogrel for secondary prevention of minor ischemic stroke or transient ischemic attack (TIA) among patients enrolled in the CHANCE-2 (Ticagrelor or Clopidogrel with Aspirin in High-Risk Patients with Acute Nondisabling Cerebrovascular Events II) trial.",
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2023",
+            "authors": [
+              "Zhang Jia",
+              "Wang Anxin",
+              "Tian Xue",
+              "Meng Xia",
+              "Xie Xuewei"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Clopidogrel",
+              "Ticagrelor",
+              "Ischemic Attack, Transient",
+              "Body Mass Index",
+              "Stroke",
+              "Platelet Aggregation Inhibitors",
+              "Aspirin",
+              "Hemorrhage",
+              "Ischemic Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37429630/"
+          },
+          {
+            "pmid": "33823462",
+            "title": "Safety of Ticagrelor in Moderate and Severe Acute Ischemic Stroke: A Single-Center Retrospective Review.",
+            "abstract": "Ticagrelor may be superior to aspirin after minor ischemic stroke or TIA, particularly in patients with symptomatic atherosclerotic disease. However, there may be an increased risk of intracerebral hemorrhage in patients with moderate to severe ischemic stroke, and ticagrelor has not been studied in this patient population. Therefore, we sought to evaluate the safety of ticagrelor after moderate or severe ischemic stroke.",
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2021",
+            "authors": [
+              "English Stephen W",
+              "Landzberg David R",
+              "Bhatt Nirav R",
+              "Frankel Michael R",
+              "Navalkele Digvijaya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Cerebral Hemorrhage",
+              "Epistaxis",
+              "Female",
+              "Gastrointestinal Hemorrhage",
+              "Hematuria",
+              "Humans",
+              "Ischemic Stroke",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33823462/"
+          },
+          {
+            "pmid": "30166073",
+            "title": "Ticagrelor plus aspirin for 1 month, followed by ticagrelor monotherapy for 23 months vs aspirin plus clopidogrel or ticagrelor for 12 months, followed by aspirin monotherapy for 12 months after implantation of a drug-eluting stent: a multicentre, open-label, randomised superiority trial.",
+            "abstract": "We hypothesised that ticagrelor, in combination with aspirin for 1 month, followed by ticagrelor alone, improves outcomes after percutaneous coronary intervention compared with standard antiplatelet regimens.",
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "authors": [
+              "Vranckx Pascal",
+              "Valgimigli Marco",
+              "Jüni Peter",
+              "Hamm Christian",
+              "Steg Philippe Gabriel"
+            ],
+            "pub_types": [
+              "Equivalence Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine",
+              "Aged",
+              "Aspirin",
+              "Clopidogrel",
+              "Coronary Angiography",
+              "Coronary Artery Disease",
+              "Drug Therapy, Combination",
+              "Drug-Eluting Stents",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30166073/"
+          },
+          {
+            "pmid": "32066489",
+            "title": "Ticagrelor and preconditioning in patients with stable coronary artery disease (TAPER-S): a randomized pilot clinical trial.",
+            "abstract": "Ticagrelor is a reversibly binding, direct-acting, oral, P2Y12 antagonist used for the prevention of atherothrombotic events in patients with coronary artery disease (CAD). Ticagrelor blocks adenosine reuptake through the inhibition of equilibrative nucleoside transporter 1 (ENT-1) on erythrocytes and platelets, thereby facilitating adenosine-induced physiological responses such as an increase in coronary blood flow velocity. Meanwhile, adenosine plays an important role in triggering ischemic preconditioning through the activation of the A1 receptor. Therefore, an increase in ticagrelor-enhanced adenosine bioavailability may confer beneficial effects through mechanisms related to preconditioning activation and improvement of coronary microvascular dysfunction.",
+            "journal": "Trials",
+            "year": "2020",
+            "authors": [
+              "D'Amario D",
+              "Restivo A",
+              "Leone A M",
+              "Vergallo R",
+              "Migliaro S"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Clopidogrel",
+              "Coronary Artery Disease",
+              "Coronary Vessels",
+              "Female",
+              "Fractional Flow Reserve, Myocardial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32066489/"
+          },
+          {
+            "pmid": "33385541",
+            "title": "Ticagrelor as compared to conventional antiplatelet agents in coronary artery disease: A comprehensive meta-analysis of 15 randomized trials.",
+            "abstract": "Ticagrelor has been shown to offer potential outcome benefits in acute coronary syndromes and for the long-term cardiovascular prevention, reducing mortality and the recurrence of ischemic events. However, data from real-world and recent meta-analyses have suggested that the anti-ischemic benefits of ticagrelor could be lower than expected, potentially outweighed by an increased risk of bleeding complications. Therefore, the aim of the present meta-analysis was to evaluate the prognostic impact of ticagrelor as compared to the conventional antiplatelet agents (ASA and clopidogrel) in patients with coronary artery disease (CAD), enclosing patients with acute coronary syndromes and stable CAD.",
+            "journal": "Vascular pharmacology",
+            "year": "2021",
+            "authors": [
+              "Verdoia Monica",
+              "Savonitto Stefano",
+              "Dudek Dariusz",
+              "Kedhi Elvin",
+              "De Luca Giuseppe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acute Coronary Syndrome",
+              "Coronary Artery Disease",
+              "Hemorrhage",
+              "Humans",
+              "Percutaneous Coronary Intervention",
+              "Platelet Aggregation Inhibitors",
+              "Purinergic P2Y Receptor Antagonists",
+              "Randomized Controlled Trials as Topic",
+              "Recurrence",
+              "Risk Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33385541/"
+          },
+          {
+            "pmid": "34258905",
+            "title": "Ticagrelor: clinical development and future potential.",
+            "abstract": "Platelets participate centrally in atherothrombosis, resulting in vessel occlusion and ischaemia. Consequently, optimisation of antiplatelet regimens has the potential to further reduce the residual burden of morbidity and mortality associated with atherosclerosis. Ticagrelor is a potent oral platelet P2Y12 receptor antagonist that (1) inhibits a central amplification pathway of platelet activation directly as well as via an active metabolite, (2) has a rapid onset and offset of antiplatelet action that remains consistent in the circulation during twice-daily administration and is amenable to reversal, (3) has inverse agonist properties, and (4) demonstrates pleiotropic effects that contribute to anti-thrombotic, anti-inflammatory and vasodilatory properties. These advantageous characteristics of ticagrelor have translated to beneficial clinical outcomes in patients with acute coronary syndromes or ischaemic stroke, during prolonged maintenance therapy in specific high-risk populations",
+            "journal": "Reviews in cardiovascular medicine",
+            "year": "2021",
+            "authors": [
+              "Sanderson Nicholas C",
+              "Parker William A E",
+              "Storey Robert F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aspirin",
+              "Brain Ischemia",
+              "Humans",
+              "Platelet Aggregation Inhibitors",
+              "Stroke",
+              "Ticagrelor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34258905/"
+          },
+          {
+            "pmid": "37870970",
+            "title": "Safety and Efficacy of Ticagrelor Monotherapy in Patients With Acute Coronary Syndromes Undergoing Percutaneous Coronary Intervention: An Individual Patient Data Meta-Analysis of TWILIGHT and TICO Randomized Trials.",
+            "abstract": "Dual antiplatelet therapy with a potent P2Y12 inhibitor coupled with aspirin for 1 year is the recommended treatment for patients with acute coronary syndrome (ACS) undergoing percutaneous coronary intervention (PCI). As an alternative, monotherapy with a P2Y12 inhibitor after a short period of dual antiplatelet therapy has emerged as a bleeding reduction strategy.",
+            "journal": "Circulation",
+            "year": "2024",
+            "authors": [
+              "Baber Usman",
+              "Jang Yangsoo",
+              "Oliva Angelo",
+              "Cao Davide",
+              "Vogel Birgit"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Male",
+              "Ticagrelor",
+              "Platelet Aggregation Inhibitors",
+              "Acute Coronary Syndrome",
+              "Percutaneous Coronary Intervention",
+              "Drug Therapy, Combination",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37870970/"
+          },
+          {
+            "pmid": "37530990",
+            "title": "Ticagrelor or Clopidogrel as Antiplatelet Agents in Patients with Chronic Kidney Disease and Cardiovascular Disease: A Meta-analysis.",
+            "abstract": "The worldwide prevalence of chronic kidney disease (CKD) has significantly increased in the past decades. Scientific reports have shown CKD to be an enhancing risk factor for the development of cardiovascular disease (CVD), which is the leading cause of premature death in patients with CKD. Clinical practice guidelines are ambiguous in view of the use of antiplatelet drugs in patients with CKD because patients with moderate-to-severe CKD were often excluded from clinical trials evaluating the efficacy and safety of anticoagulants and antiplatelet agents. In this analysis, we aimed to systematically assess the adverse cardiovascular and bleeding outcomes that were observed with ticagrelor versus clopidogrel use in patients with CKD and cardiovascular disease.",
+            "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+            "year": "2023",
+            "authors": [
+              "Guo Yinxue",
+              "Ge Pingyu",
+              "Li Ziju",
+              "Xiao Jingxia",
+              "Xie Lirui"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Platelet Aggregation Inhibitors",
+              "Clopidogrel",
+              "Ticagrelor",
+              "Cardiovascular Diseases",
+              "Hemorrhage",
+              "Myocardial Infarction",
+              "Renal Insufficiency, Chronic",
+              "Treatment Outcome",
+              "Percutaneous Coronary Intervention"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37530990/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "May-Thurner syndrome",
+        "txgnn_score": 0.9955411553382874,
+        "txgnn_rank": 6020,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "livedo reticularis",
+        "txgnn_score": 0.9952501058578492,
+        "txgnn_rank": 6275,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mesenteric vascular occlusion",
+        "txgnn_score": 0.9949520826339722,
+        "txgnn_rank": 6526,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01732822",
+            "title": "A Randomized, Double-blind, Parallel Group, Multicentre Phase IIIb Study to Compare Ticagrelor With Clopidogrel Treatment on the Risk of Cardiovascular Death, Myocardial Infarction and Ischemic Stroke in Patients With Established Peripheral Artery Disease (EUCLID Examining Use of tiCagreLor In paD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-12-04",
+            "completion_date": "2016-09-26",
+            "country": "United States, Philippines, Ukraine, Canada, South Korea, Netherlands, Italy, Chile, Czechia, Russia, Sweden, Thailand, Poland, Japan, United Kingdom, France, Brazil, Germany, Argentina, Mexico, Hungary, Vietnam, Spain, Turkey (Türkiye), Romania, Slovakia, China, Bulgaria",
+            "enrollment": 13885,
+            "brief_summary": "The purpose of this study is to compare the effects of ticagrelor and clopidogrel in patients with Peripheral Artery Disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and Female patients 50 years old or older Symptomatic peripheral artery disease\n\nExclusion Criteria:\n\n* Patients needing dual anti-platlet drug treatment before start of study Planned revascularisation or amputation\n* Patients with known bleeding disorders\n* Patients with",
+            "endpoints": [
+              "Composite of Cardiovascular (CV) Death/MI/Ischemic Stroke"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT01732822"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02164864",
+            "title": "A Prospective Randomised, Open Label, Blinded Endpoint (PROBE) Study to Evaluate DUAL Antithrombotic Therapy With Dabigatran Etexilate (110mg and 150mg b.i.d.) Plus Clopidogrel or Ticagrelor vs. Triple Therapy Strategy With Warfarin (INR 2.0 - 3.0) Plus Clopidogrel or Ticagrelor and Aspirin in Patients With Non Valvular Atrial Fibrillation (NVAF) That Have Undergone a Percutaneous Coronary Intervention (PCI) With Stenting",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-07-22",
+            "completion_date": "2017-06-05",
+            "country": "Australia, India, Belgium, Austria, United States, Slovenia, Canada, Croatia, South Korea, Netherlands, Italy, Chile, Czechia, Russia, Sweden, Ireland, Thailand, Japan, Hong Kong, Colombia, Norway, France, Poland, New Zealand, Brazil, United Kingdom, Germany, Argentina, Israel, Denmark, Mexico, Hungary, Spain, Turkey (Türkiye), Slovakia, Finland, Portugal, Bulgaria, Greece, Singapore, Taiwan",
+            "enrollment": 2725,
+            "brief_summary": "The main objective of this study is to compare a Dual Antithrombotic Therapy (DAT) regimen of 110mg dabigatran etexilate b.i.d. plus clopidogrel or ticagrelor (110mg dabigatran etexilate (DE) DAT) and 150mg dabigatran etexilate b.i.d. plus clopidogrel or ticagrelor (150mg DE-DAT) with a Triple Antithrombotic Therapy (TAT) combination of warfarin plus clopidogrel or ticagrelor plus Aspirin (ASA) \\<= 100mg once daily (warfarin-TAT) in patients with Atrial Fibrillation that undergo a PCI with stent",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Male or female patients aged \\>=18 years\n* Patients with Non Valvular Atrial Fibrillation\n* Patient presenting with:\n\nAn Acute Coronary Syndrome (ACS) (ST elevation myocardial infarction (STEMI), NonSTEMI \\[NSTEMI\\] or unstable angina \\[UA\\]) that was successfully treated by P",
+            "endpoints": [
+              "Time to First Adjudicated ISTH MBE or CRNMBE"
+            ],
+            "sponsor": "Boehringer Ingelheim",
+            "url": "https://clinicaltrials.gov/study/NCT02164864"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vascular ectasia",
+        "txgnn_score": 0.9946986436843872,
+        "txgnn_rank": 6739,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03691675",
+            "title": "Prospective Clinical Research on Safety and Efficacy of Drug Coated Balloon in de Novo Coronary Lesion With Diameters Larger Than 2.75 mm Under OCT Guidance",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2018-10",
+            "completion_date": "2019-04",
+            "country": "N/A",
+            "enrollment": 45,
+            "brief_summary": "Intro-stent restenosis, bifurcation lesions and small vascular lesion with diameter \\<2.75mm is the indication of drug coated balloon. In the era of traditional coronary artery balloon dilatation, it is believed that muscle fiber of coronary artery great vessels is more abundant than that of small vessels, and elastic recoil and dissection are easier to appear upon dilatation, which will result in acute vascular occlusion and restenosis, so it is not recommended for great vessels to only receive",
+            "eligibility_criteria": "Inclusion Criteria\n\n* At the age of 18-80 (18 and 80 included)\n* The female at reproductive age shouldn't get pregnant or plan to get pregnant during the research\n* Patients must agree to accept 3-month angiography follow-up\n* Patients must agree to accept clinical follow-up on 30-day, 60-day and 90",
+            "endpoints": [
+              "Lumen loss in advanced stage of lesion segments within 3 months"
+            ],
+            "sponsor": "Second Hospital of Jilin University",
+            "url": "https://clinicaltrials.gov/study/NCT03691675"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01957527",
+            "title": "Offset of Ticagrelor's Effect on Endothelial Function as Assessed With Peripheral Arterial Tonometry (EndoPAT Assay)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2015-08",
+            "country": "Greece",
+            "enrollment": 30,
+            "brief_summary": "Ticagrelor administration, whose molecule resembles to adenosine, led to reduction in overall mortality and thrombotic cardiovascular (CV) events when directly compared to clopidogrel in the PLATO trial, implicating possible pleiotropic actions for the drug. It has been shown that ticagrelor increases adenosine concentration, by interfering with its red blood cells' uptake and by inducing the release of ATP which is then converted to adenosine. Recent studies in healthy volunteers and patients w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age above 18-80 years old\n2. Patients with Coronary Artery Disease receiving ticagrelor maintenance dose (MD) 90mg x 2 and are about to discontinue the treatment due to the completion of 1 year of dual antiplatelet therapy.\n3. Patients giving written Informed Consent.\n\nExclus",
+            "endpoints": [
+              "Reactive Hyperemia Index (RHI) on Day 0 and on Day 5"
+            ],
+            "sponsor": "University of Patras",
+            "url": "https://clinicaltrials.gov/study/NCT01957527"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06535568",
+            "title": "International, Multicenter, Investigator-driven Randomized Clinical Trial to Assess the Single vs. Dual Antiplatelet Therapy in Elderly or HBR Patients Undergoing Percutaneous Intervention With Drug-coated Balloons (PICCOLETO IV-EPIC 38)",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2026-01-10",
+            "completion_date": "2028-02-20",
+            "country": "Italy",
+            "enrollment": 576,
+            "brief_summary": "This international, multicenter, open-label, randomized clinical trial evaluates the safety and efficacy of single antiplatelet therapy (SAPT) compared to dual antiplatelet therapy (DAPT) in elderly or high bleeding risk patients undergoing percutaneous coronary intervention (PCI) with the latest generation drug-coated balloon (DCB). The study includes patients with stable or unstable coronary syndromes and aims to assess rates of ischemic and bleeding adverse events.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMale and female patients who meet the following criteria:\n\n* Age ≥ 75 years or age ≥ 18 years at high bleeding risk;\n* Successful PCI with Essential Pro DCB just performed, in 1, 2 or 3 coronary vessels;\n* Stable or unstable coronary syndromes;\n* De novo coronary lesions in vess",
+            "endpoints": [
+              "Rate of Net Adverse Clinical Events (NACE) at 12 months"
+            ],
+            "sponsor": "Fondazione Ricerca e Innovazione Cardiovascolare ETS",
+            "url": "https://clinicaltrials.gov/study/NCT06535568"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06484647",
+            "title": "Comparing T-stenting And Minimal Protrusion With External Minicrush for Treatment of Complex Coronary Bifurcation: Insights From TREX Registry",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-06-01",
+            "completion_date": "2024-10-01",
+            "country": "Italy",
+            "enrollment": 382,
+            "brief_summary": "Nowadays, no studies compare the T-stenting And Minimal Protrusion (TAP) and External Minicrush techniques in treating complex coronary bifurcation, so eventually, procedural, clinical and safety differences remain unknown.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients \\>18 years of age\n* Patients with an indication for PCI, including chronic coronary syndrome and acute coronary syndromes (STEMI, NSTEMI, unstable angina)\n* Patients with at least one true coronary bifurcation according to the Medina classification 1.1.1, 0.1.1, 1.0.1",
+            "endpoints": [
+              "Target Lesion Failure (TLF)"
+            ],
+            "sponsor": "San Luigi Gonzaga Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06484647"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02233790",
+            "title": "Comparison of Ticagrelor and Clopidogrel on Reperfusion in Patients With AMI Undergoing PPCI Evaluated by SPECT",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2014-12",
+            "completion_date": "2016-12",
+            "country": "China",
+            "enrollment": 600,
+            "brief_summary": "The patients with acute myocardial infarction (AMI) present high mortality and morbidity rate,even treated with stenting in the blocked heart vessels.\n\nThe appearance of no-reflow is common after re-opening of the blocked vessel. The no-reflow were commonly attributed to tiny blockage in coronary micro-vasculature by thrombus and spasm of the micro-vessel during stenting.\n\nAn agent with more effective anti-clotting and micro-vessel dilation would be helpful to solve the issue of no-reflow. Ticag",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of informed consent prior to any study specific procedures\n* Patients with acute ST-segment elevation myocardial infarction, an onset of symptoms presented within 12 hours. Two criteria have to be met: persistent ST-segment elevation of at least 0.1 mV in at least tw",
+            "endpoints": [
+              "myocardial infarcted size"
+            ],
+            "sponsor": "First Hospital of China Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT02233790"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01700322",
+            "title": "Effects of Clopidogrel vs Prasugel vs Ticagrelor on Endothelial Function, Inflammatory and Oxidative Stress Parameters and Platelet Function in Patients Undergoing Coronary Artery Stenting. A Randomised, Prospective Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-08",
+            "completion_date": "2016-09",
+            "country": "Germany",
+            "enrollment": 126,
+            "brief_summary": "Endothelial dysfunction is an important predictor - and a determinant - of adverse clinical outcome. Endothelial function is impaired by coronary artery stenting, a stud from our group has shown that it can be improved by platelet inhibition using clopidogrel. However, clopidogrel unresponsiveness is a known problem, and it has been show that the endothelial effects of clopidogrel tend to wane upon prolonged treatment. Whether a more effective anti-platelet therapy is able to prevent/improve not",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\- 18-75 years old consecutive patients undergoing coronary angiography and stenting at the University Medical Centre Mainz\n* A coronary lesion (and patient) amenable to treatment with drug eluting stent\n* Ability of subject to understand character and individual consequences ",
+            "endpoints": [
+              "Change in FMD"
+            ],
+            "sponsor": "Johannes Gutenberg University Mainz",
+            "url": "https://clinicaltrials.gov/study/NCT01700322"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01957540",
+            "title": "Differential Effect of Ticagrelor Versus Prasugrel Maintenance Dose on Endothelial Function of Peripheral Vessels in Patients With Coronary Artery Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2015-12",
+            "country": "Greece",
+            "enrollment": 22,
+            "brief_summary": "Ticagrelor administration, whose molecule resembles to adenosine, led to reduction in overall mortality and thrombotic cardiovascular (CV) events when directly compared to clopidogrel in the PLATO trial, implicating possible pleiotropic actions for the drug. It has been shown that ticagrelor increases adenosine concentration, by interfering with its red blood cells' uptake and by inducing the release of ATP which is then converted to adenosine. Recent studies in healthy volunteers and patients w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18-74 years old\n2. Patients with stable CAD who have been submitted(?) to percutaneous intervention for Acute Coronary Syndrome and receiving prasugrel MD 10mg once a day for at least the previous 3 months.\n3. Patients giving written Informed Consent.\n\nExclusion Criteria:",
+            "endpoints": [
+              "Reactive Hyperemia Index (RHI) in the 2 subgroups at the end of 2 periods of treatment"
+            ],
+            "sponsor": "University of Patras",
+            "url": "https://clinicaltrials.gov/study/NCT01957540"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03971500",
+            "title": "Comparison of 1-month Versus 12-month Dual Antiplatelet Therapy After Implantation of Drug-Eluting Stents Guided by Either Intravascular Ultrasound or Angiography in Patients With Acute Coronary Syndrome: The Prospective, Multicenter, Randomized, Placebo-controlled IVUS-ACS and ULTIMATE-DAPT Trials",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-08-20",
+            "completion_date": "2025-12-30",
+            "country": "China",
+            "enrollment": 3710,
+            "brief_summary": "Prospective, multicenter, randomized, double-blind, placebo-controlled trials.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nEnrollment into the study will require meeting at least one of these clinical syndromes within 1 month.\n\n* Unstable angina, defined as rest pain for 5-30 minutes or deteriorative exertional angina with either a) transient ST segment depression or elevation, or b) angiography sho",
+            "endpoints": [
+              "Target vessel failure (TVF)",
+              "Clinically-relevant bleeding",
+              "Major adverse cardiovascular and cerebrovascular events (MACCE)"
+            ],
+            "sponsor": "Nanjing First Hospital, Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT03971500"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02487732",
+            "title": "Comparison of Ticagrelor vs. Prasugrel on Inflammation, Arterial Stiffness, Endothelial Function, and Circulating Endothelial Progenitor Cells in Diabetic Patients With Non-ST Elevation Acute Coronary Syndrome (NSTE-ACS) Requiring Coronary Stenting",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-07",
+            "completion_date": "2017-01",
+            "country": "South Korea",
+            "enrollment": 60,
+            "brief_summary": "To investigate pleiotropic effects of ticagrelor in addition to its antiplatelet effects in type 2 diabetic patients with non-ST elevation acute coronary syndrome by measuring inflammatory markers, circulating number of endothelial progenitor cells, brachial artery endothelial function, and arterial stiffness.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provision of informed consent prior to any study specific procedures\n2. Newly diagnosed type 2 diabetic patients or type 2 diabetic patients on hypoglycemic agents between the age of 30 to 70\n3. Non-ST elevation Acute coronary syndrome with successful coronary stent implantat",
+            "endpoints": [
+              "Changes in circulating number of endothelial progenitor cells",
+              "Changes in brachial artery flow mediated dilation"
+            ],
+            "sponsor": "Korea University Anam Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02487732"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04826497",
+            "title": "Effects of Nicorandil on Cardiac Sympathetic Nerve Activity and Distribution in Patients With Acute Myocardial Infarction Treated With Primary Percutaneous Coronary Intervention",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2021-04",
+            "completion_date": "2022-02",
+            "country": "N/A",
+            "enrollment": 80,
+            "brief_summary": "The investigators evaluate the effects of intracoronary and intravenous administration of nicorandil on cardiac sympathetic nerve activity and distribution in patients with acute myocardial infarction undergoing primary percutaneous coronary intervention",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. acute ST-segment elevation myocardial infarction within 12 hours of symptom onset;\n2. Age20-80,All genders\n3. anterior myocardial infarction\n4. The first myocardial infarction\n5. The infarct-related artery(IRA) is totally occlusive\n6. Blood pressure is higher than 90/60 milli",
+            "endpoints": [
+              "Comparison of the delayed heart/mediastinum count (H/M) ratio"
+            ],
+            "sponsor": "Xuzhou Central Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04826497"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03881943",
+            "title": "A Randomized, Single Center Trial to Assess the Endothelial Function With Ticagrelor Monotherapy Compared to Aspirin Monotherapy in Patients With History of Acute Coronary Syndrome",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2017-01",
+            "completion_date": "2018-12-21",
+            "country": "China",
+            "enrollment": 200,
+            "brief_summary": "Antiplatelet agents are cornerstones for management of ischemic heart disease. For patients suffering from acute coronary syndrome (heart attack), treatment with aspirin and ticagrelor are typically given for one year after index heart attack and then patients will continue to take aspirin lifelong. However, these patients are still having increased risk of suffering from another heart attack. Recently data showed that adding ticagrelor to aspirin in the long term can decrease the chance of recu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Men and women aged 18 years or above.\n2. Documented history of presumed spontaneous ACS (excluding known peri-procedural or definite secondary MI \\[eg, due to profound hypotension, hypertensive emergency, tachycardia, or profound anemia\\]) with their most recent MI occurring ",
+            "endpoints": [
+              "Endothelial Function"
+            ],
+            "sponsor": "The University of Hong Kong",
+            "url": "https://clinicaltrials.gov/study/NCT03881943"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02742987",
+            "title": "CLOpidogrel Versus TIcagreLor for Antiplatelet Maintenance in DIAbetic Patients Treated With Percutaneous Coronary Intervention: Results of the CLOTILDIA Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-03",
+            "completion_date": "2015-06",
+            "country": "N/A",
+            "enrollment": 42,
+            "brief_summary": "CLOTILDIA is a single-center, prospective, randomized, open label, cross-over study evaluating the effects of ticagrelor versus high-dose clopidogrel on endothelial function and platelet reactivity in patients with type-2 diabetes mellitus (T2DM) treated with percutaneous coronary intervention (PCI).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* type 2 diabetes mellitus\n* stable coronary disease\n* coronary revascularization with PCI at least 1 month prior to recruitment\n\nExclusion Criteria:\n\n* acute coronary syndrome\n* platelet count \\<70x109/l\n* active bleeding or bleeding diathesis\n* history of intracranial bleeding",
+            "endpoints": [
+              "Flow-mediated Dilation of the Brachial Artery"
+            ],
+            "sponsor": "Campus Bio-Medico University",
+            "url": "https://clinicaltrials.gov/study/NCT02742987"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02379676",
+            "title": "Comparison of the Effects of Ticagrelor Versus Clopidogrel on Endothelial Dysfunction and Vascular Inflammation in Patients With Prior Non-ST-segment Acute Coronary Syndrome",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2015-01",
+            "completion_date": "2017-03",
+            "country": "South Korea",
+            "enrollment": 38,
+            "brief_summary": "The purpose of this study is to compare the effects of ticagrelor and clopidogrel on endothelial dysfunction and vascular inflammation\n\nTicagrelor will lead to beneficial pleiotropic effects compared with treatment with clopidogrel in patients receiving a drug-eluting stents (DES) during percutaneous coronary intervention (PCI) for non-ST-segment acute coronary syndrome (NSTE-ACS) beyond 1 month after the index event. Ticagrelor treatment will improve percent flow-mediated dilation (FMD) values ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of informed consent prior to any study specific procedures\n* Men and women ≥20 years of age\n* Documented history of non-ST-segment acute coronary syndrome occurring 30 \\~ 365 days prior to randomization and successfully treated with percutaneous coronary intervention",
+            "endpoints": [
+              "Change in percent flow-mediated dilation (FMD) values"
+            ],
+            "sponsor": "Seoul St. Mary's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02379676"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02698618",
+            "title": "PRotective Effect on the Coronary Microcirculation of Patients With DIabetes by Clopidogrel or Ticagrelor",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2016-03",
+            "completion_date": "2017-03",
+            "country": "Spain",
+            "enrollment": 50,
+            "brief_summary": "The purpose of this study is to determine whether Ticagrelor has a protective effect on microcirculation during percutaneous coronary interventions in patients with Diabetes mellitus type II or in a pre-diabetic status.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject with Diabetes Mellitus (DM) Type II\n* Subject must be older than 18 years\n* Written informed consent available\n* Subject with stable ischemic heart disease referred for coronary angiography\n* Subject is eligible for PCI, and PCI target(s) have FFR≤0.80\n\nExclusion Crite",
+            "endpoints": [
+              "Delta IMR post-PCI",
+              "Delta IMR pre-PCI"
+            ],
+            "sponsor": "Fundacion Investigacion Interhospitalaria Cardiovascular",
+            "url": "https://clinicaltrials.gov/study/NCT02698618"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30931196",
+            "title": "Coronary Artery Ectasia: An Insight into Intraprocedural and Postprocedural Management Strategies.",
+            "abstract": "Coronary artery ectasia (CAE) can present as an acute coronary syndrome (ACS) with a high clot burden in ectatic coronary arteries. Thrombectomy with intracoronary thrombolysis often does not ensure immediate blood flow. Also, there have not been clear guidelines regarding long-term management in such cases. A 40-year-old male presented with anginal chest discomfort and a working diagnosis of non-ST elevation myocardial infarction (NSTEMI) was made. The initial angiography showed thrombotic occlusion of several large and ectatic coronary arteries with visibly swirling blood flow. The culprit lesions were treated with balloon angioplasty and multiple rounds of thrombectomy yielding red thrombi. Interestingly, the post-intervention antegrade flow decreased in both vessels (Thrombolysis in Myocardial Infarction (TIMI) score: 0), possibly because of the distal migration of the clots. Peri-procedure, the patient received two boluses of eptifibatide, 180 mcg/kg each, followed by a continuous",
+            "journal": "Cureus",
+            "year": "2019",
+            "authors": [
+              "Waqas Muhammad",
+              "Bizzocchi Lilian L",
+              "Menegus Mark A",
+              "Faillace Robert T"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30931196/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "angiodysplasia",
+        "txgnn_score": 0.9928122162818908,
+        "txgnn_rank": 8371,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibrocartilaginous embolism",
+        "txgnn_score": 0.9926676154136658,
+        "txgnn_rank": 8492,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08816",
+    "name": "Ticagrelor",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ticagrelor"
+      },
+      "queried_at": "2026-03-09T12:11:44.980103",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ticagrelor"
+      },
+      "queried_at": "2026-03-09T12:11:53.743363",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "intracranial arteriosclerosis"
+      },
+      "queried_at": "2026-03-09T12:11:56.508034",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "intracranial arteriosclerosis"
+      },
+      "queried_at": "2026-03-09T12:12:01.325793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "intracranial arteriosclerosis"
+      },
+      "queried_at": "2026-03-09T12:12:04.912054",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "Monckeberg arteriosclerosis"
+      },
+      "queried_at": "2026-03-09T12:12:08.875391",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "Monckeberg arteriosclerosis"
+      },
+      "queried_at": "2026-03-09T12:12:13.748500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "Monckeberg arteriosclerosis"
+      },
+      "queried_at": "2026-03-09T12:12:14.794532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "priapism"
+      },
+      "queried_at": "2026-03-09T12:12:17.759329",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "priapism"
+      },
+      "queried_at": "2026-03-09T12:12:23.345806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "priapism"
+      },
+      "queried_at": "2026-03-09T12:12:26.217231",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "ischemic disease"
+      },
+      "queried_at": "2026-03-09T12:12:37.375506",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "ischemic disease"
+      },
+      "queried_at": "2026-03-09T12:12:41.347800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "ischemic disease"
+      },
+      "queried_at": "2026-03-09T12:12:47.779259",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "May-Thurner syndrome"
+      },
+      "queried_at": "2026-03-09T12:12:48.331655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "May-Thurner syndrome"
+      },
+      "queried_at": "2026-03-09T12:12:54.667275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "May-Thurner syndrome"
+      },
+      "queried_at": "2026-03-09T12:12:55.885478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "livedo reticularis"
+      },
+      "queried_at": "2026-03-09T12:12:57.146542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "livedo reticularis"
+      },
+      "queried_at": "2026-03-09T12:13:01.946188",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "livedo reticularis"
+      },
+      "queried_at": "2026-03-09T12:13:02.797197",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "mesenteric vascular occlusion"
+      },
+      "queried_at": "2026-03-09T12:13:04.128577",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "mesenteric vascular occlusion"
+      },
+      "queried_at": "2026-03-09T12:13:08.244743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "mesenteric vascular occlusion"
+      },
+      "queried_at": "2026-03-09T12:13:08.949606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "vascular ectasia"
+      },
+      "queried_at": "2026-03-09T12:13:10.248953",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "vascular ectasia"
+      },
+      "queried_at": "2026-03-09T12:13:14.079098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "vascular ectasia"
+      },
+      "queried_at": "2026-03-09T12:13:16.494621",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "angiodysplasia"
+      },
+      "queried_at": "2026-03-09T12:13:17.518591",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "angiodysplasia"
+      },
+      "queried_at": "2026-03-09T12:13:22.798013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "angiodysplasia"
+      },
+      "queried_at": "2026-03-09T12:13:23.831797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "fibrocartilaginous embolism"
+      },
+      "queried_at": "2026-03-09T12:13:24.848402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "fibrocartilaginous embolism"
+      },
+      "queried_at": "2026-03-09T12:13:30.668008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ticagrelor",
+        "disease": "fibrocartilaginous embolism"
+      },
+      "queried_at": "2026-03-09T12:13:31.578285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:13:31.601307"
+  }
+}

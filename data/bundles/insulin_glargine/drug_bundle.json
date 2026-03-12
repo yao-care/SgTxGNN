@@ -1,0 +1,674 @@
+{
+  "drug": {
+    "inn": "Insulin glargine",
+    "drugbank_id": "DB00047",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.9988064765930176,
+        "txgnn_rank": 2323,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9960518479347228,
+        "txgnn_rank": 5558,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.9959880709648132,
+        "txgnn_rank": 5612,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.9959880709648132,
+        "txgnn_rank": 5614,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.995934247970581,
+        "txgnn_rank": 5663,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.994269847869873,
+        "txgnn_rank": 7129,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11727406",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "abstract": "Type 2 diabetes is a common disorder often accompanied by numerous metabolic abnormalities leading to a high risk of cardiovascular morbidity and mortality. Results from the UKPDS have confirmed that intensive glucose control delays the onset and retards the progression of microvascular disease and possibly of macrovascular disease in patients with type 2 diabetes. In the early stages of the disease, insulin resistance plays a major role in the development of hyperglycemia and other metabolic abnormalities, and patients with type 2 diabetes often benefit from measures to improve insulin sensitivity such as weight loss, dietary changes, and exercise. Later, the use of oral insulin secretagogues and insulin sensitizers as monotherapy and in combination helps maintain glycemia for varying periods of time. Ultimately, because of the progressive nature of the disease and the progressive decline in pancreatic beta-cell function, insulin therapy is almost always obligatory to achieve optimal ",
+            "journal": "Endocrinology and metabolism clinics of North America",
+            "year": "2001",
+            "authors": [
+              "Mudaliar S",
+              "Edelman S V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Blood Glucose",
+              "Blood Glucose Self-Monitoring",
+              "Diabetes Mellitus, Type 2",
+              "Drug Delivery Systems",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11727406/"
+          },
+          {
+            "pmid": "12150359",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "abstract": "To review the increasingly common use of insulin therapy in patients with type 2 diabetes and the practical aspects of initiating insulin therapy in these patients.",
+            "journal": "Journal of the American Pharmaceutical Association (Washington, D.C. : 1996)",
+            "year": "2002",
+            "authors": [
+              "Campbell R Keith",
+              "White John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Blood Glucose",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Molecular Sequence Data",
+              "Patient Compliance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12150359/"
+          },
+          {
+            "pmid": "19322513",
+            "title": "Secondary diabetes associated with principal endocrinopathies: the impact of new treatment modalities.",
+            "abstract": "The secondary occurrence of type 2 diabetes with various hormonal diseases (e.g. pituitary, adrenal and/or thyroid diseases) is a recurrent observation. Indeed, impaired glucose tolerance (IGT) and overt diabetes mellitus are frequently associated with acromegaly and hypercortisolism (Cushing syndrome). The increased cardiovascular morbidity and mortality associated with acromegaly and Cushing syndrome may partly be a consequence of increased insulin resistance that normally accompanies hormone excess. Acromegalic patients are insulin resistant, both in the liver and in the periphery, displaying hyperinsulinemia and increased glucose turnover in the basal post-absorptive states. The prevalence of diabetes mellitus and that of IGT in acromegaly is reported to range 16-56%, whereas the degree of glucose tolerance seems correlated with circulating growth hormone (GH) levels, age, and disease duration. Moreover, a family history of diabetes and concomitant presence of arterial hypertension",
+            "journal": "Acta diabetologica",
+            "year": "2009",
+            "authors": [
+              "Resmini Eugenia",
+              "Minuto Francesco",
+              "Colao Annamaria",
+              "Ferone Diego"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acromegaly",
+              "Cushing Syndrome",
+              "Diabetes Mellitus",
+              "Diabetes Mellitus, Type 2",
+              "Endocrine System Diseases",
+              "Gluconeogenesis",
+              "Glucose Tolerance Test",
+              "Human Growth Hormone",
+              "Humans",
+              "Hypoglycemic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19322513/"
+          },
+          {
+            "pmid": "25818213",
+            "title": "Longitudinal evaluation of serum pancreatic enzymes and ultrasonographic findings in diabetic cats without clinically relevant pancreatitis at diagnosis.",
+            "abstract": "Cats with diabetes mellitus can have subclinical pancreatitis but prospective studies to confirm this are lacking. Metabolic control of diabetic cats with pancreatitis is difficult.",
+            "journal": "Journal of veterinary internal medicine",
+            "year": "2015",
+            "authors": [
+              "Zini E",
+              "Hafner M",
+              "Kook P",
+              "Lutz T A",
+              "Ohlerth S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cat Diseases",
+              "Cats",
+              "Diabetes Mellitus",
+              "Female",
+              "Glutarates",
+              "Lipase",
+              "Male",
+              "Oxazines",
+              "Pancreas"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25818213/"
+          },
+          {
+            "pmid": "32871938",
+            "title": "Maturity-Onset diabetes of the young type 5 treated with the glucagon-like peptide-1 receptor agonist: A case report.",
+            "abstract": "Maturity-onset diabetes of the young type 5 (MODY 5) is a form of monogenic diabetes that is often accompanied by pancreatic dysfunction. To date, no cases of MODY 5 treated with glucagon-like peptide-1 receptor agonist (GLP-1RA) have been reported. We present the first case of MODY 5 treated with GLP-1RA.",
+            "journal": "Medicine",
+            "year": "2020",
+            "authors": [
+              "Terakawa Aiko",
+              "Chujo Daisuke",
+              "Yasuda Kazuki",
+              "Ueno Keisuke",
+              "Nakamura Tomoka"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Central Nervous System Diseases",
+              "Dental Enamel",
+              "Diabetes Mellitus, Type 2",
+              "Female",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Kidney Diseases, Cystic",
+              "Liraglutide",
+              "Pancreas"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32871938/"
+          },
+          {
+            "pmid": "18518815",
+            "title": "Chronic pancreatitis with secondary diabetes mellitus treated by use of insulin in an adult California sea lion.",
+            "abstract": "A 21-year-old neutered male captive California sea lion developed chronic polyuria; polydipsia; polyphagia; accelerated development of existing cataracts; and frequent episodes of gastrointestinal upset including anorexia, signs of abdominal discomfort, diarrhea, and vomiting.",
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "2008",
+            "authors": [
+              "Meegan Jenny M",
+              "Sidor Inga F",
+              "Steiner Jörg M",
+              "Sarran Delphine",
+              "Dunn J Lawrence"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Diabetes Mellitus",
+              "Fatal Outcome",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Male",
+              "Pancreatitis, Chronic",
+              "Sea Lions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18518815/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.994183361530304,
+        "txgnn_rank": 7227,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9938547015190125,
+        "txgnn_rank": 7478,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.99380624294281,
+        "txgnn_rank": 7533,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.993446171283722,
+        "txgnn_rank": 7876,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00047",
+    "name": "Insulin glargine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Insulin glargine"
+      },
+      "queried_at": "2026-03-09T16:07:21.639537",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Insulin glargine"
+      },
+      "queried_at": "2026-03-09T16:07:58.643025",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-09T16:07:59.969638",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-09T16:08:05.565768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-09T16:08:07.099444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:09.947316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:14.689065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:15.537936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:16.541984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:22.994788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:24.637596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:26.138923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:32.981048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T16:08:35.697315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T16:08:36.684715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T16:08:40.952102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T16:08:42.110934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T16:08:43.481634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T16:08:49.460192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T16:08:53.121035",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:08:53.940564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:08:59.388376",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:00.591660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:01.440293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:05.990627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:06.937473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T16:09:08.813971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T16:09:14.611706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T16:09:15.840874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:16.652980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:22.112473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T16:09:22.982552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:09:23.036310"
+  }
+}

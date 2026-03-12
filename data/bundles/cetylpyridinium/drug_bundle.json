@@ -1,0 +1,621 @@
+{
+  "drug": {
+    "inn": "Cetylpyridinium",
+    "drugbank_id": "DB11073",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "fetal erythroblastosis",
+        "txgnn_score": 0.9501057267189026,
+        "txgnn_rank": 26671,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acquired angioedema",
+        "txgnn_score": 0.9290215969085692,
+        "txgnn_rank": 30811,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renin-angiotensin-aldosterone system-blocker-induced angioedema",
+        "txgnn_score": 0.8939006924629211,
+        "txgnn_rank": 35401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "scleroderma (disease)",
+        "txgnn_score": 0.8851355314254761,
+        "txgnn_rank": 36258,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "localized scleroderma",
+        "txgnn_score": 0.8823601007461548,
+        "txgnn_rank": 36504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple sclerosis",
+        "txgnn_score": 0.839459240436554,
+        "txgnn_rank": 39875,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoxanthoma elasticum, forme fruste",
+        "txgnn_score": 0.8357040286064148,
+        "txgnn_rank": 40076,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "elastoma",
+        "txgnn_score": 0.8283178806304932,
+        "txgnn_rank": 40450,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aphthous stomatitis",
+        "txgnn_score": 0.8217169642448425,
+        "txgnn_rank": 40800,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04383236",
+            "title": "Evaluation of the Effect of Probiotic Lozenges in the Treatment of Recurrent Aphthous Stomatitis: a Randomized, Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-12-01",
+            "completion_date": "2019-04-21",
+            "country": "N/A",
+            "enrollment": 120,
+            "brief_summary": "The application of host-modulating bacteria for therapeutic purposes is one of the strongest emerging fields. Probiotics are live microorganisms, which, when administered in an adequate amount, confer a health benefit on the host The study aimed to explore the effectiveness of probiotics in the treatment of the common ulcerative condition; minor recurrent aphthous stomatitis (RAS). We included sixty adult (group A) and 60 children patients (group B) with diagnosis of minor RAS . Both groups were",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males and females aged 18-45 years old, 2. Patients presenting with RAS with the following characteristics: a. Minor aphthous ulcers less than 48 hours' duration prior to enrolment, b. Size no greater than 10 mm in diameter, c. A history that ulcers normally more than 5 days t",
+            "endpoints": [
+              "Ulcer size reduction",
+              "Ulcer pain moderation"
+            ],
+            "sponsor": "October 6 University",
+            "url": "https://clinicaltrials.gov/study/NCT04383236"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31762696",
+            "title": "Efficacy and Safety of Lysozyme, Cetylpyridinium and Lidocaine Fixed Combination for Treatment of Chemotherapy- and Radiotherapy-Induced Oral Mucositis: a Pilot Study.",
+            "abstract": "Beneficial effect of local administration of lysozyme in patients with recurrent aphthous stomatitis was demonstrated, but there are no published studies focused on treatment of chemotherapy or radiotherapy induced oral mucositis with lysozyme.",
+            "journal": "Materia socio-medica",
+            "year": "2019",
+            "authors": [
+              "Rasic Azra",
+              "Kapo Belma",
+              "Avdicevic Asmir",
+              "Mekic-Abazovic Alma",
+              "Jankovic Slobodan M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31762696/"
+          },
+          {
+            "pmid": "46626",
+            "title": "[Treatment of inflammatory diseases in the mouth and pharynx using Imposit].",
+            "abstract": "",
+            "journal": "Therapie der Gegenwart",
+            "year": "1975",
+            "authors": [
+              "Stricker G",
+              "Ravanelli O"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aminobenzoates",
+              "Anti-Inflammatory Agents",
+              "Benzyl Compounds",
+              "Cetylpyridinium",
+              "Child",
+              "Clinical Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/46626/"
+          },
+          {
+            "pmid": "4781108",
+            "title": "[Inflammatory diseases of the mouth and pharyngeal area. Possibilities of a conservative therapy].",
+            "abstract": "",
+            "journal": "Die Medizinische Welt",
+            "year": "1973",
+            "authors": [
+              "Sprenger F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aconitum",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Atropine",
+              "Cetylpyridinium",
+              "Child",
+              "Child, Preschool",
+              "Cyanates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4781108/"
+          },
+          {
+            "pmid": "821708",
+            "title": "The local anaesthetic effects of cepacaine in post-tonsillectomy cases, pharyngitis and minor infections of the mouth.",
+            "abstract": "",
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "1976",
+            "authors": [
+              "Janecke J B"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics, Local",
+              "Benzocaine",
+              "Cetylpyridinium",
+              "Clinical Trials as Topic",
+              "Dibucaine",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/821708/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "imperforate anus",
+        "txgnn_score": 0.8172299265861511,
+        "txgnn_rank": 41030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11073",
+    "name": "Cetylpyridinium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cetylpyridinium"
+      },
+      "queried_at": "2026-03-10T09:30:40.415037",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cetylpyridinium"
+      },
+      "queried_at": "2026-03-10T09:30:42.005363",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "fetal erythroblastosis"
+      },
+      "queried_at": "2026-03-10T09:30:42.546086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "fetal erythroblastosis"
+      },
+      "queried_at": "2026-03-10T09:30:45.947070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "fetal erythroblastosis"
+      },
+      "queried_at": "2026-03-10T09:30:46.993488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "acquired angioedema"
+      },
+      "queried_at": "2026-03-10T09:30:47.563504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "acquired angioedema"
+      },
+      "queried_at": "2026-03-10T09:30:52.295215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "acquired angioedema"
+      },
+      "queried_at": "2026-03-10T09:30:52.943729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T09:30:53.449282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T09:30:56.862463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T09:30:57.564659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "scleroderma (disease)"
+      },
+      "queried_at": "2026-03-10T09:30:58.193884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "scleroderma (disease)"
+      },
+      "queried_at": "2026-03-10T09:31:01.710048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "scleroderma (disease)"
+      },
+      "queried_at": "2026-03-10T09:31:02.806438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "localized scleroderma"
+      },
+      "queried_at": "2026-03-10T09:31:03.811264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "localized scleroderma"
+      },
+      "queried_at": "2026-03-10T09:31:09.798150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "localized scleroderma"
+      },
+      "queried_at": "2026-03-10T09:31:11.650318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "multiple sclerosis"
+      },
+      "queried_at": "2026-03-10T09:31:12.170750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "multiple sclerosis"
+      },
+      "queried_at": "2026-03-10T09:31:16.668716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "multiple sclerosis"
+      },
+      "queried_at": "2026-03-10T09:31:17.709085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "pseudoxanthoma elasticum, forme fruste"
+      },
+      "queried_at": "2026-03-10T09:31:18.354754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "pseudoxanthoma elasticum, forme fruste"
+      },
+      "queried_at": "2026-03-10T09:31:25.176105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "pseudoxanthoma elasticum, forme fruste"
+      },
+      "queried_at": "2026-03-10T09:31:25.909546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "elastoma"
+      },
+      "queried_at": "2026-03-10T09:31:26.587362",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "elastoma"
+      },
+      "queried_at": "2026-03-10T09:31:30.764330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "elastoma"
+      },
+      "queried_at": "2026-03-10T09:31:31.985448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "aphthous stomatitis"
+      },
+      "queried_at": "2026-03-10T09:31:33.127916",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "aphthous stomatitis"
+      },
+      "queried_at": "2026-03-10T09:31:37.304356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "aphthous stomatitis"
+      },
+      "queried_at": "2026-03-10T09:31:41.135450",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "imperforate anus"
+      },
+      "queried_at": "2026-03-10T09:31:41.949841",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "imperforate anus"
+      },
+      "queried_at": "2026-03-10T09:31:46.007833",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cetylpyridinium",
+        "disease": "imperforate anus"
+      },
+      "queried_at": "2026-03-10T09:31:46.872388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:31:46.873661"
+  }
+}

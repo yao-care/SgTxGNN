@@ -1,0 +1,517 @@
+{
+  "drug": {
+    "inn": "Raloxifene",
+    "drugbank_id": "DB00481",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "duodenal ulcer (disease)",
+        "txgnn_score": 0.9971797466278076,
+        "txgnn_rank": 4389,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypoalphalipoproteinemia",
+        "txgnn_score": 0.9964663982391356,
+        "txgnn_rank": 5145,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenal obstruction",
+        "txgnn_score": 0.9963849782943726,
+        "txgnn_rank": 5232,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenogastric reflux",
+        "txgnn_score": 0.9958975315093994,
+        "txgnn_rank": 5707,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Worth syndrome",
+        "txgnn_score": 0.9896919131278992,
+        "txgnn_rank": 10765,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.986906886100769,
+        "txgnn_rank": 12905,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal dominant neovascular inflammatory vitreoretinopathy",
+        "txgnn_score": 0.9856075048446656,
+        "txgnn_rank": 13825,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pregnancy associated osteoporosis",
+        "txgnn_score": 0.985516369342804,
+        "txgnn_rank": 13886,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00001848",
+            "title": "The Safety and Effectiveness of Surgery With or Without Raloxifene (Evista (Trademark), Lilly) for the Treatment of Pelvic Pain Caused by Endometriosis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "1998-11",
+            "completion_date": "2006-01",
+            "country": "United States",
+            "enrollment": 612,
+            "brief_summary": "Many women with lower abdominal pain have endometriosis. Endometriosis is a condition in which the lining of the uterus (endometrium) is found outside of the uterus. The diagnosis of endometriosis is usually made at surgery. The treatment of endometriosis includes medical and surgical approaches alone or in combination. The hormone estrogen stimulates the growth of the endometrium and may also stimulate the growth of endometriosis. Medical therapies that act to decrease the level of estrogen can",
+            "eligibility_criteria": "INCLUSION CRITERIA:\n\n* Women between the ages of 18 and 45 years, who have their reproductive organs.\n* Excellent health other than a three month history of pelvic pain and documented endometriosis at laparoscopy. Chronic medications may be acceptable at the discretion of the internist associate inv",
+            "endpoints": [],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT00001848"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain stem infarction",
+        "txgnn_score": 0.980251133441925,
+        "txgnn_rank": 16906,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete familial combined hyperlipidemia",
+        "txgnn_score": 0.9802361130714417,
+        "txgnn_rank": 16912,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00481",
+    "name": "Raloxifene",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Raloxifene"
+      },
+      "queried_at": "2026-03-10T00:32:51.165923",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Raloxifene"
+      },
+      "queried_at": "2026-03-10T00:33:14.747662",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T00:33:16.698581",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T00:33:22.366631",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T00:33:23.592242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-10T00:33:24.995528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-10T00:33:31.531107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-10T00:33:33.719586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-10T00:33:34.714952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-10T00:33:41.361561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-10T00:33:43.647778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenogastric reflux"
+      },
+      "queried_at": "2026-03-10T00:33:44.548050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenogastric reflux"
+      },
+      "queried_at": "2026-03-10T00:33:48.622351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "duodenogastric reflux"
+      },
+      "queried_at": "2026-03-10T00:33:49.624259",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T00:33:50.968401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T00:33:57.729456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T00:33:58.540109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T00:33:59.517629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T00:34:04.511834",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T00:34:06.031273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "queried_at": "2026-03-10T00:34:07.137901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "queried_at": "2026-03-10T00:34:14.634713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "queried_at": "2026-03-10T00:34:16.598574",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T00:34:17.840967",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T00:34:22.892011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T00:34:27.955554",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T00:34:29.949192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T00:34:34.741186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T00:34:37.766310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-10T00:34:38.869037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-10T00:34:46.613757",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raloxifene",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-10T00:34:47.715696",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:34:47.726595"
+  }
+}

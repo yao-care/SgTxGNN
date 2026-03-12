@@ -1,0 +1,539 @@
+{
+  "drug": {
+    "inn": "Ferric derisomaltose",
+    "drugbank_id": "DB15617",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9848905205726624,
+        "txgnn_rank": 14261,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.96726393699646,
+        "txgnn_rank": 22141,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02940886",
+            "title": "A Phase III, Randomised, Open-label, Comparative Safety and Efficacy Trial of Intravenous Iron Isomaltoside/Ferric Derisomaltose (Monofer®/Monoferric®) and Iron Sucrose in Subjects With Iron Deficiency Anemia (FERWON-IDA)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-11-08",
+            "completion_date": "2018-03-28",
+            "country": "United States",
+            "enrollment": 1512,
+            "brief_summary": "Evaluate safety and efficacy of iron isomaltoside/ferric derisomaltose (Monofer®/Monoferric®) compared with iron sucrose (Venofer®), in subjects diagnosed with IDA.",
+            "eligibility_criteria": "Inclusion criteria includes:\n\n1. Men or women ≥ 18 years\n2. Subjects having IDA caused by different etiologies\n3. Subjects with intolerance to oral iron therapy or a need for rapid repletion of iron stores:\n4. Haemoglobin (Hb) ≤ 11 g/dL\n5. Transferrin Saturation (TSAT) \\< 20 %\n6. S-ferritin \\< 100 n",
+            "endpoints": [
+              "Change in Hemoglobin (Hb) From Baseline to Week 8",
+              "Incidence of Protocol-defined Serious or Severe Hypersensitivity Reactions"
+            ],
+            "sponsor": "Pharmacosmos A/S",
+            "url": "https://clinicaltrials.gov/study/NCT02940886"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02940860",
+            "title": "A Phase III, Randomised, Open-label, Comparative Safety and Efficacy Trial of Intravenous Iron Isomaltoside/Ferric Derisomaltose (Monofer®/Monoferric®) and Iron Sucrose in Subjects With Iron Deficiency Anaemia and Non-dialysis-dependent Chronic Kidney Disease (FERWON-NEPHRO)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-11-29",
+            "completion_date": "2018-05-29",
+            "country": "United States",
+            "enrollment": 1538,
+            "brief_summary": "Evaluation of safety and efficacy of iron isomaltoside/ferric derisomaltose compared with iron sucrose, in subjects with both non-dialysis-dependent chronic kidney disease (NDD-CKD) and iron deficiency anaemia (IDA).",
+            "eligibility_criteria": "Inclusion Criteria includes:\n\n1. Men and women, ≥ 18 years\n2. Hb ≤ 11 g/dL\n3. Chronic renal impairment, as defined by either (i) eGFR \\< 60 mL/min/1.73m2 at screening (as calculated by modification of diet in renal disease (MDRD)), or (ii) Estimated Glomerular Filtration Rate (eGFR) \\< 90 mL/min/1.7",
+            "endpoints": [
+              "Change in Hemoglobin (Hb) From Baseline to Week 8",
+              "Incidence of Protocol-defined Serious or Severe Hypersensitivity Reactions"
+            ],
+            "sponsor": "Pharmacosmos A/S",
+            "url": "https://clinicaltrials.gov/study/NCT02940860"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esotropia",
+        "txgnn_score": 0.956124484539032,
+        "txgnn_rank": 25188,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-syndromic esophageal malformation",
+        "txgnn_score": 0.946202039718628,
+        "txgnn_rank": 27550,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disease of newborn",
+        "txgnn_score": 0.9233772158622742,
+        "txgnn_rank": 31739,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatitis",
+        "txgnn_score": 0.914448082447052,
+        "txgnn_rank": 33180,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9060463309288024,
+        "txgnn_rank": 34183,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "filariasis",
+        "txgnn_score": 0.9024975299835204,
+        "txgnn_rank": 34551,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.8981422185897827,
+        "txgnn_rank": 35008,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.8918368816375732,
+        "txgnn_rank": 35640,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15617",
+    "name": "Ferric derisomaltose",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ferric derisomaltose"
+      },
+      "queried_at": "2026-03-10T07:08:35.534954",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ferric derisomaltose"
+      },
+      "queried_at": "2026-03-10T07:08:39.041862",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:41.147356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:44.637102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:45.351511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:46.454373",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:49.659991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:08:50.289795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T07:08:50.843420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T07:08:53.466881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T07:08:54.196047",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:08:54.796583",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:08:58.208991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:08:58.948066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-10T07:08:59.407867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-10T07:09:02.657227",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-10T07:09:04.098776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T07:09:04.741835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T07:09:07.668898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T07:09:08.386207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T07:09:08.856180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T07:09:12.011794",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T07:09:12.717978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T07:09:13.267546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T07:09:16.788791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T07:09:17.855356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T07:09:18.542437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T07:09:22.148339",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T07:09:24.272435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T07:09:24.838741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T07:09:28.119360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ferric derisomaltose",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T07:09:28.822348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:09:28.826056"
+  }
+}

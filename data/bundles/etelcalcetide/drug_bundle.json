@@ -1,0 +1,587 @@
+{
+  "drug": {
+    "inn": "Etelcalcetide",
+    "drugbank_id": "DB12865",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hyperphosphatemia (disease)",
+        "txgnn_score": 0.994162142276764,
+        "txgnn_rank": 7253,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03527511",
+            "title": "Effect of Active Vitamin D and Etelcalcetide on Human Osteoclasts in Patients With Chronic Kidney Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2018-05-14",
+            "completion_date": "2018-10-22",
+            "country": "France",
+            "enrollment": 21,
+            "brief_summary": "The optimal management of mineral and bone disorders associated to chronic kidney disease (CKD-MBD) is a daily challenge for nephrologists. Its consequences may be immediate (biological abnormalities such as hypocalcemia, hyperphosphatemia, hyperparathyroidism, etc.) or delayed (fractures, renal osteodystrophy, vascular calcifications, increased morbi-mortality and growth retardation in the youngest patients). CKD-MBD is defined by the association of one or more of the following abnormalities: 1",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Child of age\\> 2 years old and \\<18 years old.\n* Child over 10 kg having a blood sample as part of the treatment (due to regulatory constraints for blood volume taken by 30-day period of 40 mL in children over 10 kg)\n* Child with chronic kidney disease followed in the pediatri",
+            "endpoints": [
+              "Active vitamin D action on osteoclasts",
+              "Etecalcetide action on osteoclasts"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT03527511"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29440923",
+            "title": "Managing hyperparathyroidism in hemodialysis: role of etelcalcetide.",
+            "abstract": "Secondary hyperparathyroidism (SHPT) is common in patients receiving maintenance hemodialysis and is associated with adverse outcomes. Currently, SHPT is managed by reducing circulating levels of phosphate with oral binders and parathyroid hormone (PTH) with vitamin D analogs and/or the calcimimetic cinacalcet. Etelcalcetide, a novel calcimimetic administered intravenously (IV) at the end of a hemodialysis treatment session, effectively reduces PTH in clinical trials when given thrice weekly. Additional clinical effects include reductions in circulating levels of phosphate and FGF-23 and an improved profile of markers of bone turnover. However, despite being administered IV, etelcalcetide appears to be associated with rates of nausea and vomiting comparable to those of cinacalcet. Additionally, etelcalcetide, relative to placebo, causes hypocalcemia and prolonged electrocardiographic QT intervals, effects that must be considered when contemplating its use. Etelcalcetide likely has a ro",
+            "journal": "International journal of nephrology and renovascular disease",
+            "year": "2018",
+            "authors": [
+              "Eidman Keith E",
+              "Wetmore James B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29440923/"
+          },
+          {
+            "pmid": "33305109",
+            "title": "A Prospective, Randomized Clinical Trial of Etelcalcetide in Patients Receiving Hemodialysis With Secondary Hyperparathyroidism (the DUET Trial).",
+            "abstract": "The clinical trial on the Development of a treatment strategy for chronic kidney disease‒mineral and bone disorder by a mUltilateral mechanism of ETelcalcetide hydrochloride, or the DUET trial, was designed to determine the efficacy of etelcalcetide, an intravenous calcimimetic, for control of secondary hyperparathyroidism (SHPT).",
+            "journal": "Kidney international reports",
+            "year": "2020",
+            "authors": [
+              "Itano Yuya",
+              "Kato Sawako",
+              "Tsuboi Masato",
+              "Kasuga Hirotake",
+              "Tsuruta Yoshinari"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33305109/"
+          },
+          {
+            "pmid": "33211001",
+            "title": "A case of temporary metastatic pulmonary calcification in a patient with hyperparathyroidism on peritoneal dialysis.",
+            "abstract": "Ectopic calcification is associated with secondary hyperparathyroidism (HPT) in patients with end-stage renal failure (ESRD). Metastatic pulmonary calcification (MPC) is another rare type of ectopic calcification, and there are a few reports on MPC in dialysis patients.",
+            "journal": "Clinical nephrology",
+            "year": "2021",
+            "authors": [
+              "Kawase Kota",
+              "Takagi Kimiaki",
+              "Mizuno Masashi",
+              "Horie Masanobu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Calcinosis",
+              "Female",
+              "Humans",
+              "Hyperparathyroidism",
+              "Hyperparathyroidism, Secondary",
+              "Kidney Failure, Chronic",
+              "Lung",
+              "Lung Diseases",
+              "Middle Aged",
+              "Parathyroid Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33211001/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.993460774421692,
+        "txgnn_rank": 7859,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.993460774421692,
+        "txgnn_rank": 7860,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "varicose disease",
+        "txgnn_score": 0.990913152694702,
+        "txgnn_rank": 9873,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma",
+        "txgnn_score": 0.9891501069068908,
+        "txgnn_rank": 11150,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatitis",
+        "txgnn_score": 0.9885317087173462,
+        "txgnn_rank": 11667,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hyperoxaluria",
+        "txgnn_score": 0.9874452352523804,
+        "txgnn_rank": 12503,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary immunodeficiency syndrome due to p14 deficiency",
+        "txgnn_score": 0.9861003756523132,
+        "txgnn_rank": 13509,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe congenital neutropenia",
+        "txgnn_score": 0.9791716933250428,
+        "txgnn_rank": 17401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Barth syndrome",
+        "txgnn_score": 0.9783525466918944,
+        "txgnn_rank": 17816,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12865",
+    "name": "Etelcalcetide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Etelcalcetide"
+      },
+      "queried_at": "2026-03-10T04:19:00.557030",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Etelcalcetide"
+      },
+      "queried_at": "2026-03-10T04:19:06.351893",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "hyperphosphatemia (disease)"
+      },
+      "queried_at": "2026-03-10T04:19:06.987618",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "hyperphosphatemia (disease)"
+      },
+      "queried_at": "2026-03-10T04:19:09.964800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "hyperphosphatemia (disease)"
+      },
+      "queried_at": "2026-03-10T04:19:11.868784",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T04:19:12.397116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T04:19:15.548489",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T04:19:16.242646",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T04:19:16.863731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T04:19:20.597225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T04:19:21.364829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T04:19:22.131793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T04:19:27.128306",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T04:19:27.951507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-10T04:19:28.516506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-10T04:19:32.483155",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-10T04:19:33.241360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "pancreatitis"
+      },
+      "queried_at": "2026-03-10T04:19:33.893786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "pancreatitis"
+      },
+      "queried_at": "2026-03-10T04:19:37.665497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "pancreatitis"
+      },
+      "queried_at": "2026-03-10T04:19:38.382530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "primary hyperoxaluria"
+      },
+      "queried_at": "2026-03-10T04:19:38.993295",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "primary hyperoxaluria"
+      },
+      "queried_at": "2026-03-10T04:19:42.795038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "primary hyperoxaluria"
+      },
+      "queried_at": "2026-03-10T04:19:43.897328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-10T04:19:44.520107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-10T04:19:47.566880",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-10T04:19:48.494831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-10T04:19:49.287900",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-10T04:19:52.627784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-10T04:19:53.294700",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "Barth syndrome"
+      },
+      "queried_at": "2026-03-10T04:19:53.821504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "Barth syndrome"
+      },
+      "queried_at": "2026-03-10T04:19:57.399330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Etelcalcetide",
+        "disease": "Barth syndrome"
+      },
+      "queried_at": "2026-03-10T04:19:58.775718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:19:58.805573"
+  }
+}

@@ -1,0 +1,1846 @@
+{
+  "drug": {
+    "inn": "Human immunoglobulin G",
+    "drugbank_id": "DB00028",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9975053668022156,
+        "txgnn_rank": 4027,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40204274",
+            "title": "Serum Disease-Specific IgG Fc Glycosylation as Potential Biomarkers for Nonproliferative and Proliferative Diabetic Retinopathy Using Mass Spectrometry.",
+            "abstract": "This study investigated the potential of serum disease-specific immunoglobulin G (DSIgG) crystallizable fragment (Fc) N-glycosylation as a diagnostic biomarker for the identification of nonproliferative and proliferative diabetic retinopathy (DR). A total of 160 patients were enrolled and categorized into three groups according to clinical diagnosis: non-diabetic retinopathy (NDR, n = 47); nonproliferative diabetic retinopathy (NPDR, n = 51); and proliferative diabetic retinopathy (PDR, n = 62). Gel electrophoresis was performed to separate IgG from morning fasting blood samples and polyaniline magnetic nanomaterials (Fe3O4@PANI) were used to enrich IgG N-glycopeptides from tryptic digestion. Matrix-assisted laser desorption ionization time-of-flight mass spectrometry (MALDI ToF MS) was used to detect the IgG N-glycopeptides. Nine DSIgG N-glycopeptide ratios were significantly different among NDR, NPDR, and PDR groups. There are six glycopeptide ratios available to classify mild, moder",
+            "journal": "Molecular & cellular proteomics : MCP",
+            "year": "2025",
+            "authors": [
+              "Mao Yishuang",
+              "Zhang Jiyun",
+              "Zhang Yixin",
+              "Hu Bojie",
+              "Hao Yuhua"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immunoglobulin G",
+              "Glycosylation",
+              "Female",
+              "Diabetic Retinopathy",
+              "Male",
+              "Biomarkers",
+              "Middle Aged",
+              "Aged",
+              "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40204274/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9963263869285583,
+        "txgnn_rank": 5286,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01148225",
+            "title": "A Multicenter Open-Label Study of the Long-term Safety and Efficacy of the Human Anti-TNF Monoclonal Antibody Adalimumab in Subjects With Non-infectious Intermediate Uveitis, Posterior Uveitis, or Panuveitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-11-23",
+            "completion_date": "2018-05-21",
+            "country": "N/A",
+            "enrollment": 424,
+            "brief_summary": "The purpose of this study is to evaluate the long term efficacy and safety of adalimumab participants with non-infectious intermediate-, posterior- or pan-uveitis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must have successfully enrolled in either study M10-877 or M10-880 and either met the endpoint of \"Treatment Failure\" or completed the study\n\nExclusion Criteria:\n\n* A participant will be excluded from this study if the participant discontinued from study M10-877 or",
+            "endpoints": [
+              "Number of Participants With Adverse Events",
+              "Hematology: Number of Participants With Potentially Clinically Significant (PCS) Values",
+              "Chemistry: Number of Participants With PCS Values"
+            ],
+            "sponsor": "AbbVie",
+            "url": "https://clinicaltrials.gov/study/NCT01148225"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02443155",
+            "title": "A Randomised, Double-blind, Double-dummy, Placebo-controlled, Parallel-group Multi-centre Clinical Proof-of-principle Trial in Adult Subjects With Newly Diagnosed Type 1 Diabetes Mellitus Investigating the Effect of NNC0114-0006 and Liraglutide on Preservation of Beta-cell Function",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-11-10",
+            "completion_date": "2019-02-27",
+            "country": "Spain, United Kingdom, Canada, Belgium, Austria, Israel, Italy, Denmark, United States, Finland, Portugal, Russia, Ukraine, Sweden, Poland, Ireland, Serbia, Norway",
+            "enrollment": 308,
+            "brief_summary": "This trial is conducted globally. The aim of this trial is to assess the clinical proof-of-principle of NNC0114-0006 and liraglutide on preservation of beta-cell function in adult subjects with newly diagnosed type 1 diabetes mellitus.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any trial-related activities. Trial-related activities are any procedures that are carried out as part of the trial, including activities to determine suitability for the trial\n* T1DM (type 1 diabetes mellitus) (as diagnosed clinically) for not",
+            "endpoints": [
+              "Area Under the Concentration-time Curve (AUC) 0-4h of Mixed Meal Tolerance Test (MMTT) Stimulated C-peptide at Week 54 Relative to Baseline"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT02443155"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02924987",
+            "title": "Effect of Aflibercept (Eylea®) in the Management of Bevacizumab (Avastin®) Resistant Diabetic Macular Edema",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2016-11",
+            "completion_date": "2017-11",
+            "country": "Canada",
+            "enrollment": 40,
+            "brief_summary": "Multicenter randomized trials have demonstrated the safety and efficacy of intravitreal anti-vascular endothelial growth factor (anti-VEGF) agents for the treatment of diabetic macular edema. The results are generally good in the short term, with approximately 75% of patients maintaining or improving vision after initiation of treatment. Despite this favorable outcome, the observation of persistent fluid is not infrequent during treatment, even in patients undergoing monthly treatment sessions. ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eyes to be included in the series must have had at least six consecutive monthly intravitreal injections of bevacizumab for the treatment of diabetic macular edema and presented tomographic signals suggestive of foveal fluid on spectral-domain optical coherence tomography (SD-",
+            "endpoints": [
+              "Macular central subfield thickness in micrometers"
+            ],
+            "sponsor": "Maisonneuve-Rosemont Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02924987"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40682148",
+            "title": "Causal association between immunoglobulin G N-glycosylation patterns and diabetic complications: two-sample mendelian randomization.",
+            "abstract": "To elucidate the correlation between immunoglobulin G (IgG) N-glycosylation patterns (IGPs) and diabetes complications, including diabetic nephropathy (DN), diabetic retinopathy (DR) and diabetic maculopathy (DM). We performed a two-sample Mendelian randomization (MR) study.",
+            "journal": "Diabetology & metabolic syndrome",
+            "year": "2025",
+            "authors": [
+              "Zhang Xiaohuan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40682148/"
+          },
+          {
+            "pmid": "24311895",
+            "title": "Biomarkers in diabetic retinopathy and the therapeutic implications.",
+            "abstract": "The main problem both in type 1 (T1DM) and type 2 (T2DM) diabetes is the development of chronic vascular complications encompassing micro- as well as macrocirculation. Chronic complications lower the quality of life, lead to disability, and are the cause of premature death in DM patients. One of the chronic vascular complications is a diabetic retinopathy (DR) which leads to a complete loss of sight in DM patients. Recent trials show that the primary cause of diabetic retinopathy is retinal neovascularization caused by disequilibrium between pro- and antiangiogenic factors. Gaining knowledge of the mechanisms of action of factors influencing retinal neovascularization as well as the search for new, effective treatment methods, especially in advanced stages of DR, puts special importance on research concentrating on the implementation of biological drugs in DR therapy. At present, it is antivascular endothelial growth factor and antitumor necrosis factor that gain particular significanc",
+            "journal": "Mediators of inflammation",
+            "year": "2013",
+            "authors": [
+              "Zorena Katarzyna",
+              "Raczyńska Dorota",
+              "Raczyńska Krystyna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adalimumab",
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Aptamers, Nucleotide",
+              "Bevacizumab",
+              "Biomarkers",
+              "Diabetic Retinopathy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24311895/"
+          },
+          {
+            "pmid": "40204274",
+            "title": "Serum Disease-Specific IgG Fc Glycosylation as Potential Biomarkers for Nonproliferative and Proliferative Diabetic Retinopathy Using Mass Spectrometry.",
+            "abstract": "This study investigated the potential of serum disease-specific immunoglobulin G (DSIgG) crystallizable fragment (Fc) N-glycosylation as a diagnostic biomarker for the identification of nonproliferative and proliferative diabetic retinopathy (DR). A total of 160 patients were enrolled and categorized into three groups according to clinical diagnosis: non-diabetic retinopathy (NDR, n = 47); nonproliferative diabetic retinopathy (NPDR, n = 51); and proliferative diabetic retinopathy (PDR, n = 62). Gel electrophoresis was performed to separate IgG from morning fasting blood samples and polyaniline magnetic nanomaterials (Fe3O4@PANI) were used to enrich IgG N-glycopeptides from tryptic digestion. Matrix-assisted laser desorption ionization time-of-flight mass spectrometry (MALDI ToF MS) was used to detect the IgG N-glycopeptides. Nine DSIgG N-glycopeptide ratios were significantly different among NDR, NPDR, and PDR groups. There are six glycopeptide ratios available to classify mild, moder",
+            "journal": "Molecular & cellular proteomics : MCP",
+            "year": "2025",
+            "authors": [
+              "Mao Yishuang",
+              "Zhang Jiyun",
+              "Zhang Yixin",
+              "Hu Bojie",
+              "Hao Yuhua"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immunoglobulin G",
+              "Glycosylation",
+              "Female",
+              "Diabetic Retinopathy",
+              "Male",
+              "Biomarkers",
+              "Middle Aged",
+              "Aged",
+              "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40204274/"
+          },
+          {
+            "pmid": "34003908",
+            "title": "Exposure to Porphyromonas gingivalis and Modifiable Risk Factors Modulate Risk for Early Diabetic Retinopathy.",
+            "abstract": "We hypothesized that exposure to Porphyromonas gingivalis (Pg) increases the risk for early diabetic retinopathy (DR) and that the risk can be modulated.",
+            "journal": "Translational vision science & technology",
+            "year": "2021",
+            "authors": [
+              "Chiu Chung-Jung",
+              "Chang Min-Lee",
+              "Kantarci Alpdogan",
+              "Van Dyke Thomas E",
+              "Shi Wenyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Cross-Sectional Studies",
+              "Diabetes Mellitus",
+              "Diabetic Retinopathy",
+              "Glycated Hemoglobin",
+              "Humans",
+              "Nutrition Surveys",
+              "Porphyromonas gingivalis",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34003908/"
+          },
+          {
+            "pmid": "37638581",
+            "title": "[Faricimab: from research to clinical practice].",
+            "abstract": "Development of new molecules for anti-angiogenic therapy pursues the following objectives: to increase the interval between injections, which can reduce the treatment burden; to improve the effectiveness of treatment by affecting various links of pathogenesis; to ensure a good safety profile. Faricimab is a humanized immunoglobulin G antibody that targets two key angiogenesis sites: vascular endothelial growth factor A (VEGF-A) and angiopoietin-2 (Ang-2). In the STAIRWAY clinical trial, faricimab was shown to produce similar results to monthly ranibizumab at longer intervals and fewer intravitreal injections in patients with neovascular age-related macular degeneration, specifically in terms of visual preservation and reduction in central retinal thickness (CRT). In the BOULEVARD trial, which lasted 36 weeks, the severity of diabetic retinopathy according to DRSS improved in previously untreated patients with diabetic macular edema by two stages and more in 12.2% of the 0.3 mg ranibizu",
+            "journal": "Vestnik oftalmologii",
+            "year": "2023",
+            "authors": [
+              "Yusef Yu N",
+              "Budzinskaya M V",
+              "Plyukhova A A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ranibizumab",
+              "Diabetic Retinopathy",
+              "Macular Edema",
+              "Vascular Endothelial Growth Factor A",
+              "Immunoglobulin G",
+              "Antibodies, Bispecific"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37638581/"
+          },
+          {
+            "pmid": "2642484",
+            "title": "Renin, prorenin, and immunoreactive renin in vitreous fluid from eyes with and without diabetic retinopathy.",
+            "abstract": "Renin, prorenin, and immunoreactive renin were present in vitreous and subretinal fluid of eyes from subjects with and without diabetic retinopathy. Renin substrate, albumin, transferrin, and immunoglobin G were also found in these ocular fluids. In many samples renin levels were close to the detection limit of the assay. The levels of renin substrate, albumin, transferrin, and immunoglobulin G varied widely among ocular fluid samples, but in each individual sample the levels were, relative to each other, similar to those in plasma. In contrast, the prorenin level in ocular fluid was up to 100 times higher than expected on the basis of the plasma protein content of ocular fluid. Moreover, there was little difference in prorenin concentrations between samples with low and high plasma protein contents. Prorenin, relative to albumin and other plasma proteins, was higher in vitreous fluid from eyes with proliferative diabetic retinopathy complicated by traction retinal detachment than in e",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1989",
+            "authors": [
+              "Danser A H",
+              "van den Dorpel M A",
+              "Deinum J",
+              "Derkx F H",
+              "Franken A A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiotensin II",
+              "Diabetic Retinopathy",
+              "Enzyme Precursors",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2642484/"
+          },
+          {
+            "pmid": "16405060",
+            "title": "[Impaired antiendotoxin immunity in patients with diabetic retinopathy and type 2 diabetes mellitus].",
+            "abstract": "Solid-phase enzyme immunoassay was used to study the serum levels of the antiendoxin IgA, IgM, IgG antibodies and total immunoglobulins of classes A, M, and G in 62 patients (122 eyes) with type 2 diabetes mellitus at different stages of diabetic retinopathy. Patients with diabetic retinopathy concurrent with type 2 diabetes mellitus were found to have a significant imbalance of antiendotoxin immunity. The highest level of anti-lipopolysaccharide (LPS)-IgA was detected in patients with nonproliferative diabetic retinopathy that exhibited macular edema, single or multiple aneurysms, hemorrhages, portions of solid lipid exudate and preproliferative diabetic retinopathy, in addition to vascular changes. Much lower levels of anti-LPS-IgA were found in nonproliferative retinopathy in which only retinal vascular changes and in proliferative diabetic retinopathy were noted. The patients with proliferative diabetic retinopathy complicated by neovascular glaucoma were ascertained to have the lo",
+            "journal": "Vestnik oftalmologii",
+            "year": "2005",
+            "authors": [
+              "Zhaboedov G D",
+              "Kopaenko A I"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies, Anti-Idiotypic",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Retinopathy",
+              "Female",
+              "Humans",
+              "Immunoglobulin A",
+              "Immunoglobulin G",
+              "Immunoglobulin M"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16405060/"
+          },
+          {
+            "pmid": "2974777",
+            "title": "The fluorescence of serum proteins in diabetic patients with and without retinopathy.",
+            "abstract": "Non-enzymatic glycosylation of long-lived proteins results in a characteristic fluorescence, known as protein 'browning'. The degree of fluorescence of skin collagen correlates with retinopathy in diabetes. We have therefore measured the fluorescence of serum albumin and IgG by a sensitive HPLC technique in 69 diabetic patients, 38 with retinopathy and 31 without complications, and in 26 age-matched controls. The fluorescence of the IgG fraction, calculated as the ratio of fluorescence (excitation 360 nm, emission 454 nm) to optical density (280 nm), was elevated in diabetic patients with retinopathy (1.5 +/- 0.5) compared with those without retinopathy (1.1 +/- 0.2, p less than 0.005) and control subjects (1.1 +/- 0.2, p less than 0.005). The fluorescence ratio for the albumin fraction was increased in all diabetic patients (11.2 +/- 2.7) compared with control subjects (8.9 +/- 1.5, p less than 0.001). There was no significant difference in the fluorescence ratios of albumin in those ",
+            "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+            "year": "1988",
+            "authors": [
+              "Jones A F",
+              "Jennings P E",
+              "Wakefield A",
+              "Winkles J W",
+              "Lunec J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Blood Proteins",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Retinopathy",
+              "Glycosylation",
+              "Humans",
+              "Immunoglobulin G",
+              "Serum Albumin",
+              "Spectrometry, Fluorescence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2974777/"
+          },
+          {
+            "pmid": "32714992",
+            "title": "Qualitative and Quantitative Analysis of B-Cell-Produced Antibodies in Vitreous Humor of Type 2 Diabetic Patients with Diabetic Retinopathy.",
+            "abstract": "To analyze the levels of B-cell-produced antibodies in the vitreous humor of patients with or without diabetic retinopathy (DR) both qualitatively and quantitatively.",
+            "journal": "Journal of diabetes research",
+            "year": "2020",
+            "authors": [
+              "Liu Baoyi",
+              "Hu Yijun",
+              "Wu Qiaowei",
+              "Zeng Yunkao",
+              "Xiao Yu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "B-Lymphocytes",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Retinopathy",
+              "Female",
+              "Humans",
+              "Immunoglobulin A",
+              "Immunoglobulin G",
+              "Immunoglobulin M"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32714992/"
+          },
+          {
+            "pmid": "3552537",
+            "title": "Lack of effect of gliclazide on early diabetic nephropathy and retinopathy: a two-year controlled study.",
+            "abstract": "This study has attempted to document a specific haemovascular action of gliclazide on the reversal of early diabetic microangiopathy. A prospective double-blind controlled study was performed over 2 years, comparing gliclazide versus placebo in insulin-treated and gliclazide versus glibenclamide in non-insulin-treated diabetic subjects, after a 1-year run-in period. Glycaemic control was not significantly different in gliclazide- and non-gliclazide-treated subjects before or after the commencement of active therapy. Following treatment with gliclazide in 17/32 insulin-treated and 8/17 non-insulin-treated subjects with Albustix-negative proteinuria, there was no difference in retinopathy score, total proteinuria or the renal clearance of creatinine, albumin, transferrin and immunoglobulin G. In the insulin-treated group, progression of retinopathy was observed in approximately one-third of subjects, but no parameter of proteinuria progressed over 2 years. Thus, this study did not detect",
+            "journal": "Diabetes research and clinical practice",
+            "year": "1987",
+            "authors": [
+              "Jerums G",
+              "Murray R M",
+              "Seeman E",
+              "Cooper M E",
+              "Edgley S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blood Pressure",
+              "Clinical Trials as Topic",
+              "Creatinine",
+              "Diabetes Complications",
+              "Diabetes Mellitus",
+              "Diabetic Nephropathies",
+              "Diabetic Retinopathy",
+              "Double-Blind Method",
+              "Gliclazide",
+              "Glycated Hemoglobin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3552537/"
+          },
+          {
+            "pmid": "2196238",
+            "title": "Immunoglobulin G, complement factor C3 and lymphocytes in proliferative intraocular disorders.",
+            "abstract": "This study examines a possible immunological contribution to the development of proliferative intraocular disorders (PID) with traction retinal detachment. We analysed 24 periretinal membranes and 35 vitreous aspirates from patients with idiopathic proliferative vitreoretinopathy (PVR), traumatic PVR, and proliferative diabetic retinopathy (PDR). Lymphocytes and complement factor C3 deposits could not be detected in any of the membrane specimens. IgG was present in all but one of the PVR membranes but in less than half of the PDR specimens and there to a lesser extent. The IgG immunoreactivity was not collocalized with macrophages but instead located to the extracellular matrix. The intravitreal levels of IgG (ELISA) and protein were elevated in PID but the range of these biochemical changes was so wide that there were no significant differences of the IgG levels between the single types of PID. Using electrophoresis and Western blotting, C3 was detected in normal and pathologic vitreo",
+            "journal": "International ophthalmology",
+            "year": "1990",
+            "authors": [
+              "Weller M",
+              "Clausen R",
+              "Bresgen M",
+              "Heimann K",
+              "Wiedemann P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blotting, Western",
+              "Complement C3",
+              "Diabetic Retinopathy",
+              "Electrophoresis, Polyacrylamide Gel",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Fluorescent Antibody Technique",
+              "Humans",
+              "Immunoglobulin G",
+              "Lymphocytes",
+              "Retinal Detachment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2196238/"
+          },
+          {
+            "pmid": "2947762",
+            "title": "The relationship of soluble immune complexes, insulin antibodies and insulin-anti-insulin complexes to platelet and coagulation factors in type 1 diabetic patients with and without proliferative retinopathy.",
+            "abstract": "The possible correlation between soluble immune factors and platelet and coagulation factors has been evaluated in Type 1 diabetic patients with and without proliferative retinopathy, and in non-diabetic controls. Soluble immune complexes, platelet factor IV (PF4), beta-thromboglobulin, fibrinogen, factor VIII related antigen and anti-thrombin III were significantly increased in Type 1 diabetic patients with retinopathy as compared to non-diabetic controls. Fibrinogen and anti-thrombin III were also higher in those patients with retinopathy compared to those without retinopathy. A significant correlation was found between positive values of soluble immune complexes and increased levels of PF4 and beta-thromboglobulin in diabetic patients with retinopathy. The presence of soluble immune complexes and insulin-anti-insulin complexes was associated with a significantly greater number of elevated haemostatic factors in retinopathic patients. Our findings suggest that the interaction of plat",
+            "journal": "Clinical and experimental immunology",
+            "year": "1986",
+            "authors": [
+              "Di Mario U",
+              "Borsey D Q",
+              "Contreas G",
+              "Prowse C V",
+              "Clarke B F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antigen-Antibody Complex",
+              "Antithrombin III",
+              "Blood Coagulation Factors",
+              "Blood Platelets",
+              "Diabetes Mellitus, Type 1",
+              "Diabetic Retinopathy",
+              "Female",
+              "Fibrinogen",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2947762/"
+          },
+          {
+            "pmid": "10333053",
+            "title": "Increased expression of endothelial antigen PAL-E in human diabetic retinopathy correlates with microvascular leakage.",
+            "abstract": "The Pathologische Anatomie Leiden-Endothelium (PAL-E) antigen is a marker for loss of the blood-brain barrier function in brain tumours. It is endothelium specific and is associated with the endothelial plasmalemmal vesicles (caveolae) involved in transcellular transport. To test whether blood-retinal barrier loss in diabetic retinopathy is associated with cellular changes in the endothelium, the expression of antigen PAL-E in relation to microvascular leakage in human diabetic retinopathy was investigated.",
+            "journal": "Diabetologia",
+            "year": "1999",
+            "authors": [
+              "Schlingemann R O",
+              "Hofman P",
+              "Vrensen G F",
+              "Blaauwgeers H G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Albumins",
+              "Antigens, Surface",
+              "Blood-Retinal Barrier",
+              "Diabetic Retinopathy",
+              "Endothelium, Vascular",
+              "Fibrinogen",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10333053/"
+          },
+          {
+            "pmid": "33625683",
+            "title": "Dysregulation of circulating follicular helper T cells in type 2 diabetic patients with diabetic retinopathy.",
+            "abstract": "Inflammation is known to be involved in the progression of diabetic retinopathy. Follicular helper T cells (Tfh) play critical roles in the differentiation of long-live plasma cells and production of antibodies, whereas circulating CD4+CXCR5+ T cells may act as a counterpart to measure Tfh cell disorders. In this study, we investigated whether Tfh could be involved in the development of diabetic retinopathy (DR) by assessing circulating Tfh cells in peripheral blood. Data showed that serum levels of total IgG and IgA were both significantly increased in type 2 diabetes mellitus (T2DM) patients with proliferative diabetic retinopathy (PDR) than with non-PDR. Also, B cell activation and differentiation were both enhanced in T2DM patients with PDR. Little changes were detected in levels of Th1, Th2, and Th17 cells. As indicated by elevated serum levels and supernatant from cultured PBMC of IL-21, we found increased circulating Tfh cells in PDR patients with dysregulated subsets. This stud",
+            "journal": "Immunologic research",
+            "year": "2021",
+            "authors": [
+              "Yu Honghua",
+              "Liu Baoyi",
+              "Wu Guanrong",
+              "Du Zijing",
+              "Wu Qiaowei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cytokines",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Retinopathy",
+              "Female",
+              "Humans",
+              "Immunoglobulin A",
+              "Immunoglobulin G",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33625683/"
+          },
+          {
+            "pmid": "38987257",
+            "title": "Urine biomarkers in type 2 diabetes mellitus with or without microvascular complications.",
+            "abstract": "To investigate the distribution of nine (9) urine biomarkers in people living with type 2 diabetes mellitus (T2DM), with or without microvascular complications.",
+            "journal": "Nutrition & diabetes",
+            "year": "2024",
+            "authors": [
+              "Zhang Chanyuan",
+              "Liu Tiebing",
+              "Wang Xiaoqian",
+              "Yang Jing",
+              "Qin Dongfang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Diabetes Mellitus, Type 2",
+              "Biomarkers",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Diabetic Retinopathy",
+              "Albuminuria",
+              "Aged",
+              "Creatinine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38987257/"
+          },
+          {
+            "pmid": "3924692",
+            "title": "Urinary excretion of plasma proteins in diabetic subjects. Increased excretion of kappa light chains in diabetic patients with and without proliferative retinopathy.",
+            "abstract": "The urinary excretion of beta2-microglobulin, albumin, kappa light chains, transferrin, and IgG as well as their concentration ratios were assessed in 27 nondiabetic patients with proteinuria and in 72 IDDM patients, 41 with proliferative retinopathy (PR) and 31 without retinopathy, matched for age, duration of diabetes, and treatment. The mean excretions of albumin, transferrin, and IgG were similar in patients with nondiabetic proteinuria and in IDDM patients with PR and were significantly higher than in IDDM patients without retinopathy. Despite similar albumin excretion, the amount of excreted kappa light chains was significantly higher in IDDM patients than in patients with nondiabetic proteinuria, resulting in an elevated kappa chain/albumin ratio. Furthermore, diabetic subjects without microalbuminuria showed increased kappa chain/albumin ratio, indicating that increased urinary excretion of kappa chains may be an early sign of diabetic nephropathy. Determination of kappa light ",
+            "journal": "Diabetes",
+            "year": "1985",
+            "authors": [
+              "Teppo A M",
+              "Groop L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Albuminuria",
+              "Blood Proteins",
+              "Child",
+              "Circadian Rhythm",
+              "Diabetes Mellitus, Type 1",
+              "Diabetic Retinopathy",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3924692/"
+          },
+          {
+            "pmid": "26839120",
+            "title": "Presence of retinal pericyte-reactive autoantibodies in diabetic retinopathy patients.",
+            "abstract": "The loss of retinal pericytes (RPCs) is a hallmark of early stage diabetic retinopathy (DR), but the mechanism underlying RPC death is unclear. Although it was postulated in previous studies using bovine RPCs that autoantibodies against RPCs might develop and induce RPC death, it is unknown whether autoantibodies against cell-surface antigens on human RPCs exist in DR patients, whether such autoantibodies contribute to RPC damage/loss, and if they do, through which mechanism. We screened serum samples from DR patients and controls using primary human RPCs and found that that levels of IgGs reactive to RPCs were significantly higher in the DR group than the control group. Serum samples with higher RPC-reactive IgG levels induced more severe complement-mediated RPC damage than those with lower RPC-reactive IgG levels. We also assessed levels of the complement-activation products C3a, C4a and C5a in these serum samples, and found that serum levels of C3a and C5a, but not C4a, were higher ",
+            "journal": "Scientific reports",
+            "year": "2016",
+            "authors": [
+              "Zhang Lingjun",
+              "Li Yan",
+              "Payne John",
+              "Srivastava Sunil",
+              "Fan Xingjun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antigens, Surface",
+              "Autoantibodies",
+              "Cells, Cultured",
+              "Complement Activation",
+              "Complement C3a",
+              "Complement C4a",
+              "Complement C5a",
+              "Diabetic Retinopathy",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26839120/"
+          },
+          {
+            "pmid": "33491329",
+            "title": "Variation of IgG N-linked glycosylation profile in diabetic retinopathy.",
+            "abstract": "The relationship of immunoglobulin G (IgG) glycosylation with diabetes and diabetic nephropathy has been reported, but its role in diabetic retinopathy (DR) remains unclear. We aimed to investigate and validate the association of IgG glycosylation with DR.",
+            "journal": "Journal of diabetes",
+            "year": "2021",
+            "authors": [
+              "Wu Zhiyuan",
+              "Pan Huiying",
+              "Liu Di",
+              "Zhou Di",
+              "Tao Lixin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Aging",
+              "Diabetic Retinopathy",
+              "Female",
+              "Glycosylation",
+              "Humans",
+              "Immunoglobulin G",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33491329/"
+          },
+          {
+            "pmid": "24024123",
+            "title": "High calorie diet triggers hypothalamic angiopathy.",
+            "abstract": "Obesity, type 2 diabetes, and related diseases represent major health threats to modern society. Related pathophysiology of impaired neuronal function in hypothalamic control centers regulating metabolism and body weight has been dissected extensively and recent studies have started focusing on potential roles of astrocytes and microglia. The hypothalamic vascular system, however, which maintains the microenvironment necessary for appropriate neuronal function, has been largely understudied. We recently discovered that high fat/high sucrose diet exposure leads to increased hypothalamic presence of immunoglobulin G (IgG1). Investigating this phenomenon further, we have discovered a significant increase in blood vessel length and density in the arcuate nucleus (ARC) of the hypothalamus in mice fed a high fat/high sucrose diet, compared to matched controls fed standard chow diet. We also found a clearly increased presence of α-smooth muscle actin immunoreactive vessels, which are rarely p",
+            "journal": "Molecular metabolism",
+            "year": "2012",
+            "authors": [
+              "Yi Chun-Xia",
+              "Gericke Martin",
+              "Krüger Martin",
+              "Alkemade Anneke",
+              "Kabra Dhiraj G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24024123/"
+          },
+          {
+            "pmid": "4900817",
+            "title": "Immunohistological studies on human diabetic and non-diabetic eyes. I. Fluorescent labelling of insulin and insulin antibodies.",
+            "abstract": "",
+            "journal": "Acta ophthalmologica",
+            "year": "1969",
+            "authors": [
+              "Werner A U",
+              "Larsen H W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Animals",
+              "Basement Membrane",
+              "Child",
+              "Child, Preschool",
+              "Choroid",
+              "Cornea",
+              "Diabetic Retinopathy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4900817/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9937267303466796,
+        "txgnn_rank": 7607,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05493761",
+            "title": "Effect of Anti-osteoporotic Medications on Hepatic Steatosis and Fibrosis of Women With Postmenopausal Osteoporosis and Nonalcoholic Fatty Liver Disease",
+            "phase": "PHASE4",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-12-23",
+            "completion_date": "2026-09",
+            "country": "Greece",
+            "enrollment": 72,
+            "brief_summary": "Nonalcoholic fatty liver disease (NAFLD) is a chronic, metabolic liver disease that is closely related to obesity, type 2 diabetes mellitus (T2DM) and metabolic syndrome (MetS) in a bidirectional mode. NAFLD affects approximately 25% of the worldwide population. NAFLD refers to a phenotypic spectrum, including steatosis, inflammation and fibrosis, which can lead to cirrhosis and hepatocellular carcinoma in a minority of patients. However, despite its high prevalence, morbidity and mortality, as ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* postmenopausal women aged \\> 40 years\n* diagnosis of osteoporosis, or osteopenia and Fracture Assessment Risk (FRAX) score indicative for initiation of anti-osteoporotic treatment, or osteopenia and history of low-energy fracture. Evaluation of osteopenia and osteoporosis will",
+            "endpoints": [
+              "Hepatic steatosis: Ultrasound-Guided Attenuation Parameter (UGAP) measured on an ultrasound machine GE Logiq E10s."
+            ],
+            "sponsor": "Aristotle University Of Thessaloniki",
+            "url": "https://clinicaltrials.gov/study/NCT05493761"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00559585",
+            "title": "A Phase IIIB Multicenter, Randomized, Double-Blind, Double-Dummy Study to Compare the Efficacy and Safety of Abatacept Administered Subcutaneously and Intravenously in Subjects With Rheumatoid Arthritis, Receiving Background Methotrexate, and Experiencing an Inadequate Response to Methotrexate",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-01",
+            "completion_date": "2014-09",
+            "country": "Australia, India, Belgium, United States, Peru, Canada, South Korea, Netherlands, Italy, Chile, Russia, Ireland, Poland, United Kingdom, France, Brazil, Germany, Argentina, Mexico, Hungary, Turkey (Türkiye), Greece, South Africa, Taiwan",
+            "enrollment": 2492,
+            "brief_summary": "The purpose of this study is to determine whether a weekly subcutaneous dose of abatacept yields clinical efficacy comparable to that of monthly intravenous doses of abatacept in participants with rheumatoid arthritis and an inadequate response to current methotrexate therapy.",
+            "eligibility_criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com\n\nInclusion Criteria:\n\n* Subjects who are considered methotrexate inadequate responders\n* 10 or more swollen joints (66 joint count) and 12 or more tender joints (68 joint count)\n\nExclusion Criteria:",
+            "endpoints": [
+              "Double-blind Period: Number of Participants Achieving American College of Rheumatology (ACR) 20 Response at Day 169",
+              "Anti-TNF Failure Sub-Study Double Blind Period : Number of Participants With Positive Anti-abatacept or Anti-Cytotoxic T Lymphocyte Antigen 4-T Cell (CTLA4-T) Response in Anti-TNF Failure Population"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT00559585"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9887129068374634,
+        "txgnn_rank": 11493,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9790327548980712,
+        "txgnn_rank": 17477,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31905944",
+            "title": "Steroid Therapy and Steroid Response in Autoimmune Pancreatitis.",
+            "abstract": "Autoimmune pancreatitis (AIP), a unique subtype of pancreatitis, is often accompanied by systemic inflammatory disorders. AIP is classified into two distinct subtypes on the basis of the histological subtype: immunoglobulin G4 (IgG4)-related lymphoplasmacytic sclerosing pancreatitis (type 1) and idiopathic duct-centric pancreatitis (type 2). Type 1 AIP is often accompanied by systemic lesions, biliary strictures, hepatic inflammatory pseudotumors, interstitial pneumonia and nephritis, dacryoadenitis, and sialadenitis. Type 2 AIP is associated with inflammatory bowel diseases in approximately 30% of cases. Standard therapy for AIP is oral corticosteroid administration. Steroid treatment is generally indicated for symptomatic cases and is exceptionally applied for cases with diagnostic difficulty (diagnostic steroid trial) after a negative workup for malignancy. More than 90% of patients respond to steroid treatment within 1 month, and most within 2 weeks. The steroid response can be con",
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "authors": [
+              "Matsubayashi Hiroyuki",
+              "Ishiwatari Hirotoshi",
+              "Imai Kenichiro",
+              "Kishida Yoshihiro",
+              "Ito Sayo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Aged",
+              "Autoimmune Pancreatitis",
+              "Cataract",
+              "Diabetes Mellitus",
+              "Female",
+              "Glaucoma",
+              "Humans",
+              "Immunoglobulin G"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31905944/"
+          },
+          {
+            "pmid": "9213052",
+            "title": "Cerebellar ataxia, dementia, pyramidal signs, cortical cataract of the posterior pole and a raised IgG index in a patient with a sporadic form of olivopontocerebellar atrophy.",
+            "abstract": "Middle-aged patients who initially present with a progressive cerebellar ataxia, in the absence of a known familial pattern are often referred to under the descriptive diagnosis of 'idiopathic' late onset cerebellar ataxia. If these patients in time develop additional pyramidal or extrapyramidal features then they should be labeled as olivopontocerebellar atrophy (sOPCA). This case report describes a patient with OPCA with cerebellar ataxia as the presenting and most prominent feature in combination with dementia, pyramidal signs, cortical cataract of the posterior pole and a raised IgG index in cerebrospinal fluid. To the best of our knowledge this combination of signs and symptoms have not been described before.",
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "1997",
+            "authors": [
+              "Schelhaas H J",
+              "Hageman G",
+              "Post J G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Atrophy",
+              "Biopsy",
+              "Brain",
+              "Cataract",
+              "Cerebellum",
+              "Cerebral Cortex",
+              "Dementia",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9213052/"
+          },
+          {
+            "pmid": "21738273",
+            "title": "Clinical features of ocular toxoplasmosis in Korean patients.",
+            "abstract": "We report here the records of 10 consecutive Korean patients (10 eyes) with ocular toxoplasmosis which showed the typical clinical manifestations with seropositivity for Toxoplasma gondii specific IgG antibodies by micro-ELISA between 2006 and 2010. Nine patients were males and 1 was female; their age was 50.5 ± 13.8 years. The most common accompanying signs were vitritis (100%), anterior uveitis (70%), and scattered white deposit (80%). Pre-existing retinochoroidal scar was found in 1 (10%) patient. All patients received antiparasitic chemotherapy and systemic corticosteroid treatment, which resolved the presenting attack and recovered the visual acuity better than initial one in 9 patients and worse in 1. Optic atrophy, cataract, and retinal neovascularization were observed during the follow-up period and recurrence was detected in 3 eyes (30%) 6 to 20 months after the initial attack. In Korea, although rarely detected and reported, ocular toxoplasmosis needs more attention in clinic",
+            "journal": "The Korean journal of parasitology",
+            "year": "2011",
+            "authors": [
+              "Park Young-Hoon",
+              "Han Jae-Hyung",
+              "Nam Ho-Woo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Age Distribution",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Antibodies, Protozoan",
+              "Antiprotozoal Agents",
+              "Cataract",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21738273/"
+          },
+          {
+            "pmid": "18539933",
+            "title": "Associations of seroreactivity against crystallin proteins with disease activity and cataract in patients with uveitis.",
+            "abstract": "betaB1-crystallin is a putative target of an autoantibody observed in a subset of patients with uveitis. The purpose of this study was to determine whether seroreactivity against betaB1 or other specific purified crystallin proteins is observed in patients with uveitis and whether this reactivity is associated with either cataract or active intraocular inflammation.",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2008",
+            "authors": [
+              "Chen Ling",
+              "Holland Gary N",
+              "Yu Fei",
+              "Levinson Ralph D",
+              "Lampi Kirsten J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Autoantibodies",
+              "Autoantigens",
+              "Cataract",
+              "Crystallins",
+              "Female",
+              "Humans",
+              "Immunoblotting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18539933/"
+          },
+          {
+            "pmid": "23070707",
+            "title": "Fuchs' heterochromic cyclitis: a post-infectious manifestation of ocular toxoplasmosis?",
+            "abstract": "The purpose of this article is to report the development of Fuchs' heterochromic cyclitis (FHC) secondary to toxoplasmosis chorioretinitis. The design is based on observational case series report. We report in this article six cases of typical FHC developing secondary to ocular toxoplasmosis. Intraocular immunoglobulin G production against Toxoplasma gondii was determined in the aqueous humor of five patients by calculation of the Goldmann-Witmer coefficient (GWC). The clinical examination revealed typical FHC with no active chorioretinal scar. We report on five women and one man (aged 33-64 years old; median 44.6 years) who developed FHC over a period of time ranging from 2-13 years. A positive GWC (>3) was found in four patients; of the two remaining patients one was negative and the other did not have anterior chamber paracentesis. Four patients were treated for an active ocular toxoplasmic lesion before the development of FHC with pyrimethamine, sulfadiazine and corticosteroids. Tw",
+            "journal": "International ophthalmology",
+            "year": "2013",
+            "authors": [
+              "Jad Akesbi",
+              "Céline Terrada",
+              "Bahram Bodaghi",
+              "Phuc LeHoang",
+              "Nathalie Cassoux"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Anti-Infective Agents",
+              "Female",
+              "Fuchs' Endothelial Dystrophy",
+              "Fundus Oculi",
+              "Humans",
+              "Iridocyclitis",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23070707/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9790327548980712,
+        "txgnn_rank": 17478,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "304264",
+            "title": "Immunoglobulins and antinuclear antibodies in aqueous humour from patients with juvenile \"rheumatoid\" arthritis (Still's disease).",
+            "abstract": "Aqueous humour and blood from twenty cataractous patients with chronic anterior uveitis and the monopauciarticular form of juvenile rheumatoid arthritis were tested for immunoglobulins G, A, and M and for autoantibodies, particularly those against nuclear antigens. The aqueous immunoglobulins were raised in the majority of patients even when the eyes were normal biomicroscopically. Raised IgG antinuclear antibodies were found in 85% of the aqueous samples. Information obtained from the study of aqueous humour from fourteen patients with senile cataract was used for statistical analysis of these data. The presence of high molecular weight immunoglobulins in the aqueous humour from patients with Still's disease suggests an abnormal blood-ocular barrier which may be responsible for the recurrence which follows an ostensibly treated primary attack of uveitis. The presence of antinuclear antibody in a few aqueous samples without a concomitant rise in the blood levels is suggestive of local ",
+            "journal": "Transactions of the ophthalmological societies of the United Kingdom",
+            "year": "1977",
+            "authors": [
+              "Rahi A H",
+              "Kanski J J",
+              "Fielder A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Antinuclear",
+              "Aqueous Humor",
+              "Arthritis, Juvenile",
+              "Cataract",
+              "Humans",
+              "Immunoglobulin G",
+              "Immunoglobulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/304264/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9788676500320436,
+        "txgnn_rank": 17553,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41038368",
+            "title": "Plasma N-glycan signature as biomarker for primary open angle glaucoma.",
+            "abstract": "Primary open angle glaucoma (POAG) is a major subtype of glaucoma and a leading cause of irreversible visual impairment and blindness worldwide, but with elusive pathogenesis. Here we aimed to delineate the N-glycan profile in the plasma samples of POAG patients and compare to that of the mild senile cataract subjects. Fasting peripheral whole blood was collected from 44 unrelated Han Chinese POAG patients and 39 mild senile cataract subjects. The plasma samples were isolated and subjected to the N-glycan profiling analysis by high throughput fluorophore-assisted capillary gel electrophoreses in an DNA sequencer. In total, 21 major asialo N-glycan peaks were observed in the plasma samples of the POAG patients and cataract subjects through the capillary gel electrophoresis analysis. Relative peak height proportions of Peak III, VIII, and X showed significant differences in the POAG patients as compared to the cataract subjects, and combined Peak III, VIII, and X achieved an AUC of 0.792",
+            "journal": "Experimental eye research",
+            "year": "2025",
+            "authors": [
+              "Ng Tsz Kin",
+              "Zhang Chunxian",
+              "Liu Qingping",
+              "Chen Shao-Lang",
+              "Huang Chukai"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glaucoma, Open-Angle",
+              "Male",
+              "Female",
+              "Biomarkers",
+              "Polysaccharides",
+              "Aged",
+              "Middle Aged",
+              "Electrophoresis, Capillary",
+              "Intraocular Pressure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41038368/"
+          },
+          {
+            "pmid": "2211009",
+            "title": "Analysis of aqueous humor immunoglobulin G in uveitis by enzyme-linked immunosorbent assay, isoelectric focusing, and immunoblotting.",
+            "abstract": "Immunoglobulin G (IgG) in aqueous humor from patients with various uveitis syndromes was analyzed using a number of immunologic techniques. Sixty-five percent of patients with Fuchs' heterochromic cyclitis (FHC), 70% of patients with other forms of uveitis, and 44% of controls showed local synthesis of IgG, as demonstrated by an elevated IgG:albumin relative concentration ratio. Using an enzyme-linked immunosorbent assay to measure the concentration of IgG subclasses 1-4, a relative excess of IgG1 was found in the aqueous compared with the serum in FHC. Isoelectric focusing and immunoblotting studies revealed oligoclonal IgG bands in the aqueous of 13 of 23 (57%) patients with FHC, most being of the IgG1 subclass. Oligoclonal bands were not found in 18 patients with other types of uveitis or 13 patients undergoing surgery for senile cataract. These findings indicate intraocular production of IgG of restricted specificity in FHC, providing further evidence for local immune dysfunction i",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "1990",
+            "authors": [
+              "Murray P I",
+              "Hoekzema R",
+              "Luyendijk L",
+              "Konings S",
+              "Kijlstra A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aqueous Humor",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female",
+              "Humans",
+              "Immunoblotting",
+              "Immunoglobulin G",
+              "Iridocyclitis",
+              "Isoelectric Focusing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2211009/"
+          },
+          {
+            "pmid": "7448158",
+            "title": "Antibodies to lens antigens in cataract and after cataract surgery.",
+            "abstract": "By means of an enzyme-linked immunosorbent assay (ELISA) antibodies to whole lens homogenate were found in 50.0% of 38 patients with senile cataract and in 57.3% of 75 controls. The antibody titres were in the range of 10-160 in both groups. IgG antibodies occurred in 44.7% of patients and in 45.3% of controls, whereas IgM antibodies were found in 21.1% of the patients and in 40.0% of the controls (not significant). Postoperative uveitis occurred in 5 (31.6%) of 19 patients, who had antibodies in serum prior to the operation and in only 2 (10.5%) of 19 antibody-negative patients (P = 0.10).",
+            "journal": "The British journal of ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Nissen S H",
+              "Andersen P",
+              "Andersen H M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies",
+              "Cataract",
+              "Cataract Extraction",
+              "Female",
+              "Humans",
+              "Immunoglobulin G",
+              "Immunoglobulin M",
+              "Lens, Crystalline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7448158/"
+          },
+          {
+            "pmid": "15234281",
+            "title": "Fuchs heterochromic cyclitis: rubella virus antibodies and genome in aqueous humor.",
+            "abstract": "To characterize the polyspecific intraocular antibody synthesis in aqueous humor of patients with chronic inflammatory diseases of the eye and to detect the causative antigen in Fuchs heterochromic cyclitis (FHC).",
+            "journal": "American journal of ophthalmology",
+            "year": "2004",
+            "authors": [
+              "Quentin Claus D",
+              "Reiber Hansotto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Viral",
+              "Aqueous Humor",
+              "Child",
+              "Child, Preschool",
+              "DNA, Viral",
+              "Eye Infections, Viral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15234281/"
+          },
+          {
+            "pmid": "2166640",
+            "title": "Detection of locally produced antibodies to herpes viruses in the aqueous of patients with acquired immune deficiency syndrome (AIDS) or acute retinal necrosis syndrome (ARN).",
+            "abstract": "Intraocular synthesis of IgG antibodies against HSV (herpes simplex virus), CMV (cytomegalovirus) and VZV (varicella zoster virus) is considered as an indirect proof of uveoretinal infection. Paired serum and aqueous samples obtained from 16 patients with retinitis associated with AIDS, 3 patients with ARN, 8 patients with posterior uveitis not related to AIDS or ARN and 5 patients with senile cataract were tested for total immunoglobulin G levels and antibodies to HSV, CMV and VZV by the fixed cell immunofluorescence technique. Since therapy must often be started before results of cultures are available, rapid detection of locally produced anti-Herpes Virus antibodies can be a precious tool in the diagnosis of ocular viral infection. Using this technique we were able to confirm the clinically suspected diagnosis in more than 50% of AIDS patients with retinitis and in two out of three patients with ARN.",
+            "journal": "Current eye research",
+            "year": "1990",
+            "authors": [
+              "Luyendijk L",
+              "vd Horn G J",
+              "Visser O H",
+              "Suttorp-Schulten M S",
+              "vd Biesen P R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acquired Immunodeficiency Syndrome",
+              "Antibodies, Viral",
+              "Aqueous Humor",
+              "Cataract",
+              "Cytomegalovirus",
+              "Cytomegalovirus Infections",
+              "Eye Infections, Viral",
+              "Herpesvirus 3, Human",
+              "Humans",
+              "Immunoglobulin G"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2166640/"
+          },
+          {
+            "pmid": "9700004",
+            "title": "Local production of IgG and IgG subclasses in the aqueous humor of patients with Fuchs heterochromic cyclitis, herpetic uveitis and toxoplasmic chorioretinitis.",
+            "abstract": "Changes in local immunity are important when considering the physiopathology of uveitis. The aim of this study was to measure IgG and IgG subclass concentrations in the serum and the AH of patients with three different types of uveitis and to determine for each of them the presence of a local production of IgG in the intra-ocular compartment. This investigation was extended to IgG subclasses. Serum and AH of 46 patients, including 11 with Fuchs heterochromic cyclitis (FHC), 13 with toxoplasmic chorioretinitis, 11 with herpetic uveitis and 11 with senile cataract (taken as controls) were analyzed by ELISA for IgG and IgG subclasses. Three quotients (r1, IgG/albumin in serum; r2, IgG/albumin in AH; and R, r2/r1) were calculated in order to estimate the local synthesis (LS) of IgG and each IgG subclass. In AH of patients with herpetic uveitis, a concomitant and significant increase of all IgG subclasses as well as albumin (with no significant increase of r2 or R) was observed. This findin",
+            "journal": "International ophthalmology",
+            "year": "1997",
+            "authors": [
+              "Bloch-Michel E",
+              "Lambin P",
+              "Debbia M",
+              "Tounsi Y",
+              "Trichet C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Albumins",
+              "Antibodies, Monoclonal",
+              "Aqueous Humor",
+              "Cataract",
+              "Chorioretinitis",
+              "Enzyme-Linked Immunosorbent Assay"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9700004/"
+          },
+          {
+            "pmid": "900214",
+            "title": "Immune complexes in the aqueous humor and serum.",
+            "abstract": "The aqueous humor and serum of patients with various ocular diseases were analyzed for the occurrence of rheumatoid factor or immune complexes. Rheumatoid factor was detected by its direct agglutinating activity on IgG-coated particles (latex) and immune complexes were detected by their ability to inhibit exogenous rheumatoid factor or the subunit q of the first component of complement (Clq). Rheumatoid factor or inhibitory activity were found in the aqueous humor of nine of 11 patients with Fuchs' syndrome. In some patients who were examined two or three times, agglutination alternated with inhibition. Among 13 patients with endogeous uveitis, five had either agglutinating or inhibitory activities in their aqueous humor. The tests were also positive in the aqueous humor of three of seven patients with choroidal melanoma. A high titer of rheumatoid factor was found in the aqueous humor in an accidentally perforated eye that resulted in sympathetic ophthalmitis. No inhibitory or aggluti",
+            "journal": "American journal of ophthalmology",
+            "year": "1977",
+            "authors": [
+              "Dernouchamps J P",
+              "Vaerman J P",
+              "Michiels J",
+              "Masson P L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Agglutination",
+              "Antigen-Antibody Complex",
+              "Aqueous Humor",
+              "Cataract",
+              "Eye Neoplasms",
+              "Fuchs' Endothelial Dystrophy",
+              "Humans",
+              "Immunoglobulin A",
+              "Immunoglobulin G",
+              "Immunoglobulin M"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/900214/"
+          },
+          {
+            "pmid": "304264",
+            "title": "Immunoglobulins and antinuclear antibodies in aqueous humour from patients with juvenile \"rheumatoid\" arthritis (Still's disease).",
+            "abstract": "Aqueous humour and blood from twenty cataractous patients with chronic anterior uveitis and the monopauciarticular form of juvenile rheumatoid arthritis were tested for immunoglobulins G, A, and M and for autoantibodies, particularly those against nuclear antigens. The aqueous immunoglobulins were raised in the majority of patients even when the eyes were normal biomicroscopically. Raised IgG antinuclear antibodies were found in 85% of the aqueous samples. Information obtained from the study of aqueous humour from fourteen patients with senile cataract was used for statistical analysis of these data. The presence of high molecular weight immunoglobulins in the aqueous humour from patients with Still's disease suggests an abnormal blood-ocular barrier which may be responsible for the recurrence which follows an ostensibly treated primary attack of uveitis. The presence of antinuclear antibody in a few aqueous samples without a concomitant rise in the blood levels is suggestive of local ",
+            "journal": "Transactions of the ophthalmological societies of the United Kingdom",
+            "year": "1977",
+            "authors": [
+              "Rahi A H",
+              "Kanski J J",
+              "Fielder A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Antinuclear",
+              "Aqueous Humor",
+              "Arthritis, Juvenile",
+              "Cataract",
+              "Humans",
+              "Immunoglobulin G",
+              "Immunoglobulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/304264/"
+          },
+          {
+            "pmid": "23676484",
+            "title": "[Post-operational acute iridocyclitis and immune shifts in intraocular humor of patients with cataracts].",
+            "abstract": "The negative tendency of cataracts growth, which is a consequence of various diseases of the organism including those of eyes, combined in the concept \"the complicated cataract\" is clearly traced now. In the concept of such a complication of cataracts as the acute autoimmune iridocyclitis, the important role, in our opinion, should be given to regional immunopathological disorders, which testify to the withdrawal of the known phenomenon underlying in the immunological tolerance of post-barrier eye membrane \"a syndrome of eye anterior chamber-associated immune deviation (ACAID). Microcoaxial phacoemulsification was carried in three hundred patients with senile and complicated cataracts. The intraocular humor of the operated patients was subjected to immune-enzyme immunomorphological analysis for СD4, СD8, IgG and B-lymphocytic populations. On the base of performed clinical-laboratory research we found that the gravest inflammatory process in eye tissues manifested in the form of autoimm",
+            "journal": "Georgian medical news",
+            "year": "2013",
+            "authors": [
+              "Zil'fian A A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anterior Chamber",
+              "Aqueous Humor",
+              "Cataract",
+              "Eye",
+              "Female",
+              "Glaucoma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23676484/"
+          },
+          {
+            "pmid": "23676483",
+            "title": "[Post-operational acute inflammation of an eye in patients with cataracts].",
+            "abstract": "Despite the implementation of the newest highly efficient equipment into the practice of modern clinical ophthalmology, improvement of technical skills of ophthalmologist surgeons, the cases of post-operational acute endophthalmitis development, toxic syndrome of anterior segment of an eye, reactive aseptic inflammatory process are rather negatively reflected in the course of a post-operational process of rehabilitation. Under our supervision there were 1100 patients with the senile and complicated cataracts, who underwent operational intervention microcoaxial phacoemulsification. Differential diagnostics was carried out on the basis of the standard objective and subjective methods of research accepted in ophthalmology. On the basis of obtained data is found that clinical symptomatology of autoimmune aseptic anterior uveitis, in particular, the eye inflammation associated with the broken syndrome of an eye anterior chamber-associated immune deviation (ACAID), considerably differs from ",
+            "journal": "Georgian medical news",
+            "year": "2013",
+            "authors": [
+              "Zil'fian A A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Cataract",
+              "Eye",
+              "Female",
+              "Humans",
+              "Immunoglobulin G",
+              "Inflammation",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23676483/"
+          },
+          {
+            "pmid": "11519340",
+            "title": "[Tears' immunology in acute eye diseases].",
+            "abstract": "The aim of the study is to research the immunoglobulins' concentration into the tears liquid and into the blood serum at the patients with acute affections of the anterior ocular pole. The study was accomplished on two groups of patients: one group with herpetic Keratitis, the other with anterior uveitis, the second having a different etiology--that the viral one. Another group of patients with senile cataract was used like witness-group. The immunoglobulins concentration were detected into the serum and into the tears by the Mancini method of the radial immunodiffusion. The results indicate a general immunodefficiency signed by the decrease of IgG and IgM into the serum on the one hand, and the increase of local defense mechanisms reflected on the growing of IgA and IgG level into the tears, on the other hand.",
+            "journal": "Oftalmologia (Bucharest, Romania : 1990)",
+            "year": "2001",
+            "authors": [
+              "Ignat F",
+              "Godeanu L",
+              "Davidescu L",
+              "Voiculescu M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Cataract",
+              "Female",
+              "Humans",
+              "Immunoglobulin A",
+              "Immunoglobulin G",
+              "Immunoglobulin M"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11519340/"
+          },
+          {
+            "pmid": "15636219",
+            "title": "[Immunofluorescent profile of patients with different kinds of cataract (in vitro study)].",
+            "abstract": "The aim of the study is to determine the influence of some selected immunological factors upon the pathogenesis of senile cataract and cataract in diabetic people. Immunofluorescent pictures of opacities lenses in senile cataract patients and in diabetic cataract patients were compared. The fluorescent microscopic examination of these preparations revealed green colored concrements. The concrements thus observed proved the presence of a given class immunoglobulin in the lenticular nucleus sections. In all preparations (100%), the presence of IgG was found. None concrements' of C4 and the fibrin were spotted in the observed preparations.",
+            "journal": "Klinika oczna",
+            "year": "2004",
+            "authors": [
+              "Homziuk Magdalena",
+              "Iwaszkiewicz-Bilikiewicz Barbara",
+              "Kokot Witold"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cataract",
+              "Complement C4",
+              "Diabetes Complications",
+              "Fibrin",
+              "Fluorescent Antibody Technique",
+              "Humans",
+              "Immunoglobulin G",
+              "Lens, Crystalline",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15636219/"
+          },
+          {
+            "pmid": "8157173",
+            "title": "Interleukin 4, IgG and oligoclonal IgG in aqueous humor of cataract patients.",
+            "abstract": "We measured interleukin 4, total IgG, IgG-albumin relative concentration ratio, and oligoclonal IgG in aqueous humors of patients with uncomplicated senile cataracts and cataracts complicated by previous uveitis of unknown etiology. The values of all mentioned parameters are significantly elevated in aqueous humors of patients with complicated cataracts. The possible implications of our findings are briefly discussed.",
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "1994",
+            "authors": [
+              "Stambuk N",
+              "Curković T",
+              "Trbojević-Cepe M",
+              "Dujmov I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Albumins",
+              "Aqueous Humor",
+              "Cataract",
+              "Female",
+              "Humans",
+              "Immunoglobulin G",
+              "Interleukin-4",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8157173/"
+          },
+          {
+            "pmid": "2384014",
+            "title": "Aqueous humour analysis in Fuchs' heterochromic cyclitis.",
+            "abstract": "Aqueous humor from 23 patients with Fuchs' heterochromic cyclitis (FHC) was analysed by a number of immunological methods. Intraocular IgG synthesis was found in 65% of patients and oligoclonal IgG bands, mainly of the IgG1 subclass, identified in 57%. There was a relative increase in IgG1 (P less than 0.01) as compared to patients with senile cataract. Local production of the cytokine Interleukin-6 was demonstrated in 63% of patients (P less than 0.01). Analysis of aqueous by HPLC and SDS-PAGE failed to reveal any abnormalities specific for FHC. These findings add further evidence to the theory of immune dysregulation in this condition.",
+            "journal": "Current eye research",
+            "year": "1990",
+            "authors": [
+              "Murray P I",
+              "Hoekzema R",
+              "van Haren M A",
+              "Luyendijk L",
+              "Kijlstra A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Albumins",
+              "Aqueous Humor",
+              "Chromatography, High Pressure Liquid",
+              "Electrophoresis, Polyacrylamide Gel",
+              "Female",
+              "Humans",
+              "Immunoblotting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2384014/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9764816164970398,
+        "txgnn_rank": 18654,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.9764816164970398,
+        "txgnn_rank": 18655,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25904780",
+            "title": "A human monoclonal IgG that binds aβ assemblies and diverse amyloids exhibits anti-amyloid activities in vitro and in vivo.",
+            "abstract": "Alzheimer's disease (AD) and familial Danish dementia (FDD) are degenerative neurological diseases characterized by amyloid pathology. Normal human sera contain IgG antibodies that specifically bind diverse preamyloid and amyloid proteins and have shown therapeutic potential in vitro and in vivo. We cloned one of these antibodies, 3H3, from memory B cells of a healthy individual using a hybridoma method. 3H3 is an affinity-matured IgG that binds a pan-amyloid epitope, recognizing both Aβ and λ Ig light chain (LC) amyloids, which are associated with AD and primary amyloidosis, respectively. The pan-amyloid-binding properties of 3H3 were demonstrated using ELISA, immunohistochemical studies, and competition binding assays. Functional studies showed that 3H3 inhibits both Aβ and LC amyloid formation in vitro and abrogates disruption of hippocampal synaptic plasticity by AD-patient-derived soluble Aβ in vivo. A 3H3 single-chain variable fragment (scFv) retained the binding specificity of t",
+            "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": "2015",
+            "authors": [
+              "Levites Yona",
+              "O'Nuallain Brian",
+              "Puligedda Rama Devudu",
+              "Ondrejcak Tomas",
+              "Adekar Sharad P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amyloid",
+              "Amyloid beta-Peptides",
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Brain",
+              "Cataract",
+              "Cerebellar Ataxia",
+              "Cerebral Amyloid Angiopathy",
+              "Deafness",
+              "Dementia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25904780/"
+          },
+          {
+            "pmid": "1647470",
+            "title": "[Heterochromia complicata Fuchs, crystalline iridopathy and increased immunoglobulin G in aqueous humor. A case report].",
+            "abstract": "We report on a 35 year old patient suffering from heterochromia complicata Fuchs with a mature cataract. Multiple small whitish-yellowish crystal-lines on the iris at the 7 and 12 o'clock position were interpreted as Russell bodies and correlated with an elevated concentration of 7.2 mg/dl IgG in the aqueous humor analysis. IgA und IgM could not be detected (less than 1.1 mg/dl). Three months after an unremarkable extracapsular cataract extraction and posterior chamber lens implantation a positive Tyndall phenomenon and Russell bodies were found at just the same locations on the iris.",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1991",
+            "authors": [
+              "Bialasiewicz A",
+              "Gierth K",
+              "Naumann G O"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aqueous Humor",
+              "Female",
+              "Humans",
+              "Immunoglobulin G",
+              "Inclusion Bodies",
+              "Iridocyclitis",
+              "Iris",
+              "Lenses, Intraocular",
+              "Postoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1647470/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.9764816164970398,
+        "txgnn_rank": 18656,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00028",
+    "name": "Human immunoglobulin G",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Human immunoglobulin G"
+      },
+      "queried_at": "2026-03-09T23:10:57.982908",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Human immunoglobulin G"
+      },
+      "queried_at": "2026-03-09T23:11:02.701598",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T23:11:03.826620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T23:11:09.982273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T23:11:19.821569",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T23:11:29.577289",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T23:11:36.593474",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T23:11:48.299582",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T23:11:50.333882",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T23:11:58.928163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T23:12:00.825144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T23:12:01.855207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T23:12:13.565271",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T23:12:45.110038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T23:12:48.362327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T23:12:54.285839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T23:13:05.159241",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T23:13:07.970601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T23:13:14.859715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T23:13:18.996489",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T23:13:20.662706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T23:13:37.524454",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T23:13:43.317038",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-09T23:13:52.539645",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-09T23:14:05.264750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-09T23:14:35.572051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-09T23:14:38.740391",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-09T23:14:44.141899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-09T23:14:50.346869",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-09T23:15:26.102037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-09T23:15:29.442603",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Human immunoglobulin G",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-09T23:15:34.726543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T23:15:34.754763"
+  }
+}

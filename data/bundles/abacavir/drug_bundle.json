@@ -1,0 +1,2372 @@
+{
+  "drug": {
+    "inn": "Abacavir",
+    "drugbank_id": "DB01048",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.997914969921112,
+        "txgnn_rank": 3528,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15040537",
+            "title": "Susceptibility of HIV-2, SIV and SHIV to various anti-HIV-1 compounds: implications for treatment and postexposure prophylaxis.",
+            "abstract": "Limited information is available on the activity of antiretroviral drugs against human immunodeficiency virus type 2 (HIV-2) and simian immunodeficiency virus (SIV) strains to guide their use in treatment or prophylaxis. We evaluated the antiviral activity of 16 approved drugs and one experimental drug, AMD3100, against two wild-type HIV-2 (ROD and EHO) isolates, two strains of SIV (mac251 and B670), and two strains of simian-human immunodeficiency virus (SHIV) that contain the reverse transcriptase (RTSHIV) or envelope glycoprotein (SHIV89.6) of human immunodeficiency virus type 1 (HIV-1) in a SIV(mac239) background. Drug susceptibility was measured conventionally by the MT-4/MTT assay, and results were analysed as fold changes in 50% effective concentration (EC50) relative to the EC50 for HIV-1 (IIIB). The nucleoside reverse transcriptase inhibitors (NRTIs) zidovudine, lamivudine, stavudine, didanosine, zalcitabine and abacavir as well as the nucleotide reverse transcriptase inhibito",
+            "journal": "Antiviral therapy",
+            "year": "2004",
+            "authors": [
+              "Witvrouw Myriam",
+              "Pannecouque Christophe",
+              "Switzer William M",
+              "Folks Thomas M",
+              "De Clercq Erik"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Animals",
+              "Anti-HIV Agents",
+              "Consensus Sequence",
+              "HIV",
+              "HIV Reverse Transcriptase",
+              "HIV-2",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Molecular Sequence Data"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15040537/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.997914969921112,
+        "txgnn_rank": 3527,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01263015",
+            "title": "A Randomized, Double-Blind Study of the Safety and Efficacy of GSK1349572 Plus Abacavir/Lamivudine Fixed-Dose Combination Therapy Administered Once Daily Compared to Atripla Over 96 Weeks in HIV-1 Infected Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-02-01",
+            "completion_date": "2015-12-03",
+            "country": "Australia, Spain, France, Canada, Romania, Belgium, Netherlands, Germany, Italy, United Kingdom, Denmark, United States",
+            "enrollment": 844,
+            "brief_summary": "The purpose of this trial is to assess the non-inferior antiviral activity of GSK1349572 50 mg plus Abacavir/Lamivudine once daily versus Efavirenz/Emtricitabine/Tenofovir disoproxil fumarate (ATRIPLA® a trade mark of Bristol-Myers Squibb and Gilead Sciences LLC) over 48 weeks; non-inferiority will also be tested at Week 96. This study will be conducted in HIV-1 infected ART-naïve adult subjects. Long term antiviral activity, tolerability, safety, and development of viral resistance will be eval",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Screening plasma HIV-1 RNA ≥1000 c/mL\n* Antiretroviral-naïve (≤ 10 days of prior therapy with any antiretroviral agent following a diagnosis of HIV-1 infection)\n* Ability to understand and sign a written informed consent form\n* Willingness to use approved methods of contracept",
+            "endpoints": [
+              "Proportion of Subjects Responding Based on Plasma HIV-1 RNA <50 c/mL at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01263015"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01227824",
+            "title": "A Randomized, Double Blind Study of the Safety and Efficacy of GSK1349572 50mg Once Daily to Raltegravir 400mg Twice Daily Both Administered With Fixed-dose Dual Nucleoside Reverse Transcriptase Inhibitor Therapy Over 96 Weeks in HIV-1 Infected Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-10-19",
+            "completion_date": "2016-12-27",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Germany, Italy, United States, Russia",
+            "enrollment": 828,
+            "brief_summary": "The purpose of this trial is to assess the non-inferior antiviral activity of GSK1349572 50 mg once daily versus RAL 400mg twice daily over 48 weeks; non-inferiority will also be tested at Week 96. Both GSK1349572 and RAL will be given in combination with fixed-dose dual NRTI therapy (ABC/3TC or TDF/FTC). This study will be conducted in HIV-1 infected ART-naïve adult subjects.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Screening plasma HIV-1 RNA ≥1000 c/mL\n* Antiretroviral-naïve (≤ 10 days of prior therapy with any antiretroviral agent following a diagnosis of HIV-1 infection)\n* Ability to understand and sign a written informed consent form\n* Willingness to use approved methods of contracept",
+            "endpoints": [
+              "Percentage of Participants With Human Immunodeficiency Virus-1 (HIV-1) Ribonucleic Acid (RNA) [HIV-1RNA] <50 Copies (c)/Milliliter (mL) Through Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01227824"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00951015",
+            "title": "A Phase IIb Study to Select a Once Daily Dose of GSK1349572 Administered With Either Abacavir/Lamivudine or Tenofovir/Emtricitabine in HIV-1 Infected Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-07-30",
+            "completion_date": "2016-12-22",
+            "country": "Spain, France, Germany, Italy, United States, Russia",
+            "enrollment": 208,
+            "brief_summary": "This Phase IIb study in HIV-infected antiretroviral naive subjects will select an optimal once daily dose of GSK1349572 from a range of doses for future evaluation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected male or female adults at least 18 years of age. Women capable of becoming pregnant must use appropriate contraception during the study (as defined by the protocol);\n* HIV-1 infection with a screening plasma HIV-1 RNA greater than or equal to 1000copies/mL;\n* CD4",
+            "endpoints": [
+              "Number of Participants With Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies/Milliliter (c/mL) at Week 16"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT00951015"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01499199",
+            "title": "A Single-arm Study of the Safety, Efficacy and Central Nervous System and Plasma PK of GSK1349572 (Dolutegravir, DTG) 50 mg Once Daily in Combination With the Abacavir/Lamivudine Fixed Dose Combination Tablet Over 96 Weeks in HIV-1 Infected Antiretroviral Naive Adult Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-01",
+            "completion_date": "2014-05",
+            "country": "United States",
+            "enrollment": 13,
+            "brief_summary": "ING116070 is a Phase IIIb single-arm, open-label, multicenter study. The study will be conducted in approximately 14 HIV-1 infected antiretroviral therapy (ART)-naïve subjects. Subjects who fulfill eligibility requirements will receive dolutegravir (DTG) 50 mg once daily in combination with the fixed dose dual nucleoside reverse transcripatase inhibitor(NRTI) abacavir/lamivudine (ABC/3TC) for 96 weeks. One pair of pharmacokinetic (PK) samples in plasma and cerebral spinal fluid (CSF) (matching t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected adults at least 18 years of age. Females are eligible to enter and participate in the study if she is (1) of non-childbearing potential or (2) of childbearing potential with a negative pregnancy test at Screening and Day 1 and agrees to use protocol-defined meth",
+            "endpoints": [
+              "The Ratio of Total and Unbound DTG Concentrations Between Cerebrospinal Fluid (CSF) and Plasma at Week 2 and Week 16",
+              "Total DTG Plasma Concentrations at Week 2 and Week 16",
+              "Unbound DTG Plasma Concentrations at Week 2 and Week 16"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01499199"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "11684314",
+            "title": "Combined effect of zidovudine (ZDV), lamivudine (3TC) and abacavir (ABC) antiretroviral therapy in suppressing in vitro FIV replication.",
+            "abstract": "In view of close similarities at the molecular and clinical levels, feline immunodeficiency virus (FIV) infection of the domestic cat is subject of increasing attention as an animal model for human immunodeficiency virus (HIV) infection. A range of reverse transcriptase inhibitors effective against HIV are also active against FIV, allowing successful use of the cat model to investigate drug interactions and resistance development. Nevertheless, while combined nucleoside analog and protease inhibitor usage has proven remarkably effective in treating HIV infection, combination antiretroviral therapy of FIV infection has been hampered by lack of protease inhibitors specific for FIV. In an attempt to circumvent this problem, we have examined the feasibility of applying in the FIV system combination protocols lacking a protease inhibitor. We now report that, as observed during HIV infection, the nucleoside analog abacavir (ABC or 1592U89) is able to effectively block in vitro FIV-replicatio",
+            "journal": "Antiviral research",
+            "year": "2002",
+            "authors": [
+              "Bisset Leslie R",
+              "Lutz Hans",
+              "Böni Jürg",
+              "Hofmann-Lehmann Regina",
+              "Lüthy Ruedi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-HIV Agents",
+              "Cats",
+              "Cell Line",
+              "Dideoxynucleosides",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Feline Acquired Immunodeficiency Syndrome",
+              "Humans",
+              "Hydroxyurea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11684314/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.9977994561195374,
+        "txgnn_rank": 3665,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete familial combined hyperlipidemia",
+        "txgnn_score": 0.9868801832199096,
+        "txgnn_rank": 12926,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital human immunodeficiency virus",
+        "txgnn_score": 0.9275599122047424,
+        "txgnn_rank": 31081,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02893488",
+            "title": "A Phase I, Single Dose, Five-period Crossover Relative Bioavailability Study of a Fixed-dose Combination Dolutegravir/Abacavir/Lamivudine Dispersible Tablet as Compared to a Co-dose of TIVICAY and EPZICOM in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2016-09-01",
+            "completion_date": "2016-11-25",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "This is an open-label, randomized, crossover study in healthy adult subjects with 5 treatment groups over 5 dosing periods. This study will evaluate pharmacokinetic parameters and relative bioavailability of a dispersible, fixed-dose combination (FDC) tablet of TRIUMEQ™ (\\[abacavir, ABC\\]/\\[dolutegravir, DTG\\]/\\[lamivudine, 3TC\\]) when dispersed and consumed under four different dosing conditions in comparison to an oral dose of TIVICAY™ (DTG) + EPZICOM™ (ABC/3TC) non-dispersible tablets adminis",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Male or female aged between 18 and 65 years of age inclusive, at the time of signing the informed consent.\n* Healthy as determined by the investigator or medically qualified designee based on a medical evaluation including medical history, physical examination, laboratory tests",
+            "endpoints": [
+              "Area under the plasma concentration-time curve from time zero (pre-dose) extrapolated to infinite time (AUC[0-infinity]) of DTG, ABC, and 3TC",
+              "Maximum observed plasma concentration (Cmax) of DTG, ABC, and 3TC"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02893488"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02422797",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Dolutegravir Plus Rilpivirine From Current INI-, NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-04-21",
+            "completion_date": "2023-05-25",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Germany, Argentina, Italy, United States, Russia, Taiwan",
+            "enrollment": 518,
+            "brief_summary": "The aim of this study was to determine if virologically suppressed, human immunodeficiency virus type 1 (HIV-1) infected adults on an antiretroviral regimen (including 2 nucleoside reverse transcriptase inhibitors \\[NRTIs\\] plus a third agent) remain suppressed upon switching to a two-drug regimen with dolutegravir (DTG) + rilpivirine (RPV). The study primarily assessed the non-inferiority antiviral activity of switching to DTG + RPV once daily compared to the continuation of current antiretrovi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have been able to understand and comply with protocol requirements, instructions, and restrictions.\n* Participants must have been likely to complete the study as planned.\n* Participants must have been considered appropriate candidates for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 RNA <50 c/mL at Week 48 Using Snapshot Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02422797"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00197145",
+            "title": "A Phase III, Randomized, Double-blind, Placebo-controlled, Multicenter, Parallel Group Study to Compare the Efficacy and Safety of GW873140 400mg BID in Combination With a Ritonavir-containing Optimized Background Therapy (OBT) Regimen Versus Placebo Plus OBT Over 48 Weeks.",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2005-07-21",
+            "completion_date": "2007-09-11",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 24,
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of the CCR5 antagonist GW873140 or placebo in combination with an optimized background regimen in treatment-experienced HIV-infected subjects with R5-tropic virus",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-infected.\n* Screening viral load at least 5000copies/mL.\n* R5-tropic only virus at screening.\n* Total prior antiretroviral experience of at least 3 months and documented resistance to at least one drug in each of the following classes: nucleoside reverse transcriptase inhi",
+            "endpoints": [
+              "Number of Participants With Plasma HIV-1 RNA <400 Copies Per Milliliter (Copies /mL) at Week 24 and 48",
+              "Average Area Under the Curve Minus Baseline (AAUCMB) of Plasma HIV-1 RNA Through the Entire Study Period",
+              "Number of Participants With >= 1.0 log10 Copies/mL Decrease in Plasma HIV-1 RNA From Baseline Over Time"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT00197145"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00102960",
+            "title": "A Phase III, Randomized, Open-Label Trial to Evaluate Strategies for Providing Antiretroviral Therapy to Infants Shortly After Primary Infection in a Resource Poor Setting",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2005-07",
+            "completion_date": "2013-01",
+            "country": "N/A",
+            "enrollment": 377,
+            "brief_summary": "The purpose of this study is to compare the effects of anti-HIV drug courses of different lengths in infants who became HIV infected at birth.",
+            "eligibility_criteria": "Inclusion Criteria for Infants:\n\nNOTE: Per Letter of Amendment dated 04/04/07, Part B of this study is no longer recruiting participants. Per Letter of Amendment dated 09/16/08 Arm 1 of this study is longer recruiting.\n\n* HIV infected\n* Antiretroviral naive. Infants who have previously received anti",
+            "endpoints": [
+              "Time to Failure of First Line Therapy or Death",
+              "Number of Participants Who Experienced Immunological Failure Defined as Failure of CD4% to Reach 20% or CD4% Falls Below 20% on Two Occasions, Within 4 Weeks, at Any Time After the First 24 Weeks of Therapy (Initial Therapy or Restart)",
+              "Number of Participants Who Experienced Regimen-limiting ART Drug Toxicity"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00102960"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01458132",
+            "title": "WEUSKOP5522: Observational Drug Exposure Registry for Long-Term Follow-Up of Subjects Exposed to GSK2248761",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-07-29",
+            "completion_date": "2013-04-30",
+            "country": "N/A",
+            "enrollment": 19,
+            "brief_summary": "The World Health Organization has estimated that as many as 10% of the population worldwide may at some point experience at least one seizure. The percentage with active epilepsy is from 0.4% to 1%. From 40% to 65% of patients with HIV infection have been estimated to have some neurological involvement; the percentage reaches as high as 70% to 80% when post-mortem assessments are included. Estimates of the percentage of HIV-infected patients with seizure occurrence have varied widely, with one r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects who were previously randomized in the Phase 2b studies SGN113399 or SGN113404 and received GSK2248761\n\nExclusion Criteria:\n\n* N/A",
+            "endpoints": [
+              "Number of Participants With Occurrence of Seizure"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01458132"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02938520",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Open-Label Study Evaluating the Efficacy, Safety, and Tolerability of Long-Acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor Single Tablet Regimen in HIV-1 Infected Antiretroviral Therapy Naive Adult Participants",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-10-27",
+            "completion_date": "2025-12-31",
+            "country": "Spain, United Kingdom, France, Canada, Netherlands, Germany, Italy, United States, Russia, South Africa, Japan",
+            "enrollment": 631,
+            "brief_summary": "The First Long-Acting Injectable Regimen (FLAIR) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult participants whose virus is virologically suppressed on an integrase inhibitor single tablet regimen (INI STR) will remain suppressed after switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). In this study, the INI STR will be limited to abacavir/dolutegravir/lamivudine (ABC/DTG/3TC). FLAI",
+            "eligibility_criteria": "Inclusion Criteria: - HIV-1 infected, ART-naive men or women aged 18 years or greater at the time of signing the informed consent. - HIV-1 infection as documented by Screening plasma HIV-1 RNA \\>=1000 c/mL; - Antiretroviral-naive (\\<=10 days of prior therapy with any antiretroviral agent following a",
+            "endpoints": [
+              "Percentage of Participants With Virologic Failure (HIV-1 Ribonucleic Acid [RNA] >=50 Copies Per Millilter [mL]) Using Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02938520"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02429791",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Dolutegravir Plus Rilpivirine From Current INI-, NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-Infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-04-14",
+            "completion_date": "2023-05-30",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Belgium, Netherlands, Germany, Argentina, Italy, United States, Russia, Taiwan",
+            "enrollment": 510,
+            "brief_summary": "The aim of this study was to determine if virologically suppressed human immunodeficiency virus type 1 (HIV-1) infected adults on an antiretroviral regimen (including 2 nucleoside reverse transcriptase inhibitors \\[NRTIs\\] plus a third agent) remain suppressed upon switching to a two-drug regimen with dolutegravir (DTG) + rilpivirine (RPV). The study primarily assessed the non-inferiority antiviral activity of switching to DTG + RPV once daily compared to continuation of current antiretroviral r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have been able to understand and comply with protocol requirements, instructions, and restrictions.\n* Participants must have been likely to complete the study as planned.\n* Participants must have been considered appropriate candidates for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 RNA <50 c/mL at Week 48 Using Snapshot Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02429791"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03299049",
+            "title": "A Phase IIIb, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Long-acting Cabotegravir Plus Long-acting Rilpivirine Administered Every 8 Weeks or Every 4 Weeks in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-10-27",
+            "completion_date": "2029-12-31",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Argentina, Italy, United States, Mexico, Russia, Sweden, South Africa",
+            "enrollment": 1049,
+            "brief_summary": "This Antiretroviral Therapy as Long Acting Suppression every 2 Months (ATLAS-2M) study is designed to demonstrate the non-inferior antiviral activity and safety of CAB LA + RPV LA administered every 8 weeks (Q8W) compared to CAB LA + RPV LA administered every 4 weeks (Q4W) over a 48-week treatment period in approximately 1020 adult HIV-1 infected subjects. Subjects will be divided in 2 groups; Group 1 will include subjects receiving current anti-retroviral (ART) standard of care (SOC) therapy wh",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects who will be able to understand and comply with protocol requirements, instructions, and restrictions.\n* Understand the long term commitment to the study and be likely to complete the study as planned\n* Be considered as an appropriate candidate for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus-ribonucleic Acid (HIV-RNA) >=50 Copies Per Milliliter (c/mL) as Per Food and Drug Administration (FDA) Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT03299049"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02105987",
+            "title": "201147: a Phase IIIb, Randomized, Open-label Study of the Safety, Efficacy, and Tolerability of Switching to a Fixed-dose Combination of Abacavir/Dolutegravir/ Lamivudine From Current Antiretroviral Regimen Compared With Continuation of the Current Antiretroviral Regimen in HIV-1 Infected Adults Who Are Virologically Suppressed, The STRIIVING Study.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-04",
+            "completion_date": "2015-12",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 555,
+            "brief_summary": "This study is a 48-week, Phase IIIb, randomly assigned, open-label, active-controlled, multicenter, parallel group, non-inferiority study. This study is designed to demonstrate the non-inferior antiviral activity of switching to the Abacavir (ABC) 600 milligrams (mg)/Dolutegravir(DTG) 50 mg/Lamivudine (3TC) 300 mg fixed-dose combination (FDC) compared with continuing the subject's current suppressive regimen through 24 weeks. The study will be conducted in approximately 538 Human Immunodeficienc",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Be able to understand and comply with protocol requirements, instructions, and restrictions;\n* Be likely to complete the study as planned;\n* Be considered appropriate candidates for participation in an investigative clinical trial with oral medication (e.g., no active substanc",
+            "endpoints": [
+              "Number of Participants With Plasma HIV-1 Ribonucleic Acid (RNA) <50 Copies Per Milliliter (c/mL) at Week 24 Using the Snapshot Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02105987"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03016533",
+            "title": "Open-label Access to Dolutegravir for HIV-1 Infected Children and Adolescents Completing IMPAACT Studies P1093 and P2019",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-06-06",
+            "completion_date": "2024-12-24",
+            "country": "Zimbabwe, Brazil, United States, Botswana, South Africa, Tanzania, Thailand",
+            "enrollment": 100,
+            "brief_summary": "Dolutegravir is a potent integrase strand transfer inhibitor. Abacavir/dolutegravir/lamivudine (ABC/DTG/3TC) is a fixed dose combination regimen containing two nucleoside reverse transcriptase inhibitors and dolutegravir. This is a phase 3b, non-randomized, open-label, multi-center, two treatment rollover study. The primary objective of this pediatric interventional study is to provide continued access to age appropriate formulations of investigational product (dolutegravir), either as Tivicay o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must have completed participation in one of the following parent studies, for the duration noted, with continued benefit from investigational product:\n\n  1. P1093 parent study through at least Week 180;\n  2. P2019 parent study through at least Week 48.\n* Participan",
+            "endpoints": [
+              "Number of Participants With Continued Access to Age Appropriate Formulation of Dolutegravir"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT03016533"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00951015",
+            "title": "A Phase IIb Study to Select a Once Daily Dose of GSK1349572 Administered With Either Abacavir/Lamivudine or Tenofovir/Emtricitabine in HIV-1 Infected Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-07-30",
+            "completion_date": "2016-12-22",
+            "country": "Spain, France, Germany, Italy, United States, Russia",
+            "enrollment": 208,
+            "brief_summary": "This Phase IIb study in HIV-infected antiretroviral naive subjects will select an optimal once daily dose of GSK1349572 from a range of doses for future evaluation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected male or female adults at least 18 years of age. Women capable of becoming pregnant must use appropriate contraception during the study (as defined by the protocol);\n* HIV-1 infection with a screening plasma HIV-1 RNA greater than or equal to 1000copies/mL;\n* CD4",
+            "endpoints": [
+              "Number of Participants With Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies/Milliliter (c/mL) at Week 16"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT00951015"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02120352",
+            "title": "A Phase IIb Study Evaluating a Long-Acting Intramuscular Regimen of GSK1265744 Plus TMC278 For The Maintenance of Virologic Suppression Following an Induction of Virologic Suppression on an Oral Regimen of GSK1265744 Plus Abacavir/Lamivudine in HIV-1 Infected, Antiretroviral Therapy-Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-04-28",
+            "completion_date": "2023-04-20",
+            "country": "Spain, France, Canada, Germany, United States",
+            "enrollment": 309,
+            "brief_summary": "This study is a Phase IIb, randomized, multicentre, parallel group, open-label, study having an overall objective to evaluate the antiviral activity, tolerability, and safety of two intramuscular (IM) dosing regimens of GSK744 LA plus TMC278 LA, relative to GSK744 30 milligram (mg) plus Abacavir/Lamivudine (ABC/3TC) given orally once daily (QD), in HIV-1 infected antiretroviral-naïve subjects. GSK744 is the oral formulation of GSK1265744 (cabotegravir), GSK744 LA is the long acting injectable fo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects screened for this study must be HIV-1 infected and \\>=18 years of age.\n* A female subject is eligible to enter and participate in the study if she: is of non-child-bearing potential defined as either post-menopausal (12 months of spontaneous amenorrhea and \\>=45 years",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus-1 (HIV-1) Ribonucleic Acid (RNA) Level Below 50 Copies/Milliliter (c/mL) at Week 32",
+              "Number of Participants With Protocol Defined Virologic Failure (PDVF) Until Week 32",
+              "Number of Participants With Any Serious Adverse Event (SAE) and Any Non-serious Adverse Event (Non-SAE) (Induction Period)"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02120352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01231555",
+            "title": "Phase 2b Study to Select a Once Daily Oral Dose of GSK2248761 Administered With Tenofovir/Emtricitabine or Abacavir/Lamivudine in HIV-1 Infected Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-11-18",
+            "completion_date": "2011-07-04",
+            "country": "Germany, Spain, France",
+            "enrollment": 23,
+            "brief_summary": "This 96 week, Phase 2b study in 150 HIV-1 infected antiretroviral (ART) naive adult subjects consists of a dose-ranging evaluation of GSK2248761 at blinded doses of 100 mg and 200 mg once daily with a control arm of open-label efavirenz (EFV) 600 mg once daily. The background ART for all 3 arms will be chosen by the Investigators and will be either abacavir/lamivudine \\[ABC/3TC\\] or tenofovir/emtricitabine \\[TDF/FTC\\] fixed dose combination (FDC) tablets. Antiviral activity, safety, PK, and deve",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected adults greater than or equal to 18 years of age. A female is eligible to enter and participate in the study if she is (1) Non-childbearing potential, (2) Child-bearing potential, with a negative pregnancy test at screen and Day 1 and agrees to use protocol-speci",
+            "endpoints": [
+              "Number of Participants With Plasma HIV-1 RNA Below 50 Copies/mL as a Function of Viral Load",
+              "Number of Participants With Serious Adverse Events (SAEs) and Adverse Events (AEs)"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01231555"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02951052",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Long-acting Cabotegravir Plus Long-acting Rilpivirine From Current INI- NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-10-28",
+            "completion_date": "2029-12-31",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Argentina, Italy, United States, Mexico, Russia, Sweden, South Africa",
+            "enrollment": 618,
+            "brief_summary": "The Antiretroviral Therapy as Long Acting Suppression (ATLAS) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult subjects with current viral suppression on a regimen with 2 nucleoside reverse transcriptase inhibitors (NRTIs) plus a third agent, remain suppressed upon switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). This is a Phase 3, multi-phase, randomized, open label, active-control",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged 18 years or older (or ≥19 where required by local regulatory agencies), at the time of signing the informed consent.\n* Must be on uninterrupted current regimen (either the initial or second ARV regimen) for at least 6 months prior to Screening. Any prior switch, defined a",
+            "endpoints": [
+              "Number of Participants With Virologic Failure (HIV-1 Ribonucleic Acid [RNA] >=50 Copies Per Millilter [mL]) Using Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02951052"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01641809",
+            "title": "A Phase IIb, Dose Ranging Study of Oral GSK1265744 in Combination With Nucleoside Reverse Transcriptase Inhibitors for Induction of Human Immunodeficiency Virus -1 (HIV-1) Virologic Suppression Followed by an Evaluation of Maintenance of Virologic Suppression When Oral GSK1265744 is Combined With Oral Rilpivirine in HIV-1 Infected, Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-08-06",
+            "completion_date": "2019-01-15",
+            "country": "Canada, United States",
+            "enrollment": 244,
+            "brief_summary": "The study is designed to select a dose of GSK1265744 primarily on the basis of antiviral activity and tolerability in HIV-1 infected, antiretroviral naive subjects.\n\nThis study consists of two parts:\n\nInduction Phase: Approximately 200 subjects will be randomized (50 subjects in each of the 4 treatment arms). The Induction Phase consists of a 24 week dose-ranging evaluation of GSK1265744 at blinded doses of 10 mg, 30 mg and 60 mg once-daily and a control arm of open-label efavirenz (EFV) 600 mg ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected male or female subjects \\>= 18 years of age\n* Screening plasma HIV-1 RNA \\>=1000 c/mL\n* CD4+ cell count \\>=200 cells/millimeter (mm)\\^3\n* ART-naive defined as having =\\<10 days of prior therapy with any antiretroviral agent following a diagnosis of HIV-1 infecti",
+            "endpoints": [
+              "Percentage of Participants With HIV-1 Ribonucleic Acid (RNA) <50 Copies/Milliliter (mL) at Week 48 Using the Missing, Switch, Discontinuation Equals Failure (MSDF) Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01641809"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04493216",
+            "title": "A Phase IIb, Randomized, Partially Blind, Active Controlled, Dose-range Finding Study of GSK3640254 Compared to a Reference Arm of Dolutegravir, Each in Combination With Nucleoside Reverse Transcriptase Inhibitors, in HIV-1 Infected Antiretroviral Treatment-naive Adults",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2020-11-18",
+            "completion_date": "2023-05-29",
+            "country": "Switzerland, Spain, France, Canada, Germany, Argentina, Italy, United States, Portugal, Russia, South Africa",
+            "enrollment": 161,
+            "brief_summary": "This is a phase 2b, randomized, multicenter, parallel group, partially blind (to GSK3640254 doses \\[100, 150 and 200 milligrams {mg}\\]), active controlled clinical trial. It aims to investigate the safety, efficacy and dose-response of GSK3640254 compared to dolutegravir (DTG), each given in combination with 2 Nucleoside Reverse Transcriptase Inhibitors (NRTIs) (abacavir/lamivudine \\[ABC/3TC\\] or emtricitabine/tenofovir alafenamide \\[FTC/TAF\\]).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be 18 years of age inclusive, at the time of signing the informed consent.\n* Treatment-naive, defined as no anti-retrovirals (ARVs) (in combination or monotherapy) received after the diagnosis of HIV-1 infection (for example \\[e.g.\\], use of Pre-exposure prop",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 Ribonucleic Acid (RNA) Less Than (<)50 Copies Per Milliliter (c/mL) at Week 24"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT04493216"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02831764",
+            "title": "A Phase III, Randomised, Double-blind, Multicentre, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in HIV-1-infected Treatment-naïve Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-07-18",
+            "completion_date": "2022-06-29",
+            "country": "Switzerland, Australia, Spain, France, Canada, Romania, Belgium, United Kingdom, Germany, Argentina, Italy, United States, Portugal, Peru, Mexico, Russia, Taiwan, Poland",
+            "enrollment": 722,
+            "brief_summary": "This study will compare safety, efficacy, and tolerability of a two drug regimen of dolutegravir (DTG) plus (+) lamivudine (3TC) administered once daily with DTG plus two nucleoside reverse transcriptase inhibitors (tenofovir disoproxil fumarate \\[TDF\\]/emtricitabine \\[FTC\\] fixed dose combination \\[FDC\\]) administered once daily in human immunodeficiency virus (HIV) 1 infected adult participants that have not previously received antiretroviral therapy. The study is designed to demonstrate the n",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be an HIV 1 infected adult \\>=18 years of age (or older, if required by local regulations) at the time of signing the informed consent\n* An eligible female participant should not be pregnant (as confirmed by a negative serum human chorionic gonadotrophin (hCG) test at Scr",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies/mL (c/mL) at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02831764"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04827134",
+            "title": "A Randomized, 2-Cohort, 2-Period, Single Dose, Crossover Clinical Study to Assess the Effect of Food on the Pediatric Dispersible Tablet Formulations of TRIUMEQ (Dolutegravir/Abacavir/Lamivudine) and DOVATO (Dolutegravir/Lamivudine) in Healthy Adult Participants",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-05-07",
+            "completion_date": "2021-07-23",
+            "country": "United States",
+            "enrollment": 33,
+            "brief_summary": "This study will assess the effect of food on the pharmacokinetics (PK) of pediatric formulations of TRIUMEQ (dolutegravir \\[DTG\\] 5 milligrams \\[mg\\]/abacavir \\[ABC\\] 60 mg/lamivudine \\[3TC\\] 30 mg) dispersible tablets and DOVATO (DTG 5 mg/3TC 30 mg) dispersible tablets in healthy adult participants. Additionally, safety and tolerability of these formulations will also be assessed. TRIUMEQ and DOVATO are registered trademarks of GlaxoSmithKline group of companies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must be 18 to 50 years of age inclusive, at the time of signing the informed consent.\n* Participants who are healthy as determined by the investigator or medically qualified designee based on a medical evaluation including medical history, physical examination, lab",
+            "endpoints": [
+              "Cohort 1: Area Under the Plasma Concentration-time Curve (AUC) From Time Zero Extrapolated to Infinity (AUC [0-inf]) of DTG, ABC and 3TC Following Administration of TRIUMEQ Under Fed and Fasted Conditions",
+              "Cohort 1: AUC From Time Zero to Time of Last Observed Quantifiable Concentration (AUC [0-t]) of DTG, ABC and 3TC Following Administration of TRIUMEQ Under Fed and Fasted Conditions",
+              "Cohort 1: Maximum Observed Concentration (Cmax) of DTG, ABC and 3TC Following Administration of TRIUMEQ Under Fed and Fasted Conditions"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT04827134"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02275780",
+            "title": "A Phase 3 Multicenter, Double-Blind, Randomized, Active Comparator-Controlled Clinical Trial to Evaluate the Safety and Efficacy of Doravirine (MK-1439) 100 mg Once Daily Versus Darunavir 800 mg Once Daily Plus Ritonavir 100 mg Once Daily, Each in Combination With TRUVADA™ or EPZICOM™/KIVEXA™, in Treatment-Naïve HIV-1 Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-12-01",
+            "completion_date": "2023-03-06",
+            "country": "N/A",
+            "enrollment": 769,
+            "brief_summary": "To establish a new treatment option for treatment-naïve participants with HIV-1, the efficacy and safety of doravirine will be determined relative to a protease inhibitor (PI). Participants will receive double-blind treatment during the 96-week Base Study. Eligible participants in either of the Base Study groups will continue to receive the doravirine-containing regimen open label for an additional 96 weeks in the Study Extension 1. Eligible participants who are deriving benefit will continue in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Is HIV-1 positive and has HIV treatment indicated based on physician assessment.\n* Has received no (0 days of) antiretroviral therapy (ART), including investigational antiretroviral agents.\n* Is considered clinically stable with no signs or symptoms of active infection for at ",
+            "endpoints": [
+              "Percentage of Participants Achieving Plasma HIV-1 RNA <50 Copies/mL at Week 48"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02275780"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00042289",
+            "title": "Pharmacokinetic Properties of Antiretroviral and Related Drugs During Pregnancy and Postpartum",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2003-06-09",
+            "completion_date": "2020-09-30",
+            "country": "Brazil, Argentina, United States, Botswana, South Africa, Tanzania, Puerto Rico, Thailand",
+            "enrollment": 1578,
+            "brief_summary": "IMPAACT P1026s is a Phase IV prospective clinical study to evaluate the pharmacokinetics (PKs) of antiretroviral (ARV) and tuberculosis (TB) medications in pregnant women and their infants. (Pharmacokinetics are the various interactions between a drug and the body.) This study also evaluated the PKs of certain ARVs in postpartum women before and after starting hormonal contraceptives. The PKs of these drugs were evaluated by measuring the amount of medicine present in blood and/or vaginal secret",
+            "eligibility_criteria": "Maternal Inclusion Criteria:\n\n* Participant must belong to one of the following 5 groups:\n\n  1. HIV-infected pregnant women greater than or equal to 20 weeks gestation NOT on TB treatment receiving one or more of the ARV drugs/drug combinations specified in the protocol\n  2. HIV-infected pregnant wo",
+            "endpoints": [
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Median (IQR) for ARVs and TB Drugs",
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Median (Range) for ARVs and TB Drugs",
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Geometric Mean (95% CI) for ARVs and TB Drugs"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00042289"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04340388",
+            "title": "Contribution of the Integrase Inhibitor Dolutegravir to Obesity and Cardiovascular Disease in Persons Living With HIV",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-09-17",
+            "completion_date": "2023-02-25",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "The goal of the study is to combine a collaborative and translational approach to evaluate the effect antiretroviral regimen switch to a dolutegravir containing regimen compared to continued treatment with a non- dolutegravir based regimen on on lipid and metabolic profiles, renal function, body composition, vascular function and diet.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubjects must meet the following criteria to be eligible for participation in this study:\n\n* Age greater than or equal to 18 years with HIV-1 who have been virologically suppressed (HIV-1 RNA \\< 50 copies for greater than or equal to 3 months on a non-integrase strand transfer i",
+            "endpoints": [
+              "Change in Weight"
+            ],
+            "sponsor": "Augusta University",
+            "url": "https://clinicaltrials.gov/study/NCT04340388"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02075593",
+            "title": "ING200336: A Prospective, Interventional Pharmacokinetic and Safety Study of DTG/ABC/3TC in Pregnant Women",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-12-17",
+            "completion_date": "2021-09-15",
+            "country": "Spain, Russia",
+            "enrollment": 4,
+            "brief_summary": "In this study, the dolutegravir/abacavir/lamivudine (DTG/ABC/3TC) fixed dose combination (FDC) tablet is being made available to women who become pregnant while participating in study ING117172. Continuation of antiretroviral therapy (ART) is key to both mother and the unborn fetus in order to maintain virologic suppression in the mother (thereby decreasing the risk for maternal disease progression), but also to reduce the risk of maternal-fetal transmission of human immunodeficiency virus type ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV infected females participating in ING117172 on the DTG/ABC/3TC treatment arm who became pregnant with a singleton and have not met any safety or confirmed virologic withdrawal criteria.\n* Signed and dated written informed consent is obtained from the subject or the subject",
+            "endpoints": [
+              "Area Under the Plasma Concentration Time Curve at Steady State During a Dosing Interval (AUC [0-tau]) for Dolutegravir",
+              "Maximum Observed Plasma Concentration (Cmax) for Dolutegravir",
+              "Drug Concentration at the End of Dosing Interval (Ctau) for Dolutegravir"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02075593"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01910402",
+            "title": "A Phase IIIb, Randomized, Open-label Study of the Safety and Efficacy of Dolutegravir/Abacavir/Lamivudine Once Daily Compared to Atazanavir and Ritonavir Plus Tenofovir/Emtricitabine Once Daily in HIV-1 Infected Antiretroviral Therapy Naïve Women",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-08-22",
+            "completion_date": "2022-08-18",
+            "country": "Spain, United Kingdom, France, Canada, Italy, Argentina, United States, Portugal, Mexico, Russia, South Africa, Puerto Rico, Thailand",
+            "enrollment": 499,
+            "brief_summary": "This study is designed to demonstrate the non-inferior antiviral activity of DTG/ABC/3TC fixed dose combination (FDC) once daily (OD) compared to atazanavir plus ritonavir (ATV+RTV) and tenofovir disoproxil fumarate/emtricitabine fixed dose combination (TDF/FTC FDC) OD in HIV-1 infected, ART-naïve women over 48 weeks. This study will also characterize the safety and tolerability of DTG/ABC/3TC FDC compared to ATV+RTV+TDF/FTC FDC. Sufficient number of subjects will be screened in order to ensure ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected females (gender at birth) \\>=18 years of age\n* Women capable of becoming pregnant must use appropriate contraception during the study (as defined by the protocol)\n* HIV-1 infection as documented by Screening plasma HIV-1 RNA \\>=500 c/mL.\n* Documentation that the",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 RNA <50 Copies/mL at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01910402"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01499199",
+            "title": "A Single-arm Study of the Safety, Efficacy and Central Nervous System and Plasma PK of GSK1349572 (Dolutegravir, DTG) 50 mg Once Daily in Combination With the Abacavir/Lamivudine Fixed Dose Combination Tablet Over 96 Weeks in HIV-1 Infected Antiretroviral Naive Adult Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-01",
+            "completion_date": "2014-05",
+            "country": "United States",
+            "enrollment": 13,
+            "brief_summary": "ING116070 is a Phase IIIb single-arm, open-label, multicenter study. The study will be conducted in approximately 14 HIV-1 infected antiretroviral therapy (ART)-naïve subjects. Subjects who fulfill eligibility requirements will receive dolutegravir (DTG) 50 mg once daily in combination with the fixed dose dual nucleoside reverse transcripatase inhibitor(NRTI) abacavir/lamivudine (ABC/3TC) for 96 weeks. One pair of pharmacokinetic (PK) samples in plasma and cerebral spinal fluid (CSF) (matching t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected adults at least 18 years of age. Females are eligible to enter and participate in the study if she is (1) of non-childbearing potential or (2) of childbearing potential with a negative pregnancy test at Screening and Day 1 and agrees to use protocol-defined meth",
+            "endpoints": [
+              "The Ratio of Total and Unbound DTG Concentrations Between Cerebrospinal Fluid (CSF) and Plasma at Week 2 and Week 16",
+              "Total DTG Plasma Concentrations at Week 2 and Week 16",
+              "Unbound DTG Plasma Concentrations at Week 2 and Week 16"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01499199"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39742354",
+            "title": "Subsequent pregnancies in the IMPAACT 2010/VESTED Trial: high rate of adverse outcomes in women living with HIV.",
+            "abstract": "Women with HIV (WHIV) have higher risks of adverse pregnancy outcomes, particularly in the absence of antiretroviral treatment(ART), and timing of ART may impact risk.",
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2024",
+            "authors": [
+              "Fairlie Lee",
+              "Brummel Sean",
+              "Ziemba Lauren",
+              "Coletti Anne",
+              "Chinula Lameck"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Pregnancy",
+              "Young Adult",
+              "Abortion, Spontaneous",
+              "Alkynes",
+              "Anti-HIV Agents",
+              "Benzoxazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39742354/"
+          },
+          {
+            "pmid": "29406430",
+            "title": "Brief Report: Abacavir/Lamivudine and Tenofovir/Emtricitabine in Pregnant Women With HIV: Laboratory and Clinical Outcomes in an Observational National Study.",
+            "abstract": "Abacavir-lamivudine (ABC/3TC) and tenofovir-emtricitabine (TDF/FTC) represent in the guidelines of several countries, including Italy and United States, the preferred nucleoside/nucleotide backbones of antiretroviral regimens. We assessed their profile in pregnancy using data from a national observational study.",
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2018",
+            "authors": [
+              "Floridia Marco",
+              "Pinnetti Carmela",
+              "Ravizza Marina",
+              "Masuelli Giulia",
+              "Personeni Carlo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "AIDS-Associated Nephropathy",
+              "Adult",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "CD4 Lymphocyte Count",
+              "Cesarean Section",
+              "Cholesterol",
+              "Dideoxynucleosides",
+              "Drug Combinations",
+              "Emtricitabine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29406430/"
+          },
+          {
+            "pmid": "31441211",
+            "title": "Multisystem impairment in South African adolescents with Perinatally acquired HIV on antiretroviral therapy (ART).",
+            "abstract": "Adolescents with perinatally acquired HIV (PHIV) are at risk of chronic disease due to long-standing immune suppression, HIV disease and antiretroviral therapy (ART) exposure. However, there are few data on multisystem disease in this population. We investigated the overlapping burden of neurocognitive, cardiovascular, respiratory and/or renal impairment among PHIV positive (PHIV+) adolescents.",
+            "journal": "Journal of the International AIDS Society",
+            "year": "2019",
+            "authors": [
+              "Frigati Lisa J",
+              "Brown Karryn",
+              "Mahtab Sana",
+              "Githinji Leah",
+              "Gray Diane"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Retroviral Agents",
+              "CD4 Lymphocyte Count",
+              "Cardiovascular Diseases",
+              "Child",
+              "Cognition Disorders",
+              "Cross-Sectional Studies",
+              "Dideoxynucleosides",
+              "Female",
+              "HIV Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31441211/"
+          },
+          {
+            "pmid": "34151853",
+            "title": "Inflammatory Myositis Secondary to Anti-Retroviral Therapy in a Child; Case Report and Review of the Literature.",
+            "abstract": "Here, we describe a five year old girl with congenital HIV who had a six-week onset of rapidly deteriorating mobility and progressive proximal muscle weakness, associated with a raised Creatine Kinase (CK) level of 4330 U/L [25-200 U/L], subsequently diagnosed with an inflammatory myositis. Potential causes were investigated by paediatric neurology and immunology teams. Her viral load had been undetectable over the preceding two years, excluding a primary HIV myositis. While MRI scanning did not show evidence of definite myositis, a muscle biopsy showed evidence of an inflammatory process, comprising a moderate endomysial, perimysial and perivascular mononuclear (CD8 + T cell) infiltrate with increased MHC expression. No particular features of dermatomyositis or immune-mediated necrotising myopathy were identified and there were no features of an inclusion body myositis.Given the absence of active HIV infection, the role of anti-retroviral medications was considered. She had had a rece",
+            "journal": "Journal of neuromuscular diseases",
+            "year": "2021",
+            "authors": [
+              "Monaghan Marie",
+              "Loh Charlotte",
+              "Jones Stephen",
+              "Oware Agyepong",
+              "Urankar Kathryn"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Child, Preschool",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Lamivudine",
+              "Myositis",
+              "Raltegravir Potassium",
+              "Viral Load"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34151853/"
+          },
+          {
+            "pmid": "28458904",
+            "title": "Fluticasone furoate induced iatrogenic Cushing syndrome in a pediatric patient receiving anti-retroviral therapy.",
+            "abstract": "We present a case of iatrogenic Cushing's syndrome, induced by treatment with fluticasone furoate (1-2 dd, 27.5 µg in each nostril) in a pediatric patient treated for congenital HIV. The pediatric patient described in this case report is a young girl of African descent, treated for congenital HIV with a combination therapy of Lopinavir/Ritonavir (1 dd 320/80 mg), Lamivudine (1 dd 160 mg) and Abacavir (1 dd 320 mg). Our pediatric patient presented with typical Cushingoid features (i.e. striae of the upper legs, full moon face, increased body and facial hair) within weeks after starting fluticasone furoate therapy, which was exacerbated after increasing the dose to 2 dd because of complaints of unresolved rhinitis. Biochemical analysis fitted iatrogenic Cushing's syndrome, with a repeatedly low cortisol (<0.03 µM, ref 0.14-0.60 µM) and low ACTH (9 pg/mL, ref 9-52 pg/mL) without signs of adrenal insufficiency. No other biochemical abnormalities that could point to adrenal or pituitary dys",
+            "journal": "Endocrinology, diabetes & metabolism case reports",
+            "year": "2017",
+            "authors": [
+              "van den Berg S A A",
+              "van 't Veer N E",
+              "Emmen J M A",
+              "van Beek R H T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28458904/"
+          },
+          {
+            "pmid": "11888583",
+            "title": "Comparison of dual nucleoside-analogue reverse-transcriptase inhibitor regimens with and without nelfinavir in children with HIV-1 who have not previously been treated: the PENTA 5 randomised trial.",
+            "abstract": "Treatment options for children with HIV-1 are limited. We aimed to compare activity and safety of three dual-nucleoside analogue reverse-transcriptase inhibitor (NRTI) regimens with or without a protease inhibitor in previously untreated children with HIV-1.",
+            "journal": "Lancet (London, England)",
+            "year": "2002",
+            "authors": [],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-HIV Agents",
+              "Child",
+              "Child, Preschool",
+              "Dideoxynucleosides",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Infections",
+              "HIV-1",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11888583/"
+          },
+          {
+            "pmid": "24781315",
+            "title": "Association between prenatal exposure to antiretroviral therapy and birth defects: an analysis of the French perinatal cohort study (ANRS CO1/CO11).",
+            "abstract": "Antiretroviral therapy (ART) has major benefits during pregnancy, both for maternal health and to prevent mother-to-child transmission of HIV. Safety issues, including teratogenic risk, need to be evaluated. We estimated the prevalence of birth defects in children born to HIV-infected women receiving ART during pregnancy, and assessed the independent association of birth defects with each antiretroviral (ARV) drug used.",
+            "journal": "PLoS medicine",
+            "year": "2014",
+            "authors": [
+              "Sibiude Jeanne",
+              "Mandelbrot Laurent",
+              "Blanche Stéphane",
+              "Le Chenadec Jérôme",
+              "Boullag-Bonnet Naima"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-HIV Agents",
+              "Congenital Abnormalities",
+              "Female",
+              "France",
+              "HIV Infections",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Infant, Newborn",
+              "Pregnancy",
+              "Prenatal Exposure Delayed Effects"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24781315/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "AIDS related complex",
+        "txgnn_score": 0.9275599122047424,
+        "txgnn_rank": 31082,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00002364",
+            "title": "An Exploratory Study of the Antiretroviral Activity of 1592U89 When Administered in Combination With Other Specific Nucleoside Reverse Transcriptase Inhibitors (NRTIs) in NRTI Experienced Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "To obtain preliminary evidence of antiretroviral activity of 1592U89 when administered in combination with other specific NRTI agents in NRTI experienced patients and to assess the safety and tolerance of multiple oral doses of 1592U89 when administered in combination with specific marketed NRTIs.",
+            "eligibility_criteria": "Inclusion Criteria\n\nPatients must have:\n\n* CD4+ cell count \\>= 100 /mm3.\n* Plasma HIV RNA \\>= 30,000 copies/ml.\n* Study participants may be recruited from all clinical categories, provided they do not meet any of the exclusion criteria.\n* Parent or legal guardian to sign written, informed consent fo",
+            "endpoints": [],
+            "sponsor": "NIH AIDS Clinical Trials Information Service",
+            "url": "https://clinicaltrials.gov/study/NCT00002364"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00001119",
+            "title": "A Study of the Effects of Combination Antiretroviral Therapy in Acute HIV-1 Infection With an Emphasis on Immunological Responses",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "1999-10",
+            "completion_date": "",
+            "country": "Australia, United States",
+            "enrollment": 288,
+            "brief_summary": "The purpose of this study is to find out whether these powerful combinations of anti-HIV drugs are safe and effective for use in patients in the early stages of HIV infection and to find out how patients' immune systems react to HIV and anti-HIV drugs.\n\nDoctors generally treat patients in the early stages of HIV infection with the same anti-HIV drugs taken by patients who have had HIV for a long time. These drugs lower the level of HIV in the blood. However, doctors do not know whether patients ",
+            "eligibility_criteria": "Inclusion Criteria\n\nPatients may be eligible for the main study if they:\n\n* Became infected with HIV within the last 120 days.\n* Are at least age 16 and have written consent of a parent or guardian if under 18.\n* Are willing to practice abstinence or use barrier methods of birth control, such as con",
+            "endpoints": [],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00001119"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "17401456",
+            "title": "Factors in AIDS dementia complex trial design: results and lessons from the abacavir trial.",
+            "abstract": "To determine the efficacy of adding abacavir (Ziagen, ABC) to optimal stable background antiretroviral therapy (SBG) to AIDS dementia complex (ADC) patients and address trial design.",
+            "journal": "PLoS clinical trials",
+            "year": "2007",
+            "authors": [
+              "Brew Bruce J",
+              "Halman Mark",
+              "Catalan Jose",
+              "Sacktor Ned",
+              "Price Richard W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17401456/"
+          },
+          {
+            "pmid": "17620824",
+            "title": "Drug hypersensitivity in HIV.",
+            "abstract": "Drug hypersensitivity has been reported to occur 100 times more commonly in those living with HIV. In the first decade of HIV treatment, this mainly involved drugs used to treat HIV-related infections but now primarily includes drugs used to treat HIV. This review focuses on the current knowledge of the epidemiology, pathophysiology and clinical features of drug hypersensitivity reactions of drugs used in the management of the HIV-infected patient.",
+            "journal": "Current opinion in allergy and clinical immunology",
+            "year": "2007",
+            "authors": [
+              "Phillips Elizabeth",
+              "Mallal Simon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Anti-HIV Agents",
+              "Anti-Infective Agents",
+              "Dideoxynucleosides",
+              "Drug Hypersensitivity",
+              "Genetic Predisposition to Disease",
+              "HIV Infections",
+              "HLA-B Antigens",
+              "Humans",
+              "Reverse Transcriptase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17620824/"
+          },
+          {
+            "pmid": "21480946",
+            "title": "Hypersensitivity reactions to HIV therapy.",
+            "abstract": "Many drugs used for the treatment of HIV disease (including the associated opportunistic infections) can cause drug hypersensitivity reactions, which vary in severity, clinical manifestations and frequency. These reactions are not only seen with the older compounds, but also with the newer more recently introduced drugs. The pathogenesis is unclear in most cases, but there is increasing evidence to support that many of these are mediated through a combination of immunologic and genetic factors through the major histocompatibility complex (MHC). Genetic predisposition to the occurrence of these allergic reactions has been shown for some of the drugs, notably abacavir hypersensitivity which is strongly associated with the class I MHC allele, HLA-B*5701. Testing before the prescription of abacavir has been shown to be of clinical utility, has resulted in a change in the drug label, is now recommended in clinical guidelines and is practiced in most Western countries. For most other drugs, ",
+            "journal": "British journal of clinical pharmacology",
+            "year": "2011",
+            "authors": [
+              "Chaponda Mas",
+              "Pirmohamed Munir"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Anti-HIV Agents",
+              "Anti-Infective Agents",
+              "Dideoxynucleosides",
+              "Drug Hypersensitivity",
+              "Genetic Predisposition to Disease",
+              "HIV Protease Inhibitors",
+              "Humans",
+              "Reverse Transcriptase Inhibitors",
+              "Abacavir"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21480946/"
+          },
+          {
+            "pmid": "9883269",
+            "title": "Human immunodeficiency virus infection, Part II.",
+            "abstract": "The acceptance of highly active antiretroviral therapy (HAART) among patients and health care providers has had a dramatic impact on the epidemiology and clinical characteristics of many opportunistic infections associated with human immunodeficiency virus (HIV). Previously intractable opportunistic infections and syndromes are now far less common. In addition, effective antibiotic prophylactic therapies have had a profound impact on the risk of patients developing particular infections and on the incidence of these infections overall. Most notable among these are Pneumocystis carinii, disseminated Mycobacterium avium complex, tuberculosis, and toxoplasmosis. Nevertheless, infections continue to cause significant morbidity and mortality among patients who are infected with HIV. The role of HAART in many clinical situations is unquestioned. Compelling data from clinical trials support the use of these therapies during pregnancy to prevent perinatal transmission of HIV. HAART is also rec",
+            "journal": "Disease-a-month : DM",
+            "year": "1998",
+            "authors": [
+              "Horowitz H W",
+              "Telzak E E",
+              "Sepkowitz K A",
+              "Wormser G P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Algorithms",
+              "Anti-HIV Agents",
+              "Cytomegalovirus Infections",
+              "Decision Trees",
+              "Female",
+              "Humans",
+              "Male",
+              "Mycobacterium avium-intracellulare Infection",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9883269/"
+          },
+          {
+            "pmid": "37967231",
+            "title": "Initial antiretroviral therapy regimen and risk of heart failure.",
+            "abstract": "Heart failure risk is elevated in people with HIV (PWH). We investigated whether initial antiretroviral therapy (ART) regimens influenced heart failure risk.",
+            "journal": "AIDS (London, England)",
+            "year": "2024",
+            "authors": [
+              "Silverberg Michael J",
+              "Pimentel Noel",
+              "Leyden Wendy A",
+              "Leong Thomas K",
+              "Reynolds Kristi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Female",
+              "HIV Infections",
+              "Reverse Transcriptase Inhibitors",
+              "Anti-HIV Agents",
+              "Cohort Studies",
+              "HIV Protease Inhibitors",
+              "Dideoxynucleosides",
+              "Tenofovir"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37967231/"
+          },
+          {
+            "pmid": "33886444",
+            "title": "Mycobacterium avium complex and Cryptococcus neoformans co-infection in a patient with acquired immunodeficiency syndrome: a case report.",
+            "abstract": "Opportunistic infections (OI) are common in patients with acquired immunodeficiency syndrome (AIDS). Cryptococcus neoformans and Mycobacterium avium complex (MAC) are frequently responsible of such infections. However, concurrent infection with these two pathogens is uncommon and underreported in the literature.",
+            "journal": "Acta clinica Belgica",
+            "year": "2022",
+            "authors": [
+              "Gregoire Emilien",
+              "Pirotte Benoit François",
+              "Moerman Filip",
+              "Altdorfer Antoine",
+              "Gaspard Laura"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Acquired Immunodeficiency Syndrome",
+              "Adult",
+              "Antigens, Fungal",
+              "Coinfection",
+              "Cryptococcosis",
+              "Cryptococcus neoformans",
+              "HIV Infections",
+              "Homosexuality, Male",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33886444/"
+          },
+          {
+            "pmid": "40447886",
+            "title": "Differential effects of fentanyl compared to morphine on neuroinflammatory signaling in the brain in EcoHIV-infected mice.",
+            "abstract": "HIV-associated neurocognitive disorders (HAND) pose significant challenges, particularly in individuals with comorbid opioid use disorder (OUD). Fentanyl, a potent synthetic opioid, is a leading contributor to opioid-related fatalities, yet its effects in the context of HIV remain poorly understood. This study investigated the differential impacts of fentanyl and morphine on neuroinflammatory signaling, blood-brain barrier (BBB) integrity, and antiretroviral (ARV) brain accumulation in EcoHIV-infected mice. C57BL/6 mice were assigned to morphine, fentanyl, or saline treatment groups, with or without EcoHIV infection. Tight junction proteins claudin-5 and ZO-1 were measured in striatum and hippocampus via ELISA, while proinflammatory chemokines were analyzed by multiplex assay. In EcoHIV-infected mice, both opioids significantly increased CCL2, CCL4, CCL5, and CCL11 concentrations in the striatum, with fentanyl causing greater increases in CCL2 than morphine. Additionally, fentanyl, but",
+            "journal": "Journal of neurovirology",
+            "year": "2025",
+            "authors": [
+              "Rademeyer Kara",
+              "Jones Austin M",
+              "Miller Emily A",
+              "Conway Daniel",
+              "McClay Joseph L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Morphine",
+              "Fentanyl",
+              "Mice",
+              "Blood-Brain Barrier",
+              "Mice, Inbred C57BL",
+              "Male",
+              "Zonula Occludens-1 Protein",
+              "Claudin-5",
+              "Hippocampus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40447886/"
+          },
+          {
+            "pmid": "29058481",
+            "title": "Effects of antiretroviral treatment and nadir CD4 count in progression to cardiovascular events and related comorbidities in a HIV Brazilian cohort: a multi-stage approach.",
+            "abstract": "The use of highly active antiretroviral therapy has resulted in changes of comorbidity profile in people living with HIV (PLHIV), increasing non-AIDS-related events. The occurrence of cardiovascular events is greater in PLHIV, but the mechanism responsible for it is still controversial. This article aimed to investigate factors associated with the progression to cardiovascular events in PLHIV using HAART. A 15-years cohort study with 1135 PLHIV was conducted in Rio de Janeiro-Brazil. Clinical progression was stratified in five states: No comorbidities (s1), arterial hypertension (s2), lipid abnormalities (s3), hypertension and lipid abnormalities (s4) and major cardiovascular events (stroke, coronary artery disease, thrombosis or death) (s5). Semi-Markov models evaluated the effects of cardiovascular traditional factors, treatment and clinical covariates on transitions between these states. Hazard Ratios (HR) and 95% confidence intervals (CI) were provided. In addition to traditional f",
+            "journal": "AIDS care",
+            "year": "2018",
+            "authors": [
+              "Oliveira Raquel de Vasconcellos Carvalhaes de",
+              "Shimakura Silvia Emiko",
+              "Campos Dayse Pereira",
+              "Hökerberg Yara Hahr Marques",
+              "Victoriano Flaviana Pavan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Age Factors",
+              "Aged",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Brazil",
+              "CD4 Lymphocyte Count",
+              "Cardiovascular Diseases",
+              "Cohort Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29058481/"
+          },
+          {
+            "pmid": "10433561",
+            "title": "Human immunodeficiency virus-associated dementia: review of pathogenesis, prophylaxis, and treatment studies of zidovudine therapy.",
+            "abstract": "Human immunodeficiency virus (HIV)-associated dementia (HIVD) has been reported in up to 15% of HIV-infected adult patients. Although the pathogenesis of HIVD remains unclear, HIV probably plays an important role in the syndrome, as evidenced by the correlation between cerebrospinal fluid (CSF) HIV load and neuropsychological functioning. Although a large number of antiretrovirals are used to treat HIVD, zidovudine is the best studied. Zidovudine therapy has been associated with reduced levels of HIV RNA in CSF, fewer HIV-related changes in brain tissue at autopsy, and time-limited improvements in neurological function among AIDS and HIVD patients. More recent studies have investigated the penetration into CSF of other antiretrovirals, including protease inhibitors, and the clinical efficacy of abacavir in the treatment of dementia. HIV encephalopathy may occur in 30%-60% of children with AIDS and causes significant disability. Zidovudine has been associated with improved neuropsycholo",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1999",
+            "authors": [
+              "Simpson D M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS Dementia Complex",
+              "Adult",
+              "Animals",
+              "Anti-HIV Agents",
+              "Brain",
+              "Child",
+              "Humans",
+              "Reverse Transcriptase Inhibitors",
+              "Zidovudine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10433561/"
+          },
+          {
+            "pmid": "25394095",
+            "title": "Efficacy, safety, and lack of interactions with the use of raltegravir in HIV-infected patients undergoing antineoplastic chemotherapy.",
+            "abstract": "Concomitant use of combination antiretroviral regimen (cART) and cancer chemotherapy is difficult due to complex interactions and increased toxicity. Raltegravir could be an adequate option through its favourable drug-drug interaction profile.",
+            "journal": "Journal of the International AIDS Society",
+            "year": "2014",
+            "authors": [
+              "Bañón Sara",
+              "Machuca Isabel",
+              "Araujo Susana",
+              "Moreno Ana",
+              "Perez-Elías María J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25394095/"
+          },
+          {
+            "pmid": "26372480",
+            "title": "Towards depersonalized abacavir therapy: chemical modification eliminates HLA-B*57 : 01-restricted CD8+ T-cell activation.",
+            "abstract": "Exposure to abacavir is associated with T-cell-mediated hypersensitivity reactions in individuals carrying human leukocyte antigen (HLA)-B57 : 01. To activate T cells, abacavir interacts directly with endogenous HLA-B57 : 01 and HLA-B57 : 01 expressed on the surface of antigen presenting cells. We have investigated whether chemical modification of abacavir can produce a molecule with antiviral activity that does not bind to HLA-B57 : 01 and activate T cells.",
+            "journal": "AIDS (London, England)",
+            "year": "2015",
+            "authors": [
+              "Naisbitt Dean J",
+              "Yang Emma L",
+              "Alhaidari Mohammad",
+              "Berry Neil G",
+              "Lawrenson Alexandre S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-HIV Agents",
+              "CD8-Positive T-Lymphocytes",
+              "Dideoxynucleosides",
+              "Drug Hypersensitivity",
+              "HIV Infections",
+              "HLA-B Antigens",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Molecular Docking Simulation",
+              "Protein Binding"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26372480/"
+          },
+          {
+            "pmid": "12555697",
+            "title": "Simplification of antiretroviral treatment--how to sustain success, reduce toxicity and ensure adherence avoiding PI use.",
+            "abstract": "Shortly after protease inhibitors (PI) began to be widely prescribed for the treatment of HIV infection in 1996, we learned that the virological efficacy of highly active antiretroviral therapy (HAART) was frequently associated with severe quality of life impairment. In fact, failure of PI-based regimens is often due to poor adherence resulting from high pill burden, complex dosing schedules, adverse events, or long-term toxicity. The metabolic and morphologic abnormalities associated with prolonged PI use are of particular concern: fat accumulation and abnormalities of lipid and glucose metabolism may increase the risk of cardiovascular disease, and body-shape changes (lipodystrophy) may also have a psychological impact or decrease patients' willingness to adhere to therapy. The efficacy of PI-sparing regimens in drug-naïve subjects, which typically consist of nucleoside reverse transcriptase inhibitors (NRTIs) with or without non-nucleoside reverse transcriptase inhibitors (NNRTIs), ",
+            "journal": "AIDS reviews",
+            "year": "2002",
+            "authors": [
+              "Barreiro Pablo",
+              "García-Benayas Teresa",
+              "Soriano Vincent",
+              "Gallant Joel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "HIV Infections",
+              "HIV Protease Inhibitors",
+              "Humans",
+              "Reverse Transcriptase Inhibitors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12555697/"
+          },
+          {
+            "pmid": "21840146",
+            "title": "[Immune reconstitution syndrome related to a Mycobacterium avium complex infection, revealed by a mono-adenitis].",
+            "abstract": "",
+            "journal": "Medecine et maladies infectieuses",
+            "year": "2011",
+            "authors": [
+              "Massongo M",
+              "Pasquet A",
+              "Huleux T",
+              "Aïssi E",
+              "Ettahar N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Abscess",
+              "Adult",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Antitubercular Agents",
+              "Axilla",
+              "Clarithromycin",
+              "Darunavir",
+              "Dideoxynucleosides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21840146/"
+          },
+          {
+            "pmid": "15204933",
+            "title": "Suppression of human immunodeficiency virus replication in human brain tissue by nucleoside reverse transcriptase inhibitors.",
+            "abstract": "Human immunodeficiency virus (HIV) infection of the brain is associated pathologically with neuronal damage and loss. Clinically cognitive impairments can develop, which in some can be improved by highly active antiretroviral therapy (HAART), whereas in others, the infection persists despite treatment. The efficacy of antiretrovirals to treat cognitive impairments may be related to their ability to suppress viral replication in the brain and also to prevent neurodegeneration. To investigate this question, the authors assessed the ability of stavudine (300 nM), zidovudine (2 nM), and abacavir (300 nM) to suppress viral replication in human brain tissue aggregates infected with HIV-1 SF162. Aggregates were cultured for 4 weeks and exposed to nucleoside reverse transcriptase inhibitors (NRTIs) either 24 h prior, simultaneously, or 24 h post infection. Viral replication was assessed by p24 enzyme-linked immunosorbent assay (ELISA) in culture medium. The authors observed a statistically sig",
+            "journal": "Journal of neurovirology",
+            "year": "2004",
+            "authors": [
+              "Kandanearatchi Apsara",
+              "Vyakarnam Annapurna",
+              "Landau Sabine",
+              "Everall Ian Paul"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS Dementia Complex",
+              "Antiretroviral Therapy, Highly Active",
+              "Brain",
+              "Dideoxynucleosides",
+              "HIV-1",
+              "Humans",
+              "In Vitro Techniques",
+              "Reverse Transcriptase Inhibitors",
+              "Stavudine",
+              "Virus Replication"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15204933/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic hepatitis C virus infection",
+        "txgnn_score": 0.9267414808273317,
+        "txgnn_rank": 31220,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01500616",
+            "title": "Multicenter, Open-Label, Study of Telaprevir in Combination With Peginterferon Alfa and Ribavirin in Human Immunodeficiency Virus/Genotype 1 Chronic Hepatitis C Coinfected Subjects With Severe Fibrosis or Compensated Cirrhosis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-06",
+            "completion_date": "2014-08",
+            "country": "United Kingdom, Belgium, Germany, Portugal, Russia, Hungary, Luxembourg, Ireland",
+            "enrollment": 122,
+            "brief_summary": "The purpose of this study is to collect safety and tolerability data on telaprevir treatment in combination with Peg-IFN-alfa and RBV in patients with HIV/genotype 1 chronic HCV coinfection with severe fibrosis or compensated cirrhosis who are not eligible for enrollment into an ongoing clinical study of telaprevir.",
+            "eligibility_criteria": "Inclusion Criteria: - Have diagnosis of HIV-1 or HIV-2 infection, or HIV-1 and HIV-2 coinfection for more than 6 months before the screening visit. - Should have been on a stable permissible HAART regimen for more than 8 weeks before Day 1 without switches. OR Not on a HAART regimen and not expected",
+            "endpoints": [
+              "Treatment-emergent Adverse Events"
+            ],
+            "sponsor": "Janssen-Cilag International NV",
+            "url": "https://clinicaltrials.gov/study/NCT01500616"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06356740",
+            "title": "Randomized Pilot Trial to Evaluate the Efficacy and Tolerance of Abacavir/Lamivudine Treatment in Patients With Systemic Lupus Erythematosus (PENCIL)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-09-01",
+            "completion_date": "2029-06-01",
+            "country": "France",
+            "enrollment": 70,
+            "brief_summary": "Systemic lupus (SL) is a rare chronic autoimmune disease characterized by the production of autoantibodies directed against nuclear antigens, particularly native double-stranded deoxyribonucleic acid (DNA), and excessive production of antiviral cytokines: type I interferons, particularly interferon alpha (IFN-α). IFN-α production results from the excessive detection of nucleic acids (DNA or Ribonucleic Acid (RNA)) by endosomal or intracytoplasmic receptors that are capable of inducing interferon",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient ≥12 years old (weighing more than 25 kg) and ≤ 65 years old\n* Diagnosis of SL according to 2019 American College of rheumatology (ACR) / European Ligue against Rheumatism (EULAR) criteria (score \\>10)\n* Patient with SL in remission or with low clinical activity accordi",
+            "endpoints": [
+              "Absolute variation in interferon signature (IFN)"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT06356740"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01908660",
+            "title": "Hepatic Safety of Currently Used Antiretroviral Regimens in HIV-infected Patients With Chronic Hepatitis B and/or Hepatitis C Under Real Life Conditions: The HEPAVIR HEPATIC SAFETY Cohort.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2015-10",
+            "country": "Spain",
+            "enrollment": 192,
+            "brief_summary": "The purpose of this study is to compare the liver toxicity in HIV-infected patients with chronic hepatitis B and/or hepatitis C, who start a new antiretroviral drug regimen, as well as the influence of the degree of pre-existing liver fibrosis on the incidence of liver toxicity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Older than 18 years\n* HIV-1 infection as confirmed by ELISA and western blot\n* Chronic HCV infection as confirmed by HCV antibodies in plasma, as well as a positive HCV viral load determined by polymerase chain reaction OR chronic hepatitis B infection as confirmed by HBsAg\n* ",
+            "endpoints": [
+              "Incidence of grade 3 or 4 transaminase elevations"
+            ],
+            "sponsor": "Valme University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01908660"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19372931",
+            "title": "Management and therapy of chronic hepatitis C in HIV.",
+            "abstract": "Chronic hepatitis C is currently one of the leading causes of hospitalization and death in HIV+ persons. Treatment is particularly challenging in coinfected patients due to lower efficacy and more side effects.",
+            "journal": "Current opinion in HIV and AIDS",
+            "year": "2007",
+            "authors": [
+              "Soriano Vincent",
+              "Vispo Eugenia",
+              "Martin-Carbonero Luz",
+              "Labarga Pablo",
+              "Garcia-Samaniego Javier"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19372931/"
+          },
+          {
+            "pmid": "17694677",
+            "title": "Update on the treatment of chronic hepatitis C in HIV-infected patients.",
+            "abstract": "Liver disease is currently the second leading cause of death in HIV-infected persons in Western countries. Hepatitis C virus infection accounts for the majority of cases of hepatic illness in this population. Although great progress has been made in the treatment of chronic hepatitis C in HIV-positive patients, many challenges still remain unsolved. The combination of pegylated interferon plus ribavirin is the current treatment of choice in hepatitis C virus/HIV-coinfected patients, regardless of hepatitis C virus genotype. However, the limited efficacy of this therapy in the HIV setting makes necessary the development of new strategies and/or drugs for the treatment of hepatitis C infection. Several anti-hepatitis C virus compounds are currently under investigation, although most are still in the early stages of clinical development. There is a relatively large group of patients who will be unable to be treated with the current hepatitis C virus medication based on interferon, mainly ",
+            "journal": "AIDS reviews",
+            "year": "2007",
+            "authors": [
+              "Soriano Vincent",
+              "Barreiro Pablo",
+              "Martin-Carbonero Luz",
+              "Vispo Eugenia",
+              "Garcia-Samaniego Javier"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "HIV Infections",
+              "Hepacivirus",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Interferon alpha-2",
+              "Interferon-alpha",
+              "Polyethylene Glycols",
+              "Recombinant Proteins",
+              "Ribavirin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17694677/"
+          },
+          {
+            "pmid": "31481446",
+            "title": "Anti-HIV and Anti-Hepatitis C Virus Drugs Inhibit P-Glycoprotein Efflux Activity in Caco-2 Cells and Precision-Cut Rat and Human Intestinal Slices.",
+            "abstract": "P-glycoprotein (ABCB1), an ATP-binding-cassette efflux transporter, limits intestinal absorption of its substrates and is a common site of drug-drug interactions (DDIs). ABCB1 has been suggested to interact with many antivirals used to treat HIV and/or chronic hepatitis C virus (HCV) infections. Using bidirectional transport experiments in Caco-2 cells and a recently established ex vivo model of accumulation in precision-cut intestinal slices (PCIS) prepared from rat ileum or human jejunum, we evaluated the potential of anti-HIV and anti-HCV antivirals to inhibit intestinal ABCB1. Lopinavir, ritonavir, saquinavir, atazanavir, maraviroc, ledipasvir, and daclatasvir inhibited the efflux of a model ABCB1 substrate, rhodamine 123 (RHD123), in Caco-2 cells and rat-derived PCIS. Lopinavir, ritonavir, saquinavir, and atazanavir also significantly inhibited RHD123 efflux in human-derived PCIS, while possible interindividual variability was observed in the inhibition of intestinal ABCB1 by mara",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2019",
+            "authors": [
+              "Martinec Ondrej",
+              "Huliciak Martin",
+              "Staud Frantisek",
+              "Cecka Filip",
+              "Vokral Ivan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "Aged",
+              "Animals",
+              "Anti-HIV Agents",
+              "Antiviral Agents",
+              "Atazanavir Sulfate",
+              "Benzimidazoles",
+              "Caco-2 Cells",
+              "Carbamates",
+              "Drug Interactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31481446/"
+          },
+          {
+            "pmid": "26869690",
+            "title": "Plasma and intracellular ribavirin concentrations are not significantly altered by abacavir in hepatitis C virus-infected patients.",
+            "abstract": "The objective of this study was to evaluate the effects of abacavir on intracellular ribavirin triphosphate and plasma ribavirin trough concentrations.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2016",
+            "authors": [
+              "Fuchs Edward J",
+              "Kiser Jennifer J",
+              "Hendrix Craig W",
+              "Sulkowski Mark",
+              "Radebaugh Christine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antiviral Agents",
+              "Cytosol",
+              "Dideoxynucleosides",
+              "Female",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26869690/"
+          },
+          {
+            "pmid": "28263457",
+            "title": "Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir: Drug Interactions With Antiretroviral Agents and Drugs forSubstance Abuse.",
+            "abstract": "AbbVie's 3 direct-acting antiviral (3D) regimen containing ombitasvir, paritaprevir, ritonavir, and dasabuvir with and without ribavirin is approved for the treatment of chronic hepatitis C virus (HCV) genotype 1 infection. Safe and efficacious antiviral regimens resulting in minimal to no drug-drug interactions (DDIs) with antiretrovirals are needed to ensure that patients coinfected with HCV and the human immunodeficiency virus (HIV) achieve 12-week sustained virologic response rates similar to HCV-monoinfected patients. Also, the prevalence of injection drug use history is high in both monoinfected and HIV/HCV-coinfected patients. This review summarizes results from phase 1 DDI studies of the 3D regimen and antiretrovirals or drugs to treat substance abuse. Data suggest the 3D regimen is a viable option for HIV/HCV-coinfected patients on antiretroviral therapy containing tenofovir/emtricitabine, abacavir/lamivudine, dolutegravir, raltegravir, or atazanavir. HCV-infected patients rec",
+            "journal": "Clinical pharmacology in drug development",
+            "year": "2017",
+            "authors": [
+              "King Jennifer R",
+              "Menon Rajeev M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "2-Naphthylamine",
+              "Anilides",
+              "Anti-Retroviral Agents",
+              "Carbamates",
+              "Coinfection",
+              "Cyclopropanes",
+              "Drug Interactions",
+              "Drug Therapy, Combination",
+              "HIV Infections",
+              "Hepatitis C"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28263457/"
+          },
+          {
+            "pmid": "18854330",
+            "title": "Efficacy of pegylated interferon plus ribavirin treatment in HIV/hepatitis C virus co-infected patients receiving abacavir plus lamivudine or tenofovir plus either lamivudine or emtricitabine as nucleoside analogue backbone.",
+            "abstract": "To compare the response to hepatitis C virus (HCV) therapy among human immunodeficiency virus (HIV)/HCV co-infected patients receiving a nucleos(t)ide reverse transcriptase inhibitor [N(t)RTI] backbone consisting of abacavir plus lamivudine with that observed in subjects who receive tenofovir plus lamivudine or emtricitabine.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2008",
+            "authors": [
+              "Mira José A",
+              "López-Cortés Luis F",
+              "Barreiro Pablo",
+              "Tural Cristina",
+              "Torres-Tortosa Manuel"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Adult",
+              "Anti-HIV Agents",
+              "Blood",
+              "Cohort Studies",
+              "Deoxycytidine",
+              "Dideoxynucleosides",
+              "Emtricitabine",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18854330/"
+          },
+          {
+            "pmid": "26400998",
+            "title": "Progression of Liver Fibrosis and Modern Combination Antiretroviral Therapy Regimens in HIV-Hepatitis C-Coinfected Persons.",
+            "abstract": "Liver diseases progress faster in human immunodeficiency virus (HIV)-hepatitis C virus (HCV)-coinfected persons than HIV-monoinfected persons. The aim of this study was to compare rates of liver fibrosis progression (measured by the aspartate-to-platelet ratio index [APRI]) among HIV-HCV-coinfected users of modern protease inhibitor (PI)- and nonnucleoside reverse transcriptase inhibitor (NNRTI)-based regimens with a backbone of tenofovir/emtricitabine (TDF/FTC) or abacavir/lamivudine (ABC/3TC).",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2016",
+            "authors": [
+              "Brunet Laurence",
+              "Moodie Erica E M",
+              "Young Jim",
+              "Cox Joseph",
+              "Hull Mark"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Retroviral Agents",
+              "Aspartate Aminotransferases",
+              "Canada",
+              "Cohort Studies",
+              "Coinfection",
+              "Disease Progression",
+              "Female",
+              "HIV Infections",
+              "Hepatitis C, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26400998/"
+          },
+          {
+            "pmid": "18572756",
+            "title": "Low response to pegylated interferon plus ribavirin in HIV-infected patients with chronic hepatitis C treated with abacavir.",
+            "abstract": "There is little information about the influence of antiretroviral drugs on the antiviral activity of pegylated interferon (PEG-IFN) plus ribavirin (RBV) against hepatitis C virus (HCV).",
+            "journal": "Antiviral therapy",
+            "year": "2008",
+            "authors": [
+              "Vispo Eugenia",
+              "Barreiro Pablo",
+              "Pineda Juan A",
+              "Mira José A",
+              "Maida Ivana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Dideoxynucleosides",
+              "Drug Interactions",
+              "Drug Therapy, Combination",
+              "HIV Infections",
+              "Hepacivirus",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Interferon alpha-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18572756/"
+          },
+          {
+            "pmid": "11366250",
+            "title": "Product information.",
+            "abstract": "",
+            "journal": "The Hopkins HIV report : a bimonthly newsletter for healthcare providers",
+            "year": "1999",
+            "authors": [
+              "Bartlett J G"
+            ],
+            "pub_types": [
+              "Newspaper Article",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-HIV Agents",
+              "Antiviral Agents",
+              "Clinical Trials as Topic",
+              "Dideoxynucleosides",
+              "Drug Combinations",
+              "Drug Hypersensitivity",
+              "Drug Resistance, Microbial",
+              "HIV Infections",
+              "Hepatitis C",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11366250/"
+          },
+          {
+            "pmid": "19246127",
+            "title": "[Atazanavir-induced nephrolithiasis].",
+            "abstract": "",
+            "journal": "Enfermedades infecciosas y microbiologia clinica",
+            "year": "2009",
+            "authors": [
+              "Valencia M Eulalia",
+              "Moreno Victoria"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Adult",
+              "Alkynes",
+              "Antiretroviral Therapy, Highly Active",
+              "Atazanavir Sulfate",
+              "Benzoxazines",
+              "Cyclopropanes",
+              "Dideoxynucleosides",
+              "HIV Infections",
+              "HIV Protease Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19246127/"
+          },
+          {
+            "pmid": "20813809",
+            "title": "Impact of hepatitis C and liver fibrosis on antiretroviral plasma drug concentrations in HIV-HCV co-infected patients: the HEPADOSE study.",
+            "abstract": "To compare plasma antiretroviral concentrations in HIV-HCV co-infected and in matched HIV mono-infected patients.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2010",
+            "authors": [
+              "Dominguez Stephanie",
+              "Ghosn Jade",
+              "Peytavin Gilles",
+              "Guiguet Marguerite",
+              "Tubiana Roland"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alkynes",
+              "Anti-Retroviral Agents",
+              "Benzoxazines",
+              "Case-Control Studies",
+              "Chromatography, High Pressure Liquid",
+              "Cross-Sectional Studies",
+              "Cyclopropanes",
+              "Dideoxynucleosides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20813809/"
+          },
+          {
+            "pmid": "27145599",
+            "title": "[CLINICAL AND PHARMACOECONOMIC RESULTS OF THE USAGE OF VARIOUS HIV REVERSE TRANSCRIPTASE INHIBITORS IN THE SCHEMES OF ANTIRETROVIRAL THERAPY OF PATIENT RECEIVING THERAPY FOR THE CHRONIC HEPATITIS C VIRUS].",
+            "abstract": "Efficacy, safety, and economical aspects of treatment with abacavir, zidovudine, stavudine, and phosphazide in the schemes of antiretroviral therapy of the HIV-infected patients receiving therapy for hepatitis C virus were tested. Clinical, immunological, and virologic efficacy of treatment and dynamics of hemoglobin, thrombocytes, and alanine aminotransferase as markers of common adverse events recorded at the start of the antiviral therapy of chronic hepatitis C and after 4, 8, 12, 24, 48 weeks of the treatment were evaluated. The usage of these drugs in the schemes of antiretroviral therapy exhibited efficacy, high tolerability and safety for all HIV reverse transcriptase inhibitors.",
+            "journal": "Voprosy virusologii",
+            "year": "2016",
+            "authors": [
+              "Moshkovich G F",
+              "Minaeva S V",
+              "Varlova L W",
+              "Goryaeva M P",
+              "Gulyaeva S S"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alanine Transaminase",
+              "Biomarkers",
+              "Blood Platelets",
+              "CD4-Positive T-Lymphocytes",
+              "Cell Count",
+              "Coinfection",
+              "Dideoxynucleosides",
+              "Female",
+              "Genotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27145599/"
+          },
+          {
+            "pmid": "19375043",
+            "title": "[Treatment of chronic hepatitis C in HIV-infected patients].",
+            "abstract": "Since the pivotal trials conducted over the last few years which have used the combination of pegylated interferon along with fixed low doses (800 mg/day) of ribavirin and have provided treatment for 12 months, regardless the kinetics of hepatitis C virus (HCV) viral load during therapy, great progress has been made in the treatment of chronic hepatitis C in HIV-infected patients. Results approaching those seen in HCV-monoinfected patients can be obtained with optimal dosages of ribavirin, extension of treatment beyond 48 weeks in the absence of rapid virologic response and/or in patients older than 40 years, with severe fibrosis (METAVIR score F3 or F4) and/or with high HCV viral load and with a better management of HIV treatment in order to avoid a negative interaction between HCV and HIV therapies (interaction between abacavir and ribavirin) and to improve the tolerance of HCV therapy (Didanosine should never be used with ribavirin, Zidovudine and Stavudine should be avoided when po",
+            "journal": "Gastroenterologie clinique et biologique",
+            "year": "2009",
+            "authors": [
+              "Bani-Sadr F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Antiviral Agents",
+              "Clinical Trials as Topic",
+              "Congresses as Topic",
+              "Drug Therapy, Combination",
+              "HIV Infections",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Interferon alpha-2",
+              "Interferon-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19375043/"
+          },
+          {
+            "pmid": "31504702",
+            "title": "Drug-Drug Interactions of Glecaprevir and Pibrentasvir Coadministered With Human Immunodeficiency Virus Antiretrovirals.",
+            "abstract": "Treatment of patients coinfected with hepatitis C and human immunodeficiency viruses (HCV; HIV) requires careful consideration of potential drug-drug interactions between HCV direct-acting antiviral agents (DAA) and HIV antiretrovirals. Glecaprevir/pibrentasvir is a fixed-dose combination of an NS3/4A protease inhibitor and an NS5A inhibitor approved for the treatment of chronic HCV genotype 1-6 infection, including patients with HIV coinfection.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2020",
+            "authors": [
+              "Kosloski Matthew P",
+              "Oberoi Rajneet",
+              "Wang Stanley",
+              "Viani Rolando M",
+              "Asatryan Armen"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Retroviral Agents",
+              "Benzimidazoles",
+              "Coinfection",
+              "Contraindications, Drug",
+              "Drug Combinations",
+              "Drug Interactions",
+              "Female",
+              "HIV Infections",
+              "Hepatitis C, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31504702/"
+          },
+          {
+            "pmid": "22537439",
+            "title": "Management of patients coinfected with HCV and HIV: a close look at the role for direct-acting antivirals.",
+            "abstract": "With the development of effective therapies against human immunodeficiency virus (HIV), hepatitis C virus (HCV) infection has become a major cause of morbidity and mortality among patients with both infections (coinfection). In addition to the high prevalence of chronic HCV, particularly among HIV-infected injection drug users, the rate of incident HIV infections is increasing among HIV-infected men who have sex with men, leading to recommendations for education and screening for HCV in this population. Liver disease is the second leading and, in some cases, a preventable cause of death among coinfected patients. Those at risk for liver disease progression are usually treated with a combination of interferon (IFN) and ribavirin (RBV), which is not highly effective; it has low rates of sustained virologic response (SVR), especially for coinfected patients with HCV genotype 1 and those of African descent. Direct-acting antivirals might overcome factors such as immunodeficiency that can r",
+            "journal": "Gastroenterology",
+            "year": "2012",
+            "authors": [
+              "Naggie Susanna",
+              "Sulkowski Mark S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Anti-HIV Agents",
+              "Antiviral Agents",
+              "Coinfection",
+              "Deoxycytidine",
+              "Dideoxynucleosides",
+              "Disease Progression",
+              "Drug Administration Schedule",
+              "Drug Interactions",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22537439/"
+          },
+          {
+            "pmid": "20642436",
+            "title": "Long-term immunovirogical effect and tolerability of a maraviroc-containing regimen in routine clinical practice.",
+            "abstract": "to analyze the long-term immunovirological effect and tolerability of a maraviroc-containing antiretroviral therapy in viraemic and pretreated HIV-infected patients with a high prevalence of hepatitis C virus (HCV) coinfection.",
+            "journal": "Current HIV research",
+            "year": "2010",
+            "authors": [
+              "Genebat Miguel",
+              "Ruiz-Mateos Ezequiel",
+              "Pulido Ildefonso",
+              "González-Serna Alejandro",
+              "García-Pergañeda Antonio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-HIV Agents",
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "CD4 Lymphocyte Count",
+              "Cyclohexanes",
+              "Female",
+              "HIV Infections",
+              "HIV Protease Inhibitors",
+              "HIV-1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20642436/"
+          },
+          {
+            "pmid": "21839993",
+            "title": "[Coinfection with HIV and HCV: abacavir and ribavirine, why not?].",
+            "abstract": "A 48-year old male coinfected by human immunodeficiency virus and hepatitis C virus (HCV) genotype 3a. The patient was under clinically and virologically effective treatment with Trizivir (zidovudine, lamivudine and abacavir) when it was decided to initiate treatment for the chronic HCV infection with peginterferon and ribavirin. Should the ongoing antiretroviral treatment be adjusted?",
+            "journal": "Revista clinica espanola",
+            "year": "2012",
+            "authors": [
+              "Valencia M E",
+              "Moreno V"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-HIV Agents",
+              "Antiviral Agents",
+              "Coinfection",
+              "Dideoxynucleosides",
+              "Drug Combinations",
+              "Drug Interactions",
+              "HIV Infections",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Lamivudine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21839993/"
+          },
+          {
+            "pmid": "22781224",
+            "title": "Ribavirin and abacavir drug interaction in HIV-HCV coinfected patients: fact or fiction?",
+            "abstract": "To examine the impact of ribavirin and abacavir coadministration on hepatitis C virus (HCV) virological response and trough ribavirin plasma concentration (Cmin) in HIV-HCV coinfected patients.",
+            "journal": "AIDS (London, England)",
+            "year": "2012",
+            "authors": [
+              "Solas Caroline",
+              "Pambrun Elodie",
+              "Winnock Maria",
+              "Salmon Dominique",
+              "Poizot-Martin Isabelle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-HIV Agents",
+              "Antiviral Agents",
+              "Coinfection",
+              "Dideoxynucleosides",
+              "Drug Interactions",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Seropositivity",
+              "HIV-1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22781224/"
+          },
+          {
+            "pmid": "14767983",
+            "title": "Depletion of mitochondrial DNA in liver under antiretroviral therapy with didanosine, stavudine, or zalcitabine.",
+            "abstract": "The \"D drug\" HIV reverse-transcriptase inhibitors zalcitabine, didanosine, and stavudine are relatively strong inhibitors of polymerase-gamma compared with the \"non-D drugs\" zidovudine, lamivudine, and abacavir. D drugs deplete mitochondrial DNA (mtDNA) in cultured hepatocytes. This mtDNA depletion is associated with an increased in vitro production of lactate. To investigate the origin of hyperlactatemia in HIV-infected patients and the effects of antiretroviral therapy on liver mtDNA, we biopsied liver tissue from 94 individuals with chronic hepatitis C virus (HCV) infection. Eighty subjects were coinfected with HIV. Serum lactate was measured at the time of biopsy. Hepatic mtDNA and liver histology were centrally assessed. Liver mtDNA content of HIV-infected patients receiving D drugs at the time of biopsy (n = 34) was decreased by 47% (P<.0001) compared with those without D drugs (n = 35). Aside from a possible association between HCV genotype I status and mtDNA depletion in multiv",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2004",
+            "authors": [
+              "Walker Ulrich A",
+              "Bäuerle Jochen",
+              "Laguno Montse",
+              "Murillas Javier",
+              "Mauss Stefan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acidosis, Lactic",
+              "Adult",
+              "Cross-Sectional Studies",
+              "DNA, Mitochondrial",
+              "Didanosine",
+              "Female",
+              "HIV Infections",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Lactic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14767983/"
+          },
+          {
+            "pmid": "20167995",
+            "title": "The influence of abacavir and other antiretroviral agents on virological response to HCV therapy among antiretroviral-treated HIV-infected patients.",
+            "abstract": "It remains unclear if certain antiretroviral medications, particularly abacavir, compromise response to HCV therapy. Such data could inform the selection of appropriate antiretrovirals in HIV/HCV-coinfected patients. The aim of this study was to determine if use of abacavir, as well as other antiretrovirals, was associated with reduced response to pegylated interferon (PEG-IFN) plus ribavirin.",
+            "journal": "Antiviral therapy",
+            "year": "2010",
+            "authors": [
+              "Amorosa Valerianna K",
+              "Slim Jihad",
+              "Mounzer Karam",
+              "Bruno Christopher",
+              "Hoffman-Terry Margaret"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Cohort Studies",
+              "Dideoxynucleosides",
+              "Drug Interactions",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Infections",
+              "HIV-1",
+              "Hepacivirus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20167995/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paratenonitis",
+        "txgnn_score": 0.8815235495567322,
+        "txgnn_rank": 36571,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "calcific tendinitis",
+        "txgnn_score": 0.8788645267486572,
+        "txgnn_rank": 36855,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of prostate",
+        "txgnn_score": 0.8703207969665527,
+        "txgnn_rank": 37570,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01048",
+    "name": "Abacavir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Abacavir"
+      },
+      "queried_at": "2026-03-09T18:02:07.389718",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Abacavir"
+      },
+      "queried_at": "2026-03-09T18:02:09.659990",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T18:02:10.298431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T18:02:14.359166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T18:02:16.842992",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T18:02:18.576474",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T18:02:23.196127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T18:02:25.599506",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T18:02:27.648354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T18:02:32.356544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T18:02:34.989807",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T18:02:35.975617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T18:02:42.456901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T18:02:44.117682",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T18:03:16.651901",
+      "status": "success",
+      "result_count": 24,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T18:03:20.044619",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T18:03:24.408082",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T18:03:53.773268",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T18:03:59.398331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T18:04:06.772443",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "chronic hepatitis C virus infection"
+      },
+      "queried_at": "2026-03-09T18:04:08.260877",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "chronic hepatitis C virus infection"
+      },
+      "queried_at": "2026-03-09T18:04:12.687507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "chronic hepatitis C virus infection"
+      },
+      "queried_at": "2026-03-09T18:04:30.066600",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "paratenonitis"
+      },
+      "queried_at": "2026-03-09T18:04:31.353935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "paratenonitis"
+      },
+      "queried_at": "2026-03-09T18:05:09.250752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "paratenonitis"
+      },
+      "queried_at": "2026-03-09T18:05:39.612762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "calcific tendinitis"
+      },
+      "queried_at": "2026-03-09T18:05:44.980766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "calcific tendinitis"
+      },
+      "queried_at": "2026-03-09T18:05:57.584930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "calcific tendinitis"
+      },
+      "queried_at": "2026-03-09T18:05:58.760723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T18:05:59.792601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T18:06:08.302817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abacavir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T18:06:13.555502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:06:13.587984"
+  }
+}

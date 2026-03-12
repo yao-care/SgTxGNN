@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Gliclazide",
+    "drugbank_id": "DB01120",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.9795717597007751,
+        "txgnn_rank": 17212,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.9795717597007751,
+        "txgnn_rank": 17213,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9779220819473268,
+        "txgnn_rank": 18013,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.9771845936775208,
+        "txgnn_rank": 18351,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.9663628339767456,
+        "txgnn_rank": 22437,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.96425461769104,
+        "txgnn_rank": 23084,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9622923135757446,
+        "txgnn_rank": 23668,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9614076018333436,
+        "txgnn_rank": 23921,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.9593665599822998,
+        "txgnn_rank": 24452,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.8815215826034546,
+        "txgnn_rank": 36572,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01120",
+    "name": "Gliclazide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gliclazide"
+      },
+      "queried_at": "2026-03-10T07:55:53.325743",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gliclazide"
+      },
+      "queried_at": "2026-03-10T07:55:59.923430",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:00.598288",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:05.458469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:06.880326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:07.951471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:13.024732",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:14.871736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:15.700884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:32.524603",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T07:56:33.481392",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T07:56:34.230408",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T07:56:39.619417",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T07:56:41.173611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T07:56:42.087891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T07:56:46.201577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T07:56:47.452982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:56:48.364532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:56:52.004049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:56:54.013817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:56:55.781547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:57:00.724266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:57:02.263099",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T07:57:03.104614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T07:57:06.314187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T07:57:07.501254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:57:08.311363",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:57:12.260544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:57:13.620279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:57:14.513654",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:57:18.762075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:57:20.036964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:57:20.046697"
+  }
+}

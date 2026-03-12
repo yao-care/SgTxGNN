@@ -1,0 +1,2254 @@
+{
+  "drug": {
+    "inn": "Arsenic trioxide",
+    "drugbank_id": "DB01169",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "unclassified myelodysplastic syndrome",
+        "txgnn_score": 0.9993459582328796,
+        "txgnn_rank": 1408,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "refractory cytopenia of childhood",
+        "txgnn_score": 0.9992613196372986,
+        "txgnn_rank": 1557,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00104806",
+            "title": "Phase II Trial of Arsenic Trioxide and Dose-Escalated Cholecalciferol in Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2004-11",
+            "completion_date": "2010-05",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Cholecalciferol (vitamin D) may help cancer cells become normal cells. Giving arsenic trioxide together with cholecalciferol (vitamin D) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving arsenic trioxide together with cholecalciferol (vitamin D) works in treating patients with",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndromes (MDS)\n\n  * Bone marrow aspirate and biopsy with karyotyping performed within the past 12 weeks\n\nPATIENT CHARACTERISTICS:\n\nAge\n\n* Any age\n\nPerformance status\n\n* ECOG 0-2\n\nLife expectancy\n\n* More than 6 months\n\nHematopoietic\n\n* Ferriti",
+            "endpoints": [
+              "Complete response rate",
+              "toxicity assessment after therapy"
+            ],
+            "sponsor": "Wake Forest University Health Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT00104806"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe congenital hypochromic anemia with ringed sideroblasts",
+        "txgnn_score": 0.9992565512657166,
+        "txgnn_rank": 1562,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aregenerative anemia",
+        "txgnn_score": 0.999248206615448,
+        "txgnn_rank": 1577,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00234000",
+            "title": "A Phase I Multicenter Study of Arsenic Trioxide and Azacitidine in Patients With Myelodysplastic Syndromes",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2007-02",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine and arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of azacitidine when given together with arsenic trioxide and to see how well they work in treating patients with myelodysplastic syndromes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of MDS by standard criteria. Patients within each of the FAB diagnostic groups of RA, RARS, RAEB, RAEBt, and CMML are eligible. For patients with lower-risk MDS only: documented red blood cell dependence, defined as the inability to maintain a hematocrit of",
+            "endpoints": [
+              "Safety and tolerability as assessed by NCI CTCAE v3.0 (Phase I)"
+            ],
+            "sponsor": "Jonsson Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00234000"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00454480",
+            "title": "A Programme of Treatment Development for Older Patients With Acute Myeloid Leukemia and High Risk Myelodysplastic Syndrome",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-08",
+            "completion_date": "",
+            "country": "United Kingdom",
+            "enrollment": 2000,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as gemtuzumab ozogamicin, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Tipifarnib may stop the growth of cancer cells by blocking some of the enzymes needed for cell g",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of 1 of the following:\n\n  * Acute myeloid leukemia (AML) meeting the following criteria:\n\n    * De novo or secondary AML\n    * No acute promyelocytic leukemia\n  * High-risk myelodysplastic syndromes (\\> 10% marrow blasts; refractory anemia with excess blasts-2)\n",
+            "endpoints": [
+              "Overall survival",
+              "Achievement of complete remission and reasons for failure",
+              "Duration of remission, relapse rates, and deaths"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00454480"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00006220",
+            "title": "Arsenic Trioxide Alone or With ATRA (Vesanoid) for Resistant Hematologic Malignancy",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "1999-06",
+            "completion_date": "2002-02",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Tretinoin may help hematologic cancer cells develop into normal white blood cells.\n\nPURPOSE: Phase I/II trial to study the effectiveness of arsenic trioxide with or without tretinoin in treating patients who have hematologic cancer that has not responded to previous therapy.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Patients with any of the following diagnoses: Acute lymphocytic leukemia OR acute myeloid leukemia Failed to achieve complete remission (CR) with induction chemotherapy OR Relapsed within one year of initial CR OR Relapsed after autologous or allogeneic transplant OR Any sub",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) and dose-limiting toxicity (DLT)",
+              "Likelihood of complete (CR) or partial (PR) response following therapy"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT00006220"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00274781",
+            "title": "A Phase II Trial of Combination Therapy With Arsenic Trioxide (Trisenox) and Gemtuzumab Ozogamicin (Mylotarg) for the Treatment of Adult Patients With Advanced Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-02",
+            "completion_date": "2010-11",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide and gemtuzumab ozogamicin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving arsenic trioxide together with gemtuzumab ozogamicin works in treating patients with advanced myelodysplastic syndromes.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of one of the following hematologic malignancies:\n\n  * Myelodysplastic syndromes (MDS) of one of the following French-American-British (FAB) classifications:\n\n    * Refractory anemia with excess blasts (RAEB) (WHO RAEB-1)\n    * RAEB in transformation (RAEB-t) (R",
+            "endpoints": [
+              "Complete and Partial Remission Per the International Working Group (IWG) Criteria for Myelodysplastic Syndromes (MDS) or Acute Myeloid Leukemia (AML)"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00274781"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00020969",
+            "title": "Phase Two Multicenter Study Of Arsenic Trioxide In Patients With Myelodysplastic Syndromes",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2001-03",
+            "completion_date": "2005-01",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of arsenic trioxide in treating patients who have myelodysplastic syndromes.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndromes (MDS)\n\n  * Refractory anemia (RA)\n  * RA with ringed sideroblasts\n  * RA with excess blasts (RAEB)\n  * RAEB in transformation\n  * Chronic myelomonocytic leukemia\n* Low-risk MDS patients:\n\n  * If serum erythropoietin less than 200 IU/",
+            "endpoints": [],
+            "sponsor": "CTI BioPharma",
+            "url": "https://clinicaltrials.gov/study/NCT00020969"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00104806",
+            "title": "Phase II Trial of Arsenic Trioxide and Dose-Escalated Cholecalciferol in Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2004-11",
+            "completion_date": "2010-05",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Cholecalciferol (vitamin D) may help cancer cells become normal cells. Giving arsenic trioxide together with cholecalciferol (vitamin D) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving arsenic trioxide together with cholecalciferol (vitamin D) works in treating patients with",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndromes (MDS)\n\n  * Bone marrow aspirate and biopsy with karyotyping performed within the past 12 weeks\n\nPATIENT CHARACTERISTICS:\n\nAge\n\n* Any age\n\nPerformance status\n\n* ECOG 0-2\n\nLife expectancy\n\n* More than 6 months\n\nHematopoietic\n\n* Ferriti",
+            "endpoints": [
+              "Complete response rate",
+              "toxicity assessment after therapy"
+            ],
+            "sponsor": "Wake Forest University Health Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT00104806"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15561690",
+            "title": "Marrow failure.",
+            "abstract": "New discoveries in cell biology, molecular biology and genetics have unveiled some of the pathophysiological mysteries of some of the bone marrow failure syndromes. Many of these discoveries have revealed why these syndromes show so much clinical overlap and some hold the potential for influencing the development of new therapies. In children and adults with pancytopenia and hypoplastic bone marrows proper differential diagnosis requires that some attention be directed toward defining molecular and cellular pathogenetic mechanisms because, once identified, some of these mechanisms will clearly suggest rational therapeutic approaches, treatment options that should be avoided, or both. In Section I, Drs. Jeffrey Lipton and Grover Bagby review the approach to diagnosis and management of patients with the inherited bone marrow failure syndromes, Fanconi anemia, dyskeratosis congenita, Diamond-Blackfan anemia, and the Shwachman-Diamond syndrome. Extraordinary progress has been made in ident",
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2004",
+            "authors": [
+              "Bagby Grover C",
+              "Lipton Jeffrey M",
+              "Sloand Elaine M",
+              "Schiffer Charles A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anemia, Aplastic",
+              "Humans",
+              "Myelodysplastic Syndromes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15561690/"
+          },
+          {
+            "pmid": "29075064",
+            "title": "Role of Arsenic Trioxide in the Management of Aplastic Anemia.",
+            "abstract": "Aplastic anemia is a common problem in the developing world with therapeutic challenges as most of the patients are non-affording to standard care owing to resource constraints. We present the results of an open label single arm, non-randomized, single center, prospective phase II trial of the compassionate use of arsenic trioxide in patients refractory to ATG or unable to afford the standard of care therapy. The study was prematurely terminated at eighth week due to non-response in 100% of patients and death in two patients. The results are contradictory to what is already published and needs validation in a multicentric setting.",
+            "journal": "Indian journal of hematology & blood transfusion : an official journal of Indian Society of Hematology and Blood Transfusion",
+            "year": "2017",
+            "authors": [
+              "Prakash Gaurav",
+              "Yanamandra Uday",
+              "Khadwal Alka",
+              "Varma Neelam",
+              "Varma Subhash"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29075064/"
+          },
+          {
+            "pmid": "32590737",
+            "title": "Effect of arsenic trioxide on the Tregs ratio and the levels of IFN-γ, IL-4, IL-17 and TGF-β1 in the peripheral blood of severe aplastic anemia patients.",
+            "abstract": "Previous studies have suggested that the anticancer agent, arsenic trioxide (ATO), could attenuate T cell mediated immunity by not only inhibiting the proliferative response of T cells but by also increasing the frequency of regulatory T cells (Tregs). Furthermore, ATO represents a reasonable salvage treatment in some patients with refractory severe aplastic anemia (SAA). The current study aimed to evaluate the function of ATO on the Tregs percentage and cytokines changes in the peripheral blood mononuclear cells (PBMCs) of SAA patients.PBMCs were collected from 20 newly diagnosed SAA patients in Henan Cancer Hospital and treated with different concentrations of ATO (0, 1, 2.5, and 5 μmol/L). Then we investigated the efficacy of ATO on Tregs ratio and the levels of interferon (IFN)-γ, interleukin (IL)-4, IL-17 and transforming growth factor (TGF)-β1 in the peripheral blood of SAA patients in vitro.The results showed that ATO significantly increased the proportion of Tregs (P < .001) at",
+            "journal": "Medicine",
+            "year": "2020",
+            "authors": [
+              "Zhao Juanjuan",
+              "Song Yongping",
+              "Liu Lina",
+              "Yang Shiwei",
+              "Fang Baijun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anemia, Aplastic",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Cells, Cultured",
+              "Dose-Response Relationship, Drug",
+              "Forkhead Transcription Factors",
+              "Humans",
+              "Interferon-gamma",
+              "Interleukin-17"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32590737/"
+          },
+          {
+            "pmid": "23064943",
+            "title": "Arsenic trioxide for refractory aplastic anemia.",
+            "abstract": "",
+            "journal": "Annals of hematology",
+            "year": "2013",
+            "authors": [
+              "Lin Quande",
+              "Song Yongping",
+              "Fang Baijun"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anemia, Aplastic",
+              "Anemia, Refractory",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Humans",
+              "Male",
+              "Oxides",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23064943/"
+          },
+          {
+            "pmid": "23044093",
+            "title": "Arsenic trioxide improves hematopoiesis in refractory severe aplastic anemia.",
+            "abstract": "We investigated the efficacy of arsenic trioxide (ATO) in patients with refractory severe aplastic anemia (SAA). A total of 5 consecutive adults were enrolled. The patients received ATO at a dose of 0.15 mg/kg intravenously daily for 5 days every week for 8 weeks. If necessary, a second course was performed after an interval of one week. All patients achieved clinically significant responses to ATO. The overall complete response rate and overall response rate at 17 weeks were 60% (3/5) and 100%(5/5), respectively. So treatment with ATO may be a feasible approach in patients with refractory SAA.",
+            "journal": "Journal of hematology & oncology",
+            "year": "2012",
+            "authors": [
+              "Li Ning",
+              "Song Yongping",
+              "Zhou Jian",
+              "Fang Baijun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anemia, Aplastic",
+              "Anemia, Refractory",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Female",
+              "Hematopoiesis",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23044093/"
+          },
+          {
+            "pmid": "22964015",
+            "title": "Arsenic trioxide and ascorbic acid interfere with the BCL2 family genes in patients with myelodysplastic syndromes: an ex-vivo study.",
+            "abstract": "Arsenic Trioxide (ATO) is effective in about 20% of patients with myelodysplasia (MDS); its mechanisms of action have already been evaluated in vitro, but the in vivo activity is still not fully understood. Since ATO induces apoptosis in in vitro models, we compared the expression of 93 apoptotic genes in patients' bone marrow before and after ATO treatment. For this analysis, we selected 12 patients affected by MDS who received ATO in combination with Ascorbic Acid in the context of the Italian clinical trial NCT00803530, EudracT Number 2005-001321-28.",
+            "journal": "Journal of hematology & oncology",
+            "year": "2012",
+            "authors": [
+              "Galimberti Sara",
+              "Guerrini Francesca",
+              "Salvi Flavia",
+              "Petrini Iacopo",
+              "Gioia Daniela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Ascorbic Acid",
+              "Female",
+              "Gene Expression",
+              "Genes, bcl-2",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22964015/"
+          },
+          {
+            "pmid": "16105982",
+            "title": "NF-kappaB and FLIP in arsenic trioxide (ATO)-induced apoptosis in myelodysplastic syndromes (MDSs).",
+            "abstract": "Tumor necrosis factor (TNF)-alpha, a potent stimulus of nuclear factor-kappaB (NF-kappaB), is up-regulated in myelodysplastic syndrome (MDS). Here, we show that bone marrow mononuclear cells (BMMCs) and purified CD34+ cells from patients with low-grade/early-stage MDS (refractory anemia/refractory anemia with ring sideroblasts [RA/RARS]) have low levels of NF-kappaB activity in nuclear extracts comparable with normal marrow, while patients with RA with excess blasts (RAEB) show significantly increased levels of activity (P = .008). Exogenous TNF-alpha enhanced NF-kappaB nuclear translocation in MDS BMMCs above baseline levels. Treatment with arsenic trioxide (ATO; 2-200 microM) inhibited NF-kappaB activity in normal marrow, primary MDS, and ML1 cells, even in the presence of exogenous TNF-alpha (20 ng/mL), and down-regulated NF-kappaB-dependent antiapoptotic proteins, B-cell leukemia XL (Bcl-XL), Bcl-2, X-linked inhibitor of apoptosis (XIAP), and Fas-associated death domain (FADD)-like",
+            "journal": "Blood",
+            "year": "2005",
+            "authors": [
+              "Kerbauy Daniella M B",
+              "Lesnikov Vladimir",
+              "Abbasi Nissa",
+              "Seal Sudeshna",
+              "Scott Bart"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Apoptosis",
+              "Apoptosis Regulatory Proteins",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Blotting, Western",
+              "Bone Marrow Cells",
+              "CASP8 and FADD-Like Apoptosis Regulating Protein",
+              "Cell Line, Tumor",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16105982/"
+          },
+          {
+            "pmid": "25914547",
+            "title": "The clinical activity of arsenic trioxide, ascorbic acid, ifosfamide and prednisone combination therapy in patients with relapsed and refractory multiple myeloma.",
+            "abstract": "This study aimed to investigate the activity of arsenic trioxide (As2O3) combined with ascorbic acid, ifosfamide, and prednisone chemotherapy in patients with repeatedly relapsed and refractory multiple myeloma (MM). Here, we retrospectively analyzed medical data of 30 MM patients showing progressive disease after receiving at least two previous lines of treatment including an immunomodulatory agent (thalidomide or lenalidomide) and a proteasome inhibitor. There were 19 men and eleven women, aged 54-73 (median 65) years, in this study. The distribution of different isotypes included immunoglobulin G(IgG) (12 patients), IgA (six patients), IgD (three), and light chain (nine patients). All the patients were Durie-Salmon stage III and had relapsed at least three times; the median cycles of prior therapies was 15 (range 10-18). The patients were treated with As2O3, ascorbic acid, and CP (ifosfamide 1 g on day 1, day 3, day 5, and day 7; prednisone 30 mg taken orally for 2 weeks). As2O3 was",
+            "journal": "OncoTargets and therapy",
+            "year": "2015",
+            "authors": [
+              "Li Xin",
+              "Sun Wan-Jun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25914547/"
+          },
+          {
+            "pmid": "19060586",
+            "title": "Arsenic trioxide in patients with adenocarcinoma of the pancreas refractory to gemcitabine: a phase II trial of the University of Chicago Phase II Consortium.",
+            "abstract": "There is no effective therapy for patients with metastatic pancreatic cancer who fail initial therapy with gemcitabine. Arsenic trioxide has potent antiproliferative and proapoptotic effects in pancreatic cancer cell lines. We conducted a multicenter phase II trial in patients with advanced pancreatic cancer who experienced disease progression on or after a gemcitabine-containing regimen.",
+            "journal": "American journal of clinical oncology",
+            "year": "2008",
+            "authors": [
+              "Kindler Hedy Lee",
+              "Aklilu Mebea",
+              "Nattam Sreenivasa",
+              "Vokes Everett E"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Deoxycytidine",
+              "Disease-Free Survival"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19060586/"
+          },
+          {
+            "pmid": "11039661",
+            "title": "Intensive chemotherapy for patients with high-risk myelodysplastic syndrome.",
+            "abstract": "Standard antileukemic chemotherapy induces complete remission in approximately half of patients with high-risk (HR) myelodysplastic syndrome (MDS). Intensification of induction therapy by the use of intermediate- or high-dose cytosine arabinoside in combination with fludarabine, idarubicin, or topotecan seemingly improved complete response (CR) rates, particularly in patients with poor prognosis karyotypes. The various high-intensity regimens appear to be comparable in inducing CR, although some are better tolerated with low mortality even in advanced-age populations with MDS. The encouraging early results with new agents, eg, topoisomerase inhibitors (topotecan) and hypomethylating agents (5-azacytidine), have been disappointing because long-term follow-up has shown continuous relapses. Regardless of the intensity of chemotherapy, remissions are short, even with continuation of intensive postremission therapy. Long-term disease-free survival remains dismal. In a large population with ",
+            "journal": "International journal of hematology",
+            "year": "2000",
+            "authors": [
+              "Beran M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Humans",
+              "Middle Aged",
+              "Myelodysplastic Syndromes",
+              "Remission Induction",
+              "Risk Factors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11039661/"
+          },
+          {
+            "pmid": "19036111",
+            "title": "Growth differentiation factor 15 production is necessary for normal erythroid differentiation and is increased in refractory anaemia with ring-sideroblasts.",
+            "abstract": "The disturbed erythropoiesis in patients with refractory anaemia with ring-sideroblasts (RARS) is characterized by intramedullary apoptosis of erythroid precursors and increased iron accumulation in mitochondria. To gain insight into these pathophysiological mechanisms we compared the gene expression profile (GEP) of erythroid precursors from RARS patients to the GEP of normal erythroid precursors. Three hundred sixty four probe sets were up-, and 253 probe sets downregulated in RARS cells. Interestingly, Growth Differentiation factor 15 (GDF15), a cytokine from the TGFbeta family, was dramatically upregulated in all RARS patients. Measurement of GDF15 in the sera from twenty RARS patients confirmed this finding by showing significantly, 7.2-fold, increased protein levels (3254 +/- 1400 ng/ml vs. 451 +/- 87 ng/ml in normals). In vitro studies demonstrated erythroid-specific production of GDF15 and dependence on erythropoietin. Induction of apoptosis by arsenic trioxide, a drug which ac",
+            "journal": "British journal of haematology",
+            "year": "2009",
+            "authors": [
+              "Ramirez Jean-Marie",
+              "Schaad Olivier",
+              "Durual Stephane",
+              "Cossali Dominique",
+              "Docquier Mylène"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anemia, Refractory",
+              "Anemia, Sideroblastic",
+              "Case-Control Studies",
+              "Cell Differentiation",
+              "Cell Separation",
+              "Erythroid Precursor Cells",
+              "Erythropoiesis",
+              "Gene Expression Profiling"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19036111/"
+          },
+          {
+            "pmid": "17335129",
+            "title": "New options in the treatment of myelodysplastic syndrome.",
+            "abstract": "Myelodysplastic syndrome (MDS) is a heterogeneous group of progressive chronic hematopoietic disorders, usually presenting as refractory anemia or cytopenia, with an approximately 25% risk of progression toward acute myeloid leukaeima (AML), and no proven curative treatment. Novel biological treatment strategies targeting both the malignant blood cell and its microenvironment can overcome resistance to current therapies, and represent a promising treatment paradigm for improving patient outcome. Many of these agents have multiple biologic activities. The objective of this article is to present a comparative review of classification systems in MDS and to discuss the evolving trends in the treatment of MDS (immunosuppresive therapy, immunomodulatory drugs, arsenic trioxide, proteasome inhibitors, epigenetic therapy).",
+            "journal": "Journal of B.U.ON. : official journal of the Balkan Union of Oncology",
+            "year": "2005",
+            "authors": [
+              "Grudeva-Popova J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17335129/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "partial deletion of the long arm of chromosome 5",
+        "txgnn_score": 0.999179184436798,
+        "txgnn_rank": 1671,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myelodysplastic syndrome",
+        "txgnn_score": 0.9991182684898376,
+        "txgnn_rank": 1776,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00093366",
+            "title": "Therapy of Advanced Stage Myelodysplastic Syndrome (MDS) With Arsenic Trioxide Given in Combination With Etanercept: A Phase I/II Study",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-06",
+            "completion_date": "2006-07",
+            "country": "United States",
+            "enrollment": 32,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide, work in different ways to stop cancer cells from dividing so they stop growing or die. Biological therapies such as etanercept may interfere with the growth of the cancer cells. Combining chemotherapy with biological therapy may kill more cancer cells.\n\nPURPOSE: This phase I/II trial is studying the side effects of giving arsenic trioxide together with etanercept and to see how well it works in treating patients with myelodysplasti",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndromes (MDS) meeting 1 of the following criteria:\n\n  * Intermediate-2 or high-risk disease\n  * Intermediate-1 or low-risk disease that was refractory to anti-thymocyte globulin and etanercept on protocol FHCRC-1872\n* Not eligible for stem c",
+            "endpoints": [
+              "Hematologic response in patients with intermediate-2 or high-risk myelodysplastic syndromes",
+              "Efficacy of this regimen in patients with intermediate-1 or low-risk MDS that was refractory to anti-thymocyte globulin and etanercept on protocol FHCRC-1872",
+              "Correlate results of ex vivo and in vitro studies on phenotypic, cytogenetic, and functional disease characteristics with in vivo treatment responses"
+            ],
+            "sponsor": "Fred Hutchinson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00093366"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00234000",
+            "title": "A Phase I Multicenter Study of Arsenic Trioxide and Azacitidine in Patients With Myelodysplastic Syndromes",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2007-02",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine and arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of azacitidine when given together with arsenic trioxide and to see how well they work in treating patients with myelodysplastic syndromes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of MDS by standard criteria. Patients within each of the FAB diagnostic groups of RA, RARS, RAEB, RAEBt, and CMML are eligible. For patients with lower-risk MDS only: documented red blood cell dependence, defined as the inability to maintain a hematocrit of",
+            "endpoints": [
+              "Safety and tolerability as assessed by NCI CTCAE v3.0 (Phase I)"
+            ],
+            "sponsor": "Jonsson Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00234000"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00454480",
+            "title": "A Programme of Treatment Development for Older Patients With Acute Myeloid Leukemia and High Risk Myelodysplastic Syndrome",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-08",
+            "completion_date": "",
+            "country": "United Kingdom",
+            "enrollment": 2000,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as gemtuzumab ozogamicin, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Tipifarnib may stop the growth of cancer cells by blocking some of the enzymes needed for cell g",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of 1 of the following:\n\n  * Acute myeloid leukemia (AML) meeting the following criteria:\n\n    * De novo or secondary AML\n    * No acute promyelocytic leukemia\n  * High-risk myelodysplastic syndromes (\\> 10% marrow blasts; refractory anemia with excess blasts-2)\n",
+            "endpoints": [
+              "Overall survival",
+              "Achievement of complete remission and reasons for failure",
+              "Duration of remission, relapse rates, and deaths"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00454480"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01404949",
+            "title": "Phase II Study of Combined Tretinoin and Arsenic Trioxide for Patients With Newly Diagnosed Acute Promyelocytic Leukemia Followed by Risk-Adapted Postremission Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-07",
+            "completion_date": "2021-02-01",
+            "country": "Canada, United States",
+            "enrollment": 17,
+            "brief_summary": "The purpose of this study is to find what effects, good and/or bad, treatment with two drugs has on leukemia. The first medicine is tretinoin (also called all-trans retinoic acid, ATRA, or Vesanoid). It is an approved medicine that causes the leukemia cells in APL to mature. It is related to vitamin A. The second is arsenic trioxide (Trisenox). It is an approved medicine for APL that comes back after earlier treatment.\n\nAPL is most often treated with tretinoin and standard chemotherapy drugs. Th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Previously untreated patients with a morphologic diagnosis of APL, confirmed by demonstration of t(15;17) using conventional cytogenetics OR florescence in situ hybridization (FISH), OR a positive RT-PCR assay for PML-RAR at the subject's local institution.\n* Age ≥18 years. Ka",
+            "endpoints": [
+              "To Determine the Rate of Molecular Remission"
+            ],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01404949"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00006220",
+            "title": "Arsenic Trioxide Alone or With ATRA (Vesanoid) for Resistant Hematologic Malignancy",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "1999-06",
+            "completion_date": "2002-02",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Tretinoin may help hematologic cancer cells develop into normal white blood cells.\n\nPURPOSE: Phase I/II trial to study the effectiveness of arsenic trioxide with or without tretinoin in treating patients who have hematologic cancer that has not responded to previous therapy.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Patients with any of the following diagnoses: Acute lymphocytic leukemia OR acute myeloid leukemia Failed to achieve complete remission (CR) with induction chemotherapy OR Relapsed within one year of initial CR OR Relapsed after autologous or allogeneic transplant OR Any sub",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) and dose-limiting toxicity (DLT)",
+              "Likelihood of complete (CR) or partial (PR) response following therapy"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT00006220"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00003885",
+            "title": "Phase II Study of Arsenic Trioxide in Relapsed/Refractory Acute Leukemia and Blast Crisis of Chronic Myeloid Leukemia",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "1997-11",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of arsenic trioxide in treating patients who have recurrent or refractory acute leukemia, chronic myeloid leukemia, myelodysplasia, lymphoma, or myeloma.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Histologically proven recurrent or refractory acute leukemia (myeloid or lymphoid), blast crisis chronic myeloid leukemia, myelodysplasia, lymphoma, or myeloma of all FAB subtypes\n\nPATIENT CHARACTERISTICS: Age: 18 and over Performance status: ECOG 0-2 Life expectancy: At lea",
+            "endpoints": [],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00003885"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02190695",
+            "title": "Leukemia SPORE Phase II Randomized Study of Decitabine Versus Decitabine and Carboplatin Versus Decitabine and Arsenic in Relapsed, Refractory, and Elderly Acute Myeloid Leukemia (AML) and Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-04-01",
+            "completion_date": "2020-04-16",
+            "country": "United States",
+            "enrollment": 92,
+            "brief_summary": "The purpose of this study is to find a new way to treat Acute Myeloid Leukemia (AML), Myelodysplastic Syndrome (MDS) and Chronic Myelomonocytic Leukemia (CMML). All the drugs are used to treat AML and MDS but are not usually combined together. The investigators are looking at both the safety and Efficacy of each combination.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with AML, relapsed or refractory to standard therapy or elderly patients with AML (age 65 or over). Patients who have AML and are younger than age 65 but considered unfit for conventional chemotherapy are eligible. Patients with de novo or treated MDS or CMML INT-1 o",
+            "endpoints": [
+              "Time to complete or partial remission"
+            ],
+            "sponsor": "Fox Chase Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02190695"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03751917",
+            "title": "A Long-Term Retrospective and Prospective Safety Study of Arsenic Trioxide in Patients With Newly Diagnosed, Low- to Intermediate-Risk Acute Promyelocytic Leukemia (APL)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-04-14",
+            "completion_date": "2024-12",
+            "country": "Italy",
+            "enrollment": 100,
+            "brief_summary": "The therapeutic advantage of the association of ATRA + Arsenic Trioxide is more favorable and manageable as compared to ATRA + chemotherapy. Nevertheless, at present, there is not enough information on the incidence of long-term side effects.\n\nThis study, as well as other similar studies conducted around Europe, will focus on following patients treated with this therapy on a long-term basis.\n\nOnce all studies in Europe will be concluded, all data will be analyzed together.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* APL diagnosis based on cytological criteria and confirmed by the presence of the (15;17) translocation and/or the presence of the PML/RARA rearrangement (with the determination of the breakpoint subtype).\n* Newly diagnosed low- to intermediate-risk APL (white blood cells \\[WBC",
+            "endpoints": [
+              "Number of grade III/IV (Common Terminology Criteria for Adverse Events (CTCAE) v4.03) adverse events of special interest (AESI)."
+            ],
+            "sponsor": "Gruppo Italiano Malattie EMatologiche dell'Adulto",
+            "url": "https://clinicaltrials.gov/study/NCT03751917"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00274781",
+            "title": "A Phase II Trial of Combination Therapy With Arsenic Trioxide (Trisenox) and Gemtuzumab Ozogamicin (Mylotarg) for the Treatment of Adult Patients With Advanced Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-02",
+            "completion_date": "2010-11",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide and gemtuzumab ozogamicin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving arsenic trioxide together with gemtuzumab ozogamicin works in treating patients with advanced myelodysplastic syndromes.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of one of the following hematologic malignancies:\n\n  * Myelodysplastic syndromes (MDS) of one of the following French-American-British (FAB) classifications:\n\n    * Refractory anemia with excess blasts (RAEB) (WHO RAEB-1)\n    * RAEB in transformation (RAEB-t) (R",
+            "endpoints": [
+              "Complete and Partial Remission Per the International Working Group (IWG) Criteria for Myelodysplastic Syndromes (MDS) or Acute Myeloid Leukemia (AML)"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00274781"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00195104",
+            "title": "Phase I/II Study of Arsenic Trioxide in Combination With Cytosine Arabinoside in Patients With High-risk Myelodysplastic Syndrome and Poor-prognosis Acute Myelogenous Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-09-17",
+            "completion_date": "2006-06-20",
+            "country": "United States",
+            "enrollment": 87,
+            "brief_summary": "The purpose of this study is to find out the effectiveness and side effects of arsenic trioxide in combination with low-dose ara-C.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologic diagnosis of high-risk MDS (IPSS int-2).\n* No prior cytotoxic therapy for MDS or AML (patients may have received prior therapy with hematopoietic growth factors, immunomodulatory agents or 5-azacitidine).\n\nExclusion Criteria:\n\n* Pregnant or lactating women.\n* Absolu",
+            "endpoints": [
+              "To determine the maximum tolerated dose (MTD) and dose-limiting toxicity (DLT) of cytosine arabinoside in combination with ATO 0.25mg/kg/day IV for 10 days on therapy followed by 14 days off therapy in patients with high-risk MDS and poor-prognosis AML.",
+              "To characterize the safety and tolerability of the combination of ATO and low-dose ara-C, including acute and chronic toxicities."
+            ],
+            "sponsor": "Weill Medical College of Cornell University",
+            "url": "https://clinicaltrials.gov/study/NCT00195104"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03381781",
+            "title": "Decitabine,Cytarabine(Ara-C) and Arsenic Trioxide(ATO) in the Treatment of Acute Myeloid Leukemia With p53 Mutations",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2018-03",
+            "completion_date": "2020-11",
+            "country": "China",
+            "enrollment": 100,
+            "brief_summary": "This is a prospective,uncontrolled and multi-institution trial.The aim is to identify if using decitabine,cytarabine and ATO as the therapy of acute myeloid leukemia(AML) with p53 mutations has better relapse free survival and complete response than using decitabine and cytarabine.\n\nTP53 mutation is commonly associated with poor cancer patient prognosis yet no mutant p53 (mp53)-targeting regimen was clinically established. Particularly, p53 mutation is associated with extremely poor prognosis in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* de novo elderly AML,AML transferred from MDS,therapy related AML\n* exclude acute promyelocytic leukemia(APL)\n* p53 mutations determined by DNA sequencing from bone marrow\n* ECOG\\<3,CCI≤1,ADL≥100\n* bone marrow is active\n* normal hepatic function and renal function\n* normal card",
+            "endpoints": [
+              "relapse free survival"
+            ],
+            "sponsor": "Ruijin Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03381781"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03377725",
+            "title": "Decitabine and Arsenic Trioxide(ATO) in the Treatment of Myelodysplasic Syndrome",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2018-03-20",
+            "completion_date": "2018-03-31",
+            "country": "China",
+            "enrollment": 0,
+            "brief_summary": "This is a prospective,controlled and multi-institution trial.The aim is to identify if using decitabine and Arsenic Trioxide(ATO) as the therapy of Myelodysplastic Syndrome(MDS) has better relapse free survival and complete response than using decitabine alone.\n\nTP53 mutation is commonly associated with poor cancer patient prognosis yet no mutant p53 (mp53)-targeting regimen was clinically established. Particularly, p53 mutation is associated with extremely poor prognosis in myelodysplastic synd",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* de novo MDS\n* The Revised International Prognostic Scoring System(IPSS-R) is intermediate,poor or very poor\n* 18-75years old(including 18-year-old and 75-year-old patients)\n* ECOG\\<3,CCI≤1,ADL≥100\n* bone marrow is active\n* normal hepatic function and renal function\n* normal ca",
+            "endpoints": [
+              "relapse free survival"
+            ],
+            "sponsor": "Ruijin Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03377725"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00118196",
+            "title": "A Phase II Study of Arsenic Trioxide in Combination With 5-Azacitidine in Myelodysplastic Syndromes",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2005-04",
+            "completion_date": "2006-08-11",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine and arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving azacitidine together with arsenic trioxide works in treating patients with myelodysplastic syndromes or chronic myelomonocytic leukemia.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndrome or chronic myelomonocytic leukemia\n* International Prognostic Scoring System (IPSS) score ≥ intermediate-1\n\n  * Low IPSS score allowed provided patient meets ≥ 1 of the following criteria:\n\n    * Platelet count ≤ 50,000/mm\\^3\n    * Re",
+            "endpoints": [
+              "Response rate (overall and confirmed) as measured by International Working Group (IWG) standardized criteria for MDS at day 113 and then every 4 weeks until completion of study treatment"
+            ],
+            "sponsor": "Medical University of South Carolina",
+            "url": "https://clinicaltrials.gov/study/NCT00118196"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00225992",
+            "title": "A Phase II Research Study of Arsenic Trioxide (Trisenox) in Patients With Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2004-02",
+            "completion_date": "2007-11",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "In this phase II study besides evaluating for safety, the primary efficacy parameter is to evaluate the incidence of patients who have had a response to Trisenox by evidence of increased blood counts (red, white, or platelets) and/or by decrease or transfusion dependency. The secondary efficacy parameter is the assessment of the tolerability of the new dosing schedule.\n\nArsenic trioxide will be administered intravenously over 1 to 2 hours with a loading dose of 0.30mg/kg for days 1-5 of the firs",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of Myelodysplastic Syndrome by FAB. Can be made with cytogenetic analysis of Bone Marrow or Hematologist evaluation\n* Patient must have had bone marrow biopsy and aspiration to confirm diagnosis within 60 days prior to treatment\n* ECOG performance status of 0-2\n* An ",
+            "endpoints": [],
+            "sponsor": "Oncology Specialties, Alabama",
+            "url": "https://clinicaltrials.gov/study/NCT00225992"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00671697",
+            "title": "A Phase I Study of Intravenous Decitabine in Combination With Arsenic Trioxide and Ascorbic Acid in Patients With Myelodysplastic Syndromes and Acute Myeloid Leukemia",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2008-05",
+            "completion_date": "2011-05",
+            "country": "United States",
+            "enrollment": 13,
+            "brief_summary": "This study is designed to test the combination of decitabine, arsenic trioxide and ascorbic acid in patients with myelodysplastic syndromes (MDS) and acute myeloid leukemia",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. MDS (either de novo or secondary) fitting any of the FAB classifications or AML defined by FAB classification criteria. Patients with \\< 5% bone marrow blasts must also meet one of the following criteria:\n\n   1. Symptomatic anemia with either hemoglobin \\<10.0 g/dL or requiri",
+            "endpoints": [
+              "To define the maximum tolerated dose and dose-limiting toxicities during four cycles of combination decitabine, arsenic trioxide and ascorbic acid in patients with myelodysplastic syndromes (MDS) previously untreated with hypomethylating agents."
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT00671697"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00020969",
+            "title": "Phase Two Multicenter Study Of Arsenic Trioxide In Patients With Myelodysplastic Syndromes",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2001-03",
+            "completion_date": "2005-01",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of arsenic trioxide in treating patients who have myelodysplastic syndromes.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndromes (MDS)\n\n  * Refractory anemia (RA)\n  * RA with ringed sideroblasts\n  * RA with excess blasts (RAEB)\n  * RAEB in transformation\n  * Chronic myelomonocytic leukemia\n* Low-risk MDS patients:\n\n  * If serum erythropoietin less than 200 IU/",
+            "endpoints": [],
+            "sponsor": "CTI BioPharma",
+            "url": "https://clinicaltrials.gov/study/NCT00020969"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00104806",
+            "title": "Phase II Trial of Arsenic Trioxide and Dose-Escalated Cholecalciferol in Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2004-11",
+            "completion_date": "2010-05",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Cholecalciferol (vitamin D) may help cancer cells become normal cells. Giving arsenic trioxide together with cholecalciferol (vitamin D) may kill more cancer cells.\n\nPURPOSE: This phase II trial is studying how well giving arsenic trioxide together with cholecalciferol (vitamin D) works in treating patients with",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of myelodysplastic syndromes (MDS)\n\n  * Bone marrow aspirate and biopsy with karyotyping performed within the past 12 weeks\n\nPATIENT CHARACTERISTICS:\n\nAge\n\n* Any age\n\nPerformance status\n\n* ECOG 0-2\n\nLife expectancy\n\n* More than 6 months\n\nHematopoietic\n\n* Ferriti",
+            "endpoints": [
+              "Complete response rate",
+              "toxicity assessment after therapy"
+            ],
+            "sponsor": "Wake Forest University Health Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT00104806"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06778187",
+            "title": "A Phase 2 Study of Oral Arsenic Trioxide (Arsenol ®)-Based Low-intensity Treatment for Previously Untreated or Relapsed/Refractory TP53-mutated Myeloid Malignancies",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-02-07",
+            "completion_date": "2028-02",
+            "country": "Hong Kong",
+            "enrollment": 30,
+            "brief_summary": "This is an open-label, phase 2 study of oral arsenic trioxide (Arsenol ®) in combination with ascorbic acid and investigator choice of low-intensity therapy in patients with previously untreated or relapse/refractory TP53-mutated acute myeloid leukemia (AML), myelodysplastic neoplasm (MDS), chronic myelomonocytic leukemia (CMML).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Willing and able to provide informed consent\n2. Age ≥18 years\n3. Diagnosis of acute myeloid leukemia (AML), myelodysplastic neoplasm (MDS) or chronic myelonocytic leukaemia (CMML) by World Health Organization (WHO) 2022 criteria (1, 3)\n4. Presence of TP53 mutation\n5. Previous",
+            "endpoints": [
+              "Adverse events"
+            ],
+            "sponsor": "The University of Hong Kong",
+            "url": "https://clinicaltrials.gov/study/NCT06778187"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00251511",
+            "title": "A Phase II Trial of Trisenox Plus Thalomid as Treatment in Patients With Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2004-08",
+            "completion_date": "2007-05",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "This is a Phase II, open-label, non-randomized study in patients with low, intermediate-1, intermediate-2, or high-risk MDS (defined by IPSS).\n\nEach cycle of treatment will be 6 weeks in length. Patients will be evaluated every 6 weeks for response. Patients will be treated for a minimum of 12 weeks even in the absence of response. Following 12 weeks of treatment, patients will continue to receive study treatment until disease progression or unacceptable toxicity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* To be eligible for the study, patients must fulfill all of the following criteria:\n\n  1. Patients must have signed an IRB-approved informed consent.\n  2. Patients with low, intermediate-1, intermediate-2, and high-risk MDS (defined by IPSS) with documented diagnosis of MDS (re",
+            "endpoints": [
+              "Primary Study Endpoint:",
+              "Determine the response rate (by IWG criteria) of patients with low, intermediate-1, intermediate-2, or high-risk MDS (defined by IPSS) to biweekly Trisenox plus daily Thalomid"
+            ],
+            "sponsor": "Veeda Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT00251511"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00003395",
+            "title": "Dose-Ranging Study of Arsenic Trioxide in Advanced Hematologic Cancers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "1998-04",
+            "completion_date": "2000-03",
+            "country": "United States",
+            "enrollment": "N/A",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase I trial to study the effectiveness of arsenic trioxide in treating patients who have advanced hematologic cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS: Histologically proven hematologic cancer, including acute or chronic leukemia, malignant lymphoma, or multiple myeloma Exclude acute promyelocytic leukemia (M3) Relapse from or resistance to at least one course of standard anticancer therapy and lack of alternative therapy t",
+            "endpoints": [],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00003395"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00803530",
+            "title": "Phase II Multicenter Study of Association of Arsenic Trioxide (ATO) and Ascorbic Acid in Myelodysplastic Syndromes",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2005-09",
+            "completion_date": "2010-08",
+            "country": "Italy",
+            "enrollment": 55,
+            "brief_summary": "This is a prospective, multicenter phase II trial designed to evaluate the safety and activity of the combination of association of arsenic trioxide (ATO) and ascorbic acid in patients with myelodysplastic syndromes",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients affected by myelodysplastic syndromes, entering in one of the following groups:\n\n   1. Myelodysplastic syndromes independent of WHO diagnostic classification (43) and IPSS prognostic score (2), when present at least one of the following abnormalities:\n\n      * 3q26 c",
+            "endpoints": [
+              "TO evaluate the erythroid response rate (major), according to the International Working Group (IWG) criteria (42) after four months of treatment with the association of ATO and ascorbic acid."
+            ],
+            "sponsor": "Fondazione Italiana Sindromi Mielodisplastiche-ETS",
+            "url": "https://clinicaltrials.gov/study/NCT00803530"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00621023",
+            "title": "A Pilot Phase II Study of Decitabine, Arsenic Trioxide and Ascorbic Acid for Patients With Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-11",
+            "completion_date": "2010-04",
+            "country": "United States",
+            "enrollment": 7,
+            "brief_summary": "This will be an open-label, non-randomized trial pilot phase II trial open to patients with myelodysplastic syndrome. The purpose of the study is to find out if the combination of decitabine, arsenic trioxide and ascorbic acid is safe.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Established diagnosis of MDS (de novo or secondary) fitting either the French American British Cooperative Group (FAB) or World Health Organization (WHO) classification systems as determined by a complete blood count (CBC) and bone marrow biopsy. Patients with \\>20% bone marro",
+            "endpoints": [
+              "Number of Patients With an Overall Response of Complete Response (CR) or Partial Response (PR)"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT00621023"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06670222",
+            "title": "Phase I Study With Dose-escalation and Expansion Evaluating the Safety and Efficacy of Oral Arsenic (ATO) in Low-risk Myelodysplastic Syndromes Failing Erythropoiesis Stimulating Agents and Luspatercept (or Ineligible for the Latter)",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2025-07-22",
+            "completion_date": "2027-07",
+            "country": "France",
+            "enrollment": 24,
+            "brief_summary": "Phase I study with dose-escalation and expansion evaluating the safety and efficacy of oral Arsenic (ATO) in low-risk Myelodysplastic Syndromes having failed to Erythropoiesis Stimulating Agents and Luspatercept (or ineligible for the latter).",
+            "eligibility_criteria": "Inclusion criteria:\n\nPatients must meet all the following criteria to participate in the study:\n\n1. Myelodysplastic syndrome according to WHO (World Health Organization) 2022 classification\n2. Age ≥ 18 years\n3. Patient with low-risk Myelodysplastic Syndromes according to Revised International Progno",
+            "endpoints": [
+              "To determine the dose-limiting toxicity (DLT) of oral Arsenic (ATO)"
+            ],
+            "sponsor": "Groupe Francophone des Myelodysplasies",
+            "url": "https://clinicaltrials.gov/study/NCT06670222"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00274820",
+            "title": "A Phase II Trial of Combination Therapy With Thalidomide, Arsenic Trioxide, Dexamethasone, and Ascorbic Acid (TADA) in Patients With Chronic Idiopathic Myelofibrosis or Overlap Myelodysplastic/Myeloproliferative Disorders",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-10",
+            "completion_date": "2007-10",
+            "country": "United States",
+            "enrollment": 15,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as arsenic trioxide and dexamethasone, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Sometimes when chemotherapy is given, it does not stop the growth of cancer cells. The cancer is said to be resistant to chemotherapy. Giving ascorbic acid may reduce drug resistance and allow the cancer cells to be killed. Thalidomide may stop the growth of cancer cells by blocking blood flow ",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Chronic idiopathic myelofibrosis or myelodysplastic/myeloproliferative disorders (MDS/MPD), including the following subtypes:\n\n  * Chronic idiopathic myelofibrosis (with extramedullary hematopoiesis)\n  * Chronic myelomonocytic leukemia (CMML)\n  * Atypical chronic myeloid ",
+            "endpoints": [
+              "Response rate at 6 months"
+            ],
+            "sponsor": "Case Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00274820"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37908176",
+            "title": "The efficacy and adverse events of arsenic trioxide for the patients with myelodysplastic syndrome: a systematic review and component network meta-analysis.",
+            "abstract": "Arsenic trioxide (ATO) might be effective for myelodysplastic syndrome (MDS) by apoptosis induction and demethylation. But ATO has not been widely recommended for small sample and conflicting conclusion of existing trials. This review aimed to systematically evaluate the efficacy of regimens containing ATO for the MDS and explore optimal combination.",
+            "journal": "Hematology (Amsterdam, Netherlands)",
+            "year": "2023",
+            "authors": [
+              "Huang Xiaohua",
+              "Liu Yuan",
+              "Liu Ruixuan",
+              "Zou Xiaoqiu",
+              "Yang Hongyong"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Oxides",
+              "Myelodysplastic Syndromes",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37908176/"
+          },
+          {
+            "pmid": "33734442",
+            "title": "Acute myeloid leukemia: Treatment and research outlook for 2021 and the MD Anderson approach.",
+            "abstract": "The unraveling of the pathophysiology of acute myeloid leukemia (AML) has resulted in rapid translation of the information into clinical practice. After more than 40 years of slow progress in AML research, the US Food and Drug Administration has approved nine agents for different AML treatment indications since 2017. In this review, we detail the progress that has been made in the research and treatment of AML, citing key publications related to AML research and therapy in the English literature since 2000. The notable subsets of AML include acute promyelocytic leukemia (APL), core-binding factor AML (CBF-AML), AML in younger patients fit for intensive chemotherapy, and AML in older/unfit patients (usually at the age cutoff of 60-70 years). We also consider within each subset whether the AML is primary or secondary (therapy-related, evolving from untreated or treated myelodysplastic syndrome or myeloproliferative neoplasm). In APL, therapy with all-trans retinoic acid and arsenic triox",
+            "journal": "Cancer",
+            "year": "2021",
+            "authors": [
+              "Kantarjian Hagop M",
+              "Kadia Tapan M",
+              "DiNardo Courtney D",
+              "Welch Mary Alma",
+              "Ravandi Farhad"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Arsenic Trioxide",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Cladribine",
+              "Core Binding Factors",
+              "Cytarabine",
+              "Daunorubicin",
+              "Gemtuzumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33734442/"
+          },
+          {
+            "pmid": "40167011",
+            "title": "Efficacy and safety of decitabine combined with arsenic trioxide in elderly high-risk myelodysplastic neoplasm patients: a retrospective study.",
+            "abstract": "Elderly patients with high-risk myelodysplastic neoplasm (MDS) face poor outcomes with limited treatment options, often progressing to acute myeloid leukemia (AML). This study investigates the efficacy and safety of combining decitabine (DAC) with arsenic trioxide (ATO) as a novel therapeutic approach.",
+            "journal": "Hematology (Amsterdam, Netherlands)",
+            "year": "2025",
+            "authors": [
+              "Yang Jianzhong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Arsenic Trioxide",
+              "Decitabine",
+              "Myelodysplastic Syndromes",
+              "Retrospective Studies",
+              "Aged",
+              "Male",
+              "Female",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40167011/"
+          },
+          {
+            "pmid": "20425329",
+            "title": "Arsenic trioxide as a treatment for myelodysplastic syndrome.",
+            "abstract": "Myelodysplastic syndrome (MDS) is a heterogeneous bone marrow disorder primarily affecting older adults, for whom the only curative therapy, bone marrow transplantation, is rarely an option. New therapies, or novel applications of historical therapies, are desperately needed. Arsenic trioxide (ATO), which acts through proapoptotic, antiproliferative, and antiangiogenesis mechanisms, has been used successfully to treat a variety of hematologic malignancies, including MDS. As monotherapy or in combination with other agents, it can effect hematologic improvement in 22% to 26% of patients, with tolerable side effects. MDS patients whose cells express the EVI1 mutation in particular may derive benefit from this therapy.",
+            "journal": "Current hematologic malignancy reports",
+            "year": "2006",
+            "authors": [
+              "Sekeres Mikkael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Clinical Trials as Topic",
+              "DNA-Binding Proteins",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Leukemia, Promyelocytic, Acute"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20425329/"
+          },
+          {
+            "pmid": "18282365",
+            "title": "New data with arsenic trioxide in leukemias and myelodysplastic syndromes.",
+            "abstract": "Arsenic and its derivatives have been used for medicinal purposes for thousands of years. Arsenic trioxide has demonstrated remarkable activity in the treatment of acute promyelocytic leukemia (APL), for which it can bring about complete remissions (CR) in > 80% of patients with relapsed disease, and molecular remission in 90% of those who enter a CR. Clinical trials have explored its use in the first-line setting and as part of consolidation therapy for de novo APL, for which it appears to provide an event-free and overall survival advantage. Two multicenter trials have examined its use in the treatment of the myelodysplastic syndromes; as a single agent, it yields responses in 20% of patients, and smaller trials have provided evidence for its use in non-APL acute myeloid leukemia populations in combination with other drugs such as gemtuzumab ozogamicin, ascorbic acid, and cytarabine.",
+            "journal": "Clinical lymphoma & myeloma",
+            "year": "2007",
+            "authors": [
+              "Sekeres Mikkael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Leukemia, Promyelocytic, Acute",
+              "Myelodysplastic Syndromes",
+              "Oxides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18282365/"
+          },
+          {
+            "pmid": "38816179",
+            "title": "Comparative analysis of immunological changes following realgar and arsenic trioxide treatments in a murine model of myelodysplastic syndrome.",
+            "abstract": "Myelodysplastic syndrome (MDS) is a prevalent hematological neoplastic disorder in clinics and its immunopathogenesis has garnered growing interest. Oral and intravenous arsenic agents have long been used to treat hematological malignancies. The main component of oral arsenic is realgar (arsenic disulfide), while arsenic trioxide is the main component of intravenous arsenic.",
+            "journal": "Immunopharmacology and immunotoxicology",
+            "year": "2024",
+            "authors": [
+              "Tao Yuchen",
+              "Xue Tingting",
+              "Li Xiaodong",
+              "Guo Runjie",
+              "Wang Yanlu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Mice",
+              "Disease Models, Animal",
+              "Myelodysplastic Syndromes",
+              "Sulfides",
+              "Disulfides",
+              "T-Lymphocytes",
+              "Spleen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38816179/"
+          },
+          {
+            "pmid": "27665715",
+            "title": "Arsenic trioxide and triptolide synergistically induce apoptosis in the SKM‑1 human myelodysplastic syndrome cell line.",
+            "abstract": "Although certain combination therapies comprising arsenic trioxide (As2O3) with other agents exist for the treatment of several types of human cancer, few As2O3 combination therapies are clinically effective for myelodysplastic syndromes (MDS). Triptolide (TL) may be an effective therapeutic agent for the treatment of MDS. However, to date, there is no combination therapy for MDS with As2O3 and TL. Therefore, the aim of the present study was to investigate this combination therapy on the apoptosis of MDS SKM‑1 cells. The MDS SKM‑1 cells were treated with As2O3, TL or the two in combination at various concentrations, or were mock‑treated. Cell viability, cell apoptosis, levels of reactive oxygen species (ROS) and the expression of the cell apoptosis‑associated genes, B cell lymphoma‑2 (Bcl‑2), Bcl‑2‑associated X protein (Bax) and caspase‑3, were determined using an MTT assay, flow cytometric analysis of annexin V‑fluorescein isothiocyanate/propidium iodide double‑stained cells, flow cyt",
+            "journal": "Molecular medicine reports",
+            "year": "2016",
+            "authors": [
+              "Hua Hai-Ying",
+              "Gao Hua-Qiang",
+              "Sun Ai-Ning",
+              "Cen Jian-Nong",
+              "Wu Li-Li"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Caspase 3",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Diterpenes",
+              "Drug Synergism",
+              "Epoxy Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27665715/"
+          },
+          {
+            "pmid": "15561690",
+            "title": "Marrow failure.",
+            "abstract": "New discoveries in cell biology, molecular biology and genetics have unveiled some of the pathophysiological mysteries of some of the bone marrow failure syndromes. Many of these discoveries have revealed why these syndromes show so much clinical overlap and some hold the potential for influencing the development of new therapies. In children and adults with pancytopenia and hypoplastic bone marrows proper differential diagnosis requires that some attention be directed toward defining molecular and cellular pathogenetic mechanisms because, once identified, some of these mechanisms will clearly suggest rational therapeutic approaches, treatment options that should be avoided, or both. In Section I, Drs. Jeffrey Lipton and Grover Bagby review the approach to diagnosis and management of patients with the inherited bone marrow failure syndromes, Fanconi anemia, dyskeratosis congenita, Diamond-Blackfan anemia, and the Shwachman-Diamond syndrome. Extraordinary progress has been made in ident",
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2004",
+            "authors": [
+              "Bagby Grover C",
+              "Lipton Jeffrey M",
+              "Sloand Elaine M",
+              "Schiffer Charles A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anemia, Aplastic",
+              "Humans",
+              "Myelodysplastic Syndromes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15561690/"
+          },
+          {
+            "pmid": "30898879",
+            "title": "Decitabine shows synergistic effects with arsenic trioxide against myelodysplastic syndrome cells via endoplasmic reticulum stress-related apoptosis.",
+            "abstract": "Most of the International Prognostic Scoring System (IPSS) high-risk patients with myelodysplastic syndrome partly responded to hypomethylating therapy even with transient remission, while arsenic trioxide (ATO) had partial effect in patients with MDS. Therefore, we sought to investigate the effects and possible mechanisms of the combination of ATO and decitabine (DAC) in MDS cells. In our study, the MUTZ-1 and SKM-1 cells were treated with ATO, DAC or both. Cell viability, cell apoptosis, levels of reactive oxygen species (ROS) and expressions of the endoplasmicreticulum (ER) stress-associated genes and proteins were examined. Results showed the combination of ATO and DAC synergistically inhibited the proliferation and induced apoptosis of MDS cells. Through the RNA-sequence and GSEA gene function analysis, ER stress-related pathway played an important role in apoptosis of MDS cells induced by the combination of ATO and DAC. ER stress-related genes DNA damage inducible transcript 3, G",
+            "journal": "Journal of investigative medicine : the official publication of the American Federation for Clinical Research",
+            "year": "2019",
+            "authors": [
+              "Huang Lei",
+              "Liu Zhaoyun",
+              "Jiang Huijuan",
+              "Li Lijuan",
+              "Fu Rong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Antioxidants",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Decitabine",
+              "Drug Synergism",
+              "Endoplasmic Reticulum Chaperone BiP",
+              "Endoplasmic Reticulum Stress"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30898879/"
+          },
+          {
+            "pmid": "14633782",
+            "title": "Myelodysplastic syndrome.",
+            "abstract": "The last decade has witnessed a multistep evolution in the understanding of the natural history, clinical manifestations, and some of the molecular mechanisms that underlie the ineffective hematopoiesis and leukemic transformation in the myelodysplastic syndrome (MDS). The international prognostic scoring system, FAB, and WHO classifications have helped define specific subgroups with their characteristic cytogenetic, molecular and immunological abnormalities. Until recently the mainstay of the treatment has been entirely supportive with blood and platelet transfusions. What is increasingly manifest now is the considerable excitement generated by the emergence of novel therapeutic strategies based on painstaking research findings from the laboratories. In Section I, Dr. Alan List reviews the therapeutic strategies with the specific emphasis on the relevance of molecular mechanism of apoptosis and targeted therapies using small molecules. Of particular interest is the excitement surround",
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2003",
+            "authors": [
+              "Mufti Ghulam",
+              "List Alan F",
+              "Gore Steven D",
+              "Ho Aloysius Y L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Immunologic",
+              "Antineoplastic Agents",
+              "Epigenesis, Genetic",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Myelodysplastic Syndromes",
+              "Signal Transduction",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14633782/"
+          },
+          {
+            "pmid": "17920679",
+            "title": "Arsenic trioxide, thalidomide and retinoid acid combination therapy in higher risk myelodysplastic syndrome patients.",
+            "abstract": "To evaluate the clinical efficacy and safety of arsenic trioxide, retinoic acid and thalidomide combination therapy in higher risk MDS.",
+            "journal": "Leukemia research",
+            "year": "2008",
+            "authors": [
+              "Zheng Wen-Li",
+              "Zhang Guang-Sen",
+              "Xu Yun-Xiao",
+              "Shen Jian-Kai",
+              "Dai Chong-Wen"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17920679/"
+          },
+          {
+            "pmid": "15610661",
+            "title": "Arsenic trioxide as a treatment for myelodysplastic syndrome.",
+            "abstract": "Myelodysplastic syndrome (MDS) is a heterogeneous bone marrow disorder primarily affecting older adults, for whom the only curative therapy, bone marrow transplantation, is rarely an option. New therapies, or novel applications of historical therapies, are desperately needed. Arsenic trioxide (ATO), which acts through pro-apoptotic, antiproliferative, and anti-angiogenesis mechanisms, has been used successfully to treat a variety of hematologic malignancies, including MDS. As monotherapy or in combination with other agents, it can effect hematologic improvement in 22% to 26% of patients, with tolerable side effects. MDS patients whose cells express the EVI1 mutation in particular may derive benefit from this therapy.",
+            "journal": "Current hematology reports",
+            "year": "2005",
+            "authors": [
+              "Sekeres Mikkael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Ascorbic Acid",
+              "Cell Division",
+              "Clinical Trials as Topic",
+              "DNA-Binding Proteins",
+              "Dexamethasone",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15610661/"
+          },
+          {
+            "pmid": "12578669",
+            "title": "[Effect of Arsenic Trioxide on Myelomonocytic Progenitor Cells in Patients with Myelodysplastic Syndrome in Vitro].",
+            "abstract": "The Effect of arsenic trioxide (As(2)O(3)) on myelomonocytic progenitor cells of patients with myelodysplastic syndrome was studied. Bone marrow CFU-GM was assayed in the agar semi-solid culture, and the bone marrow cells were incubated in liquid culture and the expressions of CD33, CD15 and bcl-2 on the marrow cells were detected by APAAP method in 24 patients. The suppressive effects of As(2)O(3) to CFU-GM were increased with the rise of As(2)O(3) concentrations. The suppression of As(2)O(3) (0.388 micro mol/L) to cluster formation was stronger than to colony formation, the suppressive rates were 70.78% vs 34.05% in low-risk group, and 86.76% vs 65.86% in high-risk group (P < 0.01), respectively. 0.194 micro mol/L of As(2)O(3) decreased clusters and increased colonies in low-risk group, but decreased clusters and did not change colonies in high-risk group. High concentration (1.94 micro mol/L) of As(2)O(3) downregulated the expression rate of CD33 and CD15 in both groups, and low con",
+            "journal": "Zhongguo shi yan xue ye xue za zhi",
+            "year": "2000",
+            "authors": [
+              "Liu Yanyan",
+              "Zhai Yaping",
+              "Hou Fengxi",
+              "Xi Yuren",
+              "Zhang Dongsheng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12578669/"
+          },
+          {
+            "pmid": "41398777",
+            "title": "Triptolide combined with arsenic trioxide induces apoptosis of myelodysplastic syndrome cells by inhibiting the NF-κB signaling pathway.",
+            "abstract": "The aim of this study was to delve into the combined effects of triptolide (TL) and arsenic trioxide (ATO) on the proliferation and apoptosis of myelodysplastic syndrome (MDS) cells, in addition to exploring the important role of the NF-κB signaling pathway underlying these combined actions.",
+            "journal": "Medicine",
+            "year": "2025",
+            "authors": [
+              "Sheng Li",
+              "Zhu Yingying",
+              "Wen Zhiyao",
+              "Fang Mingyuan",
+              "Gu Siyu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arsenic Trioxide",
+              "Diterpenes",
+              "Phenanthrenes",
+              "Humans",
+              "Apoptosis",
+              "Epoxy Compounds",
+              "Myelodysplastic Syndromes",
+              "Signal Transduction",
+              "NF-kappa B",
+              "Cell Proliferation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41398777/"
+          },
+          {
+            "pmid": "20956016",
+            "title": "Arsenic trioxide and low-dose cytarabine for patients with intermediate-2 and high-risk myelodysplastic syndrome.",
+            "abstract": "Advanced myelodysplastic syndrome (MDS) carries a poor prognosis. In this phase I/II study, arsenic trioxide was combined with low-dose cytarabine in 49 previously untreated patients with intermediate-2 and high-risk MDS. Complete remission was achieved in 8 (17%) patients, including 3/14 (21%) with treatment-related disease, 4/31 (13%) with unfavorable cytogenetics and 2/36 (6%) with baseline poor performance status. Mortality within the first 4 weeks was 8%. The regimen was active and had a tolerable extramedullary toxicity profile, but it was cumbersome and intensive compared to other currently available treatments.",
+            "journal": "Leukemia research",
+            "year": "2011",
+            "authors": [
+              "Roboz Gail J",
+              "Ritchie Ellen K",
+              "Curcio Tania",
+              "Samuel Michael",
+              "Provenzano Juliette"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Cytarabine",
+              "Diarrhea",
+              "Dose-Response Relationship, Drug",
+              "Fatigue",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20956016/"
+          },
+          {
+            "pmid": "25913414",
+            "title": "Bortezomib and Arsenic Trioxide Activity on a Myelodysplastic Cell Line (P39): A Gene Expression Study.",
+            "abstract": "We aimed to understand the molecular pathways affected by bortezomib and arsenic trioxide treatment on myelomonocytoid cell line P39.",
+            "journal": "Turkish journal of haematology : official journal of Turkish Society of Haematology",
+            "year": "2015",
+            "authors": [
+              "Savlı Hakan",
+              "Galimberti Sara",
+              "Sünnetçi Deniz",
+              "Canesastraro Martina",
+              "Palumbo Giuseppe"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Bortezomib",
+              "Cell Cycle Checkpoints",
+              "Cell Line, Tumor",
+              "Disease Progression",
+              "Drug Synergism",
+              "Estradiol",
+              "Gene Expression Regulation, Leukemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25913414/"
+          },
+          {
+            "pmid": "29042320",
+            "title": "Bone-targeting nanoparticle to co-deliver decitabine and arsenic trioxide for effective therapy of myelodysplastic syndrome with low systemic toxicity.",
+            "abstract": "Myelodysplastic syndromes (MDS) are a diverse group of bone marrow disorders and clonal hematopoietic stem cell disorders characterized by abnormal blood cells, or reduced peripheral blood cell count. Recent clinical studies on combination therapy of decitabine (DAC) and arsenic trioxide (ATO) have demonstrated synergy on MDS treatment, but the treatment can cause significant side effects to patients. In addition, both drugs have to be administered on a daily basis due to their short half-lives. In addressing key issues of reducing toxic side effects and improving pharmacokinetic profiles of the therapeutic agents, we have developed a new formulation by co-packaging DAC and ATO into alendronate-conjugated bone-targeting nanoparticles (BTNPs). Our pharmacokinetic studies revealed that intravenously administered BTNPs increased circulation time up to 3days. Biodistribution analysis showed that the BTNP facilitated DAC and ATO accumulation in the bone, which is 6.7 and 7.9 times more than",
+            "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+            "year": "2017",
+            "authors": [
+              "Wu Xiaoyan",
+              "Hu Zhenhua",
+              "Nizzero Sara",
+              "Zhang Guodong",
+              "Ramirez Maricela R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alendronate",
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Azacitidine",
+              "Bone Marrow Cells",
+              "Bone and Bones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29042320/"
+          },
+          {
+            "pmid": "20471733",
+            "title": "Arsenic trioxide - An old drug rediscovered.",
+            "abstract": "Over the last 17 years, clinical trials conducted worldwide have demonstrated the efficacy of arsenic trioxide (As(2)O(3)) in the treatment of relapsed acute promyelocytic leukemia (APL). Currently, the role of As(2)O(3) in front-line therapy is under investigation. Recent trials in the US have demonstrated that the addition of As(2)O(3) to standard treatment regimens improves survival outcomes in patients with APL and may allow a reduction in cytotoxic chemotherapy exposure. As(2)O(3) has also shown efficacy in other malignancies, particularly multiple myeloma and myelodysplastic syndromes. Therapeutic doses of As(2)O(3) are well tolerated, with no evidence of long-term toxicity. Adverse events include APL differentiation syndrome, electrocardiographic abnormalities, and mild elevations in liver enzymes. This review highlights trials investigating the role of As(2)O(3) in induction and consolidation for newly diagnosed APL, as well as its role in other hematologic malignancies. The ch",
+            "journal": "Blood reviews",
+            "year": "2010",
+            "authors": [
+              "Emadi Ashkan",
+              "Gore Steven D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Humans",
+              "Leukemia, Promyelocytic, Acute",
+              "Oxides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20471733/"
+          },
+          {
+            "pmid": "32917124",
+            "title": "The role of autophagy in targeted therapy for acute myeloid leukemia.",
+            "abstract": "Although molecular targeted therapies have recently displayed therapeutic effects in acute myeloid leukemia (AML), limited response and acquired resistance remain common problems. Numerous studies have associated autophagy, an essential degradation process involved in the cellular response to stress, with the development and therapeutic response of cancers including AML. Thus, we review studies on the role of autophagy in AML development and summarize the linkage between autophagy and several recurrent genetic abnormalities in AML, highlighting the potential of capitalizing on autophagy modulation in targeted therapy for AML.Abbreviations: AML: acute myeloid leukemia; AMPK: AMP-activated protein kinase; APL: acute promyelocytic leukemia; ATG: autophagy related; ATM: ATM serine/threonine kinase; ATO: arsenic trioxide; ATRA: all trans retinoic acid; BCL2: BCL2 apoptosis regulator; BECN1: beclin 1; BET proteins, bromodomain and extra-terminal domain family; CMA: chaperone-mediated autopha",
+            "journal": "Autophagy",
+            "year": "2021",
+            "authors": [
+              "Du Wenxin",
+              "Xu Aixiao",
+              "Huang Yunpeng",
+              "Cao Ji",
+              "Zhu Hong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Autophagy",
+              "Autophagy-Related Proteins",
+              "Humans",
+              "Leukemia, Myeloid, Acute"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32917124/"
+          },
+          {
+            "pmid": "15494295",
+            "title": "Nucleoside analogs and antimetabolite therapies for myelodysplastic syndrome.",
+            "abstract": "Myelodysplastic syndrome (MDS) is a heterogeneous group of clonal hematopoietic disorders. Therapeutic interventions for MDS other than allogeneic bone marrow transplantation have been palliative. Because most of the patients are elderly and may not be candidates for ablative transplant conditioning regimens, treatment has focused on supportive care. Recently, several novel biological and chemotherapeutic agents have demonstrated activity in MDS and are being incorporated into the treatment paradigm. These agents are based on specific mechanisms aimed at angiogenesis in the bone marrow, secretion of growth factors and/or their receptors, and modulators in their intracellular pathways. Several agents are in the initial stages of clinical trial, including anti-vascular endothelial growth factor, bevacizumab, receptor tyrosine kinase inhibitors, farnesyl transferase inhibitors, protein kinase C inhibitors, matrix metalloproteinase inhibitors and other agents such as thalidomide and arseni",
+            "journal": "Best practice & research. Clinical haematology",
+            "year": "2004",
+            "authors": [
+              "Foss Francine M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents, Alkylating",
+              "Humans",
+              "Myelodysplastic Syndromes",
+              "Nucleosides",
+              "Topoisomerase I Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15494295/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ewing sarcoma",
+        "txgnn_score": 0.9988768696784972,
+        "txgnn_rank": 2217,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00024258",
+            "title": "Phase II Study of Arsenic Trioxide in Neuroblastoma and Other Pediatric Solid Tumors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2001-03",
+            "completion_date": "2009-05",
+            "country": "United States",
+            "enrollment": 22,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of arsenic trioxide in treating children who have advanced neuroblastoma or other solid tumors.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed neuroblastoma or other pediatric solid tumor (nonmyeloid and nonlymphoid) including the following:\n\n  * Ewing's family of tumors/primitive neuroectodermal tumor\n  * Retinoblastoma\n  * Nephroblastoma\n  * Osteosarcoma\n  * Rhabdomyosarcoma\n  * Desmop",
+            "endpoints": [
+              "Response Rate After Every 3 Courses During Treatment and Then Every 2-3 Months for 1 Year After Completion of Treatment"
+            ],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00024258"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31746397",
+            "title": "Interaction of arsenic trioxide and etoposide in Ewing sarcoma cell lines.",
+            "abstract": "Ewing sarcomas (ES) are highly malignant mesenchymal tumors, which most often occur in children and adolescents. The current treatment of choice comprises wide resection in combination with multimodal chemotherapy including etoposide (Eto). Due to the serious side effects associated with common chemotherapeutics and prevalent multidrug resistance in recurrent and metastatic ES, there is a growing demand for alternative strategies and add‑on drugs. Previous research has demonstrated efficient cell death induction by Eto in combination with arsenic trioxide (ATO) in ES cell lines. The aim of the present study was to investigate the effect of different temporal sequences of ATO and Eto administration on apoptosis induction and to explore the effect of both drugs on inhibitory glycogen synthase kinase‑3β (GSK3‑β) phosphorylation as well as multidrug transporter gene expression. The intensity of caspase activation was mainly determined by the Eto doses in A673 and TC‑71 cells, whereas in RD",
+            "journal": "Oncology reports",
+            "year": "2020",
+            "authors": [
+              "Lenz Julia E",
+              "Riester Rosa",
+              "Schleicher Sabine B",
+              "Handgretinger Rupert",
+              "Boehme Karen A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ATP Binding Cassette Transporter, Subfamily B",
+              "Arsenic Trioxide",
+              "Bone Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Dose-Response Relationship, Drug",
+              "Drug Interactions",
+              "Etoposide",
+              "Gene Expression Regulation, Neoplastic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31746397/"
+          },
+          {
+            "pmid": "21946058",
+            "title": "Arsenic trioxide inhibits Ewing's sarcoma cell invasiveness by targeting p38(MAPK) and c-Jun N-terminal kinase.",
+            "abstract": "Ewing's sarcoma is the second most frequent primary malignant bone tumor, mainly affecting children and young adults. The notorious metastatic capability of this tumor aggravates patient mortality and remains a problem to be overcome. We investigated the effect of arsenic trioxide (As₂O₃) on the metastasis capability of Ewing's sarcoma cells. We performed 3-(4,5-dimethylthiazol-2-yl)-2, 5-diphenyl-2H-tetrazolium bromide assays to choose appropriate concentrations of As₂O₃ for the experiments. Migration, invasion, and adhesion assays were performed to assess the effect of As₂O₃ on the metastasis of Ewing's sarcoma. Immunofluorescent staining was used to observe cytoskeleton reorganization in Ewing's sarcoma cells treated with As₂O₃. Changes in matrix metalloproteinase-9 expression and the mitogen-activated protein kinase (MAPK) pathway were investigated using western blot. Inhibitors of p38(MAPK) (sb202190) and c-Jun NH₂-terminal kinase (JNK, sp600125) were used in invasion assays to de",
+            "journal": "Anti-cancer drugs",
+            "year": "2012",
+            "authors": [
+              "Zhang Shuai",
+              "Guo Wei",
+              "Ren Ting-Ting",
+              "Lu Xin-Chang",
+              "Tang Guo-Qing"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anisomycin",
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Bone Neoplasms",
+              "Cell Adhesion",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Cytoskeleton",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21946058/"
+          },
+          {
+            "pmid": "16930595",
+            "title": "Arsenic trioxide concentration determines the fate of Ewing's sarcoma family tumors and neuroblastoma cells in vitro.",
+            "abstract": "Arsenic trioxide (As(2)O(3)) induces both the differentiation and apoptosis of acute promyelocytic leukemia cells in a concentration dependent manner. We assessed the effects of As(2)O(3) in CADO-ES Ewing's sarcoma (ES), JK-GMS peripheral primitive neuroectodermal tumor (PNET), and SH-SY5Y neuroblastoma cells, as they share common histogenetic backgrounds. As(2)O(3) at low concentrations (0.1-1 microM) induced SH-SY5Y differentiation, and whereas PNET cells acquired a slightly differentiated phenotype, change was minimal in ES cells. Extracellular signal-regulated kinase 2 (ERK2) was activated at low As(2)O(3) concentrations, and PD98059, an inhibitor of MEK-1, blocked SH-SY5Y cell differentiation by As(2)O(3). High concentrations (2-10 microM) of As(2)O(3) induced the apoptosis in all three cell lines, and this was accompanied by the activation of c-jun N-terminal kinase. The generation of H(2)O(2) and activation of caspase 3 were identified as critical components of As(2)O(3)-induced",
+            "journal": "FEBS letters",
+            "year": "2006",
+            "authors": [
+              "Jung Hyun Sook",
+              "Kim Han-Seong",
+              "Lee Min-Jae",
+              "Shin Hee Young",
+              "Ahn Hyo Seop"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Cell Differentiation",
+              "Cell Line, Tumor",
+              "Enzyme Activation",
+              "Enzyme Inhibitors",
+              "Fibroblast Growth Factor 2",
+              "Flavonoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16930595/"
+          },
+          {
+            "pmid": "27665785",
+            "title": "Arsenic trioxide potentiates the effectiveness of etoposide in Ewing sarcomas.",
+            "abstract": "Ewing sarcomas (ES) are rare mesenchymal tumours, most commonly diagnosed in children and adolescents. Arsenic trioxide (ATO) has been shown to efficiently and selectively target leukaemic blasts as well as solid tumour cells. Since multidrug resistance often occurs in recurrent and metastatic ES, we tested potential additive effects of ATO in combination with the cytostatic drugs etoposide and doxorubicin. The Ewing sarcoma cell lines A673, RD-ES and SK-N-MC as well as mesenchymal stem cells (MSC) for control were treated with ATO, etoposide and doxorubicin in single and combined application. Viability and proliferation (MTS assay, colony formation, 3D spheroid culture) as well as cell death induction (western blot analysis, flow cytometry) were analysed. In the MTS viability assays ATO treatment significantly reduced the metabolic activity of all three ES cell lines (A673, RD-ES and SK-N-MC) examined. Moreover, all ES cell lines were sensitive to etoposide, whereas MSC remained unaff",
+            "journal": "International journal of oncology",
+            "year": "2016",
+            "authors": [
+              "Boehme Karen A",
+              "Nitsch Juliane",
+              "Riester Rosa",
+              "Handgretinger Rupert",
+              "Schleicher Sabine B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Phytogenic",
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Blotting, Western",
+              "Bone Neoplasms",
+              "Drug Synergism",
+              "Etoposide",
+              "Flow Cytometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27665785/"
+          },
+          {
+            "pmid": "22391311",
+            "title": "A new era for an ancient drug: arsenic trioxide and Hedgehog signaling.",
+            "abstract": "Arsenic has been used for ages as a therapeutic agent. Currently, it is an FDA approved drug to treat acute promyelocytic leukemia where it leads to degradation of the PML-RAR fusion protein. It has been shown to have various other targets in cells such as JNK, NFκB, thioredoxin reductase, and MAPK pathways. Most of its effects in cells have been through arsenic's ability to bind to thiol groups in cysteine residues. Recent evidence has shown that arsenic can inhibit the Hedgehog pathway by inhibiting GLI proteins. The proposed mechanism of action is through direct binding. Potential binding sites include the critical cysteine residues in GLI zinc finger domains. The role of the Hedgehog pathway has been implicated in many cancers such as basal cell carcinoma, medulloblastoma, Ewing sarcoma, and rhabdoid tumors. Current Hedgehog pathway inhibitors have been fraught with resistance issues and so arsenic trioxide may provide an alternative therapy when combined with these other inhibitor",
+            "journal": "Vitamins and hormones",
+            "year": "2012",
+            "authors": [
+              "Beauchamp Elspeth M",
+              "Uren Aykut"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Bone Neoplasms",
+              "Cerebellar Neoplasms",
+              "Hedgehog Proteins",
+              "Humans",
+              "Leukemia, Promyelocytic, Acute",
+              "Medulloblastoma",
+              "Oncogene Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22391311/"
+          },
+          {
+            "pmid": "16889724",
+            "title": "[Preliminary report of combination chemotherapy including Arsenic trioxide for stage III osteosarcoma and Ewing sarcoma].",
+            "abstract": "To determine the efficacy of Arsenic trioxide combined with other chemo agents in patients with metastatic osteosarcoma and Ewing sarcoma.",
+            "journal": "Zhonghua wai ke za zhi [Chinese journal of surgery]",
+            "year": "2006",
+            "authors": [
+              "Guo Wei",
+              "Tang Xiao-dong",
+              "Tang Shun",
+              "Yang Yi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Bone Neoplasms",
+              "Child",
+              "Etoposide",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16889724/"
+          },
+          {
+            "pmid": "22315235",
+            "title": "Evaluation of arsenic trioxide by the pediatric preclinical testing program with a focus on Ewing sarcoma.",
+            "abstract": "Arsenic trioxide was tested against the PPTP in vitro panel (1.0 nM to 10 µM) and against the PPTP Ewing sarcoma in vivo panel administered intraperitoneally at a dose of 2.5 mg/kg daily × 5 per week for a planned treatment duration of 3 weeks. Arsenic trioxide showed a median relative IC(50) value of 0.9 µM, with Ewing sarcoma cell lines having IC(50) values similar to those of the remaining PPTP cell lines. Arsenic trioxide did not induce significant differences in EFS distribution compared to control in any of the Ewing sarcoma xenografts studied, and no objective responses were observed.",
+            "journal": "Pediatric blood & cancer",
+            "year": "2012",
+            "authors": [
+              "Smith Malcolm A",
+              "Kang Min H",
+              "Reynolds C Patrick",
+              "Kurmasheva Raushan T",
+              "Alexander Denise"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Bone Neoplasms",
+              "Cell Line, Tumor",
+              "Female",
+              "Growth Inhibitors",
+              "Mice",
+              "Mice, SCID",
+              "Oxides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22315235/"
+          },
+          {
+            "pmid": "21183792",
+            "title": "Arsenic trioxide inhibits human cancer cell growth and tumor development in mice by blocking Hedgehog/GLI pathway.",
+            "abstract": "The Hedgehog (Hh) pathway is activated in some human cancers, including medulloblastoma. The glioma-associated oncogene homolog (GLI) transcription factors are critical mediators of the activated Hh pathway, and their expression may be elevated in some tumors independent of upstream Hh signaling. Thus, therapies targeting GLI transcription factors may benefit a wide spectrum of patients with mutations at different nodal points of the Hh pathway. In this study, we present evidence that arsenic trioxide (ATO) suppresses human cancer cell growth and tumor development in mice by inhibiting GLI1. Mechanistically, ATO directly bound to GLI1 protein, inhibited its transcriptional activity, and decreased expression of endogenous GLI target genes. Consistent with this, ATO inhibited the growth of human cancer cell lines that depended on upregulated GLI expression in vitro and in vivo in a xenograft model of Ewing sarcoma. Furthermore, ATO improved survival of a clinically relevant spontaneous m",
+            "journal": "The Journal of clinical investigation",
+            "year": "2011",
+            "authors": [
+              "Beauchamp Elspeth M",
+              "Ringer Lymor",
+              "Bulut Gülay",
+              "Sajwan Kamal P",
+              "Hall Michael D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Base Sequence",
+              "Cell Line, Tumor",
+              "DNA Primers",
+              "Gene Expression",
+              "Hedgehog Proteins",
+              "Hep G2 Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21183792/"
+          },
+          {
+            "pmid": "16646077",
+            "title": "Clinically tolerable concentrations of arsenic trioxide induce p53-independent cell death and repress NF-kappa B activation in Ewing sarcoma cells.",
+            "abstract": "Ewing sarcoma (ES), a highly malignant pediatric tumor, is consistently associated with translocations that fuse the EWS gene with a member of the ETS family gene, most commonly FLI-1. Despite significant advances with multiagent chemotherapy, surgery and radiotherapy, about 40% of ES patients still die from the disease. It is therefore necessary to explore novel agents for possible treatment of this tumor. Here the authors investigated the sensitivity of ES cells to clinically tolerable concentrations of arsenic trioxide (As2O3), a compound known to induce differentiation and apoptosis of other types of malignant cells. The authors report that As2O3 uniformly induced death of 6 ES-derived cell lines irrespective of their p53 status. As2O3 resulted in an apoptotic phenotype which was inhibited by the broad-spectrum caspase inhibitor ZVAD-fmk. These effects correlated with prolonged c-jun N-terminal kinase activation, which is a signal for apoptosis in ES cells. As2O3 also decreased bas",
+            "journal": "International journal of cancer",
+            "year": "2006",
+            "authors": [
+              "Mathieu Julie",
+              "Besançon Françoise"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Caspases",
+              "Cell Line, Tumor",
+              "Enzyme Activation",
+              "Humans",
+              "JNK Mitogen-Activated Protein Kinases",
+              "Mitochondria",
+              "NF-kappa B"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16646077/"
+          },
+          {
+            "pmid": "21183780",
+            "title": "Arsenic: a potentially useful poison for Hedgehog-driven cancers.",
+            "abstract": "Dysregulated Hedgehog (Hh) signaling has been implicated in a growing number of human cancers. To date, most antagonists of this signaling pathway that have been developed target the Hh receptor Smoothened. However, these are predicted to have minimal effect when the pathway is activated as a result of dysregulation downstream of this receptor. In this issue of the JCI, Beauchamp and colleagues provide preclinical evidence that arsenic trioxide, a drug FDA approved for the treatment of acute promyelocytic leukemia, inhibits the growth of Ewing sarcoma and medulloblastoma cells by targeting GLI family zinc finger (GLI) proteins, which are Hh signaling pathway components downstream of Smoothened.",
+            "journal": "The Journal of clinical investigation",
+            "year": "2011",
+            "authors": [
+              "Raju G Praveen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Arsenic Trioxide",
+              "Arsenicals",
+              "Cell Line, Tumor",
+              "Hedgehog Proteins",
+              "Humans",
+              "Medulloblastoma",
+              "Mice",
+              "Models, Biological"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21183780/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.9976964592933656,
+        "txgnn_rank": 3784,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9974977374076844,
+        "txgnn_rank": 4036,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.9969755411148072,
+        "txgnn_rank": 4624,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01169",
+    "name": "Arsenic trioxide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Arsenic trioxide"
+      },
+      "queried_at": "2026-03-09T15:20:37.542042",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Arsenic trioxide"
+      },
+      "queried_at": "2026-03-09T15:21:05.249356",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "queried_at": "2026-03-09T15:21:07.434098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "queried_at": "2026-03-09T15:21:12.027675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "queried_at": "2026-03-09T15:21:13.096180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "refractory cytopenia of childhood"
+      },
+      "queried_at": "2026-03-09T15:21:14.985642",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "refractory cytopenia of childhood"
+      },
+      "queried_at": "2026-03-09T15:21:23.564955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "refractory cytopenia of childhood"
+      },
+      "queried_at": "2026-03-09T15:21:24.640202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "severe congenital hypochromic anemia with ringed sideroblasts"
+      },
+      "queried_at": "2026-03-09T15:21:27.089760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "severe congenital hypochromic anemia with ringed sideroblasts"
+      },
+      "queried_at": "2026-03-09T15:21:30.388711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "severe congenital hypochromic anemia with ringed sideroblasts"
+      },
+      "queried_at": "2026-03-09T15:21:31.593623",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "aregenerative anemia"
+      },
+      "queried_at": "2026-03-09T15:21:33.622457",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "aregenerative anemia"
+      },
+      "queried_at": "2026-03-09T15:21:38.458170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "aregenerative anemia"
+      },
+      "queried_at": "2026-03-09T15:21:44.329343",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "partial deletion of the long arm of chromosome 5"
+      },
+      "queried_at": "2026-03-09T15:21:46.654450",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "partial deletion of the long arm of chromosome 5"
+      },
+      "queried_at": "2026-03-09T15:21:50.841328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "partial deletion of the long arm of chromosome 5"
+      },
+      "queried_at": "2026-03-09T15:21:52.331326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "myelodysplastic syndrome"
+      },
+      "queried_at": "2026-03-09T15:21:54.605423",
+      "status": "success",
+      "result_count": 24,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "myelodysplastic syndrome"
+      },
+      "queried_at": "2026-03-09T15:21:58.724528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "myelodysplastic syndrome"
+      },
+      "queried_at": "2026-03-09T15:22:03.101083",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:03.830808",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:07.559191",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:13.817773",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T15:22:14.877152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T15:22:20.392300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T15:22:22.252762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:23.189312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:27.153922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:28.075406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:28.777039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:33.692060",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Arsenic trioxide",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T15:22:34.476445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T15:22:34.484714"
+  }
+}

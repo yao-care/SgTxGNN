@@ -1,0 +1,2581 @@
+{
+  "drug": {
+    "inn": "Paroxetine",
+    "drugbank_id": "DB00715",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Ohdo syndrome and variants",
+        "txgnn_score": 0.9911098480224608,
+        "txgnn_rank": 9720,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melancholia",
+        "txgnn_score": 0.98736572265625,
+        "txgnn_rank": 12562,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01916824",
+            "title": "Effects of Treatment on Decision-making in Major Depression",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-08",
+            "completion_date": "2015-12",
+            "country": "United States",
+            "enrollment": 53,
+            "brief_summary": "In this trial, fifty participants with current major depressive disorder who are not receiving an antidepressant medication and fifty healthy controls will complete questionnaires and computerized tasks to assess their decision-making styles. There will be three visits for depressed patients and two for healthy controls (the first and third visits). The first visit will involve interviews and questionnaires to assess the participant's level of depression, medical history and quality of life. Par",
+            "eligibility_criteria": "Inclusion Criteria for MDD Subjects:\n\n1. Male or female, age 18-65\n2. Primary Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, Text Revision (DSM-IV TR) Diagnosis of Major Depressive Disorder.\n3. Has a 17-item Hamilton depression rating scale (HDRS-17) score \\>=16.\n4. Ability t",
+            "endpoints": [
+              "Money Earned"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT01916824"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "1487627",
+            "title": "Paroxetine in the treatment of melancholia and severe depression.",
+            "abstract": "Meta-analyses of the worldwide paroxetine database assessed the efficacy of this compound in the treatment of both DSM-III defined melancholia and hospitalised patients with severe depression (HAMD > or = 25). The analysis for melancholia included 178 paroxetine treated patients and 66 patients treated with placebo. Paroxetine was significantly superior to placebo in the treatment of melancholia and a clear dose-response relationship was established. The meta-analysis for severely depressed hospitalised patients included 109 paroxetine treated patients and 107 patients treated with a tricyclic/tetracyclic control. Paroxetine and active controls showed comparable efficacy in the treatment of severely depressed hospitalised patients.",
+            "journal": "International clinical psychopharmacology",
+            "year": "1992",
+            "authors": [
+              "Tignol J",
+              "Stoker M J",
+              "Dunbar G C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Depression",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Paroxetine",
+              "Psychiatric Status Rating Scales"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1487627/"
+          },
+          {
+            "pmid": "8106649",
+            "title": "Paroxetine: an overview of the efficacy and safety of a new selective serotonin reuptake inhibitor in the treatment of depression.",
+            "abstract": "Paroxetine is a novel phenylpiperidine compound that is a potent and selective serotonin reuptake inhibitor. It has little affinity for alpha-adrenergic, dopamine, histamine, and cholinergic receptors. The pharmacokinetic properties of paroxetine are well suited to clinical use. Its bioavailability is not affected by food or antacids; its mean half-life of about 24 hours is consistent with once-a-day dosing; also, it has no pharmacologically active metabolites. In clinical studies involving over 6,700 patients worldwide, the efficacy of paroxetine has been shown consistently to be superior to placebo and comparable to tricyclic antidepressant agents in the treatment of depression. During these trials, paroxetine was used in a broad range of depressed patients, including the moderately to severely depressed, the elderly, and patients whose depressions were accompanied by symptoms of anxiety. In addition, it has been shown to be effective for the prevention of depressive relapse during l",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1993",
+            "authors": [
+              "Nemeroff C B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Animals",
+              "Antidepressive Agents, Tricyclic",
+              "Clinical Trials as Topic",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8106649/"
+          },
+          {
+            "pmid": "1464219",
+            "title": "Paroxetine, sertraline, and fluvoxamine: new selective serotonin reuptake inhibitors.",
+            "abstract": "The pharmacology and pharmacokinetics, adverse effects, drug interactions, efficacy, and dosage and administration of the new selective serotonin reuptake inhibitors paroxetine, sertraline, and fluvoxamine are reviewed. Paroxetine, sertraline, and fluvoxamine all have large volumes of distribution and are highly bound to plasma proteins. In contrast to fluoxetine, these three drugs possess shorter elimination half-lives of approximately one day and are metabolized to clinically inactive compounds. Nausea was the most commonly reported adverse effect for all three agents. Other reported adverse effects are headache, sedation, dry mouth, insomnia, sexual dysfunction, and constipation. Because of their favorable pharmacokinetic profiles, paroxetine, sertraline, and fluvoxaetine are less likely than fluoxamine to interact with other drugs. Paroxetine has been found to be superior to placebo and equivalent to amitriptyline, imipramine, clomipramine, and doxepin in treatment of depression. S",
+            "journal": "Clinical pharmacy",
+            "year": "1992",
+            "authors": [
+              "Grimsley S R",
+              "Jann M W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "1-Naphthylamine",
+              "Depressive Disorder",
+              "Fluvoxamine",
+              "Humans",
+              "Paroxetine",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Sertraline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1464219/"
+          },
+          {
+            "pmid": "8784663",
+            "title": "Paroxetine and tardive dyskinesia.",
+            "abstract": "",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1996",
+            "authors": [
+              "Botsaris S D",
+              "Sypek J M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Depressive Disorder",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Humans",
+              "Paroxetine",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8784663/"
+          },
+          {
+            "pmid": "15089103",
+            "title": "Paroxetine controlled release.",
+            "abstract": "A controlled-release (CR) formulation of the SSRI paroxetine has been developed. This CR formulation delays the release of paroxetine until the tablet has passed through the stomach; the drug is then released over 4-5 hours. In well designed placebo-controlled trials in patients with major depressive disorder (including a study in the elderly), social anxiety disorder or premenstrual dysphoric disorder (PMDD), paroxetine CR was consistently superior to placebo with regards to primary endpoints (i.e. mean Hamilton Rating Scale for Depression total score [major depressive disorder], Liebowitz social anxiety scale total score and Clinical Global Impressions-Global Improvement score [social anxiety disorder] and Visual Analogue Scale-Mood score [PMDD]). The duration of treatment was 12 weeks or, in PMDD, over three menstrual cycles (intermittent or continuous administration). Paroxetine CR also demonstrated efficacy in three well designed studies in patients with panic disorder with or wit",
+            "journal": "CNS drugs",
+            "year": "2004",
+            "authors": [
+              "Bang Lynne M",
+              "Keating Gillian M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Delayed-Action Preparations",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Drug Evaluation",
+              "Drug Tolerance",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15089103/"
+          },
+          {
+            "pmid": "30277987",
+            "title": "Prospective Study of the Effectiveness of Paroxetine on the Onset of Posttraumatic Stress Disorder, Depression, and Health and Functional Outcomes After Trauma.",
+            "abstract": "To determine whether the administration of medication for posttraumatic stress disorder (PTSD) to injured trauma survivors prevents or mitigates PTSD.",
+            "journal": "Journal of orthopaedic trauma",
+            "year": "2019",
+            "authors": [
+              "Borrelli Joseph",
+              "Starr Adam",
+              "Downs Dana L",
+              "North Carol S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents, Second-Generation",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30277987/"
+          },
+          {
+            "pmid": "12143913",
+            "title": "Efficacy and tolerability of controlled-release and immediate-release paroxetine in the treatment of depression.",
+            "abstract": "Antidepressant efficacy may be compromised by early discontinuation of treatment secondary to common, treatment-emergent side effects, including nausea, agitation, and somnolence. Paroxetine controlled-release (CR) was developed to improve general tolerability and, in particular, gastrointestinal tolerability.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2002",
+            "authors": [
+              "Golden Robert N",
+              "Nemeroff Charles B",
+              "McSorley Paul",
+              "Pitts Cornelius D",
+              "Dubé Eric M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Delayed-Action Preparations",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12143913/"
+          },
+          {
+            "pmid": "10836286",
+            "title": "The efficacy and tolerability of venlafaxine and paroxetine in outpatients with depressive disorder or dysthymia.",
+            "abstract": "A 24-week, double-blind, randomized trial was performed to compare the efficacy and tolerability of venlafaxine and paroxetine in patients with major depression or dysthymia. Outpatients aged 18-70 years with a baseline score of 17 on the 21-item Hamilton Depression Rating Scale (HAM-D) were eligible. Patients were randomly assigned to venlafaxine, 37.5 mg, in the morning and evening or paroxetine, 20 mg, in the morning and placebo in the evening, which could be increased to venlafaxine, 75 mg twice daily, or paroxetine, 20 mg twice daily, after 4 weeks. Efficacy was assessed with the 21-item HAM-D, the Montgomery-Asberg Rating Scale, the Hamilton Anxiety Rating Scale, and the Clinical Global Impressions Scale. Forty-one patients were randomized to venlafaxine and 43 to paroxetine. At week 6, a response was observed in 55% of patients on venlafaxine and 29% on paroxetine (P = 0.03). At week 12, significantly (P = 0.011) more patients in the venlafaxine group had a HAM-D remission score",
+            "journal": "International clinical psychopharmacology",
+            "year": "2000",
+            "authors": [
+              "Ballús C",
+              "Quiros G",
+              "De Flores T",
+              "de la Torre J",
+              "Palao D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents, Second-Generation",
+              "Cyclohexanols",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Dysthymic Disorder",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10836286/"
+          },
+          {
+            "pmid": "1531828",
+            "title": "The safety profile of paroxetine.",
+            "abstract": "Side effects remain one of the most important clinical issues in antidepressant therapy. Patients may not be able to take appropriate treatment or may not tolerate their medication in adequate doses or for an adequate length of time to manage their depressive illness. This article reviews the extensive safety data from 6705 patients treated with paroxetine. These data indicate that paroxetine has no significant cardiovascular effects, few significant drug interactions, and no clinically significant effects on the ECG or EEG. Furthermore, paroxetine is relatively safe in overdose and has very little anticholinergic activity. Psychomotor performance is not impaired by paroxetine and there is no evidence of any zimelidine-like hypersensitivity reactions or increase in suicidal ideation. As with other selective serotonin reuptake inhibitors (SSRIs), the most common side effect is gastrointestinal upset, especially nausea. This is usually very well tolerated and rarely leads to drug discont",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1992",
+            "authors": [
+              "Boyer W F",
+              "Blumhardt C L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antidepressive Agents",
+              "Bipolar Disorder",
+              "Cardiovascular System",
+              "Clinical Trials as Topic",
+              "Depressive Disorder",
+              "Drug Interactions",
+              "Electrocardiography",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1531828/"
+          },
+          {
+            "pmid": "14964296",
+            "title": "Paroxetine and the FDA.",
+            "abstract": "",
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "2004",
+            "authors": [
+              "Riddle Mark A"
+            ],
+            "pub_types": [
+              "Comment",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Paroxetine",
+              "Suicide",
+              "United States",
+              "United States Food and Drug Administration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14964296/"
+          },
+          {
+            "pmid": "36194639",
+            "title": "Plasma levels of interleukin-8 and response to paroxetine in patients with major depressive disorder.",
+            "abstract": "Immune dysregulation plays a key role in major depressive disorder (MDD). However, little is known about the complicated involvement of various interleukins in MDD. This study was performed to investigate the correlation between plasma interleukin-8 (IL-8) levels and treatment outcome of paroxetine (a selective serotonin reuptake inhibitor) in patients with MDD.",
+            "journal": "Human psychopharmacology",
+            "year": "2022",
+            "authors": [
+              "Guan Xuan",
+              "Dong Zai-Quan",
+              "Hao Yan-Ni",
+              "Shen Xiao-Ling",
+              "Xie Qing-Lian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Female",
+              "Humans",
+              "Paroxetine",
+              "Major Depressive Disorder",
+              "Interleukin-8",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Antidepressive Agents",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36194639/"
+          },
+          {
+            "pmid": "8078953",
+            "title": "Heart rate variability in depressed patients and differential effects of paroxetine and amitriptyline on cardiovascular autonomic functions.",
+            "abstract": "Twenty-four unmedicated patients with episodes of major depression (DSM-III-R) and an age- and sex-matched group of 24 normal subjects underwent a heart rate analysis. The battery of cardiovascular reflex tests included the coefficient of variation while resting (CVr) and during deep breathing (CVdr), a spectral analysis of heart rate variability, the Valsalva test, and the posture index. The depressed patients showed no significant abnormalities in any of the tests as compared to the healthy subjects. The 24 patients were randomly allocated for treatment with either amitriptyline or paroxetine. During treatment with 20 mg paroxetine per day, patients showed no changes in cardiovascular autonomic function tests after 14 days. However, treatment with 150 mg amitriptyline per day decreased all heart rate parameters significantly due to anticholinergic side effects, except heart rate, which increased significantly. As autonomic side effects are a potential hazard of antidepressant therapy",
+            "journal": "Pharmacopsychiatry",
+            "year": "1994",
+            "authors": [
+              "Rechlin T",
+              "Weis M",
+              "Claus D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amitriptyline",
+              "Depressive Disorder",
+              "Female",
+              "Heart Rate",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8078953/"
+          },
+          {
+            "pmid": "1431015",
+            "title": "Paroxetine: an overview of dosage, tolerability, and safety.",
+            "abstract": "Paroxetine is a new selective serotonin reuptake inhibitor which has been extensively evaluated as an antidepressant in clinical trials and a large computerized safety database has been accumulated. A comprehensive review of data on dosage supports the recommendation that 20 mg paroxetine daily is the optimal therapeutic dose for most patients. When compared to active controls--mainly tricyclic antidepressants--paroxetine was found to have a different adverse-event profile with fewer anticholinergic, cardiovascular and nervous system events but more gastrointestinal events, particularly nausea. However, these events were not severe and did not usually lead to discontinuation of treatment. The adverse events reported with paroxetine were most likely to occur early in the course of treatment and there was no evidence of any increase in events in the elderly or with longer-term treatment. Paroxetine was not associated with excess of death from any cause, suicides, suicide attempts or seri",
+            "journal": "International clinical psychopharmacology",
+            "year": "1992",
+            "authors": [
+              "Jenner P N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1431015/"
+          },
+          {
+            "pmid": "8517168",
+            "title": "A comparison of paroxetine and placebo in depressed outpatients.",
+            "abstract": "To compare the safety and efficacy of paroxetine (n = 167) and placebo (n = 169), data from 4 centres using the same protocol were pooled. A double-blind parallel group design was used, with therapy lasting 6 weeks. Significant differences between paroxetine- and placebo-treated patients were found on the major efficacy outcome variables by week 2 and on all efficacy variables by week 4 of the study. Improvement on the sleep factor of the Hamilton Rating Scale for Depression was found after 7 d. Observer and patient global efficacy ratings were in agreement by week 4. No serious adverse events occurred, and paroxetine had no clinically significant effects on vital signs or laboratory safety data. Side effects were more common on paroxetine and were similar to other serotonin reuptake inhibitors. In general, these were well tolerated and did not lead to dropout. Symptoms of increased arousal were not seen during early therapy.",
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "1993",
+            "authors": [
+              "Dunbar G C",
+              "Claghorn J L",
+              "Kiev A",
+              "Rickels K",
+              "Smith W T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Duplicate Publication",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Ambulatory Care",
+              "Arousal",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8517168/"
+          },
+          {
+            "pmid": "41761797",
+            "title": "Effects of paroxetine combined with low-dose quetiapine on stress response and endocrine function in patients with treatment-resistant depression and sleep disorders.",
+            "abstract": "Depression is a common mental disorder. Patients with treatment-resistant depression (TRD) often experience sleep disorders (SD), which interact with each other and aggravate the deterioration of the disease.",
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2026",
+            "authors": [
+              "Zhu Zhenzhen",
+              "Lu Meng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Quetiapine Fumarate",
+              "Paroxetine",
+              "Sleep Wake Disorders",
+              "Female",
+              "Male",
+              "Adult",
+              "Middle Aged",
+              "Depressive Disorder, Treatment-Resistant",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41761797/"
+          },
+          {
+            "pmid": "8626354",
+            "title": "Drug-drug interactions.",
+            "abstract": "",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1996",
+            "authors": [
+              "Preskorn S H"
+            ],
+            "pub_types": [
+              "Comment",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "1-Naphthylamine",
+              "Cytochrome P-450 CYP2D6",
+              "Cytochrome P-450 Enzyme Inhibitors",
+              "Cytochrome P-450 Enzyme System",
+              "Depressive Disorder",
+              "Desipramine",
+              "Dose-Response Relationship, Drug",
+              "Drug Interactions",
+              "Drug Therapy, Combination",
+              "Fluoxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8626354/"
+          },
+          {
+            "pmid": "11354239",
+            "title": "A meta-analysis of the efficacy and tolerability of paroxetine versus tricyclic antidepressants in the treatment of major depression.",
+            "abstract": "This meta-analysis examined efficacy and tolerability data from 39 randomized, double-blind, parallel-group studies comparing paroxetine (n = 1924) with clomipramine (n = 141) or other tricyclic antidepressants (TCAs; n = 1693) in the treatment of major depression. Paroxetine had comparable antidepressant efficacy to TCAs, including clomipramine, as assessed by response rates based on a < or = 50% reduction in Hamilton Rating Scale for Depression (HAMD) total score (58-66%) and a HAMD total score < or = 8 (38-48%) at endpoint, and absolute improvements in HAMD total score (mean change 12.3-14.5). Absolute improvements in HAMD anxiety factor scores were similar between paroxetine and clomipramine (mean change 2.3 versus 2.4, P = 0.566), but paroxetine was statistically significantly more effective on this measure than other TCAs (mean change 2.3 versus 2.1, P = 0.028). The proportion of patients who experienced adverse events with > 1% incidence was statistically significantly lower wit",
+            "journal": "International clinical psychopharmacology",
+            "year": "2001",
+            "authors": [
+              "Montgomery S A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents, Tricyclic",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Humans",
+              "Paroxetine",
+              "Personality Inventory",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11354239/"
+          },
+          {
+            "pmid": "12019663",
+            "title": "Paroxetine and fluoxetine effects on mood and cognitive functions in depressed nondemented elderly patients.",
+            "abstract": "A large proportion of the elderly population complains of depressive symptoms. The ideal antidepressant for these patients, who often suffer from numerous concomitant diseases, should not worsen their cognitive functions and should be free of contraindications.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2002",
+            "authors": [
+              "Cassano Giovanni Battista",
+              "Puca Francomichele",
+              "Scapicchio Pier Luigi",
+              "Trabucchi Marco"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Affect",
+              "Age Factors",
+              "Aged",
+              "Ambulatory Care",
+              "Anxiety Disorders",
+              "Cognition",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Fluoxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12019663/"
+          },
+          {
+            "pmid": "10964877",
+            "title": "Paroxetine and irritable bowel syndrome.",
+            "abstract": "",
+            "journal": "The American journal of psychiatry",
+            "year": "2000",
+            "authors": [
+              "Kirsch M A",
+              "Louie A K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Colonic Diseases, Functional",
+              "Comorbidity",
+              "Depressive Disorder",
+              "Drug Administration Schedule",
+              "Humans",
+              "Male",
+              "Paroxetine",
+              "Secondary Prevention",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10964877/"
+          },
+          {
+            "pmid": "7963446",
+            "title": "Targeted pharmacotherapy in depression management: comparative pharmacokinetics of fluoxetine, paroxetine and sertraline.",
+            "abstract": "In contrast to tricyclic antidepressants (TCAs), the selective serotonin reuptake inhibitors (SSRIs) have a high affinity for the serotonin uptake site with little or no affinity for alpha-adrenergic, cholinergic or histaminic receptors. SSRIs, again in contrast to TCAs, do not slow intracardiac conduction. These differences between TCAs and SSRIs are important in terms of both discomforting and more serious adverse effects. Despite their more focused effects, the SSRIs are as effective as TCAs in treating major depression. The SSRIs have similar properties in terms of their pharmacodynamics, but important differences in terms of pharmacokinetics and their effects on hepatic function. Sertraline, and the starting dose of paroxetine have an elimination half-life (t1/2) of approximately 24 h. However, the half-life of paroxetine, but not of sertraline, becomes longer at higher doses due to paroxetine's inhibition of its own clearance. At t1/2 of 24 h makes once-daily dosing feasible and ",
+            "journal": "International clinical psychopharmacology",
+            "year": "1994",
+            "authors": [
+              "Preskorn S"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "1-Naphthylamine",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Drug Interactions",
+              "Fluoxetine",
+              "Half-Life",
+              "Humans",
+              "Metabolic Clearance Rate",
+              "Paroxetine",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7963446/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+        "txgnn_score": 0.9873149394989014,
+        "txgnn_rank": 12607,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotic depression",
+        "txgnn_score": 0.9870344996452332,
+        "txgnn_rank": 12822,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04446039",
+            "title": "Comparison of Antidepressants in the Real-World: Retrospective Cohort Study Using Big Data",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-07-04",
+            "completion_date": "2022-11-03",
+            "country": "South Korea",
+            "enrollment": 370212,
+            "brief_summary": "The primary purpose of this study is to investigate medication utilization pattern and risk of adverse outcomes among commonly used antidepressants by using nationwide claims database, in order to assess overall clinical benefit of antidepressant therapy in real-world practice.",
+            "eligibility_criteria": "Inclusion Criteria\n\nPatients must meet all of the following inclusion criteria to be eligible for inclusion in the study:\n\n1. Patients aged 18 years or older on the index date\n2. Patients who had at least one inpatient claim or two outpatient claims in the intake period with any of the following dia",
+            "endpoints": [
+              "Medication Possession Ratio (MPR) During First 180 Days of Treatment",
+              "Persistence During First 180 Days of Treatment",
+              "Percentage of Participants Who Discontinued Treatment in the First 90 Days From the Index Date"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04446039"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "8106649",
+            "title": "Paroxetine: an overview of the efficacy and safety of a new selective serotonin reuptake inhibitor in the treatment of depression.",
+            "abstract": "Paroxetine is a novel phenylpiperidine compound that is a potent and selective serotonin reuptake inhibitor. It has little affinity for alpha-adrenergic, dopamine, histamine, and cholinergic receptors. The pharmacokinetic properties of paroxetine are well suited to clinical use. Its bioavailability is not affected by food or antacids; its mean half-life of about 24 hours is consistent with once-a-day dosing; also, it has no pharmacologically active metabolites. In clinical studies involving over 6,700 patients worldwide, the efficacy of paroxetine has been shown consistently to be superior to placebo and comparable to tricyclic antidepressant agents in the treatment of depression. During these trials, paroxetine was used in a broad range of depressed patients, including the moderately to severely depressed, the elderly, and patients whose depressions were accompanied by symptoms of anxiety. In addition, it has been shown to be effective for the prevention of depressive relapse during l",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1993",
+            "authors": [
+              "Nemeroff C B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Animals",
+              "Antidepressive Agents, Tricyclic",
+              "Clinical Trials as Topic",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8106649/"
+          },
+          {
+            "pmid": "1487627",
+            "title": "Paroxetine in the treatment of melancholia and severe depression.",
+            "abstract": "Meta-analyses of the worldwide paroxetine database assessed the efficacy of this compound in the treatment of both DSM-III defined melancholia and hospitalised patients with severe depression (HAMD > or = 25). The analysis for melancholia included 178 paroxetine treated patients and 66 patients treated with placebo. Paroxetine was significantly superior to placebo in the treatment of melancholia and a clear dose-response relationship was established. The meta-analysis for severely depressed hospitalised patients included 109 paroxetine treated patients and 107 patients treated with a tricyclic/tetracyclic control. Paroxetine and active controls showed comparable efficacy in the treatment of severely depressed hospitalised patients.",
+            "journal": "International clinical psychopharmacology",
+            "year": "1992",
+            "authors": [
+              "Tignol J",
+              "Stoker M J",
+              "Dunbar G C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Depression",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Paroxetine",
+              "Psychiatric Status Rating Scales"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1487627/"
+          },
+          {
+            "pmid": "7963446",
+            "title": "Targeted pharmacotherapy in depression management: comparative pharmacokinetics of fluoxetine, paroxetine and sertraline.",
+            "abstract": "In contrast to tricyclic antidepressants (TCAs), the selective serotonin reuptake inhibitors (SSRIs) have a high affinity for the serotonin uptake site with little or no affinity for alpha-adrenergic, cholinergic or histaminic receptors. SSRIs, again in contrast to TCAs, do not slow intracardiac conduction. These differences between TCAs and SSRIs are important in terms of both discomforting and more serious adverse effects. Despite their more focused effects, the SSRIs are as effective as TCAs in treating major depression. The SSRIs have similar properties in terms of their pharmacodynamics, but important differences in terms of pharmacokinetics and their effects on hepatic function. Sertraline, and the starting dose of paroxetine have an elimination half-life (t1/2) of approximately 24 h. However, the half-life of paroxetine, but not of sertraline, becomes longer at higher doses due to paroxetine's inhibition of its own clearance. At t1/2 of 24 h makes once-daily dosing feasible and ",
+            "journal": "International clinical psychopharmacology",
+            "year": "1994",
+            "authors": [
+              "Preskorn S"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "1-Naphthylamine",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Drug Interactions",
+              "Fluoxetine",
+              "Half-Life",
+              "Humans",
+              "Metabolic Clearance Rate",
+              "Paroxetine",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7963446/"
+          },
+          {
+            "pmid": "11294041",
+            "title": "[Comparative study of paroxetine and mianserin in depression in elderly patients: efficacy, tolerance, serotonin dependence].",
+            "abstract": "The primary objective of this multicentre, randomized, double-blind study carried out in France was to compare the efficacy and safety of a 6-week treatment with paroxetine (20 mg/day) or mianserine (30 mg/day) in geriatric hospitalized or ambulatory patients (> or = 60 years) treated for a major depressive disorder (according to DSM III-R). A secondary objective was to discriminate those items predicting the response to an agent according to its serotoninergic or noradrenergic pharmacologic profile. The tool used for this latter purpose was the Aubin-Jouvent-Rating-Scale (AJRS) which was designed to assess the deficit of serotonin: this is a scale with 10 items, some of them regrouped into a \"general\" factor (irritability, sudden mood change, impatience, aggressivity) or a \"depression\" factor (pain, anxiety, suicidal ideas) with additional items related to sleep disorders, abnormalities in eating behavior and inability to tolerate isolation. In the perspective of this assessment, paro",
+            "journal": "L'Encephale",
+            "year": "2001",
+            "authors": [
+              "Daléry J",
+              "Aubin V"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Mianserin",
+              "Middle Aged",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11294041/"
+          },
+          {
+            "pmid": "30277987",
+            "title": "Prospective Study of the Effectiveness of Paroxetine on the Onset of Posttraumatic Stress Disorder, Depression, and Health and Functional Outcomes After Trauma.",
+            "abstract": "To determine whether the administration of medication for posttraumatic stress disorder (PTSD) to injured trauma survivors prevents or mitigates PTSD.",
+            "journal": "Journal of orthopaedic trauma",
+            "year": "2019",
+            "authors": [
+              "Borrelli Joseph",
+              "Starr Adam",
+              "Downs Dana L",
+              "North Carol S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents, Second-Generation",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30277987/"
+          },
+          {
+            "pmid": "1531824",
+            "title": "Paroxetine in the treatment of depression: a comparison with imipramine and placebo.",
+            "abstract": "Paroxetine is a selective serotonin reuptake inhibitor with significant antidepressant properties. This was a 6-week placebo- and imipramine-controlled study of 120 outpatients with major depression. Paroxetine was statistically significantly superior to placebo on almost all outcome measures. This was apparent as early as 1 week. Paroxetine was also significantly superior to imipramine on the Hamilton Rating Scale for Depression total score. Paroxetine was generally better tolerated than imipramine. These results strongly support paroxetine's effectiveness in the treatment of major depression and suggest that paroxetine will be a valuable addition to the options in treating depressive illness.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1992",
+            "authors": [
+              "Feighner J P",
+              "Boyer W F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Ambulatory Care",
+              "Antidepressive Agents",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Imipramine",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1531824/"
+          },
+          {
+            "pmid": "11354239",
+            "title": "A meta-analysis of the efficacy and tolerability of paroxetine versus tricyclic antidepressants in the treatment of major depression.",
+            "abstract": "This meta-analysis examined efficacy and tolerability data from 39 randomized, double-blind, parallel-group studies comparing paroxetine (n = 1924) with clomipramine (n = 141) or other tricyclic antidepressants (TCAs; n = 1693) in the treatment of major depression. Paroxetine had comparable antidepressant efficacy to TCAs, including clomipramine, as assessed by response rates based on a < or = 50% reduction in Hamilton Rating Scale for Depression (HAMD) total score (58-66%) and a HAMD total score < or = 8 (38-48%) at endpoint, and absolute improvements in HAMD total score (mean change 12.3-14.5). Absolute improvements in HAMD anxiety factor scores were similar between paroxetine and clomipramine (mean change 2.3 versus 2.4, P = 0.566), but paroxetine was statistically significantly more effective on this measure than other TCAs (mean change 2.3 versus 2.1, P = 0.028). The proportion of patients who experienced adverse events with > 1% incidence was statistically significantly lower wit",
+            "journal": "International clinical psychopharmacology",
+            "year": "2001",
+            "authors": [
+              "Montgomery S A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents, Tricyclic",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Humans",
+              "Paroxetine",
+              "Personality Inventory",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11354239/"
+          },
+          {
+            "pmid": "16160626",
+            "title": "Effects of paroxetine and venlafaxine XR on heart rate variability in depression.",
+            "abstract": "Depressed patients may exhibit reduced heart rate variability (HRV), and antidepressants which block norepinephrine uptake may also lower HRV. This study compared paroxetine (PAR) and venlafaxine XR (VEN-XR) on HRV. Outpatients were randomly assigned to double-blind treatment with PAR up to 40 mg or VEN-XR up to 225 mg daily. HRV measures of parasympathetic control consisted of change in R-R interval during forced 10-second breaths and respiratory sinus arrhythmia (RSA) during paced breathing. Ex vivo estimates of serotonin and norepinephrine transporter occupancy were obtained before and after treatment, as were measures of depression, anxiety, and resilience. Plasma drug concentrations were measured at end point. Forty-nine patients entered treatment; 44 of whom were evaluable (n = 22 per group). Significant within-group reductions were noted in R-R interval variation and in RSA after VEN-XR only. Between-group analyses showed significant group-by-time interaction, with greater reduc",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2005",
+            "authors": [
+              "Davidson Jonathan",
+              "Watkins Lana",
+              "Owens Michael",
+              "Krulewicz Stan",
+              "Connor Kathryn"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Cyclohexanols",
+              "Delayed-Action Preparations",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Heart Rate",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16160626/"
+          },
+          {
+            "pmid": "12143913",
+            "title": "Efficacy and tolerability of controlled-release and immediate-release paroxetine in the treatment of depression.",
+            "abstract": "Antidepressant efficacy may be compromised by early discontinuation of treatment secondary to common, treatment-emergent side effects, including nausea, agitation, and somnolence. Paroxetine controlled-release (CR) was developed to improve general tolerability and, in particular, gastrointestinal tolerability.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2002",
+            "authors": [
+              "Golden Robert N",
+              "Nemeroff Charles B",
+              "McSorley Paul",
+              "Pitts Cornelius D",
+              "Dubé Eric M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Delayed-Action Preparations",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12143913/"
+          },
+          {
+            "pmid": "41761797",
+            "title": "Effects of paroxetine combined with low-dose quetiapine on stress response and endocrine function in patients with treatment-resistant depression and sleep disorders.",
+            "abstract": "Depression is a common mental disorder. Patients with treatment-resistant depression (TRD) often experience sleep disorders (SD), which interact with each other and aggravate the deterioration of the disease.",
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2026",
+            "authors": [
+              "Zhu Zhenzhen",
+              "Lu Meng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Quetiapine Fumarate",
+              "Paroxetine",
+              "Sleep Wake Disorders",
+              "Female",
+              "Male",
+              "Adult",
+              "Middle Aged",
+              "Depressive Disorder, Treatment-Resistant",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41761797/"
+          },
+          {
+            "pmid": "15206659",
+            "title": "Paroxetine treatment of depression with posttraumatic stress disorder: effects on autonomic reactivity and cortisol secretion.",
+            "abstract": "Effects of paroxetine treatment of comorbid depression and posttraumatic stress disorder (PTSD) on subjective symptoms, autonomic reactivity, and diurnal salivary cortisols were assessed prospectively. Cross-sectional baseline psychophysiologic assessments of 22 patients with depression + PTSD, 21 with depression alone, and 20 asymptomatic, previously traumatized controls found that comorbid patients had higher blood pressure and heart rate reactivity to individualized trauma scripts than purely depressed and control groups. On discriminant analyses comparing comorbid patients with each other group, combined autonomic variables correctly classified 55% of comorbid patients (sensitivity) and 75% of traumatized, healthy subjects (specificity) as well as 55% of comorbid patients (sensitivity) and 86% of purely depressed patients (specificity). Although baseline AM and PM salivary cortisol levels were within reference range and did not differ significantly across groups, depression + PTSD ",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2004",
+            "authors": [
+              "Tucker Phebe",
+              "Beebe Katherine L",
+              "Burgin Christie",
+              "Wyatt Dorothy B",
+              "Parker Don E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Autonomic Nervous System",
+              "Depressive Disorder",
+              "Female",
+              "Humans",
+              "Hydrocortisone",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15206659/"
+          },
+          {
+            "pmid": "15089103",
+            "title": "Paroxetine controlled release.",
+            "abstract": "A controlled-release (CR) formulation of the SSRI paroxetine has been developed. This CR formulation delays the release of paroxetine until the tablet has passed through the stomach; the drug is then released over 4-5 hours. In well designed placebo-controlled trials in patients with major depressive disorder (including a study in the elderly), social anxiety disorder or premenstrual dysphoric disorder (PMDD), paroxetine CR was consistently superior to placebo with regards to primary endpoints (i.e. mean Hamilton Rating Scale for Depression total score [major depressive disorder], Liebowitz social anxiety scale total score and Clinical Global Impressions-Global Improvement score [social anxiety disorder] and Visual Analogue Scale-Mood score [PMDD]). The duration of treatment was 12 weeks or, in PMDD, over three menstrual cycles (intermittent or continuous administration). Paroxetine CR also demonstrated efficacy in three well designed studies in patients with panic disorder with or wit",
+            "journal": "CNS drugs",
+            "year": "2004",
+            "authors": [
+              "Bang Lynne M",
+              "Keating Gillian M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Delayed-Action Preparations",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Drug Evaluation",
+              "Drug Tolerance",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15089103/"
+          },
+          {
+            "pmid": "1531826",
+            "title": "Paroxetine in major depression: a double-blind trial with imipramine and placebo.",
+            "abstract": "Paroxetine is a selective serotonin reuptake inhibitor which is being developed as an antidepressant. Previous studies suggest it is effective in the treatment of depression and has a low incidence of side effects. The authors report on a 6-week, randomized, prospective trial of paroxetine, imipramine, and placebo in 120 outpatients with major depression. The results showed that paroxetine was significantly superior to placebo in relieving depression. There were no significant differences in antidepressant efficacy between paroxetine and imipramine. However, paroxetine was also significantly superior to placebo on several measures of anxiety. Imipramine either was not superior on these measures or took longer to show a significant difference. Paroxetine lacked the typical anticholinergic side effects that accompanied imipramine therapy. The results show that paroxetine is an effective antidepressant that may have value especially when depression is accompanied by significant anxiety.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1992",
+            "authors": [
+              "Cohn J B",
+              "Wilcox C S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents",
+              "Anxiety Disorders",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Imipramine",
+              "Male",
+              "Neurotransmitter Uptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1531826/"
+          },
+          {
+            "pmid": "1531828",
+            "title": "The safety profile of paroxetine.",
+            "abstract": "Side effects remain one of the most important clinical issues in antidepressant therapy. Patients may not be able to take appropriate treatment or may not tolerate their medication in adequate doses or for an adequate length of time to manage their depressive illness. This article reviews the extensive safety data from 6705 patients treated with paroxetine. These data indicate that paroxetine has no significant cardiovascular effects, few significant drug interactions, and no clinically significant effects on the ECG or EEG. Furthermore, paroxetine is relatively safe in overdose and has very little anticholinergic activity. Psychomotor performance is not impaired by paroxetine and there is no evidence of any zimelidine-like hypersensitivity reactions or increase in suicidal ideation. As with other selective serotonin reuptake inhibitors (SSRIs), the most common side effect is gastrointestinal upset, especially nausea. This is usually very well tolerated and rarely leads to drug discont",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1992",
+            "authors": [
+              "Boyer W F",
+              "Blumhardt C L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antidepressive Agents",
+              "Bipolar Disorder",
+              "Cardiovascular System",
+              "Clinical Trials as Topic",
+              "Depressive Disorder",
+              "Drug Interactions",
+              "Electrocardiography",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1531828/"
+          },
+          {
+            "pmid": "1431017",
+            "title": "The advantages of paroxetine in different subgroups of depression.",
+            "abstract": "Paroxetine is a selective serotonin reuptake inhibitor that is now licensed in various countries in Europe. It has comparable efficacy with the reference tricyclic antidepressants and is well tolerated with few adverse effects which are usually mild, transient and do not appear to compromise treatment. Paroxetine has a number of advantages as an antidepressant; of particular interest is its ability to improve sleep early in treatment without daytime sedation or interference with psychomotor function. Paroxetine appears effective compared with placebo in different subgroups of depression: it is effective in both endogenous and reactive depression, as well as being effective in moderate and severe depression. Paroxetine appears particularly effective in treating the anxiety associated with depression and has been shown to have greater efficacy than imipramine. There is some evidence that the onset of antidepressant action occurs slightly earlier with paroxetine than with imipramine. As w",
+            "journal": "International clinical psychopharmacology",
+            "year": "1992",
+            "authors": [
+              "Montgomery S A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anxiety",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Paroxetine",
+              "Psychiatric Status Rating Scales",
+              "Sleep",
+              "Suicide Prevention"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1431017/"
+          },
+          {
+            "pmid": "29859529",
+            "title": "[Discovering potential biomarkers of depression and drug intervention of paroxetine based on (1)H NMR metabolomics].",
+            "abstract": "The purpose of this study was to find potential biomarkers in the serum of patients with depression and provide the basis for clinical diagnosis of depression. Sixteen patients of severe depression were selected according to the inclusion criteria and 16 healthy people were used in the control group. The depression patients took paroxetine for two weeks. The serum was collected from the patients and healthy control group before and after paroxetine treatment. The samples were analyzed by (1)H NMR based metabolomics to determine the changes in profiles of endogenous metabolites and metabolites with significant differences were selected in analysis. Related pathways and receiver operating characteristic (ROC) were examined in analysis of the correlation between the potential biomarkers and depression. Their feasibility and reliability was determined for the clinical practice. Significant differences were observed in the metabolic profile of serum of the patients and the healthy controls.",
+            "journal": "Yao xue xue bao = Acta pharmaceutica Sinica",
+            "year": "2016",
+            "authors": [
+              "Xia Xiao-tao",
+              "Sun Ning",
+              "Liu Cai-chun",
+              "Qin Xue-mei",
+              "Tian Jun-sheng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Biomarkers",
+              "Case-Control Studies",
+              "Depressive Disorder",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Metabolome",
+              "Metabolomics",
+              "Paroxetine",
+              "ROC Curve"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29859529/"
+          },
+          {
+            "pmid": "1531825",
+            "title": "A double-blind comparison of paroxetine, imipramine, and placebo in major depression.",
+            "abstract": "Results from a single-center, 6-week, double-blind, randomized prospective study of paroxetine, a selective serotonin reuptake inhibitor; imipramine; and placebo are reported. One hundred twenty outpatients with a moderate-to-severe DSM-III diagnosis of major depression were randomly assigned to one of the three treatments following a 4- to 10-day single-blind placebo washout period. Significant differences favoring paroxetine over placebo were present at endpoint on most major efficacy measures. Paroxetine was also well tolerated; 5 (15%) paroxetine and 5 (14%) placebo patients dropped out of the study due to adverse effects. Imipramine, however, was comparatively poorly tolerated. Forty-five percent of imipramine-treated patients (N = 17) dropped out of the study due to adverse effects. None of the efficacy measures showed a significant difference between imipramine and placebo. This finding was probably due to the high number of imipramine patients who discontinued before they could",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1992",
+            "authors": [
+              "Shrivastava R K",
+              "Shrivastava S H",
+              "Overweg N",
+              "Blumhardt C L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Ambulatory Care",
+              "Antidepressive Agents",
+              "Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Imipramine",
+              "Male",
+              "Neurotransmitter Uptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1531825/"
+          },
+          {
+            "pmid": "2530763",
+            "title": "Paroxetine in the treatment of depression: a comparison with imipramine and placebo.",
+            "abstract": "Paroxetine is a selective serotonin uptake inhibitor, which is being investigated as an antidepressant. In this double-blind, six-week study 120 outpatients with DSM-III major depression were randomly assigned to treatment with paroxetine, imipramine, or placebo. Results showed a statistically significant superiority of paroxetine over placebo on almost all outcome measures. Paroxetine was significantly superior to imipramine on the HAMD total score and was generally better tolerated than imipramine. The results support paroxetine's effectiveness in the treatment of major depression and suggest that further studies with this compound are warranted.",
+            "journal": "Acta psychiatrica Scandinavica. Supplementum",
+            "year": "1989",
+            "authors": [
+              "Feighner J P",
+              "Boyer W F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Humans",
+              "Imipramine",
+              "Paroxetine",
+              "Piperidines",
+              "Psychiatric Status Rating Scales",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2530763/"
+          },
+          {
+            "pmid": "1531820",
+            "title": "The efficacy and safety of paroxetine compared with placebo in outpatients with major depression.",
+            "abstract": "Paroxetine, a phenylpiperidine derivative, is an antidepressant that selectively inhibits serotonin reuptake. In this study 111 outpatients with major depression diagnosed by DSM-III criteria were treated with either paroxetine or placebo in a 6-week, randomized, double-blind study. Paroxetine was significantly superior to placebo on six of the seven major efficacy variables. Significant differences in favor of paroxetine were apparent by Week 2. Paroxetine was also well tolerated. These results support the efficacy and safety of paroxetine as a treatment for patients with major depression.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1992",
+            "authors": [
+              "Rickels K",
+              "Amsterdam J",
+              "Clary C",
+              "Fox I",
+              "Schweizer E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Ambulatory Care",
+              "Antidepressive Agents",
+              "Depressive Disorder",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neurotransmitter Uptake Inhibitors",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1531820/"
+          },
+          {
+            "pmid": "15555719",
+            "title": "A comparative study of milnacipran and paroxetine in outpatients with major depression.",
+            "abstract": "Milnacipran is a dual-action antidepressant which inhibits both serotonin and noradrenaline reuptake with no affinity for any neurotransmitter receptor studied.",
+            "journal": "Journal of affective disorders",
+            "year": "2004",
+            "authors": [
+              "Sechter Daniel",
+              "Vandel Pierre",
+              "Weiller Emmanuel",
+              "Pezous Nicole",
+              "Cabanac Fabienne"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic Uptake Inhibitors",
+              "Adult",
+              "Ambulatory Care",
+              "Antidepressive Agents",
+              "Cyclopropanes",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15555719/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal torticollis of infancy",
+        "txgnn_score": 0.9814147353172302,
+        "txgnn_rank": 16327,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "agoraphobia",
+        "txgnn_score": 0.9776235222816468,
+        "txgnn_rank": 18156,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02852577",
+            "title": "Long-term, Open, Naturalistic, Randomized Clinical Trial With Clonazepam and Paroxetine in Panic Disorder With or Without Agoraphobia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2000-01",
+            "completion_date": "2012-08",
+            "country": "Brazil",
+            "enrollment": 120,
+            "brief_summary": "The purpose of this study was to determine whether clonazepam and paroxetine are effective in the treatment of panic disorder. Efficacy was evaluated in short-term, long-term and post-treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of panic disorder, with or without agoraphobia according to the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, text revision (DSM-IV-TR) criteria, as determined by a structured clinical interview.\n* At least two panic attacks in the week prece",
+            "endpoints": [
+              "Clinical Global Impression Severity scores at 8 weeks"
+            ],
+            "sponsor": "Universidade Federal do Rio de Janeiro",
+            "url": "https://clinicaltrials.gov/study/NCT02852577"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00677352",
+            "title": "A Randomized, Double-Blind, Multicenter Study Of Sertraline Compared With Paroxetine In The Treatment Of Panic Disorder",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2008-05",
+            "completion_date": "2010-02",
+            "country": "Japan",
+            "enrollment": 321,
+            "brief_summary": "To evaluate the efficacy and safety of sertraline compared to paroxetine in patients with panic disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient who meets diagnosis of Panic Disorder (with or without Agoraphobia) according to Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition (DSM IV).\n* Patients must have experienced at least 4 panic attacks within 4 weeks before screening.\n* At baseline pat",
+            "endpoints": [
+              "Mean Change From Baseline in Panic and Agoraphobia Scale (PAS) Total Score at the End of Treatment Phase"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00677352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00540098",
+            "title": "A Randomized, Controlled Trial on the Effects of Paroxetine Versus Placebo in Combination With Aerobic Exercise or Relaxation Training in the Treatment of Panic Disorder",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2001-09",
+            "completion_date": "2005-06",
+            "country": "Germany",
+            "enrollment": 75,
+            "brief_summary": "Efficacy and safety of a 10-weeks treatment protocol of paroxetine vs. placebo in combination with regular aerobic exercise (running) or regular relaxation training in the treatment of panic disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Panic disorder with or without agoraphobia due to DSM-IV\n* Written informed consent\n* Score of 17 or more on the P\\&A scale\n* Score on the CGI of 4 or more (markedly ill)\n\nExclusion Criteria:\n\n* Pregnancy, lactating or insufficient contraception (pearl index \\>1)\n* Other psych",
+            "endpoints": [
+              "Severity of Panic disorder due to Scores on the Panic and Agoraphobia Scale (P&A)",
+              "Severity of panic disorder due to scores on the Clinical Global Impression scale (CGI)"
+            ],
+            "sponsor": "University of Göttingen",
+            "url": "https://clinicaltrials.gov/study/NCT00540098"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00000368",
+            "title": "Treatment of Panic Disorder: Long Term Strategies",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1999-02",
+            "completion_date": "2004-07",
+            "country": "United States",
+            "enrollment": 379,
+            "brief_summary": "Cognitive behavior therapy (CBT) with or without medication has been used in the treatment of panic disorder (PD). The purpose of this study is 1) to determine whether nine months of maintenance cognitive-behavior therapy (CBT) significantly improves the likelihood of sustained improvement; and 2) to determine the acute acceptability and efficacy of medication therapy or continued CBT alone among patients who fail to respond sufficiently to an initial course of CBT alone.\n\nIt has been found that",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\- primary diagnosis of Panic disorder with or without Agoraphobia (all levels of agoraphobia are included).\n\nExclusion Criteria:\n\n* current substance abuse or dependence,\n* current active suicidal potential;\n* any history of psychosis, bipolar disorder (I or II) or cyclothymia;",
+            "endpoints": [
+              "Panic Disorder Severity Scale",
+              "Clinical Global Impressions"
+            ],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00000368"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38014714",
+            "title": "Pharmacological treatments in panic disorder in adults: a network meta-analysis.",
+            "abstract": "A panic attack is a discrete period of fear or anxiety that has a rapid onset and reaches a peak within 10 minutes. The main symptoms involve bodily systems, such as racing heart, chest pain, sweating, shaking, dizziness, flushing, churning stomach, faintness and breathlessness. Other recognised panic attack symptoms involve fearful cognitions, such as the fear of collapse, going mad or dying, and derealisation (the sensation that the world is unreal). Panic disorder is common in the general population with a prevalence of 1% to 4%. The treatment of panic disorder includes psychological and pharmacological interventions, including antidepressants and benzodiazepines.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2023",
+            "authors": [
+              "Guaiana Giuseppe",
+              "Meader Nicholas",
+              "Barbui Corrado",
+              "Davies Simon Jc",
+              "Furukawa Toshi A"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Panic Disorder",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Paroxetine",
+              "Fluoxetine",
+              "Venlafaxine Hydrochloride",
+              "Serotonin and Noradrenaline Reuptake Inhibitors",
+              "Alprazolam",
+              "Clomipramine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38014714/"
+          },
+          {
+            "pmid": "15089103",
+            "title": "Paroxetine controlled release.",
+            "abstract": "A controlled-release (CR) formulation of the SSRI paroxetine has been developed. This CR formulation delays the release of paroxetine until the tablet has passed through the stomach; the drug is then released over 4-5 hours. In well designed placebo-controlled trials in patients with major depressive disorder (including a study in the elderly), social anxiety disorder or premenstrual dysphoric disorder (PMDD), paroxetine CR was consistently superior to placebo with regards to primary endpoints (i.e. mean Hamilton Rating Scale for Depression total score [major depressive disorder], Liebowitz social anxiety scale total score and Clinical Global Impressions-Global Improvement score [social anxiety disorder] and Visual Analogue Scale-Mood score [PMDD]). The duration of treatment was 12 weeks or, in PMDD, over three menstrual cycles (intermittent or continuous administration). Paroxetine CR also demonstrated efficacy in three well designed studies in patients with panic disorder with or wit",
+            "journal": "CNS drugs",
+            "year": "2004",
+            "authors": [
+              "Bang Lynne M",
+              "Keating Gillian M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Delayed-Action Preparations",
+              "Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Drug Evaluation",
+              "Drug Tolerance",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15089103/"
+          },
+          {
+            "pmid": "12877016",
+            "title": "[Panic disorder and agoraphobia].",
+            "abstract": "",
+            "journal": "Ryoikibetsu shokogun shirizu",
+            "year": "2003",
+            "authors": [
+              "Koga Minako"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Agoraphobia",
+              "Cognitive Behavioral Therapy",
+              "Diagnosis, Differential",
+              "Diagnostic and Statistical Manual of Mental Disorders",
+              "Fluvoxamine",
+              "Humans",
+              "Panic Disorder",
+              "Paroxetine",
+              "Reference Standards",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12877016/"
+          },
+          {
+            "pmid": "39295933",
+            "title": "Case report: Therapeutic drug monitoring and CYP2D6 phenoconversion in a protracted paroxetine intoxication.",
+            "abstract": "The cytochrome P450 2D6 (CYP2D6) is an enzyme involved in the oxidative biotransformation of various widely used drugs, including paroxetine, a substrate and strong inhibitor of the enzyme. The aim is to report on a case of protracted intoxication with paroxetine after a single overdose in a genotype-predicted intermediate CYP2D6 metabolizer.",
+            "journal": "Frontiers in pharmacology",
+            "year": "2024",
+            "authors": [
+              "Damborská Alena",
+              "Hanáková Lenka",
+              "Pindurová Eva",
+              "Horská Kateřina"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39295933/"
+          },
+          {
+            "pmid": "26400133",
+            "title": "Ghrelin and lipid levels in panic disorder before and after treatment and their relationship with agoraphobia.",
+            "abstract": "We aimed to evaluate serum ghrelin (GHR) levels and lipid profile in panic disorder (PD), with and without agoraphobia, and to compare these parameters before and after treatment.",
+            "journal": "Psychiatria Danubina",
+            "year": "2015",
+            "authors": [
+              "Gul Isil Gogcegoz",
+              "Cumurcu Birgul Elbozan",
+              "Karlidag Rifat",
+              "Turkoz Yusuf"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Agoraphobia",
+              "Ghrelin",
+              "Humans",
+              "Lipids",
+              "Panic Disorder",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26400133/"
+          },
+          {
+            "pmid": "10665629",
+            "title": "Paroxetine, clomipramine, and cognitive therapy in the treatment of panic disorder.",
+            "abstract": "This 12-week, placebo-controlled study was carried out to compare the relative efficacy of paroxetine, clomipramine, and cognitive therapy in the treatment of DSM-III-R-defined panic disorder with or without agoraphobia.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1999",
+            "authors": [
+              "Bakker A",
+              "van Dyck R",
+              "Spinhoven P",
+              "van Balkom A J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Agoraphobia",
+              "Clomipramine",
+              "Cognitive Behavioral Therapy",
+              "Comorbidity",
+              "Double-Blind Method",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10665629/"
+          },
+          {
+            "pmid": "15669886",
+            "title": "Efficacy and tolerability of controlled-release paroxetine in the treatment of panic disorder.",
+            "abstract": "To assess the efficacy and tolerability of controlled-release paroxetine (paroxetine CR) in the treatment of adults with panic disorder.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2005",
+            "authors": [
+              "Sheehan David V",
+              "Burnham Daniel B",
+              "Iyengar Malini K",
+              "Perera Philip"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Delayed-Action Preparations",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Male",
+              "Panic Disorder",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15669886/"
+          },
+          {
+            "pmid": "29875534",
+            "title": "Bowel and Bladder Anxiety: An Obsession or a Variant of Agoraphobia?",
+            "abstract": "It has long been debated whether bowel and bladder anxiety are a part of obsessive compulsive spectrum disorder or a variant of agoraphobia with no consensus view yet. Tricyclic antidepressants are reportedly efficacious in such cases and lead to complete resolution of symptoms. Here, we report a 36-year-old male having urges to visit toilet when in public places or where toilets are not easily available and a resulting avoidance of such spaces fearing an episode of incontinence. Symptoms originated 16 years ago when he was in university which compelled him to drop out. We treated him with paroxetine and relaxation therapy to which he responded satisfactorily.",
+            "journal": "Indian journal of psychological medicine",
+            "year": "2018",
+            "authors": [
+              "Roy Debjit",
+              "Sarkar Amrita",
+              "Nongpiur Arvind",
+              "Prithviraj Manoj"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29875534/"
+          },
+          {
+            "pmid": "23338224",
+            "title": "Paroxetine : a review of its pharmacology and therapeutic potential in the management of panic disorder.",
+            "abstract": "Paroxetine is the first selective serotonin (5-hydroxytryptamine; 5-HT) reuptake inhibitor (SSRI) to be approved for the treatment of patients with panic disorder with or without agoraphobia. It is a highly selective inhibitor of presynaptic serotonin reuptake and does not interact with adrenergic, dopaminergic, histaminergic or serotonergic receptors to any significant extent. Oral paroxetine 10 to 60 mg/day is significantly more effective than placebo in reducing the frequency of panic attacks and improving associated symptoms, as shown in short term trials in patients with panic disorder with or without agoraphobia. The efficacy of the drug was maintained during up to 6 months'; treatment, and continued therapy reduced the risk of relapse. Oral paroxetine 10 to 60 mg/day was at least as effective as clomipramine 10 to 150 mg/day, but appeared to have a more rapid onset of effect, in a placebo-controlled trial. The tolerability profile of paroxetine is similar to that established for",
+            "journal": "CNS drugs",
+            "year": "1997",
+            "authors": [
+              "Foster R H",
+              "Goa K L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23338224/"
+          },
+          {
+            "pmid": "11110016",
+            "title": "Selective serotonin reuptake inhibitors in the treatment of panic disorder and agoraphobia.",
+            "abstract": "This review article summarizes comparator-controlled, short-term studies with currently available selective serotonin reuptake inhibitors (SSRIs) in the treatment of panic disorder and agoraphobia. Fluvoxamine, fluoxetine, paroxetine, sertraline and citalopram have all been proven to be superior to pill-placebo in the treatment of panic disorder, agoraphobia and associated symptoms such as depression. Direct comparisons with other antidepressants, benzodiazepines, cognitive-behavioural therapies or combinations of SSRIs with psychotherapeutic interventions are scarce. The majority of studies have reported on fluvoxamine whereas, to date, sertraline and citalopram have been compared only with placebo. Meta-analyses have suggested that combining an antidepressant with exposure in vivo produces the greatest treatment gains. Since this procedure is already commonly used in everyday clinical practice, it is recommended that future research in the treatment of panic disorder be directed towa",
+            "journal": "International clinical psychopharmacology",
+            "year": "2000",
+            "authors": [
+              "Bakker A",
+              "van Balkom A J",
+              "van Dyck R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Agoraphobia",
+              "Combined Modality Therapy",
+              "Humans",
+              "Panic Disorder",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11110016/"
+          },
+          {
+            "pmid": "19698677",
+            "title": "New treatments for panic.",
+            "abstract": "Panic disorder is a chronic condition for many patients and can be socially, emotionally and occupationally disabling. Until recently, clomipramine and alprazolam were the only drugs approved for its treatment. While widely used in the US and Europe, both belong to drug classes (tricyclics and benzodiazepines) with well-recognised side effects that can be problematic and thus limit their use. Recently, paroxetine became the first selective serotonin reuptake inhibitor to receive approval and licensing for panic disorder. The short- and long-term efficacy and tolerability of paroxetine in panic disorder has been established in clinical trials of almost 1,000 patients meeting Diagnostic and Statistical Manual (DSM)-IIIR criteria for panic disorder, with or without agoraphobia. In a 12-week double-blind study of 120 panic patients receiving standardised cognitive therapy, paroxetine was significantly more effective than placebo in reducing panic attack frequency. In a 12-week placebo-cont",
+            "journal": "European psychiatry : the journal of the Association of European Psychiatrists",
+            "year": "1998",
+            "authors": [
+              "Ballenger J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19698677/"
+          },
+          {
+            "pmid": "19958308",
+            "title": "A randomized controlled study of paroxetine and cognitive-behavioural therapy for late-life panic disorder.",
+            "abstract": "To examine the effectiveness of paroxetine and cognitive-behavioural therapy (CBT) in elderly patients suffering from panic disorder with or without agoraphobia (PD(A)).",
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "2010",
+            "authors": [
+              "Hendriks G-J",
+              "Keijsers G P J",
+              "Kampman M",
+              "Oude Voshaar R C",
+              "Verbraak M J P M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Agoraphobia",
+              "Cognitive Behavioral Therapy",
+              "Combined Modality Therapy",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Outcome Assessment, Health Care"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19958308/"
+          },
+          {
+            "pmid": "18365789",
+            "title": "[Agoraphobia: combined treatment and virtual reality. Preliminary results].",
+            "abstract": "Several validation studies have identified the use of certain psychodrugs, cognitive-behavioral therapy (CBT) and combined treatment as effective procedures for the treatment of agoraphobia. Recent findings suggest that agoraphobia can also be treated with virtual reality techniques (VRET) as an alternative exposure technique to virtual reality stimuli.",
+            "journal": "Actas espanolas de psiquiatria",
+            "year": "2008",
+            "authors": [
+              "Pitti Ct",
+              "Peñate W",
+              "de la Fuente J",
+              "Bethencourt Jm",
+              "Acosta L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agoraphobia",
+              "Cognitive Behavioral Therapy",
+              "Combined Modality Therapy",
+              "Cyclohexanols",
+              "Female",
+              "Humans",
+              "Male",
+              "Paroxetine",
+              "Therapy, Computer-Assisted"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18365789/"
+          },
+          {
+            "pmid": "16242154",
+            "title": "Posttraumatic stress disorder: a state-of-the-science review.",
+            "abstract": "This article reviews the state-of-the-art research in posttraumatic stress disorder (PTSD) from several perspectives: (1) Sex differences: PTSD is more frequent among women, who tend to have different types of precipitating traumas and higher rates of comorbid panic disorder and agoraphobia than do men. (2) Risk and resilience: The presence of Group C symptoms after exposure to a disaster or act of terrorism may predict the development of PTSD as well as comorbid diagnoses. (3) Impact of trauma in early life: Persistent increases in CRF concentration are associated with early life trauma and PTSD, and may be reversed with paroxetine treatment. (4) Imaging studies: Intriguing findings in treated and untreated depressed patients may serve as a paradigm of failed brain adaptation to chronic emotional stress and anxiety disorders. (5) Neural circuits and memory: Hippocampal volume appears to be selectively decreased and hippocampal function impaired among PTSD patients. (6) Cognitive behav",
+            "journal": "Journal of psychiatric research",
+            "year": "2006",
+            "authors": [
+              "Nemeroff Charles B",
+              "Bremner J Douglas",
+              "Foa Edna B",
+              "Mayberg Helen S",
+              "North Carol S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adaptation, Psychological",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Cognitive Behavioral Therapy",
+              "Comorbidity",
+              "Cross-Sectional Studies",
+              "Depressive Disorder",
+              "Hippocampus",
+              "Humans",
+              "Life Change Events"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16242154/"
+          },
+          {
+            "pmid": "40357765",
+            "title": "Post-acute withdrawal syndrome (PAWS) after stopping antidepressants: a systematic review with meta-narrative synthesis.",
+            "abstract": "The literature on persistent antidepressant withdrawal symptoms is sparse. This systematic review is the first to examine the prevalence, duration, severity, risk/protective factors and treatment strategies for post-acute withdrawal syndrome (PAWS) following the discontinuation of antidepressant medications.",
+            "journal": "Epidemiology and psychiatric sciences",
+            "year": "2025",
+            "authors": [
+              "Rennwald Andri",
+              "Hengartner Michael P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Substance Withdrawal Syndrome",
+              "Antidepressive Agents",
+              "Prevalence",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40357765/"
+          },
+          {
+            "pmid": "21344132",
+            "title": "Psychopharmacotherapy of panic disorder: 8-week randomized trial with clonazepam and paroxetine.",
+            "abstract": "The objective of the present randomized, open-label, naturalistic 8-week study was to compare the efficacy and safety of treatment with clonazepam (N = 63) and paroxetine (N = 57) in patients with panic disorder with or without agoraphobia. Efficacy assessment included number of panic attacks and clinician ratings of the global severity of panic disorders with the clinical global impression (CGI) improvement (CGI-I) and CGI severity (CGI-S) scales. Most patients were females (69.8 and 68.4% in the clonazepam and paroxetine groups, respectively) and age (mean ± SD) was 35.9 ± 9.6 years for the clonazepam group and 33.7 ± 8.8 years for the paroxetine group. Treatment with clonazepam versus paroxetine resulted in fewer weekly panic attacks at week 4 (0.1 vs 0.5, respectively; P < 0.01), and greater clinical improvements at week 8 (CGI-I: 1.6 vs 2.9; P = 0.04). Anxiety severity was significantly reduced with clonazepam versus paroxetine at weeks 1 and 2, with no difference in panic disorde",
+            "journal": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas",
+            "year": "2011",
+            "authors": [
+              "Nardi A E",
+              "Valença A M",
+              "Freire R C",
+              "Mochcovitch M D",
+              "Amrein R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Agoraphobia",
+              "Clonazepam",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Panic Disorder",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21344132/"
+          },
+          {
+            "pmid": "17589833",
+            "title": "A randomized controlled trial of venlafaxine ER and paroxetine in the treatment of outpatients with panic disorder.",
+            "abstract": "Few randomized, placebo-controlled trials have evaluated the comparative efficacy and tolerability of more than one pharmacological agent for panic disorder.",
+            "journal": "Psychopharmacology",
+            "year": "2007",
+            "authors": [
+              "Pollack Mark",
+              "Mangano Richard",
+              "Entsuah Richard",
+              "Tzanis Evan",
+              "Simon Naomi M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abortion, Spontaneous",
+              "Administration, Oral",
+              "Adult",
+              "Affective Disorders, Psychotic",
+              "Cyclohexanols",
+              "Delayed-Action Preparations",
+              "Diagnostic and Statistical Manual of Mental Disorders",
+              "Diarrhea",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17589833/"
+          },
+          {
+            "pmid": "7786880",
+            "title": "Fluoxetine in panic disorder: pharmacologic and tritiated platelet imipramine and paroxetine binding study.",
+            "abstract": "Serotonergic implication in panic disorder has been demonstrated by the efficacy of serotonin reuptake blockers in treatment. Fluoxetine, a potent 5-HT reuptake blocker, has been suggested to have anti-panic efficacy. This open study examines 30 patients (eight males and 22 females) with an average age of 36.9 years, ranging from 18 to 62, who were treated for eight weeks with fluoxetine (mean dose 20 mg per day). All patients fulfilled DSM-III-R criteria of panic disorder with agoraphobia as determined in a SCID interview schedule. Out of 28 patients who started medication, 64% of the patients completed the clinical trial and 36% of the patients dropped out of treatment because of increased anxiety or a lack of efficacy. Thirty-two percent of the patients had zero panic attacks by week 3. By the end of eight weeks of treatment, 48% of the patients had zero panic attacks. There was a significant reduction in anxiety and phobic avoidance and panic attacks. Tritiated platelet imipramine ",
+            "journal": "Journal of psychiatry & neuroscience : JPN",
+            "year": "1995",
+            "authors": [
+              "Pecknold J C",
+              "Luthe L",
+              "Iny L",
+              "Ramdoyal D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Agoraphobia",
+              "Female",
+              "Fluoxetine",
+              "Humans",
+              "Imipramine",
+              "Male",
+              "Middle Aged",
+              "Panic Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7786880/"
+          },
+          {
+            "pmid": "16894619",
+            "title": "A double-blind study of the efficacy of venlafaxine extended-release, paroxetine, and placebo in the treatment of panic disorder.",
+            "abstract": "To date, no large-scale, controlled trial comparing a serotonin-norepinephrine reuptake inhibitor and selective serotonin reuptake inhibitor with placebo for the treatment of panic disorder has been reported. This double-blind study compares the efficacy of venlafaxine extended-release (ER) and paroxetine with placebo. A total of 664 nondepressed adult outpatients who met DSM-IV criteria for panic disorder (with or without agoraphobia) were randomly assigned to 12 weeks of treatment with placebo or fixed-dose venlafaxine ER (75 mg/day or 150 mg/day), or paroxetine 40 mg/day. The primary measure was the percentage of patients free from full-symptom panic attacks, assessed with the Panic and Anticipatory Anxiety Scale (PAAS). Secondary measures included the Panic Disorder Severity Scale, Clinical Global Impressions--Severity (CGI-S) and--Improvement (CGI-I) scales; response (CGI-I rating of very much improved or much improved), remission (CGI-S rating of not at all ill or borderline ill ",
+            "journal": "Depression and anxiety",
+            "year": "2007",
+            "authors": [
+              "Pollack Mark H",
+              "Lepola Ulla",
+              "Koponen Hannu",
+              "Simon Naomi M",
+              "Worthington John J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agoraphobia",
+              "Antidepressive Agents, Second-Generation",
+              "Cyclohexanols",
+              "Delayed-Action Preparations",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16894619/"
+          },
+          {
+            "pmid": "19698676",
+            "title": "Panic in australia.",
+            "abstract": "Panic disorder is widespread in Australia, often in combination with other psychiatric conditions such as agoraphobia or major depression. Pharmacotherapy for panic disorder in Australia commenced with benzodiazepines, and later progressed to tricyclic antidepressants (TCAs) and monoamine oxidase inhibitors (MAOIs). More recently, treatment has moved towards use of the selective serotonin reuptake inhibitors (SSRIs), which are effective and better tolerated. Paroxetine is the first drug of this class to receive approval for treatment of panic disorder in Australia.",
+            "journal": "European psychiatry : the journal of the Association of European Psychiatrists",
+            "year": "1998",
+            "authors": [
+              "Burrows G",
+              "Norman T",
+              "Ellen S",
+              "Maguire K",
+              "Judd F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19698676/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schizoid personality disorder",
+        "txgnn_score": 0.9773155450820924,
+        "txgnn_rank": 18279,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schizotypal personality disorder",
+        "txgnn_score": 0.9773155450820924,
+        "txgnn_rank": 18280,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33634761",
+            "title": "Treatment of Catatonia with Asenapine in a Patient with Schizotypal Personality Disorder, Psychotic Depression and Septic Shock from SARSCoV- 2 - A Case Report.",
+            "abstract": "Catatonia is a psychomotor syndrome that presents with severe symptoms which can lead to dangerous and lethal conditions if not diagnosed and treated properly. SARS-- CoV-2 is a positive-sense single-stranded RNA virus that can occur in severe cases with acute pneumonia, ARDS, sepsis and septic shock. In these cases, ICU admission is necessary.",
+            "journal": "CNS & neurological disorders drug targets",
+            "year": "2021",
+            "authors": [
+              "Fiaschè Federica",
+              "Adriani Barbara",
+              "Mancinelli Iginia",
+              "Taranto Aldo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "COVID-19",
+              "Catatonia",
+              "Major Depressive Disorder",
+              "Dibenzocycloheptenes",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Pain",
+              "Respiratory Distress Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33634761/"
+          },
+          {
+            "pmid": "9595892",
+            "title": "Paroxetine in a patient with obsessive-compulsive disorder, anorexia nervosa and schizotypal personality disorder.",
+            "abstract": "",
+            "journal": "Journal of psychiatry & neuroscience : JPN",
+            "year": "1998",
+            "authors": [
+              "Heiden A",
+              "de Zwaan M",
+              "Frey R",
+              "Presslich O",
+              "Kasper S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anorexia Nervosa",
+              "Antidepressive Agents, Second-Generation",
+              "Female",
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Paroxetine",
+              "Schizotypal Personality Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9595892/"
+          },
+          {
+            "pmid": "17610670",
+            "title": "Anorexia nervosa with chronic episodes for more than 30 years in a patient with a comorbid schizotypal personality disorder.",
+            "abstract": "Schizotypal personality disorder (SPD) has rarely been reported as an eating disorder-related personality trait. A 23-year-old woman was diagnosed as having anorexia nervosa binge eating/purging type. At the age of 53 years, she was admitted to Jikei University Hospital because of excessive bodyweight loss. She was diagnosed as having SPD based on bizarre behavior, ideation and a tendency to seek isolation. She was treated with low-dose antipsychotics, and her impulsive behavior improved. The patient's SPD was considered to have had a psychopathological contribution to her chronic episodes of anorexia nervosa.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2007",
+            "authors": [
+              "Nagata Tomoyuki",
+              "Ono Kazuya",
+              "Nakayama Kazuhiko"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anorexia Nervosa",
+              "Antidepressive Agents, Second-Generation",
+              "Benzodiazepines",
+              "Body Weight",
+              "Bulimia",
+              "Chronic Disease",
+              "Female",
+              "Hospitalization",
+              "Humans",
+              "Mianserin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17610670/"
+          },
+          {
+            "pmid": "20414175",
+            "title": "Clinical features and treatment characteristics of compulsive hoarding in Japanese patients with obsessive-compulsive disorder.",
+            "abstract": "Compulsive hoarding has been studied primarily in Western countries. Here we sought to examine compulsive hoarding in Japanese patients with obsessive-compulsive disorder (OCD). The heterogeneous nature of hoarding was also investigated.",
+            "journal": "CNS spectrums",
+            "year": "2010",
+            "authors": [
+              "Matsunaga Hisato",
+              "Hayashida Kazuhisa",
+              "Kiriike Nobuo",
+              "Nagata Toshihiko",
+              "Stein Dan J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Cognitive Behavioral Therapy",
+              "Compulsive Behavior",
+              "Female",
+              "Fluvoxamine",
+              "Humans",
+              "Japan",
+              "Male",
+              "Obsessive-Compulsive Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20414175/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "histrionic personality disorder (disease)",
+        "txgnn_score": 0.9773155450820924,
+        "txgnn_rank": 18277,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22075735",
+            "title": "The MMPI-2 neurotic triad subscales and depression levels after pharmacological treatment in patients with depressive disorders - clinical study.",
+            "abstract": "Affective disorders provide for one third of the main causes of psychiatric inpatient care, both in male and female subjects. An early diagnosis of the disease with precise identification of the character of its particular symptoms are key important factors for the efficacy of treatment. The goal of the study was an identification of possible associations between scores of the neurotic triad in the MMPI-2 test (hypochondria - Hs, depression - D, hysteria - Hy), evaluated at initial hospitalization period with remission degree assessed by the Hamilton Depression Rating Scale (HDRS), following eight weeks of treatment with SSRI.",
+            "journal": "Psychiatria Danubina",
+            "year": "2011",
+            "authors": [
+              "Talarowska Monika",
+              "Zboralski Krzysztof",
+              "Chamielec Marcelina",
+              "Gałecki Piotr"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents",
+              "Citalopram",
+              "Depressive Disorder",
+              "Female",
+              "Fluoxetine",
+              "Humans",
+              "Hypochondriasis",
+              "Hysteria",
+              "MMPI"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22075735/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paranoid personality disorder",
+        "txgnn_score": 0.9773155450820924,
+        "txgnn_rank": 18278,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11686052",
+            "title": "[Alpha-interferon and mental disorders].",
+            "abstract": "The interferon alpha stands as a reference both in oncology and virology. But its efficiency is limited by frequent somatic as well as neuropsychic side effects. As a matter of fact, the reduction or the ending of a chemotherapy treatment come chiefly from the psychiatric complications caused by the use of interferon. For about 30% of patients, various psychic disorders are noticed: personality disorders, mood disorders, anxiety states, suicidal tendencies, manic and psychotic symptoms. We thus propose a review which shall be completed by a discussion on wether the interferon is responsible or not of the appearance of the described mental disorders. We shall conclude with a synthesis of the proposed practical management when confronted with such disorders. Psychiatric complications under interferon-Alpha. The appearance of psychiatric complications caused by interferon has been the subject of many publications. They have also raised the question of the toxicity mechanism which is still",
+            "journal": "L'Encephale",
+            "year": "2001",
+            "authors": [
+              "Debien C",
+              "De Chouly De Lenclave M B",
+              "Foutrein P",
+              "Bailly D"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adaptation, Psychological",
+              "Adjuvants, Immunologic",
+              "Anxiety Disorders",
+              "Bipolar Disorder",
+              "Depressive Disorder",
+              "Humans",
+              "Interferon-alpha",
+              "Mental Disorders",
+              "Psychoses, Substance-Induced",
+              "Suicide, Attempted"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11686052/"
+          },
+          {
+            "pmid": "23548819",
+            "title": "Female same gender stalking: a brief review of the literature and case report.",
+            "abstract": "The authors analyze a rare case of female same gender stalking that came to their observation as forensic psychiatry experts. Despite previously only heterosexual experiences, the woman, who was 30 in 2002, had three intimate same gender relationships in succession from 2002 to 2009: she broke off with each woman in order to take up with another. When she separated from the third woman she began violent persecutory behavior against her, in the form of harassment coming under the heading of stalking, and was reported to the authorities. In treatment with SSRI since 2003 for an anxiety disorder with panic episodes, she had been taking the drugs irregularly during the stalking period. At the end of the third relationship, after she had violently attacked her girlfriend she was advised by her family to present to a Hospital center in Northern Italy. There, she was diagnosed with a \"Narcissistic Paranoid Personality Disorder\", and it was hypothesized that the SSRI she was taking could have ",
+            "journal": "Forensic science international",
+            "year": "2013",
+            "authors": [
+              "Carabellese Felice",
+              "Candelli Chiara",
+              "La Tegola Donatella",
+              "Alfarano Egle",
+              "Catanesi Roberto"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anxiety Disorders",
+              "Female",
+              "Forensic Psychiatry",
+              "Homosexuality, Female",
+              "Humans",
+              "Italy",
+              "Paranoid Personality Disorder",
+              "Paroxetine",
+              "Personality Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23548819/"
+          },
+          {
+            "pmid": "16209891",
+            "title": "The effect of pharmacotherapy on personality disorders in panic disorder: a one year naturalistic study.",
+            "abstract": "In this prospective study, Personality Disorders (PersD) were evaluated in patients with Panic Disorder (PD), before and after one year of pharmacotherapy to verify whether personality characteristics changed after treatment.",
+            "journal": "Journal of affective disorders",
+            "year": "2005",
+            "authors": [
+              "Marchesi Carlo",
+              "Cantoni Alessandro",
+              "Fontò Stefania",
+              "Giannelli Maria R",
+              "Maggini Carlo"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Citalopram",
+              "Comorbidity",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16209891/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00715",
+    "name": "Paroxetine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Paroxetine"
+      },
+      "queried_at": "2026-03-10T01:35:06.609384",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Paroxetine"
+      },
+      "queried_at": "2026-03-10T01:35:20.802137",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T01:35:22.817003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T01:35:27.505418",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T01:35:28.304617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T01:35:29.273547",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T01:35:33.255342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T01:35:38.034699",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T01:35:39.156676",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T01:35:44.269628",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T01:35:45.032636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T01:35:48.085514",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T01:35:53.183443",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T01:35:56.891898",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T01:35:58.427445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T01:36:03.165505",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T01:36:04.581884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T01:36:06.073196",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T01:36:09.787406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T01:36:13.493716",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "schizoid personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:14.283181",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "schizoid personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:17.985375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "schizoid personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:19.263660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "schizotypal personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:20.070999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "schizotypal personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:23.610349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "schizotypal personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:27.845853",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "queried_at": "2026-03-10T01:36:28.666650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "queried_at": "2026-03-10T01:36:34.058727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "queried_at": "2026-03-10T01:36:36.729325",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "paranoid personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:37.624085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "paranoid personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:42.109013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paroxetine",
+        "disease": "paranoid personality disorder"
+      },
+      "queried_at": "2026-03-10T01:36:46.282151",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:36:46.317949"
+  }
+}

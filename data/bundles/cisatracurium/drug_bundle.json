@@ -1,0 +1,637 @@
+{
+  "drug": {
+    "inn": "Cisatracurium",
+    "drugbank_id": "DB00565",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9999336004257202,
+        "txgnn_rank": 247,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "preeclampsia",
+        "txgnn_score": 0.9999206066131592,
+        "txgnn_rank": 279,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04645719",
+            "title": "Best Dose of Magnesium Sulfate Infusion in Obese. A Blind and Randomized Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2022-04-01",
+            "completion_date": "2025-12-01",
+            "country": "Brazil",
+            "enrollment": 75,
+            "brief_summary": "Magnesium sulfate has been shown to be a successful tool in a large number of clinical areas. Its benefits include neuroprotection, control of eclampsia / pre-eclampsia, control of intraoperative blood pressure, decreased neuroendocrine response during laryngoscopy and tracheal intubation and reduced levels of postoperative pain and consumption of analgesic.\n\nObese patients have become more and more frequent in the operating rooms, due to the increasing prevalence of this population worldwide. H",
+            "eligibility_criteria": "Inclusion Criteria: healthy patients, patients with controlled systemic disease (arterial hypertension, endocrine disease), obese patients.\n\n\\-\n\nExclusion Criteria: heart block, illicit drugs use, with neuropsychiatric impairment, in blockers calcium channels and with renal impairment",
+            "endpoints": [
+              "Postoperative analgesia"
+            ],
+            "sponsor": "University of Sao Paulo General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04645719"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04003688",
+            "title": "Strategy to Calculate Magnesium Sulfate Dose in Obese Patients. A Randomized and Blind Trial.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-08-26",
+            "completion_date": "2020-11-12",
+            "country": "Brazil",
+            "enrollment": 74,
+            "brief_summary": "Magnesium sulfate has been applied in various situations due to actual or potential benefits related to neuroprotection, treatment of eclampsia/pre-eclampsia, arterial hypertension, adrenergic reflex under laryngoscopy/intubation and, shivering, nausea and vomiting, among others. In anesthesia it has been useful as an analgesic adjuvant; however, the method to calculate the dose of magnesium sulfate in obese population is unclear. The objective of this project is to compare two methods of dose c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 18 to 60 year-old\n* body mass index \\> 30 kg/m²\n* American Society of Anesthesiologists score \\< III.\n\nExclusion Criteria:\n\n* Allergy to any medications of the trial\n* refusal to participate or sign the consent form\n* any global diagnosed neuromuscular disorder\n*",
+            "endpoints": [
+              "Magnesium blood concentration at the preset timepoints."
+            ],
+            "sponsor": "University of Sao Paulo General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04003688"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "41103680",
+            "title": "Comparison of Serum Interleukin 6, Leptin, and Adiponectin Levels after Cesarean Section Under General Versus Spinal Anesthesia.",
+            "abstract": "Inflammatory cytokines negatively impact postoperative reactions and outcomes in abdominal surgeries.",
+            "journal": "Anesthesiology and pain medicine",
+            "year": "2025",
+            "authors": [
+              "Kareem Oleiwi Atabi Thaer",
+              "Jabbari Ali",
+              "Ebrahimzadeh Parvaneh",
+              "Bader Gazal Hamzeh",
+              "Ghorbani Gholiabad Somayeh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41103680/"
+          },
+          {
+            "pmid": "18383970",
+            "title": "[Remifentanil bolus for cesarean section in high-risk patients: study of 12 cases].",
+            "abstract": "To evaluate the utility and safety of remifentanil for hemodynamic control during cesarean section in high-risk patients ineligible for spinal anesthesia.",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2008",
+            "authors": [
+              "Palacio F J",
+              "Ortiz-Gómez J R",
+              "Fornet I",
+              "López M A",
+              "Morillas P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics, Intravenous",
+              "Atracurium",
+              "Cesarean Section",
+              "Female",
+              "Fentanyl",
+              "Fetus",
+              "Hemodynamics",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18383970/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9998748302459716,
+        "txgnn_rank": 414,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9997918009757996,
+        "txgnn_rank": 636,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombotic disease",
+        "txgnn_score": 0.9997467398643494,
+        "txgnn_rank": 711,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03902470",
+            "title": "Comparative Study Between Awake Thoracic Epidural Anaesthesia and General Anesthesia for Video Assisted Thoracoscopic Surgery",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2019-05-01",
+            "completion_date": "2021-07",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "Thoracic procedures are routinely performed under general anesthesia (GA), with one lung ventilation (OLV)by double lumen tube or (GA) in spontaneously breathing patient by TIVA or LMA are usually combined with thoracic epidural analgesia.\n\nHowever, GA whether mechanically ventilated or spontaneously breathing may have adverse effects including peri-intubation hypoxia, trauma to the upper airway, mechanical ventilation-induced injuries, impaired cardiac performance, neuromuscular problems in OLV",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age range between 18 and 60 years.\n* ASA score equal to or less than III.\n* The absence of severe emphysema or clinical signs of active infectious disease.\n* The procedure is predicted to be completed within two hours.\n\nExclusion Criteria:\n\n* Patients with expected difficult a",
+            "endpoints": [
+              "Recovery time after intervention of each group"
+            ],
+            "sponsor": "Assiut University",
+            "url": "https://clinicaltrials.gov/study/NCT03902470"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "12565113",
+            "title": "Anesthesia care for living-related liver transplantation for infants and children with end-stage liver disease: report of our initial experience.",
+            "abstract": "To describe our initial experience of the perioperative anesthetic care provided to pediatric recipients during living-related liver transplantation.",
+            "journal": "Journal of clinical anesthesia",
+            "year": "2002",
+            "authors": [
+              "Djurberg Hans",
+              "Pothmann Facharzt Werner",
+              "Joseph Damien",
+              "Tjan David",
+              "Zuleika Mehrun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Anesthesia",
+              "Adult",
+              "Anesthesia, Intravenous",
+              "Atracurium",
+              "Biliary Atresia",
+              "Child",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Female",
+              "Fentanyl"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12565113/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9996944665908812,
+        "txgnn_rank": 812,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9996938705444336,
+        "txgnn_rank": 814,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mild pre-eclampsia",
+        "txgnn_score": 0.9995753169059752,
+        "txgnn_rank": 1031,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe pre-eclampsia",
+        "txgnn_score": 0.9995385408401488,
+        "txgnn_rank": 1093,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurocirculatory asthenia",
+        "txgnn_score": 0.9994707703590392,
+        "txgnn_rank": 1198,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00565",
+    "name": "Cisatracurium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cisatracurium"
+      },
+      "queried_at": "2026-03-09T09:00:05.099138",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cisatracurium"
+      },
+      "queried_at": "2026-03-09T09:00:07.756253",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T09:00:08.809633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T09:00:13.524546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T09:00:14.171151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "preeclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:14.911025",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "preeclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:18.107328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "preeclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:20.078130",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T09:00:20.671475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T09:00:23.988903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T09:00:24.656079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T09:00:25.364397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T09:00:29.816157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T09:00:30.729015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-09T09:00:31.264731",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-09T09:00:34.867950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-09T09:00:37.547598",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T09:00:38.134447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T09:00:43.141113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T09:00:44.155901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T09:00:44.804008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T09:00:48.176938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T09:00:49.023102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "mild pre-eclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:49.680487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "mild pre-eclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:54.232751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "mild pre-eclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:55.037776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "severe pre-eclampsia"
+      },
+      "queried_at": "2026-03-09T09:00:56.144573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "severe pre-eclampsia"
+      },
+      "queried_at": "2026-03-09T09:01:02.034586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "severe pre-eclampsia"
+      },
+      "queried_at": "2026-03-09T09:01:02.912724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-09T09:01:03.520879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-09T09:01:08.009749",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-09T09:01:08.948878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:01:08.990865"
+  }
+}

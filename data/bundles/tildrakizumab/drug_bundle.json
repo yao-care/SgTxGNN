@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Tildrakizumab",
+    "drugbank_id": "DB14004",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.996347725391388,
+        "txgnn_rank": 5263,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.99533611536026,
+        "txgnn_rank": 6203,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9921276569366456,
+        "txgnn_rank": 8929,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9919861555099488,
+        "txgnn_rank": 9049,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9891253709793092,
+        "txgnn_rank": 11171,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9891253709793092,
+        "txgnn_rank": 11172,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9889216423034668,
+        "txgnn_rank": 11329,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.9886289834976196,
+        "txgnn_rank": 11564,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.9886289834976196,
+        "txgnn_rank": 11565,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9886289834976196,
+        "txgnn_rank": 11566,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14004",
+    "name": "Tildrakizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tildrakizumab"
+      },
+      "queried_at": "2026-03-10T02:07:37.642065",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tildrakizumab"
+      },
+      "queried_at": "2026-03-10T02:07:40.092037",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:07:40.714702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:07:44.387091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:07:45.455878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:07:46.673321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:07:50.558074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T02:07:51.943440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T02:07:53.033613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T02:07:57.320971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T02:07:58.230417",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T02:07:59.079720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T02:08:02.930625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T02:08:04.414815",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T02:08:05.871586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T02:08:10.159741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T02:08:12.177847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T02:08:12.862174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T02:08:16.256937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T02:08:17.425161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T02:08:18.109058",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T02:08:22.009067",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T02:08:23.066720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T02:08:24.107548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T02:08:29.093431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T02:08:30.975740",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T02:08:32.421544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T02:08:36.863419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T02:08:37.863353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T02:08:38.426849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T02:08:42.080759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tildrakizumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T02:08:43.215726",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:08:43.228281"
+  }
+}

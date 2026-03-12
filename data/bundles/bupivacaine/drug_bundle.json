@@ -1,0 +1,818 @@
+{
+  "drug": {
+    "inn": "Bupivacaine",
+    "drugbank_id": "DB00297",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9923313856124878,
+        "txgnn_rank": 8772,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.991499960422516,
+        "txgnn_rank": 9403,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.9910925030708312,
+        "txgnn_rank": 9733,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9902554154396056,
+        "txgnn_rank": 10359,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.9898401498794556,
+        "txgnn_rank": 10648,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9896037578582764,
+        "txgnn_rank": 10823,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine polyp",
+        "txgnn_score": 0.9890201687812804,
+        "txgnn_rank": 11257,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00979342",
+            "title": "Interlace Medical Comparative Sedation Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2009-11",
+            "completion_date": "2010-07",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "The purpose of this study is to develop a recommended local anesthetic protocol and post-treatment pain management regimen, in order to assure patient comfort during office-based treatment with the MyoSure Hysteroscopic Tissue Removal Device. Subject self-reported pain scores (as rated on an 11 point scale) will be compared at multiple time intervals between all treatment groups.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy female between the ages of 18 and 65\n* Subject must be able to understand, read and sign the study specific informed consent forms after the nature of the study has been fully explained to her\n* Subject is a pre-menopausal or peri-menopausal female, either nulliparous ",
+            "endpoints": [
+              "Subject tolerance of procedure-related pain rated on an 11 point scale (0-10)"
+            ],
+            "sponsor": "Hologic, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00979342"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05967936",
+            "title": "A Prospective Randomized Study Comparing Different Types of Local Anesthesia in Outpatient Procedural Hysteroscopy",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2023-09-01",
+            "completion_date": "2024-12-01",
+            "country": "Canada",
+            "enrollment": 242,
+            "brief_summary": "Hysteroscopy is a minimally invasive, diagnostic and therapeutic gynecological surgical technique and the gold standard in the study of the uterine cavity. Thanks to the decrease in the diameter of hysteroscopes and to the vaginoscopic approach, anesthesia is no longer necessary in diagnostic hysteroscopy. Nevertheless, in operative hysteroscopy, given the instrumentalization and the need of cervical dilation, the use of local anesthesia, with or without sedation, is recommended. The different a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female patients\n* 18 years of age or older\n* Indication of outpatient surgical hysteroscopy for polypectomy and myomectomy\n\nExclusion Criteria:\n\n* Women under 18 years old\n* Unable to understand how to score a visual analog scale pain score\n* Hysteroscopy contraindication\n* Pa",
+            "endpoints": [
+              "To assess the best anesthetic pathway to decrease pain during outpatient hysteroscopy",
+              "To assess the best anesthetic pathway to decrease pain during outpatient hysteroscopy"
+            ],
+            "sponsor": "Ciusss de L'Est de l'Île de Montréal",
+            "url": "https://clinicaltrials.gov/study/NCT05967936"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "22070928",
+            "title": "Low-dose spinal anesthesia with hyperbaric bupivacaine with intrathecal fentanyl for operative hysteroscopy: a case series study.",
+            "abstract": "To estimate the efficacy and tolerability of low dose spinal anesthesia during operative hysteroscopy in a group of patients with high surgical risks.",
+            "journal": "Journal of minimally invasive gynecology",
+            "year": "2012",
+            "authors": [
+              "Florio Pasquale",
+              "Puzzutiello Rosa",
+              "Filippeschi Marco",
+              "D'Onofrio Pasquale",
+              "Mereu Liliana"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Anesthesia",
+              "Adult",
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Bupivacaine",
+              "Female",
+              "Fentanyl",
+              "Humans",
+              "Hysteroscopy",
+              "Leiomyoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22070928/"
+          },
+          {
+            "pmid": "16910145",
+            "title": "[Transient neurological syndrome after spinal hyperbaric bupivacaine: a new case].",
+            "abstract": "A 47-year-old woman underwent hysteroscopy and removal of an endometrial polyp because of irregular, acyclic bleeding of 6 months' duration. The procedure was carried out under spinal anesthesia. No adverse events occurred during puncture or surgery, or in the immediate postoperative recovery period. Recovery from the sensory and motor block was normal. Twenty-four hours after surgery gluteal and lower limb pain and paresthesia developed, with no sensory or motor deficit. The symptoms suggested transient neurological syndrome. This syndrome has been defined by pain in the lower limbs, buttocks, thighs and calves after uncomplicated spinal anesthesia and full recovery from the sensorimotor block during the immediate postoperative period (first 24 hours). The condition is self-limiting and does not leave permanent neurological sequelae. Recent studies have demonstrated biochemical and anatomical changes that provide a structural basis for this clinical entity. According to this literatur",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2006",
+            "authors": [
+              "Peláez R",
+              "Mira M D",
+              "Ferrer A M",
+              "Mendiola M A",
+              "Aguilar J L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Back Pain",
+              "Bupivacaine",
+              "Buttocks",
+              "Endometrium",
+              "Female",
+              "Humans",
+              "Hysteroscopy",
+              "Leg"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16910145/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epulis",
+        "txgnn_score": 0.9889608025550842,
+        "txgnn_rank": 11304,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29750618",
+            "title": "Modified Approach to Central Giant Cell Lesion.",
+            "abstract": "This case report discusses a modified technique for treatment of a central giant cell lesion (CGCL) in children, where a recontouring procedure is performed prior to the treatment with intra lesional corticosteroid. We discuss the advantages of this less invasive technique, specially considering the early age of the patient and its bone growth, as well as the conservative approach for lesions in those cases. The treatment of an 8-year-old female patient exhibiting CGCL in anterior region of mandible with bone expansion is described. The procedure was performed using blade #15 and rongeur forceps, in order to obtain an adequate jaw contour. Two weeks later, drug treatment started with triamcinolone 10mg/ml diluted in 0.5% bupivacaine without vasoconstrictor agent, 1:1 ratio, for eight sessions. There were no complications in surgery and postoperative period. In 3-year follow-up, anatomical preservation is present with no signs of recurrence.",
+            "journal": "The Journal of clinical pediatric dentistry",
+            "year": "2018",
+            "authors": [
+              "Moura Lucas Borin",
+              "Tarquinio Sandra Beatriz Chaves",
+              "Gomes Ana Paula Neutzling",
+              "Schinestsck André Ribeiro",
+              "Torriani Marcos Antonio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Combined Modality Therapy",
+              "Female",
+              "Granuloma, Giant Cell",
+              "Humans",
+              "Mandibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29750618/"
+          },
+          {
+            "pmid": "21292370",
+            "title": "Management of central giant cell granuloma of mandible using intralesional corticosteroids: case report and review of literature.",
+            "abstract": "",
+            "journal": "Journal of oral and maxillofacial surgery : official journal of the American Association of Oral and Maxillofacial Surgeons",
+            "year": "2011",
+            "authors": [
+              "Ferretti Carlo",
+              "Muthray Enesh"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anesthetics, Local",
+              "Anti-Inflammatory Agents",
+              "Bone Regeneration",
+              "Bupivacaine",
+              "Female",
+              "Follow-Up Studies",
+              "Glucocorticoids",
+              "Granuloma, Giant Cell",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21292370/"
+          },
+          {
+            "pmid": "19941766",
+            "title": "Intralesional corticosteroid injection for central giant cell granuloma: an alternative treatment for children.",
+            "abstract": "The purpose of the present article was to report a case of central giant cell granuloma (CGCG) associated with intralesional corticosteroid injections. Although benign, the CGCG may be locally aggressive, causing extensive bone destruction, tooth displacement, and root resorption. The common therapy is surgery, which may result in important facial deformity and loss of teeth or dental germs. In this article, an 8-year-old girl who presented with maxillary CGCG was treated with a solution of equal parts of triamcinolone actinide (10 mg/ml) and 0.5% bupivacaine injected into the lesion for a period of 11 weeks. The osseous neoformation was gradual. After 6-years follow-up, clinical and radiographic success of treatment were observed. Based on our results and the literature available, the administration of intralesional corticosteroid injections is an alternative in CGCG treatment, especially in children.",
+            "journal": "Journal of dentistry for children (Chicago, Ill.)",
+            "year": "2009",
+            "authors": [
+              "Wendt Flavia Prietsh",
+              "Torriani Marcos Antônio",
+              "Gomes Ana Paula Neutzling",
+              "de Araujo Lenita Maria Aver",
+              "Torriani Dione Dias"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthetics, Local",
+              "Bone Regeneration",
+              "Bupivacaine",
+              "Child",
+              "Drug Combinations",
+              "Female",
+              "Follow-Up Studies",
+              "Glucocorticoids",
+              "Granuloma, Giant Cell",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19941766/"
+          },
+          {
+            "pmid": "11862204",
+            "title": "Intralesional corticosteroids as an alternative treatment for central giant cell granuloma.",
+            "abstract": "Four cases of central giant cell granuloma were treated with intralesional infiltration of a solution of Kenacort-A (10 mg/mL, triamcinolone aqueous suspension SQUIBB) and either (1) Lidocaine 2% with epinephrine 1:200,000 Marcaine or (2) Bupivacaine, 50% mixture by volume. These cases were originally diagnosed by radiographic and histologic studies in 3 Guatemalan males--ages 31, 34, and 6 years old--and a 21/2-year-old Guatemalan girl. The average dosage of the aforementioned solution was 6 mL (equivalent to 30 mg of triamcinolone) for the adults and 5 mL (equivalent to 25 mg of triamcinolone) for the pediatric patients. Before treatment, an endocrinologist evaluated all of the patients to rule out hyperparathyroidism. Also before treatment, an incisional biopsy of the lesion was obtained from each patient for microscopic examination. Follow-up radiographs for all the cases showed progressive improvement and eventual resolution of the lesions.",
+            "journal": "Oral surgery, oral medicine, oral pathology, oral radiology, and endodontics",
+            "year": "2002",
+            "authors": [
+              "Carlos Roman",
+              "Sedano Heddie O"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics, Local",
+              "Anti-Inflammatory Agents",
+              "Child",
+              "Child, Preschool",
+              "Clinical Protocols",
+              "Drug Combinations",
+              "Epinephrine",
+              "Female",
+              "Granuloma, Giant Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11862204/"
+          },
+          {
+            "pmid": "26481917",
+            "title": "Management of central giant cell granuloma of the jaws with intralesional steroid injection and review of the literature.",
+            "abstract": "We report the results of the intralesional steroid injections for the management of central giant cell granuloma (CGCG) of the jaws.",
+            "journal": "Oral and maxillofacial surgery",
+            "year": "2016",
+            "authors": [
+              "Dolanmaz Doğan",
+              "Esen Alparslan",
+              "Mihmanlı Ahmet",
+              "Işık Kubilay"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Bupivacaine",
+              "Drug Administration Schedule",
+              "Drug Combinations",
+              "Epinephrine",
+              "Granuloma, Giant Cell",
+              "Humans",
+              "Injections, Intralesional",
+              "Jaw Diseases",
+              "Retreatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26481917/"
+          },
+          {
+            "pmid": "11084644",
+            "title": "Treatment of giant cell granuloma of the maxilla with intralesional injection of steroids.",
+            "abstract": "Giant cell granuloma is rare in the head and neck region and most commonly affects the maxilla and mandible. Although it is a benign disease process, it may be locally destructive. Surgery is the treatment currently recommended. Because of the location of the disease, surgery may be disfiguring. Because it is a benign process, less radical nonsurgical treatment alternatives are desirable.",
+            "journal": "Head & neck",
+            "year": "2000",
+            "authors": [
+              "Khafif A",
+              "Krempl G",
+              "Medina J E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bupivacaine",
+              "Female",
+              "Follow-Up Studies",
+              "Glucocorticoids",
+              "Granuloma, Giant Cell",
+              "Humans",
+              "Injections, Intralesional",
+              "Maxillary Neoplasms",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11084644/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vocal cord",
+        "txgnn_score": 0.988717794418335,
+        "txgnn_rank": 11488,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06734975",
+            "title": "Effect of Intraoperative Superior Laryngeal Nerve Blocks on Patient Outcomes in Microdirect Laryngoscopy for Benign Vocal Fold Lesions: A Randomized Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-07-11",
+            "completion_date": "2026-12",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "Patients undergoing surgery on their vocal cord will either receive a numbing injection to their throat or a saline injection during surgery. Symptoms such as how much coughing or pain patients have after surgery, as well as whether patient's voice gets better will be interrogated.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient is aged 18 years or older at time of consent\n* Patient has suspected or confirmed benign vocal fold lesion\n* Patient is planning to undergo direct laryngoscopy with excision of the vocal fold lesion\n* Patient is English or Spanish speaking\n* Patient is not pregnant per",
+            "endpoints": [
+              "Postoperative pain",
+              "Postoperative cough",
+              "Postoperative voice outcome"
+            ],
+            "sponsor": "Rutgers, The State University of New Jersey",
+            "url": "https://clinicaltrials.gov/study/NCT06734975"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of middle ear",
+        "txgnn_score": 0.9886283278465272,
+        "txgnn_rank": 11571,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03427502",
+            "title": "Anterior Ethmoidal Nerve Block in Prevention of Postoperative Agitation Following Nasal Surgeries With Nasal Packs Under General Anesthesia: A Double Blind Randomized Control Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2018-06-01",
+            "completion_date": "2020-02-28",
+            "country": "Nepal",
+            "enrollment": 100,
+            "brief_summary": "Postoperative agitation is an important complication of general anesthesia, moreover, it has been found with high incidence in ear, nose, throat (ENT) surgeries. We aim to study whether anterior ethmoidal nerve block will be successful in reducing postoperative agitation in those patients. Study population will be randomized into two groups, treatment and control group. Anterior ethmoidal nerve block will be done in treatment group and postoperative agitation compared between these two groups. A",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients undergoing nasal surgery\n* Under General Anesthesia\n* With nasal packs\n\nExclusion Criteria:\n\n* Do not consent to the study.\n* History of allergy to lignocaine or bupivacaine",
+            "endpoints": [
+              "Postoperative agitation",
+              "Postoperative agitation",
+              "Postoperative agitation"
+            ],
+            "sponsor": "Lumbini Medical College",
+            "url": "https://clinicaltrials.gov/study/NCT03427502"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00297",
+    "name": "Bupivacaine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bupivacaine"
+      },
+      "queried_at": "2026-03-10T03:34:57.051426",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bupivacaine"
+      },
+      "queried_at": "2026-03-10T03:35:04.718967",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T03:35:05.361381",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T03:35:11.411847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T03:35:12.462318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T03:35:13.665640",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T03:35:18.210556",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T03:35:19.159996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T03:35:19.917690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T03:35:23.609037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T03:35:24.765849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T03:35:25.558891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T03:35:28.961112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T03:35:29.938291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T03:35:30.414924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T03:35:34.112129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T03:35:35.515720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T03:35:36.175110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T03:35:39.511852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T03:35:40.213858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T03:35:41.258161",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T03:35:45.293180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T03:35:47.140625",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T03:35:48.012902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T03:35:50.992225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T03:35:52.978686",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T03:35:53.482577",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T03:35:58.387782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T03:35:59.139824",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T03:35:59.780157",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T03:36:03.135754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bupivacaine",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T03:36:04.165110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:36:04.174525"
+  }
+}

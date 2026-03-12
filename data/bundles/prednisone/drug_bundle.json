@@ -1,0 +1,2706 @@
+{
+  "drug": {
+    "inn": "Prednisone",
+    "drugbank_id": "DB00635",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "alopecia areata",
+        "txgnn_score": 0.9999051094055176,
+        "txgnn_rank": 329,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06411249",
+            "title": "A Phase 4, Multicenter, Prospective, Open-Label Study Describing the Efficacy and Safety of Belimumab Administered Subcutaneously in Adult Participants With Early Systemic Lupus Erythematosus",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2024-06-06",
+            "completion_date": "2029-05-29",
+            "country": "Spain, France, Brazil, Germany, Argentina, Italy, United States, Portugal, Mexico, Greece, Japan",
+            "enrollment": 350,
+            "brief_summary": "This is a prospective, open-label, single arm 3-year clinical study to describe the short-term and long-term efficacy and safety of belimumab in participants with autoantibody positive early SLE with ongoing disease activity despite stable initial SLE therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented diagnosis of systemic lupus erythematosus (SLE) within 2 years of signing the informed consent according to the European League Against Rheumatism (EULAR)/American College of Rheumatology (ACR) SLE classification criteria 2019\n* Have unequivocally positive autoantib",
+            "endpoints": [
+              "Part A: Percentage of Participants Achieving Lupus Low Disease Activity State (LLDAS) at Week 52"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT06411249"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04835441",
+            "title": "A Randomized, Double-blind, Placebo-controlled Study of ALPN-101 in Systemic Lupus Erythematosus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-06-22",
+            "completion_date": "2024-07-09",
+            "country": "Spain, France, United States, Hungary, Puerto Rico, Taiwan, Poland",
+            "enrollment": 76,
+            "brief_summary": "This is Phase 2, multinational, randomized, blinded study to evaluate the safety, tolerability, efficacy, immunogenicity, pharmacokinetics and pharmacodynamics of ALPN-101 (acazicolcept) in adults with moderate to severe active systemic lupus erythematosus (SLE)",
+            "eligibility_criteria": "Key Inclusion Criteria Summary\n\n* SLE onset ≥ 6 months prior to Screening\n* Positive ANA and/or elevated anti-dsDNA and/or elevated anti-Smith antibody test\n* Active lupus at Screening and Baseline, as defined per-protocol and confirmed by the study's medical monitor, including a SLEDAI score at Scr",
+            "endpoints": [
+              "Safety and Tolerability as Assessed by Number of Participants With Treatment- Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+              "Percentage of Participants Achieving a Systemic Lupus Erythematosus (SLE) Responder Index (SRI)-4",
+              "Percentage of Participants Achieving a British Isles Lupus Assessment Group-based Composite Lupus Assessment (BICLA) Response"
+            ],
+            "sponsor": "Alpine Immune Sciences, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04835441"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03843125",
+            "title": "A Phase 3, Double-Blind, Multicenter Study to Evaluate the Long-Term Safety and Efficacy of Baricitinib in Patients With Systemic Lupus Erythematosus (SLE)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2019-09-09",
+            "completion_date": "2022-04-01",
+            "country": "Australia, India, Belgium, Austria, United States, Philippines, South Korea, Croatia, Netherlands, Italy, Chile, Czechia, Russia, Serbia, Japan, Poland, Colombia, United Kingdom, France, Brazil, Germany, Argentina, Israel, Mexico, Hungary, Switzerland, Spain, Romania, China, Greece, South Africa, Taiwan",
+            "enrollment": 1147,
+            "brief_summary": "The reason for this long term study is to see how safe and effective the study drug known as baricitinib is in participants with systemic lupus erythematosus (SLE) who have completed the final treatment visit of study I4V-MC-JAHZ (NCT03616912) or study I4V-MC-JAIA (NCT03616964).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have completed the final treatment study visit of an originating study, such as study JAHZ (NCT03616912) or Study JAIA (NCT03616964).",
+            "endpoints": [
+              "Percentage of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+              "Percentage of Participants With Adverse Events of Special Interest (AESIs)",
+              "Percentage of Participants With Serious Adverse Events (SAEs)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT03843125"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06887517",
+            "title": "Chinese Rheumatism Biobank(CRB)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-02-10",
+            "completion_date": "2033-04-01",
+            "country": "China",
+            "enrollment": 300,
+            "brief_summary": "Early prediction of major organ damage in SLE needs to dynamically track the evolution of SLE patients before and after the onset of major organ damage, and analyze the microscopic molecular evolution patterns synchronized with the macroscopic pathophysiological changes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients meet the 2012 SLICC classification criteria or 2019 ACR/EULAR classification criteria of SLE.\n2. Disease Duration ≤2 years since SLE diagnosis at baseline\n3. Non-Organ-Threatening Disease, including BILAG-2004 categories A/B/C in neurological, cardiopulmonary, gastro",
+            "endpoints": [
+              "Occurrence of major organ involvement in SLE"
+            ],
+            "sponsor": "Chinese SLE Treatment And Research Group",
+            "url": "https://clinicaltrials.gov/study/NCT06887517"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03021499",
+            "title": "A Randomized, Controlled Double-blind Study Comparing the Efficacy and Safety of Voclosporin (23.7 mg Twice Daily) With Placebo in Achieving Renal Response in Subjects With Active Lupus Nephritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-05-17",
+            "completion_date": "2019-10-10",
+            "country": "United States, Peru, Philippines, Ukraine, Guatemala, Canada, Croatia, South Korea, Netherlands, Chile, Russia, Dominican Republic, Thailand, Serbia, Japan, Poland, Colombia, Brazil, Argentina, Mexico, Vietnam, Spain, Turkey (Türkiye), North Macedonia, Bulgaria, Malaysia, Costa Rica, South Africa, Belarus, Puerto Rico, Taiwan",
+            "enrollment": 358,
+            "brief_summary": "The purpose of this study is to assess the efficacy of voclosporin compared with placebo in achieving renal response after 52 weeks of therapy in subjects with active lupus nephritis.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n\\- Subjects with evidence of active nephritis, defined as follows:\n\n* Kidney biopsy result within 2 years prior to screening indicating Class III, IV-S, IV-G (alone or in combination with Class V), or Class V LN with a doubling or greater increase of UPCR within the last 6 m",
+            "endpoints": [
+              "Number of Participants With Adjudicated Renal Response at Week 52"
+            ],
+            "sponsor": "Aurinia Pharmaceuticals Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03021499"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05162586",
+            "title": "A Phase II, Randomized, Double-Blind, Placebo-Controlled Dose-Ranging, Parallel and Adaptive Study to Evaluate the Efficacy and Safety of Enpatoran in SLE and in CLE (SCLE and/or DLE) Participants Receiving Standard of Care (WILLOW)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2022-03-31",
+            "completion_date": "2024-11-20",
+            "country": "Australia, Moldova, United States, Philippines, South Korea, Mauritius, Chile, Serbia, Poland, Japan, Colombia, Brazil, Argentina, Israel, Mexico, Spain, Romania, China, Bulgaria, Greece, South Africa, Taiwan",
+            "enrollment": 456,
+            "brief_summary": "The purpose of this Proof of Concept (PoC) and Dose-finding (DF) basket study is to evaluate the efficacy and safety of orally administered Enpatoran over 24 weeks in systemic lupus erythematosus (SLE) and cutaneous lupus erythematosus (CLE; subacute cutaneous lupus erythematosus \\[SCLE\\] and/or discoid lupus erythematosus \\[DLE\\]) participants in a randomized, double-blind, placebo-controlled, parallel, adaptive and dose-ranging setting. Study Duration: 33 weeks Visit Frequency: every 2 or 4 we",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Active CLE (SCLE and/or DLE) with a CLE disease area and activity index (CLASI-A) \\>= 8\n* Active SLE with presence of: CLASI-A \\>= 8 and BILAG 2004 1B, C, D (that is \\[i.e.\\], No BILAG 2004 A and No BILAG 2004 \\>= 2B) or BILAG 2004 \\>= 1A or 2B and 1 or 2 of the following: Hyb",
+            "endpoints": [
+              "Cohort A: Change From Baseline in Cutaneous Lupus Erythematosus Disease Area and Severity Index-A (CLASI-A) Total Score at Week 16",
+              "Cohort B: Number of Participants With British Isles Lupus Assessment Group (BILAG)-Based Composite Lupus Assessment (BICLA) Response at Week 24"
+            ],
+            "sponsor": "EMD Serono",
+            "url": "https://clinicaltrials.gov/study/NCT05162586"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02437890",
+            "title": "A Phase II Multicenter, Randomized, Double-blind, Placebo Controlled, Dose-range Finding Study to Evaluate the Safety and Efficacy of ALX-0061 Administered Subcutaneously in Subjects With Moderate to Severe Active Systemic Lupus Erythematosus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-07",
+            "completion_date": "2018-01",
+            "country": "Spain, South Korea, Germany, Argentina, United States, Portugal, Peru, Chile, Czechia, Hungary, Mexico, Philippines, Russia, Ukraine, Taiwan, Serbia, Poland",
+            "enrollment": 312,
+            "brief_summary": "Primary objective:\n\nTo assess the efficacy and safety of different dose regimens of ALX-0061 administered subcutaneously (s.c.) to subjects with moderate to severe active, seropositive systemic lupus erythematosus (SLE) compared to placebo.\n\nSecondary objectives:\n\nTo assess the pharmacokinetics (PK), pharmacodynamics (PD), immunogenicity, flare rate, steroid reduction and health-related quality of life, with different dose regimens of ALX-0061.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Man or woman ≥ 18 years and \\< 65 years of age\n2. Have a diagnosis of SLE for at least 6 months prior to screening and fulfill the 1997 American College of Rheumatology (ACR) or 2012 Systemic Lupus International Collaborating Clinics (SLICC) classification criteria\n3. Have mo",
+            "endpoints": [
+              "Number and Percentage of Subjects Who Achieved a Response at Week 24 According to the Modified British Isles Lupus Assessment Group (BILAG)-Based Composite Lupus Assessment (mBICLA) Score"
+            ],
+            "sponsor": "Ablynx, a Sanofi company",
+            "url": "https://clinicaltrials.gov/study/NCT02437890"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01283139",
+            "title": "A Phase 2b, Dose-ranging Study to Evaluate the Efficacy and Safety of Sifalimumab in Adults With Systemic Lupus Erythematosus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-03-31",
+            "completion_date": "2014-04-17",
+            "country": "India, United States, Peru, Philippines, Canada, Jamaica, Italy, Netherlands, Chile, Thailand, Poland, United Kingdom, France, Brazil, Germany, Argentina, Mexico, Hungary, Spain, Romania, Bulgaria, South Africa",
+            "enrollment": 834,
+            "brief_summary": "To evaluate the efficacy and safety of sifalimumab compared to placebo in subjects with moderately to severely active Systemic Lupus Erythematosus (SLE).",
+            "eligibility_criteria": "Inclusion Criteria: - Fulfills at least 4 of American College of Rheumatology (ACR) criteria for systemic lupus erythematosus (SLE) including a positive antinuclear antibody (ANA) or elevated ds-deoxyribonucleic acid (DNA) or Sm antibody at screening - Disease history of SLE greater than or equal to",
+            "endpoints": [
+              "Percentage of Participants Achieving a Response in Systemic Lupus Erythematosus Responder Index 4 (SRI [4])",
+              "Percentage of Participants Achieving a Positive Response in SRI (4) in 4-Gene Interferon Test High Participants"
+            ],
+            "sponsor": "MedImmune LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01283139"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02975336",
+            "title": "A Phase II, Randomized, Double-Blind, Placebo-Controlled Dose-Ranging Study To Evaluate the Safety and Efficacy of M2951 in Subjects With SLE",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2017-01-04",
+            "completion_date": "2020-03-23",
+            "country": "United States, Peru, Philippines, South Korea, Italy, Mauritius, Chile, Russia, Poland, Japan, Colombia, Germany, Argentina, Mexico, Romania, Bulgaria, Malaysia, South Africa, Taiwan",
+            "enrollment": 469,
+            "brief_summary": "M2951 is an investigational drug under evaluation for treatment of autoimmune and inflammatory disorders. The purpose of the study was to assess the Safety and Efficacy of M2951 in participants with Systemic Lupus Erythematosus (SLE).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eligible male and female participants, aged 18 to 75 years\n* Must have diagnosis of SLE with either the Systemic Lupus International Collaborating Clinics (SLICC) criteria for SLE, or at least four of the 11 American College of Rheumatology (ACR) classification criteria for SL",
+            "endpoints": [
+              "DBPC Period: Number of Participants With Response Based on Systemic Lupus Erythematosus Responder Index 4 (SRI-4) at Week 52",
+              "DBPC Period: Number of Participants With Response Based on Systemic Lupus Erythematosus Responder Index 6 (SRI-6) at Week 52",
+              "DBPC Period: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs According to National Cancer Institute-Common Terminology Criteria for Adverse Events Version 4.03 (NCI-CTCAE v4.03)"
+            ],
+            "sponsor": "EMD Serono",
+            "url": "https://clinicaltrials.gov/study/NCT02975336"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07355218",
+            "title": "A Phase 3, Randomized, Double-Blind,Placebo-Controlled Parallel Study to Evaluate the Efficacy and Safety of Enpatoran in Participants With Active Cutaneous Manifestations of Lupus Erythematosus With or Without Systemic Disease Receiving Standard of Care (ELOWEN-2)",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-03-27",
+            "completion_date": "2029-05-25",
+            "country": "Germany",
+            "enrollment": 202,
+            "brief_summary": "The purpose of this global, multicenter, Phase 3 study is to evaluate the efficacy and safety of enpatoran over 24 weeks in participants with active cutaneous manifestations of lupus erythematosus with or without systemic disease. Study details include:\n\nStudy Duration: Up to 35 weeks. Treatment Duration: 24 weeks. Visit Frequency: every 4 weeks, with the exception of the Week 2 televisit. Study Intervention Name: Enpatoran, Placebo.\n\nIntervention Form: Film-coated tablet.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Vaccinations are up to date according to local guidelines/recommendations. Recombinant zoster vaccination is encouraged but not mandatory.\n* Participants with diagnosis of Discoid Lupus Erythematosus (DLE) and/or Subacute Cutaneous Lupus Erythematosus (SCLE) documented in medic",
+            "endpoints": [
+              "Percentage of Participants With Cutaneous Lupus Erythematosus Disease Area and Severity Index (CLASI) 70 Response, Defined as >= 70 Percent (%) Decrease in CLASI-A Score From Baseline"
+            ],
+            "sponsor": "Merck Healthcare KGaA, Darmstadt, Germany, an affiliate of Merck KGaA, Darmstadt, Germany",
+            "url": "https://clinicaltrials.gov/study/NCT07355218"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01652261",
+            "title": "Very Early FDG-PET/CT-response Adapted Therapy for Advanced Stage Hodgkin Lymphoma, a Randomized Phase III Non-inferiority Study of the EORTC Lymphoma Group",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2013-05",
+            "completion_date": "2014-10",
+            "country": "Denmark",
+            "enrollment": 0,
+            "brief_summary": "The main objective of the trial is to show that doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD)-based response-adapted therapy for advanced-stage Hodgkin lymphoma, with treatment intensification (bleomycin, etoposide, adriamycin, cyclophosphamide, vincristine, procarbazine, and prednisone (BEACOPPesc) in case of a positive fluorodeoxyglucose (FDG) positron emission tomography (PET) computed tomography (CT) after one cycle of ABVD, has non-inferior efficacy compared with the intensive",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Previously untreated, histologically proven classical Hodgkin lymphoma\n* Clinical stages III/IV (Ann Arbor)\n* Age 18-60\n* WHO performance 0-2\n* Adequate organ function\n* Patients of childbearing/reproductive potential should use adequate birth control measures during the whole",
+            "endpoints": [
+              "Freedom from treatment failure"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT01652261"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02141672",
+            "title": "A Randomized, Controlled Double-blind Study Comparing the Efficacy and Safety of Voclosporin (23.7 mg BID, or 39.5 mg BID) With Placebo in Achieving Remission in Patients With Active Lupus Nephritis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2017-01",
+            "country": "United States, Philippines, Ukraine, Guatemala, Ecuador, Bangladesh, South Korea, Sri Lanka, Russia, Thailand, Serbia, Poland, Mexico, Georgia, Spain, China, Bulgaria, Singapore, Belarus, Taiwan",
+            "enrollment": 265,
+            "brief_summary": "To assess the efficacy of 2 doses of voclosporin compared to placebo in achieving complete remission after 24 weeks of therapy in subjects with active lupus nephritis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMale or female subjects aged 18 to 75 years.\n\nDiagnosis of systemic lupus erythematosus (SLE) according to the American College of Rheumatology criteria.\n\nKidney biopsy within 6 months prior to Screening (Visit 1) with a histologic diagnosis of lupus nephritis (International Soc",
+            "endpoints": [
+              "Number of Subjects Achieving Complete Renal Remission at 24 Weeks"
+            ],
+            "sponsor": "Aurinia Pharmaceuticals Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02141672"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02037191",
+            "title": "RANDOMIZED DOUBLE-BLIND STUDY MULTICENTRIQUE TESTING THE EFFICIENCY OF the METHOTREXATE AT PATIENTS AFFECTED BY GRAVE PELADE (METHOTREXATE VERSUS PLACEBO WITH SECONDARY TREATMENT BY METHOTREXATE and PREDNISONE)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-02",
+            "completion_date": "2017-12",
+            "country": "France",
+            "enrollment": 90,
+            "brief_summary": "Alopecia areata (AA) is an auto immune disorder. Treatment of severe types remains difficult with a rate of hair regrowth which is lower than 10%. This RCT will assess the safety and efficacy of methotrexate alone or associated with low doses of prednisone versus placebo in the treatment of severe types of AA.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. \\- age 18 to 70 years old\n2. \\- informed consent,\n3. \\- severe type of AA defined as : 3.1 - AA totalis universalis 3.2 - evolving for more than 6 months despite previous treatments including photothérapy (PUVA oru UVB), applications of super potent topical corticosteroid ( c",
+            "endpoints": [
+              "OUTCOME MESURE"
+            ],
+            "sponsor": "University Hospital, Rouen",
+            "url": "https://clinicaltrials.gov/study/NCT02037191"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03517722",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-group Study of Ustekinumab in Subjects With Active Systemic Lupus Erythematosus",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2018-04-16",
+            "completion_date": "2020-11-05",
+            "country": "United States, Ukraine, Lithuania, Canada, South Korea, Russia, Thailand, Serbia, Poland, Japan, Colombia, Germany, Argentina, Hungary, Spain, China, Portugal, Bulgaria, South Africa, Taiwan",
+            "enrollment": 516,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of ustekinumab in participants with active systemic lupus erythematosus (SLE) who have not adequately responded to one or more standard of care treatments.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Be male or female\n* Has a documented medical history (that is, met at least 1 of the two criteria below) that participant met the Systemic Lupus International Collaborating Clinics (SLICC) classification criteria for systemic lupus erythematosus (SLE) at least 3 months prior t",
+            "endpoints": [
+              "Percentage of Participants Achieving a Systemic Lupus Erythematosus Responder Index-4 (SRI-4) Composite Response at Week 52"
+            ],
+            "sponsor": "Janssen Research & Development, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT03517722"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02953821",
+            "title": "A Multicenter, Randomized, Double Blind, Placebo Controlled Study to Assess the Efficacy and Safety of Acthar Gel in Subjects With Persistently Active Systemic Lupus Erythematosus Despite Moderate Dose Corticosteroids",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-12-16",
+            "completion_date": "2019-10-25",
+            "country": "Argentina, United States, Peru, Chile, Mexico",
+            "enrollment": 172,
+            "brief_summary": "This trial is to study Acthar Gel in participants with active systemic lupus erythematosus (SLE).\n\nThe doctor will assign eligible patients to one of two groups (like flipping a coin).\n\nParticipants will receive the treatment assigned to their group for 24 weeks:\n\n* Acthar Gel\n* Placebo Gel, which looks like Acthar Gel, but has no medicine in it.\n\nThe doctor or his staff will take measurements and ask questions to:\n\n* see how well the gel is working\n* see how safe it is for patients with SLE",
+            "eligibility_criteria": "Inclusion Criteria:\n\nTo be eligible to participate in this trial, a patient must:\n\n* Have a diagnosis of SLE according to 4 of the American College of Rheumatology revised criteria\n* Have active SLE\n* Have moderate to severe rash and/or arthritis as demonstrated by BILAG-2004 score A or B in the muc",
+            "endpoints": [
+              "Physician's Global Assessment (PGA)",
+              "British Isles Lupus Assessment Group 2004 (BILAG 2004)",
+              "Number of Participants With at Least a 4 Point Change From Baseline in Systemic Lupus Erythematosus Disease Activity Index-2000 (SLEDAI-2K)"
+            ],
+            "sponsor": "Mallinckrodt",
+            "url": "https://clinicaltrials.gov/study/NCT02953821"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04925934",
+            "title": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled Efficacy and Safety Study of VIB7734 for the Treatment of Moderate to Severely Active Systemic Lupus Erythematosus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-05-28",
+            "completion_date": "2023-06-09",
+            "country": "Spain, India, Argentina, United States, Mexico, Russia, Ukraine, Greece, Taiwan, Serbia, Poland",
+            "enrollment": 214,
+            "brief_summary": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled Efficacy and Safety Study of VIB7734 for the Treatment of Moderate to Severely Active Systemic Lupus Erythematosus in approximately 195 participants. The study duration will be 48 weeks, with a safety follow-up through week 56.There will be 3 parallel arms - 2 active treatment and 1 placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years to ≤ 70 years\n* Willing and able to understand and provide written informed consent.\n* Fulfill the 2019 European League Against Rheumatism/American College of Rheumatology Classification Criteria for SLE\n* Disease duration of at least 6 months\n* Active SLE as in",
+            "endpoints": [
+              "Number of Participants Achieving a BILAG-2004 Index-based Combined Lupus Assessment (BICLA) Response and an OGC Dose ≤ 7.5 mg/Day and ≤ Baseline Dose of Prednisone or Equivalent at Week 48"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT04925934"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03859570",
+            "title": "A Multicenter, Double-blind, Placebo-controlled, Randomized Trial of Pentoxifylline or Placebo in Addition to Standard of Care for Treatment of Proteinuria in Patients With Lupus Nephritis.",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2020-09-01",
+            "completion_date": "2022-12",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Glomerulonephritis is an important manifestation in about 1/2 of patients with Systemic Lupus Nephritis (SLE; lupus). Despite recent national guidelines recommending use of induction therapy with high-dose corticosteroids and immunosuppressive agents, followed by prolonged maintenance therapy, up to 1/3 of these patients continue to have active nephritis and ongoing protein in the urine (proteinuria). It has long been recognized that both the level and chronicity of proteinuria in patients with ",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. Patients 18 and older, who meet the 1997 update of the1982 criteria for classification of systemic lupus erythematosus and have established lupus nephritis as documented by any of the following:\n\n   1. Kidney biopsy documenting class II, III, IV, or V (RPS/ISN 2004) lupus nep",
+            "endpoints": [
+              "Level of proteinuria"
+            ],
+            "sponsor": "MetroHealth Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03859570"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03616912",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Phase 3 Study of Baricitinib in Patients With Systemic Lupus Erythematosus",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2018-08-02",
+            "completion_date": "2022-03-09",
+            "country": "Switzerland, Australia, United Kingdom, Croatia, Belgium, Brazil, Austria, Germany, Israel, Netherlands, United States, China, Mexico, Czechia, Hungary, Russia, Greece, Taiwan",
+            "enrollment": 830,
+            "brief_summary": "The reason for this study is to see how effective and safe the study drug known as baricitinib is in participants with systemic lupus erythematosus (SLE).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a clinical diagnosis of SLE at least 24 weeks prior to screening.\n* Have documentation of having met at least 4 of 11 Revised Criteria for Classification of Systemic Lupus Erythematosus according to the 1997 Update of the 1982 American College of Rheumatology (ACR) criter",
+            "endpoints": [
+              "Percentage of Participants Achieving a Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Response (4 mg Baricitinib)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT03616912"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04582136",
+            "title": "Efficacy and Safety of Sirolimus in Patients With Active Systemic Lupus Erythematosus Despite Standard of Care: a Multi-center, Double Blinded, Randomized, Placebo-controlled, Phase 3 Trial",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-03-04",
+            "completion_date": "2026-01",
+            "country": "China",
+            "enrollment": 146,
+            "brief_summary": "This is a multi-center, double-blinded, randomized, placebo-controlled, phase 3 study to evaluate the efficacy and safety of sirolimus administered in addition to standard therapy, in patients with active SLE disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 18\\~65 years;\n* Fulfilling the 2012 SLICC criteria for SLE; time from SLE diagnosis ≥ 3 months;\n* Active disease as defined by a SLEDAI-2K score of ≥4 (not including scores for anti-dsDNA antibody and hypocomplementemia) at screening;\n* Serologically active definin",
+            "endpoints": [
+              "The Proportion of Patients Who Achieve an SLE Responder Index-4 (SRI-4) Composite Response at Week 24"
+            ],
+            "sponsor": "Chinese SLE Treatment And Research Group",
+            "url": "https://clinicaltrials.gov/study/NCT04582136"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06046534",
+            "title": "ERYTHRO Retrospective Medical Chart Review Study to Describe the Experience of SLE Patients Treated With Anifrolumab in the Early Access Programs.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2023-10-27",
+            "completion_date": "2024-06-10",
+            "country": "Spain, United Kingdom, France, Italy, Israel, Portugal, Greece",
+            "enrollment": 46,
+            "brief_summary": "The ERYTHRO study is a retrospective medical chart review study of patients in the AMANA and ATUc Early Access Programs (EAPs) across a number of countries, to assess anifrolumab usage and patient experience in treating SLE in a real-world setting. Since patient safety data are already collected and reported according to regulatory requirements through EAPs, this study will not collect safety data.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years at time of enrolment into AMANA or France ATUc program, and\n* Have at least 6 months of data from medical charts available prior to the initiation of anifrolumab through the EAP, and\n* Have been initiated on anifrolumab at least 6 months before enrolment into ER",
+            "endpoints": [
+              "Disease activity assessed by Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K) or any of its components at 6 months from the date of first anifrolumab infusion",
+              "Disease activity assessed by the Physician Global Assessment (PGA) at 6 months from the date of first anifrolumab infusion"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT06046534"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01254513",
+            "title": "Randomized Phase II Study Evaluating the Feasibility of a Chemotherapy With Docetaxel-Prednisone in a Weekly Schedule or Every 3 Weeks, for Castration-resistant Metastatic Prostate Cancer Elderly Patients (>=75), \"Vulnerable\" or \"Frail\" , as Defined by the Criteria of the International Society of Geriatric Oncology (SIOG)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-12-09",
+            "completion_date": "2017-04-27",
+            "country": "France",
+            "enrollment": 66,
+            "brief_summary": "The objective of this study is to evaluate the feasibility of two different chemotherapy protocols with adjusted doses for patients aged 75 and over who often have medical problems other than prostate cancer. Patient will receive Docetaxel either every 3 weeks or weekly. In both cases, chemotherapy is combined with prednisone. The protocol will be considered feasible when patient will receive 6 cycles of chemotherapy (1 cycle = 3 weeks).\n\nAdditionally to this primary objective, efficacy will als",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\>= 75\n* Histologically proven prostate adenocarcinoma\n* Metastatic disease, not pre-treated with chemotherapy refractory to castration\n* Hormone refractory prostate cancer is defined as follows:\n\n  * Patients with documented testosterone castration (\\<0.50 ng / ml)\n  * Pa",
+            "endpoints": [
+              "Feasibility of 2 different protocols of Docetaxel chemotherapy"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT01254513"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01972217",
+            "title": "A Randomised, Double-Blind, Placebo-Controlled, Multicentre Phase II Study to Compare the Efficacy, Safety and Tolerability of Olaparib Versus Placebo When Given in Addition to Abiraterone Treatment in Patients With Metastatic Castrate-Resistant Prostate Cancer Who Have Received Prior Chemotherapy Containing Docetaxel",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-04-01",
+            "completion_date": "2023-08-24",
+            "country": "Spain, United Kingdom, France, Canada, Belgium, Netherlands, Italy, United States, Russia, Czechia, Poland",
+            "enrollment": 158,
+            "brief_summary": "This is a 2-part study in patients with metastatic CRPC. Part A is an open-label safety run-in study to assess the safety, tolerability and pharmacokinetics (PK) of olaparib when given in addition to abiraterone 1000 mg once daily. Part B is a randomised, double-blind, placebo controlled comparison of the efficacy, safety and tolerability of the dose of olaparib selected from Part A when given in addition to abiraterone, versus placebo given in addition to abiraterone. Abiraterone is indicated i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provision of signed and dated written informed consent prior to any study specific procedures.\n2. Male aged 18 years and older.\n3. Histologically or cytologically proven diagnosis of prostate cancer.\n4. Candidate for abiraterone therapy with documented evidence of metastatic ",
+            "endpoints": [
+              "Part A: Percentage of Patients Experiencing Adverse Events (AEs)",
+              "Part A: Number of Patients With Dose Limiting Toxicities (DLTs)",
+              "Part B: Median Radiological Progression-Free Survival (rPFS) Time"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT01972217"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03616964",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Phase 3 Study of Baricitinib in Patients With Systemic Lupus Erythematosus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2018-08-02",
+            "completion_date": "2021-10-20",
+            "country": "Colombia, Spain, France, India, Romania, South Africa, South Korea, Italy, Argentina, United States, Chile, Philippines, Poland, Serbia, Japan",
+            "enrollment": 778,
+            "brief_summary": "The reason for this study is to see how effective and safe the study drug known as baricitinib is in participants with systemic lupus erythematosus (SLE).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a clinical diagnosis of SLE at least 24 weeks prior to screening.\n* Have documentation of having met at least 4 of 11 Revised Criteria for Classification of Systemic Lupus Erythematosus according to the 1997 Update of the 1982 American College of Rheumatology (ACR) criter",
+            "endpoints": [
+              "Percentage of Participants Achieving a Systemic Lupus Erythematosus Responder Index 4 (SRI-4) Response (4 mg Baricitinib)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT03616964"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07332481",
+            "title": "A Phase 3, Randomized, Double-Blind,Placebo-Controlled Parallel Study to Evaluate the Efficacy and Safety of Enpatoran in Participants With Active Cutaneous Manifestations of Lupus Erythematosus With or Without Systemic Disease Receiving Standard of Care (ELOWEN-1)",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-03-27",
+            "completion_date": "2029-05-24",
+            "country": "United States",
+            "enrollment": 202,
+            "brief_summary": "The purpose of this global, multicenter, Phase 3 study is to evaluate the efficacy and safety of enpatoran over 24 weeks in participants with active cutaneous manifestations of lupus erythematosus with or without systemic disease. Study details include:\n\nStudy Duration: Up to 35 weeks. Treatment Duration: 24 weeks. Visit Frequency: every 4 weeks, with the exception of the Week 2 televisit. Study Intervention Name: Enpatoran, Placebo.\n\nIntervention Form: Film-coated tablet.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Vaccinations are up to date according to local guidelines/recommendations. Recombinant zoster vaccination is encouraged but not mandatory.\n* Participants with diagnosis of Discoid Lupus Erythematosus (DLE) and/or Subacute Cutaneous Lupus Erythematosus (SCLE) documented in medic",
+            "endpoints": [
+              "Percentage of Participants With Cutaneous Lupus Erythematosus Disease Area and Severity Index (CLASI) 70 Response, Defined as >= 70 Percent (%) Decrease in CLASI-A Score From Baseline"
+            ],
+            "sponsor": "Merck Healthcare KGaA, Darmstadt, Germany, an affiliate of Merck KGaA, Darmstadt, Germany",
+            "url": "https://clinicaltrials.gov/study/NCT07332481"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01779479",
+            "title": "Randomized, Open-label, Phase II Study Comparing the Efficacy and the Safety of Cabazitaxel Versus Weekly Paclitaxel Given as Neo-adjuvant Treatment in Patients With Operable Triple Negative or Luminal B/HER2 Normal Breast Cancer (GENEVIEVE)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-02",
+            "completion_date": "2016-02",
+            "country": "Germany",
+            "enrollment": 333,
+            "brief_summary": "Cabazitaxel is a new taxoid which promotes the tubulin assembly in vitro and stabilizes microtubules against cold-induced depolymerization as efficiently as docetaxel and was selected for development based on a better antiproliferative activity on resistant cell lines than docetaxel. It has shown superior survival against mitoxantrone (MTX) plus prednisone in docetaxel pre-treated hormone refractory metastatic prostate cancer patients leading to registration of the compound. It showed a favorabl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent for all study according to local regulatory requirements prior to beginning specific protocol procedures.\n* Complete baseline documentation must be sent to GBG Forschungs GmbH.\n* Unilateral or bilateral primary carcinoma of the breast, confirmed histol",
+            "endpoints": [
+              "pathologic complete response (pCR) rate"
+            ],
+            "sponsor": "GBG Forschungs GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT01779479"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05352919",
+            "title": "A Multicenter, Randomized, Dose-Blind, Phase 3 Long-Term Extension Study to Evaluate Continuous Safety and Efficacy of Litifilimab (BIIB059) in Adult Participants With Active Systemic Lupus Erythematosus",
+            "phase": "PHASE3",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2022-06-10",
+            "completion_date": "2030-03-29",
+            "country": "Belgium, United States, Peru, Philippines, South Korea, Italy, Chile, Czechia, Serbia, Poland, Japan, Colombia, United Kingdom, France, Brazil, Argentina, Israel, Mexico, Hungary, Spain, Romania, China, Bulgaria, Greece, Puerto Rico, Taiwan",
+            "enrollment": 864,
+            "brief_summary": "In this study, researchers will learn more about a study drug called litifilimab (BIIB059) in participants with systemic lupus erythematosus (SLE). The study will focus on participants who have active disease and are already taking standard of care medications. These may include antimalarials, steroids, and immunosuppressants. This is an extension study of 230LE303 and 230LE304 (TOPAZ-1 and TOPAZ-2). It will enroll participants who completed the treatment periods of either one of the parent stud",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Participants who completed 1 of the 52-week of the double-blind placebo-controlled, parent Phase 3 studies (230LE303 (NCT04895241) and 230LE304 (NCT04961567)) on study treatments with either litifilimab or placebo to Week 48 and attended the last study assessment visit at ",
+            "endpoints": [
+              "Number of Participants with Treatment Emergent Adverse Events (TEAEs)",
+              "Number of Participants with Serious Adverse Events (SAEs)"
+            ],
+            "sponsor": "Biogen",
+            "url": "https://clinicaltrials.gov/study/NCT05352919"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01055496",
+            "title": "AN OPEN-LABEL, PHASE 1 STUDY OF R-CVP OR R-GDP IN COMBINATION WITH INOTUZUMAB OZOGAMICIN IN SUBJECTS WITH CD22-POSTIVE NON-HODGKIN'S LYMPHOMA",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-03",
+            "completion_date": "2014-03",
+            "country": "Hong Kong, United Kingdom, France, Canada, South Korea, Belgium, United States, Singapore, Japan",
+            "enrollment": 103,
+            "brief_summary": "This is a phase 1 trial designed to evaluate safety and tolerability of chemotherapy in combination with inotuzumab ozogamicin, an investigational product, in adults with CD22-positive non-Hodgkin's lymphoma. The trial will involve two arms. In one arm, subjects will receive chemotherapy regimen R-CVP (rituximab, cyclophosphamide, vincristine and prednisone). In the other arm, subjects will receive R-GDP (rituximab, gemcitabine, cisplatinum and dexamethasone). Subjects in both arms will also rec",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Dose escalation cohorts: subjects with diagnosis of CD22-positive Non-Hodgkin's Lymphoma (NHL) who have had at least 1 prior anticancer treatment, including prior treatment with rituximab and chemotherapy.\n* Expanded maximum tolerated dose (MTD) confirmation and preliminary ef",
+            "endpoints": [
+              "Participants Reporting Dose Limiting Toxicity (DLT) Adverse Events (AEs) for Participants in the DE Cohort and the MTD Confirmation Cohort for Arm 1",
+              "Participants Reporting DLT AEs for Participants in the DE Cohort and the MTD Confirmation Cohort for Arm 2",
+              "Percentage of Participants With Best Overall Response (OR) of Complete Response (CR) or Partial Response (PR) According to International Response Criteria for NHLs in the MTD and EE Cohorts"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01055496"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03161483",
+            "title": "A PHASE 2, MULTICENTER, RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED STUDY TO EVALUATE THE EFFICACY AND SAFETY OF CC-220 IN SUBJECTS WITH ACTIVE SYSTEMIC LUPUS ERYTHEMATOSUS",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-08-31",
+            "completion_date": "2021-08-03",
+            "country": "Colombia, Spain, France, Canada, Belgium, Brazil, Germany, Argentina, Italy, United States, Mexico, Hungary, Russia, Serbia, Poland",
+            "enrollment": 289,
+            "brief_summary": "The purpose of this Phase 2, multicenter, randomized, placebo-controlled, double-blind study to evaluate the efficacy and safety of an oral treatment regimen of CC-220 versus placebo in adult subjects with active systemic lupus erythematosus.\n\nApproximately 280 subjects with a documented diagnosis of SLE will be randomized 2:2:1:2 to receive CC-220 (0.45 mg QD, 0.3 mg QD or 0.15 mg QD) or identically appearing placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female 18 years of age or older at the time of signing the informed consent.\n* Have a diagnosis of SLE for at least 6 months prior to the Screening Visit and fulfill the 1997 update of the 1982 American College of Rheumatology (ACR) Classification Criteria for SLE at t",
+            "endpoints": [
+              "Number of Participants Who Achieve SLE Responder Index (SRI) (4) Response"
+            ],
+            "sponsor": "Celgene",
+            "url": "https://clinicaltrials.gov/study/NCT03161483"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04058028",
+            "title": "A Phase 2b Dose Ranging Study to Evaluate the Efficacy and Safety of Rozibafusp Alfa (AMG 570) in Subjects With Active Systemic Lupus Erythematosus (SLE) With Inadequate Response to Standard of Care (SOC) Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-02-19",
+            "completion_date": "2023-07-25",
+            "country": "Australia, United States, Canada, South Korea, Italy, Russia, Czechia, Poland, Hong Kong, Japan, France, Germany, Argentina, Mexico, Hungary, Spain, Portugal, Bulgaria, Greece",
+            "enrollment": 244,
+            "brief_summary": "The purpose of this study is to determine if Rozibafusp Alfa could be a useful therapeutic agent in the current treatment landscape where subjects with SLE have ongoing disease activity despite treatment with standard of care therapies.",
+            "eligibility_criteria": "Inclusion Criteria Screening Visit:\n\n* Subject has provided informed consent prior to initiation of any study-specific activities/procedures.\n* Age ≥ 18 years to ≤ 75 years at screening visit.\n* Fulfills classification criteria for SLE according to the 2019 European League Against Rheumatism (EULAR)",
+            "endpoints": [
+              "Number of Participants With a SLE Responder Index (SRI-4) Response at Week 52"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT04058028"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03845517",
+            "title": "A PHASE 2B, DOUBLE-BLIND, RANDOMIZED, PLACEBO-CONTROLLED, MULTICENTER, DOSE-RANGING STUDY TO EVALUATE THE EFFICACY AND SAFETY PROFILE OF PF-06700841 IN PARTICIPANTS WITH ACTIVE SYSTEMIC LUPUS ERYTHEMATOSUS (SLE)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-04-18",
+            "completion_date": "2023-10-05",
+            "country": "Australia, Belgium, United States, Ukraine, Canada, South Korea, Italy, Czechia, Serbia, Poland, Hong Kong, Colombia, Japan, France, United Kingdom, Germany, Argentina, Mexico, Hungary, Spain, Romania, China, Portugal, Bulgaria, Greece, Taiwan",
+            "enrollment": 350,
+            "brief_summary": "Assessment of PF-06700841 in participants with moderate to severe active, generalized Systemic Lupus Erythematosus (SLE) that have inadequate response to standard of care.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and/or female subjects between ≥18 and ≤75 years of age inclusive.\n* Diagnosis of moderate to severe active Lupus.\n* Receiving a stable dose of methotrexate, azathioprine, leflunomide, mizoribine, mycophenolate/mycophenolic acid, anti-malarials or corticosteroids.\n\nExclus",
+            "endpoints": [
+              "Percentage of Participants Achieving SLE Responder Index (SRI) Change of 4 (SRI-4) at Week 52"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03845517"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01511536",
+            "title": "A Phase I/II Study of Cabazitaxel Combined With Abiraterone Acetate and Prednisone in Patients With Metastatic Castrate-Resistant Prostate Cancer (CRPC) Whose Disease Has Progressed After Docetaxel Chemotherapy",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2014-12",
+            "country": "United Kingdom, France, United States",
+            "enrollment": 38,
+            "brief_summary": "Primary Objectives:\n\n* To determine the maximum tolerated dose, and dose limiting toxicities of cabazitaxel administered as a 1-hour infusion every 3 weeks in combination with oral daily abiraterone acetate and prednisone in participants with metastatic Castrate-resistant prostate cancer (CRPC)\n* To estimate the anti-tumor activity of cabazitaxel in combination with abiraterone acetate and prednisone in terms of prostate-specific antigen (PSA) response rate.\n\nSecondary Objectives:\n\n* To characte",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Diagnosis of prostate adenocarcinoma proven histologically or cytologically, resistant to hormone therapy and previously treated with a docetaxel-containing regimen. In Phase 2 part, participants should have been treated with abiraterone acetate for at least 3 months and shou",
+            "endpoints": [
+              "Phase 1: Maximally Tolerated Dose (MTD) of Cabazitaxel in Combination With Abiraterone Acetate",
+              "Phase 2: Percentage of Participants With Prostate Specific Antigen (PSA) Response"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT01511536"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01753401",
+            "title": "A Two-part Study Exploring the Efficacy, Safety, and Pharmacodynamics of Acthar in Systemic Lupus Erythematosus Patients With a History of Persistently Active Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-01",
+            "completion_date": "2015-10",
+            "country": "United States",
+            "enrollment": 38,
+            "brief_summary": "This Phase 4 study is being performed to examine the effects of Acthar for the indicated use of treatment of SLE. This study will enroll patients with steroid-dependent, persistently active SLE with arthritic and/or cutaneous involvement.\n\nThe study will involve two periods: an 8-week double-blind period, to provide placebo-controlled safety, efficacy, and pharmacodynamic data, and an optional open-label period, to examine the prolonged effects of Acthar maintenance.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female ≥ 18 years of age at screening who are able to provide informed consent\n* Diagnosis of SLE according to the American College of Rheumatology revised criteria (fulfilled ≥ 4 criteria)\n* Active SLE with arthritic and/or cutaneous involvement as demonstrated by a S",
+            "endpoints": [
+              "Number of Participants Who Meet the Definition of a Responder Within 4 Weeks"
+            ],
+            "sponsor": "Mallinckrodt",
+            "url": "https://clinicaltrials.gov/study/NCT01753401"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "1444509",
+            "title": "Alopecia areata. A review of therapy, efficacy, safety, and mechanism.",
+            "abstract": "Although it is clear from the foregoing that some of the drugs and chemicals used to treat severe alopecia areata are efficacious to some degree, it is impossible to draw any meaningful comparisons among the data outlined in Tables 1 and 2. Virtually all of the studies were designed differently. Differences in chronicity and extent of disease as well as history of previous treatment resistance may significantly affect efficacy data even as two investigators compare the same drug. Drug-induced hair regrowth in alopecia areata may be very slow; a cosmetic response may take 1 to 2 years to achieve. Efficacy determinations made at shorter intervals may, therefore, not reflect true therapeutic potential. Efficacy end points vary significantly and need to be standardized. From a practical standpoint, scalp hair coverage that is deemed by the patient to be cosmetically acceptable seems to be a reasonable efficacy end point to report. Maintenance of cosmetic effect with continued treatment and",
+            "journal": "Archives of dermatology",
+            "year": "1992",
+            "authors": [
+              "Fiedler V C"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alopecia Areata",
+              "Humans",
+              "Pharmacology",
+              "Safety"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1444509/"
+          },
+          {
+            "pmid": "4571041",
+            "title": "Alopecia areata. Immunologic studies and treatment with prednisone.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1973",
+            "authors": [
+              "Kern F",
+              "Hoffman W H",
+              "Hambrick G W",
+              "Blizzard R M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "17-Hydroxycorticosteroids",
+              "Adolescent",
+              "Adrenal Glands",
+              "Adult",
+              "Alopecia Areata",
+              "Animals",
+              "Antibodies",
+              "Child",
+              "Child, Preschool",
+              "Complement Fixation Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4571041/"
+          },
+          {
+            "pmid": "23962142",
+            "title": "Prominent follicular mucinosis with diffuse scalp alopecia resembling alopecia areata.",
+            "abstract": "A 56-year-old Caucasian female presented with a 2-month history of alopecia. On examination, she had diffuse hair loss of her scalp with some discrete patches of nonscarring alopecia. Histopathology revealed an inflammatory nonscarring alopecia with prominent follicular mucinosis and findings suggestive of alopecia areata. The patient's alopecia completely resolved with oral prednisone. The histopathologic findings and clinical presentation are most consistent with a diagnosis of alopecia areata with follicular mucinosis, although the differential diagnosis is broad. As follicular mucinosis may be associated with both benign and malignant conditions, it is important to be cautious regarding the clinical diagnosis when this reaction pattern is observed histopathologically.",
+            "journal": "Journal of cutaneous pathology",
+            "year": "2013",
+            "authors": [
+              "Missall Tricia A",
+              "Hurley M Yadira",
+              "Burkemper Nicole M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alopecia Areata",
+              "Anti-Inflammatory Agents",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Mucinosis, Follicular",
+              "Prednisone",
+              "Scalp"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23962142/"
+          },
+          {
+            "pmid": "36884234",
+            "title": "Efficacy of Methotrexate Alone vs Methotrexate Plus Low-Dose Prednisone in Patients With Alopecia Areata Totalis or Universalis: A 2-Step Double-Blind Randomized Clinical Trial.",
+            "abstract": "Poor therapeutic results have been reported in patients with alopecia areata totalis (AT) or universalis (AU), the most severe and disabling types of alopecia areata (AA). Methotrexate, an inexpensive treatment, might be effective in AU and AT.",
+            "journal": "JAMA dermatology",
+            "year": "2023",
+            "authors": [
+              "Joly Pascal",
+              "Lafon Audrey",
+              "Houivet Estelle",
+              "Donnadieu Nathalie",
+              "Richard Marie-Aleth"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Male",
+              "Female",
+              "Methotrexate",
+              "Prednisone",
+              "Alopecia Areata",
+              "Quality of Life",
+              "Neoplasm Recurrence, Local",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36884234/"
+          },
+          {
+            "pmid": "37467740",
+            "title": "Major improvement of very severe alopecia areata in patients treated with the combination of baricitinib and low doses of corticosteroids: an eight-case series.",
+            "abstract": "Alopecia areata (AA), especially very severe types, causes patients severe psychological and social distress. Although baricitinib alone has been shown to be effective in conferring complete hair regrowth (HR) in severe AA [Severity of Alopecia Tool (SALT) score 50-94], it gave poor therapeutic results in very severe AA (SALT score ≥ 95). Methotrexate alone is similarly ineffective, but in a recent study of patients with areata totalis or universalis, low-dose prednisone with methotrexate gave a 20% rate of HR, and was effective and well tolerated. In our study of baricitinib 4 mg + prednisone 20 mg per day tapered over 3 months to treat eight women with very severe AA, seven of eight achieved complete HR (SALT score 0) and one had partial HR (SALT score 30).",
+            "journal": "Clinical and experimental dermatology",
+            "year": "2023",
+            "authors": [
+              "Hébert Vivien",
+              "Joly Pascal"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Alopecia Areata",
+              "Prednisone",
+              "Methotrexate",
+              "Adrenal Cortex Hormones",
+              "Azetidines",
+              "Purines",
+              "Pyrazoles",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37467740/"
+          },
+          {
+            "pmid": "16019495",
+            "title": "Alopecia areata and multifocal bone involvement in a young adult with Hodgkin's disease.",
+            "abstract": "A 17-year-old girl presented with a 3 month history of alopecia areata, a generalized scaling skin, enlargement of the inguinal lymph nodes and severe back pain. Staging procedures revealed multifocal bone disease and generalized lymphadenopathy. The diagnosis of nodular sclerosing Hodgkin's disease was established by biopsies of the os ileum and a left inguinal lymph node. Complete clinical remission was achieved after 2 OPPA (vincristine, prednisone, procarbazine, and doxorubicin) and 4 COPP (cyclophosphamide, vincristine, prednisone, and procarbazine) cycles and treatment completed with involved-field irradiation. After the completion of therapy, skeletal lesions had mostly resolved or become sclerotic and the patient had normal hair regrowth and skin appearance. Conclusively, this case illustrates that alopecia areata may occur as a paraneoplastic phenomenon or an autoimmune process related to the deranged cellular immune system in children and adolescents with Hodgkin's disease.",
+            "journal": "Leukemia & lymphoma",
+            "year": "2005",
+            "authors": [
+              "Mlczoch Lila",
+              "Attarbaschi Andishe",
+              "Dworzak Michael",
+              "Gadner Helmut",
+              "Mann Georg"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Alopecia Areata",
+              "Bone Neoplasms",
+              "Combined Modality Therapy",
+              "Female",
+              "Hodgkin Disease",
+              "Humans",
+              "Remission Induction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16019495/"
+          },
+          {
+            "pmid": "38650498",
+            "title": "Real world evidence: patients with alopecia areata in Italy.",
+            "abstract": "This real-world analysis aimed at characterizing patients hospitalized for alopecia areata (AA) in Italy, focusing on comorbidities, treatment patterns and the economic burden for disease management.",
+            "journal": "Italian journal of dermatology and venereology",
+            "year": "2024",
+            "authors": [
+              "Perrone Valentina",
+              "Sabatino Silvia",
+              "Avitabile Arianna",
+              "Dovizio Melania",
+              "Leogrande Melania"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Italy",
+              "Alopecia Areata",
+              "Male",
+              "Female",
+              "Adult",
+              "Retrospective Studies",
+              "Hospitalization",
+              "Adolescent",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38650498/"
+          },
+          {
+            "pmid": "791152",
+            "title": "Prednisone therapy for alopecia areata. A follow-up report.",
+            "abstract": "Eighteen patients treated with prednisone on alternate days for varying degrees of alopecia areata (AA) were examined a mean of 15 months after discontinuation of the drug. Despite an initial response to the therapy, long-term benefit was not thought to be substantial. Numerous side effects related either to systemic corticosteroids or to AA were apparent during the course of therapy, as well as at the time of the evaluation reported herein. Acne, obesity, lenticular opacities, mild hypertension, and impaired adrenocorticotropic hormone (ACTH) reserve were among the findings noted. Long-term treatment was not accompanied by an obvious beneficial change in the natural course of AA. Because of the potentially serious side effects and the lack of substantial improvement in the eventual course, alternate-day prednisone therapy is not recommended for long-term use in AA.",
+            "journal": "Archives of dermatology",
+            "year": "1976",
+            "authors": [
+              "Winter R J",
+              "Kern F",
+              "Blizzard R M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Alopecia Areata",
+              "Child",
+              "Clinical Trials as Topic",
+              "Drug Evaluation",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/791152/"
+          },
+          {
+            "pmid": "26735937",
+            "title": "Efficacy and Safety of Methotrexate Combined with Low- to Moderate-Dose Corticosteroids for Severe Alopecia Areata.",
+            "abstract": "In severe alopecia areata (AA), spontaneous recovery is unlikely, and treatment is not standardized.",
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2016",
+            "authors": [
+              "Anuset Delphine",
+              "Perceau Geraldine",
+              "Bernard Philippe",
+              "Reguiai Ziad"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Alopecia",
+              "Alopecia Areata",
+              "Anti-Inflammatory Agents",
+              "Child",
+              "Dermatologic Agents",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26735937/"
+          },
+          {
+            "pmid": "13368875",
+            "title": "Alopecia areata, partialis, and totalis; treatment with cortisone, hydrocortisone and their analogs, prednisone and prednisolone.",
+            "abstract": "",
+            "journal": "Medical times",
+            "year": "1956",
+            "authors": [
+              "LUBOWE I I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Alopecia",
+              "Alopecia Areata",
+              "Cortisone",
+              "Humans",
+              "Hydrocortisone",
+              "Inorganic Chemicals",
+              "Organic Chemicals",
+              "Prednisolone",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13368875/"
+          },
+          {
+            "pmid": "911178",
+            "title": "Prednisone therapy for alopecia areata.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1977",
+            "authors": [
+              "Unger W P"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Alopecia Areata",
+              "Humans",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/911178/"
+          },
+          {
+            "pmid": "20804894",
+            "title": "[Treatment of alopecia areata with prednisone in a once-monthly oral pulse].",
+            "abstract": "Various modalities have been used in the treatment of alopecia areata (AA), including pulsed oral corticosteroids. The aim of this study was to evaluate the efficacy and safety of pulsed oral prednisone in the management of AA.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2010",
+            "authors": [
+              "Ait Ourhroui M",
+              "Hassam B",
+              "Khoudri I"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Alopecia",
+              "Alopecia Areata",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Male",
+              "Patient Acceptance of Health Care"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20804894/"
+          },
+          {
+            "pmid": "8996277",
+            "title": "Systemic cyclosporine and low-dose prednisone in the treatment of chronic severe alopecia areata: a clinical and immunopathologic evaluation.",
+            "abstract": "",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1997",
+            "authors": [
+              "Shapiro J",
+              "Lui H",
+              "Tron V",
+              "Ho V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alopecia Areata",
+              "CD4-CD8 Ratio",
+              "Chronic Disease",
+              "Cyclosporine",
+              "Drug Combinations",
+              "Esthetics",
+              "Evaluation Studies as Topic",
+              "Female",
+              "Glucocorticoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8996277/"
+          },
+          {
+            "pmid": "596920",
+            "title": "Alopecia areata and regrowth of hair.",
+            "abstract": "",
+            "journal": "Archives of dermatology",
+            "year": "1977",
+            "authors": [
+              "Bovenmyer D A"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Alopecia Areata",
+              "Hair",
+              "Humans",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/596920/"
+          },
+          {
+            "pmid": "9484415",
+            "title": "Myasthenia gravis and alopecia areata.",
+            "abstract": "",
+            "journal": "Neurology",
+            "year": "1998",
+            "authors": [
+              "Korn-Lubetzki I",
+              "Virozov Y",
+              "Klar A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Comment",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Alopecia Areata",
+              "Cholinesterase Inhibitors",
+              "Female",
+              "Humans",
+              "Myasthenia Gravis",
+              "Prednisone",
+              "Pyridostigmine Bromide",
+              "Thymectomy",
+              "Thymus Gland"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9484415/"
+          },
+          {
+            "pmid": "12444333",
+            "title": "Acute diffuse and total alopecia of the female scalp. A new subtype of diffuse alopecia areata that has a favorable prognosis.",
+            "abstract": "Although alopecia areata (AA) usually starts with focal lesions of hair loss and then presents several different clinical forms, AA may begin as diffuse hair loss. We examined 9 female patients who presented with acute, diffuse and total hair loss of the scalp and took a similar clinical course with a favorable prognosis.",
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2002",
+            "authors": [
+              "Sato-Kawamura Maki",
+              "Aiba Setsuya",
+              "Tagami Hachiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Oral",
+              "Administration, Topical",
+              "Adult",
+              "Alopecia",
+              "Alopecia Areata",
+              "Biopsy, Needle",
+              "Child, Preschool",
+              "Diagnosis, Differential",
+              "Eosinophils"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12444333/"
+          },
+          {
+            "pmid": "1376855",
+            "title": "Simultaneously occurring alopecia areata and Hodgkin's lymphoma: complete remission of both diseases with MOPP/ABV chemotherapy.",
+            "abstract": "A 43-year-old man presented with simultaneously occurring alopecia areata and stage IIIB nodular sclerosing Hodgkin's disease. Systemic symptoms of Hodgkin's disease were present for 6 months, and rapidly developing patchy hair loss of the scalp was present for 2 weeks prior to presentation. The patient was treated with eight cycles of MOPP-ABV chemotherapy that resulted in complete remission of Hodgkin's-disease. Four months after the completion of chemotherapy, the patient had normal hair regrowth with no evidence of alopecia areata. Alopecia areata may be an autoimmune disease and may respond to chemotherapy.",
+            "journal": "Medical and pediatric oncology",
+            "year": "1992",
+            "authors": [
+              "Chan P D",
+              "Berk M A",
+              "Kucuk O",
+              "Singh S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alopecia Areata",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Autoimmune Diseases",
+              "Bleomycin",
+              "Doxorubicin",
+              "Hodgkin Disease",
+              "Humans",
+              "Male",
+              "Mechlorethamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1376855/"
+          },
+          {
+            "pmid": "9732014",
+            "title": "Severe alopecia areata treated with systemic corticosteroids.",
+            "abstract": "Treatment of severe alopecia areata is difficult, and most efforts to successfully treat this condition have been disappointing. Systemic corticosteroids have been demonstrated as an effective treatment of severe alopecia areata.",
+            "journal": "International journal of dermatology",
+            "year": "1998",
+            "authors": [
+              "Alabdulkareem A S",
+              "Abahussein A A",
+              "Okoro A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Alopecia Areata",
+              "Child",
+              "Female",
+              "Glucocorticoids",
+              "Hair",
+              "Humans",
+              "Male",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9732014/"
+          },
+          {
+            "pmid": "13490075",
+            "title": "[Treatment of alopecia areata with synthetic estrogens & prednisone].",
+            "abstract": "",
+            "journal": "Dermatologische Wochenschrift",
+            "year": "1957",
+            "authors": [
+              "FUNK C F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alopecia",
+              "Alopecia Areata",
+              "Diethylstilbestrol",
+              "Estradiol Congeners",
+              "Humans",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13490075/"
+          },
+          {
+            "pmid": "25975385",
+            "title": "Circumscribed cicatricial alopecia due to localized sarcoidal granulomas and single-organ granulomatous arteritis: a case report and systematic review of sarcoidal vasculitis.",
+            "abstract": "Vasculitis associated with sarcoid granulomas is an uncommon phenomenon. A 72-year-old female presented with an expanding region of circumscribed alopecia and scalp atrophy of 2 months duration. Biopsy showed non-caseating granulomas, dermal thinning, loss of follicles, fibrosis and muscular vessels disrupted by mixed lymphocyte, macrophage and giant-cell infiltrates. Affected vessels had loss and fragmentation of the elastic lamina, fibrous replacement of their walls and luminal stenosis (endarteritis obliterans). Dermal and vascular advential intralymphatic granulomas and lymphangiectases were found by D2-40 expression, suggesting lymphatic obstruction and poor antigen clearance. No evidence of a post-zoster eruption, systemic sarcoidosis or systemic giant-cell arteritis was found. Two years later, prednisone had halted - but not reversed - progression of her alopecia. Review of the literature showed two types of vasculitis associated with sarcoid granulomas: (i) acute, self-limited ",
+            "journal": "Journal of cutaneous pathology",
+            "year": "2015",
+            "authors": [
+              "Yazdani Abyaneh Mohammad-Ali",
+              "Raghu Preethi",
+              "Kircher Kenneth",
+              "Kutzner Heinz",
+              "Kortz Alison"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Adult",
+              "Aged",
+              "Alopecia Areata",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antiviral Agents",
+              "Biopsy",
+              "Cytokines",
+              "Female",
+              "Glucocorticoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25975385/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia mucinosa",
+        "txgnn_score": 0.999885082244873,
+        "txgnn_rank": 379,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "12447614",
+            "title": "Alopecia mucinosa: report of a case and review.",
+            "abstract": "Alopecia mucinosa has been shown to be associated with many benign and malignant conditions. It can be seen in childhood but is seen more commonly in adulthood. Alopecia mucinosa is generally felt to occur in three settings: a primary idiopathic form, a form associated with malignancy, and a form secondary to inflammatory conditions. The histologic hallmark is the accumulation of mucin in the follicular epithelium, called follicular mucinosis. Therapy for alopecia mucinosa remains problematic.",
+            "journal": "Journal of cutaneous medicine and surgery",
+            "year": "2003",
+            "authors": [
+              "Anderson Bryan E",
+              "Mackley Christine L",
+              "Helm Klaus F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Glucocorticoids",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Minocycline",
+              "Mucinosis, Follicular",
+              "Prednisone",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12447614/"
+          },
+          {
+            "pmid": "15245540",
+            "title": "Acneiform follicular mucinosis.",
+            "abstract": "Follicular mucinosis is a rare chronic inflammatory disease of unknown aetiology, presenting as mucin deposits around the follicles and sebaceous glands. It can progress to alopecia of the scalp and other hairy areas. Follicular mucinosis may be a benign primary idiopathic disorder or secondary to malignant lymphoproliferative disorders. It can present with shiny papules or sharply marginated infiltrated erythematous scaling plaques, with follicular accentuation on the scalp, neck, trunk and limbs. There are many local and systemic treatments. This paper discusses the case of an adult with an uncommon acneiform follicular mucinosis controlled with systemic corticosteroids.",
+            "journal": "Clinical and experimental dermatology",
+            "year": "2004",
+            "authors": [
+              "Passaro E M C",
+              "Silveira M T",
+              "Valente N Y S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acneiform Eruptions",
+              "Adult",
+              "Facial Dermatoses",
+              "Glucocorticoids",
+              "Humans",
+              "Male",
+              "Mucinosis, Follicular",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15245540/"
+          },
+          {
+            "pmid": "23962142",
+            "title": "Prominent follicular mucinosis with diffuse scalp alopecia resembling alopecia areata.",
+            "abstract": "A 56-year-old Caucasian female presented with a 2-month history of alopecia. On examination, she had diffuse hair loss of her scalp with some discrete patches of nonscarring alopecia. Histopathology revealed an inflammatory nonscarring alopecia with prominent follicular mucinosis and findings suggestive of alopecia areata. The patient's alopecia completely resolved with oral prednisone. The histopathologic findings and clinical presentation are most consistent with a diagnosis of alopecia areata with follicular mucinosis, although the differential diagnosis is broad. As follicular mucinosis may be associated with both benign and malignant conditions, it is important to be cautious regarding the clinical diagnosis when this reaction pattern is observed histopathologically.",
+            "journal": "Journal of cutaneous pathology",
+            "year": "2013",
+            "authors": [
+              "Missall Tricia A",
+              "Hurley M Yadira",
+              "Burkemper Nicole M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alopecia Areata",
+              "Anti-Inflammatory Agents",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Mucinosis, Follicular",
+              "Prednisone",
+              "Scalp"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23962142/"
+          },
+          {
+            "pmid": "4235314",
+            "title": "[Follicular mucinosis].",
+            "abstract": "",
+            "journal": "Dermatologische Wochenschrift",
+            "year": "1968",
+            "authors": [
+              "Rosner J",
+              "Kisielewska W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alopecia",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Mucinosis, Follicular",
+              "Prednisone",
+              "Skin",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4235314/"
+          },
+          {
+            "pmid": "10434108",
+            "title": "[CD30 positive pilotropic lymphoma].",
+            "abstract": "We report an unusual case of cutaneous CD30-positive lymphoma with pilar tropism and circulating Sezary cells which had a rapidly fatal course.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "1999",
+            "authors": [
+              "Trémeau-Martinage C",
+              "Gorguet B",
+              "Lamant L",
+              "Brousset P",
+              "Loche F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Biopsy",
+              "Fatal Outcome",
+              "Hair Follicle",
+              "Humans",
+              "Ki-1 Antigen",
+              "Male",
+              "Sezary Syndrome",
+              "Skin",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10434108/"
+          },
+          {
+            "pmid": "33617128",
+            "title": "Eosinophilic folliculitis, eosinophilic dermatosis of hematologic malignancy and acneiform follicular mucinosis: Two case reports and a review of the literature highlighting the spectrum of histopathology.",
+            "abstract": "Within the literature, there is overlap in the histopathological features described in eosinophilic folliculitis associated with chronic lymphocytic leukemia (CLL), eosinophilic dermatosis of hematologic malignancy, and acneiform follicular mucinosis. These disorders are described with varying degrees of superficial and deep lymphocytic and eosinophilic inflammation demonstrating perivascular, perifollicular, and folliculocentric involvement with or without follicular mucin deposition. Given significant histopathological overlap, these diagnoses may represent a continuum on a spectrum of dermatoses. Here, we present two cases with histopathological elements that reflect components of this clinicopathological spectrum and compare our findings with previously reported cases to compare and contrast reported features. Our first case is a 71-year-old African American man with long-standing CLL who developed a pruritic erythematous papular eruption on the face and chest with biopsy revealing",
+            "journal": "Journal of cutaneous pathology",
+            "year": "2021",
+            "authors": [
+              "Bailey Cedric A R",
+              "Laurain Douglas A",
+              "Sheinbein David M",
+              "Jones Heather A",
+              "Compton Leigh A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acneiform Eruptions",
+              "Administration, Topical",
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Inflammatory Agents",
+              "Biopsy",
+              "Diagnosis, Differential",
+              "Eosinophilia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33617128/"
+          },
+          {
+            "pmid": "22838088",
+            "title": "Reactive benign follicular mucinosis: a report of 2 cases.",
+            "abstract": "We report 2 cases of adolescents who developed follicular mucinosis following cutaneous infections. A 17-year-old adolescent boy was evaluated for a 2-week history of erythematous papules and plaques on his face and neck. One month prior to presentation a culture was taken that was positive for methicillin-sensitive Staphylococcus aureus-associated impetigo. Biopsies from 2 representative lesions demonstrated follicular mucinosis without evidence of folliculotropism or T cell gene rearrangements. A separate case involved a 17-year-old adolescent girl who presented with an edematous plaque on her right preauricular region and scattered erythematous papules and small annular plaques over her face 2 weeks following a herpes simplex virus type 2 (HHV-2) infection. on her face. Biopsy showed follicular mucinosis without evidence of epidermotropism or lymphocyte atypia. There was no herpesvirus cytopathic effect. The first case rapidly responded to an oral prednisone taper and the second cas",
+            "journal": "Cutis",
+            "year": "2012",
+            "authors": [
+              "Blakey Brittony L",
+              "Gratrix Max L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Biopsy",
+              "Female",
+              "Herpes Simplex",
+              "Herpesvirus 2, Human",
+              "Humans",
+              "Impetigo",
+              "Male",
+              "Microbial Sensitivity Tests",
+              "Mucinosis, Follicular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22838088/"
+          },
+          {
+            "pmid": "4226652",
+            "title": "[A clinical contribution on idiopathic follicular mucinosis (alopecia mucinosa H. Pinkus)].",
+            "abstract": "",
+            "journal": "Zeitschrift fur Haut- und Geschlechtskrankheiten",
+            "year": "1967",
+            "authors": [
+              "Pambor M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Alopecia",
+              "Climate",
+              "Humans",
+              "Hyaluronoglucosaminidase",
+              "Male",
+              "Mucinosis, Follicular",
+              "Penicillins",
+              "Prednisone",
+              "Sebaceous Glands"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4226652/"
+          },
+          {
+            "pmid": "4791680",
+            "title": "[Case of follicular mucinosis].",
+            "abstract": "",
+            "journal": "Przeglad dermatologiczny",
+            "year": "1973",
+            "authors": [
+              "Raszeja-Kotelba B",
+              "Janicka D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Humans",
+              "Male",
+              "Prednisone",
+              "Scalp Dermatoses",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4791680/"
+          },
+          {
+            "pmid": "408988",
+            "title": "[Follicular mucinosis with generalized para-amyloidosis as a cutaneous paraneoplastic syndrome in myeloma (IgD and light chain plasmacytoma). A demonstration of the course using melphalan-prednisone therapy with a 3 years remission].",
+            "abstract": "",
+            "journal": "Zeitschrift fur Hautkrankheiten",
+            "year": "1977",
+            "authors": [
+              "Jänner M",
+              "Lippert H D",
+              "Stolzenbach G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amyloidosis",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Immunoglobulin D",
+              "Immunoglobulin Light Chains",
+              "Male",
+              "Melphalan",
+              "Multiple Myeloma",
+              "Nails",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/408988/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "telogen effluvium",
+        "txgnn_score": 0.9998824596405028,
+        "txgnn_rank": 390,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "12444333",
+            "title": "Acute diffuse and total alopecia of the female scalp. A new subtype of diffuse alopecia areata that has a favorable prognosis.",
+            "abstract": "Although alopecia areata (AA) usually starts with focal lesions of hair loss and then presents several different clinical forms, AA may begin as diffuse hair loss. We examined 9 female patients who presented with acute, diffuse and total hair loss of the scalp and took a similar clinical course with a favorable prognosis.",
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2002",
+            "authors": [
+              "Sato-Kawamura Maki",
+              "Aiba Setsuya",
+              "Tagami Hachiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Oral",
+              "Administration, Topical",
+              "Adult",
+              "Alopecia",
+              "Alopecia Areata",
+              "Biopsy, Needle",
+              "Child, Preschool",
+              "Diagnosis, Differential",
+              "Eosinophils"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12444333/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Quinquaud's folliculitis decalvans",
+        "txgnn_score": 0.9998764991760254,
+        "txgnn_rank": 408,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "7756498",
+            "title": "Folliculitis decalvans and human T cell lymphotropic virus type I-associated myelopathy/tropical spastic paraparesis.",
+            "abstract": "Human T-cell lymphotropic virus type I (HTLV-I) can be associated with either adult T-cell leukemia or HTLV-I-associated myelopathy/tropical spastic paraparesis (HAM/TSP), a chronic progressive immune-mediated myelopathy. Skin manifestations such as xerosis and erythema may be associated with HAM/TSP. Infective dermatitis due to Staphylococcus aureus or beta-hemolytic Streptococcus has recently been described as a marker for HTLV-I infection and as a probable risk factor for the development of adult T-cell leukemia and lymphoma in Jamaican children. We report a case of folliculitis decalvans, a rare chronic follicular inflammatory process of bacterial origin that is extremely resistant to treatment, in a patient with HAM/TSP. This case suggests the possibility that the disturbance of the immune system that was observed in patients with HAM/TSP can play a role in the persistence of this severe skin lesion. In addition, the findings of our case cast doubt on the hypothesis that the cause",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1995",
+            "authors": [
+              "Araújo A Q",
+              "Andrada-Serpa M J",
+              "Paulo-Filho T A",
+              "Rodrigues M T",
+              "Prado L A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Base Sequence",
+              "DNA Probes",
+              "Folliculitis",
+              "Humans",
+              "Male",
+              "Molecular Sequence Data",
+              "Paraparesis, Tropical Spastic",
+              "Prednisone",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7756498/"
+          },
+          {
+            "pmid": "15024194",
+            "title": "Adult onset folliculocentric langerhans cell histiocytosis confined to the scalp.",
+            "abstract": "Langerhans cell histiocytosis (LCH) is a pleomorphic disease entity characterized by local or disseminated atypical Langerhans cells found most commonly in bone, lungs, mucocutaneous structures, and endocrine organs. Cutaneous disease occurs in approximately one quarter of all cases. Cutaneous findings include soft-tissue swelling, eczematous changes, a seborrheic dermatitis-like appearance, and ulceration. We report a rare case of LCH confined to the scalp with folliculocentric infiltrates. This 32-year-old male patient presented with follicularly based erythema, scale, and pustules unresponsive to topicals and oral antibiotics. The patient's lesions mimicked lichen planopilaris and folliculitis decalvans during the disease process. On hematoxylin and eosin stain, scalp biopsy showed a perivascular interstitial patchy lichenoid mononuclear cell infiltrate that focally abutted follicular infundibula. Prominent mononuclear cells having reniform nuclei were present, and immunoperoxidase ",
+            "journal": "The American Journal of dermatopathology",
+            "year": "2004",
+            "authors": [
+              "Hancox John G",
+              "James Asha Pardasani",
+              "Madden Christopher",
+              "Wallace Christopher A",
+              "McMichael Amy J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antigens, CD1",
+              "Diagnosis, Differential",
+              "Folliculitis",
+              "Histiocytosis, Langerhans-Cell",
+              "Humans",
+              "Immunoenzyme Techniques",
+              "Lichen Planus",
+              "Male",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15024194/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia antibody deficiency",
+        "txgnn_score": 0.9998666048049928,
+        "txgnn_rank": 457,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10671997",
+            "title": "Systemic lupus erythematosus presenting with haemorrhagic manifestation.",
+            "abstract": "A 26-year-old female presented with an episode of severe mucus membrane bleeding. Investigations revealed prolonged prothrombin time (PT), and partial thromboplastin time (PTT), normal thrombin time (TT) and reptilase time, thrombocytopenia, a positive test for lupus anticoagulant (LA), as well as anti-cardiolipin antibodies (ACL). A toxicology screen for toxic drugs and coumadin was negative. Coagulation factor assays revealed low levels for factor II and XII. Low level inhibitor to factor II was demonstrated. Patient had a negative VDRL test and positive anti-nuclear antibodies (ANA). The diagnosis of acquired hypoprothrombinaemia secondary to circulating inhibitor induced by LA was made, and then the patient was started on prednisone, which led to cessation of the bleeding and normalization of PT and PTT, as well as an increase of factor II and factor XII levels. A few months later, the patient developed arthralgia and alopecia, and antibodies against double-stranded DNA were detect",
+            "journal": "Clinical and laboratory haematology",
+            "year": "1999",
+            "authors": [
+              "Ayoub O",
+              "Aljurf M",
+              "Al Nounou R",
+              "Chaudhri N A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blood Coagulation",
+              "Female",
+              "Hemorrhage",
+              "Humans",
+              "Lupus Erythematosus, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10671997/"
+          },
+          {
+            "pmid": "40546739",
+            "title": "Autoimmune Polyglandular Syndrome Type 2 Presentation with Alopecia Universalis, Hashimoto's Disease, and Addison's Disease.",
+            "abstract": "Autoimmune polyglandular syndrome type 2 (APS2) is characterized by the coexistence of primary adrenal insufficiency with autoimmune thyroid disease and/or type 1 diabetes. APS2 frequently includes conditions affecting non-endocrine organs, such as alopecia, vitiligo, celiac disease, and autoimmune gastritis associated with vitamin B12 deficiency. We report the case of a 30-year-old male with a history of Hashimoto's disease and alopecia universalis, who presented with diarrhea, anorexia, hypoglycemia, and abdominal pain. Physical examination revealed orthostatic hypotension, a non-tender abdomen, and generalized hair loss. Initial laboratory workup showed hyponatremia and hyperkalemia. Further testing, including serum cortisol, ACTH, aldosterone, and 21-hydroxylase antibodies, confirmed the diagnosis of Addison's disease. The patient was treated with prednisone and fludrocortisone. Only two previous cases of APS2 associated with alopecia universalis have been reported: one with concur",
+            "journal": "International medical case reports journal",
+            "year": "2025",
+            "authors": [
+              "Sales-Morales Karla Denisse",
+              "Torres-Neme Nazhira",
+              "Barrera-Villanueva Vladimir",
+              "Martínez-Carreón Alejandro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40546739/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+        "txgnn_score": 0.9998586177825928,
+        "txgnn_rank": 484,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+        "txgnn_score": 0.999852180480957,
+        "txgnn_rank": 504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrichia with papular lesions",
+        "txgnn_score": 0.999492645263672,
+        "txgnn_rank": 1164,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tenosynovitis",
+        "txgnn_score": 0.9979650974273682,
+        "txgnn_rank": 3450,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06037811",
+            "title": "Early Adalimumab Induction for Treatment of Steroid Dependent Immune Checkpoint Inhibitor Associated Inflammatory Arthritis: A Pragmatic Randomized Clinical Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-04-15",
+            "completion_date": "2028-12",
+            "country": "Canada",
+            "enrollment": 30,
+            "brief_summary": "This study will examine the effectiveness of administering adalimumab as a treatment for patients in the early stages of steroid-dependent immune checkpoint Inhibitor associated inflammatory arthritis (ir-IA). Adalimumab (ADA) is a TNF inhibitor (TNFi) that is well established as a standard of care treatment for numerous types of inflammatory arthritis. It is hoped that adalimumab at the early stages of the ir-IA will reduce the symptoms and therefore reduce the need for steroids. This study is ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • Patients are deemed eligible for study participation if they meet all the following:\n\n  * Adult patients (age 18 or older)\n  * New (within the last 6 months prior to enrollment) inflammatory arthritis defined by any of the following at the time of screening (either on physic",
+            "endpoints": [
+              "percentage of participants on prednisone",
+              "Cumulative prednisone dose"
+            ],
+            "sponsor": "London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's",
+            "url": "https://clinicaltrials.gov/study/NCT06037811"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01169597",
+            "title": "Short Term Study on the Effect of a Fixed Dose of 12.5 mg of Prednisone as Starting Dose in Polymyalgia Rheumatica",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2009-01",
+            "completion_date": "2010-05",
+            "country": "Italy",
+            "enrollment": 60,
+            "brief_summary": "Polymyalgia rheumatica (PMR) is a common inflammatory condition affecting elderly people and involving the girdles. The mainstay of treatment is oral glucocorticoids (GC), with the recent BSR-BHPR guidelines suggesting an initial prednisone dose comprised between 15 and 20 mg as appropriate. However, probably because of the dramatic response of PMR to GC, randomized controlled trials of treatment are lacking. As a result, there is no evidence from controlled studies on the efficacy of different ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients with PMR, diagnosed according to the criteria of Bird et al\n\nExclusion Criteria:\n\n* patients with arthritis\n* patients with giant cell arteritis\n* patients with Parkinson's disease\n* patients with hypothyroidism\n* patients with scapulohumeral periarthritis\n* patients ",
+            "endpoints": [
+              "clinical remission within one month from the treatment initiation"
+            ],
+            "sponsor": "University of Genova",
+            "url": "https://clinicaltrials.gov/study/NCT01169597"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03632187",
+            "title": "To Demonstrate the Ability of Abatacept in Comparison to Placebo to Obtain a Low Disease Activity [PMR-AS (CRP) Lower or Equal to 10] Without GCs (Prednisone or Prednisolone) at Week 12 in Early Onset PMR Patients.",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2018-12-13",
+            "completion_date": "2022-07-21",
+            "country": "France",
+            "enrollment": 34,
+            "brief_summary": "Polymyalgia rheumatic (PMR) is a frequent inflammatory disease. It affects the elderly, with peak incidences at the age of 70 to 80 years; an age \\>50 years or older, is considered a criterion for the diagnosis. Polymyalgia rheumatica occurs at a frequency that is 3 to 10 times that of giant-cell arteritis. Disease risk varies according to race and geographic region. The incidence is highest among whites in northern European populations (about 20 cases per 100,000 persons older than 50 years of ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age older than 50 years\n* Fulfilling ACR/EULAR criteria\n* Disease duration≤6 months\n* No steroid since 2 weeks prior randomization\n* PMR-AS≥ 17\n* Absence of signs or symptoms of other musculoskeletal or connective tissue conditions\n* Able to give informed consent\n* Concomitant",
+            "endpoints": [
+              "Following of one biological parameter (CRP)"
+            ],
+            "sponsor": "University Hospital, Brest",
+            "url": "https://clinicaltrials.gov/study/NCT03632187"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02429934",
+            "title": "Efficacy of Abatacept in Inflammatory Polyarthritis of Systemic Lupus Erythematosus (SLE)",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2015-10",
+            "completion_date": "2019-09-01",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "This research trial is for patients who have been diagnosed with systemic lupus erythematosus (SLE) with swollen, tender joints (which is called inflammatory polyarthritis) because of the SLE.\n\nThe purpose of this clinical research study is to evaluate the safety and effectiveness of treatment with abatacept (Abatacept) 125mg injected subcutaneously (under the skin) weekly for 16 weeks versus placebo injections(a substance with no active ingredients and therefore may have no treatment benefit) i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Meet at least 4 of the 11 American College of Rheumatology (ACR) 1997 criteria for classification of SLE (see Appendix 1).OR meet the recent classification recommended by SLICC (Appendix 2) 6\n2. ≥3 swollen and tender joints on 2 examinations at least 2 weeks apart and no more",
+            "endpoints": [
+              "Number of Participants With at Least a 20% Improvement From Baseline in Tender and Swollen 28 Joint Count"
+            ],
+            "sponsor": "University of California, Los Angeles",
+            "url": "https://clinicaltrials.gov/study/NCT02429934"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29197854",
+            "title": "Nivolumab-induced polyarthritis.",
+            "abstract": "",
+            "journal": "BMJ case reports",
+            "year": "2017",
+            "authors": [
+              "Kodama Shoko",
+              "Kurose Koji",
+              "Mukai Tomoyuki",
+              "Morita Yoshitaka"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Bursitis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female",
+              "Humans",
+              "Lymphatic Metastasis",
+              "Middle Aged",
+              "Nivolumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29197854/"
+          },
+          {
+            "pmid": "4573028",
+            "title": "Rheumatoid arthritis.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1973",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antigen-Antibody Reactions",
+              "Arthritis, Juvenile",
+              "Arthritis, Rheumatoid",
+              "Aspirin",
+              "Biopsy",
+              "Chloroquine",
+              "Gold",
+              "Humans",
+              "Hydroxychloroquine",
+              "Immunoglobulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4573028/"
+          },
+          {
+            "pmid": "31243239",
+            "title": "Tenosynovitis Induced by an Immune Checkpoint Inhibitor: A Case Report and Literature Review.",
+            "abstract": "A 51-year-old man underwent second-line treatment for non-small-cell lung cancer (NSCLC) with the immune checkpoint inhibitor (ICI) pembrolizumab. On day 2 after two cycles of pembrolizumab, he presented with edema limited to the left third, fourth, and fifth fingers. Based on symptoms, laboratory results, and contrast-enhanced magnetic resonance imaging (MRI) findings, we diagnosed him with tenosynovitis. We prescribed oral prednisolone (0.5 mg/kg/day), and pembrolizumab was continued. Prednisolone immediately relieved the symptoms, and the tumor was still shrinking on day 21 after eight cycles of pembrolizumab. ICI-induced tenosynovitis was managed while continuing ICI usage, suggesting that 0.5 mg/kg/day prednisone might be effective for tenosynovitis without ICI cessation.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2019",
+            "authors": [
+              "Murakami Shoko",
+              "Nagano Tatsuya",
+              "Nakata Kyosuke",
+              "Onishi Akira",
+              "Umezawa Kanoko"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Fingers",
+              "Glucocorticoids",
+              "Humans",
+              "Lung Neoplasms",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31243239/"
+          },
+          {
+            "pmid": "29125905",
+            "title": "Arthritis After Cancer Immunotherapy: Symptom Duration and Treatment Response.",
+            "abstract": "Musculoskeletal manifestations of immune-related adverse events (irAEs) after checkpoint inhibitor immunotherapy for cancer remain incompletely characterized and poorly understood. A recently published case series suggested that immunotherapy-induced arthritis is an aggressive process requiring high-dose corticosteroids.",
+            "journal": "Arthritis care & research",
+            "year": "2019",
+            "authors": [
+              "Smith Melanie H",
+              "Bass Anne R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents, Immunological",
+              "Arthritis",
+              "Female",
+              "Humans",
+              "Immunotherapy",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29125905/"
+          },
+          {
+            "pmid": "9636949",
+            "title": "Rheumatoid arthritis in Congo-Brazzaville. A study of thirty-six cases.",
+            "abstract": "To define the epidemiology, clinical features and outcomes of rheumatoid arthritis in a hospital-based population in Congo-Brazzaville.",
+            "journal": "Revue du rhumatisme (English ed.)",
+            "year": "1998",
+            "authors": [
+              "Bileckot R",
+              "Malonga A C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Distribution",
+              "Age of Onset",
+              "Aged",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis, Rheumatoid",
+              "Congo",
+              "Developing Countries",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9636949/"
+          },
+          {
+            "pmid": "4712221",
+            "title": "Relapsing polychondritis.",
+            "abstract": "",
+            "journal": "The British journal of dermatology",
+            "year": "1973",
+            "authors": [
+              "Rowell N R",
+              "Cotterill J A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Blood Cells",
+              "Cartilage",
+              "Ear Deformities, Acquired",
+              "Erythema",
+              "Fever",
+              "Hematocrit",
+              "Humans",
+              "Inflammation",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4712221/"
+          },
+          {
+            "pmid": "33135853",
+            "title": "Musculoskeletal immune-related adverse events with the use of checkpoint inhibitors in malignancy.",
+            "abstract": "Immunotherapy has revolutionised the treatment of many malignancies. Along with their success, there have been inflammatory and immune-related adverse events (irAE). There is a paucity of literature describing the Australian experience of rheumatic irAE.",
+            "journal": "Internal medicine journal",
+            "year": "2022",
+            "authors": [
+              "Dey Abhishikta",
+              "Manolios Nicholas",
+              "Long Georgina V",
+              "Carlino Matteo S",
+              "Kefford Richard"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Australia",
+              "Humans",
+              "Immunologic Factors",
+              "Immunotherapy",
+              "Neoplasms",
+              "Retrospective Studies",
+              "Rheumatic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33135853/"
+          },
+          {
+            "pmid": "19808693",
+            "title": "Longitudinal examination with shoulder ultrasound of patients with polymyalgia rheumatica.",
+            "abstract": "To determine if ultrasonography (US) and power Doppler (PD) may be useful in identifying polymyalgia rheumatica (PMR) patients with relapsing disease.",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2009",
+            "authors": [
+              "Macchioni PierLuigi",
+              "Catanoso Maria Grazia",
+              "Pipitone Nicolò",
+              "Boiardi Luigi",
+              "Salvarani Carlo"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Glucocorticoids",
+              "Humans",
+              "Longitudinal Studies",
+              "Male",
+              "Polymyalgia Rheumatica",
+              "Prednisone",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19808693/"
+          },
+          {
+            "pmid": "33294628",
+            "title": "Fatal disseminated Mycobacterium haemophilum infection involving the central nervous system in a renal transplant recipient.",
+            "abstract": "Mycobacterium haemophilum is a slow growing nontuberculous mycobacterium which prefers cooler temperatures and requires iron for growth. It usually causes skin and soft tissue infections in immunocompromised hosts and cervical lymphadenitis in healthy children. We present the case of fatal disseminated M. haemophilum in an immunocompromised host with central nervous system (CNS) involvement. Our case is a 65-year-old Hispanic male with history of end-stage renal disease status post renal transplantation six years prior (on maintenance immunosuppression with mycophenolate, tacrolimus and prednisone), diabetes mellitus type 2, coronary artery disease, ventricular arrhythmias with implantable cardioverter defibrillator, prior stroke and cochlear implant. In the four months preceding admission to our institution he had frequent hospitalizations for altered mental status (AMS), sepsis syndromes and failure to thrive. Two months prior to presentation he developed progressive swelling and red",
+            "journal": "Journal of clinical tuberculosis and other mycobacterial diseases",
+            "year": "2020",
+            "authors": [
+              "Pacholec Marie",
+              "Sami Farhad",
+              "Newell Kathy",
+              "El Atrouni Wissam"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33294628/"
+          },
+          {
+            "pmid": "8221258",
+            "title": "Nodules, eosinophilia, rheumatism, dermatitis and swelling (NERDS): a novel eosinophilic disorder.",
+            "abstract": "This study presents the clinical and laboratory findings of a novel syndrome associated with eosinophilia. Two young women presented with marked eosinophilia, and large, non-tender compressible articular nodules arising from the tenosynovium of extensor tendons, dermatitis, episodic swelling of the hands and/or feet and pain in adjacent muscles and joints. Tissue specimens were examined by routine haematoxylin and eosin staining, immunofluorescent staining for eosinophil granule major basic protein (MBP) and rhodamine-avidin or tryptase staining for mast cells. Plasma levels of MBP and eosinophil-derived neurotoxin (EDN) were quantitated by immunoassay. The first patient presented in 1967 at the age of 20 and had, in addition to nodules and eosinophilia, dermographism, recurrent episcleritis and axillary urticaria. Biopsy of a nodule showed tenosynovitis with necrotizing granulomas, non-specific vasculitis, eosinophils and eosinophil degranulation as shown by extracellular deposition o",
+            "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+            "year": "1993",
+            "authors": [
+              "Butterfield J H",
+              "Leiferman K M",
+              "Gleich G J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dermatitis",
+              "Edema",
+              "Eosinophilia",
+              "Eosinophils",
+              "Female",
+              "Humans",
+              "Leukocyte Count",
+              "Prognosis",
+              "Rheumatic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8221258/"
+          },
+          {
+            "pmid": "40018493",
+            "title": "Flexor Tenosynovitis as the Sole Initial Presentation of Anti-synthetase Syndrome: A Case Report.",
+            "abstract": "Anti-synthetase syndrome (ASS) is a rare autoimmune disorder characterized by interstitial lung disease (ILD), myositis, and arthritis, primarily associated with antibodies, such as anti-Jo-1, that target the t-ribonucleic acid (tRNA) synthetase enzymes. This case report describes a 45-year-old man who presented with isolated flexor tenosynovitis and bilateral hand pain, later diagnosed with anti-Jo-1 positive ASS. Initially, the patient's symptoms were attributed to a trivial injury, but subsequent imaging and laboratory evaluations revealed tenosynovitis without signs of inflammatory arthritis. Positive anti-Jo-1 antibodies and later elevated creatine kinase (CK) levels indicated the development of myositis, supported by magnetic resonance imaging (MRI) findings and muscle biopsies showing mild inflammatory features. The patient was treated with prednisone and mycophenolate mofetil, resulting in significant clinical improvement and resolution of symptoms. This case highlights an atyp",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Kann Taylor",
+              "Purohit Richa",
+              "Aziz Mariana",
+              "Rivera-Zengotita Marie",
+              "Farooq Maria"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40018493/"
+          },
+          {
+            "pmid": "14719221",
+            "title": "Intractable pain in a rheumatoid wrist.",
+            "abstract": "",
+            "journal": "The Journal of rheumatology",
+            "year": "2003",
+            "authors": [
+              "Guarnieri Mario V",
+              "Rosenberg Laercio",
+              "Scheinberg Morton A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Infliximab",
+              "Magnetic Resonance Imaging",
+              "Methotrexate",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14719221/"
+          },
+          {
+            "pmid": "19202958",
+            "title": "Dactylitis and bone lesions at the onset of sarcoidosis: a case report.",
+            "abstract": "Dactylitis and bone lesions are rare complications of sarcoidosis that occur in the chronic disease and they are unusual features of the disease at presentation. The present paper describes a case of a 28-year-old woman with dactylitis (due to tenosynovitis and soft tissue granulomas) and phalangeal bone lesions in 2 fingers at the onset of sarcoidosis. She also had asymptomatic pulmonary type I sarcoidosis (bihilar lymph node enlargement with no involvement of the lung parenchyma). The response to treatment (prednisone 30 mg/day, tapered to 5 mg over 2 months for a 12-month period) was very good, with no relapse at 6 months after the end of systemic treatment.",
+            "journal": "Polskie Archiwum Medycyny Wewnetrznej",
+            "year": "2008",
+            "authors": [
+              "Fodor Daniela",
+              "Poanta Laura",
+              "Rogojan Liliana"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Finger Joint",
+              "Fingers",
+              "Glucocorticoids",
+              "Granuloma",
+              "Humans",
+              "Prednisone",
+              "Radiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19202958/"
+          },
+          {
+            "pmid": "15573880",
+            "title": "[Spontaneous rupture of extensor pollicis longus in systemic lupus erythematosus].",
+            "abstract": "We report a case of spontaneous rupture of extensor pollicis longus of the left hand. This 63 year-old woman was treated with oral corticosteroids for 23 years because of systemic lupus erythematosus. Her hands had no deformity. This rupture was spontaneous and caused pain for 15 days. The treatment was surgical and consisted of an extensor indicis proprius transposition. There was no macroscopic tenosynovitis. The follow-up of one year showed a good result. Less than 40 spontaneous ruptures in systemic lupus erythematosus have been described in the literature; only seven cases were ruptures of hand tendons and only extensors. As far as we know, the spontaneous rupture of extensor pollicis longus has never been described in systemic lupus erythematosus. The role of corticosteroids is discussed.",
+            "journal": "Chirurgie de la main",
+            "year": "2004",
+            "authors": [
+              "Apard T",
+              "Moui Y"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Glucocorticoids",
+              "Humans",
+              "Lupus Erythematosus, Systemic",
+              "Middle Aged",
+              "Prednisone",
+              "Rupture, Spontaneous",
+              "Tendon Injuries",
+              "Tendon Transfer"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15573880/"
+          },
+          {
+            "pmid": "27980012",
+            "title": "Baseline Shoulder Ultrasonography Is Not a Predictive Marker of Response to Glucocorticoids in Patients with Polymyalgia Rheumatica: A 12-month Followup Study.",
+            "abstract": "In this study, we evaluated whether ultrasound (US) subdeltoid bursitis (SB) and/or biceps tenosynovitis (BT) presence at baseline could represent a predictive marker of response to standard therapy after 12 months of followup, and whether a positive US examination could highlight the need of higher maintenance dosage of glucocorticoids (GC) at 6 and 12 months in patients with polymyalgia rheumatica (PMR).",
+            "journal": "The Journal of rheumatology",
+            "year": "2017",
+            "authors": [
+              "Miceli Maria Concetta",
+              "Zoli Angelo",
+              "Peluso Giusy",
+              "Bosello Silvia",
+              "Gremese Elisa"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Follow-Up Studies",
+              "Glucocorticoids",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Polymyalgia Rheumatica",
+              "Predictive Value of Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27980012/"
+          },
+          {
+            "pmid": "33827439",
+            "title": "Chorea as the presenting feature of acute rheumatic fever in childhood; case reports from a low-prevalence European setting.",
+            "abstract": "Despite a notable decrease in acute rheumatic fever (ARF) incidence in the past few decades, there are still cases in our setting. Sydenham chorea (SC) may be the initial manifestation for this condition in childhood in a significant proportion of children. We report two cases of choreoathetosis in children as the first manifestation of ARF.",
+            "journal": "BMC infectious diseases",
+            "year": "2021",
+            "authors": [
+              "Illán Ramos Marta",
+              "Sagastizabal Cardelús Belén",
+              "García Ron Adrián",
+              "Guillén Martín Sara",
+              "Berzosa Sánchez Arantxa"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Blood Sedimentation",
+              "Child",
+              "Chorea",
+              "Echocardiography",
+              "Erythema",
+              "Europe",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33827439/"
+          },
+          {
+            "pmid": "19773289",
+            "title": "Ultrasonographic monitoring of response to therapy in polymyalgia rheumatica.",
+            "abstract": "To assess the responsiveness of ultrasound (US) inflammatory findings in the shoulder and hip of patients with polymyalgia rheumatica (PMR) who started treatment with corticosteroids.",
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2010",
+            "authors": [
+              "Jiménez-Palop M",
+              "Naredo E",
+              "Humbrado L",
+              "Medina J",
+              "Uson J"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Bursitis",
+              "Drug Monitoring",
+              "Female",
+              "Follow-Up Studies",
+              "Glucocorticoids",
+              "Hip Joint",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19773289/"
+          },
+          {
+            "pmid": "17105518",
+            "title": "Gout, have we met before? No, not like this..",
+            "abstract": "Extra-articular symptoms could be the first manifestation of gouty arthritis (GA); polyarticular GA can mimic an infectious arthritis; infection can complicate GA.",
+            "journal": "Journal of general internal medicine",
+            "year": "2006",
+            "authors": [
+              "Mirzoyev Sultan",
+              "Anavekar Nandan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Arthritis, Gouty",
+              "Arthritis, Infectious",
+              "Diagnosis, Differential",
+              "Humans",
+              "Injections, Intra-Articular",
+              "Knee Joint",
+              "Leg"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17105518/"
+          },
+          {
+            "pmid": "9663479",
+            "title": "Distal musculoskeletal manifestations in polymyalgia rheumatica: a prospective followup study.",
+            "abstract": "To determine the frequency and the characteristics of distal musculoskeletal manifestations in polymyalgia rheumatica (PMR).",
+            "journal": "Arthritis and rheumatism",
+            "year": "1998",
+            "authors": [
+              "Salvarani C",
+              "Cantini F",
+              "Macchioni P",
+              "Olivieri I",
+              "Niccoli L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Arthritis",
+              "Carpal Tunnel Syndrome",
+              "Edema",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Polymyalgia Rheumatica"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9663479/"
+          },
+          {
+            "pmid": "33404658",
+            "title": "Imbalanced MMP-3 and MMP-12 serum levels in systemic lupus erythematosus patients with Jaccoud's arthropathy and a distinctive MRI pattern.",
+            "abstract": "Metalloproteinase (MMP)-3 and MMP-12 are proteolytic enzymes especially implicated in joint inflammation. This study aims to evaluate their association with arthritis features and hand MRI abnormalities in patients with SLE.",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2021",
+            "authors": [
+              "Piga Matteo",
+              "Congia Mattia",
+              "Balestrieri Antonella",
+              "Angioni Maria Maddalena",
+              "Cangemi Ignazio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Arthritis, Rheumatoid",
+              "Female",
+              "Hand Joints",
+              "Humans",
+              "Lupus Erythematosus, Systemic",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Matrix Metalloproteinase 12"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33404658/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prolapse of lacrimal gland",
+        "txgnn_score": 0.99664306640625,
+        "txgnn_rank": 4972,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00635",
+    "name": "Prednisone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Prednisone"
+      },
+      "queried_at": "2026-03-09T09:31:25.178370",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Prednisone"
+      },
+      "queried_at": "2026-03-09T09:31:26.145593",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia areata"
+      },
+      "queried_at": "2026-03-09T09:31:31.019817",
+      "status": "success",
+      "result_count": 32,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia areata"
+      },
+      "queried_at": "2026-03-09T09:31:34.664194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia areata"
+      },
+      "queried_at": "2026-03-09T09:31:36.945005",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia mucinosa"
+      },
+      "queried_at": "2026-03-09T09:31:37.536579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia mucinosa"
+      },
+      "queried_at": "2026-03-09T09:31:41.734706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia mucinosa"
+      },
+      "queried_at": "2026-03-09T09:31:43.721519",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "telogen effluvium"
+      },
+      "queried_at": "2026-03-09T09:31:44.227457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "telogen effluvium"
+      },
+      "queried_at": "2026-03-09T09:31:47.616891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "telogen effluvium"
+      },
+      "queried_at": "2026-03-09T09:31:49.348944",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "queried_at": "2026-03-09T09:31:50.011506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "queried_at": "2026-03-09T09:31:54.413386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "queried_at": "2026-03-09T09:31:56.514895",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia antibody deficiency"
+      },
+      "queried_at": "2026-03-09T09:31:57.433191",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia antibody deficiency"
+      },
+      "queried_at": "2026-03-09T09:32:01.067115",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia antibody deficiency"
+      },
+      "queried_at": "2026-03-09T09:32:04.292147",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "queried_at": "2026-03-09T09:32:05.381123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "queried_at": "2026-03-09T09:32:08.987602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "queried_at": "2026-03-09T09:32:09.808506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "queried_at": "2026-03-09T09:32:10.332291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "queried_at": "2026-03-09T09:32:13.612375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "queried_at": "2026-03-09T09:32:14.269249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "atrichia with papular lesions"
+      },
+      "queried_at": "2026-03-09T09:32:14.764756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "atrichia with papular lesions"
+      },
+      "queried_at": "2026-03-09T09:32:18.108232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "atrichia with papular lesions"
+      },
+      "queried_at": "2026-03-09T09:32:19.009281",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "tenosynovitis"
+      },
+      "queried_at": "2026-03-09T09:32:19.539896",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "tenosynovitis"
+      },
+      "queried_at": "2026-03-09T09:32:22.658743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "tenosynovitis"
+      },
+      "queried_at": "2026-03-09T09:32:24.981356",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "queried_at": "2026-03-09T09:32:25.774969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "queried_at": "2026-03-09T09:32:30.908016",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Prednisone",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "queried_at": "2026-03-09T09:32:31.632224",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:32:31.638639"
+  }
+}

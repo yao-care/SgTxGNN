@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Chromic chloride",
+    "drugbank_id": "DB09129",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.957024872303009,
+        "txgnn_rank": 24965,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.953220009803772,
+        "txgnn_rank": 25898,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.9371830224990844,
+        "txgnn_rank": 29303,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "filariasis",
+        "txgnn_score": 0.914653182029724,
+        "txgnn_rank": 33157,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9073452353477478,
+        "txgnn_rank": 34032,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9071699976921082,
+        "txgnn_rank": 34057,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral arterial disease",
+        "txgnn_score": 0.9051358699798584,
+        "txgnn_rank": 34285,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9000541567802429,
+        "txgnn_rank": 34819,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.8954646587371826,
+        "txgnn_rank": 35243,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma 1, open angle",
+        "txgnn_score": 0.8931929469108582,
+        "txgnn_rank": 35488,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09129",
+    "name": "Chromic chloride",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Chromic chloride"
+      },
+      "queried_at": "2026-03-10T09:21:40.670416",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Chromic chloride"
+      },
+      "queried_at": "2026-03-10T09:21:42.968281",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T09:21:43.547052",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T09:21:47.429866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T09:21:48.145953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T09:21:48.646966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T09:21:51.917337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T09:21:52.798619",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T09:21:53.312174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T09:21:56.517655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T09:21:57.178419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T09:21:58.006844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T09:22:01.024439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T09:22:01.727279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:22:03.009520",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:22:06.979319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:22:08.125972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:22:08.672696",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:22:12.198846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:22:13.479010",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T09:22:14.149247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T09:22:17.421565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T09:22:18.165343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T09:22:18.897984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T09:22:23.493114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T09:22:25.028818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T09:22:26.209786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T09:22:30.913664",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T09:22:32.911338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T09:22:34.071412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T09:22:38.655818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chromic chloride",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T09:22:40.005103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:22:40.010057"
+  }
+}

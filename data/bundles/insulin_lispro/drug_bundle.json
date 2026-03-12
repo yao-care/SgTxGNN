@@ -1,0 +1,553 @@
+{
+  "drug": {
+    "inn": "Insulin lispro",
+    "drugbank_id": "DB00046",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.997794270515442,
+        "txgnn_rank": 3672,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9937022924423218,
+        "txgnn_rank": 7626,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.993563175201416,
+        "txgnn_rank": 7768,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.993563175201416,
+        "txgnn_rank": 7769,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.993440330028534,
+        "txgnn_rank": 7879,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.9909443855285645,
+        "txgnn_rank": 9845,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.990918755531311,
+        "txgnn_rank": 9867,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11727406",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "abstract": "Type 2 diabetes is a common disorder often accompanied by numerous metabolic abnormalities leading to a high risk of cardiovascular morbidity and mortality. Results from the UKPDS have confirmed that intensive glucose control delays the onset and retards the progression of microvascular disease and possibly of macrovascular disease in patients with type 2 diabetes. In the early stages of the disease, insulin resistance plays a major role in the development of hyperglycemia and other metabolic abnormalities, and patients with type 2 diabetes often benefit from measures to improve insulin sensitivity such as weight loss, dietary changes, and exercise. Later, the use of oral insulin secretagogues and insulin sensitizers as monotherapy and in combination helps maintain glycemia for varying periods of time. Ultimately, because of the progressive nature of the disease and the progressive decline in pancreatic beta-cell function, insulin therapy is almost always obligatory to achieve optimal ",
+            "journal": "Endocrinology and metabolism clinics of North America",
+            "year": "2001",
+            "authors": [
+              "Mudaliar S",
+              "Edelman S V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Blood Glucose",
+              "Blood Glucose Self-Monitoring",
+              "Diabetes Mellitus, Type 2",
+              "Drug Delivery Systems",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11727406/"
+          },
+          {
+            "pmid": "12150359",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "abstract": "To review the increasingly common use of insulin therapy in patients with type 2 diabetes and the practical aspects of initiating insulin therapy in these patients.",
+            "journal": "Journal of the American Pharmaceutical Association (Washington, D.C. : 1996)",
+            "year": "2002",
+            "authors": [
+              "Campbell R Keith",
+              "White John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Blood Glucose",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Molecular Sequence Data",
+              "Patient Compliance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12150359/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9903938174247742,
+        "txgnn_rank": 10248,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9902966618537904,
+        "txgnn_rank": 10336,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.9896658658981324,
+        "txgnn_rank": 10779,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00046",
+    "name": "Insulin lispro",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Insulin lispro"
+      },
+      "queried_at": "2026-03-09T20:10:32.506629",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Insulin lispro"
+      },
+      "queried_at": "2026-03-09T20:10:38.537261",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-09T20:10:44.951734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-09T20:10:50.995790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-09T20:10:52.799778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T20:10:53.444212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:10.446621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:12.200066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:13.549138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:22.397409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:25.040258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:25.728933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:30.368956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T20:11:31.396876",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T20:11:32.397201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T20:11:39.272470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T20:11:41.091180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:11:42.971656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:11:48.133303",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:11:49.642451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T20:11:50.615081",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T20:11:55.876258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T20:11:58.897123",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:11:59.622974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:12:05.270921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:12:07.370907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T20:12:08.722983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T20:12:17.344938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T20:12:19.203098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:12:19.976792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:12:24.788062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Insulin lispro",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T20:12:25.822066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T20:12:25.838185"
+  }
+}

@@ -1,0 +1,1739 @@
+{
+  "drug": {
+    "inn": "Valaciclovir",
+    "drugbank_id": "DB00577",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.989541232585907,
+        "txgnn_rank": 10860,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05111743",
+            "title": "Real-world Evaluation of Brolucizumab for the Treatment of Neovascular (Wet) Age-related Macular Degeneration (AMD) (Komodo Health)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-06-17",
+            "completion_date": "2020-12-18",
+            "country": "United States",
+            "enrollment": 9261,
+            "brief_summary": "This study was a retrospective cohort study of patients to assess the early insights into real-world safety among wet AMD patients initiating brolucizumab. Evidence was generated to describe their patient characteristics and clinical outcomes. The study was conducted using the Komodo Healthcare Map.",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. ≥1 Healthcare Common Procedure Coding System (HCPCS) code (J code) or National Drug Code (NDC) for treatment with brolucizumab during the index period (date of earliest code = index date)\n2. ≥18 years old on the index date\n3. ≥1 International Classification of Diseases, Clini",
+            "endpoints": [
+              "Number of patient eyes with an Intraocular Inflammation (IOI) event during the first 6 months"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05111743"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00195624",
+            "title": "A Pilot Study of Alemtuzumab (Campath) in Patients With Relapsed or Refractory Severe Aplastic Anemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-09-15",
+            "completion_date": "2018-10-15",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "This study will evaluate the safety and usefulness of a new immunosuppressive drug, alemtuzumab (Campath ), in patients with severe aplastic anemia (SAA). SAA is a rare and serious blood disorder in which the bone marrow stops making red blood cells, white blood cells and platelets. Alemtuzumab is a monoclonal antibody that attaches to and kills white blood cells called lymphocytes. In certain types of aplastic anemia, lymphocytes are responsible for the destruction of stem cells in the bone mar",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nRelapsed severe aplastic anemia after initial hematologic response to a prior course of h-ATG or r-ATG based immunosuppression\n\nOr\n\nRefractory severe aplastic anemia not responding to both horse-ATG and rabbit ATG-based immunosuppression\n\nThe criteria for severe aplastic anemi",
+            "endpoints": [
+              "Number of Participants With Hematological Response at 6 Months"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT00195624"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32274443",
+            "title": "Concomitant herpes simplex keratitis and autoimmune-associated ulcerative keratitis in rheumatoid arthritis patients.",
+            "abstract": "To describe four cases of concomitant herpes simplex keratitis (HSK) and autoimmune-associated ulcerative keratitis (UK) in patients with rheumatoid arthritis (RA).",
+            "journal": "American journal of ophthalmology case reports",
+            "year": "2020",
+            "authors": [
+              "Yoshida Masaaki",
+              "Hariya Takehiro",
+              "Yokokura Shunji",
+              "Kobayashi Wataru",
+              "Watanabe Ryu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32274443/"
+          },
+          {
+            "pmid": "35249916",
+            "title": "Pneumonia and Meningoencephalitis Due to Varicella-zoster Virus Reinfection and Epstein-Barr Virus Reactivation in a Patient with Rheumatoid Arthritis.",
+            "abstract": "A 72-year-old woman with rheumatoid arthritis was treated with methotrexate (MTX) and iguratimod. Upon examination of a liver tumor, blisters due to varicella-zoster virus (VZV) infection were observed. Despite oral administration of valacyclovir, she developed varicella pneumonia and meningoencephalitis. A VZV antibody test revealed reinfection. The liver tumor shrank after discontinuance of MTX, and polymerase chain reaction revealed the reactivation of the Epstein-Barr virus (EBV). Therefore, we were unable to deny MTX-associated lymphoproliferative disorder (MTX-LPD). This is the first case of a complication of pneumonia and meningoencephalitis due to VZV reinfection and EBV reactivation.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2022",
+            "authors": [
+              "Ito Noriaki",
+              "Masuda Takeshi",
+              "Yamaguchi Kakuhiro",
+              "Sakamoto Shinjiro",
+              "Horimasu Yasushi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Arthritis, Rheumatoid",
+              "Epstein-Barr Virus Infections",
+              "Female",
+              "Herpesvirus 3, Human",
+              "Herpesvirus 4, Human",
+              "Humans",
+              "Liver Neoplasms",
+              "Lymphoproliferative Disorders",
+              "Meningoencephalitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35249916/"
+          },
+          {
+            "pmid": "35236687",
+            "title": "Herpes zoster meningitis in a rheumatoid arthritis patient treated with tofacitinib.",
+            "abstract": "A man in his 70s with rheumatoid arthritis presented with seizures and coma and was transferred to our emergency department. Two months prior to admission, he started to take tofacitinib 10 mg/day. On admission, we noted a rash with a blister on the forehead, and herpes zoster was diagnosed. Cerebrospinal fluid examination suggested meningitis. An MRI of the brain showed no abnormality. Based on these findings, he was suspected with herpes zoster meningitis. We discontinued tofacitinib and treated the patient with intravenous acyclovir for 2 weeks. He regained complete consciousness, but right forehead skin lesion, severe vision loss in the right eye and right facial nerve paralysis remained as sequelae. Six weeks after admission, we restarted tofacitinib with oral valaciclovir as antiviral prophylaxis. Two years after admission, we administered Shingrix, an adjuvant recombinant vaccine for herpes zoster, and discontinued oral valaciclovir.",
+            "journal": "BMJ case reports",
+            "year": "2022",
+            "authors": [
+              "Nakamura Yoshihiro",
+              "Honda Daiyu",
+              "Takizawa Naoho",
+              "Fujita Yoshiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Antiviral Agents",
+              "Arthritis, Rheumatoid",
+              "Herpes Zoster",
+              "Humans",
+              "Male",
+              "Piperidines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35236687/"
+          },
+          {
+            "pmid": "29466539",
+            "title": "Management of Recurrent Vestibular Neuritis in a Patient Treated for Rheumatoid Arthritis.",
+            "abstract": "This clinical report is presented to describe how results of vestibular function testing were considered along with other medical history to develop a management plan that was ultimately successful.",
+            "journal": "American journal of audiology",
+            "year": "2018",
+            "authors": [
+              "Roberts Richard A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Biological Products",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Prognosis",
+              "Recurrence",
+              "Risk Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29466539/"
+          },
+          {
+            "pmid": "19648728",
+            "title": "Disseminated herpes zoster mimicking rheumatoid vasculitis in a rheumatoid arthritis patient on etanercept.",
+            "abstract": "Tumor necrosis factor-alpha (TNFalpha)-blocking agents are immunomodulating agents introduced for treatment of a variety of chronic inflammatory disease conditions. Adverse effects include an increased incidence of infections. Clinically, these infections often have atypical presentations that may hamper prompt diagnosis. In our report of a patient on etanercept therapy for rheumatoid arthritis, the correct diagnosis was delayed because disseminated herpes zoster was clinically mimicking vasculitis. Initially assuming rheumatoid vasculitis, immunosuppression was increased, resulting in worsening of skin lesions. Only an extended work-up, including a skin biopsy and viral cultures, established the correct diagnosis. Management of varicella zoster virus (VZV) infection primarily focuses on early initiation of antiviral therapy to control VZV replication. Therapy with intravenous acyclovir followed by oral valacyclovir allowed complete resolution of acute skin changes. In immunosuppressed",
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2009",
+            "authors": [
+              "Tresch S",
+              "Trueb R M",
+              "Kamarachev J",
+              "French L E",
+              "Hofbauer G F L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Aged",
+              "Antiviral Agents",
+              "Arthritis, Rheumatoid",
+              "Biopsy",
+              "Diagnosis, Differential",
+              "Drug Therapy, Combination",
+              "Etanercept",
+              "Female",
+              "Herpes Zoster"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19648728/"
+          },
+          {
+            "pmid": "26746461",
+            "title": "Erythematous Plaques on the Buttock.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "2016",
+            "authors": [
+              "Tan Caroline Z",
+              "Novoa Roberto",
+              "Chen Jennifer K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Antiviral Agents",
+              "Arthritis, Rheumatoid",
+              "Buttocks",
+              "Cellulitis",
+              "Eosinophilia",
+              "Female",
+              "Herpes Genitalis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26746461/"
+          },
+          {
+            "pmid": "24660085",
+            "title": "Ramsay hunt syndrome in a patient with rheumatoid arthritis after treatment with infliximab.",
+            "abstract": "A 39-year-old female patient with rheumatoid arthritis developed Ramsay Hunt syndrome after infliximab treatment. This condition is caused by the reactivation of varicella zoster virus infection in the geniculate ganglion of facial nerve in the host's immunosuppression. She was treated immediately with valaciclovir and hydrocortisone, and the complete recovery was achieved at 6 months after the onset. This is the first report of Ramsay Hunt syndrome as an adverse effect of infliximab in rheumatoid arthritis.",
+            "journal": "Case reports in rheumatology",
+            "year": "2014",
+            "authors": [
+              "Nagayama Yoshio",
+              "Matsushiro Naoki",
+              "Nampei Akihide",
+              "Hashimoto Hideo",
+              "Shi Kenrin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24660085/"
+          },
+          {
+            "pmid": "34579250",
+            "title": "Varicella Zoster Virus Reactivation Following COVID-19 Vaccination: A Systematic Review of Case Reports.",
+            "abstract": "The newly developed COVID-19 vaccines have established a safe profile, yet some individuals experience a wide range of adverse events. Recently, reactivation of varicella zoster virus (VZV) has been observed after administration of different COVID-19 vaccines, although causality remains a matter of debate. The aim of this systematic review was to examine the available literature and provide an overview of reported cases of VZV reactivation following COVID-19 vaccination. We identified 12 eligible articles which included 91 patients with herpes zoster (HZ) following COVID-19 vaccination. Hypertension was the main comorbidity present in 18% of patients (16/91). Additionally, 13% of patients (12/91) had an autoimmune condition with rheumatoid arthritis being the most common (4/12). Moreover, 10% of patients (9/91) were receiving immunosuppressants. The dermatomal distribution of skin lesions varied among patients, with the mammary region being most affected. On average, symptoms developed",
+            "journal": "Vaccines",
+            "year": "2021",
+            "authors": [
+              "Katsikas Triantafyllidis Konstantinos",
+              "Giannos Panagiotis",
+              "Mian Imran Tariq",
+              "Kyrtsonis George",
+              "Kechagias Konstantinos S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34579250/"
+          },
+          {
+            "pmid": "34540433",
+            "title": "Non-Articular Felty Syndrome Refractory to Granulocyte Colony-Stimulating Factor Therapy.",
+            "abstract": "Felty syndrome (FS), an uncommon manifestation seen in patients with rheumatoid arthritis (RA), usually presents as a triad of erosive arthritis, splenomegaly, and neutropenia. It is extremely rare for RA to present as FS or develop after initially presenting as neutropenia and splenomegaly. In this report, we describe a case of a 55-year-old woman who initially presented with fever and vaginal pain. Her sepsis workup revealed genital herpes in the setting of leukopenia, with an incidental finding of splenomegaly on imaging. The patient was managed with filgrastim and valacyclovir. Two weeks later, she presented again with pleuritic chest pain and worsening leukopenia. This led to an extensive workup by the hematology team to diagnose and confirm the diagnosis of FS. We also engage in a review of the existing literature of such cases and emphasize the importance of serological testing for RA in patients with leukopenia and splenomegaly, even in the absence of joint symptoms or prior di",
+            "journal": "Cureus",
+            "year": "2021",
+            "authors": [
+              "Saeed Hasham",
+              "Ejikeme Chidinma",
+              "Tucktuck Marina",
+              "Jawed Qirat",
+              "Kessler William"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34540433/"
+          },
+          {
+            "pmid": "18674945",
+            "title": "Herpes zoster in patients taking TNFalpha antagonists for chronic inflammatory joint disease.",
+            "abstract": "To assess the rate of occurrence and outcomes of herpes zoster in patients taking TNFalpha antagonists.",
+            "journal": "Joint bone spine",
+            "year": "2008",
+            "authors": [
+              "Wendling Daniel",
+              "Streit Gérald",
+              "Toussirot Eric",
+              "Prati Clément"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Adalimumab",
+              "Adult",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antirheumatic Agents",
+              "Antiviral Agents",
+              "Arthritis, Rheumatoid",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18674945/"
+          },
+          {
+            "pmid": "23211260",
+            "title": "Prescription of antiviral therapy after herpes zoster in general practice: who receives therapy?",
+            "abstract": "Antivirals can accelerate rash healing during an acute zoster episode and can limit the severity and duration of pain. Their use within 7 days of rash onset is recommended among specific patient groups.",
+            "journal": "The British journal of general practice : the journal of the Royal College of General Practitioners",
+            "year": "2012",
+            "authors": [
+              "Forbes Harriet J",
+              "Thomas Sara L",
+              "Smeeth Liam",
+              "Langan Sinéad M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Age Distribution",
+              "Aged",
+              "Aged, 80 and over",
+              "Antiviral Agents",
+              "Arthritis, Rheumatoid",
+              "England",
+              "Family Practice",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23211260/"
+          },
+          {
+            "pmid": "10220730",
+            "title": "[Bilateral neuroretinitis with zoster infection].",
+            "abstract": "Infections with varicella zoster virus may involve the optic nerve and the retina. Different pathomechanisms have been discussed. We present a case with an autoimmune inflammatory reaction according to the clinical course.",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1999",
+            "authors": [
+              "Nicaeus T",
+              "Wilhelm H"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Aged",
+              "Antiviral Agents",
+              "Diagnosis, Differential",
+              "Female",
+              "Herpes Zoster Ophthalmicus",
+              "Herpesvirus 3, Human",
+              "Humans",
+              "Optic Nerve",
+              "Papilledema"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10220730/"
+          },
+          {
+            "pmid": "14600805",
+            "title": "Disseminated tuberculosis, pulmonary aspergillosis and cutaneous herpes simplex infection in a patient with infliximab and methotrexate.",
+            "abstract": "Despite chemoprophylaxis with isoniazid a 58-year-old Creole patient with mild rheumatoid arthritis developed disseminated tuberculosis, pulmonary aspergillosis and cutaneous herpes simplex infection during treatment with infliximab and methotrexate.",
+            "journal": "Intensive care medicine",
+            "year": "2003",
+            "authors": [
+              "van der Klooster J M",
+              "Bosman R J",
+              "Oudemans-van Straaten H M",
+              "van der Spoel J I",
+              "Wester J P J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antirheumatic Agents",
+              "Antitubercular Agents",
+              "Arthritis, Rheumatoid",
+              "Aspergillosis, Allergic Bronchopulmonary",
+              "Female",
+              "Herpes Simplex",
+              "Humans",
+              "Infliximab",
+              "Methotrexate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14600805/"
+          },
+          {
+            "pmid": "21299443",
+            "title": "Herp zoster at the site of infliximab infusion: case report.",
+            "abstract": "Worldwide, many patients have been treated with tumor necrosis factor-α (TNF-α) antagonists for indications that include chronic inflammatory diseases such as rheumatoid and psoriatic arthritis, inflammatory bowel disease and others. Since their approval, concerns regarding safety have been raised. Increased susceptibility to bacterial infections, especially due to intracellular bacteria like Mycobacterium tuberculosis that is responsible for the most serious complications associated with this treatment. Viral infections are less frequently reported but probably relatively common, representing an important cause of morbidity to remember. Varicella zoster virus is one of the most frequently implicated viruses. We present the case of a 20-year-old man with Crohn's disease under infliximab treatment who developed herpes zoster at the site of infliximab's 7th and 9th infusion.",
+            "journal": "Cutaneous and ocular toxicology",
+            "year": "2011",
+            "authors": [
+              "Cruz Maria João",
+              "Baudrier Teresa",
+              "Ferreira Olga",
+              "Azevedo Filomena"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Adult",
+              "Antibodies, Monoclonal",
+              "Antiviral Agents",
+              "Crohn Disease",
+              "Herpes Zoster",
+              "Herpesvirus 3, Human",
+              "Humans",
+              "Immunosuppression Therapy",
+              "Infliximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21299443/"
+          },
+          {
+            "pmid": "16421805",
+            "title": "Imiquimod 5% cream for the treatment of recurrent, acyclovir-resistant genital herpes.",
+            "abstract": "",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2006",
+            "authors": [
+              "Brummitt Charles F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Administration, Topical",
+              "Aged",
+              "Aminoquinolines",
+              "Antiviral Agents",
+              "Arthritis, Rheumatoid",
+              "Drug Resistance, Viral",
+              "Emollients",
+              "Female",
+              "Foscarnet"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16421805/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.9871119856834412,
+        "txgnn_rank": 12765,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9827240109443665,
+        "txgnn_rank": 15623,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9779626727104188,
+        "txgnn_rank": 18000,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+        "txgnn_score": 0.9767356514930724,
+        "txgnn_rank": 18544,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+        "txgnn_score": 0.97589510679245,
+        "txgnn_rank": 18921,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Homeodomain Proteins",
+              "Transcription Factors",
+              "Anterior Eye Segment",
+              "Eye Abnormalities",
+              "Forkhead Transcription Factors",
+              "Mutation",
+              "Eye Diseases, Hereditary",
+              "Bone and Bones",
+              "Hearing Loss, Sensorineural"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35882526/"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurrence risk can be determined only after complete evaluation of the patient and other family members.",
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Pagon R A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Choroid",
+              "Coloboma",
+              "Eye",
+              "Eye Abnormalities",
+              "Female",
+              "Genes, Dominant",
+              "Genes, Recessive",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6782689/"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle interhemispheric variant\" of HPE at the less severe end of the spectrum. Between them, different intermediate forms demonstrate a continuum in a wide phenotypic spectrum rather than well-defined categories. Although the term \"HPE\" suggests a disorder affecting only the prosencephalon, other brain structures are involved, underlining the complexity of the malformation. Because of close spatiotemporal interactions and common signaling pathways contributing to the development of both brain and face, co",
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anencephaly",
+              "Brain",
+              "Central Nervous System",
+              "Dandy-Walker Syndrome",
+              "Eye Abnormalities",
+              "Face",
+              "Holoprosencephaly",
+              "Humans",
+              "Prosencephalon",
+              "Spinal Cord"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30182440/"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Coloboma",
+              "Humans",
+              "Infant",
+              "Neuroimaging",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Retinal Vessels"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33870948/"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough examination of the child's eye, often with general anesthesia. Different clinical aspects can be observed: simple megalocornea without ocular or systemic anomalies, megalocornea with ocular and/or systemic anomalies as well as multiple malformation syndromes, dermatological diseases, skeletal diseases, and genetic or chromosomic diseases. A systematic general pediatric examination is therefore necessary. Congenital megalocornea must be considered, first of all, as a differential diagnosis of primar",
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Cornea",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Genetic Linkage",
+              "Glaucoma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11941259/"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Choroid",
+              "Choroidal Neovascularization",
+              "Coloboma",
+              "Diagnosis, Differential",
+              "Humans",
+              "Optic Disk",
+              "Optic Nerve Diseases",
+              "Pigment Epithelium of Eye",
+              "Retina",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10498002/"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "authors": [
+              "Savino P J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Coloboma",
+              "Fundus Oculi",
+              "Humans",
+              "Ischemia",
+              "Nerve Compression Syndromes",
+              "Ophthalmoscopy",
+              "Optic Disk",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Optic Neuritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6390155/"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a result, the horse owner frequently receives misinformation. Hopefully, this brief coverage of congenital ocular anomalies will provide useful information and assist in appropriate communication to concerned parties.",
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "authors": [
+              "Roberts S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cataract",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Eyelid Diseases",
+              "Horse Diseases",
+              "Horses",
+              "Nasolacrimal Duct",
+              "Night Blindness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1458324/"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used in four eyelids with congenital distichiasis, with very good results.",
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Cryotherapy",
+              "Eyelashes",
+              "Eyelids",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16848213/"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Branchio-Oto-Renal Syndrome",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22963965/"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, appropriate facial embryology, assessment and surgical considerations of the various congenital craniofacial abnormalities are reviewed. The expanding availability of craniofacial surgeons and surgical teams along with improved surgical results will ultimately require an increasing involvement by many more ophthalmologists in the evaluation and management of these congenital abnormalities.",
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Craniofacial Dysostosis",
+              "Craniosynostoses",
+              "Eye Abnormalities",
+              "Facial Bones",
+              "Humans",
+              "Orbit",
+              "Skull",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2237761/"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Infant",
+              "Humans",
+              "Nasolacrimal Duct",
+              "Lacrimal Duct Obstruction",
+              "Eyelids",
+              "Lacrimal Apparatus",
+              "Eyelid Diseases",
+              "Treatment Outcome",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36636984/"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Child",
+              "Eyelids",
+              "Female",
+              "Fraser Syndrome",
+              "Humans",
+              "Male",
+              "Microphthalmos",
+              "Rare Diseases",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35791156/"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Coloboma",
+              "DNA Mutational Analysis",
+              "DNA-Binding Proteins",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11581073/"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases, respectively. Thirty-four (54%) of the 63 CAKUT-associated genes (55 'green' and 8 'amber') had a reported ocular phenotype. Five of the 6 most common CAKUT-associated genes (PAX2, EYA1, SALL1, GATA3, PBX1) that represent 30% of all diagnoses had ocular features. The ocular abnormalities found with most CAKUT-associated genes and with five of the six commonest were coloboma, microphthalmia, optic disc anomalies, refraction errors (astigmatism, myopia, and hypermetropia), and cataract. Seven of ",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Mice",
+              "Animals",
+              "Humans",
+              "Kidney",
+              "Urinary Tract",
+              "Vesico-Ureteral Reflux",
+              "Urogenital Abnormalities"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37468646/"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate or uvula 7/21, high, broad nasal bridge 15/15, cranial abnormality 6/21, congenital heart defect 5/21, cryptorchidism 9/21, and mental retardation 11/17. In our series, the most frequent anomalies include telecanthus 18/18, hypospadias 18/18, cleft lip/palate or uvula 8/18, high, broad nasal bridge 10/11, cranial abnormality 12/18, congenital heart defect 3/18, upper urinary tract anomaly 4/9, and mental retardation 10/12. There is also an increased incidence of like-sex twinning, 11/18 in our fa",
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Cleft Lip",
+              "Cleft Palate",
+              "Diseases in Twins",
+              "Eyelids",
+              "Humans",
+              "Hypospadias",
+              "Male",
+              "Pedigree",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3050099/"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of posterior embryotoxon with iris bridging strands (Axenfeld anomaly) and iris hypoplasia causing corectopia and pseudopolycoria (Rieger anomaly). Glaucoma due to iridogoniodysgenesis is the main source of morbidity and is typically diagnosed during infancy or childhood in over half of affected individuals. Angle bypass surgery, such as glaucoma drainage devices and trabeculectomies, is often needed to obtain intraocular pressure control. A multi-disciplinary approach including glaucoma specialists a",
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36926528/"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Eyebrows",
+              "Eyelashes",
+              "Eyelids",
+              "Humans",
+              "Infant, Newborn",
+              "Macrostomia",
+              "Male",
+              "Surgical Flaps",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2036354/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic nephropathy",
+        "txgnn_score": 0.9696624279022216,
+        "txgnn_rank": 21404,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05111743",
+            "title": "Real-world Evaluation of Brolucizumab for the Treatment of Neovascular (Wet) Age-related Macular Degeneration (AMD) (Komodo Health)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-06-17",
+            "completion_date": "2020-12-18",
+            "country": "United States",
+            "enrollment": 9261,
+            "brief_summary": "This study was a retrospective cohort study of patients to assess the early insights into real-world safety among wet AMD patients initiating brolucizumab. Evidence was generated to describe their patient characteristics and clinical outcomes. The study was conducted using the Komodo Healthcare Map.",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. ≥1 Healthcare Common Procedure Coding System (HCPCS) code (J code) or National Drug Code (NDC) for treatment with brolucizumab during the index period (date of earliest code = index date)\n2. ≥18 years old on the index date\n3. ≥1 International Classification of Diseases, Clini",
+            "endpoints": [
+              "Number of patient eyes with an Intraocular Inflammation (IOI) event during the first 6 months"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05111743"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39258091",
+            "title": "Herpes Simplex Virus Esophagitis in a Patient Receiving Long-Term Nasal Corticosteroids: A Rare Case.",
+            "abstract": "Herpetic esophagitis (HE), primarily caused by the herpes simplex virus (HSV)-1, is most commonly encountered in immunocompromised hosts, although it has been occasionally observed in immunocompetent patients. In the immunocompromised setting, it is typically correlated with human immunodeficiency virus (HIV) infection, malignancy, chemotherapy and radiotherapy, solid organ transplant, as well as the use of systemic corticosteroids and other immunosuppressive agents. We present the case of a 35-year-old patient on hemodialysis due to diabetic nephropathy who, after having received intranasal corticosteroids for three weeks, developed nausea, vomiting, and epigastric pain. Gastroscopy and subsequent biopsy revealed ulcerative esophagitis compatible with herpetic infection. Immunohistochemistry was negative for cytomegalovirus (CMV), while subsequent quantitative polymerase chain reaction (PCR) testing was positive for HSV-1, establishing the diagnosis of HSV esophagitis. After a 14-day ",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Vougiouklakis Georgios",
+              "Agouridis Aris P",
+              "Alexakis Konstantinos",
+              "Mamilos Andreas",
+              "Spernovasilis Nikolaos"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39258091/"
+          },
+          {
+            "pmid": "20005412",
+            "title": "Hemorrhagic cystitis secondary to adenovirus or herpes simplex virus infection following renal transplantation: four case reports.",
+            "abstract": "Viral infections are common complications following renal transplantation. However, there have been few reported cases of viral cystitis secondary to herpes simplex virus or adenovirus infection. Herein, we have reported four cases of hemorrhagic cystitis secondary to infections with herpes simplex virus and adenovirus following renal transplantation. The etiology was adenovirus in three cases and herpes simplex virus in the remaining case. In all four cases, the primary cause of the renal dysfunction was diabetic nephropathy. All four patients presented with a clinical profile characterized by dysuria, pollakiuria, macroscopic hematuria, and graft dysfunction. Three of the four patients developed these symptoms within the first 3 months after renal transplantation. In all four cases, there was an increase, albeit slight, in creatinine levels, which returned to normal or near-normal values upon resolution of the symptoms. Acute cellular rejection was observed in only one case. Although",
+            "journal": "Transplantation proceedings",
+            "year": "2009",
+            "authors": [
+              "Ferreira G F",
+              "Oliveira R A",
+              "Lucon M",
+              "de Paula F J",
+              "Lucon A M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Adenovirus Infections, Human",
+              "Aged",
+              "Aged, 80 and over",
+              "Antiviral Agents",
+              "Cystitis",
+              "Diabetic Nephropathies",
+              "Herpes Simplex",
+              "Humans",
+              "Kidney Transplantation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20005412/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.9620052576065063,
+        "txgnn_rank": 23734,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congestive heart failure",
+        "txgnn_score": 0.932220458984375,
+        "txgnn_rank": 30242,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05111743",
+            "title": "Real-world Evaluation of Brolucizumab for the Treatment of Neovascular (Wet) Age-related Macular Degeneration (AMD) (Komodo Health)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-06-17",
+            "completion_date": "2020-12-18",
+            "country": "United States",
+            "enrollment": 9261,
+            "brief_summary": "This study was a retrospective cohort study of patients to assess the early insights into real-world safety among wet AMD patients initiating brolucizumab. Evidence was generated to describe their patient characteristics and clinical outcomes. The study was conducted using the Komodo Healthcare Map.",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. ≥1 Healthcare Common Procedure Coding System (HCPCS) code (J code) or National Drug Code (NDC) for treatment with brolucizumab during the index period (date of earliest code = index date)\n2. ≥18 years old on the index date\n3. ≥1 International Classification of Diseases, Clini",
+            "endpoints": [
+              "Number of patient eyes with an Intraocular Inflammation (IOI) event during the first 6 months"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05111743"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "14872168",
+            "title": "Drug approval highlights for 2003.",
+            "abstract": "In the past 12 months, the FDA has approved important new pharmaceutical drugs and devices of particular interest to primary health care providers. The drugs include: Oxytrol (for urinary incontinence), Valtrex (for reducing the risk of heterosexual transmission of genital herpes), Femring (for vaginal delivery of hormone therapy), Uroxatral (for benign prostatic hypertrophy), Levitra (for erectile dysfunction), Flumist (for preventing influenza), Xolair (for asthma), Raptiva (for psoriasis), Cubicin (for skin infections), Crestor (for hypercholesterolemia), and Coreg (for severe heart failure).",
+            "journal": "The Nurse practitioner",
+            "year": "2004",
+            "authors": [
+              "Laustsen Gary",
+              "Wimett Lynn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Cardiovascular Agents",
+              "Cardiovascular Diseases",
+              "Dermatologic Agents",
+              "Drug Approval",
+              "Estrogen Replacement Therapy",
+              "Female",
+              "Genital Diseases, Female",
+              "Genital Diseases, Male",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14872168/"
+          },
+          {
+            "pmid": "24368610",
+            "title": "Valacyclovir and Acyclovir Neurotoxicity With Status Epilepticus.",
+            "abstract": "We present the case of a 52-year-old man with hypertension, diastolic congestive heart failure, end-stage renal disease on hemodialysis 3 times a week and a remote history of a hemorrhagic stroke who presented to the emergency department with a vesicular rash on his left arm. The rash was observed to be in a dermatomal distribution, and a diagnosis of herpes zoster was made. The patient was discharged home on valacyclovir 1 g 3 times a day for a duration of 7 days. The patient took 2 doses of valacyclovir before presenting to the hospital again with irritability and hallucinations. Over the next several days, the patient's neurologic status declined and he became disoriented and increasingly somnolent. Because of a concern for varicella zoster virus (VZV) or herpes simplex virus (HSV) meningoencephalitis, acyclovir was initiated intravenously at 600 mg (10 mg/kg) for every 12 hours. Computed tomography and magnetic resonance imaging of the brain failed to reveal an acute process. Elect",
+            "journal": "American journal of therapeutics",
+            "year": "2016",
+            "authors": [
+              "Hoskote Sumedh S",
+              "Annapureddy Narender",
+              "Ramesh Atul K",
+              "Rose Keith",
+              "Jones James P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Antiviral Agents",
+              "Herpes Zoster",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neurotoxicity Syndromes",
+              "Status Epilepticus",
+              "Valacyclovir",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24368610/"
+          },
+          {
+            "pmid": "16102466",
+            "title": "Lymphocytic myocarditis after lung transplantation.",
+            "abstract": "This study reports the development of lymphocytic myocarditis in a bilateral lung allograft recipient. A 23-year-old woman developed congestive heart failure and severe left ventricular dysfunction 32 months after a bilateral lung allograft for cystic fibrosis. She had taken oral acyclovir for infectious mononucleosis that was diagnosed 11 months previously. Her viral load for Epstein-Barr virus (EBV) increased, and an echocardiogram revealed a left ventricular ejection fraction of 25% and endomyocardial biopsy revealed lymphocytic myocarditis. She received valacyclovir (1 g x 3 times daily) and made a full recovery 6 months later.",
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2005",
+            "authors": [
+              "Weinkauf Justin",
+              "Walia Rajat",
+              "Berry Gerald J",
+              "Vagelos Randall",
+              "Faul John L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Adult",
+              "Antiviral Agents",
+              "Biopsy, Needle",
+              "Cystic Fibrosis",
+              "Female",
+              "Follow-Up Studies",
+              "Heart Failure",
+              "Humans",
+              "Immunohistochemistry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16102466/"
+          },
+          {
+            "pmid": "41376746",
+            "title": "Myocarditis Associated With Herpes Zoster in a 91-Year-Old Woman: A Rare Cardiac Complication With Favorable Outcomes.",
+            "abstract": "Herpes zoster-associated myocarditis is an exceedingly rare and underreported complication of varicella-zoster virus reactivation. We describe a 91-year-old woman who developed a typical herpes zoster rash and, six days later, was admitted with clinical, laboratory, and echocardiographic evidence of acute heart failure suggestive of myocarditis. The patient improved rapidly with optimized heart failure therapy and escalation of valacyclovir, was weaned off oxygen and diuretics, and discharged in stable condition. A follow-up echocardiogram demonstrated marked recovery of left ventricular function. This case highlights the importance of recognizing rare cardiac complications of herpes zoster, such as myocarditis, and underscores the need for preventive strategies, including vaccination. Clinicians should maintain a high index of suspicion for myocarditis in patients presenting with new cardiac symptoms following herpes zoster infection.",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Montenegro Ana S",
+              "Rodríguez Mirón José M",
+              "Chapas Roberto R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41376746/"
+          },
+          {
+            "pmid": "19169630",
+            "title": "Disseminated zoster in an elderly patient.",
+            "abstract": "A 97-year-old lady was hospitalized for left leg cellulitis. Comorbidity included hypertension and congestive heart failure. While in hospital, she developed a painless vesicular rash localized to the territory of the left trigeminal nerve (third branch), which evolved to pustules and crusts (Figure 1). A chickenpox-like disseminated eruption of vesicles followed within 4 days, with the same evolution pattern (Figure 2).The diagnosis of disseminated zoster was suspected. A PCR analysis confirmed the presence of varicella-zoster-virus (VZV) in an abdominal vesicle. The patient was treated with oral valacyclovir for 7 days. Clinical examination, laboratory tests (including HIV serology), and a chest radiograph revealed no evidence of underlying immunodeficiency or malignancy.",
+            "journal": "Infection",
+            "year": "2009",
+            "authors": [
+              "Capron J",
+              "Steichen O"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Aged, 80 and over",
+              "Antiviral Agents",
+              "Back",
+              "Face",
+              "Female",
+              "Heart Failure",
+              "Herpes Zoster",
+              "Herpesvirus 3, Human",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19169630/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral arterial disease",
+        "txgnn_score": 0.9252918362617492,
+        "txgnn_rank": 31431,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05111743",
+            "title": "Real-world Evaluation of Brolucizumab for the Treatment of Neovascular (Wet) Age-related Macular Degeneration (AMD) (Komodo Health)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-06-17",
+            "completion_date": "2020-12-18",
+            "country": "United States",
+            "enrollment": 9261,
+            "brief_summary": "This study was a retrospective cohort study of patients to assess the early insights into real-world safety among wet AMD patients initiating brolucizumab. Evidence was generated to describe their patient characteristics and clinical outcomes. The study was conducted using the Komodo Healthcare Map.",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. ≥1 Healthcare Common Procedure Coding System (HCPCS) code (J code) or National Drug Code (NDC) for treatment with brolucizumab during the index period (date of earliest code = index date)\n2. ≥18 years old on the index date\n3. ≥1 International Classification of Diseases, Clini",
+            "endpoints": [
+              "Number of patient eyes with an Intraocular Inflammation (IOI) event during the first 6 months"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05111743"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26312852",
+            "title": "CD4+CD28- T-cell expansions in ANCA-associated vasculitis and association with arterial stiffness: baseline data from a randomised controlled trial.",
+            "abstract": "Cardiovascular risk is increased in the anti-neutrophil cytoplasm antibody (ANCA)-associated vasculitides (AAV). CD4+CD28- T cells are expanded in patients with AAV who are seropositive for cytomegalovirus (CMV), and are associated with increased mortality. CMV seropositivity in other conditions is associated with arterial stiffness, a marker of cardiovascular risk. We assessed whether CD4+CD28- T cells in CMV seropositive patients with AAV are associated with arterial stiffness and whether treatment with valaciclovir reduces this cell population.",
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "authors": [
+              "Chanouzas Dimitrios",
+              "Dyall Lovesh",
+              "Dale Jessica",
+              "Moss Paul",
+              "Morgan Matthew"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26312852/"
+          },
+          {
+            "pmid": "26209393",
+            "title": "Purpuric herpes zoster in patients in therapy with clopidogrel.",
+            "abstract": "Clopidogrel is an adenosine diphosphate receptor antagonist used for the prevention of vascular events in patients with atherothrombotic diseases manifested by recent myocardial infarction, ischemic stroke or peripheral arterial disease. Diarrhoea, rash and pruritus are rather common side effects of clopidogrel. Other side effects include epistaxis, nausea, abdominal pain, vomiting, gastritis, gastric and duodenal ulcer. Thrombocytopenia is the most common laboratory abnormality. Leucopenia and neutropenia are rare. We report three cases of purpuric herpes zoster in patients in therapy with clopidogrel. To our knowledge, only one case of haemorrhagic herpes zoster has been published in a patient in therapy with this drug.",
+            "journal": "Journal of clinical virology : the official publication of the Pan American Society for Clinical Virology",
+            "year": "2015",
+            "authors": [
+              "Veraldi S",
+              "Vaira F",
+              "Nazzaro G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acyclovir",
+              "Aged",
+              "Antiviral Agents",
+              "Clopidogrel",
+              "Female",
+              "Herpes Zoster",
+              "Humans",
+              "Male",
+              "Pruritus",
+              "Ticlopidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26209393/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00577",
+    "name": "Valaciclovir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Valaciclovir"
+      },
+      "queried_at": "2026-03-10T06:03:36.977682",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Valaciclovir"
+      },
+      "queried_at": "2026-03-10T06:03:38.792518",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:03:39.337698",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:03:42.382331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:03:44.239958",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T06:03:44.701046",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T06:03:47.290209",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T06:03:47.881952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:48.494252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:51.401315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:52.101386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:52.590528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:55.750791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:56.405511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T06:03:57.153243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T06:04:00.639942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T06:04:02.466121",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T06:04:03.038755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T06:04:06.912484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T06:04:09.848356",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T06:04:10.383780",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T06:04:14.586848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T06:04:16.944739",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T06:04:17.786620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T06:04:20.742633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T06:04:21.795595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "congestive heart failure"
+      },
+      "queried_at": "2026-03-10T06:04:22.653155",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "congestive heart failure"
+      },
+      "queried_at": "2026-03-10T06:04:26.712876",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "congestive heart failure"
+      },
+      "queried_at": "2026-03-10T06:04:36.126718",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T06:04:36.893879",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T06:04:41.220860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valaciclovir",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T06:04:43.959945",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:04:43.973960"
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "drug": {
+    "inn": "Semaglutide",
+    "drugbank_id": "DB13928",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.986407995223999,
+        "txgnn_rank": 13288,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.986407995223999,
+        "txgnn_rank": 13289,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.9859302639961244,
+        "txgnn_rank": 13616,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9858202934265136,
+        "txgnn_rank": 13688,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.9765956401824952,
+        "txgnn_rank": 18600,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9755660891532898,
+        "txgnn_rank": 19074,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9749314785003662,
+        "txgnn_rank": 19354,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.9735326766967772,
+        "txgnn_rank": 19905,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.9731410145759584,
+        "txgnn_rank": 20067,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38735240",
+            "title": "Interaction of serotonin/GLP-1 circuitry in a dual preclinical model for psychiatric disorders and metabolic dysfunction.",
+            "abstract": "Isolation of rodents throughout adolescence is known to induce many behavioral abnormalities which resemble neuropsychiatric disorders. Separately, this paradigm has also been shown to induce long-term metabolic changes consistent with a pre-diabetic state. Here, we investigate changes in central serotonin (5-HT) and glucagon-like peptide 1 (GLP-1) neurobiology that dually accompany behavioral and metabolic outcomes following social isolation stress throughout adolescence. We find that adolescent-isolation mice exhibit elevated blood glucose levels, impaired peripheral insulin signaling, altered pancreatic function, and fattier body composition without changes in bodyweight. These mice further exhibited disruptions in sleep and enhanced nociception. Using bulk and spatial transcriptomic techniques, we observe broad changes in neural 5-HT, GLP-1, and appetitive circuits. We find 5-HT neurons of adolescent-isolation mice to be more excitable, transcribe fewer copies of Glp1r (mRNA; GLP-1",
+            "journal": "Psychiatry research",
+            "year": "2024",
+            "authors": [
+              "Kolling Louis J",
+              "Khan Kanza",
+              "Wang Ruixiang",
+              "Pierson Samantha R",
+              "Hartman Benjamin D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Glucagon-Like Peptide 1",
+              "Glucagon-Like Peptide-1 Receptor",
+              "Male",
+              "Serotonin",
+              "Disease Models, Animal",
+              "Social Isolation",
+              "Mental Disorders",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38735240/"
+          },
+          {
+            "pmid": "40805859",
+            "title": "Evaluation of Pre-Treatment Assessment of Semaglutide Users: Balancing the Benefits of Weight Loss vs. Potential Health Consequences.",
+            "abstract": "Background: Although semaglutide (Ozempic®) is being prescribed off-label to individuals with obesity, some concerns have arisen regarding its use, particularly regarding the risk of thyroid and pancreatic disorders. Therefore, it is crucial to screen patients' medical and family disease histories, as well as certain clinical parameters, before initiating this treatment for obesity or weight management. However, there is limited research investigating whether pretreatment assessment is adopted in clinical practice. Method: This is a single-center retrospective study involving adults who were prescribed semaglutide for obesity or weight management. Demographic data, comorbid conditions, semaglutide-related lab work, and disease history assessments, including pancreatitis, thyroid abnormalities, oculopathy, neuropathy, and any family history of thyroid cancer, were evaluated and documented prior to treatment initiation. Results: In total, 715 patients were included in the study, with an ",
+            "journal": "Healthcare (Basel, Switzerland)",
+            "year": "2025",
+            "authors": [
+              "Bin Dayel Faten F",
+              "Alanazi Rakan J",
+              "Alenazi Miteb A",
+              "Alkhalifah Sahar",
+              "Alfaifi Mohammed"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40805859/"
+          },
+          {
+            "pmid": "24608440",
+            "title": "The human GLP-1 analogs liraglutide and semaglutide: absence of histopathological effects on the pancreas in nonhuman primates.",
+            "abstract": "Increased pancreas mass and glucagon-positive adenomas have been suggested to be a risk associated with sitagliptin or exenatide therapy in humans. Novo Nordisk has conducted extensive toxicology studies, including data on pancreas weight and histology, in Cynomolgus monkeys dosed with two different human glucagon-like peptide-1 (GLP-1) receptor agonists. In a 52-week study with liraglutide, a dose-related increase in absolute pancreas weight was observed in female monkeys only. Such dose-related increase was not found in studies of 4, 13, or 87 weeks' duration. No treatment-related histopathological abnormalities were observed in any of the studies. Quantitative histology of the pancreas from the 52-week study showed an increase in the exocrine cell mass in liraglutide-dosed animals, with normal composition of endocrine and exocrine cellular compartments. Proliferation rate of the exocrine tissue was low and comparable between groups. Endocrine cell mass and proliferation rates were u",
+            "journal": "Diabetes",
+            "year": "2014",
+            "authors": [
+              "Gotfredsen Carsten F",
+              "Mølck Anne-Marie",
+              "Thorup Inger",
+              "Nyborg Niels C Berg",
+              "Salanti Zaki"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Body Weight",
+              "Drug Evaluation, Preclinical",
+              "Female",
+              "Glucagon-Like Peptide 1",
+              "Glucagon-Like Peptides",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Liraglutide",
+              "Macaca fascicularis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24608440/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.9505319595336914,
+        "txgnn_rank": 26571,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13928",
+    "name": "Semaglutide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Semaglutide"
+      },
+      "queried_at": "2026-03-10T06:46:43.802072",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Semaglutide"
+      },
+      "queried_at": "2026-03-10T06:46:45.527155",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:46.004180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:49.247999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:49.981690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:50.822675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:54.481369",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:55.202202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T06:46:55.668313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T06:46:58.428076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T06:46:59.117190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T06:46:59.612999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T06:47:02.564475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T06:47:03.250435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:03.768301",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:07.831635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:08.552566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:09.007683",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:11.702777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:12.333705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T06:47:12.964731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T06:47:16.212319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T06:47:17.014718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:17.801649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:20.709781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T06:47:21.428313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T06:47:22.023550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T06:47:26.611139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T06:47:28.978054",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T06:47:29.507039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T06:47:32.558820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Semaglutide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T06:47:33.279751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:47:33.285886"
+  }
+}

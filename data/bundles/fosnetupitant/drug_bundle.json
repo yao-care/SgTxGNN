@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Fosnetupitant",
+    "drugbank_id": "DB14019",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9644370675086976,
+        "txgnn_rank": 23016,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mycotic corneal ulcer",
+        "txgnn_score": 0.9621059894561768,
+        "txgnn_rank": 23704,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "coronary artery disease",
+        "txgnn_score": 0.9596410393714904,
+        "txgnn_rank": 24378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anomalous left coronary artery from the pulmonary artery",
+        "txgnn_score": 0.9569710493087769,
+        "txgnn_rank": 24978,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "candidiasis",
+        "txgnn_score": 0.9507685303688048,
+        "txgnn_rank": 26513,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myocardial ischemia",
+        "txgnn_score": 0.9496422410011292,
+        "txgnn_rank": 26792,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine polyp",
+        "txgnn_score": 0.94813871383667,
+        "txgnn_rank": 27125,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vocal cord",
+        "txgnn_score": 0.9470309615135192,
+        "txgnn_rank": 27370,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of middle ear",
+        "txgnn_score": 0.9465025663375854,
+        "txgnn_rank": 27479,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of ureter",
+        "txgnn_score": 0.9456097483634948,
+        "txgnn_rank": 27674,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14019",
+    "name": "Fosnetupitant",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fosnetupitant"
+      },
+      "queried_at": "2026-03-10T08:54:49.023786",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fosnetupitant"
+      },
+      "queried_at": "2026-03-10T08:54:50.813340",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T08:54:51.300601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T08:54:55.048860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T08:54:56.643402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "mycotic corneal ulcer"
+      },
+      "queried_at": "2026-03-10T08:54:57.689212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "mycotic corneal ulcer"
+      },
+      "queried_at": "2026-03-10T08:55:00.967230",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "mycotic corneal ulcer"
+      },
+      "queried_at": "2026-03-10T08:55:01.617293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "coronary artery disease"
+      },
+      "queried_at": "2026-03-10T08:55:02.391955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "coronary artery disease"
+      },
+      "queried_at": "2026-03-10T08:55:05.691757",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "coronary artery disease"
+      },
+      "queried_at": "2026-03-10T08:55:08.306171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "anomalous left coronary artery from the pulmonary artery"
+      },
+      "queried_at": "2026-03-10T08:55:08.855568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "anomalous left coronary artery from the pulmonary artery"
+      },
+      "queried_at": "2026-03-10T08:55:12.471840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "anomalous left coronary artery from the pulmonary artery"
+      },
+      "queried_at": "2026-03-10T08:55:13.415102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "candidiasis"
+      },
+      "queried_at": "2026-03-10T08:55:14.198162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "candidiasis"
+      },
+      "queried_at": "2026-03-10T08:55:17.092459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "candidiasis"
+      },
+      "queried_at": "2026-03-10T08:55:18.038442",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "myocardial ischemia"
+      },
+      "queried_at": "2026-03-10T08:55:18.656786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "myocardial ischemia"
+      },
+      "queried_at": "2026-03-10T08:55:21.814709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "myocardial ischemia"
+      },
+      "queried_at": "2026-03-10T08:55:23.032330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T08:55:23.582864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T08:55:26.684615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T08:55:27.551803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T08:55:28.585754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T08:55:32.285393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T08:55:33.025282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T08:55:34.552691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T08:55:38.583845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T08:55:39.448449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-10T08:55:40.065322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-10T08:55:43.836984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosnetupitant",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-10T08:55:45.570799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:55:45.585790"
+  }
+}

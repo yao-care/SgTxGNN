@@ -1,0 +1,1223 @@
+{
+  "drug": {
+    "inn": "Letermovir",
+    "drugbank_id": "DB12070",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "vulvovaginal candidiasis",
+        "txgnn_score": 0.9988219141960144,
+        "txgnn_rank": 2294,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fungal infectious disease",
+        "txgnn_score": 0.9893158674240112,
+        "txgnn_rank": 11026,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06057194",
+            "title": "Prospective Study to Assess the Efficacy of Letermovir Prophylaxis in Preventing CMV Infection in Lung Transplant Recipients Compared to a Retrospective Cohort Treated With Standard Valganciclovir Prophylaxis for 12 Months (LETERCOR Study)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2023-10",
+            "completion_date": "2027-04",
+            "country": "Spain",
+            "enrollment": 90,
+            "brief_summary": "The goal of this quasi-experimental multicenter before-after cohort study, phase II study is to evaluate the efficacy of 12-month letermovir prophylaxis in lung transplant recipients (D+/R-) compared to a historical cohort of lung transplant recipients (D+/R-) who received 12 months of valganciclovir prophylaxis to prevent CMV disease.\"",
+            "eligibility_criteria": "Inclusion Criteria (prospective cohort):\n\n* Adults over 18 years old\n* Lung transplant recipients (D+/R-) pre-transplant.\n* Having an undetectable CMV polymerase chain reaction assay (PCR) within the 96 hours prior to the start of letermovir prophylaxis.\n* Patients who have provided written informed",
+            "endpoints": [
+              "Incidence of CMV disease/replication"
+            ],
+            "sponsor": "Maimónides Biomedical Research Institute of Córdoba",
+            "url": "https://clinicaltrials.gov/study/NCT06057194"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05432778",
+            "title": "Cytomegalovirus Prophylaxis With Letermovir in Heart Transplant Recipients: A Non-randomized Cohort Pilot Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-05-01",
+            "completion_date": "2026-08-01",
+            "country": "Slovenia",
+            "enrollment": 90,
+            "brief_summary": "CMV infection is the most prevalent infection after heart transplantation (HTX), occurring in up to 40-60% of the recipients. It most frequently occurs within the first 6 months after transplantation and commonly presents as an asymptomatic viral replication. Viral syndrome or tissue-invasive disease (gastroenteritis, pneumonitis, myocarditis or meningitis) are much less common. Even though CMV infection is generally treatable with virostatic therapy and/or CMV-specific immunoglobulins, direct e",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* heart transplant recipient (new)\n* moderate (D+/R+ and D-/R+) or high (D+/R-) risk CMV serostatus\n* signed informed consent for participation in the study\n\nExclusion Criteria:\n\n* short-term mechanical circulatory support prior HTX\n* ongoing CMV infection/disease\n* D-/R- CMV se",
+            "endpoints": [
+              "The rate of early CMV infections/disease during virostatic prophylaxis."
+            ],
+            "sponsor": "University Medical Centre Ljubljana",
+            "url": "https://clinicaltrials.gov/study/NCT05432778"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06058858",
+            "title": "Incidence and Risks Factors of CMV Reactivation in Patients Receiving of CAR-T Cells for Acute Leukemia and Lymphoma Relapse, a Cohort Study Analysis",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-04-17",
+            "completion_date": "2025-04-17",
+            "country": "France",
+            "enrollment": 250,
+            "brief_summary": "Letermovir is approved for the primary prevention of Cytomegalovirus (CMV) reactivation and infection in hematopoietic stem cell transplant recipients. Letermovir may be beneficial in other clinical presentation where CMV reactivates and may alter clinical outcomes. Recently Chimeric Antigen Receptor (CAR) T cells have been used for the treatment of refractory acute leukemia and B cell lymphoma. Reactivation of chronic viral infections, in particular those belonging to the Herpesviridae family c",
+            "eligibility_criteria": "Common inclusion criteria :\n\n* Paediatric (1 to 18 years old) receiving CART-T cells treatment for refractory acute leukemia or B-cell lymphoma\n* Adult receiving CART-T cells treatment for refractory acute leukemia or B-cell lymphoma\n* CMV seropositive patients\n\nInclusion criteria : retrospective pa",
+            "endpoints": [
+              "Rate of CMV reactivation"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06058858"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "41371495",
+            "title": "Letermovir prophylaxis and risk of bacterial or fungal infection after allogeneic hematopoietic cell transplantation.",
+            "abstract": "Previous reports have suggested an association between cytomegalovirus (CMV) infection and bacterial or fungal infections after allogeneic hematopoietic cell transplantation (HCT). This study aimed to examine the relationship between letermovir (LTV) prophylaxis and the incidence of bacteremia and invasive fungal infections.",
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2026",
+            "authors": [
+              "Kimura Shun-Ichi",
+              "Kawamura Shunto",
+              "Toya Takashi",
+              "Okinaka Keiji",
+              "Hosoi Hiroki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hematopoietic Stem Cell Transplantation",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Bacteremia",
+              "Adult",
+              "Aged",
+              "Antiviral Agents",
+              "Invasive Fungal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41371495/"
+          },
+          {
+            "pmid": "39008997",
+            "title": "Detection and characterisation of a sixth Candida auris clade in Singapore: a genomic and phenotypic study.",
+            "abstract": "The emerging fungal pathogen Candida auris poses a serious threat to global public health due to its worldwide distribution, multidrug resistance, high transmissibility, propensity to cause outbreaks, and high mortality. We aimed to characterise three unusual C auris isolates detected in Singapore, and to determine whether they constitute a novel clade distinct from all previously known C auris clades (I-V).",
+            "journal": "The Lancet. Microbe",
+            "year": "2024",
+            "authors": [
+              "Suphavilai Chayaporn",
+              "Ko Karrie Kwan Ki",
+              "Lim Kar Mun",
+              "Tan Mei Gie",
+              "Boonsimma Patipan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Singapore",
+              "Humans",
+              "Antifungal Agents",
+              "Whole Genome Sequencing",
+              "Candida auris",
+              "Microbial Sensitivity Tests",
+              "Genome, Fungal",
+              "Phenotype",
+              "Candidiasis",
+              "Polymorphism, Single Nucleotide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39008997/"
+          },
+          {
+            "pmid": "32245201",
+            "title": "Make Sure You Have a Safety Net: Updates in the Prevention and Management of Infectious Complications in Stem Cell Transplant Recipients.",
+            "abstract": "Hematopoietic stem cell transplant recipients are at increased risk of infection and immune dysregulation due to reception of cytotoxic chemotherapy; development of graft versus host disease, which necessitates treatment with immunosuppressive medications; and placement of invasive catheters. The prevention and management of infections in these vulnerable hosts is of utmost importance and a key \"safety net\" in stem cell transplantation. In this review, we provide updates on the prevention and management of CMV infection; invasive fungal infections; bacterial infections; Clostridium difficile infection; and EBV, HHV-6, adenovirus and BK infections. We discuss novel drugs, such as letermovir, isavuconazole, meropenem-vaborbactam and bezlotoxumab; weigh the pros and cons of using fluoroquinolone prophylaxis during neutropenia after stem cell transplantation; and provide updates on important viral infections after hematopoietic stem cell transplant (HSCT). Optimizing the prevention and man",
+            "journal": "Journal of clinical medicine",
+            "year": "2020",
+            "authors": [
+              "Santos Carlos A Q",
+              "Rhee Yoona",
+              "Czapka Michael T",
+              "Kazi Aamir S",
+              "Proia Laurie A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32245201/"
+          },
+          {
+            "pmid": "39865001",
+            "title": "Viral and Fungal Infections Early After HLA-Mismatched Hematopoietic Stem Cell Transplantation Using Low-Dose Antithymocyte Globulin in High-Risk Patients With Hematological Malignancies Not in Remission.",
+            "abstract": "In vivo T-cell depletion with antithymocyte globulin (ATG), especially at high-doses has been shown to be associated with increased incidence of infections after allogeneic hematopoietic stem cell transplantation (HSCT). However, it remains unclear whether ATG, even at low-doses increases the risk of posttransplant infections in the high-risk HSCT setting.",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2025",
+            "authors": [
+              "Hirosawa Makoto",
+              "Nakanishi Tsukasa",
+              "Tanaka Aya",
+              "Akao Kenichi",
+              "Higashi Takehiro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antilymphocyte Serum",
+              "Hematopoietic Stem Cell Transplantation",
+              "Male",
+              "Hematologic Neoplasms",
+              "Female",
+              "Adult",
+              "Middle Aged",
+              "Retrospective Studies",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39865001/"
+          },
+          {
+            "pmid": "33965172",
+            "title": "Guidelines for Infection Prophylaxis, Monitoring and Therapy in Cord Blood Transplantation.",
+            "abstract": "As an alternative stem cell source, cord blood (CB) has many advantages. However, delayed engraftment, lack of transferred immunity, and a significant incidence of acute graft-versus-host disease renders CB transplant (CBT) recipients at high risk of infectious complications. This guidance written by CBT and infectious disease experts outlines evidence-based recommendations for the prevention and treatment of opportunistic infections in adult patients undergoing CBT. Topics addressed include bacterial, fungal, viral, pneumocystis jirovcii and toxoplasmosis prophylaxis, suggested PCR monitoring for viruses, therapy for the most commonly encountered infections after CBT. We review key concepts including the recent important role of letermovir in the prevention of CMV reactivation. In instances where there is a paucity of data, practice recommendations are provided, including the duration of antimicrobial prophylaxis.",
+            "journal": "Transplantation and cellular therapy",
+            "year": "2021",
+            "authors": [
+              "Olson Amanda L",
+              "Politikos Ioannis",
+              "Brunstein Claudio",
+              "Milano Fillipo",
+              "Barker Juliet"
+            ],
+            "pub_types": [
+              "Practice Guideline",
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cord Blood Stem Cell Transplantation",
+              "Cytomegalovirus Infections",
+              "Graft vs Host Disease",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Opportunistic Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33965172/"
+          },
+          {
+            "pmid": "39863069",
+            "title": "Letermovir-inclusive combination therapy for a refractory and resistant infection by cytomegalovirus with UL54 mutation following a hematopoietic stem cell transplant for MHC class II deficiency.",
+            "abstract": "Cytomegalovirus (CMV) infection remains one of the most common and challenging post-transplant infections. Children with inborn errors of immunity (IEI) and T-cell dysfunction are at high risk for CMV infection, which can be complicated by refractory and/or resistant cases. This case describes a Nepalese girl with MHC class II deficiency, who presented at 3 months of age with CMV and Pneumocystis jirovecii pneumonia. Hematopoietic stem cell transplantation (HSCT) was planned as a curative treatment for IEI. Initial antiviral therapy with ganciclovir, followed by foscarnet, achieved undetectable CMV viral loads. However, the viral load rebounded during foscarnet therapy. HSCT was performed at 7 months of age using peripheral blood stem cells from her CMV-seropositive father, despite the recipient's high CMV viral load. Empiric combination therapy with cidofovir (an unapproved drug in Japan), foscarnet, leflunomide, and artesunate was initiated. CMV genetic testing revealed UL54 mutation",
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2025",
+            "authors": [
+              "Muhamad Noor Diana Ashaari",
+              "Kanie Nobuhiro",
+              "Otsubo Yuto",
+              "Suzuki Kyogo",
+              "Kinoshita Kazue"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hematopoietic Stem Cell Transplantation",
+              "Cytomegalovirus Infections",
+              "Female",
+              "Antiviral Agents",
+              "Cytomegalovirus",
+              "Infant",
+              "Quinazolines",
+              "Acetates",
+              "Drug Resistance, Viral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39863069/"
+          },
+          {
+            "pmid": "33195184",
+            "title": "Advances in CMV Management: A Single Center Real-Life Experience.",
+            "abstract": "CMV infection is a major challenge in allogeneic stem cell transplantation (allo-SCT). The changing landscape in CMV management includes the introduction of letermovir in prophylaxis of high-risk patients and the source of CMV DNA monitoring (plasma-PL vs. whole blood-WB), for pre-emptive therapy (PET) initiation. We report here how our real-life experience in CMV management evolved, following letermovir registration. We focus on: (i) the effects of systematic use of letermovir for CMV prophylaxis in high-risk patients, (ii) the results of a longitudinal comparison of CMV DNAemia monitoring in PL and WB. From December 2018 to April 2020, 60 allo-SCTs have been performed in our center (LET ERA), of whom 45 received letermovir in prophylaxis from day 0 to day + 100, because of recipient positivity of anti CMV IgG. These patients were compared with a cohort of 41 allo-SCTs performed between November 2017 and November 2018 (NO LET ERA). Firstly, the incidence of CMV clinically significant ",
+            "journal": "Frontiers in cell and developmental biology",
+            "year": "2020",
+            "authors": [
+              "Malagola Michele",
+              "Pollara Caterina",
+              "Polverelli Nicola",
+              "Zollner Tatiana",
+              "Bettoni Daria"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33195184/"
+          },
+          {
+            "pmid": "35212363",
+            "title": "Delayed mortality among solid organ transplant recipients hospitalized for COVID-19.",
+            "abstract": "Most studies of solid organ transplant (SOT) recipients with COVID-19 focus on outcomes within one month of illness onset. Delayed mortality in SOT recipients hospitalized for COVID-19 has not been fully examined.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2022",
+            "authors": [
+              "Heldman Madeleine R",
+              "Kates Olivia S",
+              "Safa Kassem",
+              "Kotton Camille N",
+              "Multani Ashrit"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35212363/"
+          },
+          {
+            "pmid": "35623614",
+            "title": "Voriconazole in Hematopoietic Stem Cell Transplantation and Cellular Therapies: Real-World Usage and Therapeutic Level Attainment at a Major Transplantation Center.",
+            "abstract": "Voriconazole (VCZ) was one of the first mold-active triazoles available; however, its current use among high-risk hematology populations is unknown as the uptake of posaconazole (PCZ) and isavuconazole (ISZ) increases. We evaluated the usage and therapeutic level attainment of VCZ in hematopoietic cell transplantation (HCT) and chimeric antigen receptor T cell (CAR-T) therapy patients at our cancer center. Electronic medical records for all adult HCT or CAR-T patients with an order for VCZ, PCZ, or ISV between January 1, 2018, and June 30, 2020, were extracted. Clinical characteristics, VCZ indication, trough VCZ levels, and frequency of VCZ initiation from 6 months before to 6 months after HCT/CAR-T infusion in consecutive HCT/CAR-T recipients within the study period (infusion between July 1, 2018, and January 1, 2020) were assessed. The association between relevant clinical characteristics and the attainment of subtherapeutic or supratherapeutic levels was also evaluated. Of 468 pati",
+            "journal": "Transplantation and cellular therapy",
+            "year": "2022",
+            "authors": [
+              "Lindsay Julian",
+              "Krantz Elizabeth M",
+              "Morris Jessica",
+              "Sweet Ania",
+              "Tverdek Frank"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antifungal Agents",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Receptors, Chimeric Antigen",
+              "Triazoles",
+              "Voriconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35623614/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tinea nigra",
+        "txgnn_score": 0.9862130880355836,
+        "txgnn_rank": 13426,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant catarrh",
+        "txgnn_score": 0.9847620725631714,
+        "txgnn_rank": 14344,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious bovine rhinotracheitis",
+        "txgnn_score": 0.9847620725631714,
+        "txgnn_rank": 14345,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anogenital human papillomavirus infection",
+        "txgnn_score": 0.9799021482467652,
+        "txgnn_rank": 17068,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "AIDS",
+        "txgnn_score": 0.9786146879196168,
+        "txgnn_rank": 17674,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04840199",
+            "title": "Randomized, Controlled Trial to Evaluate the Anti-inflammatory Efficacy of Letermovir (Prevymis) in Adults With Human Immunodeficiency Virus (HIV)-1 and Asymptomatic Cytomegalovirus (CMV) Who Are on Suppressive ART and Its Effect on Chronic Inflammation, HIV Persistence, and Other Clinical Outcomes",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-04-19",
+            "completion_date": "2023-11-30",
+            "country": "United States",
+            "enrollment": 44,
+            "brief_summary": "This was an open-label, controlled study, conducted at US sites to evaluate the anti-inflammatory effectiveness of the study drug letermovir in adults with HIV and asymptomatic cytomegalovirus (CMV) who were on antiretroviral therapy (ART)-mediated suppression. Participants were randomly assigned to receive either letermovir once daily or no anti-CMV treatment, for 48 weeks.\n\nThe primary hypothesis of this study was that letermovir would cause a greater reduction in plasma soluble receptor for t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. HIV-1 infection, documented by any licensed rapid HIV test or HIV enzyme or chemiluminescence immunoassay (E/CIA) test kit at any time prior to study entry and confirmed by a licensed Western blot or a second antibody test by a method other than the initial rapid HIV and/or E",
+            "endpoints": [
+              "Change (Absolute) in sTNFRII"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04840199"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06118515",
+            "title": "A Phase I Pharmacokinetic and Safety Assessment of Oral Letermovir in Infants With Symptomatic Congenital Cytomegalovirus Disease",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2025-02-19",
+            "completion_date": "2026-08-31",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "This is a Phase 1 single-arm open-label study of letermovir in neonates with symptomatic congenital Cytomegalovirus (CMV) disease. There will be two groups enrolled. Group 1 will be comprised of 4 subjects. Following documentation study inclusion and signing of informed consent, Group 1 subjects will receive one dose of oral letermovir (Study Day 0), using the dose bands. A full pharmacokinetics (PK) profile will then be obtained over the next 24 hours, and blood specimens will be shipped immedi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed informed consent from parent(s) or legal guardian(s)\n2. Cytomegalovirus (CMV) confirmation by culture, shell vial, or Polymerase Chain Reaction (PCR) tests from a specimen obtained at \\</= 30 days of life from saliva, blood, or urine\n3. Symptomatic congenital CMV disea",
+            "endpoints": [
+              "Plasma letermovir area under the curve (AUC24) concentrations"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT06118515"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06626555",
+            "title": "Pilot, Randomized, Open-Label, Non-Active Comparator Controlled Clinical Trial to Evaluate the Effects of Letermovir Prophylaxis on T-cell Immune Activation in Participants With Treated HIV-1 Infection",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-10",
+            "completion_date": "2026-03",
+            "country": "N/A",
+            "enrollment": 36,
+            "brief_summary": "People living with HIV (PLWH), even with an undetectable viral load (VL) on antiretroviral treatment (ART), develop health conditions, such as heart disease, diabetes, various cancers, and conditions that can affect the brain, more commonly than the general population.\n\nThese conditions occur earlier in PLWH compared to HIV negative individuals with similar lifestyles. Ongoing inflammation in the body despite antiretroviral therapy is thought to be contributing to the development of these condit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Is HIV-1 antibody positive with a plasma HIV-1 RNA ≤50 copies/mL for greater than 12 months\n* ≥50 years of age of any gender\n* Females of childbearing potential who agree to avoid pregnancy for the duration of the trial and follow methods of contraception as detailed in sectio",
+            "endpoints": [
+              "Change in activation in global CD8 T cells in response to letermovir."
+            ],
+            "sponsor": "University College, London",
+            "url": "https://clinicaltrials.gov/study/NCT06626555"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05362916",
+            "title": "Influence of a 3-month Letermovir Treatment on Gut Inflammation in ART-treated HIV-infected Persons in an Open Labelled Controlled Randomized Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-09-26",
+            "completion_date": "2025-01-27",
+            "country": "Canada",
+            "enrollment": 33,
+            "brief_summary": "This is a multi-centre, open-label, randomized, controlled clinical trial to assess the influence of letermovir on gut translocation marker LPS in blood in ART-treated cytomegalovirus (CMV)-seropositive adult people living with HIV (PLWH). The study will explore the influence of letermovir treatment on gut damage, with no intention for label change. Participants (n=60) should have a cluster of differentiation 4 cells (CD4) count greater than 400 cells/µl and a negative viral load. Forty (40) par",
+            "eligibility_criteria": "Inclusion Criteria:\n\nParticipants will be eligible for the study if they meet the following criteria:\n\n1. Male or female adults ≥18 years of age.\n2. Documented HIV-1 infection by Western Blot, Enzyme Immuno Assay (EIA) or viral load assay.\n3. CMV seropositive (as per clinical lab test).\n4. On ART fo",
+            "endpoints": [
+              "Gut Inflammation"
+            ],
+            "sponsor": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+            "url": "https://clinicaltrials.gov/study/NCT05362916"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "25779572",
+            "title": "In vitro drug combination studies of Letermovir (AIC246, MK-8228) with approved anti-human cytomegalovirus (HCMV) and anti-HIV compounds in inhibition of HCMV and HIV replication.",
+            "abstract": "Despite modern prevention and treatment strategies, human cytomegalovirus (HCMV) remains a common opportunistic pathogen associated with serious morbidity and mortality in immunocompromised individuals, such as transplant recipients and AIDS patients. All drugs currently licensed for the treatment of HCMV infection target the viral DNA polymerase and are associated with severe toxicity issues and the emergence of drug resistance. Letermovir (AIC246, MK-8228) is a new anti-HCMV agent in clinical development that acts via a novel mode of action and has demonstrated anti-HCMV activity in vitro and in vivo. For the future, drug combination therapies, including letermovir, might be indicated under special medical conditions, such as the emergence of multidrug-resistant virus strains in transplant recipients or in HCMV-HIV-coinfected patients. Accordingly, knowledge of the compatibility of letermovir with other HCMV or HIV antivirals is of medical importance. Here, we evaluated the inhibitio",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2015",
+            "authors": [
+              "Wildum Steffen",
+              "Zimmermann Holger",
+              "Lischka Peter"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Anti-HIV Agents",
+              "Antiviral Agents",
+              "Cell Line",
+              "Cytomegalovirus",
+              "Drug Combinations",
+              "Drug Resistance, Viral",
+              "Humans",
+              "Quinazolines",
+              "Virus Replication"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25779572/"
+          },
+          {
+            "pmid": "35343771",
+            "title": "Assessment of UL56 Mutations before Letermovir Therapy in Refractory Cytomegalovirus Transplant Recipients.",
+            "abstract": "De novo mutations in the UL56 terminase subunit and its associated phenotypes were studied in the context of cytomegalovirus (CMV) transplant recipients clinically resistant to DNA-polymerase inhibitors, naive to letermovir. R246C was the only UL56 variant detected by standard and deep sequencing, located within the letermovir-resistance-associated region (residues 230-370). R246C emerged in 2/80 transplant recipients (1 hematopoietic and 1 heart) since first cytomegalovirus replication and responded transiently to various alternative antiviral treatments in vivo. Recombinant phenotyping showed R246C conferred an advanced viral fitness and was sensitive to ganciclovir, cidofovir, foscarnet, maribavir, and letermovir. These results demonstrate a low rate (2.5%) of natural occurring polymorphisms within the letermovir-resistant-associated region before its administration. Identification of high replicative capacity variants in patients not responding to treatment or experiencing relapses",
+            "journal": "Microbiology spectrum",
+            "year": "2022",
+            "authors": [
+              "Santos Bravo Marta",
+              "Tilloy Valentin",
+              "Plault Nicolas",
+              "Palomino Sonsoles Sánchez",
+              "Mosquera María Mar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Antiviral Agents",
+              "Cytomegalovirus",
+              "Cytomegalovirus Infections",
+              "Drug Resistance, Viral",
+              "Humans",
+              "Mutation",
+              "Quinazolines",
+              "Recurrence",
+              "Transplant Recipients"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35343771/"
+          },
+          {
+            "pmid": "36690406",
+            "title": "Influence of letermovir treatment on gut inflammation in people living with HIV on antiretroviral therapy: protocol of the open-label controlled randomised CIAO study.",
+            "abstract": "Chronic cytomegalovirus (CMV) infection is very frequent in people living with HIV (PLWH). High anti-CMV IgG titres, which may be linked to transient CMV replication, have been associated with earlier mortality, CD8 T-cell expansion, lower CD4/CD8 ratio and increased T-cell senescence. We previously showed that anti-CMV IgG titres correlated with gut permeability in PLWH on antiretroviral therapy (ART), which was associated with microbial translocation, systemic inflammation and non-infectious/non-AIDS comorbidities. Letermovir, a novel anti-CMV drug with a good safety profile, was recently approved for anti-CMV prophylaxis in allogeneic haematopoietic stem cell transplant recipients. A drastic and selective reduction of both low-grade replication and clinically significant CMV infections, combined with an improved immune reconstitution have been reported. In vitro, letermovir prevented CMV-induced epithelial disruption in intestinal tissues. Based on these findings, we aim to assess w",
+            "journal": "BMJ open",
+            "year": "2023",
+            "authors": [
+              "Royston Léna",
+              "Isnard Stéphane",
+              "Berini Carolina A",
+              "Bu Simeng",
+              "Lakatos Peter L"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "HIV Infections",
+              "Cytomegalovirus Infections",
+              "Cytomegalovirus",
+              "Inflammation",
+              "Antiviral Agents",
+              "Randomized Controlled Trials as Topic",
+              "Multicenter Studies as Topic",
+              "Acetates",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36690406/"
+          },
+          {
+            "pmid": "33489928",
+            "title": "A Novel Triple-Fluorescent HCMV Strain Reveals Gene Expression Dynamics and Anti-Herpesviral Drug Mechanisms.",
+            "abstract": "Human Cytomegalovirus (HCMV) infection may result in severe outcomes in immunocompromised individuals such as AIDS patients, transplant recipients, and neonates. To date, no vaccines are available and there are only few drugs for anti-HCMV therapy. Adverse effects and the continuous emergence of drug-resistance strains require the identification of new drug candidates in the near future. Identification and characterization of such compounds and biological factors requires sensitive and reliable detection techniques of HCMV infection, gene expression and spread. In this work, we present and validate a novel concept for multi-reporter herpesviruses, identified through iterative testing of minimally invasive mutations. We integrated up to three fluorescence reporter genes into replication-competent HCMV strains, generating reporter HCMVs that allow the visualization of replication cycle stages of HCMV, namely the immediate early (IE), early (E), and late (L) phase. Fluorescent proteins wi",
+            "journal": "Frontiers in cellular and infection microbiology",
+            "year": "2020",
+            "authors": [
+              "Rand Ulfert",
+              "Kubsch Tobias",
+              "Kasmapour Bahram",
+              "Cicin-Sain Luka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "Cytomegalovirus",
+              "Gene Expression",
+              "Herpesviridae",
+              "Humans",
+              "Infant, Newborn",
+              "Pharmaceutical Preparations",
+              "Virus Replication"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33489928/"
+          },
+          {
+            "pmid": "32041199",
+            "title": "Acute Myeloid Leukemia in Patients Living with HIV Infection: Several Questions, Fewer Answers.",
+            "abstract": "Both human immunodeficiency virus (HIV) infection and acute myeloid leukemia (AML) may be considered relatively uncommon disorders in the general population, but the precise incidence of AML in people living with HIV infection (PLWH) is uncertain. However, life expectancy of newly infected HIV-positive patients receiving anti-retroviral therapy (ART) is gradually increasing, rivaling that of age-matched HIV-negative individuals, so that the occurrence of AML is also expected to progressively increase. Even if HIV is not reported to be directly mutagenic, several indirect leukemogenic mechanisms, mainly based on bone marrow microenvironment disruption, have been proposed. Despite a well-controlled HIV infection under ART should no longer be considered per se a contraindication to intensive chemotherapeutic approaches, including allogeneic hematopoietic stem cell transplantation, in selected fit patients with AML, survival outcomes are still generally unsatisfactory. We discussed several",
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "authors": [
+              "Forghieri Fabio",
+              "Nasillo Vincenzo",
+              "Bettelli Francesca",
+              "Pioli Valeria",
+              "Giusti Davide"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Retroviral Agents",
+              "Comorbidity",
+              "Drug Therapy",
+              "HIV Infections",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Survival Analysis",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32041199/"
+          },
+          {
+            "pmid": "30086336",
+            "title": "Meeting report: 31st International Conference on Antiviral Research.",
+            "abstract": "The 31st International Conference on Antiviral Research (ICAR) was held in Porto, Portugal from June 11-15, 2018. In this report, volunteer rapporteurs provide their summaries of scientific presentations, hoping to effectively convey the speakers' goals and the results and conclusions of their talks. This report provides an overview of the invited keynote and award lectures and highlights of short oral presentations, from the perspective of experts in antiviral research. Of note, a session on human cytomegalovirus included an update on the introduction to the clinic of letermovir for the prevention of CMV infection and disease. The 31st ICAR successfully promoted new discoveries in antiviral research and drug development. The 32nd ICAR will be held in Baltimore, Maryland, USA, May 6-10, 2019.",
+            "journal": "Antiviral research",
+            "year": "2018",
+            "authors": [
+              "Bray Mike",
+              "Andrei Graciela",
+              "Ballana Ester",
+              "Carter Kara",
+              "Durantel David"
+            ],
+            "pub_types": [
+              "Conference Proceedings"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "Awards and Prizes",
+              "Drug Discovery",
+              "Humans",
+              "Portugal",
+              "Research"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30086336/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatophytosis",
+        "txgnn_score": 0.9766187071800232,
+        "txgnn_rank": 18590,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "piedra",
+        "txgnn_score": 0.971578061580658,
+        "txgnn_rank": 20678,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "varicella zoster infection",
+        "txgnn_score": 0.9686874747276306,
+        "txgnn_rank": 21732,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05789615",
+            "title": "Letermovir Prophylaxis for Cytomegalovirus Infection in Haploidentical Allogeneic Hematopoietic Cell Transplant Recipients: Single-center Real-world Data in China",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2023-04-01",
+            "completion_date": "2025-01-10",
+            "country": "China",
+            "enrollment": 200,
+            "brief_summary": "In the 30 years of fighting CMV infection, the mortality rate among HSCT patients has significantly reduced. Now, the focus is on improving the prognosis of HSCT patients and preventing CMV infection. The emergence of letermovir has provided a new opportunity in this regard. Letermovir, the only drug approved for CMV infection prevention in HSCT patients, works by inhibiting the CMV DNA terminase complex. Phase III studies have shown that letermovir significantly reduces CMV infection and all-ca",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Haplo-SCT candidate (adult) who has decided to primary transplant and is willing to participate in the study.\n* The haplo-SCT candidate (adult) should be CMV seropositive recipients.\n\nExclusion Criteria:\n\n* CMV-seronegative patient receiving a negative CMV donor graft.\n* Patie",
+            "endpoints": [
+              "Incidence of clinically significant CMV infection"
+            ],
+            "sponsor": "The First Affiliated Hospital of Soochow University",
+            "url": "https://clinicaltrials.gov/study/NCT05789615"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05041426",
+            "title": "An Open-label Pilot Protocol to Evaluate the Efficacy of Letermovir for the Prevention of Human Cytomegalovirus (CMV) Infection and Disease in Adult Lung Transplant Recipients With Idiopathic Pulmonary Fibrosis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-12-06",
+            "completion_date": "2025-03-03",
+            "country": "United States",
+            "enrollment": 16,
+            "brief_summary": "This is an interventional, open-label, single center, pilot study with historical controls to test the efficacy of letermovir (LET) for the prevention of CMV infection and disease in adult lung transplant recipients (LTRs) with idiopathic pulmonary fibrosis (IPF).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years on day of signing informed consent\n* Listed for lung transplantation (single or double) due to a diagnosis of IPF or receipt of a lung transplant (single or double) for IPF in the 72 hours prior to enrollment\n* Have a documented positive serostatus for CMV (CMV I",
+            "endpoints": [
+              "Occurrence of CMV infection or disease during prophylaxis",
+              "Occurrence of CMV infection or disease in the 3 months following completion of prophylaxis"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT05041426"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38517165",
+            "title": "Mutagenesis and functional analysis of the varicella-zoster virus portal protein.",
+            "abstract": "Herpesviruses replicate by cleaving concatemeric dsDNA into single genomic units that are packaged through an oligomeric portal present in preformed procapsids. In contrast to what is known about phage portal proteins, details concerning herpesvirus portal structure and function are not as well understood. A panel of 65 Varicella-Zoster virus (VZV) recombinant portal proteins with five amino acid in-frame insertions were generated by random transposon mutagenesis of the VZV portal gene, ORF54. Subsequently, 65 VZVLUC recombinant viruses (TNs) were generated via recombineering. Insertions were mapped to predicted portal domains (clip, wing, stem, wall, crown, and β-hairpin tunnel-loop) and recombinant viruses were characterized for plaque morphology, replication kinetics, pORF54 expression, and classified based on replication in non-complementing (ARPE19) or complementing (ARPE54C50) cell lines. The N- and C-termini were tolerant to insertion mutagenesis, as were certain clip sub-domain",
+            "journal": "Journal of virology",
+            "year": "2024",
+            "authors": [
+              "Visalli Melissa A",
+              "Nale Lovett Dakota J",
+              "Kornfeind Ellyn M",
+              "Herrington Haley",
+              "Xiao Yi Tian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Herpesvirus 3, Human",
+              "Mutagenesis",
+              "Virus Replication",
+              "Herpesviridae Infections",
+              "DNA",
+              "Amino Acids",
+              "Mammals"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38517165/"
+          },
+          {
+            "pmid": "38945270",
+            "title": "Advances and prospect in herpesviruses infections after haematopoietic cell transplantation: closer to the finish line?",
+            "abstract": "Herpesviruses represent common and significant infectious complications after allogeneic haematopoietic cell transplantation (HCT). In the last decade, major advances in the prevention and treatment of these infections were accomplished.",
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2025",
+            "authors": [
+              "Sassine Joseph",
+              "Siegrist Emily A",
+              "Shafat Tali Fainguelernt",
+              "Chemaly Roy F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hematopoietic Stem Cell Transplantation",
+              "Antiviral Agents",
+              "Herpesviridae Infections",
+              "Herpesviridae",
+              "Herpesvirus 3, Human"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38945270/"
+          },
+          {
+            "pmid": "32143894",
+            "title": "Prevention and therapy of viral infections in patients with solid organ transplantation.",
+            "abstract": "Solid organ transplantation (SOT) is the best treatment option for end-stage organ disease. The number of SOT procedures has been steadily increasing worldwide during the past decades. This trend has been accompanied by the continuous incorporation of new antimicrobial drugs and by the refinement of strategies aimed at minimizing the risk of opportunistic infection. Nonetheless, viral infections, which can occur at any stage of the post-transplant period, remain a clinical challenge that negatively impacts both patient and graft outcomes. This review offers an overview of the most relevant viral infections in the SOT population, with a focus on herpesviruses (cytomegalovirus, Epstein-Barr virus, varicella-zoster virus, and herpes simplex virus 1 and 2) and polyomaviruses (human BK polyomavirus). In addition, the currently recommended prophylactic and treatment approaches are summarized, as well as the new antiviral agents in different phases of clinical development.",
+            "journal": "Enfermedades infecciosas y microbiologia clinica (English ed.)",
+            "year": "2021",
+            "authors": [
+              "Silva Jose Tiago",
+              "Fernández-Ruiz Mario",
+              "Aguado José María"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Epstein-Barr Virus Infections",
+              "Herpesvirus 4, Human",
+              "Humans",
+              "Organ Transplantation",
+              "Pharmaceutical Preparations",
+              "Virus Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32143894/"
+          },
+          {
+            "pmid": "25452035",
+            "title": "Recent advances in cytomegalovirus: an update on pharmacologic and cellular therapies.",
+            "abstract": "The 2015 Tandem American Society for Blood and Marrow Transplantation/Center for International Blood and Marrow Transplant Meetings provide an opportunity to review the current status and future perspectives on therapy for cytomegalovirus (CMV) infection in the setting of hematopoietic stem cell transplantation (HSCT). After many years during which we have seen few tangible advances in terms of new antiviral drugs, we are now experiencing an exciting period of late-stage drug development, characterized by a series of phase III trials incorporating a variety of novel agents. These trials have the potential to shift our current standard therapeutic strategies, which generally involve pre-emptive therapy based on sensitive molecular surveillance, towards the prophylactic approaches we see more generally with other herpes viruses such as herpes simplex and varicella zoster. This comes at a time when the promise of extensive preclinical research has been translated into encouraging clinical",
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2015",
+            "authors": [
+              "Boeckh Michael",
+              "Murphy William J",
+              "Peggs Karl S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Adoptive Transfer",
+              "Animals",
+              "Antiviral Agents",
+              "Benzimidazoles",
+              "Cell- and Tissue-Based Therapy",
+              "Clinical Trials, Phase III as Topic",
+              "Cytomegalovirus",
+              "Cytomegalovirus Infections",
+              "Cytosine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25452035/"
+          },
+          {
+            "pmid": "31627903",
+            "title": "[Antiviral prophylaxis for CMV, HSV/VZV and HBV in allogeneic hematopoietic cell transplantation in adult patients: Guidelines from the Francophone Society of Bone Marrow Transplantation and Cellular Therapy (SFGM-TC)].",
+            "abstract": "The Francophone Society of Bone Marrow Transplantation and Cellular Therapy (SFGM-TC) organizes annual workshops in the attempt to harmonize clinical practices among different francophone transplantation centers. Here, we report our recommendations regarding the prophylaxis of cytomegalovirus (CMV), herpes simplex virus (HSV), varicella zoster virus (VZV) and hepatitis B virus infection after allogeneic hematopoietic cell transplantation in adult patients.",
+            "journal": "Bulletin du cancer",
+            "year": "2020",
+            "authors": [
+              "Brissot Eolia",
+              "Alsuliman Tamim",
+              "Beauvais David",
+              "Bonnin Agnès",
+              "Mear Jean-Baptiste"
+            ],
+            "pub_types": [
+              "Consensus Statement",
+              "Journal Article",
+              "Practice Guideline",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Adult",
+              "Allografts",
+              "Antiviral Agents",
+              "Cytomegalovirus Infections",
+              "Hematopoietic Stem Cell Transplantation",
+              "Hepatitis B",
+              "Herpes Simplex",
+              "Herpes Zoster",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31627903/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12070",
+    "name": "Letermovir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Letermovir"
+      },
+      "queried_at": "2026-03-09T18:10:41.005801",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Letermovir"
+      },
+      "queried_at": "2026-03-09T18:11:02.710622",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "queried_at": "2026-03-09T18:11:05.190721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "queried_at": "2026-03-09T18:11:10.609705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "queried_at": "2026-03-09T18:11:12.496412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "fungal infectious disease"
+      },
+      "queried_at": "2026-03-09T18:11:13.901870",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "fungal infectious disease"
+      },
+      "queried_at": "2026-03-09T18:11:18.727537",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "fungal infectious disease"
+      },
+      "queried_at": "2026-03-09T18:11:26.711707",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "tinea nigra"
+      },
+      "queried_at": "2026-03-09T18:11:27.555984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "tinea nigra"
+      },
+      "queried_at": "2026-03-09T18:11:31.246448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "tinea nigra"
+      },
+      "queried_at": "2026-03-09T18:11:33.643201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-09T18:11:34.614207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-09T18:11:38.600096",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-09T18:11:42.597100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-09T18:11:43.837170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-09T18:11:49.541935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-09T18:11:59.813284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "queried_at": "2026-03-09T18:12:03.057653",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "queried_at": "2026-03-09T18:12:12.823377",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "queried_at": "2026-03-09T18:12:14.969335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "AIDS"
+      },
+      "queried_at": "2026-03-09T18:12:15.982357",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "AIDS"
+      },
+      "queried_at": "2026-03-09T18:12:22.621591",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "AIDS"
+      },
+      "queried_at": "2026-03-09T18:12:30.035583",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "dermatophytosis"
+      },
+      "queried_at": "2026-03-09T18:12:31.039320",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "dermatophytosis"
+      },
+      "queried_at": "2026-03-09T18:12:36.037926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "dermatophytosis"
+      },
+      "queried_at": "2026-03-09T18:12:36.939795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "piedra"
+      },
+      "queried_at": "2026-03-09T18:12:37.789393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "piedra"
+      },
+      "queried_at": "2026-03-09T18:12:42.158027",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "piedra"
+      },
+      "queried_at": "2026-03-09T18:12:43.239884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "varicella zoster infection"
+      },
+      "queried_at": "2026-03-09T18:12:44.453566",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "varicella zoster infection"
+      },
+      "queried_at": "2026-03-09T18:12:48.847002",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Letermovir",
+        "disease": "varicella zoster infection"
+      },
+      "queried_at": "2026-03-09T18:12:52.248308",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:12:52.254614"
+  }
+}

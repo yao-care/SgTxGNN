@@ -1,0 +1,2756 @@
+{
+  "drug": {
+    "inn": "Caspofungin",
+    "drugbank_id": "DB00520",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gastrin secretion abnormality",
+        "txgnn_score": 0.9944224953651428,
+        "txgnn_rank": 6987,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.9891374707221984,
+        "txgnn_rank": 11166,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "abnormality of glucagon secretion",
+        "txgnn_score": 0.9766967296600342,
+        "txgnn_rank": 18558,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HIV infectious disease",
+        "txgnn_score": 0.9673203825950624,
+        "txgnn_rank": 22121,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00005921",
+            "title": "An Open, Serial-Panel, Multiple-Dose Study to Investigate the Safety, Tolerability, and Pharmacokinetics of L-743,872 in Patients With Candida Esophagitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 18,
+            "brief_summary": "The purpose of this study is to see if it is safe to give L-743,872 to men with candidal esophagitis, an AIDS-related yeast infection in the esophagus.",
+            "eligibility_criteria": "Inclusion Criteria\n\nYou may be eligible for this study if you:\n\n* Are an 18- to 65-year-old man with candidal esophagitis.",
+            "endpoints": [],
+            "sponsor": "NIH AIDS Clinical Trials Information Service",
+            "url": "https://clinicaltrials.gov/study/NCT00005921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00005920",
+            "title": "A Multiclinic, Double-Blind, Randomized, Dose-Comparison Study to Evaluate the Safety, Tolerability, and Efficacy of L-743,872 in the Treatment of Fluconazole-Unresponsive Oropharyngeal Candidiasis in Adults",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 70,
+            "brief_summary": "The purpose of this study is to see if it is safe and effective to give L-743,872 to patients with thrush, an AIDS-related yeast infection of the mouth, that has not been cured with fluconazole treatment.",
+            "eligibility_criteria": "Inclusion Criteria\n\nYou may be eligible for this study if you:\n\n* Have thrush that has not responded to fluconazole treatment.\n* Are 18-65 years old.",
+            "endpoints": [],
+            "sponsor": "NIH AIDS Clinical Trials Information Service",
+            "url": "https://clinicaltrials.gov/study/NCT00005920"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06691321",
+            "title": "Efficacy of Caspofungin for Pneumocystis Jirovecii Pneumonia in People Living With HIV/AIDS.",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2023-08-01",
+            "completion_date": "2025-09-01",
+            "country": "Mexico",
+            "enrollment": 60,
+            "brief_summary": "Pneumocystis jirovecii pneumonia is a significant concern in peaple with HIV/AIDS, often severe and potentially fatal. While trimethoprim/sulfamethoxazole remains the primary treatment, safety concerns exist with alternative options. Research on Pneumocystis jirovecii's beta-D glucan composition has prompted investigations into echinocandins like caspofungin, showing promise in murine models and some positive results in human studies. Evaluating caspofungin's efficacy through observational studi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of probable or proven PCP, according to its diagnostic classification (refer to classification at the end of this section).\n* Have clinical laboratory and virological diagnostic laboratory studies at the time of admission.\n\n  * Classification criteria for Pneumonia b",
+            "endpoints": [
+              "Mortality by group at a 30-day follow up."
+            ],
+            "sponsor": "Instituto Nacional de Enfermedades Respiratorias",
+            "url": "https://clinicaltrials.gov/study/NCT06691321"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38935903",
+            "title": "Histoplasmosis: A systematic review to inform the World Health Organization of a fungal priority pathogens list.",
+            "abstract": "Histoplasmosis, a significant mycosis primarily prevalent in Africa, North and South America, with emerging reports globally, poses notable health challenges, particularly in immunocompromised individuals such as people living with HIV/AIDS and organ transplant recipients. This systematic review, aimed at informing the World Health Organization's Fungal Priority Pathogens List, critically examines literature from 2011 to 2021 using PubMed and Web of Science, focusing on the incidence, mortality, morbidity, antifungal resistance, preventability, and distribution of Histoplasma. We also found a high prevalence (22%-44%) in people living with HIV, with mortality rates ranging from 21% to 53%. Despite limited data, the prevalence of histoplasmosis seems stable, with lower estimates in Europe. Complications such as central nervous system disease, pulmonary issues, and lymphoedema due to granuloma or sclerosis are noted, though their burden remains uncertain. Antifungal susceptibility varies",
+            "journal": "Medical mycology",
+            "year": "2024",
+            "authors": [
+              "Dao Aiken",
+              "Kim Hannah Yejin",
+              "Halliday Catriona L",
+              "Oladele Rita",
+              "Rickerts Volker"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Histoplasmosis",
+              "Antifungal Agents",
+              "World Health Organization",
+              "Drug Resistance, Fungal",
+              "Histoplasma",
+              "Prevalence",
+              "Immunocompromised Host"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38935903/"
+          },
+          {
+            "pmid": "17501701",
+            "title": "The use of caspofungin in HIV-infected individuals.",
+            "abstract": "Fungal infections are a significant cause of HIV-related morbidity and mortality, particularly in the developing world, but also in countries with access to highly active antiretroviral therapy. New agents are essential to improve present efficacy rates, particularly in cases of drug resistance. Caspofungin is a new antifungal from the echinocandin class and is licensed for the treatment of candidal infections and as a second-line therapy for invasive aspergillosis. In this paper, the pharmacology, interaction and susceptibility data for this agent are reviewed and studies supporting the use of this agent in HIV-infected individuals are examined. Finally, evidence for the use of caspofungin for the treatment of Pneumocystis jiroveci pneumonia, an unlicensed indication, including a case series from our own unit is explored.",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2007",
+            "authors": [
+              "Waters Laura",
+              "Nelson Mark"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Aspergillosis",
+              "Candidiasis",
+              "Caspofungin",
+              "Drug Interactions",
+              "Echinocandins",
+              "HIV Infections",
+              "Humans",
+              "Lipopeptides",
+              "Peptides, Cyclic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17501701/"
+          },
+          {
+            "pmid": "12230933",
+            "title": "Response and relapse rates of candidal esophagitis in HIV-infected patients treated with caspofungin.",
+            "abstract": "Caspofungin is a new antifungal drug of the echinocandin class. We analyzed the clinical efficacy of caspofungin (50 mg/day) in the treatment of HIV-infected adults with endoscopically documented Candida esophagitis and enrolled in four clinical trials of caspofungin. Symptoms were evaluated daily; a favorable outcome required complete resolution of all esophageal symptoms assessed at the time of discontinuation of therapy. Relapse was defined as recurrent symptoms during the subsequent 2 weeks. A multivariate logistic regression model was developed to identify potential factors (including severity of symptoms at presentation, CD4(+) cell count on entry, extent of disease [assessed endoscopically at baseline], causative Candida species, duration of therapy [overall and after resolution of symptoms], time on treatment before symptom resolution, and antifungal prophylaxis) that might predict symptomatic relapse in the 2 weeks following completion of therapy. The median CD4(+) lymphocyte ",
+            "journal": "AIDS research and human retroviruses",
+            "year": "2002",
+            "authors": [
+              "Dinubile Mark J",
+              "Lupinacci Robert J",
+              "Berman Rayanne S",
+              "Sable Carole A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Candidiasis",
+              "Caspofungin",
+              "Double-Blind Method",
+              "Echinocandins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12230933/"
+          },
+          {
+            "pmid": "28978595",
+            "title": "HIV-related Pneumocystis jirovecii pneumonia managed with caspofungin and veno-venous extracorporeal membrane oxygenation rescue therapy.",
+            "abstract": "Patients with pneumocystis pneumonia have a risk of progressing to acute respiratory failure necessitating admission to intensive care. The case described is of a patient with a newly diagnosed HIV infection presenting with pneumocystis pneumonia. Despite initiating the appropriate pharmacological treatment the patient's clinical condition deteriorated, and required both rescue pharmacological therapy with echinocandins as well as respiratory support with extracorporeal membrane oxygenation therapy. The patient recovered well on ventilator and circulatory support despite a long weaning process complicated by sequelae common to pneumocystis pneumonia. Following initialisation of antiretroviral therapy and step-down from an intensive care setting, the patient required further prolonged hospital stay for rehabilitation and mental health support before being discharged. This case reviews the novel pharmacological therapies and respiratory support strategies used in cases of pneumocystis pn",
+            "journal": "BMJ case reports",
+            "year": "2017",
+            "authors": [
+              "Lee Nathaniel",
+              "Lawrence David",
+              "Patel Brijesh",
+              "Ledot Stephane"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Retroviral Agents",
+              "Antifungal Agents",
+              "Cough",
+              "Diagnosis, Differential",
+              "Drug Therapy, Combination",
+              "Echinocandins",
+              "Extracorporeal Membrane Oxygenation",
+              "Female",
+              "Fever",
+              "HIV Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28978595/"
+          },
+          {
+            "pmid": "38822256",
+            "title": "Drug-resistant oral candidiasis in patients with HIV infection: a systematic review and meta-analysis.",
+            "abstract": "Oral candidiasis (OC) is a prevalent opportunistic infection in patients with human immunodeficiency virus (HIV) infection. The increasing resistance to antifungal agents in HIV-positive individuals suffering from OC raised concerns. Thus, this study aimed to investigate the prevalence of drug-resistant OC in HIV-positive patients.",
+            "journal": "BMC infectious diseases",
+            "year": "2024",
+            "authors": [
+              "Keyvanfar Amirreza",
+              "Najafiarab Hanieh",
+              "Talebian Niki",
+              "Tafti Mahdi Falah",
+              "Adeli Gelareh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Candidiasis, Oral",
+              "Antifungal Agents",
+              "HIV Infections",
+              "Drug Resistance, Fungal",
+              "Candida",
+              "Prevalence",
+              "Microbial Sensitivity Tests",
+              "AIDS-Related Opportunistic Infections",
+              "Fluconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38822256/"
+          },
+          {
+            "pmid": "16274746",
+            "title": "Candida albicans endocarditis treatment with caspofungin in an HIV-infected patient--case report and review of literature.",
+            "abstract": "Caspofungin has recently been introduced for the treatment of invasive candidiasis, however, there is limited data on its use in endocarditis. We report a 22-year-old male HIV-infected patient on methadone maintenance therapy that developed right-sided Candida albicans endocarditis. Caspofungin treatment and vegetectomy, followed by fluconazole, was successful in the treatment of our patient. We also review all previous cases of Candida endocarditis treated with caspofungin.",
+            "journal": "The Journal of infection",
+            "year": "2006",
+            "authors": [
+              "Bacak Valentina",
+              "Biocina Bojan",
+              "Starcevic Boris",
+              "Gertler Sarah",
+              "Begovac Josip"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Adult",
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis",
+              "Caspofungin",
+              "Echinocandins",
+              "Endocarditis",
+              "HIV Infections",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16274746/"
+          },
+          {
+            "pmid": "36749248",
+            "title": "Pneumocystis pneumonia in a patient with diabetes mellitus: A case report.",
+            "abstract": "Pneumocystis pneumonia (PCP) is an opportunistic infection of patients with congenital or acquired immunodeficiency. It is most frequently occurred in human immunodeficiency virus (HIV) infection, organ transplantation, leukemia, and immunosuppressive therapy. Here we describe the rare case of PCP in a non-HIV-infected diabetic patient and find possible reasons for the association through a literature review.",
+            "journal": "Medicine",
+            "year": "2023",
+            "authors": [
+              "Li Ziling",
+              "Xu Shuyun",
+              "Shi Jing",
+              "Zhang Yong"
+            ],
+            "pub_types": [
+              "Review",
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Aged",
+              "Pneumonia, Pneumocystis",
+              "Pneumocystis carinii",
+              "Trimethoprim, Sulfamethoxazole Drug Combination",
+              "HIV Infections",
+              "Diabetes Mellitus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36749248/"
+          },
+          {
+            "pmid": "30019443",
+            "title": "Iranian HIV/AIDS patients with oropharyngeal candidiasis: identification, prevalence and antifungal susceptibility of Candida species.",
+            "abstract": "Oropharyngeal candidiasis is the commonest mucocutaneous infection in HIV-positive individuals. Herein, samples were taken from oral cavities of 150 HIV-infected patients and cultured on Sabouraud-dextrose agar; 89 (59·3%) of 150 patients had positive culture for Candida and presented clinical sign of classical oral candidiasis. Totally, 102 morphologically distinct colonies were isolated from Candida positive cultures and subsequently identified by polymerase chain reaction and sequencing assay, presenting the following frequency: 54 C. albicans (52·9%), 16 C. dubliniensis (15·7%), 12 C. tropicalis (11·8%), 9 C. glabrata (8·8%), 7 C. kefyr (6·9%) and 4 C. africana (3·9%). Additionally, multiple Candida species were co-isolated from 13·5% (12/89) patients. Regarding the antifungal susceptibility test, which was performed by CLSI protocol (M27-A3/M27-S3), all Candida isolates were susceptible to amphotericin B and caspofungin, while some of them were resistant to fluconazole (17·6%; 16 ",
+            "journal": "Letters in applied microbiology",
+            "year": "2018",
+            "authors": [
+              "Khedri S",
+              "Santos A L S",
+              "Roudbary M",
+              "Hadighi R",
+              "Falahati M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis, Oral",
+              "Caspofungin",
+              "Drug Resistance, Multiple, Fungal",
+              "Echinocandins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30019443/"
+          },
+          {
+            "pmid": "15161325",
+            "title": "Mucosal and systemic fungal infections in patients with AIDS: prophylaxis and treatment.",
+            "abstract": "In countries where highly active antiretroviral therapy (HAART) is widely available, a decrease in the incidence of fungal infections has been observed in the last 5 years compared with countries that cannot afford this treatment. Even refractory fungal infections may be controlled when HAART is given to patients, and end-stage AIDS infections, such as aspergillosis, are now only infrequently seen. In contrast, fungal infections in certain regions, such as penicilliosis in Southeast Asia or cryptococcosis in Sub-Saharan Africa, are a growing problem. Antifungal therapy for documented infections has not changed very much during recent years; however, new drugs such as caspofungin and voriconazole may be more effective in the treatment of opportunistic fungal infections, in particular, those involving resistant organisms. Secondary antifungal prophylaxis for many opportunistic pathogens can now be temporarily or even permanently discontinued in many HIV-positive patients who have a marke",
+            "journal": "Drugs",
+            "year": "2004",
+            "authors": [
+              "Ruhnke Markus"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Acquired Immunodeficiency Syndrome",
+              "Anti-HIV Agents",
+              "Antifungal Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Aspergillosis",
+              "Candidiasis",
+              "Coccidioidomycosis",
+              "Cryptococcosis",
+              "Drug Interactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15161325/"
+          },
+          {
+            "pmid": "24587853",
+            "title": "Mucormycosis in an HIV-infected renal transplant patient: A case report and review of the literature.",
+            "abstract": "Female, 15 FINAL DIAGNOSIS: Mucormycosis Symptoms: Lower extremity swelling • respiratory failure • short of breath",
+            "journal": "The American journal of case reports",
+            "year": "2014",
+            "authors": [
+              "Patel Ami",
+              "Bishburg Eliahu",
+              "Nagarakanti Sandhya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24587853/"
+          },
+          {
+            "pmid": "12699400",
+            "title": "Invasive oesophageal candidiasis: current and developing treatment options.",
+            "abstract": "Oesophageal candidiasis is frequently one of the first signs of HIV infection, and a marker of HIV disease. Approximately 10% of patients with AIDS or other immunodeficiency, whether due to an underlying disease, chemotherapy or radiation therapy, will experience oesophageal candidiasis during their lifetime. In addition, unless the underlying immunodeficiency is corrected, approximately 60% of patients will experience a relapse within 6 months of the initial infection. The systemic azoles have gradually replaced the use of amphotericin B for oesophageal candidiasis, and are generally safely used and effective agents for this infection. A concern in some of these patients is the appearance of antifungal-refractory oesophageal candidiasis, which frequently leads to a vicious cycle of poor oral intake, weight loss, malnutrition and wasting syndrome, with occasional mortality due to malnutrition. Newer antifungals such as voriconazole and caspofungin, which are more potent in vitro and ha",
+            "journal": "Drugs",
+            "year": "2003",
+            "authors": [
+              "Vazquez Jose A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Esophageal Diseases",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12699400/"
+          },
+          {
+            "pmid": "35434110",
+            "title": "Treatment of Pneumocystis jirovecii pneumonia in non-human immunodeficiency virus-infected patients using a combination of trimethoprim-sulfamethoxazole and caspofungin.",
+            "abstract": "Pneumocystis jirovecii pneumonia (PJP) is an infectious disease common in immunocompromised hosts. However, the currently, the clinical characteristics of non-HIV patients with PJP infection have not been fully elucidated.",
+            "journal": "World journal of clinical cases",
+            "year": "2022",
+            "authors": [
+              "Wu Huan-Huan",
+              "Fang Shuang-Yan",
+              "Chen Yan-Xiao",
+              "Feng Lan-Fang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35434110/"
+          },
+          {
+            "pmid": "18840009",
+            "title": "Micafungin: a review of its use in adults for the treatment of invasive and oesophageal candidiasis, and as prophylaxis against Candida infections.",
+            "abstract": "Intravenous micafungin (Mycamine; Fungard), an echinocandin, inhibits the synthesis of 1,3-beta-D-glucan, an essential cell wall component in many fungi. It is approved in adults (focus of this review) and in neonates and paediatric patients (Pediatric Drugs [in press]) in the EU and elsewhere for the treatment of invasive candidiasis and oesophageal candidiasis, and as prophylactic treatment to prevent Candida infections in haematopoietic stem cell transplant (HSCT) recipients.Intravenous micafungin shows very good activity against clinically relevant isolates of Candida spp. Furthermore, the pharmacokinetic profile of micafungin permits once-daily treatment and means that it is associated with relatively few drug-drug interactions. However, like all of the echinocandins and all formulations of amphotericin B, micafungin must be given intravenously. In large, well designed clinical trials in adult patients (>or=16 years of age) with invasive candidiasis, intravenous micafungin was sho",
+            "journal": "Drugs",
+            "year": "2008",
+            "authors": [
+              "Cross Sarah A",
+              "Scott Lesley J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Drug Interactions",
+              "Drug Resistance, Fungal",
+              "Drug Therapy, Combination",
+              "Echinocandins",
+              "Esophageal Diseases",
+              "HIV Infections",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18840009/"
+          },
+          {
+            "pmid": "33277811",
+            "title": "Caspofungin combined with TMP/SMZ as a first-line therapy for moderate-to-severe PCP in patients with human immunodeficiency virus infection.",
+            "abstract": "The effectiveness of trimethoprim/sulfamethoxazole (TMP/SMZ) for pneumocystis pneumonia (PCP) is limited with adverse events. Caspofungin, by inhibiting the cyst form of Pneumocystis jirovecii, may be an alternative therapy for PCP. However, the availability of clinical data about caspofungin combined with TMP/SMZ in the treatment of PCP in HIV-infected patients is limited. Thus, we aimed to examine the clinical effectiveness and safety of caspofungin combined with TMP/SMZ as a first-line therapy for moderate-to-severe PCP in HIV-infected patients.",
+            "journal": "HIV medicine",
+            "year": "2021",
+            "authors": [
+              "Tian Q",
+              "Si J",
+              "Jiang F",
+              "Xu R",
+              "Wei B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Caspofungin",
+              "HIV Infections",
+              "Humans",
+              "Pneumonia, Pneumocystis",
+              "Retrospective Studies",
+              "Trimethoprim, Sulfamethoxazole Drug Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33277811/"
+          },
+          {
+            "pmid": "39117103",
+            "title": "Trimethoprim-sulfamethoxazole combined with echinocandins versus trimethoprim-sulfamethoxazole alone for Pneumocystis pneumonia in patients without human immunodeficiency virus infection: A nationwide retrospective cohort study.",
+            "abstract": "Although combination therapy of echinocandins with trimethoprim-sulfamethoxazole (TMP-SMX) has been reported for patients with Pneumocystis jirovecii pneumonia (PCP), the effectiveness of this combination therapy in patients with PCP without human immunodeficiency virus (HIV) infection remains unknown.",
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2025",
+            "authors": [
+              "Taniguchi Jumpei",
+              "Aso Shotaro",
+              "Matsui Hiroki",
+              "Fushimi Kiyohide",
+              "Yasunaga Hideo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pneumonia, Pneumocystis",
+              "Trimethoprim, Sulfamethoxazole Drug Combination",
+              "Retrospective Studies",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Echinocandins",
+              "Hospital Mortality",
+              "Antifungal Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39117103/"
+          },
+          {
+            "pmid": "19241996",
+            "title": "Antifungal susceptibility of 95 yeast strains isolated from oral mycoses in HIV-negative and HIV-positive patients.",
+            "abstract": "The aim of this study is to evaluate the susceptibility profile to many antifungal drugs of 95 yeast strains isolated from oral mycoses in HIV-negative and HIV-positive patients from the eastern region of Romania. The antifungal drugs tested against all strains were 5-flucytosine (5FC), amphotericin B (AMB), fluconazole (FCA) and itraconazole (ITR), using ATB fungus2 devices (bioMérieux, France). For strains isolated from HIV-positive patients, two new antifungals were tested--voriconazole (VOR) and caspofungine (CAS), using Etest strips. The significance of results (MIC values) has been evaluated according to EUCAST and CLSI recommendations. The percent of resistance varied as follow: 6.31% for 5FC, 0% for AMB, 10.52% for FCA, 20% for ITR, 0% for VOR and O% for CAS. We can observe that all strains isolated from HIV-positive patients are susceptible to VOR and CAS--new antifungal molecules recently marketed. Also, the percent of resistance to current azoles (especially ITR) is relative",
+            "journal": "Bacteriologia, virusologia, parazitologia, epidemiologia (Bucharest, Romania : 1990)",
+            "year": "2008",
+            "authors": [
+              "Mareş Magdalena",
+              "Mareş Mihai",
+              "Rusu Mircea"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis, Oral",
+              "Caspofungin",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Fluconazole",
+              "Flucytosine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19241996/"
+          },
+          {
+            "pmid": "36345027",
+            "title": "Fungal esophagitis associated with tuberculous pericarditis in an human immunodeficiency virus-positive patient: a case report.",
+            "abstract": "Opportunistic infections are frequent in people living with the human immunodeficiency virus who either do not have access to antiretroviral therapy (ART) or use it irregularly. Tuberculosis is the most frequent infectious disease in PLHIV and can predispose patients to severe fungal infections with dire consequences.",
+            "journal": "Journal of medical case reports",
+            "year": "2022",
+            "authors": [
+              "Silva Gleiciere Maia",
+              "de Sousa Bruna Rodrigues",
+              "Torres Kaliny Benicio",
+              "Neves Rejane Pereira",
+              "de Melo Heloisa Ramos Lacerda"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Adult",
+              "Fluconazole",
+              "Voriconazole",
+              "Pericarditis, Tuberculous",
+              "Candidiasis",
+              "Mycoses",
+              "Antifungal Agents",
+              "Esophagitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36345027/"
+          },
+          {
+            "pmid": "41133871",
+            "title": "Antifungal Resistance of Candida spp. Isolates From HIV/AIDS Patients in Iran 1999-2024: A Systematic Review and Meta-Analysis.",
+            "abstract": "Antifungal resistance in Candida species in HIV/AIDS patients due to the scarcity of antifungal agents is important particularly in Iran with an estimate of 46,000 individuals living with HIV. This systematic review and meta-analysis aimed to determine the resistance rate of Candida spp. isolates from HIV/AIDS positive individuals in Iran from 1999 to 2024.",
+            "journal": "Journal of clinical laboratory analysis",
+            "year": "2025",
+            "authors": [
+              "Fakhri-Demeshghieh Aliasghar",
+              "Yousefipour Ali",
+              "Bolouki Yousef",
+              "Bigdeli Mohammad Sadegh",
+              "Zamani Erfan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antifungal Agents",
+              "Candida",
+              "Iran",
+              "Drug Resistance, Fungal",
+              "HIV Infections",
+              "Candidiasis",
+              "Microbial Sensitivity Tests",
+              "Acquired Immunodeficiency Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41133871/"
+          },
+          {
+            "pmid": "24617414",
+            "title": "Pneumocystis and Pneumocystosis: first meeting of experts from Latin-American and Portuguese-speaking countries - a mini-review.",
+            "abstract": "The Pneumocystis and Pneumocystosis: first meeting of experts from Latin-American and Portuguese-speaking countries was held in Lisbon, Portugal, on 24-26 October 2013. A total of 20 speakers from Latin America, Africa and Europe participated in the meeting. The epidemiological studies presented in this meeting begin to change the misconception that since the AIDS epidemic, Pneumocystis pneumonia (PcP) has become an infrequent disease, showing that today PcP remains a major opportunistic infection in HIV-infected patients in both developed and developing countries and an emerging problem in immunocompromised patients without HIV infection worldwide. PcP management remains a challenge. Right now, the combination of caspofungin and trimethoprim-sulfamethoxazole (TMP-SMX) is a promising therapeutic approach that needs to be assessed in controlled clinical trials.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2014",
+            "authors": [
+              "Esteves Francisco",
+              "Medrano Francisco J",
+              "de Armas Yaxsier",
+              "Wissmann Gustavo",
+              "Calderón Enrique J"
+            ],
+            "pub_types": [
+              "Conference Proceedings"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Anti-Infective Agents",
+              "Caspofungin",
+              "Developed Countries",
+              "Developing Countries",
+              "Echinocandins",
+              "Humans",
+              "Immunocompromised Host",
+              "Latin America",
+              "Lipopeptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24617414/"
+          },
+          {
+            "pmid": "21108575",
+            "title": "Invasive aspergillosis in patients with liver disease.",
+            "abstract": "Invasive aspergillosis (IA) has been traditionally considered an infection occurring in patients with well established risk factors, such as neutropenia, hematologic malignancies, organ transplantation, or HIV. However there is increasing evidence that apparently immunocompetent patients, such as those with severe liver disease, are also at high risk for Aspergillus infections. Here we report two cases of proven invasive aspergillosis and review 72 others of aspergillosis reported since 1973 in patients with liver disease. Most patients had end-stage cirrhosis or acute hepatic failure. Overall mortality rate was 72.2% and the majority of patients who died had CNS involvement, disseminated infections, and received antifungal agents on a less common basis. A trend toward higher survival for cases reported during the period 2000-2009 was observed. Literature data suggest that invasive aspergillosis is a potential fatal complication of severe liver disease. The high mortality rate observed",
+            "journal": "Medical mycology",
+            "year": "2011",
+            "authors": [
+              "Falcone Marco",
+              "Massetti Anna Paola",
+              "Russo Alessandro",
+              "Vullo Vincenzo",
+              "Venditti Mario"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antifungal Agents",
+              "Aspergillosis",
+              "Caspofungin",
+              "Echinocandins",
+              "Fatal Outcome",
+              "Humans",
+              "Lipopeptides",
+              "Liver Diseases",
+              "Lung"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21108575/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.9639103412628174,
+        "txgnn_rank": 23172,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.9639103412628174,
+        "txgnn_rank": 23173,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exposure keratitis",
+        "txgnn_score": 0.9575203657150269,
+        "txgnn_rank": 24845,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28417524",
+            "title": "Biofilms of Candida spp. from the ocular conjunctiva of horses with reduced azole susceptibility: a complicating factor for the treatment of keratomycosis?",
+            "abstract": "This study aimed to assess the biofilm-forming ability of Candida spp. from the ocular conjunctiva of horses and to investigate the antifungal susceptibility of these biofilms.",
+            "journal": "Veterinary ophthalmology",
+            "year": "2017",
+            "authors": [
+              "Brilhante Raimunda Sâmia Nogueira",
+              "Bittencourt Paula Vago",
+              "de Souza Collares Castelo-Branco Débora",
+              "de Melo Guedes Glaucia Morgana",
+              "de Oliveira Jonathas Sales"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Animals",
+              "Antifungal Agents",
+              "Azoles",
+              "Biofilms",
+              "Candida",
+              "Caspofungin",
+              "Conjunctiva",
+              "Echinocandins",
+              "Eye Infections, Fungal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28417524/"
+          },
+          {
+            "pmid": "25535313",
+            "title": "Imported pythium insidiosum keratitis after a swim in Thailand by a contact lens-wearing traveler.",
+            "abstract": "A 30-year-old woman with a history of contact lens wear and exposure to swimming pool water in Thailand presented with a non-responsive, progressive corneal ulcer of the right eye. Confocal microscopy evidenced septate linear branching structures, raising suspicion of fungal keratitis. She was promptly treated with topical antibiotics and both topical and intravenous caspofungin plus voriconazole. Worsening of the clinical picture after 1 month of intensive medical therapy led to a large therapeutic penetrating keratoplasty being performed. Corneal cultures grew a mold-like organism, which was identified by sequencing as Pythium insidiosum, an aquatic oomycete. After 4 years of follow-up, the graft exhibits no infection relapse, but graft transparency has been lost after two rejection episodes. Keratoplasty combined with antifungal treatment may offer a cure to P. insidiosum keratitis, although long-term preservation of corneal transparency is difficult to obtain.",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "2015",
+            "authors": [
+              "Lelievre Lucie",
+              "Borderie Vincent",
+              "Garcia-Hermoso Dea",
+              "Brignier Anne C",
+              "Sterkers Margaret"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Contact Lenses",
+              "Cornea",
+              "Female",
+              "France",
+              "Humans",
+              "Keratitis",
+              "Pythiosis",
+              "Pythium",
+              "Swimming"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25535313/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital candidiasis",
+        "txgnn_score": 0.9517722129821776,
+        "txgnn_rank": 26293,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00635648",
+            "title": "A Non-comparative, Multicenter, Open-label Study to Evaluate the Safety, Tolerability, and Efficacy of Caspofungin Acetate (MK-0991) for the Treatment of Esophageal Candidiasis or Invasive Candidiasis in Chinese Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-01",
+            "completion_date": "2011-05",
+            "country": "N/A",
+            "enrollment": 63,
+            "brief_summary": "To evaluate the safety, tolerability, and efficacy of caspofungin for the treatment of esophageal candidiasis and invasive candidiasis to support the registration of caspofungin for these indications in China.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant has a confirmed diagnosis of esophageal candidiasis or invasive candidiasis for whom IV antifungal therapy is appropriate\n* FOR ESOPHAGEAL CANDIDIASIS\n* Participant has endoscopic evidence of esophageal candidiasis\n* Participant has disease documented by symptoms c",
+            "endpoints": [
+              "Number of Participants With One or More Drug-related Serious Adverse Events"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00635648"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "16012261",
+            "title": "Neonatal cutaneous fungal infections.",
+            "abstract": "Cutaneous fungal infections are not uncommon in newborns and are seen in premature or otherwise immunocompromised neonates as well as in healthy full-term neonates. Healthy newborns can develop clinical manifestations as a result of infection with Candida species or as a result of skin colonization with Malassezia species; cutaneous infection with other fungal pathogens is rare. Immunocompromised and premature neonates, however, are susceptible to infection with opportunistic pathogens and are also at higher risk for invasive infection with common pathogens such as Candida. This review discusses the fungal species associated with cutaneous fungal infection in neonates, emphasizes the relevant clinical features, and also reviews the use of newer antifungal agents, including lipid-associated amphotericin B, voriconazole, and caspofungin.",
+            "journal": "Current opinion in pediatrics",
+            "year": "2005",
+            "authors": [
+              "Smolinski Kara N",
+              "Shah Samir S",
+              "Honig Paul J",
+              "Yan Albert C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Caspofungin",
+              "Dermatomycoses",
+              "Echinocandins",
+              "Fungi",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16012261/"
+          },
+          {
+            "pmid": "21525820",
+            "title": "Candidemia in children after complex congenital heart defects surgery treated with caspofungin--our own experience and a review of literature.",
+            "abstract": "Invasive fungal infections due to Candida species constitute an increasing clinical problem. There are no guidelines for the management of candidemia in children undergoing surgical procedures for congenital heart defects (CHD). The aim of the study was to draw attention to the problem of candidemia in children who are operated on due to congenital heart defects.",
+            "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+            "year": "2011",
+            "authors": [
+              "Jaworski Radoslaw",
+              "Irga Ninela",
+              "Haponiuk Ireneusz",
+              "Chojnicki Maciej",
+              "Arlukowicz Elzbieta"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "C-Reactive Protein",
+              "Candidemia",
+              "Cardiac Surgical Procedures",
+              "Caspofungin",
+              "Child",
+              "Echinocandins",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21525820/"
+          },
+          {
+            "pmid": "22333013",
+            "title": "Disseminated candidemia refractory to caspofungin therapy in an infant with extremely low birth weight.",
+            "abstract": "Systemic fungal infections have high morbidity and mortality rates in neonates, especially neonates with an extremely low birth weight (ELBW). Here, we describe a 21-day-old ELBW female infant with an amphotericin B-unresponsive congenital Candida albicans infection that was treated with caspofungin. Blood sterilization was performed during the first episode, but a second episode of candidemia occurred after the discontinuation of caspofungin. Blood sterilization was again performed during the second round of caspofungin treatment, but fungal endocarditis and renal fungal balls still developed during the second episode. Caspofungin can be considered for invasive candidiasis in premature infants, especially in life-threatening situations. As for the focal lesions, more aggressive treatments other than just parenteral antibiotics should be considered. The literature regarding caspofungin therapy for neonatal candidiasis is also reviewed.",
+            "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+            "year": "2012",
+            "authors": [
+              "Li Meng-Ju",
+              "Hsueh Po-Ren",
+              "Lu Chun-Yi",
+              "Chou Hung-Chieh",
+              "Lee Ping-Ing"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidemia",
+              "Caspofungin",
+              "Echinocandins",
+              "Fatal Outcome",
+              "Female",
+              "Humans",
+              "Infant, Extremely Low Birth Weight",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22333013/"
+          },
+          {
+            "pmid": "41695227",
+            "title": "Pediatric candidemia due to Candida lusitaniae: A clinical and microbiological evaluation.",
+            "abstract": "Candida lusitaniae is a rare cause of invasive candidiasis in children. This study aimed to investigate the clinical and microbiologic characteristics, treatment, and prognosis of C. lusitaniae candidemia in pediatric patients.",
+            "journal": "Current medical mycology",
+            "year": "2025",
+            "authors": [
+              "Tapaç Nisa Nur",
+              "Çay Ümmühan",
+              "Gündeşlioğlu Özlem Özgür",
+              "Kılınç Fatma",
+              "Bakanoğlu Emel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41695227/"
+          },
+          {
+            "pmid": "28874131",
+            "title": "A chronic hemodialysis patient with isolated pulmonary valve infective endocarditis caused by non-albicans Candida: a rare case and literature review.",
+            "abstract": "Isolated pulmonary valve infective endocarditis caused by Candida is rare in chronic hemodialysis patients. The 2009 Infectious Diseases Society of America guidelines suggest the combined use of surgery and antibiotics to treat candidiasis; however, successful nonsurgical treatment of Candida endocarditis has been reported.",
+            "journal": "BMC nephrology",
+            "year": "2017",
+            "authors": [
+              "Chang Chih-Hao",
+              "Huang Myo-Ming",
+              "Yeih Dong-Feng",
+              "Lu Kuo-Cheng",
+              "Hou Yi-Chou"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Endocarditis",
+              "Fatal Outcome",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Pulmonary Valve",
+              "Renal Dialysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28874131/"
+          },
+          {
+            "pmid": "28825212",
+            "title": "Peritonitis in a neonate due to Cyberlindnera fabianii, an ascomycetic yeast.",
+            "abstract": "The ascomycetous yeast Cyberlindera fabianii is not only present in the environment, but is also occasionally pathogenic. Especially, neonates seem to be prone to infection. Here, we describe a case of peritoneal infection of a neonate after congenital heart surgery. The correct identification of this peculiar species is made by MALDI-TOF and especially by molecular biology methods, whereas the standard biochemical identification methods fail.The neonate with a hypoplastic left heart syndrome had a Norwood palliation followed by transient ECMO therapy for 3 days. The patient developed a renal insufficiency, so that peritoneal dialysis was initiated. After a few days, a peritoneal infection due to C. fabianii emerged. The proper source of this rare and particular yeast remains obscure. In spite of a reasonable antimycotic therapy, the patient developed a capillary leak syndrome and died finally in septic shock with multiorgan failure. One reason is probably that the yeast population, wh",
+            "journal": "Infection",
+            "year": "2017",
+            "authors": [
+              "Hof H",
+              "Amann V",
+              "Tauber C",
+              "Paulun A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candida",
+              "Candidiasis",
+              "Cardiac Surgical Procedures",
+              "Drug Resistance, Multiple, Fungal",
+              "Fatal Outcome",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Multiple Organ Failure",
+              "Peritonitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28825212/"
+          },
+          {
+            "pmid": "19840314",
+            "title": "Successful treatment of Candida albicans septicemia in a preterm infant with severe congenital ichthyosis (Harlequin baby).",
+            "abstract": "Candida infections are a major cause of fungal septicemia in neonates and are associated with marked morbidity and mortality. Despite the spectrum of antifungal drugs being dramatically extended during the last decade, invasive fungal infections remain a serious challenge for neonatologists. Amphotericin B and its lipid formulations are the drugs of choice for the treatment of systemic candidiasis in neonates. The combination of antifungal drugs with different sites of action, like caspofungin and amphotericin B, may improve antifungal efficacy. Severe congenital ichthyosis often leads to death within the neonatal period. Main causes of death are dehydration, electrolyte disturbances, and respiratory or systemic infections. We report the case of a preterm infant with severe congenital ichthyosis and sepsis caused by Candida albicans. The infection did not improve despite proper liposomal amphotericin B treatment. After addition of caspofungin, the baby recovered. To our best knowledge,",
+            "journal": "Pediatric dermatology",
+            "year": "2009",
+            "authors": [
+              "Haase Roland",
+              "Kreft Burkhard",
+              "Foell Jürgen",
+              "Kekulé Alexander S",
+              "Merkel Nick"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candidiasis",
+              "Caspofungin",
+              "Drug Therapy, Combination",
+              "Echinocandins",
+              "Female",
+              "Humans",
+              "Ichthyosis, Lamellar",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19840314/"
+          },
+          {
+            "pmid": "27807668",
+            "title": "Fournier Gangrene Caused by Candida albicans in an Infant After Cardiac Surgery.",
+            "abstract": "Fournier gangrene is a rare, rapidly progressive, life-threatening condition. We report a 23-day-old boy with pulmonary atresia and ventricular septal defect treated surgically, who developed Fournier gangrene. Emergency surgery was performed with tissue sampling for microbiological examination. Candida albicans was confirmed; caspofungin followed by fluconazole was administered with excellent results.",
+            "journal": "Mycopathologia",
+            "year": "2017",
+            "authors": [
+              "Jaworski Radoslaw",
+              "Irga-Jaworska Ninela",
+              "Naumiuk Łukasz",
+              "Chojnicki Maciej",
+              "Haponiuk Ireneusz"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis, Cutaneous",
+              "Caspofungin",
+              "Echinocandins",
+              "Fluconazole",
+              "Fournier Gangrene",
+              "Humans",
+              "Infant, Newborn",
+              "Lipopeptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27807668/"
+          },
+          {
+            "pmid": "16681818",
+            "title": "Successful caspofungin treatment of multidrug resistant Candida parapsilosis septicaemia in an extremely low birth weight neonate.",
+            "abstract": "Candida septicaemia with multidrug resistance is an uncommon event in preterm neonates. We present an extremely low birth weight infant (gestational age of 27 weeks, birth weight of 980 g) who developed congenital Candida parapsilosis septicaemia. Because the fungus was resistant both to amphotericin B and fluconazole, caspofungin was chosen for therapy. The fungus was successfully eradicated without any clinical or laboratory adverse effects.",
+            "journal": "Mycoses",
+            "year": "2006",
+            "authors": [
+              "Yalaz Mehmet",
+              "Akisu Mete",
+              "Hilmioglu Suleyha",
+              "Calkavur Sebnem",
+              "Cakmak Bilin"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Caspofungin",
+              "Drug Resistance, Multiple, Fungal",
+              "Echinocandins",
+              "Female",
+              "Fungemia",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16681818/"
+          },
+          {
+            "pmid": "24567311",
+            "title": "Successful treatment of an infant infected with refractory C. parapsilosis with caspofungin.",
+            "abstract": "Neonatal Candida infections are the leading cause of invasive fungal infections that might cause severe morbidity or mortality in a large majority of those affected. Although Candida albicans has been the most common species, Candida parapsilosis is increasingly being recognized as an important cause of invasive candidiasis in neonates. Among the Candida species, C. parapsilosis has been commonly isolated and shown to be less susceptible in vitro to echinocandins than other Candida species. We report an infant who had refractory C. parapsilosis septicemia cured with caspofungin.",
+            "journal": "Journal of tropical pediatrics",
+            "year": "2014",
+            "authors": [
+              "Ozkaya-Parlakay Aslınur",
+              "Tezer Hasan",
+              "Kazmacan Tugba",
+              "Gulhan Belgin",
+              "Unal Sevim"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Caspofungin",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24567311/"
+          },
+          {
+            "pmid": "40088531",
+            "title": "Comprehensive surgical and medical management of massive fungal endocarditis in a preterm neonate: A rare case of survival and full recovery.",
+            "abstract": "Fungal endocarditis in neonates, often caused by Candida albicans, is a rare but severe condition linked to invasive medical interventions. Preterm infants are particularly vulnerable due to their immature immune systems. Diagnosis is challenging due to nonspecific symptoms, and management typically requires both antifungal therapy and surgery.",
+            "journal": "Diagnostic microbiology and infectious disease",
+            "year": "2025",
+            "authors": [
+              "Rafie Reyhaneh Alipoor",
+              "Soflaee Maedeh",
+              "Mortezaeian Hojjat",
+              "Jalali Amirhossein",
+              "Feyzi Aydin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Antifungal Agents",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Endocarditis",
+              "Candidiasis",
+              "Caspofungin",
+              "Treatment Outcome",
+              "Candida albicans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40088531/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal candidiasis",
+        "txgnn_score": 0.9517722129821776,
+        "txgnn_rank": 26294,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01945281",
+            "title": "A Multicenter, Double-Blind, Randomized, Comparator-Controlled Study to Evaluate the Safety, Tolerability, and Efficacy of Caspofungin Versus Amphotericin B Deoxycholate in the Treatment of Invasive Candidiasis in Neonates and Infants Less Than 3 Months of Age",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2014-01-15",
+            "completion_date": "2018-02-28",
+            "country": "N/A",
+            "enrollment": 51,
+            "brief_summary": "The study will evaluate the safety, tolerability, and efficacy of caspofungin as compared with amphotericin B deoxycholate in the treatment of invasive candidiasis in neonates and infants. The primary hypothesis to be tested in the study is that caspofungin will be superior to amphotericin B deoxycholate with regard to the proportion of participants with fungal-free survival at the 2-week post-therapy follow-up visit.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Culture-confirmed invasive Candida infection\n\nExclusion Criteria:\n\n* Candida disease limited to the oropharynx, esophagus, or other mucosal or superficial skin surfaces\n* Positive culture for Candida only from sputum, broncho-alveolar lavage, catheter tip, or previously placed",
+            "endpoints": [
+              "Percentage of Participants With Fungal-free Survival Through the 2-week Post-therapy Period"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01945281"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00330395",
+            "title": "A Multicenter, Sequential-Panel, Open-Label, Noncomparative Study to Investigate the Safety, Tolerability, and Pharmacokinetics of Caspofungin Acetate in Neonates and Infants Less Than 3 Months of Age.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-05",
+            "completion_date": "2006-10",
+            "country": "N/A",
+            "enrollment": 16,
+            "brief_summary": "The purpose of this study is to test the amount of caspofungin found in the blood of neonate and infants \\<3 months of age following treatment with caspofungin at 25 mg/m2. Another purpose is to test the safety of caspofungin in treating neonates and infants with Candida infections (a certain type of fungal infection).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Neonates and infants \\<3 months of age\n* Patient has a body weight greater than or equal to 500 grams\n* Patient has documented or highly suspected Candida infection\n\nExclusion Criteria:\n\n* Patient is greater than 3 months of age\n* Patient has a body weight of less than 500 gra",
+            "endpoints": [
+              "Pharmacokinetic parameters of drug exposure"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00330395"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "18840009",
+            "title": "Micafungin: a review of its use in adults for the treatment of invasive and oesophageal candidiasis, and as prophylaxis against Candida infections.",
+            "abstract": "Intravenous micafungin (Mycamine; Fungard), an echinocandin, inhibits the synthesis of 1,3-beta-D-glucan, an essential cell wall component in many fungi. It is approved in adults (focus of this review) and in neonates and paediatric patients (Pediatric Drugs [in press]) in the EU and elsewhere for the treatment of invasive candidiasis and oesophageal candidiasis, and as prophylactic treatment to prevent Candida infections in haematopoietic stem cell transplant (HSCT) recipients.Intravenous micafungin shows very good activity against clinically relevant isolates of Candida spp. Furthermore, the pharmacokinetic profile of micafungin permits once-daily treatment and means that it is associated with relatively few drug-drug interactions. However, like all of the echinocandins and all formulations of amphotericin B, micafungin must be given intravenously. In large, well designed clinical trials in adult patients (>or=16 years of age) with invasive candidiasis, intravenous micafungin was sho",
+            "journal": "Drugs",
+            "year": "2008",
+            "authors": [
+              "Cross Sarah A",
+              "Scott Lesley J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Drug Interactions",
+              "Drug Resistance, Fungal",
+              "Drug Therapy, Combination",
+              "Echinocandins",
+              "Esophageal Diseases",
+              "HIV Infections",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18840009/"
+          },
+          {
+            "pmid": "36329878",
+            "title": "Updates in the Pharmacologic Prophylaxis and Treatment of Invasive Candidiasis in the Pediatric and Neonatal Intensive Care Units: Updates in the Pharmacologic Prophylaxis.",
+            "abstract": "The goal of this review was to provide an update on the prevention and treatment options for invasive candidiasis (IC) in the neonatal intensive care unit (NICU) and pediatric intensive care unit (PICU).",
+            "journal": "Current treatment options in infectious diseases",
+            "year": "2022",
+            "authors": [
+              "Fly James Hunter",
+              "Kapoor Seerat",
+              "Bobo Kelly",
+              "Stultz Jeremy S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36329878/"
+          },
+          {
+            "pmid": "29596219",
+            "title": "Efficacy and Safety of Echinocandins for the Treatment of Invasive Candidiasis in Children: A Meta-analysis.",
+            "abstract": "Echinocandins are recommended for the treatment of suspected or confirmed invasive candidiasis (IC) in adults. Less is known about the use of echinocandins for the management of IC in children. The aim of this study was to investigate the overall efficacy and safety of echinocandin class in neonatal and pediatric patients with IC.",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2019",
+            "authors": [
+              "Tsekoura Magdalini",
+              "Ioannidou Maria",
+              "Pana Zoi-Dorothea",
+              "Haidich Anna-Bettina",
+              "Antachopoulos Charalampos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candidiasis, Invasive",
+              "Caspofungin",
+              "Child",
+              "Child, Preschool",
+              "Deoxycholic Acid",
+              "Drug Combinations",
+              "Echinocandins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29596219/"
+          },
+          {
+            "pmid": "15101785",
+            "title": "Antifungals in systemic neonatal candidiasis.",
+            "abstract": "Fungal infections are common in the newborn period, especially among premature neonates, and are responsible for considerable morbidity and mortality. Currently, three classes of antifungals are commonly used in the treatment of systemic fungal infections in neonates: the polyene macrolides (e.g. amphotericin B [deoxycholate and lipid preparations]); the azoles (e.g. fluconazole); and the fluorinated pyrimidines (e.g. flucytosine). The echinocandins (e.g. caspofungin and micafungin) are a newer class of antifungals which shows promise in this population.The available kinetic data on amphotericin B deoxycholate in neonates are derived from very small studies and exhibit considerable variability. There are no kinetic data available for the use of lipid preparations in this population and, again, much has been inferred from adult studies. The information available for flucytosine is also limited but appears similar to what is observed in adults. Fluconazole has the most neonatal pharmacok",
+            "journal": "Drugs",
+            "year": "2004",
+            "authors": [
+              "Frattarelli Daniel A C",
+              "Reed Michael D",
+              "Giacoia George P",
+              "Aranda Jacob V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candidiasis",
+              "Clinical Trials as Topic",
+              "Drug Therapy, Combination",
+              "Echinocandins",
+              "Fluconazole",
+              "Flucytosine",
+              "Fungal Proteins",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15101785/"
+          },
+          {
+            "pmid": "14626500",
+            "title": "Antifungal pharmacotherapy for neonatal candidiasis.",
+            "abstract": "Candida is a leading cause of late onset infection (> 3 days of age) in the premature infant. Therefore, decisions about the diagnosis and management of infections caused by Candida are commonplace in the neonatal intensive care unit. Despite this fact, there are few comparative trials about treatment of neonatal Candida infections to guide the practitioner. New antifungals have been developed in the past decade and some clinical experience has been reported that can be used to guide the treatment of infants with serious Candida infections. This article reviews recent pertinent data with regard to dosing guidelines, efficacy, and toxicities of available systemic antifungal agents in the newborn.",
+            "journal": "Seminars in perinatology",
+            "year": "2003",
+            "authors": [
+              "Bliss Joseph M",
+              "Wellington Melanie",
+              "Gigliotti Francis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candidiasis",
+              "Caspofungin",
+              "Cross Infection",
+              "Echinocandins",
+              "Fluconazole",
+              "Flucytosine",
+              "Fungal Proteins",
+              "Fungemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14626500/"
+          },
+          {
+            "pmid": "39766599",
+            "title": "Perspectives on the Use of Echinocandins in the Neonatal Intensive Care Unit.",
+            "abstract": "The neonatal intensive care unit (NICU) population, especially low birth weight and critically ill neonates, is at risk of invasive Candida infections, which are associated with high mortality rates and unfavorable long-term outcomes. The timely initiation of an appropriate antifungal treatment has been demonstrated to enhance the prognosis. Factors that should be considered in the choice of an antifungal agent include the causative Candida strain, the presence and location of deep tissue infection, any previous use of antifungal prophylaxis, and the presence of implanted devices. Amphotericin B and fluconazole, the first-line drugs for neonatal candidiasis, are not always suitable due to several limitations in terms of efficacy and adverse effects. Therefore, alternative antifungals have been studied and used in neonates when conventional antifungals are ineffective or contraindicated. This narrative review aims to provide an overview of the current literature regarding the use of ech",
+            "journal": "Antibiotics (Basel, Switzerland)",
+            "year": "2024",
+            "authors": [
+              "Dermitzaki Niki",
+              "Balomenou Foteini",
+              "Gialamprinou Dimitra",
+              "Giapros Vasileios",
+              "Rallis Dimitrios"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39766599/"
+          },
+          {
+            "pmid": "16012261",
+            "title": "Neonatal cutaneous fungal infections.",
+            "abstract": "Cutaneous fungal infections are not uncommon in newborns and are seen in premature or otherwise immunocompromised neonates as well as in healthy full-term neonates. Healthy newborns can develop clinical manifestations as a result of infection with Candida species or as a result of skin colonization with Malassezia species; cutaneous infection with other fungal pathogens is rare. Immunocompromised and premature neonates, however, are susceptible to infection with opportunistic pathogens and are also at higher risk for invasive infection with common pathogens such as Candida. This review discusses the fungal species associated with cutaneous fungal infection in neonates, emphasizes the relevant clinical features, and also reviews the use of newer antifungal agents, including lipid-associated amphotericin B, voriconazole, and caspofungin.",
+            "journal": "Current opinion in pediatrics",
+            "year": "2005",
+            "authors": [
+              "Smolinski Kara N",
+              "Shah Samir S",
+              "Honig Paul J",
+              "Yan Albert C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Caspofungin",
+              "Dermatomycoses",
+              "Echinocandins",
+              "Fungi",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16012261/"
+          },
+          {
+            "pmid": "19536371",
+            "title": "[Neonatal candidiasis: therapeutic options].",
+            "abstract": "Diverse factors (such as preterm babies with low body weight staying for long-term periods at intensive care units, subjected to invasive procedures, receiving one or more antibiotic schemes, parenteral nutrition, etc.) are considered to pose a risk for the development of infections by opportunistic agents. Of the latter, Candida albicans is considered the main cause of neonatal candidiasis. The most frequently involved Candida species are C. albicans, C. parapsilosis and C. tropicalis. The advent of new antimycotic agents has increased the therapeutic possibilities for the treatment of candidiasis. Antimycotic agents used for the treatment of neonatal candidiasis include: amphotericin B deoxycolate, lipid-associated compounds of amphotericin B, fluconazole and itraconazol, and caspofungin.",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2008",
+            "authors": [
+              "Solorzano Santos F",
+              "Reyna Figueroa J",
+              "Torres Munoz M J",
+              "Diaz Luna J L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candidiasis",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19536371/"
+          },
+          {
+            "pmid": "31586424",
+            "title": "A randomized, double-blind trial investigating the efficacy of caspofungin versus amphotericin B deoxycholate in the treatment of invasive candidiasis in neonates and infants younger than 3 months of age.",
+            "abstract": "Investigate the efficacy of caspofungin in participants <3 months of age with invasive Candida infection (ICI).",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2020",
+            "authors": [
+              "Kim Jason",
+              "Nakwa Firdose Lambey",
+              "Araujo Motta Fábio",
+              "Liu Hong",
+              "Dorr Mary Beth"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candidiasis, Invasive",
+              "Caspofungin",
+              "Deoxycholic Acid",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31586424/"
+          },
+          {
+            "pmid": "21417874",
+            "title": "Caspofungin therapy in immunocompromised children and neonates.",
+            "abstract": "The prevalence of invasive fungal infections is increasing and the infections are becoming a major problem in immunocompromised children and neonates. Fortunately, there has been a recent surge in the development of new antifungal agents. Caspofungin, the first licensed echinocandin, is a novel class of antifungal and is approved for use in children 3 months of age or older for the treatment of invasive candidiasis, salvage therapy for invasive aspergillosis and as empirical therapy for febrile neutropenia. This article reviews the published data on the use of caspofungin in immunocompromised children and neonates with invasive fungal infections.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2011",
+            "authors": [
+              "Somer Ayper",
+              "Törün Selda H",
+              "Salman Nuran"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Aspergillosis",
+              "Aspergillus",
+              "Candida",
+              "Candidiasis, Invasive",
+              "Caspofungin",
+              "Child",
+              "Child, Preschool",
+              "Drug Interactions",
+              "Drug Resistance, Fungal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21417874/"
+          },
+          {
+            "pmid": "29699503",
+            "title": "Comparison of the incidence, clinical features and outcomes of invasive candidiasis in children and neonates.",
+            "abstract": "Invasive candidiasis differs greatly between children and neonates. We aimed to investigate the different therapeutic approaches and their effects on treatment outcomes of these two groups.",
+            "journal": "BMC infectious diseases",
+            "year": "2018",
+            "authors": [
+              "Hsu Jen-Fu",
+              "Lai Mei-Yin",
+              "Lee Chiang-Wen",
+              "Chu Shih-Ming",
+              "Wu I-Hsyuan"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis, Invasive",
+              "Caspofungin",
+              "Child",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29699503/"
+          },
+          {
+            "pmid": "32508205",
+            "title": "Pharmacokinetic, efficacy, and safety considerations for the use of antifungal drugs in the neonatal population.",
+            "abstract": "Invasive fungal infections are an important cause of morbidity and mortality in infants, particularly in extreme prematurity. Successful systemic treatment requires consideration of antifungal efficacy, safety, and pharmacokinetics, including optimization of dosing in this population.",
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2020",
+            "authors": [
+              "Scott Briana L",
+              "Hornik Chi D",
+              "Zimmerman Kanecia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candidiasis, Invasive",
+              "Drug Monitoring",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Invasive Fungal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32508205/"
+          },
+          {
+            "pmid": "19075070",
+            "title": "Pharmacokinetics and safety of caspofungin in neonates and infants less than 3 months of age.",
+            "abstract": "Candida infections represent a major threat in neonatal intensive care units. This is the first prospective study to obtain caspofungin plasma levels and safety data for neonates and very young infants. Patients of <3 months of age receiving intravenous amphotericin B for documented or highly suspected candidiasis were enrolled in a single-dose (n = 6) or subsequent multiple-dose (n = 12) panel; all received caspofungin at 25 mg/m(2) once daily as a 1-hour infusion. Caspofungin plasma levels were measured by high-performance liquid chromatography and compared to historical data from adults. Patient chronological ages ranged from 1 to 11 weeks, and weights ranged from 0.68 to 3.8 kg. Gestational ages ranged from 24 to 41 weeks. Geometric mean (GM) peak (C(1 h)) and trough (C(24 h)) caspofungin levels were 8.2 and 1.8 microg/ml, respectively, on day 1, and 11.1 and 2.4 microg/ml, respectively, on day 4. GM ratios for C(1 h) and C(24 h) for neonates/infants relative to adults receiving ca",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2009",
+            "authors": [
+              "Sáez-Llorens Xavier",
+              "Macias Mercedes",
+              "Maiya Padmanabha",
+              "Pineros Juan",
+              "Jafri Hasan S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Body Surface Area",
+              "Candidiasis",
+              "Caspofungin",
+              "Clinical Trials as Topic",
+              "Drug Administration Schedule",
+              "Echinocandins",
+              "Female",
+              "Fever",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19075070/"
+          },
+          {
+            "pmid": "15626944",
+            "title": "Caspofungin therapy of neonates with invasive candidiasis.",
+            "abstract": "Invasive candidiasis is an increasing problem in neonatal intensive care units worldwide and is an important cause of morbidity, mortality and prolongation of hospital stay. Despite administration of amphotericin B, invasive candidiasis in neonates is sometimes complicated by persistent fungemia and refractory invasive candidiasis. The problem has been augmented by the increasing prevalence of non-albicans species that often are resistant to fluconazole and to amphotericin B.",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2004",
+            "authors": [
+              "Odio Carla M",
+              "Araya Roberto",
+              "Pinto Luis E",
+              "Castro Carlos E",
+              "Vasquez Sergio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Caspofungin",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Lipopeptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15626944/"
+          },
+          {
+            "pmid": "23340551",
+            "title": "Candida parapsilosis is a significant neonatal pathogen: a systematic review and meta-analysis.",
+            "abstract": "Candida is the third most common cause of late-onset neonatal sepsis in infants born at <1500 g. Candida parapsilosis infections are increasingly reported in preterm neonates in association with indwelling catheters.",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2013",
+            "authors": [
+              "Pammi Mohan",
+              "Holland Linda",
+              "Butler Geraldine",
+              "Gacser Attila",
+              "Bliss Joseph M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Biofilms",
+              "Candida",
+              "Candidiasis",
+              "Drug Resistance, Fungal",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Microbial Sensitivity Tests",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23340551/"
+          },
+          {
+            "pmid": "30845213",
+            "title": "Candida lusitaniae in Kuwait: Prevalence, antifungal susceptibility and role in neonatal fungemia.",
+            "abstract": "Candida lusitaniae is an opportunistic yeast pathogen in certain high-risk patient populations/cohorts. The species exhibits an unusual antifungal susceptibility profile with tendency to acquire rapid resistance. Here, we describe prevalence of C. lusitaniae in clinical specimens in Kuwait, its antifungal susceptibility profile and role in neonatal fungemia.",
+            "journal": "PloS one",
+            "year": "2019",
+            "authors": [
+              "Khan Ziauddin",
+              "Ahmad Suhail",
+              "Al-Sweih Noura",
+              "Khan Seema",
+              "Joseph Leena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Kuwait",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30845213/"
+          },
+          {
+            "pmid": "23641163",
+            "title": "Caspofungin for the treatment of immunocompromised and severely ill children and neonates with invasive fungal infections.",
+            "abstract": "Caspofungin is the first member of the echinocandin class of antifungals to receive an indication for the use in infants, children, and adolescents from the United States Food and Drug Administration. Daily doses of 50 mg/m(2) result in pharmacokinetic parameters that are similar to those observed in adults. Although fewer data are available, the response rates in pediatric patients who received caspofungin either as treatment or empiric therapy in clinical trials are similar to those reported in adults. In addition, caspofungin appears to be generally safe and well tolerated in this population. This represents a significant step forward in the treatment of invasive fungal infections within this population, as caspofungin is associated with few clinically significant drug-interactions and toxicities compared to other antifungals, such as the azoles and amphotericin B.",
+            "journal": "Clinical medicine insights. Pediatrics",
+            "year": "2012",
+            "authors": [
+              "Wiederhold Nathan P",
+              "Herrera Lydia A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23641163/"
+          },
+          {
+            "pmid": "22333013",
+            "title": "Disseminated candidemia refractory to caspofungin therapy in an infant with extremely low birth weight.",
+            "abstract": "Systemic fungal infections have high morbidity and mortality rates in neonates, especially neonates with an extremely low birth weight (ELBW). Here, we describe a 21-day-old ELBW female infant with an amphotericin B-unresponsive congenital Candida albicans infection that was treated with caspofungin. Blood sterilization was performed during the first episode, but a second episode of candidemia occurred after the discontinuation of caspofungin. Blood sterilization was again performed during the second round of caspofungin treatment, but fungal endocarditis and renal fungal balls still developed during the second episode. Caspofungin can be considered for invasive candidiasis in premature infants, especially in life-threatening situations. As for the focal lesions, more aggressive treatments other than just parenteral antibiotics should be considered. The literature regarding caspofungin therapy for neonatal candidiasis is also reviewed.",
+            "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+            "year": "2012",
+            "authors": [
+              "Li Meng-Ju",
+              "Hsueh Po-Ren",
+              "Lu Chun-Yi",
+              "Chou Hung-Chieh",
+              "Lee Ping-Ing"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidemia",
+              "Caspofungin",
+              "Echinocandins",
+              "Fatal Outcome",
+              "Female",
+              "Humans",
+              "Infant, Extremely Low Birth Weight",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22333013/"
+          },
+          {
+            "pmid": "23083111",
+            "title": "Micafungin: a review of its use in the prophylaxis and treatment of invasive Candida infections.",
+            "abstract": "Intravenous micafungin (Mycamine®; Fungard®), an echinocandin, is approved in the EU for the treatment of adult (aged ≥ 16 years) and paediatric patients with invasive candidiasis and for the treatment of adult patients with oesophageal candidiasis. It is also approved in the EU as prophylactic treatment to prevent Candida infections in adult and paediatric patients undergoing haematopoietic stem cell transplant (HSCT) or patients who are expected to have neutropenia for ≥ 10 days. This article reviews the therapeutic use of micafungin for the treatment and prophylaxis of Candida infections in adult and paediatric patients, focusing on approved indications in Europe, and briefly discusses the pharmacology of the drug. Micafungin shows very good in vitro activity against clinically relevant isolates of Candida spp., with a low propensity to be associated with the emergence of resistant isolates. The drug has a convenient once-daily dosage regimen and is associated with relatively few dr",
+            "journal": "Drugs",
+            "year": "2012",
+            "authors": [
+              "Scott Lesley J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Humans",
+              "Lipopeptides",
+              "Micafungin",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23083111/"
+          },
+          {
+            "pmid": "20009006",
+            "title": "A clinical review of echinocandins in pediatric patients.",
+            "abstract": "To identify and evaluate available data on pediatric echinocandin use.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2010",
+            "authors": [
+              "VandenBussche Heather L",
+              "Van Loo Dean A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Child",
+              "Echinocandins",
+              "Humans",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20009006/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "candida glabrata",
+        "txgnn_score": 0.9517722129821776,
+        "txgnn_rank": 26295,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00839540",
+            "title": "Comparison of Candida Eradication and Serum Cidal Activity of Echinocandins in Patients With Presumptive Candidemia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2008-12",
+            "completion_date": "2010-05",
+            "country": "United States",
+            "enrollment": 21,
+            "brief_summary": "The purpose of this pharmacokinetic (PK) and pharmacodynamic (PD) study is:\n\nTo study the rate and duration of serum cidal activity of caspofungin (CFG) and micafungin (MFG) against Candida isolates from the subject and against Candida glabrata with varying degrees of caspofungin susceptibilities.\n\nThis investigation will provide clinicians information supporting the use of caspofungin and micafungin in situations where Candida strains may be a cause of infection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients with presumptive candidemia\n\nExclusion Criteria:\n\n* Patients with severe neutropenia (\\<500)\n* Patients with APACHE II scores \\> 20\n* Patients with severe liver disease",
+            "endpoints": [
+              "Serum Cidal Activity as Tested Against Various Candida Isolates and Reported as Ex-vivo Effect (Log Inhibition of Growth)"
+            ],
+            "sponsor": "Michigan State University",
+            "url": "https://clinicaltrials.gov/study/NCT00839540"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05881109",
+            "title": "Population Pharmacokinetics and Dose Optimization of Caspofungin in Adolescents With Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2018-01-01",
+            "completion_date": "2019-03-03",
+            "country": "China",
+            "enrollment": 30,
+            "brief_summary": "Caspofungin (CAS) is used to prevent and treat invasive fungal infections patients older than 3 months. However, the optimal dosing strategy of CAS is lacking in adolescents from 12 to 17 years old, especially those undergoing allogeneic hematopoietic stem cell transplantation (allo-HSCT), who are vulnertable to fungal infections. The study aimed to establish a population pharmacokinetic (PPK) model and assess the dosing schemes of CAS in adolescents with allogeneic hematopoietic stem cell trans",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The adolescents (12 - 17 years) underwent allo-HSCT\n* Use caspofungin for the prevention or treatment of fungal infections\n\nExclusion Criteria:\n\n* Intolerable to caspofungin\n* Participate into other clinical studies\n* There are conditions that researchers do not consider it ap",
+            "endpoints": [
+              "The PTAs of AUC24/MIC90 for C. albicans , C. glabrata , and C. parapsilosis",
+              "The PTAs of AUC24/MIC for various species of Candida spp isolates",
+              "The PTAs of trough concentration"
+            ],
+            "sponsor": "Shandong University",
+            "url": "https://clinicaltrials.gov/study/NCT05881109"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03652194",
+            "title": "Study of Innate Host Immune Response to C. Glabrata Clinical Isolates Resistant to Echinocandins: Impact on the Management of Candidemia in High-risk Patients",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2018-01-01",
+            "completion_date": "2019-06",
+            "country": "France",
+            "enrollment": 21,
+            "brief_summary": "In the context of Candida yeast infections, a large number of studies have been published over the past two decades specifying the molecular mechanisms of antifungal resistance in different Candida species. However, few of these studies have explored how these mechanisms influence host immune response to this opportunistic pathogen. Recent advances in understanding how the host's immune system responds to Candida have initiated the emergence of a new research theme aimed at better understanding ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 10 clinical isolates sensitive to all antifungal agents\n* 10 echinocandin-resistant clinical isolates (Eucast, caspofungin \\> 8µg/ml)\n\nClinical strains of C. glabrata susceptible or resistant to echinocandins will be selected on selected criteria:\n\n* patient's immune status\n* ",
+            "endpoints": [
+              "Quantification of accession and invasion",
+              "Test SytoxOrange",
+              "Quantification of the gene expression of the various cytokines associated with the immune response in digestive epithelial cells."
+            ],
+            "sponsor": "Centre Hospitalier Universitaire Dijon",
+            "url": "https://clinicaltrials.gov/study/NCT03652194"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35352319",
+            "title": "Caspofungin resistance in Candida albicans: genetic factors and synergistic compounds for combination therapies.",
+            "abstract": "Caspofungin and other echinocandins have been used for the treatment of human infections by the opportunistic yeast pathogen, Candida albicans. There has been an increase in infections by non-albicans Candida species such as Candida glabrata, Candida parapsilosis, Candida tropicalis, Candida krusei, and Candida auris in clinical or hospital settings. This is problematic to public health due to the increasing prevalence of echinocandin resistant species/strains. This review will present a summary on various studies that investigated the inhibitory action of caspofungin on 1,3-β-D-glucan synthesis, on cell wall structure, and biofilm formation of C. albicans. It will highlight some of the issues linked to caspofungin resistance or reduced caspofungin sensitivity in various Candida species and the potential benefits of antimicrobial peptides and other compounds in synergy with caspofungin.",
+            "journal": "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+            "year": "2022",
+            "authors": [
+              "Perrine-Walker Francine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candida albicans",
+              "Caspofungin",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Humans",
+              "Lipopeptides",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35352319/"
+          },
+          {
+            "pmid": "16283214",
+            "title": "Candida glabrata prosthetic valve endocarditis treated successfully with fluconazole plus caspofungin without surgery: a case report and literature review.",
+            "abstract": "Reported here is the case of a 72-year-old man who was diagnosed with Candida glabrata prosthetic mitral valve endocarditis and treated successfully with fluconazole plus caspofungin after he refused and was determined unfit for surgery. Initial treatment with intravenous amphotericin B resulted in acute renal impairment. Despite 8 days of intravenous fluconazole therapy, he remained fungemic. Caspofungin was added to the treatment regimen with subsequent sterilisation of blood culture. The patient was treated for 34 days with caspofungin and 41 days with fluconazole. He continued oral fluconazole after hospital discharge and remained well at follow-up 11 months later. The role of fluconazole and caspofungin in the treatment of Candida endocarditis is discussed.",
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "2005",
+            "authors": [
+              "Lye D C B",
+              "Hughes A",
+              "O'Brien D",
+              "Athan E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Aged",
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candida glabrata",
+              "Candidiasis",
+              "Caspofungin",
+              "Drug Therapy, Combination",
+              "Echinocandins",
+              "Endocarditis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16283214/"
+          },
+          {
+            "pmid": "37046215",
+            "title": "P4-ATPase subunit Cdc50 plays a role in yeast budding and cell wall integrity in Candida glabrata.",
+            "abstract": "As highly-conserved types of lipid flippases among fungi, P4-ATPases play a significant role in various cellular processes. Cdc50 acts as the regulatory subunit of flippases, forming heterodimers with Drs2 to translocate aminophospholipids. Cdc50 homologs have been reported to be implicated in protein trafficking, drug susceptibility, and virulence in Saccharomyces cerevisiae, Candida albicans and Cryptococcus neoformans. It is likely that Cdc50 has an extensive influence on fungal cellular processes. The present study aimed to determine the function of Cdc50 in Candida glabrata by constructing a Δcdc50 null mutant and its complemented strain.",
+            "journal": "BMC microbiology",
+            "year": "2023",
+            "authors": [
+              "Chen Ke-Zhi",
+              "Wang Lu-Ling",
+              "Liu Jin-Yan",
+              "Zhao Jun-Tao",
+              "Huang Si-Jia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphatases",
+              "Saccharomyces cerevisiae",
+              "Candida glabrata",
+              "Caspofungin",
+              "Cell Wall",
+              "Fungal Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37046215/"
+          },
+          {
+            "pmid": "30420485",
+            "title": "Monitoring of Fluconazole and Caspofungin Activity against In Vivo Candida glabrata Biofilms by Bioluminescence Imaging.",
+            "abstract": "Candida glabrata can attach to various medical implants and forms thick biofilms despite its inability to switch from yeast to hyphae. The current in vivoC. glabrata biofilm models only provide limited information about colonization and infection and usually require animal sacrifice. To gain real-time information from individual BALB/c mice, we developed a noninvasive imaging technique to visualize C. glabrata biofilms in catheter fragments that were subcutaneously implanted on the back of mice. Bioluminescent C. glabrata reporter strains (lucOPT 7/2/4 and lucOPT 8/1/4), free of auxotrophic markers, expressing a codon-optimized firefly luciferase were generated. A murine subcutaneous model was used to follow real-time in vivo biofilm formation in the presence and absence of fluconazole and caspofungin. The fungal load in biofilms was quantified by CFU counts and by bioluminescence imaging (BLI). C. glabrata biofilms formed within the first 24 h, as documented by the increased number of",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2019",
+            "authors": [
+              "Persyn Aranka",
+              "Rogiers Ona",
+              "Brock Matthias",
+              "Vande Velde Greetje",
+              "Lamkanfi Mohamed"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Biofilms",
+              "Candida glabrata",
+              "Caspofungin",
+              "Fluconazole",
+              "Mice",
+              "Mice, Inbred BALB C",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30420485/"
+          },
+          {
+            "pmid": "33318139",
+            "title": "Identification of Candida glabrata Transcriptional Regulators That Govern Stress Resistance and Virulence.",
+            "abstract": "The mechanisms by which Candida glabrata resists host defense peptides and caspofungin are incompletely understood. To identify transcriptional regulators that enable C. glabrata to withstand these classes of stressors, a library of 215 C. glabrata transcriptional regulatory deletion mutants was screened for susceptibility to both protamine and caspofungin. We identified eight mutants that had increased susceptibility to both host defense peptides and caspofungin. Of these mutants, six were deleted for genes that were predicted to specify proteins involved in histone modification. These genes were ADA2, GCN5, SPT8, HOS2, RPD3, and SPP1 Deletion of ADA2, GCN5, and RPD3 also increased susceptibility to mammalian host defense peptides. The Δada2 and Δgcn5 mutants had increased susceptibility to other stressors, such as H2O2 and SDS. In the Galleria mellonella model of disseminated infection, the Δada2 and Δgcn5 mutants had attenuated virulence, whereas in neutropenic mice, the virulence o",
+            "journal": "Infection and immunity",
+            "year": "2021",
+            "authors": [
+              "Filler Elan E",
+              "Liu Yaoping",
+              "Solis Norma V",
+              "Wang Ling",
+              "Diaz Luis F"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Candida glabrata",
+              "Fungal Proteins",
+              "Gene Deletion",
+              "Genetic Variation",
+              "Host-Pathogen Interactions",
+              "Humans",
+              "Mutation",
+              "Transcription Factors",
+              "Virulence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33318139/"
+          },
+          {
+            "pmid": "34893830",
+            "title": "Genotypic, proteomic, and phenotypic approaches to decipher the response to caspofungin and calcineurin inhibitors in clinical isolates of echinocandin-resistant Candida glabrata.",
+            "abstract": "Echinocandin resistance represents a great concern, as these drugs are recommended as first-line therapy for invasive candidiasis. Echinocandin resistance is conferred by mutations in FKS genes. Nevertheless, pathways are crucial for enabling tolerance, evolution, and maintenance of resistance. Therefore, understanding the biological processes and proteins involved in the response to caspofungin may provide clues indicating new therapeutic targets.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2022",
+            "authors": [
+              "Ceballos-Garzon Andres",
+              "Monteoliva Lucia",
+              "Gil Concha",
+              "Alvarez-Moreno Carlos",
+              "Vega-Vela Nelson E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Calcineurin Inhibitors",
+              "Candida glabrata",
+              "Candidiasis, Invasive",
+              "Caspofungin",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Fungal Proteins",
+              "Microbial Sensitivity Tests",
+              "Proteomics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34893830/"
+          },
+          {
+            "pmid": "31321332",
+            "title": "Cellular apoptosis: An alternative mechanism of action for caspofungin against Candida glabrata.",
+            "abstract": "Although the mechanism of action for echinocandins is known, the physiological mechanisms by which these antifungal agents cause cell death via the classical apoptotic pathways are not well-defined yet. Regarding this, the present study aimed to evaluate the mechanisms of caspofungin-induced Candida glabrata cell death.",
+            "journal": "Current medical mycology",
+            "year": "2019",
+            "authors": [
+              "Aryamloo Parisa",
+              "Asgarian-Omran Hossein",
+              "Aslani Narges",
+              "Hossein-Nataj Hadi",
+              "Shokohi Tahereh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31321332/"
+          },
+          {
+            "pmid": "36106428",
+            "title": "Analysis of fks1 and fks2 gene mutations in invasive Candida glabrata strains from Pakistan.",
+            "abstract": "The gradual increase in caspofungin usage in Pakistan raises a concern of emergence of echinocandin resistance in local Candida glabrata strains. We sequenced and determined mutations in fks1 and fks2 genes in invasive Candida glabrata strains from Pakistan.",
+            "journal": "Mycoses",
+            "year": "2023",
+            "authors": [
+              "Memon Saba",
+              "Ghanchi Najia Karim",
+              "Zafar Urooj",
+              "Farooqi Joveria",
+              "Zaka Sadaf"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Candida glabrata",
+              "Micafungin",
+              "Anidulafungin",
+              "Caspofungin",
+              "Pakistan",
+              "Antifungal Agents",
+              "Glucosyltransferases",
+              "Fungal Proteins",
+              "Echinocandins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36106428/"
+          },
+          {
+            "pmid": "19546367",
+            "title": "Effect of Candida glabrata FKS1 and FKS2 mutations on echinocandin sensitivity and kinetics of 1,3-beta-D-glucan synthase: implication for the existing susceptibility breakpoint.",
+            "abstract": "Thirteen Candida glabrata strains harboring a range of mutations in hot spot regions of FKS1 and FKS2 were studied. The mutations were linked to an echinocandin reduced susceptibility phenotype. Sequence alignments showed that 11 out of the 13 mutants harbored a mutation in FKS1 or FKS2 not previously implicated in echinocandin reduced susceptibility in C. glabrata. A detailed kinetic characterization demonstrated that amino acid substitutions in Fks1p and Fks2p reduced drug sensitivity in mutant 1,3-beta-D-glucan synthase by 2 to 3 log orders relative to that in wild-type enzyme. These mutations were also found to reduce the catalytic efficiency of the enzyme (Vmax) and to influence the relative expression of FKS genes. In view of the association of FKS mutations and reduced susceptibility of 1,3-beta-D-glucan synthase, an evaluation of the new CLSI echinocandin susceptibility breakpoint was conducted. Only 3 of 13 resistant fks mutants (23%) were considered anidulafungin or micafungi",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2009",
+            "authors": [
+              "Garcia-Effron Guillermo",
+              "Lee Samuel",
+              "Park Steven",
+              "Cleary John D",
+              "Perlin David S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida glabrata",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Fungal Proteins",
+              "Glucosyltransferases",
+              "Reverse Transcriptase Polymerase Chain Reaction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19546367/"
+          },
+          {
+            "pmid": "35369470",
+            "title": "Multilocus Sequence Typing and Antifungal Susceptibility of Vaginal and Non-vaginal Candida glabrata Isolates From China.",
+            "abstract": "Candida glabrata is a common cause of Candida infections. In our present study, we investigated the antifungal susceptibility and molecular epidemiology of vaginal and non-vaginal C. glabrata isolates. Seventy-six vaginal C. glabrata strains isolated from patients with vulvovaginal candidiasis and 57 non-vaginal C. glabrata isolates were collected at two hospitals in Shanghai, China. Antifungal susceptibility was examined using a broth microdilution method. Multilocus sequence typing was used for genotyping. Overall, 28 (21.1%), 28 (21.1%), and 29 (21.8%) C. glabrata isolates were resistant to fluconazole, itraconazole, and voriconazole, respectively. Briefly, 18 (23.7%), 18 (23.7%), and 19 (25%) vaginal strains were resistant to fluconazole, itraconazole, and voriconazole. While the resistance to these antifungals were all 17.5% (10/57) in non-vaginal strains. All isolates retained susceptibility to amphotericin B, and only four non-vaginal isolates were caspofungin resistant. Genotyp",
+            "journal": "Frontiers in microbiology",
+            "year": "2022",
+            "authors": [
+              "Chen Yisheng",
+              "Wu Yongqin",
+              "Lulou Kaiyi",
+              "Yao Dongting",
+              "Ying Chunmei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35369470/"
+          },
+          {
+            "pmid": "26296340",
+            "title": "Dose escalation studies with caspofungin against Candida glabrata.",
+            "abstract": "Echinocandins are recommended as first-line agents against invasive fungal infections caused by Candida glabrata, which still carry a high mortality rate. Dose escalation of echinocandins has been suggested to improve the clinical outcome against C. glabrata. To address this possibility, we performed in vitro and in vivo experiments with caspofungin against four WT C. glabrata clinical isolates, a drug-susceptible ATCC 90030 reference strain and two echinocandin-resistant strains with known FKS mutations. MIC values for the clinical isolates in RPMI 1640 were ≤ 0.03 mg l(-1 ) but increased to 0.125-0.25 mg l(-1 )in RPMI 1640+50% serum. In RPMI 1640+50% serum, the replication of C. glabrata was weaker than in RPMI 1640.Caspofungin in RPMI 1640 at 1 and 4 mg l(-1) showed a fungicidal effect within 7 h against three of the four clinical isolates but was only fungistatic at 16 and 32 mg l(-1) (paradoxically decreased killing activity). In RPMI 1640+50% serum, caspofungin at ≥ 1 mg l(-1) wa",
+            "journal": "Journal of medical microbiology",
+            "year": "2015",
+            "authors": [
+              "Domán Marianna",
+              "Kovács Renátó",
+              "Perlin David S",
+              "Kardos Gábor",
+              "Gesztelyi Rudolf"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Candida glabrata",
+              "Candidiasis",
+              "Caspofungin",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Lipopeptides",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26296340/"
+          },
+          {
+            "pmid": "39581541",
+            "title": "Clinical and mycological outcomes of candidaemia and/or invasive candidiasis by Candida spp. and antifungal susceptibility: pooled analyses of two randomized trials of rezafungin versus caspofungin.",
+            "abstract": "A post hoc analysis used pooled STRIVE/ReSTORE trial data to determine outcomes with rezafungin versus caspofungin by Candida species and antifungal susceptibility.",
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2025",
+            "authors": [
+              "Soriano Alex",
+              "Locke Jeffrey B",
+              "Cornely Oliver A",
+              "Roilides Emmanuel",
+              "Ramos-Martinez Antonio"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Antifungal Agents",
+              "Candida",
+              "Candidemia",
+              "Candidiasis, Invasive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39581541/"
+          },
+          {
+            "pmid": "32011702",
+            "title": "Impact of calmodulin inhibition by fluphenazine on susceptibility, biofilm formation and pathogenicity of caspofungin-resistant Candida glabrata.",
+            "abstract": "In recent decades, Candida glabrata has emerged as a frequent cause of life-threatening fungal infection. In C. glabrata, echinocandin resistance is associated with mutations in FKS1/FKS2 (β-1,3-glucan synthase). The calmodulin/calcineurin pathway is implicated in response to antifungal stress and calcineurin gene disruption specifically reverses Fks2-mediated resistance of clinical isolates.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2020",
+            "authors": [
+              "Ceballos Garzon Andrés",
+              "Amado Daniela",
+              "Robert Estelle",
+              "Parra Giraldo Claudia M",
+              "Le Pape Patrice"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Biofilms",
+              "Calmodulin",
+              "Candida glabrata",
+              "Caspofungin",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Fluphenazine",
+              "Microbial Sensitivity Tests",
+              "Virulence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32011702/"
+          },
+          {
+            "pmid": "31138567",
+            "title": "Essential Role for the Phosphatidylinositol 3,5-Bisphosphate Synthesis Complex in Caspofungin Tolerance and Virulence in Candida glabrata.",
+            "abstract": "Increasing resistance of the human opportunistic fungal pathogen Candida glabrata toward the echinocandin antifungals, which target the cell wall, is a matter of grave clinical concern. Echinocandin resistance in C. glabrata has primarily been associated with mutations in the β-glucan synthase-encoding genes C. glabrataFKS1 (CgFKS1) and CgFKS2 This notwithstanding, the role of the phosphoinositide signaling in antifungal resistance is just beginning to be deciphered. The phosphatidylinositol 3,5-bisphosphate [PI(3,5)P2] is a low-abundance lipid molecule that is pivotal to the intracellular membrane traffic. Here, we demonstrate for the first time that the PI(3,5)P2 kinase CgFab1, along with its activity regulator CgVac7 and the scaffolding protein CgVac14, is required for maintenance of the cell wall chitin content, survival of the cell wall, and caspofungin stress. Further, deletion analyses implicated the PI(3,5)P2 phosphatase CgFig4 in the regulation of PI(3,5)P2 levels and azole an",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2019",
+            "authors": [
+              "Choudhary Deepak Kumar",
+              "Bhakt Priyanka",
+              "Kaur Rupinder"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Biofilms",
+              "Candida glabrata",
+              "Caspofungin",
+              "Cell Wall",
+              "Drug Resistance, Fungal",
+              "Echinocandins",
+              "Microbial Sensitivity Tests",
+              "Phosphatidylinositol Phosphates",
+              "Virulence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31138567/"
+          },
+          {
+            "pmid": "40622137",
+            "title": "Tn-seq screens in Candida glabrata treated with echinocandins and ibrexafungerp reveal pathways of antifungal resistance and cross-resistance.",
+            "abstract": "Candida glabrata (also known as Nakaseomyces glabratus) is the second most common cause of candidiasis, next to Candida albicans, and is rising in prevalence due to intrinsic and acquired mechanisms of antifungal resistance. This study utilizes transposon mutagenesis and deep sequencing (Tn-seq) to explore mechanisms of resistance to four different echinocandins (micafungin, anidulafungin, rezafungin, and caspofungin) and a non-echinocandin inhibitor (ibrexafungerp) of beta-1,3-glucan synthase (GS) in the BG2 strain background. Contrary to the other antifungals, caspofungin susceptibility exhibited high dependence on sphingolipid genes and low dependence on mitochondrial genes. Numerous deficiencies in mitochondrial genes increased fitness in micafungin, anidulafungin, rezafungin, and ibrexafungerp largely through effects on Pdr1, a stress-activated transcription factor known to promote fluconazole resistance. Several targets of Pdr1 (RTA1, LAF1, LAC1, IPT1, and RSB1) altered resistanc",
+            "journal": "mSphere",
+            "year": "2025",
+            "authors": [
+              "Nickels Timothy J",
+              "Cunningham Kyle W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candida glabrata",
+              "Antifungal Agents",
+              "Echinocandins",
+              "Drug Resistance, Fungal",
+              "Microbial Sensitivity Tests",
+              "DNA Transposable Elements",
+              "High-Throughput Nucleotide Sequencing",
+              "Glucosyltransferases",
+              "Mutagenesis, Insertional",
+              "Micafungin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40622137/"
+          },
+          {
+            "pmid": "39250486",
+            "title": "Evolutionary dynamics in gut-colonizing Candida glabrata during caspofungin therapy: Emergence of clinically important mutations in sphingolipid biosynthesis.",
+            "abstract": "Invasive fungal infections are associated with high mortality, which is exacerbated by the limited antifungal drug armamentarium and increasing antifungal drug resistance. Echinocandins are a frontline antifungal drug class targeting β-glucan synthase (GS), a fungal cell wall biosynthetic enzyme. Echinocandin resistance is generally low but increasing in species like Candida glabrata, an opportunistic yeast pathogen colonizing human mucosal surfaces. Mutations in GS-encoding genes (FKS1 and FKS2 in C. glabrata) are strongly associated with clinical echinocandin failure, but epidemiological studies show that other, as yet unidentified factors also influence echinocandin susceptibility. Furthermore, although the gut is known to be an important reservoir for emergence of drug-resistant strains, the evolution of resistance is not well understood. Here, we studied the evolutionary dynamics of C. glabrata colonizing the gut of immunocompetent mice during treatment with caspofungin, a widely-",
+            "journal": "PLoS pathogens",
+            "year": "2024",
+            "authors": [
+              "Hassoun Yasmine",
+              "Aptekmann Ariel A",
+              "Keniya Mikhail V",
+              "Gomez Rosa Y",
+              "Alayo Nicole"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candida glabrata",
+              "Caspofungin",
+              "Mice",
+              "Antifungal Agents",
+              "Animals",
+              "Sphingolipids",
+              "Mutation",
+              "Drug Resistance, Fungal",
+              "Candidiasis",
+              "Fungal Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39250486/"
+          },
+          {
+            "pmid": "23628576",
+            "title": "Candida glabrata olecranon bursitis treated with bursectomy and intravenous caspofungin.",
+            "abstract": "Orthopedic surgeons are becoming more involved in the care of patients with septic arthritis and bursitis caused by yeast species. This case report involves a middle-aged immunocompromised female who developed a Candida glabrata septic olecranon bursitis that developed after she received a corticosteroid injection in the olecranon bursa for presumed aseptic bursitis. Candida (Torulopsis) glabrata is the second most frequently isolated Candida species from the bloodstream in the United States. Increased use of fluconazole and other azole antifungal agents as a prophylactic treatment for recurrent Candida albicans infections in immunocompromised individuals is one reason why there appears to be increased resistance of C. glabrata and other nonalbicans Candida (NAC) species to fluconazole. In this patient, this infection was treated with surgery (bursectomy) and intravenous caspofungin, an echinocandin. This rare infectious etiology coupled with this intravenous antifungal treatment makes",
+            "journal": "Journal of surgical orthopaedic advances",
+            "year": "2013",
+            "authors": [
+              "Skedros John G",
+              "Keenan Kendra E",
+              "Trachtenberg Joel D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intravenous",
+              "Antifungal Agents",
+              "Bursa, Synovial",
+              "Bursitis",
+              "Candida glabrata",
+              "Candidiasis",
+              "Caspofungin",
+              "Echinocandins",
+              "Elbow Joint",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23628576/"
+          },
+          {
+            "pmid": "35007132",
+            "title": "Azole-Resistant Alleles of ERG11 in Candida glabrata Trigger Activation of the Pdr1 and Upc2A Transcription Factors.",
+            "abstract": "Azoles, the most commonly used antifungal drugs, specifically inhibit the fungal lanosterol α-14 demethylase enzyme, which is referred to as Erg11. Inhibition of Erg11 ultimately leads to a reduction in ergosterol production, an essential fungal membrane sterol. Many Candida species, such as Candida albicans, develop mutations in this enzyme which reduces the azole binding affinity and results in increased resistance. Candida glabrata is also a pathogenic yeast that has low intrinsic susceptibility to azole drugs and easily develops elevated resistance. In C. glabrata, these azole resistant mutations typically cause hyperactivity of the Pdr1 transcription factor and rarely lie within the ERG11 gene. Here, we generated C. glabrata ERG11 mutations that were analogous to azole resistance alleles from C. albicans ERG11. Three different Erg11 forms (Y141H, S410F, and the corresponding double mutant (DM)) conferred azole resistance in C. glabrata with the DM Erg11 form causing the strongest ",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2022",
+            "authors": [
+              "Vu Bao Gia",
+              "Moye-Rowley W Scott"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Antifungal Agents",
+              "Azoles",
+              "Candida glabrata",
+              "DNA-Binding Proteins",
+              "Drug Resistance, Fungal",
+              "Fungal Proteins",
+              "Gene Expression Regulation, Fungal",
+              "Microbial Sensitivity Tests",
+              "Transcription Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35007132/"
+          },
+          {
+            "pmid": "37744513",
+            "title": "Molecular fingerprinting by multi-locus sequence typing identifies microevolution and nosocomial transmission of Candida glabrata in Kuwait.",
+            "abstract": "Candida glabrata is a frequently isolated non-albicans Candida species and invasive C. glabrata infections in older patients are associated with high mortality rates. Opportunistic Candida infections in critically ill patients may be either endogenous or nosocomial in origin and this distinction is critical for effective intervention strategies. This study performed multi-locus sequence typing (MLST) to study genotypic relatedness among clinical C. glabrata isolates in Kuwait.",
+            "journal": "Frontiers in public health",
+            "year": "2023",
+            "authors": [
+              "Asadzadeh Mohammad",
+              "Ahmad Suhail",
+              "Al-Sweih Noura",
+              "Khan Ziauddin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Fluconazole",
+              "Candida glabrata",
+              "Voriconazole",
+              "Multilocus Sequence Typing",
+              "Kuwait",
+              "Phylogeny",
+              "Cross Infection",
+              "Candida"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37744513/"
+          },
+          {
+            "pmid": "38621582",
+            "title": "Microevolution of Candida glabrata (Nakaseomyces glabrata) during an infection.",
+            "abstract": "Candida glabrata (Nakaseomyces glabrata) is an emergent and opportunistic fungal pathogen that colonizes and persists in different niches within its human host. In this work, we studied five clinical isolates from one patient (P7), that have a clonal origin, and all of which come from blood cultures except one, P7-3, obtained from a urine culture. We found phenotypic variation such as sensitivity to high temperature, oxidative stress, susceptibility to two classes of antifungal agents, and cell wall porosity. Only isolate P7-3 is highly resistant to the echinocandin caspofungin while the other four isolates from P7 are sensitive. However, this same isolate P7-3, is the only one that displays susceptibility to fluconazole (FLC), while the rest of the isolates are resistant to this antifungal. We sequenced the PDR1 gene which encodes a transcription factor required to induce the expression of several genes involved in the resistance to FLC and found that all the isolates encode for the s",
+            "journal": "Fungal genetics and biology : FG & B",
+            "year": "2024",
+            "authors": [
+              "López-Marmolejo Ana L",
+              "Hernández-Chávez Marco J",
+              "Gutiérrez-Escobedo Guadalupe",
+              "Selene Herrera-Basurto M",
+              "Mora-Montes Héctor M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candida glabrata",
+              "Antifungal Agents",
+              "Humans",
+              "Drug Resistance, Fungal",
+              "Fungal Proteins",
+              "Microbial Sensitivity Tests",
+              "Fluconazole",
+              "Cell Wall",
+              "Candidiasis",
+              "Caspofungin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38621582/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00520",
+    "name": "Caspofungin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Caspofungin"
+      },
+      "queried_at": "2026-03-10T04:05:53.362785",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Caspofungin"
+      },
+      "queried_at": "2026-03-10T04:05:55.538752",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-10T04:05:56.238455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-10T04:05:59.824172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-10T04:06:00.735902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T04:06:01.688986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T04:06:05.296024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T04:06:06.368107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "queried_at": "2026-03-10T04:06:07.123860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "queried_at": "2026-03-10T04:06:11.116396",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "queried_at": "2026-03-10T04:06:11.794092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T04:06:12.484841",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T04:06:15.818395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T04:06:19.086454",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T04:06:19.639867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T04:06:22.912718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-10T04:06:23.827455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:06:24.313927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:06:28.167459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:06:29.019845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-10T04:06:29.821130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-10T04:06:32.926555",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-10T04:06:38.047628",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "congenital candidiasis"
+      },
+      "queried_at": "2026-03-10T04:06:38.842075",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "congenital candidiasis"
+      },
+      "queried_at": "2026-03-10T04:06:43.185709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "congenital candidiasis"
+      },
+      "queried_at": "2026-03-10T04:06:46.708730",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "neonatal candidiasis"
+      },
+      "queried_at": "2026-03-10T04:06:47.512289",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "neonatal candidiasis"
+      },
+      "queried_at": "2026-03-10T04:06:51.431203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "neonatal candidiasis"
+      },
+      "queried_at": "2026-03-10T04:06:55.372832",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "candida glabrata"
+      },
+      "queried_at": "2026-03-10T04:06:56.044543",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "candida glabrata"
+      },
+      "queried_at": "2026-03-10T04:06:59.091092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Caspofungin",
+        "disease": "candida glabrata"
+      },
+      "queried_at": "2026-03-10T04:07:01.974197",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:07:01.982143"
+  }
+}

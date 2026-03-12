@@ -1,0 +1,1571 @@
+{
+  "drug": {
+    "inn": "Serine",
+    "drugbank_id": "DB00133",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "familial visceral myopathy",
+        "txgnn_score": 0.9999157190322876,
+        "txgnn_rank": 292,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intestinal obstruction",
+        "txgnn_score": 0.999710977077484,
+        "txgnn_rank": 776,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05050084",
+            "title": "Parallel Phase III Randomized Trials of Genomic-Risk Stratified Unfavorable Intermediate Risk Prostate Cancer: De-Intensification and Intensification Clinical Trial Evaluation (GUIDANCE)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2021-12-06",
+            "completion_date": "2026-11-11",
+            "country": "Canada, United States",
+            "enrollment": 2050,
+            "brief_summary": "This phase III trial uses the Decipher risk score to guide therapy selection. Decipher score is based on the activity of 22 genes in prostate tumor and may predict how likely it is for recurrent prostate cancer to spread (metastasize) to other parts of the body. Decipher score in this study is used for patient selection and the two variations of treatment to be studied: intensification for higher Decipher score or de-intensification for low Decipher score. Patients with higher Decipher risk scor",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically (histologically or cytologically) proven diagnosis of adenocarcinoma of the prostate within 270 days prior to registration\n* Unfavorable intermediate risk prostate cancer, defined as having ALL the following bulleted criteria:\n\n  * Has at least one intermediate ",
+            "endpoints": [
+              "Distant metastasis (DM) (De-intensification study)",
+              "Metastasis-free survival (MFS) (Intensification study)"
+            ],
+            "sponsor": "NRG Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT05050084"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04516993",
+            "title": "Prospective, Multicenter, Open, End-point Blinded, Stratified Block Randomized, Parallel Positive Controlled Clinical Trial of Tenecteplase in Acute Ischemic Stroke With Large Vessel Occlusion Over Time Window",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-09-28",
+            "completion_date": "2023-09-30",
+            "country": "China",
+            "enrollment": 224,
+            "brief_summary": "To explore the efficacy and safety of tenecteplase for acute ischemic stroke patients (onset time 4.5-24h) of large vessel occlusion using early combined CT/MR imaging outcomes",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients presenting with anterior circulation acute ischaemic stroke\n2. Time from onset to treatment 4.5h-24h\n3. Patient's age is \\>= 18 years，\\<= 80\n4. Pre-stroke mRS score of \\<= 2\n5. Clinically significant acute neurologic deficit\n6. Baseline National Institute of Health s",
+            "endpoints": [
+              "patients without endovascular therapy obtained >50% reperfusion at 4-6 hours",
+              "patients with endovascular therapy: mTICI score 2b or better at initial angiogram",
+              "no symptomatic intracranial hemorrhage at 24-36 hours"
+            ],
+            "sponsor": "Huashan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04516993"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04367792",
+            "title": "Pathology and Pathogenesis of Cardiac Injury in COVID-19 Infections in Humans",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-04-23",
+            "completion_date": "2021-03",
+            "country": "Italy",
+            "enrollment": 60,
+            "brief_summary": "The primary goal of the study is to conduct the first systematic cardiac autopsy study in 60 patients dying from COVID-19 to understand the pathology and pathogenesis of cardiac injury in patients with COVID-19, with/without cardiovascular comorbidities. Such data is essential for understanding rate of involvement, type of involvement and degree of injury in patients contracting the disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Hospitalized patients at Papa Giovanni XXIII Hospital, Bergamo, forefront of the COVIT-19 pandemic in Italy\n* COVID-19 positive patients who died with/without a picture of cardiac injury\n\nExclusion Criteria:\n\n* COVID-19 negative patients who died",
+            "endpoints": [
+              "Cardiac pathological findings from series of 60 patients dying from COVID-19 disease",
+              "viral load in cardiac tissues and the extent of damage",
+              "Co-localize the SARS-CoV-2 using RNAscope in situ hybridization, with its entry receptor ACE2 and serine protease TMPRSS2 in different cell types found in the heart"
+            ],
+            "sponsor": "A.O. Ospedale Papa Giovanni XXIII",
+            "url": "https://clinicaltrials.gov/study/NCT04367792"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00359424",
+            "title": "Interventional Management of Stroke Trial (IMS III): A Phase III Clinical Trial Examining Whether a Combined Intravenous (IV) and Intra-Arterial (IA) Approach to Recanalization is Superior to Standard IV Rt-PA (Activase®) Alone",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2006-08",
+            "completion_date": "2013-04",
+            "country": "Switzerland, Australia, Spain, France, Canada, Netherlands, Germany, United States",
+            "enrollment": 656,
+            "brief_summary": "The purpose of this study is to compare two different treatment approaches to recanalization started within 3 hours of symptom onset-combined intravenous (IV) and endovascular therapy and standard intravenous (IV) rt-PA alone.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Age: 18 through 82 years (i.e., candidates must have had their 18th birthday, but not had their 83rd birthday)\n* Initiation of intravenous rt-PA within 3 hours of onset of stroke symptoms. Time of onset is defined as the last time when the subject was witnessed to be at baselin",
+            "endpoints": [
+              "Modified Rankin Scale (mRS) Score Dichotomized to 0-2 Versus Greater Than 2.",
+              "Death Due to Any Cause",
+              "Symptomatic Intracranial Hemorrhage"
+            ],
+            "sponsor": "University of Cincinnati",
+            "url": "https://clinicaltrials.gov/study/NCT00359424"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04086147",
+            "title": "Chinese Acute Tissue-based Imaging Selection for Lysis in Stroke: a Prospective, Multicentre, Randomized, Open-label, Rater-blinded, Randomized Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-12-09",
+            "completion_date": "2021-12-31",
+            "country": "China",
+            "enrollment": 86,
+            "brief_summary": "To select the best dosage of tenecteplase for acute ischemic stroke patients (onset time 4.5-24h) of large vessel occlusion using early combined CT/MR imaging outcomes",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients presenting with anterior circulation acute ischaemic stroke\n2. Time from onset to treatment 4.5h-24h\n3. Patient's age is ≥18 years\n4. Pre-stroke mRS score of \\<= 2\n5. Clinically significant acute neurologic deficit\n6. Vessel occlusion or severe stenosis ( ICA, MCA-M1",
+            "endpoints": [
+              "Favourable outcome: patients without endovascular therapy obtained >50% reperfusion at 4-6 hours",
+              "Favourable outcome: patients with endovascular therapy: mTICI score 2b or better at initial angiogram",
+              "Favourable outcome: no symptomatic intracranial hemorrhage at 24-36 hours"
+            ],
+            "sponsor": "Huashan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04086147"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07256171",
+            "title": "Cholesterol Optimization After Stroke: a Multicenter Prospective Study on LDL Cholesterol Control in Patients With Acute Stroke.",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-01",
+            "completion_date": "2026-12-31",
+            "country": "N/A",
+            "enrollment": 500,
+            "brief_summary": "This study (acronym COAST Trial) is a multicenter observational registry aiming to document: patients' adherence and persistence to lipid-lowering therapy prescribed for secondary prevention; the proportion of patients achieving LDL cholesterol therapeutic targets at 3 months; the incidence of cerebrovascular recurrence and mortality at 90 days, as well as the occurrence of any adverse effects from these therapies. This information will provide a snapshot of post-stroke/TIA lipid-lowering manage",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • Recent acute cerebrovascular event, defined as a confirmed diagnosis of ischemic stroke, hemorrhagic stroke, or TIA occurring less than 30 days prior to enrollment.\n\n  * Availability of a baseline measured LDL cholesterol value (direct or calculated) at the time of the index",
+            "endpoints": [
+              "Adherence to lipid-lowering therapy"
+            ],
+            "sponsor": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+            "url": "https://clinicaltrials.gov/study/NCT07256171"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04821557",
+            "title": "Effect of Microbial Protease Supplementation on Postprandial Amino Acid Levels in Healthy Adults",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-03-30",
+            "completion_date": "2021-09-03",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "Dietary protein is digested in the stomach and intestines to smaller peptides and 20 individual amino acids which, when absorbed by the gut into circulation and taken up by skeletal muscle, help stimulate muscle protein synthesis (MPS). Amino acids also provide the building blocks for muscle proteins that contribute to lean mass gains and increased strength following resistance exercise. Therefore, strategies to efficiently maximize amino acid exposure without overconsumption are warranted.\n\nOra",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged between 20 - 50 years\n* Body mass index = 18.0-29.9 kg∙m-2\n\nExclusion Criteria:\n\n* Age outside of range (20 - 50 y)\n* Pregnancy\n* Subject states they regularly consume probiotic supplements and are unwilling to stop at least one week prior to screening and throughout the ",
+            "endpoints": [
+              "Total plasma branched chain amino acid(BCAA) area under the curve(AUC)",
+              "Plasma BCAA time-to-peak",
+              "Plasma BCAA C(MAX)"
+            ],
+            "sponsor": "University of Illinois at Urbana-Champaign",
+            "url": "https://clinicaltrials.gov/study/NCT04821557"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06012734",
+            "title": "Phase Ib Study With the Combination of LB-100 (PP2A Inhibitor) and Atezolizumab (PD-L1 Inhibitor) in Metastatic Colorectal Cancer Patients - The CoLBAt Trial",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2024-06-18",
+            "completion_date": "2026-07",
+            "country": "Netherlands",
+            "enrollment": 37,
+            "brief_summary": "This Phase Ib trial studies the side effects and best dose of LB-100 when given with atezolizumab for the treatment of patients with metastatic microsatellite stable colorectal cancer. Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of the tumor to grow and spread. LB-100 has been shown to make anticancer drugs work better at killing cancer. LB-100 blocks a protein on the surface of cells call",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed Informed Consent Form (ICF);\n2. Age ≥ 18 years at time of signing ICF;\n3. Ability to comply with the study protocol;\n4. Histological or cytological confirmed colorectal cancer;\n5. Immunohistochemically confirmation of microsatellite stable (MSS) phenotype;\n6. Disease p",
+            "endpoints": [
+              "The RP2D of LB-100 when given in combination with standard doses of atezolizumab"
+            ],
+            "sponsor": "The Netherlands Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06012734"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02508077",
+            "title": "A Prospective Study of FOLFIRI Plus Panitumumab in Extended RAS Wild Type and BRAF Wild Type Metastatic Colorectal Cancer With Acquired Resistance to Prior Cetuximab (or Panitumumab) Plus Irinotecan-Based Therapy and Who Failed at Least One Subsequent Non-anti-EGFR Containing Regimen",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2016-02-16",
+            "completion_date": "2017-09-13",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "This phase II trial studies how well fluorouracil, leucovorin calcium, and irinotecan hydrochloride (FOLFIRI) together with panitumumab work in treating patients with colorectal cancer that expresses the RAS and B-Raf proto-oncogene, serine/threonine kinase (BRAF) wild-type genes, has spread from the original site of growth to another part of the body (metastatic), resists the effects of treatment with prior cetuximab (or panitumumab) plus irinotecan hydrochloride-based therapy, and who have fai",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must have the ability to understand and the willingness to sign a written informed consent document\n* Participant must be willing to comply with study and/or follow-up procedures\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-2\n* Life expectancy o",
+            "endpoints": [
+              "4-month Progression-free Survival (PFS) Rate"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02508077"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31516082",
+            "title": "The expanding phenotypes of cohesinopathies: one ring to rule them all!",
+            "abstract": "Preservation and development of life depend on the adequate segregation of sister chromatids during mitosis and meiosis. This process is ensured by the cohesin multi-subunit complex. Mutations in this complex have been associated with an increasing number of diseases, termed cohesinopathies. The best characterized cohesinopathy is Cornelia de Lange syndrome (CdLS), in which intellectual and growth retardations are the main phenotypic manifestations. Despite some overlap, the clinical manifestations of cohesinopathies vary considerably. Novel roles of the cohesin complex have emerged during the past decades, suggesting that important cell cycle regulators exert important biological effects through non-cohesion-related functions and broadening the potential pathomechanisms involved in cohesinopathies. This review focuses on non-cohesion-related functions of the cohesin complex, gene dosage effect, epigenetic regulation and TGF-β in cohesinopathy context, especially in comparison to Chron",
+            "journal": "Cell cycle (Georgetown, Tex.)",
+            "year": "2019",
+            "authors": [
+              "Piché Jessica",
+              "Van Vliet Patrick Piet",
+              "Pucéat Michel",
+              "Andelfinger Gregor"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Atrial Flutter",
+              "Cell Cycle Proteins",
+              "Chromatids",
+              "Chromosomal Proteins, Non-Histone",
+              "Chromosome Segregation",
+              "De Lange Syndrome",
+              "Humans",
+              "Intestinal Pseudo-Obstruction",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31516082/"
+          },
+          {
+            "pmid": "34089850",
+            "title": "Biomarkers for the Prediction and Diagnosis of Fibrostenosing Crohn's Disease: A Systematic Review.",
+            "abstract": "Intestinal strictures are a common complication of Crohn's disease (CD). Biomarkers of intestinal strictures would assist in their prediction, diagnosis, and monitoring. Herein we provide a comprehensive systematic review of studies assessing biomarkers that may predict or diagnose CD-associated strictures.",
+            "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "year": "2022",
+            "authors": [
+              "Steiner Calen A",
+              "Berinstein Jeffrey A",
+              "Louissaint Jeremy",
+              "Higgins Peter D R",
+              "Spence Jason R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Cartilage Oligomeric Matrix Protein",
+              "Constriction, Pathologic",
+              "Crohn Disease",
+              "Humans",
+              "Intestinal Obstruction",
+              "MicroRNAs",
+              "Serine Endopeptidases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34089850/"
+          },
+          {
+            "pmid": "39709798",
+            "title": "Metagenomics and metabolomics to investigate the effect of Amygdalus mongolica oil on intestinal microbiota and serum metabolites in rats.",
+            "abstract": "Renal fibrosis (RF) is an inevitable consequence of multiple manifestations of progressive chronic kidney diseases (CKDs). Mechanism of Amygdalus mongolica (Maxim.) in the treatment of RF needs further investigation.",
+            "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "year": "2025",
+            "authors": [
+              "Wang Run-Xi",
+              "Zhou Hong-Bing",
+              "Gao Jia-Xing",
+              "Bai Wan-Fu",
+              "Wang Jia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Gastrointestinal Microbiome",
+              "Male",
+              "Metabolomics",
+              "Rats, Sprague-Dawley",
+              "Rats",
+              "Metagenomics",
+              "Fibrosis",
+              "Kidney",
+              "Plant Oils"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39709798/"
+          },
+          {
+            "pmid": "36684194",
+            "title": "Diffuse malignant peritoneal mesothelioma: A review.",
+            "abstract": "Diffuse malignant peritoneal mesothelioma (DMPM) is an unusual and life-threatening locally invasive tumor. The morbidity and mortality of the disease are associated with progressive local effects in the abdominal cavity, such as abdominal distention, painful sensations, and early saturation with reduced oral intake, which eventually lead to intestinal obstruction and cachexia. Computed tomography (CT) has been widely used as a first-line diagnostic tool for DMPM. In addition, the most sensitive immunohistochemical markers of DMPM include WT 1, D2-40, and calmodulin. This paradigm has altered with the advancements in the immunohistochemical analysis of BRCA1-Associated Protein 1 (BAP1) the lack of BAP1 expression shows the diagnosis of malignancy. DMPM is resistant to conventional chemotherapies. Therefore, the gold standard for the treatment of DMPM is the combination of cytoreductive surgery (CRS) and hyperthermic intraperitoneal chemotherapy (HIPEC). The overexpression of the phosph",
+            "journal": "Frontiers in surgery",
+            "year": "2022",
+            "authors": [
+              "Sun Luanbiao",
+              "Li Chenguang",
+              "Gao Shuohui"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36684194/"
+          },
+          {
+            "pmid": "37361201",
+            "title": "The role of the SGK3/TOPK signaling pathway in the transition from acute kidney injury to chronic kidney disease.",
+            "abstract": "Introduction: Profibrotic phenotype of renal tubular epithelial cells (TECs) featured with epithelial to mesenchymal transition (EMT) and profibrotic factors secretion, and aberrant accumulation of CD206+ M2 macrophages are the key points in the transition from acute kidney injury (AKI) to chronic kidney disease (CKD). Nevertheless, the underlying mechanisms involved remain incompletely understood. Serum and glucocorticoid-inducible kinase (SGK) is a serine/threonine protein kinase, required for intestinal nutrient transport and ion channels modulation. T-LAK-cell-originated protein kinase (TOPK) is a member of the mitogen activated protein kinase family, linked to cell cycle regulation. However, little is known about their roles in AKI-CKD transition. Methods: In this study, three models were constructed in C57BL/6 mice: low dose and multiple intraperitoneal injection of cisplatin, 5/6 nephrectomy and unilateral ureteral obstruction model. Rat renal tubular epithelial cells (NRK-52E) ",
+            "journal": "Frontiers in pharmacology",
+            "year": "2023",
+            "authors": [
+              "Shu Huapan",
+              "Wang Yumei",
+              "Zhang Hui",
+              "Dong Qingqing",
+              "Sun Lulu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37361201/"
+          },
+          {
+            "pmid": "31595986",
+            "title": "Safety and efficacy of non-steroidal anti-inflammatory drugs to reduce ileus after colorectal surgery.",
+            "abstract": "Ileus is common after elective colorectal surgery, and is associated with increased adverse events and prolonged hospital stay. The aim was to assess the role of non-steroidal anti-inflammatory drugs (NSAIDs) for reducing ileus after surgery.",
+            "journal": "The British journal of surgery",
+            "year": "2020",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study",
+              "Video-Audio Media"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Colectomy",
+              "Elective Surgical Procedures",
+              "Female",
+              "Humans",
+              "Ileus",
+              "Kaplan-Meier Estimate",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31595986/"
+          },
+          {
+            "pmid": "31976560",
+            "title": "Safety of hospital discharge before return of bowel function after elective colorectal surgery.",
+            "abstract": "Ileus is common after colorectal surgery and is associated with an increased risk of postoperative complications. Identifying features of normal bowel recovery and the appropriateness for hospital discharge is challenging. This study explored the safety of hospital discharge before the return of bowel function.",
+            "journal": "The British journal of surgery",
+            "year": "2020",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Colectomy",
+              "Colostomy",
+              "Elective Surgical Procedures",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Ileostomy",
+              "Ileus",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31976560/"
+          },
+          {
+            "pmid": "34092023",
+            "title": "Timing of nasogastric tube insertion and the risk of postoperative pneumonia: an international, prospective cohort study.",
+            "abstract": "Aspiration is a common cause of pneumonia in patients with postoperative ileus. Insertion of a nasogastric tube (NGT) is often performed, but this can be distressing. The aim of this study was to determine whether the timing of NGT insertion after surgery (before versus after vomiting) was associated with reduced rates of pneumonia in patients undergoing elective colorectal surgery.",
+            "journal": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+            "year": "2020",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Elective Surgical Procedures",
+              "Humans",
+              "Ileus",
+              "Intubation, Gastrointestinal",
+              "Pneumonia",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34092023/"
+          },
+          {
+            "pmid": "39467684",
+            "title": "[Current research status of Peutz-Jeghers syndrome in children].",
+            "abstract": "Peutz-Jeghers syndrome (PJS) is an autosomal dominant genetic disorder characterized by mucocutaneous pigmentation and multiple hamartomatous polyps, which leads to an increased susceptibility to tumors. The clinical incidence is rare, and the only currently identified pathogenic gene is the serine/threonine kinase 11/liver kinase B1 (STK11/LKB1) located on the short arm of chromosome 19 (19p13.3). This condition can lead to various complications, such as gastrointestinal bleeding, intussusception, intestinal obstruction, and malignancy. In childhood, the greatest risk is associated with intussusception, which increases the risk of surgical intervention and significantly impacts the growth, development, and quality of life of the children. This article provides an overview of the current research status regarding the clinical characteristics, etiology, pathogenesis, diagnosis, and treatment of PJS in children.",
+            "journal": "Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics",
+            "year": "2024",
+            "authors": [
+              "Tong Qin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Peutz-Jeghers Syndrome",
+              "Humans",
+              "Child",
+              "AMP-Activated Protein Kinase Kinases",
+              "Protein Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39467684/"
+          },
+          {
+            "pmid": "32988413",
+            "title": "Molecular characterization of a Trichinella spiralis serine proteinase.",
+            "abstract": "The aim of this study was to investigate the biological characteristics and functions of a Trichinella spiralis serine proteinase (TsSerp) during larval invasion and development in the host. The full-length TsSerp cDNA sequence was cloned and expressed in Escherichia coli BL21. The results of RT-PCR, IFA and western blotting analyses showed that TsSerp was a secretory protein that was highly expressed at the T. spiralis intestinal infective larva and muscle larva stages and primarily located at the cuticle, stichosome and intrauterine embryos of the parasite. rTsSerp promoted the larval invasion of intestinal epithelial cells (IECs) and the enteric mucosa, whereas an anti-rTsSerp antibody impeded larval invasion; the promotion and obstruction roles were dose-dependently related to rTsSerp and the anti-rTsSerp antibodies, respectively. Vaccination of mice with rTsSerp elicited a remarkable humoral immune response (high levels of serum IgG, IgG1/IgG2a, IgE and IgM), and it also triggered",
+            "journal": "Veterinary research",
+            "year": "2020",
+            "authors": [
+              "Yue Xin",
+              "Sun Xiang Yuan",
+              "Liu Fang",
+              "Hu Chen Xi",
+              "Bai Ying"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Animals",
+              "Female",
+              "Helminth Proteins",
+              "Immunity, Cellular",
+              "Immunity, Humoral",
+              "Mice",
+              "Mice, Inbred BALB C",
+              "Phylogeny",
+              "Sequence Alignment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32988413/"
+          },
+          {
+            "pmid": "24516526",
+            "title": "Voltage dependent potassium channel remodeling in murine intestinal smooth muscle hypertrophy induced by partial obstruction.",
+            "abstract": "Partial obstruction of the small intestine causes obvious hypertrophy of smooth muscle cells and motility disorder in the bowel proximate to the obstruction. To identify electric remodeling of hypertrophic smooth muscles in partially obstructed murine small intestine, the patch-clamp and intracellular microelectrode recording methods were used to identify the possible electric remodeling and Western blot, immunofluorescence and immunoprecipitation were utilized to examine the channel protein expression and phosphorylation level changes in this research. After 14 days of obstruction, partial obstruction caused obvious smooth muscle hypertrophy in the proximally located intestine. The slow waves of intestinal smooth muscles in the dilated region were significantly suppressed, their amplitude and frequency were reduced, whilst the resting membrane potentials were depolarized compared with normal and sham animals. The current density of voltage dependent potassium channel (KV) was signific",
+            "journal": "PloS one",
+            "year": "2014",
+            "authors": [
+              "Liu Dong-Hai",
+              "Huang Xu",
+              "Guo Xin",
+              "Meng Xiang-Min",
+              "Wu Yi-Song"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "4-Aminopyridine",
+              "Animals",
+              "Cell Membrane",
+              "Electric Capacitance",
+              "Fluorescent Antibody Technique",
+              "Frozen Sections",
+              "Hypertrophy",
+              "Intestinal Obstruction",
+              "Ion Channel Gating",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24516526/"
+          },
+          {
+            "pmid": "38800180",
+            "title": "Peutz-Jeghers Syndrome: A Comprehensive Review of Genetics, Clinical Features, and Management Approaches.",
+            "abstract": "A relatively rare inherited condition known as Peutz-Jeghers syndrome (PJS) causes mucocutaneous pigmentation and gastrointestinal hamartomatous polyps. These polyps are non-cancerous, but the presence of PJS significantly increases the chances of developing various types of cancers, such as colorectal, pancreatic, gastric, and breast cancer. The purpose of this review article is to give an abbreviated summary of what is currently known about this syndrome, covering its clinical symptoms, pathophysiology, genetics, and management. PJS also raises the risk of getting many malignancies, especially gastrointestinal and pelvic cancers. Symptoms of the gastrointestinal tract brought on by hamartomatous polyps are frequent and include stool blockage, bleeding, and stomach pain. The pigmentation commonly appears as prominent bluish-black macules and frequently affects the skin and mucous membranes. Small macules and large regions of lentiginous pigmentation are both possible. Numerous areas, ",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Amru Rohan L",
+              "Dhok Archana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38800180/"
+          },
+          {
+            "pmid": "38531200",
+            "title": "Ischemia-inhibited ferric chelate reductase 1 improves ferroptosis-mediated intestinal ischemia injury via Hippo signaling.",
+            "abstract": "The precise mechanism of ferroptosis as a regulatory cell death in intestinal ischemia injury induced by vascular intestinal obstruction (Vio) remains to be elucidated. Here, we evaluated iron levels, glutathione peroxidase 4 (GPX4) and Acyl-CoA synthetase long-chain family member 4 (ACSL4) changes after intestinal ischemia injury to validate ferroptosis. As an enzyme for Fe3+ reduction to Fe2+, Ferric Chelate Reductase 1 (FRRS1) is involved in the electron transport chain and the tricarboxylic acid (TCA) cycle in mitochondria. However, whether it is involved in ferroptosis and its role in intestinal ischemia injury need to be clarified. In the present study, FRRS1 was overexpressed in vivo and in vitro. The results showed that overexpression of FRRS1 prevented ischemia-induced iron levels, reactive oxygen species (ROS) production, lipid peroxidation, inflammatory responses, and cell death. Meanwhile, FRRS1 overexpression promoted GPX4 expression and suppressed ACSL4 levels. Further st",
+            "journal": "International immunopharmacology",
+            "year": "2024",
+            "authors": [
+              "Liang Pengzhen",
+              "Xie Wei",
+              "Wang Xing",
+              "Du Zhaohui",
+              "Zheng Chuanming"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ferroptosis",
+              "Animals",
+              "Hippo Signaling Pathway",
+              "Mice",
+              "Male",
+              "Signal Transduction",
+              "Coenzyme A Ligases",
+              "Protein Serine-Threonine Kinases",
+              "Mice, Inbred C57BL",
+              "Intestines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38531200/"
+          },
+          {
+            "pmid": "41205769",
+            "title": "Autophagy-related genes expression in children with cystic fibrosis.",
+            "abstract": "Autophagy is a self-degradative process that plays a role in removing misfolded or aggregated proteins located in the cytosol. Autophagy induction is initiated by the mammalian target of rapamycin (mTOR). Beclin-1, and microtubule-associated protein 1A/1B-light chain 3 (LC3) are proteins involved in the regulation of autophagy. Cystic fibrosis (CF) cells suffer from defective autophagy, related to altered proteostasis and chronic inflammation. The study aimed to assess the genetic expression of mTOR, Beclin-1, and LC3b in CF children and to correlate them with genotypes, phenotypes, and clinical severity of CF.",
+            "journal": "Respiratory medicine",
+            "year": "2025",
+            "authors": [
+              "Fouda Eman Mahmoud",
+              "Hamza Heba M",
+              "Hana Sylvia Micheal",
+              "Ramadan Abeer",
+              "Ishak Sally Raafat"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cystic Fibrosis",
+              "Autophagy",
+              "Male",
+              "Female",
+              "Child",
+              "Beclin-1",
+              "Cross-Sectional Studies",
+              "Microtubule-Associated Proteins",
+              "TOR Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41205769/"
+          },
+          {
+            "pmid": "21826537",
+            "title": "A rationale for mTOR inhibitors as chemoprevention agents in Peutz-Jeghers syndrome.",
+            "abstract": "Peutz-Jeghers patients frequently develop clinically significant complications, namely hemorrhage and bowel obstruction, from small intestinal hamartomatous polyps that frequently require surgery. In addition, many PJS patients develop epithelial malignancies in a variety of organs. The vast majority of PJS is due to germline alterations in the STK11 gene that encodes a protein that modulates PI3-kinase signaling, a key regulator of cell survival and growth. One of the major downstream mediators of PI3-kinase signaling is mTOR, the mammalian target of rapamycin. Several drugs that inhibit the PI3-kinase signal transduction pathway are in development and one, RAD001 (everolimus), an mTOR inhibitor, was recently approved for the treatment of renal cell carcinoma. Effective chemoprevention of intestinal polyps would be a first step in simplifying and improving the management of PJS patients. We present here, the rationale for the first human PJS chemoprevention trial using an mTOR inhibit",
+            "journal": "Familial cancer",
+            "year": "2011",
+            "authors": [
+              "Kuwada Scott K",
+              "Burt Randall"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Peutz-Jeghers Syndrome",
+              "Signal Transduction",
+              "TOR Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21826537/"
+          },
+          {
+            "pmid": "31328154",
+            "title": "LKB1 specifies neural crest cell fates through pyruvate-alanine cycling.",
+            "abstract": "Metabolic processes underlying the development of the neural crest, an embryonic population of multipotent migratory cells, are poorly understood. Here, we report that conditional ablation of the Lkb1 tumor suppressor kinase in mouse neural crest stem cells led to intestinal pseudo-obstruction and hind limb paralysis. This phenotype originated from a postnatal degeneration of the enteric nervous ganglia and from a defective differentiation of Schwann cells. Metabolomic profiling revealed that pyruvate-alanine conversion is enhanced in the absence of Lkb1. Mechanistically, inhibition of alanine transaminases restored glial differentiation in an mTOR-dependent manner, while increased alanine level directly inhibited the glial commitment of neural crest cells. Treatment with the metabolic modulator AICAR suppressed mTOR signaling and prevented Schwann cell and enteric defects of Lkb1 mutant mice. These data uncover a link between pyruvate-alanine cycling and the specification of glial cel",
+            "journal": "Science advances",
+            "year": "2019",
+            "authors": [
+              "Radu Anca G",
+              "Torch Sakina",
+              "Fauvelle Florence",
+              "Pernet-Gallay Karin",
+              "Lucas Anthony"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "AMP-Activated Protein Kinases",
+              "Alanine",
+              "Animals",
+              "Cell Differentiation",
+              "Energy Metabolism",
+              "Enteric Nervous System",
+              "Gene Silencing",
+              "Melanocytes",
+              "Mice",
+              "Mice, Knockout"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31328154/"
+          },
+          {
+            "pmid": "38937781",
+            "title": "When synchronous mucinous metaplasia and neoplasia of the female genital tract and peutz-jeghers syndrome meet: a case report and literature reviews.",
+            "abstract": "Peutz-Jeghers syndrome (PJS) is characterized by the presence of hamartomatous polyps in the gastrointestinal tract and mucocutaneous pigmentation on the lips, oral mucosa, nose, fingers, and toes. Synchronous mucinous metaplasia and neoplasia of the female genital tract (SMMN-FGT) refers to the occurrence of multifocal mucinous lesions in at least two sites, including the cervix, uterus, fallopian tubes, and ovaries, in the female genital tract. SMMN-FGT and PJS are rare diseases with a very low incidence, especially when occurring simultaneously.",
+            "journal": "BMC women's health",
+            "year": "2024",
+            "authors": [
+              "Zhou Yue",
+              "Wang Xinyi",
+              "Li Yang",
+              "Zhang Weiru",
+              "Xu Xiaoxuan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Peutz-Jeghers Syndrome",
+              "Metaplasia",
+              "Genital Neoplasms, Female",
+              "Adenocarcinoma, Mucinous",
+              "Ovarian Neoplasms",
+              "Adult",
+              "Uterine Cervical Neoplasms",
+              "Neoplasms, Multiple Primary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38937781/"
+          },
+          {
+            "pmid": "37167130",
+            "title": "[The course and clinical manifestations of Peutz-Jeghers syndrome in the Russian population].",
+            "abstract": "Peutz-Jeghers syndrome (PJS) is a rare hereditary syndrome characterized by the growth of hamartomatous polyps in the gastrointestinal tract, perioral pigmentation and an increased risk of malignant neoplasms. The syndrome is caused by a pathogenic variant in the STK11 gene.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2023",
+            "authors": [
+              "Savelyeva Т A",
+              "Ponomarenko А A",
+              "Shelygin Y A",
+              "Kuzminov А M",
+              "Vyshegorodtsev D V"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Humans",
+              "Child",
+              "Peutz-Jeghers Syndrome",
+              "Retrospective Studies",
+              "Protein Serine-Threonine Kinases",
+              "Neoplasms",
+              "Polyps"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37167130/"
+          },
+          {
+            "pmid": "23764316",
+            "title": "Inhibition of MK2 shows promise for preventing postoperative ileus in mice.",
+            "abstract": "Postoperative ileus (POI) is a common iatrogenic complication caused by physical disturbances to the bowel during abdominal surgery. Inflammation contributes to the development of POI and leads to impaired intestinal motility. Mitogen-activated protein kinase-activated protein kinase 2 (MK2) plays an essential role in inflammation and is an established drug target for many inflammatory diseases. We evaluated the role of MK2 in POI and investigated whether MK2 inhibition will alleviate POI.",
+            "journal": "The Journal of surgical research",
+            "year": "2013",
+            "authors": [
+              "Liu Xiaodong",
+              "Wu Ting",
+              "Chi Pan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease Models, Animal",
+              "Enteritis",
+              "Ileus",
+              "Intestine, Small",
+              "Intracellular Signaling Peptides and Proteins",
+              "Macrophages",
+              "Macrophages, Peritoneal",
+              "Male",
+              "Mast Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23764316/"
+          },
+          {
+            "pmid": "37377590",
+            "title": "Peutz-Jeghers syndrome without STK11 mutation may correlate with less severe clinical manifestations in Chinese patients.",
+            "abstract": "Peutz-Jeghers syndrome (PJS) is an autosomal dominant genetic disease with skin mucosal pigment spots and gastrointestinal (GI) multiple hamartoma polyps as clinical characteristics. At present, it is considered that the germline mutation of STK11 gene is the genetic cause of PJS. However, not all PJS patients can be detected STK11 germline mutations. The specific clinical characteristics of these PJS patients without STK11 mutation is an interesting clinical question. Or, like wild type GI stromal tumor, whether these PJS without STK11 mutation are also called PJS is worth discussing. Therefore, we designed the study to understand the clinical characteristics of these PJS patients without STK11 mutation.",
+            "journal": "World journal of gastroenterology",
+            "year": "2023",
+            "authors": [
+              "Jiang Li-Xin",
+              "Chen Yu-Rui",
+              "Xu Zu-Xin",
+              "Zhang Yu-Hui",
+              "Zhang Zhi"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Peutz-Jeghers Syndrome",
+              "Intussusception",
+              "East Asian People",
+              "Protein Serine-Threonine Kinases",
+              "Mutation",
+              "Germ-Line Mutation",
+              "AMP-Activated Protein Kinase Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37377590/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified intestinal pseudoobstruction",
+        "txgnn_score": 0.999671220779419,
+        "txgnn_rank": 864,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myopathic intestinal pseudoobstruction",
+        "txgnn_score": 0.999671220779419,
+        "txgnn_rank": 865,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuronal intestinal dysplasia, type B",
+        "txgnn_score": 0.999624252319336,
+        "txgnn_rank": 958,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "angle-closure glaucoma",
+        "txgnn_score": 0.9990283250808716,
+        "txgnn_rank": 1934,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40459495",
+            "title": "Genetic Spectrum and Genotype-Phenotype Correlations in a Chinese Cohort With Nanophthalmos With Secondary Angle-Closure Glaucoma.",
+            "abstract": "The purpose of this study was to explore the genetic and clinical features of nanophthalmos with secondary angle-closure glaucoma (NSACG) in a Chinese cohort. This was a prospective cross-sectional study of 157 eyes from 88 Chinese patients with NSACG.",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2025",
+            "authors": [
+              "Yu Xiaowei",
+              "Zhao Hanxue",
+              "Gao Yan",
+              "Zhou Tao",
+              "Deng Lin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "China",
+              "Cross-Sectional Studies",
+              "Exome Sequencing",
+              "Genetic Association Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40459495/"
+          },
+          {
+            "pmid": "32545285",
+            "title": "The Genetic and Endoplasmic Reticulum-Mediated Molecular Mechanisms of Primary Open-Angle Glaucoma.",
+            "abstract": "Glaucoma is a heterogenous, chronic, progressive group of eye diseases, which results in irreversible loss of vision. There are several types of glaucoma, whereas the primary open-angle glaucoma (POAG) constitutes the most common type of glaucoma, accounting for three-quarters of all glaucoma cases. The pathological mechanisms leading to POAG pathogenesis are multifactorial and still poorly understood, but it is commonly known that significantly elevated intraocular pressure (IOP) plays a crucial role in POAG pathogenesis. Besides, genetic predisposition and aggregation of abrogated proteins within the endoplasmic reticulum (ER) lumen and subsequent activation of the protein kinase RNA-like endoplasmic reticulum kinase (PERK)-dependent unfolded protein response (UPR) signaling pathway may also constitute important factors for POAG pathogenesis at the molecular level. Glaucoma is commonly known as a 'silent thief of sight', as it remains asymptomatic until later stages, and thus its dia",
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "authors": [
+              "Rozpędek-Kamińska Wioletta",
+              "Wojtczak Radosław",
+              "Szaflik Jacek P",
+              "Szaflik Jerzy",
+              "Majsterek Ireneusz"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cell Cycle Proteins",
+              "Cytoskeletal Proteins",
+              "Endoplasmic Reticulum",
+              "Endoplasmic Reticulum Stress",
+              "Eye Proteins",
+              "Genetic Predisposition to Disease",
+              "Glaucoma, Angle-Closure",
+              "Glaucoma, Open-Angle",
+              "Glycoproteins",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32545285/"
+          },
+          {
+            "pmid": "21532570",
+            "title": "Alteration of the serine protease PRSS56 causes angle-closure glaucoma in mice and posterior microphthalmia in humans and mice.",
+            "abstract": "Angle-closure glaucoma (ACG) is a subset of glaucoma affecting 16 million people. Although 4 million people are bilaterally blind from ACG, the causative molecular mechanisms of ACG remain to be defined. High intraocular pressure induces glaucoma in ACG. High intraocular pressure traditionally was suggested to result from the iris blocking or closing the angle of the eye, thereby limiting aqueous humor drainage. Eyes from individuals with ACG often have a modestly decreased axial length, shallow anterior chamber and relatively large lens, features that predispose to angle closure. Here we show that genetic alteration of a previously unidentified serine protease (PRSS56) alters axial length and causes a mouse phenotype resembling ACG. Mutations affecting this protease also cause a severe decrease of axial length in individuals with posterior microphthalmia. Together, these data suggest that alterations of this serine protease may contribute to a spectrum of human ocular conditions inclu",
+            "journal": "Nature genetics",
+            "year": "2011",
+            "authors": [
+              "Nair K Saidas",
+              "Hmani-Aifa Mounira",
+              "Ali Zain",
+              "Kearney Alison L",
+              "Ben Salem Salma"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anterior Chamber",
+              "Disease Models, Animal",
+              "Eye Abnormalities",
+              "Genetic Linkage",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Lens, Crystalline",
+              "Mice",
+              "Microphthalmos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21532570/"
+          },
+          {
+            "pmid": "38749530",
+            "title": "Clinical features of patients with mutations in genes for nanophthalmos.",
+            "abstract": "To distinguish the clinical feature of nanophthalmos (NNO) caused by mutations in protease serine 56 (PRSS56), membrane-type frizzled-related protein (MFRP), myelin regulatory factor (MYRF) and transmembrane protein 98 (TMEM98) and to evaluate the association between angle-closure glaucoma (ACG) and NNO.",
+            "journal": "The British journal of ophthalmology",
+            "year": "2024",
+            "authors": [
+              "Li Xueqing",
+              "Xiao Hui",
+              "Su Yihua",
+              "Xiao Xueshan",
+              "Li Shiqiang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Microphthalmos",
+              "Membrane Proteins",
+              "Mutation",
+              "Adult",
+              "Glaucoma, Angle-Closure",
+              "Middle Aged",
+              "Adolescent"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38749530/"
+          },
+          {
+            "pmid": "24227917",
+            "title": "Evaluation of PRSS56 in Chinese subjects with high hyperopia or primary angle-closure glaucoma.",
+            "abstract": "Mouse serine protease 56 (Prss56) mutants show a phenotype of angle-closure glaucoma with a shortened ocular axial length. Mutations in the human PRSS56 gene are associated with posterior microphthalmia and nanopthalmos. In this study, variations in PRSS56 were evaluated in patients with either primary angle-closure glaucoma (PACG) or high hyperopia.",
+            "journal": "Molecular vision",
+            "year": "2013",
+            "authors": [
+              "Jiang Dan",
+              "Yang Zhikuan",
+              "Li Shiqiang",
+              "Xiao Xueshan",
+              "Jia Xiaoyun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Asian People",
+              "Base Sequence",
+              "Case-Control Studies",
+              "Eye Diseases, Hereditary",
+              "Genetic Predisposition to Disease",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Hyperopia",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24227917/"
+          },
+          {
+            "pmid": "39569896",
+            "title": "MFRP, PRSS56, and MYRF account for 60.5% of a Chinese cohort with nanophthalmos.",
+            "abstract": "This study aimed to present the genetic profile of a rare ocular disease nanophthalmos (NO) in a large Chinese cohort, to explore its genetic characteristics and genotype-phenotype correlations.",
+            "journal": "Clinical & experimental ophthalmology",
+            "year": "2025",
+            "authors": [
+              "Tao Jing",
+              "Jin Zi-Bing",
+              "Shen Ren-Juan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39569896/"
+          },
+          {
+            "pmid": "32152063",
+            "title": "Loss of PRSS56 function leads to ocular angle defects and increased susceptibility to high intraocular pressure.",
+            "abstract": "Glaucoma is a leading cause of blindness, affecting up to 70 million people worldwide. High intraocular pressure (IOP) is a major risk factor for glaucoma. It is well established that inefficient aqueous humor (AqH) outflow resulting from structural or functional alterations in ocular drainage tissues causes high IOP, but the genes and pathways involved are poorly understood. We previously demonstrated that mutations in the gene encoding the serine protease PRSS56 induces ocular angle closure and high IOP in mice and identified reduced ocular axial length as a potential contributing factor. Here, we show that Prss56-/- mice also exhibit an abnormal iridocorneal angle configuration characterized by a posterior shift of ocular drainage structures relative to the ciliary body and iris. Notably, we show that retina-derived PRSS56 is required between postnatal days 13 and 18 for proper iridocorneal configuration and that abnormal positioning of the ocular drainage tissues is not dependent o",
+            "journal": "Disease models & mechanisms",
+            "year": "2020",
+            "authors": [
+              "Labelle-Dumais Cassandre",
+              "Pyatla Goutham",
+              "Paylakhi Seyyedhassan",
+              "Tolman Nicholas G",
+              "Hameed Syed"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Animals",
+              "Cornea",
+              "Disease Susceptibility",
+              "Eye",
+              "Female",
+              "Glaucoma",
+              "Intraocular Pressure",
+              "Iris",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32152063/"
+          },
+          {
+            "pmid": "32052405",
+            "title": "The genetic and clinical landscape of nanophthalmos and posterior microphthalmos in an Australian cohort.",
+            "abstract": "Nanophthalmos and posterior microphthalmos are ocular abnormalities in which both eyes are abnormally small, and typically associated with extreme hyperopia. We recruited 40 individuals from 13 kindreds with nanophthalmos or posterior microphthalmos, with 12 probands subjected to exome sequencing. Nine probands (69.2%) were assigned a genetic diagnosis, with variants in MYRF, TMEM98, MFRP, and PRSS56. Two of four PRSS56 families harbored the previously described c.1066dupC variant implicated in over half of all reported PRSS56 kindreds, with different surrounding haplotypes in each family suggesting a mutational hotspot. Individuals with a genetic diagnosis had shorter mean axial lengths and higher hyperopia than those without, with recessive forms associated with the most extreme phenotypes. These findings detail the genetic architecture of nanophthalmos and posterior microphthalmos in a cohort of predominantly European ancestry, their relative clinical phenotypes, and highlight the s",
+            "journal": "Clinical genetics",
+            "year": "2020",
+            "authors": [
+              "Siggs Owen M",
+              "Awadalla Mona S",
+              "Souzeau Emmanuelle",
+              "Staffieri Sandra E",
+              "Kearns Lisa S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Australia",
+              "Cohort Studies",
+              "Eye",
+              "Eye Diseases, Hereditary",
+              "Female",
+              "Frameshift Mutation",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Hyperopia",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32052405/"
+          },
+          {
+            "pmid": "21597490",
+            "title": "Clearer view of 'acute' glaucoma.",
+            "abstract": "",
+            "journal": "Lab animal",
+            "year": "2011",
+            "authors": [
+              "Harrington Monica"
+            ],
+            "pub_types": [
+              "News"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Mice",
+              "Microphthalmos",
+              "Mutation",
+              "Serine Proteases",
+              "Species Specificity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21597490/"
+          },
+          {
+            "pmid": "18703950",
+            "title": "Possible association between long anterior lens zonules and plateau iris configuration.",
+            "abstract": "To report plateau iris configuration (PIC) in subjects who have the long anterior zonule (LAZ) clinical trait.",
+            "journal": "Journal of glaucoma",
+            "year": "2008",
+            "authors": [
+              "Roberts Daniel K",
+              "Ayyagari Radha",
+              "Moroi Sayoko E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Collagen",
+              "DNA Mutational Analysis",
+              "Female",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Iridectomy",
+              "Iris Diseases",
+              "Lens Diseases",
+              "Ligaments"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18703950/"
+          },
+          {
+            "pmid": "25357075",
+            "title": "Gene profiling of postnatal Mfrprd6 mutant eyes reveals differential accumulation of Prss56, visual cycle and phototransduction mRNAs.",
+            "abstract": "Mutations in the membrane frizzled-related protein (MFRP/Mfrp) gene, specifically expressed in the retinal pigment epithelium (RPE) and ciliary body, cause nanophthalmia or posterior microphthalmia with retinitis pigmentosa in humans, and photoreceptor degeneration in mice. To better understand MFRP function, microarray analysis was performed on eyes of homozygous Mfrprd6 and C57BL/6J mice at postnatal days (P) 0 and P14, prior to photoreceptor loss. Data analysis revealed no changes at P0 but significant differences in RPE and retina-specific transcripts at P14, suggesting a postnatal influence of the Mfrprd6 allele. A subset of these transcripts was validated by quantitative real-time PCR (qRT-PCR). In Mfrprd6 eyes, a significant 1.5- to 2.0-fold decrease was observed among transcripts of genes linked to retinal degeneration, including those involved in visual cycle (Rpe65, Lrat, Rgr), phototransduction (Pde6a, Guca1b, Rgs9), and photoreceptor disc morphogenesis (Rpgrip1 and Fscn2). ",
+            "journal": "PloS one",
+            "year": "2014",
+            "authors": [
+              "Soundararajan Ramani",
+              "Won Jungyeon",
+              "Stearns Timothy M",
+              "Charette Jeremy R",
+              "Hicks Wanda L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Eye Proteins",
+              "Gene Expression Profiling",
+              "Gene Expression Regulation, Enzymologic",
+              "Humans",
+              "Membrane Proteins",
+              "Mice",
+              "Mice, Mutant Strains",
+              "Microphthalmos",
+              "Retina"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25357075/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked",
+        "txgnn_score": 0.9988335967063904,
+        "txgnn_rank": 2277,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exercise-induced malignant hyperthermia",
+        "txgnn_score": 0.9987519979476928,
+        "txgnn_rank": 2399,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aqueous misdirection",
+        "txgnn_score": 0.9986679553985596,
+        "txgnn_rank": 2517,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "traumatic glaucoma",
+        "txgnn_score": 0.9986679553985596,
+        "txgnn_rank": 2518,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32639081",
+            "title": "Metabolic pathways in context: mTOR signalling in the retina and optic nerve - A review.",
+            "abstract": "The mechanistic target of rapamycin (mTOR) signalling network plays a key role in growth and development, autophagy, metabolism, inflammation as well as ageing, and it is therefore important in ocular health and disease. mTOR dysregulation has been identified in a range of conditions, including age-related macular degeneration, diabetic retinopathy, retinitis pigmentosa, traumatic optic neuropathy and glaucoma. Experimental modulation of the pathway has contributed to the understanding of these diseases and offers the potential for new avenues of therapy. This review discusses the mTOR pathway and its role in health and in diseases of the retina and optic nerve.",
+            "journal": "Clinical & experimental ophthalmology",
+            "year": "2020",
+            "authors": [
+              "Yao Anthony",
+              "van Wijngaarden Peter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diabetic Retinopathy",
+              "Humans",
+              "Metabolic Networks and Pathways",
+              "Optic Nerve",
+              "Retina",
+              "TOR Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32639081/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00133",
+    "name": "Serine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Serine"
+      },
+      "queried_at": "2026-03-09T09:17:24.151362",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Serine"
+      },
+      "queried_at": "2026-03-09T09:17:25.489598",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T09:17:25.961449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T09:17:29.686066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T09:17:30.580470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "intestinal obstruction"
+      },
+      "queried_at": "2026-03-09T09:17:31.369289",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "intestinal obstruction"
+      },
+      "queried_at": "2026-03-09T09:17:34.343712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "intestinal obstruction"
+      },
+      "queried_at": "2026-03-09T09:17:40.190207",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-09T09:17:40.777085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-09T09:17:45.084237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-09T09:17:46.126463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-09T09:17:47.578331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-09T09:17:50.880724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-09T09:17:51.723014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "neuronal intestinal dysplasia, type B"
+      },
+      "queried_at": "2026-03-09T09:17:54.174090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "neuronal intestinal dysplasia, type B"
+      },
+      "queried_at": "2026-03-09T09:17:57.093693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "neuronal intestinal dysplasia, type B"
+      },
+      "queried_at": "2026-03-09T09:17:57.883110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "angle-closure glaucoma"
+      },
+      "queried_at": "2026-03-09T09:17:59.183924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "angle-closure glaucoma"
+      },
+      "queried_at": "2026-03-09T09:18:02.621923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "angle-closure glaucoma"
+      },
+      "queried_at": "2026-03-09T09:18:06.287314",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
+      },
+      "queried_at": "2026-03-09T09:18:07.341790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
+      },
+      "queried_at": "2026-03-09T09:18:10.904102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked"
+      },
+      "queried_at": "2026-03-09T09:18:11.602842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-09T09:18:12.237636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-09T09:18:15.129769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-09T09:18:15.972665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "aqueous misdirection"
+      },
+      "queried_at": "2026-03-09T09:18:16.531068",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "aqueous misdirection"
+      },
+      "queried_at": "2026-03-09T09:18:20.041427",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "aqueous misdirection"
+      },
+      "queried_at": "2026-03-09T09:18:21.261548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "traumatic glaucoma"
+      },
+      "queried_at": "2026-03-09T09:18:23.346409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "traumatic glaucoma"
+      },
+      "queried_at": "2026-03-09T09:18:28.076437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Serine",
+        "disease": "traumatic glaucoma"
+      },
+      "queried_at": "2026-03-09T09:18:31.215873",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:18:31.218140"
+  }
+}

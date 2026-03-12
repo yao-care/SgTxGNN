@@ -1,0 +1,2340 @@
+{
+  "drug": {
+    "inn": "Procaine",
+    "drugbank_id": "DB00721",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "methemoglobinemia",
+        "txgnn_score": 0.9950136542320251,
+        "txgnn_rank": 6478,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "5529388",
+            "title": "Methemoglobinemia due to intravenous procaine.",
+            "abstract": "",
+            "journal": "Acta physiologica latino americana",
+            "year": "1970",
+            "authors": [
+              "Galmarini D",
+              "Corchs J L",
+              "Bueno E J",
+              "Salgado A S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Intravenous",
+              "Animals",
+              "Cyanosis",
+              "Dogs",
+              "Female",
+              "Hemoglobins",
+              "Humans",
+              "Male",
+              "Methemoglobin",
+              "Methemoglobinemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5529388/"
+          },
+          {
+            "pmid": "5644303",
+            "title": "Passage of procaine hydrochloride and para-aminobenzoic acid across the human placenta.",
+            "abstract": "",
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1968",
+            "authors": [
+              "Usubiaga J E",
+              "La Iuppa M",
+              "Moya F",
+              "Wikinski J A",
+              "Velazco R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Anesthesia",
+              "Aminobenzoates",
+              "Anesthesia, Conduction",
+              "Anesthesia, Obstetrical",
+              "Anesthetics, Local",
+              "Arrhythmias, Cardiac",
+              "Female",
+              "Humans",
+              "Injections, Intravenous",
+              "Lidocaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5644303/"
+          },
+          {
+            "pmid": "6705717",
+            "title": "Rational use of local anaesthetics.",
+            "abstract": "The judicious use of local anaesthetic agents requires knowledge of the pharmacological properties of the various drugs, technical skill in the performance of the different nerve blocks, and a thorough evaluation of the patient's clinical status. Regional anaesthesia may be classified anatomically as follows: (a) infiltration anaesthesia (extravascular or intravascular); (b) peripheral nerve blockade (minor or major nerve block); and (c) central neural blockade (epidural or subarachnoid block). Anaesthetic potency, onset time and duration of action are the most important clinical properties of any local anaesthetic agent. In general, onset of anaesthesia occurs most rapidly during infiltration techniques and subarachnoid administration, followed in order of increasing onset time by minor nerve blockade, epidural block and major nerve blocks. Duration of anaesthesia is most prolonged when major nerve blockade is performed, followed in order of decreasing duration by epidural and infiltr",
+            "journal": "Drugs",
+            "year": "1984",
+            "authors": [
+              "Concepcion M",
+              "Covino B G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Conduction",
+              "Anesthetics, Local",
+              "Central Nervous System",
+              "Drug Hypersensitivity",
+              "Hemodynamics",
+              "Humans",
+              "Methemoglobinemia",
+              "Nerve Block"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6705717/"
+          },
+          {
+            "pmid": "14246695",
+            "title": "METHAEMOGLOBINAEMIA FOLLOWING LIGNOCAINE.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1965",
+            "authors": [
+              "HJELM M",
+              "HOLMDAHL M H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthetics",
+              "Anesthetics, Local",
+              "Humans",
+              "Lidocaine",
+              "Methemoglobinemia",
+              "Methylene Blue",
+              "Procaine",
+              "Toxicology"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14246695/"
+          },
+          {
+            "pmid": "5118947",
+            "title": "Local anaesthetics.",
+            "abstract": "",
+            "journal": "Laval medical",
+            "year": "1971",
+            "authors": [
+              "Geddes I C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amides",
+              "Anesthetics, Local",
+              "Brain Edema",
+              "Cardiovascular Diseases",
+              "Central Nervous System Diseases",
+              "Cocaine",
+              "Dibucaine",
+              "Drug Hypersensitivity",
+              "Esters",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5118947/"
+          },
+          {
+            "pmid": "3691245",
+            "title": "[Effect of intravenous procaine anesthesia on methemoglobin levels].",
+            "abstract": "",
+            "journal": "Zhonghua wai ke za zhi [Chinese journal of surgery]",
+            "year": "1987",
+            "authors": [
+              "Liang M",
+              "Li W S",
+              "Wang Y C"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aminobenzoates",
+              "Anesthesia, Intravenous",
+              "Female",
+              "Humans",
+              "Male",
+              "Methemoglobin",
+              "Methemoglobinemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3691245/"
+          },
+          {
+            "pmid": "6745527",
+            "title": "Mechanisms of toxicological interactions involving organophosphate insecticides.",
+            "abstract": "Administration of apparently nontoxic doses of organophosphorus compounds can greatly alter the toxicity of other compounds. These might include other organophosphates, as well as other drug or nondrug xenobiotics. Mechanisms of toxicologic interactions are discussed. Emphasis is placed upon organophosphate inhibition of noncritical tissue esterases and alterations in the metabolism and toxicity of selected ester and amide containing xenobiotics.",
+            "journal": "Fundamental and applied toxicology : official journal of the Society of Toxicology",
+            "year": "1984",
+            "authors": [
+              "Cohen S D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Acetanilides",
+              "Anesthetics",
+              "Animals",
+              "Drug Interactions",
+              "Esterases",
+              "Esters",
+              "Fenitrothion",
+              "Heroin",
+              "In Vitro Techniques"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6745527/"
+          },
+          {
+            "pmid": "705003",
+            "title": "[Methemoglobulinemia in a newborn infant after subcutaneous infiltration of novocaine during general anesthesia].",
+            "abstract": "",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "1978",
+            "authors": [
+              "Franco Grande A",
+              "Couselo J M",
+              "Fernández Lorenzo J R",
+              "Penas M A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Dihydrolipoamide Dehydrogenase",
+              "Humans",
+              "Hydrocephalus",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Injections, Subcutaneous",
+              "Male",
+              "Medication Errors",
+              "Methemoglobinemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/705003/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobinemia, alpha type",
+        "txgnn_score": 0.9943023920059204,
+        "txgnn_rank": 7099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Tourette syndrome",
+        "txgnn_score": 0.993427038192749,
+        "txgnn_rank": 7891,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.992922067642212,
+        "txgnn_rank": 8290,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "14104201",
+            "title": "[EFFECT OF PROCAINE AND OTHER LOCAL ANESTHETICS ON HEART ANAPHYLAXIS].",
+            "abstract": "",
+            "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+            "year": "1963",
+            "authors": [
+              "NAKAZAWA Y",
+              "UENO A",
+              "ODA T",
+              "KAJIYAMA T",
+              "MATANO M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Anesthetics, Local",
+              "Animals",
+              "Antigens",
+              "Blood Volume Determination",
+              "Cocaine",
+              "Coronary Vessels",
+              "Dibucaine",
+              "Guinea Pigs",
+              "Heart"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14104201/"
+          },
+          {
+            "pmid": "15777526",
+            "title": "[Hoigne's syndrome].",
+            "abstract": "Hoigne's syndrome is a pseudoanaphylactic or pseudoallergic reaction that occurs after intramuscular administration of penicillin G procaine or benzathine. These are usually embolic toxic reactions possibly due to vascular occlusion by large crystals of the penicillin salts. We report a case of Hoigne's syndrome.",
+            "journal": "Allergologia et immunopathologia",
+            "year": "2005",
+            "authors": [
+              "Gaig P",
+              "Paniagua M J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anaphylaxis",
+              "Anxiety",
+              "Confusion",
+              "Diagnosis, Differential",
+              "Edema",
+              "Female",
+              "Hallucinations",
+              "Humans",
+              "Immunologic Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15777526/"
+          },
+          {
+            "pmid": "14402529",
+            "title": "[Anaphylactic shock and acute nonallergic reactions following procaine-penicillin].",
+            "abstract": "",
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1959",
+            "authors": [
+              "HOIGNE R",
+              "SCHOCH K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Hypersensitivity",
+              "Immune System Diseases",
+              "Penicillin G Procaine",
+              "Penicillins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14402529/"
+          },
+          {
+            "pmid": "13075746",
+            "title": "[Procaine and procaine-cortisone association in anaphylactic shock].",
+            "abstract": "",
+            "journal": "Rivista di clinica pediatrica",
+            "year": "1953",
+            "authors": [
+              "ROSSI R",
+              "BARILLI L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Cortisone",
+              "Humans",
+              "Hypersensitivity",
+              "Immune System Diseases",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13075746/"
+          },
+          {
+            "pmid": "5863503",
+            "title": "Penicillin anaphylaxis and minor reactions.",
+            "abstract": "",
+            "journal": "The Indian practitioner",
+            "year": "1965",
+            "authors": [
+              "Santdasani H D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Drug Hypersensitivity",
+              "Female",
+              "Humans",
+              "India",
+              "Penicillin G Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5863503/"
+          },
+          {
+            "pmid": "20693069",
+            "title": "Prediction of drug-induced immediate hypersensitivity in guinea pigs.",
+            "abstract": "This study was undertaken to evaluate an assay to assess the risk for drug-induced immediate hypersensitivity reactions. Groups of five to 10 guinea-pigs were given six ip injections of the test compound on days 1, 3, 5, 8, 10 and 12. Aluminium hydroxide was also given in the first injection. At day 33, the animals were given an iv injection of the test compound and the response was recorded by grading the severity of clinical symptoms. Cutaneous passive anaphylaxis was also evaluated in six naive guinea pigs using Evans blue and sera collected from treated animals on day 26. A panel of six positive model compounds (ovalbumin, aprotinin, chymopapain, tetracosactide, cyanocobalamin and procaine), and the negative compound Ribomunyl were tested. Positive systemic and/or cutaneous anaphylactic responses were observed with ovalbumin, aprotinin, chymopapain and tetracosactide whereas no responses were noted with cyanocobalamin, procaine and Ribomunyl. Our results suggest that this protocol ",
+            "journal": "Toxicology in vitro : an international journal published in association with BIBRA",
+            "year": "1994",
+            "authors": [
+              "Chazal I",
+              "Verdier F",
+              "Virat M",
+              "Descotes J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20693069/"
+          },
+          {
+            "pmid": "8072433",
+            "title": "Hoigné's syndrome: a procaine-induced limbic kindling.",
+            "abstract": "Procaine-induced limbic kindling may be a principal pathogenetic factor for the psychiatric symptoms of the acute non-allergic reaction to procaine penicillin (Hoigné's syndrome). The syndrome develops with repeated injections of the drug and runs a rapidly spasmodic course. Its acute symptoms (anxiety, perceptual disturbances, sympathetic hyperactivity) are similar to those in temporal lobe and limbic system seizures and are also reminiscent of psychiatric complications following the repeated use of other local anesthetics (lidocaine, cocaine). Compatible with the mechanisms of kindling are also possible predispositions to the occurrence of this reaction as well as the recurrent after-effects during follow-up. Penicillin, a second component of the injection may contribute to the development of kindling by its properties of antagonizing GABA neurotransmission.",
+            "journal": "Medical hypotheses",
+            "year": "1994",
+            "authors": [
+              "Araskiewicz A",
+              "Rybakowski J K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Animals",
+              "GABA Antagonists",
+              "Humans",
+              "Kindling, Neurologic",
+              "Limbic System",
+              "Penicillins",
+              "Procaine",
+              "Rats",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8072433/"
+          },
+          {
+            "pmid": "11921931",
+            "title": "[Allergic reactions to local anesthetics].",
+            "abstract": "In this article type I and type IV allergic reactions evoked by local anaesthetics are discussed. Contact dermatitis (type IV) reactions are mainly caused by local anaesthetics of the ester-type like procaine. Both contact dermatitis and anaphylactic reactions (type I) can be caused by anaesthetics of the amide-type (e.g. lidocaine), but these reactions are rare. Intra- and epicutaneous tests can be useful to prove allergy, but sometimes provocation tests are necessary. Many reactions are not caused by an allergic mechanism.",
+            "journal": "Nederlands tijdschrift voor tandheelkunde",
+            "year": "1996",
+            "authors": [
+              "Bruynzeel D P"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Anesthesia, Dental",
+              "Anesthetics, Local",
+              "Dermatitis, Allergic Contact",
+              "Drug Hypersensitivity",
+              "Humans",
+              "Hypersensitivity, Delayed",
+              "Hypersensitivity, Immediate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11921931/"
+          },
+          {
+            "pmid": "6964023",
+            "title": "Anaphylactic shock.",
+            "abstract": "",
+            "journal": "Papua and New Guinea medical journal",
+            "year": "1982",
+            "authors": [
+              "Barss P"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Humans",
+              "Male",
+              "Penicillin G Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6964023/"
+          },
+          {
+            "pmid": "1189051",
+            "title": "[Letter: Gerovital].",
+            "abstract": "",
+            "journal": "Ugeskrift for laeger",
+            "year": "1975",
+            "authors": [
+              "Mabeck C E",
+              "Andreasen P B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Anaphylaxis",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1189051/"
+          },
+          {
+            "pmid": "3303082",
+            "title": "Pseudoanaphylactic reaction to procaine penicillin and kindling.",
+            "abstract": "",
+            "journal": "Psychiatric journal of the University of Ottawa : Revue de psychiatrie de l'Universite d'Ottawa",
+            "year": "1987",
+            "authors": [
+              "Ilechukwu S T"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Humans",
+              "Kindling, Neurologic",
+              "Penicillin G",
+              "Penicillin G Procaine",
+              "Psychoses, Substance-Induced"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3303082/"
+          },
+          {
+            "pmid": "14197142",
+            "title": "METHICILLIN TOLERANCE AFTER PENICILLIN G ANAPHYLAXIS.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1964",
+            "authors": [
+              "LUTON E F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Drug Hypersensitivity",
+              "Drug Tolerance",
+              "Immune Tolerance",
+              "Methicillin",
+              "Penicillin G",
+              "Penicillin G Procaine",
+              "Penicillins",
+              "Procaine",
+              "Skin Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14197142/"
+          },
+          {
+            "pmid": "13069931",
+            "title": "Hypersensitivity reaction to procaine penicillin: anaphylactic shock, acute ulcerative cystitis, and acute ulcerative colitis.",
+            "abstract": "",
+            "journal": "Journal of the Medical Association of Georgia",
+            "year": "1953",
+            "authors": [
+              "WHIPPLE R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anaphylaxis",
+              "Colitis",
+              "Colitis, Ulcerative",
+              "Cystitis",
+              "Hypersensitivity",
+              "Penicillin G Procaine",
+              "Penicillins",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13069931/"
+          },
+          {
+            "pmid": "16496101",
+            "title": "[Medical emergencies following dermatological injections and infusions].",
+            "abstract": "Emergency situations following appropriately administered injections and infusions are an uncommon dermatologic problem. Embolia cutis medicamentosa is an uncommon complication following intramuscular injection which leads to infarct-like cutaneous necrosis. It may develop after gluteal injection of corticosteroids, anti-inflammatory agents and antibiotics and has rarely been described following venous sclerotherapy with polidocanol. Hoigné syndrome is a pseudoanaphylactic or pseudoallergic reaction following intramuscular injection of procaine penicillin, with neuropsychiatric problems developing immediately after the injection. Subacute forms following intramuscular or oral administration of structurally-related antibiotics. The intraoperative use of patent blue dye has a 1-2% risk of allergic reactions. The patient must be monitored carefully following injection for the onset the life-threatening immediate reaction. Extravasation of cytostatic agents is a critical iatrogenic problem",
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2006",
+            "authors": [
+              "Dill-Müller D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Antineoplastic Agents",
+              "Contrast Media",
+              "Drug Eruptions",
+              "Drug Hypersensitivity",
+              "Emergencies",
+              "Extravasation of Diagnostic and Therapeutic Materials",
+              "Humans",
+              "Infusions, Intravenous",
+              "Injections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16496101/"
+          },
+          {
+            "pmid": "3415617",
+            "title": "Adverse reaction to procaine penicillin G in horses.",
+            "abstract": "Adverse reactions to intramuscular injections of procaine penicillin G are reported in 11 horses, five of which died. The clinical findings are presented and suggest central nervous involvement in most cases. Post mortem findings in one horse were consistent with anaphylaxis whereas in other cases the clinical findings, duration of treatment, speed of onset and subsequent completion of treatment supports diagnosis of an acute procaine toxicity syndrome.",
+            "journal": "Australian veterinary journal",
+            "year": "1988",
+            "authors": [
+              "Nielsen I L",
+              "Jacobs K A",
+              "Huntington P J",
+              "Chapman C B",
+              "Lloyd K C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Animals",
+              "Female",
+              "Horse Diseases",
+              "Horses",
+              "Male",
+              "Penicillin G",
+              "Penicillin G Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3415617/"
+          },
+          {
+            "pmid": "18857933",
+            "title": "Procaine as an anti-allergic agent.",
+            "abstract": "",
+            "journal": "Federation proceedings",
+            "year": "1948",
+            "authors": [
+              "DREISBACH R H",
+              "CHU N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Anti-Allergic Agents",
+              "Hypersensitivity",
+              "Immune System Diseases",
+              "Musculoskeletal Physiological Phenomena",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18857933/"
+          },
+          {
+            "pmid": "18034981",
+            "title": "Allergy to multiple local anesthetics.",
+            "abstract": "Real allergy to local anesthetic (LA) is very rare. This study was performed to report a case of anaphylaxis to multiple \"caine.\" A 25-years-old atopic nurse developed a very severe anaphylactic reaction on her third infiltration for low back pain with bupivacaine, lidocaine, and methylprednisolone: she developed a vagal reaction, followed during the next 30 minutes by a pruriginous skin rash, followed by a tongue edema and a severe bronchospasm. Adrenalin was injected with a poor response. She was intubated and transferred to the intensive care unit for a few days and, finally, she recuperated completely. Skin-prick tests were done on two occasions. In the first session, no reactions were observed with triamcinolone and methylprednisolone at 1 mg/cc, but a rapid extending maculopapular erythema developed with a final diameter of 50 mm with lidocaine 0.1% (group 2) and 25 mm with procaine 2% (group 1): control 0 mm, histamine, 3 mm. She also complained of itchiness in the neck and shou",
+            "journal": "Allergy and asthma proceedings",
+            "year": "2007",
+            "authors": [
+              "Caron André Benoît"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anaphylaxis",
+              "Anesthetics, Local",
+              "Back Pain",
+              "Bupivacaine",
+              "Drug Hypersensitivity",
+              "Female",
+              "Humans",
+              "Lidocaine",
+              "Methylprednisolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18034981/"
+          },
+          {
+            "pmid": "28580612",
+            "title": "Utility of basophil activation testing to assess perioperative anaphylactic reactions in real-world practice.",
+            "abstract": "Perioperative anaphylactic reactions due to drugs and substances associated with general anesthesia can potentially be life-threatening. The objective of this study was to investigate the significance of the basophil activation test (BAT) for allergy diagnosis work up.",
+            "journal": "Immunity, inflammation and disease",
+            "year": "2017",
+            "authors": [
+              "Eberlein Bernadette",
+              "Wigand Sibylle",
+              "Lewald Heidrun",
+              "Kochs Eberhard",
+              "Ring Johannes"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anaphylaxis",
+              "Anesthesia, General",
+              "Basophils",
+              "Biomarkers",
+              "Disease Management",
+              "Female",
+              "Flow Cytometry",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28580612/"
+          },
+          {
+            "pmid": "6175241",
+            "title": "Challenge of penicillin-allergic volunteers with penicillin-contaminated meat.",
+            "abstract": "In order to obtain information about the clinical course and immunological background of possible allergic reactions due to penicillin-containing food, nine volunteers with penicillin allergy proved by case history, positive skin tests and/or positive penicilloyl-specific RAST were exposed to penicillin-contaminated pork. For this purpose a farm pig from an inbred strain received \"therapeutic\" doses of benzyl procain penicillin before being slaughtered. Meat samples were taken from muscle tissues, kidney and liver and analyzed by diffusion and extraction methods. Very small amounts of penicillin were detectable in muscle tissue, whereas kidney material contained up to five times as much (0.12 mcg/g). Except two cases which reacted with itchy sensations after ingestion of penicillin contaminated meat \"á la tartare\", all probands were clinically free of symptoms. Assaying penicilloyl-specific IgE antibodies by RAST during the trial, a tendency to increased levels in the serum after 2 and",
+            "journal": "Allergy",
+            "year": "1981",
+            "authors": [
+              "Lindemayr H",
+              "Knobler R",
+              "Kraft D",
+              "Baumgartner W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anaphylaxis",
+              "Animals",
+              "Drug Hypersensitivity",
+              "Epitopes",
+              "Female",
+              "Humans",
+              "Immunoglobulin E",
+              "Kidney",
+              "Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6175241/"
+          },
+          {
+            "pmid": "14196256",
+            "title": "SIMULTANEOUS ALLERGIC (ANAPHYLACIC) AND EMBOLIC-TOXIC REACTIONS BY ACCIDENTAL INTRAVASCULAR INJECTION OF PROCAINE-PENICILLIN.",
+            "abstract": "",
+            "journal": "International archives of allergy and applied immunology",
+            "year": "1964",
+            "authors": [
+              "HOIGNE R",
+              "KREBS A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Drug Hypersensitivity",
+              "Embolism",
+              "Humans",
+              "Injections",
+              "Injections, Intramuscular",
+              "Injections, Intravenous",
+              "Penicillin G Procaine",
+              "Penicillins",
+              "Toxicology"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14196256/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobin reductase deficiency",
+        "txgnn_score": 0.9927347898483276,
+        "txgnn_rank": 8438,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.9925320744514464,
+        "txgnn_rank": 8609,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "13215163",
+            "title": "[Studies on serum cholinesterase and on procaine esterase in hyperthyroidism].",
+            "abstract": "",
+            "journal": "Polskie Archiwum Medycyny Wewnetrznej",
+            "year": "1954",
+            "authors": [
+              "CZYZYK A",
+              "KARCZEWSKA H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Blood",
+              "Carboxylesterase",
+              "Cholinesterases",
+              "Esterases",
+              "Humans",
+              "Hyperthyroidism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13215163/"
+          },
+          {
+            "pmid": "14772318",
+            "title": "[Anesthesia in hyperthyroidism].",
+            "abstract": "",
+            "journal": "Boletines y trabajos de la Academia Argentina de Cirugia. Academia Argentina de Cirugia",
+            "year": "1950",
+            "authors": [
+              "BUSTOS F M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia",
+              "Anesthesiology",
+              "Barbital",
+              "Hyperthyroidism",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14772318/"
+          },
+          {
+            "pmid": "14090989",
+            "title": "[ANGINA PECTORIS].",
+            "abstract": "",
+            "journal": "La Presse medicale",
+            "year": "1963",
+            "authors": [
+              "PESTEL M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amyl Nitrite",
+              "Angina Pectoris",
+              "Anticoagulants",
+              "Arteriovenous Fistula",
+              "Cholesterol",
+              "Erythrityl Tetranitrate",
+              "Hernia, Diaphragmatic",
+              "Humans",
+              "Hyperthyroidism",
+              "Hypotension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14090989/"
+          },
+          {
+            "pmid": "1069903",
+            "title": "[Local-regional dental anesthesia without vasoconstrictors].",
+            "abstract": "Since Braun in 1905 first associated adrenalin with Einhorn's novocaine (procaine) to augment anaesthetic action, many attempts have been made to replace this vasoconstrictor because of the often severe inconveniences it can cause (cardiovasculopathic, arteriosclerotic, etc.). Reduction in dosimetry is recalled in brief: 1-corbasil; vasopressin; nor-adrenalin. It is personally considered that none of these measures ever successfully replaced adrenalin, nor did they prove to be so harmless as was originally believed. Finally, the refinement of biochemical research enabled more powerful and less toxic locoregional anaesthetics to be marketed and these provided ideal anaesthesia without vasoconstrictors. Pure carbocaine has been personally used exclusively for more than four years, with the two-fold advantage of practically completely avoiding any general inconvenience, particularly in cardionephrotics, diabetics, etc. and, in plexic (or terminal) injections, avoiding the threat of ischae",
+            "journal": "Minerva stomatologica",
+            "year": "1976",
+            "authors": [
+              "Boniscontro A",
+              "Cassarino G"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, Dental",
+              "Humans",
+              "Hyperthyroidism",
+              "Lidocaine",
+              "Male",
+              "Mepivacaine",
+              "Nerve Block",
+              "Smoking",
+              "Tooth Extraction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1069903/"
+          },
+          {
+            "pmid": "14926101",
+            "title": "[Intravenous para-aminobenzoyl-diethylamino-ethanol hydrochloride].",
+            "abstract": "",
+            "journal": "Clinica nuova; rassegna del progresso medico internazionale",
+            "year": "1951",
+            "authors": [
+              "BUSSA B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Asthma",
+              "Ethanol",
+              "Female",
+              "Humans",
+              "Hyperthyroidism",
+              "Parity",
+              "Procaine",
+              "Salts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14926101/"
+          },
+          {
+            "pmid": "21004742",
+            "title": "The procaine esterase test in toxic goiter and carcinoma.",
+            "abstract": "",
+            "journal": "Experimental medicine and surgery",
+            "year": "1945",
+            "authors": [
+              "KISCH B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carboxylesterase",
+              "Goiter, Nodular",
+              "Graves Disease",
+              "Humans",
+              "Neoplasms",
+              "Thyroid Neoplasms",
+              "Thyrotoxicosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21004742/"
+          },
+          {
+            "pmid": "1697580",
+            "title": "Calcium accumulation and release by the sarcoplasmic reticulum of digitonin-lysed adult mammalian ventricular cardiomyocytes.",
+            "abstract": "We have developed a model for characterizing calcium handling by the intact cardiac sarcoplasmic reticulum (SR) that yields data consistent with both mathematical simulations of in situ SR Ca2+ uptake and deduced behavior of the Ca2(+)-induced Ca2+ efflux channels in mechanically skinned single cardiac cells. In Na(+)-based media (37 degrees C, pH 7.2, 50 mM Pi, 10 mM MgATP, pMg 3.3, 10 mM phosphocreatine), SR 45Ca2+ uptake by digitonin-lysed rat myocytes as a function of free [Ca2+] peaked at pCa 6.2, declined until pCa 5.6 and increased again at lower pCa. When Ca2(+)-induced Ca2+ efflux was inhibited with 30 microM ruthenium red and 10 mM procaine, uptake was saturable with a Vmax of 160 +/- 5 nmol.min-1.mg-1, K0.5 of 500 nM free [Ca2+] and slope factor of 1.6. In K(+)-based media, maximum Pi- and oxalate-supported uptake increased to 220 and 260 nmol.min-1.mg-1, respectively. Without phosphocreatine, 45Ca2+ uptake declined under all conditions; this was correlated with a decrease i",
+            "journal": "The Journal of biological chemistry",
+            "year": "1990",
+            "authors": [
+              "Wimsatt D K",
+              "Hohl C M",
+              "Brierley G P",
+              "Altschuld R A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphate",
+              "Animals",
+              "Biological Transport, Active",
+              "Calcium",
+              "Cell Fractionation",
+              "Cells, Cultured",
+              "Digitonin",
+              "Heart Ventricles",
+              "Isoproterenol",
+              "Kinetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1697580/"
+          },
+          {
+            "pmid": "15425178",
+            "title": "[Pharmaceutically induced variations in Schellong's phenomenon in cases of vegetative dystonia, hyperthyroidism, and latent tetany; novocaine].",
+            "abstract": "",
+            "journal": "Zeitschrift fur die gesamte innere Medizin und ihre Grenzgebiete",
+            "year": "1950",
+            "authors": [
+              "JORDAN H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cardiovascular System",
+              "Dystonia",
+              "Dystonic Disorders",
+              "Hyperthyroidism",
+              "Procaine",
+              "Tetany",
+              "Thyroid Gland"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15425178/"
+          },
+          {
+            "pmid": "5212755",
+            "title": "[Reports on thyroid pathology].",
+            "abstract": "",
+            "journal": "Revue medicale du Moyen-Orient",
+            "year": "1965",
+            "authors": [
+              "Nematollahi E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Goiter",
+              "Graves Disease",
+              "Humans",
+              "Iran",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5212755/"
+          },
+          {
+            "pmid": "13087027",
+            "title": "[Effect of injection therapy in hyperthyroidism].",
+            "abstract": "",
+            "journal": "Munchener medizinische Wochenschrift (1950)",
+            "year": "1953",
+            "authors": [
+              "FLORCKEN H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Hyperthyroidism",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13087027/"
+          },
+          {
+            "pmid": "13325554",
+            "title": "[Neural therapy of Basedow's disease].",
+            "abstract": "",
+            "journal": "Zeitschrift fur arztliche Fortbildung",
+            "year": "1956",
+            "authors": [
+              "MOLDENSCHARDT H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Graves Disease",
+              "Hyperthyroidism",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13325554/"
+          },
+          {
+            "pmid": "13234171",
+            "title": "[Novocain block and preoperative preparation in Basedow's disease].",
+            "abstract": "",
+            "journal": "Khirurgiia",
+            "year": "1954",
+            "authors": [
+              "BAEV B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analgesia",
+              "Anesthesia",
+              "Anesthesia and Analgesia",
+              "Graves Disease",
+              "Humans",
+              "Hyperthyroidism",
+              "Pain Management",
+              "Preoperative Care",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13234171/"
+          },
+          {
+            "pmid": "6700979",
+            "title": "[Gerovit as an iatrogenic hazard].",
+            "abstract": "",
+            "journal": "Orvosi hetilap",
+            "year": "1984",
+            "authors": [],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hyperthyroidism",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6700979/"
+          },
+          {
+            "pmid": "14347256",
+            "title": "[HEART ARREST AFTER LOCAL ANESTHESIA].",
+            "abstract": "",
+            "journal": "Zentralblatt fur Chirurgie",
+            "year": "1965",
+            "authors": [
+              "FICK W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Local",
+              "Heart Arrest",
+              "Hyperthyroidism",
+              "Pregnancy",
+              "Procaine",
+              "Toxicology"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14347256/"
+          },
+          {
+            "pmid": "14137268",
+            "title": "[EXTRACARDIAL FACTORS CAUSING ELECTROCARDIOGRAPHIC CHANGES].",
+            "abstract": "",
+            "journal": "Suomen laakarilehti. Finlands lakartidning",
+            "year": "1964",
+            "authors": [
+              "BURSTEIN J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carotid Artery Thrombosis",
+              "Cholelithiasis",
+              "Digitalis Glycosides",
+              "Electrocardiography",
+              "Humans",
+              "Hyperkalemia",
+              "Hyperthyroidism",
+              "Hypokalemia",
+              "Myxedema",
+              "Pancreatitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14137268/"
+          },
+          {
+            "pmid": "5507013",
+            "title": "Hypokalemic periodic paralysis studies in vitro.",
+            "abstract": "",
+            "journal": "Brain : a journal of neurology",
+            "year": "1970",
+            "authors": [
+              "Hofmann W W",
+              "Smith R A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Biopsy",
+              "Electromyography",
+              "Humans",
+              "Hyperthyroidism",
+              "Hypokalemia",
+              "In Vitro Techniques",
+              "Insulin",
+              "Male",
+              "Membrane Potentials"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5507013/"
+          },
+          {
+            "pmid": "6014376",
+            "title": "[Experiences of 1200 operations for goiter].",
+            "abstract": "",
+            "journal": "Khirurgiia",
+            "year": "1966",
+            "authors": [
+              "Borovyĭ E M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Capillary Permeability",
+              "Goiter",
+              "Graves Disease",
+              "Humans",
+              "Hyperthyroidism",
+              "Preoperative Care",
+              "Procaine",
+              "Thyroidectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6014376/"
+          },
+          {
+            "pmid": "13505735",
+            "title": "[Intravenous administration of novocaine as one of the methods of premedication in hydrotoxicosis].",
+            "abstract": "",
+            "journal": "Problemy endokrinologii i gormonoterapii",
+            "year": "1957",
+            "authors": [
+              "MIKULIAK V G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intravenous",
+              "Hyperthyroidism",
+              "Premedication",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13505735/"
+          },
+          {
+            "pmid": "14141289",
+            "title": "[DIAGNOSIS OF TACHYCARDIA IN INFANTS AND CHILDREN].",
+            "abstract": "",
+            "journal": "La Revue du praticien",
+            "year": "1964",
+            "authors": [
+              "RIBIERRE M",
+              "MALLET R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aortic Coarctation",
+              "Child",
+              "Communicable Diseases",
+              "Diagnosis",
+              "Digitalis Glycosides",
+              "Electrocardiography",
+              "Endocardial Fibroelastosis",
+              "Fever",
+              "Heart Defects, Congenital",
+              "Heart Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14141289/"
+          },
+          {
+            "pmid": "3562022",
+            "title": "[Modification of the composition of Gerovit capsules].",
+            "abstract": "",
+            "journal": "Orvosi hetilap",
+            "year": "1987",
+            "authors": [
+              "Görgényi F"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Capsules",
+              "Drug Compounding",
+              "Drug Industry",
+              "Humans",
+              "Hungary",
+              "Hyperthyroidism",
+              "Methamphetamine",
+              "Procaine",
+              "Thyrotoxicosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3562022/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibromyalgia",
+        "txgnn_score": 0.9923283457756042,
+        "txgnn_rank": 8776,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "14879298",
+            "title": "Fibrositic headache.",
+            "abstract": "",
+            "journal": "Canadian Medical Association journal",
+            "year": "1951",
+            "authors": [
+              "SHANE S J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Fibromyalgia",
+              "Headache",
+              "Humans",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14879298/"
+          },
+          {
+            "pmid": "13130920",
+            "title": "Intradermal procaine therapy.",
+            "abstract": "",
+            "journal": "Journal of the Irish Medical Association",
+            "year": "1954",
+            "authors": [
+              "CONWAY E J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis",
+              "Arthritis, Rheumatoid",
+              "Fibromyalgia",
+              "Humans",
+              "Osteoarthritis",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13130920/"
+          },
+          {
+            "pmid": "14031829",
+            "title": "The relief of facial pain by procaine (Novocaine) injections.",
+            "abstract": "",
+            "journal": "Journal of the American Geriatrics Society",
+            "year": "1963",
+            "authors": [
+              "KELLY M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acupuncture",
+              "Acupuncture Therapy",
+              "Facial Neuralgia",
+              "Facial Pain",
+              "Fibromyalgia",
+              "Headache",
+              "Humans",
+              "Injections",
+              "Injections, Intramuscular",
+              "Neck"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14031829/"
+          },
+          {
+            "pmid": "4998759",
+            "title": "Stiff muscles and bony tendons.",
+            "abstract": "",
+            "journal": "Transactions of the American Neurological Association",
+            "year": "1970",
+            "authors": [
+              "Trojaborg W",
+              "Rowland L P",
+              "Katz R I",
+              "Wheaton E A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Affective Symptoms",
+              "Amobarbital",
+              "Diazepam",
+              "Dihydroxyphenylalanine",
+              "Electromyography",
+              "Female",
+              "Fibromyalgia",
+              "Humans",
+              "Lidocaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4998759/"
+          },
+          {
+            "pmid": "13619520",
+            "title": "[Pain (fibrositis) in the soft tissues of the upper body & its treatment with local anesthesia].",
+            "abstract": "",
+            "journal": "Duodecim; laaketieteellinen aikakauskirja",
+            "year": "1958",
+            "authors": [
+              "HEIKINHEIMO R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Local",
+              "Fibromyalgia",
+              "Humans",
+              "Pain",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13619520/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.991958737373352,
+        "txgnn_rank": 9067,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1128884",
+            "title": "The rheumatoid shoulder.",
+            "abstract": "The rheumatoid shoulder is a frequent manifestation in the rheumatoid patient. Most of the symptoms are of a mild to moderate degree and can usually be ameliorated by heat, massage, and gently exercise. Local injection therapy may be of value in selected cases. Strenuous exercise or manipulation is contraindicated. Tendon ruptures and rotator cuff tears are not amenable to surgical reconstruction and are adequately treated with a conservative regimen. Prophylactic synovectomy is not performed as a routine, because the majority of patients do not develop disabling symptoms. This procedure is usually restricted to the few patients who exhibit uncontrollable proliferative synovitis. Prosthetic replacement is employed for intractable pain with full anticipation of limitied mobility. Various designs of a \"total shoulder\" are undergoing clinical evaluation, but their application has not been defined.",
+            "journal": "The Orthopedic clinics of North America",
+            "year": "1975",
+            "authors": [
+              "Sbarbaro J L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arthritis, Rheumatoid",
+              "Bursitis",
+              "Cortisone",
+              "Hot Temperature",
+              "Humans",
+              "Hydrocortisone",
+              "Massage",
+              "Middle Aged",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1128884/"
+          },
+          {
+            "pmid": "35480510",
+            "title": "Effect of Neural Therapy on shoulder dysfunction and pain in supraspinatus tendinopathy.",
+            "abstract": "To investigate the effect of 1% procaine injection, which is used in neural therapy, on shoulder pain and dysfunction in patients diagnosed with supraspinatus tendinopathy.",
+            "journal": "Pakistan journal of medical sciences",
+            "year": "2022",
+            "authors": [
+              "Bashan Ibrahim",
+              "Ozturk Gulsah Yasa"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35480510/"
+          },
+          {
+            "pmid": "6785887",
+            "title": "Disseminated gonococcal infection (DGI) and gonococcal arthritis (GCA): II. Clinical manifestations, diagnosis, complications, treatment, and prevention.",
+            "abstract": "This is the second part of an integrated review of disseminated gonococcal infection (DGI) and gonococcal arthritis (GCA). It covers clinical manifestations, spectrum of GCA, diagnosis and treatment. These disorders are important since DGI may be the most frequent form of acute arthritis in sexually active younger females, and other selected groups. Although the spectrum of disease is varied, it may be classified into stages and clinical subgroups. N. gonorrhoeae strains causing DGI in the U.S. have been highly sensitive to penicillin. Such findings require revision in beliefs that high-dose intravenous penicillin is needed for effective initial therapy of GCA. Recommended treatment protocols for localized gonorrhea and DGI are reviewed as well as the occurrence and implications for treatment of penicillinase-producing N. gonorrhoeae (PPNG) infection in the U.S.",
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "1981",
+            "authors": [
+              "Masi A T",
+              "Eisenstein B I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Ampicillin",
+              "Arthritis",
+              "Arthritis, Infectious",
+              "Child",
+              "Diagnosis, Differential",
+              "Drug Resistance",
+              "Endocarditis, Bacterial",
+              "Gonorrhea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6785887/"
+          },
+          {
+            "pmid": "13406737",
+            "title": "The selective effect of proCaine on the stretch reflex and tendon jerk of soleus muscle when applied to its nerve.",
+            "abstract": "",
+            "journal": "The Journal of physiology",
+            "year": "1957",
+            "authors": [
+              "MATTHEWS P B",
+              "RUSHWORTH G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Muscle, Skeletal",
+              "Procaine",
+              "Reflex",
+              "Reflex, Stretch",
+              "Tendons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13406737/"
+          },
+          {
+            "pmid": "8899026",
+            "title": "Atypical villonodular synovitis in a horse.",
+            "abstract": "A 4-year-old sexually intact male Standardbred trotter was evaluated for left forelimb lameness. A presumptive diagnosis of severe cartilage damage was made because the horse had a history of infectious arthritis involving the left metacarpophalangeal joint. Arthroscopic evaluation revealed what was presumed to be a large villonodular lesion. The mass was surgically removed, and the horse was treated with procaine penicillin G, trimethoprim-sulfamethoxazole, phenylbutazone, and polysulfated glycosaminoglycans and eventually returned to racing. Histologic examination of the mass revealed a bed of granulation tissue covered with keratinized epithelium. We hypothesize that the lesion developed secondarily to implantation of epithelial cells into a reactive villonodular lesion.",
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1996",
+            "authors": [
+              "Vickers K L",
+              "Ross M W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Forelimb",
+              "Horse Diseases",
+              "Horses",
+              "Male",
+              "Synovitis, Pigmented Villonodular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8899026/"
+          },
+          {
+            "pmid": "3563575",
+            "title": "Carotodynia exposed: hyoid bone syndrome.",
+            "abstract": "The hyoid bone syndrome, first described in 1954, is manifested by tenderness near the greater horn of the hyoid bone. In 1968, the syndrome was reported to be a form of insertion tendinosis, and injection of procaine HCl with corticosteroid at the tip of the greater horn was found to provide temporary relief of pain. I report 50 patients with the hyoid bone syndrome who had excision of the involved greater horn after one month of conservative medical treatment failed to relieve the pain. Operation promptly relieved pain in 45 (90%) of the patients. An understanding of the close relationship between the greater horn of the hyoid and the posterior pharynx and carotid sinus is important in detecting the hyoid bone syndrome.",
+            "journal": "Southern medical journal",
+            "year": "1987",
+            "authors": [
+              "Lim R Y"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Carotid Sinus",
+              "Female",
+              "Humans",
+              "Hyoid Bone",
+              "Male",
+              "Middle Aged",
+              "Neck"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3563575/"
+          },
+          {
+            "pmid": "451692",
+            "title": "Tendon rupture after local steroid injection.",
+            "abstract": "Thirteen patients who developed 15 ruptured tendons subsequent to injection of a depository steroid in or about the tendons are described. Eight were treated surgically. Ruptures were encountered in three Achilles tendons, two supraspinati, one lateral epicondylar attachment at the elbow, eight tendons of the long head of the biceps at the shoulder, and one anterior tibial tendon. Measures designed to lessen this complication are described. In most cases triamcinolone hexacetonide was used as the depository steroid, mixed with procaine or lidocaine. Patients with this complication who were not treated surgically were the older patients who had ruptures of the tendon of the long head of the biceps.",
+            "journal": "Southern medical journal",
+            "year": "1979",
+            "authors": [
+              "Ford L T",
+              "DeBender J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Hydrocortisone",
+              "Injections, Intramuscular",
+              "Male",
+              "Middle Aged",
+              "Rupture",
+              "Tendon Injuries"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/451692/"
+          },
+          {
+            "pmid": "14172284",
+            "title": "THE PAINFUL SHOULDER.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1964",
+            "authors": [
+              "COMPERE E L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis",
+              "Bursitis",
+              "Drug Therapy",
+              "Humans",
+              "Hydrocortisone",
+              "Joints",
+              "Lidocaine",
+              "Osteoarthritis",
+              "Pain",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14172284/"
+          },
+          {
+            "pmid": "4632360",
+            "title": "Gonococcal arthritis: a report of six cases.",
+            "abstract": "Six cases of gonococcal arthritis are described. Three presented during the initial \"bacteremic stage\" with polyarthralgia, fever, skin lesions and sterile synovial fluid. Two presented during the \"septic joint stage\" with positive synovial culture, and one presented during the \"stage of residual deformity\". Transient electrocardiographic changes were noted in two of the six cases. All responded to antibiotic therapy. One required additional surgical intervention.The condition is common, coinciding with the rising incidence of symptomatic and asymptomatic gonorrhea. Gonococcal infection must be considered in the differential diagnosis of migratory polyarthralgia, tenosynovitis, oligoarthritis, fever or unusual skin lesions. Criteria for diagnosis, lines of treatment and relevant literature are reviewed.",
+            "journal": "Canadian Medical Association journal",
+            "year": "1973",
+            "authors": [
+              "Fam A",
+              "McGillivray D",
+              "Stein J",
+              "Little H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Arthritis, Infectious",
+              "Blood",
+              "Cervix Uteri",
+              "Conjunctivitis",
+              "Electrocardiography",
+              "Female",
+              "Gonorrhea",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4632360/"
+          },
+          {
+            "pmid": "23494116",
+            "title": "The effects of corticosteroid injection versus local anesthetic injection in the treatment of lateral epicondylitis: a randomized single-blinded clinical trial.",
+            "abstract": "This study seeks to compare two treatment methods of lateral epicondylitis: corticosteroid injection (CSI) and a local anesthetic injection (LAI).",
+            "journal": "Archives of orthopaedic and trauma surgery",
+            "year": "2013",
+            "authors": [
+              "Mardani-Kivi Mohsen",
+              "Karimi-Mobarakeh Mahmoud",
+              "Karimi Ali",
+              "Akhoondzadeh Niloofar",
+              "Saheb-Ekhtiari Khashayar"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics, Local",
+              "Anti-Inflammatory Agents",
+              "Female",
+              "Glucocorticoids",
+              "Humans",
+              "Injections, Intra-Articular",
+              "Male",
+              "Methylprednisolone",
+              "Methylprednisolone Acetate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23494116/"
+          },
+          {
+            "pmid": "18142154",
+            "title": "Early assessment of supraspinatus tears; procaine infiltration as a guide to treatment.",
+            "abstract": "",
+            "journal": "The Journal of bone and joint surgery. British volume",
+            "year": "1949",
+            "authors": [
+              "BROWN J T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthetics, Local",
+              "Humans",
+              "Muscles",
+              "Procaine",
+              "Rotator Cuff"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18142154/"
+          },
+          {
+            "pmid": "6028252",
+            "title": "Studies of spasticity in man. 2. Analysis of stretch reflexes in spasticity.",
+            "abstract": "",
+            "journal": "Brain : a journal of neurology",
+            "year": "1967",
+            "authors": [
+              "Dimitrijevíc M R",
+              "Nathan P W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ankle",
+              "Electromyography",
+              "Functional Laterality",
+              "Humans",
+              "Knee",
+              "Leg",
+              "Motor Neurons",
+              "Muscles",
+              "Muscular Diseases",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6028252/"
+          },
+          {
+            "pmid": "24206808",
+            "title": "[A rare side effect of mesotherapy: Nicolau syndrome].",
+            "abstract": "Nicolau's livedoid dermatitis is associated with drug-induced embolism in the cutaneous arterial bed, generally as a result of accidental intra-arterial injection. Herein, we report a case that is somewhat surprising because of its late onset following mesotherapy injections.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2013",
+            "authors": [
+              "Zaragoza J",
+              "Delaplace M",
+              "Benamara M",
+              "Estève E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthetics, Local",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arterioles",
+              "Drug Eruptions",
+              "Embolism",
+              "Humans",
+              "Injections, Intradermal",
+              "Knee",
+              "Male",
+              "Mesotherapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24206808/"
+          },
+          {
+            "pmid": "4183703",
+            "title": "Idiopathic tenosynovitis in foals.",
+            "abstract": "",
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1969",
+            "authors": [
+              "Van Pelt R W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alkaline Phosphatase",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Blood Glucose",
+              "Dihydrostreptomycin Sulfate",
+              "Hematocrit",
+              "Hemoglobinometry",
+              "Horse Diseases",
+              "Horses",
+              "Hydrocortisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4183703/"
+          },
+          {
+            "pmid": "5463884",
+            "title": "Aseptic tenosynovitis in cattle.",
+            "abstract": "",
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1970",
+            "authors": [
+              "Van Pelt R W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "17-Hydroxycorticosteroids",
+              "Alanine Transaminase",
+              "Alkaline Phosphatase",
+              "Animals",
+              "Aspartate Aminotransferases",
+              "Blood Glucose",
+              "Blood Volume Determination",
+              "Carbohydrates",
+              "Cattle",
+              "Cattle Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5463884/"
+          },
+          {
+            "pmid": "7226464",
+            "title": "Central projections from ergoreceptors (C fibers) in muscle involved in cardiopulmonary responses to static exercise.",
+            "abstract": "",
+            "journal": "Circulation research",
+            "year": "1981",
+            "authors": [
+              "Kalia M",
+              "Mei S S",
+              "Kao F F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cardiovascular System",
+              "Cats",
+              "Dogs",
+              "Horseradish Peroxidase",
+              "Medulla Oblongata",
+              "Muscles",
+              "Nerve Fibers",
+              "Neurons",
+              "Physical Exertion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7226464/"
+          },
+          {
+            "pmid": "5244413",
+            "title": "[Acute scapulo-humeral periarthritis and its specific treatment. Apropos of 129 cases].",
+            "abstract": "",
+            "journal": "Revue medicale du Moyen-Orient",
+            "year": "1967",
+            "authors": [
+              "Badaro H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Humans",
+              "Hydrocortisone",
+              "Movement",
+              "Periarthritis",
+              "Procaine",
+              "Shoulder Joint",
+              "Tendons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5244413/"
+          },
+          {
+            "pmid": "4998759",
+            "title": "Stiff muscles and bony tendons.",
+            "abstract": "",
+            "journal": "Transactions of the American Neurological Association",
+            "year": "1970",
+            "authors": [
+              "Trojaborg W",
+              "Rowland L P",
+              "Katz R I",
+              "Wheaton E A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Affective Symptoms",
+              "Amobarbital",
+              "Diazepam",
+              "Dihydroxyphenylalanine",
+              "Electromyography",
+              "Female",
+              "Fibromyalgia",
+              "Humans",
+              "Lidocaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4998759/"
+          },
+          {
+            "pmid": "4810651",
+            "title": "Shoulder arthrography in hemiplegic patients.",
+            "abstract": "",
+            "journal": "Archives of physical medicine and rehabilitation",
+            "year": "1974",
+            "authors": [
+              "Nepomuceno C S",
+              "Miller J M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amino Sugars",
+              "Contrast Media",
+              "Diatrizoate",
+              "Female",
+              "Hemiplegia",
+              "Humans",
+              "Injections, Intra-Articular",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4810651/"
+          },
+          {
+            "pmid": "5441648",
+            "title": "[The syndrome of the angulus].",
+            "abstract": "",
+            "journal": "La Presse medicale",
+            "year": "1970",
+            "authors": [
+              "Rouques L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Muscles",
+              "Procaine",
+              "Scapula",
+              "Tendinopathy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5441648/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic granulomatous myositis",
+        "txgnn_score": 0.9917604923248292,
+        "txgnn_rank": 9213,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis fibrosa",
+        "txgnn_score": 0.9917604923248292,
+        "txgnn_rank": 9214,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00721",
+    "name": "Procaine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Procaine"
+      },
+      "queried_at": "2026-03-10T03:25:39.126172",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Procaine"
+      },
+      "queried_at": "2026-03-10T03:25:45.172760",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T03:25:45.826960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T03:25:48.835506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T03:25:51.497559",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T03:25:52.123074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T03:25:55.981317",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T03:25:56.826640",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-10T03:25:57.619894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-10T03:26:02.068477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-10T03:26:02.724565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T03:26:03.295387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T03:26:06.502100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T03:26:09.060058",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobin reductase deficiency"
+      },
+      "queried_at": "2026-03-10T03:26:09.569207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobin reductase deficiency"
+      },
+      "queried_at": "2026-03-10T03:26:13.963161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "methemoglobin reductase deficiency"
+      },
+      "queried_at": "2026-03-10T03:26:15.280820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T03:26:15.958044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T03:26:20.951111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T03:26:23.724337",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T03:26:24.699104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T03:26:29.207474",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T03:26:31.204586",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T03:26:31.777508",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T03:26:35.148057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T03:26:38.570761",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T03:26:39.399953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T03:26:43.616552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T03:26:45.326902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T03:26:45.976324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T03:26:49.152018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Procaine",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T03:26:50.347907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:26:50.353378"
+  }
+}

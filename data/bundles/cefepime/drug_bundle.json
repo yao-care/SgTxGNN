@@ -1,0 +1,940 @@
+{
+  "drug": {
+    "inn": "Cefepime",
+    "drugbank_id": "DB01413",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9869126081466676,
+        "txgnn_rank": 12900,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9869126081466676,
+        "txgnn_rank": 12901,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9850671291351318,
+        "txgnn_rank": 14151,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9816721081733704,
+        "txgnn_rank": 16194,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40350274",
+            "title": "[Campylobacter lari bacteremia during treatment of pure red cell aplasia following major ABO-mismatched hematopoietic stem cell transplantation].",
+            "abstract": "Campylobacter lari is a rare cause of bacteremia in Campylobacter spp. Clinical course and symptoms vary by report, and no standard approaches to antimicrobial selection and duration of treatment have been established. A 68-year-old man who underwent haploidentical hematopoietic stem cell transplantation (HSCT) from a major ABO-incompatible donor with post-transplant cyclophosphamide for myelodysplastic syndromes developed pure red cell anemia and post-transfusion iron overload. On day 360, the patient developed fever and spiral-shaped gram-negative bacteria were detected by blood culture. The isolate was identified as C. lari by mass spectrometry. The isolate was resistant to levofloxacin, and intravenous cefepime was given followed by maintenance therapy with oral amoxicillin. We here report the first case of C. lari bacteremia developing after allogeneic HSCT.",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2025",
+            "authors": [
+              "Yoshimaru Ryo",
+              "Nakamura Hirotaka",
+              "Guo Yony-Mei",
+              "Chi Song-Gi",
+              "Minami Yousuke"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Hematopoietic Stem Cell Transplantation",
+              "Aged",
+              "ABO Blood-Group System",
+              "Red-Cell Aplasia, Pure",
+              "Bacteremia",
+              "Campylobacter Infections",
+              "Anti-Bacterial Agents",
+              "Blood Group Incompatibility"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40350274/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.980273962020874,
+        "txgnn_rank": 16892,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monoclonal gammopathy",
+        "txgnn_score": 0.9777336716651917,
+        "txgnn_rank": 18099,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40534492",
+            "title": "Extramedullary disease is associated with severe toxicities following B-cell maturation antigen CAR T-cell therapy in multiple myeloma.",
+            "abstract": "Extramedullary disease (EMD) in multiple myeloma (MM) is associated with poor outcomes following B-cell maturation antigen (BCMA)-targeted chimeric antigen receptor (CAR) T therapy, yet its impact on treatment-related toxicity remains unclear. This study evaluates the impact of active EMD on toxicity, efficacy, and survival in patients with MM treated with idecabtagene vicleucel (ide-cel) or ciltacabtagene autoleucel (cilta-cel). We conducted a retrospective cohort study of all patients with MM who received ide-cel (N=32) or cilta-cel (N=76) as standard-of-care therapy at our institution from August 2021 to October 2024. EMD was defined as the presence of soft tissue masses in extraosseous locations, and outcomes were compared based on EMD status. Among 108 patients, 26 (24%) had EMD. Patients with EMD experienced higher rates of grade (G)1+ (38% vs. 17%; P=0.022) and G3+ immune effector cell-associated neurotoxicity syndrome (19% vs. 1.2%; P=0.003), as well as G1+ (96% vs. 78%; P=0.04",
+            "journal": "Haematologica",
+            "year": "2025",
+            "authors": [
+              "Portuguese Andrew J",
+              "Liang Emily C",
+              "Huang Jennifer J",
+              "Jeon Yein",
+              "Dima Danai"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple Myeloma",
+              "Male",
+              "Female",
+              "Aged",
+              "Immunotherapy, Adoptive",
+              "Middle Aged",
+              "Retrospective Studies",
+              "B-Cell Maturation Antigen",
+              "Aged, 80 and over"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40534492/"
+          },
+          {
+            "pmid": "38768908",
+            "title": "Optimizing Autologous Stem Cell Transplantation in Multiple Myeloma: The Impact of Intensive Chemomobilization.",
+            "abstract": "Most transplant-eligible multiple myeloma (MM) patients undergo autologous peripheral blood stem cell collection (PBSC) using G-CSF with on-demand plerixafor (G ± P). Chemomobilization (CM) can be used as a salvage regimen after G ± P failure or for debulking residual tumor burden ahead of autologous peripheral blood stem cell transplantation (ASCT). Prior studies utilizing cyclophosphamide-based CM have not shown long-term benefits. At our center, intensive CM (ICM) using a PACE- or HyperCVAD-based regimen has been used to mitigate \"excessive\" residual disease based on plasma cell (PC) burden or MM-related biomarkers. Given the lack of efficacy of non-ICM, we sought to determine the impact of ICM on event-free survival (EFS), defined as death, progressive disease, or unplanned treatment escalation. We performed a retrospective study of newly diagnosed MM patients who collected autologous PBSCs with the intent to proceed immediately to ASCT at our center between 7/2020 and 2/2023. Pati",
+            "journal": "Transplantation and cellular therapy",
+            "year": "2024",
+            "authors": [
+              "Portuguese Andrew J",
+              "Yeh Albert C",
+              "Banerjee Rahul",
+              "Holmberg Leona",
+              "Wuliji Natalie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple Myeloma",
+              "Male",
+              "Middle Aged",
+              "Female",
+              "Transplantation, Autologous",
+              "Retrospective Studies",
+              "Aged",
+              "Peripheral Blood Stem Cell Transplantation",
+              "Cyclams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38768908/"
+          },
+          {
+            "pmid": "37735762",
+            "title": "Dose Individualization of Cefepime for Febrile Neutropenia in Patients With Lymphoma or Multiple Myeloma: Implications for Therapeutic Drug Monitoring.",
+            "abstract": "Optimal cefepime dosing is a challenge because of its dose-dependent neurotoxicity. This study aimed to determine individualized cefepime dosing for febrile neutropenia in patients with lymphoma or multiple myeloma.",
+            "journal": "Therapeutic drug monitoring",
+            "year": "2024",
+            "authors": [
+              "Oda Kazutaka",
+              "Yamaguchi Ayami",
+              "Matsumoto Naoya",
+              "Nakata Hirotomo",
+              "Higuchi Yusuke"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cefepime",
+              "Anti-Bacterial Agents",
+              "Multiple Myeloma",
+              "Prospective Studies",
+              "Bayes Theorem",
+              "Drug Monitoring",
+              "Microbial Sensitivity Tests",
+              "Lymphoma",
+              "Febrile Neutropenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37735762/"
+          },
+          {
+            "pmid": "26935636",
+            "title": "[Cellulitis due to Achromobacter xylosoxidans during bortezomib therapy for multiple myeloma].",
+            "abstract": "Achromobacter xylosoxidans (A. xylosoxidans) is a non-fermentative gram-negative rod. This organism is reportedly a causative pathogen of bacteremia mainly in patients with hematological disorders. However, only one case of cellulitis due to A. xylosoxidans associated with hematological malignancy has been reported. An 80-year-old man developed cellulitis and subsequent bacteremia due to A. xylosoxidans during bortezomib therapy for multiple myeloma. Although his condition was serious enough to require intensive care, he fully recovered with appropriate antimicrobial agents and supportive care. The isolate was broadly resistant to antimicrobial agents, including cefepime, amikacin, and ciprofloxacin. Therefore, the identification and selection of appropriate antimicrobial agents were considered to have contributed to the successful outcome in this case. Physicians should recognize A. xylosoxidans as a possible pathogen causing cellulitis and secondary bacteremia, as well as being aware",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2016",
+            "authors": [
+              "Kikuchi Taku",
+              "Mori Takehiko",
+              "Kohashi Sumiko",
+              "Yamane Yusuke",
+              "Okayama Mikio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Achromobacter denitrificans",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Bortezomib",
+              "Cellulitis",
+              "Humans",
+              "Male",
+              "Multiple Myeloma",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26935636/"
+          },
+          {
+            "pmid": "19715164",
+            "title": "[Case of acute kidney injury related to intravenous zoledronic acid in a patient with multiple myeloma].",
+            "abstract": "We report the first case of acute kidney injury related to intravenous zoledronic acid (ZA)in a patient with multiple myeloma in Japan. A 37-year-old male was diagnosed as having multiple myeloma (MM) of the Bence Jones lambda type. He showed a good response to two courses of vincristine, adriamycin and dexamethasone (VAD) therapy, and remarkable reduction was seen in plasma cells in bone marrow from 38.4% to 6.8% and 24-hour urine protein from 18.5 g/dL to 2.8 g/dL. At that time, serum Cr(s-Cr) of 0.7 mg/dL and calcium of 9.3 mg/dL were in the normal range. ZA was administered intravenously at the dose of 4 mg for the first time. Subsequently, he developed a fever of up to 39.4 degrees C and used NSAIDs and cefepime. Four days later, s-Cr increasd rapidly to 7.3 mg/ dL and he received hemodialysis (HD) therapy. Four weeks later, renal biopsy was performed and demonstrated cast nephropathy (CN) and acute tubular necrosis. Seven months later, renal function had improved. ZA may be an id",
+            "journal": "Nihon Jinzo Gakkai shi",
+            "year": "2009",
+            "authors": [
+              "Koike Kiyomi",
+              "Fukami Kei",
+              "Morishige Satoshi",
+              "Hazama Takuma",
+              "Taguchi Kensei"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bone Density Conservation Agents",
+              "Bone Diseases",
+              "Dexamethasone",
+              "Diphosphonates",
+              "Doxorubicin",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19715164/"
+          },
+          {
+            "pmid": "21208642",
+            "title": "Extragenitourinary malakoplakia in a patient with myeloma clinically mimicking extramedullary myelomatous disease.",
+            "abstract": "Malakoplakia is a rare granulomatous disorder of unknown etiology and usually affects patients with underlying immunosuppression. This disorder usually involves the genitourinary tract but has been reported in a wide array of anatomical sites. We present a case of extragenitourinary malakoplakia, developing in a patient with a history of plasma cell myeloma, which clinically mimicked recurrent extramedullary myelomatous involvement. Radiologically, this lesion was a 10-cm soft-tissue mass located in the left flank and iliacus muscle. Excisional biopsy revealed a histiocytic infiltrate with histologic features diagnostic of malakoplakia. This case demonstrates the clinical and pathologic diagnostic challenges of malakoplakia arising outside the genitourinary tract. Given that it can closely mimic malignancy in such settings, malakoplakia should be considered in the differential diagnosis of soft-tissue masses developing in patients with hematologic malignancy and iatrogenic immunosuppre",
+            "journal": "Human pathology",
+            "year": "2011",
+            "authors": [
+              "El Jamal Siraj M",
+              "Malak Sharp F",
+              "Cox R Michelle",
+              "Lorsbach Robert B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Cefepime",
+              "Cephalosporins",
+              "Escherichia coli Infections",
+              "Humans",
+              "Malacoplakia",
+              "Male",
+              "Metronidazole",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21208642/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+        "txgnn_score": 0.9774277806282043,
+        "txgnn_rank": 18241,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "septicemic plague",
+        "txgnn_score": 0.9732118248939514,
+        "txgnn_rank": 20029,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20583467",
+            "title": "[Efficacy of cefixime and cefepime vs. other cephalosporins in experimental plague of albino mice due to variants FI+ and FI- of the plague microbe].",
+            "abstract": "Efficacy of cefixime and cefepime vs. ceftriaxone, cefotaxime, ceftazidime and cefoperazone was studied in vitro and in the treatment of experimental plague of albino mice due to natural, antigen complete strains of the plague microbe and the pathogen variants deprived of the ability to produce the capsule antigen fraction I (FI- phenotype). The MICs of cefixime and cefepime for 20 FI+ and 20 FI- strains of the plague microbe were 0.02-0.08 mg/l, that corresponded to the MICs of ceftriaxone, cefotaxime and ceftazidime. The MICs of cefoperazone were somewhat higher (0.1-0.2 mg/l). The ED50 values of cefixime and cefepime for prevention and treatment of experimental plague in mice statistically did not significantly differ from the ED50 values of ceftriaxone, cefotaxime, ceftazidime and cefoperazone. The efficacy indices (EIs) of cefixime and cefepime were > 10(4) independent of the infective strain phenotype (FI+ or FI-) and did not differ from those of ceftriaxone and ceftazidime. The ",
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2007",
+            "authors": [
+              "Ryzhko I V",
+              "Shcherbaniuk A I",
+              "Moldavan I A",
+              "Tsuraeva R I",
+              "Anisimov B I"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antigens, Bacterial",
+              "Bacterial Capsules",
+              "Cefepime",
+              "Cefixime",
+              "Cephalosporins",
+              "Dose-Response Relationship, Drug",
+              "Mice",
+              "Plague"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20583467/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hematological disorder",
+        "txgnn_score": 0.9689422845840454,
+        "txgnn_rank": 21648,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02497781",
+            "title": "A Single Blind, Randomised, Multi-centre, Active Controlled, Trial To Evaluate Safety, Tolerability, Pharmacokinetics And Efficacy Of Ceftazidime And Avibactam Compared With Cefepime In Children From 3 Months To Less Than 18 Years Of Age With Complicated Urinary Tract Infections (Cutis)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-09-24",
+            "completion_date": "2017-09-15",
+            "country": "Turkey (Türkiye), Romania, United States, Russia, Czechia, Hungary, Greece, Taiwan, Poland",
+            "enrollment": 97,
+            "brief_summary": "This study will assess the safety, tolerability and efficacy of ceftazidime and avibactam (CAZ-AVI )versus cefepime in children from 3 months to less than 18 years old with complicated urinary tract infections.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Must be ≥3 calendar months to \\<18 years of age. Patients aged ≥3 calendar months to \\<1 year must have been born at term (defined as gestational age ≥37 weeks).\n2. Written informed consent from parent(s) or other legally acceptable representative(s), and informed assent from",
+            "endpoints": [
+              "Percentage of Participants With Treatment-Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+              "Percentage of Participants With Cephalosporin Class Effects and Additional Adverse Events (AEs)",
+              "Change From Baseline in Pulse Rate at End of Intravenous Treatment (EOIV) Visit"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT02497781"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01431326",
+            "title": "Pharmacokinetics of Understudied Drugs Administered to Children Per Standard of Care",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-11",
+            "completion_date": "2019-11",
+            "country": "United Kingdom, Canada, Israel, United States, Singapore",
+            "enrollment": 3520,
+            "brief_summary": "Understudied drugs will be administered to children per standard of care as prescribed by their treating caregiver and only biological sample collection during the time of drug administration will be involved. A total of approximately 7000 children aged \\<21 years who are receiving these drugs for standard of care will be enrolled and will be followed for up a maximum of 90 days. The goal of this study is to characterize the pharmacokinetics of understudied drugs for which specific dosing recomm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\) Children (\\< 21 years of age) who are receiving understudied drugs of interest per standard of care as prescribed by their treating caregiver\n\nExclusion Criteria:\n\n* 1\\) Failure to obtain consent/assent (as indicated)\n* 2\\) Known pregnancy as determined via interview or te",
+            "endpoints": [
+              "Composite of pharmacokinetic outcomes for understudied drugs in children"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT01431326"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04278404",
+            "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2020-03-05",
+            "completion_date": "2027-09",
+            "country": "Canada, United States",
+            "enrollment": 5000,
+            "brief_summary": "The study investigators are interested in learning more about how drugs, that are given to children by their health care provider, act in the bodies of children and young adults in hopes to find the most safe and effective dose for children. The primary objective of this study is to evaluate the PK of understudied drugs currently being administered to children per SOC as prescribed by their treating provider.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participant is \\< 21 years of age\n2. Parent/ Legal Guardian/ Adult Participant can understand the consent process and is willing to provide informed consent/HIPAA:\n3. (a) Participant is receiving one or more of the study drugs of interest at the time of enrollment or (b) Part",
+            "endpoints": [
+              "Clearance (CL) or apparent oral clearance (CL/F) as measured by PK sampling",
+              "Volume of distribution (V) or apparent oral volume of distribution (V/F) as measured by PK sampling",
+              "Elimination rate constant (ke) as measured by PK sampling"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT04278404"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious otitis media",
+        "txgnn_score": 0.9501869678497314,
+        "txgnn_rank": 26656,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26381007",
+            "title": "Change in Detection Rate of Methicillin-Resistant Staphylococcus aureus and Pseudomonas aeruginosa and Their Antibiotic Sensitivities in Patients with Chronic Suppurative Otitis Media.",
+            "abstract": "To investigate changes in Pseudomonas aeruginosa (PA) and methicillin-resistant Staphylococcus aureus (MRSA) and their antibiotic sensitivities over 13 years in patients diagnosed with chronic suppurative otitis media (CSOM).",
+            "journal": "The journal of international advanced otology",
+            "year": "2015",
+            "authors": [
+              "Kim Sang Hoon",
+              "Kim Myung Gu",
+              "Kim Sung Soo",
+              "Cha Sung Ho",
+              "Yeo Seung Geun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Drug Resistance, Bacterial",
+              "Female",
+              "Humans",
+              "Male",
+              "Medication Therapy Management",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26381007/"
+          },
+          {
+            "pmid": "32423374",
+            "title": "Chronic Suppurative Otitis Media: A Case Report.",
+            "abstract": "Chronic Suppurative Otitis Media (CSOM) is a common cause of hearing impairment and disability. CSOM caused by Pseudomonas aeruginosa is usually treated with topical ciprofloxacin and resistance to ciprofloxacin in CSOM isolates has rarely been reported.",
+            "journal": "Infectious disorders drug targets",
+            "year": "2020",
+            "authors": [
+              "Yazdi M M Karimi",
+              "Ghalavand Zohreh",
+              "Yazdi Alireza K",
+              "Kodori Mansoor",
+              "Taheri Marzieh"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Ciprofloxacin",
+              "Drug Resistance, Multiple, Bacterial",
+              "Genes, MDR",
+              "Humans",
+              "Male",
+              "Mastoidectomy",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32423374/"
+          },
+          {
+            "pmid": "39314621",
+            "title": "Subdural Empyema as a Sequela of Severe Erosive Sinusitis: A Case Report.",
+            "abstract": "Intracranial subdural empyema is a rare but critical neurosurgical emergency marked by pus accumulation between the brain and the dura mater. It typically arises from bacterial or fungal infections, often secondary to sinusitis, otitis media, or head trauma. Symptoms can range from mild headaches to significant neurological deficits and altered mental status. Diagnosis is confirmed through advanced imaging techniques such as MRI and CT scans. Timely intervention is essential to prevent neurological damage and systemic complications, usually involving surgical drainage and antimicrobial therapy. We present the case of a 45-year-old male who visited the emergency room several times with progressive lethargy and altered mental status. He was admitted and later transferred to our trauma center for a suspected subdural hematoma. An emergent right-sided craniotomy was performed, and a subdural empyema was found. The patient improved following subdural drainage and antibiotic treatment, inclu",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Madan Ahmed",
+              "Wilson Madison",
+              "Garcia Andy",
+              "Hamam Feisal",
+              "Rhandhawa Ravindar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39314621/"
+          },
+          {
+            "pmid": "25886295",
+            "title": "Cefepime induced acute interstitial nephritis--a case report.",
+            "abstract": "Nephrotoxicity due to drugs especially beta lactams and cephalosporins has been well recognised. Cefepime is a fourth-generation cephalosporin that is widely prescribed with few severe adverse reactions reported. Although cefepime induced neurotoxicity has frequently been reported, there is yet no reported case of acute interstitial nephritis caused by this drug. We report a biopsy proven case of acute kidney injury due to acute interstitial nephritis associated with use of cefepime for treatment of mastoiditis and temporal bone osteomyelitis.",
+            "journal": "BMC nephrology",
+            "year": "2015",
+            "authors": [
+              "Mac Kathy",
+              "Chavada Ruchir",
+              "Paull Sharon",
+              "Howlin Kenneth",
+              "Wong Jeffrey"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Cefepime",
+              "Cephalosporins",
+              "Ciprofloxacin",
+              "Escherichia coli Infections",
+              "Female",
+              "Humans",
+              "Infusions, Intravenous",
+              "Kidney Function Tests",
+              "Mastoiditis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25886295/"
+          },
+          {
+            "pmid": "39944314",
+            "title": "Case Report: Pediatric pontine abscess and ecthyma gangrenosum due to Pseudomonas aeruginosa septicemia.",
+            "abstract": "Brainstem abscesses are remarkably rare, with only a few reports in the pediatric literature. Their presence portends high morbidity and mortality and most commonly present in the setting of immunodeficiency. A 5-year-old boy with a history of recurrent acute otitis media presented to the emergency department with rash, otorrhea, confusion, and fever. He was found to be in septic shock secondary to Pseudomonas aeruginosa bacteremia; a skin exam revealed multifocal ecthyma gangrenosum. He was initially treated with intravenous ceftazidime. Despite adequate antibiotic coverage he had persistent fevers. Whole-body magnetic resonance imaging revealed an expansile pontine mass; dedicated neuroimaging confirmed a 10 mm pontine abscess. Given the lack of neurological deficits on examination, he was treated non-operatively with intravenous cefepime for 9 weeks followed by oral levofloxacin for 30 days and made a nearly complete clinical recovery. Extensive immunodeficiency workup did not ident",
+            "journal": "Frontiers in pediatrics",
+            "year": "2025",
+            "authors": [
+              "Theros Jonathan",
+              "Wolfe Madison",
+              "Kociolek Larry",
+              "Kolaitis Irini N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39944314/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01413",
+    "name": "Cefepime",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cefepime"
+      },
+      "queried_at": "2026-03-10T06:37:01.832340",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cefepime"
+      },
+      "queried_at": "2026-03-10T06:37:03.940927",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T06:37:04.578784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T06:37:07.935386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T06:37:08.717524",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T06:37:09.429918",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T06:37:12.267806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T06:37:13.001702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T06:37:13.695929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T06:37:16.770526",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T06:37:17.486963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T06:37:18.039103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T06:37:21.058966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T06:37:22.763514",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T06:37:24.985245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T06:37:28.269985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T06:37:28.949570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T06:37:29.450845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T06:37:32.980051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T06:37:35.014545",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T06:37:35.584289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T06:37:38.346905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T06:37:39.518658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T06:37:40.297502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T06:37:43.724879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T06:37:45.687038",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T06:37:46.433323",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T06:37:50.040690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T06:37:51.642912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "infectious otitis media"
+      },
+      "queried_at": "2026-03-10T06:37:52.842950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "infectious otitis media"
+      },
+      "queried_at": "2026-03-10T06:37:56.374098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefepime",
+        "disease": "infectious otitis media"
+      },
+      "queried_at": "2026-03-10T06:37:58.373236",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:37:58.385044"
+  }
+}

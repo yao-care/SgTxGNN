@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Panitumumab",
+    "drugbank_id": "DB01269",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.991297721862793,
+        "txgnn_rank": 9573,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9904502034187316,
+        "txgnn_rank": 10210,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9896140694618224,
+        "txgnn_rank": 10814,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9890079498291016,
+        "txgnn_rank": 11271,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9880945086479188,
+        "txgnn_rank": 11987,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9880945086479188,
+        "txgnn_rank": 11988,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.9877040386199952,
+        "txgnn_rank": 12270,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.9877040386199952,
+        "txgnn_rank": 12271,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9877040386199952,
+        "txgnn_rank": 12272,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.9877040386199952,
+        "txgnn_rank": 12273,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01269",
+    "name": "Panitumumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Panitumumab"
+      },
+      "queried_at": "2026-03-10T05:35:01.325227",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Panitumumab"
+      },
+      "queried_at": "2026-03-10T05:35:03.023687",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:35:03.570685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:35:06.457493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:35:07.300130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:35:07.811178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:35:12.139601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:35:12.922264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:35:13.814374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:35:16.787898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:35:17.467849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T05:35:18.018263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T05:35:21.324512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T05:35:22.311629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T05:35:22.870579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T05:35:26.381601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T05:35:27.302751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T05:35:27.955825",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T05:35:31.432680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T05:35:32.167450",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T05:35:32.726650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T05:35:36.219678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T05:35:38.408739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T05:35:39.058762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T05:35:42.982066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T05:35:43.709751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T05:35:45.022299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T05:35:48.221454",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T05:35:48.934824",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T05:35:49.566732",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T05:35:53.119516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Panitumumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T05:35:53.767973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:35:53.773929"
+  }
+}

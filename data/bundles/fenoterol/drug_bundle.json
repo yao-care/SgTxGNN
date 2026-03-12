@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Fenoterol",
+    "drugbank_id": "DB01288",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "multiple system atrophy",
+        "txgnn_score": 0.9969745874404908,
+        "txgnn_rank": 4626,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postural orthostatic tachycardia syndrome",
+        "txgnn_score": 0.9960635304450988,
+        "txgnn_rank": 5534,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "variably protease-sensitive prionopathy",
+        "txgnn_score": 0.9954051971435548,
+        "txgnn_rank": 6152,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9942979216575624,
+        "txgnn_rank": 7101,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Raynaud disease",
+        "txgnn_score": 0.9941231608390808,
+        "txgnn_rank": 7281,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9937021732330322,
+        "txgnn_rank": 7627,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinoatrial block",
+        "txgnn_score": 0.9935141801834106,
+        "txgnn_rank": 7817,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinoatrial node disease",
+        "txgnn_score": 0.992515742778778,
+        "txgnn_rank": 8625,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.9828240871429444,
+        "txgnn_rank": 15560,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma 1, open angle",
+        "txgnn_score": 0.981561243534088,
+        "txgnn_rank": 16249,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01288",
+    "name": "Fenoterol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fenoterol"
+      },
+      "queried_at": "2026-03-10T01:03:04.049654",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fenoterol"
+      },
+      "queried_at": "2026-03-10T01:03:07.259331",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "multiple system atrophy"
+      },
+      "queried_at": "2026-03-10T01:03:08.069190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "multiple system atrophy"
+      },
+      "queried_at": "2026-03-10T01:03:13.570033",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "multiple system atrophy"
+      },
+      "queried_at": "2026-03-10T01:03:14.233351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T01:03:15.235970",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T01:03:19.488417",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T01:03:22.078473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-10T01:03:24.324556",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-10T01:03:29.977930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-10T01:03:32.768199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T01:03:34.101124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T01:03:39.583352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T01:03:41.544601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-10T01:03:43.921386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-10T01:03:49.191337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-10T01:03:56.377720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T01:03:57.391929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T01:04:01.907601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T01:04:03.938763",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-10T01:04:05.073501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-10T01:04:11.943329",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-10T01:04:14.854126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-10T01:04:17.575243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-10T01:04:24.973158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-10T01:04:47.238493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T01:04:50.061650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T01:04:55.602228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T01:04:59.291398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T01:05:00.729573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T01:05:05.926124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fenoterol",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T01:05:14.942220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:05:14.979739"
+  }
+}

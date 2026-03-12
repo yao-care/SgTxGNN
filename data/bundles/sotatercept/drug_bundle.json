@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Sotatercept",
+    "drugbank_id": "DB12118",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acute lymphoblastic leukemia (disease)",
+        "txgnn_score": 0.9977918863296508,
+        "txgnn_rank": 3675,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9977420568466188,
+        "txgnn_rank": 3727,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9971745014190674,
+        "txgnn_rank": 4397,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9964889287948608,
+        "txgnn_rank": 5120,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9949330687522888,
+        "txgnn_rank": 6543,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HER2 positive breast carcinoma",
+        "txgnn_score": 0.9943121671676636,
+        "txgnn_rank": 7095,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "transitional cell carcinoma",
+        "txgnn_score": 0.9938523769378662,
+        "txgnn_rank": 7481,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prostatic urethra urothelial carcinoma",
+        "txgnn_score": 0.993624210357666,
+        "txgnn_rank": 7709,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+        "txgnn_score": 0.9935637712478638,
+        "txgnn_rank": 7766,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
+        "txgnn_score": 0.9934241771697998,
+        "txgnn_rank": 7896,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12118",
+    "name": "Sotatercept",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sotatercept"
+      },
+      "queried_at": "2026-03-09T22:04:00.229157",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sotatercept"
+      },
+      "queried_at": "2026-03-09T22:04:17.517105",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "acute lymphoblastic leukemia (disease)"
+      },
+      "queried_at": "2026-03-09T22:04:18.796256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "acute lymphoblastic leukemia (disease)"
+      },
+      "queried_at": "2026-03-09T22:04:25.196536",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "acute lymphoblastic leukemia (disease)"
+      },
+      "queried_at": "2026-03-09T22:04:26.256236",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:04:27.037252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:04:32.292467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:04:34.103171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:04:34.840381",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:04:53.769711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:04:54.681931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T22:04:55.958633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T22:05:02.853939",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T22:05:04.162253",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T22:05:04.823268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T22:05:10.390659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T22:05:12.438615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:13.642480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:20.391301",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:22.040006",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:23.312838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:29.151037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:31.287754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:33.451850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:39.454729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:41.053549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:43.105252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:49.207688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T22:05:50.347390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "queried_at": "2026-03-09T22:05:50.953091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "queried_at": "2026-03-09T22:05:55.449150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotatercept",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "queried_at": "2026-03-09T22:05:56.747144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:05:56.762122"
+  }
+}

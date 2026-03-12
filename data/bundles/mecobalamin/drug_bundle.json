@@ -1,0 +1,550 @@
+{
+  "drug": {
+    "inn": "Mecobalamin",
+    "drugbank_id": "DB03614",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.99496728181839,
+        "txgnn_rank": 6511,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.99338561296463,
+        "txgnn_rank": 7928,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03655223",
+            "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2018-10-15",
+            "completion_date": "2025-12-31",
+            "country": "United States",
+            "enrollment": 30000,
+            "brief_summary": "Early Check provides voluntary screening of newborns for a selected panel of conditions. The study has three main objectives: 1) develop and implement an approach to identify affected infants, 2) address the impact on infants and families who screen positive, and 3) evaluate the Early Check program. The Early Check screening will lead to earlier identification of newborns with rare health conditions in addition to providing important data on the implementation of this model program. Early diagno",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Newborn has newborn screening in North Carolina\n* Newborn lives in North Carolina or South Carolina\n* Newborn is less than 31 days old\n* Person giving consent must have legal custody of the newborn. When the mother retains custody, they must be the person to give consent.\n* Pe",
+            "endpoints": [
+              "Incidence Rates: Number of newborns who screen positive comparative to the whole sample"
+            ],
+            "sponsor": "RTI International",
+            "url": "https://clinicaltrials.gov/study/NCT03655223"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bone Paget disease",
+        "txgnn_score": 0.9931199550628662,
+        "txgnn_rank": 8141,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroparesis (disease)",
+        "txgnn_score": 0.9826884865760804,
+        "txgnn_rank": 15644,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "juvenile Paget disease",
+        "txgnn_score": 0.980942726135254,
+        "txgnn_rank": 16589,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.9767795205116272,
+        "txgnn_rank": 18522,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteomesopyknosis",
+        "txgnn_score": 0.9743083715438844,
+        "txgnn_rank": 19601,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete vitamin D deficiency",
+        "txgnn_score": 0.9742727279663086,
+        "txgnn_rank": 19614,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "choledocholithiasis",
+        "txgnn_score": 0.9734429717063904,
+        "txgnn_rank": 19945,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colorectal cancer",
+        "txgnn_score": 0.9725311398506165,
+        "txgnn_rank": 20310,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2694825",
+            "title": "[Clinical evaluation of micturitional dysfunction after the operation for rectal cancer and effects of mecobalamin on that dysfunction].",
+            "abstract": "Examination including residual urine measurement, cystometry and urethral pressure profile was performed before and 8 weeks, 3 months and 6 months after the operation in 17 patients with rectal cancer who were divided into mecobalamin administered group (8 patients) and non-administered group (9 patients) at random. Administration of mecobalamin (500 gamma i.m., 3 times a week for 4 weeks) was started within 3 weeks after the operation. In the 17 patients, the rate of patients with residual urine over 51 ml was 65% at 8 weeks, 24% at 3 months and 24% at 6 months. The mean value of bladder pressure at maximum capacity after the operation in the 17 patients showed a significant increase compared to that before the operation, while the mean value of maximum urethral pressure after the operation showed a significant decrease compared to that before the operation. The bladder pressure in patients with residual urine less than 50 ml was significantly lower than that in patients with residual",
+            "journal": "Hinyokika kiyo. Acta urologica Japonica",
+            "year": "1989",
+            "authors": [
+              "Murayama K",
+              "Katsumi T",
+              "Asai T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "English Abstract",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Male",
+              "Postoperative Complications",
+              "Randomized Controlled Trials as Topic",
+              "Rectal Neoplasms",
+              "Urination Disorders",
+              "Vitamin B 12"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2694825/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB03614",
+    "name": "Mecobalamin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mecobalamin"
+      },
+      "queried_at": "2026-03-10T03:29:21.761372",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mecobalamin"
+      },
+      "queried_at": "2026-03-10T03:29:23.130477",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T03:29:23.919845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T03:29:27.232766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T03:29:28.549976",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:29:29.360663",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:29:32.449900",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:29:33.666882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T03:29:34.806388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T03:29:38.079394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T03:29:39.007870",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T03:29:39.664013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T03:29:42.953192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T03:29:43.854436",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "juvenile Paget disease"
+      },
+      "queried_at": "2026-03-10T03:29:44.701587",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "juvenile Paget disease"
+      },
+      "queried_at": "2026-03-10T03:29:48.463095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "juvenile Paget disease"
+      },
+      "queried_at": "2026-03-10T03:29:49.230206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T03:29:49.765626",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T03:29:54.598503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T03:29:55.814324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "osteomesopyknosis"
+      },
+      "queried_at": "2026-03-10T03:29:56.677718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "osteomesopyknosis"
+      },
+      "queried_at": "2026-03-10T03:29:59.605734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "osteomesopyknosis"
+      },
+      "queried_at": "2026-03-10T03:30:00.305993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T03:30:01.151721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T03:30:05.213600",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T03:30:05.905752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "choledocholithiasis"
+      },
+      "queried_at": "2026-03-10T03:30:06.604688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "choledocholithiasis"
+      },
+      "queried_at": "2026-03-10T03:30:10.454163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "choledocholithiasis"
+      },
+      "queried_at": "2026-03-10T03:30:11.765414",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "colorectal cancer"
+      },
+      "queried_at": "2026-03-10T03:30:12.423143",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "colorectal cancer"
+      },
+      "queried_at": "2026-03-10T03:30:15.319366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mecobalamin",
+        "disease": "colorectal cancer"
+      },
+      "queried_at": "2026-03-10T03:30:19.030300",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:30:19.039456"
+  }
+}

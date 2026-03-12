@@ -1,0 +1,1388 @@
+{
+  "drug": {
+    "inn": "Fimasartan",
+    "drugbank_id": "DB09279",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+        "txgnn_score": 0.9920255541801452,
+        "txgnn_rank": 9023,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "txgnn_score": 0.9920255541801452,
+        "txgnn_rank": 9024,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover, controlled hypoxia exposure may represent a treatment strategy for age-related neurological disorders. This review discusses evidence of hypoxia's beneficial vs. detrimental impacts on the aging brain and the molecular mechanisms that mediate these divergent effects. It draws upon an extensive literature search on the effects of hypoxia/altitude on brain aging, and detailed analysis of all identified studies directly comparing brain responses to hypoxia in young vs. aged humans or rodents. Spe",
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Aging",
+              "Brain",
+              "Hypoxia",
+              "Neuroprotection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33862277/"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiology, clinical medicine, and sports technology. Here, we explore the foundations of this nascent field and outline a path to determine how chronic continuous hypoxia can be safely, effectively, and practically delivered to patients.",
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39841808/"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity by modulating immune cell proliferation, development and effector function, largely via transcriptional changes driven by hypoxia-inducible factor (HIF). By contrast, in pathological immunological niches, such as tumours and chronically inflamed, infected or ischaemic tissues, pathological hypoxia can drive tissue dysfunction and disease development through immune cell dysregulation. Here, we differentiate between the effects of physiological and pathological hypoxia on immune cells and the cons",
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cellular Microenvironment",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Immune System",
+              "Immunity",
+              "Immunity, Innate",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28972206/"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcription factor of the cellular response to hypoxia. Further, acRIP-sequencing, Ribosome profiling sequencing, RNA-sequencing, and functional studies confirm that NAT10 in turn activates the HIF-1 pathway and subsequent glucose metabolism reprogramming by mediating SEPT9 mRNA ac4C modification. The formation of the NAT10/SEPT9/HIF-1α positive feedback loop leads to excessive activation of the HIF-1 pathway and induces glycolysis addiction. Combined anti-angiogenesis and ac4C inhibition attenuate hyp",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stomach Neoplasms",
+              "Feedback",
+              "Glycolysis",
+              "RNA, Messenger",
+              "Hypoxia",
+              "N-Terminal Acetyltransferases",
+              "Cytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37328448/"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute and chronic hypoxia. Hypoxia can impair several cognitive domains such as attention, learning and memory, procession speed and executive function, which are similar in acute and chronic hypoxia. The severity of cognitive deficit correlates with the duration and degree of hypoxia. Recovery can be achieved after acute hypoxia, while sequelae or even dementia can be observed after chronic hypoxia, perhaps due to the different molecular mechanisms. Cardiopulmonary compensatory response, glycolysis,",
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Cognitive Dysfunction",
+              "Hippocampus",
+              "Humans",
+              "Hypoxia",
+              "Neurofibrillary Tangles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34618295/"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with the goal of providing mechanistic insight and novel therapeutic targets. In this article we review both the normal biological effects of hypoxia as well as the alterations that occur in specific disease conditions with an emphasis on the cell signaling and gene transcription mechanisms that underlie the changes associated with chronic hypoxia. Comparisons of studies in the fields of cardiac ischemia and tumor angiogenesis reveal the complexities within the microenvironment that control response",
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gene Expression Regulation",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Myocardial Ischemia",
+              "Neoplasm Metastasis",
+              "Neoplasms",
+              "Neovascularization, Pathologic",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21328446/"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypoxia evokes a temporary delay of ingrowth of cholinergic and serotonergic fibres into the hippocampus and neocortex, and causes an enhanced neurodegeneration of 5-HT-ir axons during aging. Neonatal anoxia suppresses hippocampal ChAT activity and up-regulates muscarinic receptor sites for 3H-QNB and 3H-pirenzepine binding in the hippocampus in the early postnatal age. The altered development of axonal arborization and pre- and postsynaptic cholinergic functions may be an important underlying mecha",
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Behavior",
+              "Brain",
+              "Humans",
+              "Hypoxia",
+              "Neurotransmitter Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8817697/"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and DUBs are regulated by hypoxia. While hypoxia is a powerful HIF regulator, less is known about hypoxia-regulated DUBs and their impact on HIFs. Here, we review current knowledge about the relationship of E3s, DUBs, and hypoxia signaling. We also discuss the reciprocal regulation of DUBs by hypoxia and use of DUB-specific drugs in cancer.",
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Deubiquitinating Enzymes",
+              "Homeostasis",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Neoplasms",
+              "Oxygen",
+              "Protein Transport",
+              "Proteolysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31706510/"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dissemination. Consequently, substantial effort has been made to detect hypoxia in human tumours and identify realistic approaches to overcome hypoxia and improve cancer therapy outcomes. Hypoxia-targeting strategies include improving oxygen availability, sensitising hypoxic cells to radiation, preferentially killing these cells, locating the hypoxic regions in tumours and increasing the radiation dose to those areas, or applying high energy transfer radiation, which is less affected by hypoxia. De",
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Hypoxia",
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34535359/"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we outline the links between cancer and autoimmunity regarding hypoxia-induced factors, such as HIF-1α, and describe the role of hypoxia in the modulation of the autoimmune response.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Neoplasms",
+              "Autoimmune Diseases",
+              "Autoimmunity",
+              "Animals",
+              "Tumor Microenvironment",
+              "T-Lymphocytes, Helper-Inducer",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40963621/"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the setting of adequate oxygen exchange from the lungs to the blood are discussed. An algorithm is proposed for diagnosing patients who present with hypoxia.",
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Algorithms",
+              "Cell Hypoxia",
+              "Child, Preschool",
+              "Decision Trees",
+              "Diagnosis, Differential",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11172576/"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related events, possibly by exacerbating tissue hypoxia in the central nervous system. Accordingly, increasing oxygen supply can mitigate pathological and clinical parameters in MS models. In contrast, stimulating the endogenous hypoxia response and adaptation systems by controlled exposure to hypoxia (hypoxia conditioning) renders the central nervous system more resistant to hypoxic insults, thereby attenuating pathology and symptomatology in MS models. Overlapping mechanisms likely play a role in the ",
+            "journal": "Redox biology",
+            "year": "2025",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Multiple Sclerosis",
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen",
+              "Central Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40347693/"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who live at sea level. However, hypobaric hypoxia is present and oxygenation is lower than at sea level, and it is still unknown what other changes may be caused by hypobaric hypoxia at this altitude.",
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "pub_types": [
+              "Editorial",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Altitude",
+              "Hypoxia",
+              "Altitude Sickness",
+              "Acclimatization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40815459/"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "abstract": "",
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "authors": [
+              "Ferrer S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adenosine Monophosphate",
+              "Adenosine Triphosphate",
+              "Animals",
+              "Brain",
+              "Brain Edema",
+              "Humans",
+              "Hypercapnia",
+              "Hypoxia, Brain",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4585366/"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy, release of extracellular vesicles, and generation of pre-metastatic niches. Hypoxia also affects bone cells, such as osteoblasts and osteoclasts, and immune cells, which also act to support the development and progression of bone metastases. Paradoxically, hypoxia and related signaling molecules are recognized as high-priority therapeutic targets and many candidate drugs are currently under preclinical and clinical investigation. The present review focuses on our current knowledge of the potent",
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Neoplasms",
+              "Bone and Bones",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Signal Transduction",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30423905/"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Findings Epidemiological studies suggest that living in high-altitude areas increases the risk of migraine and especially migraine with aura. Human provocation models show that hypoxia provokes migraine with and without aura, whereas cluster headache has not been reliably induced by hypoxia. Possible pathophysiological mechanisms include hypoxia-induced release of nitric oxide and calcitonin gene-related peptide, cortical spreading depression and leakage of the blood-brain barrier. Conclusion There ",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cluster Headache",
+              "Humans",
+              "Hypoxia",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27146279/"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator, reports also indicate that hypoxia governs the activity of CMGC kinases, including DYRK1 kinases. Prolyl hydroxylation of DYRK1 kinases by PHD1 constitutes a novel mechanism of kinase maturation and activation. This modification \"primes\" DYRK1 kinases for subsequent tyrosine autophosphorylation, a vital step in their activation cascade. This mechanism adds a layer of intricacy to comprehending the regulation of CMGC kinases, and underscores the complex interplay between distinct post-translati",
+            "journal": "BMB reports",
+            "year": "2023",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Phosphorylation",
+              "Cell Hypoxia",
+              "Protein Processing, Post-Translational",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37915135/"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic subunit of the RNA exosome, in an HIF-independent manner. EXOSC10 is a multifunctional exoribonuclease enriched in the nucleolus that mediates the processing and degradation of various RNA species. We demonstrate that the ubiquitin-specific protease 36 (USP36) SUMOylates EXOSC10 and we reveal SUMO1/sentrin-specific peptidase 3 (SENP3) as the enzyme-mediating deSUMOylation of EXOSC10. Under hypoxia, EXOSC10 dissociates from USP36 and translocates from the nucleolus to the nucleoplasm concomitant wit",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Transcriptome",
+              "Exosomes",
+              "Hypoxia",
+              "Transcriptional Activation",
+              "Oxygen",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Sumoylation",
+              "Exoribonucleases",
+              "Exosome Multienzyme Ribonuclease Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38279024/"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "abstract": "",
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Acclimatization",
+              "Altitude",
+              "Animals",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Oxygen",
+              "Signal Transduction",
+              "Translational Research, Biomedical"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24557798/"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of the HIF-1 pathway are beneficial and promote the repair process, producing tissue that might not perfectly reform its original architecture but that has its function substantially restored. However, in some cases of chronic injury, chronic hypoxia and pathological repair, the hypoxia pathway might be responsible for driving the process of fibrosis and can lead to excessive scarring and compromised organ function.",
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease",
+              "Fibrosis",
+              "Humans",
+              "Hypoxia",
+              "Organ Specificity",
+              "Oxygen",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27423661/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant hypertensive renal disease",
+        "txgnn_score": 0.9916182160377502,
+        "txgnn_rank": 9301,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant renovascular hypertension",
+        "txgnn_score": 0.9916182160377502,
+        "txgnn_rank": 9303,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Braddock syndrome",
+        "txgnn_score": 0.9892529845237732,
+        "txgnn_rank": 11077,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic pulmonary heart disease",
+        "txgnn_score": 0.9480000734329224,
+        "txgnn_rank": 27147,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cerebrovascular disorder",
+        "txgnn_score": 0.917963981628418,
+        "txgnn_rank": 32679,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03231293",
+            "title": "A Multicenter Longitudinal Observational Study to Assess the Effectiveness of Fimasartan-based Antihypertensive Treatment and Prognosis in Post-Acute Phase of Ischemic Stroke or Transient Ischemic Attack",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-07-28",
+            "completion_date": "2019-04-05",
+            "country": "South Korea",
+            "enrollment": 1035,
+            "brief_summary": "This study evaluates the effectiveness of fimasartan-based antihypertensive treatment and prognosis in post-acute phase of ischemic stroke or transient ischemic attack patients. All participants will receive fimasartan, and the investigators will follow them up for 6 months.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ischemic stroke or transient ischemic attack occurs after 7 days to 3 months.\n* Mean blood pressure measured 3 times at the first visit (Visit 1) should be over 140 mmHg for systolic blood pressure or 90 mmHg for diastolic blood pressure\n* Suitable for administration of fimasa",
+            "endpoints": [
+              "BP"
+            ],
+            "sponsor": "Boryung Pharmaceutical Co., Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT03231293"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02403349",
+            "title": "Comparison of Peripheral and Cerebral Arterial Flow in Acute Ischemic Stroke: Fimasartan vs. Valsartan vs. Atenolol",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2012-05",
+            "completion_date": "2015-09",
+            "country": "N/A",
+            "enrollment": 105,
+            "brief_summary": "Confirm central blood pressure reduction effect of Fimasartan, Valsartan and Atenolol and compare correlation with the measured peripheral (central blood pressure, pulse wave velocity, and flow-mediated dilation) and cerebral blood flow factors (transcranial doppler findings, cerebral blood flow volume) in acute ischemic stroke patients with hypertension.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 30 years old\n* Acute ischemic stroke patient who has corresponding DWI(diffusion- weighted imaging) lesion correlated with symptom\n* after 7days, but within 28days from stroke onset\n* Diagnosed with Hypertension\n* hypertensive patients who taking anti-hypertensive drugs ",
+            "endpoints": [
+              "Central Blood pressure control"
+            ],
+            "sponsor": "Ajou University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT02403349"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31307370",
+            "title": "Fimasartan reduces neointimal formation and inflammation after carotid arterial injury in apolipoprotein E knockout mice.",
+            "abstract": "The beneficial effects of angiotensin II type 1 receptor blockers (ARBs) on atherosclerosis have been demonstrated in numerous studies. We investigated the effects of fimasartan on reducing neointimal formation and systemic inflammation after carotid artery (CA) injury in Apolipoprotein E knockout (ApoE KO) mice.",
+            "journal": "Molecular medicine (Cambridge, Mass.)",
+            "year": "2019",
+            "authors": [
+              "Kim Jong-Ho",
+              "Lim I-Rang",
+              "Joo Hyung Joon",
+              "Park Chi-Yeon",
+              "Choi Seung-Cheol"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin Receptor Antagonists",
+              "Animals",
+              "Apolipoproteins E",
+              "Biphenyl Compounds",
+              "Carotid Artery Injuries",
+              "Inflammation",
+              "Interleukin-6",
+              "Male",
+              "Matrix Metalloproteinase 9",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31307370/"
+          },
+          {
+            "pmid": "30537083",
+            "title": "Comparison of fimasartan and amlodipine therapy on carotid atherosclerotic plaque inflammation.",
+            "abstract": "The renin-angiotensin system plays an important role in promoting atherosclerotic plaque inflammation, which may be inhibited by angiotension-II receptor blockers.",
+            "journal": "Clinical cardiology",
+            "year": "2019",
+            "authors": [
+              "Oh Minyoung",
+              "Lee Cheol Whan",
+              "Ahn Jung-Min",
+              "Park Duk-Woo",
+              "Kang Soo-Jin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Amlodipine",
+              "Biphenyl Compounds",
+              "Calcium Channel Blockers",
+              "Carotid Arteries",
+              "Carotid Artery Diseases",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30537083/"
+          },
+          {
+            "pmid": "30171865",
+            "title": "Pretreatment with low-dose fimasartan ameliorates NLRP3 inflammasome-mediated neuroinflammation and brain injury after intracerebral hemorrhage.",
+            "abstract": "Nucleotide-binding and oligomerization domain-like receptor family pyrin domain-containing 3 (NLRP3) inflammasome, which is composed of an NLRP3 domain, the adaptor molecule apoptosis-associated speck-like protein containing a CARD (ASC) domain, and procaspase-1, plays an important role in the immune pathophysiology of the secondary damage induced by intracerebral hemorrhage (ICH). This study aims to investigate whether pre-stroke treatment with fimasartan, an angiotensin II receptor blocker, has anti-inflammatory effects on ICH by inhibiting the activation of the NLRP3 inflammasome. Sprague-Dawley rats were divided into five groups: sham, vehicle, low-dose (0.5 mg/kg) and regular-doses (1.0 and 3.0 mg/kg) fimasartan. These rats were treated for 30 days before the induction of collagenase-induced ICH and continuously 3 days after surgery. The mean blood pressure (BP) in the low-dose fimasartan group was not significantly different from that of control, and BP in the regular-dose groups",
+            "journal": "Experimental neurology",
+            "year": "2018",
+            "authors": [
+              "Yang Xiuli",
+              "Sun Jing",
+              "Kim Tae Jung",
+              "Kim Young-Ju",
+              "Ko Sang-Bae"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Brain Edema",
+              "Brain Injuries",
+              "Calcium-Binding Proteins",
+              "Cells, Cultured",
+              "Cerebral Hemorrhage",
+              "Cytokines",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30171865/"
+          },
+          {
+            "pmid": "37365730",
+            "title": "Comparison Between Fimasartan Versus Other Angiotensin Receptor Blockers in Patients With Heart Failure After Acute Myocardial Infarction.",
+            "abstract": "Fimasartan is the most recently developed, potent, and long-acting angiotensin II receptor blocker (ARB). However, data are limited regarding treatment effects of fimasartan in patients with heart failure.",
+            "journal": "Journal of Korean medical science",
+            "year": "2023",
+            "authors": [
+              "Kim Jihoon",
+              "Kang Danbee",
+              "Kim Sung Eun",
+              "Park Hyejeong",
+              "Park Taek Kyu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Angiotensin Receptor Antagonists",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Heart Failure",
+              "Myocardial Infarction",
+              "Stroke",
+              "Treatment Outcome",
+              "Biphenyl Compounds",
+              "Pyrimidines",
+              "Tetrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37365730/"
+          },
+          {
+            "pmid": "26448932",
+            "title": "Effect of Long-Term Treatment with Fimasartan on Transient Focal Ischemia in Rat Brain.",
+            "abstract": "Fimasartan is a newly developed angiotensin receptor blocker, which may have protective effects during myocardial infarction or atherosclerosis. In this context, we investigated the effects of long-term treatment with low-dose fimasartan on focal ischemia in rat brain. We induced focal ischemia in brain by transient intraluminal occlusion of middle cerebral artery (MCA) and administered low-dose (0.5 mg/kg) or regular doses (1 or 3 mg/kg) of fimasartan via intravenous routes. After the administration of low-dose (0.5 mg/kg) fimasartan, blood pressure did not decrease compared to the phosphate-buffered saline- (PBS-) control with MCA occlusion (MCAO) group. The infarct volume and ischemic cell death were reduced in the low-dose fimasartan-treated group (46 ± 41 mm(3) for 0.5 mg/kg and 153 ± 47 mm(3) for PBS-control with MCAO; P < 0.01) but not in the regular-dose groups. Low-dose fimasartan treatment improved functional recovery after ischemia and significantly decreased mortality. In o",
+            "journal": "BioMed research international",
+            "year": "2015",
+            "authors": [
+              "Kim Chi Kyung",
+              "Yang Xiu-Li",
+              "Kim Young-Ju",
+              "Choi In-Young",
+              "Jeong Han-Gil"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Brain Ischemia",
+              "Cyclooxygenase 2",
+              "Dose-Response Relationship, Drug",
+              "Male",
+              "NF-kappa B",
+              "Pyrimidines",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26448932/"
+          },
+          {
+            "pmid": "31772615",
+            "title": "Comparison of the Effect of Fimasartan versus Valsartan on Blood Pressure Variability in Acute Ischemic Stroke: A Double-Blind Randomized Trial.",
+            "abstract": "Higher blood pressure variability (BPV) is associated with poor functional outcome and mortality in acute stroke. This randomized controlled trial was conducted to compare the effect on BPV between fimasartan and valsartan (Boryung Pharmaceutical Co., Ltd., Seoul, Republic of Korea) in patients with acute ischemic stroke. Eighty patients were randomly assigned to receive either valsartan or fimasartan after 7 days of acute ischemic stroke onset, for duration of 8 weeks. Of them, 62 patients completed the study [valsartan (n=31), fimasartan (n=31)]. We measured BP for 24 hours using ambulatory BP monitoring device before and after 8 weeks of starting BP medication. We calculated several indexes such as standard deviation (SD), weighted 24-hour BP with SD (wSD), coefficient of variation (CV), and average real variability (ARV) to assess BPV and to compare indexes of BPV between 2 drugs. SD values of systolic BP in daytime, nighttime, and 24 h period (15.55±4.02 versus 20.55±8.77, P=0.006",
+            "journal": "Cardiovascular therapeutics",
+            "year": "2019",
+            "authors": [
+              "Shin Dong Hoon",
+              "Song Soohwa",
+              "Lee Yeong Bae"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Brain Ischemia",
+              "Double-Blind Method",
+              "Humans",
+              "Prospective Studies",
+              "Pyrimidines",
+              "Republic of Korea",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31772615/"
+          },
+          {
+            "pmid": "29367614",
+            "title": "Central and cerebral haemodynamic changes after antihypertensive therapy in ischaemic stroke patients: A double-blind randomised trial.",
+            "abstract": "Central and cerebral haemodynamic parameters can vary under similar brachial blood pressure (BP). We aimed to investigate the effects of antihypertensive agents on central and cerebral haemodynamic parameters in hypertensive patients with ischaemic stroke. The Fimasartan, Atenolol, and Valsartan On haemodynamic paRameters (FAVOR) study was conducted in a prospective, double-blinded manner. One hundred five patients were randomly administered atenolol, valsartan, or fimasartan during 12 weeks. We measured brachial, central, cerebral haemodynamic parameters and plasma N-terminal pro-brain natriuretic peptide (NT-proBNP) levels at baseline and after 12-week. Baseline haemodynamic parameters were balanced among the three groups. Even with similar brachial BP reduction, significantly lower central systolic BP (atenolol; 146.5 ± 18.8 vs. valsartan; 133.5 ± 20.7 vs. fimasartan; 133.6 ± 19.8 mmHg, p = 0.017) and augmentation index values (89.8 ± 13.2 vs. 80.6 ± 9.2 vs. 79.2 ± 11.6%; p = 0.001)",
+            "journal": "Scientific reports",
+            "year": "2018",
+            "authors": [
+              "Choi Mun Hee",
+              "Lee Jin Soo",
+              "Lee Sung Eun",
+              "Lee Seong-Joon",
+              "Yoon Dukyong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antihypertensive Agents",
+              "Atenolol",
+              "Biphenyl Compounds",
+              "Cerebrovascular Circulation",
+              "Double-Blind Method",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29367614/"
+          },
+          {
+            "pmid": "29763986",
+            "title": "Early IV-injected human dermis-derived mesenchymal stem cells after transient global cerebral ischemia do not pass through damaged blood-brain barrier.",
+            "abstract": "There is lack of researches on effects of intravenously injected mesenchymal stem cells (MSCs) against transient cerebral ischemia (TCI). We investigated the disruption of the neurovascular unit (NVU), which comprises the blood-brain barrier and examined entry of human dermis-derived MSCs (hDMSCs) into the damaged hippocampal CA1 area in a gerbil model of TCI and their subsequent effects on neuroprotection and cognitive function. Impairments of neurons and blood-brain barrier were examined by immunohistochemistry, electron microscopy, and Evans blue and immunoglobulin G leakage. Neuronal death was observed in pyramidal neurons 5-day postischemia. NVU were structurally damaged; in particular, astrocyte end-feet were severely damaged from 2-day post-TCI and immunoglobulin G leaked out of the CA1 area 2 days after 5 min of TCI; however, Evans blue extravasation was not observed. On the basis of the results of NVU damages, ischemic gerbils received PKH2-transfected hDMSCs 3 times at early ",
+            "journal": "Journal of tissue engineering and regenerative medicine",
+            "year": "2018",
+            "authors": [
+              "Ahn Ji Hyeon",
+              "Chen Bai Hui",
+              "Park Joon Ha",
+              "Shin Bich Na",
+              "Lee Tae-Kyeong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biphenyl Compounds",
+              "Blood-Brain Barrier",
+              "Brain Ischemia",
+              "Dermis",
+              "Disease Models, Animal",
+              "Gerbillinae",
+              "Heterografts",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29763986/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intracerebral hemorrhage",
+        "txgnn_score": 0.8720750212669373,
+        "txgnn_rank": 37449,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30171865",
+            "title": "Pretreatment with low-dose fimasartan ameliorates NLRP3 inflammasome-mediated neuroinflammation and brain injury after intracerebral hemorrhage.",
+            "abstract": "Nucleotide-binding and oligomerization domain-like receptor family pyrin domain-containing 3 (NLRP3) inflammasome, which is composed of an NLRP3 domain, the adaptor molecule apoptosis-associated speck-like protein containing a CARD (ASC) domain, and procaspase-1, plays an important role in the immune pathophysiology of the secondary damage induced by intracerebral hemorrhage (ICH). This study aims to investigate whether pre-stroke treatment with fimasartan, an angiotensin II receptor blocker, has anti-inflammatory effects on ICH by inhibiting the activation of the NLRP3 inflammasome. Sprague-Dawley rats were divided into five groups: sham, vehicle, low-dose (0.5 mg/kg) and regular-doses (1.0 and 3.0 mg/kg) fimasartan. These rats were treated for 30 days before the induction of collagenase-induced ICH and continuously 3 days after surgery. The mean blood pressure (BP) in the low-dose fimasartan group was not significantly different from that of control, and BP in the regular-dose groups",
+            "journal": "Experimental neurology",
+            "year": "2018",
+            "authors": [
+              "Yang Xiuli",
+              "Sun Jing",
+              "Kim Tae Jung",
+              "Kim Young-Ju",
+              "Ko Sang-Bae"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Brain Edema",
+              "Brain Injuries",
+              "Calcium-Binding Proteins",
+              "Cells, Cultured",
+              "Cerebral Hemorrhage",
+              "Cytokines",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30171865/"
+          },
+          {
+            "pmid": "26608500",
+            "title": "Anti-inflammatory effects of fimasartan via Akt, ERK, and NFκB pathways on astrocytes stimulated by hemolysate.",
+            "abstract": "The aim of this study was to investigate whether fimasartan, a novel angiotensin II receptor blocker, modulates hemolysate-induced inflammation in astrocytes.",
+            "journal": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
+            "year": "2016",
+            "authors": [
+              "Yang Xiu-Li",
+              "Kim Chi Kyung",
+              "Kim Tae Jung",
+              "Sun Jing",
+              "Rim Doeun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II Type 2 Receptor Blockers",
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Astrocytes",
+              "Biphenyl Compounds",
+              "Cells, Cultured",
+              "Cyclooxygenase 2",
+              "Extracellular Signal-Regulated MAP Kinases",
+              "Hemorrhage",
+              "I-kappa B Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26608500/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete susceptibility to ischemic stroke",
+        "txgnn_score": 0.8419145941734314,
+        "txgnn_rank": 39734,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain stem infarction",
+        "txgnn_score": 0.8137242197990417,
+        "txgnn_rank": 41205,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09279",
+    "name": "Fimasartan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fimasartan"
+      },
+      "queried_at": "2026-03-10T05:23:04.091774",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fimasartan"
+      },
+      "queried_at": "2026-03-10T05:23:05.863170",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T05:23:06.522949",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T05:23:12.799469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T05:23:13.854409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T05:23:15.054676",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T05:23:18.909553",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T05:23:22.103129",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-10T05:23:22.654553",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-10T05:23:25.801629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "queried_at": "2026-03-10T05:23:26.550242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T05:23:27.319228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T05:23:29.984321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T05:23:30.801078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-10T05:23:34.380020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-10T05:23:39.464238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "Braddock syndrome"
+      },
+      "queried_at": "2026-03-10T05:23:40.876084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:23:41.380581",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:23:44.723662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:23:45.588939",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-10T05:23:46.665652",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-10T05:23:49.784338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-10T05:23:51.940469",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "intracerebral hemorrhage"
+      },
+      "queried_at": "2026-03-10T05:23:52.478130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "intracerebral hemorrhage"
+      },
+      "queried_at": "2026-03-10T05:23:55.340706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "intracerebral hemorrhage"
+      },
+      "queried_at": "2026-03-10T05:23:58.585900",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T05:23:59.089323",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T05:24:03.260634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T05:24:03.888764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T05:24:05.360611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T05:24:09.108512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fimasartan",
+        "disease": "brain stem infarction"
+      },
+      "queried_at": "2026-03-10T05:24:09.830532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:24:09.845449"
+  }
+}

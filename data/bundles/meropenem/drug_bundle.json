@@ -1,0 +1,3150 @@
+{
+  "drug": {
+    "inn": "Meropenem",
+    "drugbank_id": "DB00760",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "bacterial arthritis",
+        "txgnn_score": 0.9992000460624696,
+        "txgnn_rank": 1633,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01371656",
+            "title": "A Randomized Trial of Levofloxacin to Prevent Bacteremia in Children Being Treated for Acute Leukemia (AL) or Undergoing Hematopoietic Stem Cell Transplantation (HSCT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-09",
+            "completion_date": "2017-06",
+            "country": "Canada, United States",
+            "enrollment": 624,
+            "brief_summary": "This randomized phase III trial studies how well levofloxacin works in preventing infection in young patients with acute leukemia receiving chemotherapy or undergoing stem cell transplant. Giving antibiotics may be effective in preventing or controlling early infection in patients receiving chemotherapy or undergoing stem cell transplant for acute leukemia. It is not yet known whether levofloxacin is effective in preventing infection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must fit 1 of the following 2 categories:\n\n  * Chemotherapy patients\n\n    * Planned to receive at least 2 consecutive cycles (not required to be the first 2 cycles) of intensive chemotherapy for either:\n\n      * De novo, relapsed or secondary acute myeloid leukemia (AM",
+            "endpoints": [
+              "Comparison of the Percentage of Patients Having Bacteremia Incidence Between Levofloxacin vs. No Prophylaxis Arms"
+            ],
+            "sponsor": "Children's Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT01371656"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "11869242",
+            "title": "Therapy of sepsis.",
+            "abstract": "The term 'sepsis' is often used synonymously with 'infection' or 'bacteremia'. Additional definitions, e.g. 'systemic inflammatory response syndrome', have been proposed. These terms have been employed to establish entry criteria for clinical trials of antibiotic therapy and adjunctive therapies. It may be appropriate to utilize these descriptions when initiating therapy of suspected bacterial infections, since culture confirmation is often not available for days after initial clinical presentation. Empiric antibiotic therapy is now the rule rather than the exception for febrile hospitalized patients. No antimicrobial agent is superior for all major clinical situations and thus history and physical examination are critical factors which guide the clinician. Guidelines have been derived for the initial empiric management of serious infection. While these were initially refined for the immunocompromized host, they may be considered generally applicable for the hospitalized patient with a",
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "1997",
+            "authors": [
+              "Young Lowell S."
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11869242/"
+          },
+          {
+            "pmid": "36804370",
+            "title": "Off-label use versus formal recommendations of conventional and novel antibiotics for the treatment of infections caused by multidrug-resistant bacteria.",
+            "abstract": "The infections caused by multidrug- and extensively drug-resistant (MDR, XDR) bacteria, including Gram-positive cocci (GPC, including methicillin-resistant Staphylococcus aureus, MDR-Streptococcus pneumoniae and vancomycin-resistant enterococci) and Gram-negative bacilli (GNB, including carbapenem-resistant [CR] Enterobacterales, CR-Pseudomonas aeruginosa and XDR/CR-Acinetobacter baumannii complex) can be quite challenging for physicians with respect to treatment decisions. Apart from complicated urinary tract and intra-abdominal infections (cUTIs, cIAIs), bloodstream infections and pneumonia, these difficult-to-treat bacteria also cause infections at miscellaneous sites (bones, joints, native/prosthetic valves and skin structures, etc.). Antibiotics like dalbavancin, oritavancin, telavancin and daptomycin are currently approved for the treatment of acute bacterial skin and skin structural infections (ABSSSIs) caused by GPC. Additionally, ceftaroline, linezolid and tigecycline have bee",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2023",
+            "authors": [
+              "Jean Shio-Shin",
+              "Liu I-Min",
+              "Hsieh Po-Chuen",
+              "Kuo Dai-Huang",
+              "Liu Yi-Lien"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Off-Label Use",
+              "Cephalosporins",
+              "Drug Resistance, Multiple, Bacterial",
+              "Carbapenems",
+              "Gram-Negative Bacteria",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36804370/"
+          },
+          {
+            "pmid": "35879738",
+            "title": "Oral dextran sulfate sodium administration induces peripheral spondyloarthritis features in SKG mice accompanied by intestinal bacterial translocation and systemic Th1 and Th17 cell activation.",
+            "abstract": "Spondyloarthritis (SpA) is an autoimmune and autoinflammatory musculoskeletal disease characterised by systemic enthesitis. Recent research has focused on subclinical inflammatory bowel disease (IBD) in SpA pathogenesis. SKG mice, harbouring the Zap70 W163C mutation, increase autoreactive Th17 cells intrinsically, and in a conventional environment, they exhibit spontaneous arthritis with fungal factors. Under SPF conditions, they show SpA features, including enteritis, after peritoneal injection of β-1,3-glucan. This study aimed to clarify whether oral dextran sulfate sodium (DSS) administration, utilised in IBD model mice, can provoke SpA features in SKG mice under SPF conditions, focusing on the relationship between gut microorganisms and SpA pathogenesis.",
+            "journal": "Arthritis research & therapy",
+            "year": "2022",
+            "authors": [
+              "Tabuchi Yuya",
+              "Katsushima Masao",
+              "Nishida Yuri",
+              "Shirakashi Mirei",
+              "Tsuji Hideaki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacterial Translocation",
+              "DNA, Bacterial",
+              "Dextran Sulfate",
+              "Disease Models, Animal",
+              "Humans",
+              "Inflammatory Bowel Diseases",
+              "Mice",
+              "Mice, Inbred BALB C"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35879738/"
+          },
+          {
+            "pmid": "38649034",
+            "title": "Effects of lung inflammation and injury on pulmonary tissue penetration of meropenem and vancomycin in a model of unilateral lung injury.",
+            "abstract": "The timing and dosing of antimicrobial therapy are key in the treatment of pneumonia in critically ill patients. It is uncertain whether the presence of lung inflammation and injury affects tissue penetration of intravenously administered antimicrobial drugs. The effects of lung inflammation and injury on tissue penetration of two antimicrobial drugs commonly used for pneumonia were determined in an established model of unilateral lung injury.",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2024",
+            "authors": [
+              "Geilen Johannes",
+              "Kainz Matthias",
+              "Zapletal Bernhard",
+              "Schweiger Thomas",
+              "Jäger Walter"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Meropenem",
+              "Vancomycin",
+              "Swine",
+              "Anti-Bacterial Agents",
+              "Lung",
+              "Lung Injury",
+              "Disease Models, Animal",
+              "Pneumonia",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38649034/"
+          },
+          {
+            "pmid": "36678359",
+            "title": "Effective Therapeutic Options for Melioidosis: Antibiotics versus Phage Therapy.",
+            "abstract": "Melioidosis, also known as Whitmore's disease, is a potentially fatal infection caused by the Gram-negative bacteria Burkholderia pseudomallei with a mortality rate of 10-50%. The condition is a \"glanders-like\" illness prevalent in Southeast Asian and Northern Australian regions and can affect humans, animals, and sometimes plants. Melioidosis received the epithet \"the great mimicker\" owing to its vast spectrum of non-specific clinical manifestations, such as localised abscesses, septicaemia, pneumonia, septic arthritis, osteomyelitis, and encephalomyelitis, which often lead to misdiagnosis and ineffective treatment. To date, antibiotics remain the backbone of melioidosis treatment, which includes intravenous therapy with ceftazidime or meropenem, followed by oral therapy with TMP-SMX or amoxicillin/clavulanic acid and supported by adjunctive treatment. However, bacteria have developed resistance to a series of antibiotics, including clinically significant ones, during treatment. There",
+            "journal": "Pathogens (Basel, Switzerland)",
+            "year": "2022",
+            "authors": [
+              "Lim Yue-Min",
+              "Vadivelu Jamuna",
+              "Mariappan Vanitha",
+              "Venkatraman Gopinath",
+              "Vellasamy Kumutha Malar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36678359/"
+          },
+          {
+            "pmid": "39681779",
+            "title": "Population Pharmacokinetics of Meropenem Across the Adult Lifespan.",
+            "abstract": "We conducted an opportunistic pharmacokinetic study to evaluate the population pharmacokinetics of meropenem, an antimicrobial commonly used to treat Gram-negative infections in adults of different ages, including older adults, and determined optimal dosing regimens.",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2025",
+            "authors": [
+              "Boutzoukas Angelique E",
+              "Balevic Stephen J",
+              "Hemmersbach-Miller Marion",
+              "Winokur Patricia L",
+              "Gu Kenan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Meropenem",
+              "Aged",
+              "Male",
+              "Middle Aged",
+              "Female",
+              "Anti-Bacterial Agents",
+              "Aged, 80 and over",
+              "Adult",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39681779/"
+          },
+          {
+            "pmid": "39288382",
+            "title": "Leptospirosis and melioidosis coinfection presenting as acute respiratory distress syndrome and osteomyelitis: Case report and systematic review.",
+            "abstract": "Leptospirosis and melioidosis are common in tropical and temperate climates and can be acquired by exposure to contaminated water and soil. However, concomitant leptospirosis and melioidosis infection is rarely described in the literature. We report a case of leptospirosis-melioidosis coinfection and systematically review the literature.",
+            "journal": "Journal of infection in developing countries",
+            "year": "2024",
+            "authors": [
+              "Panigrahi Manoj Kumar",
+              "Bal Shakti Kumar",
+              "Tripathy Tara Prasad",
+              "Moorthy Akshaya",
+              "Mohanty Swadesh Kumar"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Melioidosis",
+              "Male",
+              "Adult",
+              "Leptospirosis",
+              "Osteomyelitis",
+              "Coinfection",
+              "Anti-Bacterial Agents",
+              "Respiratory Distress Syndrome",
+              "Burkholderia pseudomallei"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39288382/"
+          },
+          {
+            "pmid": "38134096",
+            "title": "Campylobacter fetus-induced primary psoas abscess in patient with gouty arthritis: A case report and literature review.",
+            "abstract": "Campylobacter fetus is rare pathogen with high mortality rate in immunosuppressive hosts. This study aimed to summarize clinical and pathological presentation of C fetus induced psoas abscess.",
+            "journal": "Medicine",
+            "year": "2023",
+            "authors": [
+              "Luo Xiaodong",
+              "He Yanfang",
+              "Zha Daogang",
+              "Kang Chunyu",
+              "Sijie Yuan"
+            ],
+            "pub_types": [
+              "Review",
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Aged",
+              "Campylobacter fetus",
+              "Psoas Abscess",
+              "Meropenem",
+              "Low Back Pain",
+              "Arthritis, Gouty"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38134096/"
+          },
+          {
+            "pmid": "38139869",
+            "title": "Uncommon Septic Arthritis of the Hip Joint in an Immunocompetent Adult Patient Due to Bacillus pumilus and Paenibacillus barengoltzii Managed with Long-Term Treatment with Linezolid: A Case Report and Short Literature Review.",
+            "abstract": "The Bacillus and Paenibacillus genera are diverse soil-related bacterial pathogens. In this case report, we describe, to our knowledge, the first report of septic arthritis in a native hip joint in an immunocompetent adult patient caused by Bacillus pumilus and Paenibacillus barengoltzii. We describe the case of a 39-year-old Caucasian male patient who sought medical advice for chronic pain on the mobilization of the right hip, decreased range of motion, and physical asthenia. The patient underwent a surgical intervention (core decompression) for a right osteonecrosis of the femoral head, with a slightly favorable postoperative evolution after surgery for one month. Surgical treatment was planned on the basis of clinical and paraclinical investigations and the joint damage. The hip was explored using an anterior approach under spinal anesthesia and standard antibiotic prophylaxis. After resection of the femoral head, meticulous debridement of all inflammatory tissues was performed, and",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Cismasiu Razvan Silviu",
+              "Birlutiu Rares-Mircea",
+              "Preoțescu Liliana Lucia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38139869/"
+          },
+          {
+            "pmid": "38808002",
+            "title": "Streptococcus suis meningitis in China: a case report.",
+            "abstract": "Streptococcus suis is one of the porcine pathogens that have recently emerged as a pathogen capable of causing zoonoses in some humans. Patients infected with S. suis can present with sepsis, meningitis, or arthritis. Compared to common pathogens, such as Meningococcus, Streptococcus pneumoniae, and Haemophilus influenzae, S. suis infections in humans have been reported only rarely.",
+            "journal": "Frontiers in public health",
+            "year": "2024",
+            "authors": [
+              "Liu Tiantian",
+              "Liu Hengfang",
+              "Jia Yanjie"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Streptococcus suis",
+              "Male",
+              "Middle Aged",
+              "Streptococcal Infections",
+              "China",
+              "Meningitis, Bacterial",
+              "Anti-Bacterial Agents",
+              "Sepsis",
+              "Hearing Loss, Sudden"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38808002/"
+          },
+          {
+            "pmid": "35146367",
+            "title": "Osteoarticular melioidosis: a retrospective cohort study of a neglected disease.",
+            "abstract": "Patients with melioidosis can present with a combination of fever, respiratory distress and focal involvement. Focal involvement of bone and joint is, however, rare in patients with melioidosis. This study aimed to characterize patients with osteoarticular melioidosis.",
+            "journal": "Le infezioni in medicina",
+            "year": "2021",
+            "authors": [
+              "Gupta Nitin",
+              "Bhat Shyamasunder N",
+              "Reddysetti Suhas",
+              "Kadavigere Rajagopal",
+              "Godkhindi Vishwapriya M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35146367/"
+          },
+          {
+            "pmid": "40119266",
+            "title": "A case of septic shock caused by drug-resistant Edwardsiella tarda and literature review.",
+            "abstract": "Edwardsiella tarda (E. tarda) causes highly mortality, which is rare in septic patients. We herein reported a case of septic shock caused by drug-resistant E. tarda.",
+            "journal": "BMC infectious diseases",
+            "year": "2025",
+            "authors": [
+              "Zhou Yan",
+              "Ren De",
+              "Li Yin",
+              "Gui Shuiqing"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Shock, Septic",
+              "Female",
+              "Edwardsiella tarda",
+              "Adult",
+              "Enterobacteriaceae Infections",
+              "Anti-Bacterial Agents",
+              "Microbial Sensitivity Tests",
+              "Drug Resistance, Multiple, Bacterial",
+              "Piperacillin, Tazobactam Drug Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40119266/"
+          },
+          {
+            "pmid": "39489417",
+            "title": "Musculoskeletal melioidosis-a retrospective review of 22 cases from a tertiary care centre in South Tamilnadu.",
+            "abstract": "A retrospective review of culture confirmed musculoskeletal melioidosis reported between December 2014 and February 2024 was conducted. 22 of 100 patients with culture proven melioidosis infection had musculoskeletal involvement. Median age was 47 years with 95.4 % being males. Osteomyelitis, septic arthritis and septic arthritis along with adjacent osteomyelitis were observed in 12, 9 and 4 cases respectively. All isolates were susceptible to meropenem and susceptible increased exposure to ceftazidime, doxycycline and cotrimoxazole. Twelve patients underwent surgical procedures. Four patients who died due to septicemia had multisystem involvement with positive blood cultures.",
+            "journal": "Indian journal of medical microbiology",
+            "year": "2024",
+            "authors": [
+              "Vithiya G",
+              "Rajalakshmi Preethi G",
+              "Shunmuga Sundaram P",
+              "Rajendran T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Melioidosis",
+              "Male",
+              "Retrospective Studies",
+              "Tertiary Care Centers",
+              "Middle Aged",
+              "Female",
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Osteomyelitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39489417/"
+          },
+          {
+            "pmid": "39193962",
+            "title": "Analysis of Pathogen Distribution and Antimicrobial Resistance in Bone and Joint Infections Among Young Children.",
+            "abstract": "This study aimed to analyze the distribution of pathogens and antimicrobial resistance in bone and joint infections (BJIs) among children under four years old.",
+            "journal": "Clinical laboratory",
+            "year": "2024",
+            "authors": [
+              "Chen Xingguang",
+              "Zhuang Ting",
+              "Zou Chengda",
+              "Liu Yao",
+              "Sun Qian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child, Preschool",
+              "Retrospective Studies",
+              "Infant",
+              "Male",
+              "Female",
+              "Anti-Bacterial Agents",
+              "Microbial Sensitivity Tests",
+              "Drug Resistance, Bacterial",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39193962/"
+          },
+          {
+            "pmid": "35837082",
+            "title": "Infectious Endocarditis Caused by Pseudomona aeruginosa on Bicuspid Aortic Valve.",
+            "abstract": "We report the case of a 53-year-old man with psoriatic arthritis, suffering from a malignant and recidivant myoepithelioma in his right axilla and arm, and undergoing two surgeries, with the last one being performed a month prior to actual admission. After the last surgery, he was admitted to hospital with fever without a source. After physical examination, laboratory tests, blood cultures and transthoracic and transesophageal echocardiography, he was diagnosed with infectious endocarditis (IE) on a bicuspid aortic valve (BAV) caused by Pseudomona aeruginosa (PA). Antibiogram-guided antibiotic therapy with meropenem and tobramicin was initiated. However, in the presence of repetitive spleen infarctions and a large vegetation, 12 days after admission, a bioprosthesis aortic valve implantation was performed. The postsurgical evolution was favorable and prolonged antibiotic course with meropenem and tobramicin was completed. The pathological anatomy and the native valve cultured confirmed",
+            "journal": "Journal of medical cases",
+            "year": "2022",
+            "authors": [
+              "Lacalzada-Almeida Juan",
+              "Izquierdo-Gomez Maria Manuela",
+              "Duque-Gonzalez Amelia",
+              "Alonso-Socas Maria Del Mar",
+              "Munoz-Rodriguez Rebeca"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35837082/"
+          },
+          {
+            "pmid": "27239799",
+            "title": "Rapid Identification of Klebsiella pneumoniae by Matrix-Assisted Laser Desorption/Ionization-Time of Flight Mass Spectrometry and Detection of Meropenem Resistance by Flow Cytometric Assay.",
+            "abstract": "The aim of this study was to develop a rapid detection method of carbapenem-resistant Klebsiella pneumoniae (CRKP) strains both MALDI-TOF MS and flow cytometry (FCM).",
+            "journal": "Journal of clinical laboratory analysis",
+            "year": "2016",
+            "authors": [
+              "Kilic Abdullah",
+              "Dogan Eyup",
+              "Kaya Sinem",
+              "Oren Sema",
+              "Tok Duran"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Female",
+              "Flow Cytometry",
+              "Humans",
+              "Klebsiella Infections",
+              "Klebsiella pneumoniae",
+              "Male",
+              "Meropenem",
+              "ROC Curve",
+              "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27239799/"
+          },
+          {
+            "pmid": "2808217",
+            "title": "Bacteriostatic and bactericidal in-vitro activity of meropenem against clinical isolates, including Mycobacterium avium complex.",
+            "abstract": "For clinical isolates the MICs of meropenem were significantly lower than the MICs of imipenem, especially against Pseudomonas aeruginosa. Furthermore, meropenem was bactericidal for Pseudomonas spp., including Ps. (Xanthomonas) maltophilia, and staphylococci, with MBCs on average only two-fold above the respective MICs. The bactericidal activity was confirmed by killing curve assays. Strains with high meropenem MICs (greater than or equal to 8 mg/l) were killed by a combination of the carbapenem and amikacin, with kinetics that indicated synergism between the two antimicrobial agents.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1989",
+            "authors": [
+              "Inderlied C B",
+              "Lancero M G",
+              "Young L S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Amikacin",
+              "Bacteria",
+              "Bacterial Infections",
+              "Carbapenems",
+              "Drug Synergism",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Meropenem",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2808217/"
+          },
+          {
+            "pmid": "31319190",
+            "title": "Colistin-containing cement spacer for treatment of experimental carbapenemase-producing Klebsiella pneumoniae prosthetic joint infection.",
+            "abstract": "Carbapenemase-producing Enterobacteriaceae (CPE) are emerging multidrug-resistant bacteria responsible for invasive infections, including prosthetic joint infections (PJIs). Local administration of colistin may provide bactericidal concentrations in situ. This study evaluated the efficacy of a colistin-impregnated cement spacer, alone and in combination with systemic antibiotics, in a rabbit model of CPE-PJI. Elution of 3 MIU of colistimethate sodium (CMS) in 40 g of poly(methyl methacrylate) cement was studied in vitro. In vivo, 5 × 108 CFU of KPC-producing Klebsiella pneumoniae (colistin and meropenem MICs of 1 mg/L and 4 mg/L, respectively) were injected close to a prosthetic knee. Surgical debridement and prosthesis removal were performed 7 days later, and rabbits were assigned to six treatment groups (11-13 rabbits each): drug-free spacer; colistin-loaded spacer; colistin intramuscular (i.m.); colistin i.m. + colistin spacer; colistin i.m. + meropenem subcutaneous (s.c.); and coli",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2019",
+            "authors": [
+              "Gatin L",
+              "Mghir A Saleh",
+              "Mouton W",
+              "Laurent F",
+              "Ghout I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Arthritis",
+              "Carbapenem-Resistant Enterobacteriaceae",
+              "Colistin",
+              "Debridement",
+              "Disease Models, Animal",
+              "Female",
+              "Injections, Intra-Articular",
+              "Injections, Intramuscular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31319190/"
+          },
+          {
+            "pmid": "37713001",
+            "title": "Developing an antibiogram for empiric antibiotic prescribing for adult non-spinal orthopaedic infections in a developing world setting.",
+            "abstract": "Empiric antibiotic strategies in the treatment of fracture-related infections, chronic osteomyelitis, prosthetic joint infection, and septic arthritis should be based on local microbiological antibiograms. This study aims to describe the microbiology and review the antibiogram profiles of bacterial isolates from patients undergoing surgical treatment for non-spinal orthopaedic infections, to identify the most appropriate empiric antibiotic strategy.",
+            "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+            "year": "2024",
+            "authors": [
+              "Arakkal Ashley",
+              "Centner Chad M",
+              "Hilton Thomas",
+              "Nortje Marc",
+              "Held Michael"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Vancomycin",
+              "Orthopedics",
+              "Osteomyelitis",
+              "Arthritis, Infectious",
+              "Microbial Sensitivity Tests",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37713001/"
+          },
+          {
+            "pmid": "33857030",
+            "title": "Thermal Stability and in Vitro Elution Kinetics of Alternative Antibiotics in Polymethylmethacrylate (PMMA) Bone Cement.",
+            "abstract": "Amikacin, meropenem, minocycline, and fosfomycin have potential clinical utility for orthopaedic infections; however, their suitability for use in polymethylmethacrylate (PMMA) is poorly understood. The purpose of this study was (1) to quantify the thermal stability of these antibiotics at clinically relevant temperatures and (2) to determine the elution pharmacodynamics of these alternative antibiotics in vitro from PMMA beads of different sizes.",
+            "journal": "The Journal of bone and joint surgery. American volume",
+            "year": "2021",
+            "authors": [
+              "Levack Ashley E",
+              "Turajane Kathleen",
+              "Yang Xu",
+              "Miller Andy O",
+              "Carli Alberto V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acinetobacter baumannii",
+              "Amikacin",
+              "Anti-Bacterial Agents",
+              "Bone Cements",
+              "Drug Stability",
+              "Fosfomycin",
+              "Kinetics",
+              "Meropenem",
+              "Microbial Sensitivity Tests",
+              "Polymethyl Methacrylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33857030/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottitis",
+        "txgnn_score": 0.9991365075111388,
+        "txgnn_rank": 1742,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39610630",
+            "title": "Candida Epiglottitis in a Patient Undergoing Chemotherapy for Small Cell Lung Cancer: A Case Report.",
+            "abstract": "Epiglottitis is a critical infection that can result in upper airway obstruction. While bacterial infections are the most common cause of acute epiglottitis, Candida epiglottitis remains relatively rare. We report a case involving an 82-year-old male undergoing chemotherapy for small cell lung cancer. The patient had a history of chronic obstructive pulmonary disease, which was managed with long-term inhaled corticosteroids. On the 10th day after receiving amrubicin and pegfilgrastim, he developed fever and a sore throat, presenting to the clinic the following day. Clinical examination revealed white patches on the palate, a muffled voice, and inspiratory wheezing. Laboratory tests indicated severe neutropenia. Laryngoscopy confirmed epiglottic swelling with white pseudomembranes, leading to a diagnosis of Candida epiglottitis. The patient was hospitalized and treated with intravenous micafungin and meropenem, along with amphotericin B gargles. Symptoms improved rapidly, with the resol",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Kushima Natsumi",
+              "Yanagihara Toyoshi",
+              "Ikeda Takato",
+              "Chen Maiya",
+              "Hamada Naoki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39610630/"
+          },
+          {
+            "pmid": "34404462",
+            "title": "Beta-lactamase-negative ampicillin-resistant Haemophilus influenzae type b meningitis in partially immunized immunocompetent child: a case report.",
+            "abstract": "Haemophilus influenzae is a Gram-negative coccobacillus that can cause many different kinds of infection, ranging from mild ear infection to life-threatening diseases like epiglottitis and meningitis. Encapsulated type b Haemophilus influenzae was most commonly responsible for Haemophilus influenzae meningitis in children before introduction of Haemophilus influenzae conjugate vaccine. None or partially immunized children are acquiring meningitis owing to resistant strains of Haemophilus influenzae, namely beta-lactamase-negative ampicillin-resistant strain.",
+            "journal": "Journal of medical case reports",
+            "year": "2021",
+            "authors": [
+              "Qureshi Majid Ali",
+              "Asad Imran",
+              "Chaudhary Adeel",
+              "Abuhammour Walid"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ampicillin",
+              "Anti-Bacterial Agents",
+              "Child, Preschool",
+              "Haemophilus influenzae type b",
+              "Humans",
+              "Male",
+              "Meningitis",
+              "Meningitis, Haemophilus",
+              "beta-Lactamases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34404462/"
+          },
+          {
+            "pmid": "21404603",
+            "title": "[Antibiotic susceptibility to parental antibiotics and penicillin-binding-protein genotype in Haemophilus influenzae isolated from children with invasive infection].",
+            "abstract": "The minimum inhibitory concentation (MIC) and minimum bactericidal concentration (MBC) of 8 parental antibiotics were determined using 21 strains of Haemophilus influenzae from 21 children with invasive H. influenzae infection in 2006-2009. Children were from 4 months to 12 years, with 18 (85.7%) under 1 year old. Diagnosies involved meningitis or pneumonia in 7 (33.3%); epiglottitis, phlegmon, or arthritis in 2 each (9.5%), and occult bacteremia in 1 (4.8%). The capsule type was b (Hib) in 19 (90.5%). Classified by penicillin binding protein (PBP) gene mutation, strains were classified into (i) 6 beta-lactamase negative ampicillin resistant (BLNAR) (28.6%), (ii) 5 low-BLNAR (23.8%), (iii) 4 beta-lactamase positive clavulanic acid/amoxicillin resistant-II (19.0%), (iv) 2 beta-lactamase positive ampicillin resistant (9.5%), and (v) 4 beta-lactamase negative ampicillin susceptible (19.0%). Compared to a 2003-2005 survey, the number of sensitive strains had decreased significantly (p < 0.",
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "2011",
+            "authors": [
+              "Sakata Hiroshi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Child",
+              "Child, Preschool",
+              "Drug Resistance, Bacterial",
+              "Haemophilus Infections",
+              "Haemophilus influenzae",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21404603/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "staphylococcus aureus infection",
+        "txgnn_score": 0.9984682202339172,
+        "txgnn_rank": 2803,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06634940",
+            "title": "International Surveillance of Antimicrobial Resistance in Cirrhosis-Related Infections",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2020-11-15",
+            "completion_date": "2031-06-01",
+            "country": "Argentina",
+            "enrollment": 1000,
+            "brief_summary": "What is this study about?\n\nThis study tracks antibiotic resistance in patients with cirrhosis who develop bacterial infections. Cirrhosis is a condition where the liver is severely scarred, and people with cirrhosis are at high risk for serious bacterial infections.\n\nWhy is this study important?\n\nBacterial infections are common in patients with cirrhosis, affecting 25-46% of those who are hospitalized. These infections can be life-threatening, with 1 in 4 patients dying from complications. Many ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Episodes of culture-confirmed bacterial infections\n* Patients diagnosed with cirrhosis\n* Infections diagnosed either at the time of hospital admission or during hospitalization\n\nExclusion Criteria:\n\n* History of solid organ or hematopoietic stem cell transplantation\n* Declined",
+            "endpoints": [
+              "Proportion of multidrug-resistant organisms",
+              "Proportion of extensively drug-resistant microorganisms",
+              "Proportion of pan drug-resistant microorganisms"
+            ],
+            "sponsor": "Hospital Italiano de Buenos Aires",
+            "url": "https://clinicaltrials.gov/study/NCT06634940"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06044272",
+            "title": "Antimicrobial Resistance Profiles in Healthcare Facilities From Meta State, Colombia: A Retrospective Observational Study From 2018-2022",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2023-09-01",
+            "completion_date": "2024-06-30",
+            "country": "Colombia",
+            "enrollment": 10000,
+            "brief_summary": "Introduction: Healthcare-associated infections cause a burden in morbidity and mortality, and they increase the financial cost of care. Nevertheless, they are not limited to setting factors, and several community conditions and contexts are linked. Clinical laboratories from hospitals report monthly to the Public Health Laboratory.\n\nObjective: The study aims to establish the antimicrobial resistance profile of the most significant bacteria involved in healthcare-associated infections in Meta Sta",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All records with results from microbial isolation and antimicrobial resistance profile.\n\nExclusion Criteria:\n\n* Records of quality control; no information on resistance or susceptibility.",
+            "endpoints": [
+              "Number of microorganisms resistant to the antimicrobial"
+            ],
+            "sponsor": "Hospital Departamental de Villavicencio",
+            "url": "https://clinicaltrials.gov/study/NCT06044272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03218397",
+            "title": "Rapid Identification and Phenotypic Susceptibility Testing for Gram-Negative Bacteremia (RAPIDS-GN)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-10-09",
+            "completion_date": "2018-11-30",
+            "country": "United States",
+            "enrollment": 500,
+            "brief_summary": "RAPIDS-GN is a multi-center, prospective, randomized, controlled trial to evaluate the following strategies for patients with confirmed gram-negative bacillus bacteremia (GNB):\n\n1. Standard culture and antimicrobial susceptibility testing (AST); or\n2. Rapid identification and AST using the Accelerate PhenoTest™ BC Kit, performed on the Accelerate Pheno™ System (AXDX)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Positive blood culture with Gram stain showing GNB identified during local laboratory business hours.\n\nExclusion Criteria:\n\n* Identification of GNB outside of local laboratory business hours (e.g. whenever laboratories are staffed to perform both rapid testing and routine test",
+            "endpoints": [
+              "Hours to First Antibiotic Modification"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT03218397"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06174649",
+            "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-12-22",
+            "completion_date": "2025-06-18",
+            "country": "Greece, Israel, India, Spain",
+            "enrollment": 900,
+            "brief_summary": "This study is a 2-arm, multicenter, multinational, prospective, randomized, controlled clinical trial. Hospitalized subjects with blood cultures growing Gram negative bacilli (GNB) will be randomized 1:1 to have the positive blood cultures characterized using standard of care (SOC) antimicrobial susceptibility testing (AST) vs. a rapid AST method known as Reveal™ in addition to SOC AST. The purpose of the FAST trial is to evaluate whether use of a rapid phenotypic AST improves clinical outcomes ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Positive blood culture with Gram stain showing GNB\n2. Hospitalized at the time of Gram stain result\n3. Enrolled within 16 hours of blood culture positivity\n\nExclusion Criteria:\n\n1. Positive blood culture for GNB within the prior 7 days (if known at the time of Gram stain resu",
+            "endpoints": [
+              "Subject Clinical Outcomes, as measured by Desirability of Outcome Ranking (DOOR)"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT06174649"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05786495",
+            "title": "Early Discontinuation of Antibiotics for Unexplained Febrile Neutropenia: a Pilot Randomized Controlled Trial- EASE ANTIBIOTICS Pilot Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-10-01",
+            "completion_date": "2026-02-28",
+            "country": "Canada",
+            "enrollment": 80,
+            "brief_summary": "Infections are a common complication in patients with cancer. They are a significant cause of complications and death in this population. Patients with cancer and low neutrophil counts due to chemotherapy or disease often have a fever and receive antibiotic treatment. The optimal duration of this treatment is largely unknown. Late, there have been some data suggesting the safety of early discontinuation of antibiotics, though most centers still give more prolonged antibiotic therapies in this si",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 years and older.\n2. The patient either has acute leukemia (AML, ALL or mixed-phenotypic acute leukemia) and is undergoing induction, re-induction or salvage chemotherapy or undergoing allogeneic HSCT and receiving conditioning chemotherapy and/or radiation.\n3. Document",
+            "endpoints": [
+              "Recruitment",
+              "Adherence",
+              "Complete outcome data"
+            ],
+            "sponsor": "University Health Network, Toronto",
+            "url": "https://clinicaltrials.gov/study/NCT05786495"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02449031",
+            "title": "A Prospective Observational Study in Cystic Fibrosis Patients With Chronic Respiratory Pseudomonas Aeruginosa Infection Treated With TOBI® PODHALER® (Tobramycin Inhalation Powder) or Other FDA Approved Inhaled Antipseudomonal Antibacterial Drugs",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-05-05",
+            "completion_date": "2021-12-31",
+            "country": "United States",
+            "enrollment": 409,
+            "brief_summary": "This is a multicenter, prospective, two cohort, observational study over a 5-year period in Cystic Fibrosis (CF) patients with chronic Pseudomonas aeruginosa infection.The study will collect data over 1 year on respiratory function, antibacterial effectiveness, and clinical outcomes of treatment with inhaled antipseudomonal antibiotics and data over 5 years on microbiological and safety assessments.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥ 6 years of age.\n* Documented FEV1 ≥ 25% predicted in the previous year.\n* Diagnosis of cystic fibrosis.\n* Established diagnosis of chronic P. aeruginosa infection of the lungs defined as two or more positive P. aeruginosa cultures in the previous year as documented in the su",
+            "endpoints": [
+              "Absolute change in forced expiratory volume in one second (FEV1) percent predicted from baseline.",
+              "Absolute change from baseline in the number of P. aeruginosa colony forming units in sputum.",
+              "Minimum inhibitory concentration (MIC) of tobramycin and the following antipseudomonal antibacterial drugs (meropenem, imipenem, ceftazidime, aztreonam and ciprofloxacin) for P. aeruginosa sputum isolates in both treatment cohorts."
+            ],
+            "sponsor": "Viatris Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02449031"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03481569",
+            "title": "Population Pharmacokinetic-pharmacodynamic (PK-PD) Study of 9 Broad-Spectrum Anti-infective Agents in the Cerebro Spinal Fluid (CSF) of Brain Injured Patients With an External Ventricular Drainage (EVD).",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2018-07-06",
+            "completion_date": "2023-07-06",
+            "country": "France",
+            "enrollment": 176,
+            "brief_summary": "Nosocomial Central Nervous System infections are difficult to treat and an early appropriate therapy can improve prognosis. The two main reasons for treatments failure are the difficulty to reach high concentrations of antibiotics (ATB) in CNS because of brain barriers (BB), and the emergence of Multi-Drug-Resistant (MDR) pathogens that require high ATB concentrations for being killed. Therefore a better knowledge of ATB CNS distribution and PK-PD characteristics is essential for efficiency of t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Brain injury patients requiring intensive care management with external ventricular drainage\n* Age ≥18 years old\n* Patient with a CNS or other site infection treated with one or several of the ATB of the study\n* Signed informed consent of the patient or the close friend / fami",
+            "endpoints": [
+              "CSF-to-plasma area under the unbound concentration-time curve for each antibiotic"
+            ],
+            "sponsor": "Poitiers University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03481569"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35663325",
+            "title": "Microbial Infection and Antibiotic Susceptibility of Diabetic Foot Ulcer in China: Literature Review.",
+            "abstract": "To investigate the microbial spectrum isolated from foot ulcers among diabetic patients in China, which was conducted to help clinicians choose optimal antibiotics empirically.",
+            "journal": "Frontiers in endocrinology",
+            "year": "2022",
+            "authors": [
+              "Du Fang",
+              "Ma Jing",
+              "Gong Hongping",
+              "Bista Raju",
+              "Zha Panpan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Diabetes Mellitus",
+              "Diabetic Foot",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35663325/"
+          },
+          {
+            "pmid": "19527173",
+            "title": "Doripenem.",
+            "abstract": "Carbapenems play a significant role in the current antibiotic armamentarium. Doripenem is the newest carbapenem to be commercially released. Its antimicrobial spectrum more closely resembles those of meropenem and imipenem than that of ertapenem. Thus, it has significant in vitro activity against streptococci, methicillin-susceptible staphylococci, Enterobacteriaceae (including extended-spectrum beta-lactamase-producing strains), Pseudomonas aeruginosa, Acinetobacter species, and Bacteroides fragilis. Doripenem does not have clinically useful activity against methicillin-resistant Staphylococcus aureus, vancomycin-resistant enterococci, and the majority of gram-negative bacilli that are resistant to meropenem or imipenem. In vitro, resistant P. aeruginosa mutants appear to be harder to select with doripenem than with other carbapenems. Doripenem has been approved for use in treatment of complicated intra-abdominal infection and complicated urinary tract infection. Studies of hospital-a",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2009",
+            "authors": [
+              "Paterson David L",
+              "Depestel Daryl D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Carbapenems",
+              "Doripenem",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Peritonitis",
+              "Pneumonia, Bacterial",
+              "Seizures",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19527173/"
+          },
+          {
+            "pmid": "36289936",
+            "title": "Eradication of Staphylococcus aureus Biofilm Infection by Persister Drug Combination.",
+            "abstract": "Staphylococcus aureus can cause a variety of infections, including persistent biofilm infections, which are difficult to eradicate with current antibiotic treatments. Here, we demonstrate that combining drugs that have robust anti-persister activity, such as clinafloxacin or oritavancin, in combination with drugs that have high activity against growing bacteria, such as vancomycin or meropenem, could completely eradicate S. aureus biofilm bacteria in vitro. In contrast, single or two drugs, including the current treatment doxycycline plus rifampin for persistent S. aureus infection, failed to kill all biofilm bacteria in vitro. In a chronic persistent skin infection mouse model, we showed that the drug combination clinafloxacin + meropenem + daptomycin which killed all biofilm bacteria in vitro completely eradicated S. aureus biofilm infection in mice while the current treatments failed to do so. The complete eradication of biofilm bacteria is attributed to the unique high anti-persist",
+            "journal": "Antibiotics (Basel, Switzerland)",
+            "year": "2022",
+            "authors": [
+              "Yee Rebecca",
+              "Yuan Yuting",
+              "Tarff Andreina",
+              "Brayton Cory",
+              "Gour Naina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36289936/"
+          },
+          {
+            "pmid": "36008695",
+            "title": "Meropenem-Loaded Nanostructured Lipid Carriers For Skin and Soft Tissue Infection Caused by Staphylococcus aureus: Formulation, Design, and Evaluation.",
+            "abstract": "Meropenem hydrochloride (MpM)-loaded nanostructured lipid carriers were designed for the effective management of skin infection caused by Staphylococcus aureus via topical route. The solvent evaporation tactic was preferred to develop nanostructured lipid carriers (NLCs). Stearic acid was used as a solid fatty acid; oleic acid was used as liquid fatty acid and Tween 80 as a surfactant. The Staphylococcus aureus burden was analyzed by pharmacodynamic studies. The skin retention was analyzed by fluorescence microscopy. Spherical shape of NLCs was confirmed by TEM. The optimum particle size of the MpM-NLCs was ~ 126.5 ± 0.9 nm with 79.1 ± 2.3% entrapment (EE) and 0.967 mV zeta potential. The in vitro release studies revealed 81.5 ± 3.1% release of drug in 48 h, while the pure drug was almost completely released (98.4 ± 1.4%) within 24 h confirming the potential of NLCs for sustained topical drug delivery. Skin permeation study also revealed better permeation of drug from NLCs than of plai",
+            "journal": "AAPS PharmSciTech",
+            "year": "2022",
+            "authors": [
+              "Rajpoot Kshipra",
+              "Prajapati Shiv Kumar",
+              "Malaiya Akanksha",
+              "Jain Richa",
+              "Jain Aakanchha"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Drug Carriers",
+              "Humans",
+              "Meropenem",
+              "Nanostructures",
+              "Oleic Acid",
+              "Particle Size",
+              "Soft Tissue Infections",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36008695/"
+          },
+          {
+            "pmid": "35294769",
+            "title": "Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.",
+            "abstract": "Sulopenem (formerly known as CP-70,429, and CP-65,207 when a component of a racemic mixture with its R isomer) is an intravenous and oral penem that possesses in vitro activity against fluoroquinolone-resistant, extended spectrum β-lactamases (ESBL)-producing, multidrug-resistant (MDR) Enterobacterales. Sulopenem is being developed to treat patients with uncomplicated and complicated urinary tract infections (UTIs) as well as intra-abdominal infections. This review will focus mainly on its use in UTIs. The chemical structure of sulopenem shares properties of penicillins, cephalosporins, and carbapenems. Sulopenem is available as an oral prodrug formulation, sulopenem etzadroxil, which is hydrolyzed by intestinal esterases, resulting in active sulopenem. In early studies, the S isomer of CP-65,207, later developed as sulopenem, demonstrated greater absorption, higher drug concentrations in the urine, and increased stability against the renal enzyme dehydropeptidase-1 compared with the R",
+            "journal": "Drugs",
+            "year": "2022",
+            "authors": [
+              "Zhanel George G",
+              "Pozdirca Marianna",
+              "Golden Alyssa R",
+              "Lawrence Courtney K",
+              "Zelenitsky Sheryl"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Guinea Pigs",
+              "Humans",
+              "Male",
+              "Mice",
+              "Anti-Bacterial Agents",
+              "Bacteriuria",
+              "beta-Lactamases",
+              "Carbapenems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35294769/"
+          },
+          {
+            "pmid": "35213810",
+            "title": "Staphylococcus aureus in Non-Cystic Fibrosis Bronchiectasis: Prevalence and Genomic Basis of High Inoculum β-Lactam Resistance.",
+            "abstract": "Rationale: The pathobiology of Staphylococcus aureus in non-cystic fibrosis bronchiectasis (nCFB) is poorly defined. When present at high density or \"inoculum,\" some methicillin-sensitive S. aureus (MSSA) can inefficiently degrade antistaphylococcal β-lactam antibiotics via BlaZ penicillinases (termed the \"inoculum effect\" [IE]). Given the high burden of organisms in bronchiectatic airways, this is particularly relevant. Objectives: Drawing from a prospectively collected biobank, we sought to understand the prevalence, natural history, potential for transmission, and antibiotic resistance profiles among nCFB-derived MSSA isolates. Methods: All individuals attending a regional consultancy nCFB clinic with sputum collected between 1981 and 2017 were considered, and those with one or more S. aureus-positive cultures composed the cohort. Each individual's most recent biobank isolate was subjected to whole-genome sequencing (including the blaZ gene), antibacterial susceptibility testing, an",
+            "journal": "Annals of the American Thoracic Society",
+            "year": "2022",
+            "authors": [
+              "Mossman Alexandra K",
+              "Svishchuk Julianna",
+              "Waddell Barbara Jean M",
+              "Izydorczyk Conrad S",
+              "Buckley Peter T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bronchiectasis",
+              "Cefazolin",
+              "Female",
+              "Fibrosis",
+              "Genomics",
+              "Humans",
+              "Male",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35213810/"
+          },
+          {
+            "pmid": "38613443",
+            "title": "Fabrication and antimicrobial properties of novel meropenem-honey encapsulated chitosan nanoparticles against multiresistant and biofilm-forming Staphylococcus aureus as a new antimicrobial agent.",
+            "abstract": "Honey exhibits a broad spectrum of antibacterial activity against Gram-positive and Gram-negative bacteria, including methicillin-resistant Staphylococcus aureus (MRSA) ones. Chitosan (Cs) is a mucoadhesive polymer that also has antibacterial properties. Special attention has been paid to the design of polymeric nanoparticles (NPs) as new nano drug delivery systems to overcome bacterial resistance and its problems.",
+            "journal": "Veterinary medicine and science",
+            "year": "2024",
+            "authors": [
+              "Hajimohammadi Sameh",
+              "Momtaz Hassan",
+              "Tajbakhsh Elahe"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Meropenem",
+              "Staphylococcus aureus",
+              "Anti-Bacterial Agents",
+              "Chitosan",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "HEK293 Cells",
+              "Honey",
+              "Gram-Negative Bacteria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38613443/"
+          },
+          {
+            "pmid": "40186104",
+            "title": "Potential interactions between vancomycin and meropenem in culture-negative periprosthetic joint infection: an in vitro study.",
+            "abstract": "Culture-negative periprosthetic joint infections (CN-PJIs) represent a critical subtype of PJI, and their high prevalence poses substantial challenges for treatment. CN-PJI is commonly managed utilizing antibiotic combinations, however, the interactions between these antibiotics have not been investigated. The aim of study was to investigate the synergistic and antagonistic effects of vancomycin (VAN) and meropenem (MEM), in an in vitro model of CN-PJI.",
+            "journal": "BMC microbiology",
+            "year": "2025",
+            "authors": [
+              "Yao Liqin",
+              "Ma Youcai",
+              "Liu Rui",
+              "Li Yicheng",
+              "Sun Xuebin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Vancomycin",
+              "Meropenem",
+              "Anti-Bacterial Agents",
+              "Microbial Sensitivity Tests",
+              "Biofilms",
+              "Prosthesis-Related Infections",
+              "Staphylococcus aureus",
+              "Staphylococcus epidermidis",
+              "Escherichia coli",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40186104/"
+          },
+          {
+            "pmid": "37966229",
+            "title": "Epidemiology and impact of methicillin-sensitive Staphylococcus aureus with β-lactam antibiotic inoculum effects in adults with cystic fibrosis.",
+            "abstract": "Staphylococcus aureus is the most prevalent cystic fibrosis (CF) pathogen. Several phenotypes are associated with worsened CF clinical outcomes including methicillin-resistance and small-colony-variants. The inoculum effect (IE) is characterized by reduced β-lactam susceptibility when assessed at high inoculum. The IE associates with worse outcomes in bacteremia and other high-density infections, and may therefore be relevant to CF. The prevalence of IE amongst a CF cohort (age ≥18 years), followed from 2013 to 2016, was investigated. Yearly methicillin-sensitive S. aureus (MSSA) isolates were screened at standard (5 × 105 CFU/mL) and high (5 × 107 CFU/mL) inoculum against narrow-spectrum anti-Staphylococcal β-lactams and those with anti-pseudomonal activity common to CF. A ≥ 4-fold increase in minimum inhibitory concentration between standard and high inoculum defined IE. Isolates underwent blaZ sequencing and genotyping and were compared against published genomes. Fifty-six percent (",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2023",
+            "authors": [
+              "Svishchuk J",
+              "Ebbert K",
+              "Waddell B",
+              "Izydorczyk C",
+              "Acosta N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Adolescent",
+              "Methicillin",
+              "Cefazolin",
+              "Staphylococcus aureus",
+              "Anti-Bacterial Agents",
+              "Prospective Studies",
+              "Cystic Fibrosis",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37966229/"
+          },
+          {
+            "pmid": "36526264",
+            "title": "Antimicrobial resistance prevalence of Escherichia coli and Staphylococcus aureus amongst bacteremic patients in Africa: a systematic review.",
+            "abstract": "Antimicrobial resistance (AMR) is a global concern among infectious diseases. Bloodstream infections can potentially become life-threatening if they become untreatable with conventional antimicrobials. This review aims to provide an understanding of the AMR prevalence and trends of common bacteremic pathogens, namely Escherichia coli and Staphylococcus aureus in the World Health Organization (WHO) Africa region.",
+            "journal": "Journal of global antimicrobial resistance",
+            "year": "2023",
+            "authors": [
+              "Haindongo Erastus Hanganeni",
+              "Ndakolo Diana",
+              "Hedimbi Marius",
+              "Vainio Olli",
+              "Hakanen Antti"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Staphylococcus aureus",
+              "Anti-Bacterial Agents",
+              "Escherichia coli",
+              "Prevalence",
+              "Drug Resistance, Bacterial",
+              "Staphylococcal Infections",
+              "Bacteremia",
+              "Africa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36526264/"
+          },
+          {
+            "pmid": "40248507",
+            "title": "A biofilm-targeting lipo-peptoid to treat Pseudomonas aeruginosa and Staphylococcus aureus co-infections.",
+            "abstract": "Antibiotic-resistant bacterial infections are a significant clinical challenge, especially when involving multiple species. Antimicrobial peptides and their synthetic analogues, peptoids, which target bacterial cell membranes as well as intracellular components, offer potential solutions. We evaluated the biological activities of novel peptoids TM11-TM20, which include an additional charged NLys residue, against multidrug-resistant Pseudomonas aeruginosa and Staphylococcus aureus, both in vitro and in vivo. Building on insights from previously reported compounds TM1-TM10, the lipo-peptoid TM18, which forms self-assembled ellipsoidal micelles, demonstrated potent antimicrobial, anti-biofilm, and anti-abscess activity. Transcriptome sequencing (RNA-seq) revealed that TM18 disrupted gene expression pathways linked to antibiotic resistance and tolerance, and biofilm formation in both pathogens. Under dual-species conditions, TM18 induced overlapping but attenuated transcriptional changes, ",
+            "journal": "Biofilm",
+            "year": "2025",
+            "authors": [
+              "Wardell Samuel J T",
+              "Yung Deborah B Y",
+              "Nielsen Josefine E",
+              "Lamichhane Rajesh",
+              "Sørensen Kristian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40248507/"
+          },
+          {
+            "pmid": "38946294",
+            "title": "Carbapenem combination therapy versus standard of care for persistent methicillin-susceptible Staphylococcus aureus bacteraemia.",
+            "abstract": "Successful use of carbapenems in combination with cefazolin or oxacillin for treatment of MSSA bacteraemia has been described; however, comparative data to standard treatment approaches are lacking.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2024",
+            "authors": [
+              "Shah Sunish",
+              "Clarke Lloyd G",
+              "Ludwig Justin",
+              "Burgdorf Sarah",
+              "Arbulu Guerra Ricardo D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Bacteremia",
+              "Retrospective Studies",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Anti-Bacterial Agents",
+              "Drug Therapy, Combination",
+              "Aged",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38946294/"
+          },
+          {
+            "pmid": "34460301",
+            "title": "Pharmacokinetics, Tissue Distribution, and Efficacy of VIO-001 (Meropenem/Piperacillin/Tazobactam) for Treatment of Methicillin-Resistant Staphylococcus aureus Bacteremia in Immunocompetent Rabbits with Chronic Indwelling Vascular Catheters.",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) infections of surgically implanted subcutaneous vascular catheters (SISVCs) cause serious morbidity in patients with chronic illnesses. Previous in vitro and murine models demonstrated the synergistic interaction of equimolar concentrations of meropenem/piperacillin/tazobactam (MPT) (VIO-001) against MRSA infection. We investigated the pharmacokinetics (PK) and efficacy of VIO-001 for the treatment of MRSA bacteremia in immunocompetent rabbits with SISVCs. In PK studies, we determined that optimal dosing to achieve a time above 4× MIC (T>4×MIC) of a duration of 3 to 3.30 h required a 1-h infusion with every-4-h (Q4h) dosing. Study groups in efficacy experiments consisted of MPT combinations of 100/150/100 mg/kg of body weight (MPT100), 200/300/200 mg/kg (MPT200), and 400/600/400 mg/kg (MPT400); vancomycin (VAN) at 15 mg/kg; and untreated controls (UC). The inoculum of MRSA isolate USA300-TCH1516 (1 × 103 organisms) was administered via",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2021",
+            "authors": [
+              "Petraitis Vidmantas",
+              "Petraitiene Ruta",
+              "Kavaliauskas Povilas",
+              "Naing Ethan",
+              "Garcia Andrew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Meropenem",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests",
+              "Piperacillin, Tazobactam Drug Combination",
+              "Rabbits",
+              "Staphylococcal Infections",
+              "Tissue Distribution"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34460301/"
+          },
+          {
+            "pmid": "31870598",
+            "title": "In vitro activity of meropenem/piperacillin/tazobactam triple combination therapy against clinical isolates of Staphylococcus aureus, Staphylococcus epidermidis, Staphylococcus pseudintermedius and vancomycin-resistant Enterococcus spp.",
+            "abstract": "To evaluate the activity of the reported synergistic and collaterally sensitive antibiotic combination, meropenem/piperacillin/tazobactam (ME/PI/TZ), against a panel of methicillin-resistant Staphylococcus aureus (MRSA) and other methicillin-resistant Staphylococcus species; and to investigate the relationship between ME/PI/TZ susceptibility and the genomic background of clinical isolates of MRSA.",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2020",
+            "authors": [
+              "Yoneda Aki",
+              "Thänert Robert",
+              "Burnham Carey-Ann D",
+              "Dantas Gautam"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Drug Resistance, Multiple, Bacterial",
+              "Drug Therapy, Combination",
+              "Genome, Bacterial",
+              "Genomics",
+              "Humans",
+              "Meropenem",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests",
+              "Piperacillin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31870598/"
+          },
+          {
+            "pmid": "33491526",
+            "title": "Staphylococcus aureus meningitis complicated with intracranial hemorrhage and cerebral infarction: a case report.",
+            "abstract": "The case with staphylococcus aureus meningitis accompanied by intracranial hemorrhage and cerebral infarction is very rare and cerebrovascular complications are often associated with poor outcome.",
+            "journal": "The International journal of neuroscience",
+            "year": "2022",
+            "authors": [
+              "Jia Yu",
+              "Wang Wei",
+              "Wang Xiangbo",
+              "Jiao Lidong",
+              "Wang Yuping"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Staphylococcus aureus",
+              "Cerebral Infarction",
+              "Intracranial Hemorrhages",
+              "Meningitis",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33491526/"
+          },
+          {
+            "pmid": "32341079",
+            "title": "Necrotising fasciitis.",
+            "abstract": "",
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "2020",
+            "authors": [
+              "Diab Jason",
+              "Bannan Aiveen",
+              "Pollitt Timothy"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abdomen",
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Clindamycin",
+              "Coinfection",
+              "Debridement",
+              "Diabetes Mellitus, Type 2",
+              "Fasciitis, Necrotizing",
+              "Female",
+              "Fluid Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32341079/"
+          },
+          {
+            "pmid": "37924430",
+            "title": "Activated mesenchymal stem cells increase drug susceptibility of methicillin-resistant Staphylococcus aureus and Pseudomonas aeruginosa.",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) and Pseudomonas aeruginosa are major causes of hospital-acquired infections and sepsis. Due to increasing antibiotic resistance, new treatments are needed. Mesenchymal stem cells (MSCs) have antimicrobial effects, which can be enhanced by preconditioning with antibiotics. This study investigated using antibiotics to strengthen MSCs against MRSA and P. aeruginosa. MSCs were preconditioned with linezolid, vancomycin, meropenem, or cephalosporin. Optimal antibiotic concentrations were determined by assessing MSC survival. Antimicrobial effects were measured by minimum inhibitory concentration (MIC), minimum bactericidal concentration (MBC), and antimicrobial peptide (AMP) gene expression. Optimal antibiotic concentrations for preconditioning MSCs without reducing viability were 1 μg/mL for linezolid, meropenem, and cephalosporin and 2 μg/mL for vancomycin. In MIC assays, MSCs preconditioned with linezolid, vancomycin, meropenem, or cephal",
+            "journal": "Folia microbiologica",
+            "year": "2024",
+            "authors": [
+              "Esfandiary Reza",
+              "Saeedi Pardis",
+              "Saffarian Parvaneh",
+              "Halabian Raheleh",
+              "Fooladi Abbas Ali Imani"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Linezolid",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Vancomycin",
+              "Pseudomonas aeruginosa",
+              "Hepcidins",
+              "Meropenem",
+              "Anti-Bacterial Agents",
+              "Cephalosporins",
+              "Mesenchymal Stem Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37924430/"
+          },
+          {
+            "pmid": "38075388",
+            "title": "Antistaphylococcal Efficacy of Cefepime, Meropenem, and Piperacillin-Tazobactam in Patients with Polymicrobial Infection with MSSA Bacteremia or Pneumonia.",
+            "abstract": "There is a paucity of literature describing de-escalation techniques in patients with polymicrobial infections with one offending organism being methicillin-susceptible Staphylococcus aureus (MSSA) being treated with β-lactam therapy. The purpose of this study is to determine treatment outcomes for patients with polymicrobial infections with MSSA bacteremia or pneumonia who are treated with cefepime (FEP), meropenem (MEM), or piperacillin-tazobactam (TZP). This trial design represents a retrospective observational three-group comparison study of patients at a community teaching hospital system. Patients reviewed included those who had a MSSA bacteremia or pneumonia in addition to a confirmed polymicrobial infection or presence of a coinfection and received definitive therapy with FEP, MEM, or TZP. The primary outcome is defined as the resolution of fever of ≥100.4°F, hypothermia (≤95°F), leukocytosis (WBC °>° 12,000 cells/mm3), and leukopenia with WBC °<° 4,000 cells/mm3. Secondary out",
+            "journal": "Advances in pharmacological and pharmaceutical sciences",
+            "year": "2023",
+            "authors": [
+              "Najia Laila M",
+              "Pyles Eric",
+              "Lopez-Ruiz Arnaldo",
+              "Subedi Bibidh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38075388/"
+          },
+          {
+            "pmid": "39503536",
+            "title": "Ultrastructural polymicrobial Staphylococcus aureus-Pseudomonas aeruginosa interactions and antimicrobial resistance in ex vivo cornea model.",
+            "abstract": "Aim: To investigate antagonistic interactions among pathogens, in ex vivo donor corneas infected with monomicrobial or polymicrobial combinations of antibiotic susceptible and resistant clinical isolates of Staphylococcus aureus (MSSA, MRSA) and Pseudomonas aeruginosa (S-PA, MDR-PA).Materials & methods: Scanning electron microscopy and antimicrobial susceptibility testing (AST, broth microdilution for minimum inhibitory and bactericidal concentrations [MIC/MBC]) pre-and post-polymicrobial interactions, in infected donor corneas.Results: MSSA lost viability with S-PA/MDR-PA, while MRSA formed larger cells, biofilm and lower MIC (teicoplanin) with S-PA, but lost viability with MDR-PA. S-PA had lower MIC (ceftazidime, meropenem, chloramphenicol) with MSSA, and lower MBC (cefoperazone, ciprofloxacin) and fewer cells with MRSA. MDR-PA had abundant cells and no change in AST with MSSA or MRSA.Conclusion: Significant antagonistic interactions occur in ocular polymicrobial infections, affectin",
+            "journal": "Future microbiology",
+            "year": "2025",
+            "authors": [
+              "Mitra Sanchita",
+              "Banka Nagapriya",
+              "Basu Soumyava",
+              "Rao Tirupathi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Microbial Sensitivity Tests",
+              "Pseudomonas aeruginosa",
+              "Anti-Bacterial Agents",
+              "Humans",
+              "Cornea",
+              "Biofilms",
+              "Staphylococcus aureus",
+              "Staphylococcal Infections",
+              "Coinfection",
+              "Pseudomonas Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39503536/"
+          },
+          {
+            "pmid": "34747264",
+            "title": "Clinical and Microbiological Profile of Diabetic Foot Ulcers Infected With Staphylococcus aureus in a Regional General Hospital in Bahia, Brazil.",
+            "abstract": "It is necessary to know the resistance profile of Staphylococcus aureus to better control diabetic foot ulcer infections, to establish rational antibiotic therapy, and to avoid the development of resistant strains. This cross-sectional study evaluated the clinical parameters, virulence, and antimicrobial resistance profiles of S aureus in patients with diabetic foot disease admitted to a public hospital. S aureus strains were identified in patients with diabetes with amputation indication. Infected tissue samples were collected, microbes were isolated and identified. The microbial resistance profile was determined. Samples were also analyzed for biofilm formation and other virulence markers. The 34 individuals examined were mostly men, black, aged 60 years on average, and generally had a low income and education level. Most individuals had type 2 diabetes, and the mean time since diagnosis was 13.9 years. On an SF-36 (the Medical Outcomes Study 36-item short-form health survey) quality",
+            "journal": "The international journal of lower extremity wounds",
+            "year": "2024",
+            "authors": [
+              "Nascimento Luciano Dias",
+              "Lopes Arthur César Pacheco",
+              "Teixeira Mariana Morais",
+              "da Silva Jade Magalhães Alves",
+              "Silva Letícia Oliveira"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Diabetic Foot",
+              "Male",
+              "Middle Aged",
+              "Female",
+              "Cross-Sectional Studies",
+              "Staphylococcal Infections",
+              "Brazil",
+              "Anti-Bacterial Agents",
+              "Hospitals, General"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34747264/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "laryngitis",
+        "txgnn_score": 0.9959068298339844,
+        "txgnn_rank": 5699,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36114073",
+            "title": "A rare case of Pseudomonas aeruginosa enteritis induced by pembrolizumab.",
+            "abstract": "A 72-year-old male had pseudomonal enteritis related to pembrolizumab. Chemotherapy for hypopharyngeal carcinoma with lung metastasis comprised cisplatin, 5-FU, and pembrolizumab. On day 14 of chemotherapy treatment he had a sudden prominent abdominal bulge, decreased consciousness, and drop in blood pressure in septic shock. CT scan showed marked intestinal gas through to intrahepatic bile ducts. Pseudomonas aeruginosa was simultaneously detected in both blood and stool cultures. Intestinal endoscopy revealed ulcerative lesions from the transverse colon to the rectum. Pathological investigations indicated apoptosis of the villus. The patient was diagnosed with pseudomonal enteritis induced by immune-related adverse events from the use of pembrolizumab. Treatment by corticosteroid and meropenem were subsequently switched to cefepime and metronidazole, and this successfully improved his colitis. In this new era of biological-targeted drugs and as clinical experience grows, we recommend ",
+            "journal": "Auris, nasus, larynx",
+            "year": "2023",
+            "authors": [
+              "Miyamoto Mai",
+              "Tamagawa Shunji",
+              "Kono Masamitsu",
+              "Hijiya Masayoshi",
+              "Iyo Takuro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Aged",
+              "Pseudomonas aeruginosa",
+              "Antibodies, Monoclonal, Humanized",
+              "Enteritis",
+              "Adrenal Cortex Hormones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36114073/"
+          },
+          {
+            "pmid": "38634896",
+            "title": "Mapping the risk factors, pathogens, and antibiotic of pharyngocutaneous fistula in patients after neck open surgery.",
+            "abstract": "Current literature lacks consensus on risk factors for pharyngocutaneous fistula (PCF), and empirical antibiotic guidelines for PCF are limited. The aim of this study was to reduce the incidence of PCF and improve antibiotic treatment efficacy for patients with PCF after open neck surgery by analyzing their clinical characteristics, pathogenic bacteria, and antibiotic susceptibility.",
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2024",
+            "authors": [
+              "Kong Weili",
+              "Chen Manlin",
+              "Gu Hailing",
+              "Han Yinze",
+              "Liu Yuanzhi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Retrospective Studies",
+              "Cutaneous Fistula",
+              "Middle Aged",
+              "Anti-Bacterial Agents",
+              "Risk Factors",
+              "Pharyngeal Diseases",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38634896/"
+          },
+          {
+            "pmid": "27913087",
+            "title": "A case of multiple empyema caused by Streptococcus intermedius.",
+            "abstract": "We report the case of a patient with multiple empyema present throughout his body, including chronic sinusitis and chronic suppurative otitis media, as well as subsequent epidural empyema, all caused by Streptococcus intermedius. A 38-year-old man presented with chief complaints of headache, left ear discharge, and nasal congestion. Imaging studies revealed pansinusitis, soft tissue signs in the mastoid cells, and otitis media. The patient was treated with meropenem hydrate, 6g/day. While clinical findings indicated improvement of the sinusitis, his headache did not improve. Further examination with contrast computerized tomography (CT) 'a chest radiography' blood cultures were performed, and the patient was diagnosed with multiple empyema (with an epidural empyema, pulmonary suppuration) caused by S. intermedius. Subsequent burr hole drainage was implemented to drain the epidural empyema. Long-term administration was required to treat pulmonary suppuration. While they remain rare, the",
+            "journal": "Auris, nasus, larynx",
+            "year": "2017",
+            "authors": [
+              "Kaga Akihito",
+              "Higo Ryuzaburo",
+              "Yoshikawa Hiroshi",
+              "Yokoi Naoko",
+              "Haruyama Takuo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Drainage",
+              "Epidural Abscess",
+              "Humans",
+              "Male",
+              "Meropenem",
+              "Otitis Media, Suppurative",
+              "Radiography, Thoracic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27913087/"
+          },
+          {
+            "pmid": "23987907",
+            "title": "Descending necrotizing mediastinitis associated with Lactobacillus plantarum.",
+            "abstract": "Descending necrotizing mediastinitis (DNM), a severe infection with a high fatality rate, develops in mediastinal spaces due mainly to deep cervical abscesses. The majority of causative microbes of DNM are Streptococci and oral anaerobes. DNM associated with Lactobacillus-infection is rather rare.",
+            "journal": "BMC infectious diseases",
+            "year": "2013",
+            "authors": [
+              "Nei Takahito",
+              "Inai Shunta",
+              "Mikami Iwao",
+              "Sato Akira",
+              "Okamoto Junichi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abscess",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Humans",
+              "Lactiplantibacillus plantarum",
+              "Male",
+              "Mediastinitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23987907/"
+          },
+          {
+            "pmid": "12030027",
+            "title": "[Mutation of penicillin-binding protein genes and antimicrobial susceptibility of Haemophilus influenzae isolated from spinal fluid or blood in children].",
+            "abstract": "Between September 1999 and August 2001, we studied serotypes to capsular antigen, beta-lactamase production, mutation of penicillin binding protein (PBP) genes by PCR method, and antimicrobial susceptibilities of 13 strains of Haemophilus influenzae isolated from spinal fluid or blood in children. Diseases of patients were meningitis in 11, pneumonia in 1, and laryngitis in 1. The age range of the patients was from 26 days to 5 years. The serotypes of all strains were b. Four of the 13 strains were beta-lactamase-positive. The mutation of genes of pbp3 was revealed from 4 isolates and 2 of the strains were beta-lactamase-positive. MICs of ampicillin to beta-lactamase-negative strains ranged from 0.125 to 1 microgram/ml and those to beta-lactamase-positive were more than 32 micrograms/ml. MICs of 2 strains of beta-lactamase-negative and mutation-positive were 0.5 and 1 microgram/ml. The excellent active antimicrobials in our study was cefotaxime (MIC90 0.06 microgram/ml), meropenem (MIC",
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "2002",
+            "authors": [
+              "Sakata Hiroshi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacterial Proteins",
+              "Blood",
+              "Carrier Proteins",
+              "Cerebrospinal Fluid",
+              "Child, Preschool",
+              "Haemophilus influenzae",
+              "Hexosyltransferases",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12030027/"
+          },
+          {
+            "pmid": "21970153",
+            "title": "Mediastinitis after the use of the LMA-Supreme.",
+            "abstract": "",
+            "journal": "Anaesthesia and intensive care",
+            "year": "2011",
+            "authors": [
+              "Scoponi M",
+              "Corso R M",
+              "Piraccini E",
+              "Sandroni G M",
+              "Valente M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Air Pressure",
+              "Anti-Bacterial Agents",
+              "Axilla",
+              "Equipment Design",
+              "Fatal Outcome",
+              "Fever",
+              "Humans",
+              "Laryngeal Masks",
+              "Lymph Node Excision"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21970153/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paratyphoid fever",
+        "txgnn_score": 0.9957237243652344,
+        "txgnn_rank": 5854,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37274536",
+            "title": "What Should We Be Recommending for the Treatment of Enteric Fever?",
+            "abstract": "Patients with suspected enteric (typhoid and paratyphoid) fever are predominantly managed as outpatients in endemic regions. Nonspecific clinical presentation, lack of accurate diagnostic tools, and widespread antimicrobial resistance makes management challenging. Resistance has been described for all antimicrobials including chloramphenicol, amoxycillin, trimethoprim-sulfamethoxazole, ciprofloxacin, ceftriaxone, and azithromycin. No significant differences have been demonstrated between these antimicrobials in their ability to treat enteric fever in systematic reviews of randomized controlled trials (RCTs). Antimicrobial choice should be guided by local resistance patterns and national guidance. Extensively drug-resistant typhoid isolates require treatment with azithromycin and/or meropenem. Combining antimicrobials that target intracellular and extracellular typhoid bacteria is a strategy being explored in the Azithromycin and Cefixime in Typhoid Fever (ACT-SA) RCT, in progress in So",
+            "journal": "Open forum infectious diseases",
+            "year": "2023",
+            "authors": [
+              "Parry Christopher M",
+              "Qamar Farah N",
+              "Rijal Samita",
+              "McCann Naina",
+              "Baker Stephen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37274536/"
+          },
+          {
+            "pmid": "35891850",
+            "title": "Extensively Drug-Resistant Typhoidal Salmonellae: Are These Bugs Swarming Into Suburban and Rural Areas of Pakistan?",
+            "abstract": "Background Typhoid is a serious public health concern with increasing antibiotic resistance. Early suspicion and choice of susceptible antibiotics are key to avoiding the morbidity and mortality associated with this disease. We have carried out this study to assess the antibiotic sensitivity of typhoidal salmonellae in Kharian, Pakistan. Materials and methods This cross-sectional study was carried out at Combined Military Hospital, Kharian, Pakistan, from January 2019 to September 2020. Blood culture specimens from patients clinically suspected of enteric fever were tested through the BacT/ALERT 3D automated blood culture system. Positive microbial growth was further identified by colony morphology, appropriate staining, biochemical testing, and Salmonella-specific grouping sera. Salmonella typhi and Salmonella paratyphi A-C were further analyzed for antimicrobial susceptibility using agar disc diffusion testing by the modified Kirby-Bauer technique. The Clinical and Laboratory Standar",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Ashraf Hussain Muhammad",
+              "Ahmed Imran",
+              "Akram Sumera",
+              "Khan Muhammad A",
+              "Ali Shamshad"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35891850/"
+          },
+          {
+            "pmid": "40341792",
+            "title": "Community engagement: the missing piece in solving the puzzle of XDR-typhoid spread in Pakistan.",
+            "abstract": "Typhoid has been a major infectious health threat for the masses in Pakistan with increasing antimicrobial resistance, socio-economic decline, and environmental challenges. Since 2019, the percentage of cases has reduced with the implementation of Typhoid Conjugate Vaccine (TCV) program but reports of widened geographical spread particularly as aftermath of flooding in 2022 and resistance to Azithromycin or Meropenem in adult population are a matter of serious concern. Now is the right time to reconsider whether strategies like mass immunization or health infrastructure development solely can combat the hazards of Extensively Drug-Resistant (XDR)-Typhoid. Public health policies developed due to COVID-19, such as incorporating all stakeholders especially the public through community engagement, may provide a collaborative effort to lessen the prevailing threat of antibiotic resistance.",
+            "journal": "Journal of public health policy",
+            "year": "2025",
+            "authors": [
+              "Madiha",
+              "Shahzadi Adeela",
+              "Ashiq Zohaib"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Pakistan",
+              "Humans",
+              "Typhoid Fever",
+              "COVID-19",
+              "Community Participation",
+              "Health Policy",
+              "Typhoid-Paratyphoid Vaccines",
+              "Drug Resistance, Multiple, Bacterial",
+              "Public Health"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40341792/"
+          },
+          {
+            "pmid": "25817826",
+            "title": "Acute pancreatitis and aseptic meningitis: Rare complications of Salmonella paratyphi infection.",
+            "abstract": "",
+            "journal": "Arab journal of gastroenterology : the official publication of the Pan-Arab Association of Gastroenterology",
+            "year": "2015",
+            "authors": [
+              "Makhoul Elias",
+              "Yazbeck Charbel",
+              "Zaarour Anthony",
+              "Chelala Aurore",
+              "Ajami Bilal"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Lebanon",
+              "Male",
+              "Meningitis, Aseptic",
+              "Meropenem",
+              "Pancreatitis, Acute Necrotizing",
+              "Paratyphoid Fever",
+              "Rare Diseases",
+              "Risk Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25817826/"
+          },
+          {
+            "pmid": "22801852",
+            "title": "Endogenous endophthalmitis caused by salmonella serotype B in an immunocompetent 12-year-old child.",
+            "abstract": "",
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "2012",
+            "authors": [
+              "Rachitskaya Aleksandra V",
+              "Flynn Harry W",
+              "Davis Janet L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Ceftazidime",
+              "Child",
+              "Drug Therapy, Combination",
+              "Endophthalmitis",
+              "Eye Infections, Bacterial",
+              "Feces",
+              "Humans",
+              "Immunocompetence",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22801852/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.9951722025871276,
+        "txgnn_rank": 6346,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03230838",
+            "title": "A Phase 2, Randomized, Active Comparator-Controlled, Multicenter, Double-Blind Clinical Trial to Study the Safety and Efficacy of Ceftolozane/Tazobactam (MK-7625A) Versus Meropenem in Pediatric Subjects With Complicated Urinary Tract Infection, Including Pyelonephritis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-04-26",
+            "completion_date": "2020-12-03",
+            "country": "Turkey (Türkiye), Romania, United States, Mexico, Hungary, Russia, Ukraine, Greece, South Africa, Poland",
+            "enrollment": 134,
+            "brief_summary": "This study aims to evaluate the safety and tolerability of MK-7625A (ceftolozane/tazobactam) compared with that of meropenem in pediatric participants with cUTI, including pyelonephritis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has a legally acceptable representative who provides documented informed consent / assent for the trial.\n* Ages from birth (defined as \\>32 weeks gestational age and ≥7 days postnatal) to \\<18 years of age.\n* Requires IV antibacterial therapy for the treatment of cUTI.\n* Have ",
+            "endpoints": [
+              "Number of Participants With ≥1 Adverse Events (AEs)",
+              "Number of Participants Discontinuing Study Therapy Due to AE"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT03230838"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04979806",
+            "title": "A Phase 3, Randomized, Double-blind, Multicenter, Comparative Study to Determine the Efficacy and Safety of Cefepime-zidebactam vs. Meropenem in the Treatment of Complicated Urinary Tract Infection or Acute Pyelonephritis in Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2022-08-28",
+            "completion_date": "2024-11-25",
+            "country": "India, Slovakia, United States, China, Bulgaria, Mexico, Estonia, Lithuania, Poland",
+            "enrollment": 530,
+            "brief_summary": "This is a Phase 3, randomized, double-blind, multicenter, non-inferiority study to evaluate the efficacy, safety, and tolerability of FEP-ZID vs. meropenem in the treatment of hospitalized adults with cUTI or AP.\n\nApproximately 528 hospitalized adult subjects (≥ 18 years of age) diagnosed with cUTI or AP will be enrolled in the study. The diagnosis of cUTI or AP will be based on a combination of clinical symptoms and signs plus the presence of pyuria. The total duration of treatment with study d",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female ≥ 18 years of age\n2. Provide a signed written informed consent prior to any study-specific procedures\n3. Meet the clinical criteria for either cUTI or AP\n4. Requires hospitalization to manage the cUTI or AP\n5. Agrees to use effective methods of contraception\n\nE",
+            "endpoints": [
+              "Percentage of subjects with overall success at Test-of-Cure",
+              "Percentage of subjects with Treatment-Emergent Adverse Events (TEAE)"
+            ],
+            "sponsor": "Wockhardt",
+            "url": "https://clinicaltrials.gov/study/NCT04979806"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04671290",
+            "title": "Temocillin Versus Carbapenems for Urinary Tract Infection Due to ESBL-producing Enterobacteriaceae: a Multicenter Case-control Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-01-01",
+            "completion_date": "2019-10-31",
+            "country": "N/A",
+            "enrollment": 144,
+            "brief_summary": "To assess the efficacy of temocillin compared to carbapenems for the management of ESBL-E UTI.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults\n* Diagnosis of UTI defined by at least two of the following symptoms :chills,temperature \\>38°C (fever), flank or pelvic pain, nausea or vomiting, dysuria, urinary frequency, or urinary urgency, costovertebral angle tenderness on physical examination\n* Positive urine cu",
+            "endpoints": [
+              "Rate of clinical cure"
+            ],
+            "sponsor": "Centre Hospitalier Annecy Genevois",
+            "url": "https://clinicaltrials.gov/study/NCT04671290"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03477422",
+            "title": "Randomized, Double-blind, Double-dummy, Active-controlled, Multi-centre Trial to Compare the Efficacy and Safety of CSE-1034 (Ceftriaxone+ Sulbactam+ EDTA) With Meropenem in Infections Caused by β-Lactamase (ESBL and MBL) Producing Gram-Negative Bacteria",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-01-11",
+            "completion_date": "2017-05-08",
+            "country": "India",
+            "enrollment": 230,
+            "brief_summary": "The purpose of this study is to evaluate the effects of CSE-1034 (Ceftriaxone+ Sulbactam+ EDTA) compared to Meropenem for treating hospitalized patients with complicated urinary tract infections, including acute pyelonephritis caused by β-lactamase producing gram-negative bacteria",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients willing to provide informed consent and who are willing to or likely to comply with all study requirements\n2. Patients of either gender must have age ≥ 18 years\n3. Patients with suspected cUTI based on clinical signs and symptoms\n4. Urine culture results confirm bact",
+            "endpoints": [
+              "Proportion of patients with symptomatic resolution (or return to premorbid state) of all UTI-specific symptoms (frequency/urgency/ flank pain / suprapubic pain) at the TOC visit in the Microbiological Modified Intent-To-Treat (mMITT) analysis set",
+              "Proportion of patients with both a per-patient microbiological eradication and symptomatic resolution (or return to premorbid state) of all UTI-specific symptoms (frequency/urgency/ flank pain / suprapubic pain) at the TOC visit in the mMITT analysis set",
+              "Proportion of patients with a favorable per-patient microbiological response at the TOC visit in the mMITT analysis set"
+            ],
+            "sponsor": "Venus Remedies Limited",
+            "url": "https://clinicaltrials.gov/study/NCT03477422"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03174795",
+            "title": "A Non-Randomized, Open-Label, One Treatment, One Group Study to Investigate the Pharmacokinetics of RO7079901 and Meropenem in Patients With a Complicated Urinary Tract Infection",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-07-11",
+            "completion_date": "2017-12-16",
+            "country": "Latvia, United States, Hungary, Serbia, Poland",
+            "enrollment": 20,
+            "brief_summary": "This is a non-randomized, open-label, one-treatment, one group study in participants with complicated urinary tract infection (cUTI) including pyelonephritis to characterize the pharmacokinetics of RO7079901 co-administered with meropenem.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Requiring hospitalization for IV antibacterial therapy for the treatment of presumed/confirmed cUTI (including pyelonephritis)\n* Clinical signs and/or symptoms of pyelonephritis or a cUTI\n* Urine culture taken within the 48 hours (hr) period immediately preceding the first dos",
+            "endpoints": [
+              "Area Under the Plasma Concentration Versus Time Curve Over the Dosing Interval (AUC0-tau) of RO7079901",
+              "Total Clearance (CL) of RO7079901",
+              "Renal Clearance (CLr) of RO7079901"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03174795"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04882085",
+            "title": "AN OPEN-LABEL, RANDOMIZED, MULTI-CENTER, ACTIVE-CONTROLLED STUDY TO ESTIMATE THE EFFICACY AND SAFETY OF CEFTAZIDIME-AVIBACTAM (CAZ-AVI) VERSUS BEST AVAILABLE TREATMENT (BAT) IN THE TREATMENT OF INFECTIONS DUE TO CARBAPENEM-RESISTANT GRAM-NEGATIVE PATHOGENS IN CHINESE ADULTS",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-08-26",
+            "completion_date": "2023-08-31",
+            "country": "China",
+            "enrollment": 60,
+            "brief_summary": "This is an open-label, randomized, multi-center, interventional, active-controlled Phase 4 study to evaluate the efficacy and safety of CAZ-AVI versus BAT in the treatment of infected participants with selected infection types (Hospital Acquired Pneumonia \\[HAP\\] (including Ventilator-Associated Pneumonia \\[VAP\\]); Complicated Urinary-Tract Infection \\[cUTI\\]; Complicated Intra-Abdominal Infection \\[cIAI\\]; Bloodstream Infection \\[BSI\\]) due to carbapenem-resistant Gram-negative pathogens in Chi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female \\>18 years of age\n* Participant must have a diagnosis of an infection (HAP/VAP, cUTI, cIAI, BSI) due to confirmed carbapenem-resistant aerobic Gram-negative pathogens, requiring administration of IV antibacterial therapy\n* Participant who had received appropriat",
+            "endpoints": [
+              "Percentage of Participants With Clinical Cure at Test of Cure (TOC) Visit - Microbiologically Modified Intent-to-Treat (mMITT) Analysis Set"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04882085"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02212392",
+            "title": "COMPARING THE OUTCOME IN PATIENTS OF ACUTE PANCREATITIS, WITH AND WITHOUT PROPHYLACTIC ANTIBIOTICS.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-01",
+            "completion_date": "2013-12",
+            "country": "Pakistan",
+            "enrollment": 90,
+            "brief_summary": "The use of prophylactic antibiotics is beneficial in reducing the extrapancreatic infections and shorter hospital stay in patients of acute pancreatitis as compared to controls.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients between 18 to 70 years of age with diagnosis of acute pancreatitis both mild and sever necrotizing pancreatitis.\n* Patients who present within 48 hours of onset of symptoms.\n\nExclusion Criteria:\n\n* Patients who present after 48 hours of onset of symptoms.\n* Patients a",
+            "endpoints": [
+              "Extrapancreatic infections",
+              "Duration of hospital stay"
+            ],
+            "sponsor": "Benazir Bhutto Hospital, Rawalpindi",
+            "url": "https://clinicaltrials.gov/study/NCT02212392"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06482151",
+            "title": "Evaluation of the Prevalence of E. Coli O Serotypes in Paediatric Population With Recurrent Urinary Tract Infection in Europe",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "start_date": "2025-03-11",
+            "completion_date": "2025-03-11",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This is a multicentre, observational, epidemiological study in which infants within the first 3 months of life with UTI and children aged ≥4 months with r-UTI will be recruited from nephrology /emergency departments and primary care in European countries",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 0 weeks and 17 years\n* Significant urine culture positive only for E. coli\n* For infants up to 3 months of age, a confirmed first UTI episode as identified by urine culture obtained by a sterile method (as described above) and positive for E. coli only (no other pa",
+            "endpoints": [
+              "To assess the serogroups of E. coli in the study cohort"
+            ],
+            "sponsor": "PENTA Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT06482151"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01970371",
+            "title": "A Phase 3, Multicenter, Randomized, Open-Label Study to Evaluate the Efficacy and Safety of Plazomicin Compared With Colistin in Patients With Infection Due to Carbapenem-Resistant Enterobacteriaceae (CRE)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-09-16",
+            "completion_date": "2016-09-15",
+            "country": "N/A",
+            "enrollment": 69,
+            "brief_summary": "This was a Phase 3 study containing a randomized open-label superiority cohort (Cohort 1) comparing the efficacy and safety of plazomicin with colistin when combined with a second antibiotic (either meropenem or tigecycline) in the treatment of patients with bloodstream infection (BSI), hospital acquired bacterial pneumonia (HABP), or ventilator-associated bacterial pneumonia (VABP) due to CRE. An additional cohort of patients with BSI, HABP, VABP, complicated urinary tract infection (cUTI), or ",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Cohort 1: APACHE II score between 15 and 30, inclusive; Cohort 2: BSI, HABP, VABP patients with an APACHE II score ≤30 (cUTI and AP patients do not need to have their APACHE II score calculated)\n* Positive culture that was collected ≤96 hours prior to randomization indicat",
+            "endpoints": [
+              "Percentage of Patients With All Cause Mortality (ACM) at Day 28 or Significant Disease-Related Complication (SDRC) in the Microbiological Modified Intent to Treat (mMITT) Population in Cohort 1"
+            ],
+            "sponsor": "Achaogen, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01970371"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01691430",
+            "title": "A Randomized, Controlled Trial of Cranberry Capsules for UTI Prevention in Nursing Home Residents",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-08",
+            "completion_date": "2015-10",
+            "country": "United States",
+            "enrollment": 185,
+            "brief_summary": "Urinary tract infection (UTI) is the most common infection in nursing home residents, and bacteriuria is the greatest trigger for antimicrobial therapy in the nursing home setting. The primary aim of this study is to test the efficacy of two oral cranberry capsules per day in the reduction of bacteriuria plus pyuria in female nursing home residents. These aims will be accomplished by conducting a double blind randomized placebo controlled efficacy trial of two oral cranberry capsules daily versu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. female residents;\n2. long term residents\n3. English speaking; and\n4. age ≥ 65 years.\n\nExclusion Criteria:\n\n1. residents that are not expected to be in the nursing home for at least one month (i.e., short term rehabilitation, pending discharge, terminal \\[life expectancy \\< 1 ",
+            "endpoints": [
+              "Participants With Urine Cultures With Bacteriuria (>100,000 Cfu/ml or >=100,000 Cfu/ml) Plus Pyuria (Any WBC)"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT01691430"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04986254",
+            "title": "A Multi-centre Study to Define Novel Individualised Dosing Regimens to Maximise Antibiotic Effectiveness for Treatment of Pneumonia in Intensive Care Units",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-10-17",
+            "completion_date": "2024-01-31",
+            "country": "Hong Kong, Australia, France, Belgium, Malaysia",
+            "enrollment": 179,
+            "brief_summary": "Pneumonia is the most common infection in intensive care unit (ICU) patients and occurs in 10% of all ICU admissions. Unfortunately, ICU patient outcomes remain poor with a high mortality rate associated with pneumonia despite recent therapeutic advances.\n\nPrevious studies of antibiotics used in ICU patients, which includes ceftriaxone, meropenem and piperacillin/tazobactam, have quantified major differences in pharmacokinetics (PK) between ICU and non-ICU patients, with ICU patients displaying ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adult (≥18 years old) ICU patients\n2. Confirmed or suspected either community-acquired pneumonia, ventilator-associated pneumonia, aspiration pneumonia or a clinically diagnosed lung infection\n3. Patient has been prescribed or is receiving one of the study drugs (benzylpenici",
+            "endpoints": [
+              "Volume of distribution (Vd) of benzylpenicillin, ceftriaxone, meropenem and piperacillin/tazobactam in ICU patients with pneumonia",
+              "Drug clearance (CL) of benzylpenicillin, ceftriaxone, meropenem and piperacillin/tazobactam in ICU patients with pneumonia",
+              "Optimised dosing regimens for benzylpenicillin, ceftriaxone, meropenem and piperacillin/tazobactam that maximise the achievement of effective plasma exposure in ICU patients with pneumonia"
+            ],
+            "sponsor": "The University of Queensland",
+            "url": "https://clinicaltrials.gov/study/NCT04986254"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05566665",
+            "title": "Nosocomial Infections in Patients Treated With Extracorporeal Membrane Oxygenation",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2023-01-01",
+            "completion_date": "2026-12-31",
+            "country": "Italy",
+            "enrollment": 200,
+            "brief_summary": "Nosocomial Infections (NI) are a common and dreadful complication for patients suffering from Acute Respiratory Distress Syndrome (ARDS) treated with Extracorporeal Membrane Oxygenation (ECMO). Unfortunately, no study has thoroughly evaluated NI in this fragile patient cohort. Newly developed antibiotics may help manage such infections, but their pharmacokinetics (PK) during ECMO has not been evaluated.\n\nObjectives of this prospective observational multicenter pharmacological no-profit study are",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Diagnosis of ARDS (i.e., acute onset ( \\< 7 days) from the known clinical insult of respiratory failure, with bilateral opacities - not explained by effusions, lung and lobar collapse, or nodules -, not fully explained by cardiac failure/fluid overload; with ",
+            "endpoints": [
+              "Incidence of NIs in a large prospective cohort of ARDS patients undergoing ECMO.",
+              "Microbial etiology of NIs in a large prospective cohort of ARDS patients undergoing ECMO.",
+              "Resistance patterns of NIs in a large prospective cohort of ARDS patients undergoing ECMO."
+            ],
+            "sponsor": "Policlinico Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05566665"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07236944",
+            "title": "Pivmecillinam as Oral Step-Down Treatment for Escherichia Coli Febrile Urinary Tract Infection Versus Standard of Care: A Randomized Controlled Non-Inferiority Multicenter Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-12",
+            "completion_date": "2029-03",
+            "country": "Sweden, Norway",
+            "enrollment": 560,
+            "brief_summary": "The goal of this clinical trial is to learn if oral treatment with pivmecillinam is effective to treat febrile urinary tract infections in adult patients. Hospitalized patients who have received 2-4 days of intravenous antibiotic therapy for febrile urinary tract infections, and have responded to treatment, will be randomized to either pivmecillinam or standard treatment (other oral or intravenous antibiotics).\n\nThe main question the study aims to answer is if oral follow-up with pivmecillinam i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. ≥18 years of age.\n2. Diagnosis of fUTI, defined as i) fever ≥ 38°C and ii) at least one of the following: flank pain or pelvic pain, nausea or vomiting, dysuria, urinary frequency or urgency, and costovertebral angle tenderness on physical examination.\n3. Growth of E. coli in",
+            "endpoints": [
+              "Clinical response (primary endpoint)."
+            ],
+            "sponsor": "Uppsala University",
+            "url": "https://clinicaltrials.gov/study/NCT07236944"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02142751",
+            "title": "Phase 3, Randomized, Controlled Multicentric, Open-label Clinical Trial to Prove Non-Inferiority of Fosfomycin vs Meropenem or Ceftriaxone in the Treatment of Bacteriemic Urinary Infection Due to Multidrug Resistance in E.Coli",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-07",
+            "completion_date": "2019-03",
+            "country": "Spain",
+            "enrollment": 161,
+            "brief_summary": "Enterobacterieaceae (and specially Escherichia coli) showing resistance due to multidrug-resistant Escherichia coli, plasmid mediated AmpC or quinolone resistance caused by chromosomal mechanisms have spread worldwide during the last decades. This is important because many of these isolates are also resistant to other first-line agents such as fluoroquinolones or aminoglycosides, leaving few available options for therapy, and this condition is associated with increased morbidity- mortality and l",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥18 years old hospitalized patients\n* Negative pregnancy test in fertile women\n* Episode of clinically-significant monomicrobial urinary BSI due to multidrug-resistant E.coli susceptible to fosfomycin and meropenem or ceftriaxone\n* Urinary sepsis with multidrug resistant E. co",
+            "endpoints": [
+              "Clinical and microbiological cure rate"
+            ],
+            "sponsor": "Fundación Pública Andaluza para la gestión de la Investigación en Sevilla",
+            "url": "https://clinicaltrials.gov/study/NCT02142751"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01764490",
+            "title": "Impact of Specific Antimicrobials and Minimal Inhibitory Concentration(MIC) Values on the Outcome of Bloodstream Infections Due to ESBL or Carbapenemase-producing Enterobacteriaceae: an Observational Multinational Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2013-01",
+            "completion_date": "2014-05",
+            "country": "Spain",
+            "enrollment": 1344,
+            "brief_summary": "Main objective: to observationally assess the efficacy of different antimicrobials in Bloodstream Infection (BSI) due to Enterobacteriaceae producing ESBLs or carbapenemases.\n\nSpecific objectives:\n\nBacteraemic infections due to ESBL-producing Enterobacteriaceae:\n\n* To demonstrate that β-lactam/β-lactam inhibitors are not associated with worse cure rate and mortality than carbapenems after controlling for confounders, both as empirical and definitive therapy.\n* To demonstrate that fluoroquinolone",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Episode of clinically-significant monomicrobial BSI due to ESBL or carbapenemase-producing Enterobacteriaceae, including community and nosocomial ones.\n\n  * For ESBL-producers, detection by standard phenotypic method as recommended by CLSI is enough (although PCR-based charact",
+            "endpoints": [
+              "Cure rate at day 14"
+            ],
+            "sponsor": "Spanish Network for Research in Infectious Diseases",
+            "url": "https://clinicaltrials.gov/study/NCT01764490"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03543436",
+            "title": "Temocillin Versus a Carbapenem as Initial Intravenous Treatment for Extended-spectrum Beta-lactamase Related Urinary Tract Infections, a Non-inferiority Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-01-04",
+            "completion_date": "2020-12-14",
+            "country": "France",
+            "enrollment": 29,
+            "brief_summary": "TEMO-CARB is a phase 3, randomized, controlled, multicentre, open-label pragmatic clinical trial to test the non-inferiority of temocillin versus carbapenem as initial intravenous treatment of Urinary Tract Infection (UTI) due to extended-spectrum beta-lactamase (ESBL) producing enterobacteriaceae.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult (≥ 18 years)\n* Hospitalized patient with clinically significant monomicrobial UTI\n* Complicated UTI due to ESBL producing enterobacteriaceae (pyelonephritis, prostatitis or renal abscess) requiring parenteral antimicrobial therapy\n* Susceptibility to temocillin and carba",
+            "endpoints": [
+              "Clinical and microbiological cure"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT03543436"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03840148",
+            "title": "A Phase 3, Randomized, Double-blind, Active Controlled Noninferiority Study Evaluating the Efficacy, Safety, and Tolerability of Cefepime/VNRX-5133 in Adults With Complicated Urinary Tract Infections (cUTI), Including Acute Pyelonephritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-08-07",
+            "completion_date": "2021-12-14",
+            "country": "Turkey (Türkiye), Romania, Croatia, Brazil, Argentina, Latvia, United States, China, Peru, Bulgaria, Hungary, Mexico, Russia, Ukraine, Serbia",
+            "enrollment": 661,
+            "brief_summary": "This study will assess the safety and efficacy of cefepime/VNRX-5133 compared with meropenem in both eradication of bacteria and in symptomatic response in patients with cUTIs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult male and female\n* Documented diagnosis of pyuria\n* Documented diagnosis of cUTI or Acute Pyelonephritis (AP)\n\nExclusion Criteria:\n\n* Receipt of effective antibacterial drug therapy for cUTI for more than 24 hours during the previous 72 hours prior to randomization\n* A ur",
+            "endpoints": [
+              "Composite Success at Test of Cure (TOC) in the Microbiological Intent-to-treat (microITT) Population"
+            ],
+            "sponsor": "Venatorx Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03840148"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03891433",
+            "title": "Piperacillin/Tazobactam Versus Carbapenems in Non-bacteremic Urinary Tract Infections Due to Extended-spectrum Β-lactamase (ESBL)-producing Escherichia Coli or Klebsiella Pneumoniae - (CAPITIS Study)",
+            "phase": "PHASE4",
+            "status": "SUSPENDED",
+            "start_date": "2019-04-01",
+            "completion_date": "2026-04-01",
+            "country": "Colombia",
+            "enrollment": 198,
+            "brief_summary": "This study evaluates the efficacy in achieving clinical cure in non-bacteremic urinary tract infections (UTI) caused by Escherichia coli or Klebsiella pneumoniae producers of extended-spectrum β-lactamases (ESBL) in adult patients. Half of participants will receive Piperacillin/Tazobactam as treatment, while the other half will receive Carbapenems.\n\nThe investigators will verify that Piperacillin/Tazobactam is not inferior in achieving clinical cure, and that is not associated with a higher risk",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (≥18 years) with hospital admission for non-bacteremic UTI caused by E. coli or K. pneumoniae ESBL susceptible to piperacillin/tazobactam and carbapenems.\n* Presence of any risk factor associated with UTI due to ESBL germs: older age 64 years, diabetes mellitus, bladder",
+            "endpoints": [
+              "Clinical cure."
+            ],
+            "sponsor": "Universidad del Norte",
+            "url": "https://clinicaltrials.gov/study/NCT03891433"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04278404",
+            "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2020-03-05",
+            "completion_date": "2027-09",
+            "country": "Canada, United States",
+            "enrollment": 5000,
+            "brief_summary": "The study investigators are interested in learning more about how drugs, that are given to children by their health care provider, act in the bodies of children and young adults in hopes to find the most safe and effective dose for children. The primary objective of this study is to evaluate the PK of understudied drugs currently being administered to children per SOC as prescribed by their treating provider.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participant is \\< 21 years of age\n2. Parent/ Legal Guardian/ Adult Participant can understand the consent process and is willing to provide informed consent/HIPAA:\n3. (a) Participant is receiving one or more of the study drugs of interest at the time of enrollment or (b) Part",
+            "endpoints": [
+              "Clearance (CL) or apparent oral clearance (CL/F) as measured by PK sampling",
+              "Volume of distribution (V) or apparent oral volume of distribution (V/F) as measured by PK sampling",
+              "Elimination rate constant (ke) as measured by PK sampling"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT04278404"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00771316",
+            "title": "A Phase 3, Randomized, Active Comparator-Controlled Clinical Trial to Study the Safety and Efficacy of MK0826 and Meropenem in Patients With Complicated Urinary Tract Infection",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2008-12",
+            "completion_date": "2009-06",
+            "country": "N/A",
+            "enrollment": 6,
+            "brief_summary": "The purpose of this study is to demonstrate that MK0826 is comparable to Meropenem in the treatment of complicated Urinary Tract Infections (UTIs) in adults.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has a clinically suspected and /or bacteriologically documented complicated UTI or acute pyelonephritis judged by the investigator to be serious\n* Patient has one positive urine culture within 48 hours of enrollment\n* Patient has one or more signs or symptoms of either",
+            "endpoints": [
+              "Number of Participants With Serious Urinary Tract Infection With an Overall Microbiological Response to MK0826 Compared to Meropenem at the 5 to 9 Day Post Therapy Early Follow-up Visit",
+              "Number of Participants With Serious Urinary Tract Infection With a Clinical Response to MK0826 Compared to Meropenem at Discontinuation of Intravenous Therapy (DCIV)",
+              "Number of Participants With Serious Urinary Tract Infection With an Overall Microbiological Response to MK0826 Compared to Meropenem at Discontinuation of Intravenous Therapy (DCIV)"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00771316"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02486627",
+            "title": "A Phase 3, Randomized, Multicenter, Double-Blind Study to Evaluate the Efficacy and Safety of Plazomicin Compared With Meropenem Followed by Optional Oral Therapy for the Treatment of Complicated Urinary Tract Infection (cUTI), Including Acute Pyelonephritis (AP), in Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-01-11",
+            "completion_date": "2016-09-22",
+            "country": "N/A",
+            "enrollment": 609,
+            "brief_summary": "This was a randomized, multicenter, multinational, double-blind study comparing the efficacy and safety of plazomicin compared with meropenem followed by optional oral (PO) therapy in the treatment of cUTI, including AP, in adults.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Pyuria\n* Have a pretreatment baseline urine culture obtained within 36 hours before the start of administration of the first dose of study drug\n* Clinical signs and/or symptoms of acute pyelonephritis or complicated urinary tract infection\n* Normal renal function or modera",
+            "endpoints": [
+              "Percentage of Patients With Composite of Microbiological Eradication and Clinical Cure in the Microbiological Modified ITT (mMITT) Population at Day 5",
+              "Percentage of Patients With Composite of Microbiological Eradication and Clinical Cure in the mMITT Population at Test of Cure (TOC)"
+            ],
+            "sponsor": "Achaogen, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02486627"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05568654",
+            "title": "Reducing Antimicrobial Overuse Through Targeted Therapy for Patients With Community-Acquired Pneumonia",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-11-01",
+            "completion_date": "2026-06-30",
+            "country": "United States",
+            "enrollment": 12500,
+            "brief_summary": "The purpose of this study is to reduce the exposure of broad-spectrum antimicrobials by optimizing the rapid detection of CAP pathogens and improving rates of de-escalation following negative cultures. To accomplish this, we will perform a 3-year, pragmatic, multicenter 2 X 2 factorial cluster randomized controlled trial with four arms: a) rapid diagnostic testing b) pharmacist-led de-escalation c) rapid diagnostic testing + pharmacist-led de-escalation and d) usual care",
+            "eligibility_criteria": "Inclusion Criteria for patient's records:\n\n1. Men or women greater than or equal to 18 years of age\n2. Admitted to a participating (i.e. enrolled and randomized) hospital\n3. Admitting diagnosis of pneumonia\n\nExclusion Criteria:\n\n1. Admission to intensive care unit within 24 hours of hospital admissi",
+            "endpoints": [
+              "Number of days of broad-spectrum antibiotic therapy"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT05568654"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29486041",
+            "title": "Effect of Meropenem-Vaborbactam vs Piperacillin-Tazobactam on Clinical Cure or Improvement and Microbial Eradication in Complicated Urinary Tract Infection: The TANGO I Randomized Clinical Trial.",
+            "abstract": "Meropenem-vaborbactam is a combination carbapenem/beta-lactamase inhibitor and a potential treatment for severe drug-resistant gram-negative infections.",
+            "journal": "JAMA",
+            "year": "2018",
+            "authors": [
+              "Kaye Keith S",
+              "Bhowmick Tanaya",
+              "Metallidis Symeon",
+              "Bleasdale Susan C",
+              "Sagan Olexiy S"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Equivalence Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Boronic Acids",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Intention to Treat Analysis",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29486041/"
+          },
+          {
+            "pmid": "35294769",
+            "title": "Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.",
+            "abstract": "Sulopenem (formerly known as CP-70,429, and CP-65,207 when a component of a racemic mixture with its R isomer) is an intravenous and oral penem that possesses in vitro activity against fluoroquinolone-resistant, extended spectrum β-lactamases (ESBL)-producing, multidrug-resistant (MDR) Enterobacterales. Sulopenem is being developed to treat patients with uncomplicated and complicated urinary tract infections (UTIs) as well as intra-abdominal infections. This review will focus mainly on its use in UTIs. The chemical structure of sulopenem shares properties of penicillins, cephalosporins, and carbapenems. Sulopenem is available as an oral prodrug formulation, sulopenem etzadroxil, which is hydrolyzed by intestinal esterases, resulting in active sulopenem. In early studies, the S isomer of CP-65,207, later developed as sulopenem, demonstrated greater absorption, higher drug concentrations in the urine, and increased stability against the renal enzyme dehydropeptidase-1 compared with the R",
+            "journal": "Drugs",
+            "year": "2022",
+            "authors": [
+              "Zhanel George G",
+              "Pozdirca Marianna",
+              "Golden Alyssa R",
+              "Lawrence Courtney K",
+              "Zelenitsky Sheryl"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Guinea Pigs",
+              "Humans",
+              "Male",
+              "Mice",
+              "Anti-Bacterial Agents",
+              "Bacteriuria",
+              "beta-Lactamases",
+              "Carbapenems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35294769/"
+          },
+          {
+            "pmid": "29230684",
+            "title": "Imipenem-Relebactam and Meropenem-Vaborbactam: Two Novel Carbapenem-β-Lactamase Inhibitor Combinations.",
+            "abstract": "Relebactam (formerly known as MK-7655) is a non-β-lactam, bicyclic diazabicyclooctane, β-lactamase inhibitor that is structurally related to avibactam, differing by the addition of a piperidine ring to the 2-position carbonyl group. Vaborbactam (formerly known as RPX7009) is a non-β-lactam, cyclic, boronic acid-based, β-lactamase inhibitor. The structure of vaborbactam is unlike any other currently marketed β-lactamase inhibitor. Both inhibitors display activity against Ambler class A [including extended-spectrum β-lactamases (ESBLs), Klebsiella pneumoniae carbapenemases (KPCs)] and class C β-lactamases (AmpC). Little is known about the potential for relebactam or vaborbactam to select for resistance; however, inactivation of the porin protein OmpK36 in K. pneumoniae has been reported to confer resistance to both imipenem-relebactam and meropenem-vaborbactam. The addition of relebactam significantly improves the activity of imipenem against most species of Enterobacteriaceae [by loweri",
+            "journal": "Drugs",
+            "year": "2018",
+            "authors": [
+              "Zhanel George G",
+              "Lawrence Courtney K",
+              "Adam Heather",
+              "Schweizer Frank",
+              "Zelenitsky Sheryl"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Boronic Acids",
+              "Drug Combinations",
+              "Drug Resistance, Bacterial",
+              "Heterocyclic Compounds, 1-Ring",
+              "Humans",
+              "Imipenem",
+              "Intraabdominal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29230684/"
+          },
+          {
+            "pmid": "32094128",
+            "title": "Meropenem-Vaborbactam versus Ceftazidime-Avibactam for Treatment of Carbapenem-Resistant Enterobacteriaceae Infections.",
+            "abstract": "The comparative efficacy of ceftazidime-avibactam and meropenem-vaborbactam for treatment of carbapenem-resistant Enterobacteriaceae (CRE) infections remains unknown. This was a multicenter, retrospective cohort study of adults with CRE infections who received ceftazidime-avibactam or meropenem-vaborbactam for ≥72 hours from February 2015 to October 2018. Patients with a localized urinary tract infection and repeat study drug exposures after the first episode were excluded. The primary endpoint was clinical success compared between treatment groups. Secondary endpoints included 30- and 90-day mortality, adverse events (AE), 90-day CRE infection recurrence, and development of resistance in patients with recurrent infection. A post hoc subgroup analysis was completed comparing patients who received ceftazidime-avibactam monotherapy, ceftazidime-avibactam combination therapy, and meropenem-vaborbactam monotherapy. A total of 131 patients were included (ceftazidime-avibactam, n = 105; mero",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2020",
+            "authors": [
+              "Ackley Renee",
+              "Roshdy Danya",
+              "Meredith Jacqueline",
+              "Minor Sarah",
+              "Anderson William E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Boronic Acids",
+              "Carbapenem-Resistant Enterobacteriaceae",
+              "Carbapenems",
+              "Ceftazidime",
+              "Cohort Studies",
+              "Drug Combinations",
+              "Drug Resistance, Multiple, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32094128/"
+          },
+          {
+            "pmid": "36726388",
+            "title": "Clinical Evaluation of Meropenem-Vaborbactam Combination for the Treatment of Urinary Tract Infection: Evidence to Date.",
+            "abstract": "As antimicrobial resistance continues to grow, one of the biggest threats includes the members of the Enterobacterales order presenting with carbapenem resistance (CRE). Meropenem-vaborbactam, along with other beta-lactam/beta-lactamase agents, has been developed to help combat this growing concern and is currently approved to treat complicated urinary tract infections (cUTI), as well as acute pyelonephritis (AP), in the USA. Vaborbactam is a novel beta-lactamase inhibitor designed specifically to optimize and restore the activity of meropenem against resistant Enterobacterales. Vaborbactam inhibits a number of beta-lactamases, including in vitro activity against extended-spectrum beta-lactamases (ESBL) and the Klebsiella pneumoniae carbapenemase (KPC) group. KPC represents one of the most clinically relevant carbapenemase in the USA, accounting for the majority of carbapenemase-producing CRE. Meropenem-vaborbactam has been studied in the two Phase 3, noninferiority trials, TANGO I and",
+            "journal": "Infection and drug resistance",
+            "year": "2023",
+            "authors": [
+              "Herald Fischer",
+              "Burgos Rodrigo M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36726388/"
+          },
+          {
+            "pmid": "33058798",
+            "title": "Cefiderocol versus high-dose, extended-infusion meropenem for the treatment of Gram-negative nosocomial pneumonia (APEKS-NP): a randomised, double-blind, phase 3, non-inferiority trial.",
+            "abstract": "Nosocomial pneumonia due to multidrug-resistant Gram-negative pathogens poses an increasing challenge. We compared the efficacy and safety of cefiderocol versus high-dose, extended-infusion meropenem for adults with nosocomial pneumonia.",
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2021",
+            "authors": [
+              "Wunderink Richard G",
+              "Matsunaga Yuko",
+              "Ariyasu Mari",
+              "Clevenbergh Philippe",
+              "Echols Roger"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Equivalence Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Cephalosporins",
+              "Double-Blind Method",
+              "Female",
+              "Gram-Negative Bacterial Infections",
+              "Healthcare-Associated Pneumonia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33058798/"
+          },
+          {
+            "pmid": "30712199",
+            "title": "Cefiderocol: A Siderophore Cephalosporin with Activity Against Carbapenem-Resistant and Multidrug-Resistant Gram-Negative Bacilli.",
+            "abstract": "Cefiderocol is an injectable siderophore cephalosporin discovered and being developed by Shionogi & Co., Ltd., Japan. As with other β-lactam antibiotics, the principal antibacterial/bactericidal activity of cefiderocol occurs by inhibition of Gram-negative bacterial cell wall synthesis by binding to penicillin binding proteins; however, it is unique in that it enters the bacterial periplasmic space as a result of its siderophore-like property and has enhanced stability to β-lactamases. The chemical structure of cefiderocol is similar to both ceftazidime and cefepime, which are third- and fourth-generation cephalosporins, respectively, but with high stability to a variety of β-lactamases, including AmpC and extended-spectrum β-lactamases (ESBLs). Cefiderocol has a pyrrolidinium group in the side chain at position 3 like cefepime and a carboxypropanoxyimino group in the side chain at position 7 of the cephem nucleus like ceftazidime. The major difference in the chemical structures of cef",
+            "journal": "Drugs",
+            "year": "2019",
+            "authors": [
+              "Zhanel George G",
+              "Golden Alyssa R",
+              "Zelenitsky Sheryl",
+              "Wiebe Karyn",
+              "Lawrence Courtney K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Carbapenems",
+              "Ceftazidime",
+              "Cephalosporins",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Drug Combinations",
+              "Drug Resistance, Multiple, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30712199/"
+          },
+          {
+            "pmid": "38688353",
+            "title": "Treatment of infections caused by multidrug-resistant Gram-negative bacilli: A practical approach by the Italian (SIMIT) and French (SPILF) Societies of Infectious Diseases.",
+            "abstract": "The emergence of multidrug-resistant Gram-negative bacilli and the development of new antibiotics have complicated the selection of optimal regimens. International guidelines are valuable tools, but are limited by the scarcity of high-quality randomized trials in many situations.",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2024",
+            "authors": [
+              "Meschiari Marianna",
+              "Asquier-Khati Antoine",
+              "Tiseo Giusy",
+              "Luque-Paz David",
+              "Murri Rita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Drug Resistance, Multiple, Bacterial",
+              "Gram-Negative Bacteria",
+              "Italy",
+              "Gram-Negative Bacterial Infections",
+              "Drug Combinations",
+              "France",
+              "Cephalosporins",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38688353/"
+          },
+          {
+            "pmid": "18416587",
+            "title": "Meropenem: a review of its use in the treatment of serious bacterial infections.",
+            "abstract": "Meropenem (Merrem, Meronem) is a broad-spectrum antibacterial agent of the carbapenem family, indicated as empirical therapy prior to the identification of causative organisms, or for disease caused by single or multiple susceptible bacteria in both adults and children with a broad range of serious infections. Meropenem is approved for use in complicated intra-abdominal infection (cIAI), complicated skin and skin structure infection (cSSSI) and bacterial meningitis (in paediatric patients aged > or = 3 months) in the US, and in most other countries for nosocomial pneumonia, cIAI, septicaemia, febrile neutropenia, cSSSI, bacterial meningitis, complicated urinary tract infection (UTI), obstetric and gynaecological infections, in cystic fibrosis patients with pulmonary exacerbations, and for the treatment of severe community-acquired pneumonia (CAP). Meropenem has a broad spectrum of in vitro activity against Gram-positive and Gram-negative pathogens, including extended-spectrum beta-lact",
+            "journal": "Drugs",
+            "year": "2008",
+            "authors": [
+              "Baldwin Claudine M",
+              "Lyseng-Williamson Katherine A",
+              "Keam Susan J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacterial Infections",
+              "Cost-Benefit Analysis",
+              "Drug Costs",
+              "Humans",
+              "Meropenem",
+              "Severity of Illness Index",
+              "Thienamycins",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18416587/"
+          },
+          {
+            "pmid": "35787918",
+            "title": "Clinical data from studies involving novel antibiotics to treat multidrug-resistant Gram-negative bacterial infections.",
+            "abstract": "Multidrug-resistant (MDR) Gram-negative bacteria (GNB) pose a critical threat to global healthcare, worsening outcomes and increasing mortality among infected patients. Carbapenemase- and extended-spectrum β-lactamase-producing Enterobacterales, as well as carbapenemase-producing Pseudomonas and Acinetobacter spp., are common MDR pathogens. New antibiotics and combinations have been developed to address this threat. Clinical trial findings support several combinations, notably ceftazidime-avibactam (CZA, a cephalosporin-β-lactamase inhibitor combination), which is effective in treating complicated urinary tract infections (cUTI), complicated intra-abdominal infections and hospital-acquired and ventilator-associated pneumonia caused by GNBs. Other clinically effective combinations include meropenem-vaborbactam (MVB), ceftolozane-tazobactam (C/T) and imipenem-relebactam (I-R). Cefiderocol is a recent siderophore β-lactam antibiotic that is useful against cUTIs caused by carbapenem-resist",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2022",
+            "authors": [
+              "Kanj Souha S",
+              "Bassetti Matteo",
+              "Kiratisin Pattarachai",
+              "Rodrigues Camilla",
+              "Villegas María Virginia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Carbapenems",
+              "Drug Resistance, Multiple, Bacterial",
+              "Gram-Negative Bacterial Infections",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "beta-Lactamase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35787918/"
+          },
+          {
+            "pmid": "39817442",
+            "title": "Efficacy of treatment options for complicated urinary tract infections including acute pyelonephritis: a systematic literature review and network meta-analysis.",
+            "abstract": "Aim: Compared with uncomplicated urinary tract infections (UTIs), complicated UTIs (cUTIs) including acute pyelonephritis (AP) present with significant morbidity, a higher risk of treatment failure and typically require longer courses of treatment, or alternative antibiotics. The emergence of drug-resistant organisms represents a considerable challenge in the treatment of patients with cUTIs/AP and has limited antibiotic options. Carbapenems are considered the current last line of therapy, however, carbapenem resistance represents a growing problem. Although several established and novel treatment options are available, direct comparative evidence is lacking. Methods: Randomized controlled trials (RCTs) were identified by systematic literature review of Embase®, MEDLINE® and Cochrane databases (database inception to 15th June 2022). Relevant conference proceedings (2020-2022) were also reviewed. Following feasibility assessment to verify network connectivity at an overall level, outcom",
+            "journal": "Journal of comparative effectiveness research",
+            "year": "2025",
+            "authors": [
+              "Wagenlehner Florian",
+              "Caballero Verónica Rico",
+              "Maheshwari Vikalp",
+              "Biswas Ayantika",
+              "Saini Priyanka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pyelonephritis",
+              "Urinary Tract Infections",
+              "Anti-Bacterial Agents",
+              "Randomized Controlled Trials as Topic",
+              "Acute Disease",
+              "Bayes Theorem",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39817442/"
+          },
+          {
+            "pmid": "37873539",
+            "title": "Prevalence and antibiogram of bacteria causing urinary tract infection among patients with chronic kidney disease.",
+            "abstract": "Identifying and appropriately managing urinary tract infections (UTIs) among chronic kidney disease (CKD) patients are essential to reduce further disease complications and economic burden. Hence, this study aims to determine the prevalence of UTIs among CKD patients and study the antibiogram of the bacterial isolates. Four hundred eighty-two clean catch midstream urine samples were collected from CKD patients during the study period. The samples were cultured, and bacteria were isolated using standard microbiological techniques. Antibiotic susceptibility testing was performed by the Kirby-Bauer disc diffusion method following the Clinical and Laboratory Standards Institute guidelines. Of the 482 CKD patients, 15.8% were culture positive, and the majority was elderly aged group population. Most bacterial isolates were Escherichia coli 50%, followed by Pseudomonas aeruginosa 15.80%, Enterococcus species 15.80%, and Klebsiella pneumoniae 11.84%. The majority of bacteria were found to be ",
+            "journal": "Open medicine (Warsaw, Poland)",
+            "year": "2023",
+            "authors": [
+              "Thapa Tika Bahadur",
+              "Pokhrel Sushant",
+              "Lamichhane Anit",
+              "Singh Vinay Kumar",
+              "Shrestha Ojaswee"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37873539/"
+          },
+          {
+            "pmid": "35062817",
+            "title": "Biapenem.",
+            "abstract": "Biapenem is a novel parenteral broad spectrum carbapenem primarily used for the treatment of complicated infections like sepsis, lower respiratory infections, urinary tract infections, intra-abdominal and genitourinary infections etc. in Japan, Thailand and China since two decades, has been recently approved in India. Biapenem shows good bactericidal activity against Gram-positive bacteria including streptococcus pneumoniae, pyogenes and methicillin-susceptible staphylococcus aureus (MSSA). It also shows antibacterial activities against Gram-negative bacteria including resistant Pseudomonas aeruginosa and Acinetobacter baumannii. Evidence from international studies confirmed that biapenem can be used as effectively and safely as meropenem or imipenem/ cilastatin in the treatment of various infectious diseases. This article summarizes the milestones, unique structure, mechanism of action, pharmacokinetics, special pharmacological properties and spectrum of in vitro activity of biapenem.",
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2022",
+            "authors": [
+              "Vora Agam",
+              "Tiwaskar Mangesh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Carbapenems",
+              "Humans",
+              "Meropenem",
+              "Microbial Sensitivity Tests",
+              "Thienamycins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35062817/"
+          },
+          {
+            "pmid": "36689671",
+            "title": "Safety and Efficacy of Ceftolozane/Tazobactam Versus Meropenem in Neonates and Children With Complicated Urinary Tract Infection, Including Pyelonephritis: A Phase 2, Randomized Clinical Trial.",
+            "abstract": "Ceftolozane/tazobactam, a cephalosporin-β-lactamase inhibitor combination, active against multidrug-resistant Gram-negative pathogens, is approved for treatment of adults with complicated urinary tract infections (cUTI). Safety and efficacy of ceftolozane/tazobactam in pediatric participants with cUTI, including pyelonephritis, were assessed.",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2023",
+            "authors": [
+              "Roilides Emmanuel",
+              "Ashouri Negar",
+              "Bradley John S",
+              "Johnson Matthew G",
+              "Lonchar Julia"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Infant, Newborn",
+              "Humans",
+              "Child",
+              "Meropenem",
+              "Escherichia coli",
+              "Penicillanic Acid",
+              "Cephalosporins",
+              "Tazobactam",
+              "Anti-Bacterial Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36689671/"
+          },
+          {
+            "pmid": "30270406",
+            "title": "Effect and Safety of Meropenem-Vaborbactam versus Best-Available Therapy in Patients with Carbapenem-Resistant Enterobacteriaceae Infections: The TANGO II Randomized Clinical Trial.",
+            "abstract": "Treatment options for carbapenem-resistant Enterobacteriaceae (CRE) infections are limited and CRE infections remain associated with high clinical failure and mortality rates, particularly in vulnerable patient populations. A Phase 3, multinational, open-label, randomized controlled trial (TANGO II) was conducted from 2014 to 2017 to evaluate the efficacy/safety of meropenem-vaborbactam monotherapy versus best available therapy (BAT) for CRE.",
+            "journal": "Infectious diseases and therapy",
+            "year": "2018",
+            "authors": [
+              "Wunderink Richard G",
+              "Giamarellos-Bourboulis Evangelos J",
+              "Rahav Galia",
+              "Mathers Amy J",
+              "Bassetti Matteo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30270406/"
+          },
+          {
+            "pmid": "37059343",
+            "title": "In vitro activity of imipenem/relebactam, meropenem/vaborbactam and comparators against Enterobacterales causing urinary tract infection in Taiwan: results from the Study for Monitoring Antimicrobial Resistance Trends (SMART), 2020.",
+            "abstract": "Antimicrobial resistance due to β-lactamase production is a worldwide issue, and β-lactamase inhibitors have been developed to overcome the growing problem. This study aimed to evaluate the in vitro activities of two recently introduced carbapenem/β-lactamase inhibitor combinations - imipenem/relebactam and meropenem/vaborbactam - and their comparators against Enterobacterales from patients with urinary tract infections (UTIs).",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2023",
+            "authors": [
+              "Chang Chih-Yen",
+              "Lee Yu-Lin",
+              "Huang Yu-Tsung",
+              "Ko Wen-Chien",
+              "Ho Mao-Wang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Meropenem",
+              "Taiwan",
+              "Drug Resistance, Bacterial",
+              "Azabicyclo Compounds",
+              "Imipenem",
+              "Urinary Tract Infections",
+              "beta-Lactamase Inhibitors",
+              "beta-Lactamases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37059343/"
+          },
+          {
+            "pmid": "30224941",
+            "title": "Catheter-Associated Urinary Tract Infection and Obstinate Biofilm Producers.",
+            "abstract": "Biofilms, or colonies of uropathogen growing on the surface of indwelling medical devices, can inflict obstinate or recurring infection, thought-provoking antimicrobial therapy.",
+            "journal": "The Canadian journal of infectious diseases & medical microbiology = Journal canadien des maladies infectieuses et de la microbiologie medicale",
+            "year": "2018",
+            "authors": [
+              "Maharjan Govinda",
+              "Khadka Priyatam",
+              "Siddhi Shilpakar Gomik",
+              "Chapagain Ganesh",
+              "Dhungana Guna Raj"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30224941/"
+          },
+          {
+            "pmid": "37284390",
+            "title": "Multidrug Resistance Urinary Tract Infection in Chronic Kidney Disease Patients: An Observational Study.",
+            "abstract": "To determine the presence of multidrug-resistant (MDR) urinary tract infections (UTI) and the MDR pattern of the bacterial isolates causing MDR UTI in chronic kidney disease (CKD) patients.",
+            "journal": "Cureus",
+            "year": "2023",
+            "authors": [
+              "Haque Sumon A H M Sanjedul",
+              "Al-Mahmood Md Rashid",
+              "Islam Khaza Amirul",
+              "Karim A N M Ehsanul",
+              "Aker Parvin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37284390/"
+          },
+          {
+            "pmid": "29427523",
+            "title": "Meropenem and Vaborbactam: Stepping up the Battle against Carbapenem-resistant Enterobacteriaceae.",
+            "abstract": "Vaborbactam (VAB; formerly RPX7009) is a novel beta-lactamase inhibitor based on a cyclic boronic acid pharmacophore with potent inhibitory activity against Ambler class A and C beta-lactamases. It has been co-formulated with meropenem to restore its activity against Klebsiella pneumoniae carbapenemases (KPC). VAB does not inhibit class B or D carbapenemases, nor does it improve the activity of meropenem against multidrug-resistant nonfermenting gram-negative bacilli, notably Acinetobacter spp. and Pseudomonas aeruginosa. The purpose of this article is to review existing data pertaining to the biochemistry, mechanism of action, pharmacokinetics/pharmacodynamics, in vitro activity, and current progress in clinical trials of meropenem and VAB (MV). Phase 1 studies have demonstrated single and multiple doses of VAB up to 2000 mg, alone or in combination with meropenem 2000 mg administered as a prolonged infusion over 3 hours, are well tolerated with an adverse effect profile similar to th",
+            "journal": "Pharmacotherapy",
+            "year": "2018",
+            "authors": [
+              "Jorgensen Sarah Christina Jane",
+              "Rybak Michael Joseph"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Area Under Curve",
+              "Bacterial Proteins",
+              "Boronic Acids",
+              "Carbapenem-Resistant Enterobacteriaceae",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Drug Combinations",
+              "Drug Resistance, Bacterial",
+              "Klebsiella Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29427523/"
+          },
+          {
+            "pmid": "37303774",
+            "title": "Urinary Tract Infection and Associated Factors among Pregnant Women Receiving Antenatal Care at a Primary Health Care Facility in the Northern Region of Ghana.",
+            "abstract": "Urinary tract infection (UTI) is frequently encountered during pregnancy and is associated with adverse maternal, fetal, and neonatal effects. However, very little information is available on the prevalence of UTI among pregnant women in the northern part of Ghana, a region with a high birth rate. This study employed a cross-sectional analysis of the prevalence, antimicrobial profile, and risk factors associated with UTI in 560 pregnant women attending primary care for antenatal check-ups. Sociodemographic obstetrical history and personal hygiene information were obtained using a well-structured questionnaire. Afterward, clean catch mid-stream urine samples were collected from all participants and subjected to routine microscopy examination and culture. Of 560 pregnant women, 223 cases (39.8%) were positive for UTI. There was a statistically significant association between sociodemographic, obstetric, and personal hygiene variables and UTI (p < 0.0001). Escherichia coli (27.8%) was the",
+            "journal": "International journal of microbiology",
+            "year": "2023",
+            "authors": [
+              "Vicar Ezekiel K",
+              "Acquah Samuel E K",
+              "Wallana Williams",
+              "Kuugbee Eugene D",
+              "Osbutey Emmanuel K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37303774/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Lyme disease",
+        "txgnn_score": 0.9946004152297974,
+        "txgnn_rank": 6820,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11282265",
+            "title": "In vitro activity of mezlocillin, meropenem, aztreonam, vancomycin, teicoplanin, ribostamycin and fusidic acid against Borrelia burgdorferi.",
+            "abstract": "The in vitro susceptibility profile of Borrelia burgdorferi is not yet well defined for several antibiotics. Our study explored the in vitro susceptibility of B. burgdorferi to mezlocillin, meropenem, aztreonam, vancomycin, teicoplanin, ribostamycin and fusidic acid. Minimal inhibitory concentrations (MICs) and minimal borreliacidal concentrations (MBCs) were measured using a standardised colorimetric microdilution method and conventional subculture experiments. MIC values were lowest for mezlocillin (MIC(90), < or =0.06 mg/l) and meropenem (MIC(90), 0.33 mg/l). Vancomycin (MIC(90), 0.83 mg/l) was less effective in vitro. Borreliae proved to be resistant to aztreonam (MIC(90), >32 mg/l), teicoplanin (MIC(90), 6.6 mg/l), ribostamycin (MIC(90), 32 mg/l), and fusidic acid (MIC(90), >4 mg/l). The mean MBCs resulting in 100% killing of the final inoculum after 72 h of incubation were lowest for mezlocillin (MBC, 0.83 mg/l). This study gathered further data on the in vitro susceptibility pat",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2001",
+            "authors": [
+              "Hunfeld K P",
+              "Weigand J",
+              "Wichelhaus T A",
+              "Kekoukh E",
+              "Kraiczy P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Aztreonam",
+              "Borrelia burgdorferi Group",
+              "Drug Resistance, Microbial",
+              "Fusidic Acid",
+              "Humans",
+              "Meropenem",
+              "Mezlocillin",
+              "Microbial Sensitivity Tests",
+              "Monobactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11282265/"
+          },
+          {
+            "pmid": "34702794",
+            "title": "A Unique Triad of Invasive Sinusitis, Brain Abscess with Focal Cerebritis, and COVID-19.",
+            "abstract": "BACKGROUND We present a case of invasive sinusitis with rhinocerebral infection in a patient who had mild symptoms of COVID-19 infection and did not receive any immunosuppressive therapies. CASE REPORT A 49-year-old man with a history of uncontrolled diabetes presented to the hospital with multiple generalized tonic clonic seizures. He had recently been diagnosed with mild COVID-19 and was treated at home with supportive care only. He was found to have cerebritis in the right frontal lobe along with right fronto-ethmoid sinusitis. He underwent extensive testing with nasal endoscopy with gram stain and culture, cryptococcal studies, 1-3-Beta-D glucan, blood cultures, fungal CSF studies, Lyme disease, HIV, Fungitell assay, and galactomannan studies, which were all negative. He was started on i.v. antibacterial therapy with cefepime, vancomycin, and metronidazole along with amphotericin B. After 2 weeks, his repeat imaging revealed progression of cerebritis along with new early abscess. G",
+            "journal": "The American journal of case reports",
+            "year": "2021",
+            "authors": [
+              "Shahab Ahmed",
+              "Arora Alok",
+              "Chhina Sultan S",
+              "Dhillon Saud",
+              "Nazir Umair"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Brain Abscess",
+              "COVID-19",
+              "Humans",
+              "Immunocompromised Host",
+              "Male",
+              "Middle Aged",
+              "SARS-CoV-2",
+              "Sinusitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34702794/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Peptostreptococcus infectious disease",
+        "txgnn_score": 0.9936994314193726,
+        "txgnn_rank": 7629,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9933320879936218,
+        "txgnn_rank": 7978,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9933320879936218,
+        "txgnn_rank": 7979,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00760",
+    "name": "Meropenem",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Meropenem"
+      },
+      "queried_at": "2026-03-09T15:52:20.743034",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Meropenem"
+      },
+      "queried_at": "2026-03-09T15:52:29.005420",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "bacterial arthritis"
+      },
+      "queried_at": "2026-03-09T15:52:30.145349",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "bacterial arthritis"
+      },
+      "queried_at": "2026-03-09T15:52:35.187284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "bacterial arthritis"
+      },
+      "queried_at": "2026-03-09T15:52:44.188241",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T15:52:44.924152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T15:52:52.248572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T15:52:56.296500",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "queried_at": "2026-03-09T15:52:57.676490",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "queried_at": "2026-03-09T15:53:02.900734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "queried_at": "2026-03-09T15:53:07.655133",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "laryngitis"
+      },
+      "queried_at": "2026-03-09T15:53:08.491120",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "laryngitis"
+      },
+      "queried_at": "2026-03-09T15:53:12.706542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "laryngitis"
+      },
+      "queried_at": "2026-03-09T15:53:15.992454",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "paratyphoid fever"
+      },
+      "queried_at": "2026-03-09T15:53:17.025825",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "paratyphoid fever"
+      },
+      "queried_at": "2026-03-09T15:53:25.254197",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "paratyphoid fever"
+      },
+      "queried_at": "2026-03-09T15:53:30.792432",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T15:53:40.722522",
+      "status": "success",
+      "result_count": 22,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T15:53:47.277665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T15:53:57.104242",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Lyme disease"
+      },
+      "queried_at": "2026-03-09T15:53:57.933172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Lyme disease"
+      },
+      "queried_at": "2026-03-09T15:54:02.532732",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Lyme disease"
+      },
+      "queried_at": "2026-03-09T15:54:05.534027",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Peptostreptococcus infectious disease"
+      },
+      "queried_at": "2026-03-09T15:54:06.391961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Peptostreptococcus infectious disease"
+      },
+      "queried_at": "2026-03-09T15:54:12.094276",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Peptostreptococcus infectious disease"
+      },
+      "queried_at": "2026-03-09T15:54:14.031994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T15:54:15.778631",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T15:54:21.150407",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T15:54:22.625240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T15:54:23.787842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T15:54:27.846030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meropenem",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T15:54:29.893932",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T15:54:29.914302"
+  }
+}

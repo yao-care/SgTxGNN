@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Velaglucerase alfa",
+    "drugbank_id": "DB06720",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Steel syndrome",
+        "txgnn_score": 0.9699232578277588,
+        "txgnn_rank": 21318,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.9619720578193665,
+        "txgnn_rank": 23756,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.9619720578193665,
+        "txgnn_rank": 23757,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypophosphatasia",
+        "txgnn_score": 0.950379490852356,
+        "txgnn_rank": 26605,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Wolman disease with hypolipoproteinemia and acanthocytosis",
+        "txgnn_score": 0.93992280960083,
+        "txgnn_rank": 28835,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal ichthyosis syndrome with fatal disease course",
+        "txgnn_score": 0.9373959302902222,
+        "txgnn_rank": 29262,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cholesteryl ester storage disease",
+        "txgnn_score": 0.929045557975769,
+        "txgnn_rank": 30809,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "varicose disease",
+        "txgnn_score": 0.9270190000534058,
+        "txgnn_rank": 31177,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant",
+        "txgnn_score": 0.9208329916000366,
+        "txgnn_rank": 32186,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "proximal myopathy with extrapyramidal signs",
+        "txgnn_score": 0.920629858970642,
+        "txgnn_rank": 32218,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06720",
+    "name": "Velaglucerase alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Velaglucerase alfa"
+      },
+      "queried_at": "2026-03-10T08:35:54.430381",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Velaglucerase alfa"
+      },
+      "queried_at": "2026-03-10T08:35:57.888777",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "Steel syndrome"
+      },
+      "queried_at": "2026-03-10T08:35:58.548129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "Steel syndrome"
+      },
+      "queried_at": "2026-03-10T08:36:01.522336",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "Steel syndrome"
+      },
+      "queried_at": "2026-03-10T08:36:02.198002",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T08:36:02.978514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T08:36:05.876925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T08:36:06.587931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T08:36:07.082064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T08:36:10.988987",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T08:36:11.687360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "hypophosphatasia"
+      },
+      "queried_at": "2026-03-10T08:36:12.345567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "hypophosphatasia"
+      },
+      "queried_at": "2026-03-10T08:36:16.032239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "hypophosphatasia"
+      },
+      "queried_at": "2026-03-10T08:36:16.747499",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      },
+      "queried_at": "2026-03-10T08:36:17.422351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      },
+      "queried_at": "2026-03-10T08:36:20.253934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      },
+      "queried_at": "2026-03-10T08:36:21.231801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "autosomal ichthyosis syndrome with fatal disease course"
+      },
+      "queried_at": "2026-03-10T08:36:21.998416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "autosomal ichthyosis syndrome with fatal disease course"
+      },
+      "queried_at": "2026-03-10T08:36:26.653666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "autosomal ichthyosis syndrome with fatal disease course"
+      },
+      "queried_at": "2026-03-10T08:36:27.380299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "cholesteryl ester storage disease"
+      },
+      "queried_at": "2026-03-10T08:36:27.892715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "cholesteryl ester storage disease"
+      },
+      "queried_at": "2026-03-10T08:36:32.512965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "cholesteryl ester storage disease"
+      },
+      "queried_at": "2026-03-10T08:36:33.927265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T08:36:35.322732",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T08:36:38.228598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T08:36:39.649695",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-10T08:36:40.303005",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-10T08:36:43.677135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-10T08:36:44.582228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "proximal myopathy with extrapyramidal signs"
+      },
+      "queried_at": "2026-03-10T08:36:46.485785",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "proximal myopathy with extrapyramidal signs"
+      },
+      "queried_at": "2026-03-10T08:36:50.156810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Velaglucerase alfa",
+        "disease": "proximal myopathy with extrapyramidal signs"
+      },
+      "queried_at": "2026-03-10T08:36:51.224859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:36:51.236136"
+  }
+}

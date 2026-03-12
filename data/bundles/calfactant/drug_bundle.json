@@ -1,0 +1,750 @@
+{
+  "drug": {
+    "inn": "Calfactant",
+    "drugbank_id": "DB06415",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "adult acute respiratory distress syndrome",
+        "txgnn_score": 0.9577705264091492,
+        "txgnn_rank": 24786,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00682500",
+            "title": "Calfactant Therapy for Direct Acute Respiratory Distress Syndrome & Direct Acute Lung Injury in Adults and Children",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2008-05",
+            "completion_date": "2011-02",
+            "country": "Australia, Canada, New Zealand, South Korea, Israel, United States",
+            "enrollment": 332,
+            "brief_summary": "This study will determine if administration of an suspension of calfactant, a lung surfactant, intratracheally in patients with Direct Acute Respiratory Distress Syndrome within 48 hours of requiring mechanical ventilation can decrease the mortality in patients with lethal disease and shorten the course of respiratory failure in patients with sub-lethal disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Respiratory failure due to diffuse infectious pneumonia, aspiration, near drowning, smoke inhalation or industrial gas\n2. Less than 48 hours of mechanical ventilation\n3. Informed consent\n\nExclusion Criteria:\n\n1. Pre-existing lung disease\n2. coma\n3. limited therapeutic goals (",
+            "endpoints": [
+              "Mortality Rate"
+            ],
+            "sponsor": "Pneuma Pharmaceuticals Incorporated",
+            "url": "https://clinicaltrials.gov/study/NCT00682500"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "25855884",
+            "title": "The Adult Calfactant in Acute Respiratory Distress Syndrome Trial.",
+            "abstract": "Surfactant has been shown to be dysfunctional in ARDS, and exogenous surfactant has proven effective in many forms of neonatal and pediatric acute lung injury (ALI). In view of the positive results of our studies in children along with evidence that surfactant-associated protein B containing pharmaceutical surfactants might be more effective, we designed a multiinstitutional, randomized, controlled, and masked trial of calfactant, a calf lung surfactant, in adults and children with ALI/ARDS due to direct lung injury.",
+            "journal": "Chest",
+            "year": "2015",
+            "authors": [
+              "Willson Douglas F",
+              "Truwit Jonathon D",
+              "Conaway Mark R",
+              "Traul Christine S",
+              "Egan Edmund E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Biological Products",
+              "Double-Blind Method",
+              "Early Termination of Clinical Trials",
+              "Female",
+              "Humans",
+              "Hypotension",
+              "Hypoxia",
+              "Length of Stay"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25855884/"
+          },
+          {
+            "pmid": "21048239",
+            "title": "Acute respiratory distress syndrome.",
+            "abstract": "Acute respiratory distress syndrome (ARDS) is a common diagnosis among children admitted to pediatric intensive care units. This heterogeneous disorder has numerous pulmonary and non-pulmonary causes and is associated with a significant risk of mortality. Many supportive therapies exist for ARDS. SEARCH: Literature search was performed by using the key words ARDS and related topics on the Pubmed search engine maintained by the National Heart, Lung, Blood Institute. Pediatric randomized controlled trials that have been published in the last 10 years were included. Emphasis was placed on pediatric literature, although sentinel adult studies have been included. Most of the evidence presented is of levels I and II.",
+            "journal": "Indian pediatrics",
+            "year": "2010",
+            "authors": [
+              "Prabhakaran Priya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biological Products",
+              "Child",
+              "Humans",
+              "Posture",
+              "Pulmonary Surfactants",
+              "Respiration, Artificial",
+              "Respiratory Distress Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21048239/"
+          },
+          {
+            "pmid": "23925143",
+            "title": "The relationship of fluid administration to outcome in the pediatric calfactant in acute respiratory distress syndrome trial.",
+            "abstract": "Adult studies have demonstrated the relationship between fluid overload and poor outcomes in acute lung injury/acute respiratory distress syndrome. The approach of pediatric intensivists to fluid management in acute lung injury/acute respiratory distress syndrome and its effect on outcomes is less clear. In a post hoc analysis of our Calfactant in Acute Respiratory Distress Syndrome trial, we examined the relationship of fluid balance to in-hospital outcomes in subjects with acute lung injury/acute respiratory distress syndrome.",
+            "journal": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
+            "year": "2013",
+            "authors": [
+              "Willson Douglas F",
+              "Thomas Neal J",
+              "Tamburro Robert",
+              "Truemper Edward",
+              "Truwit Jonathon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Biological Products",
+              "Blood Gas Analysis",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Fluid Therapy",
+              "Humans",
+              "Intensive Care Units, Pediatric",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23925143/"
+          },
+          {
+            "pmid": "15671432",
+            "title": "Effect of exogenous surfactant (calfactant) in pediatric acute lung injury: a randomized controlled trial.",
+            "abstract": "Despite evidence that patients with acute lung injury (ALI) have pulmonary surfactant dysfunction, trials of several surfactant preparations to treat adults with ALI have not been successful. Preliminary studies in children with ALI have shown that instillation of a natural lung surfactant (calfactant) containing high levels of surfactant-specific protein B may be beneficial.",
+            "journal": "JAMA",
+            "year": "2005",
+            "authors": [
+              "Willson Douglas F",
+              "Thomas Neal J",
+              "Markovitz Barry P",
+              "Bauman Loren A",
+              "DiCarlo Joseph V"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Biological Products",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Intubation, Intratracheal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15671432/"
+          },
+          {
+            "pmid": "17198050",
+            "title": "Insights in pediatric ventilation: timing of intubation, ventilatory strategies, and weaning.",
+            "abstract": "Mechanical ventilation is a common intervention provided by pediatric intensivists. This fact notwithstanding, the management of mechanical ventilation in pediatrics is largely guided by a few pediatric trials along with careful interpretation and application of adult data.",
+            "journal": "Current opinion in critical care",
+            "year": "2007",
+            "authors": [
+              "Turner David A",
+              "Arnold John H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Critical Care",
+              "Humans",
+              "Intensive Care Units, Pediatric",
+              "Pediatrics",
+              "Positive-Pressure Respiration",
+              "Respiration, Artificial",
+              "Tidal Volume",
+              "Time Factors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17198050/"
+          },
+          {
+            "pmid": "33493441",
+            "title": "Surfactant for the Treatment of ARDS in a Patient With COVID-19.",
+            "abstract": "Patients with COVID-19 report severe respiratory symptoms consistent with ARDS. The clinical presentation of ARDS in COVID-19 is often atypical, as patients with COVID-19 exhibit a disproportionate hypoxemia compared with relatively preserved lung mechanics. This pattern is more similar to neonatal respiratory distress syndrome secondary to surfactant deficiency, which has been shown to benefit from exogenous surfactant. We present our experience with exogenous surfactant treatment in a patient with COVID-19 experiencing COVID-19-related ARDS. The patient responded with improved oxygenation, and we believe surfactant was the catalyst for the successful extubation and clinical improvement of the patient.",
+            "journal": "Chest",
+            "year": "2021",
+            "authors": [
+              "Heching Moshe",
+              "Lev Shaul",
+              "Shitenberg Dorit",
+              "Dicker Dror",
+              "Kramer Mordechai R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "Biological Products",
+              "COVID-19",
+              "Critical Care",
+              "Drug Monitoring",
+              "Extracorporeal Membrane Oxygenation",
+              "Humans",
+              "Hypoxia",
+              "Lung",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33493441/"
+          },
+          {
+            "pmid": "20335386",
+            "title": "Surfactant composition and biophysical properties are important in clinical studies.",
+            "abstract": "",
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "2010",
+            "authors": [
+              "Willson Douglas F",
+              "Thomas Neal J"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Acute Lung Injury",
+              "Adult",
+              "Biological Products",
+              "Child",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Infant, Newborn",
+              "Pulmonary Surfactants",
+              "Respiratory Distress Syndrome",
+              "Respiratory Distress Syndrome, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20335386/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurolymphomatosis",
+        "txgnn_score": 0.8077956438064575,
+        "txgnn_rank": 41458,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary edema",
+        "txgnn_score": 0.7617449164390564,
+        "txgnn_rank": 43384,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00599651",
+            "title": "Randomized Controlled Trial of Surfactant Administration by Laryngeal Mask Airway (LMA)",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2005-06",
+            "completion_date": "2009-12",
+            "country": "United States",
+            "enrollment": 380,
+            "brief_summary": "In this protocol we will conduct a randomized controlled trial where babies with respiratory distress syndrome (RDS) who have not yet reached criteria for intubation, will be randomized to receive surfactant by LMA or to continue receiving standard therapy of nasal CPAP and supplemental oxygen. All babies will be given surfactant by endotracheal tube if they reach \"failure\" criteria, which is the standard criterion for surfactant administration (i.e., FiO2= 65% while receiving nasal CPAP).\n\nThe ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Birthweight \\> 1200 grams\n* Chronologic age \\< 72 hours.\n* Diagnosis of RDS by clinical and radiographic criteria.\n* Treated with nasal CPAP and supplemental oxygen \\> 30% and not requiring \\> 60% FiO2 for longer than 30 minutes to maintain SaO2 88-95%.\n* Parental consent.\n\nEx",
+            "endpoints": [
+              "The primary outcome measure is reaching or not reaching failure criterion (FiO2= 65% while receiving nasal CPAP)."
+            ],
+            "sponsor": "University of Virginia",
+            "url": "https://clinicaltrials.gov/study/NCT00599651"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "plasmacytoma",
+        "txgnn_score": 0.7371609210968018,
+        "txgnn_rank": 44192,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adult-onset myasthenia gravis",
+        "txgnn_score": 0.7354968786239624,
+        "txgnn_rank": 44221,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune disease of peripheral nervous system",
+        "txgnn_score": 0.7117272615432739,
+        "txgnn_rank": 44977,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atypical hemolytic-uremic syndrome with B factor anomaly",
+        "txgnn_score": 0.7075761556625366,
+        "txgnn_rank": 45121,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal myasthenia gravis",
+        "txgnn_score": 0.7070656418800354,
+        "txgnn_rank": 45136,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disease of receptor activity",
+        "txgnn_score": 0.7046259045600891,
+        "txgnn_rank": 45222,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myasthenia gravis with thymus hyperplasia",
+        "txgnn_score": 0.6926144957542419,
+        "txgnn_rank": 45562,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06415",
+    "name": "Calfactant",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Calfactant"
+      },
+      "queried_at": "2026-03-10T06:10:32.705842",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Calfactant"
+      },
+      "queried_at": "2026-03-10T06:10:33.774783",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult acute respiratory distress syndrome"
+      },
+      "queried_at": "2026-03-10T06:10:34.304885",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult acute respiratory distress syndrome"
+      },
+      "queried_at": "2026-03-10T06:10:37.573269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult acute respiratory distress syndrome"
+      },
+      "queried_at": "2026-03-10T06:10:39.477865",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neurolymphomatosis"
+      },
+      "queried_at": "2026-03-10T06:10:39.954232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neurolymphomatosis"
+      },
+      "queried_at": "2026-03-10T06:10:42.570775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neurolymphomatosis"
+      },
+      "queried_at": "2026-03-10T06:10:43.272127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "pulmonary edema"
+      },
+      "queried_at": "2026-03-10T06:10:43.753167",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "pulmonary edema"
+      },
+      "queried_at": "2026-03-10T06:10:46.726195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "pulmonary edema"
+      },
+      "queried_at": "2026-03-10T06:10:47.493189",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "plasmacytoma"
+      },
+      "queried_at": "2026-03-10T06:10:47.955088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "plasmacytoma"
+      },
+      "queried_at": "2026-03-10T06:10:51.205151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "plasmacytoma"
+      },
+      "queried_at": "2026-03-10T06:10:52.258773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult-onset myasthenia gravis"
+      },
+      "queried_at": "2026-03-10T06:10:52.703383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult-onset myasthenia gravis"
+      },
+      "queried_at": "2026-03-10T06:10:56.810572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult-onset myasthenia gravis"
+      },
+      "queried_at": "2026-03-10T06:10:57.508878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-10T06:10:58.154894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-10T06:11:00.978386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-10T06:11:01.710784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "queried_at": "2026-03-10T06:11:02.357795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "queried_at": "2026-03-10T06:11:05.505770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "queried_at": "2026-03-10T06:11:06.203551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-10T06:11:06.706853",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-10T06:11:10.410110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-10T06:11:11.127048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "disease of receptor activity"
+      },
+      "queried_at": "2026-03-10T06:11:11.786451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "disease of receptor activity"
+      },
+      "queried_at": "2026-03-10T06:11:15.456911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "disease of receptor activity"
+      },
+      "queried_at": "2026-03-10T06:11:16.156423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-10T06:11:16.670451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-10T06:11:20.770302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-10T06:11:22.251353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:11:22.276291"
+  }
+}

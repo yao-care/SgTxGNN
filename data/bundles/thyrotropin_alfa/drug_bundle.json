@@ -1,0 +1,1345 @@
+{
+  "drug": {
+    "inn": "Thyrotropin alfa",
+    "drugbank_id": "DB00024",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9998483657836914,
+        "txgnn_rank": 514,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.999785840511322,
+        "txgnn_rank": 648,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Raynaud disease",
+        "txgnn_score": 0.999601423740387,
+        "txgnn_rank": 997,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with or without aura, susceptibility to",
+        "txgnn_score": 0.9990789890289308,
+        "txgnn_rank": 1849,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phylogenetically different animals - from worms to monkeys. Our attention has been dedicated mainly to rodents.In clinical practice, developmental aspects of epilepsy often differ from those in adults. Animal models have often helped to clarify these differences. In this chapter, developmental aspects have been emphasized.Electrical stimulation and chemical-induced models of seizures have been described first, as they represent the oldest and most common models. Among these models, kindling raised g",
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiemetics",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22938964/"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is epilepsy. These are called idiopathic epilepsies, though this definition may change in the future. A few idiopathic epilepsies are monogenic disorders due to mutations in a variety of genes affecting neuronal excitability, synaptic transmission, or network development. Most cases have a complex etiology that combines predisposing genetic variants with nongenetic factors. Few of these have been identified so far and only in very few affected individuals, consisting mostly of deletions of critical ",
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Pharmacogenetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22266888/"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example, eslicarbazepine (a sodium and T-type channel blocker), lamotrigine (a sodium channel blocker and glutamate antagonist) or levetiracetam (a ligand of synaptic vehicle protein SV2A). Among the approved non-antiepileptic drugs, antiepileptogenic potential seems to reside in losartan (a blocker of angiotensin II type 1 receptors), biperiden (an antiparkinsonian drug), nonsteroidal anti-inflammatory drugs, antioxidative drugs and minocycline (a second-generation tetracycline with anti-inflammatory a",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Antioxidants",
+              "Biomarkers",
+              "Combined Modality Therapy",
+              "Dietary Supplements",
+              "Disease Susceptibility",
+              "Drug Discovery",
+              "Epilepsy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34575901/"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Cysteine",
+              "Epilepsy",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Male",
+              "Methylenetetrahydrofolate Reductase (NADPH2)",
+              "Odds Ratio",
+              "Polymorphism, Single Nucleotide",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30267335/"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postnatal period. Infants and young children who experience prolonged or repetitive seizures have an increased risk of subsequently developing epilepsy. Evidence to date suggests that status epilepticus produces permanent changes in the molecular and cellular structure of limbic circuitry that, in turn, result in a long-lasting increase in hippocampal excitability and lower seizure thresholds in later life.",
+            "journal": "Epilepsia",
+            "year": "2005",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain",
+              "Cerebellum",
+              "Child, Preschool",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Excitatory Amino Acids",
+              "Glutamates",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16201993/"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy and inflammation in some paradigmatic neurological and systemic disorders associated with epilepsy. In particular, we have chosen one representative form of epilepsy for each one of its actual known etiologies. A better understanding of the mechanistic link between neuroinflammation and epilepsy would be important to improve subject-based therapies, both for prophylaxis and for the treatment of epilepsy.",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biomarkers",
+              "Brain Neoplasms",
+              "Combined Modality Therapy",
+              "Disease Management",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34209535/"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility has not been explored extensively. Previous studies have reported that the alterations in the genes encoding ion channel proteins are common risk factors for both the diseases. The alterations in ion channel-encoding genes CACNAIA (T666M) and SCNIA (Q1489K and L1649Q) have been found to be involved in the development of familial hemiplegic migraine (FHM) as well as generalized epilepsy and some cases of focal epilepsy as well. The fact that both these disorders are treated with anti-epileptic dr",
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Calcium Channels",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Migraine Disorders",
+              "NAV1.1 Voltage-Gated Sodium Channel",
+              "Calcium Channels, N-Type"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33856647/"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most frequent differential diagnosis in epilepsy.",
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adaptation, Psychological",
+              "Anticonvulsants",
+              "Diagnosis, Differential",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Male",
+              "Mental Disorders",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19935934/"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the characterization of lesions present in both sporadic and familial epilepsy, especially where clinical features of affected cases depart from established syndromes. Copy number variants (CNVs) associated with epilepsy and a range of other syndromes and conditions can be recurrent due to nonallelic homologous recombination in regions of segmental duplication. The most common of the recurrent microdeletions associated with generalized epilepsy are typically seen at a frequency of ∼ 1% at 15q13.3, 16p13.",
+            "journal": "Epilepsia",
+            "year": "2011",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chromosome Banding",
+              "Chromosome Deletion",
+              "Chromosome Duplication",
+              "Chromosomes, Human, Pair 15",
+              "Chromosomes, Human, Pair 16",
+              "Comorbidity",
+              "Comparative Genomic Hybridization",
+              "Cytogenetic Analysis",
+              "DNA Copy Number Variations",
+              "Epilepsy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21269290/"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, though how it contributes to epileptogenesis, and the development of chronic, spontaneous seizure activity, remains poorly understood. A mechanistic understanding of how inflammation contributes to the development of epilepsy (epileptogenesis) after TBI is important to facilitate the identification of novel therapeutic strategies to reduce or prevent seizures. BODY: We reviewed previous clinical and pre-clinical data to evaluate the hypothesis that inflammation contributes to seizures and epileps",
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Injuries, Traumatic",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans",
+              "Inflammation",
+              "Seizures",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28086980/"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular dysfunction. Loss of mtDNA leads to loss of mitochondrial respiratory chain (MRC) components that, in turn, progressively disables energy metabolism. This critically balanced neuronal energy metabolism leads to both a chronic and continuous attrition (i.e., neurodegeneration) and it leaves the neurone unable to cope with increased demand that can trigger a potentially catastrophic cycle that results in acute focal necrosis. We believe that it is the onset of epilepsy that triggers the cascade o",
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebral Cortex",
+              "DNA Polymerase gamma",
+              "Disease Susceptibility",
+              "Electroencephalography",
+              "Epilepsy",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neurons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28837072/"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronically elevated intracellular glutamate level in astrocytes is instrumental to alterations in the metabolism of glycogen and leads to the synthesis of polyglucosans. Unaccessibility of glycogen-degrading enzymes to these insoluble molecules compromises the glycogenolysis-dependent reuptake of extracellular K(+) by astrocytes, thereby leading to increased extracellular K(+) and associated membrane depolarization. Based on current knowledge, we propose that the deterioration in structural homogeneity",
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Astrocytes",
+              "Convulsants",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Gliosis",
+              "Glucans",
+              "Glutamate-Ammonia Ligase",
+              "Glutamates",
+              "Glutamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24643875/"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cerebrovascular disease, infection, trauma, neurodegenerative disease, and autoimmune disorders. None of these acquired causes has been consistently shown to affect women or men to a greater or lesser degree, although some of the literature is contradictory or inadequate. There is almost no literature that addresses the effect of gender on the clinical course of epilepsy associated with these acquired causes. In addition, most studies of acquired causes do not take into account the incidence of the ",
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Injuries",
+              "Brain Neoplasms",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Male",
+              "Sex Characteristics",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24874544/"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cerebral Cortex",
+              "Disease Susceptibility",
+              "Epilepsy, Generalized",
+              "Electroencephalography",
+              "Immunoglobulin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36442376/"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were finally included. For KCNJ10 rs1130183, compared with population-based controls, a reduced epilepsy risk in cases was observed in models of allelic T vs. C, heterozygotic CT vs. CC, dominant CT + TT vs. CC, carrier T vs. C [all OR (odds ratio) <1, P < 0.05, Benjamini & Hochberg-adjusted P < 0.05, bonferroni-adjusted P < 0.05]. There were similar results in the subgroup analysis of \"Caucasian\". The positive conclusion was also statistically supported by the result of the FPRP test and TSA. Never",
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Case-Control Studies",
+              "Epilepsy",
+              "Gene Frequency",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Polymorphism, Single Nucleotide",
+              "Potassium Channels, Inwardly Rectifying",
+              "White People"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33187755/"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "journal": "Neurology",
+            "year": "2007",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Age of Onset",
+              "Aged",
+              "Belgium",
+              "Brain",
+              "Chromosome Mapping",
+              "Chromosomes, Human, Pair 9",
+              "Comorbidity",
+              "DNA Mutational Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17460155/"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associated with substance dependence and susceptibility to other disorders, including epilepsy and schizophrenia. The IVS1+A21573G, IVS1-T17286C, and TAA+A5359G polymorphisms in the OPRM1 gene may be associated with alcohol, opioid and tobacco dependence, respectively. However, some studies have failed to confirm the correlations between the polymorphisms and opioid effects and substance dependence. Further studies are needed to elucidate the molecular mechanisms underlying the effects of OPRM1 polymorph",
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Diabetes Mellitus",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Narcotic Antagonists",
+              "Obesity",
+              "Polymorphism, Single Nucleotide",
+              "Receptors, Opioid, mu"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21919606/"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile seizures). No specific models exist for syndromes (e.g., Lennox-Gastaut, Landau-Kleffner). The interaction between brain development and epilepsy in humans can be assisted by use of high resolution MRI, diffusion tensor imaging, and functional MRI.",
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Newborn",
+              "Anticonvulsants",
+              "Child",
+              "Child, Preschool",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16377142/"
+          },
+          {
+            "pmid": "12183340",
+            "title": "Disease modification in partial epilepsy.",
+            "abstract": "With the growth in antiepileptic drug treatment, the question arises as to what extent we are merely treating the symptom (i.e. the seizures) rather than the underlying disease process (i.e. epileptogenesis). Epileptogenicity can be considered as the process whereby structural and functional changes occur following an insult that in some cases result in epilepsy. Epileptogenicity also describes some of the changes and processes that contribute to the progression observed in some epilepsies. These processes have been modelled in animals mostly by the kindling model of epilepsy, in which repetition of subconvulsive stimuli results in a progressive epileptic state and eventually leads to spontaneous seizures. However, it is not clear that kindling has a human correlate, so models in which an initial insult (status epilepticus, hyperthermia, hypoxia, trauma) is followed by the development of lowered seizure threshold and, in some instances, spontaneous seizures have been used. These models",
+            "journal": "Brain : a journal of neurology",
+            "year": "2002",
+            "authors": [
+              "Walker M C",
+              "White H S",
+              "Sander J W A S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Animals",
+              "Anticonvulsants",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsies, Partial",
+              "Humans",
+              "Kindling, Neurologic",
+              "Seizures, Febrile",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12183340/"
+          },
+          {
+            "pmid": "10716662",
+            "title": "Susceptibility genes in human epilepsy.",
+            "abstract": "Major advances in the identification of genetic loci and genes that predispose individuals to epilepsy have been made in the last several years. Two main themes for human, idiopathic epilepsies are emerging; genetic, or locus heterogeneity is not uncommon, and the discovery that epilepsy susceptibility genes are voltage-gated and ligand-gated ion channels. Knowledge that more than a single genetic locus is responsible for a single seizure type, along with a wide spectrum of disease mutations among families will complicate clinical, diagnostic issues. Disease gene identification, such as the two potassium ion channels (KCNQ2 and KCNQ3) for the two forms of benign familial neonatal seizures (BFNC) and the alpha4 subunit of the nicotinic receptor for autosomal dominant nocturnal frontal lobe epilepsy (ADNFLE), however, should yield significant advances in drug discoveries. Understanding the primary defect in inherited epilepsies provides for specific protein and pathway targets for potent",
+            "journal": "Seminars in neurology",
+            "year": "1999",
+            "authors": [
+              "Leppert M F",
+              "Singh N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chromosome Mapping",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10716662/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrophoderma vermiculata",
+        "txgnn_score": 0.9986435770988464,
+        "txgnn_rank": 2553,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulerythema ophryogenesis",
+        "txgnn_score": 0.9984123706817628,
+        "txgnn_rank": 2875,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9983693957328796,
+        "txgnn_rank": 2936,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.9980601668357848,
+        "txgnn_rank": 3321,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postural orthostatic tachycardia syndrome",
+        "txgnn_score": 0.9969410300254822,
+        "txgnn_rank": 4656,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.9964917302131652,
+        "txgnn_rank": 5116,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00145366",
+            "title": "Pretreatment With Recombinant Human Thyrotropin (rhTSH) for the Effect on Thyroid Size and Function, and for the Effect of Radioiodine Treatment in Patients With Nodular Goiter. Prospective, Randomized Double-blinded Trials.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2002-04",
+            "completion_date": "2005-07",
+            "country": "Denmark",
+            "enrollment": 110,
+            "brief_summary": "The trials in this protocol deals with the effect of pretreatment with rhTSH on radioiodine treatment of thyroid size and function, in patients with nontoxic and toxic nodular goiter. It is an introduction of a novel principle, based on prospective, randomized double blind investigations. Attached to this, we investigate the acute effects of rhTSH on thyroid size (measured by ultrasonography), both in healthy individuals and in patients with nontoxic nodular goiter. Thus, the investigations are ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy volunteers with an intact thyroid gland\n* Patients with nontoxic/subtoxic nodular goiter confirmed by ultrasonography\n* Patients with toxic nodular goiter\n* Patients with Graves' disease\n\nExclusion Criteria:\n\n* Treatment with drugs that alter thyroid function or size (",
+            "endpoints": [
+              "Ultrasonography/MR of the thyroid gland/benign goiter, in order to determine thyroid size after intervention."
+            ],
+            "sponsor": "Odense University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00145366"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00454220",
+            "title": "Study to Evaluate the Dose, Safety and Effectiveness of Modified-Release Recombinant Human Thyroid Stimulating Hormone (MRrhTSH) When Used in Conjunction With Radioiodine for the Treatment of Multinodular Goiter.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-07",
+            "completion_date": "2011-07",
+            "country": "France, Canada, Brazil, Netherlands, Germany, Italy, Denmark, United States",
+            "enrollment": 96,
+            "brief_summary": "The purpose of this study is to determine the safety and effectiveness of 2 different doses of modified-release recombinant human thyroid stimulating hormone (MRrhTSH) when administered with radioiodine in patients with multinodular goiter, a condition that involves the enlargement of the thyroid gland. We will also evaluate the safety and effectiveness of radioiodine therapy alone in these patients. The goal of the treatment is to determine if there was a reduction in the size of the goiter and",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of multinodular goiter, judged clinically and by ultrasound at Screening to be at least 40 mL, but less than or equal to 140 mL in size.\n* Clinically free of thyroid cancer as determined by Fine Needle Aspiration (FNA) of all dominant and/or highly suspiciou",
+            "endpoints": [
+              "Change from baseline to 6 months in goiter size by computer tomography (CT) scan.",
+              "Extension Phase: Change in goiter size by CT scan at 36 months versus baseline, Months 6, 12 and 24"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT00454220"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15557418",
+            "title": "Incidence of thyroid dysfunction during interferon alfa-2b and ribavirin therapy in men with chronic hepatitis C: a prospective cohort study.",
+            "abstract": "Thyroid dysfunction is a known complication of interferon monotherapy in women with hepatitis C virus (HCV) infection. The aims of this study were to determine the incidence and long-term outcome of thyroid dysfunction in HCV-infected men receiving interferon and ribavirin combination therapy.",
+            "journal": "Archives of internal medicine",
+            "year": "2004",
+            "authors": [
+              "Bini Edmund J",
+              "Mehandru Saurabh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Drug Therapy, Combination",
+              "Follow-Up Studies",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Interferon alpha-2",
+              "Interferon-alpha",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15557418/"
+          },
+          {
+            "pmid": "23517287",
+            "title": "Patterns of interferon-alpha-induced thyroid dysfunction vary with ethnicity, sex, smoking status, and pretreatment thyrotropin in an international cohort of patients treated for hepatitis C.",
+            "abstract": "Interferon-alpha (IFNα)-induced thyroid dysfunction occurs in up to 20% of patients undergoing therapy for hepatitis C. The diversity of thyroid disease presentations suggests that several different pathological mechanisms are involved, such as autoimmunity and direct toxicity. Elucidating the relationships between risk factors and disease phenotype provides insight into the mechanisms of disease pathophysiology.",
+            "journal": "Thyroid : official journal of the American Thyroid Association",
+            "year": "2013",
+            "authors": [
+              "Mammen Jennifer S",
+              "Ghazarian Sharon R",
+              "Rosen Antony",
+              "Ladenson Paul W"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Asia",
+              "Biomarkers",
+              "Chi-Square Distribution",
+              "Europe",
+              "Female",
+              "Hepatitis C",
+              "Humans",
+              "Hypothyroidism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23517287/"
+          },
+          {
+            "pmid": "23469650",
+            "title": "Thyroid function in patients with chronic hepatitis C virus infection under interferon therapy.",
+            "abstract": "The study examined 60 HCV patients with normal baseline levels of TSH. The patients received subcutaneous pegylated interferon a-2b weekly in addition to oral ribavirin. Before the start of the interferon therapy, serum TSH, thyroglobulin-Ab (TG-Ab) and antiperoxidase antibodies (TPO-Ab) were measured. Three months after interferon therapy serum levels of TSH were measured to all patients; patients with abnormal TSH were subjected to the measurements of FT3, FT4, TPO-Ab, TG-Ab, and thyroid stimulating immunoglobulin levels (TSI). After 3 months of therapy, 48 patients (80%) had normal TSH, and 12 patients (20%) had abnormal TSH. Of 12 patients with abnormal TSH 10 (16.6%) had high levels of TSH (hypothyroidism), while the other two (3.4%) had low levels of TSH (Hyperthyroidism). Of 10 patients with hypothyroidisms, 6 patients (10%) had overt hypothyroidism and 4 patients (6.6%) had subclinical hypothyroidism. All patients with abnormal TSH had significant higher levels of TG-Ab, TPO-Ab",
+            "journal": "Journal of the Egyptian Society of Parasitology",
+            "year": "2012",
+            "authors": [
+              "Abdel-Kader Mohammad E",
+              "Azmy Mohamed K",
+              "Hassan Mahmoud A",
+              "Ahmad Youssef K",
+              "El-Dahshan Tarek"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Female",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Hyperthyroidism",
+              "Hypothyroidism",
+              "Interferon alpha-2",
+              "Interferon-alpha",
+              "Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23469650/"
+          },
+          {
+            "pmid": "17376035",
+            "title": "Pegylated interferon-alpha2beta in combination with ribavirin does not aggravate thyroid dysfunction in comparison to regular interferon-alpha2beta in a hepatitis C population: meta-analysis.",
+            "abstract": "Interferon (IFN) has been well documented to cause thyroid dysfunction, especially in high risk patients and when combined with ribavirin (RBV). There is very sparse data to assess if pegylated IFN will further aggravate the thyroid disease risk in comparison to regular IFN. The purpose of this study was to assess the risk of developing thyroid disease with pegylated IFN (pIFN) versus regular IFN (rIFN) therapy (in combination with RBV). We also pooled our results with previous studies in a meta-analysis.",
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2007",
+            "authors": [
+              "Tran Huy A",
+              "Attia John R",
+              "Jones Tracey L",
+              "Batey Robert G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Drug Combinations",
+              "Female",
+              "Hepatitis C, Chronic",
+              "Humans",
+              "Interferon alpha-2",
+              "Interferon-alpha",
+              "Male",
+              "Middle Aged",
+              "Polyethylene Glycols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17376035/"
+          },
+          {
+            "pmid": "24930451",
+            "title": "Can pegylated interferon α 2a cause development of thyroid disorders in patients with chronic hepatitis B?",
+            "abstract": "Hepatitis B virus infection is treated with pegylated (Peg) IFNα and nucleos(t)ide analogues. The disadvantages of PegIFNα include thyroid disorders. In this single-center study, the type, incidence and consequences of thyroid dysfunction in patients receiving PegIFNα due to chronic hepatitis B (CHB) were analyzed.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2014",
+            "authors": [
+              "Kozielewicz Dorota",
+              "Zaleśna Agnieszka",
+              "Dybowska Dorota"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Female",
+              "Hepatitis B, Chronic",
+              "Humans",
+              "Hyperthyroidism",
+              "Hypothyroidism",
+              "Incidence",
+              "Interferon-alpha",
+              "Iodide Peroxidase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24930451/"
+          },
+          {
+            "pmid": "21845321",
+            "title": "[Interferon-induced autoimmune thyroiditis in a patient with hepatitis C virus infection].",
+            "abstract": "A 43 year old man presented with asymptomatic elevation of alanine aminotransferase (ALT) and no relevant past history. The patient denied being a chronic alcohol drinker. Work-up revealed an active hepatitis C, and liver biopsy showed active inflammation. Treatment was started with interferon-alfa and ribavirin. During the 48 weeks of treatment, the patient developed positive thyroid antibodies with varying level of thyrotropin (TSH) and thyroid hormones. At follow-up after treatment, the patient continued with hyperthyroidism due to Graves' disease. Autoimmune thyroiditis is a common complication of using interferon in patients with hepatitis C. In some cases, it is presented as hyperthyroidism because of Graves' disease. Thyroid function and thyroid antibodies should be evaluated before and during treatment with interferon.",
+            "journal": "Revista peruana de medicina experimental y salud publica",
+            "year": "2011",
+            "authors": [
+              "Pinto José L",
+              "Pinto Miguel E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Hepatitis C",
+              "Humans",
+              "Interferon-alpha",
+              "Male",
+              "Thyroiditis, Autoimmune"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21845321/"
+          },
+          {
+            "pmid": "20710148",
+            "title": "Interferon alpha-induced hashimoto thyroiditis followed by transient graves disease in a patient with chronic HCV infection.",
+            "abstract": "The case of a 37-year-old man with chronic hepatitis C virus (HCV) infection is presented. The patient had received a 6-month course of antiviral therapy with peg interferon alpha-2a and ribavirin, with concomitant clearance of hepatitis C virus ribonucleic acid (HCV-RNA) from serum at the end of treatment. Three months after the treatment course he developed clinical and laboratory features of hypothyroidism along with high titers of thyroid peroxidase antibodies. Later on, while on treatment with levothyroxine, he developed all the clinical features of Graves disease along with increased levels of thyroid stimulating hormone (TSH)-receptor antibodies.This patient exhibited a rare sequence of immune-mediated thyroid disorders as a result of interferon alpha treatment. At the end of treatment, the patient developed Hashimoto thyroiditis, a typically Th1-response-mediated disease, followed sequentially after 6 months by Graves disease, a typically Th2-response-mediated disorder. Althoug",
+            "journal": "Southern medical journal",
+            "year": "2010",
+            "authors": [
+              "Savvas Savvas P",
+              "Papakostas Nikolaos",
+              "Giannaris Markos",
+              "Malaktari Sophia",
+              "Koskinas John"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antiviral Agents",
+              "Autoantibodies",
+              "Autoantigens",
+              "Disease Progression",
+              "Drug Therapy, Combination",
+              "Follow-Up Studies",
+              "Graves Disease",
+              "Hashimoto Disease",
+              "Hepatitis C, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20710148/"
+          },
+          {
+            "pmid": "1587439",
+            "title": "Development of thyroid disease during therapy of chronic viral hepatitis with interferon alfa.",
+            "abstract": "Six of 237 (2.5%) patients with chronic viral hepatitis who were treated with recombinant interferon alfa developed thyroid disease while on treatment. Three patients developed hyperthyroidism, two of whom developed detectable levels of thyroid-stimulating immunoglobulin; three patients developed hypothyroidism in association with high titers of antithyroglobulin and/or antimicrosomal antibodies. The thyroid disease did not remit when interferon therapy was stopped, and all six patients required definitive therapy for the thyroid disease. These findings suggest that a small proportion of patients treated with interferon alfa develop autoimmune reactions and can develop autoimmune thyroid disease.",
+            "journal": "Gastroenterology",
+            "year": "1992",
+            "authors": [
+              "Lisker-Melman M",
+              "Di Bisceglie A M",
+              "Usala S J",
+              "Weintraub B",
+              "Murray L M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Autoimmune Diseases",
+              "Chronic Disease",
+              "Female",
+              "Hepatitis, Viral, Human",
+              "Humans",
+              "Interferon Type I",
+              "Male",
+              "Middle Aged",
+              "Recombinant Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1587439/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00024",
+    "name": "Thyrotropin alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Thyrotropin alfa"
+      },
+      "queried_at": "2026-03-09T10:15:41.102200",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Thyrotropin alfa"
+      },
+      "queried_at": "2026-03-09T10:16:01.952241",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T10:16:03.279014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T10:16:07.106595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T10:16:08.261606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T10:16:11.122637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T10:16:15.853186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T10:16:17.652575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-09T10:16:18.606432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-09T10:16:24.453854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-09T10:16:26.210645",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-09T10:16:27.515767",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-09T10:16:31.404239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-09T10:16:38.259581",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-09T10:16:38.873857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-09T10:16:42.689785",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-09T10:16:43.844057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-09T10:16:44.679859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-09T10:16:49.017772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-09T10:16:50.570547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T10:16:51.289714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T10:16:55.233933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T10:16:56.163522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T10:16:56.717989",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T10:17:01.289181",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T10:17:03.605976",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-09T10:17:04.187384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-09T10:17:08.458971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-09T10:17:09.288968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T10:17:10.372130",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T10:17:14.341328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Thyrotropin alfa",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T10:17:16.853453",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:17:16.877968"
+  }
+}

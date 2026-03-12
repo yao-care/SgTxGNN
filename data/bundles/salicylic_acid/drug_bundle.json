@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Salicylic acid",
+    "drugbank_id": "DB00936",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.99881112575531,
+        "txgnn_rank": 2315,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9978138208389282,
+        "txgnn_rank": 3648,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9972612857818604,
+        "txgnn_rank": 4287,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9954559803009032,
+        "txgnn_rank": 6111,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9953309893608092,
+        "txgnn_rank": 6208,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9951531887054444,
+        "txgnn_rank": 6361,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9951367974281312,
+        "txgnn_rank": 6370,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9948775172233582,
+        "txgnn_rank": 6579,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9943817257881165,
+        "txgnn_rank": 7036,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "spondyloarthropathy, susceptibility to",
+        "txgnn_score": 0.993440806865692,
+        "txgnn_rank": 7878,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00936",
+    "name": "Salicylic acid",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Salicylic acid"
+      },
+      "queried_at": "2026-03-09T18:20:04.840294",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Salicylic acid"
+      },
+      "queried_at": "2026-03-09T18:20:07.331738",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:20:07.875026",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:20:13.058124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:20:14.196461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:14.890526",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:18.465586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:19.436183",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:20.264620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:24.450394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:25.445150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:26.070628",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:31.597245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T18:20:33.871001",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:20:34.881258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:20:40.120228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:20:41.376518",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T18:20:42.707390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T18:20:48.391951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T18:20:50.185677",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T18:20:50.876511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T18:20:55.434447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T18:20:57.845343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T18:20:59.192765",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T18:21:04.124277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T18:21:05.315428",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T18:21:07.239550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T18:21:11.635601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T18:21:12.971589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T18:21:13.642654",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T18:21:17.598529",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Salicylic acid",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T18:21:19.124077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:21:19.128306"
+  }
+}

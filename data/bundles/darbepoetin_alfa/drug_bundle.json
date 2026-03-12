@@ -1,0 +1,605 @@
+{
+  "drug": {
+    "inn": "Darbepoetin alfa",
+    "drugbank_id": "DB00012",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.9673346281051636,
+        "txgnn_rank": 22118,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renin-angiotensin-aldosterone system-blocker-induced angioedema",
+        "txgnn_score": 0.9646332263946532,
+        "txgnn_rank": 22955,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.9314866065979004,
+        "txgnn_rank": 30350,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05340465",
+            "title": "Trial of Darbepoetin Plus Slow-release Intravenous Iron to Decrease Transfusions and Improve Iron Status and Neurodevelopment in Preterm Infants",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-11-27",
+            "completion_date": "2027-06-30",
+            "country": "United States",
+            "enrollment": 120,
+            "brief_summary": "In this phase II trial, the investigators overarching goal is to demonstrate the feasibility and potential benefit of darbepoetin (Darbe) plus slow-release intravenous (IV) iron to decrease transfusions, maintain iron sufficiency and improve the neurodevelopmental outcomes of preterm infants.\n\nInvestigators hypothesize that in infants \\< 32 completed weeks of gestation, combined treatment with Darbe plus Ferumoxytol (FMX) or Darbe plus low molecular weight iron dextran (LMW-ID) will: 1) be safe,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n• NICU patients (male and female) born at 24-0/7 to 31-6/7 weeks of gestation\n\nAll patients who meet inclusion criteria will be approached without regard to sex, race, ethnicity, parents' country of origin, or religious preferences.\n\nExclusion Criteria:\n\n* Known fetal/infant ano",
+            "endpoints": [
+              "Plasma Ferritin at 35-36 weeks PMA",
+              "Number of IV iron doses required to maintain a ferritin level of > 75 ng/mL",
+              "Number of Blood transfusions"
+            ],
+            "sponsor": "University of Washington",
+            "url": "https://clinicaltrials.gov/study/NCT05340465"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00838097",
+            "title": "A Prospective Registry Study Observing the Safety and Patterns of Use of Darbepoetin Alfa in EU Paediatric Chronic Kidney Disease Patients Receiving or Not Receiving Dialysis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2008-02",
+            "completion_date": "2013-02",
+            "country": "N/A",
+            "enrollment": 321,
+            "brief_summary": "This European study observes paediatric patients with Chronic Kidney Disease using Darbepoetin Alfa to assess the drug's long term safety and profile the patterns of its use within this population.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Anaemia attributed to Chronic Kidney Disease (CKD)\n* Sixteen years of age or under\n* Documented CKD as demonstrated by estimated glomerular filtration rate (eGFR) \\<60 mL/min/1.73m² (Schwartz equation) for ≥3 months if not on dialysis, or: Receiving dialysis\n* Treatment with d",
+            "endpoints": [
+              "Number of Participants With Serious Adverse Drug Reactions (SADR), Serious Adverse Events (SAEs) or Events of Medical Interest (EMIs)"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT00838097"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05768997",
+            "title": "Prospective, Multicenter, Randomized Phase 3 Trial of High Dose IV Iron in Combination of Erythrocytosis Stimulating Agents in Chemotherapy Induced Anemia With Functional Iron Deficiency",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-03-01",
+            "completion_date": "2025-12-31",
+            "country": "South Korea",
+            "enrollment": 312,
+            "brief_summary": "This study is a multicenter, prospective, randomized phase 3 clinical study comparing the efficacy and safety of the combination treatment of ESA and high-dose IV iron (darbepoietin alfa + ferric derisomaltose/iron isomaltoside) with ESA monotherapy (darbepoietin alfa alone) in CIA patients with functional iron deficiency.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient who has signed a written consent\n\n  * Age ≥ 19 ③ Histologically diagnosed advanced/metastatic solid cancer\n\n    * Patients who have received myelosuppressive chemotherapy for palliative purposes within 1 month of participating in the study and plan to proceed with chem",
+            "endpoints": [
+              "Mean Hb change"
+            ],
+            "sponsor": "Hallym University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05768997"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24129045",
+            "title": "Desensitization of darbepoetin-α: a case report.",
+            "abstract": "Human recombinant erythropoietins (EPO) and darbepoetins are widely used for anemias associated with chronic kidney disease.  Allergic reactions to erythropoetins and darbepoetins have only occasionally been reported. These skin reactions include pruritus, wheals at the injection site, orofacial anaphylaxis and anjioedema. In this article, we report an 11 year-old female who experienced generalized   erithematous skin eruption and desquamation after both erythropoietin and darbepoetin treatments.  We successfully used darbepoetin with the support of premedication and desensitization.",
+            "journal": "European annals of allergy and clinical immunology",
+            "year": "2013",
+            "authors": [
+              "Tahan F",
+              "Akar H H",
+              "Dursun I",
+              "Yilmaz K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Darbepoetin alfa",
+              "Desensitization, Immunologic",
+              "Drug Hypersensitivity",
+              "Erythropoietin",
+              "Female",
+              "Hematinics",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24129045/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "psoriasis",
+        "txgnn_score": 0.9270055890083312,
+        "txgnn_rank": 31181,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40519492",
+            "title": "Deucravacitinib Treatment for Psoriasis Complicated by Myelodysplastic Syndrome Without Exacerbation of the Underlying Hematologic Disorder: A Case Report.",
+            "abstract": "Psoriasis is a chronic, immune-mediated inflammatory skin disease associated with systemic comorbidities such as cardiovascular disease and autoimmune disorders. Deucravacitinib, a selective oral tyrosine kinase 2 (TYK2) inhibitor, has demonstrated strong efficacy and safety in the treatment of psoriasis. However, its use in patients with hematologic malignancies, such as myelodysplastic syndrome (MDS), has not been thoroughly investigated. We report the case of a 73-year-old man with psoriasis vulgaris complicated by MDS and chronic kidney disease (CKD). The patient had a long-standing history of psoriasis managed with topical therapies but experienced an acute flare, presenting with erythema, scaling, and pustules involving over 40% of the body surface area (Psoriasis Area and Severity Index (PASI) score: 28.8). Given his underlying MDS and the need for a safe therapeutic option, deucravacitinib (6 mg once daily) was initiated. Over eight months of treatment, the patient's skin lesio",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Mima Yoshihito",
+              "Yamamoto Masako",
+              "Iozumi Ken"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40519492/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "penile fibromatosis",
+        "txgnn_score": 0.9217271208763124,
+        "txgnn_rank": 32014,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "food-dependent exercise-induced anaphylaxis",
+        "txgnn_score": 0.9196888208389282,
+        "txgnn_rank": 32378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Peyronie disease",
+        "txgnn_score": 0.9193882942199708,
+        "txgnn_rank": 32426,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ledderhose disease",
+        "txgnn_score": 0.9113922119140624,
+        "txgnn_rank": 33532,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infantile digital fibromatosis",
+        "txgnn_score": 0.910616099834442,
+        "txgnn_rank": 33631,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HER2 positive breast carcinoma",
+        "txgnn_score": 0.9090186953544616,
+        "txgnn_rank": 33847,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00012",
+    "name": "Darbepoetin alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Darbepoetin alfa"
+      },
+      "queried_at": "2026-03-10T08:50:39.815960",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Darbepoetin alfa"
+      },
+      "queried_at": "2026-03-10T08:50:42.920305",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T08:50:43.628991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T08:50:46.893102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T08:50:47.528941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T08:50:48.019322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T08:50:52.324074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T08:50:54.024265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T08:50:55.350993",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T08:50:58.622614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T08:51:00.748245",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T08:51:01.288371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T08:51:05.036864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T08:51:09.138859",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T08:51:09.768289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T08:51:13.854342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T08:51:15.552414",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T08:51:16.123925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T08:51:20.776637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T08:51:22.492208",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "Peyronie disease"
+      },
+      "queried_at": "2026-03-10T08:51:23.222542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "Peyronie disease"
+      },
+      "queried_at": "2026-03-10T08:51:26.920848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "Peyronie disease"
+      },
+      "queried_at": "2026-03-10T08:51:27.980346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T08:51:28.719240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T08:51:31.821429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T08:51:33.467535",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "infantile digital fibromatosis"
+      },
+      "queried_at": "2026-03-10T08:51:33.925367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "infantile digital fibromatosis"
+      },
+      "queried_at": "2026-03-10T08:51:38.282953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "infantile digital fibromatosis"
+      },
+      "queried_at": "2026-03-10T08:51:39.219517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T08:51:40.722675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T08:51:44.762104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darbepoetin alfa",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T08:51:46.024045",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:51:46.032942"
+  }
+}

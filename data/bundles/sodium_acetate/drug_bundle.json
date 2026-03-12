@@ -1,0 +1,962 @@
+{
+  "drug": {
+    "inn": "Sodium acetate",
+    "drugbank_id": "DB09395",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "congenital prothrombin deficiency",
+        "txgnn_score": 0.999788463115692,
+        "txgnn_rank": 643,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottitis",
+        "txgnn_score": 0.9977434873580932,
+        "txgnn_rank": 3726,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.9968736171722412,
+        "txgnn_rank": 4729,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04302467",
+            "title": "Effects of Goal-directed Fluid Therapy and Restrictive Fluid Therapy During Operation Combined With Enhanced Recovery After Surgery Protocol on Acute Kidney Injury After Thoracoscopic Lobectomy in High Risk Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-05-01",
+            "completion_date": "2022-08-31",
+            "country": "China",
+            "enrollment": 276,
+            "brief_summary": "Background: Acute kidney injury (AKI) often occurs after thoracoscopic lobectomy in high risk patients. Insufficient intraoperative infusion is risk factor of AKI. Goal-directed fluid therapy (GDFT) is individualized fluid infusion strategy, the infusion rate and type is adjusted according to the individual's fluid response. GDFT during operation can reduce the incidence of AKI after major surgery. Enhanced recovery after surgery (ERAS) integrates a range of perioperative interventions to decrea",
+            "eligibility_criteria": "Inclusion Criteria: patients comply any of the following criteria will be enrolled\n\n* Age\\>70 years old\n* Forced expiratory volume in 1 second (FEV1)\\<60%\n* Carbon monoxide lung diffusion capacity (DLCO)\\<60%\n* History of coronary artery disease\n\nExclusion Criteria: patients comply any of the follow",
+            "endpoints": [
+              "number of participants with acute kidney injury"
+            ],
+            "sponsor": "First Affiliated Hospital Xi'an Jiaotong University",
+            "url": "https://clinicaltrials.gov/study/NCT04302467"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01808261",
+            "title": "Study MAG104615, a Proof of Concept Study for GSK249320 Versus Placebo in Stroke Patients",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2013-05-18",
+            "completion_date": "2014-07-28",
+            "country": "Germany, Canada, United States, United Kingdom",
+            "enrollment": 134,
+            "brief_summary": "Study MAG104615, a Proof of Concept Study for GSK249320 versus placebo in Stroke Patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a confirmed diagnosis of stroke according to the World Health Organization definition which is, 'a rapid onset event of vascular origin reflecting a focal disturbance of cerebral function, excluding isolated impairments of higher function, and persisting longer than 24 ho",
+            "endpoints": [
+              "Mean Change From Baseline (BL) to Month 3/ Day 90 in Gait Velocity"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01808261"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "34792197",
+            "title": "Crocetin attenuating Urinary tract Infection and adherence of uropathogenic E. coli in NRK-52E cells via an inflammatory pathway.",
+            "abstract": "Urinary tract infections (UTI) are commonly treated with broad-spectrum antibiotics, but treatment has limitation due to causes of nephrotoxicity in uroepithelial cells. Recently, the researcher focuses their research on alternative therapy for the treatment of UTI. This study evaluated the anti-infectious effect of crocetin against adherence of pathogenic [2-14 C]-acetate labeled Escherichia coli (MTCC-729) to rat proximal renal tubular cells (NRK-52E cells) and explores the possible mechanism of action.",
+            "journal": "Journal of food biochemistry",
+            "year": "2021",
+            "authors": [
+              "Yang Jian",
+              "Qiu Xin",
+              "Zhou Meilan",
+              "Wang Di"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Carotenoids",
+              "Rats",
+              "Urinary Tract Infections",
+              "Uropathogenic Escherichia coli",
+              "Vitamin A"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34792197/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.9961206316947936,
+        "txgnn_rank": 5492,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9956539869308472,
+        "txgnn_rank": 5922,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9956539869308472,
+        "txgnn_rank": 5923,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dyspepsia",
+        "txgnn_score": 0.995646059513092,
+        "txgnn_rank": 5933,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25962328",
+            "title": "Plasma ghrelin and liquid gastric emptying in children with functional dyspepsia consistent with post-prandial distress syndrome.",
+            "abstract": "Adult studies indicate a role for ghrelin in functional dyspepsia (FD) mediated through ghrelin's effect on gastric emptying (GE). This study examines the relationship between ghrelin, liquid GE, and pain in children with FD.",
+            "journal": "Neurogastroenterology and motility",
+            "year": "2015",
+            "authors": [
+              "Hijaz N M",
+              "Friesen C A",
+              "Schurman J V",
+              "Pearce R E",
+              "Abdel-Rahman S M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Breath Tests",
+              "Carbon Isotopes",
+              "Child",
+              "Dyspepsia",
+              "Female",
+              "Gastric Emptying",
+              "Ghrelin",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25962328/"
+          },
+          {
+            "pmid": "25394661",
+            "title": "SCFA transport in rat duodenum.",
+            "abstract": "Bacterial or ingested food-derived short-chain fatty acids (SCFAs) are present in the duodenal lumen. Acetate, the most abundant SCFA in the foregut lumen, is absorbed immediately after ingestion, although the mechanism by which this absorption occurs is not fully understood. We investigated the distribution and function of candidate SCFA transporters in rat duodenum. The Na(+)-coupled monocarboxylate transporter-1 (SMCT1) was localized to the brush border, whereas the pH-dependent monocarboxylate transporter (MCT) 1 and MCT4 were localized to the duodenocyte basolateral membrane. In Ussing chambered duodenal mucosa, luminal acetate dose-dependently increased short-circuit current (Isc) in the presence of serosal bumetanide and indomethacin by a luminal Na(+)-dependent, ouabain-sensitive mechanism. The Isc response was inhibited dose-dependently by the SMCT1 nonsubstrate inhibitor ibuprofen, consistent with net electrogenic absorption of acetate via SMCT1. Other SCFAs and lactate also ",
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2015",
+            "authors": [
+              "Kaji Izumi",
+              "Iwanaga Toshihiko",
+              "Watanabe Masahiko",
+              "Guth Paul H",
+              "Engel Eli"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biological Transport",
+              "Duodenum",
+              "Fatty Acids, Volatile",
+              "Hydrogen-Ion Concentration",
+              "Intestinal Absorption",
+              "Intestinal Mucosa",
+              "Male",
+              "Models, Animal",
+              "Propionates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25394661/"
+          },
+          {
+            "pmid": "18705281",
+            "title": "Gastric emptying before and after cholecystectomy in patients with cholecystolithiasis.",
+            "abstract": "The objective of the present study was to measure gastric emptying time of solids and semisolids in dyspeptic individuals with cholecystolithiasis before and 6 months after cholecystectomy in order to determine whether cholecystectomy interferes with gastric emptying.",
+            "journal": "Hepato-gastroenterology",
+            "year": "2008",
+            "authors": [
+              "Vignolo Maria Cristina",
+              "Savassi-Rocha Paulo Roberto",
+              "Coelho Luiz Gonzaga Vaz",
+              "Soares Marcela Penna",
+              "Cardoso-Júnior Aloísio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Breath Tests",
+              "Caprylates",
+              "Carbon Isotopes",
+              "Cholecystectomy",
+              "Dyspepsia",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18705281/"
+          },
+          {
+            "pmid": "29031770",
+            "title": "Effects of three major amino acids found in Japanese broth on glucose metabolism and gastric emptying.",
+            "abstract": "To our knowledge, the effect of the broth of dried kelp and dried bonito, dashi, on glucose metabolism and digestion has rarely been studied. Based on the component analysis of three actual broths served in traditional restaurants, a chemically synthesized broth with three free amino acids (histidine, glutamate, aspartate) and salt was prepared to investigate their effect on glucose metabolism, glucose-dependent insulinotropic polypeptide (GIP), and glucagon-like peptide 1 (GLP-1) secretion, and digestion.",
+            "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+            "year": "2018",
+            "authors": [
+              "Mano Fumika",
+              "Ikeda Kaori",
+              "Joo Erina",
+              "Yamane Shunsuke",
+              "Harada Norio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Amino Acids",
+              "Animals",
+              "Aspartic Acid",
+              "Blood Glucose",
+              "C-Peptide",
+              "Cross-Over Studies",
+              "Diet",
+              "Female",
+              "Fishes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29031770/"
+          },
+          {
+            "pmid": "17074022",
+            "title": "Gastric emptying time of fluids and solids in healthy subjects determined by 13C breath tests: influence of age, sex and body mass index.",
+            "abstract": "Disturbance of gastric emptying leads to a variety of symptoms. Furthermore, gastric motility disorders might play a role in the pathophysiology of functional dyspepsia. In previous studies 13C breath tests were validated as non-invasive tools in the measurement of gastric emptying time. So far, reliable reference values of healthy subjects are missing and the impact of constitutional traits (age, sex, body mass index [BMI]) needs to be clarified.",
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2006",
+            "authors": [
+              "Hellmig Stephan",
+              "Von Schöning Florian",
+              "Gadow Christof",
+              "Katsoulis Stavros",
+              "Hedderich Jürgen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Body Mass Index",
+              "Breath Tests",
+              "Caprylates",
+              "Carbon Radioisotopes",
+              "Female",
+              "Follow-Up Studies",
+              "Gastric Emptying",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17074022/"
+          },
+          {
+            "pmid": "1810053",
+            "title": "[The treatment of protracted forms of Flexner dysentery].",
+            "abstract": "The clinical efficacy of sodium nucleinate (SN) combined with splenin and quercetin given for lingering Flexner's dysentery in a group of 43 patients was compared with that of routine therapy used in a group of the same number of patients. It has been established that the above drug combination favours the elimination of the pathological symptoms of dyspepsia, the arrest of bacterial isolation and normalization of the immune status. Provided the effect of the combined drug treatment is insufficient, the method of choice is the administration of gene engineering alpha 2-interferon (reaferon) in combination with tocopherol acetate and rectal suppositories containing methyluracil.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "1991",
+            "authors": [
+              "Iushchuk N D",
+              "Frolov V M",
+              "Peresadin N A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Immunologic",
+              "Adult",
+              "Chronic Disease",
+              "Drug Evaluation",
+              "Drug Therapy, Combination",
+              "Dysentery, Bacillary",
+              "Humans",
+              "Immunity, Cellular",
+              "Middle Aged",
+              "Nucleic Acids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1810053/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine inflammatory disease",
+        "txgnn_score": 0.9948457479476928,
+        "txgnn_rank": 6618,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00604825",
+            "title": "A Parallel-group, Double-blind, Randomized, Placebo-controlled, Active Comparator, Multicenter Study to Evaluate the Efficacy, Safety, Tolerability and Pharmacokinetics of Two Doses of GSK232802 Administered Orally as Monotherapy for 12 Weeks in Healthy Postmenopausal Women With Moderate to Extremely Severe Vasomotor Symptoms",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-07-17",
+            "completion_date": "2008-07-23",
+            "country": "Australia, Spain, United Kingdom, New Zealand, Germany, Argentina, Italy, United States, Sweden",
+            "enrollment": 356,
+            "brief_summary": "The purpose of this study is to determine whether GSK232802 is safe and effective in reducing the frequency and severity of hot flashes associated with menopause.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nA subject will be eligible for inclusion in this study only if all of the following criteria apply:\n\n* Postmenopausal women aged 40 to 65 years old; postmenopausal defined as:\n\n  i.Amenorrheic for at least 12 consecutive months\\* OR ii.At least 6 weeks post-surgical bilateral oo",
+            "endpoints": [
+              "Number of Participants With Adverse Events (AE) and Serious Adverse Events (SAE) and Number of Participants With Mild, Moderate and Severe AE",
+              "Change From Baseline in Vital Signs of Systolic Blood Pressure (SBP) and Diastolic Blood Pressure (DBP) at Week 12",
+              "Change From Baseline in Vital Sign of Heart Rate at Week 12"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00604825"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "2890597",
+            "title": "Comparison of corticosteroid therapy in the prevention of pelvic tissue reaction and adhesion formation.",
+            "abstract": "The purpose of this research was to compare the effect of glucocorticoids administered in equivalent doses with respect to inflammatory response, fibrosis and adhesion formation. The animal model used was the Sprague-Dawley rat. The surgical technique involved incision and eversion of a portion of the proximal uterine horn. The glucocorticoids administered included methylprednisolone acetate (Medrol, The Upjohn Company), 6.25 mg/kg; hydrocortisone acetate (Hydrocortisone, Merck Sharp and Dohme), 25 mg/kg; betamethasone phosphate (Celestone Phosphate Injection, Schering Corp.), 1 mg/kg; and dexamethasone sodium phosphate (Hexadrol, Organon Pharmaceuticals), 1 mg/kg. These glucocorticoids were compared with a control solution of normal sodium chloride for injection (Abbott Laboratories), 0.5 mL/rat. Four weeks after the initial surgery, the uterine horns were histologically evaluated for inflammatory response, fibrosis and adhesion formation. Betamethasone phosphate produced a significan",
+            "journal": "International journal of fertility",
+            "year": "1986",
+            "authors": [
+              "Sanfilippo J S",
+              "Cox J G",
+              "Nealon N A",
+              "Barrows G H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Betamethasone",
+              "Dexamethasone",
+              "Disease Models, Animal",
+              "Female",
+              "Fibrosis",
+              "Hydrocortisone",
+              "Methylprednisolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2890597/"
+          },
+          {
+            "pmid": "25462212",
+            "title": "Is montelukast effective in regression of endometrial implants in an experimentally induced endometriosis model in rats?",
+            "abstract": "Montelukast, a selective antagonist of Type 1 cysteinyl leukotriene receptors (CysLT1Rs), antagonizes the proinflammatory and proasthmatic activities of CysLT1Rs. We investigated the effect of montelukast on a surgically induced endometriosis rat model.",
+            "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+            "year": "2015",
+            "authors": [
+              "Kiykac Altinbas Sadiman",
+              "Tapisiz Omer Lutfi",
+              "Cavkaytar Sabri",
+              "Simsek Gulcin",
+              "Oguztuzun Serpil"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Cyclopropanes",
+              "Disease Models, Animal",
+              "Endometriosis",
+              "Endometrium",
+              "Female",
+              "Leuprolide",
+              "Matrix Metalloproteinase 2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25462212/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroparesis (disease)",
+        "txgnn_score": 0.9946997165679932,
+        "txgnn_rank": 6735,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01993680",
+            "title": "A Monocentric Randomized, Controlled, Double Blind, Crossover Phase II Trial to Show Non-inferiority of the Effect of Pyridostigmine Bromide vs. Fludrocortisone on Symptoms of Autonomic Dysregulation in Parkinson's Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-06",
+            "completion_date": "2016-04-01",
+            "country": "Switzerland",
+            "enrollment": 18,
+            "brief_summary": "Disabling symptoms of blood pressure dysregulation, impaired swallowing and digestion are common amongst Parkinson's patients. So far the exact pathophysiology for this is not fully understood. There are results from pathological analyses that the autonomic nervous system is also affected by the accumulation of alpha-Synuclein and that this might even happen in very early stages of the disease process (Qualman et al., 1984; Wakabayashi et al., 1989; Wakabayashi et al., 1990; Bloch et al., 2006).",
+            "eligibility_criteria": "Inclusion criteria:\n\n* informed, written \\& formal consent for participation\n* male / female subjects, aged 50-80 years\n* PD patients (18 subjects with symptomatic orthostatic hypotension)\n\nExclusion criteria: - Antihypertensive treatment\n\n* medication influencing gastrointestinal motility for at le",
+            "endpoints": [
+              "Changes in diastolic blood pressure drop on Schellong manoeuvre",
+              "Changes in half emptying time t50 on 13C-sodium octanoate breath test"
+            ],
+            "sponsor": "University of Zurich",
+            "url": "https://clinicaltrials.gov/study/NCT01993680"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01467765",
+            "title": "The Comparative Study of Elemental Diet and Regular Liquid Diet on Gastric Emptying in Patients With Percutaneous Endoscopic Gastrostomy",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2011-11",
+            "completion_date": "2012-04",
+            "country": "Japan",
+            "enrollment": 20,
+            "brief_summary": "In patients with percutaneous endoscopic gastrostomy (PEG) delayed gastric emptying has been speculated as a cause of aspiration pneumonia. Elemental diet may facilitate gastric emptying in PEG patients as compared with regular liquid enteral nutrients, resulting in the prevention of aspiration pneumonia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* percutaneous endoscopic gastrostomy patients\n\nExclusion Criteria:\n\n* history of abdominal surgery",
+            "endpoints": [
+              "Measurement of gastric emptying"
+            ],
+            "sponsor": "Showa Inan General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01467765"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24375669",
+            "title": "Nizatidine ameliorates gastroparesis in Parkinson's disease: a pilot study.",
+            "abstract": "The objective of this work was to perform an open trial of the effects of nizatidine (NZT), a selective histamine H2-receptor antagonist and a cholinomimetic, on gastroparesis in Parkinson's disease (PD) patients, using objective parameters given by a gastric emptying study using a (13) C-sodium acetate expiration breath test.",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2014",
+            "authors": [
+              "Doi Hirokazu",
+              "Sakakibara Ryuji",
+              "Sato Mitsutoshi",
+              "Hirai Shigekazu",
+              "Masaka Tohru"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Female",
+              "Gastroparesis",
+              "Histamine H2 Antagonists",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Nizatidine",
+              "Parkinson Disease",
+              "Pilot Projects"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24375669/"
+          },
+          {
+            "pmid": "24457529",
+            "title": "Dietary herb extract rikkunshi-to ameliorates gastroparesis in Parkinson's disease: a pilot study.",
+            "abstract": "To perform an open trial on the effects of the extract of the dietary herb Rikkunshi-to (RKT) on gastroparesis in Parkinson's disease (PD) patients, using objective parameters given by the (13)C-sodium acetate expiration breath test (gastric emptying study).",
+            "journal": "European neurology",
+            "year": "2014",
+            "authors": [
+              "Doi Hirokazu",
+              "Sakakibara Ryuji",
+              "Sato Mitsutoshi",
+              "Hirai Shigekazu",
+              "Masaka Tohru"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Breath Tests",
+              "Drugs, Chinese Herbal",
+              "Female",
+              "Gastric Emptying",
+              "Gastroparesis",
+              "Humans",
+              "Male",
+              "Parkinson Disease",
+              "Pilot Projects"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24457529/"
+          },
+          {
+            "pmid": "27090486",
+            "title": "Effects of the neurokinin-1 antagonist maropitant on canine gastric emptying assessed by radioscintigraphy and breath test.",
+            "abstract": "Delayed gastric emptying is a well-recognised phenomenon in a number of canine disease conditions. Only a limited number of drugs have been reported to have some gastrokinetic effect in the dog. The aim of this study was to investigate prokinetic effects of maropitant.",
+            "journal": "Tierarztliche Praxis. Ausgabe K, Kleintiere/Heimtiere",
+            "year": "2016",
+            "authors": [
+              "Schmitz Silke",
+              "Fink Tamara",
+              "Failing Klaus",
+              "Borsch Christian",
+              "Kunz Clemens"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Breath Tests",
+              "Cisapride",
+              "Cross-Over Studies",
+              "Dog Diseases",
+              "Dogs",
+              "Gastric Emptying",
+              "Gastrointestinal Agents",
+              "Gastroparesis",
+              "Neurokinin-1 Receptor Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27090486/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "xanthogranulomatous pyelonephritis",
+        "txgnn_score": 0.9945619702339172,
+        "txgnn_rank": 6858,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09395",
+    "name": "Sodium acetate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sodium acetate"
+      },
+      "queried_at": "2026-03-09T10:55:21.688229",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sodium acetate"
+      },
+      "queried_at": "2026-03-09T10:55:35.242687",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-09T10:55:35.823775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-09T10:55:40.736038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-09T10:55:41.987718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T10:55:43.033824",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T10:55:46.328416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T10:55:47.441540",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T10:55:50.239926",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T10:55:54.442825",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T10:55:57.200948",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-09T10:55:57.792968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-09T10:56:02.323990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-09T10:56:04.124691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T10:56:04.972962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T10:56:09.384091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T10:56:10.648295",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T10:56:11.389030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T10:56:17.789633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T10:56:18.639335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-09T10:56:19.584012",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-09T10:56:23.918756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-09T10:56:26.265103",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T10:56:27.492176",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T10:56:31.991946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T10:56:34.225237",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-09T10:56:34.824172",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-09T10:56:40.148025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-09T10:56:42.666236",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T10:56:43.189683",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T10:56:47.020365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium acetate",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T10:56:47.710791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:56:47.720761"
+  }
+}

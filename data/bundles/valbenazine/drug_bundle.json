@@ -1,0 +1,1642 @@
+{
+  "drug": {
+    "inn": "Valbenazine",
+    "drugbank_id": "DB11915",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "psychogenic movement disorders",
+        "txgnn_score": 0.9982205033302308,
+        "txgnn_rank": 3123,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary orthostatic tremor",
+        "txgnn_score": 0.998044729232788,
+        "txgnn_rank": 3352,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tremor-nystagmus-duodenal ulcer syndrome",
+        "txgnn_score": 0.9980295300483704,
+        "txgnn_rank": 3370,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal tonic upgaze of childhood with ataxia",
+        "txgnn_score": 0.9980196952819824,
+        "txgnn_rank": 3378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic tic disorder",
+        "txgnn_score": 0.997973382472992,
+        "txgnn_rank": 3440,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03732534",
+            "title": "Open-Label Rollover Study for Continuing NBI-98854 Administration for the Treatment of Pediatric Subjects With Tourette Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2018-10-17",
+            "completion_date": "2019-02-18",
+            "country": "Puerto Rico, United States",
+            "enrollment": 6,
+            "brief_summary": "This is an open-label, rollover study to collect long-term safety, tolerability, and investigator- and participant-reported pharmacodynamic (PD) data after chronic administration of NBI-98854 in pediatric participants with Tourette Syndrome (TS), as well as to provide open-label access to NBI-98854 for the treatment of TS for pediatric participants who have taken part in a Phase 2 NBI-98854 study.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Have a clinical diagnosis of Tourette Syndrome (TS)\n2. Have participated in the NBI-98854-TS2004 or NBI 98854-TS2005 Phase 2 studies\n3. If using maintenance medication(s) for TS and/or TS spectrum diagnoses (e.g. obsessive-compulsive disorder \\[OCD\\], Attention-Deficit Hypera",
+            "endpoints": [
+              "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT03732534"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31356288",
+            "title": "Tics and Tourette Syndrome.",
+            "abstract": "The purpose of this article is to present current information on the phenomenology, epidemiology, comorbidities, and pathophysiology of tic disorders and discuss therapy options. It is hoped that a greater understanding of each of these components will provide clinicians with the necessary information to deliver thoughtful and optimal care to affected individuals.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2019",
+            "authors": [
+              "Singer Harvey S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Male",
+              "Tic Disorders",
+              "Tics",
+              "Tourette Syndrome",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31356288/"
+          },
+          {
+            "pmid": "41141210",
+            "title": "Valbenazine for the Treatment of Chronic Motor or Vocal Tic Disorder (CMVTD).",
+            "abstract": "Chronic motor or vocal tic disorder (CMVTD) is a distressing neuropsychiatric condition. A subset of patients remains refractory to currently approved therapies. The present report describes a pediatric patient with CMVTD who had previously failed multiple pharmacological treatments, including two Food and Drug Administration (FDA)-approved agents (pimozide, aripiprazole), guanfacine, psychotherapy, and novel compounds (lumateperone, cariprazine). The patient was initiated on valbenazine, titrated to 80 mg daily. Clinical improvement was noted within 24-48 hours, with sustained benefit and good tolerability. Tic severity, measured by the Yale Global Tic Severity Scale-Revised (YGTSS-R), improved from 65 at baseline to five following treatment (net reduction of 60 points). This case illustrates a marked therapeutic response to valbenazine in a patient with CMVTD refractory to conventional and novel therapies. These observations highlight the potential role of vesicular monoamine transpo",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Bied Adam",
+              "Sakthivel Anant Akash",
+              "Satodiya Ritvij"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41141210/"
+          },
+          {
+            "pmid": "33682568",
+            "title": "Clinical development of valbenazine for tics associated with Tourette syndrome.",
+            "abstract": "Introduction: Significant need exists for effective, well-tolerated pharmacologic treatments for Tourette syndrome (TS). Medications that inhibit vesicular monoamine transporters (i.e. VMAT2 inhibitors) downregulate presynaptic packaging and release of dopamine into the neuronal synapse and are effective in treating hyperkinetic movement disorders such as Huntington's chorea and tardive dyskinesia (TD); thus, they may be useful in treating TS.Areas covered: This review describes the clinical program evaluating the safety and efficacy of valbenazine in the treatment of involuntary tics associated with TS in adult and pediatric subjects. While there was a trend in the 6 completed trials toward greater improvement in valbenazine-treated versus placebo subjects on the primary efficacy endpoint (Yale Global Tic Severity Scale Total Tic Score), this difference did not reach statistical significance. Valbenazine was generally well-tolerated in the studies, and treatment-emergent adverse event",
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2021",
+            "authors": [
+              "Farber Robert H",
+              "Angelov Angel",
+              "Kim Kristine",
+              "Carmack Tara",
+              "Thai-Cuarto Dao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antipsychotic Agents",
+              "Child",
+              "Humans",
+              "Tetrabenazine",
+              "Tics",
+              "Tourette Syndrome",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33682568/"
+          },
+          {
+            "pmid": "28578484",
+            "title": "Valbenazine: First Global Approval.",
+            "abstract": "Valbenazine (Ingrezza™) is an orally bioavailable, selective, vesicular monoamine transporter 2 (VMAT2) inhibitor being developed by Neurocrine Biosciences for the treatment of various central nervous system disorders. Valbenazine has been approved in the USA for the treatment of adults with tardive dyskinesia (TD), is at various stages of development in other countries for TD and is in phase 2 development in the USA for Tourette syndrome. This article summarizes the milestones in the development of valbenazine leading to its first global approval in the USA for the treatment of adults with TD.",
+            "journal": "Drugs",
+            "year": "2017",
+            "authors": [
+              "Kim Esther S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Clinical Trials as Topic",
+              "Drug Approval",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Tourette Syndrome",
+              "United States",
+              "United States Food and Drug Administration",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28578484/"
+          },
+          {
+            "pmid": "34305006",
+            "title": "Tourette syndrome in children: An update.",
+            "abstract": "Tourette syndrome (TS) causes academic, social, emotional, physical, and functional problems. Most TS patients also have comorbid neuropsychological conditions. The purpose of this review is to provide updated information to the clinician about phenomenology, epidemiology, comorbidities, pathophysiology and management strategies for tics (a hallmark of TS) and TS. Recent findings suggest that TS is likely due to a combination of several different genes and environmental factors, with possible involvement of the cortical-basal ganglia-thalamocortical circuit and related multiple neurotransmitters. First-line management includes psychoeducation for families, patients, and school personnel, as well as behavioral therapy. Non-medicine treatment for tics is advancing to include younger children and increase access via remote service applications. Pharmacotherapy is used if appropriate and several new medicines are under investigation (e.g., Tetrabenazine, valbenazine, deutetrabenazine, ecop",
+            "journal": "Current problems in pediatric and adolescent health care",
+            "year": "2021",
+            "authors": [
+              "Set Kallol K",
+              "Warner Jacqueline N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Behavior Therapy",
+              "Child",
+              "Comorbidity",
+              "Emotions",
+              "Humans",
+              "Tourette Syndrome",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34305006/"
+          },
+          {
+            "pmid": "37301806",
+            "title": "Real-world experience with VMAT2 inhibitors in Tourette syndrome.",
+            "abstract": "We aimed to review our \"real-world\" experience with the vesicular monoamine transporter 2 (VMAT2) inhibitors tetrabenazine, deutetrabenazine, and valbenazine for treatment of Tourette syndrome, focusing on therapeutic benefits, side effect profile, and accessibility for the off-label use of these drugs.",
+            "journal": "Journal of neurology",
+            "year": "2023",
+            "authors": [
+              "Makhoul Karim",
+              "Jankovic Joseph"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "United States",
+              "Tetrabenazine",
+              "Tourette Syndrome",
+              "Tics",
+              "Tardive Dyskinesia",
+              "Retrospective Studies",
+              "Vesicular Monoamine Transport Proteins",
+              "Drug-Related Side Effects and Adverse Reactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37301806/"
+          },
+          {
+            "pmid": "30870235",
+            "title": "Real-World Experience With VMAT2 Inhibitors.",
+            "abstract": "The aim of this study was to review our \"real-world\" experience with the vesicular monoamine transporter 2 (VMAT2) inhibitors tetrabenazine (TBZ), deutetrabenazine (DTBZ), and valbenazine (VBZ) for treatment of hyperkinetic movement disorders. Access and adherence to VMAT2 inhibitors may be limited by insurance and regulatory issues, inexperience with their use by the prescribing physician, lack of efficacy, or side effects.",
+            "journal": "Clinical neuropharmacology",
+            "year": "2019",
+            "authors": [
+              "Niemann Nicki",
+              "Jankovic Joseph"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Pragmatic Clinical Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Child",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30870235/"
+          },
+          {
+            "pmid": "31641566",
+            "title": "Role of Vesicular Monoamine Transporter 2 Inhibitors in Tardive Dyskinesia Management.",
+            "abstract": "Tardive dyskinesia (TD) is a distressing and disabling movement disorder that occurs with the use of chronic neuroleptic medications. TD is defined as involuntary athetoid or choreiform movements of head, trunk or limbs. Tongue, lower face, jaw, and extremities are commonly involved but pharyngeal, diaphragmatic, or truncal muscles are also sometimes involved affecting breathing, swallowing, speech, posture, gait, and mobility of an individual. TD is a debilitating movement disorder that requires timely intervention. Subtle tongue movements, tic-like facial movements or increased blink frequency could be some of the initial manifestations of TD. Our article is focused on the new advents in treating TD, their efficacy, and tolerability with emphasizing their side effect profile. The implication of a genetic marker vesicular monoamine transporter 2 (VMAT2), helped in investigating VMAT2 inhibitors for alleviating TD. Among the modalities tested, only VMAT2 inhibitors reported efficacy. H",
+            "journal": "Cureus",
+            "year": "2019",
+            "authors": [
+              "Sreeram Venkatesh",
+              "Shagufta Shanila",
+              "Kagadkar Faisal"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31641566/"
+          },
+          {
+            "pmid": "29484607",
+            "title": "Treatment of Tardive Dyskinesia: A General Overview with Focus on the Vesicular Monoamine Transporter 2 Inhibitors.",
+            "abstract": "Tardive dyskinesia (TD) encompasses the spectrum of iatrogenic hyperkinetic movement disorders following exposure to dopamine receptor-blocking agents (DRBAs). Despite the advent of atypical or second- and third-generation antipsychotics with a presumably lower risk of complications, TD remains a persistent and challenging problem. Prevention is the first step in mitigating the risk of TD, but early recognition, gradual withdrawal of offending medications, and appropriate treatment are also critical. As TD is often a persistent and troublesome disorder, specific antidyskinetic therapies are often needed for symptomatic relief. The vesicular monoamine transporter 2 (VMAT2) inhibitors, which include tetrabenazine, deutetrabenazine, and valbenazine, are considered the treatment of choice for most patients with TD. Deutetrabenazine-a deuterated version of tetrabenazine-and valbenazine, the purified parent product of one of the main tetrabenazine metabolites, are novel VMAT2 inhibitors and ",
+            "journal": "Drugs",
+            "year": "2018",
+            "authors": [
+              "Niemann Nicki",
+              "Jankovic Joseph"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Drug Approval",
+              "Humans",
+              "Huntington Disease",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Tourette Syndrome",
+              "United States",
+              "United States Food and Drug Administration",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29484607/"
+          },
+          {
+            "pmid": "29335879",
+            "title": "Current Approaches and New Developments in the Pharmacological Management of Tourette Syndrome.",
+            "abstract": "Tourette syndrome (TS) is a neurodevelopmental disorder of unknown etiology characterized by spontaneous, involuntary movements and vocalizations called tics. Once thought to be rare, TS affects 0.3-1% of the population. Tics can cause physical discomfort, emotional distress, social difficulties, and can interfere with education and desired activities. The pharmacologic treatment of TS is particularly challenging, as currently the genetics, neurophysiology, and neuropathology of this disorder are still largely unknown. However, clinical experience gained from treating TS has helped us better understand its pathogenesis and, as a result, derive treatment options. The strongest data exist for the antipsychotic agents, both typical and atypical, although their use is often limited in children and adolescents due to their side-effect profiles. There are agents in a variety of other pharmacologic categories that have evidence for the treatment of TS and whose side-effect profiles are more t",
+            "journal": "CNS drugs",
+            "year": "2018",
+            "authors": [
+              "Quezada Julio",
+              "Coffman Keith A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antipsychotic Agents",
+              "Child",
+              "Drug Design",
+              "Drug Development",
+              "Humans",
+              "Tourette Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29335879/"
+          },
+          {
+            "pmid": "32454050",
+            "title": "VMAT2 inhibitors for the treatment of hyperkinetic movement disorders.",
+            "abstract": "Hyperkinetic movement disorders comprise a variety of conditions characterized by involuntary movements, which include but are not limited to tardive dyskinesia, chorea associated with Huntington's Disease, and tic disorders. The class of medications that have been used to treat these conditions includes Vesicular Monoamine Transporter-2 (VMAT2) inhibitors. In 2008, the FDA approved tetrabenazine as a treatment for chorea associated with Huntington's Disease. Optimization of the pharmacology of tetrabenazine has since led to the approval of two new VMAT2 inhibitors, deutetrabenazine and valbenazine. The objective of this review is to provide background on the role of VMAT in monoamine neurotransmission, the mechanism of VMAT2 inhibition on the treatment of hyperkinetic disorders (specifically tardive dyskinesia and chorea associated with Huntington's Disease), the pharmacology and pharmacokinetics of the commercially available VMAT2 inhibitors, and a summary of the clinical data to sup",
+            "journal": "Pharmacology & therapeutics",
+            "year": "2020",
+            "authors": [
+              "Koch Jessa",
+              "Shi Wei-Xing",
+              "Dashtipour Khashayar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chorea",
+              "Clinical Trials as Topic",
+              "Dopamine",
+              "Humans",
+              "Huntington Disease",
+              "Hyperkinesis",
+              "Synaptic Transmission",
+              "Tardive Dyskinesia",
+              "Tetrabenazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32454050/"
+          },
+          {
+            "pmid": "34282360",
+            "title": "A Brief Review on the Role of Vesicular Monoamine Transporter2 Inhibitors in Hyperkinetic Movement Disorders.",
+            "abstract": "Hyperkinetic movement disorders are a common group of movement abnormalities in children, characterized with repetitive unintended involuntary movements. Major hyperkinetic movements include tremor, tic, dystonia, myoclonus, and chorea. Although a number of drugs have been proven to be beneficial for these abnormalities, some patients may become resistant to conventional treatments. Vesicular monoamine transporter2 (VMAT2) inhibitors (Tetrabenazine, Deutetrabenazine, and Valbenazine) are new agents introduced in the last decade for treating some of movement disorders, in particular tardive dyskinesia, Huntington chorea, and Tourette syndrome. In this brief review, we discussed the role of these drugs in managing hyperkinetic movement disorders.",
+            "journal": "Iranian journal of child neurology",
+            "year": "2021",
+            "authors": [
+              "Nikkhah Ali"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34282360/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign shuddering attacks",
+        "txgnn_score": 0.9978349804878236,
+        "txgnn_rank": 3626,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "extrapyramidal and movement disease",
+        "txgnn_score": 0.9978349804878236,
+        "txgnn_rank": 3627,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06107829",
+            "title": "Identification, Assessment, and Treatment of Tardive Dyskinesia With Valbenazine in Adults With Intellectual/Developmental Disabilities and Co-occurring Psychiatric and/or Behavioral Disorders",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2025-01",
+            "completion_date": "2027-02",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The goal of this open-label clinical trial is to test the safety and efficacy of valbenazine treatment in patients with Intellectual/Developmental Disability (IDD) who have a diagnosis of Tardive dyskinesia (TD). The main questions this study aims to answer are:\n\n* Does valbenazine treatment of TD in the previously untreated patient population of adults with IDD produce comparable amelioration of signs of movement disorder as what has historically been reported in adults without IDD?\n* Is valben",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of IDD (IQ \\< 70; social/adaptive dysfunction, onset \\< age 22) as per DSM-5\n* Clinical diagnosis of Tardive Dyskinesia (TD) per DSM-5 for at least 3 months before study inclusion (presence of movement disorder for at least 3 months, in absence of previous formal dia",
+            "endpoints": [
+              "Change in AIMS total scores of items 1-7"
+            ],
+            "sponsor": "University Hospitals Cleveland Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06107829"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06997198",
+            "title": "Identification, Assessment, and Treatment of Tardive Dyskinesia With Deutetrabenazine in Adults With Intellectual/Developmental Disabilities and Co-occurring Psychiatric and/or Behavioral Disorders",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-03-01",
+            "completion_date": "2027-10-01",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "The primary goal of this study is to investigate the efficacy of deutetrabenazine treatment of TD in this previously untreated patient population. Compare movement disorder deutetrabenazine treatment response in persons with IDD to response seen in patients without IDD treated with deutetrabenazine in other treatment settings (per literature review). Compare global deutetrabenazine treatment response with validated instruments.\n\nIn addition, we plan to:\n\n* Assess the safety of deutetrabenazine i",
+            "eligibility_criteria": "Participant Inclusion Criteria:\n\n* Diagnosis of IDD (IQ \\< 70; social/adaptive dysfunction, onset \\< age 22) as per DSM-5\n* Clinical diagnosis of Tardive Dyskinesia (TD) per DSM-5 for at least 3 months before study inclusion (presence of movement disorder for at least 3 months, in absence of previou",
+            "endpoints": [
+              "Change in AIMS total scores of items 1-7"
+            ],
+            "sponsor": "University Hospitals Cleveland Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06997198"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute intermittent porphyria",
+        "txgnn_score": 0.9845501780509948,
+        "txgnn_rank": 14489,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "miscellaneous movement disorder due to neurodegenerative disease",
+        "txgnn_score": 0.9774406552314758,
+        "txgnn_rank": 18234,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced dyskinesia",
+        "txgnn_score": 0.961862087249756,
+        "txgnn_rank": 23799,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01688037",
+            "title": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled Study to Assess the Efficacy and Safety of NBI-98854 for the Treatment of Tardive Dyskinesia in Subjects With Schizophrenia or Schizoaffective Disorder",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-09",
+            "completion_date": "2013-10",
+            "country": "Puerto Rico, United States",
+            "enrollment": 109,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of two doses (50 and 100 mg) of NBI-98854 administered once daily for the treatment of Tardive Dyskinesia (TD) symptoms.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a clinical diagnosis of schizophrenia or schizoaffective disorder and a clinical diagnosis of neuroleptic-induced tardive dyskinesia for at least 3 months prior to screening.\n* Be receiving a stable dose of antipsychotic medication for a minimum of 30 days before study st",
+            "endpoints": [
+              "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score Change From Baseline at Week 6"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT01688037"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06107829",
+            "title": "Identification, Assessment, and Treatment of Tardive Dyskinesia With Valbenazine in Adults With Intellectual/Developmental Disabilities and Co-occurring Psychiatric and/or Behavioral Disorders",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2025-01",
+            "completion_date": "2027-02",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The goal of this open-label clinical trial is to test the safety and efficacy of valbenazine treatment in patients with Intellectual/Developmental Disability (IDD) who have a diagnosis of Tardive dyskinesia (TD). The main questions this study aims to answer are:\n\n* Does valbenazine treatment of TD in the previously untreated patient population of adults with IDD produce comparable amelioration of signs of movement disorder as what has historically been reported in adults without IDD?\n* Is valben",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of IDD (IQ \\< 70; social/adaptive dysfunction, onset \\< age 22) as per DSM-5\n* Clinical diagnosis of Tardive Dyskinesia (TD) per DSM-5 for at least 3 months before study inclusion (presence of movement disorder for at least 3 months, in absence of previous formal dia",
+            "endpoints": [
+              "Change in AIMS total scores of items 1-7"
+            ],
+            "sponsor": "University Hospitals Cleveland Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06107829"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01393600",
+            "title": "A Phase 2, Double-Blind, Randomized, Placebo-Controlled, Two-Period Cross-Over Study to Evaluate the Efficacy and Safety of NBI-98854 for the Treatment of Tardive Dyskinesia in Subjects With Schizophrenia or Schizoaffective Disorder",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-08",
+            "completion_date": "2012-02",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of two doses (12.5 and 50 mg) of NBI-98854 administered once daily (q.d.) for the treatment of tardive dyskinesia in subjects with schizophrenia or schizoaffective disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a clinical diagnosis of schizophrenia or schizoaffective disorder and a clinical diagnosis of neuroleptic-induced tardive dyskinesia as defined in the Diagnostic and Statistical Manual of Mental Disorders, 4th edition (DSM-IV), 333.82 (see Appendix 17.1) for at least 3 mo",
+            "endpoints": [
+              "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT01393600"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03891862",
+            "title": "A Phase 4, Double-Blind, Placebo-Controlled, Randomized Withdrawal Study to Evaluate the Persistence of Effect and Safety of Valbenazine for the Treatment of Tardive Dyskinesia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2019-03-18",
+            "completion_date": "2020-01-30",
+            "country": "Puerto Rico, United States",
+            "enrollment": 135,
+            "brief_summary": "This is a Phase 4, randomized, double-blind, placebo-controlled study to evaluate the persistence of effect of valbenazine 40 mg and 80 mg.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects of childbearing potential must agree to use hormonal or two forms of nonhormonal contraception (dual contraception) consistently during the screening, treatment, and follow-up periods of the study.\n2. Have one of the following clinical diagnoses for at least 3 months",
+            "endpoints": [
+              "Change From Randomization (Week 8) in Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score at Week 16"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT03891862"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05053321",
+            "title": "Reduction of Demoralization in Patients With Tardive Dyskinesia After Treatment With Valbenazine",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2024-10-18",
+            "completion_date": "2025-10-18",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This will be an Investigator-initiated pilot study in which participants will be assessed with various scales to measure demoralization, anxiety, depression, and subjective incompetence at baseline and every two weeks after treatment with Valbenazine for a total of 6 weeks. Improvement in TD will be assessed as well and correlated with reduction in demoralization.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age: 26-84\n2. Sex: Both males and females will be included\n3. Diagnosis of dopamine receptor-blocker induced tardive dyskinesia according to the DSM-5 criteria: \"involuntary athetoid or choreiform movements lasting at least a few weeks, developing in association with the use ",
+            "endpoints": [
+              "Change in demoralization Scale"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT05053321"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02274558",
+            "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Parallel, Fixed-Dose Study to Assess the Efficacy, Safety, and Tolerability of NBI-98854 for the Treatment of Tardive Dyskinesia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-10",
+            "completion_date": "2016-07",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 234,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of NBI-98854 administered once daily for the treatment of Tardive Dyskinesia (TD) symptoms.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects of childbearing potential must agree to use hormonal or two forms of nonhormonal contraception (dual contraception) consistently during the screening, treatment and follow-up periods of the study.\n2. Female subjects must not be pregnant.\n3. Have one of the following ",
+            "endpoints": [
+              "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score Change From Baseline at Week 6"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT02274558"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05859698",
+            "title": "A Phase 4, Single-Arm, Open-Label Study to Evaluate the Effectiveness of Valbenazine on Patient- and Clinician-Reported Outcomes in Subjects With Tardive Dyskinesia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2023-05-09",
+            "completion_date": "2024-12-27",
+            "country": "United States",
+            "enrollment": 59,
+            "brief_summary": "This study will evaluate the effectiveness of valbenazine on patient- and clinician-reported outcomes assessing health-related quality of life, functioning, and treatment effect in participants with tardive dyskinesia (TD) who are receiving valbenazine for up to 24 weeks.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* At least 18 years of age\n* Have one of the following clinical diagnoses: schizophrenia or schizoaffective disorder, bipolar disorder, or major depressive disorder\n* Have a clinical diagnosis of neuroleptic-induced TD\n* Medication(s) for schizophrenia or schizoaffective dis",
+            "endpoints": [
+              "Change From Baseline in the Tardive Dyskinesia Impact Scale (TDIS) Total Score at Week 24",
+              "Change From Baseline in the Sheehan Disability Scale (SDS) Items 1, 2, and 3 Score at Week 24",
+              "Change From Baseline in the Euro Quality of Life Visual Analogue Scale (EQ-VAS) Score at Week 24"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT05859698"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03698331",
+            "title": "A Phase 4, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Potential for Clinical Dependence and Withdrawal Symptoms Associated With Valbenazine",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-09-14",
+            "completion_date": "2019-04-03",
+            "country": "Puerto Rico, United States",
+            "enrollment": 89,
+            "brief_summary": "This is a Phase 4, randomized, double-blind, placebo-controlled study to evaluate the potential for clinical dependence and withdrawal symptoms associated with valbenazine.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects of childbearing potential must agree to use hormonal or two forms of nonhormonal contraception (dual contraception) consistently during the screening, treatment, and follow-up periods of the study.\n2. Have one of the following clinical diagnoses for at least 3 months",
+            "endpoints": [
+              "Participants With Withdrawal-Emergent Adverse Events"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT03698331"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07105111",
+            "title": "A Phase 4, Open-Label Study to Evaluate the Efficacy of Valbenazine on Clinician- and Patient-Reported Outcomes in Patients With Tardive Dyskinesia (TD) Who Remain Symptomatic While on Deutetrabenazine or After Discontinuing Prior TD Treatment With a Vesicular Monoamine Transporter 2 (VMAT2) Inhibitor",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-08-29",
+            "completion_date": "2027-04",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "This study will evaluate the efficacy of valbenazine on clinician- and patient-reported outcomes in participants with TD while receiving or after stopping a VMAT2 inhibitor.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* 18 years of age or older\n* Diagnosed with one of the following at least 3 months prior to screening: schizophrenia or schizoaffective disorder, bipolar disorder, or major depressive disorder\n* Diagnosed with at least mild neuroleptic-induced TD for at least 3 months prior ",
+            "endpoints": [
+              "Change from Baseline in the Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score (AIMS 1-7) at Week 24"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT07105111"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06997198",
+            "title": "Identification, Assessment, and Treatment of Tardive Dyskinesia With Deutetrabenazine in Adults With Intellectual/Developmental Disabilities and Co-occurring Psychiatric and/or Behavioral Disorders",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-03-01",
+            "completion_date": "2027-10-01",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "The primary goal of this study is to investigate the efficacy of deutetrabenazine treatment of TD in this previously untreated patient population. Compare movement disorder deutetrabenazine treatment response in persons with IDD to response seen in patients without IDD treated with deutetrabenazine in other treatment settings (per literature review). Compare global deutetrabenazine treatment response with validated instruments.\n\nIn addition, we plan to:\n\n* Assess the safety of deutetrabenazine i",
+            "eligibility_criteria": "Participant Inclusion Criteria:\n\n* Diagnosis of IDD (IQ \\< 70; social/adaptive dysfunction, onset \\< age 22) as per DSM-5\n* Clinical diagnosis of Tardive Dyskinesia (TD) per DSM-5 for at least 3 months before study inclusion (presence of movement disorder for at least 3 months, in absence of previou",
+            "endpoints": [
+              "Change in AIMS total scores of items 1-7"
+            ],
+            "sponsor": "University Hospitals Cleveland Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06997198"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01733121",
+            "title": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Dose-Titration Study to Assess the Safety, Tolerability, and Efficacy of NBI-98854 for the Treatment of Tardive Dyskinesia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-12",
+            "completion_date": "2013-12",
+            "country": "Puerto Rico, United States",
+            "enrollment": 102,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of NBI-98854 (titrated to a subject's optimal dose in the range of 25 to 75 mg) administered once daily for the treatment of Tardive Dyskinesia (TD) symptoms.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have one of the following clinical diagnoses for at least 3 months prior to screening a) schizophrenia or schizoaffective disorder; b) mood disorder; or c) gastrointestinal disorder (e.g., gastroparesis, gastroesophageal reflux disease)\n* Have a clinical diagnosis of neurolept",
+            "endpoints": [
+              "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score Change From Baseline at Week 6"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT01733121"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02405091",
+            "title": "A Phase 3, Open-Label, Safety and Tolerability Study of NBI-98854 for the Treatment of Tardive Dyskinesia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-03",
+            "completion_date": "2017-03",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 167,
+            "brief_summary": "Phase 3, open-label, study to evaluate the safety and tolerability of NBI-98854 administered once daily (qd) for a total of 48 weeks of treatment. This study will enroll approximately 150 medically stable male and female subjects with clinical diagnoses of schizophrenia or schizoaffective disorder with neuroleptic-induced TD or mood disorder with neuroleptic-induced TD.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects of childbearing potential must agree to use hormonal or two forms of nonhormonal contraception (dual contraception) consistently during the screening, treatment and follow-up periods of the study.\n2. Female subjects must not be pregnant.\n3. Have one of the following ",
+            "endpoints": [
+              "Number of Participants Monitored for Long-Term Safety of Valbenazine"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT02405091"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02736955",
+            "title": "Open-Label Rollover Study for Continuing Valbenazine (NBI-98854) Administration for the Treatment of Tardive Dyskinesia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-06-13",
+            "completion_date": "2017-06-30",
+            "country": "United States",
+            "enrollment": 161,
+            "brief_summary": "This Phase 3b, rollover study will provide participants who completed a Phase 3 valbenazine (NBI-98854) study open-label access to valbenazine (fixed doses administered once daily) for the treatment of adults with TD until valbenazine is anticipated to be available commercially or they complete 72 weeks of treatment. This study will allow enrollment of up to 150 medically stable male and female participants with TD who previously participated in and completed the NBI-98854-1304 (Kinect 3) or NBI",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have participated in and completed the NBI-98854-1304 (Kinect 3) or NBI-98854-1402 (Kinect 4) Phase 3 study.\n* Participants of childbearing potential must agree to use hormonal or two forms of nonhormonal contraception (dual contraception) consistently throughout the study and",
+            "endpoints": [
+              "Number of Participants Monitored for Long-term Safety of Valbenazine"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT02736955"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01267188",
+            "title": "A Phase 2, Open-Label, Dose Titration Study to Evaluate the Efficacy and Safety of NBI-98854 for the Treatment of Tardive Dyskinesia in Subjects With Schizophrenia or Schizoaffective Disorder",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-01",
+            "completion_date": "2011-03",
+            "country": "Canada",
+            "enrollment": 10,
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of three doses (12.5, 25, and 50 mg) of NBI-98854 for the treatment of the symptoms of tardive dyskinesia (TD) in subjects with schizophrenia or schizoaffective disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males or females (non-childbearing potential) aged 18 to 65 years (both inclusive).\n* Have moderate or severe Tardive Dyskinesia symptoms (Total AIMS score of at least 9)\n* Have a clinical diagnosis of schizophrenia or schizoaffective disorder.\n* Receiving a stable dose of ant",
+            "endpoints": [
+              "Assessment of Tardive Dyskinesia symptoms"
+            ],
+            "sponsor": "Neurocrine Biosciences",
+            "url": "https://clinicaltrials.gov/study/NCT01267188"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30791698",
+            "title": "Treatment Recommendations for Tardive Dyskinesia.",
+            "abstract": "Tardive dyskinesia is a movement disorder characterised by irregular, stereotyped, and choreiform movements associated with the use of antipsychotic medication. We aim to provide recommendations on the treatment of tardive dyskinesia.",
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "2019",
+            "authors": [
+              "Ricciardi Lucia",
+              "Pringsheim Tamara",
+              "Barnes Thomas R E",
+              "Martino Davide",
+              "Gardner David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic Uptake Inhibitors",
+              "Antipsychotic Agents",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30791698/"
+          },
+          {
+            "pmid": "38497033",
+            "title": "Comparative Analysis of Deutetrabenazine and Valbenazine as VMAT2 Inhibitors for Tardive Dyskinesia: A Systematic Review.",
+            "abstract": "Tardive Dyskinesia (TD) is a neurological disorder characterized by involuntary movements, often caused by dopamine receptor antagonists. Vesicular Monoamine Transporter 2 (VMAT2) inhibitors, such as valbenazine and deutetrabenazine, have emerged as promising therapies for TD and several clinical trials have shown their efficacy. This study aims to compare the efficacy and safety profile of VMAT2 inhibitors, focusing on a recent trial conducted in the Asian population.",
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2024",
+            "authors": [
+              "Golsorkhi Mohadese",
+              "Koch Jessa",
+              "Pedouim Farzin",
+              "Frei Karen",
+              "Bondariyan Niloofar"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Randomized Controlled Trials as Topic",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38497033/"
+          },
+          {
+            "pmid": "30013814",
+            "title": "Valbenazine and Deutetrabenazine for Tardive Dyskinesia.",
+            "abstract": "Tardive dyskinesia (TD) is a medication-induced permanent movement disorder with no United States Food and Drug Administration (FDA)-approved treatments prior to 2017. Although TD is medication-induced, patients who have responded well to antipsychotics might not be candidates for dose reduction or discontinuation due to a risk of psychiatric decompensation. Valbenazine and deutetrabenazine were recently approved by the FDA for the treatment of TD. They offer a unique mechanism of action by inhibiting vesicular monoamine transporter type 2. The objective of this review is to discuss the efficacy, tolerability, dosing, drug interactions, and precautions for valbenazine and deutetrabenazine.",
+            "journal": "Innovations in clinical neuroscience",
+            "year": "2018",
+            "authors": [
+              "Touma Katie T B",
+              "Scarff Jonathan R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30013814/"
+          },
+          {
+            "pmid": "30720484",
+            "title": "Antipsychotic-induced tardive dyskinesia: update on epidemiology and management.",
+            "abstract": "To provide an update on the frequency of antipsychotic-induced tardive dyskinesia and its management in patients with schizophrenia spectrum disorders in studies published since the last systematic review in 2008.",
+            "journal": "Current opinion in psychiatry",
+            "year": "2019",
+            "authors": [
+              "Widschwendter Christian G",
+              "Hofer Alex"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Humans",
+              "Medication Therapy Management",
+              "Prevalence",
+              "Tardive Dyskinesia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30720484/"
+          },
+          {
+            "pmid": "31974564",
+            "title": "Valbenazine and deutetrabenazine: Vesicular monoamine transporter 2 inhibitors for tardive dyskinesia.",
+            "abstract": "The purpose of this review is to summarize the current evidence for valbenazine and deutetrabenazine use for the treatment of tardive dyskinesia (TD).",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2020",
+            "authors": [
+              "Khorassani Farah",
+              "Luther Kiranjit",
+              "Talreja Om"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Randomized Controlled Trials as Topic",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Treatment Outcome",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31974564/"
+          },
+          {
+            "pmid": "29338466",
+            "title": "Valbenazine as the first and only approved treatment for adults with tardive dyskinesia.",
+            "abstract": "Valbenazine is a selective VMAT2 inhibitor that the FDA approved in April 2017 for the specific treatment of tardive dyskinesia (TD), a movement disorder commonly caused by dopamine blocking agents. Valbenazine acts to decrease dopamine release, reducing excessive movement found in TD. Areas covered: This drug profile reviews the development of valbenazine and the clinical trials that led to its approval as the first treatment specific to TD. The literature search was performed with the PubMed online database. Expert commentary: Two clinical trials assessing the efficacy of valbenazine have shown the reduction of antipsychotic-induced involuntary movement. No life threatening adverse effects were found. Data from a 42-week extension study demonstrated sustained response.",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2018",
+            "authors": [
+              "Sarva Harini",
+              "Henchcliffe Claire"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Antipsychotic Agents",
+              "Dopamine",
+              "Drug Approval",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29338466/"
+          },
+          {
+            "pmid": "37210099",
+            "title": "Safety and efficacy of valbenazine for the treatment of chorea associated with Huntington's disease (KINECT-HD): a phase 3, randomised, double-blind, placebo-controlled trial.",
+            "abstract": "Valbenazine is a highly selective vesicular monoamine transporter 2 (VMAT2) inhibitor approved for treatment of tardive dyskinesia. To address the ongoing need for improved symptomatic treatments for individuals with Huntington's disease, valbenazine was evaluated for the treatment of chorea associated with Huntington's disease.",
+            "journal": "The Lancet. Neurology",
+            "year": "2023",
+            "authors": [
+              "Furr Stimming Erin",
+              "Claassen Daniel O",
+              "Kayson Elise",
+              "Goldstein Jody",
+              "Mehanna Raja"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Adult",
+              "Humans",
+              "Female",
+              "Huntington Disease",
+              "Chorea",
+              "Tetrabenazine",
+              "Antipsychotic Agents",
+              "Double-Blind Method",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37210099/"
+          },
+          {
+            "pmid": "28320223",
+            "title": "KINECT 3: A Phase 3 Randomized, Double-Blind, Placebo-Controlled Trial of Valbenazine for Tardive Dyskinesia.",
+            "abstract": "Tardive dyskinesia is a persistent movement disorder induced by dopamine receptor blockers, including antipsychotics. Valbenazine (NBI-98854) is a novel, highly selective vesicular monoamine transporter 2 inhibitor that demonstrated favorable efficacy and tolerability in the treatment of tardive dyskinesia in phase 2 studies. This phase 3 study further evaluated the efficacy, safety, and tolerability of valbenazine as a treatment for tardive dyskinesia.",
+            "journal": "The American journal of psychiatry",
+            "year": "2017",
+            "authors": [
+              "Hauser Robert A",
+              "Factor Stewart A",
+              "Marder Stephen R",
+              "Knesevich Mary Ann",
+              "Ramirez Paul M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abnormal Involuntary Movement Scale",
+              "Adult",
+              "Aged",
+              "Antipsychotic Agents",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28320223/"
+          },
+          {
+            "pmid": "25809133",
+            "title": "Valbenazine granted breakthrough drug status for treating tardive dyskinesia.",
+            "abstract": "The chronic use and high dosing of typical neuroleptics or centrally acting dopamine receptor blocking antiemetics predispose patients to the onset of tardive syndromes. One particular subtype, tardive dyskinesia, is characterized by rapid, repetitive, stereotypic, involuntary movements of the face, limbs or trunk. The inhibition of the vesicular monoamine transporter system, using tetrabenazine therapy, improves the severity of tardive dyskinesia. But there are also drawbacks to tetrabenazine treatment, such as a fluctuating response and the need for frequent intake due to its rapid metabolism. Clinical research on the potentially more efficacious and easier to use tetrabenazine analogs is already under way. One of them is valbenazine, the purified parent drug of the (+)-α-isomer of tetrabenazine. The FDA lowered approval hurdles for valbenazine due to a successful Phase II trial, which showed a distinctive improvement in tardive dyskinesia symptoms during valbenazine administration. ",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2015",
+            "authors": [
+              "Müller Thomas"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Anti-Dyskinesia Agents",
+              "Antipsychotic Agents",
+              "Drug Approval",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Severity of Illness Index",
+              "Tetrabenazine",
+              "United States",
+              "United States Food and Drug Administration",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25809133/"
+          },
+          {
+            "pmid": "28742396",
+            "title": "Valbenazine for Tardive Dyskinesia.",
+            "abstract": "Tardive dyskinesia (TD) remains a clinical concern for any patient who receives an antipsychotic. While the overall risk of developing TD is lower with newer antipsychotics compared to older agents, a significant number of patients who require long-term treatment will develop TD. Recently, valbenazine (brand name Ingrezza) became the first drug to be approved by the FDA specifically for the treatment of TD. In this New Drug Review, we summarize the basic pharmacology and clinical trial results for valbenazine. Valbenazine is a modified metabolite of the vesicular monoamine transporter 2 (VMAT-2) inhibitor tetrabenazine, which is approved for the treatment of the hyperkinetic movement disorder, Huntington's disease. In short-term clinical trials, valbenazine at a dose of 80 mg/day improved TD, with an effect size that is clinically significant (d=0.90). The effect size for the 40-mg/day dose was lower (d=0.52). Compared to tetrabenazine, valbenazine has better clinical characteristics (",
+            "journal": "Clinical schizophrenia & related psychoses",
+            "year": "2017",
+            "authors": [
+              "Freudenreich Oliver",
+              "Remington Gary"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic Uptake Inhibitors",
+              "Antipsychotic Agents",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28742396/"
+          },
+          {
+            "pmid": "31785443",
+            "title": "Valbenazine-induced parkinsonism.",
+            "abstract": "",
+            "journal": "Parkinsonism & related disorders",
+            "year": "2020",
+            "authors": [
+              "Akbar Umer",
+              "Kim Duk Soo",
+              "Friedman Joseph H"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adrenergic Uptake Inhibitors",
+              "Adult",
+              "Affective Disorders, Psychotic",
+              "Aged",
+              "Antipsychotic Agents",
+              "Female",
+              "Humans",
+              "Male",
+              "Parkinson Disease, Secondary",
+              "Tardive Dyskinesia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31785443/"
+          },
+          {
+            "pmid": "31356294",
+            "title": "Tardive Syndromes.",
+            "abstract": "This article reviews the history, nosology, clinical features, epidemiology, and treatment of tardive syndromes.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2019",
+            "authors": [
+              "Friedman Joseph H"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antioxidants",
+              "Antipsychotic Agents",
+              "Clinical Trials as Topic",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Tardive Dyskinesia",
+              "Tetrabenazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31356294/"
+          },
+          {
+            "pmid": "38767901",
+            "title": "Sustained Treatment Response and Global Improvements With Long-term Valbenazine in Patients With Tardive Dyskinesia.",
+            "abstract": "Using data from KINECT® 4, a phase 3, 48-week study of valbenazine, post hoc analyses were conducted to assess long-term outcomes that are relevant to the real-world management of tardive dyskinesia (TD).",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2024",
+            "authors": [
+              "Correll Christoph U",
+              "Citrome Leslie",
+              "Singer Carlos",
+              "Lindenmayer Jean-Pierre",
+              "Zinger Celia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Tetrabenazine",
+              "Tardive Dyskinesia",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Valine",
+              "Aged",
+              "Treatment Outcome",
+              "Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38767901/"
+          },
+          {
+            "pmid": "28971695",
+            "title": "Valbenazine for the treatment of tardive dyskinesia.",
+            "abstract": "Chronic intake of typical neuroleptics or centrally acting dopamine receptor blocking antiemetics may cause onset of tardive syndromes. Various types exist. One of them is tardive dyskinesia, characterised by often stigmatising, purposeless, rapid, repetitive, stereotypic, involuntary movements of face, limbs or trunk. Effective symptomatic drug treatment options beyond application of tetrabenazine are rare. Tetrabenazine is usually administered three times daily due to the short half life of this agent. Areas covered: This narrative review discusses the value of valbenazine for the treatment of tardive dyskinesia as a therapeutic alternative to tetrabenazine. Expert commentary: Valbenazine is a selective inhibitor of vesicular monoamine transporter 2, which is metabolized to (+)-alpha-dihydrotetrabenazine. Valbenazine and particularly its metabolite inhibit vesicular monoamine transporter 2 function. Once daily intake of valbenazine ameliorated the severity of tardive dyskinesia. The ",
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2017",
+            "authors": [
+              "Müller Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic Uptake Inhibitors",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28971695/"
+          },
+          {
+            "pmid": "28276538",
+            "title": "Valbenazine for the treatment of tardive dyskinesia.",
+            "abstract": "Valbenazine (NBI-98854, Ingrezza) is a highly selective vesicular monoamine transporter 2 (VMAT2) inhibitor that modulates dopamine release during nerve communication. The pharmacological target VMAT2 may play an important role in the treatment of tardive dyskinesia (TD), an iatrogenic condition associated with the administration of antipsychotic medication for long periods and characterized by rapid, repetitive, stereotypic, involuntary movements of the face and extremities. There are currently no Food and Drug Administration (FDA)-approved drugs for the treatment of TD. Results of clinical trials have shown a distinctive improvement in TD symptoms during valbenazine administration and a new drug application submitted to the FDA in August 2016 is undergoing priority review with a decision expected in April 2017.",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2016",
+            "authors": [
+              "Barquero N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dopamine",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28276538/"
+          },
+          {
+            "pmid": "30027457",
+            "title": "Antipsychotic-Related Movement Disorders: Drug-Induced Parkinsonism vs. Tardive Dyskinesia-Key Differences in Pathophysiology and Clinical Management.",
+            "abstract": "Drug-induced parkinsonism (DIP) and tardive dyskinesia (TD) are stigmatizing movement disorders associated with exposure to dopamine receptor blocking agents such as antipsychotics, but they differ in their pathophysiology and clinical management. Treatment for one may worsen the other, and there are important diagnostic clues that assist in making an accurate assessment and instituting a rational treatment plan.",
+            "journal": "Neurology and therapy",
+            "year": "2018",
+            "authors": [
+              "Ward Kristen M",
+              "Citrome Leslie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30027457/"
+          },
+          {
+            "pmid": "30357723",
+            "title": "Current Methods for the Treatment and Prevention of Drug-Induced Parkinsonism and Tardive Dyskinesia in the Elderly.",
+            "abstract": "Drug-induced parkinsonism (DIP) and tardive dyskinesia (TD) are iatrogenic consequences of antidopaminergic drugs. Both are particularly prevalent among the elderly and those with dementia. However, despite their prevalence, these disorders are often overlooked. Both entities share risk factors, physiopathological mechanisms and, to some degree, therapeutic approaches. Withdrawing the causal agent, reducing the dose or switching to a less potent antidopaminergic drug should be the first therapeutic options. Here we review both entities and emerging therapies including the recently approved drugs deutetrabenazine and valbenazine. We discuss relevant aspects for clinical practice such as new diagnostic techniques and the latest advances in the understanding of DIP and TD.",
+            "journal": "Drugs & aging",
+            "year": "2018",
+            "authors": [
+              "Estevez-Fraga Carlos",
+              "Zeun Paul",
+              "López-Sendón Moreno Jose Luis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Dementia",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Parkinsonian Disorders",
+              "Risk Factors",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30357723/"
+          },
+          {
+            "pmid": "36114799",
+            "title": "Efficacy and safety of valbenazine in Japanese patients with tardive dyskinesia: A multicenter, randomized, double-blind, placebo-controlled study (J-KINECT).",
+            "abstract": "Valbenazine is approved in the US for treatment of tardive dyskinesia (TD); however, efficacy/safety data in Asian populations are lacking. We assessed the efficacy/safety of valbenazine in Japanese patients.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2022",
+            "authors": [
+              "Horiguchi Jun",
+              "Watanabe Koichiro",
+              "Kondo Kazuoki",
+              "Iwatake Atsushi",
+              "Sakamoto Hajime"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Tardive Dyskinesia",
+              "Japan",
+              "Antipsychotic Agents",
+              "Tetrabenazine",
+              "Double-Blind Method",
+              "Treatment Outcome",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36114799/"
+          },
+          {
+            "pmid": "28497864",
+            "title": "Valbenazine for tardive dyskinesia: A systematic review of the efficacy and safety profile for this newly approved novel medication-What is the number needed to treat, number needed to harm and likelihood to be helped or harmed?",
+            "abstract": "The objective of this systematic review was to describe the efficacy, tolerability, and safety of valbenazine for the treatment of tardive dyskinesia (TD).",
+            "journal": "International journal of clinical practice",
+            "year": "2017",
+            "authors": [
+              "Citrome Leslie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Central Nervous System Agents",
+              "Humans",
+              "Numbers Needed To Treat",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Treatment Outcome",
+              "Valine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28497864/"
+          },
+          {
+            "pmid": "31420757",
+            "title": "Tardive Dyskinesia: Treatment Update.",
+            "abstract": "Tardive dyskinesia (TD) is caused by exposure to medications with dopamine antagonism, mainly antipsychotics. It often distresses individuals, physically and emotionally and affects their quality of life. We evaluated peer-reviewed recently published articles with a goal of providing a critically appraised update on the latest advancements in this field.",
+            "journal": "Current neurology and neuroscience reports",
+            "year": "2019",
+            "authors": [
+              "Arya Divya",
+              "Khan Tarannum",
+              "Margolius Adam J",
+              "Fernandez Hubert H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Dopamine Antagonists",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Quality of Life",
+              "Tardive Dyskinesia",
+              "Tetrabenazine",
+              "Valine",
+              "Vesicular Monoamine Transport Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31420757/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11915",
+    "name": "Valbenazine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Valbenazine"
+      },
+      "queried_at": "2026-03-09T20:40:23.958213",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Valbenazine"
+      },
+      "queried_at": "2026-03-09T20:41:05.393366",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "psychogenic movement disorders"
+      },
+      "queried_at": "2026-03-09T20:41:08.043400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "psychogenic movement disorders"
+      },
+      "queried_at": "2026-03-09T20:41:11.369518",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "psychogenic movement disorders"
+      },
+      "queried_at": "2026-03-09T20:41:12.458374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "primary orthostatic tremor"
+      },
+      "queried_at": "2026-03-09T20:41:13.206535",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "primary orthostatic tremor"
+      },
+      "queried_at": "2026-03-09T20:41:19.164691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "primary orthostatic tremor"
+      },
+      "queried_at": "2026-03-09T20:41:21.042274",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "queried_at": "2026-03-09T20:41:22.473368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "queried_at": "2026-03-09T20:41:26.413244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "queried_at": "2026-03-09T20:41:28.510552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "queried_at": "2026-03-09T20:41:29.545582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "queried_at": "2026-03-09T20:41:34.671974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "queried_at": "2026-03-09T20:41:35.663924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-09T20:41:36.353952",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-09T20:41:49.805743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-09T20:41:59.015341",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-09T20:41:59.562803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-09T20:42:03.844221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-09T20:42:06.143871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "queried_at": "2026-03-09T20:42:09.186437",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "queried_at": "2026-03-09T20:42:19.066305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "queried_at": "2026-03-09T20:42:20.571625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "acute intermittent porphyria"
+      },
+      "queried_at": "2026-03-09T20:42:21.320720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "acute intermittent porphyria"
+      },
+      "queried_at": "2026-03-09T20:42:27.598788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "acute intermittent porphyria"
+      },
+      "queried_at": "2026-03-09T20:42:29.551980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "miscellaneous movement disorder due to neurodegenerative disease"
+      },
+      "queried_at": "2026-03-09T20:42:31.521160",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "miscellaneous movement disorder due to neurodegenerative disease"
+      },
+      "queried_at": "2026-03-09T20:42:37.426393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "miscellaneous movement disorder due to neurodegenerative disease"
+      },
+      "queried_at": "2026-03-09T20:42:39.863892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "drug-induced dyskinesia"
+      },
+      "queried_at": "2026-03-09T20:42:48.057599",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "drug-induced dyskinesia"
+      },
+      "queried_at": "2026-03-09T20:42:54.546974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Valbenazine",
+        "disease": "drug-induced dyskinesia"
+      },
+      "queried_at": "2026-03-09T20:43:01.605675",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T20:43:01.611916"
+  }
+}

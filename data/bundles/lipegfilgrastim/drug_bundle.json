@@ -1,0 +1,521 @@
+{
+  "drug": {
+    "inn": "Lipegfilgrastim",
+    "drugbank_id": "DB13200",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9993064403533936,
+        "txgnn_rank": 1493,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9991362690925598,
+        "txgnn_rank": 1744,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9990893602371216,
+        "txgnn_rank": 1827,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9990800619125366,
+        "txgnn_rank": 1847,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9974706172943116,
+        "txgnn_rank": 4056,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+        "txgnn_score": 0.9899082183837892,
+        "txgnn_rank": 10596,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombocytopenia due to immune destruction",
+        "txgnn_score": 0.9895506501197816,
+        "txgnn_rank": 10853,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bleeding diathesis due to a collagen receptor defect",
+        "txgnn_score": 0.989277958869934,
+        "txgnn_rank": 11059,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Scott syndrome",
+        "txgnn_score": 0.987499177455902,
+        "txgnn_rank": 12439,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03744676",
+            "title": "A Safety Trial of Lisocabtagene Maraleucel (JCAR017) for Relapsed and Refractory (R/R) B-cell Non-Hodgkin Lymphoma (NHL) in the Outpatient Setting",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-11-29",
+            "completion_date": "2023-09-22",
+            "country": "United States",
+            "enrollment": 104,
+            "brief_summary": "This is an open-label, multicenter, Phase 2 study to determine the safety, PK, and efficacy of lisocabtagene maraleucel (JCAR017) in subjects who have relapsed from, or are refractory to, two lines of immunochemotherapy for aggressive B-cell non-Hodgkin lymphoma (NHL) in the outpatient setting. Subjects will receive treatment with JCAR017 and will be followed for up to 2 years.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years at the time of consent\n* Relapsed or refractory B-cell NHL of the following histologies: diffuse large B cell lymphoma (DLBCL) not otherwise specified; includes biopsy-confirmed transformed DLBCL from indolent histologies, high-grade B-cell lymphoma with MYC and",
+            "endpoints": [
+              "Percentage of Participants With Cytokine Release Syndrome (CRS) Adverse Events Grade ≥ 3",
+              "Percentage of Participants With Neurotoxicity (NT) Adverse Events Grade ≥ 3",
+              "Percentage of Participants With Infection Adverse Events Grade ≥ 3"
+            ],
+            "sponsor": "Juno Therapeutics, a Subsidiary of Celgene",
+            "url": "https://clinicaltrials.gov/study/NCT03744676"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9864242672920228,
+        "txgnn_rank": 13268,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13200",
+    "name": "Lipegfilgrastim",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lipegfilgrastim"
+      },
+      "queried_at": "2026-03-09T15:29:17.735773",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lipegfilgrastim"
+      },
+      "queried_at": "2026-03-09T15:29:20.908827",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T15:29:22.222671",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T15:29:27.899777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T15:29:30.683669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T15:29:32.195840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T15:29:37.149343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T15:29:38.021037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T15:29:38.596679",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T15:29:43.817284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T15:29:45.108593",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T15:29:46.560997",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T15:29:51.750430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T15:29:52.970674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T15:29:54.020735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T15:29:58.098100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T15:29:59.078415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T15:29:59.652817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T15:30:04.419688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T15:30:05.956865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "queried_at": "2026-03-09T15:30:06.908964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "queried_at": "2026-03-09T15:30:11.380782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "queried_at": "2026-03-09T15:30:13.161190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T15:30:14.060286",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T15:30:19.459212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T15:30:21.372472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T15:30:24.150930",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T15:30:30.071602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T15:30:31.813259",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T15:30:33.458448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T15:30:39.532988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lipegfilgrastim",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T15:30:41.421041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T15:30:41.435757"
+  }
+}

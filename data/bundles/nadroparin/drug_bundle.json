@@ -1,0 +1,2229 @@
+{
+  "drug": {
+    "inn": "Nadroparin",
+    "drugbank_id": "DB08813",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.981457769870758,
+        "txgnn_rank": 16304,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.981381893157959,
+        "txgnn_rank": 16360,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9756213426589966,
+        "txgnn_rank": 19054,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombophilia",
+        "txgnn_score": 0.9727803468704224,
+        "txgnn_rank": 20211,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04373707",
+            "title": "Effectiveness of Weight-adjusted Prophylactic Low Molecular Weight Heparin Doses Compared With Lower Fixed Prophylactic Doses to Prevent Venous Thromboembolism in COVID-2019. The Multicenter Randomized Controlled Open-label Trial COVI-DOSE",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-05-13",
+            "completion_date": "2021-09-14",
+            "country": "France",
+            "enrollment": 1000,
+            "brief_summary": "Worldwide observational studies indicate a significant prothrombogenic effect associated with SARS-CoV-2 infection with a high incidence of venous thromboembolism (VTE), notably life-threatening pulmonary embolism.\n\nAccording to recommendations for acute medical illnesses, all COVID-19 hospitalized patients should be given VTE prophylaxis such as a low molecular weight heparin (LMWH). A standard prophylactic dose (eg. Enoxaparin 4000IU once daily) could be insufficient in obese patients and VTE ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patient hospitalized for a probable/confirmed COVID-19 infection (confirmed by serology/polymerase chain reaction or by radiologic signs of COVID-19 pneumonia in the setting of clinical and laboratory abnormalities suggestive of a SARS-CoV-2 infection)\n* Signed informed ",
+            "endpoints": [
+              "Venous thromboembolism"
+            ],
+            "sponsor": "Central Hospital, Nancy, France",
+            "url": "https://clinicaltrials.gov/study/NCT04373707"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03005444",
+            "title": "Anticoagulation for Development of Further Decompensation and Survival in Advanced Cirrhosis After Transjugular Intrahepatic Portosystemic Shunt: a Multicenter Randomized Controlled Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2017-06-14",
+            "completion_date": "2024-12-31",
+            "country": "China",
+            "enrollment": 254,
+            "brief_summary": "Recent studies demonstrated that liver cirrhosis was associated with a hypercoagulability state. Besides, bacterial translocation plays an important role in the pathogenesis and complications in patients with decompensated cirrhosis, including infections as well as hepatic encephalopathy and hepatorenal syndrome.\n\nA recent prospective study in a group of 70 patients with liver cirrhosis (Child B and C stages up to 10 points) who were randomized to receive enoxaparin for a year (n = 34) vs no int",
+            "eligibility_criteria": "All inclusion criteria must be met at the time of screening:\n\n* Signed informed consent.\n* Male or female patients with an age of 18 to 75 years\n* Liver cirrhosis.\n* History of variceal bleeding \\> 5 days\n* Presence of ascites\n* Successful TIPS\n* Use of Viatorr stent\n* Child-Pugh score within B7-C13",
+            "endpoints": [
+              "Transplant-free survival"
+            ],
+            "sponsor": "Air Force Military Medical University, China",
+            "url": "https://clinicaltrials.gov/study/NCT03005444"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06494878",
+            "title": "The PARTUM (Postpartum Aspirin to Reduce Thromboembolism Undue Morbidity) Trial",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-04",
+            "completion_date": "2030-12",
+            "country": "Canada",
+            "enrollment": 8805,
+            "brief_summary": "The goal of the PARTUM trial is to determine if taking low-dose aspirin daily for 6 weeks after delivery is similar (non-inferior) to usual care low-molecular-weight heparin injections to prevent venous thromboembolism (VTE: blood clots in the legs or lungs) for postpartum individuals with VTE risk factors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ONE (or more) First Order Criterion:\n\n  1. Known inherited thrombophilia diagnosed prior to enrolment, regardless of family history of VTE:\n\n     i. Heterozygous factor V Leiden, or ii. Heterozygous prothrombin gene variant, or iii. Protein C deficiency, or iv. Protein S defic",
+            "endpoints": [
+              "Symptomatic VTE"
+            ],
+            "sponsor": "University of Calgary",
+            "url": "https://clinicaltrials.gov/study/NCT06494878"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01019655",
+            "title": "Low Molecular Weight Heparin for Pregnant Women With Thrombophilia: a Prospective, Randomized, Open Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2010-01",
+            "completion_date": "2012-12",
+            "country": "Austria",
+            "enrollment": 300,
+            "brief_summary": "The purpose of this study is to investigate whether heparin is an effective treatment in pregnant women at risk for thrombosis and other pregnancy-associated complications.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pregnant women with a singleton pregnancy\n* Age \\>18 years\n* Ability to understand informed consent form\n\nExclusion Criteria:\n\n* Allergy/hypersensitivity for nadroparin calcium\n* Heparin-associated thrombocytopenia\n* Organ lesions at risk for bleeding such as acute stomach/bow",
+            "endpoints": [
+              "composite endpoint: pregnancy-associated thrombosis/thromboembolism, miscarriage, preeclampsia, intrauterine growth retardation"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT01019655"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02987946",
+            "title": "Optimizing Anti Coagulant Therapy in Neurosurgical Interventions in Patients with an Increased Risk for Thrombo-embolic Complications",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-12",
+            "completion_date": "2024-09",
+            "country": "Netherlands",
+            "enrollment": 280,
+            "brief_summary": "In neurosurgical patients, the risk for venous thromboembolic events (VTE) is high due to the relatively long duration of surgery, the high occurrence of prolonged immobilization of patients due to paresis of the legs or intracranial pathology causing inability to mobilise2. Moreover, intracranial and intraspinal tumours and subarachnoid haemorrhage cause hypercoagulability, which increases the risk on VTE. There is a high degree of diversity in attributed risk on thrombosis in the neurosurgical",
+            "eligibility_criteria": "Inclusion Criteria:• Intracranial surgery;\n\n* Tumour surgery (spinal or intracranial);\n* \\>180 min estimated surgical intervention time;\n* \\>240 min time under anaesthesia;\n* Spine trauma surgery;\n\nExclusion Criteria:\n\n* • Age under 18 years;\n\n  * Perioperative continuation of anti coagulant therapy",
+            "endpoints": [
+              "Lower incidence of thromboembolic complications in patients with IPD + LMWH by adding IPD to usual care, established with systematic doppler/duplex evaluation in all patients at 5 +/- 2 days post surgery"
+            ],
+            "sponsor": "Leiden University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02987946"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38233773",
+            "title": "Low-molecular-weight heparin for the prevention of preeclampsia in high-risk pregnancies without thrombophilia: a systematic review and meta-analysis.",
+            "abstract": "To systematically evaluate the efficacy of low molecular weight heparin (LMWH) to prevent preeclampsia in high risk pregnant women without thrombophilia.",
+            "journal": "BMC pregnancy and childbirth",
+            "year": "2024",
+            "authors": [
+              "Chen Jiahui",
+              "Huai Jing",
+              "Yang Huixia"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Infant, Newborn",
+              "Humans",
+              "Pregnancy",
+              "Heparin, Low-Molecular-Weight",
+              "Pre-Eclampsia",
+              "Pregnancy, High-Risk",
+              "Premature Birth",
+              "Fetal Growth Retardation",
+              "Aspirin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38233773/"
+          },
+          {
+            "pmid": "20229677",
+            "title": "Efficacy and safety of nadroparin and unfractionated heparin for the treatment of venous thromboembolism during pregnancy and puerperium.",
+            "abstract": "The optimal treatment of pregnancy associated VTE (venous thromboembolism) has not been established yet.",
+            "journal": "Srpski arhiv za celokupno lekarstvo",
+            "year": "2010",
+            "authors": [
+              "Mitić Gorana",
+              "Kovac Mirjana",
+              "Povazan Ljubica",
+              "Djordjević Valentina",
+              "Ilić Vesna"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Female",
+              "Fibrinolytic Agents",
+              "Heparin",
+              "Humans",
+              "Nadroparin",
+              "Pregnancy",
+              "Pregnancy Complications, Cardiovascular",
+              "Puerperal Disorders",
+              "Venous Thromboembolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20229677/"
+          },
+          {
+            "pmid": "24995856",
+            "title": "Aspirin and/or heparin for women with unexplained recurrent miscarriage with or without inherited thrombophilia.",
+            "abstract": "Since hypercoagulability might result in recurrent miscarriage, anticoagulant agents could potentially increase the chance of live birth in subsequent pregnancies in women with unexplained recurrent miscarriage, with or without inherited thrombophilia.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2014",
+            "authors": [
+              "de Jong Paulien G",
+              "Kaandorp Stef",
+              "Di Nisio Marcello",
+              "Goddijn Mariëtte",
+              "Middeldorp Saskia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Abortion, Habitual",
+              "Anticoagulants",
+              "Antiphospholipid Syndrome",
+              "Aspirin",
+              "Enoxaparin",
+              "Female",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Live Birth",
+              "Nadroparin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24995856/"
+          },
+          {
+            "pmid": "30660948",
+            "title": "Monitoring of heparins in antithrombin-deficient patients.",
+            "abstract": "Heparins exert their anticoagulant effect through activation of antithrombin. Whether antithrombin deficiency leads to clinically relevantly reduced anti-Xa activity of heparins is unknown. We investigated the relation between antithrombin deficiency and anti-Xa activity measurements of plasma samples spiked with unfractionated heparin (UFH) or low-molecular-weight heparin (LMWH).",
+            "journal": "Thrombosis research",
+            "year": "2019",
+            "authors": [
+              "Croles Frederik Nanne",
+              "Lukens Michaël V",
+              "Mulder René",
+              "de Maat Moniek P M",
+              "Mulder André B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antithrombin III Deficiency",
+              "Cross-Sectional Studies",
+              "Female",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Male",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30660948/"
+          },
+          {
+            "pmid": "33728146",
+            "title": "A Case of Duodenal Resection and Duodenojejunostomy for Multiple Small Bowel Infarction in Patient With Inherited Thrombophilia and Vitamin K Antagonist Induced Critical Hypocoagulation.",
+            "abstract": "We present a case of the multiple venous intestinal infarction in patient with two inherited thrombophilias: Leiden factor V (LFV) and factor VIII elevation. The patient had a critical hypocoagulation caused by vitamin K antagonist (VKA) overdose. At laparotomy, several intestinal segments were necrotic and ischemic. Coagulopathy was corrected by the transfusion of the fresh frozen plasma. Because of the 4th duodenal segment infarction distal segmental duodenectomy with side-to-side duodenojejunostomy was done, which is a rarely performed procedure. On postoperative day 6 deep vein thrombosis developed, despite nadroparin profillaxes, early mobilisation and compressive stockings. Our case demonstrated that in patients with congenital thrombophilia, development of the mesenteric venous thrombosis is possible even with VKA induced severe hypocoagulation. Venous infarction of the small bowel can be associated with the hemoperitoneum and gastrointestinal bleeding. After resection of the fo",
+            "journal": "Cureus",
+            "year": "2021",
+            "authors": [
+              "Kobalava Badri",
+              "Kvashilava Anzor",
+              "Giorgobiani Giorgi",
+              "Datikashvili-David Irina G",
+              "Turava Nana"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33728146/"
+          },
+          {
+            "pmid": "27071821",
+            "title": "Hypercoagulability causes atrial fibrosis and promotes atrial fibrillation.",
+            "abstract": "Atrial fibrillation (AF) produces a hypercoagulable state. Stimulation of protease-activated receptors by coagulation factors provokes pro-fibrotic, pro-hypertrophic, and pro-inflammatory responses in a variety of tissues. We studied the effects of thrombin on atrial fibroblasts and tested the hypothesis that hypercoagulability contributes to the development of a substrate for AF.",
+            "journal": "European heart journal",
+            "year": "2017",
+            "authors": [
+              "Spronk Henri M H",
+              "De Jong Anne Margreet",
+              "Verheule Sander",
+              "De Boer Hetty C",
+              "Maass Alexander H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Antithrombins",
+              "Atrial Fibrillation",
+              "Cell Proliferation",
+              "Dabigatran",
+              "Female",
+              "Fibrinolytic Agents",
+              "Fibroblasts",
+              "Fibrosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27071821/"
+          },
+          {
+            "pmid": "9914731",
+            "title": "[Thrombophilia, anticoagulant therapy and pregnancy].",
+            "abstract": "Thromboembolic complications during pregnancy are the most common causes of maternal death. Here we report on thromboembolic prophylaxis of 60 pregnancies of 32 pregnant women with familial thrombophilia. Long-term Fraxiparine (Sanofi-Chinoin) as thromboprophylaxis was applied in 26 cases throughout pregnancy. UFH (Heparin-Ca inj.) was used in 11 cases, and there were 23 pregnancies without thromboembolic prophylaxis in our patient's case histories. Artificial abortions were not included in this paper. The ratio of successful pregnancies were: with Fraxiparine: 24/26 (92.3%), with UFH (Heparin-Ca): 8/11 (72.7%), without prophylaxis: 4/23 (17.4%). In the patient group treated with Fraxiparine there were no foetopathy, thrombocytopenia or bleeding complication. LMWH is recommended for pregnant women with familial thrombophilia. According to literature data and our own experiences the doses of LMWH in patients with familial thrombophilia, and -antiphospholipid syndrome, and -artificial he",
+            "journal": "Orvosi hetilap",
+            "year": "1998",
+            "authors": [
+              "Boda Z",
+              "László P",
+              "Pfliegler G",
+              "Tornai I",
+              "Rejtö L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticoagulants",
+              "Female",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Maternal Mortality",
+              "Nadroparin",
+              "Pregnancy",
+              "Pregnancy Complications, Hematologic",
+              "Pregnancy Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9914731/"
+          },
+          {
+            "pmid": "12931467",
+            "title": "[Successful pregnancy outcome in the woman with thrombophilia and multiple miscarriages].",
+            "abstract": "The case of a 25 year-old pregnant woman with a history of miscarriage (8 week) and a triple intrauterine fetal death (35, 25, 21 week) was reported.",
+            "journal": "Ginekologia polska",
+            "year": "2003",
+            "authors": [
+              "Lewandowski Krzysztof",
+              "Balcerzak Andrzej",
+              "Kubiaczyk-Paluch Beata",
+              "Breborowicz Grzegorz H"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abortion, Habitual",
+              "Adult",
+              "Anticoagulants",
+              "Aspirin",
+              "Cesarean Section",
+              "Factor V",
+              "Female",
+              "Heterozygote",
+              "Humans",
+              "Methylenetetrahydrofolate Reductase (NADPH2)"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12931467/"
+          },
+          {
+            "pmid": "28478442",
+            "title": "Thrombogenesis in Thrombophilic Pregnancy: Evaluation of Low-Molecular-Weight Heparin Prophylaxis.",
+            "abstract": "The aim of this study is to investigate thrombogenesis and the hypercoagulable changes in pregnant women affected by thrombophilia who received low-molecular-weight heparin (LWMH) prophylaxis. We included 21 pregnant women affected by thrombophilia treated with LWMH and 20 nontreated normal pregnant women as the control group. The sample group of thrombophilic pregnant women included different conditions (factor V Leiden mutation, protein C deficiency, protein S deficiency, antiphospholipid antibodies syndrome, and combined defects). Three blood samples were collected during pregnancy (i.e., at 16, 20, and 24 weeks) and tested for activated partial thromboplastin time and prothrombin fragment F1 + 2 (F1 + 2); anti-FXa activity was tested only in treated thrombophilic pregnant women. F1 + 2 levels progressively increased during pregnancy in both study groups. However, the F1 + 2 increase in women exposed to heparin prophylaxis was significantly lower than that in normal pregnant women i",
+            "journal": "Acta haematologica",
+            "year": "2017",
+            "authors": [
+              "Simeone Roberto",
+              "Giacomello Roberta",
+              "Bruno Germano",
+              "Parco Sergio",
+              "Maximova Natalia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticoagulants",
+              "Case-Control Studies",
+              "Factor Xa Inhibitors",
+              "Female",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Nadroparin",
+              "Partial Thromboplastin Time",
+              "Peptide Fragments"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28478442/"
+          },
+          {
+            "pmid": "23262970",
+            "title": "Does anticoagulant therapy improve pregnancy outcome equally, regardless of specific thrombophilia type?",
+            "abstract": "The study was conducted to evaluate the effect of anticoagulant therapy in women with thrombophilia and to detect the possible differences among carriers of mutations (factor V [FV] Leiden and FIIG20210) and those with natural anticoagulant deficiency. The 4-year prospective investigation included 85 pregnant women, with a history of recurrent fetal loss (RFL). They were treated with prophylactic doses of low-molecular-weight heparin (nadroparin) starting from 6 to 8 weeks of gestation. Pregnancy outcomes were evaluated based on the thrombophilia type. Carriers of thrombophilic mutations had a live birth rate of 93%, compared to 41.6% for women with natural anticoagulant deficiencies. Significant differences between the groups were also observed for intrauterine fetal death, intrauterine growth restriction, and postpartum thrombosis. The optimal therapy for women with natural anticoagulant deficiency and RFL remains unclear and future prospective study with a large number of patients i",
+            "journal": "Clinical and applied thrombosis/hemostasis : official journal of the International Academy of Clinical and Applied Thrombosis/Hemostasis",
+            "year": "2014",
+            "authors": [
+              "Kovac Mirjana",
+              "Mikovic Zeljko",
+              "Mitic Gorana",
+              "Djordjevic Valentina",
+              "Mandic Vesna"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticoagulants",
+              "Female",
+              "Humans",
+              "Pregnancy",
+              "Pregnancy Complications, Hematologic",
+              "Pregnancy Outcome",
+              "Prospective Studies",
+              "Risk Factors",
+              "Thrombophilia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23262970/"
+          },
+          {
+            "pmid": "16601339",
+            "title": "Inherited thrombophilia: treatment during pregnancy.",
+            "abstract": "Inherited thrombophilia is associated with thromboembolic events and/or poor obstetric outcome. We evaluated the pregnancy outcome in women with inherited thrombophilia treated with low-molecular-weight heparin (LMWH).",
+            "journal": "Fetal diagnosis and therapy",
+            "year": "2006",
+            "authors": [
+              "De Carolis Sara",
+              "Ferrazzani Sergio",
+              "De Stefano Valerio",
+              "Garofalo Serafina",
+              "Fatigante Gabriella"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticoagulants",
+              "Birth Weight",
+              "Cesarean Section",
+              "Delivery, Obstetric",
+              "Enoxaparin",
+              "Female",
+              "Fetal Death",
+              "Gestational Age",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16601339/"
+          },
+          {
+            "pmid": "19261492",
+            "title": "Suppression of membrane microvesiculation--a possible anticoagulant and anti-tumor progression effect of heparin.",
+            "abstract": "Heparins (unfractionated and low molecular weight (LMWH) heparins) primarily used as anticoagulants, were found to be effective also in slowing down the development of some types of cancer. On the other hand, the number of microvesicles in the peripheral blood originating from the budding of cell membranes (mostly platelets) is increased in hypercoagulabile states as well as in cancer, indicating a possible common underlying mechanism. It was hypothesized that by mediating an attractive interaction between phospholipid membranes heparin suppresses microvesiculation and thereby acts as an anticoagulant and anti-tumor agent. In this work, the effect of LMWH nadroparin on phospholipid membranes was tested in vitro in a system of giant phospholipid vesicles (GPVs) created by electroformation and observed under the phase contrast microscope. Plasma of different blood donors containing different concentrations of nadroparin was added to the suspension of GPVs to induce adhesion between GPVs.",
+            "journal": "Blood cells, molecules & diseases",
+            "year": "2009",
+            "authors": [
+              "Sustar Vid",
+              "Jansa Rado",
+              "Frank Mojca",
+              "Hagerstrand Henry",
+              "Krzan Mojca"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anticoagulants",
+              "Antineoplastic Agents",
+              "Arthritis, Rheumatoid",
+              "Cardiolipins",
+              "Cell-Derived Microparticles",
+              "Female",
+              "Gastrointestinal Neoplasms",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19261492/"
+          },
+          {
+            "pmid": "15735792",
+            "title": "Antithrombotic potential of new direct thrombin inhibitors built on the azaphenylalanine scaffold in two rat venous thrombosis models.",
+            "abstract": "The antithrombotic potential of new direct thrombin inhibitors built on the azaphenylalanine scaffold (LK-732, LK-639 and LK-731) and their amidoxime prodrugs (LK-658, LK-633 and LK-730) was studied in comparison to argatroban and nadroparin in two rat models of venous thrombosis, induced either by complete stasis combined with hypercoagulability (model 1) or by partial stasis combined with vessel injury (model 2). In initial experiments LK-732 was established as the most promising antithrombotic of the LK inhibitors and as such was further tested. In model 1, intravenous bolus administration of LK-732 produced a dose-dependent inhibition of thrombus formation with an ID50 value of 1.3 mg/kg. This ID50 value was approximately four times higher than the ID50 value of argatroban (0.3 mg/kg; p=0.011). However, in model 2, LK-732 and argatroban decreased thrombus weight by 50% at similar ID50 values (3.8 mg/kg vs 3.0 mg/kg, respectively; p=0.726). The ex vivo anticoagulant effect of LK-732",
+            "journal": "Thrombosis and haemostasis",
+            "year": "2005",
+            "authors": [
+              "Peternel Luka",
+              "Stegnar Mojca",
+              "Drevensek Gorazd",
+              "Budihna Metka V",
+              "Bozic Mojca"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Anticoagulants",
+              "Arginine",
+              "Blood Coagulation Tests",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Drug Evaluation, Preclinical",
+              "Female",
+              "Fibrinolytic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15735792/"
+          },
+          {
+            "pmid": "19772212",
+            "title": "[Prevention of deep venous thrombosis after knee arthroscopy. Recent advances].",
+            "abstract": "In absence of prophylaxis, the incidence of deep vein thrombosis after knee arthroscopy is reported to be as high as 18%. Recommendations for thromboprophylaxis after knee arthroscopy have actually been updated. The results of the largest randomized clinical trial (KANT study) in this setting are reported together with a review of the literature.",
+            "journal": "Recenti progressi in medicina",
+            "year": "2009",
+            "authors": [
+              "Camporese Giuseppe",
+              "Bernardi Enrico",
+              "Noventa Franco"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Arthroscopy",
+              "Combined Modality Therapy",
+              "Follow-Up Studies",
+              "Hemorrhage",
+              "Humans",
+              "Incidence",
+              "Knee Joint",
+              "Multicenter Studies as Topic",
+              "Nadroparin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19772212/"
+          },
+          {
+            "pmid": "30240380",
+            "title": "[Pulmonary embolism in a girl with nephrotic syndrome and factor V Leiden - case report].",
+            "abstract": "Thromboembolic complications are found in 2-3% of children with nephrotic syndrome (NS); this increased risk is caused by hypovolemia, hemoconcentration, increased number and activity of platelets, hyperfibrinogenemia and loss of coagulation inhibitors. Risk is even higher in case of additional factors e.g. congenital thrombophilia.",
+            "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
+            "year": "2018",
+            "authors": [
+              "Skrzypczyk Piotr",
+              "Mizerska-Wasiak Małgorzata",
+              "Ofiara Anna",
+              "Szyszka Michał",
+              "Kułagowska Jagoda"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anticoagulants",
+              "Antithrombin III",
+              "Factor V",
+              "Female",
+              "Humans",
+              "Mycophenolic Acid",
+              "Nadroparin",
+              "Nephrotic Syndrome",
+              "Pulmonary Embolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30240380/"
+          },
+          {
+            "pmid": "39060847",
+            "title": "Hypercoagulable state and effect of low-molecular-weight heparin prophylaxis on coagulation after lung cancer resection: results from thrombo-elastography.",
+            "abstract": "Lung cancer patients undergoing surgery are at increased risk for Venous thromboembolism (VTE). We monitored changes in perioperative coagulation status through Thrombo-elastography (TEG), and monitored the anticoagulant effect of low molecular weight heparin through TEG for the first time.",
+            "journal": "General thoracic and cardiovascular surgery",
+            "year": "2025",
+            "authors": [
+              "Yang Xiaoxiao",
+              "Cai Yongsheng",
+              "Ke Lihui",
+              "Wei Bo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Lung Neoplasms",
+              "Retrospective Studies",
+              "Middle Aged",
+              "Anticoagulants",
+              "Aged",
+              "Thrombophilia",
+              "Blood Coagulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39060847/"
+          },
+          {
+            "pmid": "32386986",
+            "title": "Arterial and venous thromboembolic disease in a patient with COVID-19: A case report.",
+            "abstract": "",
+            "journal": "Thrombosis research",
+            "year": "2020",
+            "authors": [
+              "Brüggemann Renée",
+              "Gietema Hester",
+              "Jallah Borefore",
+              "Ten Cate Hugo",
+              "Stehouwer Coen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "COVID-19",
+              "Cerebral Infarction",
+              "Clopidogrel",
+              "Computed Tomography Angiography",
+              "Coronavirus Infections",
+              "Frontal Lobe",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32386986/"
+          },
+          {
+            "pmid": "23351443",
+            "title": "[Economic analysis of dalteparin use in knee surgery at Instituto Mexicano del Seguro Social].",
+            "abstract": "Knee surgery is a risk factor for thromboembolic disease. Prophylaxis reduces the risk of this condition.",
+            "journal": "Cirugia y cirujanos",
+            "year": "2012",
+            "authors": [
+              "Arreola-Ornelas Héctor",
+              "Rosado-Buzzo Alfonso",
+              "García-Mollinedo Lourdes",
+              "Dorantes Aguilar Javier",
+              "Muciño-Ortega Emilio"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Academies and Institutes",
+              "Anticoagulants",
+              "Arthroplasty, Replacement, Knee",
+              "Cost Savings",
+              "Cost-Benefit Analysis",
+              "Dalteparin",
+              "Diagnostic Imaging",
+              "Drug Costs",
+              "Heparin",
+              "Hospitalization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23351443/"
+          },
+          {
+            "pmid": "20211026",
+            "title": "Neonatal arterial iliac thrombosis in type-I protein C deficiency: a case report.",
+            "abstract": "A male infant born by caesarean section at 38 weeks of gestational age (B.W. 4055 g; Apgar 9-10), in the first two hours of life his right leg became hypo-vascularized. Normal values of leukocytes, red cells, haematocrit, hemoglobin, platelets. C-Reactive Protein negative. Electrolytes and coagulation tests were normal. Normal vitamin K coagulation proteins levels. Serological tests for TORCH (IgM) and Parvovirus (IgG and IgM) were negative. Sonography showed a reduced blood flow in the iliac artery and reported a 1 cm long vessel thrombosis. From 8 hours of life we administered an intravenous infusion of unfractionated heparin (UFH) 75 UI/Kg for the first 10 minutes then 28 UI/Kg/h.On the 2nd day tests were performed to assess absence of inhibiting-clot factors. The dosage of homocysteine, protein S and antithrombin was normal. FV Leiden and antiphospholipid antibodies were negative. The mapping of G20210A prothrombin's gene resulted normal, whereas the concentration of Protein C was ",
+            "journal": "Italian journal of pediatrics",
+            "year": "2010",
+            "authors": [
+              "Tridapalli Elisabetta",
+              "Stella Marcello",
+              "Capretti Maria G",
+              "Faldella Giacomo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Heparin",
+              "Humans",
+              "Iliac Artery",
+              "Infant, Newborn",
+              "Infusions, Intravenous",
+              "Male",
+              "Protein C",
+              "Protein C Deficiency",
+              "Thrombosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20211026/"
+          },
+          {
+            "pmid": "34915622",
+            "title": "[Clinical and genetic analysis of pulmonary embolism induced by a novel gene mutation of the antithrombin Ⅲ gene].",
+            "abstract": "Objective: To improve the clinical management of acute pulmonary embolism caused by antithrombin Ⅲ (AT Ⅲ) deficiency through gene sequence analysis of the SERPINC1 gene. Methods: The diagnosis and treatment of a 33-year-old male patient with chest pain was reviewed. All exon sequences and flanking regions of 7 related genes of thrombophilia were subjected to detection by high-throughput next generation sequencing technology. The gene mutation was inquired in the gene database and the pathogenic probability of the mutant gene was predicted by Mutation Taster software. Results: The patient was diagnosed with acute pulmonary embolism (intermediate-low risk), with the ATⅢ activity less than 50%. Anticoagulation with nadroparin calcium combined with warfarin was administrated, but hemoptysis was aggravated, and then the medication was replaced by anticoagulant of rivaroxaban. In the end, the embolus was gradually absorbed. A heterozygous missense mutation of c.1148T>A (p.L383H) in the SERPI",
+            "journal": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
+            "year": "2021",
+            "authors": [
+              "Wang Y",
+              "He F K",
+              "Ning W W",
+              "Wang J J",
+              "Su N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antithrombin III",
+              "Humans",
+              "Male",
+              "Mutation",
+              "Pulmonary Embolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34915622/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "antithrombin deficiency type 2",
+        "txgnn_score": 0.9715980887413024,
+        "txgnn_rank": 20672,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "factor 5 excess with spontaneous thrombosis",
+        "txgnn_score": 0.9703200459480286,
+        "txgnn_rank": 21151,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heparin cofactor 2 deficiency",
+        "txgnn_score": 0.9698755741119384,
+        "txgnn_rank": 21337,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary embolism (disease)",
+        "txgnn_score": 0.969751000404358,
+        "txgnn_rank": 21375,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04066764",
+            "title": "An Efficacy and Safety Study of New Oral Anticoagulants and Vitamin K Antagonists for the Anticoagulation for the Implantation of Vena Cava Filters: A Prospective Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2020-05-08",
+            "completion_date": "2024-10-01",
+            "country": "China",
+            "enrollment": 200,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of new oral anticoagulants and vitamin K antagonists for the anticoagulation for the implantation of vena cava filters in patients with deep venous thrombosis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who was diagnosed with deep venous thrombosis of the lower extremity and implanted with a retrievable inferior vena cava filter.\n\nExclusion Criteria:\n\n* Age \\< 18 years or age \\> 75 years,\n* With obvious contraindications for anticoagulation therapy,\n* Allergic to iod",
+            "endpoints": [
+              "All cause mortality",
+              "Pulmonary embolism related mortality",
+              "Percentage of Participants with bleeding"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT04066764"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04373707",
+            "title": "Effectiveness of Weight-adjusted Prophylactic Low Molecular Weight Heparin Doses Compared With Lower Fixed Prophylactic Doses to Prevent Venous Thromboembolism in COVID-2019. The Multicenter Randomized Controlled Open-label Trial COVI-DOSE",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-05-13",
+            "completion_date": "2021-09-14",
+            "country": "France",
+            "enrollment": 1000,
+            "brief_summary": "Worldwide observational studies indicate a significant prothrombogenic effect associated with SARS-CoV-2 infection with a high incidence of venous thromboembolism (VTE), notably life-threatening pulmonary embolism.\n\nAccording to recommendations for acute medical illnesses, all COVID-19 hospitalized patients should be given VTE prophylaxis such as a low molecular weight heparin (LMWH). A standard prophylactic dose (eg. Enoxaparin 4000IU once daily) could be insufficient in obese patients and VTE ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patient hospitalized for a probable/confirmed COVID-19 infection (confirmed by serology/polymerase chain reaction or by radiologic signs of COVID-19 pneumonia in the setting of clinical and laboratory abnormalities suggestive of a SARS-CoV-2 infection)\n* Signed informed ",
+            "endpoints": [
+              "Venous thromboembolism"
+            ],
+            "sponsor": "Central Hospital, Nancy, France",
+            "url": "https://clinicaltrials.gov/study/NCT04373707"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00951574",
+            "title": "Prevention of Venous and Arterial Thromboembolism, in Cancer Patients Undergoing Chemotherapy, With a Low Molecular Weight Heparin (Nadroparin Calcium). A Randomized, Placebo-controlled, Double-blind, Multicenter Phase III Study.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2003-10",
+            "completion_date": "2008-07",
+            "country": "Italy",
+            "enrollment": 1166,
+            "brief_summary": "In this phase III, multicenter study, 1200 patients with lung, breast, gastrointestinal (stomach, colon-rectum, pancreas), ovarian or head and neck cancer undergoing chemotherapy will be randomly assigned (at the beginning of cytotoxic therapy) in a 2:1 ratio and in double-blind conditions to a treatment with subcutaneous low molecular weight heparin (nadroparin calcium, one injection/day) or placebo for the overall duration of chemotherapy or up to a maximum of 4 months (+/- 10 days).",
+            "eligibility_criteria": "INCLUSION CRITERIA:\n\n* both sexes;aged\\>18 years;\n* suffering from different types of malignancies(lung, breast,gastric,colon- rectum,pancreatic,ovarian,head and neck cancer)undergoing systemic chemotherapy,\n* having signed Informed Consent prior to initiation of any study procedure.\n\nEXCLUSION CRIT",
+            "endpoints": [
+              "Cumulative incidence of symptomatic venous and arterial thromboembolism, in patients with metastatic or locally advanced solid tumors undergoing chemotherapy"
+            ],
+            "sponsor": "Italfarmaco",
+            "url": "https://clinicaltrials.gov/study/NCT00951574"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00796692",
+            "title": "Efficacy and Safety of Body Weight Adjusted Nadroparin vs Standard Unfractionated Heparin for the Initial Treatment of Pulmonary Thromboembolism：a Multi-Centre, Randomised Controlled Trial in China",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2002-06",
+            "completion_date": "2006-02",
+            "country": "China",
+            "enrollment": 274,
+            "brief_summary": "Low-molecular-weight heparin (LWMH) appears to be at least as effective and safe as standard, unfractionated heparin (UFH)for the treatment of patients with deep vein thrombosis(DVT) and may also be so in patients with pulmonary thromboembolism (PTE). Only limited data are available on the evaluation of body weight adjusted LWMH and standard UFH for the initial treatment of PTE in Chinese population. The aim of this study is to determine whether body weight-adjusted, subcutaneous Nadroparin is a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 to 75 years of age\n* Symptomatic non massive PTE confirmed either by a high probability ventilation-perfusion lung scanning (V/Q scan) or by the presence of intraluminal filling defect on spiral computed tomographic pulmonary angiography (CTPA)\n* Haemodynamic stabile, anato",
+            "endpoints": [
+              "Clinical and image(including V/Q scan and CTPA) improvement"
+            ],
+            "sponsor": "Beijing Chao Yang Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00796692"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04508855",
+            "title": "Safety and Efficacy of Switching From Direct Oral Anticoagulants to Low Molecular Weight Heparin in Cancer Patients With Atrial Fibrillation During Antineoplastic Therapy",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "start_date": "2020-08-01",
+            "completion_date": "2023-12",
+            "country": "Greece",
+            "enrollment": 0,
+            "brief_summary": "The primary objective is to assess the safety and efficacy of switching from direct oral anticoagulants to low molecular weight heparin in cancer patients during antineoplastic therapy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects diagnosed with cancer other than basal-cell or squamous-cell skin cancer which was objectively confirmed and are programmed for antineoplastic treatment\n2. Subjects between 18 to 75 years of age at inclusion\n3. Subjects must weigh at least 40 kg at inclusion\n4. Subje",
+            "endpoints": [
+              "Major bleeding",
+              "Clinical relevant bleeding"
+            ],
+            "sponsor": "AHEPA University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04508855"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01828697",
+            "title": "Low-molecular-weight Heparin to Prevent Recurrent VTE in Pregnancy: a Randomized Controlled Trial of Two Doses",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-04-24",
+            "completion_date": "2021-10-31",
+            "country": "Spain, France, Canada, Belgium, Netherlands, Denmark, United States, Russia, Ireland, Norway",
+            "enrollment": 1110,
+            "brief_summary": "This is a randomized-controlled open-label trial comparing two different doses of low-molecular-weight heparin (LMWH) in pregnant patients with a history of previous venous thromboembolism (VTE). Both doses are recommended doses in the 2012 guidelines of the American College of Chest Physicians (ACCP), but it is not known which dose is more efficacious in preventing recurrent venous thromboembolism in pregnancy.\n\nPatients enter the study and will be randomized as soon as a home test confirms pre",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age: 18 years or older, and;\n* Pregnancy confirmed by urinary pregnancy test, and;\n* Gestational age \\< 14 weeks, and;\n* Previous objectively confirmed VTE, either unprovoked, in the presence of use of oral contraceptives or estrogen/progestagen use, or related to pregnancy or",
+            "endpoints": [
+              "Symptomatic confirmed deep venous thrombosis",
+              "Symptomatic confirmed pulmonary embolism"
+            ],
+            "sponsor": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+            "url": "https://clinicaltrials.gov/study/NCT01828697"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01164046",
+            "title": "Long-term Treatment for Cancer Patients With Deep Venous Thrombosis or Pulmonary Embolism",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2010-08",
+            "completion_date": "2014-07",
+            "country": "Canada, Netherlands, Germany, Italy, United States",
+            "enrollment": 56,
+            "brief_summary": "Background\n\nPatients with cancer and a first deep venous thrombosis of the leg or pulmonary embolism (venous thromboembolism, VTE) are generally treated with low molecular weight heparin (LMWH)injections for 6 months, since this treatment is associated with a reduced incidence of recurrent VTE compared to vitamin K antagonists (VKA). It is recommended that patients with active malignancy (metastatic cancer and/or ongoing cancer treatment)continue anticoagulant treatment. However, it is unknown w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with cancer and confirmed pulmonary embolism (PE) or deep vein thrombosis (DVT) of the leg who have been treated for minimally 6 and maximally 12 months with therapeutic doses of anticoagulants, i.e. LMWH or VKA or a new anticoagulant in a trial\n2. Written informed c",
+            "endpoints": [
+              "Symptomatic recurrent VTE, i.e. the composite of recurrent deep venous thrombosis and fatal or non-fatal pulmonary embolism"
+            ],
+            "sponsor": "University Medical Center Groningen",
+            "url": "https://clinicaltrials.gov/study/NCT01164046"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06494878",
+            "title": "The PARTUM (Postpartum Aspirin to Reduce Thromboembolism Undue Morbidity) Trial",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-04",
+            "completion_date": "2030-12",
+            "country": "Canada",
+            "enrollment": 8805,
+            "brief_summary": "The goal of the PARTUM trial is to determine if taking low-dose aspirin daily for 6 weeks after delivery is similar (non-inferior) to usual care low-molecular-weight heparin injections to prevent venous thromboembolism (VTE: blood clots in the legs or lungs) for postpartum individuals with VTE risk factors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ONE (or more) First Order Criterion:\n\n  1. Known inherited thrombophilia diagnosed prior to enrolment, regardless of family history of VTE:\n\n     i. Heterozygous factor V Leiden, or ii. Heterozygous prothrombin gene variant, or iii. Protein C deficiency, or iv. Protein S defic",
+            "endpoints": [
+              "Symptomatic VTE"
+            ],
+            "sponsor": "University of Calgary",
+            "url": "https://clinicaltrials.gov/study/NCT06494878"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04536272",
+            "title": "Reduced Anticoagulation Targets in ECLS (RATE)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-10-01",
+            "completion_date": "2025-03-07",
+            "country": "Netherlands",
+            "enrollment": 330,
+            "brief_summary": "The objective of the RATE-trial is to study if reduced anticoagulation targets during ECLS diminish bleeding complications without an increase in thromboembolic complications or a negative impact on outcome.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ECMO treatment during the study period in one of the participating centers\n* Age above 18 years\n* Written informed consent\n\nExclusion Criteria:\n\n* Patients in whom the ECMO is only used to bridge a procedure\n* Vital indication for robust anticoagulation (e.g. mechanic valve, p",
+            "endpoints": [
+              "Hemorrhagic complications",
+              "Severe thromboembolic complications",
+              "Mortality"
+            ],
+            "sponsor": "University Medical Center Groningen",
+            "url": "https://clinicaltrials.gov/study/NCT04536272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01542723",
+            "title": "Pot-Kast: Thrombosis Prophylaxis After Knee Arthroscopy: Determining the Balance Between Benefits and Risks",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "2016-09",
+            "country": "Netherlands",
+            "enrollment": 1500,
+            "brief_summary": "Currently, guidelines and clinical practice differ considerably with respect to use of anticoagulant treatment after arthroscopy of the knee. Trials that have been carried out were aimed at efficacy only, had small sample sizes and therefore mainly used asymptomatic thrombosis as endpoint. From these trials an overall risk benefit-balance could not be established, hence the current controversy. In the proposed study the investigators will use relevant symptomatic endpoints in a large cohort of p",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Meniscectomy\n* Diagnostic Arthroscopy\n* Removal of corpora libera\n\nExclusion Criteria:\n\n* Contra-indications for LMWH use (recent major bleeding, bleeding disorder, allergy)\n* Pregnancy\n* Pre-existent indication for anticoagulation therapy, either LMWH or vitamin K antagonists",
+            "endpoints": [
+              "Symptomatic deep venous thrombosis (DVT)",
+              "Pulmonary Embolism (PE)",
+              "Major Bleeding"
+            ],
+            "sponsor": "Leiden University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01542723"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01431456",
+            "title": "A Randomized Pilot Study Comparing the Safety of DAbigatran and RIvaroxaban Versus NAdroparin in the Prevention of Venous Thromboembolism After Knee Arthroplasty Surgery",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-09",
+            "completion_date": "2014-10",
+            "country": "Netherlands",
+            "enrollment": 148,
+            "brief_summary": "Rationale:\n\nAfter total knee arthroplasty (TKA) surgery, patients are at risk to develop venous thromboembolism (VTE) or deep venous thrombosis (DVT) potentially resulting in a fatal pulmonary embolism (PE). Two novel agents, dabigatran and rivaroxaban, recently gained market authorisation for prevention of venous thromboembolism after knee arthroplasty.\n\nHowever, there are no clinical trials with dabigatran and/or rivaroxaban and the comparator nadroparin.\n\nNadroparin is used in the most Dutch ",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients \\> 18 years and weighing more than 40 kg who are scheduled for primary elective total knee arthroplasty according to the 'joint care program' and want to provided signed informed consent are eligible for the study.\n\nExclusion Criteria:\n\n* a known inherited or acquired c",
+            "endpoints": [
+              "The primary safety outcome is the incidence of bleeding events occurring during the study period of 135 days (including follow-up). Major bleeding events and clinically relevant non-major bleeding events were defined according to accepted guidelines"
+            ],
+            "sponsor": "Martini Hospital Groningen",
+            "url": "https://clinicaltrials.gov/study/NCT01431456"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00881088",
+            "title": "Prophylaxis of Venous Thromboembolism in Patients With a Nonsurgical Fracture of the Lower Extremity Immobilised in a Below-Knee Plaster Cast",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2009-04",
+            "completion_date": "2013-04",
+            "country": "Netherlands",
+            "enrollment": 669,
+            "brief_summary": "Objective:\n\nThe purpose of this study is to determine the need for thromboprophylaxis in patients with a fracture of the lower extremity being treated conservatively in a below-knee plaster cast and to assess if both of the two tested prophylactic treatments are effective for this indication.\n\nHypothesis:\n\nNadroparine and Fondaparinux are both effective in preventing a thromboembolic event in patients with a nonsurgical fracture of a lower extremity immobilised in a below-knee plaster cast.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* at least 18 years\n* with a nonsurgical fracture of the lower extremity requiring immobilisation in a below-knee plaster cast for a minimum of 4 weeks.\n\nExclusion Criteria:\n\n* Delay between injury and Emergency Department visit greater than three days\n* Pregnancy/ lactation\n* B",
+            "endpoints": [
+              "Primary outcome measure is deep vein trombosis as detected by venous duplex"
+            ],
+            "sponsor": "Red Cross Hospital Beverwijk",
+            "url": "https://clinicaltrials.gov/study/NCT00881088"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05621915",
+            "title": "Nadroparin Pharmacokinetics in Different Stages of COVID-19-a Prospective Observational Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-02-01",
+            "completion_date": "2022-04-15",
+            "country": "Poland",
+            "enrollment": 43,
+            "brief_summary": "Objective:\n\nThe risk of thrombotic complications in critical COVID-19 patients remains extremely high, and multicenter trials failed to prove the survival benefit of escalated doses of low molecular weight heparins (LMWH) in this group. The aim of this study was to develop a pharmacokinetic model of LMWH (nadroparin calcium) according to different stages of COVID-19 severity.\n\nDesign:\n\nThe investigators performed a prospective observational study.\n\nPatients:\n\nBlood samples were obtained from 43 ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients treated in the Department of Anesthesiology and Intensive Care and the Department of Infectious Diseases of a tertiary academic hospital with confirmed SARS-CoV-2 infection with a real-time reverse transcription polymerase chain reaction (RT-PCR) or an antigen test.\n\n",
+            "endpoints": [
+              "Change in nadroparin concentration in blood measurement",
+              "Change in anti-Xa serum level"
+            ],
+            "sponsor": "Medical University of Lublin",
+            "url": "https://clinicaltrials.gov/study/NCT05621915"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00312013",
+            "title": "A Randomized, Controlled Trial to Evaluate the Effects of Nadroparin on Survival and Disease Progression in Patients With Advanced Malignancies of the Lung, Pancreas, or Prostate",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-05",
+            "completion_date": "2009-07",
+            "country": "France, Canada, Belgium, Netherlands, Germany, Italy, Slovenia, Russia, Czechia, Hungary, Poland",
+            "enrollment": 503,
+            "brief_summary": "This study will evaluate the effects of nadroparin on survival and disease progression in patients with hormone-refractory prostate cancer (HRPC), locally advanced pancreatic cancer or non-small-cell lung carcinoma (NSCLC).",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Hormone refractory prostate cancer within 6 months of diagnosis, OR locally advanced (non-metastasized) pancreatic cancer within 3 months of diagnosis, OR non-small-cell lung cancer within 3 months of stage IIIB.\n\nExclusion criteria:\n\n* Life expectancy of \\<3 months.\n* Poor pe",
+            "endpoints": [
+              "Death due to all causes at study end (patients will be followed until at least Week 46 after randomization)."
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00312013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02987946",
+            "title": "Optimizing Anti Coagulant Therapy in Neurosurgical Interventions in Patients with an Increased Risk for Thrombo-embolic Complications",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-12",
+            "completion_date": "2024-09",
+            "country": "Netherlands",
+            "enrollment": 280,
+            "brief_summary": "In neurosurgical patients, the risk for venous thromboembolic events (VTE) is high due to the relatively long duration of surgery, the high occurrence of prolonged immobilization of patients due to paresis of the legs or intracranial pathology causing inability to mobilise2. Moreover, intracranial and intraspinal tumours and subarachnoid haemorrhage cause hypercoagulability, which increases the risk on VTE. There is a high degree of diversity in attributed risk on thrombosis in the neurosurgical",
+            "eligibility_criteria": "Inclusion Criteria:• Intracranial surgery;\n\n* Tumour surgery (spinal or intracranial);\n* \\>180 min estimated surgical intervention time;\n* \\>240 min time under anaesthesia;\n* Spine trauma surgery;\n\nExclusion Criteria:\n\n* • Age under 18 years;\n\n  * Perioperative continuation of anti coagulant therapy",
+            "endpoints": [
+              "Lower incidence of thromboembolic complications in patients with IPD + LMWH by adding IPD to usual care, established with systematic doppler/duplex evaluation in all patients at 5 +/- 2 days post surgery"
+            ],
+            "sponsor": "Leiden University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02987946"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01531829",
+            "title": "Low Dose Rt-PA Plus LMWH Compared With LMWH Alone for the Treatment of Normotensive Pulmonary Embolism Patients With Acute RV Dysfunction: A Randomized，Multi-Center，Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2009-07",
+            "completion_date": "2012-12",
+            "country": "China",
+            "enrollment": 460,
+            "brief_summary": "In selected patients with acute pulmonary embolism(PE), low dose (50mg/2h) recombinant tissue plasminogen activator (rt-PA) regimen had been reported to have less bleeding tendency than the FDA-approved rt-PA 100mg/2h regimen 100mg/2h regimen (3% vs.10%), it is worthwhile to reveal whether low dose rt-PA plus low molecular weight heparin (LMWH) can rapidly reverses RV pressure overload in PE, but not increase bleeding and other adverse events. The aim of the study is to compare thrombolytic trea",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. 18 y≤Age≤75y\n2. Acute PE (first symptoms occurred 14 d or less before randomization) confirmed by lung scan, or a positive computed tomographic pulmonary angiogram, or a positive selective pulmonary angiogram\n3. Hemodynamic stability, diastolic pressure\\>90mmHg.\n4. RV dysfunc",
+            "endpoints": [
+              "the composite end point of death from any cause or treatment failure,recurrence of VTE",
+              "improvements of right ventricular functions on echocardiogram and pulmonary artery obstruction on CT angiographs",
+              "serious life threatening bleeding such as cerebral hemorrhage and other major bleeding episodes"
+            ],
+            "sponsor": "Beijing Chao Yang Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01531829"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01542762",
+            "title": "Pot-Cast: Thrombosis Prophylaxis During Plaster Cast Lower Leg Immobilisation: Determining the Balance Between Benefits and Risks",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2016-09",
+            "country": "Netherlands",
+            "enrollment": 1500,
+            "brief_summary": "Currently, guidelines and clinical practice differ considerably with respect to use of anticoagulant treatment during cast immobilization of the lower leg. Trials that have been carried out were aimed at efficacy only, had small sample sizes and therefore mainly used asymptomatic thrombosis as endpoint. From these trials an overall risk benefit-balance could not be established, hence the current controversy. In the proposed study the investigators will use relevant symptomatic endpoints in a lar",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAll patients in need of immobilization of the lower leg with a plaster cast (or equivalent of a cast) for a minimum of one week for the following indications:\n\n* Trauma of the lower leg\n* Surgery of the lower leg followed by lower leg immobilization with a plaster cast\n* Non-tra",
+            "endpoints": [
+              "Symptomatic deep venous thrombosis (DVT)",
+              "Pulmonary Embolism (PE)",
+              "Major Bleeding"
+            ],
+            "sponsor": "Leiden University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01542762"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04067505",
+            "title": "An Efficacy and Safety Study of Rivaroxaban for the Prevention of Deep Vein Thrombosis in Patients With Left Iliac Vein Compression Treated With Stent Implantation (PLICTS)：A Prospective Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2020-05-18",
+            "completion_date": "2024-12-31",
+            "country": "China",
+            "enrollment": 224,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of rivaroxaban for the prevention of deep vein thrombosis in patients with left iliac vein compression treated with stent implantation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with thrombotic left iliac vein compression syndrome who underwent left iliac vein stent implantation\n\nExclusion Criteria:\n\n* Age \\< 18 years or age \\> 75 years\n* With history of pelvic surgery, left iliac vein trauma and pelvic radiotherapy\n* With obvious contraindic",
+            "endpoints": [
+              "stent occlusion rate"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT04067505"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00843492",
+            "title": "A Multicentre, Randomized, Open-label Study to Evaluate the Efficacy andSafety of Fondaparinux Versus Low Molecular Weight Heparin(Nadroparin) in Patients Requiring Rigid or Semi-rigid Immobilization for at Least 21 Days and up to 45 Days Because of Isolated Non-surgical Below-Knee Injury",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-12",
+            "completion_date": "2010-06",
+            "country": "Spain, France, Netherlands, Germany, Italy, Russia",
+            "enrollment": 1351,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of fondaparinux in comparison with a heparin (nadroparin) in preventing deep vein thrombosis (blood clots in the leg veins), whether symptomatic or detected by ultrasound, and pulmonary embolism (blood clots that migrate to the lungs) in patients with leg injuries below the knee that require a cast or other type of immobilization but not surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Requiring rigid or semi-rigid immobilization (e.g. with a plaster cast or brace) for at least 21 days and up to 45 days because of isolated non-surgical below-knee injury\n* With a no weight-bearing recommendation at the time of inclusion (partial weight bearing is permitted e.",
+            "endpoints": [
+              "Number of Participants With Venous Thromboembolism (VTE) or Death up to the Time of Complete Mobilization"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00843492"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01727427",
+            "title": "Prospective Study on the Treatment of Unsuspected Pulmonary Embolism in Cancer Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2012-11",
+            "completion_date": "2017-12",
+            "country": "Spain, France, Canada, Netherlands, Austria, Germany, Italy, United States",
+            "enrollment": 695,
+            "brief_summary": "The same initial and long-term anticoagulation is suggested for unsuspected pulmonary embolism as for patients with symptomatic embolism. Based on these indications, cancer patients with unsuspected pulmonary embolism would be anticoagulated for at least 6 months or until the disease is active, which in most cases would mean indefinite treatment. In fact, dedicated studies on the treatment of unsuspected pulmonary embolism are missing, leaving doubts over the need for (indefinite) anticoagulatio",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* cancer patients with a first diagnosis of unsuspected PE\n\nExclusion Criteria:\n\n1. age \\<18 years;\n2. ongoing anticoagulant therapy for previous VTE or indications for long-term anticoagulation other than deep vein thrombosis (DVT) or PE;\n3. life expectancy less than 3 months.",
+            "endpoints": [
+              "Recurrent (symptomatic) vein thromboembolism, including pulmonary embolism and deep vein thrombosis"
+            ],
+            "sponsor": "G. d'Annunzio University",
+            "url": "https://clinicaltrials.gov/study/NCT01727427"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07140211",
+            "title": "Short-term Low-dose Low-molecular-weight Heparin to Prevent Postpartum Thrombosis: a Pragmatic, Multi-center, Open-label Randomized Controlled Study",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-10-15",
+            "completion_date": "2030-08",
+            "country": "Switzerland",
+            "enrollment": 9200,
+            "brief_summary": "The goal of this clinical trial is to evaluate the risk-benefit of a short-term treatment with a low-dose low-molecular-weight heparin (LMWH), in the postpartum period (after delivery). The main questions it aims to answer are:\n\n* compared to no treatment, does short-term postpartum LMWH modify the risk of venous thromboembolism within 90 days of delivery?\n* compared to no treatment, does short-term postpartum LMWH modify the risks of bleeding and wound complications? Participants will take low-",
+            "eligibility_criteria": "Inclusion Criteria: postpartum women after delivery AND ≥1 major risk factor / ≥2 minor risk factors:\n\n* Major risk factors: Emergency cesarean section ; Pre-pregnancy BMI ≥35kg/m2 ; Known low-risk thrombophilia (heterozygous factor V Leiden; heterozygous G20210 prothrombin mutation) ; Pre-eclampsia",
+            "endpoints": [
+              "Venous thrombotic outcomes"
+            ],
+            "sponsor": "University Hospital, Geneva",
+            "url": "https://clinicaltrials.gov/study/NCT07140211"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01267305",
+            "title": "The Impact of Different Anticoagulant Therapy on Hemorrhage and Coagulation After Thoracic Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2011-01",
+            "completion_date": "2013-08",
+            "country": "China",
+            "enrollment": 362,
+            "brief_summary": "The purpose of this study is to determine whether the use of different dose of LMWH compared with fondaparinux for thromboprophylaxis is efficacious and safety after thoracic surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* clinical diagnosis of esophageal carcinoma and planned for esophagectomy\n* clinical diagnosis of lung carcinoma and planned for lung resection\n* general anesthesia combined with epidural anesthesia\n\nExclusion Criteria:\n\n* blood clotting disfunction before surgery\n* anticoagula",
+            "endpoints": [
+              "TEG values"
+            ],
+            "sponsor": "Shanghai Zhongshan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01267305"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32639644",
+            "title": "Comparison of the Effects of Low-Molecular-Weight Heparin and Fondaparinux on Liver Function in Patients With Pulmonary Embolism.",
+            "abstract": "Hepatotoxicity with low-molecular-weight heparin (LMWH) or fondaparinux is a relatively common adverse reaction. This study assessed the effects of LMWH and fondaparinux on liver function in patients with pulmonary embolism based on a retrospective cohort. As a result, a total of 463 patients with pulmonary embolism and treated with LMWH (enoxaparin sodium or nadroparin calcium) or fondaparinux sodium were included. Liver dysfunction was identified in 79 patients (17.1%), of whom 97.5% had grade 1 drug-induced liver injury (DILI) and 2.5% had grade 2 DILI. The results showed that liver dysfunction usually occurred in the first week after anticoagulant administration, and the liver tests of all patients with liver dysfunction gradually recovered or alleviated at discharge. The multivariable logistic regression analysis indicated that a longer treatment course and hepatitis B surface antigen-positive (HBsAg+) were risk factors for liver dysfunction (P < .05). Moreover, nadroparin calcium",
+            "journal": "Journal of clinical pharmacology",
+            "year": "2020",
+            "authors": [
+              "Yang Xu",
+              "Li Nan",
+              "Guo Tingting",
+              "Guan Xiaoyuan",
+              "Tan Jiangshan"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anticoagulants",
+              "Asian People",
+              "Chemical and Drug Induced Liver Injury",
+              "Drug Combinations",
+              "Enoxaparin",
+              "Factor Xa Inhibitors",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32639644/"
+          },
+          {
+            "pmid": "9108990",
+            "title": "Nadroparin calcium. A review of its pharmacology and clinical use in the prevention and treatment of thromboembolic disorders.",
+            "abstract": "Nadroparin (nadroparin calcium) is a low molecular weight heparin with a mean molecular weight of 4.5 kD. Compared with unfractionated heparin (UFH), nadroparin has a greater ratio of anti-factor Xa to anti-factor Ha activity, greater bioavailability and a longer duration of action, allowing it to be administered by subcutaneous injection for prophylaxis or treatment of thromboembolic disorders. In clinical trials conducted in older patients (mean age usually > 60 years), nadroparin was at least as effective as UFH in preventing deep vein thrombosis (DVT) and pulmonary embolism after major general or orthopaedic surgery, and in bedridden medical patients. Nadroparin was also at least as effective as dalteparin or oral acenocoumarol in preventing thromboembolic events following general and orthopaedic surgery, respectively. When used for treatment of established DVT, nadroparin was at least as effective as intravenous UFH. Subcutaneous nadroparin, at dosages similar to those used for th",
+            "journal": "Drugs & aging",
+            "year": "1997",
+            "authors": [
+              "Davis R",
+              "Faulds D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Absorption",
+              "Aging",
+              "Anticoagulants",
+              "Chemical Fractionation",
+              "Cost-Benefit Analysis",
+              "Dose-Response Relationship, Drug",
+              "Fibrinolytic Agents",
+              "Humans",
+              "Injections, Subcutaneous",
+              "Kidney Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9108990/"
+          },
+          {
+            "pmid": "20015933",
+            "title": "Successful administration of a low dose of calcium nadroparin in patients suffering from pulmonary embolism and brain metastases: a report of two cases.",
+            "abstract": "To focus on the optimal management of thromboembolic complication in patients who have undergone chemotherapy with concomitant brain metastases and referred to a Division of Clinical Oncology.",
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2011",
+            "authors": [
+              "Vitale Felice Vito",
+              "Rotondo Stefano",
+              "Sessa Edoardo",
+              "Antonelli Giovanna",
+              "Colina Paolo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Breast Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cerebellar Neoplasms",
+              "Dyspnea",
+              "Female",
+              "Humans",
+              "Lung Neoplasms",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20015933/"
+          },
+          {
+            "pmid": "30653153",
+            "title": "Pleural amyloidosis with recurrent pleural effusion and pulmonary embolism: A case report.",
+            "abstract": "Clinical and radiologic manifestations of pleural amyloidosis are non-specific. And it can easily be missed or misdiagnosed. Meanwhile, few studies document amyloidosis presenting with pulmonary infarcts at the same time. Hereby, we report a case of immunoglobulin light chain amyloidosis (AL) pleural amyloidosis with pulmonary embolism rarely reported.",
+            "journal": "Medicine",
+            "year": "2019",
+            "authors": [
+              "Dai Yong",
+              "Liu Chaoling",
+              "Chen Jiaping",
+              "Zeng Qigang",
+              "Duan Chenxia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Amyloidosis",
+              "Anticoagulants",
+              "Humans",
+              "Male",
+              "Pleura",
+              "Pleural Effusion",
+              "Pulmonary Embolism",
+              "Recurrence",
+              "Thoracentesis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30653153/"
+          },
+          {
+            "pmid": "12037712",
+            "title": "Primary prevention of deep venous thrombosis and pulmonary embolism in acute spinal cord injured patients.",
+            "abstract": "Prospective clinical trial.",
+            "journal": "Spinal cord",
+            "year": "2002",
+            "authors": [
+              "Aito S",
+              "Pieri A",
+              "D'Andrea M",
+              "Marcelli F",
+              "Cominelli E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Bandages",
+              "Evaluation Studies as Topic",
+              "Heparin",
+              "Humans",
+              "Italy",
+              "Male",
+              "Musculoskeletal Manipulations",
+              "Pulmonary Embolism",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12037712/"
+          },
+          {
+            "pmid": "31030749",
+            "title": "Low molecular weight heparins and their clinical applications.",
+            "abstract": "Heparin is an anticoagulant medication that was discovered in 1917 and used in clinic since 1935. Low molecular weight heparins (LMWHs) represent a refined use of heparin as anticoagulant medications that were developed in 1980s. LMWHs are obtained by cleaving heparin with different chemical or enzymatic methods. Eight chemically distinct and officially approved LMWHs are Bemiparin, Certoparin, Dalteparin, Enoxaparin, Nadroparin, Parnaparin, Reviparin, and Tinzaparin. LMWHs are mainly used for preventing blood clots, for treating deep vein thrombosis and pulmonary embolism, and for treating myocardial infarction. LMWHs have advantages over heparin in that they can be used at home with good predictability, dose-dependent plasma levels, a long half-life, less bleeding for a given antithrombotic even, smaller risk of osteoporosis in long-term use, and smaller risk of heparin-induced thrombocytopenia and thrombosis, a potential side effect of heparin. However, heparin is reversible with pr",
+            "journal": "Progress in molecular biology and translational science",
+            "year": "2019",
+            "authors": [
+              "Hao Cui",
+              "Sun Mojian",
+              "Wang Hongmei",
+              "Zhang Lijuan",
+              "Wang Wei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Disease",
+              "Heparin, Low-Molecular-Weight",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31030749/"
+          },
+          {
+            "pmid": "30240380",
+            "title": "[Pulmonary embolism in a girl with nephrotic syndrome and factor V Leiden - case report].",
+            "abstract": "Thromboembolic complications are found in 2-3% of children with nephrotic syndrome (NS); this increased risk is caused by hypovolemia, hemoconcentration, increased number and activity of platelets, hyperfibrinogenemia and loss of coagulation inhibitors. Risk is even higher in case of additional factors e.g. congenital thrombophilia.",
+            "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
+            "year": "2018",
+            "authors": [
+              "Skrzypczyk Piotr",
+              "Mizerska-Wasiak Małgorzata",
+              "Ofiara Anna",
+              "Szyszka Michał",
+              "Kułagowska Jagoda"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anticoagulants",
+              "Antithrombin III",
+              "Factor V",
+              "Female",
+              "Humans",
+              "Mycophenolic Acid",
+              "Nadroparin",
+              "Nephrotic Syndrome",
+              "Pulmonary Embolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30240380/"
+          },
+          {
+            "pmid": "18388030",
+            "title": "A retrospective analysis of hospitalized patients with documented deep-venous thrombosis and their risk of pulmonary embolism.",
+            "abstract": "The question of when and how intensively patients with deep-venous thrombosis (DVT) can ambulate remains scarcely underlined. The authors evaluated the evolution of DVT by comparing bed rest and mobilization and using all variables potentially relevant to a risk/benefit evaluation in 252 patients. The end points were the progression of the thrombotic disease and the incidence of pulmonary embolism (PE) at 30 days. Immobilized patients had a higher incidence of events (hazard ratio 4.39; P < .0001). At multivariate analysis, immobilization (hazard ratio 2.41; P = .026) and the lack of leg compression (hazard ratio 4.58; P = .009) were the only independent predictors of the clinical end point. This retrospective analysis raises the question as to whether all patients with confirmed DVT should ambulate and receive an adequate leg compression. A prospective study is needed to determine whether immobilization of such patients actually increases their risk of developing pulmonary embolism.",
+            "journal": "Angiology",
+            "year": "2008",
+            "authors": [
+              "Manganaro Agatino",
+              "Ando Giuseppe",
+              "Lembo Daniela",
+              "Sutera Sardo Luciano",
+              "Buda Domenico"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anticoagulants",
+              "Bed Rest",
+              "Disease Progression",
+              "Female",
+              "Hospitalization",
+              "Humans",
+              "Immobilization",
+              "Male",
+              "Multivariate Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18388030/"
+          },
+          {
+            "pmid": "34915622",
+            "title": "[Clinical and genetic analysis of pulmonary embolism induced by a novel gene mutation of the antithrombin Ⅲ gene].",
+            "abstract": "Objective: To improve the clinical management of acute pulmonary embolism caused by antithrombin Ⅲ (AT Ⅲ) deficiency through gene sequence analysis of the SERPINC1 gene. Methods: The diagnosis and treatment of a 33-year-old male patient with chest pain was reviewed. All exon sequences and flanking regions of 7 related genes of thrombophilia were subjected to detection by high-throughput next generation sequencing technology. The gene mutation was inquired in the gene database and the pathogenic probability of the mutant gene was predicted by Mutation Taster software. Results: The patient was diagnosed with acute pulmonary embolism (intermediate-low risk), with the ATⅢ activity less than 50%. Anticoagulation with nadroparin calcium combined with warfarin was administrated, but hemoptysis was aggravated, and then the medication was replaced by anticoagulant of rivaroxaban. In the end, the embolus was gradually absorbed. A heterozygous missense mutation of c.1148T>A (p.L383H) in the SERPI",
+            "journal": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
+            "year": "2021",
+            "authors": [
+              "Wang Y",
+              "He F K",
+              "Ning W W",
+              "Wang J J",
+              "Su N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antithrombin III",
+              "Humans",
+              "Male",
+              "Mutation",
+              "Pulmonary Embolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34915622/"
+          },
+          {
+            "pmid": "14987912",
+            "title": "Prevalence and prevention of venous thromboembolism in patients with acute exacerbations of COPD.",
+            "abstract": "Little information exists on the prevalence and prevention of deep vein thrombosis (DVT) and pulmonary embolism (PE) in patients admitted for acute exacerbations of chronic obstructive pulmonary disease (COPD).",
+            "journal": "Thrombosis research",
+            "year": "2003",
+            "authors": [
+              "Ambrosetti Marco",
+              "Ageno Walter",
+              "Spanevello Antonio",
+              "Salerno Mario",
+              "Pedretti Roberto F E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Disease Progression",
+              "Humans",
+              "Prevalence",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Thromboembolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14987912/"
+          },
+          {
+            "pmid": "27836513",
+            "title": "Anticoagulant therapy for symptomatic calf deep vein thrombosis (CACTUS): a randomised, double-blind, placebo-controlled trial.",
+            "abstract": "The efficacy and safety of anticoagulant treatment is not established for patients with acute symptomatic deep vein thrombosis (DVT) of the calf. We aimed to assess whether therapeutic anticoagulation is superior to placebo in patients with symptomatic calf DVT.",
+            "journal": "The Lancet. Haematology",
+            "year": "2016",
+            "authors": [
+              "Righini Marc",
+              "Galanaud Jean-Philippe",
+              "Guenneguez Hervé",
+              "Brisot Dominique",
+              "Diard Antoine"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anticoagulants",
+              "Canada",
+              "Double-Blind Method",
+              "Early Termination of Clinical Trials",
+              "Exanthema",
+              "Female",
+              "France",
+              "Hemorrhage"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27836513/"
+          },
+          {
+            "pmid": "16358378",
+            "title": "Comparison of low-molecular-weight-heparin and unfractionated heparin for acute PTE.",
+            "abstract": "Acute pulmonary thromboembolism (PTE) is a serious high mortality pulmonary vascular disease whose effective treatment decreases morbidity and mortality. To determine if low-molecular-weight-heparin (LMWH) is clinically as efficient and safe as unfractionated heparin (UH) in patients with diagnosis of acute non-massive PTE, our study compares the efficacy, adverse effects and costs of LMWH and UH.",
+            "journal": "Journal of Zhejiang University. Science. B",
+            "year": "2005",
+            "authors": [
+              "Chen Li-ying",
+              "Ying Ke-jing",
+              "Hong Wu-jun",
+              "Zhou Pan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "China",
+              "Cost-Benefit Analysis",
+              "Drug Costs",
+              "Female",
+              "Heparin",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16358378/"
+          },
+          {
+            "pmid": "11402639",
+            "title": "Low molecular weight heparin-induced liver toxicity.",
+            "abstract": "The authors report two cases of hepatotoxicity induced by low molecular weight heparin. A 26-year-old woman and a 33-year-old man were treated with low molecular weight heparin for pulmonary embolism and cerebral infarction, respectively. They both developed derangement in liver function tests a few days after commencement of the low molecular weight heparin. The derangement in liver function tests was associated with a decreased serum complement 3 activity. Their liver functions recovered over a period of 2 to 3 months after low molecular weight heparin was stopped. Liver biopsy in the woman demonstrated balloon degeneration with scattered foci of hepatocytic necrosis, suggesting a complement-mediated hepatocellular damage.",
+            "journal": "Journal of clinical pharmacology",
+            "year": "2001",
+            "authors": [
+              "Hui C K",
+              "Yuen M F",
+              "Ng I O",
+              "Tsang K W",
+              "Fong G C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticoagulants",
+              "Cerebral Infarction",
+              "Chemical and Drug Induced Liver Injury",
+              "Complement C3",
+              "Enoxaparin",
+              "Female",
+              "Humans",
+              "Liver",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11402639/"
+          },
+          {
+            "pmid": "11686355",
+            "title": "Low molecular weight heparin administered once versus twice daily in patients with venous thromboembolism: a meta-analysis.",
+            "abstract": "Low molecular weight heparin is as effective and safe as unfractionated heparin for treatment of acute venous thromboembolism. It is uncertain whether low molecular weight heparin should be administered once-daily or twice-daily in this setting.",
+            "journal": "Thrombosis and haemostasis",
+            "year": "2001",
+            "authors": [
+              "Couturaud F",
+              "Julian J A",
+              "Kearon C"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anticoagulants",
+              "Dalteparin",
+              "Drug Administration Schedule",
+              "Enoxaparin",
+              "Hemorrhage",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Nadroparin",
+              "Odds Ratio"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11686355/"
+          },
+          {
+            "pmid": "21645235",
+            "title": "Outpatient treatment in patients with acute pulmonary embolism: the Hestia Study.",
+            "abstract": "Traditionally, patients with pulmonary embolism (PE) are initially treated in the hospital with low molecular weight heparin (LMWH). The results of a few small non-randomized studies suggest that, in selected patients with proven PE, outpatient treatment is potentially feasible and safe.",
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2011",
+            "authors": [
+              "Zondag W",
+              "Mos I C M",
+              "Creemers-Schild D",
+              "Hoogerbrugge A D M",
+              "Dekkers O M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Ambulatory Care",
+              "Anticoagulants",
+              "Female",
+              "Hemorrhage",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21645235/"
+          },
+          {
+            "pmid": "28793291",
+            "title": "Effectiveness and Tolerability of Anticoagulants for Thromboprophylaxis after Major Joint Surgery: a Network Meta-Analysis.",
+            "abstract": "Venous thromboembolism (VTE) is the most common complication after major joint surgery. VTE can easily develop into pulmonary embolism (PE), leading to cardiopulmonary dysfunction or sudden death. We aimed to comprehensively analyse the thromboprophylactic drugs that are used to prevent thrombosis and reduce bleeding risk.",
+            "journal": "Cellular physiology and biochemistry : international journal of experimental cellular physiology, biochemistry, and pharmacology",
+            "year": "2017",
+            "authors": [
+              "Wang Zhen",
+              "Zheng Jia",
+              "Zhao Yongqiang",
+              "Xiang Yungai",
+              "Chen Xiao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Aspirin",
+              "Databases, Factual",
+              "Hemorrhage",
+              "Heparin, Low-Molecular-Weight",
+              "Humans",
+              "Joint Diseases",
+              "Odds Ratio",
+              "Postoperative Complications",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28793291/"
+          },
+          {
+            "pmid": "17550736",
+            "title": "[The low molecular weight heparin on rat pulmonary surfactant associated protein A of acute pulmonary embolism].",
+            "abstract": "To explore the effect of low molecular weight heparin (LMWH) on the changes of pulmonary surfactant associated protein A (SPA) of rats in acute pulmonary embolism.",
+            "journal": "Zhonghua yi xue za zhi",
+            "year": "2007",
+            "authors": [
+              "Liu Chun-Ping",
+              "Lu Wei-Xuan",
+              "Liu Wei-Guo",
+              "Chen Hang-Wei",
+              "Wang Chen"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Animals",
+              "Anticoagulants",
+              "Blotting, Western",
+              "Heparin, Low-Molecular-Weight",
+              "Lung",
+              "Male",
+              "Pulmonary Embolism",
+              "Pulmonary Surfactant-Associated Protein A",
+              "RNA, Messenger"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17550736/"
+          },
+          {
+            "pmid": "34955853",
+            "title": "Safety and Efficacy of Low Molecular Weight Heparin for Thromboprophylaxis in the Elderly: A Network Meta-Analysis of Randomized Clinical Trials.",
+            "abstract": "Background: Given their changing pathophysiology, elderly patients carry a high risk of embolism and bleeding events; hence, use of appropriate anticoagulants is very important. Low molecular weight heparin (LMWH) is one of the most widely used anticoagulants although LMWHs differ in their anti-Xa, antithrombin, and anticoagulant activities. To date, no study has directly compared the safety and efficacy of different LMWHs in the elderly. We aimed to compare such differences by conducting a network meta-analysis. Methods: We searched the Pubmed, Embase, and Cochrane databases for randomized controlled trials (RCTs) of LMWHs that included patients ≥60 years old up to July 22, 2020. Safety outcomes included venous thromboembolism (VTE) or VTE-related death, deep thrombus embolism, and pulmonary embolism. Safety outcomes were clinically relevant bleeding, major bleeding, minor bleeding, and all-cause death. We calculated relative ratios (RR) and 95% confidence intervals (CI) for all outco",
+            "journal": "Frontiers in pharmacology",
+            "year": "2021",
+            "authors": [
+              "Yang Hui-Qin",
+              "Liu Man-Cang",
+              "Yin Wen-Jun",
+              "Zhou Ling-Yun",
+              "Zuo Xiao-Cong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34955853/"
+          },
+          {
+            "pmid": "9408400",
+            "title": "Efficacy of prevention of thromboembolic complications with LMW-heparin in experiment.",
+            "abstract": "The authors used an antithrombotic agent (Nadroparin Calcium) with anti-Xa effect in their experiments to prevent thromboembolic complications in the model of endoprosthetic replacement of the hip joint in mongrel dogs. 10 experimental animals (Group I.) were given doses of 100 A Xa ICU/kg/bwt of Nadroparin Calcium subcutaneously 4 hours prior to the operation and also once a day until the 3rd postoperative day; between the 4th and 10th postoperative days doses of 150 A Xa ICU/kg/bwt Nadroparin Calcium were given. The 10 control animals (Group II.) did not receive anticoagulant treatment. In both groups platelet count, activated partial thromboplastin times (APTT), prothrombin and fibrinogen levels as well as activated factor X inhibition (F Xa) were measured prior to surgery and also until the 14th postoperative day. No changes in APTT and prothrombin levels were detected during the experiment, however platelet count and fibrinogen levels as well as the extent of F Xa inhibition showe",
+            "journal": "Acta chirurgica Hungarica",
+            "year": "1997",
+            "authors": [
+              "Szücs G",
+              "Mikó I",
+              "Ajzner E",
+              "Póti L",
+              "Szepesi K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticoagulants",
+              "Arthroplasty, Replacement, Hip",
+              "Disease Models, Animal",
+              "Dogs",
+              "Factor Xa Inhibitors",
+              "Fibrinogen",
+              "Fibrinolytic Agents",
+              "Follow-Up Studies",
+              "Injections, Subcutaneous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9408400/"
+          },
+          {
+            "pmid": "40237748",
+            "title": "[Prevention of venous thromboembolic complications in patients with ulcerative colitis].",
+            "abstract": "The incidence of venous thromboembolic complications (VTEC) in patients with inflammatory bowel diseases is approximately 3 times higher than in the general population and leads to a 2-fold increase in the risk of mortality. The risk of VTEC is the highest during the patient's hospital stay.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2025",
+            "authors": [
+              "Lishchinskaya A A",
+              "Knyazev O V",
+              "Kagramanova A V",
+              "Fadeeva N A",
+              "Dudina G A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Colitis, Ulcerative",
+              "Male",
+              "Female",
+              "Venous Thromboembolism",
+              "Adult",
+              "Heparin, Low-Molecular-Weight",
+              "Anticoagulants",
+              "Middle Aged",
+              "Russia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40237748/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.965432584285736,
+        "txgnn_rank": 22720,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.9603593945503236,
+        "txgnn_rank": 24179,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20063543",
+            "title": "Recurrent cerebral stroke in a thalassemic patient.",
+            "abstract": "",
+            "journal": "Hematology/oncology and stem cell therapy",
+            "year": "2008",
+            "authors": [
+              "Hergüner M Ozlem",
+              "Incecik Faruk",
+              "Altunbaşak Sakir",
+              "Saşmaz Ilgen",
+              "Leblebisatan Göksel"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Child, Preschool",
+              "Folic Acid",
+              "Hematinics",
+              "Humans",
+              "Male",
+              "Methylenetetrahydrofolate Dehydrogenase (NADP)",
+              "Mutation",
+              "Nadroparin",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20063543/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08813",
+    "name": "Nadroparin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Nadroparin"
+      },
+      "queried_at": "2026-03-10T07:43:03.351750",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Nadroparin"
+      },
+      "queried_at": "2026-03-10T07:43:06.253760",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T07:43:06.807205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T07:43:09.902064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T07:43:10.827889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T07:43:11.394776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T07:43:14.759205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T07:43:15.452063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T07:43:15.980033",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T07:43:19.429257",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T07:43:20.177903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T07:43:20.709376",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T07:43:24.033390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T07:43:26.715784",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T07:43:27.379203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T07:43:30.139059",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T07:43:31.358458",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T07:43:32.253106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T07:43:35.770265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T07:43:36.536988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T07:43:36.994168",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T07:43:40.713186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T07:43:41.681713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "pulmonary embolism (disease)"
+      },
+      "queried_at": "2026-03-10T07:43:42.407210",
+      "status": "success",
+      "result_count": 22,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "pulmonary embolism (disease)"
+      },
+      "queried_at": "2026-03-10T07:43:46.922007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "pulmonary embolism (disease)"
+      },
+      "queried_at": "2026-03-10T07:43:49.091905",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T07:43:49.650400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T07:43:52.760400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T07:43:53.540200",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T07:43:54.138606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T07:43:57.281199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nadroparin",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T07:43:59.172749",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:43:59.183416"
+  }
+}

@@ -1,0 +1,1010 @@
+{
+  "drug": {
+    "inn": "Tislelizumab",
+    "drugbank_id": "DB14922",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "mixed-type autoimmune hemolytic anemia",
+        "txgnn_score": 0.9376410841941832,
+        "txgnn_rank": 29227,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic aplastic anemia",
+        "txgnn_score": 0.9376171827316284,
+        "txgnn_rank": 29236,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatitis",
+        "txgnn_score": 0.9369409084320068,
+        "txgnn_rank": 29361,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07190027",
+            "title": "Prospective Randomized Controlled Trial of Immunodynamics-Guided Optimization of Individualized Immunochemotherapy Infusion Timing in Driver Gene-Negative Advanced Non-Small Cell Lung Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-11",
+            "completion_date": "2028-11",
+            "country": "N/A",
+            "enrollment": 246,
+            "brief_summary": "The goal of this clinical trial is to evaluate whether individualized sequencing of immunotherapy and chemotherapy based on immune dynamics can improve treatment outcomes in adults with advanced non-small cell lung cancer (NSCLC) without driver gene mutations. This study will also assess the safety and feasibility of different infusion strategies.\n\nThe main questions it aims to answer are:\n\nDoes optimizing the timing of PD-1 inhibitor infusion relative to chemotherapy improve the objective respo",
+            "eligibility_criteria": "Inclusion Criteria:\n\nParticipants must meet all of the following criteria:\n\nVoluntarily agree to participate, sign the informed consent form (ICF), and be able to comply with the study procedures.\n\nAge ≥18 years and ≤75 years at enrollment, both male and female participants are eligible.\n\nHistologic",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "First Affiliated Hospital of Wenzhou Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT07190027"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38664067",
+            "title": "[Not Available].",
+            "abstract": "",
+            "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+            "year": "2024",
+            "authors": [
+              "Chen Weiquan",
+              "Song Xuan",
+              "Zhou Ying"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antibodies, Monoclonal, Humanized",
+              "Lupus Erythematosus, Cutaneous",
+              "Female",
+              "Drug Eruptions",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38664067/"
+          },
+          {
+            "pmid": "40491908",
+            "title": "Post-marketing safety concerns with Tislelizumab: a disproportionality analysis of the FDA adverse event reporting system.",
+            "abstract": "Tislelizumab is an anti-programmed cell death protein 1(anti-PD-1) monoclonal antibody, which was approved by the Food and Drug Administration(FDA) on March 14, 2024. However, clinical studies are often limited by small sample sizes, and thus a more comprehensive evaluation of the safety of Tislelizumab, particularly its immune-related adverse reactions, is urgently needed.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Li Chen",
+              "Ding Yi",
+              "Cai Shanshan",
+              "Liu Bai Cheng",
+              "Wang Xiufeng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "United States",
+              "Antibodies, Monoclonal, Humanized",
+              "Adverse Drug Reaction Reporting Systems",
+              "United States Food and Drug Administration",
+              "Product Surveillance, Postmarketing",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Databases, Factual"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40491908/"
+          },
+          {
+            "pmid": "38910480",
+            "title": "Treatment of Tislelizumab-Induced Toxic Epidermal Necrolysis and Agranulocytosis: A Case Report and Literature Review.",
+            "abstract": "Non-small Cell Lung Cancer (NSCLC) makes up about 85% of lung cancer cases, mainly adenocarcinoma and squamous cell carcinoma. Recently, PD-1 inhibitors have become crucial in NSCLC treatment, significantly enhancing survival for some. However, side effects, like skin reactions and hematotoxicity, limit their use, with drug-induced TEN and immunotherapy-induced agranulocytosis as severe adverse effects.",
+            "journal": "Current drug safety",
+            "year": "2025",
+            "authors": [
+              "Zhou Yanshi",
+              "Xue Honghao",
+              "Lu Chenghua",
+              "Zhang Yemin",
+              "Wu Qingyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stevens-Johnson Syndrome",
+              "Male",
+              "Antibodies, Monoclonal, Humanized",
+              "Aged",
+              "Agranulocytosis",
+              "Lung Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Squamous Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38910480/"
+          },
+          {
+            "pmid": "37842200",
+            "title": "RIFLE: a Phase II trial of stereotactic ablative radiotherapy combined with fruquintinib and tislelizumab in metastatic colorectal cancer.",
+            "abstract": "Currently, the prognosis for metastatic colorectal cancer (mCRC) still remains poor. The management of mCRC has become manifold because of the varied advances in the systemic and topical treatment approaches. For patients with limited number of metastases, radical local therapy plus systemic therapy can be a good choice to achieve long-term tumor control. In this study, we aimed to explore the efficacy and safety of the combination of fruquintinib, tislelizumab, and stereotactic ablative radiotherapy (SABR) in mCRC (RIFLE study).",
+            "journal": "Gastroenterology report",
+            "year": "2023",
+            "authors": [
+              "Wang Kun",
+              "Chen Yajie",
+              "Zhang Zhiyuan",
+              "Wu Ruiyan",
+              "Zhou Menglong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37842200/"
+          },
+          {
+            "pmid": "41346629",
+            "title": "Stevens-Johnson syndrome/toxic epidermal necrolysis induced by tislelizumab: a case report and literature review.",
+            "abstract": "Tislelizumab, a programmed cell death-1 inhibitor approved for multiple malignancies, may induce Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN)-a rare but potentially fatal severe drug eruption-and early effective intervention is pivotal for reducing SJS/TEN-related mortality. We describe an elderly male with hepatic malignancy who developed progressive SJS/TEN, involving over 80% of his total body surface area, after his first tislelizumab infusion. Conventional treatment with systemic corticosteroids combined with intravenous immunoglobulin was ineffective in halting disease progression. Subsequently, adjunctive therapy with a tumor necrosis factor-α (TNF-α) inhibitor and hemoperfusion was initiated, leading to the patient's eventual recovery. Managing SJS/TEN in patients with advanced malignancies poses substantial challenges, given the life-threatening nature of both entities. To our knowledge, this is the first reported case of using a TNF-α inhibitor for treating t",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Yu Hongtao",
+              "Li Yunqian",
+              "Qu Xifang",
+              "Zhu Junkai",
+              "Liu Zhichao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stevens-Johnson Syndrome",
+              "Antibodies, Monoclonal, Humanized",
+              "Male",
+              "Aged",
+              "Liver Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41346629/"
+          },
+          {
+            "pmid": "41334332",
+            "title": "Nutritional management for a lung cancer patient receiving concurrent radiotherapy and immunotherapy and developing immune-related dermatitis: a case report.",
+            "abstract": "Concurrent radiotherapy and immunotherapy is an alternative treatment regimen for elderly patients with locally advanced non-small cell lung cancer (NSCLC) who have contraindications to or decline surgery and chemotherapy. While these patients are susceptible to malnutrition and treatment-related adverse events, experience for their nutritional management is still lacking. In this case report, we summarized the nutritional management process for a NSCLC patient with severe malnutrition, who received concurrent radiotherapy and immunotherapy and developed immune-related dermatitis.",
+            "journal": "Frontiers in nutrition",
+            "year": "2025",
+            "authors": [
+              "Zeng Yanlin",
+              "Zhang Xinmei",
+              "Qin Di",
+              "Zhong Yanping",
+              "Wei Bihong"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41334332/"
+          },
+          {
+            "pmid": "40447060",
+            "title": "PD-1 monoclonal antibody (Tislelizumab)-induced DRESS syndrome in an intrahepatic cholangiocarcinoma patient with FGFR3 mutation and elevated IgG4:A case report.",
+            "abstract": "Immune-related adverse events (irAEs) include a rare, idiosyncratic but potentially life-threatening drug reaction with eosinophilia and systemic symptoms (DRESS), characterized by exanthem, fever, as well as hematologic and visceral organ involvement.",
+            "journal": "Clinical immunology (Orlando, Fla.)",
+            "year": "2025",
+            "authors": [
+              "Qin Wei",
+              "Wu Xiaoying",
+              "Xu Qiongyuan",
+              "Deng Min",
+              "Lin Xiangling"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Antibodies, Monoclonal, Humanized",
+              "Cholangiocarcinoma",
+              "Drug Hypersensitivity Syndrome",
+              "Immunoglobulin G",
+              "Programmed Cell Death 1 Receptor",
+              "Bile Duct Neoplasms",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40447060/"
+          },
+          {
+            "pmid": "37909927",
+            "title": "Literature analysis of cutaneous adverse reactions induced by tislelizumab.",
+            "abstract": "Tislelizumab may induce immune-related adverse events, especially adverse skin events. Early detection and timely intervention of cutaneous adverse events are crucial to improve patients' quality of life and reduce the disruption of therapeutic regimens. This study aimed to determine the clinical characteristics of cutaneous adverse reactions to tislelizumab and offer a reference for its rational clinical use.",
+            "journal": "Cutaneous and ocular toxicology",
+            "year": "2024",
+            "authors": [
+              "Guo Qingli",
+              "Jin Lili",
+              "Zhang Tingting",
+              "Gao Ruihao",
+              "Zou Kaili"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Aged",
+              "Stevens-Johnson Syndrome",
+              "Carcinoma, Transitional Cell",
+              "Quality of Life",
+              "Urinary Bladder Neoplasms",
+              "Antibodies, Monoclonal, Humanized"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37909927/"
+          },
+          {
+            "pmid": "39347662",
+            "title": "Steven-Johnson Syndrome/Toxic Epidermal Necrolysis is Associated with PD-1/PD-L1 Inhibitors Usage: A Case Series.",
+            "abstract": "Aims/Background The increasing adoption of inhibitors of programmed cell death-1 (PD-1) and its ligand, programmed death-ligand 1 (PD-L1), in the treatment of multiple cancer types in China has started to garner broader attention due to the occurrence of immune-related adverse events (irAEs), especially life-threatening skin reactions such as Steven-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN). Isolated case reports have described SJS/TEN associated with PD-1/PD-L1 inhibitors usage. In this paper, we presented a series of cases of SJS/TEN following the use of PD-1/PD-L1 inhibitors in a dermatology hospital located in Zhejiang Province of China in the past several years, summarizing characteristics of these cases and providing a reference of management. Methods We retrospectively reviewed all the medical records of inpatients diagnosed with SJS/TEN in the Hangzhou Third People's Hospital from 2012 to 2024. We analyzed and compared the situation of SJS/TEN onset, types of PD-1/P",
+            "journal": "British journal of hospital medicine (London, England : 2005)",
+            "year": "2024",
+            "authors": [
+              "Cao Riqu",
+              "Xu Tianhong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stevens-Johnson Syndrome",
+              "Male",
+              "Middle Aged",
+              "Female",
+              "Immune Checkpoint Inhibitors",
+              "Retrospective Studies",
+              "Aged",
+              "Adult",
+              "Programmed Cell Death 1 Receptor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39347662/"
+          },
+          {
+            "pmid": "41269056",
+            "title": "Analysis of clinical characteristics of tislelizumab-induced Stevens-Johnson syndrome/toxic epidermal necrolysis in the Chinese population: a systematic review.",
+            "abstract": "Tislelizumab frequently induces cutaneous immune-related adverse events (cirAEs), among which Stevens-Johnson syndrome (SJS)/toxic epidermal necrolysis (TEN) are rare but potentially life-threatening cutaneous reaction. The clinical characteristics of SJS/TEN induced by tislelizumab remain unclear.",
+            "journal": "Cutaneous and ocular toxicology",
+            "year": "2026",
+            "authors": [
+              "Wen Xiuling",
+              "Li Weien",
+              "Zhang Qinghua"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stevens-Johnson Syndrome",
+              "Antibodies, Monoclonal, Humanized",
+              "Aged",
+              "Male",
+              "Adult",
+              "Middle Aged",
+              "Female",
+              "China",
+              "Aged, 80 and over"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41269056/"
+          },
+          {
+            "pmid": "37650770",
+            "title": "Toxic epidermal necrolysis post apalutamide with preceding tislelizumab administration in a patient with two cancers.",
+            "abstract": "",
+            "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+            "year": "2023",
+            "authors": [
+              "Wu Wenjie",
+              "Da Meihong",
+              "Chen Mei",
+              "Wang Fengyuan",
+              "Wu Yue"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stevens-Johnson Syndrome",
+              "Antibodies, Monoclonal, Humanized",
+              "Neoplasms",
+              "Thiohydantoins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37650770/"
+          },
+          {
+            "pmid": "41268547",
+            "title": "Tislelizumab-associated toxic epidermal necrolysis in an esophageal cancer patient: a case report.",
+            "abstract": "Tislelizumab, a humanized IgG4 anti-programmed cell death 1 (PD-1) monoclonal antibody approved in China in 2019 for advanced solid tumors such as esophageal cancer, functions by blocking the PD-1/PD-L1 pathway to reactivate anti-tumor immunity. Common adverse reactions include fever and rash; however, toxic epidermal necrolysis (TEN)-a rare, life-threatening drug hypersensitivity reaction-is reported in fewer than 0.1% of patients receiving PD-1 inhibitors, with limited real-world evidence specifically linking it to tislelizumab.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Jin Sha",
+              "Liu Zehu",
+              "Zheng Fengming"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Stevens-Johnson Syndrome",
+              "Aged",
+              "Antibodies, Monoclonal, Humanized",
+              "Esophageal Neoplasms",
+              "Esophageal Squamous Cell Carcinoma",
+              "Immune Checkpoint Inhibitors",
+              "Antineoplastic Agents, Immunological"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41268547/"
+          },
+          {
+            "pmid": "41601655",
+            "title": "Immune checkpoint inhibitor-related Stevens-Johnson syndrome and toxic epidermal necrolysis: a retrospective analysis of 21 cases.",
+            "abstract": "Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN) are rare but life-threatening severe cutaneous adverse reactions (SCARs) increasingly linked to immune checkpoint inhibitors (ICIs).",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Pu Tianshu",
+              "Teng Yaru",
+              "Zhang Yuezhu",
+              "Da Meihong",
+              "Wang Fei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stevens-Johnson Syndrome",
+              "Immune Checkpoint Inhibitors",
+              "Female",
+              "Male",
+              "Retrospective Studies",
+              "Middle Aged",
+              "Aged",
+              "Adult",
+              "Aged, 80 and over"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41601655/"
+          },
+          {
+            "pmid": "38976533",
+            "title": "Tislelizumab-Induced Toxic Epidermal Necrolysis-Like Cutaneous Adverse Reaction: Rare Complication of Immune Checkpoint Inhibitor Therapy.",
+            "abstract": "",
+            "journal": "American journal of therapeutics",
+            "year": "2024",
+            "authors": [
+              "Yang Xiaoqin",
+              "Xu Shunming"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antibodies, Monoclonal, Humanized",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Stevens-Johnson Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38976533/"
+          },
+          {
+            "pmid": "41656834",
+            "title": "[Data mining and toxicity profile analysis of immune checkpoint inhibitor-related skin toxicity events based on FAERS].",
+            "abstract": "The widespread use of immune checkpoint inhibitors (ICIs) has led to breakthrough advances for patients with various advanced solid tumors. As the skin is an important target organ of immune responses, it is the most commonly affected site of treatment-related adverse events associated with ICIs, with a relatively high incidence of ICI-related skin toxicity events. Immune-related adverse events induced by ICIs are increasingly becoming a bottleneck limiting their clinical application. To collect post-marketing adverse events and medication errors related to drugs and therapeutic biological products and to evaluate real-world drug safety, the United States Food and Drug Administration (FDA) established the FDA Adverse Event Reporting System (FAERS) database. Based on the FAERS database, this study aims to systematically evaluate differences in the risk of skin toxicity events among different drug subtypes, cytotoxic-T-lymphocyte-associated antigen-4 inhibitors, programmed death-1 (PD-1)",
+            "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+            "year": "2025",
+            "authors": [
+              "Ma Siyao",
+              "Li Mingzhu",
+              "Ren Yanyi",
+              "Wang Xuebing"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Adverse Drug Reaction Reporting Systems",
+              "Data Mining",
+              "Pharmacovigilance",
+              "Male",
+              "United States",
+              "Female",
+              "United States Food and Drug Administration",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41656834/"
+          },
+          {
+            "pmid": "41552828",
+            "title": "Spectrum mining of immune checkpoint inhibitor-related cutaneous toxicities and analysis of associated factors based on FAERS.",
+            "abstract": "The study sought to delineate the cutaneous toxicity spectrum of immune-checkpoint inhibitors by using the US FDA Adverse Event Reporting System, and to qualify association with other immune-related adverse events (irAEs).",
+            "journal": "Frontiers in pharmacology",
+            "year": "2025",
+            "authors": [
+              "Ma Siyao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41552828/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paroxysmal nocturnal hemoglobinuria",
+        "txgnn_score": 0.9366817474365234,
+        "txgnn_rank": 29416,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced autoimmune hemolytic anemia",
+        "txgnn_score": 0.9366801977157592,
+        "txgnn_rank": 29420,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "proteinuria",
+        "txgnn_score": 0.9306687712669371,
+        "txgnn_rank": 30525,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40528285",
+            "title": "Renal-Limited Thrombotic Microangiopathy Induced by Fruquintinib and Tislelizumab: A Case Report.",
+            "abstract": "Thrombotic microangiopathy (TMA) is a rare but potentially severe condition induced by cancer treatments, including angiogenesis inhibitors and immune checkpoint inhibitors. This case report presents the first documented instance of renal-limited TMA potentially triggered by fruquintinib and tislelizumab in a patient with metastatic rectal cancer. A 60-year-old woman with stage IIIB rectal cancer developed nephrotic syndrome following treatment with fruquintinib and tislelizumab. She had no prior history of kidney disease but presented with lower limb oedema and proteinuria. Renal biopsy-confirmed TMA with focal segmental glomerulosclerosis. Following discontinuation of the drugs and management of hypertension, her renal function improved and proteinuria resolved. This case underscores the importance of monitoring renal function in patients with cancer receiving fruquintinib and immune checkpoint inhibitors, as TMA may develop even after short-term exposure. Early detection through ren",
+            "journal": "Nephrology (Carlton, Vic.)",
+            "year": "2025",
+            "authors": [
+              "Liu Qiang",
+              "Wang Qian",
+              "Tan Hu",
+              "Zhang Weina",
+              "Wang Beining"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Thrombotic Microangiopathies",
+              "Antibodies, Monoclonal, Humanized",
+              "Rectal Neoplasms",
+              "Nephrotic Syndrome",
+              "Biopsy",
+              "Kidney",
+              "Glomerulosclerosis, Focal Segmental"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40528285/"
+          },
+          {
+            "pmid": "40673010",
+            "title": "A phase 2 study of tislelizumab combined with bevacizumab and chemotherapy as first-line treatment for persistent, recurrent, or metastatic cervical cancer.",
+            "abstract": "To investigate the efficacy and safety of first-line treatment with tislelizumab plus low-dose bevacizumab and standard chemotherapy in patients with persistent, recurrent, or metastatic cervical cancer.",
+            "journal": "EClinicalMedicine",
+            "year": "2025",
+            "authors": [
+              "Wen Qiang",
+              "Yu Hao",
+              "Pan Mei",
+              "Chao Hongtu",
+              "Gao Yuhua"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40673010/"
+          },
+          {
+            "pmid": "40420929",
+            "title": "Granulomatosis with polyangiitis induced by the anti-programmed cell death-1 inhibitor tislelizumab: A case report.",
+            "abstract": "Immune checkpoint inhibitors (ICIs) are a new class of antitumor agents. They enhance antitumor effects by blocking inhibitory receptors and related ligands expressed on T cells. ICIs also modulate regular immune cell activity, affecting the immune system and causing immune-related adverse events. The renal system is sometimes affected by these adverse events. Currently, the literature on ICIs-related glomerular injuries is scarce.",
+            "journal": "World journal of clinical cases",
+            "year": "2025",
+            "authors": [
+              "Zhao Jian-Hui",
+              "Wang Jing-Jiao",
+              "Li Yi-Wen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40420929/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.9304668307304382,
+        "txgnn_rank": 30572,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal autoimmune hemolytic anemia",
+        "txgnn_score": 0.930262565612793,
+        "txgnn_rank": 30604,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary CD59 deficiency",
+        "txgnn_score": 0.9284481406211852,
+        "txgnn_rank": 30918,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9279249906539916,
+        "txgnn_rank": 31017,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14922",
+    "name": "Tislelizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tislelizumab"
+      },
+      "queried_at": "2026-03-10T09:49:01.322758",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tislelizumab"
+      },
+      "queried_at": "2026-03-10T09:49:04.469965",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "mixed-type autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:08.430327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "mixed-type autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:12.518688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "mixed-type autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:14.190966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "idiopathic aplastic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:15.024657",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "idiopathic aplastic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:18.391067",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "idiopathic aplastic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:19.235471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T09:49:20.218072",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T09:49:25.091533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T09:49:27.601993",
+      "status": "success",
+      "result_count": 16,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "paroxysmal nocturnal hemoglobinuria"
+      },
+      "queried_at": "2026-03-10T09:49:28.217666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "paroxysmal nocturnal hemoglobinuria"
+      },
+      "queried_at": "2026-03-10T09:49:31.380445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "paroxysmal nocturnal hemoglobinuria"
+      },
+      "queried_at": "2026-03-10T09:49:32.131024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "drug-induced autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:32.729387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "drug-induced autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:35.887525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "drug-induced autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:36.740804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "proteinuria"
+      },
+      "queried_at": "2026-03-10T09:49:37.531702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "proteinuria"
+      },
+      "queried_at": "2026-03-10T09:49:41.986195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "proteinuria"
+      },
+      "queried_at": "2026-03-10T09:49:45.577405",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:49:46.825699",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:49:49.640103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:49:50.924229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "neonatal autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:52.107632",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "neonatal autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:56.875102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "neonatal autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T09:49:57.587433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "primary CD59 deficiency"
+      },
+      "queried_at": "2026-03-10T09:49:58.396226",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "primary CD59 deficiency"
+      },
+      "queried_at": "2026-03-10T09:50:03.358464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "primary CD59 deficiency"
+      },
+      "queried_at": "2026-03-10T09:50:04.943772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:05.577340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:09.990180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tislelizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:10.830684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:50:10.848022"
+  }
+}

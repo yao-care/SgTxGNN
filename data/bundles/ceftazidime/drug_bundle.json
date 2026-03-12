@@ -1,0 +1,2032 @@
+{
+  "drug": {
+    "inn": "Ceftazidime",
+    "drugbank_id": "DB00438",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9951196908950806,
+        "txgnn_rank": 6384,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11985972",
+            "title": "Post-ERCP pancreatitis: reduction by routine antibiotics.",
+            "abstract": "Cholangitis and pancreatitis are severe complications of endoscopic retrograde cholangiopancreatography (ERCP). Antibiotics have been considered important in preventing cholangitis, especially in those with jaundice. Some have suggested that bacteria may play a role in the induction of post-ERCP pancreatitis. It is not clear, however, whether the incidence of post-ERCP pancreatitis could be reduced by antibiotic prophylaxis, as is the case with septic complications. In this prospective study, a total of 321 consecutive patients were randomized to the following two groups: (1) a prophylaxis group (n = 161) that was given 2 g of cephtazidime intravenously 30 minutes before ERCP, and (2) a control group (n = 160) that received no antibiotics. All patients admitted to the hospital for ERCP who had not taken any antibiotics during the preceding week were included. Patients who were allergic to cephalosporins, patients with immune deficiency or any other condition requiring antibiotic prophy",
+            "journal": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract",
+            "year": "2001",
+            "authors": [
+              "Räty S",
+              "Sand J",
+              "Pulkkinen M",
+              "Matikainen M",
+              "Nordback I"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Amylases",
+              "Antibiotic Prophylaxis",
+              "Ceftazidime",
+              "Cephalosporins",
+              "Cholangiopancreatography, Endoscopic Retrograde",
+              "Cholangitis",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11985972/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9951196908950806,
+        "txgnn_rank": 6386,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9948497414588928,
+        "txgnn_rank": 6615,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.9941300749778748,
+        "txgnn_rank": 7273,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04882085",
+            "title": "AN OPEN-LABEL, RANDOMIZED, MULTI-CENTER, ACTIVE-CONTROLLED STUDY TO ESTIMATE THE EFFICACY AND SAFETY OF CEFTAZIDIME-AVIBACTAM (CAZ-AVI) VERSUS BEST AVAILABLE TREATMENT (BAT) IN THE TREATMENT OF INFECTIONS DUE TO CARBAPENEM-RESISTANT GRAM-NEGATIVE PATHOGENS IN CHINESE ADULTS",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-08-26",
+            "completion_date": "2023-08-31",
+            "country": "China",
+            "enrollment": 60,
+            "brief_summary": "This is an open-label, randomized, multi-center, interventional, active-controlled Phase 4 study to evaluate the efficacy and safety of CAZ-AVI versus BAT in the treatment of infected participants with selected infection types (Hospital Acquired Pneumonia \\[HAP\\] (including Ventilator-Associated Pneumonia \\[VAP\\]); Complicated Urinary-Tract Infection \\[cUTI\\]; Complicated Intra-Abdominal Infection \\[cIAI\\]; Bloodstream Infection \\[BSI\\]) due to carbapenem-resistant Gram-negative pathogens in Chi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female \\>18 years of age\n* Participant must have a diagnosis of an infection (HAP/VAP, cUTI, cIAI, BSI) due to confirmed carbapenem-resistant aerobic Gram-negative pathogens, requiring administration of IV antibacterial therapy\n* Participant who had received appropriat",
+            "endpoints": [
+              "Percentage of Participants With Clinical Cure at Test of Cure (TOC) Visit - Microbiologically Modified Intent-to-Treat (mMITT) Analysis Set"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04882085"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01430910",
+            "title": "A Phase I, 2-Part, Open-Label, Pharmacokinetic and Drug-Drug Interaction Study of CAZ104 (Avibactam and Ceftazidime in Healthy Subjects)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-09",
+            "completion_date": "2012-10",
+            "country": "United Kingdom",
+            "enrollment": 43,
+            "brief_summary": "This is a randomised study divided into 2 parts. Part A investigates the effect of prolonged dosing (ten days) with Avibactam and Ceftazidime when given together and how this will effect how much Avibactam and Ceftazidime enters the blood. Part B investigates how much Avibactam (NXL104) and Ceftazidime enter the blood when Avibactam and Ceftazidine are given separately or together intravenously.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of signed and dated, written informed consent prior to any study specific procedures\n* Healthy male and female subjects aged 18 to 50 years with veins suitable for cannulation or repeated venepuncture; female subjects must be postmenopausal or surgically sterile. Fem",
+            "endpoints": [
+              "Part A: Single- and multiple-dose pharmacokinetics of Avibactam. Plasma pharmacokinetic variables will be measured including maximum plasma concentration (Cmax)",
+              "Part A: Single- and multiple-dose pharmacokinetics of Avibactam. Plasma pharmacokinetic variables will be measured including time of Cmax (tmax)",
+              "Part A: Single- and multiple-dose pharmacokinetics of Avibactam. Plasma pharmacokinetic variables will be measured including minimum plasma concentration (Cmin)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01430910"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00921024",
+            "title": "A Multicenter, Double-blind, Randomized, Phase 2 Study to Compare the Safety and Efficacy of Intravenous CXA-101 and Intravenous Ceftazidime in Complicated Urinary Tract Infection, Including Pyelonephritis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-06-30",
+            "completion_date": "2010-03-11",
+            "country": "Germany, United States, Poland",
+            "enrollment": 129,
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of intravenous CXA 101 and comparator in complicated urinary tract infection",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males and females 18 to 90 years of age, inclusive.\n2. Pyuria (white blood cell \\[WBC\\] count \\> 10/µL in unspun urine or ≥ 10 per high power field in spun urine)\n3. Clinical signs and/or symptoms of cUTI, either of:\n\n   a. Pyelonephritis, as indicated by both of the followin",
+            "endpoints": [
+              "Microbiological Response at the Test of Cure (TOC) Visit in the Microbiological Modified Intent-to-Treat (mMITT) Population",
+              "Microbiological Response at the TOC Visit in the Microbiologically Evaluable (ME) Population."
+            ],
+            "sponsor": "Cubist Pharmaceuticals LLC, a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)",
+            "url": "https://clinicaltrials.gov/study/NCT00921024"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01691430",
+            "title": "A Randomized, Controlled Trial of Cranberry Capsules for UTI Prevention in Nursing Home Residents",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-08",
+            "completion_date": "2015-10",
+            "country": "United States",
+            "enrollment": 185,
+            "brief_summary": "Urinary tract infection (UTI) is the most common infection in nursing home residents, and bacteriuria is the greatest trigger for antimicrobial therapy in the nursing home setting. The primary aim of this study is to test the efficacy of two oral cranberry capsules per day in the reduction of bacteriuria plus pyuria in female nursing home residents. These aims will be accomplished by conducting a double blind randomized placebo controlled efficacy trial of two oral cranberry capsules daily versu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. female residents;\n2. long term residents\n3. English speaking; and\n4. age ≥ 65 years.\n\nExclusion Criteria:\n\n1. residents that are not expected to be in the nursing home for at least one month (i.e., short term rehabilitation, pending discharge, terminal \\[life expectancy \\< 1 ",
+            "endpoints": [
+              "Participants With Urine Cultures With Bacteriuria (>100,000 Cfu/ml or >=100,000 Cfu/ml) Plus Pyuria (Any WBC)"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT01691430"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00690378",
+            "title": "Prospective, Multicenter, Investigator-blinded, Randomized, Comparative Study Estimate Safety, Tolerability, Efficacy of NXL104/Ceftazidime vs. Comparator Followed Appropriate Oral Therapy Treatment Complicated UTI Hosp Adults",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-11",
+            "completion_date": "2010-07",
+            "country": "Lebanon, United States, Jordan",
+            "enrollment": 137,
+            "brief_summary": "The purpose of this study is to determine whether NXL104 plus ceftazidime is effective in the treatment of complicated urinary tract infections as compared to a comparator group.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Acute pyelonephritis or other complicated urinary tract infection due to gram negative pathogens\n\nExclusion Criteria:\n\n* ileal loops or vesicoureteral reflux\n* complete obstruction of any portion of urinary tract, perinephric or intrarenal abscess.\n* fungal urinary tract infec",
+            "endpoints": [
+              "Number of Participants With Microbiological Outcome at the Test of Cure (TOC) Visit"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00690378"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04628572",
+            "title": "Retrospective Analysis to Characterize the Real World Use Patterns, Efficacy and Safety of Ceftazidime-avibactam in the Management of Gram Negative Infections.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-01-29",
+            "completion_date": "2022-03-11",
+            "country": "India",
+            "enrollment": 189,
+            "brief_summary": "The main objective of this non-interventional (retrospective) study is to describe the general treatment patterns, effectiveness, and safety of ceftazidime-avibactam in real-world settings in India. Eligible patients would be adults who have been treated with ≥ 48 hours of ceftazidime-avibactam in routine practice from 01 June 2019 to 01 April 2020. Data of 500 patients will be collected through the abstraction of hospital medical records (electronic) if available or through the individual patie",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. more than or equal to 18 years of age\n2. Admitted to hospital with documented gram negative infection\n3. Has received treatment for atleast 48 hours (complete) with Ceftazidime-Avibactam as a part of his routine clinical management\n\nExclusion Criteria:\n\n1. The patient is enro",
+            "endpoints": [
+              "Number of Participants With Clinical Symptom Improvement at Day 3",
+              "Number of Participants With Treatment Success at Day 7",
+              "Number of Participants With Treatment Success at Day 14 or End of Treatment"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04628572"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05566665",
+            "title": "Nosocomial Infections in Patients Treated With Extracorporeal Membrane Oxygenation",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2023-01-01",
+            "completion_date": "2026-12-31",
+            "country": "Italy",
+            "enrollment": 200,
+            "brief_summary": "Nosocomial Infections (NI) are a common and dreadful complication for patients suffering from Acute Respiratory Distress Syndrome (ARDS) treated with Extracorporeal Membrane Oxygenation (ECMO). Unfortunately, no study has thoroughly evaluated NI in this fragile patient cohort. Newly developed antibiotics may help manage such infections, but their pharmacokinetics (PK) during ECMO has not been evaluated.\n\nObjectives of this prospective observational multicenter pharmacological no-profit study are",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Diagnosis of ARDS (i.e., acute onset ( \\< 7 days) from the known clinical insult of respiratory failure, with bilateral opacities - not explained by effusions, lung and lobar collapse, or nodules -, not fully explained by cardiac failure/fluid overload; with ",
+            "endpoints": [
+              "Incidence of NIs in a large prospective cohort of ARDS patients undergoing ECMO.",
+              "Microbial etiology of NIs in a large prospective cohort of ARDS patients undergoing ECMO.",
+              "Resistance patterns of NIs in a large prospective cohort of ARDS patients undergoing ECMO."
+            ],
+            "sponsor": "Policlinico Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05566665"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07039955",
+            "title": "Effectiveness of Daily Chlorhexidine Bathing and Antibiotic and Proton Pump Inhibitor (PPI) Stewardship in Preventing Transmission and Infection Caused by Carbapenemase-Producing Enterobacteriaceae (CPE)",
+            "phase": "NA",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2025-07-14",
+            "completion_date": "2026-08-31",
+            "country": "South Korea",
+            "enrollment": 5760,
+            "brief_summary": "This multicenter, cluster-randomized crossover trial aims to evaluate the effectiveness and safety of a bundled intervention-including daily chlorhexidine bathing and targeted antimicrobial and proton pump inhibitor (PPI) stewardship-for preventing colonization and infection caused by carbapenemase-producing Enterobacteriaceae (CPE) in intensive care units (ICUs) across three university-affiliated hospitals in South Korea.\n\nEach hospital will include two ICUs, randomized to either the interventi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adults aged 19 years or older\n2. Admitted to one of the participating intensive care units (ICUs):\n\n   * Chuncheon Sacred Heart Hospital: CICU or NCU\n   * Wonju Severance Christian Hospital: MICU or NSICU\n   * Gangneung Asan Hospital: MICU or SICU\n\nExclusion Criteria:\n\n1. Age",
+            "endpoints": [
+              "Incidence of CPE Colonization and Infection"
+            ],
+            "sponsor": "Chuncheon Sacred Heart Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07039955"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06743529",
+            "title": "Immediate Versus Substantiated Antibiotic Therapy in Suspected Non-Severe Ventilator-Associated Pneumonia: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-11-11",
+            "completion_date": "2029-02-11",
+            "country": "France, Guadeloupe",
+            "enrollment": 686,
+            "brief_summary": "Ventilator-associated pneumonia is the leading nosocomial infection in the intensive care units, and is associated with prolonged mechanical ventilation and overuse of antibiotics. Initiating antibiotic therapy immediately after bacteriological sampling (immediate strategy) may expose uninfected patients to unnecessary treatment, while waiting for bacteriological confirmation (conservative strategy) may delay ventilator-associated pneumonia in infected patients.\n\nThe decision to start antibiotic",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Invasive mechanical ventilation for longer than 48 hours\n* Respiratory sample collection taken less than two hours ago (at physician discretion, according to local protocol) for a first episode of suspected ventilator-associated pneumonia (meeting the following prespecified cr",
+            "endpoints": [
+              "Proportion of patients who die whithin 28 days or are still on invasive mechanical ventilation on day 28"
+            ],
+            "sponsor": "Nantes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06743529"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05733104",
+            "title": "Prospective Observational Post Marketing Surveillance Study to Observe Safety and Effectiveness of Zavicefta IV",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-02-19",
+            "completion_date": "2029-09-28",
+            "country": "South Korea",
+            "enrollment": 600,
+            "brief_summary": "The purpose of this study is to learn about the safety and effectiveness of Zavicefta once released into the markets in Korea. This study is to learn about Zavicefta in patients with difficult types of infections in the abdomen, urinary tract and pneumonia which could have come from hospitalizations.\n\nThis study was required by the Ministry of Food and Drug Safety (MFDS) of Korea's regulations.",
+            "eligibility_criteria": "1. Adults and paediatric patients aged 3 months and older, who have been administered at least one dose of Zavicefta for the treatment of one of the indications as follows:\n\n   * Complicated intra-abdominal infection (cIAI)\n   * Complicated urinary tract infection (cUTI), including pyelonephritis\n  ",
+            "endpoints": [
+              "Number of patient reporting an adverse event"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05733104"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07311343",
+            "title": "Oral Hygiene and Prophylactic Antibiotics to Prevent Intracerebral Hemorrhage Associated Pneumonia",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2026-01-07",
+            "completion_date": "2027-10-31",
+            "country": "China",
+            "enrollment": 440,
+            "brief_summary": "Project Name:\n\nRandomized Controlled Clinical Study on oral hygiene and prophylactic antibiotics to prevent Intracerebral Hemorrhage associated pneumonia\n\nResearch Objectives:\n\nTo evaluate the effectiveness, safety and health economics value of enhanced oral hygiene combined with antibiotics in preventing post-cerebral hemorrhage pneumonia.\n\n1. To clarify the effectiveness of enhanced oral hygiene combined with antibiotics in preventing post-cerebral hemorrhage pneumonia.\n2. To clarify the safet",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18-80 years old;\n2. Spontaneous intracerebral hemorrhage;\n3. Supratentorial intracerebral hemorrhage (ICH);\n4. Hematoma volume \\< 30 ml (calculated by ABC/2 method);\n5. Glasgow Coma Scale score ≥ 9 at randomization;\n6. Time from onset to randomization ≤ 72 hours;\n7. Spont",
+            "endpoints": [
+              "The occurrence of pneumonia related to cerebral hemorrhage"
+            ],
+            "sponsor": "Beijing Tiantan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07311343"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02497781",
+            "title": "A Single Blind, Randomised, Multi-centre, Active Controlled, Trial To Evaluate Safety, Tolerability, Pharmacokinetics And Efficacy Of Ceftazidime And Avibactam Compared With Cefepime In Children From 3 Months To Less Than 18 Years Of Age With Complicated Urinary Tract Infections (Cutis)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-09-24",
+            "completion_date": "2017-09-15",
+            "country": "Turkey (Türkiye), Romania, United States, Russia, Czechia, Hungary, Greece, Taiwan, Poland",
+            "enrollment": 97,
+            "brief_summary": "This study will assess the safety, tolerability and efficacy of ceftazidime and avibactam (CAZ-AVI )versus cefepime in children from 3 months to less than 18 years old with complicated urinary tract infections.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Must be ≥3 calendar months to \\<18 years of age. Patients aged ≥3 calendar months to \\<1 year must have been born at term (defined as gestational age ≥37 weeks).\n2. Written informed consent from parent(s) or other legally acceptable representative(s), and informed assent from",
+            "endpoints": [
+              "Percentage of Participants With Treatment-Emergent Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+              "Percentage of Participants With Cephalosporin Class Effects and Additional Adverse Events (AEs)",
+              "Change From Baseline in Pulse Rate at End of Intravenous Treatment (EOIV) Visit"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT02497781"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03147807",
+            "title": "BetaLACTA® Test-guided Early De-escalation of Empirical Carbapenems in Pulmonary, Urinary and Bloodstream Infections Diagnosed in Intensive Care Unit - BLUE¬-CarbA Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-10-20",
+            "completion_date": "2019-10-20",
+            "country": "France",
+            "enrollment": 75,
+            "brief_summary": "The emergence and rapid worldwide spread of Extended- Spectrum Beta-Lactamase-producing enterobacteriaceae (ESBLE) both in hospital and community, led physicians, and notably intensivists, to prescribe more carbapenems, particularly in the most fragile patients such as ICU patients. Unfortunately, the increased carbapenem consumption favored the emergence of carbapenem resistance mechanisms. Moreover, several preliminary results suggest that carbapenem could markedly impact the human intestinal ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ICU patients ≥18 years.\n* With a suspected pneumonia (according to CPIS definition), primary blood-stream infection (according to CDC definition), and/or urinary tract infection (according to IDSA Guidelines).\n* And presence of ≥2 GNB/field on direct examination of a respirato",
+            "endpoints": [
+              "mortality at D90 and infection recurrence during the ICU stay"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT03147807"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01601093",
+            "title": "Phase Ⅱ Study on Ceftazidime Sodium and Sulbactam Sodium for Injection(2:1) for Treatment of Respiratory and Urinary System Infection",
+            "phase": "PHASE2",
+            "status": "SUSPENDED",
+            "start_date": "2011-11",
+            "completion_date": "2022-12-15",
+            "country": "China",
+            "enrollment": 288,
+            "brief_summary": "In the proposed study, the investigators plan to evaluate the efficacy and safety of Ceftazidime Sodium and Sulbactam Sodium for Injection(2:1) for the treatment of respiratory and urinary tract acute bacterial infection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients who qualify for moderate and severe acute respiratory or urinary tract bacterial infection of acute bacterial infections need for systemic antibiotic therapy.\n2. Hospital patients or good compliance clinic patients, who were more than 18 years old and less than 70 ye",
+            "endpoints": [
+              "The rate of bacterial clearance"
+            ],
+            "sponsor": "Xiangbei Welman Pharmaceutical Co., Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT01601093"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04278404",
+            "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2020-03-05",
+            "completion_date": "2027-09",
+            "country": "Canada, United States",
+            "enrollment": 5000,
+            "brief_summary": "The study investigators are interested in learning more about how drugs, that are given to children by their health care provider, act in the bodies of children and young adults in hopes to find the most safe and effective dose for children. The primary objective of this study is to evaluate the PK of understudied drugs currently being administered to children per SOC as prescribed by their treating provider.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participant is \\< 21 years of age\n2. Parent/ Legal Guardian/ Adult Participant can understand the consent process and is willing to provide informed consent/HIPAA:\n3. (a) Participant is receiving one or more of the study drugs of interest at the time of enrollment or (b) Part",
+            "endpoints": [
+              "Clearance (CL) or apparent oral clearance (CL/F) as measured by PK sampling",
+              "Volume of distribution (V) or apparent oral volume of distribution (V/F) as measured by PK sampling",
+              "Elimination rate constant (ke) as measured by PK sampling"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT04278404"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05258851",
+            "title": "Ceftazidime-Avibactam Versus Colistin in Critically Ill Patients With Carbapenem-Resistant Enterobacteriaceae Infections (AVI-ICU): A Non-Inferiority Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2022-06-01",
+            "completion_date": "2024-01-28",
+            "country": "Saudi Arabia",
+            "enrollment": 29,
+            "brief_summary": "Carbapenem-Resistant Enterobacteriaceae (CRE) infections are a growing national and international challenge in healthcare settings. This is not only due to the rapid spread of resistance and paucity of options of targeted-antimicrobial agents, but also owing to the high mortality of patients infected with CRE reaching up to 50% as per the Centers of Disease Control and Prevention.\n\nColistin-based combination regimens have been the mainstay for treating CRE-related infections. Ceftazidime-avibact",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients aged ≥ 18 years.\n2. Admitted to an intensive care unit (ICU).\n3. Patients with hospital-acquired pneumonia (HAP) or ventilator-associated pneumonia (VAP), complicated urinary tract infection (cUTI), bacteremia, complicated intraabdominal infection (cIAI), and complic",
+            "endpoints": [
+              "28-day mortality"
+            ],
+            "sponsor": "King Faisal Specialist Hospital & Research Center",
+            "url": "https://clinicaltrials.gov/study/NCT05258851"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05568654",
+            "title": "Reducing Antimicrobial Overuse Through Targeted Therapy for Patients With Community-Acquired Pneumonia",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-11-01",
+            "completion_date": "2026-06-30",
+            "country": "United States",
+            "enrollment": 12500,
+            "brief_summary": "The purpose of this study is to reduce the exposure of broad-spectrum antimicrobials by optimizing the rapid detection of CAP pathogens and improving rates of de-escalation following negative cultures. To accomplish this, we will perform a 3-year, pragmatic, multicenter 2 X 2 factorial cluster randomized controlled trial with four arms: a) rapid diagnostic testing b) pharmacist-led de-escalation c) rapid diagnostic testing + pharmacist-led de-escalation and d) usual care",
+            "eligibility_criteria": "Inclusion Criteria for patient's records:\n\n1. Men or women greater than or equal to 18 years of age\n2. Admitted to a participating (i.e. enrolled and randomized) hospital\n3. Admitting diagnosis of pneumonia\n\nExclusion Criteria:\n\n1. Admission to intensive care unit within 24 hours of hospital admissi",
+            "endpoints": [
+              "Number of days of broad-spectrum antibiotic therapy"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT05568654"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30219824",
+            "title": "Renal Dosing of Antibiotics: Are We Jumping the Gun?",
+            "abstract": "Antibiotic renal dose adjustments are determined in patients with stable chronic kidney disease and may not translate to patients in late-phase trials and practice. Ceftolozane/tazobactam, ceftazidime/avibactam, and telavancin all carry precautionary statements for reduced clinical response in patients with baseline creatinine clearance of 30-50 mL/min, potentially due to unnecessary dose reduction in the setting of acute kidney injury (AKI). In this review, we discuss the regulatory landscape for antibiotics eliminated by the kidney and highlight the importance of the first 48 hours of therapy. Using a clinical database, we identified AKI on admission in a substantial proportion of patients with pneumonia (27.1%), intraabdominal (19.5%), urinary tract (20.0%), or skin and skin structure infections (9.7%) that resolved by 48 hours in 57.2% of cases. We suggest that deferred renal dose reduction of wide therapeutic index antibiotics could improve outcomes in patients with infectious dis",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2019",
+            "authors": [
+              "Crass Ryan L",
+              "Rodvold Keith A",
+              "Mueller Bruce A",
+              "Pai Manjunath P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Communicable Diseases",
+              "Female",
+              "Humans",
+              "Kidney",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30219824/"
+          },
+          {
+            "pmid": "40530972",
+            "title": "Population pharmacokinetic/pharmacodynamic modeling to optimize aztreonam-avibactam dose regimens for adult patients.",
+            "abstract": "Aztreonam-avibactam, a fixed-ratio (3:1) β-lactam/β-lactamase inhibitor combination, was approved in Europe in 2024 for adults with complicated intra-abdominal infection (cIAI), complicated urinary tract infection, hospital-acquired/ventilator-associated pneumonia, and other infections due to aerobic gram-negative organisms with limited treatment options. Pharmacokinetic data from two phase 3 trials were added to previous data to develop a simultaneous aztreonam and avibactam population pharmacokinetic model. The final model was used to simulate exposures by infection type and renal function and estimate the joint probability of pharmacodynamic target attainment (PTA) for phase 3 patients (aztreonam 60% fT >MICATM-AVI of 8 mg/L and avibactam 50% fT >CT of 2.5 mg/L). Additional simulations evaluated simplified loading doses, regimens for end-stage renal disease, and ceftazidime-avibactam + aztreonam regimens. The final model included 4,914 aztreonam plasma samples (431 subjects) and 18,",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2025",
+            "authors": [
+              "Xie Rujia",
+              "Rogers Halley",
+              "Chow Joseph W",
+              "Soto Elena",
+              "Raber Susan R"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Aztreonam",
+              "beta-Lactamase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40530972/"
+          },
+          {
+            "pmid": "38688353",
+            "title": "Treatment of infections caused by multidrug-resistant Gram-negative bacilli: A practical approach by the Italian (SIMIT) and French (SPILF) Societies of Infectious Diseases.",
+            "abstract": "The emergence of multidrug-resistant Gram-negative bacilli and the development of new antibiotics have complicated the selection of optimal regimens. International guidelines are valuable tools, but are limited by the scarcity of high-quality randomized trials in many situations.",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2024",
+            "authors": [
+              "Meschiari Marianna",
+              "Asquier-Khati Antoine",
+              "Tiseo Giusy",
+              "Luque-Paz David",
+              "Murri Rita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Drug Resistance, Multiple, Bacterial",
+              "Gram-Negative Bacteria",
+              "Italy",
+              "Gram-Negative Bacterial Infections",
+              "Drug Combinations",
+              "France",
+              "Cephalosporins",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38688353/"
+          },
+          {
+            "pmid": "30712199",
+            "title": "Cefiderocol: A Siderophore Cephalosporin with Activity Against Carbapenem-Resistant and Multidrug-Resistant Gram-Negative Bacilli.",
+            "abstract": "Cefiderocol is an injectable siderophore cephalosporin discovered and being developed by Shionogi & Co., Ltd., Japan. As with other β-lactam antibiotics, the principal antibacterial/bactericidal activity of cefiderocol occurs by inhibition of Gram-negative bacterial cell wall synthesis by binding to penicillin binding proteins; however, it is unique in that it enters the bacterial periplasmic space as a result of its siderophore-like property and has enhanced stability to β-lactamases. The chemical structure of cefiderocol is similar to both ceftazidime and cefepime, which are third- and fourth-generation cephalosporins, respectively, but with high stability to a variety of β-lactamases, including AmpC and extended-spectrum β-lactamases (ESBLs). Cefiderocol has a pyrrolidinium group in the side chain at position 3 like cefepime and a carboxypropanoxyimino group in the side chain at position 7 of the cephem nucleus like ceftazidime. The major difference in the chemical structures of cef",
+            "journal": "Drugs",
+            "year": "2019",
+            "authors": [
+              "Zhanel George G",
+              "Golden Alyssa R",
+              "Zelenitsky Sheryl",
+              "Wiebe Karyn",
+              "Lawrence Courtney K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Carbapenems",
+              "Ceftazidime",
+              "Cephalosporins",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Drug Combinations",
+              "Drug Resistance, Multiple, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30712199/"
+          },
+          {
+            "pmid": "18416587",
+            "title": "Meropenem: a review of its use in the treatment of serious bacterial infections.",
+            "abstract": "Meropenem (Merrem, Meronem) is a broad-spectrum antibacterial agent of the carbapenem family, indicated as empirical therapy prior to the identification of causative organisms, or for disease caused by single or multiple susceptible bacteria in both adults and children with a broad range of serious infections. Meropenem is approved for use in complicated intra-abdominal infection (cIAI), complicated skin and skin structure infection (cSSSI) and bacterial meningitis (in paediatric patients aged > or = 3 months) in the US, and in most other countries for nosocomial pneumonia, cIAI, septicaemia, febrile neutropenia, cSSSI, bacterial meningitis, complicated urinary tract infection (UTI), obstetric and gynaecological infections, in cystic fibrosis patients with pulmonary exacerbations, and for the treatment of severe community-acquired pneumonia (CAP). Meropenem has a broad spectrum of in vitro activity against Gram-positive and Gram-negative pathogens, including extended-spectrum beta-lact",
+            "journal": "Drugs",
+            "year": "2008",
+            "authors": [
+              "Baldwin Claudine M",
+              "Lyseng-Williamson Katherine A",
+              "Keam Susan J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacterial Infections",
+              "Cost-Benefit Analysis",
+              "Drug Costs",
+              "Humans",
+              "Meropenem",
+              "Severity of Illness Index",
+              "Thienamycins",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18416587/"
+          },
+          {
+            "pmid": "32094128",
+            "title": "Meropenem-Vaborbactam versus Ceftazidime-Avibactam for Treatment of Carbapenem-Resistant Enterobacteriaceae Infections.",
+            "abstract": "The comparative efficacy of ceftazidime-avibactam and meropenem-vaborbactam for treatment of carbapenem-resistant Enterobacteriaceae (CRE) infections remains unknown. This was a multicenter, retrospective cohort study of adults with CRE infections who received ceftazidime-avibactam or meropenem-vaborbactam for ≥72 hours from February 2015 to October 2018. Patients with a localized urinary tract infection and repeat study drug exposures after the first episode were excluded. The primary endpoint was clinical success compared between treatment groups. Secondary endpoints included 30- and 90-day mortality, adverse events (AE), 90-day CRE infection recurrence, and development of resistance in patients with recurrent infection. A post hoc subgroup analysis was completed comparing patients who received ceftazidime-avibactam monotherapy, ceftazidime-avibactam combination therapy, and meropenem-vaborbactam monotherapy. A total of 131 patients were included (ceftazidime-avibactam, n = 105; mero",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2020",
+            "authors": [
+              "Ackley Renee",
+              "Roshdy Danya",
+              "Meredith Jacqueline",
+              "Minor Sarah",
+              "Anderson William E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Boronic Acids",
+              "Carbapenem-Resistant Enterobacteriaceae",
+              "Carbapenems",
+              "Ceftazidime",
+              "Cohort Studies",
+              "Drug Combinations",
+              "Drug Resistance, Multiple, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32094128/"
+          },
+          {
+            "pmid": "39817442",
+            "title": "Efficacy of treatment options for complicated urinary tract infections including acute pyelonephritis: a systematic literature review and network meta-analysis.",
+            "abstract": "Aim: Compared with uncomplicated urinary tract infections (UTIs), complicated UTIs (cUTIs) including acute pyelonephritis (AP) present with significant morbidity, a higher risk of treatment failure and typically require longer courses of treatment, or alternative antibiotics. The emergence of drug-resistant organisms represents a considerable challenge in the treatment of patients with cUTIs/AP and has limited antibiotic options. Carbapenems are considered the current last line of therapy, however, carbapenem resistance represents a growing problem. Although several established and novel treatment options are available, direct comparative evidence is lacking. Methods: Randomized controlled trials (RCTs) were identified by systematic literature review of Embase®, MEDLINE® and Cochrane databases (database inception to 15th June 2022). Relevant conference proceedings (2020-2022) were also reviewed. Following feasibility assessment to verify network connectivity at an overall level, outcom",
+            "journal": "Journal of comparative effectiveness research",
+            "year": "2025",
+            "authors": [
+              "Wagenlehner Florian",
+              "Caballero Verónica Rico",
+              "Maheshwari Vikalp",
+              "Biswas Ayantika",
+              "Saini Priyanka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pyelonephritis",
+              "Urinary Tract Infections",
+              "Anti-Bacterial Agents",
+              "Randomized Controlled Trials as Topic",
+              "Acute Disease",
+              "Bayes Theorem",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39817442/"
+          },
+          {
+            "pmid": "35787918",
+            "title": "Clinical data from studies involving novel antibiotics to treat multidrug-resistant Gram-negative bacterial infections.",
+            "abstract": "Multidrug-resistant (MDR) Gram-negative bacteria (GNB) pose a critical threat to global healthcare, worsening outcomes and increasing mortality among infected patients. Carbapenemase- and extended-spectrum β-lactamase-producing Enterobacterales, as well as carbapenemase-producing Pseudomonas and Acinetobacter spp., are common MDR pathogens. New antibiotics and combinations have been developed to address this threat. Clinical trial findings support several combinations, notably ceftazidime-avibactam (CZA, a cephalosporin-β-lactamase inhibitor combination), which is effective in treating complicated urinary tract infections (cUTI), complicated intra-abdominal infections and hospital-acquired and ventilator-associated pneumonia caused by GNBs. Other clinically effective combinations include meropenem-vaborbactam (MVB), ceftolozane-tazobactam (C/T) and imipenem-relebactam (I-R). Cefiderocol is a recent siderophore β-lactam antibiotic that is useful against cUTIs caused by carbapenem-resist",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2022",
+            "authors": [
+              "Kanj Souha S",
+              "Bassetti Matteo",
+              "Kiratisin Pattarachai",
+              "Rodrigues Camilla",
+              "Villegas María Virginia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Carbapenems",
+              "Drug Resistance, Multiple, Bacterial",
+              "Gram-Negative Bacterial Infections",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "beta-Lactamase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35787918/"
+          },
+          {
+            "pmid": "38185380",
+            "title": "International Nosocomial Infection Control Consortium (INICC) report of health care associated infections, data summary of 45 countries for 2015 to 2020, adult and pediatric units, device-associated module.",
+            "abstract": "Reporting on the International Nosocomial Infection Control Consortium study results from 2015 to 2020, conducted in 630 intensive care units across 123 cities in 45 countries spanning Africa, Asia, Eastern Europe, Latin America, and the Middle East.",
+            "journal": "American journal of infection control",
+            "year": "2024",
+            "authors": [
+              "Rosenthal Victor D",
+              "Yin Ruijie",
+              "Nercelles Patricio",
+              "Rivera-Molina Sara E",
+              "Jyoti Somani"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cross Infection",
+              "Catheter-Related Infections",
+              "Prospective Studies",
+              "Intensive Care Units",
+              "Adult",
+              "Pneumonia, Ventilator-Associated",
+              "Male",
+              "Child",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38185380/"
+          },
+          {
+            "pmid": "37873539",
+            "title": "Prevalence and antibiogram of bacteria causing urinary tract infection among patients with chronic kidney disease.",
+            "abstract": "Identifying and appropriately managing urinary tract infections (UTIs) among chronic kidney disease (CKD) patients are essential to reduce further disease complications and economic burden. Hence, this study aims to determine the prevalence of UTIs among CKD patients and study the antibiogram of the bacterial isolates. Four hundred eighty-two clean catch midstream urine samples were collected from CKD patients during the study period. The samples were cultured, and bacteria were isolated using standard microbiological techniques. Antibiotic susceptibility testing was performed by the Kirby-Bauer disc diffusion method following the Clinical and Laboratory Standards Institute guidelines. Of the 482 CKD patients, 15.8% were culture positive, and the majority was elderly aged group population. Most bacterial isolates were Escherichia coli 50%, followed by Pseudomonas aeruginosa 15.80%, Enterococcus species 15.80%, and Klebsiella pneumoniae 11.84%. The majority of bacteria were found to be ",
+            "journal": "Open medicine (Warsaw, Poland)",
+            "year": "2023",
+            "authors": [
+              "Thapa Tika Bahadur",
+              "Pokhrel Sushant",
+              "Lamichhane Anit",
+              "Singh Vinay Kumar",
+              "Shrestha Ojaswee"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37873539/"
+          },
+          {
+            "pmid": "33618353",
+            "title": "Ceftazidime-Avibactam Use for Klebsiella pneumoniae Carbapenemase-Producing K. pneumoniae Infections: A Retrospective Observational Multicenter Study.",
+            "abstract": "A growing body of observational evidence supports the value of ceftazidime-avibactam (CAZ-AVI) in managing infections caused by carbapenem-resistant Enterobacteriaceae.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2021",
+            "authors": [
+              "Tumbarello Mario",
+              "Raffaelli Francesca",
+              "Giannella Maddalena",
+              "Mantengoli Elisabetta",
+              "Mularoni Alessandra"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Bacterial Proteins",
+              "Ceftazidime",
+              "Drug Combinations",
+              "Humans",
+              "Klebsiella Infections",
+              "Klebsiella pneumoniae",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33618353/"
+          },
+          {
+            "pmid": "7791419",
+            "title": "Cefepime.",
+            "abstract": "Because of the popularity of some third-generation cephalosporins, emergence of resistant organisms (e.g., selected Enterobacteriaceae) that produce inducible and extended-spectrum beta-lactamases has been a problem. Cefepime's twice-a-day dosage schedule and enhanced activity against Enterobacteriaceae and gram-positive organisms give it several advantages over older drugs. The clinical efficacy of cefepime has been demonstrated in comparative and noncomparative trials in the United States and Europe. Cefepime with twice-daily dosing has been useful in the treatment of lower respiratory tract infections, urinary tract infections, skin and skin structure infections, and in serious infection, including those with associated bacteremia. Cefepime is comparable to ceftazidime in clinical and bacteriologic response rates when both agents are administered three times a day in febrile neutropenic patients. Cefepime is also active against organisms that show resistance to other agents. Several",
+            "journal": "The Medical clinics of North America",
+            "year": "1995",
+            "authors": [
+              "Cunha B A",
+              "Gill M V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bacterial Infections",
+              "Cefepime",
+              "Cephalosporins",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7791419/"
+          },
+          {
+            "pmid": "35603074",
+            "title": "Epidemiological investigations on microbial infection and crystals causing feline lower urinary tract disease in tomcats in Ismailia, Egypt.",
+            "abstract": "Feline lower urinary tract disease (FLUTD) is a common disorder associated with the dysfunction of the urinary bladder or urethra in tomcats.",
+            "journal": "Open veterinary journal",
+            "year": "2022",
+            "authors": [
+              "Mahmoud Ahmed E",
+              "El-Maghraby Mamdouh M",
+              "Eltarabili Reham M",
+              "Soliman Essam S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Calcium Oxalate",
+              "Cat Diseases",
+              "Cats",
+              "Egypt",
+              "Escherichia coli",
+              "Phosphates",
+              "Prospective Studies",
+              "Staphylococcus aureus",
+              "Uric Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35603074/"
+          },
+          {
+            "pmid": "30224941",
+            "title": "Catheter-Associated Urinary Tract Infection and Obstinate Biofilm Producers.",
+            "abstract": "Biofilms, or colonies of uropathogen growing on the surface of indwelling medical devices, can inflict obstinate or recurring infection, thought-provoking antimicrobial therapy.",
+            "journal": "The Canadian journal of infectious diseases & medical microbiology = Journal canadien des maladies infectieuses et de la microbiologie medicale",
+            "year": "2018",
+            "authors": [
+              "Maharjan Govinda",
+              "Khadka Priyatam",
+              "Siddhi Shilpakar Gomik",
+              "Chapagain Ganesh",
+              "Dhungana Guna Raj"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30224941/"
+          },
+          {
+            "pmid": "30270406",
+            "title": "Effect and Safety of Meropenem-Vaborbactam versus Best-Available Therapy in Patients with Carbapenem-Resistant Enterobacteriaceae Infections: The TANGO II Randomized Clinical Trial.",
+            "abstract": "Treatment options for carbapenem-resistant Enterobacteriaceae (CRE) infections are limited and CRE infections remain associated with high clinical failure and mortality rates, particularly in vulnerable patient populations. A Phase 3, multinational, open-label, randomized controlled trial (TANGO II) was conducted from 2014 to 2017 to evaluate the efficacy/safety of meropenem-vaborbactam monotherapy versus best available therapy (BAT) for CRE.",
+            "journal": "Infectious diseases and therapy",
+            "year": "2018",
+            "authors": [
+              "Wunderink Richard G",
+              "Giamarellos-Bourboulis Evangelos J",
+              "Rahav Galia",
+              "Mathers Amy J",
+              "Bassetti Matteo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30270406/"
+          },
+          {
+            "pmid": "39934901",
+            "title": "Global trends of ceftazidime-avibactam resistance in gram-negative bacteria: systematic review and meta-analysis.",
+            "abstract": "The emergence of antimicrobial resistance in Gram-negative bacteria (GNB) is a major global concern. Ceftazidime-avibactam (CAZ-AVI) has been identified as a potential treatment option for complicated infections.",
+            "journal": "Antimicrobial resistance and infection control",
+            "year": "2025",
+            "authors": [
+              "Wang Yang",
+              "Sholeh Mohammad",
+              "Yang LunDi",
+              "Shakourzadeh Matin Zafar",
+              "Beig Masoumeh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Ceftazidime",
+              "Azabicyclo Compounds",
+              "Gram-Negative Bacteria",
+              "Drug Combinations",
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Gram-Negative Bacterial Infections",
+              "Drug Resistance, Multiple, Bacterial",
+              "Global Health",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39934901/"
+          },
+          {
+            "pmid": "26289307",
+            "title": "The β-Lactams Strike Back: Ceftazidime-Avibactam.",
+            "abstract": "Gram-negative resistance has reached a crucial point, with emergence of pathogens resistant to most or all available antibiotics. Ceftazidime-avibactam is a newly approved agent combining ceftazidime and a novel β-lactamase inhibitor with activity against multidrug-resistant gram-negative bacteria. Avibactam has increased potency and expanded spectrum of inhibition of class A and C β-lactamases relative to available β-lactamase inhibitors, including extended-spectrum β-lactamases, AmpC, and Klebsiella pneumoniae carbapenemase (KPC) enzymes. Avibactam expands ceftazidime's spectrum of activity to include many ceftazidime- and carbapenem-resistant Enterobacteriaceae and Pseudomonas aeruginosa. Early clinical data indicate that ceftazidime-avibactam is effective and well tolerated in patients with complicated urinary tract infections (cUTIs) and complicated intraabdominal infections (cIAI). In a phase II trial of patients with cUTIs, ceftazidime-avibactam produced similar rates of clinica",
+            "journal": "Pharmacotherapy",
+            "year": "2015",
+            "authors": [
+              "Zasowski Evan J",
+              "Rybak Jeffrey M",
+              "Rybak Michael J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Azabicyclo Compounds",
+              "Ceftazidime",
+              "Clinical Trials, Phase II as Topic",
+              "Drug Combinations",
+              "Drug Resistance, Multiple, Bacterial",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26289307/"
+          },
+          {
+            "pmid": "35734948",
+            "title": "Treatment and Epidemiology of Third-Generation Cephalosporin-Resistant Urinary Tract Infections.",
+            "abstract": "Limited data are available on the contemporary epidemiology, clinical management, and health care utilization for pediatric urinary tract infection (UTI) due to third-generation cephalosporin-resistant Enterobacterales (G3CR) in the United States. The objective is to describe the epidemiology, antimicrobial treatment and response, and health care utilization associated with G3CR UTI.",
+            "journal": "Pediatrics",
+            "year": "2022",
+            "authors": [
+              "Dasgupta-Tsinikas Shom",
+              "Zangwill Kenneth M",
+              "Nielsen Katherine",
+              "Lee Rebecca",
+              "Friedlander Scott"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents",
+              "Cephalosporins",
+              "Child",
+              "Humans",
+              "United States",
+              "Urinalysis",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35734948/"
+          },
+          {
+            "pmid": "38036465",
+            "title": "Clinical Features and Outcomes of Infections Caused by Metallo-β-Lactamase-Producing Enterobacterales: A 3-Year Prospective Study From an Endemic Area.",
+            "abstract": "Metallo-β-lactamase (MBL)-producing Enterobacterales are increasing worldwide. Our aim was to describe clinical features, treatments, and outcomes of infections by MBL-Enterobacterales.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2024",
+            "authors": [
+              "Falcone Marco",
+              "Giordano Cesira",
+              "Leonildi Alessandro",
+              "Galfo Valentina",
+              "Lepore Aurelio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "beta-Lactamases",
+              "Male",
+              "Prospective Studies",
+              "Female",
+              "Middle Aged",
+              "Enterobacteriaceae Infections",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Enterobacteriaceae"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38036465/"
+          },
+          {
+            "pmid": "29493397",
+            "title": "Ceftolozane/tazobactam: place in therapy.",
+            "abstract": "Ceftolozane/tazobactam (C/T) is a new antibiotic resulting from the combination of a novel cephalosporin, structurally similar to ceftazidime, with tazobactam, a well-known beta-lactamase inhibitor. C/T remains active against extended-spectrum β-lactamase (ESBL)-producing Enterobacteriaceae and multi-drug resistant (MDR) P. aeruginosa, and has been recently approved for the treatment of complicated intra-abdominal infections (cIAI) and complicated urinary tract infections (cUTI). A trial on hospital-acquired pneumonia is ongoing. Areas covered: The place in therapy of C/T is delineated by addressing the following main topics: (i) antimicrobial properties; (ii) pharmacological properties; (iii) results of clinical studies. Expert commentary: C/T is approved for cIAI and cUTI. However, the drug has a special value for clinicians in any kind of infectious localization for two main reasons. The first is that C/T is especially valuable in suspected or documented severe infections due to MDR",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2018",
+            "authors": [
+              "Giacobbe Daniele Roberto",
+              "Bassetti Matteo",
+              "De Rosa Francesco Giuseppe",
+              "Del Bono Valerio",
+              "Grossi Paolo Antonio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Cephalosporins",
+              "Drug Resistance, Multiple, Bacterial",
+              "Enterobacteriaceae",
+              "Enterobacteriaceae Infections",
+              "Humans",
+              "Intraabdominal Infections",
+              "Off-Label Use",
+              "Pseudomonas Infections",
+              "Pseudomonas aeruginosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29493397/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottitis",
+        "txgnn_score": 0.9938887357711792,
+        "txgnn_rank": 7460,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "8126192",
+            "title": "Nosocomial epiglottitis associated with penicillin- and cephalosporin-resistant Streptococcus pneumoniae bacteremia.",
+            "abstract": "We cared for a 4-year-old male with nosocomially acquired epiglottitis caused by Streptococcus pneumoniae. He had been receiving ceftazidime therapy when this infection was recognized. The S. pneumoniae isolate was of serotype 15B and was resistant to beta-lactam antibiotics, cephalosporins (including those with extended spectra), and trimethoprim-sulfamethoxazole. Clinicians and clinical microbiologists must be aware that cephalosporin susceptibility may no longer be assumed for penicillin-resistant S. pneumoniae isolates and that susceptibility testing for the extended-spectrum cephalosporins should be performed whenever this species is isolated from a normally sterile body fluid.",
+            "journal": "Journal of clinical microbiology",
+            "year": "1994",
+            "authors": [
+              "Daum R S",
+              "Nachman J P",
+              "Leitch C D",
+              "Tenover F C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Bacteremia",
+              "Cephalosporins",
+              "Child, Preschool",
+              "Cross Infection",
+              "Drug Resistance, Microbial",
+              "Epiglottitis",
+              "Humans",
+              "Male",
+              "Penicillin Resistance",
+              "Pneumococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8126192/"
+          },
+          {
+            "pmid": "1473539",
+            "title": "Streptococcal pharyngitis and epiglottitis in a newborn infant.",
+            "abstract": "We describe a newborn infant with Streptococcus sanguis septicaemia and concomitant upper airway obstruction due to epiglottitis and pharyngitis. This rare infection of the supraglottic region was treated with endotracheal intubation and antibiotics. Full recovery occurred within 4 days.",
+            "journal": "European journal of pediatrics",
+            "year": "1992",
+            "authors": [
+              "Bos A P",
+              "Fetter W P",
+              "Baerts W",
+              "van Lingen R A",
+              "Frik J F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ampicillin",
+              "Ceftazidime",
+              "Epiglottitis",
+              "Humans",
+              "Infant, Newborn",
+              "Intubation, Intratracheal",
+              "Male",
+              "Pharyngitis",
+              "Sepsis",
+              "Streptococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1473539/"
+          },
+          {
+            "pmid": "34418979",
+            "title": "Pseudoaneurysm of the ascending aorta: case report of a donor-derived Pseudomonas infection in a heart transplant recipient.",
+            "abstract": "Mycotic aortic pseudoaneurysm is a rare complication after heart transplantation (HTX) with remarkable mortality. Intrathoracic infection is a well-documented predisposing factor for this disease. Staphylococcus aureus, Pseudomonas aeruginosa or Candida species are commonly isolated from resected specimens of the pseudoaneurysms. We demonstrate a unique case of mycotic pseudoaneurysm caused by presumably donor-derived Pseudomonas infection in a heart transplant recipient.",
+            "journal": "BMC infectious diseases",
+            "year": "2021",
+            "authors": [
+              "Kugler Szilvia",
+              "Pólos Miklós",
+              "Király Ákos",
+              "Pataki Ákos",
+              "Koppányi Ádám"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aneurysm, False",
+              "Aneurysm, Infected",
+              "Aorta",
+              "Heart Transplantation",
+              "Humans",
+              "Male",
+              "Pseudomonas Infections",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34418979/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9926812052726746,
+        "txgnn_rank": 8481,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35198828",
+            "title": "Endogenous endophthalmitis caused by Staphylococcus capitis.",
+            "abstract": "To report a rare case of endogenous endophthalmitis caused by Staphylococcus capitis.",
+            "journal": "American journal of ophthalmology case reports",
+            "year": "2022",
+            "authors": [
+              "Elhusseiny Abdelrahman M",
+              "Shamim Muhammad M",
+              "Sanders Riley N",
+              "Sallam Ahmed B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35198828/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9926812052726746,
+        "txgnn_rank": 8482,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.992625057697296,
+        "txgnn_rank": 8530,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33246211",
+            "title": "Prevalence and molecular characterisation of carbapenemase-producing Enterobacterales in an outbreak-free setting in a single hospital in Uruguay.",
+            "abstract": "This study aimed to characterise all carbapenemase-producing enterobacteria (CPE) isolates obtained from an outbreak-free setting in Uruguay.",
+            "journal": "Journal of global antimicrobial resistance",
+            "year": "2021",
+            "authors": [
+              "Papa-Ezdra R",
+              "Caiata L",
+              "Palacio R",
+              "Outeda M",
+              "Cabezas L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacterial Proteins",
+              "Enterobacteriaceae",
+              "Hospitals",
+              "Humans",
+              "Prevalence",
+              "Uruguay",
+              "beta-Lactamases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33246211/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious otitis media",
+        "txgnn_score": 0.9918956160545348,
+        "txgnn_rank": 9108,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34628806",
+            "title": "[Analysis of bacterial infection and drug sensitivity in patients with chronic suppurative otitis media].",
+            "abstract": "Objective:To explore the distribution of pathogenic bacteria and drug sensitivity among patients with chronic suppurative otitis media. Methods:Patients with chronic suppurative otitis media who were hospitalized in the Department of Otolaryngology, People's Hospital, Peking University for surgery from January 1, 2019 to May 1, 2021 were enrolled as the subjects, then take the deep secretions of the external auditory canal for bacterial culture. Finally, the distribution and drug sensitivity of the pathogenic bacteria are analyzed. Results:A total of 126 patients were enrolled, of which 53 were culture-positive, and 57 strains of bacteria were isolated, including 47 strains of Gram-positive cocci, 10 strains of Gram-negative bacilli. Among Gram-positive cocci, 24 methicillin-sensitive staphylococcus aureus（MSSA） strains, 7 methicillin-resistant staphylococcus aureus（MRSA） strains, 14 coagulase-negative staphylococcus strains, 1 strain enterococcus faecium, and 1 strain otitis Zurich. 4",
+            "journal": "Lin chuang er bi yan hou tou jing wai ke za zhi = Journal of clinical otorhinolaryngology head and neck surgery",
+            "year": "2021",
+            "authors": [
+              "Diao Tongxiang",
+              "Zhang Liyuan",
+              "Liu Yafen",
+              "Xia Ruiming",
+              "Yu Lisheng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests",
+              "Otitis Media, Suppurative",
+              "Pharmaceutical Preparations",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34628806/"
+          },
+          {
+            "pmid": "10826908",
+            "title": "Ceftazidime versus aztreonam in the treatment of pseudomonal chronic suppurative otitis media in children.",
+            "abstract": "In a prospective, open, randomized trial, ceftazidime was given to 15 children and aztreonam to another 15 children with chronic suppurative otitis media without cholesteatoma (CSOM). Patients enrolled to the study had a pure culture of Pseudomonas aeruginosa growing in middle ear discharge. The subjects' mean age was 56 months in the ceftazidime group and 48 months in the aztreonam group. Success rate, defined as complete disappearance of discharge, was 84.6% in the ceftazidime treated patients and 67% in the aztreonam group (p value not significant). The number of days required for complete dryness of the ear was 7.9 and 8.4 respectively. Two patients in each group had recurrence of suppurative discharge within 90 d from discontinuation of antibiotic treatment. These results suggest that aztreonam is an optional alternative systemic treatment for paediatric patients with pseudomonal CSOM, especially in subjects allergic to penicillin.",
+            "journal": "Scandinavian journal of infectious diseases",
+            "year": "2000",
+            "authors": [
+              "Somekh E",
+              "Cordova Z"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Aztreonam",
+              "Ceftazidime",
+              "Cephalosporins",
+              "Child",
+              "Child, Preschool",
+              "Chronic Disease",
+              "Follow-Up Studies",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10826908/"
+          },
+          {
+            "pmid": "26381007",
+            "title": "Change in Detection Rate of Methicillin-Resistant Staphylococcus aureus and Pseudomonas aeruginosa and Their Antibiotic Sensitivities in Patients with Chronic Suppurative Otitis Media.",
+            "abstract": "To investigate changes in Pseudomonas aeruginosa (PA) and methicillin-resistant Staphylococcus aureus (MRSA) and their antibiotic sensitivities over 13 years in patients diagnosed with chronic suppurative otitis media (CSOM).",
+            "journal": "The journal of international advanced otology",
+            "year": "2015",
+            "authors": [
+              "Kim Sang Hoon",
+              "Kim Myung Gu",
+              "Kim Sung Soo",
+              "Cha Sung Ho",
+              "Yeo Seung Geun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Drug Resistance, Bacterial",
+              "Female",
+              "Humans",
+              "Male",
+              "Medication Therapy Management",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26381007/"
+          },
+          {
+            "pmid": "8451104",
+            "title": "Ceftazidime for therapy of children with chronic suppurative otitis media without cholesteatoma.",
+            "abstract": "",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "1993",
+            "authors": [
+              "Arguedas A G",
+              "Herrera J F",
+              "Faingezicht I",
+              "Mohs E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ceftazidime",
+              "Child",
+              "Child, Preschool",
+              "Cholesteatoma",
+              "Chronic Disease",
+              "Costa Rica",
+              "Ear Diseases",
+              "Female",
+              "Humans",
+              "Immunoglobulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8451104/"
+          },
+          {
+            "pmid": "10768520",
+            "title": "Ceftazidime for outpatient parenteral antibiotic therapy (OPAT) of chronic suppurative otitis media due to Pseudomonas aeruginosa.",
+            "abstract": "The number of patients receiving parenteral antibiotic therapy outside the hospital (OPAT) is growing rapidly, not only because of financial considerations, but also to limit the risk of nosocomial infections, hospitalization trauma, and to improve the quality of life. The same benefits of OPAT have recently been extended to pediatric patients. In the present study, the efficacy and safety of OPAT was evaluated in 52 children (age range 6-12 years) affected by chronic suppurative otitis media (CSOM) whose parents were deemed compliant. Otorhinolaryngologists and infectious disease specialists (IDS) cooperated in diagnosing, managing patients and being available 24 hours a day for family consultation. Bacteriological examination of ear exudate was carried out before antibiotic treatment. For all 52 children the infection was caused by Pseudomonas aeruginosa in vitro sensitive to ceftazidime. Ceftazidime was administered at the dosage of 500 mg b.i.d. i.m. at the patient's home according",
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2000",
+            "authors": [
+              "Esposito S",
+              "Noviello S",
+              "Ianniello F",
+              "D'Errico G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ambulatory Care",
+              "Ceftazidime",
+              "Cephalosporins",
+              "Child",
+              "Chronic Disease",
+              "Female",
+              "Humans",
+              "Injections, Intramuscular",
+              "Male",
+              "Otitis Media, Suppurative"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10768520/"
+          },
+          {
+            "pmid": "32423374",
+            "title": "Chronic Suppurative Otitis Media: A Case Report.",
+            "abstract": "Chronic Suppurative Otitis Media (CSOM) is a common cause of hearing impairment and disability. CSOM caused by Pseudomonas aeruginosa is usually treated with topical ciprofloxacin and resistance to ciprofloxacin in CSOM isolates has rarely been reported.",
+            "journal": "Infectious disorders drug targets",
+            "year": "2020",
+            "authors": [
+              "Yazdi M M Karimi",
+              "Ghalavand Zohreh",
+              "Yazdi Alireza K",
+              "Kodori Mansoor",
+              "Taheri Marzieh"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Ciprofloxacin",
+              "Drug Resistance, Multiple, Bacterial",
+              "Genes, MDR",
+              "Humans",
+              "Male",
+              "Mastoidectomy",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32423374/"
+          },
+          {
+            "pmid": "16905907",
+            "title": "[Microorganisms isolated from middle ear cultures and their antibacterial susceptibility in patients with chronic suppurative otitis media].",
+            "abstract": "This study sought to determine causative microorganisms of chronic suppurative otitis media and their antibacterial susceptibility.",
+            "journal": "Kulak burun bogaz ihtisas dergisi : KBB = Journal of ear, nose, and throat",
+            "year": "2006",
+            "authors": [
+              "Gül H Cem",
+              "Kurnaz Ali",
+              "Turhan Vedat",
+              "Oncül Oral",
+              "Pahsa Alahattin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Ceftazidime",
+              "Chronic Disease",
+              "Drug Resistance, Bacterial",
+              "Female",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Imipenem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16905907/"
+          },
+          {
+            "pmid": "1528644",
+            "title": "Outpatient management of chronic suppurative otitis media without cholesteatoma in children.",
+            "abstract": "Prolonged antipseudomonal parenteral antibiotic therapy combined with daily aural toilet has been effective in resolving long standing ear discharge in children with chronic suppurative otitis media. However, such treatment suffered from the disadvantages of prolonged hospitalization. We conducted a prospective study to investigate the feasibility and efficacy of exclusive outpatient treatment of children with chronic suppurative otitis media without cholesteatoma who had failed ototopical/oral antimicrobial therapy. The treatment consisted of daily aural toilet (suction and debridement) and twice daily parenteral ceftazidime (50 mg/kg/dose). Thirty-seven children were included. The duration of discharge from the ear before treatment was 6 to 121 months (median, 30 months). Aerobic cultures yielded Pseudomonas aeruginosa in 97%, often with other organisms. The management and follow-up were performed jointly by otolaryngology and infectious diseases physicians using the hospital ambulat",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "1992",
+            "authors": [
+              "Dagan R",
+              "Fliss D M",
+              "Einhorn M",
+              "Kraus M",
+              "Leiberman A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Ambulatory Care",
+              "Ceftazidime",
+              "Child",
+              "Child, Preschool",
+              "Cholesteatoma",
+              "Chronic Disease",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1528644/"
+          },
+          {
+            "pmid": "39567876",
+            "title": "Ceftazidime-Cefazolin Empiric Therapy for Pediatric Gradenigo Syndrome.",
+            "abstract": "Gradenigo Syndrome (GS), a rare complication of petrous apicitis secondary to acute otitis media, is characterized by (an often incomplete) triad of otorrhea, abducens nerve palsy, and facial pain along the trigeminal nerve distribution. There are several causative pathogens of petrous apicitis, including Streptococcus and Staphylococcus species, while Pseudomonas aeruginosa is the most common. However, the case report literature often describes antibiotic management of GS with antibiotics that do not cover Pseudomonas, potentially predisposing to further intracranial complications or mortality. The purpose of this work was to describe a case of pediatric Gradenigo Syndrome, successfully treated with sufficiently broad-spectrum antibiotics.",
+            "journal": "The Annals of otology, rhinology, and laryngology",
+            "year": "2025",
+            "authors": [
+              "Tao Brendan K",
+              "Alotaibi Fahad",
+              "McAlpine Alastair"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Child, Preschool",
+              "Anti-Bacterial Agents",
+              "Petrositis",
+              "Ceftazidime",
+              "Otitis Media",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39567876/"
+          },
+          {
+            "pmid": "21083906",
+            "title": "Prevalence and analysis of Pseudomonas aeruginosa in chinchillas.",
+            "abstract": "Chinchillas (Chinchilla laniger) are popular as pets and are often used as laboratory animals for various studies. Pseudomonas aeruginosa is a major infectious agent that causes otitis media, pneumonia, septicaemia enteritis, and sudden death in chinchillas. This bacterium is also a leading cause of nosocomial infections in humans. To prevent propagation of P. aeruginosa infection among humans and animals, detailed characteristics of the isolates, including antibiotic susceptibility and genetic features, are needed. In this study, we surveyed P. aeruginosa distribution in chinchillas bred as pets or laboratory animals. We also characterized the isolates from these chinchillas by testing for antibiotic susceptibility and by gene analysis.",
+            "journal": "BMC veterinary research",
+            "year": "2010",
+            "authors": [
+              "Hirakawa Yasuko",
+              "Sasaki Hiraku",
+              "Kawamoto Eiichi",
+              "Ishikawa Hiroki",
+              "Matsumoto Tetsuya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Laboratory",
+              "Anti-Bacterial Agents",
+              "Chinchilla",
+              "Genes, Bacterial",
+              "Genomic Islands",
+              "Microbial Sensitivity Tests",
+              "Molecular Sequence Data",
+              "Pets",
+              "Phylogeny"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21083906/"
+          },
+          {
+            "pmid": "8950554",
+            "title": "Epidemiology of community-acquired Pseudomonas aeruginosa infections in children.",
+            "abstract": "The epidemiology of community-acquired Pseudomonas aeruginosa infections in children during a one-year period (January through December 1993) was evaluated. A total of 6,859 clinical samples, each one representing a separate individual with suspected infection, were cultured. Pseudomonas aeruginosa was isolated from 218 children with various infections occurring in the following order of frequency: chronic suppurative otitis media, 76.3%; appendicitis/peritonitis, 10.3%; osteomyelitis, 8.9%; skin or soft tissue infection, 6.3%; acute conjunctivitis, 3.0%; and urinary tract infection, 0.1%. A variety of O serogroups were identified: O1 (15.2%), O6 (14.7%), O11 (12.4%), O10 (11.5%), O3 (10.6%), O5 (5.1%), and O9 (4.6%). Other serogroups and nontypable strains were recovered at a frequency of 11.2% and 14.7%, respectively. Nontypable strains predominated in chronic otitis media (18.9%), while serogroups O1 (18.3%), O6 (17.5%), and O11 (17.5%) were recovered most frequently among the typab",
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "1996",
+            "authors": [
+              "Paraskaki I",
+              "Lebessi E",
+              "Legakis N J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Anti-Bacterial Agents",
+              "Appendicitis",
+              "Child",
+              "Child, Preschool",
+              "Community-Acquired Infections",
+              "Conjunctivitis, Bacterial",
+              "Humans",
+              "Osteomyelitis",
+              "Otitis Media, Suppurative"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8950554/"
+          },
+          {
+            "pmid": "16297453",
+            "title": "Particularities of bacterial ecology of acute otitis media in an African subtropical country (Cote d'Ivoire).",
+            "abstract": "Acute otitis media (AOM) is the commonest infectious disease of childhood. Its treatment is based on a probabilistic antibiotic therapy.",
+            "journal": "International journal of pediatric otorhinolaryngology",
+            "year": "2006",
+            "authors": [
+              "Tanon-Anoh M J",
+              "Kacou-Ndouba A",
+              "Yoda M",
+              "Ette-Akre E",
+              "Sanogo D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adolescent",
+              "Age Factors",
+              "Anti-Bacterial Agents",
+              "Child",
+              "Child, Preschool",
+              "Cote d'Ivoire",
+              "Drug Resistance, Multiple, Bacterial",
+              "Female",
+              "Gram-Negative Bacteria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16297453/"
+          },
+          {
+            "pmid": "9755831",
+            "title": "[Basic and clinical studies on tazobactam/piperacillin in pediatric field].",
+            "abstract": "A drug susceptibility test of the combination drug TAZ/PIPC, which consists of a newly developed beta-lactamase inhibitor, tazobactam (TAZ), and one of penicillin antibiotics, piperacillin (PIPC), with combination ratio of 1:4 in potency, was conducted with stock strains and clinical isolates. The clinical efficacy and safety of its injection was also evaluated in children with a variety of infectious diseases. The results were as follows: 1. In susceptibility test, 114 strains from 4 species of stock strains were treated with 8 drugs, that is, TAZ/PIPC, PIPC, penicillin G (PCG), ampicillin (ABPC), cefotiam (CTM), cefotaxime (CTX), ceftazidime (CAZ), and sulbactam/cefoperazone (SBT/CPZ). Of three clinically isolated species from patients, Staphylococcus aureus (S. aureus) was treated with TAZ/PIPC, PIPC, methicillin (DMPPC), CTM, CTX, and SBT/CPZ, and the others were treated with the same drugs except for DMPPC. The MICs were measured for these bacterial strains inoculated at the conce",
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1998",
+            "authors": [
+              "Motohiro T",
+              "Nagai K",
+              "Yamada T",
+              "Oki S",
+              "Yamada T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Bacterial Infections",
+              "Bordetella pertussis",
+              "Bronchitis",
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Female",
+              "Haemophilus influenzae",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9755831/"
+          },
+          {
+            "pmid": "39944314",
+            "title": "Case Report: Pediatric pontine abscess and ecthyma gangrenosum due to Pseudomonas aeruginosa septicemia.",
+            "abstract": "Brainstem abscesses are remarkably rare, with only a few reports in the pediatric literature. Their presence portends high morbidity and mortality and most commonly present in the setting of immunodeficiency. A 5-year-old boy with a history of recurrent acute otitis media presented to the emergency department with rash, otorrhea, confusion, and fever. He was found to be in septic shock secondary to Pseudomonas aeruginosa bacteremia; a skin exam revealed multifocal ecthyma gangrenosum. He was initially treated with intravenous ceftazidime. Despite adequate antibiotic coverage he had persistent fevers. Whole-body magnetic resonance imaging revealed an expansile pontine mass; dedicated neuroimaging confirmed a 10 mm pontine abscess. Given the lack of neurological deficits on examination, he was treated non-operatively with intravenous cefepime for 9 weeks followed by oral levofloxacin for 30 days and made a nearly complete clinical recovery. Extensive immunodeficiency workup did not ident",
+            "journal": "Frontiers in pediatrics",
+            "year": "2025",
+            "authors": [
+              "Theros Jonathan",
+              "Wolfe Madison",
+              "Kociolek Larry",
+              "Kolaitis Irini N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39944314/"
+          },
+          {
+            "pmid": "12374367",
+            "title": "Venous sinus thrombosis after Proteus vulgaris meningitis and concomitant Clostridium abscess formation.",
+            "abstract": "A 19-y-old woman presented with Proteus vulgaris meningitis as a complication of chronic otitis media. Despite treatment with ceftazidime and amikacin no clinical improvement was observed. Cranial MRI revealed right-sided mastoiditis/otitis media and venous sinus thrombosis. After mastoidectomy, repeat cranial MRI demonstrated abscess formation in the venous sinuses. The abscess was drained. Clostridium spp. was isolated from the abscess culture.",
+            "journal": "Scandinavian journal of infectious diseases",
+            "year": "2002",
+            "authors": [
+              "Bodur Hürrem",
+              "Colpan Aylin",
+              "Gozukucuk Ramazan",
+              "Akinci Esragul",
+              "Cevik Mustafa Aydin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Brain Abscess",
+              "Chronic Disease",
+              "Clostridium",
+              "Drainage",
+              "Female",
+              "Humans",
+              "Mastoid",
+              "Meningitis, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12374367/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Peptostreptococcus infectious disease",
+        "txgnn_score": 0.9917465448379515,
+        "txgnn_rank": 9222,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19802974",
+            "title": "Comparative in-vitro activity of ceftazidime (GR-20263) and other beta-lactamase stable cephalosporins against anaerobic bacteria.",
+            "abstract": "The in-vitro activity of ceftazidime was determined against 586 clinical isolates of anaerobic bacteria by an agar-dilution technique and compared with that of cefuroxime, moxalactam and cefoxitin. At 16 mg/l, only 60% of all isolates were inhibited by ceftazidime, compared to 79% by cefuroxime, 81% by moxalactam and 80% by cefoxitin. Ceftazidime was relatively inactive against Bacteroides fragilis group, Lactobacillus and Clostridium species other than Cl. perfringens. Peptococcus, Peptostreptococcus, Cl. perfringens, microaerophilic streptococci and Propionibacterium were readily inhibited. Moxalactam was the most active agent against Bact. fragilis group, while cefuroxime was the most active agent against Streptococcus and Lactobacillus.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1981",
+            "authors": [
+              "Chow A W",
+              "Bartlett K H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacteria, Anaerobic",
+              "Ceftazidime",
+              "Cephalosporins",
+              "Cross Infection",
+              "Culture Media",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "beta-Lactamases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19802974/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00438",
+    "name": "Ceftazidime",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ceftazidime"
+      },
+      "queried_at": "2026-03-09T22:05:58.428378",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ceftazidime"
+      },
+      "queried_at": "2026-03-09T22:06:04.703596",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T22:06:06.337403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T22:06:11.758577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T22:06:15.847738",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T22:06:16.648536",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T22:06:26.241414",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T22:06:28.368145",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T22:06:29.905430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T22:06:36.061744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T22:06:38.575966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T22:06:51.597467",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T22:06:56.504249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T22:07:13.221574",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T22:07:14.072806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T22:07:18.676965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-09T22:07:23.947632",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T22:07:25.709817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T22:07:30.603839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T22:07:34.253421",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T22:07:35.071538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T22:07:40.943142",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T22:07:42.374818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T22:07:43.410522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T22:07:47.880352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T22:07:50.984153",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "infectious otitis media"
+      },
+      "queried_at": "2026-03-09T22:07:52.511747",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "infectious otitis media"
+      },
+      "queried_at": "2026-03-09T22:07:58.386656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "infectious otitis media"
+      },
+      "queried_at": "2026-03-09T22:08:04.186871",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "Peptostreptococcus infectious disease"
+      },
+      "queried_at": "2026-03-09T22:08:05.086716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "Peptostreptococcus infectious disease"
+      },
+      "queried_at": "2026-03-09T22:08:10.140473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftazidime",
+        "disease": "Peptostreptococcus infectious disease"
+      },
+      "queried_at": "2026-03-09T22:08:13.620848",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:08:13.639363"
+  }
+}

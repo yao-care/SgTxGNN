@@ -1,0 +1,709 @@
+{
+  "drug": {
+    "inn": "Adapalene",
+    "drugbank_id": "DB00210",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "zinc, elevated plasma",
+        "txgnn_score": 0.9950991272926332,
+        "txgnn_rank": 6401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "isolated congenital adermatoglyphia",
+        "txgnn_score": 0.9880149960517884,
+        "txgnn_rank": 12050,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Beare-Stevenson cutis gyrata syndrome",
+        "txgnn_score": 0.987815797328949,
+        "txgnn_rank": 12199,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "demodicidosis of sebaceous gland",
+        "txgnn_score": 0.9544799327850342,
+        "txgnn_rank": 25599,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "txgnn_score": 0.9529984593391418,
+        "txgnn_rank": 25963,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prolidase deficiency",
+        "txgnn_score": 0.8932904005050659,
+        "txgnn_rank": 35476,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.8721057176589966,
+        "txgnn_rank": 37447,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic dermatitis",
+        "txgnn_score": 0.8627772331237793,
+        "txgnn_rank": 38225,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05497323",
+            "title": "Effectivity and Safety of Combination Cream of Salicylic Acid, Aqua Posae Filiformis, Niacinamide, Lipohydroxy Acid, Procerad and Zinc PCA as Adjuvant Therapy for Acne Vulgaris Mild to Moderate",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2022-08-01",
+            "completion_date": "2023-05-01",
+            "country": "Indonesia",
+            "enrollment": 284,
+            "brief_summary": "This clinical study will compare the effectivity and safety of combination cream of Salicylic Acid, Aqua Posae Filiformis, Niacinamide, Lipohydroxy Acid, Procerad, and Zinc PCA as adjuvant therapy for acne vulgaris patients. These combination cream will be tested by mild to moderate acne vulgaris patients. Participants will be female patients aged 15-50 years old and divided into three groups. The control group (Group 1) will use Adapalene 0.1% cream only every night. Group 2 will use Adapalene ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female aged 15 - 50 years\n* Mild and moderate acne vulgaris according to IAEM and GEA.\n* Patients are willing to participate in the study until it is finished.\n\nExclusion Criteria:\n\n* History of allergy to dermatocosmetic products.\n* Undergoing other acne therapy, medication, ",
+            "endpoints": [
+              "Change of acne severity",
+              "Change of acne severity",
+              "Change of Level Of Seborrhea"
+            ],
+            "sponsor": "Indonesia University",
+            "url": "https://clinicaltrials.gov/study/NCT05497323"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06281782",
+            "title": "Platelet-rich Plasma With Topical Retinoids Versus Topical Retinoids Alone in Acne Vulgaris: Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2024-01-01",
+            "completion_date": "2024-05",
+            "country": "Egypt",
+            "enrollment": 40,
+            "brief_summary": "Acne vulgaris is the most common skin disease in adolescents and young adults. Adult or post-adolescent acne occurs in 12-14% of this population.It is a chronic, inflammatory disease of the pilosebaceous unit .The clinical features of acne include seborrhoea, non-inflammatory lesions (open and closed comedones), inflammatory lesions (papules and pustules), and various degrees of scarring.\n\nPlatelet-rich plasma (PRP) is prepared by simple centrifugation of whole blood to concentrate platelets and",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with facial acne vulgaris\n* Age from 12 to 35 years old\n\nExclusion Criteria:\n\n* Pregnant or lactating women.\n* patients with history of coagulation disorders.\n* chronic diseases (chronic renal failure, hepatic insufficiency, cardiovascular disorders, uncontrolled diab",
+            "endpoints": [
+              "change of acne lasions"
+            ],
+            "sponsor": "Assiut University",
+            "url": "https://clinicaltrials.gov/study/NCT06281782"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03076320",
+            "title": "Molecular and Clinical Study of the Effect of Zaxcell Versus Effezel in the Inflammatory and Scarring Process of Moderate and Severe Acne",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-03-27",
+            "completion_date": "2019-03-31",
+            "country": "Mexico",
+            "enrollment": 82,
+            "brief_summary": "Acne vulgaris is a complex skin disorder involving multiple abnormalities of the pilosebaceous unit. Acne is the most common skin disease during puberty and worsens throughout adolescence. However, epidemiological studies suggest that acne can arise at any age, most frequently affecting individuals between puberty and 30 years of age, with 79%-95% of subjects aged between 16 years and 18 years and 80% of subjects between puberty and 30 years of age. Acne is considered the main reason for consult",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects of both genders male or female of any race, 12 to 25 years or age.\n* Subjects with a clinical diagnosis of acne vulgaris with facial and back involvement.\n* Subjects with a minimum of 20 but not more tan 150 inflammatory lesions on the face (including the nose)\n* Subj",
+            "endpoints": [
+              "Assessing change of lesions with IGA scale (Investigators' Global Assessment)"
+            ],
+            "sponsor": "University of Guadalajara",
+            "url": "https://clinicaltrials.gov/study/NCT03076320"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39069843",
+            "title": "Investigation of the effect of adapalene 0.3%/benzoyl peroxide 2.5% gel in Korean patients with acne: a randomized, double-blind clinical trial, with a histopathological and immunohistochemical study.",
+            "abstract": "Acne vulgaris poses significant physical and psychological challenges worldwide. Data of adapalene 0.3%/benzoyl peroxide 2.5% gel (A0.3/BPO2.5) for acne treatment in Asian patients is limited.",
+            "journal": "Italian journal of dermatology and venereology",
+            "year": "2024",
+            "authors": [
+              "Lee Jun-Hyo",
+              "Kim Dong-Hyo",
+              "Yoon Ji-Young",
+              "Kim Tae-Min",
+              "Kim Seong-Rae"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Female",
+              "Humans",
+              "Male",
+              "Young Adult",
+              "Acne Vulgaris",
+              "Adapalene",
+              "Adapalene, Benzoyl Peroxide Drug Combination",
+              "Benzoyl Peroxide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39069843/"
+          },
+          {
+            "pmid": "36102580",
+            "title": "Influence of moisturizer containing licochalcone A, 1,2-decanediol, L-carnitine, and salicylic acid on facial skin lipidome among seborrhea participants.",
+            "abstract": "A better understanding of skin lipidomics and its alteration under treatment administration might offer therapeutic solutions for seborrhea.",
+            "journal": "Journal of cosmetic dermatology",
+            "year": "2022",
+            "authors": [
+              "Wongtada Chanidapa",
+              "Pewlong Putthamas",
+              "Asawanonda Pravit",
+              "Noppakun Nopadon",
+              "Pongpamorn Pornkanok"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Salicylic Acid",
+              "Dermatologic Agents",
+              "Lipidomics",
+              "Dermatitis, Seborrheic",
+              "Carnitine",
+              "Adapalene",
+              "Acne Vulgaris",
+              "Benzoyl Peroxide",
+              "Lipids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36102580/"
+          },
+          {
+            "pmid": "27504089",
+            "title": "Inframammary Dermatitis: A Case of Localized Late-Onset Darier's Disease.",
+            "abstract": "Darier's disease (DD) is an autosomal dominant inherited genodermatosis which is often under- or misdiagnosed. In the majority of cases, the disease manifests in adolescents or young adults with small brownish-yellow, warty, hyperkeratotic papules in multiple seborrheic areas of the body. Localized DD (LDD) is a clinical variant, first described by Kreibich in 1906; only a few cases are reported in the literature. We described the case of an aged woman presenting with LDD, and we review the literature on this subject.",
+            "journal": "Case reports in dermatology",
+            "year": "2016",
+            "authors": [
+              "Linder Dennis",
+              "Marinello Elena",
+              "Donisi Pietro Maria",
+              "Salmaso Roberto",
+              "Zattra Edoardo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27504089/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sebaceous gland anomaly",
+        "txgnn_score": 0.8516122698783875,
+        "txgnn_rank": 39076,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02557399",
+            "title": "Clinical Evaluation of Efficacy at 2 Weeks of Duac® Fixed Dose Combination Gel in Treatment of Facial Acne Vulgaris in Japanese Subjects",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-10-07",
+            "completion_date": "2016-02-17",
+            "country": "Japan",
+            "enrollment": 350,
+            "brief_summary": "This is a multicentre, randomized, single-blind (investigator is blinded), active (the combination therapy of adapalene \\[ADA\\] and clindamycin \\[CLDM\\])-controlled and parallel-group study in Japanese subjects with facial acne vulgaris. The purpose of this study is to evaluate the efficacy, safety and tolerability of CLDM 1 percent (%)-benzoyl peroxide 3% (Duac®: trademark owned by GlaxoSmithKline) once daily fixed dose combination gel versus combination therapy of ADA 0.1% gel and CLDM 1% gel ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female subjects between 12 to 45 years of age, inclusive.\n* Subjects must have had both: (a) A minimum of 17 but not more than 60 ILs (papules / pustules) on the face, including nasal lesions; (b) A minimum of 20 but not more than 150 non-ILs (open / closed comedones)",
+            "endpoints": [
+              "Percent Change in Total Lesion Counts (TLs) From Baseline to Week 2"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT02557399"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00446043",
+            "title": "A Long-term Safety and Efficacy Study of a Fixed Combination of Adapalene 0.1% and Benzoyl Peroxide 2.5% (Adapalene and Benzoyl Peroxide Topical Gel) Gel in Subjects With Acne Vulgaris",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2004-02-17",
+            "completion_date": "2005-05-23",
+            "country": "United States",
+            "enrollment": 452,
+            "brief_summary": "This was a multi-center, open-label, non-comparative study that evaluated the long-term safety and efficacy profile of Adapalene/Benzoyl Peroxide Gel.\n\nSubjects were evaluated at Baseline, Weeks 1 and 2, and Months 1, 2, 4, 6, 8, 10, and 12.\n\nSafety was evaluated by spontaneous reports of Adverse Events (AEs), the Local Tolerability Assessment (Erythema, Scaling, Dryness, and Stinging/Burning), routine laboratory testing (hematology, blood chemistry, and urinalysis), and monitoring of suspected ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A clinical diagnosis of acne vulgaris with facial involvement.\n* A minimum of 20 but not more than 50 Inflammatory lesions.\n* A minimum of 30 but not more than 100 Noninflammatory lesions.\n\nExclusion Criteria:\n\n* Subjects with presence of nodules or cysts.\n* Acne conglobate, a",
+            "endpoints": [
+              "Percent Change From Baseline in Inflammatory, Noninflammatory and Total Lesion Count at Month 12 LOCF",
+              "Number of Participants Categorized Based on Participant's Assessment Scale of Acne at Month 6",
+              "Number of Participants Categorized Based on Participant's Assessment Scale of Acne at Month 12"
+            ],
+            "sponsor": "Galderma R&D",
+            "url": "https://clinicaltrials.gov/study/NCT00446043"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "25217865",
+            "title": "Efficacy of 0.1% adapalene in a non-inflammatory Kyoto Rhino Rat acne model.",
+            "abstract": "Acne vulgaris is a disorder of the pilosebaceous unit of the skin, and the underlying mechanism is still obscure. Kyoto rhino (krh/krh) rats were made by ethylnitrosourea (ENU) mutagenesis and harbor S413X nonsense mutation of the rat hairless (Hr) gene. Krh/krh rats develop comedones with hair loss on their back as they grow.",
+            "journal": "Journal of dermatological science",
+            "year": "2014",
+            "authors": [
+              "Yoshimasu Takashi",
+              "Kuramoto Takashi",
+              "Kaminaka Chikako",
+              "Kanazawa Nobuo",
+              "Yamamoto Yuki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Adapalene",
+              "Animals",
+              "Cytokines",
+              "Disease Models, Animal",
+              "Female",
+              "Lipid Metabolism",
+              "Male",
+              "Naphthalenes",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25217865/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inherited skin tumor",
+        "txgnn_score": 0.8292076587677002,
+        "txgnn_rank": 40400,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00210",
+    "name": "Adapalene",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Adapalene"
+      },
+      "queried_at": "2026-03-09T08:46:26.434467",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Adapalene"
+      },
+      "queried_at": "2026-03-09T08:46:27.661176",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-09T08:46:28.301748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-09T08:46:33.252668",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-09T08:46:34.589844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "queried_at": "2026-03-09T08:46:35.435447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "queried_at": "2026-03-09T08:46:39.645134",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "queried_at": "2026-03-09T08:46:40.605158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:41.133941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:44.283988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:45.332507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "queried_at": "2026-03-09T08:46:46.128649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "queried_at": "2026-03-09T08:46:49.730483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "queried_at": "2026-03-09T08:46:50.646763",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:51.280971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:54.789116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-09T08:46:55.679533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "prolidase deficiency"
+      },
+      "queried_at": "2026-03-09T08:46:56.878571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "prolidase deficiency"
+      },
+      "queried_at": "2026-03-09T08:46:59.873385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "prolidase deficiency"
+      },
+      "queried_at": "2026-03-09T08:47:01.068485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T08:47:01.870206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T08:47:05.681492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T08:47:06.874675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-09T08:47:10.494801",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-09T08:47:14.592845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-09T08:47:17.446306",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "sebaceous gland anomaly"
+      },
+      "queried_at": "2026-03-09T08:47:18.339995",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "sebaceous gland anomaly"
+      },
+      "queried_at": "2026-03-09T08:47:23.105865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "sebaceous gland anomaly"
+      },
+      "queried_at": "2026-03-09T08:47:27.409337",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "inherited skin tumor"
+      },
+      "queried_at": "2026-03-09T08:47:28.324346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "inherited skin tumor"
+      },
+      "queried_at": "2026-03-09T08:47:32.741240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "inherited skin tumor"
+      },
+      "queried_at": "2026-03-09T08:47:33.869723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:47:33.881103"
+  }
+}

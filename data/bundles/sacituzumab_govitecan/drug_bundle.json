@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Sacituzumab govitecan",
+    "drugbank_id": "DB12893",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.997795581817627,
+        "txgnn_rank": 3670,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9968505501747132,
+        "txgnn_rank": 4752,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9959534406661988,
+        "txgnn_rank": 5642,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9911710619926452,
+        "txgnn_rank": 9682,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9855098724365234,
+        "txgnn_rank": 13893,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9855098724365234,
+        "txgnn_rank": 13894,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.985240638256073,
+        "txgnn_rank": 14045,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9840340614318848,
+        "txgnn_rank": 14798,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.9840340614318848,
+        "txgnn_rank": 14799,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.9840340614318848,
+        "txgnn_rank": 14800,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12893",
+    "name": "Sacituzumab govitecan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sacituzumab govitecan"
+      },
+      "queried_at": "2026-03-09T22:02:01.194599",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sacituzumab govitecan"
+      },
+      "queried_at": "2026-03-09T22:02:21.831276",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T22:02:22.834456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T22:02:28.433737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T22:02:30.162466",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:02:32.980828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:02:48.960222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:02:51.497064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:02:52.508632",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:02:57.438724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T22:02:59.333910",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T22:03:00.083289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T22:03:05.155482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T22:03:07.388851",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T22:03:08.330625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T22:03:14.382269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T22:03:16.667320",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T22:03:18.212424",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T22:03:23.642964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T22:03:24.866476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T22:03:26.402136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T22:03:31.658533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T22:03:32.852561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-09T22:03:34.810383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-09T22:03:41.725055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-09T22:03:42.553070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-09T22:03:43.563287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-09T22:03:49.069914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-09T22:03:50.063881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-09T22:03:51.754625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-09T22:03:55.309966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacituzumab govitecan",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-09T22:03:58.054714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:03:58.061583"
+  }
+}

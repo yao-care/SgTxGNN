@@ -1,0 +1,1932 @@
+{
+  "drug": {
+    "inn": "Glimepiride",
+    "drugbank_id": "DB00222",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.9974656105041504,
+        "txgnn_rank": 4070,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.9974656105041504,
+        "txgnn_rank": 4071,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.9974015951156616,
+        "txgnn_rank": 4135,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9973258972167968,
+        "txgnn_rank": 4216,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.9962431192398072,
+        "txgnn_rank": 5379,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.996012806892395,
+        "txgnn_rank": 5591,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9959142804145812,
+        "txgnn_rank": 5692,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.9956166744232178,
+        "txgnn_rank": 5959,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.9954894185066224,
+        "txgnn_rank": 6076,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "12720536",
+            "title": "Pitfalls in endosonographic imaging of suspected insulinomas: pancreatic nodules of unknown dignity.",
+            "abstract": "Endosonography enables localization and characterization of gastroenteropancreatic neuroendocrine tumors. We have studied the problem of misleading abnormalities of pancreatic morphology as obtained by endosonographic imaging.",
+            "journal": "European journal of endocrinology",
+            "year": "2003",
+            "authors": [
+              "Kann P H",
+              "Wirkus B",
+              "Keth A",
+              "Goitom K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Diagnostic Errors",
+              "Endosonography",
+              "Female",
+              "Humans",
+              "Insulinoma",
+              "Male",
+              "Middle Aged",
+              "Pancreas",
+              "Pancreatic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12720536/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "type 1 diabetes mellitus",
+        "txgnn_score": 0.9886295795440674,
+        "txgnn_rank": 11563,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02301806",
+            "title": "A Randomized, Prospective, Parallel Design Study to Compare the Effectiveness of Sitagliptin Versus Glimepiride on Endothelial Dysfunction During an Oral Glucose Loading in Drug Naive Patients With Type 2 Diabetes.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2015-01",
+            "completion_date": "2017-07",
+            "country": "Japan",
+            "enrollment": 30,
+            "brief_summary": "To investigate whether single administration of sitaglitpin can restore acute endothelial dysfunction and ameliorate impaired increase of the number of endothelial progenitor cells (EPCs) after oral glucose loading in patients with T2DM.\n\nTo compare the effect of sitagliptin and glimepiride on endothelial function evaluated by flow-mediated vasodilatation (FMD) and the number of circulating EPCs in patients with T2DM.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of informed consent before any study specific procedures\n* Type II diabetes who have inadequate glycaemic control (6.5%≦HbA1c\\<9.0%)\n* Age from 20 to 80 years old\n* No history of using any antihyperglycemic drugs\n* No history of cardiovascular complications\n* No trea",
+            "endpoints": [
+              "Change in endothelial function during the OGTT evaluated by flow-mediated vasodilatation (FMD). The change is defined as below, assuming the peak value and changes of FMD will be observed at t=60 min."
+            ],
+            "sponsor": "Dokkyo Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT02301806"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00783744",
+            "title": "28-week, Open, Randomized, Multinational, Multicenter Clinical Trial to Compare Efficacy and Safety of Combination Therapy of Glimepiride Plus Metformin Plus HOE901 Insulin Analogue Versus a Two-injection Conventional Therapy With Premixed Insulin NPH 30/70 Bid in Type 2 Diabetes Mellitus Patients Poorly Controlled With Oral Antidiabetic Drug Treatment.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2001-12",
+            "completion_date": "",
+            "country": "Switzerland, Spain, United Kingdom, France, Netherlands, Austria, Italy, Germany, Finland, Sweden",
+            "enrollment": 375,
+            "brief_summary": "To compare efficacy of combination therapy of insulin glargine plus glimepiride and metformin versus 2 injections insulin monotherapy with premixed insulin NPH 30/70 bid in terms of change of HbA1c (baseline to endpoint) to show non-inferiority of insulin glargine plus glimepiride and metformin.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diabetes mellitus patients type 2, poorly controlled with oral antidiabetic drug treatment(glimepiride 3 or 4 mg od or any sulfonylurea similar to glimepiride 3 or 4 mg in combination with metformin in a dose at least similar to 850 mg once daily)\n* HbA1c value ≥ 7.5 % to ≤ 10",
+            "endpoints": [
+              "Frequency of subjects with HbA1c ≤ 7.0 % and > 7.0 %"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT00783744"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01769378",
+            "title": "A Randomized, Parallel-Arm, Double-Blinded Study Comparing the Effect of Once-Weekly Dulaglutide With Placebo in Patients With Type 2 Diabetes Mellitus on Sulfonylurea Therapy (AWARD-8: Assessment of Weekly AdministRation of LY2189265 in Diabetes - 8)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-01",
+            "completion_date": "2014-12",
+            "country": "Romania, Croatia, Austria, Argentina, United States, Slovenia, Mexico, South Africa",
+            "enrollment": 300,
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of once-weekly dulaglutide compared to placebo in participants with type 2 diabetes who have inadequate glycemic control with sulfonylurea monotherapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Stable dose of sulfonylurea that is at least 50% of the maximum approved dose per the local label for at least 3 months prior to the first study visit\n* Have an HbA1c value of ≥7.5% and ≤9.5%, as determined by the central laboratory draw performed at",
+            "endpoints": [
+              "Change From Baseline in Glycosylated Hemoglobin A1c (HbA1c) at 24 Weeks"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT01769378"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01725672",
+            "title": "An Open-Label, Randomized, Single Dose, Four-way Crossover, Multi-stage Study to Determine the Comparative Bioavailability of Two Fixed Dose Combination Tablet Formulations, 500 mg or 1000 mg Extended Release Metformin and 1 mg or 2 mg Extended Release Glimepiride, in Healthy Adult Male and Female Subjects in the Fed State",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2012-09-27",
+            "completion_date": "2013-08-21",
+            "country": "Australia",
+            "enrollment": 20,
+            "brief_summary": "This is a an open-label, randomized, single dose, four-way crossover, multi-stage study enrolling 20 healthy adult male and female subjects per part. This study consists of two separate parts (Part A and B) with each part comprising four treatment periods. Each subject will participate in all four treatment periods per part; Subjects may not enrol in both Parts A and B.\n\nThis study is being conducted to compare the pharmacokinetics (PK) of two extended release fixed dose combinations (FDC) oral ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy male or female subjects between 18 and 65 years of age inclusive with body weight \\>= 50 kg and body mass index (BMI) within the range 19 to 32 kilogram/meter squared\n* Alanine aminotransferase (ALT) alkaline phosphatase and bilirubin \\<or=1.5x upper limit of normal (U",
+            "endpoints": [
+              "Cmax of metformin",
+              "AUC(0-t) and AUC(0-inf) for metformin and glimepiride"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01725672"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01649466",
+            "title": "A Randomized Open-label Study to Compare Safety and Efficacy of Vildagliptin Versus NPH Insulin add-on to Glimepiride in Patients With Type 2 Diabetes Mellitus That do Not Reach Adequate Glycemic Control on Their Current Sulfonylurea Monotherapy.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-08",
+            "completion_date": "2013-10",
+            "country": "Germany",
+            "enrollment": 162,
+            "brief_summary": "This study is designed to evaluate safety and efficacy of vildagliptin versus NPH insulin add-on to glimepiride in patients with type 2 diabetes mellitus that do not reach adequate glycemic control on their current sulfonylurea monotherapy to give treating physicians a guidance which additional anti-diabetic treatment can be used if sulfonylurea monotherapy is not sufficient to reach glycemic control.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of type 2 diabetes mellitus.\n* Contraindicated or intolerant to take metformin.\n* HbA1c of ≥ 7.0% and ≤ 8.5%\n* Current sulfonylurea (glimepiride) monotherapy and judged by the investigator to be inadequately controlled\n* Other protocol-defined inclusion/exc",
+            "endpoints": [
+              "Percentage of patients reaching HbA1c below 7.0% without confirmed hypoglycemia and weight gain",
+              "Rate of confirmed hypoglycemic events"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01649466"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00770653",
+            "title": "Effects of a Pioglitazone/Metformin Fixed Combination in Comparison to Metformin in Combination With Glimepiride on Diabetic Dyslipidemia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-04",
+            "completion_date": "2009-05",
+            "country": "Germany",
+            "enrollment": 305,
+            "brief_summary": "The purpose of this study is to compare pioglitazone and metformin combination therapy, twice daily (BID), to glimepiride and metformin combination therapy for treating diabetic subjects with dyslipidemia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes according to the American Diabetes Association Criteria.\n* Treatment with individual maximal tolerated dose of metformin (850 - 2000 mg) as monotherapy within the last 12 weeks.\n* Glycosylated Hemoglobin greater than or equal to 6.5% and less than or equal to 9",
+            "endpoints": [
+              "The Mean Increase From Baseline in High-Density Lipoprotein Cholesterol."
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT00770653"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02338921",
+            "title": "Therapeutic Efficacy and Safety of Sitagliptin, Dapagliflozin and Lobeglitazone in Patients With Type 2 Diabetes Mellitus Inadequately Controlled on Glimepiride and Metformin.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-01",
+            "completion_date": "2021-12-31",
+            "country": "South Korea",
+            "enrollment": 78,
+            "brief_summary": "To assess the efficacy of treatment with sitagliptin or dapagliflozin or lobeglitazone in type 2 diabetes mellitus patients, who had inadequate glycemic control even though use of two drug combination therapy with glimepiride and metformin.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 20 ≤ Age \\< 80 years\n* HbA1c ≥ 7 %\n* combination therapy with glimepiride and metformin over 2 months.\n* dosage of glimepiride : 1-8mg/day\n* dosage of metformin : 500-2550mg/day\n\nExclusion Criteria:\n\n* Type 1 diabetes, gestational diabetes, or secondary forms of diabetes\n* Con",
+            "endpoints": [
+              "Glycemic target goal achievement rate"
+            ],
+            "sponsor": "Seoul National University Bundang Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02338921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01495013",
+            "title": "Study ATG115317, a Comparison of Atorvastatin and Glimepiride Fixed Dose Combination and Atorvastatin and Glimepiride Loose Combination in the Treatment of Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-12",
+            "completion_date": "2013-09",
+            "country": "South Korea, Malaysia, Mexico, Philippines, Russia, Thailand",
+            "enrollment": 427,
+            "brief_summary": "The aim of this 20 week study is to show that glimepiride/atorvastatin fixed dose combination tablet is safe and as effective as atorvastatin + glimepiride combination taken as separate tablets, in improving glycaemic control (glycated haemoglobin, HbA1c) and cholesterol levels (Low-density lipoprotein, LDL) in diabetic subjects, who are inadequately controlled on a stable dose of metformin. Eight dose combinations will be included.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult (≥18 years of age) males and females ( including of child-bearing potential) with Type 2 diabetes mellitus.\n* Currently treated for Type 2 daibetes mellitus with metformin monotherapy and have been a stable dose of metformin for atleast 3 months\n* patients with CVD or ≥4",
+            "endpoints": [
+              "Non inferiority of glimepiride/atorvastatin compared with glimepiride + atorvastatin taken as separate tablets in reducing HbA1c levels",
+              "Non inferiority of glimepiride/atorvastatin compared with glimepiride + atorvastatin taken as separate tablets in reducing LDL levels"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01495013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00343980",
+            "title": "Safety and Efficacy of Inhaled Pre-prandial Human Insulin Plus Glimepiride Versus Rosiglitazone Plus Glimepiride in Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2006-10-10",
+            "completion_date": "2008-03-10",
+            "country": "Australia, Turkey (Türkiye), India, Croatia, North Macedonia, Russia, Philippines",
+            "enrollment": 363,
+            "brief_summary": "This trial is conducted in Asia, Europe and Oceania. The aim of this research study is to compare the efficacy of adding inhaled preprandial insulin to glimepiride compared to adding rosiglitazone to glimepiride for the treatment of type 2 diabetes and to verify its safety (hypoglycaemia, pulmonary function, body weight, insulin antibodies and side effects)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Treated with OAD(s) for more than or equal to 2 months\n* Body mass index (BMI) less than or equal to 40.0 kg/m2\n* HbA1c greater than or equal to 8.0 % and less than or equal to 11.0 % for subjects in OAD monotherapy\n* HbA1c greater than or equal to 7.5 % and ",
+            "endpoints": [
+              "Treatment difference in HbA1c"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT00343980"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00099944",
+            "title": "Efficacy and Safety of Vildagliptin in Combination With Glimepiride in Patients With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2004-05",
+            "completion_date": "2005-10",
+            "country": "United States",
+            "enrollment": 515,
+            "brief_summary": "Many people with type 2 diabetes cannot maintain target blood glucose levels when taking a single oral drug. The purpose of this study is to assess the safety and effectiveness of two doses of vildagliptin, an unapproved drug, in lowering overall blood glucose levels when added to glimepiride in people with type 2 diabetes not at target blood glucose levels on a sulfonylurea alone.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Blood glucose criteria must be met\n* Previously treated with a sulfonylurea for at least 3 months\n* Body mass index (BMI) in the range 22-45\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Pregnancy or lactation\n* Evidence of serious cardiovascular complications\n* Evidence of seriou",
+            "endpoints": [
+              "Change from baseline in HbA1c after 24 weeks"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00099944"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01144728",
+            "title": "AMIT Study - Amaryl M Initiation and Titration Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2010-05",
+            "completion_date": "2010-12",
+            "country": "Kazakhstan",
+            "enrollment": 172,
+            "brief_summary": "Primary Objective:\n\n* To describe the conditions of initiation and titration of Amaryl M, according to previous treatment:\n* initial dose\n* titration scheme\n* efficacy after 4 months assessed by HbA1C\n* tolerability (number and severity of hypoglycaemia)\n\nSecondary Objective:\n\n* Fasting Plasma Glucose\n* Weight evolution",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Patients with Type 2 diabetes who have been treated with a stable dose (any dose) of :\n* sulfonylurea monotherapy or\n* metformin monotherapy or\n* free combination of glimepiride and metformin with a stable dose (any dose)\n* Body Mass Index (BMI) between 20 and 40 kg/m2\n* HbA1c",
+            "endpoints": [
+              "Glycolysated Haemoglobin (HbA1c)",
+              "Patients With Glycosylated Haemoglobin (HbA1c) Value < 7%",
+              "Evolution of Fasting Plasma Glucose (FPG)"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT01144728"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01494987",
+            "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Ranolazine When Added to Glimepiride in Subjects With Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-01",
+            "completion_date": "2013-08",
+            "country": "Romania, Slovakia, United States, Malaysia, Czechia, Hungary, Russia, Ukraine, South Africa, Thailand, Serbia, Poland",
+            "enrollment": 431,
+            "brief_summary": "This is a randomized, double-blind, placebo-controlled, parallel-group, multi-center study to determine the effect of ranolazine when added to glimepiride on glycemic control in adults with type 2 diabetes mellitus (T2DM) who are inadequately controlled despite current treatment with stable sulfonylurea or metformin therapy in addition to diet and exercise.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent\n* Males and females, 18 to 75 years old, inclusive\n* Documented history of T2DM\n* Receiving one of the following sulfonylurea or metformin therapies in addition to diet and exercise for at least 90 days prior to Screening:\n\n  1. glimepiride at a daily ",
+            "endpoints": [
+              "Change From Baseline in Glycosylated Hemoglobin (HbA1c) at Week 24"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT01494987"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02946632",
+            "title": "Effectiveness and Tolerability of Novel, Initial Triple Combination Therapy With Xigduo (Dapagliflozin Plus Metformin) and Saxagliptin vs. Conventional Stepwise add-on Therapy in Drug-naïve Patients With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2016-12",
+            "completion_date": "2019-12",
+            "country": "South Korea",
+            "enrollment": 104,
+            "brief_summary": "In this study, the investigators will assess the efficacy and tolerability of a novel, initial triple combination therapy with metformin, saxaglipitin, and dapagliflozin, compared to conventional stepwise add-on therapy in drug-naïve patients with recently onset type 2 diabetes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Drug-naïve patients with type 2 diabetes by American Diabetes Association criteria\n* HbA1c ≥ 8%, \\< 10.5% at screening\n* Age ≥ 18 years, \\< 65 years\n* Body mass index (BMI) ≥ 23 kg/m2, \\< 35 kg/m2\n* Estimated GFR (eGFR) ≥ 60 ml/min/1.73m2\n\nExclusion Criteria:\n\n* Uncontrolled h",
+            "endpoints": [
+              "Proportion of patients who met HbA1c < 6.5% without hypoglycaemia, weight gain, or discontinuation due to adverse events at 104 weeks"
+            ],
+            "sponsor": "Korea University Anam Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02946632"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00032487",
+            "title": "CSP #465 - Glycemic Control and Complications in Diabetes Mellitus Type 2 (VADT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2000-12-01",
+            "completion_date": "2008-05-30",
+            "country": "Puerto Rico, United States",
+            "enrollment": 1791,
+            "brief_summary": "This study is a prospective, 2-arm, randomized controlled trial to determine whether glycemic control, achieved through intensification of treatment, is effective in preventing clinical macrovascular complications in patients with type 2 DM who are no longer responsive to oral agents alone. The study consists of a two-year accrual period and five years of follow-up (7 years total) of 1700 patients across 20 centers. We have powered the study to detect a 21% reduction in the primary event rate. A",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with type 2 DM who are no longer responsive to maximum dose of one or more oral agents.\n\nExclusion Criteria:\n\n* Angina pectoris, Canadian Class I-II,\n* congestive heart failure, Class III-IV,\n* stroke, incapacitating or in last 6 months,\n* Myocardial infarction (MI) o",
+            "endpoints": [
+              "Primary Major Macrovascular Events"
+            ],
+            "sponsor": "VA Office of Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT00032487"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01644500",
+            "title": "The Efficacy and Safety of Once-Weekly, Subcutaneous Dulaglutide Monotherapy Compared to Glimepiride in Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-07",
+            "completion_date": "2014-08",
+            "country": "China, Taiwan, South Korea",
+            "enrollment": 737,
+            "brief_summary": "The purpose of this study is to examine if once-weekly dulaglutide is efficient and safe compared to glimepiride in participants with type 2 diabetes mellitus who have inadequate glycemic control with oral antihyperglycemic medication (OAM) or are OAM-naïve.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* OAM-naïve or have been taking OAM monotherapy for at least 3 months\n* Glycosylated Hemoglobin (HbA1c) value of ≥7.0% to ≤10.5% for OAM-naïve participants or ≥6.5% to ≤10.0% for participants taking OAM monotherapy\n* Adult men or adult non-pregnant, no",
+            "endpoints": [
+              "Change From Baseline in HbA1c at 26 Weeks"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT01644500"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01511172",
+            "title": "Effect on Glycemic Control of Individual Maximum Effective Dose of NNC 90-1170 as Add on Therapy to Metformin Compared to Monotherapy of NNC 90-1170 or Metformin or a Metformin-SU Combination Therapy in Patients With Type 2 Diabetes. A Double-blind, Double-dummy, Randomised, Parallel-group, Dose Titration Study With an Open Labelled OHA Arm",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2002-08",
+            "completion_date": "2002-12",
+            "country": "Australia, United Kingdom, France, Austria, Germany, Denmark, Czechia, Poland",
+            "enrollment": 145,
+            "brief_summary": "This trial is conducted in Europe and Oceania. The aim of this trial is to assess the effect on glycemic control of NNC 90-1170 (liraglutide) added to metformin compared to metformin given alone in subjects with type 2 diabetes previously treated with OHAs (oral hypoglycaemic agents).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients diagnosed with type 2 diabetes and treated with at least 50 % of maximum dose(s) of OHA(s) for at least three months\n* Duration of type 2 diabetes diagnosis at least one year\n* HbA1c 8.0-13.0%, both inclusive\n* Body Mass Index (BMI) between 25-40 kg/m\\^2, both inclusi",
+            "endpoints": [
+              "Fasting plasma/serum glucose"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT01511172"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00562172",
+            "title": "Lantus vs Sulfonylurea as add-on Therapy in Type 2 Diabetic Patients Failing Metformin Monotherapy: Comparison of Effects on Beta Cell Function and Metabolic Profile.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2007-09",
+            "completion_date": "2010-10",
+            "country": "South Korea",
+            "enrollment": 75,
+            "brief_summary": "Primary objective:\n\nTo compare long-term glycemic control and preservation of beta cell function when basal insulin or sulfonylurea is added on metformin in the early Type 2 Diabetes Mellitus patients\n\nSecondary objective:\n\nTo assess the change of insulin resistance, microvascular complication incidence, patient satisfaction with treatment",
+            "eligibility_criteria": "List of Inclusion and Exclusion Criteria:\n\nInclusion Criteria:\n\n* Type 2 Diabetes Mellitus patients on metformin monotherapy\n* 7% ≤ HbA1c ≤ 12%\n* 20 kg/m² ≤BMI ≤ 35 kg/m²\n* Diabetes duration: at least 6 months\n\nExclusion Criteria:\n\n* Type 1 Diabetes Mellitus patients\n* Clinical evidence of active li",
+            "endpoints": [
+              "ß-cell Function parameter",
+              "Glucose Homeostasis and glycemic control status"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT00562172"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01509001",
+            "title": "Study of Metabolic and Haemodynamic Effects of Metformin and Glimepiride in Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-01",
+            "completion_date": "2012-01",
+            "country": "Brazil",
+            "enrollment": 20,
+            "brief_summary": "Aim:\n\nThe purpose of this study is to compare the effects of glimepiride(G) and metformin(M) on vascular reactivity, haemostatic factors and glucose and lipid profile in patients with type 2 diabetes.\n\nMethods:\n\nA prospective study will be performed in 20 uncontrolled patients previously treated with dietary intervention. Participants will randomized into M (750 to 2500 mg/day) or G (1 to 8 mg/day) therapy. After 4 months, the patients will be crossed-over with no washout period to the alternati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* type 2 diabetes patients with fasting glucose values \\>7.78 mmol/L and/or glycated hemoglobin exceeding 1.0% or more the normal range (4-8.5%) after 2 or more months of a diet therapy\n\nExclusion Criteria:\n\n* any severe concomitant illness\n* nephropathy (serum creatinine \\>1.6 ",
+            "endpoints": [
+              "glucose control"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT01509001"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00318422",
+            "title": "Liraglutide Effect and Action in Diabetes (LEAD-1): Effect on Glycaemic Control After Once Daily Administration of Liraglutide in Combination With Glimepiride Versus Glimepiride Monotherapy Versus Glimepiride and Rosiglitazone Combination Therapy in Subjects With Type 2 Diabetes.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-05",
+            "completion_date": "2007-05",
+            "country": "Australia, India, Philippines, South Korea, Croatia, Italy, Czechia, Thailand, Poland, France, Brazil, Argentina, Israel, Switzerland, Spain, Turkey (Türkiye), Romania, Finland, Bulgaria, Malaysia, Greece, South Africa, Taiwan",
+            "enrollment": 1041,
+            "brief_summary": "This trial is conducted globally (the United States of America excepted). This trial is designed to show the effect of treatment with liraglutide when added to existing glimepiride therapy and to compare this to both glimepiride monotherapy and to rosiglitazone as add-on therapy to glimepiride.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Treatment with oral anti-diabetic drugs for at least 3 months\n* HbA1c: 7.0-11.0 % (both incl.) in subjects on OAD monotherapy. 7.0-10.0 % (both incl.) in subjects on OAD combination therapy\n* Body Mass Index (BMI) less than or equal to 45.0 kg/m2.\n\nExclusion ",
+            "endpoints": [
+              "HbA1c"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT00318422"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05538819",
+            "title": "The Effects of Glimepiride in Patients With Type 2 Diabetes and Chronic Heart Failure",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2017-06-01",
+            "completion_date": "2022-07-01",
+            "country": "China",
+            "enrollment": 1018,
+            "brief_summary": "Thirty years ago, Dzau and Braunwald introduced the concept of a continuum of cardiovascular diseases and defined them as a series of events caused by numerous related and unrelated risk factors, thus developing to end-stage heart disease through many pathophysiological pathways and processes. Owing to treatment concept changes and the urgency of investigating T2D combined with CHF, SUs are being re-evaluated, of which glimepiride is undoubtedly the most promising.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Chronic heart failure (\\>6 months duration, according to 2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure)\n* Reduced ejection fraction defined as LVEF \\< 50%\n* N-terminal pro-brain natriuretic peptide (NT-proBNP) level: \\>125 pg/mL\n* NYHA-",
+            "endpoints": [
+              "Cardiovascular mortality",
+              "Hospitalizations and emergency visits for heart failure"
+            ],
+            "sponsor": "Tongji Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05538819"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02769481",
+            "title": "A Phase 3, Randomized, Double-blind, Active-controlled Study to Evaluate the Effects of Bexagliflozin Versus Glimepiride in Subjects With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control by Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-08-15",
+            "completion_date": "2019-06-14",
+            "country": "Germany, Spain, United States, Poland",
+            "enrollment": 426,
+            "brief_summary": "The purpose of this study is to investigate the effect of bexagliflozin compared to glimepiride as an add-on therapy to metformin in lowering hemoglobin A1c (HbA1c) levels in subjects with type 2 diabetes mellitus (T2DM).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of T2DM\n* Currently taking metformin or taking metformin and one additional oral medication for diabetes\n* Body Mass Index (BMI) ≤ 45 kg/m2\n* Stable dose of blood pressure or cholesterol medications (if applicable) for at least 30 days\n\nExclusion Criteria:\n\n* Hyperse",
+            "endpoints": [
+              "Change From Baseline in HbA1c at Week 60"
+            ],
+            "sponsor": "Theracos",
+            "url": "https://clinicaltrials.gov/study/NCT02769481"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00792935",
+            "title": "A Phase IIa, Multicenter, Double-Blind, Randomized, Active-Controlled, Parallel-Arm Clinical Trial to Study the Efficacy and Safety of MK-0941 Compared to Sulfonylurea in Patients With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-01",
+            "completion_date": "2010-02",
+            "country": "N/A",
+            "enrollment": 143,
+            "brief_summary": "The purpose of this study is to test the effect of MK-0941 as add-on therapy for participants taking metformin for type 2 diabetes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has type 2 diabetes mellitus\n* Between the ages of 18 and 70\n\nExclusion Criteria:\n\n* Patient has a history of type 1 diabetes mellitus or ketoacidosis.\n* Patient is on a weight loss program and is not in the maintenance phase or is taking weight loss medication.\n* Pati",
+            "endpoints": [
+              "Change From Baseline to Week 6 in 24-hour Weighted Mean Glucose",
+              "Number of Participants Who Experienced One or More Episodes of Hypoglycemia (Symptomatic or Asymptomatic)"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00792935"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00131664",
+            "title": "Avandia™ + Amaryl™ or Avandamet™ Compared With Metformin: A 48-week Randomized, Open-label, Multicentre Phase IIIB Study to Compare the Effectiveness of Combination Therapy to Monotherapy in Type 2 Diabetes Mellitus Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2005-09",
+            "completion_date": "2008-01",
+            "country": "Canada",
+            "enrollment": 391,
+            "brief_summary": "The incidence of type 2 diabetes is on the increase. According to recent Canadian Diabetes Association guidelines glucose control, based on the A1C measurement, needs to be achieved within a 6-12 month period of time after the initial diagnosis of type 2 diabetes. The guidelines on the use of antihyperglycemic agents identify the potential benefits of sub-maximal oral combination therapy in order to achieve more rapid and improved glycemic control compared with higher dose monotherapy. Furthermo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes patients\n2. 18 - 75 years old\n3. Type 2 diabetes mellitus (DM) drug naïve or on submaximal oral monotherapy \\< 3 years\n4. A1C criteria at screening:\n\n   1. 7.1-10% for drug naïve patients after failure of diet control and life-style modification\n   2. 7.1 - 9%",
+            "endpoints": [
+              "Mean Change From Baseline in A1C at Month 6"
+            ],
+            "sponsor": "Canadian Heart Research Centre",
+            "url": "https://clinicaltrials.gov/study/NCT00131664"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01453049",
+            "title": "A Multi-center, Randomized, Double-blind, Parallel-group Study to Compare the Efficacy and Safety of Fixed-dose Rosiglitazone/Glimepiride Combination Therapy With Glimepiride Monotherapy for 24 Weeks in Drug Naive Subjects With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2010-04",
+            "completion_date": "2010-10",
+            "country": "China",
+            "enrollment": 86,
+            "brief_summary": "The purpose of this study is to demonstrate that the rosiglitazone/glimepiride fixed-dose combination tablet will safely and effectively control glycemia as first-line oral therapy in drug naïve subjects with type 2 diabetes. This 24-week study will compare the effects of treatment with rosiglitazone/glimepiride to treatment with glimepiride alone. The primary objective is to demonstrate superiority of rosiglitazone/glimepiride to glimepiride in lowering Glycosylated Hemoglobin (HbA1c).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* type 2 diabetes mellitus\n* HbA1c between 7.5% and 11.0% at screening\n* FPG between 7.0mmol/L and 13.3mmol/L at screening and at randomization visit\n* subject was treated with diet and/or exercise alone\n* QTc\\<450mesc or QTc\\<480msec for patients with bundle branch block\n* Body",
+            "endpoints": [
+              "Change From Baseline in Glycosylated Hemoglobin (HbA1c) at Week 24"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01453049"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00957060",
+            "title": "A Multicenter, Open, Randomized, 24 Weeks Study to Evaluate the Superiority of Glimepiride Over Sitagliptin for the Treatment of naïve Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2009-07",
+            "completion_date": "2010-10",
+            "country": "Mexico, Guatemala",
+            "enrollment": 400,
+            "brief_summary": "Primary Objective:\n\nTo determine the superiority of glimepiride over sitagliptin in the reduction of HbA1c after 6 months of treatment in patients with monotherapy until the end of the trial.\n\nSecondary Objective:\n\nTo evaluate the effect of glimepiride compared to sitagliptin in:\n\nGlucose in fasting conditions; Postprandial glucose; Percentage of patients with HbA1c \\< 7% and \\< 6.5%; Symptomatic Hypoglycemia; Body weight; Percentage of withdrawal and percentage of patients with rescue therapy; ",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Subject naïve to treatment\n* HbA1c \\> 8.5 up to 11 %\n* Lipid lowering therapy, antihypertensive, hormonal substitutes, thyroid hormone substitutes, and contraceptives are allowed as long as they are kept at a stable dosing\n\nExclusion criteria:\n\n* Treatment with any oral antidi",
+            "endpoints": [
+              "HbA1c",
+              "Fasting and postprandial glucose"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT00957060"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01357135",
+            "title": "Observational Study of the Treatment and Follow-up of Patients With Type II Diabetes Receiving Bitherapy With or Without Sitagliptin (Januvia®/Xelevia®).",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2009-07-15",
+            "completion_date": "2013-08-31",
+            "country": "N/A",
+            "enrollment": 3453,
+            "brief_summary": "This is an observational study to compare the effectiveness of dual therapy of Type II diabetes mellitus with metformin + sitagliptin versus metformin + a sulfonylurea in routine clinical practice in France.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes participants\n* De novo treatment (first prescription or dated within the past 8 weeks) with:\n* Metformin + sitagliptin dual therapy,\n* Metformin + sulfonylurea dual therapy,\n* Sitagliptin as part of another treatment regimen\n* Participants also eligible for tre",
+            "endpoints": [
+              "Median Duration (in Months) of Initial Dual Therapy",
+              "Percentage of Participants With Strict Changes in Initial Dual Therapy"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01357135"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05162690",
+            "title": "Efficacy of Dapagliflozin in Diabetes Associated Peripheral Neuropathy: A Randomized Placebo Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2022-05-01",
+            "completion_date": "2023-12-31",
+            "country": "India",
+            "enrollment": 40,
+            "brief_summary": "Diabetic peripheral neuropathy(DPN) is a length dependent axonal neuropathy that affects at least 50% of patients with diabetes mellitus. DPN is often asymptomatic during the early stages of diabetes ,however, once symptoms and overt deficits have developed, it cannot be reversed. Early diagnosis of neuropathy is important because early diagnosis and timely intervention might prevent the development and progression of diabetic neuropathy.Though glycemic control has been shown to prevent the prog",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\-\n\nType 2 Diabetes Mellitus \\< 5 years duration\n\nAge \\>18yrs\n\nPresence of neuropathy at baseline (accessed by Michigan Neuropathy Screening Instrument score \\>7 )\n\nestimated Glomerular Filtration rate (eGFR) \\> 45ml/min/m2\n\nHBA1c \\< 9\n\nExclusion Criteria:\n\nUntreated Hypothyroid",
+            "endpoints": [
+              "Intraepithelial nerve fiber density"
+            ],
+            "sponsor": "Post Graduate Institute of Medical Education and Research, Chandigarh",
+            "url": "https://clinicaltrials.gov/study/NCT05162690"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03076112",
+            "title": "Efficacy of Ipragliflozin Compared With Sitagliptin in Uncontrolled Type 2 Diabetes With Sulfonylurea and Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-04-25",
+            "completion_date": "2022-08-31",
+            "country": "South Korea",
+            "enrollment": 170,
+            "brief_summary": "The objectives of this study are 1) to compare the effect of ipragliflozin 50 mg on glucose-lowering effect with sitagliptin 100 mg in patients with type 2 diabetes mellitus, whose HbA1c level is ≥ 7.5% with sulfonylurea and metformin, 2) to investigate changes of other metabolic and cardiovascular risk factors such as triglyceride, HDL-cholesterol, uric acid, blood pressure, and inflammatory markers, 3) to examine changes of body composition including fat and muscle mass with volume status.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes with HbA1c 7.5% - 9.0% at screening visit\n* Male or female between 20 and 75 years of age\n* Patients taking sulfonylurea (glimepiride 1\\~8mg or gliclazide 30\\~120 mg or equivalent dose) and metformin (≥ 1000 mg or maximum tolerated dose) for more than 3 months\n",
+            "endpoints": [
+              "Glycated hemoglobin"
+            ],
+            "sponsor": "Seoul National University Bundang Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03076112"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00740051",
+            "title": "A Randomised, db, Placebo-controlled, Parallel Group Efficacy and Safety Study of BI 1356 (5mg), Administered Orally Once Daily for 18 Weeks Followed by a 34 Week Double-blind Extension Period (Placebo Patients Switched to Glimepiride) in Type 2 Diabetic Patients With Insufficient Glycaemic Control for Whom Metformin Therapy is Inappropriate (Intolerability or Contraindication)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-08",
+            "completion_date": "",
+            "country": "Canada, Romania, United States, Mexico, Russia, Philippines, Ukraine",
+            "enrollment": 227,
+            "brief_summary": "Efficacy of BI 1356 compared to placebo in patients for whom metformin therapy is inappropriate (intolerability, contraindication). The second part of the study looks at the safety of BI 1356 in this patient population with longer term treatment in comparison to a sulfonylurea drug (glimepiride)",
+            "eligibility_criteria": "Inclusion criteria Patients between 18 and 80 years old with type 2 diabetes and insufficient glycemic control (HbA1c 7% to 10%) for whom metformin therapy is inappropriate (intolerability or contraindication)\n\nExclusion criteria Myocardial infarction, stroke or Transient ischaemic attack in last 6 ",
+            "endpoints": [
+              "HbA1c Change From Baseline at Week 18 (Interim Analysis)",
+              "HbA1c Change From Baseline at Week 18 (Final Analysis)"
+            ],
+            "sponsor": "Boehringer Ingelheim",
+            "url": "https://clinicaltrials.gov/study/NCT00740051"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02475499",
+            "title": "The Use of Incretin-based Drugs and the Risk of Pancreatic Cancer in Patients With Type 2 Diabetes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2014-03",
+            "completion_date": "2015-04",
+            "country": "Canada",
+            "enrollment": 886172,
+            "brief_summary": "The purpose of this study is to determine whether incretin-based drugs (used to treat type 2 diabetes) taken either alone in or combination with other anti-diabetic drugs are associated with an increased risk of pancreatic cancer (PC) compared to sulfonylureas.\n\nThe investigators will carry out separate population based cohort studies using administrative health databases in five jurisdictions in Canada, the US, and the UK. Cohorts will be defined by the initiation of a new anti-diabetic drug wh",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a first-ever prescription for a non-insulin anti-diabetic drug, including biguanides, sulfonylureas, thiazolidinediones, DPP-4 inhibitors, GLP-1 analogs, alpha-glucosidase inhibitors, meglitinides or combinations of these drugs from the earliest availability of d",
+            "endpoints": [
+              "Incident pancreatic cancer"
+            ],
+            "sponsor": "Canadian Network for Observational Drug Effect Studies, CNODES",
+            "url": "https://clinicaltrials.gov/study/NCT02475499"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04841096",
+            "title": "Efficacy and Safety of the Oral Combined Therapy Glimepiride / Vildagliptin / Metformin in Patients With Type 2 Diabetes With Dual Treatment Failure",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2023-03-21",
+            "completion_date": "2024-05-15",
+            "country": "Mexico",
+            "enrollment": 162,
+            "brief_summary": "Phase IIIb, randomized, multicenter, double-blind, prospective study to evaluate the efficacy and safety of a daily fixed-dose combination of glimepiride / vildagliptin / metformin in patients with type 2 diabetes with a history of dual treatment failure and combined or individual oral antidiabetics with SGLT2 / Metformin, Biguanide / Sulfonylurea, Sulfonylurea / iDPP4 or Biguanide / iDPP4. To evaluate the changes in the percentage of HbA1c at 3 and 6 months with regard to their baseline measure",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or Female.\n* Age \\>18 years old at the beginning of the study.\n* Diagnosis of type 2 diabetes prior to the start of the study.\n* Therapeutic failure to a dual treatment with SGLT2 / Metformin, Biguanide / Sulfonylurea, Sulfonylurea / iDPP4, Biguanide / iDPP4.\n* HbA1c ≥ 7.",
+            "endpoints": [
+              "Compare changes in HbA1",
+              "Proportion of patients who change their HbA1c concentration",
+              "Mean difference change between groups in HbA1c concentration"
+            ],
+            "sponsor": "Laboratorios Silanes S.A. de C.V.",
+            "url": "https://clinicaltrials.gov/study/NCT04841096"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03180281",
+            "title": "Exploring Effective and Safety Therapies Which Protect Islet β Cell on Newly Diagnosed Type 2 Diabetes Patients With High Glucose Toxicity",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2017-07-01",
+            "completion_date": "2020-01-01",
+            "country": "China",
+            "enrollment": 135,
+            "brief_summary": "Prevalence of diabetes is increasing rapidly both in China and all over the world.Hyperglycemia is an important risk factor and major hazard to cardiovascular and cerebrovascular diseases and even dangerous to human health.\"High glucose toxicity \"cause pancreatic β cell non-physiologic and irreversible damage.It is an important cause of β cell dysfunction.High glucose toxicity further suppresses insulin secretion of β cell, further even β-cell function failure.It is urgent to explore more effect",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* newly onset\n* type 2 diabetes\n* BMI 18-30kg/m2\n* FBS≧11.1mmol/L，GHbA1c≧9%\n* urine ket ≦(1+)\n* Normal liver and kidney function\n\nExclusion Criteria:\n\n* type 1 diabetes\n* renal or hepatic insufficiency\n* Severe ketoacidosis\n* Treatment with corticosteroids, immunosuppressive age",
+            "endpoints": [
+              "Fasting blood glucose,glycosylated hemoglobin(GHbA1c)"
+            ],
+            "sponsor": "First Affiliated Hospital Xi'an Jiaotong University",
+            "url": "https://clinicaltrials.gov/study/NCT03180281"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01951339",
+            "title": "Impact of Sitagliptin on Cardiovascular Exercise Performance in Type 2 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2013-10",
+            "completion_date": "2018-06",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "The goal of this study is to examine whether sitagliptin, an agent which enhances the action of hormones that control the release of insulin and is already in clinical use for type 2 diabetes, might also improve functional exercise capacity.\n\nSpecific aims:\n\n1\\. To test whether sitagliptin will improve functional exercise capacity in persons with type 2 diabetes compared to glimepiride.\n\n1a. The primary outcome will be peak oxygen consumption (VO2peak) and oxygen uptake kinetics (VO2 kinetics).\n",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Female subjects may be pre, peri or post-menopausal.\n2. People who do not participate in a regular exercise program (\\> one bout of exercise per week).\n3. Presence of type 2 diabetes will be documented by chart review that will confirm the diagnosis as well as the presence of",
+            "endpoints": [
+              "Peak Oxygen Consumption (VO2peak).",
+              "Changes From Baseline in 31P Measurement: Phosphocreatine Time Constant",
+              "Change in Oxygen Uptake Kinetics (VO2 Kinetics)"
+            ],
+            "sponsor": "University of Colorado, Denver",
+            "url": "https://clinicaltrials.gov/study/NCT01951339"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03332771",
+            "title": "A 52-week Randomized, Double-blind, Double-dummy, Active and Placebo-controlled, Parallel-group, Multicenter Study to Evaluate the Efficacy and Safety of Sotagliflozin Compared to Glimepiride or Placebo Added to Metformin in Patients With Type 2 Diabetes Who Have Inadequate Glycemic Control With Metformin Monotherapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-12-01",
+            "completion_date": "2019-09-06",
+            "country": "Slovakia, Bulgaria, Hungary, United States",
+            "enrollment": 954,
+            "brief_summary": "Primary Objective:\n\nTo demonstrate the non-inferiority of Sotagliflozin 400 milligrams (mg) compared to Glimepiride on hemoglobin A1c (HbA1c) reduction at Week 52 in participants with Type 2 Diabetes (T2D) who have inadequate glycemic control with metformin.\n\nSecondary Objectives:\n\nTo demonstrate the superiority of Sotagliflozin 400 mg compared to Glimepiride on change in body weight, systolic blood pressure (SBP) in participants with baseline SBP ≥130 millimeter of mercury (mmHg), SBP in all pa",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Participants with Type 2 Diabetes (T2D) treated with metformin at a stable dose ≥1500 milligrams per day (mg/day) or maximum tolerated dose (documented) for at least 12 weeks prior to Screening Visit; in case of documented lack of tolerance, metformin dose \\<1500 mg/day is ac",
+            "endpoints": [
+              "Change From Baseline in Hemoglobin A1c at Week 52"
+            ],
+            "sponsor": "Lexicon Pharmaceuticals",
+            "url": "https://clinicaltrials.gov/study/NCT03332771"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01593137",
+            "title": "A Long-term, Randomized, Open-labeled, Parallel-group Trial to Compare the Effects of Liraglutide and Sulphonylurea (Glimepiride) Both in Combination With Metformin on Clinical, Endothelial and Image Markers of Cardiovascular Risk in Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2012-05",
+            "completion_date": "2014-12",
+            "country": "Spain",
+            "enrollment": 0,
+            "brief_summary": "The process of atherosclerosis is multifactorial and involves many mechanisms. The majority of published works have identified endothelial dysfunction as the first step in a cascade of events that culminates in plaque formation. Among the various mechanisms that occur following the attack on the vessel wall, it is thought that stem cells in the form of endothelial progenitor cells (EPCs) are the endothelial protection mechanism.\n\nFactors identified as cardiovascular risk factors, or rather those",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed written consent obtained before any trial-related activities (trial-related activities are any procedures that would not have been performed during normal management of the subject).\n* Male or female patients between 18 and 75 years old;\n* Subjects diagnosed with type",
+            "endpoints": [
+              "assess the effect of treatment with liraglutide compared to glimepiride, as add-on to metformin, for one year on circulating levels of EPCs in patients with type 2 diabetes poorly controlled."
+            ],
+            "sponsor": "Fundación Fernández-Cruz",
+            "url": "https://clinicaltrials.gov/study/NCT01593137"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01703286",
+            "title": "Randomized, Three Period Cross Over, Double Blind, Double Dummy Study in Type 2 Diabetic Patients to Assess the Endothelial Effects of Linagliptin, Glimepiride and Placebo Therapy for 28 Days ('ENDOTHELINA')",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-10",
+            "completion_date": "2014-01",
+            "country": "Germany",
+            "enrollment": 42,
+            "brief_summary": "The general aim of the present study is to investigate the impact of 4 weeks treatment with linagliptin (5 mg) on endothelial function in patients with type 2 diabetes mellitus. In the current trial this effect of linagliptin treatment on endothelial function will be compared against both the sulfonylurea glimepiride and against placebo, which has not been tested in a trial before; as also is the case for other DPP-4 inhibitors.\n\nBesides placebo, glimepiride was chosen as a comparator, as it is ",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. Type 2 diabetic male and female patients according to the following criteria:\n\n   Based upon a complete medical history and clinical laboratory tests\n2. Age \\>= 18 and Age \\<= 65 years\n3. Body mass index \\>= 25 \\<= 35 kg/m2\n4. HbA1c \\<= 7.5%\n5. Treatment with metformin (=1500",
+            "endpoints": [
+              "Change From Baseline in Flow Mediated Vasodilation (FMD) Under Fasted Condition on Day 28"
+            ],
+            "sponsor": "Boehringer Ingelheim",
+            "url": "https://clinicaltrials.gov/study/NCT01703286"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01614769",
+            "title": "A Study to Assess the Effects of Glimepiride on Recovery From Hypoglycemia in Participants With Type 2 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-07-18",
+            "completion_date": "2013-01-23",
+            "country": "N/A",
+            "enrollment": 10,
+            "brief_summary": "This study aims to assess how glimepiride affects the recovery from hypoglycemia in participants with type 2 diabetes mellitus. The primary objective is to estimate the time taken by participants to recover from hypoglycemia to euglycemia after treatment with either 2 mg or 4 mg of glimepiride when compared to placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has clinically confirmed diagnosis of type 2 diabetes mellitus (T2DM) controlled by diet and exercise alone, or treated by metformin only with same dose for \\>= 12 weeks prior to screening visit.\n* Females of reproductive potential who demonstrate nongravid state, agree to use",
+            "endpoints": [
+              "Recovery Time From Hypoglycemia to Euglycemia",
+              "Rate of Recovery From Hypoglycemia to Euglycemia",
+              "Incremental Weighted Average Blood Glucose Concentration Over 3 Hours of Hypoglycemic Recovery"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01614769"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03907423",
+            "title": "Effects of Rosuvastatin on Markers of Atherosclerosis in Diabetic Patients Treated With Glimepiride/Metformin Combination",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-04-01",
+            "completion_date": "2021-01-31",
+            "country": "Egypt",
+            "enrollment": 70,
+            "brief_summary": "study effects of rosuvastatin on markers of atherosclerosis, thrombosis, in diabetic patients treated with glimepiride/metformin without coronary artery disease.\n\nThis effect will be investigated especially on sortilin ,fetuin-A",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus on oral therapy.\n* Age 21-65 years\n* Life expectancy \\>1 year.\n\nExclusion Criteria:\n\n* Documented CVD\n* Planned surgical intervention.\n* Hypersensitivity to either of the study drug components.\n* Type I diabetes.\n* Current Insulin treatment.\n* Hepatic ",
+            "endpoints": [
+              "serum levels of fetuin A",
+              "serum levels of Sortilin"
+            ],
+            "sponsor": "Damanhour University",
+            "url": "https://clinicaltrials.gov/study/NCT03907423"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00360698",
+            "title": "Comparison of Two Therapeutic Strategies for Treating Type 2 Diabetic Patients Poorly Controlled With Basal Insulin Associated With Oral Antidiabetic Drugs : 6-month Proof of Concept Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2008-08",
+            "country": "Russia, United States, United Kingdom",
+            "enrollment": 106,
+            "brief_summary": "To evaluate the efficacy of a single injection of glulisine before the main meal added to insulin glargine plus oral antidiabetic drugs (OADs) compared to insulin glargine plus OADs in Type 2 diabetic patients poorly controlled with basal insulin plus OADs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diabetes Mellitus, Type 2\n* 25 \\< BMI \\< 45 kg/m²\n* 7,5% \\< HbA1c \\< 9%\n* Treated with a basal insulin (NPH, Insulin Zinc, Insulin glargine or Insulin detemir), and at least 1g metformin daily, for more than 3 months\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* Treatment",
+            "endpoints": [
+              "Patients With Glycosylated Haemoglobin (HbA1c) Value < 7%"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT00360698"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01682759",
+            "title": "A Phase III, Multicenter, Double-Blind, Randomized Study to Evaluate the Safety and Efficacy of the Addition of MK-3102 Compared With the Addition of Glimepiride in Subjects With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-09-10",
+            "completion_date": "2015-01-26",
+            "country": "N/A",
+            "enrollment": 751,
+            "brief_summary": "This trial will assess the safety and efficacy of omarigliptin (MK-3102) compared with the sulfonylurea, glimepiride, in Type 2 diabetes mellitus participants with inadequate glycemic control on metformin monotherapy. The primay hypothesis of the study is that after 54 weeks, the mean change from baseline in hemoglobin A1C (A1C) in participants treated with omarigliptin is non-inferior compared with that in participants treated with glimepiride.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with Type 2 diabetes mellitus\n* On a stable dose of metformin (≥1500 mg/day) for at least 12 weeks with inadequate glycemic control\n* Females of reproductive potential agree to remain abstinent or use or have their partner use acceptable methods of birth control\n\nExc",
+            "endpoints": [
+              "Change From Baseline in Hemoglobin A1C at Week 54",
+              "Percentage of Participants Who Experienced at Least One Adverse Event Excluding Data After Glycemic Rescue",
+              "Percentage of Participants Who Discontinued From the Study Due to an Adverse Event Excluding Data After Glycemic Rescue"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01682759"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01841697",
+            "title": "A Phase III, Multicenter, Double-Blind, Randomized Study to Evaluate the Safety and Efficacy of the Addition of MK-3102 Compared With the Addition of Sitagliptin in Subjects With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-06-13",
+            "completion_date": "2014-11-17",
+            "country": "N/A",
+            "enrollment": 642,
+            "brief_summary": "This is a non-inferiority study comparing omarigliptin with sitagliptin in participants with type 2 diabetes mellitus (T2DM) with inadequate glycemic control on metformin therapy. The primary hypothesis is that after 24 weeks, the mean change from baseline in hemoglobin A1c (A1C) in participants treated with omarigliptin is non-inferior to that in participants treated with sitagliptin. There will be a 2-week run-in period with placebo + metformin prior to the double-blind treatment period.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Currently on a stable dose of metformin monotherapy (≥1500 mg per day) for at least 12 weeks prior to study participation\n* Male, or female who is not of reproductive potential or if of reproductive potential agrees to abstain from heterosexual activ",
+            "endpoints": [
+              "Change From Baseline in A1C at Week 24",
+              "Percentage of Participants Who Experienced at Least One Adverse Event",
+              "Percentage of Participants Who Discontinued Study Drug Due to an Adverse Event"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01841697"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02476760",
+            "title": "The Use of Incretin-based Drugs and the Risk of Acute Pancreatitis in Patients With Type 2 Diabetes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2014-03",
+            "completion_date": "2015-04",
+            "country": "Canada",
+            "enrollment": 1417914,
+            "brief_summary": "The purpose of this study is to determine whether incretin-based drugs (used to treat type 2 diabetes) taken either alone or in combination with other anti-diabetic drugs are associated with an increased risk of acute pancreatitis (AP) compared to other combinations of oral hypoglycemic agents (OHA).\n\nThe investigators will carry out separate population based cohort studies using administrative health databases in six jurisdictions in Canada, the US, and the UK. Cohorts will be defined by the in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a first-ever prescription for a non-insulin anti-diabetic drug, including biguanides, sulfonylureas, thiazolidinediones, DPP-4 inhibitors, GLP-1 analogs, alpha-glucosidase inhibitors, meglitinides or combinations of these drugs from the earliest availability of d",
+            "endpoints": [
+              "Hospitalization for acute pancreatitis"
+            ],
+            "sponsor": "Canadian Network for Observational Drug Effect Studies, CNODES",
+            "url": "https://clinicaltrials.gov/study/NCT02476760"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02133118",
+            "title": "A Prospective Observational Cohort Study; The Weight Trajectory in New Users of Sulfonylureas as Add on Therapy Next to Metformin.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "1998-01",
+            "completion_date": "2014-12",
+            "country": "Netherlands",
+            "enrollment": 16293,
+            "brief_summary": "Next to HbA1c, body weight is regarded as an important surrogate end-point in trials investigating glucose-lowering agents. An increase in weight could contribute to worsening insulin resistance. Differences in weight after starting glucose lowering agents have been described in many randomized controlled trials (RCTs).\n\nWith this prospective observational study, weight trajectories after receiving add-on therapy next to metformin are evaluated in primary care patients with good glycaemic contro",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* T2DM\n* Treated in primary care in period 1998 to 2012\n* used metformin monotherapy\n* subsequently received add-on therapy with a SU or pioglitazone during their entire follow-up period",
+            "endpoints": [
+              "The course of weight (Kg) after starting individual SU's, pioglitazone or insulin as add-on therapy."
+            ],
+            "sponsor": "Medical Research Foundation, The Netherlands",
+            "url": "https://clinicaltrials.gov/study/NCT02133118"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02919059",
+            "title": "A Randomized, Unicenter, Parallel Study of the Effect of Dapagliflozin on Central Blood Pressure Reduction Compared to Glimepiride in Adult Subjects With Type 2 Diabetes Mellitus and Inadequate Glycemic Control.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2016-12-13",
+            "completion_date": "2019-08",
+            "country": "Spain",
+            "enrollment": 159,
+            "brief_summary": "This superiority of central pressure versus peripheral measures to predict cardiovascular events has also been reported in general population or in elder people",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* T2DM subjects with uncontrolled glycaemia, based on HbA1c levels (10% ≥ HbA1c ≥ 7%) at Visit 1.\n* Patients may be treated for \\>3 months with a stable doses of metformin at optimal doses tolerated.\n* Participants will be able to give and sign informed consent form.\n* Age \\> 18",
+            "endpoints": [
+              "Effect of dapagliflozin relative to glimepiride at 24 weeks of treatment period regarding central systolic blood pressure"
+            ],
+            "sponsor": "IInstituto Gallego de Medicina Vascular",
+            "url": "https://clinicaltrials.gov/study/NCT02919059"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01910441",
+            "title": "A Comparative Study to Assess the Effect of Vildagliptin Versus Glimepiride on Glucose Variability in Type 2 Diabetic Patients Uncontrolled on Metformin Alone",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2013-07",
+            "completion_date": "2014-09",
+            "country": "N/A",
+            "enrollment": 95,
+            "brief_summary": "Compare the effect of Vildagliptin plus Metformin versus Glimepiride plus Metformin on glucose variability in T2DM patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients who have given written informed consent to participate in the study.\n2. Type 2 Diabetes Mellitus patients either Male or female from 18 - 75 years of age (both inclusive).\n3. Patients who are uncontrolled on metformin monotherapy for at least past 4 weeks (1000-1500 ",
+            "endpoints": [
+              "Mean Amplitude of Glycemic Excursions (MAGE)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01910441"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00427154",
+            "title": "Effect of Inhaled Pre-Prandial Human Insulin Plus Metformin & Glimepiride Versus Rosiglitazone Plus Metformin & Glimepiride on HbA1c in Subjects With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2007-01-10",
+            "completion_date": "2008-03-11",
+            "country": "United States",
+            "enrollment": 227,
+            "brief_summary": "This trial is conducted in the United States of America (USA). This trial will compare the changes in HbA1c after 26 weeks of inhaled insulin or rosiglitazone treatment, both in combination with metformin and glimepiride.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Currently treated with antidiabetes drugs (including Exenatide) for at least 2 months\n* HbA1c between 7.5 and 11.0% (both inclusive) on antidiabetes combination therapy\n* BMI less than or equal to 40 kg/m2\n\nExclusion Criteria:\n\n* Current smoking or smoking wi",
+            "endpoints": [
+              "Change in HbA1c"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT00427154"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02188186",
+            "title": "Therapeutic Efficacy of Triple Combination of Metformin, DPP4 Inhibitor and Thiazolidinedione in Drug-naïve Korean Type 2 Diabetic Patients",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-07",
+            "completion_date": "2018-09",
+            "country": "South Korea",
+            "enrollment": 200,
+            "brief_summary": "Triple combination of metformin, DPP4 inhibitor and Thiazolidinedione would be a good option in the treatment of drug-naïve Korean type 2 diabetic patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HbA1c 9-12%\n* No treatment with insulin or oral agents for recent 6 months\n* 20 ≤ Age \\< 80 years\n\nExclusion Criteria:\n\n* Contraindication to sitagliptin or metformin or thiazolidinedione\n* Pregnant or breast feeding women\n* Type 1 diabetes, gestational diabetes, or secondary ",
+            "endpoints": [
+              "Change of HbA1c"
+            ],
+            "sponsor": "Seoul National University Bundang Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02188186"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00775684",
+            "title": "A Randomized, Controlled Trial Comparing the Effect of Exenatide, Sitagliptin or Glimepiride on Functional ß -Cell Mass in Patients With Impaired Fasting Glucose or Early Type 2 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2008-10",
+            "completion_date": "2012-11",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "This study evaluates exenatide, sitagliptin, and glimepiride for the treatment of high blood sugar in patients with impaired fasting glucose or early type 2 diabetes. The purpose of this study is to determine if exenatide and sitagliptin increase the amount of insulin made by the pancreas compared to glimepiride. It is hypothesized that exenatide or sitagliptin will sustain or increase the amount of insulin made by the pancreas in comparison to glimepiride.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female patients age 18 to 70 years.\n2. Ability to provide written informed consent\n3. Mentally stable and able to comply with the procedures of the study protocol\n4. Clinical history compatible with impaired fasting glucose or early T2D as defined by a plasma glucose",
+            "endpoints": [
+              "Effect on Functional Beta-cell Mass as Determined by Change in ß-cell Secretory Capacity at 6 Months (μU/ml)",
+              "Effect on Functional Beta-cell Mass as Determined by Change in ß-cell Secretory Capacity at 6 Months (pg/mL)"
+            ],
+            "sponsor": "University of Pennsylvania",
+            "url": "https://clinicaltrials.gov/study/NCT00775684"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02072096",
+            "title": "An Individualized treatMent aPproach for oldER patIents: A Randomized, Controlled stUdy in Type 2 Diabetes Mellitus (IMPERIUM)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2014-02",
+            "completion_date": "2015-10",
+            "country": "United Kingdom, Austria, Germany, United States, Puerto Rico",
+            "enrollment": 192,
+            "brief_summary": "The main purpose of this study is to compare the benefits and risks associated with the use of 2 treatment strategies to lower blood sugar in participants aged 65 and older with T2DM. One strategy is based on the use of oral and injectable medications that only reduce blood sugar (glucose) when it is high. The other strategy is based on non-glucose dependent agents. The trial will last up to 72 weeks for each participant.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have T2DM based on a history and clinical impression that is consistent with the World Health Organization (WHO) Classification of Diabetes\n* Have a Clinical Frailty Scale (CFS) score of 4 or above or Total Illness Burden Index (TIBI) score of 5 or above as assessed at screeni",
+            "endpoints": [
+              "Percentage of Participants Achieving and Maintaining Individualized Glycated Hemoglobin A1c (HbA1c) Targets Without Clinically Significant Hypoglycemia"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT02072096"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00699322",
+            "title": "The Comparative Study of Dipeptidyl Peptidase-IV Inhibitor and Sulfonylurea on the Effect of Improving Glucose Variability and Oxidative Stress in Type 2 Diabetic Patients With Inadequate Glycemic Control on Metformin",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2008-06",
+            "completion_date": "2010-06",
+            "country": "South Korea",
+            "enrollment": 36,
+            "brief_summary": "This research will focus on the effect of Sitagliptin on 24 hour glycemic excursion and improvement of oxidative stress markers compared to long acting sulphonylurea Glimepiride in type 2 diabetic patients with inadequate glycemic control on metformin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients with type 2 diabetes\n* duration of diabetes less than 10 years\n* HbA1c 6.5-8.0%\n* BMI 20-30\n* on stable dose of metformin (more than 1000mg) for at least 2 months\n\nExclusion Criteria:\n\n* having oral hypoglycemic agents other than metformin\n* using insulin\n* serum crea",
+            "endpoints": [
+              "Glucose variability"
+            ],
+            "sponsor": "The Catholic University of Korea",
+            "url": "https://clinicaltrials.gov/study/NCT00699322"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32268860",
+            "title": "Clinical Review: Safety and Efficacy Comparison between Sulfonylureas and Dipeptidyl Peptidase-4 Inhibitors as Second-Line Therapies in Type 2 Diabetes Mellitus.",
+            "abstract": "According to the World Health Organization (WHO), diabetes mellitus is considered the 7th leading cause of death as of 2016, while almost half of all deaths related to high blood glucose occur before the age of 70. According to the 2019 American Diabetes Association's (ADA) guidelines, metformin is the firstline treatment for patients with Type 2 diabetes. Additional therapy is dependent on multiple patient-specific factors, including cardiovascular risks, risk of hypoglycemia, metabolic changes, and cost. The objective of this systematic review is to analyze variables of interest in Type 2 diabetes including fasting blood glucose (FBG), post-prandial blood glucose (PPBG), hemoglobin A1c (HbA1c), microvascular complications, and cardiovascular outcomes in order to determine the shift towards the newer class of medications for type 2 diabetes.",
+            "journal": "Current pharmaceutical design",
+            "year": "2020",
+            "authors": [
+              "Gillani Syed Wasif",
+              "Moosvi Arzu F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Blood Glucose",
+              "Diabetes Mellitus, Type 2",
+              "Dipeptidyl-Peptidase IV Inhibitors",
+              "Dipeptidyl-Peptidases and Tripeptidyl-Peptidases",
+              "Drug Therapy, Combination",
+              "Glycated Hemoglobin",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Metformin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32268860/"
+          },
+          {
+            "pmid": "12663616",
+            "title": "Glimepiride treatment and IGF-I in adolescents with type 1 diabetes: a prospective, randomized, double-blind, placebo-controlled study.",
+            "abstract": "",
+            "journal": "Diabetes care",
+            "year": "2003",
+            "authors": [
+              "Wudy Stefan A",
+              "Högel Josef",
+              "Dollinger Barbara",
+              "Mullis Primus",
+              "Heinze Eberhard"
+            ],
+            "pub_types": [
+              "Letter",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Diabetes Mellitus, Type 1",
+              "Humans",
+              "Insulin-Like Growth Factor Binding Protein 3",
+              "Insulin-Like Growth Factor I",
+              "Placebos",
+              "Sulfonylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12663616/"
+          },
+          {
+            "pmid": "7475982",
+            "title": "Glimepiride-induced prevention of diabetes and autoimmune events in the BB rat: revised.",
+            "abstract": "The purpose of this study was to determine whether Glimepiride, an oral sulfonylurea drug, prevents the onset of diabetes in diabetic prone BB rats. S750181, a sulfonylurea drug that has minimal in vivo glucose metabolic effects, was also tested. In addition, the shortest period of sulfonylurea treatment required for prevention was determined. Eighty rats were studied for all treatment periods with 40 receiving a daily oral gavage dosage of glimepiride and 40 receiving a daily oral gavage dosage of vehicle solution. Diabetes onset was monitored by glycosuria and blood glucose levels. In study I, with a treatment period of 35-142 days of age, Glimepiride-treated rats showed a 32% incidence of diabetes, whereas control rats had a diabetes incidence of 55% (p < 0.04). In study II, with a treatment period of 60-140 days of age, Glimepiride-treated rats showed a 29% incidence of diabetes compared to 54% in controls (p < 0.03). Further, comparing the time of diabetes onset between the Glimep",
+            "journal": "Life sciences",
+            "year": "1995",
+            "authors": [
+              "Cheta D M",
+              "Lim J",
+              "Chan E K",
+              "Kunakorn T",
+              "Charles M A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autoimmune Diseases",
+              "Blood Glucose",
+              "Diabetes Mellitus, Type 1",
+              "Glycosuria",
+              "Hypoglycemic Agents",
+              "Islets of Langerhans",
+              "Rats",
+              "Rats, Inbred BB",
+              "Sulfonylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7475982/"
+          },
+          {
+            "pmid": "8539908",
+            "title": "Prevention and cure of type 1 diabetes in the BB rat by islet allotransplantation and glimepiride treatment.",
+            "abstract": "",
+            "journal": "Transplantation proceedings",
+            "year": "1995",
+            "authors": [
+              "Pan J",
+              "Chan E K",
+              "Yu E",
+              "Chen J",
+              "Schranz V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Diabetes Mellitus, Type 1",
+              "Disease Models, Animal",
+              "Immunosuppressive Agents",
+              "Islets of Langerhans Transplantation",
+              "Rats",
+              "Rats, Inbred BB",
+              "Rats, Inbred Lew",
+              "Sulfonylurea Compounds",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8539908/"
+          },
+          {
+            "pmid": "15955587",
+            "title": "Type 1 diabetes developed in a type 2 diabetic patient with severe insulin resistance.",
+            "abstract": "We report a 38-year-old female with severe insulin resistance who developed type 1 diabetes after being diagnosed with type 2 diabetes. At the initial examination, BMI was 31.8 kg/m(2) and HbA1c 10.8%. Her insulin secretion was sufficient (urinary CPR 80 microg/day) and the GAD antibody was negative. Following treatment with insulin and glimepiride, HbA1c decreased to 6.3%, though diabetic control deteriorated after 1 year (HbA1c, 11.0%) and her body weight was reduced in a short period, from 78 to 67 kg. Re-examination revealed that the GAD antibody was high (1870 U/mL, normal <1.5) and the anti-islet cell antibody positive, and insulin secretion decreased (urinary CPR 18 microg/day). Further, a hyperinsulinemic-euglycemic cramp study using an artificial pancreas showed that the patient had severe insulin resistance [glucose infusion rate 1.8 mg/(min kg); normal, 7.4+/-2.4 (mean+/-S.D.)]. An HLA-analysis showed that she was a homozygote of haplotype DRB1*0901-DQB1*0303. In spite of st",
+            "journal": "Diabetes research and clinical practice",
+            "year": "2005",
+            "authors": [
+              "Suehiro Tadashi",
+              "Osaki Fumiaki",
+              "Ikeda Yukio",
+              "Arii Kaoru",
+              "Nakayama Fumi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Autoantibodies",
+              "Blood Chemical Analysis",
+              "Blood Glucose",
+              "Body Mass Index",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Female",
+              "Glycated Hemoglobin",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15955587/"
+          },
+          {
+            "pmid": "11460577",
+            "title": "Oral hypoglycemic agents: insulin secretagogues, alpha-glucosidase inhibitors and insulin sensitizers.",
+            "abstract": "In this review we present the agents that are in use in the treatment of type 2 diabetes. Sulfonylureas of the 1st and 2nd generation increase insulin secretion but can induce hyperinsulinemia and sometimes prolonged hypoglycemia. Glimepiride is a new 3rd generation sulfonylurea with some advantages over the other members of this group, such as a lower risk of hypoglycemia, no interaction with cardiovascular KATP-channels and a possibility that it may increase insulin sensitivity. There are also newer insulin secretagogues (such as neteglinide and repaglinide) with a rapid onset of action on the beta-cell, therefore inducing a more physiological profile of insulin secretion during meals. The category of insulin sensitizers includes metformin and thiazolidinediones. Metformin effectively reduces hyperglycemia, hyperlipidemia and macroangiopathy in patients with type 2 diabetes. This agent increases the sensitivity of the liver and peripheral tissues to insulin and, therefore, it could b",
+            "journal": "Experimental and clinical endocrinology & diabetes : official journal, German Society of Endocrinology [and] German Diabetes Association",
+            "year": "2001",
+            "authors": [
+              "Raptis S A",
+              "Dimitriadis G D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Absorption",
+              "Administration, Oral",
+              "Enzyme Inhibitors",
+              "Fatty Acids",
+              "Glucose",
+              "Glycoside Hydrolase Inhibitors",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Insulin Secretion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11460577/"
+          },
+          {
+            "pmid": "15013454",
+            "title": "Timely initiation of basal insulin.",
+            "abstract": "Recognition of the basal and postprandial components of hyperglycemia, in tandem with the development of new insulins and other clinical research, has led to a reassessment of type 2 diabetes mellitus treatment. In the future, insulin will be used earlier, treatment will intensify as the disease progresses, and combination therapy will be routine. Hyperglycemia can be controlled initially with sulfonylureas and metformin, agents that mainly improve control of fasting and preprandial glucose. When glycemic control can no longer be achieved with these and other oral agents alone, insulin treatment can be started as a single injection of a long-acting insulin. This method of supplementing basal insulin is safe, simple, and less likely to cause weight gain than multiple daily injections with shorter-acting insulins. Continuing oral agents during basal insulin therapy can provide a smoother transition to insulin and reduce the risk of loss of glycemic control. Of currently available insulin",
+            "journal": "The American journal of medicine",
+            "year": "2004",
+            "authors": [
+              "Riddle Matthew C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Disease Progression",
+              "Drug Therapy, Combination",
+              "Glyburide",
+              "Glycated Hemoglobin",
+              "Humans",
+              "Hyperglycemia",
+              "Hypoglycemic Agents",
+              "Insulin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15013454/"
+          },
+          {
+            "pmid": "32935446",
+            "title": "Continuous spectrum of glucose dysmetabolism due to the KCNJ11 gene mutation-Case reports and review of the literature.",
+            "abstract": "The KCNJ11 gene encodes the Kir6.2 subunit of the adenosine triphosphate-sensitive potassium (KATP ) channel, which plays a key role in insulin secretion. Monogenic diseases caused by KCNJ11 gene mutation are rare and easily misdiagnosed. It has been shown that mutations in the KCNJ11 gene are associated with neonatal diabetes mellitus (NDM), maturity-onset diabetes of the young 13 (MODY13), type 2 diabetes mellitus (T2DM), and hyperinsulinemic hypoglycemia. We report four patients with KCNJ11 gene mutations and provide a systematic review of the literature. A boy with diabetes onset at the age of 1 month was misdiagnosed as type 1 diabetes mellitus (T1DM) for 12 years and received insulin therapy continuously, resulting in poor glycemic control. He was diagnosed as NDM with KCNJ11 E322K gene mutation, and glibenclamide was given to replace exogenous insulin. The successful transfer time was 4 months, much longer than the previous unsuccessful standard of 4 weeks. The other three patie",
+            "journal": "Journal of diabetes",
+            "year": "2021",
+            "authors": [
+              "He Binbin",
+              "Li Xia",
+              "Zhou Zhiguang"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Base Sequence",
+              "Blood Glucose",
+              "Child",
+              "DNA Mutational Analysis",
+              "Diabetes Mellitus, Type 1",
+              "Female",
+              "Glucose",
+              "Glyburide",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32935446/"
+          },
+          {
+            "pmid": "19729529",
+            "title": "Beta-cell-mediated signaling predominates over direct alpha-cell signaling in the regulation of glucagon secretion in humans.",
+            "abstract": "Given evidence of both indirect and direct signaling, we tested the hypothesis that increased beta-cell-mediated signaling of alpha-cells negates direct alpha-cell signaling in the regulation of glucagon secretion in humans.",
+            "journal": "Diabetes care",
+            "year": "2009",
+            "authors": [
+              "Cooperberg Benjamin A",
+              "Cryer Philip E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "C-Peptide",
+              "Diabetes Mellitus, Type 1",
+              "Eating",
+              "Epinephrine",
+              "Fasting",
+              "Fatty Acids, Nonesterified",
+              "Female",
+              "Glucagon",
+              "Glucagon-Secreting Cells",
+              "Homeostasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19729529/"
+          },
+          {
+            "pmid": "35911365",
+            "title": "SGLT-2 Inhibitor-Associated Euglycemic Diabetic Ketoacidosis: A Case Report and a Literature Review.",
+            "abstract": "Diabetic ketoacidosis (DKA) is considered a medical emergency, most commonly associated with type 1 diabetes mellitus, and is relatively rare in type 2 diabetes mellitus (T2DM). We discuss a case of a 45-year-old woman with T2DM who presented to the emergency room with worsening lethargy and weakness. Before her presentation, her physician had recently added empagliflozin, a sodium-glucose cotransporter-2 (SGLT-2) inhibitor, to her anti-diabetic drug regimen along with glimepiride and a combination drug of vildagliptin and metformin. Based on the clinical examination and lab findings, DKA was suspected, but her glucose level was below the cutoff value for DKA diagnosis. However, her lab results showed significant metabolic acidosis and ketonemia with no clinical or laboratory features of sepsis. Therefore, the diagnosis of euglycemic diabetic ketoacidosis (eu-DKA) was made. She was successfully treated according to the DKA protocol and discharged in good condition. In this report, our ",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Mahfooz Rabia Salman",
+              "Khan Muhammad Khuzzaim",
+              "Al Hennawi Hussam",
+              "Khedr Anwar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35911365/"
+          },
+          {
+            "pmid": "19277932",
+            "title": "[Quality of life and treatment satisfaction in patients being treated with long-acting insulin analogues].",
+            "abstract": "The purpose of this study was to review studies reporting on quality of life and treatment satisfaction of patients with diabetes mellitus being treated with long-acting insulin analogues.",
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2009",
+            "authors": [
+              "Hagenmeyer E G",
+              "Schädlich P K",
+              "Köster A D",
+              "Dippel F-W",
+              "Häussler B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Diabetes Mellitus, Type 1",
+              "Exenatide",
+              "Humans",
+              "Insulin",
+              "Insulin Glargine",
+              "Insulin Infusion Systems",
+              "Insulin, Isophane",
+              "Insulin, Long-Acting",
+              "Patient Satisfaction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19277932/"
+          },
+          {
+            "pmid": "39678398",
+            "title": "Therapeutic effects of mesenchymal stem cell conditioned media on streptozotocin-induced diabetes in Wistar rats.",
+            "abstract": "Cell-based therapy is a new direction of treatment of diseases such as type 1 diabetes mellitus (T1DM); but unfortunately, its severe side effects include immunogenicity and tumor development. Using Mesenchymal stem cells conditioned medium (MSCs-CM) may be an alternative therapy to avoid stem cell risks, preserving effectiveness and demonstrating noticeably increased levels of cytokines, angiogenic factors, and growth factors that encourage and support regenerative processes. In the current work, we examined the effects of MSCs-CM injected in tail vein and pancreas directly compared with the standard antidiabetic drug, glimepiride in streptozotocin-induced type 1 diabetic rats. Fifty adults Male Wistar rats were allocated equally into five groups: normal, diabetic control and three diabetic groups treated respectively with glimepiride, MSCs-CM injected daily into tail vein (MSCs-CMT) and MSCs-CM injected directly in pancreas (MSCs-CMP); all treatments continued for 28 days. The treatm",
+            "journal": "Regenerative therapy",
+            "year": "2025",
+            "authors": [
+              "Shalaby Marwa S",
+              "Abdel-Reheim Eman S",
+              "Almanaa Taghreed N",
+              "Alhaber Lama Abdulaziz",
+              "Nabil Ahmed"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39678398/"
+          },
+          {
+            "pmid": "18502532",
+            "title": "Acute progression of severe insulin edema accompanied by pericardial and pleural effusion in a patient with type 2 diabetes.",
+            "abstract": "",
+            "journal": "Diabetes research and clinical practice",
+            "year": "2008",
+            "authors": [
+              "Kawashima Satoshi",
+              "Kaneto Hideaki",
+              "Sakamoto Ken'ya",
+              "Yasuda Tetsuyuki",
+              "Kuroda Akio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Disease Progression",
+              "Edema",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Inositol",
+              "Insulin, Isophane",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18502532/"
+          },
+          {
+            "pmid": "38513803",
+            "title": "A novel mutation in the ABCC8 gene causing maturity-onset diabetes of the young: A case report.",
+            "abstract": "A 34-year-old woman was diagnosed with type 1 diabetes mellitus and treated with insulin for 24 years. The patient has a family history of diabetes in three consecutive generations. Her Whole exon sequencing showed a heterozygous mutation in the ABCC8 gene, and it also found some of her relatives to carry this mutation. She was diagnosed with MODY12 and received glimepiride therapy with the achievement of good glycaemic control.",
+            "journal": "Clinical medicine (London, England)",
+            "year": "2024",
+            "authors": [
+              "Guo Yifan",
+              "Chen Yangli",
+              "Liang Wen",
+              "Zeng Lirong",
+              "Hu Fang"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Adult",
+              "Sulfonylurea Receptors",
+              "Diabetes Mellitus, Type 2",
+              "Mutation",
+              "Hypoglycemic Agents",
+              "Sulfonylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38513803/"
+          },
+          {
+            "pmid": "9188302",
+            "title": "New agents available for the treatment of diabetes.",
+            "abstract": "",
+            "journal": "Home care provider",
+            "year": "1996",
+            "authors": [
+              "Miller E C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acarbose",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Insulin Lispro",
+              "Metformin",
+              "Sulfonylurea Compounds",
+              "Trisaccharides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9188302/"
+          },
+          {
+            "pmid": "26118037",
+            "title": "[COMBINED HONDROPROTECTION IN REHABILITATION OF PATIENTS WITH DIABETES MELLITUS WITH DIABETIC ARTHROPATHY].",
+            "abstract": "The efficacy and tolerability of combined chondroprotectors Teraflex® in patients with diabetes mellitus type 1 and 2, complicated by arthropathy were investigated. It was established, that Tera- flex® therapy positively influences on the development of diabetic arthropathy (reducing intensity of pain, increasing the range of movements and reduced volume of the affected joints, increasing the functionality of the patient). In addition, an analysis of the impact of chondroprotectors on the level of sugar among patients.It was found, that it is necessary to control blood sugar while taking chondroprotectors and if needed, increasing the dose of hypoglycohaemic drugs during this period.",
+            "journal": "Likars'ka sprava",
+            "year": "2015",
+            "authors": [
+              "Orlenko V L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Blood Glucose",
+              "Chondroitin Sulfates",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Drug Monitoring",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26118037/"
+          },
+          {
+            "pmid": "21992555",
+            "title": "Effective treatment of diabetes caused by activating ABCC8/SUR1 mutation with glimepiride.",
+            "abstract": "",
+            "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+            "year": "2012",
+            "authors": [
+              "Karges B",
+              "Schnur D",
+              "Ellard S",
+              "Kentrup H",
+              "Karges W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "ATP-Binding Cassette Transporters",
+              "Adolescent",
+              "Adult",
+              "Diabetes Mellitus, Type 1",
+              "Female",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Infant, Newborn",
+              "Male",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21992555/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00222",
+    "name": "Glimepiride",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Glimepiride"
+      },
+      "queried_at": "2026-03-09T22:42:05.623833",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Glimepiride"
+      },
+      "queried_at": "2026-03-09T22:42:08.595585",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:09.221685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:13.862452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:15.381357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:16.216196",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:24.488642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:25.861667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T22:42:26.833262",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T22:42:33.747080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-09T22:42:35.467279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:36.037445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:44.783696",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-09T22:42:47.390332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:42:48.767334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:42:53.868485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:42:55.750334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:42:57.166728",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:43:03.979988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:43:05.320150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T22:43:07.289065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T22:43:12.734260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-09T22:43:14.836008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:43:15.425179",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:43:23.915777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-09T22:43:27.125220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T22:43:28.752588",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T22:43:35.981745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-09T22:43:40.669537",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "queried_at": "2026-03-09T22:44:13.768242",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "queried_at": "2026-03-09T22:44:19.137947",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "queried_at": "2026-03-09T22:44:23.052509",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:44:23.064414"
+  }
+}

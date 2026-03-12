@@ -1,0 +1,2696 @@
+{
+  "drug": {
+    "inn": "Oxycodone",
+    "drugbank_id": "DB00497",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "methemoglobinemia",
+        "txgnn_score": 0.9274483323097228,
+        "txgnn_rank": 31104,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "restless legs syndrome",
+        "txgnn_score": 0.9034944176673888,
+        "txgnn_rank": 34440,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01112644",
+            "title": "A Randomised, Double-blind, Placebo-controlled, Parallel-group, Multicenter Study to Demonstrate Improvement of Symptoms of RLS in Subjects With Moderate to Severe Idiopathic RLS With Daytime Symptoms Who Take OXN PR Compared to Subjects Taking Placebo (PLA).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-04",
+            "completion_date": "2011-06",
+            "country": "Germany, Spain, Sweden",
+            "enrollment": 205,
+            "brief_summary": "The primary objective for the 12-week Titration-/Maintenance Period is:\n\nTo demonstrate superior efficacy of OXN PR compared to PLA in the improvement of symptom severity of RLS.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Moderate to severe idiopathic RLS with daytime symptoms\n\nExclusion Criteria:\n\n* Females who are pregnant or lactating.\n* Subjects with evidence of significant structural abnormalities of the gastrointestinal tract.\n* Subjects with evidence of impaired liver/kidney function upo",
+            "endpoints": [
+              "Changes in the IRLS score between the two treatment arms will be compared"
+            ],
+            "sponsor": "Mundipharma Research GmbH & Co KG",
+            "url": "https://clinicaltrials.gov/study/NCT01112644"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33880737",
+            "title": "Restless Legs Syndrome: Contemporary Diagnosis and Treatment.",
+            "abstract": "Restless legs syndrome (RLS) is characterized by an uncomfortable urge to move the legs while at rest, relief upon movement or getting up to walk, and worsened symptom severity at night. RLS may be primary (idiopathic) or secondary to pregnancy or a variety of systemic disorders, especially iron deficiency, and chronic renal insufficiency. Genetic predisposition with a family history is common. The pathogenesis of RLS remains unclear but is likely to involve central nervous system dopaminergic dysfunction, as well as other, undefined contributing mechanisms. Evaluation begins with a thorough history and examination, and iron measures, including ferritin and transferrin saturation, should be checked at presentation and with worsened symptoms, especially when augmentation develops. Augmentation is characterized by more intense symptom severity, earlier symptom occurrence, and often, symptom spread from the legs to the arms or other body regions. Some people with RLS have adequate symptom",
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "authors": [
+              "Gossard Thomas R",
+              "Trotti Lynn Marie",
+              "Videnovic Aleksandar",
+              "St Louis Erik K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dopamine Agonists",
+              "Humans",
+              "Quality of Life",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33880737/"
+          },
+          {
+            "pmid": "30244828",
+            "title": "Comorbidities, treatment, and pathophysiology in restless legs syndrome.",
+            "abstract": "Restless legs syndrome, also known as Willis-Ekbom disease, is a common neurological condition whose manifestation is affected by complex environmental and genetic interactions. Restless legs syndrome can occur on its own, mostly at a young age, or with comorbidities such as cardiovascular disease, diabetes, and arterial hypertension, making it a difficult condition to properly diagnose. However, the concept of restless legs syndrome as being two entities, primary or secondary to another condition, has been challenged with genetic data providing further insight into the pathophysiology of the condition. Although dopaminergic treatment was formerly the first-line therapy, prolonged use can result in a serious worsening of symptoms known as augmentation. Clinical studies on pregabalin, gabapentin enacarbil, oxycodone-naloxone, and iron preparations have provided new treatment options, but most patients still report inadequate long-term management of symptoms. Studies of the hypoxic pathw",
+            "journal": "The Lancet. Neurology",
+            "year": "2018",
+            "authors": [
+              "Trenkwalder Claudia",
+              "Allen Richard",
+              "Högl Birgit",
+              "Clemens Stefan",
+              "Patton Stephanie"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Comorbidity",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30244828/"
+          },
+          {
+            "pmid": "39324694",
+            "title": "Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline.",
+            "abstract": "This guideline establishes clinical practice recommendations for treatment of restless legs syndrome (RLS) and periodic limb movement disorder (PLMD) in adults and pediatric patients.",
+            "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+            "year": "2025",
+            "authors": [
+              "Winkelman John W",
+              "Berkowski J Andrew",
+              "DelRosso Lourdes M",
+              "Koo Brian B",
+              "Scharf Matthew T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Restless Legs Syndrome",
+              "Nocturnal Myoclonus Syndrome",
+              "Sleep Medicine Specialty",
+              "United States",
+              "Child",
+              "Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39324694/"
+          },
+          {
+            "pmid": "30411165",
+            "title": "Restless Legs Syndrome and Other Movement Disorders of Sleep-Treatment Update.",
+            "abstract": "The purpose of this review article is to summarize and discuss the recent advances in the treatment of restless legs syndrome (RLS), as well as REM sleep behavior disorder (RBD), and periodic leg movement disorder (PLMD).",
+            "journal": "Current treatment options in neurology",
+            "year": "2018",
+            "authors": [
+              "Salminen Aaro V",
+              "Winkelmann Juliane"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30411165/"
+          },
+          {
+            "pmid": "32386701",
+            "title": "Pharmacologic and Nonpharmacologic Treatment of Restless Legs Syndrome.",
+            "abstract": "This article provides an updated practical guide for the treatment of primary restless legs syndrome (RLS). Articles that appeared after the American Academy of Neurology guideline search were reviewed according to the same evidence rating schedule. We found limited evidence for nonpharmacologic treatment options. In moderate to severe primary RLS, pharmacologic options may be considered, including iron suppletion, an α2δ ligand, a dopamine agonist, a combination of an α2δ ligand and a dopamine agonist, or oxycodone/naloxone. This article includes treatment options in case of augmentation.",
+            "journal": "Sleep medicine clinics",
+            "year": "2020",
+            "authors": [
+              "Anguelova Galia V",
+              "Vlak Monique H M",
+              "Kurvers Arthur G Y",
+              "Rijsman Roselyne M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dopamine Agonists",
+              "Humans",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32386701/"
+          },
+          {
+            "pmid": "18656214",
+            "title": "[Restless-legs syndrome].",
+            "abstract": "Restless-legs syndrome (RLS) is a sensorimotor disorder, characterized by an irresistible urge to move the legs usually accompanied or caused by uncomfortable and unpleasant sensations. It begins or worsens during periods of rest or inactivity, is partially or totally relieved by movements and is exacerbated or occurs at night and in the evening. RLS sufferers represent 2 to 3% of the general population in Western countries. Supportive criteria include a family history, the presence of periodic-leg movements (PLM) when awake or asleep and a positive response to dopaminergic treatment. The RLS phenotypes include an early onset form, usually idiopathic with a familial history and a late onset form, usually secondary to peripheral neuropathy. Recently, an atypical RLS phenotype without PLM and l-DOPA resistant has been characterized. RLS can occur in childhood and should be distinguished from attention deficit/hyperactivity disorder, growing pains and sleep complaints in childhood. RLS sh",
+            "journal": "Revue neurologique",
+            "year": "2008",
+            "authors": [
+              "Karroum E",
+              "Konofal E",
+              "Arnulf I"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dopamine Agents",
+              "History, 18th Century",
+              "History, 19th Century",
+              "History, 20th Century",
+              "Humans",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18656214/"
+          },
+          {
+            "pmid": "33985652",
+            "title": "Restless Legs Syndrome: Challenges to Treatment.",
+            "abstract": "For a long time, dopaminergic treatment (DT) was the medication for restless legs syndrome. Although DT is effective and safe over the short-term, complications develop over longer periods, including augmentation, tolerance, and impulse control disorders. Nowadays, it is recommended that first-line treatment should be alpha-2 ligands, which are more effective in the absence of previous DT. As a second-line treatment, opioids, such as oxycodone extended-release with naloxone, are approved in Europe. Brain iron should be monitored before and during treatment and corrected if necessary. Two new promising non-DTs are being developed: perampanel and dipyridamole. More research is needed.",
+            "journal": "Sleep medicine clinics",
+            "year": "2021",
+            "authors": [
+              "P Laura M Botta",
+              "E Samantha S Anguizola",
+              "Castro-Villacañas Andrea",
+              "Garcia-Borreguero Diego"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Dopamine",
+              "Humans",
+              "Iron",
+              "Ligands",
+              "Randomized Controlled Trials as Topic",
+              "Restless Legs Syndrome",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33985652/"
+          },
+          {
+            "pmid": "35026088",
+            "title": "[Oxycodone to treat restless legs syndrome?].",
+            "abstract": "",
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2022",
+            "authors": [
+              "Waal Helge"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Oxycodone",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35026088/"
+          },
+          {
+            "pmid": "24745717",
+            "title": "Pharmacotherapy for restless legs syndrome.",
+            "abstract": "Restless legs syndrome (RLS) is a common condition characterized by paresthesia and an urge to move. Predominantly, symptoms occur at rest in the evening or at night, and they are alleviated by moving the affected extremity. RLS prevalence in the general population has been estimated to be approximately 5%.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2014",
+            "authors": [
+              "Ferini-Strambi Luigi",
+              "Marelli Sara"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Animals",
+              "Calcium Channel Blockers",
+              "Dopamine Agonists",
+              "Humans",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24745717/"
+          },
+          {
+            "pmid": "29759272",
+            "title": "Pharmacologic and Nonpharmacologic Treatment of Restless Legs Syndrome.",
+            "abstract": "This article provides an updated practical guide for the treatment of primary restless legs syndrome (RLS). Articles that appeared after the American Academy of Neurology guideline search were reviewed according to the same evidence rating schedule. We found limited evidence for nonpharmacologic treatment options. In moderate to severe primary RLS, pharmacologic options may be considered, including iron suppletion, an α2δ ligand, a dopamine agonist, a combination of an α2δ ligand and a dopamine agonist, or oxycodone/naloxone. This article includes treatment options in case of augmentation.",
+            "journal": "Sleep medicine clinics",
+            "year": "2018",
+            "authors": [
+              "Anguelova Galia V",
+              "Vlak Monique H M",
+              "Kurvers Arthur G Y",
+              "Rijsman Roselyne M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Dopamine Agonists",
+              "Excitatory Amino Acid Antagonists",
+              "Humans",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29759272/"
+          },
+          {
+            "pmid": "27964861",
+            "title": "Pain, opioids, and sleep: implications for restless legs syndrome treatment.",
+            "abstract": "Opioid receptor agonists are known to relieve restless legs syndrome (RLS) symptoms, including both sensory and motor events, as well as improving sleep. The mechanisms of action of opioids in RLS are still a matter of speculation. The mechanisms by which endogenous opioids contribute to the pathophysiology of this polygenetic disorder, in which there are a number of variants, including developmental factors, remains unknown. A summary of the cellular mode of action of morphine and its (partial) antagonist naloxone via α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptors and the involvement of dendritic spine activation is described. By targeting pain and its consequences, opioids are the first-line treatment in many diseases and conditions with both acute and chronic pain and have thus been used in both acute and chronic pain conditions over the last 40 years. Addiction, dependence, and tolerability of opioids show a wide variability interindividually, as the response",
+            "journal": "Sleep medicine",
+            "year": "2017",
+            "authors": [
+              "Trenkwalder Claudia",
+              "Zieglgänsberger Walter",
+              "Ahmedzai Sam H",
+              "Högl Birgit"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Animals",
+              "Humans",
+              "Pain",
+              "Restless Legs Syndrome",
+              "Sleep"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27964861/"
+          },
+          {
+            "pmid": "26966363",
+            "title": "Intractable restless legs syndrome: role of prolonged-release oxycodone-naloxone.",
+            "abstract": "Restless legs syndrome (RLS) is a common neurological disorder characterized by an irresistible urge to move the legs accompanied by uncomfortable sensations that occur at night or at time of rest. Pharmacological therapy should be limited to patients who suffer from clinically relevant symptoms. Chronic RLS is usually treated with either a dopamine agonist (pramipexole, ropinirole, rotigotine) or an α2δ calcium-channel ligand (gabapentin, gabapentin enacarbil, pregabalin). Augmentation is the main complication of long-term dopaminergic treatment, and frequently requires a reduction of current dopaminergic dose or a switch to non-dopaminergic medications. Opioids as monotherapy or add-on treatment should be considered when alternative satisfactory regimens are unavailable and the severity of symptoms warrants it. In a recent Phase III trial, oxycodone-naloxone prolonged release (PR) demonstrated a significant and sustained effect on patients with severe RLS inadequately controlled by p",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2016",
+            "authors": [
+              "de Biase Stefano",
+              "Valente Mariarosaria",
+              "Gigli Gian Luigi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26966363/"
+          },
+          {
+            "pmid": "26215616",
+            "title": "Restless legs syndrome-current therapies and management of augmentation.",
+            "abstract": "Idiopathic restless legs syndrome (RLS) can severely affect quality of life and disturb sleep, so that pharmacological treatment is necessary, especially for elderly patients. Treatment guidelines recommend initiation of therapy with dopamine agonists (pramipexole, ropinirole or the rotigotine transdermal patch, all approved in most countries) or α-2-δ ligands (gabapentin enacarbil, approved in the USA and Japan), depending on the country and availability. Where approved, opioids (prolonged release oxycodone-naloxone, approved in Europe) are also recommended as a second-line therapy for severe RLS. Several iron formulations can be effective but are not yet approved for RLS therapy, whereas benzodiazepines and other anticonvulsants are not recommended or approved. Less is known about effective management of RLS that is associated with other conditions, such as uraemia or pregnancy. Furthermore, very little data are available on the management of RLS when first-line treatment fails or pa",
+            "journal": "Nature reviews. Neurology",
+            "year": "2015",
+            "authors": [
+              "Trenkwalder Claudia",
+              "Winkelmann Juliane",
+              "Inoue Yuichi",
+              "Paulus Walter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amines",
+              "Analgesics, Opioid",
+              "Anticonvulsants",
+              "Cyclohexanecarboxylic Acids",
+              "Dopamine Agonists",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Female",
+              "Gabapentin",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26215616/"
+          },
+          {
+            "pmid": "29756335",
+            "title": "Treatment of restless legs syndrome: Evidence-based review and implications for clinical practice (Revised 2017)§.",
+            "abstract": "The objective of the current review was to update the previous evidence-based medicine review of treatments for restless legs syndrome published in 2008. All randomized, controlled trials (level I) with a high quality score published between January 2007 and January 2017 were reviewed. Forty new studies qualified for efficacy review. Pregabalin, gabapentin enacarbil, and oxycodone/naloxone, which did not appear in the previous review, have accrued data to be considered efficacious. Likewise, new data enable the modification of the level of efficacy for rotigotine from likely efficacious to efficacious. Intravenous ferric carboxymaltose and pneumatic compression devices are considered likely efficacious in idiopathic restless legs syndrome. Bupropion and clonidine were reviewed, but the lack of data determined a rating of insufficient evidence for efficacy. The following interventions continue to be considered efficacious as in 2008: levodopa, ropinirole, pramipexole, cabergoline, pergo",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2018",
+            "authors": [
+              "Winkelmann Juliane",
+              "Allen Richard P",
+              "Högl Birgit",
+              "Inoue Yuichi",
+              "Oertel Wolfgang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Dopamine Agents",
+              "Evidence-Based Practice",
+              "Humans",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29756335/"
+          },
+          {
+            "pmid": "26135898",
+            "title": "Oxycodone/Naloxone PR: A Review in Severe Refractory Restless Legs Syndrome.",
+            "abstract": "An oral, fixed-dose combination of prolonged-release (PR) oxycodone with PR naloxone (Targin(®), Targiniq(®), Targinact(®); hereafter referred to as oxycodone/naloxone PR) is approved in Europe for the second-line symptomatic treatment of patients with severe to very severe idiopathic restless legs syndrome (RLS), after failure of dopaminergic therapy. Coadministration of naloxone represents a targeted approach to counteracting opioid-induced bowel dysfunction without compromising therapeutic efficacy; because of its very low oral bioavailability, naloxone blocks the action of oxycodone at opioid receptors locally in the gut. The efficacy of oxycodone/naloxone PR in patients with severe RLS inadequately controlled by previous (mainly dopaminergic) treatment has been demonstrated in RELOXYN, a 12-week, randomized, double-blind study with a 40-week open-label extension. In this pivotal study, oxycodone/naloxone PR significantly improved RLS symptoms compared with placebo from week 2 onwa",
+            "journal": "CNS drugs",
+            "year": "2015",
+            "authors": [
+              "Frampton James E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Central Nervous System Agents",
+              "Drug Combinations",
+              "Humans",
+              "Naloxone",
+              "Oxycodone",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26135898/"
+          },
+          {
+            "pmid": "27355187",
+            "title": "Opioids for restless legs syndrome.",
+            "abstract": "Restless legs syndrome (RLS) is a distressing and common neurological disorder that may have a huge impact in the quality of life of those with frequent and intense symptoms. Patients complain of unpleasant sensations in the legs, at or before bedtime, and feel an urge to move the legs, which improves with movement, such as walking. Symptoms start with the patient at rest (e.g. sitting or lying down), and follow a circadian pattern, increasing during the evening or at night. Many pharmacological intervention are available for RLS, including drugs used to treat Parkinson's disease (L-Dopa and dopaminergic agonists), epilepsy (anticonvulsants), anxiety (benzodiazepines), and pain (opioids). Dopaminergic drugs are those most frequently used for treatment of RLS, but some patients do not respond effectively and require other medication. Opioids, a class of medications used to treat severe pain, seem to be effective in treating RLS symptoms, and are recommended for patients with severe symp",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2016",
+            "authors": [
+              "de Oliveira César Osório",
+              "Carvalho Luciane Bc",
+              "Carlos Karla",
+              "Conti Cristiane",
+              "de Oliveira Marcio M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Disorders of Excessive Somnolence",
+              "Humans",
+              "Naloxone",
+              "Oxycodone",
+              "Randomized Controlled Trials as Topic",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27355187/"
+          },
+          {
+            "pmid": "27310338",
+            "title": "Opioids in the treatment of restless legs syndrome: pharmacological and clinical aspects.",
+            "abstract": "Restless legs syndrome (RLS) is a common neurologic sensory-motor disorder that can have a negative impact on sleep, quality of life and health. In patients affected by severe RLS, pharmacological treatment is mandatory.",
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2016",
+            "authors": [
+              "de Biase Stefano",
+              "Merlino Giovanni",
+              "Valente Mariarosaria",
+              "Gigli Gian Luigi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Delayed-Action Preparations",
+              "Dopamine Agents",
+              "Drug Combinations",
+              "Humans",
+              "Naloxone",
+              "Oxycodone",
+              "Quality of Life",
+              "Restless Legs Syndrome",
+              "Severity of Illness Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27310338/"
+          },
+          {
+            "pmid": "17876423",
+            "title": "[Restless legs syndrome: diagnosis and treatment. Opinion of Brazilian experts].",
+            "abstract": "This article contains the conclusions of the November 17-18, 2006 meeting of the Brazilian Study Group of Restless Legs Syndrome (GBE-SPI) about diagnosis and management of restless legs syndrome (RLS). RLS is characterized by abnormal sensations mostly but not exclusively in the legs which worsen in the evening and are improved by motion of the affected body part. Its diagnosis is solely based on clinical findings. Therapeutic agents with efficacy supported by Class I studies are dopamine agonists, levodopa and gabapentin. Class II studies support the use of slow release valproic acid, clonazepam and oxycodone. The GBE-SPI recommendations for management of SPI are sleep hygiene, withdrawal of medications capable of worsening the condition, treatment of comorbidities and pharmacological agents. The first choice agents are dopaminergic drugs, second choice are gabapentin or oxycodone, and the third choice are clonazepam or slow release valproic acid.",
+            "journal": "Arquivos de neuro-psiquiatria",
+            "year": "2007",
+            "authors": [],
+            "pub_types": [
+              "Consensus Statement",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Brazil",
+              "Diagnosis, Differential",
+              "Dopamine Agents",
+              "Dopamine Agonists",
+              "Humans",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17876423/"
+          },
+          {
+            "pmid": "27079737",
+            "title": "Targinact for restless legs syndrome.",
+            "abstract": "Idiopathic restless legs syndrome (RLS)--also known as Willis-Ekbom disease--is a neurological condition characterised by an overwhelming urge to move the legs, occurring during rest or inactivity, especially at night. Symptoms are highly variable in frequency and severity, and can affect sleep and quality of life. First-line management includes addressing precipitating or aggravating factors and providing explanation, reassurance and advice on self-help strategies. Drug therapy (e.g. a dopamine agonist) is used for patients with more severe symptoms. In December 2014, the marketing authorisation for a modified-release preparation containing oxycodone and naloxone (Targinact-Napp Pharmaceuticals) was expanded to include use in the treatment of severe to very severe RLS after failure of dopaminergic therapy.(10)Here we review the management of adults with RLS, including the place of oxycodone/naloxone.",
+            "journal": "Drug and therapeutics bulletin",
+            "year": "2016",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Dopamine Agonists",
+              "Drug Combinations",
+              "Humans",
+              "Naloxone",
+              "Oxycodone",
+              "Practice Guidelines as Topic",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27079737/"
+          },
+          {
+            "pmid": "24140443",
+            "title": "Opioids and restless legs syndrome.",
+            "abstract": "",
+            "journal": "The Lancet. Neurology",
+            "year": "2013",
+            "authors": [
+              "Walters Arthur S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Male",
+              "Naloxone",
+              "Oxycodone",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24140443/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myofascial pain syndrome",
+        "txgnn_score": 0.8854248523712158,
+        "txgnn_rank": 36225,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00580294",
+            "title": "A Pilot Study of Rapid Opioid Rotation and Titration of Oxymorphone",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2007-11",
+            "completion_date": "2008-08",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "The purpose of this study is to see if changing from one pain medication like morphine or oxycodone to another pain medication, oxymorphone (OPANA®), will be helpful to patients. This study will examine if the switching from one pain medication to another can be done over a 24 hour period. Oxymorphone, the drug being studied, is an FDA approved drug for treatment of severe pain.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age of 18 to no upper limit\n* Chronic pain of nociceptive, neuropathic, or mixed origin\n* Patients with chronic non cancer pain\n* Ongoing chronic opioid treatment with either oral morphine or oxycodone (long term - more than 3 months of at least a total daily opioid dose of 60",
+            "endpoints": [
+              "Change in Patient Global Impression of Change",
+              "Brief Pain Inventory"
+            ],
+            "sponsor": "Icahn School of Medicine at Mount Sinai",
+            "url": "https://clinicaltrials.gov/study/NCT00580294"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02307305",
+            "title": "Does Duloxetine Reduce Chronic Pain After Total Knee Arthroplasty?",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2014-08",
+            "completion_date": "2016-12",
+            "country": "South Korea",
+            "enrollment": 168,
+            "brief_summary": "Range from 24% to 44%, with a prevalence of neuropathic-type pain from 6% to 20%-cause impairment in quality of life and functional capacity after total knee arthroplasty(TKA). Duloxetine (cymbalta) is a selective serotonin and nor-epinephrine reuptake inhibitor shown to be effective in treating chronic pain. Serotonin and norepinephrine in the brain and spinal cord are believed to both mediate core mood symptoms and help regulate the perception of pain. Its effects on depression and anxiety sym",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Osteoarthritis of knee requiring TKA\n\nExclusion Criteria:\n\n* Rheumatoid arthritis\n* Other inflammatory arthritis\n* Neuropsychiatric patients\n* Hepatic insufficiency\n* Renal insufficiency\n* Patients older than 75\n* Allergy or intolerance to study medications\n* Patients with an ",
+            "endpoints": [
+              "neuropathic pain(the self assessed-Leeds Assessment of Neuropathic Symptoms and Signs pain scale, S-LANSS)"
+            ],
+            "sponsor": "Hanyang University Seoul Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02307305"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21419546",
+            "title": "Use of opioids in long-term management of temporomandibular joint dysfunction.",
+            "abstract": "The long-term treatment of patients with chronic temporomandibular joint dysfunction has been challenging. The long-term use of opioids in these patients can be neither supported nor refuted based on current evidence. However, evidence is available to support the long-term use of opioids in other chronic noncancer pain states with reduced pain, improved function, and improved quality of life. One group of patients with chronic temporomandibular joint pain, for whom both noninvasive and invasive treatment has failed, might benefit from long-term opioid medication. The choices include morphine, fentanyl, oxycodone, tramadol, hydrocodone, and methadone. Adjunct medication, including antidepressant and anticonvulsant drugs, can also be used. The safety of these medications has been well established, but the potential for adverse drug-related behavior does exist, requiring appropriate patient selection, adequate monitoring, and intervention when needed.",
+            "journal": "Journal of oral and maxillofacial surgery : official journal of the American Association of Oral and Maxillofacial Surgeons",
+            "year": "2011",
+            "authors": [
+              "Bouloux Gary F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Chronic Disease",
+              "Drug Monitoring",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Long-Term Care",
+              "Opioid-Related Disorders",
+              "Patient Selection",
+              "Quality of Life",
+              "Safety"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21419546/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobinemia, alpha type",
+        "txgnn_score": 0.8587775826454163,
+        "txgnn_rank": 38520,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.8515265583992004,
+        "txgnn_rank": 39081,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03365817",
+            "title": "Cognitive Function and Addiction in Patients With Chronic Pain Under Opioid Tapering in a Multidisciplinary Pain Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-02-02",
+            "completion_date": "2014-12-01",
+            "country": "N/A",
+            "enrollment": 75,
+            "brief_summary": "This study evaluates the effects of opioid dose reduction in the treatment of chronic pain in adults. Participants were divided in two groups: 1) patients that reduced opioid dose and 2) patients that kept the same opioid dose for six months.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* age 18 years old or more\n* at least seven years of schooling\n* pain duration of at least six months,\n* treatment with oral opioids for more than three months\n* daily opioid dose ≥ 60 mg of oral morphine equivalent\n\nExclusion Criteria:\n\n* not fluent in Danish language\n* cancer ",
+            "endpoints": [
+              "Cognitive function - sustained attention",
+              "Cognitive function - psychomotor speed",
+              "Cognitive function - working memory"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT03365817"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03975790",
+            "title": "Comparative Analysis of Outcomes Among Patients Initiating Xeljanz in Combination With Oral MTX Who Withdraw MTX Versus Continue MTX Using a United States Healthcare Claims Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2018-05-29",
+            "completion_date": "2018-10-02",
+            "country": "United States",
+            "enrollment": 479,
+            "brief_summary": "To address the objectives, a retrospective cohort design will be employed to evaluate patient characteristics, treatment patterns, medication effectiveness, and health care cost and utilization in RA patients newly initiating tofacitinib in combination with oral methotrexate (MTX)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* At least one claim for tofacitinib between 01 January 2014 and 31 January 2017 (the identification period).\n* Presence of The International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9 CM) code for RA (in any position) during the one-year pre-index pe",
+            "endpoints": [
+              "Number of Participants as Per Type of Insurance Plan",
+              "Number of Participants in Each Geographic Region",
+              "Number of Participants With Biologic Disease Modifying Antirheumatic Drug (bDMARD) Use During Pre-Index Period"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03975790"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04657549",
+            "title": "Partial or Total Surgical Removal of Palatal Tonsils to Change Quality of Life for Adults With Chronic or Recurrent Tonsillitis: Randomized Controlled Trial.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-12-08",
+            "completion_date": "2023-06-09",
+            "country": "Finland",
+            "enrollment": 147,
+            "brief_summary": "Tonsil surgery is common in adults with recurrent or chronic tonsillitis. The surgical techniques include either partial or total surgical removal of the palatal tonsils (tonsillotomy, TT, and tonsillectomy, TE, respectively). The aim of this study is to find out, whether tonsil surgery improves the quality of life in these patients and whether the lighter TT is as effective as TE. Our main outcome is the disease-specific Tonsillectomy Outcome Inventory-14 (TOI-14) quality of life questionnaire ",
+            "eligibility_criteria": "The inclusion criteria are:\n\n* Recurrent tonsillitis episodes:\n\n  * At least 4 episodes in the previous 12 months or at least 3 episodes in 6 months\n  * Episodes are disabling, prevent normal functioning and are severe enough for the patient to seek medical attention\n  * Episodes are thought to invo",
+            "endpoints": [
+              "Tonsillectomy Outcome Inventory -14 (TOI-14) follow-up score"
+            ],
+            "sponsor": "Oulu University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04657549"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06841822",
+            "title": "The Impact of Ultrasound-Guided Superficial and Deep Paravertebral Nerve Blocks at the Superior Costotransverse Ligament on Hemodynamics During the Induction Phase of Thoracoscopic Lung Lobectomy: A Multicenter, Double-Blind, Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-05-25",
+            "completion_date": "2026-06-30",
+            "country": "China",
+            "enrollment": 168,
+            "brief_summary": "This study aims to determine whether performing a paravertebral nerve block at the superficial surface of the superior costotransverse ligament (SCTL) (without needle penetration of the SCTL) is more effective in maintaining hemodynamic stability during the induction phase of thoracoscopic lung lobectomy compared to the deep surface of the SCTL (with needle penetration of the SCTL).\n\nThis is a multicenter, double-blind, randomized controlled trial enrolling a total of 168 participants across fiv",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients scheduled for elective two-port video-assisted thoracoscopic lobectomy\n* Age: ≥18 years\n* ASA classification: I-III\n* BMI: 18-30 kg/m²\n\nExclusion Criteria:\n\n* Severe hypertension (SBP ≥180 mmHg or DBP ≥110 mmHg)\n* MAP \\<70 mmHg before anesthesia induction\n* Emergency ",
+            "endpoints": [
+              "Incidence of hypotension"
+            ],
+            "sponsor": "Nanjing First Hospital, Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT06841822"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01428583",
+            "title": "A Multicenter, 12-month, Open-label, Single-arm, Safety Study Of Oxycodone Hydrochloride And Naltrexone Hydrochloride Extended-release Capsules In Subjects With Moderate To Severe Chronic Noncancer Pain",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-12",
+            "completion_date": "2012-05",
+            "country": "United States",
+            "enrollment": 395,
+            "brief_summary": "The study will provide information to assess the benefits versus risks of extended exposure to oxycodone HCl and naltrexone HCl extended-release capsules in a chronic noncancer pain population.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject has moderate to severe chronic noncancer pain (duration of at least 3 months) requiring a continuous around-the-clock opioid analgesic for an extended period of time. Conditions may include, but are not limited to, osteoarthritis, chronic low back pain, or other opioid",
+            "endpoints": [
+              "Number of Participants With Treatment-Emergent Adverse Events (AEs) and Adverse Reactions"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01428583"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31772391",
+            "title": "The effect of analgesics on stimulus evoked pain-like behaviour in animal models for chemotherapy induced peripheral neuropathy- a meta-analysis.",
+            "abstract": "Chemotherapy induced painful peripheral neuropathy (CIPN) is a common dose-limiting side effect of several chemotherapeutic agents. Despite large amounts of human and animal studies, there is no sufficiently effective pharmacological treatment for CIPN. Although reducing pain is often a focus of CIPN treatment, remarkably few analgesics have been tested for this indication in clinical trials. We conducted a systematic review and meta-analyses regarding the effects of analgesics on stimulus evoked pain-like behaviour during CIPN in animal models. This will form a scientific basis for the development of prospective human clinical trials. A comprehensive search identified forty-six studies. Risk of bias (RoB) analyses revealed that the design and conduct of the included experiments were poorly reported, and therefore RoB was unclear in most studies. Meta-analyses showed that administration of analgesics significantly increases pain threshold for mechanical (SMD: 1.68 [1.41; 1.82]) and col",
+            "journal": "Scientific reports",
+            "year": "2019",
+            "authors": [
+              "Hooijmans Carlijn R",
+              "Draper Derk",
+              "Ergün Mehmet",
+              "Scheffer Gert Jan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Analgesics",
+              "Animals",
+              "Disease Models, Animal",
+              "Pain",
+              "Peripheral Nervous System Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31772391/"
+          },
+          {
+            "pmid": "28274698",
+            "title": "Effects of Short-Term Oxycodone Maintenance on Experimental Pain Responses in Physically Dependent Opioid Abusers.",
+            "abstract": "A common clinical problem with opioid analgesics is the loss of analgesic efficacy after repeated dosing; when this occurs, it is not clear what principles should guide providing effective analgesia among opioid-dependent individuals. This within-subject inpatient study aimed to determine if physically dependent opioid abusers (n = 11) experience changes in oxycodone-induced analgesia during 2 oxycodone maintenance (30 mg orally 4 times per day) phases: initial stabilization (days 1-3) and after 6 weeks of chronic dosing. Six sessions (3 each phase), measured threshold, tolerance, and pain ratings for a Pressure Pain Test and Cold Pressor Test after a single double-blind dose of oxycodone 30 mg (initial stabilization) and 0, 30, and 60 mg (chronic dosing) given in place of a scheduled maintenance dose. Physiologic and opioid agonist effects were assessed during chronic dosing sessions. There was no analgesic response to oxycodone 30 mg. Oxycodone (60 mg) produced a 25% increase in peak",
+            "journal": "The journal of pain",
+            "year": "2017",
+            "authors": [
+              "Coe Marion A",
+              "Nuzzo Paul A",
+              "Lofwall Michelle R",
+              "Walsh Sharon L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesia",
+              "Analgesics, Opioid",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Male",
+              "Opioid-Related Disorders",
+              "Oxycodone",
+              "Pain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28274698/"
+          },
+          {
+            "pmid": "28579822",
+            "title": "Quantitative sensory testing measures individual pain responses in emergency department patients.",
+            "abstract": "Refining and individualizing treatment of acute pain in the emergency department (ED) is a high priority, given that painful complaints are the most common reasons for ED visits. Few tools exist to objectively measure pain perception in the ED setting. We speculated that variation in perception of fixed painful stimuli would explain individual variation in reported pain and response to treatment among ED patients.",
+            "journal": "Journal of pain research",
+            "year": "2017",
+            "authors": [
+              "Duffy Kevin J",
+              "Flickinger Katharyn L",
+              "Kristan Jeffrey T",
+              "Repine Melissa J",
+              "Gianforcaro Alexandro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28579822/"
+          },
+          {
+            "pmid": "19538951",
+            "title": "Hypothermic organ preservation by static storage methods: Current status and a view to the future.",
+            "abstract": "The donor organ shortage is the largest problem in transplantation today and is one where organ preservation technology has an important role to play. Static storage of solid organs, especially of the kidney, continues to be the most common method employed for storage and transport of organs from deceased donors. However, the increase in organs obtained from expanded criteria donors and donors with cardiac death provide new challenges in crafting effective preservation methods for the future. This article reviews the current status of static hypothermic storage methods and discusses potential avenues for future exploitation of this technology as the available organ pool is expanded into the more marginal donor categories.",
+            "journal": "Cryobiology",
+            "year": "2010",
+            "authors": [
+              "McAnulty Jonathan F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cold Ischemia",
+              "Humans",
+              "Hypothermia, Induced",
+              "Kidney Transplantation",
+              "Organ Preservation",
+              "Organ Preservation Solutions",
+              "Organ Transplantation",
+              "Oxycodone",
+              "Signal Transduction",
+              "Temperature"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19538951/"
+          },
+          {
+            "pmid": "19963418",
+            "title": "Modality of hyperalgesia tested, not type of nerve damage, predicts pharmacological sensitivity in rat models of neuropathic pain.",
+            "abstract": "Although many types of nerve damage can cause neuropathic pain, there are substantial commonalities in neuropathic pain symptoms, and patients can be divided into sub-groups based on their symptom profile rather than etiology. Mechanism-based treatment suggests that pharmacotherapy should be chosen be based shared commonalities of symptoms rather than etiology. The aim of the present study was to determine whether type of injury (etiology) or behavioral endpoint (symptom) is a better predictor of pharmacological responsivity in the most commonly used rodent models of neuropathic pain. We used the chronic constriction injury (CCI) model to directly compare the temporal and pharmacological characteristics of four different types of evoked stimuli; heat, pressure, acetone cooling and punctate mechanical. We then compared heat hyperalgesia and mechanical allodynia endpoints across etiologies using the spinal nerve ligation (SNL) model. Evoked pain responses in both models had strikingly di",
+            "journal": "European journal of pain (London, England)",
+            "year": "2010",
+            "authors": [
+              "Pradhan Amynah Amir Ali",
+              "Yu Xiao Hong",
+              "Laird Jennifer M A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Cold Temperature",
+              "Disease Models, Animal",
+              "Hot Temperature",
+              "Hyperalgesia",
+              "Neuralgia",
+              "Pain Measurement",
+              "Pain Threshold",
+              "Physical Stimulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19963418/"
+          },
+          {
+            "pmid": "26808012",
+            "title": "Effect of endocannabinoid degradation on pain: role of FAAH polymorphisms in experimental and postoperative pain in women treated for breast cancer.",
+            "abstract": "Fatty acid amide hydrolase (FAAH) metabolizes the endocannabinoid anandamide, which has an important role in nociception. We investigated the role of common FAAH single-nucleotide polymorphisms (SNPs) in experimentally induced and postoperative pain. One thousand women undergoing surgery for breast cancer participated in the study. They were tested for cold (n = 900) and heat pain (n = 1000) sensitivity. After surgery, their pain intensities and analgesic consumption were carefully registered. FAAH genotyping was performed using MassARRAY platform and genome-wide chip (n = 926). Association between 8 FAAH SNPs and 9 pain phenotypes was analyzed using linear regression models. The results showed that carrying 2 copies of a missense variant converting proline at position 129 to threonine (rs324420) resulted in significantly lower cold pain sensitivity and less need for postoperative analgesia. More specifically, rs324420 and another highly correlated SNP, rs1571138, associated significan",
+            "journal": "Pain",
+            "year": "2016",
+            "authors": [
+              "Cajanus Kristiina",
+              "Holmström Emil J",
+              "Wessman Maija",
+              "Anttila Verneri",
+              "Kaunisto Mari A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Amidohydrolases",
+              "Breast Neoplasms",
+              "Chi-Square Distribution",
+              "Cohort Studies",
+              "Endocannabinoids",
+              "Female",
+              "Genetic Association Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26808012/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.8503455519676208,
+        "txgnn_rank": 39155,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.8449893593788147,
+        "txgnn_rank": 39555,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03714867",
+            "title": "Use of Single Dose Pre-Operative Pregabalin for Post-Operative Analgesia in Bilateral Head and Neck Cancer Surgery: A Randomized, Double-Blinded, Placebo-Controlled Trial",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2019-03-22",
+            "completion_date": "2020-07-07",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to evaluate and reduce pain and improve quality of life in patients being treated for head and neck cancer with primary tumor resection and bilateral neck dissections. Patients will be randomly assigned to receive either pre-operative pregabalin (Lyrica) or a placebo. Patients and investigators will be blinded to which medication patients receive, and all patients will receive the same postoperative pain medication regimen with appropriate pain treatment as needed. P",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* English-speaking patients who are greater than eighteen years of age with a known diagnosis of head and neck cancer and are planned to undergo surgery with bilateral neck dissections will be eligible for this study.\n\nExclusion Criteria:\n\n* Patients with a history of preoperati",
+            "endpoints": [
+              "Brief Pain Inventory"
+            ],
+            "sponsor": "Augusta University",
+            "url": "https://clinicaltrials.gov/study/NCT03714867"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01431326",
+            "title": "Pharmacokinetics of Understudied Drugs Administered to Children Per Standard of Care",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-11",
+            "completion_date": "2019-11",
+            "country": "United Kingdom, Canada, Israel, United States, Singapore",
+            "enrollment": 3520,
+            "brief_summary": "Understudied drugs will be administered to children per standard of care as prescribed by their treating caregiver and only biological sample collection during the time of drug administration will be involved. A total of approximately 7000 children aged \\<21 years who are receiving these drugs for standard of care will be enrolled and will be followed for up a maximum of 90 days. The goal of this study is to characterize the pharmacokinetics of understudied drugs for which specific dosing recomm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\) Children (\\< 21 years of age) who are receiving understudied drugs of interest per standard of care as prescribed by their treating caregiver\n\nExclusion Criteria:\n\n* 1\\) Failure to obtain consent/assent (as indicated)\n* 2\\) Known pregnancy as determined via interview or te",
+            "endpoints": [
+              "Composite of pharmacokinetic outcomes for understudied drugs in children"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT01431326"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02725710",
+            "title": "Gabapentin as an Adjunct to Perioperative Pain Management Regimens for Uterine Aspiration: a Randomized Controlled Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-08",
+            "completion_date": "2018-06-14",
+            "country": "United States",
+            "enrollment": 96,
+            "brief_summary": "This is a randomized controlled double-blind placebo-controlled trial evaluating the impact of gabapentin given preoperatively on perioperative pain scores for women receiving uterine aspiration between 6 and 14+6 weeks gestation. This study will be a trial included in a prospective meta-analysis evaluating the use of gabapentin on perioperative pain in the abortion setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women \\>=18 years-old\n* Presenting for a surgical abortion\n* No contraindication to outpatient abortion\n* No contraindication to gabapentin\n* Fluency in English and able to provide informed consent\n\nExclusion Criteria:\n\n* Allergy, sensitivity or contraindication to gabapentin\n",
+            "endpoints": [
+              "Pain Score on 100-mm VAS (Visual Analog Scale) at 5 Minutes Post-procedure"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT02725710"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02741076",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Clinical Trial of Structured Opioid Discontinuation Versus Continued Opioid Therapy in Suboptimal and Optimal Responders to High-dose Long-term Opioid Analgesic Therapy for Chronic Pain.",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2016-09-14",
+            "completion_date": "2018-04-27",
+            "country": "United States",
+            "enrollment": 44,
+            "brief_summary": "The purpose of this study is to evaluate the effect on pain intensity (PI) of structured discontinuation of long-term opioid analgesic therapy compared to continuation of opioid therapy in Suboptimal and Optimal Responders to high-dose, long-term opioid analgesic therapy for chronic low back pain (CLBP).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Be male or non-pregnant, non-lactating female aged 18 to 75 years, inclusive.\n2. Have a clinical diagnosis of non-radicular CLBP (pain that occurs in an area with boundaries between the lowest rib and the crease of the buttocks) of Class 1 or proximal radicular (above the kne",
+            "endpoints": [
+              "Change in the Mean Average Pain Intensity (PI) Score on the 0-10 Numerical Ratings Scale (NRS)"
+            ],
+            "sponsor": "Member Companies of the Opioid PMR Consortium",
+            "url": "https://clinicaltrials.gov/study/NCT02741076"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03766269",
+            "title": "Dose-Titration Study to Evaluate the Opioid-Sparing Effect of Dronabinol When Coadministered With Opioid Analgesics to Chronic Pain Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2018-12-01",
+            "completion_date": "2019-07-01",
+            "country": "United States",
+            "enrollment": 280,
+            "brief_summary": "This study will be a 12-week, open-label trial that is designed to evaluate the Opioid-Sparing effect of Dronabinol at ranging doses when coadministered with the opioid analgesics that are currently being prescribed to patients for their chronic pain condition. The purpose of this trial will be to assess the effectiveness of Dronabinol when combined with opioid analgesics to relieve pain at lower opioid doses and to evaluate any reduction of opioid-related side effects. Participants will take th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Ability to read, speak, and understand English;\n2. Provision of signed and dated informed consent form;\n3. Stated willingness to comply with all study procedures and availability for the duration of the study;\n4. Male, Female, or Transgender aged \\> 18;\n5. In fair and stable ",
+            "endpoints": [
+              "Pain Intensity Scale (0-10)",
+              "Self-Reported Opioid Use (Opioid Dose)",
+              "Self-Reported Opioid Use Frequency (Opioid Dose Frequency)"
+            ],
+            "sponsor": "Daisy Pharma Opioid Venture, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT03766269"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00580294",
+            "title": "A Pilot Study of Rapid Opioid Rotation and Titration of Oxymorphone",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2007-11",
+            "completion_date": "2008-08",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "The purpose of this study is to see if changing from one pain medication like morphine or oxycodone to another pain medication, oxymorphone (OPANA®), will be helpful to patients. This study will examine if the switching from one pain medication to another can be done over a 24 hour period. Oxymorphone, the drug being studied, is an FDA approved drug for treatment of severe pain.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age of 18 to no upper limit\n* Chronic pain of nociceptive, neuropathic, or mixed origin\n* Patients with chronic non cancer pain\n* Ongoing chronic opioid treatment with either oral morphine or oxycodone (long term - more than 3 months of at least a total daily opioid dose of 60",
+            "endpoints": [
+              "Change in Patient Global Impression of Change",
+              "Brief Pain Inventory"
+            ],
+            "sponsor": "Icahn School of Medicine at Mount Sinai",
+            "url": "https://clinicaltrials.gov/study/NCT00580294"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04109118",
+            "title": "Distress Tolerance and Benzodiazepine Discontinuation in Opioid Agonist Therapy, Phase 2",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-03-18",
+            "completion_date": "2021-07-08",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "The proposed study is a clinical trial, designed to pilot test a Distress Tolerance-Benzodiazepine Discontinuation (DT-BD) intervention for patients on opioid agonist therapy who currently use benzodiazepines. The DT-BD intervention is an adjunctive psychosocial intervention in people seeking to discontinue (BZD) use. The goal of the study is to assess the applicability and feasibility of this intervention through treatment retention and qualitative interviews with four participants who are rece",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 or older\n2. Receiving OAT (methadone or buprenorphine) confirmed by toxicology testing for at least 90 days and on a steady dose for 2 consecutive weeks\n3. Regular BZD use defined by BZD use 3 or more times per week in past month by self-report and positive urine scree",
+            "endpoints": [
+              "Participant Acceptability of the Interventions",
+              "Number of Participants Who Rates the Intervention as Feasible"
+            ],
+            "sponsor": "Boston Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04109118"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02604446",
+            "title": "Depot-opioids for Pre- and Postoperative Pain Relief After Primary Knee Arthroplasty. A Double Blinded Randomized Controlled Study. Tapentadol vs Oxycodone vs Placebo",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-09",
+            "completion_date": "2019-02",
+            "country": "Norway",
+            "enrollment": 134,
+            "brief_summary": "This study will provide knowledge about the use of long-acting opioids for pain relief after primary knee arthroplasty. The investigators will compare depot tapentadol, depot oxycodone and placebo for effect on pain relief and side effects. The three study groups reflect the three different postoperative pain regimens that have been used the last years at St. Olavs Hospital, so investigators know that no patient will receive an inadequate pain treatment. The purpose of the study is to find which",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* scheduled for knee arthroplasty at St. Olavs University Hospital\n* consent in participation in the study\n\nExclusion Criteria:\n\n* Contraindications for any of the study drugs\n* Lactose intolerance\n* Known hypersensitivity against any of the additives\n* Chronic Obstructive Pulmo",
+            "endpoints": [
+              "Area under curve (AUC) based on daily numeric rating score (NRS) scale 1-10 for pain by mobilization the first 8 postoperative days"
+            ],
+            "sponsor": "St. Olavs Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02604446"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02044549",
+            "title": "Carbetocin Versus Syntometrine for Prevention of Postpartum Hemorrhage After Cesarean Section",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2015-12",
+            "country": "Egypt",
+            "enrollment": 300,
+            "brief_summary": "to compare effectiveness and tolerability of carbetocin versus syntometrine in prevention of Postpartum hemorrhage after cesarean section",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All participants are at 37 - 40 weeks of gestational age\n* Noncomplicated pregnancy.\n\nExclusion Criteria:\n\n* Participants with placenta previa\n* Patients with coagulopathy\n* preeclamptic women\n* known sensitivity to oxytocin or methergine were excluded",
+            "endpoints": [
+              "prevention of post partum hemorrhage after CS"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT02044549"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00261495",
+            "title": "Randomized, Open-Label, Comparative Parallel Group Study to Assess Efficacy and Safety on Flexible Dosages of OROS Hydromorphone Once-Daily Compared to Sustained Release Oxycodone Twice Daily in Subjects With Chronic Non-malignant Pain Requiring Continuous Opioid Therapy.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-03",
+            "completion_date": "2008-04",
+            "country": "Switzerland, France, Slovakia, Germany, Denmark, Slovenia, Czechia, Sweden, Poland, Norway",
+            "enrollment": 504,
+            "brief_summary": "The purpose of this study is to compare the effectiveness and safety of sustained- release hydromorphone, formulated to release slowly over time, taken once daily, and controlled- release oxycodone taken twice daily, in patients with chronic non-cancer pain. The study will also determine the dose of sustained-release hydromorphone that provides a level of pain control that is equal to the pain control provided by control-released oxycodone (equi-analgesic dosage).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients with chronic noncancer pain severe enough to require continuous opioid therapy (a score of at least 5 in \"pain right now\" on a 11 point numeric rating scale) who have never received an opioid or are currently treated with a weak opioid, and who experience insuff",
+            "endpoints": [
+              "Change From Baseline in Brief Pain Inventory (BPI) Questionnaire Item 6 \"Pain Right Now\" Score at Week 24 (Per Protocol [PP] Population)",
+              "Change From Baseline in BPI Questionnaire Item 6 \"Pain Right Now\" Score at Week 24 (Intent to Treat [ITT] Population)",
+              "Equi-analgesic Dosage of OROS Hydromorphone Once-daily and SR Oxycodone Twice-daily (PP Population)"
+            ],
+            "sponsor": "Janssen Pharmaceutica N.V., Belgium",
+            "url": "https://clinicaltrials.gov/study/NCT00261495"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02936934",
+            "title": "Comparison of Adverse Drug Reactions Associated for Oxycodone and Morphine in Postoperative Pain After Abdominal Hysterectomy",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2016-10",
+            "completion_date": "2017-02",
+            "country": "N/A",
+            "enrollment": 64,
+            "brief_summary": "The objective of this study is compare adverse reactions associated with oxycodone and morphine for the treatment of postoperative pain after abdominal hysterectomy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients scheduled for abdominal hysterectomy\n* Signing for informed consent\n\nExclusion Criteria:\n\n* Patients used with MAO inhibitor drugs (\\<14 days before surgery)\n* History of substance abuse\n* Hypersensitivity to opioids and others drugs of multimodal analgesia (metamizol",
+            "endpoints": [
+              "Adverse drug reactions (questionnaire)"
+            ],
+            "sponsor": "Hospital Civil de Guadalajara",
+            "url": "https://clinicaltrials.gov/study/NCT02936934"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03618589",
+            "title": "Comparison of Effectiveness of Opioid Only and Pregabalin add-on for the Treatment of Neuropathic Pain in Cervical Myelopathy Patients",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2016-11-26",
+            "completion_date": "2019-12-31",
+            "country": "South Korea",
+            "enrollment": 60,
+            "brief_summary": "There is no information on the effect of pregabalin in patients with neuropathic pain in cervical myelopathy under routine clinical practice.\n\nThe investigators will conduct this prospective, randomized trial to determine the efficacy of pregabalin for neuropathic pain in cervical myelopathic patients in order to validate or refute this popular practice. The primary aim of this study was to compare Leeds assessment of neuropathic symptoms and signs scale (LANSS) scores of neuropathic pain in cer",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. between the ages of 18 to 80 years\n2. Among patients with cervical myelopathy, patients with neuropathic pain (LANSS pain scale ≥ 12)\n3. Completing 8-week drug trial\n\nExclusion Criteria:\n\n1. Current or prior gabapentin or pregabalin use\n2. Chronic use of narcotic pain medicat",
+            "endpoints": [
+              "Leeds assessment of neuropathic symptoms and signs (LANSS) and visual analogue scale (VAS)"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03618589"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05515822",
+            "title": "Use of Oxycodone in Multimodel Perioperative Analgesia of Bariatric Surgery and Its Effect on Inflammatory Factors",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2022-10-01",
+            "completion_date": "2024-09-01",
+            "country": "N/A",
+            "enrollment": 90,
+            "brief_summary": "There is still no effective treatment for surgical pain, especially visceral pain in bariatric surgery. Oxycodone has great application prospect in patients with obesity, but there are few clinical studies and analgesic effect is still unclear, especially in combination with esketamine.\n\nThis study was a prospective, single-center, randomized, controlled, double-blind clinical trial to compare the efficacy and safety of intravenous oxycodone and combined use of esketamine for perioperative multi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Body mass index (BMI) ≥30kg/m2;\n* Laparoscopic sleeve gastrectomy (LSG) was performed;\n* American Society of Anesthesiologists (ASA) Grade I to II, age: 18-50;\n* Patient-controlled intravenous analgesia (PCIA) was approved.\n\nExclusion Criteria:\n\n* Do not agree to sign informed",
+            "endpoints": [
+              "Changes in postoperative pain",
+              "Postoperative opioid consumption"
+            ],
+            "sponsor": "The Third People's Hospital of Chengdu",
+            "url": "https://clinicaltrials.gov/study/NCT05515822"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07195669",
+            "title": "Nonopioid Versus Opioid Management of Post-operative Pain Following Oral & Maxillofacial Surgery: A Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-10-01",
+            "completion_date": "2026-01-30",
+            "country": "United States",
+            "enrollment": 76,
+            "brief_summary": "Journavx (suzetrigine) is a novel non-opioid analgesic that is FDA approved for acute pain management and may offer a promising alternative for managing postoperative pain. Suzetrigine is selective inhibitor of the sodium channel NaV1.8, for managing acute pain. NaV1.8, a sodium channel, plays a key role in transmitting pain signals. Importantly, this channel is minimally expressed in the brain, enabling effective pain control without the potential central nervous system side effects of respirat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 18-45 years requiring extraction of impacted mandibular bilateral third molar teeth, uncomplicated mesioangular impacted teeth, or vertical impaction of unerupted and impacted mandibular third molars.\n* Patients aged 18-45 years undergoing bimaxillary orthognathi",
+            "endpoints": [
+              "Post-operative pain"
+            ],
+            "sponsor": "Louisiana State University Health Sciences Center in New Orleans",
+            "url": "https://clinicaltrials.gov/study/NCT07195669"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37752058",
+            "title": "[Clinical characteristics and therapeutic effectiveness of post craniotomy cervicogenic headache].",
+            "abstract": "From January 2019 to December 2021, the clinical data of 151 patients with post craniotomy cervicogenic headache from Beijing Tiantan Hospital affiliated to Capital Medical University were retrospectively collected. The characteristics of cervicogenic headache were summarized, the numerical rating score (NRS) of patients before and after treatment of compound opioids and/or cervical nerve block was compared, and the occurrence of related adverse reactions and complications was counted. The onset of cervicogenic headache in 151 patients was on the (5.5±2.0) d after craniotomy, of which 131 (86.8%) had unilateral pain, pain in 127 (84.1%) could be induced by cervical activity, and 118 (78.1%) had limited neck movement. Of the 124 patients treated with compound capsule of oxycodone and acetaminophen, 85 (68.5%) patients had an NRS of (8.01±0.82) before treatment and 2.0 (1.0, 3.0) after treatment (P<0.001). Thirty-nine patients who did not respond to medical therapy received cervical nerv",
+            "journal": "Zhonghua yi xue za zhi",
+            "year": "2023",
+            "authors": [
+              "Huang Y",
+              "Meng L",
+              "Zhou R",
+              "Luo F"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Post-Traumatic Headache",
+              "Acetaminophen",
+              "Oxycodone",
+              "Retrospective Studies",
+              "Pain",
+              "Craniotomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37752058/"
+          },
+          {
+            "pmid": "27355187",
+            "title": "Opioids for restless legs syndrome.",
+            "abstract": "Restless legs syndrome (RLS) is a distressing and common neurological disorder that may have a huge impact in the quality of life of those with frequent and intense symptoms. Patients complain of unpleasant sensations in the legs, at or before bedtime, and feel an urge to move the legs, which improves with movement, such as walking. Symptoms start with the patient at rest (e.g. sitting or lying down), and follow a circadian pattern, increasing during the evening or at night. Many pharmacological intervention are available for RLS, including drugs used to treat Parkinson's disease (L-Dopa and dopaminergic agonists), epilepsy (anticonvulsants), anxiety (benzodiazepines), and pain (opioids). Dopaminergic drugs are those most frequently used for treatment of RLS, but some patients do not respond effectively and require other medication. Opioids, a class of medications used to treat severe pain, seem to be effective in treating RLS symptoms, and are recommended for patients with severe symp",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2016",
+            "authors": [
+              "de Oliveira César Osório",
+              "Carvalho Luciane Bc",
+              "Carlos Karla",
+              "Conti Cristiane",
+              "de Oliveira Marcio M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Disorders of Excessive Somnolence",
+              "Humans",
+              "Naloxone",
+              "Oxycodone",
+              "Randomized Controlled Trials as Topic",
+              "Restless Legs Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27355187/"
+          },
+          {
+            "pmid": "26524707",
+            "title": "Cluster Syncope.",
+            "abstract": "",
+            "journal": "The American journal of medicine",
+            "year": "2016",
+            "authors": [
+              "Manne Janaki Rami Reddy"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Bradycardia",
+              "Cluster Headache",
+              "Electrocardiography",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Oxycodone",
+              "Sumatriptan",
+              "Syncope"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26524707/"
+          },
+          {
+            "pmid": "30820686",
+            "title": "Oxycodone's Unparalleled Addictive Potential: Is it Time for a Moratorium?",
+            "abstract": "This study and literature review were carried out to investigate whether oxycodone is the most addictive prescription opioid.",
+            "journal": "Current pain and headache reports",
+            "year": "2019",
+            "authors": [
+              "Remillard Daniel",
+              "Kaye Alan David",
+              "McAnally Heath"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alaska",
+              "Analgesics, Opioid",
+              "Cross-Sectional Studies",
+              "Dopamine Agents",
+              "Female",
+              "Heroin Dependence",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30820686/"
+          },
+          {
+            "pmid": "40223912",
+            "title": "Trends in Outpatient Buprenorphine Prescribing for Chronic Pain: A Retrospective Analysis Over 18 Months.",
+            "abstract": "Buprenorphine, a partial opioid agonist, has gained attention for its use in chronic pain management due to its lower risk of abuse and respiratory depression compared to traditional opioids. The utilization of buprenorphine for chronic pain has increased in recent years. This study aimed to analyze trends in buprenorphine prescribing for chronic pain in an outpatient setting over an 18-month period, excluding buprenorphine-naloxone combinations used for opioid use disorder and opioid dependence.",
+            "journal": "Psychopharmacology bulletin",
+            "year": "2025",
+            "authors": [
+              "Hasoon Jamal",
+              "Chitneni Ahish",
+              "Viswanath Omar",
+              "Urits Ivan",
+              "Imani Farnad"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Chronic Pain",
+              "Retrospective Studies",
+              "Buprenorphine",
+              "Analgesics, Opioid",
+              "Practice Patterns, Physicians'",
+              "Male",
+              "Female",
+              "Drug Prescriptions",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40223912/"
+          },
+          {
+            "pmid": "38564124",
+            "title": "Neuropsychiatric Effects Associated with Opioid-Based Management for Palliative Care Patients.",
+            "abstract": "The abundance of opioids administered in the palliative care setting that was once considered a standard of care is at present necessitating that providers evaluate patients for unintentional and deleterious symptomology related to aberrant opioid use and addiction. Polypharmacy with opioids is dynamic in affecting patients neurologically, and increased amounts of prescriptions have had inimical effects, not only for the individual, but also for their families and healthcare providers. The purpose of this review is to widen the perspective of opioid consequences and bring awareness to the numerous neuropsychiatric effects associated with the most commonly prescribed opioids for patients receiving palliative care.",
+            "journal": "Current pain and headache reports",
+            "year": "2024",
+            "authors": [
+              "Kaye Alan D",
+              "Dufrene Kylie",
+              "Cooley Jada",
+              "Walker Madeline",
+              "Shah Shivam"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Palliative Care",
+              "Analgesics, Opioid",
+              "Opioid-Related Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38564124/"
+          },
+          {
+            "pmid": "9058406",
+            "title": "Opioids in headache treatment. Is there a role?",
+            "abstract": "There may be a population of patients subject to frequent headache and in whom optimal analgesic effect is obtained only by frequent but controlled use of opiate drugs and in whom adverse drug effects are minimal. It is emphasized again that the reality is that there are currently a large amount of opioids being prescribed for headache patients because of patients' demands. One of the major considerations for physicians prescribing such treatment is familiarity with the legal guidelines. The federal law requires physicians to register if they are to maintain or detoxify with opioids addicts defined as \"any individual who habitually uses any narcotic drug so as to endanger the public morals, health, safety, or welfare, or is so far addicted to the use of narcotic drugs as to have lost the power of self-control with reference to his addiction.\" A subsequent regulation, however, stated that the law was not intended to impose any limitation on prescription of narcotics for intractable pain",
+            "journal": "Neurologic clinics",
+            "year": "1997",
+            "authors": [
+              "Ziegler D K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Headache",
+              "Humans",
+              "Substance-Related Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9058406/"
+          },
+          {
+            "pmid": "26966363",
+            "title": "Intractable restless legs syndrome: role of prolonged-release oxycodone-naloxone.",
+            "abstract": "Restless legs syndrome (RLS) is a common neurological disorder characterized by an irresistible urge to move the legs accompanied by uncomfortable sensations that occur at night or at time of rest. Pharmacological therapy should be limited to patients who suffer from clinically relevant symptoms. Chronic RLS is usually treated with either a dopamine agonist (pramipexole, ropinirole, rotigotine) or an α2δ calcium-channel ligand (gabapentin, gabapentin enacarbil, pregabalin). Augmentation is the main complication of long-term dopaminergic treatment, and frequently requires a reduction of current dopaminergic dose or a switch to non-dopaminergic medications. Opioids as monotherapy or add-on treatment should be considered when alternative satisfactory regimens are unavailable and the severity of symptoms warrants it. In a recent Phase III trial, oxycodone-naloxone prolonged release (PR) demonstrated a significant and sustained effect on patients with severe RLS inadequately controlled by p",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2016",
+            "authors": [
+              "de Biase Stefano",
+              "Valente Mariarosaria",
+              "Gigli Gian Luigi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26966363/"
+          },
+          {
+            "pmid": "8200026",
+            "title": "Opiate and opioid use in patients with refractory headache.",
+            "abstract": "Opiate and opioid analgesics are commonly used for pain in general and presumably for headache. Codeine, oxycodone and propoxyphene, among the most commonly prescribed, do carry some risk of abuse, and their efficacy in headache patients has not been well studied. In many patients with other kinds of pain, however, both of neoplastic and non-neoplastic origin, chronic opiate use has been demonstrated to be of benefit without adverse side effects. The type of headache patient with intractable pain who needs frequent opiate analgesic and who does not develop addiction or drug abuse is an important subject for research.",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1994",
+            "authors": [
+              "Ziegler D K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesics",
+              "Cognition Disorders",
+              "Disease Susceptibility",
+              "Drug Utilization",
+              "Female",
+              "Headache",
+              "Humans",
+              "Legislation, Drug",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8200026/"
+          },
+          {
+            "pmid": "33428239",
+            "title": "Chronic prescription opioid use in pregnancy in the United States.",
+            "abstract": "To evaluate chronic opioid utilization patterns during pregnancy using nationwide data from publicly and commercially insured women.",
+            "journal": "Pharmacoepidemiology and drug safety",
+            "year": "2021",
+            "authors": [
+              "Straub Loreen",
+              "Huybrechts Krista F",
+              "Hernandez-Diaz Sonia",
+              "Zhu Yanmin",
+              "Vine Seanna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Drug Prescriptions",
+              "Female",
+              "Humans",
+              "Medicaid",
+              "Opioid-Related Disorders",
+              "Practice Patterns, Physicians'",
+              "Pregnancy",
+              "Prescriptions",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33428239/"
+          },
+          {
+            "pmid": "22357166",
+            "title": "A single-dose, 3-way crossover pharmacokinetic comparison between immediate-release oxycodone hydrochloride with aversion technology (IRO-A, Oxecta), IRO-a with Niacin, and Oxycodone Hydrochloride (Roxicodone) in healthy adults under fasting conditions.",
+            "abstract": "Snorting and intravenous use are common routes of administration for advanced opioid abusers. A tablet form of immediate-release oxycodone (IRO) developed using Aversion Technology combines immediate release (IR) oxycodone HCl with inactive functional excipients that are intended to discourage tampering associated with intranasal and intravenous abuse (IRO-A; Oxecta, Pfizer). The purpose of this single-dose, open-label, randomized, 3-period, 3-treatment crossover study was to evaluate the bioequivalence of IRO-A to the marketed immediate-release oxycodone HCl (IRO; Roxicodone, Xanodyne Pharmaceuticals Inc., Newport, KY). IRO-A was also compared with IRO-A with niacin, a product previously developed containing the same functional excipients plus niacin as an aversive agent to discourage oral overconsumption. Healthy adults (N = 40) aged 18-55 years received single 15-mg doses of IRO-A, IRO-A with niacin (60 mg), or IRO after fasting overnight. Naltrexone was administered to diminish opi",
+            "journal": "American journal of therapeutics",
+            "year": "2014",
+            "authors": [
+              "Leibowitz Mark T",
+              "Zamora Cynthia A",
+              "Brzeczko Albert W",
+              "Stark Jeffrey G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Analgesics, Opioid",
+              "Area Under Curve",
+              "Cross-Over Studies",
+              "Excipients",
+              "Fasting",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22357166/"
+          },
+          {
+            "pmid": "26370679",
+            "title": "Intrathecal Clonidine Pump Failure Causing Acute Withdrawal Syndrome With 'Stress-Induced' Cardiomyopathy.",
+            "abstract": "Clonidine is a central alpha(2)-agonist antihypertensive used widely for opioid/alcohol withdrawal, attention deficit hyperactivity disorder and chronic pain management. We describe a case of clonidine withdrawal causing life-threatening hypertensive crisis and stress-induced cardiomyopathy. A 47-year-old man with chronic back pain, treated with clonidine for many years via intrathecal pump (550 mcg/24 h), presented following a collapse and complaining of sudden worsening of back pain, severe headache, diaphoresis, nausea and vomiting. A few hours prior to presentation, his subcutaneous pump malfunctioned. On presentation, vital signs included pulse 100 bpm, BP 176/103 mmHg, temperature 37.8 °C and O2 saturation 100 % (room air). Acute clonidine withdrawal with hypertensive crisis was suspected. Intravenous clonidine loading dose and a 50 mcg/h infusion were commenced. Five hours later, severe chest pain, dyspnoea, tachycardia, hypoxia, with BP 180/120 mmHg and pulmonary edema ensued. ",
+            "journal": "Journal of medical toxicology : official journal of the American College of Medical Toxicology",
+            "year": "2016",
+            "authors": [
+              "Lee Hwee Min D",
+              "Ruggoo Varuna",
+              "Graudins Andis"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic alpha-2 Receptor Agonists",
+              "Back Pain",
+              "Chronic Pain",
+              "Clonidine",
+              "Electrocardiography",
+              "Equipment Failure",
+              "Humans",
+              "Infusion Pumps, Implantable",
+              "Infusions, Spinal",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26370679/"
+          },
+          {
+            "pmid": "27084375",
+            "title": "Drug Formulation Advances in Extended-Release Medications for Pain Control.",
+            "abstract": "Prescription opioid abusers frequently tamper with opioid tablets in order to either accelerate the delivery of the euphoria-inducing agent or to alter the route of delivery, such that it may be delivered intranasally or intravenously. As one strategy to combat the opioid epidemic in the USA, drug manufacturers have begun to explore formulations which resist such tampering by abusers. Techniques to prevent tampering consist of physical barriers to crushing, chewing, and drug extraction, or aversive or antagonistic agents, incorporated within the formulation itself. Recent years have seen the development of numerous extended-release opioid agents, which are described in this review. This article provides a comprehensive summary of the pharmacology, benefits, risks, and processes behind the development of currently available extended-release opioid drugs, as well as a glimpse into promising future formulations.",
+            "journal": "Current pain and headache reports",
+            "year": "2016",
+            "authors": [
+              "Jones Mark R",
+              "Carney Martin J",
+              "Kaye Rachel J",
+              "Prabhakar Amit",
+              "Kaye Alan D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Chemistry, Pharmaceutical",
+              "Delayed-Action Preparations",
+              "Drug Compounding",
+              "Drug Discovery",
+              "Drug Overdose",
+              "Drug Prescriptions",
+              "Humans",
+              "Opioid-Related Disorders",
+              "Pain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27084375/"
+          },
+          {
+            "pmid": "31804357",
+            "title": "Reversible cerebral vasoconstriction with thunderclap headache: A case report.",
+            "abstract": "Reversible cerebral vasoconstriction syndrome (RCVS) is often accompanied by thunderclap headaches. Although symptoms usually resolve spontaneously within 2 months, it can cause fatal complications, such as cerebral hemorrhage, and is difficult to differentiate from a migraine and other headaches on the basis of symptoms and Imaging study. In this case report, we explore clinical findings and appropriate treatment methods for RCVS through the case study of a female patient who experienced severe headache upon defecation PATIENT CONCERNS:: A 42-year-old female patient complained of a severe throbbing headache with a Numeric Rating Scale (NRS) score of 10 after defecation. The pain subsided temporarily after treatment with diclofenac 75 mg and Tridol 50 mg propacetamol 1 g, but the headache returned upon defecation; soon after, the patient complained again of regular headaches at 4 to 6-hour intervals irrespective of defecation.",
+            "journal": "Medicine",
+            "year": "2019",
+            "authors": [
+              "Ji Jae Young",
+              "Jung Ho Soon",
+              "Yoo Sie Hyeon",
+              "Son Hee Dong",
+              "Kim A Joo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cerebral Angiography",
+              "Defecation",
+              "Diagnosis, Differential",
+              "Female",
+              "Headache Disorders, Primary",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Pain Measurement",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31804357/"
+          },
+          {
+            "pmid": "18163038",
+            "title": "Unexpected reduction in migraine and psychogenic headaches following rTMS treatment for major depression: a report of two cases.",
+            "abstract": "Our objective is to report a coincident reduction in headache pain in patients treated with repetitive transcranial magnetic stimulation (rTMS) for major depressive disorder (MDD). Two patients with a Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition diagnosis of MDD, non-responsive to prior antidepressant treatment who were enrolled in a sham-controlled, double-blind study of rTMS for MDD. After the study, it was revealed that both were in the active-treatment arm. Both patients suffered from near daily headaches and kept logs of headache frequency and severity before, during, and after the study. Headache pain was significantly reduced under double-blind conditions with rTMS treatment, but returned to baseline following cessation of rTMS treatment. Ultimately, when receiving rTMS post-study as a maintenance intervention for MDD (approximately 2 rTMS sessions/week), the positive effects on headache amelioration were sustained. Headache pain is frequently comorbid w",
+            "journal": "CNS spectrums",
+            "year": "2007",
+            "authors": [
+              "O'Reardon John P",
+              "Fontecha Jeisson F",
+              "Cristancho Mario A",
+              "Newman Suzanne"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Analgesics, Opioid",
+              "Major Depressive Disorder",
+              "Female",
+              "Humans",
+              "Male",
+              "Migraine Disorders",
+              "Oxycodone",
+              "Periodicity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18163038/"
+          },
+          {
+            "pmid": "31160299",
+            "title": "Physician's role in prescribing opioids in developing countries.",
+            "abstract": "In developed countries, addressing the growing opioid addiction epidemic is focused on preventive measures, developing better overdose-reversal medications and designing newer strategies to treat addiction. Primary prescribers of the therapeutic use of opioids might play a definite role in the aetiology of the epidemics. Developing countries could be affected by similar issues; however, given that no updated statistics are available, it is possible that their populations undergo problems similar to those for which current data is available. Concerns have arisen regarding synthetic opioid tramadol which, given its fast and potent analgesic effects, low cost and easy availability is widely prescribed. A debate remains as to whether tramadol induces addictive effects like those of stronger analogues such as oxycodone or fentanyl. Here we present a case of tramadol dependence in an Ecuadorian patient and find that substance abuse can occur in normal individuals affected by chronic pain, ot",
+            "journal": "BMJ case reports",
+            "year": "2019",
+            "authors": [
+              "Roa Jorge A",
+              "Guevara Alexandra",
+              "Guevara Carolina",
+              "Guevara-Aguirre Jaime"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesics, Opioid",
+              "Developing Countries",
+              "Ecuador",
+              "Humans",
+              "Injections, Intramuscular",
+              "Male",
+              "Migraine Disorders",
+              "Opioid-Related Disorders",
+              "Physician's Role"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31160299/"
+          },
+          {
+            "pmid": "23340881",
+            "title": "[Chronic non-cancer-related pain. Long-term treatment with rapid-release and short-acting opioids in the context of misuse and dependency].",
+            "abstract": "Annually published data show a continual increase in the volume of opioid prescriptions in Germany, thus indicating an intensification of opioid therapy. The majority of opioids are prescribed to treat chronic non-cancer-related pain. On the basis of current guidelines, as well as in terms of the lack of data regarding long-term use of opioids and their effectiveness beyond a period of 3 months, this development must be viewed critically. With reference to four case reports, we discuss and evaluate opioid therapy in relation to medication misuse and the development of drug dependency. Particular emphasis is placed on the administration of rapid-release and short-acting opioid preparations, which we consider to be particularly problematic.",
+            "journal": "Schmerz (Berlin, Germany)",
+            "year": "2013",
+            "authors": [
+              "Scharnagel R",
+              "Kaiser U",
+              "Schütze A",
+              "Heineck R",
+              "Gossrau G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abdominal Pain",
+              "Adult",
+              "Analgesics, Opioid",
+              "Chronic Pain",
+              "Diabetic Neuropathies",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Drug Utilization",
+              "Female",
+              "Fentanyl"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23340881/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.8443714380264282,
+        "txgnn_rank": 39585,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02741713",
+            "title": "Analgesic Benefit of PECS Blocks for Biceps Tenodesis Shoulder Surgery",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-04",
+            "completion_date": "2017-06-29",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "The standard practice for arthroscopic shoulder surgery at our institution is a general anesthetic with a long-acting interscalene block for post-operative pain control, which can reduce the amount of opiates needed after surgery. The interscalene block is effective in providing analgesia to the majority of the shoulder joint and has been shown to reduce post-operative pain scores after arthroscopic shoulder surgeries. However, there is a subset of arthroscopic shoulder surgery patients who have",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults, between 18 and 80 years of age\n* Ability to take pills\n* Agreement to a regional with general anesthesia technique\n\nExclusion Criteria:\n\n* Allergy to amide local anesthetics\n* Presence of a progressive neurological deficit\n* pre-existing coagulopathy\n* Current infectio",
+            "endpoints": [
+              "Post-operative Axillary Pain"
+            ],
+            "sponsor": "Wake Forest University Health Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT02741713"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33373466",
+            "title": "Opioid-Free Arthroscopic Rotator Cuff Repair.",
+            "abstract": "Rotator cuff repair is known to cause significant pain, and therefore opioids are often prescribed postoperatively. The United States is currently experiencing an opioid epidemic, and prescription opioids are considered a gateway drug to opioid abuse and addiction. Orthopedic surgeons are looking for alternative means to control pain. The purpose of this study was to evaluate the efficacy of an opioid-free postoperative pain protocol in patients following an arthroscopic rotator cuff repair. A prospective study of 36 consecutive patients was performed. Patient demographics, prior narcotic consumption, past medical history, and visual analog scale (VAS) pain score were collected. All patients received an opioid-free postoperative pain protocol, including education, premedication, interscalene nerve blockade, and intraoperative injection, and were discharged with ketorolac, zolpidem, and acetaminophen. A sealed envelope containing an oxycodone prescription was also received at discharge.",
+            "journal": "Orthopedics",
+            "year": "2021",
+            "authors": [
+              "Theosmy Edwin G",
+              "Bradian Alexandria K",
+              "Cheesman Quincy T",
+              "Radack Tyler M",
+              "Lazarus Mark D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Adult",
+              "Aged",
+              "Analgesics, Opioid",
+              "Arthroscopy",
+              "Brachial Plexus Block",
+              "Humans",
+              "Ketorolac",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33373466/"
+          },
+          {
+            "pmid": "30810754",
+            "title": "A Prospective, Randomized, Double-Blinded Trial Comparing Acetaminophen, Ibuprofen, and Oxycodone for Pain Management After Hand Surgery.",
+            "abstract": "The goal of this study was to evaluate 3 common oral analgesics-oxycodone (OXY), ibuprofen (IBU), and acetaminophen (ACE)-for pain management following carpal tunnel release (CTR) and trigger finger release (TFR) surgery. Outcome measures were pain scores, capsule consumption patterns, and satisfaction. Carpal tunnel or trigger finger patients indicated to undergo primary, unilateral release received 10 capsules of either OXY (5 mg), IBU (600 mg), or ACE (500 mg) postoperatively. Medications were distributed in a randomized fashion, with both surgeons and patients blinded to the selected analgesic. Postoperatively, patients recorded pain level each day using a 0 to 10 visual analog scale, the number of capsules taken each day, and any adverse effects experienced. Medication distribution among the 188 patients completing the study was 62 OXY, 64 IBU, and 62 ACE. Surgical distribution was 76 TFR, 61 endoscopic CTR, and 51 open CTR. Overall, the mean total number of capsules consumed from",
+            "journal": "Orthopedics",
+            "year": "2019",
+            "authors": [
+              "Ilyas Asif M",
+              "Miller Andrew J",
+              "Graham Jack G",
+              "Matzon Jonas L"
+            ],
+            "pub_types": [
+              "Equivalence Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Analgesics, Non-Narcotic",
+              "Analgesics, Opioid",
+              "Carpal Tunnel Syndrome",
+              "Double-Blind Method",
+              "Drug Utilization",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30810754/"
+          },
+          {
+            "pmid": "22535840",
+            "title": "Levofloxacin-induced tendinopathy of the hip.",
+            "abstract": "To describe what we believe to be the first reported possible case of tendinopathy of the hip in a patient receiving levofloxacin.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2012",
+            "authors": [
+              "Ganske Corrine M",
+              "Horning Kristin K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Hip",
+              "Humans",
+              "Levofloxacin",
+              "Male",
+              "Middle Aged",
+              "Ofloxacin",
+              "Tendinopathy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22535840/"
+          },
+          {
+            "pmid": "31866279",
+            "title": "Opioid-Limiting Regulation: Effect on Patients Undergoing Knee and Shoulder Arthroscopy.",
+            "abstract": "To determine the effect prescription-limiting legislation passed in Rhode Island has had on opioids prescribed following arthroscopic knee and shoulder surgery at various time points, up to 90 days postoperatively.",
+            "journal": "Arthroscopy : the journal of arthroscopic & related surgery : official publication of the Arthroscopy Association of North America and the International Arthroscopy Association",
+            "year": "2020",
+            "authors": [
+              "Shah Kalpit N",
+              "Ruddell Jack H",
+              "Reid Daniel B C",
+              "Shapiro Benjamin H",
+              "Akelman Edward"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Arthroscopy",
+              "Case-Control Studies",
+              "Female",
+              "Humans",
+              "Knee Joint",
+              "Legislation, Drug",
+              "Male",
+              "Meniscectomy",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31866279/"
+          },
+          {
+            "pmid": "37610087",
+            "title": "Minimal differences in acute postoperative pain after anterior cruciate ligament reconstruction with quadriceps versus hamstring autograft.",
+            "abstract": "Studies are lacking that evaluate early postoperative pain after all-soft-tissue quadriceps tendon anterior cruciate ligament reconstruction (ACLR), particularly in young patients. The purpose of this study was to investigate differences in early postoperative pain between adolescent patients undergoing ACLR with quadriceps tendon versus hamstring autograft. A retrospective review was performed of 60 patients (mean age, 15.6 ± 1.3 years) who underwent ACLR using either quadriceps tendon ( n  = 31) or hamstring ( n  = 29) autografts between January 2017 and February 2020. Intraoperative and postoperative milligram morphine equivalents (MMEs), postanesthesia care unit (PACU) length of stay and PACU pain scores were recorded. Pain scores and supplemental oxycodone use were recorded on postoperative days (POD) 1-3. Differences were compared between the two groups. There were no statistically significant differences in age, sex, body mass index or concomitant meniscus repairs between the tw",
+            "journal": "Journal of pediatric orthopedics. Part B",
+            "year": "2024",
+            "authors": [
+              "Varakitsomboon Shing",
+              "Holland Erica L",
+              "Schmale Gregory A",
+              "Saper Michael G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anterior Cruciate Ligament Reconstruction",
+              "Postoperative Pain",
+              "Male",
+              "Female",
+              "Adolescent",
+              "Retrospective Studies",
+              "Autografts",
+              "Quadriceps Muscle",
+              "Hamstring Tendons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37610087/"
+          },
+          {
+            "pmid": "33144226",
+            "title": "Opioid requirement after rotator cuff repair is low with a multimodal approach to pain.",
+            "abstract": "Current practices may aim to blunt rather than understand postoperative pain. Perhaps the most common serious complication of arthroscopic rotator cuff repair (ARCR) is persistence of opiate medication intake. Patients still receive upwards of 80 oxycodone 5 mg pills, or 600 morphine milligram equivalents (MMEs), leading more than 20% of opioid-naïve subjects to continue to fill opioid prescriptions beyond 180 days after surgery. Developing evidence-based guidelines for narcotic prescription after ARCR presents an opportunity for orthopedic surgeons to address the opioid epidemic.",
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2021",
+            "authors": [
+              "Mandava Nikhil K",
+              "Sethi Paul M",
+              "Routman Howard D",
+              "Liddy Nicole",
+              "Haidamous Georges"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Anesthetics, Local",
+              "Bupivacaine",
+              "Humans",
+              "Oxycodone",
+              "Postoperative Pain",
+              "Rotator Cuff"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33144226/"
+          },
+          {
+            "pmid": "32839073",
+            "title": "Evaluation of analgesic efficacy and opioid sparing effect of pregabalin after arthroscopic rotator cuff repair surgery: A retrospective cohort study.",
+            "abstract": "Considering the adverse effects of opioids, it is essential to minimize their consumption for postoperative pain control. Studies have reported the opioid sparing effects of pregabalin, with conflicting results. Evidence for administering pregabalin in a multimodal regimen after arthroscopic rotator cuff repair surgery is limited.",
+            "journal": "Journal of orthopaedic science : official journal of the Japanese Orthopaedic Association",
+            "year": "2021",
+            "authors": [
+              "Chae Sang Hoon",
+              "Lee Je Eun",
+              "Kim Myo Jong",
+              "Yoo Jae Chul"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Analgesics",
+              "Analgesics, Opioid",
+              "Arthroscopy",
+              "Humans",
+              "Postoperative Pain",
+              "Pregabalin",
+              "Retrospective Studies",
+              "Rotator Cuff",
+              "Rotator Cuff Injuries"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32839073/"
+          },
+          {
+            "pmid": "32353620",
+            "title": "A Multimodal Protocol to Diminish Pain Following Common Orthopedic Sports Procedures: Can We Eliminate Postoperative Opioids?",
+            "abstract": "To determine whether postsurgical pain, measured by the visual analog scale (VAS), following common orthopaedic sports procedures could be managed effectively with a nonopioid multimodal analgesic protocol.",
+            "journal": "Arthroscopy : the journal of arthroscopic & related surgery : official publication of the Arthroscopy Association of North America and the International Arthroscopy Association",
+            "year": "2020",
+            "authors": [
+              "Moutzouros Vasilios",
+              "Jildeh Toufic R",
+              "Khalil Lafi S",
+              "Schwartz Kaylin",
+              "Hasan Laith"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Analgesia",
+              "Analgesics, Opioid",
+              "Anterior Cruciate Ligament",
+              "Anxiety",
+              "Arthroscopy",
+              "Athletic Injuries",
+              "Depression",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32353620/"
+          },
+          {
+            "pmid": "12620950",
+            "title": "The difficulties of ambulatory interscalene and intra-articular infusions for rotator cuff surgery: a preliminary report.",
+            "abstract": "Rotator cuff repair may result in severe postoperative pain. We compared a continuous intra-articular infusion to a continuous interscalene block with ropivacaine for patients undergoing outpatient rotator cuff repair.",
+            "journal": "Canadian journal of anaesthesia = Journal canadien d'anesthesie",
+            "year": "2003",
+            "authors": [
+              "Klein Stephen M",
+              "Steele Susan M",
+              "Nielsen Karen C",
+              "Pietrobon Ricardo",
+              "Warner David S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amides",
+              "Anesthetics, Local",
+              "Humans",
+              "Injections, Intra-Articular",
+              "Pain Measurement",
+              "Postoperative Pain",
+              "Ropivacaine",
+              "Rotator Cuff"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12620950/"
+          },
+          {
+            "pmid": "39521326",
+            "title": "Assessment of the impact of gabapentin on postoperative pain following shoulder open rotator cuff repair: a double-blind clinical trial.",
+            "abstract": "Gabapentin is an anticonvulsant used for managing neuropathic pain. Its effectiveness and dosing strategies for postoperative pain, particularly in open shoulder rotator cuff repair, are still debated. This study assesses gabapentin's impact on postoperative pain intensity in open rotator cuff repair.",
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2025",
+            "authors": [
+              "Farbood Arash",
+              "Nemati Maryam",
+              "Safari Samira",
+              "Momenzadeh Omidreza",
+              "Banifatemi Mahsa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gabapentin",
+              "Postoperative Pain",
+              "Double-Blind Method",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Analgesics",
+              "Pain Measurement",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39521326/"
+          },
+          {
+            "pmid": "20957469",
+            "title": "Multimodal approach to postoperative pain control in patients undergoing rotator cuff repair.",
+            "abstract": "This prospective study was undertaken to compare the effectiveness and safety of a multimodal pain control protocol with those of intravenous patient-controlled analgesia in rotator cuff repair.",
+            "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+            "year": "2011",
+            "authors": [
+              "Cho Chul-Hyun",
+              "Song Kwang-Soon",
+              "Min Byung-Woo",
+              "Lee Kyung-Jae",
+              "Ha Eunyoung"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Adult",
+              "Aged",
+              "Analgesia, Patient-Controlled",
+              "Analgesics",
+              "Arthroscopy",
+              "Cyclooxygenase 2 Inhibitors",
+              "Drug Administration Schedule",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20957469/"
+          },
+          {
+            "pmid": "33774169",
+            "title": "Effect of perioperative acetaminophen on pain management in patients undergoing rotator cuff repair: a prospective randomized study.",
+            "abstract": "Limiting opioid use in perioperative pain management is currently an important focus in orthopedic surgery. The ability of acetaminophen to reduce postoperative opioid consumption while providing acceptable pain management has not been thoroughly investigated in patients undergoing rotator cuff repair (RCR).",
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2021",
+            "authors": [
+              "Singh Arjun M",
+              "Kirsch Jacob M",
+              "Patel Manan S",
+              "Gutman Michael",
+              "Harper Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Aged",
+              "Analgesics, Opioid",
+              "Humans",
+              "Middle Aged",
+              "Pain Management",
+              "Postoperative Pain",
+              "Prospective Studies",
+              "Rotator Cuff"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33774169/"
+          },
+          {
+            "pmid": "30846921",
+            "title": "Retropharyngeal Calcific Tendonitis in a Patient Seeking Chiropractic Care for Neck Pain: A Case Report.",
+            "abstract": "The purpose of this report is to describe the evaluation and treatment of a patient initially presenting for chiropractic care of neck pain (NP) who was subsequently diagnosed with retropharyngeal calcific tendonitis (RCT).",
+            "journal": "Journal of chiropractic medicine",
+            "year": "2018",
+            "authors": [
+              "Munson Laura",
+              "Funk Matthew F",
+              "Perrault Terence A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30846921/"
+          },
+          {
+            "pmid": "23809446",
+            "title": "Postoperative fentanyl patch versus subacromial bupivacaine infusion in arthroscopic shoulder surgery.",
+            "abstract": "The purpose of our study was to compare the effectiveness of subacromial bupivacaine infusion and a transdermal fentanyl patch in the treatment of postoperative pain after arthroscopic shoulder surgery.",
+            "journal": "Arthroscopy : the journal of arthroscopic & related surgery : official publication of the Arthroscopy Association of North America and the International Arthroscopy Association",
+            "year": "2013",
+            "authors": [
+              "Merivirta Riika",
+              "Äärimaa Ville",
+              "Aantaa Riku",
+              "Koivisto Mari",
+              "Leino Kari"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Analgesics, Non-Narcotic",
+              "Analgesics, Opioid",
+              "Anesthetics, Local",
+              "Arthroscopy",
+              "Bupivacaine",
+              "Double-Blind Method",
+              "Elective Surgical Procedures",
+              "Female",
+              "Fentanyl"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23809446/"
+          },
+          {
+            "pmid": "26476719",
+            "title": "Effect of preemptive intra-articular morphine and ketamine on pain after arthroscopic rotator cuff repair: a prospective, double-blind, randomized controlled study.",
+            "abstract": "Rotator cuff tear is a leading etiology of shoulder pain and disability. Surgical treatment is indicated in patients with persistent pain who fail a trial of non-surgical treatment. Pain reduction following rotator cuff repair, particularly within the first 24-48 h, is a major concern to both doctors and patients. This study aimed to compare the postoperative antinociceptive additive effects of pre-incisional intra-articular (IA) ketamine when combined with morphine with two times the dose of morphine or saline.",
+            "journal": "Archives of orthopaedic and trauma surgery",
+            "year": "2016",
+            "authors": [
+              "Khashan M",
+              "Dolkart O",
+              "Amar E",
+              "Chechik O",
+              "Sharfman Z"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Analgesia, Patient-Controlled",
+              "Analgesics",
+              "Arthroscopy",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Injections, Intra-Articular",
+              "Ketamine",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26476719/"
+          },
+          {
+            "pmid": "17543812",
+            "title": "Rebound pain scores as a function of femoral nerve block duration after anterior cruciate ligament reconstruction: retrospective analysis of a prospective, randomized clinical trial.",
+            "abstract": "Continuous perineural femoral analgesia has been reported to reduce numeric rating pain scores (NRS, scale 0-10) after anterior cruciate ligament reconstruction (ACLR). In the current study, we determined rebound pain scores in autograft ACLR outpatients after nerve block analgesia resolved.",
+            "journal": "Regional anesthesia and pain medicine",
+            "year": "2007",
+            "authors": [
+              "Williams Brian A",
+              "Bottegal Matthew T",
+              "Kentor Michael L",
+              "Irrgang James J",
+              "Williams John P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesia",
+              "Analgesics",
+              "Analgesics, Opioid",
+              "Anesthesia, Spinal",
+              "Anesthetics, Local",
+              "Anterior Cruciate Ligament",
+              "Bupivacaine",
+              "Cyclooxygenase 2 Inhibitors",
+              "Drug Administration Schedule"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17543812/"
+          },
+          {
+            "pmid": "34047723",
+            "title": "Oral Ketorolac as an Adjuvant Agent for Postoperative Pain Control After Arthroscopic Rotator Cuff Repair: A Prospective, Randomized, Controlled Study.",
+            "abstract": "Arthroscopic rotator cuff repair (RCR) is associated with substantial postoperative pain. Oral narcotic agents are the preferred analgesic postoperatively. However, these agents are associated with several side effects and a potential for abuse. This study evaluates the efficacy of ketorolac as an adjunctive agent for postoperative pain control after arthroscopic RCR.",
+            "journal": "The Journal of the American Academy of Orthopaedic Surgeons",
+            "year": "2021",
+            "authors": [
+              "Sivasundaram Lakshmanan",
+              "Mengers Sunita",
+              "Trivedi Nikunj N",
+              "Strony John",
+              "Salata Michael J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Arthroscopy",
+              "Humans",
+              "Ketorolac",
+              "Male",
+              "Middle Aged",
+              "Postoperative Pain",
+              "Prospective Studies",
+              "Rotator Cuff"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34047723/"
+          },
+          {
+            "pmid": "23668921",
+            "title": "Efficacy of continuous subacromial bupivacaine infusion for pain control after arthroscopic rotator cuff repair.",
+            "abstract": "Arthroscopic rotator cuff repair can be a painful outpatient procedure. The purpose of this study was to evaluate the efficacy of continuous subacromial bupivacaine infusion to relieve pain after arthroscopic rotator cuff repair. We hypothesized that patients receiving continuous subacromial bupivacaine infusions after arthroscopic rotator cuff repair will have less postoperative pain in the early postoperative period than placebo and control groups.",
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2013",
+            "authors": [
+              "Schwartzberg Randy S",
+              "Reuss Bryan L",
+              "Rust Randy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acromion",
+              "Adult",
+              "Aged",
+              "Anesthetics, Local",
+              "Arthroscopy",
+              "Bupivacaine",
+              "Double-Blind Method",
+              "Female",
+              "Follow-Up Studies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23668921/"
+          },
+          {
+            "pmid": "31980156",
+            "title": "Effect of combining peri-hamstring injection or anterior obturator nerve block on the analgesic efficacy of adductor canal block for anterior cruciate ligament reconstruction: a randomised controlled trial.",
+            "abstract": "Pain after anterior cruciate ligament reconstruction (ACLR) with autologous hamstring graft can be attributed to both arthroscopic surgery and the graft donor site. This study investigated whether donor site pain control was superior with the addition of either peri-hamstring injection or anterior division obturator nerve block in comparison with adductor canal block (ACB) alone.",
+            "journal": "British journal of anaesthesia",
+            "year": "2020",
+            "authors": [
+              "Johnston David F",
+              "Sondekoppam Rakesh V",
+              "Uppal Vishal",
+              "Litchfield Robert",
+              "Giffin Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Analgesics, Opioid",
+              "Anterior Cruciate Ligament",
+              "Anterior Cruciate Ligament Injuries",
+              "Anterior Cruciate Ligament Reconstruction",
+              "Arthroscopy",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31980156/"
+          },
+          {
+            "pmid": "22236345",
+            "title": "The analgesic effect of continuous subacromial bupivacaine infusion after arthroscopic shoulder surgery: a randomized controlled trial.",
+            "abstract": "The benefits of subacromial local anesthetic infusion are controversial. The aim of this study was to evaluate the efficacy of subacromial bupivacaine infusion after arthroscopic acromionplasty and rotator cuff procedures.",
+            "journal": "Acta anaesthesiologica Scandinavica",
+            "year": "2012",
+            "authors": [
+              "Merivirta R",
+              "Kuusniemi K S",
+              "Aantaa R",
+              "Hurme S A",
+              "Aärimaa V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Adult",
+              "Aged",
+              "Analgesics, Non-Narcotic",
+              "Analgesics, Opioid",
+              "Anesthetics, Local",
+              "Arthroscopy",
+              "Blood Pressure",
+              "Bupivacaine",
+              "Dizziness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22236345/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis fibrosa",
+        "txgnn_score": 0.8439813852310181,
+        "txgnn_rank": 39609,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic granulomatous myositis",
+        "txgnn_score": 0.8439813852310181,
+        "txgnn_rank": 39610,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00497",
+    "name": "Oxycodone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Oxycodone"
+      },
+      "queried_at": "2026-03-10T10:06:01.005645",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Oxycodone"
+      },
+      "queried_at": "2026-03-10T10:06:09.829528",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T10:06:10.472782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T10:06:15.647014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T10:06:16.566757",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-10T10:06:17.611898",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-10T10:06:21.871309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-10T10:06:25.564239",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T10:06:26.884105",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T10:06:30.715666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T10:06:33.246404",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T10:06:34.017129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T10:06:37.655171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T10:06:39.704359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T10:06:43.691260",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T10:06:46.787662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T10:06:50.690849",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T10:06:51.285921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T10:06:55.174015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T10:06:56.090476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T10:07:00.571584",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T10:07:04.980768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T10:07:07.465458",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T10:07:07.949480",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T10:07:11.115085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T10:07:13.059554",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T10:07:13.715977",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T10:07:17.772322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T10:07:18.467714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T10:07:19.073789",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T10:07:23.687327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxycodone",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T10:07:24.730121",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:07:24.758934"
+  }
+}

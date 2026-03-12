@@ -1,0 +1,1556 @@
+{
+  "drug": {
+    "inn": "Bosentan",
+    "drugbank_id": "DB00559",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9980109333992004,
+        "txgnn_rank": 3393,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06957002",
+            "title": "Bosentan in the Treatment of Giant Cell Arteritis. Multicenter, Randomized, Controlled, Superiority Phase II Trial Comparing a Combination of Bosentan and Glucocorticoids Versus Glucocorticoids Alone in the Treatment of Patients With GCA",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-09",
+            "completion_date": "2029-09",
+            "country": "France",
+            "enrollment": 40,
+            "brief_summary": "The purpose of this study is to determine whether a treatment with 3 months of bosentan associated to standard therapy might be superior to glucocorticoids alone in term of failure free survival at 12 months",
+            "eligibility_criteria": "* Inclusion Criteria :\n* Patients having given their written informed consent prior to participation in the study\n* Patients affiliated with social security or CMU (profit or being entitled)\n* Diagnosis of GCA, as defined by the revised GCA diagnosis criteria. Patients must satisfy criteria 1-2-3 an",
+            "endpoints": [
+              "Failure free survival at Week 52"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06957002"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19851110",
+            "title": "Rheumatic manifestations of skin disease.",
+            "abstract": "There is an increasing interest in improving the understanding of pathophysiology, outcome measures, and therapies of rheumatic skin disease. Increasingly, studies are using the skin as a primary endpoint for evaluating therapies. This will review the current state of the art for the most common rheumatic skin diseases.",
+            "journal": "Current opinion in rheumatology",
+            "year": "2010",
+            "authors": [
+              "Clarke Jennie T",
+              "Werth Victoria P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cytokines",
+              "Dermatomyositis",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Lupus Erythematosus, Cutaneous",
+              "Raynaud Disease",
+              "Rheumatic Diseases",
+              "Scleroderma, Systemic",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19851110/"
+          },
+          {
+            "pmid": "20054770",
+            "title": "Eisenmenger syndrome and juvenile rheumatoid arthritis--a case of double diagnosis.",
+            "abstract": "An 8.5-year-old girl evaluated for central cyanosis, hypoxia and normocarbia was found to have aorticopulmonary window and pulmonary hypertension. The diagnosis of Eisenmenger syndrome (ES) was made and treatment with bosentan was started. Four months later she was diagnosed to have juvenile rheumatoid arthritis and naproxen treatment was started. The case was remarkable in that she showed clinical improvement with new generation treatment of ES although pulmonary arterial pressure did not decrease significantly and the diagnosis of juvenile rheumatoid arthritis was made during follow-up.",
+            "journal": "Kardiologia polska",
+            "year": "2009",
+            "authors": [
+              "Ozdemir Osman",
+              "Agras Pinar Isik",
+              "Hizli Samil",
+              "Guveloglu Mine",
+              "Kabakus Nimet"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antihypertensive Agents",
+              "Arthritis, Juvenile",
+              "Bosentan",
+              "Child",
+              "Diagnosis, Differential",
+              "Eisenmenger Complex",
+              "Female",
+              "Humans",
+              "Naproxen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20054770/"
+          },
+          {
+            "pmid": "19487226",
+            "title": "Vasculopathy and pulmonary arterial hypertension.",
+            "abstract": "Vasculitis can occur either as a primary condition or secondary to CTDs, infection, medication or malignancy. This article reviews the clinical presentation and management of vascular disease associated with SLE and SS, as well as the primary necrotizing vasculitides. Although pulmonary arterial hypertension (PAH) has traditionally been considered a rare complication of SLE, estimates of its prevalence range from 0.5% to 14% and it has a significant impact on prognosis. In contrast to PAH associated with other CTDs, patients with SLE respond well to immunosuppressive agents (cyclophosphamide in conjunction with corticosteroids). Improvements or stabilization of PAH symptoms and quality of life have also been observed with the oral, dual endothelin receptor antagonist, bosentan. SS is associated with a range of cutaneous and systemic signs of vasculitis. Immunosuppressive agents are effective, but are associated with an increased risk of lymphoma. The necrotizing vasculitides include WG",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2009",
+            "authors": [
+              "Guillevin L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Churg-Strauss Syndrome",
+              "Glucocorticoids",
+              "Granulomatosis with Polyangiitis",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Immunosuppressive Agents",
+              "Lupus Erythematosus, Systemic",
+              "Scleroderma, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19487226/"
+          },
+          {
+            "pmid": "22249931",
+            "title": "Bosentan, an endothelin receptor antagonist, ameliorates collagen-induced arthritis: the role of TNF-α in the induction of endothelin system genes.",
+            "abstract": "Endothelins (ETs) are involved in several inflammatory events. The present study investigated the efficacy of bosentan, a dual ETA/ETB receptor antagonist, in collagen-induced arthritis (CIA) in mice.",
+            "journal": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]",
+            "year": "2012",
+            "authors": [
+              "Donate Paula B",
+              "Cunha Thiago M",
+              "Verri Waldiceu A",
+              "Junta Cristina M",
+              "Lima Flavia O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Antirheumatic Agents",
+              "Arthritis, Experimental",
+              "Arthritis, Rheumatoid",
+              "Bosentan",
+              "Cells, Cultured",
+              "Cytokines",
+              "Endothelin Receptor Antagonists",
+              "Endothelin-1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22249931/"
+          },
+          {
+            "pmid": "24268012",
+            "title": "Pulmonary arterial hypertension related to connective tissue disease: a review.",
+            "abstract": "PAH associated with connective tissue diseases is associated with significant functional impairment and morbidity, and carries with it a poor prognosis. The mortality is as high as 10% to 15% in the first year after diagnosis; making it a devastating disease. The availability of ever-increasing numbers of treatment options in the recent era have improved survival in this patient population and have made early and accurate diagnosis a more important goal. According to the Registry to Evaluate Early and Long-Term Pulmonary Arterial Hypertension Disease Management (REVEAL), 1-year, 3-year, 5-year, and 7-year survival rates from time of diagnostic right-sided heart catheterization in patients with PAH were found to be 85%, 68%, 57%, and 49%, respectively, which is a considerable improvement since the National Institutes of Health registry 2 decades previously. In a study by Condliffe and colleagues, survival rates in patients with SSC-associated PAH have improved to 78%at 1 year and 47% at",
+            "journal": "Rheumatic diseases clinics of North America",
+            "year": "2014",
+            "authors": [
+              "Ahmed Saman",
+              "Palevsky Harold I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Connective Tissue Diseases",
+              "Dermatomyositis",
+              "Familial Primary Pulmonary Hypertension",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Lupus Erythematosus, Systemic",
+              "Mixed Connective Tissue Disease",
+              "Sjogren-Larsson Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24268012/"
+          },
+          {
+            "pmid": "16218473",
+            "title": "Pulmonary arterial hypertension associated to connective tissue diseases.",
+            "abstract": "Pulmonary arterial hypertension is a well-known complication of connective tissue diseases such as systemic sclerosis, systemic lupus erythematosus, mixed connective tissue diseases, and to a lesser extent, rheumatoid arthritis, dermatopolymyositis and primary Sjögren's syndrome. In these patients, pulmonary hypertension may occur in association with left heart disease, interstitial fibrosis or as a result of a isolated pulmonary arteriopathy. The incidence of pulmonary arterial hypertension in the limited form of systemic sclerosis is about 10%. The pathophysiologic mechanisms leading to pulmonary arterial hypertension remain unknown. Symptoms and clinical presentation are very similar to idiopathic pulmonary arterial hypertension but mortality was confirmed to be higher. Echocardiography is the reference investigation for the detection of pulmonary arterial hypertension but the results should be confirmed by right heart catheterization. Treatment appears more complex as compared to i",
+            "journal": "Lupus",
+            "year": "2005",
+            "authors": [
+              "Galiè N",
+              "Manes A",
+              "Farahani K V",
+              "Pelino F",
+              "Palazzini M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Algorithms",
+              "Connective Tissue Diseases",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16218473/"
+          },
+          {
+            "pmid": "18515326",
+            "title": "Endothelins modulate inflammatory reaction in zymosan-induced arthritis: participation of LTB4, TNF-alpha, and CXCL-1.",
+            "abstract": "Endothelins (ETs) are involved in inflammatory events, including pain, fever, edema, and cell migration. ET-1 levels are increased in plasma and synovial membrane of rheumatoid arthritis (RA) patients, but the evidence that ETs participate in RA physiopathology is limited. The present study investigated the involvement of ETs in neutrophil accumulation and edema formation in the murine model of zymosan-induced arthritis. Intra-articular (i.a.) administration of selective ET(A) or ET(B) receptor antagonists (BQ-123 and BQ-788, respectively; 15 pmol/cavity) prior to i.a. zymosan injection (500 microg/cavity) markedly reduced knee-joint edema formation and neutrophil influx to the synovial cavity 6 h and 24 h after stimulation. Histological analysis showed that ET(A) or ET(B) receptor blockade suppressed zymosan-induced neutrophil accumulation in articular tissue at 6 h. Likewise, dual blockade of ET(A)/ET(B) with bosentan (10 mg/kg, i.v.) also reduced edema formation and neutrophil count",
+            "journal": "Journal of leukocyte biology",
+            "year": "2008",
+            "authors": [
+              "Conte Fernando de Paiva",
+              "Barja-Fidalgo Christina",
+              "Verri Waldiceu A",
+              "Cunha Fernando Queiroz",
+              "Rae Giles A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antihypertensive Agents",
+              "Arthritis",
+              "Bosentan",
+              "Cell Movement",
+              "Chemokine CXCL1",
+              "Chemokines",
+              "Endothelin A Receptor Antagonists",
+              "Endothelin B Receptor Antagonists",
+              "Endothelin Receptor Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18515326/"
+          },
+          {
+            "pmid": "18238768",
+            "title": "Treatment of complications associated with systemic sclerosis.",
+            "abstract": "Current and emerging drug therapy options for patients suffering from the complications of systemic sclerosis are presented.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2008",
+            "authors": [
+              "Moore Stacie C",
+              "Desantis Evelyn R Hermes"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antihypertensive Agents",
+              "Calcium Channel Blockers",
+              "Epoprostenol",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Joint Diseases",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18238768/"
+          },
+          {
+            "pmid": "19969421",
+            "title": "IL-17 mediates articular hypernociception in antigen-induced arthritis in mice.",
+            "abstract": "IL-17 is an important cytokine in the physiopathology of rheumatoid arthritis (RA). However, its participation in the genesis of nociception during RA remains undetermined. In this study, we evaluated the role of IL-17 in the genesis of articular nociception in a model of antigen (mBSA)-induced arthritis. We found that mBSA challenge in the femur-tibial joint of immunized mice induced a dose- and time-dependent mechanical hypernociception. The local IL-17 concentration within the mBSA-injected joints increased significantly over time. Moreover, co-treatment of mBSA challenged mice with an antibody against IL-17 inhibited hypernociception and neutrophil recruitment. In agreement, intraarticular injection of IL-17 induced hypernociception and neutrophil migration, which were reduced by the pre-treatment with fucoidin, a leukocyte adhesion inhibitor. The hypernociceptive effect of IL-17 was also reduced in TNFR1(-/-) mice and by pre-treatment with infliximab (anti-TNF antibody), a CXCR1/2",
+            "journal": "Pain",
+            "year": "2010",
+            "authors": [
+              "Pinto Larissa G",
+              "Cunha Thiago M",
+              "Vieira Silvio M",
+              "Lemos Henrique P",
+              "Verri Waldiceu A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antigens",
+              "Antirheumatic Agents",
+              "Arthritis",
+              "Cell Movement",
+              "Cytokines",
+              "Dinoprostone",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19969421/"
+          },
+          {
+            "pmid": "16766656",
+            "title": "IL-15 mediates immune inflammatory hypernociception by triggering a sequential release of IFN-gamma, endothelin, and prostaglandin.",
+            "abstract": "IL-15 is closely associated with inflammatory diseases. IL-15 targeting is effective in treating experimental and clinical rheumatoid arthritis (RA). Because hyperalgesia accompanies RA, we investigated the ability of IL-15 to induced nociceptor sensitization (hypernociception). We report here that IL-15 induced time- and dose-dependent mechanical hypernociception in mice. IL-15-induced hypernociception was inhibited by treatment with a dual endothelin receptor type A (ET(A))/endothelin receptor type B (ET(B)) antagonist (bosentan), ET(A) receptor antagonist (BQ123), or cyclooxygenase inhibitor (indomethacin). Moreover, IL-15 failed to induce hypernociception in IFN-gamma(-/-) mice, suggesting that IL-15 mediated hypernociception via an IFN-gamma-, endothelin (ET)-, and prostaglandin-dependent pathway. Consistent with this finding, IFN-gamma and ET-1 induced dose- and time-dependent mechanical hypernociception that was inhibited by BQ123 or indomethacin but not BQ788 (an ET(B) receptor",
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2006",
+            "authors": [
+              "Verri Waldiceu A",
+              "Cunha Thiago M",
+              "Parada Carlos A",
+              "Wei Xiao-qing",
+              "Ferreira Sérgio Henrique"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Endothelins",
+              "Gene Expression Regulation",
+              "Inflammation",
+              "Interferon-gamma",
+              "Interleukin-15",
+              "Mice",
+              "Ovalbumin",
+              "Prostaglandins",
+              "RNA, Messenger"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16766656/"
+          },
+          {
+            "pmid": "21165350",
+            "title": "Treatment of pulmonary hypertension in patients with connective tissue disease and interstitial lung disease.",
+            "abstract": "Pulmonary hypertension (PH) in patients with connective tissue disease (CTD) can occur in isolation or concomitantly with interstitial lung disease (ILD). Targeted therapies for PH can mitigate clinical deterioration in CTD patients with isolated PH; however, the effect of these therapies in CTD patients with PH and ILD (CTD-PH-ILD) are poorly characterized.",
+            "journal": "Canadian respiratory journal",
+            "year": "2010",
+            "authors": [
+              "Mittoo Shikha",
+              "Jacob Thomas",
+              "Craig Andrea",
+              "Bshouty Zoheir"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Connective Tissue Diseases",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Kaplan-Meier Estimate",
+              "Lung Diseases, Interstitial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21165350/"
+          },
+          {
+            "pmid": "20397741",
+            "title": "Modelling the time to onset of adverse reactions with parametric survival distributions: a potential approach to signal detection and evaluation.",
+            "abstract": "It has been postulated that the time to onset of adverse drug reactions is connected to the underlying pharmacological (or toxic) mechanism of adverse drug reactions whether the reaction is time dependent or not.",
+            "journal": "Drug safety",
+            "year": "2010",
+            "authors": [
+              "Maignen François",
+              "Hauben Manfred",
+              "Tsintis Panos"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adverse Drug Reaction Reporting Systems",
+              "Antihypertensive Agents",
+              "Bacterial Infections",
+              "Bosentan",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Kaplan-Meier Estimate",
+              "Liver",
+              "Models, Statistical",
+              "Models, Theoretical"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20397741/"
+          },
+          {
+            "pmid": "25274237",
+            "title": "Withdrawal of epoprostenol therapy in a patient with pulmonary hypertension associated with Sjögren's syndrome.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a rare complication, but a significant prognostic factor in patients with Sjögren's syndrome (SjS). Despite its efficacy, the long-term use of intravenous epoprostenol is sometimes complicated by adverse effects, such as catheter-related infection. This case involves a 38-year-old woman with PAH associated with SjS (PAH-SjS) who was transitioned from treatment with long-term intravenous epoprostenol therapy to combination oral therapy containing bosentan and tadalafil. She has remained in stable condition for more than two years following epoprostenol discontinuation. The details of this report suggest that long-term epoprostenol therapy can be safely tapered off and replaced with combination oral therapy in carefully selected patients with PAH-SjS.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2014",
+            "authors": [
+              "Fujita Tetsuo",
+              "Tanabe Nobuhiro",
+              "Kasahara Yasunori",
+              "Sugiura Toshihiko",
+              "Sakao Seiichiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Antihypertensive Agents",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Injections, Intravenous",
+              "Sjogren's Syndrome",
+              "Withholding Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25274237/"
+          },
+          {
+            "pmid": "39477378",
+            "title": "Molecular Hydrogen Therapy in Sjögren's Syndrome With Pulmonary Arterial Hypertension and Right-sided Heart Failure: A Case Report of Improved Immune Markers Including Treg, B Cells and Plasma Cell.",
+            "abstract": "Connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) is a severe complication characterized by elevated pulmonary artery pressure, which can lead to right heart failure and death, if untreated. Standard treatments often fail to adequately manage symptoms, highlighting the need for novel therapeutic approaches. This study investigated the efficacy of molecular hydrogen (H2) therapy in a patient with CTD-PAH.",
+            "journal": "In vivo (Athens, Greece)",
+            "year": "2024",
+            "authors": [
+              "Lin Yun-Ting",
+              "Lu Jeng-Wei",
+              "Wu Chun-Hsien",
+              "Ho Yi-Jung",
+              "Lui Shan-Wen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Sjogren's Syndrome",
+              "Heart Failure",
+              "Hydrogen",
+              "Pulmonary Arterial Hypertension",
+              "T-Lymphocytes, Regulatory",
+              "B-Lymphocytes",
+              "Biomarkers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39477378/"
+          },
+          {
+            "pmid": "16766376",
+            "title": "Clinical features and endothelin receptor antagonist in primary Sjögren's syndrome with pulmonary arterial hypertension.",
+            "abstract": "",
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "2006",
+            "authors": [
+              "Chen C-H",
+              "Chen H-A",
+              "Yang K-Y",
+              "Yu W-C",
+              "Liao H-T"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Endothelin Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Immunosuppressive Agents",
+              "Middle Aged",
+              "Sjogren's Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16766376/"
+          },
+          {
+            "pmid": "19198237",
+            "title": "[Pulmonary hypertension in a patient on chronic hemodialysis].",
+            "abstract": "A 52-year-old woman with end-stage renal disease and long-term hemodialysis complained of worsening exertional dyspnea. A chest X-ray showed cardiomegaly. She was admitted to our hospital because an echocardiogram suggested pulmonary hypertension. Right heart catheterization revealed pulmonary hypertension, but pulmonary perfusion scintigraphy with Tc-99m-MAA showed no evidence of pulmonary thromboembolism. We gave her a diagnosis of pulmonary arterial hypertension associated with Sjögren syndrome on the basis of a positive serological test (SS-A. SS-B) and the findings of lip biopsy. After four months of therapy with bosentan, her 6-minute walk distance, estimated pulmonary arterial pressure and brain natriuretic peptide (BNP) improved. Bosentan is mainly cleared by hepatic elimination and its dialysis clearance is low. Bosentan for the treatment of pulmonary hypertension was safe as well as effective in this patient with end-stage renal disease and hemodialysis. In consideration of t",
+            "journal": "Nihon Kokyuki Gakkai zasshi = the journal of the Japanese Respiratory Society",
+            "year": "2009",
+            "authors": [
+              "Yasuda Tadashi",
+              "Tanabe Nobuhiro",
+              "Konishi Kenji",
+              "Shigeta Ayako",
+              "Shinohara Masao"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Kidney Failure, Chronic",
+              "Middle Aged",
+              "Renal Dialysis",
+              "Sjogren's Syndrome",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19198237/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9974390268325806,
+        "txgnn_rank": 4096,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "limited systemic sclerosis",
+        "txgnn_score": 0.9965040683746338,
+        "txgnn_rank": 5107,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05168215",
+            "title": "An Observational Clinical Study to evalUate the Effectiveness of Bosentan Therapy in Patients With Systemic scleRosis and Progressive Digital ulcEr Disease.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2022-01-01",
+            "completion_date": "2024-06-01",
+            "country": "Greece",
+            "enrollment": 300,
+            "brief_summary": "Digital Ulcers (DEs), are painful open sores on the fingers and toes and are due to limited perfusion of blood vessels in patients with Scleroderma. In particular, ulcers are caused by narrowing of the arteries, resulting in reduced blood supply to the fingers, causing pain and difficult to heal leaving deep scars. DEs may be present on the rails or fingertips, on the extensor surfaces of the joints, and depending on the underlying calcification. The etiology of ulcers is multifactorial. Raynaud",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients\n* Patients diagnosed with scleroderma (diffuse or limited)\n* Patients with at least one digital ulcer, whether or not it is due to scleroderma\n* Patients with 2013 ACR / EULAR Classification Criteria with a total score of ≥ 9\n* Patients already taking Bosentan (",
+            "endpoints": [
+              "Digital Ulcers"
+            ],
+            "sponsor": "Elpen Pharmaceutical Co. Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05168215"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "18596996",
+            "title": "Bosentan in systemic sclerosis.",
+            "abstract": "Systemic sclerosis (SSc) is a relatively rare chronic connective tissue disease characterized by varying degrees of skin fibrosis and visceral organ involvement. Pulmonary compromise, including pulmonary arterial hypertension and interstitial lung disease, is currently the leading cause of death in patients with SSc. Digital ulcers are common complications which lead to substantial morbidity and functional limitation. Until recently, treatment options for these complications were quite limited. Endothelin-1 (ET-1) is a peptide that has a role in promoting both vascular injury and the fibrotic process in SSc. Bosentan is a dual endothelin receptor antagonist approved for the treatment of pulmonary arterial hypertension. In patients with pulmonary hypertension secondary to SSc, bosentan therapy prevents deterioration in exercise capacity and may improve survival. No beneficial effect was found in one study in patients with interstitial lung disease and SSc. Bosentan is able to reduce the",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2008",
+            "authors": [
+              "Heresi Gustavo A",
+              "Minai Omar A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Endothelin Receptor Antagonists",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Lung Diseases, Interstitial",
+              "Scleroderma, Systemic",
+              "Skin Ulcer",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18596996/"
+          },
+          {
+            "pmid": "36974107",
+            "title": "Effectiveness of bosentan in the treatment of systemic sclerosis-related digital ulcers: Systematic review and meta-analysis.",
+            "abstract": "The aim of the present systematic review and meta-analysis was to evaluate the therapeutic efficacy of bosentan, a dual endothelin receptor antagonist, for systemic sclerosis (SSc) patients with digital ulcers (DUs).",
+            "journal": "Journal of research in medical sciences : the official journal of Isfahan University of Medical Sciences",
+            "year": "2023",
+            "authors": [
+              "Hosseinbalam Marziyeh",
+              "Nouri Rasool",
+              "Farajzadegan Ziba",
+              "Mottaghi Peyman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36974107/"
+          },
+          {
+            "pmid": "27716320",
+            "title": "Bosentan and macitentan prevent the endothelial-to-mesenchymal transition (EndoMT) in systemic sclerosis: in vitro study.",
+            "abstract": "Systemic sclerosis (SSc) is characterized by early vascular abnormalities and subsequent fibroblast activation to myofibroblasts, leading to fibrosis. Recently, endothelial-to-mesenchymal transition (EndoMT), a complex biological process in which endothelial cells lose their specific markers and acquire a mesenchymal or myofibroblastic phenotype, has been reported in SSc. In the present study, we evaluated the ability of endothelin-1 (ET-1) dual receptor antagonists bosentan (BOS) and macitentan (MAC) to antagonize EndoMT in vitro.",
+            "journal": "Arthritis research & therapy",
+            "year": "2016",
+            "authors": [
+              "Corallo Claudio",
+              "Cutolo Maurizio",
+              "Kahaleh Bashar",
+              "Pecetti Gianluca",
+              "Montella Antonio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Blotting, Western",
+              "Bosentan",
+              "Cell Transdifferentiation",
+              "Cells, Cultured",
+              "Coculture Techniques",
+              "Endothelial Cells",
+              "Endothelin Receptor Antagonists",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27716320/"
+          },
+          {
+            "pmid": "38306796",
+            "title": "Systematic literature review to inform the Portuguese recommendations for the management of Raynaud's phenomenon and digital ulcers in systemic sclerosis and other connective tissue diseases.",
+            "abstract": "To perform a systematic literature review (SLR) aimed at evaluating the efficacy and safety of pharmacological and non-pharmacological treatments for Raynaud's phenomenon (RP) and digital ulcers (DU) in patients with systemic sclerosis (SSc) and other connective tissue diseases (CTD), in order to inform the Portuguese recommendations for managing RP and DU in these patients.",
+            "journal": "ARP rheumatology",
+            "year": "2024",
+            "authors": [
+              "Costa Emanuel",
+              "Cunha-Santos Filipe",
+              "Dourado Eduardo",
+              "Oliveira Daniela",
+              "Falzon Louise"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Raynaud Disease",
+              "Scleroderma, Systemic",
+              "Connective Tissue Diseases",
+              "Skin Ulcer",
+              "Portugal",
+              "Calcium Channel Blockers",
+              "Fingers",
+              "Practice Guidelines as Topic",
+              "Iloprost"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38306796/"
+          },
+          {
+            "pmid": "29900941",
+            "title": "Bosentan For Digital Ulcers in Patients With Systemic Sclerosis: Single Center Experience.",
+            "abstract": "This study aims to investigate the effects of bosentan on the prevention and treatment of digital ulcers in systemic sclerosis (SSc) patients.",
+            "journal": "Archives of rheumatology",
+            "year": "2016",
+            "authors": [
+              "Küçükşahin Orhan",
+              "Yildizgören Mustafa Turgut",
+              "Gerede Demet Menekşe",
+              "Maraş Yüksel",
+              "Erten Şükran"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29900941/"
+          },
+          {
+            "pmid": "38956991",
+            "title": "Portuguese Recommendations for the management of Raynaud's phenomenon and digital ulcers in systemic sclerosis and other connective tissue diseases.",
+            "abstract": "To develop evidence-based recommendations for the non-pharmacological and pharmacological management of Raynaud's phenomenon (RP) and digital ulcers (DUs) in patients with systemic sclerosis and other immune-mediated connective tissue diseases (CTDs).",
+            "journal": "ARP rheumatology",
+            "year": "2024",
+            "authors": [
+              "Santiago Tânia",
+              "Duarte Ana Catarina",
+              "Sepriano Alexandre",
+              "Castro Alice",
+              "Rosa Bruno"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Connective Tissue Diseases",
+              "Fingers",
+              "Portugal",
+              "Raynaud Disease",
+              "Scleroderma, Systemic",
+              "Skin Ulcer"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38956991/"
+          },
+          {
+            "pmid": "16966019",
+            "title": "Systemic and localized scleroderma.",
+            "abstract": "Sclerosing conditions of the skin are manifested by a full spectrum of presentations that includes skin-limited forms as well as those which can involve internal organs and result in death. At this point, we are just beginning to understand the mechanisms of tissue fibrosis, and it is likely that the fibrotic processes are a heterogeneous group of disorders in which perturbation of multiple molecular pathways, including vascular and immunologically mediated pathways, can lead to fibrosis. We now have some moderately effective therapies for vascular aspects of systemic sclerosis (eg, bosentan for pulmonary arterial hypertension, calcium-channel blockers for Raynaud's, or angiotensin-converting enzyme inhibitors for renal crisis). We also are beginning to find treatments interrupting the immunologic pathways that manifest as systemic sclerosis (eg, methotrexate for the skin or cyclophosphamide for the lungs). The basic process of fibrosis, however, awaits proven, effective therapy.",
+            "journal": "Clinics in dermatology",
+            "year": "2006",
+            "authors": [
+              "Chung Lorinda",
+              "Lin Jan",
+              "Furst Daniel E",
+              "Fiorentino David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antipruritics",
+              "Diagnosis, Differential",
+              "Fibrosis",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Physical Therapy Modalities",
+              "Scleroderma, Localized",
+              "Scleroderma, Systemic",
+              "Skin",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16966019/"
+          },
+          {
+            "pmid": "28018840",
+            "title": "Hand Impairment in Systemic Sclerosis: Various Manifestations and Currently Available Treatment.",
+            "abstract": "Systemic sclerosis (SSc) is an autoimmune disease initially recognized by hand involvement due to characteristic Raynaud's phenomenon (RP), puffy hands, skin thickening, and contractures resembling claw deformities. SSc contributes to hand impairment through inflammatory arthritis, joint contractures, tendon friction rubs (TFRs), RP, digital ulcers (DU), puffy hands, skin sclerosis, acro-osteolysis, and calcinosis. These manifestations, which often co-exist, can contribute to difficulty with occupational activities and activities of daily living (ADL), which can result in impaired quality of life. However, despite this knowledge, most diagnostic and treatment principles in SSc are focused on visceral manifestations due to known associations with morbidity and mortality. Treatment of inflammatory arthritis is symptom based and involves corticosteroids ≤10mg daily, methotrexate, tumor necrosis factor inhibitors, tocilizumab, and abatacept. Small joint contractures are managed by principl",
+            "journal": "Current treatment options in rheumatology",
+            "year": "2016",
+            "authors": [
+              "Young Amber",
+              "Namas Rajaie",
+              "Dodge Carole",
+              "Khanna Dinesh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28018840/"
+          },
+          {
+            "pmid": "15658881",
+            "title": "Pulmonary arterial hypertension in systemic sclerosis: clinical manifestations, pathophysiology, evaluation, and management.",
+            "abstract": "It is increasingly recognized that significant pulmonary arterial hypertension (PAH) develops in more than 15% of patients with systemic sclerosis (SSc). As this complication of SSc may occur even in the absence of overt interstitial lung disease (isolated PAH), it has been likened to primary PAH and is attributable to intrinsic vascular pathology that is the hallmark of SSc. Deregulated activity of mediators controlling vasomotor tone has been implicated, and levels of endothelin-1 (ET-1) are elevated in the circulation and in the lungs. By causing enhanced vasoconstriction, vascular endothelial cell proliferation, smooth muscle hypertrophy, and irreversible vascular remodeling in the lungs, ET-1 appears to play a significant role in the pathogenesis of SSc-associated PAH. Although patients with the limited cutaneous form of SSc are more likely to develop PAH than those with the diffuse form, the true prevalence of PAH in SSc, and the risk factors for its development, are not yet know",
+            "journal": "Treatments in respiratory medicine",
+            "year": "2004",
+            "authors": [
+              "Ramirez Allan",
+              "Varga John"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Scleroderma, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15658881/"
+          },
+          {
+            "pmid": "24387049",
+            "title": "Current therapies for the treatment of systemic sclerosis-related pulmonary arterial hypertension: efficacy and safety.",
+            "abstract": "Systemic sclerosis (SSc) is a rare connective tissue disease characterized by chronic inflammation and fibrosis of the skin, vascular abnormalities and variable involvement of organs. Patients with limited SSc typically develop pulmonary arterial hypertension (PAH). TNF-α, VEGF, platelet-derived growth factor and endothelin-1 play a key role in the development of PAH.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2014",
+            "authors": [
+              "Murdaca Giuseppe",
+              "Spanò Francesca",
+              "Puppo Francesco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Familial Primary Pulmonary Hypertension",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Scleroderma, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24387049/"
+          },
+          {
+            "pmid": "19350343",
+            "title": "No effects of bosentan on microvasculature in patients with limited cutaneous systemic sclerosis.",
+            "abstract": "The endothelium-derived vasoconstrictor molecule endothelin-1 (ET-1) has been suggested to play a role in the pathogenesis of Raynaud's phenomenon (RP) and systemic sclerosis (SSc). We studied the effect of bosentan on microvascular structure and function in patients with RP secondary to limited cutaneous SSc in a mechanistic pilot study. In this single center, open study, 15 patients with limited cutaneous SSc were treated with bosentan for 16 weeks with a follow-up period of 4 weeks. Changes in microvascular structure and function were studied with assessment of vasodilatory microvascular responses using laser Doppler fluxmetry combined with iontophoresis, capillary permeability using fluorescence videomicroscopy, nailfold capillary microscopy, and serological markers of endothelial activation. No significant changes were seen in vasodilator responses to acetylcholine and sodium nitroprusside following bosentan treatment. No effect was noted on capillary permeability during treatment",
+            "journal": "Clinical rheumatology",
+            "year": "2009",
+            "authors": [
+              "Hettema Martha E",
+              "Zhang Dan",
+              "Stienstra Ymkje",
+              "Smit Andries J",
+              "Bootsma Hendrika"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Drug Therapy, Combination",
+              "Endothelium, Vascular",
+              "Female",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Laser-Doppler Flowmetry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19350343/"
+          },
+          {
+            "pmid": "21283970",
+            "title": "Systemic sclerosis - a systematic overview: part 2 - immunosuppression, treatment of SSc-associated vasculopathy, and treatment of pulmonary arterial hypertension.",
+            "abstract": "Here we give an overview over treatment recommendations propagated by the European League Against Rheumatism (EULAR), EULAR Scleroderma Trials and Research Group, the German Network for Systemic Sclerosis, the European Respiratory Society, and the International Society of Heart and Lung Transplantation. As response to immunosuppressant (IS) therapy is usually weaker in systematic sclerosis (SSc) compared to other connective tissue disorders IS should be considered with caution. To prevent scleroderma renal crisis steroid doses should not exceed 15 mg/d. The definitive role of a number of new immunosuppressant drugs and the effects of autologous stem cell transplantation in systemic clerosis (SSc) have to be elucidated. Prostanoids, especially iloprost, are widely used as intravenous formulas for the treatment of severe Raynaud's phenomenon (RP) and digital ulcers (DU). Calcium antagonists are of limited therapeutic value. Bosentan, an oral endothelin receptor antagonists (ETRA), was sh",
+            "journal": "VASA. Zeitschrift fur Gefasskrankheiten",
+            "year": "2011",
+            "authors": [
+              "Opitz C",
+              "Klein-Weigel P F",
+              "Riemekasten G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Cardiovascular Agents",
+              "Drug Therapy, Combination",
+              "Europe",
+              "Familial Primary Pulmonary Hypertension",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Immunosuppressive Agents",
+              "Practice Guidelines as Topic",
+              "Raynaud Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21283970/"
+          },
+          {
+            "pmid": "21244767",
+            "title": "Bosentan treatment for Raynauds phenomenon and skin fibrosis in patients with Systemic Sclerosis and pulmonary arterial hypertension: an open-label, observational, retrospective study.",
+            "abstract": "Raynaud?s phenomenon (RP) and cutaneous fibrosis are the distinctive manifestations of scleroderma, in which Endothelin-1 plays a fundamental pathogenetic role. Bosentan, an Endothelin-1 receptor antagonist used for the treatment of pulmonary arterial hypertension, retards the beginning of new sclerodermic digital ulcers (DU). This open-label, observational, retrospective study verified the effect of Bosentan on RP and skin fibrosis in sclerodermic outpatients affected by pulmonary arterial hypertension without DU. Fourteen subjects (13 women, 1 man; mean age 60 ± 7.5 years; ten with limited and four with diffuse scleroderma) were observed at baseline (T0) and after four (T1), twelve (T2), twenty-four (T3) and forty-eight (T4) weeks during treatment with Bosentan. They were evaluated for daily quantity and duration of RP attacks and skin thickness (using modified Rodnan total skin score, MRSS). Videocapillaroscopic evaluation was performed at T0 and T4. Bosentan decreased significantly",
+            "journal": "International journal of immunopathology and pharmacology",
+            "year": "2010",
+            "authors": [
+              "Giordano N",
+              "Puccetti L",
+              "Papakostas P",
+              "Di Pietra N",
+              "Bruni F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bosentan",
+              "Endothelin Receptor Antagonists",
+              "Familial Primary Pulmonary Hypertension",
+              "Female",
+              "Fibrosis",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21244767/"
+          },
+          {
+            "pmid": "25824427",
+            "title": "Efficacy of Raynaud's phenomenon and digital ulcer pharmacological treatment in systemic sclerosis patients: a systematic literature review.",
+            "abstract": "To evaluate the efficacy of current treatments for the Raynaud phenomenon (RP) in patients with systemic sclerosis (SSc), a systematic literature search was performed using Medline, EMBASE, and Cochrane Central Register of Controlled Trials (from 1961 to October 2011). We included meta-analyses, systematic reviews, clinical trials, and high-quality cohort studies published in English or Spanish. Patient populations had to include adults diagnosed with limited cutaneous or diffuse SSc who had associated RP and/or digital ulcers under pharmacological treatment. Efficacy of treatments was evaluated based on: number of RP episodes, RP severity, episode-free time, ulcer improvement/healing, and appearance of new ulcers. We used the Jadad scale of methodological quality to evaluate the quality of randomized clinical trials, and the 2009 Oxford Centre for Evidence-Based Medicine classification for other studies. Of a total of 1617 studies identified, only 27 fulfilled inclusion criteria. Drug",
+            "journal": "Rheumatology international",
+            "year": "2015",
+            "authors": [
+              "García de la Peña Lefebvre Paloma",
+              "Nishishinya María Betina",
+              "Pereda Claudia Alejandra",
+              "Loza Estíbaliz",
+              "Sifuentes Giraldo Walter Alberto"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Raynaud Disease",
+              "Scleroderma, Systemic",
+              "Skin Ulcer",
+              "Treatment Outcome",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25824427/"
+          },
+          {
+            "pmid": "27744392",
+            "title": "Effects of Longterm Treatment with Bosentan and Iloprost on Nailfold Absolute Capillary Number, Fingertip Blood Perfusion, and Clinical Status in Systemic Sclerosis.",
+            "abstract": "To quantify in patients with systemic sclerosis (SSc) the absolute nailfold capillary number/mm (the absolute number of capillaries, observable in the first row, in 1 mm per field) and fingertip blood perfusion (FBP) during longterm therapy with the endothelin receptor antagonist bosentan (BOSE) and the synthetic analog of prostacyclin PGI2 iloprost (ILO) by multiple diagnostic tools. Observed values were correlated with clinical outcomes.",
+            "journal": "The Journal of rheumatology",
+            "year": "2016",
+            "authors": [
+              "Trombetta Amelia Chiara",
+              "Pizzorni Carmen",
+              "Ruaro Barbara",
+              "Paolino Sabrina",
+              "Sulli Alberto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Capillaries",
+              "Drug Therapy, Combination",
+              "Female",
+              "Fingers",
+              "Humans",
+              "Iloprost"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27744392/"
+          },
+          {
+            "pmid": "37765060",
+            "title": "Recent Advances in the Treatment of Pulmonary Arterial Hypertension Associated with Connective Tissue Diseases.",
+            "abstract": "Pulmonary hypertension (PH) is a severe vascular complication of connective tissue diseases (CTD). Patients with CTD may develop PH belonging to diverse groups: (1) pulmonary arterial hypertension (PAH), (2) PH due to left heart disease, (3) secondary PH due to lung disease and/or hypoxia and (4) chronic thromboembolic pulmonary hypertension (CTEPH). PAH most often develops in systemic scleroderma (SSc), mostly in its limited variant. PAH-CTD is a progressive disease characterized by poor prognosis. Therefore, early diagnosis should be established. A specific treatment for PAH-CTD is currently available and recommended: prostacyclin derivative (treprostinil, epoprostenol, iloprost, selexipag), nitric oxide and natriuretic pathway: stimulators of soluble guanylate cyclase (sGC: riociguat) and phosphodiesterase-five inhibitors (PDE5i: sildenafil, tadalafil), endothelin receptor antagonists (ERA: bosentan, macitentan, ambrisentan). Moreover, novel drugs, e.g., sotatercept, have been inten",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Smukowska-Gorynia Anna",
+              "Gościniak Weronika",
+              "Woźniak Patrycja",
+              "Iwańczyk Sylwia",
+              "Jaxa-Kwiatkowska Karolina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37765060/"
+          },
+          {
+            "pmid": "24708674",
+            "title": "Bosentan reverses the pro-fibrotic phenotype of systemic sclerosis dermal fibroblasts via increasing DNA binding ability of transcription factor Fli1.",
+            "abstract": "Although the pathogenesis of systemic sclerosis (SSc) still remains unknown, recent studies have demonstrated that endothelins are deeply involved in the developmental process of fibrosis and vasculopathy associated with SSc, and a dual endothelin receptor antagonist, bosentan, has a potential to serve as a disease modifying drug for this disorder. Importantly, endothelin-1 (ET-1) exerts a pro-fibrotic effect on normal dermal fibroblasts and bosentan reverses the pro-fibrotic phenotype of SSc dermal fibroblasts. The purpose of this study was to clarify the details of molecular mechanisms underlying the effects of ET-1 and bosentan on dermal fibroblasts, which have not been well studied.",
+            "journal": "Arthritis research & therapy",
+            "year": "2014",
+            "authors": [
+              "Akamata Kaname",
+              "Asano Yoshihide",
+              "Aozasa Naohiko",
+              "Noda Shinji",
+              "Taniguchi Takashi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bosentan",
+              "Chromatin Immunoprecipitation",
+              "Collagen Type I",
+              "Disease Models, Animal",
+              "Endothelin Receptor Antagonists",
+              "Endothelin-1",
+              "Fibroblasts",
+              "Fibrosis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24708674/"
+          },
+          {
+            "pmid": "27481041",
+            "title": "The skin in autoimmune diseases-Unmet needs.",
+            "abstract": "Treatment of skin manifestations in systemic lupus erythematosus (SLE), systemic sclerosis (SSc), and dermatomyositis (DM) is based on the results of only few randomized controlled trials. The first-line treatment for disfiguring and widespread cutaneous involvement in SLE is antimalarials, but some patients are therapy resistant. Recently, the monoclonal antibody belimumab was approved for SLE as an adjunct therapy for patients with autoantibody-positive disease who despite standard therapy show high disease activity, intolerance of other treatments, or an unacceptably high need for corticosteroids. However, a validated skin score has not been used to confirm the efficacy of belimumab on mucocutaneous manifestations. In SSc, another multi-systemic progressive disease, involvement of the lung, kidney, and the heart is frequently treated with corticosteroids and immunosuppressives, but therapeutic modalities for cutaneous lesions, such as skin sclerosis and digital ulcers, are limited. ",
+            "journal": "Autoimmunity reviews",
+            "year": "2016",
+            "authors": [
+              "Kuhn A",
+              "Landmann A",
+              "Bonsmann G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dermatomyositis",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Lupus Erythematosus, Systemic",
+              "Randomized Controlled Trials as Topic",
+              "Scleroderma, Systemic",
+              "Severity of Illness Index",
+              "Skin",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27481041/"
+          },
+          {
+            "pmid": "28640077",
+            "title": "Improvement of peripheral artery disease with Sildenafil and Bosentan combined therapy in a patient with limited cutaneous systemic sclerosis: A case report.",
+            "abstract": "Sildenafil, a phosphodiesterase-5-inhibitor and Bosentan, an endothelin-1-receptor antagonist combined therapy could have beneficial effect in systemic sclerosis (SSc) patients with peripheral artery disease.",
+            "journal": "Medicine",
+            "year": "2017",
+            "authors": [
+              "Omarjee Loukman",
+              "Fontaine Cedric",
+              "Mahe Guillaume",
+              "Jaquinandi Vincent"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bosentan",
+              "Cardiovascular Agents",
+              "Drug Therapy, Combination",
+              "Endothelin Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Peripheral Arterial Disease",
+              "Phosphodiesterase 5 Inhibitors",
+              "Scleroderma, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28640077/"
+          },
+          {
+            "pmid": "39412608",
+            "title": "Doppler ultrasound, a noninvasive tool for the study of mesenteric arterial flow in systemic sclerosis: a cross-sectional study of a patient cohort with review and meta-analysis of the literature.",
+            "abstract": "Gastrointestinal involvement (GI) is a frequent and troublesome complication of systemic sclerosis (SSc), whose etiology is poorly understood, though it is hypothesized that autoimmunity and progressive vasculopathy may play a role. Vasculopathy is considered one of the main pathogenetic pathways responsible for many of the clinical manifestations of SSc, and, therefore, studying the principal splanchnic vessels (i.e., superior mesenteric artery-SMA and inferior mesenteric artery-IMA) with Doppler Ultrasound (DUS) may provide further insights into measuring the progression of vasculopathy, evaluating its possible association with SSc GI symptoms, and determining whether it plays a role in the development or severity of SSc GI disease. A cohort of SSc patients consecutively recruited underwent DUS examination, and associations with GI (UCLA-GIT 2.0 questionnaire) and extraintestinal SSc characteristics were evaluated. Semiquantitative DUS parameters (resistive index-RI and pulsatility i",
+            "journal": "Internal and emergency medicine",
+            "year": "2025",
+            "authors": [
+              "Bandini Giulia",
+              "Monami Matteo",
+              "Ciuti Gabriele",
+              "Mercatelli Paolo",
+              "Lo Cricchio Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Scleroderma, Systemic",
+              "Cross-Sectional Studies",
+              "Female",
+              "Ultrasonography, Doppler",
+              "Male",
+              "Middle Aged",
+              "Cohort Studies",
+              "Adult",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39412608/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9962140917778016,
+        "txgnn_rank": 5411,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoxanthoma elasticum, forme fruste",
+        "txgnn_score": 0.9944955706596376,
+        "txgnn_rank": 6924,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.9942586421966552,
+        "txgnn_rank": 7144,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "elastoma",
+        "txgnn_score": 0.9935457110404968,
+        "txgnn_rank": 7788,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9921236634254456,
+        "txgnn_rank": 8931,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypertrichosis (disease)",
+        "txgnn_score": 0.9903525710105896,
+        "txgnn_rank": 10290,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ambras type hypertrichosis universalis congenita",
+        "txgnn_score": 0.9893484115600586,
+        "txgnn_rank": 11000,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00559",
+    "name": "Bosentan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bosentan"
+      },
+      "queried_at": "2026-03-09T13:31:25.507562",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bosentan"
+      },
+      "queried_at": "2026-03-09T13:31:36.113256",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T13:31:37.353932",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T13:31:41.727334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T13:31:48.121129",
+      "status": "success",
+      "result_count": 16,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T13:31:49.507217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T13:31:53.667698",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T13:31:55.258290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "limited systemic sclerosis"
+      },
+      "queried_at": "2026-03-09T13:31:57.047569",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "limited systemic sclerosis"
+      },
+      "queried_at": "2026-03-09T13:32:01.871566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "limited systemic sclerosis"
+      },
+      "queried_at": "2026-03-09T13:32:06.790808",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T13:32:07.389764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T13:32:10.607045",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T13:32:12.570068",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "pseudoxanthoma elasticum, forme fruste"
+      },
+      "queried_at": "2026-03-09T13:32:13.760131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "pseudoxanthoma elasticum, forme fruste"
+      },
+      "queried_at": "2026-03-09T13:32:18.499012",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "pseudoxanthoma elasticum, forme fruste"
+      },
+      "queried_at": "2026-03-09T13:32:19.262664",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T13:32:19.935741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T13:32:28.673792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T13:32:30.394137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "elastoma"
+      },
+      "queried_at": "2026-03-09T13:32:31.636933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "elastoma"
+      },
+      "queried_at": "2026-03-09T13:32:38.024040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "elastoma"
+      },
+      "queried_at": "2026-03-09T13:32:38.871841",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-09T13:32:40.022480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-09T13:32:44.713623",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-09T13:32:45.629073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T13:32:47.068072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T13:32:52.079066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T13:32:53.102202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T13:32:53.768302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T13:32:58.881473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bosentan",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T13:32:59.795478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T13:32:59.803497"
+  }
+}

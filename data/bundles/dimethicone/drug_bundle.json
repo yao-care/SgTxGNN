@@ -1,0 +1,520 @@
+{
+  "drug": {
+    "inn": "Dimethicone",
+    "drugbank_id": "DB11074",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "insomnia (disease)",
+        "txgnn_score": 0.9435280561447144,
+        "txgnn_rank": 28107,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04872946",
+            "title": "Topical and Oral Regimen for Skin Health",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-11-26",
+            "completion_date": "2020-05-07",
+            "country": "United States",
+            "enrollment": 74,
+            "brief_summary": "The overall objective of this study is to assess how oral supplementation with Inner Calm and the use of topical Super Calm can affect the appearance of skin and inner wellness, such as redness, skin sensitivity, and reactionary skin.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women aged 18-55\n* Fitzpatrick skin type 1-4\n* Self-perception as sensitive skin\n\nExclusion Criteria:\n\nExclusion Criteria:\n\n* Adults unable to consent\n* Individuals who are not yet adults (infants, children, teenagers)\n* Pregnant or breast-feeding women\n* Prisoners\n* Those who",
+            "endpoints": [
+              "Changes in appearance of facial redness",
+              "Changes in appearance of facial pigmentation"
+            ],
+            "sponsor": "Integrative Skin Science and Research",
+            "url": "https://clinicaltrials.gov/study/NCT04872946"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.927088499069214,
+        "txgnn_rank": 31165,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.927088499069214,
+        "txgnn_rank": 31166,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.927088499069214,
+        "txgnn_rank": 31167,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.927088499069214,
+        "txgnn_rank": 31168,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.927088499069214,
+        "txgnn_rank": 31169,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9267698526382446,
+        "txgnn_rank": 31216,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9267698526382446,
+        "txgnn_rank": 31217,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.924049973487854,
+        "txgnn_rank": 31632,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9215826988220216,
+        "txgnn_rank": 32035,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11074",
+    "name": "Dimethicone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dimethicone"
+      },
+      "queried_at": "2026-03-10T09:39:42.205350",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dimethicone"
+      },
+      "queried_at": "2026-03-10T09:39:45.210895",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T09:39:45.883592",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T09:39:49.144918",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T09:39:49.841055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T09:39:50.313729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T09:39:53.946549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T09:39:54.641551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T09:39:55.296146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T09:39:59.065355",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T09:40:00.949846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T09:40:01.593580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T09:40:05.145675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T09:40:05.875160",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T09:40:06.644785",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T09:40:10.504227",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T09:40:11.506346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T09:40:13.247688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T09:40:16.669886",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T09:40:17.723464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T09:40:18.828584",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T09:40:22.256633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T09:40:23.612634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T09:40:24.748614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T09:40:28.016133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T09:40:28.881768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T09:40:30.753498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T09:40:34.244982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T09:40:34.946241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:40:35.544847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:40:38.813606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimethicone",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:40:40.093128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:40:40.095257"
+  }
+}

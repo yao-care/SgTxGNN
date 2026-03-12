@@ -1,0 +1,577 @@
+{
+  "drug": {
+    "inn": "Noscapine",
+    "drugbank_id": "DB06174",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "scalp dermatosis",
+        "txgnn_score": 0.9852368235588074,
+        "txgnn_rank": 14046,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renin-angiotensin-aldosterone system-blocker-induced angioedema",
+        "txgnn_score": 0.984387993812561,
+        "txgnn_rank": 14574,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9713236093521118,
+        "txgnn_rank": 20762,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atopic eczema",
+        "txgnn_score": 0.9619911313056946,
+        "txgnn_rank": 23742,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9557340741157532,
+        "txgnn_rank": 25284,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrotic syndrome",
+        "txgnn_score": 0.9541274905204772,
+        "txgnn_rank": 25681,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9537079334259032,
+        "txgnn_rank": 25799,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "eye disease",
+        "txgnn_score": 0.9519218802452089,
+        "txgnn_rank": 26265,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10562963",
+            "title": "[Possible role of sigma-receptors in the regulation of cough reflex, gastrointestinal and retinal function].",
+            "abstract": "This paper provides an overview of our current understanding of the role of sigma-receptors in the regulation of cough, gastrointestinal and retinal function. Systemic administration of N-(+)-allylnormetazocine ((+)SKF-10,047), 1,2-di-(2-toyl)guanidine (DTG) or pentazocine markedly reduced the number of coughs in a dose-dependent manner. The antitussive effect of these sigma-receptor ligands was significantly reduced by pretreatment with haloperidol or rimcazol, a specific antagonist of sigma-receptors. Antitussive effects of dextromethorphan and noscapine were significantly and dose-dependently reduced by pretreatment with rimcazole. However, rimcazole did not have a significant effect on the antitussive effect of morphine. These results suggest that haloperidol-sensitive sigma-receptors may be involved in the antitussive mechanism of non-narcotic antitussive drugs. Selective sigma-receptor ligands such as (+)SKF-10,047, DTG and (+)pentazocine elicit a potent protection against gastri",
+            "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+            "year": "1999",
+            "authors": [
+              "Kamei J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Ulcer Agents",
+              "Antitussive Agents",
+              "Carbazoles",
+              "Guanidines",
+              "Haloperidol",
+              "Humans",
+              "Ligands",
+              "Pentazocine",
+              "Phenazocine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10562963/"
+          },
+          {
+            "pmid": "13864787",
+            "title": "[Comparative antitussive effects of noscapine hydrochloride and dihydrocodeine bitartrate. Experiments made without the awareness of the subject. (Doppel-Blindversuch, double blind test)].",
+            "abstract": "",
+            "journal": "Praxis",
+            "year": "1962",
+            "authors": [
+              "BARASZ Z",
+              "BONSTEIN H",
+              "AGUET F",
+              "FAVEZ G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antitussive Agents",
+              "Awareness",
+              "Blindness",
+              "Codeine",
+              "Cough",
+              "Double-Blind Method",
+              "Humans",
+              "Noscapine",
+              "Persons with Visual Disabilities"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13864787/"
+          },
+          {
+            "pmid": "13340902",
+            "title": "[Separation of narcotine and papaverine by paper chromatography].",
+            "abstract": "",
+            "journal": "Archiv der Pharmazie und Berichte der Deutschen Pharmazeutischen Gesellschaft",
+            "year": "1956",
+            "authors": [
+              "HAUSSERMANN H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Chromatography, Paper",
+              "Noscapine",
+              "Papaverine",
+              "Retinal Degeneration",
+              "Retinal Detachment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13340902/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune hemolytic anemia",
+        "txgnn_score": 0.9505128860473632,
+        "txgnn_rank": 26576,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recurrent idiopathic neuroretinitis",
+        "txgnn_score": 0.9503846168518066,
+        "txgnn_rank": 26603,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06174",
+    "name": "Noscapine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Noscapine"
+      },
+      "queried_at": "2026-03-10T07:01:28.974957",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Noscapine"
+      },
+      "queried_at": "2026-03-10T07:01:30.178019",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "scalp dermatosis"
+      },
+      "queried_at": "2026-03-10T07:01:30.819999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "scalp dermatosis"
+      },
+      "queried_at": "2026-03-10T07:01:33.771197",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "scalp dermatosis"
+      },
+      "queried_at": "2026-03-10T07:01:34.717902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T07:01:35.569731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T07:01:38.539380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      },
+      "queried_at": "2026-03-10T07:01:39.886636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:01:40.377808",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:01:43.125707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:01:43.989514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "atopic eczema"
+      },
+      "queried_at": "2026-03-10T07:01:44.486155",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "atopic eczema"
+      },
+      "queried_at": "2026-03-10T07:01:47.995089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "atopic eczema"
+      },
+      "queried_at": "2026-03-10T07:01:48.771176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:49.323592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:52.181749",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:52.882788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "nephrotic syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:53.374909",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "nephrotic syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:57.200252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "nephrotic syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:57.851128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T07:01:58.471405",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T07:02:02.272210",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T07:02:03.029096",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "eye disease"
+      },
+      "queried_at": "2026-03-10T07:02:03.600478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "eye disease"
+      },
+      "queried_at": "2026-03-10T07:02:07.305182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "eye disease"
+      },
+      "queried_at": "2026-03-10T07:02:09.363272",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T07:02:09.892426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T07:02:14.073783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T07:02:15.179151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "recurrent idiopathic neuroretinitis"
+      },
+      "queried_at": "2026-03-10T07:02:15.900443",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "recurrent idiopathic neuroretinitis"
+      },
+      "queried_at": "2026-03-10T07:02:20.491950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Noscapine",
+        "disease": "recurrent idiopathic neuroretinitis"
+      },
+      "queried_at": "2026-03-10T07:02:21.203751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:02:21.216207"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "drug": {
+    "inn": "Benserazide",
+    "drugbank_id": "DB12783",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9843900799751282,
+        "txgnn_rank": 14573,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.9839067459106444,
+        "txgnn_rank": 14873,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diffuse alopecia areata",
+        "txgnn_score": 0.9811863899230956,
+        "txgnn_rank": 16455,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.9776328206062316,
+        "txgnn_rank": 18146,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34900390",
+            "title": "Tremor Drugs in the Crosshairs.",
+            "abstract": "Alopecia areata is a rare but debilitating adverse effect of drugs used in the treatment of tremors. Recurrent hair loss after different types of tremor medications has never been described before.",
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2021",
+            "authors": [
+              "Lagrand Tjerk J",
+              "Lehn Alexander C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alopecia Areata",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Parkinson Disease",
+              "Tremor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34900390/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "small intestine cancer",
+        "txgnn_score": 0.968474805355072,
+        "txgnn_rank": 21794,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenum cancer",
+        "txgnn_score": 0.965984344482422,
+        "txgnn_rank": 22555,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9654092788696288,
+        "txgnn_rank": 22724,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38743163",
+            "title": "CACNA1A variant associated with generalized dystonia.",
+            "abstract": "CACNA1A gene variants are correlated with different disorders, including episodic ataxia type 2, spinocerebellar ataxia type 6, and familial hemiplegic migraine type 1. Despite dystonia not being a typical manifestation of CACNA1A variants, there are reports indicating a link between this gene mutation and dystonic features.",
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2024",
+            "authors": [
+              "Rinaldi Domiziana",
+              "Tangari Marta Maria",
+              "Ledda Claudia",
+              "Dematteis Francesca",
+              "Rizzone Mario Giorgio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Mutation, Missense",
+              "Calcium Channels",
+              "Dystonic Disorders",
+              "Dystonia",
+              "Calcium Channels, N-Type"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38743163/"
+          },
+          {
+            "pmid": "30856265",
+            "title": "Hypnic Headache with Dopaminergic Neuron Dysfunction: New Insight from a Rare Case.",
+            "abstract": "",
+            "journal": "Pain medicine (Malden, Mass.)",
+            "year": "2019",
+            "authors": [
+              "Zhang Yi",
+              "Wang Chengze",
+              "Chen Yuan",
+              "Wang Ruifang",
+              "Lian Yajun"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Benserazide",
+              "Brain",
+              "Cocaine",
+              "Dopamine Agents",
+              "Dopamine Uptake Inhibitors",
+              "Dopaminergic Neurons",
+              "Drug Combinations",
+              "Fluorodeoxyglucose F18",
+              "Headache Disorders, Primary",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30856265/"
+          },
+          {
+            "pmid": "554794",
+            "title": "Benserazide induces migraine attacks. Irrelevance of concomitant hyperprolactinemia.",
+            "abstract": "Migrainous women underwent acute administration of sulpiride (25 mg i.v.) and benserazide (125 mg per os), both drugs increasing prolactin secretion. A similar increase in prolactin levels was found following the administration of the two drugs. A typical migraine attack was observed only in the 4 women given benserazide. These data, though being preliminary, stress the scarce or irrelevant role of prolactin in the pathogenesis of the migraine attack.",
+            "journal": "Il Farmaco; edizione scientifica",
+            "year": "1979",
+            "authors": [
+              "Polleri A",
+              "Murialdo G",
+              "Martignoni E",
+              "Nappi G",
+              "Savoldi F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Benserazide",
+              "Female",
+              "Humans",
+              "Hydrazines",
+              "Migraine Disorders",
+              "Prolactin",
+              "Sulpiride"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/554794/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "phaeochromocytoma",
+        "txgnn_score": 0.9650936126708984,
+        "txgnn_rank": 22818,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "3769207",
+            "title": "Determination of aromatic-L-amino acid decarboxylase in human plasma.",
+            "abstract": "Aromatic-L-aminoacid (dopa) decarboxylase (ALAAD) was determined in human plasma by its ability to form dopamine from the substrate 3,4-dihydroxyphenylalanine in the presence of pyridoxal-5-phosphate as cofactor. Dopamine formed was quantitated by high performance liquid chromatography with electrochemical detection. A preincubation step of plasma with the cofactor and dithioerythritol was necessary to obtain optimal reaction conditions. The assay method showed good linearity and reproducibility. The inhibition pattern of the therapeutically used peripheral dopa decarboxylase inhibitors, carbidopa and benserazide, was studied and appeared to be dependent on whether the inhibitor was added before or after the preincubation step. Mean levels in 40 control subjects, in 40 patients with essential hypertension and in 15 patients with phaeochromocytoma, were 34.6 (SD 12.1), 28.5 (SD 10.9) and 34.7 (SD 18.4) mU/l respectively. In the patients with essential hypertension the enzyme level decre",
+            "journal": "Clinica chimica acta; international journal of clinical chemistry",
+            "year": "1986",
+            "authors": [
+              "Boomsma F",
+              "van der Hoorn F A",
+              "Schalekamp M A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Gland Neoplasms",
+              "Aromatic-L-Amino-Acid Decarboxylases",
+              "Chromatography, High Pressure Liquid",
+              "Dopamine",
+              "Humans",
+              "Hypertension",
+              "Kinetics",
+              "Levodopa",
+              "Pheochromocytoma",
+              "Pyridoxal Phosphate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3769207/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.964544713497162,
+        "txgnn_rank": 22976,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adrenal gland pheochromocytoma",
+        "txgnn_score": 0.9626049399375916,
+        "txgnn_rank": 23567,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "3769207",
+            "title": "Determination of aromatic-L-amino acid decarboxylase in human plasma.",
+            "abstract": "Aromatic-L-aminoacid (dopa) decarboxylase (ALAAD) was determined in human plasma by its ability to form dopamine from the substrate 3,4-dihydroxyphenylalanine in the presence of pyridoxal-5-phosphate as cofactor. Dopamine formed was quantitated by high performance liquid chromatography with electrochemical detection. A preincubation step of plasma with the cofactor and dithioerythritol was necessary to obtain optimal reaction conditions. The assay method showed good linearity and reproducibility. The inhibition pattern of the therapeutically used peripheral dopa decarboxylase inhibitors, carbidopa and benserazide, was studied and appeared to be dependent on whether the inhibitor was added before or after the preincubation step. Mean levels in 40 control subjects, in 40 patients with essential hypertension and in 15 patients with phaeochromocytoma, were 34.6 (SD 12.1), 28.5 (SD 10.9) and 34.7 (SD 18.4) mU/l respectively. In the patients with essential hypertension the enzyme level decre",
+            "journal": "Clinica chimica acta; international journal of clinical chemistry",
+            "year": "1986",
+            "authors": [
+              "Boomsma F",
+              "van der Hoorn F A",
+              "Schalekamp M A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Gland Neoplasms",
+              "Aromatic-L-Amino-Acid Decarboxylases",
+              "Chromatography, High Pressure Liquid",
+              "Dopamine",
+              "Humans",
+              "Hypertension",
+              "Kinetics",
+              "Levodopa",
+              "Pheochromocytoma",
+              "Pyridoxal Phosphate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3769207/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12783",
+    "name": "Benserazide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Benserazide"
+      },
+      "queried_at": "2026-03-10T07:16:23.640079",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Benserazide"
+      },
+      "queried_at": "2026-03-10T07:16:28.087956",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T07:16:28.682530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T07:16:32.817171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T07:16:33.644999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T07:16:34.163410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T07:16:36.936421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T07:16:37.613344",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T07:16:38.093845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T07:16:41.385446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T07:16:42.966484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T07:16:43.612443",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T07:16:47.992099",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T07:16:49.944429",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "small intestine cancer"
+      },
+      "queried_at": "2026-03-10T07:16:50.463907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "small intestine cancer"
+      },
+      "queried_at": "2026-03-10T07:16:53.589242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "small intestine cancer"
+      },
+      "queried_at": "2026-03-10T07:16:54.374038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "duodenum cancer"
+      },
+      "queried_at": "2026-03-10T07:16:54.871463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "duodenum cancer"
+      },
+      "queried_at": "2026-03-10T07:16:57.913967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "duodenum cancer"
+      },
+      "queried_at": "2026-03-10T07:16:58.613907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:17:00.294353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:17:04.850527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:17:06.727831",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "phaeochromocytoma"
+      },
+      "queried_at": "2026-03-10T07:17:07.231089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "phaeochromocytoma"
+      },
+      "queried_at": "2026-03-10T07:17:10.019923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "phaeochromocytoma"
+      },
+      "queried_at": "2026-03-10T07:17:11.975524",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:17:12.530891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:17:15.976138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:17:16.670438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "adrenal gland pheochromocytoma"
+      },
+      "queried_at": "2026-03-10T07:17:17.315714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "adrenal gland pheochromocytoma"
+      },
+      "queried_at": "2026-03-10T07:17:20.177501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "adrenal gland pheochromocytoma"
+      },
+      "queried_at": "2026-03-10T07:17:22.203087",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:17:22.214145"
+  }
+}

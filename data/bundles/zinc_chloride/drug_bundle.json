@@ -1,0 +1,602 @@
+{
+  "drug": {
+    "inn": "Zinc chloride",
+    "drugbank_id": "DB14533",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9934391379356384,
+        "txgnn_rank": 7881,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Sjogren syndrome",
+        "txgnn_score": 0.9918495416641236,
+        "txgnn_rank": 9148,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dry eye syndrome",
+        "txgnn_score": 0.9917627573013306,
+        "txgnn_rank": 9209,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02951910",
+            "title": "A Study of the Effect of Zinc-Hyaluronate on Ocular Surface Sensations in Patients With Dry Eye",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-07",
+            "completion_date": "2016-10",
+            "country": "N/A",
+            "enrollment": 20,
+            "brief_summary": "Hyaluronic acid, a natural polymer, helps to maintain ocular surface hydration and can already be found in several artificial tears recommended to alleviate symptoms of dry eye. A recent hyaluronate modification involves zinc-hyaluronate complex formation by adding zinc-chloride to an aqueous sodium-hyaluronate resulting in a very stable molecular structure, which functions as both a mechanical barrier and a biocompatible film on the ocular surface. Apart from its beneficial elastoviscous charac",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who had been diagnosed as having dry eye symptoms for at least 3 months, with an OSDI score of ≥13 evaluated by the questionnaire of Ocular Surface Disease Index (OSDI)\n\nExclusion Criteria:\n\n* Subjects with ophthalmic conditions other than dry eye or systemic disease ",
+            "endpoints": [
+              "Change in OSDI (Ocular Surface Disease Index) score"
+            ],
+            "sponsor": "Semmelweis University",
+            "url": "https://clinicaltrials.gov/study/NCT02951910"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01541891",
+            "title": "Fase II Comparative Study of the Efficacy and Safety of PRO-148 Ophthalmic Solution vs Systane in the Treatment of Mild-to-moderate Eye Syndrome.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-10",
+            "completion_date": "2012-05",
+            "country": "Mexico",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of PRO-148 ophthalmic solution compared with SYSTANE ® ophthalmic solution for the treatment of signs and symptoms of mild-to-moderate dry eye syndrome.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with diagnosis of mild-to-moderate drye eye syndrome.\n* Male or female patients.\n* Patients 18 years of age\n\nExclusion Criteria:\n\n* Patients with one blind eye.\n* Visual acuity of 20/40 in any eye\n* Patients with history of active stage of any other concomitant ocular",
+            "endpoints": [
+              "Tear Film Break-up Time (TBUT)"
+            ],
+            "sponsor": "Laboratorios Sophia S.A de C.V.",
+            "url": "https://clinicaltrials.gov/study/NCT01541891"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9888757467269896,
+        "txgnn_rank": 11368,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02443155",
+            "title": "A Randomised, Double-blind, Double-dummy, Placebo-controlled, Parallel-group Multi-centre Clinical Proof-of-principle Trial in Adult Subjects With Newly Diagnosed Type 1 Diabetes Mellitus Investigating the Effect of NNC0114-0006 and Liraglutide on Preservation of Beta-cell Function",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-11-10",
+            "completion_date": "2019-02-27",
+            "country": "Spain, United Kingdom, Canada, Belgium, Austria, Israel, Italy, Denmark, United States, Finland, Portugal, Russia, Ukraine, Sweden, Poland, Ireland, Serbia, Norway",
+            "enrollment": 308,
+            "brief_summary": "This trial is conducted globally. The aim of this trial is to assess the clinical proof-of-principle of NNC0114-0006 and liraglutide on preservation of beta-cell function in adult subjects with newly diagnosed type 1 diabetes mellitus.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any trial-related activities. Trial-related activities are any procedures that are carried out as part of the trial, including activities to determine suitability for the trial\n* T1DM (type 1 diabetes mellitus) (as diagnosed clinically) for not",
+            "endpoints": [
+              "Area Under the Concentration-time Curve (AUC) 0-4h of Mixed Meal Tolerance Test (MMTT) Stimulated C-peptide at Week 54 Relative to Baseline"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT02443155"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15541754",
+            "title": "Zinc might protect oxidative changes in the retina and pancreas at the early stage of diabetic rats.",
+            "abstract": "It is well documented that oxidative stress is a basic mechanism behind the development of diabetic retinopathy (DR). The current study was undertaken to elucidate the possible role of zinc as an antioxidant and a biological membrane stabilizer in the protection against (DR). Male Wistar rats weighing 250 +/- 50 g were made diabetic by injection with a single ip dose of alloxan (100 mg/kg). Another group of rats was simultaneously treated with alloxan (100 mg/kg) and a single ip dose of zinc chloride (ZnCl2) (5 mg/kg). Blood and tissue samples were collected at 24, 48, and 72 h post-treatment in both groups. Diabetic state was confirmed by the determination of plasma glucose levels (significantly elevated at any time of the experiment when compared with controls receiving vehicle). Plasma insulin was significantly increased 24 h after treatment in both alloxan and alloxan plus ZnCl2-treated groups, and then decreased markedly 48 and 72 h post treatment in both groups. Alloxan treatment",
+            "journal": "Toxicology and applied pharmacology",
+            "year": "2004",
+            "authors": [
+              "Moustafa Sohair A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Glucose",
+              "Diabetes Mellitus, Experimental",
+              "Diabetic Retinopathy",
+              "Glutathione",
+              "Insulin",
+              "Lipid Peroxidation",
+              "Liver",
+              "Male",
+              "Oxidation-Reduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15541754/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prolapse of lacrimal gland",
+        "txgnn_score": 0.9873592257499696,
+        "txgnn_rank": 12566,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.9826746582984924,
+        "txgnn_rank": 15655,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07089368",
+            "title": "Photodynamic Therapy With Topical Application of a Zn(II) Phthalocyanine (RLP068/Cl) and Red Light for the Treatment of Moderate-to-severe Acne Vulgaris",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-07",
+            "completion_date": "2025-12",
+            "country": "N/A",
+            "enrollment": 10,
+            "brief_summary": "This pilot clinical study will evaluate the safety, tolerability, and effectiveness of a novel photodynamic therapy (PDT) for moderate-to-severe acne vulgaris. PDT combines a topical photosensitizing gel with red light to treat acne lesions. The gel to be used in this study, called RLP068/Cl (a zinc phthalocyanine compound), has demonstrated antimicrobial, anti-inflammatory, and sebosuppressive effects in laboratory studies.\n\nA total of 10 patients with moderate-to-severe acne on the face will b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female participants aged ≥16 years.\n* Diagnosis of moderate-to-severe acne vulgaris (comedonal, papulopustular, or cystic), with facial lesions symmetrically distributed.\n* Washout period of at least 6 months from prior oral acne treatments.\n* Washout period of at leas",
+            "endpoints": [
+              "Change in Global Acne Grading System (GAGS) score from baseline"
+            ],
+            "sponsor": "Università degli Studi di Brescia",
+            "url": "https://clinicaltrials.gov/study/NCT07089368"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain aneurysm",
+        "txgnn_score": 0.9803724884986876,
+        "txgnn_rank": 16846,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9769227504730223,
+        "txgnn_rank": 18454,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "granulomatous disease, chronic, autosomal recessive",
+        "txgnn_score": 0.9759560823440552,
+        "txgnn_rank": 18892,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.97086101770401,
+        "txgnn_rank": 20916,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14533",
+    "name": "Zinc chloride",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Zinc chloride"
+      },
+      "queried_at": "2026-03-10T04:43:39.008185",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Zinc chloride"
+      },
+      "queried_at": "2026-03-10T04:43:41.889367",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:43:42.504152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:43:45.443291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:43:46.191424",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "Sjogren syndrome"
+      },
+      "queried_at": "2026-03-10T04:43:46.852909",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "Sjogren syndrome"
+      },
+      "queried_at": "2026-03-10T04:43:50.371880",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "Sjogren syndrome"
+      },
+      "queried_at": "2026-03-10T04:43:52.342095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "dry eye syndrome"
+      },
+      "queried_at": "2026-03-10T04:43:52.999497",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "dry eye syndrome"
+      },
+      "queried_at": "2026-03-10T04:43:56.293399",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "dry eye syndrome"
+      },
+      "queried_at": "2026-03-10T04:43:57.024080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:43:59.456935",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:44:02.962749",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:44:04.650901",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "queried_at": "2026-03-10T04:44:05.192898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "queried_at": "2026-03-10T04:44:08.559034",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "queried_at": "2026-03-10T04:44:09.332989",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T04:44:10.896019",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T04:44:14.365523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T04:44:15.094098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "brain aneurysm"
+      },
+      "queried_at": "2026-03-10T04:44:15.668841",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "brain aneurysm"
+      },
+      "queried_at": "2026-03-10T04:44:18.875382",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "brain aneurysm"
+      },
+      "queried_at": "2026-03-10T04:44:19.645808",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T04:44:20.149009",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T04:44:23.593760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T04:44:24.243670",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "granulomatous disease, chronic, autosomal recessive"
+      },
+      "queried_at": "2026-03-10T04:44:24.854890",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "granulomatous disease, chronic, autosomal recessive"
+      },
+      "queried_at": "2026-03-10T04:44:29.512610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "granulomatous disease, chronic, autosomal recessive"
+      },
+      "queried_at": "2026-03-10T04:44:31.474052",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T04:44:32.100446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T04:44:34.971642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc chloride",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T04:44:35.652438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:44:35.668924"
+  }
+}

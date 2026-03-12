@@ -1,0 +1,2967 @@
+{
+  "drug": {
+    "inn": "Enalaprilat",
+    "drugbank_id": "DB09477",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9908921122550964,
+        "txgnn_rank": 9886,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9889917373657228,
+        "txgnn_rank": 11283,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute pulmonary heart disease",
+        "txgnn_score": 0.9832199215888976,
+        "txgnn_rank": 15306,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04191681",
+            "title": "Safety and Efficacy of Angiotensin Receptor-neprilysin Inhibitor After Left Ventricular Assist Device ImplanT (SEAL-IT) Study",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2019-11-08",
+            "completion_date": "2022-12",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "The purpose of the study is to evaluate how well tolerated and effective an angiotensin receptor-neprilysin inhibitor (sacubitril-valsartan) is in patients with contemporary durable continuous flow left ventricular assist device (CF-LVAD) implantation compared to usual care oral vasodilator therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adults (age ≥ 18 years)\n2. Durable CF-LVAD for any indication\n3. NYHA II to IV classification\n4. LVEF \\< 40%\n5. Written informed consent\n\nExclusion Criteria:\n\n1. Inability to comply with the conditions of the protocol\n2. Any patient with durable CF-LVAD who has any one of the",
+            "endpoints": [
+              "Incidence of drug discontinuation from drug-related adverse events due to sacubitril-valsartan versus standard-of-care oral vasodilator therapy at 3 months",
+              "Time-averaged proportional change in NT-proBNP concentration (pg/mL) with sacubitril-valsartan versus standard-of-care oral vasodilator therapy at 3 months"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT04191681"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05487261",
+            "title": "Pulmonary REsistance Modification Under Treatment With Sacubitril/valsartaN in paTients With Heart Failure With Reduced Ejection Fraction - PRESENT HF Study",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2022-12-13",
+            "completion_date": "2025-11",
+            "country": "Poland",
+            "enrollment": 260,
+            "brief_summary": "MAIN OBJECTIVE. Demonstration that use of sacubitril/valsartan influences parameters of right heart catheterization, including pulmonary artery pressure, and provokes changes in pulmonary circulation resistance in patients with heart failure with reduced left ventricular ejection fraction (HFrEF) and post-capillary pulmonary hypertension (PH): both isolated post-capillary (Ipc-PH) and combined post- and pre-capillary (Cpc-PH), which we predict could improve prognosis in this group of patients.\n\n",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥18 years of age who are able to complete and sign the informed consent form.\n2. HF patients in NYHA functional class II-IV with a reduced left ventricular ejection fraction (LVEF) ≤40% -(HFrEF) (confirmed by an examination such as echocardiography or cardiac magnetic res",
+            "endpoints": [
+              "mean pulmonary artery pressure",
+              "pulmonary vascular resistance"
+            ],
+            "sponsor": "Clinical Hospital Heliodor Swiecicki of the Medical University of Karol Marcinkowski in Poznań",
+            "url": "https://clinicaltrials.gov/study/NCT05487261"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03650205",
+            "title": "Ivabradine to Prevent Anthracycline-induced Cardiotoxicity: a Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2019-01-22",
+            "completion_date": "2021-12-01",
+            "country": "Brazil",
+            "enrollment": 160,
+            "brief_summary": "Anthracyclines are associated with cardiotoxic effects. Previous studies suggest that enalapril, and or carvedilol, protect against cardiovascular effects of these drugs.\n\nIvabradine selectively reduces heart rate through inhibition of the cardiac pace maker IF channel, thus prolonging the duration of spontaneous depolarization in the sinus node. Additionally, ivabradine might preserve myocardial perfusion without negative inotropic effect and probably maintain cardiac contractility despite the ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-year-old or older;\n* Cancer diagnosis;\n* Chemotherapy with anthracycline;\n* Written informed consent\n\nExclusion Criteria:\n\n* Chronic Kidney Disease (Creatinine clearance inferior to 30mL/min/1.73m2)\n* Bradycardia (heart rate less than 60 beats per minute)\n* Atrial fibri",
+            "endpoints": [
+              "Ventricular function"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT03650205"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00741156",
+            "title": "The Acute Effects of the Angiotensin-converting Enzyme Inhibitor Enalaprilat on Flow Distribution After the Bidirectional Cavopulmonary Connection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-07",
+            "completion_date": "2010-01",
+            "country": "Canada",
+            "enrollment": 12,
+            "brief_summary": "The primary objective of this study is to study the acute effects of angiotensin-converting enzyme inhibitor (ACEI) on systemic, pulmonary and cerebral blood flow in post bidirectional cavopulmonary connection (BCPC) patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* BCPC patients at time of routine pre-Fontan catheterization\n* Patients between the ages of 2 months and 5 years old\n\nExclusion Criteria:\n\n* Patients who have had ACEI therapy within 24 hours of the procedure",
+            "endpoints": [
+              "Systemic, Pulmonary and Cerebral Blood Flow at Baseline and After Enalaprilat",
+              "Systemic, Pulmonary and Cerebral Resistance at Baseline and After Enalaprilat"
+            ],
+            "sponsor": "The Hospital for Sick Children",
+            "url": "https://clinicaltrials.gov/study/NCT00741156"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04591210",
+            "title": "Evaluation of the Potential Benefit of Renin-angiotensin System Inhibitors (RASi, ACEi/ARB) in High-risk Patients With COVID-19. The COVID-RASi Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-01-27",
+            "completion_date": "2024-12-30",
+            "country": "Mexico, Canada, Brazil",
+            "enrollment": 372,
+            "brief_summary": "The COVID-RASi study is an international randomized clinical trial that will evaluate the potential benefit of angiotensin modulators on clinical outcomes, in COVID-19 patients. The purpose of this study is to determine if renin-angiotensin system inhibitors (RASi), with angiotensin-converting enzyme inhibitors (ACEi) or angiotensin II receptor blockers (ARB), has a beneficial effect in patients with COVID-19 infections, by reducing ICU admission, ventilator requirement or death. We would also l",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient with COVID-19 diagnosis with laboratory confirmation within the last 30 days AND\n* Age 40 years old or greater if outpatient OR age 18 years old or greater if inpatient (admitted to the hospital) at time of recruitment\n\nExclusion Criteria:\n\n* Contraindication to ARB or",
+            "endpoints": [
+              "Death",
+              "Mechanical ventilation",
+              "ICU admission"
+            ],
+            "sponsor": "Ottawa Heart Institute Research Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT04591210"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02735707",
+            "title": "Randomized, Embedded, Multifactorial Adaptive Platform Trial for Community- Acquired Pneumonia",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2016-04-11",
+            "completion_date": "2028-02",
+            "country": "Australia, India, Belgium, United States, Saudi Arabia, Slovenia, Estonia, Canada, Croatia, Pakistan, Netherlands, Italy, Czechia, Ireland, Serbia, Japan, Colombia, United Kingdom, France, New Zealand, Germany, Israel, Hungary, Switzerland, Spain, Romania, Nepal, Finland, Portugal",
+            "enrollment": 20000,
+            "brief_summary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia.\n\nThe purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia.\n\nIn addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19.\n\nREMAP-COVID is a sub-platform of REMAP-CAP th",
+            "eligibility_criteria": "REMAP-CAP PLATFORM INCLUSION CRITERIA:\n\n1. Adult patient admitted to an ICU for severe CAP within 48 hours of hospital admission with:\n\n   1. symptoms or signs or both that are consistent with lower respiratory tract infection AND\n   2. Radiological evidence of new onset consolidation (in patients w",
+            "endpoints": [
+              "All-cause mortality",
+              "Days alive and not receiving organ support in ICU"
+            ],
+            "sponsor": "UMC Utrecht",
+            "url": "https://clinicaltrials.gov/study/NCT02735707"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39799613",
+            "title": "Emergency medicine updates: Sympathetic crashing acute pulmonary edema.",
+            "abstract": "Patients with heart failure exacerbation can present in a variety of ways, including sympathetic crashing acute pulmonary edema (SCAPE). Emergency physicians play a key role in the diagnosis and management of this condition.",
+            "journal": "The American journal of emergency medicine",
+            "year": "2025",
+            "authors": [
+              "Long Brit",
+              "Brady William J",
+              "Gottlieb Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pulmonary Edema",
+              "Heart Failure",
+              "Acute Disease",
+              "Emergency Service, Hospital",
+              "Vasodilator Agents",
+              "Positive-Pressure Respiration",
+              "Emergency Medicine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39799613/"
+          },
+          {
+            "pmid": "8822986",
+            "title": "Placebo-controlled, randomized, double-blind study of intravenous enalaprilat efficacy and safety in acute cardiogenic pulmonary edema.",
+            "abstract": "Converting enzyme inhibitors meet most of the criteria required to be used in acute pulmonary edema. However, they could also induce deleterious effects on renal function and electrolytes. The purpose of this study was to evaluate the efficacy and safety of a single intravenous 2-hour infusion of enalaprilat (1 mg) after an acute pulmonary edema.",
+            "journal": "Circulation",
+            "year": "1996",
+            "authors": [
+              "Annane D",
+              "Bellissant E",
+              "Pussard E",
+              "Asmar R",
+              "Lacombe F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Aged",
+              "Double-Blind Method",
+              "Enalaprilat",
+              "Female",
+              "Gases",
+              "Heart Failure",
+              "Hemodynamics",
+              "Hormones",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8822986/"
+          },
+          {
+            "pmid": "8205829",
+            "title": "Enalaprilat in acute intractable heart failure after myocardial infarction: a prospective, consecutive sample, before-after trial.",
+            "abstract": "To evaluate the acute effects of intravenous enalaprilat infusion in critically ill patients with intractable heart failure after acute myocardial infarction.",
+            "journal": "Critical care medicine",
+            "year": "1994",
+            "authors": [
+              "Tohmo H",
+              "Karanko M",
+              "Korpilahti K",
+              "Scheinin M",
+              "Viinamäki O"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Aged",
+              "Combined Modality Therapy",
+              "Enalaprilat",
+              "Female",
+              "Finland",
+              "Heart Failure",
+              "Hemodynamics",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8205829/"
+          },
+          {
+            "pmid": "9704248",
+            "title": "Comparative tolerability profile of hypertensive crisis treatments.",
+            "abstract": "Hypertensive crisis is defined as a severe elevation in BP and is classified as either urgency or emergency. In hypertensive urgency there is no end-organ injury and no evidence that acute BP lowering is beneficial. Indeed, rapid uncontrolled pressure reduction may be harmful. Therefore, in hypertensive urgencies BP should be lowered gradually over 24 to 48 hours using oral antihypertensives. When the cause of transient BP elevations is easily identified, appropriate treatment should be given. When the cause is unknown, an oral antihypertensive should be given. The efficacy of available treatments appear similar; however, the underlying pathophysiological and clinical findings, mechanism of action and potential for adverse effects should guide choice. Captopril should be avoided in patients with bilateral renal artery stenosis or unilateral renal artery stenosis in patients with a solitary kidney. Nifedipine and other dihydropyridines increase heart rate whereas clonidine, beta-blocker",
+            "journal": "Drug safety",
+            "year": "1998",
+            "authors": [
+              "Grossman E",
+              "Ironi A N",
+              "Messerli F H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Oral",
+              "Aged",
+              "Antihypertensive Agents",
+              "Cerebral Hemorrhage",
+              "Cerebrovascular Disorders",
+              "Child",
+              "Drug Tolerance",
+              "Emergencies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9704248/"
+          },
+          {
+            "pmid": "7722147",
+            "title": "Effect of low dose aspirin on cardiorenal function and acute hemodynamic response to enalaprilat in a canine model of severe heart failure.",
+            "abstract": "This study examined the effect of low dose aspirin on cardiorenal and neurohumoral function and on the acute hemodynamic response to enalaprilat in a canine model of heart failure.",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1995",
+            "authors": [
+              "Evans M A",
+              "Burnett J C",
+              "Redfield M M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aldosterone",
+              "Animals",
+              "Aspirin",
+              "Atrial Natriuretic Factor",
+              "Disease Models, Animal",
+              "Dogs",
+              "Drug Administration Schedule",
+              "Drug Interactions",
+              "Enalaprilat",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7722147/"
+          },
+          {
+            "pmid": "8383028",
+            "title": "Hemodynamic response to intravenous enalaprilat in patients with severe congestive heart failure and mitral regurgitation.",
+            "abstract": "The hemodynamic response 1 hour after 1.25 mg of intravenous (IV) enalaprilat was examined in 20 patients (mean age 75 years) with severe congestive heart failure (CHF) and mitral regurgitation (MR), secondary to ischemic heart disease (NYHA Class IV). Patients were classified into two groups based upon the magnitude of MR as derived from Doppler color flow imaging: Group I (n = 13) had severe MR and Group II (n = 7) had moderate MR. Acute therapy significantly reduced systemic vascular resistance index in both groups and provided effective afterload reduction. Although cardiac and stroke volume indices increased in both groups, an improved forward flow was significant only for Group I (cardiac index 2.2 +/- 0.5 to 2.7 +/- 0.5 l/min/m2, p < 0.02). The magnitude of MR, acutely reduced in all patients, was similarly significant only for Group I (56 +/- 10% to 31 +/- 12%, p < 0.01). The reduction of both pulmonary capillary wedge pressure and mean arterial pressure was significant for bot",
+            "journal": "Clinical cardiology",
+            "year": "1993",
+            "authors": [
+              "Varriale P",
+              "David W",
+              "Chryssos B E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Echocardiography, Doppler",
+              "Enalaprilat",
+              "Female",
+              "Heart Failure",
+              "Hemodynamics",
+              "Humans",
+              "Injections, Intravenous",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8383028/"
+          },
+          {
+            "pmid": "10393397",
+            "title": "Bolus versus continuous low dose of enalaprilat in congestive heart failure with acute refractory decompensation.",
+            "abstract": "The first dose of angiotensin-converting enzyme (ACE) inhibitors may trigger a considerable fall of blood pressure in chronic heart failure. The response may be dose-related. To determine hemodynamic and systemic oxygenation effects of low-dose enalaprilat, we administered intravenous enalaprilat (0.004 mg/kg) as bolus (group B) or continuous 1-hour infusion (group C) in 20 patients with congestive heart failure due to ischemic heart disease with acute decompensation refractory to inotropic, vasodilator and diuretic therapy. Hemodynamic and systemic oxygenation variables were recorded at baseline (+0 min), +30, +60, +120, +180, and +360 min after the start of intervention. Mean arterial pressure (MAP) (p < 0. 001), mean pulmonary artery pressure (MPAP) (p < 0.001), pulmonary artery occlusion pressure (PAOP) (p < 0.001), oxygen extraction ratio (ER) (p < 0.026) decreased regardless of enalaprilat application. Compared to group B, there was in group C prolonged decrease of MAP, MPAP, PAO",
+            "journal": "Cardiology",
+            "year": "1999",
+            "authors": [
+              "Podbregar M",
+              "Voga G",
+              "Horvat M",
+              "Zuran I",
+              "Krivec B"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Coronary Disease",
+              "Drug Administration Schedule",
+              "Drug Therapy, Combination",
+              "Enalaprilat",
+              "Female",
+              "Heart Failure",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10393397/"
+          },
+          {
+            "pmid": "11836639",
+            "title": "Endothelial function studies in pulmonary vascular disease: determination of angiotensin converting enzyme activity in humans (review).",
+            "abstract": "Angiotensin converting enzyme (ACE, kininase II) is an endothelial luminal ectoenzyme. The majority of ACE has been found on the pulmonary capillary endothelium (PCE). Pulmonary capillary endothelium-bound (PCEB)-ACE has been extensively studied by means of indicator dilution techniques in animals and man. We have recently developed and applied methodologies for assaying pulmonary capillary endothelium-bound (PCEB) angiotensin converting enzyme (ACE) activity in man. This article provides a summary of our studies in human subjects utilizing similar methodology. Trace amounts of the specific ACE substrate, (3)H-benzoyl-Phe-Ala-Pro ((3)H-BPAP; 40 microCi or 2 nmol), was injected as a bolus into the subclavian vein of patients and immediately blood was withdrawn from a radial arterial catheter. Plasma concentrations of surviving substrate and product ((3)H-benzoyl-Phe) were estimated and BPAP utilization was calculated during a single transpulmonary passage. To investigate the PCE in this",
+            "journal": "International journal of molecular medicine",
+            "year": "2002",
+            "authors": [
+              "Cziráki Attila",
+              "Horváth Iván G",
+              "Papp Lajos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Retracted Publication"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Endothelium, Vascular",
+              "Humans",
+              "Peptidyl-Dipeptidase A",
+              "Pulmonary Circulation",
+              "Respiratory Distress Syndrome",
+              "Vascular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11836639/"
+          },
+          {
+            "pmid": "8395876",
+            "title": "Hemodynamic response of a canine model of chronic heart failure to intravenous dobutamine, nitroprusside, enalaprilat, and digoxin.",
+            "abstract": "The hemodynamic effects of acute intravenous administration of nitroprusside, dobutamine, enalaprilat, and digoxin was investigated in a canine model of chronic heart failure (CHF) produced by multiple sequential intracoronary microembolizations. Dobutamine (4 micrograms/kg/min) increased cardiac output (2.4 +/- 0.1 vs. 4.0 +/- 0.4 l/min; p < .001) and LV ejection fraction (LVEF; 26 +/- 1 vs. 30 +/- 4%; p < .01), and decreased systemic vascular resistance (SVR; 3620 +/- 170 vs. 2470 +/- 190 dynes sec cm-5; p < .001). Nitroprusside (3 micrograms/kg/min) acted as a venodilator; it decreased pulmonary artery wedge pressure (16 +/- 1 vs. 13 +/- 1 mmHg; p < .01) and SVR (3730 +/- 440 vs. 3210 +/- 280 dynes sec cm-5; NS) but had no effect on cardiac output. Enalaprilat (1.875 mg) produced a significant increase of cardiac output (3.0 +/- 0.5 vs. 3.8 +/- 0.5 l/min; p < .001) and LVEF (22 +/- 1 vs. 30 +/- 1%; p < .01), and decreased SVR (3280 +/- 400 vs. 2450 +/- 250 dynes sec cm-5; p < .01). ",
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "1993",
+            "authors": [
+              "Sabbah H N",
+              "Levine T B",
+              "Gheorghiade M",
+              "Kono T",
+              "Goldstein S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Pressure",
+              "Cardiac Output",
+              "Digoxin",
+              "Disease Models, Animal",
+              "Dobutamine",
+              "Dogs",
+              "Enalaprilat",
+              "Heart Failure",
+              "Heart Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8395876/"
+          },
+          {
+            "pmid": "7994817",
+            "title": "Angiotensinergic versus nonangiotensinergic hemodynamic effects of converting enzyme inhibition in patients with chronic heart failure. Assessment by acute renin and converting enzyme inhibition.",
+            "abstract": "The contribution of nonangiotensinergic effects of converting enzyme inhibitors to their hemodynamic effects in patients with chronic heart failure is not clear. A comparison of the effects of renin and converting enzyme inhibition should help to clarify this issue.",
+            "journal": "Circulation",
+            "year": "1994",
+            "authors": [
+              "Kiowski W",
+              "Beermann J",
+              "Rickenbacher P",
+              "Haemmerli R",
+              "Thomas M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Cardiac Output, Low",
+              "Chronic Disease",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Enalaprilat",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7994817/"
+          },
+          {
+            "pmid": "8205828",
+            "title": "Cardiopulmonary actions of intravenously administered enalaprilat in trauma patients.",
+            "abstract": "To determine the cardiopulmonary actions of the intravenous administration of the angiotensin-converting enzyme inhibitor enalaprilat in hypertensive trauma patients.",
+            "journal": "Critical care medicine",
+            "year": "1994",
+            "authors": [
+              "Boldt J",
+              "Menges T",
+              "Wollbrück M",
+              "Hammermann H",
+              "Hempelmann G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Retracted Publication"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Analysis of Variance",
+              "Enalaprilat",
+              "Female",
+              "Heart",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8205828/"
+          },
+          {
+            "pmid": "10769283",
+            "title": "Assessment of aortic line of elasticity using polynomial regression analysis.",
+            "abstract": "The aim of this study was to assess the sigmoid line of elasticity in the human aorta.",
+            "journal": "Circulation",
+            "year": "2000",
+            "authors": [
+              "Stefanadis C",
+              "Dernellis J",
+              "Tsiamis E",
+              "Diamantopoulos L",
+              "Michaelides A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aorta",
+              "Blood Pressure",
+              "Coronary Disease",
+              "Data Interpretation, Statistical",
+              "Diltiazem",
+              "Elasticity",
+              "Enalaprilat",
+              "Heart Failure",
+              "Humans",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10769283/"
+          },
+          {
+            "pmid": "11454937",
+            "title": "Pathophysiological roles of endogenous endothelin-1 in dogs with chronic heart failure produced by rapid right ventricular pacing.",
+            "abstract": "This study was designed to analyze the pathophysiological role of the endogenous endothelin (ET) system and the therapeutic approach to congestive heart failure (CHF) with ET(A)/ET(B) receptor antagonists in a canine CHF model. After 3 weeks of rapid right ventricular pacing (240 beats/min), concentrations of immunoreactive ET-1 in dogs increased approximately 2-fold in plasma and in the left and right ventricles but not in the lung. There were no meaningful changes in the density and affinity of total ET receptors, or in the ratio of ET(A) to ET(B) receptors. To clarify the functional role of endogenous ET, we examined the effects of acute injection of J-104132 (1 and 3 mg/kg i.v.), an ET(A)/ET(B) receptor antagonist, on cardiovascular and renal function in dogs with CHF. Compared with vehicle, J-104132 at both doses significantly decreased pulmonary artery pressure (PAP), pulmonary capillary wedge pressure (PCWP), and mean arterial pressure (MAP), and increased cardiac output (CO) an",
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2001",
+            "authors": [
+              "Tadano K",
+              "Suzuki J",
+              "Hanada K",
+              "Nakao M",
+              "Nakao R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Animals",
+              "Cardiac Pacing, Artificial",
+              "Chronic Disease",
+              "Dogs",
+              "Echocardiography",
+              "Enalaprilat",
+              "Endothelin Receptor Antagonists",
+              "Endothelin-1",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11454937/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.9497946500778198,
+        "txgnn_rank": 26746,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic pulmonary heart disease",
+        "txgnn_score": 0.9482752680778505,
+        "txgnn_rank": 27082,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00292162",
+            "title": "Radiofrequency Ablation for Atrial Fibrillation in Advanced Chronic Heart Failure",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2009-07",
+            "country": "United Kingdom",
+            "enrollment": 41,
+            "brief_summary": "Heart failure is a condition that occurs when the heart muscle weakens and no longer contracts normally. Half of these patients have an irregularity of heart rhythm called atrial fibrillation (AF). Patients with both heart failure and AF spend more time in hospital, and die earlier than those with heart failure alone. AF is difficult to treat with conventional methods in patients with heart failure. Radiofrequency ablation is a new technique used to cure AF. The investigators aim to establish if",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent\n* Persistent atrial fibrillation (AF)\n* New York Heart Association (NYHA) II, III and IV chronic heart failure (CHF) despite optimal medical therapy for at least 3 months\n* left ventricular ejection fraction (LVEF) \\<35% - as measured by radionuclide ventricul",
+            "endpoints": [
+              "Change in Left Ventricular Ejection Fraction by Magnetic Resonance Imaging (MRI)%",
+              "Baseline Left Ventricular Ejection Fraction by Magnetic Resonance Imaging (MRI)",
+              "Left Ventricular Ejection Fraction by Magnetic Resonance Imaging (MRI)at 6 Months"
+            ],
+            "sponsor": "NHS Greater Glasgow and Clyde",
+            "url": "https://clinicaltrials.gov/study/NCT00292162"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00151619",
+            "title": "Regional and Systemic Hemodynamic Effects of a Long-term Administration of Amlodipine in Patients With Chronic Heart Failure Treated With a Combination of Enalapril, Furosemide and Digoxin",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "1999-02-10",
+            "completion_date": "",
+            "country": "France",
+            "enrollment": 7,
+            "brief_summary": "Patients with congestive heart failure are usually treated with a combination of an ACE inhibitor (or an AT1 blocking agent), a diuretic and a beta-blocker. However, some patients remain symptomatic despite an optimal treatment with these drugs. In patients who also have coronary heart disease, nitrates or some calcium-channel blockers could help to relieve symptoms. Therefore, the aim of our study is to evaluate the additional benefit induced by a second generation calcium-channel blocker, amlo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients over 18 years\n* Chronic heart failure with New York Heart Association class III or IV.\n* Ischemic or dilated cardiopathy known for at least 3 months\n* Systolic arterial pressure \\> 110 mmHg under treatment\n* Stroke volume between 20 and 40% under treatment\n* Informed ",
+            "endpoints": [
+              "Humeral blood flow"
+            ],
+            "sponsor": "Rennes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00151619"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02768298",
+            "title": "A Randomized, Double-blind, Active-controlled Study to Assess the Effect of LCZ696 Compared With Enalapril to Improve Exercise Capacity in Patients With Heart Failure With Reduced Ejection Fraction (HFrEF).",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-07-12",
+            "completion_date": "2019-11-25",
+            "country": "Germany",
+            "enrollment": 201,
+            "brief_summary": "The purpose of the study was to determine the effect of LCZ696 vs. enalapril on improvement of exercise capacity in patients with chronic heart failure with reduced ejection fraction.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a diagnosis of chronic heart failure (NYHA class III) and reduced ejection fraction (LVEF ≤ 40%)\n* Reduced ability to exercise, evidenced by VO2peak ≤ 18 ml/min per kg\n* Patients had to be on an ACEI or an ARB at a stable dose of at least enalapril 10 mg/d or equ",
+            "endpoints": [
+              "Change From Baseline in Peak Respiratory Oxygen Uptake (VO2peak) Adjusted to Body Weight) After 3 Months of Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02768298"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06697353",
+            "title": "ROVER Japan/ Real-world Outcomes of Patients Treated With Vericiguat in Japanese Routine Care: a Retrospective Cohort Study Using a Hospital Administrative Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2024-11-01",
+            "completion_date": "2025-09-19",
+            "country": "Japan",
+            "enrollment": 4936,
+            "brief_summary": "This is an observational study in which data already collected from people with chronic heart failure is studied.\n\nChronic HFrEF is a long-term condition where the left side of the heart does not pump blood out to the body as well as it should. Blood and fluid may collect in the lungs, blood vessels, and tissues causing shortness of breath or tiredness. Over time, heart failure can lead to other serious medical conditions that may result in hospital stays or even death.\n\nThe study drug, vericigu",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients who initiate vericiguat (identified by Anatomical Therapeutic Chemical \\[ATC\\] code C01DX22, generic name and receipt code \\[to be defined in the SAP\\]) between September 2021 and July 2024\n\n* Patients who have diagnosis code of HF (identified by World Health Organizati",
+            "endpoints": [
+              "Incidence rates of clinical outcomes in patients who initiate vericiguat"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT06697353"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "8395876",
+            "title": "Hemodynamic response of a canine model of chronic heart failure to intravenous dobutamine, nitroprusside, enalaprilat, and digoxin.",
+            "abstract": "The hemodynamic effects of acute intravenous administration of nitroprusside, dobutamine, enalaprilat, and digoxin was investigated in a canine model of chronic heart failure (CHF) produced by multiple sequential intracoronary microembolizations. Dobutamine (4 micrograms/kg/min) increased cardiac output (2.4 +/- 0.1 vs. 4.0 +/- 0.4 l/min; p < .001) and LV ejection fraction (LVEF; 26 +/- 1 vs. 30 +/- 4%; p < .01), and decreased systemic vascular resistance (SVR; 3620 +/- 170 vs. 2470 +/- 190 dynes sec cm-5; p < .001). Nitroprusside (3 micrograms/kg/min) acted as a venodilator; it decreased pulmonary artery wedge pressure (16 +/- 1 vs. 13 +/- 1 mmHg; p < .01) and SVR (3730 +/- 440 vs. 3210 +/- 280 dynes sec cm-5; NS) but had no effect on cardiac output. Enalaprilat (1.875 mg) produced a significant increase of cardiac output (3.0 +/- 0.5 vs. 3.8 +/- 0.5 l/min; p < .001) and LVEF (22 +/- 1 vs. 30 +/- 1%; p < .01), and decreased SVR (3280 +/- 400 vs. 2450 +/- 250 dynes sec cm-5; p < .01). ",
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "1993",
+            "authors": [
+              "Sabbah H N",
+              "Levine T B",
+              "Gheorghiade M",
+              "Kono T",
+              "Goldstein S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Pressure",
+              "Cardiac Output",
+              "Digoxin",
+              "Disease Models, Animal",
+              "Dobutamine",
+              "Dogs",
+              "Enalaprilat",
+              "Heart Failure",
+              "Heart Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8395876/"
+          },
+          {
+            "pmid": "3033043",
+            "title": "Enalaprilat, a new parenteral angiotensin-converting enzyme inhibitor: rapid changes in systemic and coronary hemodynamics and humoral profile in chronic heart failure.",
+            "abstract": "Systemic and coronary hemodynamic, metabolic and humoral effects of a new intravenous angiotensin-converting enzyme inhibitor, enalaprilat, were evaluated in 14 patients with chronic heart failure. Onset of hemodynamic action occurred within 15 minutes and persisted for 6 hours. At the time of peak effect, there was a significant reduction in mean arterial pressure (-21%) and pulmonary capillary wedge pressure (-33%). Systemic vascular resistance decreased by 32% and stroke volume index increased by 20%. These systemic hemodynamic changes indicate improved left ventricular function. There was a substantial sustained reduction in rate-pressure product initially without a change in coronary sinus blood flow or myocardial oxygen consumption. There was also reduced myocardial oxygen extraction and augmented coronary sinus oxygen saturation at 30 minutes and 1 hour. In three patients, abnormal myocardial lactate extraction, present before enalaprilat, changed to uptake after enalaprilat, in",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1987",
+            "authors": [
+              "De Marco T",
+              "Daly P A",
+              "Liu M",
+              "Kayser S",
+              "Parmley W W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Catecholamines",
+              "Chronic Disease",
+              "Coronary Circulation",
+              "Enalapril",
+              "Enalaprilat",
+              "Female",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3033043/"
+          },
+          {
+            "pmid": "16494512",
+            "title": "ACE inhibitors in pediatric patients with heart failure.",
+            "abstract": "This article reviews reports of ACE inhibitor use in pediatric heart failure and summarizes the present implications for clinical practice. Captopril, enalapril, and cilazapril are orally active ACE inhibitors, and widely used in pediatric cardiology, although more than ten other ACE inhibitors have been applied clinically in adults. Effects of ACE inhibitors on the renin-angiotensin-aldosterone system in pediatric patients are similar to those in adults. ACE inhibitors lower aortic pressure and systemic vascular resistance, do not affect pulmonary vascular resistance significantly, and lower left atrial and right atrial pressures in pediatric patients with heart failure. In infants with a large ventricular septal defect and pulmonary hypertension, ACE inhibitors decrease left-to-right shunt in those infants with elevated systemic vascular resistance. ACE inhibitors induce a small increase in left ventricular ejection fraction, left ventricular fractional shortening, and systemic blood",
+            "journal": "Paediatric drugs",
+            "year": "2006",
+            "authors": [
+              "Momma Kazuo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Cardiac Output, Low",
+              "Child",
+              "Child, Preschool",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Hemodynamics",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16494512/"
+          },
+          {
+            "pmid": "8383028",
+            "title": "Hemodynamic response to intravenous enalaprilat in patients with severe congestive heart failure and mitral regurgitation.",
+            "abstract": "The hemodynamic response 1 hour after 1.25 mg of intravenous (IV) enalaprilat was examined in 20 patients (mean age 75 years) with severe congestive heart failure (CHF) and mitral regurgitation (MR), secondary to ischemic heart disease (NYHA Class IV). Patients were classified into two groups based upon the magnitude of MR as derived from Doppler color flow imaging: Group I (n = 13) had severe MR and Group II (n = 7) had moderate MR. Acute therapy significantly reduced systemic vascular resistance index in both groups and provided effective afterload reduction. Although cardiac and stroke volume indices increased in both groups, an improved forward flow was significant only for Group I (cardiac index 2.2 +/- 0.5 to 2.7 +/- 0.5 l/min/m2, p < 0.02). The magnitude of MR, acutely reduced in all patients, was similarly significant only for Group I (56 +/- 10% to 31 +/- 12%, p < 0.01). The reduction of both pulmonary capillary wedge pressure and mean arterial pressure was significant for bot",
+            "journal": "Clinical cardiology",
+            "year": "1993",
+            "authors": [
+              "Varriale P",
+              "David W",
+              "Chryssos B E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Echocardiography, Doppler",
+              "Enalaprilat",
+              "Female",
+              "Heart Failure",
+              "Hemodynamics",
+              "Humans",
+              "Injections, Intravenous",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8383028/"
+          },
+          {
+            "pmid": "2422494",
+            "title": "Conceptual and therapeutic approaches to inhibition of the renin-angiotensin system in chronic heart failure.",
+            "abstract": "The renin-angiotensin system is activated in the majority of patients with chronic congestive heart failure. This may be part of the pathophysiology of the disease, a secondary phenomenon, or the result of intense diuretic therapy. Irrespective of the mechanism of renin-angiotensin activation, converting enzyme inhibitors are an effective form of therapy as well as a means to evaluate pathophysiologic mechanisms of congestive heart failure. Because of the activation of the renin-angiotensin system, angiotensin-mediated vasoconstriction and aldosterone-mediated sodium retention can be suppressed and, in some individuals, completely blocked by converting enzyme inhibitors. Improved forward cardiac flow and reduction of pulmonary congestion occur with reversal of vasoconstriction, so that relief of edema, due to enhanced sodium and water excretion, will occur. While it is easy to identify a close correlation between markers of renin-angiotensin activity and the initial response to convert",
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "1986",
+            "authors": [
+              "Cody R J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiotensin II",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Chronic Disease",
+              "Enalapril",
+              "Enalaprilat",
+              "Enzyme Activation",
+              "Heart Failure",
+              "Heart Rate",
+              "Hemodynamics",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2422494/"
+          },
+          {
+            "pmid": "7994817",
+            "title": "Angiotensinergic versus nonangiotensinergic hemodynamic effects of converting enzyme inhibition in patients with chronic heart failure. Assessment by acute renin and converting enzyme inhibition.",
+            "abstract": "The contribution of nonangiotensinergic effects of converting enzyme inhibitors to their hemodynamic effects in patients with chronic heart failure is not clear. A comparison of the effects of renin and converting enzyme inhibition should help to clarify this issue.",
+            "journal": "Circulation",
+            "year": "1994",
+            "authors": [
+              "Kiowski W",
+              "Beermann J",
+              "Rickenbacher P",
+              "Haemmerli R",
+              "Thomas M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Cardiac Output, Low",
+              "Chronic Disease",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Enalaprilat",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7994817/"
+          },
+          {
+            "pmid": "10393397",
+            "title": "Bolus versus continuous low dose of enalaprilat in congestive heart failure with acute refractory decompensation.",
+            "abstract": "The first dose of angiotensin-converting enzyme (ACE) inhibitors may trigger a considerable fall of blood pressure in chronic heart failure. The response may be dose-related. To determine hemodynamic and systemic oxygenation effects of low-dose enalaprilat, we administered intravenous enalaprilat (0.004 mg/kg) as bolus (group B) or continuous 1-hour infusion (group C) in 20 patients with congestive heart failure due to ischemic heart disease with acute decompensation refractory to inotropic, vasodilator and diuretic therapy. Hemodynamic and systemic oxygenation variables were recorded at baseline (+0 min), +30, +60, +120, +180, and +360 min after the start of intervention. Mean arterial pressure (MAP) (p < 0. 001), mean pulmonary artery pressure (MPAP) (p < 0.001), pulmonary artery occlusion pressure (PAOP) (p < 0.001), oxygen extraction ratio (ER) (p < 0.026) decreased regardless of enalaprilat application. Compared to group B, there was in group C prolonged decrease of MAP, MPAP, PAO",
+            "journal": "Cardiology",
+            "year": "1999",
+            "authors": [
+              "Podbregar M",
+              "Voga G",
+              "Horvat M",
+              "Zuran I",
+              "Krivec B"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Coronary Disease",
+              "Drug Administration Schedule",
+              "Drug Therapy, Combination",
+              "Enalaprilat",
+              "Female",
+              "Heart Failure",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10393397/"
+          },
+          {
+            "pmid": "11454937",
+            "title": "Pathophysiological roles of endogenous endothelin-1 in dogs with chronic heart failure produced by rapid right ventricular pacing.",
+            "abstract": "This study was designed to analyze the pathophysiological role of the endogenous endothelin (ET) system and the therapeutic approach to congestive heart failure (CHF) with ET(A)/ET(B) receptor antagonists in a canine CHF model. After 3 weeks of rapid right ventricular pacing (240 beats/min), concentrations of immunoreactive ET-1 in dogs increased approximately 2-fold in plasma and in the left and right ventricles but not in the lung. There were no meaningful changes in the density and affinity of total ET receptors, or in the ratio of ET(A) to ET(B) receptors. To clarify the functional role of endogenous ET, we examined the effects of acute injection of J-104132 (1 and 3 mg/kg i.v.), an ET(A)/ET(B) receptor antagonist, on cardiovascular and renal function in dogs with CHF. Compared with vehicle, J-104132 at both doses significantly decreased pulmonary artery pressure (PAP), pulmonary capillary wedge pressure (PCWP), and mean arterial pressure (MAP), and increased cardiac output (CO) an",
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2001",
+            "authors": [
+              "Tadano K",
+              "Suzuki J",
+              "Hanada K",
+              "Nakao M",
+              "Nakao R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Animals",
+              "Cardiac Pacing, Artificial",
+              "Chronic Disease",
+              "Dogs",
+              "Echocardiography",
+              "Enalaprilat",
+              "Endothelin Receptor Antagonists",
+              "Endothelin-1",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11454937/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9267343878746032,
+        "txgnn_rank": 31221,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic kidney disease",
+        "txgnn_score": 0.9163506031036376,
+        "txgnn_rank": 32904,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05271448",
+            "title": "The Effect of Continuing or Discontinuing ACE-I/ARBs Therapy on the Incidence of Contrast-induced Nephropathy in Patients With Chronic Kidney Disease Undergoing Coronary Angiography; a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-06-01",
+            "completion_date": "2024-08-01",
+            "country": "Palestinian Territories",
+            "enrollment": 600,
+            "brief_summary": "Contrast induced nephropathy (CIN) is a well-known possible complication of percutaneous coronary intervention (PCI) with an incidence varies from 3.3% to 14.5% in patients undergoing PCI.\n\nMany previous randomized and non-randomized studies have shown very conflicting results regarding the use of ACE-Is prior to coronary angiography, and whether it decreases or increases the risk of CIN. The importance of this study is to help find an acceptable and reliable answer for the use of ACE-I/ARBs pri",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. At least one month of continuous therapy with an ACEI or an ARBs and\n2. Undergoing elective coronary angiography and\n3. Have CKD stage3-4 (15≤GFR\\<60 ml/min/1.73 m2).\n\nExclusion Criteria:\n\n1. Acute STEMI within 2 weeks\n2. NYHA class IV heart failure by history\n3. Administrati",
+            "endpoints": [
+              "Number of Participants with Contrast induced nephropathy"
+            ],
+            "sponsor": "An-Najah National University",
+            "url": "https://clinicaltrials.gov/study/NCT05271448"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05373004",
+            "title": "Comparison Between the Efficacy of Sodium-Glucose Co-transporter 2 Inhibitor Therapy Versus Angiotensin-converting Enzyme Inhibitor in the Treatment of Diabetic Kidney Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-03",
+            "completion_date": "2024-05",
+            "country": "N/A",
+            "enrollment": 212,
+            "brief_summary": "Diabetes is the leading cause of chronic kidney disease (CKD) and end-stage kidney disease worldwide. Diabetic kidney disease (DKD) is a clinical diagnosis based upon the presence of reduced glomerular filtration rate (GFR) and/or increased urinary albumin excretion (UACR) in diabetes. The inhibition of the renin-angiotensin system (RAS) has been identified as the cornerstone in the management of DKD for decades. Recently, more evidence supports the use of Sodium-glucose cotransporter 2 inhibito",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men\\& women with Type 2 Diabetic patient\n* Age 30-65 years old\n* UACR above 30mg/g\n* eGFR between 30-90 ml/min/1.73m2\n* Signed and dated informed consent\n* Women must agree to use an effective birth control method if they are heterosexually active during the trial and should h",
+            "endpoints": [
+              "estimated glomerular filtration rate"
+            ],
+            "sponsor": "Hamad General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05373004"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00446511",
+            "title": "An Extension to Study Protocol CVAL489K2302 to Evaluate the Long Term Safety, Tolerability and Efficacy of Valsartan in Children 6 to 17 Years of Age With Hypertension, Versus Enalapril Treatment for 14 Weeks, or Combined With Enalapril Versus Enalapril for 66 Weeks in Chronic Kidney Disease Patients.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-06",
+            "completion_date": "2009-06",
+            "country": "Turkey (Türkiye), France, India, Belgium, Germany, Italy, United States, Hungary, Poland",
+            "enrollment": 250,
+            "brief_summary": "The purpose of this extension study is to compare the long-term safety of valsartan versus enalapril, and the effectiveness of the combination of valsartan and enalapril versus enalapril alone in children with hypertension.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Successful completion of 12 weeks of double-blind treatment in core protocol CVAL489K2302.\n* Patients participating in study CVAL489K2302 who may have discontinued prematurely due to uncontrolled hypertension defined as MSSBP \\> 20%, but \\< 25% above the 95th percentile for ag",
+            "endpoints": [
+              "Number of Patients With Adverse Events"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00446511"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01832558",
+            "title": "The EPOCH Study (Eplerenone on Top of ACE Inhibition in Chronic Kidney Disease Patients With Hypertension)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2012-11",
+            "completion_date": "2021-12-31",
+            "country": "Austria",
+            "enrollment": 24,
+            "brief_summary": "In a prospective single centre placebo-controlled trial over ten weeks, 24 CKD II-III patients (eGFR 30-89 ml/min per 1.73 m2) with DM II will be randomized to enalapril 20mg per day after a two week run-in phase. Thereafter, patients will either receive eplerenone 25mg (n=12) or a placebo (n=12) for eight weeks. Eplerenone will be increased to 50mg under close monitoring of serum potassium levels. Employing a novel mass-spectrometry ( MS)-based method, quantification of up to 10 different Ang m",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* CKD II to III and diabetes mellitus type 2\n* CKD will be defined according to estimated glomerular filtration rate (eGFR) with the MDRD formula\n* eGFR between 30 and 89 ml/min\n* albumin excretion rates \\> 300 mg/24 hours (UACR \\> 300 mg/gram) or \\> 200 mg/g if already receivin",
+            "endpoints": [
+              "Angiotensin levels (pg/ml) of CKD II-III patients with DM II with eplerenone additional to enalapril in comparison to patients who receive a placebo on top of enalapril therapy."
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT01832558"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00741585",
+            "title": "Prognostic Value of the Circadian Pattern of Ambulatory Blood Pressure for Multiple Risk Assessment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2008-09-01",
+            "completion_date": "2018-06-30",
+            "country": "Spain",
+            "enrollment": 21983,
+            "brief_summary": "The HYGIA study was designed to investigate prospectively\n\n1. the prognostic value of ambulatory blood pressure (BP) monitoring among subjects primarily evaluated at primary care settings\n2. the impact of changes in ambulatory BP during follow-up in cardiovascular, cerebrovascular, metabolic, and renal risk in hypertensive patients\n3. the influence of circadian time of treatment in cardiovascular, cerebrovascular, metabolic, and renal risk in hypertensive patients\n4. the prevalence of an altered",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female subjects ≥18 years of age.\n* High-normal BP or essential hypertension.\n* Any subject with recommendation for evaluation with ABPM according to the 2007 European Guidelines.\n* Informed consent to participate in the study prior to any study procedures.\n\nExclusion ",
+            "endpoints": [
+              "To evaluate the impact of circadian time of treatment in cardiovascular, cerebrovascular, metabolic, and renal risk assessment."
+            ],
+            "sponsor": "University of Vigo",
+            "url": "https://clinicaltrials.gov/study/NCT00741585"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01805362",
+            "title": "RAS Blockade at Bedtime Versus on Awakening for the Prevention of Aldosterone Breakthrough",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2013-02-27",
+            "completion_date": "2018-01-12",
+            "country": "France",
+            "enrollment": 104,
+            "brief_summary": "Objective:\n\nTo show that the frequency of aldosterone breakthrough is lower when RAS blockers are given at bedtime compared to on awaking, and to analyze the determinants and consequences of aldosterone breakthrough.\n\nDuration of the study: Inclusion 2 years, follow-up one year, total 3 years Design: prospective, multicenter, randomized, controlled, open label, two parallel groups.\n\nMain selection criteria:\n\nInclusion criteria\n\n* Chronic kidney disease stage 3 to 4,\n* ACEI (captopril, enalapril,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Chronic kidney disease stage 3 to 4,\n* ACEI (captopril, enalapril, or ramipril), and/or ARB (losartan, valsartan, or irbesartan) on awaking for at least three months,\n* History of hypertension or proteinuria \\> 0,5 g/24h or g/g creatininuria,\n* Adult with social security insur",
+            "endpoints": [
+              "Serum aldosterone levels at one year"
+            ],
+            "sponsor": "Centre Hospitalier Universitaire de Nice",
+            "url": "https://clinicaltrials.gov/study/NCT01805362"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00270153",
+            "title": "The Use of ACE Inhibitors in the Early Renal Post-transplant Period",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2004-09",
+            "completion_date": "2009-12",
+            "country": "United States",
+            "enrollment": 110,
+            "brief_summary": "Chronic allograft nephropathy (CAN) is the leading cause of longterm renal transplant loss. Angiotensin-II may play a role in the development and progression of CAN. Angiotensin converting enzyme inhibitors (ACEI) comprise a drug class that inhibit the effects of angiotensin-II. However these drugs have been reported to cause elevated potassium and creatinine levels in some renal transplant patients. Yet, there are now several retrospective reports of long term benefits of improved renal functio",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* New adult renal transplant recipients with good renal function defined as serum creatinine less than 2.6 mg/dl,\n* Normal serum potassium levels,\n* No contraindication to ACE inhibitor use\n\nExclusion Criteria:\n\n* Renal transplant patients with persistent serum creatinine levels",
+            "endpoints": [
+              "Changes in serum creatinine levels assessed at 6 months",
+              "Changes in potassium levels assessed at 6 months",
+              "Decrease in estimated glomerular filtration rate (eGFR) assessed at 6 months"
+            ],
+            "sponsor": "Montefiore Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00270153"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06545461",
+            "title": "Treating Metabolic Acidosis in Chronic Kidney Disease to Prevent Adverse Kidney and Cardiovascular Outcomes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "1998-06-22",
+            "completion_date": "2016-10-30",
+            "country": "N/A",
+            "enrollment": 108,
+            "brief_summary": "Upon completion, this project will determine if treatment of metabolic acidosis in non-diabetic study participants with reduced kidney function (chronic kidney disease \\[CKD\\] stage 3) associated with high blood pressure (hypertension) and macroalbuminuria, the latter indicating pronounced kidney injury, using either base-producing fruits and vegetables (F+V) or standard therapy for treatment of metabolic acidosis with the medication sodium bicarbonate (NaHCO3) 1) slows progression of CKD toward",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Non-malignant high blood pressure or hypertension\n2. 18-70 yrs old\n3. urine albumin-to-creatine ratio \\> 200 mg/g creatinine\n4. estimated glomerular filtration rate (eGFR) 30 to 59 ml/min/1.73 m2\n5. Plasma total CO2 (PTCO2) \\> 22 but \\< 24 mmol/l\n6. able to tolerate angiotens",
+            "endpoints": [
+              "Difference in estimated glomerular filtration rate (eGFR) at follow up",
+              "Difference in the rate of eGFR change during follow up",
+              "Difference in the net eGFR change during follow up"
+            ],
+            "sponsor": "University of Texas at Austin",
+            "url": "https://clinicaltrials.gov/study/NCT06545461"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00151619",
+            "title": "Regional and Systemic Hemodynamic Effects of a Long-term Administration of Amlodipine in Patients With Chronic Heart Failure Treated With a Combination of Enalapril, Furosemide and Digoxin",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "1999-02-10",
+            "completion_date": "",
+            "country": "France",
+            "enrollment": 7,
+            "brief_summary": "Patients with congestive heart failure are usually treated with a combination of an ACE inhibitor (or an AT1 blocking agent), a diuretic and a beta-blocker. However, some patients remain symptomatic despite an optimal treatment with these drugs. In patients who also have coronary heart disease, nitrates or some calcium-channel blockers could help to relieve symptoms. Therefore, the aim of our study is to evaluate the additional benefit induced by a second generation calcium-channel blocker, amlo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients over 18 years\n* Chronic heart failure with New York Heart Association class III or IV.\n* Ischemic or dilated cardiopathy known for at least 3 months\n* Systolic arterial pressure \\> 110 mmHg under treatment\n* Stroke volume between 20 and 40% under treatment\n* Informed ",
+            "endpoints": [
+              "Humeral blood flow"
+            ],
+            "sponsor": "Rennes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00151619"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03078101",
+            "title": "Effect of Empagliflozin on the Renin-angiotensin System in Patients With Chronic",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-04-15",
+            "completion_date": "2019-08-07",
+            "country": "Austria",
+            "enrollment": 51,
+            "brief_summary": "This study will be a prospective, clinical pilot study in CKD patients to show whether Empagliflozin in addition to ACEi treatment significantly increases Ang 1-7 levels compared to ACEi treatment alone.\n\nNull and alternative hypotheses:\n\nH0: Empagliflozin in addition to ACEi treatment does not increase Ang 1-7 levels more than ACEi treatment alone.\n\nH1: Empagliflozin in addition to ACEi treatment significantly increases Ang 1-7 levels compared to ACEi treatment alone\n\nMethodology:\n\nTwo groups o",
+            "eligibility_criteria": "Inclusion Criteria:\n\nfor CKD patients with type 2 diabetes\n\n* Estimated GFR (calculated with the MDRD-IDMS formula) between 15 and 59 ml/min (with CKD stage IIIa/b to IV)\n* Albumin excretion rates of 30-300 mg/24 hours (UACR \\<300 mg/g)\n* Fasting plasma glucose levels \\>126 mg/dl \\[7mmol/L\\] or HbA1",
+            "endpoints": [
+              "The difference of Ang 1-7 increase from baseline between a 3-month treatment with empagliflozin on top of ACEi treatment compared to ACEi treatment alone"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT03078101"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01624064",
+            "title": "A Double Blind Clinical Trial to Examine the Renal Effects of an Angiotensin Converting Enzyme Inhibitor (Enalapril) in Adults With Chronic Kidney Disease of Uncertain Aetiology (CKDu)",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2012-08",
+            "completion_date": "2013-10",
+            "country": "Sri Lanka",
+            "enrollment": 200,
+            "brief_summary": "Enalapril would significantly reduce progression of renal disease in patients with Chronic Kidney Disease of Uncertain aetiology.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males and females between 18-70 years of age\n* CKDu Grade 1, 2, 3\n* No contraindication for treatment with ACEI\n* Informed consent given\n\nExclusion Criteria:\n\n* Grade 4 CKDu\n* Other chronic diseases\n* Evidence or suspicion of non renal secondary hypertension\n* Diabetes type 1 ",
+            "endpoints": [
+              "Proteinuria",
+              "Estimated GFR"
+            ],
+            "sponsor": "Ministry of Health, Sri Lanka",
+            "url": "https://clinicaltrials.gov/study/NCT01624064"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01871740",
+            "title": "Enalapril Maleate and Folic Acid Tablets for Prevention of Chronic Kidney Diseases in Patients With Hypertension: a Double-blind Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2008-05",
+            "completion_date": "2014-08",
+            "country": "China",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this trial is to confirm that enalapril maleate and folic acid tablets is more effective in preventing renal function decline among the patients with primary hypertension when compared to enalapril maleate.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* BP≥140/90 mmHg in both of the two screening visits or currently under anti-hypertension treatment;\n* 45-75 years old;\n* Successful determination of methylenetetrahydrofolate reductase (MTHFR) C677T genotype;\n* For pre-menopausal women, agreed to use contraceptives during the t",
+            "endpoints": [
+              "Renal function decline"
+            ],
+            "sponsor": "Shenzhen Ausa Pharmed Co.,Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT01871740"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00235287",
+            "title": "Pulse Wave Velocity, Pulse Wave Morphology and Blocking of the Reninangiotensin System in Patients With Chronic Kidney Disease: An Interventional and Methodological Study",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2005-09",
+            "completion_date": "",
+            "country": "Denmark",
+            "enrollment": 60,
+            "brief_summary": "The purpose of this study is to determine whether a combination therapy with angiotensin-converting enzyme (ACE)-inhibitors and angiotensin receptor blockers reduces the arterial stiffness assessed by applantiontonometry more than a single treatment in kidney patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Creatinine: 150-350 micromol/L\n* Blood pressure \\> 110 systolic\n* Negative pregnancy test for fertile women\n* Written and oral informed consent from the patient\n\nExclusion Criteria:\n\n* Treatment with both ACE-inhibitors (ACE-I) and angiotensin receptor blockers\n* Pregnancy or ",
+            "endpoints": [
+              "pulse wave velocity (aortic and brachial)"
+            ],
+            "sponsor": "Herlev Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00235287"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03626259",
+            "title": "Effect of the Administration of Losartan / Amlodipine in Fixed Combination Versus Losartan on Hemodynamic and Arterial Stiffness Parameters in Patients With Systemic Hypertension Grade 1 and 2",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2018-08-06",
+            "completion_date": "2019-06-14",
+            "country": "Mexico",
+            "enrollment": 28,
+            "brief_summary": "Systemic Arterial Hypertension (SAH) is a disease with a high prevalence in Mexico and worldwide. SAH is associated with an increase in cardiovascular morbidity and mortality, causing cardiovascular disease (CVD), heart failure (HF), as well as chronic kidney disease (CKD). Several of the physiopathological mechanisms observed are: the increase in cardiac output, central aortic pressure (CAP), pulse wave velocity (PWV) and peripheral vascular resistance (PVR), which leads to the generation of da",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of hypertension grade 1 or 2 according to the criteria of the American Heart Association (2017)\n* Written informed consent\n* Patients who are undergoing antihypertensive treatment and who, at the trial of the investigator and taking care of the health and safety of t",
+            "endpoints": [
+              "Pulse Wave Velocity (PWVao)"
+            ],
+            "sponsor": "Centro Universitario de Ciencias de la Salud, Mexico",
+            "url": "https://clinicaltrials.gov/study/NCT03626259"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00484068",
+            "title": "Effect of Chicken-Based Diet Versus Enalapril on Albuminuria in Patients With Type 2 Diabetes and Microalbuminuria: a One-Year Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2003-01",
+            "completion_date": "2006-06",
+            "country": "Brazil",
+            "enrollment": 28,
+            "brief_summary": "Diabetic nephropathy (DN) is a chronic diabetic complication and affects up to 40% of patients. The first line treatment for DN is angiotensin blockers drugs that are used to reduce the protein concentration in urine.Previous data showed that this protein, namely albuminuria, could also be reduced in a short term-period by the replacement of red meat in the diet with chicken. The aim of this study is to compare the effects of this chicken diet with enalapril on albuminuria in a long-term period(",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes mellitus (according to World Health Organization criteria) attending the Endocrine Division's outpatient clinic at Hospital de Clínicas de Porto Alegre, Brazil. Patients were selected according to the following criteria: age \\<75 years, A1c \\<10%,",
+            "endpoints": [
+              "urinary albumin excretion",
+              "serum lipids",
+              "nutritional status"
+            ],
+            "sponsor": "Hospital de Clinicas de Porto Alegre",
+            "url": "https://clinicaltrials.gov/study/NCT00484068"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03502031",
+            "title": "Safety and Efficacy of Maximally Tolerated RAAS Blockade and Spironolactone Therapy on Urinary Proteinuria and Progression of Type II Diabetic Nephropathy in African Americans and Other Patient Cohorts.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2018-10-01",
+            "completion_date": "2024-10-01",
+            "country": "United States",
+            "enrollment": 72,
+            "brief_summary": "NephroNet proposes to examine whether combining Spironolactone with maximal RAAS blockade will further reduce urinary protein at one year and whether prolonged therapy (24 months) is able to slow the decline in GFR. Because of combination MRA and RAAS therapy significantly increases the risk for clinically significant hyperkalemia, we also plan to determine whether the addition of Patiromer to these patients facilitates the use of combination therapy and allows a larger proportion of diabetic pa",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age above 18\n* Male or Female\n* Patients with Type II diabetes mellitus must be receiving oral agents or insulin injections at the time of randomization\n* All eligible patients will be on a stable, maximum to dose of an ACE or ARB for 2 weeks prior to randomization.\n* Note: Th",
+            "endpoints": [
+              "Combination Therapy - RAAS inhibition and Spironolactone to lower UP/Cr"
+            ],
+            "sponsor": "NephroNet, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03502031"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00419835",
+            "title": "Effect of Enalapril and Losartan Association Therapy on Proteinuria and Inflammatory Biomarkers in Diabetic Nephropathy: a Clinical Trial on Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-05",
+            "completion_date": "2007-09",
+            "country": "Brazil",
+            "enrollment": 80,
+            "brief_summary": "Chronic kidney disease (CKD)has become a significant health problem worldwide. Strategies to decrease the rate of progression of this disease and reduce the number of patients needing dialysis or renal transplantation are urgently needed. In this study we wish to compare the effect of dual blockade of renin-angiotensin system (ACE inhibitors plus angiotensin II receptor blocker) compared to the effect of ACE inhibitor monotherapy in patients with diabetic chronic nephropathy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* diabetic nephropathy characterised by a daily proteinuria superior to 500 mg\n* type II diabetes\n\nExclusion Criteria:\n\n* type 1 diabetes\n* serum creatinine \\> 2.5 mg/dL or creatinine clearance lower than 30 ml/min\n* serum potassium \\> 5.5 mEq/L\n* intolerance or allergy to ACE i",
+            "endpoints": [
+              "effect of treatment on proteinuria after 8 months of follow-up"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT00419835"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00672451",
+            "title": "Rhubarb and Angiotensin Converting Enzyme Inhibitor",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2008-01",
+            "completion_date": "2009-05",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "Rhubarb extract is a chinese herbal preparation that is used in china and other asian countries to treat constipation and chronic kidney disease. Use of angiotensin converting enzyme inhibitors (ACEI) in diabetic kidney disease has been shown to be beneficial in slowing progression. The purpose of this study is to determine the combined effect of rhubarb plus enalapril (an ACEI)in slowing the rate of decline of CKD in people with kidney disease from diabetes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female patients \\>18 years\n2. Patients with diabetic nephropathy (history of type 1 or type 2 diabetes for \\> 7 years, no other cause for proteinuria listed in their medical chart). This is the definition used in most peer-reviewed trials44,45 of diabetic nephropathy.",
+            "endpoints": [
+              "Albumin Concentration in Urine"
+            ],
+            "sponsor": "Wake Forest University Health Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT00672451"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02654678",
+            "title": "Follow-up Safety Trial in Children With Chronic Heart Failure Therapy Receiving Orodispersible Minitablets of Enalapril",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2016-03",
+            "completion_date": "2018-04",
+            "country": "United Kingdom, Netherlands, Austria, Hungary, Serbia",
+            "enrollment": 100,
+            "brief_summary": "Paediatric long-term safety follow-up clinical trial in maximum 100 children with heart failure due to dilated cardiomyopathy or congenital heart disease, from 1 day to less than 12 years of age at recruitment into the preceding short-term pharmacokinetic (PK)/pharmacodynamic (PD) trials. Pharmacodynamic measurements and renal monitoring in all children after 1 , 4, 7 and 10 months of follow-up; in addition PK assessments as well as acceptability and palatability assessments in children still un",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients from the WP08 and WP09 Trials who have been treated with enalapril Orodispersible Minitablets and are still under ODMT treatment.\n* Patients from the WP08 and WP09 Trials who have been treated for at least 3 days with enalapril Orodispersible Minitablets and are no lo",
+            "endpoints": [
+              "Number of patients with Adverse Reactions"
+            ],
+            "sponsor": "Ethicare GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT02654678"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02916160",
+            "title": "Evaluation in Real Life Conditions of Sacubitril-valsartan Combination in Patients With Chronic Heart Failure and Sleep Apnea Syndrome",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-09-22",
+            "completion_date": "2020-02-27",
+            "country": "France",
+            "enrollment": 124,
+            "brief_summary": "Chronic Heart Failure (CHF) is a frequent pathology burdened with mortality and significant morbidity. Sleep apnea syndrome (SAS) is frequently associated with CHF in 20% to 75% of cases. Treatment of SAS is however inconsistently associated with a decline in the morbidity and mortality. To date, the CHF medical treatments have been reported to be inconsistently efficient in the treatment of SAS.\n\nSACUBITRIL-VALSARTAN (ENTRESTO®) is a new treatment of CHF recently indicated class I, level B in t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age is greater than or equal to 18 years\n* Patient with chronic heart failure (LVEF ≤ 45%).\n* Written informed consent\n\nExclusion Criteria:\n\n* Renal insufficiency (GF\\<30 milliliters/min)\n* Pregnancy\n* Allergy to one compound\n* Personal history of angiooedema\n* Hemodynamical i",
+            "endpoints": [
+              "Changes in Apnea-Hypopnea Index as compared to baseline"
+            ],
+            "sponsor": "University Hospital, Montpellier",
+            "url": "https://clinicaltrials.gov/study/NCT02916160"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02571842",
+            "title": "A Randomized, Prospective, Open-Label Study of Rituximab in the Treatment of Recurrent IgA Nephropathy With Active Endocapillary Proliferation Pathology",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2012-01",
+            "completion_date": "2016-12",
+            "country": "Thailand",
+            "enrollment": 30,
+            "brief_summary": "Currently, the treatment options of recurrent IgA nephropathy (IgAN) are conflicting and largely based on expert opinions. Consequently, the recent KDIGO clinical practice guideline for the care of kidney transplant recipients has concluded that there are no definite strategies for prevention and treatment. However, recurrent IgAN in the transplanted kidney is common and may contribute to graft loss, in particular, if cresentic formation, extra- or endocapillary proliferation were presented in k",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Any kidney transplant recipients between the age of 18 and 70 years of age and able to give informed consent\n* GFR by 24h Creatinine Clearance (CrCl) \\>30 ml/min/1.73m²\n* Biopsy proven recurrent IgA nephropathy with endocapillary proliferation pattern\n\nExclusion Criteria:\n\n* C",
+            "endpoints": [
+              "Remission rate",
+              "Incidence of all adverse events"
+            ],
+            "sponsor": "Chulalongkorn University",
+            "url": "https://clinicaltrials.gov/study/NCT02571842"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04736329",
+            "title": "Telmisartan Versus Enalapril in Heart Failure With Reduced Ejection Fraction Patients With Moderately Impaired Kidney Functions. \"TRIUMF Trial\"",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-02-01",
+            "completion_date": "2022-10-31",
+            "country": "Egypt",
+            "enrollment": 107,
+            "brief_summary": "Heart Failure (HF) poses a major health burden in various populations, with devastating annual rates of morbidity and mortality. It is estimated that 1%-to-2% of the general population suffer from the heart failure syndrome.\n\nHF with reduced ejection fraction (HFrEF) is the most studied among different strata of ejection fractions (compared to HFpEF and HFmrEF), and thus therapies with evidence based survival benefit are well identified.\n\nThe syndrome of heart failure and the subsequent reduced ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 18 and 80 years\n* Patients with signs and/or symptoms of heart failure NYHA II, III or IV, with echocardiographic diagnosis of HFrEF..\n* Moderate impairment of renal functions, assessed by measuring serum creatinine levels then estimating the glomerular filtration ",
+            "endpoints": [
+              "change in Six-minutes walk test",
+              "Rate of occurrence of worsening renal function",
+              "Rates of discontinuation of- or intolerance to the used agent for RAAS inhibition (enalapril/telmisartan)"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT04736329"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00446862",
+            "title": "Multi-center, Open-label Study of the Safety and Efficacy of Control of Proteinuria With ACE Inhibitors and ARBS in Patients With Fabry Disease Who Are Receiving Fabrazyme®: The FAACET Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2007-03",
+            "completion_date": "2012-12",
+            "country": "United States, Slovenia",
+            "enrollment": 36,
+            "brief_summary": "The primary hypothesis is that titration of ACE inhibitor and Angiotensin Receptor Blockers (ARBs)to reduce urine protein excretion to \\< 500 mg per day in Fabry Patients receiving agalsidase beta therapy at 1 mg/kg every two weeks will slow the progression rate of decline of glomerular filtration rate (GFR) compared to case controls drawn from the Genzyme-sponsored Phase III extension study (GFR 60 to 125 ml/min/1.73 m², urine protein \\> 1 gram/day) or the Phase IV study (GFR 20 to 60 ml/min/1.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The patient must provide written, informed consent, and be ≥ 19 yrs of age.\n* The patient is already receiving Fabrazyme® at 1 mg/kg every two weeks at the time of enrollment.\n* Patient has confirmed Fabry disease (plasma αGAL activity of \\< 1.5 nmol/hr/mL, or leukocyte αGAL a",
+            "endpoints": [
+              "Determine the relationship of GFR to titrating ACEI/ARB therapy to targeted uring protein ration"
+            ],
+            "sponsor": "University of Alabama at Birmingham",
+            "url": "https://clinicaltrials.gov/study/NCT00446862"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06697353",
+            "title": "ROVER Japan/ Real-world Outcomes of Patients Treated With Vericiguat in Japanese Routine Care: a Retrospective Cohort Study Using a Hospital Administrative Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2024-11-01",
+            "completion_date": "2025-09-19",
+            "country": "Japan",
+            "enrollment": 4936,
+            "brief_summary": "This is an observational study in which data already collected from people with chronic heart failure is studied.\n\nChronic HFrEF is a long-term condition where the left side of the heart does not pump blood out to the body as well as it should. Blood and fluid may collect in the lungs, blood vessels, and tissues causing shortness of breath or tiredness. Over time, heart failure can lead to other serious medical conditions that may result in hospital stays or even death.\n\nThe study drug, vericigu",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients who initiate vericiguat (identified by Anatomical Therapeutic Chemical \\[ATC\\] code C01DX22, generic name and receipt code \\[to be defined in the SAP\\]) between September 2021 and July 2024\n\n* Patients who have diagnosis code of HF (identified by World Health Organizati",
+            "endpoints": [
+              "Incidence rates of clinical outcomes in patients who initiate vericiguat"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT06697353"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01667614",
+            "title": "Comparison of Efficacy of Losartan/Spironolactone and Losartan/Enalapril on Urinary Albumin Excretion, Estimated Glomerular Filtration Rate, and Blood Pressure in Patients With Type 2 Diabetes Nephropathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-05",
+            "completion_date": "2012-07",
+            "country": "Iran",
+            "enrollment": 136,
+            "brief_summary": "The detrimental effects of aldostrone are not adequately arrested by the use of angiotensin converting enzyme (ACE), angiotensin II receptor blocker (ARB) or a combination of both. Recent evidence has provided robust evidence that aldostrone escape plays an important role in this regard. It is believed that aldostrone escape occurs quite commonly with reports indicating prevalence rates as high as 22% with ARBs and 40% with ACE inhibitors. In a trial of patients with diabetes and hypertension it",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* type 2 diabetes patients with diabetic nephropathy in the range of micro- or macroalbuminuria\n* treatment with combination of enalapril and losartan for more than one year\n\nExclusion Criteria:\n\n* history of non-adherence to prescribed medication assessed by the prescribing phy",
+            "endpoints": [
+              "Urinary albumin excretion"
+            ],
+            "sponsor": "Tehran University of Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT01667614"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "10594794",
+            "title": "Hypertension and renal injury in experimental polycystic kidney disease.",
+            "abstract": "Hypertension and renal injury in experimental polycystic kidney disease.",
+            "journal": "Kidney international",
+            "year": "1999",
+            "authors": [
+              "Kennefick T M",
+              "Al-Nimri M A",
+              "Oyama T T",
+              "Thompson M M",
+              "Kelly F J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II",
+              "Animals",
+              "Antihypertensive Agents",
+              "Enalapril",
+              "Fibrosis",
+              "Hydralazine",
+              "Hypertension, Renal",
+              "Kidney Glomerulus",
+              "Male",
+              "Polycystic Kidney, Autosomal Dominant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10594794/"
+          },
+          {
+            "pmid": "10606834",
+            "title": "Comparison of the pharmacokinetics of fosinoprilat with enalaprilat and lisinopril in patients with congestive heart failure and chronic renal insufficiency.",
+            "abstract": "To compare the serum pharmacokinetics of fosinoprilat with enalaprilat and lisinopril after 1 and 10 days of dosing with fosinopril, enalapril and lisinopril.",
+            "journal": "British journal of clinical pharmacology",
+            "year": "2000",
+            "authors": [
+              "Greenbaum R",
+              "Zucchelli P",
+              "Caspi A",
+              "Nouriel H",
+              "Paz R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Blood Pressure",
+              "Enalaprilat",
+              "Female",
+              "Fosinopril",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10606834/"
+          },
+          {
+            "pmid": "6099737",
+            "title": "An overview of the clinical pharmacology of enalapril.",
+            "abstract": "Enalapril maleate is a prodrug which when administered orally is hydrolysed to release the active converting enzyme inhibitor enalaprilat. Enalapril maleate is 60% absorbed and 40% bioavailable as enalaprilat. Both compounds undergo renal excretion without further metabolism. The functional half-life for accumulation of enalaprilat is 11 h, and this is increased in the presence of a reduction in renal function. Inhibition of converting enzyme inhibition is associated with reductions in plasma angiotensin II and plasma aldosterone, and with increases in plasma renin activity and plasma angiotensin I. Acute and chronic effects have been reviewed. When given with hydrochlorothiazide, enalapril attenuates the secondary aldosteronism and ameliorates the hypokalaemia from diuretics. Both acutely and chronically in patients with essential hypertension, enalapril reduced blood pressure with a rather flat dose-response curve. No evidence of a triphasic response such as seen with captopril has b",
+            "journal": "British journal of clinical pharmacology",
+            "year": "1984",
+            "authors": [
+              "Davies R O",
+              "Gomez H J",
+              "Irvin J D",
+              "Walker J F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aldosterone",
+              "Angiotensin I",
+              "Angiotensin II",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Bradykinin",
+              "Dipeptides",
+              "Drug Administration Schedule",
+              "Enalapril",
+              "Enalaprilat",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6099737/"
+          },
+          {
+            "pmid": "38261266",
+            "title": "Pharmacogenetic study of CES1 gene and enalapril efficacy.",
+            "abstract": "Enalapril is an orally administered angiotensin-converting enzyme inhibitor which is widely prescribed to treat hypertension, chronic kidney disease, and heart failure. It is an ester prodrug that needs to be activated by carboxylesterase 1 (CES1). CES1 is a hepatic hydrolase that in vivo biotransforms enalapril to its active form enalaprilat in order to produce its desired pharmacological impact. Several single nucleotide polymorphisms in CES1 gene are reported to alter the catalytic activity of CES1 enzyme and influence enalapril metabolism. G143E, L40T, G142E, G147C, Y170D, and R171C can completely block the enalapril metabolism. Some polymorphisms like Q169P, E220G, and D269fs do not completely block the CES1 function; however, they reduce the catalytic activity of CES1 enzyme. The prevalence of these polymorphisms is not the same among all populations which necessitate to consider the genetic panel of respective population before prescribing enalapril. These genetic variations are",
+            "journal": "Journal of applied genetics",
+            "year": "2024",
+            "authors": [
+              "Hussain Misbah",
+              "Basheer Sehrish",
+              "Khalil Adila",
+              "Haider Qurat Ul Ain",
+              "Saeed Hafsa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Enalapril",
+              "Carboxylic Ester Hydrolases",
+              "Polymorphism, Single Nucleotide",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Pharmacogenetics",
+              "Hypertension",
+              "Pharmacogenomic Testing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38261266/"
+          },
+          {
+            "pmid": "20048199",
+            "title": "Blood pressure, blood flow, and oxygenation in the clipped kidney of chronic 2-kidney, 1-clip rats: effects of tempol and Angiotensin blockade.",
+            "abstract": "Angiotensin II maintains renal cortical blood flow and renal oxygenation in the clipped kidney of early 2-kidney, 1-clip Goldblatt hypertensive (2K,1C) rats. The involvement of Ang II is believed to decline, whereas oxidative stress increases during the progression of 2K,1C hypertension. We investigated the hypothesis that the acute administration of drugs to inhibit reactive oxygen species (Tempol), angiotensin II type 1 receptors (candesartan), or angiotensin-converting enzyme (enalaprilat) lowers mean arterial pressure and increases kidney blood flow and oxygenation in the clipped kidney of chronic 2K,1C rats in contrast to sham controls. Twelve months after left renal artery clipping or sham, mean arterial pressure, renal cortical blood flow, and renal cortical and medullary oxygen tension were measured after acute administration of Tempol followed by enalaprilat or candesartan followed by enalaprilat. The mean arterial pressure of the 2K,1C rat was reduced by candesartan (-9%) and",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2010",
+            "authors": [
+              "Palm Fredrik",
+              "Onozato Maristela",
+              "Welch William J",
+              "Wilcox Christopher S"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Cyclic N-Oxides",
+              "Disease Models, Animal",
+              "Enalaprilat",
+              "Glomerular Filtration Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20048199/"
+          },
+          {
+            "pmid": "24342267",
+            "title": "Chronic infusion of enalaprilat into hypothalamic paraventricular nucleus attenuates angiotensin II-induced hypertension and cardiac hypertrophy by restoring neurotransmitters and cytokines.",
+            "abstract": "The renin-angiotensin system (RAS) in the brain is involved in the pathogenesis of hypertension. We hypothesized that inhibition of angiotensin-converting enzyme (ACE) in the hypothalamic paraventricular nucleus (PVN) attenuates angiotensin II (ANG II)-induced hypertension via restoring neurotransmitters and cytokines. Rats underwent subcutaneous infusions of ANG II or saline and bilateral PVN infusions of ACE inhibitor enalaprilat (ENL, 2.5μg/h) or vehicle for 4weeks. ANG II infusion resulted in higher mean arterial pressure and cardiac hypertrophy as indicated by increased whole heart weight/body weight ratio, whole heart weight/tibia length ratio, left ventricular weight/tibia length ratio, and mRNA expressions of cardiac atrial natriuretic peptide and beta-myosin heavy chain. These ANG II-infused rats had higher PVN levels of glutamate, norepinephrine, tyrosine hydroxylase, pro-inflammatory cytokines (PICs) and the chemokine monocyte chemoattractant protein-1, and lower PVN levels ",
+            "journal": "Toxicology and applied pharmacology",
+            "year": "2014",
+            "authors": [
+              "Kang Yu-Ming",
+              "Zhang Dong-Mei",
+              "Yu Xiao-Jing",
+              "Yang Qing",
+              "Qi Jie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II",
+              "Animals",
+              "Cardiomegaly",
+              "Chemokine CCL2",
+              "Enalaprilat",
+              "Glutamic Acid",
+              "Heart",
+              "Hypertension",
+              "Interleukin-10",
+              "Interleukin-1beta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24342267/"
+          },
+          {
+            "pmid": "9620109",
+            "title": "Pharmacologic, pharmacokinetic, and therapeutic differences among ACE inhibitors.",
+            "abstract": "Angiotensin-converting enzyme (ACE) inhibitors are a heterogeneous group of agents, and important pharmacologic, pharmacokinetic, and therapeutic differences among them must be understood to obtain optimal therapy. For patients with severe liver disease, lisinopril and captopril are not prodrugs (e.g., do not require hepatic activation), and lisinopril has almost solely renal elimination. Enalaprilat, the intravenous formulation of enalapril, is the only intravenously available ACE inhibitor and can be given to patients with severe liver dysfunction as it is also not a prodrug. Fosinopril is the only drug with compensatory dual routes of elimination, and it does not require dosage adjustment in patients with reduced renal function, as other ACE inhibitors do. Captopril and moexipril have potential drug-food interactions and are the only agents that should be spaced from meals. The ACE inhibitors also differ in their dialyzability, half-life, lipophilicity, trough:peak ratios, approved ",
+            "journal": "Pharmacotherapy",
+            "year": "1998",
+            "authors": [
+              "White C M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Cardiovascular Diseases",
+              "Endothelium, Vascular",
+              "Humans",
+              "Hypertension",
+              "Kidney Failure, Chronic",
+              "Randomized Controlled Trials as Topic",
+              "Renin-Angiotensin System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9620109/"
+          },
+          {
+            "pmid": "11881130",
+            "title": "High serum enalaprilat in chronic renal failure.",
+            "abstract": "Most angiotensin-converting enzyme (ACE) inhibitors and their metabolites are excreted renally and doses should hence be reduced in renal insufficiency. We studied whether the dosage of enalapril in daily clinical practice is associated with drug accumulation of enalaprilat in chronic renal failure.",
+            "journal": "Journal of the renin-angiotensin-aldosterone system : JRAAS",
+            "year": "2001",
+            "authors": [
+              "Elung-Jensen T",
+              "Heisterberg J",
+              "Kamper A L",
+              "Sonne J",
+              "Strandgaard S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Cross-Sectional Studies",
+              "Enalapril",
+              "Enalaprilat",
+              "Female",
+              "Genotype",
+              "Glomerular Filtration Rate",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11881130/"
+          },
+          {
+            "pmid": "12177688",
+            "title": "Protection of the cardiovascular system by imidapril, a versatile angiotensin-converting enzyme inhibitor.",
+            "abstract": "Imidapril hydrochloride (imidapril) is a long-acting, non-sulfhydryl angiotensin-converting enzyme (ACE) inhibitor, which has been used clinically in the treatment of hypertension, chronic congestive heart failure (CHF), acute myocardial infarction (AMI), and diabetic nephropathy. It has the unique advantage over other ACE inhibitors in causing a lower incidence of dry cough. After oral administration, imidapril is rapidly converted in the liver to its active metabolite imidaprilat. The plasma levels of imidaprilat gradually increase in proportion to the dose, and decline slowly. The time to reach the maximum plasma concentration (T(max)) is 2.0 h for imidapril and 9.3 h for imidaprilat. The elimination half-lives (t(1/2)) of imidapril and imidaprilat is 1.7 and 14.8 h, respectively. Imidapril and its metabolites are excreted chiefly in the urine. As an ACE inhibitor, imidaprilat is as potent as enalaprilat, an active metabolite of enalapril, and about twice as potent as captopril. In ",
+            "journal": "Cardiovascular drug reviews",
+            "year": "2002",
+            "authors": [
+              "Hosoya Kazuyoshi",
+              "Ishimitsu Toshihiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Arrhythmias, Cardiac",
+              "Cardiomegaly",
+              "Cardiovascular Diseases",
+              "Clinical Trials as Topic",
+              "Deglutition Disorders",
+              "Heart Failure",
+              "Humans",
+              "Hypertension",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12177688/"
+          },
+          {
+            "pmid": "2853960",
+            "title": "Pharmacokinetics of lisinopril, enalapril and enalaprilat in renal failure: effects of haemodialysis.",
+            "abstract": "1. Lisinopril and enalapril were administered as 2.5 mg single doses and as eight single daily 2.5 mg doses to separate groups of six patients with chronic renal failure. Patients were receiving regular haemodialysis. 2. In the absence of haemodialysis, the decline in plasma concentrations of lisinopril and enalaprilat was extremely slow and plasma concentrations were generally high. 3. Haemodialysis had large effects on plasma concentrations of lisinopril and enalaprilat. A 4 h period reduced plasma concentrations of both drugs by around one-half and often by significantly more than this. Even 1 or 2 h of haemodialysis had significant effects. 4. Haemodialysis plasma clearance was similar for both drugs with mean values of the order of 40 ml min-1. Clearance did not markedly differ when measured after 1, 2 or 4 h of haemodialysis or after single or multiple doses of lisinopril or enalapril. 5. The design of dosage regimens of both lisinopril and enalapril for patients with severe rena",
+            "journal": "British journal of clinical pharmacology",
+            "year": "1988",
+            "authors": [
+              "Kelly J G",
+              "Doyle G D",
+              "Carmody M",
+              "Glover D R",
+              "Cooper W D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Creatinine",
+              "Enalapril",
+              "Enalaprilat",
+              "Female",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Lisinopril",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2853960/"
+          },
+          {
+            "pmid": "10559645",
+            "title": "Fibrogenic effects of cyclosporin A on the tubulointerstitium: role of cytokines and growth factors.",
+            "abstract": "The clinical utility of cyclosporin A (CyA) as an immunosuppressive agent has been significantly limited by the frequent occurrence of chronic nephrotoxicity, characterised by tubular atrophy, interstitial fibrosis and progressive renal impairment. The pathogenesis of this condition remains poorly understood, but has been postulated to be due to either direct cytotoxicity or indirect injury secondary to chronic renal vasoconstriction. Using primary cultures of human proximal tubule cells (PTCs) and renal cortical fibroblasts (CFs) as an in vitro model of the tubulointerstitium, we have been able to demonstrate that clinically relevant concentrations of CyA are directly toxic to these cells and promote fibrogenesis by a combination of suppressed matrix metalloproteinase activity and augmented fibroblast collagen synthesis. The latter effect occurs secondary to the ability of CyA to stimulate autocrine secretion of insulin-like growth factor-I by CFs and paracrine secretion of transformi",
+            "journal": "Experimental nephrology",
+            "year": "1999",
+            "authors": [
+              "Johnson D W",
+              "Saunders H J",
+              "Johnson F J",
+              "Huq S O",
+              "Field M J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Collagen",
+              "Cyclosporine",
+              "Enzyme Inhibitors",
+              "Fibroblasts",
+              "Fibrosis",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Kidney Cortex",
+              "Kidney Tubules, Proximal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10559645/"
+          },
+          {
+            "pmid": "36012119",
+            "title": "TMAO Suppresses Megalin Expression and Albumin Uptake in Human Proximal Tubular Cells Via PI3K and ERK Signaling.",
+            "abstract": "Trimethylamine-N-oxide (TMAO) is a uremic toxin, which has been associated with chronic kidney disease (CKD). Renal tubular epithelial cells play a central role in the pathophysiology of CKD. Megalin is an albumin-binding surface receptor on tubular epithelial cells, which is indispensable for urine protein reabsorption. To date, no studies have investigated the effect of TMAO on megalin expression and the functional properties of human tubular epithelial cells. The aim of this study was first to identify the functional effect of TMAO on human renal proximal tubular cells and second, to unravel the effects of TMAO on megalin-cubilin receptor expression. We found through global gene expression analysis that TMAO was associated with kidney disease. The microarray analysis also showed that megalin expression was suppressed by TMAO, which was also validated at the gene and protein level. High glucose and TMAO was shown to downregulate megalin expression and albumin uptake similarly. We als",
+            "journal": "International journal of molecular sciences",
+            "year": "2022",
+            "authors": [
+              "Kapetanaki Stefania",
+              "Kumawat Ashok Kumar",
+              "Persson Katarina",
+              "Demirel Isak"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Albumins",
+              "Endocytosis",
+              "Epithelial Cells",
+              "Humans",
+              "Kidney Tubules, Proximal",
+              "Low Density Lipoprotein Receptor-Related Protein-2",
+              "MAP Kinase Signaling System",
+              "Methylamines",
+              "Phosphatidylinositol 3-Kinases",
+              "Renal Insufficiency, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36012119/"
+          },
+          {
+            "pmid": "11082149",
+            "title": "Normal TGF responsiveness during chronic treatment with angiotensin-converting enzyme inhibition: role of AT1 receptors.",
+            "abstract": "Acute inhibition of angiotensin II formation by angiotensin-converting enzyme inhibition (ACE-I) attenuates tubuloglomerular feedback (TGF) responsiveness. This has been proposed to facilitate sodium excretion, which contributes to the antihypertensive effects of ACE-I. However, in previous experiments in spontaneously hypertensive Fawn-hooded rats, TGF responses were normal during chronic ACE-I treatment. In the present study, we investigated TGF responsiveness during chronic ACE-I treatment in normotensive rats and the involvement of changes in nitric oxide or angiotensin II activity. Maximum TGF responses were assessed in control Sprague-Dawley rats and in rats acutely (acute ACE-I, 3 microgram/min IV) and chronically (chronic ACE-I, 100 mg/L PO 2 to 3 weeks+acute 3 microgram/min enalaprilat IV) treated with ACE-I. In all groups, TGF responses were also assessed during late proximal tubular perfusion with 1 mmol/L nitro-L-arginine. In a last group, the chronic ACE-I treatment was co",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2000",
+            "authors": [
+              "Turkstra E",
+              "Braam B",
+              "Koomans H A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Animals",
+              "Disease Models, Animal",
+              "Hypertension",
+              "Kidney Glomerulus",
+              "Kidney Tubules",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11082149/"
+          },
+          {
+            "pmid": "23166630",
+            "title": "Conformational changes of blood ACE in chronic uremia.",
+            "abstract": "The pattern of binding of monoclonal antibodies (mAbs) to 16 epitopes on human angiotensin I-converting enzyme (ACE) comprise a conformational ACE fingerprint and is a sensitive marker of subtle protein conformational changes.",
+            "journal": "PloS one",
+            "year": "2012",
+            "authors": [
+              "Petrov Maxim N",
+              "Shilo Valery Y",
+              "Tarasov Alexandr V",
+              "Schwartz David E",
+              "Garcia Joe G N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Antibodies, Monoclonal",
+              "Biomarkers",
+              "Enalaprilat",
+              "Epitopes",
+              "Humans",
+              "Immunoprecipitation",
+              "Kidney Failure, Chronic",
+              "Models, Molecular",
+              "Peptidyl-Dipeptidase A"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23166630/"
+          },
+          {
+            "pmid": "12580985",
+            "title": "Blood pressure response to conventional and low-dose enalapril in chronic renal failure.",
+            "abstract": "In chronic renal failure, the clearance of most ACE inhibitors including enalapril is reduced. Hence, with conventional dosage, plasma enalaprilat may be markedly elevated. It is unclear whether this excess of drug exposure affords an improved control of blood pressure. The aim of the present study was to evaluate short-term blood pressure response to two different plasma levels of enalaprilat.",
+            "journal": "British journal of clinical pharmacology",
+            "year": "2003",
+            "authors": [
+              "Elung-Jensen Thomas",
+              "Heisterberg Jens",
+              "Kamper Anne-Lise",
+              "Sonne Jesper",
+              "Strandgaard Svend"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Antihypertensive Agents",
+              "Blood Pressure",
+              "Dose-Response Relationship, Drug",
+              "Enalapril",
+              "Female",
+              "Glomerular Filtration Rate",
+              "Hemoglobins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12580985/"
+          },
+          {
+            "pmid": "12845221",
+            "title": "Angiotensin II blockade augments renal cortical microvascular pO2 indicating a novel, potentially renoprotective action.",
+            "abstract": "The existence of tubulointerstitial damage in most cases of progressive human glomerular disease suggests that this compartment of the kidney is likely to be targeted by renoprotective agents which slow the progression of disease. Angiotensin-converting enzyme (ACE) inhibitors have become the cornerstone of renal protection. Since we have proposed that perturbation of the interstitial capillary circulation with consequent chronic hypoxia could be critical to the progressive nature of many renal diseases, we developed a dynamic method of measuring renal cortical pO(2) and sought to determine whether agents which block the renal effects of angiotensin II (AII) could affect interstitial microvascular oxygenation in the normal rat kidney.",
+            "journal": "Nephron. Physiology",
+            "year": "2003",
+            "authors": [
+              "Norman Jill T",
+              "Stidwill Ray",
+              "Singer Mervyn",
+              "Fine Leon G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Angiotensin II",
+              "Angiotensin Receptor Antagonists",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Animals",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Biphenyl Compounds",
+              "Enalaprilat",
+              "Hypertension",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12845221/"
+          },
+          {
+            "pmid": "15761754",
+            "title": "Enalapril dosage in progressive chronic nephropathy: a randomised, controlled trial.",
+            "abstract": "In chronic renal failure, clearance of enalapril is reduced. Hence, a renoprotective effect may be achieved with lower doses than conventionally used. Since marked inter-patient variation in concentrations of enalaprilat has been shown in patients with renal failure despite equivalent dosage of enalapril, a direct comparison of the effect of high versus low plasma concentrations of enalaprilat on the progression of renal failure was undertaken.",
+            "journal": "European journal of clinical pharmacology",
+            "year": "2005",
+            "authors": [
+              "Elung-Jensen Thomas",
+              "Heisterberg Jens",
+              "Sonne Jesper",
+              "Strandgaard Svend",
+              "Kamper Anne-Lise"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Antihypertensive Agents",
+              "Dose-Response Relationship, Drug",
+              "Enalapril",
+              "Enalaprilat",
+              "Female",
+              "Glomerular Filtration Rate",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15761754/"
+          },
+          {
+            "pmid": "1652404",
+            "title": "Comparison of the steady-state pharmacokinetics of fosinopril, lisinopril and enalapril in patients with chronic renal insufficiency.",
+            "abstract": "The phosphinyl ester prodrug fosinopril, a new angiotensin converting enzyme (ACE) inhibitor, is fully hydrolysed after oral administration to the pharmacologically active diacid, fosinoprilat. This metabolite is cleared by both hepatic and renal routes, while most other ACE inhibitors are cleared exclusively by the kidney. In the present study, after administration of multiple fixed oral doses the accumulation of the active moieties of fosinopril, enalapril and lisinopril was compared in patients with renal insufficiency. 29 patients with creatinine clearances (CLCR) less than 30 ml/min received either fosinopril 10mg (n = 9), enalapril 2.5mg (n = 10) or lisinopril 5mg (n = 10) once daily for 10 days in a nonblind (open-label) parallel study. Pharmacokinetic parameters including area under the serum concentration-time curve (AUC), peak serum concentration (Cmax) and time to peak concentration (tmax), as well as renal function, blood pressure, and plasma renin activity (PRA) and aldost",
+            "journal": "Clinical pharmacokinetics",
+            "year": "1991",
+            "authors": [
+              "Sica D A",
+              "Cutler R E",
+              "Parmer R J",
+              "Ford N F"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Enalapril",
+              "Female",
+              "Fosinopril",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Lisinopril",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1652404/"
+          },
+          {
+            "pmid": "26147389",
+            "title": "The utility of renal venous renin studies in selection of patients with renal artery stenosis for angioplasty: a retrospective study.",
+            "abstract": "Recent studies of renal artery stenosis (RAS) failed to demonstrate greater benefit from angioplasty in terms of blood pressure (BP) lowering than medical treatment. Not all RAS are haemodynamically significant and identification of patients likely to benefit from angioplasty remains essential.",
+            "journal": "Journal of hypertension",
+            "year": "2015",
+            "authors": [
+              "Goupil Rémi",
+              "Cowley Diane",
+              "Wolley Martin",
+              "Ahmed Ashraf H",
+              "Gordon Richard D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Angioplasty",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Captopril",
+              "Enalaprilat",
+              "Female",
+              "Humans",
+              "Kidney",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26147389/"
+          },
+          {
+            "pmid": "11124597",
+            "title": "Enalaprilat directly ameliorates in vitro cyclosporin nephrotoxicity in human tubulo-interstitial cells.",
+            "abstract": "Several recent studies have suggested that angiotensin-converting enzyme (ACE) inhibitors ameliorate chronic cyclosporin A (CyA) tubulo-interstitial disease by mechanisms independent of their antihypertensive effects. The aim of the present study was to determine whether ACE inhibition exerts a direct beneficial effect on the tubulo-interstitium in an in vitro model of chronic CyA nephropathy.",
+            "journal": "Nephron",
+            "year": "2000",
+            "authors": [
+              "Johnson D W",
+              "Saunders H J",
+              "Vesey D A",
+              "Qi W",
+              "Field M J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiotensin II",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Cell Division",
+              "Cell Survival",
+              "Cells, Cultured",
+              "Collagen",
+              "Culture Media, Conditioned",
+              "Cyclosporine",
+              "Cytokines",
+              "Enalaprilat"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11124597/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+        "txgnn_score": 0.9079416990280152,
+        "txgnn_rank": 33967,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "txgnn_score": 0.9079416990280152,
+        "txgnn_rank": 33968,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover, controlled hypoxia exposure may represent a treatment strategy for age-related neurological disorders. This review discusses evidence of hypoxia's beneficial vs. detrimental impacts on the aging brain and the molecular mechanisms that mediate these divergent effects. It draws upon an extensive literature search on the effects of hypoxia/altitude on brain aging, and detailed analysis of all identified studies directly comparing brain responses to hypoxia in young vs. aged humans or rodents. Spe",
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Aging",
+              "Brain",
+              "Hypoxia",
+              "Neuroprotection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33862277/"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiology, clinical medicine, and sports technology. Here, we explore the foundations of this nascent field and outline a path to determine how chronic continuous hypoxia can be safely, effectively, and practically delivered to patients.",
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39841808/"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity by modulating immune cell proliferation, development and effector function, largely via transcriptional changes driven by hypoxia-inducible factor (HIF). By contrast, in pathological immunological niches, such as tumours and chronically inflamed, infected or ischaemic tissues, pathological hypoxia can drive tissue dysfunction and disease development through immune cell dysregulation. Here, we differentiate between the effects of physiological and pathological hypoxia on immune cells and the cons",
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cellular Microenvironment",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Immune System",
+              "Immunity",
+              "Immunity, Innate",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28972206/"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcription factor of the cellular response to hypoxia. Further, acRIP-sequencing, Ribosome profiling sequencing, RNA-sequencing, and functional studies confirm that NAT10 in turn activates the HIF-1 pathway and subsequent glucose metabolism reprogramming by mediating SEPT9 mRNA ac4C modification. The formation of the NAT10/SEPT9/HIF-1α positive feedback loop leads to excessive activation of the HIF-1 pathway and induces glycolysis addiction. Combined anti-angiogenesis and ac4C inhibition attenuate hyp",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stomach Neoplasms",
+              "Feedback",
+              "Glycolysis",
+              "RNA, Messenger",
+              "Hypoxia",
+              "N-Terminal Acetyltransferases",
+              "Cytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37328448/"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute and chronic hypoxia. Hypoxia can impair several cognitive domains such as attention, learning and memory, procession speed and executive function, which are similar in acute and chronic hypoxia. The severity of cognitive deficit correlates with the duration and degree of hypoxia. Recovery can be achieved after acute hypoxia, while sequelae or even dementia can be observed after chronic hypoxia, perhaps due to the different molecular mechanisms. Cardiopulmonary compensatory response, glycolysis,",
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Cognitive Dysfunction",
+              "Hippocampus",
+              "Humans",
+              "Hypoxia",
+              "Neurofibrillary Tangles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34618295/"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with the goal of providing mechanistic insight and novel therapeutic targets. In this article we review both the normal biological effects of hypoxia as well as the alterations that occur in specific disease conditions with an emphasis on the cell signaling and gene transcription mechanisms that underlie the changes associated with chronic hypoxia. Comparisons of studies in the fields of cardiac ischemia and tumor angiogenesis reveal the complexities within the microenvironment that control response",
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gene Expression Regulation",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Myocardial Ischemia",
+              "Neoplasm Metastasis",
+              "Neoplasms",
+              "Neovascularization, Pathologic",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21328446/"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypoxia evokes a temporary delay of ingrowth of cholinergic and serotonergic fibres into the hippocampus and neocortex, and causes an enhanced neurodegeneration of 5-HT-ir axons during aging. Neonatal anoxia suppresses hippocampal ChAT activity and up-regulates muscarinic receptor sites for 3H-QNB and 3H-pirenzepine binding in the hippocampus in the early postnatal age. The altered development of axonal arborization and pre- and postsynaptic cholinergic functions may be an important underlying mecha",
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Behavior",
+              "Brain",
+              "Humans",
+              "Hypoxia",
+              "Neurotransmitter Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8817697/"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and DUBs are regulated by hypoxia. While hypoxia is a powerful HIF regulator, less is known about hypoxia-regulated DUBs and their impact on HIFs. Here, we review current knowledge about the relationship of E3s, DUBs, and hypoxia signaling. We also discuss the reciprocal regulation of DUBs by hypoxia and use of DUB-specific drugs in cancer.",
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Deubiquitinating Enzymes",
+              "Homeostasis",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Neoplasms",
+              "Oxygen",
+              "Protein Transport",
+              "Proteolysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31706510/"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dissemination. Consequently, substantial effort has been made to detect hypoxia in human tumours and identify realistic approaches to overcome hypoxia and improve cancer therapy outcomes. Hypoxia-targeting strategies include improving oxygen availability, sensitising hypoxic cells to radiation, preferentially killing these cells, locating the hypoxic regions in tumours and increasing the radiation dose to those areas, or applying high energy transfer radiation, which is less affected by hypoxia. De",
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Hypoxia",
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34535359/"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the setting of adequate oxygen exchange from the lungs to the blood are discussed. An algorithm is proposed for diagnosing patients who present with hypoxia.",
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Algorithms",
+              "Cell Hypoxia",
+              "Child, Preschool",
+              "Decision Trees",
+              "Diagnosis, Differential",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11172576/"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related events, possibly by exacerbating tissue hypoxia in the central nervous system. Accordingly, increasing oxygen supply can mitigate pathological and clinical parameters in MS models. In contrast, stimulating the endogenous hypoxia response and adaptation systems by controlled exposure to hypoxia (hypoxia conditioning) renders the central nervous system more resistant to hypoxic insults, thereby attenuating pathology and symptomatology in MS models. Overlapping mechanisms likely play a role in the ",
+            "journal": "Redox biology",
+            "year": "2025",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Multiple Sclerosis",
+              "Humans",
+              "Hypoxia",
+              "Animals",
+              "Oxygen",
+              "Central Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40347693/"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who live at sea level. However, hypobaric hypoxia is present and oxygenation is lower than at sea level, and it is still unknown what other changes may be caused by hypobaric hypoxia at this altitude.",
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "pub_types": [
+              "Editorial",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Altitude",
+              "Hypoxia",
+              "Altitude Sickness",
+              "Acclimatization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40815459/"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "abstract": "",
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "authors": [
+              "Ferrer S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adenosine Monophosphate",
+              "Adenosine Triphosphate",
+              "Animals",
+              "Brain",
+              "Brain Edema",
+              "Humans",
+              "Hypercapnia",
+              "Hypoxia, Brain",
+              "Ischemic Attack, Transient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4585366/"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy, release of extracellular vesicles, and generation of pre-metastatic niches. Hypoxia also affects bone cells, such as osteoblasts and osteoclasts, and immune cells, which also act to support the development and progression of bone metastases. Paradoxically, hypoxia and related signaling molecules are recognized as high-priority therapeutic targets and many candidate drugs are currently under preclinical and clinical investigation. The present review focuses on our current knowledge of the potent",
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Neoplasms",
+              "Bone and Bones",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Signal Transduction",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30423905/"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Findings Epidemiological studies suggest that living in high-altitude areas increases the risk of migraine and especially migraine with aura. Human provocation models show that hypoxia provokes migraine with and without aura, whereas cluster headache has not been reliably induced by hypoxia. Possible pathophysiological mechanisms include hypoxia-induced release of nitric oxide and calcitonin gene-related peptide, cortical spreading depression and leakage of the blood-brain barrier. Conclusion There ",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cluster Headache",
+              "Humans",
+              "Hypoxia",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27146279/"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator, reports also indicate that hypoxia governs the activity of CMGC kinases, including DYRK1 kinases. Prolyl hydroxylation of DYRK1 kinases by PHD1 constitutes a novel mechanism of kinase maturation and activation. This modification \"primes\" DYRK1 kinases for subsequent tyrosine autophosphorylation, a vital step in their activation cascade. This mechanism adds a layer of intricacy to comprehending the regulation of CMGC kinases, and underscores the complex interplay between distinct post-translati",
+            "journal": "BMB reports",
+            "year": "2023",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia",
+              "Neoplasms",
+              "Phosphorylation",
+              "Cell Hypoxia",
+              "Protein Processing, Post-Translational",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37915135/"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic subunit of the RNA exosome, in an HIF-independent manner. EXOSC10 is a multifunctional exoribonuclease enriched in the nucleolus that mediates the processing and degradation of various RNA species. We demonstrate that the ubiquitin-specific protease 36 (USP36) SUMOylates EXOSC10 and we reveal SUMO1/sentrin-specific peptidase 3 (SENP3) as the enzyme-mediating deSUMOylation of EXOSC10. Under hypoxia, EXOSC10 dissociates from USP36 and translocates from the nucleolus to the nucleoplasm concomitant wit",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Transcriptome",
+              "Exosomes",
+              "Hypoxia",
+              "Transcriptional Activation",
+              "Oxygen",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Sumoylation",
+              "Exoribonucleases",
+              "Exosome Multienzyme Ribonuclease Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38279024/"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "abstract": "",
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Acclimatization",
+              "Altitude",
+              "Animals",
+              "Humans",
+              "Hypoxia",
+              "Hypoxia-Inducible Factor 1",
+              "Oxygen",
+              "Signal Transduction",
+              "Translational Research, Biomedical"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24557798/"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of the HIF-1 pathway are beneficial and promote the repair process, producing tissue that might not perfectly reform its original architecture but that has its function substantially restored. However, in some cases of chronic injury, chronic hypoxia and pathological repair, the hypoxia pathway might be responsible for driving the process of fibrosis and can lead to excessive scarring and compromised organ function.",
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease",
+              "Fibrosis",
+              "Humans",
+              "Hypoxia",
+              "Organ Specificity",
+              "Oxygen",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27423661/"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we outline the links between cancer and autoimmunity regarding hypoxia-induced factors, such as HIF-1α, and describe the role of hypoxia in the modulation of the autoimmune response.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Neoplasms",
+              "Autoimmune Diseases",
+              "Autoimmunity",
+              "Animals",
+              "Tumor Microenvironment",
+              "T-Lymphocytes, Helper-Inducer",
+              "Hypoxia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40963621/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant renovascular hypertension",
+        "txgnn_score": 0.907500982284546,
+        "txgnn_rank": 34019,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "24401674",
+            "title": "Reninoma: the importance of renal vein renin ratios for lateralisation and diagnosis.",
+            "abstract": "Reninomas are rare juxtaglomerular tumours which can cause severe hypertension and hypokalaemia. Diagnosis can be problematic and these tumours can be difficult to locate on imaging. In this report we aim to demonstrate the value of carefully performed renal vein renin ratios (RVRRs) to assist in locating these tumours.",
+            "journal": "American journal of nephrology",
+            "year": "2014",
+            "authors": [
+              "Wolley Martin",
+              "Gordon Richard D",
+              "Stowasser Michael"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aldosterone",
+              "Antihypertensive Agents",
+              "Captopril",
+              "Enalaprilat",
+              "Female",
+              "Humans",
+              "Hypertension",
+              "Hypokalemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24401674/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09477",
+    "name": "Enalaprilat",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Enalaprilat"
+      },
+      "queried_at": "2026-03-10T05:42:14.154449",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Enalaprilat"
+      },
+      "queried_at": "2026-03-10T05:42:16.786457",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T05:42:17.424357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T05:42:20.762824",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T05:42:21.841901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:42:22.422678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:42:25.997385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:42:26.681166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:42:27.973739",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:42:32.127651",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:42:34.823186",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T05:42:35.411545",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T05:42:38.815975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T05:42:39.549691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:42:40.565119",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:42:43.776933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T05:42:47.064840",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T05:42:47.635175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T05:42:50.980827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T05:42:51.677675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "chronic kidney disease"
+      },
+      "queried_at": "2026-03-10T05:42:52.712922",
+      "status": "success",
+      "result_count": 25,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "chronic kidney disease"
+      },
+      "queried_at": "2026-03-10T05:42:56.682551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "chronic kidney disease"
+      },
+      "queried_at": "2026-03-10T05:42:58.633965",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T05:42:59.168972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T05:43:02.344033",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "queried_at": "2026-03-10T05:43:03.063021",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T05:43:03.583217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T05:43:08.943415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "queried_at": "2026-03-10T05:43:13.616979",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T05:43:14.131315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T05:43:17.374920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enalaprilat",
+        "disease": "malignant renovascular hypertension"
+      },
+      "queried_at": "2026-03-10T05:43:20.345622",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:43:20.360063"
+  }
+}

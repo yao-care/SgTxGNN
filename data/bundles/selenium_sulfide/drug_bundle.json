@@ -1,0 +1,550 @@
+{
+  "drug": {
+    "inn": "Selenium Sulfide",
+    "drugbank_id": "DB00971",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "vulvar inverted follicular keratosis",
+        "txgnn_score": 0.8951590657234192,
+        "txgnn_rank": 35267,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cutaneous candidiasis",
+        "txgnn_score": 0.8385915160179138,
+        "txgnn_rank": 39931,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "3459338",
+            "title": "Current treatment of cutaneous Pityrosporum and Candida-infections.",
+            "abstract": "Pityrosporum and Candida-yeasts are opportunistic pathogens and infections require predisposing factors. These factors are also of major importance in treatment and the reason for recurrence and sometimes chronicity of the disease caused by these yeasts. Pityrosporum orbiculare and P.ovale are both lipophilic, probably identical, and both are members of the normal human cutaneous flora. In pityriasis versicolor they change from the blastospore form to the mycelial form. My favourite treatment for pityriasis versicolor is propylene glycol 50% in water applied with a gauze pad twice daily for 2 weeks. This will clear 95-100%. Other treatment modalities are: zinc pyrithione shampoo, selenium sulfide shampoo and the imidazoles. For extensive cases, patients who frequently relapse, and infections refractary to other treatments ketoconazole orally may be an effective alternative both therapeutically and prophylactically. In another disease caused by these yeasts, Pityrosporum folliculitis, b",
+            "journal": "Acta dermato-venereologica. Supplementum",
+            "year": "1986",
+            "authors": [
+              "Faergemann J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Candidiasis, Cutaneous",
+              "Chronic Disease",
+              "Diabetes Complications",
+              "Humans",
+              "Imidazoles",
+              "Immunologic Deficiency Syndromes",
+              "Ketoconazole",
+              "Organometallic Compounds",
+              "Propylene Glycol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3459338/"
+          },
+          {
+            "pmid": "7501581",
+            "title": "Superficial fungal infections. Getting rid of lesions that don't want to go away.",
+            "abstract": "Systematic analysis of possible dermatophyte and candidal skin infections leads to an accurate diagnosis and prompt treatment with a specific regimen. The first steps are thorough skin examination and evaluation with a potassium hydroxide preparation. Tinea corporis, tinea cruris, tinea pedis, cutaneous candidiasis, and tinea versicolor can be treated with many topical antifungal agents, whereas tinea capitis requires oral griseofulvin therapy. Frequently used topical medications for tinea and candidal infections include clotrimazole (Lotrimin, Mycelex), econazole nitrate (Spectazole), ketoconazole (Nizoral), miconazole nitrate (Monistat-Derm, Micatin), oxiconazole nitrate (Oxistat), and ciclopirox olamine (Loprox). Topical selenium sulfide lotion can also be used for tinea versicolor, which is often a recalcitrant problem.",
+            "journal": "Postgraduate medicine",
+            "year": "1995",
+            "authors": [
+              "Kovacs S O",
+              "Hruza L L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Humans",
+              "Tinea Capitis",
+              "Tinea Pedis",
+              "Tinea Versicolor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7501581/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.7987364530563354,
+        "txgnn_rank": 41894,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.7963183522224426,
+        "txgnn_rank": 41996,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.7870317101478577,
+        "txgnn_rank": 42402,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.7738482356071472,
+        "txgnn_rank": 42958,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.7710098624229431,
+        "txgnn_rank": 43070,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.7495181560516357,
+        "txgnn_rank": 43819,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lichen planus, familial",
+        "txgnn_score": 0.6935272812843323,
+        "txgnn_rank": 45533,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.654946506023407,
+        "txgnn_rank": 46545,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00971",
+    "name": "Selenium Sulfide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Selenium Sulfide"
+      },
+      "queried_at": "2026-03-10T09:50:12.207307",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Selenium Sulfide"
+      },
+      "queried_at": "2026-03-10T09:50:13.876398",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T09:50:15.024035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T09:50:18.179192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T09:50:19.028166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-10T09:50:19.840702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-10T09:50:22.746882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-10T09:50:25.083831",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:50:26.034655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:50:31.144172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:50:31.882500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T09:50:33.382621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T09:50:39.332579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T09:50:40.581516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:41.403043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:45.299789",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:46.226228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T09:50:46.744153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T09:50:50.463342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T09:50:51.627602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:52.492392",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:56.086478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:50:57.026035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T09:50:58.001687",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T09:51:01.600027",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T09:51:02.758768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "lichen planus, familial"
+      },
+      "queried_at": "2026-03-10T09:51:03.527578",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "lichen planus, familial"
+      },
+      "queried_at": "2026-03-10T09:51:07.586263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "lichen planus, familial"
+      },
+      "queried_at": "2026-03-10T09:51:09.230273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T09:51:10.078619",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T09:51:13.743664",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selenium Sulfide",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T09:51:14.682162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:51:14.684531"
+  }
+}

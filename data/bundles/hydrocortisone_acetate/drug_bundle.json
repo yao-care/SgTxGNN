@@ -1,0 +1,572 @@
+{
+  "drug": {
+    "inn": "Hydrocortisone acetate",
+    "drugbank_id": "DB14539",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "alopecia areata",
+        "txgnn_score": 0.9994038343429564,
+        "txgnn_rank": 1305,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01453686",
+            "title": "A Randomized Controlled Trial of Clobetasol Propionate 0.05% Cream Versus Hydrocortisone 1% Cream in Children With Alopecia Areata",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2002-08",
+            "completion_date": "2003-08",
+            "country": "Canada",
+            "enrollment": 41,
+            "brief_summary": "The use of topical steroids in the treatment of alopecia areata in children is common practice. However, no particular potency of steroid is accepted as the standard treatment due to the paucity of high quality evidence in the dermatology literature to substantiate their use. Two randomized controlled trials exist assessing topical steroid efficacy in this disorder, both have methodological limitations. The question remains as to which topical steroid is safe and efficacious for use. We performe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 2 to 16 years\n* New patients presenting to The Hospital for Sick Children\n* Clinical confirmation of alopecia areata\n* Hair loss between 10 -75%\n\nExclusion Criteria:\n\n* Skin or medical problems requiring use of oral steroids\n* Immunosuppressants or PUVA for 4 weeks prior t",
+            "endpoints": [
+              "Change in scalp surface area affected over time"
+            ],
+            "sponsor": "The Hospital for Sick Children",
+            "url": "https://clinicaltrials.gov/study/NCT01453686"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "4755919",
+            "title": "[Treatment of severe forms of alopecia areata by means of intralesional subcutaneous injections of hydrocortisone acetate suspension].",
+            "abstract": "",
+            "journal": "Przeglad dermatologiczny",
+            "year": "1973",
+            "authors": [
+              "Machońko T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Alopecia Areata",
+              "Child",
+              "Drug Evaluation",
+              "Female",
+              "Humans",
+              "Hydrocortisone",
+              "Injections, Subcutaneous",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4755919/"
+          },
+          {
+            "pmid": "153470",
+            "title": "[Advances in topical therapy of skin diseases (author's transl)].",
+            "abstract": "The anti-inflammatory effect of the new topical corticosteroid fluocortin butyl ester is approximately equal to that of hydrocortisone acetate but it has the advantage that systemic side-effects are lacking. Vitamin A acid and benzoyl peroxide have brought significant advances in the topical treatment of acne. For the treatment of chloasma and other hyperpigmentations the combination of vitamin A acid and hydroquinone with a corticoid is considerably more effective than any of the single components alone. Povidone-iodine with its extraordinarily low sensitization rate has proved useful for external antimicrobial treatment. Extensive or multiple precancerous lesions are effectively treated with 5-fluorouracil. New hair growth can be induced in alopecia areata by the local application of DNCB.",
+            "journal": "MMW, Munchener medizinische Wochenschrift",
+            "year": "1979",
+            "authors": [
+              "Happle R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Administration, Topical",
+              "Alopecia",
+              "Benzoyl Peroxide",
+              "Dinitrochlorobenzene",
+              "Fluocortolone",
+              "Fluorouracil",
+              "Humans",
+              "Hydroquinones",
+              "Pigmentation Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/153470/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "telogen effluvium",
+        "txgnn_score": 0.9993701577186584,
+        "txgnn_rank": 1354,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia mucinosa",
+        "txgnn_score": 0.99936443567276,
+        "txgnn_rank": 1369,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Quinquaud's folliculitis decalvans",
+        "txgnn_score": 0.9993425011634828,
+        "txgnn_rank": 1418,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+        "txgnn_score": 0.9992790818214417,
+        "txgnn_rank": 1537,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia antibody deficiency",
+        "txgnn_score": 0.9992708563804626,
+        "txgnn_rank": 1549,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+        "txgnn_score": 0.9992144107818604,
+        "txgnn_rank": 1621,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrichia with papular lesions",
+        "txgnn_score": 0.9973969459533693,
+        "txgnn_rank": 4138,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic keratosis",
+        "txgnn_score": 0.9936315417289734,
+        "txgnn_rank": 7705,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic steroid-sensitive nephrotic syndrome",
+        "txgnn_score": 0.9930920600891112,
+        "txgnn_rank": 8161,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14539",
+    "name": "Hydrocortisone acetate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Hydrocortisone acetate"
+      },
+      "queried_at": "2026-03-09T14:48:26.966143",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Hydrocortisone acetate"
+      },
+      "queried_at": "2026-03-09T14:48:38.204562",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia areata"
+      },
+      "queried_at": "2026-03-09T14:48:39.936837",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia areata"
+      },
+      "queried_at": "2026-03-09T14:48:46.390934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia areata"
+      },
+      "queried_at": "2026-03-09T14:48:51.712096",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "telogen effluvium"
+      },
+      "queried_at": "2026-03-09T14:48:52.862630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "telogen effluvium"
+      },
+      "queried_at": "2026-03-09T14:48:57.348055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "telogen effluvium"
+      },
+      "queried_at": "2026-03-09T14:48:58.306634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia mucinosa"
+      },
+      "queried_at": "2026-03-09T14:48:59.048046",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia mucinosa"
+      },
+      "queried_at": "2026-03-09T14:49:03.736826",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia mucinosa"
+      },
+      "queried_at": "2026-03-09T14:49:06.418962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "queried_at": "2026-03-09T14:49:07.008071",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "queried_at": "2026-03-09T14:49:10.875302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "queried_at": "2026-03-09T14:49:12.290353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "queried_at": "2026-03-09T14:49:13.467354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "queried_at": "2026-03-09T14:49:18.311343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "queried_at": "2026-03-09T14:49:19.387438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia antibody deficiency"
+      },
+      "queried_at": "2026-03-09T14:49:20.258465",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia antibody deficiency"
+      },
+      "queried_at": "2026-03-09T14:49:24.278836",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia antibody deficiency"
+      },
+      "queried_at": "2026-03-09T14:49:25.012066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "queried_at": "2026-03-09T14:49:26.567805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "queried_at": "2026-03-09T14:49:30.943069",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "queried_at": "2026-03-09T14:49:31.830373",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "atrichia with papular lesions"
+      },
+      "queried_at": "2026-03-09T14:49:32.695305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "atrichia with papular lesions"
+      },
+      "queried_at": "2026-03-09T14:49:37.046173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "atrichia with papular lesions"
+      },
+      "queried_at": "2026-03-09T14:49:38.150235",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-09T14:49:39.169058",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-09T14:49:46.532230",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-09T14:49:47.196662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "queried_at": "2026-03-09T14:49:49.618408",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "queried_at": "2026-03-09T14:49:54.642846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "queried_at": "2026-03-09T14:49:56.042427",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T14:49:56.049090"
+  }
+}

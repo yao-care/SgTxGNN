@@ -1,0 +1,2989 @@
+{
+  "drug": {
+    "inn": "Vitamin E",
+    "drugbank_id": "DB00163",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "inborn disorder of bilirubin metabolism",
+        "txgnn_score": 0.9998793601989746,
+        "txgnn_rank": 396,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06465810",
+            "title": "A Non-interventional, Prospective, Multi-country Study Collecting Real-world Data on the Characteristics, Treatment Patterns, and Outcomes of Patients With Transthyretin (ATTR) Amyloidosis",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-06-25",
+            "completion_date": "2031-12-29",
+            "country": "Spain, United Kingdom, Canada, Germany, United States, China, Japan",
+            "enrollment": 1850,
+            "brief_summary": "The MaesTTRo study aims to enroll a global cohort of patients with transthyretin (ATTR) amyloidosis to longitudinally observe the natural course of the disease and describe real-world treatment patterns and outcomes. In addition, information on the effectiveness of ATTR amyloidosis treatments, including eplontersen, which is a ligand-conjugated antisense oligonucleotide gene silencing treatment targeting activity against both the mutant and wild-type TTR protein, will be collected.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient willing and able to provide written informed consent to participate in the study\n* Confirmed diagnosis of amyloid transthyretin (ATTR) amyloidosis\n* Aged ≥18 years at the time of signing the informed consent\n* Patient willing and able to participate in collection of el",
+            "endpoints": [
+              "Demographic characteristics (overall and in patients initiating a treatment with eplontersen)",
+              "Treatment patterns (overall and in patients initiating a treatment with eplontersen)",
+              "Clinical characteristics (overall and in patients initiating a treatment with eplontersen)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT06465810"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03115086",
+            "title": "A Prospective, Observational, Non-Interventional, Post-Marketing, Patient Registry to Collect Data on Routine Clinical Care in Patients Treated With Cholbam® (Cholic Acid)",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-07-10",
+            "completion_date": "2039-07",
+            "country": "United States",
+            "enrollment": 55,
+            "brief_summary": "This is a prospective, observational, non-interventional patient registry study designed to document product safety and effectiveness outcomes for 10 years in patients treated with Cholbam, including those who have been using Cholbam for at least 30 days (existing users) and those who are first-time initiators of Cholbam.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female patients, of any age.\n2. The patient and/or the patient's parent/legal guardian is willing and able to provide signed informed consent, and the patient, if less than 18 years of age, is willing to provide assent as appropriate and in accordance with local regu",
+            "endpoints": [
+              "Number of participants with worsening cholestasis",
+              "Number of participants with new-onset cholestasis",
+              "Number of participants with steatorrhea leading to poor growth"
+            ],
+            "sponsor": "Mirum Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03115086"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01556906",
+            "title": "A Phase II Open Label, Dose-Escalation Study to Determine the Safety, Tolerability and Efficacy of Microsomal Triglyceride Transfer Protein (MTP) Inhibitor BMS-201038 in Patients With Homozygous Familial Hypercholeterolemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-06",
+            "completion_date": "2004-02",
+            "country": "United States",
+            "enrollment": 6,
+            "brief_summary": "The primary objective of this study is to evaluate the safety and tolerability of 4 doses of lomitapide (AEGR-733; BMS-201038) given as an initial low dose and then escalated through an additional 3 dose levels over a 16-week period.\n\nThe secondary objectives of this study included the evaluation of the pharmacodynamics of lomitapide based on:\n\n* Percent change in low-density lipoprotein cholesterol (LDL-C), total cholesterol (TC), triglycerides, and very low density lipoprotein cholesterol (VLD",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males and females ≥13 years of age\n2. Clinical diagnosis of HoFH AND one of the following (a, b, or c):\n\n   * Documented functional mutation in both LDL receptor alleles, OR\n   * Skin fibroblast LDL receptor activity \\<20% of normal, OR\n   * TC \\>500 mg/dL AND triglycerides \\",
+            "endpoints": [
+              "LDL-C"
+            ],
+            "sponsor": "Aegerion Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01556906"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "803225",
+            "title": "Neonatal nonhemolytic jaundice.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "1975",
+            "authors": [
+              "Johnson J D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bile Acids and Salts",
+              "Bile Ducts",
+              "Biliary Tract Diseases",
+              "Bilirubin",
+              "Brain Damage, Chronic",
+              "Breast Feeding",
+              "Cholestyramine Resin",
+              "Chronic Disease",
+              "Diagnosis, Differential",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/803225/"
+          },
+          {
+            "pmid": "7915305",
+            "title": "A new cause of progressive intrahepatic cholestasis: 3 beta-hydroxy-C27-steroid dehydrogenase/isomerase deficiency.",
+            "abstract": "There have been a few reports of infants with severe neonatal cholestasis related to a defect in primary bile acid synthesis. To assess the importance of such deficiency among children with progressive intrahepatic cholestasis (Byler disease), screening for inborn errors in bile acid synthesis was performed by fast atom bombardment ionization-mass spectrometry of urine samples from 30 affected children. Bile acid analysis revealed a specific fast atom bombardment ionization-mass spectrometry profile for 3 beta-hydroxy-C27 steroid dehydrogenase/isomerase deficiency in five children who had jaundice, hepatosplenomegaly, and fatty stools beginning at ages ranging from 4 to 46 months. None of them had pruritus. Liver function tests showed persistently normal serum gamma-glutamyltransferase activity, low serum cholesterol and vitamin E levels, normal serum bile acid concentrations despite raised serum bilirubin levels, and decreased prothrombin time and clotting factor V. In four of the cas",
+            "journal": "The Journal of pediatrics",
+            "year": "1994",
+            "authors": [
+              "Jacquemin E",
+              "Setchell K D",
+              "O'Connell N C",
+              "Estrada A",
+              "Maggiore G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alanine Transaminase",
+              "Bile Acids and Salts",
+              "Bilirubin",
+              "Child",
+              "Child, Preschool",
+              "Cholestasis, Intrahepatic",
+              "Cholesterol",
+              "Follow-Up Studies",
+              "Hepatitis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7915305/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bilirubin metabolism disease",
+        "txgnn_score": 0.9998617172241212,
+        "txgnn_rank": 475,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06465810",
+            "title": "A Non-interventional, Prospective, Multi-country Study Collecting Real-world Data on the Characteristics, Treatment Patterns, and Outcomes of Patients With Transthyretin (ATTR) Amyloidosis",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-06-25",
+            "completion_date": "2031-12-29",
+            "country": "Spain, United Kingdom, Canada, Germany, United States, China, Japan",
+            "enrollment": 1850,
+            "brief_summary": "The MaesTTRo study aims to enroll a global cohort of patients with transthyretin (ATTR) amyloidosis to longitudinally observe the natural course of the disease and describe real-world treatment patterns and outcomes. In addition, information on the effectiveness of ATTR amyloidosis treatments, including eplontersen, which is a ligand-conjugated antisense oligonucleotide gene silencing treatment targeting activity against both the mutant and wild-type TTR protein, will be collected.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient willing and able to provide written informed consent to participate in the study\n* Confirmed diagnosis of amyloid transthyretin (ATTR) amyloidosis\n* Aged ≥18 years at the time of signing the informed consent\n* Patient willing and able to participate in collection of el",
+            "endpoints": [
+              "Demographic characteristics (overall and in patients initiating a treatment with eplontersen)",
+              "Treatment patterns (overall and in patients initiating a treatment with eplontersen)",
+              "Clinical characteristics (overall and in patients initiating a treatment with eplontersen)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT06465810"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02009748",
+            "title": "Vitamin D Supplementation in Cirrhotic Patients: A Randomized, Multi-center, Double-blind, Placebo Controlled Trial to Evaluate Vitamin D Supplementation on Serum 25-hydroxyvitamin D Levels in Cirrhotic Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-12",
+            "completion_date": "2015-06",
+            "country": "Austria",
+            "enrollment": 36,
+            "brief_summary": "Previous studies suggested that vitamin D deficiency is highly prevalent in cirrhotic patients and is related to the degree of liver dysfunction as well as mortality. In gastrointestinal disorders, vitamin D absorption can be highly reduced.\n\nWe herein aim to investigate the efficacy of oral vitamin D supplementation in cirrhotic patients with vitamin D insufficiency.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 25(OH)D levels below 30 ng/ml (measured at the baseline visit)\n* Compensated and decompensated cirrhosis diagnosed by the hepatologist for at last three months prior to study start\n* Age between 18 and 75 years\n* Written informed consent\n* Negative pregnancy test in women of c",
+            "endpoints": [
+              "serum 25(OH)D"
+            ],
+            "sponsor": "Medical University of Graz",
+            "url": "https://clinicaltrials.gov/study/NCT02009748"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05750602",
+            "title": "Effect of the Food Supplement LIMICOL on LDL Cholesterol and Muscle Function in Subjects Who Undergo a Program of Physical Training (Double-blind, Randomized, Placebo-controlled Study).",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2018-09",
+            "country": "France",
+            "enrollment": 40,
+            "brief_summary": "Cardiovascular disease (CVD), foremost among which ischemic heart disease and stroke, are the leading cause of mortality and morbidity in France. These diseases are multifactorial origin and even if it is not possible to act on risk markers such as age, sex, or heredity, risk factors like high cholesterol, smoking , hypertension, obesity, diabetes and physical inactivity, are the main target of prevention strategies. Dydlipidemias have a role in the formation of CVD in participating in the genes",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* BMI between 25 and 35 kg/m²\n* Subject has a stable weight for at least three months before the start of the study.\n* LDL ≥ 1.50 g/L\n* 0.9 g/L ≤ triglycerides ≤ 4.00 g/L\n* Subject able and willing to comply with the protocol and agreeing to give his informed consent in writing;",
+            "endpoints": [
+              "LDL-cholesterol levels (g/l) at the end of study"
+            ],
+            "sponsor": "Lescuyer Laboratory",
+            "url": "https://clinicaltrials.gov/study/NCT05750602"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07191704",
+            "title": "Characterization of Progressive Familial Intrahepatic Cholestasis (PFIC)-Related Genes in Adult Patients With Idiopathic Recurrent and Chronic Cholestasis in Spain - REGENIC",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-12-08",
+            "completion_date": "2026-07-31",
+            "country": "Spain",
+            "enrollment": 150,
+            "brief_summary": "Progressive Familial Intrahepatic Cholestasis (PFIC) is a group of inherited conditions that affect how bile moves in the liver, which can lead to serious liver problems. Doctors usually recommend genetic testing for patients with unexplained bile issues-after ruling out more common causes-to better understand the problem. However, there isn't much information on how common these genetic changes are in adults with these liver issues, especially in Spain. This study will observe these genetic cha",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients (≥18 years old) with written informed consent prior to data collection and study procedures.\n* Unexplained recurrent and/or chronic cholestasis (idiopathic cholestasis), defined as alkaline phosphatase (ALP) or Gamma-Glutamyl Transferase (GGT) \\> Upper Limit of ",
+            "endpoints": [
+              "Percentage of Participants with at least One Variant in PFIC-Related Genes"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT07191704"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05686954",
+            "title": "Nutritional Effects of Different Doses of Cottonseed Oil in Humans",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-03-01",
+            "completion_date": "2027-05",
+            "country": "United States",
+            "enrollment": 80,
+            "brief_summary": "Adding cottonseed oil to the diet has been shown to improve cholesterol profiles and other markers of chronic disease risk in both healthy and at-risk adults. However, CSO has only been tested in the context of high-fat diets. The goal of this clinical trial is to learn about the health effects of lower amounts of cottonseed oil (CSO) added to the diet in adults at increased risk for cardiovascular disease.\n\nThe main questions it aims to answer are:\n\n* How do different amounts of CSO in the diet",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 25-75-year-old men and women at increased risk for cardiovascular disease. Increased risk for cardiovascular disease will be defined by either elevated cholesterol profiles -or- overweight/obesity.\n* Elevated cholesterol profiles will be defined as:\n* \"Borderline High\" and/or ",
+            "endpoints": [
+              "Change in fasting serum lipoprotein and cholesterol concentrations",
+              "Change in fasting serum lipoprotein particle numbers",
+              "Change in fasting and postprandial plasma triglyceride concentrations"
+            ],
+            "sponsor": "University of Georgia",
+            "url": "https://clinicaltrials.gov/study/NCT05686954"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00265148",
+            "title": "Effects of Avandia on Cognition and Cerebral Glucose Utilisation in Subjects With Mild to Moderate Alzheimer's Disease (AD).",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-05-18",
+            "completion_date": "2008-07-10",
+            "country": "Canada, United States, United Kingdom",
+            "enrollment": 80,
+            "brief_summary": "This is a placebo-controlled study evaluating the effects of rosiglitazone on functional brain activity and cognition in patients with mild to moderate Alzheimer's Disease (AD).",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Is male, or if female meets one or more of the following criteria:\n* Post-menopausal females defined as menopause is defined as\\>6months without menstrual period with an appropriate clinical profile, e.g. age appropriate, history of vasomotor symptoms. However if indicated thi",
+            "endpoints": [
+              "Change From Baseline (Day 1) in Global and Regional Indices of Cerebral Metabolic Rate of Glucose (CMRglu) at Month 12"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00265148"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07246408",
+            "title": "Intermittent Cottonseed Oil Consumption on Cardiovascular Disease Risk Reduction",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2026-01-16",
+            "completion_date": "2029-05",
+            "country": "United States",
+            "enrollment": 75,
+            "brief_summary": "Cardiovascular disease risk factors, including higher BMIs and poor cholesterol profiles, are on the rise and contribute to the United States' growing disease burden. Cottonseed oil (CSO) is found readily in the food supply, and the investigator's previous studies have demonstrated that incorporating CSO into the diet is sufficient to improve fasting and postprandial blood lipids and other markers of chronic disease risk in both healthy and at-risk populations. This study aims to examine the imp",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 25-75 year-old men and women at increased risk for cardiovascular disease. Increased risk for cardiovascular disease will be defined by either elevated cholesterol profiles -or- overweight/obesity.\n* Elevated cholesterol profiles will be defined as:\n* \"Borderline High\" and/or ",
+            "endpoints": [
+              "Change in fasting serum lipoprotein and cholesterol concentrations",
+              "Change in fasting and postprandial plasma triglyceride concentrations",
+              "Change in fasting and postprandial plasma non-esterified fatty acid (NEFA) concentrations"
+            ],
+            "sponsor": "University of Georgia",
+            "url": "https://clinicaltrials.gov/study/NCT07246408"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06457412",
+            "title": "Programme for Intervention in Paediatric Obesity",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2022-03-01",
+            "completion_date": "2032-03-01",
+            "country": "Spain",
+            "enrollment": 200,
+            "brief_summary": "The PinPo program aims to carry out a comprehensive intervention for children aged 6 to 12 years with childhood obesity (with a BMI greater than the 99th percentile), fostering motivation and encouraging changes toward healthy lifestyle habits to achieve greater adherence and improved health. The program comprises 9 educational sessions designed by specialized professionals from various disciplines (pediatrics, psychology, nursing, nutrition), for a group of 10 children and another group of 10 f",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Children between 6 and 12 years old, with a BMI greater than the 99th percentile according to Cole criteria (2004).\n\nExclusion Criteria:\n\n* Children \\< 6, or \\> 12 years.\n* Children with chronic diseases or following a therapeutic diet.\n* Children with intervention in other ce",
+            "endpoints": [
+              "Dietary intake",
+              "Diet composition"
+            ],
+            "sponsor": "Maimónides Biomedical Research Institute of Córdoba",
+            "url": "https://clinicaltrials.gov/study/NCT06457412"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04915014",
+            "title": "Prospective Multicentric Randomized Trial Comparing the Efficacy and Safety of Sleeve Gastrectomy With Transit Bipartition (SG+TB) Versus Roux-en-Y Gastric Bypass (RYGB)",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-07-23",
+            "completion_date": "2026-07",
+            "country": "France",
+            "enrollment": 320,
+            "brief_summary": "Obesity is a major public health problem worldwide. Bariatric surgery has proved to be the most effective treatment of morbid obesity in terms of weight reduction and remission of co-morbid conditions during long-term follow-up. Sleeve Gastrectomy (SG) has become the most performed intervention either worldwide or in France, where SG represents more than 60% of bariatric interventions and 114,817 patients operated between 2013 and 2016.\n\nMaximum Excess weight loss (%EWL) after SG is obtained at ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient who has benefited from a pluridisciplinary evaluation, with a favorable opinion for SG+TB or RYGB as a first intention procedure with BMI ≥40 kg/m2 or BMI ≥ 35 kg/m2 associated with one co-morbidity which will be improved by surgery (according to HAS 2009 recommendatio",
+            "endpoints": [
+              "The Excess Weight Loss percentage (EWL%)"
+            ],
+            "sponsor": "University Hospital, Lille",
+            "url": "https://clinicaltrials.gov/study/NCT04915014"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02443155",
+            "title": "A Randomised, Double-blind, Double-dummy, Placebo-controlled, Parallel-group Multi-centre Clinical Proof-of-principle Trial in Adult Subjects With Newly Diagnosed Type 1 Diabetes Mellitus Investigating the Effect of NNC0114-0006 and Liraglutide on Preservation of Beta-cell Function",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-11-10",
+            "completion_date": "2019-02-27",
+            "country": "Spain, United Kingdom, Canada, Belgium, Austria, Israel, Italy, Denmark, United States, Finland, Portugal, Russia, Ukraine, Sweden, Poland, Ireland, Serbia, Norway",
+            "enrollment": 308,
+            "brief_summary": "This trial is conducted globally. The aim of this trial is to assess the clinical proof-of-principle of NNC0114-0006 and liraglutide on preservation of beta-cell function in adult subjects with newly diagnosed type 1 diabetes mellitus.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any trial-related activities. Trial-related activities are any procedures that are carried out as part of the trial, including activities to determine suitability for the trial\n* T1DM (type 1 diabetes mellitus) (as diagnosed clinically) for not",
+            "endpoints": [
+              "Area Under the Concentration-time Curve (AUC) 0-4h of Mixed Meal Tolerance Test (MMTT) Stimulated C-peptide at Week 54 Relative to Baseline"
+            ],
+            "sponsor": "Novo Nordisk A/S",
+            "url": "https://clinicaltrials.gov/study/NCT02443155"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03121911",
+            "title": "Effects of Interval Physical Training on Inflammatory Markers, Cardiac Autonomic Modulation at Rest, Expiratory Flow Limitation and Respiratory Efficiency in Recent Myocardial Infarction",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2019-07-04",
+            "completion_date": "2022-10-31",
+            "country": "Brazil",
+            "enrollment": 0,
+            "brief_summary": "Introduction: Expiratory flow limitation (EFL) and ventilatory inefficiency during dynamic exercise have been identified in patients with recent myocardial infarction (RMI) with preserved ventricular and pulmonary function. However, it is not known what is the prevalence of EFL in this population and what are the effects of physical and respiratory training on this limitation.\n\nObjectives: To evaluate the prevalence of EFL and ventilatory inefficiency during dynamic exercise in individuals with ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men\n* Aged 35 to 80 years\n* Recent myocardial infarction (RMI), between 15 and 45 days post-event, being the 1st MI event\n* Left ventricular ejection fraction (LVEF) ≥ 50%\n* Preserved respiratory muscle strength (Maximal Inspiratory Pressure \\> 60% predicted)\n* Whether or not ",
+            "endpoints": [
+              "Change on Expiratory Flow Limitation (EFL)"
+            ],
+            "sponsor": "Federal University of Uberlandia",
+            "url": "https://clinicaltrials.gov/study/NCT03121911"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05798494",
+            "title": "PRE-Pregnancy Weight Loss And the Reducing Effect on CHILDhood Overweight - Aarhus",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-06-01",
+            "completion_date": "2028-04-11",
+            "country": "Denmark",
+            "enrollment": 140,
+            "brief_summary": "The study is a single site parallel randomized controlled study. The study will be assessing the effect of a 10% pre-conceptional weight loss intervention vs a control group among healthy couples where the prospective mother is pregnant and overweight or obese (BMI 27-44.9 kg/m\\^2). The couples in intervention group will receive dietitian counseling and participate in physical activity sessions to attain the 10% weight loss. The overall objective is to test whether a comprehensive pre-conception",
+            "eligibility_criteria": "Maternal inclusion Criteria:\n\n* Maternal pre-pregnancy BMI 27.0-44.9 kg/m\\^2\n* Maternal age range 18-38 years\n* Connected to Aarhus University Hospital as place of birth\n* Pregnant\n\nPaternal Inclusion Criteria:\n\n* Paternal pre-pregnancy BMI 18.5-44.9 kg/m\\^2\n* Paternal age range 18-55 years\n\nParenta",
+            "endpoints": [
+              "Neonatal fat mass",
+              "Difference in epigenetic changes in child 1 and 2"
+            ],
+            "sponsor": "University of Aarhus",
+            "url": "https://clinicaltrials.gov/study/NCT05798494"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05174663",
+            "title": "A Randomized, Comparator-controlled Parallel Study to Investigate the Dose Response of an Almond-enriched Diet on Optimizing HDL-C in a Population With Hypercholesterolemia",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-01-10",
+            "completion_date": "2023-11-18",
+            "country": "Canada",
+            "enrollment": 75,
+            "brief_summary": "This study will determine the quantity of almonds (1.5 oz or 2.5 oz) consumed as a snack that will provide optimal increases in HDL-C levels.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males and Females between 30-65 years of age, inclusive\n2. BMI between 25.0 - 34.9 kg/m2, inclusive\n3. Individual is not of child-bearing potential, defined as those who have undergone a sterilization procedure (e.g. hysterectomy, bilateral oophorectomy, bilateral tubal ligat",
+            "endpoints": [
+              "Change from baseline to week 16 in HDL-C levels between the Almond-enriched Diet Dose 1, Almond-Enriched Diet Dose 2, and Nut-Free Diet"
+            ],
+            "sponsor": "Almond Board of California",
+            "url": "https://clinicaltrials.gov/study/NCT05174663"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03864744",
+            "title": "Hepatic Histology and Metabolism Following Total Pancreatectomy and",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2019-01-30",
+            "completion_date": "2022-08-30",
+            "country": "Denmark",
+            "enrollment": 33,
+            "brief_summary": "The objective of the study is to investigate the development of NAFLD following total pancreatectomy and pancreaticoduodenectomy and to explore the histological and metabolic changes following the procedures.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject scheduled for total pancreatectomy or pancreaticoduodenectomy\n* Informed consent signed prior to any study-related procedure\n\nExclusion Criteria:\n\n* Known liver disease before total pancreatectomy or pancreaticoduodenectomy (excluding NAFLD)\n* Severe co-morbid disease ",
+            "endpoints": [
+              "Change in hepatic lipid content (steatosis) after total pancreatektomy or pancreaticoduodenectomy"
+            ],
+            "sponsor": "Steno Diabetes Center Copenhagen",
+            "url": "https://clinicaltrials.gov/study/NCT03864744"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05729659",
+            "title": "The Effect of Sideritis Scardica (SidTea+) Extract Supplementation on Health and Oxidative Stress Biomarkers in Healthy Individuals",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-02-15",
+            "completion_date": "2023-10-01",
+            "country": "Greece",
+            "enrollment": 30,
+            "brief_summary": "The aim of the present clinical study is to estimate the efficacy of a Sideritis Scardica extract (SidTea+), derived from the Greek mountain Taygetos, in regulating antioxidant and health biomarkers in healthy adults.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy Individuals aged 18-65 years\n\nExclusion Criteria:\n\n* Musculoskeletal injury\n* Dietary supplements\n* Medication",
+            "endpoints": [
+              "Change in glutathione concentration",
+              "Change in catalase activity",
+              "Change in total antioxidant capacity"
+            ],
+            "sponsor": "University of Thessaly",
+            "url": "https://clinicaltrials.gov/study/NCT05729659"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03115086",
+            "title": "A Prospective, Observational, Non-Interventional, Post-Marketing, Patient Registry to Collect Data on Routine Clinical Care in Patients Treated With Cholbam® (Cholic Acid)",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-07-10",
+            "completion_date": "2039-07",
+            "country": "United States",
+            "enrollment": 55,
+            "brief_summary": "This is a prospective, observational, non-interventional patient registry study designed to document product safety and effectiveness outcomes for 10 years in patients treated with Cholbam, including those who have been using Cholbam for at least 30 days (existing users) and those who are first-time initiators of Cholbam.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female patients, of any age.\n2. The patient and/or the patient's parent/legal guardian is willing and able to provide signed informed consent, and the patient, if less than 18 years of age, is willing to provide assent as appropriate and in accordance with local regu",
+            "endpoints": [
+              "Number of participants with worsening cholestasis",
+              "Number of participants with new-onset cholestasis",
+              "Number of participants with steatorrhea leading to poor growth"
+            ],
+            "sponsor": "Mirum Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03115086"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06317883",
+            "title": "Longitudinal Study To Determine The Risk Factors Associated With Childhood Obesity",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-05-27",
+            "completion_date": "2032-07-14",
+            "country": "Spain",
+            "enrollment": 1508,
+            "brief_summary": "Childhood obesity is a major public health problem worldwide. Europe has a high prevalence of obesity, which is accentuated in Mediterranean countries. Spain has a high prevalence of both overweight (percentage: 21.5 in boys and 22.2 in girls) and obesity (percentage: 10.6 in boys and 11.8 in girls) in children aged 6-9 years.\n\nFrom childhood, obesity is associated with an increased risk of diseases such as insulin resistance, type 2 diabetes, hypertension, metabolic syndrome, musculoskeletal pr",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Children aged 3 to 6 years.\n* Compliance with the 3-day food consumption record, the free time physical activity questionnaire and attendance at the scheduled inclusion visit together with the delivery of the signed informed consent.\n\nExclusion Criteria:\n\n* Children from famil",
+            "endpoints": [
+              "Assessment of dietary intake and habits",
+              "Assessment of physical activity, sedentary behavior and sleep pattern",
+              "Early risk factors"
+            ],
+            "sponsor": "Consorcio Centro de Investigación Biomédica en Red (CIBER)",
+            "url": "https://clinicaltrials.gov/study/NCT06317883"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02011789",
+            "title": "A Pilot Study To Determine The Metabolism And Health Effects Of Citrus Limonoids in Hypercholesterolemic Human Subjects",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2007-04",
+            "completion_date": "2010-07",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "Limonoids are compounds found in citrus juices, seeds and peel. Some research shows that they reduce blood cholesterol and also reduce the incidence of several forms of cancer. Although these compounds are part of the natural human diet, the dose required to provide health benefits and the risks associated with the intake of high doses by humans have not been studied. This study will examine metabolism, safety, lipid-lowering and anti-inflammatory effects of limonoids. The dose of limonoids in t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Hypercholesterolemic, total blood cholesterol 200-300 mg/dL\n* BMI 20-35 kg/m2\n* normal Complete Blood Count\n* normal serum transaminases, alkaline phosphatase, and creatinine\n* normal thyroid function\n* LDL cholesterol \\> 130 mg/dL\n* Triglyceride \\< 300 mg/dL\n* serum C-Reactiv",
+            "endpoints": [
+              "Change in plasma lipids"
+            ],
+            "sponsor": "USDA, Western Human Nutrition Research Center",
+            "url": "https://clinicaltrials.gov/study/NCT02011789"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01556906",
+            "title": "A Phase II Open Label, Dose-Escalation Study to Determine the Safety, Tolerability and Efficacy of Microsomal Triglyceride Transfer Protein (MTP) Inhibitor BMS-201038 in Patients With Homozygous Familial Hypercholeterolemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-06",
+            "completion_date": "2004-02",
+            "country": "United States",
+            "enrollment": 6,
+            "brief_summary": "The primary objective of this study is to evaluate the safety and tolerability of 4 doses of lomitapide (AEGR-733; BMS-201038) given as an initial low dose and then escalated through an additional 3 dose levels over a 16-week period.\n\nThe secondary objectives of this study included the evaluation of the pharmacodynamics of lomitapide based on:\n\n* Percent change in low-density lipoprotein cholesterol (LDL-C), total cholesterol (TC), triglycerides, and very low density lipoprotein cholesterol (VLD",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males and females ≥13 years of age\n2. Clinical diagnosis of HoFH AND one of the following (a, b, or c):\n\n   * Documented functional mutation in both LDL receptor alleles, OR\n   * Skin fibroblast LDL receptor activity \\<20% of normal, OR\n   * TC \\>500 mg/dL AND triglycerides \\",
+            "endpoints": [
+              "LDL-C"
+            ],
+            "sponsor": "Aegerion Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01556906"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03693287",
+            "title": "Personalized Versus Standardized Parenteral Nutrition for Preterm Infants With a Birth Weight Greater Than 1250 Grams: a Multicenter Randomized Phase IV Clinical Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2021-07-04",
+            "completion_date": "2024-10-31",
+            "country": "Italy, Spain",
+            "enrollment": 150,
+            "brief_summary": "Preterm infants (gestational age between 189 and 258 days) with a birth weight (BW) greater than 1250 grams will be randomized to personalized-parenteral nutrition (P-PN) or standardized-parenteral nutrition (S-PN). The aim of the study is to evaluate the effect of S-PN versus P-PN on growth of preterm infants with BW\\>1250 grams.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Birth weight greater than 1250 grams,\n* Gestational age between 189 and 258 days,\n* In need of parenteral nutrition (PN),\n* Signed informed consent by at least one parent or legal guardian.\n\nExclusion Criteria:\n\n* Genetic, metabolic, or endocrine disorders diagnosed before/aft",
+            "endpoints": [
+              "WEIGHT CHANGE"
+            ],
+            "sponsor": "Ospedali Riuniti Ancona",
+            "url": "https://clinicaltrials.gov/study/NCT03693287"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07140445",
+            "title": "Monitoring Neurocognitive Dysfunction and the Impact of Metabolism and Physical Capacity After Paediatric Haematopoietic Stem Cell Transplantation (Abbreviation: MindMe)",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-09-01",
+            "completion_date": "2027-03-01",
+            "country": "Denmark",
+            "enrollment": 175,
+            "brief_summary": "Today the overall survival of childhood cancers has increased to above 85%. This increase is partially caused by treatment with bone marrow transplantation. A bone marrow transplantation is an efficient treatment against high-risk leukemia, as well as other life-threatening immunological and hematological diseases. However, it is unfortunately also related to the risk of developing a long series of late effects during early adulthood, such as reduced muscle mass, cardiovascular disease and diabe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* =/\\> 7 years of age\n* treatment with HSCT in Denmark since 2010\n* treatment with HSCT was before the age of 18 years\n* ability to speak and understand Danish.\n\nExclusion Criteria:\n\n* diagnosed with infantile autism before their HSCT\n* Downs Syndrome",
+            "endpoints": [
+              "Intelligence quotient",
+              "verbal reasoning",
+              "verbal learning"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT07140445"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04977661",
+            "title": "A Randomized Study to Compare the Efficacy of Vitamin E, Ursodeoxycholic Acid and Pentoxyfylline on Egyptian Patients With Non-alcoholic Fatty Liver Disease Using (IL6 and CCL2) as a Predictors of Non-alcoholic Steatohepatitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-02-01",
+            "completion_date": "2021-01-10",
+            "country": "Egypt",
+            "enrollment": 102,
+            "brief_summary": "We conducted a 3-month, randomized, single-blind study in 102 Egyptian NASH patients who were divided into three groups; group 1 included 34 patients received Vit. E 400 mg twice a day, group 2 included 34 patients received UDCA 250 mg twice a day and group 3 included 34 patients received PTX 400 mg twice daily for 3 months. The following parameters were measured both before and after intervention intake; liver aminotransferases (AST, ALT), cytokine and chemokine (IL6 and CCL2/MPC-1), albumin, t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients were enrolled in the study\n\n  1. if they are \\> 18 years old\n  2. had evidence for NASH; persistently elevated alanine aminotransferase (ALT) \\>1.5 times the upper limit of normal)\n  3. imaging (ultrasound) showing fatty infiltration, and histological evidence of NASH",
+            "endpoints": [
+              "Resolution of NASH"
+            ],
+            "sponsor": "Kafrelsheikh University",
+            "url": "https://clinicaltrials.gov/study/NCT04977661"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02062034",
+            "title": "Efficacy of Ubiquinone and Combined Antioxidant Therapy on Progression, Oxidative Stress Markers and Mitochondrial Dysfunction in Non-proliferative Diabetic Retinopathy: A Phase 2a Randomized Double-blind Placebo-controlled Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-02",
+            "completion_date": "2014-01",
+            "country": "Mexico",
+            "enrollment": 61,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of ubiquinone and combined antioxidant therapy on progression, clinical regression, oxidative stress markers and mitochondrial dysfunction in non-proliferative diabetic retinopathy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes mellitus\n* Patients with non proliferative diabetic retinopathy\n* Glycated hemoglobin \\< 12.0%\n* Signing of informed consent\n\nExclusion Criteria:\n\n* Patients with clinically significant macular edema\n* Patients with diabetic retinopathy advanced l",
+            "endpoints": [
+              "Oxidative Stress markers"
+            ],
+            "sponsor": "University of Guadalajara",
+            "url": "https://clinicaltrials.gov/study/NCT02062034"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06382298",
+            "title": "Health Effects of Cottonseed Oil Versus Matched Composition Diets in Humans",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-08-31",
+            "completion_date": "2028-05",
+            "country": "United States",
+            "enrollment": 90,
+            "brief_summary": "Cardiovascular disease risk factors, including higher BMIs and poor cholesterol profiles, are on the rise and contribute to the United States' growing disease burden. Cottonseed oil (CSO) is found readily in the food supply, and the investigator's previous studies have demonstrated that incorporating CSO into the diet is sufficient to improve fasting cholesterol profile and improve postprandial lipid and/or glycemic responses in both healthy, and at-risk populations. This study aims to compare C",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 25-75 year-old men and women at increased risk for cardiovascular disease. Increased risk for cardiovascular disease will be defined by either elevated cholesterol profiles -or- overweight/obesity.\n* Elevated cholesterol profiles will be defined as:\n\n-\"Borderline High\" and/or ",
+            "endpoints": [
+              "Change in fasting serum lipoprotein and cholesterol concentrations",
+              "Change in fasting and postprandial plasma triglyceride concentrations",
+              "Change in fasting and postprandial plasma non-esterified fatty acid (NEFA) concentrations"
+            ],
+            "sponsor": "University of Georgia",
+            "url": "https://clinicaltrials.gov/study/NCT06382298"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04475276",
+            "title": "Effect of Alpha Lipoic Acid on Non-alcoholic Fatty Liver Diseases: A Randomized Placebo-controlled Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-02-23",
+            "completion_date": "2024-01-01",
+            "country": "India",
+            "enrollment": 120,
+            "brief_summary": "In developed counties Non-alcoholic fatty liver disease (NAFLD) becomes the most common cause of chronic liver disease , but its prevalence in developing countries like India is also increasing (10 -20%).Till date, there is no US-FDA approved therapy for NAFLD but drugs like metformin, pioglitazone, sitagliptin, vildagliptin Vitamin E, silymarin, statins and ezetimibe have been studied along with life style modification. Life style modifications is the current modality of treatment of NAFLD. All",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients diagnosed to have fatty liver grading 1, 2, 3 on abdominal ultrasound, mild to moderate elevation (\\<5 times elevated upper limit) of serum aminotransferase level.\n* Patients aged 18-65 years of either sex.\n* Treatment naïve patients or patients who had not taken ",
+            "endpoints": [
+              "Abdominal ultrasound"
+            ],
+            "sponsor": "All India Institute of Medical Sciences, Bhubaneswar",
+            "url": "https://clinicaltrials.gov/study/NCT04475276"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06815978",
+            "title": "Validation of ESPEN-EASO Algorithm for the Diagnosis of Sarcopenic Obesity (SO)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2024-05-24",
+            "completion_date": "2027-03-01",
+            "country": "Italy",
+            "enrollment": 150,
+            "brief_summary": "The proposed research project aims to investigate sarcopenic obesity (SO), a condition characterized by the combination of high body fat and low skeletal muscle mass, with a focus on muscle function. SO has been defined according to the ESPEN-EASO algorithm, and this study aims to evaluate its validity, exploring associations with circulating biomarkers and functional outcomes. By enrolling 75 subjects with SO and a control sample of 75 subjects with non-sarcopenic obesity, the primary objective",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* BMI equal more than 30\n* Caucasians\n\nExclusion Criteria:\n\n* any disease or medication that can significantly affect body composition (eg.malignant diseases in the last 5 years, autoimmune diseases, neurological diseases, syndromic obesity),\n* level of physical activity more th",
+            "endpoints": [
+              "Association between diagnostic criteria for Sarcopenic Obesity and hemochrome in Odd Ratios as assessed by Multivariate analysis",
+              "Association between diagnostic criteria for Sarcopenic Obesity and ferritin in Odd Ratios as assessed by Multivariate analysis",
+              "Association between diagnostic criteria for Sarcopenic Obesity and transferrin in Odd Ratios as assessed by Multivariate analysis"
+            ],
+            "sponsor": "University of Roma La Sapienza",
+            "url": "https://clinicaltrials.gov/study/NCT06815978"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05949879",
+            "title": "Dose Response Effects of Pecan Consumption",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-08-01",
+            "completion_date": "2026-08-01",
+            "country": "United States",
+            "enrollment": 80,
+            "brief_summary": "The bioactive compounds contained in tree nuts have been shown to beneficially affect cardiometabolic health outcomes. Pecans contain more total phenols, sterols, and flavonoids than any other tree nut. They also are a rich source of polyunsaturated fatty acids (PUFAs), fiber, vitamin A, vitamin E, folic acid, calcium, magnesium, phosphorus, potassium, and zinc. These bioactive components in pecans are likely the reason for the previously documented improvements in cardiometabolic health.\n\nThe s",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 30 to 75-year-old men and women at increased risk of cardiovascular disease. Increased risk of cardiovascular disease will be defined by either elevated cholesterol profiles or overweight/obesity.\n* Elevated cholesterol profiles will be defined as: \"Borderline High\" and/or \"at",
+            "endpoints": [
+              "Change in fasting serum lipoprotein and cholesterol concentrations",
+              "Change in fasting serum lipoprotein particle numbers",
+              "Change in fasting and postprandial plasma triglyceride concentrations"
+            ],
+            "sponsor": "University of Georgia",
+            "url": "https://clinicaltrials.gov/study/NCT05949879"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40886428",
+            "title": "Dietary vitamin E intake is associated with lower mortality among individuals with metabolic dysfunction-associated steatotic liver disease.",
+            "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) has become a prominent global health issue within the realm of chronic liver diseases. Dietary interventions are of utmost importance in its management. This research, grounded in data from the National Health and Nutrition Examination Survey (NHANES) spanning 1999-2018 and the National Death Index (NDI), was designed to clarify the association between dietary vitamin E intake and mortality among MASLD patients. Our hypothesis proposed that higher dietary vitamin E intake might be inversely associated with a lower risk of mortality in this population. A total of 7883 MASLD patients were enrolled. Their dietary vitamin E intake was accurately measured via the USDA's standardized method, and numerous confounding factors were comprehensively taken into account. The findings indicated that a higher dietary vitamin E intake was significantly linked to a decreased risk of both all-cause and cardiovascular disease (CVD) mortalit",
+            "journal": "Nutrition research (New York, N.Y.)",
+            "year": "2025",
+            "authors": [
+              "Peng Yajie",
+              "Wu Wanhong",
+              "Chen Lin",
+              "Xu Chao",
+              "Xiong Xuelian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vitamin E",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Nutrition Surveys",
+              "Diet",
+              "Aged",
+              "Cardiovascular Diseases",
+              "Fatty Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40886428/"
+          },
+          {
+            "pmid": "481976",
+            "title": "Vitamin E and neonatal bilirubinemia.",
+            "abstract": "A study was designed to determine the effect of vitamin E on bilirubinemia in the preterm infant. Twenty infants with birth weight between 1,000 and 1,500 gm and 20 infants with birth weights between 1,501 and 2,000 gm were studied. Half the infants in each birth weight group received vitamin E administered intramuscularly in a total dose of 50 mg/kg during days 1 to 3 of life; the remaining infants served as controls. The administration of vitamin E produced significantly increased plasma tocopherol concentrations and normal hydrogen peroxide hemolysis tests by the end of the first week of life. Infants with birthweights less than or equal to 1500 gm who received vitamin E demonstrated a significant decrease in serum bilirubin on day 3 of life (6.5 +/- 2.2 vs 8.8 +/- 2.2 mg/dl) as well as a significant decrease in peak serum bilirubin during the first week of life (8.3 +/- 2.2 vs 10.6 +/- 2.6 mg/dl). The duration of phototherapy also was significantly less in the vitamin E-supplemente",
+            "journal": "Pediatrics",
+            "year": "1979",
+            "authors": [
+              "Gross S J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Bilirubin",
+              "Birth Weight",
+              "Hemolysis",
+              "Humans",
+              "Hydrogen Peroxide",
+              "Infant Nutritional Physiological Phenomena",
+              "Infant, Newborn",
+              "Infant, Premature, Diseases",
+              "Injections, Intramuscular",
+              "Jaundice, Neonatal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/481976/"
+          },
+          {
+            "pmid": "25596209",
+            "title": "Vitamin E in New-Generation Lipid Emulsions Protects Against Parenteral Nutrition-Associated Liver Disease in Parenteral Nutrition-Fed Preterm Pigs.",
+            "abstract": "Parenteral nutrition (PN) in preterm infants leads to PN-associated liver disease (PNALD). PNALD has been linked to serum accumulation of phytosterols that are abundant in plant oil but absent in fish oil emulsions.",
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "year": "2016",
+            "authors": [
+              "Ng Kenneth",
+              "Stoll Barbara",
+              "Chacko Shaji",
+              "Saenz de Pipaon Miguel",
+              "Lauridsen Charlotte"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Newborn",
+              "Biomarkers",
+              "Fat Emulsions, Intravenous",
+              "Fish Oils",
+              "Gestational Age",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25596209/"
+          },
+          {
+            "pmid": "3036938",
+            "title": "Vitamin E deficiency and its clinical significance in adults with primary biliary cirrhosis and other forms of chronic liver disease.",
+            "abstract": "The vitamin E status of 146 adults with chronic liver disease was assessed by estimating both their serum vitamin E concentration and the ratio of serum vitamin E to serum cholesterol concentration. Low levels of vitamin E occurred most frequently in patients with primary biliary cirrhosis and other forms of chronic cholestatic liver disease. When a serum vitamin E concentration of 12.3 mumol/l (mean-2 SD of a control population) was taken as the lower limit of normal, 44% of patients with primary biliary cirrhosis and 32% with other chronic cholestatic liver disease had a reduced concentration, indicating a biochemical deficiency of vitamin E. If a vitamin E/total cholesterol ratio of 2.35 mumol/mmol was taken as the lower limit of normal, then 64% and 43% of patients with primary biliary cirrhosis and other chronic cholestatic liver disease, respectively, had a biochemical deficiency of vitamin E. Of the patients with chronic cholestasis and a serum bilirubin concentration greater th",
+            "journal": "Journal of hepatology",
+            "year": "1987",
+            "authors": [
+              "Jeffrey G P",
+              "Muller D P",
+              "Burroughs A K",
+              "Matthews S",
+              "Kemp C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cholestasis",
+              "Cholesterol",
+              "Chronic Disease",
+              "Humans",
+              "Liver Cirrhosis, Biliary",
+              "Peripheral Nervous System Diseases",
+              "Vitamin E",
+              "Vitamin E Deficiency"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3036938/"
+          },
+          {
+            "pmid": "8201221",
+            "title": "Low vitamin E content in plasma of patients with alcoholic liver disease, hemochromatosis and Wilson's disease.",
+            "abstract": "The RRR-alpha-tocopherol (vitamin E) content in plasma from 46 patients with liver diseases and 23 healthy controls was determined by high performance liquid chromatography and electrochemical detection. Patients were divided into three groups: alcoholic liver diseases (n = 17; group A), hemochromatosis (n = 17; group B) and Wilson's disease (n = 12; group C). Lipid-standardized alpha-tocopherol levels were determined to neutralize differences due to hyperlipemia. The ratio of serum vitamin E to serum lipids (cholesterol, triglycerides, phospholipids) was highest in healthy controls and in patients in group A with cirrhosis and normal transaminases and bilirubin. Patients in group A with acute or chronic ethanol intoxication and high bilirubin levels had a 37% lower lipid-standardized vitamin E level than controls. Patients in group B with hemochromatosis, showing high serum iron (> 180 micrograms/dl), a low free iron binding capacity (< 8 mumol/l) and high ferritin-levels (< 450 micro",
+            "journal": "Journal of hepatology",
+            "year": "1994",
+            "authors": [
+              "von Herbay A",
+              "de Groot H",
+              "Hegi U",
+              "Stremmel W",
+              "Strohmeyer G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Chromatography, High Pressure Liquid",
+              "Free Radicals",
+              "Hemochromatosis",
+              "Hepatolenticular Degeneration",
+              "Humans",
+              "Lipids",
+              "Liver Diseases, Alcoholic",
+              "Middle Aged",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8201221/"
+          },
+          {
+            "pmid": "28602070",
+            "title": "A prognostic evaluation and management of alcoholic hepatitis.",
+            "abstract": "Alcoholic hepatitis (AH) is an acute and severe form of alco1holic liver disease associated with high morbidity and mortality of 30-50% worldwide, severity ranging from asymptomatic derangement of liver biochemistries to fulminant liver failure or death. Rapidly progressing jaundice and coagulopathy in prolonged excessive alcohol abusers with or without fever, malnutrition, and tender liver are the clinical hallmarks. The prognostic models (Model for end-stage liver disease, Maddrey's discriminant function [MDF], age, serum bilirubin, INR, creatinine [ABIC], Glasgow Alcoholic Hepatitis Score [GAHS], Lille's Score) not only predict the short term mortality, but also guide the clinicians to choose appropriate specific therapy (corticosteroid or pentoxifylline) and as a stopping rule if there is no significant benefits of it. MDF Score is commonly followed in clinical practice, score of >32 would predict short term mortality of around 20-30% at 1 month and 30-40% within 6 months after pre",
+            "journal": "Minerva medica",
+            "year": "2017",
+            "authors": [
+              "Rana Ramesh",
+              "Wang Sheng-Lan",
+              "Li Jing",
+              "Xia Lu",
+              "Song Mei-Yi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Adrenal Cortex Hormones",
+              "Alcohol Abstinence",
+              "Bilirubin",
+              "Biomarkers",
+              "Biopsy",
+              "Combined Modality Therapy",
+              "Creatinine",
+              "Drug Substitution",
+              "Hepatitis, Alcoholic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28602070/"
+          },
+          {
+            "pmid": "26471989",
+            "title": "Supplemental Parenteral Vitamin E Into Conventional Soybean Lipid Emulsion Does Not Prevent Parenteral Nutrition-Associated Liver Disease in Full-Term Neonatal Piglets.",
+            "abstract": "Parenteral nutrition-associated liver disease (PNALD) continues to cause morbidity and mortality for neonates with intestinal failure. Lipid peroxidation is one potential etiological factor. This study was designed to test if supplementing vitamin E into conventional soy-based lipid would reduce the risk of PNALD.",
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "year": "2017",
+            "authors": [
+              "Muto Mitsuru",
+              "Lim David",
+              "Soukvilay Amanda",
+              "Field Catherine",
+              "Wizzard Pamela R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alanine Transaminase",
+              "Alkaline Phosphatase",
+              "Animals",
+              "Animals, Newborn",
+              "Bile Acids and Salts",
+              "Bilirubin",
+              "Biomarkers",
+              "C-Reactive Protein",
+              "Cholestasis",
+              "Dinoprost"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26471989/"
+          },
+          {
+            "pmid": "29560688",
+            "title": "Prevalence of fat-soluble vitamin (A, D, and E) and zinc deficiency in patients with cirrhosis being assessed for liver transplantation.",
+            "abstract": "To evaluate the prevalence of fat-soluble vitamin (A, D, and E) and zinc deficiency in patients with cirrhosis being assessed for liver transplantation and the correlations between vitamin deficiencies, nutritional markers, and severity of liver disease.",
+            "journal": "Acta gastro-enterologica Belgica",
+            "year": "2017",
+            "authors": [
+              "Teriaky A",
+              "Mosli M",
+              "Chandok N",
+              "Al-Judaibi B",
+              "Marotta P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Deficiency Diseases",
+              "Female",
+              "Humans",
+              "Liver Cirrhosis",
+              "Liver Transplantation",
+              "Male",
+              "Middle Aged",
+              "Nutrition Assessment",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29560688/"
+          },
+          {
+            "pmid": "803225",
+            "title": "Neonatal nonhemolytic jaundice.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "1975",
+            "authors": [
+              "Johnson J D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bile Acids and Salts",
+              "Bile Ducts",
+              "Biliary Tract Diseases",
+              "Bilirubin",
+              "Brain Damage, Chronic",
+              "Breast Feeding",
+              "Cholestyramine Resin",
+              "Chronic Disease",
+              "Diagnosis, Differential",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/803225/"
+          },
+          {
+            "pmid": "36459516",
+            "title": "Vitamin E supplementation improves post-transportation systemic antioxidant capacity in yak.",
+            "abstract": "This study was aimed to evaluate the effects of post-transportation vitamin E (VE) supplementation on health condition, blood biochemical parameters, blood antioxidant indices and blood metabolomics in yak. Five yaks were used in this study. After 2100 km of highway transportation from Riwoqe county to Rongchang County, Chongqing, blood was collected immediately after arrival and these samples served as the baseline (control, CON_VE). A VE injection (40 mg/kg) was then performed and blood samples were collected 10 days later. Injection of VE led to lower serum VE concentration. Relative to the CON_VE, VE injection led to greater concentrations of creatinine and lower concentrations of glutamate pyruvic transaminase, alkaline phosphatase, aspartate aminotransferase, total bilirubin, indirect bilirubin, direct bilirubin, UREA and glucose. Compared with CON_VE, VE injection led the lower serum level of malondialdehydeand greater serum level of glutathione s-transferase, glutathione peroxi",
+            "journal": "PloS one",
+            "year": "2022",
+            "authors": [
+              "Zhang Li",
+              "Wang Zhiyu",
+              "Zhou Peng",
+              "Fu Lin",
+              "Zhang Lijun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cattle",
+              "Animals",
+              "Antioxidants",
+              "Immunotherapy",
+              "Vitamin E",
+              "Bilirubin",
+              "Dietary Supplements"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36459516/"
+          },
+          {
+            "pmid": "3966426",
+            "title": "Vitamin E deficiency in adults with chronic liver disease.",
+            "abstract": "In order to determine the frequency of vitamin E deficiency in adults with chronic liver disease, we measured serum vitamin E concentrations and calculated the ratio of serum vitamin E to total serum lipids (E/lipids) in forty-two patients with primary biliary cirrhosis (PBC) (Group A), fifteen patients with other forms of chronic liver disease (Group B), and twenty-five healthy adult control subjects (Group C). Although the mean serum vitamin E concentration did not differ significantly among the three groups, the ratio of serum vitamin E/lipids was significantly lower in Group A than Groups B and C. Vitamin E deficiency, as defined by the ratio of serum vitamin E/lipids below 0.8 mg/gm, was present in seven (17%) Group A and one (7%) Group B patients. Serum cholylglycine, sulfated lithocholate conjugates, and bilirubin were significantly higher and the mean duration of symptomatic primary biliary cirrhosis was significantly longer (6.6 vs 2.3 years) in the vitamin E-deficient compare",
+            "journal": "The American journal of clinical nutrition",
+            "year": "1985",
+            "authors": [
+              "Sokol R J",
+              "Balistreri W F",
+              "Hoofnagle J H",
+              "Jones E A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bile Acids and Salts",
+              "Cholestasis",
+              "Chronic Disease",
+              "Female",
+              "Glycocholic Acid",
+              "Humans",
+              "Lipids",
+              "Liver Diseases",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3966426/"
+          },
+          {
+            "pmid": "35204062",
+            "title": "Reactive Oxygen Species (ROS) and Antioxidants as Immunomodulators in Exercise: Implications for Heme Oxygenase and Bilirubin.",
+            "abstract": "Exercise is commonly prescribed as a lifestyle treatment for chronic metabolic diseases as it functions as an insulin sensitizer, cardio-protectant, and essential lifestyle tool for effective weight maintenance. Exercise boosts the production of reactive oxygen species (ROS) and subsequent transient oxidative damage, which also upregulates counterbalancing endogenous antioxidants to protect from ROS-induced damage and inflammation. Exercise elevates heme oxygenase-1 (HO-1) and biliverdin reductase A (BVRA) expression as built-in protective mechanisms, which produce the most potent antioxidant, bilirubin. Together, these mitigate inflammation and adiposity. Moderately raising plasma bilirubin protects in two ways: (1) via its antioxidant capacity to reduce ROS and inflammation, and (2) its newly defined function as a hormone that activates the nuclear receptor transcription factor PPARα. It is now understood that increasing plasma bilirubin can also drive metabolic adaptions, which impr",
+            "journal": "Antioxidants (Basel, Switzerland)",
+            "year": "2022",
+            "authors": [
+              "Thomas David Travis",
+              "DelCimmuto Nicholas R",
+              "Flack Kyle D",
+              "Stec David E",
+              "Hinds Terry D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35204062/"
+          },
+          {
+            "pmid": "10399480",
+            "title": "A study of lipid peroxidation and vitamin E in dairy cows with hepatic insufficiency.",
+            "abstract": "Sixteen dairy cows were studied to assess the status of the natural antioxidant vitamin E and lipid peroxidation in their livers. Cows with liver failure (n = 7) showed clinical signs of a hepatic encephalopathy and had the following values of selected blood indices: AST > 80 U/l and GLDH > 15 U/l in serum, and venous plasma ammonia > 35 mmol/l. The control group (n = 9) consisted of dairy cows which were recovering from surgery (omentopexy) and were free of any health complications. Blood was analysed for alpha-tocopherol, aspartate aminotransferase, glutamate dehydrogenase, gamma-glutamyl transferase, total bilirubin, ammonia, cholesterol, albumin, free fatty acids, glucose, and beta-hydroxybutyrate. Alpha-tocopherol, triglyceride and malondialdehyde were measured in wet liver tissue. The cows with hepatic failure were clearly low in alpha-tocopherol and had significantly lower (P < 0.01) plasma alpha-tocopherol than the controls. Both liver triglycerides and MDA were higher (P < 0.0",
+            "journal": "Zentralblatt fur Veterinarmedizin. Reihe A",
+            "year": "1999",
+            "authors": [
+              "Mudron P",
+              "Rehage J",
+              "Qualmann K",
+              "Sallmann H P",
+              "Scholz H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cattle",
+              "Cattle Diseases",
+              "Fatty Liver",
+              "Female",
+              "Lipid Peroxidation",
+              "Liver",
+              "Liver Failure, Acute",
+              "Postpartum Period",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10399480/"
+          },
+          {
+            "pmid": "16978760",
+            "title": "Deltamethrin-induced oxidative damage and biochemical alterations in rat and its attenuation by Vitamin E.",
+            "abstract": "Deltamethrin is a synthetic pyrethroid insecticide used worldwide in agriculture, home pest control, protection of foodstuff and disease vector control. The objective of this study was to investigate the propensity of deltamethrin to induce oxidative stress and changes in biochemical parameters and enzyme activities in male rats following a short-term (30 days) oral exposure and its possible attenuation by Vitamin E (Vit. E). Rats were assigned to 1 of 4 treatment groups: 0mg Vit. E and 0mg deltamethrin/kg body weight (BW) (control); 100mg Vit. E/kg BW; 1.28mg deltamethrin/kg BW; 100mg Vit. E plus 1.28mg deltamethrin/kg BW. Results obtained showed that deltamethrin significantly (P<0.05) induced thiobarbituric acid-reactive substances (TBARS; the marker of lipid peroxidation) in plasma. The activities of glutathione S-transferase (GST) and superoxide dismutase (SOD) were significantly decreased due to deltamethrin administration. On the other hand, treatment with Vitamin E alone increa",
+            "journal": "Toxicology",
+            "year": "2006",
+            "authors": [
+              "Yousef Mokhtar I",
+              "Awad Talaat I",
+              "Mohamed Edriss H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Enzymes",
+              "Insecticides",
+              "Lipid Peroxidation",
+              "Lipids",
+              "Male",
+              "Nitriles",
+              "Oxidative Stress",
+              "Pyrethrins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16978760/"
+          },
+          {
+            "pmid": "34919247",
+            "title": "A randomized controlled trial comparing the effects of Vitamin E, Ursodeoxycholic acid and Pentoxifylline on Egyptian non-alcoholic steatohepatitis patients.",
+            "abstract": "Currently, no NASH-specific therapies are approved by the US Food and Drug Administration. This study aimed to compare the clinical effect of vitamin E (Vit. E), Ursodeoxycholic Acid (UDCA) and pentoxifylline (PTX) on Egyptian patients with NASH with exploration of their possible roles on inflammatory cytokines and chemokines mainly Interleukin 6 (IL6) and Monocyte Chemoattractant Protein-1 (CCL2/MCP-1).",
+            "journal": "European review for medical and pharmacological sciences",
+            "year": "2021",
+            "authors": [
+              "Fouda A",
+              "Abdelaziz A E",
+              "Hussien M",
+              "Ali A A",
+              "Abdelkawy K S"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antioxidants",
+              "Cholagogues and Choleretics",
+              "Disease Progression",
+              "Egypt",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Non-alcoholic Fatty Liver Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34919247/"
+          },
+          {
+            "pmid": "14043519",
+            "title": "VITAMIN E TO PREMATURE INFANTS. INFLUENCE ON SERUM BILIRUBIN, HEMOGLOBIN AND ALKALINE PHOSPHATASE.",
+            "abstract": "",
+            "journal": "Acta paediatrica. Supplementum",
+            "year": "1963",
+            "authors": [
+              "DYGGVE H V",
+              "PROBST J H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alkaline Phosphatase",
+              "Bilirubin",
+              "Hemoglobins",
+              "Hemolysis",
+              "Humans",
+              "Hyperbilirubinemia",
+              "Infant",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Infant, Premature, Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14043519/"
+          },
+          {
+            "pmid": "33676282",
+            "title": "Coenzyme Q10 deficiency in patients with hereditary hemochromatosis.",
+            "abstract": "Hereditary hemochromatosis (HH) is a group of inherited disorders that causes a slow and progressive iron deposition in diverse organs, particularly in the liver. Iron overload induces oxidative stress and tissue damage. Coenzyme Q10 (CoQ10) is a cofactor in the electron-transport chain of the mitochondria, but it is also a potent endogenous antioxidant. CoQ10 interest has recently grown since various studies show that CoQ10 supplementation may provide protective and safe benefits in mitochondrial diseases and oxidative stress disorders. In the present study we sought to determine CoQ10 plasma level in patients recently diagnosed with HH and to correlate it with biochemical, genetic, and histological features of the disease.",
+            "journal": "Clinics and research in hepatology and gastroenterology",
+            "year": "2021",
+            "authors": [
+              "Martinefski Manuela R",
+              "Yamasato María F",
+              "Di Carlo María B",
+              "Daruich Jorge R",
+              "Tripodi Valeria P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Ataxia",
+              "Case-Control Studies",
+              "Female",
+              "Hemochromatosis",
+              "Humans",
+              "Male",
+              "Mitochondrial Diseases",
+              "Muscle Weakness",
+              "Ubiquinone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33676282/"
+          },
+          {
+            "pmid": "20666718",
+            "title": "A review of natural and synthetic antioxidants important for health and longevity.",
+            "abstract": "Reactive oxygen species (ROS) generated in the presence of O(2) by mitochondria, phagocytic cells, peroxisomes, and cytochrome P450 enzymes under physiological conditions, may play a dual function in the human organism. On the one hand, they participate in cell signal transduction cascades, leading to the activation of some transcription factors responsible for regulating of the expression of genes relevant for cell growth and differentiation. On the other hand, they cause oxidative damage of cellular DNA, protein and lipids, resulting in the initiation or development of numerous diseases such as cancer, cardiovascular diseases, type 2 diabetes mellitus, cataract, rheumatoid arthritis, or different neurodegenerative diseases. Both endogenous compounds (glutathione, ubiquinol, urate, bilirubin) and enzymes (superoxide dismutase, catalase, glutathione peroxidase) are engaged in the detoxification of ROS. In addition, numerous dietary components such as vitamin C, vitamin E, carotenoids, ",
+            "journal": "Current medicinal chemistry",
+            "year": "2010",
+            "authors": [
+              "Wojcik M",
+              "Burzynska-Pedziwiatr I",
+              "Wozniak L A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antioxidants",
+              "Ascorbic Acid",
+              "Carotenoids",
+              "Clinical Trials as Topic",
+              "Flavonoids",
+              "Health",
+              "Humans",
+              "Longevity",
+              "Phenols",
+              "Polyphenols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20666718/"
+          },
+          {
+            "pmid": "23912327",
+            "title": "Plasma and dietary antioxidant status as cardiovascular disease risk factors: a review of human studies.",
+            "abstract": "Extensive evidence has demonstrated that many antioxidants such as vitamin C, vitamin E, carotenoids and polyphenols have protective effects in preventing cardiovascular disease (CVD), a chronic disease that is mediated by oxidative stress and inflammation. This review focuses on evidence from prospective cohort studies and clinical trials in regard to the associations between plasma/dietary antioxidants and cardiovascular events. Long-term, large-scale, population-based cohort studies have found that higher levels of serum albumin, bilirubin, glutathione, vitamin E, vitamin C, and carotenoids were associated with a lower risk of CVD. Evidence from the cohort studies in regard to dietary antioxidants also supported the protective effects of dietary vitamin E, vitamin C, carotenoids, and polyphenols on CVD risk. However, results from large randomized controlled trials did not support long-term use of single antioxidant supplements for CVD prevention due to their null or even adverse eff",
+            "journal": "Nutrients",
+            "year": "2013",
+            "authors": [
+              "Wang Ying",
+              "Chun Ock K",
+              "Song Won O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antioxidants",
+              "Ascorbic Acid",
+              "Bilirubin",
+              "Biomarkers",
+              "Cardiovascular Diseases",
+              "Carotenoids",
+              "Dietary Supplements",
+              "Glutathione",
+              "Humans",
+              "Nutritional Status"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23912327/"
+          },
+          {
+            "pmid": "3245661",
+            "title": "Membrane antioxidants.",
+            "abstract": "In this chapter, I have discussed both lipid-soluble and water-soluble antioxidants that exert protective action with respect to inhibiting lipid, and in some cases, protein oxidation in both natural and artificial membranes. In addition, recent work has begun to clarify exactly how antioxidant enzymes can protect membranes against peroxidative damage. Although we have some understanding of the mechanisms of several of these antioxidants, much work remains to be done before we can begin making dietary recommendations that may have profound implications with respect to aging, cancer, and the many other human diseases that have been associated with radical-induced damage.",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1988",
+            "authors": [
+              "Krinsky N I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Ascorbic Acid",
+              "Bilirubin",
+              "Carotenoids",
+              "Cell Membrane",
+              "Glutathione Peroxidase",
+              "Humans",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3245661/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary North American Indian childhood cirrhosis",
+        "txgnn_score": 0.999854326248169,
+        "txgnn_rank": 497,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced liver injury",
+        "txgnn_score": 0.9996899366378784,
+        "txgnn_rank": 828,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07191704",
+            "title": "Characterization of Progressive Familial Intrahepatic Cholestasis (PFIC)-Related Genes in Adult Patients With Idiopathic Recurrent and Chronic Cholestasis in Spain - REGENIC",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-12-08",
+            "completion_date": "2026-07-31",
+            "country": "Spain",
+            "enrollment": 150,
+            "brief_summary": "Progressive Familial Intrahepatic Cholestasis (PFIC) is a group of inherited conditions that affect how bile moves in the liver, which can lead to serious liver problems. Doctors usually recommend genetic testing for patients with unexplained bile issues-after ruling out more common causes-to better understand the problem. However, there isn't much information on how common these genetic changes are in adults with these liver issues, especially in Spain. This study will observe these genetic cha",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients (≥18 years old) with written informed consent prior to data collection and study procedures.\n* Unexplained recurrent and/or chronic cholestasis (idiopathic cholestasis), defined as alkaline phosphatase (ALP) or Gamma-Glutamyl Transferase (GGT) \\> Upper Limit of ",
+            "endpoints": [
+              "Percentage of Participants with at least One Variant in PFIC-Related Genes"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT07191704"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03446573",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Dolutegravir Plus Lamivudine in HIV-1 Infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2018-01-18",
+            "completion_date": "2022-05-03",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Belgium, Netherlands, Germany, United States, Japan",
+            "enrollment": 743,
+            "brief_summary": "The aim of the study is to establish if human immunodeficiency virus type 1 (HIV-1) infected adult participants with current virologic suppression on a \\>=3-drug tenofovir alafenamide (TAF) based regimen (TBR) remain suppressed upon switching to a two-drug regimen of dolutegravir (DTG) 50 milligram (mg) + lamivudine (3TC) 300 mg. This study will also provide important information regarding the safety and participant satisfaction with this two-drug regimen. The primary objective of this trial is ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must be able to understand and comply with protocol requirements, instructions, and restrictions;\n* Participant must be likely to complete the study as planned;\n* Participant must be considered an appropriate candidate for participation in an investigative clinical",
+            "endpoints": [
+              "Percentage of Participants With Virologic Failure Endpoint as Per Food and Drug Administration (FDA) Snapshot Category at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT03446573"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01793168",
+            "title": "Coordination of Rare Diseases at Sanford",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2010-07",
+            "completion_date": "2100-12",
+            "country": "Australia, United States",
+            "enrollment": 20000,
+            "brief_summary": "CoRDS, or the Coordination of Rare Diseases at Sanford, is based at Sanford Research in Sioux Falls, South Dakota. It provides researchers with a centralized, international patient registry for all rare diseases. This program allows patients and researchers to connect as easily as possible to help advance treatments and cures for rare diseases. The CoRDS team works with patient advocacy groups, individuals and researchers to help in the advancement of research in over 7,000 rare diseases. The re",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of a rare disease, a disease of unknown prevalence, undiagnosed or an unaffected carrier of a rare/uncommon disease\n\nExclusion Criteria:\n\n* Diagnosis of a disease which is not rare",
+            "endpoints": [
+              "To accelerate research into rare disorders by connecting individuals who are interested in research and who have been diagnosed with a rare disorder (or a disorder of unknown prevalence, or who are undiagnosed) with researchers who study rare diseases."
+            ],
+            "sponsor": "Sanford Health",
+            "url": "https://clinicaltrials.gov/study/NCT01793168"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02831764",
+            "title": "A Phase III, Randomised, Double-blind, Multicentre, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in HIV-1-infected Treatment-naïve Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-07-18",
+            "completion_date": "2022-06-29",
+            "country": "Switzerland, Australia, Spain, France, Canada, Romania, Belgium, United Kingdom, Germany, Argentina, Italy, United States, Portugal, Peru, Mexico, Russia, Taiwan, Poland",
+            "enrollment": 722,
+            "brief_summary": "This study will compare safety, efficacy, and tolerability of a two drug regimen of dolutegravir (DTG) plus (+) lamivudine (3TC) administered once daily with DTG plus two nucleoside reverse transcriptase inhibitors (tenofovir disoproxil fumarate \\[TDF\\]/emtricitabine \\[FTC\\] fixed dose combination \\[FDC\\]) administered once daily in human immunodeficiency virus (HIV) 1 infected adult participants that have not previously received antiretroviral therapy. The study is designed to demonstrate the n",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be an HIV 1 infected adult \\>=18 years of age (or older, if required by local regulations) at the time of signing the informed consent\n* An eligible female participant should not be pregnant (as confirmed by a negative serum human chorionic gonadotrophin (hCG) test at Scr",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies/mL (c/mL) at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02831764"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02043054",
+            "title": "Impact of Liraglutide on Cardiac Function and Structure in Young Adults With Type 2 Diabetes: an Open-label, Randomised Active-comparator Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-12-16",
+            "completion_date": "2017-09-29",
+            "country": "United Kingdom",
+            "enrollment": 90,
+            "brief_summary": "There are recent advances in therapies for the treatment of Type 2 Diabetes Mellitus (T2DM) which include the GLP1 analogues and the DPP IV inhibitors. Both of these therapies target the incretin system using different methods to elevate/maintain circulating levels of GLP1 to subsequently achieve improved blood sugar control. Interestingly, GLP1 analogues have been reported not only to improve blood sugar control but to additionally induce weight-loss and emerging experimental evidence has shown",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Capacity to provide informed consent before any trial-related activities\n* Individuals aged 18 - 60 years inclusive\n* Established T2DM\n* BMI ≥ 30 kg/m2 (≥27 kg/m2 for South Asians or other BME populations)\n* On mono or combination oral OAD therapy (sulphonylurea and/or metform",
+            "endpoints": [
+              "Change in peak early diastolic strain rate measured by cardiac MRI"
+            ],
+            "sponsor": "University of Leicester",
+            "url": "https://clinicaltrials.gov/study/NCT02043054"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02831673",
+            "title": "A Phase III, Randomised, Double Blind, Multicentre, Parallel Group, Non Inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in Human Immunodeficiency Virus 1 Infected Treatment naïve Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-07-21",
+            "completion_date": "2022-08-15",
+            "country": "Australia, Spain, France, Canada, Romania, Belgium, Netherlands, Germany, Argentina, Italy, South Korea, United States, United Kingdom, Portugal, Mexico, Russia, South Africa, Taiwan",
+            "enrollment": 719,
+            "brief_summary": "This study will compare safety, efficacy, and tolerability of a two drug regimen of dolutegravir (DTG) plus (+) lamivudine (3TC) administered once daily with DTG plus two nucleoside reverse transcriptase inhibitors (Tenofovir \\[TDF\\]/Emtricitabine \\[FTC\\] fixed dose combination \\[FDC\\]) administered once daily in human immunodeficiency virus (HIV) 1 infected adult participants that have not previously received antiretroviral therapy. The study is designed to demonstrate the non-inferior antivira",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be an HIV 1 infected adult \\>=18 years of age (or older, if required by local regulations) at the time of signing the informed consent\n* An eligible female participant should not be pregnant (as confirmed by a negative serum human chorionic gonadotrophin (hCG) test at Scr",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies/mL (c/mL) at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02831673"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02654665",
+            "title": "Comparing Effects of Liraglutide and Bariatric Surgery on Weight Loss, Liver Function, Body Composition, Insulin Resistance, Endothelial Function and Biomarkers of Non-alcoholic Steatohepatitis (NASH) in Obese Asian Adults",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2014-03",
+            "completion_date": "2018-12",
+            "country": "Singapore",
+            "enrollment": 36,
+            "brief_summary": "Non-alcoholic fatty liver disease (NAFLD) is defined by presence of hepatic steatosis (fat accumulation in liver cells), either by imaging or by biopsy and absence of causes for secondary hepatic fat accumulation such as significant alcohol consumption, medications, or hereditary disorders. In the majority of patients, NAFLD is associated with risk factors for cardiovascular disease such as obesity, diabetes mellitus, and high cholesterol, and may lead to irreversible liver damage. Non-alcoholic",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Body mass index \\> 27.5 kg/m2\n* Waist circumference (WC) \\> 90 cm (male) or \\> 80 cm (female)\n* Diagnosis of NASH based on Liver Function Test Results ,Ultrasound Hepato-Biliary System (HBS) findings and / or Liver Biopsy\n* HbA1c \\< 8%\\* \\*Subjects in the bariatric surgery arm",
+            "endpoints": [
+              "Improvement in NASH"
+            ],
+            "sponsor": "Changi General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02654665"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04125199",
+            "title": "Effects of Decohexaenoic Acid Supplementation on Markers of Inflammatory Muscle Damage Induced by Eccentric Exercise in Endurance Athletes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-01-01",
+            "completion_date": "2016-12-22",
+            "country": "Spain",
+            "enrollment": 15,
+            "brief_summary": "Randomized, placebo-controlled, double-blind, placebo-controlled clinical trial consisting of 15 triathletes in which it is intended to observe less inflammatory damage at the muscular level after performing eccentric exercises.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male sex.\n* Age: between 18 and 45 years.\n* BMI ≤ 35 Kg / m2.\n* Volunteers capable of understanding the clinical study, competent to grant written informed consent and willing to comply with the study procedures and requirements.\n* Subjects who do not suffer from chronic disea",
+            "endpoints": [
+              "Inflammatory markers"
+            ],
+            "sponsor": "Universidad Católica San Antonio de Murcia",
+            "url": "https://clinicaltrials.gov/study/NCT04125199"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "20020270",
+            "title": "Troglitazone.",
+            "abstract": "Troglitazone was the first thiazolidinedione antidiabetic agent approved for clinical use in 1997, but it was withdrawn from the market in 2000 due to serious idiosyncratic hepatotoxicity. Troglitazone contains the structure of a unique chroman ring of vitamin E, and this structure has the potential to undergo metabolic biotransformation to form quinone metabolites, phenoxy radical intermediate, and epoxide species. Although troglitazone has been shown to induce apoptosis in various hepatic and nonhepatic cells, the involvement of reactive metabolites in the troglitazone cytotoxicity is controversial. Numerous toxicological tests, both in vivo and in vitro, have been used to try to predict the toxicity, but no direct mechanism has been demonstrated that can explain the hepatotoxicity that occurred in some individuals. This chapter summarizes the proposed mechanisms of troglitazone hepatotoxicity based in vivo and in vitro studies. Many factors have been proposed to contribute to the me",
+            "journal": "Handbook of experimental pharmacology",
+            "year": "2010",
+            "authors": [
+              "Yokoi Tsuyoshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biotransformation",
+              "Chemical and Drug Induced Liver Injury",
+              "Chromans",
+              "Drug Hypersensitivity",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Liver",
+              "Membrane Transport Proteins",
+              "MicroRNAs",
+              "Mitochondria, Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20020270/"
+          },
+          {
+            "pmid": "31599191",
+            "title": "Vitamin E protects against monosodium glutamate-induced acute liver injury and hepatocyte ultrastructural alterations in rats.",
+            "abstract": "Food additives such as nitrates and nitrites, and monosodium glutamate (MSG) used in the food industry increase the risk of certain cancers and inflict damage to vital organs. We sought to determine whether the antioxidant vitamin E can protect against liver injuries induced by a toxic dose of MSG in a rat model of MSG-induced acute liver injury. The model group of rats received a daily dose of MSG (4 gm/kg) for 7 days, whereas the protective groups were either received a 100 mg/kg vitamin E plus MSG or 300 mg/kg vitamin E plus MSG for 7 days. Rats were then sacrificed at day 8. Transmission and light microscopy images revealed substantial liver tissue damage induced by MSG in the model group as demonstrated by apoptotic hepatocytes with Pyknotic nuclei and irregular nuclear membrane, and cytoplasm displayed many vacuoles, swollen mitochondria, dilated endoplasmic reticulum, dilated blood sinusoids and bundles of collagen fibers in extracellular space. Treatment of the model group with",
+            "journal": "Ultrastructural pathology",
+            "year": "2019",
+            "authors": [
+              "Eid Refaat A",
+              "Al-Shraim Mubarak",
+              "Zaki Mohamed Sa",
+              "Kamar Samaa S",
+              "Abdel Latif Noha S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Chemical and Drug Induced Liver Injury",
+              "Flavoring Agents",
+              "Hepatocytes",
+              "Rats",
+              "Rats, Sprague-Dawley",
+              "Sodium Glutamate",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599191/"
+          },
+          {
+            "pmid": "33396130",
+            "title": "Vitamin E protects against cadmium-induced sub-chronic liver injury associated with the inhibition of oxidative stress and activation of Nrf2 pathway.",
+            "abstract": "Hepatic oxidative stress, as one important mechanism of cadmium (Cd)-induced hepatic toxicity, could, as known, be ameliorated by vitamin E (VE). However, the underlying mechanism remains to be elucidated. To investigate whether the antioxidant vitamin E can protect against Cd-induced sub-chronic liver injury associated with oxidative stress and nuclear factor erythrocyte 2-related factor 2 (Nrf2) pathway, male Sprague-Dawley rats (nine-week-old) were randomly divided into four groups (eight rats/group), namely, control, VE (100 mg/kg VE), Cd (5 mg/kg CdCl2) and VE+Cd (100 mg/kg VE+5 mg/kg CdCl2), and received intragastric administration of Cd and/or VE for four weeks. Cd-exposure alone resulted in reduced liver weight, liver histological alteration and oxidative stress, accumulation of Cd in the liver, elevated ALT and AST concentrations in serum together with decreased mRNA and protein expressions of Nrf2 pathway related molecules (Nrf2, HO-1, NQO-1, GCLC, GCLM and GST). However, the",
+            "journal": "Ecotoxicology and environmental safety",
+            "year": "2021",
+            "authors": [
+              "Fang Jing",
+              "Yin Heng",
+              "Yang Zhuangzhi",
+              "Tan Maoyun",
+              "Wang Fengyuan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Cadmium",
+              "Chemical and Drug Induced Liver Injury",
+              "Environmental Pollutants",
+              "Liver",
+              "Liver Function Tests",
+              "Male",
+              "NF-E2-Related Factor 2",
+              "Organ Size"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33396130/"
+          },
+          {
+            "pmid": "29849926",
+            "title": "Hepatoprotective Activity of Vitamin E and Metallothionein in Cadmium-Induced Liver Injury in Ctenopharyngodon idellus.",
+            "abstract": "As an environmental and industrial pollutant, cadmium (Cd) can cause a broad spectrum of toxicological effects. Multiple organs, especially the liver, are considerably affected by Cd in both humans and animals. We investigated the protective effects of metallothionein (MT) and vitamin E (VE) supplementation on Cd-induced apoptosis in the grass carp (Ctenopharyngodon idellus) liver. Grass carp were divided into four groups: the control group, Cd + phosphate-buffered saline (PBS) group, Cd + VE group, and Cd + MT group. All fish were injected with CdCl2 on the first day and then VE, MT, and PBS were given 4 days postinjection, respectively. The results showed that Cd administration resulted in liver poisoning in grass carp, which was expressed as an increase in Cd contents, malondialdehyde (MDA) concentration, percentage of hepatocyte apoptosis, and apoptosis-related gene mRNA transcript expression. However, VE and MT treatments protected against Cd-induced hepatotoxicity in grass carp b",
+            "journal": "Oxidative medicine and cellular longevity",
+            "year": "2018",
+            "authors": [
+              "Duan Yajiao",
+              "Duan Jing",
+              "Feng Yang",
+              "Huang Xiaoli",
+              "Fan Wei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cadmium Chloride",
+              "Carps",
+              "Caspase 3",
+              "Endoplasmic Reticulum Chaperone BiP",
+              "Heat-Shock Proteins",
+              "Lipid Peroxidation",
+              "Liver",
+              "Malondialdehyde"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29849926/"
+          },
+          {
+            "pmid": "32767013",
+            "title": "The protective efficacy of vitamin E and cod liver oil against cisplatin-induced acute kidney injury in rats.",
+            "abstract": "Cisplatin (CP) is a highly effective chemotherapeutic agent against neoplasms, but its clinical utility is limited due to the side effects of its dose-dependent nephrotoxicity. Vitamin E (Vit E) and cod liver oil (CLO) are natural substances with chemoprotective effects. The present study was conducted to evaluate the protective effects of Vit E and/or CLO for CP-induced acute kidney injury (AKI) in rats. This study involved 40 mature male Wistar albino rats that were equally allocated into eight groups: Veh, Vit E, CLO, Vit E + CLO, CP, Vit E + CP, CLO + CP, and Vit E + CLO + CP. The co-administration of Vit E and CLO significantly ameliorated CP-induced elevations in serum creatinine (Cr), blood urea nitrogen (BUN), interleukin 1 beta (IL-1β), and interleukin- 6 (IL-6). Further, rats that received Vit E and/or CLO showed significant decrease in malondialdehyde (MDA) and increases in superoxide dismutase (SOD), catalase (CAT), and glutathione (GSH) levels in renal tissues, compared to",
+            "journal": "Environmental science and pollution research international",
+            "year": "2020",
+            "authors": [
+              "Abo-Elmaaty Azza M A",
+              "Behairy Amany",
+              "El-Naseery Nesma I",
+              "Abdel-Daim Mohamed M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Animals",
+              "Antioxidants",
+              "Cisplatin",
+              "Cod Liver Oil",
+              "Kidney",
+              "Male",
+              "Oxidative Stress",
+              "Rats",
+              "Rats, Wistar"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32767013/"
+          },
+          {
+            "pmid": "33617844",
+            "title": "Vitamin E pretreated Wharton's jelly-derived mesenchymal stem cells attenuate CCl4-induced hepatocyte injury in vitro and liver fibrosis in vivo.",
+            "abstract": "Oxidative microenvironment in fibrotic liver alleviates the efficacious outcome of mesenchymal stem cells (MSCs)-based cell therapy. Recent evidence suggests that pharmacological pretreatment is a rational approach to harness the MSCs with higher therapeutic potential. Here, we investigated whether Vitamin E pretreatment can boost the antifibrotic effects of Wharton's jelly-derived MSCs (WJMSCs). We used rat liver-derived hepatocytes injured by CCl4 treatment in co-culture system with Vitamin E pretreated-WJMSCs (Vit E-WJMSCs) to evaluate the hepatoprotective effect of Vit E-WJMSCs. After 24 h of co-culturing, we found that Vit E-WJMSCs rescued injured hepatocytes as hepatocyte injury-associated medium (AST, ALT, and ALP) and mRNA (Cyp2e1, Hif1-α, and Il-1β) markers reduced to normal levels. Subsequently, CCl4-induced liver fibrosis rat models were employed to examine the antifibrotic potential of Vit E-WJMSCs. After 1 month of cell transplantation, it was revealed that Vit E-WJMSCs tr",
+            "journal": "Biochemical pharmacology",
+            "year": "2021",
+            "authors": [
+              "Baig Maria Tayyab",
+              "Ghufran Hafiz",
+              "Mehmood Azra",
+              "Azam Maryam",
+              "Humayun Shamsa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Carbon Tetrachloride",
+              "Cells, Cultured",
+              "Coculture Techniques",
+              "Hepatocytes",
+              "Liver Cirrhosis",
+              "Male",
+              "Mesenchymal Stem Cell Transplantation",
+              "Mesenchymal Stem Cells",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33617844/"
+          },
+          {
+            "pmid": "28166421",
+            "title": "Vitamin E and selenium treatment of monocrotaline induced hepatotoxicity in rats.",
+            "abstract": "Monocrotaline (MCT) is a hepatotoxic pyrrolizidine alkaloid that is derived from plants; exposure may occur by consumption of contaminated grains, herbal teas and medicines. MCT can cause liver damage. We investigated the antioxidant effects of selenium (Se) and vitamin E against the toxic effects of MCT. Female Wistar albino rats were divided into four groups: a control group, an MCT group, an MCT + Se group, and an MCT + vitamin E group. Liver tissues were harvested, fixed, processed to paraffin and sections were cut. Anti-von Willebrand factor (vWF) immunohistochemistry, terminal deoxynucleotidyl transferase dUTP nick end-labeling (TUNEL), and hematoxylin and eosin staining were performed. Serum and liver tissue glutathione (GSH), catalase (CAT), and glutathione peroxidase (GPx) levels were measured. Histopathological and TUNEL data showed significantly increased liver damage in the MCT group compared to controls. Histopathological and TUNEL staining indicated significant improvemen",
+            "journal": "Biotechnic & histochemistry : official publication of the Biological Stain Commission",
+            "year": "2017",
+            "authors": [
+              "Cuce G",
+              "Canbaz H T",
+              "Sozen M E",
+              "Yerlikaya F H",
+              "Kalkan S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Chemical and Drug Induced Liver Injury",
+              "Female",
+              "Monocrotaline",
+              "Rats",
+              "Rats, Wistar",
+              "Selenium",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28166421/"
+          },
+          {
+            "pmid": "8723319",
+            "title": "Metal-induced hepatotoxicity.",
+            "abstract": "Figure 3 summarizes several proposed mechanisms of iron- or copper-induced hepatotoxicity. It has long been suspected that free radicals may play a role in iron- and copper-induced cell toxicity because of the powerful prooxidant action of iron and copper salts in vitro. In the presence of available cellular reductants, iron or copper in low molecular weight forms may play a catalytic role in the initiation of free radical reactions. The resulting oxyradicals have the potential to damage cellular lipids, nucleic acids, proteins, and carbohydrates, resulting in wide-ranging impairment in cellular function and integrity. However, cells are endowed with cytoprotective mechanisms (antioxidants, scavenging enzymes, repair processes) that act to counteract the effects of free radical production. Thus, the net effect of metal-induced free radicals on cellular function will depend on the balance between radical production and the cytoprotective systems As a result, there may be a rate of free ",
+            "journal": "Seminars in liver disease",
+            "year": "1996",
+            "authors": [
+              "Britton R S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Calcium",
+              "Cell Transformation, Neoplastic",
+              "Copper",
+              "Free Radicals",
+              "Homeostasis",
+              "Iron",
+              "Lipid Peroxidation",
+              "Liver",
+              "Lysosomes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8723319/"
+          },
+          {
+            "pmid": "25896716",
+            "title": "Potential antifibrotic and angiostatic impact of idebenone, carnosine and vitamin E in nano-sized titanium dioxide-induced liver injury.",
+            "abstract": "The present study investigated the in vitro and in vivo effects of individual and combined doses of idebenone, carnosine and vitamin E on ameliorating some of the biochemical indices of nano-sized titanium dioxide (n-TiO2) in mice liver.",
+            "journal": "Cellular physiology and biochemistry : international journal of experimental cellular physiology, biochemistry, and pharmacology",
+            "year": "2015",
+            "authors": [
+              "Abdelazim Samy A",
+              "Darwish Hebatallah A",
+              "Ali Sanaa A",
+              "Rizk Maha Z",
+              "Kadry Mai O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alanine Transaminase",
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Antioxidants",
+              "Aspartate Aminotransferases",
+              "Carnosine",
+              "Cell Line, Tumor",
+              "Chemical and Drug Induced Liver Injury",
+              "Glutathione Transferase",
+              "Hep G2 Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25896716/"
+          },
+          {
+            "pmid": "31618080",
+            "title": "Vitamin E supplementation ameliorates the hepatotoxicity induced by Tramadol: toxicological, histological and immunohistochemical study.",
+            "abstract": "Several deleterious effects of Tramadol including deaths were reported especially when used in large doses. Being metabolized mainly in the liver, Tramadol have serious hepatotoxic effects. This study investigates the effect of vitamin E on Tramadol-induced hepatotoxicity in rats by evaluating the antioxidant biochemical markers, the histopathological and immunohistochemical changes.Thirty adult mature male albino rats were divided into five groups (Gs); G1: negative control; G2: received Tramadol 150 mg/kg, G 3-5: received Tramadol plus vitamin E in concentrations of 50 mg/kg, 100 mg/kg and 200 mg/kg respectively. Liver function parameters and oxidative markers in liver tissue (CAT, SOD, GSH, and MDA) were estimated. Liver samples were processed for histopathological and immunohistochemical (Caspase 3 and TNF[Formula: see text]) examinations. The results indicated that Sub-chronic administration of Tramadol resulted in impaired liver functions, increased oxidative stress parameters wi",
+            "journal": "Toxicology mechanisms and methods",
+            "year": "2020",
+            "authors": [
+              "Ibrahim Mahrous A",
+              "Ibrahim Hussein M",
+              "Mohamed Alaa A",
+              "Tammam Hany G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Body Weight",
+              "Caspase 3",
+              "Chemical and Drug Induced Liver Injury",
+              "Dietary Supplements",
+              "Immunohistochemistry",
+              "Liver",
+              "Male",
+              "Organ Size",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31618080/"
+          },
+          {
+            "pmid": "29068590",
+            "title": "Vitamin E (α tocopherol) attenuates toxicity and oxidative stress induced by aflatoxin in rats.",
+            "abstract": "Aflatoxins are toxic metabolites produced by Aspergillus flavus and Aspergillus parasiticus and are classified as group I carcinogens by the International Agency for Research on Cancer (IARC).",
+            "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
+            "year": "2017",
+            "authors": [
+              "Yılmaz Seval",
+              "Kaya Emre",
+              "Comakli Selim"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aflatoxin B1",
+              "Animals",
+              "Antioxidants",
+              "Biomarkers",
+              "Cardiotoxicity",
+              "Chemical and Drug Induced Liver Injury",
+              "Disease Models, Animal",
+              "Heart Diseases",
+              "Kidney",
+              "Kidney Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29068590/"
+          },
+          {
+            "pmid": "15959406",
+            "title": "[Nonalcoholic steatohepatitis].",
+            "abstract": "Nonalcoholic steatohepatitis (NASH) is a condition characterized by excessive deposition of fat in the liver (steatosis), inflammation and hepatocellular necrosis. While steatosis alone is generally a benign and stable condition, NASH can have a dire prognosis in a minority of patients, mainly because of fibrosis occurrence and progression to cirrhosis. Life-threatening complications such as liver failure and hepatocellular carcinoma have been described in NASH-induced cirrhosis. Insulin resistance is almost universally found in patients with NASH and the main risk factors for this condition are overweight and diabetes. Improvement in insulin sensitivity, whether achieved by diet, exercise and/or pharmacological interventions, results in a dramatic reduction of liver fat and inflammation and fibrosis as well. Therefore NASH should be viewed as the hepatic phenotypic manifestation of insulin resistance and a bona fide component of the metabolic syndrome. Liver injury should be assessed ",
+            "journal": "Annales d'endocrinologie",
+            "year": "2005",
+            "authors": [
+              "Ratziu V",
+              "Tahiri M",
+              "Bonyhay L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chronic Disease",
+              "Fatty Liver",
+              "Humans",
+              "Inflammation",
+              "Liver",
+              "Necrosis",
+              "PPAR gamma",
+              "Rosiglitazone",
+              "Thiazolidinediones",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15959406/"
+          },
+          {
+            "pmid": "37442019",
+            "title": "Selenium and vitamin E ameliorate lead acetate-induced hepatotoxicity in rats via suppression of oxidative stress, mRNA of heat shock proteins, and NF-kB production.",
+            "abstract": "Lead exposure results in a terrible rise in heat shock protein levels.",
+            "journal": "Journal of trace elements in medicine and biology : organ of the Society for Minerals and Trace Elements (GMS)",
+            "year": "2023",
+            "authors": [
+              "Mesalam Noura M",
+              "Ibrahim Marwa A",
+              "Mousa Mohamed R",
+              "Said Noha Mohamed"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Rats",
+              "Animals",
+              "Selenium",
+              "Antioxidants",
+              "Vitamin E",
+              "Heat-Shock Proteins",
+              "NF-kappa B",
+              "Lead",
+              "RNA, Messenger",
+              "Oxidative Stress"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37442019/"
+          },
+          {
+            "pmid": "25637740",
+            "title": "Comparative hepatoprotective effects of tocotrienol analogs against drug-induced liver injury.",
+            "abstract": "Oxidative stress plays a major part in the pathogenesis of drug-induced liver injury. Yet, overcoming it with other xenobiotics impose additional risks. In this study, we consider the use of natural-occurring and purified Vitamin E analogs as hepatoprotective agents. Vitamin E is well-known for its intrinsic antioxidant property even though the differential effect of specific analogs of tocopherol (TP) and tocotrienol (T3) is still not ascertained. This study investigates the protective effect of T3 analogs (α-, δ-, γ-) in comparison with α-TP followed by assessing the underlying mechanisms of the cytoprotective T3 analog(s) in two xenobiotics-induced liver injury models using (1) acetaminophen (APAP)- and (2) hydrogen peroxide (H2O2). Both α-TP and α-T3 exerted cytoprotective effects while only lower concentration of γ-T3 was effective in inhibiting both toxicants induced injury. α-TP/α-T3 protected hepatocytes from APAP and H2O2-induced liver injury through arresting free radicals an",
+            "journal": "Redox biology",
+            "year": "2015",
+            "authors": [
+              "Tan Cheau Yih",
+              "Saw Tzuen Yih",
+              "Fong Chee Wai",
+              "Ho Han Kiat"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Animals",
+              "Antioxidants",
+              "Caspase 3",
+              "Cell Line, Transformed",
+              "Cell Survival",
+              "Gene Expression Regulation",
+              "Hepatocytes",
+              "Hydrogen Peroxide",
+              "Interleukin-6"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25637740/"
+          },
+          {
+            "pmid": "31535700",
+            "title": "Protective role of vitamin E against cadmium induced oxidative stress into the rat liver.",
+            "abstract": "Cadmium (Cd) is a toxic heavy metal used in various industrial applications and therefore can cause, both by environmental or professional exposure, several damage in all body systems. The present study was developed to determine the toxic effect of high dose of Cd on the rat's liver as well as the putative protective effect of vitamin E.",
+            "journal": "La Tunisie medicale",
+            "year": "2019",
+            "authors": [
+              "Bahri Sana",
+              "Kaddour Hadhemi",
+              "Karoui Dhouha",
+              "Bouraoui Saadia",
+              "Amri Mohamed"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Cadmium",
+              "Catalase",
+              "Chemical and Drug Induced Liver Injury",
+              "Cytoprotection",
+              "Hepatocytes",
+              "Lipid Peroxidation",
+              "Liver",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31535700/"
+          },
+          {
+            "pmid": "12927377",
+            "title": "Silymarin and vitamin E reduce amiodarone-induced lysosomal phospholipidosis in rats.",
+            "abstract": "Several antioxidants have been shown to reduce lysosomal phospholipidosis, which is a potential mechanism of amiodarone toxicity, and prevent amiodarone toxicity by antioxidant and/or non-antioxidant mechanisms. The aim of this study was to test whether the co-administration of two structurally different antioxidants vitamin E and silymarin with amiodarone can reduce amiodarone-induced lysosomal phospholipidosis, and if yes, by reducing the tissue concentration of amiodarone and desethylamiodarone or by their antioxidant action. To this end, male Fischer 344 rats were treated by gavage once a day for 3 weeks and randomly assigned to the following four experimental groups: 1, control; 2, amiodarone (150 mg/(kg per day)); 3, amiodarone (150 mg/(kg per day)) plus vitamin E (100 mg/(kg per day)); 4, amiodarone (150 mg/(kg per day)) plus silymarin (60 mg/(kg per day)) treated groups. Total plasma phospholipid (PL), liver-conjugated diene, thiobarbituric acid reactive substances (TBARSs), am",
+            "journal": "Toxicology",
+            "year": "2003",
+            "authors": [
+              "Agoston Márta",
+              "Orsi Ferenc",
+              "Fehér Erzsébet",
+              "Hagymási Krisztina",
+              "Orosz Zsuzsa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Animals",
+              "Antioxidants",
+              "Chemical and Drug Induced Liver Injury",
+              "Hepatocytes",
+              "Liver Diseases",
+              "Lysosomes",
+              "Male",
+              "Microscopy, Electron",
+              "Phospholipids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12927377/"
+          },
+          {
+            "pmid": "15556258",
+            "title": "Pilot study on the effect of parenteral vitamin E on ischemia and reperfusion induced liver injury: a double blind, randomized, placebo-controlled trial.",
+            "abstract": "Liver surgery usually involves ischemia and reperfusion (I/R) which results in oxidative stress and cell damage. The administration of antioxidants should diminish or prevent this damage. The purpose of this study was to investigate the effect of the antioxidant vitamin E on I/R injury.",
+            "journal": "Clinical nutrition (Edinburgh, Scotland)",
+            "year": "2004",
+            "authors": [
+              "Bartels Michael",
+              "Biesalski H K Hans K",
+              "Engelhart Karin",
+              "Sendlhofer Gerald",
+              "Rehak Peter"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antioxidants",
+              "Area Under Curve",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Intensive Care Units",
+              "Length of Stay",
+              "Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15556258/"
+          },
+          {
+            "pmid": "35961822",
+            "title": "Endoplasmic reticulum-targeted inhibition of CYP2E1 with vitamin E nanoemulsions alleviates hepatocyte oxidative stress and reverses alcoholic liver disease.",
+            "abstract": "Alcoholic liver disease (ALD) is a global healthcare problem and socioeconomic issue that is primarily driven by chronic and/or excessive alcohol consumption. Upon alcohol exposure, parenchymal hepatocytes (HCs) up-regulate endoplasmic reticulum (ER)-localized monooxygenase Cytochrome P450 family 2 subfamily E member 1 (CYP2E1) to accelerate the metabolism of ethanol (EtOH), which concurrently exacerbates the production and accumulation of toxic metabolic intermediates, especially reactive oxygen species (ROS), playing a decisive role in the initiation and perpetuation of alcohol-induced liver injury. ALD patients without timely intervention may develop a spectrum of metabolic and functional disorders in the liver, including hepatic steatosis, hepatitis, fibrosis, and even cirrhosis. However, up to now, there have been no FDA-approved pharmacological or nutritional therapeutics for treating patients with ALD, and an effective amelioration of alcohol-induced hepatotoxicity with satisfac",
+            "journal": "Biomaterials",
+            "year": "2022",
+            "authors": [
+              "Shi Yingying",
+              "Liu Yu",
+              "Wang Sijie",
+              "Huang Jiaxin",
+              "Luo Zhenyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cytochrome P-450 CYP2E1",
+              "Endoplasmic Reticulum",
+              "Ethanol",
+              "Hepatocytes",
+              "Humans",
+              "Liver",
+              "Liver Diseases, Alcoholic",
+              "Oxidative Stress",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35961822/"
+          },
+          {
+            "pmid": "17659596",
+            "title": "Subcutaneous vitamin E ameliorates liver injury in an in vivo model of steatocholestasis.",
+            "abstract": "Several genetic metabolic liver diseases share the pathological features of combined steatosis and cholestasis, or steatocholestasis. The aims of this study were to develop and characterize an in vivo model for steatocholestasis and to evaluate the effects of an antioxidant treatment on liver injury, oxidative stress, and mitochondrial perturbations in this model. Obese and lean Zucker rats received intravenous (IV) injections of glycochenodeoxycholic acid (GCDC) and were killed 4 hours later. Liver enzymes were measured; the liver histology was assessed, and hepatic mitochondria were analyzed for mitochondrial lipid peroxidation. In separate experiments, rats received daily injections of subcutaneous (SQ) vitamin E before GCDC infusion. Bile acid-induced injury (serum AST and ALT and liver histology) was more severe in the obese rats than in the lean rats, characterized predominantly by extensive cell necrosis with minimal evidence of apoptosis. SQ vitamin E provided significant prote",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2007",
+            "authors": [
+              "Soden Jason S",
+              "Devereaux Michael W",
+              "Haas Joel E",
+              "Gumpricht Eric",
+              "Dahl Rolf"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphate",
+              "Alanine Transaminase",
+              "Animals",
+              "Apoptosis",
+              "Aspartate Aminotransferases",
+              "Fatty Liver",
+              "Glycochenodeoxycholic Acid",
+              "Injections, Subcutaneous",
+              "Liver",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17659596/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "microvillus inclusion disease",
+        "txgnn_score": 0.9996479749679564,
+        "txgnn_rank": 912,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperbiliverdinemia",
+        "txgnn_score": 0.9996123909950256,
+        "txgnn_rank": 978,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Navajo neurohepatopathy",
+        "txgnn_score": 0.9995753169059752,
+        "txgnn_rank": 1030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nevus of Ito",
+        "txgnn_score": 0.99956876039505,
+        "txgnn_rank": 1041,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29677015",
+            "title": "Oral Tranexamic Acid for the Treatment of Melasma: A Review.",
+            "abstract": "Melasma is a common acquired disorder of hyperpigmentation that commonly affects those with skin of color. Tranexamic acid (TXA) is a novel treatment for melasma that has a multimodal mechanism of action.",
+            "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+            "year": "2018",
+            "authors": [
+              "Bala Harini R",
+              "Lee Senhong",
+              "Wong Celestine",
+              "Pandya Amit G",
+              "Rodrigues Michelle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Ascorbic Acid",
+              "Dermatologic Agents",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Melanosis",
+              "Tranexamic Acid",
+              "Treatment Outcome",
+              "Vitamin B Complex",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29677015/"
+          },
+          {
+            "pmid": "37737953",
+            "title": "Oxidative Stress and Potential Antioxidant Therapies in Vitiligo: A Narrative Review.",
+            "abstract": "Vitiligo is a chronic skin disorder characterised by the loss of melanocytes and subsequent skin depigmentation. Although many theories have been proposed in the literature, none alone explains the pathogenesis of vitiligo. Oxidative stress has been identified as a potential factor in the pathogenesis of vitiligo. A growing body of evidence suggests that antioxidant therapies may offer a promising approach to managing this condition. This review summarises the potential mechanisms of oxidative stress and the types of melanocyte death in vitiligo. We also provide a brief overview of the most commonly studied antioxidants. Melanocytes in vitiligo are thought to be damaged by an accumulation of reactive oxygen species to destroy the structural and functional integrity of their DNA, lipids, and proteins. Various causes, including exogenous and endogenous stress factors, an imbalance between prooxidants and antioxidants, disruption of antioxidant pathways, and gene polymorphisms, lead to th",
+            "journal": "Molecular diagnosis & therapy",
+            "year": "2023",
+            "authors": [
+              "Białczyk Aleksandra",
+              "Wełniak Adam",
+              "Kamińska Barbara",
+              "Czajkowski Rafał"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antioxidants",
+              "Vitiligo",
+              "Reactive Oxygen Species",
+              "Oxidative Stress",
+              "Furocoumarins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37737953/"
+          },
+          {
+            "pmid": "18681152",
+            "title": "Topical vitamins.",
+            "abstract": "Vitamins are a natural constituent of human skin and are part of a system of antioxidants that protect the skin from oxidative stress. There has been an increased interest in the use of natural antioxidants such as vitamins to help restore dermal antioxidant activity. Vitamins A, C, E, and B3 have been shown to have potent antioxidant and anti-inflammatory properties, but to achieve optimal effectiveness, products must be delivered in appropriate formulations. Products containing alpha-tocopherol (vitamin E), L-ascorbic acid (vitamin C), retinol (vitamin A), and niacinamide (vitamin B3), are effective for the treatment of photoaging. These compounds have also shown effectiveness in the treatment of inflammatory dermatoses, acne, and pigmentation disorders and wound healing. There is emerging evidence that combinations of vitamins have additive effects that provide enhanced efficacy compared with individual compounds.",
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2008",
+            "authors": [
+              "Burgess Cheryl"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Antioxidants",
+              "Humans",
+              "Oxidative Stress",
+              "Skin Aging",
+              "Vitamins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18681152/"
+          },
+          {
+            "pmid": "38071959",
+            "title": "Yellow Nail Syndrome: Analysis of 23 Consecutive Patients and Effect of Combined Fluconazole-Vitamin-E Treatment.",
+            "abstract": "Yellow nail syndrome (YNS), a very rare disorder of unknown etiology, is characterized by a triad associating yellow nails, respiratory manifestations, and lymphedema. YNS treatment remains non-codified.",
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2024",
+            "authors": [
+              "Benassaia Erwin",
+              "Abba Sarah",
+              "Fourgeaud Caroline",
+              "Mihoubi Amina",
+              "Vignes Stéphane"
+            ],
+            "pub_types": [
+              "News"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Infant, Newborn",
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Yellow Nail Syndrome",
+              "Fluconazole",
+              "Vitamin E",
+              "Retrospective Studies",
+              "Lymphedema"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38071959/"
+          },
+          {
+            "pmid": "22986950",
+            "title": "The antioxidant role of paraoxonase 1 and vitamin E in three autoimmune diseases.",
+            "abstract": "To investigate the role of paraoxonase 1 (PON1) and vitamin E in the pathogenesis of some autoimmune diseases, and to correlate their levels with the disease activity.",
+            "journal": "Skin pharmacology and physiology",
+            "year": "2013",
+            "authors": [
+              "Ramadan R",
+              "Tawdy A",
+              "Abdel Hay R",
+              "Rashed L",
+              "Tawfik D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Alopecia",
+              "Antioxidants",
+              "Aryldialkylphosphatase",
+              "Autoimmune Diseases",
+              "Case-Control Studies",
+              "Child",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22986950/"
+          },
+          {
+            "pmid": "39624091",
+            "title": "Healthy lifestyle choices: new insights into vitiligo management.",
+            "abstract": "The treatment of vitiligo is complex, and providing guidance based on lifestyle habits is a good option that has not been summarized or analyzed.",
+            "journal": "Frontiers in immunology",
+            "year": "2024",
+            "authors": [
+              "Liang Xin",
+              "Guo Fei",
+              "Fan Qian",
+              "Cai Xiaoce",
+              "Wang Jiao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vitiligo",
+              "Healthy Lifestyle",
+              "Male",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39624091/"
+          },
+          {
+            "pmid": "32815582",
+            "title": "Treatment of melasma: a review of less commonly used antioxidants.",
+            "abstract": "Melasma, a common cause for seeking dermatologic care, is a chronic condition of skin hyperpigmentation. With a poorly understood pathogenesis, and no universal cure, melasma is a challenge for many dermatologists. For decades, there has been investigation into the role of oxidative stress in melasma. In this literature review, we introduce the role of oxidative stress in melasma and discuss the function of various topical and oral antioxidant therapies for patients suffering from melasma. Numerous studies have shown efficacy of various antioxidant therapies for treatment of hyperpigmentation, and in this review, we focus primarily on those with less widespread use. Vitamin E, niacinamide, polypodium leucotomos, pycnogenol, grape seed extract, amino fruit acids, phytic acid, zinc, silymarin, Korean red ginseng powder, plant extracts, and parsley all have well-demonstrated evidence of antioxidant properties, and these substances have been studied in the context of skin hyperpigmentation",
+            "journal": "International journal of dermatology",
+            "year": "2021",
+            "authors": [
+              "Babbush Kayla M",
+              "Babbush Remy A",
+              "Khachemoune Amor"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifibrinolytic Agents",
+              "Antioxidants",
+              "Humans",
+              "Hyperpigmentation",
+              "Melanosis",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32815582/"
+          },
+          {
+            "pmid": "28241848",
+            "title": "Yellow nail syndrome: a review.",
+            "abstract": "Yellow nail syndrome (YNS; OMIM 153300, ORPHA662) is a very rare disorder that almost always occurs after 50 years of age but a juvenile or familial form has also been observed. YNS is diagnosed based on a triad associating yellow nail discoloration, pulmonary manifestations (chronic cough, bronchiectasia, pleural effusion) and lower limb lymphedema. Chronic sinusitis is frequently associated with the triad. YNS etiology remains unknown but a role of lymphatic impairment is usually evoked. YNS is more frequently isolated but may be associated in rare cases with autoimmune diseases, other clinical manifestations implicating lymphatic functions or cancer and, hence, is also considered a paraneoplastic syndrome. YNS management is symptomatic and not codified. YNS can resolve spontaneously. Oral vitamin E alone or even better when associated with triazole antifungals may achieve partial or total disappearance of nail discoloration. Pleural effusion can be treated surgically, with decortica",
+            "journal": "Orphanet journal of rare diseases",
+            "year": "2017",
+            "authors": [
+              "Vignes Stéphane",
+              "Baran Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lung Diseases",
+              "Lymphedema",
+              "Sinusitis",
+              "Yellow Nail Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28241848/"
+          },
+          {
+            "pmid": "21585272",
+            "title": "Secretion of arsenic, cholesterol, vitamin E, and zinc from the site of arsenical melanosis and leucomelanosis in skin.",
+            "abstract": "Melanosis and leucomelanosis with or without keratosis are the earliest symptoms of arsenicosis. Uneven distribution of arsenical melanosis and leucomelanosis in skin led us to investigate the possibility of preferential secretion of arsenic and three constituents of sweat; cholesterol, vitamin E, and zinc.",
+            "journal": "Clinical toxicology (Philadelphia, Pa.)",
+            "year": "2011",
+            "authors": [
+              "Yousuf A K M",
+              "Misbahuddin Mir",
+              "Rahman Md Sayedur"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Arsenic",
+              "Arsenic Poisoning",
+              "Cholesterol",
+              "Humans",
+              "Male",
+              "Melanosis",
+              "Middle Aged",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21585272/"
+          },
+          {
+            "pmid": "40692045",
+            "title": "Diagnosis and management of yellow nail syndrome: An international multi-institutional retrospective cohort study of 111 cases by an expert panel.",
+            "abstract": "Yellow nail syndrome (YNS) is a rare syndrome with unknown pathogenesis characterized by a clinical triad of respiratory disease, lymphedema, and xanthonychia. Diagnosis is challenging as clinical manifestations often do not occur concurrently. Due to disease rarity, few studies to date have characterized YNS or assessed therapeutics.",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2025",
+            "authors": [
+              "Curtis Kaya L",
+              "Piraccini Bianca Maria",
+              "Starace Michela",
+              "Rapparini Luca",
+              "Richert Bertrand"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Retrospective Studies",
+              "Male",
+              "Yellow Nail Syndrome",
+              "Female",
+              "Middle Aged",
+              "Adult",
+              "Vitamin E",
+              "Antifungal Agents",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40692045/"
+          },
+          {
+            "pmid": "21510012",
+            "title": "Yellow nail syndrome.",
+            "abstract": "Yellow nail syndrome is an acquired condition of unknown etiology, rarely seen in children, characterized by a triad of thickened yellow nails, primary lymphedema, and respiratory manifestations. We report an 8-year-old girl with this syndrome who showed improvement with Fluconazole, 200 mg once weekly and vitamin E, 1000 IU once daily.",
+            "journal": "Pediatric dermatology",
+            "year": "2010",
+            "authors": [
+              "Al Hawsawi Khalid",
+              "Pope Elena"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Child",
+              "Female",
+              "Fluconazole",
+              "Humans",
+              "Nails",
+              "Vitamin E",
+              "Vitamins",
+              "Yellow Nail Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21510012/"
+          },
+          {
+            "pmid": "11809591",
+            "title": "The effects of vitamin E on the skin lipid peroxidation and the clinical improvement in vitiligo patients treated with PUVA.",
+            "abstract": "Solar-simulated UV-irradiation causes changes in the enzymic antioxidant defence system in the human epidermis. The aim of this study was to investigate the effects on the skin lipid peroxidation and clinical improvement in vitiligo patients treated with PUVA. The first group of patients was treated for six months with psoralen plus UV-A (n = 15). The second group of patients was treated for six months with psoralen plus UV-A vs vitamin E (900 IU daily perorally) (n = 15). There was no significant difference in the clinical improvement between the group of patients who were treated with PUVA and vitamin E and the group of patients treated with PUVA alone (p > 0.05). Statistical analysis revealed a significant difference between the levels of lipoperoxides before and after treatment in the first group (p < 0.05), but there was no significant difference between the levels of lipoperoxides before and after treatment in the second group (p > 0.05). According to our results, vitamin E may p",
+            "journal": "European journal of dermatology : EJD",
+            "year": "2002",
+            "authors": [
+              "Akyol Melih",
+              "Celik V Kenan",
+              "Ozcelik Sedat",
+              "Polat Murat",
+              "Marufihah Mehmet"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Female",
+              "Humans",
+              "Lipid Peroxidation",
+              "Male",
+              "Middle Aged",
+              "PUVA Therapy",
+              "Skin",
+              "Vitamin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11809591/"
+          },
+          {
+            "pmid": "25285994",
+            "title": "Evaluation of an oral supplement containing Phyllanthus emblica fruit extracts, vitamin E, and carotenoids in vitiligo treatment.",
+            "abstract": "Phyllanthus emblica, vitamin E, and caroteinods are compounds showing antioxidative, anti-inflammatory, and repigmenting effects, whose role in vitiligo treatment has not been evaluated so far. Sixty-five subjects (group A) were treated with one tablet of an oral supplement containing P. emblica (100 mg), vitamin E (10 mg), and carotenoids (4.7 mg) three times/day for 6 months and compared with a control group (group B, 65 patients), which instead was not treated with antioxidants. Both groups were simultaneously treated with a comparable topical therapy and/or phototherapy. After a 6 months follow-up, a significantly higher number of patients in group A had a mild repigmentation on the head/neck regions (p = 0.019) and on the trunk (trend, p = 0.051). The number of patients who presented no repigmentation in head/neck, trunk, upper, and lower limbs was significantly higher in group B (respectively, p = 0.009, p = 0.001, p = 0.001, p = 0.025). Moreover, group B patients showed higher s",
+            "journal": "Dermatologic therapy",
+            "year": "2015",
+            "authors": [
+              "Colucci Roberta",
+              "Dragoni Federica",
+              "Conti Rossana",
+              "Pisaneschi Lisa",
+              "Lazzeri Linda"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Antioxidants",
+              "Carotenoids",
+              "Combined Modality Therapy",
+              "Drug Combinations",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25285994/"
+          },
+          {
+            "pmid": "7469656",
+            "title": "Vitamin E and methylene blue in the prevention of abnormal pigmentation in the seminal vesicles of the castrated golden hamster.",
+            "abstract": "The present work reports studies carried out in order to prove if prevention of the abnormal, yellow-brown pigment that is present in the seminal vesicles of the castrated hamster was possible by means of vitamin E (from 20 to 500 mg. per cent), methylene blue (126 mg. per cent), selenium dioxide (from 20 to 200 mcg per cent) and Licidril (dimethyl-aminoethyl-p-chlorophenox and acetate 1 per cent) given in the basic diet. Prepuberal hamsters (strain Ch CM) were used; they were fed during 120 experimental days Purina Laboratory Chow as a basic diet and were castrated at the beginning of the experiment. Results allow us to conclude that 100 to 500 mg per cent of vitamin E levels and methylene blue at the administrated level prevent the macroscopic evidence of this pigment whereas selenium dioxide and Licidril do not prevent the formation of this pigment at levels administrated. Further, in this work we discuss different aspects and implications of study results that establish the existen",
+            "journal": "Archivos de investigacion medica",
+            "year": "1980",
+            "authors": [
+              "Granados H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Castration",
+              "Cricetinae",
+              "Drug Evaluation, Preclinical",
+              "Male",
+              "Methylene Blue",
+              "Phenoxyacetates",
+              "Pigmentation Disorders",
+              "Selenium",
+              "Seminal Vesicles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7469656/"
+          },
+          {
+            "pmid": "29721969",
+            "title": "Bisretinoid Photodegradation Is Likely Not a Good Thing.",
+            "abstract": "Retinaldehyde adducts (bisretinoids) accumulate in retinal pigment epithelial (RPE) cells as lipofuscin. Bisretinoids are implicated in some inherited and age-related forms of macular degeneration that lead to the death of RPE cells and diminished vision. By comparing albino and black-eyed mice and by rearing mice in darkness and in cyclic light, evidence indicates that bisretinoid fluorophores undergo photodegradation in the eye (Ueda et al. Proc Natl Acad Sci 113:6904-6909, 2016). Given that the photodegradation products modify and impair cellular and extracellular molecules, these processes likely impart cumulative damage to retina.",
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2018",
+            "authors": [
+              "Ueda Keiko",
+              "Kim Hye Jin",
+              "Zhao Jin",
+              "Sparrow Janet R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "ATP-Binding Cassette Transporters",
+              "Albinism",
+              "Amines",
+              "Animals",
+              "Antioxidants",
+              "Darkness",
+              "Eye Color",
+              "Free Radical Scavengers",
+              "Light",
+              "Lipofuscin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29721969/"
+          },
+          {
+            "pmid": "25607790",
+            "title": "Evaluation of efficacy and tolerance of a nighttime topical antioxidant containing resveratrol, baicalin, and vitamin e for treatment of mild to moderately photodamaged skin.",
+            "abstract": "Resveratrol is an effective anti-aging molecule with diverse biologic activity. It functions as a dual antioxidant that can neutralize free radicals and increase intrinsic antioxidant capacity. Additionally resveratrol increases mitochondrial biogenesis and has anti-inflammatory, anti-diabetic, and anti-cancer activity. In this paper we will focus on the use of topically applied resveratrol using a proprietary blend containing 1% resveratrol, 0.5% baicalin, and 1% vitamin E. This stabilized high concentration formulation demonstrates percutaneous absorption and alterations in gene expression such as hemoxygenase-1 (HO-1), vascular endothelial growth factor (VEGFA), and collagen 3 (COL3A1). Clinical assessment showed a statistically significant improvement in fine lines and wrinkles, skin firmness, skin elasticity, skin laxity, hyperpigmentation, radiance, and skin roughness over baseline in 12 weeks. Ultrasound measurements in the periorbital area showed an average improvement of 18.9%",
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2014",
+            "authors": [
+              "Farris Patricia",
+              "Yatskayer Margarita",
+              "Chen Nannan",
+              "Krol Yevgeniy",
+              "Oresajo Christian"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Adult",
+              "Antioxidants",
+              "Cosmetic Techniques",
+              "Drug Combinations",
+              "Female",
+              "Flavonoids",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hyperpigmentation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25607790/"
+          },
+          {
+            "pmid": "40415192",
+            "title": "Impact of Air Pollution on Skin Pigmentation: Mechanisms and Protective Strategies.",
+            "abstract": "Air pollution, a critical global health challenge, impacts nearly the entire world population, with low- and middle-income countries bearing a disproportionate burden. In 2021, the World Health Organization (WHO) stated that air pollution is the most urgent and largest public health problem. While its role in respiratory and cardiovascular diseases is well established, its effects on skin, particularly in inducing pigmentation, remain underexplored. The pollutants, particularly particulate matter, penetrate the skin and activate pathways like the aryl hydrocarbon receptor (AhR) and promote the production of reactive oxygen species (ROS). This oxidative stress exacerbates inflammatory responses and triggers melanocyte stimulation, leading to hyperpigmentation disorders such as melasma, senile lentigines, and diffuse facial pigmentation. Additionally, the synergistic interaction of air pollution with ultraviolet radiation (UVR) exacerbates its impact on skin. Emerging evidence highlights",
+            "journal": "International journal of dermatology",
+            "year": "2025",
+            "authors": [
+              "Khunger Niti",
+              "Dash Anshuman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Air Pollution",
+              "Ultraviolet Rays",
+              "Oxidative Stress",
+              "Skin Pigmentation",
+              "Reactive Oxygen Species",
+              "Antioxidants",
+              "Particulate Matter",
+              "Skin",
+              "Air Pollutants"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40415192/"
+          },
+          {
+            "pmid": "16217243",
+            "title": "A randomized, double-blind placebo-controlled trial evaluating the effects of vitamin E and selenium on arsenic-induced skin lesions in Bangladesh.",
+            "abstract": "We sought to determine whether supplementation of vitamin E (alpha-tocopherol), selenium (L-selenomethionine), or their combination improves arsenical skin lesions.",
+            "journal": "Journal of occupational and environmental medicine",
+            "year": "2005",
+            "authors": [
+              "Verret Wendy J",
+              "Chen Yu",
+              "Ahmed Alauddin",
+              "Islam Tariqul",
+              "Parvez Faruque"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Arsenic Poisoning",
+              "Bangladesh",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Environmental Exposure",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16217243/"
+          },
+          {
+            "pmid": "32593085",
+            "title": "Serum level of antioxidant vitamins and minerals in patients with vitiligo, a systematic review and meta-analysis.",
+            "abstract": "Antioxidant status is considered as important factor in the pathogenesis of vitiligo. However, there are controversial findings about serum status of antioxidants in vitiligo patients. The purpose of this study was to systematically review the evidences comparing the serum levels of antioxidant vitamins and minerals between vitiligo patients and controls, and performing meta-analysis of the results.",
+            "journal": "Journal of trace elements in medicine and biology : organ of the Society for Minerals and Trace Elements (GMS)",
+            "year": "2020",
+            "authors": [
+              "Huo Jing",
+              "Liu Taibin",
+              "Huan Yuchao",
+              "Li Fenghua",
+              "Wang Rui"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antioxidants",
+              "Ascorbic Acid",
+              "Humans",
+              "Selenium",
+              "Trace Elements",
+              "Vitamin E",
+              "Vitamins",
+              "Vitiligo",
+              "Zinc"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32593085/"
+          },
+          {
+            "pmid": "39355739",
+            "title": "Explicating the multifunctional roles of tocotrienol and squalene in promoting skin health.",
+            "abstract": "The skin is the largest organ in the integumentary system, protecting against various external threats, including ultraviolet exposure, heat, infections, dehydration and mechanical injuries. Skin disorders can arise from various causes, including allergic reactions or breaches in the skin barrier, which allow microorganisms or chemicals to penetrate the sweat ducts. These conditions encompass a wide range of issues, including acne, xerosis (dry skin), fungal infections, atopic dermatitis (eczema) and psoriasis. Collectively, these ailments affect a significant portion of the global population, impacting approximately one-third of people worldwide. Additionally, oxidative stress induced by ageing and prolonged exposure to ultraviolet rays can manifest in visible alterations such as pigmentation, wrinkling and dehydration. Recent investigations have underscored the potential of natural antioxidant compounds in safeguarding skin health and combating ageing-related changes. Tocotrienols, a",
+            "journal": "Skin health and disease",
+            "year": "2024",
+            "authors": [
+              "Morgan Nevvin Raaj",
+              "Magalingam Kasthuri Bai",
+              "Radhakrishnan Ammu Kutty",
+              "Arumugam Mohan",
+              "Jamil Adawiyah"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39355739/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency",
+        "txgnn_score": 0.999464213848114,
+        "txgnn_rank": 1211,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mitochondrial DNA depletion syndrome, hepatocerebral form",
+        "txgnn_score": 0.9993020296096802,
+        "txgnn_rank": 1506,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00163",
+    "name": "Vitamin E",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Vitamin E"
+      },
+      "queried_at": "2026-03-09T09:18:32.039432",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Vitamin E"
+      },
+      "queried_at": "2026-03-09T09:18:35.025689",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "inborn disorder of bilirubin metabolism"
+      },
+      "queried_at": "2026-03-09T09:18:36.186605",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "inborn disorder of bilirubin metabolism"
+      },
+      "queried_at": "2026-03-09T09:18:39.955233",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "inborn disorder of bilirubin metabolism"
+      },
+      "queried_at": "2026-03-09T09:18:42.133021",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "bilirubin metabolism disease"
+      },
+      "queried_at": "2026-03-09T09:18:45.220857",
+      "status": "success",
+      "result_count": 27,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "bilirubin metabolism disease"
+      },
+      "queried_at": "2026-03-09T09:18:48.908421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "bilirubin metabolism disease"
+      },
+      "queried_at": "2026-03-09T09:18:54.477856",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "hereditary North American Indian childhood cirrhosis"
+      },
+      "queried_at": "2026-03-09T09:18:54.981205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "hereditary North American Indian childhood cirrhosis"
+      },
+      "queried_at": "2026-03-09T09:18:59.231715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "hereditary North American Indian childhood cirrhosis"
+      },
+      "queried_at": "2026-03-09T09:18:59.999079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "drug-induced liver injury"
+      },
+      "queried_at": "2026-03-09T09:19:06.552377",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "drug-induced liver injury"
+      },
+      "queried_at": "2026-03-09T09:19:10.018008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "drug-induced liver injury"
+      },
+      "queried_at": "2026-03-09T09:19:18.422174",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "microvillus inclusion disease"
+      },
+      "queried_at": "2026-03-09T09:19:19.730662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "microvillus inclusion disease"
+      },
+      "queried_at": "2026-03-09T09:19:23.469740",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "microvillus inclusion disease"
+      },
+      "queried_at": "2026-03-09T09:19:24.293333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "hyperbiliverdinemia"
+      },
+      "queried_at": "2026-03-09T09:19:25.164924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "hyperbiliverdinemia"
+      },
+      "queried_at": "2026-03-09T09:19:28.589629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "hyperbiliverdinemia"
+      },
+      "queried_at": "2026-03-09T09:19:30.136829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "Navajo neurohepatopathy"
+      },
+      "queried_at": "2026-03-09T09:19:31.363922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "Navajo neurohepatopathy"
+      },
+      "queried_at": "2026-03-09T09:19:34.466144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "Navajo neurohepatopathy"
+      },
+      "queried_at": "2026-03-09T09:19:35.169667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "nevus of Ito"
+      },
+      "queried_at": "2026-03-09T09:19:36.223639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "nevus of Ito"
+      },
+      "queried_at": "2026-03-09T09:19:42.170494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "nevus of Ito"
+      },
+      "queried_at": "2026-03-09T09:19:45.862434",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
+      },
+      "queried_at": "2026-03-09T09:19:46.370550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
+      },
+      "queried_at": "2026-03-09T09:19:49.623579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
+      },
+      "queried_at": "2026-03-09T09:19:50.373449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "mitochondrial DNA depletion syndrome, hepatocerebral form"
+      },
+      "queried_at": "2026-03-09T09:19:51.034395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "mitochondrial DNA depletion syndrome, hepatocerebral form"
+      },
+      "queried_at": "2026-03-09T09:19:54.712176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vitamin E",
+        "disease": "mitochondrial DNA depletion syndrome, hepatocerebral form"
+      },
+      "queried_at": "2026-03-09T09:19:55.436621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:19:55.442105"
+  }
+}

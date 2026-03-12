@@ -1,0 +1,2820 @@
+{
+  "drug": {
+    "inn": "Gefitinib",
+    "drugbank_id": "DB00317",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "fibromatosis, gingival",
+        "txgnn_score": 0.9989328980445862,
+        "txgnn_rank": 2108,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of lung",
+        "txgnn_score": 0.9986453652381896,
+        "txgnn_rank": 2551,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+        "txgnn_score": 0.9985975623130798,
+        "txgnn_rank": 2615,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of which are characterised by the selective degeneration of the frontal and temporal cortices. Genetics is an important risk factor for frontotemporal dementia. Advances in clinical, imaging, and molecular characterisation have increased the accuracy of frontotemporal dementia diagnosis, thus allowing for the accurate differentiation of these syndromes from psychiatric disorders. As the understanding of the molecular basis for frontotemporal dementia improves, rational therapies are beginning to em",
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alzheimer Disease",
+              "Aphasia",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Mental Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26595641/"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontotemporal lobar degeneration, with a much broader range of signs and symptoms at presentation than has been previously considered. Accurate and early diagnosis of frontotemporal dementia is now a possibility due to development of neuropsychological measures with a special focus on social cognition. Advances in plasma and CSF biomarkers, and innovations in structural and functional imaging, will prove useful for future clinical trials in people with frontotemporal dementia.",
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Neurodegenerative Diseases",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35182511/"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. In this article, the authors discuss the clinical presentation, diagnostic criteria, neuropathology, genetics, and treatments of these disorders.",
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Frontotemporal Dementia",
+              "History, 20th Century",
+              "Humans",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28410663/"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive dementia (PPA). We searched PubMed, MEDLINE, and Google Scholar for articles about FTD disease published in English between January 1, 1975 till 2018. We used the search terms \"frontotemporal dementia,\" \"Fronto temporal dementia-motor neuron disease,\" \"dementia,\" \"cognition,\" \"behavioral variant,\" and \"primary progressive aphasia.",
+            "journal": "Neurology India",
+            "year": "2021",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Executive Function",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Language",
+              "Neurodegenerative Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34747778/"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Frontotemporal Dementia",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39620838/"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Neuroimaging",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32439025/"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia requires three of six clinically discriminating features (disinhibition, apathy/inertia, loss of sympathy/empathy, perseverative/compulsive behaviours, hyperorality and dysexecutive neuropsychological profile). 'Probable' behavioural variant frontotemporal dementia adds functional disability and characteristic neuroimaging, while behavioural variant frontotemporal dementia 'with definite frontotemporal lobar degeneration' requires histopathological confirmation or a pathogenic mutation. Sixteen bra",
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Behavior",
+              "Female",
+              "Frontotemporal Dementia",
+              "Guidelines as Topic",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neuropsychological Tests",
+              "Reproducibility of Results"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21810890/"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35678399/"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Drug Development",
+              "Frontotemporal Dementia",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38687620/"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disease, and limbic-predominant age-related transactivation response DNA-binding protein 43 encephalopathy, as well as exacerbate the progression of amyotrophic lateral sclerosis (ALS) and FTD caused by the hexanucleotide repeat expansion in the C9orf72 gene. Elevating and/or restoring PGRN levels is an attractive therapeutic strategy and is being investigated for neurodegenerative diseases through multiple mechanisms of action.",
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microglia",
+              "Mutation",
+              "Neurodegenerative Diseases",
+              "Progranulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35039149/"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several diagnostic criteria have been proposed, which in essence all require a history of slowly progressive motor symptoms, with UMN and LMN signs on neurological examination, clear spread of symptoms through the body, the exclusion of other disorder that cause similar symptoms and an EMG that it is compatible with LMN loss. ALS is heterogeneous disorder that may present in multitude ways, which makes the diagnosis challenging. Therefore, a systematic approach in the diagnostic process is required in li",
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Amyotrophic Lateral Sclerosis",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38802173/"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to further expand knowledge of the biologic processes at play in FTD and may in turn propel research toward identifying curative and preventative pharmacologic therapies. The aim of this chapter is to discuss the clinical, pathologic, and genetic complexities of FTD and related disorders.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31753137/"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several primary psychiatric disorders including bipolar affective disorder and schizophrenia. Emphasis will be placed on the behavioral variant of FTD (bvFTD), which is the common clinical syndrome seen with degeneration of the frontal lobes and is the most likely to be encountered in psychiatric settings.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Psychotropic Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31727221/"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Neuropsychological Tests",
+              "Psychiatric Status Rating Scales"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27042904/"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Positron-Emission Tomography",
+              "Primary Progressive Nonfluent Aphasia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28330541/"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based on protein accumulation in the brain. Pathogenic mutations in different genes have been identified. Specific pharmacological treatment is the main research goal. Meanwhile the management must focus on early correct diagnosis, symptom alleviation, caregiver support and educational interventions.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Behavioral Symptoms",
+              "C9orf72 Protein",
+              "Diagnostic Errors",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microtubule-Associated Proteins",
+              "Middle Aged",
+              "Neuroimaging",
+              "Personality Assessment",
+              "Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25998110/"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical Alzheimer disease and heralded by behavioral or communication manifestations. There is a behavioral variant and a language variant, referred to as primary progressive aphasia.",
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Neuropsychological Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26613998/"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the differential diagnosis and improving diagnostic accuracy. As such, neuroimaging is considered a core investigative tool in the evaluation of neurodegenerative disorders. Furthermore, patterns of neurodegeneration correlate with the underlying neuropathological substrates of the frontotemporal dementia syndromes, which can aid clinicians in determining the underlying etiology and improve prognostication. This review explores the advancements in neuroimaging and discusses the phenotypic and pathol",
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Genetic Variation",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neuroimaging",
+              "Positron-Emission Tomography",
+              "tau Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34389969/"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "abstract": "",
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Psychiatry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23611342/"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzheimer's disease commit crimes. The neurobiological origin of delinquency in dementia is poorly understood. On the basis of current study results first delinquency in older age can be explained by impairment of social cognition, difficulties in making appropriate emotional contributions and disturbed control of behavior. Affection of frontal and anterior temporal brain structures seem to be of high relevance. As dementia impairs criminal responsibility psychiatrists are confronted with a forensic ",
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Brain",
+              "Criminal Behavior",
+              "Criminals",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33575835/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hamartoma of lung",
+        "txgnn_score": 0.998581886291504,
+        "txgnn_rank": 2642,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung hilum carcinoma",
+        "txgnn_score": 0.9985522627830504,
+        "txgnn_rank": 2676,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22688581",
+            "title": "Salvage surgery for a super-responder by gefitinib therapy for advanced lung cancer.",
+            "abstract": "Salvage surgery after gefitinib therapy in a 66-year-old female with cT4N1M1a lung adenocarcinoma in the right middle lobe, which had gene mutation of epidermal growth factor receptor, is presented. The patient had bulky hilar lymph nodes, pleural dissemination, and pulmonary metastases in the ipsilateral lobes. After 3 courses of chemotherapy, the patient was treated with gefitinib, resulting in partial response, i.e. only the primary tumor and the middle lobe atelectasis remained. We performed the middle lobe lobectomy aimed at local control and pathological confirmation of the remaining tumor. Because the hilum of the middle lobe was occupied with scar tissue, its pulmonary vein had to be cut within the pericardium and its pulmonary artery and bronchus had to be transected simultaneously with a stapler. Pathological stage was yp-T2aN0N0 with Ef 2. For salvage surgery after good response to gefitinib therapy, it should be taken care to expose pulmonary vessels.",
+            "journal": "General thoracic and cardiovascular surgery",
+            "year": "2012",
+            "authors": [
+              "Hashimoto Kohei",
+              "Horinouchi Hirohisa",
+              "Ohtsuka Takashi",
+              "Kohno Mitsutomo",
+              "Izumi Yotaro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Aged",
+              "Antineoplastic Agents",
+              "Female",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Lymph Nodes",
+              "Neoplasm, Residual",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22688581/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung benign neoplasm",
+        "txgnn_score": 0.9985435009002686,
+        "txgnn_rank": 2688,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "24794908",
+            "title": "Gefitinib.",
+            "abstract": "Gefitinib (Iressa®) is a selective inhibitor of epidermal growth factor, a growth factor that plays a pivotal role in the control of cell growth, apoptosis, and angiogenesis. Gefitinib is clinically used for the treatment of chemoresistant non-small cell lung cancer patients. Gefitinib is freely soluble in dimethylsulphoxide but slightly soluble in methanol and ethanol. Several methods of gefitinib synthesis are included in this review. UV spectroscopy of gefitinib showed a λmax of approximately 331nm, whereas IR spectroscopy principal peaks were observed at 3400cm(-1) (NH), 2956cm(-1) (CH2, CH, alkyl), 1625cm(-1) (CC, CN), 1500cm(-1) (HCCH, aryl), 1110cm(-1) (CO), 1028cm(-1) (CF). In addition, different analytical methods for determination of gefitinib are also described in this review. Pharmacokinetically, after oral administration, gefitinib is slowly absorbed with bioavailability of approximately 60% in human. Gefitinib is metabolized extensively in the liver into five metabolites ",
+            "journal": "Profiles of drug substances, excipients, and related methodology",
+            "year": "2014",
+            "authors": [
+              "Rahman A F M Motiur",
+              "Korashy Hesham M",
+              "Kassem Mohammed Gabr"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Chemistry, Pharmaceutical",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24794908/"
+          },
+          {
+            "pmid": "39394098",
+            "title": "FTO/m6A mediates miR-138-5p maturation and regulates gefitinib resistance of lung adenocarcinoma cells by miR-138-5p/LCN2 axis.",
+            "abstract": "Lung cancer (LC) occupies an important position in the lethality of cancer patients. Acquired resistance to gefitinib in lung adenocarcinoma (LUAD) seriously affects the therapeutic efficacy of LC. Thus, it is of major scientific and clinical significance to probe the mechanism of gefitinib resistance in LUAD for ameliorating the prognosis of patients.",
+            "journal": "BMC cancer",
+            "year": "2024",
+            "authors": [
+              "Ding Dongxiao",
+              "Shang Wenjun",
+              "Shi Ke",
+              "Ying Junjie",
+              "Wang Li"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "MicroRNAs",
+              "Gefitinib",
+              "Drug Resistance, Neoplasm",
+              "Adenocarcinoma of Lung",
+              "Lung Neoplasms",
+              "Mice",
+              "Animals",
+              "Alpha-Ketoglutarate-Dependent Dioxygenase FTO",
+              "Lipocalin-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39394098/"
+          },
+          {
+            "pmid": "32778129",
+            "title": "FGL1 regulates acquired resistance to Gefitinib by inhibiting apoptosis in non-small cell lung cancer.",
+            "abstract": "This study investigated the role of fibrinogen-like protein 1 (FGL1) in regulating gefitinib resistance of PC9/GR non-small cell lung cancer (NSCLC).",
+            "journal": "Respiratory research",
+            "year": "2020",
+            "authors": [
+              "Sun Cuilan",
+              "Gao Weiwei",
+              "Liu Jiatao",
+              "Cheng Hao",
+              "Hao Jiqing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "A549 Cells",
+              "Animals",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Survival",
+              "Drug Resistance, Neoplasm",
+              "Fibrinogen",
+              "Gefitinib",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32778129/"
+          },
+          {
+            "pmid": "41461328",
+            "title": "Marsdenia tenacissima extract potentiates the anti-lung cancer efficacy of gefitinib through dual regulation of the Wnt pathway and ferroptosis.",
+            "abstract": "Lung cancer remains a leading cause of cancer-related mortality worldwide, and resistance to therapies such as gefitinib presents a significant challenge. Marsdenia tenacissima (Roxb.) Wight et Arn., a traditional Chinese medicinal herb, has shown promising anticancer activity, but its mechanisms, particularly in combination with gefitinib, remain insufficiently understood.",
+            "journal": "Journal of ethnopharmacology",
+            "year": "2026",
+            "authors": [
+              "Yang Lu",
+              "Ren Anlv",
+              "Wang Xi",
+              "Chen Sijun",
+              "Ni Shuman"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Gefitinib",
+              "Animals",
+              "Humans",
+              "Lung Neoplasms",
+              "Wnt Signaling Pathway",
+              "Ferroptosis",
+              "Plant Extracts",
+              "Cell Line, Tumor",
+              "Marsdenia",
+              "Cell Proliferation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41461328/"
+          },
+          {
+            "pmid": "23140355",
+            "title": "Erlotinib and gefitinib for elderly patients with advanced non-small-cell lung cancer.",
+            "abstract": "Erlotinib and gefitinib are tyrosine kinase inhibitors (TKI) associated with the EGFR, which is involved in cell proliferation, growth, migration, invasion and survival, and has been found to be overexpressed in non-small-cell lung cancer. Erlotinib was the first target agent approved for the treatment of NSCLC in second- and third line, in patients unselected for EGFR mutations; gefitinib was the first EGFR tyrosine kinase inhibitor approved for the treatment of NSCLC in all lines of setting in patients harbouring EGFR mutations. In elderly patients, with a poor prognosis, and different co-morbidities, erlotinib and gefitinib could be considered as valid therapeutic options. This paper reviews the role of both drugs, in the management of elderly patients affected by advanced NSCLC based on an update analysis of randomised and non-randomised clinical trials.",
+            "journal": "Anti-cancer agents in medicinal chemistry",
+            "year": "2014",
+            "authors": [
+              "Passaro Antonio",
+              "Alesini Daniele",
+              "Pochesci Alessia",
+              "Cortesi Enrico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23140355/"
+          },
+          {
+            "pmid": "29185589",
+            "title": "Bevacizumab and gefitinib enhanced whole-brain radiation therapy for brain metastases due to non-small-cell lung cancer.",
+            "abstract": "Non-small-cell lung cancer (NSCLC) patients who experience brain metastases are usually associated with poor prognostic outcomes. This retrospective study proposed to assess whether bevacizumab or gefitinib can be used to improve the effectiveness of whole brain radiotherapy (WBRT) in managing patients with brain metastases. A total of 218 NSCLC patients with multiple brain metastases were retrospectively included in this study and were randomly allocated to bevacizumab-gefitinib-WBRT group (n=76), gefitinib-WBRT group (n=77) and WBRT group (n=75). Then, tumor responses were evaluated every 2 months based on Response Evaluation Criteria in Solid Tumors version 1.0. Karnofsky performance status and neurologic examination were documented every 6 months after the treatment. Compared to the standard WBRT, bevacizumab and gefitinib could significantly enhance response rate (RR) and disease control rate (DCR) of WBRT (P<0.001). At the same time, RR and DCR of patients who received bevacizuma",
+            "journal": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas",
+            "year": "2017",
+            "authors": [
+              "Yang R F",
+              "Yu B",
+              "Zhang R Q",
+              "Wang X H",
+              "Li C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Analysis of Variance",
+              "Antineoplastic Agents",
+              "Bevacizumab",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Combined Modality Therapy",
+              "Cranial Irradiation",
+              "Disease-Free Survival"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29185589/"
+          },
+          {
+            "pmid": "37057810",
+            "title": "Dihydroartemisinin enhances gefitinib cytotoxicity against lung adenocarcinoma cells by inducing ROS-dependent apoptosis and ferroptosis.",
+            "abstract": "The application of epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKIs), such as gefitinib, has shifted lung cancer treatment from empirical chemotherapy to targeted molecular therapy. However, acquired drug resistance is inevitable in almost all non-small cell lung cancer (NSCLC) patients treated with gefitinib. Combined treatment with dihydroartemisinin (DHA) and gefitinib produced a better inhibitory effect on lung adenocarcinoma than gefitinib treatment alone; however, the specific mechanism remains unclear. In this study, we aimed to assess the underlying mechanism of this combination treatment. We prepared gefitinib-resistant A549 cells and investigated whether apoptosis and ferroptosis were involved in the sensitizing effect of DHA. Treatment with 5 μM gefitinib resulted in rupturing and floatation of A549 cells in the medium, while A549-GR cells were found to be insusceptible to gefitinib. However, treatment with DHA substantially inhibited the proliferation ",
+            "journal": "The Kaohsiung journal of medical sciences",
+            "year": "2023",
+            "authors": [
+              "Lai Xiang-Yu",
+              "Shi Yu-Mei",
+              "Zhou Ming-Ming"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gefitinib",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Reactive Oxygen Species",
+              "Ferroptosis",
+              "ErbB Receptors",
+              "Quinazolines",
+              "Drug Resistance, Neoplasm",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37057810/"
+          },
+          {
+            "pmid": "38967523",
+            "title": "METTL1/FOXM1 promotes lung adenocarcinoma progression and gefitinib resistance by inhibiting PTPN13 expression.",
+            "abstract": "Lung adenocarcinoma (LUAD) is the most common malignant tumor in respiratory system. Methyltransferase-like 1 (METTL1) is a driver of m7G modification in mRNA. This study aimed to demonstrate the role of METTL1 in the proliferation, invasion and Gefitinib-resistance of LUAD.",
+            "journal": "Cancer medicine",
+            "year": "2024",
+            "authors": [
+              "Peng Wei",
+              "Fu Jia",
+              "Zhou Lijun",
+              "Duan Huaxin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Forkhead Box Protein M1",
+              "Drug Resistance, Neoplasm",
+              "Gefitinib",
+              "Animals",
+              "Mice",
+              "Adenocarcinoma of Lung",
+              "Lung Neoplasms",
+              "Methyltransferases",
+              "Gene Expression Regulation, Neoplastic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38967523/"
+          },
+          {
+            "pmid": "40233501",
+            "title": "The combination of USP24-i-101-Astemizole sensitizes the cytotoxicity of Taxol and Gefitinib in drug-resistant lung cancer.",
+            "abstract": "In this study, we utilized the yeast two-hybrid system to screen for proteins interacting with USP24. Out of 250 such proteins, functional enrichment analysis using MetaCore™ indicated that 33 of them were involved in lung cancer progression. We then investigated gene expression and survival rates of these 33 proteins in lung cancer patients and cell lines through TCGA databases, Kaplan-Meier Plotter databases, and RNA-seq profile from A549/A549-T24 cells. By employing the patients' survival rate and gene expression profile of these 33 USP24-interacting proteins as gene signatures, we identified 10 potential drugs for inhibiting lung cancer progression or drug resistance via drug repurposing strategy using the Connectivity Map (CMap) database. Of these 10 drugs, six showed similar indicators in Clinical Trials, while the other four candidates (15-delta prostaglandin J2, Astemizole, Trifluoperazine, and 1,4-chrysenequinone) were chosen to evaluate their effect on re-sensitizing cytotoxi",
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2025",
+            "authors": [
+              "Young Ming-Jer",
+              "Huang Yi-Han",
+              "Hung Jan-Jong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Paclitaxel",
+              "Lung Neoplasms",
+              "Drug Resistance, Neoplasm",
+              "Gefitinib",
+              "A549 Cells",
+              "Cell Line, Tumor",
+              "Ubiquitin Thiolesterase",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Drug Synergism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40233501/"
+          },
+          {
+            "pmid": "36959566",
+            "title": "CA916798 predicts poor prognosis and promotes Gefitinib resistance for lung adenocarcinoma.",
+            "abstract": "Our previous studies have identified CA916798 as a chemotherapy resistance-associated gene in lung cancer. However, the histopathological relevance and biological function of CA916798 in lung adenocarcinoma (LUAD) remains to be delineated. In this study, we further investigated and explored the clinical and biological significance of CA916798 in LUAD.",
+            "journal": "BMC cancer",
+            "year": "2023",
+            "authors": [
+              "He Jian",
+              "Lan Xi",
+              "Liu Xiayan",
+              "Deng Caixia",
+              "Luo Hu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gefitinib",
+              "Adenocarcinoma of Lung",
+              "Lung Neoplasms",
+              "Blotting, Western",
+              "Cell Proliferation",
+              "Prognosis",
+              "Gene Expression Regulation, Neoplastic",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36959566/"
+          },
+          {
+            "pmid": "38581057",
+            "title": "Circ_0001786 facilitates gefitinib resistance and malignant progression in non-small cell lung cancer via miR-34b-5p/SRSF1.",
+            "abstract": "Non-small cell lung cancer (NSCLC) is a widespread cancer and gefitinib is a primary therapy for NSCLC patients. Nevertheless, the underlying mechanisms for the progression of acquired drug resistance have not been clarified. The aim of this study was to investigate the role of circular RNA (circ_0001786) in gefitinib-resistant NSCLC.",
+            "journal": "Journal of cardiothoracic surgery",
+            "year": "2024",
+            "authors": [
+              "Ouyang Kaobin",
+              "Xie Dan",
+              "Liao Haojie",
+              "He Ying",
+              "Xiong Hailin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Apoptosis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Gefitinib",
+              "Lung Neoplasms",
+              "MicroRNAs",
+              "Serine-Arginine Splicing Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38581057/"
+          },
+          {
+            "pmid": "39315600",
+            "title": "USP22 promotes gefitinib resistance and inhibits ferroptosis in non-small cell lung cancer by deubiquitination of MDM2.",
+            "abstract": "The emergence of chemoresistance markedly compromised the treatment efficiency of human cancer, including non-small cell lung cancer (NSCLC). In the present study, we aimed to explore the effects of ubiquitin-specific peptidase 22 (USP22) and murine double minute 2 (MDM2) in gefitinib resistance in NSCLC.",
+            "journal": "Thoracic cancer",
+            "year": "2024",
+            "authors": [
+              "Lu Peng",
+              "Li Zhaoguo",
+              "Xu Hang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Ubiquitin Thiolesterase",
+              "Gefitinib",
+              "Ferroptosis",
+              "Lung Neoplasms",
+              "Proto-Oncogene Proteins c-mdm2",
+              "Drug Resistance, Neoplasm",
+              "Mice",
+              "Animals"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39315600/"
+          },
+          {
+            "pmid": "12841190",
+            "title": "Gefitinib.",
+            "abstract": "",
+            "journal": "Nature reviews. Drug discovery",
+            "year": "2003",
+            "authors": [
+              "Muhsin Mohamed",
+              "Graham Joanne",
+              "Kirkpatrick Peter"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12841190/"
+          },
+          {
+            "pmid": "20942679",
+            "title": "Interstitial lung disease and gefitinib.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2010",
+            "authors": [
+              "Murashige Naoko",
+              "Tanimoto Tetsuya",
+              "Oshima Yasuo"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Humans",
+              "Incidence",
+              "Japan",
+              "Lung Diseases, Interstitial",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20942679/"
+          },
+          {
+            "pmid": "20949670",
+            "title": "Interstitial lung disease and gefitinib.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2010",
+            "authors": [
+              "Lim Ken-Hong",
+              "Chang Yuan-Hsin"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Humans",
+              "Incidence",
+              "Lung Diseases, Interstitial",
+              "Lung Neoplasms",
+              "Mutation",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20949670/"
+          },
+          {
+            "pmid": "41293164",
+            "title": "SLC16A3 drives lung adenocarcinoma progression and gefitinib resistance through coordinated regulation of ferroptosis and lactate metabolism.",
+            "abstract": "Ferroptosis is an iron-dependent form of regulated cell death that plays a critical role in tumor suppression and therapeutic response. However, the metabolic mechanisms that drive ferroptosis resistance in lung adenocarcinoma (LUAD), particularly in the context of EGFR-TKI tolerance, remain unclear.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Cai Wenhan",
+              "Liu Yiming",
+              "Zhao Kai",
+              "Zhu Zirui",
+              "Jin Jiamei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ferroptosis",
+              "Gefitinib",
+              "Adenocarcinoma of Lung",
+              "Drug Resistance, Neoplasm",
+              "Animals",
+              "Lung Neoplasms",
+              "Mice",
+              "Monocarboxylic Acid Transporters",
+              "Lactic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41293164/"
+          },
+          {
+            "pmid": "24832599",
+            "title": "Axl-altered microRNAs regulate tumorigenicity and gefitinib resistance in lung cancer.",
+            "abstract": "The involvement of Axl kinase in non-small cell lung cancer's (NSCLC) acquired resistance to tyrosine kinase inhibitors (TKIs) gefitinib or erlotinib has been identified recently, but the mechanism by which Axl contributes to TKI resistance is largely unknown. MicroRNAs (miRNAs) repress gene expression and their critical role in tumorigenesis has been implicated. To investigate the role of miRNAs in the Axl-mediated acquired gefitinib resistance, we examined the Axl-mediated miRNA changes in gefitinib-resistant lung cancers. A panel of Axl kinase-altered miRNAs was identified. In this study, we validate and report that miR-374a and miR-548b modulated by Axl have essential roles in cell cycle arrest, gefitinib-induced apoptosis, epithelial-to-mesenchymal transition, migration and tumorigenesis of gefitinib-resistant lung cancer cells in vitro and in vivo by targeting Wnt5a and CCNB1 genes, respectively. Of clinical significance, high expression of Axl and miR-374a and low expression of ",
+            "journal": "Cell death & disease",
+            "year": "2014",
+            "authors": [
+              "Wang Y",
+              "Xia H",
+              "Zhuang Z",
+              "Miao L",
+              "Chen X"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Cycle Checkpoints",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Cyclin B1",
+              "Disease-Free Survival",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24832599/"
+          },
+          {
+            "pmid": "41199076",
+            "title": "Influence of genetic polymorphisms on gefitinib pharmacokinetics and adverse drug reactions in non-small cell lung cancer patients.",
+            "abstract": "Gefitinib is a first-generation epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI) used in the treatment of non-small cell lung cancer (NSCLC). It is metabolized extensively in the liver by enzymes encoded by CYP3A4, CYP2D6, and CYP3A5 and is the substrate of membrane transporters including ABCB1 and ABCG2. Evidence shows that single-nucleotide polymorphisms (SNPs) in these metabolizing and transporting genes contribute to the inter-individual variability in gefitinib response and development of gefitinib-induced adverse drug reactions (ADRs). This narrative review identifies the existing literature exploring the impact of SNPs on plasma gefitinib concentration and ADRs in patients with NSCLC receiving gefitinib therapy. SNPs were identified in drug-metabolizing enzyme coding genes, including CYP3A4, CYP2D6, CYP3A5, and other CYP homologs, drug transporters including ABCB1, ABCG2, SLCO1B1 and other genes, including UGT1A7 and FOXO3. Current research has not identif",
+            "journal": "Cancer metastasis reviews",
+            "year": "2025",
+            "authors": [
+              "Shenoy Prathvi V",
+              "Baburaj Gayathri",
+              "Damerla Rama Rao",
+              "Pai Ananth",
+              "Mailankody Sharada"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gefitinib",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Polymorphism, Single Nucleotide",
+              "Antineoplastic Agents",
+              "Protein Kinase Inhibitors",
+              "Drug-Related Side Effects and Adverse Reactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41199076/"
+          },
+          {
+            "pmid": "32323848",
+            "title": "Triptolide inhibits epithelial‑mesenchymal transition and induces apoptosis in gefitinib‑resistant lung cancer cells.",
+            "abstract": "The epidermal growth factor receptor‑tyrosine kinase inhibitor (EGFR‑TKI), gefitinib, is used widely to treat non‑small cell lung cancer (NSCLC) with EGFR‑activating mutations. Unfortunately, the acquired drug resistance promoted by epithelial‑mesenchymal transition (EMT) markedly limits the clinical effects and remains a major barrier to a cure. Our previous isobaric tags for relative and absolute quantitation‑based proteomics analysis revealed that the E‑cadherin protein level was markedly upregulated by triptolide (TP). The present study aimed to determine whether TP reverses the gefitinib resistance of human lung cancer cells by regulating EMT. It was revealed that TP combined with gefitinib synergistically inhibited the migration and invasion of lung adenocarcinoma cell line A549; the combination treatment had a significantly better outcome than that of TP and gefitinib alone. Moreover, TP effectively increased the sensitivity of drug resistant A549 cells to gefitinib by upregulat",
+            "journal": "Oncology reports",
+            "year": "2020",
+            "authors": [
+              "Li Fangqiong",
+              "Cui Huaizhong",
+              "Jin Xin",
+              "Gong Xiaoting",
+              "Wang Wei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "A549 Cells",
+              "Adenocarcinoma of Lung",
+              "Animals",
+              "Antigens, CD",
+              "Cadherins",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Diterpenes",
+              "Drug Resistance, Neoplasm",
+              "Drug Synergism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32323848/"
+          },
+          {
+            "pmid": "29480364",
+            "title": "Combination of S-1 and gefitinib increases the sensitivity to radiotherapy in lung cancer cells.",
+            "abstract": "To investigate the potential radiosensitization of S-1 and gefitinib in human non-small cell lung cancer (NSCLC) in vitro and in vivo.",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2018",
+            "authors": [
+              "Cui Jie",
+              "Wang Min-Cong",
+              "Zhang Ya-Min",
+              "Ren Ming-Zhi",
+              "Wang Shi-Xiong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Proliferation",
+              "Chemoradiotherapy",
+              "Drug Combinations",
+              "Drug Resistance, Neoplasm",
+              "Gamma Rays",
+              "Gefitinib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29480364/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+        "txgnn_score": 0.9984177350997924,
+        "txgnn_rank": 2865,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38288441",
+            "title": "Valsartan attenuates LPS-induced ALI by modulating NF-κB and MAPK pathways.",
+            "abstract": "Background: Acute lung injury (ALI)/acute respiratory distress syndrome (ARDS) is a common respiratory disease characterized by persistent hypoxemia and an uncontrolled inflammatory response. Valsartan, an angiotensin II type 1 receptor antagonist, is clinically used to treat hypertension and has anti-inflammatory and antioxidant effects on gefitinib-induced pneumonia in rats. However, the potential therapeutic effects of valsartan on lipopolysaccharide (LPS)-induced ALI remain unclear. This study investigated the protective role of valsartan in LPS-induced ALI and its underlying mechanisms. Methods: LPS-treated BEAS-2B cells and ALI mouse model were established. BEAS-2B cells were treated with LPS (10 μg/mL) for 24h, with or without valsartan (20, 40, and 80 µM). For ALI mouse models, LPS (5 mg/kg) was administered through intratracheal injection to treat the mice for 24h, and valsartan (10 or 30 mg/kg) was injected intraperitoneally twice 2 h before and 12 h after the LPS injection. ",
+            "journal": "Frontiers in pharmacology",
+            "year": "2024",
+            "authors": [
+              "Zhou Mi",
+              "Meng Ling",
+              "He Qinke",
+              "Ren Chunguang",
+              "Li Changyi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38288441/"
+          },
+          {
+            "pmid": "39281285",
+            "title": "Gastrointestinal tract organoids as novel tools in drug discovery.",
+            "abstract": "Organoids, characterized by their high physiological attributes, effectively preserve the genetic characteristics, physiological structure, and function of the simulated organs. Since the inception of small intestine organoids, other organoids for organs including the liver, lungs, stomach, and pancreas have subsequently been developed. However, a comprehensive summary and discussion of research findings on gastrointestinal tract (GIT) organoids as disease models and drug screening platforms is currently lacking. Herein, in this review, we address diseases related to GIT organoid simulation and highlight the notable advancements that have been made in drug screening and pharmacokinetics, as well as in disease research and treatment using GIT organoids. Organoids of GIT diseases, including inflammatory bowel disease, irritable bowel syndrome, necrotizing enterocolitis, and Helicobacter pylori infection, have been successfully constructed. These models have facilitated the study of the m",
+            "journal": "Frontiers in pharmacology",
+            "year": "2024",
+            "authors": [
+              "Zhou Li",
+              "Luo Dan",
+              "Lu Wei",
+              "Han Jun",
+              "Zhao Maoyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39281285/"
+          },
+          {
+            "pmid": "18931563",
+            "title": "[Cutaneous toxicities].",
+            "abstract": "The cutaneous toxicities of epidermal growth factor receptor(EGFR)inhibitors including cetuximab, gefitinib and erlotinib, and multi-kinase inhibitors including imatinib mesylate, sorafenib, and sunitinib, are described. Acneiform eruption, paronychia and xerosis are common cutaneous toxicities in patients receiving EGFR inhibitors. Acneiform eruption usually consists of follicular papules and pustules without comedones and is observed in more than 50% patients. Paronychia occurs less frequently(10 approximately 15%)than acneiform eruption and involves multiple fingers and great toes. Xerosis is observed in 35% of patients. Painful fissures on the tips of fingers and toes can also develop because of excessive dry skin. Concerning multi-kinase inhibitors, pigmentary disorders and periorbital edema occur frequently during imatinib therapy, and hand foot skin reaction is observed by sorafenib or sunitinib. The hand foot skin reaction is clinically somewhat similar to acral erythema(hand f",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2008",
+            "authors": [
+              "Matsumoto Kazuhiko",
+              "Saida Toshiaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "ErbB Receptors",
+              "Humans",
+              "Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18931563/"
+          },
+          {
+            "pmid": "18316005",
+            "title": "Small cell lung cancer.",
+            "abstract": "Small cell lung cancer accounts for approximately 15% of bronchogenic carcinomas. It is the cancer most commonly associated with various paraneoplastic syndromes, including the syndrome of inappropriate antidiuretic hormone secretion, paraneoplastic cerebellar degeneration, and Lambert-Eaton myasthenic syndrome. Because of the high propensity of small cell lung cancer to metastasize early, surgery has a limited role as primary therapy. Although the disease is highly sensitive to chemotherapy and radiation, cure is difficult to achieve. The combination of platinum and etoposide is the accepted standard chemotherapeutic regimen. It is also the accepted standard therapy in combination with thoracic radiotherapy (TRT) for limited-stage disease. Adding TRT increases absolute survival by approximately 5% over chemotherapy alone. Thoracic radiotherapy administered concurrently with chemotherapy is more efficacious than sequential therapy. Furthermore, the survival benefit is greater if TRT is",
+            "journal": "Mayo Clinic proceedings",
+            "year": "2008",
+            "authors": [
+              "Sher Taimur",
+              "Dy Grace K",
+              "Adjei Alex A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Small Cell",
+              "Combined Modality Therapy",
+              "Diagnosis, Differential",
+              "Humans",
+              "Lung Neoplasms",
+              "Morbidity",
+              "Prognosis",
+              "Survival Rate",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18316005/"
+          },
+          {
+            "pmid": "30033041",
+            "title": "Advances in the medical treatment of Cushing's syndrome.",
+            "abstract": "Cushing's syndrome is associated with multisystem morbidity and, when suboptimally treated, increased mortality. Medical therapy is an option for patients if surgery is not successful and can be classified into pituitary-directed drugs, steroid synthesis inhibitors, and glucocorticoid receptor antagonists. In the last decade there have been new developments in each drug category. Targeting dopamine and somatostatin receptors on corticotroph adenomas with cabergoline or pasireotide, or both, controls cortisol production in up to 40% of patients. Potential new targets in corticotroph adenomas include the epidermal growth factor receptor, cyclin-dependent kinases, and heat shock protein 90. Osilodrostat and levoketoconazole are new inhibitors of steroidogenesis and are currently being evaluated in multicentre trials. CORT125134 is a new selective glucocorticoid receptor antagonist under investigation. We summarise the drug therapies for various forms of Cushing's syndrome and focus on eme",
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2019",
+            "authors": [
+              "Feelders Richard A",
+              "Newell-Price John",
+              "Pivonello Rosario",
+              "Nieman Lynnette K",
+              "Hofland Leo J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "ACTH Syndrome, Ectopic",
+              "ACTH-Secreting Pituitary Adenoma",
+              "Adenoma",
+              "Adrenal Gland Neoplasms",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Alkylating",
+              "Cabergoline",
+              "Cushing Syndrome",
+              "Dopamine Agonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30033041/"
+          },
+          {
+            "pmid": "20215798",
+            "title": "Gefitinib in combination with capecitabine as second-line therapy in patients with advanced colorectal cancer (aCRC): a phase I/II study of the Arbeitsgemeinschaft Internistische Onkologie (AIO).",
+            "abstract": "This phase I/II study was conducted to assess the maximal tolerated dose (MTD) and the dose-limiting toxicities (DLTs) of gefitinib in combination with capecitabine in patients with advanced colorectal cancer (aCRC).",
+            "journal": "Onkologie",
+            "year": "2010",
+            "authors": [
+              "Trarbach Tanja",
+              "Reinacher-Schick Anke",
+              "Hegewisch-Becker Susanne",
+              "Vanhoefer Udo",
+              "Frieling Thomas"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Capecitabine",
+              "Chemotherapy, Adjuvant",
+              "Colorectal Neoplasms",
+              "Deoxycytidine",
+              "Female",
+              "Fluorouracil"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20215798/"
+          },
+          {
+            "pmid": "34474028",
+            "title": "Mechanisms of gefitinib-induced QT prolongation.",
+            "abstract": "Gefitinib, a tyrosine kinase inhibitor, was the first targeted therapy for non-small cell lung cancer (NSCLC). Gefitinib could block human Ether-à-go-go-Related Gene (hERG) channel, an important target in drug-induced long QT syndrome. However, it is unclear whether gefitinib could induce QT interval prolongation. Here, whole-cell patch-clamp technique was used for evaluating the effect of gefitinib on rapidly-activating delayed rectifier K+ current (IKr), slowly-activating delayed rectifier K+ current (IKs), transient outward potassium current (Ito), inward rectifier K+ current (IK1) and on action potentials in guinea pig ventricular myocytes. The Langendorff heart perfusion technique was used to determine drug effect on the ECG. Gefitinib depressed IKr by binding to open and closed hERG channels in a concentration-dependent way (IC50: 1.91 μM). The inhibitory effect of gefitinib on wildtype hERG channels was reduced at the hERG mutants Y652A, S636A, F656V and S631A (IC50: 8.51, 13.97",
+            "journal": "European journal of pharmacology",
+            "year": "2021",
+            "authors": [
+              "Jie Ling-Jun",
+              "Li Yun-Da",
+              "Zhang He-Qiang",
+              "Mao Liang",
+              "Xie Hua-Bin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Action Potentials",
+              "Animals",
+              "ERG1 Potassium Channel",
+              "Electrocardiography",
+              "Gefitinib",
+              "Guinea Pigs",
+              "HEK293 Cells",
+              "Heart Ventricles",
+              "Humans",
+              "Long QT Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34474028/"
+          },
+          {
+            "pmid": "32349387",
+            "title": "Cardiovascular Complications of Systemic Therapy in Non-Small-Cell Lung Cancer.",
+            "abstract": "Cardiovascular diseases may determine therapy outcomes of non-small-cell lung cancer (NSCLC). The evidence for how iatrogenic cardiovascular complications contribute to ceasing anticancer treatment, decreasing the quality of life or even premature death, is unclear. Older patients and smokers are at risk of atherosclerosis and arterial thromboembolic events (TE), such as myocardial infarction or stroke. Venous TE can be observed in up to 15% of NSCLC patients, but the risk increases three to five times in ALK (anaplastic lymphoma kinase)-rearranged NSCLC. ALK inhibitors are associated with electrophysiological disorders. Cytotoxic agents and anti-VEGF inhibitors mainly cause vascular complications, including venous or arterial TE. Cardiac dysfunction and arrhythmias seem to be less frequent. Chemotherapy is often administered in two-drug regimens. Clinical events can be triggered by different mechanisms. Among epidermal growth factor inhibitors, erlotinib and gefitinib can lead to coro",
+            "journal": "Journal of clinical medicine",
+            "year": "2020",
+            "authors": [
+              "Zaborowska-Szmit Magdalena",
+              "Krzakowski Maciej",
+              "Kowalski Dariusz M",
+              "Szmit Sebastian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32349387/"
+          },
+          {
+            "pmid": "30048162",
+            "title": "New and emerging drug therapies for Cushing's disease.",
+            "abstract": "Cushing's disease is a rare systemic and disabling disease due to oversecretion of adrenocorticotrophic hormone (ACTH) resulting in excess cortisol levels. Diagnosis and treatment are difficult; despite the availability of various pharmaceutical treatment options, there is an ongoing, unmet need for even more effective treatment.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2018",
+            "authors": [
+              "Störmann Sylvère",
+              "Schopohl Jochen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cushing Syndrome",
+              "Drug Delivery Systems",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30048162/"
+          },
+          {
+            "pmid": "22076388",
+            "title": "Pulmonary toxicities from targeted therapies: a review.",
+            "abstract": "Pulmonary toxicity is rarely seen with most commonly used targeted therapies. The endothelial growth factor receptor (EGFR) small-molecule tyrosine kinase inhibitors (TKIs) gefitinib and erlotinib can cause interstitial lung disease (ILD). BCR-ABL tyrosine kinase inhibitors imatinib and dasatinib can cause pleural effusions. Infusion-related bronchospasm is common with the monoclonal antibodies to EGFR cetuximab and panitumumab, and case reports of bronchiolitis and pulmonary fibrosis have been described. Up to one-sixth of patients taking mammalian target of rapamycin (mTOR) inhibitors get a reversible interstitial pneumonitis. Bevacizumab, the monoclonal antibody to vascular endothelial growth factor (VEGF), has been associated with hemoptysis and pulmonary embolism particularly in patients with squamous cell lung cancer. Infusion-related bronchospasms, acute respiratory distress syndrome (ARDS), and interstitial pneumonitis can be seen with the anti-lymphocyte monoclonal antibodies ",
+            "journal": "Targeted oncology",
+            "year": "2011",
+            "authors": [
+              "Barber Nicholas A",
+              "Ganti Apar Kishor"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Humans",
+              "Lung Diseases",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22076388/"
+          },
+          {
+            "pmid": "19734999",
+            "title": "Cardiotoxicity induced by tyrosine kinase inhibitors.",
+            "abstract": "Cardiotoxicity is a serious side effect of drugs used to treat cancer patients. Older chemotherapy drugs such as the anthracyclins and new targeted therapies, mainly trastuzumab, have been implicated in causing clinically significant cardiac dysfunction, which may be irreversible for many patients. The advent of a new category of drugs, the tyrosine kinase inhibitors has revolutionized the treatment of chronic myeloid leukemia, gastrointestinal stromal tumors and renal cancer, while their indications include a variety of other types of tumors.",
+            "journal": "Acta oncologica (Stockholm, Sweden)",
+            "year": "2009",
+            "authors": [
+              "Orphanos George S",
+              "Ioannidis George N",
+              "Ardavanis Alexandros G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Drug Monitoring",
+              "Heart Diseases",
+              "Humans",
+              "Incidence",
+              "Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Protein-Tyrosine Kinases",
+              "Severity of Illness Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19734999/"
+          },
+          {
+            "pmid": "40913721",
+            "title": "A real-world pharmacovigilance study of FDA Adverse Event Reporting System events for gefitinib and docetaxel.",
+            "abstract": "In recent years, gefitinib and docetaxel, as targeted and chemotherapeutic agents, respectively, have been widely used in the treatment of non-small cell lung cancer (NSCLC). However, the safety of these drugs remains a significant concern in clinical practice. Comparative studies on the safety of these two drugs have yet to be fully explored. This study aimed to analyze adverse event (AE) signals associated with gefitinib and docetaxel in the treatment of NSCLC using the FDA Adverse Event Reporting System (FAERS), providing insights for clinical practice and package insert.",
+            "journal": "European journal of clinical pharmacology",
+            "year": "2025",
+            "authors": [
+              "Cui Chengqian",
+              "Li Bingge",
+              "Zhang Xiaoxia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gefitinib",
+              "Docetaxel",
+              "Adverse Drug Reaction Reporting Systems",
+              "United States",
+              "United States Food and Drug Administration",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Pharmacovigilance",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40913721/"
+          },
+          {
+            "pmid": "14528286",
+            "title": "Small-molecule cyclin-dependent kinase modulators.",
+            "abstract": "Aberrations in cell cycle progression occur in the majority of human malignancies. The main pathway affected is the retinoblastoma (Rb) pathway. The tumor suppressor gene Rb is an important component in the G(1)/S transition and its function is abnormal in most human neoplasms. Loss in Rb function occurs by the hyperactivation of the cyclin-dependent kinases (cdk's). Therefore, modulation of cdk's may have an important use for the therapy and prevention of human neoplasms. Efforts to obtain small-molecule cdk modulators yielded two classes of modulators: direct and indirect modulators. Direct cdk modulators are small molecules that specifically target the ATP binding site of cdk's. Examples for this group include flavopiridol, roscovitine and BMS-387032. In contrast, indirect cdk modulators affect cdk function due to modulation of upstream pathways required for cdk activation. Some examples include perifosine, lovastatin, and UCN-01. The first example of a direct small-molecule cdk mod",
+            "journal": "Oncogene",
+            "year": "2003",
+            "authors": [
+              "Senderowicz Adrian M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cell Cycle",
+              "Cell Division",
+              "Clinical Trials as Topic",
+              "Cyclin-Dependent Kinases",
+              "Enzyme Inhibitors",
+              "Genes, Retinoblastoma",
+              "Genes, Tumor Suppressor",
+              "Humans",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14528286/"
+          },
+          {
+            "pmid": "16489842",
+            "title": "Cutaneous reactions to chemotherapy and their management.",
+            "abstract": "International data from 2002 report 10.9 million new cases of cancer and 6.7 million cancer deaths. Chemotherapy is an essential component in the multidisciplinary management of most cancers. Cutaneous reactions to chemotherapeutics are common and may contribute significantly to the morbidity, and rarely to the mortality, of patients undergoing such treatments. Recognition and management of these reactions is important to provide optimal care. This article aims to present the most common cutaneous reactions to frequently used chemotherapies and provides management guidelines. A MEDLINE search from 1966 through June 2005 was conducted to identify reports of common cutaneous toxicities with systemic chemotherapy and their appropriate management. An analysis of our literature search is presented in review form outlining common chemotherapy-related cutaneous reactions and their management, as well as the chemotherapeutics responsible for the cutaneous toxicity. Chemotherapy-related cutaneo",
+            "journal": "American journal of clinical dermatology",
+            "year": "2006",
+            "authors": [
+              "Wyatt Angela J",
+              "Leonard Gregory D",
+              "Sachs Dana L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Drug Administration Schedule",
+              "Drug Eruptions",
+              "Humans",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16489842/"
+          },
+          {
+            "pmid": "18617157",
+            "title": "Erlotinib and gefitinib for the treatment of myelodysplastic syndrome and acute myeloid leukemia: a preclinical comparison.",
+            "abstract": "Erlotinib and gefitinib, two inhibitors of the epidermal growth factor receptor (EGFR), can stimulate apoptosis and differentiation of myeloid cell lines that lack EGFR, unveiling a novel, therapeutically exploitable off-target effect of tyrosine kinase inhibitors. Here, we performed a side-by-side comparison of erlotinib and gefitinib effects on a broad spectrum of malignant myeloid cell lines, as well as on primary myeloblasts freshly purified from the bone marrow of patients with myelodysplastic syndrome (MDS) and acute myeloid leukemia (AML). Both erlotinib and gefitinib induce apoptosis of a cell line (KG-1) that represents AML, and differentiation in another cell line (P39) derived from a patient with high-risk MDS. In this setting, erlotinib was more efficient than gefitinib. Erlotinib and gefitinib were equipotent in inducing apoptosis of primary CD34+ myeloblasts from MDS and AML patients, yet had no toxic effect on CD34+ progenitor cells from healthy donors. Although the resp",
+            "journal": "Biochemical pharmacology",
+            "year": "2008",
+            "authors": [
+              "Boehrer Simone",
+              "Adès Lionel",
+              "Galluzzi Lorenzo",
+              "Tajeddine Nicolas",
+              "Tailler Maximilien"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Apoptosis",
+              "Cell Differentiation",
+              "Cell Line, Tumor",
+              "Drug Screening Assays, Antitumor",
+              "Erlotinib Hydrochloride",
+              "Female",
+              "Gefitinib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18617157/"
+          },
+          {
+            "pmid": "23841999",
+            "title": "Signal transduction inhibitors in treatment of myelodysplastic syndromes.",
+            "abstract": "Myelodysplastic syndromes (MDS) are a group of hematologic disorders characterized by ineffective hematopoiesis that results in reduced blood counts. Although MDS can transform into leukemia, most of the morbidity experienced by these patients is due to chronically low blood counts. Conventional cytotoxic agents used to treat MDS have yielded some encouraging results but are characterized by many adverse effects in the predominantly elderly patient population. Targeted interventions aimed at reversing the bone marrow failure and increasing the peripheral blood counts would be advantageous in this cohort of patients. Studies have demonstrated over-activated signaling of myelo-suppressive cytokines such as TGF-β, TNF-α and Interferons in MDS hematopoietic stem cells. Targeting these signaling cascades could be potentially therapeutic in MDS. The p38 MAP kinase pathway, which is constitutively activated in MDS, is an example of cytokine stimulated kinase that promotes aberrant apoptosis o",
+            "journal": "Journal of hematology & oncology",
+            "year": "2013",
+            "authors": [
+              "Bachegowda Lohith",
+              "Gligich Oleg",
+              "Mantzaris Ionnis",
+              "Schinke Carolina",
+              "Wyville Dale"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Cytokines",
+              "Enzyme Inhibitors",
+              "Humans",
+              "Myelodysplastic Syndromes",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23841999/"
+          },
+          {
+            "pmid": "37553597",
+            "title": "BYL719 reverses gefitinib-resistance induced by PI3K/AKT activation in non-small cell lung cancer cells.",
+            "abstract": "Non-small cell lung cancer (NSCLC) patients with epidermal growth factor receptor (EGFR) mutation often obtain de novo resistance or develop secondary resistance to EGFR tyrosine kinase inhibitors (EGFR-TKIs), which restricts the clinical benefit for the patients. The activation of phosphatidylinositol 3-kinase (PI3K)/AKT signal pathway is one of the most important mechanisms for the EGFR-TKIs resistance beyond T790M mutation. There are currently no drugs simultaneously targeting EGFR and PI3K signal pathways, and combination of these two pathway inhibitors may be a possible strategy to reverse theses resistances. To test whether this combinational strategy works, we investigated the therapeutic effects and mechanisms of combining BYL719, a PI3Kα inhibitor, with gefitinib, an EGFR-TKI inhibitor in EGFR-TKIs resistance NSCLC models induced by PI3K/AKT activation. Our results demonstrated that PIK3CA mutated cells showed increased growth rate and less sensitive or even resistant to gefit",
+            "journal": "BMC cancer",
+            "year": "2023",
+            "authors": [
+              "Yu Yaya",
+              "Xiao Zhenzhen",
+              "Lei Chenjing",
+              "Ma Changju",
+              "Ding Lina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Gefitinib",
+              "Proto-Oncogene Proteins c-akt",
+              "Phosphatidylinositol 3-Kinases",
+              "ErbB Receptors",
+              "Lung Neoplasms",
+              "Phosphatidylinositol 3-Kinase",
+              "Quinazolines",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37553597/"
+          },
+          {
+            "pmid": "37269912",
+            "title": "FZKA reverses gefitinib resistance by regulating EZH2/Snail/EGFR signaling pathway in lung adenocarcinoma.",
+            "abstract": "Fuzheng Kang-Ai (FZKA) decoction is mainly composed of 12 components with different types of herbs. In the last decade, FZKA has been used as an adjuvant treatment for lung cancer in clinical practice. Our previous studies have confirmed that FZKA shows a strong anti-cancer activity, significantly increases the clinical efficacy of gefitinib and reverses gefitinib resistance in non-small cell lung cancer (NSCLC). However, the molecular mechanism still needs to be further elucidated.",
+            "journal": "Journal of ethnopharmacology",
+            "year": "2024",
+            "authors": [
+              "Tang Qing",
+              "Xu Mengfei",
+              "Long Shunqin",
+              "Yu Yaya",
+              "Ma Changju"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gefitinib",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "Cell Line, Tumor",
+              "Adenocarcinoma of Lung",
+              "Signal Transduction",
+              "Cell Proliferation",
+              "ErbB Receptors",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37269912/"
+          },
+          {
+            "pmid": "37258113",
+            "title": "Gefitinib Increases the Incidence of QT Prolongation in Patients with Non-Small Cell Lung Cancer.",
+            "abstract": "Gefitinib (GEF) may increase the risk of corrected QT prolongation (QTc). We aimed to evaluate whether gefitinib increases the risk of corrected QT interval (QTc) prolongation and analyze the associated risk factors.A total of 122 cases of advanced EGFR-mutated non-small cell lung cancer (NSCLC) who received gefitinib therapy from January 2015 to December 2020 were evaluated. The results of at least two resting 12-lead electrocardiogram before and after gefitinib treatment were obtained. The Bazett and Fridericia formulas were used to calculate the QTc interval, and the changes of QTc interval values before and after treatment were evaluated. The correlation between gefitinib and QTc interval prolongation and related risk factors were analyzed.After gefitinib-targeted therapy, 23 patients (18.9%) had a prolonged QTc interval, which increased from a mean of 446 ± 25 ms at baseline to 478 ± 18 ms (P < 0.001). Three of the patients met criteria for Grade 3 QTc prolongation in the common t",
+            "journal": "International heart journal",
+            "year": "2023",
+            "authors": [
+              "Maimaitituersun Gulinigaer",
+              "Abulimiti Burebiguli",
+              "Jin Menglong",
+              "Dong Xinxin",
+              "Fu Zhenyan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Gefitinib",
+              "Incidence",
+              "Lung Neoplasms",
+              "Long QT Syndrome",
+              "Hypertension",
+              "Electrocardiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37258113/"
+          },
+          {
+            "pmid": "26281695",
+            "title": "[Molecular target therapies for skin cancers].",
+            "abstract": "Over the three decades, advances in the fields of cancer genetics and immunology have elucidated mechanisms that cause the growth of cutaneous malignancies. This has contributed to the rational design of molecular target therapies. In this review, the molecular pathways and cancer immunology critical to the development of cutaneous malignancies are discussed. Included is a review of the following novel pharmacologic agents; BRAF inhibitors, MEK inhibitors, anti-CTLA-4 antibody and anti-PD-1 antibodies for melanoma, cetuximab and gefitinib for squamous cell carcinoma, vismodegib for basal cell carcinoma and nevoid basal cell carcinoma syndrome, imiquimod for extramammary Paget's disease, imatinib for dermatofibrosarcoma protuberans and vorinostat and mogamulizumab for cutaneous T-cell lymphoma.",
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "2015",
+            "authors": [
+              "Uhara Hisashi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "CTLA-4 Antigen",
+              "Carcinoma, Squamous Cell",
+              "Cetuximab",
+              "Enzyme Inhibitors",
+              "Gefitinib",
+              "Humans",
+              "MAP Kinase Kinase Kinases",
+              "Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26281695/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary sulcus neoplasm",
+        "txgnn_score": 0.9984158277511596,
+        "txgnn_rank": 2870,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "16015545",
+            "title": "An overview of Eastern Cooperative Oncology Group stage III non-small cell lung cancer studies.",
+            "abstract": "The Eastern Cooperative Oncology Group conducts phase II and III trials for the treatment of resectable and unresectable stage III non-small cell lung cancer, and also participates in a number of Intergroup studies. For resectable disease, the Eastern Cooperative Oncology Group is participating in a phase III prospective randomized, double-blind, placebo-controlled trial of the epidermal growth factor receptor antagonist gefitinib (ZD1839), a phase II trial for superior sulcus tumors of induction chemoradiotherapy with cisplatin/etoposide followed by surgical resection, followed by docetaxel. For unresectable disease, a phase III trial of carboplatin, paclitaxel, and thoracic radiation therapy with or without thalidomide is underway. Proposed studies include a feasibility phase II study of chemotherapy/hyperfractionated accelerated radiation therapy (HART) + cetuximab (an antibody specific for epidermal growth factor receptor) and a phase II trial of pharmcogenomics-directed adjuvant c",
+            "journal": "Seminars in oncology",
+            "year": "2005",
+            "authors": [
+              "Ettinger David S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Combined Modality Therapy",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Humans",
+              "Intracellular Signaling Peptides and Proteins",
+              "Lung Neoplasms",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16015545/"
+          },
+          {
+            "pmid": "21441747",
+            "title": "Focal leptomeningeal metastasis following curative surgery for lung cancer: case report.",
+            "abstract": "A 58-year-old woman presented with 4 lesions of pulmonary adenocarcinoma which were curatively resected. No adjuvant therapy was needed because the lesions were all in the early stage. Magnetic resonance (MR) imaging of the brain, taken 10 months after the curative surgery, disclosed focal enhancement along the right central sulcus. Cerebrospinal fluid examination was normal. The lesion remained stable for 16 months, then began to spread out. She underwent open biopsy and the histological diagnosis was leptomeningeal metastasis from adenocarcinoma. She was treated with gefitinib at first because the lesion expressed epidermal growth factor receptor domain mutation. However, the lesion continued to enlarge, so she underwent whole cranial irradiation which was not effective. She died 2 years 10 months after the first detection of the metastasis. Early histological diagnosis is important even though the MR imaging lesion is not likely to be metastasis after curative surgery of the primary",
+            "journal": "Neurologia medico-chirurgica",
+            "year": "2011",
+            "authors": [
+              "Takahashi Mayu",
+              "Soejima Yoshiteru",
+              "Yamamoto Junkoh",
+              "Saito Takeshi",
+              "Nishizawa Shigeru"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Antineoplastic Agents",
+              "Fatal Outcome",
+              "Female",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Meningeal Neoplasms",
+              "Middle Aged",
+              "Neoplasms, Multiple Primary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21441747/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung germ cell tumor",
+        "txgnn_score": 0.9984158277511596,
+        "txgnn_rank": 2871,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00068497",
+            "title": "Single Agent ZD-1839 (NSC-715055, IND-61187) in Patients With Advanced Head and Neck Carcinoma or Non-Small Cell Lung Cancer Aged 75 Years and Older (and in a Cohort of Patients 50 Years Old and Younger)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2003-08",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "This phase I trial is studying the side effects of gefitinib in treating patients with metastatic or unresectable head and neck cancer or non-small cell lung cancer. Gefitinib may stop the growth of cancer cells by blocking the enzymes necessary for their growth",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed head and neck carcinoma or non-small cell lung cancer which is metastatic or unresectable for which standard curative or palliative measures do not exist or are no longer effective or are likely to be as effective as",
+            "endpoints": [
+              "Feasibility of enrolling patients aged 75 or older and 50 or younger to the study setting",
+              "Peak ZD1839 concentration level",
+              "Elimination half-life"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00068497"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "22588876",
+            "title": "Occupy EGFR.",
+            "abstract": "Erlotinib and gefitinib inhibit the growth of non-small cell lung cancer tumors that harbor activating epidermal growth factor receptor (EGFR) mutations but are ineffective against EGFR variants found in glioblastoma. New studies by Barkovich and colleagues and Vivanco and colleagues show that these drugs only occupy the active sites of glioblastoma-derived EGFR mutants to a limited extent and fail to inhibit the activated receptor. Other EGFR inhibitors that target distinct receptor conformations are more effective in the treatment of glioblastoma. These studies reveal distinct drug selectivities for different EGFR mutations and show that an analysis of binding-site occupancy should be considered as a biomarker for inhibitor efficacy in targeting EGFR.",
+            "journal": "Cancer discovery",
+            "year": "2012",
+            "authors": [
+              "Park Jin H",
+              "Lemmon Mark A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Neoplasms",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Glioma",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22588876/"
+          },
+          {
+            "pmid": "38261467",
+            "title": "Germline USP36 Mutation Confers Resistance to EGFR-TKIs by Upregulating MLLT3 Expression in Patients with Non-Small Cell Lung Cancer.",
+            "abstract": "Although somatic mutations were explored in depth, limited biomarkers were found to predict the resistance of EGFR tyrosine kinase inhibitors (EGFR-TKI). Previous studies reported N6-methyladenosine (m6A) levels regulated response of EGFR-TKIs; whether the germline variants located in m6A sites affected resistance of EGFR-TKIs is still unknown.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2024",
+            "authors": [
+              "Guan Shaoxing",
+              "Chen Xi",
+              "Wei Yuru",
+              "Wang Fei",
+              "Xie Wen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Germ Cells",
+              "Germ-Line Mutation",
+              "Lung Neoplasms",
+              "Mutation",
+              "Nuclear Proteins",
+              "Protein Kinase Inhibitors",
+              "Ubiquitin Thiolesterase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38261467/"
+          },
+          {
+            "pmid": "24618893",
+            "title": "Met in lung cancer.",
+            "abstract": "Receptor tyrosine kinases play important roles in the biology of many tumor cell types. In approximately 10% of non-small cell lung cancer (NSCLC) patients mutational activation of the epidermal growth factor receptor (EGFR) results in tumor cells that are exquisitely addicted to signaling by this receptor. (1) Thus expression of mutant active EGFR but in general not wild-type EGFR predisposes NSCLC cells to inhibitors of EGFR/ErbB2. Use of EGFR inhibitory agents such as gefitinib for this subset of NSCLC patients causes tumor regression and disease stabilization for 12-18 mo, after which tumor cells become resistant to the drug. (2) Initial studies identified a second mutation within the EGFR, which results in the resistance of the tyrosine kinase to gefitinib, as a major cause of reduced tumor control. (3) This has resulted in the development of newer EGFR inhibitors, e.g., afatinib, which inhibited double mutant EGFR. (4) In a subset of these patients, however, resistance to gefitin",
+            "journal": "Cancer biology & therapy",
+            "year": "2014",
+            "authors": [
+              "Dent Paul"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Anaplastic Lymphoma Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Glioma",
+              "Humans",
+              "Proto-Oncogene Proteins c-met",
+              "Pyridazines",
+              "Pyridones",
+              "Receptor Protein-Tyrosine Kinases",
+              "Stomach Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24618893/"
+          },
+          {
+            "pmid": "16330971",
+            "title": "Gefitinib (Iressa, ZD1839) and tyrosine kinase inhibitors: the wave of the future in cancer therapy.",
+            "abstract": "Targeted therapies are one of the latest innovative trends in cancer therapy. The epidermal growth factor receptor (EGFR) is a target found in high concentrations in several solid tumors including lung, breast, colorectal, and brain. Tyrosine kinase inhibitors, such as gefitinib (Iressa, ZD1839), block the EGFR. As a result, there is inhibition of cellular proliferation, promotion of apoptosis, and inhibition of anti-angiogenesis. Gefitinib has demonstrated significant efficacy in non-small-cell lung cancer (NSCLC), leading to FDA approval for treatment of this refractory disease. Phase 2 trials with gefitinib for platinum refractory NSCLC reported disease response and symptom improvement. Early results of phase 2 studies of gefitinib, combined with standard chemotherapy in colorectal cancer, showed a 75% response rate compared with 55% with standard therapy alone. Gefitinib, combined with flutamide, produced an additive growth inhibition in prostate cancer. A phase 2 trial of gefitini",
+            "journal": "Cancer nursing",
+            "year": "2005",
+            "authors": [
+              "Penne Kara",
+              "Bohlin Cindy",
+              "Schneider Susan",
+              "Allen Deborah"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials, Phase II as Topic",
+              "Drug Delivery Systems",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Female",
+              "Forecasting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16330971/"
+          },
+          {
+            "pmid": "21485758",
+            "title": "Epidermal growth factor receptor targeted therapies for solid tumours.",
+            "abstract": "The majority of human epithelial cancers is frequently characterized by a functional activation of the epidermal growth factor receptor (EGFR)-driven-pathways. Today, two classes of EGFR inhibitors are routinely used in the clinic: anti-EGFR monoclonal antibodies such as cetuximab and panitumumab and small-molecule inhibitors of the EGFR tyrosine kinase activity such as erlotinib and gefitinib. Anti-EGFR therapies have been approved in several countries for the treatment of metastatic nonsmall-cell lung cancer, colorectal cancer, squamous-cell carcinoma of the head and neck, and pancreatic cancer. This article summarizes the clinical evidence of the anticancer activity of anti-EGFR treatment, and considers the current, and controversial, clinical issues with respect to their optimal use in the treatment of patients with cancer. Mechanisms of resistance to anti-EGFR treatment are also briefly discussed.",
+            "journal": "Acta clinica Belgica",
+            "year": "2011",
+            "authors": [
+              "Van den Eynde M",
+              "Baurain J F",
+              "Mazzeo F",
+              "Machiels J P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Squamous Cell",
+              "Cell Cycle",
+              "Cetuximab",
+              "Colorectal Neoplasms",
+              "ErbB Receptors",
+              "Glioblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21485758/"
+          },
+          {
+            "pmid": "38656402",
+            "title": "Wheat germ agglutinin modified mixed micelles overcome the dual barrier of mucus/enterocytes for effective oral absorption of shikonin and gefitinib.",
+            "abstract": "The combination of shikonin (SKN) and gefitinib (GFB) can reverse the drug resistance of lung cancer cells by affecting energy metabolism. However, the poor solubility of SKN and GFB limits their clinical application because of low bioavailability. Wheat germ agglutinin (WGA) can selectively bind to sialic acid and N-acetylglucosamine on the surfaces of microfold cells and enterocytes, and is a targeted biocompatible material. Therefore, we created a co-delivery micelle system called SKN/GFB@WGA-micelles with the intestinal targeting functions to enhance the oral absorption of SKN and GFB by promoting mucus penetration for nanoparticles via oral administration. In this study, Caco-2/HT29-MTX-E12 co-cultured cells were used to simulate a mucus/enterocyte dual-barrier environment, and HCC827/GR cells were used as a model of drug-resistant lung cancer. We aimed to evaluate the oral bioavailability and anti-tumor effect of SKN and GFB using the SKN/GFB@WGA-micelles system. In vitro and in ",
+            "journal": "Drug delivery and translational research",
+            "year": "2025",
+            "authors": [
+              "Hou Xuefeng",
+              "Ai Xinyi",
+              "Liu Zhenda",
+              "Yang Jiayi",
+              "Wu Yihan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Wheat Germ Agglutinins",
+              "Micelles",
+              "Animals",
+              "Gefitinib",
+              "Mucus",
+              "Enterocytes",
+              "Caco-2 Cells",
+              "Naphthoquinones",
+              "Administration, Oral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38656402/"
+          },
+          {
+            "pmid": "14967454",
+            "title": "Rationale and clinical basis for combining gefitinib (IRESSA, ZD1839) with radiation therapy for solid tumors.",
+            "abstract": "The role of dysregulated epidermal growth factor receptor-tyrosine kinase (EGFR-TK) activity in promoting tumor resistance to radiation therapy is discussed, and evidence supporting the rationale for the use of gefitinib (IRESSA, ZD1839) to enhance tumor radiosensitivity is reviewed.",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2004",
+            "authors": [
+              "Ochs Judith S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Squamous Cell",
+              "Combined Modality Therapy",
+              "Enzyme Inhibitors",
+              "Epidermal Growth Factor",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Glioblastoma",
+              "Head and Neck Neoplasms",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14967454/"
+          },
+          {
+            "pmid": "22042963",
+            "title": "Large-cell neuroendocrine carcinoma of the lung harboring EGFR mutation and responding to gefitinib.",
+            "abstract": "",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2011",
+            "authors": [
+              "De Pas Tommaso M",
+              "Giovannini Monica",
+              "Manzotti Michela",
+              "Trifirò Giuseppe",
+              "Toffalorio Francesca"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Base Sequence",
+              "Carcinoma, Large Cell",
+              "Carcinoma, Neuroendocrine",
+              "Female",
+              "Gefitinib",
+              "Genes, erbB-1",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22042963/"
+          },
+          {
+            "pmid": "26561558",
+            "title": "InsR/IGF1R Pathway Mediates Resistance to EGFR Inhibitors in Glioblastoma.",
+            "abstract": "Aberrant activation of EGFR is a hallmark of glioblastoma. However, EGFR inhibitors exhibit at best modest efficacy in glioblastoma. This is in sharp contrast with the observations in EGFR-mutant lung cancer. We examined whether activation of functionally redundant receptor tyrosine kinases (RTKs) conferred resistance to EGFR inhibitors in glioblastoma.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2016",
+            "authors": [
+              "Ma Yufang",
+              "Tang Nan",
+              "Thompson Reid C",
+              "Mobley Bret C",
+              "Clark Steven W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Cell Line, Tumor",
+              "Disease Models, Animal",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Glioblastoma",
+              "Humans",
+              "Insulin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26561558/"
+          },
+          {
+            "pmid": "22236672",
+            "title": "Role of chemotherapy on brain metastasis.",
+            "abstract": "Cytotoxic chemotherapy has been considered ineffective for brain metastasis, traditionally because of poor penetration across the blood-brain barrier. However, cytotoxic chemotherapy could be effective in some specific situation, e.g. macroscopic brain metastasis of chemosensitive disease, such as small cell lung cancer, germ cell tumor and breast cancer. Recently, tyrosine kinase inhibitors targeting epidermal growth factor receptor (EGFR) (gefitinib and erlotinib) or human epidermal growth factor receptor 2 (HER2) (lapatinib) have a promising activity to brain metastasis of lung cancer with activating EGFR mutations or breast cancer with HER2 over expression. More molecular targeting agents will also be used against brain metastasis with the advance of understanding of molecular mechanism of cancer.",
+            "journal": "Progress in neurological surgery",
+            "year": "2012",
+            "authors": [
+              "Lee Se-Hoon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Neoplasms",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lapatinib",
+              "Protein Kinase Inhibitors",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22236672/"
+          },
+          {
+            "pmid": "17189393",
+            "title": "Epidermal growth factor receptor activation: how exon 19 and 21 mutations changed our understanding of the pathway.",
+            "abstract": "The discovery of epidermal growth factor receptor (EGFR) mutations in never-smokers has been the most relevant finding ever in non-small cell lung cancer. When patients whose tumors bear the sensitizing mutations are treated with the tyrosine kinase inhibitors gefitinib or erlotinib, we witness response rates and durations never before reported, including complete responses. At the same time, the presence of EGFR mutations has raised numerous new questions, tantalizing data, and new challenges for treatment. This is particularly true as we try to generalize the findings in lung cancer to other malignancies. The indiscriminate use of gefitinib or erlotinib in the general lung cancer population results in meager survival benefit for patients. Similarly, the tyrosine kinase inhibitors have limited activity in a variety of tumor types with EGFR overexpression. This has led to the question of whether EGFR remains a viable target in patients other than those whose tumors contain mutations, a",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2006",
+            "authors": [
+              "Rosell Rafael",
+              "Taron Miquel",
+              "Reguart Noemi",
+              "Isla Dolores",
+              "Moran Teresa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Biomarkers, Tumor",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cetuximab",
+              "Clinical Trials as Topic",
+              "DNA Mutational Analysis",
+              "Disease Progression",
+              "ErbB Receptors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17189393/"
+          },
+          {
+            "pmid": "36361596",
+            "title": "MGL S3 Chimeric Enzyme Drives Apoptotic Death of EGFR-Dependent Cancer Cells through ERK Downregulation.",
+            "abstract": "Methionine dependence of malignant cells is one of the cancer hallmarks. It is well described that methionine deprivation drives cancer cells death, both in vitro and in vivo. Methionine gamma-lyase (MGL) isolated from different species or obtained by genetic engineering can be used for effective methionine depletion. In this work, we show that MGL S3, a genetically engineered protein comprised of MGL from Clostridium sporogenesis fused to epidermal growth factor (EGF)-like peptide, reduces, in vitro, the number of cancer cells of four different origins-neuroblastoma, lung, breast, and colon cancer. We reveal that MGL S3 is more toxic for neuroblastoma SH-SY5Y and lung cancer H1299 cells compared to MGL tetani, and causes cell death by the induction of apoptosis. In addition, the observed death of cells treated with MGL S3 is accompanied by the prominent downregulation of ERK activity. By the analysis of transcriptomic data of more than 1500 cancer cell lines and patient samples, we sh",
+            "journal": "International journal of molecular sciences",
+            "year": "2022",
+            "authors": [
+              "Bondarev Nikolay",
+              "Ivanenko Karina",
+              "Khabusheva Elmira",
+              "Lebedev Timofey",
+              "Manukhov Ilya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Down-Regulation",
+              "Neuroblastoma",
+              "Methionine",
+              "ErbB Receptors",
+              "Recombinant Fusion Proteins",
+              "Cell Line, Tumor",
+              "Antineoplastic Agents",
+              "Carbon-Sulfur Lyases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36361596/"
+          },
+          {
+            "pmid": "19601750",
+            "title": "The epidermal growth factor receptor as a therapeutic target in glioblastoma multiforme and other malignant neoplasms.",
+            "abstract": "The epidermal growth factor receptor (EGFR) is dysregulated in various tumour types such as glioblastoma multiforme (GBM), breast cancer, ovarian carcinoma, non-small cell lung cancer and other cancers. As the intracellular tyrosine kinase of the EGFR activates signalling cascades leading to cell proliferation, angiogenesis and inhibition of apoptosis, the EGFR represents an attractive target in cancer therapy. In GBM which is the most common primary central nervous system tumour in adults, the EGFR is overexpressed in about 40 to 50% of cases, and almost half of these co-express the mutant receptor subtype EGFRvIII. This EGFR variant is constitutively activated, and thereby may contribute to the aggressive and refractory course of GBM which is associated with a median survival of only 40 to 60 weeks from diagnosis. Various trials are ongoing focusing on EGFR and EGFRvIII as new therapeutic targets in GBM. Anti-EGFR monoclonal antibodies (MAbs), e.g. cetuximab, and tyrosine kinase inhi",
+            "journal": "Anti-cancer agents in medicinal chemistry",
+            "year": "2009",
+            "authors": [
+              "Loew S",
+              "Schmidt U",
+              "Unterberg A",
+              "Halatsch M-E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "ErbB Receptors",
+              "Glioblastoma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19601750/"
+          },
+          {
+            "pmid": "35896603",
+            "title": "Optimization of the 4-anilinoquin(az)oline scaffold as epidermal growth factor receptor (EGFR) inhibitors for chordoma utilizing a toxicology profiling assay platform.",
+            "abstract": "The 4-anilinoquin(az)oline is a well-known kinase inhibitor scaffold incorporated in clinical inhibitors including gefitinib, erlotinib, afatinib, and lapatinib, all of which have previously demonstrated activity against chordoma cell lines in vitro. We screened a focused array of compounds based on the 4-anilinoquin(az)oline scaffold against both U-CH1 and the epidermal growth factor receptor (EGFR) inhibitor resistant U-CH2. To prioritize the hit compounds for further development, we screened the compound set in a multiparameter cell health toxicity assay. The de-risked compounds were then screened against a wider panel of patient derived cell lines and demonstrated low micromolar efficacy in cells. We also investigated the properties that gave rise to the toxophore markers, including the structural and electronic features, while optimizing for EGFR in-cell target engagement. These de-risked leads present a potential new therapeutic avenue for treatment of chordomas and new chemical ",
+            "journal": "Scientific reports",
+            "year": "2022",
+            "authors": [
+              "Bieberich Andrew A",
+              "Laitinen Tuomo",
+              "Maffuid Kaitlyn",
+              "Fatig Raymond O",
+              "Torrice Chad D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Aniline Compounds",
+              "Chordoma",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Protein Kinase Inhibitors",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35896603/"
+          },
+          {
+            "pmid": "22579297",
+            "title": "Chemotherapy for pulmonary large cell neuroendocrine carcinoma: similar to that for small cell lung cancer or non-small cell lung cancer?",
+            "abstract": "There is controversy regarding palliative chemotherapy for large cell neuroendocrine carcinoma (LCNEC). We evaluated whether advanced LCNEC should be treated similarly to small cell lung cancer (SCLC) or non-small cell lung cancer (NSCLC).",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2012",
+            "authors": [
+              "Sun Jong-Mu",
+              "Ahn Myung-Ju",
+              "Ahn Jin Seok",
+              "Um Sang-Won",
+              "Kim Hojoong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Large Cell",
+              "Carcinoma, Neuroendocrine",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Female",
+              "Humans",
+              "Lung Neoplasms",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22579297/"
+          },
+          {
+            "pmid": "15560844",
+            "title": "The in vitro effect of gefitinib ('Iressa') alone and in combination with cytotoxic chemotherapy on human solid tumours.",
+            "abstract": "Activation of the epidermal growth factor receptor (EGFR) triggers downstream signaling pathways that regulate many cellular processes involved in tumour survival and growth. Gefitinib ('Iressa') is an orally active tyrosine kinase inhibitor (TKI) targeted to the ATP-binding domain of EGFR (HER1; erbB1).",
+            "journal": "BMC cancer",
+            "year": "2004",
+            "authors": [
+              "Knight Louise A",
+              "Di Nicolantonio Federica",
+              "Whitehouse Pauline",
+              "Mercer Stuart",
+              "Sharma Sanjay"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Adenosine Triphosphate",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Busulfan",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Squamous Cell",
+              "Cisplatin",
+              "Colorectal Neoplasms",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15560844/"
+          },
+          {
+            "pmid": "21184253",
+            "title": "Recurrent myocardial infarction associated with gefitinib therapy.",
+            "abstract": "Gefitinib is an epidermal growth factor tyrosine kinase inhibitor used as a targeted chemotherapeutic agent in the treatment of lung cancer and other solid malignancies. Unlike other tyrosine kinase inhibitors, gefitinib is not recognized as having significant cardiotoxicity though it has been reported to be capable of potentiating ADP-induced activation and thromboxane A(2) generation in platelets which could promote thrombosis. We report a case of recurrent myocardial infarction with angiographically documented vulnerable plaque rupture in a patient receiving chronic gefitinib therapy for metastatic carcinoid tumor. Platelet function studies revealed marked ADP-induced platelet activation that was only suppressed by high-dose clopidogrel. Measurement of urine 11-dehydro-thromboxane B(2) also indicated persistent thromboxane A(2) generation despite aspirin therapy, an emerging risk factor for adverse cardiovascular events.",
+            "journal": "Journal of thrombosis and thrombolysis",
+            "year": "2011",
+            "authors": [
+              "Lynch Donald R",
+              "Kickler Thomas S",
+              "Rade Jeffrey J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoid Tumor",
+              "Gefitinib",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Myocardial Infarction",
+              "Neoplasm Metastasis",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21184253/"
+          },
+          {
+            "pmid": "15376352",
+            "title": "EGFR mutations and sensitivity to gefitinib.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2004",
+            "authors": [
+              "Rich Jeremy N",
+              "Rasheed B K Ahmed",
+              "Yan Hai"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Brain Neoplasms",
+              "DNA Mutational Analysis",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Glioblastoma",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Protein-Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15376352/"
+          },
+          {
+            "pmid": "23907440",
+            "title": "Molecular subtyping of brain metastases and implications for therapy.",
+            "abstract": "Molecular subtyping of tumors and treatment with specifically targeted therapy is a rapidly developing trend in oncology. Genetic and protein biomarkers impact biological behavior, patient prognosis, and inform treatment options. Select examples include EGFR mutations in primary non-small cell lung cancers, Her2 overexpression in breast cancer, and BRAF mutations in melanoma. Systemic benefit is emphasized in targeted therapies; yet lung cancer, breast cancer, and melanoma comprise the most common diagnoses in patients with brain metastases making the effectiveness of targeted therapies in the treatment and/or prevention of brain metastases relevant.Emerging evidence suggests efficacy for targeted therapy in the setting of brain metastases. Randomized, phase III clinical trials indicate targeted HER2 treatment with lapatinib and capecitabine in brain metastases from breast cancer increases the time to progression and decreases the frequency of CNS involvement at progression. Phase II t",
+            "journal": "Current treatment options in oncology",
+            "year": "2013",
+            "authors": [
+              "Renfrow Jaclyn J",
+              "Lesser Glenn J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Biomarkers, Tumor",
+              "Brain Neoplasms",
+              "Breast Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Combined Modality Therapy",
+              "ErbB Receptors",
+              "Female",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23907440/"
+          },
+          {
+            "pmid": "20359967",
+            "title": "Somatic mutation in the ACK1 ubiquitin association domain enhances oncogenic signaling through EGFR regulation in renal cancer derived cells.",
+            "abstract": "Activated Cdc42-associated Kinase, ACK1, is a non-receptor tyrosine kinase with numerous interacting partners, including Cdc42 and EGFR. Gene amplification and overexpression of ACK1 were found in many cancer types such as those of the lung and prostate. Previously, we identified both somatic- and germ line missense mutations in the ACK1 coding sequence, by surveying 261 cancer cell lines and 15 control tissues. Here, we verified and characterized the non-synonymous mutation, ACK-S985 N, located in the ubiquitin association domain of the protein. Both overexpression and silencing experiments in MCF7 and A498 cells, respectively, demonstrated a role of the ACK1 S985 N mutation in enhancing cell proliferation, migration and anchorage-independent growth as well as the epithelial-mesenchymal transition. Further, we showed that the ACK1 S985 N mutant is unable to bind ubiquitin, unlike the wild type kinase. This contributed to ACK1 protein stability and stabilized EGFR after EGF stimulation",
+            "journal": "Molecular oncology",
+            "year": "2010",
+            "authors": [
+              "Chua Boon Tin",
+              "Lim Shu Jing",
+              "Tham Su Chin",
+              "Poh Wei Jie",
+              "Ullrich Axel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Base Sequence",
+              "Carcinoma, Renal Cell",
+              "Cell Line",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Cell Proliferation",
+              "ErbB Receptors",
+              "Gefitinib",
+              "Gene Silencing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20359967/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "junctional epidermolysis bullosa",
+        "txgnn_score": 0.9984151124954224,
+        "txgnn_rank": 2872,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00317",
+    "name": "Gefitinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gefitinib"
+      },
+      "queried_at": "2026-03-09T17:33:32.667658",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gefitinib"
+      },
+      "queried_at": "2026-03-09T17:33:37.739463",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T17:33:38.385702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T17:33:42.478575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-09T17:33:43.277805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T17:33:43.875105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T17:33:49.502926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-09T17:33:52.879415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T17:33:53.528546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T17:33:56.892893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-09T17:34:00.801386",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T17:34:01.627643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T17:34:05.144931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-09T17:34:06.032088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T17:34:06.680764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T17:34:11.227501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-09T17:34:13.745106",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T17:34:14.480299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T17:34:18.930996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-09T17:34:28.329334",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T17:34:30.127371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T17:34:36.207992",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "queried_at": "2026-03-09T17:34:40.738834",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T17:34:41.888634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T17:34:46.388704",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-09T17:34:49.851780",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T17:34:50.745330",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T17:34:54.958685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-09T17:35:01.979526",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T17:35:02.962849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T17:35:07.041482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gefitinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-09T17:35:08.127136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T17:35:08.139454"
+  }
+}

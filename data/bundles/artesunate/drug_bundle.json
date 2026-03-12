@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Artesunate",
+    "drugbank_id": "DB09274",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.7921450138092041,
+        "txgnn_rank": 42180,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Smouldering systemic mastocytosis",
+        "txgnn_score": 0.7917800545692444,
+        "txgnn_rank": 42198,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+        "txgnn_score": 0.7726088762283325,
+        "txgnn_rank": 43013,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastrin secretion abnormality",
+        "txgnn_score": 0.767074465751648,
+        "txgnn_rank": 43202,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "systemic mastocytosis",
+        "txgnn_score": 0.7144328355789185,
+        "txgnn_rank": 44862,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leishmaniasis, diffuse cutaneous",
+        "txgnn_score": 0.6616138815879822,
+        "txgnn_rank": 46357,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "abnormality of glucagon secretion",
+        "txgnn_score": 0.6176609396934509,
+        "txgnn_rank": 47621,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+        "txgnn_score": 0.5966314077377319,
+        "txgnn_rank": 48328,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Wiskott-Aldrich syndrome 2",
+        "txgnn_score": 0.5940628051757812,
+        "txgnn_rank": 48420,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alacrima, achalasia, and intellectual disability syndrome",
+        "txgnn_score": 0.5932522416114807,
+        "txgnn_rank": 48459,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09274",
+    "name": "Artesunate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Artesunate"
+      },
+      "queried_at": "2026-03-10T10:27:31.128071",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Artesunate"
+      },
+      "queried_at": "2026-03-10T10:27:57.063402",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T10:27:58.140221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T10:28:02.807827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T10:28:04.000659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T10:28:04.940897",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T10:28:08.510916",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T10:28:09.467083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "queried_at": "2026-03-10T10:28:10.211937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "queried_at": "2026-03-10T10:28:14.425410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "queried_at": "2026-03-10T10:28:15.469610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-10T10:28:16.237869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-10T10:28:20.938635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-10T10:28:23.037930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T10:28:23.546927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T10:28:27.438850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T10:28:28.059595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "leishmaniasis, diffuse cutaneous"
+      },
+      "queried_at": "2026-03-10T10:28:28.557684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "leishmaniasis, diffuse cutaneous"
+      },
+      "queried_at": "2026-03-10T10:28:32.119288",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "leishmaniasis, diffuse cutaneous"
+      },
+      "queried_at": "2026-03-10T10:28:33.008112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "queried_at": "2026-03-10T10:28:33.621502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "queried_at": "2026-03-10T10:28:36.701234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "queried_at": "2026-03-10T10:28:37.443837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-10T10:28:37.969782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-10T10:28:44.027299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "queried_at": "2026-03-10T10:28:45.096119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Wiskott-Aldrich syndrome 2"
+      },
+      "queried_at": "2026-03-10T10:28:45.842558",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Wiskott-Aldrich syndrome 2"
+      },
+      "queried_at": "2026-03-10T10:28:49.275780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Wiskott-Aldrich syndrome 2"
+      },
+      "queried_at": "2026-03-10T10:28:50.869560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "alacrima, achalasia, and intellectual disability syndrome"
+      },
+      "queried_at": "2026-03-10T10:28:51.891007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "alacrima, achalasia, and intellectual disability syndrome"
+      },
+      "queried_at": "2026-03-10T10:28:54.870559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "alacrima, achalasia, and intellectual disability syndrome"
+      },
+      "queried_at": "2026-03-10T10:28:55.714101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:28:55.721074"
+  }
+}

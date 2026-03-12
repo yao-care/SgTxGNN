@@ -1,0 +1,1840 @@
+{
+  "drug": {
+    "inn": "Iloprost",
+    "drugbank_id": "DB01088",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.9945176243782043,
+        "txgnn_rank": 6897,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9933308959007264,
+        "txgnn_rank": 7981,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with congenital heart disease",
+        "txgnn_score": 0.9932072758674622,
+        "txgnn_rank": 8074,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01383083",
+            "title": "Effects of Iloprost Treatment in Adult Patients With Pulmonary Arterial Hypertension Related to Congenital Heart Disease (Eisenmenger Physiology): Safety, Tolerability, Clinical, and Hemodynamic Effect.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2010-11",
+            "completion_date": "2012-11",
+            "country": "N/A",
+            "enrollment": 42,
+            "brief_summary": "The prevalence of PAH associated with congenital systemic-to-pulmonary shunts in Western countries has been estimated to range between 1.6 and 12.5 cases per million adults, with 25-50% of this population affected by Eisenmenger's syndrome. The rarity of this syndrome, combined with its complex pathophysiology, account for the insufficient understanding of the principles underlying its proper treatment.Recent decades have seen developments in pulmonary hypertension pathophysiology which have led",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with Eisenmenger syndrome are clinically stable and in World Health Organization functional class (WHO class) III or worse are selected for treatment.\n2. Eisenmenger syndrome is diagnosed echocardiographically as right-to-left shunting through the shunt defect.\n3. To",
+            "endpoints": [
+              "Pulmonary Vascular Resistance"
+            ],
+            "sponsor": "Maryknoll Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01383083"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21852894",
+            "title": "Non-congenital heart disease associated pediatric pulmonary arterial hypertension.",
+            "abstract": "Recognition of causes of pulmonary hypertension other than congenital heart disease is increasing in children. Diagnosis and treatment of any underlying cause of pulmonary hypertension is crucial for optimal management of pulmonary hypertension. This article discusses the available knowledge regarding several disorders associated with pulmonary hypertension in children: idiopathic pulmonary arterial hypertension (IPAH), pulmonary capillary hemangiomatosis, pulmonary veno-occlusive disease, hemoglobinopathies, hepatopulmonary syndrome, portopulmonary hypertension and HIV. Three classes of drugs have been extensively studied for the treatment of IPAH in adults: prostanoids (epoprostenol, treprostinil, iloprost, beraprost), endothelin receptor antagonists (bosentan, sitaxsentan, ambrisentan), and phosphodiesterase inhibitors (Sildenafil, tadalafil). These medications have been used in treatment of children with pulmonary arterial hypertension, although randomized clinical trial data is la",
+            "journal": "Progress in pediatric cardiology",
+            "year": "2009",
+            "authors": [
+              "Ivy D D",
+              "Feinstein J A",
+              "Humpl T",
+              "Rosenzweig E B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21852894/"
+          },
+          {
+            "pmid": "28608969",
+            "title": "Effect of iloprost on biomarkers in patients with congenital heart disease-pulmonary arterial hypertension.",
+            "abstract": "Some biomarkers play important roles in the endothelial dysfunction of patients with pulmonary arterial hypertension (PAH), including nitric oxide (NO), endothelin-1 (ET-1), asymmetric dimethylarginine (ADMA), galectin-3 (Gal-3), B-type natriuretic peptide (BNP), and uric acid (UA). However, studies on these biomarkers in pulmonary artery blood in congenital heart disease-PAH (CHD-PAH) and the effect of iloprost on the regulation of biomarkers are lacking. This study investigated potential CHD-PAH biomarkers and their association with the severity of disease. The effect of iloprost on the regulation of these biomarkers was also studied. A total of 31 patients with CHD-PAH were enrolled. Seven with positive effects of iloprost (the average reduction in mPAP 11.13±1.73 mm Hg) and 19 with negative effects of iloprost (the average reduction in mPAP 4.21±4.87 mm Hg; iloprost positive group [IPG] vs iloprost negative group [ING], P<.01) and five age-matched controls were studied. The pulmona",
+            "journal": "Clinical and experimental pharmacology & physiology",
+            "year": "2017",
+            "authors": [
+              "Li Xiao-Ye",
+              "Zheng Yu",
+              "Long Yuliang",
+              "Zhang Xiaochun",
+              "Zhang Lei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Female",
+              "Heart Diseases",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28608969/"
+          },
+          {
+            "pmid": "29426959",
+            "title": "Acute Effect of Inhaled Iloprost in Children with Pulmonary Arterial Hypertension Associated with Simple Congenital Heart Defects.",
+            "abstract": "Inhaled prostacyclin analogue iloprost is currently utilized in adult patients with pulmonary arterial hypertension (PAH), but little information is available on its use in the pediatric population. This study evaluated the safety and acute haemodynamic effects of inhaled iloprost in children with PAH associated with congenital heart disease (CHD). Children with PAH-CHD who underwent cardiac catheterization and iloprost administration in our catheter laboratory between June 2007 and October 2015 were included. Iloprost was administered by atomization inhalation and changes in hemodynamic parameters were recorded. In total, 100 children with PAH-CHD were enrolled. Median age was 13 [1.5-18.0] years and 34% were male. A ventricular septal defect was present in 84%, a patent duct in 12%, a complete atrioventricular septal defect in 2%, and an isolated atrial septal defect in 2%. Pulmonary vascular resistance indexed (PVRI) was above 8 WU m2 in 96% and was above a third systemic (Rp/Rs > 0",
+            "journal": "Pediatric cardiology",
+            "year": "2018",
+            "authors": [
+              "Li Qiangqiang",
+              "Dimopoulos Konstantinos",
+              "Zhang Chen",
+              "Zhu Yan",
+              "Liu Qian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adolescent",
+              "Cardiac Catheterization",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Heart Defects, Congenital",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29426959/"
+          },
+          {
+            "pmid": "16919006",
+            "title": "Current treatment options in children with pulmonary arterial hypertension and experiences with oral bosentan.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a life-threatening disease characterized by vasoconstriction and progressive remodelling of the pulmonary arterial wall leading to right ventricular failure and death. Idiopathic PAH (IPAH) and PAH associated with congenital heart defects account for the majority of paediatric patients with PAH. During the last few decades, several pharmacological approaches have been introduced, including calcium channel-blockers (CCBs), prostacyclin analogues, endothelin receptor antagonists and, most recently, phosphodiesterase inhibitors. This paper reviews the treatment options available to children with a special focus on the initial experience with bosentan. Although CCBs have been shown to increase survival in IPAH, the beneficial effect appears to be limited to a small number of patients, defined as 'responders' to the vasoreactivity testing. With the availability of prostacyclin (intravenous epoprostenol) and then prostacyclin analogues, the treatment ",
+            "journal": "European journal of clinical investigation",
+            "year": "2006",
+            "authors": [
+              "Beghetti M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Calcium Channel Blockers",
+              "Child",
+              "Epoprostenol",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16919006/"
+          },
+          {
+            "pmid": "22621693",
+            "title": "Treatment of pulmonary arterial hypertension in connective tissue disease.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a group of distinct disorders that includes idiopathic PAH (IPAH), familial PAH and PAH associated with other conditions (APAH) such as connective tissue disease (CTD-APAH) or congenital heart disease. PAH is characterized by increased pulmonary arterial pressure and pulmonary vascular resistance. If left untreated, PAH can lead to right heart failure and premature death. CTD-APAH represents an important clinical subgroup of APAH that has a higher risk of death than IPAH. The European treatment guidelines advocate the use of PAH-targeted therapies including bosentan, ambrisentan, sildenafil, inhaled iloprost, intravenous epoprostenol (I-A recommendations), tadalafil or treprostinil (I-B recommendations) for patients in WHO functional class II-III. Not all randomized clinical studies of the approved PAH-targeted therapies have included patients with CTD-APAH. The purpose of this review is to describe the clinical characteristics of CTD-APAH and d",
+            "journal": "Drugs",
+            "year": "2012",
+            "authors": [
+              "Grünig Ekkehard"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Connective Tissue Diseases",
+              "Familial Primary Pulmonary Hypertension",
+              "Heart Failure",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22621693/"
+          },
+          {
+            "pmid": "24753712",
+            "title": "A case of pulmonary arterial hypertension associated with congenital extrahepatic portocaval shunt.",
+            "abstract": "Congenital extrahepatic portocaval shunt (CEPS) is a rare anomaly of the mesenteric vasculature in which the intestinal and splenic venous drainage bypasses the liver and drains directly into the inferior vena cava, the left hepatic vein or the left renal vein. This uncommon disease is frequently associated with other malformations and mainly affects females. Here we report a case of pulmonary arterial hypertension associated with CEPS (Abernethy type 1b shunt) in a 20-yr-old man who was incidentally diagnosed during evaluation of multiple nodules of the liver. The patient was treated by inhalation of iloprost (40 µg/day) with improved condition and walking test. Physicians should note that congenital portocaval shunt may cause pulmonary hypertension.",
+            "journal": "Journal of Korean medical science",
+            "year": "2014",
+            "authors": [
+              "Yi Jeong-Eun",
+              "Jung Hae-Ok",
+              "Youn Ho-Joong",
+              "Choi Jong Young",
+              "Chun Ho Jong"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Echocardiography, Doppler",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Liver",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Thoracic Arteries",
+              "Tomography, X-Ray Computed",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24753712/"
+          },
+          {
+            "pmid": "27053694",
+            "title": "Hemodynamic assessment and acute pulmonary vasoreactivity testing in the evaluation of children with pulmonary vascular disease. Expert consensus statement on the diagnosis and treatment of paediatric pulmonary hypertension. The European Paediatric Pulmonary Vascular Disease Network, endorsed by ISHLT and DGPK.",
+            "abstract": "Invasive assessment of haemodynamics (ventricular, pulmonary) and testing of acute vasoreactivity in the catheterisation laboratory remain the gold standard for the diagnosis of pulmonary hypertension (PH) and pulmonary hypertensive vascular disease. However, these measurements and the interpretation thereof are challenging due to the heterogeneous aetiology of PH in childhood and potentially confounding factors in the catheterisation laboratory. Patients with pulmonary arterial hypertension (PAH) associated with congenital heart disease who have a cardiovascular shunt need to undergo a completely different catheterisation approach than those with idiopathic PAH lacking an anatomical cardiovascular defect. Diagnostic cardiac catheterisation of children with suspected PH usually includes right and left heart catheterisation, particularly for the initial assessment (ie, at the time of diagnosis), and should be performed in experienced centres only. Here, we present graded consensus recom",
+            "journal": "Heart (British Cardiac Society)",
+            "year": "2016",
+            "authors": [
+              "Apitz Christian",
+              "Hansmann Georg",
+              "Schranz Dietmar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Consensus Statement"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adolescent",
+              "Anesthesia, General",
+              "Anesthesia, Local",
+              "Cardiac Catheterization",
+              "Child",
+              "Procedural Sedation",
+              "Consensus",
+              "Disease Management",
+              "Heart Defects, Congenital"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27053694/"
+          },
+          {
+            "pmid": "20023177",
+            "title": "Gene expression profile in flow-associated pulmonary arterial hypertension with neointimal lesions.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a pulmonary angioproliferative disease with high morbidity and mortality, characterized by a typical pattern of pulmonary vascular remodeling including neointimal lesions. In congenital heart disease, increased pulmonary blood flow has appeared to be a key mediator in the development of these characteristic lesions, but the molecular mechanisms underlying the pulmonary vascular lesions are largely unknown. We employed a rat model of flow-associated PAH, which induced specific pulmonary neointimal lesions. We identified gene expression profiles in rats specifically related to the addition of increased pulmonary blood flow to monocrotaline and the associated occurrence of neointimal lesions. Increased pulmonary blood flow induced the expression of the transcription factors activating transcription factor-3 (ATF3) and early growth response factor-1 (EGR-1), for which presence was confirmed in neointimal lesions. Monocrotaline alone induced increase",
+            "journal": "American journal of physiology. Lung cellular and molecular physiology",
+            "year": "2010",
+            "authors": [
+              "van Albada Mirjam E",
+              "Bartelds Beatrijs",
+              "Wijnberg Hans",
+              "Mohaupt Saffloer",
+              "Dickinson Michael G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Count",
+              "Cluster Analysis",
+              "Disease Models, Animal",
+              "Gene Expression Profiling",
+              "Hemodynamics",
+              "Hypertension, Pulmonary",
+              "Male",
+              "Mast Cells",
+              "Oligonucleotide Array Sequence Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20023177/"
+          },
+          {
+            "pmid": "19436672",
+            "title": "Review of inhaled iloprost for the control of pulmonary artery hypertension in children.",
+            "abstract": "In the pediatric population, pulmonary hypertension may present as an acute event in the setting of lung or cardiac pathology or as a chronic disease, mainly as idiopathic pulmonary hypertension or associated with congenital heart disease. Recently, new pharmacologic approaches have demonstrated significant efficacy in the management of adults with pulmonary arterial hypertension; these include intravenous epoprostenol, prostacyclin analogs, endothelin receptor antagonists and phosphodiesterase type 5 inhibitors. The same treatment strategies are currently used in children. There are only few reports of the use of inhaled iloprost in pediatrics, only one of which reported the use of chronic inhaled iloprost in a significant number of children. This report showed that 1) the acute pulmonary vasodilator response to inhaled iloprost is equivalent to that of inhaled nitric oxide; 2) acute inhalation of iloprost can induce bronchoconstriction 3) the addition of inhaled iloprost can reduce t",
+            "journal": "Vascular health and risk management",
+            "year": "2009",
+            "authors": [
+              "Tissot Cecile",
+              "Beghetti Maurice"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Inhalation",
+              "Adult",
+              "Antihypertensive Agents",
+              "Child",
+              "Chronic Disease",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19436672/"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Middle Aged",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31090367/"
+          },
+          {
+            "pmid": "24729548",
+            "title": "Use of inhaled iloprost in children with pulmonary hypertension.",
+            "abstract": "Pulmonary hypertension (PH) in children is a serious disorder, for which the major goal of treatment is to prevent progressive vascular remodeling, and improve clinical status and survival. Iloprost is approved for the treatment of PH in adults; however, few studies have evaluated its effects in children. The objective of this study is to analyze the long-term effects of inhaled iloprost treatment in children with PH. A retrospective study was conducted in patients treated with iloprost between 2000 and 2012. Patients with left-right cardiac shunt and persistent PH of the newborn were excluded. The cohort comprised 22 patients (15 females) with a median age of 2.6 years. Twelve patients had pulmonary arterial hypertension including idiopathic (n = 6), hereditary (n = 2) and associated (congenital heart disease [n = 3], and schistosomiasis [n = 1]). One patient had pulmonary veno-occlusive disease, six patients had PH secondary to lung disease and three had multifactorial PH. Median mea",
+            "journal": "Pediatric pulmonology",
+            "year": "2015",
+            "authors": [
+              "Moreno-Galdó Antonio",
+              "Torrent-Vernetta Alba",
+              "de Mir Messa Inés",
+              "Rovira Amigo Sandra",
+              "Gran Piña Ferran"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Male",
+              "Nebulizers and Vaporizers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24729548/"
+          },
+          {
+            "pmid": "29894617",
+            "title": "ANESTHETIC MANAGEMENT AND INTENSIVE CARE DURING PERIOPERATIVE PERIOD OF ABDOMINAL DELIVERY IN PREGNANT WOMEN WITH PULMONARY ARTERIAL HYPERTENSION.",
+            "abstract": "Background The presence ofpulmonary arterial hypertension (PAH) in pregnant women increases mortality up to 12- 30% and up to 50% when PAH is associated with Eisenmenger syndrome. Due to low prevalence of PAH in pregnancy many aspects ofperioperative management are still unclear.",
+            "journal": "Anesteziologiia i reanimatologiia",
+            "year": "2016",
+            "authors": [
+              "Bautin A E",
+              "Yakubov A V",
+              "Kokonina Yu A",
+              "Il'in A B",
+              "Li O A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, Inhalation",
+              "Cesarean Section",
+              "Critical Care",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Monitoring, Intraoperative",
+              "Perioperative Period",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29894617/"
+          },
+          {
+            "pmid": "22032309",
+            "title": "Screening and treating pulmonary arterial hypertension in a tertiary hospital-based multidisciplinary clinic: the first 200 patients.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is an increasingly recognised serious illness with insidious onset, delayed diagnosis, complex diagnostic algorithms and poor prognosis, but with recently available effective treatments.",
+            "journal": "Internal medicine journal",
+            "year": "2013",
+            "authors": [
+              "Low A J",
+              "Fowler D",
+              "Manghani M K",
+              "Young I",
+              "Garsia R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Allergy and Immunology",
+              "Bosentan",
+              "Cardiac Catheterization",
+              "Cardiology",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22032309/"
+          },
+          {
+            "pmid": "17990138",
+            "title": "The Swiss registry for pulmonary arterial hypertension: the paediatric experience.",
+            "abstract": "Pulmonary arterial hypertension is a rare disease with a poor prognosis. Epidemiological data are scarce, particularly in the paediatric population. A registry was recently developed in order to collect epidemiological data on patients with pulmonary arterial hypertension (PAH) in Switzerland. This is the first description of the paediatric data.",
+            "journal": "Swiss medical weekly",
+            "year": "2007",
+            "authors": [
+              "Fasnacht Margrit Suzanne",
+              "Tolsa Jean-François",
+              "Beghetti Maurice"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antihypertensive Agents",
+              "Child",
+              "Child Welfare",
+              "Child, Preschool",
+              "Epidemiologic Studies",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17990138/"
+          },
+          {
+            "pmid": "25327730",
+            "title": "[Analysis of high risk factors for patient death and its clinical characteristics on pregnancy associated with pulmonary arterial hypertension].",
+            "abstract": "Study of pulmonary hypertension (PAH) during pregnancy has characteristics of the high risk factors for patient death and its clinical characteristics.",
+            "journal": "Zhonghua fu chan ke za zhi",
+            "year": "2014",
+            "authors": [
+              "Bao Zhaoliang",
+              "Zhang Jun",
+              "Yang Dong",
+              "Xu Xiaohui"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Cesarean Section",
+              "Delivery, Obstetric",
+              "Echocardiography",
+              "Familial Primary Pulmonary Hypertension",
+              "Female",
+              "Gestational Age",
+              "Heart Defects, Congenital",
+              "Heart Failure",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25327730/"
+          },
+          {
+            "pmid": "30719004",
+            "title": "Acute Iloprost Inhalation Improves Right Ventricle Function in Pulmonary Artery Hypertension: A Cardiac Magnetic Resonance Study.",
+            "abstract": "Background: Right ventricle (RV) function is among the most important prognostic factors for pulmonary arterial hypertension (PAH) patients. Inhaled iloprost, an inhaled member of the prostacyclin family, is effective for the treatment of severe PAH and acute RV failure. However, the acute effects of iloprost on RV physiology have not been thoroughly explored in the past. Materials and Methods: This prospective study involved 69 incident PAH patients, including 23 idiopathic PAH (IPAH) patients, 26 patients with PAH associated with connective tissue disease (CTD-PAH) and 20 with PAH associated with congenital heart disease (CHD-PAH). All patients underwent both right heart catheterization and cardiac magnetic resonance imaging at baseline and 20 min after 5 μg iloprost inhalation. Results: Acute iloprost inhalation reduced PVR from 13 ± 7 to 10 ± 6 Wood U (P < 0.001), increased RV ejection fraction (RVEF) from 31 ± 11 to 35 ± 12 % (P < 0.001), increased RV stroke volume from 53 ± 21 to",
+            "journal": "Frontiers in pharmacology",
+            "year": "2018",
+            "authors": [
+              "Li Jing-Hui",
+              "Zhang Hong-Da",
+              "Wang Zhen-Zhen",
+              "Lu Qing-Qing",
+              "Li Dong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30719004/"
+          },
+          {
+            "pmid": "15929625",
+            "title": "Eisenmenger syndrome in the adult--experience with new drugs for the treatment of pulmonary hypertension.",
+            "abstract": "The last few years have seen significant progress in the treatment of advanced pulmonary arterial hypertension (PAH). The efficacy of new drugs has been proved mainly in idiopathic PAH or PAH associated with connective tissue diseases. As the pathophysiologic patterns are similar, it is reasonable to use these drugs also in Eisenmenger syndrome or in other congenital heart defects with PAH related to initial high pulmonary flow.",
+            "journal": "Revista portuguesa de cardiologia : orgao oficial da Sociedade Portuguesa de Cardiologia = Portuguese journal of cardiology : an official journal of the Portuguese Society of Cardiology",
+            "year": "2005",
+            "authors": [
+              "Agapito Ana Figueiredo",
+              "Sousa Lídia",
+              "Oliveira José Alberto",
+              "Feliciano Joana",
+              "Cacela Duarte"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Eisenmenger Complex",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15929625/"
+          },
+          {
+            "pmid": "34925762",
+            "title": "Vasodilator therapy for pulmonary hypertension in children: a national study of patient characteristics and current treatment strategies.",
+            "abstract": "Pulmonary vasodilator therapy is still often an off-label treatment for pulmonary hypertension in children. The aim of this nationwide register-based study was to assess patient characteristics and strategies for pulmonary vasodilator therapy in young Swedish children. Prescription information for all children below seven years of age at treatment initiation, between 2007 and 2017, was retrieved from the National Prescribed Drug Register, and medical information was obtained by linkage to other registers. All patients were categorized according to the WHO classification of pulmonary hypertension. In total, 233 patients had been prescribed pulmonary vasodilators. The treatment was initiated before one year of age in 61% (N = 143). Sildenafil was most common (N = 224 patients), followed by bosentan (N = 29), iloprost (N = 14), macitentan (N = 4), treprostinil (N = 2) and riociguat (N = 2). Over the study period, the prescription rate for sildenafil tripled. Monotherapy was most common, 8",
+            "journal": "Pulmonary circulation",
+            "year": "2021",
+            "authors": [
+              "Jeremiasen Ida",
+              "Naumburg Estelle",
+              "Westöö Christian",
+              "G Weismann Constance",
+              "Tran-Lundmark Karin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34925762/"
+          },
+          {
+            "pmid": "18260882",
+            "title": "[Pulmonary hypertension and right ventricular failure. Part X. Prostanoids in the treatment of primary pulmonary arterial hypertension].",
+            "abstract": "In a series of articles the authors discuss literature data concerning epidemiology of pulmonary arterial hypertension (PAH), its modern classification; peculiarities of its pathogenesis and treatment in various diseases and conditions. The tenth communication contains consideration of results of controlled trials of prostacyclin and its synthetic analogues in patients with primary (idiopathic) PAH, and PAH associated with diffuse diseases of connective tissue, congenital heart disease, HIV-infection. Continuous intravenous infusion of prostacyclin (epoprostenol) has made a revolution in the treatment of patient with severe PAH because its long-term use is associated with improvement of survival of patients refractory to high doses of calcium antagonists. Subcutaneous administration of treprostinil and especially inhaled iloprost substantially widen possibilities of prolonged use of prostanoids in patients with various forms of PAH. Literature data on application of different prostanoi",
+            "journal": "Kardiologiia",
+            "year": "2007",
+            "authors": [
+              "Batyraliev T A",
+              "Makhmutkhodzhaev S A",
+              "Ekinci E",
+              "Pataraia S A",
+              "Pershukov I V"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Global Health",
+              "Heart Failure",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Incidence",
+              "Prevalence",
+              "Prostaglandins",
+              "Survival Rate",
+              "Treatment Outcome",
+              "Ventricular Dysfunction, Right"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18260882/"
+          },
+          {
+            "pmid": "25316472",
+            "title": "Complete resolution of chronic pericardial effusion with an intensive course of inhaled iloprost in an adult patient with unrepaired ventricular septal defect, and life-threatening severe pulmonary arterial hypertension.",
+            "abstract": "A 38-year-old male was diagnosed with unrepaired ventricular septal defect associated with severe pulmonary arterial hypertension, cyanosis, and significant exercise intolerance. His echocardiogram showed right ventricular dysfunction and moderate pericardial effusion with no signs of cardiac tamponade. He was treated with an intensive course of inhaled iloprost and sildenafil. He showed a dramatic clinical response; his saturation went up from 60% on admission to 90% on minimal oxygen with significant improvement in his symptoms and signs of heart failure and total resolution of pericardial effusion. On follow up 3 and 6 weeks later, he was stable and could walk 360 meters in a 6 minutes walk test with disappearance of pericardial effusion. With unavailability of intravenous prostacyclin, we have shown in this case that intensive administration of inhaled iloprost could be used intensively as a rescue therapy in severe cases of pulmonary arterial hypertension with excellent results.",
+            "journal": "Saudi medical journal",
+            "year": "2014",
+            "authors": [
+              "Alzahrani Ahmed M",
+              "Alqahtani Abdullah S",
+              "Alnajashi Khalid S",
+              "Idrees Majdy M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adult",
+              "Exercise Test",
+              "Heart Septal Defects, Ventricular",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Male",
+              "Pericardial Effusion",
+              "Pericarditis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25316472/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arteriovenous malformation (disease)",
+        "txgnn_score": 0.9931499361991882,
+        "txgnn_rank": 8123,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15929019",
+            "title": "[Pulmonary hypertension in hereditary haemorrhagic teleangiectasia (Rendu-Osler-Weber disease). Progression over 10 years].",
+            "abstract": "10 years ago a now 49-year-old woman with Render-Osler-Weber disease showed unspecific symptoms of nausea, and general unwellness. Pulmonary manifestation of the disease was accompanied by pulmonary hypertension.",
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2005",
+            "authors": [
+              "Schlag K",
+              "Opitz C",
+              "Wensel R",
+              "Felix S",
+              "Ewert R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticoagulants",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Calcium Channel Blockers",
+              "Diuretics",
+              "Endothelin Receptor Antagonists",
+              "Epistaxis",
+              "Epoprostenol",
+              "Female",
+              "Furosemide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15929019/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with schistosomiasis",
+        "txgnn_score": 0.992084264755249,
+        "txgnn_rank": 8960,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "24729548",
+            "title": "Use of inhaled iloprost in children with pulmonary hypertension.",
+            "abstract": "Pulmonary hypertension (PH) in children is a serious disorder, for which the major goal of treatment is to prevent progressive vascular remodeling, and improve clinical status and survival. Iloprost is approved for the treatment of PH in adults; however, few studies have evaluated its effects in children. The objective of this study is to analyze the long-term effects of inhaled iloprost treatment in children with PH. A retrospective study was conducted in patients treated with iloprost between 2000 and 2012. Patients with left-right cardiac shunt and persistent PH of the newborn were excluded. The cohort comprised 22 patients (15 females) with a median age of 2.6 years. Twelve patients had pulmonary arterial hypertension including idiopathic (n = 6), hereditary (n = 2) and associated (congenital heart disease [n = 3], and schistosomiasis [n = 1]). One patient had pulmonary veno-occlusive disease, six patients had PH secondary to lung disease and three had multifactorial PH. Median mea",
+            "journal": "Pediatric pulmonology",
+            "year": "2015",
+            "authors": [
+              "Moreno-Galdó Antonio",
+              "Torrent-Vernetta Alba",
+              "de Mir Messa Inés",
+              "Rovira Amigo Sandra",
+              "Gran Piña Ferran"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Male",
+              "Nebulizers and Vaporizers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24729548/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with connective tissue disease",
+        "txgnn_score": 0.992084264755249,
+        "txgnn_rank": 8961,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37765060",
+            "title": "Recent Advances in the Treatment of Pulmonary Arterial Hypertension Associated with Connective Tissue Diseases.",
+            "abstract": "Pulmonary hypertension (PH) is a severe vascular complication of connective tissue diseases (CTD). Patients with CTD may develop PH belonging to diverse groups: (1) pulmonary arterial hypertension (PAH), (2) PH due to left heart disease, (3) secondary PH due to lung disease and/or hypoxia and (4) chronic thromboembolic pulmonary hypertension (CTEPH). PAH most often develops in systemic scleroderma (SSc), mostly in its limited variant. PAH-CTD is a progressive disease characterized by poor prognosis. Therefore, early diagnosis should be established. A specific treatment for PAH-CTD is currently available and recommended: prostacyclin derivative (treprostinil, epoprostenol, iloprost, selexipag), nitric oxide and natriuretic pathway: stimulators of soluble guanylate cyclase (sGC: riociguat) and phosphodiesterase-five inhibitors (PDE5i: sildenafil, tadalafil), endothelin receptor antagonists (ERA: bosentan, macitentan, ambrisentan). Moreover, novel drugs, e.g., sotatercept, have been inten",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Smukowska-Gorynia Anna",
+              "Gościniak Weronika",
+              "Woźniak Patrycja",
+              "Iwańczyk Sylwia",
+              "Jaxa-Kwiatkowska Karolina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37765060/"
+          },
+          {
+            "pmid": "22621693",
+            "title": "Treatment of pulmonary arterial hypertension in connective tissue disease.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a group of distinct disorders that includes idiopathic PAH (IPAH), familial PAH and PAH associated with other conditions (APAH) such as connective tissue disease (CTD-APAH) or congenital heart disease. PAH is characterized by increased pulmonary arterial pressure and pulmonary vascular resistance. If left untreated, PAH can lead to right heart failure and premature death. CTD-APAH represents an important clinical subgroup of APAH that has a higher risk of death than IPAH. The European treatment guidelines advocate the use of PAH-targeted therapies including bosentan, ambrisentan, sildenafil, inhaled iloprost, intravenous epoprostenol (I-A recommendations), tadalafil or treprostinil (I-B recommendations) for patients in WHO functional class II-III. Not all randomized clinical studies of the approved PAH-targeted therapies have included patients with CTD-APAH. The purpose of this review is to describe the clinical characteristics of CTD-APAH and d",
+            "journal": "Drugs",
+            "year": "2012",
+            "authors": [
+              "Grünig Ekkehard"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Connective Tissue Diseases",
+              "Familial Primary Pulmonary Hypertension",
+              "Heart Failure",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22621693/"
+          },
+          {
+            "pmid": "40459886",
+            "title": "Long-term effects of selexipag in SSc-associated digital ulcers: a case-control multicentre observational study.",
+            "abstract": "Digital ulcers (DUs) affect ∼50% of SSc patients, causing significant pain and functional impairment. Current management involves both systemic and local therapies. However, the burden in terms of pain and quality of life due to refractory DUs still remains heavy. While selexipag is approved for SSc-associated pulmonary arterial hypertension, its potential in treating DUs is unexplored. We aimed to evaluate the long-term efficacy of selexipag compared with iloprost in treating DUs.",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2025",
+            "authors": [
+              "Iannone Claudia",
+              "Di Battista Marco",
+              "Pellico Maria Rosa",
+              "Magi Ilaria",
+              "Minniti Antonina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Skin Ulcer",
+              "Retrospective Studies",
+              "Case-Control Studies",
+              "Scleroderma, Systemic",
+              "Iloprost",
+              "Acetamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40459886/"
+          },
+          {
+            "pmid": "27651181",
+            "title": "Long-term outcomes of domiciliary intravenous iloprost in idiopathic and connective tissue disease-associated pulmonary arterial hypertension.",
+            "abstract": "There are few published data on the efficacy of i.v. iloprost in pulmonary arterial hypertension (PAH). We present long-term outcomes in PAH patients receiving i.v. iloprost in a large UK referral centre.",
+            "journal": "Respirology (Carlton, Vic.)",
+            "year": "2017",
+            "authors": [
+              "Ramjug Sheila",
+              "Hussain Nehal",
+              "Hurdman Judith",
+              "Elliot Charlie A",
+              "Sabroe Ian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intravenous",
+              "Adult",
+              "Connective Tissue Diseases",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Long Term Adverse Effects",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27651181/"
+          },
+          {
+            "pmid": "29718009",
+            "title": "Pulmonary Vasoreactivity and Phenotypes in Pulmonary Arterial Hypertension Associated to Connective Tissue Diseases.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a fatal complication in patients with connective tissue disease (CTD).",
+            "journal": "Revista de investigacion clinica; organo del Hospital de Enfermedades de la Nutricion",
+            "year": "2018",
+            "authors": [
+              "Hernández-Oropeza José Luis",
+              "Rodríguez-Reyna Tatiana Sofía",
+              "Carrillo-Pérez Diego Luis",
+              "Rodríguez-Andoney José de Jesús",
+              "Narváez-David René"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adult",
+              "Blood Pressure",
+              "Cardiac Catheterization",
+              "Connective Tissue Diseases",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Lupus Erythematosus, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29718009/"
+          },
+          {
+            "pmid": "11936539",
+            "title": "Pulmonary hypertension in collagen vascular disease.",
+            "abstract": "Pulmonary hypertension is a serious but often overlooked complication in collagen vascular disease. The understanding of the development of pulmonary hypertension has increased substantially during the last years. Abnormal proliferation of pulmonary vascular cells is now being regarded as a predominant process leading to pulmonary vascular obliteration. Medical therapy focuses on prostacyclin treatment, which has been shown to improve exercise capacity and haemodynamic variables in patients with several collagen vascular diseases and pulmonary arterial hypertension. Continuous intravenous prostacyclin remains the standard treatment of associated pulmonary hypertension but less invasive alternatives such as subcutaneous treprostinil, oral beraprost or aerosolized iloprost, as well as, novel substances such as endothelin receptor antagonists may be appropriate for selected patients.",
+            "journal": "The European respiratory journal",
+            "year": "2002",
+            "authors": [
+              "Hoeper M M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Collagen Diseases",
+              "Comorbidity",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Male",
+              "Prognosis",
+              "Risk Assessment",
+              "Vascular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11936539/"
+          },
+          {
+            "pmid": "37728697",
+            "title": "Real-World Treatment Patterns Among Patients with Connective Tissue Disorder-Related Pulmonary Arterial Hypertension in the United States: A Retrospective Claims-Based Analysis.",
+            "abstract": "Connective tissue disorders (CTDs) are the most frequent diseases associated with pulmonary arterial hypertension (PAH). Despite advances in treatment, the prognosis of CTD-related PAH remains poor. To help identify areas for improvement in the management of CTD-related PAH, this study assessed real-world PAH treatment patterns in this population in the US.",
+            "journal": "Advances in therapy",
+            "year": "2023",
+            "authors": [
+              "Sargent Therese",
+              "Tsang Yuen",
+              "Panjabi Sumeet",
+              "Funtanilla Vienica",
+              "Germack Hayley D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "United States",
+              "Pulmonary Arterial Hypertension",
+              "Retrospective Studies",
+              "Hypertension, Pulmonary",
+              "Connective Tissue Diseases",
+              "Connective Tissue"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37728697/"
+          },
+          {
+            "pmid": "21283970",
+            "title": "Systemic sclerosis - a systematic overview: part 2 - immunosuppression, treatment of SSc-associated vasculopathy, and treatment of pulmonary arterial hypertension.",
+            "abstract": "Here we give an overview over treatment recommendations propagated by the European League Against Rheumatism (EULAR), EULAR Scleroderma Trials and Research Group, the German Network for Systemic Sclerosis, the European Respiratory Society, and the International Society of Heart and Lung Transplantation. As response to immunosuppressant (IS) therapy is usually weaker in systematic sclerosis (SSc) compared to other connective tissue disorders IS should be considered with caution. To prevent scleroderma renal crisis steroid doses should not exceed 15 mg/d. The definitive role of a number of new immunosuppressant drugs and the effects of autologous stem cell transplantation in systemic clerosis (SSc) have to be elucidated. Prostanoids, especially iloprost, are widely used as intravenous formulas for the treatment of severe Raynaud's phenomenon (RP) and digital ulcers (DU). Calcium antagonists are of limited therapeutic value. Bosentan, an oral endothelin receptor antagonists (ETRA), was sh",
+            "journal": "VASA. Zeitschrift fur Gefasskrankheiten",
+            "year": "2011",
+            "authors": [
+              "Opitz C",
+              "Klein-Weigel P F",
+              "Riemekasten G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Cardiovascular Agents",
+              "Drug Therapy, Combination",
+              "Europe",
+              "Familial Primary Pulmonary Hypertension",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Immunosuppressive Agents",
+              "Practice Guidelines as Topic",
+              "Raynaud Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21283970/"
+          },
+          {
+            "pmid": "19487219",
+            "title": "Pulmonary arterial hypertension: the most devastating vascular complication of systemic sclerosis.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a devastating vascular complication of a number of CTDs. In patients with SSc, PAH has a dramatic impact on prognosis and survival and is the single most common cause of disease-related death.Yearly echocardiographic screening for PAH is recommended in patients with SSc. If suspected, confirmation of PAH diagnosis by right heart catheterization is necessary. Treatment goals for patients with PAH associated with SSc (PAH-SSc) aim to slow disease progression and improve quality of life. Some measures used to gauge the effect of treatment in patients with PAH-SSc remain to be fully validated; the 6-min walk distance, for example, is a simple and reproducible means of assessing exercise capacity, but there exists a need to understand what constitutes a clinically relevant change in this specific patient population. Currently, pharmacological intervention in PAH-SSc may target one or more of three pathophysiological pathways in PAH. The prostacyclin ",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2009",
+            "authors": [
+              "McLaughlin V",
+              "Humbert M",
+              "Coghlan G",
+              "Nash P",
+              "Steen V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Cardiac Catheterization",
+              "Echocardiography",
+              "Epoprostenol",
+              "Exercise Tolerance",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Piperazines",
+              "Purines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19487219/"
+          },
+          {
+            "pmid": "17130975",
+            "title": "[Update in the diagnosis and therapy for pulmonary arterial hypertension].",
+            "abstract": "Pulmonary Arterial Hypertension includes a heterogeneous group of disorders with a common genetic, pathological and hemodinamyc origin. It is characterized by a high pulmonary artery pressure due to a primary vascular disease, as a consequence of genetic and environmental factors. The common pathway is a vascular imbalance towards vasoconstriction and proliferation inside the small vessels. According to the World Health Organization, 2003, Pulmonary Arterial Hypertension is classified as idiopathic, familiar or associated to connective tissue diseases, HIV, drugs, porto-pulmonary hypertension, congenital intracardiac shunts and others. The diagnosis is based in hemodynamics. Echocardiogram is a non invasive and right ventricular catheterization is an invasive diagnostic tool. Follow up is based on a clinical and functional assessment through functional class classification, dyspnea scores and 6-minute walking test. The prognosis is historically devastating but new therapies are changin",
+            "journal": "Revista medica de Chile",
+            "year": "2006",
+            "authors": [
+              "Zagolin B Mónica",
+              "Wainstein G Eduardo",
+              "Uriarte G Polentzi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Epoprostenol",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Phosphodiesterase Inhibitors",
+              "Piperazines",
+              "Platelet Aggregation Inhibitors",
+              "Prognosis",
+              "Purines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17130975/"
+          },
+          {
+            "pmid": "21925064",
+            "title": "Long-term effects of intermittent Iloprost infusion on pulmonary arterial pressure in connective tissue disease.",
+            "abstract": "Intravenous periodic Iloprost is proven effective in the treatment of Raynaud phenomenon (RP) related to connective tissue disorder (CTD). It's well known that synthetic prostaglandins are effective drugs for the treatment of pulmonary arterial hypertension (PAH), and that PAH is frequently associated with CTD.",
+            "journal": "European journal of internal medicine",
+            "year": "2011",
+            "authors": [
+              "Caravita Sergio",
+              "Wu Sheng Chin",
+              "Secchi Maria Beatrice",
+              "Dadone Viola",
+              "Bencini Chiara"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cardiovascular Agents",
+              "Connective Tissue Diseases",
+              "Dose-Response Relationship, Drug",
+              "Familial Primary Pulmonary Hypertension",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21925064/"
+          },
+          {
+            "pmid": "14583573",
+            "title": "Prevalence and outcome in systemic sclerosis associated pulmonary arterial hypertension: application of a registry approach.",
+            "abstract": "To determine the prevalence of systemic sclerosis associated pulmonary arterial hypertension (SScPAH), evaluate outcome, and identify predictors of mortality in a large patient cohort.",
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2003",
+            "authors": [
+              "Mukerjee D",
+              "St George D",
+              "Coleiro B",
+              "Knight C",
+              "Denton C P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Cardiac Catheterization",
+              "Echocardiography",
+              "Epidemiologic Methods",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14583573/"
+          },
+          {
+            "pmid": "24387049",
+            "title": "Current therapies for the treatment of systemic sclerosis-related pulmonary arterial hypertension: efficacy and safety.",
+            "abstract": "Systemic sclerosis (SSc) is a rare connective tissue disease characterized by chronic inflammation and fibrosis of the skin, vascular abnormalities and variable involvement of organs. Patients with limited SSc typically develop pulmonary arterial hypertension (PAH). TNF-α, VEGF, platelet-derived growth factor and endothelin-1 play a key role in the development of PAH.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2014",
+            "authors": [
+              "Murdaca Giuseppe",
+              "Spanò Francesca",
+              "Puppo Francesco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Familial Primary Pulmonary Hypertension",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Scleroderma, Systemic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24387049/"
+          },
+          {
+            "pmid": "35134204",
+            "title": "Successful transition from intravenous epoprostenol to oral selexipag and inhaled iloprost in a case of severe pulmonary arterial hypertension associated with systemic lupus erythematosus.",
+            "abstract": "A 25-year-old woman was admitted to our hospital with severe pulmonary arterial hypertension associated with systemic lupus erythematosus (SLE-PAH). Her mean pulmonary arterial pressure was 56 mmHg, and her SLE Disease Activity Index-2 K score was 14 on admission. In addition to a strong immunosuppressive regimen, which included steroid pulse therapy followed by high-dose oral prednisolone (1 mg/kg) and intravenous cyclophosphamide, an upfront combination of vasodilator therapy, including oral tadalafil, macitentan, and intravenous epoprostenol, was administered in the early phase. Two months later, her mean pulmonary arterial pressure was 29 mmHg, and her other haemodynamic markers showed significant improvement. She refused to start life-long intravenous epoprostenol therapy and so was switched to oral selexipag and inhaled iloprost. The transition was successful, and she has experienced no exacerbations of SLE-PAH during the 10 months since the onset of pulmonary arterial hypertensi",
+            "journal": "Modern rheumatology case reports",
+            "year": "2022",
+            "authors": [
+              "Saiki Chihiro",
+              "Kashiwado Yusuke",
+              "Yokoyama Taku",
+              "Ayano Masahiro",
+              "Imabayashi Keisuke"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetamides",
+              "Adult",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Lupus Erythematosus, Systemic",
+              "Pulmonary Arterial Hypertension",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35134204/"
+          },
+          {
+            "pmid": "19830150",
+            "title": "Successful pregnancy in pulmonary arterial hypertension associated with systemic lupus erythematosus: a case report.",
+            "abstract": "Pulmonary arterial hypertension is a complication of systemic lupus erythematosus. Mortality in pregnant patients with pulmonary arterial hypertension related to connective tissue disease is as high as 56%. The authors report the first case of a successful maternal-fetal outcome in a pregnant patient with systemic lupus erythematosus-associated pulmonary arterial hypertension treated with sildenafil and inhaled iloprost during pregnancy and until several weeks after caesarean section.",
+            "journal": "Journal of medical case reports",
+            "year": "2009",
+            "authors": [
+              "Streit Michael",
+              "Speich Rudolf",
+              "Fischler Manuel",
+              "Ulrich Silvia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19830150/"
+          },
+          {
+            "pmid": "20858146",
+            "title": "Survival in patients with pulmonary arterial hypertension associated with systemic sclerosis from a Swedish single centre: prognosis still poor and prediction difficult.",
+            "abstract": "To describe the survival rate in a cohort of systemic sclerosis (SSc) patients with pulmonary arterial hypertension (PAH) and to evaluate possible predictors for SSc-PAH in a cohort of SSc patients.",
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "2011",
+            "authors": [
+              "Hesselstrand R",
+              "Wildt M",
+              "Ekmehag B",
+              "Wuttge D M",
+              "Scheja A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Blood Pressure",
+              "Carbon Monoxide",
+              "Case-Control Studies",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Lung",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20858146/"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Middle Aged",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31090367/"
+          },
+          {
+            "pmid": "24946184",
+            "title": "Severe pulmonary arterial hypertension secondary to lupus in the emergency department: proactive intense care associated with a better short-term survival.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a severe complication of systemic lupus erythematosus (SLE) and could be an acute critical condition presenting to the emergency department (ED). Our previous retrospective study revealed that the ED-related mortality of such patients was over 50%. The aim of the current prospective study is to initiate a proactive intense care strategy on severe SLE-PAH patients in the emergency setting and evaluate its impact on the short-term survival.",
+            "journal": "International journal of rheumatic diseases",
+            "year": "2015",
+            "authors": [
+              "Chen Yi",
+              "Guo Li",
+              "Li Yuzhen",
+              "Chen Guang-Liang",
+              "Chen Xiao-Xiang"
+            ],
+            "pub_types": [
+              "Clinical Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antihypertensive Agents",
+              "Case-Control Studies",
+              "Critical Care",
+              "Drug Therapy, Combination",
+              "Education, Medical, Continuing",
+              "Emergency Service, Hospital",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24946184/"
+          },
+          {
+            "pmid": "15049280",
+            "title": "[Treatment of pulmonary arterial hypertension associated to systemic sclerosis].",
+            "abstract": "Pulmonary arterial hypertension (PAH) is one of the main causes of death in patients with systemic sclerosis (SSc), particularly in its limited forms.",
+            "journal": "La Revue de medecine interne",
+            "year": "2004",
+            "authors": [
+              "Hachulla E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Calcium",
+              "Epoprostenol",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Scleroderma, Systemic",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15049280/"
+          },
+          {
+            "pmid": "26155616",
+            "title": "[Clinical and hemodynamic characteristics and possibilities for therapy in patients with severe (functional class IV) pulmonary arterial hypertension associated with diffuse connective tissue diseases].",
+            "abstract": "To study the clinical and hemodynamic characteristics of a group of patients with Functional Class (FC) IV pulmonary arterial hypertension (PAH) developing in the presence of diffuse connective tissue diseases (DCTD) and to evaluate the efficacy of intravenous iloprost.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2015",
+            "authors": [
+              "Nikolaeva E V",
+              "Yudkina N N",
+              "Kurmukov I A",
+              "Novikova D S",
+              "Markelova E I"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Comorbidity",
+              "Connective Tissue Diseases",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Middle Aged",
+              "Severity of Illness Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26155616/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with HIV infection",
+        "txgnn_score": 0.992084264755249,
+        "txgnn_rank": 8962,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00709956",
+            "title": "A Multicenter, Double-blind, Randomized, Placebo-controlled, Crossover Study to Assess the Effects of a Single Dose of Iloprost Power 15 on Exercise Capacity in Patients With Symptomatic Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-07",
+            "completion_date": "2009-08",
+            "country": "N/A",
+            "enrollment": 64,
+            "brief_summary": "Patients with symptomatic idiopathic pulmonary arterial hypertension (IPAH), or familial pulmonary arterial hypertension (FPAH) or pulmonary hypertension associated with Human immunodeficiency virus (HIV) or drugs/toxins in New York Heart Association (NYHA) functional class II to IV at baseline, naive to PAH treatment or currently being treated with a stable dose of either bosentan, ambrisentan or sildenafil will be enrolled in the PROWESS 15 study. This randomized, double blind, placebo-control",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent prior to initiation of any study mandated procedure,\n* Patients with symptomatic idiopathic, or familial pulmonary arterial hypertension or pulmonary hypertension associated with human immunodeficiency virus (HIV) or drugs/toxins in NYHA functional clas",
+            "endpoints": [
+              "6-minute-walk Distance (6MWD)"
+            ],
+            "sponsor": "Actelion",
+            "url": "https://clinicaltrials.gov/study/NCT00709956"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "17195895",
+            "title": "HIV-related pulmonary hypertension.",
+            "abstract": "With the availability of better treatment and prophylactic regimens for the infectious complications of human immunodeficiency virus (HIV), the non-infectious complications are gaining greater attention. HIV-related pulmonary arterial hypertension (HIV-PAH) is one of these. The incidence of HIV-PAH is estimated at 0.5% of HIV-infected individuals. The pathogenesis remains unclear. Patients present with symptoms as diverse as progressive shortness of breath, pedal edema, dry cough, fatigue, syncope, as well as chest pain. Chest X-ray always shows cardiomegaly and prominent pulmonary artery, and evidence of right ventricular hypertrophy can be seen from the electrocardiogram. The pulmonary arterial systolic pressure, diastolic pressure and pulmonary vascular resistance from right heart catheterization are increased. There are a few small studies showing the benefit of prostacyclin analog (epoprostenol and iloprost) and bosentan. The role of antiretrovirals remains controversial, as do th",
+            "journal": "The Mount Sinai journal of medicine, New York",
+            "year": "2006",
+            "authors": [
+              "Limsukon Atikun",
+              "Saeed Ali Imran",
+              "Ramasamy Vimala",
+              "Nalamati Jhansi",
+              "Dhuper Sunil"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Disease Progression",
+              "HIV Infections",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Prognosis",
+              "Pulmonary Artery",
+              "Tomography, X-Ray Computed",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17195895/"
+          },
+          {
+            "pmid": "14720012",
+            "title": "Prostanoids for pulmonary arterial hypertension.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a severe condition that markedly reduces exercise capacity and survival in the affected patient population. PAH includes primary pulmonary hypertension (PPH) and pulmonary hypertension associated with collagen vascular diseases, congenital systemic-to-pulmonary shunts, portal hypertension and HIV infection. All these conditions share virtually identical obstructive pathologic changes of the pulmonary microcirculation and probably similar pathobiologic processes. The pathophysiology is characterized by a progressive increase in pulmonary vascular resistance, leading to right ventricular failure and death. Prostacyclin is an endogenous substance that is produced by vascular endothelial cells and induces vasodilatation, inhibition of platelet activity, and antiproliferative effects. A dysregulation of prostacyclin metabolic pathways has been shown in patients with PAH and this represents the rationale for the exogenous therapeutic administration of",
+            "journal": "American journal of respiratory medicine : drugs, devices, and other interventions",
+            "year": "2003",
+            "authors": [
+              "Galiè Nazzareno",
+              "Manes Alessandra",
+              "Branzi Angelo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Distribution",
+              "Aged",
+              "Cause of Death",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14720012/"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Middle Aged",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31090367/"
+          },
+          {
+            "pmid": "18260882",
+            "title": "[Pulmonary hypertension and right ventricular failure. Part X. Prostanoids in the treatment of primary pulmonary arterial hypertension].",
+            "abstract": "In a series of articles the authors discuss literature data concerning epidemiology of pulmonary arterial hypertension (PAH), its modern classification; peculiarities of its pathogenesis and treatment in various diseases and conditions. The tenth communication contains consideration of results of controlled trials of prostacyclin and its synthetic analogues in patients with primary (idiopathic) PAH, and PAH associated with diffuse diseases of connective tissue, congenital heart disease, HIV-infection. Continuous intravenous infusion of prostacyclin (epoprostenol) has made a revolution in the treatment of patient with severe PAH because its long-term use is associated with improvement of survival of patients refractory to high doses of calcium antagonists. Subcutaneous administration of treprostinil and especially inhaled iloprost substantially widen possibilities of prolonged use of prostanoids in patients with various forms of PAH. Literature data on application of different prostanoi",
+            "journal": "Kardiologiia",
+            "year": "2007",
+            "authors": [
+              "Batyraliev T A",
+              "Makhmutkhodzhaev S A",
+              "Ekinci E",
+              "Pataraia S A",
+              "Pershukov I V"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Global Health",
+              "Heart Failure",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Incidence",
+              "Prevalence",
+              "Prostaglandins",
+              "Survival Rate",
+              "Treatment Outcome",
+              "Ventricular Dysfunction, Right"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18260882/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with chronic hemolytic anemia",
+        "txgnn_score": 0.992084264755249,
+        "txgnn_rank": 8963,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diffuse alopecia areata",
+        "txgnn_score": 0.9910420179367064,
+        "txgnn_rank": 9766,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.9842432737350464,
+        "txgnn_rank": 14656,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01088",
+    "name": "Iloprost",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Iloprost"
+      },
+      "queried_at": "2026-03-10T03:57:27.602402",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Iloprost"
+      },
+      "queried_at": "2026-03-10T03:57:28.953054",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T03:57:29.531854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T03:57:32.670516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T03:57:33.334417",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T03:57:33.837402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T03:57:37.184644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T03:57:38.123430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "queried_at": "2026-03-10T03:57:38.764588",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "queried_at": "2026-03-10T03:57:42.656552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "queried_at": "2026-03-10T03:57:46.039222",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-10T03:57:46.943456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-10T03:57:50.088971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-10T03:57:52.148369",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "queried_at": "2026-03-10T03:57:52.850502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "queried_at": "2026-03-10T03:57:56.050137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "queried_at": "2026-03-10T03:57:58.134663",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "queried_at": "2026-03-10T03:57:58.880768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "queried_at": "2026-03-10T03:58:02.688014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "queried_at": "2026-03-10T03:58:07.186436",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "queried_at": "2026-03-10T03:58:08.717486",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "queried_at": "2026-03-10T03:58:11.800807",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "queried_at": "2026-03-10T03:58:13.848502",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T03:58:14.622172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T03:58:17.450457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T03:58:18.279227",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T03:58:19.123922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T03:58:22.031710",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T03:58:23.083243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T03:58:24.055969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T03:58:28.127177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iloprost",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T03:58:28.859380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:58:28.879349"
+  }
+}

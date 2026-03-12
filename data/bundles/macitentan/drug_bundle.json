@@ -1,0 +1,1558 @@
+{
+  "drug": {
+    "inn": "Macitentan",
+    "drugbank_id": "DB08932",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pulmonary arteriovenous malformation (disease)",
+        "txgnn_score": 0.9888995885849,
+        "txgnn_rank": 11352,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with congenital heart disease",
+        "txgnn_score": 0.987471044063568,
+        "txgnn_rank": 12473,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05731492",
+            "title": "A Multicenter, Open-label, Single-arm Study to Assess the Pharmacokinetics and Safety of Macitentan in Children Aged 1 Month to <2 Years With Pulmonary Arterial Hypertension",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2024-03-14",
+            "completion_date": "2024-04-01",
+            "country": "Germany, Poland",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to learn what happens to macitentan and its active metabolite (aprocitentan) in the body of children aged between 1 month and 2 years.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pulmonary arterial hypertension (PAH): 1) including participants with Down syndrome. Diagnosis must have been confirmed by (historical, any time before screening) right heart catheterization mean pulmonary arterial pressure (mPAP) greater than or equal to (\\>=) 25 millimeter o",
+            "endpoints": [
+              "Trough Concentration of Macitentan and its Active Metabolite Aprocitentan at Week 4 in Steady-State"
+            ],
+            "sponsor": "Actelion",
+            "url": "https://clinicaltrials.gov/study/NCT05731492"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05179876",
+            "title": "A Prospective, Open-label, Platform Study for Long-term Follow-up of Participants Using Study Intervention in Pulmonary Hypertension Parent Studies",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-05-04",
+            "completion_date": "2029-09-28",
+            "country": "South Korea, Belgium, Thailand, China, Bulgaria, Hungary, Russia, Ukraine, South Africa, Belarus, Vietnam, Taiwan, Poland",
+            "enrollment": 280,
+            "brief_summary": "The purpose of the study is to enable participants with pulmonary hypertension (PH) currently treated with study intervention(s) in a clinical study (parent studies \\[NCT03422328, NCT03904693,NCT04565990, NCT02932410, NCT03492177, and NCT04175600\\]), to continue to benefit from the intervention after closure of the parent study in case they have no alternative means of access to the study intervention. This study will allow assessment of the long-term safety of each study intervention.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must sign an informed consent form (ICF) (or their legally designated representative must sign) indicating that participant understands the purpose of, and procedures required for, the study and is willing to participate in the study\n* Participant treated with oral",
+            "endpoints": [
+              "Frequency of Treatment Emergent Adverse Events (TEAEs)",
+              "Frequency of TEAEs Leading to Discontinuation",
+              "Frequency of Serious Adverse Events (SAEs)"
+            ],
+            "sponsor": "Actelion",
+            "url": "https://clinicaltrials.gov/study/NCT05179876"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30545968",
+            "title": "Haemodynamic definitions and updated clinical classification of pulmonary hypertension.",
+            "abstract": "Since the 1st World Symposium on Pulmonary Hypertension (WSPH) in 1973, pulmonary hypertension (PH) has been arbitrarily defined as mean pulmonary arterial pressure (mPAP) ≥25 mmHg at rest, measured by right heart catheterisation. Recent data from normal subjects has shown that normal mPAP was 14.0±3.3 mmHg. Two standard deviations above this mean value would suggest mPAP >20 mmHg as above the upper limit of normal (above the 97.5th percentile). This definition is no longer arbitrary, but based on a scientific approach. However, this abnormal elevation of mPAP is not sufficient to define pulmonary vascular disease as it can be due to an increase in cardiac output or pulmonary arterial wedge pressure. Thus, this 6th WSPH Task Force proposes to include pulmonary vascular resistance ≥3 Wood Units in the definition of all forms of pre-capillary PH associated with mPAP >20 mmHg. Prospective trials are required to determine whether this PH population might benefit from specific management.Re",
+            "journal": "The European respiratory journal",
+            "year": "2019",
+            "authors": [
+              "Simonneau Gérald",
+              "Montani David",
+              "Celermajer David S",
+              "Denton Christopher P",
+              "Gatzoulis Michael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Consensus Statements as Topic",
+              "Heart Diseases",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30545968/"
+          },
+          {
+            "pmid": "30545978",
+            "title": "Paediatric pulmonary arterial hypertension: updates on definition, classification, diagnostics and management.",
+            "abstract": "Paediatric pulmonary arterial hypertension (PAH) shares common features of adult disease, but is associated with several additional disorders and challenges that require unique approaches. This article discusses recent advances, ongoing challenges and distinct approaches for the care of children with PAH, as presented by the Paediatric Task Force of the 6th World Symposium on Pulmonary Hypertension. We provide updates of the current definition, epidemiology, classification, diagnostics and treatment of paediatric PAH, and identify critical knowledge gaps. Several features of paediatric PAH including the prominence of neonatal PAH, especially in pre-term infants with developmental lung diseases, and novel genetic causes of paediatric PAH are highlighted. The use of cardiac catheterisation as a diagnostic modality and haemodynamic definitions of PAH, including acute vasoreactivity, are addressed. Updates are provided on issues related to utility of the previous classification system to r",
+            "journal": "The European respiratory journal",
+            "year": "2019",
+            "authors": [
+              "Rosenzweig Erika B",
+              "Abman Steven H",
+              "Adatia Ian",
+              "Beghetti Maurice",
+              "Bonnet Damien"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antihypertensive Agents",
+              "Child",
+              "Child, Preschool",
+              "Disease Management",
+              "Dose-Response Relationship, Drug",
+              "Exercise Test",
+              "Hemodynamics",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30545978/"
+          },
+          {
+            "pmid": "38276220",
+            "title": "Current Management and Future Directions for Pulmonary Arterial Hypertension Associated with Congenital Heart Disease.",
+            "abstract": "Current management of patients with congenital heart disease has increased their survival into adulthood. This is accompanied by potential cardiac complications, including pulmonary hypertension associated with congenital heart disease (PAH-CHD). PAH-CHD constitutes a challenging subgroup of pulmonary hypertension and requires expert management to improve quality of life and prognosis. Novel agents have shown a significant improvement in morbidity and mortality in patients with pulmonary arterial hypertension. However, the long-term effects of these medications on PAH-CHD patients remain somewhat uncertain, necessitating treatment plans largely founded on the clinical experience of the healthcare providers. The aim of this review is to summarize the current evidence and future perspectives regarding treatment strategies for PAH-CHD to help better guide management of this complex disease.",
+            "journal": "Journal of personalized medicine",
+            "year": "2023",
+            "authors": [
+              "Mahmoud Ahmed K",
+              "Abbas Mohammed Tiseer",
+              "Kamel Moaz A",
+              "Farina Juan M",
+              "Pereyra Milagros"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38276220/"
+          },
+          {
+            "pmid": "28867027",
+            "title": "Macitentan in Pulmonary Arterial Hypertension Associated with Congenital Heart Defects.",
+            "abstract": "",
+            "journal": "Heart, lung & circulation",
+            "year": "2017",
+            "authors": [
+              "Wacker Julie",
+              "Weintraub Robert G"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Endothelin A Receptor Antagonists",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Pulmonary Wedge Pressure",
+              "Pyrimidines",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28867027/"
+          },
+          {
+            "pmid": "39585521",
+            "title": "Macitentan in Pulmonary Arterial Hypertension Due to Congenital Heart Disease (CHD-PAH): Real-World Evidence from the OPUS/OrPHeUS Studies.",
+            "abstract": "Data on real-world clinical practice and outcomes of patients with pulmonary arterial hypertension (PAH) associated with congenital heart disease (CHD) are scarce. The OPUS/OrPHeUS studies enrolled patients with PAH newly initiating macitentan, including those with PAH associated with CHD (CHD-PAH).",
+            "journal": "Cardiology and therapy",
+            "year": "2024",
+            "authors": [
+              "Chin Kelly M",
+              "Channick Richard",
+              "Kim Nick H",
+              "Ong Rose",
+              "Turricchia Stefano"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39585521/"
+          },
+          {
+            "pmid": "40616677",
+            "title": "Macitentan in Children with Pulmonary Arterial Hypertension: A Multicenter Experience.",
+            "abstract": "Macitentan seems to improve outcomes in patients with pulmonary arterial hypertension (PAH). Nevertheless, safety and efficacy in pediatric patients is still to be determined. Multi-center, observational study to assess safety and efficacy of oral macitentan in patients under 18 years-of-age from the Spanish Registry of Pediatric Pulmonary Hypertension with group 1 PAH. Outcome measures included changes in the World Health Organization Functional Class (WHO FC) from baseline to month 6, 6-min walking distance (6MWD), NT-proBNP levels, risk-stratification, echocardiographic and hemodynamic parameters, and Pediatric Quality of Life Inventory. Seventy-four patients (median age 9.6 years) with PAH were included in the study, of which thirty-one had idiopathic/heritable pulmonary arterial hypertension and 43 had PAH associated with congenital heart disease. Significant clinical improvement was observed after 6 months of treatment with macitentan: The percentage of patients on WHO FC III/IV ",
+            "journal": "Pediatric cardiology",
+            "year": "2026",
+            "authors": [
+              "Rodriguez Ogando A",
+              "Sabaté-Rotés A",
+              "Moya Bonora A",
+              "Albert de la Torre L",
+              "Espín López J M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Child",
+              "Adolescent",
+              "Sulfonamides",
+              "Pyrimidines",
+              "Treatment Outcome",
+              "Child, Preschool",
+              "Natriuretic Peptide, Brain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40616677/"
+          },
+          {
+            "pmid": "36329372",
+            "title": "Real-World Safety and Clinical Outcomes of Macitentan in Asian Patients with Pulmonary Arterial Hypertension: A Prospective Multicenter Study.",
+            "abstract": "Macitentan is approved for treating pulmonary arterial hypertension. However, the real-world evidence of macitentan use is limited. Therefore, we evaluated the safety and clinical outcomes of macitentan use in clinical practice under a post-marketing surveillance.",
+            "journal": "Drugs - real world outcomes",
+            "year": "2023",
+            "authors": [
+              "Jung Su Young",
+              "Chang Sung-A",
+              "Song Jong-Min",
+              "Choi Jae Young",
+              "Kim Hyung-Kwan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36329372/"
+          },
+          {
+            "pmid": "36196862",
+            "title": "The Consistent Effectiveness and Safety of Macitentan Therapies Across Idiopathic and Congenital Heart Disease-Associated PulmonaryArterial Hypertension: A Single-Center Experience.",
+            "abstract": "In this single-center study, we evaluated efficacy and safety issues and predictors of survival in patients with idiopathic and congenital heart disease-associated pulmonary arterial hypertension who were under macitentan therapies.",
+            "journal": "Anatolian journal of cardiology",
+            "year": "2022",
+            "authors": [
+              "Kaymaz Cihangir",
+              "Tanyeri Seda",
+              "Tokgöz Hacer Ceren",
+              "Akbal Özgür Yaşar",
+              "Karagöz Ali"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Familial Primary Pulmonary Hypertension",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Peptide Fragments",
+              "Pulmonary Arterial Hypertension",
+              "Pyrimidines",
+              "Retrospective Studies",
+              "Sulfonamides",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36196862/"
+          },
+          {
+            "pmid": "35514768",
+            "title": "Prospective clinical assessment of patients with pulmonary arterial hypertension switched from bosentan to macitentan (POTENT).",
+            "abstract": "Even though pulmonary arterial hypertension (PAH) remains an incurable disease, the combination of PAH-specific therapies allowed evolving from symptom-based strategies to others aiming to move patients to low-risk conditions. Endothelin-1 (ET-1) receptor antagonists emerged as specific-PAH drugs that can be used in combination with other specific therapies. This work aimed to perform a prospective clinical assessment of patients with PAH that switched from bosentan to macitentan (POTENT), due to inadequate response. POTENT is a prospective, open-label, single-arm, uncontrolled study including PAH patients from our ongoing SAUDIPH registry. It enrolled 50 PAH patients divided as follows: idiopathic/heritable pulmonary arterial hypertension (I/HPAH); n = 24; PAH associated with congenital heart disease, n = 19; PAH associated with connective tissue diseases, n = 5; and pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis (PVOD/PCH), n = 2. At baseline, most patie",
+            "journal": "Pulmonary circulation",
+            "year": "2022",
+            "authors": [
+              "Aldalaan Abdullah M",
+              "Saleemi Sarfraz A",
+              "Weheba Ihab",
+              "Abdelsayed Abeer",
+              "Aleid Maha M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35514768/"
+          },
+          {
+            "pmid": "31096477",
+            "title": "What is the position of pulmonary arterial hypertension-specific drug therapy in patients with Eisenmenger syndrome: A systematic review and meta-analysis.",
+            "abstract": "It is commonly reported a limitation of therapeutic strategy in Eisenmenger syndrome (ES) historically. This qualitative systematic review is conducted to evaluate the safety and efficacy of pulmonary arterial hypertension-specific drug therapy (PAH-SDT) for ES patients for a clinical therapeutic strategy based on evidence.",
+            "journal": "Medicine",
+            "year": "2019",
+            "authors": [
+              "Li Qiang",
+              "Kuang Hong-Yu",
+              "Wu Yu-Hao",
+              "Lu Tie-Wei",
+              "Yi Qi-Jian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Eisenmenger Complex",
+              "Endothelin Receptor Antagonists",
+              "Exercise Tolerance",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Oxygen",
+              "Phenylpropionates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31096477/"
+          },
+          {
+            "pmid": "30586694",
+            "title": "Evaluation of Macitentan in Patients With Eisenmenger Syndrome.",
+            "abstract": "Eisenmenger syndrome describes congenital heart disease-associated severe pulmonary hypertension accompanied by right-to-left shunting. The multicenter, double-blind, randomized, placebo-controlled, 16-week, phase III MAESTRO study (Macitentan in Eisenmenger Syndrome to Restore Exercise Capacity) evaluated the efficacy and safety of the endothelin receptor antagonist macitentan in patients with Eisenmenger syndrome.",
+            "journal": "Circulation",
+            "year": "2019",
+            "authors": [
+              "Gatzoulis Michael A",
+              "Landzberg Michael",
+              "Beghetti Maurice",
+              "Berger Rolf M",
+              "Efficace Michela"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antihypertensive Agents",
+              "Biomarkers",
+              "Child",
+              "Double-Blind Method",
+              "Down Syndrome",
+              "Eisenmenger Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30586694/"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Middle Aged",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31090367/"
+          },
+          {
+            "pmid": "32487059",
+            "title": "Changes in REVEAL risk score in patients with pulmonary arterial hypertension treated with macitentan in clinical practice: results from the PRACMA study.",
+            "abstract": "Macitentan is a dual endothelin receptor antagonist indicated for the long-term treatment of pulmonary arterial hypertension (PAH). We evaluated the change over time in REVEAL risk score in incident and prevalent patients receiving macitentan for the first time.",
+            "journal": "BMC pulmonary medicine",
+            "year": "2020",
+            "authors": [
+              "Escribano-Subias Pilar",
+              "López Raquel",
+              "Almenar Luis",
+              "Lázaro María",
+              "Forn Ian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Drug Therapy, Combination",
+              "Endothelin Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Natriuretic Peptide, Brain",
+              "Peptide Fragments"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32487059/"
+          },
+          {
+            "pmid": "36338395",
+            "title": "Changes in the Characteristics and Initial Treatments of Pulmonary Hypertension Between 2008 and 2020 in Japan.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a rare, progressive disease. The treatment landscape for PAH in Japan has evolved considerably in recent years, but there is limited knowledge of the changes in treatment practices or patient characteristics.",
+            "journal": "JACC. Asia",
+            "year": "2022",
+            "authors": [
+              "Tamura Yuichi",
+              "Kumamaru Hiraku",
+              "Inami Takumi",
+              "Matsubara Hiromi",
+              "Hirata Ken-Ichi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36338395/"
+          },
+          {
+            "pmid": "36286872",
+            "title": "[Evidence base for specific pulmonary vasodilators in adults with congenital heart disease].",
+            "abstract": "After reviewing the current definitions and classification of pulmonary hypertension (PH) associated with congenital heart disease (CHD), based on an analysis of 59 clinical trials (of which 14 are randomized controlled trials) drugs registered in the Russian Federation, the evidence base for PH therapy in adults with CHD is provided. The presence of a randomized controlled trial of bosentan BREATHE-5 and uncontrolled trials of other drugs became the basis for a higher class and level of evidence of bosentan (IB) compared to other drugs (IIaC) for Eisenmenger syndrome in the current European (ERS/ESC 2015) and updated Russian (2020) guidelines. According to the updated European (ESC 2020) guidelines for congenital heart disease in adults, in Eisenmenger patients with reduced exercise capacity (6MWT distance 450 m), a treatment strategy with initial endothelin receptor antagonist monotherapy should be considered followed by combination therapy if patients fail to improve (IIaB), in low-",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2021",
+            "authors": [
+              "Shmalts A A",
+              "Gorbachevsky S V"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Bosentan",
+              "Eisenmenger Complex",
+              "Pulmonary Arterial Hypertension",
+              "Phosphodiesterase 5 Inhibitors",
+              "Vasodilator Agents",
+              "Endothelin Receptor Antagonists",
+              "Hypertension, Pulmonary",
+              "Heart Defects, Congenital"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36286872/"
+          },
+          {
+            "pmid": "41796854",
+            "title": "Macitentan vs Standard of Care in Pediatric Pulmonary Arterial Hypertension (TOMORROW): A Randomized Clinical Trial.",
+            "abstract": "To evaluate pharmacokinetics (PK), efficacy, and safety of macitentan vs standard of care (SoC) in pediatric pulmonary arterial hypertension (PAH).",
+            "journal": "The Journal of pediatrics",
+            "year": "2026",
+            "authors": [
+              "Berger Rolf M F",
+              "Ivy D Dunbar",
+              "Borissoff Julian I",
+              "Cerovic Sofija",
+              "Csonka Dénes"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41796854/"
+          },
+          {
+            "pmid": "34925762",
+            "title": "Vasodilator therapy for pulmonary hypertension in children: a national study of patient characteristics and current treatment strategies.",
+            "abstract": "Pulmonary vasodilator therapy is still often an off-label treatment for pulmonary hypertension in children. The aim of this nationwide register-based study was to assess patient characteristics and strategies for pulmonary vasodilator therapy in young Swedish children. Prescription information for all children below seven years of age at treatment initiation, between 2007 and 2017, was retrieved from the National Prescribed Drug Register, and medical information was obtained by linkage to other registers. All patients were categorized according to the WHO classification of pulmonary hypertension. In total, 233 patients had been prescribed pulmonary vasodilators. The treatment was initiated before one year of age in 61% (N = 143). Sildenafil was most common (N = 224 patients), followed by bosentan (N = 29), iloprost (N = 14), macitentan (N = 4), treprostinil (N = 2) and riociguat (N = 2). Over the study period, the prescription rate for sildenafil tripled. Monotherapy was most common, 8",
+            "journal": "Pulmonary circulation",
+            "year": "2021",
+            "authors": [
+              "Jeremiasen Ida",
+              "Naumburg Estelle",
+              "Westöö Christian",
+              "G Weismann Constance",
+              "Tran-Lundmark Karin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34925762/"
+          },
+          {
+            "pmid": "41258625",
+            "title": "Characteristics, Treatment Patterns and Outcomes of Patients with Pulmonary Arterial Hypertension by Race and Ethnicity Using Real-World Data from the Combined OPUS/OrPHeUS Studies.",
+            "abstract": "Racial and ethnic minorities are underrepresented in most pulmonary arterial hypertension (PAH) studies. The OPsumit® Users (OPUS) and Opsumit® Historical Users cohort (OrPHeUS) studies captured real-world data for US patients newly initiating macitentan. Patient characteristics, treatment patterns, and outcomes in the combined OPUS/OrPHeUS dataset are described by race (Black/African American or White) and by ethnicity (Hispanic/Latino or not Hispanic/Latino).",
+            "journal": "Advances in therapy",
+            "year": "2026",
+            "authors": [
+              "Melendres-Groves Lana D",
+              "Channick Richard N",
+              "Chin Kelly M",
+              "McLaughlin Vallerie V",
+              "MacDonald Gwen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Prospective Studies",
+              "Aged",
+              "Sulfonamides",
+              "Adult",
+              "Pyrimidines",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41258625/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with schistosomiasis",
+        "txgnn_score": 0.9858858585357666,
+        "txgnn_rank": 13650,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with HIV infection",
+        "txgnn_score": 0.9858858585357666,
+        "txgnn_rank": 13651,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Middle Aged",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31090367/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with connective tissue disease",
+        "txgnn_score": 0.9858858585357666,
+        "txgnn_rank": 13652,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02885012",
+            "title": "A Safety and Clinical Efficacy Study Measuring Echocardiographic Composite Comparing Ambrisentan (Letairis®) After a Switch From Bosentan (Tracleer®) or Macintentan (Opsumit®) in Treatment of Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2016-06",
+            "completion_date": "2017-07-07",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "The purpose of this study is to learn more about the safety and effects of switching treatments from bosentan (Tracleer) or macientan (Opsumit) to ambrisentan (Letairis) over 24 weeks in subjects with Connective Tissue Disease associated Pulmonary Arterial Hypertension (CTD-PAH).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of a Connective Tissue Disease (CTD)\n* Age range: 18-80 years old\n* Previous Right Heart Catheterization (RHC) demonstrating PAH\n* Forced vital capacity (FVC) greater than 50%\n* Carbon Monoxide Diffusing Capacity (DLCO) greater than 50%\n* World Health Organization (W",
+            "endpoints": [
+              "Change in Stroke Volume"
+            ],
+            "sponsor": "Medical University of South Carolina",
+            "url": "https://clinicaltrials.gov/study/NCT02885012"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03726398",
+            "title": "CompRehensive Phenotypic Characterization of Patients With Scleroderma-Associated Interstitial Lung DiseasE and Pulmonary Hypertension (PH): The CRuSADE PH Study",
+            "phase": "PHASE2, PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2018-09-01",
+            "completion_date": "2020-08-03",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Patients with interstitial lung disease (ILD) and scleroderma who develop pulmonary hypertension (PH) do not fit well into the current classification system and treatments for pulmonary hypertension. This study aims to better understand patients with ILD-PH and scleroderma and to determine if treatment with Macitentan is beneficial.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who have scleroderma ILD will be defined as having a total lung capacity of less than 80% predicted and CT evidence of fibrosis. The degree of fibrosis will be scored by a radiologist using the CT comparative scoring method of Wells et al (13).\n* Pulmonary Hypertensio",
+            "endpoints": [
+              "Change in exercise pulmonary vascular resistance (PVR)"
+            ],
+            "sponsor": "University of Arizona",
+            "url": "https://clinicaltrials.gov/study/NCT03726398"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38378970",
+            "title": "Treatment of pulmonary arterial hypertension in patients with connective tissue diseases: a systematic review and meta-analysis.",
+            "abstract": "The evidence for the treatment of connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) mostly depends on subgroup or post hoc analysis of randomized controlled trials (RCTs). Thus, we performed a meta-analysis of RCTs that reported outcomes for CTD-PAH. PubMed and EMBASE were searched for CTD-PAH treatment. The selected outcomes were functional class (FC) change, survival rates, 6-min walk distance (6-MWD), clinical worsening (CW), N-terminal prohormone BNP (NT-proBNP), pulmonary vascular resistance (PVR), mean pulmonary arterial pressure (mPAP), right atrial pressure (RAP), and cardiac index (CI). The meta-analysis was conducted according to the PRISMA guidelines and registered in PROSPERO (CRD42020153560). Twelve RCTs conducted with 1837 patients were included. The diagnoses were systemic sclerosis in 59%, SLE in 20%, and other CTDs in 21%. The pharmacological interventions were epoprostenol, treprostinil, sildenafil, tadalafil, bosentan, macitentan, ambrise",
+            "journal": "Internal and emergency medicine",
+            "year": "2024",
+            "authors": [
+              "Erdogan Mustafa",
+              "Esatoglu Sinem Nihal",
+              "Kilickiran Avci Burcak",
+              "Hatemi Gulen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antihypertensive Agents",
+              "Connective Tissue Diseases",
+              "Peptide Fragments",
+              "Pulmonary Arterial Hypertension",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38378970/"
+          },
+          {
+            "pmid": "38451426",
+            "title": "Macitentan in Pulmonary Arterial Hypertension Associated with Connective Tissue Disease (CTD-PAH): Real-World Evidence from the Combined OPUS/OrPHeUS Dataset.",
+            "abstract": "Data on real-world clinical practice and outcomes of patients with pulmonary arterial hypertension associated with connective tissue disease (CTD-PAH) are scarce. The OPUS/OrPHeUS studies enrolled patients newly initiating macitentan, including those with CTD-PAH. This analysis describes patient characteristics, treatment patterns, outcomes, and safety profiles of patients with CTD-PAH newly initiating macitentan in the US using the OPUS/OrPHeUS combined dataset.",
+            "journal": "Cardiology and therapy",
+            "year": "2024",
+            "authors": [
+              "Channick Richard",
+              "Chin Kelly M",
+              "McLaughlin Vallerie V",
+              "Lammi Matthew R",
+              "Zamanian Roham T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38451426/"
+          },
+          {
+            "pmid": "37765060",
+            "title": "Recent Advances in the Treatment of Pulmonary Arterial Hypertension Associated with Connective Tissue Diseases.",
+            "abstract": "Pulmonary hypertension (PH) is a severe vascular complication of connective tissue diseases (CTD). Patients with CTD may develop PH belonging to diverse groups: (1) pulmonary arterial hypertension (PAH), (2) PH due to left heart disease, (3) secondary PH due to lung disease and/or hypoxia and (4) chronic thromboembolic pulmonary hypertension (CTEPH). PAH most often develops in systemic scleroderma (SSc), mostly in its limited variant. PAH-CTD is a progressive disease characterized by poor prognosis. Therefore, early diagnosis should be established. A specific treatment for PAH-CTD is currently available and recommended: prostacyclin derivative (treprostinil, epoprostenol, iloprost, selexipag), nitric oxide and natriuretic pathway: stimulators of soluble guanylate cyclase (sGC: riociguat) and phosphodiesterase-five inhibitors (PDE5i: sildenafil, tadalafil), endothelin receptor antagonists (ERA: bosentan, macitentan, ambrisentan). Moreover, novel drugs, e.g., sotatercept, have been inten",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Smukowska-Gorynia Anna",
+              "Gościniak Weronika",
+              "Woźniak Patrycja",
+              "Iwańczyk Sylwia",
+              "Jaxa-Kwiatkowska Karolina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37765060/"
+          },
+          {
+            "pmid": "40840780",
+            "title": "Evaluation of non-invasive low-risk criteria in patients with connective tissue disease-associated pulmonary arterial hypertension: A 12-months analysis from the INSPECTIO study.",
+            "abstract": "Connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) is a progressive, high-risk subtype of PAH characterized by immune-mediated vascular remodeling, poor treatment response, and reduced survival. Real-world data on therapeutic response and risk evolution in this population remain limited.",
+            "journal": "Vascular pharmacology",
+            "year": "2025",
+            "authors": [
+              "Giuliani Livio",
+              "D'Alto Michele",
+              "Di Poi Emma",
+              "Dagna Lorenzo",
+              "Guerra Federico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Natriuretic Peptide, Brain",
+              "Pulmonary Arterial Hypertension",
+              "Connective Tissue Diseases",
+              "Prospective Studies",
+              "Risk Assessment",
+              "Biomarkers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40840780/"
+          },
+          {
+            "pmid": "38617769",
+            "title": "Clinical use of macitentan in the treatment of connective tissue disease-associated pulmonary arterial hypertension.",
+            "abstract": "Connective tissue disease (CTD) is the second most common cause of the pulmonary arterial hypertension (PAH). Currently, clinical data concerning CTD-PAH is scarce. Our study aimed to assess the efficacy and safety of macitentan in the treatment of CTD-PAH.",
+            "journal": "Journal of thoracic disease",
+            "year": "2024",
+            "authors": [
+              "Song Xiaohui",
+              "Sheng Xiangrui",
+              "Ding Lei",
+              "Wu Jian",
+              "Chang Xin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38617769/"
+          },
+          {
+            "pmid": "40331647",
+            "title": "Long-Term Prospective Observation Study of Patients with Pulmonary Arterial Hypertension Associated with Connective Tissue Diseases.",
+            "abstract": "Aim    Analysis of survival and the impact of etiology, adverse prognosis factors, and therapy on the survival of patients with pulmonary arterial hypertension associated with immune-mediated inflammatory rheumatic diseases (PAH-IIRD).Material and methods    The study included 95 patients: 76 with systemic scleroderma (SSc), 9 with mixed connective tissue disease (MCTD), 8 with systemic lupus erythematosus (SLE), one with rheumatoid arthritis, and one with Sjogren's disease with diagnosed PAH. All patients were prescribed PAH-specific therapy and followed up for at least 5 years during this treatment. The endpoint of the study was all-cause death.Results    During the 5-year follow-up period, 37 patients with PAH-SSc and 4 with PAH-MCTD (43%) died. There were no fatal outcomes in PAH-SLE. One-, two-, three-, and five-year survival rates in the overall group of patients were 91%, 80%, 73%, and 57%, respectively. In patients with PAH-SSc, one-, two-, three-, and five-year survival rates ",
+            "journal": "Kardiologiia",
+            "year": "2025",
+            "authors": [
+              "Volkov A V",
+              "Yudkina N N",
+              "Nasonov E L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Connective Tissue Diseases",
+              "Adult",
+              "Prospective Studies",
+              "Prognosis",
+              "Pulmonary Arterial Hypertension",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40331647/"
+          },
+          {
+            "pmid": "37728697",
+            "title": "Real-World Treatment Patterns Among Patients with Connective Tissue Disorder-Related Pulmonary Arterial Hypertension in the United States: A Retrospective Claims-Based Analysis.",
+            "abstract": "Connective tissue disorders (CTDs) are the most frequent diseases associated with pulmonary arterial hypertension (PAH). Despite advances in treatment, the prognosis of CTD-related PAH remains poor. To help identify areas for improvement in the management of CTD-related PAH, this study assessed real-world PAH treatment patterns in this population in the US.",
+            "journal": "Advances in therapy",
+            "year": "2023",
+            "authors": [
+              "Sargent Therese",
+              "Tsang Yuen",
+              "Panjabi Sumeet",
+              "Funtanilla Vienica",
+              "Germack Hayley D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "United States",
+              "Pulmonary Arterial Hypertension",
+              "Retrospective Studies",
+              "Hypertension, Pulmonary",
+              "Connective Tissue Diseases",
+              "Connective Tissue"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37728697/"
+          },
+          {
+            "pmid": "35514768",
+            "title": "Prospective clinical assessment of patients with pulmonary arterial hypertension switched from bosentan to macitentan (POTENT).",
+            "abstract": "Even though pulmonary arterial hypertension (PAH) remains an incurable disease, the combination of PAH-specific therapies allowed evolving from symptom-based strategies to others aiming to move patients to low-risk conditions. Endothelin-1 (ET-1) receptor antagonists emerged as specific-PAH drugs that can be used in combination with other specific therapies. This work aimed to perform a prospective clinical assessment of patients with PAH that switched from bosentan to macitentan (POTENT), due to inadequate response. POTENT is a prospective, open-label, single-arm, uncontrolled study including PAH patients from our ongoing SAUDIPH registry. It enrolled 50 PAH patients divided as follows: idiopathic/heritable pulmonary arterial hypertension (I/HPAH); n = 24; PAH associated with congenital heart disease, n = 19; PAH associated with connective tissue diseases, n = 5; and pulmonary veno-occlusive disease and/or pulmonary capillary haemangiomatosis (PVOD/PCH), n = 2. At baseline, most patie",
+            "journal": "Pulmonary circulation",
+            "year": "2022",
+            "authors": [
+              "Aldalaan Abdullah M",
+              "Saleemi Sarfraz A",
+              "Weheba Ihab",
+              "Abdelsayed Abeer",
+              "Aleid Maha M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35514768/"
+          },
+          {
+            "pmid": "29804068",
+            "title": "Systemic scleroderma-related interstitial pneumonia associated with borderline pulmonary arterial hypertension.",
+            "abstract": "A 65-year-old woman with a 35-year history of limited cutaneous systemic scleroderma was admitted to our hospital complaining of a 3-month history of progressive dyspnoea on exertion. High-resolution CT images of the chest revealed diffuse reticular opacities and traction bronchiectasis predominantly in the bilateral lower lobes of the lung. Specimens obtained during video-assisted thoracic surgery were consistent with fibrocellular non-specific interstitial pneumonia and accompanied by accumulation of lymph follicles within areas of fibrosis. Although the patient received combination therapy with prednisolone and intravenous cyclophosphamide at a dosage of 500 mg/m2 monthly for 5 months, her clinical condition deteriorated gradually. In addition, right heart catheterisation revealed borderline pulmonary arterial hypertension with mean pulmonary artery pressure of 24 mm Hg. Therefore, we initiated a combination therapy of an antifibrotic agent, pirfenidone for 12 months, and the dual e",
+            "journal": "BMJ case reports",
+            "year": "2018",
+            "authors": [
+              "Sugino Keishi",
+              "Kabuki Takayuki",
+              "Shibuya Kazutoshi",
+              "Homma Sakae"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Drug Therapy, Combination",
+              "Endothelin A Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Lung Diseases, Interstitial",
+              "Prednisolone",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29804068/"
+          },
+          {
+            "pmid": "35134204",
+            "title": "Successful transition from intravenous epoprostenol to oral selexipag and inhaled iloprost in a case of severe pulmonary arterial hypertension associated with systemic lupus erythematosus.",
+            "abstract": "A 25-year-old woman was admitted to our hospital with severe pulmonary arterial hypertension associated with systemic lupus erythematosus (SLE-PAH). Her mean pulmonary arterial pressure was 56 mmHg, and her SLE Disease Activity Index-2 K score was 14 on admission. In addition to a strong immunosuppressive regimen, which included steroid pulse therapy followed by high-dose oral prednisolone (1 mg/kg) and intravenous cyclophosphamide, an upfront combination of vasodilator therapy, including oral tadalafil, macitentan, and intravenous epoprostenol, was administered in the early phase. Two months later, her mean pulmonary arterial pressure was 29 mmHg, and her other haemodynamic markers showed significant improvement. She refused to start life-long intravenous epoprostenol therapy and so was switched to oral selexipag and inhaled iloprost. The transition was successful, and she has experienced no exacerbations of SLE-PAH during the 10 months since the onset of pulmonary arterial hypertensi",
+            "journal": "Modern rheumatology case reports",
+            "year": "2022",
+            "authors": [
+              "Saiki Chihiro",
+              "Kashiwado Yusuke",
+              "Yokoyama Taku",
+              "Ayano Masahiro",
+              "Imabayashi Keisuke"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetamides",
+              "Adult",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iloprost",
+              "Lupus Erythematosus, Systemic",
+              "Pulmonary Arterial Hypertension",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35134204/"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Female",
+              "Heart Defects, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Middle Aged",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31090367/"
+          },
+          {
+            "pmid": "32487059",
+            "title": "Changes in REVEAL risk score in patients with pulmonary arterial hypertension treated with macitentan in clinical practice: results from the PRACMA study.",
+            "abstract": "Macitentan is a dual endothelin receptor antagonist indicated for the long-term treatment of pulmonary arterial hypertension (PAH). We evaluated the change over time in REVEAL risk score in incident and prevalent patients receiving macitentan for the first time.",
+            "journal": "BMC pulmonary medicine",
+            "year": "2020",
+            "authors": [
+              "Escribano-Subias Pilar",
+              "López Raquel",
+              "Almenar Luis",
+              "Lázaro María",
+              "Forn Ian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Drug Therapy, Combination",
+              "Endothelin Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Natriuretic Peptide, Brain",
+              "Peptide Fragments"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32487059/"
+          },
+          {
+            "pmid": "36338395",
+            "title": "Changes in the Characteristics and Initial Treatments of Pulmonary Hypertension Between 2008 and 2020 in Japan.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a rare, progressive disease. The treatment landscape for PAH in Japan has evolved considerably in recent years, but there is limited knowledge of the changes in treatment practices or patient characteristics.",
+            "journal": "JACC. Asia",
+            "year": "2022",
+            "authors": [
+              "Tamura Yuichi",
+              "Kumamaru Hiraku",
+              "Inami Takumi",
+              "Matsubara Hiromi",
+              "Hirata Ken-Ichi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36338395/"
+          },
+          {
+            "pmid": "29641223",
+            "title": "Safety and feasibility audit of a home-based drug-transitioning approach for patients with pulmonary arterial hypertension: an observational study.",
+            "abstract": "Newer endothelin receptor antagonists (ERAs) used to treat patients with pulmonary arterial hypertension (PAH) are associated with fewer drug-drug interactions than bosentan and require less monitoring. This, combined with a pharmacokinetic basis for improved efficacy, means there may be a clinical rationale for changing therapies. However, this can be challenging and few data on its safety in patients with PAH are available.",
+            "journal": "European journal of cardiovascular nursing",
+            "year": "2018",
+            "authors": [
+              "Dawson A",
+              "Reddecliffe S",
+              "Coghlan C",
+              "Schreiber B E",
+              "Coghlan J G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antihypertensive Agents",
+              "Bosentan",
+              "Endothelin Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29641223/"
+          },
+          {
+            "pmid": "36653758",
+            "title": "Pulmonary veno-occlusive disease in Sjogren's syndrome: a case report.",
+            "abstract": "Pulmonary arterial hypertension (PAH) associated with connective tissue disease (CTD) belongs to Group 1 pulmonary hypertension. Pulmonary veno-occlusive disease (PVOD), which is characterized by venous system aberrations, has been previously reported in CTD-PAH; however, it has rarely been observed in Sjogren's syndrome (SS).",
+            "journal": "BMC pulmonary medicine",
+            "year": "2023",
+            "authors": [
+              "Zeng Xiaofang",
+              "Liu Qiong",
+              "Rathinasabapathy Anandharajan",
+              "Zha Lihuang",
+              "Liu Dongliang"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Adult",
+              "Hypertension, Pulmonary",
+              "Pulmonary Veno-Occlusive Disease",
+              "Sjogren's Syndrome",
+              "Lung",
+              "Pulmonary Arterial Hypertension",
+              "Familial Primary Pulmonary Hypertension",
+              "Protein Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36653758/"
+          },
+          {
+            "pmid": "39477378",
+            "title": "Molecular Hydrogen Therapy in Sjögren's Syndrome With Pulmonary Arterial Hypertension and Right-sided Heart Failure: A Case Report of Improved Immune Markers Including Treg, B Cells and Plasma Cell.",
+            "abstract": "Connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) is a severe complication characterized by elevated pulmonary artery pressure, which can lead to right heart failure and death, if untreated. Standard treatments often fail to adequately manage symptoms, highlighting the need for novel therapeutic approaches. This study investigated the efficacy of molecular hydrogen (H2) therapy in a patient with CTD-PAH.",
+            "journal": "In vivo (Athens, Greece)",
+            "year": "2024",
+            "authors": [
+              "Lin Yun-Ting",
+              "Lu Jeng-Wei",
+              "Wu Chun-Hsien",
+              "Ho Yi-Jung",
+              "Lui Shan-Wen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Sjogren's Syndrome",
+              "Heart Failure",
+              "Hydrogen",
+              "Pulmonary Arterial Hypertension",
+              "T-Lymphocytes, Regulatory",
+              "B-Lymphocytes",
+              "Biomarkers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39477378/"
+          },
+          {
+            "pmid": "39832067",
+            "title": "Secondary cryofibrinogenemia is related to more severe microangiopathic involvement in systemic sclerosis: results from a retrospective observational study.",
+            "abstract": "The aims of this study were to investigate the prevalence of cryofibrinogenemia in a cohort of patients with systemic sclerosis (SSc) regardless of clinical manifestations, who were admitted to our hospital and determine the associations among CF positivity, disease features and ongoing therapies. This was a monocentric and retrospective study. The inclusion criteria were a diagnosis of SSc (according to the ACR/EULAR 2013 classification criteria), regular administration of i.v. prostanoids, and CF testing between February 2020 and February 2022. Data on demographic, clinical, and immunological features and ongoing treatments were retrospectively collected. Categorical data were compared with the chi-square test or Fisher's exact test, while quantitative variables comparisons were carried out with Student's t test or Mann‒Whitney test. In total, 101 SSc patients were ultimately enrolled. The majority of patients were female (92.1%) and had the limited cutaneous form of SSc (81.2%). CF ",
+            "journal": "Clinical rheumatology",
+            "year": "2025",
+            "authors": [
+              "Sandri Gilda",
+              "Amati Gabriele",
+              "Spinella Amelia",
+              "Natali Patrizia",
+              "Debbia Daria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Retrospective Studies",
+              "Male",
+              "Scleroderma, Systemic",
+              "Middle Aged",
+              "Cryoglobulinemia",
+              "Aged",
+              "Adult",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39832067/"
+          },
+          {
+            "pmid": "37805248",
+            "title": "An Unexpected Cause of Lung Disease Identified After Lung Transplantation.",
+            "abstract": "A 54-year-old woman with systemic lupus erythematosus with associated interstitial lung disease (ILD) presented to the lung transplant clinic for assessment of candidacy for transplantation. She was initially diagnosed with ILD based on clinical and radiographic features (never underwent lung biopsy). In addition, she had associated mixed group I/III pulmonary arterial hypertension. The patient had no family history of pulmonary disease and had never used tobacco and did not have a history of illicit drug use. She was maintained on systemic immunosuppression with hydroxychloroquine, mycophenolate mofetil, and nintedanib for ILD as well as inhaled treprostinil, sildenafil, and macitentan for pulmonary arterial hypertension. Given her progressive symptoms on maximal medical therapy, she was referred for consideration to undergo lung transplantation.",
+            "journal": "Chest",
+            "year": "2023",
+            "authors": [
+              "Self Alyssa",
+              "Afshar Kamyar",
+              "Kafi Aarya",
+              "Yung Gordon",
+              "Golts Eugene"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Pulmonary Arterial Hypertension",
+              "Lung Diseases, Interstitial",
+              "Lung Transplantation",
+              "Lupus Erythematosus, Systemic",
+              "Mycophenolic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37805248/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arterial hypertension associated with chronic hemolytic anemia",
+        "txgnn_score": 0.9858858585357666,
+        "txgnn_rank": 13653,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.9823676347732544,
+        "txgnn_rank": 15831,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9781649708747864,
+        "txgnn_rank": 17911,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diffuse alopecia areata",
+        "txgnn_score": 0.976184904575348,
+        "txgnn_rank": 18799,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.9373252391815186,
+        "txgnn_rank": 29274,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08932",
+    "name": "Macitentan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Macitentan"
+      },
+      "queried_at": "2026-03-10T06:13:25.763203",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Macitentan"
+      },
+      "queried_at": "2026-03-10T06:13:27.196860",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-10T06:13:27.724194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-10T06:13:30.594267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-10T06:13:31.322170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "queried_at": "2026-03-10T06:13:32.123551",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "queried_at": "2026-03-10T06:13:35.830102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "queried_at": "2026-03-10T06:13:39.067134",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "queried_at": "2026-03-10T06:13:39.636021",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "queried_at": "2026-03-10T06:13:45.720307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "queried_at": "2026-03-10T06:13:46.455475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "queried_at": "2026-03-10T06:13:47.244810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "queried_at": "2026-03-10T06:13:50.852281",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "queried_at": "2026-03-10T06:13:52.760979",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "queried_at": "2026-03-10T06:13:53.282220",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "queried_at": "2026-03-10T06:13:56.575307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "queried_at": "2026-03-10T06:13:58.714133",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T06:13:59.291838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T06:14:02.177089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T06:14:03.224615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T06:14:03.746651",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T06:14:06.894785",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T06:14:07.673699",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T06:14:08.194733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T06:14:11.246154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T06:14:12.002416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T06:14:12.532969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T06:14:16.931924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T06:14:17.523772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T06:14:18.027891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T06:14:21.246873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Macitentan",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T06:14:21.976263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:14:21.980850"
+  }
+}

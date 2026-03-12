@@ -1,0 +1,1397 @@
+{
+  "drug": {
+    "inn": "Glycerin",
+    "drugbank_id": "DB09462",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.995987832546234,
+        "txgnn_rank": 5615,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.995907187461853,
+        "txgnn_rank": 5698,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04676126",
+            "title": "Augmented Macular Pigment Supplement and Pericentral Visual Function: a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2021-05",
+            "completion_date": "2022-05",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to prospectively analyze changes in macular pigment optical density and dermal carotenoid levels as they relate to visual field function in patients prescribed a macular pigment-containing medical food (Lumega-Z), in combination with a topical carbonic anhydrase inhibitor.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Glaucoma diagnosis (H40. \\*) with abnormal visual field as measured by 30-2 Humphrey Perimetry (mean deviation \\< -2.00)\n* Adequate IOP control (IOP \\> 7 mmHg and \\< 22 mmHg) by medical or surgical means measured by Goldman Applanation Tonometry for at least 3",
+            "endpoints": [
+              "Pericentral Visual Function"
+            ],
+            "sponsor": "University of the Incarnate Word",
+            "url": "https://clinicaltrials.gov/study/NCT04676126"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "1614157",
+            "title": "[Pathogenesis and treatment of primary closed-angle glaucoma].",
+            "abstract": "With an incidence of about 1/1000, primary angle-closure glaucoma is 4 to 5 times less frequent than primary open-angle glaucoma. It occurs most frequently due to pupillary block, itself both due to anatomical configuration and to either physiological or pathological changes in the anterior chamber. Pupillary block causes an increase of pressure in the posterior chamber, which leads to anterior displacement of the iris and, finally, to angle closure. The treatment of choice - dictated by the pathogenesis - consists of diminishing the posterior chamber pressure by means of hyperosmotic agents such as glycerin per os or mannitol iv. After reduction of the posterior-chamber pressure has been attained, a mild miotic, i.e. one which causes neither a strong miosis nor a flattening of the anterior chamber, is administered. If it is an acute attack, the application of these principles will permit normalization of pressure within about one hour. Several therapeutic guidelines are proposed, adap",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1992",
+            "authors": [
+              "Martin X D"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anterior Chamber",
+              "Glaucoma",
+              "Humans",
+              "Intraocular Pressure",
+              "Pupil"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1614157/"
+          },
+          {
+            "pmid": "32890110",
+            "title": "Glycerin-preserved Human-donor Corneoscleral Patch Grafts for Glaucoma Drainage Devices.",
+            "abstract": "Glycerin-preserved, human-donor, corneoscleral patch grafts are effective and safe for glaucoma drainage device (GDD) implantation, and they are comparable to previously reported materials. It can be preserved with the sterile technique for up to 12 months.",
+            "journal": "Journal of glaucoma",
+            "year": "2020",
+            "authors": [
+              "Kitnarong Naris",
+              "Srikulsasitorn Benjawan",
+              "Aurboonsong Tanakorn"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cornea",
+              "Cryoprotective Agents",
+              "Female",
+              "Glaucoma",
+              "Glaucoma Drainage Implants",
+              "Glycerol",
+              "Humans",
+              "Intraocular Pressure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32890110/"
+          },
+          {
+            "pmid": "41034373",
+            "title": "Targeted LC-MS profiling reveals dysregulated glycolytic flux and TCA cycle stalling in POAG plasma.",
+            "abstract": "Glaucoma is the leading cause of irreversible blindness. Primary open-angle glaucoma (POAG) is the most common form globally and has been linked to mitochondrial dysfunction and energy deficiency. Plasma was used to investigate the energy metabolomic profiles of patients with POAG and controls, and to determine the metabolite flux within the core interconnected energy pathways. Targeted liquid chromatography-mass spectrometry (LC-MS) was used to analyze plasma energy metabolism in POAG patients and controls. Differential metabolite expression analysis, correlation analysis, and pathway flux analysis were then conducted to elucidate the metabolic alterations and the mechanisms underlying POAG. Our findings reveal elevated levels of D-Glucose-6-phosphate(G6P), 6-Phosphogluconic acid(6PGA), Adenosine diphosphate(ADP), Adenosine monophosphate(AMP), Adenosine triphosphate(ATP), Guanosine diphosphate(GDP), Inosine monophosphate(IMP), Phosphoenolpyruvic acid(PEP), Phosphorylethanolamine(pEtN)",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Tang Yizhen",
+              "Zhang Xuanqi",
+              "Chen Xiaoxiao",
+              "Li Jiayong",
+              "Xie Minyue"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Citric Acid Cycle",
+              "Glycolysis",
+              "Male",
+              "Chromatography, Liquid",
+              "Middle Aged",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Metabolomics",
+              "Mass Spectrometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41034373/"
+          },
+          {
+            "pmid": "32012845",
+            "title": "A Data Mining Metabolomics Exploration of Glaucoma.",
+            "abstract": "Glaucoma is an age related disease characterized by the progressive loss of retinal ganglion cells, which are the neurons that transduce the visual information from the retina to the brain. It is the leading cause of irreversible blindness worldwide. To gain further insights into primary open-angle glaucoma (POAG) pathophysiology, we performed a non-targeted metabolomics analysis on the plasma from POAG patients (n = 34) and age- and sex-matched controls (n = 30). We investigated the differential signature of POAG plasma compared to controls, using liquid chromatography coupled to high resolution mass spectrometry (LC-HRMS). A data mining strategy, combining a filtering method with threshold criterion, a wrapper method with iterative selection, and an embedded method with penalization constraint, was used. These strategies are most often used separately in metabolomics studies, with each of them having their own limitations. We opted for a synergistic approach as a mean to unravel the ",
+            "journal": "Metabolites",
+            "year": "2020",
+            "authors": [
+              "Kouassi Nzoughet Judith",
+              "Guehlouz Khadidja",
+              "Leruez Stéphanie",
+              "Gohier Philippe",
+              "Bocca Cinzia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32012845/"
+          },
+          {
+            "pmid": "6717920",
+            "title": "Intraocular pressure the day of argon laser trabeculoplasty in primary open-angle glaucoma.",
+            "abstract": "Argon laser trabeculoplasty was performed in one eye of 57 phakic patients with primary open-angle glaucoma. The eyes received a mean of 78 +/- 7 treatments over 360 degrees to the anterior trabecular meshwork. The power was titrated to produce blanching without bubble formation. Increased intraocular pressure (range +1 to +22 mmHg) occurred in 30 of the 57 (53%) eyes 1 hour after treatment. Eight (14%) of these eyes had a clinically significant elevation defined by all of three criteria: (1) an intraocular pressure greater than 30 mmHg, (2) greater than a 30% increase over the mean prelaser intraocular pressure, and (3) greater than a 10 mmHg increase over the peak prelaser diurnal intraocular pressure curve. These eight patients received either oral glycerine or acetazolamide. A rebound increase in intraocular pressure requiring repeat medical treatment occurred in four of the eight eyes. Two additional eyes without a pressure elevation 1 hour after treatment showed a later elevation",
+            "journal": "Ophthalmology",
+            "year": "1984",
+            "authors": [
+              "Krupin T",
+              "Kolker A E",
+              "Kass M A",
+              "Becker B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Circadian Rhythm",
+              "Female",
+              "Follow-Up Studies",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Laser Therapy",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6717920/"
+          },
+          {
+            "pmid": "32602905",
+            "title": "Alteration in Lysophospholipids and Converting Enzymes in Glaucomatous Optic Nerves.",
+            "abstract": "To determine whether lysophospholipid (LPL) profiles and corresponding conversion enzymes in the LPL pathways are altered in the optic nerve (ON) between human control and glaucoma samples.",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2020",
+            "authors": [
+              "Milbeck Sasha M",
+              "Bhattacharya Sanjoy K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Blotting, Western",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Lysophospholipids",
+              "Male",
+              "Mass Spectrometry",
+              "Optic Nerve"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32602905/"
+          },
+          {
+            "pmid": "4832172",
+            "title": "A breakthrough in open angle glaucoma therapy.",
+            "abstract": "",
+            "journal": "Annals of ophthalmology",
+            "year": "1974",
+            "authors": [
+              "Abraham R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Argon",
+              "Cell Aggregation",
+              "Ciliary Body",
+              "Erythrocytes",
+              "Glaucoma",
+              "Glycerol",
+              "Humans",
+              "Laser Therapy",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4832172/"
+          },
+          {
+            "pmid": "23916822",
+            "title": "A potential carrier based on liquid crystal nanoparticles for ophthalmic delivery of pilocarpine nitrate.",
+            "abstract": "Poor corneal penetration and short preocular retention of a clinical hydrophilic drug, pilocarpine nitrate (PN), for the treatment of open-angle glaucoma and acute angle-closure glaucoma, limit its ocular application. The purpose of this study was to investigate the potential of liquid crystal nanoparticles (LCNPs) for ocular delivery of PN. LCNPs were developed by a top-down method using glyceryl monoolein (GMO) and water in the presence of stabilizer Poloxamer 407. They were characterized by transmission electron microscopy (TEM) and small angle X-ray diffraction (SAXS). The size of LCNP is 202.28±19.32 nm and the encapsulation efficiency reached 61.03%. The in vitro release profiles indicated that PN could keep sustained release from PN-loaded LCNPs for 8h. An ex vivo corneal permeation study revealed that the apparent permeability coefficient of PN-loaded LCNPs was 2.05-fold higher than that of commercial eye drops. In addition, the topical administration test showed that PN-loaded",
+            "journal": "International journal of pharmaceutics",
+            "year": "2013",
+            "authors": [
+              "Li Jing",
+              "Wu Lin",
+              "Wu Weijun",
+              "Wang Baoyan",
+              "Wang Zhongyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Ophthalmic",
+              "Animals",
+              "Cornea",
+              "Drug Carriers",
+              "Glycerides",
+              "In Vitro Techniques",
+              "Intraocular Pressure",
+              "Liquid Crystals",
+              "Miotics",
+              "Nanoparticles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23916822/"
+          },
+          {
+            "pmid": "22955016",
+            "title": "Outcomes of shunt tube coverage with glycerol preserved cornea versus pericardium.",
+            "abstract": "Pericardium is a biomaterial widely used for covering the outflow tubes of glaucoma drainage devices. Recently, glycerol preserved cornea has been introduced as an alternative that offers durability and improved cosmesis because of its clarity. We retrospectively reviewed 262 patients in the University of Alabama Birmingham Glaucoma Service who underwent shunt procedures using either cornea tissue or pericardium to cover the tube. The primary outcome measure was the number of erosions of the covering material. Nine out of 101 (8.9%) patients in the pericardium covered group experienced an erosion compared with 3 out of 161 (1.9%) in the cornea covered group. A significant difference was reached with P=0.0125. Median follow-up was 440 days for the cornea group and 331 days for the pericardium group. The type of glaucoma (primary open-angle glaucoma vs. secondary glaucoma) was not associated with the risk of erosion (odds ratio, 0.501; 95% confidence interval, 0.204-1.234). The median ti",
+            "journal": "Journal of glaucoma",
+            "year": "2014",
+            "authors": [
+              "Wigton Eric",
+              "C Swanner Jason",
+              "Joiner Wade",
+              "Feldman Alex",
+              "McGwin Gerald"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Corneal Transplantation",
+              "Female",
+              "Glaucoma Drainage Implants",
+              "Glaucoma, Open-Angle",
+              "Glycerol",
+              "Humans",
+              "Male",
+              "Organ Preservation Solutions",
+              "Pericardium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22955016/"
+          },
+          {
+            "pmid": "17389500",
+            "title": "Sodium 4-phenylbutyrate acts as a chemical chaperone on misfolded myocilin to rescue cells from endoplasmic reticulum stress and apoptosis.",
+            "abstract": "To evaluate the effect of chemical chaperones on the trafficking of secretion-incompetent primary open-angle glaucoma-associated mutant myocilin and the possibility to rescue cells coexpressing mutant and wild-type myocilin from endoplasmic reticulum (ER) stress and apoptosis.",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2007",
+            "authors": [
+              "Yam Gary Hin-Fai",
+              "Gaplovska-Kysela Katarina",
+              "Zuber Christian",
+              "Roth Jürgen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Blotting, Western",
+              "CHO Cells",
+              "Caspase 3",
+              "Cricetinae",
+              "Cricetulus",
+              "Cytoskeletal Proteins",
+              "Endoplasmic Reticulum",
+              "Eye Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17389500/"
+          },
+          {
+            "pmid": "20872359",
+            "title": "Effects of osmoprotection on symptoms, ocular surface damage, and tear film modifications caused by glaucoma therapy.",
+            "abstract": "To determine the effects of 2 artificial tear formulas on the ocular surface in patients with glaucoma using topical preserved beta-blockers (BB) or prostaglandins (PG).",
+            "journal": "European journal of ophthalmology",
+            "year": "2011",
+            "authors": [
+              "Monaco Gaspare",
+              "Cacioppo Viviana",
+              "Consonni Dario",
+              "Troiano Pasquale"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Carboxymethylcellulose Sodium",
+              "Cornea",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Dry Eye Syndromes",
+              "Glaucoma, Open-Angle",
+              "Glycerol",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20872359/"
+          },
+          {
+            "pmid": "22266369",
+            "title": "Comparative study of serine-plasmalogens in human retina and optic nerve: identification of atypical species with odd carbon chains.",
+            "abstract": "The objective of this work was to detect and identify phosphatidylserine plasmalogen species in human ocular neurons represented by the retina and the optic nerve. Plasmalogens (vinyl-ether bearing phospholipids) are commonly found in the forms of phosphatidylcholine and phosphatidylethanolamine in numerous mammalian cell types, including the retina. Although their biological functions are unclear, the alteration of cellular plasmalogen content has been associated with several human disorders such as rhizomelic chondrodysplasia punctata Type 2 and primary open-angle glaucoma. By using liquid chromatography coupled to high-resolution and tandem mass spectrometry, we have identified for the first time several species of phosphatidylserine plasmalogens, including atypical forms having moieties with odd numbers of carbons and unsaturation in sn-2 position. Structural elucidation of the potential phosphatidylserine ether linked species was pursued by performing MS(3) experiments, and three ",
+            "journal": "Journal of lipid research",
+            "year": "2012",
+            "authors": [
+              "Nagy Kornél",
+              "Brahmbhatt Viral Vishnuprasad",
+              "Berdeaux Olivier",
+              "Bretillon Lionel",
+              "Destaillats Frédéric"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Carbon",
+              "Chromatography, Liquid",
+              "Female",
+              "Humans",
+              "Male",
+              "Optic Nerve",
+              "Phosphatidylserines",
+              "Plasmalogens"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22266369/"
+          },
+          {
+            "pmid": "19487926",
+            "title": "N-acetylcarnosine lubricant eyedrops possess all-in-one universal antioxidant protective effects of L-carnosine in aqueous and lipid membrane environments, aldehyde scavenging, and transglycation activities inherent to cataracts: a clinical study of the new vision-saving drug N-acetylcarnosine eyedrop therapy in a database population of over 50,500 patients.",
+            "abstract": "The antioxidant activity of L-carnosine (beta-alanyl-L-histidine, bioactivated in ocular tissues) versus N-acetylcarnosine (N-acetyl-beta-alanyl-L-histidine, ocular-targeted small dipeptide molecules) was studied in aqueous solution and in a lipid environment, employing liposomes as a model of lipid membranes. Reactive oxygen species (ROS) were generated by an iron/ascorbate promoter system for induction of lipid peroxidation (LPO). L-carnosine, which is stabilized from enzymatic hydrolysis, operates as a universal aldehyde and ROS scavenger in both aqueous and lipid environments and is effective at preventing ROS-induced damage to biomolecules. Second-generation carnosine analogs bearing the histidyl-hydrazide moiety were synthesized and tested versus L-carnosine for their ability to reverse the glycation process, also known as the Maillard reaction, and reverse the stable intermolecular cross-links, monitored in the glucose-ethylamine Schiff base model, ultimately resulting in the fo",
+            "journal": "American journal of therapeutics",
+            "year": "2009",
+            "authors": [
+              "Babizhayev Mark A",
+              "Micans Philip",
+              "Guiotto Andrea",
+              "Kasus-Jacobi Anne"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Aged",
+              "Aged, 80 and over",
+              "Antioxidants",
+              "Carnosine",
+              "Cataract",
+              "Cross-Over Studies",
+              "Delayed-Action Preparations",
+              "Double-Blind Method",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19487926/"
+          },
+          {
+            "pmid": "34602434",
+            "title": "Formulation and evaluation of sustained release ocular inserts of betaxolol hydrochloride using arabinoxylan from Plantago ovata.",
+            "abstract": "The purpose of the current studies was to develop ocular insert of betaxolol hydrochloride (BXH), using arabinoxylan (AX) as a film former. The inserts were prepared by sandwiching I mg of BXH between two films of AX. Six different formulations of ocular inserts were prepared in such a way that first three formulations contained varying concentrations of AX along with glycerol as plasticizer, whereas, rest of the formulations were added with 0.5mg of sodium alginate, sandwiched between two films of AX along with 1mg of BXH. Chemical compatibilities of the ingredients were assessed by using FTIR. Prepared ocular inserts were subjected to various physicochemical characterizations. The dissolution studies showed that ocular inserts containing sodium alginate with the AX showed sustained release effect better than the formulations with AX alone. Addition of sodium alginate resulted in inhibition of sudden release in initial phase and further sustained the release of drug from ocular insert",
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2021",
+            "authors": [
+              "Sajid Chughtai Fazal Rahman",
+              "Zaman Muhammad",
+              "Khan Abdul Haleem",
+              "Amjad Muhammad Wahab",
+              "Aman Waqar"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Ophthalmic",
+              "Adrenergic beta-1 Receptor Antagonists",
+              "Alginates",
+              "Betaxolol",
+              "Delayed-Action Preparations",
+              "Drug Liberation",
+              "Glaucoma, Open-Angle",
+              "Glycerol",
+              "Plantago",
+              "Xylans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34602434/"
+          },
+          {
+            "pmid": "3586535",
+            "title": "[Significance of the intolerance index in glaucoma].",
+            "abstract": "In 1979 Vodovozov proposed a new individualized index-the intolerance index-for the prognosis of glaucoma. It is calculated as the difference between tonometric and tolerable intraocular pressure, determined after the intake of hypotensive drugs. The lowered tonometric value which coincides with the maximum improvement in visual function (reduced size of the blind spot, enlarged visual field) is considered the individually compatible (tolerable) level of intraocular pressure. The tolerable intraocular pressure and the intolerance index were determined in 379 eyes of 213 patients with open-angle glaucoma; the follow-up period ranged from 18 months to 5 years. Statistical evaluation of the data obtained showed a significant difference between the values for the intolerance index of glaucomatous eyes with stabilized and nonstabilized visual function. In stabilized glaucoma the intolerance index is at most 4 mm Hg. If this is exceeded, one ought to intensify medication or resort to surgery",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1987",
+            "authors": [
+              "Vodovozov A M",
+              "Boriskina L N"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetazolamide",
+              "Glaucoma, Open-Angle",
+              "Glycerol",
+              "Humans",
+              "Intraocular Pressure",
+              "Prognosis",
+              "Visual Fields"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3586535/"
+          },
+          {
+            "pmid": "3931670",
+            "title": "Early intraocular pressure response following laser trabeculoplasty.",
+            "abstract": "The early response in the intraocular pressure following laser trabeculoplasty was investigated in 38 patients. An increase in pressure was found in 16 patients (42%), of whom eight had a moderate (less than 9 mmHg) and eight a severe (greater than 10 mmHg) increase. The maximum increase was recorded during the first post-laser hour in 13 patients (34.2%) and at 4 h in three patients postoperatively. A routine follow-up observation at 4 h after laser treatment is recommended to prevent 'silent' hypertensive risk.",
+            "journal": "The British journal of ophthalmology",
+            "year": "1985",
+            "authors": [
+              "Frucht J",
+              "Bishara S",
+              "Ticho U"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Glycerol",
+              "Humans",
+              "Intraocular Pressure",
+              "Laser Therapy",
+              "Male",
+              "Mannitol",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3931670/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9955669045448304,
+        "txgnn_rank": 5996,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.9954721927642822,
+        "txgnn_rank": 6087,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06920758",
+            "title": "A 6-month, Randomized, Double-blind, Placebo Controlled Study Evaluating the Efficacy and Safety of USPlus DERM to Promote Hair Growth in Men and Women With Self-perceived Thinning Hair.",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-12-16",
+            "completion_date": "2025-09",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "The goal of this clinical trial is to substantiate the effectiveness and safety of USPlus® DERM for self-perceived thinning hair compared to placebo in healthy men and women ages 25-65 over the course of six months of continued use. Participants will be asked to have attend three office visits, one phone call, have photos taken of their hair and answer questionnaires related to their thinning hair.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Healthy males and females of all Fitzpatrick Skin Types between 25 and 65 years of age.\n2. Subjects must be willing to provide verbal understanding and sign an Informed Consent Form, HIPAA Form and Photography Release Form approved by the Institutional Review Board.\n3. Subjec",
+            "endpoints": [
+              "Change in terminal hair counts from Baseline to Day 180 using the Canfield HairMetrix system.",
+              "Change in vellus hair counts from Baseline to Day 180 using the Canfield HairMetrix system.",
+              "Change in total hair counts from Baseline to Day 180 using the Canfield HairMetrix system."
+            ],
+            "sponsor": "Ablon Skin Institute Research Center",
+            "url": "https://clinicaltrials.gov/study/NCT06920758"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "14555416",
+            "title": "Final report on the safety assessment of triacetin.",
+            "abstract": "Triacetin, also known as Glyceryl Triacetate, is reported to function as a cosmetic biocide, plasticizer, and solvent in cosmetic formulations, at concentrations ranging from 0.8% to 4.0%. It is a commonly used carrier for flavors and fragrances. Triacetin was affirmed as a generally recognized as safe (GRAS) human food ingredient by the Food and Drug Administration (FDA). Triacetin was not toxic to animals in acute oral or dermal exposures, nor was it toxic in short-term inhalation or parenteral studies, and subchronic feeding and inhalation studies. Triacetin was, at most, slightly irritating to guinea pig skin. However, in one study, it caused erythema, slight edema, alopecia, and desquamation, and did cause some irritation in rabbit eyes. Triacetin was not sensitizing in guinea pigs. Triacetin was not an irritant or a sensitizer in a clinical maximization study, and only very mild reactions were seen in a Duhring-chamber test using a 50% dilution. In humans, Triacetin reportedly ha",
+            "journal": "International journal of toxicology",
+            "year": "2003",
+            "authors": [
+              "Fiume Monice Zondlo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Consumer Product Safety",
+              "Cosmetics",
+              "Humans",
+              "Toxicity Tests",
+              "Triacetin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14555416/"
+          },
+          {
+            "pmid": "24080521",
+            "title": "Acyl-CoA binding protein and epidermal barrier function.",
+            "abstract": "The acyl-CoA binding protein (ACBP) is a 10kDa intracellular protein expressed in all eukaryotic species and mammalian tissues investigated. It binds acyl-CoA esters with high specificity and affinity and is thought to act as an intracellular transporter of acyl-CoA esters between different enzymatic systems; however, the precise function remains unknown. ACBP is expressed at relatively high levels in the epidermis, particularly in the suprabasal layers, which are highly active in lipid synthesis. Targeted disruption of the ACBP gene in mice leads to a pronounced skin and fur phenotype, which includes tousled and greasy fur, development of alopecia and scaling of the skin with age. Furthermore, epidermal barrier function is compromised causing a ~50% increase in transepidermal water loss relative to that of wild type mice. Lipidomic analyses indicate that this is due to significantly reduced levels of non-esterified very long chain fatty acids in the stratum corneum of ACBP(-/-) mice. ",
+            "journal": "Biochimica et biophysica acta",
+            "year": "2014",
+            "authors": [
+              "Bloksgaard Maria",
+              "Neess Ditte",
+              "Færgeman Nils J",
+              "Mandrup Susanne"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biological Transport, Active",
+              "Diazepam Binding Inhibitor",
+              "Epidermis",
+              "Gene Deletion",
+              "Gene Expression Regulation",
+              "Humans",
+              "Lipid Metabolism",
+              "Mice",
+              "Water-Electrolyte Balance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24080521/"
+          },
+          {
+            "pmid": "28607088",
+            "title": "Skin-specific regulation of SREBP processing and lipid biosynthesis by glycerol kinase 5.",
+            "abstract": "The recessive N-ethyl-N-nitrosourea-induced phenotype toku is characterized by delayed hair growth, progressive hair loss, and excessive accumulation of dermal cholesterol, triglycerides, and ceramides. The toku phenotype was attributed to a null allele of Gk5, encoding glycerol kinase 5 (GK5), a skin-specific kinase expressed predominantly in sebaceous glands. GK5 formed a complex with the sterol regulatory element-binding proteins (SREBPs) through their C-terminal regulatory domains, inhibiting SREBP processing and activation. In Gk5toku/toku mice, transcriptionally active SREBPs accumulated in the skin, but not in the liver; they were localized to the nucleus and led to elevated lipid synthesis and subsequent hair growth defects. Similar defective hair growth was observed in kinase-inactive GK5 mutant mice. Hair growth defects of homozygous toku mice were partially rescued by treatment with the HMG-CoA reductase inhibitor simvastatin. GK5 exists as part of a skin-specific regulatory",
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2017",
+            "authors": [
+              "Zhang Duanwu",
+              "Tomisato Wataru",
+              "Su Lijing",
+              "Sun Lei",
+              "Choi Jin Huk"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Glycerol Kinase",
+              "Lipids",
+              "Mice",
+              "Mice, Knockout",
+              "Protein Domains",
+              "Protein Processing, Post-Translational",
+              "Simvastatin",
+              "Skin",
+              "Sterol Regulatory Element Binding Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28607088/"
+          },
+          {
+            "pmid": "28792932",
+            "title": "Structural insights into ligand recognition by the lysophosphatidic acid receptor LPA6.",
+            "abstract": "Lysophosphatidic acid (LPA) is a bioactive lipid composed of a phosphate group, a glycerol backbone, and a single acyl chain that varies in length and saturation. LPA activates six class A G-protein-coupled receptors to provoke various cellular reactions. Because LPA signalling has been implicated in cancer and fibrosis, the LPA receptors are regarded as promising drug targets. The six LPA receptors are subdivided into the endothelial differentiation gene (EDG) family (LPA1-LPA3) and the phylogenetically distant non-EDG family (LPA4-LPA6). The structure of LPA1 has enhanced our understanding of the EDG family of LPA receptors. By contrast, the functional and pharmacological characteristics of the non-EDG family of LPA receptors have remained unknown, owing to the lack of structural information. Although the non-EDG LPA receptors share sequence similarity with the P2Y family of nucleotide receptors, the LPA recognition mechanism cannot be deduced from the P2Y1 and P2Y12 structures becau",
+            "journal": "Nature",
+            "year": "2017",
+            "authors": [
+              "Taniguchi Reiya",
+              "Inoue Asuka",
+              "Sayama Misa",
+              "Uwamizu Akiharu",
+              "Yamashita Keitaro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alopecia",
+              "Animals",
+              "Binding Sites",
+              "Cell Membrane",
+              "Crystallography, X-Ray",
+              "HEK293 Cells",
+              "Humans",
+              "Ligands",
+              "Lysophospholipids",
+              "Molecular Docking Simulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28792932/"
+          },
+          {
+            "pmid": "2211213",
+            "title": "Effect of Fluosol-DA 20% and oxygen on response of C57BL/6 mice to whole-body irradiation.",
+            "abstract": "Normal tissue effects in mice due to combinations of a perfluorochemical emulsion, Fluosol-DA 20%, 100% oxygen, and whole-body irradiation were investigated. Eight-to-10-week-old C57BL/6 male mice were injected via the tail vein with 10 ml/kg of Fluosol-DA with and without subsequent exposure to oxygen for 60 minutes. Animals then received graded doses of whole-body radiation (4 MV photons) at a dose rate of 2.85 +/- .015 Gy/minute. Using linear regression analysis, the lethal doses of radiation to 50% and 10% of the animals within 30 days in the absence of Fluosol-DA and oxygen were 8.35 Gy (95% c.l.:7.77-8.93 Gy) and 6.73 Gy (95% cl.:6.21-7.25 Gy), respectively, and were unaffected by Fluosol-DA and/or oxygen pre-treatment. However, Fluosol-DA given alone or in combination with oxygen produced increased balding and decreased graying incidence in mice within 60 days, and resulted in depressed weight gain 15 to 60 days post-treatment. Normal tissue effects due to administration of Fluo",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "1990",
+            "authors": [
+              "Waldow S M",
+              "Lustig R A",
+              "Brass-Marlow E L",
+              "Nunno M P",
+              "Holst R J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alopecia",
+              "Animals",
+              "Body Weight",
+              "Drug Combinations",
+              "Fluorocarbons",
+              "Hair Color",
+              "Hydroxyethyl Starch Derivatives",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2211213/"
+          },
+          {
+            "pmid": "32700723",
+            "title": "Co-loading of finasteride and baicalin in phospholipid vesicles tailored for the treatment of hair disorders.",
+            "abstract": "Hair loss affects a large number of people worldwide and it has a negative impact on the quality of life. Despite the availability of different drugs for the treatment of hair disorders, therapeutic options are still limited and scarcely effective. An innovative strategy to improve the efficacy of alopecia treatment is presented in this work. Finasteride, the only oral synthetic drug approved by Unites States Federal Drug Administration, was loaded in phospholipid vesicles. In addition, baicalin was co-loaded as an adjuvant. Their effect on hair growth was evaluated in vitro and in vivo. Liposomes, hyalurosomes, glycerosomes and glycerol-hyalurosomes were manufactured by using a simple method that avoids the use of organic solvents. All the vesicles were small in size (∼100 nm), homogeneously dispersed (polydispersity index ≤0.27) and negatively charged (∼-16 mV). The formulations were able to stimulate the proliferation of human dermal papilla cells, which are widely used in hair phys",
+            "journal": "Nanoscale",
+            "year": "2020",
+            "authors": [
+              "Mir-Palomo Silvia",
+              "Nácher Amparo",
+              "Ofelia Vila-Busó M A",
+              "Caddeo Carla",
+              "Manca Maria Letizia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Finasteride",
+              "Flavonoids",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Phospholipids",
+              "Quality of Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32700723/"
+          },
+          {
+            "pmid": "27896851",
+            "title": "Quantitating the lateral skin stiffness by a new and versatile electro-mechanical instrument. Preliminary studies.",
+            "abstract": "A new electro-mechanical device for measuring the lateral stiffness of the skin is now available. It basically allows to recording the forces that the skin opposes to a lateral displacement (1-2 mm) of a pinching type movement. Preliminary assays of this device to various skin sites and an artificial substrate aimed at defining its major characteristics (sensitivity, reproducibility, variations according to skin site).",
+            "journal": "Skin research and technology : official journal of International Society for Bioengineering and the Skin (ISBS) [and] International Society for Digital Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI)",
+            "year": "2017",
+            "authors": [
+              "Nomura M",
+              "Velleman D",
+              "Pierre J",
+              "Flament F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aging",
+              "Asian People",
+              "Biomechanical Phenomena",
+              "Cryoprotective Agents",
+              "Elastomers",
+              "Female",
+              "Forearm",
+              "Glycerol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27896851/"
+          },
+          {
+            "pmid": "32227767",
+            "title": "Evaluation of the safety of hair essence containing 0.05% purified bee venom on the skin and eyes of rabbits.",
+            "abstract": "To investigate the safety of hair essence containing 0.05% purified bee venom (HE-PBV) on the skin and eyes of New Zealand White rabbits.",
+            "journal": "Journal of traditional Chinese medicine = Chung i tsa chih ying wen pan",
+            "year": "2020",
+            "authors": [
+              "Mi Kyung Lim",
+              "Eun Hye Han R D Center",
+              "Sang Ho Lee R D Center",
+              "Jee Hee Kim R D Center"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bee Venoms",
+              "Cosmetics",
+              "Eye",
+              "Hair",
+              "Male",
+              "Rabbits",
+              "Safety",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32227767/"
+          },
+          {
+            "pmid": "23207960",
+            "title": "Design and in vitro evaluation of finasteride-loaded liquid crystalline nanoparticles for topical delivery.",
+            "abstract": "In this study, liquid crystalline nanoparticles (LCN) have been proposed as new carrier for topical delivery of finasteride (FNS) in the treatment of androgenetic alopecia. To evaluate the potential of this nanocarrier, FNS-loaded LCN was prepared by ultrasonication method and characterized for size, shape, in vitro release, and skin permeation-retention properties. The particle size ranged from 153.8 to 170.2 nm with a cubical shape and exhibited controlled release profile with less than 20% of the drug released in the first 24 h. The release profile was significantly altered with addition of different additives. Formulation with lower monoolein exhibited higher skin permeation with a flux rate of 0.061±0.005 μg cm(-2) h(-1) in 24 h. The permeation however, significantly increased with glycerol, propylene glycol, and polyethylene glycol 400, while it declined for the addition of oleic acid. A similar trend was observed with skin retention study. In conclusion, FNS-loaded LCN could be ",
+            "journal": "AAPS PharmSciTech",
+            "year": "2013",
+            "authors": [
+              "Madheswaran Thiagarajan",
+              "Baskaran Rengarajan",
+              "Thapa Raj Kumar",
+              "Rhyu Jeong Yeon",
+              "Choi Hye Yoon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "5-alpha Reductase Inhibitors",
+              "Administration, Topical",
+              "Animals",
+              "Drug Evaluation, Preclinical",
+              "Finasteride",
+              "Male",
+              "Mice",
+              "Mice, Hairless",
+              "Microscopy, Electron, Transmission",
+              "Nanoparticles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23207960/"
+          },
+          {
+            "pmid": "9823424",
+            "title": "Phase I and pharmacologic study of weekly doxorubicin and 1 h infusional paclitaxel in patients with advanced breast cancer.",
+            "abstract": "Doxorubicin and paclitaxel both display strong antitumor activity in the treatment of breast cancer. The optimal schedule of this combination, however, remains undefined. In this phase I and pharmacologic study, we administered weekly 12 mg/m2 doxorubicin as a bolus infusion immediately followed by a 1 h 80 mg/m2 paclitaxel infusion to patients with metastatic breast cancer. A total of 119 weekly courses were delivered to seven patients. Grade IV neutropenia was observed in two patients at the first dose level, thus already defining the maximum tolerated dose. Pronounced non-hematologic toxicities were mild neuropathy (grade I: 39%) and stomatitis (grade I: 19%, grade II: 8%). No signs of cardiac toxicity were observed with this dose schedule. Three partial responses were achieved in this group of heavily pretreated patients. The pharmacokinetics of paclitaxel, doxorubicin and Cremophor EL with this schedule were analyzed. Overall, the schedule was well tolerated and combined with its ",
+            "journal": "Anti-cancer drugs",
+            "year": "1998",
+            "authors": [
+              "Panday V R",
+              "ten Bokkel Huinink W W",
+              "Rosing H",
+              "Koopman F J",
+              "Hillebrand M J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alopecia",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Dose-Response Relationship, Drug",
+              "Doxorubicin",
+              "Drug Administration Schedule",
+              "Female",
+              "Glycerol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9823424/"
+          },
+          {
+            "pmid": "20446530",
+            "title": "[Evaluation properties of hydrogels with simvastatin prepared on Carbopol 2020].",
+            "abstract": "The inhibitors of 3-hydroxy-3-methyloglutaryl coenzyme-A reductase are very popular in hipercholesterolemia therapy. According to current publications statins can be also used in other medical indications. In addition to fundamental cholesterol lowering activity statins give other effects as well, for example immunomodulating and anti-inflammatory effect, they promote bone mineralization. The anti-inflammatory activity has been described in few articles and clinical letters. Systemic or topical use of statins can be beneficial in alopecia, erythema, psoriasis. In the following paper prepared and tested formulations including simvastatin gel obtained from the Carbopolu 2020 with the addition of selected excipients: Tween 20, propylene glycol, glycerol, PEG 400. Particle size distributions, rheological characteristic of formulations and pharmaceutical availability were carried over to all formulations.",
+            "journal": "Polimery w medycynie",
+            "year": "2010",
+            "authors": [
+              "Owczarek Artur",
+              "Pluta Janusz",
+              "Kogut Joanna"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acrylic Resins",
+              "Chemistry, Pharmaceutical",
+              "Drug Carriers",
+              "Hydrogels",
+              "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "Hypolipidemic Agents",
+              "Polyvinyls",
+              "Rheology",
+              "Simvastatin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20446530/"
+          },
+          {
+            "pmid": "11807448",
+            "title": "Allergic contact dermatitis to topical minoxidil solution: etiology and treatment.",
+            "abstract": "After more than a decade of use, topical minoxidil solution has proven to be a safe and effective treatment for androgenetic alopecia. However, some patients present with complaints of pruritus and scaling of the scalp. The most common causes of these symptoms include irritant contact dermatitis, allergic contact dermatitis, or an exacerbation of seborrheic dermatitis. Patients suffering from allergic contact dermatitis may benefit from patch testing to determine the causative allergen. Among the patients we patch tested, propylene glycol was found to be the contactant in a majority of cases, not the minoxidil itself. Many of these patients may be candidates for treatment with alternative formulations using other solvents, such as butylene glycol, polysorbate, or glycerol. Although predictive, patch testing results do not ensure that the compounded preparations will be tolerated. Unfortunately, patients found to be allergic to minoxidil are no longer candidates for topical treatment of",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2002",
+            "authors": [
+              "Friedman Edward S",
+              "Friedman Paul M",
+              "Cohen David E",
+              "Washenik Ken"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Aged",
+              "Alopecia",
+              "Dermatitis, Allergic Contact",
+              "Drug Eruptions",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11807448/"
+          },
+          {
+            "pmid": "3896179",
+            "title": "Lack of efficacy of polysorbate 60 in the treatment of male pattern baldness.",
+            "abstract": "Anecdotal reports have indicated that the nonionic detergent polysorbate 60 may be of some value in male pattern baldness. In this double-blind placebo-controlled trial, a photographic and objective scalp measurement system was developed to assess new hair growth. No significant difference was detected between subjects treated for 16 weeks with polysorbate 60 and control subjects treated with glycerin, indicating that polysorbate 60 is ineffective. Of the 141 subjects who completed the trial, 25% perceived that they grew new hair, 67% said they did not, and 8% were uncertain. Subject-reported new hair growth did not correlate with measurements, indicating that the placebo effect may be a major factor in reports of baldness \"cures\".",
+            "journal": "Archives of internal medicine",
+            "year": "1985",
+            "authors": [
+              "Groveman H D",
+              "Ganiats T",
+              "Klauber M R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alopecia",
+              "Clinical Trials as Topic",
+              "Double-Blind Method",
+              "Hair",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Photography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3896179/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.995028793811798,
+        "txgnn_rank": 6464,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9949382543563844,
+        "txgnn_rank": 6535,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05723731",
+            "title": "Effect of Transcutaneous Auricular Vagal Nerve Stimulation on Chronic Constipation: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2023-01-03",
+            "completion_date": "2023-09-28",
+            "country": "China",
+            "enrollment": 106,
+            "brief_summary": "The worldwide prevalence of chronic constipation (CC) is 15%, and women are more likely to develop the disease than men. CC have a significant impact on quality of life and increase the burden of national health insurance. The conventional medication treatments are primarily symptom-specific and have limited efficacy. Previous small sample study had shown the therapeutic potential of transcutaneous auricular vagus nerve stimulation (taVNS) for irritable bowel syndrome with constipation (IBS-C). ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. FC or IBS-C patients aged 18-75 years who meet the diagnostic criteria for Rome IV;\n2. Complete spontaneous bowel movements (CSBMs) per week \\< 3;\n3. No constipation medication used for at least 2 weeks prior to enrollment, not participated in clinical trials in the past thre",
+            "endpoints": [
+              "Responder rate"
+            ],
+            "sponsor": "Air Force Military Medical University, China",
+            "url": "https://clinicaltrials.gov/study/NCT05723731"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.994746208190918,
+        "txgnn_rank": 6690,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diffuse alopecia areata",
+        "txgnn_score": 0.9944977164268494,
+        "txgnn_rank": 6922,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9927034378051758,
+        "txgnn_rank": 8465,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9917674660682678,
+        "txgnn_rank": 9208,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09462",
+    "name": "Glycerin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Glycerin"
+      },
+      "queried_at": "2026-03-10T02:34:24.819129",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Glycerin"
+      },
+      "queried_at": "2026-03-10T02:34:27.273458",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T02:34:28.737695",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T02:34:34.299039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T02:34:35.541650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T02:34:36.741548",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T02:34:41.650685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T02:34:46.020991",
+      "status": "success",
+      "result_count": 16,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T02:34:47.601092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T02:34:52.700640",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T02:34:54.074442",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T02:34:55.096938",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T02:35:02.636907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T02:35:05.377207",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T02:35:06.474859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T02:35:09.977124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T02:35:11.024616",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T02:35:11.941562",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T02:35:43.691083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T02:35:46.800267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T02:35:49.993082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T02:35:53.072943",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T02:35:56.349291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T02:35:59.510872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T02:36:02.897859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T02:36:06.203032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T02:36:09.600868",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T02:36:12.651705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T02:36:15.682727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T02:36:16.828805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T02:36:21.609720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Glycerin",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T02:36:24.654648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:36:24.672187"
+  }
+}

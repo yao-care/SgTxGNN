@@ -1,0 +1,2418 @@
+{
+  "drug": {
+    "inn": "Miconazole",
+    "drugbank_id": "DB01110",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.9953600764274596,
+        "txgnn_rank": 6182,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01244256",
+            "title": "Isolation and Comparative Efficacy of the Combination of beclometasona0, 025% + Gentamicin 0.1% + Clotrimazole 1% Topical Dermatological Cream of GLENMARK PHARMACEUTICALS, in Patients Infected With Acne",
+            "phase": "PHASE2, PHASE3",
+            "status": "SUSPENDED",
+            "start_date": "2007-04",
+            "completion_date": "2007-09",
+            "country": "Brazil",
+            "enrollment": 80,
+            "brief_summary": "The objective of this trial is to evaluate the comparative efficacy of the combination of Clotrimazole + Gentamicin + Beclomethasone in study subjects with a condition of contaminated dermatosis showing bilateral symmetrical lesions.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject search of both sexes, regardless of color or social class\n* From age to 18, with good mental health\n* Carriers of two outbreaks of acne contaminated\n* Subjects who agree to return follow-up visits\n* Research subjects who agree to participate and sign the Deed of Consen",
+            "endpoints": [
+              "Efficacy of the treatment in patient with infected dermatoses"
+            ],
+            "sponsor": "Azidus Brasil",
+            "url": "https://clinicaltrials.gov/study/NCT01244256"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15536660",
+            "title": "Coping with mild inflammatory catamenial acne: a clinical and bioinstrumental split-face assessment.",
+            "abstract": "Acne is a multifactorial disease exhibiting distinct clinical presentations. Among them, the catamenial type is a matter of concern for young women. Some oral contraceptives may help without, however, clearing the skin condition.",
+            "journal": "Skin research and technology : official journal of International Society for Bioengineering and the Skin (ISBS) [and] International Society for Digital Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI)",
+            "year": "2004",
+            "authors": [
+              "Petit Ludivine",
+              "Piérard- Franchimont Claudine",
+              "Uhoda Emmanuelle",
+              "Vroome Valérie",
+              "Cauwenbergh Geert"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Administration, Topical",
+              "Adult",
+              "Anti-Inflammatory Agents",
+              "Antifungal Agents",
+              "Contraceptives, Oral, Hormonal",
+              "Dermatologic Agents",
+              "Drug Combinations",
+              "Drug Resistance",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15536660/"
+          },
+          {
+            "pmid": "18627330",
+            "title": "Novelties in the multifaceted miconazole effects on skin disorders.",
+            "abstract": "Miconazole nitrate is a time-honored antifungal of the imidazole class.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2008",
+            "authors": [
+              "Quatresooz Pascale",
+              "Vroome Valérie",
+              "Borgers Marcel",
+              "Cauwenbergh Geert",
+              "Piérard Gérald E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Cytochrome P-450 Enzyme System",
+              "Dermatomycoses",
+              "Gram-Positive Bacterial Infections",
+              "Humans",
+              "Miconazole",
+              "Skin Diseases, Bacterial",
+              "Sterol 14-Demethylase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18627330/"
+          },
+          {
+            "pmid": "8593718",
+            "title": "Pityrosporum (Malassezia) folliculitis in Saudi Arabia--diagnosis and therapeutic trials.",
+            "abstract": "Pityrosporum folliculitis (PF) is frequently misdiagnosed as acne vulgaris, resulting in unnecessary and prolonged treatment. Sixty-two patients with PF seen in the Dermatology Clinic, King Gahad Hofuf Hospital, Saudi Arabia were evaluated clinically. The diagnosis was confirmed by routine histology with haemotoxylineosin staining and Periodic acid-Schiff staining. Scrapings of the lesions, especially the molluscum-like papules, were mounted in KOH/Parker blue ink and examined under the microscope. Patients, divided into three groups as follows, were given treatment for 4 weeks: (1) 20 were treated with ketoconazole, 200 mg orally in addition to ketoconazole shampoo 2% daily; (2) 20 were given only ketoconazole, 200 mg daily, orally; (3) 12 used econazole nitrate 1% solution applied twice daily; and (4) 10 used miconazole nitrate 2% cream twice daily. Cases in groups 3 and 4, who did not respond, were given the same treatment as for group 1. All who responded were kept on ketoconazole ",
+            "journal": "Clinical and experimental dermatology",
+            "year": "1995",
+            "authors": [
+              "Abdel-Razek M",
+              "Fadaly G",
+              "Abdel-Raheim M",
+              "al-Morsy F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Adolescent",
+              "Adult",
+              "Antifungal Agents",
+              "Female",
+              "Folliculitis",
+              "Humans",
+              "Ketoconazole",
+              "Malassezia",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8593718/"
+          },
+          {
+            "pmid": "20045949",
+            "title": "In vitro activities of azole antifungal agents against Propionibacterium acnes isolated from patients with acne vulgaris.",
+            "abstract": "The Gram-positive bacterium Propionibacterium acnes is the causative agent of acne vulgaris. Antibiotics such as tetracycline and macrolide derivatives are used to treat this skin disease; however, the isolation frequency of antibiotic-resistant P. acnes has been increasing. The anti-P. acnes activity of imidazole antifungal agents was reported more than 20 years ago, and since then, new azole antifungal agents have been marketed. Thus, this study determined the in vitro activities of azole antifungal agents against P. acnes isolated from patients with acne vulgaris. Of the five agents tested, miconazole, ketoconazole, and itraconazole showed concentration-dependent anti-P. acnes activity, including against antibiotic-resistant isolates. Time-kill assay also showed the time-dependent activity of the drugs. Fluconazole and voriconazole showed no anti-P. acnes activity.",
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2010",
+            "authors": [
+              "Sugita Takashi",
+              "Miyamoto Mayumi",
+              "Tsuboi Ryoji",
+              "Takatori Kazuhiko",
+              "Ikeda Reiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Antifungal Agents",
+              "Azoles",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Fungal",
+              "Fluconazole",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Phytotherapy",
+              "Propionibacterium acnes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20045949/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastrin secretion abnormality",
+        "txgnn_score": 0.9874628186225892,
+        "txgnn_rank": 12490,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.9801236987113952,
+        "txgnn_rank": 16968,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tinea profunda",
+        "txgnn_score": 0.9719759225845336,
+        "txgnn_rank": 20514,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38494619",
+            "title": "Zoonotic Majocchi's Granuloma of the Vulva.",
+            "abstract": "A healthy 32-year-old woman presented to clinic with tender pruritic lesions of 2-month duration at the vulva and lesions for weeks on the shins. She was treated with topical corticosteroids and intravenous vancomycin without significant improvement. On examination, dozens of follicular hemorrhagic papulopustules were detected at the suprapubic area and vulva (Figure 1). Similar but less prominent lesions were observed on the shins as well. Biopsies of the vulva and shin revealed a follicular inflammatory infiltrate of neutrophils, histiocytes, and lymphocytes as well as fungal hyphae within the follicular infundibulum and hair shafts, consistent with Majocchi's granuloma (MG). Gram and Fite-Faraco staining, direct immunofluorescence, and bacterial culture were negative. Tissue culture grew Trichophyton mentagrophytes, which was identified using sequence analysis of the D1/D2 region of the 28s rDNA. Minimum inhibitory concentrations for terbinafine, ketoconazole, and itraconazole were ",
+            "journal": "Skinmed",
+            "year": "2024",
+            "authors": [
+              "Pastore Larissa M",
+              "Introcaso Camille E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Animals",
+              "Guinea Pigs",
+              "Adult",
+              "Terbinafine",
+              "Ketoconazole",
+              "Trichophyton",
+              "Antifungal Agents",
+              "Vulva"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38494619/"
+          },
+          {
+            "pmid": "22822716",
+            "title": "A case of Trichophyton mentagrophytes infection in a fennec fox (Vulpes zerda).",
+            "abstract": "A 2-year-old male fennec fox presented with a 4 month history of nonpruritic, crusty skin lesions on the forehead, the pinnae and the tail tip. Initial investigations, including routine haematology, biochemistry profile, multiple skin scrapings, trichoscopic examination, Wood's lamp examination and fungal culture, failed to reveal any abnormalities. Histopathological examination of a first set of skin biopsies showed an interface dermatitis pattern, with lymphocyte infiltration in the basal layer, a significant lymphocytic exocytosis and occasional apoptotic basal epidermal keratinocytes; periodic acid Schiff stain did not reveal any fungal elements. On further biopsies, there was a pustular neutrophilic dermatitis, with numerous crusts containing high numbers of arthrospores and fungal hyphae. Trichophyton mentagrophytes infection was confirmed on fungal culture and PCR. The fennec fox received oral itraconazole (5 mg/kg once daily for 6 weeks) combined with a miconazole and chlorhexi",
+            "journal": "Veterinary dermatology",
+            "year": "2012",
+            "authors": [
+              "Pressanti Charline",
+              "Delverdier Maxence",
+              "Iriart Xavier",
+              "Morcel Frédérique",
+              "Cadiergues Marie-Christine"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Zoo",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Foxes",
+              "Male",
+              "Tinea",
+              "Trichophyton"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22822716/"
+          },
+          {
+            "pmid": "1433223",
+            "title": "Isobenzofurans as conformationally constrained miconazole analogues with improved antifungal potency.",
+            "abstract": "A series of halogen-substituted isobenzofuran analogues was synthesized, which represented conformationally constrained analogues of miconazole (1). In vitro and in vivo topical antifungal activity against both dermatophytes and Candida species varied widely, but 13c proved to be significantly superior to both 1 and clotrimazole against a vaginal Candida infection in hamsters, while 13b was significantly more active than 1 against a a topical Trichophyton infection in guinea pigs. None of the compounds were orally active. When the most direct analogue of 1 proved to be among the least active, a molecular modeling study was done using 1, the two active analogues 13b and 13c, and the inactive analogue 13a. All four compounds possessed skeletally similar conformations either at or energetically readily accessible from the global minimum energy conformations. This common conformation of the inactive analogue 13a, however, occupies unique molecular volume space associated with two chlorine ",
+            "journal": "Journal of medicinal chemistry",
+            "year": "1992",
+            "authors": [
+              "Lovey R G",
+              "Elliott A J",
+              "Kaminski J J",
+              "Loebenberg D",
+              "Parmegiani R M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Benzofurans",
+              "Candidiasis",
+              "Computer Simulation",
+              "Cricetinae",
+              "Female",
+              "Guinea Pigs",
+              "Mice",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1433223/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ectothrix infectious disease",
+        "txgnn_score": 0.9707635045051576,
+        "txgnn_rank": 20959,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Majocchi granuloma",
+        "txgnn_score": 0.9707635045051576,
+        "txgnn_rank": 20960,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38494619",
+            "title": "Zoonotic Majocchi's Granuloma of the Vulva.",
+            "abstract": "A healthy 32-year-old woman presented to clinic with tender pruritic lesions of 2-month duration at the vulva and lesions for weeks on the shins. She was treated with topical corticosteroids and intravenous vancomycin without significant improvement. On examination, dozens of follicular hemorrhagic papulopustules were detected at the suprapubic area and vulva (Figure 1). Similar but less prominent lesions were observed on the shins as well. Biopsies of the vulva and shin revealed a follicular inflammatory infiltrate of neutrophils, histiocytes, and lymphocytes as well as fungal hyphae within the follicular infundibulum and hair shafts, consistent with Majocchi's granuloma (MG). Gram and Fite-Faraco staining, direct immunofluorescence, and bacterial culture were negative. Tissue culture grew Trichophyton mentagrophytes, which was identified using sequence analysis of the D1/D2 region of the 28s rDNA. Minimum inhibitory concentrations for terbinafine, ketoconazole, and itraconazole were ",
+            "journal": "Skinmed",
+            "year": "2024",
+            "authors": [
+              "Pastore Larissa M",
+              "Introcaso Camille E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Animals",
+              "Guinea Pigs",
+              "Adult",
+              "Terbinafine",
+              "Ketoconazole",
+              "Trichophyton",
+              "Antifungal Agents",
+              "Vulva"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38494619/"
+          },
+          {
+            "pmid": "22822716",
+            "title": "A case of Trichophyton mentagrophytes infection in a fennec fox (Vulpes zerda).",
+            "abstract": "A 2-year-old male fennec fox presented with a 4 month history of nonpruritic, crusty skin lesions on the forehead, the pinnae and the tail tip. Initial investigations, including routine haematology, biochemistry profile, multiple skin scrapings, trichoscopic examination, Wood's lamp examination and fungal culture, failed to reveal any abnormalities. Histopathological examination of a first set of skin biopsies showed an interface dermatitis pattern, with lymphocyte infiltration in the basal layer, a significant lymphocytic exocytosis and occasional apoptotic basal epidermal keratinocytes; periodic acid Schiff stain did not reveal any fungal elements. On further biopsies, there was a pustular neutrophilic dermatitis, with numerous crusts containing high numbers of arthrospores and fungal hyphae. Trichophyton mentagrophytes infection was confirmed on fungal culture and PCR. The fennec fox received oral itraconazole (5 mg/kg once daily for 6 weeks) combined with a miconazole and chlorhexi",
+            "journal": "Veterinary dermatology",
+            "year": "2012",
+            "authors": [
+              "Pressanti Charline",
+              "Delverdier Maxence",
+              "Iriart Xavier",
+              "Morcel Frédérique",
+              "Cadiergues Marie-Christine"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Zoo",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Foxes",
+              "Male",
+              "Tinea",
+              "Trichophyton"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22822716/"
+          },
+          {
+            "pmid": "1433223",
+            "title": "Isobenzofurans as conformationally constrained miconazole analogues with improved antifungal potency.",
+            "abstract": "A series of halogen-substituted isobenzofuran analogues was synthesized, which represented conformationally constrained analogues of miconazole (1). In vitro and in vivo topical antifungal activity against both dermatophytes and Candida species varied widely, but 13c proved to be significantly superior to both 1 and clotrimazole against a vaginal Candida infection in hamsters, while 13b was significantly more active than 1 against a a topical Trichophyton infection in guinea pigs. None of the compounds were orally active. When the most direct analogue of 1 proved to be among the least active, a molecular modeling study was done using 1, the two active analogues 13b and 13c, and the inactive analogue 13a. All four compounds possessed skeletally similar conformations either at or energetically readily accessible from the global minimum energy conformations. This common conformation of the inactive analogue 13a, however, occupies unique molecular volume space associated with two chlorine ",
+            "journal": "Journal of medicinal chemistry",
+            "year": "1992",
+            "authors": [
+              "Lovey R G",
+              "Elliott A J",
+              "Kaminski J J",
+              "Loebenberg D",
+              "Parmegiani R M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Benzofurans",
+              "Candidiasis",
+              "Computer Simulation",
+              "Cricetinae",
+              "Female",
+              "Guinea Pigs",
+              "Mice",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1433223/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "superficial mycosis",
+        "txgnn_score": 0.9705354571342468,
+        "txgnn_rank": 21058,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01547221",
+            "title": "Effectiveness of 3% Boric Acid in 70% Alcohol Versus 1% Clotrimazole Solution in Otomycosis Patients: a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2015-04",
+            "country": "Thailand",
+            "enrollment": 120,
+            "brief_summary": "Otomycosis is a superficial fungal infection of the external ear canal. Patients should be treated with cleaning fungal debris combined with topical antifungal agent. There is wide range of topical antifungal agents. However, there is still no consensus of the most effective topical antifungal agents in treatment otomycosis is still lacking.\n\nAccording to Thai National List of essential medicines for topical antifugal agents are:\n\n* acetic acid (2% in aqueous and 2% in 70% isopropyl alcohol)\n* b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Symptomatic otomycosis, age more than 7 year.\n* Microscopic finding revealed fungus\n* KOH smear positive for fungus\n\nExclusion Criteria:\n\n* Pregnancy\n* Tympanic membrane perforation and post mastoid surgery\n* Co-infection of ear e.g. severe otitis externa, severe myringitis wh",
+            "endpoints": [
+              "result as cure rate of otomycosis"
+            ],
+            "sponsor": "Khon Kaen Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01547221"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00835029",
+            "title": "Efficacy of Slow Release Clotrimazole Varnish Treating Denture Stomatitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-03",
+            "completion_date": "2012-02",
+            "country": "Israel",
+            "enrollment": 13,
+            "brief_summary": "Background: Oral candidiasis is most frequently found among the elderly .It is accompanied with oral pain, irritation, burning sensation. In addition, the altered taste sensation may cause nutrition compromise, which may affect ones diet. Management of superficial oral Candida is usually achieved by treatment with clotrimazole, a fungi static drug which is given five times per day with instruction to slowly suck on it with out the dentures.\n\nWorking hypothesis and aims: Management of oral candid",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* adults\n* removable denture in mouth\n* diagnosed oral candida\n\nExclusion Criteria:\n\n* allergy to clotrimazole\n* immunosuppressed\n* using other antifungi treatment\n* have an active oral ulcerative disease\n* impaired kidny or live functions",
+            "endpoints": [
+              "Microbial evidence of reduced candida infection"
+            ],
+            "sponsor": "Hadassah Medical Organization",
+            "url": "https://clinicaltrials.gov/study/NCT00835029"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02039895",
+            "title": "Helical Irradiation of Total Skin (HITS) for Cutaneous Lymphoma",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2014-01",
+            "completion_date": "2017-12",
+            "country": "Taiwan",
+            "enrollment": 10,
+            "brief_summary": "Radiation therapy, Total skin electron beam therapy (TSEBT), achieves a high response rate and is an effective treatment for cutaneous T-cell lymphoma affecting the superficial region. One the most widely used TSEBT techniques consists of six dual fields initially developed at Stanford University. However, deviations occur from the prescription dose up to 40% and the surface dose inhomogeneity as much as 90% in body areas such as the perineum and eyelid.\n\nHelical tomotherapy (HT) has advantages ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. The stage I-IV cutaneous T-cell lymphoma (CTCL) of International Society Cutaneous Lymphomas (ISCL) and U.S. Cutaneous Lymphoma Consortium (USCLC)/European Organization for Research \\& Treatment of Cancer (EORTC), patients who are candidates for TSEB by recommendation of Nati",
+            "endpoints": [
+              "Number of Participants with Serious and Non-Serious Adverse Events"
+            ],
+            "sponsor": "Far Eastern Memorial Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02039895"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "778288",
+            "title": "Superficial mycoses.",
+            "abstract": "Twenty-five years ago many of the topical remedies for superficial mycoses were irritating, toxic, or allergenic. Total x-ray depilation of the scalp was the accepted mode of therapy for tinea capitis. The introduction of topical nystatin for candidiasis and tolnaftate for dermatophytosis were major advances, but tinea capitis, onychomycosis, and chronic tinea pedis still presented problems. Soon after its introduction in 1958, griseofulvin became the definitive form of therapy for all types of dermatophytosis and played a major role in abolishing large-scale epidemics of tinea capitis in some countries. Recently, haloprogin and the imidazole derivatives, miconazole and clotrimazole, which are topically active against dermatophytes and Candida albicans, have become available. Selective indicator media for isolating dermatophytes are useful diagnostic tools, but quicker methods of diagnosis which require little interpretation are still lacking. Epidemiologic studies in Vietnam again rev",
+            "journal": "The Journal of investigative dermatology",
+            "year": "1976",
+            "authors": [
+              "Taplin D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Animals",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Candidiasis",
+              "Dermatomycoses",
+              "Female",
+              "Griseofulvin",
+              "Hair Removal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/778288/"
+          },
+          {
+            "pmid": "2632381",
+            "title": "Comparative study of miconazole and clotrimazole in superficial mycosis.",
+            "abstract": "Two hundred cases of superficial mycosis (100 dermatophytosis, 40 candidiasis and 60 pityriasis versicolor) were studied for the comparative effect of miconazole and clotrimazole. The patients were evaluated both clinically and mycologically every 2 weeks for a period of 12 weeks. In dermatophytosis, miconazole showed accelerated response (75% cleared in 6 weeks) than clotrimazole (56%). In candidiasis, both were found to be effective (80-85%) cure though clotrimazole showed slightly earlier response (40% cure in 6 weeks) against miconazole (30% cure). In pityriasis versicolor both were, effective (miconazole 99.6% and clotrimazole 86.7%).",
+            "journal": "Indian journal of dermatology",
+            "year": "1989",
+            "authors": [
+              "Saha K C"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Cutaneous",
+              "Clotrimazole",
+              "Dermatomycoses",
+              "Humans",
+              "Imidazoles",
+              "Miconazole",
+              "Nail Diseases",
+              "Time Factors",
+              "Tinea Versicolor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2632381/"
+          },
+          {
+            "pmid": "1314105",
+            "title": "Azole antifungal agents.",
+            "abstract": "The discovery of the antifungal activity of azole compounds represented an important therapeutic advance. Miconazole, ketoconazole, and fluconazole are currently commercially available, and itraconazole has undergone extensive clinical evaluation. Because of its limited activity and toxicity, miconazole has been replaced by newer agents. Ketoconazole has proven useful in therapy for superficial infections and invasive infections caused by the pathogenic fungi. Among its disadvantages are limited absorption in the absence of gastric acid and its potential for drug-drug interactions. Fluconazole is the only azole available as oral and intravenous preparations. Unlike other azoles, it is only minimally metabolized in the liver and largely excreted in the urine as active drug. It is more effective than ketoconazole against superficial candidal infections and is the drug of choice for maintenance therapy for cryptococcal meningitis in patients infected with human immunodeficiency virus. An ",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1992",
+            "authors": [
+              "Bodey G P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Azoles",
+              "Fluconazole",
+              "Humans",
+              "Itraconazole",
+              "Ketoconazole",
+              "Miconazole",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1314105/"
+          },
+          {
+            "pmid": "11519290",
+            "title": "Systemic antifungal agents.",
+            "abstract": "Anti-fungal agents are classified under two major headings, systematic and topical agents. Only systematic anti-fungal agents will be discussed in this chapter. Since the discovery in 1955, amphotericin B has been the cornerstone of anti-fungal treatment. It is active against most species of fungi. However, Candida lusitaniae, Pseudallescheria boydii, and fusarium spp have primary resistance to amphotericin B. Recently, new liposomal preparations of amphotericin B have been developed. They are less nephrotoxic. The azole family of anti-fungal includes two broad classes: the imidazoles (clotrimazote, ketoconazote, miconazole) and the triazoles (flucouazole and itracouazole). Imidazoles are still widely used for the treatment of superficial mycoses and vaginal candidiasis. The systematic triazoles are more slowly metabolized and have less effect on human synthesis than imidazoles, hence they are preferred for systemic therapy. Flucytosine is a fluorinated pyrimidine. Clinically, the prin",
+            "journal": "Indian journal of pediatrics",
+            "year": "2001",
+            "authors": [
+              "Abuhammour W",
+              "Habte-Gabr E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Antifungal Agents",
+              "Child",
+              "Child, Preschool",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11519290/"
+          },
+          {
+            "pmid": "16597199",
+            "title": "Miconazole: a historical perspective.",
+            "abstract": "Miconazole is an imidazole that has been successfully used for over 30 years for the treatment of superficial and cutaneous disease. This agent is distinguished from other azoles by possessing two mechanisms of action. The first mechanism is shared with other azoles and involves the inhibition of ergosterol synthesis. Another mechanism involves inhibition of peroxidases, which results in the accumulation of peroxide within the cell resulting in cell death. Susceptibility patterns for miconazole demonstrate that yeast fungi remain largely susceptible even in light of repeated exposures. Despite the release of newer azoles and other classes of antifungals, miconazole remains a highly prescribed treatment for vaginal candidiasis.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2006",
+            "authors": [
+              "Fothergill Annette W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Humans",
+              "Miconazole",
+              "Mycoses",
+              "Nonprescription Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16597199/"
+          },
+          {
+            "pmid": "40964723",
+            "title": "The Effect of Topical Ketoconazole and Topical Miconazole Nitrate in Modulating the Skin Microbiome and Mycobiome of Patients With Tinea Pedis.",
+            "abstract": "Tinea pedis is a type of dermatophytosis that affects the superficial layers of the skin on feet. Limited data are available on the skin microbiome composition in affected patients and its changes following topical antifungal therapy.",
+            "journal": "Mycoses",
+            "year": "2025",
+            "authors": [
+              "Tan Yen",
+              "Shao Yakun",
+              "Li Tingting",
+              "Hu Xunyi",
+              "Wang Xiaowen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Tinea Pedis",
+              "Miconazole",
+              "Antifungal Agents",
+              "Male",
+              "Female",
+              "Adult",
+              "Middle Aged",
+              "Ketoconazole",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40964723/"
+          },
+          {
+            "pmid": "8252778",
+            "title": "Tinea nigra palmaris.",
+            "abstract": "Tinea nigra is a clinically distinctive superficial mycosis of the palms, and occasionally the soles, caused by Phaeoannellomyces werneckii. A patient, resident in the United Kingdom, is described who acquired the infection in Thailand. The condition cleared after treatment with topical miconazole cream 2%.",
+            "journal": "Clinical and experimental dermatology",
+            "year": "1993",
+            "authors": [
+              "Hughes J R",
+              "Moore M K",
+              "Pembroke A C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Female",
+              "Hand Dermatoses",
+              "Humans",
+              "Miconazole",
+              "Tinea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8252778/"
+          },
+          {
+            "pmid": "1379146",
+            "title": "Superficial fungal infections of the skin. Diagnosis and current treatment recommendations.",
+            "abstract": "Superficial fungal infections are common. Most diagnoses of fungal infections of the skin can be made by physical examination, assisted by the use of a Wood's lamp, skin scrapings for microscopic examination, and fungal cultures. Dermatophyte infections are common at all ages, in both sexes, and they have a worldwide distribution. These infections include tinea capitis, tinea cruris, tinea pedis, tinea corporis, tinea manuum and tinea barbae. Tinea versicolor, caused by Malassezia furfur, and candidal infections are also common. Treatment modalities include oral and topical agents. Good personal hygiene is an important adjunct to antifungal therapy. Decisions regarding the appropriateness of therapy in a given patient must take into account the extent and location of the infection, the benefits and risks of each of the treatments, and cost. Oral therapies include griseofulvin, ketoconazole, and itraconazole. There are a large variety of topical treatments, including nystatin, selenium ",
+            "journal": "Drugs",
+            "year": "1992",
+            "authors": [
+              "Rezabek G H",
+              "Friedman A D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1379146/"
+          },
+          {
+            "pmid": "38983116",
+            "title": "Miconazole induces aneuploidy-mediated tolerance in Candida albicans that is dependent on Hsp90 and calcineurin.",
+            "abstract": "Antifungal resistance and antifungal tolerance are two distinct terms that describe different cellular responses to drugs. Antifungal resistance describes the ability of a fungus to grow above the minimal inhibitory concentration (MIC) of a drug. Antifungal tolerance describes the ability of drug susceptible strains to grow slowly at inhibitory drug concentrations. Recent studies indicate antifungal resistance and tolerance have distinct evolutionary trajectories. Superficial candidiasis bothers millions of people yearly. Miconazole has been used for topical treatment of yeast infections for over 40 years. Yet, fungal resistance to miconazole remains relatively low. Here we found different clinical isolates of Candida albicans had different profile of tolerance to miconazole, and the tolerance was modulated by physiological factors including temperature and medium composition. Exposure of non-tolerant strains with different genetic backgrounds to miconazole mainly induced development o",
+            "journal": "Frontiers in cellular and infection microbiology",
+            "year": "2024",
+            "authors": [
+              "Guo Liangsheng",
+              "Zheng Lijun",
+              "Dong Yubo",
+              "Wang Chen",
+              "Deng Huijie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Miconazole",
+              "Candida albicans",
+              "HSP90 Heat-Shock Proteins",
+              "Antifungal Agents",
+              "Drug Resistance, Fungal",
+              "Fungal Proteins",
+              "Aneuploidy",
+              "Calcineurin",
+              "Humans",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38983116/"
+          },
+          {
+            "pmid": "3510114",
+            "title": "Tioconazole. A review of its antimicrobial activity and therapeutic use in superficial mycoses.",
+            "abstract": "Tioconazole is a substituted imidazole antimicrobial agent structurally related to other drugs in this group. It has been shown to have a broad spectrum of activity in vitro against dermatophytes and yeasts, as well as against some chlamydia, trichomonads and Gram-positive bacteria. Both open and controlled clinical trials have clearly demonstrated the efficacy and safety of topical preparations of tioconazole for treating superficial dermatophyte or yeast infections of the skin and vaginal candidiasis. In comparative studies it was at least as effective as alternative imidazole antifungal drugs, and in a few trials significantly greater efficacy has been reported for tioconazole, compared with clotrimazole, miconazole, econazole and systemic ketoconazole. Preliminary studies in other clinical areas suggest tioconazole may be useful for treating onychomycosis (in a special nail formulation), napkin-rash due to Candida albicans, impetigo, and vaginal trichomoniasis, although comparative",
+            "journal": "Drugs",
+            "year": "1986",
+            "authors": [
+              "Clissold S P",
+              "Heel R C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Antifungal Agents",
+              "Candidiasis",
+              "Candidiasis, Vulvovaginal",
+              "Chemical Phenomena",
+              "Chemistry",
+              "Child",
+              "Clinical Trials as Topic",
+              "Dermatomycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3510114/"
+          },
+          {
+            "pmid": "3281821",
+            "title": "Sulconazole. A review of its antimicrobial activity and therapeutic use in superficial dermatomycoses.",
+            "abstract": "Sulconazole is a substituted imidazole antimicrobial agent structurally related to other drugs in this group. It possesses a broad spectrum of activity in vitro against dermatophytes, yeasts and some Gram-positive bacteria. The efficacy and safety of sulconazole 1% cream has been demonstrated in controlled clinical studies in patients with superficial dermatophyte or yeast infections. In these trials, sulconazole generally displayed similar efficacy to clotrimazole, econazole and miconazole, although in a few studies sulconazole produced better and/or quicker improvement than clotrimazole or miconazole in small numbers of patients with tinea pedis. Further studies in larger groups of patients are needed to confirm these encouraging preliminary findings. Thus, sulconazole is an effective and well tolerated alternative to other topical imidazole drugs in the treatment of superficial fungal infections of the skin.",
+            "journal": "Drugs",
+            "year": "1988",
+            "authors": [
+              "Benfield P",
+              "Clissold S P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3281821/"
+          },
+          {
+            "pmid": "2670516",
+            "title": "Bifonazole. A review of its antimicrobial activity and therapeutic use in superficial mycoses.",
+            "abstract": "Bifonazole is a substituted imidazole antifungal agent structurally related to other drugs in this group. It possesses a broad spectrum of activity in vitro against dermatophytes, moulds, yeasts, dimorphic fungi and some Gram-positive bacteria. Both non-comparative and comparative clinical trials have clearly demonstrated the efficacy and safety of various formulations of bifonazole 1% (cream, gel, solution and powder) applied once daily in the treatment of superficial fungal infections of the skin such as dermatophytoses, cutaneous candidiasis and pityriasis versicolor. In comparative studies bifonazole was significantly superior to placebo and at least as effective as alternative imidazole antifungal drugs including clotrimazole, econazole, miconazole, oxiconazole and sulconazole. Preliminary studies in other superficial skin and nail infections/dermatoses suggest that bifonazole may be useful for treating onychomycoses (in a combination cream; bifonazole 1% plus urea 40%), otomycose",
+            "journal": "Drugs",
+            "year": "1989",
+            "authors": [
+              "Lackner T E",
+              "Clissold S P"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Humans",
+              "Imidazoles",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2670516/"
+          },
+          {
+            "pmid": "376192",
+            "title": "A clinical double-blind trial of topical haloprogin and miconazole against superficial fungal infections.",
+            "abstract": "",
+            "journal": "Clinical and experimental dermatology",
+            "year": "1979",
+            "authors": [
+              "Clayton Y M",
+              "Gange R W",
+              "Macdonald D M",
+              "Carruthers J A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Candidiasis, Cutaneous",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Double-Blind Method",
+              "Erythrasma",
+              "Female",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/376192/"
+          },
+          {
+            "pmid": "788971",
+            "title": "A clinical double-blind trial of topical miconazole and clotrimazole against superficial fungal infections and erythrasma.",
+            "abstract": "",
+            "journal": "Clinical and experimental dermatology",
+            "year": "1976",
+            "authors": [
+              "Clayton Y M",
+              "Knight A G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Candidiasis, Cutaneous",
+              "Child",
+              "Child, Preschool",
+              "Clinical Trials as Topic",
+              "Clotrimazole",
+              "Corynebacterium Infections",
+              "Dermatomycoses",
+              "Erythrasma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/788971/"
+          },
+          {
+            "pmid": "25070654",
+            "title": "Translational suppression of HIF-1α by miconazole through the mTOR signaling pathway.",
+            "abstract": "Miconazole is an imidazole antifungal agent that has amply been used in the treatment of superficial mycosis. Preliminary data indicate that miconazole may also induce anticancer effects. As yet, however, little is known about the therapeutic efficacy of miconazole on cancer and the putative mechanism(s) involved. Here, we show that miconazole suppresses hypoxia inducible factor-1α (HIF-1α) protein translation in different cancer-derived cells.",
+            "journal": "Cellular oncology (Dordrecht, Netherlands)",
+            "year": "2014",
+            "authors": [
+              "Park Jee-Young",
+              "Jung Hui-Jung",
+              "Seo Incheol",
+              "Jha Bijay Kumar",
+              "Suh Seong-Il"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cell Line, Tumor",
+              "Eukaryotic Initiation Factor-2",
+              "Humans",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Immunoblotting",
+              "Immunoprecipitation",
+              "MCF-7 Cells",
+              "Miconazole",
+              "Reverse Transcriptase Polymerase Chain Reaction",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25070654/"
+          },
+          {
+            "pmid": "37594096",
+            "title": "Nanotechnology-based Drug Delivery of Topical Antifungal Agents.",
+            "abstract": "Among the various prominent fungal infections, superficial ones are widespread. A large number of antifungal agents and their formulations for topical use are commercially available. They have some pharmacokinetic limitations which cannot be retracted by conventional delivery systems. While nanoformulations composed of lipidic and polymeric nanoparticles have the potential to overcome the limitations of conventional systems. The broad spectrum category of antifungals i.e. azoles (ketoconazole, voriconazole, econazole, miconazole, etc.) nanoparticles have been designed, prepared and their pharmacokinetic and pharmacodynamic profile was established. This review briefly elaborates on the types of nano-based topical drug delivery systems and portrays their advantages for researchers in the related field to benefit the available antifungal therapeutics.",
+            "journal": "Pharmaceutical nanotechnology",
+            "year": "2024",
+            "authors": [
+              "Singh Sumita",
+              "Patil Vaishali M",
+              "Paliwal Sarvesh Kumar",
+              "Masand Neeraj"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Humans",
+              "Animals",
+              "Administration, Topical",
+              "Nanoparticles",
+              "Nanotechnology",
+              "Drug Delivery Systems",
+              "Drug Carriers",
+              "Nanoparticle Drug Delivery System",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37594096/"
+          },
+          {
+            "pmid": "40372034",
+            "title": "Non-synonymous ERG11 mutations in M. restricta and M. arunalokei: impact on azole susceptibility.",
+            "abstract": "Malassezia are commensal lipid-dependent yeasts and opportunistic pathogens that cause superficial mycoses and systemic infection. Azole antifungals target cell wall ergosterol synthesis and are the first line of antifungal treatment. ERG11 gene mutations and overexpression are major mechanisms conferring azole resistance and resulting in antifungal therapy failure. Malassezia restricta is found ubiquitously on healthy and diseased skin, with azole-resistant isolates described. Malassezia arunalokei is a relatively new, closely related common skin species. Ketoconazole and itraconazole were the most effective at inhibiting both species. Isolates of M. restricta and M. arunalokei from healthy skin of Singapore subjects were cultured, evaluated, and generally susceptible to common over-the-counter azoles, including clotrimazole, except for select less-susceptible strains. Some less-susceptible strains have novel or reported non-synonymous mutations in the ERG11 gene, such as R88C. The QK",
+            "journal": "Microbiology spectrum",
+            "year": "2025",
+            "authors": [
+              "Leong Cheryl",
+              "Chua Wisely",
+              "Chong Cheng-Shoong",
+              "Lee Shi Mun",
+              "Maurer-Stroh Sebastian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Malassezia",
+              "Azoles",
+              "Drug Resistance, Fungal",
+              "Microbial Sensitivity Tests",
+              "Humans",
+              "Mutation",
+              "Fungal Proteins",
+              "Skin",
+              "Dermatomycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40372034/"
+          },
+          {
+            "pmid": "16989127",
+            "title": "[Use of topical antifungal agents].",
+            "abstract": "Topical antifungal agents are not absorbed when given orally. They act by direct contact on the fungus, this type of action requires the simultaneous presence of antifungal and fungus for a minimum of time. There are a large number of compounds belonging to different families of antifungals: polyens, azoles, allylamine and morpholine and antiseptic substances. The treatment of oropharyngeal candidiasis is based on topical antifungal agents: amphotericin B or nystatin, imidazoles such as clotrimazole or miconazole. Systemic antifungal agents are indicated in case or poor compliance to topical agents, in prophylaxis of highly relapsing disease, in oesophageal candidiasis and in Candida onychomycosis. A topical antifungal agent is the first choice to treat Candida intertrigo. In any case predisposing factors should be eradicated or amended. Infection to Malassezia spp. are treated topically with azoles or selenium sulphur. Oral ketoconazole is an alternative in severe cases. Dermatophytos",
+            "journal": "Therapie",
+            "year": "2006",
+            "authors": [
+              "Dupont Bertrand"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Dermatomycoses",
+              "Humans",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16989127/"
+          },
+          {
+            "pmid": "18840006",
+            "title": "Topical fenticonazole in dermatology and gynaecology: current role in therapy.",
+            "abstract": "Fenticonazole is an imidazole derivative with a broad spectrum of antimycotic activity against dermatophytes and yeasts in in vitro and clinical studies. Fenticonazole exerts its unique antimycotic mechanism of action in the following three ways: (i) inhibition of the secretion of protease acid by Candida albicans; (ii) damage to the cytoplasmic membrane; and (iii) by blocking cytochrome oxidases and peroxidises. Fenticonazole has also been shown to exhibit antibacterial action, with a spectrum of activity that includes bacteria commonly associated with superinfected fungal skin and vaginal infections, and antiparasitic action against the protozoan Trichomonas vaginalis. Therefore, fenticonazole may be an ideal topical alternative to multi-agent treatment of mixed infections involving mycotic, bacterial, dermatophyte and/or Trichomonas spp.Open-label clinical studies show that fenticonazole, in different pharmaceutical preparations administered once or twice daily, is effective in the ",
+            "journal": "Drugs",
+            "year": "2008",
+            "authors": [
+              "Veraldi Stefano",
+              "Milani Rodolfo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Clinical Trials as Topic",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Randomized Controlled Trials as Topic",
+              "Trichomonas Vaginitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18840006/"
+          },
+          {
+            "pmid": "10439936",
+            "title": "Terbinafine. An update of its use in superficial mycoses.",
+            "abstract": "Terbinafine is an allylamine antifungal agent which has fungicidal activity against a wide variety of dermatophytes, moulds and certain dimorphic fungi, and fungistatic activity against Candida albicans. Oral terbinafine 250 mg/day is effective in the treatment of superficial dermatophyte infections such as onychomycosis, tinea pedis and tinea corporis/cruris, generally achieving mycological cure in > 80% of patients. The drug is also effective in children with tinea capitis when administered orally in the dosage range 62.5 to 250 mg/day for 4 weeks. Comparative data indicate that oral terbinafine is more effective than continuous or intermittent intraconazole in dermatophyte onychomycosis, and is as effective as itraconazole 400 mg/day in tinea pedis. The drug has shown greater efficacy than griseofulvin in dermatophyte onychomycosis, tinea pedis and tinea corporis/cruris, and comparable efficacy in children with tinea capitis. Additionally, oral terbinafine is more effective than ket",
+            "journal": "Drugs",
+            "year": "1999",
+            "authors": [
+              "McClellan K J",
+              "Wiseman L R",
+              "Markham A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans",
+              "Naphthalenes",
+              "Terbinafine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10439936/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endothrix infectious disease",
+        "txgnn_score": 0.9705283045768738,
+        "txgnn_rank": 21065,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatophytosis of scalp or beard",
+        "txgnn_score": 0.969197392463684,
+        "txgnn_rank": 21549,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34934294",
+            "title": "Beard Reconstruction.",
+            "abstract": "Loss of beard can occur due to many reasons. As beard has huge cosmetic importance, loss of beard can be psychologically traumatic. Beard can be absent from puberty, called as congenital absence of beard. Beard loss can be secondary to dermatological conditions such as nodulocystic acne. In our setting, the most common cause of loss of beard is burn injury. There are many treatment options such as surgical excision of scar, flaps Z/W plasty, and hair transplantation to reconstruct the beard. We present the follicular unit extraction (FUE) method of beard reconstruction.",
+            "journal": "International journal of trichology",
+            "year": "2021",
+            "authors": [
+              "Yaseen Ummer",
+              "Ahmed Shabir",
+              "Ahmed Muzaffar"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34934294/"
+          },
+          {
+            "pmid": "778288",
+            "title": "Superficial mycoses.",
+            "abstract": "Twenty-five years ago many of the topical remedies for superficial mycoses were irritating, toxic, or allergenic. Total x-ray depilation of the scalp was the accepted mode of therapy for tinea capitis. The introduction of topical nystatin for candidiasis and tolnaftate for dermatophytosis were major advances, but tinea capitis, onychomycosis, and chronic tinea pedis still presented problems. Soon after its introduction in 1958, griseofulvin became the definitive form of therapy for all types of dermatophytosis and played a major role in abolishing large-scale epidemics of tinea capitis in some countries. Recently, haloprogin and the imidazole derivatives, miconazole and clotrimazole, which are topically active against dermatophytes and Candida albicans, have become available. Selective indicator media for isolating dermatophytes are useful diagnostic tools, but quicker methods of diagnosis which require little interpretation are still lacking. Epidemiologic studies in Vietnam again rev",
+            "journal": "The Journal of investigative dermatology",
+            "year": "1976",
+            "authors": [
+              "Taplin D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Animals",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Candidiasis",
+              "Dermatomycoses",
+              "Female",
+              "Griseofulvin",
+              "Hair Removal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/778288/"
+          },
+          {
+            "pmid": "11519290",
+            "title": "Systemic antifungal agents.",
+            "abstract": "Anti-fungal agents are classified under two major headings, systematic and topical agents. Only systematic anti-fungal agents will be discussed in this chapter. Since the discovery in 1955, amphotericin B has been the cornerstone of anti-fungal treatment. It is active against most species of fungi. However, Candida lusitaniae, Pseudallescheria boydii, and fusarium spp have primary resistance to amphotericin B. Recently, new liposomal preparations of amphotericin B have been developed. They are less nephrotoxic. The azole family of anti-fungal includes two broad classes: the imidazoles (clotrimazote, ketoconazote, miconazole) and the triazoles (flucouazole and itracouazole). Imidazoles are still widely used for the treatment of superficial mycoses and vaginal candidiasis. The systematic triazoles are more slowly metabolized and have less effect on human synthesis than imidazoles, hence they are preferred for systemic therapy. Flucytosine is a fluorinated pyrimidine. Clinically, the prin",
+            "journal": "Indian journal of pediatrics",
+            "year": "2001",
+            "authors": [
+              "Abuhammour W",
+              "Habte-Gabr E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Antifungal Agents",
+              "Child",
+              "Child, Preschool",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11519290/"
+          },
+          {
+            "pmid": "34984089",
+            "title": "Beard and Moustache Reconstruction.",
+            "abstract": "Beard and moustache reconstruction has gained more popularity and acceptance over the last decade. The procedure is done for the correction of facial areas with hair density deficit and also for the cosmetic enhancement of pre-existing facial hair. The surgical technique includes the harvesting of grafts from the scalp by the follicular unit excision (FUE) or follicular unit transplantation (FUT) technique and then placing them in either premade slits or by stick and place method. The advancement and refinement of procedure over the years has aided in achieving the optimal aesthetic results, with minimal side effects.",
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "authors": [
+              "Dua Kapil",
+              "Verma Vandana",
+              "Dua Aman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34984089/"
+          },
+          {
+            "pmid": "38936998",
+            "title": "Facial Hair in Hair Restoration Surgery: Beard Transplantation and Beard-To-Scalp Hair Restoration.",
+            "abstract": "Restoration of the beard region has become an important component of hair restoration surgery due to increased awareness of its natural-appearing results. In the author's experience performing more than 700 primary beard hair transplants and tens of reparative procedures, key aesthetic steps include proper graft dissection so that one- and two-hair grafts contain a minimal cuff of surrounding skin, acute angulation and appropriate direction of recipient sites using the smallest possible recipient-site blades, and aesthetic design.",
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2024",
+            "authors": [
+              "Epstein Jeffrey S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hair",
+              "Alopecia",
+              "Esthetics",
+              "Scalp",
+              "Hair Follicle"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38936998/"
+          },
+          {
+            "pmid": "38106958",
+            "title": "Stress, a Brief Update.",
+            "abstract": "Stress is fundamental for health and adaptation; it is an evolutionarily conserved response that involves several systems in the organism. The study of the stress response could be traced back to the end of the nineteenth century with George Beard's or Claude Bernard's work and, from that moment on, several studies that have allowed the elucidation of its neurobiology and the consequences of suﬀering from it were consolidated. In this theoretical review, we discuss the most relevant researches to our knowledge on the study of stress response, from the concept of stress, its neurobiology, the hormonal response during stress, as well as its regulation, the eﬀects of acute and chronic stress, stress from cognition, the diﬀerent stress responses during life, as well as its relationship with diﬀerent psychiatric disorders. Taken together, the reviewed research updates the classic perspective on stress, increasing the factors that should be considered in research to explore the eﬀects of str",
+            "journal": "International journal of psychological research",
+            "year": "2023",
+            "authors": [
+              "Valencia-Florez Kenji Baruch",
+              "Sánchez-Castillo Hugo",
+              "Vázquez Priscila",
+              "Zarate Pavel",
+              "Paz Diana Berenice"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38106958/"
+          },
+          {
+            "pmid": "37510908",
+            "title": "Beard Alopecia: An Updated and Comprehensive Review of Etiologies, Presentation and Treatment.",
+            "abstract": "Facial hair is an important social and psychologic aspect of clinical appearance for men. The purpose of this review is to provide a comprehensive overview of the causes of alopecia of the beard including the prevalence, pathophysiology, clinical presentation, and treatment. In this review, we highlight more common causes of beard alopecia including alopecia areata and pseudofolliculitis barbae, infectious causes such as tinea barbae and herpes simplex folliculitis, and rare causes including dermatopathia pigmentosa reticularis and frontal fibrosing alopecia. This review serves as an important resource for clinicians when faced with patients suffering from beard alopecia.",
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "authors": [
+              "Kaiser Michael",
+              "Abdin Rama",
+              "Yaghi Marita",
+              "Gaumond Simonetta I",
+              "Jimenez Joaquin J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37510908/"
+          },
+          {
+            "pmid": "38874607",
+            "title": "[Dermatomycoses: topical and systemic antifungal treatment].",
+            "abstract": "Topical antifungals with activity against dermatophytes include amorolfine, allylamines, azoles, ciclopiroxolamine, and tolnaftate. Polyene antimycotics, such as amphotericin B and nystatin, alternatively, miconazole are suitable for yeast infections of the skin and mucous membranes. For severe yeast infections of the skin and mucous membranes, oral triazole antimycotics, such as fluconazole and itraconazole, are used. Pityriasis versicolor is treated topically with antimycotics, and in severe forms also orally with itraconazole, alternatively fluconazole. Terbinafine, itraconazole and fluconazole are currently available for the systemic treatment of severe dermatophytoses, tinea capitis and onychomycosis. In addition to proven therapeutic regimens, unapproved (off-label use) intermittent low-dose therapies are increasingly being used, particularly in onychomycosis. Oral antimycotics for the treatment of tinea capitis and onychomycosis in children and adolescents can only be used off-l",
+            "journal": "Dermatologie (Heidelberg, Germany)",
+            "year": "2024",
+            "authors": [
+              "Nenoff Pietro",
+              "Klonowski Esther",
+              "Uhrlaß Silke",
+              "Schaller Martin",
+              "Paasch Uwe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Administration, Topical",
+              "Administration, Oral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38874607/"
+          },
+          {
+            "pmid": "32473165",
+            "title": "Long-lived zebrafish Rohon-Beard cells.",
+            "abstract": "During normal development of the nervous system, extensive neuronal proliferation as well as death occurs. The extent of development death varies considerably between neuronal populations from little to almost 100%. Early born somatosensory neurons, known as Rohon-Beard cells, have served as an example of neurons that disappear during early developmental stages, presumably as their function is taken over by later developing dorsal root ganglion neurons. However, recent studies have raised questions about the extent to which zebrafish Rohon-Beard cells die during embryogenesis. While Rohon-Beard cells have distinguishing morphological features during embryonic stages development, they subsequently undergo substantial changes in their shape, size and position that hinder their unambiguous identification at later stages. To overcome this obstacle, we identify Rohon-Beard cells at one day, and using a combination of mosaic and stable transgenic labeling and repeated observation, follow the",
+            "journal": "Developmental biology",
+            "year": "2020",
+            "authors": [
+              "Williams Kristina",
+              "Ribera Angeles B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Embryo, Nonmammalian",
+              "Ganglia, Spinal",
+              "Longevity",
+              "Neurons",
+              "Somatosensory Cortex",
+              "Zebrafish"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32473165/"
+          },
+          {
+            "pmid": "17232589",
+            "title": "The Germ-Cells.",
+            "abstract": "",
+            "journal": "Journal of anatomy and physiology",
+            "year": "1903",
+            "authors": [
+              "Beard J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17232589/"
+          },
+          {
+            "pmid": "39492201",
+            "title": "Hair Restoration in the Ethnic Patient.",
+            "abstract": "Hair restoration surgery is a popular procedure among patients of all ethnic groups. Whether performing hair procedures to treat male and female pattern hair loss, or to restore eyebrows and beards, or to shorten overly high hairlines, the surgeon must consider differences in esthetic ideals, hair characteristics, and healing properties to achieve optimal results.",
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2022",
+            "authors": [
+              "Epstein Jeffrey S",
+              "Epstein Gorana Kuka",
+              "Abdul Al-Awady Abdurrahman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39492201/"
+          },
+          {
+            "pmid": "40642854",
+            "title": "Beard Length and the Efficacy of an Aviator Oxygen Mask.",
+            "abstract": "Facial hair is prohibited for most airline pilots because of the widespread belief that the seal on oxygen masks might be rendered ineffective, preventing aircrew from performing their duties during emergencies.",
+            "journal": "Aerospace medicine and human performance",
+            "year": "2025",
+            "authors": [
+              "French John",
+              "Wagner Scott D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Oximetry",
+              "Adult",
+              "Male",
+              "Aerospace Medicine",
+              "Oxygen Saturation",
+              "Hypoxia",
+              "Masks",
+              "Young Adult",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40642854/"
+          },
+          {
+            "pmid": "32716531",
+            "title": "Clinical Issues-August 2020.",
+            "abstract": "Pneumatic tourniquet education and documentation Key words: pneumatic tourniquet, documentation, competency verification, tourniquet cuff. Creating a safe environment for surgical patients with latex allergies or sensitivities Key words: natural rubber latex, latex allergy, latex sensitivity, latex reaction, anaphylaxis. Covering patients' beards Key words: facial hair, surgical site infection (SSI), beard, sterile field. Informed consent requirements Key words: informed consent, witness, legal representative, signature. Promoting well-being through mindfulness Key words: conscious leadership, mindfulness, well-being, work environment, positive focus.",
+            "journal": "AORN journal",
+            "year": "2020",
+            "authors": [
+              "Anderson Mary Alice"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32716531/"
+          },
+          {
+            "pmid": "32541711",
+            "title": "Beards and masks.",
+            "abstract": "",
+            "journal": "British dental journal",
+            "year": "2020",
+            "authors": [
+              "Matharu K"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "COVID-19",
+              "Face",
+              "Hair",
+              "Humans",
+              "Masks"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32541711/"
+          },
+          {
+            "pmid": "37251589",
+            "title": "The role of recognition error in the stability of green-beard genes.",
+            "abstract": "The empirical examples of the green-beard genes, once a conundrum of evolutionary biology, are accumulating, while theoretical analyses of this topic are occasional compared to those concerning (narrow-sense) kin selection. In particular, the recognition error of the green-beard effect that the cooperator fails to accurately recognize the other cooperators or defectors is readily found in numerous green-beard genes. To our knowledge, however, no model up to date has taken that effect into account. In this article, we investigated the effect of recognition error on the fitness of the green-beard gene. By employing theories of evolutionary games, our mathematical model predicts that the fitness of the green-beard gene is frequency dependent (frequency of the green-beard gene), which was corroborated by experiments performed with yeast FLO1. The experiment also shows that the cells with the green-beard gene (FLO1) are sturdier under severe stress. We conclude that the low recognition erro",
+            "journal": "Evolution letters",
+            "year": "2023",
+            "authors": [
+              "Choi Jibeom",
+              "Lee Seoeun",
+              "Kim Hyun",
+              "Park Junpyo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37251589/"
+          },
+          {
+            "pmid": "26942473",
+            "title": "To Beard or Not to Beard? Bacterial Shedding Among Surgeons.",
+            "abstract": "Beards in the operating room are controversial because of their potential to retain and transmit pathogenic organisms. Many bearded orthopedic surgeons choose to wear nonsterile hoods in addition to surgical masks to decrease contamination of the operative field. The goal of this study was to determine whether nonsterile surgical hoods reduce the risk of bacterial shedding posed by beards. Bearded (n=10) and clean-shaven (n=10) subjects completed 3 sets of standardized facial motions, each lasting 90 seconds and performed over blood agar plates, while unmasked, masked, and masked and hooded. The plates were cultured for 48 hours under aerobic and anaerobic conditions. Colony-forming units (CFUs) were quantified, expanded, and identified. Overall, the addition of surgical hoods did not decrease the total number of anaerobic and aerobic CFUs isolated per subject, with a mean of 1.1 CFUs while hooded compared with 1.4 CFUs with the mask alone (P=.5). Unmasked subjects shed a mean of 6.5 C",
+            "journal": "Orthopedics",
+            "year": "2016",
+            "authors": [
+              "Parry Joshua Alan",
+              "Karau Melissa J",
+              "Aho Johnathon M",
+              "Taunton Michael",
+              "Patel Robin"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bacteria",
+              "Bacterial Shedding",
+              "Colony Count, Microbial",
+              "Face",
+              "Hair",
+              "Humans",
+              "Male",
+              "Operating Rooms",
+              "Surgeons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26942473/"
+          },
+          {
+            "pmid": "25426178",
+            "title": "Dengue fever: a Wikipedia clinical review.",
+            "abstract": "Dengue fever, also known as breakbone fever, is a mosquito-borne infectious tropical disease caused by the dengue virus. Symptoms include fever, headache, muscle and joint pains, and a characteristic skin rash that is similar to measles. In a small proportion of cases, the disease develops into life-threatening dengue hemorrhagic fever, which results in bleeding, thrombocytopenia, and leakage of blood plasma, or into dengue shock syndrome, in which dangerously low blood pressure occurs. Treatment of acute dengue fever is supportive, with either oral or intravenous rehydration for mild or moderate disease and use of intravenous fluids and blood transfusion for more severe cases. Along with attempts to eliminate the mosquito vector, work is ongoing to develop a vaccine and medications targeted directly at the virus.",
+            "journal": "Open medicine : a peer-reviewed, independent, open-access journal",
+            "year": "2014",
+            "authors": [
+              "Heilman James M",
+              "De Wolff Jacob",
+              "Beards Graham M",
+              "Basden Brian J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dengue",
+              "Dengue Vaccines",
+              "Fluid Therapy",
+              "Humans",
+              "Insect Vectors",
+              "Mosquito Control"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25426178/"
+          },
+          {
+            "pmid": "34146585",
+            "title": "Quantitative analysis of mitochondrial ATP synthesis.",
+            "abstract": "We present a computational framework for analyzing and simulating mitochondrial ATP synthesis using basic thermodynamic and kinetic principles. The framework invokes detailed descriptions of the thermodynamic driving forces associated with the processes of the electron transport chain, mitochondrial ATP synthetase, and phosphate and adenine nucleotide transporters. Assembling models of these discrete processes into an integrated model of mitochondrial ATP synthesis, we illustrate how to analyze and simulate in vitro respirometry experiments and how models identified from in vitro experimental data effectively explain cardiac respiratory control in vivo. Computer codes for these analyses are embedded as Python scripts in a Jupyter Book to facilitate easy adoption and modification of the concepts developed here. This accessible framework may also prove useful in supporting educational applications. All source codes are available on at https://beards-lab.github.io/QAMAS_book/.",
+            "journal": "Mathematical biosciences",
+            "year": "2021",
+            "authors": [
+              "Randall E Benjamin",
+              "Hock Marcus",
+              "Lopez Rachel",
+              "Marzban Bahador",
+              "Marshall Collin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphate",
+              "Computer Simulation",
+              "Kinetics",
+              "Mitochondria",
+              "Models, Biological",
+              "Thermodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34146585/"
+          },
+          {
+            "pmid": "34984086",
+            "title": "Using Nonscalp Hair in Scalp Hair Restoration-Theory and Execution.",
+            "abstract": "Harvesting of beard and body hair follicles for transplantation can be an effective form of treatment for appropriate patients. These patients may have had prior scalp transplantation and require repair but do not have sufficient scalp donor follicles remaining. Other patients will have these hairs mixed with scalp hairs to produce a greater density of hair on the bald scalp. Follicular unit excision (FUE) is preferred for body and beard follicle harvesting. Not all body hair is suitable for transplantation. Only hairs that are similar in appearance and behavior to scalp hair are suitable for transplantation to the scalp. The best nonscalp sources are the beard and anterior torso. Hairs from other body sites may be used for transplantation to the eyebrows. The standard techniques of FUE harvesting and anesthesia must be modified from those used in scalp harvesting to be safe and effective. With proper patient selection and technique, a significant cosmetic benefit can be achieved from ",
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "authors": [
+              "True Robert H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34984086/"
+          },
+          {
+            "pmid": "38530738",
+            "title": "Multi-Label Conditional Generation From Pre-Trained Models.",
+            "abstract": "Although modern generative models achieve excellent quality in a variety of tasks, they often lack the essential ability to generate examples with requested properties, such as the age of the person in the photo or the weight of the generated molecule. To overcome these limitations we propose PluGeN (Plugin Generative Network), a simple yet effective generative technique that can be used as a plugin for pre-trained generative models. The idea behind our approach is to transform the entangled latent representation using a flow-based module into a multi-dimensional space where the values of each attribute are modeled as an independent one-dimensional distribution. In consequence, PluGeN can generate new samples with desired attributes as well as manipulate labeled attributes of existing examples. Due to the disentangling of the latent representation, we are even able to generate samples with rare or unseen combinations of attributes in the dataset, such as a young person with gray hair, ",
+            "journal": "IEEE transactions on pattern analysis and machine intelligence",
+            "year": "2024",
+            "authors": [
+              "Proszewska Magdalena",
+              "Wolczyk Maciej",
+              "Zieba Maciej",
+              "Wielopolski Patryk",
+              "Maziarka Lukasz"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38530738/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blastomycosis",
+        "txgnn_score": 0.9517348408699036,
+        "txgnn_rank": 26301,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "8213986",
+            "title": "Subconjunctival miconazole and anterior segment blastomycosis.",
+            "abstract": "",
+            "journal": "American journal of ophthalmology",
+            "year": "1993",
+            "authors": [
+              "Mason J O",
+              "Parker J S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Anterior Eye Segment",
+              "Blastomycosis",
+              "Conjunctiva",
+              "Eye Infections, Fungal",
+              "Humans",
+              "Injections",
+              "Male",
+              "Miconazole",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8213986/"
+          },
+          {
+            "pmid": "116580",
+            "title": "Blastomycosis.",
+            "abstract": "",
+            "journal": "The American review of respiratory disease",
+            "year": "1979",
+            "authors": [
+              "Sarosi G A",
+              "Davies S F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amphotericin B",
+              "Antibodies, Fungal",
+              "Blastomycosis",
+              "Child",
+              "Complement Fixation Tests",
+              "Disease Outbreaks",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/116580/"
+          },
+          {
+            "pmid": "2670369",
+            "title": "Blastomycosis.",
+            "abstract": "Blastomycosis is an uncommon, sometimes self-healing, sometimes fatal, infectious disease caused by the fungus Blastomyces dermatitidis. Although amphotericin B is still considered the drug of choice, ketoconazole and several other imidazole drugs--miconazole, itraconazole, econazole--have shown promise in the treatment of blastomycosis.",
+            "journal": "Dermatologic clinics",
+            "year": "1989",
+            "authors": [
+              "Steck W D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Blastomyces",
+              "Blastomycosis",
+              "Cells, Cultured",
+              "Diagnosis, Differential",
+              "Disease Outbreaks",
+              "Female",
+              "Humans",
+              "Ketoconazole",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2670369/"
+          },
+          {
+            "pmid": "8075276",
+            "title": "Intraocular blastomycosis: case report and review.",
+            "abstract": "Intraocular infection due to Blastomyces dermatitidis is rare, and only 10 cases have previously been reported. Manifestations of ocular blastomycosis can range from keratitis to panophthalmitis, and it is often difficult to diagnose ocular blastomycosis early. We report the case of a 45-year-old man who had disseminated blastomycosis that involved the lungs, skin, and ocular uvea and who was successfully treated with systemic and local antifungal therapy. We also review the literature describing the spectrum of clinical findings due to intraocular blastomycosis.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1994",
+            "authors": [
+              "Lopez R",
+              "Mason J O",
+              "Parker J S",
+              "Pappas P G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Betamethasone",
+              "Blastomycosis",
+              "Dermatomycoses",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Iritis",
+              "Lung Diseases, Fungal",
+              "Male",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8075276/"
+          },
+          {
+            "pmid": "9987539",
+            "title": "Antifungal agents. Part II. The azoles.",
+            "abstract": "Before 1978, amphotericin B and flucytosine were the only drugs available for the treatment of systemic fungal infections. The imidazoles, miconazole and ketoconazole, were introduced during the next 3 years. Intravenously administered miconazole served a limited therapeutic role and is no longer available. Orally administered ketoconazole, an inexpensive, effective, and convenient option for treating mucosal candidiasis, was widely used for a decade because it was the only available oral therapy for systemic fungal infections. During the 1990s, use of ketoconazole diminished because of the release of the triazoles--fluconazole and itraconazole. Fluconazole is less toxic and has several pharmacologic advantages over ketoconazole, including penetration into the cerebrospinal fluid. In addition, it has superior efficacy against systemic candidiasis, cryptococcosis, and coccidioidomycosis. Despite a myriad of drug interactions and less favorable pharmacologic and toxicity profiles in comp",
+            "journal": "Mayo Clinic proceedings",
+            "year": "1999",
+            "authors": [
+              "Terrell C L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Antifungal Agents",
+              "Azoles",
+              "Drug Interactions",
+              "Fluconazole",
+              "Humans",
+              "Immunocompromised Host",
+              "Itraconazole",
+              "Ketoconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9987539/"
+          },
+          {
+            "pmid": "7158918",
+            "title": "[Antifungal agents in otorhinolaryngology].",
+            "abstract": "Numerous progresses are realized in the chemotherapy of mycoses, particularly in the field of deep mycoses due to 3 categories of systemic antifungal agents: polyenes (oral nystatin, oral and intravenous amphotericin B), 5-fluorocytosine (oral and intravenous) and imidazole derivatives (oral and intravenous miconazole, oral ketoconazole). The old drugs as nystatin and amphotericin B per os continue to have a remarkable effect in oro-pharyngeal candidosis, chiefly after sufficient local contact with the mucos membranes; topical preparation are effective in fungal O.R.L. localizations (aspergillar or candidal otomycoses, glossitis). IV amphotericin B is indicated in naso-orbital-cerebral mucor mycosis, nasosinusal aspergillosis, candidosis, entomophthoromycoses and particularly systemic mycoses (histoplasmosis, blastomycosis, coccidioidomycosis) in spite of severe toxicity. 5-fluorocytosine (100-200 mg/kg) has a limited spectrum to Candida, Cryptococcus neoformans, Aspergillus fumigatus ",
+            "journal": "Annales d'oto-laryngologie et de chirurgie cervico faciale : bulletin de la Societe d'oto-laryngologie des hopitaux de Paris",
+            "year": "1982",
+            "authors": [
+              "Dupont B",
+              "Drouhet E"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Drug Therapy, Combination",
+              "Flucytosine",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Otorhinolaryngologic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7158918/"
+          },
+          {
+            "pmid": "7967767",
+            "title": "Therapy for fungal infections.",
+            "abstract": "In the past, few pharmacologic agents were available for management of fungal disease. After the early introduction of amphotericin B and miconazole, the more recent advent of several new antifungal agents, including ketoconazole, fluconazole, and itraconazole has expanded the options for treatment of fungal infections. The dramatic increase in number of immunocompromised patients--both those with acquired immunodeficiency syndrome (AIDS) and those with immunosuppression for other reasons, such as organ transplantation--emphasizes the importance of therapeutic strategies for combating systemic mycoses. In this article, we review our personal recommendations for treating histoplasmosis, blastomycosis, coccidioidomycosis, and cryptococcosis, along with other less common fungal infections, and discuss the efficacy and toxic effects of the various antifungal drugs.",
+            "journal": "Mayo Clinic proceedings",
+            "year": "1994",
+            "authors": [
+              "Sarosi G A",
+              "Davies S F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Blastomycosis",
+              "Coccidioidomycosis",
+              "Cryptococcosis",
+              "Histoplasmosis",
+              "Humans",
+              "Mycoses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7967767/"
+          },
+          {
+            "pmid": "505562",
+            "title": "Blastomycosis treated successfully with miconazole.",
+            "abstract": "A case of disseminated blastomycosis is described, which was treated with miconazole orally. A rapid cure was achieved without side effects. Miconazole seems to be effective and safe in the treatment of blastomycosis.",
+            "journal": "Tropical and geographical medicine",
+            "year": "1979",
+            "authors": [
+              "Bleeker P A",
+              "Haanen C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blastomycosis",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/505562/"
+          },
+          {
+            "pmid": "122643",
+            "title": "Results of miconazole therapy in twenty-eight patients with paracoccidioidomycosis (South American blastomycosis).",
+            "abstract": "Results are presented of treatment with miconazole, orally and intravenously, in patients with paracoccidioidomycosis. Twenty-eight male patients aged from 34 to 66 years and exhibiting various clinical forms of the disease were studied. Twenty-five came from endemic areas in north east Argentina (Chaco, Formosa, Misiones, Corrientes and northern Santa Fe) and the remaining three from Paraguay. Twenty patients were engaged in agricultural work or at woodmills. single or multiple lesions were observed in 24 cases. Thirteen were suffering from infection of the larynx and in two of them a tracheotomy was necessary. Twenty-three showed pulmonary lesions on X-rays. Twelve had ganglionic lesions, eight had cutaneous lesions and one patient had osteoarthritis of the knee. One patient had hepatomegaly which was unrelated to chronic alcoholism. Fourteen patients had received previous treatments such as sulphonamides and amphotericin B (7 cases); sulphonamides (3), sulphonamides and the combinat",
+            "journal": "Proceedings of the Royal Society of Medicine",
+            "year": "1977",
+            "authors": [
+              "Negroni R",
+              "Rubinstein P",
+              "Herrmann A",
+              "Gimenez A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Drug Administration Schedule",
+              "Humans",
+              "Injections, Intravenous",
+              "Male",
+              "Miconazole",
+              "Middle Aged",
+              "Paracoccidioidomycosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/122643/"
+          },
+          {
+            "pmid": "3521177",
+            "title": "Cutaneous and mucosal manifestations of the deep mycotic infections.",
+            "abstract": "The deep mycoses are increasing in importance both as opportunistic infections and from exposure in geographically defined areas. Diagnosis may be difficult in both groups. Mucosal involvement may be non-specific (e.g., in disseminated candidiasis) or highly predictive of disseminated disease (e.g., histoplasmosis, blastomycosis and paracoccidioidomycosis). Skin involvement is generally uncommon in disseminated aspergillosis, mucormycosis and cryptococcosis but is more common in candidemia and coccidioidomycosis. Manifestations of mucosal and cutaneous lesions of the deep mycoses are reviewed and the need for an aggressive diagnostic approach stressed. Culture is more specific than histopathologic examination alone but the latter may have to suffice in some cases. Control of underlying disease and administration of amphotericin B remain the mainstays of therapy. Ketoconazole is being evaluated as an alternative in therapy of some deep mycoses.",
+            "journal": "Acta dermato-venereologica. Supplementum",
+            "year": "1986",
+            "authors": [
+              "Meyer R D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Aspergillosis",
+              "Blastomycosis",
+              "Candidiasis",
+              "Candidiasis, Cutaneous",
+              "Coccidioidomycosis",
+              "Cryptococcosis",
+              "Dermatomycoses",
+              "Flucytosine",
+              "Histoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3521177/"
+          },
+          {
+            "pmid": "122646",
+            "title": "Treatment of South American blastomycosis (paracoccidioidomycosis) with miconazole by the oral route: an on-going study.",
+            "abstract": "Results are presented from 12 patients of both sexes, whose ages range from 34 to 65 years, observed over a period of 16 months and receiving miconazole treatment for South-American blastomycosis. Ten of them were being treated for the first time and the remaining 2 presented relapses after treatment with other chemotherapeutic agents. The blastomycotic lesions were localized in skin, mucosa, lung and lymphatics. The drug was administered orally, at a dosage of 1 g three times daily. One relapsing patient had his first daily oral dose replaced by an intravenous dose of 200 mg of miconazole diluted in 250 ml of glucose solution during the initial four weeks. The criterion for diagnosis was finding of the fungus in sputum and/or in the material collected through scrapings or biopsy of the lesions. All patients were treated in hospital until the cure was apparent, clinical examinations being conducted weekly and bi-weekly. Bi-weekly laboratory examinations were performed to evaluate the p",
+            "journal": "Proceedings of the Royal Society of Medicine",
+            "year": "1977",
+            "authors": [
+              "Lima N S",
+              "Teixeira G",
+              "Miranda J",
+              "do Valle A C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Lung Diseases, Fungal",
+              "Lymphatic Diseases",
+              "Male",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/122646/"
+          },
+          {
+            "pmid": "6255542",
+            "title": "Chemotherapy for the systemic mycoses: the prelude to ketoconazole.",
+            "abstract": "Successful chemotherapy of the systemic mycoses now covers a span of more than 75 years and dates to the first reported use of potassium iodide for treatment of sporotrichosis. The second drug with efficacy was stilbamidine, and its currently available successor, hydroxystilbamidine isethionate, still has a role in therapy of some patients with nonprogressive blastomycosis of the skin. The introduction in 1957 of amphotericin B marked the first time there was an effective agent for such diseases as cryptococcosis, histoplasmosis, candidosis, and with lesser success, for coccidioidomycosis, mucormycosis, and aspergillosis. However, amphotericin B is nephrotoxic, depresses bone marrow (especially erythropoeisis), and, if patients are not monitored and controlled closely, the drug produces hypokalemic muscle weakness and cardiotoxicity. Flucytosine has a narrower spectrum of activity (cryptococcosis, candidosis, cladosporiosis, and chromomycosis) but a preferable route of administration (",
+            "journal": "Reviews of infectious diseases",
+            "year": "1980",
+            "authors": [
+              "Utz J P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Animals",
+              "Antifungal Agents",
+              "Blastomycosis",
+              "Candida",
+              "Cladosporium",
+              "Coccidioidomycosis",
+              "Cryptococcosis",
+              "Flucytosine",
+              "Histoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6255542/"
+          },
+          {
+            "pmid": "3964881",
+            "title": "Do the imidazoles have a role in the management of genitourinary fungal infections?",
+            "abstract": "The imidazoles have demonstrated antifungal activity against a number of fungi that are pathogenic for man. Effective clinical use has been demonstrated in patients with cutaneous and systemic candidiasis, aspergillosis, blastomycosis, coccidioidomycosis, cryptococcus and systemic candidiasis, aspergillosis, blastomycosis, coccidioidomycosis, cryptococcus and histoplasmosis. We report our experience with the oral imidazole agent ketoconazole in the management of 8 patients with significant urinary candidiasis as judged by elevated urinary candidal counts (greater than 15,000/ml.). Only 4 of the 8 patients had resolution of candiduria with ketoconazole therapy. Intravenous miconazole, another imidazole, has been available for treatment of systemic and genitourinary fungal infections. Limited success (50 per cent) with intravenous miconazole has been noted in the treatment of systemic candidiasis with urinary involvement. Miconazole also has been used as a systemic and local irrigant in ",
+            "journal": "The Journal of urology",
+            "year": "1985",
+            "authors": [
+              "Wise G J",
+              "Goldberg P E",
+              "Kozinn P J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Candidiasis",
+              "Clotrimazole",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Ketoconazole",
+              "Male",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3964881/"
+          },
+          {
+            "pmid": "6303713",
+            "title": "Current therapy of pulmonary and disseminated fungal diseases.",
+            "abstract": "",
+            "journal": "Chest",
+            "year": "1983",
+            "authors": [
+              "Stamm A M",
+              "Dismukes W E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Aspergillosis",
+              "Blastomycosis",
+              "Candidiasis",
+              "Chromoblastomycosis",
+              "Coccidioidomycosis",
+              "Cryptococcosis",
+              "Flucytosine",
+              "Histoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6303713/"
+          },
+          {
+            "pmid": "697188",
+            "title": "Miconazole treatment of relapsed pulmonary blastomycosis.",
+            "abstract": "Two patients with second relapses of pulmonary blastomycosis after successful treatments with adequate doses of amphotericin B were retreated with miconazole. One patient had experienced an acute intrabronchial spread of disease to the contralateral lung before miconazole therapy. Marked clinical and roentgenographic improvement occurred with treatment, followed by mycologic relapse 1 month later. The other patient sustained a more indolent relapse of disease. A favorable response to treatment with miconazole was demonstrated by improvement in abnormalities noted on a chest roentgenogram and a [67]gallium-citrate scan.",
+            "journal": "The American review of respiratory disease",
+            "year": "1978",
+            "authors": [
+              "Rose H D",
+              "Varkey B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Blastomycosis",
+              "Drug Evaluation",
+              "Follow-Up Studies",
+              "Gallium Radioisotopes",
+              "Humans",
+              "Imidazoles",
+              "Lung",
+              "Lung Diseases, Fungal",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/697188/"
+          },
+          {
+            "pmid": "454066",
+            "title": "Intravenous miconazole therapy of mycotic infections.",
+            "abstract": "The efficacy and safety of intravenously administered miconazole nitrate was examined in eight patients with the following infections: cutaneous North American blastomycosis (one), extensive dermatophytosis(one), and chronic mucocutaneous candidiasis (six). Mycologic assessment included direct examination for fungal elements, fungal culture, and histopathology. Laboratory evaluations were performed before and at regular intervals during the study. The total miconazole nitrate dosage, which was administered over a seven- to 32-day period, ranged from 4.0 to 46.8 g. Follow-up examinations extended from two to 15 months. Excellent results were obtained in five patients and fair results in three. No renal, cardiac, hepatic, or hematopoietic toxicity was observed. Other side effects, however, necessitated premature cessation of therapy in four patients. Overall, intravenously administered miconazole is an effective antifungal agent for these cutaneous infections.",
+            "journal": "Archives of internal medicine",
+            "year": "1979",
+            "authors": [
+              "Wade T R",
+              "Jones H E",
+              "Chanda J J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Injections, Intravenous",
+              "Male",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/454066/"
+          },
+          {
+            "pmid": "686247",
+            "title": "Paracoccidioidomycosis (South American blastomycosis): treatment with miconazole.",
+            "abstract": "Six patients with multisystem paracoccidioidomycosis proven by serology and culture or smear were treated with relatively brief courses of intravenous miconazole. Two had relapsed following prior therapy; 6 had active pulmonary, 4 laryngeal, 2 oropharyngeal, 2 lymphoid, and 1 abdominal disease. Paracoccidioides brasiliensis was highly susceptible to miconazole in vitro; minimal inhibitory concentration was less than or equal to 0.001 microgram/ml. Clinical examination showed a prompt and objective response in all patients, confirmed by smear or culture and X-rays; in 4/6 serological response was shown. Side effects were minor. Two patients relapsed 3--5 mo after therapy; another had a rise in antibody 6 mo after therapy and was given maintenance oral sulfa. One remains in remission 7 mo after treatment; two given oral sulfa after response to miconazole remain in remission 4--6 mo after treatment. Paracoccidioidomycosis responds well to miconazole, but longer courses may be needed to pr",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "1978",
+            "authors": [
+              "Stevens D A",
+              "Restrepo-M A",
+              "Cortés A",
+              "Betancourt J",
+              "Galgiani J N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Miconazole",
+              "Middle Aged",
+              "Paracoccidioidomycosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/686247/"
+          },
+          {
+            "pmid": "6339832",
+            "title": "Antifungal agents used for deep-seated mycotic infections.",
+            "abstract": "The main antifungal agents used for deep-seated mycotic infections are the broad-spectrum antifungal drug amphotericin B, the narrow-spectrum agent flucytosine, and the newer broad-spectrum agents miconazole and ketoconazole. Amphotericin B remains the cornerstone of antifungal therapy. For the treatment of cryptococcal meningitis, the current recommendation is for the combined use of amphotericin B and flucytosine. 2-Hydroxystilbamidine is used only in indolent cases of blastomycosis; however, this condition is usually treated with amphotericin B. Clinical experience with the newer agents is limited. Not all patients from whom fungal agents have been isolated require treatment; the extent of the fungal infection should be determined, when possible, for evaluation of the need for treatment.",
+            "journal": "Mayo Clinic proceedings",
+            "year": "1983",
+            "authors": [
+              "Hermans P E",
+              "Keys T F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amphotericin B",
+              "Antifungal Agents",
+              "Candidiasis",
+              "Cryptococcosis",
+              "Flucytosine",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Stilbamidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6339832/"
+          },
+          {
+            "pmid": "751171",
+            "title": "Treatment of South-American blastomycosis (paracoccidioidomycosis) with orally administered miconazole.",
+            "abstract": "",
+            "journal": "Revista do Instituto de Medicina Tropical de Sao Paulo",
+            "year": "1978",
+            "authors": [
+              "Lima N S",
+              "Teixeira G A",
+              "Miranda J L",
+              "do Valle A C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Diarrhea",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Miconazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/751171/"
+          },
+          {
+            "pmid": "3773683",
+            "title": "[Deep mycoses rarely described].",
+            "abstract": "Beside deep mycoses very well known: histoplasmosis, candidosis, cryptococcosis, there are other mycoses less frequently described. Some of them are endemic in some countries: South American blastomycosis in Brazil, coccidioidomycosis in California; some others are cosmopolitan and may affect everyone: sporotrichosis, or may affect only immunodeficient persons: mucormycosis. They do not spare Africa, we may encounter basidiobolomycosis, rhinophycomycosis, dermatophytosis, sporotrichosis and, more recently reported, rhinosporidiosis. Important therapeutic progresses have been accomplished with amphotericin B and with antifungus imidazole compounds (miconazole and ketoconazole). Surgical intervention is sometime recommended in chromomycosis and rhinosporidiosis.",
+            "journal": "Medecine tropicale : revue du Corps de sante colonial",
+            "year": "1986",
+            "authors": [
+              "Charles D"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Blastomycosis",
+              "Coccidioidomycosis",
+              "Dermatomycoses",
+              "Humans",
+              "Middle Aged",
+              "Mucormycosis",
+              "Mycoses",
+              "Rhinosporidiosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3773683/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01110",
+    "name": "Miconazole",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Miconazole"
+      },
+      "queried_at": "2026-03-09T21:27:10.689466",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Miconazole"
+      },
+      "queried_at": "2026-03-09T21:27:13.682911",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-09T21:27:17.118577",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-09T21:27:24.682538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-09T21:27:28.234260",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-09T21:27:28.879542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-09T21:27:34.842333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "gastrin secretion abnormality"
+      },
+      "queried_at": "2026-03-09T21:27:36.742211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T21:27:38.300750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T21:27:42.723579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T21:27:43.432424",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T21:27:44.345870",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T21:27:48.501867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T21:27:52.180676",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T21:27:54.949709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T21:27:59.503635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T21:28:01.033179",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T21:28:02.977500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T21:28:09.643299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T21:28:15.048497",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T21:28:18.032576",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T21:28:22.476470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T21:28:30.427894",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T21:28:31.270185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T21:28:38.539955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T21:28:39.849609",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "queried_at": "2026-03-09T21:28:41.094214",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "queried_at": "2026-03-09T21:28:46.041986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "queried_at": "2026-03-09T21:28:55.604507",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "blastomycosis"
+      },
+      "queried_at": "2026-03-09T21:28:56.586744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "blastomycosis"
+      },
+      "queried_at": "2026-03-09T21:29:01.722804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Miconazole",
+        "disease": "blastomycosis"
+      },
+      "queried_at": "2026-03-09T21:29:06.397307",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T21:29:06.418503"
+  }
+}

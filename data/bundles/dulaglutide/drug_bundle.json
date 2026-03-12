@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Dulaglutide",
+    "drugbank_id": "DB09045",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.970511794090271,
+        "txgnn_rank": 21071,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.9704685807228088,
+        "txgnn_rank": 21096,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.9704685807228088,
+        "txgnn_rank": 21095,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9681452512741088,
+        "txgnn_rank": 21875,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.9561887979507446,
+        "txgnn_rank": 25170,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.95551735162735,
+        "txgnn_rank": 25341,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9537410140037536,
+        "txgnn_rank": 25789,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9529061317443848,
+        "txgnn_rank": 25997,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.9498966932296752,
+        "txgnn_rank": 26721,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.6956578493118286,
+        "txgnn_rank": 45476,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09045",
+    "name": "Dulaglutide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dulaglutide"
+      },
+      "queried_at": "2026-03-10T08:32:31.535767",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dulaglutide"
+      },
+      "queried_at": "2026-03-10T08:32:32.814068",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T08:32:33.425946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T08:32:37.233687",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T08:32:38.642892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:40.119963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:44.022433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:45.099104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:45.987765",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:50.545328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:51.266595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:51.888210",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:55.419608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T08:32:56.224214",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:32:56.975728",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:00.818107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:01.482925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T08:33:02.130523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T08:33:06.616472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T08:33:07.318001",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:07.865599",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:11.587167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:12.395239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T08:33:13.373133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T08:33:16.774936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T08:33:17.795272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:18.495394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:22.682008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:33:23.743325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T08:33:24.390083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T08:33:28.693870",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dulaglutide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T08:33:30.469877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:33:30.472624"
+  }
+}

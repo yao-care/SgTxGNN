@@ -1,0 +1,922 @@
+{
+  "drug": {
+    "inn": "Xylometazoline",
+    "drugbank_id": "DB06694",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9991466999053956,
+        "txgnn_rank": 1728,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05072392",
+            "title": "Determining the Effects of Foley Catheter-assisted Nasal Intubation on Nasal Bleeding in Adult Patients",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-10-04",
+            "completion_date": "2022-05-14",
+            "country": "Canada",
+            "enrollment": 80,
+            "brief_summary": "Nasal endotracheal intubation is a well-utilized and important endotracheal intubation route to allow good surgical access for operations involving the oral cavity. Despite its utility, there are potential complications from nasal endotracheal intubation including that of nasal bleeding, which in severe cases can impair the ability to complete the procedure.\n\nThe most accepted conventional practice to decrease bleeding associated with nasal endotracheal intubation is to warm the nasal endotrache",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age greater than 18\n* Scheduled to undergo an operation requiring nasotracheal intubation\n\nExclusion Criteria:\n\n* Latex allergy\n* Emergency surgery\n* High risk of aspiration\n* Anticipated or unanticipated difficult airway or bag mask ventilation\n* Morbid obesity (BMI \\>40)\n* B",
+            "endpoints": [
+              "Incidence of nasal bleeding"
+            ],
+            "sponsor": "Mount Sinai Hospital, Canada",
+            "url": "https://clinicaltrials.gov/study/NCT05072392"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06443255",
+            "title": "Comparison of Cocaine, Lidocaine/xylometazoline and Saline for Intranasal Analgesia - a Blinded Triple Crossover Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2024-07-01",
+            "completion_date": "2024-08-27",
+            "country": "Denmark",
+            "enrollment": 16,
+            "brief_summary": "When performed by trained personnel nasotracheal intubation is a safe and effective technique for attaining a secure airway in preparation for surgery of the head and neck. The procedure can be deemed necessary due to the nature of the surgical procedure or considerations in regard to the patient's comorbidities. For a certain group of patients with expected difficult airways, the procedure is done whilst they are awake and aided by fiberoptics.\n\nFor these awake patients, extra precautions must ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Proficient in spoken and written Danish\n* Healthy volunteers (no active diagnoses)\n* Negative hCG (human chorionic gonadotropin) urine stix for women of childbearing potential\n\nExclusion Criteria:\n\n* Known nasal malformation\n* Known coagulopathy\n* Current anti",
+            "endpoints": [
+              "Pain regarding the procedure"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT06443255"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24023995",
+            "title": "The effect of xylometazoline spray for expansion of nasal cavity.",
+            "abstract": "During nasotracheal intubation it is important to have proper pretreatment for nasal mucosa constriction and nasal cavity expanding. Nasal packing of epinephrine gauze is widely used as well as xylometazoline. The aim of this study was to compare and evaluate the efficacy of prophylactic intranasal spray of xylometazoline against epinephrine gauze packing in expanding the nasal cavity.",
+            "journal": "Korean journal of anesthesiology",
+            "year": "2013",
+            "authors": [
+              "Han Jun-Sung",
+              "Park Sang-Hi",
+              "Shin Young Duck",
+              "Kwon Eunjung",
+              "Shim Woo Sub"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24023995/"
+          },
+          {
+            "pmid": "8740084",
+            "title": "Efficacy of topical tuaminoheptane combined with N-acetyl-cysteine in reducing nasal resistance. A double-blind rhinomanometric study versus xylometazoline and placebo.",
+            "abstract": "The aim of this study was to functionally evaluate the decongestant effect of a topical intranasal drug (Rhinofluimucil consisting of tuaminoheptane sulphate (CAS 6411-75-2, THS), a vasoconstrictor, combined with N-acetyl-cysteine (CAS 616-91-1, NAC). This was a double-blind randomized study, versus both xylometazoline and placebo. 18 subjects (8M and 10F, aged 20-47 years), unaffected by any rhinitic pathology, underwent anterior rhinomanometry. Following the basal evaluation (T0), subjects were randomly divided into three groups and subjected, in a double-blind manner, to nasal instillations (2 puffs per nostril) of THS/NAC (R), xylometazoline (O) and saline solution (P), respectively. Rhinomanometry was repeated after 5, 10 and 20 min (T5, T10, T20). Resistance and flow were measured in both nostrils at a pressure gradient of 150 Pa. After R and O nasal resistance significantly decreased from 0.30 Pa to 0.19 Pa and from 0.31 Pa to 0.17 Pa, respectively, and flow significantly increa",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1996",
+            "authors": [
+              "Cogo A",
+              "Chieffo A",
+              "Farinatti M",
+              "Ciaccia A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Administration, Intranasal",
+              "Adult",
+              "Airway Resistance",
+              "Amines",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Female",
+              "Forced Expiratory Flow Rates",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8740084/"
+          },
+          {
+            "pmid": "34783482",
+            "title": "[The nasal mucosa in the elderly: features, modern approaches to the treatment of inflammatory diseases of the nasal cavity and paranasal sinuses].",
+            "abstract": "The article analyzes the problems of population aging that are relevant for the world civilization, the peculiarities of changes in the body in old age and senility, in particular, the nasal cavity and paranasal sinuses. The analysis of algorithms of actions of an otorhinolaryngologist when prescribing drugs for the treatment of inflammatory diseases of the nasal cavity and paranasal sinuses in elderly patients is given. The advantages of using a combined nasal spray containing a nasal decongestant of 0.1% xylometazoline and 5% dexpanthenol as a means that improves regeneration and reduces the cytotoxic effect of xylometazoline are reflected. The research of domestic and foreign authors testifying to the rationality of using this combined drug in the practice of an otorhinolaryngologist in the treatment of pathology of the nasal cavity and paranasal sinuses in elderly people is presented.",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2021",
+            "authors": [
+              "Payganova N E",
+              "Yastremsky A P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Algorithms",
+              "Humans",
+              "Nasal Cavity",
+              "Nasal Decongestants",
+              "Nasal Mucosa",
+              "Paranasal Sinuses"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34783482/"
+          },
+          {
+            "pmid": "1281924",
+            "title": "Nasal airflow asymmetry and the effects of a topical nasal decongestant.",
+            "abstract": "Nasal airway resistance (NAR) is normally asymmetrical due to the nasal cycle. The aims of this study were to determine the degree of this asymmetry in healthy subjects and those with acute rhinitis associated with common cold, and to investigate how the administration of a topical nasal decongestant (xylometazoline) influenced the asymmetry in NAR. Unilateral NAR was measured by active anterior rhinomanometry, and was shown to be asymmetrical in both healthy subjects and those suffering with acute rhinitis. The asymmetry in NAR was greater in those with acute rhinitis than in the healthy group, with a ratio between \"high\" and \"low\" sides of 2.3:1 in the rhinitis group compared to a ratio of 1.7:1 in the healthy subjects. Administration of a topical nasal decongestant caused a significant decrease in total NAR in both groups and abolished the asymmetry in NAR in the healthy subjects (ratio is 1:1 after decongestion). However, significant asymmetry of NAR was still present in the group ",
+            "journal": "Rhinology",
+            "year": "1992",
+            "authors": [
+              "Williams R G",
+              "Eccles R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Airway Resistance",
+              "Common Cold",
+              "Humans",
+              "Imidazoles",
+              "Nasal Cavity",
+              "Nasal Decongestants",
+              "Rhinitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1281924/"
+          },
+          {
+            "pmid": "22427029",
+            "title": "Preparation of nose for nasal endoscopy: cotton pledget packing versus topical spray. A prospective randomized blinded study.",
+            "abstract": "During nasal endoscopy it is essential to have proper visualization of structures with minimal discomfort to patient and surgeon. For this it is essential that the nose is well prepared before the procedure. The main objective of the study is to compare and evaluate the efficacy of cotton pledget packing versus topical sprays in preparation of nose for nasal endoscopy. The method includes prospective randomized blinded study on 100 patients. Patients were randomly divided in two groups. In first group the nose was packed with 4% lignocaine with xylometazoline nasal drops and in the other group it was prepared with 10% lignocaine topical spray and xylometazoline nose drops. Following the procedure, patient and the surgeon were asked a pre-formed questionnaire to know their experience during endoscopy. It was observed the packing group required more preparatory time as compared to the spray group. The group which was packed had less discomfort, less pain while endoscopy. The visualizatio",
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2013",
+            "authors": [
+              "Mishra Prasun",
+              "Kaushik Maitri",
+              "Dehadaray Arun",
+              "Qadri Haris",
+              "Raichurkar Annapurna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Adolescent",
+              "Adult",
+              "Aerosols",
+              "Aged",
+              "Anesthetics, Local",
+              "Endoscopy",
+              "Hemorrhage",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22427029/"
+          },
+          {
+            "pmid": "20632242",
+            "title": "[Geometry and function of the dog nose: how does function change when form of the nose is changed?].",
+            "abstract": "Nasal airflow resistance in brachycephalic dogs is significantly elevated compared to normal dogs. LaserAssisted TurbinEctomy (LATE)-surgery as well as xylometazolin were shown to reduce pathologically increased intranasal airway resistance in brachycephalic dogs by approximately 50 %. Impulse oscillometry provides a reliable and sensitive method to examine intranasal stenoses in the canine nose. Acoustic rhinometry allows assessment of changes in cross sectional area and volume of the canine nasal cavity.",
+            "journal": "Pneumologie (Stuttgart, Germany)",
+            "year": "2010",
+            "authors": [
+              "Lippert J P",
+              "Reinhold P",
+              "Smith H J",
+              "Franco P",
+              "Nather S Y"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Airway Resistance",
+              "Animals",
+              "Craniosynostoses",
+              "Dog Diseases",
+              "Dogs",
+              "Laser Therapy",
+              "Nasal Obstruction",
+              "Nose",
+              "Oscillometry",
+              "Rhinometry, Acoustic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20632242/"
+          },
+          {
+            "pmid": "24158493",
+            "title": "Intranasal topical local anesthetic and decongestant for flexible nasendoscopy in children: a randomized, double-blind, placebo-controlled trial.",
+            "abstract": "To our knowledge, the present study is the first double-blind, randomized, placebo-controlled trial in children to compare nasal preparation sprays administered before flexible nasendoscopy with placebo.",
+            "journal": "JAMA otolaryngology-- head & neck surgery",
+            "year": "2013",
+            "authors": [
+              "Chadha Neil K",
+              "Lam Gilbert O A",
+              "Ludemann Jeffrey P",
+              "Kozak Frederick K"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Administration, Topical",
+              "Ambulatory Care",
+              "Anesthesia, Local",
+              "Anesthetics, Local",
+              "Child",
+              "Child, Preschool",
+              "Double-Blind Method",
+              "Endoscopes",
+              "Endoscopy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24158493/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9989234805107116,
+        "txgnn_rank": 2121,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.985646426677704,
+        "txgnn_rank": 13807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9778705835342408,
+        "txgnn_rank": 18043,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9777812361717224,
+        "txgnn_rank": 18082,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05999955",
+            "title": "An Open-label, Randomized, Active-controlled Study to Evaluate the Safety of Postbiotic Nasal Spray Using Inactivated DSM32444 Spores in the Treatment of Acute Rhinosinusitis, as Compared With Neomycin/ Dexamethasone/Xylometazoline Spray",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-12-29",
+            "completion_date": "2023-05-25",
+            "country": "Vietnam",
+            "enrollment": 60,
+            "brief_summary": "Rhinitis is a type of upper respiratory infection with a common nasal pathology especially in Southeast Asia, which is characterized by the presence of one or more of the following symptoms: itchy nose, sneezing, runny nose, and nasal congestion. Other symptoms occasionally experienced include headache, excessive pain reaction, cough, fever. Rhinitis can be idiopathic or due to a variety of causes, including allergens, medications, endocrine/metabolic, infectious, inflammatory, and abnormal nasa",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed rhinosinusitis patients (according to Vietnam's MOH guidelines for diagnosis of rhinosinusitis), ≥18 years of age, at the time of signing the informed consent.\n* Must be in generally good health, except rhinosinusitis\n* Patients who are able to use an e-Diary or Pape",
+            "endpoints": [
+              "To compare efficacy following multiple doses of the SPEROVID Nasal Spray for 10 days with those of the Neomycin/ Dexamethasone/Xylometazoline Nasal Spray in Acute Rhinosinusitis Patients assessed by time to symptom resolution"
+            ],
+            "sponsor": "Huro Biotech Joint Stock Company",
+            "url": "https://clinicaltrials.gov/study/NCT05999955"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03693976",
+            "title": "Non-interventional Study in Patients With Acute Rhinosinusitis to Study Efficacy and Tolerability of Ectoin Rhinosinusitis Nasal Spray, a Xylometazoline-containing Nasal Spray or a Combination of Both.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2018-10-01",
+            "completion_date": "2019-04-15",
+            "country": "Germany",
+            "enrollment": 168,
+            "brief_summary": "The goal of this non-interventional study is to investigate the efficacy and tolerability of an Ectoin containing Rhinosinusitis Nasal Spray (SNS01). Within the study, SNS01 will be used either alone as monotherapy or as concomitant therapy in addition to the use of a Xylometazoline-containing decongestant nasal spray. A control group will use a Xylometazoline-containing decongestant nasal spray as monotherapy.\n\nIt will be investigated if the dose of the used decongestant nasal spray might be re",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients with acute viral rhinosinusitis\n* presence of common cold symptoms\n\nExclusion Criteria:\n\n* contraindications in accordance with instructions for use\n* acute bacterial rhinosinusitis\n* chronic rhinosinusitis",
+            "endpoints": [
+              "Physicians' assessment of change of intensity of rhinosinusitis symptoms"
+            ],
+            "sponsor": "Bitop AG",
+            "url": "https://clinicaltrials.gov/study/NCT03693976"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05804123",
+            "title": "Application of LiveSpo Navax® in the Treatment Support of Acute Rhinosinusitis and Acute Otitis Media",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-10-28",
+            "completion_date": "2024-08-01",
+            "country": "Vietnam",
+            "enrollment": 175,
+            "brief_summary": "Acute respiratory tract infections (ARTIs), such as acute rhinosinusitis (ARS) and acute otitis media (AOM), are common worldwide and caused by viruses or bacteria entering the body through the mouth and nose. AOM frequently occurs in young children and is caused by bacterial reflux into the middle ear. ARS is a relatively common ARTIs and can occur at many ages. To accurately diagnose disease, careful clinical examination and accurate clinical judgment are required, as making a reasonable treat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients diagnosed with acute rhinosinusitis: sudden onset of two or more symptoms, one of which should be either nasal blockage/obstruction/congestion or nasal discharge (anterior/posterior nasal drip); and/or facial pain/pressure; and/or reduction or loss of smell for \\<12 w",
+            "endpoints": [
+              "Changes in percentages of patients with free acute rhinosinusitis symptoms",
+              "Changes in percentages of patients with free acute otitis media symptoms"
+            ],
+            "sponsor": "Anabio R&D",
+            "url": "https://clinicaltrials.gov/study/NCT05804123"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03480100",
+            "title": "Non-interventional Study to Investigate the Efficacy and Tolerability of Ectoin Nasal Douche (END01) in Patients With Acute Viral Rhinosinusitis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2017-11-27",
+            "completion_date": "2018-05-31",
+            "country": "Germany",
+            "enrollment": 120,
+            "brief_summary": "The goal of this non interventional study is to investigate the efficacy, tolerability and safety of the newly developed Ectoin Nasal Douche END01. Within the study, END01 will be used as concomitant therapy in addition to the use of a Xylometazoline-containing decongestant nasal spray.\n\nIt will be investigated if the dosis of the used decongestant nasal spray might be reduced, the development of the disease might be positively influenced and/or the potentially occuring side effects (e.g. drynes",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients with acute viral rhinosinusitis\n* presence of common cold symptoms\n\nExclusion Criteria:\n\n* contraindications in accordance with instructions for use\n* acute bacterial rhinosinusitis\n* chronic rhinosinusitis",
+            "endpoints": [
+              "Physicians' assessment of change of intensity of rhinosinusitis symptoms"
+            ],
+            "sponsor": "Bitop AG",
+            "url": "https://clinicaltrials.gov/study/NCT03480100"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "11772135",
+            "title": "Cetirizine/pseudoephedrine.",
+            "abstract": "Cetirizine is the carboxylated metabolite of hydroxyzine, and has high specific affinity for histamine H(1) receptors. Pseudoephedrine is a sympathomimetic drug that acts directly on alpha-adrenergic receptors. black triangle Cetirizine/pseudoephedrine 5/120 mg twice daily was significantly more effective than intranasal budesonide 100 microg or placebo at improving nasal obstruction, nasal patency and reducing the volume of nasal secretion, and was significantly more effective than intranasal xylometazoline 0.1% with respect to nasal secretion, during house dust mite faeces challenge in three randomised, cross- over studies among volunteers with seasonal or perennial rhinitis. The onset of action of cetirizine/pseudoephedrine was reported to be approximately 30 minutes. black triangle The bioavailability of cetirizine and pseudoephedrine is similar after administration of cetirizine/pseudoephedrine 5/120 mg bilayer tablets or coadministration of cetirizine 5 mg tablets plus pseudoephe",
+            "journal": "Drugs",
+            "year": "2001",
+            "authors": [
+              "Wellington K",
+              "Jarvis B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adrenergic Agents",
+              "Anxiety",
+              "Asthenia",
+              "Biological Availability",
+              "Cetirizine",
+              "Chemistry, Pharmaceutical",
+              "Drug Administration Schedule",
+              "Ephedrine",
+              "Headache"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11772135/"
+          },
+          {
+            "pmid": "33667187",
+            "title": "[Not Available].",
+            "abstract": "",
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2021",
+            "authors": [
+              "Pham Hoang",
+              "Gosselin-Lefebvre Stéphanie",
+              "Pourshahnazari Persia",
+              "Yip Samuel"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cerebrum",
+              "Computed Tomography Angiography",
+              "Defecation",
+              "Female",
+              "Headache Disorders, Primary",
+              "Humans",
+              "Middle Aged",
+              "Vasoconstriction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33667187/"
+          },
+          {
+            "pmid": "33168762",
+            "title": "Recurrent thunderclap headaches from reversible cerebral vasoconstriction syndrome associated with duloxetine, xylometazoline and rhinitis medicamentosa.",
+            "abstract": "",
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2020",
+            "authors": [
+              "Pham Hoang",
+              "Gosselin-Lefebvre Stéphanie",
+              "Pourshahnazari Persia",
+              "Yip Samuel"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Computed Tomography Angiography",
+              "Duloxetine Hydrochloride",
+              "Female",
+              "Headache Disorders, Primary",
+              "Humans",
+              "Imidazoles",
+              "Middle Aged",
+              "Nasal Decongestants",
+              "Recurrence",
+              "Rhinitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33168762/"
+          },
+          {
+            "pmid": "21712403",
+            "title": "Hypertensive crisis and end-organ damage induced by over-the-counter nasal decongestant abuse.",
+            "abstract": "",
+            "journal": "European heart journal",
+            "year": "2011",
+            "authors": [
+              "Buysschaert Ian",
+              "Van Dorpe Jo",
+              "Dujardin Karl"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Headache Disorders",
+              "Humans",
+              "Hypertension",
+              "Imidazoles",
+              "Male",
+              "Nasal Decongestants",
+              "Nephrosclerosis",
+              "Nonprescription Drugs",
+              "Retinal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21712403/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasopharyngitis",
+        "txgnn_score": 0.9741513133049012,
+        "txgnn_rank": 19672,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.9701444506645204,
+        "txgnn_rank": 21218,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faucial diphtheria",
+        "txgnn_score": 0.9579565525054932,
+        "txgnn_rank": 24748,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical disc degenerative disorder",
+        "txgnn_score": 0.9540570974349976,
+        "txgnn_rank": 25703,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anorectal stricture",
+        "txgnn_score": 0.9511292576789856,
+        "txgnn_rank": 26431,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06694",
+    "name": "Xylometazoline",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Xylometazoline"
+      },
+      "queried_at": "2026-03-09T16:22:34.198569",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Xylometazoline"
+      },
+      "queried_at": "2026-03-09T16:22:47.675877",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T16:22:48.938970",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T16:22:54.621086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T16:22:57.785044",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T16:22:58.414232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T16:23:03.649881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T16:23:05.388891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T16:23:06.292934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T16:23:12.599655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T16:23:14.168413",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T16:23:15.108309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T16:23:19.952799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T16:23:20.877141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T16:23:22.271752",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T16:23:29.050841",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T16:23:32.343304",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-09T16:23:33.050700",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-09T16:23:36.474681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-09T16:23:37.766310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:23:38.943359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:23:43.049852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:23:44.374298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T16:23:45.096199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T16:23:48.705267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T16:23:50.632247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T16:23:52.205818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T16:23:56.073291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T16:23:57.344069",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T16:23:58.523122",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T16:24:03.627555",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Xylometazoline",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T16:24:05.226685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:24:05.235797"
+  }
+}

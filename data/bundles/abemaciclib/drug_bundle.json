@@ -1,0 +1,1460 @@
+{
+  "drug": {
+    "inn": "Abemaciclib",
+    "drugbank_id": "DB12001",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.973168134689331,
+        "txgnn_rank": 20052,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40504547",
+            "title": "Pre-existing and emerging immune-mediated diseases in patients with breast cancer undergoing cyclin-dependent kinases 4/6 inhibitors and endocrine therapy.",
+            "abstract": "CDK4/6 inhibitors (CDK4/6i) are cornerstone therapies in Hormone Receptor Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) Breast Cancer (BC) and emerging evidence suggests that they may influence immune function, potentially enhancing antitumor immunity but also triggering autoimmune reactions. This study aims to investigate the prevalence of autoimmune diseases (AD) in patients with HR+/HER2- BC to identify potential predictive biomarkers and to assess the impact of AD on disease progression.",
+            "journal": "The oncologist",
+            "year": "2025",
+            "authors": [
+              "Jacobs Flavia",
+              "Gaudio Mariangela",
+              "Andreottola Chiara",
+              "Borroni Riccardo",
+              "Benvenuti Chiara"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Breast Neoplasms",
+              "Female",
+              "Middle Aged",
+              "Cyclin-Dependent Kinase 6",
+              "Cyclin-Dependent Kinase 4",
+              "Protein Kinase Inhibitors",
+              "Retrospective Studies",
+              "Adult",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40504547/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.9716643691062928,
+        "txgnn_rank": 20638,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9706662893295288,
+        "txgnn_rank": 21002,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03280563",
+            "title": "A Phase Ib/II, Open-Label, Multicenter, Randomized Umbrella Study Evaluating the Efficacy and Safety of Multiple Immunotherapy-Based Treatment Combinations in Patients With Hormone Receptor-Positive HER2-Negative Breast Cancer (MORPHEUS-HR+ Breast Cancer)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-12-22",
+            "completion_date": "2024-09-26",
+            "country": "Israel, United States, South Korea",
+            "enrollment": 144,
+            "brief_summary": "This study is designed to evaluate the efficacy, safety, and pharmacokinetics of several immunotherapy-based combination treatments in participants with inoperable locally advanced or metastatic HR-positive, HER2-negative breast cancer who have progressed during or following treatment with a cyclin-dependent kinase (CDK) 4/6 inhibitor in the first- or second-line setting, such as palbociclib, ribociclib, or abemaciclib. The study will be performed in two stages. During Stage 1, participants will",
+            "eligibility_criteria": "Inclusion Criteria for Both Stages:\n\n* Measurable disease per RECIST v1.1\n* Adequate hematologic and end organ function\n* Disease progression during or after first- or second-line hormonal therapy with CDK4/6 inhibitor\n\nInclusion Criteria for Stage 1:\n\n* Eastern Cooperative Oncology Group (ECOG) per",
+            "endpoints": [
+              "Stage 1: Percentage of Participants With Objective Response"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03280563"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04802759",
+            "title": "A Phase Ib/II, Open-Label, Multicenter, Randomized Umbrella Study Evaluating the Efficacy and Safety of Multiple Treatment Combinations in Patients With Breast Cancer (MORPHEUS-BREAST CANCER)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-06-22",
+            "completion_date": "2029-05-30",
+            "country": "Australia, Spain, South Korea, Israel, United States",
+            "enrollment": 316,
+            "brief_summary": "This is a Phase Ib/II, open-label, multicenter, randomized umbrella study in participants with breast cancer. The study is designed with the flexibility to open new treatment arms as new treatments become available, close existing treatment arms that demonstrate minimal clinical activity or unacceptable toxicity, or modify the patient population.\n\nCohort 1 will focus on participants with inoperable, locally advanced or metastatic, estrogen receptor-positive (ER+), HER2-negative breast cancer who",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria for Cohort 1 (Stage 1 \\[and Stage 2, only where indicated\\]):\n\n* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1\n* Documented estrogen receptor-positive (ER+) tumor\n* Patients for whom endocrine therapy is recommended and treatment with ",
+            "endpoints": [
+              "Percentage of Participants with Objective Response, Defined as a Complete or Partial Response, as Determined by the Investigator According to Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST v1.1)",
+              "Number of Participants with Adverse Events, Severity Determined According to National Cancer Institute Common Terminology Criteria for Adverse Events, version 5.0 (NCI CTCAE v5.0)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04802759"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02308020",
+            "title": "A Phase 2 Study of Abemaciclib in Patients With Brain Metastases Secondary to Hormone Receptor Positive Breast Cancer, Non-small Cell Lung Cancer, or Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-04-20",
+            "completion_date": "2019-11-08",
+            "country": "Australia, Spain, France, Canada, Belgium, Austria, Israel, Italy, United States",
+            "enrollment": 162,
+            "brief_summary": "The main purpose of this study is to evaluate the safety and effectiveness of the study drug known as abemaciclib in participants with hormone receptor positive breast cancer, non-small cell lung cancer (NSCLC), or melanoma that has spread to the brain.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have brain metastases secondary to hormone receptor positive breast cancer, NSCLC, or melanoma.\n* Have either human epidermal growth factor receptor 2 positive (HER2+) (Study Part A) or negative HER2- (Study Part B) breast cancer.\n* Participants in Study Part C must have HR+ b",
+            "endpoints": [
+              "Percentage of Participants Achieving Complete Response (CR) or Partial Response (PR): Objective Intracranial Response Rate (OIRR)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT02308020"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03675893",
+            "title": "RESOLVE: letRozole abEmaciclib combinationS in endOmetriaL and oVarian cancEr: A Multi-Cohort Phase 2 Study of Letrozole/Abemaciclib Alone and in Combination With Metformin, Zotatifin and Gedatolisib",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2018-12-24",
+            "completion_date": "2031-08-01",
+            "country": "United States",
+            "enrollment": 180,
+            "brief_summary": "This research study is studying a combination of targeted therapies as a possible treatment for estrogen-receptor positive (ER+) endometrial cancer and low-grade serous ovarian cancer.\n\nThe drugs involved in this study are:\n\n* Abemaciclib (also known as Verzenio™)\n* Letrozole (also known as Femara®)\n* Metformin (also known as Glucophage®)\n* Zotatifin (also known as eFT226)\n* Gedatolisib (also known as PF-05212384)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have cytologically or histologically confirmed endometrial cancer that is recurrent or metastatic and/or resistant to standard therapies, or for which no standard therapy is available.Participants enrolled in the second stage of Cohort 1A, or into Cohort 3, 4",
+            "endpoints": [
+              "Progression Free Survival Rate",
+              "Objective Tumor Response Rate"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03675893"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06813079",
+            "title": "ADOPT: Adaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer - A Prospective Single-Arm Phase II Trial",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-02-17",
+            "completion_date": "2028-02-17",
+            "country": "Canada",
+            "enrollment": 25,
+            "brief_summary": "The purpose of this study is to see if using Patient Derived Organoids (PDO) to choose a drug for the treatment of pancreatic cancer individually for each patient is useful. The study will look at the number of participants who have a response to their assigned drug.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 years or over\n2. Ability to understand and willing to sign a written informed consent form in accordance with applicable local and regulatory requirements. Each patient must sign a consent form prior to screening to document their willingness to participate.\n3. Advance",
+            "endpoints": [
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "University Health Network, Toronto",
+            "url": "https://clinicaltrials.gov/study/NCT06813079"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05501704",
+            "title": "ETHAN: A Phase II Study Comparing Different Endocrine THerapies for mAle Breast caNcer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-10-11",
+            "completion_date": "2036-04-01",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "This research study is looking to see how well male breast cancer responds to preoperative treatment with endocrine therapy and which endocrine therapy regimen is the most effective treatment for male breast cancer.\n\nThe drugs used in this study are:\n\n* Tamoxifen\n* Anastrozole\n* Degarelix\n* Abemaciclib",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men aged 18 years or older, with diagnosis of invasive breast cancer who have not undergone surgical resection of the primary tumor and axillary nodes.\n* Stage I, II, or III per American Joint Committee on Cancer (AJCC) staging 8th edition (112).\n* Breast cancer must be hormon",
+            "endpoints": [
+              "Change in Ki-67",
+              "RCB index"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT05501704"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04791384",
+            "title": "Multicenter Open Label Phase Ib/II Trial of Abemaciclib and Elacestrant in Patients With Brain Metastasis Due to HR+/Her2- Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-04-21",
+            "completion_date": "2025-01",
+            "country": "United States",
+            "enrollment": 44,
+            "brief_summary": "This is a multi-institutional, single arm, open label, Phase Ib/II study of abemaciclib in combination with elacestrant in patients with HR+/Her2- breast cancer metastatic to the brain. Patients may have received up to two prior lines of systemic chemotherapy for locally advanced or metastatic disease. There will be no limit on prior use of endocrine therapy including aromatase inhibitors, tamoxifen and fulvestrant, given a documented clinical benefit of elacestrant in this setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients will be eligible for inclusion in this study if all of the following criteria apply:\n\n  1. Post-menopausal women with histologically or cytologically diagnosed metastatic HR+/Her2- breast cancer defined as positive for estrogen receptor or progesterone receptor (more ",
+            "endpoints": [
+              "The number of patients in Phase 1b part of the study with any adverse events (AE).",
+              "Assess the efficacy of the drug combination abemaciclib and elacestrant."
+            ],
+            "sponsor": "Criterium, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04791384"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06630325",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART): Adaptive Clinical Treatment (ACT)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2025-06-24",
+            "completion_date": "2033-06-30",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This phase II trial tests the how well a precision medicine approach (serial measurements of molecular and architectural response to therapy \\[SMMART\\])-adaptive clinical treatment \\[ACT\\]) works in treating patients with sarcoma, prostate, breast, ovarian or pancreatic cancer that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). SMMART testing uses genetic and protein tests to learn how cancer changes and to understand what drug",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-SCREENING: Written informed consent prior to any Pre-Screening activities, study-specific procedures or interventions\n* PRE-SCREENING: At least 18 years of age at time of informed consent. Persons of all gender identities, biological sexes, races, and ethnicities will be i",
+            "endpoints": [
+              "Proportion of participants who receive an adaptive clinical treatment (ACT) therapy based serial measurements of molecular and architectural responses to therapy (SMMART)-ACT tumor board recommendation"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06630325"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04158362",
+            "title": "Open-label, Randomized, Multicenter, Phase III Study, Comparing Standard Chemotherapy to Standard Combination of Endocrine Therapy With Abemaciclib as Initial Metastatic Treatment Among Patients With Visceral Metastasis of ER+ HER2-breast Cancer, High Burden Disease",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-06-11",
+            "completion_date": "2028-06",
+            "country": "France",
+            "enrollment": 180,
+            "brief_summary": "AMBRE is a phase III study comparing two standard treatments as initial metastatic treatment in ER+/HER2- breast cancer (BC) patients with visceral metastasis and high burden disease: Chemotherapy and combination of endocrine therapy with abemaciclib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient must have signed a written informed consent form prior to any study specific procedures.\n2. Female age ≥ 18 years.\n3. Performance status, Eastern Cooperative Oncology Group (ECOG) 0-2.\n4. Histologically confirmed adenocarcinoma of the breast.\n5. Metastatic breast canc",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT04158362"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05362760",
+            "title": "Combination of Abemaciclib and Endocrine Therapy in Hormone Receptor Positive HER2 Negative Locally Advanced or Metastatic Breast Cancer With Focus on Digital Side Effect Management. The MINERVA Trial - A Phase IV Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2022-04-27",
+            "completion_date": "2029-04",
+            "country": "Germany, Switzerland",
+            "enrollment": 300,
+            "brief_summary": "The MINERVA Trial aims to evaluate safety, efficacy and quality of life (QoL) for the combination of Abemaciclib with an Aromatase Inhibitor or Fulvestrant in pre- and postmenopausal patients with metastatic hormone receptor positive HER2 negative breast cancer in the first line setting.\n\nSide effect monitoring and patient reported outcomes will be captured using the web- and app-based CANKADO digital health application. Via this user-friendly tool the patients can document their therapy side ef",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients will be included in the trial only if they meet all the following criteria:\n\n1. Have given written informed consent prior to any trial-specific procedures\n2. Are reliable, willing to be available for the duration of the trial and are willing to follow trial procedures\n3",
+            "endpoints": [
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "University of Ulm",
+            "url": "https://clinicaltrials.gov/study/NCT05362760"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05345860",
+            "title": "Adopting the MRD Strategy to Optimize Post-operation Adjuvant Therapies for Early Stage Breast Cancer, a Prospective Cohort Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2022-03-24",
+            "completion_date": "2027-03-24",
+            "country": "China",
+            "enrollment": 300,
+            "brief_summary": "This study is a prospective, multi-center, open-label cohort study, with 3 years disease free survival(DFS) as the primary endpoint. We optimize post-operation adjuvant therapy for early stage breast cancer based on the MRD strategy: patients with clinical high risk or post-operation 1st MRD tested positive will receive intensive adjuvant therapy, while patients with low clinical risk and post-operation 1st MRD tested negative will receive standard adjuvant therapy, and the treatment regimens wi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects aged ≥18 years (inclusive).\n* Histologically confirmed, perioperative invasive breast cancer that is resectable without metastasis(stage I-III).\n* No anti-breast cancer systematic therapy received, and planning to receive surgery and systemic therapy.\n* Eastern Cooper",
+            "endpoints": [
+              "3 years disease free survival(DFS)"
+            ],
+            "sponsor": "Cancer Institute and Hospital, Chinese Academy of Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT05345860"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06830720",
+            "title": "A Non-interventional Study for Kisqali (Ribociclib) in Combination With an Aromatase Inhibitor for Adjuvant Treatment in Patients With HR+/HER2- Early Breast Cancer at High Risk of Recurrence to Evaluate Real-world Effectiveness, Safety Profile, Patient Compliance and Quality of Life",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-02-20",
+            "completion_date": "2030-06-30",
+            "country": "Austria, Germany",
+            "enrollment": 3250,
+            "brief_summary": "This non-interventional observational study evaluates the real-world effectiveness and safety profile of ribociclib in combination with an aromatase inhibitor for adjuvant treatment in patients with HR+/HER2- early breast cancer at high risk of recurrence, as well as patient compliance and quality of life.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histological diagnosis of HR+/HER2- early breast cancer with curative intent\n* Patients must have an indication for a treatment with ribociclib + AI ± LHRH as described in the current SmPC/\"Fachinformation\" of ribociclib (to be included into the cohorts of ribociclib + AI ± LH",
+            "endpoints": [
+              "Invasive disease-free survival (iDFS) for adjuvant therapy with ribociclib + AI ± LHRH in participants with HR+/HER2- eBC at high risk of recurrence"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT06830720"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06126003",
+            "title": "A Multi-center, 2-arm Observational Study Exploring the Role of the Gut and Tumor Microbiome in the Differential Immune Profile of Patients With Early Stage (II-III), Locally Advanced or Advanced ER-positive and HER2-negative Breast Cancer (Arm-1).",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "start_date": "2023-12-01",
+            "completion_date": "2024-07-31",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "The purpose of this research study is to collect samples of blood and stool and analyse primary tumor from participants with breast cancer to see how the bacteria in the body affect cancer and how well it responds to treatment. By comparing samples and data from multiple participants with breast cancer, it may be possible to identify how a person's gut health and tumor microenvironment affects how they respond to certain cancer treatments.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nArm-1: Early stage (II-III), locally advanced or advanced ER-positive and HER2-negative Breast Cancer\n\n1. Signed, written, voluntary, and informed consent\n2. Histological confirmation of early stage (II-III) locally advanced or advanced ER positive and HER2 negative breast cance",
+            "endpoints": [
+              "Interaction between the gut microbiome, tumor microbiome and serum immune profile for patients with early stage (II-III), locally advanced or advanced ER-positive and HER2-negative breast cancer."
+            ],
+            "sponsor": "BioCorteX Inc",
+            "url": "https://clinicaltrials.gov/study/NCT06126003"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05735080",
+            "title": "A Phase 1/2, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Efficacy of INX-315 in Patients With Advanced Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-03-28",
+            "completion_date": "2026-06",
+            "country": "Australia, United States",
+            "enrollment": 150,
+            "brief_summary": "Incyclix Bio (Incyclix) is developing INX-315 as an oral, small molecule inhibitor of cyclin dependent kinase 2 (CDK2) for the treatment of human cancers. This first-in-human study is designed to evaluate the safety, tolerability, pharmacokinetics (PK) and preliminary antitumor activity of INX-315 in patients with recurrent advanced/metastatic cancer, including hormone receptor positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) breast cancer who progressed on a prior cyclin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Advanced unresectable or metastatic ER+/HER2- BC that has progressed following treatment with a CDK4/6 inhibitor\n2. Advanced/ metastatic platinum-resistant or platinum-refractory epithelial ovarian cancer (including fallopian tube cancer/primary peritoneal cancer) CCNE-1 ampl",
+            "endpoints": [
+              "Part A and B: Evaluate the incidents of treatment emergent adverse events and laboratory abnormalities in INX-315 monotherapy and in combination with fulvestrant",
+              "Part A: Evaluate the occurrence of dose-limiting toxicities (DLTs) during Cycle 1",
+              "Part A: Recommend at least two doses of INX-315 to be evaluated in the expansion phase"
+            ],
+            "sponsor": "Incyclix Bio",
+            "url": "https://clinicaltrials.gov/study/NCT05735080"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03939897",
+            "title": "A Randomized Phase I/II Trial of Fulvestrant and Abemaciclib in Combination With Copanlisib (FAC) Versus Fulvestrant and Abemaciclib Alone (FA) for Endocrine-Resistant, Hormone Receptor Positive, HER2 Negative Metastatic Breast Cancer (FAC vs FA)",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-06-17",
+            "completion_date": "2026-08-14",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This phase I trial studies the effects (good and bad) of adding copanlisib to the usual therapy of fulvestrant and abemaciclib in treating patients with hormone receptor positive and HER2 negative breast cancer that has spread from where it first started (breast) to other places in the body (metastatic). Some breast cancer cells have receptors for the hormones estrogen or progesterone. These cells are hormone receptor positive and they need estrogen or progesterone to grow. This can affect how t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed ER and/or PR positive, HER2 negative or non-amplified breast cancer that is stage IV, with measurable or non-measurable disease. ER/PR positivity is defined as at least 1% positive or an Allred score of at least 3. H",
+            "endpoints": [
+              "Dose-limiting Toxicity (DLT)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT03939897"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02981342",
+            "title": "An Adaptive, Open-Label, Randomized Phase 2 Study of Abemaciclib as a Monotherapy and in Combination With Other Agents Versus Choice of Standard of Care (Gemcitabine or Capecitabine) in Patients With Previously Treated Metastatic Pancreatic Ductal Adenocarcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-01-12",
+            "completion_date": "2018-11-09",
+            "country": "Australia, Spain, France, United Kingdom, Belgium, Israel, United States, Taiwan",
+            "enrollment": 106,
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of abemaciclib alone and in combination with other drugs versus standard of care in participants with previously treated metastatic pancreatic ductal adenocarcinoma (PDAC).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histological or cytological diagnosis of ductal adenocarcinoma of the pancreas.\n* Metastatic disease with documented disease progression following previous treatment with at least one, but no more than 2 prior therapies, with one of the prior therapies having been either gemci",
+            "endpoints": [
+              "Stage 1: Disease Control Rate (DCR): Percentage of Participants With a Best Overall Response of Complete Response (CR), Partial Response (PR) or Stable Disease (SD)",
+              "Stage 2: Progression Free Survival (PFS)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT02981342"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06344780",
+            "title": "A Multi-center Study of the Clinical Outcomes of Abemaciclib, Palbociclib or Dalpiciclib Combined with Endocrine Therapy As First-line Treatment in HR Positive, HER2 Negative Unresectable or Metastatic Breast Cancer in Real World Practice",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-05-20",
+            "completion_date": "2025-02-01",
+            "country": "China",
+            "enrollment": 200,
+            "brief_summary": "A multi-center, real world study to evaluate the clinical outcomes and safety of Abemaciclib, Palbociclib or Dalpiciclib combined with endocrine therapy as first-line treatment in HR Positive, HER2 Negative unresectable or metastatic Breast Cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. age \\>= 18 years old;\n2. Patients who were diagnosed as HR Positive, HER2 Negative recurrent unresectable (local or regional) or stage IV (M1) breast cancer between June 2020 to October 2023;\n3. Received CDK4/6 inhibitors(Abemaciclib, Palbociclib or Dalpiciclib) as first-line",
+            "endpoints": [
+              "PFS"
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT06344780"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02107703",
+            "title": "MONARCH 2: A Randomized, Double-Blind, Placebo-Controlled, Phase 3 Study of Fulvestrant With or Without Abemaciclib, a CDK4/6 Inhibitor, for Women With Hormone Receptor Positive, HER2 Negative Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-07-22",
+            "completion_date": "2027-12",
+            "country": "Australia, Belgium, United States, Canada, South Korea, Italy, Russia, Poland, Japan, France, Germany, Denmark, Mexico, Switzerland, Spain, Romania, Finland, Greece, Puerto Rico, Taiwan",
+            "enrollment": 669,
+            "brief_summary": "The main purpose of this study is to compare progression-free survival for women with hormone receptor positive (HR+), human epidermal growth factor receptor (HER2) negative advanced breast cancer receiving either abemaciclib + fulvestrant or fulvestrant alone. Participants will be randomized to abemaciclib or placebo in a 2:1 ratio. The study will last about 9 months for each participant.\n\nFor the endocrine naïve cohort, all participants will received abemaciclib + fulvestrant.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Have a diagnosis of HR+, HER2- breast cancer\n* Have locally advanced disease not amenable to curative treatment by surgery or metastatic disease. In addition, participants must fulfill 1 of the following criteria:\n\n  * relapsed with radiologic evidence of progression while rece",
+            "endpoints": [
+              "Progression-Free Survival (PFS)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT02107703"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04931342",
+            "title": "A Phase II, Open-Label, Multicenter, Platform Study Evaluating the Efficacy and Safety of Biomarker-Driven Therapies in Patients With Persistent or Recurrent Rare Epithelial Ovarian Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-10-07",
+            "completion_date": "2028-05-30",
+            "country": "Switzerland, Australia, Spain, France, Canada, South Korea, Turkey (Türkiye), United Kingdom, Germany, Italy, United States, Russia, Czechia",
+            "enrollment": 176,
+            "brief_summary": "This study will evaluate the efficacy and safety of multiple biomarker-selected treatments in patients with persistent or recurrent rare epithelial ovarian, fallopian tube, or primary peritoneal tumors. Enrollment will take place in two phases: a preliminary phase followed by a potential expansion phase.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Persistent or recurrent EOC that meets the following criteria: Histologically confirmed non-high-grade serous, non-high-grade endometrioid epithelial ovarian, fallopian tube, or primary peritoneal cancer, including but not limited to low-grade serous ovarian carcinoma, clear c",
+            "endpoints": [
+              "Confirmed Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04931342"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06169371",
+            "title": "Abemaciclib Dose Escalation to Maintain Intensity (ADE-MI)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2023-12-28",
+            "completion_date": "2030-11",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "This is a post-marketing single arm, phase IV trial in which patients with high-risk early-stage HR+HER2- breast cancer will receive adjuvant abemaciclib in combination with endocrine therapy (ET) After study intervention, participants will remain on combination abemaciclib + ET at the discretion of their treating providers",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ECOG 0-2\n* Histologically confirmed early-stage HR+HER2- breast cancer documented by biopsy who are prescribed adjuvant abemaciclib\n* Able to provide written informed consent and HIPAA authorization for release of personal health information, via an approved UIC Institutional ",
+            "endpoints": [
+              "Increase the proportion of subjects on FDA approved dose of Abemaciclib (150mg BID) at day 84"
+            ],
+            "sponsor": "University of Illinois at Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT06169371"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03878524",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: PRIME",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2020-04-01",
+            "completion_date": "2020-12-10",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "This phase Ib trial determines if samples from a patient's cancer can be tested to find combinations of drugs that provide clinical benefit for the kind of cancer the patient has. This study is also being done to understand why cancer drugs can stop working and how different cancers in different people respond to different types of therapy.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Ability to understand and the willingness to sign a written informed consent document\n* Participants \\>= 21 years old at time of informed consent. Both men and women and members of all races and ethnic groups will be included\n* Participants, both men and women, must agree ",
+            "endpoints": [
+              "Feasibility of implementing an individualized treatment strategy (number of participants to receive first dose)"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03878524"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+        "txgnn_score": 0.9687631130218506,
+        "txgnn_rank": 21713,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.965624749660492,
+        "txgnn_rank": 22658,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart disease",
+        "txgnn_score": 0.963034451007843,
+        "txgnn_rank": 23461,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03697577",
+            "title": "Pilot Study Assessing the Effect of Cyclin-dependent Kinase 4/6 Inhibitors on Body Composition in Patients With ER+/HER2- Metastatic Breast Cancer",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2019-01-08",
+            "completion_date": "2026-12",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The goal of this study is to evaluate changes in body composition among patients who are treated with cyclin-dependent kinase (CDK) 4/6 inhibitors (abemaciclib, ribociclib, or palbociclib).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed adenocarcinoma of the breast that is Estrogen Receptor (ER) and/or Progesterone Receptor (PR) positive based on current American Society of Clinical Oncology-College of American Pathologists (ASCO-CAP) guidelines\n* Metastatic or locally advanced/inflam",
+            "endpoints": [
+              "Change in Total adipose tissue (TAT)"
+            ],
+            "sponsor": "Montefiore Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03697577"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06630325",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART): Adaptive Clinical Treatment (ACT)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2025-06-24",
+            "completion_date": "2033-06-30",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This phase II trial tests the how well a precision medicine approach (serial measurements of molecular and architectural response to therapy \\[SMMART\\])-adaptive clinical treatment \\[ACT\\]) works in treating patients with sarcoma, prostate, breast, ovarian or pancreatic cancer that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). SMMART testing uses genetic and protein tests to learn how cancer changes and to understand what drug",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-SCREENING: Written informed consent prior to any Pre-Screening activities, study-specific procedures or interventions\n* PRE-SCREENING: At least 18 years of age at time of informed consent. Persons of all gender identities, biological sexes, races, and ethnicities will be i",
+            "endpoints": [
+              "Proportion of participants who receive an adaptive clinical treatment (ACT) therapy based serial measurements of molecular and architectural responses to therapy (SMMART)-ACT tumor board recommendation"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06630325"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04941274",
+            "title": "A Phase I/II Study of Abemaciclib in Patients With HIV-associated and HIV-negative Kaposi Sarcoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-09-29",
+            "completion_date": "2028-06-01",
+            "country": "United States",
+            "enrollment": 86,
+            "brief_summary": "Background:\n\nKaposi Sarcoma (KS) is common in people with human immunodeficiency virus (HIV) but can also occur in people who do not have HIV. KS tumors usually involve the skin, but may also involve lymph nodes, lungs, bone, and gastrointestinal tract. Researchers want to see if a drug that is currently used to treat a type of breast cancer can help.\n\nObjective:\n\nTo find a safe dose of abemaciclib to treat KS and to see if it can shrink lesions or tumors.\n\nEligibility:\n\nPeople ages 18 and older",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n* Participants must have Kaposi sarcoma confirmed by the Laboratory of Pathology, NCI\n* Measurable disease as follows:\n\n  * All participants in Groups 1, 2a, or 2b should have at least five measurable cutaneous KS lesions per AIDS Clinical Trials Group Oncology Committee (ACTG)",
+            "endpoints": [
+              "safety and tolerability of abemaciclib",
+              "overall response rate"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT04941274"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05413304",
+            "title": "Feasibility of Evaluating Abemaciclib Neuropharmacokinetics of Diffuse Midline Glioma Using Intratumoral Microdialysis",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-04-07",
+            "completion_date": "2027-09-01",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "Background:\n\nDiffuse midline gliomas are the most aggressive brain tumors of childhood and young adults. Most people with these tumors survive less than 2 years. Researchers want to see if an anticancer drug (abemaciclib) can help.\n\nObjective:\n\nTo see if researchers can measure how much abemaciclib is in a person's brain tumor and brain fluid after they take the drug for a few days.\n\nEligibility:\n\nPeople aged 18 to 39 with recurrent high-grade glioma or diffuse midline glioma.\n\nDesign:\n\nParticip",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\n  * Participants must have recurrent high grade glioma or midline glioma based on clinical and/or radiologic findings\n  * Participants with cortical high grade gliomas must have previous intra-operative pathology confirming disease\n  * Participants must be \\>= 18 and \\<= 39 ye",
+            "endpoints": [
+              "intra-tumoral sampling adequacy",
+              "concentration of abemaciclib",
+              "adverse events"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT05413304"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03939897",
+            "title": "A Randomized Phase I/II Trial of Fulvestrant and Abemaciclib in Combination With Copanlisib (FAC) Versus Fulvestrant and Abemaciclib Alone (FA) for Endocrine-Resistant, Hormone Receptor Positive, HER2 Negative Metastatic Breast Cancer (FAC vs FA)",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-06-17",
+            "completion_date": "2026-08-14",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This phase I trial studies the effects (good and bad) of adding copanlisib to the usual therapy of fulvestrant and abemaciclib in treating patients with hormone receptor positive and HER2 negative breast cancer that has spread from where it first started (breast) to other places in the body (metastatic). Some breast cancer cells have receptors for the hormones estrogen or progesterone. These cells are hormone receptor positive and they need estrogen or progesterone to grow. This can affect how t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed ER and/or PR positive, HER2 negative or non-amplified breast cancer that is stage IV, with measurable or non-measurable disease. ER/PR positivity is defined as at least 1% positive or an Allred score of at least 3. H",
+            "endpoints": [
+              "Dose-limiting Toxicity (DLT)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT03939897"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04750928",
+            "title": "A Phase 0/I/II Study of the Cyclin-Dependent Kinase(CDK)4/6 Inhibitor Abemaciclib for Neurofibromatosis Type 1 (NF1) Related Atypical Neurofibromas",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-11-29",
+            "completion_date": "2029-12-31",
+            "country": "United States",
+            "enrollment": 55,
+            "brief_summary": "Background:\n\nNF1 is a genetic disease that causes tumors called atypical neurofibromas. These tumors, which arise from nerves, can cause serious medical problems. The only treatment is surgery. Researchers want to see if a drug called abemaciclib can help.\n\nObjective:\n\nTo find a safe, tolerable dose of abemaciclib for treating atypical neurofibromas.\n\nEligibility:\n\nPeople ages 12 and older who have NF1 and have one or more atypical neurofibromas that cannot or will not be removed with surgery\n\nD",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n* All Participants\n* Participants must have a clinical diagnosis of NF1, i.e., participants must have at least two of the diagnostic criteria for NF1 or a confirmed NF1 mutation from a CLIA-certified laboratory:\n\n  * Six or more caf(SqrRoot)(Copyright)-au-lait macules (\\>= 0.5c",
+            "endpoints": [
+              "safety of abemaciclib in patients with NF1 and a measurable ANF"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT04750928"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07002177",
+            "title": "An Open-label, Multicenter, Phase Ib/II Clinical Study to Evaluate the Safety and Efficacy of Multiple Combination Therapies With FWD1802 in Subjects With ER-positive/HER2-negative Unresectable Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-06-01",
+            "completion_date": "2028-11-01",
+            "country": "China",
+            "enrollment": 196,
+            "brief_summary": "This is a Study to Evaluate the Efficacy and Safety of Multiple Combination Therapies with FWD1802 in Subjects with ER-positive/HER2-negative Unresectable Locally Advanced or Metastatic Breast Cancer",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects consent to provide blood samples for centralized laboratory testing of ESR1 mutation status and other biomarkers.\n* Histologically or cytologically confirmed ER-positive/HER2-negative locally advanced or metastatic breast cancer\n* Subjects must meet at least one of th",
+            "endpoints": [
+              "Phase Ib- Dose-Limiting Toxicity (DLT).",
+              "Phase Ib- Maximum Tolerated Dose (MTD).",
+              "Phase Ib- Recommended Phase II Dose (RP2D)."
+            ],
+            "sponsor": "Forward Pharmaceuticals Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT07002177"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02523014",
+            "title": "Phase II Trial of SMO/ AKT/ NF2/CDK Inhibitors in Progressive Meningiomas With SMO/ AKT/ NF2/CDK Pathway Mutations",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2015-09-28",
+            "completion_date": "2028-01",
+            "country": "United States",
+            "enrollment": 124,
+            "brief_summary": "This phase II trial studies how well vismodegib, focal adhesion kinase (FAK) inhibitor GSK2256098, and capivasertib work in treating patients with meningioma that is growing, spreading, or getting worse (progressive). Vismodegib, FAK inhibitor GSK2256098, capivasertib, and abemaciclib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "* Documentation of disease:\n\n  * Histologic documentation: histologically proven intracranial meningioma as documented by central pathology review\n  * Molecular documentation: Presence of SMO, PTCH1, NF2, CDKN2A, AKT1, PIK3CA, PTEN mutations, CDKN2A copy number loss, CDK4, CDK6, CCND1, CCND2, CCND3,",
+            "endpoints": [
+              "Progression free survival (PFS)",
+              "Response rate defined as a confirmed complete response (CR) or partial response (PR)"
+            ],
+            "sponsor": "Alliance for Clinical Trials in Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT02523014"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06570031",
+            "title": "ONO-4578-06: Phase I , Open-label, Non-blind, First-line Endocrine Therapy With ONO-4578 and Standard Treatment Letrozole and CDK4/6 Inhibitors (Palbociclib or Abemaciclib) in Patients With Metastatic or Recurrent Postmenopausal Hormone Receptor-positive HER2-negative Breast Cancer",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-11-09",
+            "completion_date": "2026-04-30",
+            "country": "Japan",
+            "enrollment": 46,
+            "brief_summary": "This is a multicenter, open-label, non-controlled, phase I study to investigate the tolerability and safety of ONO-4578 used in combination with standard-of-care letrozole and a CDK4/6 inhibitor (palbociclib or Abemaciclib) as first-line endocrine therapy in postmenopausal patients with metastatic or recurrent hormone receptor-positive, HER2-negative breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with postmenopausal metastatic or recurrent breast cancer\n2. Patients with ECOG Performance Status 0 to 1\n3. ER-positive, PgR-positive and HER2-negative patients\n\nExclusion Criteria:\n\n1. Patients are unable to swallow oral medications\n2. Patients with severe complica",
+            "endpoints": [
+              "Adverse events",
+              "Serious adverse events",
+              "Dose-limiting toxicity (Tolerability Confirmation part only)"
+            ],
+            "sponsor": "Ono Pharmaceutical Co. Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT06570031"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37343080",
+            "title": "An improved reporter identifies ruxolitinib as a potent and cardioprotective CaMKII inhibitor.",
+            "abstract": "Ca2+/calmodulin-dependent protein kinase II (CaMKII) hyperactivity causes cardiac arrhythmias, a major source of morbidity and mortality worldwide. Despite proven benefits of CaMKII inhibition in numerous preclinical models of heart disease, translation of CaMKII antagonists into humans has been stymied by low potency, toxicity, and an enduring concern for adverse effects on cognition due to an established role of CaMKII in learning and memory. To address these challenges, we asked whether any clinically approved drugs, developed for other purposes, were potent CaMKII inhibitors. For this, we engineered an improved fluorescent reporter, CaMKAR (CaMKII activity reporter), which features superior sensitivity, kinetics, and tractability for high-throughput screening. Using this tool, we carried out a drug repurposing screen (4475 compounds in clinical use) in human cells expressing constitutively active CaMKII. This yielded five previously unrecognized CaMKII inhibitors with clinically re",
+            "journal": "Science translational medicine",
+            "year": "2023",
+            "authors": [
+              "Reyes Gaido Oscar E",
+              "Pavlaki Nikoleta",
+              "Granger Jonathan M",
+              "Mesubi Olurotimi O",
+              "Liu Bian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Child",
+              "Humans",
+              "Mice",
+              "Arrhythmias, Cardiac",
+              "Calcium",
+              "Calcium-Calmodulin-Dependent Protein Kinase Type 2",
+              "Heart Diseases",
+              "Myocytes, Cardiac",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37343080/"
+          },
+          {
+            "pmid": "37129951",
+            "title": "Inhibition of ACAA1 Restrains Proliferation and Potentiates the Response to CDK4/6 Inhibitors in Triple-Negative Breast Cancer.",
+            "abstract": "Triple-negative breast cancer (TNBC) is an aggressive subtype of breast cancer with unfavorable outcomes. Developing therapeutic targets for TNBC remains a challenge. Here, we identified that acetyl-CoA acyltransferase 1 (ACAA1) is highly expressed in the luminal androgen receptor (LAR) subtype of TNBC compared with adjacent normal tissues in our TNBC proteomics dataset. Inhibition of ACAA1 restrained TNBC proliferation and potentiated the response to the cyclin-dependent kinase 4 and 6 (CDK4/6) inhibitor abemaciclib. Mechanistically, ACAA1 interacted with CDK4, and the inhibition of ACAA1 blocked RB transcriptional corepressor 1 (RB1) phosphorylation, resulting in G1-S cell-cycle arrest. Importantly, trimetazidine, a traditional drug for ischemic heart disease, caused a decrease in ACAA1 protein levels and enhanced the efficacy of abemaciclib in preclinical TNBC models. In conclusion, this study identifies that ACAA1 is a therapeutic target in TNBC and suggests the combination of trim",
+            "journal": "Cancer research",
+            "year": "2023",
+            "authors": [
+              "Peng Wen-Ting",
+              "Jin Xi",
+              "Xu Xiao-En",
+              "Yang Yun-Song",
+              "Ma Ding"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Triple Negative Breast Neoplasms",
+              "Trimetazidine",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Protein Kinase Inhibitors",
+              "Cyclin-Dependent Kinase 4",
+              "Acetyl-CoA C-Acyltransferase",
+              "Aminopyridines",
+              "Benzimidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37129951/"
+          },
+          {
+            "pmid": "40116800",
+            "title": "Abemaciclib-associated kidney injuries: A retrospective analysis of the United States Food and Drug Administration adverse events reporting system.",
+            "abstract": "BackgroundAbemaciclib, an oral kinase inhibitor, is used to treat hormone receptor-positive and HER2-negative breast cancer patients. However, there has been a decrease in studies reporting adverse reactions to abemaciclib-related kidney injuries. Thus, this study was aimed at assessing its safety profile using a large-scale pharmacovigilance database.MethodsAbemaciclib-related adverse drug reaction reports from the Food and Drug Administration Adverse Event Reporting System were obtained and scrutinized, and adverse drug reactions were selected using reporting odds ratio, the proportional reporting ratio methods, empirical Bayes geometric mean and UK Medicines and Healthcare products Regulatory Agency methods.ResultsWe selected 10,757 matched reports associated with abemaciclib, among which we found eight adverse reactions about kidney injuries correlated with abeamciclib, such as increased blood creatinine, renal disorder, decreased glomerular filtration rate, increased blood urea, h",
+            "journal": "The Journal of international medical research",
+            "year": "2025",
+            "authors": [
+              "Xu Xiangchun",
+              "Guo Xuzheng",
+              "Chen Jinhui",
+              "Pan Yuhua",
+              "Li Jing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Adverse Drug Reaction Reporting Systems",
+              "Male",
+              "Aminopyridines",
+              "Benzimidazoles",
+              "Middle Aged",
+              "Retrospective Studies",
+              "United States",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40116800/"
+          },
+          {
+            "pmid": "39254653",
+            "title": "QTc prolongation across CDK4/6 inhibitors: a systematic review and meta-analysis of randomized controlled trials.",
+            "abstract": "Cyclin-dependent kinases (CDK) 4/6 inhibitors have significantly improved outcomes for patients with ER+/HER2- breast cancer. Nevertheless, they differ from each other in terms of chemical, biological, and pharmacological features, as well as toxicity profiles. We aim to determine whether QTc prolongation is caused by CDK4/6i in general or if it is associated with ribociclib only.",
+            "journal": "JNCI cancer spectrum",
+            "year": "2024",
+            "authors": [
+              "Murad Bruno",
+              "Reis Pedro C A",
+              "Deberaldini Marinho Alice",
+              "Marin Comini Ana Carolina",
+              "Pinheiro Xavier Débora"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Aminopyridines",
+              "Breast Neoplasms",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Long QT Syndrome",
+              "Piperazines",
+              "Protein Kinase Inhibitors",
+              "Purines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39254653/"
+          },
+          {
+            "pmid": "41496429",
+            "title": "Age-stratified toxicity patterns of CDK4/6 inhibitors in older women with breast cancer: Disproportionality analysis from the FAERS database.",
+            "abstract": "Despite their benefits, the safety of cyclin-dependent kinases 4 and 6 (CDK4/6) inhibitors in older patients remains underexplored. We aimed to investigate the toxicities associated with CDK4/6 inhibitors in subgroups of older patients, through analysis of the FAERS database.",
+            "journal": "Breast (Edinburgh, Scotland)",
+            "year": "2026",
+            "authors": [
+              "Köylü Bahadır",
+              "Esen Buğra Han",
+              "Kıkılı Cevat İlteriş",
+              "Kemik Fatih",
+              "Demir Nazan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Breast Neoplasms",
+              "Aged",
+              "Aminopyridines",
+              "Purines",
+              "Cyclin-Dependent Kinase 4",
+              "Middle Aged",
+              "Retrospective Studies",
+              "Cyclin-Dependent Kinase 6"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41496429/"
+          },
+          {
+            "pmid": "36164682",
+            "title": "The protective effect of curcumin on cardiac markers and fibrosis in abemaciclib-induced cardiac damage in rats.",
+            "abstract": "Abemaciclib (ABE) is a cyclin-dependent kinase inhibitor used in combination with an antiestrogen in the treatment of breast cancer. In addition to the important therapeutic properties of this drug, its side effects are not fully known. In this study, we aimed to investigate the protective effect of curcumin (CUR) on cardiac damage caused by ABE administration. Forty rats were equally divided into control, dimethyl sulfoxide (150 µL), CUR (30 mg/kg/day), ABE (26 mg/kg/day), and ABE + CUR (26 mg/kg/day ABE and 30mg/kg/day CUR) groups (n = 8). Injections were administered daily for 28 days. Troponin-I, total cholesterol, and creatine kinase myocardial band (CK-MB) levels and cardiac fibrosis were higher in the ABE group than in the control group (p < 0.05), and were lower in the ABE + CUR group than in the ABE group (p < 0.05). The results showed that ABE administration can cause cardiac damage and increase cardiac fibrosis. However, they showed that coadministration of CUR with ABE coul",
+            "journal": "Journal of biochemical and molecular toxicology",
+            "year": "2023",
+            "authors": [
+              "Huyut Zübeyir",
+              "Uçar Bünyamin",
+              "Yıldızhan Kenan",
+              "Altındağ Fikret"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Rats",
+              "Animals",
+              "Curcumin",
+              "Troponin I",
+              "Cardiomyopathies",
+              "Fibrosis",
+              "Cholesterol",
+              "Aminopyridines",
+              "Benzimidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36164682/"
+          },
+          {
+            "pmid": "41422771",
+            "title": "Risk of QTc prolongation, and major cardiovascular adverse events associated with CDK4/6 inhibitors in hormone receptor-positive HER2-negative breast cancer - A systematic review and meta-analysis.",
+            "abstract": "Cyclin-Dependent Kinase 4/6 inhibitors (CDK4/6i) improve survival in HR+/HER2- breast cancer, but agent-specific cardiotoxicity remains a concern. We evaluated the risk of QTc prolongation, and other cardiovascular adverse events (CVAEs) associated with ribociclib, palbociclib, and abemaciclib.",
+            "journal": "Cancer treatment reviews",
+            "year": "2026",
+            "authors": [
+              "Hoo Yee-Yin",
+              "Sia Wei-Wei",
+              "Jaya-Prakason Sharminii",
+              "Koczwara Bogda",
+              "Kong Yek-Ching"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Breast Neoplasms",
+              "Cyclin-Dependent Kinase 6",
+              "Cyclin-Dependent Kinase 4",
+              "Female",
+              "Long QT Syndrome",
+              "Protein Kinase Inhibitors",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Aminopyridines",
+              "Purines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41422771/"
+          },
+          {
+            "pmid": "33477469",
+            "title": "CDK4/6 Inhibitor Treatments in Patients with Hormone Receptor Positive, Her2 Negative Advanced Breast Cancer: Potential Molecular Mechanisms, Clinical Implications and Future Perspectives.",
+            "abstract": "Hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative breast cancer is the most common breast cancer subtype, and endocrine therapy (ET) remains its therapeutic backbone. Although anti-estrogen therapies are usually effective initially, approximately 50% of HR+ patients develop resistance to ET within their lifetime, ultimately leading to disease recurrence and limited clinical benefit. The recent addition of cyclin-dependent kinase 4 (CDK4) and CDK6 inhibitors (palbociclib, ribociclib, abemaciclib) to ET have remarkably improved the outcome of patients with HR+ advanced breast cancer (ABC) compared with anti-estrogens alone, by targeting the cell-cycle machinery and overcoming some aspects of endocrine resistance. However, which patients are the better candidates for these drugs, which are the main characteristics for a better selection of patients or if there are predictive biomarkers of response, is still unknown. In this review we reported the mec",
+            "journal": "Cancers",
+            "year": "2021",
+            "authors": [
+              "Roberto Michela",
+              "Astone Antonio",
+              "Botticelli Andrea",
+              "Carbognin Luisa",
+              "Cassano Alessandra"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33477469/"
+          },
+          {
+            "pmid": "41527715",
+            "title": "Exploratory Biomarker Analysis of Abemaciclib in Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma With Dysregulated CDK4/6 Pathway.",
+            "abstract": "HPV-negative HNSCC is driven by cell cycle dysregulation, including CDK4/6 activation. Abemaciclib targets this pathway and may offer therapeutic benefits. This study aimed to identify biomarkers predicting abemaciclib efficacy.",
+            "journal": "Head & neck",
+            "year": "2026",
+            "authors": [
+              "Park Joo-Hwan",
+              "Ahn Hee Kyung",
+              "Kim Hye Ryun",
+              "Kim Soyeon",
+              "Park Keon-Uk"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41527715/"
+          },
+          {
+            "pmid": "41602789",
+            "title": "Integration of pre‑existing cardiovascular comorbidity into CDK4/6 inhibitor selection for breast cancer.",
+            "abstract": "Cyclin-dependent kinase 4/6 (CDK4/6) inhibitors differ in cardiovascular (CV) safety. Ribociclib has been associated with a higher risk of CV adverse events compared to palbociclib and abemaciclib.",
+            "journal": "Therapeutic advances in drug safety",
+            "year": "2026",
+            "authors": [
+              "Park Chanhyun",
+              "Kim Kiyoung",
+              "Abifaraj Nora B",
+              "Bryant Sydney D",
+              "Heo Ji Haeng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41602789/"
+          },
+          {
+            "pmid": "38482864",
+            "title": "A real-world pharmacovigilance study of QT interval prolongation and Torsades de Pointes associated with CDK4/6 inhibitors in breast cancer patients: findings from the FDA adverse event reporting system.",
+            "abstract": "The aim of this study was to evaluate the association between CDK4/6 inhibitors and QT interval prolongation (QTp) and Torsades de Pointes (TdP) in breast cancer patients.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2024",
+            "authors": [
+              "Yan Yu",
+              "Wu Bin",
+              "Wang Ling"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Torsades de Pointes",
+              "Adverse Drug Reaction Reporting Systems",
+              "Pharmacovigilance",
+              "Cyclin-Dependent Kinase 4",
+              "Breast Neoplasms",
+              "United States",
+              "Long QT Syndrome",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38482864/"
+          },
+          {
+            "pmid": "33260247",
+            "title": "Coronary Plaque Erosion after Abemaciclib Treatment Onset: An Unknown Side Effect?",
+            "abstract": "The current article describes a 72-year-old woman who suffered an acute myocardial infarction due to plaque erosion (PE) 2 weeks after abemaciclib treatment onset due to advanced breast cancer. Abemaciclib is a cyclin-dependent kinase 4 and 6 inhibitor that has recently demonstrated efficacy and safety in advanced breast cancer. Of major concern, however, reported thromboembolic rates in randomized clinical trials testing this drug range from 0.6 to 5%. To the best of our knowledge this is the first thrombotic coronary side effect ever reported. We suggest that a treatment that increases thromboembolic risk, such abemaciclib, may have triggered PE in our patient, 15 days after abemaciclib initiation. New molecules are promising in cancer treatment; however, care must be paid to their potential cardiotoxic effects.",
+            "journal": "Thrombosis and haemostasis",
+            "year": "2021",
+            "authors": [
+              "Vera Alberto",
+              "Rivero Fernando",
+              "Salamanca Jorge",
+              "Alvarado-Casas Teresa",
+              "Alfonso Fernando"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aminopyridines",
+              "Antineoplastic Agents",
+              "Artifacts",
+              "Benzimidazoles",
+              "Breast Neoplasms",
+              "Coronary Vessels",
+              "Enoxaparin",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33260247/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Laubry-Pezzi syndrome",
+        "txgnn_score": 0.9630116820335388,
+        "txgnn_rank": 23465,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+        "txgnn_score": 0.962885558605194,
+        "txgnn_rank": 23502,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Jeune syndrome situs inversus",
+        "txgnn_score": 0.9623261094093324,
+        "txgnn_rank": 23656,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis",
+        "txgnn_score": 0.9622904062271118,
+        "txgnn_rank": 23669,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38596406",
+            "title": "Abemaciclib and Vacuolin-1 decrease aggregate-prone TDP-43 accumulation by accelerating autophagic flux.",
+            "abstract": "(Macro)autophagy is a cellular degradation system for unnecessary materials, such as aggregate-prone TDP-43, a central molecule in neurodegenerative diseases including amyotrophic lateral sclerosis and frontotemporal lobar degeneration. Abemaciclib (Abe) and vacuolin-1 (Vac) treatments are known to induce vacuoles characterized by an autophagosome and a lysosome component, suggesting that they facilitate autophagosome-lysosome fusion. However, it remains unknown whether Abe and Vac suppress the accumulation of aggregate-prone TDP-43 by accelerating autophagic flux. In the present study, the Abe and Vac treatment dose-dependently reduced the GFP/RFP ratio in SH-SY5Y neuroblastoma cells stably expressing the autophagic flux marker GFP-LC3-RFP-LC3ΔG. Abe and Vac also increased the omegasome marker GFP-ATG13 signal and the autophagosome marker mCherry-LC3 localized to the lysosome marker LAMP1-GFP. The Abe and Vac treatment decreased the intracellular level of the lysosome marker LAMP1-GFP",
+            "journal": "Biochemistry and biophysics reports",
+            "year": "2024",
+            "authors": [
+              "Tanaka Yoshinori",
+              "Kozuma Lina",
+              "Hino Hirotsugu",
+              "Takeya Kosuke",
+              "Eto Masumi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38596406/"
+          },
+          {
+            "pmid": "35865348",
+            "title": "P97/VCP ATPase inhibitors can rescue p97 mutation-linked motor neuron degeneration.",
+            "abstract": "Mutations in p97/VCP cause two motor neuron diseases: inclusion body myopathy associated with Paget disease of bone and frontotemporal dementia and familial amyotrophic lateral sclerosis. How p97 mutations lead to motor neuron degeneration is, however, unknown. Here we used patient-derived induced pluripotent stem cells to generate p97 mutant motor neurons. We reduced the genetic background variation by comparing mutant motor neurons to its isogenic wild type lines. Proteomic analysis reveals that p97R155H/+ motor neurons upregulate several cell cycle proteins at Day 14, but this effect diminishes by Day 20. Molecular changes linked to delayed cell cycle exit are observed in p97 mutant motor neurons. We also find that two p97 inhibitors, CB-5083 and NMS-873, restore some dysregulated protein levels. In addition, two p97 inhibitors and a food and drug administration-approved cyclin-dependent kinase 4/6 inhibitor, Abemaciclib, can rescue motor neuron death. Overall, we successfully used ",
+            "journal": "Brain communications",
+            "year": "2022",
+            "authors": [
+              "Wang F",
+              "Li S",
+              "Wang T Y",
+              "Lopez G A",
+              "Antoshechkin I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35865348/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12001",
+    "name": "Abemaciclib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Abemaciclib"
+      },
+      "queried_at": "2026-03-10T08:23:21.442529",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Abemaciclib"
+      },
+      "queried_at": "2026-03-10T08:23:33.519020",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:23:34.115697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:23:38.520685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:23:40.566333",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T08:23:41.196865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T08:23:44.717803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T08:23:45.381127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T08:23:48.028509",
+      "status": "success",
+      "result_count": 21,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T08:23:51.353144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T08:23:52.702169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+      },
+      "queried_at": "2026-03-10T08:23:53.299635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+      },
+      "queried_at": "2026-03-10T08:23:56.594138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+      },
+      "queried_at": "2026-03-10T08:23:57.637448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T08:23:58.178959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T08:24:01.154175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T08:24:01.996983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T08:24:04.471880",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T08:24:08.533840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T08:24:11.155816",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "queried_at": "2026-03-10T08:24:12.174513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "queried_at": "2026-03-10T08:24:15.687993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "queried_at": "2026-03-10T08:24:17.411207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "queried_at": "2026-03-10T08:24:18.505784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "queried_at": "2026-03-10T08:24:22.076840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "queried_at": "2026-03-10T08:24:23.045962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T08:24:23.596737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T08:24:27.187110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T08:24:28.611483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T08:24:29.318059",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T08:24:33.984348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Abemaciclib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T08:24:36.859382",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:24:36.877929"
+  }
+}

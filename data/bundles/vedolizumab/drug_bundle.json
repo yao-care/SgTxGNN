@@ -1,0 +1,1125 @@
+{
+  "drug": {
+    "inn": "Vedolizumab",
+    "drugbank_id": "DB09033",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9451361894607544,
+        "txgnn_rank": 27786,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatitis",
+        "txgnn_score": 0.935722291469574,
+        "txgnn_rank": 29607,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06646016",
+            "title": "EPIC - A Phase 2, Randomized, Open-label, Multicenter, Controlled Study to Evaluate the Efficacy, Safety, and Tolerability of Extracorporeal Photopheresis (ECP) Versus Best Available Therapy (BAT) in Melanoma or Non-Small Cell Lung Cancer (NSCLC) Patients With Immune-related Colitis Induced by Immune Checkpoint Inhibitor Therapy Who Have Inadequate Response to Steroids",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2025-12-15",
+            "completion_date": "2027-02-19",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The photoactivating agent UVADEX (methoxsalen) is used in conjunction with extracorporeal photopheresis (ECP) as an immunomodulatory therapy approved for the treatment of cutaneous T-cell lymphoma. ECP involves collecting whole blood from the patient, separating white blood cells (WBCs) via centrifugation, combining them with UVADEX, and then exposing them to ultraviolet A (UVA) light. All blood components, including the treated WBCs, are then returned to the patient.\n\nImmune Checkpoint inhibito",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants diagnosed with unresectable or metastatic melanoma or unresectable, advanced or metastatic NSCLC, who received ICI treatment with agents like anti-programmed death-1 (PD-1), anti-cytotoxic T-lymphocyte antigen 4 (CTLA-4), and had shown a response to the treatment,",
+            "endpoints": [
+              "Proportion of Participants with Remission of ir-colitis at End of Treatment"
+            ],
+            "sponsor": "Therakos LLC",
+            "url": "https://clinicaltrials.gov/study/NCT06646016"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05680883",
+            "title": "Better Control and Treatment of Ulcerative Colitis by Exploring the Universe of Microenvironment Imposed Tissue Signatures and Their Correlates in Liquid Biopsies",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2022-05-05",
+            "completion_date": "2023-11-05",
+            "country": "Netherlands",
+            "enrollment": 40,
+            "brief_summary": "Immune-mediated diseases are extremely diverse - patients with the same diagnosis may see the disease progress in very different ways, and respond differently to treatments. This is because the course of the disease is influenced by multiple factors, including the patient's genes, immune system, environment, and the microbes living in their gut. Furthermore, all of these factors interact with and impact on one another. As a result, it is very hard to predict how the disease will develop in a spe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of Ulcerative Colitis\n* Age ≥ 18 years\n* Present in the hospital for a regular outpatient visit\n* Willing and able to comply with the study related procedures\n* Provide signed informed consent\n\nExclusion Criteria:\n\n* Age ≤ 18 years\n* Unable to give informed consent\n*",
+            "endpoints": [
+              "Comparing immune cells in blood, inflamed and uninflamed colonic biopsies by means of flow cytometry",
+              "Comparing immune cells in blood, inflamed and uninflamed colonic biopsies by means of flow cytometry",
+              "Comparing gene expression profiles in blood, inflamed and uninflamed colonic biopsies"
+            ],
+            "sponsor": "Radboud University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05680883"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06499896",
+            "title": "Phase II Trial of Healthy-donor Derived Full-spectrum Microbiome Therapeutic MTP-101-C in Steroid Relapse/Refractory Immune-related Cutaneous Adverse Events (irCAEs) and Immune-mediated Colitis (IMC) (FMT-ELIMINATE)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-01-23",
+            "completion_date": "2031-09-30",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "Multiple retrospective studies suggest that the administration of corticosteroids to treat irAEs is safe, and does not compromise efficacy of ICI therapy in cancer patients. While \\~67% of patients respond to corticosteroids, 33% of patients require biologic therapy such as TNFα inhibitors (e.g. infliximab), integrin α4β7 inhibitors (e.g. vedolizumab), or JAK/STAT inhibitors (e.g. tofactinib). This study aims to determine that distinct pathobionts govern the development of irCAE and IMC; and tha",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Able to swallow oral medication.\n* The participant provides written informed consent for the trial.\n* Willingness to use contraception for duration of trial participation. Male participants: A male participant must agree to use a contraception per protocol during the treatment",
+            "endpoints": [
+              "Incidence of adverse events (AEs)",
+              "Incidence of Dose-Limiting Toxicities (DLTs)"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT06499896"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38740543",
+            "title": "The impact of vedolizumab therapy on extraintestinal manifestations in patients with inflammatory bowel disease: A systematic review and meta-analysis.",
+            "abstract": "Extraintestinal manifestations (EIMs) pose a significant threat in inflammatory bowel disease (IBD) patients. Vedolizumab (VDZ) primarily affects the gastrointestinal tract. However, its impact on EIMs remains uncertain. Therefore, we conducted this meta-analysis to examine the effects of VDZ on EIMs during treatment.",
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2024",
+            "authors": [
+              "Zheng Dian-Yu",
+              "Wang Yi-Nuo",
+              "Huang Yu-Hong",
+              "Jiang Min",
+              "Ma Yi-Nan"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antibodies, Monoclonal, Humanized",
+              "Inflammatory Bowel Diseases",
+              "Gastrointestinal Agents",
+              "Erythema Nodosum",
+              "Treatment Outcome",
+              "Disease Progression",
+              "Skin Diseases",
+              "Arthralgia",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38740543/"
+          },
+          {
+            "pmid": "39606602",
+            "title": "Adult-onset atopic dermatitis induced by vedolizumab: a case series.",
+            "abstract": "",
+            "journal": "Postepy dermatologii i alergologii",
+            "year": "2024",
+            "authors": [
+              "Nucera Eleonora",
+              "Urbani Sara",
+              "Aruanno Arianna",
+              "Scaldaferri Franco",
+              "D'Urso Dario"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39606602/"
+          },
+          {
+            "pmid": "35199379",
+            "title": "Psoriasiform dermatitis in a girl with ulcerative colitis receiving vedolizumab.",
+            "abstract": "",
+            "journal": "The Journal of dermatology",
+            "year": "2022",
+            "authors": [
+              "Tsuchiya Marie",
+              "Hashimoto Rena",
+              "Arai Katsuhiro",
+              "Yoshida Kazue"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Colitis, Ulcerative",
+              "Crohn Disease",
+              "Eczema",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35199379/"
+          },
+          {
+            "pmid": "32472465",
+            "title": "Targeted Therapies for Eosinophilic Gastrointestinal Disorders.",
+            "abstract": "The growing recognition of eosinophilic gastrointestinal disorders has revealed the limitations of current treatment (mainly based on dietary modification and corticosteroids), and include refractoriness, high recurrence rates, and the need for long-term therapy. Research efforts, mainly in eosinophilic esophagitis (EoE), have unveiled essential pathophysiological mechanisms leading to these disorders, which bear some similarities to those of atopic manifestations and are shared by eosinophilic gastroenteritis (EGE) and eosinophilic colitis (EC). Novel targeted therapies, some imported from bronchial asthma and atopic dermatitis, are currently being assessed in EoE. The most promising are monoclonal antibodies, including those targeting interleukin (IL)-13 (cendakimab) and IL-4 (dupilumab), with phase 3 trials currently ongoing. The potential of anti-integrin therapy (vedolizumab) and Siglec-8 blockers (antolimab) in EGE are also promising. Non-biological therapies for eosinophilic gut",
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2020",
+            "authors": [
+              "Lucendo Alfredo J",
+              "López-Sánchez Piedad"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Clinical Trials, Phase III as Topic",
+              "Enteritis",
+              "Eosinophilia",
+              "Eosinophilic Esophagitis",
+              "Gastritis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32472465/"
+          },
+          {
+            "pmid": "36064828",
+            "title": "A Single-Center Experience with Dupilumab for Atopic or Psoriasiform Dermatitis in Patients with Inflammatory Bowel Disease.",
+            "abstract": "Dupilumab blocks IL4/IL13 and is used in atopic disease. There are concerns that blockade may lead to inflammatory bowel disease (IBD) inception or activity. Limited data exist on the use of this therapy in patients with IBD; we aimed to describe our experience using dupilumab in IBD to treat concomitant atopic dermatitis (AD) or anti-TNF-induced dermatitis.",
+            "journal": "Digestive diseases and sciences",
+            "year": "2023",
+            "authors": [
+              "Spencer Elizabeth A",
+              "Dolinger Michael T",
+              "Dubinsky Marla C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Dermatitis, Atopic",
+              "Ustekinumab",
+              "Tumor Necrosis Factor Inhibitors",
+              "Inflammatory Bowel Diseases",
+              "Treatment Outcome",
+              "Severity of Illness Index",
+              "Antibodies, Monoclonal, Humanized"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36064828/"
+          },
+          {
+            "pmid": "33880650",
+            "title": "Safety and effectiveness of vedolizumab in paediatric patients with inflammatory bowel disease: an observational multicentre Spanish study.",
+            "abstract": "Vedolizumab is a humanised monoclonal antibody that binds to integrin α4β7 expressed in T-cells, inhibiting its binding to the mucosal addressin cell adhesion molecule-1 (MAdCAM-1), which is specifically expressed in the small intestine and colon, playing a fundamental role in T-cell migration to the gastrointestinal tract. Vedolizumab has been shown to be effective in treating adults with inflammatory bowel disease; however, efficacy data for paediatric use are scarce. The objective of the present study was to assess the effectiveness and safety of vedolizumab for inducing and maintaining clinical remission in children with inflammatory bowel disease. We conducted a retrospective multicentre study of patients younger than 18 years with inflammatory bowel disease refractory to anti-tumour necrosis factor alpha (anti-TNF-α) drugs, who underwent treatment with vedolizumab. Clinical remission was defined as a score < 10 points in the activity indices. We included 42 patients, 22 of whom w",
+            "journal": "European journal of pediatrics",
+            "year": "2021",
+            "authors": [
+              "Garcia-Romero Ruth",
+              "Martinez de Zabarte Fernandez José Miguel",
+              "Pujol-Muncunill Gemma",
+              "Donat-Aliaga Ester",
+              "Segarra-Cantón Oscar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antibodies, Monoclonal, Humanized",
+              "Child",
+              "Colitis, Ulcerative",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans",
+              "Inflammatory Bowel Diseases",
+              "Male",
+              "Remission Induction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33880650/"
+          },
+          {
+            "pmid": "35659138",
+            "title": "Interstitial Granulomatous Dermatitis as an Adverse Reaction to Vedolizumab.",
+            "abstract": "A 61-year-old woman with a medical history of ulcerative colitis (UC) developed an erythematous, mildly pruritic, maculopapular rash that was histologically consistent with reactive granulomatous dermatitis (RGD) with interstitial granulomatous dermatitis (IGD)-type features 1 week after vedolizumab infusion. Awareness of this complication is key to enhanced recognition and appropriate management as use of this medication becomes more prevalent.",
+            "journal": "Cutis",
+            "year": "2022",
+            "authors": [
+              "Beuerlein Katherine G",
+              "Martin Elise D",
+              "Strowd Lindsay C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Autoimmune Diseases",
+              "Colitis, Ulcerative",
+              "Dermatitis",
+              "Female",
+              "Granuloma",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35659138/"
+          },
+          {
+            "pmid": "29668916",
+            "title": "Extraintestinal Manifestations in Vedolizumab and Anti-TNF-Treated Patients With Inflammatory Bowel Disease.",
+            "abstract": "Extra-intestinal manifestations (EIMs) can impact morbidity in patients with inflammatory bowel diseases (IBD; Crohn's disease [CD] and ulcerative colitis [UC]). This study compared incidence rates of EIMs in patients with moderate to severe IBD receiving gut-selective vedolizumab (VDZ) vs those receiving systemic anti-tumor necrosis factor (anti-TNF) therapies.",
+            "journal": "Inflammatory bowel diseases",
+            "year": "2018",
+            "authors": [
+              "Dubinsky Marla C",
+              "Cross Raymond K",
+              "Sandborn William J",
+              "Long Millie",
+              "Song Xue"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Cholangitis, Sclerosing",
+              "Colitis, Ulcerative",
+              "Crohn Disease",
+              "Databases, Factual",
+              "Erythema Nodosum",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29668916/"
+          },
+          {
+            "pmid": "33208632",
+            "title": "Hidradenitis Suppurativa Caused by Vedolizumab.",
+            "abstract": "",
+            "journal": "Dermatitis : contact, atopic, occupational, drug",
+            "year": "2021",
+            "authors": [
+              "Licata Gaetano",
+              "Gambardella Alessio",
+              "De Rosa Alina",
+              "Calabrese Giulia",
+              "Alfano Roberto"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Colitis, Ulcerative",
+              "Female",
+              "Gastrointestinal Agents",
+              "Hidradenitis Suppurativa",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33208632/"
+          },
+          {
+            "pmid": "30677821",
+            "title": "Acneiform eruption induced by vedolizumab.",
+            "abstract": "The development of new biological drugs for the treatment of advanced oncological processes or severe inflammatory diseases brings with it the appearance of new adverse effects. Vedolizumab, an α4β7 integrin inhibitor antibody, is approved for induction and maintenance therapy in both Crohn disease and ulcerative colitis. We report a case of severe acneiform eruption induced by vedolizumab in a 17-year-old woman with ulcerative colitis.",
+            "journal": "Dermatology online journal",
+            "year": "2018",
+            "authors": [
+              "Magdaleno-Tapial Jorge",
+              "Ferrer-Guillén Blanca",
+              "Valenzuela-Oñate Cristian",
+              "Esteve-Martínez Altea"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acneiform Eruptions",
+              "Adolescent",
+              "Antibodies, Monoclonal, Humanized",
+              "Colitis, Ulcerative",
+              "Drug Eruptions",
+              "Facial Dermatoses",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30677821/"
+          },
+          {
+            "pmid": "29654701",
+            "title": "Vedolizumab-induced acne in inflammatory bowel disease.",
+            "abstract": "",
+            "journal": "International journal of dermatology",
+            "year": "2018",
+            "authors": [
+              "Gilhooley Eimear",
+              "Doherty Glen",
+              "Lally Aoife"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Antibodies, Monoclonal, Humanized",
+              "Colitis, Ulcerative",
+              "Drug Eruptions",
+              "Gastrointestinal Agents",
+              "Humans",
+              "Male",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29654701/"
+          },
+          {
+            "pmid": "36713411",
+            "title": "Case report: Dupilumab treatment improved type 2 disorders in a patient with IPEX syndrome diagnosis.",
+            "abstract": "We described a case of IPEX syndrome successfully controlled with dupilumab, an anti-IL4 receptor alpha subunit inhibitor. IPEX syndrome is a rare and generally fatal genetic disorder characterized by immune dysregulation, polyendocrinopathy and enteropathy, mostly diagnosed in early childhood. Nonetheless, cases reported in the last 20 years demonstrated that IPEX clinical spectrum encompasses more than the classical triad of early-onset intractable diarrhea, type 1 diabetes and eczema. Atypical cases of IPEX include patients with late-onset of symptoms, single-organ involvement, mild disease phenotypes or rare clinical features. A 21-year-old caucasian man presented with immune dysregulation (hypereosinophilia and elevated IgE), protein-losing enteropathy, polyendocrinopathy (thyroiditis, osteoporosis, delayed puberty), weight loss, eczema manifestations and celiac disease. IPEX syndrome was diagnosed because of the presence of a hemizygous mutation in FOXP3 gene (c.543C>T (p.S181S) ",
+            "journal": "Frontiers in immunology",
+            "year": "2022",
+            "authors": [
+              "Caruso C",
+              "Laterza L",
+              "Settanni C R",
+              "Colantuono S",
+              "Di Mario C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Quality of Life",
+              "Diabetes Mellitus, Type 2",
+              "Eczema",
+              "Humans",
+              "Male",
+              "Young Adult",
+              "Dermatitis, Atopic",
+              "Antibodies, Monoclonal, Humanized",
+              "Diabetes Mellitus, Type 1",
+              "Diarrhea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36713411/"
+          },
+          {
+            "pmid": "29182760",
+            "title": "Expression Patterns of TNFα, MAdCAM1, and STAT3 in Intestinal and Skin Manifestations of Inflammatory Bowel Disease.",
+            "abstract": "Pathogenesis of cutaneous extraintestinal manifestations [EIM] in inflammatory bowel disease [IBD] remains elusive. Efficacy of anti-TNF agents suggests TNF-dependent mechanisms. The role of other biologics, such as anti-integrins or JAK-inhibitors, is not yet clear.",
+            "journal": "Journal of Crohn's & colitis",
+            "year": "2018",
+            "authors": [
+              "Vavricka Stephan R",
+              "Galván Jose A",
+              "Dawson Heather",
+              "Soltermann Alex",
+              "Biedermann Luc"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antigens, CD",
+              "Antigens, CD20",
+              "Antigens, Differentiation, Myelomonocytic",
+              "Biopsy",
+              "Case-Control Studies",
+              "Caspase 3",
+              "Caspase 9",
+              "Cell Adhesion Molecules"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29182760/"
+          },
+          {
+            "pmid": "33189407",
+            "title": "Skin injuries associated with biological therapy in inflammatory bowel disease: beyond psoriasis.",
+            "abstract": "",
+            "journal": "Gastroenterologia y hepatologia",
+            "year": "2022",
+            "authors": [
+              "Mínguez Sabater Alejandro",
+              "Martínez Delgado Sara",
+              "Ladrón Abia Pablo",
+              "Bastida Guillermo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adalimumab",
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Crohn Disease",
+              "Drug Eruptions",
+              "Foot Dermatoses",
+              "Gastrointestinal Agents",
+              "Humans",
+              "Male",
+              "Psoriasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33189407/"
+          },
+          {
+            "pmid": "34759935",
+            "title": "Vedolizumab for the Management of Refractory Behçet's Disease: From a Case Report to New Pieces of Mosaic in a Complex Disease.",
+            "abstract": "When treating Behçet's disease (BD), anti-tumor necrosis factor (TNF)-α agents have become a second-line therapy when conventional immunosuppressive drugs have failed. However, in the case of failure of treatment with anti-TNFα drugs, further options are limited. Based on previous reports of the efficacy of vedolizumab (VDZ) in inflammatory bowel diseases, we decided to administer VDZ to treat a patient with intestinal BD.",
+            "journal": "Frontiers in immunology",
+            "year": "2021",
+            "authors": [
+              "Arbrile Marta",
+              "Radin Massimo",
+              "Rossi Daniela",
+              "Menegatti Elisa",
+              "Baldovino Simone"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Behcet Syndrome",
+              "Drug Resistance",
+              "Erythema Nodosum",
+              "Female",
+              "Humans",
+              "Injections, Intravenous",
+              "Middle Aged",
+              "Remission Induction",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34759935/"
+          },
+          {
+            "pmid": "29614303",
+            "title": "A Unique Infusion Reaction to Vedolizumab in a Patient With Crohn's Disease.",
+            "abstract": "",
+            "journal": "Gastroenterology",
+            "year": "2018",
+            "authors": [
+              "Gold Stephanie L",
+              "Magro Cynthia",
+              "Scherl Ellen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Biopsy",
+              "Crohn Disease",
+              "Drug Eruptions",
+              "Gastrointestinal Agents",
+              "Humans",
+              "IgA Vasculitis",
+              "Infusions, Parenteral",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29614303/"
+          },
+          {
+            "pmid": "31388533",
+            "title": "Lymphoplasmacellular mucositis ameliorated by α4β7 integrin inhibitor vedolizumab in a patient with ulcerative colitis.",
+            "abstract": "",
+            "journal": "JAAD case reports",
+            "year": "2019",
+            "authors": [
+              "Shalabi Doaa",
+              "Sethi Mansha",
+              "Okon Lauren",
+              "Debes Gudrun F",
+              "Lee Jason B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31388533/"
+          },
+          {
+            "pmid": "32318735",
+            "title": "Inflammatory Cutaneous Lesions in Inflammatory Bowel Disease Treated With Vedolizumab or Ustekinumab: An ECCO CONFER Multicentre Case Series.",
+            "abstract": "This was a multicentre case series supported by the European Crohn's and Colitis Organisation [ECCO] and performed as part of the Collaborative Network of Exceptionally Rare case reports [CONFER] project. The aim was to report on whether cutaneous lesions associated with inflammatory bowel disease [IBD] and refractory to standard medical therapy including anti-tumour necrosis factors [anti-TNFs], would respond to the newer biologic agents ustekinumab [UST] or vedolizumab [VDZ]. This report includes 28 patients with cutaneous lesions from 14 centres, all of whom had failed immunomodulator and anti-TNF therapy. Metastatic Crohn's disease [MCD] was diagnosed in 10 patients: UST led to remission in five cases and partial response in four cases, with a single report of VDZ inducing remission. All cases of MCD treated with UST responded after the first or second dose, and the median time for the five cases that attained remission was 5 months. Pyoderma gangrenosum [PG] was diagnosed in four ",
+            "journal": "Journal of Crohn's & colitis",
+            "year": "2020",
+            "authors": [
+              "Phillips Frank M",
+              "Verstockt Bram",
+              "Sebastian Shaji",
+              "Ribaldone Davide",
+              "Vavricka Stephan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Colitis, Ulcerative",
+              "Crohn Disease",
+              "Dermatologic Agents",
+              "Duration of Therapy",
+              "Erythema Nodosum",
+              "Female",
+              "Humans",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32318735/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.927341639995575,
+        "txgnn_rank": 31129,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.923348903656006,
+        "txgnn_rank": 31745,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.92229026556015,
+        "txgnn_rank": 31923,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9218232035636902,
+        "txgnn_rank": 31995,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.9205528497695924,
+        "txgnn_rank": 32237,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.9172062873840332,
+        "txgnn_rank": 32791,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.910161018371582,
+        "txgnn_rank": 33694,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26195652",
+            "title": "Vedolizumab: An integrin-receptor antagonist for treatment of Crohn's disease and ulcerative colitis.",
+            "abstract": "The pharmacology, pharmacokinetics, safety, efficacy, and dosing recommendations of vedolizumab, an integrin-receptor antagonist for the treatment of Crohn's disease (CD) and ulcerative colitis (UC), are reviewed.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2015",
+            "authors": [
+              "Hahn Lindsay",
+              "Beggs Ashton",
+              "Wahaib Kristy",
+              "Kodali Leela",
+              "Kirkwood Vanessa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Clinical Trials, Phase III as Topic",
+              "Colitis, Ulcerative",
+              "Crohn Disease",
+              "Humans",
+              "Infusions, Intravenous",
+              "Integrins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26195652/"
+          },
+          {
+            "pmid": "29788248",
+            "title": "Respiratory Tract Infections in Patients With Inflammatory Bowel Disease: Safety Analyses From Vedolizumab Clinical Trials.",
+            "abstract": "Vedolizumab, a humanised monoclonal antibody for the treatment of inflammatory bowel disease, selectively blocks gut lymphocyte trafficking. This may reduce the risk of respiratory tract infections [RTIs] compared with systemic immunosuppressive therapies. To assess this possibility, we evaluated the rates of RTIs in clinical trials of vedolizumab.",
+            "journal": "Journal of Crohn's & colitis",
+            "year": "2018",
+            "authors": [
+              "Feagan Brian G",
+              "Bhayat Fatima",
+              "Khalid Mona",
+              "Blake Aimee",
+              "Travis Simon P L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Bronchitis",
+              "Colitis, Ulcerative",
+              "Crohn Disease",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans",
+              "Incidence",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29788248/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.8713592886924744,
+        "txgnn_rank": 37496,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09033",
+    "name": "Vedolizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Vedolizumab"
+      },
+      "queried_at": "2026-03-10T09:37:23.234479",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Vedolizumab"
+      },
+      "queried_at": "2026-03-10T09:37:24.986853",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:37:25.515108",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:37:28.920678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:37:29.917693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T09:37:30.684332",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T09:37:33.868178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T09:37:39.826850",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:37:40.465469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:37:44.444975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:37:45.814736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:37:46.845552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:37:51.568864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-10T09:37:52.767365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T09:37:54.466550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T09:37:58.032902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T09:37:58.795864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T09:37:59.577794",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T09:38:03.248954",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-10T09:38:03.917082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T09:38:04.432816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T09:38:09.191443",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-10T09:38:10.541527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:38:11.373942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:38:14.495610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-10T09:38:15.356954",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T09:38:16.096656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T09:38:19.799072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T09:38:22.380959",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T09:38:23.028358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T09:38:26.375829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vedolizumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T09:38:27.131050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:38:27.136249"
+  }
+}

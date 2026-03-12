@@ -1,0 +1,2092 @@
+{
+  "drug": {
+    "inn": "Acalabrutinib",
+    "drugbank_id": "DB11703",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "lymphoma, non-Hodgkin, familial",
+        "txgnn_score": 0.9764386415481568,
+        "txgnn_rank": 18678,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07377578",
+            "title": "A Randomized, Open-label, Multicenter, Phase III Clinical Study Comparing Rocbrutinib Monotherapy Versus Investigator's Choice of BTK Inhibitors in Patients With Relapsed or Refractory Mantle Cell Lymphoma (MCL) (PRIME Study)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2026-02-05",
+            "completion_date": "2033-01-30",
+            "country": "China",
+            "enrollment": 394,
+            "brief_summary": "Mantle cell lymphoma (MCL) is an aggressive yet often indolent type of B-cell non-Hodgkin lymphoma (NHL). Rocbrutinib (LP-168) is a novel, highly selective, fourth-generation Bruton's tyrosine kinase (BTK) inhibitor that exhibits both covalent (irreversible) and non-covalent (reversible) binding. This unique dual mechanism of action has shown promising efficacy and a favorable safety profile across various B-cell NHL subtypes in prior Phase 1 and 2 studies. This is a Phase 3, randomized, open-la",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with MCL, who have received at least one prior systemic regimen(s), and have experienced disease progression on the most recent line of therapy.\n* Have at least one measurable lesion according to the Lugano Response Criteria 2014.\n* Eastern Cooperative Oncology Group",
+            "endpoints": [
+              "Progression-free survival (PFS) assessed by IRC"
+            ],
+            "sponsor": "Guangzhou Lupeng Pharmaceutical Company LTD.",
+            "url": "https://clinicaltrials.gov/study/NCT07377578"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03899337",
+            "title": "A Phase II, Randomised Study of CHOP-R in Combination With Acalabrutinib Compared to CHOP-R in Patients With Newly Diagnosed Richter's Syndrome and a Platform for Initial Investigations Into Activity of Novel Treatments in Relapsed/Refractory and Newly Diagnosed Richter's Syndrome.",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-07-23",
+            "completion_date": "2027-05-31",
+            "country": "United Kingdom",
+            "enrollment": 105,
+            "brief_summary": "The STELLAR trial will assess the effect of acalabrutinib taken in combination with CHOP-R compared to taking CHOP-R alone in patients with newly diagnosed Richter's Syndrome (RS). It will also be a platform to test other new drugs that show potential for treating RS. Chronic lymphocytic Leukaemia (CLL) is the most common blood cancer in adults, usually in their 70s or older. In a few patients, CLL can transform from a slow-growing cancer into an aggressive lymphoma called Richter's Syndrome. RS",
+            "eligibility_criteria": "Entry criteria for randomised trial component (standard of care and experimental arms):\n\nInclusion criteria for the randomised trial component:\n\n* Suitable for anthracycline-containing chemo-immunotherapy.\n* Patients with CLL and newly diagnosed biopsy proven DLBCL-type RS.\n* ECOG performance status",
+            "endpoints": [
+              "Randomised Component - Progression free survival (PFS)",
+              "Registration Arm - Cohort 1 - Overall Response",
+              "Registration Arm - Cohort 2 - Overall Response"
+            ],
+            "sponsor": "University of Birmingham",
+            "url": "https://clinicaltrials.gov/study/NCT03899337"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04257578",
+            "title": "Acalabrutinib in Combination With Anti-CD19 Chimeric Antigen Receptor T-Cells (CART) in B-Cell Lymphoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-12-02",
+            "completion_date": "2031-03-01",
+            "country": "United States",
+            "enrollment": 23,
+            "brief_summary": "This phase I/II trial studies the safety of acalabrutinib and axicabtagene ciloleucel in treating patients with B-cell lymphoma. Acalabrutinib may stop the growth of tumor cells by blocking key pathways needed for cell growth. Immunotherapy with axicabtagene ciloleucel is engineered to target a specific surface antigen on lymphoma cells. Acalabrutinib may enhance the efficacy of axicabtagene ciloleucel in treating patients with B-cell lymphoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed large B-cell lymphoma, including diffuse large B-cell lymphoma (DLBCL) not otherwise specified, primary mediastinal large B-cell lymphoma, high grade B-cell lymphoma, and DLBCL arising from follicular lymphoma, and indolent (grade 1-3a) FL\n* Criteria m",
+            "endpoints": [
+              "Incidence of adverse events"
+            ],
+            "sponsor": "University of Washington",
+            "url": "https://clinicaltrials.gov/study/NCT04257578"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03623373",
+            "title": "A Pilot Study of Acalabrutinib With Bendamustine / Rituximab Followed by Cytarabine / Rituximab for Untreated Mantle Cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-11-29",
+            "completion_date": "2025-04-14",
+            "country": "United States",
+            "enrollment": 13,
+            "brief_summary": "This study is designed to evaluate the efficacy and safety of acalabrutinib plus bendamustine and rituximab followed by acalabrutinib plus cytarabine and rituximab in subjects with treatment naïve mantle cell lymphoma (MCL), as a preparation for a larger cooperative group trial with the goal of achieving a standard induction regimen for MCL in transplant eligible patients. The investigators hypothesize that the addition of acalabrutinib to BR/CR regimen will prove safe and increase the complete ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed mantle cell lymphoma with documented expression of Cyclin D1 by immune-histochemical stains and/or t(11;14) by cytogenetics or FISH.\n* Presence of evaluable disease by PET imaging per the Lugano classification.\n* Eligible for autologous stem cell trans",
+            "endpoints": [
+              "Stem Cell Mobilization Success Rate With Cytarabine and Rituximab"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT03623373"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04094142",
+            "title": "Phase II Trial of Acalabrutinib With Rituximab and Lenalidomide in Relapsed/Refractory B-cell Non-Hodgkin Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-07-09",
+            "completion_date": "2022-05-15",
+            "country": "South Korea",
+            "enrollment": 66,
+            "brief_summary": "NCCN guidelines for B cell lymphoma suggest that patients with relapsed/refractory aggressive NHL who are candidate for high-dose therapy should receive combination of cytotoxic chemotherapies as 2nd line treatment. However, proportion of patients who are adequately salvaged by second line chemotherapy and high-dose chemotherapy with stem cell rescue is unsatisfactory. Moreover, many fragile patients are unfit for salvage cytotoxic chemotherapy and/or high-dose chemotherapy. Hence, most of patie",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Men and women ≥ 18 years of age.\n2. Diagnosed with aggressive B cell non-Hodgkin lymphoma\n\n   * Diffuse large B cell lymphoma (Both GCB and non-GCB)\n\n     : GCB type should not be more than 40% (N=26) of whole study population (Would limit number of GCB patients by maximum of",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04094142"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04502394",
+            "title": "An Open-Label, Multicenter, Phase 1b/2 Study of the Safety and Efficacy of KRT-232 in Combination With Acalabrutinib in Subjects With Relapsed/Refractory Diffuse Large B-cell Lymphoma or Relapsed/Refractory Chronic Lymphocytic Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2021-02-23",
+            "completion_date": "2024-03",
+            "country": "Switzerland, Australia, United Kingdom, France, South Korea, Belgium, Italy, United States, Portugal, Czechia, Poland",
+            "enrollment": 84,
+            "brief_summary": "This study evaluates KRT-232, a novel oral small molecule inhibitor of MDM2, combined with acalabrutinib for the treatment of adults with Diffuse Large B-Cell Lymphoma and Chronic Lymphocytic Leukemia. Participants must be relapsed/refractory (having failed prior therapy)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Cohort 1: Confirmed diagnosis of TP53wt DLBCL (WHO); R/R DLBCL after at least 2 prior lines of treatment or 1 prior for patients who are ineligible for stem cell transplant\n* Cohort 2: Confirmed diagnosis of TP53wt CLL (iwCLL); R/R CLL after at least 1 prior line of treatment\n",
+            "endpoints": [
+              "Primary Objective Phase 1b:To determine the KRT-232 maximum tolerated dose/ maximum administered dose (MTD/MAD) and recommended Phase 2 Dose (RP2D) in combination with acalabrutinib in subjects with R/R DLBCL or R/R CLL",
+              "Primary Objective Phase 2: Cohort 1: To determine the complete response (CR)",
+              "Primary Objective Phase 2: Cohort 2: To determine the rate of CR/complete remission with incomplete hematologic recovery (CRi) rate in R/R CLL"
+            ],
+            "sponsor": "Kartos Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04502394"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03740529",
+            "title": "A Phase 1/2 Study of Oral LOXO-305 in Patients With Previously Treated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) or Non-Hodgkin Lymphoma (NHL)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-03-15",
+            "completion_date": "2025-12-23",
+            "country": "Switzerland, Australia, United Kingdom, France, South Korea, Italy, United States, Sweden, Poland, Japan",
+            "enrollment": 803,
+            "brief_summary": "This is an open-label, multi-center Phase 1/2 study of oral LOXO-305 (pirtobrutinib) in patients with CLL/SLL and NHL who have failed or are intolerant to standard of care.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed CLL/SLL, WM, or NHL intolerant to either ≥ 2 prior standard of care regimens given in combination or sequentially OR have received 1 prior BTK inhibitor-containing regimen when a BTK inhibitor is approved as first line therapy (Phase 1) OR with prior t",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD)",
+              "Recommended dose for further study",
+              "To assess the preliminary anti-tumor activity of pirtobrutinib based on ORR as assessed by an Independent Review Committee (IRC)."
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT03740529"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04419389",
+            "title": "Phase 1 and Dose Expansion Study of APR-246 in Combination With Acalabrutinib or Venetoclax-based Therapy in Subjects With R/R NHL Including Chronic Lymphocytic Leukemia (CLL) and Mantle Cell Lymphoma (MCL)",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2021-03-02",
+            "completion_date": "2021-08-24",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "Study to determine the preliminary safety, tolerability, and pharmacokinetic (PK) profile of APR-246 in combination with either acalabrutinib or venetoclax + rituximab therapy in subjects with NHL, including relapsed and/or refractory (R/R) CLL and R/R MCL.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Is able to understand and is willing and able to comply with the study requirements and to provide written informed consent.\n2. Documented histologic diagnosis of R/R CLL, RT, or R/R MCL\n3. Safety Lead-In Cohort 1: Patients whose most recent regimen did not include BTK inhibi",
+            "endpoints": [
+              "To Determine the DLT of APR-246 in Combination With Acalabrutinib or in Combination With Venetoclax + Rituximab Therapy in Subjects With NHL, Including Subjects With R/R CLL, RT and R/R MCL.",
+              "To Assess the Frequency of Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs) Related to APR-246 in Combination With Acalabrutinib and With Venetoclax + Rituximab Therapy.",
+              "To Determine the Maximum Tolerated Dose (MTD) and the Recommended Phase 2 Dose (RP2D) in Subjects With TP53 Mutant NHL, Including Subjects With R/R CLL, RT and R/R MCL."
+            ],
+            "sponsor": "Aprea Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT04419389"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04836832",
+            "title": "A Phase Ib/II Study of Duvelisib and Acalabrutinib in Relapsed/Refractory Indolent Non-Hodgkin Lymphoma (DUAL Trial)",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2022-07-01",
+            "completion_date": "2024-12-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This phase Ib/II trial studies the side effects of acalabrutinib and duvelisib and how well they work in treating patients with indolent non-Hodgkin lymphoma that has come back (relapsed) or does not respond to treatment (refractory). Acalabrutinib inhibits a signaling molecule called Bruton tyrosine kinase and blocks cancer cell proliferation, growth, and survival. Duvelisib is designed to block a protein called PI3 kinase in order to stop cancer growth and cause changes in the immune system th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\>= 18 years of age\n* Histologically confirmed iNHL of any of the following subtypes recognized by the World Health Organization (WHO) classification: follicular lymphoma and marginal zone lymphoma (splenic, nodal and extranodal)\n* Patients must meet clinical criteria for requ",
+            "endpoints": [
+              "Incidence of adverse events",
+              "Overall response rate (ORR) (assessed by computed tomography)"
+            ],
+            "sponsor": "Ohio State University Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04836832"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04546620",
+            "title": "A Randomised Phase II Evaluation of Molecular Guided Therapy for Diffuse Large B-Cell Lymphoma With Acalabrutinib",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-10-19",
+            "completion_date": "2028-05",
+            "country": "United Kingdom",
+            "enrollment": 453,
+            "brief_summary": "This study evaluates the addition of Acalabrutinib to current standard therapy of Rituximab, Cyclophosphamide, Doxorubicin, Vincristine and Prednisolone (R-CHOP) for patients with previously untreated CD20 positive Diffuse Large B-cell Lymphoma (DLBCL) requiring full course chemoimmunotherapy.\n\nAll patients will receive one cycle of R-CHOP. Two thirds of patients (Arm B) will go on to receive a further 5 cycles (every 21 days) of R-CHOP with Acalabrutinib. Acalabrutinib will be taken orally twic",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed DLBCL, expressing CD20. Sufficient diagnostic material must be available to forward to HMDS for gene expression profiling and central pathology review. The following diagnoses by 2016 WHO classification of lymphoid neoplasms may be included:\n\n  * DLBCL",
+            "endpoints": [
+              "To establish if combining acalabrutinib with R-CHOP improves efficacy, compared to RCHOP alone, for the treatment of previously untreated patients with DLBCL to a degree that justifies further development of this approach."
+            ],
+            "sponsor": "University Hospital Southampton NHS Foundation Trust",
+            "url": "https://clinicaltrials.gov/study/NCT04546620"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04883437",
+            "title": "An Open-Label Phase 2 Trial of Acalabrutinib Plus Obinutuzumab in Patients With Untreated, Low Tumor Burden Follicular Lymphoma and Other Indolent Non-Hodgkin Lymphomas",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-09-03",
+            "completion_date": "2027-01-15",
+            "country": "United States",
+            "enrollment": 49,
+            "brief_summary": "This phase II trial studies the effect of acalabrutinib and obinutuzumab in treating patients with follicular lymphoma or other indolent non-Hodgkin lymphoma for which the patient has not received treatment in the past (previously untreated). Acalabrutinib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Immunotherapy with obinutuzumab may induce changes in body's immune system and may interfere with the ability of cancer cells to grow and spread. Givin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women \\>= 18 years of age\n* Patients will need to have one of the following clinical scenarios:\n\n  * Previously untreated follicular lymphoma grade 1-3a with low tumor burden by Groupe d'Etude des Lymphomes Folliculaires (GELF) criteria\n  * Previously untreated follicu",
+            "endpoints": [
+              "Complete response (CR) rate",
+              "Incidence of grade 3+ adverse events"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT04883437"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05205252",
+            "title": "ARIA: A Phase 1b/2, Open-label, Multi Cohort Trial of Tazemetostat in Combination With Various Treatments in Subjects With Relapsed or Refractory Hematologic Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2021-12-22",
+            "completion_date": "2023-07-05",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This trial will study how safely the tazemetostat works with other therapies in various hematological malignancies. Hematologic malignancies are cancers that most often begin in the bone marrow or lymph nodes where blood precursors are produced.\n\nThey are often called blood cancers and fall into three categories: leukemia, lymphoma and myeloma.\n\nTazemetostat has been found to be a safe and effective drug that works in patients with follicular lymphoma where the disease has come back after treatm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Eastern Cooperative Oncology Group (ECOG) performance status 0 to 1 for Phase 1b and status 0 to 2 for Phase 2\n2. Must have documented relapsed, refractory, or progressive disease after 2 lines of treatment with systemic therapy\n3. Measurable disease\n4. Demonstrate adequate o",
+            "endpoints": [
+              "Phase 1b: Recommended Phase 2 Dose (RP2D) of tazemetostat in combination with each partner drug",
+              "Phase 2: Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT05205252"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02362035",
+            "title": "A Phase 1b/2 Proof-of-Concept Study of the Combination of ACP-196 (Acalabrutinib) and Pembrolizumab in Subjects With Hematologic Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-02-20",
+            "completion_date": "2025-10-27",
+            "country": "United States",
+            "enrollment": 161,
+            "brief_summary": "This study is evaluating the safety, pharmacodynamics (PD), and efficacy of acalabrutinib and pembrolizumab in hematologic malignancies.",
+            "eligibility_criteria": "Main Inclusion Criteria:\n\n* Diagnosis of a hematologic malignancy as documented by medical records and with histology based on criteria established by the World Health Organization (WHO).\n* Eastern Cooperative Oncology Group (ECOG) performance status of ≤ 1.\n* Agreement to use contraception during t",
+            "endpoints": [
+              "Number of Participants With Treatment Emergent Adverse Events (AEs)",
+              "Number of Participants With Grade 3-4 Adverse Events",
+              "Number of Participants With Grade 5 Adverse Events"
+            ],
+            "sponsor": "Acerta Pharma BV",
+            "url": "https://clinicaltrials.gov/study/NCT02362035"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02735876",
+            "title": "A Randomized, Multicenter, Open Label, Phase 3 Study of Acalabrutinib (ACP-196) in Combination With Rituximab Versus Ibrutinib Versus Acalabrutinib Alone in Subjects With Relapsed or Refractory (R/R) Mantle Cell Lymphoma (MCL)",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2016-05",
+            "completion_date": "",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This study is evaluating the efficacy of acalabrutinib in combination with rituximab (Arm 1) versus ibrutinib (Arm 2) versus acalabrutinib (Arm 3) for the treatment of relapsed or refractory (R/R) mantle cell lymphoma (MCL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women ≥ 18 years of age.\n* Pathologically confirmed mantle cell lymphoma (MCL).\n* Eastern Cooperative Oncology Group (ECOG) performance status of ≤ 2.\n* Agreement to use highly effective forms of contraception during the study and for 90 days after the last dose of aca",
+            "endpoints": [
+              "Progression-free survival (PFS) assessed by Independent Review Committee (IRC) per the Lugano Classification for Non-Hodgkin Lymphoma (NHL). The primary analysis is a comparison of progression-free survival (PFS) between Arm 1 and Arm 2."
+            ],
+            "sponsor": "Acerta Pharma BV",
+            "url": "https://clinicaltrials.gov/study/NCT02735876"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03571568",
+            "title": "Phase 1/2a Trial of BI-1206, a Monoclonal Antibody to CD32b (FcyRIIB), in Combination With Rituximab With or Without Acalabrutinib in Subjects With Indolent B-Cell Non-Hodgkin Lymphoma That Has Relapsed or is Refractory to Rituximab",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2018-05-16",
+            "completion_date": "2026-09-30",
+            "country": "Spain, Brazil, Germany, United States, Sweden, Poland",
+            "enrollment": 140,
+            "brief_summary": "Phase 1/2a Clinical Trial of BI-1206, a Monoclonal Antibody to CD32b (FcyRIIB), in Combination with Rituximab with or without Acalabrutinib in Subjects with Indolent B-Cell Non-Hodgkin Lymphoma That has Relapsed or is Refractory to Rituximab",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Are ≥ 18 years of age by initiation of study treatment.\n2. Have B-cell NHL proven by histology, with histological subtypes limited to follicular lymphoma (FL) (except FL grade 3B), MCL and marginal zone lymphoma (MZL)\n3. Have measurable nodal disease\n4. Are willing to undergo",
+            "endpoints": [
+              "Documenting AEs and SAEs and determining causality in relation to BI-1206 and/or rituximab and/or acalabrutinib",
+              "Determining the MTD of BI-1206 at the same dose level experiencing a BI-1206 or Rituximab-related or possibly related dose-limiting toxicity (DLT)",
+              "Determine the recommended dose of BI-1206 in combination with rituximab and acalabrutinib"
+            ],
+            "sponsor": "BioInvent International AB",
+            "url": "https://clinicaltrials.gov/study/NCT03571568"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02180711",
+            "title": "An Open-label, Phase 1b/2 Study of Acalabrutinib Alone or in Combination Therapy in Subjects With B-cell Non-Hodgkin Lymphoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-12-29",
+            "completion_date": "2028-12-29",
+            "country": "Italy, Canada, United States",
+            "enrollment": 113,
+            "brief_summary": "Part 1: To characterize the safety profile of acalabrutinib alone or in combination with rituximab in subjects with R/R FL.\n\nPart 2: To characterize the activity of acalabrutinib alone or in combination with rituximab in subjects with R/R MZL, as measured by ORR.\n\nPart 3: To characterize the safety of acalabrutinib in combination with rituximab and lenalidomide in subjects with R/R FL",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women ≥ 18 years of age.\n* Part 1: A confirmed diagnosis of FL Grade 1, 2, or 3a, which has relapsed after, or been refractory to ≥ 1 prior therapy for FL, or subjects who have not previously received systemic anticancer therapy for FL., and which requires treatment.\n*",
+            "endpoints": [
+              "Part 1: Incidence of Treatment-emergent Adverse Events.",
+              "Part 2: Investigator Assessed Objective Response Rate (ORR) According to the Lugano Classification for Non-Hodgkin Lymphoma (NHL).",
+              "Part 3: Incidence of Treatment-emergent Adverse Events."
+            ],
+            "sponsor": "Acerta Pharma BV",
+            "url": "https://clinicaltrials.gov/study/NCT02180711"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06564038",
+            "title": "A Phase I/II Open-Label Multi-Centre Master Protocol to Evaluate the Safety and Efficacy of AZD0486 Monotherapy or in Combination With Other Anticancer Agents in Participants With Mature B-Cell Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-01-30",
+            "completion_date": "2028-02-28",
+            "country": "Australia, Spain, France, South Korea, United Kingdom, Germany, Italy, Denmark, United States, China, Czechia, Taiwan, Japan",
+            "enrollment": 276,
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of AZD0486 administered as monotherapy or in combination with other anticancer agents in participants with hematological malignancies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMaster Inclusion Criteria applicable to all substudies:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2.\n* Contraception use during treatment and at least 90 days after final dose.\n* Confirmed CD19 expression if prior anti-CD19 therapy.\n\nSubstudy 1 Spec",
+            "endpoints": [
+              "Number of Participants with Adverse Events, Serious Adverse Events and Adverse Events of Special Interest",
+              "Number of Participants with Dose Limiting Toxicity (DLTs)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT06564038"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04002947",
+            "title": "A Phase 2 Study of Acalabrutinib With DA-EPOCH-R or R-CHOP for Patients With Untreated Diffuse Large B-cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-08-05",
+            "completion_date": "2030-03-31",
+            "country": "United States",
+            "enrollment": 132,
+            "brief_summary": "Background:\n\nDiffuse large B-cell lymphoma is the most common type of non-Hodgkin lymphoma. Most people with this cancer can be cured. But those who are not cured have a poor prognosis. Researchers want to add another drug to standard treatment see if it can improve the cure rate.\n\nObjective:\n\nTo see if the drug acalabrutinib given with rituximab and standard combination chemotherapy can improve the cure rate of aggressive B-cell lymphomas such as diffuse large B-cell lymphoma.\n\nEligibility:\n\nPe",
+            "eligibility_criteria": "-INCLUSION CRITERIA:\n\n1. Patients must have a confirmed histologic diagnosis of an aggressive B-cell lymphoma with morphologic appearance of DLBCL or high-grade B-cell lymphoma (HGBL) confirmed by the Laboratory of Pathology, NCI, with no prior treatment for DLBCL or HGBL. The following subtypes are",
+            "endpoints": [
+              "Response rate"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT04002947"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03571308",
+            "title": "A Phase Ib/II Combination of Acalabrutinib With R-CHOP for Patient Diffuse Large B-cell Lymphoma (DLBCL)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-06-02",
+            "completion_date": "2023-08-31",
+            "country": "United Kingdom",
+            "enrollment": 39,
+            "brief_summary": "Previously untreated CD20 positive diffuse large B-cell lymphoma (DLBCL) requiring full course chemoimmunotherapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed DLBCL, expressing CD20. Sufficient diagnostic material should be available to forward to a central laboratory for gene expression profiling and pathology review.\n* Measurable disease of at least 15mm.\n* Not previously treated for lymphoma and fit enoug",
+            "endpoints": [
+              "Phase I: Dose limiting toxicity of acalabrutinib combined to R-CHOP",
+              "Phase II: Overall response rate of the combination acalabrutinib and R-CHOP",
+              "Safety of the combination acalabrutinib and R-CHOP as determined by treatment-related adverse events as assessed by CTCAE v4.03."
+            ],
+            "sponsor": "University Hospital Southampton NHS Foundation Trust",
+            "url": "https://clinicaltrials.gov/study/NCT03571308"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05583149",
+            "title": "A Phase 2 Study of Acalabrutinib in Combination With Lisocabtagene Maraleucel in Relapsed/Refractory Aggressive B-cell Lymphomas",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-03-01",
+            "completion_date": "2029-03-01",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "This research is being done to assess the effectiveness and safety of acalabrutinib combined with lisocabtagene maraleucel (liso-cel) for people with relapsed/refractory aggressive B-cell lymphoma.\n\nThis research study involves the study drug acalabrutinib in combination with lisocabtagene maraleuce",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients ≥18 years with histologically confirmed aggressive B-cell NHL including diffuse large B-cell lymphoma (DLBCL), either de novo or transformed from any indolent B-cell lymphoma, and including DLBCL NOS, T cell/histiocyte-rich large B-cell lymphoma, Epstein-Barr vi",
+            "endpoints": [
+              "Complete Response Rate (CRR)"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05583149"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40311141",
+            "title": "Acalabrutinib Plus Bendamustine-Rituximab in Untreated Mantle Cell Lymphoma.",
+            "abstract": "The combination of the Bruton tyrosine kinase inhibitor ibrutinib with bendamustine-rituximab for first-line treatment of mantle cell lymphoma (MCL) prolonged progression-free survival (PFS), but without improvement in overall survival (OS), likely because of toxicity. Acalabrutinib was shown to be efficacious and less toxic than ibrutinib in a head-to-head trial in chronic lymphocytic leukemia and therefore might lead to better outcomes in MCL.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2025",
+            "authors": [
+              "Wang Michael",
+              "Salek David",
+              "Belada David",
+              "Song Yuqin",
+              "Jurczak Wojciech"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Clinical Trial, Phase III"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Bendamustine Hydrochloride",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Male",
+              "Rituximab",
+              "Female",
+              "Pyrazines",
+              "Benzamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40311141/"
+          },
+          {
+            "pmid": "36029036",
+            "title": "Resistance to Bruton tyrosine kinase inhibition in chronic lymphocytic leukaemia and non-Hodgkin lymphoma.",
+            "abstract": "Bruton tyrosine kinase inhibitors (BTKi) have transformed the therapeutic landscape of chronic lymphocytic leukaemia (CLL) and non-Hodgkin lymphoma. However, primary and acquired resistance to BTKi can be seen due to a variety of mechanisms including tumour intrinsic and extrinsic mechanisms such as gene mutations, activation of bypass signalling pathways and tumour microenvironment. Herein, we provide an updated review of the key clinical data of BTKi treatment in CLL, mantle cell lymphoma, and diffuse large B-cell lymphoma (DLBCL). We incorporate the most recent findings regarding mechanisms of resistance to covalent and non-covalent inhibitors, including ibrutinib, acalabrutinib, zanubrutinib and pirtobrutinib. We also cover the clinical sensitivity of certain molecular subtypes of DLBCL to an ibrutinib-containing regimen. Lastly, we summarise ongoing clinical investigations aimed at overcoming resistance via use of BTKi-containing combined therapies or the novel non-covalent BTKi. ",
+            "journal": "British journal of haematology",
+            "year": "2023",
+            "authors": [
+              "Nakhoda Shazia",
+              "Vistarop Aldana",
+              "Wang Y Lynn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Lymphoma, Non-Hodgkin",
+              "Lymphoma, Mantle-Cell",
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Protein Kinase Inhibitors",
+              "Tumor Microenvironment",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36029036/"
+          },
+          {
+            "pmid": "38781315",
+            "title": "Acalabrutinib plus venetoclax and rituximab in treatment-naive mantle cell lymphoma: 2-year safety and efficacy analysis.",
+            "abstract": "This phase 1b study evaluated safety and efficacy of acalabrutinib, venetoclax, and rituximab (AVR) in treatment-naive mantle cell lymphoma (TN MCL). Patients received acalabrutinib from cycle 1 until progressive disease (PD) or undue toxicity, rituximab for 6 cycles with maintenance every other cycle through cycle 24 or until PD, and venetoclax, beginning at cycle 2, for 24 cycles. Twenty-one patients were enrolled; 95.2% completed induction (6 AVR cycles) and 47.6% continued acalabrutinib maintenance. Thirteen (61.9%) patients had grade 3-4 adverse events (AEs), most commonly neutropenia (33.3%). Seven (33.3%) patients had COVID-19 infection (6 [28.6%] serious AEs and 5 [23.8%] deaths, all among unvaccinated patients). There was no grade ≥3 atrial fibrillation, ventricular tachyarrhythmias, major hemorrhages, or tumor lysis syndrome. Overall response rate (ORR) was 100% (95% CI, 83.9-100.0) with 71.4% complete response. With median follow-up of 27.8 months, median progression-free su",
+            "journal": "Blood advances",
+            "year": "2024",
+            "authors": [
+              "Wang Michael",
+              "Robak Tadeusz",
+              "Maddocks Kami J",
+              "Phillips Tycel",
+              "Smith Stephen D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase I",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Middle Aged",
+              "Male",
+              "Aged",
+              "Rituximab",
+              "Female",
+              "Sulfonamides",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38781315/"
+          },
+          {
+            "pmid": "38555311",
+            "title": "Combination of acalabrutinib with lenalidomide and rituximab in relapsed/refractory aggressive B-cell non-Hodgkin lymphoma: a single-arm phase II trial.",
+            "abstract": "Potential synergism between Bruton's tyrosine kinase (BTK) inhibitor and lenalidomide in treating aggressive B-cell lymphoma has been suggested. Here, the authors report a single-arm phase II clinical trial of combination of acalabrutinib, lenalidomide and rituximab (R2A) in patients with aggressive relapsed/refractory aggressive (R/R) B-cell non-Hodgkin lymphoma (NHL). The primary endpoint of this study is objective response rate (ORR), and the secondary endpoints are complete remission (CR) rate, duration of response (DoR), progression-free survival (PFS) and overall survival (OS). A total of 66 patients are enrolled mostly with diffuse large B-cell lymphoma. The ORR is 54.5% and CR rate is 31.8% meeting the primary end point. The median DoR is 12.9 months, and 1-year PFS and OS rate is 33.1% and 67.5% respectively. Adverse events (AE) are manageable with the most frequent AE being neutropenia (31.8%). Patients with MYD88 mutations, subtypes known for NF-κB activation, and high BTK e",
+            "journal": "Nature communications",
+            "year": "2024",
+            "authors": [
+              "Park Changhee",
+              "Lee Ho Sup",
+              "Kang Ka-Won",
+              "Lee Won-Sik",
+              "Do Young Rok"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Benzamides",
+              "Disease-Free Survival",
+              "Lenalidomide",
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Pyrazines",
+              "Rituximab",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38555311/"
+          },
+          {
+            "pmid": "35266562",
+            "title": "Mantle cell lymphoma in 2022-A comprehensive update on molecular pathogenesis, risk stratification, clinical approach, and current and novel treatments.",
+            "abstract": "The field of mantle cell lymphoma (MCL) has witnessed remarkable progress due to relentless advances in molecular pathogenesis, prognostication, and newer treatments. MCL consists of a spectrum of clinical subtypes. Rarely, atypical cyclin D1-negative MCL and in situ MCL neoplasia are identified. Prognostication of MCL is further refined by identifying somatic mutations (such as TP53, NSD2, KMT2D), methylation status, chromatin organization pattern, SOX-11 expression, minimal residual disease (MRD), and genomic clusters. Lymphoid tissue microenvironment studies demonstrated the role of B-cell receptor signaling, nuclear factor kappa B (NF-kB), colony-stimulating factor (CSF)-1, the CD70-SOX-11 axis. Molecular mechanism of resistance, mutation dynamics, and pathogenic pathways (B-cell receptor (BCR), oxidative phosphorylation, and MYC) were identified in mediating resistance to various treatments (bruton tyrosine kinase (BTK) inhibitors [ibrutinib, acalabrutinib]. Treatment options rang",
+            "journal": "American journal of hematology",
+            "year": "2022",
+            "authors": [
+              "Jain Preetesh",
+              "Wang Michael L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Antineoplastic Agents",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Neoplasm Recurrence, Local",
+              "Risk Assessment",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35266562/"
+          },
+          {
+            "pmid": "29241979",
+            "title": "Acalabrutinib in relapsed or refractory mantle cell lymphoma (ACE-LY-004): a single-arm, multicentre, phase 2 trial.",
+            "abstract": "Bruton tyrosine kinase is a clinically validated target in mantle cell lymphoma. Acalabrutinib (ACP-196) is a highly selective, potent Bruton tyrosine kinase inhibitor developed to minimise off-target activity.",
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "authors": [
+              "Wang Michael",
+              "Rule Simon",
+              "Zinzani Pier Luigi",
+              "Goy Andre",
+              "Casasnovas Olivier"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Benzamides",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Male",
+              "Middle Aged",
+              "Protein Kinase Inhibitors",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29241979/"
+          },
+          {
+            "pmid": "38578606",
+            "title": "New Means and Challenges in the Targeting of BTK.",
+            "abstract": "Bruton's tyrosine kinase (BTK) is central to the survival of malignant and normal B lymphocytes and has been a crucial therapeutic target of several generations of kinase inhibitors and newly developed degraders. These new means for targeting BTK have added additional agents to the armamentarium for battling cancers dependent on B-cell receptor (BCR) signaling, including chronic lymphocytic leukemia and other non-Hodgkin lymphomas. However, the development of acquired resistance mutations to each of these classes of BTK inhibitors has led to new challenges in targeting BTK as well as novel insights into BCR signaling. The first-generation covalent BTK inhibitor ibrutinib is susceptible to mutations affecting the covalent binding site, cysteine 481 (C481). Newer noncovalent BTK inhibitors, such as pirtobrutinib, overcome C481 mutation-mediated resistance but are susceptible to other kinase domain mutations, particularly at residues Threonine 474 and Leucine 528. In addition, these novel",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2024",
+            "authors": [
+              "Nawaratne Vindhya",
+              "Sondhi Anya K",
+              "Abdel-Wahab Omar",
+              "Taylor Justin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Pyrazoles",
+              "Drug Resistance, Neoplasm",
+              "Piperidines",
+              "Mutation",
+              "Adenine",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38578606/"
+          },
+          {
+            "pmid": "30963600",
+            "title": "Mantle cell lymphoma: 2019 update on the diagnosis, pathogenesis, prognostication, and management.",
+            "abstract": "Unprecedented advances in our understanding of the pathobiology, prognostication, and therapeutic options in mantle cell lymphoma (MCL) have taken place in the last few years. Heterogeneity in the clinical course of MCL-indolent vs aggressive-is further delineated by a correlation with the mutational status of the variable region of immunoglobulin heavy chain, methylation status, and SOX-11 expression. Cyclin-D1 negative MCL, in situ MCL neoplasia, and impact of the karyotype on prognosis are distinguished. Apart from Ki-67% and morphology pattern (classic vs blastoid/pleomorphic), the proliferation gene signature has helped to further refine prognostication. Studies focusing on mutational dynamics and clonal evolution on Bruton's tyrosine kinase (BTK) inhibitors (ibrutinib, acalabrutinib) and/or Bcl2 antagonists (venetoclax) have further clarified the prognostic impact of somatic mutations in TP53, BIRC3, CDKN2A, MAP3K14, NOTCH2, NSD2, and SMARCA4 genes. In therapy, long-term follow-u",
+            "journal": "American journal of hematology",
+            "year": "2019",
+            "authors": [
+              "Jain Preetesh",
+              "Wang Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Disease-Free Survival",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Neoplasm Proteins",
+              "Survival Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30963600/"
+          },
+          {
+            "pmid": "37470152",
+            "title": "Final results and overall survival data from a phase II study of acalabrutinib monotherapy in patients with relapsed/refractory mantle cell lymphoma, including those with poor prognostic factors.",
+            "abstract": "",
+            "journal": "Haematologica",
+            "year": "2024",
+            "authors": [
+              "Le Gouill Steven",
+              "Długosz-Danecka Monika",
+              "Rule Simon",
+              "Zinzani Pier Luigi",
+              "Goy Andre"
+            ],
+            "pub_types": [
+              "Research Support, Non-U.S. Gov't",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Prognosis",
+              "Pyrazines",
+              "Clinical Trials, Phase II as Topic",
+              "Benzamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37470152/"
+          },
+          {
+            "pmid": "29209955",
+            "title": "Acalabrutinib: First Global Approval.",
+            "abstract": "Acerta Pharma is developing the Bruton's tyrosine kinase inhibitor acalabrutinib (Calquence®) for the treatment of various haematological and solid malignancies. The drug has received accelerated approval from the US FDA for the treatment of mantle cell lymphoma based on the results of a phase II study, and phase III trials in mantle cell lymphoma and chronic lymphocytic leukaemia are currently underway. This article summarizes the milestones in the development of acalabrutinib leading to this first approval for mantle cell lymphoma.",
+            "journal": "Drugs",
+            "year": "2018",
+            "authors": [
+              "Markham Anthony",
+              "Dhillon Sohita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Dose-Response Relationship, Drug",
+              "Drug Approval",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Lymphoma, Mantle-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29209955/"
+          },
+          {
+            "pmid": "30967367",
+            "title": "Acalabrutinib for mantle cell lymphoma.",
+            "abstract": "Mantle cell lymphoma (MCL) is a unique type of non-Hodgkin lymphoma characterized by the overexpression of cyclin D1. MCL patients typically live for years but experience multiple relapses. Acalabrutinib is a novel second-generation oral Bruton tyrosine kinase inhibitor approved by the US Food and Drug Administration for relapsed MCL based on a clinical trial demonstrating an overall response rate of 81%. It provides a valuable new treatment option for MCL patients and is now being tested upfront.",
+            "journal": "Blood",
+            "year": "2019",
+            "authors": [
+              "Witzig Thomas E",
+              "Inwards David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Protein Kinase Inhibitors",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30967367/"
+          },
+          {
+            "pmid": "39742965",
+            "title": "Fungal infection in patients treated with Bruton tyrosine kinase inhibitor-from epidemiology to clinical outcome: a systematic review.",
+            "abstract": "The Bruton tyrosine kinase inhibitor (BTKi) has emerged as a key treatment for B-cell lymphomas. Despite its efficacy in the treatment of malignancies, numerous cases of invasive fungal infections (IFI) have been reported in patients receiving ibrutinib, a first-generation BTKi. Cases of invasive aspergillosis have also been reported with acalabrutinib and zanubrutinib.",
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2025",
+            "authors": [
+              "Gibert Charles",
+              "Blaize Marion",
+              "Fekkar Arnaud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Invasive Fungal Infections",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Piperidines",
+              "Benzamides",
+              "Treatment Outcome",
+              "Pyrazoles",
+              "Adenine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39742965/"
+          },
+          {
+            "pmid": "35200084",
+            "title": "Phase 1/2 study of acalabrutinib and the PI3K delta inhibitor ACP-319 in relapsed/refractory B-cell Non-Hodgkin lymphoma.",
+            "abstract": "",
+            "journal": "Leukemia & lymphoma",
+            "year": "2022",
+            "authors": [
+              "Barr Paul M",
+              "Smith Stephen D",
+              "Roschewski Mark J",
+              "O'Brien Susan M",
+              "Sharman Jeff P"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Letter",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine",
+              "Benzamides",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Phosphatidylinositol 3-Kinases",
+              "Pyrazines",
+              "Quinolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35200084/"
+          },
+          {
+            "pmid": "40775236",
+            "title": "Frontline acalabrutinib, lenalidomide and rituximab for advanced stage follicular lymphoma with high tumor burden: phase II trial.",
+            "abstract": "This phase II trial aims to determine the efficacy and safety of frontline acalabrutinib, lenalidomide and rituximab for patients with advanced stage follicular lymphoma (FL) and high tumor burden. The primary endpoint was best complete response (CR) rate; the secondary endpoints were overall response rate (ORR), duration of response measured as CR at 30 months (CR30), progression of disease at 24 months (POD24) rate, progression-free survival (PFS), overall survival and safety. Twenty-four patients with previously untreated FL were included in this phase 2 single arm study (NCT04404088). The most common grade 3-4 adverse events were neutropenia (58%) and liver function test elevation (17%). Best ORR was 100% and best CR rate was 92%. CR30 rate was 65% and POD24 rate was 17%. After a median follow-up of 43 months, median PFS and OS were not reached, 2-year PFS rate was 79% and 2-year OS rate was 92%. Here we show that the addition of acalabrutinib to R2 is a safe and effective frontlin",
+            "journal": "Nature communications",
+            "year": "2025",
+            "authors": [
+              "Strati Paolo",
+              "Feng Lei",
+              "Westin Jason R",
+              "Nair Ranjit",
+              "Fayad Luis E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Lymphoma, Follicular",
+              "Middle Aged",
+              "Aged",
+              "Rituximab",
+              "Lenalidomide",
+              "Pyrazines",
+              "Antineoplastic Combined Chemotherapy Protocols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40775236/"
+          },
+          {
+            "pmid": "35184869",
+            "title": "[Chronic lymphocytic leukemia].",
+            "abstract": "Chronic lymphocytic leukemia (CLL) is a low-grade B cell lymphoma with circulating cells, often revealed by hyperlymphocytosis. Its diagnosis and therapeutic indications (not systematic) have been defined in 2018. In fact, CLL can be separated in two entities differentiating themselves by their IGHV mutational status, but the search of other prognostic parameters like TP53 disruption is mandatory before treatment. Numerous genetic alterations and mutations exist in CLL. CLL cells are highly dependent from their b-cell receptor stimulation and from their microenvironment, which takes a central place in disease progression. Infections, dysimmune manifestations, cancers and Richter transformation are classic complications, and patients have poor vaccine response even without a treatment. Chemoimmunotherapy is being challenged by the new highly active drugs such as Bruton tyrosine-kinase inhibitors (ibrutinib, acalabrutinib) and by the association of venetoclax and anti-CD20. Future treatm",
+            "journal": "La Revue de medecine interne",
+            "year": "2022",
+            "authors": [
+              "Gauthier M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Disease Progression",
+              "Humans",
+              "Immunotherapy",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Prognosis",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35184869/"
+          },
+          {
+            "pmid": "41289154",
+            "title": "MRD-driven initial therapy of acalabrutinib and lenalidomide plus rituximab or obinutuzumab for mantle cell lymphoma.",
+            "abstract": "This phase 2 study evaluated the efficacy and safety of combining acalabrutinib and lenalidomide with either rituximab (ALR) or obinutuzumab (ALO), with longitudinal minimal residual disease (MRD) monitoring in frontline MCL treatment. The primary objective was molecular complete response (CR) after 12 cycles of induction, defined by Lugano criteria, and undetectable MRD of <10-6 (uMRD6) by clonoSEQ. Secondary objectives included safety, responses, and survival. Exploratory objectives included tumor mutation profiles and cell-free DNA (cfDNA) by cancer personalized profiling by deep sequencing. Patients in uMRD6 molecular CR were eligible for discontinuation of acalabrutinib plus lenalidomide after 24 cycles; all patients received a minimum of 36 cycles of anti-CD20 antibody treatment. In the ALR cohort, grade 3/4 hematologic toxicities included neutropenia (38%), thrombocytopenia (4%), and anemia (4%). Nonhematologic toxicities included rash (42%), fatigue (4%), nausea (4%), and vomit",
+            "journal": "Blood advances",
+            "year": "2026",
+            "authors": [
+              "Ruan Jia",
+              "Bond David A",
+              "Shah Bijal",
+              "Allan John N",
+              "Rutherford Sarah C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lenalidomide",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Pyrazines",
+              "Middle Aged",
+              "Aged",
+              "Female",
+              "Male",
+              "Rituximab",
+              "Antibodies, Monoclonal, Humanized"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41289154/"
+          },
+          {
+            "pmid": "36377973",
+            "title": "BRUIN MCL-321: phase III study of pirtobrutinib versus investigator choice of BTK inhibitor in BTK inhibitor naive mantle cell lymphoma.",
+            "abstract": "Treatment with covalent Bruton tyrosine kinase inhibitors (BTKi) represents an important advance in the management of relapsed or refractory mantle cell lymphoma, but these treatments are not curative and many patients ultimately relapse. Pirtobrutinib, a highly selective, noncovalent (reversible) BTKi, inhibits both wild type and C481-mutant BTK with equal low nM potency, and has favorable oral pharmacology that enables continuous BTK inhibition throughout the dosing interval regardless of intrinsic rate of BTK turnover. Pirtobrutinib is well tolerated and has demonstrated promising efficacy in patients with poor prognosis B-cell malignancies following prior therapy, including covalent BTKi. This phase III, head-to-head, randomized study (NCT04662255) will evaluate whether pirtobrutinib is superior to investigator's choice of covalent BTKi in patients with previously treated, BTKi-naive mantle cell lymphoma.",
+            "journal": "Future oncology (London, England)",
+            "year": "2022",
+            "authors": [
+              "Eyre Toby A",
+              "Shah Nirav N",
+              "Dreyling Martin",
+              "Jurczak Wojciech",
+              "Wang Yucai"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Lymphoma, Mantle-Cell",
+              "Antineoplastic Agents",
+              "Neoplasm Recurrence, Local",
+              "Protein Kinase Inhibitors",
+              "Clinical Trials, Phase III as Topic",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36377973/"
+          },
+          {
+            "pmid": "30638402",
+            "title": "Acalabrutinib for adults with mantle cell lymphoma.",
+            "abstract": "Although advances in mantle cell lymphoma (MCL) therapy have improved overall survival (OS), managing relapsed/refractory (R/R) cases remains a great challenge. Bruton tyrosine kinase (BTK) inhibitors have broadened therapeutic options in MCL and became the backbone of second-line strategies. Areas covered: Ibrutinib, the first-in-class BTK inhibitor registered for MCL therapy, is efficient, with clear benefits of its use. However, ibrutinib-related adverse events due to off-target inhibition of other kinases led to the development of more selective molecules with comparable efficacy and better safety profiles. Expert commentary: Acalabrutinib, a new BTK inhibitor, currently being evaluated in numerous clinical studies is approved by FDA in relapsing/refractory MCL. Its role will evolve over the next few years. Efficacy and good tolerability of acalabrutinib gives even greater opportunity for potential upfront use and new therapeutic combinations, including monoclonal antibodies, antib",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2019",
+            "authors": [
+              "Jurczak Wojciech",
+              "Długosz-Danecka Monika",
+              "Wang Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Adult",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Piperidines",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30638402/"
+          },
+          {
+            "pmid": "31699438",
+            "title": "Matching-adjusted Indirect Comparisons of the Efficacy and Safety of Acalabrutinib Versus Other Targeted Therapies in Relapsed/Refractory Mantle Cell Lymphoma.",
+            "abstract": "Mantle cell lymphoma (MCL) is a rare subtype of B-cell non-Hodgkin lymphoma that can be either aggressive or indolent. Although MCL usually responds well to initial treatment with chemotherapy-based regimens, the disease often relapses or becomes refractory within a few years. Acalabrutinib is a highly selective, potent, covalent Bruton tyrosine kinase inhibitor with minimal off-target activity. WIthout head-to-head clinical trial data, estimation of the comparative efficacy and safety of new therapeutic entities provides valuable information for patients, clinicians, and health care payers. The objective of this analysis was to compare the efficacy and safety of acalabrutinib versus other targeted therapies employed for the treatment of relapsed/refractory MCL by using matching-adjusted indirect comparisons.",
+            "journal": "Clinical therapeutics",
+            "year": "2019",
+            "authors": [
+              "Telford Claire",
+              "Kabadi Shaum M",
+              "Abhyankar Sarang",
+              "Song Jinlin",
+              "Signorovitch James"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Bortezomib",
+              "Humans",
+              "Lenalidomide",
+              "Lymphoma, Mantle-Cell",
+              "Neoplasm Recurrence, Local",
+              "Piperidines",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31699438/"
+          },
+          {
+            "pmid": "29737219",
+            "title": "Use of acalabrutinib in patients with mantle cell lymphoma.",
+            "abstract": "Acalabrutinib, a selective Bruton tyrosine kinase (BTK) inhibitor, was granted accelerated approval by the FDA on 31 October 2017 for the treatment of patients with mantle cell lymphoma (MCL) who have received at least one prior therapy. Areas covered: This narrative review provides an overview of acalabrutinib, its use in clinical practice and potential future developments. Expert commentary: BTK inhibitors have demonstrated efficacy in patients with relapsed or refractory MCL. To prepare patients for therapy, all preexisting infections should be diagnosed and treated, and infection prophylaxis undertaken. Serious adverse reactions are rare with acalabrutinib; however, patients should be made aware of common adverse events such as headaches, which usually resolve within one month without medical treatment. Interaction with other drugs appears to be less of an issue with acalabrutinib than with ibrutinib; however, patients receiving acalabrutinib therapy must be advised not to take any",
+            "journal": "Expert review of hematology",
+            "year": "2018",
+            "authors": [
+              "Awan Farrukh T",
+              "Jurczak Wojciech"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Benzamides",
+              "Humans",
+              "Infection Control",
+              "Infections",
+              "Lymphoma, Mantle-Cell",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29737219/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colon adenocarcinoma",
+        "txgnn_score": 0.9659940004348756,
+        "txgnn_rank": 22552,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "small intestinal Burkitt lymphoma",
+        "txgnn_score": 0.94037663936615,
+        "txgnn_rank": 28747,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "small intestinal mucosa-associated lymphoid tissue lymphoma",
+        "txgnn_score": 0.93829607963562,
+        "txgnn_rank": 29113,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thyroid gland mucosa-associated lymphoid tissue lymphoma",
+        "txgnn_score": 0.9375616908073424,
+        "txgnn_rank": 29243,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast mucosa-associated lymphoid tissue lymphoma",
+        "txgnn_score": 0.9367148876190186,
+        "txgnn_rank": 29406,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tonsillar lymphoma",
+        "txgnn_score": 0.9366677403450012,
+        "txgnn_rank": 29422,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40828558",
+            "title": "Multidisciplinary approach to diagnosis and management of lymphadenopathy in a patient with mucous membrane pemphigoid: a case report.",
+            "abstract": "Autoimmune blistering diseases (AIBDs) can present concurrently with solid or hematologic malignancies. This concomitant finding is believed to be associated with paraneoplastic syndrome, and management typically requires a multidisciplinary approach. This case report describes diagnosis and treatment of a patient previously diagnosed with mucous membrane pemphigoid of the skin who was referred to an oral medicine clinic for evaluation of oral mucosal blisters and gingival bleeding of 8 months' duration. Routine head and neck examination revealed incidental findings of a unilateral large palatine tonsil and fixed submandibular lymph node. A biopsy of the right tonsil was performed, and immunohistochemical analyses revealed markers consistent with mantle cell lymphoma, which was later determined to be stage III. The patient was started on a regimen of acalabrutinib and rituximab. At the 3-month follow-up, the patient's skin and oral blisters had cleared, and she was completely asymptoma",
+            "journal": "General dentistry",
+            "year": "2025",
+            "authors": [
+              "Turkstani Heba",
+              "Alamodi Eman",
+              "Stoopler Eric T",
+              "Mupparapu Mel",
+              "Omolehinwa Temitope T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pemphigoid, Benign Mucous Membrane",
+              "Female",
+              "Lymphadenopathy",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40828558/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neoplasm of mature B-cells",
+        "txgnn_score": 0.9324626922607422,
+        "txgnn_rank": 30203,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06564038",
+            "title": "A Phase I/II Open-Label Multi-Centre Master Protocol to Evaluate the Safety and Efficacy of AZD0486 Monotherapy or in Combination With Other Anticancer Agents in Participants With Mature B-Cell Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-01-30",
+            "completion_date": "2028-02-28",
+            "country": "Australia, Spain, France, South Korea, United Kingdom, Germany, Italy, Denmark, United States, China, Czechia, Taiwan, Japan",
+            "enrollment": 276,
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of AZD0486 administered as monotherapy or in combination with other anticancer agents in participants with hematological malignancies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMaster Inclusion Criteria applicable to all substudies:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2.\n* Contraception use during treatment and at least 90 days after final dose.\n* Confirmed CD19 expression if prior anti-CD19 therapy.\n\nSubstudy 1 Spec",
+            "endpoints": [
+              "Number of Participants with Adverse Events, Serious Adverse Events and Adverse Events of Special Interest",
+              "Number of Participants with Dose Limiting Toxicity (DLTs)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT06564038"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31580408",
+            "title": "Current targeted therapies in lymphomas.",
+            "abstract": "This article summarizes current targeted therapies that have received regulatory approval for the treatment of B- and T-cell lymphomas.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2019",
+            "authors": [
+              "Chung Clement"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Genetic Therapy",
+              "Humans",
+              "Immunotherapy",
+              "Lymphoma",
+              "Lymphoma, B-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31580408/"
+          },
+          {
+            "pmid": "41594662",
+            "title": "BTK Inhibition in Hematology: From CLL/SLL to Emerging Applications Across B-Cell and Immune Disorders.",
+            "abstract": "BTK (Bruton's tyrosine kinase) has become a key therapeutic target across several hematologic diseases, beginning with its original use in CLL/SLL. As a central mediator of B-cell receptor signaling and microenvironment interactions, BTK supports survival, proliferation, and trafficking in multiple mature B-cell malignancies (mantle cell lymphoma, marginal zone lymphoma, Waldenström macroglobulinemia, and other indolent/aggressive lymphomas) and in selected immune-mediated conditions such as chronic graft-versus-host disease. Covalent BTK inhibitors (ibrutinib, acalabrutinib, and zanubrutinib) irreversibly bind the C481 residue and have produced high response rates and durable disease control, often replacing chemoimmunotherapy in the relapsed setting and, for some entities, even in the first line. Differences in kinase selectivity lead to different safety profiles: second-generation covalent agents generally maintain efficacy while reducing significant off-target toxicities, especiall",
+            "journal": "Biomolecules",
+            "year": "2026",
+            "authors": [
+              "Duminuco Andrea",
+              "De Luca Paola",
+              "Stanzione Gaia",
+              "Caruso Laura Anastasia",
+              "Lavenia Giulio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Protein Kinase Inhibitors",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Piperidines",
+              "Immune System Diseases",
+              "B-Lymphocytes",
+              "Animals",
+              "Adenine",
+              "Benzamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41594662/"
+          },
+          {
+            "pmid": "40071479",
+            "title": "Therapeutic advances in chronic lymphocytic leukemia: A focus on molecular pathogenesis, targeted therapies, and supportive care.",
+            "abstract": "This article concisely evaluates current targeted therapies that have received regulatory approval for chronic lymphocytic leukemia (CLL). Mechanisms of molecular pathogenesis and their therapeutic implications, current and novel targeted therapies, and supportive care are discussed.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2025",
+            "authors": [
+              "Chung Clement"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Molecular Targeted Therapy",
+              "Antineoplastic Agents",
+              "Palliative Care",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40071479/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymph node cancer",
+        "txgnn_score": 0.9229763150215148,
+        "txgnn_rank": 31807,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03162536",
+            "title": "A Phase 1/2 Dose Escalation Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of ARQ 531 in Selected Subjects With Relapsed or Refractory Hematologic Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-06-26",
+            "completion_date": "2026-09-18",
+            "country": "United States",
+            "enrollment": 190,
+            "brief_summary": "This study aims to evaluate the safety, tolerability, pharmacodynamic, and pharmacokinetic (PK) of nemtabrutinib (formerly ARQ 531) tablets in selected participants with relapsed or refractory hematologic malignancies. No formal hypothesis testing will be performed for this study.",
+            "eligibility_criteria": "Inclusion Criteria\n\nEach prospective participant must meet ALL of the following inclusion criteria in order to be eligible for this study:\n\n* Signed written informed consent granted prior to initiation of any study-specific procedures\n* For the dose escalation cohorts, relapsed or refractory (R/R) p",
+            "endpoints": [
+              "Phase 1: Number of Participants Experiencing Dose Limiting Toxicity (DLT)",
+              "Phase 1: Number of Participants Who Experienced an Adverse Event (AE)",
+              "Phase 1: Number of Participants Who Discontinued Study Treatment Due to an AE"
+            ],
+            "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+            "url": "https://clinicaltrials.gov/study/NCT03162536"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03899337",
+            "title": "A Phase II, Randomised Study of CHOP-R in Combination With Acalabrutinib Compared to CHOP-R in Patients With Newly Diagnosed Richter's Syndrome and a Platform for Initial Investigations Into Activity of Novel Treatments in Relapsed/Refractory and Newly Diagnosed Richter's Syndrome.",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-07-23",
+            "completion_date": "2027-05-31",
+            "country": "United Kingdom",
+            "enrollment": 105,
+            "brief_summary": "The STELLAR trial will assess the effect of acalabrutinib taken in combination with CHOP-R compared to taking CHOP-R alone in patients with newly diagnosed Richter's Syndrome (RS). It will also be a platform to test other new drugs that show potential for treating RS. Chronic lymphocytic Leukaemia (CLL) is the most common blood cancer in adults, usually in their 70s or older. In a few patients, CLL can transform from a slow-growing cancer into an aggressive lymphoma called Richter's Syndrome. RS",
+            "eligibility_criteria": "Entry criteria for randomised trial component (standard of care and experimental arms):\n\nInclusion criteria for the randomised trial component:\n\n* Suitable for anthracycline-containing chemo-immunotherapy.\n* Patients with CLL and newly diagnosed biopsy proven DLBCL-type RS.\n* ECOG performance status",
+            "endpoints": [
+              "Randomised Component - Progression free survival (PFS)",
+              "Registration Arm - Cohort 1 - Overall Response",
+              "Registration Arm - Cohort 2 - Overall Response"
+            ],
+            "sponsor": "University of Birmingham",
+            "url": "https://clinicaltrials.gov/study/NCT03899337"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04704323",
+            "title": "An Open Label Phase Ia/b Dose Escalation Followed by Dose Expansion Safety and Tolerability Trial of CAP-100, a Humanized C-C-chemokine Receptor 7 Antibody, Administered as Monotherapy in Subjects With r/r Chronic Lymphocytic Leukemia",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-09-10",
+            "completion_date": "2027-04",
+            "country": "Spain, United States",
+            "enrollment": 18,
+            "brief_summary": "Introduction of immuno-chemotherapy in the treatment options of CLL and SLL changed the treatment paradigm of these diseases. Presently, first-line therapies for CLL/SLL include targeted therapies (e.g. ibrutinib, acalabrutinib) or combined immuno-chemotherapy regimens (e.g., fludarabine, cyclophosphamide, and rituximab for patients aged \\<65 years without del17p/TP53 mutations or bendamustine and rituximab for patients ≥65 years who have additional comorbidities).\n\nDespite the gradual introduct",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years.\n2. Able to understand and sign a written informed consent document.\n3. Eastern Cooperative Oncology Group (ECOG) performance status 0, 1 or 2.\n4. Relapsed or refractory to at least two (2) prior standard systemic treatment regimen for CLL or SLL (USA).\n\n   Rel",
+            "endpoints": [
+              "Incidence of treatment emergent adverse effects at increasing doses of CAP-100 (safety and tolerability)",
+              "Incidence of treatment emergent adverse effects of CAP-100 at RP2D in an expanded cohort (safety and tolerability)",
+              "Preliminary clinical benefit of CAP-100 monotherapy at RP2D"
+            ],
+            "sponsor": "Catapult Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT04704323"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04075292",
+            "title": "A Randomized, Multicenter, Open-Label, Phase 3 Study to Evaluate the Efficacy and Safety of Acalabrutinib Versus Chlorambucil Plus Rituximab in Subjects With Previously Untreated Chronic Lymphocytic Leukemia",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-01-20",
+            "completion_date": "2027-01-01",
+            "country": "Thailand, China, Philippines, Vietnam, Taiwan",
+            "enrollment": 155,
+            "brief_summary": "This is a randomized, multicenter, open-label, Phase 3 study to evaluate the efficacy and safety of Acalabrutinib versus Chlorambucil plus Rituximab in subjects with Previously Untreated Chronic Lymphocytic Leukemia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women: (a) ≥65 years of age OR (b) \\>18 and \\<65 years of age, provided that they meet at least one of the following criteria: (i) Creatinine clearance 30 to 69 mL/min using the Cockcroft-Gault equation (iwCLL guidelines) (ii) A score higher than 6 on the Cumulative Il",
+            "endpoints": [
+              "Progression Free Survival (PFS) Assessed by BICR"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT04075292"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02029443",
+            "title": "A Phase 1/2, Multicenter, Open-label, and Dose-escalation Study of ACP-196 in Subjects With Chronic Lymphocytic Leukemia, Richter's Syndrome or Prolymphocytic Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-01-30",
+            "completion_date": "2027-06-09",
+            "country": "Italy, United Kingdom, United States",
+            "enrollment": 306,
+            "brief_summary": "This study is evaluating the safety and efficacy of a new BTK inhibitor, acalabrutinib, for the treatment of chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Men and women ≥ 18 years of age with a confirmed diagnosis of CLL/SLL, which has relapsed after, or been refractory to, ≥ 2 previous treatments for CLL/SLL.\n2. Must have measurable CLL/SLL defined as ≥ 1 lymph node ≥ 2 cm as measured in the longest diameter.\n3. Active disease",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicities (DLTs) in Phase 1",
+              "Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs)",
+              "Number of Participants With Treatment Emergent Events of Clinical Interest (ECI)"
+            ],
+            "sponsor": "Acerta Pharma BV",
+            "url": "https://clinicaltrials.gov/study/NCT02029443"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04836832",
+            "title": "A Phase Ib/II Study of Duvelisib and Acalabrutinib in Relapsed/Refractory Indolent Non-Hodgkin Lymphoma (DUAL Trial)",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2022-07-01",
+            "completion_date": "2024-12-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This phase Ib/II trial studies the side effects of acalabrutinib and duvelisib and how well they work in treating patients with indolent non-Hodgkin lymphoma that has come back (relapsed) or does not respond to treatment (refractory). Acalabrutinib inhibits a signaling molecule called Bruton tyrosine kinase and blocks cancer cell proliferation, growth, and survival. Duvelisib is designed to block a protein called PI3 kinase in order to stop cancer growth and cause changes in the immune system th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\>= 18 years of age\n* Histologically confirmed iNHL of any of the following subtypes recognized by the World Health Organization (WHO) classification: follicular lymphoma and marginal zone lymphoma (splenic, nodal and extranodal)\n* Patients must meet clinical criteria for requ",
+            "endpoints": [
+              "Incidence of adverse events",
+              "Overall response rate (ORR) (assessed by computed tomography)"
+            ],
+            "sponsor": "Ohio State University Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04836832"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05205252",
+            "title": "ARIA: A Phase 1b/2, Open-label, Multi Cohort Trial of Tazemetostat in Combination With Various Treatments in Subjects With Relapsed or Refractory Hematologic Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2021-12-22",
+            "completion_date": "2023-07-05",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This trial will study how safely the tazemetostat works with other therapies in various hematological malignancies. Hematologic malignancies are cancers that most often begin in the bone marrow or lymph nodes where blood precursors are produced.\n\nThey are often called blood cancers and fall into three categories: leukemia, lymphoma and myeloma.\n\nTazemetostat has been found to be a safe and effective drug that works in patients with follicular lymphoma where the disease has come back after treatm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Eastern Cooperative Oncology Group (ECOG) performance status 0 to 1 for Phase 1b and status 0 to 2 for Phase 2\n2. Must have documented relapsed, refractory, or progressive disease after 2 lines of treatment with systemic therapy\n3. Measurable disease\n4. Demonstrate adequate o",
+            "endpoints": [
+              "Phase 1b: Recommended Phase 2 Dose (RP2D) of tazemetostat in combination with each partner drug",
+              "Phase 2: Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT05205252"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03571568",
+            "title": "Phase 1/2a Trial of BI-1206, a Monoclonal Antibody to CD32b (FcyRIIB), in Combination With Rituximab With or Without Acalabrutinib in Subjects With Indolent B-Cell Non-Hodgkin Lymphoma That Has Relapsed or is Refractory to Rituximab",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2018-05-16",
+            "completion_date": "2026-09-30",
+            "country": "Spain, Brazil, Germany, United States, Sweden, Poland",
+            "enrollment": 140,
+            "brief_summary": "Phase 1/2a Clinical Trial of BI-1206, a Monoclonal Antibody to CD32b (FcyRIIB), in Combination with Rituximab with or without Acalabrutinib in Subjects with Indolent B-Cell Non-Hodgkin Lymphoma That has Relapsed or is Refractory to Rituximab",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Are ≥ 18 years of age by initiation of study treatment.\n2. Have B-cell NHL proven by histology, with histological subtypes limited to follicular lymphoma (FL) (except FL grade 3B), MCL and marginal zone lymphoma (MZL)\n3. Have measurable nodal disease\n4. Are willing to undergo",
+            "endpoints": [
+              "Documenting AEs and SAEs and determining causality in relation to BI-1206 and/or rituximab and/or acalabrutinib",
+              "Determining the MTD of BI-1206 at the same dose level experiencing a BI-1206 or Rituximab-related or possibly related dose-limiting toxicity (DLT)",
+              "Determine the recommended dose of BI-1206 in combination with rituximab and acalabrutinib"
+            ],
+            "sponsor": "BioInvent International AB",
+            "url": "https://clinicaltrials.gov/study/NCT03571568"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04402138",
+            "title": "Single Arm, Phase II Study of Acalabrutinib as Post-Autologous Blood or Marrow Transplant (BMT) Maintenance Therapy in Subjects With Mantle Cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-08-07",
+            "completion_date": "2024-04-05",
+            "country": "United States",
+            "enrollment": 15,
+            "brief_summary": "This is a phase II study to evaluate efficacy of Acalabrutinib as a maintenance therapy following blood or marrow transplant (BMT) in patients who have been diagnosed with mantle cell lymphoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria for Initial Enrollment (Screening #1):\n\nPatients must meet all of the following criteria in order to be included in this research study:\n\n1. Written informed consent, according to local guidelines, signed by the subject or by a legal guardian prior to the perf",
+            "endpoints": [
+              "Progression Free Survival Rate (PFS) at 2 Years Post-Blood or Marrow Transplant (BMT)"
+            ],
+            "sponsor": "SCRI Development Innovations, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT04402138"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02296918",
+            "title": "A Phase 1b Study of ACP-196 in Combination With Obinutuzumab for Patients With Relapsed / Refractory or Untreated CLL/SLL/PLL",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2014-12-22",
+            "completion_date": "2025-10-22",
+            "country": "United States",
+            "enrollment": 69,
+            "brief_summary": "To evaluate the safety and preliminary efficacy of acalabrutinib in combination with obinutuzumab in 4 separate cohorts of participants.",
+            "eligibility_criteria": "Inclusion Criteria\n\n1. Participants with a diagnosis of intermediate or high risk CLL (or variant immunophenotype), SLL, or B-cell prolymphocytic leukemia (B-PLL) by International Workshop on Chronic Lymphocytic Leukemia (IWCLL) 2008 criteria (Hallek et al. 2008) who have:\n\n   * Cohorts 1 and 3: Pre",
+            "endpoints": [
+              "Percentage of Participants With Objective Response (OR) at 12 Months as Assessed by the Investigator in Cohorts 1 and 2",
+              "Number of Participants With Treatment Emergent Adverse Events (TEAEs) and Treatment Emergent Serious Adverse Events (TESAEs) in all Cohorts",
+              "Number of Participants With Treatment-Emergent Common Terminology Criteria for Adverse Events (CTCAE) Grade 3 or 4 Abnormalities in Laboratory Parameters in all Cohorts"
+            ],
+            "sponsor": "Acerta Pharma BV",
+            "url": "https://clinicaltrials.gov/study/NCT02296918"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03932331",
+            "title": "A Phase 1/2 Open Label, Multi-center Study to Assess the Safety, Tolerability, Pharmacokinetics and Clinical Efficacy of Acalabrutinib in Chinese Adult Subjects With Relapsed or Refractory Mantle Cell Lymphoma, Chronic Lymphocytic Leukemia or Other B-cell Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-04-29",
+            "completion_date": "2026-06-24",
+            "country": "China",
+            "enrollment": 105,
+            "brief_summary": "This is an open-label, two-part study to assess the safety, tolerability, pharmacokinetics and clinical efficacy of acalabrutinib in Chinese adult subjects with R/R MCL, CLL and other B-cell malignancies. The study is divided into 2 parts: Phase 1 portion and Phase 2 portion.",
+            "eligibility_criteria": "Inclusion Criteria\n\n1. Capable of giving signed informed consent which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n2. Chinese subjects at least 18 years of age at the time of study entry.\n3. Eastern Cooperative Oncology G",
+            "endpoints": [
+              "Phase I: Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+              "Phase I: Area Under the Plasma Concentration-Time Curve From Zero to Infinity (AUCinf) of Acalabrutinib and ACP-5862 Post Single Dose of Acalabrutinib",
+              "Phase I: Area Under the Plasma Concentration-Time Curve From Zero to 12 Hours (AUC0-12) of Acalabrutinib and ACP-5862 Post Single Dose of Acalabrutinib"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT03932331"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36377973",
+            "title": "BRUIN MCL-321: phase III study of pirtobrutinib versus investigator choice of BTK inhibitor in BTK inhibitor naive mantle cell lymphoma.",
+            "abstract": "Treatment with covalent Bruton tyrosine kinase inhibitors (BTKi) represents an important advance in the management of relapsed or refractory mantle cell lymphoma, but these treatments are not curative and many patients ultimately relapse. Pirtobrutinib, a highly selective, noncovalent (reversible) BTKi, inhibits both wild type and C481-mutant BTK with equal low nM potency, and has favorable oral pharmacology that enables continuous BTK inhibition throughout the dosing interval regardless of intrinsic rate of BTK turnover. Pirtobrutinib is well tolerated and has demonstrated promising efficacy in patients with poor prognosis B-cell malignancies following prior therapy, including covalent BTKi. This phase III, head-to-head, randomized study (NCT04662255) will evaluate whether pirtobrutinib is superior to investigator's choice of covalent BTKi in patients with previously treated, BTKi-naive mantle cell lymphoma.",
+            "journal": "Future oncology (London, England)",
+            "year": "2022",
+            "authors": [
+              "Eyre Toby A",
+              "Shah Nirav N",
+              "Dreyling Martin",
+              "Jurczak Wojciech",
+              "Wang Yucai"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Lymphoma, Mantle-Cell",
+              "Antineoplastic Agents",
+              "Neoplasm Recurrence, Local",
+              "Protein Kinase Inhibitors",
+              "Clinical Trials, Phase III as Topic",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36377973/"
+          },
+          {
+            "pmid": "37528310",
+            "title": "XPO1 inhibition sensitises CLL cells to NK cell mediated cytotoxicity and overcomes HLA-E expression.",
+            "abstract": "The first-in-class inhibitor of exportin-1 (XPO1) selinexor is currently under clinical investigation in combination with the BTK inhibitor ibrutinib for patients with chronic lymphocytic leukaemia (CLL) or non-Hodgkin lymphoma. Selinexor induces apoptosis of tumour cells through nuclear retention of tumour suppressor proteins and has also recently been described to modulate natural killer (NK) cell and T cell cytotoxicity against lymphoma cells. Here, we demonstrate that XPO1 inhibition enhances NK cell effector function against primary CLL cells via downregulation of HLA-E and upregulation of TRAIL death receptors DR4 and DR5. Furthermore, selinexor potentiates NK cell activation against CLL cells in combination with several approved treatments; acalabrutinib, rituximab and obinutuzumab. We further demonstrate that lymph node associated signals (IL-4 + CD40L) inhibit NK cell activation against CLL cells via upregulation of HLA-E, and that inhibition of XPO1 can overcome this protecti",
+            "journal": "Leukemia",
+            "year": "2023",
+            "authors": [
+              "Fisher Jack G",
+              "Doyle Amber D P",
+              "Graham Lara V",
+              "Sonar Shreyanshi",
+              "Sale Ben"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Karyopherins",
+              "Killer Cells, Natural",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Receptors, Cytoplasmic and Nuclear",
+              "Hydrazines",
+              "Histocompatibility Antigens Class I",
+              "Exportin 1 Protein",
+              "HLA-E Antigens",
+              "Triazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37528310/"
+          },
+          {
+            "pmid": "39937656",
+            "title": "Quantitative Systems Pharmacology Model to Predict Target Occupancy by Bruton Tyrosine Kinase Inhibitors in Patients With B-Cell Malignancies.",
+            "abstract": "The effectiveness of Bruton tyrosine kinase (BTK) inhibitors is influenced by the level of BTK occupancy in target tissues. In randomized phase 3 studies, progression-free survival (PFS) with zanubrutinib was superior to ibrutinib, whereas acalabrutinib was noninferior to ibrutinib in previously treated chronic lymphocytic leukemia. To establish a link between numerical differences in BTK occupancy and differentiated efficacy profiles among three covalent BTK inhibitors, quantitative systems pharmacology (QSP) modeling was employed. The model was developed to describe available clinical BTK occupancy data in patients with B-cell malignancies. Simulations of BTK occupancy were conducted for various clinical scenarios (e.g., dose interruption) and for bone marrow (BM), for which routine measurements are difficult. This model describes pharmacokinetics of BTK inhibitors; intracellular concentration of BTK inhibitors in peripheral blood mononuclear cells (PBMCs), BM, and lymph nodes (LNs);",
+            "journal": "CPT: pharmacometrics & systems pharmacology",
+            "year": "2025",
+            "authors": [
+              "Demin Oleg",
+              "Ou Ying",
+              "Kolesova Galina",
+              "Shchelokov Dmitry",
+              "Stepanov Alexander"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Protein Kinase Inhibitors",
+              "Piperidines",
+              "Adenine",
+              "Pyrazoles",
+              "Pyrimidines",
+              "Pyrazines",
+              "Benzamides",
+              "Models, Biological"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39937656/"
+          },
+          {
+            "pmid": "36868914",
+            "title": "SOHO State of the Art Updates and Next Questions | Infections in Chronic Lymphocytic Leukemia Patients: Risks and Management.",
+            "abstract": "Although chronic lymphocytic leukemia (CLL) is a malignancy characterized by accumulation of tumor cells in the blood, bone marrow, lymph nodes and secondary lymphoid tissues, the hallmark of the disease and the major cause of death for patients with CLL is actually immune dysfunction and associated infections. Despite improvement in treatment based on combination chemoimmunotherapy and targeted treatment with BTK and BCL-2 inhibitors leading to longer overall survival for patients with CLL, the mortality due to infections have not improved over the last 4 decades. Thus, infections are now the main cause of death for patients with CLL, posing threats to the patient whether during the premalignant state of monoclonal B lymphocytosis (MBL), during the watch & wait phase for treatment naïve patients, or upon treatment in terms of chemoimmunotherapy or targeted treatment. To test whether the natural history of immune dysfunction and infections in CLL can be changed, we have developed the m",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2023",
+            "authors": [
+              "Gargiulo Ernesto",
+              "Ribeiro Eduardo Flavio Oliveira",
+              "Niemann Carsten U"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Antineoplastic Agents",
+              "Immunotherapy",
+              "Proto-Oncogene Proteins c-bcl-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36868914/"
+          },
+          {
+            "pmid": "37635085",
+            "title": "Acalabrutinib and steroid for autoimmune thrombocytopenia due to relapsed chronic lymphocytic leukemia with severe bone marrow infiltration.",
+            "abstract": "Thrombocytopenia is a frequent complication in chronic lymphocytic leukemia (CLL). Differentiating autoimmune thrombocytopenia from thrombocytopenia due to bone marrow infiltration is necessary for appropriate treatment, but sometimes difficult. Here we report a 60-year-old male patient with CLL who had achieved complete response after treatment with fludarabine, cyclophosphamide, and rituximab two years prior to presentation. He was admitted with severe thrombocytopenia that was unresponsive to intravenous immunoglobulin. Imaging studies revealed systemic enlarged lymph nodes and bone marrow aspiration was hypercellular with > 95% lymphocytes and scant megakaryocytes. Acalabrutinib 200 mg/day was administered for the treatment of CLL exacerbation. A gradual decrease in CLL cells and recovery of megakaryocytes in bone marrow were observed, but platelet counts remained low. Systemic administration of prednisolone 0.5 mg/kg, in addition to acalabrutinib, was started, considering the cont",
+            "journal": "Journal of clinical and experimental hematopathology : JCEH",
+            "year": "2023",
+            "authors": [
+              "Oyama Takashi",
+              "Yasunaga Megumi",
+              "Jona Masahiro",
+              "Nishikawa Masako",
+              "Yatomi Yutaka"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Middle Aged",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Bone Marrow",
+              "Purpura, Thrombocytopenic, Idiopathic",
+              "Thrombocytopenia",
+              "Steroids",
+              "Benzamides",
+              "Pyrazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37635085/"
+          },
+          {
+            "pmid": "35594173",
+            "title": "Circulating Tumor DNA-Based MRD Assessment in Patients with CLL Treated with Obinutuzumab, Acalabrutinib, and Venetoclax.",
+            "abstract": "With the advent of highly efficacious time-limited combination treatments of targeted agents in chronic lymphocytic leukemia (CLL), minimal residual disease (MRD) assessment has gained importance as a measure for therapeutic success and as a surrogate for progression-free survival. The currently most widely used method is multicolor flow cytometry, which detects circulating CLL cells in the peripheral blood. However, it seems to be less sensitive for the detection of MRD in the lymph node compartment.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2022",
+            "authors": [
+              "Fürstenau Moritz",
+              "Weiss Jonathan",
+              "Giza Adam",
+              "Franzen Fabian",
+              "Robrecht Sandra"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Benzamides",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Circulating Tumor DNA",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Neoplasm, Residual",
+              "Pyrazines",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35594173/"
+          },
+          {
+            "pmid": "29242301",
+            "title": "In vitro and in vivo evidence for uncoupling of B-cell receptor internalization and signaling in chronic lymphocytic leukemia.",
+            "abstract": "B-cell receptor activation, occurring within lymph nodes, plays a key role in the pathogenesis of chronic lymphocytic leukemia and is linked to prognosis. As well as activation of downstream signaling, receptor ligation triggers internalization, transit to acidified endosomes and degradation of ligand-receptor complexes. Herein, we investigated the relationship between these two processes in normal and leukemic B cells. We found that leukemic B cells, particularly anergic cases lacking the capacity to initiate downstream signaling, internalize and accumulate ligand in acidified endosomes more efficiently than normal B cells. Furthermore, ligation of either surface CD79B, a B-cell receptor component required for downstream signaling, or surface Immunoglobulin M (IgM) by cognate agonistic antibody, showed that the two molecules internalize independently of each other in leukemic but not normal B cells. Since association with surface CD79B is required for surface retention of IgM, this su",
+            "journal": "Haematologica",
+            "year": "2018",
+            "authors": [
+              "Coulter Eve M",
+              "Pepper Andrea",
+              "Mele Silvia",
+              "Folarin Najeem'deen",
+              "Townsend William"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Benzamides",
+              "CD79 Antigens",
+              "Clonal Anergy",
+              "Endocytosis",
+              "Humans",
+              "Immunoglobulin M",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29242301/"
+          },
+          {
+            "pmid": "30011241",
+            "title": "Homogeneous BTK Occupancy Assay for Pharmacodynamic Assessment of Tirabrutinib (GS-4059/ONO-4059) Target Engagement.",
+            "abstract": "Bruton's tyrosine kinase (BTK) is a clinically validated target for B-cell leukemias and lymphomas with FDA-approved small-molecule inhibitors ibrutinib and acalabrutinib. Tirabrutinib (GS-4059/ONO-4059, Gilead Sciences, Inc., Foster City, CA) is a second-generation, potent, selective, irreversible BTK inhibitor in clinical development for lymphoid malignancies, including chronic lymphocytic leukemia (CLL) and diffuse large B-cell lymphoma (DLBCL). An accurate pharmacodynamic assay to assess tirabrutinib target coverage in phase 1/2 clinical studies will inform dose and schedule selection for advanced clinical evaluation. We developed a novel duplex homogeneous BTK occupancy assay based on time-resolved fluorescence resonance energy transfer (TR-FRET) to measure free and total BTK levels in a multiplexed format. The dual-wavelength emission property of terbium-conjugated anti-BTK antibody served as the energy donor for two fluorescent energy acceptors with distinct excitation and emiss",
+            "journal": "SLAS discovery : advancing life sciences R & D",
+            "year": "2018",
+            "authors": [
+              "Yu Helen",
+              "Truong Hoa",
+              "Mitchell Scott A",
+              "Liclican Albert",
+              "Gosink John J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Biological Assay",
+              "Bone Marrow Cells",
+              "Cell Line, Tumor",
+              "Drug Stability",
+              "Enzyme Activation",
+              "Humans",
+              "Imidazoles",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Leukocytes, Mononuclear"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30011241/"
+          },
+          {
+            "pmid": "40582839",
+            "title": "Pemigatinib therapy in myeloid/lymphoid neoplasm with FGFR1 rearrangement manifesting as aggressive B-cell lymphoma.",
+            "abstract": "Myeloid/lymphoid neoplasm with FGFR1 rearrangement (MLNF) is one of the rare hematologic malignancies with variable clinical presentations, including a chronic phase resembling myeloproliferative neoplasms and an acute phase presenting as myeloid/lymphoid leukemia or lymphoma, often associated with eosinophilia. The prognosis of MLNF has been poor, and allogeneic hematopoietic stem cell transplantation (HSCT) remains the only curative approach, although selective FGFR1 inhibitors, such as pemigatinib, have recently emerged as therapeutic options. Nevertheless, the efficacy of pemigatinib in aggressive or blast-phase MLNF remains unclear. Herein, we report a case of a 67-year-old woman initially diagnosed with Richter's syndrome. The patient achieved a complete response with six cycles of rituximab-based chemoimmunotherapy followed by acalabrutinib maintenance. Two years later, the patient developed leukocytosis, eosinophilia, and recurrent lymphadenopathy. Bone marrow examination revea",
+            "journal": "Journal of clinical and experimental hematopathology : JCEH",
+            "year": "2025",
+            "authors": [
+              "Ito Kenichi",
+              "Hirano Kazuhiko",
+              "Sekiguchi Naohiro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Receptor, Fibroblast Growth Factor, Type 1",
+              "Aged",
+              "Pyrimidines",
+              "Gene Rearrangement",
+              "Lymphoma, B-Cell",
+              "Morpholines",
+              "Pyrroles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40582839/"
+          },
+          {
+            "pmid": "41608556",
+            "title": "Leukemic penile ulcer as the presenting symptom of chronic lymphatic leukemia.",
+            "abstract": "Chronic lymphatic leukemia (CLL) is the most common type of leukemia in the West, with an incidence of 4.2 per 100 000 population. Penile prepuce involvement at presentation, as the first manifestation of CLL, is extremely rare. We have seen a 69-year-old male patient who presented with a non-healing ulcer on the foreskin of the penis for 6 weeks. Biopsy revealed the diagnosis of small lymphocytic lymphoma. His hematological work-up uncovered an underlying CLL. He was treated with acalabrutinib, a Bruton tyrosine kinase inhibitor, resulting in complete remission after 7 weeks. In the vast majority of patients with CLL, the disease primarily involves bone marrow, peripheral blood, lymph nodes, and spleen; extramedullary and extranodal involvement is rarely seen. This case highlights the importance of keeping leukemic involvement into consideration in patients with penile lesions, as it can be the first manifestation of underlying CLL.",
+            "journal": "Journal of surgical case reports",
+            "year": "2026",
+            "authors": [
+              "Sandhu Harsahib Singh",
+              "Chandra Suresh",
+              "Joshi Smiley"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41608556/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyclonal hypergammaglobulinemia",
+        "txgnn_score": 0.9228885173797609,
+        "txgnn_rank": 31824,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11703",
+    "name": "Acalabrutinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Acalabrutinib"
+      },
+      "queried_at": "2026-03-10T06:32:01.170110",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Acalabrutinib"
+      },
+      "queried_at": "2026-03-10T06:32:03.274389",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "lymphoma, non-Hodgkin, familial"
+      },
+      "queried_at": "2026-03-10T06:32:04.057000",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "lymphoma, non-Hodgkin, familial"
+      },
+      "queried_at": "2026-03-10T06:32:06.739069",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "lymphoma, non-Hodgkin, familial"
+      },
+      "queried_at": "2026-03-10T06:32:11.258687",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "colon adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T06:32:11.777251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "colon adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T06:32:15.063990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "colon adenocarcinoma"
+      },
+      "queried_at": "2026-03-10T06:32:15.929619",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "small intestinal Burkitt lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:16.675513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "small intestinal Burkitt lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:20.567720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "small intestinal Burkitt lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:21.255632",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "small intestinal mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:21.915725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "small intestinal mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:25.369459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "small intestinal mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:26.025237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "thyroid gland mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:26.509146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "thyroid gland mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:29.675394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "thyroid gland mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:30.461395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "breast mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:31.357952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "breast mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:34.605238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "breast mucosa-associated lymphoid tissue lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:35.406883",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "tonsillar lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:36.021076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "tonsillar lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:39.107820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "tonsillar lymphoma"
+      },
+      "queried_at": "2026-03-10T06:32:41.586923",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "neoplasm of mature B-cells"
+      },
+      "queried_at": "2026-03-10T06:32:42.081608",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "neoplasm of mature B-cells"
+      },
+      "queried_at": "2026-03-10T06:32:45.405784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "neoplasm of mature B-cells"
+      },
+      "queried_at": "2026-03-10T06:32:47.535846",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "lymph node cancer"
+      },
+      "queried_at": "2026-03-10T06:32:48.460029",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "lymph node cancer"
+      },
+      "queried_at": "2026-03-10T06:32:51.856494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "lymph node cancer"
+      },
+      "queried_at": "2026-03-10T06:32:53.795661",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "polyclonal hypergammaglobulinemia"
+      },
+      "queried_at": "2026-03-10T06:32:54.370138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "polyclonal hypergammaglobulinemia"
+      },
+      "queried_at": "2026-03-10T06:32:57.679005",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Acalabrutinib",
+        "disease": "polyclonal hypergammaglobulinemia"
+      },
+      "queried_at": "2026-03-10T06:32:58.625142",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:32:58.643571"
+  }
+}

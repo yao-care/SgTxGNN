@@ -1,0 +1,1845 @@
+{
+  "drug": {
+    "inn": "Zanubrutinib",
+    "drugbank_id": "DB15035",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.996482253074646,
+        "txgnn_rank": 5133,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05665530",
+            "title": "A Phase 1 Open-Label, Multi-Center, Safety and Efficacy Study of PRT2527 as Monotherapy and in Combination With Zanubrutinib or Venetoclax in Participants With Relapsed/Refractory Hematologic Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2023-09-12",
+            "completion_date": "2026-01-21",
+            "country": "Switzerland, Australia, United Kingdom, France, Canada, South Korea, Germany, Italy, United States, Poland",
+            "enrollment": 86,
+            "brief_summary": "This is a Phase 1 dose-escalation study of PRT2527, a potent and highly selective cyclin-dependent kinase (CDK) 9 inhibitor, in participants with select relapsed or refractory (R/R) hematologic malignancies. The purpose of this study is to evaluate the safety, tolerability, recommended phase 2 dose (PR2D), and preliminary efficacy of PRT2527 as a monotherapy and in combination with zanubrutinib or venetoclax.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Willing and able to comply with all scheduled visits, treatment plan, laboratory tests, lifestyle considerations, and other study procedures\n* Histologically or cytologically confirmed diagnosis of aggressive B-cell lymphoma subtypes, MCL, MZL, or CLL/SLL (including Richter's ",
+            "endpoints": [
+              "Dose limiting toxicity (DLT) of PRT2527",
+              "Safety and tolerability of PRT2527 monotherapy and in combination with zanubrutinib or venetoclax: AEs, CTCAE Assessments",
+              "Maximum tolerated dose (MTD)/Recommended phase 2 dose (RP2D) of PRT2527 monotherapy and in combination with zanubrutinib or venetoclax"
+            ],
+            "sponsor": "Prelude Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT05665530"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04477291",
+            "title": "A Phase 1a/b Trial of CG-806 in Patients With Relapsed/Refractory Acute Myeloid Leukemia or Higher-Risk Myelodysplastic Syndromes",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2020-10-06",
+            "completion_date": "2024-04-15",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "This study is being done to evaluate the safety, tolerability and antitumor activity of oral CG-806 (luxeptinib) for the treatment of patients with Acute Myeloid Leukemia (except APML), secondary AML, therapy-related AML, or higher-risk MDS, whose disease has relapsed, is refractory or who are ineligible for or intolerant of intensive chemotherapy or transplantation.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Age ≥18 years\n* Life expectancy of at least 3 months\n* ECOG Performance Status ≤ 2\n* Patients must be able to swallow capsules\n* Adequate hematologic parameters, unless cytopenias are disease caused\n* Adequate renal, liver and cardiac functions\n\nKey Exclusion Criteria:\n\n* ",
+            "endpoints": [
+              "Incidence of treatment-emergent adverse events of CG-806",
+              "Establish a CG-806 dose that maintains a biologically active plasma concentration",
+              "Establish a recommended dose for future development of CG-806"
+            ],
+            "sponsor": "Aptose Biosciences Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04477291"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39647999",
+            "title": "Zanubrutinib Versus Bendamustine and Rituximab in Patients With Treatment-Naïve Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma: Median 5-Year Follow-Up of SEQUOIA.",
+            "abstract": "Clinical trials frequently include multiple end points that mature at different times. The initial report, typically based on the primary end point, may be published when key planned co-primary or secondary analyses are not yet available. Clinical Trial Updates provide an opportunity to disseminate additional results from studies, published in JCO or elsewhere, for which the primary end point has already been reported.SEQUOIA (ClinicalTrials.gov identifier: NCT03336333) is a phase III, randomized, open-label trial that compared the oral Bruton tyrosine kinase inhibitor zanubrutinib to bendamustine plus rituximab (BR) in treatment-naïve patients with chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL). The initial prespecified analysis (median follow-up, 26.2 months) and subsequent analysis (43.7 months) found superior progression-free survival (PFS; the primary end point) in patients who received zanubrutinib compared with BR. At a median follow-up of 61.2 months, median ",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2025",
+            "authors": [
+              "Shadman Mazyar",
+              "Munir Talha",
+              "Robak Tadeusz",
+              "Brown Jennifer R",
+              "Kahl Brad S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Bendamustine Hydrochloride",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Female",
+              "Male",
+              "Pyrimidines",
+              "Rituximab",
+              "Middle Aged",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39647999/"
+          },
+          {
+            "pmid": "40334067",
+            "title": "Zanubrutinib is well tolerated and effective in patients with CLL/SLL intolerant of ibrutinib/acalabrutinib: updated results.",
+            "abstract": "Bruton tyrosine kinase (BTK) inhibitors such as ibrutinib (ibr) revolutionized chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) treatment, although treatment-related toxicities limit the use of some BTK inhibitors. Zanubrutinib, a potent next-generation BTK inhibitor, has higher selectivity than ibrutinib or acalabrutinib. The ongoing phase 2, single-arm BGB-3111-215 study investigates the safety and efficacy of zanubrutinib in patients with B-cell malignancies who are intolerant of ibrutinib and/or acalabrutinib. Here, results in patients with CLL/SLL are presented. Patients received zanubrutinib 160 mg twice daily or 320 mg once a day. With a 34.5-month median follow-up, 71 patients (ibrutinib intolerant only, n = 44; acalabrutinib intolerant only, n = 17; ibrutinib and acalabrutinib intolerant, n = 10) received ≥1 zanubrutinib dose. On zanubrutinib, 54% (28/52) of ibrutinib-intolerant patients and 70% (19/27) of acalabrutinib-intolerant patients experienced no recur",
+            "journal": "Blood advances",
+            "year": "2025",
+            "authors": [
+              "Shadman Mazyar",
+              "Burke John M",
+              "Cultrera Jennifer",
+              "Yimer Habte A",
+              "Zafar Syed F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adenine",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Piperidines",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Pyrazines",
+              "Aged",
+              "Benzamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40334067/"
+          },
+          {
+            "pmid": "40829104",
+            "title": "Zanubrutinib for the treatment of patients with del(17p) and/or TP53 CLL/SLL: analysis across clinical studies.",
+            "abstract": "Patients with chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) who harbor del(17p) and/or tumor protein p53 (TP53) mutations represent a high-risk population with a historically poor prognosis. To assess zanubrutinib efficacy and safety outcomes in patients with CLL/SLL with del(17p) and/or TP53 mutations (N = 301; n = 132, treatment-naive [TN]; n = 169, relapsed/refractory [R/R]), data from SEQUOIA (phase 3; TN; zanubrutinib; NCT03336333), ALPINE (phase 3; R/R; zanubrutinib vs ibrutinib; NCT03734016), and AU-003 (NCT02343120) (phase 1/2; zanubrutinib) were evaluated. In SEQUOIA (n = 127; median follow-up, 64.8 months), median progression-free survival (PFS) and overall survival (OS) were not reached; estimated 60-month PFS and OS were 70.7% and 82.3%, respectively. In ALPINE (n = 75, each treatment arm; median follow-up, 39.0 months), 36-month PFS rates were 59.2% among patients treated with zanubrutinib and 38.5% among those treated with ibrutinib, and OS rates were ",
+            "journal": "Blood advances",
+            "year": "2026",
+            "authors": [
+              "Tam Constantine S",
+              "Anderson Mary Ann",
+              "Šimkovič Martin",
+              "Ghia Paolo",
+              "Flinn Ian W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Adenine",
+              "Antineoplastic Agents",
+              "Chromosome Deletion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40829104/"
+          },
+          {
+            "pmid": "36400069",
+            "title": "Zanubrutinib in patients with previously treated B-cell malignancies intolerant of previous Bruton tyrosine kinase inhibitors in the USA: a phase 2, open-label, single-arm study.",
+            "abstract": "We hypothesised that zanubrutinib, a highly selective next-generation Bruton tyrosine kinase (BTK) inhibitor, would be a safe and active treatment for patients intolerant of ibrutinib, acalabrutinib, or both. We aimed to assess whether zanubrutinib would prolong treatment duration by minimising treatment-related toxicities and discontinuations in patients with previously treated B-cell malignancies.",
+            "journal": "The Lancet. Haematology",
+            "year": "2023",
+            "authors": [
+              "Shadman Mazyar",
+              "Flinn Ian W",
+              "Levy Moshe Y",
+              "Porter Ryan F",
+              "Burke John M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Adult",
+              "Female",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Tyrosine Kinase Inhibitors",
+              "Atrial Fibrillation",
+              "COVID-19",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36400069/"
+          },
+          {
+            "pmid": "34959482",
+            "title": "The TKI Era in Chronic Leukemias.",
+            "abstract": "Tyrosine kinases are proteins involved in physiological cell functions including proliferation, differentiation, and survival. However, the dysregulation of tyrosine kinase pathways occurs in malignancy, including hematological leukemias such as chronic myeloid leukemia (CML) and chronic lymphocytic leukemia (CLL). Particularly, the fusion oncoprotein BCR-ABL1 in CML and the B-cell receptor (BCR) signaling pathway in CLL are critical for leukemogenesis. Therapeutic management of these two hematological conditions was fundamentally changed in recent years, making the role of conventional chemotherapy nearly obsolete. The first, second, and third generation inhibitors (imatinib, dasatinib, nilotinib, bosutinib, and ponatinib) of BCR-ABL1 and the allosteric inhibitor asciminib showed deep genetic and molecular remission rates in CML, leading to the evaluation of treatment discontinuation in prospective trials. The irreversible BTK inhibitors (ibrutinib, acalabrutinib, zanubrutinib, tirabr",
+            "journal": "Pharmaceutics",
+            "year": "2021",
+            "authors": [
+              "De Novellis Danilo",
+              "Cacace Fabiana",
+              "Caprioli Valeria",
+              "Wierda William G",
+              "Mahadeo Kris M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34959482/"
+          },
+          {
+            "pmid": "36402930",
+            "title": "Managing Waldenström's macroglobulinemia with BTK inhibitors.",
+            "abstract": "Bruton's tyrosine kinase (BTK) inhibition is one of the treatment standards for patients with relapsed/refractory Waldenström's macroglobulinemia (WM) and for patients with WM who are unsuitable for immunochemotherapy (ICT). It offers deep and durable responses with a manageable safety profile that is generally favorable compared with ICT regimens. However, the limitations of the first approved BTK inhibitor (BTKi), ibrutinib, include reduced efficacy in patients lacking the characteristic WM mutation (MYD88L265P) and toxicities related to off-target activity. The risk of atrial fibrillation (AF) and other cardiovascular side effects are a notable feature of ibrutinib therapy. Several next-generation covalent BTKis with greater selectivity for BTK are at various stages of development. In November 2021, zanubrutinib became the first of these agents to be approved by the European Medicines Agency for the treatment of WM. Head-to-head trial data indicate that it has comparable efficacy to",
+            "journal": "Leukemia",
+            "year": "2023",
+            "authors": [
+              "Buske Christian",
+              "Jurczak Wojciech",
+              "Salem Joe-Elie",
+              "Dimopoulos Meletios A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Waldenstrom Macroglobulinemia",
+              "Myeloid Differentiation Factor 88",
+              "Neoplasm Recurrence, Local",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Signal Transduction",
+              "Atrial Fibrillation",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36402930/"
+          },
+          {
+            "pmid": "36325357",
+            "title": "Case report: A rare case of coexisting Waldenstrom Macroglobulinemia and B-cell acute lymphoblastic leukemia with KMT2D and MECOM mutations.",
+            "abstract": "Waldenstrom Macroglobulinemia (WM) is a rare and indolent lymphoma of B-cell origin characterized by elevated monoclonal IgM, with MYD88L265P mutation and CXCR4 mutation as common molecular alterations. B-cell Acute Lymphoblastic Leukemia (B-ALL) is clinically heterogeneous, characterized by abnormal proliferation and aggregation of immature lymphocytes in the bone marrow and lymphoid tissue. WM and ALL are hematologic malignancies of B-cell origin with completely different clinical manifestations and biological features. KMT2D and MECOM mutations are very rare in ALL and usually indicate poor disease prognosis. The coexistence of WM and ALL with KMT2D and MECOM mutations have not been reported.",
+            "journal": "Frontiers in immunology",
+            "year": "2022",
+            "authors": [
+              "Wang Lingling",
+              "Tang Jiao",
+              "Feng Jun",
+              "Huang Yongfen",
+              "Cheng Yuexin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Aged",
+              "Waldenstrom Macroglobulinemia",
+              "Myeloid Differentiation Factor 88",
+              "Lymphoma, B-Cell",
+              "Mutation",
+              "Burkitt Lymphoma",
+              "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+              "Dexamethasone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36325357/"
+          },
+          {
+            "pmid": "37150651",
+            "title": "Hepatitis B Virus Reactivation in Patients Receiving Bruton Tyrosine Kinase Inhibitors.",
+            "abstract": "Bruton tyrosine kinase (BTK) inhibitors are used to treat B-cell hematologic malignancies. Ibrutinib has been associated with hepatitis B virus (HBV) reactivation. We sought to identify patients with hematologic malignancies who developed HBV reactivation after receiving first-generation (ibrutinib) or second-generation (acalabrutinib and zanubrutinib) BTK inhibitors.",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2023",
+            "authors": [
+              "Chiu Chia-Yu",
+              "Ahmed Sairah",
+              "Thomas Sheeba K",
+              "Wang Lan Sun",
+              "Mustafayev Khalis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hepatitis B virus",
+              "Hepatitis B Surface Antigens",
+              "Tyrosine Kinase Inhibitors",
+              "Retrospective Studies",
+              "Hepatitis B",
+              "Hepatitis B Antibodies",
+              "Hematologic Neoplasms",
+              "Virus Activation",
+              "Benzamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37150651/"
+          },
+          {
+            "pmid": "38288815",
+            "title": "An Expedition on Synthetic Methodology of FDA-approved Anticancer Drugs (2018-2021).",
+            "abstract": "New drugs being established in the market every year produce specified structures for selective biological targeting. With medicinal insights into molecular recognition, these begot molecules open new rooms for designing potential new drug molecules. In this review, we report the compilation and analysis of a total of 56 drugs including 33 organic small molecules (Mobocertinib, Infigratinib, Sotorasib, Trilaciclib, Umbralisib, Tepotinib, Relugolix, Pralsetinib, Decitabine, Ripretinib, Selpercatinib, Capmatinib, Pemigatinib, Tucatinib, Selumetinib, Tazemetostat, Avapritinib, Zanubrutinib, Entrectinib, Pexidartinib, Darolutamide, Selinexor, Alpelisib, Erdafitinib, Gilteritinib, Larotrectinib, Glasdegib, Lorlatinib, Talazoparib, Dacomitinib, Duvelisib, Ivosidenib, Apalutamide), 6 metal complexes (Edotreotide Gallium Ga-68, fluoroestradiol F-18, Cu 64 dotatate, Gallium 68 PSMA-11, Piflufolastat F-18, 177Lu (lutetium)), 16 macromolecules as monoclonal antibody conjugates (Brentuximabvedotin",
+            "journal": "Anti-cancer agents in medicinal chemistry",
+            "year": "2024",
+            "authors": [
+              "Vishakha S",
+              "Navneesh N",
+              "Kurmi Balak Das",
+              "Gupta Ghanshyam Das",
+              "Verma Sant Kumar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antineoplastic Agents",
+              "United States",
+              "United States Food and Drug Administration",
+              "Drug Approval",
+              "Neoplasms",
+              "Molecular Structure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38288815/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.9937599301338196,
+        "txgnn_rank": 7577,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.9935945868492126,
+        "txgnn_rank": 7740,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal neoplasm",
+        "txgnn_score": 0.9930288195610046,
+        "txgnn_rank": 8203,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ewing sarcoma",
+        "txgnn_score": 0.992739737033844,
+        "txgnn_rank": 8432,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuroblastoma",
+        "txgnn_score": 0.9920721650123596,
+        "txgnn_rank": 8972,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38288815",
+            "title": "An Expedition on Synthetic Methodology of FDA-approved Anticancer Drugs (2018-2021).",
+            "abstract": "New drugs being established in the market every year produce specified structures for selective biological targeting. With medicinal insights into molecular recognition, these begot molecules open new rooms for designing potential new drug molecules. In this review, we report the compilation and analysis of a total of 56 drugs including 33 organic small molecules (Mobocertinib, Infigratinib, Sotorasib, Trilaciclib, Umbralisib, Tepotinib, Relugolix, Pralsetinib, Decitabine, Ripretinib, Selpercatinib, Capmatinib, Pemigatinib, Tucatinib, Selumetinib, Tazemetostat, Avapritinib, Zanubrutinib, Entrectinib, Pexidartinib, Darolutamide, Selinexor, Alpelisib, Erdafitinib, Gilteritinib, Larotrectinib, Glasdegib, Lorlatinib, Talazoparib, Dacomitinib, Duvelisib, Ivosidenib, Apalutamide), 6 metal complexes (Edotreotide Gallium Ga-68, fluoroestradiol F-18, Cu 64 dotatate, Gallium 68 PSMA-11, Piflufolastat F-18, 177Lu (lutetium)), 16 macromolecules as monoclonal antibody conjugates (Brentuximabvedotin",
+            "journal": "Anti-cancer agents in medicinal chemistry",
+            "year": "2024",
+            "authors": [
+              "Vishakha S",
+              "Navneesh N",
+              "Kurmi Balak Das",
+              "Gupta Ghanshyam Das",
+              "Verma Sant Kumar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antineoplastic Agents",
+              "United States",
+              "United States Food and Drug Administration",
+              "Drug Approval",
+              "Neoplasms",
+              "Molecular Structure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38288815/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic myelogenous leukemia, BCR-ABL1 positive",
+        "txgnn_score": 0.9859715104103088,
+        "txgnn_rank": 13584,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive",
+        "txgnn_score": 0.9809443950653076,
+        "txgnn_rank": 16587,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphoma, non-Hodgkin, familial",
+        "txgnn_score": 0.9799953103065492,
+        "txgnn_rank": 17028,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07377578",
+            "title": "A Randomized, Open-label, Multicenter, Phase III Clinical Study Comparing Rocbrutinib Monotherapy Versus Investigator's Choice of BTK Inhibitors in Patients With Relapsed or Refractory Mantle Cell Lymphoma (MCL) (PRIME Study)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2026-02-05",
+            "completion_date": "2033-01-30",
+            "country": "China",
+            "enrollment": 394,
+            "brief_summary": "Mantle cell lymphoma (MCL) is an aggressive yet often indolent type of B-cell non-Hodgkin lymphoma (NHL). Rocbrutinib (LP-168) is a novel, highly selective, fourth-generation Bruton's tyrosine kinase (BTK) inhibitor that exhibits both covalent (irreversible) and non-covalent (reversible) binding. This unique dual mechanism of action has shown promising efficacy and a favorable safety profile across various B-cell NHL subtypes in prior Phase 1 and 2 studies. This is a Phase 3, randomized, open-la",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with MCL, who have received at least one prior systemic regimen(s), and have experienced disease progression on the most recent line of therapy.\n* Have at least one measurable lesion according to the Lugano Response Criteria 2014.\n* Eastern Cooperative Oncology Group",
+            "endpoints": [
+              "Progression-free survival (PFS) assessed by IRC"
+            ],
+            "sponsor": "Guangzhou Lupeng Pharmaceutical Company LTD.",
+            "url": "https://clinicaltrials.gov/study/NCT07377578"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06646666",
+            "title": "Efficacy and Safety of All-trans Retinoic Acid (ATRA)-Based Chemo-free Bridging/Maintenance Therapy in CAR-T Treatment of High-risk Relapsed/Refractory B-NHL Ineligible for High-dose Chemotherapy （HDCT） and Autologous Stem Cell Transplantation （ASCT）",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-12-01",
+            "completion_date": "2027-12-01",
+            "country": "China",
+            "enrollment": 35,
+            "brief_summary": "This is a single-center, open-label, prospective study enrolling high-risk (tumor diameter \\> 4 cm) relapsed/refractory B-NHL patients ineligible for HDCT and ASCT. The treatment consists of ATRA combined with zanubrutinib ± radiotherapy and CAR-T therapy. Based on the efficacy at day 28 post-CAR-T infusion, patients achieving CR will receive 3 months of ATRA and zanubrutinib, while those with PR will receive 3 months of zanubrutinib plus 2 years of ATRA and a PD-1 inhibitor. Patients with stabl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Willingly sign the informed consent form.\n* Age ≥ 18 years, any gender.\n* Histologically confirmed as B-cell non-Hodgkin lymphoma, including:\n\n  * Diffuse large B-cell lymphoma (DLBCL) not otherwise specified (DLBCL-NOS)\n  * Transformed follicular lymphoma (tFL)\n  * High-grade",
+            "endpoints": [
+              "Complete Response (CR) Rate at 3-month"
+            ],
+            "sponsor": "Ruijin Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06646666"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05202782",
+            "title": "Phase II, Single-Arm, Open-label, Multicenter Study Evaluating the Efficacy of Adjunctive Zanubrutinib and CAR T-Cell Therapy in Aggressive B-Cell Non-Hodgkin's Lymphoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-03-21",
+            "completion_date": "2029-10-09",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This phase II trial studies the effect of zanubrutinib and CAR T-cell therapy in treating patients with aggressive B-cell non-Hodgkin's lymphoma or transformed indolent B-cell lymphoma that has come back (recurrent) or does not respond to treatment (refractory). Zanubrutinib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. T cells are infection fighting blood cells that can kill tumor cells. The T cells given in this study will come from the patient and",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have a histo-pathologically confirmed diagnosis of an aggressive B-cell non-Hodgkin lymphoma or transformed indolent B-cell lymphoma that is recurrent or refractory to standard therapy and with intent to treat with standard of care CAR T-cell therapy (meeting Foo",
+            "endpoints": [
+              "Change in 6-month complete response rates"
+            ],
+            "sponsor": "Northwestern University",
+            "url": "https://clinicaltrials.gov/study/NCT05202782"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04277637",
+            "title": "A Phase 1a/1b Open-Label Dose Escalation and Expansion Study of Bcl-2 Inhibitor BGB-11417 in Patients With Mature B-Cell Malignancies",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-03-24",
+            "completion_date": "2027-08-30",
+            "country": "Australia, Spain, United Kingdom, New Zealand, Germany, Italy, United States",
+            "enrollment": 437,
+            "brief_summary": "The purpose of this study is to determine the safety, tolerability; and to define the maximum tolerated dose (MTD) and Recommended Phase 2 Dose (RP2D); and to evaluate the safety and tolerability of the ramp-up dosing schedule and at the RP2D of BGB-11417 monotherapy, and when given in combination with zanubrutinib and obinutuzumab.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Confirmed diagnosis of one of the following:\n\nNHL Cohorts:\n\n1. MZL i. R/R extranodal, splenic, or nodal MZL defined as disease that relapsed after, or was refractory to, at least one prior therapy ii. Active disease requiring treatment\n2. FL i. R/R FL (Grade 1, 2 or 3a bas",
+            "endpoints": [
+              "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAEs)",
+              "Number of Participants Experiencing Serious Adverse Events (SAEs)",
+              "Number of Participants Experiencing Adverse Events (AEs) leading to discontinuation of Sonrotoclax"
+            ],
+            "sponsor": "BeiGene",
+            "url": "https://clinicaltrials.gov/study/NCT04277637"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03332017",
+            "title": "An International, Phase 2, Open-Label, Randomized Study of BGB-3111 Combined With Obinutuzumab Compared With Obinutuzumab Monotherapy in Relapsed/ Refractory Follicular Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-11-14",
+            "completion_date": "2024-12-27",
+            "country": "Australia, Spain, France, Canada, New Zealand, South Korea, United Kingdom, Germany, Italy, United States, China, Bulgaria, Czechia, Russia, Belarus, Taiwan, Poland",
+            "enrollment": 217,
+            "brief_summary": "This clinical study examined the safety and efficacy of the combination of zanubrutinib and obinutuzumab versus obinutuzumab alone in adults with follicular lymphoma whose disease returned after or did not respond to prior therapy.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Participants had a histologically confirmed diagnosis of B-cell follicular lymphoma.\n* Participants had received two or more prior systemic treatments for follicular lymphoma.\n* Participants had previously received both an anti-cluster of differentiation 20 (anti-CD20) ant",
+            "endpoints": [
+              "Overall Response Rate (ORR) by Independent Central Review (ICR) Assessment"
+            ],
+            "sponsor": "BeOne Medicines",
+            "url": "https://clinicaltrials.gov/study/NCT03332017"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05326308",
+            "title": "Zanubrutinib (Brukinsa®) in Patients With Waldenström's Macroglobulinemia (WM), Chronic Lymphocytic Leukemia (CLL), Marginal Zone Lymphoma (MZL) and Follicular Lymphoma (FL) - a Prospective Multicenter Observational Cohort Study",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2022-04-26",
+            "completion_date": "2028-08",
+            "country": "Austria, Germany",
+            "enrollment": 705,
+            "brief_summary": "The objective of this NIS is to evaluate medical resource utilization, where data is rare in all cohorts, patient's QoL and effectiveness of zanubrutinib treatment in adult patients with WM, CLL, MZL and FL in a real-world setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Waldenström's macroglobulinemia (all treatment lines) OR\n* Chronic lymphocytic leukemia (all treatment lines) OR\n* Marginal zone lymphoma (≥2 treatment line and at least one anti-CD20 antibody-based previous therapy)\n* Follicular lymphoma (≥3 treatment line)\n* Signed and dated",
+            "endpoints": [
+              "Medical resource utilization"
+            ],
+            "sponsor": "iOMEDICO AG",
+            "url": "https://clinicaltrials.gov/study/NCT05326308"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05164770",
+            "title": "A Multi-center, Prospective Clinical Study of Zanubrutinib, Rituximab and Combination Chemotherapy in Patients With Newly-diagnosed Aggressive B-cell Non-Hodgkin Lymphoma",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2021-03-01",
+            "completion_date": "2024-12-31",
+            "country": "China",
+            "enrollment": 160,
+            "brief_summary": "Non-Hodgkin lymphoma (NHL), with high aggressiveness and mortality, is one of the top ten high-incidence tumors in the world and is among the ten most prevalent cancers worldwide with the fastest growing incidence. Although novel immunotherapies represented by anti-CD20 monoclonal antibodies and CAR-T cell therapies have significantly improved the prognosis of B-NHL patients, there are still nearly one-third of patients who are resistant to initial treatment or relapse after remission. Zanubruti",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥18 years, gender not limited\n2. Newly and histologically diagnosed aggressive B-NHL\n3. Patients who have not received systematic chemotherapy or immunotherapy;\n4. Patients with at least ≥1 tumor foci with a measurable maximum axis exceeding 1.5 cm;\n5. Eastern cancer coll",
+            "endpoints": [
+              "ORR"
+            ],
+            "sponsor": "Shandong Provincial Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05164770"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06824701",
+            "title": "A Phase 1b Study of Tazemetostat in Combination With Zanubrutinib and Anti-CD20 Monoclonal Antibody in Relapsed or Refractory Indolent B-cell Non-Hodgkin Lymphomas (TARZAN Trial)",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2025-09-12",
+            "completion_date": "2033-01",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "The purpose of this clinical trial is to learn if the study drug Tazemetostat combined with Zanubrutinib and anti-CD20 monoclonal antibody is safe and effective in treating patients with relapsed or refractory indolent B-cell non-Hodgkin lymphoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject aged ≥ 18 years.\n* Eligible histologies include MCL, MZL (including splenic, nodal, and extranodal sub-types), and WM who received at least one line of prior systemic therapy and FL who received at least two prior lines of systemic therapy\n* Measurable disease: at leas",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of tazemetostat in combination with zanubrutinib and anti-CD20 mAb"
+            ],
+            "sponsor": "University of Utah",
+            "url": "https://clinicaltrials.gov/study/NCT06824701"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03740529",
+            "title": "A Phase 1/2 Study of Oral LOXO-305 in Patients With Previously Treated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) or Non-Hodgkin Lymphoma (NHL)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-03-15",
+            "completion_date": "2025-12-23",
+            "country": "Switzerland, Australia, United Kingdom, France, South Korea, Italy, United States, Sweden, Poland, Japan",
+            "enrollment": 803,
+            "brief_summary": "This is an open-label, multi-center Phase 1/2 study of oral LOXO-305 (pirtobrutinib) in patients with CLL/SLL and NHL who have failed or are intolerant to standard of care.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed CLL/SLL, WM, or NHL intolerant to either ≥ 2 prior standard of care regimens given in combination or sequentially OR have received 1 prior BTK inhibitor-containing regimen when a BTK inhibitor is approved as first line therapy (Phase 1) OR with prior t",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD)",
+              "Recommended dose for further study",
+              "To assess the preliminary anti-tumor activity of pirtobrutinib based on ORR as assessed by an Independent Review Committee (IRC)."
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT03740529"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06859008",
+            "title": "Feasibility of Treating Relapsed/Refractory B-Cell Non-Hodgkin Lymphoma With Zanubrutinib in Combination With the BCL2 Inhibitor, Sonrotoclax, Focusing on Access for Underrepresented Ethnic/Racial Minorities",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2026-02-07",
+            "completion_date": "2029-01-31",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "This phase I trial tests zanubrutinib in combination with sonrotoclax for treating underrepresented ethnic and racial minorities with B-cell non-Hodgkin lymphoma that has come back after a period of improvement (relapsed) or that has not responded to previous treatment (refractory). Many racial and ethnic minorities face additional treatment challenges which may lead to poorer outcomes, however, there are fewer racial and ethnic minorities participating in clinical trials. Zanubrutinib, a type o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented informed consent of the participant and/or legally authorized representative\n\n  * Assent, when appropriate, will be obtained per institutional guidelines\n* Age: ≥ 18 years on the day of signing the informed consent form\n* Eastern Cooperative Oncology Group (ECOG) ≤ ",
+            "endpoints": [
+              "Feasibility of completing zanubrutinib lead-in (cycle 1 and cycle 2) and sonrotoclax ramp up (cycle 3)",
+              "Feasibility of patient retention through 2 cycles of the combination therapy at a steady dose"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06859008"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04002297",
+            "title": "A Phase 3 Randomized, Open-Label, Multicenter Study Comparing Zanubrutinib (BGB-3111) Plus Rituximab Versus Bendamustine Plus Rituximab in Patients With Previously Untreated Mantle Cell Lymphoma Who Are Ineligible for Stem Cell Transplantation",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-08-20",
+            "completion_date": "2027-12",
+            "country": "Australia, Belgium, Austria, United States, Ukraine, Canada, Netherlands, Italy, Russia, Ireland, Poland, Japan, United Kingdom, France, New Zealand, Germany, Spain, Turkey (Türkiye), Romania, China, Portugal, Taiwan",
+            "enrollment": 510,
+            "brief_summary": "This is a randomized study to compare the efficacy and safety of zanubrutinib plus rituximab versus bendamustine plus rituximab in previously untreated participants with mantle cell lymphoma (MCL) who are not eligible for stem cell transplantation.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. ≥70 years of age at the time of informed consent, OR ≥60 and \\<70 years of age with comorbidities precluding autologous stem cell transplantation\n2. Histologically confirmed diagnosis of MCL\n3. No prior systemic treatments for MCL\n4. Measurable disease by CT/MRI\n5. Easter",
+            "endpoints": [
+              "Progression-free survival (PFS) determined by independent central review"
+            ],
+            "sponsor": "BeiGene",
+            "url": "https://clinicaltrials.gov/study/NCT04002297"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05873712",
+            "title": "A Phase II Study Evaluating the Safety and Efficacy of the Combination of Zanubrutinib Plus Lisocabtagene Maraleucel for Richter's Syndrome",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-07-28",
+            "completion_date": "2026-12-31",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This phase II trial tests how well zanubrutinib and lisocabtagene maraleucel (liso-cel) work together in treating patients with Richter's syndrome that has come back (recurrent) or does not respond to treatment (refractory). Richter's syndrome occurs when chronic lymphocytic leukemia and/or small lymphocytic leukemia transforms into an aggressive lymphoma, which is a cancer of the lymph nodes. Zanubrutinib is a class of medication called a kinase inhibitor. These drugs work by preventing the act",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of RS - occurrence of diffuse large B-cell lymphoma (DLBCL) in patients with antecedent or concurrent CLL/SLL (CLL/SLL diagnosis per IWCLL 2018 criteria).\n* Must have relapsed/refractory disease as defined by one of the following:\n\n  * Participants must have undergon",
+            "endpoints": [
+              "Overall response rate"
+            ],
+            "sponsor": "Ohio State University Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT05873712"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05890352",
+            "title": "Randomized Phase II Study of the Addition of Targeted Therapeutic Agents to Tafasitamab-Based Therapy in Non-Transplant-Eligible Patients With Relapsed/Refractory Large B-Cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-09-26",
+            "completion_date": "2029-01",
+            "country": "United States",
+            "enrollment": 227,
+            "brief_summary": "This phase 2 trial studies the side effects and best dose of tazemetostat and zanubrutinib in combination with tafasitamab and lenalidomide, and to see how well these combinations work in treating patients with large B-cell lymphoma that returned or did not respond to earlier treatment. Tazemetostat is in a class of medications called EZH2 inhibitors. It helps to stop the spread of cancer cells. Zanubrutinib is in a class of medications called kinase inhibitors. It works by blocking the action o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have:\n\n  * Histologically confirmed relapsed/refractory LBCL as outlined by the World Health Organization (WHO) guidelines\n  * Follicular lymphoma, grade 3B\n  * Transformed lymphoma\n  * High grade B-cell lymphoma with or without MYC, BCL2 and/or BCL6 rearrang",
+            "endpoints": [
+              "Progression-free survival (PFS)",
+              "Trial Outcome Index (TOI) score from the Functional Assessment of Cancer Therapy-Lymphoma (FACT-Lym) (Patient Reported Outcome [PRO] Study)"
+            ],
+            "sponsor": "SWOG Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT05890352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05200312",
+            "title": "A Phase II Study of the Bruton's Tyrosine Kinase Inhibitor, Zanubrutinib, in Combination With Lenalidomide Plus Rituximab, Cyclophosphamide, Doxorubicin, Vincristine, and Prednisone in Patients With Newly Diagnosed Diffuse Large B-Cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-02-01",
+            "completion_date": "2025-02-01",
+            "country": "China",
+            "enrollment": 36,
+            "brief_summary": "This study is a multi-center, open-label, single-arm, non-randomized phase II clinical study in order to evaluate the safety and efficacy of zanubrutinib, lenalidomide plus R-CHOP (ZR2-CHOP) as the first-line therapy for treatment-naive high-risk diffuse large B-cell lymphoma patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically-confirmed and previously untreated Diffuse Large B-cell Lymphoma (DLBCL) with median to high risk (including but not limited to double/triple-hit, double expression and median-to-high risk aaIPI).\n2. Male or female patients above 18 years old.\n3. No prior expos",
+            "endpoints": [
+              "Complete response rate after six cycles of ZR2-CHOP"
+            ],
+            "sponsor": "The First Affiliated Hospital with Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT05200312"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06563596",
+            "title": "A Phase 2 Study of Epcoritamab, Zanubrutinib, and Rituximab (EZR) for Treatment of Relapsed or Refractory Follicular Lymphoma or Marginal Zone Lymphoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-01-21",
+            "completion_date": "2030-03-01",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "The purpose of this study is to determine how effective and safe the combination of epcoritamab, zanubrutinib, and rituximab is in treating participants with relapse or refractory Follicular Lymphoma (FL) or marginal zone lymphoma (MZL).\n\n* The names of the study drugs involved in this research study are:\n* Epcoritamab (a type of antibody)\n* Zanubrutinib (a type of Bruton tyrosine kinase inhibitor)\n* Rituximab (a type of monoclonal antibody)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed diagnosis of CD20+ FL (grade 1-3A) or CD20+ MZL (any subtype) (at time of trial entry) with review of the diagnostic pathology specimen at one of the participating institutions. Patients with current histologic transformation are excluded.\n* Receipt of",
+            "endpoints": [
+              "Complete Metabolic Response (CMR) Rate among patients with R/R FL",
+              "Complete Metabolic Response (CMR) Rate among patients with R/R MZL"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06563596"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03206970",
+            "title": "A Single-Arm, Open-Label, Multicenter Phase 2 Study to Evaluate Efficacy and Safety of BGB-3111, a Bruton's Tyrosine Kinase (BTK) Inhibitor, in Subjects With Relapsed or Refractory Mantle Cell Lymphoma (MCL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-03-02",
+            "completion_date": "2020-09-08",
+            "country": "China",
+            "enrollment": 86,
+            "brief_summary": "The primary objective of this study was to evaluate the efficacy of zanubrutinib in participants with centrally confirmed relapsed or refractory MCL.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. Diagnostic report had to include evidence for morphological and cyclin D1 or t (11; 14).\n2. Eastern Cooperative Oncology Group performance status of 0-2.\n3. Measurable disease by computed tomography/magnetic resonance imaging.\n4. Received prior regimens for MCL.\n5. Docume",
+            "endpoints": [
+              "Overall Response Rate (ORR) As Assessed By Independent Review Committee"
+            ],
+            "sponsor": "BeiGene",
+            "url": "https://clinicaltrials.gov/study/NCT03206970"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06735664",
+            "title": "A Phase I Study of Covalent BTK Inhibitor Zanubrutinib in Combination With a CD3-CD20 Bispecific Antibody Odronextamab in Patients With Richter's Transformation",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2025-08-14",
+            "completion_date": "2027-12-13",
+            "country": "United States",
+            "enrollment": 23,
+            "brief_summary": "This phase I trial tests the safety and side effects of zanubrutinib in combination with odronextamab and how well it works in treating patients with Richter's transformation. Zanubrutinib, a tyrosine kinase inhibitor, blocks a protein called Bruton tyrosine kinase (BTK), which may help keep cancer cells from growing. Odronextamab is a bispecific monoclonal antibody that can bind to two different antigens at the same time. Odronextamab binds to CD20 found on B-cells (a type of white blood cell) ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented informed consent of the participant and/or legally authorized representative\n\n  * Assent, when appropriate, will be obtained per institutional guidelines\n* Age: ≥ 18 years\n* Eastern Cooperative Oncology Group (ECOG) ≤ 2\n* Histologically confirmed diagnosis of Richte",
+            "endpoints": [
+              "Dose limiting toxicity (DLT)",
+              "Incidence of adverse events (AEs)"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06735664"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05797948",
+            "title": "Prospective, Single-center, Single-arm, Open-label Study of Obinutuzumab, Zanubrutinib and Lenalidomide Sequential CD19/CD22 CAR-T in Patients With Relapsed or Refractory B-Cell Non-Hodgkin Lymphoma",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-07-01",
+            "completion_date": "2024-06-30",
+            "country": "China",
+            "enrollment": 20,
+            "brief_summary": "This study intends to use Obinutuzumab, Zanubrutinib, and Lenalidomide sequential CD19/CD22 CAR-T in the treatment of Relapsed or Refractory B-cell Non-Hodgkin Lymphoma patients. The main purpose of this study is to explore a new treatment mode for R/R B-NHL patients and observe the efficacy and safety of this treatment regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically confirmed CD22 + and/or CD19 + aggressive B-cell non-Hodgkin lymphoma (NHL), including the following types as defined by World Health Organization (WHO) 2016:\n\n   Diffuse large B-cell lymphoma (DLBCL); High grade B-cell lymphoma (HGBL); Primary mediastinal larg",
+            "endpoints": [
+              "Overall response rate (ORR) after GZL therapy",
+              "Complete response rate (CRR) after CAR-T",
+              "Progression-free survival (PFS) after CAR-T"
+            ],
+            "sponsor": "The First Affiliated Hospital of Soochow University",
+            "url": "https://clinicaltrials.gov/study/NCT05797948"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06742996",
+            "title": "A Phase 3 Randomized Double-Blind Multicenter Study of Sonrotoclax Plus Zanubrutinib Versus Placebo Plus Zanubrutinib in Patients With Relapsed/Refractory Mantle Cell Lymphoma",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-03-05",
+            "completion_date": "2032-03-30",
+            "country": "Australia, Spain, France, South Korea, New Zealand, Brazil, Turkey (Türkiye), Austria, Argentina, Germany, Italy, United States, United Kingdom, China, Poland, Puerto Rico, Japan",
+            "enrollment": 300,
+            "brief_summary": "The goal of this study is to compare how well sonrotoclax plus zanubrutinib works versus zanubrutinib plus placebo in treating adults with relapsed/refractory (R/R) mantle cell lymphoma (MCL). This study will also look at the safety of sonrotoclax plus zanubrutinib versus zanubrutinib plus placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically locally confirmed diagnosis of MCL based on the World Health Organization 2022 classification of Haematolymphoid Tumors (WHO-HAEM5), or based on International Consensus Classification (ICC)\n* Ability to provide archival or fresh tumor tissue for retrospective ce",
+            "endpoints": [
+              "Progression-Free Survival (PFS) as assessed by Blinded Independent Review Committee (BIRC)"
+            ],
+            "sponsor": "BeOne Medicines",
+            "url": "https://clinicaltrials.gov/study/NCT06742996"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03336333",
+            "title": "An International, Phase 3, Open-Label, Randomized Study of BGB-3111 Compared With Bendamustine Plus Rituximab in Patients With Previously Untreated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma (CLL/SLL)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-10-31",
+            "completion_date": "2027-10-31",
+            "country": "Australia, Spain, France, United Kingdom, New Zealand, Belgium, Austria, Italy, United States, China, Russia, Czechia, Sweden, Taiwan, Poland",
+            "enrollment": 590,
+            "brief_summary": "To compare efficacy between zanubrutinib versus bendamustine and rituximab in patients with previously untreated CLL/SLL, as measured by progression free survival assess by Independent Central Review.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Unsuitable for chemoimmunotherapy with fludarabine, cyclophosphamide, and rituximab (FCR)\n* Confirmed diagnosis of CD20-positive CLL or SLL, requiring treatment\n* Measurable disease by imaging\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1 or 2\n* Li",
+            "endpoints": [
+              "Cohort 1: Progression-free Survival (PFS) as Determined by Independent Central Review (ICR)"
+            ],
+            "sponsor": "BeOne Medicines",
+            "url": "https://clinicaltrials.gov/study/NCT03336333"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06695013",
+            "title": "Immunobridging/Maintenance Therapy Versus Non-bridging Therapy in CAR-T Therapy for Low-risk Relapsed/Refractory B Cell Non-Hodgkin Lymphoma(R/R B-NHL): A Multicenter, Prospective, Randomized, Open-label, Controlled Clinical Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-11-20",
+            "completion_date": "2027-03-20",
+            "country": "China",
+            "enrollment": 144,
+            "brief_summary": "This study aims to explore whether adding immunotherapy bridging treatment for low-risk refractory/relapsed B-NHL can demonstrate better outcomes, in order to find the most effective treatment plan for low-risk patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 or older, regardless of gender.\n2. Histologically confirmed B-cell non-Hodgkin lymphoma, according to Lugano diagnostic criteria.\n3. At least first-line treatment for relapsed or refractory patients, including chemotherapy regimens containing anthracyclines and anti-CD",
+            "endpoints": [
+              "Complete response rate(CRR) at 3-month"
+            ],
+            "sponsor": "Ruijin Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06695013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06646211",
+            "title": "A Single-arm, Multicenter Phase Ⅱclinical Study Evaluating High-dose Methotrexate Combined with Thiotepa and Zanubrutinib in the Treatment of Newly Diagnosed Central Nervous System Diffuse Large B-cell Lymphoma (MTZ)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-01-01",
+            "completion_date": "2028-01-01",
+            "country": "China",
+            "enrollment": 30,
+            "brief_summary": "This is a phase Ⅱ clinical study of Zanubrutinib(Z) in combination with methotrexate (M) and thiotepa(T) in treating newly diagnosed primary CNS lymphoma (PCNSL).\n\nThe purpose of the study is to test the efficacy and tolerability of a combination treatment of MTZ regimen in treating patients who have newly diagnosed PCNSL",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Men and woman who are 18 to 70 years of age\n2. Histologically documented PCNSL\n3. ECOG performance status ≤ 2\n4. Life expectancy of \\> 3 months\n5. Imaging show at least one measurable lesion in the central nervous system.\n6. Adequate bone marrow and organ function shown by:\n7",
+            "endpoints": [
+              "Overall Response Rate (ORR) at the end of TZ / MTZ treatment, Investigator-Assessed"
+            ],
+            "sponsor": "Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT06646211"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05100862",
+            "title": "A Phase 3 Randomized, Open-Label Multicenter Study of Zanubrutinib (BGB-3111) Plus Anti-CD20 Antibodies Versus Lenalidomide Plus Rituximab in Patients With Relapsed/Refractory Follicular or Marginal Zone Lymphoma",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-03-10",
+            "completion_date": "2030-06",
+            "country": "Australia, Belgium, Austria, United States, Canada, South Korea, Italy, Czechia, Ireland, Poland, Japan, United Kingdom, France, Brazil, Germany, Argentina, Israel, Georgia, Switzerland, Spain, Turkey (Türkiye), Romania, China, Portugal, Bulgaria, Greece, South Africa, Puerto Rico",
+            "enrollment": 780,
+            "brief_summary": "The purpose of the study is to compare the efficacy of zanubrutinib plus obinutuzumab versus lenalidomide plus rituximab (R\\^2) in participants with relapsed/refractory (R/R) follicular lymphoma (FL), as measured by progression-free survival as determined by an independent review committee in accordance with the 2014 modification of the International Working Group on non-Hodgkin lymphoma (NHL) Criteria based on n positron emission tomography and computed tomography (PET/CT), and to compare the e",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Histologically confirmed grade 1-3a FL or MZL\n* Previously treated with ≥ 1 line of systemic therapy including anti-CD20 agent. Must have a documented failure to achieve at least partial response during the most recent systemic therapy or documented progressive disease aft",
+            "endpoints": [
+              "Progression-free Survival As Determined By A Blinded Independent Review Committee (BIRC)"
+            ],
+            "sponsor": "BeOne Medicines",
+            "url": "https://clinicaltrials.gov/study/NCT05100862"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39437708",
+            "title": "Zanubrutinib, obinutuzumab, and venetoclax for first-line treatment of mantle cell lymphoma with a TP53 mutation.",
+            "abstract": "TP53-mutant mantle cell lymphoma (MCL) is associated with poor survival outcomes with standard chemoimmunotherapy. We conducted a multicenter, phase 2 study of zanubrutinib, obinutuzumab, and venetoclax (BOVen) in untreated patients with MCL with a TP53 mutation. Patients initially received 160 mg zanubrutinib twice daily and obinutuzumab. Obinutuzumab at a dose of 1000 mg was given on cycle 1 day 1, 8, and 15, and on day 1 of cycles 2 to 8. After 2 cycles, venetoclax was added with weekly dose ramp-up to 400 mg daily. After 24 cycles, if patients were in complete remission with undetectable minimal residual disease (uMRD) using an immunosequencing assay, treatment was discontinued. The primary end point was met if ≥11 patients were progression free at 2 years. The study included 25 patients with untreated MCL with a TP53 mutation. The best overall response rate was 96% (24/25) and the complete response rate was 88% (22/25). Frequency of uMRD at a sensitivity level of 1 × 10-5 and uMRD",
+            "journal": "Blood",
+            "year": "2025",
+            "authors": [
+              "Kumar Anita",
+              "Soumerai Jacob",
+              "Abramson Jeremy S",
+              "Barnes Jeffrey A",
+              "Caron Philip"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Sulfonamides",
+              "Aged",
+              "Female",
+              "Male",
+              "Antibodies, Monoclonal, Humanized",
+              "Middle Aged",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Tumor Suppressor Protein p53"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39437708/"
+          },
+          {
+            "pmid": "36029036",
+            "title": "Resistance to Bruton tyrosine kinase inhibition in chronic lymphocytic leukaemia and non-Hodgkin lymphoma.",
+            "abstract": "Bruton tyrosine kinase inhibitors (BTKi) have transformed the therapeutic landscape of chronic lymphocytic leukaemia (CLL) and non-Hodgkin lymphoma. However, primary and acquired resistance to BTKi can be seen due to a variety of mechanisms including tumour intrinsic and extrinsic mechanisms such as gene mutations, activation of bypass signalling pathways and tumour microenvironment. Herein, we provide an updated review of the key clinical data of BTKi treatment in CLL, mantle cell lymphoma, and diffuse large B-cell lymphoma (DLBCL). We incorporate the most recent findings regarding mechanisms of resistance to covalent and non-covalent inhibitors, including ibrutinib, acalabrutinib, zanubrutinib and pirtobrutinib. We also cover the clinical sensitivity of certain molecular subtypes of DLBCL to an ibrutinib-containing regimen. Lastly, we summarise ongoing clinical investigations aimed at overcoming resistance via use of BTKi-containing combined therapies or the novel non-covalent BTKi. ",
+            "journal": "British journal of haematology",
+            "year": "2023",
+            "authors": [
+              "Nakhoda Shazia",
+              "Vistarop Aldana",
+              "Wang Y Lynn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Lymphoma, Non-Hodgkin",
+              "Lymphoma, Mantle-Cell",
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Protein Kinase Inhibitors",
+              "Tumor Microenvironment",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36029036/"
+          },
+          {
+            "pmid": "35390135",
+            "title": "Zanubrutinib monotherapy in relapsed/refractory indolent non-Hodgkin lymphoma.",
+            "abstract": "Outcomes for marginal zone lymphoma (MZL) and follicular lymphoma (FL) remain suboptimal, owing to the limited number of approved agents and the incurable nature of the diseases. BGB-3111-AU-003 was a phase 1/2, open-label, multicenter, single-agent study of the selective Bruton's tyrosine kinase inhibitor zanubrutinib in 385 patients with B-cell malignancies. Here, we present safety and efficacy outcomes for the 53 enrolled patients with relapsed/refractory MZL (n = 20) and relapsed/refractory FL (n = 33), all of whom were enrolled during the part 2 dose expansion, and therefore received zanubrutinib at the recommended phase 2 dose. Treatment with zanubrutinib was generally well tolerated, with most adverse events being ≤ grade 2. Atrial fibrillation/flutter was not reported. Two patients required dose reduction, and 4 patients discontinued treatment because of adverse events. Response was assessed by an independent review committee for MZL and the investigators for FL, per Lugano 201",
+            "journal": "Blood advances",
+            "year": "2022",
+            "authors": [
+              "Phillips Tycel",
+              "Chan Henry",
+              "Tam Constantine S",
+              "Tedeschi Alessandra",
+              "Johnston Patrick"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, B-Cell, Marginal Zone",
+              "Lymphoma, Follicular",
+              "Piperidines",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35390135/"
+          },
+          {
+            "pmid": "35303070",
+            "title": "Zanubrutinib in relapsed/refractory mantle cell lymphoma: long-term efficacy and safety results from a phase 2 study.",
+            "abstract": "Bruton tyrosine kinase (BTK) inhibitor is an established treatment for relapsed/refractory (R/R) mantle cell lymphoma (MCL). Zanubrutinib, a highly selective BTK inhibitor, is approved for patients with MCL who have received ≥1 prior therapy. We report the long-term safety and efficacy results from the multicenter, open-label, phase 2 registration trial of zanubrutinib. Patients (n = 86) received oral zanubrutinib 160 mg twice daily. The primary endpoint was the overall response rate (ORR), assessed per Lugano 2014. After a median follow-up of 35.3 months, the ORR was 83.7%, with 77.9% achieving complete response (CR); the median duration of response was not reached. Median progression-free survival (PFS) was 33.0 months (95% confidence interval [CI], 19.4-NE). The 36-month PFS and overall survival (OS) rates were 47.6% (95% CI, 36.2-58.1) and 74.8% (95% CI, 63.7-83.0), respectively. The safety profile was largely unchanged with extended follow-up. Most common (≥20%) all-grade adverse ",
+            "journal": "Blood",
+            "year": "2022",
+            "authors": [
+              "Song Yuqin",
+              "Zhou Keshu",
+              "Zou Dehui",
+              "Zhou Jianfeng",
+              "Hu Jianda"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Lymphoma, Follicular",
+              "Lymphoma, Mantle-Cell",
+              "Neutropenia",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Pyrazoles",
+              "Pyrimidines",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35303070/"
+          },
+          {
+            "pmid": "37682792",
+            "title": "Safety and efficacy of zanubrutinib in relapsed/refractory marginal zone lymphoma: final analysis of the MAGNOLIA study.",
+            "abstract": "The primary analysis of MAGNOLIA, an open-label, single-arm, multicenter, phase 2 study, demonstrated that the next-generation Bruton tyrosine kinase (BTK) inhibitor zanubrutinib provided a high overall response rate (ORR) in patients with relapsed/refractory marginal zone lymphoma (R/R MZL), with a favorable safety/tolerability profile. Presented here, is the final analysis of MAGNOLIA, performed to characterize the durability of response and longer-term safety and tolerability. Zanubrutinib (160 mg twice daily) was evaluated in 68 patients with R/R MZL who had received at least 1 anti-CD20-directed regimen. The primary end point was independent review committee (IRC)-assessed ORR. Secondary end points included investigator-assessed ORR, duration of response (DOR), progression-free survival (PFS), overall survival (OS), health-related quality of life, safety, and tolerability. With a median follow-up of 27.4 months, the IRC-assessed ORR was 68.2% (95% confidence interval [CI], 55.6-79",
+            "journal": "Blood advances",
+            "year": "2023",
+            "authors": [
+              "Opat Stephen",
+              "Tedeschi Alessandra",
+              "Hu Bei",
+              "Linton Kim M",
+              "McKay Pamela"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, B-Cell, Marginal Zone",
+              "Magnolia",
+              "Neoplasm Recurrence, Local",
+              "Quality of Life",
+              "Treatment Outcome",
+              "Piperidines",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37682792/"
+          },
+          {
+            "pmid": "38578606",
+            "title": "New Means and Challenges in the Targeting of BTK.",
+            "abstract": "Bruton's tyrosine kinase (BTK) is central to the survival of malignant and normal B lymphocytes and has been a crucial therapeutic target of several generations of kinase inhibitors and newly developed degraders. These new means for targeting BTK have added additional agents to the armamentarium for battling cancers dependent on B-cell receptor (BCR) signaling, including chronic lymphocytic leukemia and other non-Hodgkin lymphomas. However, the development of acquired resistance mutations to each of these classes of BTK inhibitors has led to new challenges in targeting BTK as well as novel insights into BCR signaling. The first-generation covalent BTK inhibitor ibrutinib is susceptible to mutations affecting the covalent binding site, cysteine 481 (C481). Newer noncovalent BTK inhibitors, such as pirtobrutinib, overcome C481 mutation-mediated resistance but are susceptible to other kinase domain mutations, particularly at residues Threonine 474 and Leucine 528. In addition, these novel",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2024",
+            "authors": [
+              "Nawaratne Vindhya",
+              "Sondhi Anya K",
+              "Abdel-Wahab Omar",
+              "Taylor Justin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Pyrazoles",
+              "Drug Resistance, Neoplasm",
+              "Piperidines",
+              "Mutation",
+              "Adenine",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38578606/"
+          },
+          {
+            "pmid": "36395435",
+            "title": "Zanubrutinib Versus Ibrutinib in Relapsed/Refractory Chronic Lymphocytic Leukemia and Small Lymphocytic Lymphoma: Interim Analysis of a Randomized Phase III Trial.",
+            "abstract": "Zanubrutinib is a potent, irreversible next-generation Bruton tyrosine kinase (BTK) inhibitor designed to maximize BTK occupancy and minimize off-target kinase inhibition. We hypothesized that complete/sustained BTK occupancy may improve efficacy outcomes and increased BTK specificity may minimize off-target inhibition-related toxicities.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2023",
+            "authors": [
+              "Hillmen Peter",
+              "Eichhorst Barbara",
+              "Brown Jennifer R",
+              "Lamanna Nicole",
+              "O'Brien Susan M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Atrial Fibrillation",
+              "Adenine",
+              "Lymphoma, B-Cell",
+              "Protein Kinase Inhibitors",
+              "Piperidines",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36395435/"
+          },
+          {
+            "pmid": "34526366",
+            "title": "The MAGNOLIA Trial: Zanubrutinib, a Next-Generation Bruton Tyrosine Kinase Inhibitor, Demonstrates Safety and Efficacy in Relapsed/Refractory Marginal Zone Lymphoma.",
+            "abstract": "Marginal zone lymphoma (MZL) is an uncommon non-Hodgkin lymphoma with malignant cells that exhibit a consistent dependency on B-cell receptor signaling. We evaluated the efficacy and safety of zanubrutinib, a next-generation selective Bruton tyrosine kinase inhibitor, in patients with relapsed/refractory (R/R) MZL.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2021",
+            "authors": [
+              "Opat Stephen",
+              "Tedeschi Alessandra",
+              "Linton Kim",
+              "McKay Pamela",
+              "Hu Bei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, B-Cell, Marginal Zone",
+              "Magnolia",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34526366/"
+          },
+          {
+            "pmid": "34491123",
+            "title": "Clinical pharmacology and PK/PD translation of the second-generation Bruton's tyrosine kinase inhibitor, zanubrutinib.",
+            "abstract": "Introduction: Bruton's tyrosine kinase (BTK) inhibitors have revolutionized the treatment of B-cell lymphomas. Zanubrutinib was designed to achieve improved therapeutic concentrations and minimize off-target activities putatively accounting, in part, for the adverse effects seen with other BTK inhibitors.Areas covered: This drug profile covers zanubrutinib clinical pharmacology and the translation of pharmacokinetics (PK) and pharmacodynamics (PD) to clinical efficacy and safety profiles, by highlighting key differences between zanubrutinib and other BTK inhibitors. We discuss PK, sustained BTK occupancy, and potential factors affecting PK of zanubrutinib, including food effects, hepatic impairment, and drug-drug interactions. These data, along with exposure-response analyses, were used to support the recommended dose of 320 mg, either once daily or as 160 mg twice daily. Translation of PK/PD attributes into clinical effects was demonstrated in a randomized, phase 3 head-to-head study ",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2021",
+            "authors": [
+              "Tam Constantine S",
+              "Ou Ying C",
+              "Trotman Judith",
+              "Opat Stephen"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Animals",
+              "Drug Interactions",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34491123/"
+          },
+          {
+            "pmid": "40517548",
+            "title": "Marginal Zone Lymphoma: Treatment Update With a Focus on Systemic Approaches.",
+            "abstract": "Marginal zone lymphoma (MZL) is the second most common indolent B-cell lymphoma and comprised of three clinical subtypes based on site of involvement: extranodal marginal zone lymphoma (usually of mucosa-associated lymphoid tissue), nodal marginal zone lymphoma, and splenic marginal zone lymphoma (often with circulating villous lymphocytes). MZL is the prototype for an antigen-driven malignancy, and there are clear areas where elimination of the antigenic trigger leads to lymphoma regression. Although there is an excellent prognosis, the disease remains incurable, and the majority of patients will need repeated therapy for disease control over the course of their lifetime. Current treatment paradigms include rituximab monotherapy and chemoimmunotherapy in the frontline setting. In the relapsed or refractory setting, there are exciting advances including the recent approval of the covalent BTK inhibitor, zanubrutinib. Emerging therapies include CAR-T cell and T-cell engaging bispecific ",
+            "journal": "Hematological oncology",
+            "year": "2025",
+            "authors": [
+              "Smith Sonali M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, B-Cell, Marginal Zone",
+              "Immunotherapy, Adoptive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40517548/"
+          },
+          {
+            "pmid": "40829156",
+            "title": "A phase 2 study of zanubrutinib in combination with rituximab and lenalidomide in de novo diffuse large B-cell lymphoma.",
+            "abstract": "Older patients with diffuse large B-cell lymphoma (DLBCL) present unfavorable genetic and microenvironmental alterations. In this phase 2 trial, we assessed the efficacy and safety of zanubrutinib in combination with rituximab and lenalidomide (ZR2) in patients with de novo DLBCL aged ≥75 years. Forty patients were enrolled, and the primary end point was the complete response rate, which was 65.0% (95% confidence interval [CI], 48.3-78.9) at the end of induction treatment. The 2-year progression-free and overall survival rates were 67.1% (95% CI, 50.1-79.4) and 82.4% (95% CI, 66.5-91.2). The most common grades 3 and 4 hematologic adverse event (AE) was neutropenia (n = 14 [35.0%]). The most common grades 3 and 4 nonhematologic AEs were increased alanine transaminase (n = 5 [12.5%]) and aspartate transaminase levels (n = 5; 12.5%), and pulmonary infection (n = 5 [12.5%]). No events of atrial fibrillation were observed. Importantly, the efficacy of ZR2 was more dependent on tumor microen",
+            "journal": "Blood",
+            "year": "2025",
+            "authors": [
+              "Xu Peng-Peng",
+              "Zhu Yue",
+              "Shi Zi-Yang",
+              "Wang Li",
+              "Cheng Shu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Aged",
+              "Female",
+              "Male",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Lenalidomide",
+              "Aged, 80 and over",
+              "Pyrazoles",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40829156/"
+          },
+          {
+            "pmid": "37506346",
+            "title": "ROSEWOOD: A Phase II Randomized Study of Zanubrutinib Plus Obinutuzumab Versus Obinutuzumab Monotherapy in Patients With Relapsed or Refractory Follicular Lymphoma.",
+            "abstract": "The combination of zanubrutinib plus obinutuzumab (ZO) was found to be well tolerated with an early signal of efficacy in a phase Ib study. ROSEWOOD is a phase II, randomized study that assessed the efficacy and safety of ZO versus obinutuzumab in patients with relapsed/refractory (R/R) follicular lymphoma (FL).",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2023",
+            "authors": [
+              "Zinzani Pier Luigi",
+              "Mayer Jiří",
+              "Flowers Christopher R",
+              "Bijou Fontanet",
+              "De Oliveira Ana C"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Lymphoma, Follicular",
+              "Piperidines",
+              "Pyrazoles",
+              "Pyrimidines",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37506346/"
+          },
+          {
+            "pmid": "32985902",
+            "title": "A Phase III study of zanubrutinib plus rituximab versus bendamustine plus rituximab in transplant-ineligible, untreated mantle cell lymphoma.",
+            "abstract": "Mantle cell lymphoma is an aggressive B-cell malignancy. Current frontline chemoimmunotherapies produce high response rates but relapse is inevitable. Furthermore, the elderly and those with comorbidities are precluded from standard regimens and stem cell transplant, leaving them with limited options. Targeted therapies, including Bruton tyrosine kinase inhibitors, are an effective treatment strategy in mantle cell lymphoma. Zanubrutinib is a potent next-generation Bruton tyrosine kinase inhibitor that has demonstrated complete and sustained Bruton tyrosine kinase occupancy, minimal off-target effects and favorable pharmacokinetic/pharmacodynamic properties. Described herein is an ongoing Phase III study comparing the efficacy and safety of zanubrutinib plus rituximab followed by zanubrutinib monotherapy versus bendamustine plus rituximab followed by observation in transplant-ineligible patients with previously untreated mantle cell lymphoma. Clinical Trial Registration: NCT04002297 (C",
+            "journal": "Future oncology (London, England)",
+            "year": "2021",
+            "authors": [
+              "Dreyling Martin",
+              "Tam Constantine S",
+              "Wang Michael",
+              "Smith Stephen D",
+              "Ladetto Marco"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Aged",
+              "Antineoplastic Agents, Alkylating",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bendamustine Hydrochloride",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32985902/"
+          },
+          {
+            "pmid": "31933167",
+            "title": "Zanubrutinib: First Approval.",
+            "abstract": "Zanubrutinib (Brukinsa®), an orally-administered Bruton tyrosine kinase (BTK) inhibitor, is being developed by BeiGene for the treatment of B-cell malignancies. Zanubrutinib received accelerated approval in the USA on 14 November 2019 for the treatment of adult patients with mantle cell lymphoma (MCL) who have received at least one prior therapy, based on overall response rate (ORR) seen in phase II and I/II clinical trials. This article summarizes the milestones in the development of zanubrutinib leading to this first approval for the treatment of MCL.",
+            "journal": "Drugs",
+            "year": "2020",
+            "authors": [
+              "Syed Yahiya Y"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Antineoplastic Agents",
+              "Drug Approval",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Lymphoma, Mantle-Cell",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31933167/"
+          },
+          {
+            "pmid": "32461234",
+            "title": "Treatment of Patients with Relapsed or Refractory Mantle-Cell Lymphoma with Zanubrutinib, a Selective Inhibitor of Bruton's Tyrosine Kinase.",
+            "abstract": "Mantle-cell lymphoma (MCL) is an incurable mature B-cell neoplasm with high initial response rates followed almost invariably by relapse. Prognosis for patients following relapse is poor, and treatment choices are limited. We evaluated the efficacy and safety of zanubrutinib, an investigational selective Bruton's tyrosine kinase (BTK) inhibitor.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2020",
+            "authors": [
+              "Song Yuqin",
+              "Zhou Keshu",
+              "Zou Dehui",
+              "Zhou Jianfeng",
+              "Hu Jianda"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Aged",
+              "Female",
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Male",
+              "Middle Aged",
+              "Neoplasm Recurrence, Local",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32461234/"
+          },
+          {
+            "pmid": "39742965",
+            "title": "Fungal infection in patients treated with Bruton tyrosine kinase inhibitor-from epidemiology to clinical outcome: a systematic review.",
+            "abstract": "The Bruton tyrosine kinase inhibitor (BTKi) has emerged as a key treatment for B-cell lymphomas. Despite its efficacy in the treatment of malignancies, numerous cases of invasive fungal infections (IFI) have been reported in patients receiving ibrutinib, a first-generation BTKi. Cases of invasive aspergillosis have also been reported with acalabrutinib and zanubrutinib.",
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2025",
+            "authors": [
+              "Gibert Charles",
+              "Blaize Marion",
+              "Fekkar Arnaud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Invasive Fungal Infections",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Piperidines",
+              "Benzamides",
+              "Treatment Outcome",
+              "Pyrazoles",
+              "Adenine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39742965/"
+          },
+          {
+            "pmid": "35616990",
+            "title": "A cauldron of choices.",
+            "abstract": "",
+            "journal": "Blood",
+            "year": "2022",
+            "authors": [
+              "Kamdar Manali"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Research Support, Non-U.S. Gov't",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Mantle-Cell",
+              "Piperidines",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35616990/"
+          },
+          {
+            "pmid": "38034984",
+            "title": "Zanubrutinib in Mantle Cell Lymphoma Management: A Comprehensive Review.",
+            "abstract": "The pharmacology, pharmacokinetics, pharmacodynamics, clinical efficacy, and safety of zanbrutinib are described.",
+            "journal": "Blood and lymphatic cancer : targets and therapy",
+            "year": "2023",
+            "authors": [
+              "Alsuhebany Nada",
+              "Pan Congshan",
+              "Holovac Eileen",
+              "Do Brian",
+              "McBride Ali"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38034984/"
+          },
+          {
+            "pmid": "30843894",
+            "title": "Zanubrutinib: a novel BTK inhibitor in chronic lymphocytic leukemia and non-Hodgkin lymphoma.",
+            "abstract": "",
+            "journal": "Clinical advances in hematology & oncology : H&O",
+            "year": "2019",
+            "authors": [
+              "Tam Constantine S"
+            ],
+            "pub_types": [
+              "Interview"
+            ],
+            "mesh_terms": [
+              "Agammaglobulinaemia Tyrosine Kinase",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Lymphoma, Non-Hodgkin",
+              "Molecular Targeted Therapy",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30843894/"
+          },
+          {
+            "pmid": "37165730",
+            "title": "Unmet clinical needs in the use of zanubrutinib in malignant lymphomas (Waldenström macroglobulinemia, marginal zone lymphoma and mantle cell lymphoma): A consensus-based position paper from an ad hoc expert panel.",
+            "abstract": "Zanubrutinib has been approved for the treatment of patients with different lymphoproliferative disorders, and now represents a major breakthrough in the treatment of patients resistant or relapsing after the recommended therapies. Because few systematic studies or comparative randomized clinical trials have been conducted, optimal use of the drug in approved indications is challenging, and questions are emerging on its use in earlier stages of the disorders. This article presents the results of group discussion among an ad hoc constituted panel of experts aimed at identifying and addressing unmet clinical needs (UCNs) in the use of zanubrutinib in the lymphomas which have received the approval of use, specifically Waldenström macroglubulinemia, marginal zone lymphoma and mantle cell lymphoma. Key UCNs were selected according to the criterion of clinical relevance using the Delphi process. The panel produced recommendations and proposals for new studies for the management of the identi",
+            "journal": "Hematological oncology",
+            "year": "2023",
+            "authors": [
+              "Zinzani Pier Luigi",
+              "Mauro Francesca Romana",
+              "Tedeschi Alessandra",
+              "Varettoni Marzia",
+              "Zaja Francesco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Consensus Statement"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Lymphoma, Mantle-Cell",
+              "Waldenstrom Macroglobulinemia",
+              "Consensus",
+              "Neoplasm Recurrence, Local",
+              "Lymphoma, B-Cell, Marginal Zone",
+              "Piperidines",
+              "Pyrazoles",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37165730/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+        "txgnn_score": 0.9785841107368468,
+        "txgnn_rank": 17694,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15035",
+    "name": "Zanubrutinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Zanubrutinib"
+      },
+      "queried_at": "2026-03-10T01:57:37.775442",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Zanubrutinib"
+      },
+      "queried_at": "2026-03-10T01:57:40.953480",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T01:57:42.765673",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T01:57:46.695629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T01:57:50.239403",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T01:57:50.813541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T01:57:54.404577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T01:57:55.412904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:57:56.504504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:58:01.353522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T01:58:02.014630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T01:58:03.626596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T01:58:08.320157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T01:58:09.060726",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T01:58:09.612779",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T01:58:13.959665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T01:58:15.226449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "neuroblastoma"
+      },
+      "queried_at": "2026-03-10T01:58:16.817500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "neuroblastoma"
+      },
+      "queried_at": "2026-03-10T01:58:20.363239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "neuroblastoma"
+      },
+      "queried_at": "2026-03-10T01:58:23.438342",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T01:58:25.649186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T01:58:31.135612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T01:58:31.977929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T01:58:33.012031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T01:58:36.162249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
+      },
+      "queried_at": "2026-03-10T01:58:37.328804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "lymphoma, non-Hodgkin, familial"
+      },
+      "queried_at": "2026-03-10T01:58:43.615260",
+      "status": "success",
+      "result_count": 23,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "lymphoma, non-Hodgkin, familial"
+      },
+      "queried_at": "2026-03-10T01:58:47.170675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "lymphoma, non-Hodgkin, familial"
+      },
+      "queried_at": "2026-03-10T01:58:54.988363",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "acute lymphoblastic/lymphocytic leukemia"
+      },
+      "queried_at": "2026-03-10T01:58:56.226961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "acute lymphoblastic/lymphocytic leukemia"
+      },
+      "queried_at": "2026-03-10T01:59:00.579050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zanubrutinib",
+        "disease": "acute lymphoblastic/lymphocytic leukemia"
+      },
+      "queried_at": "2026-03-10T01:59:01.471659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:59:01.478452"
+  }
+}

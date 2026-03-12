@@ -1,0 +1,652 @@
+{
+  "drug": {
+    "inn": "Doravirine",
+    "drugbank_id": "DB12301",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.9992597699165344,
+        "txgnn_rank": 1558,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.9992597699165344,
+        "txgnn_rank": 1559,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31658118",
+            "title": "Islatravir for the treatment and prevention of infection with the human immunodeficiency virus type 1.",
+            "abstract": "To discuss the potential role of islatravir (ISL), a novel reverse transcriptase translocation inhibitor, in the treatment and prevention of human immunodeficiency virus type 1 (HIV-1) infection.",
+            "journal": "Current opinion in HIV and AIDS",
+            "year": "2020",
+            "authors": [
+              "Markowitz Martin",
+              "Grobler Jay A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-HIV Agents",
+              "Deoxyadenosines",
+              "Drug Combinations",
+              "Drug Evaluation, Preclinical",
+              "HIV Infections",
+              "HIV-1",
+              "Humans",
+              "Lamivudine",
+              "Macaca mulatta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31658118/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.9990772008895874,
+        "txgnn_rank": 1854,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of prostate",
+        "txgnn_score": 0.9876118302345276,
+        "txgnn_rank": 12345,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital human immunodeficiency virus",
+        "txgnn_score": 0.987475335597992,
+        "txgnn_rank": 12465,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02652260",
+            "title": "Phase IIb, Double-Blinded, Multicenter, Randomized Study to Assess the Effect on Central Nervous System (CNS) Toxicity of Switching From ATRIPLA™ (Efavirenz, Tenofovir, Emtricitabine) to MK-1439A (Doravirine, Tenofovir, Lamivudine) in Virologically-Suppressed Subjects.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-03-04",
+            "completion_date": "2024-02-07",
+            "country": "N/A",
+            "enrollment": 86,
+            "brief_summary": "This study aims to evaluate a switch from fixed dose combination (FDC) treatment with ATRIPLA\\^TM for 12 weeks prior to screening to FDC treatment with Doravirine, Tenofovir, Lamivudine (MK-1439A) in virologically-suppressed, human immunodeficiency virus type 1 (HIV-1)-infected participants. The primary hypothesis is that switching from ATRIPLA\\^TM to Doravirine, Tenofovir, Lamivudine results in a lower proportion of participants with at least one CNS toxicity of at least Grade 2 intensity at We",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* is taking ATRIPLA™, generic versions of ATRIPLA™, or the components of ATRIPLA™ (EFV,TDF plus emtricitabine),\n* has documentation of HIV-1 ribonucleic acid (RNA) \\< 50 copies/mL during the 12 weeks prior to screening while on ATRIPLA™.\n* has plasma HIV-1 RNA levels below the l",
+            "endpoints": [
+              "Percentage of Participants With at Least One Central Nervous System (CNS) Toxicity of at Least Grade 2 Intensity at Week 12"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02652260"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04518228",
+            "title": "Pharmacokinetic Properties of Antiretroviral and Anti-Tuberculosis Drugs During Pregnancy and Postpartum",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-09-01",
+            "completion_date": "2025-07-10",
+            "country": "India, Brazil, United States, Uganda, Kenya, South Africa, Puerto Rico, Thailand",
+            "enrollment": 205,
+            "brief_summary": "The purpose of this study is to evaluate the pharmacokinetic (PK) properties of antiretroviral (ARV) and anti-tuberculosis (TB) drugs administered during pregnancy and postpartum.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nComponent 1: Pregnant WLHIV receiving oral ARVs and no TB drugs, and their infants\n\n* Mother is of legal age or otherwise able to provide independent informed consent as determined by site standard operating procedures (SOPs) and consistent with site institutional review board (",
+            "endpoints": [
+              "Number of women who meet area under the curve (AUC) target in second trimester (2T)",
+              "Number of women who meet area under the curve (AUC) target in third trimester (3T)",
+              "Number of women who meet area under the curve (AUC) in postpartum (PP)"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04518228"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07412977",
+            "title": "\"Pregnancy and Viral Infections: Impact on Pregnant Women and Their Children. French Prospective Cohort.\"",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-02",
+            "completion_date": "2039-12",
+            "country": "France",
+            "enrollment": 5160,
+            "brief_summary": "The VIROPREG study is a French prospective multicenter cohort study that aims to assess the impact of viral infections and antiviral treatments received during pregnancy on maternal and child health. The study focuses on both chronic viral infections: human immunodeficiency virus (HIV), hepatitis B virus (HBV), hepatitis C virus (HCV)\\] and on arbovirus infections.\n\nThis study aims at investigating the following research questions:\n\n* What is the rate of mother-to-child transmission for each vir",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPregnant women :\n\n* Cis-gender pregnant woman wishing to carry her pregnancy to term and give birth in one of the maternity units participating in the research, whatever the term of pregnancy (inclusion as soon as possible after conception, whatever the outcome);\n* Age ≥18 years",
+            "endpoints": [
+              "HIV-1/HIV-2 Cohort: Scores assessing gross and fine motor skills and social-emotional development at 4 years of age",
+              "Hepatitis B Cohort: HBV infection at 9 months of age",
+              "Hepatitis C Cohort: HCV infection between 18 and 24 months of age"
+            ],
+            "sponsor": "ANRS, Emerging Infectious Diseases",
+            "url": "https://clinicaltrials.gov/study/NCT07412977"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02397096",
+            "title": "A Phase III Multicenter, Open-Label, Randomized Study to Evaluate a Switch to MK-1439A in HIV-1-Infected Subjects Virologically Suppressed on a Regimen of a Ritonavir-boosted Protease Inhibitor and Two Nucleoside Reverse Transcriptase Inhibitors (NRTIs)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-06-09",
+            "completion_date": "2023-09-05",
+            "country": "N/A",
+            "enrollment": 673,
+            "brief_summary": "The multicenter, open label, randomized study will evaluate the safety and efficacy of a switch to MK-1439A (MK-1439 \\[doravirine\\] plus lamivudine and tenofovir disoproxil fumarate) in HIV-1-infected participants virologically suppressed on a protocol-specified antiretroviral regimen. The primary hypothesis is that a switch to doravirine, tenofovir, lamivudine will be non-inferior to continuation of the regimen at Screening for 24 weeks, as assessed by the proportion of participants maintaining",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria include, but are not limited to:\n\n* Have plasma Human Immunodeficiency Virus-1 Ribonucleic Acid (HIV-1 RNA) levels below the limit of quantification (BLoQ) (\\<40 copies/mL by the Abbott RealTime HIV-1 Assay as determined by the central laboratory) at the scree",
+            "endpoints": [
+              "Percentage of Participants Maintaining Human Immunodeficiency Virus-1 Ribonucleic Acid (HIV-1 RNA) <50 Copies/mL"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02397096"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02275780",
+            "title": "A Phase 3 Multicenter, Double-Blind, Randomized, Active Comparator-Controlled Clinical Trial to Evaluate the Safety and Efficacy of Doravirine (MK-1439) 100 mg Once Daily Versus Darunavir 800 mg Once Daily Plus Ritonavir 100 mg Once Daily, Each in Combination With TRUVADA™ or EPZICOM™/KIVEXA™, in Treatment-Naïve HIV-1 Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-12-01",
+            "completion_date": "2023-03-06",
+            "country": "N/A",
+            "enrollment": 769,
+            "brief_summary": "To establish a new treatment option for treatment-naïve participants with HIV-1, the efficacy and safety of doravirine will be determined relative to a protease inhibitor (PI). Participants will receive double-blind treatment during the 96-week Base Study. Eligible participants in either of the Base Study groups will continue to receive the doravirine-containing regimen open label for an additional 96 weeks in the Study Extension 1. Eligible participants who are deriving benefit will continue in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Is HIV-1 positive and has HIV treatment indicated based on physician assessment.\n* Has received no (0 days of) antiretroviral therapy (ART), including investigational antiretroviral agents.\n* Is considered clinically stable with no signs or symptoms of active infection for at ",
+            "endpoints": [
+              "Percentage of Participants Achieving Plasma HIV-1 RNA <50 Copies/mL at Week 48"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02275780"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "AIDS related complex",
+        "txgnn_score": 0.987475335597992,
+        "txgnn_rank": 12466,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34459470",
+            "title": "The intersection of drug interactions and adverse reactions in contemporary antiretroviral therapy.",
+            "abstract": "Advances in antiretroviral therapy (ART) have transformed HIV infection into a chronic and manageable condition. The introduction of potent and more tolerable antiretrovirals (ARVs) with favorable pharmacokinetic profiles has changed the prevalence and nature of drug-drug interactions (DDIs). Here, we review the relevance of DDIs in the era of contemporary ART.",
+            "journal": "Current opinion in HIV and AIDS",
+            "year": "2021",
+            "authors": [
+              "Nhean Salin",
+              "Tseng Alice",
+              "Back David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Retroviral Agents",
+              "Drug Interactions",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "HIV Infections",
+              "Humans",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34459470/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Brenner tumor",
+        "txgnn_score": 0.9874719977378844,
+        "txgnn_rank": 12472,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign reproductive system neoplasm",
+        "txgnn_score": 0.9870261549949646,
+        "txgnn_rank": 12826,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign prostate phyllodes tumor",
+        "txgnn_score": 0.986278474330902,
+        "txgnn_rank": 13380,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "male reproductive organ cancer",
+        "txgnn_score": 0.9845849871635436,
+        "txgnn_rank": 14464,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12301",
+    "name": "Doravirine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Doravirine"
+      },
+      "queried_at": "2026-03-09T13:44:32.619145",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Doravirine"
+      },
+      "queried_at": "2026-03-09T13:44:36.850822",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T13:44:37.565189",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T13:44:41.776126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T13:44:43.008095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T13:44:43.774999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T13:44:47.211337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T13:44:50.469549",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T13:44:51.512962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T13:44:56.414546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T13:44:57.454928",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T13:44:58.083386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T13:45:02.939246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T13:45:04.154187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T13:45:10.133650",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T13:45:13.879471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T13:45:15.342226",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T13:45:16.314930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T13:45:20.067169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T13:45:22.324981",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T13:45:22.980396",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T13:45:27.039430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T13:45:27.754948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T13:45:28.484120",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T13:45:32.623598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T13:45:34.015126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "queried_at": "2026-03-09T13:45:35.113577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "queried_at": "2026-03-09T13:45:41.122408",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "queried_at": "2026-03-09T13:45:42.983321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "male reproductive organ cancer"
+      },
+      "queried_at": "2026-03-09T13:45:44.217923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "male reproductive organ cancer"
+      },
+      "queried_at": "2026-03-09T13:45:48.864462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doravirine",
+        "disease": "male reproductive organ cancer"
+      },
+      "queried_at": "2026-03-09T13:45:49.787629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T13:45:49.799245"
+  }
+}

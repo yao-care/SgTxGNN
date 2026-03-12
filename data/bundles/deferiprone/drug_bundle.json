@@ -1,0 +1,626 @@
+{
+  "drug": {
+    "inn": "Deferiprone",
+    "drugbank_id": "DB08826",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hepatic porphyria",
+        "txgnn_score": 0.992027223110199,
+        "txgnn_rank": 9021,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32678895",
+            "title": "Iron chelation rescues hemolytic anemia and skin photosensitivity in congenital erythropoietic porphyria.",
+            "abstract": "Congenital erythropoietic porphyria (CEP) is an inborn error of heme synthesis resulting from uroporphyrinogen III synthase (UROS) deficiency and the accumulation of nonphysiological porphyrin isomer I metabolites. Clinical features are heterogeneous among patients with CEP but usually combine skin photosensitivity and chronic hemolytic anemia, the severity of which is related to porphyrin overload. Therapeutic options include symptomatic strategies only and are unsatisfactory. One promising approach to treating CEP is to reduce the erythroid production of porphyrins through substrate reduction therapy by inhibiting 5-aminolevulinate synthase 2 (ALAS2), the first and rate-limiting enzyme in the heme biosynthetic pathway. We efficiently reduced porphyrin accumulation after RNA interference-mediated downregulation of ALAS2 in human erythroid cellular models of CEP disease. Taking advantage of the physiological iron-dependent posttranscriptional regulation of ALAS2, we evaluated whether i",
+            "journal": "Blood",
+            "year": "2020",
+            "authors": [
+              "Blouin Jean-Marc",
+              "Ged Cécile",
+              "Lalanne Magalie",
+              "Lamrissi-Garcia Isabelle",
+              "Morice-Picard Fanny"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "5-Aminolevulinate Synthetase",
+              "Adult",
+              "Anemia, Hemolytic",
+              "Animals",
+              "CRISPR-Cas Systems",
+              "Cell Line",
+              "Cell Line, Tumor",
+              "Deferiprone",
+              "Disease Models, Animal",
+              "Erythroid Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32678895/"
+          },
+          {
+            "pmid": "17854053",
+            "title": "Effect of an oral iron chelator or iron-deficient diets on uroporphyria in a murine model of porphyria cutanea tarda.",
+            "abstract": "Porphyria cutanea tarda is a liver disease characterized by elevated hepatic iron and excessive production of uroporphyrin (URO). Phlebotomy is an effective treatment that probably acts by reducing hepatic iron. Here we used Hfe(-/-) mice to compare the effects on hepatic URO accumulation of two different methods of hepatic iron depletion: iron chelation using deferiprone (L1) versus iron-deficient diets. Hfe(-/-) mice in a 129S6/SvEvTac background were fed 5-aminolevulinic acid (ALA), which results in hepatic URO accumulation, and increasing doses of L1 in the drinking water. Hepatic URO accumulation was completely prevented at low L1 doses, which partially depleted hepatic nonheme iron. By histological assessment, the decrease in hepatic URO accumulation was associated with greater depletion of iron from hepatocytes than from Kupffer cells. The L1 treatment had no effect on levels of hepatic cytochrome P4501A2 (CYP1A2). L1 also effectively decreased hepatic URO accumulation in C57BL/",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2007",
+            "authors": [
+              "Gorman Nadia",
+              "Zaharia Adrian",
+              "Trask Heidi S",
+              "Szakacs Juliana G",
+              "Jacobs Nicholas J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Deferiprone",
+              "Disease Models, Animal",
+              "Iron Chelating Agents",
+              "Iron Deficiencies",
+              "Liver",
+              "Male",
+              "Mice",
+              "Porphyria Cutanea Tarda",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17854053/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatopulmonary syndrome",
+        "txgnn_score": 0.9919567108154296,
+        "txgnn_rank": 9068,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "early-onset familial noncirrhotic portal hypertension",
+        "txgnn_score": 0.9919567108154296,
+        "txgnn_rank": 9069,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primitive portal vein thrombosis",
+        "txgnn_score": 0.9919567108154296,
+        "txgnn_rank": 9070,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatoportal sclerosis",
+        "txgnn_score": 0.9919567108154296,
+        "txgnn_rank": 9071,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic copper-associated cirrhosis",
+        "txgnn_score": 0.9919567108154296,
+        "txgnn_rank": 9072,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyruvate kinase deficiency of red cells",
+        "txgnn_score": 0.9914754629135132,
+        "txgnn_rank": 9423,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "beta-thalassemia with other manifestations",
+        "txgnn_score": 0.9903258681297302,
+        "txgnn_rank": 10306,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18456387",
+            "title": "Alternative treatment paradigm for thalassemia using iron chelators.",
+            "abstract": "beta-thalassemia major, or Cooley's anemia, is a red blood cell disorder requiring lifelong blood transfusions for survival. Erythrocytes accumulate toxic iron at their membranes, triggering an oxidative cascade that leads to their premature destruction in high numbers. We hypothesized that removing this proximate iron compartment as a primary treatment, using standard and alternative orally active iron chelators, could prevent hastened red cell removal and, clinically, perhaps alleviate the need for transfusion.",
+            "journal": "Experimental hematology",
+            "year": "2008",
+            "authors": [
+              "Szuber Natasha",
+              "Buss Joan L",
+              "Soe-Lin Shan",
+              "Felfly Hady",
+              "Trudel Marie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease Models, Animal",
+              "Drug Evaluation, Preclinical",
+              "Erythrocyte Membrane",
+              "Erythrocyte Transfusion",
+              "Humans",
+              "Iron",
+              "Iron Chelating Agents",
+              "Methemoglobin",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18456387/"
+          },
+          {
+            "pmid": "20195035",
+            "title": "Multiple transfused thalassemia major: ocular manifestations in a hospital-based population.",
+            "abstract": "To study the ocular manifestations in multiple transfused beta-thalassemia major patients and assess the ocular side-effects of iron chelating agents.",
+            "journal": "Indian journal of ophthalmology",
+            "year": "2010",
+            "authors": [
+              "Taneja Rashi",
+              "Malik Pankaj",
+              "Sharma Mamta",
+              "Agarwal Mahesh C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Blood Transfusion",
+              "Cataract",
+              "Child",
+              "Child, Preschool",
+              "Deferiprone",
+              "Deferoxamine",
+              "Eye Diseases",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20195035/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyropoikilocytosis, hereditary",
+        "txgnn_score": 0.990180492401123,
+        "txgnn_rank": 10415,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "partial deletion of the short arm of chromosome 16",
+        "txgnn_score": 0.9891571998596193,
+        "txgnn_rank": 11141,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08826",
+    "name": "Deferiprone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Deferiprone"
+      },
+      "queried_at": "2026-03-10T05:22:05.530957",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Deferiprone"
+      },
+      "queried_at": "2026-03-10T05:22:07.237650",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T05:22:07.901206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T05:22:10.899239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T05:22:13.207051",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-10T05:22:13.946868",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-10T05:22:16.800175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-10T05:22:17.502687",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-10T05:22:18.106138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-10T05:22:20.849689",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-10T05:22:21.568054",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T05:22:22.104819",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T05:22:27.108509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T05:22:28.007551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-10T05:22:28.855504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-10T05:22:34.318529",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-10T05:22:35.156615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-10T05:22:35.757647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-10T05:22:39.673579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-10T05:22:40.658117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T05:22:41.198744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T05:22:44.455845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T05:22:45.114934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T05:22:45.648800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T05:22:49.306498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T05:22:51.885678",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "queried_at": "2026-03-10T05:22:52.564603",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "queried_at": "2026-03-10T05:22:56.519768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "queried_at": "2026-03-10T05:22:57.466608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T05:22:58.103157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T05:23:01.572286",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T05:23:02.296872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:23:02.308453"
+  }
+}

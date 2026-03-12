@@ -1,0 +1,530 @@
+{
+  "drug": {
+    "inn": "Ceftolozane",
+    "drugbank_id": "DB09050",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9989359974861144,
+        "txgnn_rank": 2105,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9989359974861144,
+        "txgnn_rank": 2106,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine inflammatory disease",
+        "txgnn_score": 0.9988036155700684,
+        "txgnn_rank": 2328,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "xanthogranulomatous pyelonephritis",
+        "txgnn_score": 0.9987558126449584,
+        "txgnn_rank": 2394,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26658652",
+            "title": "Febrile urinary tract infections: pyelonephritis and urosepsis.",
+            "abstract": "Complicated infections of the urinary tract (UTI) including pyelonephritis and urosepsis are also called febrile UTI. This review describes insights from the literature on this topic since July 2014.",
+            "journal": "Current opinion in infectious diseases",
+            "year": "2016",
+            "authors": [
+              "Schneeberger Caroline",
+              "Holleman Frits",
+              "Geerlings Suzanne E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents, Urinary",
+              "Cephalosporins",
+              "Diabetes Complications",
+              "Fever",
+              "Humans",
+              "Immunocompromised Host",
+              "Levofloxacin",
+              "Penicillanic Acid",
+              "Pyelonephritis",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26658652/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.995218813419342,
+        "txgnn_rank": 6306,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.995218813419342,
+        "txgnn_rank": 6307,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urogenital tuberculosis",
+        "txgnn_score": 0.9949963092803956,
+        "txgnn_rank": 6488,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9943928718566896,
+        "txgnn_rank": 7024,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9922316074371338,
+        "txgnn_rank": 8850,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.9910809397697448,
+        "txgnn_rank": 9749,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09050",
+    "name": "Ceftolozane",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ceftolozane"
+      },
+      "queried_at": "2026-03-09T16:28:03.712613",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ceftolozane"
+      },
+      "queried_at": "2026-03-09T16:28:17.002381",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T16:28:18.190391",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T16:28:21.705420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-09T16:28:24.515823",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T16:28:26.960507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T16:28:32.077560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-09T16:28:35.548993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T16:28:37.787702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T16:28:41.487816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-09T16:28:42.730771",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T16:28:44.303111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T16:28:50.712592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-09T16:28:56.512705",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T16:28:57.985112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T16:29:02.301501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T16:29:03.591702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T16:29:04.295280",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T16:29:07.394525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T16:29:08.602713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "urogenital tuberculosis"
+      },
+      "queried_at": "2026-03-09T16:29:09.935643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "urogenital tuberculosis"
+      },
+      "queried_at": "2026-03-09T16:29:15.449551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "urogenital tuberculosis"
+      },
+      "queried_at": "2026-03-09T16:29:17.798680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T16:29:19.734924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T16:29:25.893018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T16:29:27.340038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T16:29:28.855167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T16:29:34.755180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T16:29:35.784516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-09T16:29:36.549108",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-09T16:29:41.411430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftolozane",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-09T16:29:44.425613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:29:44.458583"
+  }
+}

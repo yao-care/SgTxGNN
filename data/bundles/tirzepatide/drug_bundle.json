@@ -1,0 +1,1031 @@
+{
+  "drug": {
+    "inn": "Tirzepatide",
+    "drugbank_id": "DB15171",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9675225019454956,
+        "txgnn_rank": 22061,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41198460",
+            "title": "Tirzepatide and change in uric acid and its association with weight reduction: post hoc analyses of the SURMOUNT-1 randomised placebo-controlled trial.",
+            "abstract": "This study aimed to test whether tirzepatide, a dual GLP-1RA/GIP agonist, approved for weight management, would be associated with lowered serum uric acid (SUA) levels via its weight reduction properties.",
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2026",
+            "authors": [
+              "Sattar Naveed",
+              "Scilletta Sabrina",
+              "Stefanski Adam",
+              "Wang Hui",
+              "Daly Jack W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Uric Acid",
+              "Male",
+              "Female",
+              "Weight Loss",
+              "Middle Aged",
+              "Obesity",
+              "Overweight",
+              "Adult",
+              "Tirzepatide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41198460/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.9591637253761292,
+        "txgnn_rank": 24495,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06191848",
+            "title": "Effect of Subcutaneous Tirzepatide Once-weekly in Patients With Obesity and Knee Osteoarthritis (STOP KNEE-OA): A Randomized, Double-Blind, Placebo-Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2024-11-19",
+            "completion_date": "2037-05",
+            "country": "Australia",
+            "enrollment": 352,
+            "brief_summary": "This is a trial of tirzepatide in people with obesity and knee osteoarthritis. The main purpose of this study is to see if tirzepatide can reduce number of these participants who require a knee replacement. Participants will be randomized to take a weekly injection of tirzepatide or a placebo for a total of 72 weeks.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a body mass index of ≥ to 30 kg/m2.\n* Report one or more previous unsuccessful attempt to lose body weight via lifestyle modification.\n* Have been deemed eligible to enter the waiting list for primary knee replacement for the treatment of osteoarthritis in the target join",
+            "endpoints": [
+              "Percentage of patients who undergo knee replacement in the target joint"
+            ],
+            "sponsor": "University of Melbourne",
+            "url": "https://clinicaltrials.gov/study/NCT06191848"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05912621",
+            "title": "Tirzepatide: Reversal of Lipotoxicity and Adipose Tissue Dysfunction in Humans With Overweight/Obesity",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-11-09",
+            "completion_date": "2029-12",
+            "country": "United States",
+            "enrollment": 66,
+            "brief_summary": "Obesity, affecting 40% of US adults and costing 173b annually, represents a significant health care burden (1). It is associated with increased risk for multiple chronic diseases including hypertension, type 2 diabetes (T2D), cardiovascular disease, and NAFLD, as well as cancer, osteoarthritis, and obstructive sleep apnea. The investigators plan to test the hypothesis that tirzepatide, a dual GLP/GIP agonist, improves metabolic health (insulin resistance and regional fat distribution and cardiov",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* nondiabetic as defined by fasting plasma glucose \\< 126 mg/dL while off all glucose lowering medications\n* BMI 27-39.9 kg/m2. Individuals with obesity (BMI 30-39.9 kg/m2) are not required to have an additional risk factor but those who are overweight (27-29.9 kg/m2) must have ",
+            "endpoints": [
+              "Change in Adipocyte Size",
+              "Change in Adipocyte Fat Storage Capacity",
+              "Assess changes in Regional Fat"
+            ],
+            "sponsor": "Stanford University",
+            "url": "https://clinicaltrials.gov/study/NCT05912621"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38015216",
+            "title": "Obesity Management in Adults: A Review.",
+            "abstract": "Obesity affects approximately 42% of US adults and is associated with increased rates of type 2 diabetes, hypertension, cardiovascular disease, sleep disorders, osteoarthritis, and premature death.",
+            "journal": "JAMA",
+            "year": "2023",
+            "authors": [
+              "Elmaleh-Sachs Arielle",
+              "Schwartz Jessica L",
+              "Bramante Carolyn T",
+              "Nicklas Jacinda M",
+              "Gudzune Kimberly A"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Male",
+              "Anti-Obesity Agents",
+              "Cardiovascular Diseases",
+              "Diabetes Mellitus, Type 2",
+              "Gastric Balloon",
+              "Glucagon-Like Peptide 1",
+              "Glucose"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38015216/"
+          },
+          {
+            "pmid": "40953447",
+            "title": "The Cost-Effectiveness of Semaglutide and Tirzepatide for Patients With Knee Osteoarthritis and Obesity.",
+            "abstract": "Glucagon-like peptide-1 receptor agonists (GLP1RAs) lead to substantial weight loss and pain reduction in persons with knee osteoarthritis and obesity.",
+            "journal": "Annals of internal medicine",
+            "year": "2025",
+            "authors": [
+              "Betensky Daniel J",
+              "Smith Karen C",
+              "Katz Jeffrey N",
+              "Yang Catherine",
+              "Hunter David J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cost-Benefit Analysis",
+              "Glucagon-Like Peptides",
+              "Osteoarthritis, Knee",
+              "Obesity",
+              "Quality-Adjusted Life Years",
+              "Tirzepatide",
+              "Weight Loss",
+              "Glucagon-Like Peptide-1 Receptor Agonists",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40953447/"
+          },
+          {
+            "pmid": "39743126",
+            "title": "Anti-consumption agents: Tirzepatide and semaglutide for treating obesity-related diseases and addictions, and improving life expectancy.",
+            "abstract": "American culture encourages overconsumption, fueled by ubiquitous availability and pervasive marketing of ultra-processed foods and other addictive substances. This chronic overindulgence has contributed to rising rates of obesity, type 2 diabetes (T2D), substance abuse, mental health disorders and premature mortality. Glucose-like peptide-1 agonists (GLP-1RAs) affect the brain's reward pathway that mediates addiction to foods and various other substances. Evolving data suggest that tirzepatide and semaglutide may be the first effective \"anti-consumption\" agents with potential applications in reducing food cravings, obesity, alcohol consumption, nicotine addiction, recreational drug use, and even uncontrollable shopping behaviors. Tirzepatide and semaglutide, unlike prior weight-loss drugs, are effective and relatively safe/well-tolerated medications that are associated with reduced risks for myocardial infarction, stroke, cardiovascular death, heart failure, progressive kidney and liv",
+            "journal": "Progress in cardiovascular diseases",
+            "year": "2025",
+            "authors": [
+              "O'Keefe James H",
+              "Franco W Grant",
+              "O'Keefe Evan L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obesity",
+              "Glucagon-Like Peptides",
+              "Life Expectancy",
+              "Substance-Related Disorders",
+              "Treatment Outcome",
+              "Anti-Obesity Agents",
+              "Behavior, Addictive",
+              "Animals",
+              "Tirzepatide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39743126/"
+          },
+          {
+            "pmid": "41039116",
+            "title": "A systematic review and meta-analysis of the efficacy and safety of pharmacological treatments for obesity in adults.",
+            "abstract": "This systematic review and network meta-analysis evaluated the efficacy and safety of obesity management medications (OMMs) in terms of reducing body weight and impact on obesity-related complications. Here a Medline and Embase search was performed up to 31 January 2025 for randomized controlled trials comparing OMMs versus placebo/active comparators in adults. Primary endpoint was percentage of total body weight loss (TBWL%) at the end of the study. Secondary endpoints were TBWL% at 1, 2 and ≥3 years, lipid profile, blood pressure, hemoglobin A1c, fasting plasma glucose, mental health, serious adverse events, quality of life, cardiovascular morbidity and mortality, remission of obesity-related complications and all-cause mortality. Fifty-six clinical trials were identified-orlistat (22), semaglutide (14), liraglutide (11), tirzepatide (6), naltrexone/bupropion (5) and phentermine/topiramate (2)-enrolling 60,307 patients (32,598 OMM and 27,709 placebo). All OMMs showed a significantly ",
+            "journal": "Nature medicine",
+            "year": "2025",
+            "authors": [
+              "McGowan Barbara",
+              "Ciudin Andreea",
+              "Baker Jennifer L",
+              "Busetto Luca",
+              "Dicker Dror"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obesity",
+              "Adult",
+              "Anti-Obesity Agents",
+              "Weight Loss",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome",
+              "Quality of Life",
+              "Glucagon-Like Peptides",
+              "Liraglutide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41039116/"
+          },
+          {
+            "pmid": "39129529",
+            "title": "The impact of approved anti-obesity medications on osteoarthritis.",
+            "abstract": "Obesity has been established as a significant risk factor for osteoarthritis. Anti-obesity medications (AOMs) have demonstrated efficacy in weight management. However, potential impact on osteoarthritis risk remains uncertain.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2024",
+            "authors": [
+              "Baser Onur",
+              "Rodchenko Katarzyna",
+              "Vivier Elizabeth",
+              "Baser Isabel",
+              "Lu Yuanqing"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Osteoarthritis",
+              "Male",
+              "Retrospective Studies",
+              "Female",
+              "Middle Aged",
+              "Obesity",
+              "Anti-Obesity Agents",
+              "Liraglutide",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39129529/"
+          },
+          {
+            "pmid": "41547366",
+            "title": "Glucagon-like receptor agonists and next-generation incretin-based medications: metabolic, cardiovascular, and renal benefits.",
+            "abstract": "GLP-1 receptor agonists were initially developed to treat type 2 diabetes and have had a transformative effect on its therapy, and are highly effective for glycaemic control, with the added benefit of bodyweight reduction and a low risk of causing hypoglycaemia. GLP-1 receptor agonists reduce risks for major adverse cardiovascular events (eg, non-fatal myocardial infarction, stroke, and cardiovascular death), and the risk of admission to or treatment within hospital for heart failure. These drugs reduce albuminuria and slow the decline in estimated glomerular filtration rate over time, therefore delaying or preventing kidney failure. Furthermore, GLP-1 receptor agonists (eg, liraglutide and semaglutide) and the dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 receptor co-agonist tirzepatide have been approved for treatment of obesity, with clinical trials establishing benefits for various obesity-related conditions: prevention of type 2 diabetes; risk for major adverse",
+            "journal": "Lancet (London, England)",
+            "year": "2026",
+            "authors": [
+              "Nauck Michael A",
+              "Tuttle Katherine R",
+              "Tschöp Matthias H",
+              "Blüher Matthias"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Diabetes Mellitus, Type 2",
+              "Incretins",
+              "Glucagon-Like Peptide-1 Receptor Agonists",
+              "Hypoglycemic Agents",
+              "Cardiovascular Diseases",
+              "Liraglutide",
+              "Glucagon-Like Peptides",
+              "Obesity",
+              "Tirzepatide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41547366/"
+          },
+          {
+            "pmid": "41212412",
+            "title": "Precision obesity medicine: A phenotype-guided framework for pharmacologic therapy across the lifespan.",
+            "abstract": "Obesity is a biologically complex and heterogeneous disease that requires individualized, phenotype- and complication-oriented therapeutic strategies. The introduction of advanced pharmacotherapies, including GLP-1 receptor agonists (GLP-1 RA), dual Glucose-dependent Insulinotropic Polypeptide/Glucagon-like Peptide-1 (GIP/GLP-1) agonists, and emerging triple agonists, has facilitated a shift from weight-centric goals to precision-based obesity care. This review provides a clinical framework for pharmacologic treatment, organized by phenotype, obesity-related complications, age, and behavioral traits.",
+            "journal": "Journal of endocrinological investigation",
+            "year": "2025",
+            "authors": [
+              "Tuccinardi Dario",
+              "Masi Davide",
+              "Watanabe Mikiko",
+              "Zanghi Buffi Valeria",
+              "De Domenico Francesco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Precision Medicine",
+              "Obesity",
+              "Phenotype",
+              "Anti-Obesity Agents",
+              "Longevity",
+              "Glucagon-Like Peptide-1 Receptor Agonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41212412/"
+          },
+          {
+            "pmid": "40604322",
+            "title": "Incretin-based therapies for the treatment of obesity-related diseases.",
+            "abstract": "Obesity-related disability-adjusted life years (DALYs) are expected to increase by approximately 40% from 2020 to 2030. DALYs and mortality related to obesity are the consequence of multiple comorbidities such as cardiovascular (i.e., heart failure) and metabolic diseases (i.e. type 2 diabetes [T2D], metabolic dysfunction-associated steatotic liver disease [MASLD]). Lifestyle interventions represent the foundation of obesity treatment, yet an escalation to pharmacological and/or surgical interventions is often needed. Liraglutide, semaglutide and tirzepatide are incretin-based therapies currently approved by FDA for the management of obesity, while triple GIPR/GCGR/GLP-1R agonist retatrutide (LY3437943), the cagrilintide/semaglutide (CagriSema) 2.4 mg combination, high-dose oral semaglutide, and oral orforglipron are in advanced stages of development. Incretin-based therapies have been associated with a body weight (BW) reduction of ≥5% in at least half of patients in most randomized c",
+            "journal": "npj metabolic health and disease",
+            "year": "2024",
+            "authors": [
+              "Caruso Irene",
+              "Cignarelli Angelo",
+              "Sorice Gian Pio",
+              "Perrini Sebastio",
+              "Giorgino Francesco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40604322/"
+          },
+          {
+            "pmid": "40512029",
+            "title": "Modeling potential cost-effectiveness of tirzepatide versus lifestyle modification for patients with overweight and obesity.",
+            "abstract": "Our objective was to model the potential cost-effectiveness of tirzepatide as an alternative to lifestyle modification (LSM) for the management of obesity and overweight.",
+            "journal": "Obesity (Silver Spring, Md.)",
+            "year": "2025",
+            "authors": [
+              "Hoog Meredith M",
+              "Kan Hong",
+              "Deger Kristen A",
+              "Sorensen Sonja",
+              "Neff Lisa M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cost-Benefit Analysis",
+              "Obesity",
+              "Quality-Adjusted Life Years",
+              "Overweight",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Adult",
+              "Life Style"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40512029/"
+          },
+          {
+            "pmid": "40100584",
+            "title": "Sex Differences in Obesity and Its Treatment.",
+            "abstract": "Researchers and clinicians have increasingly recognized the importance of investigating and considering sex differences in obesity treatment. In this narrative review, we first summarized sex differences in select obesity-related conditions that have been the focus of studies of second-generation anti-obesity medications (i.e., semaglutide and tirzepatide) including type 2 diabetes, obstructive sleep apnea, knee osteoarthritis, and heart failure. We next described sex differences related to obesity treatments with a focus on the second-generation anti-obesity medications, semaglutide and tirzepatide.",
+            "journal": "Current psychiatry reports",
+            "year": "2025",
+            "authors": [
+              "Ghanta Aleena",
+              "Wilson Elizabeth",
+              "Chao Ariana M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obesity",
+              "Female",
+              "Male",
+              "Anti-Obesity Agents",
+              "Diabetes Mellitus, Type 2",
+              "Sex Factors",
+              "Sex Characteristics",
+              "Sleep Apnea, Obstructive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40100584/"
+          },
+          {
+            "pmid": "37947489",
+            "title": "Retatrutide showing promise in obesity (and type 2 diabetes).",
+            "abstract": "Obesity is a major risk factor for cardiovascular disease, diabetes, osteoarthritis, and some cancers. Retatrutide stimulates Glucagon-like peptide 1 (GLP-1), Glucose-dependent insulinotropic polypeptide (GIP) receptors, and glucagon receptors, and is being developed for the treatment of obesity and type 2 diabetes.",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2023",
+            "authors": [
+              "Doggrell Sheila A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Diabetes Mellitus, Type 2",
+              "Obesity",
+              "Risk Factors",
+              "Glucagon-Like Peptide 1",
+              "Weight Loss",
+              "Glucagon-Like Peptide-1 Receptor",
+              "Hypoglycemic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37947489/"
+          },
+          {
+            "pmid": "40743997",
+            "title": "Development of the European Association for the Study of Obesity (EASO) Grade-Based Framework on the Pharmacological Treatment of Obesity: Design and Methodological Aspects.",
+            "abstract": "<p>Introduction: The aim of this study was to describe the design and methodological aspects of the upcoming European Association for the Study of Obesity (EASO) Framework for the Pharmacological Treatment of Obesity utilizing currently available evidence, which is grounded in a rigorous and transparent approach to evidence synthesis and guideline development. Methods: An expert panel of 13 members, selected by EASO, has developed the framework using the GRADE methodology to ensure transparent, evidence-based guideline development. Clinical questions were formulated using the population, intervention, comparator, outcomes (PICO) framework, focusing on the effectiveness and safety of European Medicines Agency-approved obesity management medications, including orlistat, naltrexone/bupropion, liraglutide, semaglutide, and tirzepatide. A comprehensive literature search is being conducted using Medline and Embase, including randomized controlled trials with a minimum duration of 48 weeks. M",
+            "journal": "Obesity facts",
+            "year": "2026",
+            "authors": [
+              "McGowan Barbara",
+              "Ciudin Andreea",
+              "Baker Jennifer L",
+              "Busetto Luca",
+              "Dicker Dror"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obesity",
+              "Anti-Obesity Agents",
+              "Europe",
+              "Weight Loss",
+              "Research Design",
+              "Liraglutide",
+              "Evidence-Based Medicine",
+              "Practice Guidelines as Topic",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40743997/"
+          },
+          {
+            "pmid": "41748946",
+            "title": "Musculoskeletal adverse events with incretin-based diabetes drugs: a FAERS pharmacovigilance study.",
+            "abstract": "Incretin-based therapies, including glucagon-like peptide-1 receptor agonists (GLP-1 RAs), dipeptidyl peptidase-4 inhibitors (DPP-4is), and the dual GIP/GLP-1 RA tirzepatide, are widely prescribed for type 2 diabetes mellitus (T2DM). Their musculoskeletal adverse events (AEs) remain underexplored. We analyzed FAERS reports (Q1 2004-Q2 2024) for musculoskeletal and connective tissue disorders. After de-duplication, 15,052 reports were subjected to disproportionality analyses using reporting odds ratio (ROR), proportional reporting ratio (PRR), empirical Bayes geometric mean (EBGM), and information component (IC). Differences between serious and non-serious events were assessed, and time to onset was examined by cumulative curves and Weibull models. No signals were detected at the SOC level. At the PT level, GLP-1 RAs were linked to back pain, myalgia, and neck mass, while tirzepatide was associated with muscle atrophy and neck mass. Among DPP-4is, sitagliptin, linagliptin, and aloglipti",
+            "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "year": "2026",
+            "authors": [
+              "Guo Meixuan",
+              "Chen Si",
+              "Dong Huqiang",
+              "Cai Mengyuan",
+              "Guo Mixue"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41748946/"
+          },
+          {
+            "pmid": "41754149",
+            "title": "A Narrative Review on GLP-1 Receptor Agonists for Obesity in Older Women: Maximizing Weight Loss While Preserving Lean Mass.",
+            "abstract": "Obesity in women over 65 represents a growing clinical challenge, particularly due to its association with increased risks of cardiovascular disease, osteoarthritis, frailty, sleep-breathing disorders, and sarcopenia. The prevalence of obesity in this demographic is compounded by age-related metabolic changes and declining physical activity. In this context, glucagon-like peptide-1 receptor agonists (GLP-1 RAs), such as semaglutide and tirzepatide, have emerged as promising pharmacological treatments for weight loss, showing substantial efficacy in reducing body weight and improving metabolic health. However, their use in older populations warrants careful consideration due to the potential risk of muscle loss, which may exacerbate sarcopenia and frailty. This review synthesizes current evidence on the efficacy of GLP-1 RAs for weight loss in older women, exploring both the metabolic benefits and potential risks, particularly with regard to muscle mass preservation. We discuss the mech",
+            "journal": "Nutrients",
+            "year": "2026",
+            "authors": [
+              "Moscucci Federica",
+              "Baratta Francesco",
+              "Pastori Daniele",
+              "Menichelli Danilo",
+              "Mattioli Anna Vittoria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Glucagon-Like Peptide-1 Receptor Agonists",
+              "Weight Loss",
+              "Obesity",
+              "Aged",
+              "Sarcopenia",
+              "Glucagon-Like Peptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41754149/"
+          },
+          {
+            "pmid": "41782434",
+            "title": "Joint TOS/OMA/OAC Expert Guidance Statement on the Pharmacological Management of United States Adults With Overweight or Obesity Using the GRADE Approach.",
+            "abstract": "Obesity affects over 40% of US adults, with severe obesity on the rise. Despite recognition of obesity as a chronic disease, it remains underdiagnosed and undertreated. Access to evidence-based obesity treatment is limited, leading to increased obesity severity and related complications. Barriers to obesity treatment include socioeconomic disparities, limited clinician training, stigma, and restrictive or absent reimbursement policies. FDA-approved obesity medications offer significant health benefits, prompting the need for updated, evidence-based guidance.",
+            "journal": "Obesity (Silver Spring, Md.)",
+            "year": "2026",
+            "authors": [
+              "Alexander Lydia",
+              "Purnell Jonathan Q",
+              "Burridge Karlijn",
+              "Cornier Marc-André",
+              "Golden Angela"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41782434/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9480546116828918,
+        "txgnn_rank": 27139,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.94634348154068,
+        "txgnn_rank": 27511,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign prostatic hyperplasia (disease)",
+        "txgnn_score": 0.940403401851654,
+        "txgnn_rank": 28740,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.936039388179779,
+        "txgnn_rank": 29548,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40932015",
+            "title": "Effect of Glucagon-Like Peptide 1 Receptor Agonists on Patients With Rheumatoid Arthritis.",
+            "abstract": "Glucagon-like peptide 1 receptor agonists (GLP-1RAs) are approved for weight loss, diabetes, and cardiovascular risk reduction. Despite widespread use, GLP-1RAs have not been well studied in patients with rheumatoid arthritis (RA). We examined the effects of GLP-1RAs on RA disease activity and cardiovascular risk profile in patients with RA and overweight or obesity.",
+            "journal": "ACR open rheumatology",
+            "year": "2025",
+            "authors": [
+              "Kellner David A",
+              "Dente Elizabeth",
+              "Tran Vincent",
+              "Welsh Travis",
+              "Tran Victor"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40932015/"
+          },
+          {
+            "pmid": "39093237",
+            "title": "Update on Perioperative Medication Management for the Hand Surgeon: A Focus on Diabetes, Weight Loss, Rheumatologic, and Antithrombotic Medications.",
+            "abstract": "Diabetes mellitus and obesity are growing health concerns. New pharmacologic interventions have recently begun to play a more notable role in the treatment pathway of these separate but related conditions. In particular, glucagon-like peptide-1 receptor agonists, such as semaglutides (Ozempic, Wegovy) and tirzepatide (Mounjaro), and sodium glucose co-transporter 2 inhibitors, such as dapagliflozin (Farxiga) and empagliflozin (Jardiance), have emerged as treatment options. Multiple clinical trials have demonstrated their efficacy in regulating metabolism, improving glycemic control, and managing long-term weight reduction. However, glucagon-like peptide-1 receptor agonists have also been associated with gastrointestinal side effects, including delayed gastric emptying as well as regurgitation and aspiration during general anesthesia or deep sedation, and sodium glucose co-transporter 2 inhibitors have been associated with severe diabetic ketoacidosis. Therefore, discontinuation of these",
+            "journal": "The Journal of hand surgery",
+            "year": "2024",
+            "authors": [
+              "Xu Wen",
+              "Schmiesing Cliff",
+              "Chang James"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Weight Loss",
+              "Hypoglycemic Agents",
+              "Fibrinolytic Agents",
+              "Perioperative Care",
+              "Sodium-Glucose Transporter 2 Inhibitors",
+              "Obesity",
+              "Hand",
+              "Diabetes Mellitus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39093237/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.93526291847229,
+        "txgnn_rank": 29713,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9313265085220336,
+        "txgnn_rank": 30395,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9285869002342224,
+        "txgnn_rank": 30891,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9282315969467164,
+        "txgnn_rank": 30966,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15171",
+    "name": "Tirzepatide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tirzepatide"
+      },
+      "queried_at": "2026-03-10T08:49:30.782856",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tirzepatide"
+      },
+      "queried_at": "2026-03-10T08:49:32.979754",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:49:33.720267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:49:37.135194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:49:39.070523",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T08:49:40.223515",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T08:49:47.322433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T08:49:51.567949",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T08:49:52.180358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T08:49:55.838925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T08:49:56.782367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T08:49:57.469597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T08:50:00.730591",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T08:50:02.185831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "queried_at": "2026-03-10T08:50:02.825605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "queried_at": "2026-03-10T08:50:06.349949",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "queried_at": "2026-03-10T08:50:07.244348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:50:07.929920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:50:15.082519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:50:19.670052",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T08:50:20.990437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T08:50:24.334312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T08:50:24.951383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T08:50:25.469112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T08:50:29.466754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T08:50:30.087580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T08:50:30.568760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T08:50:33.772781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T08:50:34.488243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T08:50:34.950734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T08:50:38.135422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirzepatide",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T08:50:38.718470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:50:38.722658"
+  }
+}

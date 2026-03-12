@@ -1,0 +1,529 @@
+{
+  "drug": {
+    "inn": "Umeclidinium",
+    "drugbank_id": "DB09076",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9636281728744508,
+        "txgnn_rank": 23263,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9582720398902892,
+        "txgnn_rank": 24684,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9327769875526428,
+        "txgnn_rank": 30157,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9290949702262878,
+        "txgnn_rank": 30798,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9203399419784546,
+        "txgnn_rank": 32275,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroduodenitis",
+        "txgnn_score": 0.9191185235977172,
+        "txgnn_rank": 32474,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.9174278378486632,
+        "txgnn_rank": 32753,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29583021",
+            "title": "COPD 2017: A Year in Review.",
+            "abstract": "In this review, we focused on original manuscripts published in the 2017 that provided additional information on the clinical and therapeutic features of the chronic obstructive pulmonary disease (COPD). We have chosen eight of these studies, collected in four topics concerning the pharmacological treatment (tiotropium) of mild-moderate patients, the pharmacological (fluticasone furoate/vilanterol/umeclidinium) and non-pharmacological treatment (non-invasive mechanical ventilation) of severe patients, the etiology of acute exacerbation of COPD involving seasonal airway pathogens and the role of eosinophils with particular interest to the monoclonal antibody directed against interleukin-5 (mepolizumab). For each topic, we report a brief description of studies, take-home messages, and brief comments.",
+            "journal": "COPD",
+            "year": "2018",
+            "authors": [
+              "Crisafulli Ernesto",
+              "Torres Antoni"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Androstadienes",
+              "Antibodies, Monoclonal, Humanized",
+              "Benzyl Alcohols",
+              "Bronchodilator Agents",
+              "Chlorobenzenes",
+              "Common Cold",
+              "Disease Progression",
+              "Drug Combinations",
+              "Eosinophils",
+              "Glucocorticoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29583021/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrophoderma vermiculata",
+        "txgnn_score": 0.9123649597167968,
+        "txgnn_rank": 33425,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peptic ulcer disease",
+        "txgnn_score": 0.9105039834976196,
+        "txgnn_rank": 33645,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9066054224967957,
+        "txgnn_rank": 34123,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09076",
+    "name": "Umeclidinium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Umeclidinium"
+      },
+      "queried_at": "2026-03-10T08:56:44.885703",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Umeclidinium"
+      },
+      "queried_at": "2026-03-10T08:56:46.396994",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:56:46.966077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:56:51.839961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:56:52.491545",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:56:53.158714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:56:56.495873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:56:57.236561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T08:56:57.895855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T08:57:01.186164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T08:57:01.933423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T08:57:02.606979",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T08:57:05.352662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T08:57:06.033665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:57:06.546228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:57:09.807440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:57:10.587637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T08:57:11.238440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T08:57:14.000792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T08:57:14.735100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T08:57:15.339739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T08:57:18.951398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T08:57:21.074564",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T08:57:21.613683",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T08:57:25.287528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T08:57:26.036815",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T08:57:26.583821",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T08:57:29.735925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T08:57:30.434837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T08:57:31.085521",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T08:57:33.938597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Umeclidinium",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T08:57:34.584536",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:57:34.587233"
+  }
+}

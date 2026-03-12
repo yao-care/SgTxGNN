@@ -1,0 +1,538 @@
+{
+  "drug": {
+    "inn": "Sennosides",
+    "drugbank_id": "DB11365",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.9928585290908812,
+        "txgnn_rank": 8339,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9923382997512816,
+        "txgnn_rank": 8764,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diffuse alopecia areata",
+        "txgnn_score": 0.9911969900131226,
+        "txgnn_rank": 9654,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.991071879863739,
+        "txgnn_rank": 9755,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9910417199134828,
+        "txgnn_rank": 9767,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.9910160303115844,
+        "txgnn_rank": 9792,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03082560",
+            "title": "Design and Validation of a New Assessment Tool for Lichen Planopilaris, the Boston Grade of Activity in Lichen Planopilaris (Boston GOAL)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2017-02-10",
+            "completion_date": "2022-12",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "The study's Primary Objective is to design and validate a grading system for objective and accurate assessment of lichen planopilaris.\n\nSecondary Objectives:\n\n* To assess change in symptoms such as pain and itch using a Numeric Rating Scale(NRS) scores and quality of life using the Dermatology Life Quality Index (DLQI) scores\n* To correlate this grading system with patient skin biopsies evaluating disease activity on a microscopic level\n* To correlate this grading system with digital global phot",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female subjects in general good health between the ages of 18 and 80 years old\n2. Clinical and histologic diagnosis of lichen planopilaris\n3. Subject is able to understand and sign informed consent\n4. Subject is able to complete the study and comply with study procedu",
+            "endpoints": [
+              "Boston Grade of Activity in Lichen Planopilaris (Boston GOAL)"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03082560"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05348343",
+            "title": "A Pilot Clinical 'Proof of Concept' Study of Activated Platelet-rich Plasma (PRP) in Subjects With Androgenetic Alopecia (AGA)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2022-05-17",
+            "completion_date": "2023-09-01",
+            "country": "United States",
+            "enrollment": 17,
+            "brief_summary": "A clinical trial to assess the effects and safety of PRP activated with pulsed electrical fields (PEFA-PRP) compared with unactivated PRP when used to treat AGA.\n\nThe design of this small-scale, phase 1b/2a clinical trial is to demonstrate that pulsed electric field activation of autologous PRP results in a controlled release of platelet growth factors and other biologically active molecules that will have a benefit effect on the non-cycling hair follicles in the treated scalp compared to non-ac",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male between 30 and 60 years of age, inclusive\n2. A clinical diagnosis of AGA (stage II to V, according to the Hamilton-Norwood Scale)\n3. Non-smokers in good general health, as determined by the Investigator\n4. Willing and able to tolerate multiple injections and attend all s",
+            "endpoints": [
+              "Change in hair density and hair regrowth",
+              "Measurement of hair regrowth"
+            ],
+            "sponsor": "Santiste Medical Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05348343"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma 1, open angle",
+        "txgnn_score": 0.966992974281311,
+        "txgnn_rank": 22227,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open angle glaucoma",
+        "txgnn_score": 0.9649235010147096,
+        "txgnn_rank": 22869,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.9529090523719788,
+        "txgnn_rank": 25993,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.9529090523719788,
+        "txgnn_rank": 25994,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11365",
+    "name": "Sennosides",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sennosides"
+      },
+      "queried_at": "2026-03-10T05:03:22.952883",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sennosides"
+      },
+      "queried_at": "2026-03-10T05:03:25.483453",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T05:03:26.059065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T05:03:29.592152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-10T05:03:30.412263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T05:03:31.037396",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T05:03:34.611546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T05:03:35.376198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T05:03:37.703458",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T05:03:41.264543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "diffuse alopecia areata"
+      },
+      "queried_at": "2026-03-10T05:03:42.163366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:03:42.799120",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:03:46.160385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:03:46.883101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T05:03:47.398573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T05:03:50.778820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T05:03:51.838221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T05:03:52.438588",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T05:03:56.002443",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T05:03:56.892865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T05:03:58.208186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T05:04:02.084527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-10T05:04:02.881931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "open angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:04:04.871131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "open angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:04:08.260907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "open angle glaucoma"
+      },
+      "queried_at": "2026-03-10T05:04:09.139211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T05:04:09.735556",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T05:04:14.383249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T05:04:15.937242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T05:04:17.195780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T05:04:21.062994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sennosides",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T05:04:22.755083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:04:22.802608"
+  }
+}

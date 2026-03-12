@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Ibuprofen",
+    "drugbank_id": "DB01050",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9973753690719604,
+        "txgnn_rank": 4169,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9971062541007996,
+        "txgnn_rank": 4476,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.996832311153412,
+        "txgnn_rank": 4764,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9966887831687928,
+        "txgnn_rank": 4920,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9966375827789308,
+        "txgnn_rank": 4976,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9966294169425964,
+        "txgnn_rank": 4983,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9959562420845032,
+        "txgnn_rank": 5638,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotrichosis simplex of the scalp",
+        "txgnn_score": 0.985868275165558,
+        "txgnn_rank": 13661,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "WHIM syndrome",
+        "txgnn_score": 0.9842875003814696,
+        "txgnn_rank": 14632,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.9831032752990724,
+        "txgnn_rank": 15401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01050",
+    "name": "Ibuprofen",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ibuprofen"
+      },
+      "queried_at": "2026-03-09T17:23:32.850093",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ibuprofen"
+      },
+      "queried_at": "2026-03-09T17:24:18.532489",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T17:24:20.194629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T17:24:24.743049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T17:24:26.155337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T17:24:27.843891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T17:24:34.728296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T17:24:36.587555",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T17:24:37.997833",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T17:24:46.244108",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T17:24:47.736518",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T17:24:48.687287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T17:24:52.574591",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T17:24:55.488817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T17:24:56.524921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:01.105300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:02.697666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T17:25:03.344495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T17:25:07.479139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T17:25:08.285225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:08.935472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:15.130735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:16.505452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-09T17:25:18.010989",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-09T17:25:23.288136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "queried_at": "2026-03-09T17:25:24.001548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:24.693494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:28.535040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T17:25:29.387552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-09T17:25:30.185471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-09T17:25:36.933458",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ibuprofen",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-09T17:25:38.180744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T17:25:38.188266"
+  }
+}

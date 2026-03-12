@@ -1,0 +1,1548 @@
+{
+  "drug": {
+    "inn": "Promethazine",
+    "drugbank_id": "DB01069",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9893823862075806,
+        "txgnn_rank": 10975,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9812780022621156,
+        "txgnn_rank": 16410,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04660799",
+            "title": "A Phase II Comparative, Open-Label, Randomized, Multicenter, China-Only Study to Investigate the Pharmacokinetics, Efficacy and Safety of Subcutaneous Rituximab Versus Intravenous Rituximab Both in Combination With CHOP in Previously Untreated Patients With CD20 Positive Diffuse Large B Cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-02-24",
+            "completion_date": "2022-10-11",
+            "country": "China",
+            "enrollment": 50,
+            "brief_summary": "This is a multicenter China-only study to investigate the PK, efficacy and safety of SC rituximab versus IV rituximab, both in combination with CHOP (cyclophosphamide, doxorubicin, vincristine, prednisone) in previously untreated participants with CD20 positive DLBCL. Participants will be randomized to receive eight cycles of rituximab SC or rituximab IV combined with six or eight cycles of standard CHOP chemotherapy. After the end of study treatment, participants will be followed-up every 3 mon",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Previously untreated CD20 positive diffuse large B-cell lymphoma (DLBCL)\n* Participants with an International Prognostic Index (IPI) score of 1 to 5 or IPI score of 0 with bulky disease, defined as one lesion \\>/=7.5 cm\n* At least one bi-dimensionally measurable lesion defined",
+            "endpoints": [
+              "Subcutaneous Serum Rituximab Trough Concentration (Ctrough SC) and Intravenous Serum Rituximab Trough Concentration (Ctrough IV)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04660799"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02023164",
+            "title": "Multicenter Pilot Study to Assess the Feasibility of Conducting Phase III Trial Comparing IV Cetirizine Injection, 10 mg, to IV Diphenhydramine, 50 mg, for The Treatment of Acute Urticaria",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-07",
+            "completion_date": "2014-12",
+            "country": "Canada, United States",
+            "enrollment": 36,
+            "brief_summary": "This is a multicenter, parallel group, randomized, double-blind pilot Phase III clinical study of JDP-205 (cetirizine) injection, versus diphenhydramine injection, 50 mg/mL (Benadryl or generic equivalent), in approximately 36 patients with acute urticaria requiring treatment in Hospital Emergency Departments, Urgent Care Centers and Allergy Clinics.",
+            "eligibility_criteria": "Patients are eligible to be included in the study only if they meet all of the following criteria:\n\nInclusion Criteria:\n\n* Male or female patients with a diagnosis of acute urticaria associated with an acute allergic reaction to a known (e.g. food, medication, insect bites) or unknown allergen who n",
+            "endpoints": [
+              "Extent of Urticaria/Erythema Score (Physician Assessment)",
+              "Physician Pruritus Severity Score",
+              "Patient Pruritis Severity Score"
+            ],
+            "sponsor": "JDP Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02023164"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05354466",
+            "title": "Effect of Sugammadex Versus Neostigmine on the Occurrence of Respiratory Adverse Events in Children Undergoing Tonsillectomies: a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2022-06-27",
+            "completion_date": "2024-09-04",
+            "country": "South Korea",
+            "enrollment": 174,
+            "brief_summary": "Perioperative respiratory adverse events are common in children. We aimed to evaluate the effect of sugammadex on the incidence of perioperative respiratory adverse events in pediatric patients receiving tonsillectomy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pediatric patients aged 2-6 years who were scheduled for tonsillectomy under general anesthesia were enrolled\n\nExclusion Criteria:\n\n* a recent history of upper respiratory tract infection within 2 weeks of surgery\n* allergic reaction to sugammadex\n* renal failure\n* liver failu",
+            "endpoints": [
+              "Perioperative respiratory adverse events"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05354466"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "22130869",
+            "title": "Effects of single therapeutic doses of promethazine, fexofenadine and olopatadine on psychomotor function and histamine-induced wheal- and flare-responses: a randomized double-blind, placebo-controlled study in healthy volunteers.",
+            "abstract": "Since most first-generation antihistamines have undesirable sedative effects on the central nervous systems (CNS), newer (second-generation) antihistamines have been developed to improve patients' quality of life. However, there are few reports that directly compare the antihistaminic efficacy and impairment of psychomotor functions. We designed a double-blind, placebo controlled, crossover study to concurrently compare the clinical effectiveness of promethazine, a first-generation antihistamine, and fexofenadine and olopatadine, second-generation antihistamines, by measuring their potency as peripheral inhibitors of histamine-induced wheal and flare. Further, we investigated their sedative effects on the CNS using a battery of psychomotor tests. When single therapeutic doses of fexofenadine (60 mg), olopatadine (5 mg) and promethazine (25 mg) were given in a double-blind manner to 24 healthy volunteers, all antihistamines produced a significant reduction in the wheal and flare respons",
+            "journal": "Archives of dermatological research",
+            "year": "2012",
+            "authors": [
+              "Kamei Hiroyuki",
+              "Isaji Ami",
+              "Noda Yukihiro",
+              "Ishikawa Kazuhiro",
+              "Senzaki Koji"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Dibenzoxepins",
+              "Double-Blind Method",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Male",
+              "Olopatadine Hydrochloride",
+              "Promethazine",
+              "Pruritus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22130869/"
+          },
+          {
+            "pmid": "26844217",
+            "title": "Anaphylaxis audit in a busy metropolitan Emergency Department: a review of real life management compared to best practice.",
+            "abstract": "Deficiencies in anaphylaxis management in Emergency Departments is well recognised despite established guidelines for its treatment.",
+            "journal": "Asia Pacific allergy",
+            "year": "2016",
+            "authors": [
+              "Murad Ari",
+              "Katelaris Constance Helen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26844217/"
+          },
+          {
+            "pmid": "1453998",
+            "title": "Scombroid poisoning. A report of seven cases involving the Western Australian salmon, Arripis truttaceus.",
+            "abstract": "To present the clinical findings of scombroid poisoning due to ingestion of the Western Australian salmon, Arripis truttaceus, occurring in two separate outbreaks involving seven patients. Both outbreaks occurred in March and the fish had been caught in South Australian waters.",
+            "journal": "The Medical journal of Australia",
+            "year": "1992",
+            "authors": [
+              "Smart D R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Animals",
+              "Child",
+              "Erythema",
+              "Female",
+              "Flushing",
+              "Food Contamination",
+              "Foodborne Diseases",
+              "Headache"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1453998/"
+          },
+          {
+            "pmid": "736582",
+            "title": "Photoallergic urticaria induced by visible light. Additional cases and further studies.",
+            "abstract": "Four patients with solar urticaria induced by visible light developed an urticarial wheal at the site of injection of their own serum, which previously had been exposed to light in vitro. The in vitro-irradiated patients' sera did not produce the urticarial response in normal control subjects. Direct passive transfer studies with the patients' sera yeilded positive results, while reverse passive transfer studies showed negative results. Based on the experimental data, the patients' conditions might be induced by an allergic mechanism in which a circulating photoallergen appears to be an etiologic factor. One of the patients demonstrated an urticarial reaction at the site of injection of in vitro-irradiated normal serum as well as his own serum. The urticaria formation was blocked by intradermal injection of epinephrine but not by local injection of antihistamines. The repeated exposures to light had a beneficial effect on wheal formation in all cases.",
+            "journal": "Archives of dermatology",
+            "year": "1978",
+            "authors": [
+              "Horio T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Allergens",
+              "Diphenhydramine",
+              "Epinephrine",
+              "Humans",
+              "Immunization, Passive",
+              "Light",
+              "Male",
+              "Middle Aged",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/736582/"
+          },
+          {
+            "pmid": "12368120",
+            "title": "Acute allergic reaction following contact with a spider.",
+            "abstract": "Allergic reactions following contact or injury from arachnids are uncommon. There have previously only been reports of urticarial reactions following contact with large spiders from the family Theraphosidae. A 55-year-old male presented to hospital with a generalised urticarial rash following contact with a spider, identified by the person as a huntsman spider (Family: Sparassidae). The spider had crawled over both his arms for a period of minutes. About 30 min later, he developed a rash on the arms which spread to the trunk. He then developed bradycardia and hypotension that required treatment with atropine, adrenaline and histamine antagonists. He recovered within 6 h and had no further problems. The early allergic reaction in this case was most likely the result of contact with the spider.",
+            "journal": "Toxicon : official journal of the International Society on Toxinology",
+            "year": "2002",
+            "authors": [
+              "Isbister Geoffrey K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dermatitis, Allergic Contact",
+              "Drug Therapy, Combination",
+              "Epinephrine",
+              "Exanthema",
+              "Humans",
+              "Hydrocortisone",
+              "Injections, Intravenous",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12368120/"
+          },
+          {
+            "pmid": "27725018",
+            "title": "Angio-oedema associated with colistin.",
+            "abstract": "A 50-year-old woman known to have type 1 diabetes mellitus presented with a rare case of angio-oedema associated with colistin use. The angio-oedema was temporally associated with the use and discontinuation of colistin with the reasonable exclusion of important differential diagnoses. Pseudoallergy may be a probable underlying mechanism. However, we cannot exclude the possibility of hereditary angio-oedema type 2 or 3, or that her concomitant medications (particularly enalapril) and her renal impairment contributed to the risk and severity of her angio-oedema.",
+            "journal": "South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde",
+            "year": "2016",
+            "authors": [
+              "Abulfathi A A",
+              "Greyling T",
+              "Makiwane M",
+              "Esser M",
+              "Decloedt E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acinetobacter baumannii",
+              "Angioedema",
+              "Anti-Allergic Agents",
+              "Anti-Bacterial Agents",
+              "Colistin",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Hydrocortisone",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27725018/"
+          },
+          {
+            "pmid": "19797416",
+            "title": "Successful desensitization protocol for hypersensitivity reaction caused by sunitinib in a patient with a gastrointestinal stromal tumor.",
+            "abstract": "Sunitinib is an orally bioavailable small molecule that inhibits multiple receptor tyrosine kinases. Generalized hypersensitivity reactions (HSR) to sunitinib have not been described. A patient with a gastrointestinal stromal tumor (GIST) who developed a type I HSR to sunitinib and who was successfully treated by drug desensitization is reported. A 51-year-old man with metastatic GIST developed a type I HSR during sunitinib treatment. Four days after treatment initiation, the patient presented to the Emergency Department with acute generalized urticaria and facial and throat swelling. Sunitinib was restarted 1 week later, using a desensitization protocol in which 10 escalating reduced doses, beginning with 0.05 mg, were given following pre-medication with prednisone and promethazine. This protocol was well tolerated and allowed us to continue the treatment, obtaining partial remission of the liver metastasis that was followed by complete resection. Sunitinib was temporarily discontinue",
+            "journal": "Japanese journal of clinical oncology",
+            "year": "2010",
+            "authors": [
+              "Bar-Sela Gil",
+              "Kedem Eynat",
+              "Hadad Salim",
+              "Pollack Shimon",
+              "Haim Nissim"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Anti-Allergic Agents",
+              "Anti-Inflammatory Agents",
+              "Antineoplastic Agents",
+              "Desensitization, Immunologic",
+              "Drug Hypersensitivity",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Indoles",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19797416/"
+          },
+          {
+            "pmid": "15861",
+            "title": "[Phencarol--an antihistaminic preparation from the quinuclidylcarbinol group].",
+            "abstract": "A high antihistaminic activity of quinuclidyl-3-diphenylcarbinol (phencarol) has been ascertained. In pharmacological experiments phencarol is superior to dimedrol (diphenhydramine), both as concerns its antihistaminic activity and the duration of its action. Unlike dimedrol and diprazine (promethazine) it has no inhibitory effect on the central nervous system. With its clinical use phencarol is effective in treating urticaria, Quincke's edema and allergic skin reactions. The drug is well tolerated by the patients and does not produce any inhibitory or soporific action. Phencarol has an authorized permission to be used for medical purposes.",
+            "journal": "Farmakologiia i toksikologiia",
+            "year": "1977",
+            "authors": [
+              "Kaminka W E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Anaphylaxis",
+              "Animals",
+              "Barbiturates",
+              "Behavior, Animal",
+              "Benzhydryl Compounds",
+              "Brain",
+              "Bronchi",
+              "Cats",
+              "Central Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15861/"
+          },
+          {
+            "pmid": "4402272",
+            "title": "[Use of antihistaminic drugs in the treatment of allergic rhinopathies].",
+            "abstract": "",
+            "journal": "Oto-rino-laringologie",
+            "year": "1972",
+            "authors": [
+              "Dobrescu D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angioedema",
+              "Benzyl Compounds",
+              "Drug Eruptions",
+              "Eczema",
+              "Ethylamines",
+              "Ethylenediamines",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Migraine Disorders",
+              "Parasympatholytics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4402272/"
+          },
+          {
+            "pmid": "13831219",
+            "title": "[Quincke's edema according to material of the allergic dispensary of the 1st Clinic of Internal Diseases of the Academy of Medicine in Gdansk].",
+            "abstract": "",
+            "journal": "Polskie Archiwum Medycyny Wewnetrznej",
+            "year": "1961",
+            "authors": [
+              "ROMANSKI B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Academies and Institutes",
+              "Angioedema",
+              "Humans",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13831219/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.9687362909317015,
+        "txgnn_rank": 21720,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "4396149",
+            "title": "Data regarding the problem of physical allergies.",
+            "abstract": "",
+            "journal": "Allergie und Asthma",
+            "year": "1970",
+            "authors": [
+              "Brassai Z",
+              "Hadnagy C",
+              "Horváth E",
+              "Nagy L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetylcholine",
+              "Acetylcholinesterase",
+              "Adolescent",
+              "Adult",
+              "Antibodies",
+              "Atropine",
+              "Chlorpromazine",
+              "Cold Temperature",
+              "Desensitization, Immunologic",
+              "Drug Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4396149/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhinitis",
+        "txgnn_score": 0.9415854215621948,
+        "txgnn_rank": 28520,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05586477",
+            "title": "Does Diphenhydramine Alter Thermoregulatory Responses During Exercise?",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2022-11-21",
+            "completion_date": "2023-06-23",
+            "country": "Canada",
+            "enrollment": 20,
+            "brief_summary": "In 2012, it was estimated that nearly 1 in 4 Canadians suffer from allergic rhinitis. To add, 78% of individuals working in predisposing environments are predicted to develop occupational rhinitis. Currently, the most popular treatment for rhinitis is antihistamine medication such as diphenhydramine, a first-generation antihistamine sold commercially as Benadryl®. Due it its anticholinergic effects, diphenhydramine has been suggested to impair the whole body sweating response during heat stress,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Able to safely perform \\~60 minutes of moderate intensity exercise\n* No known hypersensitivity to diphenhydramine\n* Not on any prescribed medication\n* Body-mass index (BMI) less than 30\n\nExclusion Criteria:\n\n* Outside 18 - 49 years of age\n* Diagnosed with any cardiovascular, r",
+            "endpoints": [
+              "Whole body sweat loss"
+            ],
+            "sponsor": "Lakehead University",
+            "url": "https://clinicaltrials.gov/study/NCT05586477"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00648973",
+            "title": "Evaluation of Nasal Congestion Clinical Efficacy for Diphenhydramine 25 mg and Diphenhydramine 50 mg in Seasonal Allergic Rhinitis: a Randomized, Double-blind, Placebo and Pseudoephedrine Controlled Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-11",
+            "completion_date": "2007-05",
+            "country": "United States",
+            "enrollment": 1021,
+            "brief_summary": "The study was to determine if the drug worked to relieve nasal congestion experienced by people with seasonal allergies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* otherwise healthy males and females\n* 12 to 65 years of age\n* hypersensitivity to specific pollens for a minimum of 2 years prior to study start\n* appropriate SAR sign/symptoms scores\n\nExclusion Criteria:\n\n* pregnancy, lactation and contraception issues\n* contraindicated medic",
+            "endpoints": [
+              "Change from baseline in the subject's mean reflective nasal congestion/stuffiness symptom score"
+            ],
+            "sponsor": "Johnson & Johnson Consumer and Personal Products Worldwide",
+            "url": "https://clinicaltrials.gov/study/NCT00648973"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00599872",
+            "title": "Parallel, Randomized, Double-Blind, Placebo-Controlled Trial in Adults for the Sublingual-Oral Immunotherapy (SLIT) of Allergic Rhinoconjunctivitis With or Without Asthma Caused By Ragweed Pollen",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-03",
+            "completion_date": "2008-12",
+            "country": "United States",
+            "enrollment": 430,
+            "brief_summary": "The purpose of this study is to determine an effective dose range for the administration of ragweed allergenic extract via the sublingual route of administration",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult ragweed-sensitive Subjects with allergic rhinoconjunctivitis with or without asthma during ragweed pollen season.\n* Subjects must be 18 to 50 years of age.\n* Test Subjects will have a history of moderate to severe isolated or unseasonal allergic rhinoconjunctivitis with ",
+            "endpoints": [
+              "Scores on a Scale (Average of Daily Rhinoconjunctivitis Symptom Score (RSS) Recorded During the Ragweed Season"
+            ],
+            "sponsor": "Greer Laboratories",
+            "url": "https://clinicaltrials.gov/study/NCT00599872"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06217367",
+            "title": "Do Common Over-the-counter Antihistamine Medications Modify Thermoregulatory Responses During Passive Heat Stress?",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2023-12-05",
+            "completion_date": "2024-06",
+            "country": "Canada",
+            "enrollment": 16,
+            "brief_summary": "Allergic rhinitis (AR) currently affects \\~25% of Canadians, and due to factors of climate change, this number is expected to increase over the coming decade. AR symptoms can significantly impact individuals' quality of life by compromising sleep, productivity, and social interactions. To alleviate AR symptoms, North Americans tend to rely on H1 antihistamine medications available over-the-counter (OTC) at most pharmacies. However, public health authorities currently suggest restraining all anti",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or Female between ages 19 and 39 years\n* Fully vaccinated against COVID-19\n* Able to provide informed consent\n* Body-mass index under 30\n\nExclusion Criteria:\n\n* Body-mass index over 30\n* Currently taking sedative or autonomic nervous system depressant medication\n* Hyperse",
+            "endpoints": [
+              "Whole-Body Sweat Losses",
+              "Skin Blood Flow",
+              "Heart Rate"
+            ],
+            "sponsor": "Lakehead University",
+            "url": "https://clinicaltrials.gov/study/NCT06217367"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00762749",
+            "title": "An Open-Label, Single-Dose Study Evaluating the Pharmacokinetics of Diphenhydramine in Children and Adolescents",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2008-09",
+            "completion_date": "2008-11",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "To characterize the pharmacokinetics of diphenhydramine in two pediatric populations: children, ages 2 to \\< 12 years, and adolescents, ages 12 to \\< 18 years.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female children and adolescents, ages 2 to \\< 18 years, with a minimum weight of 24 pounds will be eligible to participate. In addition, each subject will be \\> 5th percentile and \\< 95th percentile for weight based on age and gender.\n* Subjects will have a body mass ",
+            "endpoints": [
+              "Pharmacokinetic parameters"
+            ],
+            "sponsor": "Johnson & Johnson Consumer and Personal Products Worldwide",
+            "url": "https://clinicaltrials.gov/study/NCT00762749"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01177852",
+            "title": "Multicenter Clinical Trial, Phase III, Controlled, Open, Parallel Group, Randomized, Comparing the Fixed Dose Combination of Diphenhydramine + Dropropizine + Pseudoephedrine and the Combined Use of Dropropizine and Fixed Dose Combination of Pseudoephedrine Hydrochloride + Brompheniramine Maleate Used Orally for Evaluation of Efficacy and Safety in Control Cough and the Relief of Nasal Symptoms in Children 2 to 12 Years Old, Suffering From Non-productive Cough and Acute Rhinitis.",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2011-10",
+            "completion_date": "",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "Multicenter clinical trial, phase III, controlled by active medicine, open, randomized, enroll 962 children, 2 to 12 years old, that suffer acute inflammation upper airway characterized by non-productive cough, daytime/nighttime, with duration for at least 3 and no more than 5 consecutive days (without systemic/topic use of medication during this period) followed by nasal congestion, with or without associate other nasal symptoms (sneezing, runny nose, nasal itching and/or mouth breathing). The ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients between 2 and 12 years old, of both sexes;\n2. Clinical condition compatible with acute rhinitis accompanied by nasal obstruction;\n3. Non-productive cough, daytime and/or nighttime with at least 3 and up 5 consecutive days in duration;\n4. Score greater than or equal t",
+            "endpoints": [
+              "Improvement of nasal congestion and cough"
+            ],
+            "sponsor": "Ache Laboratorios Farmaceuticos S.A.",
+            "url": "https://clinicaltrials.gov/study/NCT01177852"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01199497",
+            "title": "Multicenter Clinical Trial Phase III, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Fixed Dose Combination of Diphenhydramine + Pseudoephedrine + Dropropizine in the Control of Cough and the Relief of Nasal Symptoms in Subjects Above 12 Years of Age, Suffering From Non-productive Cough and Acute Rhinitis.",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2011-08",
+            "completion_date": "2013-01",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "Multicenter clinical trial, phase III, controlled by active medicine, double-blind, randomized, enroll 208 subjects, above 12 years old, that suffer acute inflammation upper airway characterized by non-productive cough, daytime/nighttime, with duration for at least 3 and no more than 5 consecutive days (without systemic/topic use of medication during this period) followed by nasal congestion, with or without associate other nasal symptoms (sneezing, runny nose, nasal itching and/or mouth breathi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients over 12 years old, of both sexes;\n2. Clinical condition compatible with acute rhinitis accompanied by nasal congestion;\n3. Non-productive cough, daytime and/or nighttime with at least 3 and up 5 consecutive days in duration;\n4. Score greater than or equal to 3 points",
+            "endpoints": [
+              "Primary efficacy criteria"
+            ],
+            "sponsor": "Ache Laboratorios Farmaceuticos S.A.",
+            "url": "https://clinicaltrials.gov/study/NCT01199497"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24791618",
+            "title": "Drowsiness and motor responses to consecutive daily doses of promethazine and loratadine.",
+            "abstract": "Limited information is available regarding sedation and motor function following repeat dosing of antihistamines. This study examined how promethazine and loratadine affect day-time drowsiness, the commencement of voluntary movement, and involuntary movement when administered on consecutive days.",
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2014",
+            "authors": [
+              "Baumann-Birkbeck Lyndsee",
+              "Grant Gary D",
+              "Anoopkumar-Dukie Shailendra",
+              "Kavanagh Justin J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Loratadine",
+              "Male",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791618/"
+          },
+          {
+            "pmid": "38746603",
+            "title": "WHAT IS THE RELATIONSHIP BETWEEN A GYNECOLOGIST/OBSTETRICIAN AND THE AIRWAY?",
+            "abstract": "Physiological changes in pregnancy as part of biohumoral and morphological changes (hyperemia, edema, hypersecretion) influence the possible problems in obstetric anesthesia. These changes by themselves, and particularly aggravated by acute or chronic gestational or non-gestational comorbidity, increase the risk of aspiration of gastric contents, failed intubation, esophageal intubation, inadequate ventilation, and respiratory failure. The types of premedication, anesthesia and techniques of anesthesia are evident from medical historiography. Almost obligatory promethazine and atropine was given intravenously either in the delivery room or on the operating table immediately before the induction of anesthesia in a dose of 0.5 mg in partuients of average body weight. Atropine has been a favorite premedicant for decades, given its pharmacological properties, especially its antisialogenic effect and absence of a depressant effect on the fetoplacental unit, but today it is rarely used. Nasa",
+            "journal": "Acta clinica Croatica",
+            "year": "2023",
+            "authors": [
+              "Habek Dubravko",
+              "Miletić Antonio Ivan",
+              "Medić Filip"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Pregnancy",
+              "Anesthesia, Obstetrical",
+              "Obstetrics",
+              "Gynecology",
+              "Gynecologists",
+              "Obstetricians"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38746603/"
+          },
+          {
+            "pmid": "22130869",
+            "title": "Effects of single therapeutic doses of promethazine, fexofenadine and olopatadine on psychomotor function and histamine-induced wheal- and flare-responses: a randomized double-blind, placebo-controlled study in healthy volunteers.",
+            "abstract": "Since most first-generation antihistamines have undesirable sedative effects on the central nervous systems (CNS), newer (second-generation) antihistamines have been developed to improve patients' quality of life. However, there are few reports that directly compare the antihistaminic efficacy and impairment of psychomotor functions. We designed a double-blind, placebo controlled, crossover study to concurrently compare the clinical effectiveness of promethazine, a first-generation antihistamine, and fexofenadine and olopatadine, second-generation antihistamines, by measuring their potency as peripheral inhibitors of histamine-induced wheal and flare. Further, we investigated their sedative effects on the CNS using a battery of psychomotor tests. When single therapeutic doses of fexofenadine (60 mg), olopatadine (5 mg) and promethazine (25 mg) were given in a double-blind manner to 24 healthy volunteers, all antihistamines produced a significant reduction in the wheal and flare respons",
+            "journal": "Archives of dermatological research",
+            "year": "2012",
+            "authors": [
+              "Kamei Hiroyuki",
+              "Isaji Ami",
+              "Noda Yukihiro",
+              "Ishikawa Kazuhiro",
+              "Senzaki Koji"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Dibenzoxepins",
+              "Double-Blind Method",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Male",
+              "Olopatadine Hydrochloride",
+              "Promethazine",
+              "Pruritus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22130869/"
+          },
+          {
+            "pmid": "12113215",
+            "title": "Antiallergic anti-inflammatory effects of H1-antihistamines in humans.",
+            "abstract": "Data from in vitro, in vivo, and ex vivo studies suggest that second-generation antihistamines have a number of antiallergic, anti-inflammatory properties that appear to be independent of their H1-blockade activity. First-generation antihistamines also have antiallergic, anti-inflammatory properties, as suggested by the studies with azatadine, chlorpheniramine, mepyramine, and promethazine; most other first-generation antihistamines have not been studied for these properties. In vitro studies have shown that H1-antihistamines reduce the release of proinflammatory mediators from mast cells and basophils, the chemotaxis and activation of inflammatory cells (especially eosinophils), and the expression of adhesion molecules induced by immunological and nonimmunological stimuli in epithelial cell lines. Nasal allergen challenge models have similarly demonstrated that H1-antihistamines inhibit mediator release from mast cells and basophils, and that they decrease inflammatory cell infiltrati",
+            "journal": "Clinical allergy and immunology",
+            "year": "2002",
+            "authors": [
+              "Assanasen Paraya",
+              "Naclerio Robert M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Allergic Agents",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Rhinitis, Allergic, Perennial",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12113215/"
+          },
+          {
+            "pmid": "14175878",
+            "title": "THE TREATMENT OF ALLERGIC RHINITIS.",
+            "abstract": "Allergic inflammation of the nasal mucous membranes, like other atopic disorders, occurs primarily as the result of an antigenantibody reaction between external allergens and circulating skin-sensitizing antibodies. In addition, the disease process is frequently complicated by bacterial or viral infection. Effective treatment of allergic rhinitis, therefore, consists of: (1) changing the patient's environment in order to remove the offending allergens, (2) removing the patient from his environment, (3) altering the patient's response to environmental allergens by means of hyposensitization injections, (4) suppressing the allergic reaction with drugs, and (5) eliminating bacterial infection. Usually more than one of these therapeutic measures is required for the individual patient.",
+            "journal": "Canadian Medical Association journal",
+            "year": "1964",
+            "authors": [
+              "FREEDMAN S O"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Desensitization, Immunologic",
+              "Diphenhydramine",
+              "Environment",
+              "Humans",
+              "Hypersensitivity",
+              "Immunotherapy, Active",
+              "Injections",
+              "Pheniramine",
+              "Prednisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14175878/"
+          },
+          {
+            "pmid": "17089107",
+            "title": "Impact of CYP2D6*10 on H1-antihistamine-induced hypersomnia.",
+            "abstract": "This study investigated the relevance of the cytochrome P450 (CYP) 2D6 genotype to the adverse drug reactions (ADRs) of H1-antihistamines and the level of sedation.",
+            "journal": "European journal of clinical pharmacology",
+            "year": "2006",
+            "authors": [
+              "Saruwatari Junji",
+              "Matsunaga Masayuki",
+              "Ikeda Kazuyuki",
+              "Nakao Masashi",
+              "Oniki Kentaro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Asian People",
+              "Chlorpheniramine",
+              "Clemastine",
+              "Cytochrome P-450 CYP2D6",
+              "Disorders of Excessive Somnolence",
+              "Fatigue",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Gene Frequency",
+              "Genetic Testing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17089107/"
+          },
+          {
+            "pmid": "13593960",
+            "title": "Secretory otitis media and nasal allergy; preliminary report of sixty-six patients treated with promethazine.",
+            "abstract": "",
+            "journal": "A.M.A. archives of otolaryngology",
+            "year": "1958",
+            "authors": [
+              "WEEKES D J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hyperthermia, Induced",
+              "Otitis Media",
+              "Otitis Media with Effusion",
+              "Promethazine",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13593960/"
+          },
+          {
+            "pmid": "2896668",
+            "title": "A study of prescribed H1-antihistamine preparations over a period of 12 months in community pharmacy.",
+            "abstract": "A survey on the prescribing pattern of H1-antihistamine preparations was carried out in four socio-economic areas in Liverpool: the City Centre, an Affluent Area, a Poor area and a Council Estate. The purpose of this study was to find out which H1-antihistamines were prescribed from the wide range available; to discover if there was a trend in the use of these agents over a 12-month period and to suggest possible explanations for these findings. The majority of H1-antihistamine preparations were prescribed in the Affluent Area followed by the City Centre, Poor Area and the Council Estate. In all four areas, over 7.0% of all total items dispensed in a year contained H1-antihistamine drugs, and the lowest use (3.7-9.2%) fell in the summer months while the highest use was in January (8.2-14.1% of items containing H1-antihistamine dispensed per month). Thus the general trend in the use of these drugs may not follow the trend of the hay fever season and it is probably true that H1-antihista",
+            "journal": "Journal of clinical pharmacy and therapeutics",
+            "year": "1987",
+            "authors": [
+              "Chan K",
+              "Chan G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dosage Forms",
+              "Drug Prescriptions",
+              "Drug Utilization",
+              "Histamine H1 Antagonists",
+              "Rural Population",
+              "Seasons",
+              "Social Class",
+              "Urban Population"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2896668/"
+          },
+          {
+            "pmid": "568438",
+            "title": "Chronic rhinitis in the pre-school child.",
+            "abstract": "The etiologic role of atopy in chronic rhinitis in 40 infants and pre-school children was investigated and the long-term effectiveness and safety of promethazine studied during six to 48 months. Twenty children were clearly atopic and 16 were not. Four had incomplete laboratory evidence of atopy. In addition to clinical histories and physical findings, the subjects were evaluated by skin tests for common allergens. RAST tests, total IgE levels and absolute eosinophil counts. Promethazine in doses of 3 to 12 mg/kg/day (mean 8 mg) was administered in divided doses, four times a day for perennial rhinitis and on \"as required\" basis for recurrent and seasonal rhinitis. Side effects included drowsiness and irritability, which led to discontinuance of promethazine in one subject. There was no laboratory evidence of hematologic, renal or hepatic abnormalities. Promethazine was found to be an effective agent for symptom-control of chronic rhinitis in the pre-school child.",
+            "journal": "Annals of allergy",
+            "year": "1978",
+            "authors": [
+              "Hyde J S",
+              "Arora N V",
+              "Kumar C M",
+              "Moore B S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Asthma",
+              "Child",
+              "Child, Preschool",
+              "Chronic Disease",
+              "Humans",
+              "Hypersensitivity, Immediate",
+              "Immunoglobulin E",
+              "Infant",
+              "Promethazine",
+              "Radioallergosorbent Test"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/568438/"
+          },
+          {
+            "pmid": "38967232",
+            "title": "Correlation between the expression of the iNOS, caspase-3 and α-SMA genes in the parotid glands of albino rats following the administration of two antihistamines from two different generations.",
+            "abstract": "Several medications, including antihistamines, can alter salivary gland function, causing dry mouth or xerostomia. Antihistamines are commonly used for treating allergic rhinitis.",
+            "journal": "Dental and medical problems",
+            "year": "2024",
+            "authors": [
+              "Rady Dina",
+              "Abbass Marwa Magdy",
+              "Hakam Heba",
+              "Rady Rasha",
+              "Aboushady Iman"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Rats",
+              "Male",
+              "Nitric Oxide Synthase Type II",
+              "Parotid Gland",
+              "Caspase 3",
+              "Actins",
+              "Cetirizine",
+              "Histamine H1 Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38967232/"
+          },
+          {
+            "pmid": "4600134",
+            "title": "Decongestion of nasal mucous membranes by oral medication in acute rhinitis. A rhinomanometric study to demonstrate synergism between antihistamines and adrenergic substance.",
+            "abstract": "",
+            "journal": "Acta oto-laryngologica",
+            "year": "1974",
+            "authors": [
+              "Aschan G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Oral",
+              "Aerosols",
+              "Airway Obstruction",
+              "Clemastine",
+              "Clinical Trials as Topic",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Ephedrine",
+              "Histamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4600134/"
+          },
+          {
+            "pmid": "14140932",
+            "title": "[APROPOS OF A NEW ANTITUSSIVE SYRUP: BEXOL].",
+            "abstract": "",
+            "journal": "Gazette medicale de France",
+            "year": "1964",
+            "authors": [
+              "KERAVEC J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antitussive Agents",
+              "Bronchitis",
+              "Child",
+              "Codeine",
+              "Humans",
+              "Laryngeal Neoplasms",
+              "Laryngitis",
+              "Pharyngeal Neoplasms",
+              "Pharyngitis",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14140932/"
+          },
+          {
+            "pmid": "4928480",
+            "title": "[Oral medication in allergic rhinitis].",
+            "abstract": "",
+            "journal": "Lakartidningen",
+            "year": "1971",
+            "authors": [
+              "Jungert S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Amino Alcohols",
+              "Clinical Trials as Topic",
+              "Drug Synergism",
+              "Ephedrine",
+              "Humans",
+              "Phenethylamines",
+              "Phenylpropanolamine",
+              "Placebos",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4928480/"
+          },
+          {
+            "pmid": "4383828",
+            "title": "Hay fever and allergy in general practice: two antihistamine drugs compared.",
+            "abstract": "",
+            "journal": "The British journal of clinical practice",
+            "year": "1967",
+            "authors": [
+              "Gomez J",
+              "Gomez G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Chlorpheniramine",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4383828/"
+          },
+          {
+            "pmid": "1299167",
+            "title": "Specific immunotherapy stimulates the binding of histamine H2 receptor antagonist by lymphocytes.",
+            "abstract": "The binding of antagonists of histamine receptors H1 (promethazine) and H2 (ranitidine) by peripheral blood lymphocytes from pollinotics was determined before and after the course of immunotherapy. We found that lymphocytes from atopic subjects showed significant decrease in the binding of H2 receptor antagonist as compared to control subjects. Specific immunotherapy induced statistically significant increase in H2 receptor antagonist binding, which correlated with the improvement of clinical symptoms.",
+            "journal": "Archivum immunologiae et therapiae experimentalis",
+            "year": "1992",
+            "authors": [
+              "Zak-Nejmark T",
+              "Małolepszy J",
+              "Nadobna G",
+              "Kuczyńska-Sekieta K",
+              "Marczyńska-Sarul E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Conjunctivitis, Allergic",
+              "Desensitization, Immunologic",
+              "Humans",
+              "Hypersensitivity, Immediate",
+              "Middle Aged",
+              "Promethazine",
+              "Ranitidine",
+              "Receptors, Histamine H2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1299167/"
+          },
+          {
+            "pmid": "4192879",
+            "title": "[Prothanon eyedrops. 2. Results of clinical test in double-blind experiment].",
+            "abstract": "",
+            "journal": "Die Pharmazie",
+            "year": "1970",
+            "authors": [
+              "Bredemeyer I",
+              "Graupner K",
+              "Hammer R",
+              "Pambor R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Conjunctivitis",
+              "Drug Hypersensitivity",
+              "Humans",
+              "Imidazoles",
+              "Naphazoline",
+              "Naphthalenes",
+              "Nasal Decongestants",
+              "Ophthalmic Solutions",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4192879/"
+          },
+          {
+            "pmid": "4192880",
+            "title": "[Treatment results with dioxopromethazine nose drops].",
+            "abstract": "",
+            "journal": "Die Pharmazie",
+            "year": "1970",
+            "authors": [
+              "Knothe J",
+              "Baerthold W",
+              "Aschoff E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Diphenhydramine",
+              "Histocytochemistry",
+              "Humans",
+              "Imidazoles",
+              "Naphazoline",
+              "Naphthalenes",
+              "Nasal Decongestants",
+              "Nasal Mucosa",
+              "Promethazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4192880/"
+          },
+          {
+            "pmid": "1841552",
+            "title": "Binding of antagonists of H1 and H2 histamine receptors to peripheral blood lymphocytes of atopic and healthy subjects.",
+            "abstract": "The binding of the antagonists of histamine H1 and H2 receptors by peripheral blood lymphocytes from atopic and healthy subjects was investigated. We found that lymphocytes from atopic subjects showed statistically significant decrease in the binding of H2 receptor antagonist - ranitidine. In addition, lymphocytes from atopic and control subjects had similar capacity of binding of H1 receptor antagonist - promethazine. The ratio of the amount of H1 and H2 antagonists, bound to lymphocytes from atopic and healthy subjects, was calculated. The difference between the values in the group of atopic (2.55) and control subjects (1.55) was statistically significant.",
+            "journal": "Archivum immunologiae et therapiae experimentalis",
+            "year": "1991",
+            "authors": [
+              "Zak-Nejmark T",
+              "Małolepszy J",
+              "Osos M",
+              "Nadobna G",
+              "Jutel M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Female",
+              "Humans",
+              "In Vitro Techniques",
+              "Lymphocytes",
+              "Male",
+              "Middle Aged",
+              "Promethazine",
+              "Ranitidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1841552/"
+          },
+          {
+            "pmid": "14044923",
+            "title": "AN EVALUATION OF THE EFFICIENCY OF ANTI-HISTAMINES FOR THE TREATMENT OF HAY-FEVER.",
+            "abstract": "",
+            "journal": "International archives of allergy and applied immunology",
+            "year": "1963",
+            "authors": [
+              "MACAULAY D B",
+              "WILSON C W",
+              "PLACKETT R L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Allergic Agents",
+              "Chlorpheniramine",
+              "Histamine",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Lactose",
+              "Promethazine",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14044923/"
+          },
+          {
+            "pmid": "5422136",
+            "title": "[Prothanon eyedrops. 1. Results of experimental animal and orientative clinical studies].",
+            "abstract": "",
+            "journal": "Die Pharmazie",
+            "year": "1970",
+            "authors": [
+              "Bartsch R",
+              "Graupner K"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthetics, Local",
+              "Animals",
+              "Conjunctivitis",
+              "Cornea",
+              "Drug Hypersensitivity",
+              "Drug Tolerance",
+              "Eye",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Lidocaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5422136/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.93238765001297,
+        "txgnn_rank": 30209,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Angelucci syndrome",
+        "txgnn_score": 0.9320173263549804,
+        "txgnn_rank": 30276,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute hemorrhagic conjunctivitis",
+        "txgnn_score": 0.9296483993530272,
+        "txgnn_rank": 30693,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parasitic conjunctivitis",
+        "txgnn_score": 0.9294538497924804,
+        "txgnn_rank": 30727,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic follicular conjunctivitis",
+        "txgnn_score": 0.9294538497924804,
+        "txgnn_rank": 30726,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "serous conjunctivitis except viral",
+        "txgnn_score": 0.9294538497924804,
+        "txgnn_rank": 30725,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01069",
+    "name": "Promethazine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Promethazine"
+      },
+      "queried_at": "2026-03-09T16:39:30.529218",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Promethazine"
+      },
+      "queried_at": "2026-03-09T16:39:41.546824",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:39:42.140461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:39:46.505818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:39:47.319283",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T16:39:49.177279",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T16:39:53.308261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T16:39:57.837718",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T16:39:58.602615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T16:40:05.564238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T16:40:09.903889",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T16:40:15.937228",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T16:40:21.909180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T16:40:27.098780",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T16:40:28.596952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T16:40:34.045754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T16:40:36.814973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "Angelucci syndrome"
+      },
+      "queried_at": "2026-03-09T16:40:37.710322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "Angelucci syndrome"
+      },
+      "queried_at": "2026-03-09T16:40:42.616623",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "Angelucci syndrome"
+      },
+      "queried_at": "2026-03-09T16:40:44.855750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:40:45.852268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:40:50.621090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:40:51.710713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:40:53.758989",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:40:58.941568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:41:01.614154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:41:03.212667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:41:11.116042",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:41:13.163153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "queried_at": "2026-03-09T16:41:15.009620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "queried_at": "2026-03-09T16:41:20.107571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Promethazine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "queried_at": "2026-03-09T16:41:22.445338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:41:22.448718"
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "drug": {
+    "inn": "Testosterone undecanoate",
+    "drugbank_id": "DB13946",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.9873142838478088,
+        "txgnn_rank": 12608,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "androgen insensitivity syndrome",
+        "txgnn_score": 0.9571743607521056,
+        "txgnn_rank": 24932,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39039878",
+            "title": "[Efficacy of oral testosterone undecanoate in children with androgen insensitivity syndrome].",
+            "abstract": "Objective: To investigate the efficacy and safety of oral testosterone therapy in individuals diagnosed with androgen insensitivity syndrome (AIS). Methods: A self-controlled study design was utilized, focusing on individuals with AIS who were genetically diagnosed at the Department of Endocrinology, Genetics, and Metabolism of Beijing Children's Hospital between 2009 and 2021. These patients underwent treatment involving the administration of testosterone. The primary observed indexes include the measurement of penis length, which should meet the minimal surgical standard (penis length≥2.5 cm) or greater than or equal to -2.5 s (lower limit of normal). Secondary observed indexes include penile length standard deviation score (PL-SDS), an increase in penis longitude (ΔPL), medication dosage, the course of therapy, and safety indicators, among others. There were 4 courses of treatment. After each course, patients were evaluated to determine whether termination of treatment was appropria",
+            "journal": "Zhonghua er ke za zhi = Chinese journal of pediatrics",
+            "year": "2024",
+            "authors": [
+              "Liu Y",
+              "Li L L",
+              "Yuan Z",
+              "Wang X M",
+              "Wang X L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Child",
+              "Testosterone",
+              "Female",
+              "Administration, Oral",
+              "Treatment Outcome",
+              "Androgen-Insensitivity Syndrome",
+              "Adolescent",
+              "Child, Preschool"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39039878/"
+          },
+          {
+            "pmid": "8246276",
+            "title": "Psychosexual functioning in women with complete testicular feminization: is androgen replacement therapy preferable to estrogen?",
+            "abstract": "Effects of oral testosterone undecanoate (Andriol) on blood hormone levels, moods, sociosexual functioning and self-image of the body were studied in four gonadectomized patients with complete testicular feminization. In a double-blind cross-over experiment, patients were treated with oral testosterone undecanoate (120 mg/day) or placebo for four weeks. Peripheral blood was taken for hormone assays at the end of each four-week period. Psychosexual functioning was reported once weekly, mood scales twice weekly. In three patients testosterone treatment resulted in adult male blood levels of testosterone and estradiol. One patient did not show increased steroid levels, possibly because of hyperthyroxinaemia. No systematic effects were found on coitus, masturbation, sexual thoughts, scores on desire for bodily contact, and on attention for physical appearance. In one patient there was a marked and sustained rise in the positive moods and a fall in negative moods during androgen treatment. ",
+            "journal": "Journal of sex & marital therapy",
+            "year": "1993",
+            "authors": [
+              "Slob A K",
+              "van der Werff ten Bosch J J",
+              "van Hall E V",
+              "de Jong F H",
+              "Weijmar Schultz W C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Affect",
+              "Androgen-Insensitivity Syndrome",
+              "Castration",
+              "Estradiol",
+              "Estrogen Replacement Therapy",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Sexual Behavior"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8246276/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Leydig cell hypoplasia due to LH resistance",
+        "txgnn_score": 0.9450489282608032,
+        "txgnn_rank": 27807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "46,XY disorder of sex development due to impaired androgen production",
+        "txgnn_score": 0.9366976618766784,
+        "txgnn_rank": 29411,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "symptomatic form of fragile X syndrome in female carrier",
+        "txgnn_score": 0.9266493320465088,
+        "txgnn_rank": 31241,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharophimosis-epicanthus inversus-ptosis",
+        "txgnn_score": 0.9156973361968994,
+        "txgnn_rank": 33002,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome",
+        "txgnn_score": 0.9088041186332704,
+        "txgnn_rank": 33864,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "telecanthus",
+        "txgnn_score": 0.9057313799858092,
+        "txgnn_rank": 34223,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian hyperstimulation syndrome",
+        "txgnn_score": 0.9050368070602416,
+        "txgnn_rank": 34289,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "partial trisomy/tetrasomy of the short arm of chromosome 5",
+        "txgnn_score": 0.9039396643638612,
+        "txgnn_rank": 34395,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13946",
+    "name": "Testosterone undecanoate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Testosterone undecanoate"
+      },
+      "queried_at": "2026-03-10T06:32:59.846364",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Testosterone undecanoate"
+      },
+      "queried_at": "2026-03-10T06:33:01.924419",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T06:33:02.509673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T06:33:05.714167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T06:33:06.358665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "androgen insensitivity syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:06.959204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "androgen insensitivity syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:10.024107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "androgen insensitivity syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:11.962881",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "Leydig cell hypoplasia due to LH resistance"
+      },
+      "queried_at": "2026-03-10T06:33:12.473255",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "Leydig cell hypoplasia due to LH resistance"
+      },
+      "queried_at": "2026-03-10T06:33:15.934020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "Leydig cell hypoplasia due to LH resistance"
+      },
+      "queried_at": "2026-03-10T06:33:16.580469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "46,XY disorder of sex development due to impaired androgen production"
+      },
+      "queried_at": "2026-03-10T06:33:17.206918",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "46,XY disorder of sex development due to impaired androgen production"
+      },
+      "queried_at": "2026-03-10T06:33:20.460588",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "46,XY disorder of sex development due to impaired androgen production"
+      },
+      "queried_at": "2026-03-10T06:33:21.131537",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "queried_at": "2026-03-10T06:33:21.660832",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "queried_at": "2026-03-10T06:33:24.924109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "queried_at": "2026-03-10T06:33:25.657315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis"
+      },
+      "queried_at": "2026-03-10T06:33:26.139077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis"
+      },
+      "queried_at": "2026-03-10T06:33:31.692105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis"
+      },
+      "queried_at": "2026-03-10T06:33:32.565712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:33.212647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:36.211164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:37.017742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "telecanthus"
+      },
+      "queried_at": "2026-03-10T06:33:37.641381",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "telecanthus"
+      },
+      "queried_at": "2026-03-10T06:33:41.711258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "telecanthus"
+      },
+      "queried_at": "2026-03-10T06:33:42.407049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "ovarian hyperstimulation syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:42.909457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "ovarian hyperstimulation syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:47.809284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "ovarian hyperstimulation syndrome"
+      },
+      "queried_at": "2026-03-10T06:33:48.461164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      },
+      "queried_at": "2026-03-10T06:33:49.333063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      },
+      "queried_at": "2026-03-10T06:33:53.236600",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Testosterone undecanoate",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      },
+      "queried_at": "2026-03-10T06:33:54.164083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:33:54.165838"
+  }
+}

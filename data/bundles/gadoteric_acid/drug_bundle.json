@@ -1,0 +1,561 @@
+{
+  "drug": {
+    "inn": "Gadoteric acid",
+    "drugbank_id": "DB09132",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.9857057332992554,
+        "txgnn_rank": 13771,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.98391854763031,
+        "txgnn_rank": 14866,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9821473360061646,
+        "txgnn_rank": 15941,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1727317",
+            "title": "Juvenile rheumatoid arthritis of the knee: MR evaluation with Gd-DOTA.",
+            "abstract": "Synovial hypertrophy, effusion, and articular cartilage status were evaluated with gadolinium tetraazacyclododecanetetraacetic acid (DOTA)-enhanced magnetic resonance (MR) imaging in 24 knees in 24 pediatric patients (17 female, seven male; mean age, 10 years; range, 3-18 years) with juvenile rheumatoid arthritis (JRA). T1-weighted spin-echo sequences were performed with a 0.5-T unit before and immediately after injection of Gd-DOTA (0.1 mmol/kg). Substantial enhancement of synovial proliferation was seen in 23 of 24 knees, allowing precise assessment of pannus extension (n = 23), joint effusion (n = 21), cartilage loss (n = 21), and meniscal hypotrophy (n = 23). On T1-weighted images without contrast enhancement, cartilage thickness, loculation of joint effusion, and pannus extension were underestimated. Thus, Gd-DOTA-enhanced MR imaging is mandatory in the assessment of knee involvement in children with JRA and may prove to be useful in the evaluation of response to therapy.",
+            "journal": "Radiology",
+            "year": "1992",
+            "authors": [
+              "Hervé-Somma C M",
+              "Sebag G H",
+              "Prieur A M",
+              "Bonnerot V",
+              "Lallemand D P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Juvenile",
+              "Child",
+              "Contrast Media",
+              "Evaluation Studies as Topic",
+              "Female",
+              "Heterocyclic Compounds",
+              "Humans",
+              "Knee",
+              "Knee Joint",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1727317/"
+          },
+          {
+            "pmid": "2115261",
+            "title": "MR imaging of the knee in acute rheumatoid arthritis: synovial uptake of gadolinium-DOTA.",
+            "abstract": "In patients with rheumatoid arthritis, the presence of acute synovial inflammation is an indication of the activity of the disease. It is an important finding because it often influences therapeutic decisions. However, acute synovitis may be difficult to detect by clinical examination, especially if a joint effusion also is present. As gadolinium tetra-azacyclododecane tetraacetic acid (Gd-DOTA) can be expected to accumulate in areas of acute inflammation, we studied the value of Gd-DOTA-enhanced MR to determine the presence of acute synovitis. Nine patients with current knee symptoms underwent MR examination of the knee. Short and long TR/TE MR images were obtained with a 0.3-T magnet before and immediately after IV administration of Gd-DOTA. A 15-min delayed short TR/TE image also was obtained. Of eight patients with moderate to severe clinical evidence of acute synovitis, six had marked increase and two had moderate increase in signal intensity from synovial tissue on the short TR/T",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "1990",
+            "authors": [
+              "Björkengren A G",
+              "Geborek P",
+              "Rydholm U",
+              "Holtås S",
+              "Petterson H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Arthritis, Rheumatoid",
+              "Contrast Media",
+              "Female",
+              "Gadolinium",
+              "Heterocyclic Compounds",
+              "Humans",
+              "Knee",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2115261/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.97797292470932,
+        "txgnn_rank": 17995,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic porphyria",
+        "txgnn_score": 0.9771526455879213,
+        "txgnn_rank": 18367,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9765591621398926,
+        "txgnn_rank": 18627,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9762598276138306,
+        "txgnn_rank": 18758,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9748809933662416,
+        "txgnn_rank": 19378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9738216996192932,
+        "txgnn_rank": 19774,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9737640023231506,
+        "txgnn_rank": 19804,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09132",
+    "name": "Gadoteric acid",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gadoteric acid"
+      },
+      "queried_at": "2026-03-10T06:57:37.274935",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gadoteric acid"
+      },
+      "queried_at": "2026-03-10T06:57:43.361271",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T06:57:44.061321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T06:57:47.134736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T06:57:47.858862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T06:57:48.510980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T06:57:51.328234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T06:57:52.206544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:57:53.052011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:57:56.410312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:57:59.541350",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T06:58:00.454507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T06:58:04.057790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T06:58:04.981199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T06:58:05.702965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T06:58:09.739631",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T06:58:10.814149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T06:58:11.370390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T06:58:14.758308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T06:58:15.465228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T06:58:16.184276",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T06:58:19.458125",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T06:58:20.117828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T06:58:20.620483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T06:58:23.829731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T06:58:24.456307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T06:58:25.008500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T06:58:28.164075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T06:58:28.884422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T06:58:29.409057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T06:58:32.813257",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gadoteric acid",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T06:58:33.791877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:58:33.806114"
+  }
+}

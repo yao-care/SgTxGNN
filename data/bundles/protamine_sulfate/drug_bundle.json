@@ -1,0 +1,1064 @@
+{
+  "drug": {
+    "inn": "Protamine sulfate",
+    "drugbank_id": "DB09141",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "self-limited familial and non-familial neonatal/infantile seizures",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51905,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immune epilepsy",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51963,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypereosinophilia of undetermined significance",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51947,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "PRPS1 deficiency disorder",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51948,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Pericytoma with t(7;12)",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51949,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tyrosine hydroxylase deficiency",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51950,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "TH-deficient infantile parkinsonism and motor delay",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51951,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51958,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05774691",
+            "title": "Routine Versus Selective Protamine Administration to Reduce Bleeding Complications After Transcatheter Aortic Valve Implantation",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2025-12",
+            "country": "Belgium, Netherlands",
+            "enrollment": 1000,
+            "brief_summary": "Heparin reversal by protamine administration after transcatheter aortic valve implantation (TAVI) may reduce bleeding events. However, protamine can also cause life-threatening allergic reactions. High-quality evidence regarding the clinical safety and efficacy of routine protamine administration after TAVI is lacking.\n\nThe aim of this clinical trial is to determine if routine protamine administration, compared with selective protamine administration, reduces the risk of all-cause mortality or c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged \\> 18 years\n* Undergoing transfemoral TAVI with any commercially available transcatheter heart valve\n* Provided written informed consent\n\nExclusion Criteria:\n\n* Documented protamine allergy or anaphylaxis\n* Recent PCI (\\< 3 months before TAVI)\n* Planned arterial access vi",
+            "endpoints": [
+              "Composite of all-cause mortality or type 1-4 bleeding"
+            ],
+            "sponsor": "St. Antonius Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05774691"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15205644",
+            "title": "Protamine and protamine reactions.",
+            "abstract": "",
+            "journal": "International anesthesiology clinics",
+            "year": "2004",
+            "authors": [
+              "Park Kyung W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Animals",
+              "Drug Hypersensitivity",
+              "Heparin Antagonists",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Protamines",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15205644/"
+          },
+          {
+            "pmid": "15758088",
+            "title": "Anaphylaxis and anaesthesia.",
+            "abstract": "",
+            "journal": "British journal of anaesthesia",
+            "year": "2005",
+            "authors": [
+              "McBrien M E",
+              "Webb S T",
+              "Breslin"
+            ],
+            "pub_types": [
+              "Comment",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anaphylaxis",
+              "Anesthesia",
+              "Coronary Artery Bypass",
+              "Humans",
+              "Intraoperative Complications",
+              "Male",
+              "Phenylephrine",
+              "Protamines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15758088/"
+          },
+          {
+            "pmid": "10580216",
+            "title": "Allergy to protamine sulfate.",
+            "abstract": "Adverse responses to protamine sulfate have been identified for many years. The antigen-antibody response to protamine sulfate results in a type I anaphylactic reaction. Manifestations of allergic reactions include hypotension, bronchospasm, and skin and mucous membrane reactions. The severity of the adverse responses may vary from mild to causing death. Several potential risk factors for adverse reactions to protamine have been identified, including insulin-dependent diabetes mellitus, vasectomy, allergy to fish, prior exposure to protamine sulfate, and the rate of infusion. A case study is presented, and strategies for improving patient outcomes are discussed.",
+            "journal": "Heart & lung : the journal of critical care",
+            "year": "1999",
+            "authors": [
+              "Porsche R",
+              "Brenner Z R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anaphylaxis",
+              "Antigen-Antibody Reactions",
+              "Female",
+              "Heparin Antagonists",
+              "Humans",
+              "Protamines",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10580216/"
+          },
+          {
+            "pmid": "24780829",
+            "title": "[Anaphylaxis to protamine during cardiovascular surgery].",
+            "abstract": "Protamine is a polypeptide with low molecular weights that is used widely to reverse heparin anticoagulation during cardiac surgery. Protamine, efficient and relatively sure, can produce multiple adverse reactions after intravenous administration, including pulmonary hypertension, or systemic hypotension leading at times to cardiovascular collapse and death. Physiopathologic mechanisms, underlying these reactions, are not clear. Immunologic and non-immunologic pathways are suggested. Some risk factors expose to protamine's adverse reactions. Preoperative identification of these factors should prompt specific preventive measures. The anesthesiologist and the cardiac surgeon must be vigilant when administrating protamine. Reheparinization and reinstitution of cardiopulmonary bypass should be considered in patients with refractory shock.",
+            "journal": "Annales pharmaceutiques francaises",
+            "year": "2014",
+            "authors": [
+              "Madani H",
+              "Sadiki E O",
+              "Bouziane M",
+              "Amaarouch S",
+              "Madani M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Cardiovascular Surgical Procedures",
+              "Drug Hypersensitivity",
+              "Heparin Antagonists",
+              "Humans",
+              "Protamines",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24780829/"
+          },
+          {
+            "pmid": "1928709",
+            "title": "[Complications caused by protamine. 1: Pharmacology and pathophysiology].",
+            "abstract": "Protamine is a strongly alkaline polypeptide with a molecular weight of about 4500. Protamine solutions contain paraben compounds as antimicrobial agents. Rapid neutralization of heparin by protamine may cause an anaphylactoid reaction characterized by a non-immunogenic histamine release and by unknown mediators mechanisms. This response is associated with systemic peripheral vasodilation resulting in slight to moderate hypotension. Weak negative inotropic effects by mechanisms different from the reduction of ionized calcium concentrations may also contribute to systemic hypotension. Apart from these mostly slight reactions, severe reactions may occur with life-threatening systemic hypotension, bronchospasm and, in rare cases, death. They are caused by anaphylactic/anaphylactoid reactions resulting in catastrophic pulmonary vasoconstriction which induces right and eventually global ventricular failure. Sensitization to protamine (anaphylactic) and anaphylactoid reactions are the underl",
+            "journal": "Der Anaesthesist",
+            "year": "1991",
+            "authors": [
+              "Hobbhahn J",
+              "Habazettl H",
+              "Conzen P",
+              "Peter K"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Complement Activation",
+              "Constriction, Pathologic",
+              "Humans",
+              "Hypotension",
+              "Protamines",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1928709/"
+          },
+          {
+            "pmid": "37062523",
+            "title": "What's fishy about protamine? Clinical use, adverse reactions, and potential alternatives.",
+            "abstract": "Protamine, a highly basic protein isolated from salmon sperm, is the only clinically available agent to reverse the anticoagulation of unfractionated heparin. Following intravenous administration, protamine binds to heparin in a nonspecific electrostatic interaction to reverse its anticoagulant effects. In clinical use, protamine is routinely administered to reverse high-dose heparin anticoagulation in cardiovascular procedures, including cardiac surgery with cardiopulmonary bypass. Despite the lack of supportive evidence regarding protamine's effectiveness to reverse low-molecular-weight heparin, it is recommended in guidelines with low-quality evidence. Different dosing strategies have been reported for reversing heparin in cardiac surgical patients based on empiric dosing, pharmacokinetics, or point-of-care measurements of heparin levels. Protamine administration is associated with a spectrum of adverse reactions that range from vasodilation to life-threatening cardiopulmonary dysfu",
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2023",
+            "authors": [
+              "Levy Jerrold H",
+              "Ghadimi Kamrouz",
+              "Kizhakkedathu Jayachandran N",
+              "Iba Toshiaki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Protamines",
+              "Heparin",
+              "Anticoagulants",
+              "Heparin Antagonists",
+              "Semen",
+              "Cardiopulmonary Bypass"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37062523/"
+          },
+          {
+            "pmid": "39350802",
+            "title": "Anaphylaxis to Protamine During a Carotid Endarterectomy.",
+            "abstract": "Protamine sulfate is commonly used to reverse the anticoagulant effects of unfractionated heparin (UFH) during surgical procedures, but its administration can sometimes trigger severe adverse reactions, including life-threatening anaphylaxis. We present the case of a 77-year-old male undergoing carotid endarterectomy who developed profound hypotension and tachycardia following protamine infusion. Anaphylaxis was confirmed by elevated tryptase levels. This case emphasizes the importance of vigilant monitoring during protamine administration, particularly in high-risk patients, and highlights the need to consider alternative reversal strategies to enhance patient safety.",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Kermanshah Arya",
+              "Rubini Silva Ceschim Mariana",
+              "Montes de Oca Daniel",
+              "Wakim Gisele J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39350802/"
+          },
+          {
+            "pmid": "2764017",
+            "title": "Lack of cross-reactivity between IgE to salmon and protamine sulfate.",
+            "abstract": "Immediate type-generalized reactions to protamine sulfate are uncommon but may be fatal. The mechanisms of severe or fatal reactions are unknown in most cases. One theory is that contaminating fish (salmon) proteins present in protamine solutions induce anaphylaxis in salmon-sensitive subjects. A second hypothesis is that protamine interacts with anti-salmon IgE to cause anaphylaxis. We assessed these hypotheses by establishing an indirect amplified enzyme-linked immunosorbent assay (ELISA) for IgE to salmon. Sera obtained from two subjects anaphylactically sensitive to salmon demonstrated high binding to salmon that was not inhibited by preincubation of sera with 500 or 1000 micrograms of protamine or Aspergillus fumigatus. Serum from a patient who experienced anaphylactic shock from protamine was indistinguishable from control sera in the ELISA for IgE to salmon. Anti-protamine IgE could not be demonstrated in separate experiments. The assays prove that 1) serum IgE to salmon is not ",
+            "journal": "The American journal of the medical sciences",
+            "year": "1989",
+            "authors": [
+              "Greenberger P A",
+              "Patterson R",
+              "Tobin M C",
+              "Liotta J L",
+              "Roberts M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Animals",
+              "Cross Reactions",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Food Hypersensitivity",
+              "Humans",
+              "Immunoglobulin E",
+              "Protamines",
+              "Salmon"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2764017/"
+          },
+          {
+            "pmid": "8363092",
+            "title": "Prior vasectomy and anaphylaxis following protamine: no cause and effect.",
+            "abstract": "",
+            "journal": "Anesthesiology",
+            "year": "1993",
+            "authors": [
+              "Mezt S"
+            ],
+            "pub_types": [
+              "Comment",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Humans",
+              "Male",
+              "Protamines",
+              "Vasectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8363092/"
+          },
+          {
+            "pmid": "8655896",
+            "title": "Single doses of intravenous protamine result in the formation of protamine-specific IgE and IgG antibodies.",
+            "abstract": "Protamine reactions are a well-recognized and serious complication of intravenous protamine administration. IgE-mediated anaphylaxis occurs after initial sensitization and subsequent re-exposure to antigens. Subcutaneous protamine in insulin preparations is associated with protamine-specific IgE and IgG antibody production. In contrast, the influence of intravenous protamine administration on protamine-specific IgE and IgG antibody formation has never been investigated.",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1996",
+            "authors": [
+              "Nyhan D P",
+              "Shampaine E L",
+              "Hirshman C A",
+              "Hamilton R G",
+              "Frank S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antibody Specificity",
+              "Cardiac Surgical Procedures",
+              "Dose-Response Relationship, Immunologic",
+              "Female",
+              "Humans",
+              "Immunoglobulin E",
+              "Immunoglobulin G",
+              "Injections, Intravenous",
+              "Intraoperative Period"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8655896/"
+          },
+          {
+            "pmid": "8938281",
+            "title": "The human inflammatory response.",
+            "abstract": "Inflammation is a protective response of vascularized tissue normally elicited toward nonself-determinants or tissue injury. Inflammation functions as part of normal host surveillance mechanisms to destroy or quarantine both harmful agents and damaged tissue. Most forms of inflammation are exaggerated out of proportion to the stimulus, because humoral amplification systems recruit additional components of the immune system initiating the production of proinflammatory mediators, including cytokines synthesized by activated macrophages. These act as secondary messengers to induce synthesis and expression of specific adhesion molecules on endothelial cells and white cells. Polymorphonuclear leukocytes play a central role in the acute inflammatory response. Anaphylaxis, an immediate hypersensitivity reaction to substances administered in the perioperative period, serves as a useful model for some of the problems of acute inflammation because there are important interrelationships with the ",
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "1996",
+            "authors": [
+              "Levy J H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8938281/"
+          },
+          {
+            "pmid": "29858118",
+            "title": "Protamine, is something fishy about it? The spectre of anaphylaxis continues.",
+            "abstract": "",
+            "journal": "Journal of cardiothoracic and vascular anesthesia",
+            "year": "2019",
+            "authors": [
+              "Levy Jerrold H",
+              "Bartz Raquel R"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Anticoagulants",
+              "Humans",
+              "Longitudinal Studies",
+              "Protamines",
+              "Shock"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29858118/"
+          },
+          {
+            "pmid": "7258612",
+            "title": "Protamine sulphate hypersensitivity.",
+            "abstract": "Protamine hypersensitivity has been documented by intra-dermal skin testing in three patients who demonstrated sudden cardiovascular collapse and bronchospasm following the use of intravenous protamine sulphate. All patients had been given protamine previously. The effects of the anaphylactic response were terminated quickly by the administration of intravenous adrenaline associated with plasma volume expansion. Intra-dermal skin testing against all anaesthetic agents is recommended so that the specific allergen can be identified. In patients who are shown to be allergic to protamine sulphate and who require cardiac or vascular surgery careful monitoring of heparin dosage and neutralisation with hexadimethrine (Polybrene) intravenously appears to be a safe alternative.",
+            "journal": "Anaesthesia and intensive care",
+            "year": "1981",
+            "authors": [
+              "Doolan L",
+              "McKenzie I",
+              "Krafchek J",
+              "Parsons B",
+              "Buxton B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Bronchial Spasm",
+              "Cardiac Catheterization",
+              "Drug Hypersensitivity",
+              "Epinephrine",
+              "Heart Arrest",
+              "Heparin Antagonists",
+              "Hexadimethrine Bromide",
+              "Humans",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7258612/"
+          },
+          {
+            "pmid": "37172213",
+            "title": "The contemporary role of protamine in the cardiac catheterization laboratory.",
+            "abstract": "Access to the arterial circulation and full anticoagulation carries a risk of serious bleeding during and after percutaneous coronary intervention. Important sources of bleeding include the arterial access site and coronary artery perforation. Prompt and effective management of hemorrhagic complications is an essential interventional skill. Protamine sulfate is well-known as a heparin reversal agent. Despite this, there is heterogeneity in the use of protamine during interventional procedures. While protamine is generally well-tolerated, it is associated with a risk of hypersensitivity reaction, including anaphylaxis, among others. The purpose of this review is to summarize the existing evidence about and experience with the use of protamine sulfate in the setting of percutaneous coronary and structural interventional procedures.",
+            "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+            "year": "2023",
+            "authors": [
+              "Danek Barbara A",
+              "Kearney Kathleen E",
+              "Chung Christine J",
+              "Steinberg Zachary",
+              "Lombardi William L"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Protamines",
+              "Treatment Outcome",
+              "Hemorrhage",
+              "Blood Coagulation",
+              "Cardiac Catheterization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37172213/"
+          },
+          {
+            "pmid": "1831070",
+            "title": "Protamine allergy reactions during cardiac catheterization and cardiac surgery: risk in patients taking protamine-insulin preparations.",
+            "abstract": "Protamine insulin use may immunologically sensitize patients to protamine, leading to anaphylactoid reactions upon subsequent exposure to protamine sulfate during cardiac catheterization or cardiovascular surgery. The risk of such reactions in protamine insulin-dependent patients is uncertain. One catheterization study reported a 50-fold greater risk while a second showed no increased risk! To clarify the risk, the records of 7,750 cardiac catheterization procedures between 1984 and 1987 were analyzed for presence of NPH or PZI insulin use, protamine administration, and any complications or adverse reactions. Protamine was administered in 3,341/7,750 procedures (43%), including 171 in diabetics receiving NPH insulin. Adverse reactions to protamine occurred in 2/3, 170 noninsulin patients, 0.06%, and adverse reactions due to probable NPH insulin sensitization occurred in 1/171, 0.6%, of NPH diabetics, p = .034. Meta-analysis of risk showed an odds ratio of 7.96 for the NPH diabetic pati",
+            "journal": "Catheterization and cardiovascular diagnosis",
+            "year": "1991",
+            "authors": [
+              "Vincent G M",
+              "Janowski M",
+              "Menlove R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Cardiac Catheterization",
+              "Cardiac Surgical Procedures",
+              "Diabetes Mellitus, Type 1",
+              "Humans",
+              "Immunization",
+              "Incidence",
+              "Insulin, Isophane",
+              "Insulin, Long-Acting",
+              "Meta-Analysis as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1831070/"
+          },
+          {
+            "pmid": "8837667",
+            "title": "Anaphylaxis to subcutaneous neutral protamine Hagedorn insulin with simultaneous sensitization to protamine and insulin.",
+            "abstract": "We report an insulin-treated diabetic patient who suffered, in a 2-month period, three severe anaphylactic reactions immediately after self-administered subcutaneous injections of neutral protamine Hagedorn (NPH) human recombinant-DNA insulin. These reactions consisted of local and systemic symptoms, including dyspnea and hypotension. A simultaneous sensitization to human insulin and to protamine was demonstrated, both by skin tests and by the determination of serum specific IgE. Suspecting protamine allergy, we performed a test dose to human lente insulin with perfect tolerance. After a 1-year follow-up with lente-insulin treatment, no reactions have occurred, despite treatment interruptions. Therefore, protamine IgE-mediated allergy probably caused our patient's reactions. In conclusion, protamine sensitization should be ruled out in any patient with a history of reactions to subcutaneous protamine-containing insulins, even if insulin sensitization is present.",
+            "journal": "Allergy",
+            "year": "1996",
+            "authors": [
+              "Blanco C",
+              "Castillo R",
+              "Quiralte J",
+              "Delgado J",
+              "García I"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anaphylaxis",
+              "Diabetes Mellitus, Type 1",
+              "Drug Hypersensitivity",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Immunoglobulin E",
+              "Insulin, Isophane",
+              "Insulin, Long-Acting",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8837667/"
+          },
+          {
+            "pmid": "18816305",
+            "title": "Serious anaphylactic reactions due to protamine sulfate: a systematic literature review.",
+            "abstract": "Anaphylactic reactions caused by injection of protamine sulfate during cardiac surgery are a well-known complication. A systematic literature review was therefore conducted to gather evidence of the knowledge concerning these side effects, and to see if any prospective randomized studies supported this. Studies investigating the effect of protamine sulfate in human beings were extracted from MEDLINE, Embase and the Cochrane Library, retrieving 487 articles. Abstracts were evaluated by both authors, and referred articles not found in the primary search were furthermore extracted from reviews and case reports, resulting in a total of 272 relevant articles. Of these, 9 retrospective studies and 16 prospective studies were performed in an evidence-based manner. However, only 3 of the 16 prospective articles had an optimal design as far as inclusion criteria, randomization, and description of symptoms were concerned. Incidence of anaphylactic reactions in the prospective studies was 0.69% c",
+            "journal": "Basic & clinical pharmacology & toxicology",
+            "year": "2008",
+            "authors": [
+              "Nybo Mads",
+              "Madsen Jonna Skov"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Heparin Antagonists",
+              "Humans",
+              "Prospective Studies",
+              "Protamines",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18816305/"
+          },
+          {
+            "pmid": "3177970",
+            "title": "Adverse reactions to protamine sulfate during cardiac surgery in diabetic and non-diabetic patients.",
+            "abstract": "The incidence of adverse reactions to protamine sulfate range from 0.06% to 27% and vary from mild urticaria to anaphylactic shock and death. In a retrospective analysis of 2996 patients, only four subjects experienced an adverse reaction due to protamine. Two individuals were NPH-insulin-dependent diabetics and two patients had exposure to protamine only during cardiac catheterization. Skin test titrations to protamine were done in three of four patients. One patient had a positive reaction at a 100-micrograms/mL dilution whereas the other two patients had positive reactions at 1000 micrograms/mL. In a comparable number of normal subjects, the threshold for a positive immediate skin response was 1000 micrograms/mL. Since the observed incidence of adverse reactions was 2.9% in NPH-insulin-dependent diabetics and 0.07% in non-diabetics, this represents a nearly 40-fold increased risk for diabetic patients (P less than .005). Skin testing appears to have limited applicability in the asse",
+            "journal": "Annals of allergy",
+            "year": "1988",
+            "authors": [
+              "Gottschlich G M",
+              "Gravlee G P",
+              "Georgitis J W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Cardiac Surgical Procedures",
+              "Diabetes Mellitus",
+              "Diabetes Mellitus, Type 1",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Protamines",
+              "Skin Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3177970/"
+          },
+          {
+            "pmid": "27737405",
+            "title": "Methylene Blue to Treat Protamine-induced Anaphylaxis Reactions. An Experimental Study in Pigs.",
+            "abstract": "To examine if methylene blue (MB) can counteract or prevent protamine (P) cardiovascular effects.",
+            "journal": "Brazilian journal of cardiovascular surgery",
+            "year": "2016",
+            "authors": [
+              "Albuquerque Agnes Afrodite S",
+              "Margarido Edson A",
+              "Menardi Antonio Carlos",
+              "Scorzoni Adilson",
+              "Celotto Andrea Carla"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Animals",
+              "Central Venous Pressure",
+              "Endothelium, Vascular",
+              "Enzyme Inhibitors",
+              "Female",
+              "Hemodynamics",
+              "Heparin Antagonists",
+              "Malondialdehyde",
+              "Methylene Blue"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27737405/"
+          },
+          {
+            "pmid": "2857186",
+            "title": "Serious adverse reactions to protamine sulfate: are alternatives needed?",
+            "abstract": "Protamine sulfate is a strongly cationic polypeptide that is used commonly in clinical medicine. It is administered regularly after cardiac catheterization, cardiothoracic and vascular surgical procedures, and less frequently after dialysis and leukapheresis because of its capacity to reverse the anticoagulant activity of heparin. In addition, because it delays the absorption of insulin, protamine is combined with insulin in protamine zinc insulin and neutral protamine Hagedorn insulin. Recently, there have been reports of adverse reactions to protamine (Table I). Although most of these reactions were relatively mild, three were fatal; one was clearly the result of type I anaphylaxis. Reactions occur predominantly in patients who were previously exposed to protamine through protamine-containing insulins or during heparin neutralization. Almost 50% of these patients were diabetic; most of whom received neutral protamine Hagedorn insulin, thereby enhancing their chance for presensitizati",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1985",
+            "authors": [
+              "Weiler J M",
+              "Freiman P",
+              "Sharath M D",
+              "Metzger W J",
+              "Smith J M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anaphylaxis",
+              "Cardiovascular System",
+              "Complement Activation",
+              "Disease Susceptibility",
+              "Female",
+              "Heparin Antagonists",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity, Immediate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2857186/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acetazolamide-responsive hereditary episodic ataxia",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51959,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic mast cell activation syndrome",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51960,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09141",
+    "name": "Protamine sulfate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Protamine sulfate"
+      },
+      "queried_at": "2026-03-10T10:38:34.411420",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Protamine sulfate"
+      },
+      "queried_at": "2026-03-10T10:38:36.984827",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "self-limited familial and non-familial neonatal/infantile seizures"
+      },
+      "queried_at": "2026-03-10T10:38:37.522938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "self-limited familial and non-familial neonatal/infantile seizures"
+      },
+      "queried_at": "2026-03-10T10:38:41.560550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "self-limited familial and non-familial neonatal/infantile seizures"
+      },
+      "queried_at": "2026-03-10T10:38:42.358214",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "immune epilepsy"
+      },
+      "queried_at": "2026-03-10T10:38:42.877816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "immune epilepsy"
+      },
+      "queried_at": "2026-03-10T10:38:46.301174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "immune epilepsy"
+      },
+      "queried_at": "2026-03-10T10:38:47.106488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "hypereosinophilia of undetermined significance"
+      },
+      "queried_at": "2026-03-10T10:38:47.836368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "hypereosinophilia of undetermined significance"
+      },
+      "queried_at": "2026-03-10T10:38:52.000205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "hypereosinophilia of undetermined significance"
+      },
+      "queried_at": "2026-03-10T10:38:52.923468",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "PRPS1 deficiency disorder"
+      },
+      "queried_at": "2026-03-10T10:38:54.028853",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "PRPS1 deficiency disorder"
+      },
+      "queried_at": "2026-03-10T10:38:58.994665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "PRPS1 deficiency disorder"
+      },
+      "queried_at": "2026-03-10T10:39:00.761235",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "Pericytoma with t(7;12)"
+      },
+      "queried_at": "2026-03-10T10:39:02.093813",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "Pericytoma with t(7;12)"
+      },
+      "queried_at": "2026-03-10T10:39:06.339626",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "Pericytoma with t(7;12)"
+      },
+      "queried_at": "2026-03-10T10:39:07.388831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "tyrosine hydroxylase deficiency"
+      },
+      "queried_at": "2026-03-10T10:39:08.179490",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "tyrosine hydroxylase deficiency"
+      },
+      "queried_at": "2026-03-10T10:39:12.094809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "tyrosine hydroxylase deficiency"
+      },
+      "queried_at": "2026-03-10T10:39:12.806614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "TH-deficient infantile parkinsonism and motor delay"
+      },
+      "queried_at": "2026-03-10T10:39:13.297139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "TH-deficient infantile parkinsonism and motor delay"
+      },
+      "queried_at": "2026-03-10T10:39:16.705973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "TH-deficient infantile parkinsonism and motor delay"
+      },
+      "queried_at": "2026-03-10T10:39:17.764713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:39:18.432405",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:39:21.764594",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:39:25.476439",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "acetazolamide-responsive hereditary episodic ataxia"
+      },
+      "queried_at": "2026-03-10T10:39:26.004487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "acetazolamide-responsive hereditary episodic ataxia"
+      },
+      "queried_at": "2026-03-10T10:39:29.293577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "acetazolamide-responsive hereditary episodic ataxia"
+      },
+      "queried_at": "2026-03-10T10:39:29.986138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "idiopathic mast cell activation syndrome"
+      },
+      "queried_at": "2026-03-10T10:39:30.805683",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "idiopathic mast cell activation syndrome"
+      },
+      "queried_at": "2026-03-10T10:39:35.006866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Protamine sulfate",
+        "disease": "idiopathic mast cell activation syndrome"
+      },
+      "queried_at": "2026-03-10T10:39:35.705514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:39:35.711942"
+  }
+}

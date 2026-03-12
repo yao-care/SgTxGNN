@@ -1,0 +1,1627 @@
+{
+  "drug": {
+    "inn": "Darunavir",
+    "drugbank_id": "DB01264",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.999690055847168,
+        "txgnn_rank": 826,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26150024",
+            "title": "Short Communication: Comparative Evaluation of Coformulated Injectable Combination Antiretroviral Therapy Regimens in Simian Immunodeficiency Virus-Infected Rhesus Macaques.",
+            "abstract": "The use of nonhuman primate (NHP) models to study persistent residual virus and viral eradication strategies in combination antiretroviral therapy (cART)-treated individuals requires regimens that effectively suppress SIV replication to clinically relevant levels in macaques. We developed and evaluated two novel cART regimens in SIVmac239-infected rhesus macaques: (1) a \"triple regimen\" containing the nucleo(s/t)ide reverse transcriptase inhibitors emtricitabine (FTC) and tenofovir disoproxil fumarate [TDF, prodrug of tenofovir (TFV, PMPA)] with the integrase strand transfer inhibitor dolutegravir (DTG) (n = 3), or (2) a \"quad regimen\" containing the same three drugs plus the protease inhibitor darunavir (DRV) (n = 3), with each regimen coformulated for convenient administration by a single daily subcutaneous injection. Plasma drug concentrations were consistent across animals within the triple and quad regimen-treated groups, although DTG levels were lower in the quad regimen animals.",
+            "journal": "AIDS research and human retroviruses",
+            "year": "2016",
+            "authors": [
+              "Del Prete Gregory Q",
+              "Smedley Jeremy",
+              "Macallister Rhonda",
+              "Jones Gregg S",
+              "Li Bei"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Drug Combinations",
+              "Drug Resistance, Viral",
+              "Emtricitabine",
+              "HIV Integrase Inhibitors",
+              "Heterocyclic Compounds, 3-Ring",
+              "Macaca mulatta",
+              "Oxazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150024/"
+          },
+          {
+            "pmid": "25033210",
+            "title": "Effects of treatment with suppressive combination antiretroviral drug therapy and the histone deacetylase inhibitor suberoylanilide hydroxamic acid; (SAHA) on SIV-infected Chinese rhesus macaques.",
+            "abstract": "Viral reservoirs-persistent residual virus despite combination antiretroviral therapy (cART)-remain an obstacle to cure of HIV-1 infection. Difficulty studying reservoirs in patients underscores the need for animal models that mimics HIV infected humans on cART. We studied SIV-infected Chinese-origin rhesus macaques (Ch-RM) treated with intensive combination antiretroviral therapy (cART) and 3 weeks of treatment with the histone deacetyalse inhibitor, suberoylanilide hydroxamic acid (SAHA).",
+            "journal": "PloS one",
+            "year": "2014",
+            "authors": [
+              "Ling Binhua",
+              "Piatak Michael",
+              "Rogers Linda",
+              "Johnson Ann-Marie",
+              "Russell-Lodrigue Kasi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Retroviral Agents",
+              "CD4-Positive T-Lymphocytes",
+              "DNA, Viral",
+              "Darunavir",
+              "Drug Therapy, Combination",
+              "Female",
+              "Histone Deacetylase Inhibitors",
+              "Hydroxamic Acids",
+              "Macaca mulatta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25033210/"
+          },
+          {
+            "pmid": "22737073",
+            "title": "A highly intensified ART regimen induces long-term viral suppression and restriction of the viral reservoir in a simian AIDS model.",
+            "abstract": "Stably suppressed viremia during ART is essential for establishing reliable simian models for HIV/AIDS. We tested the efficacy of a multidrug ART (highly intensified ART) in a wide range of viremic conditions (10³-10⁷) viral RNA copies/mL) in SIVmac251-infected rhesus macaques, and its impact on the viral reservoir. Eleven macaques in the pre-AIDS stage of the disease were treated with a multidrug combination (highly intensified ART) consisting of two nucleosidic/nucleotidic reverse transcriptase inhibitors (emtricitabine and tenofovir), an integrase inhibitor (raltegravir), a protease inhibitor (ritonavir-boosted darunavir) and the CCR5 blocker maraviroc. All animals stably displayed viral loads below the limit of detection of the assay (i.e. <40 RNA copies/mL) after starting highly intensified ART. By increasing the sensitivity of the assay to 3 RNA copies/mL, viral load was still below the limit of detection in all subjects tested. Importantly, viral DNA resulted below the assay det",
+            "journal": "PLoS pathogens",
+            "year": "2012",
+            "authors": [
+              "Shytaj Iart Luca",
+              "Norelli Sandro",
+              "Chirullo Barbara",
+              "Della Corte Alessandro",
+              "Collins Matt"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Animals",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Cyclohexanes",
+              "Darunavir",
+              "Deoxycytidine",
+              "Drug Therapy, Combination",
+              "Emtricitabine",
+              "Flow Cytometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22737073/"
+          },
+          {
+            "pmid": "21505294",
+            "title": "Gold drug auranofin restricts the viral reservoir in the monkey AIDS model and induces containment of viral load following ART suspension.",
+            "abstract": "A small pool of long-lived memory CD4 T cells harboring the retroviral genome is one main obstacle to HIV eradication. We tested the impact of the gold compound, auranofin, on phenotype and viability of CD4 T cells in vitro, and on persistence of lentiviral reservoir cells in vivo.",
+            "journal": "AIDS (London, England)",
+            "year": "2011",
+            "authors": [
+              "Lewis Mark G",
+              "DaFonseca Sandrina",
+              "Chomont Nicolas",
+              "Palamara Anna T",
+              "Tardugno Maria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Antirheumatic Agents",
+              "Auranofin",
+              "CD4-Positive T-Lymphocytes",
+              "DNA, Viral",
+              "Macaca mulatta",
+              "Pilot Projects",
+              "Simian Acquired Immunodeficiency Syndrome",
+              "Simian Immunodeficiency Virus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21505294/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.999690055847168,
+        "txgnn_rank": 827,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02770508",
+            "title": "A Phase 4, Randomized, Open Label, Controlled Study of Boosted Darunavir and Lamivudine Versus Boosted Darunavir and Emtricitabine/Tenofovir or Lamivudine/Tenofovir in Naïve HIV-1 Infected Subjects",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-11",
+            "completion_date": "2017-10",
+            "country": "Argentina",
+            "enrollment": 145,
+            "brief_summary": "The purpose of this study is to compare the safety and efficacy of a combination of a QD regimen consisting on ritonavir boosted darunavir (FDC) and lamivudine versus ritonavir boosted darunavir (FDC) plus co-formulated tenofovir and emtricitabine or co-formulated tenofovir/lamivudine in naïve HIV-1 infected patients. Subjects will be ARV-naïve HIV-1-infected patients eligible to start ARV therapy according to current guidelines.Subjects will be adults ≥ 18 years of age who meet all of the inclu",
+            "eligibility_criteria": "Inclusion criteria :\n\n1. \\> 18 years of age.\n2. Patient with documented HIV-1 infection defined as a positive ELISA plus a confirmatory Western Blot; or alternatively, a plasma HIV-1 RNA ≥1,000 copies/mL ever documented.\n3. Subject has voluntarily signed and dated an informed consent form, approved ",
+            "endpoints": [
+              "Percentage of patients with HIV-1 RNA levels of less than 50 copies/mL at week 48"
+            ],
+            "sponsor": "Fundación Huésped",
+            "url": "https://clinicaltrials.gov/study/NCT02770508"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.9996621608734132,
+        "txgnn_rank": 888,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete familial combined hyperlipidemia",
+        "txgnn_score": 0.9919013381004332,
+        "txgnn_rank": 9105,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "AIDS related complex",
+        "txgnn_score": 0.9896849393844604,
+        "txgnn_rank": 10769,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02503462",
+            "title": "Effect of Cobicistat Versus Ritonavir Boosting on the Brain Permeation of Darunavir in HIV-infected Individuals",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2015-07",
+            "completion_date": "2017-01",
+            "country": "Switzerland",
+            "enrollment": 7,
+            "brief_summary": "The purpose of this study is to assess whether a boosting by cobicistat results in similar concentrations of darunavir in the brain compared to a boosting by ritonavir.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* documented HIV infection\n* presence of HIV associated neurocognitive disorders requiring a lumbar puncture for clinical reasons\n* treatment or qualifying to be treated with a HIV therapy including darunavir/r (800/100 mg once daily)\n* ability to comply with the study requireme",
+            "endpoints": [
+              "Cerebrospinal fluid/plasma concentrations (ng/ml) of darunavir/ritonavir versus darunavir/cobicistat"
+            ],
+            "sponsor": "University Hospital, Basel, Switzerland",
+            "url": "https://clinicaltrials.gov/study/NCT02503462"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01792570",
+            "title": "Strategic Study of Dual-therapy With Darunavir/Ritonavir and Rilpivirine QD Versus Triple-therapy in Patients With Suppressed Viral Load: Virological Efficacy and Evaluation of Non-HIV Related Morbidity.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-09-30",
+            "completion_date": "2018-12-31",
+            "country": "Italy",
+            "enrollment": 37,
+            "brief_summary": "Clinical approach to HIV infection treatment is based on the use of highly active antiretroviral therapies (HAART) and recent national and international guidelines for guiding HIV therapy recommend the use of triple-combination therapy using antiretrovirals with 2 nucleos(t)ide inhibitors \\[N(n)RTI\\] as backbone plus a third drug to be chosen among a boosted protease inhibitor (PI/r), a nonnucleoside inhibitor (NNRTI) or an integrase inhibitor (II).\n\nIn spite of evident efficacy of HAART, as dem",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult HIV+ subjects (\\>18 years old), giving and signing an informed consent;\n* Any HAART treatment for at least 12 months;\n* Current treatment with a PI/r-containing regimen initiated at least 6 months earlier;\n* HIV-RNA \\<50 cp/mL for at least 3 months, without viral blip du",
+            "endpoints": [
+              "HIV-RNA < 50 cp/mL"
+            ],
+            "sponsor": "ASST Fatebenefratelli Sacco",
+            "url": "https://clinicaltrials.gov/study/NCT01792570"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28991888",
+            "title": "Commonly Prescribed Antiretroviral Therapy Regimens and Incidence of AIDS-Defining Neurological Conditions.",
+            "abstract": "The differential effects of commonly prescribed combined antiretroviral therapy (cART) regimens on AIDS-defining neurological conditions (neuroAIDS) remain unknown.",
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2018",
+            "authors": [
+              "Caniglia Ellen C",
+              "Phillips Andrew",
+              "Porter Kholoud",
+              "Sabin Caroline A",
+              "Winston Alan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS Dementia Complex",
+              "AIDS-Related Opportunistic Infections",
+              "Acquired Immunodeficiency Syndrome",
+              "Adult",
+              "Alkynes",
+              "Americas",
+              "Atazanavir Sulfate",
+              "Benzoxazines",
+              "Cohort Studies",
+              "Cyclopropanes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28991888/"
+          },
+          {
+            "pmid": "27333088",
+            "title": "Neurocognition with maraviroc compared with tenofovir in HIV.",
+            "abstract": "The objective was to determine whether maraviroc (MVC) has unique neurocognitive benefits in the context of initial antiretroviral therapy (ART).",
+            "journal": "AIDS (London, England)",
+            "year": "2016",
+            "authors": [
+              "Robertson Kevin R",
+              "Miyahara Sachiko",
+              "Lee Anthony",
+              "Brown Todd T",
+              "Chan Ellen S"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Complex",
+              "Adult",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Cognition",
+              "Cyclohexanes",
+              "Double-Blind Method",
+              "Female",
+              "HIV Infections",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27333088/"
+          },
+          {
+            "pmid": "25281609",
+            "title": "Cerebrospinal fluid inhibitory quotients of antiretroviral drugs in HIV-infected patients are associated with compartmental viral control.",
+            "abstract": "Despite the efficacy of highly active antiretroviral treatment (HAART), a large proportion of human immunodeficiency virus (HIV)-infected patients may develop moderate neurocognitive impairment. Antiretroviral drug passage into the central nervous system may be relevant for preventing and treating HIV-associated neurocognitive disorder; nevertheless, clear cerebrospinal fluid (CSF) pharmacodynamic targets are not known.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2015",
+            "authors": [
+              "Calcagno Andrea",
+              "Simiele Marco",
+              "Alberione Maria Chiara",
+              "Bracchi Margherita",
+              "Marinaro Letizia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "AIDS Dementia Complex",
+              "Adult",
+              "Anti-Retroviral Agents",
+              "Cerebrospinal Fluid",
+              "Female",
+              "HIV",
+              "HIV Infections",
+              "Humans",
+              "Inhibitory Concentration 50",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25281609/"
+          },
+          {
+            "pmid": "29984302",
+            "title": "HIV-Associated Neurocognitive Disorder (HAND) and the Prospect of Brain-Penetrating Protease Inhibitors for Antiretroviral Treatment.",
+            "abstract": "The advent of combined active antiretroviral therapy (cART) dramatically improved HIV management and patient care of HIV-infected individuals. This treatment regimen resulted in a significant reduction of HIV/AIDS-related mortality and greatly improved life expectancies of those patients with access to cART. However, among many HIV-related complications, neurocognitive dysfunction, known as HIV-associated neurocognitive disorder (HAND) has been a major issue. While the cART regimen has been effective in reduction of HAND in many patients, the prevalence of HAND is increasing as HIV/AIDS patients live longer. HIV infection and its subsequent manifestation of HAND is complex. It is evident that the brain can serve as a sanctuary for HIV replication and HAND can remain in patients even with cART treatment due to poor blood-brain barrier permeability of the majority of current antiretroviral agents. Conceivably, cART needs to have improved CNS penetration properties for effective treatment",
+            "journal": "Medical research archives",
+            "year": "2017",
+            "authors": [
+              "Ghosh Arun K",
+              "Sarkar Anindya",
+              "Mitsuya Hiroaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29984302/"
+          },
+          {
+            "pmid": "19290032",
+            "title": "Risk factors for gastrointestinal adverse events in HIV treated and untreated patients.",
+            "abstract": "Advanced immunosuppression from HIV infection can lead to gastrointestinal symptoms such as diarrhea, nausea, vomiting, dysphagia, weight loss, and abdominal pain. There is a complex, combined effect of HIV infection plus antiretroviral treatment on the incidence of gastrointestinal symptoms, and, for some trials, the majority of gastrointestinal adverse events may not be related to antiretroviral treatment. Antiretroviral treatment can lead to improvements in gastrointestinal symptoms for patients with advanced immunosuppression. This was observed in the TORO trials of enfuvirtide and the DUET trials of etravirine, which were conducted in highly treatment experienced patients with low baseline CD4 counts. While antiretroviral treatment can improve immune function, leading to fewer gastrointestinal symptoms, this could be counter-balanced by adverse gastrointestinal toxicity profiles from certain antiretrovirals. Ritonavir-boosted protease inhibitors show a range of gastrointestinal si",
+            "journal": "AIDS reviews",
+            "year": "2009",
+            "authors": [
+              "Hill Andrew",
+              "Balkin Andrew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clinical Trials as Topic",
+              "Diarrhea",
+              "Enfuvirtide",
+              "Gastrointestinal Diseases",
+              "HIV Envelope Protein gp41",
+              "HIV Fusion Inhibitors",
+              "HIV Infections",
+              "HIV Protease Inhibitors",
+              "Humans",
+              "Immune Tolerance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19290032/"
+          },
+          {
+            "pmid": "34978889",
+            "title": "Fluorine Modifications Contribute to Potent Antiviral Activity against Highly Drug-Resistant HIV-1 and Favorable Blood-Brain Barrier Penetration Property of Novel Central Nervous System-Targeting HIV-1 Protease Inhibitors In Vitro.",
+            "abstract": "To date, there are no specific treatment regimens for HIV-1-related central nervous system (CNS) complications, such as HIV-1-associated neurocognitive disorders (HAND). Here, we report that two newly generated CNS-targeting HIV-1 protease (PR) inhibitors (PIs), GRL-08513 and GRL-08613, which have a P1-3,5-bis-fluorophenyl or P1-para-monofluorophenyl ring and P2-tetrahydropyrano-tetrahydrofuran (Tp-THF) with a sulfonamide isostere, are potent against wild-type HIV-1 strains and multiple clinically isolated HIV-1 strains (50% effective concentration [EC50]: 0.0001 to ∼0.0032 μM). As assessed with HIV-1 variants that had been selected in vitro to propagate at a 5 μM concentration of each HIV-1 PI (atazanavir, lopinavir, or amprenavir), GRL-08513 and GRL-08613 efficiently inhibited the replication of these highly PI-resistant variants (EC50: 0.003 to ∼0.006 μM). GRL-08513 and GRL-08613 also maintained their antiviral activities against HIV-2ROD as well as severely multidrug-resistant clin",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2022",
+            "authors": [
+              "Amano Masayuki",
+              "Yedidi Ravikiran S",
+              "Salcedo-Gómez Pedro Miguel",
+              "Hayashi Hironori",
+              "Hasegawa Kazuya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, N.I.H., Intramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blood-Brain Barrier",
+              "Central Nervous System",
+              "Fluorine",
+              "HIV Protease",
+              "HIV Protease Inhibitors",
+              "HIV-1",
+              "Humans",
+              "Virus Replication"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34978889/"
+          },
+          {
+            "pmid": "16962136",
+            "title": "Ultra-high resolution crystal structure of HIV-1 protease mutant reveals two binding sites for clinical inhibitor TMC114.",
+            "abstract": "TMC114 (darunavir) is a promising clinical inhibitor of HIV-1 protease (PR) for treatment of drug resistant HIV/AIDS. We report the ultra-high 0.84 A resolution crystal structure of the TMC114 complex with PR containing the drug-resistant mutation V32I (PR(V32I)), and the 1.22 A resolution structure of a complex with PR(M46L). These structures show TMC114 bound at two distinct sites, one in the active-site cavity and the second on the surface of one of the flexible flaps in the PR dimer. Remarkably, TMC114 binds at these two sites simultaneously in two diastereomers related by inversion of the sulfonamide nitrogen. Moreover, the flap site is shaped to accommodate the diastereomer with the S-enantiomeric nitrogen rather than the one with the R-enantiomeric nitrogen. The existence of the second binding site and two diastereomers suggest a mechanism for the high effectiveness of TMC114 on drug-resistant HIV and the potential design of new inhibitors.",
+            "journal": "Journal of molecular biology",
+            "year": "2006",
+            "authors": [
+              "Kovalevsky Andrey Y",
+              "Liu Fengling",
+              "Leshchenko Sofiya",
+              "Ghosh Arun K",
+              "Louis John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, N.I.H., Intramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Amino Acid Substitution",
+              "Binding Sites",
+              "Crystallization",
+              "Crystallography, X-Ray",
+              "Darunavir",
+              "Drug Resistance, Multiple, Viral",
+              "HIV Protease",
+              "HIV Protease Inhibitors",
+              "HIV-1",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16962136/"
+          },
+          {
+            "pmid": "21840146",
+            "title": "[Immune reconstitution syndrome related to a Mycobacterium avium complex infection, revealed by a mono-adenitis].",
+            "abstract": "",
+            "journal": "Medecine et maladies infectieuses",
+            "year": "2011",
+            "authors": [
+              "Massongo M",
+              "Pasquet A",
+              "Huleux T",
+              "Aïssi E",
+              "Ettahar N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Abscess",
+              "Adult",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Antitubercular Agents",
+              "Axilla",
+              "Clarithromycin",
+              "Darunavir",
+              "Dideoxynucleosides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21840146/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital human immunodeficiency virus",
+        "txgnn_score": 0.9896849393844604,
+        "txgnn_rank": 10770,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02738502",
+            "title": "An Open-label Phase II Pilot Study of Prevention of Perinatal Transmission of HIV-1 Without Nucleoside Reverse Transcriptase Inhibitors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-07-06",
+            "completion_date": "2020-07-16",
+            "country": "France",
+            "enrollment": 91,
+            "brief_summary": "The overall goal is to study the feasibility of darunavir/ritonavir (DRV/r) monotherapy as treatment simplification (switch) in pretreated pregnant women, associated with neonatal prophylaxis with nevirapine, constituting a PMTCT strategy without any Nucleoside Reverse Transcriptase Inhibitor (NRTIs) .",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pregnant woman, under 15 weeks gestational age at screening\n* Documented Human Immunodeficiency Virus (HIV) HIV-1 infection (serology and/or plasma HIV RNA viral load)\n* Current treatment with at least two ARVs\n* Virological suppression for at least 12 months, defined by a PVL",
+            "endpoints": [
+              "Success rate, defined by plasma viral load (PVL) <50 copies / mL near delivery with DRV/r monotherapy. Failure is defined as PVL > 50 copies / mL and/or change of antiretroviral therapy during pregnancy for PVL ≥ 50 copies / mL."
+            ],
+            "sponsor": "ANRS, Emerging Infectious Diseases",
+            "url": "https://clinicaltrials.gov/study/NCT02738502"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03577470",
+            "title": "Italian Retrospective and Prospective Observation of Antiretroviral Treatment in Patients Taking DarunavIr/cobicistAt Plus eMtricitabine and Tenofovir AlafeNamide fumaraTE - DIAMANTE",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2018-06-13",
+            "completion_date": "2020-09-28",
+            "country": "Italy",
+            "enrollment": 246,
+            "brief_summary": "The purpose of this study is to describe the effectiveness of Darunavir/ Cobicistat/ Emtricitabine/ Tenofovir Alafenamide (D/C/F/TAF), measured as virological response at Week 48 as per Food and Drug Administration (FDA) snapshot algorithm through collection of daily practice data in the Italian setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Having a confirmed diagnosis of Human Immunodeficiency Virus-1 (HIV-1)\n* Must sign a participation agreement/Informed Consent Form (ICF) allowing data collection and source data verification in accordance with local requirements\n* Taking Darunavir/ Cobicistat/ Emtricitabine/ T",
+            "endpoints": [
+              "Percentage of Participants with Virological Response at Week 48"
+            ],
+            "sponsor": "Janssen-Cilag S.p.A.",
+            "url": "https://clinicaltrials.gov/study/NCT03577470"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06747507",
+            "title": "Investigating the Optimal Management of Dolutegravir Resistance: an Open-label Randomised Controlled Trial of Maintaining Dolutegravir or Switch to Ritonavir-boosted Darunavir",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-09-01",
+            "completion_date": "2027-07",
+            "country": "Tanzania, Mozambique, Kenya, Lesotho",
+            "enrollment": 392,
+            "brief_summary": "This clinical trial will address the gap in published data on the effect of dolutegravir (DTG)-associated drug-resistant mutations on viral suppression among people remaining on DTG-based antiretroviral therapy. It will also address the gap in the optimal management strategy for this population.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Enrolled in the Ndovu cohort study\n* Able and willing to understand and comply with the protocol requirements, instructions and restrictions\n* Able and willing to provide informed consent for the nested clinical trial (assent as appropriate and legal guardian consent if \\< 18 ",
+            "endpoints": [
+              "Proportion of participants with HIV-1 RNA of <200 copies/mL at 6 months"
+            ],
+            "sponsor": "University of Nairobi",
+            "url": "https://clinicaltrials.gov/study/NCT06747507"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00326963",
+            "title": "A Multicenter, Open-label Study Evaluating the Safety and Efficacy of a New Protease Inhibitor (Darunavir) With Fuzeon® (Enfuvirtide) Plus Background Antiretroviral Regimen in HIV-1 Infected, Triple-class Treatment-experienced Patients",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-03",
+            "completion_date": "2007-05",
+            "country": "Australia, United States",
+            "enrollment": 142,
+            "brief_summary": "This single arm study will evaluate the efficacy, safety and tolerability of a new investigational protease inhibitor (PI) plus background antiretrovirals plus Fuzeon (90mg sc bid) in HIV-1 infected, triple-class treatment-experienced, Fuzeon-naive adults. The new investigational PI will be administered according to the procedures of the early access program in which the patient is enrolled. The anticipated time on study treatment is 3-12 months, and the target sample size is approximately 120 i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* adult patients, \\>=18 years of age;\n* seropositive for HIV-1;\n* enrolled in an early access program for a new investigational PI;\n* naive to Fuzeon, and the investigational PI;\n* treatment-experienced with 3 ARV classes of drug (NRTI, NNRTI and PI).\n\nExclusion Criteria:\n\n* fem",
+            "endpoints": [
+              "Number of Participants With Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) Viral Load <50 Copies/mL",
+              "Percentage of Participants With HIV-1 RNA Viral Load <50 Copies/mL"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT00326963"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01458132",
+            "title": "WEUSKOP5522: Observational Drug Exposure Registry for Long-Term Follow-Up of Subjects Exposed to GSK2248761",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-07-29",
+            "completion_date": "2013-04-30",
+            "country": "N/A",
+            "enrollment": 19,
+            "brief_summary": "The World Health Organization has estimated that as many as 10% of the population worldwide may at some point experience at least one seizure. The percentage with active epilepsy is from 0.4% to 1%. From 40% to 65% of patients with HIV infection have been estimated to have some neurological involvement; the percentage reaches as high as 70% to 80% when post-mortem assessments are included. Estimates of the percentage of HIV-infected patients with seizure occurrence have varied widely, with one r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects who were previously randomized in the Phase 2b studies SGN113399 or SGN113404 and received GSK2248761\n\nExclusion Criteria:\n\n* N/A",
+            "endpoints": [
+              "Number of Participants With Occurrence of Seizure"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01458132"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00855335",
+            "title": "A Single Arm, Open Label Study to Assess the Pharmacokinetics of Darunavir and Ritonavir, Darunavir and Cobicistat, Etravirine, and Rilpivirine in HIV-1 Infected Pregnant Women",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-04-09",
+            "completion_date": "2016-08-11",
+            "country": "Puerto Rico, United States",
+            "enrollment": 77,
+            "brief_summary": "The purpose of this study is to study how changes in the body during pregnancy influence the blood levels of TMC114 (darunavir) and ritonavir taken together, darunavir and cobicistat taken as a fixed-dose combination, TMC125 (etravirine) taken alone or with darunavir and ritonavir or rilpivirine in patients with human immunodeficiency virus-1 (HIV-1). This study will examine how these drugs are absorbed in the body, how they are distributed within the body and how they are removed from the body ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pregnant females (18-26 weeks of gestation)\n* documented HIV-1 infection\n* Receiving darunavir/ritonavir, darunavir/cobicistat, etravirine, or rilpivirine at the time of study entry\n* Willing to remain on darunavir/ritonavir, darunavir/cobicistat, etravirine, or rilpivirine as",
+            "endpoints": [
+              "Predose (Trough) Plasma Concentration (C0h)",
+              "Minimum Plasma Concentration (Cmin)",
+              "Maximum Plasma Concentration (Cmax)"
+            ],
+            "sponsor": "Janssen Scientific Affairs, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00855335"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02269917",
+            "title": "A Phase 3, Randomized, Active-controlled, Open-label Study to Evaluate the Efficacy, Safety and Tolerability of Switching to a Darunavir/ Cobicistat/ Emtricitabine/ Tenofovir Alafenamide (D/C/F/TAF) Once-daily Single-tablet Regimen Versus Continuing the Current Regimen Consisting of a Boosted Protease Inhibitor (bPI) Combined With Emtricitabine/Tenofovir Disoproxil Fumarate (FTC/TDF) in Virologically-suppressed, Human Immunodeficiency Virus Type 1 (HIV-1) Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-03",
+            "completion_date": "2020-10",
+            "country": "Switzerland, Spain, United Kingdom, France, Canada, Belgium, United States, Sweden, Puerto Rico, Poland",
+            "enrollment": 1149,
+            "brief_summary": "The purpose of this study is to demonstrate non-inferiority in efficacy while switching to a once-daily single-tablet regimen containing darunavir (DRV)/ cobicistat (COBI)/ emtricitabine (FTC)/ tenofovir alafenamide (TAF) (D/C/F/TAF tablet) relative to continuing the current regimen consisting of a boosted protease inhibitor (bPI) combined with tenofovir disoproxil fumarate (FTC/TDF) in virologically-suppressed (human immunodeficiency virus type 1 ribonucleic acid \\[HIV-1 RNA\\] concentrations le",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Currently being treated with a stable antiretroviral (ARV) regimen consisting of a boosted protease inhibitor (limited to darunavir \\[DRV\\] or atazanavir with low-dose ritonavir \\[rtv\\] or cobicistat \\[COBI\\], or lopinavir with rtv) combined with emtricitabine/tenofovir disopr",
+            "endpoints": [
+              "Percentage of Participants With Virologic Rebound (HIV-1 RNA >=50 Copies/mL) Cumulative Through Week 48"
+            ],
+            "sponsor": "Janssen R&D Ireland",
+            "url": "https://clinicaltrials.gov/study/NCT02269917"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02938520",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Open-Label Study Evaluating the Efficacy, Safety, and Tolerability of Long-Acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor Single Tablet Regimen in HIV-1 Infected Antiretroviral Therapy Naive Adult Participants",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-10-27",
+            "completion_date": "2025-12-31",
+            "country": "Spain, United Kingdom, France, Canada, Netherlands, Germany, Italy, United States, Russia, South Africa, Japan",
+            "enrollment": 631,
+            "brief_summary": "The First Long-Acting Injectable Regimen (FLAIR) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult participants whose virus is virologically suppressed on an integrase inhibitor single tablet regimen (INI STR) will remain suppressed after switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). In this study, the INI STR will be limited to abacavir/dolutegravir/lamivudine (ABC/DTG/3TC). FLAI",
+            "eligibility_criteria": "Inclusion Criteria: - HIV-1 infected, ART-naive men or women aged 18 years or greater at the time of signing the informed consent. - HIV-1 infection as documented by Screening plasma HIV-1 RNA \\>=1000 c/mL; - Antiretroviral-naive (\\<=10 days of prior therapy with any antiretroviral agent following a",
+            "endpoints": [
+              "Percentage of Participants With Virologic Failure (HIV-1 Ribonucleic Acid [RNA] >=50 Copies Per Millilter [mL]) Using Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02938520"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02429791",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Dolutegravir Plus Rilpivirine From Current INI-, NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-Infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-04-14",
+            "completion_date": "2023-05-30",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Belgium, Netherlands, Germany, Argentina, Italy, United States, Russia, Taiwan",
+            "enrollment": 510,
+            "brief_summary": "The aim of this study was to determine if virologically suppressed human immunodeficiency virus type 1 (HIV-1) infected adults on an antiretroviral regimen (including 2 nucleoside reverse transcriptase inhibitors \\[NRTIs\\] plus a third agent) remain suppressed upon switching to a two-drug regimen with dolutegravir (DTG) + rilpivirine (RPV). The study primarily assessed the non-inferiority antiviral activity of switching to DTG + RPV once daily compared to continuation of current antiretroviral r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have been able to understand and comply with protocol requirements, instructions, and restrictions.\n* Participants must have been likely to complete the study as planned.\n* Participants must have been considered appropriate candidates for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 RNA <50 c/mL at Week 48 Using Snapshot Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02429791"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04518228",
+            "title": "Pharmacokinetic Properties of Antiretroviral and Anti-Tuberculosis Drugs During Pregnancy and Postpartum",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-09-01",
+            "completion_date": "2025-07-10",
+            "country": "India, Brazil, United States, Uganda, Kenya, South Africa, Puerto Rico, Thailand",
+            "enrollment": 205,
+            "brief_summary": "The purpose of this study is to evaluate the pharmacokinetic (PK) properties of antiretroviral (ARV) and anti-tuberculosis (TB) drugs administered during pregnancy and postpartum.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nComponent 1: Pregnant WLHIV receiving oral ARVs and no TB drugs, and their infants\n\n* Mother is of legal age or otherwise able to provide independent informed consent as determined by site standard operating procedures (SOPs) and consistent with site institutional review board (",
+            "endpoints": [
+              "Number of women who meet area under the curve (AUC) target in second trimester (2T)",
+              "Number of women who meet area under the curve (AUC) target in third trimester (3T)",
+              "Number of women who meet area under the curve (AUC) in postpartum (PP)"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04518228"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03299049",
+            "title": "A Phase IIIb, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Long-acting Cabotegravir Plus Long-acting Rilpivirine Administered Every 8 Weeks or Every 4 Weeks in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-10-27",
+            "completion_date": "2029-12-31",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Argentina, Italy, United States, Mexico, Russia, Sweden, South Africa",
+            "enrollment": 1049,
+            "brief_summary": "This Antiretroviral Therapy as Long Acting Suppression every 2 Months (ATLAS-2M) study is designed to demonstrate the non-inferior antiviral activity and safety of CAB LA + RPV LA administered every 8 weeks (Q8W) compared to CAB LA + RPV LA administered every 4 weeks (Q4W) over a 48-week treatment period in approximately 1020 adult HIV-1 infected subjects. Subjects will be divided in 2 groups; Group 1 will include subjects receiving current anti-retroviral (ART) standard of care (SOC) therapy wh",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects who will be able to understand and comply with protocol requirements, instructions, and restrictions.\n* Understand the long term commitment to the study and be likely to complete the study as planned\n* Be considered as an appropriate candidate for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus-ribonucleic Acid (HIV-RNA) >=50 Copies Per Milliliter (c/mL) as Per Food and Drug Administration (FDA) Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT03299049"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02397096",
+            "title": "A Phase III Multicenter, Open-Label, Randomized Study to Evaluate a Switch to MK-1439A in HIV-1-Infected Subjects Virologically Suppressed on a Regimen of a Ritonavir-boosted Protease Inhibitor and Two Nucleoside Reverse Transcriptase Inhibitors (NRTIs)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-06-09",
+            "completion_date": "2023-09-05",
+            "country": "N/A",
+            "enrollment": 673,
+            "brief_summary": "The multicenter, open label, randomized study will evaluate the safety and efficacy of a switch to MK-1439A (MK-1439 \\[doravirine\\] plus lamivudine and tenofovir disoproxil fumarate) in HIV-1-infected participants virologically suppressed on a protocol-specified antiretroviral regimen. The primary hypothesis is that a switch to doravirine, tenofovir, lamivudine will be non-inferior to continuation of the regimen at Screening for 24 weeks, as assessed by the proportion of participants maintaining",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria include, but are not limited to:\n\n* Have plasma Human Immunodeficiency Virus-1 Ribonucleic Acid (HIV-1 RNA) levels below the limit of quantification (BLoQ) (\\<40 copies/mL by the Abbott RealTime HIV-1 Assay as determined by the central laboratory) at the scree",
+            "endpoints": [
+              "Percentage of Participants Maintaining Human Immunodeficiency Virus-1 Ribonucleic Acid (HIV-1 RNA) <50 Copies/mL"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02397096"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02951052",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Long-acting Cabotegravir Plus Long-acting Rilpivirine From Current INI- NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-10-28",
+            "completion_date": "2029-12-31",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Argentina, Italy, United States, Mexico, Russia, Sweden, South Africa",
+            "enrollment": 618,
+            "brief_summary": "The Antiretroviral Therapy as Long Acting Suppression (ATLAS) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult subjects with current viral suppression on a regimen with 2 nucleoside reverse transcriptase inhibitors (NRTIs) plus a third agent, remain suppressed upon switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). This is a Phase 3, multi-phase, randomized, open label, active-control",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged 18 years or older (or ≥19 where required by local regulatory agencies), at the time of signing the informed consent.\n* Must be on uninterrupted current regimen (either the initial or second ARV regimen) for at least 6 months prior to Screening. Any prior switch, defined a",
+            "endpoints": [
+              "Number of Participants With Virologic Failure (HIV-1 Ribonucleic Acid [RNA] >=50 Copies Per Millilter [mL]) Using Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02951052"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01641809",
+            "title": "A Phase IIb, Dose Ranging Study of Oral GSK1265744 in Combination With Nucleoside Reverse Transcriptase Inhibitors for Induction of Human Immunodeficiency Virus -1 (HIV-1) Virologic Suppression Followed by an Evaluation of Maintenance of Virologic Suppression When Oral GSK1265744 is Combined With Oral Rilpivirine in HIV-1 Infected, Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-08-06",
+            "completion_date": "2019-01-15",
+            "country": "Canada, United States",
+            "enrollment": 244,
+            "brief_summary": "The study is designed to select a dose of GSK1265744 primarily on the basis of antiviral activity and tolerability in HIV-1 infected, antiretroviral naive subjects.\n\nThis study consists of two parts:\n\nInduction Phase: Approximately 200 subjects will be randomized (50 subjects in each of the 4 treatment arms). The Induction Phase consists of a 24 week dose-ranging evaluation of GSK1265744 at blinded doses of 10 mg, 30 mg and 60 mg once-daily and a control arm of open-label efavirenz (EFV) 600 mg ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected male or female subjects \\>= 18 years of age\n* Screening plasma HIV-1 RNA \\>=1000 c/mL\n* CD4+ cell count \\>=200 cells/millimeter (mm)\\^3\n* ART-naive defined as having =\\<10 days of prior therapy with any antiretroviral agent following a diagnosis of HIV-1 infecti",
+            "endpoints": [
+              "Percentage of Participants With HIV-1 Ribonucleic Acid (RNA) <50 Copies/Milliliter (mL) at Week 48 Using the Missing, Switch, Discontinuation Equals Failure (MSDF) Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01641809"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04442737",
+            "title": "A Phase 4, Randomized, Active-Controlled, Open-label Study to Evaluate the Safety and Tolerability of Switching to Once-Daily Darunavir/Cobicistat/Emtricitabine/Tenofovir Alafenamide (D/C/F/TAF) Fixed-dose Combination (FDC) Regimen in Virologically-suppressed Human Immunodeficiency Virus Type 1 (HIV-1) Infected Participants Experiencing Rapid Weight Gain With an INI + TAF/FTC ARV Regimen",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-07-01",
+            "completion_date": "2023-08-30",
+            "country": "United States",
+            "enrollment": 103,
+            "brief_summary": "The purpose of this study is to assess the percent change in body weight when switching to darunavir/cobicistat/emtricitabine/tenofovir alafenamide (D/C/F/TAF) fixed-dose combination (FDC) (Immediate Switch Arm) compared to continuing the current integrase (INI) + tenofovir alafenamide/emtricitabine (TAF/FTC) antiretroviral (ARV) regimen (Delayed Switch Arm) in virologically-suppressed human immunodeficiency virus (HIV)-1 infected participants who have experienced rapid and significant body weig",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Body Mass Index (BMI) of greater than or equal to (\\>=) 18 kilogram per meter square (kg/m\\^2) at time of starting an integrase (INI)-based regimen plus Tenofovir Alafenamide/Emtricitabine (TAF/FTC) antiretroviral (ARV) regimen\n* Documented human immunodeficiency virus (HIV)-1",
+            "endpoints": [
+              "Percent Change From Baseline in Body Weight at Week 24",
+              "Percent Change From Baseline in Body Weight at Week 24: Body Mass Index (BMI) >=30 Kilograms Per Square Meter (kg/m^2) Subgroup",
+              "Percent Change From Baseline in Body Weight at Week 24: Female and Male Subgroup"
+            ],
+            "sponsor": "Janssen Scientific Affairs, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT04442737"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04630002",
+            "title": "Open-Label, Single-Sequence Study to Evaluate the Effects of Darunavir/Ritonavir and/or Etravirine on the Pharmacokinetics of GSK3640254 and the Effects of GSK3640254 on the Pharmacokinetics of Darunavir/Ritonavir and/or Etravirine in Heathy Adults",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2020-10-28",
+            "completion_date": "2021-10-02",
+            "country": "United States",
+            "enrollment": 54,
+            "brief_summary": "This is an open-label, single-sequence, multiple-dose, 3 cohort study to investigate the effects of DRV/RTV and/or ETR on the pharmacokinetics (PK) of GSK3640254 and the effects of GSK3640254 on the PK of DRV/RTV and/or ETR. This study will aid in understanding these interactions and resulting changes in exposure (if any) when given in combination with GSK3640254.",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Participant must be 18 to 50 years of age inclusive, at the time of signing the informed consent.\n* Participants who are overtly healthy as determined by investigator or medically qualified designee based on a medical evaluation including medical history, physical examination,",
+            "endpoints": [
+              "Cohort 1: Area Under the Plasma Concentration-time Curve From Time Zero to the End of the Dosing Interval at Steady State (AUC[0-tau]) of GSK3640254",
+              "Cohort 1: Maximum Observed Concentration (Cmax) of GSK3640254",
+              "Cohort 1: AUC(0-tau) of DRV"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT04630002"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02275780",
+            "title": "A Phase 3 Multicenter, Double-Blind, Randomized, Active Comparator-Controlled Clinical Trial to Evaluate the Safety and Efficacy of Doravirine (MK-1439) 100 mg Once Daily Versus Darunavir 800 mg Once Daily Plus Ritonavir 100 mg Once Daily, Each in Combination With TRUVADA™ or EPZICOM™/KIVEXA™, in Treatment-Naïve HIV-1 Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-12-01",
+            "completion_date": "2023-03-06",
+            "country": "N/A",
+            "enrollment": 769,
+            "brief_summary": "To establish a new treatment option for treatment-naïve participants with HIV-1, the efficacy and safety of doravirine will be determined relative to a protease inhibitor (PI). Participants will receive double-blind treatment during the 96-week Base Study. Eligible participants in either of the Base Study groups will continue to receive the doravirine-containing regimen open label for an additional 96 weeks in the Study Extension 1. Eligible participants who are deriving benefit will continue in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Is HIV-1 positive and has HIV treatment indicated based on physician assessment.\n* Has received no (0 days of) antiretroviral therapy (ART), including investigational antiretroviral agents.\n* Is considered clinically stable with no signs or symptoms of active infection for at ",
+            "endpoints": [
+              "Percentage of Participants Achieving Plasma HIV-1 RNA <50 Copies/mL at Week 48"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02275780"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02431247",
+            "title": "A Phase 3, Randomized, Active-controlled, Double-blind Study to Evaluate Efficacy and Safety of Darunavir/Cobicistat/Emtricitabine/Tenofovir Alafenamide (D/C/F/TAF) Once Daily Fixed Dose Combination Regimen Versus a Regimen Consisting of Darunavir/Cobicistat Fixed Dose Combination Coadministered With Emtricitabine/Tenofovir Disoproxil Fumarate Fixed Dose Combination in Antiretroviral Treatment-naive Human Immunodeficiency Virus Type 1 Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-07-06",
+            "completion_date": "2020-09-30",
+            "country": "Spain, United Kingdom, France, Canada, Belgium, Germany, United States, Russia, Puerto Rico, Poland",
+            "enrollment": 725,
+            "brief_summary": "The purpose of this study is to demonstrate non-inferiority in efficacy of a darunavir/cobicistat/emtricitabine/tenofovir alafenamide (D/C/F/TAF) fixed dose combination (FDC) tablet versus Darunavir/Cobicistat (DRV/COBI) FDC coadministered with Emtricitabine/tenofovir disoproxil fumarate (FTC/TDF) FDC in human immunodeficiency virus-1 (HIV-1) infected, antiretroviral (ARV) treatment naive adult participants.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject must be antiretroviral (ARV) treatment-naive (never treated with an ARV including post-exposure prophylaxis and pre-exposure prophylaxis); no prior use of any approved or experimental anti- human immunodeficiency virus (anti-HIV) drug for any length of time\n* Screening",
+            "endpoints": [
+              "Percentage of Participants With Human Immunodeficiency Virus (HIV)-1 Ribonucleic Acid (RNA) Less Than (<) 50 Copies Per Milliliter (Copies Per mL) (Virologic Response) at Week 48 Defined by Food and Drug Administration (FDA) Snapshot Approach"
+            ],
+            "sponsor": "Janssen Sciences Ireland UC",
+            "url": "https://clinicaltrials.gov/study/NCT02431247"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00042289",
+            "title": "Pharmacokinetic Properties of Antiretroviral and Related Drugs During Pregnancy and Postpartum",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2003-06-09",
+            "completion_date": "2020-09-30",
+            "country": "Brazil, Argentina, United States, Botswana, South Africa, Tanzania, Puerto Rico, Thailand",
+            "enrollment": 1578,
+            "brief_summary": "IMPAACT P1026s is a Phase IV prospective clinical study to evaluate the pharmacokinetics (PKs) of antiretroviral (ARV) and tuberculosis (TB) medications in pregnant women and their infants. (Pharmacokinetics are the various interactions between a drug and the body.) This study also evaluated the PKs of certain ARVs in postpartum women before and after starting hormonal contraceptives. The PKs of these drugs were evaluated by measuring the amount of medicine present in blood and/or vaginal secret",
+            "eligibility_criteria": "Maternal Inclusion Criteria:\n\n* Participant must belong to one of the following 5 groups:\n\n  1. HIV-infected pregnant women greater than or equal to 20 weeks gestation NOT on TB treatment receiving one or more of the ARV drugs/drug combinations specified in the protocol\n  2. HIV-infected pregnant wo",
+            "endpoints": [
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Median (IQR) for ARVs and TB Drugs",
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Median (Range) for ARVs and TB Drugs",
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Geometric Mean (95% CI) for ARVs and TB Drugs"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00042289"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04340388",
+            "title": "Contribution of the Integrase Inhibitor Dolutegravir to Obesity and Cardiovascular Disease in Persons Living With HIV",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-09-17",
+            "completion_date": "2023-02-25",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "The goal of the study is to combine a collaborative and translational approach to evaluate the effect antiretroviral regimen switch to a dolutegravir containing regimen compared to continued treatment with a non- dolutegravir based regimen on on lipid and metabolic profiles, renal function, body composition, vascular function and diet.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubjects must meet the following criteria to be eligible for participation in this study:\n\n* Age greater than or equal to 18 years with HIV-1 who have been virologically suppressed (HIV-1 RNA \\< 50 copies for greater than or equal to 3 months on a non-integrase strand transfer i",
+            "endpoints": [
+              "Change in Weight"
+            ],
+            "sponsor": "Augusta University",
+            "url": "https://clinicaltrials.gov/study/NCT04340388"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01199731",
+            "title": "A Phase 2b Study to Select a Once Daily Oral Dose of GSK2248761 in HIV-1 Infected Antiretroviral Therapy Experienced Adults With Non-nucleoside Reverse Transcriptase Inhibitor (NNRTI) Resistance",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-10-05",
+            "completion_date": "2011-07-19",
+            "country": "Canada, Romania, Belgium, Italy, United States",
+            "enrollment": 30,
+            "brief_summary": "This 48 week, phase 2b study in 150 HIV-1 infected antiretroviral therapy experienced adult subjects consists of a dose-ranging evaluation of GSK2248761 at blinded doses of 100 mg and 200 mg once daily with a control arm of open-label etravirine (ETV) 200 mg twice daily. The background ART for all three arms will be darunavir/ritonavir (DRV/r) 600 mg/100 mg twice daily plus raltegravir (RAL) 400 mg twice daily. Antiviral activity, safety, PK, and development of viral resistance will be evaluated",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected adults greater than or equal to 18 years of age. Females are eligible to enter and participate in the study if she is (1) non-childbearing potential, (2) child bearing potential with negative pregnancy test at screening and Day 1 and agrees to use protocol-speci",
+            "endpoints": [
+              "Percentage of Participants With Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies Per Milliliter (/mL) at Week 16"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01199731"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06005610",
+            "title": "Giving Standardized Estradiol Therapy In Transgender Women to Research Interactions With HIV Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2024-01-04",
+            "completion_date": "2025-08-21",
+            "country": "Peru, Mexico, United States, Thailand",
+            "enrollment": 93,
+            "brief_summary": "Transgender women (TW) are a key population and priority for HIV treatment. More research is needed to develop evidence-based clinical guidance when it comes to choosing antiretroviral treatment (ART) regimens for TW on feminizing hormonal therapy (FHT). Concerns about ART interacting with FHT and decreasing its effectiveness can lead to decreased ART adherence and increased viral loads.\n\nThe GET IT RiGHT trial aims to address concerns about drug-drug interactions (DDIs) between ART and FHT whil",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age greater than or equal to 18 years.\n2. Documentation of HIV-1 status.\n3. Assigned male sex at birth and identifies as a TW, female or transfeminine person.\n4. On ART for at least 24 weeks prior to study entry. Regimen changes within the 24 weeks prior to study entry are ac",
+            "endpoints": [
+              "Geometric Mean Ratio of ART Analytes BIC, DTG, and DRV trough concentrations (Ctrough) in plasma at each received dose of oral 17-β estradiol",
+              "Percentage of Participants with ART Analyte trough concentration (Ctrough) above drug-specific threshold",
+              "Trough serum total estradiol assessed at each received dose of oral 17-β estradiol as quantified via batch testing at central lab."
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT06005610"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01281813",
+            "title": "Continued Access to Darunavir/Ritonavir (DRV/Rtv) in HIV-1 Infected Adults, Adolescents and Children Aged 3 Years and Above",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-08-08",
+            "completion_date": "2021-07-29",
+            "country": "Brazil, Malaysia, Ukraine, Costa Rica, South Africa, Panama, Thailand, Guatemala",
+            "enrollment": 145,
+            "brief_summary": "The primary objective of this trial is to continue the provision of darunavir/ low-dose ritonavir (DRV/rtv) to adult and pediatric patients who previously received DRV/rtv in the clinical trials TMC114-C211, TMC114-C214, TMC114-TiDP31-C229 or in the pediatric trial TMC114-TiDP29-C232 who continue to benefit from the use of darunavir in combination with low-dose ritonavir (DRV/rtv), in countries where DRV is not commercially available for the subject, is not reimbursed, or cannot be accessed thro",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients treated with DRV/rtv who have successfully completed the TMC114-C211, TMC114-C214, TMC114-TiDP31-C229 (parent) trial or the pediatric (parent) trial TMC114-TiDP29-C232 and in the opinion of the investigator continue to receive benefit from using DRV/rtv\n* DRV is not c",
+            "endpoints": [
+              "Number of Participants With Serious Adverse Events",
+              "Number of Participants With Adverse Events Leading to Study Drug Discontinuation",
+              "Number of Participants With Adverse Events Possibly Related to Darunavir/Ritonavir (DRV/Rtv) Treatment"
+            ],
+            "sponsor": "Janssen Sciences Ireland UC",
+            "url": "https://clinicaltrials.gov/study/NCT01281813"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38788744",
+            "title": "Dolutegravir plus boosted darunavir versus recommended standard-of-care antiretroviral regimens in people with HIV-1 for whom recommended first-line non-nucleoside reverse transcriptase inhibitor therapy has failed (D2EFT): an open-label, randomised, phase 3b/4 trial.",
+            "abstract": "Randomised comparative data on efficacy and safety of second-line antiretroviral therapy (ART) after failure of non-nucleoside reverse transcriptase inhibitors (NNRTIs) across diverse geographical settings are scarce. The aim of this study was to evaluate optimal second-line ART for people with HIV.",
+            "journal": "The lancet. HIV",
+            "year": "2024",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Clinical Trial, Phase IV",
+              "Multicenter Study",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Darunavir",
+              "HIV Infections",
+              "Female",
+              "Adult",
+              "Male",
+              "Oxazines",
+              "Pyridones",
+              "HIV-1",
+              "Heterocyclic Compounds, 3-Ring"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38788744/"
+          },
+          {
+            "pmid": "25326090",
+            "title": "Pharmacokinetics of total and unbound darunavir in HIV-1-infected pregnant women.",
+            "abstract": "To describe the pharmacokinetics of darunavir in pregnant HIV-infected women in the third trimester and post-partum.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2015",
+            "authors": [
+              "Colbers Angela",
+              "Moltó José",
+              "Ivanovic Jelena",
+              "Kabeya Kabamba",
+              "Hawkins David"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase IV",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Darunavir",
+              "Drug Administration Schedule",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Infections",
+              "HIV Protease Inhibitors",
+              "HIV-1",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25326090/"
+          },
+          {
+            "pmid": "35809963",
+            "title": "A 28-Year-Old Man With Diffuse Bilateral Pulmonary Nodules.",
+            "abstract": "A 28-year-old man with a history of congenital HIV sought treatment at the ED with a chief symptom of generalized malaise and confusion of 3 days' duration. He had mild dyspnea, but no respiratory distress, and he reported no fever, chest pain, or headache. We were unable to obtain past medical, family, or social history because of encephalopathy and we had no available contact person. Review of the patient's medical record revealed he made an initial clinic visit to the Department of Pediatric Infectious Disease 5 years previously. At the time of that visit, CD4 count was 250 cells/mm3 and no known complications of HIV were documented. He was prescribed Stribild (elvitegravir-cobicistat-emtricitabine-tenofovir disoproxil fumarate) and darunavir; however, pharmacy records revealed he did not fill the prescriptions. He underwent no further clinic follow-up examinations. He grew up in California and moved to upstate New York 5 years previously.",
+            "journal": "Chest",
+            "year": "2022",
+            "authors": [
+              "Pokhrel Kiran",
+              "Barry Suzanne",
+              "Ibrahim Ammoura",
+              "Smith Thomas",
+              "Chopra Amit"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-HIV Agents",
+              "Child",
+              "Cobicistat",
+              "Drug Combinations",
+              "Emtricitabine",
+              "HIV Infections",
+              "Humans",
+              "Male",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35809963/"
+          },
+          {
+            "pmid": "38864586",
+            "title": "First-trimester exposure to newer antiretroviral agents and congenital anomalies in a US cohort.",
+            "abstract": "To characterize associations of exposure to newer antiretroviral medications in the first trimester with congenital anomalies among infants born to persons with HIV in the United States.",
+            "journal": "AIDS (London, England)",
+            "year": "2024",
+            "authors": [
+              "Fung Kelly",
+              "Hernandez-Diaz Sonia",
+              "Zash Rebecca",
+              "Chadwick Ellen G",
+              "Van Dyke Russell B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Pregnancy",
+              "Pregnancy Trimester, First",
+              "HIV Infections",
+              "United States",
+              "Adult",
+              "Abnormalities, Drug-Induced",
+              "Infant, Newborn",
+              "Longitudinal Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38864586/"
+          },
+          {
+            "pmid": "31595301",
+            "title": "Analysis of Pharmacovigilance Databases for Dolutegravir Safety in Pregnancy.",
+            "abstract": "The Botswana Tsepamo study reported neural tube defects (NTDs) in 4 of 426 (0.94%) infants of women receiving preconception dolutegravir (DTG) antiretroviral therapy (ART) vs 14 of 11 300 (0.12%) receiving preconception non-DTG ART. Data are needed to investigate this potential safety signal. Clinicians, patients, and pharmaceutical companies can report adverse drug reactions (ADRs) to pharmacovigilance databases. Data from ADRs reported to various pharmacovigilance databases were searched for NTDs.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2020",
+            "authors": [
+              "van De Ven Nikolien S",
+              "Pozniak Anton L",
+              "Levi Jacob A",
+              "Clayden Polly",
+              "Garratt Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Botswana",
+              "Databases, Factual",
+              "Female",
+              "HIV Infections",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Oxazines",
+              "Pharmacovigilance",
+              "Piperazines",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31595301/"
+          },
+          {
+            "pmid": "20587860",
+            "title": "Use of newer antiretroviral agents, darunavir and etravirine with or without raltegravir, in pregnancy: a report of two cases.",
+            "abstract": "Although antiretroviral therapy during pregnancy is associated with significant reductions in the risk of vertical transmission of HIV, attainment of this outcome in highly treatment-experienced pregnant women might be complicated by the lack of active drugs available to assemble a potent regimen. The recent licensing and availability of darunavir, etravirine and raltegravir has broadened management options available for highly treatment-experienced patients. However, data on their safety and efficacy in preventing vertical transmission are limited.",
+            "journal": "Antiviral therapy",
+            "year": "2010",
+            "authors": [
+              "Jaworsky Denise",
+              "Thompson Courtney",
+              "Yudin Mark H",
+              "Bitnun Ari",
+              "Brophy Jason"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-HIV Agents",
+              "Darunavir",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Infant",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20587860/"
+          },
+          {
+            "pmid": "34151853",
+            "title": "Inflammatory Myositis Secondary to Anti-Retroviral Therapy in a Child; Case Report and Review of the Literature.",
+            "abstract": "Here, we describe a five year old girl with congenital HIV who had a six-week onset of rapidly deteriorating mobility and progressive proximal muscle weakness, associated with a raised Creatine Kinase (CK) level of 4330 U/L [25-200 U/L], subsequently diagnosed with an inflammatory myositis. Potential causes were investigated by paediatric neurology and immunology teams. Her viral load had been undetectable over the preceding two years, excluding a primary HIV myositis. While MRI scanning did not show evidence of definite myositis, a muscle biopsy showed evidence of an inflammatory process, comprising a moderate endomysial, perimysial and perivascular mononuclear (CD8 + T cell) infiltrate with increased MHC expression. No particular features of dermatomyositis or immune-mediated necrotising myopathy were identified and there were no features of an inclusion body myositis.Given the absence of active HIV infection, the role of anti-retroviral medications was considered. She had had a rece",
+            "journal": "Journal of neuromuscular diseases",
+            "year": "2021",
+            "authors": [
+              "Monaghan Marie",
+              "Loh Charlotte",
+              "Jones Stephen",
+              "Oware Agyepong",
+              "Urankar Kathryn"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Child, Preschool",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Lamivudine",
+              "Myositis",
+              "Raltegravir Potassium",
+              "Viral Load"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34151853/"
+          },
+          {
+            "pmid": "33048878",
+            "title": "Risk of birth defects and perinatal outcomes in HIV-infected women exposed to integrase strand inhibitors during pregnancy.",
+            "abstract": "Following an alert on neural tube defects and dolutegravir, we sought to evaluate if the exposure integrase strand transfer inhibitors (INSTIs) at conception was associated with birth defects or other adverse pregnancy outcomes.",
+            "journal": "AIDS (London, England)",
+            "year": "2021",
+            "authors": [
+              "Sibiude Jeanne",
+              "Le Chenadec Jérôme",
+              "Mandelbrot Laurent",
+              "Dollfus Catherine",
+              "Matheron Sophie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Drug-Induced",
+              "Congenital Abnormalities",
+              "Female",
+              "HIV Infections",
+              "HIV Integrase Inhibitors",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Infant, Newborn",
+              "Integrases",
+              "Oxazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33048878/"
+          },
+          {
+            "pmid": "25172528",
+            "title": "[Retinal folds as a non-reported secondary effect of darunavir in a 20 year-old HIV patient].",
+            "abstract": "",
+            "journal": "Archivos de la Sociedad Espanola de Oftalmologia",
+            "year": "2015",
+            "authors": [
+              "Hernández Bel L",
+              "Cabrera A",
+              "Domenech N",
+              "Moratal E Cervera B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Darunavir",
+              "Female",
+              "HIV Infections",
+              "HIV Protease Inhibitors",
+              "Humans",
+              "Levofloxacin",
+              "Meropenem",
+              "Ophthalmoscopy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25172528/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of prostate",
+        "txgnn_score": 0.977432131767273,
+        "txgnn_rank": 18237,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Brenner tumor",
+        "txgnn_score": 0.975261688232422,
+        "txgnn_rank": 19218,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign reproductive system neoplasm",
+        "txgnn_score": 0.9752289056777954,
+        "txgnn_rank": 19237,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign prostate phyllodes tumor",
+        "txgnn_score": 0.9734718203544616,
+        "txgnn_rank": 19931,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01264",
+    "name": "Darunavir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Darunavir"
+      },
+      "queried_at": "2026-03-09T10:24:23.276809",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Darunavir"
+      },
+      "queried_at": "2026-03-09T10:24:25.022048",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T10:24:25.657754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T10:24:29.717449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T10:24:32.529464",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T10:24:33.189838",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T10:24:39.411279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T10:24:40.201735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T10:24:40.752973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T10:24:45.756697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T10:24:46.805099",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T10:24:47.332133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T10:24:51.355899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T10:24:52.801948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T10:24:54.501419",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T10:24:59.132059",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T10:25:01.434710",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T10:25:06.340681",
+      "status": "success",
+      "result_count": 23,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T10:25:09.769297",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T10:25:12.673416",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T10:25:13.314887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T10:25:17.201170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T10:25:17.852437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T10:25:20.257744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T10:25:24.869834",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T10:25:25.611498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T10:25:26.303905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T10:25:30.107154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T10:25:30.948574",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "queried_at": "2026-03-09T10:25:31.926099",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "queried_at": "2026-03-09T10:25:35.469523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Darunavir",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "queried_at": "2026-03-09T10:25:37.044746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:25:37.052194"
+  }
+}

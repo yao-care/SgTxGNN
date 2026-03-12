@@ -1,0 +1,408 @@
+{
+  "source": "pubmed",
+  "query": {
+    "drug": "Nortriptyline",
+    "disease": "specific developmental disorder",
+    "query_string": "Nortriptyline AND specific developmental disorder"
+  },
+  "data": {
+    "query": "Nortriptyline AND specific developmental disorder",
+    "results": [
+      {
+        "pmid": "27089522",
+        "title": "Combining clinical variables to optimize prediction of antidepressant treatment outcomes.",
+        "abstract": "The outcome of treatment with antidepressants varies markedly across people with the same diagnosis. A clinically significant prediction of outcomes could spare the frustration of trial and error approach and improve the outcomes of major depressive disorder through individualized treatment selection. It is likely that a combination of multiple predictors is needed to achieve such prediction. We used elastic net regularized regression to optimize prediction of symptom improvement and remission during treatment with escitalopram or nortriptyline and to identify contributing predictors from a range of demographic and clinical variables in 793 adults with major depressive disorder. A combination of demographic and clinical variables, with strong contributions from symptoms of depressed mood, reduced interest, decreased activity, indecisiveness, pessimism and anxiety significantly predicted treatment outcomes, explaining 5-10% of variance in symptom improvement with escitalopram. Similar c",
+        "journal": "Journal of psychiatric research",
+        "year": "2016",
+        "authors": [
+          "Iniesta Raquel",
+          "Malki Karim",
+          "Maier Wolfgang",
+          "Rietschel Marcella",
+          "Mors Ole"
+        ],
+        "pub_types": [
+          "Comparative Study",
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Age Factors",
+          "Antidepressive Agents",
+          "Area Under Curve",
+          "Body Mass Index",
+          "Citalopram",
+          "Major Depressive Disorder",
+          "Female",
+          "Humans",
+          "Machine Learning",
+          "Male"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27089522/"
+      },
+      {
+        "pmid": "29615645",
+        "title": "Antidepressant drug-specific prediction of depression treatment outcomes from genetic and clinical variables.",
+        "abstract": "Individuals with depression differ substantially in their response to treatment with antidepressants. Specific predictors explain only a small proportion of these differences. To meaningfully predict who will respond to which antidepressant, it may be necessary to combine multiple biomarkers and clinical variables. Using statistical learning on common genetic variants and clinical information in a training sample of 280 individuals randomly allocated to 12-week treatment with antidepressants escitalopram or nortriptyline, we derived models to predict remission with each antidepressant drug. We tested the reproducibility of each prediction in a validation set of 150 participants not used in model derivation. An elastic net logistic model based on eleven genetic and six clinical variables predicted remission with escitalopram in the validation dataset with area under the curve 0.77 (95%CI; 0.66-0.88; p = 0.004), explaining approximately 30% of variance in who achieves remission. A model ",
+        "journal": "Scientific reports",
+        "year": "2018",
+        "authors": [
+          "Iniesta Raquel",
+          "Hodgson Karen",
+          "Stahl Daniel",
+          "Malki Karim",
+          "Maier Wolfgang"
+        ],
+        "pub_types": [
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Antidepressive Agents, Second-Generation",
+          "Antidepressive Agents, Tricyclic",
+          "Biomarkers",
+          "Citalopram",
+          "Major Depressive Disorder",
+          "Female",
+          "Humans",
+          "Male",
+          "Nortriptyline"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29615645/"
+      },
+      {
+        "pmid": "25017001",
+        "title": "An inflammatory biomarker as a differential predictor of outcome of depression treatment with escitalopram and nortriptyline.",
+        "abstract": "Major depressive disorder has been linked with inflammatory processes, but it is unclear whether individual differences in levels of inflammatory biomarkers could help match patients to treatments that are most likely to be beneficial. The authors tested the hypothesis that C-reactive protein (CRP), a commonly available marker of systemic inflammation, predicts differential response to escitalopram (a serotonin reuptake inhibitor) and nortriptyline (a norepinephrine reuptake inhibitor).",
+        "journal": "The American journal of psychiatry",
+        "year": "2014",
+        "authors": [
+          "Uher Rudolf",
+          "Tansey Katherine E",
+          "Dew Tracy",
+          "Maier Wolfgang",
+          "Mors Ole"
+        ],
+        "pub_types": [
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Academic Medical Centers",
+          "Adult",
+          "Antidepressive Agents, Second-Generation",
+          "Antidepressive Agents, Tricyclic",
+          "Biomarkers",
+          "C-Reactive Protein",
+          "Citalopram",
+          "Confounding Factors, Epidemiologic",
+          "Major Depressive Disorder",
+          "Europe"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25017001/"
+      },
+      {
+        "pmid": "22391106",
+        "title": "Non-steroidal anti-inflammatory drugs and efficacy of antidepressants in major depressive disorder.",
+        "abstract": "It has been proposed that non-steroidal anti-inflammatory drugs (NSAIDs) may interfere with the efficacy of antidepressants and contribute to treatment resistance in major depressive disorder (MDD). This effect requires replication and a test of whether it is specific to serotonin-reuptake inhibiting (SRI) antidepressants.",
+        "journal": "Psychological medicine",
+        "year": "2012",
+        "authors": [
+          "Uher R",
+          "Carver S",
+          "Power R A",
+          "Mors O",
+          "Maier W"
+        ],
+        "pub_types": [
+          "Journal Article",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Age Distribution",
+          "Anti-Inflammatory Agents, Non-Steroidal",
+          "Antidepressive Agents, Tricyclic",
+          "Citalopram",
+          "Major Depressive Disorder",
+          "Drug Interactions",
+          "Female",
+          "Humans",
+          "Male"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22391106/"
+      },
+      {
+        "pmid": "39470297",
+        "title": "Optimizing the Prediction of Depression Remission: A Longitudinal Machine Learning Approach.",
+        "abstract": "Decisions about when to change antidepressant treatment are complex and benefit from accurate prediction of treatment outcome. Prognostic accuracy can be enhanced by incorporating repeated assessments of symptom severity collected during treatment. Participants (n = 714) from the Genome-Based Therapeutic Drugs for Depression study received escitalopram or nortriptyline over 12 weeks. Remission was defined as scoring ≤ 7 on the Hamilton Rating Scale. Predictors included demographic, clinical, and genetic variables (at 0 weeks) and measures of symptom severity (at 0, 2, 4, and 6 weeks). Longitudinal descriptors extracted with growth curves and topological data analysis were used to inform prediction of remission. Repeated assessments produced gradual and drug-specific improvements in predictive performance. By Week 4, models' discrimination in all samples reached levels that might usefully inform treatment decisions (area under the receiver operating curve (AUC) = 0.777 for nortriptyline",
+        "journal": "American journal of medical genetics. Part B, Neuropsychiatric genetics : the official publication of the International Society of Psychiatric Genetics",
+        "year": "2025",
+        "authors": [
+          "Carr Ewan",
+          "Rietschel Marcella",
+          "Mors Ole",
+          "Henigsberg Neven",
+          "Aitchison Katherine J"
+        ],
+        "pub_types": [
+          "Journal Article"
+        ],
+        "mesh_terms": [
+          "Humans",
+          "Machine Learning",
+          "Male",
+          "Female",
+          "Nortriptyline",
+          "Depression",
+          "Adult",
+          "Antidepressive Agents",
+          "Remission Induction",
+          "Longitudinal Studies"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39470297/"
+      },
+      {
+        "pmid": "19863842",
+        "title": "Trajectories of change in depression severity during treatment with antidepressants.",
+        "abstract": "Response and remission defined by cut-off values on the last observed depression severity score are commonly used as outcome criteria in clinical trials, but ignore the time course of symptomatic change and may lead to inefficient analyses. We explore alternative categorization of outcome by naturally occurring trajectories of symptom change.",
+        "journal": "Psychological medicine",
+        "year": "2010",
+        "authors": [
+          "Uher R",
+          "Muthén B",
+          "Souery D",
+          "Mors O",
+          "Jaracz J"
+        ],
+        "pub_types": [
+          "Comparative Study",
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Antidepressive Agents",
+          "Citalopram",
+          "Depressive Disorder",
+          "Europe",
+          "Female",
+          "Follow-Up Studies",
+          "Genotype",
+          "Humans",
+          "Male"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19863842/"
+      },
+      {
+        "pmid": "27207917",
+        "title": "Absolute Measurements of Macrophage Migration Inhibitory Factor and Interleukin-1-β mRNA Levels Accurately Predict Treatment Response in Depressed Patients.",
+        "abstract": "Increased levels of inflammation have been associated with a poorer response to antidepressants in several clinical samples, but these findings have had been limited by low reproducibility of biomarker assays across laboratories, difficulty in predicting response probability on an individual basis, and unclear molecular mechanisms.",
+        "journal": "The international journal of neuropsychopharmacology",
+        "year": "2016",
+        "authors": [
+          "Cattaneo Annamaria",
+          "Ferrari Clarissa",
+          "Uher Rudolf",
+          "Bocchio-Chiavetto Luisella",
+          "Riva Marco Andrea"
+        ],
+        "pub_types": [
+          "Comparative Study",
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Affect",
+          "Antidepressive Agents, Second-Generation",
+          "Antidepressive Agents, Tricyclic",
+          "Cell-Free Nucleic Acids",
+          "Citalopram",
+          "Major Depressive Disorder",
+          "Discriminant Analysis",
+          "Female",
+          "Gene Expression Profiling"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27207917/"
+      },
+      {
+        "pmid": "19365399",
+        "title": "Genetic predictors of response to antidepressants in the GENDEP project.",
+        "abstract": "The objective of the Genome-based Therapeutic Drugs for Depression study is to investigate the function of variations in genes encoding key proteins in serotonin, norepinephrine, neurotrophic and glucocorticoid signaling in determining the response to serotonin-reuptake-inhibiting and norepinephrine-reuptake-inhibiting antidepressants. A total of 116 single nucleotide polymorphisms in 10 candidate genes were genotyped in 760 adult patients with moderate-to-severe depression, treated with escitalopram (a serotonin reuptake inhibitor) or nortriptyline (a norepinephrine reuptake inhibitor) for 12 weeks in an open-label part-randomized multicenter study. The effect of genetic variants on change in depressive symptoms was evaluated using mixed linear models. Several variants in a serotonin receptor gene (HTR2A) predicted response to escitalopram with one marker (rs9316233) explaining 1.1% of variance (P=0.0016). Variants in the norepinephrine transporter gene (SLC6A2) predicted response to ",
+        "journal": "The pharmacogenomics journal",
+        "year": "2009",
+        "authors": [
+          "Uher Rudolf",
+          "Huezo-Diaz Patricia",
+          "Perroud Nader",
+          "Smith Rebecca",
+          "Rietschel Marcella"
+        ],
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Antidepressive Agents",
+          "Citalopram",
+          "Depressive Disorder",
+          "Humans",
+          "Linkage Disequilibrium",
+          "Norepinephrine Plasma Membrane Transport Proteins",
+          "Nortriptyline",
+          "Pharmacogenetics",
+          "Receptor, Serotonin, 5-HT2A"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19365399/"
+      },
+      {
+        "pmid": "20877300",
+        "title": "Genome-wide association study of increasing suicidal ideation during antidepressant treatment in the GENDEP project.",
+        "abstract": "Suicidal thoughts during antidepressant treatment have been the focus of several candidate gene association studies. The aim of the present genome-wide association study was to identify additional genetic variants involved in increasing suicidal ideation during escitalopram and nortriptyline treatment. A total of 706 adult participants of European ancestry, treated for major depression with escitalopram or nortriptyline over 12 weeks in the Genome-Based Therapeutic Drugs for Depression (GENDEP) study were genotyped with Illumina Human 610-Quad Beadchips (Illumina, San Diego, CA, USA). A total of 244 subjects experienced an increase in suicidal ideation during follow-up. The genetic marker most significantly associated with increasing suicidality (8.28 × 10(-7)) was a single-nucleotide polymorphism (SNP; rs11143230) located 30 kb downstream of a gene encoding guanine deaminase (GDA) on chromosome 9q21.13. Two suggestive drug-specific associations within KCNIP4 (Kv channel-interacting pr",
+        "journal": "The pharmacogenomics journal",
+        "year": "2012",
+        "authors": [
+          "Perroud N",
+          "Uher R",
+          "Ng M Y M",
+          "Guipponi M",
+          "Hauser J"
+        ],
+        "pub_types": [
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Aged",
+          "Antidepressive Agents",
+          "Citalopram",
+          "Major Depressive Disorder",
+          "Female",
+          "Genome-Wide Association Study",
+          "Humans",
+          "Male",
+          "Middle Aged"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20877300/"
+      },
+      {
+        "pmid": "20360315",
+        "title": "Genome-wide pharmacogenetics of antidepressant response in the GENDEP project.",
+        "abstract": "The purpose of this study was to identify genetic variants underlying the considerable individual differences in response to antidepressant treatment. The authors performed a genome-wide association analysis of improvement of depression severity with two antidepressant drugs.",
+        "journal": "The American journal of psychiatry",
+        "year": "2010",
+        "authors": [
+          "Uher Rudolf",
+          "Perroud Nader",
+          "Ng Mandy Y M",
+          "Hauser Joanna",
+          "Henigsberg Neven"
+        ],
+        "pub_types": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Antidepressive Agents",
+          "Antidepressive Agents, Second-Generation",
+          "Citalopram",
+          "Depressive Disorder",
+          "Major Depressive Disorder",
+          "Genome-Wide Association Study",
+          "Genotype",
+          "Humans",
+          "Interleukin-11",
+          "Interleukin-6"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20360315/"
+      },
+      {
+        "pmid": "20609482",
+        "title": "Stressful life events, cognitive symptoms of depression and response to antidepressants in GENDEP.",
+        "abstract": "The occurrence of stressful life events (SLEs) has been shown to predict response to antidepressants; however, results are inconsistent. There is some evidence to suggest that SLEs prior to treatment are associated with greater cognitive symptoms at baseline and may therefore predict changes in these symptoms specifically.",
+        "journal": "Journal of affective disorders",
+        "year": "2010",
+        "authors": [
+          "Keers Robert",
+          "Uher Rudolf",
+          "Gupta Bhanu",
+          "Rietschel Marcella",
+          "Schulze Thomas G"
+        ],
+        "pub_types": [
+          "Comparative Study",
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Adult",
+          "Affect",
+          "Antidepressive Agents, Second-Generation",
+          "Antidepressive Agents, Tricyclic",
+          "Citalopram",
+          "Cognition Disorders",
+          "Major Depressive Disorder",
+          "Female",
+          "Humans",
+          "Life Change Events"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20609482/"
+      },
+      {
+        "pmid": "21929846",
+        "title": "Depression symptom dimensions as predictors of antidepressant treatment outcome: replicable evidence for interest-activity symptoms.",
+        "abstract": "Symptom dimensions have not yet been comprehensively tested as predictors of the substantial heterogeneity in outcomes of antidepressant treatment in major depressive disorder.",
+        "journal": "Psychological medicine",
+        "year": "2012",
+        "authors": [
+          "Uher R",
+          "Perlis R H",
+          "Henigsberg N",
+          "Zobel A",
+          "Rietschel M"
+        ],
+        "pub_types": [
+          "Clinical Trial",
+          "Journal Article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "mesh_terms": [
+          "Activities of Daily Living",
+          "Adult",
+          "Affect",
+          "Antidepressive Agents, Second-Generation",
+          "Antidepressive Agents, Tricyclic",
+          "Citalopram",
+          "Cognition",
+          "Major Depressive Disorder",
+          "Europe",
+          "Factor Analysis, Statistical"
+        ],
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21929846/"
+      }
+    ]
+  },
+  "timestamp": "2026-03-10T04:15:06.045879",
+  "success": true,
+  "error_message": null
+}

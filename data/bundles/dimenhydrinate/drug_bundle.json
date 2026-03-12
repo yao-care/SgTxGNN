@@ -1,0 +1,636 @@
+{
+  "drug": {
+    "inn": "Dimenhydrinate",
+    "drugbank_id": "DB00985",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9974038004875184,
+        "txgnn_rank": 4129,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30779257",
+            "title": "Diphenhydramine pharmacokinetics after oral and intravenous administration of diphenhydramine and oral administration of dimenhydrinate to healthy dogs, and pharmacodynamic effect on histamine-induced wheal formation: a pilot study.",
+            "abstract": "Histamine type-1 (H1) receptor antagonists such as diphenhydramine are frequently used for treatment of pruritus in dogs, yet therapeutic efficacy for allergic disorders is reported to be highly variable. Dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline, and has been reported to produce superior oral absorption of diphenhydramine.",
+            "journal": "Veterinary dermatology",
+            "year": "2019",
+            "authors": [
+              "Ehling Sarah",
+              "Bäumer Wolfgang",
+              "Papich Mark G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intravenous",
+              "Administration, Oral",
+              "Animals",
+              "Cross-Over Studies",
+              "Dimenhydrinate",
+              "Diphenhydramine",
+              "Dogs",
+              "Female",
+              "Half-Life",
+              "Histamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30779257/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.992363214492798,
+        "txgnn_rank": 8747,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9868618249893188,
+        "txgnn_rank": 12935,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00900302",
+            "title": "Study of The Examination of Sentinel Lymph Nodes for OX-40 Expression in Patients With Cancer",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2005-04",
+            "completion_date": "2011-03",
+            "country": "United States",
+            "enrollment": 98,
+            "brief_summary": "RATIONALE: Studying protein expression in sentinel lymph node tissue from patients with cancer in the laboratory may help doctors identify and learn more about biomarkers related to cancer. It may also help the study of cancer in the future.\n\nPURPOSE: This laboratory study is evaluating OX-40 protein expression in the sentinel lymph nodes of patients with cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed cancer, including, but not limited to, the following:\n\n  * Melanoma\n  * Breast cancer\n  * Invasive squamous cell cancer\n  * Other cancers for which patients underwent or will undergo the following:\n\n    * Adequate archived paraffi",
+            "endpoints": [
+              "OX-40 expression",
+              "Disease-free survival"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00900302"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.9854135513305664,
+        "txgnn_rank": 13958,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03074448",
+            "title": "Aquanet Bowel Cleansing Device Versus Oral Sodium Picosulfate for Pre-endoscopy Bowel Preparation: Propensity Score Analysis for Interventional Effectiveness Evaluation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-05",
+            "completion_date": "2015-09",
+            "country": "Brazil",
+            "enrollment": 314,
+            "brief_summary": "Poor or inadequate bowel preparation is one of the most common reasons for a repeated or failed colonoscopy. Preparation methods shown to be effective include the use of either bowel-cleansing devices or oral laxatives. Despite the acceptable effectiveness and safety of both bowel-cleansing methods, very few studies have been performed to evaluate which method is more effective. The main aim is to perform an observational study followed by propensity score modeling to evaluate and compare the qu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women, aged 14-90 years\n* Must have had \\>3 spontaneous bowel movements per week for one month prior to the colonoscopy.\n* Willing and able to complete the entire process, comply with study instructions, and understand and sign the informed consent.\n\nExclusion Criteria",
+            "endpoints": [
+              "Quality of bowel preparation"
+            ],
+            "sponsor": "Kaiser Clinic and Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03074448"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01537471",
+            "title": "A Pilot Study of the Effects of Meclizine on Pre-Pulse Inhibition",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-01",
+            "completion_date": "2012-09",
+            "country": "United States",
+            "enrollment": 117,
+            "brief_summary": "The purpose of the investigators research is to test whether problems people have with processing their senses (feeling overwhelmed, distracted or upset by sounds and other stimuli) can be lessened by meclizine, a drug found in many over the counter antihistamines, which are medicines used for things like allergies, sleep problems, or the common cold.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18-40 males or females\n* Startle response \\>0.5\n* PPI \\< 32\n* CO level \\<8ppm\n\nExclusion Criteria:\n\n* Tobacco or nicotine use within 2 weeks of screening\n* Current or history of a neurological disorder of neurological event\n* Negative response to antihistamine use in past\n* EC",
+            "endpoints": [
+              "Change in PPI"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT01537471"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28512368",
+            "title": "[Analysis of the phenomenon of over-the-counter drug abuse and not controlled herbs trade by polish adolescents: Part I].",
+            "abstract": "The phenomenon of stupefying by the use of available over-the-counter drugs (OTC) among adolescents is an essential problem in both Poland and throughout the world. Popular analgesics, cold medicine and antihistamines contain psychedelic substances, such as dextromethorphan (DXM), pseudoephedrine/ephedrine, codeine (methylmorphine), dimenhydrinate, paracetamol (acetaminophren) and others. Cases of fatal addiction to dextromethorphan, one of the active substances contained in medicines, e.g., the common cold, have been reported. The test results cited by the authors clearly indicate that the use of OTC drugs, whose turnover is not controlled is a domain of females. The extent of use of drugs not prescribed by a doctor has remained for many years at a constant level. The most common poisonings with OTC drugs are caused by those that affect the respiratory system or exert analgesic or antipyretic effects. They are also used in attempted suicides, especially among females. Analyzing poison",
+            "journal": "Medycyna pracy",
+            "year": "2017",
+            "authors": [
+              "Suchecka Daria",
+              "Kucharska-Mazur Jolanta",
+              "Groszewska Katarzyna",
+              "Mak Monika",
+              "Samochowiec Jerzy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Agaricales",
+              "Female",
+              "Humans",
+              "Male",
+              "Nonprescription Drugs",
+              "Poland",
+              "Substance-Related Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28512368/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9850476980209352,
+        "txgnn_rank": 14160,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01283906",
+            "title": "A Randomized, Double-blind Study to Evaluate the Efficacy of MuGard Mucoadhesive Oral Wound Rinse for the Amelioration of Oral Mucositis in Subjects Receiving Chemoradiation Therapy for the Treatment of Cancers of the Head and Neck",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-01",
+            "completion_date": "2013-05",
+            "country": "United States",
+            "enrollment": 120,
+            "brief_summary": "This study is a randomized, double-blind, sham-controlled, two-arm study conducted in subjects receiving chemoradiation therapy for the treatment of head and neck cancer to assess the efficacy of MuGard. The study will evaluate the ability of MuGard to reduce the symptoms of oral mucositis. The study includes a treatment period of approximately 7 weeks depending on the subject's prescribed radiation plan.\n\nMuGard is a liquid that is classified as a medical device. It is a hydrated polymer system",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubjects will be included in the study if they:\n\n1. Are willing and able to understand and sign an informed consent form (ICF) for the study approved by the Investigator's local or a central Institutional Review Board (IRB) or Independent Ethics Committee (IEC)\n2. Are males or f",
+            "endpoints": [
+              "To evaluate the efficacy of MuGard on reducing the symptoms of oral mucositis using an Oral Mucositis Daily Questionnaire (OMDQ)"
+            ],
+            "sponsor": "Access Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01283906"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.983585238456726,
+        "txgnn_rank": 15051,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urticaria (disease)",
+        "txgnn_score": 0.9566309452056884,
+        "txgnn_rank": 25059,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.928162693977356,
+        "txgnn_rank": 30978,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "angioedema",
+        "txgnn_score": 0.9202664494514464,
+        "txgnn_rank": 32288,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "IgE responsiveness, atopic",
+        "txgnn_score": 0.919665277004242,
+        "txgnn_rank": 32382,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00985",
+    "name": "Dimenhydrinate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dimenhydrinate"
+      },
+      "queried_at": "2026-03-09T23:44:06.892512",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dimenhydrinate"
+      },
+      "queried_at": "2026-03-09T23:44:23.753571",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T23:44:24.660584",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T23:44:31.943606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T23:44:36.953360",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T23:44:38.649735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T23:44:44.690814",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T23:44:45.479062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T23:44:46.927454",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T23:44:51.498640",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T23:44:53.381913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-09T23:44:55.890428",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-09T23:45:01.580824",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-09T23:45:06.716857",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T23:45:08.186717",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T23:45:13.459317",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T23:45:15.238586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T23:45:16.681444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T23:45:20.329621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T23:45:21.375853",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "urticaria (disease)"
+      },
+      "queried_at": "2026-03-09T23:45:22.942040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "urticaria (disease)"
+      },
+      "queried_at": "2026-03-09T23:45:33.680284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "urticaria (disease)"
+      },
+      "queried_at": "2026-03-09T23:45:34.650125",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T23:45:36.074568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T23:45:40.781238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T23:45:42.111365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "angioedema"
+      },
+      "queried_at": "2026-03-09T23:45:44.332198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "angioedema"
+      },
+      "queried_at": "2026-03-09T23:45:49.357109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "angioedema"
+      },
+      "queried_at": "2026-03-09T23:45:51.676993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T23:45:53.401866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T23:45:58.540444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dimenhydrinate",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T23:46:00.202798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T23:46:00.217223"
+  }
+}

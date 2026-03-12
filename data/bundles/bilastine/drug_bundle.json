@@ -1,0 +1,1187 @@
+{
+  "drug": {
+    "inn": "Bilastine",
+    "drugbank_id": "DB11591",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "duodenal obstruction",
+        "txgnn_score": 0.977319598197937,
+        "txgnn_rank": 18276,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenal ulcer (disease)",
+        "txgnn_score": 0.9714619517326356,
+        "txgnn_rank": 20724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenogastric reflux",
+        "txgnn_score": 0.969151496887207,
+        "txgnn_rank": 21571,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastric ulcer (disease)",
+        "txgnn_score": 0.9559153318405152,
+        "txgnn_rank": 25238,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leather-bottle stomach",
+        "txgnn_score": 0.9191954731941224,
+        "txgnn_rank": 32458,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenitis",
+        "txgnn_score": 0.9149305820465088,
+        "txgnn_rank": 33111,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.90150648355484,
+        "txgnn_rank": 34646,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01271075",
+            "title": "Double-blind, Triple Cross-over, Placebo-controlled Study to Assess the Efficacy, Mechanisms, and Safety of Treatment With Bilastine 20 mg, 40 mg and 80 mg in Cold Contact Urticaria (CCU)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-09",
+            "completion_date": "2011-12",
+            "country": "Germany",
+            "enrollment": 20,
+            "brief_summary": "This is a double-blind, triple cross-over, placebo-controlled study to assess the efficacy, mechanisms, and safety of treatment with the antihistamine bilastine in patients with cold contact urticaria (CCU).\n\nEfficacy is primarily assessed by a change in critical stimulation time thresholds (CSTT) and critical temperature thresholds (CTT) after treatment with different dosages of bilastine (20 mg, 40 mg, 80 mg). Following a baseline period of 2-4 weeks, patients are randomized to either group A ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent signed and dated\n* Reliable method of contraception for both women of childbearing potential as well as man during the study and 3 months thereafter. A highly effective method of birth control is defined as those which result in a low failure rate (i.e. less t",
+            "endpoints": [
+              "The effects of a standard dose (20 mg) and higher than standard doses of bilastine (40 mg and 80 mg) on symptom development in CCU patients"
+            ],
+            "sponsor": "Charite University, Berlin, Germany",
+            "url": "https://clinicaltrials.gov/study/NCT01271075"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01940393",
+            "title": "Evaluation of the Inhibitory Effect of 5 Anti-Histamines in Urticaria",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-08",
+            "completion_date": "2014-01",
+            "country": "Colombia",
+            "enrollment": 150,
+            "brief_summary": "The antihistamines with inhaled steroids are the cornerstone on the symptomatic therapy in the management of patients with rhinitis and the first line of treatment in patients with urticaria. Currently, the use of antihistamines has become popular due to its excellent safety profile and clinical efficacy, however to the investigators knowledge, there are no studies about the pharmacokinetic and pharmacodynamic effects of these drugs in patients of tropical Latin America. The investigators main i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of persistent allergic urticaria.\n* Age over 12 years and at least one year with the disease\n* Informed consent filled.\n* Be resident of the metropolitan area of Medellin.\n\nExclusion Criteria:\n\n* • Use of immunosuppressive drugs",
+            "endpoints": [
+              "Number of participants with uticaria that improved Urticaria Activity Score and Life Quality Index (DLQI) with the use of antihistamine in mono-dose and quadruple dose."
+            ],
+            "sponsor": "Grupo de Alergología Clínica y Experimental",
+            "url": "https://clinicaltrials.gov/study/NCT01940393"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "23742030",
+            "title": "Up-dosing with bilastine results in improved effectiveness in cold contact urticaria.",
+            "abstract": "Cold contact urticaria (CCU) is characterized by itchy wheal and flare responses due to the release of histamine and other pro-inflammatory mediators after exposure to cold. The treatment of choice is nonsedating antihistamines, dosages of which may be increased up to fourfold if standard doses are ineffective. Here, we assess the effects of a standard 20 mg dose and up-dosing to 40 and 80 mg of bilastine in reducing the symptoms of CCU and inflammatory mediator release following cold challenge.",
+            "journal": "Allergy",
+            "year": "2013",
+            "authors": [
+              "Krause K",
+              "Spohr A",
+              "Zuberbier T",
+              "Church M K",
+              "Maurer M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Benzimidazoles",
+              "Chi-Square Distribution",
+              "Cold Temperature",
+              "Confidence Intervals",
+              "Cross-Over Studies",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23742030/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "C1 inhibitor deficiency",
+        "txgnn_score": 0.9013243913650512,
+        "txgnn_rank": 34664,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.8643290400505066,
+        "txgnn_rank": 38072,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07042828",
+            "title": "An Open Label, Balanced, Randomized, Single Dose, Two Treatment, Two Sequence, Four Period, Full Replicate, Crossover, Oral Bioequivalence Study in Healthy, Adult, Human Subjects Under Fasting Condition",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2025-04-30",
+            "completion_date": "2025-06-19",
+            "country": "India",
+            "enrollment": 42,
+            "brief_summary": "An open label, balanced, randomized single-dose, two-treatment, two sequence, four-period, Full Replicate, crossover oral bioequivalence study in healthy, adult, human subjects under fasting condition.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects aged between 18 and 45 years (both inclusive).\n* Subjects' weight within normal range according to normal values for Body Mass Index (between 18.5 and 30.0 kg/m2) (both inclusive) with minimum of 45 kg weight.\n* Subjects with normal health as determined by personal me",
+            "endpoints": [
+              "Peak Plasma Concentration (Cmax)",
+              "Area Under the Curve from time zero to time of last measurable concentration (AUC0-t)"
+            ],
+            "sponsor": "Humanis Saglık Anonim Sirketi",
+            "url": "https://clinicaltrials.gov/study/NCT07042828"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00419783",
+            "title": "A Phase 1, Randomized, Multiple Dose, Double Blind, 5-way Crossover Study of the Electrocardiographic Effects of Bilastine in Healthy Adult Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2006-08",
+            "completion_date": "2006-12",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to evaluate the effect of two doses of bilastine (20 and 100 mg) compared to bilastine 20 mg administered with ketoconazole 400 mg, moxifloxacin 400 mg, and placebo. Subjects will receive each of the five study treatments in a crossover fashion administered once daily for 4 days.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy subjects with no clinically significant findings note on screening assessments including medical history, physical examination and laboratory results\n\nExclusion Criteria:\n\n* Clinically significant medical condition\n* Clinically significant history of ECG abnormalities ",
+            "endpoints": [
+              "QTc Interval prolongation"
+            ],
+            "sponsor": "Faes Farma, S.A.",
+            "url": "https://clinicaltrials.gov/study/NCT00419783"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04967092",
+            "title": "Efficacy and Safety of Modified Xiao-Feng Powder in the Treatment of Chronic Urticaria - A Double-Blind Randomized Placebo-Controlled Study",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2021-08-15",
+            "completion_date": "2023-09-30",
+            "country": "Hong Kong",
+            "enrollment": 58,
+            "brief_summary": "Urticaria is a common skin disorder and 15-25% of people experience at least one attack of urticaria during their lifetime. Urticaria can be divided into acute urticaria (AU) and chronic urticaria (CU). CU is more common in adults, and affects women more frequently than men. According to Chinese medicine (CM) theory, CU is known as Yin Zhen. Nowadays, CM is widely used for managing CU in Hong Kong and mainland. Among different Chinese herbal formulae for urticaria, Xiao-Feng Powder (XFP), also k",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Both male and female;\n2. Age from 18 to 65 years;\n3. Documented history of CU for at least 6 weeks prior to entry in the study;\n4. Meet EAACI/GA2LEN/EDF/WAO 2017 guidelines, i.e. spontaneous appearance of wheals, angioedema or both for \\> 6 weeks due to known or unknown cause",
+            "endpoints": [
+              "Change of Urticaria Activity Score (UAS7)"
+            ],
+            "sponsor": "Chinese University of Hong Kong",
+            "url": "https://clinicaltrials.gov/study/NCT04967092"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00421109",
+            "title": "Double-blind, Randomised, Placebo-controlled, Phase III Study Comparing the Efficacy and Safety of Bilastine 20 mg Once Daily and Levocetirizine 5 mg for the Treatment of Chronic Idiopathic Urticaria",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2007-07",
+            "country": "Spain, France, Romania, Belgium, Germany, Argentina, Poland",
+            "enrollment": 522,
+            "brief_summary": "The objective of the study is to evaluate the efficacy and tolerability of Bilastine 20 mg Q.D., compared to Levocetirizine 5 mg Q.D. and placebo for the treatment of Chronic Idiopathic Urticaria.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 to 70 years old.\n* Documented history of CIU for at least 6 weeks prior to entry in the study.\n\nExclusion Criteria:\n\n* Dermatological pathology other than chronic idiopathic urticaria.\n* History of autoimmune disorders, Hodgkin's disease, lymphoma, leukemia and generalized ",
+            "endpoints": [
+              "Change from baseline, in the am/pm Total Symptom Score (TSS3), over the 28 days of the treatment period according to the patient's assessment in the diary card. (Reflective Symptoms)"
+            ],
+            "sponsor": "Faes Farma, S.A.",
+            "url": "https://clinicaltrials.gov/study/NCT00421109"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01081574",
+            "title": "A Multicentre, International, Adaptive, Open-label, Repeated Administration Pharmacokinetic Study of Bilastine in Children From 2 to <12 Years of Age With Allergic Rhinoconjunctivitis or Chronic Urticaria",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-01",
+            "completion_date": "2012-06",
+            "country": "Germany, Australia, Sweden",
+            "enrollment": 36,
+            "brief_summary": "The conduct of this clinical trial is aimed at determining the most suitable dose regimen for children in different age groups, and secondarily to assess the safety and tolerability of bilastine in this paediatric population subset.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Either sex aged from ≥ 2 to \\< 12 years of age. Female subjects must not be of child bearing potential.\n2. Height and weight within a majority range (e.g., 25th through 75th percentile) of the subject's age and sex as provided in national tables.\n3. Documented history of SAR/",
+            "endpoints": [
+              "The primary objective is to assess the pharmacokinetics of bilastine in children (aged 2 to <12 years) with allergic rhinoconjunctivitis (seasonal allergic rhinitis and/or perennial allergic rhinitis [SAR/PAR]) or chronic urticaria (CU)"
+            ],
+            "sponsor": "Faes Farma, S.A.",
+            "url": "https://clinicaltrials.gov/study/NCT01081574"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02576041",
+            "title": "Effects of Bilastine on F1 Simulator Driving Performance in Patients Affected by Allergic Rhinitis and/or Urticaria",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-10",
+            "completion_date": "2015-12",
+            "country": "Italy",
+            "enrollment": 19,
+            "brief_summary": "The aim of the study is to evaluate the effects of Bilastine on patients' attention and reactivity levels by measuring psychophysical performance at a F1-high speed simulator driving test.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients affected by allergic rhinitis (seasonal or perennial) or urticaria (induced and not induced) who need histamine H1-receptor antagonist therapy according to PI therapeutic decision;\n* Males and females aged between 21 and 55 years;\n* Body Mass Index (BMI) between 19 an",
+            "endpoints": [
+              "Standard Deviation Lateral Position (SDLP) Evaluated During the F1 Simulator Test"
+            ],
+            "sponsor": "Menarini International Operations Luxembourg SA",
+            "url": "https://clinicaltrials.gov/study/NCT02576041"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35593100",
+            "title": "The Impact of Bilastine on Symptoms of Allergic Rhinitis and Chronic Urticaria: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+            "abstract": "Allergic diseases are immunological exaggerations with symptoms that may interfere with life quality. Bilastine, a novel oral second-generation H-1 antihistamine, is highly selective to H-1 receptors and has anti inflammatory properties. The present evidence regarding the drug efficacy is inconsistent.",
+            "journal": "American journal of rhinology & allergy",
+            "year": "2022",
+            "authors": [
+              "Abdelshafy Aliaa M",
+              "Abdallah Sara Y",
+              "Hassan Ahmed F",
+              "Mohamed Hazem A",
+              "Kamal Nourhan M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Benzimidazoles",
+              "Chronic Urticaria",
+              "Histamine Antagonists",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Humans",
+              "Piperidines",
+              "Randomized Controlled Trials as Topic",
+              "Rhinitis, Allergic",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35593100/"
+          },
+          {
+            "pmid": "22686617",
+            "title": "Bilastine: in allergic rhinitis and urticaria.",
+            "abstract": "Bilastine is an orally administered, second-generation antihistamine used in the symptomatic treatment of seasonal or perennial allergic rhinoconjunctivitis and urticaria. In two well designed phase III trials, 14 days' treatment with bilastine was associated with a significantly lower area under the effect curve (AUEC) for the reflective total symptom score (TSS) than placebo in patients with symptomatic seasonal allergic rhinitis. Additionally, reflective nasal symptom scores were significantly lower in bilastine than placebo recipients in patients with a history of seasonal allergic rhinitis who were challenged with grass pollen allergen in a single-centre, phase II study. Neither bilastine nor cetirizine was effective in the treatment of perennial allergic rhinitis with regard to the mean AUEC for reflective TSS in another well designed phase III trial. However, results may have been altered by differences in some baseline characteristics and placebo responses between study countri",
+            "journal": "Drugs",
+            "year": "2012",
+            "authors": [
+              "Carter Natalie J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Area Under Curve",
+              "Benzimidazoles",
+              "Cetirizine",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Humans",
+              "Loratadine",
+              "Piperidines",
+              "Randomized Controlled Trials as Topic",
+              "Rhinitis, Allergic, Perennial",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22686617/"
+          },
+          {
+            "pmid": "36382168",
+            "title": "Bilastine for allergic rhinoconjunctivitis, urticaria.",
+            "abstract": "",
+            "journal": "Australian prescriber",
+            "year": "2022",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36382168/"
+          },
+          {
+            "pmid": "28210286",
+            "title": "Bilastine in allergic rhinoconjunctivitis and urticaria: a practical approach to treatment decisions based on queries received by the medical information department.",
+            "abstract": "Bilastine is a safe and effective commonly prescribed non-sedating H1-antihistamine approved for symptomatic treatment in patients with allergic disorders such as rhinoconjunctivitis and urticaria. It was evaluated in many patients throughout the clinical development required for its approval, but clinical trials generally exclude many patients who will benefit in everyday clinical practice (especially those with coexisting diseases and/or being treated with concomitant drugs). Following its introduction into clinical practice, the Medical Information Specialists at Faes Farma have received many practical queries regarding the optimal use of bilastine in different circumstances.",
+            "journal": "Drugs in context",
+            "year": "2017",
+            "authors": [
+              "Leceta Amalia",
+              "Sologuren Ander",
+              "Valiente Román",
+              "Campo Cristina",
+              "Labeaga Luis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28210286/"
+          },
+          {
+            "pmid": "34850647",
+            "title": "How bilastine is used to treat allergic rhinitis and urticaria in children.",
+            "abstract": "Management guidelines for allergic rhinitis and urticaria recommend oral second-generation antihistamines as first-line treatment. The efficacy and safety of bilastine, the newest nonsedating second-generation antihistamine, are well established in adolescents/adults with these allergic conditions. The bilastine development program for pediatric use (2-<12 years) followed EMA-authorized processes. Pharmacokinetic/pharmacodynamic simulation and modeling and a pharmacokinetic study were conducted to identify and confirm the pediatric dose (10 mg/day). A Phase III, multicenter, double-blind, randomized, placebo-controlled, parallel-group study was performed to confirm the safety of bilastine 10 mg/day in children. In this article, evidence is reviewed for use of bilastine in children with allergic rhinoconjunctivitis or urticaria. Several cases are presented which demonstrate its role in routine clinical practice.",
+            "journal": "Immunotherapy",
+            "year": "2022",
+            "authors": [
+              "Rodríguez Del Río Pablo",
+              "Rodríguez Fernández Fernando",
+              "Ballester Asensio Esther",
+              "Tortajada-Girbés Miguel"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Benzimidazoles",
+              "Child",
+              "Double-Blind Method",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Humans",
+              "Piperidines",
+              "Rhinitis, Allergic",
+              "Treatment Outcome",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34850647/"
+          },
+          {
+            "pmid": "26844221",
+            "title": "Role of bilastine in the management of allergic rhinitis and urticaria: an Asia-Pacific consensus statement.",
+            "abstract": "The prevalence of allergic diseases is increasing globally, most particularly in middle- to low-income countries. This article examines the burden of allergic rhinitis and chronic urticaria in the Asia-Pacific region, unmet clinical needs, and the potential role of bilastine in the management of these conditions. An International Advisory Group meeting was convened in association with the Asian Pacific Society of Respirology Annual Congress in November 2014, followed by a literature review, and consensus-based outcomes from the meeting and literature review are described. Regional estimates of the prevalence of allergic rhinitis range from 10% to 50%, while little is known regarding the burden of urticaria in the Asia-Pacific region. A survey of allergy patients in the region identified fast, complete, and long-lasting symptom relief as the medication attributes most important to patients. International treatment guidelines for allergic rhinitis and urticaria advocate the first-line us",
+            "journal": "Asia Pacific allergy",
+            "year": "2016",
+            "authors": [
+              "Mösges Ralph",
+              "Lee Dennis Lip Yen",
+              "Abong Jovilia",
+              "Siasoco Bella",
+              "Chow Steven Kw"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26844221/"
+          },
+          {
+            "pmid": "36380619",
+            "title": "Effect of Bilastine on Chronic Urticaria: A Systematic Review and Meta-Analysis.",
+            "abstract": "Allergic diseases are a public health problem with the largest number of patients and the widest age distribution. Chronic urticaria (CU) is a common clinical allergic disease. Bilastine is effective in the treatment of CU, especially skin wind masses and erythema. The purpose of this study was to systematically evaluate the efficacy and safety of Bilastine in the treatment of CU symptoms and to provide an evidence-based reference for clinical rational drug use.",
+            "journal": "International archives of allergy and immunology",
+            "year": "2023",
+            "authors": [
+              "Xue Xiali",
+              "Wang Qiyin",
+              "Yang Xinwei",
+              "Tu Huan",
+              "Deng Zhongyi"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Meta-Analysis",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Quality of Life",
+              "Chronic Urticaria",
+              "Urticaria",
+              "Benzimidazoles",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36380619/"
+          },
+          {
+            "pmid": "21831011",
+            "title": "Safety and efficacy of bilastine: a new H(1)-antihistamine for the treatment of allergic rhinoconjunctivitis and urticaria.",
+            "abstract": "New H(1)-antihistamines should be effective in relieving the symptoms of allergic disease, should have a rapid onset and long duration of action and should neither cause sedation nor interact with cytochrome P450. A review of bilastine was undertaken to determine whether this newer H(1)-antihistamine meets these requirements.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2011",
+            "authors": [
+              "Church Martin K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Benzimidazoles",
+              "Clinical Trials, Phase I as Topic",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Piperidines",
+              "Randomized Controlled Trials as Topic",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21831011/"
+          },
+          {
+            "pmid": "27110120",
+            "title": "Treatment of allergic rhinitis and urticaria: a review of the newest antihistamine drug bilastine.",
+            "abstract": "Allergic rhinitis and urticaria are common allergic diseases that may have a major negative impact on patients' quality of life. Bilastine, a novel new-generation antihistamine that is highly selective for the H1 histamine receptor, has a rapid onset and prolonged duration of action. This agent does not interact with the cytochrome P450 system and does not undergo significant metabolism in humans, suggesting that it has very low potential for drug-drug interactions, and does not require dose adjustment in renal impairment. As bilastine is not metabolized and is excreted largely unchanged, hepatic impairment is not expected to increase systemic exposure above the drug's safety margin. Bilastine has demonstrated similar efficacy to cetirizine and desloratadine in patients with seasonal allergic rhinitis and, in a Vienna Chamber study, a potentially longer duration of action than fexofenadine in patients with asymptomatic seasonal allergic rhinitis. It has also shown significant efficacy ",
+            "journal": "Therapeutics and clinical risk management",
+            "year": "2016",
+            "authors": [
+              "Wang Xue Yan",
+              "Lim-Jurado Margaret",
+              "Prepageran Narayanan",
+              "Tantilipikorn Pongsakorn",
+              "Wang De Yun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27110120/"
+          },
+          {
+            "pmid": "33030434",
+            "title": "Efficacy and Safety of Up-dosing Antihistamines in Chronic Spontaneous Urticaria: A Systematic Review of the Literature.",
+            "abstract": "According to current guidelines, oral antihistamines are the first-line treatment for chronic spontaneous urticaria (CSU). Up-dosing antihistamines to 4-fold the licensed dose is recommended if control is not achieved. Such indications are based mainly on expert opinion. Objectives: To critically review and analyze clinical evidence on the efficacy and safety of higher-than-licensed dosage of second-generation oral antihistamines in the treatment of CSU.",
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2021",
+            "authors": [
+              "Iriarte Sotés P",
+              "Armisén M",
+              "Usero-Bárcena T",
+              "Rodriguez Fernández A",
+              "Otero Rivas M M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Anti-Allergic Agents",
+              "Chronic Urticaria",
+              "Clinical Trials as Topic",
+              "Drug Dosage Calculations",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Humans",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33030434/"
+          },
+          {
+            "pmid": "38742145",
+            "title": "Bilastine for the treatment of allergic rhinoconjunctivitis and urticaria: results from an international Delphi study.",
+            "abstract": "Second-generation oral H1-antihistamines, including bilastine, represent the emerging treatments of allergic rhinitis (including rhinoconjunctivitis) and chronic urticaria in both adults and children. This study analyses available evidence supporting the use of bilastine amongst second-generation antihistamines for the symptomatic treatment of allergic rhinitis and urticaria in adults and children.",
+            "journal": "Drugs in context",
+            "year": "2024",
+            "authors": [
+              "Canonica Giorgio Walter",
+              "Kuna Piotr",
+              "Maurer Marcus",
+              "Mösges Ralph",
+              "Novak Zoltan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38742145/"
+          },
+          {
+            "pmid": "22149338",
+            "title": "An overview of the novel H1-antihistamine bilastine in allergic rhinitis and urticaria.",
+            "abstract": "Currently available second-generation H1-antihistamines include a wide group of drugs with a better therapeutic index (or risk-benefit ratio) than the classic antihistamines, although their properties and safety profiles may differ. Bilastine is a newly registered H1-antihistamine for the oral treatment of allergic rhinitis and urticaria, with established antihistaminic and antiallergic properties. Clinical studies in allergic rhinitis and chronic urticaria show that once-daily treatment with bilastine 20 mg is effective in managing symptoms and improving patient's quality of life, with at least comparable efficacy to other nonsedative H1-antihistamines. As far as studies in healthy volunteers, clinical assays and clinical experience can establish, bilastine's safety profile is satisfactory, since it lacks anticholinergic effects, does not impair psychomotor performance or actual driving, and appears to be entirely free from cardiovascular effects.",
+            "journal": "Expert review of clinical immunology",
+            "year": "2012",
+            "authors": [
+              "Jáuregui Ignacio",
+              "García-Lirio Eduardo",
+              "Soriano Ana María",
+              "Gamboa Pedro M",
+              "Antépara Ignacio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Automobile Driving",
+              "Benzimidazoles",
+              "Cardiovascular Diseases",
+              "Clinical Trials as Topic",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Piperidines",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22149338/"
+          },
+          {
+            "pmid": "22035879",
+            "title": "Histamine and H1-antihistamines: celebrating a century of progress.",
+            "abstract": "In this review we celebrate a century of progress since the initial description of the physiologic and pathologic roles of histamine and 70 years of progress since the introduction of H(1)-antihistamines for clinical use. We discuss histamine and clinically relevant information about the molecular mechanisms of action of H(1)-antihistamines as inverse agonists (not antagonists or blockers) with immunoregulatory effects. Unlike first (old)-generation H(1)-antihistamines introduced from 1942 to the mid-1980s, most of the second (new)-generation H(1)-antihistamines introduced subsequently have been investigated extensively with regard to clinical pharmacology, efficacy, and safety; moreover, they are relatively free from adverse effects and not causally linked with fatalities after overdose. Important advances include improved nasal and ophthalmic H(1)-antihistamines with rapid onset of action (in minutes) for allergic rhinitis and allergic conjunctivitis treatment, respectively, and effe",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2011",
+            "authors": [
+              "Simons F Estelle R",
+              "Simons Keith J"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Allergic Agents",
+              "Histamine",
+              "Histamine H1 Antagonists",
+              "History, 20th Century",
+              "History, 21st Century",
+              "Humans",
+              "Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22035879/"
+          },
+          {
+            "pmid": "37191185",
+            "title": "An international Delphi study on the burden of allergic rhinoconjunctivitis and urticaria and the role of bilastine among current treatment options.",
+            "abstract": "Allergic rhinoconjunctivitis and chronic urticaria are common histamine-driven diseases, exerting detrimental effects on cognitive functions, sleep, daily activities, and quality of life. Non-sedating second-generation H1-antihistamines are the first-line treatment of choice. Aim of the study was to define the role of bilastine among second-generation H1-antihistamines in the treatment of allergic rhinoconjunctivitis and urticaria in patients of different ages.",
+            "journal": "Expert review of clinical immunology",
+            "year": "2023",
+            "authors": [
+              "Church M K",
+              "Canonica G W",
+              "Kuna P",
+              "Maurer M",
+              "Mösges R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Quality of Life",
+              "Delphi Technique",
+              "Urticaria",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Histamine Antagonists",
+              "Chronic Urticaria",
+              "Benzimidazoles",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37191185/"
+          },
+          {
+            "pmid": "39376275",
+            "title": "Comparison of the Efficacy and Safety of Bilastine 20 mg versus Fexofenadine 180 mg for Treatment of Perennial Allergic Rhinitis: Randomized Controlled Study.",
+            "abstract": "Antihistamines has always remained the mainstay drug treatment for Allergic Rhinitis (AR). Bilastine is a novel, non-sedative antihistamine with a super-selective H1 receptor antagonist property. Both bilastine and fexofenadine are second generation antihistamine drugs commonly used to manage AR and Chronic Urticaria (CU). Autologous Skin Serum Test (ASST) is a practical test for histamine release in CU. These tests have been studied in AR patients with limited data studies.",
+            "journal": "Indian journal of otolaryngology and head and neck surgery : official publication of the Association of Otolaryngologists of India",
+            "year": "2024",
+            "authors": [
+              "Singhal Aditya",
+              "Agrawal Pooja",
+              "Chatterji Probal",
+              "Matreja Pritpal Singh",
+              "Mahmood Tariq"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39376275/"
+          },
+          {
+            "pmid": "31660121",
+            "title": "The safety and tolerability profile of bilastine for chronic urticaria in children.",
+            "abstract": "Urticaria is a condition defined by the development of wheals, angioedema or both. It is classified based on its duration as acute (≤ 6 weeks) or chronic (> 6 weeks). Chronic urticaria is less frequent than acute one in children, but it represents a debilitating condition, always needing treatment. Symptoms affect child's daily activities and disturb sleeping patterns, causing emotional distress and negatively influencing learning and cognition. Therefore, the management of chronic urticaria must point to a complete control of symptoms, taking into account tolerability and the patient quality of life.",
+            "journal": "Clinical and translational allergy",
+            "year": "2019",
+            "authors": [
+              "Papadopoulos Nikolaos G",
+              "Zuberbier Torsten"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31660121/"
+          },
+          {
+            "pmid": "22185046",
+            "title": "Bilastine and quality of life.",
+            "abstract": "The evaluation of quality of life (QoL) and its modification through therapeutic interventions has become a prioritary concern in recent years and a requirement on the part of regulatory agencies for the authorization of new drugs. In clinical studies of allergic disorders, particularly allergic rhinitis and urticaria, different types of generic questionnaires have been used - especially disease specific instruments such as the Rhinoconjunctivitis Quality of Life Questionnaire (RQLQ) or skin disease specific tools such as the Dermatology Life Quality Index (DLQI). Throughout its clinical development, bilastine has been shown to be more effective than placebo and at least as effective as cetirizine, levocetirizine, fexofenadine or desloratadine in controlling the symptoms of seasonal allergic rhinitis and chronic urticaria. QoL has been studied as a secondary objective in three allergic rhinitis clinical trials, using the RQLQ, in a total of 2335 patients. Likewise, in chronic urticaria",
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2011",
+            "authors": [
+              "Jáuregui I",
+              "Bartra J",
+              "del Cuvillo A",
+              "Dávila I",
+              "Ferrer M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzimidazoles",
+              "Chronic Disease",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Piperidines",
+              "Quality of Life",
+              "Rhinitis, Allergic, Perennial",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22185046/"
+          },
+          {
+            "pmid": "38725318",
+            "title": "Pharmacokinetics and Safety of Bilastine 10 mg/d in Children Aged 2 to 5 Years With Allergic Rhinoconjunctivitis or Urticaria: A Phase 3 Clinical Trial.",
+            "abstract": "Bilastine is a second-generation antihistamine for the symptomatic treatment of allergic rhinoconjunctivitis (ARC) and urticaria in adults, adolescents, and children. The pharmacokinetics and safety of oral bilastine 10 mg/d in children aged 2 to 5 years were evaluated.",
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2025",
+            "authors": [
+              "Majorek-Olechowska B",
+              "Slomskis T",
+              "Zollerová L",
+              "Martín I",
+              "Sánchez C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Clinical Trial, Phase III"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child, Preschool",
+              "Benzimidazoles",
+              "Male",
+              "Female",
+              "Urticaria",
+              "Piperidines",
+              "Conjunctivitis, Allergic",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Administration, Oral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38725318/"
+          },
+          {
+            "pmid": "31919579",
+            "title": "Pharmacokinetics and safety of bilastine in children aged 6 to 11 years with allergic rhinoconjunctivitis or chronic urticaria.",
+            "abstract": "Bilastine, a second-generation antihistamine, is approved in Europe for the treatment of allergic rhinoconjunctivitis and urticaria in adults and children aged ≥ 6 years. Pharmacokinetic data for children aged 6-11 years were extracted post hoc from a study in which children (2-11 years) with allergic rhinoconjunctivitis or urticaria received oral bilastine (10 mg/day). Maximum plasma concentration (Cmax) and area under the plasma concentration curve (AUC) data were compared with adult pharmacokinetic data from seven clinical studies (bilastine 20 mg/day). Safety data for children aged 6-11 years were extracted post hoc from a phase III randomized controlled trial of children (2-11 years) with allergic rhinoconjunctivitis or chronic urticaria receiving once-daily bilastine 10 mg or placebo for 12 weeks. Exposure and Cmax values were similar for children (6-11 years) and adults: median pediatric/adult ratios for AUC0-24 and Cmax were 0.93 and 0.91, respectively. There was no significant",
+            "journal": "European journal of pediatrics",
+            "year": "2020",
+            "authors": [
+              "Rodríguez Mónica",
+              "Vozmediano Valvanera",
+              "García-Bea Aintzane",
+              "Novák Zoltán",
+              "Yáñez Anahí"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Benzimidazoles",
+              "Child",
+              "Conjunctivitis, Allergic",
+              "Female",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Humans",
+              "Male",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31919579/"
+          },
+          {
+            "pmid": "34457015",
+            "title": "Bilastine 10 and 20 mg in paediatric and adult patients: an updated practical approach to treatment decisions.",
+            "abstract": "Bilastine, a non-sedating H1-antihistamine, is indicated to treat the symptoms of allergic disorders (e.g. rhinoconjunctivitis and urticaria) in adults and adolescents and, more recently, in children. Following its marketing approval, many questions regarding the ideal use of bilastine in various clinical practice situations have been received by the Medical Information Department (MID) of Faes Farma Spain. This article is an update of a previous review, with a focus on recent clinical information on the use of bilastine in paediatric and other populations.",
+            "journal": "Drugs in context",
+            "year": "2021",
+            "authors": [
+              "Leceta Amalia",
+              "García Aintzane",
+              "Sologuren Ander",
+              "Campo Cristina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34457015/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "serpinopathy with toxic serpin polymerization",
+        "txgnn_score": 0.861414909362793,
+        "txgnn_rank": 38333,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11591",
+    "name": "Bilastine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bilastine"
+      },
+      "queried_at": "2026-03-10T07:46:29.121570",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bilastine"
+      },
+      "queried_at": "2026-03-10T07:46:32.742276",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-10T07:46:33.270352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-10T07:46:36.263659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-10T07:46:37.299373",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T07:46:37.983029",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T07:46:41.319858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T07:46:42.053621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenogastric reflux"
+      },
+      "queried_at": "2026-03-10T07:46:42.600741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenogastric reflux"
+      },
+      "queried_at": "2026-03-10T07:46:46.102681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenogastric reflux"
+      },
+      "queried_at": "2026-03-10T07:46:46.895191",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "gastric ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T07:46:47.444561",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "gastric ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T07:46:50.411889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "gastric ulcer (disease)"
+      },
+      "queried_at": "2026-03-10T07:46:51.143336",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "leather-bottle stomach"
+      },
+      "queried_at": "2026-03-10T07:46:51.761649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "leather-bottle stomach"
+      },
+      "queried_at": "2026-03-10T07:46:54.932784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "leather-bottle stomach"
+      },
+      "queried_at": "2026-03-10T07:46:56.213298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenitis"
+      },
+      "queried_at": "2026-03-10T07:46:56.855078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenitis"
+      },
+      "queried_at": "2026-03-10T07:47:00.588739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "duodenitis"
+      },
+      "queried_at": "2026-03-10T07:47:01.283219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T07:47:02.390698",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T07:47:11.205199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T07:47:17.066899",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "queried_at": "2026-03-10T07:47:17.870192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "queried_at": "2026-03-10T07:47:21.358150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "queried_at": "2026-03-10T07:47:22.222613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T07:47:23.196336",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T07:47:30.600859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T07:47:34.902345",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "serpinopathy with toxic serpin polymerization"
+      },
+      "queried_at": "2026-03-10T07:47:36.939847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "serpinopathy with toxic serpin polymerization"
+      },
+      "queried_at": "2026-03-10T07:47:42.537955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bilastine",
+        "disease": "serpinopathy with toxic serpin polymerization"
+      },
+      "queried_at": "2026-03-10T07:47:44.416658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:47:44.420400"
+  }
+}

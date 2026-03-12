@@ -1,0 +1,520 @@
+{
+  "drug": {
+    "inn": "Methylthioninium",
+    "drugbank_id": "DB08167",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.904250979423523,
+        "txgnn_rank": 34374,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dysthymic disorder",
+        "txgnn_score": 0.8853135704994202,
+        "txgnn_rank": 36241,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.8806061744689941,
+        "txgnn_rank": 36670,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "food-dependent exercise-induced anaphylaxis",
+        "txgnn_score": 0.8775209784507751,
+        "txgnn_rank": 36970,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.8552305698394775,
+        "txgnn_rank": 38798,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anxiety",
+        "txgnn_score": 0.8058826923370361,
+        "txgnn_rank": 41572,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29375308",
+            "title": "A Protein Aggregation Inhibitor, Leuco-Methylthioninium Bis(Hydromethanesulfonate), Decreases α-Synuclein Inclusions in a Transgenic Mouse Model of Synucleinopathy.",
+            "abstract": "α-Synuclein (α-Syn) aggregation is a pathological feature of synucleinopathies, neurodegenerative disorders that include Parkinson's disease (PD). We have tested whether N,N,N',N'-tetramethyl-10H-phenothiazine-3,7-diaminium bis(hydromethanesulfonate) (leuco-methylthioninium bis(hydromethanesulfonate); LMTM), a tau aggregation inhibitor, affects α-Syn aggregation in vitro and in vivo. Both cellular and transgenic models in which the expression of full-length human α-Syn (h-α-Syn) fused with a signal sequence peptide to promote α-Syn aggregation were used. Aggregated α-Syn was observed following differentiation of N1E-115 neuroblastoma cells transfected with h-α-Syn. The appearance of aggregated α-Syn was inhibited by LMTM, with an EC50 of 1.1 μM, with minimal effect on h-α-Syn mRNA levels being observed. Two independent lines of mice (L58 and L62) transgenic for the same fusion protein accumulated neuronal h-α-Syn that, with aging, developed into fibrillary inclusions characterized by b",
+            "journal": "Frontiers in molecular neuroscience",
+            "year": "2017",
+            "authors": [
+              "Schwab Karima",
+              "Frahm Silke",
+              "Horsley David",
+              "Rickard Janet E",
+              "Melis Valeria"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29375308/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete rare pulmonary disease",
+        "txgnn_score": 0.7518022060394287,
+        "txgnn_rank": 43750,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "variably protease-sensitive prionopathy",
+        "txgnn_score": 0.7484771013259888,
+        "txgnn_rank": 43853,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autonomic nervous system disease",
+        "txgnn_score": 0.7448506355285645,
+        "txgnn_rank": 43951,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary edema",
+        "txgnn_score": 0.7386500239372253,
+        "txgnn_rank": 44148,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08167",
+    "name": "Methylthioninium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Methylthioninium"
+      },
+      "queried_at": "2026-03-10T10:15:29.145913",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Methylthioninium"
+      },
+      "queried_at": "2026-03-10T10:15:30.946694",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:15:31.542189",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:15:34.813113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:15:35.455457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T10:15:36.098854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T10:15:39.384152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T10:15:40.047258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:15:40.703598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:15:44.239721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:15:45.067526",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:15:45.761052",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:15:50.343546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:15:51.041425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T10:15:51.707058",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T10:15:55.195921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T10:15:55.995210",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "anxiety"
+      },
+      "queried_at": "2026-03-10T10:15:56.591242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "anxiety"
+      },
+      "queried_at": "2026-03-10T10:15:59.974510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "anxiety"
+      },
+      "queried_at": "2026-03-10T10:16:02.837138",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "obsolete rare pulmonary disease"
+      },
+      "queried_at": "2026-03-10T10:16:03.775366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "obsolete rare pulmonary disease"
+      },
+      "queried_at": "2026-03-10T10:16:08.070175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "obsolete rare pulmonary disease"
+      },
+      "queried_at": "2026-03-10T10:16:09.960198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-10T10:16:11.170835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-10T10:16:14.093209",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "variably protease-sensitive prionopathy"
+      },
+      "queried_at": "2026-03-10T10:16:15.306811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T10:16:15.898904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T10:16:18.969102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T10:16:20.231663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "pulmonary edema"
+      },
+      "queried_at": "2026-03-10T10:16:21.107346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "pulmonary edema"
+      },
+      "queried_at": "2026-03-10T10:16:25.829896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methylthioninium",
+        "disease": "pulmonary edema"
+      },
+      "queried_at": "2026-03-10T10:16:26.846730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:16:26.849381"
+  }
+}

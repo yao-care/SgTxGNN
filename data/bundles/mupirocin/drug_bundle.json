@@ -1,0 +1,1033 @@
+{
+  "drug": {
+    "inn": "Mupirocin",
+    "drugbank_id": "DB00410",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pleural empyema (disease)",
+        "txgnn_score": 0.9948983788490297,
+        "txgnn_rank": 6563,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.9910228252410888,
+        "txgnn_rank": 9787,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotrophic keratopathy",
+        "txgnn_score": 0.984840452671051,
+        "txgnn_rank": 14297,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cutaneous candidiasis",
+        "txgnn_score": 0.9827479720115662,
+        "txgnn_rank": 15606,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1678836",
+            "title": "Efficacy of mupirocin in cutaneous candidiasis.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1991",
+            "authors": [
+              "Rode H",
+              "de Wet P M",
+              "Millar A J",
+              "Cywes S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Candida",
+              "Candidiasis, Cutaneous",
+              "Child, Preschool",
+              "Drug Evaluation",
+              "Fatty Acids",
+              "Humans",
+              "Infant",
+              "Microbial Sensitivity Tests",
+              "Mupirocin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1678836/"
+          },
+          {
+            "pmid": "24021363",
+            "title": "Perianal and periumbilical dermatitis: Report of a woman with group G streptococcal infection and review of perianal and periumbilical dermatoses.",
+            "abstract": "We describe a woman with perianal and periumbilical dermatitis secondary to group G Streptococcus, summarize the salient features of this condition, and review other cutaneous conditions that clinically mimic streptococcal dermatitis of the umbilicus.",
+            "journal": "Dermatology online journal",
+            "year": "2013",
+            "authors": [
+              "Kallini Joseph R",
+              "Cohen Philip R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anal Canal",
+              "Candidiasis, Cutaneous",
+              "Chlorhexidine",
+              "Dermatitis, Contact",
+              "Diagnosis, Differential",
+              "Diagnostic Errors",
+              "Erythema",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24021363/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vaginal discharge",
+        "txgnn_score": 0.9601171612739564,
+        "txgnn_rank": 24245,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07142408",
+            "title": "The Effect of Pre-Operative Bacterial Decolonization on Post-Operative Infection Rate for Lower Extremity Wounds Healing by Second Intention",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2023-03-13",
+            "completion_date": "2030-12",
+            "country": "United States",
+            "enrollment": 848,
+            "brief_summary": "The goal of this clinical trial is to learn if reducing bacterial load on the skin and nostrils with topical antibacterial soap and ointment, respectively, reduces rate of infection in surgical sites on lower leg wounds left open to heal in adults undergoing skin cancer surgery.\n\nThe main question it aims to answer is:\n\nDoes Hibiclens antibacterial skin cleanser and mupirocin antibacterial ointment applied to nostrils prior to surgery lower the number of times participants develop an infection i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age at least 18 years old\n* Scheduled to undergo surgical treatment for skin cancer on the lower extremities and have no other surgeries scheduled in the coming weeks after the procedure\n* Will have a surgical wound that will be left open to heal by secondary intention\n\nExclus",
+            "endpoints": [
+              "Number of Participants with Surgical Site Wound Infection"
+            ],
+            "sponsor": "The Cooper Health System",
+            "url": "https://clinicaltrials.gov/study/NCT07142408"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exposure keratitis",
+        "txgnn_score": 0.9588626623153688,
+        "txgnn_rank": 24560,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "8222720",
+            "title": "Antimicrobial activity and in vitro corneal epithelial toxicity of antimicrobial agents for gram-positive corneal pathogens.",
+            "abstract": "We assessed in vitro the antimicrobial activity of four agents (vancomycin, teicoplanin, mupirocin, and imipenem) which are effective against Gram-positive cocci causally associated with bacterial keratitis, as well as their corneal epithelial cytotoxicity. Minimal inhibitory concentrations inhibiting 90% of strains (MIC90s) against 10 strains each of methicillin-susceptible and -resistant Staphylococcus aureus and Staphylococcus epidermidis, penicillin-susceptible and -resistant Streptococcus pneumoniae, and viridans group streptococci were as follows: vancomycin (MIC90s 0.25-2 micrograms/ml), teicoplanin (MIC90s 0.25-4 micrograms/ml, mupirocin (MIC90s 0.12-4 micrograms/ml), and imipenem (MIC90s 0.008-0.25 micrograms/ml, except for methicillin-resistant staphylococci with MIC90 of 16 micrograms/ml). Cytotoxicity was assayed by uptake of 3H-thymidine by rabbit corneal epithelial cell cultures at drug concentrations of 12.5-100 mg/ml for vancomycin and teicoplanin, 1-8 mg/ml for mupiroc",
+            "journal": "Current eye research",
+            "year": "1993",
+            "authors": [
+              "Cutarelli P E",
+              "Lazarus H M",
+              "Jacobs M R",
+              "Lass J H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Cells, Cultured",
+              "Cornea",
+              "DNA",
+              "DNA Replication",
+              "Epithelium",
+              "Lactams",
+              "Microbial Sensitivity Tests",
+              "Peptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8222720/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leukoplakia of vagina",
+        "txgnn_score": 0.9580612182617188,
+        "txgnn_rank": 24729,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-human animal disease",
+        "txgnn_score": 0.95662921667099,
+        "txgnn_rank": 25062,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "staphylococcal scalded skin syndrome",
+        "txgnn_score": 0.9557199478149414,
+        "txgnn_rank": 25287,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35901469",
+            "title": "Staphylococcal Scalded Skin Syndrome, Identification, and Wound Care: A Case Report Series.",
+            "abstract": "Methicillin-susceptible Staphylococcus aureus (MSSA) infections cause diseases ranging from localized skin infections to serious invasive infections. Neonates are immunosuppressed, placing them at increased risk for MSSA infections, including staphylococcal scalded skin syndrome (SSSS), a rare severe skin presentation of MSSA.",
+            "journal": "Advances in neonatal care : official journal of the National Association of Neonatal Nurses",
+            "year": "2022",
+            "authors": [
+              "McKeown Katherine E",
+              "Baker Rachel B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Child, Preschool",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Intensive Care Units, Neonatal",
+              "Staphylococcal Infections",
+              "Staphylococcal Scalded Skin Syndrome",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35901469/"
+          },
+          {
+            "pmid": "15482208",
+            "title": "Treatment of bullous impetigo and the staphylococcal scalded skin syndrome in infants.",
+            "abstract": "Impetigo is a common, superficial, bacterial infection of the skin characterized by an inflamed and infected epidermis. The rarer variant, bullous impetigo, is characterized by fragile fluid-filled vesicles and flaccid blisters and is invariably caused by pathogenic strains of Staphylococcus aureus. Bullous impetigo is at the mild end of a spectrum of blistering skin diseases caused by a staphylococcal exfoliative toxin that, at the other extreme, is represented by widespread painful blistering and superficial denudation (the staphylococcal scalded skin syndrome). In bullous impetigo, the exfoliative toxins are restricted to the area of infection, and bacteria can be cultured from the blister contents. In staphylococcal scalded skin syndrome the exfoliative toxins are spread hematogenously from a localized source causing widespread epidermal damage at distant sites. Both occur more commonly in children under 5 years of age and particularly in neonates. It is important to swab the skin ",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2004",
+            "authors": [
+              "Johnston Graham A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents",
+              "Carrier State",
+              "Clinical Trials as Topic",
+              "Drug Resistance, Bacterial",
+              "Humans",
+              "Impetigo",
+              "Infant",
+              "Infant, Newborn",
+              "Prognosis",
+              "Skin Diseases, Vesiculobullous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15482208/"
+          },
+          {
+            "pmid": "37404367",
+            "title": "Associated Outcomes of Different Intravenous Antibiotics Combined with 2% Mupirocin Ointment in the Treatment of Pediatric Patients with Staphylococcal Scalded Skin Syndrome.",
+            "abstract": "To compare treatment duration, influencing factors, and costs among intravenous antibiotic groups combined with 2% mupirocin ointment for treating staphylococcal scalded skin syndrome (SSSS).",
+            "journal": "Clinical, cosmetic and investigational dermatology",
+            "year": "2023",
+            "authors": [
+              "You Cong",
+              "Wu Zhiwei",
+              "Liao Mingyi",
+              "Ye Xiaoying",
+              "Li Longnian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37404367/"
+          },
+          {
+            "pmid": "16009455",
+            "title": "Nosocomial outbreak of staphylococcal scalded skin syndrome in neonates: epidemiological investigation and control.",
+            "abstract": "Over a three-month period, 13 neonates developed staphylococcal scalded skin syndrome (SSSS) in a maternity unit, between four and 18 days after their birth. An epidemiological and descriptive study followed by a case-control study was performed. A case was defined as a neonate with blistering or peeling skin, and exfoliative toxin A Staphylococcus aureus positive cultures. Controls were selected at random from the asymptomatic, non-colonized neonates born on the same day as the cases. All staff members and all neonates born during the outbreak period were screened for carriage by nasal swabs and umbilical swabs, respectively. S. aureus isolates were polymerase chain reaction (PCR) screened for etA gene and genotyped by pulsed-field gel electrophoresis (PFGE). Two clusters of eight and five cases were identified. Receiving more than one early umbilical care procedure by the same ancillary nurse was the only risk factor identified in the case-control study (odds ratio=15, 95% confidence",
+            "journal": "The Journal of hospital infection",
+            "year": "2005",
+            "authors": [
+              "El Helali N",
+              "Carbonne A",
+              "Naas T",
+              "Kerneis S",
+              "Fresco O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Case-Control Studies",
+              "Cross Infection",
+              "Disease Outbreaks",
+              "Female",
+              "Health Personnel",
+              "Humans",
+              "Infant, Newborn",
+              "Infection Control",
+              "Infectious Disease Transmission, Professional-to-Patient"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16009455/"
+          },
+          {
+            "pmid": "31725120",
+            "title": "Increasing Numbers of Staphylococcal Scalded Skin Syndrome Cases Caused by ST121 in Houston, Texas.",
+            "abstract": "The molecular epidemiology of Staphylococcus aureus strains causing staphylococcal scalded skin syndrome (SSSS) in the United States has not been described. We analyzed patient and S. aureus isolate characteristics associated with SSSS in children at Texas Children's Hospital.",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2020",
+            "authors": [
+              "Hultén Kristina G",
+              "Kok Melissa",
+              "King Kathryn E",
+              "Lamberth Linda B",
+              "Kaplan Sheldon L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Microbial Sensitivity Tests",
+              "Molecular Epidemiology",
+              "Multilocus Sequence Typing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31725120/"
+          },
+          {
+            "pmid": "30418106",
+            "title": "Emergence of staphylococcal scalded skin syndrome associated with a new toxinogenic, methicillin-susceptible Staphylococcus aureus clone.",
+            "abstract": "A sharp increase in staphylococcal scalded skin syndrome (SSSS) cases has been recorded in our settings since 2015, with 31 cases having been documented during the period 2014-2017. The molecular investigation of strains from the above period showed the emergence of a methicillin-susceptible, mupirocin- and fusidic acid-resistant Staphyloccocus aureus clone that belongs to the ST121 complex and carries both epidermolysin (eta/etb) genes. We concluded that the SSSS caused by the newly emerged, highly virulent community-associated-methicillin sensitive S. aureus strains that have been encountered lately is more severe than impetigo. Physicians should be aware of the probability of SSSS epidemics from strains that are resistant to mupirocin and fusidic acid, which have been used irrationally and excessively.",
+            "journal": "Journal of medical microbiology",
+            "year": "2019",
+            "authors": [
+              "Doudoulakakis Anastassios",
+              "Spiliopoulou Iris",
+              "Syridou Garyfallia",
+              "Giormezis Nikolaos",
+              "Militsopoulou Maria"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Child",
+              "Child, Preschool",
+              "Drug Resistance, Multiple, Bacterial",
+              "Female",
+              "Fusidic Acid",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30418106/"
+          },
+          {
+            "pmid": "27047925",
+            "title": "Staphylococcal Scalded Skin Syndrome in an Adult on Chemotherapy.",
+            "abstract": "Staphylococcal scalded skin syndrome is a toxin-mediated, epidermolytic condition that uncommonly affects adults. A 51-year-old man receiving chemotherapy for leukemia presented with a large geographic erosion with superficial sloughing and multiple smaller lesions elsewhere. Biopsy revealed complete subcorneal splitting with multiple detached fragments of normal-appearing stratum corneum with fragments of attached acantholytic granular keratinocytes. Mild epidermal dysmaturation was also noted. Based on these findings, the patient was started on oral cephalexin, topical mupirocin, and topical clobetasol. His lesions improved significantly over the course of 1 week.",
+            "journal": "Dermatopathology (Basel, Switzerland)",
+            "year": "2014",
+            "authors": [
+              "Lee Jonathan J",
+              "Tsibris Hillary C",
+              "Mostaghimi Arash",
+              "Lian Christine G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27047925/"
+          },
+          {
+            "pmid": "9576389",
+            "title": "Molecular epidemiology of staphylococcal scalded skin syndrome in premature infants.",
+            "abstract": "Outbreaks of nosocomial staphylococcal scalded skin syndrome (SSSS) in infants have been well-described associated with the well baby nursery or delivery room. We describe two cases of SSSS in very low birth weight infants in a neonatal intensive care unit (NICU) and the success of infection control strategies used to prevent an outbreak.",
+            "journal": "The Pediatric infectious disease journal",
+            "year": "1998",
+            "authors": [
+              "Saiman L",
+              "Jakob K",
+              "Holmes K W",
+              "Whittier S",
+              "Garzon M C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Cross Infection",
+              "Electrophoresis, Gel, Pulsed-Field",
+              "Exfoliatins",
+              "Family",
+              "Female",
+              "Health Personnel",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Infant, Premature, Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9576389/"
+          },
+          {
+            "pmid": "28592549",
+            "title": "Emergence of a Staphylococcus aureus Clone Resistant to Mupirocin and Fusidic Acid Carrying Exotoxin Genes and Causing Mainly Skin Infections.",
+            "abstract": "Skin and soft tissue infections (SSTIs) caused by mupirocin-resistant Staphylococcus aureus strains have recently increased in number in our settings. We sought to evaluate the characteristics of these cases over a 43-month period. Data for all community-acquired staphylococcal infections caused by mupirocin-resistant strains were retrospectively reviewed. Genes encoding products producing high-level resistance (HLR) to mupirocin (mupA), fusidic acid resistance (fusB), resistance to macrolides and lincosamides (ermC and ermA), Panton-Valentine leukocidin (PVL) (lukS/lukF-PV), exfoliative toxins (eta and etb), and fibronectin binding protein A (fnbA) were investigated by PCRs in 102 selected preserved strains. Genotyping was performed by SCCmec and agr typing, whereas clonality was determined by pulsed-field gel electrophoresis (PFGE) and multilocus sequence typing (MLST). A total of 437 cases among 2,137 staphylococcal infections were recorded in 2013 to 2016; they were all SSTIs with ",
+            "journal": "Journal of clinical microbiology",
+            "year": "2017",
+            "authors": [
+              "Doudoulakakis Anastassios",
+              "Spiliopoulou Iris",
+              "Spyridis Nikolaos",
+              "Giormezis Nikolaos",
+              "Kopsidas John"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Bacterial Agents",
+              "Child",
+              "Child, Preschool",
+              "Community-Acquired Infections",
+              "Drug Resistance, Bacterial",
+              "Electrophoresis, Gel, Pulsed-Field",
+              "Exotoxins",
+              "Female",
+              "Fusidic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28592549/"
+          },
+          {
+            "pmid": "8435912",
+            "title": "The staphylococci. Importance of their control in the management of skin disease.",
+            "abstract": "For skin diseases such as impetigo and furunculosis in which infection with S. aureus is the primary pathologic event, control of that infection is obviously paramount in the management of the clinical situation. The available antistaphylococcal agents are highly effective, and topical mupirocin has been a valuable recent addition. In conditions such as AD the position is less clear. Because the presence of the underlying disease is a prerequisite for the staphylococcal colonization, the exact role of staphylococcal damage is difficult to separate from the underlying disease activity. The definitive experiment, whereby staphylococcal colonization is eradicated over a prolonged period of time by a nonirritant method, remains to be performed. Until that time it is reasonable to pursue a policy of treating S. aureus colonization when it is believed to be of clinical significance and not simply on the basis of bacteriologic findings.",
+            "journal": "Dermatologic clinics",
+            "year": "1993",
+            "authors": [
+              "Williams R E",
+              "MacKie R M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dermatitis, Atopic",
+              "Furunculosis",
+              "Humans",
+              "Impetigo",
+              "Leg Ulcer",
+              "Skin Diseases, Bacterial",
+              "Staphylococcal Infections",
+              "Staphylococcal Scalded Skin Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8435912/"
+          },
+          {
+            "pmid": "18306677",
+            "title": "[Genetically confirmed nosocomial transmission of staphylococcal scalded skin syndrome between two infants in the neonatal intensive care unit].",
+            "abstract": "We report two consecutive cases of staphylococcal scalded skin syndrome (SSSS) in our neonatal intensive care unit (NICU). Methicillin-resistant Staphylococcus aureus (MRSA) was isolated from skin swabs. An epidemiological survey conducted on the NICU staff, isolated MRSA from nasal swabs of three personnel. Gene analysis of these five isolates using pulsed-field gel electrophoresis (PFGE) of the bacterial genome and polymerase chain reaction (PCR) for a panel of toxin genes encoded two patient-derived isolates of exfoliative toxin B (ETB) considered to be identical based on the spectrum of toxin genes encoded and PFGE patterns. Three staff-derived isolates did not, however, encode ETB and showed different repertoires of toxin genes and PFGE patterns from those of the two patient-derived isolates. Nasal application of mupirocin to all carriers successfully eradicated MRSA. Horizontal transmission of ETB-producing MRSA between the two patients in the NICU was confirmed, but no NICU pers",
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "2008",
+            "authors": [
+              "Egashira Masanori",
+              "Tagawa Masato",
+              "Hirakata Yoichi",
+              "Sugai Motoyuki",
+              "Moriuchi Hiroyuki"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cross Infection",
+              "Electrophoresis, Gel, Pulsed-Field",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Intensive Care Units, Neonatal",
+              "Polymerase Chain Reaction",
+              "Staphylococcal Scalded Skin Syndrome",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18306677/"
+          },
+          {
+            "pmid": "35358031",
+            "title": "Predominance of community-associated, methicillin-susceptible Staphylococcus aureus infections among hospitalized children and adolescents.",
+            "abstract": "Introduction. Staphylococcus aureus infections cause significant morbidity and mortality in children and adolescents.Gap Statement. There is limited data on the characteristics of S. aureus infections requiring hospitalization in childhood.Aim.To investigate the molecular epidemiology and antibiotic resistance of S. aureus clinical isolates from children and adolescents.Methodology.All S. aureus isolates recovered from patients aged <18 years, admitted to a referral hospital, with culture-proven invasive or non-invasive infections during the 4 year period 2015 to 2018 were analysed for antimicrobial resistance, virulence genes, PFGE and multilocus sequence typing (MLST). Cases were assigned to community-associated, community-onset healthcare-associated or hospital-associated infections based on epidemiological case definitions.Results.Among 139 S. aureus infections, 88.5 % (123/139) were caused by methicillin-susceptible isolates (MSSA) and 73.4 % (102/139) were classified as community",
+            "journal": "Journal of medical microbiology",
+            "year": "2022",
+            "authors": [
+              "Tsirigotaki Maria",
+              "Giormezis Nikolaos",
+              "Maraki Sofia",
+              "Spiliopoulou Iris",
+              "Galanakis Emmanouil"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Bacterial Agents",
+              "Child",
+              "Child, Hospitalized",
+              "Humans",
+              "Methicillin",
+              "Multilocus Sequence Typing",
+              "Staphylococcal Infections",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35358031/"
+          },
+          {
+            "pmid": "16218885",
+            "title": "Current options for the treatment of impetigo in children.",
+            "abstract": "Impetigo contagiosa is a common, superficial, bacterial infection of the skin characterised by an inflamed and infected epidermis caused by Staphylococcus aureus, Streptococcus pyogenes or both. The less common bullous impetigo is characterised by fragile fluid-filled vesicles and flaccid blisters, and is invariably caused by pathogenic strains of S. aureus. In bullous impetigo, exfoliative toxins are produced, although these are restricted to the area of infection and bacteria can be cultured from the blister contents. In the rare variant, staphylococcal scalded skin syndrome, the exfoliative toxins are spread haematogenously from a localised source causing widespread epidermal damage at distant sites.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2005",
+            "authors": [
+              "Sladden Michael J",
+              "Johnston Graham A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Child",
+              "Drug Resistance, Bacterial",
+              "Erythromycin",
+              "Fusidic Acid",
+              "Humans",
+              "Impetigo",
+              "Infant",
+              "Mupirocin",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16218885/"
+          },
+          {
+            "pmid": "19000857",
+            "title": "[Managing children skin and soft tissue infections].",
+            "abstract": "The skin infections are common in pediatrics, ranging from furonculosis or impetigo to the severe forms of necrotizing dermohypodermitis. The general antibiotic treatments are not always indicated but when they are, they must take into account the resistance of two main species of bacteria (Staphylococcus aureus and Streptococcus pyogenes), the pharmacokinetics-pharmacodynamic parameters and the severity and type of infection. Two situations should be treated by topical treatements: limited impetigo and furonculosis. The two topical antibiotics used preferentially are mupirocine and fucidic acid. Soon, a third topical antibiotic, reptamuline will complete these. For uncomplicated superficial skin infections justifying an oral antibiotic, amoxicillin-clavulanate offers the best guarantee of efficiency. Poor pharmacodynamic-pharmacokinetic must lead to not prescribe oral M penicillins. In case of allergy, a first-generation cephalosporin, a macrolide (if the susceptibility of the strain ",
+            "journal": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie",
+            "year": "2008",
+            "authors": [
+              "Moulin F",
+              "Quinet B",
+              "Raymond J",
+              "Gillet Y",
+              "Cohen R"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Amoxicillin-Potassium Clavulanate Combination",
+              "Anti-Bacterial Agents",
+              "Cellulitis",
+              "Cephalosporins",
+              "Child",
+              "Drug Resistance, Bacterial",
+              "Fasciitis, Necrotizing",
+              "Furunculosis",
+              "Fusidic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19000857/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bacterial vaginosis",
+        "txgnn_score": 0.9518579244613647,
+        "txgnn_rank": 26276,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1815427",
+            "title": "Eradication of methicillin-resistant Staphylococcus aureus vaginitis with mupirocin.",
+            "abstract": "We report the case of a 54-year-old, quadriplegic woman with a methicillin-resistant Staphylococcus aureus (MRSA) vaginal infection. After failing a five-day course of intravenous vancomycin therapy, the patient was treated for ten days with mupirocin ointment applied intravaginally twice daily, which resulted in eradication of the infection. This report details a novel approach in treating MRSA vaginal infections.",
+            "journal": "DICP : the annals of pharmacotherapy",
+            "year": "1991",
+            "authors": [
+              "Cool-Foley A A",
+              "Nathan C",
+              "O'Donovan C",
+              "Simon D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intravaginal",
+              "Female",
+              "Humans",
+              "Methicillin Resistance",
+              "Middle Aged",
+              "Mupirocin",
+              "Ointments",
+              "Quadriplegia",
+              "Staphylococcal Infections",
+              "Vaginosis, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1815427/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00410",
+    "name": "Mupirocin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mupirocin"
+      },
+      "queried_at": "2026-03-10T03:31:41.435579",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mupirocin"
+      },
+      "queried_at": "2026-03-10T03:31:44.479954",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "pleural empyema (disease)"
+      },
+      "queried_at": "2026-03-10T03:31:44.954570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "pleural empyema (disease)"
+      },
+      "queried_at": "2026-03-10T03:31:50.892188",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "pleural empyema (disease)"
+      },
+      "queried_at": "2026-03-10T03:31:52.508626",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T03:31:54.053446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T03:31:57.554517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T03:31:58.460909",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "neurotrophic keratopathy"
+      },
+      "queried_at": "2026-03-10T03:31:59.117193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "neurotrophic keratopathy"
+      },
+      "queried_at": "2026-03-10T03:32:01.911135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "neurotrophic keratopathy"
+      },
+      "queried_at": "2026-03-10T03:32:02.736035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-10T03:32:04.384011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-10T03:32:08.653443",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-10T03:32:11.417850",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T03:32:12.254493",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T03:32:14.976400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T03:32:15.653321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-10T03:32:16.413304",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-10T03:32:20.254519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "exposure keratitis"
+      },
+      "queried_at": "2026-03-10T03:32:22.211956",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "leukoplakia of vagina"
+      },
+      "queried_at": "2026-03-10T03:32:22.730144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "leukoplakia of vagina"
+      },
+      "queried_at": "2026-03-10T03:32:27.728604",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "leukoplakia of vagina"
+      },
+      "queried_at": "2026-03-10T03:32:28.522788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "non-human animal disease"
+      },
+      "queried_at": "2026-03-10T03:32:29.259290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "non-human animal disease"
+      },
+      "queried_at": "2026-03-10T03:32:33.970292",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "non-human animal disease"
+      },
+      "queried_at": "2026-03-10T03:32:34.662455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "staphylococcal scalded skin syndrome"
+      },
+      "queried_at": "2026-03-10T03:32:35.305659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "staphylococcal scalded skin syndrome"
+      },
+      "queried_at": "2026-03-10T03:32:38.771135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "staphylococcal scalded skin syndrome"
+      },
+      "queried_at": "2026-03-10T03:32:41.168995",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T03:32:42.977730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T03:32:46.321074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mupirocin",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T03:32:48.616295",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:32:48.633521"
+  }
+}

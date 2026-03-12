@@ -1,0 +1,695 @@
+{
+  "drug": {
+    "inn": "Enfortumab vedotin",
+    "drugbank_id": "DB13007",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9952930808067322,
+        "txgnn_rank": 6238,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9942508935928344,
+        "txgnn_rank": 7153,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cytomegalovirus infection",
+        "txgnn_score": 0.9936040043830872,
+        "txgnn_rank": 7730,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "candidiasis",
+        "txgnn_score": 0.9930034279823304,
+        "txgnn_rank": 8231,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41341429",
+            "title": "Risk Signals of Antibody-Drug Conjugates in Bladder Cancer: A Real-World FAERS Study.",
+            "abstract": "Antibody-drug conjugates (ADCs) represent a transformative class of therapeutics for advanced bladder cancer. However, their real-world safety profiles are not yet fully characterized.",
+            "journal": "Clinical epidemiology",
+            "year": "2025",
+            "authors": [
+              "Liu Jinming",
+              "Li Guowang",
+              "Yang Jia",
+              "Sun Binxu",
+              "Guo Shanqi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41341429/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cerebral infarction",
+        "txgnn_score": 0.9922919869422911,
+        "txgnn_rank": 8805,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HIV infectious disease",
+        "txgnn_score": 0.9918673634529114,
+        "txgnn_rank": 9135,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.9917752742767334,
+        "txgnn_rank": 9202,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious bovine rhinotracheitis",
+        "txgnn_score": 0.9912885427474976,
+        "txgnn_rank": 9588,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant catarrh",
+        "txgnn_score": 0.9912885427474976,
+        "txgnn_rank": 9589,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HER2 positive breast carcinoma",
+        "txgnn_score": 0.9899269342422484,
+        "txgnn_rank": 10578,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07287995",
+            "title": "A Phase 1b/2 Study of ASP2998 as Monotherapy and in Combination With Standard Therapies in Participants With Locally Advanced Unresectable or Metastatic Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2026-02-05",
+            "completion_date": "2029-06-30",
+            "country": "United States",
+            "enrollment": 428,
+            "brief_summary": "Specific proteins found in tumors help the tumors spread and grow. People with solid tumors often have a protein called TROP2 in their tumor. ASP2998 is being developed to attach to TROP2 and then attack the tumor cells in people with solid tumors. ASP2998 will either be given by itself, or given together with one or more of standard cancer treatments pembrolizumab, carboplatin, and enfortumab vedotin.\n\nThis is an early development study to collect information about ASP2998 in people with solid ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* For the ASP2998 monotherapy dose escalation (excluding urothelial and non-small cell lung cancer (NSCLC) tumor-specific backfill participants), the following criteria apply:\n\n  * participant has a confirmed diagnosis of locally advanced unresectable or metastatic solid tumors.",
+            "endpoints": [
+              "Number of Participants with Dose Limiting Toxicities (DLTs)",
+              "Number of Participants with Treatment-Emergent Adverse Events (TEAEs)",
+              "Number of participants with laboratory value abnormalities and/or adverse events (AEs)"
+            ],
+            "sponsor": "Astellas Pharma Inc",
+            "url": "https://clinicaltrials.gov/study/NCT07287995"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04225117",
+            "title": "An Open-label, Multicenter, Multicohort, Phase 2 Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-03-09",
+            "completion_date": "2026-09-30",
+            "country": "Canada, United States, Japan",
+            "enrollment": 329,
+            "brief_summary": "The primary purpose of this study is to determine the antitumor activity of enfortumab vedotin as measured by confirmed objective response rate (ORR) per RECIST v1.1.\n\nThis study will also assess other measures of antitumor activity; overall survival (OS); as well as the safety and tolerability of enfortumab vedotin for cohorts 1 to 8 and enfortumab vedotin + pembrolizumab in cohort 9.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject is considered an adult according to local regulation at the time of signing the informed consent form (ICF).\n* Subject has measurable disease by RECIST Version 1.1.\n* Subject has accessible archival tumor tissue from either the primary tumor or a metastatic site, for w",
+            "endpoints": [
+              "Cohorts 1-8: Confirmed Overall Response Rate (ORR) (Complete Response (CR) and Partial Response(PR)) per RECIST V1.1 per investigator assessment",
+              "Cohort 9: Confirmed Overall Response Rate (ORR) (Complete Response (CR) and Partial Response (PR)) per RECIST V1.1 per investigator assessment"
+            ],
+            "sponsor": "Astellas Pharma Inc",
+            "url": "https://clinicaltrials.gov/study/NCT04225117"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07309770",
+            "title": "Trastuzumab Rezetecan in Advanced Solid Tumors Refractory to Standard Therapies: A Multicenter, Single-Arm, Phase II Study With Multiple Cohorts",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-12-18",
+            "completion_date": "2028-03-11",
+            "country": "China",
+            "enrollment": 90,
+            "brief_summary": "This study is a single-center, multi-cohort, phase II clinical trial. Eligible patients with HER2-positive advanced solid tumors were enrolled after providing informed consent. A total of 90 patients were allocated into three cohorts (30 patients each): those with Extramammary Paget's Disease (EMPD), rare solid tumors, or urothelial carcinoma, who had experienced failure of standard treatment or for whom no standard treatment was available. The participant recruitment period was 12 months, and t",
+            "eligibility_criteria": "Inclusion Criteria:\n\nVoluntarily sign a written informed consent form.\n\nAge ≥ 18 years.\n\nDiagnosed with the corresponding advanced tumor confirmed by histology and/or cytology, combined with imaging or ultrasound assessment, and pathologically confirmed as HER2-positive (i.e., HER2 ≥ 1+ by immunohis",
+            "endpoints": [
+              "The proportion of patients who achieved CR or PR according to RECIST V.1.1 criteria."
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT07309770"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05097599",
+            "title": "StrataPATH™ (Precision Indications for Approved Therapies): A Study Evaluating the Clinical Activity and Safety of Approved Drugs Within Biomarker-Guided Patients With Solid Tumors",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-04-29",
+            "completion_date": "2024-06-12",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "StrataPATH™ is a non-randomized, open-label trial designed to explore efficacy and safety of multiple FDA-approved and commercially available cancer therapies in new, biomarker-guided patient populations.",
+            "eligibility_criteria": "To be eligible to participate in this study, an individual must meet each of the criterion below and the criteria indicated in the selected biomarker/drug cohort appendix:\n\n1. Male or female ≥18 years of age.\n2. Pathologically confirmed solid tumor\n3. Participants must be able to follow study visit ",
+            "endpoints": [
+              "Overall response rate (ORR) defined as the percentage of participants with a best overall response of CR or PR based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1, as assessed by the investigator"
+            ],
+            "sponsor": "Strata Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT05097599"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40614854",
+            "title": "Drug-tolerant persisting polyploid giant cancer cells mediate resistance to HER2-targeting antibody-drug conjugates.",
+            "abstract": "Polyploid giant cancer cells (PGCCs) contribute to resistance against various cancer therapies. This study investigates whether HER2-directed antibody-drug conjugates (ADC) induce PGCCs and their role in drug resistance. HER2-positive breast cancer (JIMT-1) and gastric cancer (MKN7, SNU-216) cells were treated with HER2-directed ADCs, trastuzumab emtansine, trastuzumab deruxtecan, XMT-1522, and disitamab vedotin (DV). The induced persister cells were characterized using live cell imaging, confocal microscopy, immunohistochemistry, flow cytometry, gene expression analysis, SNP genotyping, and next-generation sequencing. Drug sensitivity was assessed using the AlamarBlue assay and SCID mouse xenografts. All 4 ADCs induced PGCCs, with XMT-1522 and DV being the most effective. The induced giant cells were drug-resistant and exhibited drug-tolerant persister cell characteristics. HER2 protein levels were downregulated in persisting drug-tolerant PGCCs and their daughter cells. JIMT-1 cells ",
+            "journal": "Cancer letters",
+            "year": "2025",
+            "authors": [
+              "Yazdi Narjes",
+              "Pourjamal Negar",
+              "Katainen Riku",
+              "Väänänen Juho",
+              "Dai Jun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Drug Resistance, Neoplasm",
+              "Immunoconjugates",
+              "Animals",
+              "Female",
+              "Cell Line, Tumor",
+              "Xenograft Model Antitumor Assays",
+              "Mice",
+              "Mice, SCID"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40614854/"
+          },
+          {
+            "pmid": "41384708",
+            "title": "Molecular pathology of bladder cancer.",
+            "abstract": "Significant progress has been achieved in elucidating the molecular underpinnings of bladder cancer initiation and progression. Translational research has identified mutations in chromatin-modifying genes such as KMT2D and KDM6A, which facilitate colonization of larger regions of the urothelium. Subsequent mutations in TP53, PIK3CA, FGFR3 or RB1 drive malignant transformation. Advances in personalized oncology now integrate clinical, pathological and molecular classifications in bladder cancer, representing a paradigm shift in the management of locally advanced and metastatic disease. Alterations in FGFR3, commonly found in the luminal-papillary molecular subtype associated with low response to immunotherapy, are the target of erdafitinib. Enfortumab vedotin, which targets Nectin-4 (expressed in >95% of urothelial carcinomas), is approved for patients who progress after chemotherapy and/or immunotherapy. Evidence suggests that Nectin-4 gene amplification may further refine patient stra",
+            "journal": "Histopathology",
+            "year": "2026",
+            "authors": [
+              "Lopez-Beltran Antonio",
+              "Blanca Ana",
+              "Downes Michelle R",
+              "Cimadamore Alessia",
+              "Montironi Rodolfo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Urinary Bladder Neoplasms",
+              "Pathology, Molecular",
+              "Carcinoma, Transitional Cell",
+              "Biomarkers, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41384708/"
+          },
+          {
+            "pmid": "32315240",
+            "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+            "abstract": "Antibody drug conjugates (ADCs) are an emerging class of therapeutics that consist of a cytotoxic agent linked covalently to an antibody, which is directed toward a specific cell surface target expressed by tumor cells and/or the microenvironment. ADCs leverage the specificity of the antibody such that it functions as a carrier to deliver the cytotoxic payload into the tumor. Four parameters are considered critical for this class of complex engineered therapeutics: target selection, antibody, cytotoxic payload, as well as conjugation and linker technology. The development of this class of drugs has proven more complex than expected. Several challenges have arisen, including a lack of true tumor antigen specificity, early release of the cytotoxic payload into the bloodstream due to linker instability, and low potency of the payload, resulting in either greater toxicity or lack of improved efficacy compared with unconjugated cytotoxics. The approval of trastuzumab emtansine in 2013 for H",
+            "journal": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+            "year": "2020",
+            "authors": [
+              "Boni Valentina",
+              "Sharma Manish R",
+              "Patnaik Amita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immunoconjugates",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32315240/"
+          },
+          {
+            "pmid": "41654096",
+            "title": "Real-world evidence for 10 oncology drugs approved in the last 5 years: A comprehensive narrative synthesis.",
+            "abstract": "Randomized controlled trials (RCTs) establish the efficacy of new oncology drugs but often exclude older adults, patients with comorbidities, and individuals with poorer performance status. Real-world evidence (RWE) is therefore essential to determine whether trial benefits translate to the broader populations treated in routine practice.",
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2026",
+            "authors": [
+              "Petrelli Fausto",
+              "Colombo Zefinetti Lara",
+              "Parati Maria Chiara",
+              "Ghilardi Mara",
+              "Borgonovo Karen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41654096/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13007",
+    "name": "Enfortumab vedotin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Enfortumab vedotin"
+      },
+      "queried_at": "2026-03-10T03:12:41.566587",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Enfortumab vedotin"
+      },
+      "queried_at": "2026-03-10T03:12:43.818910",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T03:12:44.402328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T03:12:47.559901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T03:12:48.350189",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:12:48.819053",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:12:51.800984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T03:12:52.675323",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T03:12:53.275846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T03:13:12.669076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T03:13:13.496163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "candidiasis"
+      },
+      "queried_at": "2026-03-10T03:13:14.066324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "candidiasis"
+      },
+      "queried_at": "2026-03-10T03:13:17.960037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "candidiasis"
+      },
+      "queried_at": "2026-03-10T03:13:20.068139",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "cerebral infarction"
+      },
+      "queried_at": "2026-03-10T03:13:20.660817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "cerebral infarction"
+      },
+      "queried_at": "2026-03-10T03:13:24.251244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "cerebral infarction"
+      },
+      "queried_at": "2026-03-10T03:13:25.535449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T03:13:26.174082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T03:13:29.360933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-10T03:13:30.220065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:13:30.760684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:13:33.988820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:13:34.720242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T03:13:35.340360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T03:13:40.022539",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T03:13:42.015011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T03:13:42.672159",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T03:13:47.017127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T03:13:47.712825",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T03:13:49.663380",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T03:13:52.560803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Enfortumab vedotin",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T03:13:56.347692",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:13:56.364954"
+  }
+}

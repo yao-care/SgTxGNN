@@ -1,0 +1,564 @@
+{
+  "drug": {
+    "inn": "Distigmine",
+    "drugbank_id": "DB13694",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "myasthenia gravis with thymus hyperplasia",
+        "txgnn_score": 0.999983549118042,
+        "txgnn_rank": 83,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myasthenia, limb-girdle, autoimmune",
+        "txgnn_score": 0.999982476234436,
+        "txgnn_rank": 86,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal myasthenia gravis",
+        "txgnn_score": 0.9999790191650392,
+        "txgnn_rank": 104,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune disease of peripheral nervous system",
+        "txgnn_score": 0.9999771118164062,
+        "txgnn_rank": 110,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disease of receptor activity",
+        "txgnn_score": 0.9999756813049316,
+        "txgnn_rank": 114,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20410601",
+            "title": "Demonstration of muscarinic and nicotinic receptor binding activities of distigmine to treat detrusor underactivity.",
+            "abstract": "The present study was undertaken to examine whether distigmine, a therapeutic agent used to treat detrusor underactivity, binds directly to muscarinic and nicotinic receptors. We used radioreceptor binding assays and compared the effects of distigmine with those of neostigmine and donepedil. The inhibitory effect of distigmine on the blood acetylcholinesterase (AChE) activity was significantly weaker than that of neostigmine. Distigmine, neostigmine, and donepezil competed for specific binding sites of [N-methyl-(3)H]scopolamine methyl chloride ([(3)H]NMS ) and [(3)H]oxotremorine-M in the bladder, submaxillary gland and cerebral cortex of rats in a concentration-dependent manner, indicating significant binding activity of muscarinic receptors. Distigmine displayed significantly higher affinity for binding sites of [(3)H]oxotremorine-M compared with those of [(3)H]NMS as revealed by large ratios of its K(i) value for [(3)H]NMS to that for [(3)H]oxotremorine-M, suggesting that it has pre",
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2010",
+            "authors": [
+              "Harada Taketsugu",
+              "Fushimi Kazumi",
+              "Kato Aya",
+              "Ito Yoshihiko",
+              "Nishijima Saori"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Binding Sites",
+              "Binding, Competitive",
+              "Cerebral Cortex",
+              "Cholinesterase Inhibitors",
+              "Down-Regulation",
+              "Male",
+              "Muscarinic Agonists",
+              "Muscle, Smooth",
+              "Oxotremorine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20410601/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypersplenism (disease)",
+        "txgnn_score": 0.9996356964111328,
+        "txgnn_rank": 935,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atypical hemolytic-uremic syndrome with B factor anomaly",
+        "txgnn_score": 0.9995731711387634,
+        "txgnn_rank": 1034,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fetal akinesia deformation sequence",
+        "txgnn_score": 0.999413251876831,
+        "txgnn_rank": 1281,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital myasthenic syndrome with tubular aggregates",
+        "txgnn_score": 0.9967387318611144,
+        "txgnn_rank": 4850,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myasthenia, congenital, refractory to acetylcholinesterase inhibitors",
+        "txgnn_score": 0.9967074394226074,
+        "txgnn_rank": 4896,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19172815",
+            "title": "[Treatment approach to congenital myasthenic syndrome in a patient with acetylcholine receptor deficiency].",
+            "abstract": "Congenital myasthenic syndromes (CMS) are rare heterogeneous disorders of neurotransmission caused by genetic defects of neuromuscular junction molecules. While CMS patients have been reported worldwide, in Japan there have been only a few descriptions of adult CMS patients with acetylcholinesterase (AChE) deficiency and slow channel syndrome. Herein, we report a Japanese CMS patient with acetylcholine receptor (AChR) deficiency, diagnosed during childhood, and our treatment approach to the patient. This 13-year-old Japanese boy had had severe myasthenic symptoms since infancy. Ptosis, his first symptom, appeared at 5 months and nasal voice was recognized at 2 years of age. AchR and anti-muscle-specific tyrosine kinase (Musk) antibody remained negative. A positive tensilon test and decremental response on electromyogram supported the diagnosis of sero-negative myasthenia gravis. Despite thymectomy and strong immunosuppressive therapy including steroid pulse and FK 506, he gradually det",
+            "journal": "No to hattatsu = Brain and development",
+            "year": "2009",
+            "authors": [
+              "Ishigaki Keiko",
+              "Murakami Terumi",
+              "Ito Yasushi",
+              "Yanagisawa Akiko",
+              "Kodaira Kayano"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "4-Aminopyridine",
+              "Adolescent",
+              "Amifampridine",
+              "Diagnosis, Differential",
+              "Humans",
+              "Male",
+              "Myasthenic Syndromes, Congenital",
+              "Neuromuscular Junction",
+              "Pyridinium Compounds",
+              "Receptors, Cholinergic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19172815/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13694",
+    "name": "Distigmine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Distigmine"
+      },
+      "queried_at": "2026-03-09T08:14:01.860775",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Distigmine"
+      },
+      "queried_at": "2026-03-09T08:14:06.680722",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-09T08:14:07.914601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-09T08:14:13.663951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "queried_at": "2026-03-09T08:14:14.706559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia, limb-girdle, autoimmune"
+      },
+      "queried_at": "2026-03-09T08:14:16.307386",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia, limb-girdle, autoimmune"
+      },
+      "queried_at": "2026-03-09T08:14:20.127254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia, limb-girdle, autoimmune"
+      },
+      "queried_at": "2026-03-09T08:14:21.348587",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-09T08:14:21.919817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-09T08:14:25.255305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "queried_at": "2026-03-09T08:14:26.815482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-09T08:14:27.316535",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-09T08:14:31.069276",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "queried_at": "2026-03-09T08:14:33.680771",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "disease of receptor activity"
+      },
+      "queried_at": "2026-03-09T08:14:34.196969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "disease of receptor activity"
+      },
+      "queried_at": "2026-03-09T08:14:37.995981",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "disease of receptor activity"
+      },
+      "queried_at": "2026-03-09T08:14:42.393058",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "hypersplenism (disease)"
+      },
+      "queried_at": "2026-03-09T08:14:43.025604",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "hypersplenism (disease)"
+      },
+      "queried_at": "2026-03-09T08:14:48.566593",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "hypersplenism (disease)"
+      },
+      "queried_at": "2026-03-09T08:14:50.555049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "queried_at": "2026-03-09T08:14:51.292310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "queried_at": "2026-03-09T08:14:55.616181",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "queried_at": "2026-03-09T08:14:57.038810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "fetal akinesia deformation sequence"
+      },
+      "queried_at": "2026-03-09T08:14:57.755849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "fetal akinesia deformation sequence"
+      },
+      "queried_at": "2026-03-09T08:15:03.350203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "fetal akinesia deformation sequence"
+      },
+      "queried_at": "2026-03-09T08:15:04.308709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "congenital myasthenic syndrome with tubular aggregates"
+      },
+      "queried_at": "2026-03-09T08:15:05.056421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "congenital myasthenic syndrome with tubular aggregates"
+      },
+      "queried_at": "2026-03-09T08:15:09.267796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "congenital myasthenic syndrome with tubular aggregates"
+      },
+      "queried_at": "2026-03-09T08:15:11.901389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"
+      },
+      "queried_at": "2026-03-09T08:15:14.546030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"
+      },
+      "queried_at": "2026-03-09T08:15:18.555773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Distigmine",
+        "disease": "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"
+      },
+      "queried_at": "2026-03-09T08:15:24.256493",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:15:24.288254"
+  }
+}

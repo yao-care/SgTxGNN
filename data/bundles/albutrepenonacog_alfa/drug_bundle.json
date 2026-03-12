@@ -1,0 +1,519 @@
+{
+  "drug": {
+    "inn": "Albutrepenonacog alfa",
+    "drugbank_id": "DB13884",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.99943345785141,
+        "txgnn_rank": 1257,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9994159936904908,
+        "txgnn_rank": 1278,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9991938471794128,
+        "txgnn_rank": 1646,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Scott syndrome",
+        "txgnn_score": 0.9962862730026244,
+        "txgnn_rank": 5335,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bleeding diathesis due to a collagen receptor defect",
+        "txgnn_score": 0.9928452372550964,
+        "txgnn_rank": 8346,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+        "txgnn_score": 0.9925610423088074,
+        "txgnn_rank": 8588,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acquired coagulation factor deficiency",
+        "txgnn_score": 0.985849142074585,
+        "txgnn_rank": 13673,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombotic thrombocytopenic purpura",
+        "txgnn_score": 0.9820647835731506,
+        "txgnn_rank": 15979,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+        "txgnn_score": 0.9753714203834534,
+        "txgnn_rank": 19168,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inherited thrombophilia",
+        "txgnn_score": 0.974054753780365,
+        "txgnn_rank": 19711,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02546622",
+            "title": "A Longitudinal, Observational Study of Previously Treated Hemophilia Patients Switching Factor Replacement Products",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-09",
+            "completion_date": "2020-06-30",
+            "country": "United States",
+            "enrollment": 310,
+            "brief_summary": "This is a longitudinal, observational study of patients with Hemophilia A or B who are planning to switch to a newly approved coagulation factor replacement product, or who have recently switched factor products. The study will follow each patient for up to 1 year. Patients will be recruited at Hemophilia Treatment Centers (HTC) which are ATHN-affiliates. The primary outcome being studied is the development of inhibitor (i.e., antibodies to factor) at 1 year or 50 exposure days, whichever comes ",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Moderate or Severe Congenital Hemophilia A or B (FVIII or FIX clotting activity less than or equal to 5% of normal).\n* Able to give informed consent (by patient or parent/authorized guardian).\n* Previously treated with plasma-derived or recombinant clotting factor replacement p",
+            "endpoints": [
+              "Inhibitor Development"
+            ],
+            "sponsor": "American Thrombosis and Hemostasis Network",
+            "url": "https://clinicaltrials.gov/study/NCT02546622"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13884",
+    "name": "Albutrepenonacog alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa"
+      },
+      "queried_at": "2026-03-09T14:38:28.836132",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa"
+      },
+      "queried_at": "2026-03-09T14:38:36.737932",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T14:38:38.143337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T14:38:43.834637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T14:38:45.231705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T14:38:46.165950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T14:38:50.349299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T14:38:52.349649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T14:38:53.730325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T14:38:57.802373",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T14:38:58.979087",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T14:38:59.791522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T14:39:03.697425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T14:39:04.750945",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T14:39:05.428734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T14:39:09.330884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T14:39:11.232975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T14:39:12.599439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T14:39:17.706621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T14:39:19.486703",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "queried_at": "2026-03-09T14:39:20.463544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "queried_at": "2026-03-09T14:39:25.798985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "queried_at": "2026-03-09T14:39:27.357965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T14:39:28.728483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T14:39:33.912366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T14:39:35.062098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T14:39:35.804637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T14:39:39.732267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T14:39:40.543025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "inherited thrombophilia"
+      },
+      "queried_at": "2026-03-09T14:39:41.431680",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "inherited thrombophilia"
+      },
+      "queried_at": "2026-03-09T14:39:45.113405",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "inherited thrombophilia"
+      },
+      "queried_at": "2026-03-09T14:39:45.927853",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T14:39:45.977848"
+  }
+}

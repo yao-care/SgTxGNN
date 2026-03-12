@@ -1,0 +1,2590 @@
+{
+  "drug": {
+    "inn": "Escitalopram",
+    "drugbank_id": "DB01175",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Ohdo syndrome and variants",
+        "txgnn_score": 0.9856278896331788,
+        "txgnn_rank": 13815,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dysthymic disorder",
+        "txgnn_score": 0.9855172038078308,
+        "txgnn_rank": 13884,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00080158",
+            "title": "Treatment of Adolescent Suicide Attempters (TASA)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2004-03",
+            "completion_date": "2007-06",
+            "country": "United States",
+            "enrollment": 120,
+            "brief_summary": "The purpose of this study is to compare the effects of three types of treatments for depressed teenagers who have attempted suicide.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* At least one suicide attempt or interrupted attempt within the past 45 days\n* Continuously reside with a primary caretaker (parent, legal guardian, foster parent) for at least 6 months that can provide legal consent",
+            "endpoints": [],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00080158"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00296712",
+            "title": "Combined Escitalopram/Bupropion as First Line Treatment for Depression, a Replication.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-02",
+            "completion_date": "2006-07",
+            "country": "United States",
+            "enrollment": 55,
+            "brief_summary": "Relatively drug naive patients will receive two antidepressant medications as initial treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Currently depressed (DSM-IV Major Depression, Dysthymia or Depression NOS)\n* HAMD-D (21-Item) \\> 9\n\nExclusion Criteria:\n\n* Prior ineffective adequate trial on either study medication ($ 4 weeks on either escitalopram \\>20 mg/d or bupropion \\>300 mg/d; \\>4 weeks on citalopram \\",
+            "endpoints": [
+              "Hamilton Depression Scale (HAM-D)"
+            ],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00296712"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01973283",
+            "title": "Antidepressant Response in the Treatment of Depressive Symptoms and Frailty Characteristics in Older Adults",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-02-19",
+            "completion_date": "2020-12-05",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "The goal of this open-administration treatment study of citalopram (or duloxetine) is to evaluate the effect of antidepressant medication on treating the syndrome of \"frailty\" in older adults with depressive symptoms. Patients with significant depressive symptoms (defined as CES-D (Center for Epidemiological Studies - Depression scale) \\> 10) and 1 or more symptoms of the frailty syndrome (exhaustion, decreased energy, weight loss, decreased grip strength, and slow/unsteady gait) will be evaluat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Anyone with 1 or more characteristics of frailty\n* HRSD\\>16 and a DSM-IV depressive disorder (e.g. MDD, Dysthymia)\n* Capable of providing informed consent\n* Currently followed by a PCP (had an eval in last 6-months)\n\nExclusion Criteria:\n\n* Acute cancer treatment\n* Acute, sever",
+            "endpoints": [
+              "Hamilton Rating Scale for Depression (HRSD)",
+              "Hamilton Rating Scale for Depression (HRSD)",
+              "Hamilton Depression Rating Scale (HRSD)"
+            ],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01973283"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01189812",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Fixed-Dose Study to Assess the Safety and Efficacy of Citalopram in Combination With Lithium or Placebo in the Treatment of Symptoms in Patients With Depressive Mood Disorders",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-03",
+            "completion_date": "2011-01",
+            "country": "United States",
+            "enrollment": 80,
+            "brief_summary": "The investigators hypothesize that patients receiving citalopram in combination with lithium will have a greater reduction in depressive symptoms than patients receiving citalopram in combination with placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18-75 years of age\n* Meets criteria for Major Depressive Disorder, Dysthymia, Depression Not Otherwise Specified or Borderline Personality Disorder\n* Ability to speak, read and understand the English Language and provide written informed consent\n\nExclusion Criteria:\n\n* Current",
+            "endpoints": [
+              "Sheehan-Suicidality Tracking Scale (S-STS)"
+            ],
+            "sponsor": "Columbia Northwest Pharmaceuticals",
+            "url": "https://clinicaltrials.gov/study/NCT01189812"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04437485",
+            "title": "eIMPACT-DM Pilot Trial: Depression Treatment to Reduce the Excess Diabetes Risk of People With Depression and Prediabetes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-10-14",
+            "completion_date": "2022-08-29",
+            "country": "United States",
+            "enrollment": 46,
+            "brief_summary": "This pilot randomized controlled trial seeks: (1) to determine the preliminary efficacy of our modernized collaborative care intervention for depression in improving the diabetes risk markers of hemoglobin A1c and insulin resistance and (2) to explore whether somatic depressive symptoms - i.e., hyperphagia (increased appetite/weight) and/or hypersomnia (increased sleep) - moderate the effect of the eIMPACT-DM intervention on diabetes risk markers.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Current primary care patient in Eskenazi Health\n* Age ≥18 years\n* Depressive disorder at screening\n* Prediabetes at screening\n\nExclusion Criteria:\n\n* History of type 1 or type 2 diabetes\n* Major inflammatory conditions: HIV/AIDS, chronic kidney disease, systemic inflammatory d",
+            "endpoints": [
+              "Hemoglobin A1c at 6 Months"
+            ],
+            "sponsor": "Indiana University",
+            "url": "https://clinicaltrials.gov/study/NCT04437485"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00404755",
+            "title": "Dichotic Listening as a Predictor of Medication Response in Depression",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2011-08",
+            "country": "United States",
+            "enrollment": 17,
+            "brief_summary": "This study will recruit 100 depressed patients to test whether the previous finding of an association between treatment response (with treatment groups including placebo, imipramine, and fluoxetine) and preferences of hemispheric laterality in perceptual processing are also found with a different type of commonly used anti-depressant, bupropion.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Ages between 18-65\n2. Meets Diagnostic and Statistical Manual, Fourth Edition (DSM-IV) criteria for current Major Depression, Dysthymia or Depression Not Otherwise Specified\n\nExclusion Criteria:\n\n1. Known Hearing impairment\n2. Active suicidal ideation (history of suicide atte",
+            "endpoints": [
+              "Hamilton Depression Scale (HAM-D)"
+            ],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00404755"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02458690",
+            "title": "eIMPACT Trial: Modernized Collaborative Care to Reduce the Excess CVD Risk of Older Depressed Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-07",
+            "completion_date": "2021-03",
+            "country": "United States",
+            "enrollment": 216,
+            "brief_summary": "The objective of this randomized controlled trial is to evaluate whether the investigators modernized IMPACT intervention for depression (eIMPACT), delivered before the onset of cardiovascular disease (CVD), reduces the risk of future CVD. Participants will be primary care patients who are depressed but do not have a history of CVD. Half of the participants will receive standard depression treatment in primary care (usual care), and the other half will receive one year of eIMPACT, a collaborativ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primary care patients\n* Age ≥ 50 years\n* Current depressive disorder\n* Elevated cardiovascular disease risk\n\nExclusion Criteria:\n\n* History of clinical cardiovascular disease\n* Presence of the following chronic disorders: HIV/AIDS, chronic kidney disease, systemic inflammatory",
+            "endpoints": [
+              "Brachial Artery Flow-Mediated Dilation (FMD) at 12 Months"
+            ],
+            "sponsor": "Indiana University",
+            "url": "https://clinicaltrials.gov/study/NCT02458690"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01658228",
+            "title": "Pilot Combination Treatment Trial of Mild Cognitive Impairment With Depression",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-09",
+            "completion_date": "2016-01",
+            "country": "United States",
+            "enrollment": 86,
+            "brief_summary": "Patients presenting with depression (DEP) and cognitive impairment (CI), represent a unique, understudied population that is difficult to diagnose, treat and estimate prognosis. Our pilot data, supported by the literature, suggest that many DEP-CI patients show cognitive decline and often convert to dementia, primarily Alzheimer's disease (AD). In DEP-CI, there is a lack of data on treatment response of mood symptoms to antidepressant treatment and particularly of cognitive deficits to cognitive",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Of either sex, age 55-95 years old with minimum 8 years of education who meet criteria for both depression and cognitive impairment as described below.\n* Study Criteria for \"depression\":\n\n  i. Patients who meet DSM-IV symptom criteria for Major Depression or Dysthymia for a mi",
+            "endpoints": [
+              "Selective Reminding Test (SRT) Total Recall",
+              "Selective Reminding Test (SRT) Delayed Recall"
+            ],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01658228"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00220701",
+            "title": "Double-Blind Placebo-Controlled Study of Escitalopram in the Treatment of Dysthymic Disorder",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2002-06",
+            "completion_date": "2009-01",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "This is a 12-week double-blind placebo-controlled study of Escitalopram in treatment of dysthymic Disorder (low-grade chronic depression), with a 12 week open-label extension phase.\n\nIt is hypothesized that Escitalopram will be superior to placebo in improving depression, as well as psychosocial, temperamental, and cognitive functioning.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female outpatients 18-65 years of age.\n* Patients with a Diagnostic and Statistical Manual, fourth edition (DSM-IV) diagnosis of dysthymic disorder.\n* Subject must be considered reliable.\n* Patients will have a total of 12 or higher on the Hamilton Depression Scale (2",
+            "endpoints": [
+              "Hamilton-Depression Rating Scale (HDRS-24 Items)",
+              "Hamilton-Depression Rating Scale (HDRS-24 Items)"
+            ],
+            "sponsor": "St. Luke's-Roosevelt Hospital Center",
+            "url": "https://clinicaltrials.gov/study/NCT00220701"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00296777",
+            "title": "Medication Treatment Following Neuropsychologic, Dichotic and f-MRI Tests in Depressed Outpatients With Repeat f-MRI Following Treatment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2004-12",
+            "completion_date": "2007-12",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "The main purpose of this study is to correlate brain testing with treatment outcome.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* DSM-IV Major Depression or Dysthymia\n* Age 18-65\n* Physically healthy\n* Normal hearing\n* Drug-free (two weeks for most antidepressants, four weeks for Fluoxetine)\n\nExclusion Criteria:\n\n* Hearing deficit in one or both ears\n* Body metal (e.g., wire stitches, screws in bones, st",
+            "endpoints": [
+              "Hamilton Depression Scale (HAM-D)"
+            ],
+            "sponsor": "New York State Psychiatric Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00296777"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00234312",
+            "title": "Escitalopram vs. Sertraline in the Treatment of Dysthymic Disorder and Double Depression",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-09",
+            "completion_date": "2006-10",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "The purpose of the study is to evaluate the efficacy and safety of flexible doses of escitalopram (Lexapro) compared to sertraline (Zoloft) for treatment of Dysthymic Disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primary diagnosis of Dysthymic Disorder or Major Depressive Disorder with Antecedent Dysthymia\n* Women of childbearing potential must have negative pregnancy test at screen and agree to practice acceptable method of birth control\n* Score of at least 12 on the 24-item Hamilton ",
+            "endpoints": [
+              "score on first 17 items of HAM-D Rating Scale 24 item, each visit"
+            ],
+            "sponsor": "Oregon Health and Science University",
+            "url": "https://clinicaltrials.gov/study/NCT00234312"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21811192",
+            "title": "Escitalopram versus placebo in the treatment of dysthymic disorder.",
+            "abstract": "Numerous studies have assessed the acute efficacy of antidepressants, including selective serotonin reuptake inhibitors, in treating dysthymic disorder; however, escitalopram, the S-enantiomer of citalopram, has not been studied. Thirty-six outpatients with Structured Clinical Interview for DSM-III-R-diagnosed dysthymic disorder, aged 23-65 years (mean±SD=44.7±11 years), were randomly assigned to double-blind escitalopram (maximum dose 20 mg/day) versus placebo for 12 weeks. Inclusion criteria included age 18-65 years and Hamilton Depression Rating Scale (HDRS) score≥12. We hypothesized that escitalopram would be superior to placebo in the HDRS-24 item total score at week 12. We also hypothesized the superiority of escitalopram over placebo for secondary measures, including the percentage of participants classified as responders and remitters, as well as social functioning (Social Adjustment Scale), clinical global impression-improvement, Global Assessment of Functioning Scale. Partici",
+            "journal": "International clinical psychopharmacology",
+            "year": "2010",
+            "authors": [
+              "Hellerstein David J",
+              "Batchelder Sarai T",
+              "Hyler Steven",
+              "Arnaout Bachaar",
+              "Toba Christina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Citalopram",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Dysthymic Disorder",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21811192/"
+          },
+          {
+            "pmid": "21527126",
+            "title": "Efficacy of antidepressants for dysthymia: a meta-analysis of placebo-controlled randomized trials.",
+            "abstract": "The authors sought to determine the efficacy of antidepressants in dysthymic disorder and to compare antidepressant and placebo response rates between major depressive disorder (MDD) and dysthymic disorder.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2011",
+            "authors": [
+              "Levkovitz Yeciel",
+              "Tedeschini Enrico",
+              "Papakostas George I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Confidence Intervals",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Dysthymic Disorder",
+              "Humans",
+              "Odds Ratio",
+              "Randomized Controlled Trials as Topic",
+              "Regression Analysis",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21527126/"
+          },
+          {
+            "pmid": "29683474",
+            "title": "Antidepressants for the treatment of depression in people with cancer.",
+            "abstract": "Major depression and other depressive conditions are common in people with cancer. These conditions are not easily detectable in clinical practice, due to the overlap between medical and psychiatric symptoms, as described by diagnostic manuals such as the Diagnostic and Statistical Manual of Mental Disorders (DSM) and International Classification of Diseases (ICD). Moreover, it is particularly challenging to distinguish between pathological and normal reactions to such a severe illness. Depressive symptoms, even in subthreshold manifestations, have been shown to have a negative impact in terms of quality of life, compliance with anti-cancer treatment, suicide risk and likely even the mortality rate for the cancer itself. Randomised controlled trials (RCTs) on the efficacy, tolerability and acceptability of antidepressants in this population are few and often report conflicting results.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "authors": [
+              "Ostuzzi Giovanni",
+              "Matcham Faith",
+              "Dauchy Sarah",
+              "Barbui Corrado",
+              "Hotopf Matthew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adjustment Disorders",
+              "Adult",
+              "Antidepressive Agents",
+              "Antidepressive Agents, Tricyclic",
+              "Depression",
+              "Depressive Disorder",
+              "Major Depressive Disorder",
+              "Dysthymic Disorder",
+              "Humans",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29683474/"
+          },
+          {
+            "pmid": "26029972",
+            "title": "Antidepressants for the treatment of depression in people with cancer.",
+            "abstract": "Major depression and other depressive conditions are common in people with cancer. These conditions are not easily detectable in clinical practice, due to the overlap between medical and psychiatric symptoms, as described by diagnostic manuals such as the Diagnostic and Statistical Manual of Mental Disorders (DSM) and International Classification of Diseases (ICD). Moreover, it is particularly challenging to distinguish between pathological and normal reactions to such a severe illness. Depressive symptoms, even in subthreshold manifestations, have been shown to have a negative impact in terms of quality of life, compliance with anti-cancer treatment, suicide risk and likely even the mortality rate for the cancer itself. Randomised controlled trials (RCTs) on the efficacy and tolerability of antidepressants in this population group are few and often report conflicting results.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "authors": [
+              "Ostuzzi Giovanni",
+              "Matcham Faith",
+              "Dauchy Sarah",
+              "Barbui Corrado",
+              "Hotopf Matthew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adjustment Disorders",
+              "Adult",
+              "Antidepressive Agents",
+              "Antidepressive Agents, Tricyclic",
+              "Depression",
+              "Depressive Disorder",
+              "Major Depressive Disorder",
+              "Dysthymic Disorder",
+              "Humans",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26029972/"
+          },
+          {
+            "pmid": "21448115",
+            "title": "Allergic reactions--outcome of sertraline and escitalopram treatments.",
+            "abstract": "The treatment of dysthymia in itself poses a problem in the everyday psychiatric practice and it can be further hindered when accompanied by pronounced personality traits (which are indicative of disorder). Due to its pathology and duration dysthymia interferes with the patient's quality of life and the ability to function in some segments of everyday life. These interferences enticed our patient to opt for psychiatric treatment. During a three-year period, despite all the efforts made by psychiatrists in this comprehensive and challenging dysthymia treatment (psychotherapy, group psychotherapy, psychopharmacotherapy), the expected outcomes of the treatment did not occur. The patient's goals and expectations included lifestyle change, achieving life satisfaction and mood improvement. The patient was refusing suggested psychopharmaca until confronted, in psychotherapy, with the fact that she is the one prolonging her own helplessness and directing her passive agression at the members of",
+            "journal": "Psychiatria Danubina",
+            "year": "2011",
+            "authors": [
+              "Dadić-Hero Elizabeta",
+              "Ružić Klementina",
+              "Grahovac Tanja",
+              "Graovac Mirjana",
+              "Palijan Tija Zarković"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Angioedema",
+              "Antidepressive Agents",
+              "Citalopram",
+              "Combined Modality Therapy",
+              "Drug Eruptions",
+              "Drug Hypersensitivity",
+              "Dysthymic Disorder",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21448115/"
+          },
+          {
+            "pmid": "25647343",
+            "title": "A shift toward T helper 2 responses and an increase in modulators of innate immunity in depressed patients treated with escitalopram.",
+            "abstract": "Depression is hypothesized to involve inflammatory processes, and identifying the key cytokines targeted by antidepressant drugs is critical for tailoring treatment to specific cases. However, investigating a limited number of cytokines at one time cannot provide a broad picture of antidepressant-associated immunomodulation. Cytokines act in a network where one could demonstrate pleiotropism, redundancy, synergy, and antagonism with other cytokine functions. This study was aimed at determining whether escitalopram functions as an anti-inflammatory agent and, if so, how it influences cytokine networks. A total of 24 healthy controls and 26 patients with clinical depression requiring inpatient treatment were recruited. A multiplex assay, an efficient tool to simultaneously measure 27 cytokines, was applied in patients with depression before and after 4-week escitalopram treatment. Healthy controls did not take escitalopram and completed cytokine analyses once. We demonstrated that escita",
+            "journal": "Psychoneuroendocrinology",
+            "year": "2015",
+            "authors": [
+              "Ho Pei-Shen",
+              "Yeh Yi-Wei",
+              "Huang San-Yuan",
+              "Liang Chih-Sung"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents",
+              "Case-Control Studies",
+              "Citalopram",
+              "Cytokines",
+              "Depressive Disorder",
+              "Major Depressive Disorder",
+              "Dysthymic Disorder",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25647343/"
+          },
+          {
+            "pmid": "23260337",
+            "title": "Sertraline-induced galactorrhea: case report and review of cases reported with other SSRIs.",
+            "abstract": "There is limited literature reporting galactorrhea with antidepressants including selective serotonin reuptake inhibitors (SSRIs). In this case report, I present a case of a young female who developed galactorrhea with sertraline, which improved on discontinuation of sertraline. Computer-assisted searches on galactorrhea with SSRIs yielded 23 cases, mostly with escitalopram and paroxetine and rarely with fluoxetine, fluvoxamine and sertraline, and it may be much more frequent than recognized.",
+            "journal": "General hospital psychiatry",
+            "year": "2013",
+            "authors": [
+              "Nebhinani Naresh"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dysthymic Disorder",
+              "Female",
+              "Galactorrhea",
+              "Humans",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Sertraline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23260337/"
+          },
+          {
+            "pmid": "19820552",
+            "title": "Does dual antidepressant therapy as initial treatment hasten and increase remission from depression?",
+            "abstract": "Only 30%-40% of depressed patients remit after 8 weeks of treatment with an antidepressant. We hypothesized that beginning treatment with two antidepressants would improve remission rates.",
+            "journal": "Journal of psychiatric practice",
+            "year": "2009",
+            "authors": [
+              "Stewart Jonathan W",
+              "McGrath Patrick J",
+              "Deliyannides Rodeborah A",
+              "Quitkin Frederic M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Bupropion",
+              "Citalopram",
+              "Depressive Disorder",
+              "Major Depressive Disorder",
+              "Drug Therapy, Combination",
+              "Dysthymic Disorder",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19820552/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsessive-compulsive disorder",
+        "txgnn_score": 0.9835768342018129,
+        "txgnn_rank": 15058,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06141876",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Tolerability and Efficacy of Psilocybin-Assisted Psychotherapy in Treating Severe Depression Among Adults With Post-Traumatic Stress Disorder (PTSD).",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2023-12-15",
+            "completion_date": "2025-06-15",
+            "country": "N/A",
+            "enrollment": 160,
+            "brief_summary": "Post-Traumatic Stress Disorder (PTSD) is a mental disorder that may develop in people who have been exposed to a traumatic event, including actual or threatened death, serious injury, or sexual violence. Exposure to a traumatic event is defined as directly experiencing the event, learning about the event, or repeated exposure to details of the event. PTSD is often accompanied by other psychiatric and physical comorbidities, both of which are associated with elevated healthcare costs. Depression,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Individuals between 18 and 65 years of age, inclusive, at the time of consent.\n2. Individuals who are fluent in the language of the study site, specifically English or French.\n3. Meet DSM-5 criteria for current PTSD with presence of symptoms for at least 6 months at screening",
+            "endpoints": [
+              "Incidence of adverse events",
+              "Number of participants with abnormal vital signs, abnormal physical exam findings, abnormal ECG, and abnormal laboratory tests results",
+              "Change in severity of depressive symptoms"
+            ],
+            "sponsor": "Apex Labs Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT06141876"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00368862",
+            "title": "Phase Four Double-Blind Randomized Comparative Study on Thestudy on the Efficacy of Memantine Hydrochloride and Escitalopram for the Treatment of Co-Morbid Depression and Alcoholism",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-12",
+            "completion_date": "2006-06",
+            "country": "Finland",
+            "enrollment": 80,
+            "brief_summary": "The aim of the present study was to examine the influence of memantine, a noncompetitive NMDA receptor blocker, in depression co-morbid with long term alcohol heavy use comparing to SSRI-inhibitor, escitalopram. Second goal is to compare their influence to cognitive tasks and the third goal is to follow up alcohol-use with these two medicines.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. The subject/patient is able to read and understand the subject/patient information sheet.\n2. Prior to any screening procedures, the subject/patient must have signed the informed consent form. No study-related procedures may be performed before the subject/patient has signed t",
+            "endpoints": [
+              "Primary outcomes were MADRS (depression), HAM-A (anxiety), CERAD (cognitive test) and alcohol consumption (time line follow backup)."
+            ],
+            "sponsor": "Finnish Institute for Health and Welfare",
+            "url": "https://clinicaltrials.gov/study/NCT00368862"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00215137",
+            "title": "Pilot Study to Evaluate Escitalopram in Obsessive-compulsive Disorder",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-10",
+            "completion_date": "2009-03",
+            "country": "United States",
+            "enrollment": 14,
+            "brief_summary": "This study will determine the safety and effectiveness of escitalopram (Lexapro)in treating obsessive-compulsive disorder (OCD) symptoms.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of OCD\n* A minimum score of 16 on the Yale Brown Obsessive-Compulsive Scale (YBOCS) at both the screening and baseline visits\n\nExclusion Criteria:\n\n* Lifetime history of psychosis or cognitive dysfunction due to a general medical condition or substance use\n* A primar",
+            "endpoints": [
+              "Yale Brown Obsessive Compulsive Scale"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT00215137"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00115011",
+            "title": "Escitalopram for the Treatment of Self-Injurious Skin Picking",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2002-09",
+            "completion_date": "2005-11",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to determine the effectiveness of escitalopram in treating self-injurious skin picking.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Repetitive skin picking resulting in noticeable tissue damage and associated emotional distress and/or functional impairment.\n* Age 18-65 years old.\n* Duration of skin picking symptoms ≥ 6 months.\n* MGH Skin Picking Scale score ≥ 10.\n* Written informed consent.\n* Females of ch",
+            "endpoints": [
+              "MGH Skin Picking Scale",
+              "Skin Picking Impact Scale",
+              "Skin Picking Treatment Scale"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00115011"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00668525",
+            "title": "A Double-blind, Fixed-dose Study of Escitalopram in Adult Patients With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-04",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 877,
+            "brief_summary": "This is a short-term study to evaluate the efficacy, safety, and tolerability of escitalopram in adult patients (18 to 65 years of age) with moderate to severe depression. Patients completing the study may be eligible to enter a long-term open-label extension study with escitalopram.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must meet Diagnostic and Statistical Manual, Fourth Edition, Text Revision (DSM-IV-TR) diagnostic criteria for Major Depressive Disorder.\n* The patient's current depressive episode must be at least 8 weeks in duration.\n\nExclusion Criteria:\n\n* Women who are pregnant, w",
+            "endpoints": [
+              "Change From Baseline in Total Montgomery Asberg Depression Rating Scale (MADRS) at 8 Weeks."
+            ],
+            "sponsor": "Forest Laboratories",
+            "url": "https://clinicaltrials.gov/study/NCT00668525"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00086645",
+            "title": "Citalopram Treatment in Children With Autism Spectrum Disorders and High Levels of Repetitive Behavior",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-04",
+            "completion_date": "2007-04",
+            "country": "United States",
+            "enrollment": 149,
+            "brief_summary": "This study will determine the efficacy and safety of citalopram compared to placebo in the treatment of children with autism.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Able to walk\n* Diagnosis of Autistic Disorder, Asperger's Disorder, or PDD-NOS\n* Have a score greater than or equal to (\\>) 8 on the sum of items 1A, 2, 3 and 5 of the Compulsions Subscale of the Revised CYBOCS.\n* Have a rating of at least moderate behavioral disturbance based",
+            "endpoints": [
+              "Clinical Global Improvement"
+            ],
+            "sponsor": "Boston University",
+            "url": "https://clinicaltrials.gov/study/NCT00086645"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00305500",
+            "title": "Phase III Open Study of High Dose Escitalopram for the Treatment of Obsessive-Compulsive Disorder in Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-03",
+            "completion_date": "2006-12",
+            "country": "Israel",
+            "enrollment": 100,
+            "brief_summary": "Objectives: To evaluate tolerability and efficacy of escitalopram treatment in high dose than 20-50 mg/d in out-patients with OCD Type of the study: Open label, prospective study.\n\nNumber of patients: 100 patients with OCD\n\nDuration of the study: 18-weeks of active treatment, 8-visits:\n\nDose titration:\n\nOne week of 10mg Four weeks of 20mg After 4 weeks of 20mg treatment- if partial/no response, according to YBOCS score and clinical judgment, dose increase of up to 50mg depending on response, adv",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Men and women over 18 years of age\n2. DSM IV-TR criteria for OCD\n3. OCD associated with most distress or most interference in the patient's life as judged by the treating physician\n4. Yale-Brown Obsessive Compulsive Scale (YBOCS) total score ≥ 16\n\nExclusion Criteria:\n\n1. Othe",
+            "endpoints": [
+              "Safety as recorded by adverse-events and side-effects reports."
+            ],
+            "sponsor": "Abarbanel Mental Health Center",
+            "url": "https://clinicaltrials.gov/study/NCT00305500"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00116532",
+            "title": "Escitalopram for the Treatment of Obsessive Compulsive Disorder",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2002-10",
+            "completion_date": "2007-02",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to assess the efficacy of Escitalopram in the treatment of obsessive compulsive disorder and to determine the optimal treatment dose.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of OCD by DSM-IV\n* Age 18-65\n* Y-BOCS greater than 20\n* Written informed consent\n* Females of childbearing potential must have a negative serum or urinary beta-HCG test.\n\nExclusion Criteria:\n\n* Pregnant women or women of childbearing potential who are not using a med",
+            "endpoints": [
+              "Y-BOCs scores at 1st and last visit (16 weeks later)",
+              "Clinical Global impressions Scale at 2nd visit (2 weeks after 1st visit) and 6th visit (16 weeks post 1st visit)"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00116532"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01936051",
+            "title": "Modeling Between Plasma Concentration and Serotonin Transporter Occupancy Induced by Escitalopram in Obsessive-compulsive Disorder(OCD) Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2012-02",
+            "completion_date": "2013-12",
+            "country": "South Korea",
+            "enrollment": 12,
+            "brief_summary": "To modeling the pharmacokinetic-pharmacodynamic(PK-PD) simulation with the plasma concentration and the transporter occupancy from OCD patients treated with escitalopram.\n\nTo examine the effect of G2677T/A single nucleotide polymorphism(SNP) of ABCB1 gene to the PK-PD modeling in OCD patients treated with escitalopram.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of OCD based on Diagnostic and Statistical Manual(DSM)-IV criteria\n* no change of escitalopram dosage in 6 weeks\n\nExclusion Criteria:\n\n* psychiatric comorbidity other than OCD\n* History of head injury, epilepsy, other general medical disorder",
+            "endpoints": [
+              "serotonin transporter occupancy"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01936051"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00456937",
+            "title": "Escitalopram in the Treatment of Patient Suffering From Scizophrenia and Obsessive Compulsive Disorder- an Open Label Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2008-09",
+            "country": "Israel",
+            "enrollment": 15,
+            "brief_summary": "SSRI's has been demonstrated to be partially effective in schizophrenia and OCD. We therefore suggest that Escitalopram up to 20 mg /d in those patients could be effective in reducing obsessive compulsive symptomatology",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who suffer from schizophrenia and OCD\n\nExclusion Criteria:\n\n* Substance abuse,\n* Serious medical condintions,\n* Being on SSRI treatment",
+            "endpoints": [],
+            "sponsor": "BeerYaakov Mental Health Center",
+            "url": "https://clinicaltrials.gov/study/NCT00456937"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04336228",
+            "title": "The Role of Serotonin in Compulsive Behavior in Humans: Underlying Brain Mechanisms",
+            "phase": "PHASE4",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-04-01",
+            "completion_date": "2027-12-31",
+            "country": "Denmark",
+            "enrollment": 46,
+            "brief_summary": "The aim of this project is to investigate:\n\n* The status of the central serotonin (5-hydroxytryptamine, 5-HT) system in compulsive behaviour and how it is affected by sub-chronic escitalopram administration\n* The mechanisms underlying how sub-chronic administration of escitalopram affects the central 5-HT system\n* How changes in cognitive performance, including the balance between habitual and goal-directed mechanisms, are affected in compulsive behaviour by boosting 5-HT function\n* How function",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Individuals with high scores on obsessive-compulsive traits (with or without a diagnosis of OCD established by a psychiatrist) and healthy volunteers (male or female) between 18 and 70 years. Compulsive individuals without an OCD diagnosis are individuals without a history of ",
+            "endpoints": [
+              "Learning Primary Outcome 1 measured with Probability Reversal Learning test: Mean errors Stage 1 (Learning)",
+              "Learning Primary Outcome 2 measured with Probability Reversal Learning test: Mean errors Stage 2 (Reversal)",
+              "Learning Primary Outcome 3 measured with Deterministic Reversal Learning test: Percent correct per stage"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT04336228"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02022709",
+            "title": "Efficacy of Exposure and Response Prevention（ERP） and SSRIs, and Its Predictors in Obsessive-Compulsive Disorder",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-01",
+            "completion_date": "2018-03-13",
+            "country": "China",
+            "enrollment": 78,
+            "brief_summary": "The purpose of this study is to evaluate the efficiency of SSRIs（Selective Serotonin Reuptake Inhibitor） ,ERP（Exposure and Response Prevention） and the combination of the two therapies for OCD(Obsessive-Compulsive Disorder) patients ,at the same time, to find out the biological or psychological predictors of treatment response in Chinese population.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Having been diagnosed with primary OCD as defined by the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV-) criteria;Cleaning or checking as primary OCD symptoms\n* Yale-Brown Obsessive-Compulsive Scale (Y-BOCS) score of ≥ 16\n* Never receiving adequate treatment or",
+            "endpoints": [
+              "The change of Yale-Brown Obsessive-Compulsive Scale score"
+            ],
+            "sponsor": "Shanghai Mental Health Center",
+            "url": "https://clinicaltrials.gov/study/NCT02022709"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00708396",
+            "title": "Tolerability And Efficacy Of High Dose Escitalopram In The Treatment Of Patients Suffering From Schizophrenia And Obsessive-Compulsive Disorder (OCD) - An Open Label Study",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2008-07",
+            "completion_date": "2010-07",
+            "country": "Israel",
+            "enrollment": 20,
+            "brief_summary": "The purpose of the study is to evaluate tolerability and efficacy of escitalopram (Cipralex) treatment in doses beyond 20mg (20-40 mg/d) in patients with OCD and schizophrenia, non responsive or partially responsive to recommended doses (evaluation according to Y-BOCS).\n\nAn open label, prospective study. The study will include 20 patients recruited from the inpatient wards and from the outpatient clinic who have a DSM-IV diagnosis of schizophrenia or schizoaffective disorder and OCD.\n\nBefore ent",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients will be men and women over 18 years of age who meet DSM-IV criteria for schizophrenia/ schizoaffective disorder and OCD.\n* Previous to entering the study all patients should be stabilized on antipsychotic medication for at least 3 months.\n* Patients should score a",
+            "endpoints": [
+              "1. Yale-Brown Obsessive Compulsive Scale (Y-BOCS) Symptom Checklist",
+              "2. Positive and negative symptoms scale ( PANSS)",
+              "3. The Clinical Global Impression scales (CGI) consist of two sub-scales: The Severity of illness (CGI-S) and the Global improvement (CGI-I)."
+            ],
+            "sponsor": "BeerYaakov Mental Health Center",
+            "url": "https://clinicaltrials.gov/study/NCT00708396"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01404871",
+            "title": "Predicting Medication Response in Obsessive Compulsive Disorder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2009-04",
+            "completion_date": "2011-12",
+            "country": "Canada",
+            "enrollment": 26,
+            "brief_summary": "In this study, the investigators hope to study a number of variables the investigators believe may help us predict why some people respond better to some medications than others. Participants will be randomly assigned to receive one of two typical medications for OCD, clomipramine or escitalopram. Individuals who would like to participate but who have previously tried one or both of these medications may instead take a newer drug, duloxetine, and undergo the identical procedures. The factors the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of Obsessive Compulsive Disorder\n* Must be able to swallow tablets\n\nExclusion Criteria:\n\n* History of stroke\n* History of Parkinson's disease\n* History of Epilepsy\n* Clinical diagnosis of Schizophrenia or schizoaffective disorder\n* Clinical diagnosis of Bipo",
+            "endpoints": [
+              "YBOCS Obsessive-Compulsive Severity Score",
+              "Clinical Global Improvement - Improvement Scale"
+            ],
+            "sponsor": "Sunnybrook Health Sciences Centre",
+            "url": "https://clinicaltrials.gov/study/NCT01404871"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00609531",
+            "title": "Functional MRI Evaluation of the Effect of Citalopram in Autism Spectrum Disorders",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2009-08",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "The purpose of this proof of concept study is to use functional magnetic resonance imaging and behavioral assessments to investigate the effect of citalopram on restricted repetitive behaviors in people with autism spectrum disorders.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ambulatory status (outpatient) at time of consent\n* Age 10-55 years\n* Clinical diagnosis of Autism Spectrum Disorder\n* IQ greater than or equal to 70\n* Score greater than 8 on Children's Yale-Brown Obsessive Compulsive Scale\n* Free of psychoactive medication for at least: one ",
+            "endpoints": [
+              "Functional Magnetic Resonance Imaging",
+              "Clinicians Global Improvement Scale"
+            ],
+            "sponsor": "University of North Carolina, Chapel Hill",
+            "url": "https://clinicaltrials.gov/study/NCT00609531"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05528224",
+            "title": "Effect of Stepped Care in Internet-Based Cognitive Behavioral Therapy for Adults With Obsessive-Compulsive Disorder：A Three-Arm Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2022-09-01",
+            "completion_date": "2024-03-31",
+            "country": "China",
+            "enrollment": 46,
+            "brief_summary": "The goal of this clinical trial is to learn about the efficacy and cost-effectiveness of stepped-care Internet-based cognitive behavioral therapy (SC-ICBT) compared with Cognitive Behavioral Group Therapy (CBGT) and conventional medical treatment (treatment as usual, TAU) in adults with obsessive-compulsive disorder (OCD) in China.\n\nThe main questions it aims to answer are:\n\nquestion 1: Whether the efficacy of SC-ICBT is noninferior to CBGT and TAU for OCD?\n\nquestion 2: Whether SC-ICBT is more c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age between 18 and 50 years\n2. Satisfied with the diagnostic criteria for OCD in DSM-5.\n3. 16≤YBOCS score ≤31\n4. Taking medication stably for 8 weeks\n5. Education level ⩾6 years\n6. Has sufficient audiovisual skills to complete the necessary examinations for the study.\n7. Righ",
+            "endpoints": [
+              "Change of Yale-Brown Obsessive-Compulsive Scale (YBOCS)"
+            ],
+            "sponsor": "Shanghai Mental Health Center",
+            "url": "https://clinicaltrials.gov/study/NCT05528224"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00074815",
+            "title": "Treatment of Pediatric OCD for SRI Partial Responders",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2003-09",
+            "completion_date": "2009-11",
+            "country": "United States",
+            "enrollment": 124,
+            "brief_summary": "This study will determine whether cognitive behavioral therapy delivered by either psychologists or psychiatrists can improve the effectiveness of serotonin reuptake inhibitor treatment in children with obsessive compulsive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* DSM-IV Diagnosis of obsessive compulsive disorder\n* CYBOCS total score greater than 16\n\nExclusion Criteria:\n\n* Other primary or co-primary psychiatric disorder\n* Pervasive developmental disorder or disorders, including Asperger's Syndrome\n* Thought disorder\n* Prior failed tria",
+            "endpoints": [
+              "Children's Yale-Brown Obsessive Compulsive Scale (CY-BOCS)"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT00074815"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05210140",
+            "title": "Utility of Plasma Drug Level Monitoring and CYP2C19 Genotyping in Dose Personalization of Escitalopram",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-07-16",
+            "completion_date": "2023-11",
+            "country": "Serbia",
+            "enrollment": 148,
+            "brief_summary": "The aims of this study are to:\n\n1. Determine the proportion of participants who are underdosed or overdosed under recommended dosing regimen of escitalopram for the depression treatment (10 mg/day)\n2. Determine and quantify clinical benefits of personalized escitalopram dosing regimen based on the escitalopram blood level monitoring\n3. Retrospectively estimate whether the information on CYP2C19 genotype is useful in the prediction of escitalopram blood level.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed Major Depressive Disorder\n* Starting monotherapy with escitalopram\n* Signed written informed consent\n\nExclusion Criteria:\n\n* Patient's requests to leave the study\n* Patients who had taken escitalopram before\n* Dementia\n* Severe liver function impairment (abnormal AST",
+            "endpoints": [
+              "Change from Baseline Depression severity score at week 8",
+              "Adverse drug reaction severity score at week 8"
+            ],
+            "sponsor": "University of Belgrade",
+            "url": "https://clinicaltrials.gov/study/NCT05210140"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03010761",
+            "title": "Establishment of Cessation Therapy by Clinical Trials for Subjects With Betel-quid Dependence and Oral Pre-cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2016-01-14",
+            "completion_date": "2018-01-31",
+            "country": "N/A",
+            "enrollment": 90,
+            "brief_summary": "No medication existed for BQ dependence. No clinical trials existed for the drug therapy. Previous study showed that BQ possessed the antidepressant effect via pathway of monoamine oxidase A (MAO-A). An animal model also found that the arecoline from BQ has a property as MAO-A inhibitor. Therefore, the investigators hypothesized that inhibition of the MAO-A or antidepressants might reduce the BQ addiction severity.\n\nThe investigators will conduct the randomization and double blinded with placebo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* DSM-V criteria suitable for betelnut use disorder\n* No severe physical disorder\n* No major psychiatric illness\n* Chinese Speaker\n\nExclusion Criteria:\n\n* Severe physical disorder\n* Major psychiatric illness\n* Inability to understand the whole protocol",
+            "endpoints": [
+              "betelnut use severity rating scale for addiction severity of betelnut"
+            ],
+            "sponsor": "China Medical University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03010761"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03068429",
+            "title": "Fear Conditioning, Extinction and Recall in Healthy Subjects and in Obsessive-compulsive Disorder Patients Pre and Post Treatment With Sertraline.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-12-01",
+            "completion_date": "2020-07-31",
+            "country": "Brazil",
+            "enrollment": 69,
+            "brief_summary": "24 OCD patients and 24 healthy subjects will be submitted to a two-day fear conditioning paradigm during acquisition of functional magnetic resonance imaging (fMRI). OCD patients will be submitted to the paradigm at two timepoints: baseline and 4 weeks after treatment initiation with sertraline up to 200mg/day or maximum tolerated dosage. OCD patients are expected to demonstrate worsened extinction retention compared to healthy subjects at baseline. Sertraline treatment is expected to improve ex",
+            "eligibility_criteria": "Inclusion Criteria:\n\nHealthy controls\n\n-willingness to participate in research\n\nOCD patients\n\n* willingness to participate in research\n* main diagnosis of OCD (psychiatric clinical evaluation)\n* minimum YBOCS (Yale Brown Obsessive-compulsive severity scale) score of 16 points\n\nExclusion Criteria:\n\nH",
+            "endpoints": [
+              "Main behavioral measure (extinction retention index)",
+              "Main functional neuroimaging measure",
+              "Main treatment outcome measure"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT03068429"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01944657",
+            "title": "Supplemental TMS vs. Standard Medication Monotherapy for Treating Major Depression: An Exploratory Field Study",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2013-09",
+            "completion_date": "2015-12",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "A. Introduction to the Problem\n\nThis field experiment is intended to explore whether supplemental transcranial magnetic stimulation (TMS) is more effective than standard medication mono-therapy for the treatment of major depressive disorder. Transcranial magnetic stimulation (TMS) is now included in the practice guidelines of the American Psychiatric Association for the treatment of major depression.\n\nB. Importance of the Area of Study\n\nThe safety, efficacy and value of TMS treatment has been es",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Determination of treatment resistance (i.e., failed to receive benefit from one to three prior anti-depressant treatments)\n2. All subjects will be between the ages of 18 and 70\n3. All subjects will meet the DSM-IV criteria for major depressive disorder, non-psychotic, single ",
+            "endpoints": [
+              "Montgomery-Åsberg Depression Rating Scale (MADRS)"
+            ],
+            "sponsor": "Sheppard Pratt Health System",
+            "url": "https://clinicaltrials.gov/study/NCT01944657"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00680602",
+            "title": "Group Cognitive Behavioral Therapy Versus Fluoxetine for Obsessive-Compulsive Disorder: a Randomized Open Trial for Any Patient.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-01",
+            "completion_date": "2008-09",
+            "country": "Brazil",
+            "enrollment": 158,
+            "brief_summary": "First line treatments fo Obsessive Compulsive Disorder (OCD) are Selective Serotonin Recapture Inhibitors (SSRIs) and Cognitive Behaviour Therapy (CBT) including exposure with response prevention. The aim of the present study is to evaluate the clinical efficacy of GCBT and SSRIs for OCD patients. Other clinical trials have compared these treatments, but with OCD patients without any other psychiatric disorder. In this study patients with current age between 18 and 65 years, with YBOCS score of ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Having been diagnosed with primary OCD according to the criteria set forth in the DSM-IV;\n* Current symptoms causing significant distress (YBOCS score greater than 16);\n* Not receiving current adequate treatment;\n* Accepting to participate in the study\n\nExclusion Criteria:\n\n* ",
+            "endpoints": [
+              "Yale-Brown Obsessive-Compulsive Scale (Y-BOCS) (Goodman et al., 1989) and Clinical Global Impressions (CGI) (Guy, 1976) will be implemented at pre and post treatment by a blind evaluator to the treatment received."
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT00680602"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03993535",
+            "title": "Clinical, Neurocognitive and Neuroimaging Variables Associated With Response to Treatment in Patients With OCD",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-10-10",
+            "completion_date": "2023-04-30",
+            "country": "South Africa, United States, India, Brazil",
+            "enrollment": 250,
+            "brief_summary": "This study consists of a naturalistic follow-up of subjects with Obsessive-Compulsive Disorder (OCD) that have participated in a global study investigating brain signatures of OCD funded by the National Institutes of Mental Health (RO1MH113250), with the following participant sites: the US (Columbia University, PI: Helen Blair Simpson), Brazil (University of Sao Paulo, PIs: Euripedes Miguel and Roseli G Shavitt), India (National Institutes of Mental Health, PI: Janardhan Reddy), The Netherlands ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Principal DSM-5 diagnosis of OCD\n* Y-BOCS ≥ 16\n* No psychotropic meds for the last 6 weeks, with the exception of PRN sleeping meds (e.g., zolpidem or trazodone up to 50 mg) and benzos, as long as not within the past week or during study participation\n* No CBT/EXRP focused on ",
+            "endpoints": [
+              "response status",
+              "level of improvement"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT03993535"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02285699",
+            "title": "A Pilot Study Examining the Gut Microbiota in Patients With Obsessive-Compulsive Disorder vs. Healthy Controls and Following 12-weeks of Open-label Selective Serotonin Reuptake Inhibitors Treatment",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2014-11-01",
+            "completion_date": "2016-03-01",
+            "country": "Canada",
+            "enrollment": 43,
+            "brief_summary": "This study will examine the gut microbiota and serum inflammatory markers in patients with Obsessive-Compulsive Disorder vs. healthy controls. Phase II of the study will examine the gut microbiota and cytokine levels following 12-weeks of treatment with Selective Serotonin Reuptake Inhibitors (SSRIs).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a primary diagnosis of OCD (DSM 5) according to the MINI\n* Y-BOCS score of ≥20.\n* MADRS \\< 18\n\nExclusion Criteria:\n\n* Participants with current Major Depressive Disorder.\n* Patients with significant suicidal ideation (MADRS item 10 ≥ 3) or who have enacted suicid",
+            "endpoints": [
+              "Yale Brown Obsessive Compulsive Scale",
+              "Clinical Global Impression - Improvement"
+            ],
+            "sponsor": "McMaster University",
+            "url": "https://clinicaltrials.gov/study/NCT02285699"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00565422",
+            "title": "Efficacy of Escitalopram in the Treatment of Internet Addiction",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2002-12",
+            "completion_date": "2004-10",
+            "country": "N/A",
+            "enrollment": 31,
+            "brief_summary": "The purpose of this study was to determine whether Lexapro (Escitalopram) is safe and effective in treating problematic internet use.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject has signed an informed consent form\n2. Current diagnosis of Internet addiction\n3. Age ³ 18\n4. Subject must be able to take oral medication\n5. Subject may be in psychotherapy initiated at least three months prior to Screening. Subject must not discontinue or otherwise ",
+            "endpoints": [
+              "length of non-essential Internet use in hours/week as well as CGI-Improvement"
+            ],
+            "sponsor": "Icahn School of Medicine at Mount Sinai",
+            "url": "https://clinicaltrials.gov/study/NCT00565422"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00723060",
+            "title": "Comparison of Effects Between Conventional Dose and High Dose Escitalopram on Clinical Improvement in Patients With Obsessive-compulsive Disorder (Randomized, Double-blind, Multi-center Study)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2008-09",
+            "completion_date": "2011-01",
+            "country": "South Korea",
+            "enrollment": 176,
+            "brief_summary": "OBJECTIVE: The objective of this study is to compare the effect and safety of conventional dose (20mg) and high dose (40mg) of escitalopram in patients with obsessive-compulsive disorder (OCD).\n\nOVERVIEW OF STUDY DESIGN: Prospective, Randomized, Active-controlled, Double-blind, Multi-center, Clinical Trials STUDY POPULATION: Patients with OCD EFFICACY EVALUATIONS: Y-BOCS (D-YBOCS), HAM-D, HAM-A, CGI-S \\& -I, GAF, OCI-R SAFETY EVALUATION: Adverse Events / Serious Adverse Events, UKU",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Man or woman, aged 18 to 65 years, outpatient\n2. Primary OCD patients diagnosed with DSM-IV-TR, having OCD symptoms for more than six months\n3. Severity: Y-BOCS score of \\>= 20 at screening and baseline\n4. No history or evidences of clinically significant physical problem, or",
+            "endpoints": [
+              "The difference of Y-BOCS score average from baseline to 16-week"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00723060"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00708240",
+            "title": "Treatment With Escitalopram (Cipralex®) for Adolescents With Obsessive-Compulsive Disorder: Efficacy, Safety, and Changes in Executive Functions, Metacognition, and Regional Brain Activations.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2007-01",
+            "completion_date": "2010-12",
+            "country": "Canada",
+            "enrollment": 40,
+            "brief_summary": "Although research suggests that patients with obsessive-compulsive disorder (OCD) exhibit specific deficits in their high cognitive processes, it is still unknown how these deficits relate to the clinical symptoms of the disorder, and to the response to treatment. There are two aims for the proposed research. The first is to examine how high cognitive processes and brain activity are affected in OCD. The second aim is to investigate the effects of a specific psychotropic medication (escitalopram",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Be 13 to 19 years old\n* Have at least average intellectual ability\n* Currently meet DSM-IV-TR criteria for OCD, upon completion of the Anxiety Disorder Interview Schedule for DSM-IV - Research and Lifetime Version for child and parent (ADIS- RLV)\n* Receive a total score equal ",
+            "endpoints": [
+              "Children's Yale-Brown Obsessive Compulsive Scale score."
+            ],
+            "sponsor": "University of Ottawa",
+            "url": "https://clinicaltrials.gov/study/NCT00708240"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00564564",
+            "title": "Quetiapine Augmentation Versus Clomipramine Augmentation of Selective Serotonin Reuptake Inhibitors for Obsessive-compulsive Disorder Patients That do Not Respond to a SSRI Trial: a Randomized Open-trial.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-01",
+            "completion_date": "2007-12",
+            "country": "Brazil",
+            "enrollment": 21,
+            "brief_summary": "The objective of this trial is to compare in an open trial format the efficacy of association of clomipramine and quetiapine with SSRI after SSRI treatment failed to produce complete remission of obsessive compulsive disorder symptoms.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* primary OCD diagnosis according to DSM IV criteria\n* current symptoms were responsible for significant distress\n* previous trial of at least 12 weeks with SSRI (being at least 8 weeks at maximum tolerated dosage) failed to produce full remission of OCD symptoms\n\nExclusion Crit",
+            "endpoints": [
+              "YBOCS"
+            ],
+            "sponsor": "University of Sao Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT00564564"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02431845",
+            "title": "Pharmaco(Epi)Genetic, Proteomic, and Microbiomic Study of Obsessive-Compulsive",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2013-01-01",
+            "completion_date": "2030-12-31",
+            "country": "South Korea",
+            "enrollment": 200,
+            "brief_summary": "The purpose of this study is to determine whether pharmaco(epi)genetic study predict selective serotonin reuptake inhibitor (SSRI) responsiveness in advance before the appearance of the drug effect until 4 months(16 weeks), 6 months, and 1 year after administration of SSRIs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. age 19\\~ 70\n2. OCD by Diagnostic and Statistical Manual for Mental disorders, 4th edition (DSM-IV)\n3. drug naive or drug free for more than 3 months\n\nExclusion Criteria:\n\n1. any neurological disorder\n2. comorbid psychotic disorders\n3. alcohol or other substance dependence wit",
+            "endpoints": [
+              "Change from baseline in the Yale-Brown Obsessive-Compulsive Scale"
+            ],
+            "sponsor": "Severance Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02431845"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04239339",
+            "title": "Serotonergic Modulation of Cognition, Emotion and Brain Activation in Healthy Volunteers",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-04-28",
+            "completion_date": "2022-10-30",
+            "country": "Denmark",
+            "enrollment": 66,
+            "brief_summary": "The aim of this project is:\n\n* To apply a pharmacological tool of selective serotonin (5-hydroxytryptamine, 5-HT system) reuptake inhibition in healthy humans. Specifically:\n* To investigate how sub-chronic administration of 20 mg of escitalopram affects cognitive performance ('cold' cognition) and social-emotional functioning ('hot' cognition) compared with placebo; and\n* To investigate how sub-chronic administration of 20 mg of escitalopram affects functional brain activation during a paradigm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy volunteer (male or female) between 18 and 45 years.\n\nExclusion Criteria:\n\n* Current or former primary psychiatric disorder (DSM IV Axis I or WHO ICD-10 diagnostic classification).\n* Current or previous neurological disease, severe somatic disease, or the consumption of",
+            "endpoints": [
+              "Learning Primary Outcome 1: Mean errors Stage 1 (Learning) - Probability Reversal Learning.",
+              "Learning Primary Outcome 2: Mean errors Stage 2 (Reversal) - Probability Reversal Learning.",
+              "Learning Primary Outcome 3: Learning Rate in Reward Trial - Reinforcement Learning."
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT04239339"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35121274",
+            "title": "Comparing the efficacy of pharmacological and psychological treatment, alone and in combination, in children and adolescents with obsessive-compulsive disorder: A network meta-analysis.",
+            "abstract": "Studies have shown that pharmacological and psychological treatments are effective for children and adolescents with obsessive-compulsive disorder (OCD). However, few network meta-analyses have examined whether pharmacological or psychological treatments on their own, or combined, are most effective.",
+            "journal": "Journal of psychiatric research",
+            "year": "2022",
+            "authors": [
+              "Tao Yuanmei",
+              "Li Hancong",
+              "Li Lu",
+              "Zhang Hang",
+              "Xu Hanmei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Cognitive Behavioral Therapy",
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Sertraline",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35121274/"
+          },
+          {
+            "pmid": "38703743",
+            "title": "Off-label higher doses of serotonin reuptake inhibitors in the treatment of obsessive-compulsive disorder: Safety and tolerability.",
+            "abstract": "To examine the long-term safety and tolerability of off-label high-dose serotonin reuptake inhibitors (OLHD-SRIs) in the treatment of obsessive-compulsive disorder (OCD).",
+            "journal": "Comprehensive psychiatry",
+            "year": "2024",
+            "authors": [
+              "Levy Daniel Minkin",
+              "Arush Oded Ben",
+              "Carmi Lior",
+              "Wetzler Alzbeta Juven",
+              "Zohar Joseph"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Female",
+              "Adult",
+              "Male",
+              "Retrospective Studies",
+              "Off-Label Use",
+              "Fluvoxamine",
+              "Sertraline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38703743/"
+          },
+          {
+            "pmid": "28477500",
+            "title": "Obsessive-compulsive disorder has a reduced placebo (and antidepressant) response compared to other anxiety disorders: A meta-analysis.",
+            "abstract": "Previous studies have indicated that obsessive-compulsive disorder (OCD) might have a reduced placebo response compared to other anxiety-related disorders including generalized anxiety disorder, panic disorder, post-traumatic stress disorder, and social anxiety disorder. No previous analysis has directly compared antidepressant and placebo responses between OCD and these conditions.",
+            "journal": "Journal of affective disorders",
+            "year": "2017",
+            "authors": [
+              "Sugarman Michael A",
+              "Kirsch Irving",
+              "Huppert Jonathan D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents",
+              "Anxiety Disorders",
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Panic Disorder",
+              "Phobia, Social",
+              "Placebo Effect",
+              "Stress Disorders, Post-Traumatic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28477500/"
+          },
+          {
+            "pmid": "40457233",
+            "title": "Memantine augmentation of escitalopram in treatment of executive function among patients with obsessive-compulsive disorder (OCD): a double-blind placebo-controlled randomized clinical trial.",
+            "abstract": "Obsessive-Compulsive Disorder (OCD) involves persistent, intrusive thoughts and repetitive behaviors. While SSRIs like escitalopram are common treatments, some patients do not respond adequately. This study aims to assess memantine's effectiveness as an adjunct therapy to enhance executive function in OCD patients.",
+            "journal": "BMC psychiatry",
+            "year": "2025",
+            "authors": [
+              "Mirzazadeh Hasan",
+              "Ghaeminia Younes",
+              "Mohamad Niaei Amin",
+              "Kamran Mohammadsadegh",
+              "Razeghian Jahromi Leila"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Memantine",
+              "Obsessive-Compulsive Disorder",
+              "Double-Blind Method",
+              "Male",
+              "Female",
+              "Executive Function",
+              "Adult",
+              "Drug Therapy, Combination",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40457233/"
+          },
+          {
+            "pmid": "34313207",
+            "title": "Impact of brain-derived neurotrophic factor Val66Met polymorphism and response to escitalopram or paroxetine in obsessive-compulsive disorder.",
+            "abstract": "Obsessive-compulsive disorder (OCD) is a severe psychiatric disorder characterized by its heterogeneous nature and by different dimensions of obsessive-compulsive (OC) symptoms. Serotonin reuptake inhibitors (SRIs) are used to treat OCD, but up to 40% to 60% of patients do not show a significant improvement with these medications. In this study, we aimed to test the impact of brain-derived neurotrophic factor (BDNF) Val66Met polymorphism on the efficacy of antidepressants in OCD overall, and in relation to the different OC dimensions.",
+            "journal": "CNS spectrums",
+            "year": "2022",
+            "authors": [
+              "Harika-Germaneau Ghina",
+              "Langbour Nicolas",
+              "Patri Sylvie",
+              "Solinas Marcello",
+              "Chatard Armand"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Brain-Derived Neurotrophic Factor",
+              "Paroxetine",
+              "Escitalopram",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Obsessive-Compulsive Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34313207/"
+          },
+          {
+            "pmid": "18345966",
+            "title": "Escitalopram in the treatment of obsessive-compulsive disorder.",
+            "abstract": "Obsessive-compulsive disorder (OCD) is a chronic, distressing illness that is associated with a specific and unique response to selective serotonin reuptake inhibitors. Escitalopram was granted marketing authorization for the treatment of OCD from the European authorities in 2007 based on results from two Phase-III clinical trials in patients with moderate-to-severe OCD. One, a relapse prevention study, demonstrated substantial efficacy of escitalopram 10-20 mg/day in both acute and maintenance treatment, and the other demonstrated superior efficacy and favorable tolerability of escitalopram compared with placebo during 24-week, double-blind treatment. These data, and other studies reviewed here, suggest that escitalopram is an important additional tool for the treatment of OCD.",
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2008",
+            "authors": [
+              "Zohar Joseph"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Citalopram",
+              "Clinical Trials, Phase III as Topic",
+              "Double-Blind Method",
+              "Drug Approval",
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Randomized Controlled Trials as Topic",
+              "Secondary Prevention",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18345966/"
+          },
+          {
+            "pmid": "19300574",
+            "title": "An emerging role for escitalopram in the treatment of obsessive-compulsive disorder.",
+            "abstract": "Obsessive-compulsive disorder (OCD) is a common and severe neuropsychiatric disorder treated by both behavioral and pharmacologic techniques. Despite the availability of treatments for OCD, including the selective serotonin reuptake inhibitors (SSRIs), many OCD patients have an inadequate response to current treatments. As such, additional approaches to the management of OCD are required. A potential but little studied treatment for OCD is the SSRI escitalopram. Escitalopram is the S-enantiomer of citalopram, the preparation containing both S and R enantiomers of citalopram. Not only is escitalopram the most selective of the SSRIs, it is also devoid of R-citalopram, which may interfere with the effects of the S enantiomer. Escitalopram appears to be effective in depression and several anxiety disorders, including social anxiety disorder and generalized anxiety disorder, conditions in which it also appears reasonably well tolerated. Enantiomeric specificity, high serotonin reuptake sele",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2007",
+            "authors": [
+              "Hedges Dawson W",
+              "Woon Fu Lye M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19300574/"
+          },
+          {
+            "pmid": "17240120",
+            "title": "Escitalopram prevents relapse of obsessive-compulsive disorder.",
+            "abstract": "To examine the efficacy and tolerability of escitalopram in the prevention of relapse in patients with OCD, 468 patients with OCD were treated with open label escitalopram (10 mg or 20 mg) for 16 weeks, after which the 320 responders (Y-BOCS total score decrease > or =25%) were randomised to placebo or escitalopram (at the assigned dose) for 24 weeks double-blind treatment. The primary analysis (time to relapse) showed a significant advantage for escitalopram (p<0.001, log-rank test). The proportion of patients who relapsed was statistically significantly higher in the placebo group (52%) than in the escitalopram group (23%) (p<0.001, chi(2)-test). The risk of relapse was 2.74 times higher for placebo compared to escitalopram. Escitalopram was well tolerated and improvements in obsessive-compulsive symptoms reported during the open label period were sustained during the double-blind extension of treatment with active drug. These results demonstrate that escitalopram is effective for lo",
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2007",
+            "authors": [
+              "Fineberg Naomi A",
+              "Tonnoir Brigitte",
+              "Lemming Ole",
+              "Stein Dan J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Citalopram",
+              "Double-Blind Method",
+              "Humans",
+              "Middle Aged",
+              "Obsessive-Compulsive Disorder",
+              "Patient Selection",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17240120/"
+          },
+          {
+            "pmid": "38056116",
+            "title": "Hyperconnecitivity between dorsal attention and frontoparietal networks predicts treatment response in obsessive-compulsive disorder.",
+            "abstract": "Obsessive-compulsive disorder (OCD) presented with repetitive obsessions and/or compulsions were associated with disrupted resting-state functional connectivity (rs-FC). To investigate the pharmacological treatment effect on rs-FC changes in OCD patients we conducted the seed-to-voxel FC analyses using dorsal attention network (DAN), default mode network (DMN), salience network (SN) and frontoparietal network (FPN) and basal ganglia seeds. Twenty-two healthy subjects and twenty-four unmedicated OCD patients underwent resting-state functional magnetic resonance imaging. Patients were rescanned after 12 weeks of escitalopram treatment. We found increased FC both within the DAN and between the DAN and the FPN which was ameliorated after medication and correlated significantly with the clinical improvement in obsession scores. We also observed an anticorrelation between the left caudate and the supplementary motor area in unmedicated OCD patients which also normalized with treatment. Resul",
+            "journal": "Psychiatry research. Neuroimaging",
+            "year": "2024",
+            "authors": [
+              "Bakay Hasan",
+              "Ulasoglu-Yildiz Cigdem",
+              "Kurt Elif",
+              "Demiralp Tamer",
+              "Tükel Raşit"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Prefrontal Cortex",
+              "Basal Ganglia",
+              "Obsessive-Compulsive Disorder",
+              "Magnetic Resonance Imaging",
+              "Neuroimaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38056116/"
+          },
+          {
+            "pmid": "17603402",
+            "title": "Obsessive-compulsive disorder: an open-label pilot trial of escitalopram.",
+            "abstract": "Selective serotonin reuptake inhibitors are considered the most effective and well-established pharmacotherapy for the treatment of obsessive-compulsive disorder (OCD), a chronic and disabling condition. However, approximately 40% of patients do not have a significant improvement, suggesting that new medications are needed. This study was designed to investigate the treatment response to escitalopram in OCD patients.",
+            "journal": "CNS spectrums",
+            "year": "2007",
+            "authors": [
+              "Galvão-de Almeida Amanda",
+              "Quarantini Lucas C",
+              "Góis Cristianne R",
+              "Santos-Jesus Rogério",
+              "Miranda-Scippa Angela M A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Citalopram",
+              "Diagnostic and Statistical Manual of Mental Disorders",
+              "Female",
+              "Humans",
+              "Male",
+              "Obsessive-Compulsive Disorder",
+              "Pilot Projects",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Severity of Illness Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17603402/"
+          },
+          {
+            "pmid": "18567973",
+            "title": "Escitalopram in obsessive-compulsive disorder: response of symptom dimensions to pharmacotherapy.",
+            "abstract": "There is a substantial body of evidence that obsessive-compulsive disorder (OCD) symptoms can be grouped into a series of discrete dimensions, and some evidence that not all OCD symptom dimensions respond equally well to pharmacologic or psychotherapeutic intervention. The response of OCD symptom dimensions to 12 weeks of treatment with escitalopram or placebo was investigated.",
+            "journal": "CNS spectrums",
+            "year": "2008",
+            "authors": [
+              "Stein Dan J",
+              "Carey Paul D",
+              "Lochner Christine",
+              "Seedat Soraya",
+              "Fineberg Naomi"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Citalopram",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Obsessive-Compulsive Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18567973/"
+          },
+          {
+            "pmid": "41286906",
+            "title": "Efficacy and safety profile of vortioxetine as an add-on molecule in obsessive-compulsive disorder: a randomized double-blinded placebo-controlled superiority trial - a study protocol.",
+            "abstract": "Obsessive-Compulsive Disorder (OCD) affects approximately 2-3% of the global population and is associated with significant functional impairment and reduced quality of life. Despite its widespread impact, pharmacological treatments approved by the U.S. Food and Drug Administration (FDA) for OCD remain limited. Vortioxetine is a multimodal antidepressant that obtained its FDA approval in December 2013 for Major Depressive Disorder (MDD) and has shown to have some potential benefits in terms of cognitive aspects and global manifestation of symptoms. The purpose of this study is to assess the effectiveness and safety of vortioxetine as adjunctive treatment in patients with a diagnosis of OCD.",
+            "journal": "BMC psychiatry",
+            "year": "2025",
+            "authors": [
+              "Mandal Sucharita",
+              "Mukhopadhyay Kaushik",
+              "Guin Aparajita",
+              "Sorkhel Rupal",
+              "Mitra Pulama"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Vortioxetine",
+              "Double-Blind Method",
+              "Adult",
+              "Drug Therapy, Combination",
+              "Male",
+              "Treatment Outcome",
+              "Randomized Controlled Trials as Topic",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41286906/"
+          },
+          {
+            "pmid": "30973183",
+            "title": "Brain neurochemistry in unmedicated obsessive-compulsive disorder patients and effects of 12-week escitalopram treatment: 1 H-magnetic resonance spectroscopy study.",
+            "abstract": "The purpose of this study was to examine treatment-related neurochemical changes in 28 unmedicated obsessive-compulsive disorder (OCD) patients using 1 H-magnetic resonance spectroscopy (1 H-MRS).",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2019",
+            "authors": [
+              "Parmar Arpit",
+              "Sharan Pratap",
+              "Khandelwal Sudhir Kumar",
+              "Agarwal Khushbu",
+              "Sharma Uma"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Case-Control Studies",
+              "Caudate Nucleus",
+              "Choline",
+              "Citalopram",
+              "Female",
+              "Follow-Up Studies",
+              "Glutamic Acid",
+              "Glutamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30973183/"
+          },
+          {
+            "pmid": "17407626",
+            "title": "Escitalopram in obsessive-compulsive disorder: a randomized, placebo-controlled, paroxetine-referenced, fixed-dose, 24-week study.",
+            "abstract": "A randomized, placebo controlled fixed-dose trial was undertaken to determine the efficacy and tolerability of escitalopram in obsessive-compulsive disorder (OCD), using paroxetine as the active reference.",
+            "journal": "Current medical research and opinion",
+            "year": "2007",
+            "authors": [
+              "Stein Dan J",
+              "Andersen Elisabeth Wreford",
+              "Tonnoir Brigitte",
+              "Fineberg Naomi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antidepressive Agents, Second-Generation",
+              "Citalopram",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Obsessive-Compulsive Disorder",
+              "Paroxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17407626/"
+          },
+          {
+            "pmid": "37164956",
+            "title": "Effect of psilocybin on marble burying in ICR mice: role of 5-HT1A receptors and implications for the treatment of obsessive-compulsive disorder.",
+            "abstract": "Preliminary clinical findings, supported by preclinical studies employing behavioral paradigms such as marble burying, suggest that psilocybin may be effective in treating obsessive-compulsive disorder. However, the receptor mechanisms implicated in the putative anti-obsessional effect are not clear. On this background, we set out to explore (1) the role of serotonin 2A (5-HT2A) and serotonin 1A (5-HT1A) receptors in the effect of psilocybin on marble burying; (2) the effect of staggered versus bolus psilocybin administration and persistence of the effect; (3) the effect of the 5-HT1A partial agonist, buspirone, on marble-burying and the head twitch response (HTR) induced by psilocybin, a rodent correlate of psychedelic effects. Male ICR mice were administered psilocybin 4.4 mg/kg, escitalopram 5 mg/kg, 8-hydroxy-2-(di-n-propylamino) tetralin (8-OH-DPAT) 2 mg/kg, M100907 2 mg/kg, buspirone 5 mg/kg, WAY100635 2 mg/kg or combinations, intraperitoneally, and were tested on the marble bury",
+            "journal": "Translational psychiatry",
+            "year": "2023",
+            "authors": [
+              "Singh Sandeep",
+              "Botvinnik Alexander",
+              "Shahar Orr",
+              "Wolf Gilly",
+              "Yakobi Corel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Male",
+              "Mice",
+              "8-Hydroxy-2-(di-n-propylamino)tetralin",
+              "Buspirone",
+              "Escitalopram",
+              "Hallucinogens",
+              "Mice, Inbred ICR",
+              "Obsessive-Compulsive Disorder",
+              "Psilocybin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37164956/"
+          },
+          {
+            "pmid": "18090508",
+            "title": "High-dose escitalopram for the treatment of obsessive-compulsive disorder.",
+            "abstract": "The aim of this study was to evaluate the efficacy and tolerability of high-dose escitalopram in patients suffering from obsessive-compulsive disorder (OCD). In an open-label, 16-week prospective study, patients with OCD received escitalopram at a dose of 20 mg/day for 3 weeks, after a 1-week titration at 10 mg/day. Patients who did not achieve a > or =25% reduction from baseline in the Yale-Brown Obsessive Compulsive Scale (Y-BOCS) score during these 4 weeks were continued on higher doses of escitalopram (maximum 50 mg/day) for 12 weeks. The primary efficacy measure of OCD symptoms was change from baseline in the Y-BOCS score. Overall, 67 patients (33 women, 34 men) with a mean Y-BOCS score of 29.6 entered the study. After 4 weeks of standard-dose escitalopram treatment, one patient discontinued owing to pregnancy, and two patients achieved a reduction in Y-BOCS > or =25%. Consequently, 64 patients were eligible to receive high-dose escitalopram (mean dose, 33.8 mg/day at endpoint). A",
+            "journal": "International clinical psychopharmacology",
+            "year": "2008",
+            "authors": [
+              "Rabinowitz Ilan",
+              "Baruch Yehuda",
+              "Barak Yoram"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents",
+              "Citalopram",
+              "Data Interpretation, Statistical",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18090508/"
+          },
+          {
+            "pmid": "35082003",
+            "title": "Safety and efficacy of early augmentation with repetitive transcranial magnetic stimulation in the treatment of drug-free patients with obsessive-compulsive disorder.",
+            "abstract": "Obsessive-compulsive disorder (OCD) is a chronic psychiatric disorder that results in significant disability and substantial compromise in the quality of life. Until now, the role of repetitive transcranial magnetic stimulation (rTMS) has been primarily explored in individuals with treatment-resistant OCD. In this study, we investigated the safety and efficacy of rTMS as an early augmentation strategy in drug-free patients with OCD.",
+            "journal": "CNS spectrums",
+            "year": "2022",
+            "authors": [
+              "Joshi Mohita",
+              "Kar Sujita Kumar",
+              "Dalal Pronob K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35082003/"
+          },
+          {
+            "pmid": "20712565",
+            "title": "Past, present and future drugs for the treatment of obsessive-compulsive disorder.",
+            "abstract": "In the last decades, the treatment of obsessive-compulsive disorder (OCD) has been revolutioned by the introduction into the clinical practice of the selective serotonin (5-HT) reuptake inhibitors (SSRIs), following the observation of the unique response of OCD patients to clomipramine. However, if with no doubt the 5-HT system is central to the pharmacological treatment of OCD, it is unlikely that it represents the whole story. In fact, different studies suggest abnormalities of other neurotransmitters, neuropeptides or second messengers, so that it can be hypothesized that the possible heterogeneity of pathophysiological mechanisms might underlie the different clinical pictures and responses to treatment. Moreover, latest developments in the pharmacology of SSRIs have shown that they share the common property of 5-HT reuptake blockade, but, with the exception of citalopram and escitalopram, they do interact with other receptors and systems. In this paper, the latest findings on pharm",
+            "journal": "Current medicinal chemistry",
+            "year": "2010",
+            "authors": [
+              "Marazziti D",
+              "Consoli G",
+              "Baroni S",
+              "Catena Dell'Osso M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Clomipramine",
+              "Glutamic Acid",
+              "Humans",
+              "Obsessive-Compulsive Disorder",
+              "Receptors, N-Methyl-D-Aspartate",
+              "Second Messenger Systems",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20712565/"
+          },
+          {
+            "pmid": "38516460",
+            "title": "A Case of Postpartum Obsessive-Compulsive Disorder in a First-Time Father.",
+            "abstract": "Obsessive-Compulsive Disorder (OCD) is a well-recognized psychiatric condition characterized by distressing obsessions and compulsions. While the perinatal period is a known trigger for OCD in women, less attention has been given to its occurrence in men, particularly new fathers. This case report examines the unique presentation of postpartum-onset OCD (ppOCD) in a first-time father. A 33-year-old father presented eight months after the birth of his first child with distressing intrusive thoughts related to harming his eight-month-old daughter. These thoughts were ego-dystonic, causing significant distress, and led to a rapid deterioration in his mental health. Intrusive thoughts included a desire to leave his daughter in a busy street and place her in a hot oven. The patient became severely depressed, experienced significant weight loss, and was unable to perform daily activities of living. He repeatedly denied any intent to act on these thoughts. Following a visit to the ED, the pat",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Chen Kevin W",
+              "Schultz Luke",
+              "Hughes Neil"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38516460/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+        "txgnn_score": 0.9786728024482728,
+        "txgnn_rank": 17651,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal torticollis of infancy",
+        "txgnn_score": 0.976083755493164,
+        "txgnn_rank": 18844,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paranoid personality disorder",
+        "txgnn_score": 0.974104940891266,
+        "txgnn_rank": 19694,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36853245",
+            "title": "Borderline Personality Disorder: A Review.",
+            "abstract": "Borderline personality disorder (BPD) affects approximately 0.7% to 2.7% of adults in the US. The disorder is associated with considerable social and vocational impairments and greater use of medical services.",
+            "journal": "JAMA",
+            "year": "2023",
+            "authors": [
+              "Leichsenring Falk",
+              "Heim Nikolas",
+              "Leweke Frank",
+              "Spitzer Carsten",
+              "Steinert Christiane"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Borderline Personality Disorder",
+              "Psychotic Disorders",
+              "Psychotherapy",
+              "Major Depressive Disorder",
+              "Mood Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36853245/"
+          },
+          {
+            "pmid": "26703328",
+            "title": "\"Is It Her Hormones?\": Psychiatric Diagnoses and Polycystic Ovarian Syndrome.",
+            "abstract": "Beth, whom you have cared for in your primary care practice since she was born, is a 15-year-old adolescent girl with no prior psychiatric history who developed significant symptoms of clinical depression, associated with self-injurious behavior (cutting on wrists, arms, and thighs). She denied any known precipitant for her depression.She is a ninth grade honors student in the gifted program at a local high school and is described as a talented musician, playing multiple musical instruments as well as soccer and basketball. She has good family support, was sociable, and had several close friends. She denied any history of trauma and denied ever using recreational drugs or other mood-altering substances.At this visit, she reported feeling \"sad and anxious.\" Family history was significant for maternal depression, which persisted through her teens and twenties. Her older sister had been diagnosed with Social Anxiety Disorder. Beth reported anhedonia, fatigue and irritable mood, lack of mo",
+            "journal": "Journal of developmental and behavioral pediatrics : JDBP",
+            "year": "2016",
+            "authors": [
+              "Genovese Ann",
+              "Smith Teri",
+              "Kramer Holly",
+              "Augustyn Marilyn"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Bipolar Disorder",
+              "Female",
+              "Humans",
+              "Paranoid Disorders",
+              "Polycystic Ovary Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26703328/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schizoid personality disorder",
+        "txgnn_score": 0.974104940891266,
+        "txgnn_rank": 19695,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "histrionic personality disorder (disease)",
+        "txgnn_score": 0.974104940891266,
+        "txgnn_rank": 19693,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schizotypal personality disorder",
+        "txgnn_score": 0.974104940891266,
+        "txgnn_rank": 19692,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "agoraphobia",
+        "txgnn_score": 0.9689868092536926,
+        "txgnn_rank": 21630,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03522844",
+            "title": "Comparative Effectiveness of Mindfulness-Based Stress Reduction and Pharmacotherapy for Anxiety",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-06-18",
+            "completion_date": "2022-01-05",
+            "country": "United States",
+            "enrollment": 276,
+            "brief_summary": "We propose the first randomized, controlled study to assess the comparative effectiveness of Mindfulness-Based Stress Reduction (MBSR) with a medication for anxiety disorders. We will use escitalopram, gold-standard SSRI treatment for patients with anxiety disorders, and will examine the comparative effectiveness of the two treatments on anxiety symptoms and other outcomes important to patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Men and women between 18 and 75 years old.\n2. Have an anxiety disorder, including: social anxiety disorder (SAD), generalized anxiety disorder (GAD), panic disorder, or agoraphobia\n3. Must understand study procedure and be willing to participate in all testing visits and trea",
+            "endpoints": [
+              "Clinical Global Impression of Severity scale"
+            ],
+            "sponsor": "Georgetown University",
+            "url": "https://clinicaltrials.gov/study/NCT03522844"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05210140",
+            "title": "Utility of Plasma Drug Level Monitoring and CYP2C19 Genotyping in Dose Personalization of Escitalopram",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2020-07-16",
+            "completion_date": "2023-11",
+            "country": "Serbia",
+            "enrollment": 148,
+            "brief_summary": "The aims of this study are to:\n\n1. Determine the proportion of participants who are underdosed or overdosed under recommended dosing regimen of escitalopram for the depression treatment (10 mg/day)\n2. Determine and quantify clinical benefits of personalized escitalopram dosing regimen based on the escitalopram blood level monitoring\n3. Retrospectively estimate whether the information on CYP2C19 genotype is useful in the prediction of escitalopram blood level.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed Major Depressive Disorder\n* Starting monotherapy with escitalopram\n* Signed written informed consent\n\nExclusion Criteria:\n\n* Patient's requests to leave the study\n* Patients who had taken escitalopram before\n* Dementia\n* Severe liver function impairment (abnormal AST",
+            "endpoints": [
+              "Change from Baseline Depression severity score at week 8",
+              "Adverse drug reaction severity score at week 8"
+            ],
+            "sponsor": "University of Belgrade",
+            "url": "https://clinicaltrials.gov/study/NCT05210140"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00711737",
+            "title": "Open-label Study of the Changes in Metabolic Parameters in Patients Treated With Escitalopram for Six Months",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2008-09",
+            "completion_date": "2010-10",
+            "country": "Singapore",
+            "enrollment": 27,
+            "brief_summary": "The purpose of this study is to explore the changes in metabolic parameters in patients treated with escitalopram for six months for major depression, generalized anxiety disorder or panic disorder, with or without agoraphobia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Give informed consent\n* Requires pharmacological treatment with escitalopram for major depression, generalized anxiety disorder or panic disorder\n* Aged 21 years old and above\n* Able to comprehend and comply with protocol\n* Not pregnant and if of child-bearing age, using adequ",
+            "endpoints": [],
+            "sponsor": "Changi General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00711737"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35045991",
+            "title": "Drug treatment for panic disorder with or without agoraphobia: systematic review and network meta-analysis of randomised controlled trials.",
+            "abstract": "To identify drug classes and individual selective serotonin reuptake inhibitors (SSRIs) with high rates of remission and low risk of adverse events in the treatment of panic disorder with or without agoraphobia.",
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "2022",
+            "authors": [
+              "Chawla Natasha",
+              "Anothaisintawee Thunyarat",
+              "Charoenrungrueangchai Kridsada",
+              "Thaipisuttikul Papan",
+              "McKay Gareth J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agoraphobia",
+              "Escitalopram",
+              "Female",
+              "Humans",
+              "Induction Chemotherapy",
+              "Male",
+              "Panic Disorder",
+              "Randomized Controlled Trials as Topic",
+              "Selective Serotonin Reuptake Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35045991/"
+          },
+          {
+            "pmid": "38014714",
+            "title": "Pharmacological treatments in panic disorder in adults: a network meta-analysis.",
+            "abstract": "A panic attack is a discrete period of fear or anxiety that has a rapid onset and reaches a peak within 10 minutes. The main symptoms involve bodily systems, such as racing heart, chest pain, sweating, shaking, dizziness, flushing, churning stomach, faintness and breathlessness. Other recognised panic attack symptoms involve fearful cognitions, such as the fear of collapse, going mad or dying, and derealisation (the sensation that the world is unreal). Panic disorder is common in the general population with a prevalence of 1% to 4%. The treatment of panic disorder includes psychological and pharmacological interventions, including antidepressants and benzodiazepines.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2023",
+            "authors": [
+              "Guaiana Giuseppe",
+              "Meader Nicholas",
+              "Barbui Corrado",
+              "Davies Simon Jc",
+              "Furukawa Toshi A"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Panic Disorder",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Paroxetine",
+              "Fluoxetine",
+              "Venlafaxine Hydrochloride",
+              "Serotonin and Noradrenaline Reuptake Inhibitors",
+              "Alprazolam",
+              "Clomipramine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38014714/"
+          },
+          {
+            "pmid": "30083378",
+            "title": "Alprazolam-induced dose-dependent anorgasmia: case analysis.",
+            "abstract": "Sexual dysfunctions are associated with multiple medical and psychiatric disorders, as well as pharmacotherapies used to treat these disorders. Although sexual dysfunctions negatively affect both quality of life and treatment adherence, patients infrequently volunteer these symptoms and clinicians do not pose directed questions to determine their presence or severity. This issue is especially important in psychiatric patients, for whom most common psychotropics may cause sexual dysfunctions (antidepressants, antipsychotics, anxiolytics and mood-stabilising agents). There is limited literature addressing benzodiazepines, and alprazolam in particular.",
+            "journal": "BJPsych open",
+            "year": "2018",
+            "authors": [
+              "Kaufman Kenneth R",
+              "Coluccio Melissa",
+              "Linke Michelle",
+              "Noonan Elizabeth",
+              "Babalola Ronke"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30083378/"
+          },
+          {
+            "pmid": "37676054",
+            "title": "Pharmacological approaches to the management of panic disorder in older patients: a systematic review.",
+            "abstract": "Recommendations for treating panic disorder (PD) in older patients are scarce. The authors have systematically reviewed whether several recommended medications are superior to others and their optimal doses in this age group.",
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2023",
+            "authors": [
+              "Caldirola Daniela",
+              "De Donatis Domenico",
+              "Alciati Alessandra",
+              "Daccò Silvia",
+              "Perna Giampaolo"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Panic Disorder",
+              "Paroxetine",
+              "Citalopram",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Escitalopram",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37676054/"
+          },
+          {
+            "pmid": "16953656",
+            "title": "Escitalopram: a review of its use in the management of anxiety disorders.",
+            "abstract": "Escitalopram (Cipralex, Lexapro, Seroplex, Sipralexa), the therapeutically active S-enantiomer of racemic citalopram (RS-citalopram), is a potent and highly selective serotonin reuptake inhibitor. It is effective and generally well tolerated in the treatment of moderate to severe generalised anxiety disorder (GAD) or social anxiety disorder (SAD), panic disorder (with or without agoraphobia) as well as obsessive-compulsive disorder (OCD). Moreover, escitalopram is at least as effective as paroxetine for the treatment of GAD, SAD or OCD and appears to achieve a more rapid response than racemic citalopram in the management of panic disorder. Generally, it has a more favourable tolerability profile than paroxetine in terms of fewer discontinuation symptoms. In addition, a favourable pharmacokinetic profile permits once-daily administration of the drug. Additional comparative studies are required to definitively position escitalopram with respect to other SSRIs and venlafaxine. Nevertheles",
+            "journal": "CNS drugs",
+            "year": "2006",
+            "authors": [
+              "Dhillon Sohita",
+              "Scott Lesley J",
+              "Plosker Greg L"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Citalopram",
+              "Humans",
+              "MEDLINE"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16953656/"
+          },
+          {
+            "pmid": "29034101",
+            "title": "Lamotrigine-induced sexual dysfunction and non-adherence: case analysis with literature review.",
+            "abstract": "Optimal anti-epileptic drug (AED) treatment maximises therapeutic response and minimises adverse effects (AEs). Key to therapeutic AED treatment is adherence. Non-adherence is often related to severity of AEs. Frequently, patients do not spontaneously report, and clinicians do not specifically query, critical AEs that lead to non-adherence, including sexual dysfunction. Sexual dysfunction prevalence in patients with epilepsy ranges from 40 to 70%, often related to AEDs, epilepsy or mood states. This case reports lamotrigine-induced sexual dysfunction leading to periodic non-adherence.",
+            "journal": "BJPsych open",
+            "year": "2017",
+            "authors": [
+              "Kaufman Kenneth R",
+              "Coluccio Melissa",
+              "Sivaraaman Kartik",
+              "Campeas Miriam"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29034101/"
+          },
+          {
+            "pmid": "32594260",
+            "title": "Serotonergic treatment normalizes midbrain dopaminergic neuron increase after periaqueductal gray stimulation.",
+            "abstract": "Electrical stimulation of the dorsolateral periaqueductal gray (dlPAG) in rats has been shown to elicit panic-like behaviour and can be a useful as an unconditioned stimulus for modelling anticipatory fear and agoraphobia in a contextual fear conditioning paradigm. In this study, we further analysed our previous data on the effects of escitalopram (a selective serotonin reuptake inhibitor, SSRI) and buspirone (a 5-HT1A receptor partial agonist) on dlPAG-induced anticipatory fear behaviour in a rat model using freezing as a measure. We then attempted to unravel some of the interactions with dopamine signalling using tyrosine hydroxylase (TH) immunohistochemistry to probe the effects on dopaminergic neurons. We showed that acute treatment of escitalopram, but not buspirone, was effective in reducing anticipatory freezing behaviour, while chronic administrations of both drugs were effective. We found that the dlPAG stimulation induced increase number of dopaminergic neurons in the ventral",
+            "journal": "Brain structure & function",
+            "year": "2020",
+            "authors": [
+              "Tan Shawn Zheng Kai",
+              "Temel Yasin",
+              "Chan Ariel Yovela",
+              "Mok Andrea Tsz Ching",
+              "Perucho Jose Angelo Udal"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Buspirone",
+              "Citalopram",
+              "Deep Brain Stimulation",
+              "Dopaminergic Neurons",
+              "Electric Stimulation",
+              "Fear",
+              "Freezing Reaction, Cataleptic",
+              "Male",
+              "Mesencephalon"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32594260/"
+          },
+          {
+            "pmid": "17017830",
+            "title": "What is the threshold for symptomatic response and remission for major depressive disorder, panic disorder, social anxiety disorder, and generalized anxiety disorder?",
+            "abstract": "Symptom-free remission is a goal for treatment in depression and anxiety disorders, but there is no consensus regarding the threshold for determining remission in individual disorders. We sought to determine these thresholds by comparing, in a post hoc analysis, scores on the Clinical Global Impressions scale (CGI) and disorder-specific symptom severity rating scales from all available studies of the treatment of major depressive disorder, panic disorder, generalized anxiety disorder, and social anxiety disorder with the same medication (escitalopram). We also sought to compare the standardized effect sizes of escitalopram for these 4 psychiatric disorders.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2006",
+            "authors": [
+              "Bandelow Borwin",
+              "Baldwin David S",
+              "Dolberg Ornah T",
+              "Andersen Henning Friis",
+              "Stein Dan J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anxiety Disorders",
+              "Citalopram",
+              "Major Depressive Disorder",
+              "Diagnostic and Statistical Manual of Mental Disorders",
+              "Disease-Free Survival",
+              "Double-Blind Method",
+              "Humans",
+              "Panic Disorder",
+              "Phobic Disorders",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17017830/"
+          },
+          {
+            "pmid": "32087339",
+            "title": "Treatment for anxiety: Mindfulness meditation versus escitalopram (TAME): Design of a randomized, controlled non-inferiority trial.",
+            "abstract": "Anxiety disorders (generalized anxiety disorder, social anxiety disorder, panic disorder, and agoraphobia) are common, distressing, and impairing. While pharmacotherapy and psychotherapy are first-line treatment strategies for anxiety disorders, many patients are reluctant to take psychiatric medication, and many prefer to avoid any kind of mental health treatment due to stigma or distrust of traditional medical care. We present the trial protocol for the first study comparing first-line medication treatment with Mindfulness-Based Stress Reduction (MBSR), a popular mindfulness meditation training program, for the treatment of anxiety disorders. We will use a non-inferiority, comparative effectiveness trial design, in which individuals with diagnosed anxiety disorders will be randomized to either pharmacotherapy with escitalopram or MBSR for 8 weeks of treatment. Treatment outcome will be based on gold standard symptom severity measures assessed by trained independent evaluators blind t",
+            "journal": "Contemporary clinical trials",
+            "year": "2020",
+            "authors": [
+              "Hoge Elizabeth A",
+              "Bui Eric",
+              "Mete Mihriye",
+              "Philip Samantha R",
+              "Gabriel Caroline"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Young Adult",
+              "Anxiety Disorders",
+              "Citalopram"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32087339/"
+          },
+          {
+            "pmid": "14658946",
+            "title": "Escitalopram in the treatment of panic disorder: a randomized, double-blind, placebo-controlled trial.",
+            "abstract": "Escitalopram, the therapeutically active isomer of the racemic selective serotonin reuptake inhibitor antidepressant citalopram, has shown significant anxiolytic effects in placebo-controlled clinical trials of social anxiety disorder, generalized anxiety disorder, and anxiety symptoms associated with major depression. This study evaluated the safety and efficacy of escitalopram in outpatients diagnosed with panic disorder.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2003",
+            "authors": [
+              "Stahl Stephen M",
+              "Gergel Ivan",
+              "Li Dayong"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Citalopram",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14658946/"
+          },
+          {
+            "pmid": "16408394",
+            "title": "[Treatment of anxiety syndrome. A systematic literature review. Summary and conclusions by the SBU].",
+            "abstract": "A report by the Swedish Council on Technology Assessment in Health Care (SBU) has reviewed, classified and evaluated the scientific literature on treatment of panic syndrome, specific phobias, social phobia, obsessive-compulsive syndrome (OCD), generalized anxiety syndrome (GAD) and post-traumatic stress disorder (PTSD). The review included treatment of children, adolescents and adults. The report concludes that there is effective treatment available for all anxiety syndromes. However in general, the effect is often moderate and symptoms reappear when the treatment period is discontinued. For adults, scientific evidence supports the use of paroxetine and sertraline for all syndromes except specific phobias. For the other SSRI's there is also evidence for the use of fluoxetin in OCD and PTSD, for fluvoxamine in social phobia and OCD and for escitalopram in social phobia. Other antidepressant drugs with a strong scientific support is venlafaxin in social phobia and GAD, imipramin in pani",
+            "journal": "Lakartidningen",
+            "year": "2005",
+            "authors": [
+              "von Knorring Lars",
+              "Thelander Sten",
+              "Pettersson Agneta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-Anxiety Agents",
+              "Antidepressive Agents, Second-Generation",
+              "Anxiety Disorders",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Psychotherapy",
+              "Risk Factors",
+              "Sweden"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16408394/"
+          },
+          {
+            "pmid": "17694478",
+            "title": "Improvement of quality of life in panic disorder with escitalopram, citalopram, or placebo.",
+            "abstract": "It has been argued that measurement of outcome in panic disorder should not be limited to monitoring the number of panic attacks, but should include all domains that affect patient quality of life.",
+            "journal": "Pharmacopsychiatry",
+            "year": "2007",
+            "authors": [
+              "Bandelow B",
+              "Stein D J",
+              "Dolberg O T",
+              "Andersen H F",
+              "Baldwin D S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Citalopram",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Panic Disorder",
+              "Prospective Studies",
+              "Quality of Life",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Surveys and Questionnaires"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17694478/"
+          },
+          {
+            "pmid": "22090798",
+            "title": "Antianxiety medications for the treatment of complex agoraphobia: pharmacological interventions for a behavioral condition.",
+            "abstract": "Although there are controversial issues (the \"American view\" and the \"European view\") regarding the construct and definition of agoraphobia (AG), this syndrome is well recognized and it is a burden in the lives of millions of people worldwide. To better clarify the role of drug therapy in AG, the authors summarized and discussed recent evidence on pharmacological treatments, based on clinical trials available from 2000, with the aim of highlighting pharmacotherapies that may improve this complex syndrome.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2011",
+            "authors": [
+              "Perna Giampaolo",
+              "Daccò Silvia",
+              "Menotti Roberta",
+              "Caldirola Daniela"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22090798/"
+          },
+          {
+            "pmid": "25395972",
+            "title": "Clinical characteristics of the respiratory subtype in panic disorder patients.",
+            "abstract": "Panic disorder has been suggested to be divided into the respiratory and non-respiratory subtypes in terms of its clinical presentations. The present study aimed to investigate whether there are any differences in treatment response and clinical characteristics between the respiratory and non-respiratory subtypes of panic disorder patients.",
+            "journal": "Psychiatry investigation",
+            "year": "2014",
+            "authors": [
+              "Song Hye-Min",
+              "Kim Ji-Hae",
+              "Heo Jung-Yoon",
+              "Yu Bum-Hee"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25395972/"
+          },
+          {
+            "pmid": "22370156",
+            "title": "Psychological characteristics of early remitters in patients with panic disorder.",
+            "abstract": "We aimed to examine whether anxiety sensitivity and agoraphobic fear could affect the time taken to remission after 24 weeks of open-label escitalopram treatment of patients with panic disorder (PD). We recruited 158 patients, and 101 patients completed the study. Clinical severity and psychological characteristics were assessed at baseline and 4, 12, and 24 weeks after the treatment, using the Clinical Global Impression-Severity (CGI-S), the Hamilton Rating Scales for Anxiety and Depression, the Anxiety Sensitivity Index-Revised (ASI-R), the Albany Panic and Phobia Questionnaire (APPQ), and the Panic Disorder Severity Scale (PDSS). Remission was defined as the absence of full panic attacks and PDSS scores of 7 or less. Completing patients were stratified according to the time taken to remit: early (n=20) and late (n=58) remission and non-remission groups (n=23). There were no significant differences among the three groups at baseline on the CGI-S and the PDSS mean scores. However, ear",
+            "journal": "Psychiatry research",
+            "year": "2012",
+            "authors": [
+              "Park Hee-Jin",
+              "Kim Eui-Jung",
+              "Ku Jeong-Il",
+              "Woo Jong-Min",
+              "Lee Seung-Hwan"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agoraphobia",
+              "Anxiety",
+              "Citalopram",
+              "Female",
+              "Humans",
+              "Male",
+              "Panic Disorder",
+              "Psychiatric Status Rating Scales",
+              "Remission Induction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22370156/"
+          },
+          {
+            "pmid": "21920711",
+            "title": "Baseline depression severity as a predictor of single and combination antidepressant treatment outcome: results from the CO-MED trial.",
+            "abstract": "The objective of this manuscript is to report associations between baseline depressive severity and (1) baseline sociodemographic and clinical characteristics, (2) treatment outcomes, and (3) differential outcomes for three treatment groups. Six hundred and sixty-five outpatients with nonpsychotic, major depressive disorder were prospectively randomized to treatment with either a selective serotonin reuptake inhibitor (SSRI) monotherapy (escitalopram plus placebo) or one of two antidepressant medication combinations (bupropion-sustained release plus escitalopram, or venlafaxine-extended release plus mirtazapine). For purposes of these analyses, participants were divided into four groups based on baseline severity by the 16-item Quick Inventory of Depressive Symptomatology - Self-Report (QIDS-SR(16)) total score: mild (0-10) [N=81], moderate (11-15) [N=238], severe (16-20) [N=260] and very severe (21-27) [N=67]. Treatment outcomes at 12 and 28weeks were compared among the four severity ",
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2012",
+            "authors": [
+              "Friedman Edward S",
+              "Davis Lori L",
+              "Zisook Sidney",
+              "Wisniewski Stephen R",
+              "Trivedi Madhukar H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents",
+              "Bupropion",
+              "Citalopram",
+              "Cyclohexanols",
+              "Depressive Disorder",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21920711/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01175",
+    "name": "Escitalopram",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Escitalopram"
+      },
+      "queried_at": "2026-03-10T03:46:05.943442",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Escitalopram"
+      },
+      "queried_at": "2026-03-10T03:46:07.168880",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T03:46:07.672579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T03:46:10.691044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T03:46:11.407958",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T03:46:11.918659",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T03:46:18.785514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T03:46:22.212492",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "queried_at": "2026-03-10T03:46:23.486466",
+      "status": "success",
+      "result_count": 30,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "queried_at": "2026-03-10T03:46:26.836156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "queried_at": "2026-03-10T03:46:29.537140",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T03:46:30.162950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T03:46:33.309716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T03:46:34.028565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T03:46:34.508769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T03:46:38.051279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T03:46:39.038901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "paranoid personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:39.534531",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "paranoid personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:42.417850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "paranoid personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:44.310139",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "schizoid personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:45.013245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "schizoid personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:48.716774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "schizoid personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:49.460330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "queried_at": "2026-03-10T03:46:50.031049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "queried_at": "2026-03-10T03:46:53.414925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "queried_at": "2026-03-10T03:46:54.283513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "schizotypal personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:55.132889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "schizotypal personality disorder"
+      },
+      "queried_at": "2026-03-10T03:46:59.195420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "schizotypal personality disorder"
+      },
+      "queried_at": "2026-03-10T03:47:00.099903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T03:47:01.180788",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T03:47:04.815836",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Escitalopram",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T03:47:08.409358",
+      "status": "success",
+      "result_count": 16,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:47:08.416008"
+  }
+}

@@ -1,0 +1,571 @@
+{
+  "drug": {
+    "inn": "Dacomitinib",
+    "drugbank_id": "DB11963",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9779312014579772,
+        "txgnn_rank": 18011,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.9692277312278748,
+        "txgnn_rank": 21542,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9677900671958924,
+        "txgnn_rank": 21981,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9651300311088562,
+        "txgnn_rank": 22805,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01121575",
+            "title": "A Phase 1, Open-label, Dose Escalation Study To Evaluate Safety, Pharmacokinetics And Pharmacodynamics Of Combined Oral C-met/Alk Inhibitor (Pf-02341066) And Pan-her Inhibitor (Pf-00299804) In Patients With Advanced Non-small Cell Lung Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-08",
+            "completion_date": "2014-02",
+            "country": "Australia, United States",
+            "enrollment": 70,
+            "brief_summary": "Lung cancer tumors become resistant to the first generation epidermal growth factor receptor (EGFR) inhibitors erlotinib or gefitinib by changing and increasing the activity of two cell signaling pathways: the cMET pathway and the EGFR pathway. Both resistance mechanisms can occur at the same time, in the same patient and even in the same tumor. This study combines a second generation EGFR inhibitor and a cMET inhibitor to block both these pathways in order to overcome resistance and treat this ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* advanced non small cell lung cancer (dose escalation phase)\n* acquired resistance to erlotinib or gefitinib (expansion phase)\n* mandatory entrance biopsy (expansion phase)\n\nExclusion Criteria:\n\n* interstitial lung disease\n* unstable brain metastases\n* leptomeningeal disease",
+            "endpoints": [
+              "Overview of Treatment-emergent All Causalities Adverse Events (AEs) in Escalation Phase",
+              "Overview of Treatment-emergent All Causalities AEs in Expansion Phase",
+              "Overview of Treatment-emergent, Treatment-related AEs in Escalation Phase"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01121575"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30753867",
+            "title": "Dacomitinib, a new pan-EGFR inhibitor, is effective in attenuating pulmonary vascular remodeling and pulmonary hypertension.",
+            "abstract": "Accumulating evidence suggests that epidermal growth factor receptor (EGFR) plays a role in the progression of pulmonary arterial hypertension (PAH). Clinically-approved epidermal growth factor inhibitors such as gefitinib, erlotinib, and lapatinib have been explored for PAH. However, None of them were able to attenuate PAH. So, we explored the role of dacomitinib, a new pan-EGFR inhibitor, in PAH. Adult male Sprague-Dawley rats were used to study hypoxia- or monocrotaline-induced right ventricular remodeling as well as systolic function and hemodynamics using echocardiography and a pressure-volume admittance catheter. Morphometric analyses of lung vasculature and pressure-volume vessels were performed. Immunohistochemical staining, flow cytometry, and viability, as well as scratch-wound, and Boyden chamber migration assays were used to identify the roles of dacomitinib in pulmonary artery smooth muscle cells (PASMCs). The results revealed that dacomitinib has a significant inhibitory ",
+            "journal": "European journal of pharmacology",
+            "year": "2019",
+            "authors": [
+              "Yu Xiufeng",
+              "Zhao Xijuan",
+              "Zhang Junting",
+              "Li YiYing",
+              "Sheng Ping"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autophagy",
+              "Cell Hypoxia",
+              "Cell Movement",
+              "Cell Proliferation",
+              "ErbB Receptors",
+              "Hemodynamics",
+              "Hypertension, Pulmonary",
+              "Lung",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30753867/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9644342660903932,
+        "txgnn_rank": 23019,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.964382529258728,
+        "txgnn_rank": 23037,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.96179461479187,
+        "txgnn_rank": 23815,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.96177476644516,
+        "txgnn_rank": 23820,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03878524",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: PRIME",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2020-04-01",
+            "completion_date": "2020-12-10",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "This phase Ib trial determines if samples from a patient's cancer can be tested to find combinations of drugs that provide clinical benefit for the kind of cancer the patient has. This study is also being done to understand why cancer drugs can stop working and how different cancers in different people respond to different types of therapy.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Ability to understand and the willingness to sign a written informed consent document\n* Participants \\>= 21 years old at time of informed consent. Both men and women and members of all races and ethnic groups will be included\n* Participants, both men and women, must agree ",
+            "endpoints": [
+              "Feasibility of implementing an individualized treatment strategy (number of participants to receive first dose)"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03878524"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis",
+        "txgnn_score": 0.9511730074882508,
+        "txgnn_rank": 26421,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9494900703430176,
+        "txgnn_rank": 26833,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11963",
+    "name": "Dacomitinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dacomitinib"
+      },
+      "queried_at": "2026-03-10T08:03:06.866341",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dacomitinib"
+      },
+      "queried_at": "2026-03-10T08:03:08.867243",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:03:09.537735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:03:12.601328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T08:03:13.995494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T08:03:14.540334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T08:03:17.772212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T08:03:18.513159",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T08:03:19.110495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T08:03:23.069124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T08:03:23.998310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T08:03:25.178835",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T08:03:28.703567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T08:03:30.549252",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:03:31.107793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:03:35.927980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T08:03:37.087131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T08:03:38.657865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T08:03:42.656848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T08:03:43.550341",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T08:03:44.169057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T08:03:47.762349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T08:03:48.601137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T08:03:49.377454",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T08:03:52.672041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T08:03:53.727751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T08:03:54.626897",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T08:03:58.069044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T08:03:58.744802",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T08:03:59.344929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T08:04:03.149146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T08:04:03.871509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:04:03.883602"
+  }
+}

@@ -1,0 +1,859 @@
+{
+  "drug": {
+    "inn": "Soybean oil",
+    "drugbank_id": "DB09422",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.9960862398147584,
+        "txgnn_rank": 5521,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-syndromic esophageal malformation",
+        "txgnn_score": 0.9899129867553712,
+        "txgnn_rank": 10592,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bone Paget disease",
+        "txgnn_score": 0.9832967519760132,
+        "txgnn_rank": 15269,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal disease",
+        "txgnn_score": 0.982511579990387,
+        "txgnn_rank": 15751,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03127345",
+            "title": "Omega 3 Fatty Acid Treatment for Pediatric Musculoskeletal Health",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2019-09",
+            "completion_date": "2023-09",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This is a randomized clinical trial comparing Omegaven® treatment with standard of care (soybean-based lipid formulation, Intralipid®) on bone health outcomes in infants with esophageal atresia (EA) undergoing surgical repair at Boston Children's Hospital.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1\\) Diagnosis of long-gap EA (esophageal gap length \\>3cm) 2) Age \\<12 months (not yet reached 12 month birthday) 3) Anticipated surgical repair for management of EA utilizing esophageal traction requiring prolonged intubation, muscle relaxation, and parenteral nutrition depende",
+            "endpoints": [
+              "Change in total volumetric bone mineral density of the distal femur"
+            ],
+            "sponsor": "Boston Children's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03127345"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06524271",
+            "title": "Effect of Fermented Soybean (FSB) Supplementation on Gas-troesophageal Reflux Disease (GERD)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-11-01",
+            "completion_date": "2024-05-31",
+            "country": "Malaysia",
+            "enrollment": 110,
+            "brief_summary": "Gastroesophageal reflux disease (GERD) is a prevalent chronic condition affecting the well-being of both adults and children in general medical practice. Research on the effects of fermented soy-bean (FSB) supplementation in managing GERD is relatively new, with limited studies available. Existing research often lacks sufficient dosing regimens and study durations to differentiate be-tween transient placebo effects and sustained benefits. In this study, the beneficial effects of FSB supplementat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n(1) experienced heartburn, acid reflux, regurgitation, or non-cardiac chest pain within the past three months; (2) aged 18 years or older; (3) demonstrated the ability to comprehend the study protocol and information provided by the investigators; and (4) provided in-formed cons",
+            "endpoints": [
+              "Reflux Disease Questionnaire (RDQ)",
+              "Quality of Life in Reflux and Dyspepsia (QOLRAD)",
+              "Inflammatory Markers"
+            ],
+            "sponsor": "NATTOME SDN BHD",
+            "url": "https://clinicaltrials.gov/study/NCT06524271"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05680064",
+            "title": "The Effect of Chewing Gum and Exercises of the Tongue, Lip, and Jaw on Salivation, Xerostomia, and Dysphagia in Patients With Sjögren's Syndrome",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-01-10",
+            "completion_date": "2023-07-18",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 86,
+            "brief_summary": "Sjögren's syndrome (SS) is a chronic, systemic and autoimmune disease characterized by inflammation, fibrosis and dysfunction of exocrine glands such as tear and salivary glands. SS is defined as primary SS when it progresses alone without any other rheumatic disease finding, while the definition of secondary SS is used in the presence of another accompanying autoimmune disease. One of the most disturbing symptoms of SS is hyposalivation, xerostomia and dysphagia due to hypofunction of salivary ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* To be diagnosed as SS according to the 2002 American and European Consensus Group SS classification criteria\n* Experiencing xerostomia and dysphagia\n* Being between the ages of 18-65\n* Not using a total denture\n* Not having any other serious illness that will cause dry mouth a",
+            "endpoints": [
+              "Simulated and Unsimulated Salivary Flow Rate"
+            ],
+            "sponsor": "Saglik Bilimleri Universitesi",
+            "url": "https://clinicaltrials.gov/study/NCT05680064"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "10024108",
+            "title": "Effects of soybean oil emulsion and eicosapentaenoic acid on stress response and immune function after a severely stressful operation.",
+            "abstract": "To investigate the effects of soybean oil emulsion and oral or enteral administration of eicosapentaenoic acid (EPA) on stress response, cytokine production, protein metabolism, and immune function after surgery for esophageal cancer.",
+            "journal": "Annals of surgery",
+            "year": "1999",
+            "authors": [
+              "Furukawa K",
+              "Tashiro T",
+              "Yamamori H",
+              "Takagi K",
+              "Morishima Y"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Eicosapentaenoic Acid",
+              "Emulsions",
+              "Esophageal Neoplasms",
+              "Female",
+              "Humans",
+              "Immunity",
+              "Interleukin-6",
+              "Lymphocyte Count",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10024108/"
+          },
+          {
+            "pmid": "22457418",
+            "title": "Influence of the slow infusion of a soybean oil emulsion on plasma cytokines and ex vivo T cell proliferation after an esophagectomy.",
+            "abstract": "Lipid emulsions have been suggested to reduce immune responses, particularly in severely stressed patients. The authors investigated the influence of the slow intravenous infusion of a soybean oil-based lipid emulsion on some immune parameters in patients who had undergone an esophagectomy for esophageal cancer.",
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "year": "2013",
+            "authors": [
+              "Kagawa Yoshiyuki",
+              "Maeda Toshio",
+              "Kato Yasuhiro",
+              "Ueda Iori",
+              "Kudo Tomoko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Cell Proliferation",
+              "Chemokine CCL2",
+              "Concanavalin A",
+              "Cytokines",
+              "Esophageal Neoplasms",
+              "Esophagectomy",
+              "Esophagus",
+              "Fat Emulsions, Intravenous",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22457418/"
+          },
+          {
+            "pmid": "11911356",
+            "title": "Fat and esophageal sensitivity to acid.",
+            "abstract": "The hypothesis that fat increases esophageal sensitivity to acid was tested in eight patients with gastroesophageal reflux disease and 11 healthy subjects. Protocol 1 included randomized intragastric infusions of saline or Lipofundin S 20% (306 kcal) on two separate days, followed after 30 and 90 min by an 8 ml/min intraesophageal infusion of 0.1 N HCl. The time to the onset of heartburn and the maximum heartburn score by visual analog scale during the acid infusion were similar after intragastric saline (2 min and 29.5 mm, medians) and fat (2 min and 20.5 mm). Protocol 2 included two 8 ml/min intraesophageal infusions of 0.2 N HCI diluted in an equal volume of saline or Lipofundin S 20% at a time interval of 10 min in randomized order. The time to the onset of heartburn and the maximum heartburn score were unaffected by the presence of fat in the esophageal infusate (2.5 min and 53 mm without vs 1.5 min and 49 mm with fat). We conclude that fat does not increase esophageal sensitivity",
+            "journal": "Digestive diseases and sciences",
+            "year": "2002",
+            "authors": [
+              "Mangano Maria",
+              "Colombo Paola",
+              "Bianchi Paolo A",
+              "Penagini Roberto"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dietary Fats",
+              "Drug Combinations",
+              "Esophagus",
+              "Gastroesophageal Reflux",
+              "Glycerol",
+              "Heartburn",
+              "Humans",
+              "Hydrochloric Acid",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11911356/"
+          },
+          {
+            "pmid": "17868414",
+            "title": "High animal-fat intake changes the bile-acid composition of bile juice and enhances the development of Barrett's esophagus and esophageal adenocarcinoma in a rat duodenal-contents reflux model.",
+            "abstract": "The dietary components responsible for the development of Barrett's esophagus (BE) and esophageal adenocarcinoma (EAC) remain unclear. Wistar rats were divided into four groups based on their diet: a low soybean-oil diet, a low cow-fat diet, a high soybean-oil diet, and a high cow-fat diet. First, we evaluated the bile acid composition of the bile juice in each group without operation, using high-performance liquid chromatography. Because only high cow-fat intake induced changes in the composition of bile acids in bile juice, we then selected animals fed with a low soybean-oil diet and those with a high cow-fat diet to carry out esophago-jejunostomy for reflux of the duodenal contents, and compared sequential morphological changes between these groups up to 30 weeks after surgery. At 30 weeks after surgery, the reflux animals in the high cow-fat group showed a significantly higher incidence of BE and Barrett's dysplasia than those in the low soybean-oil group, and the incidence of EAC ",
+            "journal": "Cancer science",
+            "year": "2007",
+            "authors": [
+              "Chen Kuan-Hao",
+              "Mukaisho Ken-Ichi",
+              "Sugihara Hiroyuki",
+              "Araki Yoshio",
+              "Yamamoto Gaku"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Animals",
+              "Barrett Esophagus",
+              "Bile",
+              "Bile Acids and Salts",
+              "Bile Reflux",
+              "Dietary Fats",
+              "Disease Models, Animal",
+              "Duodenogastric Reflux",
+              "Duodenum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17868414/"
+          },
+          {
+            "pmid": "27716366",
+            "title": "The effect of n-3/n-6 polyunsaturated fatty acids on acute reflux esophagitis in rats.",
+            "abstract": "Polyunsaturated fatty acids (PUFAs) play various roles in inflammation. However, the effect of PUFAs in the development of reflux esophagitis (RE) is unclear. This study is to investigate the potential effect of n-3/n-6 PUFAs on acute RE in rats along with the underlying protective mechanisms.",
+            "journal": "Lipids in health and disease",
+            "year": "2016",
+            "authors": [
+              "Zhuang Ze-Hao",
+              "Xie Jing-Jing",
+              "Wei Jing-Jing",
+              "Tang Du-Peng",
+              "Yang Li-Yong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Retracted Publication"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Disease Models, Animal",
+              "Esophagitis, Peptic",
+              "Fatty Acids, Omega-3",
+              "Fatty Acids, Omega-6",
+              "Fish Oils",
+              "Gene Expression Regulation",
+              "Humans",
+              "Inflammation",
+              "Interleukin-1beta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27716366/"
+          },
+          {
+            "pmid": "9646301",
+            "title": "n-3 versus n-6 polyunsaturated fatty acids in critical illness.",
+            "abstract": "The effects of n-6 and n-3 polyunsaturated fatty acids (PUFA) on protein metabolism, cell-mediated immunity, and production of cytokines and prostanoids were studied in experimental animals and patients with esophageal cancer. In the experimental study using a rat burn model, n-6 PUFA increased serum interleukin-6 (IL-6) and tumor necrosis factor (TNF), alpha (P < 0.05), and decreased nitrogen balance (NB) (P < 0.05), when compared with a fat-free control. But addition of n-3 PUFA reduced TNF-alpha and IL-10 (P < 0.05) and improved NB (P < 0.05). Suppressed delayed type hypersensitivity (DTH) induced by burn injury, which was not influenced by n-6 PUFA, was significantly improved by the administration of n-3 PUFA. n-6 PUFA tended to increase, and n-3 PUFA significantly decreased the endotoxin translocation. DTH, granulocyte-macrophage colony-stimulating factor, and eicosapentaenoic acid (EPA) content increased proportionately with the intravenous dose of fish oil emulsion. The effects ",
+            "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+            "year": "1998",
+            "authors": [
+              "Tashiro T",
+              "Yamamori H",
+              "Takagi K",
+              "Hayashi N",
+              "Furukawa K"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Burns",
+              "Critical Illness",
+              "Esophageal Neoplasms",
+              "Esophagectomy",
+              "Fatty Acids, Omega-3",
+              "Fatty Acids, Unsaturated",
+              "Fish Oils",
+              "Gastrectomy",
+              "Granulocyte-Macrophage Colony-Stimulating Factor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9646301/"
+          },
+          {
+            "pmid": "31795982",
+            "title": "A case report of exogenous lipoid pneumonia associated with avocado/soybean unsaponifiables.",
+            "abstract": "Exogenous lipoid pneumonia is a rare disease resulting from intra-alveolar accumulation of lipids of mineral, vegetal, or animal origin, that induce a foreign body type of inflammatory reaction in the lungs. Gastroesophageal reflux disease and other esophageal abnormalities have often been associated with this disease.",
+            "journal": "BMC pulmonary medicine",
+            "year": "2019",
+            "authors": [
+              "Boutros Jacques",
+              "Muzzone Marine",
+              "Benzaquen Jonathan",
+              "Levraut Michael",
+              "Marquette Charles-Hugo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Female",
+              "Humans",
+              "Persea",
+              "Plant Extracts",
+              "Pneumonia, Lipid",
+              "Glycine max"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31795982/"
+          },
+          {
+            "pmid": "22300015",
+            "title": "Duodenal lipid-induced symptom generation in gastroesophageal reflux disease: role of apolipoprotein A-IV and cholecystokinin.",
+            "abstract": "Duodenal lipid intensifies the perception of esophageal acid perfusion. Recently, we showed that genes implicated in lipid absorption were upregulated in the duodenum of fasting gastro-esophageal reflux disease (GERD) patients. This suggests that chylomicron production and secretion may be enhanced and, consequently, the release of apolipoprotein A-IV (apoA-IV), a chylomicron-derived signaling protein. ApoA-IV may stimulate release of cholecystokinin (CCK), an activator of vagal afferents. This study evaluated putative involvement of abnormal apoA-IV and CCK responses to lipid in GERD.",
+            "journal": "Neurogastroenterology and motility",
+            "year": "2012",
+            "authors": [
+              "van Boxel O S",
+              "ter Linde J J M",
+              "Oors J",
+              "Otto B",
+              "Feinle-Bisset C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Apolipoproteins A",
+              "Central Nervous System Sensitization",
+              "Cholecystokinin",
+              "Duodenum",
+              "Emulsions",
+              "Female",
+              "Gastroesophageal Reflux",
+              "Gene Expression Profiling"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22300015/"
+          },
+          {
+            "pmid": "24379010",
+            "title": "Effects of lipid emulsions in parenteral nutrition of esophageal cancer surgical patients receiving enteral nutrition: a comparative analysis.",
+            "abstract": "Olive oil-based lipid emulsion (LE) and medium chain triglyceride/long chain triglyceride (MCT/LCT) emulsion are both LEs with low ω-6 polyunsaturated fat acids (PUFAs) content. However, which one of these LEs is associated with a lower infection risk in patients receiving parenteral nutrition (PN) remains unclear. The aim of the study was to compare the effects of the two LEs in PN in esophageal cancer patients undergoing surgery.",
+            "journal": "Nutrients",
+            "year": "2013",
+            "authors": [
+              "Wang Wu-Ping",
+              "Yan Xiao-Long",
+              "Ni Yun-Feng",
+              "Guo Kang",
+              "Ke Chang-Kang"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Body Mass Index",
+              "C-Reactive Protein",
+              "CD4 Lymphocyte Count",
+              "CD8-Positive T-Lymphocytes",
+              "Double-Blind Method",
+              "Enteral Nutrition",
+              "Esophageal Neoplasms",
+              "Fat Emulsions, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24379010/"
+          },
+          {
+            "pmid": "105637",
+            "title": "Essential fatty acid deficiency: a consequence of fat-free total parenteral nutrition.",
+            "abstract": "A case of essential fatty acid deficiency (EFAD) associated with fat-free total parenteral nutrition (TPN) therapy in a 53-year-old white male is reported. The patient's tube feedings (Sustacal) were discontinued and a fat-free TPN solution of 25% dextrose injection, 4.25% amino acid injection (Freamine II) and appropriate electrolytes, vitamins and minerals was started when an upper GI study showed complete obstruction of his esophageal-colonic anastomosis. After nearly 1.5 months of fat-free TPN therapy, a diffuse scaly rash appeared on the patient's elbows, groin, arms and legs, and plasma fatty acid analysis showed a gross fatty acid deficiency. One liter of 10% soybean oil emulsion (Intralipid) then was added to 3 liters of TPN daily; linoleic acid accounted for 12% of the total calories of this solution. After 14 days of Intralipid therapy, the patient's skin lesions had cleared and plasma fatty acids had returned to normal. The patient was discharged on tube feedings of Sustacal",
+            "journal": "American journal of hospital pharmacy",
+            "year": "1979",
+            "authors": [
+              "Kellenberger T A",
+              "Johnson T A",
+              "Zaske D E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Fatty Acids, Essential",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Parenteral Nutrition"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/105637/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "juvenile Paget disease",
+        "txgnn_score": 0.9733390808105468,
+        "txgnn_rank": 19979,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dentinogenesis imperfecta",
+        "txgnn_score": 0.9711328744888306,
+        "txgnn_rank": 20819,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rectal cloacogenic carcinoma",
+        "txgnn_score": 0.9708237051963806,
+        "txgnn_rank": 20931,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gallbladder adenosquamous carcinoma",
+        "txgnn_score": 0.9705601930618286,
+        "txgnn_rank": 21045,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acantholytic variant squamous cell breast carcinoma",
+        "txgnn_score": 0.9704959392547609,
+        "txgnn_rank": 21078,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adenosquamous breast carcinoma",
+        "txgnn_score": 0.9704959392547609,
+        "txgnn_rank": 21079,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09422",
+    "name": "Soybean oil",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Soybean oil"
+      },
+      "queried_at": "2026-03-10T02:21:52.280673",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Soybean oil"
+      },
+      "queried_at": "2026-03-10T02:22:07.623617",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T02:22:08.526157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T02:22:12.323675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T02:22:13.394593",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T02:22:14.251552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T02:22:20.384206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T02:22:22.623666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T02:22:24.951116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T02:22:29.009643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T02:22:30.170964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T02:22:33.232635",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T02:22:39.125328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T02:22:47.016495",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "juvenile Paget disease"
+      },
+      "queried_at": "2026-03-10T02:22:49.670441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "juvenile Paget disease"
+      },
+      "queried_at": "2026-03-10T02:22:55.882649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "juvenile Paget disease"
+      },
+      "queried_at": "2026-03-10T02:22:57.346753",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "dentinogenesis imperfecta"
+      },
+      "queried_at": "2026-03-10T02:22:59.178647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "dentinogenesis imperfecta"
+      },
+      "queried_at": "2026-03-10T02:23:05.131515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "dentinogenesis imperfecta"
+      },
+      "queried_at": "2026-03-10T02:23:06.298728",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "rectal cloacogenic carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:08.071903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "rectal cloacogenic carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:14.849804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "rectal cloacogenic carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:16.075008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "gallbladder adenosquamous carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:16.891937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "gallbladder adenosquamous carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:21.177983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "gallbladder adenosquamous carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:23.248247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "acantholytic variant squamous cell breast carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:24.023274",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "acantholytic variant squamous cell breast carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:30.555025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "acantholytic variant squamous cell breast carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:32.411644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "adenosquamous breast carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:33.690453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "adenosquamous breast carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:37.882087",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Soybean oil",
+        "disease": "adenosquamous breast carcinoma"
+      },
+      "queried_at": "2026-03-10T02:23:40.896832",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:23:41.121259"
+  }
+}

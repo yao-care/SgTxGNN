@@ -1,0 +1,557 @@
+{
+  "drug": {
+    "inn": "Blinatumomab",
+    "drugbank_id": "DB09052",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9520050883293152,
+        "txgnn_rank": 26246,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04524455",
+            "title": "A Phase 1b Open-label Study Investigating the Safety, Tolerability, Pharmacokinetics, and Efficacy of Administration of Blinatumomab in Combination With AMG 404 for the Treatment of Adults With Relapsed or Refractory B Cell Precursor Acute Lymphoblastic Leukemia (ALL)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2020-10-02",
+            "completion_date": "2023-01-24",
+            "country": "Australia, Spain, France, United Kingdom, Netherlands, Austria, Germany, Italy, United States",
+            "enrollment": 17,
+            "brief_summary": "The primary objective of this phase 1b study is to evaluate the safety and tolerability of blinatumomab and AMG 404 in combination in adults with R/R B-ALL and to estimate the maximum tolerated dose (MTD) and recommended phase 2 dose (RP2D) of AMG 404 when combined with continuous intravenous infusion (cIV) blinatumomab.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Age ≥ 18 years at enrollment.\n* Greater than or equal to 5% blasts in the bone marrow.\n* Eastern Cooperative Oncology Group performance status (ECOG PS) ≤ 2.\n* Negative pregnancy test in women of childbearing potential.\n\nExclusion Criteria\n\n* Cancer chemotherapy (radiotherapy, ",
+            "endpoints": [
+              "Number of Participants Who Experienced Dose-Limiting Toxicities (DLTs)",
+              "Number of Participants Who Experienced Treatment-Emergent AEs (TEAEs)"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT04524455"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03476239",
+            "title": "An Open-label, Multicenter, Phase 3 Study to Evaluate Efficacy and Safety of the BiTE Antibody Blinatumomab in Chinese Adult Subjects With Relapsed/Refractory B-precursor Acute Lymphoblastic Leukemia (ALL)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-10-18",
+            "completion_date": "2021-04-08",
+            "country": "China",
+            "enrollment": 121,
+            "brief_summary": "This study is being done to evaluate the rate of hematological response (complete remission/complete remission with partial hematological recovery \\[CR/CRh\\*\\]) induced by blinatumomab in Chinese adults with relapsed/refractory B-precursor acute lymphoblastic leukemia (ALL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects have provided informed consent/assent prior to initiation of any study-specific activities/procedures or subjects legally acceptable representative has provided informed consent prior to any study-specific activities/procedures being initiated when the subject has any",
+            "endpoints": [
+              "Percentage of Participants With a Hematological Response of Complete Remission (CR) or Complete Remission With Partial Hematological Recovery (CRh*) During the First 2 Treatment Cycles With Blinatumomab"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT03476239"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9502223134040833,
+        "txgnn_rank": 26637,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9413082599639891,
+        "txgnn_rank": 28569,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9270175695419312,
+        "txgnn_rank": 31178,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07227584",
+            "title": "Treatment of Newly Diagnosed Philadelphia Chromosome-Negative Acute Lymphoblastic Leukemia in Adolescents and Young Adults (AYAs)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-04",
+            "completion_date": "2035-07-31",
+            "country": "N/A",
+            "enrollment": 67,
+            "brief_summary": "The goal of this research study is to evaluate a chemotherapy regiment for the treatment of newly diagnosed Philadelphia chromosome-negative acute lymphoblastic leukemia (ALL) in adolescents and young adults (AYAs).\n\nThe names of the study drugs involved in this study are:\n\n* blinatumomab (a type of immunotherapy drug)\n* cyclophosphamide (a type of chemotherapy drug)\n* cytarabine (a type of antineoplastic agent)\n* dexamethasone (a type of synthetic glucocorticoid)\n* doxorubicin (a type of antine",
+            "eligibility_criteria": "Inclusion Criteria:\n\n3.1.1Confirmed diagnosis of Philadelphia chromosome-negative acute lymphoblastic leukemia.\n\n* Diagnosis should be made by peripheral blood, bone marrow aspirate, bone marrow biopsy, or tissue biopsy demonstrating ≥25% involvement by lymphoblasts, with flow cytometry or immunohis",
+            "endpoints": [
+              "Treatment Completion Rate Through Time Point 3 (TP3)"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT07227584"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.8924505710601807,
+        "txgnn_rank": 35565,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "psoriasis",
+        "txgnn_score": 0.8892313838005066,
+        "txgnn_rank": 35867,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ledderhose disease",
+        "txgnn_score": 0.8841254711151123,
+        "txgnn_rank": 36341,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+        "txgnn_score": 0.8787697553634644,
+        "txgnn_rank": 36865,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "penile fibromatosis",
+        "txgnn_score": 0.8779981732368469,
+        "txgnn_rank": 36935,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bleeding diathesis due to a collagen receptor defect",
+        "txgnn_score": 0.8771835565567017,
+        "txgnn_rank": 37008,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09052",
+    "name": "Blinatumomab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Blinatumomab"
+      },
+      "queried_at": "2026-03-10T09:27:20.358998",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Blinatumomab"
+      },
+      "queried_at": "2026-03-10T09:27:22.123150",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T09:27:23.063981",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T09:27:26.819315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T09:27:27.570742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T09:27:28.191435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T09:27:32.293263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T09:27:33.296473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T09:27:34.043040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T09:27:37.368174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T09:27:38.038563",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T09:27:38.672673",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T09:27:42.146203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T09:27:43.060990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:27:43.907871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:27:48.313446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T09:27:49.018523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T09:27:49.492542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T09:27:55.798583",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T09:27:56.491038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T09:27:57.017185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T09:28:00.288044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T09:28:01.039153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T09:28:01.940182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T09:28:05.057913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T09:28:06.759270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T09:28:07.905343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T09:28:11.404183",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T09:28:12.266122",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-10T09:28:12.805347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-10T09:28:15.589135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Blinatumomab",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-10T09:28:16.293879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:28:16.309278"
+  }
+}

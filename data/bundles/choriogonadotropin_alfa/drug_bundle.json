@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Choriogonadotropin alfa",
+    "drugbank_id": "DB00097",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "peptic esophagitis",
+        "txgnn_score": 0.9843697547912598,
+        "txgnn_rank": 14584,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postural orthostatic tachycardia syndrome",
+        "txgnn_score": 0.983319103717804,
+        "txgnn_rank": 15250,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal disease",
+        "txgnn_score": 0.9760937094688416,
+        "txgnn_rank": 18840,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Raynaud disease",
+        "txgnn_score": 0.9742693305015564,
+        "txgnn_rank": 19619,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-syndromic esophageal malformation",
+        "txgnn_score": 0.9689322113990784,
+        "txgnn_rank": 21650,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal ulcer",
+        "txgnn_score": 0.9683994054794312,
+        "txgnn_rank": 21807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "His bundle tachycardia",
+        "txgnn_score": 0.9595428705215454,
+        "txgnn_rank": 24401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinoatrial block",
+        "txgnn_score": 0.958825945854187,
+        "txgnn_rank": 24572,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "progressive familial heart block",
+        "txgnn_score": 0.9565950632095336,
+        "txgnn_rank": 25075,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinoatrial node disease",
+        "txgnn_score": 0.9546509981155396,
+        "txgnn_rank": 25546,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00097",
+    "name": "Choriogonadotropin alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa"
+      },
+      "queried_at": "2026-03-10T07:17:23.978195",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa"
+      },
+      "queried_at": "2026-03-10T07:17:27.726959",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "peptic esophagitis"
+      },
+      "queried_at": "2026-03-10T07:17:28.465624",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "peptic esophagitis"
+      },
+      "queried_at": "2026-03-10T07:17:31.717487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "peptic esophagitis"
+      },
+      "queried_at": "2026-03-10T07:17:32.471692",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T07:17:33.066751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T07:17:36.223462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T07:17:37.082985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T07:17:37.617606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T07:17:40.870578",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "esophageal disease"
+      },
+      "queried_at": "2026-03-10T07:17:41.895998",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-10T07:17:42.462144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-10T07:17:46.252729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "Raynaud disease"
+      },
+      "queried_at": "2026-03-10T07:17:48.869312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:17:49.963766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:17:53.763948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "queried_at": "2026-03-10T07:17:54.578615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "esophageal ulcer"
+      },
+      "queried_at": "2026-03-10T07:17:55.096961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "esophageal ulcer"
+      },
+      "queried_at": "2026-03-10T07:17:58.245625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "esophageal ulcer"
+      },
+      "queried_at": "2026-03-10T07:17:59.296580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "His bundle tachycardia"
+      },
+      "queried_at": "2026-03-10T07:17:59.927170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "His bundle tachycardia"
+      },
+      "queried_at": "2026-03-10T07:18:03.164721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "His bundle tachycardia"
+      },
+      "queried_at": "2026-03-10T07:18:03.862879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-10T07:18:04.341552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-10T07:18:07.866384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "sinoatrial block"
+      },
+      "queried_at": "2026-03-10T07:18:08.537988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "progressive familial heart block"
+      },
+      "queried_at": "2026-03-10T07:18:09.165742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "progressive familial heart block"
+      },
+      "queried_at": "2026-03-10T07:18:12.348582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "progressive familial heart block"
+      },
+      "queried_at": "2026-03-10T07:18:13.164764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-10T07:18:13.780244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-10T07:18:16.567753",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Choriogonadotropin alfa",
+        "disease": "sinoatrial node disease"
+      },
+      "queried_at": "2026-03-10T07:18:17.271551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:18:17.279781"
+  }
+}

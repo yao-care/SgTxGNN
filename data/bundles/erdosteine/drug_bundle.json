@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Erdosteine",
+    "drugbank_id": "DB05057",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "marcothrombocytopenia with mitral valve insufficiency",
+        "txgnn_score": 0.8475334644317627,
+        "txgnn_rank": 39372,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary thrombocytopenia with normal platelets",
+        "txgnn_score": 0.8475068211555481,
+        "txgnn_rank": 39375,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombocytopenia",
+        "txgnn_score": 0.8451531529426575,
+        "txgnn_rank": 39541,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dense granule disease",
+        "txgnn_score": 0.8417694568634033,
+        "txgnn_rank": 39746,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "transient neonatal thrombocytopenia",
+        "txgnn_score": 0.8374578356742859,
+        "txgnn_rank": 40000,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "platelet storage pool deficiency",
+        "txgnn_score": 0.7723965644836426,
+        "txgnn_rank": 43023,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ledderhose disease",
+        "txgnn_score": 0.7598689198493958,
+        "txgnn_rank": 43455,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "penile fibromatosis",
+        "txgnn_score": 0.7561966180801392,
+        "txgnn_rank": 43627,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "respiratory syncytial virus infectious disease",
+        "txgnn_score": 0.7495317459106445,
+        "txgnn_rank": 43815,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infantile digital fibromatosis",
+        "txgnn_score": 0.7443421483039856,
+        "txgnn_rank": 43964,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB05057",
+    "name": "Erdosteine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Erdosteine"
+      },
+      "queried_at": "2026-03-10T10:30:10.991368",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Erdosteine"
+      },
+      "queried_at": "2026-03-10T10:30:12.851014",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T10:30:13.394559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T10:30:16.291565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T10:30:17.388084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T10:30:17.972294",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T10:30:21.539040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T10:30:22.218719",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T10:30:22.738496",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T10:30:27.624450",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T10:30:28.319101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "dense granule disease"
+      },
+      "queried_at": "2026-03-10T10:30:28.850819",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "dense granule disease"
+      },
+      "queried_at": "2026-03-10T10:30:32.845248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "dense granule disease"
+      },
+      "queried_at": "2026-03-10T10:30:33.588449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "transient neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T10:30:34.188150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "transient neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T10:30:38.546663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "transient neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T10:30:41.504000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "platelet storage pool deficiency"
+      },
+      "queried_at": "2026-03-10T10:30:42.118198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "platelet storage pool deficiency"
+      },
+      "queried_at": "2026-03-10T10:30:46.063739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "platelet storage pool deficiency"
+      },
+      "queried_at": "2026-03-10T10:30:46.793444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T10:30:47.343995",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T10:30:50.746058",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "Ledderhose disease"
+      },
+      "queried_at": "2026-03-10T10:30:51.423907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T10:30:52.316942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T10:30:56.356261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "penile fibromatosis"
+      },
+      "queried_at": "2026-03-10T10:30:57.647363",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "respiratory syncytial virus infectious disease"
+      },
+      "queried_at": "2026-03-10T10:30:58.216775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "respiratory syncytial virus infectious disease"
+      },
+      "queried_at": "2026-03-10T10:31:01.900538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "respiratory syncytial virus infectious disease"
+      },
+      "queried_at": "2026-03-10T10:31:03.469186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "infantile digital fibromatosis"
+      },
+      "queried_at": "2026-03-10T10:31:04.197140",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "infantile digital fibromatosis"
+      },
+      "queried_at": "2026-03-10T10:31:07.466339",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdosteine",
+        "disease": "infantile digital fibromatosis"
+      },
+      "queried_at": "2026-03-10T10:31:08.260564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:31:08.280993"
+  }
+}

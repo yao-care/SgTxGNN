@@ -1,0 +1,1032 @@
+{
+  "drug": {
+    "inn": "Eculizumab",
+    "drugbank_id": "DB01257",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cyclic hematopoiesis",
+        "txgnn_score": 0.9996858835220336,
+        "txgnn_rank": 835,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency",
+        "txgnn_score": 0.999619483947754,
+        "txgnn_rank": 965,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "X-linked severe congenital neutropenia",
+        "txgnn_score": 0.9996010661125184,
+        "txgnn_rank": 998,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital neutropenia-myelofibrosis-nephromegaly syndrome",
+        "txgnn_score": 0.9995818734169006,
+        "txgnn_rank": 1018,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38152089",
+            "title": "Guideline for the management of myasthenic syndromes.",
+            "abstract": "Myasthenia gravis (MG), Lambert-Eaton myasthenic syndrome (LEMS), and congenital myasthenic syndromes (CMS) represent an etiologically heterogeneous group of (very) rare chronic diseases. MG and LEMS have an autoimmune-mediated etiology, while CMS are genetic disorders. A (strain dependent) muscle weakness due to neuromuscular transmission disorder is a common feature. Generalized MG requires increasingly differentiated therapeutic strategies that consider the enormous therapeutic developments of recent years. To include the newest therapy recommendations, a comprehensive update of the available German-language guideline 'Diagnostics and therapy of myasthenic syndromes' has been published by the German Neurological society with the aid of an interdisciplinary expert panel. This paper is an adapted translation of the updated and partly newly developed treatment guideline. It defines the rapid achievement of complete disease control in myasthenic patients as a central treatment goal. The",
+            "journal": "Therapeutic advances in neurological disorders",
+            "year": "2023",
+            "authors": [
+              "Wiendl Heinz",
+              "Abicht Angela",
+              "Chan Andrew",
+              "Della Marina Adela",
+              "Hagenacker Tim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38152089/"
+          },
+          {
+            "pmid": "25237200",
+            "title": "Paroxysmal nocturnal hemoglobinuria.",
+            "abstract": "Paroxysmal nocturnal hemoglobinuria (PNH) is a rare bone marrow failure disorder that manifests with hemolytic anemia, thrombosis, and peripheral blood cytopenias. The absence of two glycosylphosphatidylinositol (GPI)-anchored proteins, CD55 and CD59, leads to uncontrolled complement activation that accounts for hemolysis and other PNH manifestations. GPI anchor protein deficiency is almost always due to somatic mutations in phosphatidylinositol glycan class A (PIGA), a gene involved in the first step of GPI anchor biosynthesis; however, alternative mutations that cause PNH have recently been discovered. In addition, hypomorphic germ-line PIGA mutations that do not cause PNH have been shown to be responsible for a condition known as multiple congenital anomalies-hypotonia-seizures syndrome 2. Eculizumab, a first-in-class monoclonal antibody that inhibits terminal complement, is the treatment of choice for patients with severe manifestations of PNH. Bone marrow transplantation remains t",
+            "journal": "Blood",
+            "year": "2014",
+            "authors": [
+              "Brodsky Robert A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bone Marrow Transplantation",
+              "Glycosylphosphatidylinositols",
+              "Hemoglobinuria, Paroxysmal",
+              "Humans",
+              "Monitoring, Physiologic",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25237200/"
+          },
+          {
+            "pmid": "24360024",
+            "title": "Thrombotic microangiopathies.",
+            "abstract": "To review the clinical features and pathophysiologic mechanisms of the thrombotic microangiopathies (TMAs) including acquired and congenital thrombotic thrombocytopenic purpura (TTP), Shiga toxin-induced and atypical (non-Shiga toxin-induced) hemolytic uremic syndrome (HUS), and the TMAs associated with pregnancy, drugs, and organ transplantation.",
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2014",
+            "authors": [
+              "Rosove Michael H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "ADAM Proteins",
+              "ADAMTS13 Protein",
+              "Antibodies, Monoclonal, Humanized",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Hemolytic-Uremic Syndrome",
+              "Humans",
+              "Purpura, Thrombotic Thrombocytopenic",
+              "Shiga Toxin",
+              "Thrombotic Microangiopathies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24360024/"
+          },
+          {
+            "pmid": "28622911",
+            "title": "Demyelination, strokes, and eculizumab: Lessons from the congenital CD59 gene mutations.",
+            "abstract": "Neurological symptoms of patients with p.Cys89Tyr mutation in the CD59 gene include recurrent peripheral neuropathy resembling Guillain-Barré syndrome, characterized by sensory-motor demyelinating neuropathy with secondary axonal damage and moderate enhancement of the nerve roots on spine MRI, together with recurrent strokes and retinal involvement. Three additional mutations in CD59, leading to loss of function, have been described, and overall, 12/12 (100%) of patients with any mutation presented with neurological symptoms; 11/12 (92%) patients presented with recurrent peripheral neuropathy, 6/12 (50%) with recurrent strokes, and 1/12 (8%) with retinal involvement. We review the possible thrombophilic profile associated with the mutations. In these patients, excessive intravascular hemolysis saturates scavenger mechanisms resulting in free hemoglobin in plasma that irreversibly reacts with nitric oxide to form nitrate and methemoglobin, leading to arterial thrombosis. CD59 loss of fu",
+            "journal": "Molecular immunology",
+            "year": "2017",
+            "authors": [
+              "Tabib Adi",
+              "Karbian Netanel",
+              "Mevorach Dror"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "CD59 Antigens",
+              "Complement Activation",
+              "Complement Inactivating Agents",
+              "Demyelinating Diseases",
+              "Humans",
+              "Mutation",
+              "Stroke",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28622911/"
+          },
+          {
+            "pmid": "31794470",
+            "title": "Myasthenia Gravis and Congenital Myasthenic Syndromes.",
+            "abstract": "Myasthenia gravis (MG) is an autoimmune neuromuscular disease that causes fluctuating weakness in ocular, bulbar, and limb muscles and can, in 15% of cases, cause myasthenic crisis, a neurologic emergency characterized by respiratory failure. Although infrequent, MG needs to be promptly recognized and treated because the potential for improvement and remission is very high. The diagnosis of MG can be challenging and delayed because of the fluctuating nature of muscle weakness and the overlap of signs and symptoms with other neuromuscular diseases.This article reviews the importance of prompt recognition of the typical signs and symptoms, best tests to confirm the diagnosis, currently available acute and chronic treatment modalities, the role of thymectomy, and the natural history of the disease. Special consideration related to the diagnosis and management in women during pregnancy and in children will also be reviewed. This article also includes an overview of congenital myasthenic sy",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2019",
+            "authors": [
+              "Ciafaloni Emma"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Female",
+              "Humans",
+              "Myasthenia Gravis",
+              "Myasthenic Syndromes, Congenital",
+              "Pregnancy",
+              "Pregnancy Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31794470/"
+          },
+          {
+            "pmid": "35662172",
+            "title": "[The frontline of TMA management].",
+            "abstract": "Thrombotic microangiopathy (TMA) is a pathological condition characterized by platelet thrombi-induced generalized microvascular occlusion, thrombocytopenia, and microangiopathic hemolytic anemia. TMA includes the life-threatening diseases thrombotic thrombocytopenic purpura (TTP) and hemolytic-uremic syndrome (HUS). TTP is different from HUS in that it has a severe deficiency in ADAMTS13 activity. Congenital TTP is caused by a lack of plasma ADAMTS13 activity caused by genetic mutations, and acquired TTP is caused by a secondary deficiency caused by autoantibodies. In Japan the only product approved for the treatment of congenital TTP is fresh frozen plasma containing ADAMTS13. Recombinant ADAMTS13 may provide a new treatment option for congenital TTP. The first-line treatment for acquired TTP is plasma exchange. Rituximab treatment should be considered for patients who are refractory or have relapsed. Caplacizumab is a nanobody that specifically targets von Willebrand factor. ISTH re",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2022",
+            "authors": [
+              "Saito Kenki",
+              "Matsumoto Masanori"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ADAMTS13 Protein",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Humans",
+              "Plasma Exchange",
+              "Purpura, Thrombotic Thrombocytopenic",
+              "Thrombotic Microangiopathies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35662172/"
+          },
+          {
+            "pmid": "23945282",
+            "title": "Myasthenia gravis and the neuromuscular junction.",
+            "abstract": "Myasthenic disorders are a well characterized group of diseases of the neuromuscular junction. Their pathogenesis is diverse, including genetic and autoimmune mechanisms. We review recent findings on risk factors, pathogenesis and treatment of autoimmune myasthenia gravis.",
+            "journal": "Current opinion in neurology",
+            "year": "2013",
+            "authors": [
+              "Querol Luis",
+              "Illa Isabel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autoantibodies",
+              "Humans",
+              "Myasthenia Gravis",
+              "Myasthenic Syndromes, Congenital",
+              "Neuromuscular Junction",
+              "Receptors, Cholinergic",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23945282/"
+          },
+          {
+            "pmid": "27648610",
+            "title": "Thrombotic Thrombocytopenic Purpura and Atypical Hemolytic Uremic Syndrome Microangiopathy in Pregnancy.",
+            "abstract": "Thrombotic thrombocytopenic purpura (TTP) and atypical hemolytic uremic syndrome (aHUS) are thrombotic microangiopathies (TMAs) that can present in pregnancy. The presentation can be with typical microangiopathic features and thrombocytopenia, but there is also a significant risk of in-utero fetal loss. TTP presents most commonly in the third trimester and aHUS in the postpartum period. On presumptive diagnosis, plasma exchange should be started and ADAMTS13 (a disintegrin and metalloproteinase with a thrombospondin type 1 motif, member 13) activity measured. An activity of < 10% is in keeping with TTP, which may be late-onset congenital TTP or acquired disease: the former will require regular plasma therapy and the latter immunosuppression. In aHUS, eculizumab is the therapy of choice. In future pregnancies, follow-up with a multidisciplinary team including fetomaternal and specialist obstetrics should be undertaken.",
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2016",
+            "authors": [
+              "Scully Marie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "ADAMTS13 Protein",
+              "Anemia, Hemolytic",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Female",
+              "Humans",
+              "Plasma Exchange",
+              "Pregnancy",
+              "Pregnancy Complications, Hematologic",
+              "Purpura, Thrombotic Thrombocytopenic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27648610/"
+          },
+          {
+            "pmid": "27158062",
+            "title": "Pregnancy-related thrombotic microangiopathies: Clues from complement biology.",
+            "abstract": "Pregnancy is a high-risk period for various types of thrombotic microangiopathies (TMA). The improvement of our understanding of the pathophysiology of TMAs has translated into better management of pregnancy-related TMAs. The two main types of TMA, TTP (thrombotic thrombocytopenic purpura) and hemolytic uremic syndrome (HUS), can both occur during pregnancy and postpartum. TTP is related in most cases to acquired or congenital deficiency of ADAMTS13; it tends to develop mainly during the second and third trimesters of pregnancy. The treatment of pregnancy-TTP aims to restore a detectable ADAMTS13 activity through plasma therapy, and if needed, to induce or sustain remission, immunosuppressive agents. In contrast, HUS develops mainly in the postpartum period. Accumulating data indicate that pregnancy-HUS is an atypical, i.e., complement-mediated HUS, triggered by pregnancy. Its treatment therefore should include the use of the anti-C5 humanized monoclonal antibody eculizumab. In other T",
+            "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+            "year": "2016",
+            "authors": [
+              "Fakhouri Fadi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Emtricitabine, Rilpivirine, Tenofovir Drug Combination",
+              "Female",
+              "Hemolytic-Uremic Syndrome",
+              "Humans",
+              "Pregnancy",
+              "Pregnancy Complications, Hematologic",
+              "Purpura, Thrombotic Thrombocytopenic",
+              "Thrombotic Microangiopathies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27158062/"
+          },
+          {
+            "pmid": "19179329",
+            "title": "Eculizumab for congenital atypical hemolytic-uremic syndrome.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2009",
+            "authors": [
+              "Gruppo Ralph A",
+              "Rother Russell P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Complement C5",
+              "Hemolytic-Uremic Syndrome",
+              "Humans",
+              "Immunologic Factors",
+              "Infant",
+              "Male",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19179329/"
+          },
+          {
+            "pmid": "39543505",
+            "title": "Treatment discontinuation in adults with atypical hemolytic uremic syndrome (aHUS): a qualitative study of international experts' perspectives with associated cost-consequence analysis.",
+            "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a rare, life-threatening thrombotic microangiopathy (TMA) related to congenital mutations impeding control of the alternative pathway of complement. Following approval of the complement C5 inhibitor eculizumab by the European Medicines Agency and the US Food and Drug Administration, initial guidelines suggested lifelong therapy. Yet, growing evidence indicates that discontinuation of eculizumab, or its long-acting form ravulizumab, is possible for many patients. This mixed-methods study sought to explore international experts' perspectives and experiences related to treatment duration in adult patients with aHUS, while also estimating the financial and potential health consequences of early discontinuation.",
+            "journal": "BMC nephrology",
+            "year": "2024",
+            "authors": [
+              "Germeni Evi",
+              "Cooper Jacie",
+              "Briggs Andrew",
+              "Laurence Jeffrey"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Qualitative Research",
+              "Withholding Treatment",
+              "Antibodies, Monoclonal, Humanized",
+              "Adult",
+              "Male",
+              "Female",
+              "Complement Inactivating Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39543505/"
+          },
+          {
+            "pmid": "37063764",
+            "title": "Etiology and outcomes: Thrombotic microangiopathies in pregnancy.",
+            "abstract": "A State of the Art lecture titled \"Etiology and Outcomes of Thrombotic Microangiopathies in Pregnancy\" was presented at the International Society on Thrombosis and Haemostasis Congress in 2022. First, it is important to understand changes in laboratory parameters in normal pregnancy, including complement levels, specifically the increase in C3, C4, C3a, and C4a throughout pregnancy. Complement is critical in normal pregnancy for implantation and for placental development. Complement-mediated hemolytic uremic syndrome (CM-HUS) and thrombotic thrombocytopenic purpura (TTP) can present anytime from the first trimester to the postpartum period. In comparison, Thrombotic microangiopathies specific to pregnancy, such as preeclampsia (PET) or hemolysis, elevated liver enzymes, and low platelets (HELLP), present from the second trimester. C5b-9 deposition (following terminal complement pathway activation) is demonstrated in CM-HUS cases, and in HELLP and few PET cases. PET can also be confirme",
+            "journal": "Research and practice in thrombosis and haemostasis",
+            "year": "2023",
+            "authors": [
+              "Scully Marie",
+              "Neave Lucy"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37063764/"
+          },
+          {
+            "pmid": "36995386",
+            "title": "[Myasthenia in adults, children, and adolescents: what's new?].",
+            "abstract": "Therapy of myasthenia gravis (MG) is increasingly oriented to the patient's antibody status. In addition to symptomatic therapy, steroids, classic long-term immunosuppressive therapies and thymectomy are regularly used. In recent years, new therapeutic approaches have been developed that particularly benefit acetylcholine receptor (AChR) antibody (Abs) positive patients with highly active disease. While the C5 complement inhibitor eculizumab was reserved for treatment-refractory generalized courses of AChR-Abs positive MG, two new drugs, the neonatal Fc receptor inhibitor efgartigimod and the more advanced C5 complement inhibitor ravulizumab, have recently been approved as add-on therapy for AChR-Abs positive generalized MG (gMG). In highly active courses of MG with Abs against the muscle-specific receptor tyrosine kinase (MuSK), the use of rituximab should be considered early in the course of the disease. The efficacy of the new drugs in children and adolescents with juvenile MG (JMG)",
+            "journal": "Der Nervenarzt",
+            "year": "2023",
+            "authors": [
+              "Stascheit Frauke",
+              "Della Marina Adela",
+              "Meisel Andreas"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Infant, Newborn",
+              "Humans",
+              "Child",
+              "Adult",
+              "Adolescent",
+              "Quality of Life",
+              "Myasthenia Gravis",
+              "Receptors, Cholinergic",
+              "Autoantibodies",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36995386/"
+          },
+          {
+            "pmid": "37216524",
+            "title": "Germline C1GALT1C1 mutation causes a multisystem chaperonopathy.",
+            "abstract": "Mutations in genes encoding molecular chaperones can lead to chaperonopathies, but none have so far been identified causing congenital disorders of glycosylation. Here we identified two maternal half-brothers with a novel chaperonopathy, causing impaired protein O-glycosylation. The patients have a decreased activity of T-synthase (C1GALT1), an enzyme that exclusively synthesizes the T-antigen, a ubiquitous O-glycan core structure and precursor for all extended O-glycans. The T-synthase function is dependent on its specific molecular chaperone Cosmc, which is encoded by X-chromosomal C1GALT1C1. Both patients carry the hemizygous variant c.59C>A (p.Ala20Asp; A20D-Cosmc) in C1GALT1C1. They exhibit developmental delay, immunodeficiency, short stature, thrombocytopenia, and acute kidney injury (AKI) resembling atypical hemolytic uremic syndrome. Their heterozygous mother and maternal grandmother show an attenuated phenotype with skewed X-inactivation in blood. AKI in the male patients prov",
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2023",
+            "authors": [
+              "Erger Florian",
+              "Aryal Rajindra P",
+              "Reusch Björn",
+              "Matsumoto Yasuyuki",
+              "Meyer Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Molecular Chaperones",
+              "Mutation",
+              "Acute Kidney Injury",
+              "Polysaccharides",
+              "Germ Cells",
+              "Immunoglobulin A"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37216524/"
+          },
+          {
+            "pmid": "28058212",
+            "title": "Complement related kidney diseases: Recurrence after transplantation.",
+            "abstract": "The recurrence of renal disease after renal transplantation is becoming one of the main causes of graft loss after kidney transplantation. This principally concerns some of the original diseases as the atypical hemolytic uremic syndrome (HUS), the membranoproliferative glomerulonephritis (MPGN), in particular the MPGN now called C3 glomerulopathy. Both this groups of renal diseases are characterized by congenital (genetic) or acquired (auto-antibodies) modifications of the alternative pathway of complement. These abnormalities often remain after transplantation because they are constitutional and poorly influenced by the immunosuppression. This fact justifies the high recurrence rate of these diseases. Early diagnosis of recurrence is essential for an optimal therapeutically approach, whenever possible. Patients affected by end stage renal disease due to C3 glomerulopathies or to atypical HUS, may be transplanted with extreme caution. Living donor donation from relatives is not recomme",
+            "journal": "World journal of transplantation",
+            "year": "2016",
+            "authors": [
+              "Salvadori Maurizio",
+              "Bertoni Elisabetta"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28058212/"
+          },
+          {
+            "pmid": "22284541",
+            "title": "Management of hemolytic uremic syndrome.",
+            "abstract": "2011 has been a special year for hemolytic uremic syndrome (HUS): on the one hand, the dramatic epidemic of Shiga toxin producing E. coli -associated HUS in Germany brought the disease to the attention of the general population, on the other hand it has been the year when eculizumab, the first complement blocker available for clinical practice, was demonstrated as the potential new standard of care for atypical HUS. Here we review the therapeutic options presently available for the various forms of hemolytic uremic syndrome and show how recent knowledge has changed the therapeutic approach and prognosis of atypical HUS.",
+            "journal": "Presse medicale (Paris, France : 1983)",
+            "year": "2012",
+            "authors": [
+              "Loirat Chantal",
+              "Saland Jeffrey",
+              "Bitzan Martin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Algorithms",
+              "Amino Acid Metabolism, Inborn Errors",
+              "Anti-Inflammatory Agents",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Blood Volume",
+              "Child",
+              "Diuretics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22284541/"
+          },
+          {
+            "pmid": "29558000",
+            "title": "Hemolytic uremic syndrome with dual caution in an infant: cobalamin C defect and complement dysregulation successfully treated with eculizumab.",
+            "abstract": "Hemolytic uremic syndrome (HUS) is a clinical syndrome characterized by hemolytic anemia, thrombocytopenia, and acute kidney injury. Atypical hemolytic uremic syndrome (aHUS) is a devastating disease with significant mortality and high risk of progression to end-stage kidney disease. It is mostly caused by dysregulation of the alternative complement pathway. Cobalamin C (Cbl C) defect is a genetic disorder of cobalamin metabolism and is a rare cause of HUS.",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2018",
+            "authors": [
+              "Barlas Ulkem Kocoglu",
+              "Kıhtır Hasan Serdar",
+              "Goknar Nilufer",
+              "Ersoy Melike",
+              "Akcay Nihal"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Complement C3",
+              "Complement Factor H",
+              "Homocystinuria",
+              "Humans",
+              "Infant",
+              "Kidney",
+              "Male",
+              "Plasma Exchange"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29558000/"
+          },
+          {
+            "pmid": "19439754",
+            "title": "More on eculizumab for congenital atypical hemolytic-uremic syndrome.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2009",
+            "authors": [
+              "Shin Jae Il",
+              "Lee Jae Seung"
+            ],
+            "pub_types": [
+              "Comment",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Complement C5",
+              "Hemolytic-Uremic Syndrome",
+              "Humans",
+              "Immunologic Factors",
+              "Infant",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19439754/"
+          },
+          {
+            "pmid": "38254639",
+            "title": "The Role of the Complement System in the Pathogenesis of Infectious Forms of Hemolytic Uremic Syndrome.",
+            "abstract": "Hemolytic uremic syndrome (HUS) is an acute disease and the most common cause of childhood acute renal failure. HUS is characterized by a triad of symptoms: microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury. In most of the cases, HUS occurs as a result of infection caused by Shiga toxin-producing microbes: hemorrhagic Escherichia coli and Shigella dysenteriae type 1. They account for up to 90% of all cases of HUS. The remaining 10% of cases grouped under the general term atypical HUS represent a heterogeneous group of diseases with similar clinical signs. Emerging evidence suggests that in addition to E. coli and S. dysenteriae type 1, a variety of bacterial and viral infections can cause the development of HUS. In particular, infectious diseases act as the main cause of aHUS recurrence. The pathogenesis of most cases of atypical HUS is based on congenital or acquired defects of complement system. This review presents summarized data from recent studies, sugg",
+            "journal": "Biomolecules",
+            "year": "2023",
+            "authors": [
+              "Avdonin Piotr P",
+              "Blinova Maria S",
+              "Generalova Galina A",
+              "Emirova Khadizha M",
+              "Avdonin Pavel V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Escherichia coli",
+              "Atypical Hemolytic Uremic Syndrome",
+              "Acute Kidney Injury",
+              "Complement System Proteins",
+              "Virus Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38254639/"
+          },
+          {
+            "pmid": "25319590",
+            "title": "Atypical Hemolytic Uremic Syndrome: Differential Diagnosis from TTP/HUS and Management.",
+            "abstract": "Atypical hemolytic uremic syndrome (aHUS) is a rare form of thrombotic microangiopathy (TMA). It has an unfavorable outcome with death rates as high as 25% during the acute phase and up to 50% of cases progressing to end-stage renal failure. Uncontrolled complement activation through the alternative pathway is thought to be the main underlying pathopysiology of aHUS and corresponds to all the deleterious findings of the disease. Thrombotic thrombocytopenic purpura (TTP) and Shiga toxin-associated HUS are the 2 other important TMA diseases. Although differentiating HUS from TTP is relatively easy in children with a preceding diarrheal illness or invasive S. pneumoniae, differentiating aHUS from TTP or other microangiopathic disorders can present a major diagnostic challenge in adults. ADAMTS13 analysis is currently the most informative diagnostic test for differentiating TTP, congenital TTP, and aHUS. Today empiric plasma therapy still is recommended by expert opinion to be used as earl",
+            "journal": "Turkish journal of haematology : official journal of Turkish Society of Haematology",
+            "year": "2014",
+            "authors": [
+              "Yenerel Mustafa N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25319590/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adult idiopathic neutropenia",
+        "txgnn_score": 0.9995697140693665,
+        "txgnn_rank": 1039,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency",
+        "txgnn_score": 0.9995675683021544,
+        "txgnn_rank": 1045,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary immunodeficiency syndrome due to p14 deficiency",
+        "txgnn_score": 0.9995123147964478,
+        "txgnn_rank": 1129,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive severe congenital neutropenia due to CSF3R deficiency",
+        "txgnn_score": 0.9994812607765198,
+        "txgnn_rank": 1182,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe congenital neutropenia",
+        "txgnn_score": 0.9994745850563048,
+        "txgnn_rank": 1190,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9994487166404724,
+        "txgnn_rank": 1233,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "23271156",
+            "title": "Clinical roundtable monograph: Paroxysmal nocturnal hemoglobinuria: a case-based discussion.",
+            "abstract": "Paroxysmal nocturnal hemoglobinuria (PNH) is a rare, acquired disorder characterized by chronic intravascular hemolysis as the primary clinical manifestation and morbidities that include anemia, thrombosis, renal impairment, pulmonary hypertension, and bone marrow failure. The prevalence of the PNH clone (from <1-100% PNH granulocytes) is approximately 16 per million, and careful monitoring is required. The average age of onset of the clinical disease is the early 30s, although it can present at all ages. PNH is caused by the acquisition of a somatic mutation of the gene phosphatidylinositol glycan anchor (PIG-A) in a multipotent hematopoietic stem cell (HSC), with clonal expansion of the mutated HSC. The mutation causes a deficiency in the synthesis of glycosylphosphatidylinositol (GPI). In cells derived from normal HSCs, the complement regulatory proteins CD55 and CD59 are anchored to the hematopoietic cell membrane surface via GPI, protecting the cells from complement-mediated lysis",
+            "journal": "Clinical advances in hematology & oncology : H&O",
+            "year": "2012",
+            "authors": [
+              "Szer Jeff",
+              "Hill Anita",
+              "Weitz Ilene Ceil"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Blood Transfusion",
+              "Female",
+              "Fibrin Fibrinogen Degradation Products",
+              "Hemoglobinuria, Paroxysmal",
+              "Humans",
+              "Male",
+              "Randomized Controlled Trials as Topic",
+              "Thrombosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23271156/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01257",
+    "name": "Eculizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Eculizumab"
+      },
+      "queried_at": "2026-03-09T12:04:58.450385",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Eculizumab"
+      },
+      "queried_at": "2026-03-09T12:05:05.489052",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "cyclic hematopoiesis"
+      },
+      "queried_at": "2026-03-09T12:05:07.681989",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "cyclic hematopoiesis"
+      },
+      "queried_at": "2026-03-09T12:05:12.163590",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "cyclic hematopoiesis"
+      },
+      "queried_at": "2026-03-09T12:05:13.513790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency"
+      },
+      "queried_at": "2026-03-09T12:05:14.678796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency"
+      },
+      "queried_at": "2026-03-09T12:05:19.867038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency"
+      },
+      "queried_at": "2026-03-09T12:05:20.823548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "X-linked severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T12:05:21.696132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "X-linked severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T12:05:26.191579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "X-linked severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T12:05:27.736177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "congenital neutropenia-myelofibrosis-nephromegaly syndrome"
+      },
+      "queried_at": "2026-03-09T12:05:28.562961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "congenital neutropenia-myelofibrosis-nephromegaly syndrome"
+      },
+      "queried_at": "2026-03-09T12:05:34.954462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "congenital neutropenia-myelofibrosis-nephromegaly syndrome"
+      },
+      "queried_at": "2026-03-09T12:05:44.743082",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "adult idiopathic neutropenia"
+      },
+      "queried_at": "2026-03-09T12:05:46.021056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "adult idiopathic neutropenia"
+      },
+      "queried_at": "2026-03-09T12:05:51.920803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "adult idiopathic neutropenia"
+      },
+      "queried_at": "2026-03-09T12:05:53.432970",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+      },
+      "queried_at": "2026-03-09T12:05:54.649061",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+      },
+      "queried_at": "2026-03-09T12:05:58.682194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:00.163864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:01.075374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:05.349299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "primary immunodeficiency syndrome due to p14 deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:06.424449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CSF3R deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:07.665403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CSF3R deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:14.042881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "autosomal recessive severe congenital neutropenia due to CSF3R deficiency"
+      },
+      "queried_at": "2026-03-09T12:06:15.646681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T12:06:17.129423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T12:06:21.669000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "severe congenital neutropenia"
+      },
+      "queried_at": "2026-03-09T12:06:22.376840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T12:06:23.198283",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T12:06:28.781032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Eculizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T12:06:33.428684",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:06:33.443390"
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "drug": {
+    "inn": "Idarucizumab",
+    "drugbank_id": "DB09264",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.9566152691841124,
+        "txgnn_rank": 25069,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9552131295204164,
+        "txgnn_rank": 25411,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "partial deletion of the short arm of chromosome 16",
+        "txgnn_score": 0.949982225894928,
+        "txgnn_rank": 26702,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "beta-thalassemia with other manifestations",
+        "txgnn_score": 0.9498183727264404,
+        "txgnn_rank": 26742,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyruvate kinase deficiency of red cells",
+        "txgnn_score": 0.9481520056724548,
+        "txgnn_rank": 27118,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemolytic anemia due to glucophosphate isomerase deficiency",
+        "txgnn_score": 0.9455804228782654,
+        "txgnn_rank": 27692,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyropoikilocytosis, hereditary",
+        "txgnn_score": 0.9426496624946594,
+        "txgnn_rank": 28303,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.9408999085426332,
+        "txgnn_rank": 28649,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9374667406082152,
+        "txgnn_rank": 29252,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31381100",
+            "title": "Reversal of dabigatran requiring hemodialysis, fresh frozen plasma, and 2 doses of idarucizumab in a patient with acute kidney injury.",
+            "abstract": "A case report of dabigatran-associated coagulopathy that lasted for about 1 week after drug discontinuation despite use of several treatment measures is presented.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2019",
+            "authors": [
+              "Sheikh-Taha Marwan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Aged",
+              "Antibodies, Monoclonal, Humanized",
+              "Anticoagulants",
+              "Blood Coagulation",
+              "Blood Coagulation Tests",
+              "Dabigatran",
+              "Hemorrhage",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31381100/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.936189830303192,
+        "txgnn_rank": 29515,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09264",
+    "name": "Idarucizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Idarucizumab"
+      },
+      "queried_at": "2026-03-10T09:22:40.655797",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Idarucizumab"
+      },
+      "queried_at": "2026-03-10T09:23:14.241112",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T09:23:14.992743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T09:23:18.682678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T09:23:20.971246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T09:23:21.634536",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T09:23:25.279854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T09:23:26.170419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T09:23:26.876285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T09:23:30.686495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T09:23:32.121092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T09:23:33.044060",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T09:23:36.837360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T09:23:38.060398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T09:23:38.814273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T09:23:42.465366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "queried_at": "2026-03-10T09:23:43.817704",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "queried_at": "2026-03-10T09:23:45.117766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "queried_at": "2026-03-10T09:23:49.570442",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "queried_at": "2026-03-10T09:23:50.470476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "queried_at": "2026-03-10T09:23:51.134956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "queried_at": "2026-03-10T09:23:54.615880",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "queried_at": "2026-03-10T09:23:55.334050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T09:23:56.170112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T09:24:00.904803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T09:24:01.625724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T09:24:02.537669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T09:24:07.483360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T09:24:09.689621",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T09:24:10.334564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T09:24:14.230703",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarucizumab",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T09:24:15.260154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:24:15.270332"
+  }
+}

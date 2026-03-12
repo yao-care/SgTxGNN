@@ -1,0 +1,1354 @@
+{
+  "drug": {
+    "inn": "Rocuronium",
+    "drugbank_id": "DB00728",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9989633560180664,
+        "txgnn_rank": 2055,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01431326",
+            "title": "Pharmacokinetics of Understudied Drugs Administered to Children Per Standard of Care",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-11",
+            "completion_date": "2019-11",
+            "country": "United Kingdom, Canada, Israel, United States, Singapore",
+            "enrollment": 3520,
+            "brief_summary": "Understudied drugs will be administered to children per standard of care as prescribed by their treating caregiver and only biological sample collection during the time of drug administration will be involved. A total of approximately 7000 children aged \\<21 years who are receiving these drugs for standard of care will be enrolled and will be followed for up a maximum of 90 days. The goal of this study is to characterize the pharmacokinetics of understudied drugs for which specific dosing recomm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\) Children (\\< 21 years of age) who are receiving understudied drugs of interest per standard of care as prescribed by their treating caregiver\n\nExclusion Criteria:\n\n* 1\\) Failure to obtain consent/assent (as indicated)\n* 2\\) Known pregnancy as determined via interview or te",
+            "endpoints": [
+              "Composite of pharmacokinetic outcomes for understudied drugs in children"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT01431326"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.998623251914978,
+        "txgnn_rank": 2580,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9966082572937012,
+        "txgnn_rank": 5005,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with or without aura, susceptibility to",
+        "txgnn_score": 0.9965665340423584,
+        "txgnn_rank": 5048,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phylogenetically different animals - from worms to monkeys. Our attention has been dedicated mainly to rodents.In clinical practice, developmental aspects of epilepsy often differ from those in adults. Animal models have often helped to clarify these differences. In this chapter, developmental aspects have been emphasized.Electrical stimulation and chemical-induced models of seizures have been described first, as they represent the oldest and most common models. Among these models, kindling raised g",
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiemetics",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22938964/"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is epilepsy. These are called idiopathic epilepsies, though this definition may change in the future. A few idiopathic epilepsies are monogenic disorders due to mutations in a variety of genes affecting neuronal excitability, synaptic transmission, or network development. Most cases have a complex etiology that combines predisposing genetic variants with nongenetic factors. Few of these have been identified so far and only in very few affected individuals, consisting mostly of deletions of critical ",
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Pharmacogenetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22266888/"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example, eslicarbazepine (a sodium and T-type channel blocker), lamotrigine (a sodium channel blocker and glutamate antagonist) or levetiracetam (a ligand of synaptic vehicle protein SV2A). Among the approved non-antiepileptic drugs, antiepileptogenic potential seems to reside in losartan (a blocker of angiotensin II type 1 receptors), biperiden (an antiparkinsonian drug), nonsteroidal anti-inflammatory drugs, antioxidative drugs and minocycline (a second-generation tetracycline with anti-inflammatory a",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Antioxidants",
+              "Biomarkers",
+              "Combined Modality Therapy",
+              "Dietary Supplements",
+              "Disease Susceptibility",
+              "Drug Discovery",
+              "Epilepsy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34575901/"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Cysteine",
+              "Epilepsy",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Male",
+              "Methylenetetrahydrofolate Reductase (NADPH2)",
+              "Odds Ratio",
+              "Polymorphism, Single Nucleotide",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30267335/"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postnatal period. Infants and young children who experience prolonged or repetitive seizures have an increased risk of subsequently developing epilepsy. Evidence to date suggests that status epilepticus produces permanent changes in the molecular and cellular structure of limbic circuitry that, in turn, result in a long-lasting increase in hippocampal excitability and lower seizure thresholds in later life.",
+            "journal": "Epilepsia",
+            "year": "2005",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain",
+              "Cerebellum",
+              "Child, Preschool",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Excitatory Amino Acids",
+              "Glutamates",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16201993/"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy and inflammation in some paradigmatic neurological and systemic disorders associated with epilepsy. In particular, we have chosen one representative form of epilepsy for each one of its actual known etiologies. A better understanding of the mechanistic link between neuroinflammation and epilepsy would be important to improve subject-based therapies, both for prophylaxis and for the treatment of epilepsy.",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biomarkers",
+              "Brain Neoplasms",
+              "Combined Modality Therapy",
+              "Disease Management",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34209535/"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility has not been explored extensively. Previous studies have reported that the alterations in the genes encoding ion channel proteins are common risk factors for both the diseases. The alterations in ion channel-encoding genes CACNAIA (T666M) and SCNIA (Q1489K and L1649Q) have been found to be involved in the development of familial hemiplegic migraine (FHM) as well as generalized epilepsy and some cases of focal epilepsy as well. The fact that both these disorders are treated with anti-epileptic dr",
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Calcium Channels",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Migraine Disorders",
+              "NAV1.1 Voltage-Gated Sodium Channel",
+              "Calcium Channels, N-Type"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33856647/"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most frequent differential diagnosis in epilepsy.",
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adaptation, Psychological",
+              "Anticonvulsants",
+              "Diagnosis, Differential",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Male",
+              "Mental Disorders",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19935934/"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "journal": "Neurology",
+            "year": "2007",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Age of Onset",
+              "Aged",
+              "Belgium",
+              "Brain",
+              "Chromosome Mapping",
+              "Chromosomes, Human, Pair 9",
+              "Comorbidity",
+              "DNA Mutational Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17460155/"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the characterization of lesions present in both sporadic and familial epilepsy, especially where clinical features of affected cases depart from established syndromes. Copy number variants (CNVs) associated with epilepsy and a range of other syndromes and conditions can be recurrent due to nonallelic homologous recombination in regions of segmental duplication. The most common of the recurrent microdeletions associated with generalized epilepsy are typically seen at a frequency of ∼ 1% at 15q13.3, 16p13.",
+            "journal": "Epilepsia",
+            "year": "2011",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chromosome Banding",
+              "Chromosome Deletion",
+              "Chromosome Duplication",
+              "Chromosomes, Human, Pair 15",
+              "Chromosomes, Human, Pair 16",
+              "Comorbidity",
+              "Comparative Genomic Hybridization",
+              "Cytogenetic Analysis",
+              "DNA Copy Number Variations",
+              "Epilepsy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21269290/"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, though how it contributes to epileptogenesis, and the development of chronic, spontaneous seizure activity, remains poorly understood. A mechanistic understanding of how inflammation contributes to the development of epilepsy (epileptogenesis) after TBI is important to facilitate the identification of novel therapeutic strategies to reduce or prevent seizures. BODY: We reviewed previous clinical and pre-clinical data to evaluate the hypothesis that inflammation contributes to seizures and epileps",
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Injuries, Traumatic",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans",
+              "Inflammation",
+              "Seizures",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28086980/"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular dysfunction. Loss of mtDNA leads to loss of mitochondrial respiratory chain (MRC) components that, in turn, progressively disables energy metabolism. This critically balanced neuronal energy metabolism leads to both a chronic and continuous attrition (i.e., neurodegeneration) and it leaves the neurone unable to cope with increased demand that can trigger a potentially catastrophic cycle that results in acute focal necrosis. We believe that it is the onset of epilepsy that triggers the cascade o",
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebral Cortex",
+              "DNA Polymerase gamma",
+              "Disease Susceptibility",
+              "Electroencephalography",
+              "Epilepsy",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neurons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28837072/"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "journal": "Epilepsia",
+            "year": "2013",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "DNA",
+              "Data Collection",
+              "Electroencephalography",
+              "Epilepsies, Partial",
+              "Epilepsy",
+              "Epilepsy, Generalized",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23294289/"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronically elevated intracellular glutamate level in astrocytes is instrumental to alterations in the metabolism of glycogen and leads to the synthesis of polyglucosans. Unaccessibility of glycogen-degrading enzymes to these insoluble molecules compromises the glycogenolysis-dependent reuptake of extracellular K(+) by astrocytes, thereby leading to increased extracellular K(+) and associated membrane depolarization. Based on current knowledge, we propose that the deterioration in structural homogeneity",
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Astrocytes",
+              "Convulsants",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Gliosis",
+              "Glucans",
+              "Glutamate-Ammonia Ligase",
+              "Glutamates",
+              "Glutamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24643875/"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cerebrovascular disease, infection, trauma, neurodegenerative disease, and autoimmune disorders. None of these acquired causes has been consistently shown to affect women or men to a greater or lesser degree, although some of the literature is contradictory or inadequate. There is almost no literature that addresses the effect of gender on the clinical course of epilepsy associated with these acquired causes. In addition, most studies of acquired causes do not take into account the incidence of the ",
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Injuries",
+              "Brain Neoplasms",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Male",
+              "Sex Characteristics",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24874544/"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cerebral Cortex",
+              "Disease Susceptibility",
+              "Epilepsy, Generalized",
+              "Electroencephalography",
+              "Immunoglobulin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36442376/"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide autoimmune antibodies that bind, induce Reactive Oxygen Species, and kill both neural cells and T cells. Furthermore, NS patient's IgG induce seizures, brain multiple damage alike occurring in brains of NS patients, and elevation of T cells and activated microglia and astrocytes, in brains of normal mice. Human Leukocyte antigen (HLA) class I and II molecules are critical for initiating effective beneficial immunity against foreign microorganisms and contributing to proper brain function, but also ",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Amino Acid Motifs",
+              "Autoantibodies",
+              "Case-Control Studies",
+              "Child",
+              "Child, Preschool",
+              "Disease Susceptibility",
+              "Female",
+              "HLA Antigens"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32639997/"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were finally included. For KCNJ10 rs1130183, compared with population-based controls, a reduced epilepsy risk in cases was observed in models of allelic T vs. C, heterozygotic CT vs. CC, dominant CT + TT vs. CC, carrier T vs. C [all OR (odds ratio) <1, P < 0.05, Benjamini & Hochberg-adjusted P < 0.05, bonferroni-adjusted P < 0.05]. There were similar results in the subgroup analysis of \"Caucasian\". The positive conclusion was also statistically supported by the result of the FPRP test and TSA. Never",
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Case-Control Studies",
+              "Epilepsy",
+              "Gene Frequency",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Polymorphism, Single Nucleotide",
+              "Potassium Channels, Inwardly Rectifying",
+              "White People"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33187755/"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associated with substance dependence and susceptibility to other disorders, including epilepsy and schizophrenia. The IVS1+A21573G, IVS1-T17286C, and TAA+A5359G polymorphisms in the OPRM1 gene may be associated with alcohol, opioid and tobacco dependence, respectively. However, some studies have failed to confirm the correlations between the polymorphisms and opioid effects and substance dependence. Further studies are needed to elucidate the molecular mechanisms underlying the effects of OPRM1 polymorph",
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Diabetes Mellitus",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Narcotic Antagonists",
+              "Obesity",
+              "Polymorphism, Single Nucleotide",
+              "Receptors, Opioid, mu"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21919606/"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile seizures). No specific models exist for syndromes (e.g., Lennox-Gastaut, Landau-Kleffner). The interaction between brain development and epilepsy in humans can be assisted by use of high resolution MRI, diffusion tensor imaging, and functional MRI.",
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Newborn",
+              "Anticonvulsants",
+              "Child",
+              "Child, Preschool",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16377142/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrophoderma vermiculata",
+        "txgnn_score": 0.995563268661499,
+        "txgnn_rank": 5998,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulerythema ophryogenesis",
+        "txgnn_score": 0.9950736165046692,
+        "txgnn_rank": 6428,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9941970109939576,
+        "txgnn_rank": 7209,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9914085268974304,
+        "txgnn_rank": 9472,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sciatic neuropathy",
+        "txgnn_score": 0.9910802245140076,
+        "txgnn_rank": 9750,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04063046",
+            "title": "Effect of Anesthesia Technique on Early Outcome in Diabetic Patients Undergoing Lower Extremity Amputation",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2019-11-12",
+            "completion_date": "2021-09",
+            "country": "South Korea",
+            "enrollment": 158,
+            "brief_summary": "The aim of this study was to compare\n\n1. early prognosis (mortality, morbidity)\n2. changes in concentrations of serum syndecan-1,partial pressure of oxygen(on arterial blood gas analysis), perioperative transfusion, intraoperative vasopressor use between general anesthesia and nerve block in diabetic patients undergoing limb amputation surgery as a prospective randomized trial.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Patients undergoing diabetic foot limb amputation.\n* 2\\. Patients aged 20 or older and who meet American Society of Anesthesiologists (ASA) physical class 3-4\n\nExclusion Criteria:\n\n* 1\\. patients with dementia or cognitive impairment\n* 2\\. Patients who had previously under",
+            "endpoints": [
+              "early prognosis (mortality)",
+              "early prognosis (Unexpected return To The Operation Room)",
+              "early prognosis (Renal failure)"
+            ],
+            "sponsor": "Yonsei University",
+            "url": "https://clinicaltrials.gov/study/NCT04063046"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9909268617630004,
+        "txgnn_rank": 9861,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01431326",
+            "title": "Pharmacokinetics of Understudied Drugs Administered to Children Per Standard of Care",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-11",
+            "completion_date": "2019-11",
+            "country": "United Kingdom, Canada, Israel, United States, Singapore",
+            "enrollment": 3520,
+            "brief_summary": "Understudied drugs will be administered to children per standard of care as prescribed by their treating caregiver and only biological sample collection during the time of drug administration will be involved. A total of approximately 7000 children aged \\<21 years who are receiving these drugs for standard of care will be enrolled and will be followed for up a maximum of 90 days. The goal of this study is to characterize the pharmacokinetics of understudied drugs for which specific dosing recomm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\) Children (\\< 21 years of age) who are receiving understudied drugs of interest per standard of care as prescribed by their treating caregiver\n\nExclusion Criteria:\n\n* 1\\) Failure to obtain consent/assent (as indicated)\n* 2\\) Known pregnancy as determined via interview or te",
+            "endpoints": [
+              "Composite of pharmacokinetic outcomes for understudied drugs in children"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT01431326"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04211064",
+            "title": "Comparison Of The Effects Of Deep And Moderate Neuromuscular Blockade On Optic Nerve Sheath Diameter İn Laparoscopic Cholecystectomy: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-09",
+            "completion_date": "2022-02",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "Increased intracranial pressure (IICP) is a common problem in traumatic brain injuries and many medical diseases. Early recognition of IICP can save lives. Several invasive and non-invasive methods have been described for IICP diagnosis. In recent years, ultrasonographic measurement of optic nerve sheath diameter (ONSD) has become a popular method due to its high sensitivity and specificity for IICP estimation. Studies have shown that ONSD's ultrasonographic measurement correlates with the IICP ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Between 18-65 years\n* ASA I-II\n* Patients undergoing elective laparoscopic cholecystectomy\n\nExclusion Criteria:\n\n* Intracranial hypertension\n* Glaucoma\n* Chronic obstructive pulmonary disease\n* Pseudotumor cerebri\n* Cerebral venous sinus thrombosis\n* İntraoperative hemodynamic",
+            "endpoints": [
+              "Optic nerve sheath diameter"
+            ],
+            "sponsor": "Bezmialem Vakif University",
+            "url": "https://clinicaltrials.gov/study/NCT04211064"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06507202",
+            "title": "Comparison of Remimazolam Versus Propofol-based General Anesthesia on Postoperative Quality of Recovery in Patients Undergoing Ambulatory Upper Airway Surgery: a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2024-01-22",
+            "completion_date": "2025-03-22",
+            "country": "South Korea",
+            "enrollment": 116,
+            "brief_summary": "The purpose of this study is to compare the effects of remimazolam and propofol on postoperative recovery time, complications, and safety in patients undergoing ambulatory upper airway surgery under general anesthesia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients (age 19 or older) undergoing ambulatory upper respiratory tract (nasal cavity, oral cavity, pharynx, larynx) surgery under general anesthesia\n* American Society of Anesthesiologists physical class classification I, II, and III\n\nExclusion Criteria:\n\n* Patients wh",
+            "endpoints": [
+              "Fit-for-discharge time"
+            ],
+            "sponsor": "Chung-Ang University Gwangmyeong Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06507202"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06436768",
+            "title": "Effectiveness of Sugammadex Versus Neostigmine on the Reversal of Rocuronium-induced Neuromuscular Blockade in Patients With Myasthenia Gravis After Thoracoscopic Thymectomy: A Multicenter Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2024-06-01",
+            "completion_date": "2025-03-05",
+            "country": "China",
+            "enrollment": 62,
+            "brief_summary": "The purpose of this study was to demonstrate in patients with myasthenia gravis (MG) undergoing thoracoscopic thymectomy faster recovery from a moderate neuromuscular block induced by rocuronium after reversal at reappearance of T2 by 2.0 mg/kg sugammadex compared to 50 ug/kg neostigmine.\n\nMethods: A total of 64 patients with MG undergoing thoracoscopic thymectomy will be randomly divided into two groups: Sugammadex group (S group) and Neostigmine group (N group). The same anesthesia methods wil",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • Patients with MG scheduled for elective thoracoscopic thymectomy\n\n  * Aged 18 to 65 years\n  * American society of Anesthesiologists (ASA) physical status classification system: I - III\n\nExclusion Criteria:\n\n* Inability to obtain written informed consent\n* With severe renal o",
+            "endpoints": [
+              "Recovery time"
+            ],
+            "sponsor": "Beijing Tongren Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06436768"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03572517",
+            "title": "Comparison of Two Different Anesthetic Techniques on Incidence of Postoperative Delirium in Cancer Patients After Laparoscopic Surgery in Trendelenburg Position: A Prospective Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-09-01",
+            "completion_date": "2018-09-25",
+            "country": "Brazil",
+            "enrollment": 65,
+            "brief_summary": "Postoperative delirium is an acute mental syndrome that is caused by diffuse cerebral dysfunction resulting from the action of predisposing and precipitating factors acting together. It is associated with an increase in mortality and postoperative morbidity and prolongs the period of hospitalization of the patient Videolaparoscopic surgery has been increasingly used as a therapeutic and diagnostic method. In order to have a good visualization of the anatomical structures on which it will act, it",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Oncologic patients submitted to elective videolaparoscopic surgery in Trendelenburg position\n* 18 years or older\n* ASA lesser than 3\n* period of at least 2 hours in Trendelenburg position\n\nExclusion Criteria:\n\n* With absolute contraindication and related to spinal anesthesia\n*",
+            "endpoints": [
+              "Confusion Assessment Method in association with Richmond Agitation Sedation Scale will be used to postoperative delirium diagnosis."
+            ],
+            "sponsor": "AC Camargo Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03572517"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03242668",
+            "title": "Patient Controlled Paravertebral Analgesia for Video-assisted Thoracoscopic Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-06-01",
+            "completion_date": "2017-07-01",
+            "country": "Vietnam",
+            "enrollment": 30,
+            "brief_summary": "To access the analgesic efficacy of patient controlled thoracic paravertebral analgesia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* American Society of Anesthesiologists class I to III risk undergoing elective VATS, aged 32-72 years, scheduled for lung resection surgery.\n\nExclusion Criteria:\n\n* Patients who refused to participate, less than 18 years of age, ASA physical status 3 or more,, allergy to any of",
+            "endpoints": [
+              "VAS score at rest and on coughing"
+            ],
+            "sponsor": "Vietnam Military Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT03242668"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07407972",
+            "title": "Effect of Optıc Nerve Dıameter ın Tymphanoplasty Surgery Performed ın Lateral Head Posıtıon Under General Anesthesia",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-01-01",
+            "completion_date": "2025-06-01",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 53,
+            "brief_summary": "Studies exist to determine the effect of laparoscopic surgical procedures on increased intra-abdominal pressure; these studies include optic nerve sheath diameter (ONSD) measurement in various positions such as trendelenburg and prone, and the effect of the laryngoscope used in intubation on increased intracranial pressure. In these situations, changes in cerebral blood flow and intracranial pressure may occur due to impaired neck venous return. There are no studies in the literature regarding i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients over 18 years of age Patients undergoing tympanoplasty surgery under general anesthesia Patients with ASA I or II Patients scheduled for surgery in the lateral head and neck position\n\nExclusion Criteria:\n\n* Patients who will have neck dissection,\n* Patients who have u",
+            "endpoints": [
+              "The effect of lateral head position on intracranial pressure"
+            ],
+            "sponsor": "Bursa Yuksek Ihtisas Training and Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07407972"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06042816",
+            "title": "Evaluation of the Analgesic Efficacy of Free Opioid Anesthesia for Patients Undergoing Colectomies and Rectal Resections: A Prospective, Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-12-30",
+            "completion_date": "2021-12-30",
+            "country": "Vietnam",
+            "enrollment": 49,
+            "brief_summary": "Objectives: To compare free-opioid anesthesia (the combination of epidural anesthesia, intravenous lidocaine, ketamine, propofol, and sevoflurane) and opioid anesthesia (fentanyl, propofol and sevoflurane) regarding intraoperative analgesic efficacy in colectomies and rectal resections at Viet Tiep Friendship Hospital.\n\nMethods: A prospective, randomized controlled clinical trial was performed on 98 patients who were anesthetized for colorectal surgery from December 2019 to November 2021. Patien",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients agreed to participate in the study.\n* Patients aged ≥ 18 years old,\n* Those who underwent elective colectomies or rectal resections,\n* Those who were ASA (American Society of Anesthesiologists) classified as I - III,\n* Those who were indicated for general endotracheal",
+            "endpoints": [
+              "analgesic efficacy of free-opioid anesthesia",
+              "analgesic efficacy of free-opioid anesthesia",
+              "analgesic efficacy of free-opioid anesthesia"
+            ],
+            "sponsor": "Vietnam Military Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT06042816"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "23812022",
+            "title": "Does rocuronium-sugammadex reduce myalgia and headache after electroconvulsive therapy in patients with major depression?",
+            "abstract": "We aimed to compare the effects of succinylcholine and rocuronium-sugammadex on development of myalgia and headache after electroconvulsive therapy (ECT).",
+            "journal": "The journal of ECT",
+            "year": "2014",
+            "authors": [
+              "Saricicek Vahap",
+              "Sahin Levent",
+              "Bulbul Feridun",
+              "Ucar Sevgi",
+              "Sahin Mehrican"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Androstanols",
+              "Anesthesia",
+              "Anesthesia Recovery Period",
+              "Major Depressive Disorder",
+              "Electroconvulsive Therapy",
+              "Female",
+              "Headache",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23812022/"
+          },
+          {
+            "pmid": "25517552",
+            "title": "Acute angle-closure glaucoma after general anesthesia for bone grafting.",
+            "abstract": "Acute angle-closure glaucoma (AACG) is a rare complication of general anesthesia. The coexistence of individual risk factors for postoperative AACG and factors associated with intraocular hypertension are considered to be required for postoperative AACG to develop. We present a case of AACG after general anesthesia for oral bone grafting in a patient with no preoperative eye symptoms. In this case, several factors such as postoperative care in a darkened room, psychological stress, and postoperative hypertension may have precipitated the event in this patient, who may have had preexisting undiagnosed elevated intraocular pressure. The interval between the earliest appearance of symptoms at 9 hours and the ultimate diagnosis was 36 hours. In the postoperative period following general anesthesia, any patient is at risk for AACG. It is important that a postoperative diagnosis of AACG should be considered and a timely consultation with an ophthalmologist be considered if a postoperative pa",
+            "journal": "Anesthesia progress",
+            "year": "2014",
+            "authors": [
+              "Nitta Yukie",
+              "Kamekura Nobuhito",
+              "Takuma Shigeru",
+              "Fujisawa Toshiaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alveolar Ridge Augmentation",
+              "Androstanols",
+              "Anesthesia, General",
+              "Anesthetics, Intravenous",
+              "Darkness",
+              "Female",
+              "Fentanyl",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25517552/"
+          },
+          {
+            "pmid": "24196089",
+            "title": "Propofol and remifentanil for rapid sequence intubation in a pediatric patient at risk for aspiration with elevated intracranial pressure.",
+            "abstract": "Aspiration is a significant cause of anesthetic morbidity, occurring most commonly during the induction of anesthesia. For patients with a high likelihood of aspiration, rapid sequence intubation (RSI) techniques may minimize this risk by reducing the time between the loss of protective airway reflexes and the placement of a cuffed endotracheal tube. Although RSI frequently involves the administration of a neuromuscular-blocking agent (NMBA) such as succinylcholine or rocuronium, there are times when the administration of an NMBA is contraindicated or undesirable. We present an 11-year-old boy who presented with vomiting, papilledema, and a history concerning for an undiagnosed neuromuscular disorder. Deep sedation or anesthesia was required during an emergent lumbar puncture to evaluate his symptoms. Rapid sequence intubation was successfully performed with propofol and remifentanil without the use of an NMBA. We highlight the anesthetic considerations in such a clinical scenario and ",
+            "journal": "Pediatric emergency care",
+            "year": "2013",
+            "authors": [
+              "Dewhirst Elisabeth",
+              "Tobias Joseph D",
+              "Martin David P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Inhalation",
+              "Child",
+              "Contraindications",
+              "Deep Sedation",
+              "Emergencies",
+              "Headache",
+              "Humans",
+              "Hypnotics and Sedatives",
+              "Intracranial Hypertension",
+              "Intubation, Intratracheal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24196089/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00728",
+    "name": "Rocuronium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Rocuronium"
+      },
+      "queried_at": "2026-03-09T17:19:22.672301",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Rocuronium"
+      },
+      "queried_at": "2026-03-09T17:19:26.290835",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T17:19:28.563194",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T17:19:32.164157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T17:19:33.771122",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T17:19:34.821387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T17:19:38.832877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T17:19:40.315734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T17:19:41.405922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T17:19:47.011933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T17:19:49.037404",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-09T17:19:50.159571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-09T17:19:56.262464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-09T17:20:07.806409",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-09T17:20:08.505341",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-09T17:20:14.709383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-09T17:20:15.715640",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-09T17:20:17.156571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-09T17:20:22.520275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-09T17:20:23.821781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T17:20:24.665308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T17:20:28.454652",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T17:20:30.217605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T17:20:31.065385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T17:20:39.193233",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T17:20:41.630577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "sciatic neuropathy"
+      },
+      "queried_at": "2026-03-09T17:20:43.216238",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "sciatic neuropathy"
+      },
+      "queried_at": "2026-03-09T17:20:50.474944",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "sciatic neuropathy"
+      },
+      "queried_at": "2026-03-09T17:20:51.373629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T17:20:53.140878",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T17:20:57.662973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Rocuronium",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T17:21:00.217581",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T17:21:00.255024"
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "drug": {
+    "inn": "Paraldehyde",
+    "drugbank_id": "DB09117",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9997238516807556,
+        "txgnn_rank": 757,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9996777772903442,
+        "txgnn_rank": 857,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.998847246170044,
+        "txgnn_rank": 2259,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurocirculatory asthenia",
+        "txgnn_score": 0.9975104331970216,
+        "txgnn_rank": 4020,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhinitis",
+        "txgnn_score": 0.9959994554519652,
+        "txgnn_rank": 5602,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "insomnia (disease)",
+        "txgnn_score": 0.9929960370063782,
+        "txgnn_rank": 8237,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1585214",
+            "title": "The treatment of sleep disorders.",
+            "abstract": "Narcolepsy is clinically associated with cataplexy, sleep paralysis and hypnagogic hallucinations. It is treated by reassurance (that there is no physical disease) and by stimulants such as ephedrine and amphetamine on an intermittent basis. The special tricyclic antidepressant clomipramine is also used, and mono-amine oxidase inhibitors (MAOIs) are useful in theory. Obstructive sleep apnoea is an important and often unrecognised cause of daytime somnolence. It is treated by weight reduction (pickwickian syndrome), hormones, or recently, with continuous positive pressure apparatus. Night terrors (pavor nocturnus) and sleepwalking typically occur during deep sleep (stage 3 and 4 throughout the episode) in children. In a night terror the child sits up with a scream, with eyes open, but inaccessible. He eventually falls asleep calmly. Sleepwalking, too, shows the features of inaccessibility and subsequent amnesia for the episode. Both conditions are normally treated with reassurance (to t",
+            "journal": "South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde",
+            "year": "1992",
+            "authors": [
+              "Smeyatsky N",
+              "Baldwin D",
+              "Botros W",
+              "Gura R",
+              "Kurian T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Amphetamines",
+              "Analgesics",
+              "Benzodiazepines",
+              "Child",
+              "Clomipramine",
+              "Diet, Reducing",
+              "Electroencephalography",
+              "Humans",
+              "Monitoring, Physiologic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1585214/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dysautonomia",
+        "txgnn_score": 0.9891155362129213,
+        "txgnn_rank": 11183,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autonomic nervous system disease",
+        "txgnn_score": 0.9845938682556152,
+        "txgnn_rank": 14457,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ancylostomiasis",
+        "txgnn_score": 0.9842321872711182,
+        "txgnn_rank": 14666,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mitral valve prolapse (disease)",
+        "txgnn_score": 0.9795591831207277,
+        "txgnn_rank": 17219,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09117",
+    "name": "Paraldehyde",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Paraldehyde"
+      },
+      "queried_at": "2026-03-09T11:41:34.865696",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Paraldehyde"
+      },
+      "queried_at": "2026-03-09T11:41:50.035465",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T11:41:50.940467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T11:41:54.988842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T11:41:56.050725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T11:41:56.543296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T11:42:00.222723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T11:42:01.536233",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:02.717232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:09.918820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:11.169638",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-09T11:42:11.756296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-09T11:42:16.051994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-09T11:42:17.021498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T11:42:17.939510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T11:42:22.154512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T11:42:23.248823",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:23.832732",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:27.881387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:31.037713",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "dysautonomia"
+      },
+      "queried_at": "2026-03-09T11:42:31.560942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "dysautonomia"
+      },
+      "queried_at": "2026-03-09T11:42:34.774770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "dysautonomia"
+      },
+      "queried_at": "2026-03-09T11:42:36.135745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-09T11:42:36.808465",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-09T11:42:41.423485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-09T11:42:42.146169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "ancylostomiasis"
+      },
+      "queried_at": "2026-03-09T11:42:42.682994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "ancylostomiasis"
+      },
+      "queried_at": "2026-03-09T11:42:47.684725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "ancylostomiasis"
+      },
+      "queried_at": "2026-03-09T11:42:49.499774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "mitral valve prolapse (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:50.966799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "mitral valve prolapse (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:54.612126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Paraldehyde",
+        "disease": "mitral valve prolapse (disease)"
+      },
+      "queried_at": "2026-03-09T11:42:55.462545",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:42:55.470451"
+  }
+}

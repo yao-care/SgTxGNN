@@ -1,0 +1,1590 @@
+{
+  "drug": {
+    "inn": "Propafenone",
+    "drugbank_id": "DB01182",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "manic bipolar affective disorder",
+        "txgnn_score": 0.9979648590087892,
+        "txgnn_rank": 3452,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32124390",
+            "title": "Adverse effects of interactions between antipsychotics and medications used in the treatment of cardiovascular disorders.",
+            "abstract": "High level of comorbidity between bipolar disorder or schizophrenia and cardiovascular diseases (CVD) in clinical practice may contribute to drug-drug interactions between medications used in these conditions. The aim of this study was to evaluate harmful interactions between antipsychotics and medications used in treatment of CVD.",
+            "journal": "Pharmacological reports : PR",
+            "year": "2020",
+            "authors": [
+              "Siwek Marcin",
+              "Woroń Jarosław",
+              "Gorostowicz Aleksandra",
+              "Wordliczek Jerzy"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Adverse Drug Reaction Reporting Systems",
+              "Antipsychotic Agents",
+              "Cardiovascular Diseases",
+              "Cytochrome P-450 Enzyme System",
+              "Drug Interactions",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Liver",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32124390/"
+          },
+          {
+            "pmid": "11949740",
+            "title": "An organic psychosis due to a venlafaxine-propafenone interaction.",
+            "abstract": "An extraordinary case of an organic psychosis during the treatment of a patient with a bipolar affective disorder.",
+            "journal": "International journal of psychiatry in medicine",
+            "year": "2001",
+            "authors": [
+              "Pfeffer F",
+              "Grube M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bipolar Disorder",
+              "Cyclohexanols",
+              "Drug Interactions",
+              "Female",
+              "Humans",
+              "Propafenone",
+              "Psychotic Disorders",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11949740/"
+          },
+          {
+            "pmid": "2579063",
+            "title": "A case of mania secondary to propafenone.",
+            "abstract": "A case of mania secondary to the administration of a new antiarrhythmic, propafenone, is described. This is a previously unrecognized potential complication in the use of this agent. Since propafenone is chemically related to a new antidepressant, bupropion, it may possess some antidepressant activity and thus have the potential to produce affective psychiatric side effects.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1985",
+            "authors": [
+              "Jack R A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Arrhythmia Agents",
+              "Bipolar Disorder",
+              "Bupropion",
+              "Cardiac Complexes, Premature",
+              "Female",
+              "Humans",
+              "Propafenone",
+              "Propiophenones",
+              "Psychoses, Substance-Induced"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2579063/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+        "txgnn_score": 0.997927188873291,
+        "txgnn_rank": 3513,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35892906",
+            "title": "Clinical Characteristics, Genetic Findings and Arrhythmic Outcomes of Patients with Catecholaminergic Polymorphic Ventricular Tachycardia from China: A Systematic Review.",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is a rare inherited cardiac ion channelopathy. The present study aims to examine the clinical characteristics, genetic basis, and arrhythmic outcomes of CPVT patients from China to elucidate the difference between CPVT patients in Asia and Western countries.",
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2022",
+            "authors": [
+              "Leung Justin",
+              "Lee Sharen",
+              "Zhou Jiandong",
+              "Jeevaratnam Kamalan",
+              "Lakhani Ishan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35892906/"
+          },
+          {
+            "pmid": "30820400",
+            "title": "A 35-year effective treatment of catecholaminergic polymorphic ventricular tachycardia with propafenone.",
+            "abstract": "",
+            "journal": "HeartRhythm case reports",
+            "year": "2019",
+            "authors": [
+              "Marx Alexandra",
+              "Lange Björn",
+              "Nalenz Carsten",
+              "Hoffmann Boris",
+              "Rostock Thomas"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30820400/"
+          },
+          {
+            "pmid": "36082968",
+            "title": "A gain of function ryanodine receptor 2 mutation (R1760W-RyR2) in catecholaminergic polymorphic ventricular tachycardia.",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is an inherited arrhythmia syndrome associated with Ca2+ leak predominantly caused by ryanodine receptor 2 (RyR2) mutations. We identified a R1760W-RyR2 mutation located between the N-terminal domain and the central domain of RyR2 in a CPVT patient by DNA sequencing. Recombinant mutant RyR2-2801mcherry plasmid generated by the overlap extension polymerase chain reaction and seamless cloning was transfected in HEK293 cells for the cell model. Single-cell luminal and cytosolic Ca2+ imaging was measured by endoplasmic reticulum (ER) luminal Ca2+ -sensitive protein D1ER and Fura-2 AM on a confocal laser scanning microscope, respectively. We found that in RyR2 mutant cells, the propensity for store-overload-induced Ca2+ release (SOICR) was enhanced representing increased Ca2+ oscillations, reduced activation and termination thresholds of spontaneous Ca2+ release; and the sensitivity to cytosolic Ca2+ activation was increased manif",
+            "journal": "Clinical and experimental pharmacology & physiology",
+            "year": "2023",
+            "authors": [
+              "Li Siyuan",
+              "Lv Tingting",
+              "Yang Jing",
+              "Li Kun",
+              "Yang Ying"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gain of Function Mutation",
+              "HEK293 Cells",
+              "Ryanodine Receptor Calcium Release Channel",
+              "Polymorphic Catecholaminergic Ventricular Tachycardia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36082968/"
+          },
+          {
+            "pmid": "39564160",
+            "title": "Long-term clinical course of patients with catecholaminergic polymorphic ventricular tachycardia: A more than 10-year follow-up cohort study.",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is an inherited disorder characterized by ventricular arrhythmias induced by physical or emotional stress. Currently, there are limited data available on the long-term prognosis of CPVT.",
+            "journal": "Annals of pediatric cardiology",
+            "year": "2024",
+            "authors": [
+              "Kulbachinskaya Ekaterina",
+              "Bereznitskaya Vera"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39564160/"
+          },
+          {
+            "pmid": "23965883",
+            "title": "[Long-term outcomes and factors for predicting ventricular arrhythmia in patients with catecholaminergic polymorphic ventricular tachycardia].",
+            "abstract": "To evaluate factors for predicting ventricular arrhythmia, the clinical effect of drugs on patients with catecholaminergic polymorphic ventricular tachycardia (CPVT), and their long-term outcomes.",
+            "journal": "Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics",
+            "year": "2013",
+            "authors": [
+              "Yu Sheng-Yong",
+              "Shen Jian-Hua",
+              "Lu Jing-Ping",
+              "Zhao Dong-Sheng",
+              "Zhang Gang"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenergic beta-Antagonists",
+              "Adult",
+              "Child",
+              "Electrocardiography",
+              "Electrocardiography, Ambulatory",
+              "Female",
+              "Humans",
+              "Male",
+              "Tachycardia, Ventricular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23965883/"
+          },
+          {
+            "pmid": "29668588",
+            "title": "A delayed diagnosis of catecholaminergic polymorphic ventricular tachycardia with a mutant of RYR2 at c.7580T>G for 6 years in a 9-year-old child.",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is a rare but potentially lethal inherited arrhythmia syndrome induced by adrenergic stress. Due to the atypical clinical manifestations in early age, limited recognition and experience of pediatric cardiologists, and low awareness of the significance of genetic diagnosis in some underdeveloped areas in China, a delayed or missed diagnosis of CPVT in children is common and concerning.",
+            "journal": "Medicine",
+            "year": "2018",
+            "authors": [
+              "Duan Hongyu",
+              "Lu Yongyi",
+              "Yan Song",
+              "Qiao Lina",
+              "Hua Yimin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Child",
+              "Death, Sudden, Cardiac",
+              "Delayed Diagnosis",
+              "Electrocardiography",
+              "Exercise Test",
+              "Genetic Testing",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29668588/"
+          },
+          {
+            "pmid": "26121139",
+            "title": "Channel Activity of Cardiac Ryanodine Receptors (RyR2) Determines Potency and Efficacy of Flecainide and R-Propafenone against Arrhythmogenic Calcium Waves in Ventricular Cardiomyocytes.",
+            "abstract": "Flecainide blocks ryanodine receptor type 2 (RyR2) channels in the open state, suppresses arrhythmogenic Ca2+ waves and prevents catecholaminergic polymorphic ventricular tachycardia (CPVT) in mice and humans. We hypothesized that differences in RyR2 activity induced by CPVT mutations determines the potency of open-state RyR2 blockers like flecainide (FLEC) and R-propafenone (RPROP) against Ca2+ waves in cardiomyocytes. Using confocal microscopy, we studied Ca2+ sparks and waves in isolated saponin-permeabilized ventricular myocytes from two CPVT mouse models (Casq2-/-, RyR2-R4496C+/-), wild-type (c57bl/6, WT) mice, and WT rabbits (New Zealand white rabbits). Consistent with increased RyR2 activity, Ca2+ spark and wave frequencies were significantly higher in CPVT compared to WT mouse myocytes. We next obtained concentration-response curves of Ca2+ wave inhibition for FLEC, RPROP (another open-state RyR2 blocker), and tetracaine (TET) (a state-independent RyR2 blocker). Both FLEC and R",
+            "journal": "PloS one",
+            "year": "2015",
+            "authors": [
+              "Savio-Galimberti Eleonora",
+              "Knollmann Björn C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arrhythmias, Cardiac",
+              "Caffeine",
+              "Calcium",
+              "Calcium Signaling",
+              "Calsequestrin",
+              "Cell Membrane Permeability",
+              "Flecainide",
+              "Heart Ventricles",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26121139/"
+          },
+          {
+            "pmid": "21270101",
+            "title": "Inhibition of cardiac Ca2+ release channels (RyR2) determines efficacy of class I antiarrhythmic drugs in catecholaminergic polymorphic ventricular tachycardia.",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is caused by mutations in the cardiac ryanodine receptor (RyR2) or calsequestrin (Casq2) and can be difficult to treat. The class Ic antiarrhythmic drug flecainide blocks RyR2 channels and prevents CPVT in mice and humans. It is not known whether other class I antiarrhythmic drugs also block RyR2 channels and to what extent RyR2 channel inhibition contributes to antiarrhythmic efficacy in CPVT.",
+            "journal": "Circulation. Arrhythmia and electrophysiology",
+            "year": "2011",
+            "authors": [
+              "Hwang Hyun Seok",
+              "Hasdemir Can",
+              "Laver Derek",
+              "Mehra Divya",
+              "Turhan Kutsal"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Anti-Arrhythmia Agents",
+              "Calcium Channel Blockers",
+              "Calsequestrin",
+              "Defibrillators, Implantable",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Electric Countershock",
+              "Electrocardiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21270101/"
+          },
+          {
+            "pmid": "21798265",
+            "title": "Efficacy and potency of class I antiarrhythmic drugs for suppression of Ca2+ waves in permeabilized myocytes lacking calsequestrin.",
+            "abstract": "Ca(2+) waves can trigger ventricular arrhythmias such as catecholaminergic-polymorphic ventricular tachycardia (CPVT). Drugs that prevent Ca(2+) waves may have antiarrhythmic properties. Here, we use permeabilized ventricular myocytes from a CPVT mouse model lacking calsequestrin (casq2) to screen all clinically available class I antiarrhythmic drugs and selected other antiarrhythmic agents for activity against Ca(2+) waves. Casq2-/- myocytes were imaged in line-scan mode and the following Ca(2+) wave parameters analyzed: wave incidence, amplitude, frequency, and propagation speed. IC(50) (potency) and maximum inhibition (efficacy) were calculated for each drug. Drugs fell into 3 distinct categories. Category 1 drugs (flecainide and R-propafenone) suppressed wave parameters with the highest potency (IC(50)<10 μM) and efficacy (>50% maximum wave inhibition). Category 2 drugs (encainide, quinidine, lidocaine, and verapamil) had intermediate potency (IC(50) 20-40 μM) and efficacy (20-40% ",
+            "journal": "Journal of molecular and cellular cardiology",
+            "year": "2011",
+            "authors": [
+              "Galimberti Eleonora Savio",
+              "Knollmann Björn C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Arrhythmia Agents",
+              "Calcium",
+              "Calcium Signaling",
+              "Calsequestrin",
+              "Cell Membrane Permeability",
+              "Cells, Cultured",
+              "Disease",
+              "Dose-Response Relationship, Drug",
+              "Flecainide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21798265/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "periodic paralysis with transient compartment-like syndrome",
+        "txgnn_score": 0.9967160224914552,
+        "txgnn_rank": 4883,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9945101737976074,
+        "txgnn_rank": 6904,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "incessant infant ventricular tachycardia",
+        "txgnn_score": 0.9944065809249878,
+        "txgnn_rank": 7012,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "8237821",
+            "title": "Oral propafenone as treatment for incessant supraventricular and ventricular tachycardia in children.",
+            "abstract": "",
+            "journal": "The American journal of cardiology",
+            "year": "1993",
+            "authors": [
+              "Beaufort-Krol G C",
+              "Bink-Boelkens M T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Male",
+              "Propafenone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8237821/"
+          },
+          {
+            "pmid": "3099560",
+            "title": "Newer antiarrhythmic drugs in children.",
+            "abstract": "Our experience with the use of five new antiarrhythmic drugs for treating life-threatening arrhythmias in children will be briefly reviewed. Prevention of recurrent episodes of atrial flutter with digoxin and local anesthetic antiarrhythmic drugs often is only moderately successful, benefiting 65% of patients. Amiodarone is particularly useful for those patients who cannot be controlled on this regimen. We caution that the heart rate be monitored carefully when therapy with amiodarone is initiated in patients likely to have sick sinus syndrome. We have found mexiletine useful for controlling significant ventricular arrhythmias in patients with congenital heart disease. Likewise, 79% (11 of 14) of patients with ventricular tachycardia treated with amiodarone were well controlled. However, the range of disease categories (congenital heart disease, myocarditis, cardiomyopathy) in which amiodarone is effective is much broader than for mexiletine. Although other investigators have used amio",
+            "journal": "American heart journal",
+            "year": "1987",
+            "authors": [
+              "Moak J P",
+              "Smith R T",
+              "Garson A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Amiodarone",
+              "Anilides",
+              "Arrhythmias, Cardiac",
+              "Child",
+              "Child, Preschool",
+              "Electrocardiography",
+              "Encainide",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3099560/"
+          },
+          {
+            "pmid": "2114081",
+            "title": "[Incessant idiopathic ventricular tachycardia in infants].",
+            "abstract": "Reduction of the arrhythmia was obtained in 1 to 5 days, spontaneously (2 cases) of after oral amiodarone (500 to 2000 mg/m2/24 hr) (5 cases) or intravenous flecainide or propafenone in the two most critically ill patients. With the exception of 1 patient who was successfully treated with propranolol for 1 year, amiodarone was prescribed in all cases for 7 to 36 months after reversion to sinus rhythm: 5 children have been taken off treatment and seem to be completely cured 4 to 9 years after withdrawal; the other 3 patients have not had recurrences but have only been treated for 6 to 15 months. One of them has neurological sequellae from a cerebral embolism originating from an atrial thrombus. These results show that incessant ventricular tachycardia in infancy is a serious condition but amenable to medical treatment with high dose amiodarone or, when poorly tolerated, intravenous Class 1c antiarrhythmics for reduction of the arrhythmia, and amiodarone at adequate doses for 2 years to ",
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1990",
+            "authors": [
+              "Villain E",
+              "Bonnet D",
+              "Kachaner J",
+              "Le Bidois J",
+              "Cohen L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Cardiomyopathies",
+              "Child, Preschool",
+              "Electrocardiography",
+              "Female",
+              "Flecainide",
+              "Follow-Up Studies",
+              "Heart Neoplasms",
+              "Heart Ventricles",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2114081/"
+          },
+          {
+            "pmid": "28283175",
+            "title": "Efficacy of Intravenous Sotalol for Treatment of Incessant Tachyarrhythmias in Children.",
+            "abstract": "Our objective was to evaluate the efficacy and safety of intravenous (IV) sotalol in the treatment of incessant tachyarrhythmias in children with normal cardiac function. Eighty-three children admitted to hospital from October 2011 to December 2014 were treated with IV sotalol or IV sotalol plus IV propafenone. The time to conversion to sinus rhythm and maintaining sinus rhythm were evaluated. Blood pressure, heart rate, QTc, PR intervals, and rhythm were monitored; 50 patients (60%) were converted to sinus rhythm with IV sotalol; time to conversion was 12.0 ± 18.0 hours; 12 additional patients (15%) were converted with IV sotalol combined with IV propafenone; time to conversion was 13.1 ± 17.6 hours. A total of 62 patients (75%) were converted. Success rates of IV sotalol for different tachycardias were similar, whereas the time to conversion differed. The time to conversion for atrioventricular reentrant tachycardia was shorter than atrial tachycardia or atrial flutter (p <0.05). QTc",
+            "journal": "The American journal of cardiology",
+            "year": "2017",
+            "authors": [
+              "Li Xiaomei",
+              "Zhang Yan",
+              "Liu Haiju",
+              "Jiang He",
+              "Ge Haiyan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Atrial Flutter",
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28283175/"
+          },
+          {
+            "pmid": "26165020",
+            "title": "[Clinical course and treatment of ectopic atrial tachycardia in 144 children].",
+            "abstract": "Ectopic atrial tachycardia (EAT) is a common type of supraventricular tachycardia in pediatric population, and it can be resistant to antiarrhythmic drugs and lead to tachycardia induced cardiomyopathy (TIC) if not properly managed. This study assessed the clinical course and response to treatment of EAT in children.",
+            "journal": "Zhonghua er ke za zhi = Chinese journal of pediatrics",
+            "year": "2015",
+            "authors": [
+              "Ge Haiyan",
+              "Li Xiaomei",
+              "Zhang Yan",
+              "Liu Haiju",
+              "Jiang He"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Cardiomyopathies",
+              "Catheter Ablation",
+              "Child",
+              "Child, Preschool",
+              "Echocardiography",
+              "Electrocardiography",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26165020/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "arrhythmogenic right ventricular cardiomyopathy",
+        "txgnn_score": 0.994233787059784,
+        "txgnn_rank": 7177,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33194879",
+            "title": "Propafenone-Induced QRS Widening in a Child With Arrhythmogenic Right Ventricular Cardiomyopathy: A Case Report and Literatures Review.",
+            "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a rare cardiac disease in children, and can lead to sudden cardiac death (SCD). Propafenone is classIC antiarrhythmic medication, and its side effects include cardiovascular compromise in the form of hypotension, bradycardia, ventricular dysrhythmias, QRS widening, and heart block. Propafenone has been reported causing QRS widening, but rarely in children. In this article, we presented a boy diagnosed with ARVC who meets diagnosis criteria based on typical symptoms, electrocardiograph (ECG), echocardiography (Echo), cardiac magnetic resonance imaging (CMRI), sudden death of first family member, and genetic mutation in desmosomal DSG2 gene. Antiarrhythmic drugs have been used for treating patients with ARVC, by eliminating or decreasing the occurring frequency of arrhythmias. As his ECG showed frequent premature ventricular contractions (PVC), he was prescribed with oral propafenone. One day after the drug treatment, he presented",
+            "journal": "Frontiers in pediatrics",
+            "year": "2020",
+            "authors": [
+              "Chu Yan-Qiu",
+              "Wang Ce",
+              "Li Xue-Mei",
+              "Wang Hong"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33194879/"
+          },
+          {
+            "pmid": "34141771",
+            "title": "Arrhythmogenic right ventricular cardiomyopathy characterized by recurrent syncope during exercise: A case report.",
+            "abstract": "Arrhythmogenic right ventricular (RV) cardiomyopathy is a rare and currently underrecognized cardiomyopathy characterized by the replacement of RV myocardium by fibrofatty tissue. It may be asymptomatic or symptomatic (palpitations or syncope) and may induce sudden cardiac death, especially during exercise. To prevent adverse events such as sudden cardiac death and heart failure, early diagnosis and treatment of arrhythmogenic RV cardiomyopathy (ARVC) are crucial. We report a patient with ARVC characterized by recurrent syncope during exercise who was successfully treated with combined endocardial and epicardial catheter ablation.",
+            "journal": "World journal of clinical cases",
+            "year": "2021",
+            "authors": [
+              "Wu Hao-Yu",
+              "Cao Yi-Wei",
+              "Gao Tian-Jiao",
+              "Fu Jian-Li",
+              "Liang Lei"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34141771/"
+          },
+          {
+            "pmid": "12365869",
+            "title": "Exercise-induced bidirectional ventricular tachycardia with alternating right and left bundle branch block-type patterns--a case report.",
+            "abstract": "Exercise-induced ventricular tachycardia in young adults may occur with various structural heart diseases or with structurally normal heart. The structural heart diseases reported to cause exercise-induced ventricular tachycardia in this patient population include arrhythmogenic right ventricular dysplasia, hypertrophic cardiomyopathy, dilated cardiomyopathy, myocarditis, congenital heart disease, and myocardial ischemia. The conditions well identified to cause exercise-induced ventricular tachycardia with structurally normal heart are congenital long-QT syndrome and familial polymorphic ventricular tachycardia. Exercise-induced ventricular tachycardia may display polymorphic, monomorphic, or bidirectional morphologies. A case of exercise-induced catecholamine-sensitive bidirectional ventricular tachycardia with alternating right and left bundle branch block patterns is reported in a young boy in the absence of structural heart disease, the conditions causing bidirectional ventricular ",
+            "journal": "Angiology",
+            "year": "2002",
+            "authors": [
+              "Khan Ijaz A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenergic beta-Antagonists",
+              "Age Factors",
+              "Anti-Arrhythmia Agents",
+              "Bundle-Branch Block",
+              "Death, Sudden, Cardiac",
+              "Defibrillators, Implantable",
+              "Electrocardiography",
+              "Exercise",
+              "Exercise Test"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12365869/"
+          },
+          {
+            "pmid": "2467467",
+            "title": "Arrhythmogenic right ventricular dysplasia: case report presentation and review of the literature.",
+            "abstract": "A man complaining of palpitations was found to have ventricular tachycardia (VT) with LBBB configuration. From the investigations which followed, he was diagnosed as having arrhythmogenic right ventricular dysplasia (ARVD). The patient has been treated with amiodarone and propafenon for 7 months without VT recurrence. ARVD and Uhl's anomaly, which is its most extreme form, may be familial and represent an important cause of sudden death among young people: Prophylactic antiarrhythmic therapy and sometimes surgical treatment are required in case of refractory VT.",
+            "journal": "Acta cardiologica",
+            "year": "1988",
+            "authors": [
+              "Kouvaras G",
+              "Chronopoulos G",
+              "Solomos D",
+              "Sofronas G",
+              "Nikolaou P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bundle-Branch Block",
+              "Cardiac Complexes, Premature",
+              "Cardiac Output",
+              "Cardiomyopathies",
+              "Electrocardiography",
+              "Heart Ventricles",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Myocardial Contraction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2467467/"
+          },
+          {
+            "pmid": "8090973",
+            "title": "[The efficacy and safety of intravenous propafenone in the acute treatment of spontaneous sustained ventricular tachycardia].",
+            "abstract": "INTRODUCTION AND PURPOSES: Propafenone is an antiarrhythmic drug with well known electrophysiological effects. We performed this prospective non comparative study, in order to evaluate its efficacy and safety to terminate spontaneous episodes of monomorphic sustained ventricular tachycardia.",
+            "journal": "Revista espanola de cardiologia",
+            "year": "1994",
+            "authors": [
+              "Mestre J L",
+              "Moro C",
+              "Madrid A H",
+              "Novo L",
+              "Marín-Huerta E"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Aged",
+              "Chi-Square Distribution",
+              "Drug Evaluation",
+              "Electrocardiography",
+              "Female",
+              "Humans",
+              "Infusions, Intravenous",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8090973/"
+          },
+          {
+            "pmid": "9115775",
+            "title": "[Guided anti-arrhythmia therapy by programmed ventricular stimulation. A case of arrhythmogenic dysplasia of the right ventricle].",
+            "abstract": "Right ventricle dysplasia (RVD) is a rare clinical entity, described in young people, and a known cause of ventricular arrhythmias and sudden death. A genetic transmission has been suggested from the study of familial cases. The disease is characterized by a dilated right ventricle, cardiac infiltration with fatty tissue and focal fibrosis. Lymphoplasmocyte infiltrates are documented. The diagnosis is based on electrocardiography, echocardiography, magnetic resonance imaging and right ventricular endomyocardial biopsy. The authors report a case of a young woman with symptomatic ventricular tachycardia (VT) in whom the diagnosis of RVD was established. Programmed ventricular stimulation was used to reproduce the clinical VT and to test the efficacy of the anti-arrhythmic drug therapy. The diagnosis criteria and therapeutic options are discussed.",
+            "journal": "Revista portuguesa de cardiologia : orgao oficial da Sociedade Portuguesa de Cardiologia = Portuguese journal of cardiology : an official journal of the Portuguese Society of Cardiology",
+            "year": "1997",
+            "authors": [
+              "Oliveira M",
+              "da Silva N",
+              "Antunes E",
+              "Pinto E",
+              "Cotrim C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Arrhythmia Agents",
+              "Biopsy",
+              "Cardiac Pacing, Artificial",
+              "Cardiomyopathies",
+              "Endocardium",
+              "Female",
+              "Heart Ventricles",
+              "Humans",
+              "Propafenone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9115775/"
+          },
+          {
+            "pmid": "8316922",
+            "title": "Normal left ventricular function does not protect against propafenone-induced incessant ventricular tachycardia.",
+            "abstract": "Propafenone is a class Ic anti-arrhythmic agent with mild beta-blocking properties which has recently become available in South Africa. We have used the drug in 3 patients with sustained monomorphic ventricular tachycardia not due to ischaemic heart disease. All had normal left ventricular function; 1 had Wegener's granulomatosis and 2 had arrhythmogenic right ventricular dysplasia. In the latter 2, propafenone provoked incessant monomorphic ventricular tachycardia which persisted for more than 24 hours despite repeated efforts at termination. The morphology was similar to the patients' spontaneous ventricular tachycardia, but the rate was slower and the QRS complexes broader, consistent with propafenone's marked ability to slow intraventricular conduction. It is postulated that incessant tachycardia results from perpetuation of re-entry due to marked conduction slowing produced by the drug. Previous reports have suggested that this is most likely to occur in patients with poor left ve",
+            "journal": "South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde",
+            "year": "1993",
+            "authors": [
+              "Millar R N",
+              "Lawrenson J B",
+              "Milne D A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Electrocardiography",
+              "Humans",
+              "Male",
+              "Propafenone",
+              "Tachycardia, Ventricular",
+              "Ventricular Function, Left"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8316922/"
+          },
+          {
+            "pmid": "12142109",
+            "title": "Long-term clinical significance of frequent and complex ventricular tachyarrhythmias in trained athletes.",
+            "abstract": "The aim of this study was to clarify the clinical relevance of ventricular tachyarrhythmias assessed by 24-h ambulatory electrocardiograms (ECG) in a large, unique, and prospectively evaluated athletic population.",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2002",
+            "authors": [
+              "Biffi Alessandro",
+              "Pelliccia Antonio",
+              "Verdile Luisa",
+              "Fernando Fredrick",
+              "Spataro Antonio"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenergic beta-Antagonists",
+              "Adult",
+              "Anti-Arrhythmia Agents",
+              "Cardiovascular Abnormalities",
+              "Circadian Rhythm",
+              "Electrocardiography, Ambulatory",
+              "Electrophysiologic Techniques, Cardiac",
+              "Enalapril",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12142109/"
+          },
+          {
+            "pmid": "3125812",
+            "title": "[Treatment of ventricular tachycardia with propafenone. Parallel study of ventricular provocation tests].",
+            "abstract": "Propafenone (P), a class IC antiarrhythmic drug, was tested intravenously and orally in the curative and preventive treatment of sustained (VTS) and non-sustained (VTNS) ventricular tachycardia. The 16 patients involved included 11 men and 5 women of mean age 49 years. They all had heart disease: ischaemia in 3, right ventricular arrhythmogenic dysplasia in 6, dilated myocardiopathy in 5 and left ventricular aneurysm in 2. Intravenous P in doses of 1.5 mg/kg controlled VT within 2 or 3 minutes on average in 9 out of 12 patients. Following the injection VT could not be reinduced in 2 out of 10 patients; other inductions were harder to obtain or resulted in VTNS instead of VTS (n = 3), or remained unchanged (n = 5). When P was administered orally (mean dose 900 mg) to 14 patients reinduction of VT was no longer possible in 2 cases, more difficult in 1 case, remained unchanged in 7 cases and was easier in 4 cases. Long-term oral therapy at the same dosage level prevented recurrences of VT",
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1987",
+            "authors": [
+              "Faućhier J P",
+              "Rouesnel P",
+              "Cosnay P",
+              "Moquet B",
+              "Huguet R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Cardiac Pacing, Artificial",
+              "Female",
+              "Heart Function Tests",
+              "Heart Ventricles",
+              "Humans",
+              "Injections, Intravenous",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3125812/"
+          },
+          {
+            "pmid": "6433845",
+            "title": "[Treatment by endocavitary fulguration of recurrent ventricular tachycardia caused by right ventricular dysplasia].",
+            "abstract": "A 27 year old man had recurrent ventricular tachycardia since the age of 16. Different antiarrhythmic drugs were used successively without success (mexiletine, amiodarone, acebutolol, propafenone, sotalol). The diagnosis of VT due to arrhythmogenic right ventricular dysplasia was suggested by the morphology of the tachycardia (left-sided delay), surface ECG appearances (right bundle branch block and potential after the QRS in right precordial leads) and the presence of delayed potentials on right ventricular endocavitary recordings. However, there were no obvious RV changes on echo or angiographic examination. The arrhythmogenic zone was localised in the postero-basal zone of the RV using three electrophysiological criteria: the recording of delayed systolic potential in sinus rhythm which overlapped into diastole during tachycardia, mapping of ventricular depolarisation during VT and results of RV \"pacemapping\" reproducing the appearances of the spontaneous tachycardia. VT was reprodu",
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1984",
+            "authors": [
+              "Puech P",
+              "Gallay P",
+              "Grolleau R",
+              "Koliopoulos N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Electrocoagulation",
+              "Heart Conduction System",
+              "Heart Ventricles",
+              "Humans",
+              "Male",
+              "Recurrence",
+              "Tachycardia",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6433845/"
+          },
+          {
+            "pmid": "16895767",
+            "title": "Exercise-induced ventricular tachycardia associated with J point ST-segment elevation in inferior leads in a patient without apparent heart disease: a variant form of Brugada syndrome?",
+            "abstract": "Exercise-induced monomorphic ventricular tachycardia originating in the right ventricular outflow tract without evidence of structural heart disease can be idiopathic or can be the harbinger of structural abnormalities such as arrhythmogenic right ventricular dysplasia. Recently, the so-called variant Brugada syndrome has been reported in very few cases in the literature and is much less electrophysiologically defined in terms of its clinical significance. We present the case of a 21-year-old man with exercise-induced monomorphic ventricular tachycardia (left bundle-branch block/right axis deviation), without detectable structural heart disease, with evidence of J point and ST-segment elevation in electrocardiogram leads II, III, and aVF after intravenous administration of propafenone. This is followed by a brief discussion on the new concept of \"variant Brugada syndrome,\" drug-induced electrocardiographic changes, normal-variant repolarization abnormality, and idiopathic right ventric",
+            "journal": "Journal of electrocardiology",
+            "year": "2006",
+            "authors": [
+              "Ozeke Ozcan",
+              "Aras Dursun",
+              "Celenk Mehmet K",
+              "Deveci Bulent",
+              "Yildiz Ali"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bundle-Branch Block",
+              "Diagnosis, Differential",
+              "Electrocardiography",
+              "Exercise Test",
+              "Humans",
+              "Male",
+              "Physical Exertion",
+              "Syndrome",
+              "Tachycardia, Ventricular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16895767/"
+          },
+          {
+            "pmid": "2114081",
+            "title": "[Incessant idiopathic ventricular tachycardia in infants].",
+            "abstract": "Reduction of the arrhythmia was obtained in 1 to 5 days, spontaneously (2 cases) of after oral amiodarone (500 to 2000 mg/m2/24 hr) (5 cases) or intravenous flecainide or propafenone in the two most critically ill patients. With the exception of 1 patient who was successfully treated with propranolol for 1 year, amiodarone was prescribed in all cases for 7 to 36 months after reversion to sinus rhythm: 5 children have been taken off treatment and seem to be completely cured 4 to 9 years after withdrawal; the other 3 patients have not had recurrences but have only been treated for 6 to 15 months. One of them has neurological sequellae from a cerebral embolism originating from an atrial thrombus. These results show that incessant ventricular tachycardia in infancy is a serious condition but amenable to medical treatment with high dose amiodarone or, when poorly tolerated, intravenous Class 1c antiarrhythmics for reduction of the arrhythmia, and amiodarone at adequate doses for 2 years to ",
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1990",
+            "authors": [
+              "Villain E",
+              "Bonnet D",
+              "Kachaner J",
+              "Le Bidois J",
+              "Cohen L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Cardiomyopathies",
+              "Child, Preschool",
+              "Electrocardiography",
+              "Female",
+              "Flecainide",
+              "Follow-Up Studies",
+              "Heart Neoplasms",
+              "Heart Ventricles",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2114081/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9923490285873412,
+        "txgnn_rank": 8757,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trichotillomania",
+        "txgnn_score": 0.9917346239089966,
+        "txgnn_rank": 9226,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Tourette syndrome",
+        "txgnn_score": 0.9849322438240052,
+        "txgnn_rank": 14236,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.969287097454071,
+        "txgnn_rank": 21524,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39842538",
+            "title": "The Safety Profile of Amiodarone Among Older Adults (Age ≥75 Years): A Pharmacovigilance Study from the FDA Data.",
+            "abstract": "Amiodarone is a widely used antiarrhythmic agent with significant toxicities and drug interactions more likely to affect older adults. Nevertheless, data regarding amiodarone safety in this population are limited.",
+            "journal": "The American journal of medicine",
+            "year": "2025",
+            "authors": [
+              "Lerman Tsahi T",
+              "Gadot Chen",
+              "Greenberg Noam",
+              "Kruchin Boris",
+              "Rahat Ori"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Amiodarone",
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "United States",
+              "Pharmacovigilance",
+              "Retrospective Studies",
+              "Male",
+              "Female",
+              "United States Food and Drug Administration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39842538/"
+          },
+          {
+            "pmid": "15336799",
+            "title": "Acute ventricular rate control in atrial fibrillation and atrial flutter.",
+            "abstract": "Atrioventricular node blocking agents including beta-adrenergic blockers, non-dihydropyridine calcium channel blockers and digoxin are usually effective in controlling ventricular rate in atrial fibrillation and flutter. Intravenous beta-blockers and non-dihydropyridine calcium channel blockers are equally effective in rapidly controlling the ventricular rate. The addition of digoxin to the regimen causes a favorable outcome but digoxin as a single agent is generally less effective in slowing the ventricular rate in acute setting. Clonidine, magnesium, and amiodarone have also been used for acute ventricular rate control in atrial fibrillation. Limited data suggest that combination regimens provide better ventricular rate control than any agent alone. The agent of first choice is usually individualized depending upon the clinical situation. Beta-blockers are preferable in patients with myocardial ischemia, myocardial infarction and hyperthyroidism and in post-operative state, but shoul",
+            "journal": "International journal of cardiology",
+            "year": "2004",
+            "authors": [
+              "Khan Ijaz A",
+              "Nair Chandra K",
+              "Singh Narpinder",
+              "Gowda Ramesh M",
+              "Nair Reshma C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Atrial Fibrillation",
+              "Atrial Flutter",
+              "Heart Ventricles",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15336799/"
+          },
+          {
+            "pmid": "8809539",
+            "title": "Follow-up of atrial fibrillation: The initial experience of the Canadian Registry of Atrial Fibrillation.",
+            "abstract": "Previous reports of the follow-up of patients with atrial fibrillation have been confusing because of the variety of clinical presentations, heterogeneity of underlying pathology, and the initiation of follow-up at various stages of the patient's disease. The Canadian Registry of Atrial Fibrillation (CARAF) is a non-interventional, follow-up study of patients enrolled at the time of their initial diagnosis with atrial fibrillation at seven Canadian centres. At baseline, a comprehensive database recorded clinical, laboratory, and echocardiographic variables. No specific intervention was initiated and care was left to the attending physicians. Follow-up was performed at 3 months, 1 year, then annually. Echocardiograms were repeated every 2 years. Recurrence of atrial fibrillation, medical intervention, stroke, death, and other significant events have been specifically recorded. To date, 967 patients have been enrolled. Seven hundred and sixty-seven patients have been followed for 1 year,",
+            "journal": "European heart journal",
+            "year": "1996",
+            "authors": [
+              "Kerr C",
+              "Boone J",
+              "Connolly S",
+              "Greene M",
+              "Klein G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Clinical Trials as Topic",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Registries",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8809539/"
+          },
+          {
+            "pmid": "11757212",
+            "title": "[Comparison of efficacy, safety and cost-effectiveness of intravenous versus oral propafenone in paroxysmal atrial fibrillation].",
+            "abstract": "The purpose of this study was to investigate the efficacy, safety and cost-effectiveness of intravenous and oral propafenone in the conversion of paroxysmal atrial fibrillation propafenone to sinus rhythm. We analysed two groups of 100 consecutive patients (pts) treated because of propafenone with duration < 48 h. The first group was treated with intravenous PFN (bolus of 70 to 140 mg) and the second group was treated with oral PFN (300 to 600 mg). These 2 groups were comparable in age, sex, evidence of CAD, hypertension, mitral valve disease, history of hyperthyroidism and the level of K+ at admittance. Conversion to sinus rhythm was achieved in 64 (64%) pts who received i.v. propafenone and in 77 (77%) who received oral propafenone (p < 0.05). We conclude that oral and intravenous propafenone is safe in the termination of propafenone. Oral route of administration appears to be superior to intravenous because of greater efficacy and cost-effectiveness.",
+            "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
+            "year": "2001",
+            "authors": [
+              "Zadura M",
+              "Grossmann G",
+              "Modrzewska A",
+              "Klecha T",
+              "Klepacka H"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Cost-Benefit Analysis",
+              "Female",
+              "Humans",
+              "Injections, Intravenous",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11757212/"
+          },
+          {
+            "pmid": "9809905",
+            "title": "The Canadian Registry of Atrial Fibrillation: a noninterventional follow-up of patients after the first diagnosis of atrial fibrillation.",
+            "abstract": "The Canadian Registry of Atrial Fibrillation (CARAF) is a nondirected, follow-up study of 1,086 patients who are enrolled at 6 centers across Canada at the time of initial electrocardiographically documented diagnosis of atrial fibrillation (AF). Enrollment commenced in 1991 with an intended 10-year follow-up. Comprehensive baseline data, including clinical history, laboratory, and echocardiographic variables were collected. The patients were treated by their own referring physicians and CARAF did not direct their care. Detailed follow-up was performed at 3 months, 1 year, then yearly, with echocardiograms repeated every 2 years. Several studies, which evaluated patient populations, predictors of events, and cardiac structure and functioning, have been performed and are ongoing. Thyroid function was evaluated at baseline, and, of 707 patients evaluated, only 6 patients were found to be hyperthyroid. Symptoms during AF were evaluated and a profile of the types of symptoms and the predic",
+            "journal": "The American journal of cardiology",
+            "year": "1998",
+            "authors": [
+              "Kerr C R",
+              "Boone J",
+              "Connolly S J",
+              "Dorian P",
+              "Green M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Atrial Fibrillation",
+              "Canada",
+              "Databases, Factual",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Registries"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9809905/"
+          },
+          {
+            "pmid": "7595187",
+            "title": "Propafenone in a usual dose produces severe side-effects: the impact of genetically determined metabolic status on drug therapy.",
+            "abstract": "We report the case of an elderly lady presenting with dizziness, a head injury resulting from a fall and bradycardia. Propafenone 150 mg t.i.d. had been prescribed for atrial fibrillation with tachyarrhythmia, induced by hyperthyroidism, 18 months earlier. A toxic concentration of parent propafenone, and no 5-hydroxy metabolite, was detected in a plasma sample. Symptoms disappeared after the discontinuation of propafenone. The poor metaboliser (PM) phenotype of sparteine/debrisoquine was assumed and subsequently confirmed by phenotyping (sparteine test) and genotyping (allele-specific polymerase chain reaction). The PM phenotype is common in European populations, with a prevalence of about 7%. If drugs with narrow therapeutic ranges undergo genetically polymorphic metabolism, toxicity may arise even with recommended doses. Individualization of doses is required to avoid adverse effects.",
+            "journal": "Journal of internal medicine",
+            "year": "1995",
+            "authors": [
+              "Mörike K",
+              "Magadum S",
+              "Mettang T",
+              "Griese E U",
+              "Machleidt C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "Cytochrome P-450 Enzyme System",
+              "Debrisoquin",
+              "Female",
+              "Genotype",
+              "Humans",
+              "Phenotype",
+              "Polymerase Chain Reaction",
+              "Polymorphism, Genetic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7595187/"
+          },
+          {
+            "pmid": "9610964",
+            "title": "Intravenous propafenone for converting recent onset atrial fibrillation in emergency departments: a randomized placebo-controlled multicenter trial. FAPS Investigators Study Group.",
+            "abstract": "Atrial fibrillation (AF) is one of the most frequent dysrhythmias in patients coming to emergency departments (EDs), and pharmacological treatment is frequently performed. The aim of this randomized placebo-controlled multicenter trial was to compare propafenone (a class 1C antidysrhythmic agent), administered i.v. in the ED, with placebo in the treatment of recent-onset AF (<72 h). We randomly allocated 156 patients (88 males; 68 females) from 18 to 80 years old, with recent-onset AF, to receive i.v. propafenone (2 mg/kg for 10 min) or the matching placebo. The patients were followed for 2 h. Exclusion criteria were the presence of one of the following: lack of informed consent, clinical evidence of heart failure, clinical hyperthyroidism, recent acute myocardial infarction, atrioventricular block, cardiac valve dysfunction, a history of bronchial asthma, and current treatment with antidysrhythmic agents including digitalis. The two groups did not differ significantly in terms of sex,",
+            "journal": "The Journal of emergency medicine",
+            "year": "1998",
+            "authors": [
+              "Ganau G",
+              "Lenzi T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Emergency Treatment",
+              "Female",
+              "Humans",
+              "Infusions, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9610964/"
+          },
+          {
+            "pmid": "8129196",
+            "title": "Role of transesophageal pacing in recurrent atrial fibrillation. Experience with propafenone.",
+            "abstract": "To assess the role of transesophageal pacing (TP) at very high rates in the follow-up of patients with recurrent and sustained paroxysmal atrial fibrillation (AF) on therapy, the authors studied 15 patients (10 women, 5 men; aged forty-four to seventy-seven years old). Of them only 1 had a mild mitral regurgitation; none had hyperthyroidism or acute ischemic heart disease. They tested propafenone (P) at a dose of 1.4-2 mg/kg over ten minutes as an intravenous bolus and 0.5 mg/minute as intravenous maintenance for two hours and then 300 mg twice daily orally and chronically. Serial TPs at very rapid rates (up to 600 bpm) were performed to test the long-term efficacy of P to prevent paroxysmal AF. The mean follow-up was fifteen months (nine to twenty-four months).",
+            "journal": "Angiology",
+            "year": "1994",
+            "authors": [
+              "Turco P",
+              "Guarino P",
+              "Parente A",
+              "Viola V",
+              "Candelmo F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Atrial Fibrillation",
+              "Cardiac Pacing, Artificial",
+              "Echocardiography, Doppler",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Infusions, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8129196/"
+          },
+          {
+            "pmid": "3607590",
+            "title": "Torsade de pointes ventricular tachycardia in a hypothyroid patient treated with propafenone.",
+            "abstract": "A 31-year-old female had recurring palpitations and black-outs for 13 years. Hyperthyroidism was diagnosed and electrocardiogram suggested ventricular preexcitation. Despite being treated for hyperthyroidism (which rendered the patient hypothyroid) and receiving propranolol for the arrhythmia, the palpitations persisted. Electrophysiologic testing identified the patient's arrhythmia, and demonstrated that it improved with intravenous propafenone, a new type 1C antiarrhythmic medication. After two days of oral propafenone, this initially good response was followed by episodes of Torsade de pointes ventricular tachycardia with repeated cardiac arrest. Lidocaine and isoproterenol failed to control the rhythm, and the patient was stabilized by electrical cardioversions, atrial pacing and withdrawing the propafenone. Propafenone has been used to treat Torsade de pointes, but we show that it may also cause Torsade de pointes.",
+            "journal": "The Canadian journal of cardiology",
+            "year": "1987",
+            "authors": [
+              "Rosengarten M",
+              "Brooks R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Heart Arrest",
+              "Humans",
+              "Hyperthyroidism",
+              "Hypothyroidism",
+              "Propafenone",
+              "Propranolol",
+              "Propylthiouracil",
+              "Tachycardia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3607590/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01182",
+    "name": "Propafenone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Propafenone"
+      },
+      "queried_at": "2026-03-09T18:18:36.782341",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Propafenone"
+      },
+      "queried_at": "2026-03-09T18:18:45.522557",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-09T18:18:46.446368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-09T18:18:52.339484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-09T18:18:56.823484",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T18:18:57.391681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T18:19:01.440812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T18:19:04.662621",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "queried_at": "2026-03-09T18:19:05.313384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "queried_at": "2026-03-09T18:19:11.261129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "queried_at": "2026-03-09T18:19:12.623616",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T18:19:13.278849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T18:19:16.816874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T18:19:17.644770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T18:19:18.517748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T18:19:22.649278",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T18:19:24.862060",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T18:19:25.675346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T18:19:31.122467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      },
+      "queried_at": "2026-03-09T18:19:33.626758",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T18:19:34.679569",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T18:19:38.842841",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T18:19:39.561924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-09T18:19:40.375351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-09T18:19:44.080335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-09T18:19:46.727030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-09T18:19:48.944116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-09T18:19:53.175515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-09T18:19:54.181491",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T18:19:55.017620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T18:20:00.410389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propafenone",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T18:20:03.639203",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:20:03.691599"
+  }
+}

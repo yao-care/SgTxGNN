@@ -1,0 +1,1911 @@
+{
+  "drug": {
+    "inn": "Atovaquone",
+    "drugbank_id": "DB01117",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9424247145652772,
+        "txgnn_rank": 28352,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32310272",
+            "title": "Clofazimine, a Promising Drug for the Treatment of Babesia microti Infection in Severely Immunocompromised Hosts.",
+            "abstract": "Persistent and relapsing babesiosis caused by Babesia microti often occurs in immunocompromised patients, and has been associated with resistance to antimicrobial agents such as atovaquone. Given the rising incidence of babesiosis in the United States, novel drugs are urgently needed. In the current study, we tested whether clofazimine (CFZ), an antibiotic used to treat leprosy and drug-resistant tuberculosis, is effective against B. microti.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2020",
+            "authors": [
+              "Tuvshintulga Bumduuren",
+              "Vannier Edouard",
+              "Tayebwa Dickson S",
+              "Gantuya Sambuu",
+              "Sivakumar Thillaiampalam"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Animals",
+              "Babesia microti",
+              "Babesiosis",
+              "Clofazimine",
+              "Cytochromes b",
+              "DNA, Protozoan",
+              "Disease Models, Animal",
+              "Drug Evaluation, Preclinical",
+              "Drug Resistance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32310272/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nocardiosis",
+        "txgnn_score": 0.908963143825531,
+        "txgnn_rank": 33853,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40395122",
+            "title": "Premature Discontinuation of Trimethoprim/Sulfamethoxazole Prophylaxis in Abdominal Transplant Recipients: A Deeper Dive.",
+            "abstract": "Trimethoprim/sulfamethoxazole (TMP/SMX) prophylaxis can prevent Pneumocystis jirovecii pneumonia (PJP) and other opportunistic infections (OI). We sought to assess the frequency, causative factors, and impact of early TMP/SMX discontinuation in abdominal solid organ transplant (SOT). This is a single-center, retrospective cohort study of abdominal SOT recipients at Mayo Clinic Arizona (MCA) between January 2021 and June 2023. Primary study goals were to determine the rate and reasons behind early TMP/SMX discontinuation and whether TMP/SMX prophylaxis was reinitiated. Secondary outcomes included mean duration of therapy, alternative prophylactic agent utilized, and incidence of TMP/SMX-preventable OI. A total of 930 abdominal SOT recipients were included (592 kidney, 253 liver, 85 multiorgan transplants). TMP/SMX was discontinued early in 184 (20%) patients: 77 kidney, 84 liver, 23 multiorgan. Predominant reasons for discontinuation were hyperkalemia (39%) and cytopenias (35%). Median ",
+            "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+            "year": "2025",
+            "authors": [
+              "Hudson Madeline R",
+              "Tinkham Tyler T",
+              "Ilges Dan",
+              "Votruba Cassandra D",
+              "Corey Rebecca"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Trimethoprim, Sulfamethoxazole Drug Combination",
+              "Retrospective Studies",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Antibiotic Prophylaxis",
+              "Transplant Recipients",
+              "Pneumonia, Pneumocystis",
+              "Organ Transplantation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40395122/"
+          },
+          {
+            "pmid": "38235260",
+            "title": "Antibiotic prophylaxis in immunosuppressed patients - Missed opportunities from trimethoprim-sulfamethoxazole allergy label.",
+            "abstract": "Trimethoprim-sulfamethoxazole (TMP-SMX) is a broad spectrum antibiotic in use for more than 50 years. It has an important indication as first line agent in the prophylaxis of opportunistic infections, particularly Pneumocystis jirovecii pneumonia (PJP), in immunosuppressed patients. For those who have a history of allergy or severe intolerance to TMP-SMX, pentamidine, dapsone or atovaquone may be substituted; however there is evidence that TMP-SMX offers superior coverage for PJP, toxoplasmosis, and nocardiosis. Compared to pentamidine, it has the added benefit of cost-effectiveness and self-administration as opposed to required hospital attendance for administration. Many patients who report a history of allergy or adverse reaction to TMP-SMX (or \"sulfur allergy\") will be found not to be allergic; and even those who are allergic may be able to be desensitized. The evaluation and, where appropriate, removal of TMP-SMX allergy label enables the use of TMP-SMX for prophylaxis against opp",
+            "journal": "The World Allergy Organization journal",
+            "year": "2024",
+            "authors": [
+              "Lee Wei-I",
+              "Lam Lydia",
+              "Bacchi Stephen",
+              "Jiang Melinda",
+              "Inglis Joshua M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38235260/"
+          },
+          {
+            "pmid": "38670455",
+            "title": "Successful maintenance treatment of disseminated nocardiosis with cerebral abscess in a severely immunocompromised patient allergic to trimethoprim-sulfamethoxazole using moxifloxacin and high-dose minocycline: A case report.",
+            "abstract": "Nocardiosis in patients after allogeneic hematopoietic stem cell transplantation (HSCT) is rare, but is associated with a significant mortality risk. Although trimethoprim-sulfamethoxazole (TMP/SMX) remains the cornerstone of nocardiosis treatment, optimal alternative therapies for patients intolerant to TMP/SMX are not well-established. Herein, we report a case of disseminated nocardiosis with bacteremia and multiple lesions in the lungs and brain caused by Nocardia farcinica, in a 60-year-old man who had previously undergone allogeneic HSCT and was receiving immunosuppressants for severe chronic graft-versus-host disease. The patient received atovaquone for the prophylaxis of Pneumocystis pneumonia because of a previous serious allergic reaction to TMP/SMX. The patient was initially treated with imipenem/cilastatin and amikacin, which were later switched to ceftriaxone and amikacin based on the results of antimicrobial susceptibility testing. After switching to oral levofloxacin and ",
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2024",
+            "authors": [
+              "Yamamoto Hiroshi",
+              "Kuroda Hirokazu",
+              "Hiramoto Nobuhiro",
+              "Hasuike Toshikazu",
+              "Doi Asako"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Nocardia Infections",
+              "Middle Aged",
+              "Brain Abscess",
+              "Trimethoprim, Sulfamethoxazole Drug Combination",
+              "Immunocompromised Host",
+              "Nocardia",
+              "Anti-Bacterial Agents",
+              "Moxifloxacin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38670455/"
+          },
+          {
+            "pmid": "35968520",
+            "title": "Sulphamethoxazole-trimethoprim induced fixed drug eruption in a patient with Chronic Granulomatous Disease.",
+            "abstract": "Chronic granulomatous disease (CGD) is a known Primary immunodeficiency disease that results in recurrent, life-threatening bacterial, fungal infections and granuloma formation which requires lifelong antibacterial and antifungal prophylaxis. Sulphamethoxazole-trimethoprim (TMP-SMX/Septrin) is the prophylactic antibacterial drug of choice.1 Adverse drug reactions, including Fixed Drug Eruption (FDE) to TMP-SMX in CGD patients, are challenging as it may result in serious complications and difficulties in management. A seventeen-year-old Qatari female diagnosed with CGD was maintained on prophylactic TMP-SMX and itraconazole since childhood. She developed bullous skin lesions involving the face, neck, and trunk sparing the limbs. The skin lesion was confirmed to be FDE by skin biopsy. TMP-SMX was discontinued as it was suspected to be the causative agent. Atovaquone 1500 mg and clarithromycin 250 mg daily were started as an alternative, but the patient could not tolerate them. TMP-SMX sl",
+            "journal": "Qatar medical journal",
+            "year": "2022",
+            "authors": [
+              "Rahim Thalappil Sherin",
+              "A Al-Nesf Maryam"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35968520/"
+          },
+          {
+            "pmid": "39136148",
+            "title": "Sulfonamide allergy label and the risk of opportunistic infections in solid organ transplant recipients - A retrospective matched cohort study.",
+            "abstract": "While a penicillin allergy label has been linked to various negative clinical outcomes, limited studies have specifically characterized the implication of sulfonamide allergy labels (SAL) on clinical outcomes. We examined the impact of SAL on clinical outcomes of solid organ transplant recipients.",
+            "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+            "year": "2024",
+            "authors": [
+              "Al-Shaikhly Taha",
+              "Al-Obaydi Sarah",
+              "Craig Timothy J",
+              "Henao Maria P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Retrospective Studies",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Organ Transplantation",
+              "Opportunistic Infections",
+              "Sulfonamides",
+              "Drug Hypersensitivity",
+              "Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39136148/"
+          },
+          {
+            "pmid": "32894607",
+            "title": "Alternative pneumocystis prophylaxis in solid organ transplant recipients at two large transplant centers.",
+            "abstract": "Trimethoprim-sulfamethoxazole (TMP-SMX) is the drug of choice for Pneumocystis jirovecii pneumonia (PJP) prophylaxis and has activity against other opportunistic infections (OIs) after solid organ transplant (SOT). We aimed to describe the incidence, reasons for and outcomes of use of alternative prophylactic agents (APAs) across SOT programs in our high volume centers.",
+            "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+            "year": "2021",
+            "authors": [
+              "Lum Jessica",
+              "Echenique Ignacio",
+              "Athans Vasilios",
+              "Koval Christine E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Organ Transplantation",
+              "Pneumocystis carinii",
+              "Pneumonia, Pneumocystis",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32894607/"
+          },
+          {
+            "pmid": "29555315",
+            "title": "Increased Incidence of Nocardial Infections in an Era of Atovaquone Prophylaxis in Allogeneic Hematopoietic Stem Cell Transplant Recipients.",
+            "abstract": "Nocardial infections have been rare after allogeneic hematopoietic stem cell transplantation (HSCT). We report 10 recent cases of late-onset nocardiosis (median time of onset of 508 days after transplantation) primarily in patients on high doses of corticosteroids for graft-versus-host disease. All 10 patients had pulmonary infection caused by Nocardia species susceptible to trimethoprim-sulfamethoxazole (TMP-SMX). At time of diagnosis 8 of 10 patients were not receiving TMP-SMX for prophylaxis of Pneumocystis jiroveci pneumonia (PJP; 7 on atovaquone, 1 on i.v. pentamidine). After the initiation of atovaquone prophylaxis for PJP in place of TMP-SMX for many UCLA allogeneic HSCT patients in 2012, 9 cases of nocardiosis occurred in 411 patients (2.2%) over the next 6 years (2012 to 2017) compared with only 1 case in 575 patients (0.17%) during the previous 12 years (2000 to 2011). Although there were no deaths directly related to nocardial infection treated primarily with TMP-SMX, overal",
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2018",
+            "authors": [
+              "Molina Alfonso",
+              "Winston Drew J",
+              "Pan Darren",
+              "Schiller Gary J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Allografts",
+              "Atovaquone",
+              "Female",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Incidence",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29555315/"
+          },
+          {
+            "pmid": "39658933",
+            "title": "Evaluation of the Incidence of Nocardia Infection in Solid Organ Transplant Recipients on Trimethoprim-Sulfamethoxazole for Opportunistic Infection Prophylaxis.",
+            "abstract": "Trimethoprim-sulfamethoxazole (TMP-SMX) is the preferred prophylactic agent for Pneumocystis jiroveci pneumonia (PJP) and toxoplasmosis after solid organ transplant (SOT). Compared with other agents, it has additional activity against Nocardia species.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2025",
+            "authors": [
+              "Jung Regina",
+              "Au Jenny",
+              "Burnell Jacqueline",
+              "Diamond Adam",
+              "Shah Ishani"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Trimethoprim, Sulfamethoxazole Drug Combination",
+              "Male",
+              "Nocardia Infections",
+              "Female",
+              "Middle Aged",
+              "Retrospective Studies",
+              "Incidence",
+              "Organ Transplantation",
+              "Opportunistic Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39658933/"
+          },
+          {
+            "pmid": "29879517",
+            "title": "Can We Kill Two Birds with This Stone? Anti-Pneumocystis Prophylaxis to Prevent Nocardia Infection in Hematopoietic Stem Cell Transplant Recipients.",
+            "abstract": "",
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2018",
+            "authors": [
+              "Coussement Julien",
+              "De Greef Julien",
+              "Duréault Amélie",
+              "Lebeaux David"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Atovaquone",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Incidence",
+              "Nocardia Infections",
+              "Pneumocystis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29879517/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "facial nerve palsy due to herpes zoster infection",
+        "txgnn_score": 0.8915932774543762,
+        "txgnn_rank": 35662,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.8800316452980042,
+        "txgnn_rank": 36731,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "toxoplasmosis",
+        "txgnn_score": 0.8666609525680542,
+        "txgnn_rank": 37860,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00001994",
+            "title": "A Pilot Study of 566C80 for the Salvage Treatment of Toxoplasmic Encephalitis in Patients Infected With the Human Immunodeficiency Virus (HIV) Who Have Failed or Are Intolerant of Pyrimethamine-Sulfadiazine",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "",
+            "completion_date": "",
+            "country": "Canada, United States",
+            "enrollment": "N/A",
+            "brief_summary": "To evaluate the safety and tolerance of atovaquone (566C80) in AIDS patients with central nervous system (CNS) toxoplasmosis. To evaluate the efficacy of 566C80 in the acute treatment and suppression of CNS toxoplasmosis in AIDS patients who fail or who cannot tolerate conventional therapy.",
+            "eligibility_criteria": "Inclusion Criteria\n\nPatients must have the following:\n\n* Presumptive diagnosis of AIDS.\n* Cerebral toxoplasmosis.\n* Expected survival of at least four weeks without therapy.\n* Willing and able to give informed consent.\n\nPrior Medication:\n\nAllowed:\n\n* Pyrimethamine-sulfonamide.\n* Clindamycin-sulfonam",
+            "endpoints": [],
+            "sponsor": "NIH AIDS Clinical Trials Information Service",
+            "url": "https://clinicaltrials.gov/study/NCT00001994"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01479361",
+            "title": "The Influence of Atazanavir-ritonavir and Efavirenz on Atovaquone Pharmacokinetics in HIV-infected Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-10-31",
+            "completion_date": "2014-02-20",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "Background:\n\n\\- People who are infected with the human immunodeficiency virus (HIV) are at risk of getting certain diseases. Two of these diseases are a type of pneumonia known as PCP and a brain infection called toxoplasmosis. Most people with HIV take antiretroviral (ARV) drugs to treat HIV and lower the risk of infections. However, some ARV drugs may make other drugs used to treat PCP and toxoplasmosis less effective. Researchers want to test specific ARV drugs to see if they affect atovaquon",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nA subject will be considered eligible for this study only if all of the following criteria are met:\n\n1. Between the ages of 18 and 70 years.\n2. HIV-infected patients stabilized (greater than or equal to 90 days) on ARV regimens containing efavirenz 600 mg daily, or atazanavir/",
+            "endpoints": [
+              "The primary objective of this study is to determine the steady state pharmacokinetics of 2 doses of atovaquone oral suspension in the presence of ATV/r, EFV, or no ARVs in HIV-infected patients."
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT01479361"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00000794",
+            "title": "Phase II Randomized Open-Label Trial of Atovaquone Plus Pyrimethamine and Atovaquone Plus Sulfadiazine for the Treatment of Acute Toxoplasmic Encephalitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "",
+            "completion_date": "1998-04",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "To evaluate the efficacy, safety, and tolerance of atovaquone with either pyrimethamine or sulfadiazine in AIDS patients with toxoplasmic encephalitis.\n\nAIDS patients with toxoplasmic encephalitis who receive the standard therapy combination of sulfadiazine and pyrimethamine experience a high frequency of severe toxicity. Atovaquone, an antibiotic that has demonstrated efficacy against toxoplasmosis in animal models and in preclinical testing has been well tolerated, is now available as a suspen",
+            "eligibility_criteria": "Inclusion Criteria\n\nConcurrent Medication:\n\nAllowed:\n\n* Aerosolized pentamidine for PCP prophylaxis.\n\nPER AMENDMENT 4/3/96:\n\n* History of treatment limiting toxicity to pyrimethamine. Patients with a history of treatment limiting toxicity to both pyrimethamine and sulfonamides will be assigned to re",
+            "endpoints": [],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00000794"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30209035",
+            "title": "Treatment of Toxoplasmosis: Historical Perspective, Animal Models, and Current Clinical Practice.",
+            "abstract": "Primary Toxoplasma gondii infection is usually subclinical, but cervical lymphadenopathy or ocular disease can be present in some patients. Active infection is characterized by tachyzoites, while tissue cysts characterize latent disease. Infection in the fetus and in immunocompromised patients can cause devastating disease. The combination of pyrimethamine and sulfadiazine (pyr-sulf), targeting the active stage of the infection, is the current gold standard for treating toxoplasmosis, but failure rates remain significant. Although other regimens are available, including pyrimethamine in combination with clindamycin, atovaquone, clarithromycin, or azithromycin or monotherapy with trimethoprim-sulfamethoxazole (TMP-SMX) or atovaquone, none have been found to be superior to pyr-sulf, and no regimen is active against the latent stage of the infection. Furthermore, the efficacy of these regimens against ocular disease remains uncertain. In multiple studies, systematic screening for Toxoplas",
+            "journal": "Clinical microbiology reviews",
+            "year": "2018",
+            "authors": [
+              "Dunay Ildiko Rita",
+              "Gajurel Kiran",
+              "Dhakal Reshika",
+              "Liesenfeld Oliver",
+              "Montoya Jose G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Drug Discovery",
+              "Humans",
+              "Models, Animal",
+              "Toxoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30209035/"
+          },
+          {
+            "pmid": "34595988",
+            "title": "Histopathological and ultrastructural assessment of atovaquone-proguanil hydrochloride combination in chronic murine toxoplasmosis.",
+            "abstract": "Over one billion people worldwide are expected to have Toxoplasma gondii infection with anonymous health problems. Available therapies are ineffective for persistent chronic toxoplasmosis. So, there is an imperative need for effective therapies to eliminate chronic tissue stage. In this study, we aimed to assess the effect of a drug combination of atovaquone and proguanil hydrochloride in the treatment of experimental chronic toxoplasmosis. Fifty Swiss Webster mice were used in the study. Forty mice were infected with Me49 type II cystogenic Toxoplasma gondii strain and allocated into four groups: infected untreated (vehicle-administered), infected and treated with cotrimoxazole (CTX) 370 mg/kg/day, infected and treated with atovaquone (ATV) 100 mg/kg/day, and infected and treated with atovaquone/proguanil (ATV/PROG) 50 mg/kg/day. An additional group of uninfected mice was used as an uninfected control group. Drug treatment was initiated 8 weeks post-infection and continued for two wee",
+            "journal": "Ultrastructural pathology",
+            "year": "2021",
+            "authors": [
+              "Elmehankar Manar S",
+              "Elhenawy Abeer A",
+              "Aboukamar Wafaa A",
+              "Elzoheiry Manal A",
+              "Nabih Nairmen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Atovaquone",
+              "Brain",
+              "Mice",
+              "Naphthoquinones",
+              "Proguanil",
+              "Toxoplasma",
+              "Toxoplasmosis, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34595988/"
+          },
+          {
+            "pmid": "25309522",
+            "title": "Toxoplasmosis complications and novel therapeutic synergism combination of diclazuril plus atovaquone.",
+            "abstract": "Toxoplasmosis is a major cause of foodborne disease, congenital complication, and morbidity. There is an urgent need for safe and effective therapies to encounter congenital and persisting toxoplasmosis. The hypothesis was: combination diclazuril plus atovaquone to exert a novel therapeutic synergy to prevent toxoplasmosis syndromes.",
+            "journal": "Frontiers in microbiology",
+            "year": "2014",
+            "authors": [
+              "Oz Helieh S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25309522/"
+          },
+          {
+            "pmid": "10649835",
+            "title": "Neurocysticercosis and acquired cerebral toxoplasmosis in children.",
+            "abstract": "Neurocysticercosis, prevalent wherever pigs are raised in the presence of poor sanitation, is the most common identifiable cause of new-onset epilepsy throughout the developing world. As immigration patterns have changed, children with neurocysticercosis are seen throughout the United States. Acute cysticercosis, the most common manifestation in children, reflects the host response to the dying parasite. Children typically present with seizures and have an excellent prognosis. Neuroimaging demonstrates a single ring or nodular enhancing lesion surrounded by edema. Short-term anticonvulsant therapy is indicated, but treatment with antiparasitic agents is not required. Other forms, such as active cysts (intact organism), intraventricular or subarachnoid racemous cysticercosis, and cysticercal meningoencephalitis, are less common manifestations of parasitic infection. Toxoplasmosis, caused by the parasite Toxoplasma gondii, can be acquired by ingestion of infected undercooked meat or from",
+            "journal": "Seminars in pediatric neurology",
+            "year": "1999",
+            "authors": [
+              "Mitchell W G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Anticonvulsants",
+              "Antiparasitic Agents",
+              "Child",
+              "Diagnosis, Differential",
+              "Epilepsy",
+              "Humans",
+              "Neurocysticercosis",
+              "Neurosurgical Procedures",
+              "Steroids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10649835/"
+          },
+          {
+            "pmid": "16282146",
+            "title": "Toxoplasmosis.",
+            "abstract": "Toxoplasmosis is the most common cause of posterior uveitis in immunocompetent subjects. The infection can be congenital or acquired. Ocular symptoms are variable according to the age of the subject. For instance, young children present with reduced visual acuity, strabismus, nystagmus, and leucocoria, while teenagers and adults complain of decreased vision, floaters, photophobia, pain, and hyperemia. Toxoplasmic retinochoroiditis typically affects the posterior pole, and the lesions can be solitary, multiple or satellite to a pigmented retinal scar. Active lesions present as grey-white focus of retinal necrosis with adjacent choroiditis, vasculitis, hemorrhage and vitreitis. Cicatrization occurs from the periphery towards the center, with variable pigmentary hyperplasia. Anterior uveitis is a common finding, with mutton-fat keratic precipitates, fibrine, cells and flare, iris nodules and posterior synechiae. Atypical presentations include punctate outer retinitis, neuroretinitis, papi",
+            "journal": "Seminars in ophthalmology",
+            "year": "2005",
+            "authors": [
+              "Bonfioli Adriana A",
+              "Orefice Fernando"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Protozoan",
+              "Antiprotozoal Agents",
+              "DNA, Protozoan",
+              "Diagnostic Imaging",
+              "Humans",
+              "Toxoplasma",
+              "Toxoplasmosis, Ocular",
+              "Uveitis, Posterior"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16282146/"
+          },
+          {
+            "pmid": "17321812",
+            "title": "Toxoplasmosis.",
+            "abstract": "Infections with Toxoplasma gondii occur worldwide, but are especially prevalent in Europe, South America and Africa. The primary problem for the diagnosis of T. gondii infection is long-lasting IgM-antibodies, thus the presence of T. gondii-specific IgM-antibodies do not necessarily indicate an acute infection. The use of a Toxoplasma-specific IgG-avidity ratio, differentiated Western blots and two-dimensional immunoblots usually resolves diagnostic problems. There is no consensus on the best strategy to control congenital toxoplasmosis. Recent European prospective, but descriptive, studies including a meta-analysis of existing cohorts have found a surprisingly small effect on maternal-fetal transmission and clinical signs in children treated for T. gondii infection diagnosed by pre- and neonatal screening programmes. No randomised studies exist on the treatment of T. gondii infection in pregnant women and newborn children with congenital toxoplasmosis. Atovaquone is the most promising",
+            "journal": "Seminars in fetal & neonatal medicine",
+            "year": "2007",
+            "authors": [
+              "Petersen Eskild"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Infectious Disease Transmission, Vertical",
+              "Pregnancy",
+              "Pregnancy Complications, Parasitic",
+              "Toxoplasma",
+              "Toxoplasmosis, Congenital"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17321812/"
+          },
+          {
+            "pmid": "25210646",
+            "title": "Novel Synergistic Protective Efficacy of Atovaquone and Diclazuril on Fetal-Maternal Toxoplasmosis.",
+            "abstract": "Over 1 billion people globally are estimated to be infected with Toxoplasma gondii with severe or unknown consequences and no safe and effective therapies are available against congenital or persistent chronic infection. We propose that atovaquone and diclazuril synergistically protect against fetal-maternal toxoplasmosis.",
+            "journal": "International journal of clinical medicine",
+            "year": "2014",
+            "authors": [
+              "Oz Helieh S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25210646/"
+          },
+          {
+            "pmid": "10560606",
+            "title": "Antiparasitic agents.",
+            "abstract": "Several important developments have occurred in recent years in the chemotherapy for and prophylaxis of parasitic infections. Although mefloquine is clearly the most effective agent for prevention of chloroquine-resistant falciparum malaria, its use has been compromised by side effects, both real and imagined. Well-designed studies have shown that side effects occur no more frequently with low-dose mefloquine than with chloroquine. Use of mefloquine in pregnant women has not been associated with birth defects, but the incidence of stillbirths may be increased. Malarone is a new agent that combines atovaquone and proguanil, and it may be as effective as mefloquine; however, it is not yet available in the United States. Several newer agents have appeared in response to the development of multidrug resistant Plasmodium falciparum, especially in Southeast Asia. Halofantrine is available for the treatment of mild to moderate malaria due to P. falciparum and for P. vivax infections. Because ",
+            "journal": "Mayo Clinic proceedings",
+            "year": "1999",
+            "authors": [
+              "Rosenblatt J E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiparasitic Agents",
+              "Child",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Malaria",
+              "Pregnancy",
+              "Pregnancy Complications, Parasitic",
+              "Protozoan Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10560606/"
+          },
+          {
+            "pmid": "29452213",
+            "title": "Nanoemulsion of atovaquone as a promising approach for treatment of acute and chronic toxoplasmosis.",
+            "abstract": "Treatment of toxoplasmosis is necessary in congenital form and immunocompromised patients. Atovaquone is a powerful suppressor of protozoan parasites with a broad-spectrum activity, but an extremely low water solubility and bioavailability. In this study, nanoemulsion of this drug was prepared with grape seed oil using spontaneous emulsification method to increase bioavailability and efficacy of atovaquone for treatment of toxoplasmosis. In vitro activity of atovaquone nanoemulsion against T. gondii, RH and Tehran strains, was assessed in HeLa cell culture. For in vivo assessment, BALB/c mice were infected with RH and Tehran strains and then treated with nanoemulsion of atovaquone, compared to that treated with free atovaquone. Concentration of atovaquone nanoemulsion showed in vitro anti-parasitic effects in both strains of T. gondii. Furthermore, oral administration of atovaquone nanoemulsion increased oral bioavailability, tissue distribution and mice survival time and reduced paras",
+            "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "year": "2018",
+            "authors": [
+              "Azami Sanaz Jafarpour",
+              "Amani Amir",
+              "Keshavarz Hossein",
+              "Najafi-Taher Roqya",
+              "Mohebali Mehdi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Animals",
+              "Anti-Infective Agents",
+              "Atovaquone",
+              "Chronic Disease",
+              "Emulsions",
+              "Female",
+              "Grape Seed Extract",
+              "HeLa Cells",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29452213/"
+          },
+          {
+            "pmid": "27384853",
+            "title": "[Early diagnosis and successful treatment of disseminated toxoplasmosis after cord blood transplantation].",
+            "abstract": "A 66-year-old woman with refractory angioimmunoblastic T-cell lymphoma underwent cord blood transplantation. Prior to transplantation, a serological test for Toxoplasma gondii-specific IgG antibodies was positive. On day 96, she exhibited fever and dry cough. Chest CT showed diffuse centrilobular ground glass opacities in both lungs. The reactivation of T. gondii was identified by the presence of parasite DNA in peripheral blood and bronchoalveolar lavage fluid. Moreover, brain MRI revealed a space occupying lesion in the right occipital lobe. Therefore, disseminated toxoplasmosis was diagnosed. She received pyrimethamine and sulfadiazine from day 99. The lung and brain lesions both showed improvement but the PCR assay for T. gondii DNA in peripheral blood was positive on day 133. On day 146, she developed blurred vision and reduced visual acuity, and a tentative diagnosis of toxoplasmic retinochoroiditis was made based on ophthalmic examination results. As agranulocytosis developed on",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2016",
+            "authors": [
+              "Kurihara Taro",
+              "Sumi Masahiko",
+              "Kaiume Hiroko",
+              "Takeda Wataru",
+              "Kirihara Takehiko"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antiprotozoal Agents",
+              "Drug Combinations",
+              "Early Diagnosis",
+              "Female",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Toxoplasma",
+              "Toxoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27384853/"
+          },
+          {
+            "pmid": "7527323",
+            "title": "Management of toxoplasmosis.",
+            "abstract": "Toxoplasma gondii, an intracellular coccidian protozoan, is the causative agent of toxoplasmosis, a widespread infection affecting various birds and mammals including humans. In immunocompetent hosts, the infection is usually asymptomatic and benign. Toxoplasmosis is either congenital or acquired. In general, prenatal therapy of congenital toxoplasmosis is beneficial in reducing the frequency of infant infection. Therapies are based primarily on spiramycin because of the relative lack of toxicity and high concentrations achieved in the placenta. Clindamycin is the standard drug for chemoprophylaxis in newborn infants, and is directed at preventing the occurrence of retinochoroiditis as a late sequel to congenital infection. The standard treatment for acquired toxoplasmosis in both immunocompetent and immunodeficient patients is the synergistic combination of pyrimethamine and sulphonamides. Toxoplasmic encephalitis is the most common manifestation of acquired toxoplasmosis in immunocom",
+            "journal": "Drugs",
+            "year": "1994",
+            "authors": [
+              "Georgiev V S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents",
+              "Antiprotozoal Agents",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Infant, Newborn",
+              "Pyrimethamine",
+              "Spiramycin",
+              "Sulfonamides",
+              "Toxoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7527323/"
+          },
+          {
+            "pmid": "8305784",
+            "title": "Atovaquone: a review.",
+            "abstract": "To review the chemistry, pharmacology, pharmacokinetics, clinical efficacy, and safety of atovaquone.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "1993",
+            "authors": [
+              "Haile L G",
+              "Flaherty J F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Animals",
+              "Antifungal Agents",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Male",
+              "Naphthoquinones",
+              "Pneumonia, Pneumocystis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8305784/"
+          },
+          {
+            "pmid": "37683834",
+            "title": "Assessment of tissue levels of miR-146a and proinflammatory cytokines in experimental cerebral toxoplasmosis following atovaquone and clindamycin treatment: An in vivo study.",
+            "abstract": "Despite recent advances for treating cerebral toxoplasmosis (CT), monitoring the parasite burden and treatment response is still challenging. miRNAs are small non-coding RNAs with regulatory functions that can be used in diagnosis and treatment monitoring. We investigated the changes in miR-146a, BAG-1 gene, IL-6, and IL-10 tissue levels in the brain of BALB/c mice with chronic CT caused by the PRU strain of T. gondii following anti-parasitic and antibiotic treatment.",
+            "journal": "Microbial pathogenesis",
+            "year": "2023",
+            "authors": [
+              "Zouei Nima",
+              "Dalimi Abdolhossein",
+              "Pirestani Majid",
+              "Ghaffarifar Fatemeh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Toxoplasmosis, Cerebral",
+              "Atovaquone",
+              "Cytokines",
+              "Clindamycin",
+              "Interleukin-10",
+              "Interleukin-6",
+              "Toxoplasma",
+              "MicroRNAs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37683834/"
+          },
+          {
+            "pmid": "15482110",
+            "title": "Sulfadiazine and pyrimethamine in the postnatal treatment of congenital toxoplasmosis: what are the options?",
+            "abstract": "Pre- and neonatal screening for congenital toxoplasmosis rests upon the assumption that treatment is beneficial on either acute symptoms or in preventing later reactivation. Postpartum treatment of congenital toxoplasmosis with sulfadiazine and pyrimethamine has remained almost unchanged for 50 years. More recently, sulfadiazine has been substituted by sulfadoxine, which has a much longer half-life and provides a basis for a dose schedule with higher compliance. Newer drugs with potential effects against Toxoplasma gondii, such as azithromycin, atovaquone and clindamycin, require further evaluation in animal models and human studies. No randomized controlled trials have ever been conducted. The available studies are either observational studies of groups of referred patients or observational studies with historical controls accrued over many years, often decades. Pre- and neonatal screening for congenital toxoplasmosis is performed on more than two million pregnant women every year in ",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2003",
+            "authors": [
+              "Petersen Eskild",
+              "Schmidt Dorte Remmer"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Infant, Newborn",
+              "Pyrimethamine",
+              "Sulfadiazine",
+              "Toxoplasmosis, Congenital"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15482110/"
+          },
+          {
+            "pmid": "25104952",
+            "title": "Maternal and congenital toxoplasmosis, currently available and novel therapies in horizon.",
+            "abstract": "Over one billion people worldwide are predicted to harbor Toxoplasma infection frequently with unknown lifelong health consequences. Toxoplasmosis is an important cause of foodborne, inflammatory illnesses, as well as congenital abnormalities. Ubiquitous Toxoplasma has a unique tropism for central nervous system with a mind-bugging effect and is transmitted sexually through semen. Currently available therapies are ineffective for persistent chronic disease and congenital toxoplasmosis or have severe side effects which may result in life-threatening complications. There is an urgent need for safe and effective therapies to eliminate or treat this cosmopolitan infectious and inflammatory disease. This investigation discusses pathogenesis of maternal and congenital toxoplasmosis, the currently available therapies in practice, and the experimental therapeutic modalities for promising future trials.",
+            "journal": "Frontiers in microbiology",
+            "year": "2014",
+            "authors": [
+              "Oz Helieh S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25104952/"
+          },
+          {
+            "pmid": "10471572",
+            "title": "Synergistic effect of clindamycin and atovaquone in acute murine toxoplasmosis.",
+            "abstract": "The effect of clindamycin (CLI) combined with autovaquone (ATO) was examined in a murine model of acute toxoplasmosis. Swiss Webster mice intraperitoneally infected with 10(2) or 10(4) tachyzoites of the RH strain of Toxoplasma gondii were perorally treated with either drug alone (for ATO, 5, 25, 50, or 100 mg/kg of body weight/day; for CLI, 25, 50, or 400 mg/kg/day) or both combined (for ATO plus CLI, respectively, 5 plus 25, 25 plus 25, 25 plus 50, 50 plus 50, or 100 plus 400 mg/kg/day) starting with day 1 for 14 days. Survival was monitored during 7 weeks. Residual infection was assessed by a bioassay of representative 4-week survivors and by parasite DNA detection by PCR for representative 7-week survivors. An effect of treatment was shown in all treatment groups compared to untreated control mice (P = 0.0000). Among mice infected with 10(2) parasites, ATO and CLI at any dose combination protected significantly more animals than ATO alone (P = 0.0000), but compared to CLI alone, gi",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1999",
+            "authors": [
+              "Djurković-Djaković O",
+              "Nikolić T",
+              "Robert-Gangneux F",
+              "Bobić B",
+              "Nikolić A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Brain",
+              "Clindamycin",
+              "Dose-Response Relationship, Drug",
+              "Drug Synergism",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10471572/"
+          },
+          {
+            "pmid": "40788706",
+            "title": "Atovaquone-proguanil and reduced digestive cancer risk: a Toxoplasma gondii connection.",
+            "abstract": "Emerging evidence suggests microbial pathogens contribute to digestive cancer risk. Atovaquone - proguanil (A-P), an antimalarial with antiparasitic activity, has been associated with a reduced risk of colorectal cancer (CRC). We conducted a retrospective cohort study using the TriNetX US Collaborative Network, including over 100,000 individuals aged 40-69 years who received A-P, matched 1:1 to controls who received other medications. Incident digestive cancers were analyzed using Cox proportional hazards models. Additionally, we performed a metagenomic analysis of 1,044 fecal samples from 156 individuals to assess the abundance of Toxoplasma gondii in CRC-associated microbiota. A-P use was associated with a significant reduction in digestive cancer incidence across all age groups: hazard ratios (HRs) ranged from 0.49 to 0.53 (all p < 0.001). Protective associations extended to pancreatic cancer (HR range, 0.50-0.72). In metagenomic analysis, T. gondii was the most discriminatory micro",
+            "journal": "Gut microbes",
+            "year": "2025",
+            "authors": [
+              "Israel Ariel",
+              "Israel Sarah",
+              "Weizman Abraham",
+              "Ashkenazi Shai",
+              "Vinker Shlomo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Middle Aged",
+              "Atovaquone",
+              "Toxoplasma",
+              "Adult",
+              "Male",
+              "Aged",
+              "Female",
+              "Retrospective Studies",
+              "Proguanil"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40788706/"
+          },
+          {
+            "pmid": "19255896",
+            "title": "The role of apolipoprotein E in uptake of atovaquone into the brain in murine acute and reactivated toxoplasmosis.",
+            "abstract": "We investigated whether coating of atovaquone nanosuspensions (ANSs) with apolipoprotein E (apoE) peptides improves the uptake of atovaquone into the brain. The passage across the blood-brain barrier (BBB) of ANSs stabilized by polysorbate 80 (Tween 80), poloxamer 184 (P184), or poloxamer 338 (P338) and the same formulations coated with apoE peptides were analyzed in vitro and in vivo. Passage through a rat coculture model of the BBB did not differ between individual atovaquone formulations, and the addition of apoE peptides did not enhance the transport. Following the induction of toxoplasmic encephalitis (TE) in mice, treatment with all atovaquone formulations reduced the number of parasites and inflammatory foci compared with untreated mice. Uptake of atovaquone into the brain did not depend on coating with apoE. Finally, incubation of apoE peptide-coated ANSs with brain endothelial cells for 30 min did result in the accumulation of nanoparticles on the cell surface but not in their",
+            "journal": "Journal of drug targeting",
+            "year": "2009",
+            "authors": [
+              "Shubar Hend M",
+              "Dunay Ildiko R",
+              "Lachenmaier Sabrina",
+              "Dathe Margitta",
+              "Bushrab Faris Nadiem"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Apolipoproteins E",
+              "Atovaquone",
+              "Biological Transport",
+              "Blood-Brain Barrier",
+              "Brain",
+              "Coculture Techniques",
+              "Mice",
+              "Poloxamer"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19255896/"
+          },
+          {
+            "pmid": "17402843",
+            "title": "Prevention and treatment of congenital toxoplasmosis.",
+            "abstract": "Infection with Toxoplasma gondii is transmitted to man by infected meat or meat products and by contact with soil or surface water. In theory, prevention by hygienic measures is possible, but this has never been proved to work in practice. Therefore, pre- and postnatal screening has been implemented in several countries aiming at early diagnosis. However, data on the effect of treatment are limited and no randomized, controlled trials have been performed. The risk of T. gondii infection in Europe is declining and studies using historical controls from earlier decades cannot be used for decision making. The screening of pregnant women or neonates makes the assumption that any children diagnosed can be offered an effective treatment. There is an urgent need to test new drugs and demonstrate, using randomized, controlled trials, that the currently used drugs are effective.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2007",
+            "authors": [
+              "Petersen Eskild"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Female",
+              "Food Contamination",
+              "Humans",
+              "Pregnancy",
+              "Pregnancy Complications, Infectious",
+              "Toxoplasma",
+              "Toxoplasmosis, Congenital"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17402843/"
+          },
+          {
+            "pmid": "7588086",
+            "title": "Atovaquone. A review of its pharmacological properties and therapeutic efficacy in opportunistic infections.",
+            "abstract": "Atovaquone has been investigated as an alternative agent for oral use in the treatment of both mild to moderate Pneumocystis carinii pneumonia (PCP) and toxoplasmosis, opportunistic infections commonly experienced by patients with AIDS. In patients with mild to moderate PCP, a dosage of 750mg 3 times daily (administered in tablet form) has similar overall therapeutic efficacy (defined as clinical response without a treatment-limiting adverse event) to the conventional therapies oral cotrimoxazole (trimethoprim-sulfamethoxazole) and intravenous pentamidine, respectively. Response rates to atovaquone are lower than those achieved with cotrimoxazole, but atovaquone has superior tolerability. Atovaquone recipients experienced significantly fewer treatment-limiting adverse effects than patients treated with cotrimoxazole (7 vs 20%) or pentamidine (4 vs 36%). Mortality rates were higher among atovaquone-treated patients than in cotrimoxazole recipients (7 vs 0.6%) 4 weeks after completion of",
+            "journal": "Drugs",
+            "year": "1995",
+            "authors": [
+              "Spencer C M",
+              "Goa K L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Antifungal Agents",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Clinical Trials as Topic",
+              "Drug Evaluation",
+              "Drug Interactions",
+              "Humans",
+              "Naphthoquinones",
+              "Pneumonia, Pneumocystis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7588086/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ocular toxoplasmosis",
+        "txgnn_score": 0.8526818156242371,
+        "txgnn_rank": 39014,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01479361",
+            "title": "The Influence of Atazanavir-ritonavir and Efavirenz on Atovaquone Pharmacokinetics in HIV-infected Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-10-31",
+            "completion_date": "2014-02-20",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "Background:\n\n\\- People who are infected with the human immunodeficiency virus (HIV) are at risk of getting certain diseases. Two of these diseases are a type of pneumonia known as PCP and a brain infection called toxoplasmosis. Most people with HIV take antiretroviral (ARV) drugs to treat HIV and lower the risk of infections. However, some ARV drugs may make other drugs used to treat PCP and toxoplasmosis less effective. Researchers want to test specific ARV drugs to see if they affect atovaquon",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nA subject will be considered eligible for this study only if all of the following criteria are met:\n\n1. Between the ages of 18 and 70 years.\n2. HIV-infected patients stabilized (greater than or equal to 90 days) on ARV regimens containing efavirenz 600 mg daily, or atazanavir/",
+            "endpoints": [
+              "The primary objective of this study is to determine the steady state pharmacokinetics of 2 doses of atovaquone oral suspension in the presence of ATV/r, EFV, or no ARVs in HIV-infected patients."
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT01479361"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30209035",
+            "title": "Treatment of Toxoplasmosis: Historical Perspective, Animal Models, and Current Clinical Practice.",
+            "abstract": "Primary Toxoplasma gondii infection is usually subclinical, but cervical lymphadenopathy or ocular disease can be present in some patients. Active infection is characterized by tachyzoites, while tissue cysts characterize latent disease. Infection in the fetus and in immunocompromised patients can cause devastating disease. The combination of pyrimethamine and sulfadiazine (pyr-sulf), targeting the active stage of the infection, is the current gold standard for treating toxoplasmosis, but failure rates remain significant. Although other regimens are available, including pyrimethamine in combination with clindamycin, atovaquone, clarithromycin, or azithromycin or monotherapy with trimethoprim-sulfamethoxazole (TMP-SMX) or atovaquone, none have been found to be superior to pyr-sulf, and no regimen is active against the latent stage of the infection. Furthermore, the efficacy of these regimens against ocular disease remains uncertain. In multiple studies, systematic screening for Toxoplas",
+            "journal": "Clinical microbiology reviews",
+            "year": "2018",
+            "authors": [
+              "Dunay Ildiko Rita",
+              "Gajurel Kiran",
+              "Dhakal Reshika",
+              "Liesenfeld Oliver",
+              "Montoya Jose G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Drug Discovery",
+              "Humans",
+              "Models, Animal",
+              "Toxoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30209035/"
+          },
+          {
+            "pmid": "16282146",
+            "title": "Toxoplasmosis.",
+            "abstract": "Toxoplasmosis is the most common cause of posterior uveitis in immunocompetent subjects. The infection can be congenital or acquired. Ocular symptoms are variable according to the age of the subject. For instance, young children present with reduced visual acuity, strabismus, nystagmus, and leucocoria, while teenagers and adults complain of decreased vision, floaters, photophobia, pain, and hyperemia. Toxoplasmic retinochoroiditis typically affects the posterior pole, and the lesions can be solitary, multiple or satellite to a pigmented retinal scar. Active lesions present as grey-white focus of retinal necrosis with adjacent choroiditis, vasculitis, hemorrhage and vitreitis. Cicatrization occurs from the periphery towards the center, with variable pigmentary hyperplasia. Anterior uveitis is a common finding, with mutton-fat keratic precipitates, fibrine, cells and flare, iris nodules and posterior synechiae. Atypical presentations include punctate outer retinitis, neuroretinitis, papi",
+            "journal": "Seminars in ophthalmology",
+            "year": "2005",
+            "authors": [
+              "Bonfioli Adriana A",
+              "Orefice Fernando"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Protozoan",
+              "Antiprotozoal Agents",
+              "DNA, Protozoan",
+              "Diagnostic Imaging",
+              "Humans",
+              "Toxoplasma",
+              "Toxoplasmosis, Ocular",
+              "Uveitis, Posterior"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16282146/"
+          },
+          {
+            "pmid": "27384853",
+            "title": "[Early diagnosis and successful treatment of disseminated toxoplasmosis after cord blood transplantation].",
+            "abstract": "A 66-year-old woman with refractory angioimmunoblastic T-cell lymphoma underwent cord blood transplantation. Prior to transplantation, a serological test for Toxoplasma gondii-specific IgG antibodies was positive. On day 96, she exhibited fever and dry cough. Chest CT showed diffuse centrilobular ground glass opacities in both lungs. The reactivation of T. gondii was identified by the presence of parasite DNA in peripheral blood and bronchoalveolar lavage fluid. Moreover, brain MRI revealed a space occupying lesion in the right occipital lobe. Therefore, disseminated toxoplasmosis was diagnosed. She received pyrimethamine and sulfadiazine from day 99. The lung and brain lesions both showed improvement but the PCR assay for T. gondii DNA in peripheral blood was positive on day 133. On day 146, she developed blurred vision and reduced visual acuity, and a tentative diagnosis of toxoplasmic retinochoroiditis was made based on ophthalmic examination results. As agranulocytosis developed on",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2016",
+            "authors": [
+              "Kurihara Taro",
+              "Sumi Masahiko",
+              "Kaiume Hiroko",
+              "Takeda Wataru",
+              "Kirihara Takehiko"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antiprotozoal Agents",
+              "Drug Combinations",
+              "Early Diagnosis",
+              "Female",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Toxoplasma",
+              "Toxoplasmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27384853/"
+          },
+          {
+            "pmid": "40872723",
+            "title": "Review of Toxoplasmosis: What We Still Need to Do.",
+            "abstract": "Toxoplasma gondii is responsible for the disease toxoplasmosis and has the broadest host range among apicomplexan parasites, as it infects virtually all warm-blooded vertebrates. Toxoplasmosis is a zoonotic and emerging public health concern with considerable morbidity and mortality, especially in the developing world, affecting approximately one-third of the world's human population. Clinical presentation varies among species, and the infection establishes lifelong chronicity in hosts. Most of the host species (including healthy humans) are asymptomatic on the one hand, it is fatal to marsupials, neotropical primates and some marine mammals on the other hand. In immunocompetent humans, infection is typically asymptomatic, whereas immunocompromised individuals may develop disseminated disease affecting virtually any organ system-most commonly reproductive, cerebral, and ocular systems. Toxoplasmosis spreads by ingestion of food or water contaminated with T. gondii oocysts, consumption ",
+            "journal": "Veterinary sciences",
+            "year": "2025",
+            "authors": [
+              "Farhab Muhammad",
+              "Aziz Muhammad Waqar",
+              "Shaukat Aftab",
+              "Cao Ming-Xing",
+              "Hou Zhaofeng"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40872723/"
+          },
+          {
+            "pmid": "26392504",
+            "title": "Clinically Available Medicines Demonstrating Anti-Toxoplasma Activity.",
+            "abstract": "Toxoplasma gondii is an apicomplexan parasite of humans and other mammals, including livestock and companion animals. While chemotherapeutic regimens, including pyrimethamine and sulfadiazine regimens, ameliorate acute or recrudescent disease such as toxoplasmic encephalitis or ocular toxoplasmosis, these drugs are often toxic to the host. Moreover, no approved options are available to treat infected women who are pregnant. Lastly, no drug regimen has shown the ability to eradicate the chronic stage of infection, which is characterized by chemoresistant intracellular cysts that persist for the life of the host. In an effort to promote additional chemotherapeutic options, we now evaluate clinically available drugs that have shown efficacy in disease models but which lack clinical case reports. Ideally, less-toxic treatments for the acute disease can be identified and developed, with an additional goal of cyst clearance from human and animal hosts.",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2015",
+            "authors": [
+              "Neville Andrew J",
+              "Zach Sydney J",
+              "Wang Xiaofang",
+              "Larson Joshua J",
+              "Judge Abigail K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Antiprotozoal Agents",
+              "Antipsychotic Agents",
+              "Atovaquone",
+              "Clindamycin",
+              "Drug Repositioning",
+              "Humans",
+              "Macrolides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26392504/"
+          },
+          {
+            "pmid": "18576797",
+            "title": "Toxoplasmosis in wallabies (Macropus rufogriseus and Macropus eugenii): blindness, treatment with atovaquone, and isolation of Toxoplasma gondii.",
+            "abstract": "Australasian marsupials, especially wallabies, are highly susceptible to clinical toxoplasmosis. This paper describes the use of atovaquone for effective treatment of toxoplasmosis in 4 Bennett's wallabies (Macropus rufogriseus), along with the serology, isolation of Toxoplasma gondii, and genotyping of 3 T. gondii isolates from 5 captive wallabies. This is the first report of success in treating acute toxoplasmosis in wallabies, the first report of serology followed over a significant period of time, and the first report of isolation and genetic typing of T. gondii from wallabies in the United States.",
+            "journal": "The Journal of parasitology",
+            "year": "2008",
+            "authors": [
+              "Dubey J P",
+              "Crutchley C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents",
+              "Atovaquone",
+              "Biological Assay",
+              "Cats",
+              "Female",
+              "Macropodidae",
+              "Male",
+              "Mice",
+              "Toxoplasma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18576797/"
+          },
+          {
+            "pmid": "11921736",
+            "title": "[New trends in ocular toxoplasmosis--the review].",
+            "abstract": "For past ten years some new trends can be observed in the field of ocular toxoplasmosis. In this article on the basis of reviewing scientific articles the author tried to point out important, or new information which may have an impact on clinical researches and clinical practice in the close future. 1. There is evidence that some tissue cysts can be present in untouched retinal tissue, and can produce an inflammatory reaction even many years after primary infection. This concerns both congenital and acquired toxoplasmosis. 2. The coexistence of intraocular inflammatory reaction without focal necrotizing retinochoroiditis in patients with acquired systemic toxoplasmosis was described--but there is no evidence that those inflammations were directly cause by T. gondii parasite themselves. It is too early to include this changes into the classical clinical picture of toxoplasmic retinochoroiditis. 3. For the past ten years there have been published articles showing higher prevalence of ac",
+            "journal": "Przeglad epidemiologiczny",
+            "year": "2001",
+            "authors": [
+              "Borkowski P K"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Humans",
+              "Immunoglobulins",
+              "Prevalence",
+              "Toxoplasma",
+              "Toxoplasmosis, Ocular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11921736/"
+          },
+          {
+            "pmid": "19108794",
+            "title": "Adverse drug reactions to treatments for ocular toxoplasmosis: a retrospective chart review.",
+            "abstract": "This study evaluated the incidence and types of adverse drug reactions (ADRs) associated with medications used to treat active toxoplasmic chorioretinitis.",
+            "journal": "Clinical therapeutics",
+            "year": "2008",
+            "authors": [
+              "Iaccheri Barbara",
+              "Fiore Tito",
+              "Papadaki Thekla",
+              "Androudi Sofia",
+              "Janjua Sarosh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Atovaquone",
+              "Clindamycin",
+              "Drug Combinations",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Exanthema",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19108794/"
+          },
+          {
+            "pmid": "7616727",
+            "title": "[Treatment of toxoplasmosis retinochoroiditis with atovaquone in an AIDS patient].",
+            "abstract": "Treatment of ocular toxoplasmosis in HIV-infected patients with standard drug regimens (Pyrimethamine, Clindamycine, Sulfonamides) is very often complicated by side-effects and adverse reactions. On the other hand, maintenance therapy must be continued life long, because of the high recurrence rates. Atovaquone (Hydroxynaphthoquinon) is tolerated excellently and is very effective against tachyzoits of toxoplasma gondii and its cysts. PATIENT HISTORY AND CLINICAL FINDINGS: A 49-year-old homosexual man with AIDS developed an allergic rash after being treated with a course of Pyrimethamine and Clindamycine for unilateral, bifocal ocular toxoplasmosis for 13 days. Therapy with Atovaquone 3 x 750 mg/d was instituted and within 8 days the infiltrates healed leaving retinochorioidal scars.",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1995",
+            "authors": [
+              "Schimkat M",
+              "Althaus C",
+              "Armbrecht C",
+              "Jablonowski H",
+              "Sundmacher R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Fluorescein Angiography",
+              "Follow-Up Studies",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7616727/"
+          },
+          {
+            "pmid": "9917796",
+            "title": "Atovaquone for the treatment of toxoplasma retinochoroiditis in immunocompetent patients.",
+            "abstract": "To report the results of a phase I trial to evaluate the safety and efficacy of atovaquone for the treatment of ocular toxoplasmosis in immunocompetent patients.",
+            "journal": "Ophthalmology",
+            "year": "1999",
+            "authors": [
+              "Pearson P A",
+              "Piracha A R",
+              "Sen H A",
+              "Jaffe G J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Clinical Trial",
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "Drug Evaluation",
+              "Female",
+              "Follow-Up Studies",
+              "Fundus Oculi"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9917796/"
+          },
+          {
+            "pmid": "31472369",
+            "title": "Adjunctive bradyzoite-directed therapy for reducing complications of congenital toxoplasmosis.",
+            "abstract": "Congenital toxoplasmosis is caused by in utero infection of the fetus with the intracellular parasite Toxoplasma gondii. Upon infection, the parasite forms life-long cysts in fetal brain and eyes which are resistant to the currently accepted therapy of pyrimethamine and sulfadiazine. These cysts commonly reactivate later in life causing chorioretinitis and visual impairment, and rarely cause neurological complications. I hypothesize that adjunctive, bradyzoite-directed therapies have the potential to alleviate a significant burden of disease by reducing cyst burden in neonatal brain and eyes. Atovaquone is perhaps the most promising drug for further evaluation given its low side-effect profile, established safety, and efficacy in animal models reducing cyst burden. Very limited observational data in humans suggests atovaquone may prevent Toxoplasma-associated chorioretinitis recurrence. Clinical trials are needed to evaluate it and other potential drugs as adjunctive treatment in conge",
+            "journal": "Medical hypotheses",
+            "year": "2019",
+            "authors": [
+              "Chorlton Samuel D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Brain",
+              "Chorioretinitis",
+              "Clinical Trials as Topic",
+              "Drug Evaluation, Preclinical",
+              "Drug Therapy, Combination",
+              "Eye",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31472369/"
+          },
+          {
+            "pmid": "9044964",
+            "title": "[Treatment of toxoplasmosis retinochoroiditis with atovaquone in an immunocompetent patient].",
+            "abstract": "In Central Europe ocular toxoplasmosis is the leading cause of posterior uveitis. It is a major cause of severe visual loss and blindness in young people. Drugs for treatment of active lesions (tachyzoites) have been available for decades but are seen controversial especially because of sometimes serious side effects. These drugs don't seem to shorten the active inflammation nor the recurrence rate, in particular because of the poor effect on the cystic form (bradyzoites). Atovaquone (hydroxynaphthoquinone) is well tolerated systemically and is effective against tachyzoites and bradyzoites of Toxoplasma gondii so that we hope to reduce the recurrence rate. PATIENT HISTORY AND CLINICAL FINDINGS: Two immunocompetent patients with the first and respective second symptomatic recurrence of unilateral active toxoplasmic retinochorioiditis located within the major temporal vascular arcades were treated with Atovaquone and Fluorocortolone because of an impending loss of central visual function",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1996",
+            "authors": [
+              "Hudde T",
+              "Althaus C",
+              "Schimkat M",
+              "Sundmacher R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Naphthoquinones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9044964/"
+          },
+          {
+            "pmid": "20437247",
+            "title": "Does atovaquone prolong the disease-free interval of toxoplasmic retinochoroiditis?",
+            "abstract": "To evaluate the efficacy of suppressing a recurrence of Toxoplasma retinochoroiditis after treatment with atovaquone.",
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2010",
+            "authors": [
+              "Winterhalter Sibylle",
+              "Severing Katja",
+              "Stammen Johannes",
+              "Maier Anna Karina",
+              "Godehardt Erhard"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "Disease-Free Survival",
+              "Female",
+              "Follow-Up Studies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20437247/"
+          },
+          {
+            "pmid": "32651033",
+            "title": "Atypical toxoplasmic retinochoroiditis in patients with malignant hematological diseases.",
+            "abstract": "In immunocompromised patients, toxoplasmosis may have atypical presentation with bilateral, extensive or multifocal involvement. We report a case series of atypical toxoplasmic retinocoroiditis in patients with malignant hematological diseases who are usually immunosuppressed. Four patients were diagnosed of atypical toxoplasmic retinochoroiditis, all of them had immunosuppression (100%) and half of them (50%) had received a bone marrow transplant. The polymerase chain reaction for toxoplasma was positive in 75% of cases, and in one case (25%) the diagnosis was made with clinical and serological criteria. One patient presented ocular toxoplasmosis despite being on prophylactic treatment with atovaquone. Patients with atypical ocular toxoplasmosis and hematological diseases are generally immunocompromised, but they do not always have history of a bone marrow transplant. The presentation may be due to a primary infection or a reactivation of the disease. The aqueous humor and/or vitreous",
+            "journal": "Archivos de la Sociedad Espanola de Oftalmologia",
+            "year": "2021",
+            "authors": [
+              "Figueroa-Vercellino J P",
+              "Miguel L",
+              "Moll-Udina A",
+              "Alba-Linero C",
+              "Llorenç V"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32651033/"
+          },
+          {
+            "pmid": "21487340",
+            "title": "Diagnostic and therapeutic challenges.",
+            "abstract": "",
+            "journal": "Retina (Philadelphia, Pa.)",
+            "year": "2011",
+            "authors": [
+              "Vance Sushma K",
+              "Freund K Bailey",
+              "Wenick Adam S",
+              "Nguyen Quan Dong",
+              "Holland Gary N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Infective Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "Diagnosis, Differential",
+              "Eye Diseases",
+              "Female",
+              "Fluorescein Angiography",
+              "Humans",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21487340/"
+          },
+          {
+            "pmid": "9620076",
+            "title": "Effects of drug therapy on Toxoplasma cysts in an animal model of acute and chronic disease.",
+            "abstract": "To evaluate the effects of drug therapy on the clinical course of acute acquired Toxoplasma retinochoroiditis and on the number of Toxoplasma cysts present in the brain and ocular tissues in the hamster animal model.",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "1998",
+            "authors": [
+              "Gormley P D",
+              "Pavesio C E",
+              "Minnasian D",
+              "Lightman S"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Brain",
+              "Chorioretinitis",
+              "Chronic Disease",
+              "Cricetinae",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9620076/"
+          },
+          {
+            "pmid": "16766403",
+            "title": "Reactivation of toxoplasma retinochoroiditis under atovaquone therapy in an immunocompetent patient.",
+            "abstract": "To report a case of toxoplasma retinochoroiditis reactivation in an immunocompetent patient under atovaquone therapy.",
+            "journal": "Ocular immunology and inflammation",
+            "year": "2006",
+            "authors": [
+              "Baatz Holger",
+              "Mirshahi Alireza",
+              "Puchta Joachim",
+              "Gümbel Hermann",
+              "Hattenbach Lars-Olof"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Antibodies, Protozoan",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "Drug Resistance, Microbial",
+              "Female",
+              "Humans",
+              "Immunocompetence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16766403/"
+          },
+          {
+            "pmid": "24993473",
+            "title": "Development of bilateral acquired toxoplasmic retinochoroiditis during erlotinib therapy.",
+            "abstract": "",
+            "journal": "JAMA ophthalmology",
+            "year": "2014",
+            "authors": [
+              "Rao Veena",
+              "Schneider Eric",
+              "Proia Alan D",
+              "Fekrat Sharon"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Anti-Infective Agents",
+              "Atovaquone",
+              "Chorioretinitis",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Female",
+              "Food Parasitology",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24993473/"
+          },
+          {
+            "pmid": "1543229",
+            "title": "Orally administered 566C80 for treatment of ocular toxoplasmosis in a patient with the acquired immunodeficiency syndrome.",
+            "abstract": "",
+            "journal": "American journal of ophthalmology",
+            "year": "1992",
+            "authors": [
+              "Lopez J S",
+              "de Smet M D",
+              "Masur H",
+              "Mueller B U",
+              "Pizzo P A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Acquired Immunodeficiency Syndrome",
+              "Administration, Oral",
+              "Adolescent",
+              "Antiprotozoal Agents",
+              "Atovaquone",
+              "Eye Infections, Parasitic",
+              "Follow-Up Studies",
+              "Fundus Oculi",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1543229/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "creeping myiasis",
+        "txgnn_score": 0.8506597876548767,
+        "txgnn_rank": 39128,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "furuncular myiasis",
+        "txgnn_score": 0.8506597876548767,
+        "txgnn_rank": 39129,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "wound myiasis",
+        "txgnn_score": 0.8506597876548767,
+        "txgnn_rank": 39130,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myiasis",
+        "txgnn_score": 0.8288464546203613,
+        "txgnn_rank": 40421,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01117",
+    "name": "Atovaquone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Atovaquone"
+      },
+      "queried_at": "2026-03-10T07:49:00.474912",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Atovaquone"
+      },
+      "queried_at": "2026-03-10T07:49:03.456246",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T07:49:04.388941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T07:49:07.418939",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-10T07:49:10.470321",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "nocardiosis"
+      },
+      "queried_at": "2026-03-10T07:49:11.056673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "nocardiosis"
+      },
+      "queried_at": "2026-03-10T07:49:14.984399",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "nocardiosis"
+      },
+      "queried_at": "2026-03-10T07:49:17.989870",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "facial nerve palsy due to herpes zoster infection"
+      },
+      "queried_at": "2026-03-10T07:49:18.589770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "facial nerve palsy due to herpes zoster infection"
+      },
+      "queried_at": "2026-03-10T07:49:21.610577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "facial nerve palsy due to herpes zoster infection"
+      },
+      "queried_at": "2026-03-10T07:49:22.329983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T07:49:22.886505",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T07:49:26.530295",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T07:49:28.028063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "toxoplasmosis"
+      },
+      "queried_at": "2026-03-10T07:49:28.627741",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "toxoplasmosis"
+      },
+      "queried_at": "2026-03-10T07:49:31.960605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "toxoplasmosis"
+      },
+      "queried_at": "2026-03-10T07:49:34.601662",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "ocular toxoplasmosis"
+      },
+      "queried_at": "2026-03-10T07:49:35.212846",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "ocular toxoplasmosis"
+      },
+      "queried_at": "2026-03-10T07:49:38.375237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "ocular toxoplasmosis"
+      },
+      "queried_at": "2026-03-10T07:49:41.131247",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "creeping myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:41.924529",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "creeping myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:45.120299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "creeping myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:46.883269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "furuncular myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:47.623222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "furuncular myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:52.494093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "furuncular myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:53.185862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "wound myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:53.722565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "wound myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:58.178338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "wound myiasis"
+      },
+      "queried_at": "2026-03-10T07:49:59.698960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "myiasis"
+      },
+      "queried_at": "2026-03-10T07:50:00.215177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "myiasis"
+      },
+      "queried_at": "2026-03-10T07:50:04.125604",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atovaquone",
+        "disease": "myiasis"
+      },
+      "queried_at": "2026-03-10T07:50:04.936865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:50:04.944248"
+  }
+}

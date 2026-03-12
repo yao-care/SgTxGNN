@@ -1,0 +1,1183 @@
+{
+  "drug": {
+    "inn": "Orlistat",
+    "drugbank_id": "DB01083",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypervitaminosis",
+        "txgnn_score": 0.994246780872345,
+        "txgnn_rank": 7159,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "proximal 16p11.2 microdeletion syndrome",
+        "txgnn_score": 0.9887375831604004,
+        "txgnn_rank": 11481,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete hypertelorism (disease)",
+        "txgnn_score": 0.9775116443634032,
+        "txgnn_rank": 18210,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "frontorhiny",
+        "txgnn_score": 0.9664055705070496,
+        "txgnn_rank": 22429,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypoalphalipoproteinemia",
+        "txgnn_score": 0.9647226929664612,
+        "txgnn_rank": 22926,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete susceptibility to ischemic stroke",
+        "txgnn_score": 0.919991970062256,
+        "txgnn_rank": 32331,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ABri amyloidosis",
+        "txgnn_score": 0.8567469120025635,
+        "txgnn_rank": 38673,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fatty liver disease",
+        "txgnn_score": 0.852640688419342,
+        "txgnn_rank": 39019,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00207311",
+            "title": "A Multi-Centered, Prospective, Randomized, Placebo-Controlled Clinical Trial for the Treatment of Significant Steatosis or NASH With Xenical Followed by Treatment of Hepatitis C (HCV) With PEG-Interferon Alpha-2a/Copegus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-08",
+            "completion_date": "2009-05",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This is a prospective, multi-center, randomized, placebo-controlled trial in subjects with histological evidence of \\> 33% hepatic steatosis or nonalcoholic steatohepatitis (NASH) and chronic hepatitis C. Patients who have not been previously treated for hepatitis C (treatment naive) will be enrolled.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be willing to give written informed consent and be able to adhere to dose and visit schedules.\n* HCV-Ab or HCV-RNA by PCR Positive for at least 6 months\n* Serum positive for HCV-RNA by PCR assay\n* Treatment naïve participants who have hepatitis C with genotyp",
+            "endpoints": [
+              "Sustained virological response (SVR) defined as the percentage of participants with undetectable HCV-RNA as measured by the Roche AMPLICORTM HCV Test, v 2.0 (detection limit 50 IU/mL) at 24 weeks post completion of the treatment period"
+            ],
+            "sponsor": "Brooke Army Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00207311"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04270656",
+            "title": "Liver and Metabolic Effects of Insulin Pump Therapy in a Population of Type 2 Diabetics with Non-alcoholic Hepatic Steatosis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-02-05",
+            "completion_date": "2024-09-23",
+            "country": "France",
+            "enrollment": 46,
+            "brief_summary": "The prevalence of fatty liver disease (NAFLD: Non-Alcoholic Fatty Liver Disease or to a more severe degree NASH: Non-Alcoholic SteatoHepatitis) reached 40-70% in subjects with type 2 diabetes (T2D). NAFLD can be easily detected by performing a hepatic ultrasonography. The presence of a NAFLD is positively correlated with the severity of insulin resistance and dysglycemia in this population. The presence of NAFLD worsens the prognosis of T2D with an increased cardiovascular risk. This hepatic imp",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male / female 35/70 years (including ranges) with T2D ≥ 1 year\n* Benefiting from the indication of use of the free Freestyle glucose meter\n* Treatment with multi-injection insulin therapy comprising a daily injection of basal insulin (Glargine U100, Glargine U300, Degludec) an",
+            "endpoints": [
+              "Variation of hepatic steatosis, between the insulin pump therapy (CSII) vs Multi injection treatement (MDI) groups."
+            ],
+            "sponsor": "Nantes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04270656"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07437001",
+            "title": "Effect of Electroacupuncture on Central Obesity and Fatty Liver in Postmenopausal Women: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-03-01",
+            "completion_date": "2026-06-15",
+            "country": "Egypt",
+            "enrollment": 60,
+            "brief_summary": "The aim of this study is to determine the effect of electroacupuncture on central obesity and fatty liver in postmenopausal women.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Their ages will be ranged between 50 and 60 years old.\n2. Their body mass index will be ranged from 30-40 kg/m2.\n3. SGOT more 40 U/L.\n4. SGPT more 40 U/L.\n5. Waist/Hip Ratio more 1 cm.\n6. Triglyceride more 150 mg/dl.\n7. Cholesterol more 200 mg/dl.\n8. LDL more 100 mg/dl.\n9. HD",
+            "endpoints": [
+              "Body Mass Index (BMI)",
+              "Waist Circumference",
+              "Hip Circumference"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT07437001"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05934110",
+            "title": "A 26-week, Double-blind, Randomized Study in Participants With Overweight or Obesity Investigating the Added Contribution of Acarbose in EMP16 on Efficacy, Safety and Tolerability",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2023-04-18",
+            "completion_date": "2024-03-15",
+            "country": "Sweden",
+            "enrollment": 320,
+            "brief_summary": "This is a randomized, double-blind study in participants with overweight or obesity in which the effect of acarbose and the impact of dose on efficacy, safety and tolerability is investigated by comparing the EMP16 combination product with modified release (MR) orlistat, orlistat in its conventional dosage form and placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Willing and able to give written informed consent for participation in the study.\n2. Males or females (sex distribution 50:50, preferably ±5%) aged ≥18 years.\n3. BMI ≥ 30 or ≥ 27 kg/m² in the presence of other risk factors based on participant interview e.g., hypertension (ei",
+            "endpoints": [
+              "Relative (%) change from baseline in body weight at week 26",
+              "Proportion of participants with ≥5% decrease in body weight at week 26 [Please note: This is an FDA required outcome, cannot use \"change\"]"
+            ],
+            "sponsor": "Empros Pharma AB",
+            "url": "https://clinicaltrials.gov/study/NCT05934110"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00160407",
+            "title": "Orlistat (Xenical) in the Treatment of Overweight Patients With Nonalcoholic Steatohepatitis (NASH)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2003-10",
+            "completion_date": "2006-12",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "The purpose of this study is to determine if orlistat (Xenical) therapy in overweight patients with NASH leads to enhanced weight loss over time, with subsequent improvement in the underlying necroinflammatory and fibrotic changes that are typical of NASH.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Liver biopsy obtained no more than 24 months before randomization with a pathology report confirming that the histological diagnosis is consistent with NASH\n* Compensated liver disease with the following laboratory parameters at the entry visit:\n\n  * Hemoglobin values of great",
+            "endpoints": [
+              "The primary endpoint is weight loss leading to improvement in the global necroinflammatory and fibrosis scores on liver biopsies. A change of one point in the necroinflammatory grade or fibrosis stage will be considered statistically significant."
+            ],
+            "sponsor": "St. Louis University",
+            "url": "https://clinicaltrials.gov/study/NCT00160407"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00001723",
+            "title": "Safety and Efficacy of Orlistat (Xenical, Hoffmann LaRoche) in African American and Caucasian Children and Adolescents With Obesity-Related Comorbid Conditions",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "1998-05",
+            "completion_date": "2011-10",
+            "country": "United States",
+            "enrollment": 200,
+            "brief_summary": "Obesity is a condition affecting one-third off the U.S. population and is a major risk actor for the development of Type 2 diabetes, hyperlipidemia (increased levels of fat in the blood), hypertension (high blood pressure), and other disorders of the heart and lungs. Individuals with the onset of obesity during childhood or adolescence are at an increased risk of obesity-related, diseases, both during adolescence and later in adult life.\n\nAfrican American girls and women are at an increased risk",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nGood general health. Individuals taking medications for obesity-related comorbid conditions will not be excluded.\n\nObesity: body mass index for age and triceps skinfold above the 95th percentile (determined by NHANES I age-, sex-, and race- specific data). All subjects will be",
+            "endpoints": [
+              "Change in BMI Standard Deviation Score"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT00001723"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06501326",
+            "title": "Clinical Efficacy and Safety of Liraglutide in the Treatment of Obesity Combined With Metabolism-associated Fatty Liver Disease (MAFLD)",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2023-11-01",
+            "completion_date": "2025-02-28",
+            "country": "China",
+            "enrollment": 102,
+            "brief_summary": "STUDY OBJECTIVE: To explore the clinical efficacy and safety of liraglutide in obesity combined with metabolism-associated fatty liver disease (MAFLD).\n\nINTERVENTION PROGRAM: All subjects underwent dietary control and exercise therapy, and controlled smoking and alcohol consumption. During the 3 months of the trial, men were instructed to follow a diet of 1,500 to 1,800 kcal per day and women followed a diet of 1,200 to 1,500 kcal per day. All three diets included 40 to 55 percent carbohydrates,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of Metabolic Associated Fatty Liver Disease(MAFLD);\n2. Clinical diagnosis of Obesity.\n\nExclusion Criteria:\n\n1. Medicated Hepatitis and Viral Hepatitis;\n2. Have severe hepatic or renal insufficiency;\n3. have used any weight-loss drug;\n4. History of severe ga",
+            "endpoints": [
+              "Body weight",
+              "FABP4",
+              "BMI"
+            ],
+            "sponsor": "Affiliated Hospital of Nantong University",
+            "url": "https://clinicaltrials.gov/study/NCT06501326"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30502373",
+            "title": "Obesity and nonalcoholic fatty liver disease: From pathophysiology to therapeutics.",
+            "abstract": "The obesity epidemic is closely associated with the rising prevalence and severity of nonalcoholic fatty liver disease (NAFLD): obesity has been linked not only with simple steatosis (SS), but also with advanced disease, i.e., nonalcoholic steatohepatitis (NASH), NASH-related cirrhosis and hepatocellular carcinoma. As a consequence, apart from increasing all-cause mortality, obesity seems to increase liver-specific mortality in NAFLD patients. Given the lack of approved pharmacological interventions for NAFLD, targeting obesity is a rational option for its management. As the first step, lifestyle modification (diet and exercise) is recommended, although it is difficult to achieve and sustain. When the first step fails, adding pharmacotherapy is recommended. Several anti-obesity medications have been investigated in NAFLD (e.g., orlistat, glucagon-like peptide-1 analogs), other anti-obesity medications have not been investigated (e.g., lorcaserin, phentermine hydrochloric, phentermine/t",
+            "journal": "Metabolism: clinical and experimental",
+            "year": "2019",
+            "authors": [
+              "Polyzos Stergios A",
+              "Kountouras Jannis",
+              "Mantzoros Christos S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Non-alcoholic Fatty Liver Disease",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30502373/"
+          },
+          {
+            "pmid": "36781126",
+            "title": "Treatment of obesity and metabolic-associated fatty liver disease with a diet or orlistat: A randomized controlled trial.",
+            "abstract": "Losing weight by lifestyle interventions is the first-line treatment for metabolic-associated fatty liver disease (MAFLD) but is limited by low compliance.",
+            "journal": "The American journal of clinical nutrition",
+            "year": "2023",
+            "authors": [
+              "Feng Xiongcai",
+              "Lin Yansong",
+              "Zhuo Shuyu",
+              "Dong Zhi",
+              "Shao Congxiang"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Orlistat",
+              "Protons",
+              "Anti-Obesity Agents",
+              "Lactones",
+              "Obesity",
+              "Diet",
+              "Fatty Liver",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36781126/"
+          },
+          {
+            "pmid": "38191266",
+            "title": "High-fat diet promotes liver tumorigenesis via palmitoylation and activation of AKT.",
+            "abstract": "Whether and how the PI3K-AKT pathway, a central node of metabolic homeostasis, is responsible for high-fat-induced non-alcoholic steatohepatitis (NASH) and hepatocellular carcinoma (HCC) remain a mystery. Characterisation of AKT regulation in this setting will provide new strategies to combat HCC.",
+            "journal": "Gut",
+            "year": "2024",
+            "authors": [
+              "Bu Lang",
+              "Zhang Zhengkun",
+              "Chen Jianwen",
+              "Fan Yizeng",
+              "Guo Jinhe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Proto-Oncogene Proteins c-akt",
+              "Diet, High-Fat",
+              "Mice",
+              "Non-alcoholic Fatty Liver Disease",
+              "Carcinoma, Hepatocellular",
+              "Liver Neoplasms",
+              "Humans",
+              "Lipoylation",
+              "Palmitic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38191266/"
+          },
+          {
+            "pmid": "31935815",
+            "title": "Antrodan Alleviates High-Fat and High-Fructose Diet-Induced Fatty Liver Disease in C57BL/6 Mice Model via AMPK/Sirt1/SREBP-1c/PPARγ Pathway.",
+            "abstract": "Non-alcoholic fatty liver disease (NAFLD) and -steatohepatitis (NASH) imply a state of excessive fat built-up in livers with/or without inflammation and have led to serious medical concerns in recent years. Antrodan (Ant), a purified β-glucan from A. cinnamomea has been shown to exhibit tremendous bioactivity, including hepatoprotective, antihyperlipidemic, antiliver cancer, and anti-inflammatory effects. Considering the already well-known alleviating bioactivity of A. cinnamomea for the alcoholic steatohepatitis (ASH), we propose that Ant can be beneficial to NAFLD, and that the AMPK/Sirt1/PPARγ/SREBP-1c pathways may be involved in such alleviations. To uncover this, we carried out this study with 60 male C57BL/6 mice fed high-fat high-fructose diet (HFD) for 60 days, in order to induce NAFLD/NASH. Mice were then grouped and treated (by oral administration) as: G1: control; G2: HFD (HFD control); G3: Ant, 40 mgkg (Ant control); G4: HFD+Orlistat (10 mg/kg) (as Orlistat control); G5: HF",
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "authors": [
+              "Chyau Charng-Cherng",
+              "Wang Hsueh-Fang",
+              "Zhang Wen-Juan",
+              "Chen Chin-Chu",
+              "Huang Shiau-Huei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AMP-Activated Protein Kinase Kinases",
+              "Administration, Oral",
+              "Animals",
+              "Antrodia",
+              "Diet, High-Fat",
+              "Fructose",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Non-alcoholic Fatty Liver Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31935815/"
+          },
+          {
+            "pmid": "38971026",
+            "title": "Multiomics reveals the ameliorating effect and underlying mechanism of aqueous extracts of polygonatum sibiricum rhizome on obesity and liver fat accumulation in high-fat diet-fed mice.",
+            "abstract": "Polygonatum sibiricum polysaccharides protect against obesity and NAFLD. However, the potential effects of PS rhizome aqueous extracts (PSRwe) on adiposity and hepatic lipid accumulation remains unexplored.",
+            "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "year": "2024",
+            "authors": [
+              "Ou Xiaobin",
+              "Chen Juanjuan",
+              "Li Boping",
+              "Yang Yan",
+              "Liu Xiuli"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Male",
+              "Mice",
+              "Akkermansia",
+              "Diet, High-Fat",
+              "Gastrointestinal Microbiome",
+              "Lipid Metabolism",
+              "Liver",
+              "Mice, Inbred C57BL",
+              "Multiomics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38971026/"
+          },
+          {
+            "pmid": "38910819",
+            "title": "Efficacy of orlistat in obese patients with nonalcoholic fatty liver disease: a systematic review and meta-analysis of randomized controlled trials.",
+            "abstract": "Objective: Nonalcoholic fatty liver disease (NAFLD) or metabolic dysfunction-associated steatotic liver disease (MASLD) is a significant contributor to chronic liver disease worldwide. Orlistat blocks intestinal fat absorption, leading to decreased liver fat content. Therefore, it is a viable option for NAFLD management. Methods: We performed a systematic review and metaanalysis using randomized controlled trials (RCTs). We used mean difference (MD) to pool continuous outcomes presented with the corresponding confidence interval (CI). Results: We included four RCTs with a total of 379 patients. Orlistat was effective in reducing liver fat content (MD: -5.02, 95% CI [-7.23, -2.82], P = 0.00001), alanine transferase (MD: -10.03, 95% CI [-17.80, -2.26], P = 0.01), aspartate transferase (MD: -4.29, 95% CI [-7.59, -0.99], P = 0.01), waist circumference (MD: -3.18, 95% CI [-4.25, -2.10], P = 0.00001), body mass index (MD: -1.03, 95% CI [-1.34, -0.73], P = 0.00001), total cholesterol (MD: -3.",
+            "journal": "Proceedings (Baylor University. Medical Center)",
+            "year": "2024",
+            "authors": [
+              "Mahmoud Abdelrahman",
+              "Mohamed Islam",
+              "Abuelazm Mohamed",
+              "Ahmed Ali Ashraf Salah",
+              "Saeed Abdallah"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38910819/"
+          },
+          {
+            "pmid": "18095746",
+            "title": "Orlistat-associated adverse effects and drug interactions: a critical review.",
+            "abstract": "Orlistat, an anti-obesity drug, is a potent and specific inhibitor of intestinal lipases. In light of the recent US FDA approval of the over-the-counter sale of orlistat (60 mg three times daily), clinicians need to be aware that its use may be associated with less well known, but sometimes clinically relevant, adverse effects. More specifically, the use of orlistat has been associated with several mild-to-moderate gastrointestinal adverse effects, such as oily stools, diarrhoea, abdominal pain and faecal spotting. A few cases of serious hepatic adverse effects (cholelithiasis, cholostatic hepatitis and subacute liver failure) have been reported. However, the effects of orlistat on non-alcoholic fatty liver disease are beneficial. Orlistat-induced weight loss seems to have beneficial effects on blood pressure. No effect has been observed on calcium, phosphorus, magnesium, iron, copper or zinc balance or on bone biomarkers. Interestingly, the use of orlistat has been associated with rar",
+            "journal": "Drug safety",
+            "year": "2008",
+            "authors": [
+              "Filippatos Theodosios D",
+              "Derdemezis Christos S",
+              "Gazi Irene F",
+              "Nakou Eleni S",
+              "Mikhailidis Dimitri P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Obesity Agents",
+              "Drug Interactions",
+              "Humans",
+              "Intestines",
+              "Lactones",
+              "Lipase",
+              "Nonprescription Drugs",
+              "Orlistat"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18095746/"
+          },
+          {
+            "pmid": "27711029",
+            "title": "Adipose tissue, obesity and non-alcoholic fatty liver disease.",
+            "abstract": "The association of obesity with non-alcoholic fatty liver disease (NAFLD) has been established. Obesity has been linked not only to initial stages of the disease, i.e., simple steatosis (SS), but also to its severity. From an epidemiologic point of view, both diseases has an increasing prevalence worldwide. From a pathogenetic point of view, obesity and its associate IR contribute to the initial fat accumulation in the hepatocyte (SS), but also to the progression of SS to nonalcoholic steatohepatitis (NASH), NASH-related cirrhosis and hepatocellular carcinoma (HCC). From a clinical point of view, obesity has increased morbidity and mortality when combined with NAFLD, owing to cardiovascular and liver-specific mortality, including higher HCC risk. From a therapeutic point of view, weight loss is regarded as the cornerstone for the disease prevention and treatment. Although diet and exercise are the first choice to this aim, they are both difficult to achieve and sustain. Thus, the need ",
+            "journal": "Minerva endocrinologica",
+            "year": "2017",
+            "authors": [
+              "Polyzos Stergios A",
+              "Kountouras Jannis",
+              "Mantzoros Christos S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adipokines",
+              "Adipose Tissue",
+              "Animals",
+              "Humans",
+              "Non-alcoholic Fatty Liver Disease",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27711029/"
+          },
+          {
+            "pmid": "27646933",
+            "title": "Current and upcoming pharmacotherapy for non-alcoholic fatty liver disease.",
+            "abstract": "Given the high prevalence and rising incidence of non-alcoholic fatty liver disease (NAFLD), the absence of approved therapies is striking. Although the mainstay of treatment of NAFLD is weight loss, it is hard to maintain, prompting the need for pharmacotherapy as well. A greater understanding of disease pathogenesis in recent years was followed by development of new classes of medications, as well as potential repurposing of currently available agents. NAFLD therapies target four main pathways. The dominant approach is targeting hepatic fat accumulation and the resultant metabolic stress. Medications in this group include peroxisome proliferator-activator receptor agonists (eg, pioglitazone, elafibranor, saroglitazar), medications targeting the bile acid-farnesoid X receptor axis (obeticholic acid), inhibitors of de novo lipogenesis (aramchol, NDI-010976), incretins (liraglutide) and fibroblast growth factor (FGF)-21 or FGF-19 analogues. A second approach is targeting the oxidative s",
+            "journal": "Gut",
+            "year": "2017",
+            "authors": [
+              "Rotman Yaron",
+              "Sanyal Arun J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Obesity Agents",
+              "Antioxidants",
+              "Chenodeoxycholic Acid",
+              "Dipeptidyl-Peptidase IV Inhibitors",
+              "Drug Discovery",
+              "Drug Repositioning",
+              "Humans",
+              "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "Immunologic Factors",
+              "Incretins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27646933/"
+          },
+          {
+            "pmid": "38263401",
+            "title": "Non-alcoholic fatty liver disease promotes liver metastasis of colorectal cancer via fatty acid synthase dependent EGFR palmitoylation.",
+            "abstract": "Liver metastasis is the major reason for most of colorectal cancer (CRC) related deaths. Accumulating evidence indicates that CRC patients with non-alcoholic fatty liver disease (NAFLD) are at a greater risk of developing liver metastasis. With the growing prevalence of NAFLD, a better understanding of the molecular mechanism in NAFLD-driven CRC liver metastasis is needed. In this study, we demonstrated that NAFLD facilitated CRC liver metastasis as a metabolic disorder and promoted the stemness of metastatic CRC cells for their colonization and outgrowth in hepatic niches. Metabolically, the lipid-rich microenvironment in NAFLD activated de novo palmitate biosynthesis in metastatic CRC cells via upregulating fatty acid synthase (FASN). Moreover, increased intracellular palmitate bioavailability promoted EGFR palmitoylation to enhance its protein stability and plasma membrane localization. Furthermore, we demonstrated that the FDA-approved FASN inhibitor orlistat could reduce NAFLD-act",
+            "journal": "Cell death discovery",
+            "year": "2024",
+            "authors": [
+              "Zhang Chi",
+              "Zhang Yue",
+              "Dong Yan",
+              "Zi Ruiyang",
+              "Wang Yijie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38263401/"
+          },
+          {
+            "pmid": "41069538",
+            "title": "EARLY EFFECT OF ORLISTAT ON NONALCOHOLIC STEATOHEPATITIS AND ATHEROGENICITY ASSOCIATED INDICES IN OBESITY PATIENTS WITH NONALCOHOLIC FATTY LIVER DISEASE.",
+            "abstract": "Obesity is a metabolic condition characterized by increased body fat mass. Increased prevalence of nonalcoholic steatohepatitis (NASH) and increased atherogenicity are closely associated with morbidity and mortality in obesity patients. In this study, we investigated the effect of orlistat, a gastrointestinal lipase inhibitor, on atherogenicity-related and NASH-related indexes in obese patients.",
+            "journal": "Acta endocrinologica (Bucharest, Romania : 2005)",
+            "year": "2024",
+            "authors": [
+              "Menekşe B",
+              "Batman A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41069538/"
+          },
+          {
+            "pmid": "18956296",
+            "title": "Current and emerging therapies in nonalcoholic fatty liver disease.",
+            "abstract": "The prevalence of obesity and the metabolic syndrome (MS) is on the rise, and subsequently the hepatic manifestation of MS, nonalcoholic fatty liver disease (NAFLD), has become a common entity in clinical practice. Most patients with NAFLD face medical complications related to their underlying MS in other organ systems; however, a small but significant group of patients with the more aggressive form of fatty liver, nonalcoholic steatohepatitis (NASH), are at risk of developing cirrhosis and hepatocellular carcinoma. As patients are generally asymptomatic, often their disease goes unrecognized. This is particularly true for NASH, where liver biopsy is currently required to make the diagnosis. Once diagnosed, no one treatment has been shown to be universally efficacious and those that are of benefit are not without side effects. Effective treatment regimens directed at both decreasing insulin resistance as well as the processes leading to necroinflammation and hepatic fibrosis have been ",
+            "journal": "Seminars in liver disease",
+            "year": "2008",
+            "authors": [
+              "Kashi Maryam R",
+              "Torres Dawn M",
+              "Harrison Stephen A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Bariatric Surgery",
+              "Body Mass Index",
+              "Cannabinoids",
+              "Cholagogues and Choleretics",
+              "Comorbidity",
+              "Fatty Liver",
+              "Glucagon-Like Peptide 1",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18956296/"
+          },
+          {
+            "pmid": "18685459",
+            "title": "Nutrition in pathophysiology and treatment of nonalcoholic fatty liver disease.",
+            "abstract": "Overnutrition resulting in obesity plays a key role in nonalcoholic fatty liver disease, the major reason for abnormal liver function in many parts of the world. Currently, it is not clear which type of diet preferentially results in this common disease.",
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "year": "2008",
+            "authors": [
+              "Moschen Alexander R",
+              "Tilg Herbert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Obesity Agents",
+              "Cytokines",
+              "Diet",
+              "Exercise Therapy",
+              "Fatty Liver",
+              "Humans",
+              "Lactones",
+              "Lipids",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18685459/"
+          },
+          {
+            "pmid": "24287794",
+            "title": "Non-alcoholic fatty liver disease: a diabetologist's perspective.",
+            "abstract": "In the recent years, non-alcoholic fatty liver disease (NAFLD) has emerged as the commonest cause of chronic liver disease in the developed world. The global epidemic of obesity secondary to physical inactivity and adverse food habits accounts for the alarming rise in NAFLD. Metabolic syndrome plays a major role in the pathogenesis of both NAFLD and type 2 diabetes mellitus (T2DM). Whilst most cases of NAFLD remain asymptomatic with only hepatic steatosis, about 30 % progress to non-alcoholic steatohepatitis with chronic liver inflammation that can lead on to fibrosis, cirrhosis, liver failure, and hepatocellular carcinoma. Because of the similar pathogenesis shared between T2DM and NAFLD, T2DM occurs as an important complication in many cases of NAFLD, and many cases of T2DM are further complicated by NAFLD. Rapid progression and increased complications of the individual diseases is the end result of this dual coexistence. Diagnosis of NAFLD relies upon hepatic imaging, serum biochemi",
+            "journal": "Endocrine",
+            "year": "2014",
+            "authors": [
+              "Pappachan Joseph M",
+              "Antonio Farrah A",
+              "Edavalath Mahamood",
+              "Mukherjee Arjun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Non-alcoholic Fatty Liver Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24287794/"
+          },
+          {
+            "pmid": "35501557",
+            "title": "Anti-obesity Medications for the Management of Nonalcoholic Fatty Liver Disease.",
+            "abstract": "Obesity is closely associated with nonalcoholic fatty liver disease (NAFLD), a highly prevalent disease without any approved medication. The aim of this review was to summarize the evidence on the effect of anti-obesity medications on NAFLD, especially focusing on hepatic histology.",
+            "journal": "Current obesity reports",
+            "year": "2022",
+            "authors": [
+              "Polyzos Stergios A",
+              "Goulis Dimitrios G",
+              "Giouleme Olga",
+              "Germanidis Georgios S",
+              "Goulas Antonis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Obesity Agents",
+              "Liraglutide",
+              "Non-alcoholic Fatty Liver Disease",
+              "Obesity",
+              "Orlistat",
+              "Phentermine",
+              "Sodium-Glucose Transporter 2 Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35501557/"
+          },
+          {
+            "pmid": "38081992",
+            "title": "The effect of orlistat in the treatment of non-alcoholic fatty liver in adolescents with overweight and obese.",
+            "abstract": "Nonalcoholic fatty liver disease (NAFLD), which can manifest as nonalcoholic steatohepatitis (NASH) or severe fibrosis, is the most prevalent chronic liver disease in children and adolescents. However, there is no proven cure for it so far. This study was conducted to determine whether adolescents with NAFLD would improve with treatment intervention with orlistat. This study is a randomized controlled trial (RCT). Fifty-three adolescents with overweight/obese as well as with NAFLD randomly allocated to receive orlistat (n = 27) or placebo as control (n = 26) for 12 weeks. In addition, NAFLD activity score, anthropometric factors, biochemical parameters including serum levels of lipid profiles, liver enzyme, and glucose metabolism taken from subjects at baseline and end of the study were investigated. The findings of our article indicated that orlistat improves liver enzymes (alanine transaminase and aspartate transaminase) (P =  < 0.001), steatosis score (P = 0.001), NAFLD activity sco",
+            "journal": "European journal of pediatrics",
+            "year": "2024",
+            "authors": [
+              "Zahmatkesh Arefeh",
+              "Sohouli Mohammad Hassan",
+              "Shojaie Shima",
+              "Rohani Pejman"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adolescent",
+              "Child",
+              "Non-alcoholic Fatty Liver Disease",
+              "Orlistat",
+              "Overweight",
+              "Metabolic Syndrome",
+              "Obesity",
+              "Body Mass Index",
+              "Glucose"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38081992/"
+          },
+          {
+            "pmid": "41768122",
+            "title": "Efficacy of Orlistat on Cardiometabolic Indices in Patients With Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD): A GRADE-Assessed Systematic Review and Meta-Analysis of RCTs.",
+            "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is closely linked to cardiometabolic abnormalities. Orlistat has demonstrated potential benefits on metabolic parameters, yet its efficacy in MASLD remains unclear. This meta-analysis aimed to assess the effects of Orlistat on cardiometabolic indices in patients with MASLD.",
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "2026",
+            "authors": [
+              "Karimi Mehdi",
+              "Pourfaraji Seyed Morteza Ali",
+              "Parhizkar Roudsari Peyvand",
+              "Pirzad Samira"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41768122/"
+          },
+          {
+            "pmid": "27063274",
+            "title": "Current Pharmacologic Therapy for Nonalcoholic Fatty Liver Disease.",
+            "abstract": "Weight loss, regular exercise, and diet composition modification seem to improve biochemical and histologic abnormalities. Other therapies directed at insulin resistance, oxidative stress, cytoprotection, and fibrosis may also offer benefits. Insulin sensitizers and vitamin E seem to be the most promising; however, they cause side effects. A multifaceted approach of lifestyle modifications, weight loss, and pharmacotherapy can be used in combination, but no single treatment approach has proved universally applicable to the general population with nonalcoholic steatohepatitis (NASH). Continuous clinical and preclinical studies on existing and potential drugs are needed to improve treatment of nonalcoholic fatty liver disease/NASH.",
+            "journal": "Clinics in liver disease",
+            "year": "2016",
+            "authors": [
+              "Ganesh Swaytha",
+              "Rustgi Vinod K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiotensin Receptor Antagonists",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Anti-Obesity Agents",
+              "Anticholesteremic Agents",
+              "Antioxidants",
+              "Cannabinoid Receptor Antagonists",
+              "Cholagogues and Choleretics",
+              "Fatty Acids, Omega-3",
+              "Humans",
+              "Hypoglycemic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27063274/"
+          },
+          {
+            "pmid": "33072533",
+            "title": "The Evaluation of Effective Drugs for the Treatment of Non-Alcoholic Fatty Liver Disease: A Systematic Review and Network Meta-Analysis.",
+            "abstract": "Purpose: Non-alcoholic fatty liver disease (NAFLD) and steatohepatitis are two forms of fatty liver disease with benign and malignant nature, respectively. These two conditions can cause an increased risk of liver cirrhosis and hepatocellular carcinoma. Given the importance and high prevalence of NAFLD, it is necessary to investigate the results of different studies in related scope to provide a clarity guarantee of effectiveness. Therefore, this systematic review and meta-analysis aim to study the efficacy of various medications used in the treatment of NAFLD. Methods: A systematic search of medical databases identified 1963 articles. After exclusion of duplicated articles and those which did not meet our inclusion criteria, eta-analysis was performed on 84 articles. Serum levels of alanine aminotransferase (ALT), aspartate amino transferase (AST) were set as primary outcomes and body mass index (BMI), hepatic steatosis, and NAFLD activity score (NAS) were determined as secondary outc",
+            "journal": "Advanced pharmaceutical bulletin",
+            "year": "2020",
+            "authors": [
+              "Jalili Ramin",
+              "Somi Mohammad Hossein",
+              "Hosseinifard Hossein",
+              "Salehnia Fatemeh",
+              "Ghojazadeh Morteza"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33072533/"
+          },
+          {
+            "pmid": "35920178",
+            "title": "The different effects of psyllium husk and orlistat on weight control, the amelioration of hypercholesterolemia and non-alcohol fatty liver disease in obese mice induced by a high-fat diet.",
+            "abstract": "Obesity is a widespread medical problem, for which many drugs have been developed, each with its own limitations. Orlistat, a lipase inhibitor, functions as a fat absorption blocker and is a widely used over-the-counter drug in China. Psyllium husk, in contrast, is a food source rich in dietary fibre and is beneficial for weight loss because it reduces appetite. Here, it was investigated how psyllium husk treatments affect mice with a high-fat diet (HFD)-induced obesity, using obesity-related indices, metabolism indices, and gut microbiota, compared to orlistat treatments. Orlistat had a greater effect on weight loss, whereas psyllium husk had a greater effect at reducing serum and liver cholesterol and triglyceride levels. Treatments had similar effects on controlling the body fat rate, the expression level of farnesoid X receptor, sterol 27-hydroxylase and oxysterol 7-hydroxylase (CYP7B1) in the liver, and the regulation of major bile acids such as cholic acid, chenodeoxycholic acid,",
+            "journal": "Food & function",
+            "year": "2022",
+            "authors": [
+              "Deng Zhitong",
+              "Meng Cong",
+              "Huang Haodong",
+              "Song Siyu",
+              "Fu Linchun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Obesity Agents",
+              "Bile Acids and Salts",
+              "Diet, High-Fat",
+              "Hypercholesterolemia",
+              "Hyperlipidemias",
+              "Liver",
+              "Mice",
+              "Mice, Obese",
+              "Non-alcoholic Fatty Liver Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35920178/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.7984312176704407,
+        "txgnn_rank": 41904,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.7788717746734619,
+        "txgnn_rank": 42732,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "17077458",
+            "title": "[Use of orlistat (xenical) in the treatment of women with obesity and disorders of menstrual cycle].",
+            "abstract": "Obesity poses a serious threat for health, being a risk factor for development of heart diseases, diabetes type II, tumors, and reproductive function failure. The aim of this study is to investigate the effect of orlistat (xenical) on the character of menstrual cycle and some metabolic indicators in women with obesity. 17 patients of reproductive age with I-III degree of obesity were investigated. The visceral type of obesity and disorders of menstrual cycle were observed in all patients: oligomenorrhea was observed in 9 (52.9%), amenorrhea in 4 (23.5%)and metrorrhagia in 4 (23.5 %) patients. All the patients received orlistat (xenical) 120 mg 3 times per day during 6 months. Orlistat (xenical) therapy results in significant reduction of body weight (12.3%), body mass index (13.3%), improvement of lipid and carbohydrates metabolisms. Normalization of hormonal levels was registered. As a result of all this the restoration of menstrual cycle and ovulation is registered. Orlistat (xenical",
+            "journal": "Georgian medical news",
+            "year": "2006",
+            "authors": [
+              "Totoian E S",
+              "Frolova N G",
+              "Manasian A S",
+              "Akopian M A",
+              "Magevosian A A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Amenorrhea",
+              "Anti-Obesity Agents",
+              "Cholesterol, VLDL",
+              "Female",
+              "Humans",
+              "Lactones",
+              "Metrorrhagia",
+              "Obesity",
+              "Orlistat"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17077458/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01083",
+    "name": "Orlistat",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Orlistat"
+      },
+      "queried_at": "2026-03-10T03:51:06.343017",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Orlistat"
+      },
+      "queried_at": "2026-03-10T03:51:07.093898",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "hypervitaminosis"
+      },
+      "queried_at": "2026-03-10T03:51:07.564929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "hypervitaminosis"
+      },
+      "queried_at": "2026-03-10T03:51:11.328657",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "hypervitaminosis"
+      },
+      "queried_at": "2026-03-10T03:51:12.047335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "proximal 16p11.2 microdeletion syndrome"
+      },
+      "queried_at": "2026-03-10T03:51:12.564307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "proximal 16p11.2 microdeletion syndrome"
+      },
+      "queried_at": "2026-03-10T03:51:15.844731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "proximal 16p11.2 microdeletion syndrome"
+      },
+      "queried_at": "2026-03-10T03:51:16.759342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-10T03:51:17.652352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-10T03:51:20.953111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-10T03:51:21.880630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "frontorhiny"
+      },
+      "queried_at": "2026-03-10T03:51:22.544613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "frontorhiny"
+      },
+      "queried_at": "2026-03-10T03:51:26.385160",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "frontorhiny"
+      },
+      "queried_at": "2026-03-10T03:51:28.302141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-10T03:51:29.070221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-10T03:51:32.618715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "queried_at": "2026-03-10T03:51:33.602906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T03:51:34.497585",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T03:51:38.473827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-10T03:51:39.164206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-10T03:51:39.845652",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-10T03:51:43.699736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-10T03:51:44.566701",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "fatty liver disease"
+      },
+      "queried_at": "2026-03-10T03:51:46.559231",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "fatty liver disease"
+      },
+      "queried_at": "2026-03-10T03:51:49.976653",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "fatty liver disease"
+      },
+      "queried_at": "2026-03-10T03:51:54.889102",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:51:55.977371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:51:59.548343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T03:52:00.198204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T03:52:00.798952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T03:52:04.782510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Orlistat",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T03:52:06.861698",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:52:06.907483"
+  }
+}

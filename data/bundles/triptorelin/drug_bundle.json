@@ -1,0 +1,2000 @@
+{
+  "drug": {
+    "inn": "Triptorelin",
+    "drugbank_id": "DB06825",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypertrichosis (disease)",
+        "txgnn_score": 0.999969720840454,
+        "txgnn_rank": 129,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ambras type hypertrichosis universalis congenita",
+        "txgnn_score": 0.99995219707489,
+        "txgnn_rank": 177,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malformation syndrome with odontal and/or periodontal component",
+        "txgnn_score": 0.9999423027038574,
+        "txgnn_rank": 208,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22057194",
+            "title": "Periodontitis and diabetes: a two-way relationship.",
+            "abstract": "Periodontitis is a common chronic inflammatory disease characterised by destruction of the supporting structures of the teeth (the periodontal ligament and alveolar bone). It is highly prevalent (severe periodontitis affects 10-15% of adults) and has multiple negative impacts on quality of life. Epidemiological data confirm that diabetes is a major risk factor for periodontitis; susceptibility to periodontitis is increased by approximately threefold in people with diabetes. There is a clear relationship between degree of hyperglycaemia and severity of periodontitis. The mechanisms that underpin the links between these two conditions are not completely understood, but involve aspects of immune functioning, neutrophil activity, and cytokine biology. There is emerging evidence to support the existence of a two-way relationship between diabetes and periodontitis, with diabetes increasing the risk for periodontitis, and periodontal inflammation negatively affecting glycaemic control. Incide",
+            "journal": "Diabetologia",
+            "year": "2012",
+            "authors": [
+              "Preshaw P M",
+              "Alba A L",
+              "Herrera D",
+              "Jepsen S",
+              "Konstantinidis A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Periodontitis",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22057194/"
+          },
+          {
+            "pmid": "35688447",
+            "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+            "abstract": "The recently published clinical practice guideline (CPG) for the treatment of periodontitis in stages I-III provided evidence-based recommendations for the treatment of periodontitis patients, defined according to the 2018 classification. Stage IV periodontitis shares the severity and complexity characteristics of stage III periodontitis, but includes the anatomical and functional sequelae of tooth and periodontal attachment loss (tooth flaring and drifting, bite collapse, etc.), which require additional interventions following completion of active periodontal therapy.",
+            "journal": "Journal of clinical periodontology",
+            "year": "2022",
+            "authors": [
+              "Herrera David",
+              "Sanz Mariano",
+              "Kebschull Moritz",
+              "Jepsen Søren",
+              "Sculean Anton"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Delivery of Health Care",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Periodontics",
+              "Periodontitis",
+              "Tooth Loss"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35688447/"
+          },
+          {
+            "pmid": "9495612",
+            "title": "Microbial complexes in subgingival plaque.",
+            "abstract": "It has been recognized for some time that bacterial species exist in complexes in subgingival plaque. The purpose of the present investigation was to attempt to define such communities using data from large numbers of plaque samples and different clustering and ordination techniques. Subgingival plaque samples were taken from the mesial aspect of each tooth in 185 subjects (mean age 51 +/- 16 years) with (n = 160) or without (n = 25) periodontitis. The presence and levels of 40 subgingival taxa were determined in 13,261 plaque samples using whole genomic DNA probes and checkerboard DNA-DNA hybridization. Clinical assessments were made at 6 sites per tooth at each visit. Similarities between pairs of species were computed using phi coefficients and species clustered using an averaged unweighted linkage sort. Community ordination was performed using principal components analysis and correspondence analysis. 5 major complexes were consistently observed using any of the analytical methods.",
+            "journal": "Journal of clinical periodontology",
+            "year": "1998",
+            "authors": [
+              "Socransky S S",
+              "Haffajee A D",
+              "Cugini M A",
+              "Smith C",
+              "Kent R L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Bacteria, Anaerobic",
+              "Bacterial Typing Techniques",
+              "Cluster Analysis",
+              "DNA Probes",
+              "DNA, Bacterial",
+              "Dental Plaque",
+              "Ecosystem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9495612/"
+          },
+          {
+            "pmid": "37435999",
+            "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+            "abstract": "Regenerative periodontal surgical procedures are an important component in the treatment of advanced periodontitis. They aim to improve the long-term prognosis of teeth that are periodontally compromised by the presence of intrabony and/or furcation defects, resulting biologically in formation of root cementum, periodontal ligament, and alveolar bone and evidenced clinically by reduction of deep pockets to maintainable probing depths and/or improvements of vertical and horizontal furcation depth. Over the last 25 years, substantial clinical evidence has been accumulated to support the value of regenerative procedures in periodontally compromised dentitions. However, treatment success requires close attention to certain factors on the level of the patient, the tooth/defect, and the operator. Ignoring these factors in case selection, treatment planning, and treatment execution will increase the risk of complications that may jeopardize clinical success and may even be considered as treat",
+            "journal": "Periodontology 2000",
+            "year": "2023",
+            "authors": [
+              "Jepsen Karin",
+              "Sculean Anton",
+              "Jepsen Søren"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Guided Tissue Regeneration, Periodontal",
+              "Oral Surgical Procedures",
+              "Treatment Outcome",
+              "Periodontitis",
+              "Prognosis",
+              "Alveolar Bone Loss",
+              "Furcation Defects"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37435999/"
+          },
+          {
+            "pmid": "35420698",
+            "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+            "abstract": "Glycaemic control is a key component in diabetes mellitus (diabetes) management. Periodontitis is the inflammation and destruction of the underlying supporting tissues of the teeth. Some studies have suggested a bidirectional relationship between glycaemic control and periodontitis.  Treatment for periodontitis involves subgingival instrumentation, which is the professional removal of plaque, calculus, and debris from below the gumline using hand or ultrasonic instruments. This is known variously as scaling and root planing, mechanical debridement, or non-surgical periodontal treatment. Subgingival instrumentation is sometimes accompanied by local or systemic antimicrobials, and occasionally by surgical intervention to cut away gum tissue when periodontitis is severe. This review is part one of an update of a review published in 2010 and first updated in 2015, and evaluates periodontal treatment versus no intervention or usual care.  OBJECTIVES: To investigate the effects of periodonta",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "authors": [
+              "Simpson Terry C",
+              "Clarkson Janet E",
+              "Worthington Helen V",
+              "MacDonald Laura",
+              "Weldon Jo C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Diabetes Mellitus, Type 2",
+              "Glycated Hemoglobin",
+              "Glycemic Control",
+              "Humans",
+              "Periodontal Index",
+              "Periodontitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35420698/"
+          },
+          {
+            "pmid": "36883660",
+            "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+            "abstract": "Gingival fibroblasts (GFs) are essential components of the periodontium, which are responsible for the maintenance of tissue structure and integrity. However, the physiological role of GFs is not restricted to the production and remodeling of the extracellular matrix. GFs also act as sentinel cells that modulate the immune response to oral pathogens invading the gingival tissue. As an important \"nonclassical\" component of the innate immune system, GFs respond to bacteria and damage-related signals by producing cytokines, chemokines, and other inflammatory mediators. Although the activation of GFs supports the elimination of invading bacteria and the resolution of inflammation, their uncontrolled or excessive activation may promote inflammation and bone destruction. This occurs in periodontitis, a chronic inflammatory disease of the periodontium initiated and sustained by dysbiosis. In the inflamed gingival tissue, GFs acquire imprinted proinflammatory phenotypes that promote the growth",
+            "journal": "Journal of dental research",
+            "year": "2023",
+            "authors": [
+              "Wielento A",
+              "Lagosz-Cwik K B",
+              "Potempa J",
+              "Grabiec A M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Porphyromonas gingivalis",
+              "Inflammation",
+              "Gingiva",
+              "Chronic Periodontitis",
+              "Fibroblasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36883660/"
+          },
+          {
+            "pmid": "37452425",
+            "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes Mediate Endoplasmic Reticulum Stress and Immune Reprogramming for Periodontitis Therapy.",
+            "abstract": "Periodontitis is a chronic infectious disease caused by bacterial irritation. As an essential component of the host immunity, macrophages are highly plastic and play a crucial role in inflammatory response. An appropriate and timely transition from proinflammatory (M1) to anti-inflammatory (M2) macrophages is indispensable for treating periodontitis. As M2 macrophage-derived exosomes (M2-exos) can actively target inflammatory sites and modulate immune microenvironments, M2-exos can effectively treat periodontitis. Excessive endoplasmic reticulum stress (ER stress) and unfolded protein response (UPR) are highly destructive pathological characteristics during inflammatory periodontal bone loss. Although melatonin has antioxidant and anti-inflammatory effects, studies focusing on melatonin ER stress modulation remain limited. This study fabricates engineered M2-exos loading with melatonin (Mel@M2-exos) for treating periodontitis. As a result, M2-exos drive an appropriate and timely macrop",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Cui Ya",
+              "Hong Shebin",
+              "Xia Yunhui",
+              "Li Xiaojing",
+              "He Xiaoya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Rats",
+              "Humans",
+              "Animals",
+              "Melatonin",
+              "Exosomes",
+              "Periodontitis",
+              "Endoplasmic Reticulum Stress",
+              "Inflammation",
+              "Macrophages"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37452425/"
+          },
+          {
+            "pmid": "29193334",
+            "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+            "abstract": "The integrity of the peri-implant soft-tissue seal is crucial for maintaining peri-implant tissue health. Whilst the transmucosal component of the restored implant shares some common features with teeth, namely the presence of a junctional epithelium and a connective tissue component, there are some important differences. A key difference is the nature of the relationship of the connective tissue with the implant surface, whereby there is 'adaptation' of collagen fibers in a parallel orientation in relation to the implant, but insertion of fiber attachment perpendicularly into cementum in the case of teeth. This, combined with reduced cellularity and vascularity in the peri-implant connective tissue, may make implants more susceptible to disease initiation and progression. Furthermore, the presence of a subgingival connection between the implant and the abutment/restoration poses some specific challenges, and maintaining the integrity of this connection is important in preserving peri-",
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "authors": [
+              "Ivanovski Saso",
+              "Lee Ryan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Collagen",
+              "Connective Tissue",
+              "Dental Abutments",
+              "Dental Implant-Abutment Design",
+              "Dental Implantation, Endosseous",
+              "Dental Implants",
+              "Dental Prosthesis, Implant-Supported",
+              "Epithelial Attachment",
+              "Fibroblasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29193334/"
+          },
+          {
+            "pmid": "38907216",
+            "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+            "abstract": "Periodontitis is a chronic inflammation caused by a bacterial infection and is intimately associated with an overactive immune response. Biomaterials are being utilized more frequently in periodontal therapy due to their designability and unique drug delivery system. However, local and systemic immune response reactions driven by the implantation of biomaterials could result in inflammation, tissue damage, and fibrosis, which could end up with the failure of the implantation. Therefore, immunological adjustment of biomaterials through precise design can reduce the host reaction while eliminating the periodontal tissue's long-term chronic inflammation response. It is important to note that macrophages are an active immune system component that can participate in the progression of periodontal disease through intricate polarization mechanisms. And modulating macrophage polarization by designing biomaterials has emerged as a new periodontal therapy technique. In this review, we discuss th",
+            "journal": "Journal of nanobiotechnology",
+            "year": "2024",
+            "authors": [
+              "Peng Shumin",
+              "Fu Haojie",
+              "Li Rui",
+              "Li Hui",
+              "Wang Shuyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Periodontitis",
+              "Biocompatible Materials",
+              "Macrophages",
+              "Animals",
+              "Immunotherapy",
+              "Drug Delivery Systems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38907216/"
+          },
+          {
+            "pmid": "38362600",
+            "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+            "abstract": "Mounting evidence indicates that periodontitis-related oral bacteria may contribute to gut microbial dysbiosis. This clinical study aimed to explore the oral-gut microbial signatures associated with periodontitis and to longitudinally evaluate the effect of periodontal treatment on the oral and gut microbial composition. Stool and saliva samples from generalized stage III/IV periodontitis patients (n = 47) were collected and analyzed by 16S ribosomal RNA gene amplicon sequencing, before and 3 mo after steps I to II of periodontal therapy. Periodontally healthy matched subjects (n = 47) were used as controls. Principal component analysis was carried out to identify oral-gut microbial profiles between periodontitis patients at baseline and healthy subjects; periodontitis samples were longitudinally compared before and after treatment. β-Diversity of gut microbial profiles of periodontitis patients before treatment significantly differed from healthy controls (P < 0.001). Periodontal ther",
+            "journal": "Journal of dental research",
+            "year": "2024",
+            "authors": [
+              "Baima G",
+              "Ferrocino I",
+              "Del Lupo V",
+              "Colonna E",
+              "Thumbigere-Math V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gastrointestinal Microbiome",
+              "Dysbiosis",
+              "RNA, Ribosomal, 16S",
+              "Periodontitis",
+              "Microbiota"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38362600/"
+          },
+          {
+            "pmid": "7782979",
+            "title": "The modified papilla preservation technique. A new surgical approach for interproximal regenerative procedures.",
+            "abstract": "A modification of the papilla preservation technique has been applied to achieve primary closure of the interproximal tissue over barrier membranes placed coronal to the alveolar crest. Fifteen patients with deep intrabony interproximal defects were treated. Defects had a probing attachment level loss of 9.9 +/- 3.2 mm and a recession of the gingival margin of 1.7 +/- 1.6 mm. The depth of the intrabony component was 5.5 +/- 2.9 mm; while the suprabony component was 5.9 +/- 2.0 mm. Titanium-reinforced teflon membranes were placed 1.3 +/- 0.7 mm from the cemento-enamel junction, 4.5 +/- 1.6 mm coronal to the interproximal alveolar bone crest. Primary closure over the interproximal portion of the membrane was obtained in 93% of cases. In 73% of the cases complete coverage of the membrane was maintained until its removal at 6 weeks. These data indicate that the modified papilla preservation technique can be successfully applied to obtain primary closure of the interdental space in regenera",
+            "journal": "Journal of periodontology",
+            "year": "1995",
+            "authors": [
+              "Cortellini P",
+              "Prato G P",
+              "Tonetti M S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alveolar Bone Loss",
+              "Female",
+              "Gingiva",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Male",
+              "Membranes, Artificial",
+              "Middle Aged",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7782979/"
+          },
+          {
+            "pmid": "29194794",
+            "title": "The periodontal pocket.",
+            "abstract": "Periodontal disease is synonymous with the presence of periodontal pockets, and very often the clinical success of periodontal therapy is based on periodontal pocket depth reduction. Therefore, in the fields of periodontology and implant dentistry, significant research effort has been placed on the etiopathogenesis, diagnosis and treatment of periodontal/peri-implant disease and as a consequence on pocket pathology. In this volume of Periodontology 2000, the in-depth reviews include topics ranging from preclinical models, anatomy and structure of tissues, and molecular and bacterial components, to treatments of pockets around teeth and implants. These reviews aim to provide the readers with current and future perspectives on the different areas of research into the periodontal pocket.",
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "authors": [
+              "Donos Nikolaos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dental Calculus",
+              "Dental Implantation, Endosseous",
+              "Dental Implants",
+              "Gingiva",
+              "Gingival Crevicular Fluid",
+              "Humans",
+              "Oral Hygiene",
+              "Peri-Implantitis",
+              "Periodontal Diseases",
+              "Periodontal Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29194794/"
+          },
+          {
+            "pmid": "29291254",
+            "title": "Supportive periodontal therapy (SPT) for maintaining the dentition in adults treated for periodontitis.",
+            "abstract": "Periodontitis is a bacterially-induced, chronic inflammatory disease that destroys the connective tissues and bone that support teeth. Active periodontal treatment aims to reduce the inflammatory response, primarily through eradication of bacterial deposits. Following completion of treatment and arrest of inflammation, supportive periodontal therapy (SPT) is employed to reduce the probability of re-infection and progression of the disease; to maintain teeth without pain, excessive mobility or persistent infection in the long term, and to prevent related oral diseases.According to the American Academy of Periodontology, SPT should include all components of a typical dental recall examination, and importantly should also include periodontal re-evaluation and risk assessment, supragingival and subgingival removal of bacterial plaque and calculus, and re-treatment of any sites showing recurrent or persistent disease. While the first four points might be expected to form part of the routine",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "authors": [
+              "Manresa Carolina",
+              "Sanz-Miralles Elena C",
+              "Twigg Joshua",
+              "Bravo Manuel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Chronic Periodontitis",
+              "Dental Plaque",
+              "Humans",
+              "Middle Aged",
+              "Periodontal Debridement",
+              "Periodontics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29291254/"
+          },
+          {
+            "pmid": "12010523",
+            "title": "Clinical significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing.",
+            "abstract": "Analysis of Egyptian hieroglyphics and medical papyri indicate that non-surgical periodontal treatment was common 3000-4000 years ago. Even today, scaling and root planing (SRP) remains an essential part of successful periodontal therapy. The collective evidence from numerous clinical trials reveals a consistency of clinical response in the treatment of chronic periodontitis by SRP using manual, sonic, or ultrasonic instrumentation. Thus, SRP remains the 'gold standard' to which more recently developed therapeutic modalities must be compared. Inherent to the clinical evaluation of SRP are such concerns as manual versus sonic and ultrasonic instrumentation, control of sub-gingival bacterial populations, removal of calculus, root smoothness and changes in various clinical parameters, e.g. probing depth, attachment levels, bleeding on probing and gingival inflammation. Lastly, an abbreviated discussion is presented on a relatively new paradigm of complete mouth 'disinfection' in a compres",
+            "journal": "Journal of clinical periodontology",
+            "year": "2002",
+            "authors": [
+              "Cobb Charles M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chronic Disease",
+              "Dental Calculus",
+              "Dental Plaque",
+              "Dental Scaling",
+              "Evidence-Based Medicine",
+              "Gingival Hemorrhage",
+              "Gingivitis",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12010523/"
+          },
+          {
+            "pmid": "18673013",
+            "title": "Rethinking periodontal inflammation.",
+            "abstract": "Clinical signs and symptoms, as well as medical and dental history, are all considered in the clinical determination of gingival inflammation and periodontal disease severity. However, the \"biologic systems model\" highlights that the clinical presentation of periodontal disease is closely tied to the underlying biologic phenotype. We propose that the determination and integration of subject-level factors, microbial composition, systemic immune response, and gingival tissue inflammatory mediator responses will better reflect the biology of the biofilm-gingival interface in a specific patient and may provide insights on clinical management. Disease classifications and multivariable models further refine the biologic basis for the increasing severity of periodontal disease expression. As such, new classifications may better identify disease-susceptible and treatment-non-responsive individuals than current classifications that are heavily influenced by probing and attachment level measurem",
+            "journal": "Journal of periodontology",
+            "year": "2008",
+            "authors": [
+              "Offenbacher Steven",
+              "Barros Silvana P",
+              "Beck James D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biofilms",
+              "Disease Susceptibility",
+              "Epigenesis, Genetic",
+              "Gingivitis",
+              "Humans",
+              "Inflammation",
+              "Inflammation Mediators",
+              "Models, Biological",
+              "Periodontitis",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18673013/"
+          },
+          {
+            "pmid": "20599785",
+            "title": "Complement and periodontitis.",
+            "abstract": "Although the complement system is centrally involved in host defense, its overactivation or deregulation (e.g., due to inherent host genetic defects or due to pathogen subversion) may excessively amplify inflammation and contribute to immunopathology. Periodontitis is an oral infection-driven chronic inflammatory disease which exerts a systemic impact on health. This paper reviews evidence linking complement to periodontal inflammation and pathogenesis. Clinical and histological observations show a correlation between periodontal inflammatory activity and local complement activation. Certain genetic polymorphisms or deficiencies in specific complement components appear to predispose to increased susceptibility to periodontitis. Animal model studies and in vitro experiments indicate that periodontal bacteria can either inhibit or activate distinct components of the complement cascade. Porphyromonas gingivalis, a keystone species in periodontitis, subverts complement receptor 3 and C5a a",
+            "journal": "Biochemical pharmacology",
+            "year": "2010",
+            "authors": [
+              "Hajishengallis George"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Complement Activation",
+              "Complement C5a",
+              "Complement Inactivating Agents",
+              "Complement System Proteins",
+              "Genetic Predisposition to Disease",
+              "Host-Pathogen Interactions",
+              "Humans",
+              "Immunity, Innate",
+              "Macrophage-1 Antigen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20599785/"
+          },
+          {
+            "pmid": "17243998",
+            "title": "A minimally invasive surgical technique with an enamel matrix derivative in the regenerative treatment of intra-bony defects: a novel approach to limit morbidity.",
+            "abstract": "This study was undertaken to describe a new surgical approach (minimally invasive surgical technique, MIST) and to evaluate preliminarily its clinical performance and patient perception associated with the application of enamel matrix derivative (EMD) in the treatment of isolated deep intra-bony defects.",
+            "journal": "Journal of clinical periodontology",
+            "year": "2007",
+            "authors": [
+              "Cortellini Pierpaolo",
+              "Tonetti Maurizio S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alveolar Bone Loss",
+              "Attitude to Health",
+              "Cohort Studies",
+              "Dental Enamel Proteins",
+              "Female",
+              "Follow-Up Studies",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Intraoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17243998/"
+          },
+          {
+            "pmid": "11276517",
+            "title": "Osseous resective surgery.",
+            "abstract": "Osseous resective surgery necessitates following certain guidelines for proper recontouring of the alveolar bone and proper management and positioning of the gingival tissues. The results from osseous resective surgery are technique sensitive. It has limited use in treating cases with very deep intrabony or hemiseptal defects, which should be treated with a different surgical approach. If osseous resective surgery is used in advanced lesions, a compromise in the amount of probing depth reduction should be expected. Yet, osseous resective surgery provides the surest method of reducing pockets with an intrabony or hemiseptal osseous component of 3 mm or less, albeit at the expense of some attachment in the neighboring less involved sites. Osseous resective surgery has been and remains one of the principal periodontal treatment modalities because of its proven success (Fig. 17).",
+            "journal": "Periodontology 2000",
+            "year": "2000",
+            "authors": [
+              "Carnevale G",
+              "Kaldahl W B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alveolar Bone Loss",
+              "Alveolar Process",
+              "Alveoloplasty",
+              "Animals",
+              "Bone Remodeling",
+              "Bone Resorption",
+              "Clinical Trials as Topic",
+              "Gingival Recession",
+              "Gingivoplasty",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11276517/"
+          },
+          {
+            "pmid": "34269040",
+            "title": "The apically incised coronally advanced surgical technique (AICAST) for periodontal regeneration in isolated defects: a case series.",
+            "abstract": "The aim of this retrospective case series was to report the performance up to 5 years of an innovative surgical design (the apically incised coronally advanced surgical technique [AICAST]) for the regenerative treatment of one- or two-walled intrabony periodontal lesions.",
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "authors": [
+              "Calzavara Dino",
+              "Morante Segio",
+              "Sanz Javier",
+              "Noguerol Fernando",
+              "Gonzalez Jerian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alveolar Bone Loss",
+              "Dental Enamel Proteins",
+              "Follow-Up Studies",
+              "Gingival Recession",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Regeneration",
+              "Retrospective Studies",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34269040/"
+          },
+          {
+            "pmid": "3533789",
+            "title": "Juvenile periodontitis.",
+            "abstract": "Juvenile periodontitis occurs in children and young adults and can be classified into: periodontitis which occurs in otherwise healthy individuals, and periodontitis which occurs in juveniles with systemic disease. The periodontitis which occurs in otherwise healthy individuals consists of two major forms: juvenile periodontitis, also called periodontosis or localized juvenile periodontitis (LJP), and generalized juvenile periodontitis which includes early onset adult periodontitis, recurrent necrotizing ulcerative periodontitis and the true generalized form of juvenile periodontitis. Periodontitis in systemically diseased individuals can be divided into three subgroups: juvenile periodontitis associated with primary neutrophil disorders, juvenile periodontal disease in which neutrophils are secondarily abnormal, and juvenile periodontitis associated with other diseases. Juvenile periodontitis is perhaps the best understood form of periodontal disease. A major infecting organism, Actin",
+            "journal": "International dental journal",
+            "year": "1986",
+            "authors": [
+              "Genco R J",
+              "Christersson L A",
+              "Zambon J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Aggressive Periodontitis",
+              "Disease",
+              "Humans",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3533789/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+        "txgnn_score": 0.9999402761459352,
+        "txgnn_rank": 216,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "isolated genetic hair shaft abnormality",
+        "txgnn_score": 0.9999338388442992,
+        "txgnn_rank": 245,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.999071478843689,
+        "txgnn_rank": 1866,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial male-limited precocious puberty",
+        "txgnn_score": 0.9989997744560242,
+        "txgnn_rank": 1986,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36049976",
+            "title": "Familial male-limited precocious puberty (testotoxicosis): Usefulness of treatment with ketoconazole and triptorelin.",
+            "abstract": "",
+            "journal": "Medicina clinica",
+            "year": "2022",
+            "authors": [
+              "García García Emilio",
+              "Álvarez Del Vayo Concepción",
+              "Castaño Luis"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate",
+              "Ketoconazole",
+              "Gonadotropin-Releasing Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36049976/"
+          },
+          {
+            "pmid": "35909557",
+            "title": "Long-Term Treatment With Letrozole in a Boy With Familial Male-Limited Precocious Puberty.",
+            "abstract": "The long-term follow-up in children with familial male-limited precocious puberty (FMPP) who were treated with letrozole, triptorelin, and spironolactone is limited, especially considering the efficiency and safety.",
+            "journal": "Frontiers in endocrinology",
+            "year": "2022",
+            "authors": [
+              "Yuan Xin",
+              "Chen Ruimin",
+              "Zhang Ying",
+              "Yang Xiaohong",
+              "Lin Xiangquan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Child, Preschool",
+              "Humans",
+              "Letrozole",
+              "Male",
+              "Puberty, Precocious",
+              "Spironolactone",
+              "Triptorelin Pamoate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35909557/"
+          },
+          {
+            "pmid": "9920079",
+            "title": "Six-year results of spironolactone and testolactone treatment of familial male-limited precocious puberty with addition of deslorelin after central puberty onset.",
+            "abstract": "Short term treatment with spironolactone, testolactone, and, after the onset of central puberty, deslorelin can normalize the rate of growth and bone maturation in boys with familial male-limited precocious puberty. To test the hypothesis that this treatment can achieve long term normalization of the growth and development of these children, we examined the growth rate, bone maturation rate (change in bone age/change in chronological age), and predicted adult height of 10 boys who were treated with spironolactone (5.7 mg/kg x day) and testolactone (40 mg/kg x day) for at least 6 yr. Deslorelin (4 microg/kg x day) treatment was initiated 2.6 +/- 1.3 yr after beginning spironolactone and testolactone treatment. The growth rate normalized within 1 yr of starting treatment and remained normal during the next 5 yr of treatment (P < 0.001). The rate of bone maturation normalized during the second year of treatment and remained normal thereafter (P < 0.001). Predicted height increased from 16",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1999",
+            "authors": [
+              "Leschek E W",
+              "Jones J",
+              "Barnes K M",
+              "Hill S C",
+              "Cutler G B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Bone Development",
+              "Child",
+              "Child, Preschool",
+              "Gonadotropin-Releasing Hormone",
+              "Growth",
+              "Humans",
+              "Male",
+              "Puberty, Precocious",
+              "Spironolactone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9920079/"
+          },
+          {
+            "pmid": "29144249",
+            "title": "Effect of Antiandrogen, Aromatase Inhibitor, and Gonadotropin-releasing Hormone Analog on Adult Height in Familial Male Precocious Puberty.",
+            "abstract": "Antiandrogen, aromatase inhibitor, and gonadotropin-releasing hormone analog (GnRHa) treatment normalizes growth rate and bone maturation and increases predicted adult height (AH) in boys with familial male-limited precocious puberty (FMPP). To evaluate the effect of long-term antiandrogen, aromatase inhibitor, and GnRHa on AH, boys with FMPP who were treated were followed to AH.",
+            "journal": "The Journal of pediatrics",
+            "year": "2017",
+            "authors": [
+              "Leschek Ellen Werber",
+              "Flor Armando C",
+              "Bryant Joy C",
+              "Jones Janet V",
+              "Barnes Kevin M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, N.I.H., Intramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anastrozole",
+              "Androgen Antagonists",
+              "Aromatase Inhibitors",
+              "Body Height",
+              "Child",
+              "Child, Preschool",
+              "Drug Administration Schedule",
+              "Drug Therapy, Combination",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29144249/"
+          },
+          {
+            "pmid": "6223935",
+            "title": "Gonadotropin-independent familial sexual precocity with premature Leydig and germinal cell maturation (familial testotoxicosis): effects of a potent luteinizing hormone-releasing factor agonist and medroxyprogesterone acetate therapy in four cases.",
+            "abstract": "Four boys with sexual precocity are described in whom pubertal concentrations of plasma testosterone were associated with premature Leydig and germinal cell maturation without activation of the hypothalamic-pituitary gonadotropin unit. Extensive laboratory evaluation localized the source of testosterone secretion to the testes, and testicular biopsy revealed maturation of Leydig cells and spermatogenic elements. These events appear to be nongonadotropin-dependent in view of the absence of a pubertal pattern of pulsatile LH secretion, persistence of a prepubertal LH response to LRF even after long standing sexual precocity, prepubertal basal levels of LH and undetectable hCG, and the absence of biologically active LH-hCG by bioassay. Indirect immunofluorescence studies failed to demonstrate an immunoglobulin in the patients' sera that bound to Leydig cells or seminiferous tubules of normal adult human testes. The potent LRF analog D-Trp6-Pro9-NEt-LRF did not result in suppression of pla",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1983",
+            "authors": [
+              "Rosenthal S M",
+              "Grumbach M M",
+              "Kaplan S L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Chorionic Gonadotropin",
+              "Gonadotropin-Releasing Hormone",
+              "Humans",
+              "Leydig Cells",
+              "Luteinizing Hormone",
+              "Male",
+              "Medroxyprogesterone",
+              "Medroxyprogesterone Acetate",
+              "Periodicity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6223935/"
+          },
+          {
+            "pmid": "26113905",
+            "title": "[Change in stature after pseudo-puberty early by 11ß hydroxylase deficiency in a girl of 7 years: report of a case and review of literature].",
+            "abstract": "",
+            "journal": "The Pan African medical journal",
+            "year": "2015",
+            "authors": [
+              "Latrech Hanane",
+              "Gaouzi Ahmed"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "11-beta-Hydroxysteroid Dehydrogenases",
+              "Adrenal Hyperplasia, Congenital",
+              "Body Height",
+              "Bone Development",
+              "Child",
+              "Dwarfism",
+              "Female",
+              "Hirsutism",
+              "Hormones",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26113905/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "precocious puberty",
+        "txgnn_score": 0.9988712668418884,
+        "txgnn_rank": 2231,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00840944",
+            "title": "Efficacy and Safety of a 4 Year Combination Therapy of Growth Hormone and Gonadotropin- Releasing Hormone Agonist in Children With a Short Predicted Height.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2008-01",
+            "completion_date": "2024-04",
+            "country": "Belgium",
+            "enrollment": 44,
+            "brief_summary": "Estrogens are responsible for the disappearance of growth cartilage in the long bones at the end of the pubertal growth spurt both in boys and in girls. It is therefore hypothesized that stopping pubertal development and hence estrogen production, will prolong and increase the pubertal growth spurt, especially when growth hormone is given concommitantly.\n\nBoys in early puberty, with a bone age between 11 and 13 years and a predicted adult height below 163 cm or girls in early puberty with a bone",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult height prediction below -2.5 SD : 151 cm for girls and 164 cm for boys based on the vlaamse groeicurve 2004 (vub.ac.be/groeicurven)\n* Pubertal: breast development at least M2 for girls and at least 4 ml of testicular volume for boys\n* Bone age \\>10 years but \\< 12 years ",
+            "endpoints": [
+              "height"
+            ],
+            "sponsor": "Belgian Study Group for Pediatric Endocrinology",
+            "url": "https://clinicaltrials.gov/study/NCT00840944"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02979886",
+            "title": "Effects of Single Nucleotide Polymorphism of GnRH Receptor Genes on Clinical Response to Pituitary Down Regulation in IVF Patients",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2017-01",
+            "completion_date": "2019-12",
+            "country": "N/A",
+            "enrollment": 1500,
+            "brief_summary": "Gonadotropin-releasing hormone analogue (GnRH-a) \"long protocol\" is a protocol for pituitary down-regulation in IVF. However, it is common in clinic that some patients are hypersensitive to pituitary down-regulation and have pituitary oversuppression, resulting in prolonged ovarian stimulation and increased consumption of exogenous gonadotropin(Gn). On the other hand, some patients may have insufficient pituitary down-regulation, which can affect the synchronization of ovarian follicles and cons",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* regular periods of spontaneous menstruation (23\\~35 days)\n* basal serum FSH \\<12 IU/L\n* use of short-acting GnRH-a long protocol for pituitary down-regulation.\n\nExclusion Criteria:\n\n* polycystic ovary syndrome (PCOS)\n* hypothalamic-pituitary lesions\n* use of oral contraceptive",
+            "endpoints": [
+              "the evidence of the correlation between single nucleotide polymorphism (SNP) of GnRH receptor genes in infertile female patients and the extent of pituitary down-regulation by short-acting GnRH-a long protocol"
+            ],
+            "sponsor": "First Affiliated Hospital of Zhongshan Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT02979886"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04736602",
+            "title": "An Open-label, Multicentre, Single Arm Study to Assess the Efficacy and Safety of Triptorelin 3-month Formulation in Chinese Children With Central Precocious Puberty",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-03-27",
+            "completion_date": "2022-09-03",
+            "country": "China",
+            "enrollment": 32,
+            "brief_summary": "The purpose of this research was to confirm the effectiveness and safety of the study drug, Triptorelin pamoate 15mg 3-month formulation, in a Chinese population of Central Precocious Puberty (CPP) children.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Onset of development of secondary sex characteristics before 8 and 9 years in girls and boys, respectively breast development in girls or testicular enlargement in boys according to the Tanner method: Stage II\n* Pubertal response of LH to GnRH stimulation test (stimulated peak",
+            "endpoints": [
+              "Percentage of Participants With Luteinising Hormone (LH) Suppression After Gonadotropin-Releasing Hormone (GnRH) Stimulation"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT04736602"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00909844",
+            "title": "Follow-up of the Phase III, Multicentre, Non Comparative, One Single Group, Open Study to Assess the Long-term Efficacy and Tolerability of Pamoate of Triptorelin 11.25 mg in Children With Precocious Puberty",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-04",
+            "completion_date": "2016-01",
+            "country": "France",
+            "enrollment": 35,
+            "brief_summary": "The purpose of the protocol is to assess the efficacy of triptorelin 11.25 mg with respect to the proportion of children who maintain a regression or stabilisation of sexual maturity until the end of the study.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The child must have completed study 2-54-52014-143\n* The child must have an effective response to 2 injections of triptorelin 11.25 mg according to investigator's evaluation with no significant treatment side effects\n\nExclusion Criteria:\n\n* The patient has a known hypersensiti",
+            "endpoints": [
+              "Percentage of Children With a Stabilisation or Regression of Tanner Pubertal Stage at the End of the Study (Final Visit), Compared to Pretreatment (Month -6) and Baseline (Month 0)"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT00909844"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00564850",
+            "title": "Phase III, Multicentre, Non-comparative, Open and Single Stage Study to Assess the Efficacy and Safety of Pamoate of Triptorelin 11.25 MG in Children With Precocious Puberty",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-10",
+            "completion_date": "2010-10",
+            "country": "France",
+            "enrollment": 37,
+            "brief_summary": "The purpose of the study is to assess the efficacy of triptorelin 11.25 mg pamoate in the delay of premature onset of puberty in girls less than 9 years and boys less than 10 years. This is measured by assessing the proportion of children who have a suppressed Luteinizing Hormone (LH) response to Gonadotropin Releasing Hormone (GnRH) test performed 3 months after injection with triptorelin 11.25 mg.",
+            "eligibility_criteria": "Inclusion Criteria in the screening phase:\n\n* Onset of sex characteristics (Tanner method) breast development in girls or testicular enlargement in boys before the age of 8 years in girls and 9 years in boys.\n* Weight ≥ 20 kg.\n\nInclusion Criteria in the treatment phase:\n\n* Proven central precocious ",
+            "endpoints": [
+              "Number of Participants With a GnRH-stimulated LH Level ≤3 IU/L"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT00564850"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01278290",
+            "title": "Triptorelin Acetate Utilization for the Early Diagnosis of Central Precocious Puberty (CPP) in Girls.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-12",
+            "completion_date": "2011-06",
+            "country": "Argentina",
+            "enrollment": 46,
+            "brief_summary": "The aim of the study is to determine the specificity, sensitivity and diagnostic efficiency of the Triptorelin Test in the assessment of CPP compared to GnRH test as gold standard.\n\nHypothesis: Aqueous Triptorelin Acetate is so efficient as GnRH to CPP assessment.\n\nStudy population are girls with suspicious clinical features of precocious puberty",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* premature thelarche and/or\n* accelerated growth velocity (above 90 percentile)\n* advanced bone age at least 1.5 year in relation to chronological age.\n\nExclusion Criteria:\n\n* contact with sources of exogenous estrogens in the last four months previous to evaluation,\n* suspicio",
+            "endpoints": [
+              "LH",
+              "Estradiol"
+            ],
+            "sponsor": "Hospital de Niños R. Gutierrez de Buenos Aires",
+            "url": "https://clinicaltrials.gov/study/NCT01278290"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06487143",
+            "title": "The Effects of the 3-month Formulation of Triptorelin (TP) Compared to the 1-month Formulation on the Efficacy, Glucose and Lipid Metabolism, and Bone Mineral Density(BMD) in Idiopathic Central Precocious Puberty(ICPP)",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-07-01",
+            "completion_date": "2026-12-30",
+            "country": "China",
+            "enrollment": 134,
+            "brief_summary": "The primary objective of this study is to compare the efficacy of the 3-month formulation and 1-month formulation of triptorelin and to assess the short-term effects of the 3-month formulation of triptorelin on glucose and lipid metabolism, body composition, and bone density in Chinese ICPP patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Early appearance of secondary sexual characteristics, specifically breast development in girls before 8 years old or menarche before 10 years old, and testicular enlargement in boys before 9 years old.\n2. Gonadal enlargement: pelvic ultrasound shows that girls have at least o",
+            "endpoints": [
+              "The proportion of LH of ≤ 3 IU/L"
+            ],
+            "sponsor": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University",
+            "url": "https://clinicaltrials.gov/study/NCT06487143"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01467882",
+            "title": "An Open-label, Non-comparative, Multicenter Study on the Efficacy, Safety, and Pharmacokinetics of Triptorelin Pamoate (Embonate) 22.5 mg 6-month Formulation in Patients Suffering From Central (Gonadotropin-dependent) Precocious Puberty",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-04",
+            "completion_date": "2014-07",
+            "country": "Chile, United States, Mexico",
+            "enrollment": 44,
+            "brief_summary": "The study will investigate the efficacy, safety and pharmacokinetics of triptorelin 22.5 mg 6-month formulation in 44 patients suffering from central precocious puberty. The total study duration per patient will be 12 months (48 weeks).",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. Onset of development of sex characteristics before 8 and 9 years in girls and boys, respectively (breast development in girls or testicular enlargement in boys according to the Tanner method), and candidate to receive at least 12 months of GnRH agonist therapy after study ent",
+            "endpoints": [
+              "Percentage of Children With Luteinizing Hormone (LH) Suppression to Prepubertal Levels 30 Minutes After Leuprolide Stimulation at Month 6"
+            ],
+            "sponsor": "Debiopharm International SA",
+            "url": "https://clinicaltrials.gov/study/NCT01467882"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05029622",
+            "title": "A Phase III, Open-label, Multicentre, Single Arm Study to Assess the Efficacy and Safety of the Triptorelin 6-month Formulation in Chinese Paediatric Participants With Central Precocious Puberty.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-08-10",
+            "completion_date": "2023-02-13",
+            "country": "China",
+            "enrollment": 66,
+            "brief_summary": "The purpose of the protocol is to assess the efficacy of the triptorelin 6 month PR (Prolonged Release) formulation in suppressing LH (Luteinising hormone) levels to prepubertal levels (defined as a peak LH ≤5 IU/L) after i.v. GnRH (Gonadotropin-releasing Hormone) stimulation at Month 6 (Day 169) in Chinese children with CPP (Central Precocious Puberty).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant is less than 9 years old for girls and less than 10 years old for boys at initiation of triptorelin treatment or at the time of signing the informed consent.\n* Participant must present evidence of CPP documented by:\n* Onset of development of secondary sex character",
+            "endpoints": [
+              "Percentage of Participants With Luteinising Hormone (LH) Suppression"
+            ],
+            "sponsor": "Ipsen",
+            "url": "https://clinicaltrials.gov/study/NCT05029622"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06129539",
+            "title": "LIBELULA™: An Open-label, Single-arm, Multi-center, Phase 3 Study on the Efficacy, Safety, and Pharmacokinetics of Debio 4326, a Triptorelin 12-month Formulation, in Pediatric Participants With Central Precocious Puberty",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-07-31",
+            "completion_date": "2028-02",
+            "country": "Brazil, Argentina, United States, Chile, Mexico",
+            "enrollment": 56,
+            "brief_summary": "The primary objective of this study is to evaluate the efficacy of Debio 4326 in suppressing serum luteinizing hormone (LH) to prepubertal levels 52 weeks after the first Debio 4326 injection in pediatric participants with central precocious puberty (CPP).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Diagnosis of central precocious puberty.\n2. Onset of development of sex characteristics (i.e., breast development in girls or testicular enlargement in boys according to the Tanner method) before the age of 8 years in girls and 9 years in boys.\n3. Initially, only participants",
+            "endpoints": [
+              "Part A: Percentage of Participants With Suppression of Gonadotropin-Releasing Hormone Agonist Stimulated Serum Luteinizing Hormone (LH) to Less Than or Equal to (≤)5 International Units per Liter (IU/L)"
+            ],
+            "sponsor": "Debiopharm International SA",
+            "url": "https://clinicaltrials.gov/study/NCT06129539"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00438217",
+            "title": "Analysis of Genetic and Environmental Parameters Influencing Growth Rate of Precocious Puberty Children",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "",
+            "completion_date": "",
+            "country": "Italy",
+            "enrollment": 100,
+            "brief_summary": "The goal of CPP-EDG 01 study is to assess possible genetic and/or environmental parameters which may influence the growth rate of children affected by precocious puberty. In this view, we are collecting clinical data and biological samples of children attended as outpatients at the Pediatric Endocrine Center of Pisa from 1998 to present (the study is still open). From biological (blood) samples, gene polymorphisms such as endocrine disruptor levels are determined and compared to different growth",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Clinica diagnosis of central precocious puberty\n* Diagnosis is based on growth spurt, bone age advancement, positive GnRH agonist stimulating test, pubertal sex steroid levels before 8 years of age for female and 9 years for male, respectively\n\nExclusion Criteria:\n\n* Thyroid d",
+            "endpoints": [],
+            "sponsor": "University of Pisa",
+            "url": "https://clinicaltrials.gov/study/NCT00438217"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29957076",
+            "title": "Triptorelin depot for the treatment of children 2 years and older with central precocious puberty.",
+            "abstract": "Triptorelin depot is largely used to treat central precocious puberty (CPP) in children. Areas covered: This review updates triptorelin depot treatment of CPP, focusing on trials that compared 3.75 mg/28 day treated and untreated children till the adult height (AH). Efficacy of the new 11.25 mg/90 days or 22.5 mg/6 month formulations in suppressing pituitary-gonadal axis in short-term trials is also addressed. Short- and long-term safety was summarized. Expert commentary: Long experience on triptorelin depot use in children with CPP is available. Outcome differences on AH are reported; they may be due to heterogenicity of treated patients; some items remain to be optimized. No long term-adverse events on reproductive function are reported; additional studies would clarify if CPP per sè or triptorelin depot administration may increase hyperandrogenism and/or polycystic ovary syndrome risk in adulthood. The quarterly formulation seems to be able to suppress pituitary-gonadal axis and pub",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2018",
+            "authors": [
+              "Bertelloni Silvano",
+              "Mucaria Cristina",
+              "Baroncelli Giampiero I",
+              "Peroni Diego"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Delayed-Action Preparations",
+              "Drug Administration Schedule",
+              "Gonadotropin-Releasing Hormone",
+              "Humans",
+              "Puberty, Precocious",
+              "Time Factors",
+              "Treatment Outcome",
+              "Triptorelin Pamoate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29957076/"
+          },
+          {
+            "pmid": "32654496",
+            "title": "Herbal Medicine for Idiopathic Central Precocious Puberty: A Systematic Review and Meta-Analysis.",
+            "abstract": "Introduction: Herbal medicine (HM) is widely used in East Asia to treat idiopathic central precocious puberty (ICPP). However, no systematic reviews of the efficacy and safety of HM for treatment of ICPP have been reported. Thus, this systematic review assessed the efficacy and safety of HM for ICPP. Most available clinical trials that investigated HM for ICPP were included in this review. Methods and analysis: Eleven databases, including Asian databases, were searched from the date of inception until June 2018. We included randomized controlled trials (RCTs) that assessed HM for ICPP. Results: Nine RCTs including 650 participants with ICPP, were included in this review. As a result of meta-analysis, response rate of HM group was 1.14 times higher compared with control group, with moderate level of evidence. Also, serum estradiol (E2) level was significantly lower in HM group compared to control group with moderate level of evidence. Notably, serum luteinizing hormone (LH) level (IU/L)",
+            "journal": "Journal of alternative and complementary medicine (New York, N.Y.)",
+            "year": "2020",
+            "authors": [
+              "Lee Yoo Been",
+              "Lee Ju Ah",
+              "Lee Hye Lim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Drugs, Chinese Herbal",
+              "Female",
+              "Herbal Medicine",
+              "Human Growth Hormone",
+              "Humans",
+              "Phytotherapy",
+              "Plant Preparations",
+              "Plants, Medicinal",
+              "Puberty, Precocious"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32654496/"
+          },
+          {
+            "pmid": "39703867",
+            "title": "Adult height in girls with idiopathic central precocious puberty treated with triptorelin.",
+            "abstract": "Idiopathic central precocious puberty (CPP) precipitates epiphyseal fusion of growth plates in long bones, leading to reduced adult stature. Gonadotropin-releasing hormone analogues (GnRHa) are the treatment of choice for idiopathic CPP, but their benefit on height gain is unclear. We aimed to elucidate the effects of GnRHa treatment on adult height in girls with idiopathic CPP.",
+            "journal": "Frontiers in endocrinology",
+            "year": "2024",
+            "authors": [
+              "Corripio Raquel",
+              "Soriano-Guillén Leandro",
+              "Herrero Francisco-Javier",
+              "Castro-Feijoó Lidia",
+              "Escribano Aránzazu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Triptorelin Pamoate",
+              "Puberty, Precocious",
+              "Female",
+              "Body Height",
+              "Child",
+              "Prospective Studies",
+              "Child, Preschool",
+              "Adult",
+              "Gonadotropin-Releasing Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39703867/"
+          },
+          {
+            "pmid": "39412628",
+            "title": "A Phase 3, Open-Label, Single-Arm Trial of the Efficacy and Safety of Triptorelin 6-Month Formulation in Chinese Children with Central Precocious Puberty.",
+            "abstract": "This phase 3 study assessed the efficacy, safety, and pharmacokinetics of the 6-month prolonged release (PR) formulation in Chinese children with central precocious puberty (CPP).",
+            "journal": "Advances in therapy",
+            "year": "2024",
+            "authors": [
+              "Yu Xiao",
+              "Cheng Xinran",
+              "Wei Haiyan",
+              "Xu Xu",
+              "Gong Chunxiu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate",
+              "Female",
+              "Male",
+              "Child",
+              "Luteinizing Hormone",
+              "Child, Preschool",
+              "China",
+              "Delayed-Action Preparations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39412628/"
+          },
+          {
+            "pmid": "37266535",
+            "title": "Leuprolide and triptorelin treatment in children with idiopathic central precocious puberty: an efficacy/tolerability comparison study.",
+            "abstract": "Central precocious puberty (CPP) results from premature activation of hypothalamic-pituitary-gonadal axis, with the consequent increase of gonadotropin-releasing hormone (GnRH); GnRH agonists (GnRHa) represent the gold-standard therapy in children with CPP although their use might be responsible for pituitary GnRH receptors down-regulation, that in turn suppresses luteinizing hormone (LH) and follicle stimulating hormone (FSH) and blocks of gonadal sex hormones release. The most prescribed GnRHa in the clinical practice are leuprolide and triptorelin, whose use is generally safe and well tolerated; however, mild menopausal-like side effects could appear. The aim of the present study was to investigate and compare the efficacy and tolerability profile of leuprolide and triptorelin in CPP patients.",
+            "journal": "Frontiers in pediatrics",
+            "year": "2023",
+            "authors": [
+              "Valenzise M",
+              "Nasso C",
+              "Scarfone A",
+              "Rottura M",
+              "Cafarella G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37266535/"
+          },
+          {
+            "pmid": "27191050",
+            "title": "Central precocious puberty: revisiting the diagnosis and therapeutic management.",
+            "abstract": "Clinical and laboratory diagnosis and treatment of central precocious puberty (CPP) remain challenging due to lack of standardization. The aim of this revision was to address the diagnostic and therapeutic features of CPP in Brazil based on relevant international literature and availability of the existing therapies in the country. The diagnosis of CPP is based mainly on clinical and biochemical parameters, and a period of follow-up is desirable to define the \"progressive\" form of sexual precocity. This occurs due to the broad spectrum of pubertal development, including isolated premature thelarche, constitutional growth and puberty acceleration, progressive and nonprogressive CPP, and early puberty. Measurement of basal and stimulated LH levels remains challenging, considering that the levels are not always in the pubertal range at baseline, short-acting GnRH is not readily available in Brazil, and the cutoff values differ according to the laboratory assay. When CPP is suspected but b",
+            "journal": "Archives of endocrinology and metabolism",
+            "year": "2016",
+            "authors": [
+              "Brito Vinícius Nahime",
+              "Spinola-Castro Angela Maria",
+              "Kochi Cristiane",
+              "Kopacek Cristiane",
+              "Silva Paulo César Alves da"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Anthropometry",
+              "Brazil",
+              "Female",
+              "Gonadotropin-Releasing Hormone",
+              "Hormone Replacement Therapy",
+              "Humans",
+              "Luteinizing Hormone",
+              "Male",
+              "Puberty, Precocious"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27191050/"
+          },
+          {
+            "pmid": "38718766",
+            "title": "Precocious Puberty and GnRH Analogs: Current Treatment Practices and Perspectives among US Pediatric Endocrinologists.",
+            "abstract": "Gonadotropin releasing hormone analogs (GnRHas) are used for treatment of precocious puberty. Over the last decade, several new formulations have been approved.",
+            "journal": "Hormone research in paediatrics",
+            "year": "2025",
+            "authors": [
+              "Breidbart Emily",
+              "Breidbart Emily",
+              "Ilkowitz Jeniece",
+              "Regelmann Molly O",
+              "Ashraf Ambika P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Puberty, Precocious",
+              "Gonadotropin-Releasing Hormone",
+              "United States",
+              "Female",
+              "Child",
+              "Male",
+              "Practice Patterns, Physicians'",
+              "Endocrinologists",
+              "Leuprolide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38718766/"
+          },
+          {
+            "pmid": "23907416",
+            "title": "Precocious puberty and diagnostic tests.",
+            "abstract": "",
+            "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+            "year": "2013",
+            "authors": [
+              "Zadik Zvi"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Male",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23907416/"
+          },
+          {
+            "pmid": "30808564",
+            "title": "Central precocious puberty in girls: Diagnostic study and auxological response to triptorelin treatment.",
+            "abstract": "There are several controversies regarding the diagnostic tests and management of central precocious puberty (CPP). The aim of this study is to present the experience acquired in a group of girls with CPP treated with triptorelin, and to analyze the auxological characteristics and diagnostic tests.",
+            "journal": "Endocrinologia, diabetes y nutricion",
+            "year": "2019",
+            "authors": [
+              "Durá-Travé Teodoro",
+              "Ortega Pérez Miriam",
+              "Ahmed-Mohamed Lotfi",
+              "Moreno-González Paula",
+              "Chueca Guindulain María Jesús"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Age Determination by Skeleton",
+              "Anthropometry",
+              "Child",
+              "Estradiol",
+              "Female",
+              "Follicle Stimulating Hormone",
+              "Follow-Up Studies",
+              "Humans",
+              "Luteinizing Hormone",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30808564/"
+          },
+          {
+            "pmid": "29294465",
+            "title": "Triptorelin (Triptodur) for central precocious puberty.",
+            "abstract": "",
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2018",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Delayed-Action Preparations",
+              "Drug Interactions",
+              "Female",
+              "Gonadotropin-Releasing Hormone",
+              "Humans",
+              "Injections, Intramuscular",
+              "Male",
+              "Puberty, Precocious",
+              "Sexual Maturation",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29294465/"
+          },
+          {
+            "pmid": "34826116",
+            "title": "Triptorelin stimulated luteinizing hormone concentrations for diagnosing central precocious puberty: study of diagnostic accuracy.",
+            "abstract": "Gonadotropin-releasing hormone (GnRH) stimulation test is the gold standard for diagnosing central precocious puberty (CPP). However, intravenous GnRH is not always readily available. The aim of the present study was to evaluate the diagnostic accuracy of triptorelin-stimulated luteinizing hormone (LH) concentrations in the diagnosis of CPP among girls presenting with premature thelarche compared to the gold standard GnRH test.",
+            "journal": "Endocrine",
+            "year": "2022",
+            "authors": [
+              "Vukovic Rade",
+              "Milenkovic Tatjana",
+              "Soldatovic Ivan",
+              "Pekic Sandra",
+              "Mitrovic Katarina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Follicle Stimulating Hormone",
+              "Gonadotropin-Releasing Hormone",
+              "Humans",
+              "Luteinizing Hormone",
+              "Prospective Studies",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34826116/"
+          },
+          {
+            "pmid": "37584898",
+            "title": "Efficacy and Safety of Triptorelin 3-Month Formulation in Chinese Children with Central Precocious Puberty: A Phase 3, Open-Label, Single-Arm Study.",
+            "abstract": "Triptorelin is available as 1- and 3-month prolonged-release (PR) formulations; at the time of the study, only the former was approved for central precocious puberty (CPP) in China. This study assessed the efficacy and safety of the triptorelin 3-month PR formulation in Chinese children with CPP.",
+            "journal": "Advances in therapy",
+            "year": "2023",
+            "authors": [
+              "Luo Xiaoping",
+              "Zhang Cai",
+              "Yang Yu",
+              "Xu Xu",
+              "Cheng Xinran"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Male",
+              "Humans",
+              "Child",
+              "Child, Preschool",
+              "Triptorelin Pamoate",
+              "Puberty, Precocious",
+              "Prospective Studies",
+              "Gonadotropin-Releasing Hormone",
+              "Luteinizing Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37584898/"
+          },
+          {
+            "pmid": "28334719",
+            "title": "Meta-Analysis of Paediatric Patients with Central Precocious Puberty Treated with Intramuscular Triptorelin 11.25 mg 3-Month Prolonged-Release Formulation .",
+            "abstract": "A meta-analysis was undertaken to assess the effect of triptorelin 11.25 mg 3-month prolonged-release formulation in central precocious puberty (CPP).",
+            "journal": "Hormone research in paediatrics",
+            "year": "2017",
+            "authors": [
+              "Durand Adélaïde",
+              "Tauber Maithé",
+              "Patel Bharat",
+              "Dutailly Pascale"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Delayed-Action Preparations",
+              "Female",
+              "Humans",
+              "Injections, Intramuscular",
+              "Male",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28334719/"
+          },
+          {
+            "pmid": "36049976",
+            "title": "Familial male-limited precocious puberty (testotoxicosis): Usefulness of treatment with ketoconazole and triptorelin.",
+            "abstract": "",
+            "journal": "Medicina clinica",
+            "year": "2022",
+            "authors": [
+              "García García Emilio",
+              "Álvarez Del Vayo Concepción",
+              "Castaño Luis"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate",
+              "Ketoconazole",
+              "Gonadotropin-Releasing Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36049976/"
+          },
+          {
+            "pmid": "39998154",
+            "title": "Efficacy of Triptorelin Combined with Recombinant Human Growth Hormone (rhGH) on Serum Sex Hormones, Bone Age, and Clinical Outcomes in Girls with Precocious Puberty.",
+            "abstract": "Aims/Background Triptorelin effectively delays bone age progression in children with precocious puberty but may suppress pituitary growth hormone response, affecting growth hormone-binding protein secretion and overall growth rate. This study aimed to evaluate the efficacy and safety of triptorelin alone versus in combination with recombinant human growth hormone (rhGH) in treating girls with precocious puberty. Methods This retrospective study examined 82 girls with precocious puberty treated at The First People's Hospital of Tongxiang from January 2021 to June 2023. Patients treated with triptorelin alone were assigned to the control group (n = 42), while those treated with triptorelin combined with rhGH formed the study group (n = 40). Both groups received continuous treatment for one year. Outcomes, including efficacy and safety, were compared between the groups. Results Following treatment, height and body mass in the study group were significantly higher than those in the control",
+            "journal": "British journal of hospital medicine (London, England : 2005)",
+            "year": "2025",
+            "authors": [
+              "Lao Xiaofei",
+              "Zhao Lihong",
+              "Zhu Xiaoqiang",
+              "Yao Xinmei",
+              "Chen Huichao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate",
+              "Female",
+              "Retrospective Studies",
+              "Child",
+              "Human Growth Hormone",
+              "Drug Therapy, Combination",
+              "Age Determination by Skeleton",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39998154/"
+          },
+          {
+            "pmid": "19104235",
+            "title": "Treatment of central precocious puberty.",
+            "abstract": "In consideration of the large number of the rapid advances in this area, it seems appropriate to highlight some of the recent studies that address factors involved in the decision to treat a child with central precocious puberty, and two recent advances in drug therapy.",
+            "journal": "Current opinion in endocrinology, diabetes, and obesity",
+            "year": "2009",
+            "authors": [
+              "Kaplowitz Paul B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Body Height",
+              "Breast",
+              "Child",
+              "Female",
+              "Humans",
+              "Luteinizing Hormone",
+              "Luteolytic Agents",
+              "Male",
+              "Puberty, Precocious"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19104235/"
+          },
+          {
+            "pmid": "2978196",
+            "title": "Growth and precocious puberty.",
+            "abstract": "Treatment of precocious puberty of central origin is aimed at controlling the development of sexual characteristics and improving final height. Increased growth rate is one of the major clinical symptoms, accompanied by an even more marked advance in bone age. Medroxyprogesterone acetate and cyproterone acetate have provided almost satisfactory control of pubertal characteristics, but with accompanying adrenal insufficiency. The data with regard to growth and bone maturation are contradictory. LHRH analogues have recently become available, and provide good control of gonadotrophin secretion. In a series of 21 cases (13 girls, 8 boys), a significant decrease in growth rate was achieved in both sexes with an LHRH analogue, with a significant increase in the height age/bone age ratio; control of gonadal secretions was also obtained. These results are only preliminary, but provide hope that the final height of these children will be improved.",
+            "journal": "Acta paediatrica Scandinavica. Supplement",
+            "year": "1988",
+            "authors": [
+              "Chaussain J L",
+              "Couprie C",
+              "Lacaille F",
+              "Simon D",
+              "Job J C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Age Determination by Skeleton",
+              "Body Height",
+              "Child",
+              "Child, Preschool",
+              "Cyproterone",
+              "Cyproterone Acetate",
+              "Female",
+              "Gonadotropin-Releasing Hormone",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2978196/"
+          },
+          {
+            "pmid": "7849900",
+            "title": "[Treatment of central precocious puberty with sustained-release triptorelin].",
+            "abstract": "Central precocious puberty is defined as the appearance of morphological and biological changes induced by the early maturation of the hypothalamic-pituitary-gonadal system before eight years of age in girls and ten years of age in boys. This early onset of the gonadotropin-releasing hormone pulse generator activation leads to secretion of gonadal steroids and therefore to the development of secondary sexual characteristics. The aim of medical treatment is to suppress the secretion of sex hormones. A dramatic improvement has been achieved with the development of gonadotropin releasing hormone agonists which induce a reversible suppression of gonadotropin secretion. Since 1986, triptorelin (Decapeptyl) (D-Trp6-LHRH) has been available for this indication as a sustained-release formulation allowing an intramuscular injection of 3.75 mg every 4 weeks. Results published up to now concern 352 children (325 girls and 27 boys). The pituitary-gonadal suppressive effect has been confirmed. The ",
+            "journal": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie",
+            "year": "1994",
+            "authors": [
+              "Boucekkine C",
+              "Blumberg-Tick J",
+              "Roger M",
+              "Thomas F",
+              "Chaussain J L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Delayed-Action Preparations",
+              "Female",
+              "Humans",
+              "Injections, Intramuscular",
+              "Male",
+              "Puberty, Precocious",
+              "Triptorelin Pamoate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7849900/"
+          },
+          {
+            "pmid": "36875449",
+            "title": "Impact of 6-month triptorelin formulation on predicted adult height and basal gonadotropin levels in patients with central precocious puberty.",
+            "abstract": "Triptorelin, a long-acting gonadotropin-releasing hormone (GnRH) agonist, is available in 1-, 3-, and 6-month formulations to treat central precocious puberty (CPP). The triptorelin pamoate 22.5-mg 6-month formulation recently approved for CPP offers greater convenience to children by reducing the injection frequency. However, worldwide research on using the 6-month formulation to treat CPP is scarce. This study aimed to determine the impact of the 6-month formulation on predicted adult height (PAH), changes in gonadotropin levels, and related variables.",
+            "journal": "Frontiers in endocrinology",
+            "year": "2023",
+            "authors": [
+              "Yoo Eunjoo",
+              "Kim Sinae",
+              "Jung Hye Lim",
+              "Shim Jung Yeon",
+              "Shim Jae Won"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Estradiol",
+              "Follicle Stimulating Hormone, Human",
+              "Gonadotropin-Releasing Hormone",
+              "Gonadotropins",
+              "Puberty, Precocious"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36875449/"
+          },
+          {
+            "pmid": "40916126",
+            "title": "Commentary on &quot;Treatment of overweight and obese girls experiencing central precocious puberty: a comparison of the effectiveness of leuprolide acetate and triptorelin pamoate&quot.",
+            "abstract": "",
+            "journal": "Annals of pediatric endocrinology & metabolism",
+            "year": "2025",
+            "authors": [
+              "Kim Shin-Hye"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40916126/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial isolated trichomegaly",
+        "txgnn_score": 0.998793125152588,
+        "txgnn_rank": 2347,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aromatase excess syndrome",
+        "txgnn_score": 0.9985404014587402,
+        "txgnn_rank": 2694,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06825",
+    "name": "Triptorelin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Triptorelin"
+      },
+      "queried_at": "2026-03-09T08:30:18.380897",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Triptorelin"
+      },
+      "queried_at": "2026-03-09T08:30:32.985643",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T08:30:34.081755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T08:30:38.731403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T08:30:39.956809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T08:30:40.770248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T08:30:45.016258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T08:30:47.170338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T08:30:48.062461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T08:30:52.658867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T08:31:14.595598",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T08:31:15.557926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T08:31:20.308941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T08:31:21.470194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T08:31:23.051950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T08:31:26.600806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T08:31:27.867146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T08:31:28.698797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T08:31:34.428486",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T08:31:37.742051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "familial male-limited precocious puberty"
+      },
+      "queried_at": "2026-03-09T08:31:38.474269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "familial male-limited precocious puberty"
+      },
+      "queried_at": "2026-03-09T08:31:43.789554",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "familial male-limited precocious puberty"
+      },
+      "queried_at": "2026-03-09T08:31:48.337210",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "precocious puberty"
+      },
+      "queried_at": "2026-03-09T08:31:49.377118",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "precocious puberty"
+      },
+      "queried_at": "2026-03-09T08:31:52.676342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "precocious puberty"
+      },
+      "queried_at": "2026-03-09T08:32:00.037894",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "familial isolated trichomegaly"
+      },
+      "queried_at": "2026-03-09T08:32:01.987004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "familial isolated trichomegaly"
+      },
+      "queried_at": "2026-03-09T08:32:06.918271",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "familial isolated trichomegaly"
+      },
+      "queried_at": "2026-03-09T08:32:09.223716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "aromatase excess syndrome"
+      },
+      "queried_at": "2026-03-09T08:32:10.408518",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "aromatase excess syndrome"
+      },
+      "queried_at": "2026-03-09T08:32:15.992137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Triptorelin",
+        "disease": "aromatase excess syndrome"
+      },
+      "queried_at": "2026-03-09T08:32:17.062293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:32:17.077182"
+  }
+}

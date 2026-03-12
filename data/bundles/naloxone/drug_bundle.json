@@ -1,0 +1,3357 @@
+{
+  "drug": {
+    "inn": "Naloxone",
+    "drugbank_id": "DB01183",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "continuous spikes and waves during sleep",
+        "txgnn_score": 0.8816953897476196,
+        "txgnn_rank": 36550,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lissencephaly with cerebellar hypoplasia",
+        "txgnn_score": 0.8740451335906982,
+        "txgnn_rank": 37270,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "progressive encephalopathy with leukodystrophy due to DECR deficiency",
+        "txgnn_score": 0.8724426627159119,
+        "txgnn_rank": 37407,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schizophreniform disorder",
+        "txgnn_score": 0.8634636402130127,
+        "txgnn_rank": 38157,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01866098",
+            "title": "Naltrexone for Antipsychotic-Induced Weight Gain",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2013-05",
+            "completion_date": "2019-04-07",
+            "country": "United States",
+            "enrollment": 144,
+            "brief_summary": "This study is designed to look at the effects of naltrexone on weight loss in individuals treated with antipsychotic medications. Naltrexone is an FDA approved medication for the management of alcohol dependence and drug dependence, but has not been fully evaluated for its effect on weight loss in individuals with severe mental illness (i.e. schizophrenia, schizoaffective disorder, bipolar disorder etc.) The purpose of this study is to find out how effective two different doses of oral naltrexon",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18 to 75\n* Meet Diagnostic \\& Statistical Manual - 4 (DSM-IV) criteria for schizophrenia, schizoaffective disorder, bipolar disorder, major depression, or another psychotic disorder based on Structured Clinical Interview for the DSM-IV (SCID) interview\n* Body Mass Index (B",
+            "endpoints": [
+              "Change in Weight From Baseline",
+              "Percent of Subjects Who Lost More Than 5% of Body Weight From Baseline"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT01866098"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35863294",
+            "title": "A systematic review of licensed weight-loss medications in treating antipsychotic-induced weight gain and obesity in schizophrenia and psychosis.",
+            "abstract": "Schizophrenia and antipsychotic use are associated with clinically significant weight gain and subsequent increased mortality. Despite weight loss medications (WLMs) licensed by regulatory bodies (FDA, EMA, and MHRA) being available, current psychiatric guidelines recommend off-label alternatives, which differ from non-psychiatric guidelines for obesity.",
+            "journal": "General hospital psychiatry",
+            "year": "2022",
+            "authors": [
+              "Lee Kenn",
+              "Abraham Seri",
+              "Cleaver Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Bupropion",
+              "Humans",
+              "Liraglutide",
+              "Naltrexone",
+              "Obesity",
+              "Psychotic Disorders",
+              "Schizophrenia",
+              "Weight Gain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35863294/"
+          },
+          {
+            "pmid": "39630083",
+            "title": "Long-Term Safety, Tolerability, and Durability of Treatment Effect of Olanzapine and Samidorphan: Results of a 4-Year Open-Label Study.",
+            "abstract": "Objective: Evaluate long-term safety, tolerability, and durability of the effect of olanzapine/samidorphan (OLZ/SAM) for up to 4 years in patients with schizophrenia, schizophreniform disorder, or bipolar I disorder (BD-I). Methods: This phase 3, multicenter, open-label, long-term extension (conducted June 2017-September 2023) assessed OLZ/SAM in patients completing the ENLIGHTEN clinical program. Patients received ≥2-4 years of additional treatment. Safety assessments included adverse event (AE) incidences and changes from baseline in body weight, waist circumference, and lipid/glycemic parameters. The durability of the effect was assessed using the Clinical Global Impressions-Severity (CGI-S) scale. Results: Of 524 patients enrolled, 523 received ≥1 dose of OLZ/SAM. Of these, 460 (88%) patients had schizophrenia, 15 (3%) had schizophreniform disorder, and 48 (9%) had BD-I. Mean (SD) age was 35.1 (12.2) years. Mean (SD) OLZ/SAM exposure was 652.4 (454.8) days. Of 451 patients eligible",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2024",
+            "authors": [
+              "Ballon Jacob S",
+              "Kahn René S",
+              "Arevalo Christina",
+              "Dunbar Martin",
+              "McDonnell David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Clinical Trial, Phase III"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Olanzapine",
+              "Adult",
+              "Male",
+              "Female",
+              "Schizophrenia",
+              "Antipsychotic Agents",
+              "Middle Aged",
+              "Bipolar Disorder",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39630083/"
+          },
+          {
+            "pmid": "36946605",
+            "title": "Olanzapine/Samidorphan in Young Adults With Schizophrenia, Schizophreniform Disorder, or Bipolar I Disorder Who Are Early in Their Illness: Results of the Randomized, Controlled ENLIGHTEN-Early Study.",
+            "abstract": "Objective: Patients with early-phase schizophrenia or bipolar I disorder (BD-I) are at greater risk for antipsychotic-associated weight gain. This 12-week, randomized, double-blind study conducted between June 2017 and December 2021 evaluated weight effects of combination olanzapine and samidorphan (OLZ/SAM) versus olanzapine in early-phase illness. Methods: Young adults (16-39 years) with DSM-5 schizophrenia, schizophreniform disorder, or BD-I, < 4 years since symptom onset, body mass index < 30 kg/m2, and < 24 weeks' cumulative antipsychotic exposure were randomized to OLZ/SAM (5-20/10 mg/d) or olanzapine (5-20 mg/d). Primary endpoint was percent change from baseline body weight at week 12. Secondary endpoints, tested hierarchically, were proportions of patients with ≥ 10% or ≥ 7% weight gain, waist circumference change, and Clinical Global Impressions-Severity (CGI-S) change. Results: Of 428 patients (OLZ/SAM, n = 213; olanzapine, n = 215), 408 had ≥ 1 postbaseline weight assessment",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2023",
+            "authors": [
+              "Kahn René S",
+              "Kane John M",
+              "Correll Christoph U",
+              "Arevalo Christina",
+              "Simmons Adam"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Young Adult",
+              "Olanzapine",
+              "Schizophrenia",
+              "Antipsychotic Agents",
+              "Bipolar Disorder",
+              "Psychotic Disorders",
+              "Weight Gain",
+              "Benzodiazepines",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36946605/"
+          },
+          {
+            "pmid": "40319789",
+            "title": "Substance-induced mental disorders and discontinuation of medication for opioid use disorder.",
+            "abstract": "People with opioid use disorder (OUD) often exhibit psychiatric symptoms representing primary (PMD) and substance induced mental disorders (SIMD). PMD are associated with increased discontinuation of medications for OUD (MOUD). It is unknown if this relationship holds for SIMD.",
+            "journal": "Drug and alcohol dependence",
+            "year": "2025",
+            "authors": [
+              "Tilhou Alyssa Shell",
+              "Grucza Richard A",
+              "Xu Kevin Y"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Opioid-Related Disorders",
+              "Adult",
+              "Retrospective Studies",
+              "Mental Disorders",
+              "Middle Aged",
+              "United States",
+              "Opiate Substitution Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40319789/"
+          },
+          {
+            "pmid": "33256454",
+            "title": "How Much of an Advance Is the Addition of Samidorphan to Olanzapine?",
+            "abstract": "",
+            "journal": "The American journal of psychiatry",
+            "year": "2020",
+            "authors": [
+              "Buchanan Robert W"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Humans",
+              "Naltrexone",
+              "Olanzapine",
+              "Schizophrenia",
+              "Weight Gain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33256454/"
+          },
+          {
+            "pmid": "34516229",
+            "title": "Insights Into Improving Clinical Outcomes Across Psychiatric Disorders and Medical Comorbidities.",
+            "abstract": "",
+            "journal": "The American journal of psychiatry",
+            "year": "2021",
+            "authors": [
+              "Kalin Ned H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Alcoholism",
+              "Anorexia Nervosa",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Comorbidity",
+              "Humans",
+              "Mental Disorders",
+              "Methadone",
+              "Naltrexone",
+              "Narcotics",
+              "Patient Outcome Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34516229/"
+          },
+          {
+            "pmid": "17054176",
+            "title": "Pharmacological treatments for psychosis-related polydipsia.",
+            "abstract": "Polydipsia is the intake of more than three litres of fluids per day. Primary polydipsia occurs when excessive drinking cannot be explained by an identified medical condition, and is not secondary to polyuria. The prevalence of this problem in psychiatric inpatients has been estimated at between 6 and 17%. It can hinder standard care and be a highly disabling, even life-threatening condition.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2006",
+            "authors": [
+              "Brookes G",
+              "Ahmed A G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Drinking",
+              "Humans",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17054176/"
+          },
+          {
+            "pmid": "12137700",
+            "title": "Pharmacological treatments for psychosis-related polydipsia.",
+            "abstract": "Polydipsia is the intake of more than three litres of fluids per day. Primary polydipsia occurs when excessive drinking cannot be explained by an identified medical condition, and is not secondary to polyuria. The prevalence of this problem in psychiatric inpatients has been estimated at between 6 and 17%. It can hinder standard care and be a highly disabling, even life-threatening condition.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2002",
+            "authors": [
+              "Brookes G",
+              "Ahmed A G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Drinking",
+              "Humans",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12137700/"
+          },
+          {
+            "pmid": "39979936",
+            "title": "A pharmacovigilance study of olanzapine/samidorphan based on FDA Adverse Event Reporting System (FAERS).",
+            "abstract": "The olanzapine/samidorphan (OLZ/SAM) combination is being regarded as a new strategy to combat weight gain induced by olanzapine (OLZ), and its safety is of significant concern. Specifically, as samidorphan is an opioid receptor-related drug, issues related to its potential for dependence and withdrawal symptoms deserve attention. This study aims to provide a comprehensive analysis of adverse events (AEs) associated with the OLZ/SAM.",
+            "journal": "BMC pharmacology & toxicology",
+            "year": "2025",
+            "authors": [
+              "He Luyao",
+              "Shen Mengting",
+              "Zhang Lei",
+              "Li Yan",
+              "Li Huafang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Pharmacovigilance",
+              "Olanzapine",
+              "Humans",
+              "Adverse Drug Reaction Reporting Systems",
+              "United States",
+              "United States Food and Drug Administration",
+              "Male",
+              "Adult",
+              "Female",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39979936/"
+          },
+          {
+            "pmid": "35759785",
+            "title": "Association of Bupropion, Naltrexone, and Opioid Agonist Treatment With Stimulant-Related Admissions Among People With Opioid Use Disorder: A Case-Crossover Analysis.",
+            "abstract": "Background: Stimulant use has substantially increased among people with opioid use disorder (OUD) and is associated with worse treatment outcomes. This study's objective was to compare risk of stimulant-related emergency department (ED) and hospital admissions associated with exposure to bupropion, OUD medication (buprenorphine, naltrexone, and methadone), and selective serotonin reuptake inhibitors (SSRIs; active comparator) relative to days without active prescriptions for medication. Methods: This recurrent-event, case-crossover study used insurance claims from 51,084 individuals with OUD enrolled in the IBM MarketScan (2006-2016) Databases who had at least 1 stimulant-related ED or hospital admission. Conditional logistic regression models estimated the risk of admissions between days without active prescriptions and days with prescriptions for bupropion, OUD medication, and SSRIs. Secondary analyses were conducted by stimulant subtype (cocaine; amphetamine) and event subtype (fall",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2022",
+            "authors": [
+              "Xu Kevin Y",
+              "Mintz Carrie M",
+              "Presnall Ned",
+              "Bierut Laura J",
+              "Grucza Richard A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Buprenorphine",
+              "Bupropion",
+              "Central Nervous System Stimulants",
+              "Cross-Over Studies",
+              "Humans",
+              "Methadone",
+              "Naltrexone",
+              "Opiate Substitution Treatment",
+              "Opioid-Related Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35759785/"
+          },
+          {
+            "pmid": "6121545",
+            "title": "Short-term naloxone administration in schizophrenic and manic patients. A World Health Organization Collaborative Study.",
+            "abstract": "A double-blind study of the behavioral effects of short-term naloxone hydrochloride administration was performed in 32 schizophrenic and 26 manic patients in a World Health Organization collaborative project. There was a significant naloxone-associated reduction in overall physician-rated symptoms in schizophrenic patients concurrently treated with neuroleptic medication (N = 19) but not in medication-free schizophrenics (N = 13). Physician rating of auditory hallucinations showed significant naloxone-associated improvement for the total schizophrenic population, while self-ratings of auditory hallucinations showed improvement only in neuroleptic-treated schizophrenics. While further studies are needed to delineate these effects as to clinical significance, they may bear etiological implications for the psychobiology of schizophrenia, including the possibility of synergistic effects of dopamine and endorphin blockade. Naloxone produced no significant behavioral effects in manic patient",
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "authors": [
+              "Pickar D",
+              "Vartanian F",
+              "Bunney W E",
+              "Maier H P",
+              "Gastpar M T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Affective Disorders, Psychotic",
+              "Aged",
+              "Antipsychotic Agents",
+              "Bipolar Disorder",
+              "Clinical Trials as Topic",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6121545/"
+          },
+          {
+            "pmid": "16961422",
+            "title": "Treatment of schizophrenia and comorbid substance abuse: pharmacologic approaches.",
+            "abstract": "Co-occurring substance use disorder is common among patients with schizophrenia, and its presence greatly worsens the course of schizophrenia. A number of theories have been introduced to explain the increased rate of substance use disorder in these patients. These theories include the notion that substance use could trigger psychotic symptoms in vulnerable individuals and the idea that the substances are used to self-medicate symptoms of schizophrenia. Our group and others have advanced a neurobiological hypothesis to explain this comorbidity-that a mesocorticolimbic brain reward circuit underlies the substance use disorder in patients with schizophrenia. Treatment of substance use disorder in these patients is best done with integrated treatment programs that combine psychosocial interventions with pharmacotherapy. Recent data suggest that the atypical antipsychotic clozapine and perhaps other atypical agents may lessen substance use in patients with schizophrenia. My colleagues and ",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2006",
+            "authors": [
+              "Green Alan I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alcohol Deterrents",
+              "Alcoholism",
+              "Antipsychotic Agents",
+              "Clozapine",
+              "Comorbidity",
+              "Diagnosis, Dual (Psychiatry)",
+              "Disulfiram",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Naltrexone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16961422/"
+          },
+          {
+            "pmid": "6360635",
+            "title": "Enkephalins and Endorphins. Clinical, pharmacological and therapeutic implications.",
+            "abstract": "During the past 8 years there has been substantial progress in our understanding of the structure, distribution and action of endogenous opioid peptides. Currently, there appear to be 2 groups of peptides; those derived from beta-lipotropin and an enkephalin-related group. Some of these peptides have been shown to be distributed widely in the central nervous system and in endocrine tissues. The activity of the peptides probably occurs at several receptors but only 1 relatively specific (mu-receptor) antagonist, naloxone, is well studies. Although there have been many clinical studies of the action of opioids in man, no novel therapeutic applications have yet been established in clinical practice. Of the many areas of involvement attributed to opioids, those of analgesia, reproductive endocrinology, opiate dependence, and certain as yet undefined subtypes of major psychoses seem reasonably promising. Speculation surround opioid involvement in other disorders such as spinal trauma, septi",
+            "journal": "Drugs",
+            "year": "1983",
+            "authors": [
+              "Copolov D L",
+              "Helme R D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acupuncture Therapy",
+              "Animals",
+              "Blood Pressure",
+              "Central Nervous System Diseases",
+              "Endocrine System Diseases",
+              "Endorphins",
+              "Enkephalins",
+              "Ethanol",
+              "Gastrointestinal Diseases",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6360635/"
+          },
+          {
+            "pmid": "24733134",
+            "title": "Nalbuphine-induced psychosis treated with naloxone.",
+            "abstract": "A case of nalbuphine-induced psychosis, which resolved after the administration of naloxone, is described.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2014",
+            "authors": [
+              "Siemianowski Laura A",
+              "Rosenheck Justin P",
+              "Whitman Craig B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesics, Opioid",
+              "Female",
+              "Humans",
+              "Nalbuphine",
+              "Naloxone",
+              "Narcotic Antagonists",
+              "Pruritus",
+              "Psychoses, Substance-Induced",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24733134/"
+          },
+          {
+            "pmid": "36582063",
+            "title": "Pharmacological Treatment of Alcohol use Disorder in Patients with Psychotic Disorders: A Systematic Review.",
+            "abstract": "Patients with psychotic disorders (PD) often have comorbid alcohol use disorder (AUD), which is typically treated pharmacologically. Up till now, no systematic review has examined the effectiveness and safety of AUD treatment in PD patients.",
+            "journal": "Current neuropharmacology",
+            "year": "2024",
+            "authors": [
+              "Rosenstand Niels Jørgen",
+              "Nielsen Anette Søgaard",
+              "Skøt Lotte",
+              "Anhøj Simon",
+              "Nielsen Dorthe Grüner"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Psychotic Disorders",
+              "Alcoholism",
+              "Alcohol Deterrents",
+              "Naltrexone",
+              "Disulfiram",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36582063/"
+          },
+          {
+            "pmid": "9152589",
+            "title": "Naloxone and ECT seizure length.",
+            "abstract": "",
+            "journal": "Convulsive therapy",
+            "year": "1997",
+            "authors": [
+              "Rasmussen K G",
+              "Jarvis M R",
+              "Zorumski C F"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Depressive Disorder",
+              "Electroconvulsive Therapy",
+              "Electroencephalography",
+              "Female",
+              "Humans",
+              "Male",
+              "Naloxone",
+              "Narcotic Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9152589/"
+          },
+          {
+            "pmid": "16887890",
+            "title": "Psychotic spectrum disorders and alcohol abuse: a review of pharmacotherapeutic strategies and a report on the effectiveness of naltrexone and disulfiram.",
+            "abstract": "The rate of substance-use disorders in patients with mental illnesses within the psychotic spectrum, such as schizophrenia, schizoaffective disorder, and bipolar disorder, is higher than the rate observed in the general population and is associated with significant morbidity and mortality. Although there are currently 3 medications approved by the Food and Drug Administration for the treatment of alcohol dependence, no medications have been approved for the specific treatment of dually diagnosed patients. A small but growing body of literature supports the use of 2 of these medications, disulfiram and naltrexone, in dually diagnosed individuals. This article outlines a review of the literature about the use of disulfiram and naltrexone for alcoholism and in patients with comorbid mental illness. In addition, results are presented of a 12-week randomized clinical trial of disulfiram and naltrexone alone and in combination for individuals with Axis I disorders and alcohol dependence who ",
+            "journal": "Schizophrenia bulletin",
+            "year": "2006",
+            "authors": [
+              "Petrakis Ismene L",
+              "Nich Charla",
+              "Ralevski Elizabeth"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alcohol Deterrents",
+              "Alcoholism",
+              "Bipolar Disorder",
+              "Combined Modality Therapy",
+              "Comorbidity",
+              "Diagnosis, Dual (Psychiatry)",
+              "Disulfiram",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16887890/"
+          },
+          {
+            "pmid": "6795658",
+            "title": "Phencyclidine-induced stereotype in rats: effects of methadone, apomorphine, and naloxone.",
+            "abstract": "Phencyclidine (PCP) given to male Wistar rats produced hyperactivity and various stereotypic motor behaviors. Methadone, apomorphine, and naloxone were tested for their effects on PCP-induced stereotypy. Methadone (0.5 mg/kg) had no effect on the hyperactivity produced by PCP, but significantly attenuated PCP-induced stereotypy when given both before and after PCP. Low doses of apomorphine were equally effective as methadone in attenuating PCP-induced stereotypy. However, when naloxone was given after methadone or apomorphine to PCP-treated rats, the full PCP-induced stereotypy was again observed. Naloxone pretreatment on doses up to 20 mg/kg was not effective in antagonizing PCP-induced behavioral effects. Methadone and apomorphine antagonism of PCP-induced stereotypy may be mediated by opiate receptors. The results of this study and observations from human studies collectively suggest the possible effectiveness of opiates in treating PCP-induced and functional psychoses.",
+            "journal": "Psychopharmacology",
+            "year": "1981",
+            "authors": [
+              "Verebey K",
+              "Kogan M J",
+              "Mulè S J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apomorphine",
+              "Brain Chemistry",
+              "Disease Models, Animal",
+              "Humans",
+              "Male",
+              "Methadone",
+              "Motor Activity",
+              "Naloxone",
+              "Phencyclidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6795658/"
+          },
+          {
+            "pmid": "325650",
+            "title": "Intravenous naloxone administration in schizophrenia and affective illness.",
+            "abstract": "Fourteen schizophrenic patients and five patients with affective disorders were given naloxone (0.4 to 10 milligrams) or placebo intravenously in a double-blind fashion. Physicians' ratings of hallucinations, mannerisms and posturing, conceptual disorganization, psychosis, and mood did not change significantly. A single item, unusual thought content, improved significantly on the naloxone day compared to the placebo day. There was no improvement in mood in affectively ill patients rated either by themselves or by physicians. Naloxone did not markedly improve any patient studied, which suggests that the acute blockade of opiate receptors is not associated with global improvement in psychotic symptomatology.",
+            "journal": "Science (New York, N.Y.)",
+            "year": "1977",
+            "authors": [
+              "Davis G C",
+              "Bunney W E",
+              "DeFraites E G",
+              "Kleinman J E",
+              "van Kammen D P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Affective Symptoms",
+              "Behavior",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Double-Blind Method",
+              "Female",
+              "Hallucinations",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/325650/"
+          },
+          {
+            "pmid": "7231653",
+            "title": "Use of naloxone in schizophrenic psychoses and manic syndromes.",
+            "abstract": "Since 1975, different morphinomimetic peptides have been isolated from hypophyseal-hypothalamic extracts: the pentapeptides methionine-enkephalin and leucine-enkephalin, and the longer peptides alpha-, beta- and gamma-endorphin. The primary structure of most of these peptides is also present in that of beta-lipotropin. The morphinomimetic properties of endorphins can be blocked with opiate-antagonists. In rats, moreover, the endorphins influence behavior which cannot be blocked with opiate antagonists. On the basis of the hypothesis that hyperactivity of endorphin systems may be involved in the pathogenesis of schizophrenia and manic syndromes, the effect of opiate antagonists on psychotic and manic symptoms has been examined in a number of clinical studies in the past few years. A transient therapeutic effect has been demonstrated in about 30% of the patients so treated. Our own double-blind controlled study of 5 schizophrenic and 5 manic patients in the context of a World Health Orga",
+            "journal": "Neuropsychobiology",
+            "year": "1981",
+            "authors": [
+              "Verhoeven W M",
+              "van Praag H M",
+              "de Jong J T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Affective Disorders, Psychotic",
+              "Bipolar Disorder",
+              "Double-Blind Method",
+              "Endorphins",
+              "Hallucinations",
+              "Humans",
+              "Naloxone",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7231653/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.8484031558036804,
+        "txgnn_rank": 39305,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05363501",
+            "title": "Single Dose, Crossover, Pharmacokinetic Evaluation of a New Naloxone Nasal Swab, Naloxone Nasal Spray, and Intramuscular Naloxone Injection in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-01-21",
+            "completion_date": "2022-04-11",
+            "country": "Canada",
+            "enrollment": 76,
+            "brief_summary": "The study consists of two Phases with the first phase (Pilot Phase) divided into two sub phases.\n\nIn each study phase, subjects will be admitted to the clinical unit from 10 hours prior to the first drug administration on Day -1 until approximately 12 hours following the last study drug administration. Screening of alcohol and drugs of abuse will be performed before the first study drug administration. For female subjects, a pregnancy test will be performed before the first drug administration. ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provision of signed and dated informed consent form (ICF)\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. Healthy adult male or female\n4. If female, meets 1 of the following criteria:\n\n   1. Is of childbearing potent",
+            "endpoints": [
+              "Pharmacokinetics of Various Naloxone Administrations (Maximum plasma concentration (Cmax))-Phase 1",
+              "Pharmacokinetics of Various Naloxone Administrations (Area Under the Curve (AUC))-Phase 1",
+              "Pharmacokinetics of Various Naloxone Administrations (Partial Area Under the Curve (AUC))-Phase 1"
+            ],
+            "sponsor": "Pocket Naloxone Corp",
+            "url": "https://clinicaltrials.gov/study/NCT05363501"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28829521",
+            "title": "The prevalence of nasal obstruction as a consideration in the treatment of opioid overdose.",
+            "abstract": "The intranasal route of administration for naloxone delivery is one treatment for opioid overdose, but treatment failures with this modality have been documented. This study determines the incidence of obstructive nasal pathology in patients who experienced serious opioid-induced respiratory depression (OIRD).",
+            "journal": "Journal of opioid management",
+            "year": "2017",
+            "authors": [
+              "Weiner Scott G",
+              "Joyce Andrew R",
+              "Thomson Heather N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Drug Overdose",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Multivariate Analysis",
+              "Naloxone",
+              "Narcotic Antagonists",
+              "Nasal Obstruction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28829521/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "psychotic disorder",
+        "txgnn_score": 0.8258469104766846,
+        "txgnn_rank": 40580,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05184907",
+            "title": "Effects of Remote Motivational Enhancement on Engagement in Buprenorphine Treatment",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-05-01",
+            "completion_date": "2023-08-02",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "The investigators will conduct a Randomized Controlled Trial (RCT) comparing the Remote Motivational Enhancement (RME) coaching sessions + MindWell screenings arm to an Information-only + MindWell screenings arm on early engagement in treatment support services, as measured by overall action plan initiation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18 or older\n* Meets DSM-IV criteria for opioid dependence or DSM-V criteria for opioid use disorder\n* Current patient enrolled in Bicycle Health's buprenorphine treatment program\n* Ability to provide informed consent\n* Access to the internet and an electronic device to att",
+            "endpoints": [
+              "Engagement through Action Plan Initiation"
+            ],
+            "sponsor": "Cambridge Health Alliance",
+            "url": "https://clinicaltrials.gov/study/NCT05184907"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00145847",
+            "title": "Naltrexone Treatment of Alcohol Abuse in Schizophrenia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2003-04",
+            "completion_date": "2008-05",
+            "country": "United States",
+            "enrollment": 90,
+            "brief_summary": "The primary purpose of this study is to determine whether naltrexone is effective in the treatment of alcohol dependence and abuse in patients with schizophrenia and schizoaffective disorder. Hypotheses are as follows:\n\nhypothesis 1: Naltrexone will be more effective than placebo in reducing alcohol use.\n\nhypothesis 2: Patients responding to naltrexone by reducing alcohol use will also show reductions in severity of psychiatric symptoms and utilization of inpatient and emergency psychiatric serv",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males or females, age 18 to 69, with a DSM-IV diagnosis of Schizophrenia or Schizoaffective Disorder;\n2. DSM-IV diagnosis of Alcohol Abuse or Alcohol Dependence;\n3. Level of Drinking: At least four days of drinking in the 30 days prior to consent;\n4. Currently prescribed anti",
+            "endpoints": [
+              "Measures of Alcohol Use"
+            ],
+            "sponsor": "State University of New York - Upstate Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT00145847"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04505540",
+            "title": "Effectiveness of Bridge Clinic Following Emergency Department-Initiated Intervention for Opioid Use Disorder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-09-30",
+            "completion_date": "2022-10-31",
+            "country": "United States",
+            "enrollment": 104,
+            "brief_summary": "The purpose of this study is 1) to evaluate whether emergency department-initiated medically assisted treatment with Buprenorphine/Naloxone in patients presenting with opioid use disorder will produce positive outcomes at 1 week, 3 months and 6 months after treatment initiation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient at Emergency Department\n* Diagnosis opioid use disorder according to criteria Diagnostic and Statistical Manual (DSM) 5\n\nExclusion Criteria:\n\n* Participating in alternate treatment program for opioid use disorder\n* Prisoner\n* Inability to communicate\n* Psychosis\n* Suic",
+            "endpoints": [
+              "Number of Participants With Self-reported Treatment Retention",
+              "Number of Participants With Self-reported Treatment Retention",
+              "Number of Participants With Self-reported Treatment Retention"
+            ],
+            "sponsor": "University of Vermont",
+            "url": "https://clinicaltrials.gov/study/NCT04505540"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03132571",
+            "title": "A Pilot Trial of Naltrexone-Bupropion Combination Versus Placebo Combined With Bupropion for Weight Loss in Comorbid Schizophrenia",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2017-06-01",
+            "completion_date": "2018-07-31",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "The purpose of this study is to determine the efficacy of combining open-label extended release bupropion (flexible dosing up to 450mg target) and naltrexone (37.5mg) versus Bupropion and placebo along with a daily 500 calorie reduction diet recommendation for weight and health risk reduction in 40 overweight/obese individuals with schizophrenia.",
+            "eligibility_criteria": "Inclusion Criteria\n\n1. Age 18 to 75\n2. Meet DSM-IV criteria for schizophrenia or schizoaffective disorder based on SCID interview (If bipolar-schizoaffective: need to be adequately stabilized on a mood stabilizer and show no mania history for the past one year, as confirmed by study psychiatrist and",
+            "endpoints": [
+              "BMI"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT03132571"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01591629",
+            "title": "Assessment of Cannabinoid-opiate Interactions in Humans With a Cannabis Use Disorder and Healthy Subjects",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-11-04",
+            "completion_date": "2012-06-01",
+            "country": "United States",
+            "enrollment": 6,
+            "brief_summary": "The purpose of this project is to examine the effects of mu-opiate antagonism on the rewarding and reinforcing effects of delta-9-tetrahydrocannabinol (THC), the main psychoactive ingredient of cannabis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* At least one exposure to Cannabis\n\nExclusion Criteria:\n\n* Cannabis Naive",
+            "endpoints": [
+              "Behavioral Measures"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT01591629"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00453804",
+            "title": "Injectable Versus Oral Naltrexone Treatment of Alcohol Dependence In Serious Mental Illness (SMI): A Pilot Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2007-06",
+            "country": "United States",
+            "enrollment": 15,
+            "brief_summary": "The primary aim of this study is to determine the feasibility of long-acting injectable naltrexone administration in a clinical trial in patients with SMI who also have a diagnosis of alcohol dependence. Secondary aims include providing a preliminary assessment of the tolerability and safety of long-acting injectable naltrexone as compared with oral naltrexone in patients with SMI who also have a diagnosis of alcohol dependence. An additional aim is to provide a preliminary assessment of the eff",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Males or females, age 18 to 69, with a DSM-IV diagnosis of Schizophrenia, Schizoaffective Disorder, Major Depressive Disorder (MDD) with Psychotic features, Bipolar Type I or Type II Disorder, or Psychosis not Otherwise Specified (NOS) Disorder;\n2. DSM-IV diagnosis of Alcohol",
+            "endpoints": [
+              "Primary: Measures of Alcohol Use; Psychiatric Symptom Severity"
+            ],
+            "sponsor": "State University of New York - Upstate Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT00453804"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00793780",
+            "title": "Pilot Trial of Naltrexone for Obesity in Women With Schizophrenia",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2008-12",
+            "completion_date": "2010-11",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "The purpose of this clinical trial is to find out how effective low dose oral naltrexone is on reducing body weight when compared to placebo in women with schizophrenia and schizoaffective disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women between the ages of 18 to 70\n* Meet DSM-IV (Diagnostic and Statistical Manual version IV) criteria for schizophrenia or schizoaffective disorder based on SCID (Structured Clinical Interview for the DSM-IV) interview\n* Overweight, as defined with a BMI of equal to or grea",
+            "endpoints": [
+              "Change in Body Weight From Baseline"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT00793780"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01866098",
+            "title": "Naltrexone for Antipsychotic-Induced Weight Gain",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2013-05",
+            "completion_date": "2019-04-07",
+            "country": "United States",
+            "enrollment": 144,
+            "brief_summary": "This study is designed to look at the effects of naltrexone on weight loss in individuals treated with antipsychotic medications. Naltrexone is an FDA approved medication for the management of alcohol dependence and drug dependence, but has not been fully evaluated for its effect on weight loss in individuals with severe mental illness (i.e. schizophrenia, schizoaffective disorder, bipolar disorder etc.) The purpose of this study is to find out how effective two different doses of oral naltrexon",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18 to 75\n* Meet Diagnostic \\& Statistical Manual - 4 (DSM-IV) criteria for schizophrenia, schizoaffective disorder, bipolar disorder, major depression, or another psychotic disorder based on Structured Clinical Interview for the DSM-IV (SCID) interview\n* Body Mass Index (B",
+            "endpoints": [
+              "Change in Weight From Baseline",
+              "Percent of Subjects Who Lost More Than 5% of Body Weight From Baseline"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT01866098"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02736474",
+            "title": "Effect of Naltrexone and Bupropion Combination on Weight Loss and Smoking Cessation in Obese, Cigarette-smoking Patients With Schizophrenia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-05",
+            "completion_date": "2018-07",
+            "country": "N/A",
+            "enrollment": 22,
+            "brief_summary": "The purpose of this research is to observe the efficacy of Naltrexone and Bupropion combination on weight loss and smoking cessation from baseline to week 24 compare to placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* diagnosis of schizophrenia by the International Classification of Diseases 10th Revision (ICD-10);\n* age between 18 and 65 years old;\n* on stable antipsychotic medication treatment for at least one month;\n* BMI \\> 28 kg/m2 according to BMI criterion for obesity in the Chinese ",
+            "endpoints": [
+              "Change From Baseline in Weight at 24 Weeks"
+            ],
+            "sponsor": "Shanghai Mental Health Center",
+            "url": "https://clinicaltrials.gov/study/NCT02736474"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00567034",
+            "title": "Augmenting Zyprexa With Naltrexone: Normalization of the Weight Gain Side Effect and the CNS Reward and Sensory Function",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2006-12",
+            "completion_date": "2011-12",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The main purpose of this study is to determine whether the opioid antagonist naltrexone is helpful in ameliorating the weight gain and other adverse metabolic side effects experienced by schizophrenic patients taking the second generation antipsychotic (SGA) Zyprexa. Schizophrenics may have an altered/enhanced endogenous opioidergic drive, and because of this, normally painful stimuli will be sensed as less painful in schizophrenics vs. healthy controls. A secondary hypothesis for this study is ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Meeting DSM-IV-TR criteria for schizophrenia/schizoaffective disorder, confirmed by clinical interview with PI and SCID-I.\n* On a stable dose of Zyprexa (i.e., greater than or equal to 10mg/day and less than or equal to 30mg/day) for at least 2 months; patients on typical anti",
+            "endpoints": [
+              "Weight and Body Mass Index"
+            ],
+            "sponsor": "Mclean Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00567034"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01360346",
+            "title": "Multicentric, Single Blind, Randomized Controlled Trial on Enteral Sedation Versus Intravenous Sedation in Critically Ill High-risk ICU Patients",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2012-01",
+            "completion_date": "2012-12",
+            "country": "Italy",
+            "enrollment": 300,
+            "brief_summary": "Recent studies suggest the employment of 'conscious' sedation (1) for critically high - risk patients (2), showing more efficacy then deep sedation (3). The investigators want to compare intravenous injection versus enteral sedative drugs administration, purposing to maintain a 'conscious' sedation level compatibly with the needed cares, invasive procedures, and medical and nursing surveillance.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* High Risk Patients (Ventilation days assessment \\>3, SAPS II \\>32).\n* Until 24 h after ICU admission\n* Age \\> 18 years\n\nExclusion Criteria:\n\n* Neurosurgical patients\n* Allergy to medications used in the study\n* CNS diseases (epilepsy, ictus, dementia, anoxic coma…)\n* Liver enc",
+            "endpoints": [
+              "Percent of efficacy, measured by observed RASS = desired RASS ± 1."
+            ],
+            "sponsor": "University of Milan",
+            "url": "https://clinicaltrials.gov/study/NCT01360346"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35863294",
+            "title": "A systematic review of licensed weight-loss medications in treating antipsychotic-induced weight gain and obesity in schizophrenia and psychosis.",
+            "abstract": "Schizophrenia and antipsychotic use are associated with clinically significant weight gain and subsequent increased mortality. Despite weight loss medications (WLMs) licensed by regulatory bodies (FDA, EMA, and MHRA) being available, current psychiatric guidelines recommend off-label alternatives, which differ from non-psychiatric guidelines for obesity.",
+            "journal": "General hospital psychiatry",
+            "year": "2022",
+            "authors": [
+              "Lee Kenn",
+              "Abraham Seri",
+              "Cleaver Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Bupropion",
+              "Humans",
+              "Liraglutide",
+              "Naltrexone",
+              "Obesity",
+              "Psychotic Disorders",
+              "Schizophrenia",
+              "Weight Gain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35863294/"
+          },
+          {
+            "pmid": "35815178",
+            "title": "New-Onset Psychotic Symptoms Following Abrupt Buprenorphine/Naloxone Discontinuation in a Female Patient with Bipolar Disorder: A Case Report.",
+            "abstract": "Buprenorphine and naloxone (Suboxone) is a combination medication-assisted treatment (MAT) for opioid use disorder. MAT withdrawal-induced psychosis is a rare clinical presentation. To our best knowledge, only three reports have summarized the characteristic manifestations of buprenorphine withdrawal psychosis, yet all of them were male. In this case report, we present a 41-year-old female patient with bipolar disorder and comorbid substance use disorder who developed new-onset psychosis and relapse of manic symptoms following abrupt discontinuation of Suboxone. Manic and psychotic symptoms remitted after a short-term hospitalization with the treatment of an antipsychotic and a mood stabilizer. In addition to discussing this case presentation and treatment approach, we review existing literature and discuss possible underlying mechanisms to enhance understanding of this clinical phenomenon.",
+            "journal": "Psychopharmacology bulletin",
+            "year": "2022",
+            "authors": [
+              "Lin Yezhe",
+              "Zhang Alexander D",
+              "Sun Ching-Fang",
+              "White Justin B",
+              "Qi Ansi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35815178/"
+          },
+          {
+            "pmid": "40319789",
+            "title": "Substance-induced mental disorders and discontinuation of medication for opioid use disorder.",
+            "abstract": "People with opioid use disorder (OUD) often exhibit psychiatric symptoms representing primary (PMD) and substance induced mental disorders (SIMD). PMD are associated with increased discontinuation of medications for OUD (MOUD). It is unknown if this relationship holds for SIMD.",
+            "journal": "Drug and alcohol dependence",
+            "year": "2025",
+            "authors": [
+              "Tilhou Alyssa Shell",
+              "Grucza Richard A",
+              "Xu Kevin Y"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Opioid-Related Disorders",
+              "Adult",
+              "Retrospective Studies",
+              "Mental Disorders",
+              "Middle Aged",
+              "United States",
+              "Opiate Substitution Treatment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40319789/"
+          },
+          {
+            "pmid": "33256454",
+            "title": "How Much of an Advance Is the Addition of Samidorphan to Olanzapine?",
+            "abstract": "",
+            "journal": "The American journal of psychiatry",
+            "year": "2020",
+            "authors": [
+              "Buchanan Robert W"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Humans",
+              "Naltrexone",
+              "Olanzapine",
+              "Schizophrenia",
+              "Weight Gain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33256454/"
+          },
+          {
+            "pmid": "34516229",
+            "title": "Insights Into Improving Clinical Outcomes Across Psychiatric Disorders and Medical Comorbidities.",
+            "abstract": "",
+            "journal": "The American journal of psychiatry",
+            "year": "2021",
+            "authors": [
+              "Kalin Ned H"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Alcoholism",
+              "Anorexia Nervosa",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Comorbidity",
+              "Humans",
+              "Mental Disorders",
+              "Methadone",
+              "Naltrexone",
+              "Narcotics",
+              "Patient Outcome Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34516229/"
+          },
+          {
+            "pmid": "39630083",
+            "title": "Long-Term Safety, Tolerability, and Durability of Treatment Effect of Olanzapine and Samidorphan: Results of a 4-Year Open-Label Study.",
+            "abstract": "Objective: Evaluate long-term safety, tolerability, and durability of the effect of olanzapine/samidorphan (OLZ/SAM) for up to 4 years in patients with schizophrenia, schizophreniform disorder, or bipolar I disorder (BD-I). Methods: This phase 3, multicenter, open-label, long-term extension (conducted June 2017-September 2023) assessed OLZ/SAM in patients completing the ENLIGHTEN clinical program. Patients received ≥2-4 years of additional treatment. Safety assessments included adverse event (AE) incidences and changes from baseline in body weight, waist circumference, and lipid/glycemic parameters. The durability of the effect was assessed using the Clinical Global Impressions-Severity (CGI-S) scale. Results: Of 524 patients enrolled, 523 received ≥1 dose of OLZ/SAM. Of these, 460 (88%) patients had schizophrenia, 15 (3%) had schizophreniform disorder, and 48 (9%) had BD-I. Mean (SD) age was 35.1 (12.2) years. Mean (SD) OLZ/SAM exposure was 652.4 (454.8) days. Of 451 patients eligible",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2024",
+            "authors": [
+              "Ballon Jacob S",
+              "Kahn René S",
+              "Arevalo Christina",
+              "Dunbar Martin",
+              "McDonnell David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Clinical Trial, Phase III"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Olanzapine",
+              "Adult",
+              "Male",
+              "Female",
+              "Schizophrenia",
+              "Antipsychotic Agents",
+              "Middle Aged",
+              "Bipolar Disorder",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39630083/"
+          },
+          {
+            "pmid": "36582063",
+            "title": "Pharmacological Treatment of Alcohol use Disorder in Patients with Psychotic Disorders: A Systematic Review.",
+            "abstract": "Patients with psychotic disorders (PD) often have comorbid alcohol use disorder (AUD), which is typically treated pharmacologically. Up till now, no systematic review has examined the effectiveness and safety of AUD treatment in PD patients.",
+            "journal": "Current neuropharmacology",
+            "year": "2024",
+            "authors": [
+              "Rosenstand Niels Jørgen",
+              "Nielsen Anette Søgaard",
+              "Skøt Lotte",
+              "Anhøj Simon",
+              "Nielsen Dorthe Grüner"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Psychotic Disorders",
+              "Alcoholism",
+              "Alcohol Deterrents",
+              "Naltrexone",
+              "Disulfiram",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36582063/"
+          },
+          {
+            "pmid": "16887890",
+            "title": "Psychotic spectrum disorders and alcohol abuse: a review of pharmacotherapeutic strategies and a report on the effectiveness of naltrexone and disulfiram.",
+            "abstract": "The rate of substance-use disorders in patients with mental illnesses within the psychotic spectrum, such as schizophrenia, schizoaffective disorder, and bipolar disorder, is higher than the rate observed in the general population and is associated with significant morbidity and mortality. Although there are currently 3 medications approved by the Food and Drug Administration for the treatment of alcohol dependence, no medications have been approved for the specific treatment of dually diagnosed patients. A small but growing body of literature supports the use of 2 of these medications, disulfiram and naltrexone, in dually diagnosed individuals. This article outlines a review of the literature about the use of disulfiram and naltrexone for alcoholism and in patients with comorbid mental illness. In addition, results are presented of a 12-week randomized clinical trial of disulfiram and naltrexone alone and in combination for individuals with Axis I disorders and alcohol dependence who ",
+            "journal": "Schizophrenia bulletin",
+            "year": "2006",
+            "authors": [
+              "Petrakis Ismene L",
+              "Nich Charla",
+              "Ralevski Elizabeth"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alcohol Deterrents",
+              "Alcoholism",
+              "Bipolar Disorder",
+              "Combined Modality Therapy",
+              "Comorbidity",
+              "Diagnosis, Dual (Psychiatry)",
+              "Disulfiram",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16887890/"
+          },
+          {
+            "pmid": "17054176",
+            "title": "Pharmacological treatments for psychosis-related polydipsia.",
+            "abstract": "Polydipsia is the intake of more than three litres of fluids per day. Primary polydipsia occurs when excessive drinking cannot be explained by an identified medical condition, and is not secondary to polyuria. The prevalence of this problem in psychiatric inpatients has been estimated at between 6 and 17%. It can hinder standard care and be a highly disabling, even life-threatening condition.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2006",
+            "authors": [
+              "Brookes G",
+              "Ahmed A G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Drinking",
+              "Humans",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17054176/"
+          },
+          {
+            "pmid": "12137700",
+            "title": "Pharmacological treatments for psychosis-related polydipsia.",
+            "abstract": "Polydipsia is the intake of more than three litres of fluids per day. Primary polydipsia occurs when excessive drinking cannot be explained by an identified medical condition, and is not secondary to polyuria. The prevalence of this problem in psychiatric inpatients has been estimated at between 6 and 17%. It can hinder standard care and be a highly disabling, even life-threatening condition.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2002",
+            "authors": [
+              "Brookes G",
+              "Ahmed A G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Drinking",
+              "Humans",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12137700/"
+          },
+          {
+            "pmid": "8555385",
+            "title": "Gonadotropin response to naloxone challenge in female and male psychotic patients: a pilot study.",
+            "abstract": "",
+            "journal": "Biological psychiatry",
+            "year": "1995",
+            "authors": [
+              "Kulkarni J",
+              "de Castella A",
+              "Smith D",
+              "McKenzie D",
+              "Keks N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Estrogens",
+              "Female",
+              "Follicle Stimulating Hormone",
+              "Humans",
+              "Luteinizing Hormone",
+              "Male",
+              "Naloxone",
+              "Pilot Projects",
+              "Progesterone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8555385/"
+          },
+          {
+            "pmid": "36016507",
+            "title": "Samidorphan for the treatment of weight gain associated with olanzapine in patients with schizophrenia and bipolar disorder.",
+            "abstract": "Olanzapine (OLZ) is one of the most effective antipsychotic agents, however, its clinical utility has been limited by weight gain. Samidorphan (SAM) is a μ-opioid receptor antagonist and it can reduce the weight gain associated with OLZ. A combination of OLZ and SAM (OLZ/SAM) has been developed to provide the antipsychotic efficacy of OLZ, while mitigating OLZ-associated weight gain.",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2022",
+            "authors": [
+              "Gao Junfa",
+              "Li Junsheng",
+              "Lu Xiuhua",
+              "Yang Junyi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Benzodiazepines",
+              "Bipolar Disorder",
+              "Humans",
+              "Naltrexone",
+              "Narcotic Antagonists",
+              "Olanzapine",
+              "Schizophrenia",
+              "Weight Gain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36016507/"
+          },
+          {
+            "pmid": "39979936",
+            "title": "A pharmacovigilance study of olanzapine/samidorphan based on FDA Adverse Event Reporting System (FAERS).",
+            "abstract": "The olanzapine/samidorphan (OLZ/SAM) combination is being regarded as a new strategy to combat weight gain induced by olanzapine (OLZ), and its safety is of significant concern. Specifically, as samidorphan is an opioid receptor-related drug, issues related to its potential for dependence and withdrawal symptoms deserve attention. This study aims to provide a comprehensive analysis of adverse events (AEs) associated with the OLZ/SAM.",
+            "journal": "BMC pharmacology & toxicology",
+            "year": "2025",
+            "authors": [
+              "He Luyao",
+              "Shen Mengting",
+              "Zhang Lei",
+              "Li Yan",
+              "Li Huafang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Pharmacovigilance",
+              "Olanzapine",
+              "Humans",
+              "Adverse Drug Reaction Reporting Systems",
+              "United States",
+              "United States Food and Drug Administration",
+              "Male",
+              "Adult",
+              "Female",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39979936/"
+          },
+          {
+            "pmid": "35759785",
+            "title": "Association of Bupropion, Naltrexone, and Opioid Agonist Treatment With Stimulant-Related Admissions Among People With Opioid Use Disorder: A Case-Crossover Analysis.",
+            "abstract": "Background: Stimulant use has substantially increased among people with opioid use disorder (OUD) and is associated with worse treatment outcomes. This study's objective was to compare risk of stimulant-related emergency department (ED) and hospital admissions associated with exposure to bupropion, OUD medication (buprenorphine, naltrexone, and methadone), and selective serotonin reuptake inhibitors (SSRIs; active comparator) relative to days without active prescriptions for medication. Methods: This recurrent-event, case-crossover study used insurance claims from 51,084 individuals with OUD enrolled in the IBM MarketScan (2006-2016) Databases who had at least 1 stimulant-related ED or hospital admission. Conditional logistic regression models estimated the risk of admissions between days without active prescriptions and days with prescriptions for bupropion, OUD medication, and SSRIs. Secondary analyses were conducted by stimulant subtype (cocaine; amphetamine) and event subtype (fall",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2022",
+            "authors": [
+              "Xu Kevin Y",
+              "Mintz Carrie M",
+              "Presnall Ned",
+              "Bierut Laura J",
+              "Grucza Richard A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Buprenorphine",
+              "Bupropion",
+              "Central Nervous System Stimulants",
+              "Cross-Over Studies",
+              "Humans",
+              "Methadone",
+              "Naltrexone",
+              "Opiate Substitution Treatment",
+              "Opioid-Related Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35759785/"
+          },
+          {
+            "pmid": "37868375",
+            "title": "Acute Psychotic Episode Precipitated by Opioid Withdrawal in a Case of Bipolar I Disorder.",
+            "abstract": "Psychosis is a state of mind where an individual loses touch with reality and cannot differentiate between their perceptions and the real world. They experience one or more of the following: delusions, hallucinations, disorganized speech or catatonic behavior. While it can have a sporadic onset, drug-induced psychosis is also very common. When a person consuming large quantities of a particular drug, such as opioids, stops consuming the drug and enters the rehabilitation stage, this is a vulnerable time due to abrupt chemical changes. It can predispose the individual to psychosis due to withdrawal from the drug. Here, we present a 30-year-old Caucasian female who underwent rehabilitation and was treated successfully with buprenorphine/naloxone (Suboxone) for eight months. However, due to a comorbid psychiatric condition, mania, she was not able to adhere to her medication regimen, which led to an abrupt discontinuation of her maintenance medication, and this led to psychotic symptoms, ",
+            "journal": "Cureus",
+            "year": "2023",
+            "authors": [
+              "Shah Darshini B",
+              "Fichadia Palak A",
+              "Shah Freya H",
+              "Patel Shirish S",
+              "Jain Ivanshu N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37868375/"
+          },
+          {
+            "pmid": "6121545",
+            "title": "Short-term naloxone administration in schizophrenic and manic patients. A World Health Organization Collaborative Study.",
+            "abstract": "A double-blind study of the behavioral effects of short-term naloxone hydrochloride administration was performed in 32 schizophrenic and 26 manic patients in a World Health Organization collaborative project. There was a significant naloxone-associated reduction in overall physician-rated symptoms in schizophrenic patients concurrently treated with neuroleptic medication (N = 19) but not in medication-free schizophrenics (N = 13). Physician rating of auditory hallucinations showed significant naloxone-associated improvement for the total schizophrenic population, while self-ratings of auditory hallucinations showed improvement only in neuroleptic-treated schizophrenics. While further studies are needed to delineate these effects as to clinical significance, they may bear etiological implications for the psychobiology of schizophrenia, including the possibility of synergistic effects of dopamine and endorphin blockade. Naloxone produced no significant behavioral effects in manic patient",
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "authors": [
+              "Pickar D",
+              "Vartanian F",
+              "Bunney W E",
+              "Maier H P",
+              "Gastpar M T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Affective Disorders, Psychotic",
+              "Aged",
+              "Antipsychotic Agents",
+              "Bipolar Disorder",
+              "Clinical Trials as Topic",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6121545/"
+          },
+          {
+            "pmid": "16961422",
+            "title": "Treatment of schizophrenia and comorbid substance abuse: pharmacologic approaches.",
+            "abstract": "Co-occurring substance use disorder is common among patients with schizophrenia, and its presence greatly worsens the course of schizophrenia. A number of theories have been introduced to explain the increased rate of substance use disorder in these patients. These theories include the notion that substance use could trigger psychotic symptoms in vulnerable individuals and the idea that the substances are used to self-medicate symptoms of schizophrenia. Our group and others have advanced a neurobiological hypothesis to explain this comorbidity-that a mesocorticolimbic brain reward circuit underlies the substance use disorder in patients with schizophrenia. Treatment of substance use disorder in these patients is best done with integrated treatment programs that combine psychosocial interventions with pharmacotherapy. Recent data suggest that the atypical antipsychotic clozapine and perhaps other atypical agents may lessen substance use in patients with schizophrenia. My colleagues and ",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2006",
+            "authors": [
+              "Green Alan I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alcohol Deterrents",
+              "Alcoholism",
+              "Antipsychotic Agents",
+              "Clozapine",
+              "Comorbidity",
+              "Diagnosis, Dual (Psychiatry)",
+              "Disulfiram",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Naltrexone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16961422/"
+          },
+          {
+            "pmid": "6360635",
+            "title": "Enkephalins and Endorphins. Clinical, pharmacological and therapeutic implications.",
+            "abstract": "During the past 8 years there has been substantial progress in our understanding of the structure, distribution and action of endogenous opioid peptides. Currently, there appear to be 2 groups of peptides; those derived from beta-lipotropin and an enkephalin-related group. Some of these peptides have been shown to be distributed widely in the central nervous system and in endocrine tissues. The activity of the peptides probably occurs at several receptors but only 1 relatively specific (mu-receptor) antagonist, naloxone, is well studies. Although there have been many clinical studies of the action of opioids in man, no novel therapeutic applications have yet been established in clinical practice. Of the many areas of involvement attributed to opioids, those of analgesia, reproductive endocrinology, opiate dependence, and certain as yet undefined subtypes of major psychoses seem reasonably promising. Speculation surround opioid involvement in other disorders such as spinal trauma, septi",
+            "journal": "Drugs",
+            "year": "1983",
+            "authors": [
+              "Copolov D L",
+              "Helme R D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acupuncture Therapy",
+              "Animals",
+              "Blood Pressure",
+              "Central Nervous System Diseases",
+              "Endocrine System Diseases",
+              "Endorphins",
+              "Enkephalins",
+              "Ethanol",
+              "Gastrointestinal Diseases",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6360635/"
+          },
+          {
+            "pmid": "24733134",
+            "title": "Nalbuphine-induced psychosis treated with naloxone.",
+            "abstract": "A case of nalbuphine-induced psychosis, which resolved after the administration of naloxone, is described.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2014",
+            "authors": [
+              "Siemianowski Laura A",
+              "Rosenheck Justin P",
+              "Whitman Craig B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesics, Opioid",
+              "Female",
+              "Humans",
+              "Nalbuphine",
+              "Naloxone",
+              "Narcotic Antagonists",
+              "Pruritus",
+              "Psychoses, Substance-Induced",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24733134/"
+          },
+          {
+            "pmid": "7231653",
+            "title": "Use of naloxone in schizophrenic psychoses and manic syndromes.",
+            "abstract": "Since 1975, different morphinomimetic peptides have been isolated from hypophyseal-hypothalamic extracts: the pentapeptides methionine-enkephalin and leucine-enkephalin, and the longer peptides alpha-, beta- and gamma-endorphin. The primary structure of most of these peptides is also present in that of beta-lipotropin. The morphinomimetic properties of endorphins can be blocked with opiate-antagonists. In rats, moreover, the endorphins influence behavior which cannot be blocked with opiate antagonists. On the basis of the hypothesis that hyperactivity of endorphin systems may be involved in the pathogenesis of schizophrenia and manic syndromes, the effect of opiate antagonists on psychotic and manic symptoms has been examined in a number of clinical studies in the past few years. A transient therapeutic effect has been demonstrated in about 30% of the patients so treated. Our own double-blind controlled study of 5 schizophrenic and 5 manic patients in the context of a World Health Orga",
+            "journal": "Neuropsychobiology",
+            "year": "1981",
+            "authors": [
+              "Verhoeven W M",
+              "van Praag H M",
+              "de Jong J T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Affective Disorders, Psychotic",
+              "Bipolar Disorder",
+              "Double-Blind Method",
+              "Endorphins",
+              "Hallucinations",
+              "Humans",
+              "Naloxone",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7231653/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypoglycemia",
+        "txgnn_score": 0.8153184056282043,
+        "txgnn_rank": 41110,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01462227",
+            "title": "The Effect of Opiate Blockade With Naltrexone on Counterregulatory Mechanisms in Hypoglycemia",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2011-08",
+            "completion_date": "2013-10",
+            "country": "United States",
+            "enrollment": 17,
+            "brief_summary": "Insulin treatment often causes the blood glucose levels to fall too low. The body usually responds to low blood glucose levels by releasing hormones which act against the insulin to help correct the low blood glucose levels. However, this hormone response can be altered in people with diabetes. Currently there are no therapeutic agents that can be used to improve the recovery from hypoglycemia (low blood sugar). Naltrexone is a tablet used to help people who are addicted to alcohol or morphine-b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* type 1 diabetes (well controlled, 2-3 hypoglycemic episodes/wk) age 18-55, BMI 18-35\n\nExclusion Criteria:\n\n* pregnancy\n* significant diabetes complications\n* liver disease, cirrhosis\n* cardiac disease\n* neurological disorder\n* autonomic neuropathy\n* kidney disease\n* lactose in",
+            "endpoints": [
+              "Glucose (mg/dL)",
+              "Glucose Infusion Rate (mg/kg.Min)"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT01462227"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02700048",
+            "title": "Intra-nasal Naloxone for Treatment of Impaired Awareness of Hypoglycemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2016-06",
+            "completion_date": "2021-07",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "This is a single center, single-blind randomized cross over design trial that will compare the impact of intra-nasal naloxone vs. intra-nasal saline administration during experimental hypoglycemia on day one on responses to experimental hypoglycemia on day two. Investigators intend to enroll 18 individuals to obtain the complete data sets from 15 participants. Expected duration of subject participation is 10-12 weeks. This study will consist of two 2-day intervention visits separated by approxim",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects are capable of giving informed consent.\n2. Female subjects must be post-menopausal for at least 1 year, or surgically incapable of bearing children, or practicing at least one or more of the following methods of contraception for three months prior to, and during the",
+            "endpoints": [
+              "Within Person Difference in Peak Epinephrine During Hypoglycemia"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT02700048"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02969343",
+            "title": "Patient Safety Learning Laboratory: Making Acute Care More Patient-Centered",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2015-04",
+            "completion_date": "2018-12",
+            "country": "United States",
+            "enrollment": 21000,
+            "brief_summary": "The Brigham and Women's Hospital (BWH) Patient Safety Learning Laboratory (PSLL) focuses on developing health information technology (HIT) tools to engage patients, family, and professional care team members in reliable identification, assessment, and reduction of patient safety threats in real-time, before they manifest in actual harm.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients 18-99 years of age\n\nExclusion Criteria:\n\n* patients under age 18 years",
+            "endpoints": [
+              "Clinical Outcomes: Proportion of hospitalizations with any adverse event"
+            ],
+            "sponsor": "Brigham and Women's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02969343"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03149770",
+            "title": "Hypoglycemia After Exercise in Type 1 Diabetes: Intranasal Naloxone as a Novel Therapy to Preserve Hypoglycemia Counterregulation",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-09-18",
+            "completion_date": "2023-04-01",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The overall objective of this project is to determine if the intranasal administration of naloxone during exercise will be a novel approach to preserve the counterregulatory response to hypoglycemia experienced the next day in patients with type 1 diabetes. Exercise induced autonomic failure contributes to the development of impaired awareness of hypoglycemia. Treatments that blunt the consequences of exercise induced autonomic failure, such as preserving the post-exercise counterregulatory resp",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Type 1 diabetes diagnosed on clinical grounds (history of DKA, use of insulin within 6 months of diagnosis)\n* Diabetes duration \\< 30 years (impaired awareness of hypoglycemia increases with duration so it will be more likely that shorter duration participants will have hypogl",
+            "endpoints": [
+              "Change in Symptom Score",
+              "Change in Epinephrine Levels"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT03149770"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03608163",
+            "title": "Novel Approach for the Prevention of Hypoglycemia Associated Autonomic Failure (HAAF)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2019-01-08",
+            "completion_date": "2019-08-22",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "The overall goal of this study is to develop a new and practical way to prevent the development of Hypoglycemia Associated Autonomic Failure (HAAF), which is unawareness of hypoglycemia (low blood sugar) in individuals with diabetes. Previous studies suggest that two medications, naloxone and diazoxide, may increase the body's ability to respond to episodes of low blood sugar and prevent the development of HAAF (or hypoglycemia unawareness). Only healthy subjects are being recruited for this stu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n-Healthy, non-diabetic subjects 21-55 years old\n\nExclusion Criteria:\n\n* Body Mass Index (BMI) \\>35kg/m2\n* If Blood Pressure (BP) \\>150/90 or \\<90/60 on repeated measurements and on more than one occasion\n* Uncontrolled hyperlipidemia defined as Triglycerides \\>400 mg/dL and/or t",
+            "endpoints": [
+              "Comparison of Peak Epinephrine Levels Between First and Third Hypoglycemic Clamp Episodes"
+            ],
+            "sponsor": "Albert Einstein College of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT03608163"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01053078",
+            "title": "Study of the Effect of Naltrexone on Cerebral Blood Flow and Hypoglycemia in Type 1 Diabetes Mellitus",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-10",
+            "completion_date": "2014-06",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "Low blood sugar is also called hypoglycemia. Usually, it is mild and can be treated quickly and easily by eating or drinking a small amount of a sugar-rich food. If low blood sugar is left untreated, it can get worse and cause confusion, clumsiness or fainting. Severe hypoglycemia can lead to seizures, coma, and even death.\n\nSome people with diabetes do not have early warning signs of low blood sugar. This condition is called hypoglycemia unawareness. It happens when the body stops reacting to l",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18-65 years of age\n* Type 1 diabetes\n* Hypoglycemia unawareness\n* Capable of providing informed consent\n\nExclusion Criteria:\n\n* Concomitant regular use of acetaminophen, aspirin or ibuprofen\n* History of drug or alcohol abuse\n* Psychiatric illness\n* Elevations in ALT (Alanine ",
+            "endpoints": [
+              "Cerebral Blood Flow"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT01053078"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00678145",
+            "title": "Mechanisms of Hypoglycemia Associated Autonomic Failure",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2008-03",
+            "completion_date": "2022-08",
+            "country": "United States",
+            "enrollment": 116,
+            "brief_summary": "Intensive glucose control in type 1 diabetes mellitus (T1DM) is associated with clear health benefits (1). However, despite development of insulin analogs, pump/multi-dose treatment and continuous glucose monitoring, maintaining near-normal glycemia remains an elusive goal for most patients, in large part owing to the risk of hypoglycemia. T1DM patients are susceptible to hypoglycemia due to defective counterregulatory responses (CR) characterized by: 1) deficient glucagon release during impendi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Non-diabetic individuals\n\nExclusion Criteria:\n\n* Hypertension\n* Hyperlipidemia\n* Heart disease\n* Cerebrovascular disease\n* Seizures\n* Bleeding disorders",
+            "endpoints": [
+              "Change in the counterregulatory responses to hypoglycemia compared to controls"
+            ],
+            "sponsor": "Albert Einstein College of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT00678145"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37106491",
+            "title": "A Possible Case of Opioid-Induced Hypoglycemia and the Potential Role of Naloxone.",
+            "abstract": "Literature has found that individuals with opioid use disorders have increased fasting insulin levels and that antagonism of the μ-receptor with naloxone blunted this hypoglycemic effect. We describe a 35-year-old woman with no history of diabetes who presented after being found unconscious where she was given naloxone and became awake and combative. Her blood glucose (BG) on presentation was 175 mg/dl, which declined to 40 mg/dl, and dextrose was administered. Subsequently, it declined to 42 mg/dl and was again given dextrose. Later her BG fell to 67 mg/dl and she was given dextrose and started on a dextrose infusion. She was then administered IV naloxone and 1 hr later the infusion was discontinued and she had no further hypoglycemic events. Clinicians should consider altering monitoring parameters in the setting of acute overdoses to include repeated glucose assessment to ensure early identification of hypoglycemia and the potential influence of naloxone.",
+            "journal": "Advanced emergency nursing journal",
+            "year": "2023",
+            "authors": [
+              "Weant Kyle A",
+              "Embertson Kyle E",
+              "Fisher Daniel W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Adult",
+              "Analgesics, Opioid",
+              "Naloxone",
+              "Hypoglycemia",
+              "Blood Glucose",
+              "Hypoglycemic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37106491/"
+          },
+          {
+            "pmid": "39331519",
+            "title": "Can Intranasal Naloxone Prevent Hypoglycemia-Associated Autonomic Failure?",
+            "abstract": "",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2025",
+            "authors": [
+              "Saeed Hamayle",
+              "Patti Mary-Elizabeth"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39331519/"
+          },
+          {
+            "pmid": "37106492",
+            "title": "Possible Case of Opioid-Induced Hypoglycemia and the Potential Role of Naloxone.",
+            "abstract": "",
+            "journal": "Advanced emergency nursing journal",
+            "year": "2023",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Naloxone",
+              "Analgesics, Opioid",
+              "Hypoglycemia",
+              "Insulin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37106492/"
+          },
+          {
+            "pmid": "23467779",
+            "title": "Methadone-induced hypoglycemia.",
+            "abstract": "To determine if recent observations of hypoglycemia in patients receiving high-dose methadone extended to an animal model, we explored the effects of methadone and other mu-opioids on blood glucose levels in mice. Methadone lowered blood glucose in a dose-dependent manner with 20 mg/kg yielding a nadir in average glucose levels to 55 ± 6 mg/dL from a baseline of 172 ± 7 mg/dL, an effect that was antagonized by naloxone and mu selective antagonists β-funaltrexamine and naloxonazine. The effect was stereoselective and limited to only the l-isomer, while the d-isomer was ineffective. Despite the robust decrease in blood glucose produced by methadone, a series of other mu-opioids, including morphine, fentanyl, levorphanol, oxycodone or morphine-6β-glucuronide failed to lower blood glucose levels. Similar differences among mu-opioid agonists have been observed in other systems, suggesting the possible role of selected splice variants of the mu-opioid receptor gene Oprm1. This mouse model re",
+            "journal": "Cellular and molecular neurobiology",
+            "year": "2013",
+            "authors": [
+              "Faskowitz Andrew J",
+              "Kramskiy Vladimir N",
+              "Pasternak Gavril W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Animals",
+              "Blood Glucose",
+              "Dose-Response Relationship, Drug",
+              "Exons",
+              "Hypoglycemia",
+              "Male",
+              "Methadone",
+              "Mice",
+              "Mice, Knockout"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23467779/"
+          },
+          {
+            "pmid": "2292659",
+            "title": "Increase by naloxone of arginine vasopressin and oxytocin responses to insulin-induced hypoglycemia in obese men.",
+            "abstract": "The present study was carried out to establish whether the low arginine vasopressin (AVP) and oxytocin (OT) responses to insulin-induced hypoglycemia observed in obese men was due to alteration of the opioid control of posterior pituitary function. For this purpose, the AVP and OT releasing effect of insulin (0.15 IU/kg bw)--induced hypoglycemia was tested in eight normal weight men and in 10 age-matched obese subjects, without and with the previous treatment with the specific opioid receptor antagonist naloxone (3 mg in an iv bolus). In a control study, naloxone was given alone to the same subjects. Obese men showed similar basal glucose, AVP and OT levels, which remained unmodified after treatment with naloxone alone. Insulin induced a similar decrement of blood glucose levels in all subjects, with a nadir at 30 min. Plasma levels of AVP and OT rose strikingly in normal and obese subjects with mean peak responses at 30 min for AVP and at 45 min for OT. However, both AVP and OT respon",
+            "journal": "Journal of endocrinological investigation",
+            "year": "1990",
+            "authors": [
+              "Coiro V",
+              "Capretti L",
+              "Speroni G",
+              "Castelli A",
+              "Bianconi L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arginine Vasopressin",
+              "Blood Pressure",
+              "Hematocrit",
+              "Humans",
+              "Hypoglycemia",
+              "Insulin",
+              "Male",
+              "Naloxone",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2292659/"
+          },
+          {
+            "pmid": "7586616",
+            "title": "A comparison of the naloxone test with ovine CRH and insulin hypoglycaemia in the evaluation of the hypothalamic-pituitary-adrenal axis in normal man.",
+            "abstract": "It has been suggested that naloxone might be useful in clinical testing of the hypothalamic-pituitary-adrenal (HPA) axis. We have therefore evaluated this non-selective opioid receptor antagonist, as a test of HPA axis function, and compared the results to ovine corticotrophin-releasing hormone (oCRH) and the insulin tolerance test (ITT).",
+            "journal": "Clinical endocrinology",
+            "year": "1995",
+            "authors": [
+              "Inder W J",
+              "Ellis M J",
+              "Evans M J",
+              "Donald R A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenocorticotropic Hormone",
+              "Adult",
+              "Arginine Vasopressin",
+              "Corticotropin-Releasing Hormone",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Humans",
+              "Hydrocortisone",
+              "Hypothalamo-Hypophyseal System",
+              "Insulin",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7586616/"
+          },
+          {
+            "pmid": "2846678",
+            "title": "Metergoline, naloxone, and sodium valproate did not modify arginine vasopressin response to insulin-induced hypoglycemia in man.",
+            "abstract": "The present study was carried out in order to determine whether insulin-induced hypoglycemia exerts its stimulatory effect on plasma concentrations of arginine vasopressin (AVP) by interacting with a serotonergic, a GABA-ergic or an opioid pathway. For this purpose, the effect of the serotonergic antagonist metergoline (10 mg/day for 4 days po), the GABA-ergic agonist sodium valproate (600 mg in three divided doses po) and the opioid-receptor blocker naloxone (10 mg in a iv bolus) on the AVP response during an insulin (0.15 IU/kg bw) tolerance test (ITT) was evaluated in three groups of 6 normal men each. In all men, control ITTs were performed without drug treatments. Basal and ITT-stimulated AVP secretion was not modified by drug administration, suggesting that serotonergic, GABAergic and naloxone-sensitive opioid receptors are not involved in the regulation of AVP secretion in response to insulin-induced hypoglycemia.",
+            "journal": "Journal of endocrinological investigation",
+            "year": "1988",
+            "authors": [
+              "Chiodera P",
+              "Gnudi A",
+              "Volpi R",
+              "d'Amato L",
+              "Marchesi C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenocorticotropic Hormone",
+              "Adult",
+              "Arginine Vasopressin",
+              "Ergolines",
+              "Growth Hormone",
+              "Humans",
+              "Hypoglycemia",
+              "Insulin",
+              "Male",
+              "Metergoline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2846678/"
+          },
+          {
+            "pmid": "2693516",
+            "title": "Effects of naloxone on prolactin, growth hormone and cortisol response to insulin hypoglycemia in obese subjects.",
+            "abstract": "Recent studies suggest that opioid peptides may influence the secretion of pituitary gland hormones. Since obese patients often show impaired growth hormone (GH), prolactin (PRL) and cortisol responses to stimuli and raised beta endorphin levels, the opioid regulation of such hormone secretion could be different from that in normal weight subjects. In order to verify this hypothesis we studied the effect of iv naloxone, an opiate receptor antagonist, on GH, PRL and cortisol response to insulin-induced hypoglycemia in 9 obese female subjects. Seven normal weight females were used as control group. A control test using saline showed that the PRL and GH responses to insulin stress were impaired in obese subjects, whereas no difference was seen in the cortisol response. Naloxone did not modify the PRL and GH response but provoked a rise in the cortisol response in both obese and normal weight subjects. These findings suggest that while the opioid peptides do not play an important role in r",
+            "journal": "Journal of endocrinological investigation",
+            "year": "1989",
+            "authors": [
+              "Papalia D",
+              "Lunetta M",
+              "Di Mauro M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Blood Glucose",
+              "Body Weight",
+              "Female",
+              "Growth Hormone",
+              "Humans",
+              "Hydrocortisone",
+              "Insulin",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2693516/"
+          },
+          {
+            "pmid": "20811039",
+            "title": "Naloxone, but not valsartan, preserves responses to hypoglycemia after antecedent hypoglycemia: role of metabolic reprogramming in counterregulatory failure.",
+            "abstract": "Hypoglycemia-associated autonomic failure (HAAF) constitutes one of the main clinical obstacles to optimum treatment of type 1 diabetes. Neurons in the ventromedial hypothalamus are thought to mediate counterregulatory responses to hypoglycemia. We have previously hypothesized that hypoglycemia-induced hypothalamic angiotensin might contribute to HAAF, suggesting that the angiotensin blocker valsartan might prevent HAAF. On the other hand, clinical studies have demonstrated that the opioid receptor blocker naloxone ameliorates HAAF. The goal of this study was to generate novel hypothalamic markers of hypoglycemia and use them to assess mechanisms mediating HAAF and its reversal.",
+            "journal": "Diabetes",
+            "year": "2011",
+            "authors": [
+              "Poplawski Michal M",
+              "Mastaitis Jason W",
+              "Mobbs Charles V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiopoietin-Like Protein 4",
+              "Angiopoietins",
+              "Animals",
+              "Antihypertensive Agents",
+              "Apoptosis Regulatory Proteins",
+              "Blood Glucose",
+              "Carrier Proteins",
+              "Cyclin-Dependent Kinase Inhibitor p21",
+              "Glucose Transporter Type 2",
+              "Glycerolphosphate Dehydrogenase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20811039/"
+          },
+          {
+            "pmid": "39026458",
+            "title": "Effects of Intranasal Naloxone on Hypoglycemia-associated Autonomic Failure in Susceptible Individuals.",
+            "abstract": "Hypoglycemia-associated autonomic failure (HAAF), defined as blunting of counterregulatory hormone and symptom responses to recurrent hypoglycemia, remains a therapeutic challenge in diabetes treatment. The opioid system may play a role in HAAF pathogenesis since activation of opioid receptors induces HAAF. Blockade of opioid receptors with intravenous naloxone ameliorates HAAF experimentally yet is not feasible therapeutically.",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2025",
+            "authors": [
+              "Aleksic Sandra",
+              "Lontchi-Yimagou Eric",
+              "Mitchell William",
+              "Boyle Caroline",
+              "Matias Priyanka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Naloxone",
+              "Administration, Intranasal",
+              "Hypoglycemia",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Male",
+              "Female",
+              "Adult",
+              "Narcotic Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39026458/"
+          },
+          {
+            "pmid": "3061683",
+            "title": "Effects of naloxone on glucose and insulin regulation during endotoxicosis in fed and fasted rats.",
+            "abstract": "This study examined the effects of naloxone on glucose and insulin dyshomeostasis during endotoxicosis in ad libitum fed and overnight-fasted rats. Plasma glucose levels were measured in vivo to assess the effects of naloxone on glucose regulation during endotoxicosis. Naloxone's effects on endotoxin-induced portal and systemic hyperinsulinemia were evaluated in vivo. In addition, the ability of naloxone to alter the insulin hypersecretory state of the endotoxic pancreas was evaluated using the in vitro perfused rat pancreas preparation. Naloxone did not alter endotoxin-induced glucose dyshomeostasis in fasted rats, but potentiated hypoglycemia in fed, endotoxic rats. Naloxone potentiated endotoxin-induced hyperinsulinemia and insulin hypersecretion from the endotoxic pancreas in fed, but not fasted, rats. Thus the results indicated that naloxone had no apparent beneficial effects on glucose and insulin dyshomeostasis during endotoxicosis in either fed or fasted rats, and potentiated g",
+            "journal": "Circulatory shock",
+            "year": "1988",
+            "authors": [
+              "Yelich M R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Glucose",
+              "Fasting",
+              "In Vitro Techniques",
+              "Insulin",
+              "Insulin Secretion",
+              "Male",
+              "Naloxone",
+              "Pancreas",
+              "Perfusion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3061683/"
+          },
+          {
+            "pmid": "9158066",
+            "title": "Hypoglycemia-induced inhibition of LH and stimulation of ACTH secretion in the rhesus monkey is blocked by alprazolam.",
+            "abstract": "Insulin-induced hypoglycemia inhibits luteinizing hormone (LH) secretion and has been used as a model to study stress-induced inhibition of reproductive function. Endogenous opioid peptides have been implicated in mediating the inhibitory effect of hypoglycemia on LH secretion in sheep and rat. The objective of the present study was to determine if corticotropin-releasing hormone (CRH) and endogenous opiates are involved in the LH response to hypoglycemia in the nonhuman primate. Blood samples were collected at 15-min intervals for 6 h from ovariectomized rhesus monkeys (n = 6). Hypoglycemia was induced by injecting insulin 1 h after initiating blood collection. Animals were pretreated 15 min prior to insulin with either saline (n = 6), naloxone, a nonselective opiate receptor antagonist (n = 4), or alprazolam (n = 6), a potent benzodiazepine which has been shown to inhibit CRH. The LH, glucose, adrenocorticotropin (ACTH), and cortisol responses to insulin were determined. Insulin-indu",
+            "journal": "Neuroendocrinology",
+            "year": "1997",
+            "authors": [
+              "Van Vugt D A",
+              "Washburn D L",
+              "Farley A E",
+              "Reid R L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenocorticotropic Hormone",
+              "Alprazolam",
+              "Animals",
+              "Anti-Anxiety Agents",
+              "Corticotropin-Releasing Hormone",
+              "Female",
+              "Hypoglycemia",
+              "Insulin",
+              "Kinetics",
+              "Luteinizing Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9158066/"
+          },
+          {
+            "pmid": "31013147",
+            "title": "Repetitive hypoglycemia reduces activation of glucose-responsive neurons in C1 and C3 medullary brain regions to subsequent hypoglycemia.",
+            "abstract": "The impaired ability of the autonomic nervous system to respond to hypoglycemia is termed \"hypoglycemia-associated autonomic failure\" (HAAF). This life-threatening phenomenon results from at least two recent episodes of hypoglycemia, but the pathology underpinning HAAF remains largely unknown. Although naloxone appears to improve hypoglycemia counterregulation under controlled conditions, hypoglycemia prevention remains the current mainstay therapy for HAAF. Epinephrine-synthesizing neurons in the rostroventrolateral (C1) and dorsomedial (C3) medulla project to the subset of sympathetic preganglionic neurons that regulate peripheral epinephrine release. Here we determined whether or not C1 and C3 neuronal activation is impaired in HAAF and whether or not 1 wk of hypoglycemia prevention or treatment with naloxone could restore C1 and C3 neuronal activation and improve HAAF. Twenty male Sprague-Dawley rats (250-300 g) were used. Plasma epinephrine levels were significantly increased afte",
+            "journal": "American journal of physiology. Endocrinology and metabolism",
+            "year": "2019",
+            "authors": [
+              "Kakall Zohra M",
+              "Kavurma Mary M",
+              "Cohen E Myfanwy",
+              "Howe Peter R",
+              "Nedoboy Polina E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autonomic Nervous System",
+              "Autonomic Nervous System Diseases",
+              "Blood Glucose",
+              "Brain",
+              "Disease Models, Animal",
+              "Glucose",
+              "Hypoglycemia",
+              "Insulin",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31013147/"
+          },
+          {
+            "pmid": "6987258",
+            "title": "Failure of naloxone to influence plasma growth hormone, prolactin, and cortisol secretions induced by insulin hypoglycemia.",
+            "abstract": "The effect of naloxone, a specific antagonist of opioid peptides, on plasma, GH, PRL, and cortisol responses to insulin-induced hypoglycemia was studied in five healthy male subjects. The iv administration of regular insulin (0.15 U/kg) led to similar degrees of hypoglycemia on control and experimental days. Plasma GH, PRL, and cortisol levels rose significantly in response to insulin-induced hypoglycemia. A 2-h infusion of naloxone (0.8 mg/h) started 30 min before insulin injection did not alter either basal hormone levels or the hormone responses to insulin-induced hypoglycemia. These results suggest that endogenous opioid peptides do not play a major role in GH, PRL, or cortisol secretion induced by insulin hypoglycemia.",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1980",
+            "authors": [
+              "Wakabayashi I",
+              "Demura R",
+              "Miki N",
+              "Ohmura E",
+              "Miyoshi H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Endorphins",
+              "Growth Hormone",
+              "Humans",
+              "Hydrocortisone",
+              "Hypoglycemia",
+              "Insulin",
+              "Male",
+              "Naloxone",
+              "Prolactin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6987258/"
+          },
+          {
+            "pmid": "7715801",
+            "title": "Effects of naloxone, morphine and kappa-opioid receptor agonists on hypoxia/hypoglycemia-induced reduction of 2-deoxyglucose uptake in hippocampal slices from U-50,488H-tolerant rats.",
+            "abstract": "The aim of the present study was to determine whether U-50,488H and U-62,066E, kappa-opioid receptor agonists cause a neuroprotective action against hypoxia/hypoglycemia-induced reduction in 2-deoxyglucose (2-DG) uptake of hippocampal slices from U-50,488H-tolerant rats. Both U-50,488H and U-62,066E exhibited an attenuating effect on hypoxia/hypoglycemia-induced reduction in 2-DG uptake of hippocampal slices. Hypoxia/hypoglycemia-induced deficit of 2-DG uptake was prevented by cotreatment with naloxone, an opioid receptor antagonist, but potentiated by cotreatment with morphine, a mu-opioid receptor agonist. Chronic administration of U-50,488H resulted in the development of tolerance to the analgesic effect as well as the neuroprotective effect whereas this treatment affected neither basal- nor hypoxia/hypoglycemia-induced decreases in 2-DG uptake. Chronic administration of U-50,488H did not modify naloxone-induced attenuation of 2-DG uptake deficit but slightly potentiated the morphin",
+            "journal": "Neuroscience letters",
+            "year": "1994",
+            "authors": [
+              "Shibata S",
+              "Tominaga K",
+              "Watanabe S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "3,4-Dichloro-N-methyl-N-(2-(1-pyrrolidinyl)-cyclohexyl)-benzeneacetamide, (trans)-Isomer",
+              "Animals",
+              "Deoxyglucose",
+              "Hippocampus",
+              "Hypoglycemia",
+              "Hypoxia",
+              "Male",
+              "Morphine",
+              "Naloxone",
+              "Pyrrolidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7715801/"
+          },
+          {
+            "pmid": "22432130",
+            "title": "Cushing’s disease and melancholia.",
+            "abstract": "Striking similarities exist in the endocrinology of Cushing's disease and melancholic depression.Laboratory abnormalities, which have been found in both, include raised urinary,plasma and salivary cortisol, non-suppression of cortisol in the dexamethasone suppression test and adrenocorticotrophin (ACTH) hypersecretion. The hypercortisolism can be so severe in melancholic depression that it is difficult to distinguish from Cushing's disease and has been described as a \"pseudo-Cushing's\" state. Cerebrospinal fluid corticotrophin-releasing hormone (CRH) levels have been found to be lower in patients with Cushing's disease than in depressed subjects. Dynamic endocrine tests may help to distinguish between the two disorders.An exaggerated response to synacthen has been found in both but a reduced ACTH response to CRH occurs in depression, unlike those with Cushing's disease who show ACTH hyper-responsiveness. Other tests, which may help to distinguish between the two disorders,include the d",
+            "journal": "Stress (Amsterdam, Netherlands)",
+            "year": "2001",
+            "authors": [
+              "Condren R M",
+              "Thakore J H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenocorticotropic Hormone",
+              "Animals",
+              "Corticotropin-Releasing Hormone",
+              "Depressive Disorder",
+              "Diagnosis, Differential",
+              "Humans",
+              "Hydrocortisone",
+              "Hypothalamo-Hypophyseal System",
+              "Pituitary ACTH Hypersecretion",
+              "Pituitary Function Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22432130/"
+          },
+          {
+            "pmid": "26346210",
+            "title": "Safety and efficacy of intranasally administered medications in the emergency department and prehospital settings.",
+            "abstract": "The safety and efficacy of medications that may be administered via the intranasal route in adult patients in the prehospital and emergency department (ED) settings are reviewed.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2015",
+            "authors": [
+              "Corrigan Megan",
+              "Wilson Suprat Saely",
+              "Hampton Jeremy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Emergency Medical Services",
+              "Emergency Service, Hospital",
+              "Humans",
+              "Patient Safety",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26346210/"
+          },
+          {
+            "pmid": "25096956",
+            "title": "Tolerability and safety of the new anti-obesity medications.",
+            "abstract": "Worldwide obesity prevalence has nearly doubled since 1980. Due to numerous co-morbidities, obesity represents a serious health and socioeconomic problem worldwide. Pharmacotherapy should be an integral part of comprehensive obesity management. Drug therapy can assist in weight loss and its maintenance in those individuals who do not achieve appropriate weight loss through lifestyle interventions alone. After the withdrawal of sibutramine from the market in 2010, orlistat, a lipase inhibitor, was the only remaining prescription drug approved for the long-term treatment of obesity. In 2012, phentermine/topiramate extended-release (PHEN/TPM ER) combination and lorcaserin were approved by the US FDA as novel medications for long-term weight management. Three major phase III trials conducted with each drug confirmed their efficacy in terms of weight loss/maintenance and improvement of cardiometabolic risks. No head-to-head studies between the two new anti-obesity drugs have been carried ou",
+            "journal": "Drug safety",
+            "year": "2014",
+            "authors": [
+              "Hainer Vojtech",
+              "Aldhoon-Hainerová Irena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Obesity Agents",
+              "Benzazepines",
+              "Benzoxazines",
+              "Bupropion",
+              "Chemistry, Pharmaceutical",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Fructose",
+              "Glucagon-Like Peptide 1",
+              "Humans",
+              "Liraglutide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25096956/"
+          },
+          {
+            "pmid": "6343416",
+            "title": "Naloxone attenuates recovery from insulin-induced hypoglycemia in normal man.",
+            "abstract": "The effect of the opioid antagonist, naloxone, on recovery of serum glucose concentrations from insulin-induced (0.1 U/kg) hypoglycemia was determined in five normal adult men. Each subject was studied on 2 separate days, at least 2 weeks apart, during an infusion of either normal saline (6.5 ml/h) or naloxone (0.8 mg/h). The order of the infusions was randomized and double blinded. Although glucose recovery was complete by 120 min after insulin administration during each study, the fractional rate of glucose recovery as determined by analysis of covariance was significantly slower during the naloxone infusions (P = 0.008). Plasma glucagon, serum cortisol, and serum GH concentrations were not different during glucose recovery on either study day. These studies suggest that endogenous opioids contribute to glucose recovery from insulin-induced hypoglycemia and therefore may be important to glucose homeostasis in normal man.",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1983",
+            "authors": [
+              "Bright G M",
+              "Kaiser D L",
+              "Rogol A D",
+              "Clarke W L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Blood Glucose",
+              "Double-Blind Method",
+              "Glucagon",
+              "Growth Hormone",
+              "Homeostasis",
+              "Humans",
+              "Hydrocortisone",
+              "Hypoglycemia",
+              "Insulin",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6343416/"
+          },
+          {
+            "pmid": "7051049",
+            "title": "Naloxone suppresses insulin-induced food intake in novel and familiar environments, but does not affect hypoglycemia.",
+            "abstract": "The opiate antagonist naloxone reduced the food intake induced in rats by acute injection of insulin. The suppression was most marked in the first hour after insulin injection. Insulin provoked less food intake when rats were tested in a novel environment compared with those tested in their home cage, but naloxone again significantly suppressed the intake in the first hour. Naloxone had no effect upon insulin-induced hypoglycemia.",
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "1982",
+            "authors": [
+              "Rowland N",
+              "Bartness T J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Glucose",
+              "Eating",
+              "Insulin",
+              "Male",
+              "Muridae",
+              "Naloxone",
+              "Social Environment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7051049/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute pulmonary heart disease",
+        "txgnn_score": 0.808658242225647,
+        "txgnn_rank": 41407,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06366724",
+            "title": "LIFT: Life Improvement Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-09-10",
+            "completion_date": "2026-11",
+            "country": "United States",
+            "enrollment": 160,
+            "brief_summary": "The LIFT will be conducted at Brigham and Women's Hospital (BWH) of Harvard Medical School, focusing on the effect of Pyridostigmine (Mestinon) and Low-Dose Naltrexone (LDN) in subjects aged 18-70 meeting the Canadian consensus criteria (CCC) for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) as well as having specifically Orthostatic Intolerance (OI). Long COVID (LC) subjects will also be included if they meet CCC and have OI.\n\nThis double-blind, placebo-controlled study will invol",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Meet National Academy of Medicine Criteria, Canadian Consensus Criteria (See appendix), and demonstrate orthostatic intolerance for diagnosis of ME/CFS\n2. Participant is ≥ 18 and ≤ 70 years of age at screening, inclusive.\n3. The onset of symptoms prior to December 2023.\n4. Fe",
+            "endpoints": [
+              "Functional Capacity",
+              "Physiologic Response - Oxygen Uptake Efficiency Slope (OUES)",
+              "Physiologic Response - Oxygen Utilization (VO2)"
+            ],
+            "sponsor": "Brigham and Women's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06366724"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05430152",
+            "title": "A Double Blind Randomized Trial of Low-dose Naltrexone for Post-COVID Fatigue Syndrome",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-01-15",
+            "completion_date": "2025-08-16",
+            "country": "Canada",
+            "enrollment": 160,
+            "brief_summary": "This study aims to determine if low-dose naltrexone (LDN) reduces fatigue, improves related symptoms, and reduces inflammatory markers in peripheral blood in cases with Post-COVID-19 Fatigue Syndrome (PCFS) from COVID-19 (i.e. confirmed SARS-CoV-2 case). LDN refers to naltrexone given in doses of 1-4.5 mg. Overall, studies have found that LDN is safe and well-tolerated. It may help to reduce pain and inflammation and improve well-being and immune function.The trial will be conducted by the Compl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female patients ages 19 to less than 70 years\n2. Case of SARS-CoV-2 over 3 previously, confirmed by a positive test result or clinical confirmation by a physician\n3. Meet the clinical diagnostic criteria for PCFS\n4. Agree to maintain any other regular medications at ",
+            "endpoints": [
+              "Fatigue Intensity"
+            ],
+            "sponsor": "University of British Columbia",
+            "url": "https://clinicaltrials.gov/study/NCT05430152"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04756128",
+            "title": "Impact of Colchicine and Low-dose Naltrexone on COVID-19 Disease Progression and Clinical Course in Hospitalized Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-01-25",
+            "completion_date": "2021-12-12",
+            "country": "United States",
+            "enrollment": 142,
+            "brief_summary": "The purpose of this study is to explore the impact of two medications-colchicine and low-dose naltrexone (LDN)-relative to standard of care (SOC) on COVID-19 disease progression to severe/critical illness and/or intubation in patients hospitalized with moderate COVID-19. As researchers have learned, COVID-19's clinical course suggests that the hyperinflammatory response seen in severe/critical cases is involved in the pathogenesis of associated adverse sequelae such as acute respiratory distress",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and (non-pregnant, non-breastfeeding) females aged 18 years or older\n2. Requiring admission to Methodist or Regions Hospital due to laboratory-confirmed COVID-19\n3. Meets criteria of only up to moderate COVID-19 disease as defined by a clinical score of 2 or 3 at the tim",
+            "endpoints": [
+              "In Patients Hospitalized With Moderate COVID-19, the Impact of Colchicine and LDN, Alone or in Combination, on Achieving Disease Recovery by Day 5."
+            ],
+            "sponsor": "HealthPartners Institute",
+            "url": "https://clinicaltrials.gov/study/NCT04756128"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02222246",
+            "title": "Comparing Acute Pain Management Protocols for Patients With Sickle Cell Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-03-15",
+            "completion_date": "2016-06-30",
+            "country": "United States",
+            "enrollment": 106,
+            "brief_summary": "The goal of this pilot study is to improve emergency department (ED) pain management for adults with sickle cell disease. Sickle cell disease (SCD) is the most common genetic disorder in the United States, and occurs primarily among African Americans. Management of painful episodes associated with SCD, referred to as vaso-occlusive crises (VOC), is the most common reason for SCD patients to visit the ED. Currently, there is no standard approach to managing VOC pain in the ED that is widely accep",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult SCD patients with genotypes SS, SC, SB+, or SB-\n\nExclusion Criteria:\n\n* Patients with sickle cell trait\n* Allergic to both morphine sulfate and hydromorphone,\n* Patients who have an explicit care plan that states they cannot be admitted to the hospital for pain control,\n",
+            "endpoints": [
+              "Difference in Pain Score as Measured by a Visual Analogue Scale (VAS)"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT02222246"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24144776",
+            "title": "The large spectrum of pulmonary complications following illicit drug use: features and mechanisms.",
+            "abstract": "Damage to lungs may occur from systemic as well as inhalational exposure to various illegal drugs of abuse. Aspiration pneumonia probably represents the most common pulmonary complication in relation to consciousness impairment. Some pulmonary consequences may be specifically related to one given drug. Prolonged smoking of marijuana may result in respiratory symptoms suggestive of obstructive lung disease. Non-cardiogenic pulmonary edema has been attributed to heroin, despite debated mechanisms including attempted inspiration against a closed glottis, hypoxic damage to alveolar integrity, neurogenic vasoactive response to stress, and opiate-induced anaphylactoid reaction. Naloxone-related precipitated withdrawal resulting in massive sympathetic response with heart stunning has been mistakenly implicated. In crack users, acute respiratory syndromes called \"crack-lung\" with fever, hemoptysis, dyspnea, and pulmonary infiltration on chest X-rays have been reported up-to 48h after free-base",
+            "journal": "Chemico-biological interactions",
+            "year": "2013",
+            "authors": [
+              "Mégarbane Bruno",
+              "Chevillard Lucie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Administration, Intravenous",
+              "Community-Acquired Infections",
+              "Crack Cocaine",
+              "Heroin Dependence",
+              "Humans",
+              "Illicit Drugs",
+              "Lung Diseases",
+              "Lung Injury",
+              "Marijuana Smoking"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24144776/"
+          },
+          {
+            "pmid": "36081981",
+            "title": "A Peculiar Case of Fentanyl-Induced Cardiomyopathy.",
+            "abstract": "An alarming rise in prescription and non-prescription misuse of opioids has been observed recently, leading to potentially devastating consequences. Opioid misuse contributes to cardiac risk burden and can cause diseases such as acute coronary syndrome, congestive heart failure, arrhythmias, QTc prolongation, and endocarditis. Here, we describe the case of a 35-year-old male with recreational fentanyl use who was found to have a cardiogenic shock on point-of-care ultrasound (POCUS), likely due to fentanyl-induced cardiomyopathy. Opioid-induced cardiomyopathy without any underlying cardiac disease in an adult appears to be a rare case. Our case highlights the importance of promptly recognizing fentanyl toxicity, screening for possible cardiomyopathy secondary to its use, and emergent resuscitation with the maintenance of ventilation, diuretics, and vasopressor support. The use of the reversal agent, naloxone, is a crucial part of management.",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Badar Faraz",
+              "Ashraf Aqsa",
+              "Bhuiyan Md R",
+              "Bimal Tia",
+              "Iftikhar Asma"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36081981/"
+          },
+          {
+            "pmid": "32864562",
+            "title": "Basal Takotsubo syndrome with transient severe mitral regurgitation caused by drug use: a case report.",
+            "abstract": "Takotsubo syndrome (TTS) is a reversible cardiomyopathy. Little is known regarding its basal form and possible complications.",
+            "journal": "European heart journal. Case reports",
+            "year": "2020",
+            "authors": [
+              "Albenque Grégoire",
+              "Bohbot Yohann",
+              "Delpierre Quentin",
+              "Tribouilloy Christophe"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32864562/"
+          },
+          {
+            "pmid": "2379946",
+            "title": "Cardiac afferents attenuate renal sympathetic baroreceptor reflexes during acute hypertension.",
+            "abstract": "We have studied the effect of acute hypertensive episodes on the renal sympathetic baroreceptor reflex in conscious rabbits and the role played by cardiac afferents and endogenous opiate mechanisms. Renal sympathetic nerve activity was recorded during brief perivascular balloon-induced ramp changes in mean arterial pressure before and during 40-minute elevations in resting pressure. Methoxamine infusion was adjusted to increase pressure by +30 and +45 mm Hg in the presence of autonomic blockade of the heart with atenolol and methscopolamine. Experiments were repeated in other rabbits after blocking cardiac afferents with 5% intrapericardial procaine or during intravenous naloxone (4-6 mg/kg, then 0.12 mg/kg/min). We found a progressively severe attenuation of the renal sympathetic baroreceptor reflex during increasing elevations in resting pressure. The upper plateau and range of the reflex curve were both reduced by one third and two thirds during moderate and severe hypertension, res",
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "1990",
+            "authors": [
+              "Dorward P K",
+              "Bell L B",
+              "Rudd C D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Animals",
+              "Heart",
+              "Hypertension",
+              "Kidney",
+              "Naloxone",
+              "Pressoreceptors",
+              "Rabbits",
+              "Reflex",
+              "Sympathetic Nervous System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2379946/"
+          },
+          {
+            "pmid": "11311734",
+            "title": "Opioid peptides attenuate blood pressure increase in acute respiratory failure.",
+            "abstract": "Plasma opioid peptides, norepinephrine, atrial natriuretic factor (ANF) and blood pressure (BP) were assessed in 24 chronic obstructive pulmonary disease patients with acute respiratory failure. Hypoxemic-hypercapnic patients had high BP, beta-endorphin, Met-enkephalin and dynorphin B, whereas hypoxemic-normocapnic and hypoxemic-hypocapnic patients showed normal BP, high beta-endorphin, and normal Met-enkephalin and dynorphin B. Norepinephrine and ANF were high in all patients, particularly in hypoxemic-hypercapnic patients. Infusion with the opioid antagonist naloxone hydrochloride significantly increased systolic blood pressure (SBP) in hypoxemic-hypercapnic (182.0 +/- 3.2 versus 205.1 +/- 3.0 mmHg; P < 0.01), hypoxemic-normocapnic (149.3 +/- 1.8 versus 169.1 +/- 2.2 mmHg; P < 0.01) and hypoxemic-hypocapnic (147.3 +/- 1.3 versus 166.8 +/- 2.2 mmHg; P < 0.01) patients, norepinephrine in hypoxemic-hypercapnic patients (3583.2 +/- 371.8 versus 5371.3 +/- 260.0 fmol/ml; P < 0.01), and re",
+            "journal": "Peptides",
+            "year": "2001",
+            "authors": [
+              "Fontana F",
+              "Bernardi P",
+              "Tartuferi L",
+              "Boschi S",
+              "Di Toro R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Atrial Natriuretic Factor",
+              "Blood Pressure",
+              "Female",
+              "Heart Rate",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11311734/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced dyskinesia",
+        "txgnn_score": 0.8064140677452087,
+        "txgnn_rank": 41538,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "6779305",
+            "title": "Enkephalin, morphine, and naloxone in tardive dyskinesia.",
+            "abstract": "Eight psychiatric patients with tardive dyskinesia (TD) were treated with single doses of the synthetic met-enkephalin analogue FK 33-824 (1, 2, and 3 mg IM) morphine (10 mg SC) and naloxone, an opiate receptor antagonist (0.8 mg IM). The drug effects were assessed by blind evaluation of randomly sequenced videotapes made before and during treatment. FK 33-824 (1, 2, and 3 mg IM) slightly reduced TD (P < 0.05) and increased preexisting bradykinesia. The effect on TD, however, was pronounced only in patients concurrently treated with neuroleptics in relatively high doses. Morphine had a similar although weaker antihyperkinetic effect, whereas naloxone had no effect. Side effects of FK 33-824 included dizziness, heaviness in the extremities, slurred speech, and dryness of mouth. Morphine caused drowsiness, dizziness, ataxia, and nausea, and naloxone had no side effects. The results do not point to a primary role of enkephalin in the pathophysiology of TD, but enkephalin may interact with",
+            "journal": "Psychopharmacology",
+            "year": "1980",
+            "authors": [
+              "Bjørndal N",
+              "Casey D E",
+              "Gerlach J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Clinical Trials as Topic",
+              "D-Ala(2),MePhe(4),Met(0)-ol-enkephalin",
+              "Double-Blind Method",
+              "Dyskinesia, Drug-Induced",
+              "Endorphins",
+              "Enkephalins",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6779305/"
+          },
+          {
+            "pmid": "12373562",
+            "title": "Naloxone reduces levodopa-induced dyskinesias and apomorphine-induced rotations in primate models of parkinsonism.",
+            "abstract": "Using in situ hybridization, it was found that subchronic treatment with levodopa/benserazide increased preproenkephalin-A and preproenkephalin-B mRNAs in the dopamine-depleted striatum. In order to examine whether dysfunction of the endogenous opioid system may underlie the development of levodopa-induced dyskinesias, the effect of naloxone, an opioid antagonist, on dyskinesias was investigated in two models of parkinsonism in the common marmoset. MPTP-treated monkeys were administered a daily oral dose of levodopa/benserazide which relieved the parkinsonian symptoms but induced severe and reproducible dyskinetic movements. Naloxone (0.1, 0.2 or 0.5 mg/kg) was given subcutaneously (s.c.) during peak-dose dyskinesia, which reduced the dyskinesias significantly using the highest dose, normalized the motor activity, but did not modify the antiparkinson effect. Unilaterally 6-OHDA -lesioned marmosets received apomorphine s.c., which caused a contralateral turning behavior that could be re",
+            "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+            "year": "2002",
+            "authors": [
+              "Klintenberg R",
+              "Svenningsson P",
+              "Gunne L",
+              "Andrén P E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine",
+              "Animals",
+              "Benserazide",
+              "Callithrix",
+              "Dopamine",
+              "Dopamine Agents",
+              "Dopamine Antagonists",
+              "Dyskinesia, Drug-Induced",
+              "Enkephalins",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12373562/"
+          },
+          {
+            "pmid": "11520128",
+            "title": "Mu- and delta-opioid receptor antagonists reduce levodopa-induced dyskinesia in the MPTP-lesioned primate model of Parkinson's disease.",
+            "abstract": "Long-term treatment of Parkinson's disease with levodopa is complicated by the emergence of involuntary movements, known as levodopa-induced dyskinesia. It has been hypothesized that increased opioid transmission in striatal output pathways may be responsible for the generation of dyskinesia. In this study, we have investigated the effect of blockade of opioid peptide transmission on levodopa-induced dyskinesia in a primate model of Parkinson's disease-the MPTP-lesioned marmoset. Coadministration of nonselective and mu- or delta-subtype-selective opioid receptor antagonists with levodopa resulted in a significant decrease in dyskinesia. There was no attenuation of the anti-parkinsonian actions of levodopa. These data suggest that specific mu- or delta-opioid receptor antagonists might be applicable clinically in the treatment of levodopa-induced dyskinesia in Parkinson's disease.",
+            "journal": "Experimental neurology",
+            "year": "2001",
+            "authors": [
+              "Henry B",
+              "Fox S H",
+              "Crossman A R",
+              "Brotchie J M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine",
+              "Animals",
+              "Callithrix",
+              "Disease Models, Animal",
+              "Drug Therapy, Combination",
+              "Dyskinesias",
+              "Female",
+              "Hypokinesia",
+              "Levodopa",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11520128/"
+          },
+          {
+            "pmid": "4063426",
+            "title": "Naloxone and tardive dyskinesia.",
+            "abstract": "",
+            "journal": "Biological psychiatry",
+            "year": "1985",
+            "authors": [
+              "Sandyk R",
+              "Snider S R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dyskinesia, Drug-Induced",
+              "Hallucinations",
+              "Humans",
+              "Male",
+              "Naloxone",
+              "Schizophrenia, Paranoid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4063426/"
+          },
+          {
+            "pmid": "16874752",
+            "title": "Translation of nondopaminergic treatments for levodopa-induced dyskinesia from MPTP-lesioned nonhuman primates to phase IIa clinical studies: keys to success and roads to failure.",
+            "abstract": "Studies in MPTP-lesioned nonhuman primates have demonstrated the potential of nondopaminergic drugs in reducing the problems of levodopa-induced dyskinesia (LID). Here we review the process of translating findings from the monkey to man. Agents targeting glutamate, adensosine, noradrenaline, 5-hydroxytryptamine, cannabinoid, and opioid transmitter systems have been assessed for antidyskinetic potential in human studies. Eleven nondopaminergic drugs with antidyskinetic efficacy in the MPTP primate have been advanced to proof-of-concept phase IIa trials in PD patients (amantadine, istradefylline, idazoxan, fipamezole, sarizotan, quetiapine, clozapine, nabilone, rimonabant, naloxone, and naltrexone). For all six nondopaminergic transmitter systems reviewed, the MPTP-lesioned primate correctly predicted phase II efficacy of at least one drug. Of the 11 specific molecules tested in both monkeys and humans, 8 showed clear antidyskinetic properties in both human and monkey. In the instances w",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2006",
+            "authors": [
+              "Fox Susan H",
+              "Lang Anthony E",
+              "Brotchie Jonathan M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine",
+              "Animals",
+              "Antiparkinson Agents",
+              "Basal Ganglia",
+              "Clinical Trials, Phase II as Topic",
+              "Drug Evaluation, Preclinical",
+              "Drugs, Investigational",
+              "Dyskinesia, Drug-Induced",
+              "Haplorhini",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16874752/"
+          },
+          {
+            "pmid": "12804390",
+            "title": "Miscellaneous treatments for neuroleptic-induced tardive dyskinesia.",
+            "abstract": "Tardive dyskinesia is a disabling movement disorder associated with the prolonged use of neuroleptic medication. This review, one in a series examining the treatment of tardive dyskinesia, will cover miscellaneous treatments not covered elsewhere.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2003",
+            "authors": [
+              "Soares-Weiser K V",
+              "Joy C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12804390/"
+          },
+          {
+            "pmid": "6273940",
+            "title": "Tetrahydrocannabinol potentiates reserpine-induced hypokinesia.",
+            "abstract": "Delta-9-tetrahydrocannabinol (THC), a substance in marihuana, was found to produce a profound potentiation of reserpine-induced hypokinesia in rats as measured with a bar test. In these experiments, THC had no hypokinetic effect by itself but produced a more than 20-fold increase in the hypokinesia produced by reserpine. Reserpine-induced hypokinesia has been viewed as animal model of Parkinson's Disease. THC potentiation of reserpine-induced hypokinesia was observed to be both time- and dose-dependent (1 to 10 mg/kg THC). When administered by gavage to reserpine-pretreated subjects (7.5 mg/kg IP, 24 hours before), THC produced a potentiation of hypokinesia that developed fully within 1 hour, lasted at least 5 hours, and was absent by 12 hours after THC administration. This THC effect was slightly increased by physostigmine, a cholinesterase inhibitor, relatively unaffected by scopolamine, a muscarinic antagonist, and almost completely blocked by ethopropazine, an anticholinergic antip",
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "1981",
+            "authors": [
+              "Moss D E",
+              "McMaster S B",
+              "Rogers J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiparkinson Agents",
+              "Catalepsy",
+              "Dose-Response Relationship, Drug",
+              "Dronabinol",
+              "Drug Synergism",
+              "Humans",
+              "Male",
+              "Motor Activity",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6273940/"
+          },
+          {
+            "pmid": "10796325",
+            "title": "Miscellaneous treatments for neuroleptic-induced tardive dyskinesia.",
+            "abstract": "Tardive dyskinesia (TD) is a disabling movement disorder associated with the prolonged use of neuroleptic medication. This review, one in a series examining the treatment of tardive dyskinesia, will cover miscellaneous treatments not covered elsewhere.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2000",
+            "authors": [
+              "McGrath J J",
+              "Soares K V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Dyskinesia, Drug-Induced",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10796325/"
+          },
+          {
+            "pmid": "6298849",
+            "title": "Naloxone, tardive dyskinesia, and endogenous beta-endorphin.",
+            "abstract": "The subjects were 13 psychiatric inpatients with tardive dyskinesia. Each subject participated in two sessions. Either naloxone (10 mg) or placebo was administered intravenously during each session. In a subset of subjects (n = 7), blood samples for beta-endorphin were drawn before and at 30 and 60 minutes after the injection. The Abnormal Involuntary Movement Scale was administered before and at 10, 20, 40, 60, 120, and 360 minutes after the injection. Double-blind procedures were maintained throughout the experiment. Neither naloxone nor placebo had any appreciable effect on the involuntary movements. Naloxone elicited a significant increase in the plasma beta-endorphin.",
+            "journal": "Psychiatry research",
+            "year": "1982",
+            "authors": [
+              "Reker D",
+              "Anderson B",
+              "Yackulic C",
+              "Cooper T B",
+              "Banay-Schwartz M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Affective Disorders, Psychotic",
+              "Aged",
+              "Dyskinesia, Drug-Induced",
+              "Endorphins",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Naloxone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6298849/"
+          },
+          {
+            "pmid": "3070611",
+            "title": "High-dose naloxone in tardive dyskinesia.",
+            "abstract": "Tardive dyskinesia (TD) is thought to result from nigrostriatal dopaminergic supersensitivity secondary to prolonged neuroleptic exposure. Preclinical studies have demonstrated that the opiate antagonist naloxone can acutely reverse a haloperidol-induced hyperdopaminergic state. In a trial of high-dose naloxone, 20 patients with TD received i.v. naloxone (20 mg, 40 mg, and placebo) under double-blind conditions. At baseline and at regular postdrug intervals, patients were evaluated using a battery of motor, clinical, and neuropsychological measures to study effects on neurological, behavioral, and cognitive functions. There was a significant improvement in involuntary movements at 30 min postnaloxone, together with improvement in clinical ratings at that time point, as well as some cognitive changes. The implications of these findings for the putative functional relationship between dopaminergic and enkephalinergic systems in the nigrostriatal area are discussed.",
+            "journal": "Psychiatry research",
+            "year": "1988",
+            "authors": [
+              "Lindenmayer J P",
+              "Gardner E",
+              "Goldberg E",
+              "Opler L A",
+              "Kay S R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Humans",
+              "Male",
+              "Mental Recall",
+              "Middle Aged",
+              "Motor Skills"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3070611/"
+          },
+          {
+            "pmid": "6760771",
+            "title": "Naloxone and naltrexone in mental illness and tardive dyskinesia.",
+            "abstract": "",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1982",
+            "authors": [
+              "Volavka J",
+              "Anderson B",
+              "Koz G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Clinical Trials as Topic",
+              "Dyskinesia, Drug-Induced",
+              "Endorphins",
+              "Humans",
+              "Mood Disorders",
+              "Naloxone",
+              "Naltrexone",
+              "Rats",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6760771/"
+          },
+          {
+            "pmid": "22722025",
+            "title": "Pharmacological modulation of amphetamine-induced dyskinesia in transplanted hemi-parkinsonian rats.",
+            "abstract": "Foetal cell transplantation in patients with Parkinson's disease can induce motor complications independent of L-DOPA administration, known as graft-induced dyskinesia. In the 6-OHDA lesioned rat model of Parkinson's disease, post-transplantation abnormal movements can develop in response to an amphetamine challenge, a behaviour which is used to model graft-induced dyskinesia. Although L-DOPA-induced dyskinesia has been well characterised pharmacologically, we lack knowledge on the modulation of post-transplantation amphetamine-induced dyskinesia which may shed light on the mechanisms underlying graft-induced dyskinesia. We assessed a series of drugs effective at reducing L-DOPA-induced dyskinesia against post-transplantation amphetamine-induced dyskinesia. Agents include: dopaminergic antagonists (D₁: CP94253; D₂: SCH-22390; D₃: nafadotride), serotonergic agonists (5-HT(1A): 8-OH-DPAT; 5-HT(1B): CP94253), opioid antagonist (μ: naloxone), cannabinoid agonist (CB₁: WIN55, 212-2), adrene",
+            "journal": "Neuropharmacology",
+            "year": "2012",
+            "authors": [
+              "Smith Gaynor A",
+              "Breger Ludivine S",
+              "Lane Emma L",
+              "Dunnett Stephen B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Dyskinesia Agents",
+              "Cell Transplantation",
+              "Disease Models, Animal",
+              "Dopamine Antagonists",
+              "Dopamine Uptake Inhibitors",
+              "Dose-Response Relationship, Drug",
+              "Dyskinesia, Drug-Induced",
+              "Dyskinesias",
+              "Excitatory Amino Acid Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22722025/"
+          },
+          {
+            "pmid": "21598866",
+            "title": "Drug therapies for tardive dyskinesia: Part 1.",
+            "abstract": "Blocking dopamine (DA) receptors in the basal ganglia can cause parkinsonian symptoms, acute dystonia, akathisia, tardive dyskinesia (TD), and neuroleptic malignant syndrome. TD is characterized by abnormal, involuntary, irregular motor movements involving muscles of the head, limbs, or trunk. Many drug therapies have been tried for TD, but none are approved by the U.S. Food and Drug Administration. The second-generation antipsychotic drugs should be considered as a treatment of first choice for clinically significant TD, because they will also be potentially effective as a primary treatment for the underlying disorder. Dopamine-depleting drugs are effective for TD, but their practical use is severely limited because of tolerability and safety concerns. Various DA-modulating drugs have been tried; clinical evidence of efficacy suggests that amantadine (Symmetrel®) and naloxone (Narcan®) are worthwhile to try. Although efficacy evidence for buspirone (Buspar®) in TD is limited, this dru",
+            "journal": "Journal of psychosocial nursing and mental health services",
+            "year": "2011",
+            "authors": [
+              "Howland Robert H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amantadine",
+              "Antipsychotic Agents",
+              "Buspirone",
+              "Dopamine Agents",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Movement Disorders",
+              "Naloxone",
+              "Narcotic Antagonists",
+              "Serotonin Receptor Agonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21598866/"
+          },
+          {
+            "pmid": "21465551",
+            "title": "The selective mu-opioid receptor antagonist ADL5510 reduces levodopa-induced dyskinesia without affecting antiparkinsonian action in MPTP-lesioned macaque model of Parkinson's disease.",
+            "abstract": "In Parkinson's disease (PD), dyskinesia develops following long-term treatment with 3,4-dihydroxyphenylalanine (L-dopa). Given the prominent role of the opioid system in basal ganglia function, nonselective opioid receptor antagonists have been tested for antidyskinetic efficacy in the clinic (naltrexone and naloxone), although without success. In the current study, ADL5510, a novel, orally active opioid antagonist with mu opioid receptor selectivity, was examined in L-dopa-treated 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) macaques. Antidyskinetic effects were compared with those of naltrexone. Parkinsonian monkeys with established L-dopa-induced dyskinesia (LID) received acute challenges with L-dopa (subcutaneously) in combination with either vehicle, ADL5510 (0.1, 1, 3 or 10 mg/kg by mouth), or naltrexone (1, 3, or 10 mg/kg subcutaneously). Following treatments, behavior was monitored for 6 hours. Parameters assessed were total activity, parkinsonism, and dyskinesia. ADL551",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2011",
+            "authors": [
+              "Koprich James B",
+              "Fox Susan H",
+              "Johnston Tom H",
+              "Goodman Allan",
+              "Le Bourdonnec Bertrand"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiparkinson Agents",
+              "CHO Cells",
+              "Cricetinae",
+              "Cricetulus",
+              "Disease Models, Animal",
+              "Drug Interactions",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21465551/"
+          },
+          {
+            "pmid": "38889877",
+            "title": "Differential effects of opioid receptor antagonism on the anti-dyskinetic and anti-parkinsonian effects of sub-anesthetic ketamine treatment in a preclinical model.",
+            "abstract": "Sub-anesthetic ketamine treatment has been shown to be an effective therapy for treatment-resistant depression and chronic pain. Our group has previously shown that sub-anesthetic ketamine produces acute anti-parkinsonian, and acute anti-dyskinetic effects in preclinical models of Parkinson's disease (PD). Ketamine is a multifunctional drug and exerts effects through blockade of N-methyl-d-aspartate receptors but also through interaction with the opioid system. In this report, we provide detailed pharmacokinetic rodent data on ketamine and its main metabolites following an intraperitoneal injection, and second, we explore the pharmacodynamic properties of ketamine in a rodent PD model with respect to the opioid system, using naloxone, a pan-opioid receptor antagonist, in unilateral 6-hydroxydopamine-lesioned male rats, treated with 6 mg/kg levodopa (l-DOPA) to establish a model of l-DOPA-induced dyskinesia (LID). As previously reported, we showed that ketamine (20 mg/kg) is highly effi",
+            "journal": "Neuropharmacology",
+            "year": "2024",
+            "authors": [
+              "Stopera Carolyn J",
+              "Bartlett Mitchell J",
+              "Liu Chenxi",
+              "Esqueda Alexander",
+              "Parmar Raveena"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ketamine",
+              "Animals",
+              "Male",
+              "Dyskinesia, Drug-Induced",
+              "Rats",
+              "Levodopa",
+              "Antiparkinson Agents",
+              "Narcotic Antagonists",
+              "Oxidopamine",
+              "Naloxone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38889877/"
+          },
+          {
+            "pmid": "8780117",
+            "title": "Naloxone-induced seizures in rats infected with Borna disease virus.",
+            "abstract": "The opioid antagonist naloxone is widely used in the emergency treatment of nontraumatic coma. Although it is uncommon for serious side effects to result from administration of opiate antagonists, we report that naloxone can have epileptogenic effects in the context of encephalitis. In an experimental model of viral encephalitis, rats infected with Borna disease virus developed myoclonic, generalized clonic, or atonic seizures; behavior arrest; and staring spells when treated with naloxone. These findings suggest a novel neuropharmacologic link, through opioid peptide systems, between epilepsy and encephalitis and disclose a potential contraindication to use of opioid antagonists in nontraumatic coma.",
+            "journal": "Neurology",
+            "year": "1996",
+            "authors": [
+              "Solbrig M V",
+              "Koob G F",
+              "Lipkin W I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Borna Disease",
+              "Contraindications",
+              "Dyskinesia, Drug-Induced",
+              "Encephalitis, Viral",
+              "Male",
+              "Naloxone",
+              "Rats",
+              "Rats, Inbred Lew",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8780117/"
+          },
+          {
+            "pmid": "15232337",
+            "title": "Naltrexone treatment of tardive dyskinesia in patients with schizophrenia.",
+            "abstract": "Treatment of dyskinetic disorders, in general, and of tardive dyskinesia (TD), in particular, is difficult. The opiate peptide enkephalin coexits with gamma aminobutyric acid in the projection neurons of striatum forming the \"indirect\" pathway. Several lines of preclinical evidence implicate this enkephalin-comediated pathway in the pathophysiology and therapeutics of dyskinesia. However, previous studies, most using relatively low doses of opioid antagonists, showed mixed results. The goal of the current study was to test whether moderately high doses of naltrexone, alone or in combination with a subtherapeutic dose of a gamma aminobutyric acid agonist, improve TD.",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2004",
+            "authors": [
+              "Wonodi Ikwunga",
+              "Adami Helene",
+              "Sherr Jay",
+              "Avila Matthew",
+              "Hong L Elliot"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analysis of Variance",
+              "Antipsychotic Agents",
+              "Clonazepam",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15232337/"
+          },
+          {
+            "pmid": "11860512",
+            "title": "Pharmacological validation of behavioural measures of akinesia and dyskinesia in a rat model of Parkinson's disease.",
+            "abstract": "In an attempt to define clinically relevant models of akinesia and dyskinesia in 6-hydroxydopamine (6-OHDA)-lesioned rats, we have examined the effects of drugs with high (L-DOPA) vs. low (bromocriptine) dyskinesiogenic potential in Parkinson's disease on three types of motor performance, namely: (i) abnormal involuntary movements (AIMs) (ii) rotational behaviour, and (iii) spontaneous forelimb use (cylinder test). Rats with unilateral 6-OHDA lesions received single daily i.p. injections of L-DOPA or bromocriptine at therapeutic doses. During 3 weeks of treatment, L-DOPA but not bromocriptine induced increasingly severe AIMs affecting the limb, trunk and orofacial region. Rotational behaviour was induced to a much higher extent by bromocriptine than L-DOPA. In the cylinder test, the two drugs initially improved the performance of the parkinsonian limb to a similar extent. However, L-DOPA-treated animals showed declining levels of performance in this test because the drug-induced AIMs i",
+            "journal": "The European journal of neuroscience",
+            "year": "2002",
+            "authors": [
+              "Lundblad M",
+              "Andersson M",
+              "Winkler C",
+              "Kirik D",
+              "Wierup N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Dyskinesia Agents",
+              "Antiparkinson Agents",
+              "Behavior, Animal",
+              "Bromocriptine",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Gait",
+              "Levodopa",
+              "Motor Activity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11860512/"
+          },
+          {
+            "pmid": "2996642",
+            "title": "Dopamine and the action of opiates: a reevaluation of the dopamine hypothesis of schizophrenia. With special consideration of the role of endogenous opioids in the pathogenesis of schizophrenia.",
+            "abstract": "It is suggested that the antipsychotic efficacy of opioids in patients suffering from schizophrenia may result from an interaction of opioids with the dopaminergic system. The modulatory effect of opioids on dopaminergic functions has already been demonstrated in basic experiments: Anatomical and biochemical data reveal an interaction between opioid receptors and dopamine (DA) actions on dopaminergic nerve terminals, cell bodies, and afferent nerve endings. Endogenous enkephalin levels correlate well with the endogenous dopamine content in various brain areas. Systemic or iontophoretic administration of morphine alters the spontaneous activity of ventral tegmental dopaminergic neurons. Morphine and enkephalin effectively enhance pituitary prolactin release, whereas dopamine inhibits it. Opioid agonists effectively alter DA release, DA reuptake, and DA metabolism in the striatum and substantia nigra. In reverse, chronic neuroleptic treatment enhances the synthesis and release of pituita",
+            "journal": "Biological psychiatry",
+            "year": "1985",
+            "authors": [
+              "Schmauss C",
+              "Emrich H M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Corpus Striatum",
+              "Dopamine",
+              "Dyskinesia, Drug-Induced",
+              "Endorphins",
+              "Humans",
+              "Hypothalamo-Hypophyseal System",
+              "Hypothalamus",
+              "Morphine",
+              "Naloxone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2996642/"
+          },
+          {
+            "pmid": "7901759",
+            "title": "The opiate antagonist naloxone suppresses a rodent model of tardive dyskinesia.",
+            "abstract": "The effects of both opiate agonists and the opiate antagonist naloxone were examined in a rodent model of tardive dyskinesia (TD). Chronic (approximately 20 weeks) administration of fluphenazine resulted in the emergence of vacuous chewing mouth movements (VCMs), a response which may be a useful model for this disorder. Fluphenazine-induced VCMs were not affected by a variety of selective opiate agonists administered intracerebroventricularly, but were potently suppressed by subcutaneous administration of the opiate antagonist naloxone. These findings suggest that increased opiate transmission may contribute to the pathogenesis of TD. Further investigation of the role of opiate antagonists in treating this disorder are warranted.",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "1993",
+            "authors": [
+              "Stoessl A J",
+              "Polanski E",
+              "Frydryszak H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antipsychotic Agents",
+              "Dyskinesia, Drug-Induced",
+              "Fluphenazine",
+              "Locomotion",
+              "Male",
+              "Mastication",
+              "Naloxone",
+              "Narcotics",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7901759/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.8062360286712646,
+        "txgnn_rank": 41549,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01183",
+    "name": "Naloxone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Naloxone"
+      },
+      "queried_at": "2026-03-10T08:20:57.505069",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Naloxone"
+      },
+      "queried_at": "2026-03-10T08:21:00.768107",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "continuous spikes and waves during sleep"
+      },
+      "queried_at": "2026-03-10T08:21:01.605250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "continuous spikes and waves during sleep"
+      },
+      "queried_at": "2026-03-10T08:21:04.477643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "continuous spikes and waves during sleep"
+      },
+      "queried_at": "2026-03-10T08:21:05.320645",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "lissencephaly with cerebellar hypoplasia"
+      },
+      "queried_at": "2026-03-10T08:21:06.009345",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "lissencephaly with cerebellar hypoplasia"
+      },
+      "queried_at": "2026-03-10T08:21:09.327640",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "lissencephaly with cerebellar hypoplasia"
+      },
+      "queried_at": "2026-03-10T08:21:10.058758",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "progressive encephalopathy with leukodystrophy due to DECR deficiency"
+      },
+      "queried_at": "2026-03-10T08:21:10.909772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "progressive encephalopathy with leukodystrophy due to DECR deficiency"
+      },
+      "queried_at": "2026-03-10T08:21:14.271429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "progressive encephalopathy with leukodystrophy due to DECR deficiency"
+      },
+      "queried_at": "2026-03-10T08:21:16.012729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "schizophreniform disorder"
+      },
+      "queried_at": "2026-03-10T08:21:17.218895",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "schizophreniform disorder"
+      },
+      "queried_at": "2026-03-10T08:21:22.183166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "schizophreniform disorder"
+      },
+      "queried_at": "2026-03-10T08:21:26.170664",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T08:21:29.258235",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T08:21:32.823848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T08:21:36.112259",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "psychotic disorder"
+      },
+      "queried_at": "2026-03-10T08:21:39.868120",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "psychotic disorder"
+      },
+      "queried_at": "2026-03-10T08:21:43.453330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "psychotic disorder"
+      },
+      "queried_at": "2026-03-10T08:21:48.160902",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "hypoglycemia"
+      },
+      "queried_at": "2026-03-10T08:21:49.759605",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "hypoglycemia"
+      },
+      "queried_at": "2026-03-10T08:21:53.107606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "hypoglycemia"
+      },
+      "queried_at": "2026-03-10T08:21:56.381667",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T08:21:57.669280",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T08:22:00.558318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T08:22:03.080585",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "drug-induced dyskinesia"
+      },
+      "queried_at": "2026-03-10T08:22:03.892462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "drug-induced dyskinesia"
+      },
+      "queried_at": "2026-03-10T08:22:06.828185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "drug-induced dyskinesia"
+      },
+      "queried_at": "2026-03-10T08:22:09.123143",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T08:22:10.026576",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T08:22:14.042038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Naloxone",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T08:22:14.772149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:22:14.779906"
+  }
+}

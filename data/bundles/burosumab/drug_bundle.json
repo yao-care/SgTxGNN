@@ -1,0 +1,826 @@
+{
+  "drug": {
+    "inn": "Burosumab",
+    "drugbank_id": "DB14012",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "renal osteodystrophy",
+        "txgnn_score": 0.9693437814712524,
+        "txgnn_rank": 21506,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37927073",
+            "title": "Diagnostic and New Therapeutic Approaches to Two Challenging Pediatric Metabolic Bone Disorders: Hypophosphatasia and X-linked Hypophosphatemic Rickets.",
+            "abstract": "The diagnosis and management of metabolic bone disease among children can be challenging. This difficulty could be due to many factors, including limited awareness of these rare conditions, the complex pathophysiology of calcium and phosphate homeostasis, the overlapping phenotype with more common disorders (such as rickets), and the lack of specific treatments for these rare disorders. As a result, affected individuals could experience delayed diagnosis or misdiagnosis, leading to improper management. In this review, we describe the challenges facing diagnostic and therapeutic approaches to two metabolic bone disorders (MBD) among children: hypophosphatasia (HPP) and X-linked hypophosphatemia (XLH). We focus on explaining the pathophysiological processes that conceptually underpin novel therapeutic approaches, as well as these conditions' clinical or radiological similarity to nutritional rickets. Particularly in areas with limited sun exposure and among patients not supplementing vit",
+            "journal": "Current pediatric reviews",
+            "year": "2024",
+            "authors": [
+              "Aljuraibah Fahad",
+              "Alalwan Ibrahim",
+              "Habeb Abdelhadi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypophosphatasia",
+              "Familial Hypophosphatemic Rickets",
+              "Child",
+              "Fibroblast Growth Factor-23",
+              "Antibodies, Monoclonal, Humanized",
+              "Alkaline Phosphatase",
+              "Immunoglobulin G",
+              "Recombinant Fusion Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37927073/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "impaired renal function disease",
+        "txgnn_score": 0.9591630697250366,
+        "txgnn_rank": 24496,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06921720",
+            "title": "ATP (Adenosine Triphosphate) Concentration Measurement by Phosphorus-31 Spectroscopy in Phosphate Diabetes",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-05-01",
+            "completion_date": "2027-05-01",
+            "country": "France",
+            "enrollment": 65,
+            "brief_summary": "Phosphate diabetes is defined by urinary phosphate wasting due to impaired tubular reabsorption. It can be classified based on either a genetic or acquired origin. Chronic hypophosphatemia causes rickets in children, leading to growth disorders, bone deformities, and bone pain. In adults, it results in osteomalacia, pseudofractures, as well as muscle fatigue and weakness during exertion.\n\nX-linked hypophosphatemia (XLH) is a common cause of hereditary rickets linked to renal phosphate loss due t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Inclusion Criteria for Patients:\n* Patient ≥ 10 years old with phosphate diabetes, i.e., genetically confirmed XLH or phosphate diabetes of another origin characterized by hypophosphatemia with a decreased Tm/GFR.\n* Patient has given consent to participate in the study.\n* Sign",
+            "endpoints": [
+              "Difference in intra-muscular ATP values [ATPi] (measured by 31P-MRS) at rest and during standardized exercise in patients with phosphate diabetes."
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT06921720"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32701599",
+            "title": "Burosumab in X-linked hypophosphatemia and perspective for chronic kidney disease.",
+            "abstract": "Perturbations in phosphate and vitamin D homeostasis impacts skeletal health in children and adults. Study of inherited and acquired hypophosphatemic syndromes led to the discovery of fibroblast growth factor 23 (FGF23) as a potent regulator of phosphate and vitamin D metabolism, and advanced our understanding of the pathophysiology of mineral and bone disorder in chronic kidney disease (CKD-MBD). Here, we review a recently approved therapy for patients with X-linked hypophosphatemia (XLH) using a novel anti-FGF23 antibody, burosumab, and discuss the implications of such targeted therapy in CKD.",
+            "journal": "Current opinion in nephrology and hypertension",
+            "year": "2020",
+            "authors": [
+              "Balani Shanthi",
+              "Perwad Farzana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal, Humanized",
+              "Familial Hypophosphatemic Rickets",
+              "Fibroblast Growth Factor-23",
+              "Fibroblast Growth Factors",
+              "Humans",
+              "Phosphates",
+              "Renal Insufficiency, Chronic",
+              "Vitamin D"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32701599/"
+          },
+          {
+            "pmid": "37180412",
+            "title": "What are the benefits of the anti-FGF23 antibody burosumab on the manifestations of X-linked hypophosphatemia in adults in comparison with conventional therapy? A review.",
+            "abstract": "X-linked hypophosphatemia (XLH) is a genetic disease mostly related to PHEX gene mutations which increases FGF23 serum levels, leading to hypophosphatemia and osteomalacia in adults, while affected children, in addition, develop rickets. Most of adults with XLH suffer from reduced quality of life and physical disability due to chronic bone and joint pain related to limb deformities, early osteoarthritis, delayed-healing of insufficiency fractures, and enthesopathies. Dental infections, muscle dysfunction, and deafness are also frequent. The current treatment consists of 2-5 times daily oral administration of phosphate combined to active vitamin D, often badly tolerated with immediate digestive side effects, responsible for poor compliance. In the long term, it may induce nephrocalcinosis and hyperparathyroidism. Burosumab, an anti-FGF23 blocking antibody, was approved for treating children with XLH in many countries. A randomized 24-week-long placebo-controlled trial, followed by an op",
+            "journal": "Therapeutic advances in rare disease",
+            "year": "2022",
+            "authors": [
+              "Lafage-Proust Marie-Hélène"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37180412/"
+          },
+          {
+            "pmid": "36382755",
+            "title": "New treatments for rare bone diseases: hypophosphatemic rickets/osteomalacia.",
+            "abstract": "Phosphorus is one of the most abundant minerals in the human body; it is required to maintain bone integrity and mineralization, in addition to other biological processes. Phosphorus is regulated by parathyroid hormone, 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], and fibroblast growth factor 23 (FGF-23) in a complex set of processes that occur in the gut, skeleton, and kidneys. Different molecular mechanisms - overproduction of FGF-23 by tumors responsible for oncogenic osteomalacia, generation of an FGF-23 mutant that is resistant to cleavage by enzymes, and impaired FGF-23 degradation due to a reduction in or loss of the PHEX gene - can lead to FGF-23-stimulating activity and the consequent waste of urinary phosphate and low levels of 1,25(OH)2D3. Conventional treatment consists of multiple daily doses of oral phosphate salts and vitamin D analogs, which may improve radiographic rickets but do not normalize growth. Complications of the conventional long-term treatment consist of hypercal",
+            "journal": "Archives of endocrinology and metabolism",
+            "year": "2022",
+            "authors": [
+              "Marques Julia Vieira Oberger",
+              "Moreira Carolina Aguiar",
+              "Borba Victoria Zeghbi Cochenski"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Osteomalacia",
+              "Familial Hypophosphatemic Rickets",
+              "Phosphates",
+              "Child",
+              "Paraneoplastic Syndromes",
+              "Fibroblast Growth Factors",
+              "Humans",
+              "Phosphorus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36382755/"
+          },
+          {
+            "pmid": "31905439",
+            "title": "Skeletal mineralization: mechanisms and diseases.",
+            "abstract": "Skeletal mineralization is initiated in matrix vesicles (MVs), the small extracellular vesicles derived from osteoblasts and chondrocytes. Calcium and inorganic phosphate (Pi) taken up by MVs form hydroxyapatite crystals, which propagate on collagen fibrils to mineralize the extracellular matrix. Insufficient calcium or phosphate impairs skeletal mineralization. Because active vitamin D is necessary for intestinal calcium absorption, vitamin D deficiency is a significant cause of rickets/osteomalacia. Chronic hypophosphatemia also results in rickets/osteomalacia. Excessive action of fibroblast growth factor 23 (FGF23), a key regulator of Pi metabolism, leads to renal Pi wasting and impairs vitamin D activation. X-linked hypophosphatemic rickets (XLH) is the most common form of hereditary FGF23-related hypophosphatemia, and enhanced FGF receptor (FGFR) signaling in osteocytes may be involved in the pathogenesis of this disease. Increased extracellular Pi triggers signal transduction via",
+            "journal": "Annals of pediatric endocrinology & metabolism",
+            "year": "2019",
+            "authors": [
+              "Michigami Toshimi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31905439/"
+          },
+          {
+            "pmid": "35103802",
+            "title": "[Tumor localization and treatment of tumor-induced osteomalacia].",
+            "abstract": "Tumor-induced osteomalacia (TIO) or oncogenic osteomalacia (OOM) is a rare paraneoplastic renal phosphate wasting syndrome. The disease is mostly triggered by small, benign mesenchymal tumors that express somatostatin receptors (SSTR) and produce excessive levels of fibroblast growth factor 23 (FGF 23) or other phosphatonins. These reduce the phosphate back resorption in the proximal tubules of the kidneys, thereby causing hypophosphatemia and lead to an absolute or relatively low calcitriol serum concentration. The main symptoms include muscle weakness, bone pain and recurrent insufficiency fractures secondary to sometimes pronounced osteomalacia. The suspected diagnosis can only be confirmed by determination of the phosphate level. It can often take years before the tumor is successfully localized. The necessary tumor localization is often the most difficult step in the treatment before the OOM can be curatively treated by open surgical resection of the tumor. In recent years new app",
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2022",
+            "authors": [
+              "Beil Frank Timo",
+              "Stürznickel Julian",
+              "Rolvien Tim",
+              "Amling Michael",
+              "Oheim Ralf"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Fibroblast Growth Factors",
+              "Humans",
+              "Neoplasms",
+              "Osteomalacia",
+              "Paraneoplastic Syndromes",
+              "Positron Emission Tomography Computed Tomography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35103802/"
+          },
+          {
+            "pmid": "38195892",
+            "title": "Successful Burosumab Treatment in an Adult Patient with X-Linked Hypophosphatemia and Chronic Kidney Disease Stage 3b.",
+            "abstract": "X-linked hypophosphatemic rickets (XLH) is a genetic cause of renal hypophosphatemia due to inactivation of the PHEX gene, with an inappropriate concentration of fibroblast growth factor 23 (FGF23). Burosumab, an anti-FGF23 monoclonal antibody, is a validated treatment for XLH, but its use in patients with chronic kidney disease (CKD) has not been validated. A 61-year-old man with XLH developed CKD during follow-up. Conventional treatment (phosphate salts and active vitamin D analogs) was poorly tolerated. Treatment with burosumab was decided at a multi-professional meeting. Before burosumab initiation, his measured glomerular filtration rate was 44 mL/min/1.73 m2 defining CKD stage 3b and intact FGF23 concentration was very high (4496.0 ng/mL, N: 22.7-93.1) due to both XLH and CKD. Severe hypophosphatemia was observed after the two first injections of burosumab at usual doses (1 mg/kg monthly) and concomitant discontinuation of the conventional treatment. After increasing the dose and",
+            "journal": "Calcified tissue international",
+            "year": "2024",
+            "authors": [
+              "Michon-Colin Arthur",
+              "Bouderlique Elise",
+              "Prié Dominique",
+              "Maruani Gérard",
+              "Nevoux Jérôme"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Adult",
+              "Humans",
+              "Middle Aged",
+              "Familial Hypophosphatemic Rickets",
+              "Fibroblast Growth Factors",
+              "Phosphates",
+              "Hypophosphatemia",
+              "Renal Insufficiency, Chronic",
+              "Antibodies, Monoclonal, Humanized"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38195892/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-renal secondary hyperparathyroidism",
+        "txgnn_score": 0.9577945470809937,
+        "txgnn_rank": 24783,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bone remodeling disease",
+        "txgnn_score": 0.9548786282539368,
+        "txgnn_rank": 25491,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02537431",
+            "title": "An Open-Label, Single-Arm, Phase 3 Study to Evaluate the Effects of KRN23 on Osteomalacia in Adults With X-linked Hypophosphatemia (XLH)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-12-23",
+            "completion_date": "2018-12-13",
+            "country": "France, Canada, South Korea, Denmark, United States, Japan",
+            "enrollment": 14,
+            "brief_summary": "The primary objective of this study is to establish the effect of KRN23 treatment on improvement in XLH-associated osteomalacia as determined by osteoid volume (osteoid volume/bone volume, OV/BV).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female, aged 18 - 65 years, inclusive\n2. Diagnosis of XLH supported by classic clinical features of adult XLH (such as short stature or bowed legs), and at least one of the following at Screening:\n\n   * Documented phosphate regulating gene with homology to endopeptida",
+            "endpoints": [
+              "Percent Change From Baseline in OV/BV at Week 48"
+            ],
+            "sponsor": "Kyowa Kirin Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT02537431"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02526160",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Phase 3 Study With Open-Label Extension to Assess the Efficacy and Safety of KRN23 in Adults With X-linked Hypophosphatemia (XLH)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-10-22",
+            "completion_date": "2018-12-06",
+            "country": "United Kingdom, France, South Korea, Italy, United States, Ireland, Japan",
+            "enrollment": 134,
+            "brief_summary": "The primary efficacy objective of this study is to establish the effect of burosumab treatment compared with placebo on increasing serum phosphorus levels in adults with XLH.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female, aged 18 - 65 years, inclusive\n2. Diagnosis of XLH supported by classic clinical features of adult XLH (such as short stature or bowed legs) and at least ONE of the following at Screening:\n\n   * Documented phosphate-regulating gene with homologies to endopeptid",
+            "endpoints": [
+              "Percentage of Participants Achieving Mean Serum Phosphorus Levels Above the LLN (2.5 mg/dL [0.81 mmol/L]) at the Mid-Point of the Dose Interval, as Averaged Across Dose Cycles Between Baseline and Week 24"
+            ],
+            "sponsor": "Kyowa Kirin Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT02526160"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03993821",
+            "title": "An Open Label Trial to Assess the Safety and Efficacy of Burosumab in a Single Patient With Cutaneous Skeletal Hypophosphatemia Syndrome (CSHS)",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2019-07-01",
+            "completion_date": "2023-03",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "Burosumab (also known as the drug, Crysvita®) is a fully human immunoglobulin G1 (IgG1) monoclonal antibody (mAb) that binds to and inhibits the activity of fibroblast growth factor 23 (FGF23), leading to an increase in serum phosphorus levels. This drug is already approved for use in patients with X-linked hypophosphatemia (XLH), but not for Cutaneous Skeletal Hypophosphatemia Syndrome (CSHS). It is hypothesized that burosumab may provide clinical benefit to a patient with CSHS due to the commo",
+            "eligibility_criteria": "Inclusion Criteria:\n\nIn order to be eligible to participate in this study, an individual must meet all of the following criteria:\n\n1. Patient has confirmed CSHS by physician diagnosis\n2. Patient has confirmed FGF23 elevations in the context of a low fasting serum phosphorous \\< 2.5 mg/dL\n3. Patient ",
+            "endpoints": [
+              "Serum Phosphorus change"
+            ],
+            "sponsor": "Children's National Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03993821"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37180412",
+            "title": "What are the benefits of the anti-FGF23 antibody burosumab on the manifestations of X-linked hypophosphatemia in adults in comparison with conventional therapy? A review.",
+            "abstract": "X-linked hypophosphatemia (XLH) is a genetic disease mostly related to PHEX gene mutations which increases FGF23 serum levels, leading to hypophosphatemia and osteomalacia in adults, while affected children, in addition, develop rickets. Most of adults with XLH suffer from reduced quality of life and physical disability due to chronic bone and joint pain related to limb deformities, early osteoarthritis, delayed-healing of insufficiency fractures, and enthesopathies. Dental infections, muscle dysfunction, and deafness are also frequent. The current treatment consists of 2-5 times daily oral administration of phosphate combined to active vitamin D, often badly tolerated with immediate digestive side effects, responsible for poor compliance. In the long term, it may induce nephrocalcinosis and hyperparathyroidism. Burosumab, an anti-FGF23 blocking antibody, was approved for treating children with XLH in many countries. A randomized 24-week-long placebo-controlled trial, followed by an op",
+            "journal": "Therapeutic advances in rare disease",
+            "year": "2022",
+            "authors": [
+              "Lafage-Proust Marie-Hélène"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37180412/"
+          },
+          {
+            "pmid": "35235937",
+            "title": "Novel Treatment Options in Childhood Bone Diseases.",
+            "abstract": "Several novel treatment options have recently become available in childhood bone diseases. The purpose of this article is to provide an update on some of the therapeutic agents used in the treatment of pediatric osteoporosis, X-linked hypophosphatemic rickets, and achondroplasia (ACH).",
+            "journal": "Hormone research in paediatrics",
+            "year": "2023",
+            "authors": [
+              "Jazbinšek Sončka",
+              "Koce Maša",
+              "Kotnik Primož"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Child",
+              "Denosumab",
+              "Familial Hypophosphatemic Rickets",
+              "Antibodies, Monoclonal",
+              "Osteoporosis",
+              "Bone Density",
+              "Bone Resorption",
+              "Achondroplasia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35235937/"
+          },
+          {
+            "pmid": "37843399",
+            "title": "Reassuring Data on the Cardiovascular Risk in Adults With X-linked Hypophosphatemia Receiving Conventional Therapy.",
+            "abstract": "X-linked hypophosphatemia (XLH) is a rare genetic disorder that results in increased plasma levels of fibroblast growth factor 23 (FGF23). Several studies have demonstrated a direct association between FGF23 and cardiovascular mortality in cohorts of patients with chronic renal failure. However, in patients with XLH, studies on the cardiovascular impact of the disease are rare, with contradictory results.",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2024",
+            "authors": [
+              "Bouzemane Alexandre",
+              "Vignot Emmanuelle",
+              "Derain Dubourg Laurence",
+              "De Mul Aurélie",
+              "Molin Arnaud"
+            ],
+            "pub_types": [
+              "Observational Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Familial Hypophosphatemic Rickets",
+              "Cardiovascular Diseases",
+              "Pulse Wave Analysis",
+              "Risk Factors",
+              "Hypertrophy, Left Ventricular",
+              "Hypertension",
+              "Heart Disease Risk Factors",
+              "Sodium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37843399/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperparathyroidism, transient neonatal",
+        "txgnn_score": 0.95045667886734,
+        "txgnn_rank": 26584,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.94584321975708,
+        "txgnn_rank": 27634,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9396146535873412,
+        "txgnn_rank": 28883,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9063700437545776,
+        "txgnn_rank": 34145,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypocalcemic rickets",
+        "txgnn_score": 0.8964575529098511,
+        "txgnn_rank": 35158,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.8772813081741333,
+        "txgnn_rank": 36994,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14012",
+    "name": "Burosumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Burosumab"
+      },
+      "queried_at": "2026-03-10T08:38:07.493807",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Burosumab"
+      },
+      "queried_at": "2026-03-10T08:38:10.271780",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "renal osteodystrophy"
+      },
+      "queried_at": "2026-03-10T08:38:10.827078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "renal osteodystrophy"
+      },
+      "queried_at": "2026-03-10T08:38:13.626262",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "renal osteodystrophy"
+      },
+      "queried_at": "2026-03-10T08:38:15.741043",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "impaired renal function disease"
+      },
+      "queried_at": "2026-03-10T08:38:16.308081",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "impaired renal function disease"
+      },
+      "queried_at": "2026-03-10T08:38:19.176300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "impaired renal function disease"
+      },
+      "queried_at": "2026-03-10T08:38:22.807851",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "non-renal secondary hyperparathyroidism"
+      },
+      "queried_at": "2026-03-10T08:38:24.588839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "non-renal secondary hyperparathyroidism"
+      },
+      "queried_at": "2026-03-10T08:38:28.181649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "non-renal secondary hyperparathyroidism"
+      },
+      "queried_at": "2026-03-10T08:38:29.526180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "bone remodeling disease"
+      },
+      "queried_at": "2026-03-10T08:38:30.666635",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "bone remodeling disease"
+      },
+      "queried_at": "2026-03-10T08:38:33.428220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "bone remodeling disease"
+      },
+      "queried_at": "2026-03-10T08:38:35.938021",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "hyperparathyroidism, transient neonatal"
+      },
+      "queried_at": "2026-03-10T08:38:36.488076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "hyperparathyroidism, transient neonatal"
+      },
+      "queried_at": "2026-03-10T08:38:39.915315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "hyperparathyroidism, transient neonatal"
+      },
+      "queried_at": "2026-03-10T08:38:40.730213",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:38:41.231524",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:38:44.364710",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:38:45.301104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:38:45.810642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:38:50.934623",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:38:51.978184",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T08:38:52.685677",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T08:38:55.935234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T08:38:56.704154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "hypocalcemic rickets"
+      },
+      "queried_at": "2026-03-10T08:38:57.718144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "hypocalcemic rickets"
+      },
+      "queried_at": "2026-03-10T08:39:01.899378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "hypocalcemic rickets"
+      },
+      "queried_at": "2026-03-10T08:39:02.580300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T08:39:03.092140",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T08:39:06.402249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Burosumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T08:39:07.102895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:39:07.186005"
+  }
+}

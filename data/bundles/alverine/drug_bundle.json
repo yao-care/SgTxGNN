@@ -1,0 +1,613 @@
+{
+  "drug": {
+    "inn": "Alverine",
+    "drugbank_id": "DB01616",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "dysthymic disorder",
+        "txgnn_score": 0.9982940554618835,
+        "txgnn_rank": 3043,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotic disorder",
+        "txgnn_score": 0.9959128499031068,
+        "txgnn_rank": 5693,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anxiety disorder",
+        "txgnn_score": 0.9945131540298462,
+        "txgnn_rank": 6903,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00934973",
+            "title": "Management of Irritable Bowel Syndrome in Primary Care: Feasibility Randomised Controlled Trial of Mebeverine, Methylcellulose, Placebo and a Patient Self-management Cognitive Behavioural Therapy Website. (MIBS Trial)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2010-04",
+            "completion_date": "2011-10",
+            "country": "United Kingdom",
+            "enrollment": 135,
+            "brief_summary": "Aims:\n\n1. To pilot an randomized, controlled trial (RCT) to assess the effectiveness of the commonly prescribed medications in UK general practice for IBS: mebeverine (anti-spasmodic) and methylcellulose (bulking-agent) and of the patient CBT based self-management website.\n2. To assess the level of support needed for patients using the patient CBT based self-management website for IBS (i.e., initial 30 minute telephone support session with a nurse and email support or not).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 16 to 60 years with symptoms of irritable bowel syndrome that fulfill the Rome III criteria\n\nExclusion Criteria:\n\n* Atypical symptoms (unexplained weight loss, rectal bleeding)\n* Diagnosis of inflammatory bowel disease, coeliac disease or peptic ulcer disease\n* P",
+            "endpoints": [
+              "IBS Symptom Severity Score",
+              "IBS QOL"
+            ],
+            "sponsor": "University of Southampton",
+            "url": "https://clinicaltrials.gov/study/NCT00934973"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "25199966",
+            "title": "Anxiolytic-like effects of alverine citrate in experimental mouse models of anxiety.",
+            "abstract": "Anxiety disorders are widely spread psychiatric illnesses that are a cause of major concern. Despite a consistent increase in anxiolytics, the prevalence of anxiety is static; this necessitates the development of new compounds with potential activity and minimum unwanted effects. A serotonergic (5HT) system plays an important role in pathogenesis of anxiety and predominantly involves 5HT1A receptor action in mediating anxiety-like behavior; the antagonism of 5HT1A receptor has demonstrated to produce anxiolytic-like effects. Alverine citrate (AVC) is reported as a 5HT1A antagonist; however, its effects on anxiety-like behavior are not investigated. Thus, the present study, by utilizing a neurobehavioral approach, examined the anxiolytic-like effects of AVC in experimental mouse models of anxiety. Mice were acutely treated with AVC (5-20mg/kg, i.p.)/diazepam (DIA, 2mg/kg, i.p.) and subjected to four validated anxiety models viz. elevated plus-maze (EPM), light/dark (L/D), hole-board (HB",
+            "journal": "European journal of pharmacology",
+            "year": "2014",
+            "authors": [
+              "Gupta Deepali",
+              "Radhakrishnan Mahesh",
+              "Kurhe Yeshwant"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Anxiety Agents",
+              "Anxiety",
+              "Anxiety Disorders",
+              "Diazepam",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Exploratory Behavior",
+              "Male",
+              "Maze Learning"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25199966/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.992475688457489,
+        "txgnn_rank": 8652,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotic depression",
+        "txgnn_score": 0.9916170239448548,
+        "txgnn_rank": 9305,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30087074",
+            "title": "Network-based drug repositioning: A novel strategy for discovering potential antidepressants and their mode of action.",
+            "abstract": "Current target-oriented paradigm for novel antidepressant discovery has been difficult to succeed and the failures always bring huge economic losses. Although abundant ledge of disease related genes and drug action targets has been accumulated, the successful application of the knowledge for new drug discovery is limited. Here, we predicted and validated potential antidepressants and molecular targets from DrugBank recorded drugs using a novel network-based drug repositioning approach. This approach predicted relationships between drug and targets through network-based integration of drug chemical similarity, therapeutic similarity and protein-protein interactions. We predicted genome-wide relations of drugs and targets, and then screened drugs that connect to depression-related targets of known antidepressants. Six drugs were predicted and experimentally validated to have antidepressant-like effects in the tail suspension test (TST) and forced swimming test (FST) in mice. Alverine, wh",
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2018",
+            "authors": [
+              "Zhang Ting-Ting",
+              "Xue Rui",
+              "Wang Xin",
+              "Zhao Shi-Wen",
+              "An Lei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents",
+              "Computer Simulation",
+              "Databases, Pharmaceutical",
+              "Depressive Disorder",
+              "Drug Repositioning",
+              "Male",
+              "Mice, Inbred ICR",
+              "Propylamines",
+              "Random Allocation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30087074/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melancholia",
+        "txgnn_score": 0.9914370179176332,
+        "txgnn_rank": 9452,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30087074",
+            "title": "Network-based drug repositioning: A novel strategy for discovering potential antidepressants and their mode of action.",
+            "abstract": "Current target-oriented paradigm for novel antidepressant discovery has been difficult to succeed and the failures always bring huge economic losses. Although abundant ledge of disease related genes and drug action targets has been accumulated, the successful application of the knowledge for new drug discovery is limited. Here, we predicted and validated potential antidepressants and molecular targets from DrugBank recorded drugs using a novel network-based drug repositioning approach. This approach predicted relationships between drug and targets through network-based integration of drug chemical similarity, therapeutic similarity and protein-protein interactions. We predicted genome-wide relations of drugs and targets, and then screened drugs that connect to depression-related targets of known antidepressants. Six drugs were predicted and experimentally validated to have antidepressant-like effects in the tail suspension test (TST) and forced swimming test (FST) in mice. Alverine, wh",
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2018",
+            "authors": [
+              "Zhang Ting-Ting",
+              "Xue Rui",
+              "Wang Xin",
+              "Zhao Shi-Wen",
+              "An Lei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents",
+              "Computer Simulation",
+              "Databases, Pharmaceutical",
+              "Depressive Disorder",
+              "Drug Repositioning",
+              "Male",
+              "Mice, Inbred ICR",
+              "Propylamines",
+              "Random Allocation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30087074/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal torticollis of infancy",
+        "txgnn_score": 0.9906719923019408,
+        "txgnn_rank": 10052,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "agoraphobia",
+        "txgnn_score": 0.9905941486358644,
+        "txgnn_rank": 10122,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+        "txgnn_score": 0.9901719689369202,
+        "txgnn_rank": 10422,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9894808530807496,
+        "txgnn_rank": 10908,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01616",
+    "name": "Alverine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Alverine"
+      },
+      "queried_at": "2026-03-09T20:14:40.654578",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Alverine"
+      },
+      "queried_at": "2026-03-09T20:14:48.073189",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-09T20:14:48.869425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-09T20:14:53.306975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-09T20:14:54.468739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-09T20:14:55.146115",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-09T20:15:01.946549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-09T20:15:04.248509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "anxiety disorder"
+      },
+      "queried_at": "2026-03-09T20:15:06.299238",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "anxiety disorder"
+      },
+      "queried_at": "2026-03-09T20:15:10.631598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "anxiety disorder"
+      },
+      "queried_at": "2026-03-09T20:15:13.433817",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T20:15:14.793116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T20:15:18.476237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T20:15:20.327304",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-09T20:15:21.224758",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-09T20:15:30.587272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-09T20:15:33.679401",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-09T20:15:34.572582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-09T20:15:39.191863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-09T20:15:42.326822",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-09T20:15:43.648385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-09T20:15:48.331212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-09T20:15:50.585503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-09T20:15:52.290433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-09T20:15:58.302994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-09T20:15:59.872057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-09T20:16:02.250257",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-09T20:16:08.547568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-09T20:16:10.642185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T20:16:11.570724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T20:16:16.471745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T20:16:18.225435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T20:16:18.240884"
+  }
+}

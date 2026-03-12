@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Pegfilgrastim",
+    "drugbank_id": "DB00019",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9989094734191896,
+        "txgnn_rank": 2154,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9972589015960692,
+        "txgnn_rank": 4290,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.983693301677704,
+        "txgnn_rank": 14975,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.982511579990387,
+        "txgnn_rank": 15750,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.98031347990036,
+        "txgnn_rank": 16875,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9769019484519958,
+        "txgnn_rank": 18466,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9675061106681824,
+        "txgnn_rank": 22066,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.963657557964325,
+        "txgnn_rank": 23252,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9631012678146362,
+        "txgnn_rank": 23438,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9631012678146362,
+        "txgnn_rank": 23439,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00019",
+    "name": "Pegfilgrastim",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pegfilgrastim"
+      },
+      "queried_at": "2026-03-09T17:44:33.060255",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pegfilgrastim"
+      },
+      "queried_at": "2026-03-09T17:44:46.335554",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T17:44:47.063021",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T17:44:51.591113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T17:44:52.588736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T17:44:53.200685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T17:44:59.477844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T17:45:00.539143",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T17:45:01.258826",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T17:45:07.291202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T17:45:08.623577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T17:45:09.468660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T17:45:13.562098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-09T17:45:14.652734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T17:45:15.957358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T17:45:20.443421",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T17:45:22.400129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T17:45:23.205129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T17:45:27.788379",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T17:45:28.503606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T17:45:29.152211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T17:45:34.508791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-09T17:45:36.664905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T17:45:37.541666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T17:45:43.522487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-09T17:45:44.841724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T17:45:47.911715",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T17:45:52.059701",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-09T17:45:52.781701",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T17:45:53.708457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T17:45:57.494788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pegfilgrastim",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-09T17:45:58.203140",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T17:45:58.205487"
+  }
+}

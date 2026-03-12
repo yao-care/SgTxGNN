@@ -1,0 +1,1737 @@
+{
+  "drug": {
+    "inn": "Sodium chloride",
+    "drugbank_id": "DB09153",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "breast fibrocystic disease",
+        "txgnn_score": 0.9678770899772644,
+        "txgnn_rank": 21960,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02887937",
+            "title": "Qualitative and Quantitative Analysis of Cystic Breast Masses by Contrast Enhanced Ultrasound: Is Biopsy Necessary?",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-08-16",
+            "completion_date": "2018-04-29",
+            "country": "United States",
+            "enrollment": 135,
+            "brief_summary": "The overarching goal of the proposed research is to evaluate whether qualitative and quantitative parameters in real time contrast enhanced ultrasound (CEUS) can aid in assessing suspicious indeterminate cystic appearing breast masses and ultimately determine whether or not an ultrasound guided biopsy is necessary. The underlying hypothesis is that breast masses (given BIRADS 4) that lack enhancement on CEUS will have a benign histology obtained by ultrasound guided core biopsy and/or surgery. T",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\>18 years of age\n* recommended for an ultrasound guided biopsy due to breast mass detection\n\nExclusion Criteria:\n\n* \\< 18 years of age\n* prior history of breast cancer\n* prior history of biopsy for that specific lesion\n* any condition that would be a contraindication to the m",
+            "endpoints": [
+              "lesions of malignant vs. benign biopsy histology"
+            ],
+            "sponsor": "University of Southern California",
+            "url": "https://clinicaltrials.gov/study/NCT02887937"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "2015669",
+            "title": "GCDFP-70 protein in cyst fluid identified as albumin and used to classify cysts in women with breast gross cystic disease.",
+            "abstract": "We used sodium dodecyl sulfate-polyacrylamide gel electrophoresis to study cyst fluids from women with breast gross cystic disease. The subjects could be classified into two categories according to the concentrations of protein GCDFP-70 in the cyst fluid: those with Type I cysts had a very low content of this protein; those with Type II cysts had very high concentrations. Analysis of the amino acid sequence of GCDFP-70 from both cyst fluid types confirmed that this protein is human plasma albumin. The average concentration of albumin found in Type I cyst fluids was 0.32 g/L and that corresponding to Type II was 10.16 g/L. Thus, albumin quantification from cyst fluids or analysis by either polyacrylamide or agarose gel electrophoresis provides a simple procedure for classifying these fluids, yielding results that correlate well with previous classifications based on other measurements such as sodium, potassium, and chloride concentrations. This albumin-based quantification method may im",
+            "journal": "Clinical chemistry",
+            "year": "1991",
+            "authors": [
+              "Balbín M",
+              "Vizoso F",
+              "Sánchez L M",
+              "Venta R",
+              "Ruibal A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Amino Acid Sequence",
+              "Apolipoproteins",
+              "Apolipoproteins D",
+              "Carrier Proteins",
+              "Electrophoresis, Agar Gel",
+              "Electrophoresis, Polyacrylamide Gel",
+              "Exudates and Transudates",
+              "Female",
+              "Fibrocystic Breast Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2015669/"
+          },
+          {
+            "pmid": "3369685",
+            "title": "Fractionation of type V collagen from carcinomatous and dysplasic breast in the presence of alkaline potassium chloride.",
+            "abstract": "A simple, one-step fractionation technique suitable for the finest quantitation of type V collagen from acidic mixtures of interstitial collagens is reported. The technique is based on the higher solubility of this collagen type in alkaline KCl-phosphate solution, and the purity of the sample has been monitored by sodium dodecyl sulfate-polyacrylamide gel electrophoresis and electron microscopic analyses. The latter reveal that the majority of the molecules are endowed with a thread portion and a terminal knob, and show a low tendency to originate ordered and reproducible polymers at low temperature.",
+            "journal": "Analytical biochemistry",
+            "year": "1988",
+            "authors": [
+              "Luparello C",
+              "Rizzo C P",
+              "Schillaci R",
+              "Pucci-Minafra I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Chemical Fractionation",
+              "Chemical Precipitation",
+              "Collagen",
+              "Electrophoresis, Polyacrylamide Gel",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Microscopy, Electron"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3369685/"
+          },
+          {
+            "pmid": "2140797",
+            "title": "Evaluation of human breast cysts according to their biochemical and hormonal composition, and cytologic examination.",
+            "abstract": "Breast cyst fluids were aspirated during the mild luteal phase of the menstrual cycle from 88 patients with gross cystic disease. According to intracystic Na+/K+ ratio three categories of cyst were identified: Type I with low Na+/K+ ratio, low levels of chloride, glucose, and pH, and high concentrations of dehydroepiandrosterone-sulphate (DHAS) and apocrine epithelium; Type II with high Na+/K+ ratio presenting levels of chloride, glucose, pH, and DHAS similar to those found in plasma, and flattened epithelium; Type III with intermediate values for the above parameters. The findings suggest that the cysts could correspond to the different functional stages of the epithelium lining the cysts. Cyst classification was evaluated using a discriminant analysis, which allows breast cyst fluids to be assigned within a category defined by the Na+/K+ ratio. The apparent correct rate for each category was more than 87%. The variables that better discriminate among groups of cysts were chloride, gl",
+            "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+            "year": "1990",
+            "authors": [
+              "Vizoso F",
+              "Fueyo A",
+              "Allende M T",
+              "Fernández J",
+              "García-Morán M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dehydroepiandrosterone",
+              "Dehydroepiandrosterone Sulfate",
+              "Discriminant Analysis",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Luteal Phase",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2140797/"
+          },
+          {
+            "pmid": "9375824",
+            "title": "Kidney and breast cysts: a comparative study of fluids.",
+            "abstract": "The contributions of amino acids to the overall osmotic activity of cyst fluids were sought in this comparative study of fluids from the cysts of autosomal dominant polycystic disease (ADPKD) and gross cystic disease of the breast (GCDB). Fluids (n = 18) from 18 women with GCDB and from 8 patients with ADPKD (n = 25), grouped on the basis of sodium concentrations, were analyzed for potassium, chloride, protein, and osmolality by routine methods and for amino acids by reversed-phase high-pressure liquid chromatography. Similarities between kidney and breast cyst fluids included relative isosmolality, a wide range of sodium concentrations, an inverse relationship between sodium and potassium concentrations, higher concentrations of amino acids in low-sodium fluids, and significant correlations between sequential concentrations of amino acids in cyst fluids versus blood and some of its components. Therefore, cyst fluids in ADPKD and GCDB share compositional characteristics, and amino acid",
+            "journal": "Nephron",
+            "year": "1997",
+            "authors": [
+              "Hurley D K",
+              "Bandy S M",
+              "Glew R H",
+              "Morris D M",
+              "Gardner K D"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acids",
+              "Body Fluids",
+              "Chlorides",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Humans",
+              "Male",
+              "Osmolar Concentration",
+              "Polycystic Kidney, Autosomal Dominant",
+              "Potassium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9375824/"
+          },
+          {
+            "pmid": "10797312",
+            "title": "Intracellular pH regulation in a nonmalignant and a derived malignant human breast cell line.",
+            "abstract": "Tumor cells in vivo often exist in an ischemic microenvironment that would compromise the growth of normal cells. To minimize intracellular acidification under these conditions, these cells are thought to upregulate H(+) transport mechanisms and/or slow the rate at which metabolic processes generate intracellular protons. Proton extrusion has been compared under identical conditions in two closely related human breast cell lines: nonmalignant but immortalized HMT-3522/S1 and malignant HMT-3522/T4-2 cells derived from them. Only the latter were capable of tumor formation in host animals or long-term growth in a low-pH medium designed to mimic conditions in many solid tumors. However, detailed study of the dynamics of proton extrusion in the two cell lines revealed no significant differences. Thus, even though the ability to upregulate proton extrusion in a low pH environment (pH(e)) may be important for cell survival in a tumor, this ability is not acquired along with the capacity to fo",
+            "journal": "Journal of cellular physiology",
+            "year": "2000",
+            "authors": [
+              "Wahl M L",
+              "Pooler P M",
+              "Briand P",
+              "Leeper D B",
+              "Owen C S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "4,4'-Diisothiocyanostilbene-2,2'-Disulfonic Acid",
+              "Breast",
+              "Breast Neoplasms",
+              "Cell Line, Transformed",
+              "Coumaric Acids",
+              "Epithelial Cells",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Guanidines",
+              "Homeostasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10797312/"
+          },
+          {
+            "pmid": "3232934",
+            "title": "Nine-year experience with subpectoral breast reconstruction after subcutaneous mastectomy in 98 patients utilizing saline-inflatable prostheses.",
+            "abstract": "Over the past nine years, the saline-inflatable breast prosthesis has been used exclusively for submuscular reconstruction after subcutaneous mastectomy in 98 patients. Its expansion capability offers greater versatility in addressing various reconstructive situation. Acting as an immediate tissue expander, it accommodates a larger residual skin envelope or expands a smaller one for better cosmetic results. A low percentage of capsular contracture results in significant softness of the reconstructed breast. Indications, complications, technical considerations, and interesting findings are included for readers' consideration. The saline-inflatable breast prosthesis offers a unique alternative to the silicone and foam-covered prosthesis for subcutaneous mastectomy breast reconstruction.",
+            "journal": "Annals of plastic surgery",
+            "year": "1988",
+            "authors": [
+              "Schuster D I",
+              "Lavine D M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Breast",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Follow-Up Studies",
+              "Humans",
+              "Mastectomy, Subcutaneous",
+              "Middle Aged",
+              "Prostheses and Implants"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3232934/"
+          },
+          {
+            "pmid": "23073330",
+            "title": "Extranodal NK/T-cell lymphoma, nasal type, arising in association with saline breast implant: expanding the spectrum of breast implant-associated lymphomas.",
+            "abstract": "Extranodal NK/T-cell lymphoma, nasal type, is a rare type of non-Hodgkin lymphoma that is most common in Asia and is driven by Epstein-Barr virus infection. These tumors usually arise in the nasal region; in rare cases they can involve extranasal sites, most often skin, with involvement of the breast being rare. Lymphomas arising adjacent to breast implants are rare, and most cases reported to date have been anaplastic lymphoma kinase (ALK)-negative anaplastic large cell lymphoma. Here we report a 41-year-old white woman with bilateral saline breast implants placed for cosmetic reasons who almost 9 years later developed painful swelling at the right-breast implant site. Excisional biopsy revealed lymphoma composed of monomorphic large cells associated with necrosis and angioinvasion. Immunohistochemical analysis showed an aberrant, NK/T-cell immunophenotype with the lymphoma cells being CD2+, CD3+, CD56+, partial CD30+, granzyme B, TIA-1+, CD4+, CD5+, CD7+, and CD8+. In situ hybridizat",
+            "journal": "The American journal of surgical pathology",
+            "year": "2012",
+            "authors": [
+              "Aladily Tariq N",
+              "Nathwani Bharat N",
+              "Miranda Roberto N",
+              "Kansal Rina",
+              "Yin C Cameron"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Breast",
+              "Breast Implantation",
+              "Breast Implants",
+              "Breast Neoplasms",
+              "Combined Modality Therapy",
+              "Device Removal",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23073330/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvovaginitis",
+        "txgnn_score": 0.9668954610824584,
+        "txgnn_rank": 22264,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01230814",
+            "title": "A Double-Blind, Randomized Trial of Monthly Treatment With Topical Metronidazole and Miconazole Co-formulated Vaginal Suppositories Versus Placebo for Preventing Vaginal Infections in HIV-seronegative Women",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-04",
+            "completion_date": "2013-08",
+            "country": "United States, Kenya",
+            "enrollment": 234,
+            "brief_summary": "This research study is about vaginal infections such as bacterial vaginosis, yeast infections, and trichomoniasis. Usually, these infections can be treated with medication, but sometimes they come back after treatment. Researchers want to know if using vaginal suppositories can decrease the risk of vaginal infections. Participants will include 234 women who are sexually active (greater than or equal to 4 episodes of sex with men during the past month), HIV-negative, 18 to 45 years old, with bact",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent obtained and informed consent form (ICF) signed.\n* Female, aged 18-45 years.\n* Sexually active with greater than or equal to 4 episodes of sex with a male partner during the past month.\n* Human immunodeficiency virus (HIV)-seronegative on both HIV tests in par",
+            "endpoints": [
+              "Efficacy of Monthly Periodic Presumptive Treatment (PPT) Using Metronidazole With Miconazole Intravaginal Suppositories Versus Matching Placebo Nightly for Five Nights Each Month for Preventing Vulvovaginal Candidiasis (VVC).",
+              "Efficacy of Monthly Periodic Presumptive Treatment (PPT) Using Metronidazole With Miconazole Intravaginal Suppositories Versus Matching Placebo Nightly for Five Nights Each Month for Preventing Bacterial Vaginosis (BV)."
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT01230814"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01926028",
+            "title": "Phase 1b/2a, Multi-center, Double-blind, Randomized, Placebo-controlled Study of a Single Dose of NDV-3A or NDV-3 Vaccine to Evaluate Safety, Tolerability, Immunogenicity and Efficacy in Preventing Recurrent Vulvovaginal Candidiasis",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-07",
+            "completion_date": "2016-05",
+            "country": "United States",
+            "enrollment": 188,
+            "brief_summary": "This is a multi-center, randomized, double-blind, placebo-controlled study intended to assess the safety, tolerability and humoral and cellular immune response over a 12-month period after receiving one dose of either the NDV-3A vaccine, NDV-3 vaccine, or placebo. In addition, the clinical efficacy of NDV-3A vaccine in lowering the recurrence rate of vulvovaginal candidiasis (VVC) in patients with recurrent VVC (RVVC) will be evaluated relative to placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has been informed of the nature of the study and has agreed to and is able to read, review, and sign the informed consent document prior to Screening.\n* Is a female between 18-50 years of age, inclusive, at the time of vaccination on an acceptable form of birth control.\n* Has ",
+            "endpoints": [
+              "Summary of Injection Site Reactions for the Safety Population Over the 12-months Post Vaccination Period"
+            ],
+            "sponsor": "NovaDigm Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01926028"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05649735",
+            "title": "EFFECTIVENESS AND SAFETY OF THE MEDICAL DEVICES LOGUSGYN ,CANDIDEP (OVULI: LOGUSGYN OVULI - FLI.000003 /CANDIDEP OVULI - FEI.000404 AND LAVENDER: LOGUSGYN Lavender - FLI.000002 / CANDIDEP LAVENDER FEI.000409) IN THE TREATMENT OF NON-SPECIFIC VULVOVAGINITIS: RANDOMISED STUDY WITH 4-ARM SEQUENTIAL DESIGN'",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-07-17",
+            "completion_date": "2022-08-13",
+            "country": "Italy",
+            "enrollment": 91,
+            "brief_summary": "To evaluate and compare the efficacy, activity and tolerability of a vaginal ova formulation containing tindalised cultures (Lactobacillus casei, Lactobacillus acidophilus, Lactobacillus plantarum, Streptococcus thermophilus) (LOGUSGYN/CANDIDEP OVULES) and in vaginal lavage (LOGUSGYN/CANDIDEP LAVENDER) in patients with nonspecific vulvovaginitis compared to sterile saline-based vaginal irrigation (AELAV PURLING). The primary efficacy endpoint is based on the percentage of patients with therapeut",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Signed written informed consent\n* Subjects diagnosed with vulvovaginitis\n* Presence of at least two subjective symptoms and two objective signs (at least moderate) of vaginal inflammation. Vaginal inflammation will be assessed on six subjective symptoms (burning, pain, itching",
+            "endpoints": [
+              "Therapeutic success",
+              "Therapeutic success",
+              "The evolution of signs and symptoms of vaginitis"
+            ],
+            "sponsor": "Ospedale del Mare",
+            "url": "https://clinicaltrials.gov/study/NCT05649735"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00616330",
+            "title": "Vaginal Infection Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-01",
+            "completion_date": "2009-12",
+            "country": "Russia, Puerto Rico, United States, India",
+            "enrollment": 1443,
+            "brief_summary": "This study will evaluate the efficacy and safety of a vaginal product compared with that of other vaginal products in the treatment of vaginal infections.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have a clinical diagnosis of vaginal infection.\n* Patients must be post-menopausal, surgically sterilized or using an acceptable form of birth control.\n\nExclusion Criteria:\n\n* Patients must not have any other infections\n* May not be pregnant or nursing\n* May not ",
+            "endpoints": [
+              "Clinical symptom resolution."
+            ],
+            "sponsor": "Lumara Health, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00616330"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05795491",
+            "title": "Effect of Blue Light Emitting Diode Therapy on Recurrent Vulvovaginal Candidiasis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-04-01",
+            "completion_date": "2023-06-01",
+            "country": "Egypt",
+            "enrollment": 60,
+            "brief_summary": "With the knowledge that VVC is an infectious disease of the genitourinary tract that is common in women of reproductive age, and because of the shortage of non-drug therapies for this condition, this study will aim to evaluate the effect of ultraviolet A/blue LED with a wavelength of 401 ± 5 nm in patients with a clinical manifestation of candidiasis and its ability to prevent recurrence.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nsubject selection will be according to the following criteria:\n\n1. Age will range between 18- 50 years.\n2. All patients will be confirmed by culture and examination of fresh vaginal samples, to have VVC.\n3. All patients who will be enrolled to the study will have their informed ",
+            "endpoints": [
+              "Vaginal swab culture ."
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT05795491"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39598463",
+            "title": "Evolving Clinical Features of Diabetic Ketoacidosis: The Impact of SGLT2 Inhibitors.",
+            "abstract": "Background/Objectives: The antidiabetic effect of SGLT2 inhibitors (SGLT2-is) is based on their ability to increase glucose excretion through urine by inhibiting the kidney-resident SGLT2 protein. Euglycemic diabetic ketoacidosis (EuDKA) is an uncommon but potentially life-threatening adverse effect of these medications, which are notable for their antidiabetic, cardiovascular, and renal protective properties. This study aimed to clarify the impact of SGLT2-is on demographic, clinical, and biochemical characteristics in patients with DKA. Methods: A total of 51 individuals with a diagnosis of DKA were included in the trial; 19 of these patients were treated with SGLT2-is, while 32 were not. Patients diagnosed with DKA and treated with SGLT2-is were compared to those not treated with the medication in terms of clinical, biochemical, and laboratory characteristics. Results: The age of patients utilizing SGLT2-is was statistically considerably greater than that of non-users (p < 0.001). E",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2024",
+            "authors": [
+              "Genc Selin",
+              "Evren Bahri",
+              "Yigit Onur Selcuk",
+              "Sahin Ibrahim",
+              "Dayanan Ramazan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39598463/"
+          },
+          {
+            "pmid": "40925571",
+            "title": "Outbreak of post-parturient infectious pustular vulvovaginitis in a New Zealand dairy herd.",
+            "abstract": "In 2023, 160/245 (65%) 2-year-old KiwiCross dairy heifers from a seasonally calving Otago herd developed severe granular vulvovaginitis after calving.",
+            "journal": "New Zealand veterinary journal",
+            "year": "2026",
+            "authors": [
+              "O'Connell J P",
+              "Lawrence K E",
+              "Fermin L M",
+              "Vaatstra B",
+              "Eames M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Vulvovaginitis",
+              "Cattle",
+              "New Zealand",
+              "Cattle Diseases",
+              "Disease Outbreaks",
+              "Dairying",
+              "Ureaplasma Infections",
+              "Ureaplasma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40925571/"
+          },
+          {
+            "pmid": "9839258",
+            "title": "Diagnosing candidiasis. A new, cost-effective technique.",
+            "abstract": "To demonstrate the efficacy of normal saline as a culture medium for the rapid growth and detection of Candida.",
+            "journal": "The Journal of reproductive medicine",
+            "year": "1998",
+            "authors": [
+              "Cibley L J",
+              "Cibley L J",
+              "Baldwin D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Vulvovaginal",
+              "Cost-Benefit Analysis",
+              "Culture Media",
+              "Female",
+              "Humans",
+              "Mycological Typing Techniques",
+              "Reproducibility of Results",
+              "Sensitivity and Specificity",
+              "Sodium Chloride",
+              "Vaginal Smears"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9839258/"
+          },
+          {
+            "pmid": "27423947",
+            "title": "Effects of oral calcium supplementation on mineral and acid-base status, energy metabolites, and health of postpartum dairy cows.",
+            "abstract": "Two experiments were conducted to characterize blood concentrations of minerals and acid-base status after oral dosing of Ca salts and to determine the effects of oral Ca on mineral and metabolic status and incidence diseases. The hypotheses were that administration of oral Ca as CaCl2 and CaSO4 maintains blood total Ca (tCa) concentrations ≥2.125 mM and reduces the incidence of diseases in early lactation. In experiment 1, 18 Holstein cows on the day of calving were assigned to receive a single dose of 0, 43, or 86g of Ca as an oral bolus. Blood was sampled before and after treatments to characterize acid-base status and concentrations of minerals. In experiment 2, 450 Holstein cows considered of low (LRM; normal calving) or high risk (HRM; dystocia, twins, stillbirth, retained placenta, vulvo-vaginal laceration, or a combination of these) of metritis (primiparous-LRM=84; primiparous-HRM=84; multiparous-LRM=138; multiparous-HRM=138) on the day of calving were blocked by parity and the",
+            "journal": "Journal of dairy science",
+            "year": "2016",
+            "authors": [
+              "Martinez N",
+              "Sinedino L D P",
+              "Bisinotto R S",
+              "Daetz R",
+              "Lopera C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "3-Hydroxybutyric Acid",
+              "Administration, Oral",
+              "Animal Feed",
+              "Animal Nutritional Physiological Phenomena",
+              "Animals",
+              "Blood Glucose",
+              "Calcium Chloride",
+              "Calcium Sulfate",
+              "Calcium, Dietary",
+              "Cattle"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27423947/"
+          },
+          {
+            "pmid": "33860751",
+            "title": "Chills, fatigue, chest distress, and an abnormal increase in WBC, neutrophil, CRP, and PCT induced by terconazole: A case report.",
+            "abstract": "The vaginal routes of administration of terconazole, a synthetic triazole derivative, is widely used by patients with uncomplicated vulvovaginal candidiasis (VVC). A 32-year-old woman suffered from chills, fatigue, and chest distress after receiving one 80-mg terconazole vaginal suppository for the treatment of uncomplicated VVC. Then, the symptom persisted for 10 hours until the residue of terconazole was removed, and the vagina was repeatedly washed with iodophor. In addition, white blood cell (WBC), neutrophil, C-reactive protein (CRP), and procalcitonin (PCT) were tested and showed marked increase when the patient visited our hospital again on the next day after the treatment with terconazole. Intriguingly, these parameters gradually decreased after a single dose of intravenous fluids (0.9% sodium chloride injection 500 mL and 10% glucose injection 500 mL) instead of the antibiotic therapy. On the third day, WBC and neutrophils returned to normal levels. Thus, according to the Nara",
+            "journal": "International journal of clinical pharmacology and therapeutics",
+            "year": "2021",
+            "authors": [
+              "Li Xuemei",
+              "Yang Xiaohong",
+              "Wang Kejing",
+              "Chen Lin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "C-Reactive Protein",
+              "Chills",
+              "Fatigue",
+              "Female",
+              "Humans",
+              "Neutrophils",
+              "Procalcitonin",
+              "Triazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33860751/"
+          },
+          {
+            "pmid": "22301569",
+            "title": "Does vaginal irrigation with saline solution in women with infectious vaginitis contribute to the clinical and microbiological results of antibiotic therapy?",
+            "abstract": "To compare the clinical and microbiological results between patients with infectious vaginitis receiving vaginal irrigation with saline or no irrigation before standard antibiotic therapy.",
+            "journal": "Gynecologic and obstetric investigation",
+            "year": "2012",
+            "authors": [
+              "Derbent Aysel Uysal",
+              "Ulukanlıgil Mustafa",
+              "Keskin Esra Aktepe",
+              "Soylu Gül",
+              "Kafalı Hasan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Candida",
+              "Candidiasis, Vulvovaginal",
+              "Chlamydia trachomatis",
+              "Combined Modality Therapy",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22301569/"
+          },
+          {
+            "pmid": "19643525",
+            "title": "Can vaginal pH be measured from the wet mount slide?",
+            "abstract": "To assess the accuracy of vaginal pH measurement on wet mount microscopy slides compared with direct measurements on fresh vaginal fluid. We also tested whether differences in accuracy were dependent on the sampling devices used or on the diagnosis of the vaginal infections.",
+            "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+            "year": "2009",
+            "authors": [
+              "Donders G",
+              "Slabbaert K",
+              "Vancalsteren K",
+              "Pelckmans S",
+              "Bellen G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Body Fluids",
+              "False Positive Reactions",
+              "Female",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Microscopy",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19643525/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvitis",
+        "txgnn_score": 0.963469922542572,
+        "txgnn_rank": 23307,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01230814",
+            "title": "A Double-Blind, Randomized Trial of Monthly Treatment With Topical Metronidazole and Miconazole Co-formulated Vaginal Suppositories Versus Placebo for Preventing Vaginal Infections in HIV-seronegative Women",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-04",
+            "completion_date": "2013-08",
+            "country": "United States, Kenya",
+            "enrollment": 234,
+            "brief_summary": "This research study is about vaginal infections such as bacterial vaginosis, yeast infections, and trichomoniasis. Usually, these infections can be treated with medication, but sometimes they come back after treatment. Researchers want to know if using vaginal suppositories can decrease the risk of vaginal infections. Participants will include 234 women who are sexually active (greater than or equal to 4 episodes of sex with men during the past month), HIV-negative, 18 to 45 years old, with bact",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent obtained and informed consent form (ICF) signed.\n* Female, aged 18-45 years.\n* Sexually active with greater than or equal to 4 episodes of sex with a male partner during the past month.\n* Human immunodeficiency virus (HIV)-seronegative on both HIV tests in par",
+            "endpoints": [
+              "Efficacy of Monthly Periodic Presumptive Treatment (PPT) Using Metronidazole With Miconazole Intravaginal Suppositories Versus Matching Placebo Nightly for Five Nights Each Month for Preventing Vulvovaginal Candidiasis (VVC).",
+              "Efficacy of Monthly Periodic Presumptive Treatment (PPT) Using Metronidazole With Miconazole Intravaginal Suppositories Versus Matching Placebo Nightly for Five Nights Each Month for Preventing Bacterial Vaginosis (BV)."
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT01230814"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01926028",
+            "title": "Phase 1b/2a, Multi-center, Double-blind, Randomized, Placebo-controlled Study of a Single Dose of NDV-3A or NDV-3 Vaccine to Evaluate Safety, Tolerability, Immunogenicity and Efficacy in Preventing Recurrent Vulvovaginal Candidiasis",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-07",
+            "completion_date": "2016-05",
+            "country": "United States",
+            "enrollment": 188,
+            "brief_summary": "This is a multi-center, randomized, double-blind, placebo-controlled study intended to assess the safety, tolerability and humoral and cellular immune response over a 12-month period after receiving one dose of either the NDV-3A vaccine, NDV-3 vaccine, or placebo. In addition, the clinical efficacy of NDV-3A vaccine in lowering the recurrence rate of vulvovaginal candidiasis (VVC) in patients with recurrent VVC (RVVC) will be evaluated relative to placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has been informed of the nature of the study and has agreed to and is able to read, review, and sign the informed consent document prior to Screening.\n* Is a female between 18-50 years of age, inclusive, at the time of vaccination on an acceptable form of birth control.\n* Has ",
+            "endpoints": [
+              "Summary of Injection Site Reactions for the Safety Population Over the 12-months Post Vaccination Period"
+            ],
+            "sponsor": "NovaDigm Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01926028"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00616330",
+            "title": "Vaginal Infection Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-01",
+            "completion_date": "2009-12",
+            "country": "Russia, Puerto Rico, United States, India",
+            "enrollment": 1443,
+            "brief_summary": "This study will evaluate the efficacy and safety of a vaginal product compared with that of other vaginal products in the treatment of vaginal infections.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have a clinical diagnosis of vaginal infection.\n* Patients must be post-menopausal, surgically sterilized or using an acceptable form of birth control.\n\nExclusion Criteria:\n\n* Patients must not have any other infections\n* May not be pregnant or nursing\n* May not ",
+            "endpoints": [
+              "Clinical symptom resolution."
+            ],
+            "sponsor": "Lumara Health, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00616330"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05795491",
+            "title": "Effect of Blue Light Emitting Diode Therapy on Recurrent Vulvovaginal Candidiasis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-04-01",
+            "completion_date": "2023-06-01",
+            "country": "Egypt",
+            "enrollment": 60,
+            "brief_summary": "With the knowledge that VVC is an infectious disease of the genitourinary tract that is common in women of reproductive age, and because of the shortage of non-drug therapies for this condition, this study will aim to evaluate the effect of ultraviolet A/blue LED with a wavelength of 401 ± 5 nm in patients with a clinical manifestation of candidiasis and its ability to prevent recurrence.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nsubject selection will be according to the following criteria:\n\n1. Age will range between 18- 50 years.\n2. All patients will be confirmed by culture and examination of fresh vaginal samples, to have VVC.\n3. All patients who will be enrolled to the study will have their informed ",
+            "endpoints": [
+              "Vaginal swab culture ."
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT05795491"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40925571",
+            "title": "Outbreak of post-parturient infectious pustular vulvovaginitis in a New Zealand dairy herd.",
+            "abstract": "In 2023, 160/245 (65%) 2-year-old KiwiCross dairy heifers from a seasonally calving Otago herd developed severe granular vulvovaginitis after calving.",
+            "journal": "New Zealand veterinary journal",
+            "year": "2026",
+            "authors": [
+              "O'Connell J P",
+              "Lawrence K E",
+              "Fermin L M",
+              "Vaatstra B",
+              "Eames M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Vulvovaginitis",
+              "Cattle",
+              "New Zealand",
+              "Cattle Diseases",
+              "Disease Outbreaks",
+              "Dairying",
+              "Ureaplasma Infections",
+              "Ureaplasma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40925571/"
+          },
+          {
+            "pmid": "9839258",
+            "title": "Diagnosing candidiasis. A new, cost-effective technique.",
+            "abstract": "To demonstrate the efficacy of normal saline as a culture medium for the rapid growth and detection of Candida.",
+            "journal": "The Journal of reproductive medicine",
+            "year": "1998",
+            "authors": [
+              "Cibley L J",
+              "Cibley L J",
+              "Baldwin D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Vulvovaginal",
+              "Cost-Benefit Analysis",
+              "Culture Media",
+              "Female",
+              "Humans",
+              "Mycological Typing Techniques",
+              "Reproducibility of Results",
+              "Sensitivity and Specificity",
+              "Sodium Chloride",
+              "Vaginal Smears"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9839258/"
+          },
+          {
+            "pmid": "22301569",
+            "title": "Does vaginal irrigation with saline solution in women with infectious vaginitis contribute to the clinical and microbiological results of antibiotic therapy?",
+            "abstract": "To compare the clinical and microbiological results between patients with infectious vaginitis receiving vaginal irrigation with saline or no irrigation before standard antibiotic therapy.",
+            "journal": "Gynecologic and obstetric investigation",
+            "year": "2012",
+            "authors": [
+              "Derbent Aysel Uysal",
+              "Ulukanlıgil Mustafa",
+              "Keskin Esra Aktepe",
+              "Soylu Gül",
+              "Kafalı Hasan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Candida",
+              "Candidiasis, Vulvovaginal",
+              "Chlamydia trachomatis",
+              "Combined Modality Therapy",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Prevalence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22301569/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postmenopausal atrophic vaginitis",
+        "txgnn_score": 0.961076021194458,
+        "txgnn_rank": 24004,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06508944",
+            "title": "Efficacy of Vaginal 17β-Estradiol on the Urinary Storage Symptoms in Postmenopausal Women: A Randomized Double-Blind, Placebo-Controlled Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2024-04-08",
+            "completion_date": "2024-10-31",
+            "country": "Thailand",
+            "enrollment": 86,
+            "brief_summary": "The goal of this clinical trial is to evaluate whether vaginal 17β-estradiol effectively treats storage symptoms of lower urinary tract symptoms (LUTS) and enhances quality of life. The main questions it aims to answer are:\n\n* What is the efficacy of vaginal 17β-estradiol treatment compared to placebo in alleviating storage symptoms of LUTS?\n* How does vaginal 17β-estradiol treatment affect the urethral maturation index and vaginal pH compared to placebo?\n* What impact does vaginal 17β-estradiol",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Presenting with storage phase symptom score more than/equal to 1 evaluated by the ICIQ-FLUTS questionnaire in these items\n\n   * Item 2a) nocturia and/or\n   * Item 3a) urgency and/or\n   * Item 5a) daytime frequency and/or\n   * Item 9a) UUI and/or\n   * Item 11a) SUI\n2. Being na",
+            "endpoints": [
+              "Storage symptom improvement"
+            ],
+            "sponsor": "Mahidol University",
+            "url": "https://clinicaltrials.gov/study/NCT06508944"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulceration of vulva",
+        "txgnn_score": 0.9584418535232544,
+        "txgnn_rank": 24645,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06165354",
+            "title": "Evaluating the Effectiveness in Supportive Treatment of Vaginitis of Vaginal-spraying Bacillus Probiotic Spore Suspension (LiveSpo X-Secret)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-12-01",
+            "completion_date": "2025-06-30",
+            "country": "Vietnam",
+            "enrollment": 120,
+            "brief_summary": "Vaginitis is a common reproductive infection in women worldwide, particularly in tropical and underdeveloped countries. Traditional antibiotic treatments can disrupt the balance of beneficial bacteria, requiring repeated use, seriously affecting women's health. Therefore, probiotics are microorganisms that are beneficial to human health when consumed in sufficient amounts, playing an important role in maintaining the balance of the body's microflora, especially in the intestines and vagina. Many",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women from 18 to 60 years old\n* Diagnosed with vaginitis with obvious symptoms and manifestations such as: vulvar/vaginal ulcers, inflammation, vaginal odor, vaginal itching, vaginal cololr, painful/ painful urination, lower abdominal pain; pain during sex; abnormal vaginal bl",
+            "endpoints": [
+              "Percentage of patients with free and/or reduced gynecological infection symptoms"
+            ],
+            "sponsor": "Anabio R&D",
+            "url": "https://clinicaltrials.gov/study/NCT06165354"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03045172",
+            "title": "A Double Blind Placebo Controlled Trial of Autologous Platelet Rich Plasma (PRP) Intradermal Injections for the Treatment of Vulvar Lichen Sclerosus",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-11",
+            "completion_date": "2018-10",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "Lichen sclerosus (LS) is a skin condition of the external genitals (vulva) of women. LS causes vulvar itching, pain, and burning. In addition, LS causes scarring of the vulva which may cause significant sexual dysfunction or pain. Lastly, 4-6% of women with LS will develop vulvar cancer.\n\nThe current \"gold standard\" treatment for lichen sclerosus is potent steroids creams. When used correctly, steroid creams help to decrease the symptoms of itching and burning and can prevent further vulvar scar",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female, 18 year or older\n* With a diagnosis of biopsy proven active vulvar lichen sclerosus\n* Signed written informed consent\n* Willingness and ability to comply with the study requirements\n* Subject must have a score of 5 or greater in the itching (pruritus) domain of the CSS",
+            "endpoints": [
+              "Clinical Scoring System for Vulvar Lichen Sclerosus"
+            ],
+            "sponsor": "Center for Vulvovaginal Disorders",
+            "url": "https://clinicaltrials.gov/study/NCT03045172"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar neoplasm",
+        "txgnn_score": 0.9578256011009216,
+        "txgnn_rank": 24776,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04169763",
+            "title": "A Phase I Study of Nelfinavir and Cisplatin Chemotherapy Concurrent With Pelvic Radiation for Locally Advanced Vulvar Cancer Not Amenable to Surgical Resection",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2020-08-07",
+            "completion_date": "2026-12-31",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "This phase I trial studies the side effects and best dose of nelfinavir when given together with cisplatin and external beam radiation therapy in treating patients with vulvar cancer that has spread to nearby tissue or lymph nodes (locally advanced) and cannot be removed by surgery. Nelfinavir is an antiviral drug normally used to treat human immunodeficiency virus (HIV). Drugs used in chemotherapy, such as cisplatin, work in different ways to stop the growth of tumor cells, either by killing th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients with primary, previously untreated, histologically confirmed invasive carcinoma of the vulva (any cell type) not amenable to surgical excision. Clinical stages T2-T4, N0-3, M0. Hematoxylin \\& eosin (H \\& E) stained slide showing documentation of the primary invasi",
+            "endpoints": [
+              "Recommended phase II dose (RP2D) of nelfinavir",
+              "Incidence of adverse events"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04169763"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00068406",
+            "title": "A Phase II Trial of Radiation Therapy and Weekly Cisplatin Chemotherapy for the Treatment of Locally-Advanced Squamous Cell Carcinoma of the Vulva",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-01",
+            "completion_date": "2012-01-20",
+            "country": "United States",
+            "enrollment": 61,
+            "brief_summary": "This phase II trial is studying how well giving radiation therapy together with cisplatin followed by surgery works in treating patients with locally advanced cancer of the vulva. Drugs used in chemotherapy such as cisplatin use different ways to stop tumor cells from dividing so they stop growing or die. Radiation therapy uses high-energy x-rays to damage tumor cells. Giving chemotherapy with radiation therapy before surgery may shrink the tumor so it can be removed during surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of locally advanced squamous cell carcinoma of the vulva\n\n  * T3 or T4 (N0-3, M0)\n* Not amenable to surgical resection by standard radical vulvectomy\n* Previously untreated disease\n* No recurrent disease\n* No vulvar melanoma or sarcoma\n* Performance status - GOG 0-3\n",
+            "endpoints": [
+              "Complete Clinical and Pathologic Response",
+              "Treatment-Related Adverse Effects (Grade 3 or Higher) During Study Treatment Period"
+            ],
+            "sponsor": "GOG Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT00068406"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01595061",
+            "title": "A Phase II Trial Evaluating Cisplatin (NSC #119875) and Gemcitabine (NSC #613327) Concurrent With Intensity-Modulated Radiation Therapy (IMRT) in the Treatment of Locally Advanced Squamous Cell Carcinoma of the Vulva (NCT #01595061)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2012-07-02",
+            "completion_date": "2022-09-23",
+            "country": "United States",
+            "enrollment": 57,
+            "brief_summary": "This phase II trial studies how well radiation therapy works when given with gemcitabine hydrochloride and cisplatin work in treating patients with squamous cell cancer of the vulva that has spread from where it started to nearby tissue or lymph nodes. Specialized radiation therapy that delivers a high dose of radiation directly to the tumor may kill more tumor cells and cause less damage to normal tissue. Drugs used in chemotherapy, such as gemcitabine hydrochloride and cisplatin, work in diffe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with locally advanced, previously untreated squamous cell carcinoma of the vulva\n* Patients with T2 or T3 primary tumors (N0-3, M0) not amenable to surgical resection by standard radical vulvectomy\n* Absolute neutrophil count (ANC) \\>= 1,500/mcl\n* Platelets \\>= 100,00",
+            "endpoints": [
+              "Complete Pathologic Response"
+            ],
+            "sponsor": "GOG Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT01595061"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01539317",
+            "title": "Therapy to Prevent Sexual Pain in Menopausal Survivors of Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-12",
+            "completion_date": "2013-11",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "The purpose of this protocol is to determine whether pain with sexual intercourse can be reduced in menopausal, breast cancer survivors and to evaluate the effectiveness of a non-hormonal therapy (Lidocaine Liquid) vs. a placebo liquid in reducing pain.\n\nThe investigators hypothesize that the pain arises in the vulvar vestibule. The investigators predict that the localized use of lidocaine will be more efficacious than use of placebo liquid.",
+            "eligibility_criteria": "Eligibility Criteria\n\n1. Women aged 18 to 70 years old.\n2. Has a previous diagnosis of breast cancer (ductal or lobular carcinoma, invasive).\n3. 1 year from diagnosis of breast cancer.\n4. Stable heterosexual partnership =/\\>5 years or by investigator discretion.\n5. More than 6 months of consistent i",
+            "endpoints": [
+              "Prevention of Entry Dyspareunia With Non-hormonal Therapy",
+              "Location of Pain in Postmenopausal Dyspareunia"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01539317"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06052696",
+            "title": "Adjuvant Nonavalent HPV Vaccination in Women Treated for Vulvar HSIL, a Randomised Placebo Controlled Trial",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2023-12-01",
+            "completion_date": "2030-12-01",
+            "country": "Netherlands",
+            "enrollment": 500,
+            "brief_summary": "Problem description:\n\nYearly, approximately 45000 women develop vulvar cancer worldwide. It is estimated that about 30% of all vulvar carcinomas are HPV related. As with other HPV related (pre)malignancies, the incidence has been rising over the past 20 years. The peak incidence of premalignant lesions of the vulva, also called Vulvar High Grade Squamous Intraepithelial Lesion (vHSIL), lies between 35 and 40 years of age. Multiple treatments are available, including surgery, laser vaporization, ",
+            "eligibility_criteria": "Inclusion criteria\n\n* Women 18 years or older\n* Vulvar High-grade Squamous Intraepithelial Lesion (vHSIL), histologically proven\n* Planned for treatment (surgical, laser or imiquimod) for vHSIL\n\nExclusion criteria\n\n* Prior HPV vaccination\n* (Micro-) invasive carcinoma or history of HPV related genit",
+            "endpoints": [
+              "Does additional HPV vaccination reduce the recurrence of vHSIL compared to placebo?"
+            ],
+            "sponsor": "Erasmus Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06052696"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06799494",
+            "title": "Comparing the Antibody and B Cell Responses Induced by 1- or 2-dose 9-valent HPV (9vHPV) Vaccination in Healthy Adults",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-08-06",
+            "completion_date": "2028-09",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "This study aims to answer the question: does 1-dose HPV vaccination generate the same immune responses compared to 2- or 3-dose HPV vaccination? This will be done by studying the immune response in blood, lymph nodes, and bone marrow.\n\nHuman papillomaviruses (HPV) cause cancers (cervical, anal, oropharyngeal, vulvar, vaginal, and penile), and the current HPV vaccine is highly effective at preventing disease by HPV types that cause 90% of cancer cases. While this vaccine generates high levels of ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Individuals aged 18-45 years old (inclusive), as the HPV vaccine is approved for this age range in adults\n* BMI ≤ 32\n* Able to understand and give informed consent (in American English).\n* In good health based on physical examination, vital signs, medical history, and the inve",
+            "endpoints": [
+              "Frequency of plasma cells specific for HPV16/18 virus like particles (VLPs)"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT06799494"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06392399",
+            "title": "Cooled Radiofrequency in Comparison to Either Conventional Radiofrequency Thermocoagulation or Neurolytic Block of Ganglion Impar in the Management of Perineal Cancer Pain",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-06",
+            "completion_date": "2026-06",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "Pain associated with neoplasms may be of somatic, visceral, or neuropathic origin.Visceral pain or pain that is mediated by the sympathetic fibers in the perineal area associated with malignancy in the pelvis may be effectively treated with neurolysis of impar ganglion.In recent years, radiofrequency lesioning of the ganglion Impar has evolved as a novel non pharmacological technique for the management of patients suffering from intractable perineal pain.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Cancer patients aged from 20-70 years old, with lower third cancer rectum, caner vulva, cancer vagina and cancer perineum.\n2. The intensity of perineal pain on VAS score ≥ 5.\n3. Unsatisfactory treatment with tramadol (400 mg daily) , Pregabalin (150 mg daily) or presence of s",
+            "endpoints": [
+              "Percentage of patients gaining ≥ 50% reduction of their pre procedural pain at VAS Score from baseline value."
+            ],
+            "sponsor": "Assiut University",
+            "url": "https://clinicaltrials.gov/study/NCT06392399"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06165354",
+            "title": "Evaluating the Effectiveness in Supportive Treatment of Vaginitis of Vaginal-spraying Bacillus Probiotic Spore Suspension (LiveSpo X-Secret)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-12-01",
+            "completion_date": "2025-06-30",
+            "country": "Vietnam",
+            "enrollment": 120,
+            "brief_summary": "Vaginitis is a common reproductive infection in women worldwide, particularly in tropical and underdeveloped countries. Traditional antibiotic treatments can disrupt the balance of beneficial bacteria, requiring repeated use, seriously affecting women's health. Therefore, probiotics are microorganisms that are beneficial to human health when consumed in sufficient amounts, playing an important role in maintaining the balance of the body's microflora, especially in the intestines and vagina. Many",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women from 18 to 60 years old\n* Diagnosed with vaginitis with obvious symptoms and manifestations such as: vulvar/vaginal ulcers, inflammation, vaginal odor, vaginal itching, vaginal cololr, painful/ painful urination, lower abdominal pain; pain during sex; abnormal vaginal bl",
+            "endpoints": [
+              "Percentage of patients with free and/or reduced gynecological infection symptoms"
+            ],
+            "sponsor": "Anabio R&D",
+            "url": "https://clinicaltrials.gov/study/NCT06165354"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01047345",
+            "title": "A Phase III, Randomized, International, Placebo-Controlled, Double-Blind Clinical Trial to Study the Tolerability and Immunogenicity of V503, a Multivalent Human Papillomavirus (HPV) L1 Virus-Like Particle (VLP) Vaccine, Given to Females 12-26 Years of Age Who Have Previously Received GARDASIL™",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-02-24",
+            "completion_date": "2015-11-28",
+            "country": "N/A",
+            "enrollment": 924,
+            "brief_summary": "This study will evaluate whether V503 (9vHPV vaccine), is well tolerated in girls and women between 12 and 26 years old who have previously been vaccinated with GARDASIL™. Participants will receive vaccination with 9vHPV vaccine or placebo on Day 1, Month 2, and Month 6 of the Base Study. Participants who receive placebo in the Base Study will be eligible to receive vaccination with 9vHPV vaccine on Day 1, Month 2, and Month 6 of the Extension Study.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nParticipants Age 12 to 15 Years:\n\n* Participant is in good health\n* Parent/legal guardian and participant agree to provide study personnel with a primary telephone number for follow-up\n* Participant received a 3-dose regimen of marketed GARDASIL™ within a 1 year period and the l",
+            "endpoints": [
+              "Percentage of Participants Who Experience an Injection-site Adverse Event (AE) - Base Study",
+              "Percentage of Participants With Body Temperature ≥100.0°F (≥37.8ºC) - Base Study",
+              "Percentage of Participants Who Experience a Systemic AE - Base Study"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01047345"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03284866",
+            "title": "A Randomized, Placebo-Controlled Trial of HPV Vaccination to Reduce Cervical High-Grade Squamous Intraepithelial Lesions Among HIV-Infected Women Participating in an HPV Test-and-Treat Program (COVENANT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-07-31",
+            "completion_date": "2025-08-05",
+            "country": "Zimbabwe, Malawi, Uganda, Kenya, South Africa",
+            "enrollment": 536,
+            "brief_summary": "This randomized phase III trial studies how well human papillomavirus (HPV) vaccine therapy works in reducing high-grade cervical lesions in patients with human immunodeficiency virus (HIV) and HPV. Vaccines made from HPV peptides or antigens may help the body build an effective immune response to kill the HPV virus and prevent cervical lesions from developing or coming back after being removed.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infection, documented by any licensed rapid HIV test or HIV enzyme or chemiluminescence immunoassay (E/CIA) test kit at any time prior to study entry and confirmed by a licensed western blot or a second antibody test by a method other than the initial rapid HIV and/or E/",
+            "endpoints": [
+              "Occurrence of cervical high-grade squamous intraepithelial lesions (HSIL) or cervical cancer"
+            ],
+            "sponsor": "AIDS Malignancy Consortium",
+            "url": "https://clinicaltrials.gov/study/NCT03284866"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07306611",
+            "title": "Regenerative Treatment of Female Genital Atrophy",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2024-06-04",
+            "completion_date": "2025-11-26",
+            "country": "Portugal",
+            "enrollment": 30,
+            "brief_summary": "Vulvovaginal health is a key aspect of active and healthy aging for all women. Hormonal deprivation that occurs during menopause significantly affects the anatomy and function of urogenital tissues, leading to their atrophy. Vaginal creams and suppositories containing estrogens are the standard treatment and can improve this condition. However, they require continuous application, which often makes adherence to treatment challenging. Additionally, women with hormone-dependent tumors, such as mos",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* At least one clinical complaint of VVA.\n\n  * Dryness\n  * Burning\n  * Itching\n  * Discomfort (soreness, irritation)\n  * Dyspareunia (sexual impaired function)\n  * With or without urinary problems (incontinence, urgency, dysuria). Must report a contra-indication with the standar",
+            "endpoints": [
+              "Efficacy of PRP treatment"
+            ],
+            "sponsor": "Instituto Politécnico de Leiria",
+            "url": "https://clinicaltrials.gov/study/NCT07306611"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03045172",
+            "title": "A Double Blind Placebo Controlled Trial of Autologous Platelet Rich Plasma (PRP) Intradermal Injections for the Treatment of Vulvar Lichen Sclerosus",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-11",
+            "completion_date": "2018-10",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "Lichen sclerosus (LS) is a skin condition of the external genitals (vulva) of women. LS causes vulvar itching, pain, and burning. In addition, LS causes scarring of the vulva which may cause significant sexual dysfunction or pain. Lastly, 4-6% of women with LS will develop vulvar cancer.\n\nThe current \"gold standard\" treatment for lichen sclerosus is potent steroids creams. When used correctly, steroid creams help to decrease the symptoms of itching and burning and can prevent further vulvar scar",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female, 18 year or older\n* With a diagnosis of biopsy proven active vulvar lichen sclerosus\n* Signed written informed consent\n* Willingness and ability to comply with the study requirements\n* Subject must have a score of 5 or greater in the itching (pruritus) domain of the CSS",
+            "endpoints": [
+              "Clinical Scoring System for Vulvar Lichen Sclerosus"
+            ],
+            "sponsor": "Center for Vulvovaginal Disorders",
+            "url": "https://clinicaltrials.gov/study/NCT03045172"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "7047788",
+            "title": "Ineffectiveness of topical idoxuridine in dimethyl sulfoxide for therapy for genital herpes.",
+            "abstract": "The efficacy and toxicity of topical applications of 30% idoxuridine in dimethyl sulfoxide, dimethyl sulfoxide alone, or saline in 96 recurrent and 39 first episodes of genital herpes simplex virus (HSV) infection were compared. Drug was applied to lesions four times daily for seven days. In recurrent episodes, the duration of viral shedding after beginning idoxuridine in dimethyl sulfoxide use was significantly shorter (0.6 days) than with dimethyl sulfoxide (1.4 days) or saline (2.0 days) (P less than .05). In primary episodes, viral shedding lasted 2.6 days with idoxuridine in dimethyl sulfoxide and 8.4 days with dimethyl sulfoxide or saline. Idoxuridine in dimethyl sulfoxide had no effect in recurrent or primary HSV on duration of symptoms, new lesion formation, healing time, or risk of subsequent recurrence. Complications in patients given idoxuridine in dimethyl sulfoxide included local burning, generalized contact dermatitis, and vulvar carcinoma in situ. Thirty percent idoxurid",
+            "journal": "JAMA",
+            "year": "1982",
+            "authors": [
+              "Silvestri D L",
+              "Corey L",
+              "Holmes K K"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Clinical Trials as Topic",
+              "Dermatitis, Contact",
+              "Dimethyl Sulfoxide",
+              "Double-Blind Method",
+              "Drug Evaluation",
+              "Female",
+              "Herpes Genitalis",
+              "Humans",
+              "Idoxuridine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7047788/"
+          },
+          {
+            "pmid": "2775056",
+            "title": "Regression of bovine vulval squamous cell carcinoma after immunotherapy.",
+            "abstract": "",
+            "journal": "Australian veterinary journal",
+            "year": "1989",
+            "authors": [
+              "Samuel J L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Immunologic",
+              "Animals",
+              "Carcinoma, Squamous Cell",
+              "Cattle",
+              "Cattle Diseases",
+              "Female",
+              "Immunotherapy",
+              "Phenols",
+              "Quillaja Saponins",
+              "Remission Induction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2775056/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blunt duct adenosis of breast",
+        "txgnn_score": 0.9575097560882568,
+        "txgnn_rank": 24847,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "apocrine adenosis of breast",
+        "txgnn_score": 0.9575097560882568,
+        "txgnn_rank": 24848,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2140797",
+            "title": "Evaluation of human breast cysts according to their biochemical and hormonal composition, and cytologic examination.",
+            "abstract": "Breast cyst fluids were aspirated during the mild luteal phase of the menstrual cycle from 88 patients with gross cystic disease. According to intracystic Na+/K+ ratio three categories of cyst were identified: Type I with low Na+/K+ ratio, low levels of chloride, glucose, and pH, and high concentrations of dehydroepiandrosterone-sulphate (DHAS) and apocrine epithelium; Type II with high Na+/K+ ratio presenting levels of chloride, glucose, pH, and DHAS similar to those found in plasma, and flattened epithelium; Type III with intermediate values for the above parameters. The findings suggest that the cysts could correspond to the different functional stages of the epithelium lining the cysts. Cyst classification was evaluated using a discriminant analysis, which allows breast cyst fluids to be assigned within a category defined by the Na+/K+ ratio. The apparent correct rate for each category was more than 87%. The variables that better discriminate among groups of cysts were chloride, gl",
+            "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+            "year": "1990",
+            "authors": [
+              "Vizoso F",
+              "Fueyo A",
+              "Allende M T",
+              "Fernández J",
+              "García-Morán M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dehydroepiandrosterone",
+              "Dehydroepiandrosterone Sulfate",
+              "Discriminant Analysis",
+              "Female",
+              "Fibrocystic Breast Disease",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Luteal Phase",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2140797/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign mammary dysplasia",
+        "txgnn_score": 0.9556559920310974,
+        "txgnn_rank": 25303,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02887937",
+            "title": "Qualitative and Quantitative Analysis of Cystic Breast Masses by Contrast Enhanced Ultrasound: Is Biopsy Necessary?",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-08-16",
+            "completion_date": "2018-04-29",
+            "country": "United States",
+            "enrollment": 135,
+            "brief_summary": "The overarching goal of the proposed research is to evaluate whether qualitative and quantitative parameters in real time contrast enhanced ultrasound (CEUS) can aid in assessing suspicious indeterminate cystic appearing breast masses and ultimately determine whether or not an ultrasound guided biopsy is necessary. The underlying hypothesis is that breast masses (given BIRADS 4) that lack enhancement on CEUS will have a benign histology obtained by ultrasound guided core biopsy and/or surgery. T",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\>18 years of age\n* recommended for an ultrasound guided biopsy due to breast mass detection\n\nExclusion Criteria:\n\n* \\< 18 years of age\n* prior history of breast cancer\n* prior history of biopsy for that specific lesion\n* any condition that would be a contraindication to the m",
+            "endpoints": [
+              "lesions of malignant vs. benign biopsy histology"
+            ],
+            "sponsor": "University of Southern California",
+            "url": "https://clinicaltrials.gov/study/NCT02887937"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast abscess",
+        "txgnn_score": 0.9433462023735046,
+        "txgnn_rank": 28145,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04127071",
+            "title": "Study Protocol for A Randomized Controlled Trial of Incision and Drainage Versus Ultrasound-Guided Needle Aspiration for Uncomplicated Skin Abscesses",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2020-06-01",
+            "completion_date": "2020-12-31",
+            "country": "N/A",
+            "enrollment": 40,
+            "brief_summary": "Incision and drainage (I\\&D) is the standard guideline treatment of uncomplicated skin abscesses (a boil or bumo beneath the skin). Ultrasound-guided needle aspiration (USGNA) is a minimally invasive and less painful alternative treatment, but has not been validated as non-inferior to I\\&D. Multiple studies have shown successful treatment with USGNA of breast, face, neck, and/or trunk abscesses in combination with oral antibiotics with success rates as high as 97%.\n\nIn 2011 Gaspari et al. publis",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Non-toxic patients who present with an uncomplicated, superficial skin abscess of the head/neck, torso, extremities, and buttock will be eligible for inclusion.\n2. Abscesses must be verified by physical examination and bedside ultrasound.\n3. Patients with clinical history of ",
+            "endpoints": [
+              "Abscess cure or treatment failure"
+            ],
+            "sponsor": "Wayne State University",
+            "url": "https://clinicaltrials.gov/study/NCT04127071"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04637711",
+            "title": "Randomized Controlled Trial for 'Focus Clearing + Whole Breast Exploration and Washing + One-Stage Micro Plastic Surgery' Treatment for Granulomatous Lobular Mastitis",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2020-11-01",
+            "completion_date": "2027-06-30",
+            "country": "China",
+            "enrollment": 300,
+            "brief_summary": "Granulomatous lobular mastitis (GLM) belongs to a group of benign diseases, which is mainly treated with glucocorticoids and surgical treatment. Nowadays, in China, surgical treatment has gradually become the mainstream, but the timing and the extent of surgery are still controversial, and different literatures report that the recurrence rate after surgery is 20-50%. Empirical lesion resection is generally used. We believe that the main reason for the high recurrence rate is the incomplete remov",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 18 years or older with granulomatous lobular mastitis\n* Patients without surgical treatment;\n* Extensive lesions involving two or more quadrants of the breast, or accompanied by abscess, sinus fistula formation, skin rupture and other complex lesions;\n* Patients ",
+            "endpoints": [
+              "Recurrence rate"
+            ],
+            "sponsor": "Wuhan University",
+            "url": "https://clinicaltrials.gov/study/NCT04637711"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06605118",
+            "title": "Azithromycin Prophylaxis for Prelabor Cesarean Delivery Trial",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-11-06",
+            "completion_date": "2027-11-30",
+            "country": "United States",
+            "enrollment": 8000,
+            "brief_summary": "This is a phase-III multi-center double-blind randomized controlled trial of 8,000 individuals undergoing a scheduled or prelabor cesarean delivery who are randomized to either adjunctive azithromycin prophylaxis or to placebo. Both groups also will receive standard of care preoperative antibiotics (excluding azithromycin). The primary endpoint is a maternal infection composite defined as any one of the following up to 6 weeks postpartum: endometritis, wound infection, abscess, septic thrombosis",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥ 23 weeks' gestation (ACOG dating criteria)\n* Scheduled or prelabor cesarean delivery\n* Singleton or twin gestation\n\nExclusion Criteria:\n\n* Allergy or contraindication to azithromycin or macrolide antibiotics, including those with a history of cholestatic jaundice/hepatic dys",
+            "endpoints": [
+              "Maternal infection composite"
+            ],
+            "sponsor": "The George Washington University Biostatistics Center",
+            "url": "https://clinicaltrials.gov/study/NCT06605118"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04100083",
+            "title": "Spironolactone in the Treatment of Hidradenitis Suppurativa: a Prospective, Open-Label Proof-of-Concept and Dose-Ranging Study",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2020-09-21",
+            "completion_date": "2021-06-21",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to evaluate if the drug spironolactone - which is used to treat acne and male pattern hair growth in women - is effective in treating hidradenitis suppurativa in females and which dose of the drug works the best. Participation in this study will take about 4 clinic visits over approximately 7 months with the option to continue for longer if desired.",
+            "eligibility_criteria": "Individuals will be screened for eligibility by a screening visit conducted by named investigators.\n\nInclusion Criteria To be eligible for the study: (All answers must be \"YES\" for subject to be eligible.)\n\n1. Subject must have clinically diagnosed hidradenitis suppurativa, with an inadequate respon",
+            "endpoints": [
+              "Proportion of patients with 2 grade improvement in Hidradenitis Suppurativa as assessed by physicians global assessment score"
+            ],
+            "sponsor": "Medical University of South Carolina",
+            "url": "https://clinicaltrials.gov/study/NCT04100083"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07268846",
+            "title": "Randomized Clinical Trial on the Use of Preoperative Postbiotic Supplementation in Colorectal Cancer Surgery",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-06-01",
+            "completion_date": "2027-06-01",
+            "country": "Brazil",
+            "enrollment": 164,
+            "brief_summary": "The treatment of colorectal cancer, in the absence of metastases, is primarily based on surgical removal. Colorectal surgery, which involves resecting part of the intestine and restoring intestinal continuity, carries a risk of complications. This study aims to evaluate whether oral supplementation with a postbiotic at a dose of 900 mg for 7 days prior to surgery reduces the rate of postoperative complications.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Individuals diagnosed with malignant neoplasm of the large intestine, specifically adenocarcinoma.\n* Patients over 18 years of age, of both sexes.\n* Patients who agree to participate in the study and sign the informed consent form.\n\nExclusion Criteria:\n\n* Emergency or urgent s",
+            "endpoints": [
+              "Postoperative complications within 30 days (Clavien-Dindo grade II or higher)"
+            ],
+            "sponsor": "AC Camargo Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT07268846"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07179003",
+            "title": "A Phase 2 Study of Methylene Blue Photodynamic Therapy for Treatment of Breast Abscesses",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-04",
+            "completion_date": "2031-03",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "The objective of this Phase 2 study is to evaluate the efficacy of methylene blue photodynamic therapy (MB-PDT) performed at the time of percutaneous breast abscess drainage for disinfection of breast abscesses. The study includes two arms: (1) standard of care breast abscess drainage and (2) MB-PDT plus standard of care breast abscess drainage. The primary endpoint is time to resolution of clinical symptoms. Secondary endpoints include imaging evidence of abscess resolution, abscess recurrence,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults 18 years or older\n* Clinical signs of breast abscess, including pain, redness, and/or heat of the breast\n* Approval by the primary care team to pursue PDT and discuss enrollment with the patient\n\nExclusion Criteria:\n\n* Pregnancy\n* Lactation\n* Allergy to contrast media, ",
+            "endpoints": [
+              "Time to resolution of clinical symptoms"
+            ],
+            "sponsor": "University of Rochester",
+            "url": "https://clinicaltrials.gov/study/NCT07179003"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26941539",
+            "title": "Antioxidant and Cytotoxic Effect of Barringtonia racemosa and Hibiscus sabdariffa Fruit Extracts in MCF-7 Human Breast Cancer Cell Line.",
+            "abstract": "The fruits of Barringtonia racemosa and Hibiscus sabdariffa have been used in the treatment of abscess, ulcer, cough, asthma, and diarrhea as traditional remedy.",
+            "journal": "Pharmacognosy research",
+            "year": "2016",
+            "authors": [
+              "Amran Norliyana",
+              "Rani Anis Najwa Abdul",
+              "Mahmud Roziahanim",
+              "Yin Khoo Boon"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26941539/"
+          },
+          {
+            "pmid": "15615976",
+            "title": "Complications after percutaneous saline-enhanced radiofrequency ablation of liver tumors: 3-year experience with 336 patients at a single center.",
+            "abstract": "Our objective was to report the complications that occurred in a large series of patients with primary or metastatic liver tumors treated with percutaneous saline-enhanced radiofrequency ablation under sonographic guidance at a single center during 3 years of experience.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2005",
+            "authors": [
+              "Giorgio Antonio",
+              "Tarantino Luciano",
+              "de Stefano Giorgio",
+              "Coppola Carmine",
+              "Ferraioli Giovanna"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Carcinoma, Hepatocellular",
+              "Catheter Ablation",
+              "Cholangiocarcinoma",
+              "Female",
+              "Humans",
+              "Liver Neoplasms",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15615976/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09153",
+    "name": "Sodium chloride",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sodium chloride"
+      },
+      "queried_at": "2026-03-10T08:46:14.139535",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sodium chloride"
+      },
+      "queried_at": "2026-03-10T08:46:15.360473",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T08:46:15.955925",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T08:46:19.684646",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T08:46:21.520760",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T08:46:22.610034",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T08:46:25.807651",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T08:46:27.691231",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T08:46:28.332044",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T08:46:31.022067",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T08:46:34.536625",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "queried_at": "2026-03-10T08:46:36.082607",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "queried_at": "2026-03-10T08:46:40.078406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "queried_at": "2026-03-10T08:46:41.437557",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "ulceration of vulva"
+      },
+      "queried_at": "2026-03-10T08:46:43.624046",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "ulceration of vulva"
+      },
+      "queried_at": "2026-03-10T08:46:48.022769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "ulceration of vulva"
+      },
+      "queried_at": "2026-03-10T08:46:49.208080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvar neoplasm"
+      },
+      "queried_at": "2026-03-10T08:46:53.309696",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvar neoplasm"
+      },
+      "queried_at": "2026-03-10T08:46:56.409969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "vulvar neoplasm"
+      },
+      "queried_at": "2026-03-10T08:46:58.914411",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:46:59.713384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:47:03.341103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:47:04.524308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:47:05.161012",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:47:08.390358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:47:11.223083",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T08:47:11.862313",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T08:47:15.818184",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T08:47:16.861832",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "breast abscess"
+      },
+      "queried_at": "2026-03-10T08:47:17.649672",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "breast abscess"
+      },
+      "queried_at": "2026-03-10T08:47:20.663063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium chloride",
+        "disease": "breast abscess"
+      },
+      "queried_at": "2026-03-10T08:47:22.463621",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:47:22.466371"
+  }
+}

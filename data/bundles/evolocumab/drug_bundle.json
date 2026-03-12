@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Evolocumab",
+    "drugbank_id": "DB09303",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "symptomatic form of hemophilia in female carriers",
+        "txgnn_score": 0.9981552958488464,
+        "txgnn_rank": 3204,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial apolipoprotein C-II deficiency",
+        "txgnn_score": 0.9950152039527892,
+        "txgnn_rank": 6477,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombocytopenic purpura",
+        "txgnn_score": 0.9942489862442015,
+        "txgnn_rank": 7157,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "factor XI deficiency",
+        "txgnn_score": 0.9929365515708924,
+        "txgnn_rank": 8285,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemophilia A with vascular abnormality",
+        "txgnn_score": 0.9921886920928956,
+        "txgnn_rank": 8877,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disease of catalytic activity",
+        "txgnn_score": 0.9907604455947876,
+        "txgnn_rank": 9990,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disease of newborn",
+        "txgnn_score": 0.9889079928398132,
+        "txgnn_rank": 11345,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ichthyosis, X-linked, without steroid sulfatase deficiency",
+        "txgnn_score": 0.9884194135665894,
+        "txgnn_rank": 11733,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inherited thrombophilia",
+        "txgnn_score": 0.9882197380065918,
+        "txgnn_rank": 11892,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disorder of other vitamins and cofactors metabolism and transport",
+        "txgnn_score": 0.988049566745758,
+        "txgnn_rank": 12029,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09303",
+    "name": "Evolocumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Evolocumab"
+      },
+      "queried_at": "2026-03-09T21:00:54.459711",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Evolocumab"
+      },
+      "queried_at": "2026-03-09T21:01:03.994893",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "symptomatic form of hemophilia in female carriers"
+      },
+      "queried_at": "2026-03-09T21:01:05.541277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "symptomatic form of hemophilia in female carriers"
+      },
+      "queried_at": "2026-03-09T21:01:11.482791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "symptomatic form of hemophilia in female carriers"
+      },
+      "queried_at": "2026-03-09T21:01:13.371333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-09T21:01:14.784660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-09T21:01:24.484699",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-09T21:01:25.862478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T21:01:28.256082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T21:01:33.204137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T21:01:35.314282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "factor XI deficiency"
+      },
+      "queried_at": "2026-03-09T21:01:37.667248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "factor XI deficiency"
+      },
+      "queried_at": "2026-03-09T21:01:44.023078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "factor XI deficiency"
+      },
+      "queried_at": "2026-03-09T21:01:45.061118",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "hemophilia A with vascular abnormality"
+      },
+      "queried_at": "2026-03-09T21:01:45.714122",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "hemophilia A with vascular abnormality"
+      },
+      "queried_at": "2026-03-09T21:01:52.189188",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "hemophilia A with vascular abnormality"
+      },
+      "queried_at": "2026-03-09T21:01:54.466020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "disease of catalytic activity"
+      },
+      "queried_at": "2026-03-09T21:01:55.616529",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "disease of catalytic activity"
+      },
+      "queried_at": "2026-03-09T21:02:01.876439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "disease of catalytic activity"
+      },
+      "queried_at": "2026-03-09T21:02:04.256485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-09T21:02:05.990147",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-09T21:02:13.695046",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-09T21:02:16.103895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "ichthyosis, X-linked, without steroid sulfatase deficiency"
+      },
+      "queried_at": "2026-03-09T21:02:17.113484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "ichthyosis, X-linked, without steroid sulfatase deficiency"
+      },
+      "queried_at": "2026-03-09T21:02:22.070713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "ichthyosis, X-linked, without steroid sulfatase deficiency"
+      },
+      "queried_at": "2026-03-09T21:02:23.512169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "inherited thrombophilia"
+      },
+      "queried_at": "2026-03-09T21:02:25.381919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "inherited thrombophilia"
+      },
+      "queried_at": "2026-03-09T21:02:34.438731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "inherited thrombophilia"
+      },
+      "queried_at": "2026-03-09T21:02:35.765170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "disorder of other vitamins and cofactors metabolism and transport"
+      },
+      "queried_at": "2026-03-09T21:02:37.020525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "disorder of other vitamins and cofactors metabolism and transport"
+      },
+      "queried_at": "2026-03-09T21:02:42.371698",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Evolocumab",
+        "disease": "disorder of other vitamins and cofactors metabolism and transport"
+      },
+      "queried_at": "2026-03-09T21:02:43.786397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T21:02:43.800075"
+  }
+}

@@ -1,0 +1,1418 @@
+{
+  "drug": {
+    "inn": "Oxybutynin",
+    "drugbank_id": "DB01062",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "restless legs syndrome",
+        "txgnn_score": 0.997430145740509,
+        "txgnn_rank": 4100,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroduodenitis",
+        "txgnn_score": 0.996184766292572,
+        "txgnn_rank": 5435,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peptic ulcer disease",
+        "txgnn_score": 0.9931471943855286,
+        "txgnn_rank": 8124,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2360335",
+            "title": "Oxybutynin-induced reflux esophagitis.",
+            "abstract": "Oxybutynin has less anticholinergic activity than propantheline bromide. Therefore, oxybutynin is often preferentially prescribed for patients at risk of morbid complications of atropine-like adverse effects. We report a case of oxybutynin-induced reflux esophagitis. This probably resulted from the anticholinergic action of oxybutynin, which decreased lower esophageal sphincter tone. We outline a management approach for patients who experience this adverse effect due to oxybutynin or other commonly prescribed medications.",
+            "journal": "DICP : the annals of pharmacotherapy",
+            "year": "1990",
+            "authors": [
+              "Lee M",
+              "Sharifi R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cerebral Palsy",
+              "Esophagitis, Peptic",
+              "Female",
+              "Humans",
+              "Mandelic Acids",
+              "Parasympatholytics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2360335/"
+          },
+          {
+            "pmid": "14173506",
+            "title": "A CLINICAL EVALUATION OF OXYBUTYNIN CHLORIDE IN THE TREATMENT OF GASTROINTESTINAL DISEASE.",
+            "abstract": "",
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "1964",
+            "authors": [
+              "ROSSMAN M E",
+              "MERLIS S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Amines",
+              "Colitis",
+              "Colonic Diseases",
+              "Diverticulum, Esophageal",
+              "Drug Therapy",
+              "Duodenal Diseases",
+              "Duodenal Ulcer",
+              "Enteritis",
+              "Gastritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14173506/"
+          },
+          {
+            "pmid": "4380481",
+            "title": "Oxybutynin--a musculotropic antispasmodic drug with moderate anticholinergic action.",
+            "abstract": "",
+            "journal": "Archives internationales de pharmacodynamie et de therapie",
+            "year": "1965",
+            "authors": [
+              "Lish P M",
+              "Labudde J A",
+              "Peters E L",
+              "Robbins S I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ampulla of Vater",
+              "Animals",
+              "Atropine",
+              "Central Nervous System",
+              "Colon",
+              "Colonic Diseases, Functional",
+              "Diphenylacetic Acids",
+              "Dogs",
+              "Gastric Mucosa",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4380481/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "low compliance bladder",
+        "txgnn_score": 0.9788392186164856,
+        "txgnn_rank": 17566,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05745584",
+            "title": "Effect of Mirabegron on Bladder Compliance ; a Prospective Paired Comparison of Mirabegron and Anticholinergics in Patients With Low Bladder Compliance",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2016-01-12",
+            "completion_date": "2023-03-02",
+            "country": "South Korea",
+            "enrollment": 15,
+            "brief_summary": "In many cases of neurogenic bladder patients, bladder compliance is lowered, which is a factor that deteriorates renal function. It is known that deterioration of renal function is accompanied in 50 to 70% of patients with low bladder compliance. For patients with poor bladder compliance, a consensus has not yet been established regarding the treatment method. This is especially true in the case of drug treatment rather than surgical methods. There are limited cases where bladder compliance is i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients over 19 years of age\n2. Bladder compliance is 20ml/cmH2O or less\n3. Patient who has been treated with antimuscarinic for at least 1 month, but has not been effective.\n4. Patient who agrees to and signs the informed consent\n\nExclusion Criteria:\n\n1. Those who have take",
+            "endpoints": [
+              "Comparison of changes in Bladder compliance at 8 weeks after administration of each drug"
+            ],
+            "sponsor": "Yonsei University",
+            "url": "https://clinicaltrials.gov/study/NCT05745584"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07027020",
+            "title": "Efficacy of Intravesical Oxybutynin in Children With Neurogenic Bladder Dysfunction: A Randomized, Prospective Controlled Multi-center Trial",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-09",
+            "completion_date": "2027-10",
+            "country": "France",
+            "enrollment": 60,
+            "brief_summary": "Malformation of the lumbosacral region (spina bifida) affects the innervation of the bladder in children. The usual evolution leads to a neurological bladder with small capacity, poor compliancy and overactivity, exposing to incontinence and obstruction to the evacuation of urine. It is responsible for renal failure requiring dialysis and transplantation. Current therapeutics aim to evacuate urine and reduce intravesical pressure. It gradually combines 1) intermittent catheterization, 2) anticho",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Person affiliated to or beneficiary of a social security plan\n* In failure of treatment with one or more anticholinergics defined by a response considered insufficient by the investigator after at least 4 weeks of optimal dose treatment, unable to take oral oxybutynin or intol",
+            "endpoints": [
+              "Evolution of maximal bladder capacity at 4 weeks of treatment (end of follow-up)"
+            ],
+            "sponsor": "Central Hospital, Nancy, France",
+            "url": "https://clinicaltrials.gov/study/NCT07027020"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "9307522",
+            "title": "A medium-term analysis of the subjective efficacy of treatment for women with detrusor instability and low bladder compliance.",
+            "abstract": "The aims of this study were to determine the medium-term subjective outcome of treatment for women with a urodynamic diagnosis of detrusor instability and low bladder compliance.",
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1997",
+            "authors": [
+              "Kelleher C J",
+              "Cardozo L D",
+              "Khullar V",
+              "Salvatore S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Cholinergic Antagonists",
+              "Exercise Therapy",
+              "Female",
+              "Humans",
+              "Incontinence Pads",
+              "Mandelic Acids",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9307522/"
+          },
+          {
+            "pmid": "12483499",
+            "title": "Significance of low compliance bladder in cauda equina injury.",
+            "abstract": "Prospective investigation using serial urodynamic studies.",
+            "journal": "Spinal cord",
+            "year": "2002",
+            "authors": [
+              "Shin J C",
+              "Park C-i",
+              "Kim H J",
+              "Lee I Y"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intravesical",
+              "Administration, Oral",
+              "Adult",
+              "Benzilates",
+              "Cauda Equina",
+              "Compliance",
+              "Female",
+              "Humans",
+              "Male",
+              "Mandelic Acids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12483499/"
+          },
+          {
+            "pmid": "22910256",
+            "title": "Early administration of oxybutynin improves bladder function and clinical outcomes in newborns with posterior urethral valves.",
+            "abstract": "Abnormal bladder function following posterior urethral valve ablation can lead to deleterious effects on renal function and urinary continence. We performed a pilot study to determine if bladder dysfunction could be ameliorated by the early administration of oxybutynin.",
+            "journal": "The Journal of urology",
+            "year": "2012",
+            "authors": [
+              "Casey Jessica T",
+              "Hagerty Jennifer A",
+              "Maizels Max",
+              "Chaviano Antonio H",
+              "Yerkes Elizabeth"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Early Medical Intervention",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Mandelic Acids",
+              "Muscarinic Antagonists",
+              "Pilot Projects",
+              "Prospective Studies",
+              "Retrospective Studies",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22910256/"
+          },
+          {
+            "pmid": "30937115",
+            "title": "Long-Term Efficacy, Safety, and Tolerability of Modified Intravesical Oxybutynin Chloride for Neurogenic Bladder in Children.",
+            "abstract": "Children with spinal cord disorders can present with neurogenic bladder, a condition in which the bladder partly or completely loses its ability to store urine and void at low pressure. A bladder with low compliance may cause urinary incontinence, which negatively impacts quality of life and renal function. Long-term high pressure neurogenic bladder can increase the risk of deterioration in renal function. Antimuscarinic pharmacotherapy with clean intermittent catheterization is currently considered one of the most effective treatments for these patients. However, some patients do not respond to oral medication or have unacceptable adverse events (AEs), which may result in medical withdrawal for these patients. Intravesical oxybutynin is an effective treatment with less AEs compared with oral medication. However, an important issue with this treatment is retention of the solution in the bladder. Moreover, as yet no data are available on the very long-term use and outcome of modified in",
+            "journal": "Journal of clinical medicine research",
+            "year": "2019",
+            "authors": [
+              "Honda Masashi",
+              "Kimura Yusuke",
+              "Tsounapi Panagiota",
+              "Hikita Katsuya",
+              "Saito Motoaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30937115/"
+          },
+          {
+            "pmid": "40690105",
+            "title": "Efficacy and safety of transcutaneous electrical nerve stimulation versus oxybutynin in the treatment of overactive bladder in children: a systematic review and meta-analysis.",
+            "abstract": "Overactive bladder (OAB) is a common condition in children, affecting 5-12% of children between the ages of 5 and 10 years. It is characterized by urinary urgency, frequency, and nocturia, often leading to incontinence. OAB significantly impacts a child's emotional and social development, causing anxiety, low self-esteem, and social withdrawal. Oxybutynin is the standard treatment for overactive bladder in children, but side effects like dry mouth, constipation, and cognitive issues can make it difficult for patients to stick with the therapy.",
+            "journal": "International urology and nephrology",
+            "year": "2026",
+            "authors": [
+              "Neharkar Diksha",
+              "Pande Abhay H",
+              "Peters Nitin James",
+              "Singh Jitender",
+              "Medhi Bikash"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis",
+              "Comparative Study",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mandelic Acids",
+              "Urinary Bladder, Overactive",
+              "Transcutaneous Electric Nerve Stimulation",
+              "Child",
+              "Treatment Outcome",
+              "Muscarinic Antagonists",
+              "Urological Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40690105/"
+          },
+          {
+            "pmid": "26649286",
+            "title": "Novel targeted bladder drug-delivery systems: a review.",
+            "abstract": "The objective of pharmaceutics is the development of drugs with increased efficacy and reduced side effects. Prolonged exposure of the diseased tissue to the drug is of crucial importance. Drug-delivery systems (DDSs) have been introduced to control rate, time, and place of release. Drugs can easily reach the bladder through a catheter, while systemically administered agents may undergo extensive metabolism. Continuous urine filling and subsequent washout hinder intravesical drug delivery (IDD). Moreover, the low permeability of the urothelium, also described as the bladder permeability barrier, poses a major challenge in the development of the IDD. DDSs increase bioavailability of drugs, therefore improving therapeutic effect and patient compliance. This review focuses on novel DDSs to treat bladder conditions such as overactive bladder, interstitial cystitis, bladder cancer, and recurrent urinary tract infections. The rationale and strategies for both systemic and local delivery meth",
+            "journal": "Research and reports in urology",
+            "year": "2015",
+            "authors": [
+              "Zacchè Martino Maria",
+              "Srikrishna Sushma",
+              "Cardozo Linda"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26649286/"
+          },
+          {
+            "pmid": "35575444",
+            "title": "Oxybutynin nanosuspension gel for enhanced transdermal treatment for overactive bladder syndrome.",
+            "abstract": "Oxybutynin (OXY) is the most common drug to treat overactive bladder (OAB) syndrome. Transdermal administration is a more ideal route replacing oral administration to resolve problems of low bioavailability and severe side effects. However, commercial transdermal products of OXY frequently cause skin irritation and low permeation efficiency arising discontinued medication. Here, oxybutynin nanosuspension (OXY-NS) and its gel preparation (OXY-NG) were constructed to resolve these issues. In vitro permeation test and in vivo pharmacokinetics study confirmed that OXY-NG significantly enhanced the transdermal permeation of OXY, about 4-fold and 3-fold higher than oxybutynin coarse suspension (OXY-CG), respectively, and in vitro retention test certified that OXY-NG increased OXY concentration especially in viable epidermis (VE) and Dermis (about 3 times that of OXY-CG), consequently improving the bioavailability. Skin irritation assay demonstrated that OXY-NG would not trigger skin adverse ",
+            "journal": "Pharmaceutical development and technology",
+            "year": "2022",
+            "authors": [
+              "Sheng Yuze",
+              "Zhang Shuang",
+              "Ling Jiawei",
+              "Hu Chenlu",
+              "Zhang Zhenhai"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Gels",
+              "Humans",
+              "Mandelic Acids",
+              "Muscarinic Antagonists",
+              "Urinary Bladder, Overactive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35575444/"
+          },
+          {
+            "pmid": "16465186",
+            "title": "Muscarinic receptors in the bladder: from basic research to therapeutics.",
+            "abstract": "Muscarinic receptor antagonists (antimuscarinics) serve as the cornerstone in the pharmacological management of overactive bladder (OAB) by relieving the symptoms of urgency, frequency and incontinence. These drugs operate primarily by antagonizing post-junctional excitatory muscarinic receptors (M(2)/M(3)) in the detrusor. The combination of pharmacological and gene knockout studies has greatly advanced our understanding of the functional role of muscarinic receptors in the bladder. M(3) receptors produce direct smooth muscle contraction by a mechanism that relies on entry of extracellular calcium through L-type channels and activation of a rho kinase. M(2) receptors, which predominate in number, appear to facilitate M(3)-mediated contractions. M(2) receptors can also produce bladder contractions indirectly by reversing cAMP-dependent beta-adrenoceptor-mediated relaxation, although the physiological role of beta-adrenoceptors in detrusor relaxation is controversial. Emerging evidence ",
+            "journal": "British journal of pharmacology",
+            "year": "2006",
+            "authors": [
+              "Hegde Sharath S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Mice",
+              "Mice, Knockout",
+              "Muscarinic Antagonists",
+              "Patient Compliance",
+              "Receptor, Muscarinic M2",
+              "Receptor, Muscarinic M3",
+              "Receptors, Muscarinic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16465186/"
+          },
+          {
+            "pmid": "18639290",
+            "title": "Intravesical oxybutynin for children with poorly compliant neurogenic bladder: a systematic review.",
+            "abstract": "Children with neurogenic bladder and poor bladder compliance are usually treated with bladder catheterization and oral anticholinergic medication. They may become nonresponders to the drug or present with severe side effects. We evaluated the effectiveness and tolerability of intravesical oxybutynin in children with poorly compliant neurogenic bladder.",
+            "journal": "The Journal of urology",
+            "year": "2008",
+            "authors": [
+              "Guerra Luis Antonio",
+              "Moher David",
+              "Sampson Margaret",
+              "Barrowman Nicholas",
+              "Pike John"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Administration, Intravesical",
+              "Adolescent",
+              "Child",
+              "Humans",
+              "Mandelic Acids",
+              "Muscarinic Antagonists",
+              "Urinary Bladder, Neurogenic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18639290/"
+          },
+          {
+            "pmid": "29625926",
+            "title": "Oral Pharmacologic Management of Overactive Bladder Syndrome: Where Do We Stand?",
+            "abstract": "Overactive bladder syndrome (OAB) is a prevalent disorder with a significant impact on quality of life. Despite this high prevalence, there is significant underdiagnosis and undertreatment due to several barriers, including embarrassment, poor communication and low patient adherence. Currently, various antimuscarinic are available in the treatment of OAB. The introduction of mirabegron has broadened the therapeutic approach and combination therapy of both agents can be valuable in clinical practice. Yet, patient adherence to most drugs for OAB is still relatively poor. Healthcare providers need to identify and utilise strategies to improve treatment adherence by defining clear treatment goals, implement educational methods and frequently communicate with patients to identify problems with adherence. The elderly population form need special attention as in these patients, anticholinergics should be prescribed with care and adequate knowledge regarding pharmacokinetics and drug interacti",
+            "journal": "European urology focus",
+            "year": "2019",
+            "authors": [
+              "Marcelissen Tom",
+              "Rashid Tina",
+              "Antunes Lopes Tiago",
+              "Delongchamps Nicolas Barry",
+              "Geavlete Bogdan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetanilides",
+              "Administration, Oral",
+              "Adrenergic beta-3 Receptor Agonists",
+              "Aged",
+              "Case-Control Studies",
+              "Cholinergic Antagonists",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29625926/"
+          },
+          {
+            "pmid": "24140548",
+            "title": "Long-term adherence to antimuscarinic therapy in everyday practice: a systematic review.",
+            "abstract": "Antimuscarinic drug treatment is known to have side effects and, consequently, poor adherence in therapeutic regimens. In this systematic review we study the long-term (greater than 6 months) adherence to antimuscarinic drugs in daily clinical practice, and identify factors contributing to poor adherence and persistence.",
+            "journal": "The Journal of urology",
+            "year": "2014",
+            "authors": [
+              "Veenboer Paul W",
+              "Bosch J L H Ruud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Muscarinic Antagonists",
+              "Time Factors",
+              "Urinary Bladder, Overactive",
+              "Urinary Incontinence",
+              "Drug Monitoring"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24140548/"
+          },
+          {
+            "pmid": "15978301",
+            "title": "Trospium chloride for the treatment of overactive bladder with urge incontinence.",
+            "abstract": "Urinary incontinence is caused by an overactive bladder, leading to symptoms of urgency, frequency, and incontinence. Urge incontinence occurs predominantly in women as they age.",
+            "journal": "Clinical therapeutics",
+            "year": "2005",
+            "authors": [
+              "Singh-Franco Devada",
+              "Machado Caridad",
+              "Tuteja Sony",
+              "Zapantis Antonia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Area Under Curve",
+              "Benzhydryl Compounds",
+              "Benzilates",
+              "Cholinergic Antagonists",
+              "Cresols",
+              "Female",
+              "Humans",
+              "Liver Failure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15978301/"
+          },
+          {
+            "pmid": "17594185",
+            "title": "Overactive bladder treatments in early phase clinical trials.",
+            "abstract": "'Overactive bladder' (OAB) is a syndrome that is characterised by symptoms of urgency, with or without urge urinary incontinence, usually with frequency and nocturia [1] . It is a highly prevalent condition affecting 17% of the general population, with a significant negative effect on quality of life, impairing several areas with physical, social, emotional and sexual limitations. The prevalence of OAB increases with age in both men and women [2,3] . The pathophysiology is multifactorial and not yet fully understood. Non-surgical treatment is the mainstay of therapy for OAB. The available options include biofeedback, electrical stimulation, bladder training, pharmacotherapy or a combination of these options. Nevertheless pharmacotherapy is still the treatment of choice for OAB symptoms [4] . The pharmacological treatment of OAB is generally directed towards the central or the peripheral neural control pathways or the detrusor muscle [5] . The antimuscarinic drugs are the most commonly ",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2007",
+            "authors": [
+              "Colli Enrico",
+              "Digesu Giuseppe Alessandro",
+              "Olivieri Lorenza"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Clinical Trials, Phase I as Topic",
+              "Clinical Trials, Phase II as Topic",
+              "Disease Models, Animal",
+              "Drugs, Investigational",
+              "Guanidines",
+              "Humans",
+              "Mice",
+              "Muscarinic Antagonists",
+              "Quinuclidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17594185/"
+          },
+          {
+            "pmid": "16446753",
+            "title": "Long-term urological outcomes in paediatric spinal cord injury.",
+            "abstract": "Retrospective review.",
+            "journal": "Spinal cord",
+            "year": "2006",
+            "authors": [
+              "Patki P",
+              "Hamid R",
+              "Somayaji S",
+              "Bycroft J",
+              "Shah P J R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Female",
+              "Humans",
+              "Longitudinal Studies",
+              "Male",
+              "Retrospective Studies",
+              "Spinal Cord Injuries",
+              "Treatment Outcome",
+              "Urinary Bladder, Neurogenic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16446753/"
+          },
+          {
+            "pmid": "8015832",
+            "title": "Intravesical instillation of oxybutynin hydrochloride therapy for patients with a neuropathic bladder.",
+            "abstract": "Intravesical oxybutynin hydrochloride was administered to 17 patients with a neuropathic bladder (myelomeningocele in 15 and spinal cord tumour in two) and urinary incontinence refractory to intermittent catheterisation. Therapy consisted of instillation of a 10 ml solution containing 5 mg oxybutynin hydrochloride twice daily. The cystometric bladder capacity before and after 1 hour of intravesical oxybutynin hydrochloride was 132 +/- 45 ml and 193 +/- 71 ml (mean +/- 1 standard deviation, p < 0.01) in all 17 patients. In 13 patients with low compliant bladders, the mean bladder compliance before and after 1 hour of instillation was 4.2 +/- 2.4 ml/cmH2O and 8.5 +/- 6.4 ml/cmH2O respectively (p < 0.01). The period of the intravesical oxybutynin hydrochloride treatment ranged from 2 to 16 months (mean 11.1 months). The improvement rate of 'moderately improved' and better response was 76.5% in all 17 patients. One patient complained of slight lower abdominal pain, which receded as treatme",
+            "journal": "Paraplegia",
+            "year": "1994",
+            "authors": [
+              "Mizunaga M",
+              "Miyata M",
+              "Kaneko S",
+              "Yachiku S",
+              "Chiba K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Male",
+              "Mandelic Acids",
+              "Meningomyelocele",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8015832/"
+          },
+          {
+            "pmid": "32007426",
+            "title": "Long-term efficacy and safety of solifenacin in pediatric patients aged 6 months to 18 years with neurogenic detrusor overactivity: results from two phase 3 prospective open-label studies.",
+            "abstract": "The standard recommended treatment for neurogenic detrusor overactivity (NDO) is clean intermittent catheterization combined with an antimuscarinic agent. However, the adverse systemic side-effects of oxybutynin, the most widely used agent, are of concern.",
+            "journal": "Journal of pediatric urology",
+            "year": "2020",
+            "authors": [
+              "Franco Israel",
+              "Hoebeke Piet",
+              "Baka-Ostrowska Małgorzata",
+              "Bolong David",
+              "Davies Leon N"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Humans",
+              "Muscarinic Antagonists",
+              "Prospective Studies",
+              "Solifenacin Succinate",
+              "Treatment Outcome",
+              "Urinary Bladder, Neurogenic",
+              "Urinary Bladder, Overactive",
+              "Urinary Incontinence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32007426/"
+          },
+          {
+            "pmid": "26676285",
+            "title": "Management of Low Compliant Bladder in Spinal Cord Injured Patients.",
+            "abstract": "Low bladder compliance means an abnormal volume and pressure relationship, and an incremental rise in bladder pressure during the bladder filling. It is well known that at the time bladder capacity decreases, intravesical pressure increases, and the risk of upper deterioration increases. Hypocompliance is usually thought to be the range from 1.0 to 20.0 mL/cmH2 O. Though the exact cause of hypocompliance is not known, it may be caused by changes in the elastic and viscoelastic properties of the bladder, changes in detrusor muscle tone, or combinations of the two. Management aims at increasing bladder capacity with low intravesical pressure. The main is a medical therapy with antimuscarinics combined with clean intermittent catheterization. The results are sometimes unsatisfactory. Various drugs or agents through the mouth or the bladder, including oxybutynin, new antimuscarinics, capsaicin and resiniferatoxin were tried. Among them botulinum toxin-A is promising. Some patients eventual",
+            "journal": "Lower urinary tract symptoms",
+            "year": "2010",
+            "authors": [
+              "Park Won Hee"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26676285/"
+          },
+          {
+            "pmid": "28431215",
+            "title": "Early treatment improves urodynamic prognosis in neurogenic voiding dysfunction: 20 years of experience.",
+            "abstract": "To evaluate the association between early treatment and urodynamic improvement in pediatric and adolescent patients with neurogenic bladder.",
+            "journal": "Jornal de pediatria",
+            "year": "2017",
+            "authors": [
+              "Costa Monteiro Lucia M",
+              "Cruz Glaura O",
+              "Fontes Juliana M",
+              "Vieira Eliane T R C",
+              "Santos Eloá N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Longitudinal Studies",
+              "Male",
+              "Multivariate Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28431215/"
+          },
+          {
+            "pmid": "33934997",
+            "title": "Virus-related neurological lower urinary tract dysfunction: Lessons learned during 4-year follow-up of patients with Congenital Zika Syndrome.",
+            "abstract": "We have previously reported on neurogenic bladder dysfunction among Congenital Zika Vírus Syndrome (CZS) patients, but it is unknown how they will respond to treatment.",
+            "journal": "Journal of pediatric urology",
+            "year": "2021",
+            "authors": [
+              "Cruz G N",
+              "Monteiro A C",
+              "Gomes Junior S C",
+              "Fontes Juliana M",
+              "Saad T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Follow-Up Studies",
+              "Humans",
+              "Prospective Studies",
+              "Urinary Bladder, Neurogenic",
+              "Urodynamics",
+              "Zika Virus",
+              "Zika Virus Infection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33934997/"
+          },
+          {
+            "pmid": "12809928",
+            "title": "Effectiveness of vaginally administered oxybutynin on rabbit bladder function.",
+            "abstract": "To demonstrate the effectiveness of vaginally delivered oxybutynin on bladder function. Oxybutynin has been used for treatment of urge urinary incontinence for more than 20 years.",
+            "journal": "Urology",
+            "year": "2003",
+            "authors": [
+              "Levin Robert M",
+              "Whitbeck Catherine",
+              "Borow Abby",
+              "Burden Opal",
+              "Leggett Robert E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Acetylcholine",
+              "Administration, Intravaginal",
+              "Administration, Oral",
+              "Animals",
+              "Blood Pressure",
+              "Female",
+              "Mandelic Acids",
+              "Muscle Contraction",
+              "Muscle, Smooth",
+              "Rabbits"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12809928/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9746140241622924,
+        "txgnn_rank": 19479,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "insomnia (disease)",
+        "txgnn_score": 0.9689628481864928,
+        "txgnn_rank": 21638,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04480658",
+            "title": "Effectiveness of Bryophyllum Pinnatum by Patients With Nocturia and Its Effect on Sleep Quality",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2018-01-01",
+            "completion_date": "2022-01-14",
+            "country": "Switzerland",
+            "enrollment": 50,
+            "brief_summary": "Night-time micturition, called nocturia, is a very common problem that unfavourably influences sleep- and life-qualities. The International Continence Society (ICS) defines nocturia as micturition once or several times during the night. Nocturia is one of the cardinal symptoms of overactive bladder (OAB). Persons with nocturia have the intention to continue sleep after going to the toilet which does not succeed to the same extent, depending on age.\n\nThe natural occurrence of the plant, Bryophyll",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Nocturia ≥2 Mal per a night\n* Overactive bladder (\\>8 Mictions/day)\n* Age \\> 18 Years\n* local or systemic Therapy with Estrogen, if the therapy dates \\>4 Weeks before study-start.\n* prior incontinence operation (if the operation dates back more than 6 months)\n* german speaking",
+            "endpoints": [
+              "Reduction of nocturia frequency",
+              "Sleep-Quality."
+            ],
+            "sponsor": "University of Zurich",
+            "url": "https://clinicaltrials.gov/study/NCT04480658"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06049797",
+            "title": "A Phase IV, Longitudinal, Observational Study Examining Real-World Outcomes of Non-Hormonal Pharmacotherapies Among Individuals Treated for Bothersome Vasomotor Symptoms",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-11-15",
+            "completion_date": "2026-05-31",
+            "country": "United States",
+            "enrollment": 999,
+            "brief_summary": "Hot flashes and night sweats (also known as vasomotor symptoms or VMS) are the most common symptoms which bother women in menopause. This study will follow women going through menopause who have hot flashes and night sweats that cause them bother. They will be starting a non-hormonal therapy prescribed by their healthcare provider (HCP) to treat these symptoms. The women will visit their HCP's office, research center, or both. They will receive prescriptions for the non-hormonal therapy from the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant is diagnosed with bothersome VMS due to/associated with menopause for at least 3 months based on a standard of care assessment captured in consultation with an HCP including the participant's history, routine physical examination, and routine laboratory assessments",
+            "endpoints": [
+              "Mean change from baseline to week 12 in symptom bother measured by the Menopause-Specific Quality of Life Domain (MENQoL) 1-week recall VMS domain score"
+            ],
+            "sponsor": "Astellas Pharma Inc",
+            "url": "https://clinicaltrials.gov/study/NCT06049797"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01148186",
+            "title": "The Patient as a Driver of Change: an Intervention Study to Reduce the Use and Impact of Potentially Inappropriate Medications Among Older Adults",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2010-06",
+            "completion_date": "2013-05",
+            "country": "Canada",
+            "enrollment": 300,
+            "brief_summary": "An educational intervention targeting community-dwelling older adults will lead to a reduction in potentially inappropriate prescriptions (e.g. benzodiazepines, oxybutynin).\n\nCessation of potentially inappropriate medications (e.g. benzodiazepines, oxybutynin)will lead to improved cognitive outcomes in older adults.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 65 year old human adults\n* who fill a prescription for at least 5 medications\n* community dwelling\n* chronic use (3 months or longer) of at least one potentially inappropriate medication (e.g. benzodiazepine, oxybutynin)\n\nExclusion Criteria:\n\n* patients with severe mental illn",
+            "endpoints": [
+              "Complete discontinuation of the targeted potentially inappropriate medication (e.g. benzodiazepines, oxybutynin)"
+            ],
+            "sponsor": "Centre de Recherche de l'Institut Universitaire de Geriatrie de Montreal",
+            "url": "https://clinicaltrials.gov/study/NCT01148186"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05637671",
+            "title": "Efficacy and Safety of Oxybutynin Versus Paroxetine in Breast Cancer Patients With Aromatase Inhibitor-induced Vasomotor Symptoms.",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2022-02-10",
+            "completion_date": "2023-12",
+            "country": "Egypt",
+            "enrollment": 146,
+            "brief_summary": "Breast cancer is the most prevalent cancer type worldwide. In Egypt, It is the second most common type of cancer and the most common one in women with about 22 thousand new cases in 2020. Around 70% of newly diagnosed patients are hormone receptor-positive and, unfortunately, the disease is often diagnosed at the advanced stage.\n\nIn postmenopausal women with hormone receptor-positive breast cancer, aromatase inhibitors (AIs) are the first-line adjuvant therapy according to National Comprehensive",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Post-menopausal female patients who are 18 years of age or older.\n2. Patients diagnosed with hormone receptor-positive breast cancer stage 0 - IIIC (non-advanced breast cancer) who are taking aromatase inhibitors as adjuvant therapy (post-surgery) and having Significant vasom",
+            "endpoints": [
+              "Efficacy of oxybutynin compared to paroxetine through hot flashes diary",
+              "Efficacy of oxybutynin compared to paroxetine through The Pittsburgh Sleep Quality Index questionnaire"
+            ],
+            "sponsor": "Cairo University",
+            "url": "https://clinicaltrials.gov/study/NCT05637671"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06106529",
+            "title": "A Randomized Intrapatient Cross-over Study to Assess the Efficacy of Oxybutynin Versus Venlafaxine in Reducing Hot Flashes in Women Using Endocrine Therapy After Breast Cancer.",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-10-03",
+            "completion_date": "2029-01-01",
+            "country": "Netherlands",
+            "enrollment": 260,
+            "brief_summary": "The goal of this randomized intrapatient cross-over study is to assess the efficacy of oxybutynin versus venlafaxine in reducing hot flashes in women using endocrine therapy after breast cancer.\n\nThe objectives it aims to answer are:\n\n* To assess the efficacy of oxybutynin versus venlafaxine in reducing hot flashes in women using endocrine therapy after breast cancer\n* To assess side effects of oxybutynin versus venlafaxine.\n* To assess the personal preference of women for oxybutynin versus venl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pre-, peri- or postmenopausal women of 18 years or above;\n* Indication for endocrine therapy and already started with tamoxifen, aromatase inhibitors or luteinizing hormone-releasing hormone analogues for at least 4 weeks and planning to continue for the duration of the study;",
+            "endpoints": [
+              "Number and severity of hot flashes"
+            ],
+            "sponsor": "Reinier de Graaf Groep",
+            "url": "https://clinicaltrials.gov/study/NCT06106529"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33890538",
+            "title": "Antimuscarinic use among older adults with dementia and overactive bladder: a Medicare beneficiaries study.",
+            "abstract": "This study examined the incidence and predictors of antimuscarinic medication use including non-selective antimuscarinics among older adults with dementia and overactive bladder (OAB).",
+            "journal": "Current medical research and opinion",
+            "year": "2021",
+            "authors": [
+              "Kachru Nandita",
+              "Holmes Holly M",
+              "Johnson Michael L",
+              "Chen Hua",
+              "Aparasu Rajender R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Dementia",
+              "Female",
+              "Humans",
+              "Medicare",
+              "Muscarinic Antagonists",
+              "Tolterodine Tartrate",
+              "United States",
+              "Urinary Bladder, Overactive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33890538/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "attention deficit-hyperactivity disorder",
+        "txgnn_score": 0.9511407613754272,
+        "txgnn_rank": 26428,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05933603",
+            "title": "Medications for Obstructive Sleep Apnea to Improve Cognition in Children With Down Syndrome",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-09-29",
+            "completion_date": "2025-12",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "This is an open-label study of the combination of atomoxetine and oxybutynin (ato-oxy) in children with Down syndrome and obstructive sleep apnea (OSA) documented by polysomnography (PSG). Participants will receive ato-oxy for 6 months. Ato-oxy dose will be 5 mg oxybutynin and 0.5mg/kg/day (max 40 mg) atomoxetine. Dosing of the study treatment will occur approximately 30 minutes prior to bedtime. Participants who withdraw from the study will not be replaced.\n\nStudy participants will undergo elig",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female participants between 6 to 17 years of age, inclusive, at the Screening Visit.\n2. Known diagnosis of Down syndrome (trisomy 21, but not translocation or mosaicism)\n\nExclusion Criteria:\n\n1. Presence of central sleep apnea on polysomnography (central AHI ≥ 5)\n2. C",
+            "endpoints": [
+              "obstructive apnea-hypopnea index (oAHI)"
+            ],
+            "sponsor": "University of Arizona",
+            "url": "https://clinicaltrials.gov/study/NCT05933603"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "17707010",
+            "title": "Treatment of nocturnal enuresis in children with attention deficit hyperactivity disorder.",
+            "abstract": "Children with attention deficit hyperactivity disorder disproportionately experience voiding dysfunction and persistent nocturnal enuresis due to a combination of sphincter and detrusor overactivity and nocturnal polyuria. The different treatment approaches to nocturnal enuresis often fail in these patients. Therefore, we performed a prospective study to compare the efficacy of combination therapy with desmopressin and oxybutynin vs the tricyclic antidepressant imipramine in patients with attention deficit hyperactivity disorder who have nocturnal enuresis.",
+            "journal": "The Journal of urology",
+            "year": "2007",
+            "authors": [
+              "Chertin Boris",
+              "Koulikov Dmitry",
+              "Abu-Arafeh Wael",
+              "Mor Yoram",
+              "Shenfeld Ofer Z"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents, Tricyclic",
+              "Antidiuretic Agents",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Child",
+              "Deamino Arginine Vasopressin",
+              "Drug Therapy, Combination",
+              "Enuresis",
+              "Female",
+              "Humans",
+              "Imipramine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17707010/"
+          },
+          {
+            "pmid": "17022845",
+            "title": "Clinical spectrum of the osmotic-controlled release oral delivery system (OROS), an advanced oral delivery form.",
+            "abstract": "The osmotic-controlled release oral delivery system, OROS, is an advanced drug delivery technology that uses osmotic pressure as the driving force to deliver pharmacotherapy, usually once-daily, in several therapeutic areas.",
+            "journal": "Current medical research and opinion",
+            "year": "2006",
+            "authors": [
+              "Conley Robert",
+              "Gupta Suneel K",
+              "Sathyan Gayatri"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Delayed-Action Preparations",
+              "Humans",
+              "Osmosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17022845/"
+          },
+          {
+            "pmid": "27373215",
+            "title": "Evaluating use of higher dose oxybutynin in combination with desmopressin for refractory nocturnal enuresis.",
+            "abstract": "Nocturnal enuresis is a common pediatric condition with limited treatment options. In older children, pharmacologic therapy is often the preferred treatment. Pharmacologic therapies including desmopressin (DDAVP) or imipramine are effective in 40-50% of children. However, imipramine has serious safety concerns. Desmopressin in combination with a fixed dose anticholinergic has been shown to be useful in individuals who fail desmopressin monotherapy, but still fails to achieve success rates greater than 60%.",
+            "journal": "Journal of pediatric urology",
+            "year": "2016",
+            "authors": [
+              "Berkenwald Aaron",
+              "Pires Jacqueline",
+              "Ellsworth Pamela"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antidiuretic Agents",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Child",
+              "Deamino Arginine Vasopressin",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male",
+              "Mandelic Acids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27373215/"
+          },
+          {
+            "pmid": "41425178",
+            "title": "Efficacy of atomoxetine and oxybutynin in the treatment of pediatric obstructive sleep apnea, a three case report.",
+            "abstract": "Persistent severe obstructive sleep apnea (OSA) after adenotonsillectomy (AT) is not uncommon in children with genetic syndromes and/or obesity. Although continuous positive airway pressure (CPAP) is the standard treatment, adherence in pediatric patients is often low, limiting its effectiveness. We report three cases of children with persistent OSA and failure to continue CPAP therapy, in whom an alternative pharmacological approach was explored. In agreement with their families, a 4-week trial of combined atomoxetine and oxybutynin was initiated. Of note, the first patient was concurrently treated with lisdexamfetamine for attention deficit hyperactivity disorder, while the second had morbid obesity under treatment with liraglutide. Both patients demonstrated a great improvement in their apnea-hypopnea index (AHI), with reductions >50% measured by polysomnography. The combination therapy was well tolerated, with no significant adverse effects or interactions with ongoing medications.",
+            "journal": "Frontiers in sleep",
+            "year": "2025",
+            "authors": [
+              "Larramona Carrera Helena"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41425178/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faciodigitogenital syndrome",
+        "txgnn_score": 0.9496431350708008,
+        "txgnn_rank": 26791,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial episodic pain syndrome with predominantly upper body involvement",
+        "txgnn_score": 0.9261713624000548,
+        "txgnn_rank": 31301,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "transient tic disorder",
+        "txgnn_score": 0.924469232559204,
+        "txgnn_rank": 31560,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01062",
+    "name": "Oxybutynin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Oxybutynin"
+      },
+      "queried_at": "2026-03-09T18:57:22.091394",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Oxybutynin"
+      },
+      "queried_at": "2026-03-09T18:57:41.041491",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-09T18:57:41.770298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-09T18:57:46.549993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-09T18:57:48.061007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T18:57:48.693192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T18:57:52.556960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T18:57:54.193136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T18:57:56.397786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T18:58:01.963242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T18:58:07.683042",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "low compliance bladder"
+      },
+      "queried_at": "2026-03-09T18:58:09.724439",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "low compliance bladder"
+      },
+      "queried_at": "2026-03-09T18:58:13.894692",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "low compliance bladder"
+      },
+      "queried_at": "2026-03-09T18:58:19.265844",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T18:58:20.370716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T18:58:25.978963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T18:58:27.106608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-09T18:58:29.986161",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-09T18:58:36.255936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-09T18:58:40.759443",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T18:58:42.515219",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T18:58:47.027416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T18:58:51.317065",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T18:58:52.325382",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T18:58:59.512899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T18:59:01.259376",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "familial episodic pain syndrome with predominantly upper body involvement"
+      },
+      "queried_at": "2026-03-09T18:59:02.086207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "familial episodic pain syndrome with predominantly upper body involvement"
+      },
+      "queried_at": "2026-03-09T18:59:06.003727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "familial episodic pain syndrome with predominantly upper body involvement"
+      },
+      "queried_at": "2026-03-09T18:59:07.194937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "transient tic disorder"
+      },
+      "queried_at": "2026-03-09T18:59:08.065551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "transient tic disorder"
+      },
+      "queried_at": "2026-03-09T18:59:12.998713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxybutynin",
+        "disease": "transient tic disorder"
+      },
+      "queried_at": "2026-03-09T18:59:15.026848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:59:15.037548"
+  }
+}

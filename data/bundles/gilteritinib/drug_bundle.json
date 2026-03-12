@@ -1,0 +1,625 @@
+{
+  "drug": {
+    "inn": "Gilteritinib",
+    "drugbank_id": "DB12141",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "bulbar polio",
+        "txgnn_score": 0.9910489320755004,
+        "txgnn_rank": 9763,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent",
+        "txgnn_score": 0.9899098873138428,
+        "txgnn_rank": 10593,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute myeloid leukemia and myelodysplastic syndromes related to radiation",
+        "txgnn_score": 0.9899098873138428,
+        "txgnn_rank": 10594,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05564390",
+            "title": "Master Screening and Reassessment Protocol (MSRP) for the NCI MyeloMATCH Clinical Trials",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-06-18",
+            "completion_date": "2029-05-15",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 2000,
+            "brief_summary": "This MyeloMATCH Master Screening and Reassessment Protocol (MSRP) evaluates the use of a screening tool and specific laboratory tests to help improve participants' ability to register to clinical trials throughout the course of their myeloid cancer (acute myeloid leukemia or myelodysplastic syndrome) treatment. This study involves testing patients' bone marrow and blood for certain biomarkers. A biomarker (sometimes called a marker) is any molecule in the body that can be measured. Doctors look ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be suspected to have previously untreated acute myeloid leukemia (AML) or myelodysplastic syndrome (MDS). Participants with AML cannot have a history of previously treated myeloproliferative neoplasms (MPN) or MDS.\n* Participants must be \\>= 18 years of age.\n",
+            "endpoints": [
+              "Timing of treatment Substudy or Tier Advancement Pathway (TAP) assignment"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05564390"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "5q35 microduplication syndrome",
+        "txgnn_score": 0.988911271095276,
+        "txgnn_rank": 11339,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuralgic amyotrophy",
+        "txgnn_score": 0.9810132384300232,
+        "txgnn_rank": 16546,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic neuralgia",
+        "txgnn_score": 0.9795621633529664,
+        "txgnn_rank": 17217,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.973591685295105,
+        "txgnn_rank": 19877,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.972208857536316,
+        "txgnn_rank": 20435,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal neoplasm",
+        "txgnn_score": 0.9700589179992676,
+        "txgnn_rank": 21257,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myelodysplastic/myeloproliferative disease",
+        "txgnn_score": 0.9699611067771912,
+        "txgnn_rank": 21303,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04140487",
+            "title": "A Phase I/II Study of Azacitidine, Venetoclax, and Gilteritinib for Patients With Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome With an Activating FLT3 Mutation",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-12-17",
+            "completion_date": "2028-09-01",
+            "country": "United States",
+            "enrollment": 97,
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of gilteritinib and to see how well it works in combination with azacitidine and venetoclax in treating patients with FLT3-mutation positive acute myeloid leukemia, chronic myelomonocytic leukemia, or high-risk myelodysplastic syndrome/myeloproliferative neoplasm that has come back (recurrent) or has not responded to treatment (refractory). Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of ca",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis:\n\n  * Phase I cohort: Adults ≥ 18 years with relapsed/refractory FLT3-mutated AML or CMML or other MDS/MPN that is intermediate-2 or high-risk by the International Prognostic Scoring System\n  * Phase II cohort A: Adults ≥ 18 years with newly diagnosed FLT3-mutated AM",
+            "endpoints": [
+              "Maximum-tolerated dose (MTD) of gilteritinib (Phase I)",
+              "Overall response rate (OR) (Phase II)"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04140487"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03922100",
+            "title": "A Phase I/II Study of NMS-03592088, a FLT3, KIT and CSF1R Inhibitor, in Patients With Relapsed or Refractory AML or CMML",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2019-04-03",
+            "completion_date": "2024-08-29",
+            "country": "Italy, Spain, France",
+            "enrollment": 63,
+            "brief_summary": "The purpose of this study is to explore safety, tolerability, including the maximum tolerated dose and the recommended Phase II dose (RP2D), and antitumor activity of NMS-03592088 in adult patients with relapsed or refractory Acute Myeloid Leukemia (AML) or Chronic Myelomonocytic Leukemia (CMML).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with relapsed/refractory disease who have failed standard therapy or are unsuitable for standard treatment, with one the following confirmed diagnosis: AML as defined by the European LeukemiaNet (ELN)\n* Patients with confirmed diagnosis of AML as defined by the 2022 E",
+            "endpoints": [
+              "Phase I - Number of Participants with drug related first-cycle dose limiting toxicities (DLTs)",
+              "Phase II FLT3-ITD mut AML: Composite Complete Remission (CRc) Rate"
+            ],
+            "sponsor": "Nerviano Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT03922100"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05564390",
+            "title": "Master Screening and Reassessment Protocol (MSRP) for the NCI MyeloMATCH Clinical Trials",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-06-18",
+            "completion_date": "2029-05-15",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 2000,
+            "brief_summary": "This MyeloMATCH Master Screening and Reassessment Protocol (MSRP) evaluates the use of a screening tool and specific laboratory tests to help improve participants' ability to register to clinical trials throughout the course of their myeloid cancer (acute myeloid leukemia or myelodysplastic syndrome) treatment. This study involves testing patients' bone marrow and blood for certain biomarkers. A biomarker (sometimes called a marker) is any molecule in the body that can be measured. Doctors look ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be suspected to have previously untreated acute myeloid leukemia (AML) or myelodysplastic syndrome (MDS). Participants with AML cannot have a history of previously treated myeloproliferative neoplasms (MPN) or MDS.\n* Participants must be \\>= 18 years of age.\n",
+            "endpoints": [
+              "Timing of treatment Substudy or Tier Advancement Pathway (TAP) assignment"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05564390"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02115295",
+            "title": "Phase II Study of Cladribine Plus Idarubicin Plus Cytarabine (ARAC) in Patients With AML, HR MDS, or Myeloid Blast Phase of CML",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2014-05-19",
+            "completion_date": "2030-05-31",
+            "country": "United States",
+            "enrollment": 508,
+            "brief_summary": "This phase II trial studies how well cladribine, idarubicin, cytarabine, and venetoclax work in patients with acute myeloid leukemia, high-risk myelodysplastic syndrome, or blastic phase chronic myeloid leukemia. Drugs used in chemotherapy, such as cladribine, idarubicin, cytarabine, and venetoclax, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with a diagnosis of AML, Acute Biphenotypic Leukemia, or high risk MDS (\\>/= 10% blasts or IPSS \\>/= intermediate-2) will be eligible. Patients with CML in Myeloid Blast Phase are also eligible.\n2. For Frontline cohort (1 or 4): No prior potentially-curative therapy ",
+            "endpoints": [
+              "Complete response (CR) rate"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02115295"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33792628",
+            "title": "ETV6-FLT3-positive myeloid/lymphoid neoplasm with eosinophilia presenting in an infant: an entity distinct from JMML.",
+            "abstract": "Myeloid/lymphoid neoplasm with eosinophilia (MLN-Eo) is a World Health Organization (WHO) established category of hematologic malignancies primarily arising in adults. We discuss an 8-month-old infant who presented with clinical features similar to those of juvenile myelomonocytic leukemia (JMML) but who was diagnosed with MLN-Eo driven by an ETV6-FLT3 fusion. Results of patient-derived leukemia ex vivo studies demonstrated increased sensitivity to type I FLT3 inhibitors as compared with type II inhibitors. Treatment with the type I inhibitor gilteritinib resulted in complete immunophenotypic and cytogenetic remission. This patient subsequently underwent a hematopoietic stem cell transplant and remains in complete remission 1 year later. This is the youngest patient reported with an ETV6-FLT3 fusion and adds to the mounting reports of FLT3-rearranged MLN-Eo, supporting its addition to the WHO classification. Furthermore, this case highlights the clinical utility of ex vivo drug testing",
+            "journal": "Blood advances",
+            "year": "2021",
+            "authors": [
+              "Spitzer Barbara",
+              "Dela Cruz Filemon S",
+              "Ibanez Sanchez Glorymar D",
+              "Zhang Yanming",
+              "Xiao Wenbin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Eosinophilia",
+              "Humans",
+              "Infant",
+              "Leukemia",
+              "Leukemia, Myelomonocytic, Juvenile",
+              "Lymphoma",
+              "Myeloproliferative Disorders",
+              "fms-Like Tyrosine Kinase 3"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33792628/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12141",
+    "name": "Gilteritinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gilteritinib"
+      },
+      "queried_at": "2026-03-10T04:00:26.984992",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gilteritinib"
+      },
+      "queried_at": "2026-03-10T04:00:33.030602",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T04:00:33.581878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T04:00:37.254912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T04:00:38.833064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "queried_at": "2026-03-10T04:00:39.337723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "queried_at": "2026-03-10T04:00:43.125963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "queried_at": "2026-03-10T04:00:43.894597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+      },
+      "queried_at": "2026-03-10T04:00:44.819251",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+      },
+      "queried_at": "2026-03-10T04:00:47.875199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+      },
+      "queried_at": "2026-03-10T04:00:48.627153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:49.275503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:52.544685",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:53.275883",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T04:00:54.185409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T04:00:57.512242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T04:00:58.890424",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T04:00:59.558435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T04:01:03.311182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T04:01:04.062681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T04:01:04.649550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T04:01:07.961279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T04:01:08.810525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:01:09.352597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:01:13.546487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:01:14.227305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T04:01:14.740621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T04:01:17.999678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T04:01:18.785379",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "myelodysplastic/myeloproliferative disease"
+      },
+      "queried_at": "2026-03-10T04:01:19.776448",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "myelodysplastic/myeloproliferative disease"
+      },
+      "queried_at": "2026-03-10T04:01:22.843799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "myelodysplastic/myeloproliferative disease"
+      },
+      "queried_at": "2026-03-10T04:01:24.574050",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:01:24.579555"
+  }
+}

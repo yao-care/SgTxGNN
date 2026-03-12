@@ -1,0 +1,634 @@
+{
+  "drug": {
+    "inn": "Proparacaine",
+    "drugbank_id": "DB00807",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9690297842025756,
+        "txgnn_rank": 21611,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic asthma",
+        "txgnn_score": 0.9170936346054076,
+        "txgnn_rank": 32804,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28449552",
+            "title": "Effect of Proparacaine in a Mouse Model of Allergic Rhinitis.",
+            "abstract": "Lidocaine, a local anaesthetic is a treatment option in uncontrolled asthma due to its immunomodulatory effects. In the present study, proparacaine (PPC), a derivative of lidocaine was examined for its therapeutic application in a mouse model of allergic rhinitis.",
+            "journal": "Clinical and experimental otorhinolaryngology",
+            "year": "2017",
+            "authors": [
+              "Kim Hwan Soo",
+              "Won Sulmui",
+              "Lee Eu Kyoung",
+              "Chun Yoon Hong",
+              "Yoon Jong-Seo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28449552/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intrinsic asthma",
+        "txgnn_score": 0.9023820161819458,
+        "txgnn_rank": 34565,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypotensive disorder",
+        "txgnn_score": 0.8619569540023804,
+        "txgnn_rank": 38286,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05241938",
+            "title": "Computer-guided Selective Laser Trabeculoplasty (PSLT) in the Treatment of Ocular Hypertension and Open-angle Glaucoma Compared to Prostaglandin Analogue Eye Drops: a Non-inferiority Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-09-01",
+            "completion_date": "2022-12-20",
+            "country": "Brazil",
+            "enrollment": 75,
+            "brief_summary": "This study aims to compare the efficacy of PSLT and the topical use of prostaglandin-like hypotensive eye drops in the treatment of ocular hypertensive or glaucomatous patients in decreasing intraocular pressure and measuring changes in functional, structural and biomechanical parameters evaluated by computerized perimetry and optical coherence tomography (OCT) related to pressure change resulting from treatments",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of ocular hypertension (IOP ≥ 24 mmHg in both eyes) or diagnosis of open-angle glaucoma (POAG) in both eyes\n* Proper visualization of angle structures and 360 degree open angles in both eyes\n* No previous intraocular surgery with the exception of phacoemulsification ",
+            "endpoints": [
+              "Intraocular pressure change"
+            ],
+            "sponsor": "Federal University of Rio Grande do Sul",
+            "url": "https://clinicaltrials.gov/study/NCT05241938"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24297506",
+            "title": "Non-antiepileptic drugs for trigeminal neuralgia.",
+            "abstract": "Trigeminal neuralgia was defined by the International Association for the Study of Pain as a sudden, usually unilateral, severe, brief, stabbing recurrent pain in the distribution of one or more branches of the fifth cranial nerve. Standard treatment is with anti-epileptic drugs. Non-antiepileptic drugs have been used in the management of trigeminal neuralgia since the 1970s. This is an update of a review first published in 2006 and previously updated in 2011.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2013",
+            "authors": [
+              "Zhang Jingjing",
+              "Yang Mi",
+              "Zhou Muke",
+              "He Li",
+              "Chen Ning"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Amitriptyline",
+              "Analgesics",
+              "Anticonvulsants",
+              "Baclofen",
+              "Carbamazepine",
+              "Clomipramine",
+              "Clonidine",
+              "Humans",
+              "Pimozide",
+              "Propoxycaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24297506/"
+          },
+          {
+            "pmid": "21249658",
+            "title": "Non-antiepileptic drugs for trigeminal neuralgia.",
+            "abstract": "Non-antiepileptic drugs have been used in the management of trigeminal neuralgia since the 1970s.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2011",
+            "authors": [
+              "Yang Mi",
+              "Zhou Muke",
+              "He Li",
+              "Chen Ning",
+              "Zakrzewska Joanna M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Amitriptyline",
+              "Analgesics",
+              "Baclofen",
+              "Carbamazepine",
+              "Clomipramine",
+              "Clonidine",
+              "Humans",
+              "Pimozide",
+              "Propoxycaine",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21249658/"
+          },
+          {
+            "pmid": "16856027",
+            "title": "Non-antiepileptic drugs for trigeminal neuralgia.",
+            "abstract": "Non-antiepileptic drugs have been used in trigeminal neuralgia management since the 1970s.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2006",
+            "authors": [
+              "He L",
+              "Wu B",
+              "Zhou M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Amitriptyline",
+              "Baclofen",
+              "Carbamazepine",
+              "Clomipramine",
+              "Clonidine",
+              "Humans",
+              "Pimozide",
+              "Propoxycaine",
+              "Randomized Controlled Trials as Topic",
+              "Tocainide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16856027/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.859470546245575,
+        "txgnn_rank": 38473,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.8503947854042053,
+        "txgnn_rank": 39150,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pityriasis simplex",
+        "txgnn_score": 0.8291597366333008,
+        "txgnn_rank": 40405,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "asthma-related traits, susceptibility to",
+        "txgnn_score": 0.8018206357955933,
+        "txgnn_rank": 41763,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lichen disease",
+        "txgnn_score": 0.7966776490211487,
+        "txgnn_rank": 41976,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertigo, benign recurrent, 2",
+        "txgnn_score": 0.786385178565979,
+        "txgnn_rank": 42427,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00807",
+    "name": "Proparacaine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Proparacaine"
+      },
+      "queried_at": "2026-03-10T08:40:19.562223",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Proparacaine"
+      },
+      "queried_at": "2026-03-10T08:40:30.649156",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T08:40:31.948478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T08:40:37.012529",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T08:40:37.638978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:40:38.135946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:40:42.754441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:40:45.227168",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:40:45.846007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:40:48.811326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:40:49.563947",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "hypotensive disorder"
+      },
+      "queried_at": "2026-03-10T08:40:50.320418",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "hypotensive disorder"
+      },
+      "queried_at": "2026-03-10T08:40:54.339153",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "hypotensive disorder"
+      },
+      "queried_at": "2026-03-10T08:40:58.812204",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T08:40:59.790964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T08:41:04.314663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T08:41:05.335299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T08:41:05.840020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T08:41:11.236220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T08:41:12.264786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "pityriasis simplex"
+      },
+      "queried_at": "2026-03-10T08:41:12.859854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "pityriasis simplex"
+      },
+      "queried_at": "2026-03-10T08:41:16.419448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "pityriasis simplex"
+      },
+      "queried_at": "2026-03-10T08:41:17.168123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "asthma-related traits, susceptibility to"
+      },
+      "queried_at": "2026-03-10T08:41:18.113916",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "asthma-related traits, susceptibility to"
+      },
+      "queried_at": "2026-03-10T08:41:20.994100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "asthma-related traits, susceptibility to"
+      },
+      "queried_at": "2026-03-10T08:41:21.657637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "lichen disease"
+      },
+      "queried_at": "2026-03-10T08:41:22.188298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "lichen disease"
+      },
+      "queried_at": "2026-03-10T08:41:26.268604",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "lichen disease"
+      },
+      "queried_at": "2026-03-10T08:41:28.049069",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "vertigo, benign recurrent, 2"
+      },
+      "queried_at": "2026-03-10T08:41:28.651538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "vertigo, benign recurrent, 2"
+      },
+      "queried_at": "2026-03-10T08:41:31.798538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Proparacaine",
+        "disease": "vertigo, benign recurrent, 2"
+      },
+      "queried_at": "2026-03-10T08:41:32.521877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:41:32.527136"
+  }
+}

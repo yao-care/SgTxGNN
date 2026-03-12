@@ -1,0 +1,528 @@
+{
+  "drug": {
+    "inn": "Lithium carbonate",
+    "drugbank_id": "DB14509",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9998018145561218,
+        "txgnn_rank": 621,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9996347427368164,
+        "txgnn_rank": 938,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.999630093574524,
+        "txgnn_rank": 952,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.999607503414154,
+        "txgnn_rank": 987,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9995806813240052,
+        "txgnn_rank": 1022,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9995654225349426,
+        "txgnn_rank": 1047,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31888683",
+            "title": "The evolving therapeutic landscape of genetic skeletal disorders.",
+            "abstract": "Rare bone diseases account for 5% of all birth defects yet very few have personalised treatments. Developments in genetic diagnosis, molecular techniques and treatment technologies however, are leading to unparalleled therapeutic advance. This review explores the evolving therapeutic landscape of genetic skeletal disorders (GSDs); the key conditions and there key differentials.",
+            "journal": "Orphanet journal of rare diseases",
+            "year": "2019",
+            "authors": [
+              "Sabir Ataf Hussain",
+              "Cole Trevor"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Diseases",
+              "Female",
+              "Humans",
+              "Male",
+              "Myositis Ossificans",
+              "Osteogenesis Imperfecta",
+              "Osteopetrosis",
+              "Rare Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31888683/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9995356798171996,
+        "txgnn_rank": 1099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Behr syndrome",
+        "txgnn_score": 0.9963032007217408,
+        "txgnn_rank": 5313,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "WHIM syndrome",
+        "txgnn_score": 0.9956360459327698,
+        "txgnn_rank": 5941,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "combined immunodeficiency due to moesin deficiency",
+        "txgnn_score": 0.9928652048110962,
+        "txgnn_rank": 8335,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14509",
+    "name": "Lithium carbonate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lithium carbonate"
+      },
+      "queried_at": "2026-03-09T09:19:56.647748",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lithium carbonate"
+      },
+      "queried_at": "2026-03-09T09:19:59.185158",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T09:19:59.758431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T09:20:03.479863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T09:20:04.554918",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T09:20:05.759144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T09:20:10.960469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T09:20:12.525943",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:13.367930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:17.256196",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:18.159663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T09:20:18.723571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T09:20:22.354991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T09:20:23.020573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T09:20:23.554303",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T09:20:27.728740",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T09:20:28.365390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:28.909568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:32.852205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:35.649048",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:36.230419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:40.589394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:41.227269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "Behr syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:42.409179",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "Behr syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:46.507932",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "Behr syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:47.351334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:48.177063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:53.120010",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T09:20:54.110433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "combined immunodeficiency due to moesin deficiency"
+      },
+      "queried_at": "2026-03-09T09:20:54.867748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "combined immunodeficiency due to moesin deficiency"
+      },
+      "queried_at": "2026-03-09T09:20:58.547398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lithium carbonate",
+        "disease": "combined immunodeficiency due to moesin deficiency"
+      },
+      "queried_at": "2026-03-09T09:20:59.397013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:20:59.410343"
+  }
+}

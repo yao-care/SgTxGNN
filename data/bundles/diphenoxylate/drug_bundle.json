@@ -1,0 +1,1460 @@
+{
+  "drug": {
+    "inn": "Diphenoxylate",
+    "drugbank_id": "DB01081",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gastroduodenitis",
+        "txgnn_score": 0.9083102941513062,
+        "txgnn_rank": 33927,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peptic ulcer disease",
+        "txgnn_score": 0.9002397060394287,
+        "txgnn_rank": 34799,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1974182",
+            "title": "Clinical pharmacokinetics of drugs used in the treatment of gastrointestinal diseases (Part I).",
+            "abstract": "Drug treatment of gastrointestinal diseases, which was previously limited to the use of antacids, anticholinergics, antispasmodics, cathartics and laxatives, has changed markedly over the past decade. Histamine H2-receptor antagonists (e.g. cimetidine, ranitidine and more recently famotidine and nizatidine) have revolutionised the treatment of peptic acid disorders, but their role is currently challenged by muscarinic-M1-receptor antagonists (e.g. pirenzepine), proton pump inhibitors (e.g. omeprazole), prostaglandin analogues and site-protective drugs (e.g. colloidal bismuth subcitrate and sucralfate). Newer antiemetics with prokinetic properties (e.g. metoclopramide, domperidone and cisapride) have also been introduced in the management of gastrointestinal motility disturbances, and new anti-inflammatory salicylates (e.g. olsalazine and mesalazine) have been developed for the treatment of chronic inflammatory bowel diseases. Finally, diphenoxylate and loperamide have gained wide clini",
+            "journal": "Clinical pharmacokinetics",
+            "year": "1990",
+            "authors": [
+              "Lauritsen K",
+              "Laursen L S",
+              "Rask-Madsen J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Ulcer Agents",
+              "Antiemetics",
+              "Gastrointestinal Agents",
+              "Histamine H2 Antagonists",
+              "Humans",
+              "Parasympatholytics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1974182/"
+          },
+          {
+            "pmid": "644996",
+            "title": "[Treatment of peptic ulcer and chronic gastritis with reasek].",
+            "abstract": "",
+            "journal": "Vrachebnoe delo",
+            "year": "1978",
+            "authors": [
+              "Shchedrunov V V",
+              "Onikienko B A",
+              "Nikolaeva N A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Atropine",
+              "Chronic Disease",
+              "Diphenoxylate",
+              "Drug Combinations",
+              "Gastritis",
+              "Humans",
+              "Isonipecotic Acids",
+              "Peptic Ulcer"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/644996/"
+          },
+          {
+            "pmid": "22372147",
+            "title": "[Effects of Na-FA on gastrointestinal movement and gastric ulcer in mice].",
+            "abstract": "To research the effects of Na-FA on gastrointestinal movement and gastriculcer in mice.",
+            "journal": "Zhong yao cai = Zhongyaocai = Journal of Chinese medicinal materials",
+            "year": "2011",
+            "authors": [
+              "Li Yue-Mei",
+              "Li Bao-Cai",
+              "Li Peng",
+              "Liu Jian-Zhen",
+              "Cui Jia-Li"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Anti-Ulcer Agents",
+              "Antidiarrheals",
+              "Benzopyrans",
+              "Body Weight",
+              "Carbon",
+              "Chelating Agents",
+              "Diarrhea",
+              "Diphenoxylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22372147/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroenteritis",
+        "txgnn_score": 0.8732583522796631,
+        "txgnn_rank": 37335,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02403323",
+            "title": "An Open-Label Extension and Safety Monitoring Study of Patients With Moderately to Severely Active Crohn's Disease Previously Enrolled in the Etrolizumab Phase III Protocol GA29144",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2015-06-08",
+            "completion_date": "2023-10-09",
+            "country": "Australia, Belgium, Austria, Latvia, United States, Ukraine, Estonia, Lithuania, Canada, Croatia, South Korea, Netherlands, Italy, Russia, Czechia, Serbia, Poland, United Kingdom, France, New Zealand, Brazil, Germany, Argentina, Israel, Mexico, Hungary, Switzerland, Spain, Turkey (Türkiye), Romania, Slovakia, Bulgaria, South Africa",
+            "enrollment": 790,
+            "brief_summary": "This open-label extension and safety monitoring study is composed of two parts: Part 1 will evaluate the long-term safety and efficacy of continued etrolizumab treatment in participants with moderately to severely active Crohn's disease who were previously enrolled in the etrolizumab Phase III Study GA29144 (NCT02394028) and who meet eligibility criteria for enrollment into Part 1. In Part 2, participants who have stopped etrolizumab treatment (either by exiting Part 1 of this study or by enteri",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPart 1 Open-Label Extension:\n\n* Patients previously enrolled in etrolizumab Phase III study GA29144 (NCT02394028) who meet the eligibility criteria for open-label etrolizumab as described in the protocol\n\nPart 2 Safety Monitoring:\n\n* Patients who participated in etrolizumab Phas",
+            "endpoints": [
+              "Part 1: Number of Participants With Crohn's Disease Activity Index (CDAI) Remission at 12-week Intervals",
+              "Part 1: Number of Participants With Clinical Remission at 12-week Intervals",
+              "Part 1: Number of Participants With Improvement in Simple Endoscopic Score for Crohn's Disease (SES-CD) Score at Week 108"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT02403323"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05733845",
+            "title": "Evaluation of Molecular Mechanisms of Non-response to Treatments, Relapses and Remission in Ulcerative Colitis and Crohn's Disease Patients Receiving First Time Standard of Care Biological Treatment",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-06-14",
+            "completion_date": "2030-08-01",
+            "country": "France",
+            "enrollment": 100,
+            "brief_summary": "Inflammatory bowel diseases (IBD) represent a group of immune-mediated disorders, in which currently unidentified trigger factors drive the manifestation of chronic relapsing- remitting destructive inflammatory episodes in the gut. IBD comprise two main disease entities, ulcerati\\\\ie colitis (UC) and Crohn s disease (CD). The diseases differ in anatomical distribution, with continuous, uniform inflammation restricted to the colon in UC, and multifocal inflammation extended throughout the entire ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female patients ≥ 18 years of age (at the time of signing the Informed Consent)\n* Person informed about study organization and having signed the informed consent.\n* Established diagnosis of Crohn's dsease or ulcerative colitis with a minimum disease duration of 3 mont",
+            "endpoints": [
+              "To identify solid biomarkers signatures as well as molecular pathways and mechanisms linked to response and non-response to therapy in ulcerative colitis patient.",
+              "To identify solid biomarkers signatures as well as molecular pathways and mechanisms linked to response and non-response to therapy in Crohn's disease patient."
+            ],
+            "sponsor": "Central Hospital, Nancy, France",
+            "url": "https://clinicaltrials.gov/study/NCT05733845"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21283398",
+            "title": "Diarrhea.",
+            "abstract": "The four major mechanisms of diarrhea are osmotic forces, secretory forces, exudation from a disrupted intestinal mucosa, and disturbed intestinal motility. In many illnesses, more than one mechanism produces diarrhea. The rotaviruses and the Norwalk viruses have recently been recognized as common causes of viral gastroenteritis. Also, the major cause of antibiotic-associated colitis is now known to be an overgrowth of Clostridium difficile. Campylobacter has also been identified as a common cause of acute bacterial diarrhea both abroad and in Canada. Most cases of travellers' diarrhea are caused by strains of Escherichia coli to which the traveller has little immunity. Most travellers who develop diarrhea benefit from treatment with diphenoxylate, loperamide or bismuth subsalicylate. The few patients who develop more severe, incapacitating diarrhea are candidates for treatment with trimethoprim-sulfamethoxazole. Antibiotics should not be used to prevent travellers' diarrhea, because a",
+            "journal": "Canadian family physician Medecin de famille canadien",
+            "year": "1983",
+            "authors": [
+              "Warren R E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21283398/"
+          },
+          {
+            "pmid": "39958914",
+            "title": "Diphenoxylate Toxicity in a Young Child with Acute Gastroenteritis: A Clinical Case Report.",
+            "abstract": "Lomotil (diphenoxylate-atropine) toxicity in the pediatric population remains a significant concern particularly in low and lower middle-income countries. This may result from accidental ingestion or inappropriate therapeutic administration which can lead to life threatening complications including respiratory and central nervous system depression.  A 2-year-old child presented to the pediatric emergency room in an altered state of consciousness. Clinical examination revealed dry mucous membranes, and a prolonged capillary refill time with weak radial pulses. Keeping in view the one-day history of 10-12 episodes of acute onset loose, watery stools, patient was initially treated as a case of hypovolemic shock. With rehydration therapy, his perfusion improved. However, the Glasgow Coma Scale score remained 8, as was observed on initial presentation. Upon further probing, it was revealed by the parents that the child had been given Lomotil by a local general practitioner for unresolved wa",
+            "journal": "Discoveries (Craiova, Romania)",
+            "year": "2024",
+            "authors": [
+              "Manan Muhammad Romail",
+              "Nawaz Iqra",
+              "Zulaid Ahmad",
+              "Afzal Muhammad Usama",
+              "Atif Muhammad"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39958914/"
+          },
+          {
+            "pmid": "6753707",
+            "title": "A comparative study of loperamide and diphenoxylate in the treatment of chronic diarrhoea caused by intestinal resection.",
+            "abstract": "A double-blind cross-over study of the antidiarrhoeal effects of loperamide and diphenoxylate in 29 patients with chronic diarrhoea due to intestinal resection is presented. Most of these subjects had had surgery for Crohn's disease which was in a stable and nonactive phase during the study. Loperamide and diphenoxylate were presented as identical capsules. Each was administered for a minimum duration of 25 days. The number of capsules required to control diarrhoea was significantly smaller in the loperamide group than in the diphenoxylate group. Loperamide was also statistically superior to diphenoxylate at reducing the number of stools and improving the faecal consistency. Nineteen of the 29 patients considered loperamide to be the most effective antidiarrhoeal drug, five preferred diphenoxylate and five did not notice any difference.",
+            "journal": "Annals of clinical research",
+            "year": "1981",
+            "authors": [
+              "Bergman L",
+              "Djärv L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Crohn Disease",
+              "Diarrhea",
+              "Diphenoxylate",
+              "Double-Blind Method",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6753707/"
+          },
+          {
+            "pmid": "760500",
+            "title": "Clindamycin-induced colitis.",
+            "abstract": "The hamster model of enterocolitis after the administration of clindamycin was used to study various drugs used in treatment of the disease in humans. Current evidence strongly suggests toxigenic, clindamycin-resistant Clostridium difficile is a cause of the disease in hamster and man. This organism is susceptible to vancomycin and metronidazole, and the disease could be prevented in the hamster so long as the antibiotics were given orally. A fatal colitis almost invariably ensued once they were discontinued. Administration of cholestyramine significantly prolonged survival of hamsters, but did not pervent death or colitis. Corticosteroids or atropine-diphenoxylate (Lomotil) did not alter the disease. The hamster model may be useful in studying other kinds of treatment of this disease.",
+            "journal": "The American journal of clinical nutrition",
+            "year": "1979",
+            "authors": [
+              "Fekety R",
+              "Silva J",
+              "Browne R A",
+              "Rifkin G D",
+              "Ebright J R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bacterial Toxins",
+              "Cecum",
+              "Clindamycin",
+              "Clostridium",
+              "Clostridium Infections",
+              "Cricetinae",
+              "Disease Models, Animal",
+              "Enterocolitis, Pseudomembranous",
+              "Feces"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/760500/"
+          },
+          {
+            "pmid": "86120",
+            "title": "Toxic megacolon.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1979",
+            "authors": [
+              "Pittman F E"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Atropine",
+              "Colitis, Ulcerative",
+              "Diphenoxylate",
+              "Drug Combinations",
+              "Humans",
+              "Megacolon, Toxic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/86120/"
+          },
+          {
+            "pmid": "321712",
+            "title": "Clindamycin and colitis: a review.",
+            "abstract": "Many studies have shown that clindamycin may cause pseudomembranous colitis, a potentially fatal complication. At present, prevention of this complication depends on (1) prescription of the drug only for specific severe infections, (2) early investigation and discontinuation of clindamycin if diarrhea ensues, and (3) vigorous supportive therapy.",
+            "journal": "The Journal of infectious diseases",
+            "year": "1977",
+            "authors": [
+              "Tedesco F J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Cholestyramine Resin",
+              "Clindamycin",
+              "Colon",
+              "Diarrhea",
+              "Diphenoxylate",
+              "Enterocolitis, Pseudomembranous",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/321712/"
+          },
+          {
+            "pmid": "7043127",
+            "title": "Pseudomembranous colitis: pathogenesis and therapy.",
+            "abstract": "",
+            "journal": "The Medical clinics of North America",
+            "year": "1982",
+            "authors": [
+              "Tedesco F J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Atropine",
+              "Bacitracin",
+              "Botulinum Toxins",
+              "Cholestyramine Resin",
+              "Clostridium",
+              "Clostridium Infections",
+              "Colestipol",
+              "Diphenoxylate",
+              "Drug Combinations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7043127/"
+          },
+          {
+            "pmid": "3893119",
+            "title": "Nonfluid therapy and selected chemoprophylaxis of acute diarrhea.",
+            "abstract": "Various available forms of therapy can decrease morbidity and mortality associated with acute diarrhea. Oral fluids represent the cornerstone of therapy of all cases. A variety of agents acting nonspecifically can decrease diarrhea and improve other worrisome symptoms associated with enteric infection. Kaopectate makes the stool more formed but has little additional effects. Bismuth subsalicylate, an antisecretory agent, reduces the number of stools passed by about 50 percent and improves other associated symptomatology. The drugs that affect motility such as loperamide and diphenoxylate are the most active of the nonspecifically acting drugs. They must be avoided in patients with significant fever and dysentery. Trimethoprim/sulfamethoxazole is now considered the drug of choice for shigellosis due to the presence of ampicillin-resistant Shigella strains in most regions of the world. Trimethoprim/sulfamethoxazole is also an effective form of therapy for enterotoxigenic Escherichia coli",
+            "journal": "The American journal of medicine",
+            "year": "1985",
+            "authors": [
+              "Du Pont H L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Anti-Infective Agents",
+              "Bismuth",
+              "Campylobacter Infections",
+              "Child",
+              "Child, Preschool",
+              "Clinical Trials as Topic",
+              "Diarrhea",
+              "Diarrhea, Infantile"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3893119/"
+          },
+          {
+            "pmid": "31541370",
+            "title": "Pathophysiology, Differential Diagnosis, and Treatment of Diabetic Diarrhea.",
+            "abstract": "",
+            "journal": "Digestive diseases and sciences",
+            "year": "2019",
+            "authors": [
+              "Selby Alexandra",
+              "Reichenbach Zachary Wilmer",
+              "Piech Gregory",
+              "Friedenberg Frank K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidiarrheals",
+              "Autonomic Nervous System Diseases",
+              "Blind Loop Syndrome",
+              "Celiac Disease",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Neuropathies",
+              "Diagnosis, Differential",
+              "Diarrhea",
+              "Diphenoxylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31541370/"
+          },
+          {
+            "pmid": "18192964",
+            "title": "Treatment of diarrhea in patients with inflammatory bowel disease: concepts and cautions.",
+            "abstract": "Diarrhea continues to be a prevalent symptom in patients with inflammatory bowel disease (IBD), requiring a wide differential diagnosis to define the pathophysiologic mechanisms in individual patients. It is essential that physicians properly evaluate complaints of diarrhea by assessing both patient symptoms and potential physiologic impacts on fluid and electrolyte status. Underlying mechanisms of diarrhea with IBD are the location, extent, and severity of inflammation; malabsorption; altered motility; and iatrogenic causes such as medications, diet, and antibiotic-associated colitis (eg, Clostridium difficile). When treating diarrhea, physicians need to control inflammatory activity using appropriate treatment algorithms. Therapies include aminosalicylates, corticosteroids, immune modifiers, and, most recently, biologic treatment. Other medications, including loperamide, diphenoxylate, codeine sulfate, and tinctures of opium, slow motility and increase the absorption of fluids and nu",
+            "journal": "Reviews in gastroenterological disorders",
+            "year": "2007",
+            "authors": [
+              "Shah Shamita B",
+              "Hanauer Stephen B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidiarrheals",
+              "Colitis, Ulcerative",
+              "Crohn Disease",
+              "Diarrhea",
+              "Gastrointestinal Transit",
+              "Humans",
+              "Inflammatory Bowel Diseases",
+              "Intestinal Absorption",
+              "Loperamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18192964/"
+          },
+          {
+            "pmid": "111547",
+            "title": "Drug therapy reviews: pharmacotherapy of diarrhea.",
+            "abstract": "Gastrointestinal physiology, and the pathophysiology, diagnosis, symptoms and treatment of acute and chronic diarrhea are reviewed. Drugs used in the treatment of diarrhea include opiates (morphine, codeine), synthetic anti-diarrheals (diphenoxylate, loperamide), anticholinergics (atropine, propantheline), adsorbents (kaolin, pectin, cholestyramine resin) and Lactobacillus acidophilus. Chronic diarrhea and acute diarrhea caused by microorgansims, drugs and viruses are described. The management of diarrhea can be divided into three categories: (1) supportive therapy (fluid and electrolyte replacement); (2) symptomatic therapy which improves the consistency of the stool and reduces the frequency of bowel movements; and (3) specific therapy aimed at treating the cause (e.g., antibiotics for bacteria-induced diarrhea) or blocking the cellular mechanisms of fluid and electrolyte loss. Most acute diarrheal conditions can be managed successfully by avoiding oral solids and ingesting carbohydr",
+            "journal": "American journal of hospital pharmacy",
+            "year": "1979",
+            "authors": [
+              "Pietrusko R G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adsorption",
+              "Amebiasis",
+              "Antidiarrheals",
+              "Cholera",
+              "Diarrhea",
+              "Digestive System",
+              "Digestive System Physiological Phenomena",
+              "Dysentery, Bacillary",
+              "Giardiasis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/111547/"
+          },
+          {
+            "pmid": "1103271",
+            "title": "The constipating effect of diphenoxylate (Retardinr) in ulcerative colitis. A double-blind controlled trial.",
+            "abstract": "A double-blind study of 20 patients with ulcerative colitis during treatment with diphenoxylate 5 mg three times daily and placebo is reported. There were two treatment periods of 14 days each, with cross-over technique and randomized sequence. Test variable for constipating effect was the mean number of defaecations per day. The criterion for inclusion of patients was the presence of 4 or more daily bowel movements; 2 patients did not complete the investigation. Significant difference (p less than 0.01) in constipating effect between diphenoxylase and placebo was demonstrated both during a period of 12 days and a period of 6 days (Tables II and III). The average number of bowel movements were reduced by 0.7 and 1.3 per day respectively. Side-effects during treatment with diphenoxylate were seen in 53% (Table III) with significant difference against placebo (p less than 0.05). On the basis of the small absolute reduction of defaecation frequency side-effects, it is concluded that diphe",
+            "journal": "Scandinavian journal of gastroenterology",
+            "year": "1975",
+            "authors": [
+              "Engbaek J",
+              "Ersböll J",
+              "Faurby V",
+              "Binder V",
+              "Riis P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Clinical Trials as Topic",
+              "Colitis, Ulcerative",
+              "Constipation",
+              "Depression, Chemical",
+              "Diphenoxylate",
+              "Female",
+              "Gastrointestinal Motility"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1103271/"
+          },
+          {
+            "pmid": "12425555",
+            "title": "Lymphocytic colitis: clinical features, treatment, and outcomes.",
+            "abstract": "There are no reports of the clinical features or treatment outcomes in large series of patients with lymphocytic colitis, and it is not known whether treatments that appear to be beneficial in patients with collagenous colitis are also beneficial in lymphocytic colitis. We sought to analyze these issues in our patients with lymphocytic colitis.",
+            "journal": "The American journal of gastroenterology",
+            "year": "2002",
+            "authors": [
+              "Pardi Darrell S",
+              "Ramnath Venktesh R",
+              "Loftus Edward V",
+              "Tremaine William J",
+              "Sandborn William J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Autoimmune Diseases",
+              "Child",
+              "Colitis",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12425555/"
+          },
+          {
+            "pmid": "93209",
+            "title": "Loperamide and acute infective diarrhoea in children.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1979",
+            "authors": [
+              "Heap J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Child",
+              "Child, Preschool",
+              "Diarrhea",
+              "Diphenoxylate",
+              "Dysentery, Bacillary",
+              "Humans",
+              "Infant",
+              "Loperamide",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/93209/"
+          },
+          {
+            "pmid": "18097699",
+            "title": "[Treating travelers' diarrhea. When should medication be given?].",
+            "abstract": "Along with the dizzying rise in the world's population and economic globalization, travel activity has also increased. Travelers' diarrhea, caused by changed sanitary conditions, has a very different pathogenic spectrum and clinical course from those of our native forms of infectious enterocolitis. Awareness of the warning signs of complications in the clinical course and of the differential diagnoses is therefore a prerequisite for rational therapy. This covers oral rehydration, motility inhibitors, adsorbents, antisecretory agents, probiotics, and last but not least the use of antibiotics, which make an essential contribution if correctly used. There are interesting developments in the form of nonabsorbable antibiotics and new antisecretory agents, which inhibit protein synthesis and enzymes and are increasingly used as antidiarrheal agents with few side effects. In the combination of various therapeutic options in travelers' diarrhea there is still much scope for research. The prior",
+            "journal": "Der Internist",
+            "year": "2007",
+            "authors": [
+              "Birkenfeld G"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Atropine",
+              "Bismuth",
+              "Child",
+              "Cross-Sectional Studies",
+              "Diphenoxylate",
+              "Drug Combinations",
+              "Dysentery",
+              "Fluid Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18097699/"
+          },
+          {
+            "pmid": "1147432",
+            "title": "Letter: Lomotil and antibiotic colitis.",
+            "abstract": "",
+            "journal": "Annals of internal medicine",
+            "year": "1975",
+            "authors": [
+              "Pittman F E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Atropine",
+              "Clindamycin",
+              "Colitis",
+              "Diarrhea",
+              "Diphenoxylate",
+              "Drug Combinations",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1147432/"
+          },
+          {
+            "pmid": "15115927",
+            "title": "The clinical and pathologic significance of microscopic colitis.",
+            "abstract": "",
+            "journal": "Journal of clinical gastroenterology",
+            "year": "2004",
+            "authors": [
+              "Proctor Deborah D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antidiarrheals",
+              "Colitis",
+              "Colon",
+              "Diphenoxylate",
+              "Humans",
+              "Loperamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15115927/"
+          },
+          {
+            "pmid": "949262",
+            "title": "Drug-induced colitis as a surgical disease.",
+            "abstract": "Colitis has been reported after parenteral administration of penicillin, ampicillin, streptomycin, tetracycline, and, most recently, lincomycin and its analogue, clindamycin. An incidence of diarrhea and accompanying proctocolitis as high as 20% with or without pseudomembrane formation has been noted. In most cases, withdrawal of the drug, supportive measures, and administration of corticosteroids have resulted in reversal of the colonic disease. In the past year, however, it has become apparent that there is a substantial mortality (as high as 38%) associated with the conservative management of this entity. We have used subtotal colectomy as a life-sparing procedure, and we report here its application in two specific instances, along with the clinical course, roentgenographic findings, and laboratory data. We believe drug-induced colitis is increasing in frequency and severity and is of importance to the surgeon.",
+            "journal": "Archives of surgery (Chicago, Ill. : 1960)",
+            "year": "1976",
+            "authors": [
+              "Levine B",
+              "Peskin G W",
+              "Saik R P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Aged",
+              "Ampicillin",
+              "Atropine",
+              "Clindamycin",
+              "Colectomy",
+              "Colon",
+              "Diphenoxylate",
+              "Enterocolitis, Pseudomembranous",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/949262/"
+          },
+          {
+            "pmid": "7354554",
+            "title": "Antiperistaltic agents contraindicated in pseudomembranous colitis.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1980",
+            "authors": [
+              "Ahmad S"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Atropine",
+              "Diphenoxylate",
+              "Enterocolitis, Pseudomembranous",
+              "Gastrointestinal Motility",
+              "Humans",
+              "Isonipecotic Acids",
+              "Narcotics",
+              "Peristalsis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7354554/"
+          },
+          {
+            "pmid": "3720635",
+            "title": "[New results in the diagnosis and therapy of functional disorders of the large intestine].",
+            "abstract": "The most important pathophysiological mechanism of functional disorders of colon is motility disturbance. The best term for these disturbances is considered to be \"colon dyskinesia\". Dyskinesia can be classified as primary and secondary, and as hyperand hypokinetic. The following clinical forms are distinguished: with constipation, painless diarrhea, isolated pain syndrome, colica mucosa. Inflammatory diseases of colon are accompanied by chemical changes in feaces: the increase of enterokinase and alkalien phosphatase activity (enzymorrhea), the increase of feacal excretion of protein (proteinorrhea). Both enzymorrhea and proteinorrhea are absent in colon dyskinesia. The investigation of enzymes and protein in faeces can be of great help in differential diagnostics of functional and inflammatory colon diseases. In treating colon dyskinesia psychopharmacological, cholinolytical, spasmolytical and antidiarrrheal preparations are used, as well as some drugs with purgative effect. Clinical",
+            "journal": "Deutsche Zeitschrift fur Verdauungs- und Stoffwechselkrankheiten",
+            "year": "1986",
+            "authors": [
+              "Frolkis A W"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alkaline Phosphatase",
+              "Chronic Disease",
+              "Colitis, Ulcerative",
+              "Colonic Diseases, Functional",
+              "Diphenoxylate",
+              "Enterocolitis",
+              "Enteropeptidase",
+              "Feces",
+              "Gastrointestinal Motility",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3720635/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.8422712683677673,
+        "txgnn_rank": 39709,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.7895684242248535,
+        "txgnn_rank": 42293,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2066156",
+            "title": "Treatment of the irritable bowel syndrome.",
+            "abstract": "Individualization of treatment for patients with IBS is predicated on a thorough analysis of the patient's symptoms, consideration of the reasons for seeking health care, evaluation of symptom-precipitating factors, elimination of confounding features, and the absolute knowledge of the absence of organic illness. Collecting and codifying appropriate historical data allow the physician to educate the patient with respect to the origin of his symptoms, and to enlist the patient as a partner in his future health care. There is no single, universally accepted therapeutic agent available for the treatment of the IBS patient. As a result, treatment is directed at reducing the frequency and intensity of triggering factors as well as ameliorating the symptoms when they arise. Symptoms evoked by psychologic factors may be effectively reduced by psychotherapy or hypnotherapy. Situational anxiety may be treated for brief periods by using antianxiety agents such as diazepam, chlordiazepoxide, busp",
+            "journal": "Gastroenterology clinics of North America",
+            "year": "1991",
+            "authors": [
+              "Friedman G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Colonic Diseases, Functional",
+              "Feeding Behavior",
+              "Humans",
+              "Parasympatholytics",
+              "Physician-Patient Relations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2066156/"
+          },
+          {
+            "pmid": "12116690",
+            "title": "Irritable bowel syndrome: update on pathogenesis and management.",
+            "abstract": "Irritable bowel syndrome (IBS) comprises a major proportion of gastrointestinal and primary care practice worldwide. The past several years have seen the rapid evolution of a new and comprehensive model of IBS based on alterations in brain-gut interactions. Alterations in the bidirectional communication between the enteric nervous system and the central nervous system are implicated in the pathogenesis of IBS. 5-Hydroxytryptamine (5-HT; serotonin), a major neurotransmitter in the gastrointestinal tract, and its receptors 5-HT3 and 5-HT4 are involved in the control of gastrointestinal function. A number of abnormal motor and sensory patterns have been reported in patients with IBS. However, it is not known whether these abnormalities are related to symptoms or have a role in establishing a diagnosis of functional gastrointestinal disorders. Visceral hyperalgesia in IBS patients can be secondary to altered receptor sensitivity at the viscus itself and altered central modulation of sensat",
+            "journal": "Medical principles and practice : international journal of the Kuwait University, Health Science Centre",
+            "year": "2002",
+            "authors": [
+              "Alaradi Osama",
+              "Barkin Jamie S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abdominal Pain",
+              "Autonomic Nervous System",
+              "Colonic Diseases, Functional",
+              "Constipation",
+              "Diarrhea",
+              "Female",
+              "Humans",
+              "Male",
+              "Psychophysiologic Disorders",
+              "Psychotherapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12116690/"
+          },
+          {
+            "pmid": "10202212",
+            "title": "Role of opioid ligands in the irritable bowel syndrome.",
+            "abstract": "Endogenous opioid peptides - enkephalins, beta-endorphin and dynorphins - are located in specific sites of the brain, the spinal cord, the autonomic ganglia and the enteric nervous system. Endogenous opioids participate in the regulation of nervous visceral afference and sensitivity as well as of several visceral motor function induced by the central nervous system and through the enteroenteric and the myoenteric reflexes. Their final effect on gut physiology is the net and harmonically balanced result of their binding to mu, delta and kappa opioid receptor subtypes. Exogenous opioid receptor ligands with different affinities for the opioid receptor subtypes have been effectively used to modify and normalize altered gut functions. The mu receptor agonists - morphine and, to a greater extent, the meperidine congeners diphenoxylate and loperamide - have been shown to slow gastrointestinal transit by their effects on the circular and longitudinal muscle of the intestine. Diphenoxylate and",
+            "journal": "Canadian journal of gastroenterology = Journal canadien de gastroenterologie",
+            "year": "1999",
+            "authors": [
+              "Corazziari E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chronic Disease",
+              "Colonic Diseases, Functional",
+              "Diarrhea",
+              "Digestive System",
+              "Enkephalins",
+              "Gastrointestinal Agents",
+              "Gastrointestinal Motility",
+              "Humans",
+              "Ligands"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10202212/"
+          },
+          {
+            "pmid": "11530562",
+            "title": "[Irritable colon].",
+            "abstract": "Irritable bowel syndrome is a chronic, relapsing functional bowel disorder of unknown aetiology. Methods of studying intestinal motor function, nociception, and interactions of the central nervous system and enteric nervous system are not applicable for clinical use. The diagnosis is therefore made on the symptoms, but it is necessary to exclude relevant organic disease. Establishment of the diagnosis, information about the disorder, elimination of foods and other factors that provoke the symptoms, and a change in life-style are sufficient in most cases. Treatment is hampered by the lack of effective treatment and the psychological aspects. The therapeutic gain of drug administration is modest and the rate of response to placebo is high. Fibre supplementation, magnesium oxide or cisapride may be tried for constipation, diphenoxylate or loperamide for diarrhoea, and low dose tricyclic antidepressants or serotonin reuptake blockers for severe pain. The introduction of 5-hydroxytryptamine",
+            "journal": "Ugeskrift for laeger",
+            "year": "2001",
+            "authors": [
+              "Madsen J R"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Colonic Diseases, Functional",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11530562/"
+          },
+          {
+            "pmid": "28804032",
+            "title": "Risk of Pancreatitis Following Treatment of Irritable Bowel Syndrome With Eluxadoline.",
+            "abstract": "The Food and Drug Administration approved eluxadoline for the treatment of diarrhea-predominant irritable bowel syndrome despite cases of pancreatitis in early stage trials. We investigated the frequency of pancreatitis attributed to eluxadoline in postmarketing surveillance.",
+            "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "year": "2018",
+            "authors": [
+              "Gawron Andrew J",
+              "Bielefeldt Klaus"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Female",
+              "Gastrointestinal Agents",
+              "Humans",
+              "Imidazoles",
+              "Incidence",
+              "Irritable Bowel Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28804032/"
+          },
+          {
+            "pmid": "18192961",
+            "title": "Loperamide: a pharmacological review.",
+            "abstract": "Loperamide is an antidiarrheal medication approved for the control of diarrhea symptoms and is available without a prescription. Loperamide works by a number of different mechanisms of action that decrease peristalsis and fluid secretion, resulting in longer gastrointestinal transit time and increased absorption of fluids and electrolytes from the gastrointestinal tract. It is a phenylpiperidine derivative with a chemical structure similar to opiate receptor agonists such as diphenoxylate and haloperidol. It was designed to maintain the antidiarrheal activity of these drugs, but minimize the negative aspects associated with their effects on the opiate receptor. Because of loperamides's low oral absorption and inability to cross the blood-brain barrier, it has minimal central nervous system effects. It also has a longer duration of action than diphenoxylate. However, it has no clinically significant analgesic activity and does not decrease the pain associated with some forms of irritabl",
+            "journal": "Reviews in gastroenterological disorders",
+            "year": "2007",
+            "authors": [
+              "Baker Daniel E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidiarrheals",
+              "Cytochrome P-450 CYP3A",
+              "Cytochrome P-450 Enzyme Inhibitors",
+              "Drug Interactions",
+              "Gastrointestinal Transit",
+              "Humans",
+              "Intestinal Absorption",
+              "Loperamide",
+              "Peristalsis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18192961/"
+          },
+          {
+            "pmid": "18477966",
+            "title": "The role of loperamide in gastrointestinal disorders.",
+            "abstract": "Loperamide is an effective therapy for a variety of diarrheal syndromes, including acute, nonspecific (infectious) diarrhea; traveler's diarrhea; and chemotherapy-related and protease inhibitor?associated diarrhea. Loperamide is effective for the \"gut-directed\" symptom of diarrhea in patients with painless diarrhea or diarrhea-predominant irritable bowel syndrome. Loperamide and diphenoxylate are commonly used to treat diarrhea in numerous settings of inflammatory bowel disease. Loperamide has also been observed to increase anal sphincter tone, which may lead to improvement of fecal continence in patients with and without diarrhea. Loperamide is generally well tolerated at recommended nonprescription doses, with the most common side effects related to the impact on bowel motility (abdominal pain, distention, bloating, nausea, vomiting, and constipation).",
+            "journal": "Reviews in gastroenterological disorders",
+            "year": "2008",
+            "authors": [
+              "Hanauer Stephen B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidiarrheals",
+              "Diarrhea",
+              "Fecal Incontinence",
+              "Humans",
+              "Irritable Bowel Syndrome",
+              "Loperamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18477966/"
+          },
+          {
+            "pmid": "31541370",
+            "title": "Pathophysiology, Differential Diagnosis, and Treatment of Diabetic Diarrhea.",
+            "abstract": "",
+            "journal": "Digestive diseases and sciences",
+            "year": "2019",
+            "authors": [
+              "Selby Alexandra",
+              "Reichenbach Zachary Wilmer",
+              "Piech Gregory",
+              "Friedenberg Frank K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidiarrheals",
+              "Autonomic Nervous System Diseases",
+              "Blind Loop Syndrome",
+              "Celiac Disease",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Neuropathies",
+              "Diagnosis, Differential",
+              "Diarrhea",
+              "Diphenoxylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31541370/"
+          },
+          {
+            "pmid": "34711130",
+            "title": "Wei Chang An pill regulates gastrointestinal motility in a bidirectional manner.",
+            "abstract": "Wei Chang An (WCA) is a commercial prescription developed for the coordination of gastrointestinal movement.",
+            "journal": "Pharmaceutical biology",
+            "year": "2021",
+            "authors": [
+              "Jia Sitong",
+              "Chai Lijuan",
+              "Zhang Jing",
+              "Zhang Min",
+              "Li Lin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Constipation",
+              "Diarrhea",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Drugs, Chinese Herbal",
+              "Gastrointestinal Motility",
+              "Irritable Bowel Syndrome",
+              "Male",
+              "Myosin-Light-Chain Kinase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34711130/"
+          },
+          {
+            "pmid": "32774435",
+            "title": "Maren Pills Improve Constipation via Regulating AQP3 and NF-κB Signaling Pathway in Slow Transit Constipation In Vitro and In Vivo.",
+            "abstract": "Maren pills have been used to treat constipation. Aquaporin 3 (AQP3) plays a vital role in regulating water transfer in the colon. It has been reported that the downregulation of AQP3 can regulate liquid water metabolism and intestinal permeability in irritable bowel syndrome (IBS) rats' colon via NF-κB pathway. In this study, we investigated whether the laxative effect of Maren pills is associated with the regulation of AQP3 and NF-κB signaling pathway in the colon.",
+            "journal": "Evidence-based complementary and alternative medicine : eCAM",
+            "year": "2020",
+            "authors": [
+              "Zhan Yu",
+              "Tang Xuegui",
+              "Xu Hong",
+              "Tang Shiyu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32774435/"
+          },
+          {
+            "pmid": "13751670",
+            "title": "Treatment of diarrhea in irritable colon, including preliminary observations with a new antidiarrheal agent, diphenoxylate hydrocloride (Lomotil).",
+            "abstract": "",
+            "journal": "The American journal of gastroenterology",
+            "year": "1961",
+            "authors": [
+              "KASICH A M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antidiarrheals",
+              "Atropine",
+              "Colon",
+              "Colonic Diseases",
+              "Cyanides",
+              "Diarrhea",
+              "Diphenoxylate",
+              "Disease",
+              "Drug Combinations",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13751670/"
+          },
+          {
+            "pmid": "13751669",
+            "title": "Treatment of diarrhea in irritable colon, including preliminary observations with a new antidiarrheal agent, diphenoxylate hydrochloride (Lomotil).",
+            "abstract": "",
+            "journal": "The American journal of gastroenterology",
+            "year": "1961",
+            "authors": [
+              "KASICH A M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antidiarrheals",
+              "Atropine",
+              "Colon",
+              "Colonic Diseases",
+              "Cyanides",
+              "Diarrhea",
+              "Diphenoxylate",
+              "Disease",
+              "Drug Combinations",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13751669/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.7784160375595093,
+        "txgnn_rank": 42750,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.7781549692153931,
+        "txgnn_rank": 42765,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.7721772789955139,
+        "txgnn_rank": 43030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parkinsonian disorder",
+        "txgnn_score": 0.7307915091514587,
+        "txgnn_rank": 44356,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exercise-induced malignant hyperthermia",
+        "txgnn_score": 0.6922138929367065,
+        "txgnn_rank": 45577,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01081",
+    "name": "Diphenoxylate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Diphenoxylate"
+      },
+      "queried_at": "2026-03-10T10:13:10.676091",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Diphenoxylate"
+      },
+      "queried_at": "2026-03-10T10:13:12.604460",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T10:13:13.116072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T10:13:17.911460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-10T10:13:18.636265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T10:13:19.738765",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T10:13:23.038054",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T10:13:24.969336",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "gastroenteritis"
+      },
+      "queried_at": "2026-03-10T10:13:25.855430",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "gastroenteritis"
+      },
+      "queried_at": "2026-03-10T10:13:28.697783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "gastroenteritis"
+      },
+      "queried_at": "2026-03-10T10:13:31.076531",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T10:13:31.585360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T10:13:35.395131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T10:13:36.313101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:13:36.986208",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:13:40.135842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:13:42.424606",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T10:13:43.154911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T10:13:45.886013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T10:13:46.834167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T10:13:47.500174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T10:13:51.497271",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T10:13:52.788161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T10:13:53.516842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T10:13:57.036593",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T10:13:58.020176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "parkinsonian disorder"
+      },
+      "queried_at": "2026-03-10T10:13:58.802148",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "parkinsonian disorder"
+      },
+      "queried_at": "2026-03-10T10:14:03.592470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "parkinsonian disorder"
+      },
+      "queried_at": "2026-03-10T10:14:04.642528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-10T10:14:05.290289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-10T10:14:08.598920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Diphenoxylate",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "queried_at": "2026-03-10T10:14:09.488926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:14:09.492123"
+  }
+}

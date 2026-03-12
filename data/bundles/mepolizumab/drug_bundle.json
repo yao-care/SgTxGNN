@@ -1,0 +1,562 @@
+{
+  "drug": {
+    "inn": "Mepolizumab",
+    "drugbank_id": "DB06612",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "thrombocytopenia due to immune destruction",
+        "txgnn_score": 0.9966180920600892,
+        "txgnn_rank": 4993,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28648630",
+            "title": "Resolution of a steroid-resistant, hypereosinophilic immune diathesis with mepolizumab and concomitant amelioration of a mixed thrombotic microangiopathy.",
+            "abstract": "The anaphylatoxins produced by an unbridled complement cascade in atypical hemolytic uremic syndrome (aHUS) can alter the leukocyte environment in tissues and peripheral blood, causing clinically significant eosinophilia. While the membrane attack complex and C5a anaphlatoxin can be suppressed with anti-C5 biologics, the production of C3a is still capable of driving a destructive hypereosinophilic syndrome in spite of anticomplement therapy. The side-effects of glucocorticoids in treating hypereosinophilic syndrome limit their therapeutic index in long-term treatment and this behooves the use of alternative strategies. While use of the anti-IL-5 antibody, mepolizumab, has been reported for treatment of primary hypereosinophilic syndromes off-label, its usage in the setting of complement-driven thrombotic microangiopathy has not been attempted. We report mepolizumab's rapid resolution of a glucocorticoid-resistant hypereosinophilic syndrome that caused multi-organ dysfunction in a patie",
+            "journal": "Blood cells, molecules & diseases",
+            "year": "2018",
+            "authors": [
+              "Mulvey J Justin",
+              "Magro Cynthia",
+              "Chadburn Amy"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Biomarkers",
+              "Biopsy",
+              "Bone Marrow",
+              "Disease Susceptibility",
+              "Drug Resistance",
+              "Eosinophils",
+              "Humans",
+              "Immunoglobulins, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28648630/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9960507750511168,
+        "txgnn_rank": 5559,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20565230",
+            "title": "Current strategies in the management of hypereosinophilic syndrome, including mepolizumab.",
+            "abstract": "Patients with hypereosinophilic syndrome (HES) vary considerably in their clinical presentation with regard to the severity and pattern of end-organ involvement. Clinical manifestations range from nonspecific symptoms to life-threatening, multisystem damage caused by eosinophil infiltration and local release of proinflammatory mediators and toxic granule products from these invading cells. The primary objective of treatment is to reduce blood and tissue eosinophilia and prevent eosinophil-mediated tissue damage as safely as possible. Systemic corticosteroids, such as prednisone, are first-line therapy for the management of patients with symptomatic HES who lack the Fip1-like 1-platelet-derived growth factor receptor-alpha (FIP1L1-PDGFRA) gene fusion mutation. The tyrosine kinase inhibitor, imatinib, is first-line treatment for FIP1L1-PDGFRA-positive patients). Because of the toxicity and serious side-effects that can occur with oral corticosteroids, alternative therapies may need to be",
+            "journal": "Current medical research and opinion",
+            "year": "2010",
+            "authors": [
+              "Schwartz Lawrence B",
+              "Sheikh Javed",
+              "Singh Anish"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Benzamides",
+              "Humans",
+              "Hypereosinophilic Syndrome",
+              "Imatinib Mesylate",
+              "Interleukin-5",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20565230/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9943503737449646,
+        "txgnn_rank": 7055,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune thrombocytopenic",
+        "txgnn_score": 0.9932509064674376,
+        "txgnn_rank": 8032,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9928446412086488,
+        "txgnn_rank": 8348,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Evans syndrome",
+        "txgnn_score": 0.9862096905708312,
+        "txgnn_rank": 13429,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal thrombocytopenia",
+        "txgnn_score": 0.9859775304794312,
+        "txgnn_rank": 13578,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal thrombocytopenia with normal platelets",
+        "txgnn_score": 0.9837030172348022,
+        "txgnn_rank": 14973,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "filariasis",
+        "txgnn_score": 0.976745069026947,
+        "txgnn_rank": 18539,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mixed-type autoimmune hemolytic anemia",
+        "txgnn_score": 0.9656520485877992,
+        "txgnn_rank": 22648,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06612",
+    "name": "Mepolizumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mepolizumab"
+      },
+      "queried_at": "2026-03-10T01:42:14.058378",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mepolizumab"
+      },
+      "queried_at": "2026-03-10T01:42:16.467659",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "queried_at": "2026-03-10T01:42:17.102636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "queried_at": "2026-03-10T01:42:22.060662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "queried_at": "2026-03-10T01:42:24.535792",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T01:42:25.337889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T01:42:29.771882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T01:42:32.896891",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T01:42:33.711315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T01:42:39.003958",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T01:42:40.082296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "autoimmune thrombocytopenic"
+      },
+      "queried_at": "2026-03-10T01:42:40.853923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "autoimmune thrombocytopenic"
+      },
+      "queried_at": "2026-03-10T01:42:44.580346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "autoimmune thrombocytopenic"
+      },
+      "queried_at": "2026-03-10T01:42:45.451073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T01:42:46.303101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T01:42:51.615207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T01:42:54.855887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "Evans syndrome"
+      },
+      "queried_at": "2026-03-10T01:42:58.615416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "Evans syndrome"
+      },
+      "queried_at": "2026-03-10T01:43:03.109131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "Evans syndrome"
+      },
+      "queried_at": "2026-03-10T01:43:06.490398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T01:43:07.460120",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T01:43:14.566486",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T01:43:15.907711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "autosomal thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T01:43:16.632530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "autosomal thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T01:43:21.211237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "autosomal thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T01:43:22.198486",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T01:43:22.949613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T01:43:29.234793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T01:43:31.301903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "mixed-type autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T01:43:32.252015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "mixed-type autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T01:43:37.222137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mepolizumab",
+        "disease": "mixed-type autoimmune hemolytic anemia"
+      },
+      "queried_at": "2026-03-10T01:43:39.418812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:43:39.433904"
+  }
+}

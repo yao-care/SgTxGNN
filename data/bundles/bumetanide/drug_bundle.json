@@ -1,0 +1,2555 @@
+{
+  "drug": {
+    "inn": "Bumetanide",
+    "drugbank_id": "DB00887",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acute pulmonary heart disease",
+        "txgnn_score": 0.9957650899887084,
+        "txgnn_rank": 5811,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07375212",
+            "title": "Acute Hemodynamic and Blood Volume Effects of Single-Dose Intranasal Bumetanide in Patients Implanted With the CardioMEMS™ and Cordella™ HF Systems: a 24-Hour Prospective Pilot Study",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2026-01-21",
+            "completion_date": "2026-01-21",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This trial is seeking to determine whether a single 4mg intranasal dose of bumetanide acutely reduces pulmonary artery pressure and blood volume in the outpatient setting for patients with heart failure and an implanted device for remote patient monitoring (i.e. Cordella or CardioMEMS).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 y with chronic HF (NYHA II-III).\n* Successful CardioMEMS or Cordella implantation ≥ 3 months prior.\n* Clinically mild or worse congestion (no IV diuretics within 7 days).\n* eGFR ≥ 20 mL/min/1.73 m²; serum K⁺ 3.5-5.2 mmol/L.\n\nExclusion Criteria:\n\n* SBP \\< 90 mmHg, HR \\",
+            "endpoints": [
+              "Characterize Temporal Changes"
+            ],
+            "sponsor": "Prisma Health-Upstate",
+            "url": "https://clinicaltrials.gov/study/NCT07375212"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05580510",
+            "title": "\"An Open-label Clinical Trial to Evaluate the Safety and Efficacy of Empagliflozin and Sacubitril/Valsartan in Adult Patients With Chronic Heart Failure With Reduced Ejection Fraction Associated With Congenital Heart Disease\"",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-02-06",
+            "completion_date": "2024-03-29",
+            "country": "Mexico",
+            "enrollment": 160,
+            "brief_summary": "The treatment of adult patients with congenital heart disease (ACHD) and heart failure (HF) represents a great challenge since, to date, there is no standardized guideline for this specific population. Although new treatments for HF have been proposed, such as Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors and neprilisin and angiotensin receptor inhibitors, the benefit of these drugs in patients with HF associated with congenital heart disease in adults has not yet been demonstrated. For this",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* NYHA functional class II-IV\n* Diagnosis of CHD: repaired, palliated or without previous treatment\n* Systemic ventricular ejection fraction \\<40%\n* Without unplanned hospital admissions within 3 months prior to randomization\n* The participant is willing and able to give informe",
+            "endpoints": [
+              "3D echocardiographic systemic ventricular end-diastolic volume index",
+              "3D echocardiographic systemic ventricular end-systolic volume index"
+            ],
+            "sponsor": "Instituto Nacional de Cardiologia Ignacio Chavez",
+            "url": "https://clinicaltrials.gov/study/NCT05580510"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06885164",
+            "title": "Seismocardiographic Monitoring in Heart Failure",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-06-11",
+            "completion_date": "2027-01-01",
+            "country": "Denmark",
+            "enrollment": 200,
+            "brief_summary": "Heart failure is a severe heart disease, where the heart's ability to pump blood is unsatisfactory. The consequence is a high risk of hospitalization and death. Heart failure is treated with medicine which relieves symptoms and slows down the disease progression. This medical treatment needs routine adjustment, but in many cases, this adjustment is not done timely, which results in life treating conditions where the patients need acute hospitalization. Remote health monitoring of HF patients has",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* NYHA Class II or higher\n* 18-90 years old\n\nExclusion Criteria:\n\n* Pregnancy\n* Drug addiction defined as the use of cannabis, opioids, or other drugs\n* Mechanical heart valves\n* In dialysis\n* Not possible to obtain clinical echocardiography of sufficient quality\n* Lack of abili",
+            "endpoints": [
+              "Rate of Heart Failure Related Hospitalization"
+            ],
+            "sponsor": "Aalborg University",
+            "url": "https://clinicaltrials.gov/study/NCT06885164"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19142155",
+            "title": "The management of acute heart failure and diuretic therapy.",
+            "abstract": "One million patients are hospitalized each year with acute decompensated heart failure, and up to 20% of these patients are rehospitalized within a month after the acute presentation. Acute heart failure (AHF) accounts for 50,000 deaths annually and is the most frequent reason for hospital admissions in the United States. This article reviews the therapeutic options and the results of recent clinical trials in the treatment of AHF. Most patients can be effectively managed by use of diuretic agents or diuretics in combinations with nitrates, IV nitroglycerin, IV nitroprusside, and possibly IV nesiritide. Ultrafiltration is a promising technique that can be very helpful in the resistant patient. However, given the ease of initiation of diuretic therapy, it is unlikely that ultrafiltration would supplant diuretic use in acutely symptomatic patients. Patients in acute distress with AHF almost invariably respond to diuretics or a vasodilator combined with diuretic therapy. The loop diuretic",
+            "journal": "American journal of therapeutics",
+            "year": "2009",
+            "authors": [
+              "Somberg John C",
+              "Molnar Janos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Diuretics",
+              "Drug Therapy, Combination",
+              "Heart Failure",
+              "Hospitalization",
+              "Humans",
+              "Patient Readmission",
+              "Ultrafiltration",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19142155/"
+          },
+          {
+            "pmid": "6391889",
+            "title": "Bumetanide. A review of its pharmacodynamic and pharmacokinetic properties and therapeutic use.",
+            "abstract": "Bumetanide is a potent 'loop' diuretic for the treatment of oedema associated with congestive heart failure, hepatic and renal diseases, acute pulmonary congestion and premenstrual syndrome and in forced diuresis during and after surgery. Bumetanide may be given orally, intravenously or intramuscularly and produces a rapid and marked diuresis, and increased urinary excretion of sodium, chloride and other electrolytes (within 30 minutes) which persists for 3 to 6 hours. Its principal site of action is on the ascending limb of the loop of Henle, with a secondary action on the proximal tubule. Pharmacologically, bumetanide is about 40-fold more potent than frusemide (furosemide), with the exception of its effects on urinary potassium excretion where its potency is lower. Studies in patients with oedema due to congestive heart failure, pulmonary oedema or hepatic disease show that oral or intravenous bumetanide 0.5 to 2 mg/day produces results comparable to those with frusemide 20 to 80 mg",
+            "journal": "Drugs",
+            "year": "1984",
+            "authors": [
+              "Ward A",
+              "Heel R C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bumetanide",
+              "Carbonic Anhydrase Inhibitors",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Heart Failure",
+              "Humans",
+              "Kallikreins",
+              "Kidney",
+              "Kidney Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6391889/"
+          },
+          {
+            "pmid": "3304383",
+            "title": "Immediate effects of bumetanide on systemic haemodynamics and left ventricular volume in acute and chronic heart failure.",
+            "abstract": "1 The haemodynamic and radionuclide effects of i.v. bumetanide (25 micrograms kg-1) were prospectively studied in 24 patients with angiographically documented coronary artery disease and either acute exercise-induced (Group I, n = 12) or chronic (Group II, n = 12) heart failure. 2 Bumetanide at rest increased systemic arterial blood pressure and vascular resistance index; cardiac index and pulmonary artery occluded pressure (PAOP) were reduced at an unchanged heart rate in all patients. The left ventricular ejection fraction fell in patients with normal resting left ventricular filling pressure without change in those with chronic heart failure. The cardiac volumes were unchanged in either group. 3 During constant-load supine bicycle exercise, there were similar effects on systemic arterial pressures, vascular resistance index and PAOP; however the cardiac index was maintained at a reduced left ventricular filling pressure and unchanged ejection fraction and volumes. 4 These data demon",
+            "journal": "British journal of clinical pharmacology",
+            "year": "1987",
+            "authors": [
+              "Verma S P",
+              "Silke B",
+              "Reynolds G",
+              "Muller P",
+              "Frais M A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Electrocardiography",
+              "Female",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3304383/"
+          },
+          {
+            "pmid": "19843838",
+            "title": "A comprehensive review of the loop diuretics: should furosemide be first line?",
+            "abstract": "To review the literature regarding the pharmacokinetic profiles, comparative safety and efficacy, and comparative costs of loop diuretics to evaluate the current clinical usefulness of furosemide.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2009",
+            "authors": [
+              "Wargo Kurt A",
+              "Banta William M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Furosemide",
+              "Heart Failure",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Liver Cirrhosis",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19843838/"
+          },
+          {
+            "pmid": "39366035",
+            "title": "Epidemiology of heart failure presentations to United States emergency departments from 2016 to 2023.",
+            "abstract": "Heart failure (HF) is a common condition prompting presentation to the Emergency Department (ED) and is associated with significant morbidity and mortality. However, there is limited recent large-scale, robust data available on the admission rates, evaluation, and treatment of HF in the ED setting.",
+            "journal": "The American journal of emergency medicine",
+            "year": "2024",
+            "authors": [
+              "Gottlieb Michael",
+              "Moyer Eric",
+              "Bernard Kyle"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Emergency Service, Hospital",
+              "Heart Failure",
+              "Cross-Sectional Studies",
+              "Male",
+              "Female",
+              "United States",
+              "Aged",
+              "Middle Aged",
+              "Nitroglycerin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39366035/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute urate nephropathy",
+        "txgnn_score": 0.9542796611785888,
+        "txgnn_rank": 25656,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00608491",
+            "title": "CARdiorenal REScue Study in Acute Decompensated Heart Failure: CARRESS",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-03",
+            "completion_date": "2012-06",
+            "country": "Canada, United States",
+            "enrollment": 188,
+            "brief_summary": "Heart failure is a serious condition in which the heart's ability to pump blood through the body is impaired, often making a person feel weak or fatigued. When a person's condition worsens to the point of hospitalization, that person is said to have acute decompensated heart failure (ADHF). Abnormal kidney function in association with cardiac distress, known as cardiorenal syndrome, is a common complication of heart failure and causes further medical problems and need for hospitalization. While ",
+            "eligibility_criteria": "Inclusion criteria:\n\n* age 18 or older\n* admitted to the hospital with a primary diagnosis of decompensated heart failure\n* onset of cardiorenal syndrome after hospitalization or pre-hospitalization\n* after hospitalization - onset of cardiorenal syndrome after hospitalization must occur within 10 da",
+            "endpoints": [
+              "Change in Serum Creatinine",
+              "Change in Weight"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT00608491"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9414242506027222,
+        "txgnn_rank": 28549,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic kidney disease",
+        "txgnn_score": 0.9348523616790771,
+        "txgnn_rank": 29790,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06841692",
+            "title": "Diuretic Testing in Chronic Kidney Disease",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-04-01",
+            "completion_date": "2029-10-31",
+            "country": "Netherlands",
+            "enrollment": 86,
+            "brief_summary": "The goal of this clinical trial is to predict the progression of chronic kidney disease by diuretic testing in patients with chronic kidney disease. The main questions it aims to answer are:\n\nDoes a worse result of a diuretic test predict the progression of chronic kidney disease?\n\nIf there is a comparison group: Researchers will compare the diuretic test in patients with chronic kidney disease to healthy participants to see if the results are different in a healthy kidney.\n\nParticipants will un",
+            "eligibility_criteria": "Inclusion Criteria for CKD subjects:\n\n* CKD stage G3 (creatinine-based eGFR 30-59 mL/min/1.73m2) during the last outpatient visit\n\nInclusion Criteria for Healthy subjects:\n\n• eGFR within the expected range for age (a decline of 1 ml/min/1.73 m2 per year starting from age 40 is considered the normal ",
+            "endpoints": [
+              "Progression of Chronic Kidney Disease"
+            ],
+            "sponsor": "Erasmus Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT06841692"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06995144",
+            "title": "A Randomized, Two-Period, Two-Arm, Double-Dummy, Crossover Study to Compare Natriuretic Effects of Extended Release Torsemide to Immediate Release Torsemide in Patients With Heart Failure (NEXT-HF)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-05-28",
+            "completion_date": "2026-03-15",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "The primary objective of this study is to learn whether a morning dose of extended-release torsemide enhances renal sodium excretion after lunch (4-8 hours after dosing) compared to immediate-release torsemide.\n\nThis is a randomized, double-blind, crossover study in patients with heart failure who are on a stable dose of a loop diuretic. During the study period, participants' current loop diuretics will be replaced with an equivalent dose of either immediate-release or extended-release torsemide",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age: 18 years or older.\n* Informed Consent: Willing and able to sign the informed consent form.\n* Stable Chronic HF: A clinical diagnosis of chronic heart failure considered stable by the patient's cardiologist/physician or another experienced clinician for at least one month ",
+            "endpoints": [
+              "Urinary sodium excretion measurement"
+            ],
+            "sponsor": "Sarfez Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06995144"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02593526",
+            "title": "Diuretic/Cool Dialysate Trial",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2017-01",
+            "completion_date": "2022-05-27",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "The proposed pilot study challenges the current widespread paradigm of discontinuing loop diuretics when initiating chronic HD and/or maintaining the dialysate at a constant temperature of 37 °C for all patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primary speaking language is English.\n* Patient is HD naïve (Patient may still enroll as long as no more than 12 weeks of in-center HD have been performed prior to randomization)\n* HD takes place at one of the participating Dialysis Clinic Inc. (DCI) sites during the data coll",
+            "endpoints": [
+              "Slow the Rate of Residual Renal Function (RRF)"
+            ],
+            "sponsor": "University of New Mexico",
+            "url": "https://clinicaltrials.gov/study/NCT02593526"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05171686",
+            "title": "Association of Diuretics With Change in Extracellular Volume, Natriuretic Peptides, Symptoms, and Cardiovascular Outcomes in CKD",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2023-02-01",
+            "completion_date": "2025-10-02",
+            "country": "United States",
+            "enrollment": 49,
+            "brief_summary": "Almost 15% of Americans have chronic kidney disease (CKD), with an even higher rate in Veterans due to common risk factors such as high blood pressure and diabetes. People with CKD have a high risk of cardiovascular (CV) diseases, such as heart attacks, heart failure, and strokes. Extra fluid in the body, called volume overload, may lead to CV disease in people with CKD. It is unknown if volume overload develops in the earliest stages of CKD, when treating it with common, inexpensive medicines c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female Veterans age 18 years or older. There will be no upper age limit.\n* The presence of CKD stages 1, 2, or 3, as defined below by Kidney Disease Improving Global Outcomes guidelines, for a period of at least 3 months.\n\n  * Stage 1: eGFR 90 mL/min/1.73 m2 and spot u",
+            "endpoints": [
+              "Change in NT-pro-BNP"
+            ],
+            "sponsor": "VA Office of Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT05171686"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01973335",
+            "title": "Diamox/Aldactone to Increase the URinary Excretion of Sodium: an Investigational Study in Congestive Heart Failure",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2017-10",
+            "country": "Belgium",
+            "enrollment": 34,
+            "brief_summary": "This study has two primary objectives:\n\n1. To compare combination therapy with acetazolamide and low-dose loop diuretics versus high-dose loop diuretics (standard of care) in patients with acute decompensated heart failure at high risk for diuretic resistance.\n2. To demonstrate the safety and efficacy of upfront therapy with spironolactone in addition to loop diuretic therapy in patients with acute decompensated heart failure at high risk for diuretic resistance.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Older than 18 years and able to give informed consent\n* Clinical diagnosis of acute decompensated heart failure within the previous 8 h\n* At least two clinical signs of congestion (edema, ascites, jugular venous distension, or pulmonary vascular congestion on chest radiography",
+            "endpoints": [
+              "Acetazolamide Arm: Natriuresis 24 h",
+              "Spironolactone Arm: Incidence of Hypo- (Serum Potassium <3.5 mmol/L) or Hyperkalemia (Serum Potassium >5.0 mmol/L)"
+            ],
+            "sponsor": "Hasselt University",
+            "url": "https://clinicaltrials.gov/study/NCT01973335"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03923933",
+            "title": "Chlortalidone and Bumetanide in Advanced Chronic Kidney Disease: HEBE-CKD Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-06-18",
+            "completion_date": "2019-10-28",
+            "country": "Mexico",
+            "enrollment": 34,
+            "brief_summary": "This study aims to demonstrate the possible benefit of a treatment based on double diuretic in patients with chronic kidney disease and severely impaired glomerular filtration rate. This is based on previous observations where the investigators found that volume overload is a frequent condition within this population and is strongly linked to an increase in morbidity and mortality. The investigators consider that this therapy could be beneficial given that most of these patients are treated with",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* glomerular filtration rate less than 30 ml / min / 1.73m\n* Without replacement therapy (dialysis or hemodialysis)\n* Volume overload\n* At least 100 ml per day of residual diuresis\n* Use of a loop diuretic for at least one month\n\nExclusion Criteria:\n\n* Allergies known to diureti",
+            "endpoints": [
+              "Change in Total Body Water"
+            ],
+            "sponsor": "Hospital General de México Dr. Eduardo Liceaga",
+            "url": "https://clinicaltrials.gov/study/NCT03923933"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04192110",
+            "title": "Association of Diuretics With Change in Extracellular Volume, Natriuretic Peptides, Symptoms, and Cardiovascular Outcomes in CKD",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2020-08-11",
+            "completion_date": "2020-08-11",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Almost 15% of Americans have chronic kidney disease (CKD), with an even higher rate in Veterans due to common risk factors such as high blood pressure and diabetes. People with CKD have a high risk of cardiovascular (CV) diseases, such as heart attacks, heart failure, and strokes. Extra fluid in the body, called volume overload, may lead to CV disease in people with CKD. It is unknown if volume overload develops in the earliest stages of CKD, when treating it with common, inexpensive medicines c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The presence of CKD stages 1, 2, or 3, as defined below by National Kidney Foundation guidelines, for a period of at least 3 months.\n\n  * Stage 1: eGFR 90 mL/min/1.73 m2 and spot urine albumin-to-creatinine ratio 30 mg/g.\n  * Stage 2: eGFR 60-89 mL/min/1.73 m2 and spot urine a",
+            "endpoints": [
+              "NT-pro-BNP",
+              "Total peripheral resistance index"
+            ],
+            "sponsor": "VA Office of Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT04192110"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05580510",
+            "title": "\"An Open-label Clinical Trial to Evaluate the Safety and Efficacy of Empagliflozin and Sacubitril/Valsartan in Adult Patients With Chronic Heart Failure With Reduced Ejection Fraction Associated With Congenital Heart Disease\"",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-02-06",
+            "completion_date": "2024-03-29",
+            "country": "Mexico",
+            "enrollment": 160,
+            "brief_summary": "The treatment of adult patients with congenital heart disease (ACHD) and heart failure (HF) represents a great challenge since, to date, there is no standardized guideline for this specific population. Although new treatments for HF have been proposed, such as Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors and neprilisin and angiotensin receptor inhibitors, the benefit of these drugs in patients with HF associated with congenital heart disease in adults has not yet been demonstrated. For this",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* NYHA functional class II-IV\n* Diagnosis of CHD: repaired, palliated or without previous treatment\n* Systemic ventricular ejection fraction \\<40%\n* Without unplanned hospital admissions within 3 months prior to randomization\n* The participant is willing and able to give informe",
+            "endpoints": [
+              "3D echocardiographic systemic ventricular end-diastolic volume index",
+              "3D echocardiographic systemic ventricular end-systolic volume index"
+            ],
+            "sponsor": "Instituto Nacional de Cardiologia Ignacio Chavez",
+            "url": "https://clinicaltrials.gov/study/NCT05580510"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36127661",
+            "title": "Effect of the combination of bumetanide plus chlorthalidone on hypertension and volume overload in patients with chronic kidney disease stage 4-5 KDIGO without renal replacement therapy: a double-blind randomized HEBE-CKD trial.",
+            "abstract": "The co-administration of loop diuretics with thiazide diuretics is a therapeutic strategy in patients with hypertension and volume overload. The aim of this study was to assess the efficacy and safety of treatment with bumetanide plus chlorthalidone in patients with chronic kidney disease (CKD) stage 4-5 KDIGO.",
+            "journal": "BMC nephrology",
+            "year": "2022",
+            "authors": [
+              "Solis-Jimenez Fabio",
+              "Perez-Navarro Lucia Monserrat",
+              "Cabrera-Barron Ricardo",
+              "Chida-Romero Jesus Antonio",
+              "Martin-Alemañy Geovana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bumetanide",
+              "Chlorthalidone",
+              "Humans",
+              "Hypertension",
+              "Middle Aged",
+              "Renal Insufficiency, Chronic",
+              "Renal Replacement Therapy",
+              "Sodium Chloride Symporter Inhibitors",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36127661/"
+          },
+          {
+            "pmid": "32094236",
+            "title": "BRASH syndrome.",
+            "abstract": "A 62-year-old woman with chronic kidney disease stage 4, sleep apnoea on continuous positive airway pressure and recent admission for acute-on-chronic diastolic heart failure presented to emergency room with weakness. She was hypotensive and had symptomatic bradycardia in the 30 s secondary to hyperkalaemia and beta-blockers, raising concern for BRASH syndrome. Antihypertensives were immediately held. Potassium-lowering agents (with calcium gluconate for cardiac stability) were begun, as were fluids and dopamine for vasopressor support. The patient was admitted to intensive care unit and electrophysiology was consulted. Over the next 2 days, the patient clinically improved: she remained off dopamine for over 24 hours; potassium levels and renal function improved; and heart rate stabilised in 60 s. The patient was eventually discharged and advised to avoid metolazone, bumetanide and carvedilol, with primary care provider and cardiology follow-up.",
+            "journal": "BMJ case reports",
+            "year": "2020",
+            "authors": [
+              "Srivastava Shaurya",
+              "Kemnic Tyler",
+              "Hildebrandt Kyle R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Atrioventricular Block",
+              "Bradycardia",
+              "Bumetanide",
+              "Carvedilol",
+              "Female",
+              "Humans",
+              "Hyperkalemia",
+              "Metolazone",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32094236/"
+          },
+          {
+            "pmid": "36763813",
+            "title": "Rapid Progression of Focal Segmental Glomerulosclerosis in Patients with High-Risk APOL1 Genotypes.",
+            "abstract": "FSGS is a heterogeneous diagnosis with a guarded prognosis. Polymorphisms in the apolipoprotein L1 ( APOL1 ) gene are associated with developing FSGS and faster progression to kidney failure in affected patients. Better understanding the natural history of patients with FSGS and APOL1 risk alleles is essential to improve patient care and support the design and interpretation of interventional studies. The objective of this study was to evaluate the quantitative association between APOL1 and kidney disease progression and the interaction with other clinical and laboratory factors.",
+            "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+            "year": "2023",
+            "authors": [
+              "Kallash Mahmoud",
+              "Wang Yujie",
+              "Smith Abigail",
+              "Trachtman Howard",
+              "Gbadegesin Rasheed"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glomerulosclerosis, Focal Segmental",
+              "Apolipoprotein L1",
+              "Cohort Studies",
+              "Risk Factors",
+              "Genotype",
+              "Apolipoproteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36763813/"
+          },
+          {
+            "pmid": "6849758",
+            "title": "The pharmacokinetics and pharmacodynamics of the diuretic bumetanide in hepatic and renal disease.",
+            "abstract": "1 Bumetanide (1 mg) was given orally and intravenously to a group of patients with chronic renal failure (n = 6) and to another group with cirrhosis of the liver (n = 8). 2 The pharmacokinetics, using a two-compartment model, and the pharmacodynamics of the drug in these patients were compared with those previously obtained for normal subjects. 3 In the renal group serum bumetanide concentrations were higher than for the normal subjects and the terminal half-lives were significantly prolonged (P less than 0.001). A decreased whole body clearance was attributable to a low renal clearance of drug, the non-renal clearance being significantly increased (P less than 0.01). 4 For the patients with liver disease, serum bumetanide concentrations were higher than for the renal group, and the terminal half-lives were significantly further prolonged (P less than 0.001). Both non-renal and renal clearances were significantly reduced (P less than 0.001). 5 Absorption rates were not significantly al",
+            "journal": "British journal of clinical pharmacology",
+            "year": "1983",
+            "authors": [
+              "Marcantonio L A",
+              "Auld W H",
+              "Murdoch W R",
+              "Purohit R",
+              "Skellern G G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Diuretics",
+              "Humans",
+              "Injections, Intravenous",
+              "Kidney Failure, Chronic",
+              "Kinetics",
+              "Liver Cirrhosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6849758/"
+          },
+          {
+            "pmid": "38073038",
+            "title": "Empagliflozin in Heart Failure: Regional Nephron Sodium Handling Effects.",
+            "abstract": "The effect of sodium-glucose cotransporter-2 inhibitors (SGLT2i) on regional tubular sodium handling is poorly understood in humans. In this study, empagliflozin substantially decreased lithium reabsorption in the proximal tubule (PT) (a marker of proximal tubular sodium reabsorption), a magnitude out of proportion to that expected with only inhibition of sodium-glucose cotransporter-2. This finding was not driven by an \"osmotic diuretic\" effect; however, several parameters changed in a manner consistent with inhibition of the sodium-hydrogen exchanger 3. The large changes in proximal tubular handling were acutely buffered by increased reabsorption in both the loop of Henle and the distal nephron, resulting in the observed modest acute natriuresis with these agents. After 14 days of empagliflozin, natriuresis waned due to increased reabsorption in the PT and/or loop of Henle. These findings confirm in humans that SGLT2i have complex and important effects on renal tubular solute handlin",
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2024",
+            "authors": [
+              "Rao Veena S",
+              "Ivey-Miranda Juan B",
+              "Cox Zachary L",
+              "Moreno-Villagomez Julieta",
+              "Maulion Christopher"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sodium",
+              "Sodium-Glucose Transporter 2 Inhibitors",
+              "Lithium",
+              "Cross-Over Studies",
+              "Nephrons",
+              "Heart Failure",
+              "Diuretics",
+              "Glucose",
+              "Benzhydryl Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38073038/"
+          },
+          {
+            "pmid": "39291566",
+            "title": "Loop Diuretics Unique Mechanism of Action.",
+            "abstract": "Loop diuretics, including torsemide, furosemide, bumetanide, and piretanide, act by inhibiting the sodium-potassium-chloride (Na+/K+/2Cl-) cotransporter in the thick ascending limb of the loop of Henle within the nephron. This mechanism is pivotal in managing fluid retention associated with conditions such as heart failure, cirrhosis, chronic kidney disease, and hypertension. A comprehensive understanding of how these diuretics uniquely target this transporter provides crucial insights into effectively addressing fluid overload across diverse clinical conditions.",
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2024",
+            "authors": [
+              "Solanki Dharmesh",
+              "Choudhary Sarita",
+              "Vora Agam",
+              "Ghose Tapan",
+              "Mantri R R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Furosemide",
+              "Heart Failure",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39291566/"
+          },
+          {
+            "pmid": "3709028",
+            "title": "Kinetics, dynamics, and bioavailability of bumetanide in healthy subjects and patients with chronic renal failure.",
+            "abstract": "Six patients with chronic renal failure (CRF group) and four healthy subjects (HS group) were given 5 mg oral and intravenous doses of bumetanide in a random, crossover design. The CRF group had significantly lower plasma and renal clearances, resulting in a five-to sixfold reduction in the fractional urinary excretion of the drug. The percent free drug in plasma for the CRF group was more than double that for the HS group, and significant correlations were observed for volume of distribution at steady state vs. percent free (r = 0.661; P less than 0.05), nonrenal clearance vs. percent free (r = 0.796; P less than 0.01), and renal clearance vs. creatinine clearance (r = 0.995; P less than 0.001). Although bioavailability was relatively consistent among the HS (0.664 +/- 0.112) and CRF (0.689 +/- 0.149) groups, the absorption-time profiles were more irregular for both groups. Cumulative sodium excretion and overall efficiency of response to bumetanide did not differ significantly betwee",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1986",
+            "authors": [
+              "Lau H S",
+              "Hyneck M L",
+              "Berardi R R",
+              "Swartz R D",
+              "Smith D E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Absorption",
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Biological Availability",
+              "Blood Proteins",
+              "Bumetanide",
+              "Chromatography, High Pressure Liquid",
+              "Diuretics",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3709028/"
+          },
+          {
+            "pmid": "6391889",
+            "title": "Bumetanide. A review of its pharmacodynamic and pharmacokinetic properties and therapeutic use.",
+            "abstract": "Bumetanide is a potent 'loop' diuretic for the treatment of oedema associated with congestive heart failure, hepatic and renal diseases, acute pulmonary congestion and premenstrual syndrome and in forced diuresis during and after surgery. Bumetanide may be given orally, intravenously or intramuscularly and produces a rapid and marked diuresis, and increased urinary excretion of sodium, chloride and other electrolytes (within 30 minutes) which persists for 3 to 6 hours. Its principal site of action is on the ascending limb of the loop of Henle, with a secondary action on the proximal tubule. Pharmacologically, bumetanide is about 40-fold more potent than frusemide (furosemide), with the exception of its effects on urinary potassium excretion where its potency is lower. Studies in patients with oedema due to congestive heart failure, pulmonary oedema or hepatic disease show that oral or intravenous bumetanide 0.5 to 2 mg/day produces results comparable to those with frusemide 20 to 80 mg",
+            "journal": "Drugs",
+            "year": "1984",
+            "authors": [
+              "Ward A",
+              "Heel R C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bumetanide",
+              "Carbonic Anhydrase Inhibitors",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Heart Failure",
+              "Humans",
+              "Kallikreins",
+              "Kidney",
+              "Kidney Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6391889/"
+          },
+          {
+            "pmid": "22702741",
+            "title": "Clinical pharmacology of the loop diuretics furosemide and bumetanide in neonates and infants.",
+            "abstract": "The loop diuretics furosemide and bumetanide are used widely for the management of fluid overload in both acute and chronic disease states. To date, most pharmacokinetic studies in neonates have been conducted with furosemide and little is known about bumetanide. The aim of this article was to review the published data on the pharmacology of furosemide and bumetanide in neonates and infants in order to provide a critical analysis of the literature, and a useful tool for physicians. The bibliographic search was performed electronically using PubMed and EMBASE databases as search engines and March 2011 was the cutoff point. The half-life (t(½)) of both furosemide and bumetanide is considerably longer in neonates than in adults and consequently the clearance (CL) of these drugs is reduced at birth. In healthy volunteers, plasma t(½) of furosemide ranges from 33 to 100 minutes, whereas in neonates it ranges from 8 to 27 hours. The volume of distribution (V(d)) of furosemide undergoes littl",
+            "journal": "Paediatric drugs",
+            "year": "2012",
+            "authors": [
+              "Pacifici Gian Maria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetazolamide",
+              "Bumetanide",
+              "Drug Therapy, Combination",
+              "Ductus Arteriosus, Patent",
+              "Extracorporeal Membrane Oxygenation",
+              "Furosemide",
+              "Humans",
+              "Hydrocephalus",
+              "Hypercalcemia",
+              "Ibuprofen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22702741/"
+          },
+          {
+            "pmid": "1105532",
+            "title": "Clinical and pharmacokinetic studies on bumetanide in chronic renal failure.",
+            "abstract": "",
+            "journal": "Postgraduate medical journal",
+            "year": "1975",
+            "authors": [
+              "Barclay J E",
+              "Lee H A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Clinical Trials as Topic",
+              "Diuresis",
+              "Diuretics",
+              "Drug Evaluation",
+              "Female",
+              "Humans",
+              "Kidney Failure, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1105532/"
+          },
+          {
+            "pmid": "1712716",
+            "title": "The efficacy of diuretics in acute and chronic renal failure. Focus on torasemide.",
+            "abstract": "Loop diuretics in high doses are the drugs of choice in the treatment of both acute renal failure (ARF) and chronic renal failure (CRF). Their pharmacokinetic and pharmacodynamic properties give them a high efficacy, even in severely compromised renal function. The serum elimination half-life and duration of action of most loop diuretics are dependent on the glomerular filtration rate and are therefore prolonged in renal failure. Torasemide, a new high ceiling and long acting loop diuretic, is as potent as furosemide (frusemide) in patients with advanced renal failure. Unlike other loop diuretics, the half-life and duration of action of torasemide are not dependent on renal function and the parent drug does not accumulate in renal failure. The extent of metabolism is clinically negligible. A number of studies have demonstrated the efficacy of furosemide, bumetanide, piretanide and torasemide in patients with ARF and CRF. When compared with the other loop diuretics, torasemide has the f",
+            "journal": "Drugs",
+            "year": "1991",
+            "authors": [
+              "Risler T",
+              "Krämer B",
+              "Müller G A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Diuretics",
+              "Furosemide",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Sulfonamides",
+              "Torsemide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1712716/"
+          },
+          {
+            "pmid": "16672150",
+            "title": "Sodium transporters in the distal nephron and disease implications.",
+            "abstract": "The post-macula densa segments of the renal tubule--that is, the distal convoluted tubule, connecting tubule, and collecting duct--play a central role in determining final urine sodium excretion. The major regulated sodium transporters and channels in these cell types include the thiazide-sensitive (Na-Cl) cotransporter (NCC), the epithelial sodium channel (ENaC), and Na-K-ATPase. Furthermore, although not involved in sodium reabsorption, the anion exchanger, pendrin, and the basolateral bumetanide-sensitive Na-K-2Cl cotransporter (NKCC1 or BSC2) have roles in blood-volume maintenance. Mutations in several of these major sodium transporters, channel subunits, and their regulatory proteins have been linked to human diseases such as Liddle's syndrome, Gitelman's syndrome, and Gordon's syndrome, emphasizing the need for appropriate regulation of sodium at these sites for maintenance of sodium balance and normotension.",
+            "journal": "Current hypertension reports",
+            "year": "2006",
+            "authors": [
+              "Ecelbarger Carolyn A",
+              "Tiwari Swasti"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Volume",
+              "Humans",
+              "Hypertension",
+              "Kidney Failure, Chronic",
+              "Kidney Tubules",
+              "Kidney Tubules, Collecting",
+              "Rats",
+              "Sodium",
+              "Sodium Channels"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16672150/"
+          },
+          {
+            "pmid": "3987182",
+            "title": "Bumetanide kinetics in renal failure.",
+            "abstract": "To study the effects of renal failure on bumetanide kinetics, we administered single intravenous doses of 1.0 mg/3.08 microCi 14C-bumetanide to six healthy subjects and 22 patients with variable degrees of renal failure. The kinetics of 14C-bumetanide and total 14C were adequately described by a two-compartment open model in the control subjects and in the patients. The volume of the central compartment and the distribution t1/2 were of the same order in both groups, whereas the mean (+/- SE) volume at steady state was larger (22.1 +/- 1.6 and 16.9 +/- 1.0 L) and the elimination t1/2 was longer (1.9 +/- 0.2 and 1.4 +/- 0.1 hours) in patients with renal failure than in healthy controls. Bumetanide renal clearance was lower (10 +/- 3 and 90 +/- 13 ml/min) in patients than in subjects and correlated with creatinine clearance (r = 0.784) and log serum creatinine level (r = -0.843), whereas nonrenal clearance was significantly higher in the patients (153 +/- 14 and 99 +/- 6 ml/min). Bumetan",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1985",
+            "authors": [
+              "Pentikäinen P J",
+              "Pasternack A",
+              "Lampainen E",
+              "Neuvonen P J",
+              "Penttilä A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Carbon Radioisotopes",
+              "Diuretics",
+              "Female",
+              "Half-Life",
+              "Humans",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3987182/"
+          },
+          {
+            "pmid": "19843838",
+            "title": "A comprehensive review of the loop diuretics: should furosemide be first line?",
+            "abstract": "To review the literature regarding the pharmacokinetic profiles, comparative safety and efficacy, and comparative costs of loop diuretics to evaluate the current clinical usefulness of furosemide.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2009",
+            "authors": [
+              "Wargo Kurt A",
+              "Banta William M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Furosemide",
+              "Heart Failure",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Liver Cirrhosis",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19843838/"
+          },
+          {
+            "pmid": "9761364",
+            "title": "The clinical pharmacology of loop diuretics in the pediatric patient.",
+            "abstract": "The loop diuretics furosemide and bumetanide are frequently employed in the pediatric population for the management of fluid overload in both acute and chronic disease states. They act mainly by inhibiting sodium reabsorption in the nephron at the thick ascending limb of Henle's loop. Important pharmacokinetic differences between adults and infants include a reduced clearance and prolonged half-life, that may cause accumulation of these agents to potentially toxic levels if dosing intervals are not adjusted. Unfortunately, little is known about the time required for maturation of loop diuretic elimination in older infants, children, and adolescents. Similar to adults, limited pharmacodynamic evidence in neonates suggests that a maximally efficient diuretic dose exists. Increasing the diuretic dose beyond this maximum does not offer further benefit, but may increase the risk of toxicity. Common problems encountered in the pediatric patient as well as in adults are loop diuretic toleranc",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "1998",
+            "authors": [
+              "Eades S K",
+              "Christensen M L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bumetanide",
+              "Child",
+              "Diuretics",
+              "Drug Resistance",
+              "Drug Tolerance",
+              "Furosemide",
+              "Humans",
+              "Kidney Diseases",
+              "Loop of Henle"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9761364/"
+          },
+          {
+            "pmid": "1295711",
+            "title": "The place of loop diuretics in the treatment of acute and chronic renal failure.",
+            "abstract": "Loop diuretics (furosemide, bumetanide, muzolimine, piretamide, torasemide) are powerful drugs capable of increasing sodium excretion and urine output even when renal function is markedly impaired. In patients with chronic renal failure (CRF), loop diuretics may be given to control extracellular volume (ECV) expansion responsible for hypertension. But the use of loop diuretics in chronic uremia is mostly helpful when impaired renal function co-exists with nephrotic syndrome or chronic heart failure. Due to their powerful natriuretic activity, loop diuretics have been administered also to patients on maintenance dialysis to reduce the frequency of and/or to curtail dialysis time. In this condition, however, the increase of sodium and water excretion is very limited; whereas the use of diuretics in high dosage is not devoid of risky side effects such as neurologic lesions, cramps, deafness, weakness, muscle pain. In some patients with oliguric form of acute renal failure (ARF), loop diur",
+            "journal": "Clinical nephrology",
+            "year": "1992",
+            "authors": [
+              "Russo D",
+              "Memoli B",
+              "Andreucci V E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Diuretics",
+              "Edema",
+              "Humans",
+              "Hypertension, Renal",
+              "Kidney Failure, Chronic",
+              "Natriuresis",
+              "Renal Dialysis",
+              "Water-Electrolyte Imbalance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1295711/"
+          },
+          {
+            "pmid": "8236578",
+            "title": "[Loop diuretics. Rational pharmacotherapy].",
+            "abstract": "The pharmacodynamics and -kinetics as well as rational pharmacotherapy of furosemide and bumetanide is reviewed. In renal insufficiency, a reduced response to diuretics is due to altered pharmacokinetics. The optimum dose can be determined within three to four hours by titration and the effect is measured by the amount of excreted sodium. In nephrotic syndrome, both pharmaco-kinetics and--dynamics are altered. The optimum dose is established as above. Starting and ceiling doses are given in tables for both drugs in renal insufficiency and nephrotic syndrome. In congestive heart failure, the difference is greater between oral and intravenous doses than apparent from the bioavailability of the drugs. If potent diuretics are without effect, the heart failure must be treated more vigorously or a combination with thiazides tried out. Potent diuretics are seldom used in the treatment of liver cirrhosis, but, if used, large doses are necessary. Non-steroidal antiinflammatory drugs are usually",
+            "journal": "Ugeskrift for laeger",
+            "year": "1993",
+            "authors": [
+              "Bülow H H",
+              "Ladefoged S D"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Bumetanide",
+              "Diuresis",
+              "Diuretics",
+              "Dose-Response Relationship, Drug",
+              "Drug Therapy, Combination",
+              "Furosemide",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Sodium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8236578/"
+          },
+          {
+            "pmid": "9474471",
+            "title": "Clinical pharmacokinetics and pharmacodynamics of torasemide.",
+            "abstract": "The new loop diuretic torasemide belongs to the pyridine sulfonylurea class. It is well absorbed and yields a bioavailablity of about 80% in healthy individuals, even higher in patients with oedema. This is roughly double that of the 'classical' loop diuretic furosemide (frusemide) [26 to 65%]. Torasemide is highly bound to protein (99%) as is furosemide. The volume of distribution of torasemide was determined as 0.2 L/kg as compared with 0.11 to 0.18 L/kg for furosemide. Torasemide undergoes extensive hepatic metabolism; only 20% of the parent drug is recovered unchanged in the urine. For comparison only 10 to 20% of furosemide undergoes phase II metabolisation (to the glucuronide). In chronic renal failure the renal clearance of torasemide decreased in proportion to the decrease of the patients' glomerular filtration rate, whereas the total plasma clearance (3 times that of the renal clearance) appeared to be independent of renal function. As expected, the renal excretion of torasemi",
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "authors": [
+              "Knauf H",
+              "Mutschler E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Antihypertensive Agents",
+              "Biological Availability",
+              "Cardiovascular Diseases",
+              "Diuretics",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Intestinal Absorption",
+              "Kidney Diseases",
+              "Potassium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9474471/"
+          },
+          {
+            "pmid": "6656977",
+            "title": "High-dosage bumetanide in patients with chronic renal failure and severe nephrotic syndrome.",
+            "abstract": "",
+            "journal": "The Netherlands journal of medicine",
+            "year": "1983",
+            "authors": [
+              "Koene R A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bumetanide",
+              "Diuretics",
+              "Female",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Male",
+              "Middle Aged",
+              "Nephrotic Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6656977/"
+          },
+          {
+            "pmid": "3511655",
+            "title": "Diuretic use in critical care.",
+            "abstract": "Diuretics have found wide application in critical care medicine. The use of mannitol and loop diuretics in a variety of life-threatening disorders is reviewed. The combined venodilatory and natriuretic effects of bumetanide, furosemide and ethacrynic acid relieve congestive symptoms in pulmonary edema. Although commonly administered to prevent development of acute tubular necrosis or in varying stages of evolving disease, few data are available to demonstrate the efficacy of mannitol or loop diuretics. An approach to the oliguric patient with acute tubular necrosis is described. The dangers of hyponatremia are reviewed, and the rational use of loop diuretics and hypertonic saline is outlined. The 3 loop-active agents inhibit calcium reabsorption in the thick ascending limb of Henle's loop and therefore have proved useful in treating hypercalcemia. A practical approach to the diuretic-saline treatment of severe hypercalcemia is outlined. The kaliuretic effect of loop diuretics can be us",
+            "journal": "The American journal of cardiology",
+            "year": "1986",
+            "authors": [
+              "Narins R G",
+              "Chusid P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biological Transport",
+              "Calcium",
+              "Critical Care",
+              "Diuretics",
+              "Ethacrynic Acid",
+              "Extracellular Space",
+              "Humans",
+              "Hypercalcemia",
+              "Hyperkalemia",
+              "Hyponatremia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3511655/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic pulmonary heart disease",
+        "txgnn_score": 0.9342553615570068,
+        "txgnn_rank": 29892,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06995144",
+            "title": "A Randomized, Two-Period, Two-Arm, Double-Dummy, Crossover Study to Compare Natriuretic Effects of Extended Release Torsemide to Immediate Release Torsemide in Patients With Heart Failure (NEXT-HF)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-05-28",
+            "completion_date": "2026-03-15",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "The primary objective of this study is to learn whether a morning dose of extended-release torsemide enhances renal sodium excretion after lunch (4-8 hours after dosing) compared to immediate-release torsemide.\n\nThis is a randomized, double-blind, crossover study in patients with heart failure who are on a stable dose of a loop diuretic. During the study period, participants' current loop diuretics will be replaced with an equivalent dose of either immediate-release or extended-release torsemide",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age: 18 years or older.\n* Informed Consent: Willing and able to sign the informed consent form.\n* Stable Chronic HF: A clinical diagnosis of chronic heart failure considered stable by the patient's cardiologist/physician or another experienced clinician for at least one month ",
+            "endpoints": [
+              "Urinary sodium excretion measurement"
+            ],
+            "sponsor": "Sarfez Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06995144"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05580510",
+            "title": "\"An Open-label Clinical Trial to Evaluate the Safety and Efficacy of Empagliflozin and Sacubitril/Valsartan in Adult Patients With Chronic Heart Failure With Reduced Ejection Fraction Associated With Congenital Heart Disease\"",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-02-06",
+            "completion_date": "2024-03-29",
+            "country": "Mexico",
+            "enrollment": 160,
+            "brief_summary": "The treatment of adult patients with congenital heart disease (ACHD) and heart failure (HF) represents a great challenge since, to date, there is no standardized guideline for this specific population. Although new treatments for HF have been proposed, such as Sodium-glucose Cotransporter-2 (SGLT2) Inhibitors and neprilisin and angiotensin receptor inhibitors, the benefit of these drugs in patients with HF associated with congenital heart disease in adults has not yet been demonstrated. For this",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* NYHA functional class II-IV\n* Diagnosis of CHD: repaired, palliated or without previous treatment\n* Systemic ventricular ejection fraction \\<40%\n* Without unplanned hospital admissions within 3 months prior to randomization\n* The participant is willing and able to give informe",
+            "endpoints": [
+              "3D echocardiographic systemic ventricular end-diastolic volume index",
+              "3D echocardiographic systemic ventricular end-systolic volume index"
+            ],
+            "sponsor": "Instituto Nacional de Cardiologia Ignacio Chavez",
+            "url": "https://clinicaltrials.gov/study/NCT05580510"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "6391889",
+            "title": "Bumetanide. A review of its pharmacodynamic and pharmacokinetic properties and therapeutic use.",
+            "abstract": "Bumetanide is a potent 'loop' diuretic for the treatment of oedema associated with congestive heart failure, hepatic and renal diseases, acute pulmonary congestion and premenstrual syndrome and in forced diuresis during and after surgery. Bumetanide may be given orally, intravenously or intramuscularly and produces a rapid and marked diuresis, and increased urinary excretion of sodium, chloride and other electrolytes (within 30 minutes) which persists for 3 to 6 hours. Its principal site of action is on the ascending limb of the loop of Henle, with a secondary action on the proximal tubule. Pharmacologically, bumetanide is about 40-fold more potent than frusemide (furosemide), with the exception of its effects on urinary potassium excretion where its potency is lower. Studies in patients with oedema due to congestive heart failure, pulmonary oedema or hepatic disease show that oral or intravenous bumetanide 0.5 to 2 mg/day produces results comparable to those with frusemide 20 to 80 mg",
+            "journal": "Drugs",
+            "year": "1984",
+            "authors": [
+              "Ward A",
+              "Heel R C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bumetanide",
+              "Carbonic Anhydrase Inhibitors",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Heart Failure",
+              "Humans",
+              "Kallikreins",
+              "Kidney",
+              "Kidney Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6391889/"
+          },
+          {
+            "pmid": "3304383",
+            "title": "Immediate effects of bumetanide on systemic haemodynamics and left ventricular volume in acute and chronic heart failure.",
+            "abstract": "1 The haemodynamic and radionuclide effects of i.v. bumetanide (25 micrograms kg-1) were prospectively studied in 24 patients with angiographically documented coronary artery disease and either acute exercise-induced (Group I, n = 12) or chronic (Group II, n = 12) heart failure. 2 Bumetanide at rest increased systemic arterial blood pressure and vascular resistance index; cardiac index and pulmonary artery occluded pressure (PAOP) were reduced at an unchanged heart rate in all patients. The left ventricular ejection fraction fell in patients with normal resting left ventricular filling pressure without change in those with chronic heart failure. The cardiac volumes were unchanged in either group. 3 During constant-load supine bicycle exercise, there were similar effects on systemic arterial pressures, vascular resistance index and PAOP; however the cardiac index was maintained at a reduced left ventricular filling pressure and unchanged ejection fraction and volumes. 4 These data demon",
+            "journal": "British journal of clinical pharmacology",
+            "year": "1987",
+            "authors": [
+              "Verma S P",
+              "Silke B",
+              "Reynolds G",
+              "Muller P",
+              "Frais M A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Electrocardiography",
+              "Female",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3304383/"
+          },
+          {
+            "pmid": "19843838",
+            "title": "A comprehensive review of the loop diuretics: should furosemide be first line?",
+            "abstract": "To review the literature regarding the pharmacokinetic profiles, comparative safety and efficacy, and comparative costs of loop diuretics to evaluate the current clinical usefulness of furosemide.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2009",
+            "authors": [
+              "Wargo Kurt A",
+              "Banta William M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Furosemide",
+              "Heart Failure",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Liver Cirrhosis",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19843838/"
+          },
+          {
+            "pmid": "7239091",
+            "title": "[Hemodynamic changes produced by intravenous bumetanide in congestive heart failure].",
+            "abstract": "The hemodynamic variations brought about by the single intravenous infection of 0,5 mg bumetanide have been studied in 7 patients with chronic ischemic heart disease and in 3 patients with non-obstructive hypertrophic cardiomyopathy, all of them in congestive heart failure. The technique employed has been the right heart micro-catheterization. The following parameters have been studied: heart rate, systemic systolic and diastolic pressures, mean pulmonary pressure, end-diastolic pulmonary pressure, total systemic and pulmonary resistances, cardiac index, systolic index, left ventricular systolic work index, timed diuresis, pH, pO2, pCO2, for a four-hours period of observation. Results have been statistically analyzed with the sign test. Bumetanide has brought about a significative reduction of the right pressures and of resistances both in pulmonary and systemic circulations, without any effect on ventricular function indexes. These effects have appeared very early, already within the ",
+            "journal": "Giornale italiano di cardiologia",
+            "year": "1981",
+            "authors": [
+              "Ziacchi V",
+              "Rossi A",
+              "Lomanto B"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bumetanide",
+              "Diuretics",
+              "Female",
+              "Heart Failure",
+              "Hemodynamics",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7239091/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9172261357307434,
+        "txgnn_rank": 32788,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9950602",
+            "title": "Na-K-Cl cotransport in normal and glaucomatous human trabecular meshwork cells.",
+            "abstract": "Previous results from this laboratory showed that intracellular volume of trabecular meshwork (TM) cells is regulated by the Na-K-Cl cotransport system. Other studies suggest that TM cell volume, in turn, is a determinant of permeability across the TM. Given that a decrease in outflow facility across the TM is thought to be the primary cause of elevated intraocular pressure in primary open-angle glaucoma, the present study was conducted to investigate the possibility that Na-K-Cl cotransport function may be altered in glaucomatous TM cells compared with normal TM cells.",
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "1999",
+            "authors": [
+              "Putney L K",
+              "Brandt J D",
+              "O'Donnell M E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "8-Bromo Cyclic Adenosine Monophosphate",
+              "Aged",
+              "Blotting, Western",
+              "Bumetanide",
+              "Carrier Proteins",
+              "Cell Size",
+              "Cells, Cultured",
+              "Child, Preschool",
+              "Chlorides",
+              "Glaucoma, Open-Angle"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9950602/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "end stage renal failure",
+        "txgnn_score": 0.9161280393600464,
+        "txgnn_rank": 32937,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03709160",
+            "title": "Oral dIuretics in Very Intensive Treatment, an Early Intervention in Outpatients With Heart Failure. DIVINE STUDY",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2018-10-15",
+            "completion_date": "2019-10-15",
+            "country": "Mexico",
+            "enrollment": 40,
+            "brief_summary": "In the present study, consecutive patients, older than 18 years, of both genders will be included. The diagnosis of reduced Heart Failure (HfrEF) according to: Clinical pattern, laboratories and Cardiac imaging (ESC criteria). Treatment will be assigned in two groups: Bumetanide and another group will be received Indapamide. Each group received maximum tolerated dose for seven days with Clinical and labs evaluations will be every 48 hrs. (Face-to-face and/or telephone visits). Serum and urinary ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Older over 18 year 2. Both gender. 3. Patients are able to read, write and understand. 4.-Heart failure criteria:a) Clinical signs and symptoms b) serum NTP-proBNP: over 125pg/ml. or serum bnp: over: 35pg/ml. c) Left ventricular ejection fraction under 40% ( By any image s",
+            "endpoints": [
+              "MORTALITY"
+            ],
+            "sponsor": "Centro en Insuficiencia Cardiaca, Mexico",
+            "url": "https://clinicaltrials.gov/study/NCT03709160"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06362668",
+            "title": "EU Sites: Fluid Management of Acute Decompensated Heart Failure Subjects Treated With Reprieve Decongestion Management System (DMS) (FASTR-EU)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2024-05-17",
+            "completion_date": "2024-10-31",
+            "country": "Poland, Netherlands",
+            "enrollment": 12,
+            "brief_summary": "The objective of this study is to prospectively compare decongestive therapy administered by the Reprieve DMS system to Optimal Diuretic Therapy (ODT) in the treatment of patients diagnosed with acute decompensated heart failure (ADHF). The main objective is to determine if the Reprieve DMS is non-inferior to state-of-the-art urine sodium guided aggressive diuretic titration in two European HF centers of excellence.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Hospitalized with a diagnosis of heart failure as defined by the presence of at least 1 symptom AND 1 sign.\n2. ≥10 pounds (4.5 kg) above dry weight either by historical weights or as estimated by health care provider.\n3. Prior use of loop diuretics within 30 says prior to adm",
+            "endpoints": [
+              "Total sodium loss (in mmol of sodium) per 24 hours",
+              "Comparison of occurrence of composite endpoint comprised of clinically significant acute kidney injury, severe electrolyte abnormality, or symptomatic hypotension or hypertensive emergency."
+            ],
+            "sponsor": "Reprieve Cardiovascular, Inc",
+            "url": "https://clinicaltrials.gov/study/NCT06362668"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00608491",
+            "title": "CARdiorenal REScue Study in Acute Decompensated Heart Failure: CARRESS",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-03",
+            "completion_date": "2012-06",
+            "country": "Canada, United States",
+            "enrollment": 188,
+            "brief_summary": "Heart failure is a serious condition in which the heart's ability to pump blood through the body is impaired, often making a person feel weak or fatigued. When a person's condition worsens to the point of hospitalization, that person is said to have acute decompensated heart failure (ADHF). Abnormal kidney function in association with cardiac distress, known as cardiorenal syndrome, is a common complication of heart failure and causes further medical problems and need for hospitalization. While ",
+            "eligibility_criteria": "Inclusion criteria:\n\n* age 18 or older\n* admitted to the hospital with a primary diagnosis of decompensated heart failure\n* onset of cardiorenal syndrome after hospitalization or pre-hospitalization\n* after hospitalization - onset of cardiorenal syndrome after hospitalization must occur within 10 da",
+            "endpoints": [
+              "Change in Serum Creatinine",
+              "Change in Weight"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT00608491"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05809011",
+            "title": "A Multicenter, Randomized, Open-label, Controlled Study to Evaluate the Efficacy and Safety of corticoSTEROids Added to Standard Therapy in Patients With Acute Heart Failure (STERO-AHF)",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-04-24",
+            "completion_date": "2025-12",
+            "country": "Italy",
+            "enrollment": 120,
+            "brief_summary": "STERO-AHF is a pilot, prospective, multicenter, randomized, open-label, controlled study aimed to evaluate the diuretic efficacy and early clinical benefit of corticosteroid therapy administered for 7 days, in addition to standard therapy, in patients hospitalized for acute heart failure (AHF) and with evidence of insufficient diuretic response. Eligible patients will be randomized 1:1 to receive either standard-of-care alone (control group) or standard-of-care plus corticosteroid therapy (exper",
+            "eligibility_criteria": "Inclusion criteria:\n\n1. Full age of consent at screening (at least ≥18 years old according to local legislation).\n2. Able to provide written informed consent or a legally authorized representative is able to provide written informed consent.\n3. Hospitalized for AHF, either de novo or decompensated c",
+            "endpoints": [
+              "Diuretic response, defined as absolute body weight change per 40 mg total dose of intravenous furosemide or equivalent",
+              "Early clinical benefit, defined as a hierarchical composite outcome including all-cause death, worsening heart failure (HF), and the absolute change in patient-reported dyspnea as quantified by the visual analogue scale (VAS) score (0-100 mm scale)"
+            ],
+            "sponsor": "Azienda Socio Sanitaria Territoriale degli Spedali Civili di Brescia",
+            "url": "https://clinicaltrials.gov/study/NCT05809011"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32094236",
+            "title": "BRASH syndrome.",
+            "abstract": "A 62-year-old woman with chronic kidney disease stage 4, sleep apnoea on continuous positive airway pressure and recent admission for acute-on-chronic diastolic heart failure presented to emergency room with weakness. She was hypotensive and had symptomatic bradycardia in the 30 s secondary to hyperkalaemia and beta-blockers, raising concern for BRASH syndrome. Antihypertensives were immediately held. Potassium-lowering agents (with calcium gluconate for cardiac stability) were begun, as were fluids and dopamine for vasopressor support. The patient was admitted to intensive care unit and electrophysiology was consulted. Over the next 2 days, the patient clinically improved: she remained off dopamine for over 24 hours; potassium levels and renal function improved; and heart rate stabilised in 60 s. The patient was eventually discharged and advised to avoid metolazone, bumetanide and carvedilol, with primary care provider and cardiology follow-up.",
+            "journal": "BMJ case reports",
+            "year": "2020",
+            "authors": [
+              "Srivastava Shaurya",
+              "Kemnic Tyler",
+              "Hildebrandt Kyle R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Atrioventricular Block",
+              "Bradycardia",
+              "Bumetanide",
+              "Carvedilol",
+              "Female",
+              "Humans",
+              "Hyperkalemia",
+              "Metolazone",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32094236/"
+          },
+          {
+            "pmid": "3987182",
+            "title": "Bumetanide kinetics in renal failure.",
+            "abstract": "To study the effects of renal failure on bumetanide kinetics, we administered single intravenous doses of 1.0 mg/3.08 microCi 14C-bumetanide to six healthy subjects and 22 patients with variable degrees of renal failure. The kinetics of 14C-bumetanide and total 14C were adequately described by a two-compartment open model in the control subjects and in the patients. The volume of the central compartment and the distribution t1/2 were of the same order in both groups, whereas the mean (+/- SE) volume at steady state was larger (22.1 +/- 1.6 and 16.9 +/- 1.0 L) and the elimination t1/2 was longer (1.9 +/- 0.2 and 1.4 +/- 0.1 hours) in patients with renal failure than in healthy controls. Bumetanide renal clearance was lower (10 +/- 3 and 90 +/- 13 ml/min) in patients than in subjects and correlated with creatinine clearance (r = 0.784) and log serum creatinine level (r = -0.843), whereas nonrenal clearance was significantly higher in the patients (153 +/- 14 and 99 +/- 6 ml/min). Bumetan",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1985",
+            "authors": [
+              "Pentikäinen P J",
+              "Pasternack A",
+              "Lampainen E",
+              "Neuvonen P J",
+              "Penttilä A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Carbon Radioisotopes",
+              "Diuretics",
+              "Female",
+              "Half-Life",
+              "Humans",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3987182/"
+          },
+          {
+            "pmid": "38073038",
+            "title": "Empagliflozin in Heart Failure: Regional Nephron Sodium Handling Effects.",
+            "abstract": "The effect of sodium-glucose cotransporter-2 inhibitors (SGLT2i) on regional tubular sodium handling is poorly understood in humans. In this study, empagliflozin substantially decreased lithium reabsorption in the proximal tubule (PT) (a marker of proximal tubular sodium reabsorption), a magnitude out of proportion to that expected with only inhibition of sodium-glucose cotransporter-2. This finding was not driven by an \"osmotic diuretic\" effect; however, several parameters changed in a manner consistent with inhibition of the sodium-hydrogen exchanger 3. The large changes in proximal tubular handling were acutely buffered by increased reabsorption in both the loop of Henle and the distal nephron, resulting in the observed modest acute natriuresis with these agents. After 14 days of empagliflozin, natriuresis waned due to increased reabsorption in the PT and/or loop of Henle. These findings confirm in humans that SGLT2i have complex and important effects on renal tubular solute handlin",
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2024",
+            "authors": [
+              "Rao Veena S",
+              "Ivey-Miranda Juan B",
+              "Cox Zachary L",
+              "Moreno-Villagomez Julieta",
+              "Maulion Christopher"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sodium",
+              "Sodium-Glucose Transporter 2 Inhibitors",
+              "Lithium",
+              "Cross-Over Studies",
+              "Nephrons",
+              "Heart Failure",
+              "Diuretics",
+              "Glucose",
+              "Benzhydryl Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38073038/"
+          },
+          {
+            "pmid": "1295711",
+            "title": "The place of loop diuretics in the treatment of acute and chronic renal failure.",
+            "abstract": "Loop diuretics (furosemide, bumetanide, muzolimine, piretamide, torasemide) are powerful drugs capable of increasing sodium excretion and urine output even when renal function is markedly impaired. In patients with chronic renal failure (CRF), loop diuretics may be given to control extracellular volume (ECV) expansion responsible for hypertension. But the use of loop diuretics in chronic uremia is mostly helpful when impaired renal function co-exists with nephrotic syndrome or chronic heart failure. Due to their powerful natriuretic activity, loop diuretics have been administered also to patients on maintenance dialysis to reduce the frequency of and/or to curtail dialysis time. In this condition, however, the increase of sodium and water excretion is very limited; whereas the use of diuretics in high dosage is not devoid of risky side effects such as neurologic lesions, cramps, deafness, weakness, muscle pain. In some patients with oliguric form of acute renal failure (ARF), loop diur",
+            "journal": "Clinical nephrology",
+            "year": "1992",
+            "authors": [
+              "Russo D",
+              "Memoli B",
+              "Andreucci V E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Diuretics",
+              "Edema",
+              "Humans",
+              "Hypertension, Renal",
+              "Kidney Failure, Chronic",
+              "Natriuresis",
+              "Renal Dialysis",
+              "Water-Electrolyte Imbalance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1295711/"
+          },
+          {
+            "pmid": "1712716",
+            "title": "The efficacy of diuretics in acute and chronic renal failure. Focus on torasemide.",
+            "abstract": "Loop diuretics in high doses are the drugs of choice in the treatment of both acute renal failure (ARF) and chronic renal failure (CRF). Their pharmacokinetic and pharmacodynamic properties give them a high efficacy, even in severely compromised renal function. The serum elimination half-life and duration of action of most loop diuretics are dependent on the glomerular filtration rate and are therefore prolonged in renal failure. Torasemide, a new high ceiling and long acting loop diuretic, is as potent as furosemide (frusemide) in patients with advanced renal failure. Unlike other loop diuretics, the half-life and duration of action of torasemide are not dependent on renal function and the parent drug does not accumulate in renal failure. The extent of metabolism is clinically negligible. A number of studies have demonstrated the efficacy of furosemide, bumetanide, piretanide and torasemide in patients with ARF and CRF. When compared with the other loop diuretics, torasemide has the f",
+            "journal": "Drugs",
+            "year": "1991",
+            "authors": [
+              "Risler T",
+              "Krämer B",
+              "Müller G A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Diuretics",
+              "Furosemide",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Sulfonamides",
+              "Torsemide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1712716/"
+          },
+          {
+            "pmid": "36763813",
+            "title": "Rapid Progression of Focal Segmental Glomerulosclerosis in Patients with High-Risk APOL1 Genotypes.",
+            "abstract": "FSGS is a heterogeneous diagnosis with a guarded prognosis. Polymorphisms in the apolipoprotein L1 ( APOL1 ) gene are associated with developing FSGS and faster progression to kidney failure in affected patients. Better understanding the natural history of patients with FSGS and APOL1 risk alleles is essential to improve patient care and support the design and interpretation of interventional studies. The objective of this study was to evaluate the quantitative association between APOL1 and kidney disease progression and the interaction with other clinical and laboratory factors.",
+            "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+            "year": "2023",
+            "authors": [
+              "Kallash Mahmoud",
+              "Wang Yujie",
+              "Smith Abigail",
+              "Trachtman Howard",
+              "Gbadegesin Rasheed"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glomerulosclerosis, Focal Segmental",
+              "Apolipoprotein L1",
+              "Cohort Studies",
+              "Risk Factors",
+              "Genotype",
+              "Apolipoproteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36763813/"
+          },
+          {
+            "pmid": "6849758",
+            "title": "The pharmacokinetics and pharmacodynamics of the diuretic bumetanide in hepatic and renal disease.",
+            "abstract": "1 Bumetanide (1 mg) was given orally and intravenously to a group of patients with chronic renal failure (n = 6) and to another group with cirrhosis of the liver (n = 8). 2 The pharmacokinetics, using a two-compartment model, and the pharmacodynamics of the drug in these patients were compared with those previously obtained for normal subjects. 3 In the renal group serum bumetanide concentrations were higher than for the normal subjects and the terminal half-lives were significantly prolonged (P less than 0.001). A decreased whole body clearance was attributable to a low renal clearance of drug, the non-renal clearance being significantly increased (P less than 0.01). 4 For the patients with liver disease, serum bumetanide concentrations were higher than for the renal group, and the terminal half-lives were significantly further prolonged (P less than 0.001). Both non-renal and renal clearances were significantly reduced (P less than 0.001). 5 Absorption rates were not significantly al",
+            "journal": "British journal of clinical pharmacology",
+            "year": "1983",
+            "authors": [
+              "Marcantonio L A",
+              "Auld W H",
+              "Murdoch W R",
+              "Purohit R",
+              "Skellern G G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Diuretics",
+              "Humans",
+              "Injections, Intravenous",
+              "Kidney Failure, Chronic",
+              "Kinetics",
+              "Liver Cirrhosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6849758/"
+          },
+          {
+            "pmid": "39291566",
+            "title": "Loop Diuretics Unique Mechanism of Action.",
+            "abstract": "Loop diuretics, including torsemide, furosemide, bumetanide, and piretanide, act by inhibiting the sodium-potassium-chloride (Na+/K+/2Cl-) cotransporter in the thick ascending limb of the loop of Henle within the nephron. This mechanism is pivotal in managing fluid retention associated with conditions such as heart failure, cirrhosis, chronic kidney disease, and hypertension. A comprehensive understanding of how these diuretics uniquely target this transporter provides crucial insights into effectively addressing fluid overload across diverse clinical conditions.",
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2024",
+            "authors": [
+              "Solanki Dharmesh",
+              "Choudhary Sarita",
+              "Vora Agam",
+              "Ghose Tapan",
+              "Mantri R R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Furosemide",
+              "Heart Failure",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39291566/"
+          },
+          {
+            "pmid": "3709028",
+            "title": "Kinetics, dynamics, and bioavailability of bumetanide in healthy subjects and patients with chronic renal failure.",
+            "abstract": "Six patients with chronic renal failure (CRF group) and four healthy subjects (HS group) were given 5 mg oral and intravenous doses of bumetanide in a random, crossover design. The CRF group had significantly lower plasma and renal clearances, resulting in a five-to sixfold reduction in the fractional urinary excretion of the drug. The percent free drug in plasma for the CRF group was more than double that for the HS group, and significant correlations were observed for volume of distribution at steady state vs. percent free (r = 0.661; P less than 0.05), nonrenal clearance vs. percent free (r = 0.796; P less than 0.01), and renal clearance vs. creatinine clearance (r = 0.995; P less than 0.001). Although bioavailability was relatively consistent among the HS (0.664 +/- 0.112) and CRF (0.689 +/- 0.149) groups, the absorption-time profiles were more irregular for both groups. Cumulative sodium excretion and overall efficiency of response to bumetanide did not differ significantly betwee",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1986",
+            "authors": [
+              "Lau H S",
+              "Hyneck M L",
+              "Berardi R R",
+              "Swartz R D",
+              "Smith D E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Absorption",
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Biological Availability",
+              "Blood Proteins",
+              "Bumetanide",
+              "Chromatography, High Pressure Liquid",
+              "Diuretics",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3709028/"
+          },
+          {
+            "pmid": "6391889",
+            "title": "Bumetanide. A review of its pharmacodynamic and pharmacokinetic properties and therapeutic use.",
+            "abstract": "Bumetanide is a potent 'loop' diuretic for the treatment of oedema associated with congestive heart failure, hepatic and renal diseases, acute pulmonary congestion and premenstrual syndrome and in forced diuresis during and after surgery. Bumetanide may be given orally, intravenously or intramuscularly and produces a rapid and marked diuresis, and increased urinary excretion of sodium, chloride and other electrolytes (within 30 minutes) which persists for 3 to 6 hours. Its principal site of action is on the ascending limb of the loop of Henle, with a secondary action on the proximal tubule. Pharmacologically, bumetanide is about 40-fold more potent than frusemide (furosemide), with the exception of its effects on urinary potassium excretion where its potency is lower. Studies in patients with oedema due to congestive heart failure, pulmonary oedema or hepatic disease show that oral or intravenous bumetanide 0.5 to 2 mg/day produces results comparable to those with frusemide 20 to 80 mg",
+            "journal": "Drugs",
+            "year": "1984",
+            "authors": [
+              "Ward A",
+              "Heel R C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bumetanide",
+              "Carbonic Anhydrase Inhibitors",
+              "Clinical Trials as Topic",
+              "Diuretics",
+              "Heart Failure",
+              "Humans",
+              "Kallikreins",
+              "Kidney",
+              "Kidney Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6391889/"
+          },
+          {
+            "pmid": "8218968",
+            "title": "Bumetanide binding to normal albumins and to albumin in renal failure.",
+            "abstract": "Binding of bumetanide, a loop diuretic, to partially purified albumins from renal failure patients (RF-HA), and healthy subjects (N-HA), human serum albumin (HSA) and defatted-HSA (D-HSA), was studied with equilibrium dialysis at a constant albumin concentration and various ligand concentrations. Binding parameters (n and K) were estimated from Scatchard plots and with a non-linear two-binding site model computer program, assuming two classes of independent sites. The binding capacities (n1K1) decreased in the order N-HA > RF-HA > D-HSA > HSA. Computer estimates of K1 for the partially purified albumin preparations were not markedly different. However, the graphical estimate of K1 for N-HA was greater than that for RF-HA. When the degree of binding (r) was plotted as a function of the logarithm of the free bumetanide concentration, an asymptotic plateau was not observed, indicating that the protein binding sites were not saturated. Consequently, the calculated binding estimates may not",
+            "journal": "Biopharmaceutics & drug disposition",
+            "year": "1993",
+            "authors": [
+              "Howlett M R",
+              "Auld W H",
+              "Murdoch W R",
+              "Skellern G G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Albumins",
+              "Bumetanide",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Kinetics",
+              "Polyethylene Glycols",
+              "Protein Binding",
+              "Serum Albumin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8218968/"
+          },
+          {
+            "pmid": "1105532",
+            "title": "Clinical and pharmacokinetic studies on bumetanide in chronic renal failure.",
+            "abstract": "",
+            "journal": "Postgraduate medical journal",
+            "year": "1975",
+            "authors": [
+              "Barclay J E",
+              "Lee H A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Clinical Trials as Topic",
+              "Diuresis",
+              "Diuretics",
+              "Drug Evaluation",
+              "Female",
+              "Humans",
+              "Kidney Failure, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1105532/"
+          },
+          {
+            "pmid": "24811310",
+            "title": "Evolution of renal function after partial and full mechanical support for chronic heart failure.",
+            "abstract": "Recently a minimal invasive, partial support continuous flow left ventricular assist device (LVAD) became available for treatment of chronic heart failure. The aim of this study was to analyze whether partial support is capable of improving kidney function in end-stage heart failure.",
+            "journal": "The International journal of artificial organs",
+            "year": "2014",
+            "authors": [
+              "Jacobs Steven",
+              "Droogne Walter",
+              "Waelbers Valerie",
+              "Bossche Klaartje Van den",
+              "Bollen Hilde"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Bumetanide",
+              "Creatinine",
+              "Diuretics",
+              "Female",
+              "Heart Failure",
+              "Heart-Assist Devices",
+              "Humans",
+              "Kidney"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24811310/"
+          },
+          {
+            "pmid": "36686086",
+            "title": "A Case Report on BRASH (Bradycardia, Renal Failure, Atrioventricular Blockade, Shock, and Hyperkalaemia) Syndrome: A Challenging Diagnosis.",
+            "abstract": "A relatively new yet critical phenomenon of bradycardia, renal failure, atrioventricular (AV) blockade, shock, and hyperkalemia (BRASH) syndrome is hypothesized to happen in patients who take atrioventricular nodal blocking (AVNB) agents and have underlying renal insufficiency. In our case, a 67-year-old female with an extensive medical history presented to the emergency room with chief complaints of decreased appetite, nausea, vomiting, fatigue, and left-sided atypical chest pain for the past two weeks. The patient was taking losartan potassium 50 mg daily in addition to carvedilol 6.25 mg twice daily for her hypertension (HTN) and heart failure with reduced ejection fraction (HFrEF) with the addition of bumetanide 0.5 mg, which was added three weeks prior. On presentation, the patient had sinus bradycardia and hypotension along with the laboratory finding of acute kidney injury (AKI) in the setting of chronic kidney disease (CKD) and hyperkalemia. Cardiology and nephrology were consu",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Roy Pooja",
+              "Rafa Zahin Islam",
+              "Agrawal Harshita",
+              "Arko Soumyadipto B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36686086/"
+          },
+          {
+            "pmid": "22702741",
+            "title": "Clinical pharmacology of the loop diuretics furosemide and bumetanide in neonates and infants.",
+            "abstract": "The loop diuretics furosemide and bumetanide are used widely for the management of fluid overload in both acute and chronic disease states. To date, most pharmacokinetic studies in neonates have been conducted with furosemide and little is known about bumetanide. The aim of this article was to review the published data on the pharmacology of furosemide and bumetanide in neonates and infants in order to provide a critical analysis of the literature, and a useful tool for physicians. The bibliographic search was performed electronically using PubMed and EMBASE databases as search engines and March 2011 was the cutoff point. The half-life (t(½)) of both furosemide and bumetanide is considerably longer in neonates than in adults and consequently the clearance (CL) of these drugs is reduced at birth. In healthy volunteers, plasma t(½) of furosemide ranges from 33 to 100 minutes, whereas in neonates it ranges from 8 to 27 hours. The volume of distribution (V(d)) of furosemide undergoes littl",
+            "journal": "Paediatric drugs",
+            "year": "2012",
+            "authors": [
+              "Pacifici Gian Maria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetazolamide",
+              "Bumetanide",
+              "Drug Therapy, Combination",
+              "Ductus Arteriosus, Patent",
+              "Extracorporeal Membrane Oxygenation",
+              "Furosemide",
+              "Humans",
+              "Hydrocephalus",
+              "Hypercalcemia",
+              "Ibuprofen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22702741/"
+          },
+          {
+            "pmid": "9474471",
+            "title": "Clinical pharmacokinetics and pharmacodynamics of torasemide.",
+            "abstract": "The new loop diuretic torasemide belongs to the pyridine sulfonylurea class. It is well absorbed and yields a bioavailablity of about 80% in healthy individuals, even higher in patients with oedema. This is roughly double that of the 'classical' loop diuretic furosemide (frusemide) [26 to 65%]. Torasemide is highly bound to protein (99%) as is furosemide. The volume of distribution of torasemide was determined as 0.2 L/kg as compared with 0.11 to 0.18 L/kg for furosemide. Torasemide undergoes extensive hepatic metabolism; only 20% of the parent drug is recovered unchanged in the urine. For comparison only 10 to 20% of furosemide undergoes phase II metabolisation (to the glucuronide). In chronic renal failure the renal clearance of torasemide decreased in proportion to the decrease of the patients' glomerular filtration rate, whereas the total plasma clearance (3 times that of the renal clearance) appeared to be independent of renal function. As expected, the renal excretion of torasemi",
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "authors": [
+              "Knauf H",
+              "Mutschler E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Antihypertensive Agents",
+              "Biological Availability",
+              "Cardiovascular Diseases",
+              "Diuretics",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Intestinal Absorption",
+              "Kidney Diseases",
+              "Potassium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9474471/"
+          },
+          {
+            "pmid": "19843838",
+            "title": "A comprehensive review of the loop diuretics: should furosemide be first line?",
+            "abstract": "To review the literature regarding the pharmacokinetic profiles, comparative safety and efficacy, and comparative costs of loop diuretics to evaluate the current clinical usefulness of furosemide.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2009",
+            "authors": [
+              "Wargo Kurt A",
+              "Banta William M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Furosemide",
+              "Heart Failure",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Liver Cirrhosis",
+              "Sodium Potassium Chloride Symporter Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19843838/"
+          },
+          {
+            "pmid": "431166",
+            "title": "[Result of the administration of high doses of bumetanide to patients with chronic renal failure who are on a program of hemodialysis (author's transl)].",
+            "abstract": "High doses of furosemide were given to patients with chronic renal failure who were on a program of dialysis with the aim of achieving less frequent dialysis or a more liberal diet for these patients. The result of the oral administration of 12 mg of bumetanide per day in 12 patients with renal insufficiency submitted to periodic hemodialysis were evaluated. The residual renal function of these patients varied between 1.5 and 6 ml/min of creatinine clearance. A significant variation could not be established in the predialysis values of urea, creatinine or potassium, nor of the interdialysis weight increase, nor of the urinary excretion of Na and K. On the contrary, the predialysis natremia levels varied from 133 to 138 mEq/l (p less than 0.01) under the effect of the medication and this coincided with a significant increase of the diuresis. As secondary effect the authors frequently recorded myalgia of variable intensity without significant changes in the serum enzymes of muscular orig",
+            "journal": "Medicina clinica",
+            "year": "1979",
+            "authors": [
+              "del Río Vázquez A",
+              "Carrera Carbó F",
+              "Arcocha Gilo V",
+              "Torrente Sierra J"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Bumetanide",
+              "Diuresis",
+              "Diuretics",
+              "Drug Evaluation",
+              "Female",
+              "Furosemide",
+              "Humans",
+              "Kidney Failure, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/431166/"
+          },
+          {
+            "pmid": "6656977",
+            "title": "High-dosage bumetanide in patients with chronic renal failure and severe nephrotic syndrome.",
+            "abstract": "",
+            "journal": "The Netherlands journal of medicine",
+            "year": "1983",
+            "authors": [
+              "Koene R A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bumetanide",
+              "Diuretics",
+              "Female",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Male",
+              "Middle Aged",
+              "Nephrotic Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6656977/"
+          },
+          {
+            "pmid": "1105533",
+            "title": "Oral bumetanide in chronic renal failure.",
+            "abstract": "",
+            "journal": "Postgraduate medical journal",
+            "year": "1975",
+            "authors": [
+              "Allison M E",
+              "Lindsay M K",
+              "Kennedy A C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Bumetanide",
+              "Clinical Trials as Topic",
+              "Diuresis",
+              "Diuretics",
+              "Drug Evaluation",
+              "Female",
+              "Furosemide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1105533/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypoglycemia",
+        "txgnn_score": 0.9148393869400024,
+        "txgnn_rank": 33131,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07189091",
+            "title": "Effect of Reduced Sodium Chloride in Fluid Creep and Maintenance Fluids in Critically Ill Adults: A Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-10-07",
+            "completion_date": "2028-07-30",
+            "country": "Belgium",
+            "enrollment": 640,
+            "brief_summary": "This study is enrolling adult patients who require a prolonged stay in the intensive care unit (ICU). These patients often receive large amounts of intravenous fluids, which can contain more salt (sodium and chloride) than the body normally needs. Extra salt and water can build up in the body and may delay recovery.\n\nThe study will test two strategies:\n\nFluid creep: These are fluids used to dilute medications or keep intravenous lines open. Usually, the choice is based on habit. In the intervent",
+            "eligibility_criteria": "Inclusion criteria\n\n1. At least 18 years of age\n2. Patients who are admitted to the ICU for medical or surgical emergencies, including complications of elective surgery\n3. The treating physician expects the patient will still require ICU care in two days, indicating a severe or complex condition at ",
+            "endpoints": [
+              "Days alive and without life support at day 90 (DAWOLS90)"
+            ],
+            "sponsor": "University Hospital, Antwerp",
+            "url": "https://clinicaltrials.gov/study/NCT07189091"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "2272152",
+            "title": "Management of hypertension in the diabetic patient.",
+            "abstract": "Therapeutic considerations regarding the treatment of hypertension in patients with diabetes mellitus are reviewed. Good blood pressure control is essential in diabetic patients to prevent morbidity and mortality associated with cardiovascular diseases. Hypertension may also accelerate complications of diabetic microvascular disease, nephropathy, and retinopathy. Diuretics (e.g., thiazides, furosemide, ethacrynic acid, bumetanide) and beta blockers have traditionally been used as initial therapy for most patients with hypertension; however, these agents may not be the best choice for diabetics. Adverse metabolic consequences include alteration of glucose metabolism and plasma lipids. Beta blockers may also blunt the ability of patients to recognize symptoms of hypoglycemia. Both diuretics and beta blockers can cause sexual dysfunction in men. Adrenergic agents and vasodilators are associated with a high prevalence of orthostatic hypotension in diabetic patients. The calcium-channel blo",
+            "journal": "Clinical pharmacy",
+            "year": "1990",
+            "authors": [
+              "Joseph J C",
+              "Schuna A A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Combined Modality Therapy",
+              "Diabetic Angiopathies",
+              "Diet, Diabetic",
+              "Exercise Therapy",
+              "Humans",
+              "Hypertension",
+              "Obesity",
+              "Weight Loss"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2272152/"
+          },
+          {
+            "pmid": "21470827",
+            "title": "Antiepileptic effects of endogenous beta-hydroxybutyrate in suckling infant rats.",
+            "abstract": "Physiological ketosis is a hallmark of metabolism in suckling infants. However, little is known on the impact of physiological ketosis on brain excitability. We addressed this question in suckling rats in vivo. 16-channel extracellular field potential recordings were performed from somatosensory barrel cortex at postnatal days 5-9 non-anaesthetized rat pups. Seizures were induced by the volatile convulsant agent flurothyl. One hour after blockade of physiological ketogenesis using combined administration of beta-oxidation inhibitors mercaptoacetate, insulin and glucose to prevent hypoglycemia, we found no significant change in the flurothyl-induced electrographic seizures. However, build-up of seizures during two repetitive flurothyl applications was strongly aggravated in the animals with blocked ketogenesis. The effect of ketogenesis inhibitors was reversed by exogenous beta-hydroxybutyrate. Diazepam exerted anticonvulsive action both under physiological ketosis and after blockade of",
+            "journal": "Epilepsy research",
+            "year": "2011",
+            "authors": [
+              "Minlebaev Marat",
+              "Khazipov Rustem"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "3-Hydroxybutyric Acid",
+              "Animals",
+              "Animals, Suckling",
+              "Anticonvulsants",
+              "Brain",
+              "Bumetanide",
+              "Convulsants",
+              "Diazepam",
+              "Diet, Ketogenic",
+              "Dietary Fats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21470827/"
+          },
+          {
+            "pmid": "34040513",
+            "title": "Hypoglycemia Associated With Drug-Drug Interactions in Patients With Type 2 Diabetes Mellitus Using Dipeptidylpeptidase-4 Inhibitors.",
+            "abstract": "Background: Dipeptidylpeptidase-4 inhibitors (DPP-4i's) are considered to be safe for patients with type 2 diabetes mellitus (T2DM). However, little is known about drug-drug interactions between DPP-4i's and concurrent medications. Methods: Data on patients using DPP-4i's for T2DM during 2011-2017 were retrieved from Chang Gung Research database provided by Chang Gung Memorial Hospital. Patients were excluded if they were aged <30 years or >90 years; had incomplete demographic data; had insulinoma; or had records of concomitant insulin use. A generalized estimating equation-based Poisson model was employed for statistical analysis. The primary outcome was hypoglycemia events. Results: We retrieved data on a total of 97,227 patients using DPP-4i's. After patients were excluded according to the mentioned criteria, the remaining 77,047 DPP-4i users were studied (mean age 64 ± 12 years, men 54.4%). The most common medications coprescribed with DPP4is over all person-quarters were acetamino",
+            "journal": "Frontiers in pharmacology",
+            "year": "2021",
+            "authors": [
+              "Ray Chin-Ying",
+              "Wu Victor Chien-Chia",
+              "Wang Chun-Li",
+              "Tu Hui-Tzu",
+              "Huang Yu-Tung"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34040513/"
+          },
+          {
+            "pmid": "15893737",
+            "title": "Inhibitors of cation-chloride-cotransporters affect hypoxic/hypoglycemic injury in hippocampal slices.",
+            "abstract": "Electroneutral cation-chloride cotransporters are abundantly expressed in the brain and are involved in the regulation of the intracellular Cl(-) concentration and thus gamma-aminobutyric acid-dependent inhibition of neuronal excitability. As yet there is little evidence whether or not Na(+)-K(+)-2Cl(-) or K(+)-Cl(-) cotransporters are involved in neuronal hyperexcitability and death in cerebral ischemia. In this study, by measuring propidium iodide staining in organotypic hippocampal slice cultures from young rats and population spike recovery in acutely isolated hippocampal slices from adult rats after a hypoxic/hypoglycemic insult, we were able to assess if cation-chloride cotransport inhibitors reduce neuronal injury. The Na(+)-K(+)-2Cl(-) cotransport inhibitor bumetanide in the range of 1-10 microM reduced neuronal damage in the slice cultures by 25%, but did not affect population spike recovery in acutely isolated slices. In contrast the K(+)-Cl(-) cotransport inhibitor [(dihydro",
+            "journal": "Brain research",
+            "year": "2005",
+            "authors": [
+              "Busse Sebastian",
+              "Breder Jörg",
+              "Dinkel Klaus",
+              "Reymann Klaus G",
+              "Schröder Ulrich H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Animals",
+              "Bumetanide",
+              "Carboxylic Acids",
+              "Cation Transport Proteins",
+              "Cell Death",
+              "Diuretics",
+              "Dose-Response Relationship, Drug",
+              "Hippocampus",
+              "Hypoglycemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15893737/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrolithiasis",
+        "txgnn_score": 0.884327232837677,
+        "txgnn_rank": 36320,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18446382",
+            "title": "Genetic causes of hypercalciuric nephrolithiasis.",
+            "abstract": "Renal stone disease (nephrolithiasis) affects 3-5% of the population and is often associated with hypercalciuria. Hypercalciuric nephrolithiasis is a familial disorder in over 35% of patients and may occur as a monogenic disorder that is more likely to manifest itself in childhood. Studies of these monogenic forms of hypercalciuric nephrolithiasis in humans, e.g. Bartter syndrome, Dent's disease, autosomal dominant hypocalcemic hypercalciuria (ADHH), hypercalciuric nephrolithiasis with hypophosphatemia, and familial hypomagnesemia with hypercalciuria have helped to identify a number of transporters, channels and receptors that are involved in regulating the renal tubular reabsorption of calcium. Thus, Bartter syndrome, an autosomal disease, is caused by mutations of the bumetanide-sensitive Na-K-Cl (NKCC2) co-transporter, the renal outer-medullary potassium (ROMK) channel, the voltage-gated chloride channel, CLC-Kb, the CLC-Kb beta subunit, barttin, or the calcium-sensing receptor (CaS",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2009",
+            "authors": [
+              "Stechman Michael J",
+              "Loh Nellie Y",
+              "Thakker Rajesh V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Calcium",
+              "Chloride Channels",
+              "Humans",
+              "Hypercalciuria",
+              "Hypophosphatemia",
+              "Kidney Calculi",
+              "Magnesium Deficiency",
+              "Mutation",
+              "Nephrocalcinosis",
+              "Nephrolithiasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18446382/"
+          },
+          {
+            "pmid": "17872384",
+            "title": "Genetics of hypercalciuric nephrolithiasis: renal stone disease.",
+            "abstract": "Renal stone disease (nephrolithiasis) affects 5% of adults and is often associated with hypercalciuria. Hypercalciuric nephrolithiasis is a familial disorder in more than 35% of patients, and may occur as a monogenic disorder, or as a polygenic trait involving 3 to 5 susceptibility loci in man and rat, respectively. Studies of monogenic forms of hypercalciuric nephrolithiasis in man, for example, Bartter syndrome, Dent's disease, autosomal dominant hypocalcemic hypercalciuria (ADHH), hypercalciuric nephrolithiasis with hypophosphatemia, and familial hypomagnesemia with hypercalciuria have helped to identify a number of transporters, channels, and receptors that are involved in regulating the renal tubular reabsorption of calcium. Thus, Bartter syndrome, an autosomal recessive disease, is caused by mutations of the bumetanide-sensitive Na-K-Cl (NKCC2) cotransporter, the renal outer-medullary potassium channel (ROMK), the voltage-gated chloride channel, CLC-Kb, or in its beta subunit, Ba",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "2007",
+            "authors": [
+              "Stechman Michael J",
+              "Loh Nellie Y",
+              "Thakker Rajesh V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Calcium",
+              "Humans",
+              "Kidney Calculi",
+              "Models, Animal",
+              "Quantitative Trait Loci",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17872384/"
+          },
+          {
+            "pmid": "9690036",
+            "title": "The role of renal chloride channel mutations in kidney stone disease and nephrocalcinosis.",
+            "abstract": "Recent advances in molecular biology have characterised a new class of chloride channels (CLCs) that are referred to as voltage-gated CLCs. To date nine such voltage-gated CLCs (CLC-1 to CLC-7, CLC-Ka and CLC-Kb, which are encoded by the genes CLCN1 to CLCN7, CLC-Ka and CLC-Kb, respectively) have been identified in mammals. Mutations in two of these, CLC-5 and CLC-Kb, have been defined in the hypercalciuric nephrolithiasis disorders of Dent's disease and a form of Bartter's syndrome, respectively. In addition, other forms of Bartter's syndrome have been defined with mutations involving the bumetanide-sensitive sodium-potassium-chloride cotransporter (NKCC2) and the potassium channel ROMK. Finally, mutations of the thiazide-sensitive sodium-chloride cotransporter (NCCT) are associated with Gitelman's syndrome, in which hypocalciuria and hypomagnesaemia are notable features. These molecular genetic studies have increased our understanding of the renal tubular mechanisms that regulate min",
+            "journal": "Current opinion in nephrology and hypertension",
+            "year": "1998",
+            "authors": [
+              "Thakker R V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chloride Channels",
+              "Humans",
+              "Kidney",
+              "Kidney Calculi",
+              "Nephrocalcinosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9690036/"
+          },
+          {
+            "pmid": "11014932",
+            "title": "Molecular pathology of renal chloride channels in Dent's disease and Bartter's syndrome.",
+            "abstract": "Recent advances in molecular biology have characterised a new class of chloride channels that are referred to as voltage-gated chloride channels (CLCs). To date 9 such CLCs (CLC-1 to CLC-7, CLC-Ka and CLC-Kb which are respectively encoded by the genes CLCN1 to CLCN7, CLCNKa and CLCNKb) have been identified in mammals. Mutations in 2 of these, referred to as CLC-5 and CLC-Kb, have been defined in the hypercalciuric nephrolithiasis disorders of Dent's disease and a form of Bartter's syndrome, respectively. In addition, other forms of Bartter's syndrome have been defined with mutations involving the bumetanide-sensitive sodium-potassium-chloride co-transporter (NKCC2) and the potassium channel ROMK. Finally, mutations of the thiazide-sensitive sodium chloride co-transporter (NCCT) are associated with Gitelman's syndrome, in which hypocalciuria and hypomagnesaemia are notable features. These molecular genetic studies have increased our understanding of the renal tubular mechanisms that reg",
+            "journal": "Experimental nephrology",
+            "year": "2000",
+            "authors": [
+              "Thakker R V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Bartter Syndrome",
+              "Base Sequence",
+              "Calcium",
+              "Chloride Channels",
+              "Humans",
+              "Kidney",
+              "Kidney Calculi",
+              "Molecular Sequence Data",
+              "Multigene Family"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11014932/"
+          },
+          {
+            "pmid": "10561751",
+            "title": "Chloride channels in renal disease.",
+            "abstract": "Recent studies of hereditary renal tubular disorders have facilitated the identification and roles of chloride channels and cotransporters in the regulation of the most abundant anion, Cl-, in the ECF. Thus, mutations that result in a loss of function of the voltage-gated chloride channel, CLC-5, are associated with Dent's disease, which is characterized by low-molecular weight proteinuria, hypercalciuria, nephrolithiasis, and renal failure. Mutations of another voltage-gated chloride channel, CLC-Kb, are associated with a form of Bartter's syndrome, whereas other forms of Bartter's syndrome are caused by mutations in the bumetanide-sensitive sodium-potassium-chloride cotransporter (NKCC2) and the potassium channel, ROMK. Finally, mutations of the thiazide-sensitive sodium-chloride cotransporter (NCCT) are associated with Gitelman's syndrome. These studies have helped to elucidate some of the renal tubular mechanisms regulating mineral homeostasis and the role of chloride channels.",
+            "journal": "Advances in nephrology from the Necker Hospital",
+            "year": "1999",
+            "authors": [
+              "Thakker R V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Animals",
+              "Bartter Syndrome",
+              "Chloride Channels",
+              "Humans",
+              "Kidney Calculi",
+              "Kidney Diseases",
+              "Molecular Sequence Data",
+              "Multigene Family",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10561751/"
+          },
+          {
+            "pmid": "1455566",
+            "title": "Oxalate transport in cultured porcine renal epithelial cells.",
+            "abstract": "Oxalate-containing kidney stones are the most common type (75%) of renal stones. In order to control oxalate excretion in the urine, a basic understanding of the cellular transport of oxalate is imperative. We have utilized the technique of continuous cell culture to establish and characterize a model system to study renal epithelial cell (LLCPK1) oxalate transport. Our data demonstrate that oxalate uptake in these cells is dependent on time, concentration and energy. The Km for oxalate uptake was 200 microM. Oxalate uptake was decreased at lower temperatures and elevated in an acidic extracellular environment. Both anion exchange inhibitors DIDS and SITS inhibited oxalate uptake. Sulfate, chloride, and bicarbonate decreased oxalate uptake, as did the diuretics bumetanide and furosemide. There was no evidence for the co-transport of oxalate with sodium. Our data show that monolayers of cultured kidney epithelial cells are a valuable model system for study of the basic cellular mechanis",
+            "journal": "Urological research",
+            "year": "1992",
+            "authors": [
+              "Wandzilak T R",
+              "Calo L",
+              "D'Andre S",
+              "Borsatti A",
+              "Williams H E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biological Transport",
+              "Cell Line",
+              "Epithelial Cells",
+              "In Vitro Techniques",
+              "Kidney",
+              "Kidney Calculi",
+              "Oxalates",
+              "Swine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1455566/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified intestinal pseudoobstruction",
+        "txgnn_score": 0.882655680179596,
+        "txgnn_rank": 36472,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00887",
+    "name": "Bumetanide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bumetanide"
+      },
+      "queried_at": "2026-03-10T02:20:15.956021",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bumetanide"
+      },
+      "queried_at": "2026-03-10T02:20:23.328647",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T02:20:24.487018",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T02:20:29.365792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T02:20:33.037920",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "acute urate nephropathy"
+      },
+      "queried_at": "2026-03-10T02:20:34.150269",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "acute urate nephropathy"
+      },
+      "queried_at": "2026-03-10T02:20:38.138078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "acute urate nephropathy"
+      },
+      "queried_at": "2026-03-10T02:20:39.721514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T02:20:41.917562",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T02:20:45.596289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T02:20:46.865945",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "chronic kidney disease"
+      },
+      "queried_at": "2026-03-10T02:20:48.114321",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "chronic kidney disease"
+      },
+      "queried_at": "2026-03-10T02:20:53.690222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "chronic kidney disease"
+      },
+      "queried_at": "2026-03-10T02:20:58.692535",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T02:21:00.141768",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T02:21:03.769642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T02:21:07.278411",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T02:21:07.984164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T02:21:11.990778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T02:21:15.020773",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "end stage renal failure"
+      },
+      "queried_at": "2026-03-10T02:21:17.975151",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "end stage renal failure"
+      },
+      "queried_at": "2026-03-10T02:21:22.294655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "end stage renal failure"
+      },
+      "queried_at": "2026-03-10T02:21:29.260619",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "hypoglycemia"
+      },
+      "queried_at": "2026-03-10T02:21:30.739692",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "hypoglycemia"
+      },
+      "queried_at": "2026-03-10T02:21:34.748534",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "hypoglycemia"
+      },
+      "queried_at": "2026-03-10T02:21:38.092826",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "nephrolithiasis"
+      },
+      "queried_at": "2026-03-10T02:21:38.646863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "nephrolithiasis"
+      },
+      "queried_at": "2026-03-10T02:21:42.229860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "nephrolithiasis"
+      },
+      "queried_at": "2026-03-10T02:21:45.459648",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-10T02:21:46.569041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-10T02:21:50.271039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bumetanide",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-10T02:21:50.971941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:21:50.976036"
+  }
+}

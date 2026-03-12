@@ -1,0 +1,1781 @@
+{
+  "drug": {
+    "inn": "Indacaterol",
+    "drugbank_id": "DB05039",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9954063892364502,
+        "txgnn_rank": 6151,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9953271150588988,
+        "txgnn_rank": 6213,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02165826",
+            "title": "A Multicenter, Randomized, Double-blind Phase 3 Study to Evaluate Tolerability and Pharmacokinetics of 500 μg Roflumilast Once Daily With an Up-titration Regimen in COPD, Including an Open-label Down-titration Period Evaluating Tolerability and Pharmacokinetics of 250 μg Roflumilast Once Daily in Subjects Not Tolerating 500 μg Roflumilast Once-daily",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-05-01",
+            "completion_date": "2015-09-01",
+            "country": "Slovakia",
+            "enrollment": 1323,
+            "brief_summary": "The purpose of this study is to evaluate discontinuation rates of roflumilast using an up-titration regimen for the first 4 weeks of treatment compared with continuous treatment of 500 μg one daily (OD) during the entire 12-week main period, and to evaluate if participants who do not tolerate roflumilast 500 μg OD have a drug exposure with 250 μg roflumilast OD similar to that observed in other participants with the 500 μg OD dose.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. In the opinion of the investigator, the participant is capable of understanding and complying with protocol requirements.\n2. The participant or, when applicable, the participant's legally acceptable representative signs and dates a written, informed consent form and any requi",
+            "endpoints": [
+              "Percentage of Participants Prematurely Discontinuing Study Treatment Due to Any Reason"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT02165826"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02576626",
+            "title": "The Effectiveness of Single Dose Ultibro Breezhaler (Indacaterol/Glycopyrronium) by Sd-DPI Versus Ipratropium/Salbutamol by Nebulizer in Improving FEV1 and Dyspnea During Stable State of COPD",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-12",
+            "completion_date": "2017-09-29",
+            "country": "Netherlands",
+            "enrollment": 40,
+            "brief_summary": "Rationale:\n\nInhaled bronchodilators, beta-2-agonist or anticholinergic or combinations, can be delivered by several types of devices: dry powder (DPI), pressurized metered dose inhalers (pMDI), and wet nebulizers. Wet nebulization is available for short-acting bronchodilators only, is cumbersome, and, importantly, has never been scientifically been proven to be more efficacious than delivery by the other two methods. Yet many patients are happy with wet nebulization and in many clinics this admi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. COPD, post-bronchodilator FEV1/FVC \\< 70%; post-br FEV1 \\< 80%pred\n2. Active mastery of Dutch\n3. Written informed consent\n4. At least 40 years old\n5. Participants must be able to understand and complete protocol requirements, Instructions, and questionnaires provided in Dutch",
+            "endpoints": [
+              "Area under the curve (AUC) of FEV1"
+            ],
+            "sponsor": "Groningen Research Institute for Asthma and COPD",
+            "url": "https://clinicaltrials.gov/study/NCT02576626"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9932600855827332,
+        "txgnn_rank": 8025,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paratenonitis",
+        "txgnn_score": 0.992633044719696,
+        "txgnn_rank": 8522,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "calcific tendinitis",
+        "txgnn_score": 0.9924506545066832,
+        "txgnn_rank": 8674,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypertrichosis (disease)",
+        "txgnn_score": 0.992284893989563,
+        "txgnn_rank": 8809,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchial disease",
+        "txgnn_score": 0.9918179512023926,
+        "txgnn_rank": 9159,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02059434",
+            "title": "A 2-Part, Randomised, Placebo-Controlled, Safety, Tolerability, Pharmacokinetic And Pharmacodynamic Study Of LAS190792 Delivered By Inhalation In Asthmatic And Chronic Obstructive Pulmonary Disease (COPD) Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2013-09-01",
+            "completion_date": "2014-10-06",
+            "country": "United Kingdom",
+            "enrollment": 55,
+            "brief_summary": "The purpose of this study is to assess the safety and tolerability of single doses of LAS190792 administered by inhalation to patients with mild persistent asthma and moderate to severe chronic obstructive pulmonary disease (COPD) and also to assess the ability of LAS190792 to produce bronchodilation (opening of the airways).",
+            "eligibility_criteria": "Inclusion Criteria (PART 1):\n\n* Adult male subjects aged 18 to 70 years\n* Body mass index (BMI) 18.5 to 30 kg/m2 at screening\n* Clinical diagnosis of mild persistent asthma (according to GINA guidelines) for at least 6 months prior to screening\n* Ability to change current asthma therapy, to disconti",
+            "endpoints": [
+              "Subjects With ≥1 Treatment-emergent Adverse Event",
+              "Change From Baseline in Trough FEV1 (Forced Expiratory Volume in 1 Second)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT02059434"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02892019",
+            "title": "A Multicenter, Randomized, Double-blind, Active-controlled, 2 Week Treatment, Parallel-group Study to Assess the Efficacy and Safety of Indacaterol Acetate Delivered Via the Concept1 Inhalation Device in Children Greater or Equal to 6 and Less Than 12 Years of Age With Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-04-18",
+            "completion_date": "2019-07-17",
+            "country": "Colombia, Turkey (Türkiye), Slovakia, Croatia, Belgium, Germany, Russia, Hungary, Philippines, South Africa, Guatemala",
+            "enrollment": 79,
+            "brief_summary": "This study is designed to explore lung function effects of two doses of indacaterol acetate, 75 μg and 150 μg, in pediatric asthma patients 6-11 years old, and to compare the systemic exposure to indacaterol in plasma with historical data in adults, to identify an appropriate dose to Phase III evaluation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female children ≥ 6 years and \\< 12 years with confirmed diagnosis of asthma for at least 1 year prior to study enrollment.\n* Written informed consent by parent(s)/legal guardian(s) and depending upon their age and local requirements a consent or assent for the patien",
+            "endpoints": [
+              "Trough Forced Expiratoty Volume in 1 Second (FEV1)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02892019"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02953041",
+            "title": "The Effect of Glycopyrronium and Indacaterol, as Monotherapy and in Combination, on the Methacholine Dose-response Curve",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-10",
+            "completion_date": "2017-01-09",
+            "country": "Canada",
+            "enrollment": 31,
+            "brief_summary": "The study will assess the effects of two drugs, glycopyrronium and indacaterol, taken either as monotherapy or in combination, on the methacholine dose-response curve. This will allow for further elucidation of the mechanisms of each drug in human participants.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* men and women aged 18 or older\n* stable mild-to-moderate asthma\n* baseline methacholine PC20 less than or equal to 8mg/mL and FEV1 greater than or equal to 65% of predicted (asthmatic participants)\n* baseline methacholine PC20 greater than 16mg/mL (healthy participants)\n\nExclu",
+            "endpoints": [
+              "Change from baseline methacholine bronchoprotection at 1 hour"
+            ],
+            "sponsor": "University of Saskatchewan",
+            "url": "https://clinicaltrials.gov/study/NCT02953041"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04206761",
+            "title": "Xenon MRI Probing vEntilation Response to Triple Therapy (QVM149)",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2021-12-01",
+            "completion_date": "2022-12-01",
+            "country": "Canada",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to compare treatment with QVM149, an inhaler that contains three types of asthma medications compared to an inhaler that contains two types of asthma medications. Both inhalers contain an inhaled corticosteroid, which reduces inflammation in the lungs, and a medication that helps to open up the airways. The investigational inhaler, QVM149, contains a third medication that also works to open up the airways. The investigators will measure the difference in these two tr",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent must be directly obtained from legally competent participants before any study- related assessment is performed.\n* Male and female adult participant ≥ 18 years of age and ≤ 80 years of age.\n* Participants with a confirmed clinical diagnosis of asthma b",
+            "endpoints": [
+              "Change from baseline airway function measured using 129-Xenon MRI ventilation defect percent at the end of 2 weeks of treatment with QVM149 150/50/160 μg once daily",
+              "Difference in change from baseline airway function measured using 129-Xenon MRI ventilation defect percent after 2 weeks use of QVM149 150/50/160 μg once daily compared to high dose dual therapy (ICS/LABA)"
+            ],
+            "sponsor": "Western University, Canada",
+            "url": "https://clinicaltrials.gov/study/NCT04206761"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02554786",
+            "title": "A Multicenter Randomized 52 Week Treatment Double-blind, Triple Dummy Parallel Group Study to Assess the Efficacy and Safety of QMF149 Compared to Mometasone Furoate in Patients With Asthma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-12-29",
+            "completion_date": "2019-06-28",
+            "country": "India, Latvia, United States, Estonia, Guatemala, Lithuania, South Korea, Croatia, Russia, Czechia, Ireland, Serbia, Japan, Poland, Egypt, United Kingdom, Germany, Mexico, Hungary, Romania, Slovakia, China, Bulgaria, South Africa",
+            "enrollment": 2216,
+            "brief_summary": "The purpose of the trial is to evaluate the efficacy and safety of two different doses of QMF149 (QMF149 150/160 µg and QMF149 150/320 µg via Concept1) over two respective MF doses (MF 400 µg and MF 800 µg via Twisthaler® (total daily dose)) in poorly controlled asthmatic participants as determined by pulmonary function testing, and effects on asthma control",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants with a diagnosis of asthma, for a period of at least 1 year prior to Visit 1 (Screening)\n* Participants who have used medium or high dose inhaled corticosteroids (ICS) or low dose of long acting beta-2 agonist (LABA)/ICS combinations for asthma for at least 3 mont",
+            "endpoints": [
+              "Trough Forced Expiratory Volume in One Second (Trough FEV1) at Week 26"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02554786"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01609478",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled, 12-week Treatment, Parallel-group Study to Assess the Efficacy, Safety and Pharmacokinetics of Indacaterol Acetate (75 and 150 µg o.d.) in Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-08",
+            "completion_date": "2013-07",
+            "country": "Canada, Slovakia, South Korea, Netherlands, Germany, Bulgaria, Poland, Japan",
+            "enrollment": 335,
+            "brief_summary": "To provide the efficacy, safety and pharmacokinetics of indacaterol acetate in patients with persistent asthma to support dose selection of indacaterol in fixed dose combination QMF149.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with persistent asthma, diagnosed according to GINA 2010 guideline and who additionally meet the following criteria:\n* Patients who are receiving ICS treatment in a stable regimen for ≥ 4 weeks\n* Patients with a pre-bronchodilator FEV1 value of ≥ 40% and ≤ 80% of pred",
+            "endpoints": [
+              "Trough Forced Expiratory Volume in One Second (FEV1) After 12 Weeks (Day 85)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01609478"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03100825",
+            "title": "A Multicenter, Open-label, Single Arm, 52-week Treatment Study to Assess the Safety of QVM149 in Japanese Patients With Asthma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-04-28",
+            "completion_date": "2019-04-08",
+            "country": "Japan",
+            "enrollment": 96,
+            "brief_summary": "The purpose of this study is to provide long term safety data of QVM149 in Japanese patients with asthma for the registration of QVM149 in Japan.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent must be obtained before any assessment is performed.\n* Male and female adult patient ≥ 18 years old.\n* Patients with a diagnosis of persistent asthma (GINA 2016) for a period of at least 1 year prior to Visit 1.\n* Patients who have used medium or high ",
+            "endpoints": [
+              "Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious Adverse Events (SAEs)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT03100825"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00529529",
+            "title": "A 26-week Treatment, Randomized, Multicenter, Double-blind, Double-dummy, Parallel-group Study to Assess the Safety of Indacaterol (300 and 600 µg o.d.) in Patients With Moderate to Severe Persistent Asthma, Using Salmeterol (50 µg b.i.d.) as an Active Control",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-09",
+            "completion_date": "2008-08",
+            "country": "Spain, Turkey (Türkiye), France, Canada, Slovakia, Germany, Argentina, Italy, United States, Peru, Czechia, Hungary",
+            "enrollment": 805,
+            "brief_summary": "This study was designed to assess the safety of indacaterol (300 µg and 600 µg (2 x 300 μg capsules) once daily \\[od\\]), compared with salmeterol (50 μg twice a day \\[b.i.d.\\]), over 26 weeks, in patients with moderate to severe persistent asthma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female patients aged ≥ 12 years (or ≥ 18 years depending upon regulatory and/or Institutional Review Board/Independent Ethics Committee/Research Ethics Board \\[IRB/IEC/REB\\] approval) who have signed an informed consent form.\n2. Patients with moderate to severe persi",
+            "endpoints": [
+              "Percentage of Patients With at Least 1 Adverse Event During the 26 Weeks of the Study",
+              "Systolic Blood Pressure 1 Hour Post-dose at Day 1",
+              "Systolic Blood Pressure 1 Hour Post-dose at Week 12"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00529529"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00403754",
+            "title": "A Randomized, Double-blind, Placebo-controlled, 4-period 4-treatment Crossover, Multicenter, Single-dose, Dose-ranging Study Followed by a Single Day's Treatment With Open Label Salmeterol Bid (100 µg/Day), to Assess the Efficacy and Safety of 3 Doses of Indacaterol (150, 300, & 600 µg) Delivered Via Single Dose Dry Powder Inhaler (SDDPI) in Japanese Asthma Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-11",
+            "completion_date": "2007-11",
+            "country": "Japan",
+            "enrollment": 41,
+            "brief_summary": "This study was designed to provide data about the safety and efficacy of 3 doses of indacaterol (150, 300, and 600 µg) in Japanese asthma patients so that an optimal dose, or doses, could be chosen for testing in later studies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female Japanese asthmatic patients aged 18 to 75 years old.\n\nExclusion Criteria:\n\n* Patients who have been hospitalized or had emergency room treatment for an acute asthma attack in the 6 months prior to the first day of screening or during the screening period.\n* Pat",
+            "endpoints": [
+              "Forced Expiratory Volume in 1 Second (FEV1) Standardized (With Respect to Time) Area Under the Curve (AUC) From 22 to 24 Hours Post-dose on Day 2"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00403754"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01079130",
+            "title": "A Randomized, Double-blind, Double-dummy, Placebo-controlled, Parallel-group Study to Assess the Efficacy and Safety of Different Doses of Indacaterol in Adult Patients With Persistent Asthma, Using Salmeterol as an Active Control",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-02",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 511,
+            "brief_summary": "This study compared the 14-day bronchodilator efficacy of indacaterol with that of placebo and salmeterol",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a diagnosis of asthma, and:\n\n  1. Receiving daily treatment with inhaled corticosteroid in a regimen that has been stable for at least a month prior to screening\n  2. Prebronchodilator forced expiratory volume in 1 second (FEV1) at screening ≥50 and ≤90% of predi",
+            "endpoints": [
+              "Trough Forced Expiratory Volume in 1 Second (FEV1) After 2 Weeks of Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01079130"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02571777",
+            "title": "A Multicenter, Randomized, 52-week, Double-blind, Parallelgroup, Active Controlled Study to Compare the Efficacy and Safety of QVM149 With QMF149 in Patients With Asthma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-12-08",
+            "completion_date": "2019-06-14",
+            "country": "India, Belgium, Austria, Latvia, Peru, Philippines, Estonia, Lithuania, Lebanon, Canada, Croatia, Netherlands, Italy, Chile, Russia, Sweden, Ireland, Thailand, Japan, Poland, Colombia, United Kingdom, France, Germany, Argentina, Israel, Denmark, Mexico, Hungary, Jordan, Vietnam, Switzerland, Spain, Romania, Slovakia, Finland, China, Portugal, Bulgaria, Greece, South Africa",
+            "enrollment": 3092,
+            "brief_summary": "The purpose of the trial was to evaluate the efficacy and safety of two different doses of QVM149 (QVM149 150/50/80 μg and QVM149 150/50/160 μg via Concept1) over two respective QMF149 doses (QMF149 150/160 μg and QMF149 150/320) μg via Concept1 in poorly controlled asthmatics as determined by pulmonary function testing and effects on asthma control.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a diagnosis of asthma, (GINA 2015) for a period of at least 1 year prior to Visit 1 (Screening).\n* Patients who have used medium or high dose of ICS/LABA combinations for asthma for at least 3 months and at stable medium or high doses of ICS/LABA for at least 1 m",
+            "endpoints": [
+              "Trough Forced Expiratory Volume in 1 Second (Trough FEV1) of QVM149 Versus QMF149 at Week 26"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02571777"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03158311",
+            "title": "A Multicenter, Partially-Blinded, Randomized, 24-Week, Parallel-Group, Non-Inferiority, Open-Label Active Controlled Study to Compare the Efficacy and Safety of QVM149 With a Free Triple Combination of Salmeterol/Fluticasone + Tiotropium in Patients With Uncontrolled Asthma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2018-02-05",
+            "completion_date": "2019-07-19",
+            "country": "India, Peru, Chile, Czechia, Russia, Serbia, Poland, Colombia, Germany, Argentina, Israel, Mexico, Hungary, Vietnam, Spain, Turkey (Türkiye), Slovakia, Greece, South Africa, Taiwan",
+            "enrollment": 1426,
+            "brief_summary": "The purpose of this trial was to demonstrate that the efficacy of two treatment arms of the fixed-dose combination product QVM149 was non-inferior to the efficacy of the free combination arm of salmeterol/ fluticasone+ tiotropium in uncontrolled moderate to severe asthmatic patients.\n\nThe planned duration of treatment in this study was 24 weeks, followed up by a 7-day follow-up period.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a diagnosis of asthma for a period of at least 6 months prior to Visit 1 with current asthma severity ≥ step 4 (GINA 2017).\n* Patients who had used ICS/LABA combinations for asthma for at least 3 months and at stable medium or high dose of ICS/LABA for at least 1",
+            "endpoints": [
+              "Change From Baseline in Asthma Quality of Life Questionnaire (AQLQ) Total Score"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT03158311"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02573155",
+            "title": "A 2-part, Randomised, Placebo-controlled, Safety, Tolerability, Pharmacokinetic and Pharmacodynamic Study of AZD8871 Delivered by Inhalation in Asthmatic and Chronic Obstructive Pulmonary Disease (COPD) Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2015-10",
+            "completion_date": "2016-08",
+            "country": "United Kingdom",
+            "enrollment": 134,
+            "brief_summary": "This is a phase I, randomised, placebo-controlled 2-part study to assess the safety, tolerability, pharmacokinetics and pharmacodynamics of AZD8871 delivered by inhalation, in asthmatic and chronic obstructive pulmonary disease (COPD) subjects.",
+            "eligibility_criteria": "Inclusion Criteria:Part 1\n\n1. Subjects who are able and willing to provide written informed consent prior to conducting any study-related procedures, including withdrawal of medications\n2. Adult male subjects aged 18 to 70 years (both inclusive)\n3. Body mass index (BMI) from 18 to 32 kg/m2 at screen",
+            "endpoints": [
+              "The Number of Participants With Mild Persistent Asthma (Part 1) and COPD (Part 2) With at Least 1 Treatment-emergent Adverse Event",
+              "Number of Participants With Clinically Relevant Abnormalities in Blood Pressure",
+              "Number of Participants With Clinically Relevant Abnormalities in Electrocardiograms (HR, QTcF and Other ECG Parameters)."
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT02573155"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05120986",
+            "title": "Sensor: ENhancing aSthma carE - An Observational Prospective Study to Characterize Patients Initiating Indacaterol + Glycopyrronium Bromide + Mometasone Furoate (Enerzair® Breezhaler®), With or Without Sensor, as a Maintenance Treatment for Asthma",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "start_date": "2022-02-15",
+            "completion_date": "2023-05-15",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This is an observational, descriptive, open-label, prospective, 6-month study including a group of patients with a first prescription of IND/GLY/MF with sensor and a group with a first prescription of IND/GLY/MF without sensor.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female patients aged ≥18 years\n* Self-reported diagnosis of asthma\n* Individual filling a first prescription of IND/GLY/MF with or without sensor in a participating community pharmacy for himself/herself (excluding caregivers).\n* Individual capable and willing to perf",
+            "endpoints": [
+              "Baseline sociodemographic - living status",
+              "Baseline sociodemographic - household income",
+              "Baseline sociodemographic - educational level"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05120986"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05217810",
+            "title": "A 24-week Prospective, Open-label, Multicenter, Single-arm Regulatory Post-Marketing Surveillance (rPMS) Study in Real-world Setting (Mandatory by Local HA Regulation) for Atectura® (QMF149 150/80 μg o.d., QMF149 150/160 μg o.d. and QMF149 150/320 μg o.d. Via Breezhaler)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2022-05-09",
+            "completion_date": "2026-12-23",
+            "country": "South Korea",
+            "enrollment": 600,
+            "brief_summary": "This surveillance was designed as a prospective, open-label, multicenter, single-arm, non-interventional, observational study to evaluate the safety and effectiveness of Atectura inhalation capsule for up to 24 weeks under routine clinical practice.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adolescent (≥12 years of age) and adult patients with a physician's diagnosis of asthma, who are prescribed Atectura inhalation capsule (indacaterol acetate/mometasone furoate; 150/80, 150/160, 150/320 μg) via Breezhaler, as per the approved label information\n2. Patients who ",
+            "endpoints": [
+              "Incidence of adverse events and serious adverse events",
+              "Incidence of unexpected adverse events and unexpected serious adverse events"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05217810"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04589663",
+            "title": "An Open-label, Two-period, Single-sequence, Crossover Study to Compare the Systemic Exposure of a Single Inhaled Dose of Mometasone Furoate (MF) When Administered Alone Via the MF Twisthaler® (TH) to a Single Inhaled Dose of QMF149 Indacaterol Acetate/MF Fixed Dose Combination When Administered Via the Concept 1 (C1) Breezhaler® Device in ≥ 6 to < 12 Year Old Asthma Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-06-07",
+            "completion_date": "2022-04-11",
+            "country": "South Africa, Hungary",
+            "enrollment": 24,
+            "brief_summary": "This clinical study was designed to assess the pharmacokinetics, safety and tolerability of single inhaled doses of mometasone furoate (MF) when administered alone via MF Twisthaler® (TH) or as an indacaterol acetate/MF fixed dose combination (QMF149) via the Concept 1 (C1) device in pediatric asthma patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female children ≥ 6 years and \\< 12 years at the time of study entry.\n2. Written informed consent by parent(s)/legal guardian(s) for the pediatric patient and assent by the pediatric patient (depending on local requirements) must be obtained before any study-specific",
+            "endpoints": [
+              "Maximum Observed Mometasone Furoate Plasma Concentration (Cmax)",
+              "Area Under the Plasma Concentration-time Curve From Time Zero to the Last Sampling Time Point 6h (AUC0-6h) of Mometasone Furoate"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04589663"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01959412",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled, Crossover Study to Evaluate the Efficacy, Safety and Tolerability of Five Different Doses of Inhaled Indacaterol (QAB149) Delivered Via the Single Dose Dry Powder Inhaler (SDDPI) in Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2014-03",
+            "country": "United States",
+            "enrollment": 91,
+            "brief_summary": "The purpose of this study is to determine the efficacy of indacaterol 55µg once daily (and 27.5 µg twice) in QVA149 compared to 75 µg indacaterol monotherapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Asthma for at least 6 months, using inhaled corticosteroid for at least one month, foreced breath test less than below the normal value of the general population, -show an immediate improvement in breathing when given albuterol\n\nExclusion Criteria:\n\n* patients who have smoked ",
+            "endpoints": [
+              "Change From Period Baseline in FEV1 (L) AUC(0-24h)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01959412"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05222529",
+            "title": "A Phase II, Double-blind, Randomized, Multiple Dose, Cross Over, Three-treatment, Three-period, Six Sequence Placebo Controlled Trial to Evaluate Efficacy, Pharmacokinetics (PK), Pharmacodynamics (PD) and Safety and Tolerability of Glycopyrronium (Bromide) in Children From 6 to Less Than 12 Years of Age With Asthma.",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-08-29",
+            "completion_date": "2027-08-30",
+            "country": "Colombia, Spain, United Kingdom, Bulgaria, Hungary, South Africa, Guatemala, Poland",
+            "enrollment": 42,
+            "brief_summary": "The purpose of this study is to characterize the bronchodilator effect, systemic exposure and safety/tolerability of two different doses of inhaled glycopyrronium, when compared to placebo. Outcome of this study will be used to determine the dose of inhaled glycopyrronium for the development of fixed dose combination indacaterol/mometasone/glycopyrronium (QVM149) for children aged 6 to less than 12 years old with moderate to severe asthma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of asthma for at least 6 months\n* Signed informed consent by parent(s)/legal guardian(s) and assent by the pediatric participant (depending on local requirements)\n* Participant on stable dose of inhaled low-to-medium dose ICS with one additional controller ",
+            "endpoints": [
+              "Change from Baseline in trough FEV1"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05222529"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00624702",
+            "title": "A Multi-center, Randomized, Single-dose, Double-blind, 4-way Cross-over Study to Evaluate Tolerability Following Treatment With Indacaterol Salts (Maleate, Xinafoate and Acetate) in Comparison to Placebo in Patients With Mild to Moderate Persistent Asthma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2008-02",
+            "completion_date": "2008-09",
+            "country": "Canada",
+            "enrollment": 98,
+            "brief_summary": "This study will explore information on whether changing the salt formulation of indacaterol affects the incidence of post-inhalation cough.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female patients 18 to 65 years old (inclusive)\n* Patients with mild to moderate persistent asthma\n* BMI must be within the range of 18-32 kg/m2 inclusive\n* Female subjects must:\n\n  1. have been sterilized at least 6 months prior to screening\n  2. be post-menopausal wi",
+            "endpoints": [
+              "Presence of cough within 5 minutes post dose and the onset of cough (relative to inhalation)",
+              "Severity of cough: to be judged independently by both the patient and the physician",
+              "Occurrence of cough within 1 minute post dose"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00624702"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01156844",
+            "title": "A Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel Group, Repeated-dose Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacokinetics of Three Different Dosing Regimens of Inhaled Indacaterol Maleate in Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-03",
+            "completion_date": "",
+            "country": "United Kingdom, France, Netherlands, Germany, United States, Jordan",
+            "enrollment": 191,
+            "brief_summary": "This study assessed the bronchodilator efficacy of three different regimens of indacaterol in patients with asthma",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a diagnosis of asthma and:\n* Receiving daily treatment with inhaled corticosteroid in a regimen that has been stable for at least a month prior to screening\n* FEV1 ≥50% and ≤90% of predicted normal at screening\n* An increase of ≥12% and ≥200 mL in FEV1 over prebr",
+            "endpoints": [
+              "Change From Baseline in the Trough Forced Expiratory Volume in One Second (FEV1) After Two Weeks of Treatment",
+              "Change From Baseline in the Forced Expiratory Volume in 1 Second Standardized (With Respect to Time) Area Under the Curve (AUC) From 0 to 24 Hours Post Dose (FEV1 AUC 0-24h) After Two Weeks of Treatment",
+              "Change From Baseline in the Forced Expiratory Volume in 1 Second Standardized (With Respect to Time) Area Under the Curve (AUC) From 0 to 48 Hours (FEV1 AUC 0-48h) After Two Weeks of Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01156844"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00927901",
+            "title": "A Multi-centre, Randomized, Double-blind, Placebo-controlled, Multiple-dose, 4-way Crossover Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacokinetics of Orally Inhaled Indacaterol Salts (Maleate, Xinafoate, and Acetate) in Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-06",
+            "completion_date": "2009-11",
+            "country": "Germany, Italy, France",
+            "enrollment": 30,
+            "brief_summary": "This study assessed the efficacy, safety, and pharmacokinetics of indacaterol salts (maleate, xinafoate and acetate) in patients with asthma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Non-smoker male and female adult patients aged 18-75 years inclusive, who have signed an informed consent form prior to initiation of any study-related procedure, including any adjustments to asthma medication prior to screening.\n* Patients with asthma, receiving daily treatme",
+            "endpoints": [
+              "Change From Baseline in Trough Forced Expiratory Volume in 1 Second (FEV1) 24 Hours Post-dose at the End of Each Treatment Period (Day 7)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00927901"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00605306",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel Group Study to Investigate the Safety and Tolerability of 14-days Treatment With an Inhaled Dose of QMF149 (500/800) in Mild to Moderate Asthmatic Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-01",
+            "completion_date": "2008-04",
+            "country": "France",
+            "enrollment": 28,
+            "brief_summary": "This study will investigate the safety and tolerability of indacaterol maleate/mometasone furoate via the Twisthaler device after 14 days treatment in patients with mild to moderate asthma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female adult patients aged 18-65 years (inclusive)\n* Patients with mild-moderate asthma\n* Forced expiratory volume in one second (FEV1) at Visits 1 and 2 are ≥60% of the predicted normal value for the patient.\n* Body mass index (BMI) must be within the range of 18-32 ",
+            "endpoints": [
+              "Participants With Adverse Events"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00605306"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05274425",
+            "title": "A 24-week Prospective, Open-label, Multicenter, Single-arm, Observational Regulatory Post-Marketing Surveillance (rPMS) Study in Real-world Setting (Mandatory by Local HA Regulation) for Enerzair (QVM149 150/50/80 μg o.d. and QVM149 150/50/160 μg o.d. Via Breezhaler)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2022-05-09",
+            "completion_date": "2027-03-11",
+            "country": "South Korea",
+            "enrollment": 600,
+            "brief_summary": "This surveillance was designed as a prospective, open-label, multicenter, single-arm, non-interventional, observational study to evaluate the safety and effectiveness of Enerzair inhalation capsule for up to 24 weeks under routine clinical practice.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adult patients (≥18 years of age) with a physician's diagnosis of asthma, who are prescribed Enerzair inhalation capsule (indacaterol acetate/ glycopyrronium bromide/mometasone furoate; 150/50/80, 150/50/160 μg) via Breezhaler, as per the approved label information\n2. Patient",
+            "endpoints": [
+              "Incidence of adverse events and serious adverse events",
+              "Incidence of unexpected adverse events and unexpected serious adverse events"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05274425"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01845623",
+            "title": "A Randomized, Double-blind, Double-dummy, Placebo-controlled, 3-period Crossover Study to Evaluate the Pharmacodynamics, Pharmacokinetics, Safety and Tolerability of Orally Inhaled Indacaterol Administered Via the EPIC Test Fixture and the Concept1 Device in Adult Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2013-08",
+            "completion_date": "2013-12",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This study will assess the pharmacodynamics, safety, tolerability and pharmacokinetics of indacaterol maleate (QAB149), administered via the EPIC test fixture. The study aims to determine whether the novel device has a similar clinical profile as the established concept 1 device.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMale and female patients with asthma, aged 18 or above Patients using inhaled corticosteroid (with or without long acting beta agonist) Patients who demonstrate an increase in FEV1 after inhaling a short acting beta agonist\n\nExclusion Criteria:\n\nAsthma exacerbations in previous ",
+            "endpoints": [
+              "Trough Forced Expiratory Volume in 1 Second (FEV1) Following 3 Days of Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01845623"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04656223",
+            "title": "Digital Adherence Monitoring of Inhalative Therapy in Real- Life Conditions",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-12-17",
+            "completion_date": "2023-01-20",
+            "country": "Germany",
+            "enrollment": 434,
+            "brief_summary": "This study is designed as a multicenter, observational, non-interventional, open label, 26-week study in order to observe how asthma control changes under treatment with Mometasone Fuorat/Indacaterol/ Glycopyrronium (MF/IND/GLY) Breezhaler® sensor system or under treatment with fixed-dose combination (FDC) triple therapy after 26 weeks of treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nTo participate in the study, all of the following inclusion criteria must be met:\n\n1. Patients (m/f/d) at the age of ≥18\n2. Written declaration of consent\n3. Asthma diagnosis according to German Asthma Guideline NVL, 4th edition\n4. Suitability for a therapy with MF/IND/GLY in co",
+            "endpoints": [
+              "Change in asthma control test (ACT) score"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04656223"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05776927",
+            "title": "A Double-dummy, Double-blind, Randomized, Parallel-group, Active Controlled Study to Evaluate the Efficacy and Safety of QVM149 (Indacaterol Acetate / Glycopyrronium Bromide / Mometasone Furoate) Compared to Salmeterol Xinafoate/Fluticasone Propionate in Children From 12 Years to Less Than 18 Years of Age With Asthma.",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-05-29",
+            "completion_date": "2029-12-24",
+            "country": "N/A",
+            "enrollment": 304,
+            "brief_summary": "A double-dummy, double-blind, randomized, parallel-group, active controlled study to evaluate the efficacy and safety of QVM149 (indacaterol acetate / glycopyrronium bromide / mometasone furoate) compared to salmeterol xinafoate/fluticasone propionate in children from 12 years to less than 18 years of age with asthma.",
+            "eligibility_criteria": "Inclusion criteria\n\nParticipants eligible for inclusion in this study must meet all of the following criteria:\n\n1. Male and female adolescent subjects aged from equal to or greater than 12 years old to less than 18 years old at Screening visit.\n2. Written and signed informed consent by parent(s)/leg",
+            "endpoints": [
+              "Change from Baseline in Trough FEV1 at Week 26."
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05776927"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00545272",
+            "title": "A Randomized, Multi-center, Parallel Group, Double Blind, Placebo and Formoterol Controlled 14 Day Dose Ranging Trial of 4 Doses of Indacaterol Delivered Via TWISTHALER® Device in Adult and Adolescent Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-10",
+            "completion_date": "2008-04",
+            "country": "Spain, United Kingdom, Belgium, Germany, Israel, Russia, Hungary, Czechia, South Africa, Poland",
+            "enrollment": 392,
+            "brief_summary": "This study will evaluate the dose response relationship among four doses of indacaterol as well as placebo delivered via the TWISTHALER® device.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female adult and adolescent patients aged 12-75 years inclusive (or ≥18-75 years depending upon regulatory and/or Institutional Review Board (IRB)/Independent Ethics Committee (IEC)/Research Ethics Board (REB) approval), who have signed an Informed Consent Form prior",
+            "endpoints": [
+              "The Mean Change From Baseline to 24 Hour Post-dose (Trough) Forced Expiratory Volume in 1 Second (FEV1)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00545272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00557440",
+            "title": "A Multi-center, Randomized, Double-blind, Double Dummy, Placebo and Active Controlled Crossover Study, to Investigate the 24 Hour FEV1 Profile of a Single Dose of QMF TWISTHALER Device in Adult Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-11",
+            "completion_date": "2008-04",
+            "country": "Germany, Belgium",
+            "enrollment": 37,
+            "brief_summary": "This study is designed to provide data about the 24 hours FEV1 profile, safety and tolerability of indacaterol/mometasone TWISTHALER device compared to placebo and using fluticasone/salmeterol as an active control.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female adult patients aged 18-75 years (inclusive), who have signed an Informed Consent Form prior to initiation of any study-related procedure,\n* Patients with persistent asthma, diagnosed according to Global Initiative for Asthma (GINA) guidelines (National Institut",
+            "endpoints": [
+              "Change From Period Baseline to 24 Hour Post-dose (Trough) Forced Expiratory Volume in 1 Second (FEV1)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00557440"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02039011",
+            "title": "Proof of Concept Study to Evaluate Single and Chronic Dosing Effects of Ultra-long Acting Bronchodilator Therapy on Mannitol Challenge in Asthmatic Patients Taking Inhaled Corticosteroids",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-02",
+            "completion_date": "2016-07",
+            "country": "United Kingdom",
+            "enrollment": 14,
+            "brief_summary": "Asthma is a common condition which produces a significant workload for general practice, hospital outpatient clinics and inpatient admissions. Asthma is caused by inflammation of the airways which irritates the muscles around the airways causing them to constrict. The mainstay of asthma treatment is inhaled steroids. If the patients' symptoms are still not adequately controlled, then a long-acting beta agonist (LABA) inhaler which relaxes the muscles in the airways and opens it up is frequently ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female volunteers aged at least 16 years with persistent asthma and on inhaled corticosteroids (at least 400 micrograms of beclomethasone dipropionate or the equivalent\n* FEV1 \\> 50 % predicted\n* Mannitol PD15 \\< 635 mg\n* Ability to give informed consent\n* Agreement fo",
+            "endpoints": [
+              "Change in provocation dose of mannitol causing 15% drop in forced expiratory volume in 1 second (PD15) between single and chronic dosing of ultra-long acting bronchodilator therapy"
+            ],
+            "sponsor": "University of Dundee",
+            "url": "https://clinicaltrials.gov/study/NCT02039011"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04259164",
+            "title": "Evaluation of the Anti-inflammatory Effects of Glycopyrronium Added to Indacaterol/Mometasone on the Allergen-induced Late Asthmatic Response",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-09-10",
+            "completion_date": "2022-12-29",
+            "country": "Netherlands",
+            "enrollment": 28,
+            "brief_summary": "Double-blind, randomized, two-way cross-over study with two treatment periods. 28 subjects with asthma will be randomized in 1:1 ratio to treatment A) Indacaterol/Mometasone 150/160 μg once daily and treatment B) Indacaterol/Glycopyrronium/Mometasone 150/50/80 μg once daily for period 1. For period 2, subjects will be crossed over to the other treatment arm. Subjects will be screened during the first visit. After inclusion subjects will be seen for 3 visits during the Run-in period, 3 visits dur",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent must be obtained prior to participation in the study.\n* Male or female adult patients aged between 18 and 65 years old.\n* Patients with a diagnosis of asthma for at least 6 months prior to Visit 1 with current asthma severity of step 1-3 (GINA 2018).\n* ",
+            "endpoints": [
+              "% of sputum eosinophils"
+            ],
+            "sponsor": "University Medical Center Groningen",
+            "url": "https://clinicaltrials.gov/study/NCT04259164"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00556673",
+            "title": "An Exploratory, Multi-centre, Double-blind, Placebocontrolled Crossover Study, to Investigate the Bronchodilatory Efficacy of a Single Dose of Indacaterol in Fixed Combination With Mometasone Furoate Delivered Via a MDDPI (Twisthaler®) in Adult Patients With Persistent Asthma Using Open Label Seretide® Accuhaler® (50/250 Mcg b.i.d.) as an Active Control",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-10",
+            "completion_date": "2008-04",
+            "country": "Germany, France",
+            "enrollment": 31,
+            "brief_summary": "This study is designed to evaluate the bronchodilatory efficacy of indacaterol maleate 500 μg/mometasone furoate 400 μg via the Twisthaler® device in adult patients with persistent asthma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female adult patients aged 18-75 years with persistent asthma\n* Patients with persistent asthma, diagnosed according to the Global Initiative for Asthma guidelines (GINA) and who additionally met the following criteria:\n\n  1. Patients receiving daily treatment with in",
+            "endpoints": [
+              "Change From Period Baseline to 24 Hour Post-dose (Trough) Forced Expiratory Volume in 1 Second (FEV1)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00556673"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00403637",
+            "title": "A Randomized, Double-blind, Double-dummy, Active (Formoterol 12 µg b.i.d) and Placebo Controlled, Multi-center, 5 Period Crossover Study to Assess the Bronchodilatory Efficacy and Safety of Single Doses of Indacaterol 150 µg, 300 µg and 600 µg Delivered Via Single Dose Dry Powder Inhaler (SDDPI) vs. Placebo in Patients With Persistent Asthma",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-11",
+            "completion_date": "2007-02",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "The study is designed to obtain safety and efficacy data on three dose levels of indacaterol when delivered via an SDDPI in patients with persistent asthma. All patients will receive 1 day of treatment with each of the following: indacaterol 150 µg, indacaterol 300 µg, indacaterol 600 µg, placebo, and formoterol. Each treatment day will be followed by a washout-period of 1 week",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males and females 12 - 75 years of age with a diagnosis of persistent asthma\n* Daily treatment with a bronchodilator and daily dose of at least 100 µg beclomethasone dipropionate or equivalent\n* FEV1 at Visit 1 at least 50% of the predicted normal value\n* FEV1 reversibility at",
+            "endpoints": [
+              "Lung function measured 24 hours after having taken medication, by a special test called \"forced expiratory volume in 1 second \"(FEV1)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00403637"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01012739",
+            "title": "A Randomized, Partially-blinded, Single-dose, 4-way Cross-over Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacokinetics of Orally Inhaled Indacaterol Maleate Administered Via the Concept1 Device or Via the Simoon Device",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-10",
+            "completion_date": "2010-03",
+            "country": "Germany, United Kingdom, Netherlands",
+            "enrollment": 35,
+            "brief_summary": "This study assessed the efficacy, safety, tolerability, and pharmacokinetics of two different formulations of indacaterol, one administered via the Concept1 device and one administered via the Simoon device. The study aimed to determine whether the novel formulation (Simoon) had a similar profile to that of the established formulation (Concept1).",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Patients with persistent asthma with a forced expiratory volume in 1 second (FEV1) ≥ 50%\n* Patients using inhaled corticosteroid (with or without long-acting beta agonist)\n\nExclusion criteria:\n\n* Asthma exacerbations in previous 6 months\n* Chronic obstructive pulmonary disease",
+            "endpoints": [
+              "Change From Baseline in Trough Forced Expiratory Volume in 1 Second (FEV1) 24 Hours Post-dose for Each Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01012739"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03257995",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Three-period Cross-over Study to Assess the Pharmacodynamics, Safety, Tolerability, and Pharmacokinetics of Two Orally Inhaled Indacaterol Salts (Maleate and Acetate) Delivered Via the Concept1 Inhalation Device in Patients With Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-09-05",
+            "completion_date": "2018-01-18",
+            "country": "United States",
+            "enrollment": 54,
+            "brief_summary": "This study is a randomized, double-blind, placebo-controlled, three-period cross-over study in approximately 54 subjects with asthma.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Male and female patients aged ≥ 18 and above\n* Patients with a documented physician diagnosis of asthma for a period of at least 1 year prior to screening and who additionally meet the following criteria:\n\nPatients receiving daily treatment with an inhaled corticosteroid u",
+            "endpoints": [
+              "Trough FEV1"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT03257995"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01484197",
+            "title": "A Multi-centre, Randomized, Double-blind, Double-dummy, Multiple-dose, Crossover Study to Evaluate the Pharmacodynamics, Pharmacokinetics, Safety and Tolerability of Orally Inhaled Indacaterol Administered as Either PulmoSphere or Lactose-blend Powder Via the Concept1 Device in Adult Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-11",
+            "completion_date": "2012-05",
+            "country": "Germany, United Kingdom",
+            "enrollment": 36,
+            "brief_summary": "This study will assess the pharmacodynamics, safety, tolerability and pharmacokinetics of two different formulations of indacaterol maleate, both administered via the Concept1 device. The study aims to determine whether the novel formulation has a similar clinical profile as the established formulation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female patients with asthma\n* Aged 18 or above\n* Patients using inhaled corticosteroid (with or without long acting beta agonist)\n* Patients who demonstrate an increase in FEV1 after inhaling a short acting beta agonist\n\nExclusion Criteria:\n\n* Asthma exacerbations in ",
+            "endpoints": [
+              "Trough Forced Expiratory Volume in One Second (FEV1) After 7 Days of Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01484197"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00941798",
+            "title": "A Randomized, Multi-center, Parallel Group, Double Blind, Study to Assess the Safety of QMF Twisthaler® (500/400 µg) and Mometasone Furoate Twisthaler® (400 µg) in Adolescent and Adult Patients With Persistent Asthma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-07",
+            "completion_date": "2011-05",
+            "country": "Colombia, India, Slovakia, Brazil, South Korea, United States, Peru, Czechia, Hungary",
+            "enrollment": 2283,
+            "brief_summary": "Study CQMF149A2210 evaluated the safety of QMF149 Twisthaler® 500/400 μg, a fixed dose combination of indacaterol 500 μg, a once daily β2 agonist, and mometasone furoate 400 μg, an inhaled corticosteroid (ICS) that is approved for use in the treatment of asthma. The objective of this safety trial was to assess the effect of treatment on the incidence of serious asthma exacerbations, defined as asthma related hospitalization and/or intubation and/or death. This was an event driven trial.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a documented diagnosis of persistent asthma and who were currently treated with or qualified for treatment with both ICS and long-acting beta2-agonist (LABA) combination\n* Patients demonstrating an increase in forced expiration volume in 1 second (FEV1) of ≥ 12% ",
+            "endpoints": [
+              "Time to First Serious Asthma Exacerbation"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00941798"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05562466",
+            "title": "Double-blind, Randomized, Active-controlled, Two-way Cross-over Study, With 12-week Treatment Duration Per Period, to Evaluate the Efficacy and Safety of QMF149 (Indacaterol Acetate / Mometasone Furoate) Compared to Budesonide in Children From 6 to Less Than 12 Years of Age With Asthma",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2023-05-11",
+            "completion_date": "2028-05-30",
+            "country": "Colombia, Spain, Romania, Austria, Argentina, Italy, Portugal, Bulgaria, Czechia, Hungary, Mexico, Greece, South Africa, Panama, Vietnam, Guatemala",
+            "enrollment": 200,
+            "brief_summary": "The purpose of this study is to evaluate the superiority in terms of efficacy and evaluate the safety of QMF149 (indacaterol (acetate) / mometasone (furoate)) compared to budesonide in children from 6 to less than 12 years of age with asthma.\n\n* The study duration will be up to 37 weeks including an investigational treatment duration of 12 weeks and a comparator treatment duration of 12 weeks.\n* The visit frequency will be 3 weeks for screening, run-in and wash-out period, 6 weeks interval for v",
+            "eligibility_criteria": "Inclusion Criteria\n\n1. Male or female children ≥ 6 years and \\<12 years in age at randomization.\n2. Parents/legal guardian must be willing and able to attend study visits and assist the child with the procedures outlined in the protocol (e.g. compliance with taking study medication and completing th",
+            "endpoints": [
+              "Change from baseline in trough FEV1"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05562466"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32653074",
+            "title": "Once-daily, single-inhaler mometasone-indacaterol-glycopyrronium versus mometasone-indacaterol or twice-daily fluticasone-salmeterol in patients with inadequately controlled asthma (IRIDIUM): a randomised, double-blind, controlled phase 3 study.",
+            "abstract": "Patients with asthma who are inadequately controlled on inhaled corticosteroid-long-acting β2-adrenoceptor agonist (ICS-LABA) combinations might benefit from the addition of a long-acting muscarinic receptor antagonist. The aim of the IRIDIUM study was to assess the efficacy and safety of a once-daily, single-inhaler combination of mometasone furoate, indacaterol acetate, and glycopyrronium bromide (MF-IND-GLY) versus ICS-LABA in patients with inadequately controlled asthma.",
+            "journal": "The Lancet. Respiratory medicine",
+            "year": "2020",
+            "authors": [
+              "Kerstjens Huib A M",
+              "Maspero Jorge",
+              "Chapman Kenneth R",
+              "van Zyl-Smit Richard N",
+              "Hosoe Motoi"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adolescent",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Child",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32653074/"
+          },
+          {
+            "pmid": "33871819",
+            "title": "Indacaterol/Glycopyrronium/Mometasone: A Review in Asthma.",
+            "abstract": "Indacaterol/glycopyrronium/mometasone (Enerzair® Breezhaler®) is a fixed-dose combination of the long-acting β2 agonist (LABA) indacaterol, the long-acting muscarinic antagonist (LAMA) glycopyrronium and the inhaled corticosteroid (ICS) mometasone furoate (hereafter referred to as mometasone) delivered via a capsule-based dry-powder inhaler. It is approved in the EU for use as maintenance treatment in adult patients with inadequately controlled asthma who had experienced one or more exacerbations in the previous year. The approval also includes an optional digital companion (sensor and app) that provides data on the patient's use of the inhaler. In the 52-week IRIDIUM trial in patients with inadequately controlled asthma, indacaterol/glycopyrronium/mometasone improved lung function to a greater extent than LABA/ICS combinations (i.e. indacaterol/mometasone and fluticasone propionate/salmeterol), but superiority in Asthma Control Questionnaire 7 score was not shown. In the 24-week ARGON",
+            "journal": "Drugs",
+            "year": "2021",
+            "authors": [
+              "Blair Hannah A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-2 Receptor Agonists",
+              "Asthma",
+              "Glycopyrrolate",
+              "Humans",
+              "Indans",
+              "Mometasone Furoate",
+              "Quinolones",
+              "Receptors, Adrenergic, beta-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33871819/"
+          },
+          {
+            "pmid": "31404293",
+            "title": "Eosinophil Inflammation and Hyperresponsiveness in the Airways as Phenotypes of COPD, and Usefulness of Inhaled Glucocorticosteroids.",
+            "abstract": "Background: The differential diagnosis in persistent airway limitation is sometimes not so clear in older adults. Airway eosinophilia and airway hyperresponsiveness may develop in some cases with chronic obstructive lung disease (COPD), independent of asthma. However, little is known about clinical significance of these phenotypes of COPD in detail. Aims and objectives: This clinical study was designed to examine prevalence of airway eosinophilia and airway hyperresponsiveness in COPD who have no symptom and no past history of asthma, and to examine involvement of these pathophysiological features of asthma in the management and therapy for COPD. Methods: Sputum examination via qualitative and quantitative procedures was performed in stable COPD (GOLD 1-3). When sputum eosinophils were qualitatively (≥+) or quantitatively assessed (≥3%), ciclesonide (inhaled glucocorticosteroids) was added on bronchodilators. In cases with FEV1 ≥ 70% of predicted values, acetylcholine provocation test ",
+            "journal": "Frontiers in pharmacology",
+            "year": "2019",
+            "authors": [
+              "Kume Hiroaki",
+              "Hojo Masayuki",
+              "Hashimoto Naozumi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31404293/"
+          },
+          {
+            "pmid": "34329722",
+            "title": "Dose bridging data for mometasone furoate in once-daily fixed-dose inhaled combinations of mometasone furoate/indacaterol and mometasone furoate/ indacaterol/glycopyrronium in patients with asthma.",
+            "abstract": "Once-daily (o.d.) fixed-dose combinations of mometasone furoate/indacaterol acetate (MF/IND) and mometasone furoate/indacaterol acetate/glycopyrronium bromide (MF/IND/GLY), both delivered via the Breezhaler® device, are approved for the maintenance treatment of asthma. Across these fixed-dose combinations, while the doses of bronchodilators remain the same, the nominal doses of mometasone furoate in micrograms differ. This article presents the steps followed in bridging the mometasone furoate doses at the corresponding dose strengths in the mometasone furoate formulation delivered via the Twisthaler® and mometasone furoate/indacaterol acetate and mometasone furoate/indacaterol acetate/glycopyrronium bromide formulations delivered via the Breezhaler®. These were: (i) bridging the mometasone furoate doses in the Twisthaler® (previously approved) to mometasone furoate doses in the Breezhaler®; (ii) bridging the mometasone furoate doses in the Breezhaler® to mometasone furoate/indacaterol ",
+            "journal": "Pulmonary pharmacology & therapeutics",
+            "year": "2021",
+            "authors": [
+              "Buhl Roland",
+              "Nikolaev Ivan",
+              "Tillmann Hanns-Christian",
+              "Vaidya Soniya",
+              "Bartels Christian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Drug Combinations",
+              "Glycopyrrolate",
+              "Humans",
+              "Indans",
+              "Mometasone Furoate",
+              "Quinolones",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34329722/"
+          },
+          {
+            "pmid": "24247039",
+            "title": "Current and novel bronchodilators in respiratory disease.",
+            "abstract": "β2-Agonists and muscarinic antagonists are widely used to treat asthma and chronic obstructive pulmonary disease (COPD), and a number of novel drug targets are being investigated for potential clinical utility. This review will summarize current developments in the field.",
+            "journal": "Current opinion in pulmonary medicine",
+            "year": "2014",
+            "authors": [
+              "Spina Domenico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Humans",
+              "Muscarinic Antagonists",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24247039/"
+          },
+          {
+            "pmid": "39905183",
+            "title": "Single inhaler with beclometasone, formoterol, and glycopyrronium versus triple therapies in adults with uncontrolled asthma: a systematic review and meta-analysis.",
+            "abstract": "Recent literature has shown that triple therapy is more effective than dual therapy for individuals with uncontrolled asthma. However, the comparative efficacy between different triple therapies remains unclear. The objective of this study was to determine the comparative efficacy of extra-fine single-inhaler medium-dose (MD) or high-dose (HD) of beclometasone/formoterol/glycopyrronium bromide (BDP/FOR/GLY) compared to other triple therapies in patients whose asthma remains uncontrolled with MD or HD inhaled corticosteroids and long-acting β2-agonists. A systematic literature review identified randomized control trials on adult patients with uncontrolled asthma. Two separate networks were constructed according to patients' previous inhaled-corticosteroid dosage. Network meta-analyses evaluated severe and moderate-to-severe exacerbations, pre-dose forced expiratory volume, and asthma control questionnaire responses at 52 (± 3) weeks. Among single-inhaler triple therapies, MD BDP/FOR/GLY",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Braido Fulvio",
+              "Vlachaki Ioanna",
+              "Nikolaidis Georgios F",
+              "Tzelis Dimitrios",
+              "Barouma Ifigeneia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Asthma",
+              "Glycopyrrolate",
+              "Formoterol Fumarate",
+              "Beclomethasone",
+              "Administration, Inhalation",
+              "Drug Therapy, Combination",
+              "Anti-Asthmatic Agents",
+              "Adult",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39905183/"
+          },
+          {
+            "pmid": "19609496",
+            "title": "Indacaterol, a novel inhaled, once-daily, long-acting beta2-agonist for the treatment of obstructive airways diseases.",
+            "abstract": "Indacaterol is a novel once-daily, long-acting beta(2)-agonist developed for the treatment of chronic obstructive pulmonary disease (COPD) and asthma. The present review summarizes the preclinical and clinical data of indacaterol, including recent data from phase II and III trials. These clinical studies suggest that indacaterol produces rapid and sustained bronchodilation in patients with COPD, and asthma of different severities. Until now, clinical studies of up to 1-year's duration have been at least partially published, which have confirmed the suitability of indacaterol for once-daily dosing, along with a favorable overall safety and tolerability profile in the long-term treatment of COPD. Data on relevant outcomes in asthma are more limited, especially with regard to chronic treatment. Therefore, it appears that indacaterol monotherapy will have its therapeutic potential primarily in COPD, where anti-inflammatory treatment is not fully established and issues about a potential ris",
+            "journal": "Advances in therapy",
+            "year": "2009",
+            "authors": [
+              "Beeh Kai M",
+              "Beier Jutta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Agonists",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Clinical Trials as Topic",
+              "Delayed-Action Preparations",
+              "Humans",
+              "Indans",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19609496/"
+          },
+          {
+            "pmid": "20461692",
+            "title": "[Efficacy and safety of indacaterol - new long-acting beta(2) agonist].",
+            "abstract": "Combination of ICS and LABA for asthmatics and several classes of long-acting bronchodilator drugs for COPD patients are recommended. Long-acting bronchodilator therapy should be always considered when patients are symptomatic. Incorporation of once daily dose administration is an important strategy to improve adherence and is the method preferred by most patients. Several trials evaluated the efficacy and safety of indacaterol in patients with asthma and COPD. The results of the study suggested that indacaterol has a wide therapeutic index and is safe and well tolerated.",
+            "journal": "Pneumonologia i alergologia polska",
+            "year": "2010",
+            "authors": [
+              "Chazan Ryszarda"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adrenergic beta-Agonists",
+              "Asthma",
+              "Dose-Response Relationship, Drug",
+              "Forced Expiratory Volume",
+              "Humans",
+              "Indans",
+              "Nebulizers and Vaporizers",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20461692/"
+          },
+          {
+            "pmid": "32967685",
+            "title": "Lung function, pharmacokinetics, and tolerability of inhaled indacaterol maleate and acetate in asthma patients.",
+            "abstract": "Indacaterol maleate delivered with the Breezhaler® inhalation device is a long-acting β2-agonist approved for chronic obstructive pulmonary disease. In the development of a once daily, inhaled fixed dose combination (FDC) of indacaterol, glycopyrronium bromide (a long-acting muscarinic antagonist), and mometasone furoate (an inhaled corticosteroid [ICS]) for the treatment of patients with asthma, the acetate salt of indacaterol is used instead of the maleate salt. Here, we investigated the lung function, pharmacokinetics (PK) and safety of indacaterol maleate 150 μg once daily (o.d.) and indacaterol acetate 150 μg o.d. in comparison with placebo.",
+            "journal": "Respiratory research",
+            "year": "2020",
+            "authors": [
+              "Miller David",
+              "Vaidya Soniya",
+              "Jauernig Juergen",
+              "Ethell Brian",
+              "Wagner Kristina"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Administration, Inhalation",
+              "Adult",
+              "Aged",
+              "Asthma",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32967685/"
+          },
+          {
+            "pmid": "35072888",
+            "title": "A Review of the Unique Drug Development Strategy of Indacaterol Acetate/Glycopyrronium Bromide/Mometasone Furoate: A First-in-Class, Once-Daily, Single-Inhaler, Fixed-Dose Combination Treatment for Asthma.",
+            "abstract": "A novel, once-daily (o.d.), fixed-dose combination (FDC) of indacaterol acetate (IND), glycopyrronium bromide (GLY), and mometasone furoate (MF), delivered by the inhaler Breezhaler® device, is the first long-acting beta2-adrenergic agonist/long-acting muscarinic antagonist/inhaled corticosteroid (LABA/LAMA/ICS) therapy to be approved for maintenance treatment of asthma in adults inadequately controlled on LABA/ICS. The approval of IND/GLY/MF in the European Union (EU) also included an optional electronic sensor and smartphone (or other suitable device) application, making it the first \"digital companion\" that can be prescribed with an asthma medication. As a result, the European Medicines Agency included this approval as one of the \"outstanding contributions to public health\" (for Pneumology/Allergology) in their 2020 highlights report. Alongside IND/GLY/MF, an o.d. LABA/ICS FDC, IND/MF, was also developed and approved. This review outlines the unique strategy used in the accelerated ",
+            "journal": "Advances in therapy",
+            "year": "2022",
+            "authors": [
+              "Brittain Dominic",
+              "D'Andrea Peter",
+              "Gruen Emilie",
+              "Hosoe Motoi",
+              "Jain Devendra"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Video-Audio Media",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetates",
+              "Administration, Inhalation",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Adult",
+              "Argon",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Drug Combinations",
+              "Drug Development",
+              "Glycopyrrolate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35072888/"
+          },
+          {
+            "pmid": "33711782",
+            "title": "Cardiovascular safety of mometasone/indacaterol and mometasone/indacaterol/glycopyrronium once-daily fixed-dose combinations in asthma: pooled analysis of phase 3 trials.",
+            "abstract": "To evaluate cardiovascular safety of two new inhaled fixed-dose combinations for treatment of asthma: (i) the inhaled corticosteroid/long-acting beta2-agonist (ICS/LABA) mometasone furoate/indacaterol acetate (MF/IND), (ii) the ICS/LABA/long-acting muscarinic antagonist (LAMA) MF/IND/glycopyrronium bromide (GLY).",
+            "journal": "Respiratory medicine",
+            "year": "2021",
+            "authors": [
+              "Scosyrev Emil",
+              "van Zyl-Smit Richard",
+              "Kerstjens Huib",
+              "Gessner Christian",
+              "Kornmann Oliver"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adolescent",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Asthma",
+              "Child",
+              "Clinical Trials, Phase III as Topic",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33711782/"
+          },
+          {
+            "pmid": "34783265",
+            "title": "Inhaled indacaterol/glycopyrronium/mometasone furoate fixed-dose combination in moderate-to-severe asthma.",
+            "abstract": "Fixed-dose long-acting beta2-agonist (LABA)/inhaled corticosteroid (ICS) combinations and add-on therapies as needed are the mainstay for maintenance therapy in asthma. However, more than 40% of patients have an inadequately controlled disease. The development of triple fixed-dose combinations consisting of long-acting muscarinic antagonist (LAMA)/LABA/ICS has paved the way for a new approach to reach therapeutic goals of an optimal control of symptoms and an effective prevention of future exacerbations.",
+            "journal": "Expert review of respiratory medicine",
+            "year": "2022",
+            "authors": [
+              "de Llano Luis Perez",
+              "Naval Elsa",
+              "Mejía Natalia",
+              "Domínguez-Ortega Javier"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Asthma",
+              "Clinical Trials as Topic",
+              "Drug Combinations",
+              "Glycopyrrolate",
+              "Humans",
+              "Indans",
+              "Mometasone Furoate",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34783265/"
+          },
+          {
+            "pmid": "31425937",
+            "title": "Ultra-LABAs for the treatment of asthma.",
+            "abstract": "The term ultra-LABA indicates once-daily β2-AR agonists (abediterol, indacaterol, olodaterol and vilanterol) that are single enantiomers of the (R)-configuration. All have a near full-agonist profile at human β2-AR. They can be prescribed in asthmatics only when associated with an with ICS, although further confirmations need to clarify what really these agents add if used in association to ICS and in what asthmatic patients this association may have more value. They are also under development in triple inhalers that include an ultra-LABA, a LAMA and an ICS. The once-daily posology might increase adherence in long-term treatment of asthma but superiority to twice-daily LABAs has not yet been fully demonstrated. In any case, still no ultra-LABA can be recommended as preferred.",
+            "journal": "Respiratory medicine",
+            "year": "2019",
+            "authors": [
+              "Cazzola Mario",
+              "Rogliani Paola",
+              "Matera Maria Gabriella"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-2 Receptor Agonists",
+              "Asthma",
+              "Benzoxazines",
+              "Benzyl Alcohols",
+              "Chlorobenzenes",
+              "Humans",
+              "Indans",
+              "Patient Compliance",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31425937/"
+          },
+          {
+            "pmid": "25364503",
+            "title": "COPD: maximization of bronchodilation.",
+            "abstract": "The most recent guidelines define COPD in a multidimensional way, nevertheless the diagnosis is still linked to the limitation of airflow, usually measured by the reduction in the FEV1/FVC ratio below 70%. However, the severity of obstruction is not directly correlated to symptoms or to invalidity determined by COPD. Thus, besides respiratory function, COPD should be evaluated based on symptoms, frequency and severity of exacerbations, patient's functional status and health related quality of life (HRQoL). Therapy is mainly aimed at increasing exercise tolerance and reducing dyspnea, with improvement of daily activities and HRQoL. This can be accomplished by a drug-induced reduction of pulmonary hyperinflation and exacerbations frequency and severity. All guidelines recommend bronchodilators as baseline therapy for all stages of COPD, and long-acting inhaled bronchodilators, both beta-2 agonist (LABA) and antimuscarinic (LAMA) drugs, are the most effective in regular treatment in the c",
+            "journal": "Multidisciplinary respiratory medicine",
+            "year": "2014",
+            "authors": [
+              "Nardini Stefano",
+              "Camiciottoli Gianna",
+              "Locicero Salvatore",
+              "Maselli Rosario",
+              "Pasqua Franco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25364503/"
+          },
+          {
+            "pmid": "33446622",
+            "title": "Drugs for asthma.",
+            "abstract": "",
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2020",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Humans",
+              "Pharmaceutical Preparations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33446622/"
+          },
+          {
+            "pmid": "35348408",
+            "title": "Long-term safety of once-daily indacaterol acetate/glycopyrronium bromide/mometasone furoate high-dose, and indacaterol acetate/mometasone furoate high-dose, in Japanese patients with inadequately controlled asthma: Results from two open-label, 52-week studies.",
+            "abstract": "The 52-week long-term safety of once-daily indacaterol acetate/glycopyrronium bromide/mometasone furoate (IND/GLY/MF) high-dose (150/50/160 µg) and IND/MF high-dose (150/320 µg) was evaluated in two studies enrolling Japanese patients with inadequately controlled asthma.",
+            "journal": "The Journal of asthma : official journal of the Association for the Care of Asthma",
+            "year": "2023",
+            "authors": [
+              "Sagara Hironori",
+              "D'Andrea Peter",
+              "Tanase Ana-Maria",
+              "Pethe Abhijit",
+              "Tanaka Yukina"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Acetates",
+              "Administration, Inhalation",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Drug Combinations",
+              "East Asian People",
+              "Glycopyrrolate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35348408/"
+          },
+          {
+            "pmid": "28768531",
+            "title": "The effect of glycopyrronium and indacaterol, as monotherapy and in combination, on the methacholine dose-response curve of mild asthmatics: a randomized three-way crossover study.",
+            "abstract": "Methacholine dose-response curves illustrate pharmacologic bronchoprotection against methacholine-induced airway hyperresponsiveness and can be used to quantitate changes in airway sensitivity (position), reactivity (slope), and maximal responsiveness following drug administration. Our objective was to determine the influence of single-dose glycopyrronium (long-acting muscarinic antagonist) and indacaterol (ultra-long acting β2 agonist), as monotherapy and in combination, on the methacholine dose-response curve of mild asthmatics and to compare these findings with a non-asthmatic control curve.",
+            "journal": "Respiratory research",
+            "year": "2017",
+            "authors": [
+              "Blais Christianne M",
+              "Davis Beth E",
+              "Cockcroft Donald W"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenergic beta-2 Receptor Agonists",
+              "Adult",
+              "Aged",
+              "Asthma",
+              "Bronchial Provocation Tests",
+              "Bronchoconstrictor Agents",
+              "Bronchodilator Agents",
+              "Cross-Over Studies",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28768531/"
+          },
+          {
+            "pmid": "26692316",
+            "title": "Respiratory medications.",
+            "abstract": "",
+            "journal": "Nursing",
+            "year": "2016",
+            "authors": [
+              "Bridgeman Mary Barna",
+              "Dalal Kavitha S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Aminopyridines",
+              "Androstadienes",
+              "Asthma",
+              "Beclomethasone",
+              "Benzamides",
+              "Cyclopropanes",
+              "Humans",
+              "Indans",
+              "Maleates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26692316/"
+          },
+          {
+            "pmid": "22611179",
+            "title": "Pharmacology and therapeutics of bronchodilators.",
+            "abstract": "Bronchodilators are central in the treatment of of airways disorders. They are the mainstay of the current management of chronic obstructive pulmonary disease (COPD) and are critical in the symptomatic management of asthma, although controversies around the use of these drugs remain. Bronchodilators work through their direct relaxation effect on airway smooth muscle cells. at present, three major classes of bronchodilators, β(2)-adrenoceptor (AR) agonists, muscarinic receptor antagonists, and xanthines are available and can be used individually or in combination. The use of the inhaled route is currently preferred to minimize systemic effects. Fast- and short-acting agents are best used for rescue of symptoms, whereas long-acting agents are best used for maintenance therapy. It has proven difficult to discover novel classes of bronchodilator drugs, although potential new targets are emerging. Consequently, the logical approach has been to improve the existing bronchodilators, although ",
+            "journal": "Pharmacological reviews",
+            "year": "2012",
+            "authors": [
+              "Cazzola Mario",
+              "Page Clive P",
+              "Calzetta Luigino",
+              "Matera M Gabriella"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Agonists",
+              "Animals",
+              "Asthma",
+              "Bronchodilator Agents",
+              "Drug Combinations",
+              "Drug Discovery",
+              "Humans",
+              "Muscarinic Antagonists",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Xanthines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22611179/"
+          },
+          {
+            "pmid": "25176969",
+            "title": "Addressing unmet needs in the treatment of COPD.",
+            "abstract": "The burden of chronic obstructive pulmonary disease (COPD) is considerable, both socially and economically. Central to COPD management is the use of long-acting bronchodilators, which provide patients with optimal bronchodilation and improvements in symptoms. The once-daily, long-acting β2-agonist indacaterol, the long-acting muscarinic antagonist glycopyrronium, and the indacaterol/glycopyrronium fixed-dose combination QVA149 have all been shown to significantly improve lung function and patient-reported outcomes. The ability to take medication appropriately is important. Easy to use, low resistance devices may help patients take their medication and achieve good drug deposition. There is a need to optimise COPD management by treating the right patients with the right therapy at the right time during the course of their disease. Herein, we present a view on the current COPD management landscape and current unmet needs, and look to the future of COPD treatment and how patient care can ",
+            "journal": "European respiratory review : an official journal of the European Respiratory Society",
+            "year": "2014",
+            "authors": [
+              "Patalano Francesco",
+              "Banerji Donald",
+              "D'Andrea Peter",
+              "Fogel Robert",
+              "Altman Pablo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Asthma",
+              "Bronchodilator Agents",
+              "Diagnosis, Differential",
+              "Humans",
+              "Pulmonary Disease, Chronic Obstructive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176969/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis",
+        "txgnn_score": 0.9911905527114868,
+        "txgnn_rank": 9663,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.990720510482788,
+        "txgnn_rank": 10012,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ambras type hypertrichosis universalis congenita",
+        "txgnn_score": 0.9906103014945984,
+        "txgnn_rank": 10106,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB05039",
+    "name": "Indacaterol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Indacaterol"
+      },
+      "queried_at": "2026-03-10T03:04:59.786042",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Indacaterol"
+      },
+      "queried_at": "2026-03-10T03:05:08.302960",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T03:05:09.315089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T03:05:12.899140",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T03:05:13.759464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T03:05:14.860747",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T03:05:18.649866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T03:05:19.486738",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T03:05:20.132997",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T03:05:23.030926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T03:05:23.844332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "paratenonitis"
+      },
+      "queried_at": "2026-03-10T03:05:24.488997",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "paratenonitis"
+      },
+      "queried_at": "2026-03-10T03:05:27.737596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "paratenonitis"
+      },
+      "queried_at": "2026-03-10T03:05:28.486174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "calcific tendinitis"
+      },
+      "queried_at": "2026-03-10T03:05:29.674025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "calcific tendinitis"
+      },
+      "queried_at": "2026-03-10T03:05:35.352475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "calcific tendinitis"
+      },
+      "queried_at": "2026-03-10T03:05:36.278974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-10T03:05:37.403269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-10T03:05:43.168769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-10T03:05:43.975394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "bronchial disease"
+      },
+      "queried_at": "2026-03-10T03:05:53.029289",
+      "status": "success",
+      "result_count": 37,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "bronchial disease"
+      },
+      "queried_at": "2026-03-10T03:05:57.229422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "bronchial disease"
+      },
+      "queried_at": "2026-03-10T03:05:59.959389",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "myositis"
+      },
+      "queried_at": "2026-03-10T03:06:00.519560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "myositis"
+      },
+      "queried_at": "2026-03-10T03:06:04.921935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "myositis"
+      },
+      "queried_at": "2026-03-10T03:06:05.530904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T03:06:06.189795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T03:06:11.398725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T03:06:12.329706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-10T03:06:12.969795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-10T03:06:16.831789",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Indacaterol",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-10T03:06:17.885250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:06:17.893102"
+  }
+}

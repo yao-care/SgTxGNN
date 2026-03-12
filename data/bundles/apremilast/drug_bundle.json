@@ -1,0 +1,1790 @@
+{
+  "drug": {
+    "inn": "Apremilast",
+    "drugbank_id": "DB05676",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9865679740905762,
+        "txgnn_rank": 13174,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9849488139152528,
+        "txgnn_rank": 14220,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9808779954910278,
+        "txgnn_rank": 16625,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01504113",
+            "title": "The Impact of Targeted Therapy on Microorganism in Patients With Psoriasis",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2011-07",
+            "completion_date": "2015-06",
+            "country": "Taiwan",
+            "enrollment": 100,
+            "brief_summary": "Background:\n\nPsoriasis is a chronic, immunologically-mediated, inflammatory skin disease and targeted therapies e.g. tumor necrosis factor (TNF)-α and TH-17 antagonists have become increasing important agents in the management of psoriasis. TNF, interleukin-17 (IL-17) and TH-17 play major roles in defense against infection. Large-scaled clinical trials and post-marking surveillance had shown these agents may increase susceptibility to infections. Most studies evaluate the reactivation of tubercu",
+            "eligibility_criteria": "Study 1\n\nInclusion Criteria:\n\n* Clinical diagnosis of psoriasis/psoriatic arthritis and are going o receive target therapies in the near future\n* Age more than 20 years old\n* Will receive target therapies for psoriasis/psoriatic arthritis\n* Willing to receive blood, hair and skin scale sampling\n\nExc",
+            "endpoints": [
+              "Changes from baseline in viral loads of human papillomaviruses virus during and after target therapy",
+              "Changes from baseline in viral loads of cytomegalovirus during and after target therapy",
+              "Changes from baseline in viral loads of Epstein-Barr virus during and after target therapy"
+            ],
+            "sponsor": "National Taiwan University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01504113"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01285310",
+            "title": "A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-group Study, To Compare the Efficacy and Safety of Two Doses of Apremilast (CC-10004) in Subjects With Active Rheumatoid Arthritis Who Have Had an Inadequate Response to Methotrexate",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-12-09",
+            "completion_date": "2012-09-10",
+            "country": "Spain, Czechia, United States, Poland",
+            "enrollment": 237,
+            "brief_summary": "The purpose of this study is to determine whether Apremilast is safe and effective in the treatment of patients with rheumatoid arthritis, specifically in improving signs and symptoms of rheumatoid arthritis (tender and swollen joints, pain, physical function and structure) in treated patients who have had an inadequate response to Methotrexate.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must have a documented diagnosis of Rheumatoid Arthritis (1987 American College of Rheumatology Criteria) with onset of signs/symptoms of disease ≥ 4 months of duration from randomization.\n* Must be receiving treatment on an outpatient basis.\n* Must have active disease despite",
+            "endpoints": [
+              "Percentage of Participants With an American College of Rheumatology 20% Improvement (ACR 20) Response at Week 16"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT01285310"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01204138",
+            "title": "Concomitant Use of Apremilast for the Treatment of Active RA Despite TNF-Inhibition and Methotrexate- CATARA",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2010-09",
+            "completion_date": "2011-12",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "A Phase II, single institution, double blind, randomized, placebo controlled, cross-over study exploring the safety and efficacy apremilast in patients with active RA with concomitant use of TNF inhibition. Following a screening period, patients with active disease on stable TNF inhibition will be randomized to receive either apremilast or placebo for a period of 12 weeks. At the end of 12 weeks patients will be assessed for efficacy using the ACR responder index looking for a 20% improvement, t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Understand and voluntarily sign an informed consent form\n* 18 years of age at the time of signing the informed consent form.\n* Able to adhere to the study visit schedule and other protocol requirements\n* Must have a diagnosis of RA of at least 6 months duration based on the AC",
+            "endpoints": [
+              "20% improvement based on ACR responder criteria"
+            ],
+            "sponsor": "Stanford University",
+            "url": "https://clinicaltrials.gov/study/NCT01204138"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00521339",
+            "title": "A Phase 2, Open-label Multi-center Study to Evaluate the Safety, Pharmacodynamics, Pharmacokinetics, and Efficacy of Apremilast in Subjects With Recalcitrant Plaque-type Psoriasis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-08-01",
+            "completion_date": "2009-05-01",
+            "country": "United States",
+            "enrollment": 31,
+            "brief_summary": "The study will test the safety and tolerability of Apremilast twice a day in participants with recalcitrant plaque type psoriasis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMust understand and voluntarily sign an informed consent form\n\n* Must be male or female subject of any ethnic origin or race that is \\>18 years at time of consent\n* Must have a documented history of plaque-type psoriasis for at least 6 months prior to screening visit\n* Subjects ",
+            "endpoints": [
+              "Treatment Emergent Adverse Events (TEAEs) During the Treatment Phase",
+              "Treatment Emergent Adverse Events (TEAEs) During the Extension Phase"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT00521339"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01250548",
+            "title": "The Controlled Trial of Apremilast for Rheumatoid Arthritis Treatment",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-05",
+            "completion_date": "2014-06",
+            "country": "United States",
+            "enrollment": 34,
+            "brief_summary": "The purpose of this study is to compare the effects of apremilast with a placebo (an inactive substance that looks like apremilast) on you and other people with rheumatoid arthritis.\n\nThe investigators will be collecting information in this study to help us determine -\n\n* the safety of apremilast in patients with active rheumatoid arthritis\n* how long it takes for patients with active rheumatoid arthritis to respond to apremilast\n* how long the effects of apremilast last after the treatment has ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be able to adhere to the study visit schedule and other protocol requirements\n* documented rheumatoid arthritis (RA) diagnosis by the 1987 American College of Rheumatology (ACR) criteria for at least 6 months\n* disease duration 6 or more months (from symptom onset)\n* fail",
+            "endpoints": [
+              "To determine the time to response for subjects with active RA taking apremilast (30 mg per os [PO], twice per day [BID])"
+            ],
+            "sponsor": "Baylor Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01250548"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03036995",
+            "title": "Repigmentation Using Apremilast and Phototherapy In Diffuse VITILIGO RAPID VITILIGO",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-03-20",
+            "completion_date": "2019-11-25",
+            "country": "France",
+            "enrollment": 80,
+            "brief_summary": "Vitiligo is a depigmentation disorder affecting 0.5 to 2% of the general population. It is an acquired pigmentary disorder of the skin and mucous membranes that is characterized by circumscribed, depigmented macules and patches. Apremilast is a phosphosdiesterase 4 (PDE4) inhibitor that showed efficacy and very good tolerance in rheumatoid arthritis and psoriasis. Apremilast induces a potent activation of the cyclic AMP (cAMP) pathway leading to anti-inflammatory effect by decreasing the respons",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of non-segmental vitiligo affecting at least 10% of BSA since at least 3 months.\n* Patient requiring a treatment by UVB\n* For both female of childbearing potential and male patients: Use of an effective contraceptive method during the study period (see Annex 5 for de",
+            "endpoints": [
+              "Score VASI"
+            ],
+            "sponsor": "Centre Hospitalier Universitaire de Nice",
+            "url": "https://clinicaltrials.gov/study/NCT03036995"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38499181",
+            "title": "Full Guidelines-From the Medical Board of the National Psoriasis Foundation: Perioperative management of systemic immunomodulatory agents in patients with psoriasis and psoriatic arthritis.",
+            "abstract": "Systemic immunomodulatory agents are indicated in the treatment of moderate-to-severe plaque psoriasis and psoriatic arthritis. Perioperative use of these medications may increase the risk of surgical site infection (SSI) and complication.",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2024",
+            "authors": [
+              "James Warren A",
+              "Rosenberg Angela L",
+              "Wu Jashin J",
+              "Hsu Sylvia",
+              "Armstrong April"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Arthritis, Psoriatic",
+              "Psoriasis",
+              "Methotrexate",
+              "Perioperative Care",
+              "Thalidomide",
+              "Surgical Wound Infection",
+              "Piperidines",
+              "Cyclosporine",
+              "Phosphodiesterase 4 Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38499181/"
+          },
+          {
+            "pmid": "26097790",
+            "title": "The pharmacokinetic effect of coadministration of apremilast and methotrexate in individuals with rheumatoid arthritis and psoriatic arthritis.",
+            "abstract": "Apremilast is a novel agent for the treatment of inflammatory based autoimmune disorders. The objective of this study was to assess the pharmacokinetic effects of co administration of apremilast and methotrexate on both agents. This was an open-label, multi-center, 3-treatment period, sequential study conducted in otherwise healthy subjects with psoriatic arthritis or rheumatoid arthritis who were receiving a stable oral dose of methotrexate between 7.5 to 20 mg once weekly. Subjects received their dose of methotrexate on Days 1 and 8 of the study in addition to Apremilast 30 mg oral every 12 hours on Days 3-8. Pharmacokinectic profiles of methotrexate and 7-OH methotrexate were characterized after methotrexate alone (Day 1) and after co-administration of methotrexate and Apremilast (on Day 8). The pharmacokinetic profile of Apremilast was characterized after Apremilast alone (on Day 7) and after co-administration of methotrexate and Apremilast (on Day 8). The 90% confidence interval o",
+            "journal": "Clinical pharmacology in drug development",
+            "year": "2014",
+            "authors": [
+              "Liu Yong",
+              "Zhou Simon",
+              "Nissel James",
+              "Wu Anfan",
+              "Lau Henry"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26097790/"
+          },
+          {
+            "pmid": "30072998",
+            "title": "Apremilast Ameliorates Experimental Arthritis via Suppression of Th1 and Th17 Cells and Enhancement of CD4+Foxp3+ Regulatory T Cells Differentiation.",
+            "abstract": "Apremilast is a novel phosphodiesterase 4 (PDE4) inhibitor suppressing immune and inflammatory responses. We assessed the anti-inflammatory effects of Apremilast in type II collagen (CII)-induced arthritis (CIA) mouse model. To determine whether Apremilast can ameliorate arthritis onset in this model, Apremilast was given orally at day 14 after CII immunization. Bone erosion was measured by histological and micro-computed tomographic analysis. Anti-mouse CII antibody levels were measured by enzyme-linked immunosorbent assay, and Th17, Th1 cells, and CD4+Foxp3+ regulatory T (Treg) cells were assessed by flow cytometry in the lymph nodes. Human cartilage and rheumatoid arthritis (RA) synovial fibroblasts (RASFs) implantation in the severe combined immunodeficiency mouse model of RA were used to study the role of Apremilast in the suppression of RASF-mediated cartilage destruction in vivo. Compared with untreated and vehicle control groups, we found that Apremilast therapy delayed arthrit",
+            "journal": "Frontiers in immunology",
+            "year": "2018",
+            "authors": [
+              "Chen Weiqian",
+              "Wang Julie",
+              "Xu Zhenjian",
+              "Huang Feng",
+              "Qian Wenbin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30072998/"
+          },
+          {
+            "pmid": "25779750",
+            "title": "Apremilast in Patients With Active Rheumatoid Arthritis: A Phase II, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study.",
+            "abstract": "To study the efficacy/safety of apremilast, an oral phosphodiesterase 4 inhibitor, compared with placebo in patients with active rheumatoid arthritis (RA) who had an inadequate response to methotrexate (MTX).",
+            "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+            "year": "2015",
+            "authors": [
+              "Genovese Mark C",
+              "Jarosova Katerina",
+              "Cieślak Dorota",
+              "Alper Jeffrey",
+              "Kivitz Alan"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis, Rheumatoid",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Joints"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25779750/"
+          },
+          {
+            "pmid": "24797159",
+            "title": "Apremilast: first global approval.",
+            "abstract": "Apremilast (Otezla(®)), an oral small molecule inhibitor of type-4 cyclic nucleotide phosphodiesterase (PDE-4), is under development with Celgene Corporation for the treatment of psoriatic arthritis, psoriasis, ankylosing spondylitis, Behçet's syndrome, atopic dermatitis, and rheumatoid arthritis. Apremilast is indicated for the treatment of active psoriatic arthritis in adults. Apremilast has received its first global approval for this indication in the USA. Regulatory submissions for approval in this indication are under review in Canada and Europe. Regulatory filings have also been submitted for apremilast in the treatment of plaque psoriasis in the USA and Europe. This article summarizes the milestones in the development of apremilast leading to its first approval for the treatment of psoriatic arthritis.",
+            "journal": "Drugs",
+            "year": "2014",
+            "authors": [
+              "Poole Raewyn M",
+              "Ballantyne Anita D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arthritis, Psoriatic",
+              "Cyclic Nucleotide Phosphodiesterases, Type 4",
+              "Drug Approval",
+              "Humans",
+              "Molecular Structure",
+              "Phosphodiesterase 4 Inhibitors",
+              "Thalidomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24797159/"
+          },
+          {
+            "pmid": "30917076",
+            "title": "Adherence, Persistence, and Expenditures for High-Cost Anti-Inflammatory Drugs in Rheumatoid Arthritis: An Exploratory Study.",
+            "abstract": "Drugs for inflammatory conditions are one of the highest expenditure therapeutic classes for health plans. Published literature for adherence, persistence, nonadherence risk factors, and health care costs are incomplete for newer biologic agents.",
+            "journal": "Journal of managed care & specialty pharmacy",
+            "year": "2019",
+            "authors": [
+              "Khilfeh Ibrahim",
+              "Guyette Eric",
+              "Watkins John",
+              "Danielson Dan",
+              "Gross David"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Cohort Studies",
+              "Drug Costs",
+              "Female",
+              "Health Care Costs",
+              "Humans",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30917076/"
+          },
+          {
+            "pmid": "20525198",
+            "title": "Apremilast, a novel PDE4 inhibitor, inhibits spontaneous production of tumour necrosis factor-alpha from human rheumatoid synovial cells and ameliorates experimental arthritis.",
+            "abstract": "Type 4 phosphodiesterases (PDE4) play an important role in immune cells through the hydrolysis of the second messenger, cAMP. Inhibition of PDE4 has previously been shown to suppress immune and inflammatory responses, demonstrating PDE4 to be a valid therapeutic target for immune-mediated pathologies. We assessed the anti-inflammatory effects of a novel PDE4 inhibitor, apremilast, in human synovial cells from rheumatoid arthritis (RA) patients, as well as two murine models of arthritis.",
+            "journal": "Arthritis research & therapy",
+            "year": "2010",
+            "authors": [
+              "McCann Fiona E",
+              "Palfreeman Andrew C",
+              "Andrews Melanie",
+              "Perocheau Dany P",
+              "Inglis Julia J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arthritis, Experimental",
+              "Arthritis, Rheumatoid",
+              "Cells, Cultured",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Mice",
+              "Mice, Inbred BALB C",
+              "Mice, Inbred DBA"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20525198/"
+          },
+          {
+            "pmid": "33403021",
+            "title": "Shared development of targeted therapies among autoimmune and inflammatory diseases: a systematic repurposing analysis.",
+            "abstract": "Pathogenic inflammatory pathways are largely shared between different autoimmune and inflammatory diseases (AIDs). This offers the potential to develop a given targeted therapy in several AIDs.",
+            "journal": "Therapeutic advances in musculoskeletal disease",
+            "year": "2020",
+            "authors": [
+              "Petitdemange Arthur",
+              "Blaess Julien",
+              "Sibilia Jean",
+              "Felten Renaud",
+              "Arnaud Laurent"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33403021/"
+          },
+          {
+            "pmid": "40283434",
+            "title": "Rituximab, Apremilast, and Upadacitinib as Selected Biosimilar and Targeted Synthetic Disease-Modifying Antirheumatic Drugs with Diverse Mechanisms of Action: Their Current Use in Slowing Down the Progression of Disease.",
+            "abstract": "Background/Objectives: Inflammatory arthritides includes a range of joint disorders, such as osteoarthritis and rheumatoid arthritis, as well as inflammatory conditions like gout and lupus. This review investigates the pathophysiology, therapeutic challenges, and evolving treatment landscape of arthritis, with a particular focus on the clinical roles of rituximab, apremilast, and upadacitinib. Methods: A comprehensive analysis was undertaken to evaluate the current clinical application, therapeutic efficacy, and safety profiles of selected biosimilar and targeted synthetic disease-modifying antirheumatic drugs (bsDMARDs and tsDMARDs). This overview placed particular emphasis on three key agents-rituximab, apremilast, and upadacitinib-each exemplifying distinct immunomodulatory mechanisms. By focusing on these agents, the analysis highlights the evolving landscape of targeted therapies in rheumatology and underscores the importance of personalized treatment selection based on the diseas",
+            "journal": "Journal of clinical medicine",
+            "year": "2025",
+            "authors": [
+              "Kawczak Piotr",
+              "Feszak Igor Jarosław",
+              "Bączek Tomasz"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40283434/"
+          },
+          {
+            "pmid": "24043297",
+            "title": "[Therapy of psoriatic arthritis].",
+            "abstract": "In psoriatic arthritis (PsA) the heterogeneous spectrum of the disease with arthritis/synovitis, axial manifestation, enthesitis, dactylitis, psoriatic skin disease and nail psoriasis has to be considered. Moreover, PsA activity and severity as well as comorbidities are of importance for making therapeutic decisions. Measurement instruments developed for therapeutic studies of rheumatoid arthritis or ankylosing spondylitis are often not appropriate for application in PsA investigations. In this paper established therapies with nonsteroidal antirheumatic drugs, disease modifying antirheumatic drugs (DMARDs) and TNF-alpha inhibitors and the current EULAR guidelines from 2012 are reviewed. However, there is a need for new therapeutic agents for those patients who do not respond to or do not tolerate the current therapies. Other biologic agents have also been tested for PsA with moderate effects only. New therapeutic options could result from the anti-IL12 and anti-IL23 receptor monoclonal",
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2013",
+            "authors": [
+              "Märker-Hermann E"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Antibodies, Monoclonal",
+              "Antirheumatic Agents",
+              "Arthritis, Psoriatic",
+              "Biological Products",
+              "Humans",
+              "Tumor Necrosis Factor-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24043297/"
+          },
+          {
+            "pmid": "32453211",
+            "title": "Successful Treatment of Rituximab-Associated Palmoplantar Pustulosis With Apremilast in a Patient With Seropositive Rheumatoid Arthritis.",
+            "abstract": "",
+            "journal": "Journal of clinical rheumatology : practical reports on rheumatic & musculoskeletal diseases",
+            "year": "2021",
+            "authors": [
+              "Haller Christoph",
+              "Cozzio Antonio",
+              "von Kempis Johannes",
+              "Rubbert-Roth Andrea"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Humans",
+              "Psoriasis",
+              "Rituximab",
+              "Thalidomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32453211/"
+          },
+          {
+            "pmid": "32673703",
+            "title": "Phosphodiesterase-4 enzyme as a therapeutic target in neurological disorders.",
+            "abstract": "Phosphodiesterases (PDE) are a diverse family of enzymes (11 isoforms so far identified) responsible for the degradation of cyclic adenosine monophosphate (cAMP) and cyclic guanosine monophosphate (cGMP) which are involved in several cellular and biochemical functions. Phosphodiesterase 4 (PDE4) is the major isoform within this group and is highly expressed in the mammalian brain. An inverse association between PDE4 and cAMP levels is the key mechanism in various pathophysiological conditions like airway inflammatory diseases-chronic obstruction pulmonary disease (COPD), asthma, psoriasis, rheumatoid arthritis, and neurological disorders etc. In 2011, roflumilast, a PDE4 inhibitor (PDE4I) was approved for the treatment of COPD. Subsequently, other PDE4 inhibitors (PDE4Is) like apremilast and crisaborole were approved by the Food and Drug Administration (FDA) for psoriasis, atopic dermatitis etc. Due to the adverse effects like unbearable nausea and vomiting, dose intolerance and diarrh",
+            "journal": "Pharmacological research",
+            "year": "2020",
+            "authors": [
+              "Bhat Abid",
+              "Ray Bipul",
+              "Mahalakshmi Arehally Marappa",
+              "Tuladhar Sunanda",
+              "Nandakumar D N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Allosteric Regulation",
+              "Animals",
+              "Central Nervous System",
+              "Cyclic AMP",
+              "Cyclic Nucleotide Phosphodiesterases, Type 4",
+              "Humans",
+              "Molecular Targeted Therapy",
+              "Nervous System Diseases",
+              "Neuronal Plasticity",
+              "Phosphodiesterase 4 Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32673703/"
+          },
+          {
+            "pmid": "25488787",
+            "title": "Treatment of spondyloarthritis beyond TNF-alpha blockade.",
+            "abstract": "The advent of biologics targeting tumor necrosis factor-alpha (TNF-alpha) has revolutionized the field of rheumatology in general and the treatment of spondyloarthritis (SpA) in particular, since - apart from non-steroidal anti-inflammatory agents - no disease modifying treatments are available for this frequent, inflammatory rheumatic condition. The significant improvements in signs and symptoms observed with TNF-blockers in this group of diseases, have raised the bar with regard to treatment goals, including clinical remission. Even if treatment failure with TNF-blocking agents may be a relatively rare phenomenon, cases of primary non-responders, secondary loss-of-efficacy and intolerance, have been described. Results with abatacept, rituximab and tocilizumab - all effective in the treatment of rheumatoid arthritis - were disappointing, especially in patients that had previously failed anti-TNF therapy. On the other hand, there is increasing evidence that targeting the cytokines of t",
+            "journal": "Best practice & research. Clinical rheumatology",
+            "year": "2014",
+            "authors": [
+              "Van den Bosch Filip",
+              "Deodhar Atul"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Biological Products",
+              "Humans",
+              "Spondylarthritis",
+              "Tumor Necrosis Factor-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25488787/"
+          },
+          {
+            "pmid": "25575936",
+            "title": "Emerging drugs for the treatment of axial and peripheral spondyloarthritis.",
+            "abstract": "The topic under discussion is of strong relevance to the field of spondyloarthritis (SpA) because, in addition to established biological, there are new promising compounds. The reason for the review is to put all available data together to allow for an overview on recent developments and to especially inform readers about emerging drugs, biologics and small molecules in the field of SpA.",
+            "journal": "Expert opinion on emerging drugs",
+            "year": "2015",
+            "authors": [
+              "Braun Juergen",
+              "Kiltz Uta",
+              "Heldmann Frank",
+              "Baraliakos Xenofon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antirheumatic Agents",
+              "Arthritis, Psoriatic",
+              "Drug Design",
+              "Humans",
+              "Immunologic Factors",
+              "Spondylarthritis",
+              "Spondylitis, Ankylosing",
+              "Tumor Necrosis Factor-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25575936/"
+          },
+          {
+            "pmid": "24566842",
+            "title": "Managing patients with psoriatic disease: the diagnosis and pharmacologic treatment of psoriatic arthritis in patients with psoriasis.",
+            "abstract": "Psoriatic arthritis (PsA) is a chronic, systemic inflammatory disease. Up to 40 % of patients with psoriasis will go on to develop PsA, usually within 5-10 years of cutaneous disease onset. Both conditions share common pathogenic mechanisms involving genetic and environmental factors. Because psoriasis is typically present for years before PsA-related joint symptoms emerge, dermatologists are in a unique position to detect PsA earlier in the disease process through regular, routine screening of psoriasis patients. Distinguishing clinical features of PsA include co-occurrence of psoriatic skin lesions and nail dystrophy, as well as dactylitis and enthesitis. Patients with PsA are usually seronegative for rheumatoid factor, and radiographs may reveal unique features such as juxta-articular new bone formation and pencil-in-cup deformity. Early treatment of PsA with disease-modifying anti-rheumatic drugs has the potential to slow disease progression and maintain patient quality of life. Op",
+            "journal": "Drugs",
+            "year": "2014",
+            "authors": [
+              "Mease Philip J",
+              "Armstrong April W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antibodies, Monoclonal",
+              "Arthritis, Psoriatic",
+              "Clinical Trials as Topic",
+              "Drug Therapy, Combination",
+              "Early Diagnosis",
+              "Glucocorticoids",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Practice Guidelines as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24566842/"
+          },
+          {
+            "pmid": "25027606",
+            "title": "Novel treatments with small molecules in psoriatic arthritis.",
+            "abstract": "Current treatment options for patients with active psoriatic arthritis (PsA) include synthetic disease-modifying antirheumatic drugs and biologic agents. Propelled by increased understanding of immunopathogenesis of PsA, new therapeutic agents targeting different biologic pathways have been evaluated. This article discusses novel small-molecule, orally available treatments that are currently in clinical development for the treatment of psoriasis and PsA. This includes the phosphodiesterase 4 inhibitor apremilast and Janus kinase (JAK) inhibitors. Apremilast has demonstrated significant improvements in patients with moderate to severe psoriasis and PsA in phase II and III clinical trials and has recently been approved for the treatment of PsA. Tofacitinib, an oral inhibitor of JAK3, JAK1, and, to a lesser degree, JAK2, approved for the treatment of rheumatoid arthritis in several countries, has demonstrated positive results in psoriasis in phase II studies. Studies in PsA are ongoing. W",
+            "journal": "Current rheumatology reports",
+            "year": "2014",
+            "authors": [
+              "Hansen Renata Baronaite",
+              "Kavanaugh Arthur"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Arthritis, Psoriatic",
+              "Humans",
+              "Janus Kinases",
+              "Phosphodiesterase Inhibitors",
+              "Thalidomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25027606/"
+          },
+          {
+            "pmid": "29058302",
+            "title": "Switching Between Biological Treatments in Psoriatic Arthritis: A Review of the Evidence.",
+            "abstract": "Psoriatic arthritis (PsA) is a chronic inflammatory arthropathy. Therapy with anti-tumor necrosis factor (TNF)-α agents represents the first therapeutic choice for moderate and severe forms; however, PsA patients can experience anti-TNFα failure, lack of efficacy, or adverse events. Several evidences exist on the effectiveness of switching among different TNFα inhibitors, and we reviewed the published data on the effectiveness of anti-TNFα first-, second- and third-line. Most of the studies report that the main reason for switching to a second anti-TNFα agent is represented by lack of efficacy (primary or secondary) and, more rarely, adverse events. Switchers receiving their second anti-TNFα agent have considerably poorer responses compared with non-switchers. Survival of anti-TNFα treatment appears to be superior in PsA patients when compared with rheumatoid arthritis patients. Switching from anti-TNF agents to ustekinumab or secukinumab or apremilast can represent a valid alternative",
+            "journal": "Drugs in R&D",
+            "year": "2017",
+            "authors": [
+              "Costa Luisa",
+              "Perricone Carlo",
+              "Chimenti Maria Sole",
+              "Del Puente Antonio",
+              "Caso Paolo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Arthritis, Psoriatic",
+              "Drug Substitution",
+              "Humans",
+              "Thalidomide",
+              "Treatment Outcome",
+              "Tumor Necrosis Factor-alpha",
+              "Ustekinumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29058302/"
+          },
+          {
+            "pmid": "39895048",
+            "title": "Pregnancy Outcomes of Targeted Synthetic Disease-Modifying Antirheumatic Drugs Among Patients With Autoimmune Diseases: A Scoping Review.",
+            "abstract": "Targeted synthetic disease-modifying antirheumatic drugs (tsDMARDs) have expanded the management of autoimmune diseases, including rheumatic diseases. As the use of these drugs grows, it is important to understand their effects on pregnancy. We conducted a scoping review to synthesize the current evidence on the impacts of tsDMARDs on pregnancy outcomes.",
+            "journal": "Arthritis care & research",
+            "year": "2025",
+            "authors": [
+              "Cheng Vienna",
+              "Amiri Neda",
+              "Cheng Vicki",
+              "Ellis Ursula",
+              "Cragg Jacquelyn J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Scoping Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pregnancy",
+              "Female",
+              "Antirheumatic Agents",
+              "Pregnancy Outcome",
+              "Autoimmune Diseases",
+              "Pregnancy Complications",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39895048/"
+          },
+          {
+            "pmid": "40863428",
+            "title": "Single-Center Cross-Sectional Analysis of Patients with RA, SpA, and PsA: Data from the Prescription Database.",
+            "abstract": "Introduction. The Italian Committee for Tailored BIOlogic Therapy (ITABIO), in a first report, has reviewed the literature to identify the best strategy for the choice of second-line biologic therapy in patients with rheumatoid arthritis (RA), spondyloarthritis (SpA), and psoriatic arthritis (PsA). To verify the application of ITABIO recommendations in real life and how the recommendations perform in maintaining the health status of patients affected by inflammatory arthritis (RA, SpA, PsA), a database has been developed by Pharmaceutical Governance to evaluate the appropriateness of prescriptions. Methods. We have analyzed retrospectively 616 patients, 288 (46.7%) affected by RA, 117 (19%) affected by SpA, and 211 (34.3%) affected by PsA. Age, sex, diagnosis, current treatment, previous treatments with csDMARDs, b-DMARDs, ts-DMARDs, presence of risk factors for cardiovascular (CV) events, liver disease, infections, extra-articular manifestations such as interstitial lung disease (ILD)",
+            "journal": "Journal of personalized medicine",
+            "year": "2025",
+            "authors": [
+              "Benucci Maurizio",
+              "Gobbi Francesca Li",
+              "Cassarà Emanuele Antonio Maria",
+              "Marigliano Anna Lucia",
+              "Mannoni Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40863428/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9808551669120787,
+        "txgnn_rank": 16641,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36481392",
+            "title": "Cardiovascular Toxicity of Proteasome Inhibitors in Multiple Myeloma Therapy.",
+            "abstract": "The treatment for multiple myeloma has advanced significantly over the past few decades. Proteasome inhibitors have become the cornerstone of the treatment of multiple myeloma. However, proteasome inhibitors have shown cardiovascular complications such as hypertension, pulmonary hypertension, heart failure, arrhythmias, ischaemic heart disease and thromboembolism. Detection, monitoring and management of proteasome inhibitor-related cardiovascular toxicity are essential to improve clinical outcomes for patients. Proposed mechanisms of proteasome inhibitor-related cardiovascular toxicity are apoptosis, prolonged inhibition of the ubiquitin-proteasome system, accumulation of improperly folded proteins within cardiomyocytes and higher protein phosphatase 2A activity. To better understand the mechanisms underlying cardiotoxicity, further in vitro and in vivo experiments are required to investigate these hypotheses. Combined use of metformin or angiotensin II receptor blockers with the prote",
+            "journal": "Current problems in cardiology",
+            "year": "2023",
+            "authors": [
+              "Zheng Yi",
+              "Huang Shan",
+              "Xie Bingxin",
+              "Zhang Nan",
+              "Liu Zhiqiang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Rats",
+              "Animals",
+              "Proteasome Inhibitors",
+              "Multiple Myeloma",
+              "Cardiotoxicity",
+              "Heart Diseases",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36481392/"
+          },
+          {
+            "pmid": "36402940",
+            "title": "Economic Burden of Comorbidities in Patients with Psoriasis in the USA.",
+            "abstract": "This study assessed the comorbidity burden, healthcare resource utilization (HCRU), and costs associated with patients with moderate to severe psoriasis (PsO) compared with a matched cohort of the general population without PsO in the USA.",
+            "journal": "Dermatology and therapy",
+            "year": "2023",
+            "authors": [
+              "Wu Jashin J",
+              "Suryavanshi Manasi",
+              "Davidson David",
+              "Patel Vardhaman",
+              "Jain Anuj"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36402940/"
+          },
+          {
+            "pmid": "32911531",
+            "title": "Epidemiologic study of patients with psoriatic arthritis in a real-world analysis: a cohort study of the French health insurance database.",
+            "abstract": "PsA is a chronic inflammatory arthritis with heterogeneous disease manifestations. Data on the prevalence of PsA in adults differ widely depending on the study and the country. This study aimed to estimate the prevalence and incidence of PsA in France, characterize comorbidities associated to PsA and identify prescribed treatments.",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2021",
+            "authors": [
+              "Pina Vegas Laura",
+              "Sbidian Emilie",
+              "Penso Laetitia",
+              "Claudepierre Pascal"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Arthritis, Psoriatic",
+              "Biological Products",
+              "Biosimilar Pharmaceuticals",
+              "Cohort Studies",
+              "Comorbidity",
+              "Databases, Factual",
+              "Diabetes Mellitus",
+              "Dyslipidemias",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32911531/"
+          },
+          {
+            "pmid": "30709830",
+            "title": "Complete resolution of erythrodermic psoriasis with first-line apremilast monotherapy.",
+            "abstract": "Erythrodermic psoriasis (EP) is the most serious type of psoriasis with high morbidity and mortality. First-line recommended therapies for EP, cyclosporine and infliximab have significant adverse effects. Cyclosporine increases the risk of hypertension, leucopenia, infections and renal failure. Infliximab increases the risk of reactivation of tuberculosis, hepatitis B and histoplasmosis, and increases risk for hepatitis, autoantibody formation, congestive heart failure, demyelinating disorders, pancytopenia, lymphoma and skin cancer. An effective drug with a much safer side effect profile will be of significant benefit in EP. The phosphodiesterase 4 inhibitor apremilast is U.S Food and Drug Administration (FDA) approved for plaque psoriasis and psoriatic arthritis. Adverse effects of apremilast reported are headache, nausea, diarrhoea, upper respiratory tract infection, potential for depression and weight loss. We report complete and long-standing resolution of EP with first-line aprem",
+            "journal": "BMJ case reports",
+            "year": "2019",
+            "authors": [
+              "Krishnamoorthy Geetha",
+              "Kotecha Aditya",
+              "Pimentel Jason"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Dermatitis, Exfoliative",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Pruritus",
+              "Psoriasis",
+              "Symptom Flare Up",
+              "Thalidomide",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30709830/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with or without aura, susceptibility to",
+        "txgnn_score": 0.9781154990196228,
+        "txgnn_rank": 17935,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phylogenetically different animals - from worms to monkeys. Our attention has been dedicated mainly to rodents.In clinical practice, developmental aspects of epilepsy often differ from those in adults. Animal models have often helped to clarify these differences. In this chapter, developmental aspects have been emphasized.Electrical stimulation and chemical-induced models of seizures have been described first, as they represent the oldest and most common models. Among these models, kindling raised g",
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiemetics",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22938964/"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is epilepsy. These are called idiopathic epilepsies, though this definition may change in the future. A few idiopathic epilepsies are monogenic disorders due to mutations in a variety of genes affecting neuronal excitability, synaptic transmission, or network development. Most cases have a complex etiology that combines predisposing genetic variants with nongenetic factors. Few of these have been identified so far and only in very few affected individuals, consisting mostly of deletions of critical ",
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Pharmacogenetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22266888/"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example, eslicarbazepine (a sodium and T-type channel blocker), lamotrigine (a sodium channel blocker and glutamate antagonist) or levetiracetam (a ligand of synaptic vehicle protein SV2A). Among the approved non-antiepileptic drugs, antiepileptogenic potential seems to reside in losartan (a blocker of angiotensin II type 1 receptors), biperiden (an antiparkinsonian drug), nonsteroidal anti-inflammatory drugs, antioxidative drugs and minocycline (a second-generation tetracycline with anti-inflammatory a",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Antioxidants",
+              "Biomarkers",
+              "Combined Modality Therapy",
+              "Dietary Supplements",
+              "Disease Susceptibility",
+              "Drug Discovery",
+              "Epilepsy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34575901/"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Cysteine",
+              "Epilepsy",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Male",
+              "Methylenetetrahydrofolate Reductase (NADPH2)",
+              "Odds Ratio",
+              "Polymorphism, Single Nucleotide",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30267335/"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postnatal period. Infants and young children who experience prolonged or repetitive seizures have an increased risk of subsequently developing epilepsy. Evidence to date suggests that status epilepticus produces permanent changes in the molecular and cellular structure of limbic circuitry that, in turn, result in a long-lasting increase in hippocampal excitability and lower seizure thresholds in later life.",
+            "journal": "Epilepsia",
+            "year": "2005",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain",
+              "Cerebellum",
+              "Child, Preschool",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Excitatory Amino Acids",
+              "Glutamates",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16201993/"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy and inflammation in some paradigmatic neurological and systemic disorders associated with epilepsy. In particular, we have chosen one representative form of epilepsy for each one of its actual known etiologies. A better understanding of the mechanistic link between neuroinflammation and epilepsy would be important to improve subject-based therapies, both for prophylaxis and for the treatment of epilepsy.",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biomarkers",
+              "Brain Neoplasms",
+              "Combined Modality Therapy",
+              "Disease Management",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34209535/"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility has not been explored extensively. Previous studies have reported that the alterations in the genes encoding ion channel proteins are common risk factors for both the diseases. The alterations in ion channel-encoding genes CACNAIA (T666M) and SCNIA (Q1489K and L1649Q) have been found to be involved in the development of familial hemiplegic migraine (FHM) as well as generalized epilepsy and some cases of focal epilepsy as well. The fact that both these disorders are treated with anti-epileptic dr",
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Calcium Channels",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Migraine Disorders",
+              "NAV1.1 Voltage-Gated Sodium Channel",
+              "Calcium Channels, N-Type"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33856647/"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most frequent differential diagnosis in epilepsy.",
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adaptation, Psychological",
+              "Anticonvulsants",
+              "Diagnosis, Differential",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Male",
+              "Mental Disorders",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19935934/"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "journal": "Neurology",
+            "year": "2007",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Age of Onset",
+              "Aged",
+              "Belgium",
+              "Brain",
+              "Chromosome Mapping",
+              "Chromosomes, Human, Pair 9",
+              "Comorbidity",
+              "DNA Mutational Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17460155/"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the characterization of lesions present in both sporadic and familial epilepsy, especially where clinical features of affected cases depart from established syndromes. Copy number variants (CNVs) associated with epilepsy and a range of other syndromes and conditions can be recurrent due to nonallelic homologous recombination in regions of segmental duplication. The most common of the recurrent microdeletions associated with generalized epilepsy are typically seen at a frequency of ∼ 1% at 15q13.3, 16p13.",
+            "journal": "Epilepsia",
+            "year": "2011",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chromosome Banding",
+              "Chromosome Deletion",
+              "Chromosome Duplication",
+              "Chromosomes, Human, Pair 15",
+              "Chromosomes, Human, Pair 16",
+              "Comorbidity",
+              "Comparative Genomic Hybridization",
+              "Cytogenetic Analysis",
+              "DNA Copy Number Variations",
+              "Epilepsy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21269290/"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, though how it contributes to epileptogenesis, and the development of chronic, spontaneous seizure activity, remains poorly understood. A mechanistic understanding of how inflammation contributes to the development of epilepsy (epileptogenesis) after TBI is important to facilitate the identification of novel therapeutic strategies to reduce or prevent seizures. BODY: We reviewed previous clinical and pre-clinical data to evaluate the hypothesis that inflammation contributes to seizures and epileps",
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Injuries, Traumatic",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans",
+              "Inflammation",
+              "Seizures",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28086980/"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular dysfunction. Loss of mtDNA leads to loss of mitochondrial respiratory chain (MRC) components that, in turn, progressively disables energy metabolism. This critically balanced neuronal energy metabolism leads to both a chronic and continuous attrition (i.e., neurodegeneration) and it leaves the neurone unable to cope with increased demand that can trigger a potentially catastrophic cycle that results in acute focal necrosis. We believe that it is the onset of epilepsy that triggers the cascade o",
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebral Cortex",
+              "DNA Polymerase gamma",
+              "Disease Susceptibility",
+              "Electroencephalography",
+              "Epilepsy",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neurons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28837072/"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "journal": "Epilepsia",
+            "year": "2013",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "DNA",
+              "Data Collection",
+              "Electroencephalography",
+              "Epilepsies, Partial",
+              "Epilepsy",
+              "Epilepsy, Generalized",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23294289/"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronically elevated intracellular glutamate level in astrocytes is instrumental to alterations in the metabolism of glycogen and leads to the synthesis of polyglucosans. Unaccessibility of glycogen-degrading enzymes to these insoluble molecules compromises the glycogenolysis-dependent reuptake of extracellular K(+) by astrocytes, thereby leading to increased extracellular K(+) and associated membrane depolarization. Based on current knowledge, we propose that the deterioration in structural homogeneity",
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Astrocytes",
+              "Convulsants",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Gliosis",
+              "Glucans",
+              "Glutamate-Ammonia Ligase",
+              "Glutamates",
+              "Glutamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24643875/"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cerebrovascular disease, infection, trauma, neurodegenerative disease, and autoimmune disorders. None of these acquired causes has been consistently shown to affect women or men to a greater or lesser degree, although some of the literature is contradictory or inadequate. There is almost no literature that addresses the effect of gender on the clinical course of epilepsy associated with these acquired causes. In addition, most studies of acquired causes do not take into account the incidence of the ",
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Injuries",
+              "Brain Neoplasms",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Male",
+              "Sex Characteristics",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24874544/"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cerebral Cortex",
+              "Disease Susceptibility",
+              "Epilepsy, Generalized",
+              "Electroencephalography",
+              "Immunoglobulin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36442376/"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide autoimmune antibodies that bind, induce Reactive Oxygen Species, and kill both neural cells and T cells. Furthermore, NS patient's IgG induce seizures, brain multiple damage alike occurring in brains of NS patients, and elevation of T cells and activated microglia and astrocytes, in brains of normal mice. Human Leukocyte antigen (HLA) class I and II molecules are critical for initiating effective beneficial immunity against foreign microorganisms and contributing to proper brain function, but also ",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Amino Acid Motifs",
+              "Autoantibodies",
+              "Case-Control Studies",
+              "Child",
+              "Child, Preschool",
+              "Disease Susceptibility",
+              "Female",
+              "HLA Antigens"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32639997/"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were finally included. For KCNJ10 rs1130183, compared with population-based controls, a reduced epilepsy risk in cases was observed in models of allelic T vs. C, heterozygotic CT vs. CC, dominant CT + TT vs. CC, carrier T vs. C [all OR (odds ratio) <1, P < 0.05, Benjamini & Hochberg-adjusted P < 0.05, bonferroni-adjusted P < 0.05]. There were similar results in the subgroup analysis of \"Caucasian\". The positive conclusion was also statistically supported by the result of the FPRP test and TSA. Never",
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Case-Control Studies",
+              "Epilepsy",
+              "Gene Frequency",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Polymorphism, Single Nucleotide",
+              "Potassium Channels, Inwardly Rectifying",
+              "White People"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33187755/"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associated with substance dependence and susceptibility to other disorders, including epilepsy and schizophrenia. The IVS1+A21573G, IVS1-T17286C, and TAA+A5359G polymorphisms in the OPRM1 gene may be associated with alcohol, opioid and tobacco dependence, respectively. However, some studies have failed to confirm the correlations between the polymorphisms and opioid effects and substance dependence. Further studies are needed to elucidate the molecular mechanisms underlying the effects of OPRM1 polymorph",
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Analgesics, Opioid",
+              "Diabetes Mellitus",
+              "Epilepsy",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Narcotic Antagonists",
+              "Obesity",
+              "Polymorphism, Single Nucleotide",
+              "Receptors, Opioid, mu"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21919606/"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile seizures). No specific models exist for syndromes (e.g., Lennox-Gastaut, Landau-Kleffner). The interaction between brain development and epilepsy in humans can be assisted by use of high resolution MRI, diffusion tensor imaging, and functional MRI.",
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Newborn",
+              "Anticonvulsants",
+              "Child",
+              "Child, Preschool",
+              "Disease Models, Animal",
+              "Disease Susceptibility",
+              "Epilepsy",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16377142/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.977904200553894,
+        "txgnn_rank": 18025,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9736493229866028,
+        "txgnn_rank": 19853,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9694547057151794,
+        "txgnn_rank": 21473,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrophoderma vermiculata",
+        "txgnn_score": 0.9669026136398317,
+        "txgnn_rank": 22261,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulerythema ophryogenesis",
+        "txgnn_score": 0.9617079496383668,
+        "txgnn_rank": 23835,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB05676",
+    "name": "Apremilast",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Apremilast"
+      },
+      "queried_at": "2026-03-10T06:42:15.190675",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Apremilast"
+      },
+      "queried_at": "2026-03-10T06:42:17.136515",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T06:42:17.798384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T06:42:20.803095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T06:42:21.633835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T06:42:22.128079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T06:42:25.349049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T06:42:26.398364",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:42:28.125874",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:42:31.635907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T06:42:34.006370",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T06:42:34.580702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T06:42:37.903037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T06:42:41.449628",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-10T06:42:42.064815",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-10T06:42:45.583327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "queried_at": "2026-03-10T06:42:49.971647",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T06:42:50.840704",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T06:42:55.888162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T06:42:56.787172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T06:42:57.960388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T06:43:01.138304",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T06:43:01.847106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T06:43:02.351144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T06:43:05.685458",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T06:43:06.343070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T06:43:06.834878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T06:43:11.547223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T06:43:12.540187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-10T06:43:13.381576",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-10T06:43:16.834260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Apremilast",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-10T06:43:18.738171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:43:18.753261"
+  }
+}

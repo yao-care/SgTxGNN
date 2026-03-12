@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Crotamiton",
+    "drugbank_id": "DB00265",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "trombiculiasis",
+        "txgnn_score": 0.9624195098876952,
+        "txgnn_rank": 23627,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymph node palisaded myofibroblastoma",
+        "txgnn_score": 0.9569666385650636,
+        "txgnn_rank": 24981,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "abdominal ectopic pregnancy",
+        "txgnn_score": 0.9565799236297609,
+        "txgnn_rank": 25076,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "celiac trunk compression syndrome",
+        "txgnn_score": 0.9565799236297609,
+        "txgnn_rank": 25077,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "abdominal cystic lymphangioma",
+        "txgnn_score": 0.9565799236297609,
+        "txgnn_rank": 25078,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disease of uterine broad ligament",
+        "txgnn_score": 0.9563667178153992,
+        "txgnn_rank": 25127,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disease of retroperitoneum",
+        "txgnn_score": 0.9561884999275208,
+        "txgnn_rank": 25171,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sacrum chordoma",
+        "txgnn_score": 0.9560338258743286,
+        "txgnn_rank": 25208,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urethral disease",
+        "txgnn_score": 0.9553889036178588,
+        "txgnn_rank": 25369,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hordeolum",
+        "txgnn_score": 0.9552478194236756,
+        "txgnn_rank": 25401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00265",
+    "name": "Crotamiton",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Crotamiton"
+      },
+      "queried_at": "2026-03-10T09:03:03.052870",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Crotamiton"
+      },
+      "queried_at": "2026-03-10T09:03:05.679384",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "trombiculiasis"
+      },
+      "queried_at": "2026-03-10T09:03:06.215910",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "trombiculiasis"
+      },
+      "queried_at": "2026-03-10T09:03:09.214915",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "trombiculiasis"
+      },
+      "queried_at": "2026-03-10T09:03:09.945986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "queried_at": "2026-03-10T09:03:10.520109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "queried_at": "2026-03-10T09:03:14.495211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "queried_at": "2026-03-10T09:03:15.197013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "queried_at": "2026-03-10T09:03:15.765125",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "queried_at": "2026-03-10T09:03:20.087951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "queried_at": "2026-03-10T09:03:21.546585",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "queried_at": "2026-03-10T09:03:22.511803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "queried_at": "2026-03-10T09:03:27.049396",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "queried_at": "2026-03-10T09:03:27.998464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "queried_at": "2026-03-10T09:03:28.898762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "queried_at": "2026-03-10T09:03:32.901500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "queried_at": "2026-03-10T09:03:34.108241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of uterine broad ligament"
+      },
+      "queried_at": "2026-03-10T09:03:35.095829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of uterine broad ligament"
+      },
+      "queried_at": "2026-03-10T09:03:39.674135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of uterine broad ligament"
+      },
+      "queried_at": "2026-03-10T09:03:40.355015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of retroperitoneum"
+      },
+      "queried_at": "2026-03-10T09:03:41.602434",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of retroperitoneum"
+      },
+      "queried_at": "2026-03-10T09:03:45.838519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of retroperitoneum"
+      },
+      "queried_at": "2026-03-10T09:03:47.049547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "sacrum chordoma"
+      },
+      "queried_at": "2026-03-10T09:03:47.904293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "sacrum chordoma"
+      },
+      "queried_at": "2026-03-10T09:03:52.651541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "sacrum chordoma"
+      },
+      "queried_at": "2026-03-10T09:03:53.648705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "urethral disease"
+      },
+      "queried_at": "2026-03-10T09:03:54.457744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "urethral disease"
+      },
+      "queried_at": "2026-03-10T09:03:58.585583",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "urethral disease"
+      },
+      "queried_at": "2026-03-10T09:04:00.176537",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "hordeolum"
+      },
+      "queried_at": "2026-03-10T09:04:00.999076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "hordeolum"
+      },
+      "queried_at": "2026-03-10T09:04:04.353074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "hordeolum"
+      },
+      "queried_at": "2026-03-10T09:04:05.049251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:04:05.055038"
+  }
+}

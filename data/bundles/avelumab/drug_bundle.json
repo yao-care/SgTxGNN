@@ -1,0 +1,521 @@
+{
+  "drug": {
+    "inn": "Avelumab",
+    "drugbank_id": "DB11945",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "human herpesvirus 8-related tumor",
+        "txgnn_score": 0.9997270703315736,
+        "txgnn_rank": 749,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "middle ear neuroendocrine tumor",
+        "txgnn_score": 0.9997223019599916,
+        "txgnn_rank": 758,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant cutaneous granular cell skin tumor",
+        "txgnn_score": 0.9996886253356934,
+        "txgnn_rank": 830,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ectomesenchymoma",
+        "txgnn_score": 0.9996827840805054,
+        "txgnn_rank": 847,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adenosine deaminase deficiency",
+        "txgnn_score": 0.999489426612854,
+        "txgnn_rank": 1172,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "reticular dysgenesis",
+        "txgnn_score": 0.9994344115257264,
+        "txgnn_rank": 1249,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Immunoerythromyeloid hypoplasia",
+        "txgnn_score": 0.9994106292724608,
+        "txgnn_rank": 1289,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-severe combined immunodeficiency",
+        "txgnn_score": 0.9991689920425416,
+        "txgnn_rank": 1689,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prostatic urethra urothelial carcinoma",
+        "txgnn_score": 0.999157190322876,
+        "txgnn_rank": 1709,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+        "txgnn_score": 0.9991468191146852,
+        "txgnn_rank": 1725,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05431777",
+            "title": "Retrospective, Multicenter, Observational Study to Evaluate Current Treatment Patterns and Outcomes in Japanese Patients With Locally Advanced or Metastatic Urothelial Carcinoma Treated With First-line Avelumab Maintenance",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-07-19",
+            "completion_date": "2023-01-16",
+            "country": "Japan",
+            "enrollment": 79,
+            "brief_summary": "The purpose of this clinical trial is to learn about the current treatment patterns, safety, and effects of the study medicine (Avelumab) for the treatment of urothelial carcinoma.\n\nThis study is seeking Japanese participants who:\n\n* have urothelial cancer that has spread\n* are treated with Avelumab for maintenance\n\nWe will study the experiences of people receiving avelumab. This helps us learn the current treatment patterns, safety, and effects of avelumab. Participants will take part in this s",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Diagnosed with locally advanced or metastatic UC before receiving Avelumab 1L maintenance therapy.\n2. Started treatment with avelumab for locally advanced or metastatic UC from 24 Feb 2021 (regulatory approval date) to 30 Nov 2021.\n3. Evidence of a personally signed and dated",
+            "endpoints": [
+              "Age of Participants at Baseline",
+              "Number of Participants With Advanced and Metastatic Urothelial Carcinoma by Sex",
+              "Number of Participants According to Location of Primary Tumor"
+            ],
+            "sponsor": "Merck Healthcare KGaA, Darmstadt, Germany, an affiliate of Merck KGaA, Darmstadt, Germany",
+            "url": "https://clinicaltrials.gov/study/NCT05431777"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11945",
+    "name": "Avelumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Avelumab"
+      },
+      "queried_at": "2026-03-09T11:40:19.556631",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Avelumab"
+      },
+      "queried_at": "2026-03-09T11:40:24.573101",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "queried_at": "2026-03-09T11:40:26.409993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "queried_at": "2026-03-09T11:40:31.895354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "queried_at": "2026-03-09T11:40:32.917431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "queried_at": "2026-03-09T11:40:33.887594",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "queried_at": "2026-03-09T11:40:39.260532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "queried_at": "2026-03-09T11:40:40.295631",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "queried_at": "2026-03-09T11:40:41.737609",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "queried_at": "2026-03-09T11:40:46.517441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "queried_at": "2026-03-09T11:40:47.543795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-09T11:40:48.537254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-09T11:40:55.289332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-09T11:40:56.007230",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-09T11:40:56.659978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-09T11:41:00.194359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-09T11:41:01.260435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "reticular dysgenesis"
+      },
+      "queried_at": "2026-03-09T11:41:01.943307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "reticular dysgenesis"
+      },
+      "queried_at": "2026-03-09T11:41:06.368488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "reticular dysgenesis"
+      },
+      "queried_at": "2026-03-09T11:41:07.150083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "Immunoerythromyeloid hypoplasia"
+      },
+      "queried_at": "2026-03-09T11:41:07.782921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "Immunoerythromyeloid hypoplasia"
+      },
+      "queried_at": "2026-03-09T11:41:11.674840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "Immunoerythromyeloid hypoplasia"
+      },
+      "queried_at": "2026-03-09T11:41:14.240365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "non-severe combined immunodeficiency"
+      },
+      "queried_at": "2026-03-09T11:41:14.857246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "non-severe combined immunodeficiency"
+      },
+      "queried_at": "2026-03-09T11:41:19.324467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "non-severe combined immunodeficiency"
+      },
+      "queried_at": "2026-03-09T11:41:20.273730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "queried_at": "2026-03-09T11:41:21.085936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "queried_at": "2026-03-09T11:41:25.683356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "queried_at": "2026-03-09T11:41:26.574476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T11:41:27.313638",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T11:41:31.263977",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "queried_at": "2026-03-09T11:41:32.640414",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:41:32.645099"
+  }
+}

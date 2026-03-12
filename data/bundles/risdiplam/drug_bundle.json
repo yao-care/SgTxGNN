@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Risdiplam",
+    "drugbank_id": "DB15305",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.9945310950279236,
+        "txgnn_rank": 6885,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced osteoporosis",
+        "txgnn_score": 0.9772124886512756,
+        "txgnn_rank": 18329,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "zinc, elevated plasma",
+        "txgnn_score": 0.973194420337677,
+        "txgnn_rank": 20039,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common wart",
+        "txgnn_score": 0.9721388220787048,
+        "txgnn_rank": 20454,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "metastatic melanoma",
+        "txgnn_score": 0.968407392501831,
+        "txgnn_rank": 21804,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatitis",
+        "txgnn_score": 0.9661643505096436,
+        "txgnn_rank": 22498,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-cutaneous melanoma",
+        "txgnn_score": 0.9617891907691956,
+        "txgnn_rank": 23817,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9611486196517944,
+        "txgnn_rank": 23986,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell melanoma",
+        "txgnn_score": 0.9593488574028016,
+        "txgnn_rank": 24456,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "eyelid melanoma",
+        "txgnn_score": 0.9588293433189392,
+        "txgnn_rank": 24571,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15305",
+    "name": "Risdiplam",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Risdiplam"
+      },
+      "queried_at": "2026-03-10T03:56:34.054665",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Risdiplam"
+      },
+      "queried_at": "2026-03-10T03:56:35.421765",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T03:56:36.042399",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T03:56:38.789679",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T03:56:39.561660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T03:56:40.237316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T03:56:43.586663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "drug-induced osteoporosis"
+      },
+      "queried_at": "2026-03-10T03:56:44.341093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-10T03:56:44.966155",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-10T03:56:47.897913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "zinc, elevated plasma"
+      },
+      "queried_at": "2026-03-10T03:56:48.626047",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "common wart"
+      },
+      "queried_at": "2026-03-10T03:56:49.265892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "common wart"
+      },
+      "queried_at": "2026-03-10T03:56:53.017174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "common wart"
+      },
+      "queried_at": "2026-03-10T03:56:53.781301",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "metastatic melanoma"
+      },
+      "queried_at": "2026-03-10T03:56:54.395591",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "metastatic melanoma"
+      },
+      "queried_at": "2026-03-10T03:56:57.734465",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "metastatic melanoma"
+      },
+      "queried_at": "2026-03-10T03:56:58.442082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T03:56:59.267031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T03:57:05.424893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "dermatitis"
+      },
+      "queried_at": "2026-03-10T03:57:06.848472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:07.521217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:10.306045",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:11.178119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T03:57:11.818074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T03:57:15.049368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-10T03:57:16.059751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:16.822335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:20.082824",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:20.777253",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:21.550378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:24.953913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Risdiplam",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T03:57:25.694321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:57:25.699616"
+  }
+}

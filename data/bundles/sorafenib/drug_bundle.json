@@ -1,0 +1,1870 @@
+{
+  "drug": {
+    "inn": "Sorafenib",
+    "drugbank_id": "DB00398",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9981901049613952,
+        "txgnn_rank": 3153,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00217620",
+            "title": "Phase II Trial of BAY-9006 (NSC #724772) in Advanced Soft Tissue Sarcomas",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-03",
+            "completion_date": "2012-09",
+            "country": "United States",
+            "enrollment": 51,
+            "brief_summary": "RATIONALE: Sorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor.\n\nPURPOSE: This phase II trial is studying how well sorafenib works in treating patients with advanced soft tissue sarcomas.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed soft tissue sarcoma of 1 of the following histologies:\n\n  * Angiosarcoma, cutaneous or visceral\n  * Malignant hemangiosarcoma\n  * Malignant hemangiopericytoma\n  * Grade 3-4 leiomyosarcoma\n  * Grade 3-4 liposarcoma\n* Must have evidence of unresecta",
+            "endpoints": [
+              "Objective Response (Confirmed, Complete and Partial)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00217620"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02048371",
+            "title": "SARC024: A Blanket Protocol to Study Oral Regorafenib in Patients With Selected Sarcoma Subtypes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-07",
+            "completion_date": "2022-05",
+            "country": "United States",
+            "enrollment": 131,
+            "brief_summary": "Although regorafenib was approved for use in patients who had progressive GIST despite imatinib and/or sunitinib on the basis of phase II and phase III data, it has not been examined in a systematic fashion in patients with other forms of sarcoma.\n\nGiven the activity of sorafenib, sunitinib and pazopanib in soft tissue sarcomas, and evidence of activity of sorafenib in osteogenic sarcoma and possibly Ewing/Ewing-like sarcoma, there is precedent to examine SMOKIs (small molecule oral kinase inhib",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 10 year for Liposarcoma, Osteosarcoma, Ewing sarcoma and Mesenchymal Chondrosarcoma; Age ≥ 5 years for Rhabdomyosarcoma cohorts\n* Weight ≥ 15 kg (33 lb)\n* Patients must have histologically or cytologically confirmed advanced/metastatic liposarcoma, osteogenic sarcoma, Ew",
+            "endpoints": [
+              "Progression-free Survival (PFS). Cohort A and Cohort B",
+              "Progression-free Survival (PFS). Cohort C, Cohort D, and Cohort E"
+            ],
+            "sponsor": "Sarcoma Alliance for Research through Collaboration",
+            "url": "https://clinicaltrials.gov/study/NCT02048371"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.997565746307373,
+        "txgnn_rank": 3953,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified renal cell carcinoma",
+        "txgnn_score": 0.9965168237686156,
+        "txgnn_rank": 5092,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01613846",
+            "title": "Phase III Randomized Sequential Open-label Study to Evaluate the Efficacy and Safety of Sorafenib Followed by Pazopanib Versus Pazopanib Followed by Sorafenib in the Treatment of Advanced / Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "",
+            "country": "Austria, Netherlands, Germany",
+            "enrollment": 544,
+            "brief_summary": "Sorafenib and pazopanib are both effective and promising treatments for advanced Renal Cell Carcinoma (RCC). Both drugs are registered for this indication. No prospective comparative data in advanced RCC (or other indications) have been published. A search in the clinicaltrials.gov database did not reveal any planned or ongoing studies. As sequential therapy is now the standard of treatment for advanced RCC it is important to evaluate in clinical trials what the value of different sequential str",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with metastatic / advanced RCC (all histologies), who are not suitable for cytokine therapy and for whom study medication constitutes first-line treatment. For cytokine- unsuitability at least one of the following criteria must be fulfilled\\*:\n\n   * Age 66 to 88 year",
+            "endpoints": [
+              "To evaluate if progression-free survival from randomization to progression or death during second-line therapy (Total PFS) of sorafenib followed by pazopanib is non-inferior compared to pazopanib followed by sorafenib."
+            ],
+            "sponsor": "Technical University of Munich",
+            "url": "https://clinicaltrials.gov/study/NCT01613846"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30268423",
+            "title": "Carcinoma of Unknown Primary Site (CUP) With Metastatic Renal-Cell Carcinoma (mRCC) Histologic and Immunohistochemical Characteristics (CUP-mRCC): Results From Consecutive Patients Treated With Targeted Therapy and Review of Literature.",
+            "abstract": "Carcinoma of unknown primary site (CUP) is a heterogenous group of metastatic cancer with no detectable primary tumor site. Diagnostic assessment occasionally presents CUP with metastatic renal-cell carcinoma (mRCC) histologic and immunohistochemical characteristics (CUP-mRCC). Efficacy and toxicity data for vascular endothelial growth factor inhibitor therapies in CUP-mRCC patients are few.",
+            "journal": "Clinical genitourinary cancer",
+            "year": "2019",
+            "authors": [
+              "Overby Anders",
+              "Duval Lone",
+              "Ladekarl Morten",
+              "Laursen Britt Elmedal",
+              "Donskov Frede"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Carcinoma, Papillary",
+              "Carcinoma, Renal Cell",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Immunohistochemistry",
+              "Kidney Neoplasms",
+              "Lymphatic Metastasis",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30268423/"
+          },
+          {
+            "pmid": "20845054",
+            "title": "Combination therapy with sorafenib and S-1 for renal cell carcinoma producing granulocyte colony-stimulating factor.",
+            "abstract": "We present the first case report of the use of sorafenib and S-1 for the treatment of renal cell carcinoma (RCC) producing granulocyte colony-stimulating factor (G-CSF). This entity is clinically rare and has a poor outcome. A 78-year-old Japanese man presented with macrohematuria, left flank pain, and a palpable mass. Laboratory data showed marked leukocytosis with increased serum and urinary G-CSF. The histopathological diagnosis was unclassified RCC. New combination therapy with sorafenib and S-1 exerted a therapeutic effect and apparently decreased serum and urinary G-CSF levels, although the patient died of gastrointestinal perforation. The use of combined sorafenib and S-1 may be worthy of consideration in the treatment of RCC producing G-CSF.",
+            "journal": "International journal of clinical oncology",
+            "year": "2011",
+            "authors": [
+              "Kyono Yoko",
+              "Takayama Tatsuya",
+              "Kinoshita Mana",
+              "Kurita Yutaka",
+              "Mugiya Soichi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Benzenesulfonates",
+              "Carcinoma, Renal Cell",
+              "Drug Combinations",
+              "Granulocyte Colony-Stimulating Factor",
+              "Humans",
+              "Kidney Neoplasms",
+              "Leukocytosis",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20845054/"
+          },
+          {
+            "pmid": "19616232",
+            "title": "Surgical resection of renal cell carcinoma after targeted therapy.",
+            "abstract": "The development of targeted agents for renal cell carcinoma has renewed interest in consolidative surgery due to the robust clinical responses seen with these agents. The integration of targeted therapy and surgery requires careful consideration due to the potential for increased perioperative morbidity.",
+            "journal": "The Journal of urology",
+            "year": "2009",
+            "authors": [
+              "Thomas Anil A",
+              "Rini Brian I",
+              "Stephenson Andrew J",
+              "Garcia Jorge A",
+              "Fergany Amr"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiogenesis Inhibitors",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Benzenesulfonates",
+              "Bevacizumab",
+              "Carcinoma, Renal Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19616232/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
+        "txgnn_score": 0.9965168237686156,
+        "txgnn_rank": 5093,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma associated with neuroblastoma",
+        "txgnn_score": 0.9965168237686156,
+        "txgnn_rank": 5094,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "childhood kidney cell carcinoma",
+        "txgnn_score": 0.9957119226455688,
+        "txgnn_rank": 5868,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01502410",
+            "title": "A Phase II Study of the Raf Kinase and Receptor Tyrosine Kinase Inhibitor Sorafenib in Children and Young Adults With Relapsed/Refractory Rhabdomyosarcoma, Wilms Tumor, Hepatocellular Carcinoma, and Papillary Thyroid Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-01",
+            "completion_date": "2014-06",
+            "country": "Australia, Canada, United States",
+            "enrollment": 20,
+            "brief_summary": "This phase II trial studies how well sorafenib tosylate works in treating younger patients with relapsed or refractory rhabdomyosarcoma, Wilms tumor, liver cancer, or thyroid cancer. Sorafenib tosylate may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have had histologic verification of one of the malignancies listed below at original diagnosis or at relapse:\n\n  * Rhabdomyosarcoma (RMS)\n  * Wilms tumor\n  * Hepatocellular carcinoma (HCC)\n  * Papillary thyroid carcinoma (PTC)\n* Patients must have relapsed or ref",
+            "endpoints": [
+              "Objective Response by RECIST Criteria v 1.1"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01502410"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9953248500823976,
+        "txgnn_rank": 6216,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02627963",
+            "title": "A Phase 3, Randomized, Controlled, Multi-Center, Open-Label Study to Compare Tivozanib Hydrochloride to Sorafenib in Subjects With Refractory Advanced Renal Cell Carcinoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-05-24",
+            "completion_date": "2021-06-21",
+            "country": "Spain, United Kingdom, France, Canada, Belgium, Germany, Italy, Denmark, United States, Czechia, Hungary, Poland",
+            "enrollment": 350,
+            "brief_summary": "This is a Phase 3, open-label, randomized, controlled, multi-national, multi-center, parallel-arm study comparing tivozanib to sorafenib in participants with refractory advanced renal cell carcinoma (RCC).\n\nParticipants will be randomized (1:1) to treatment with tivozanib or sorafenib.\n\nParticipants will be stratified by International Metastatic Renal Cell Carcinoma Database Consortium (IMDC) risk category (favorable; intermediate; poor) and prior therapy (two prior vascular endothelial growth f",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years or older\n* Participants with metastatic RCC who have failed 2 or 3 prior systemic regimens, one of which includes a VEGFR TKI other than sorafenib or tivozanib.\n* Histologically or cytologically confirmed RCC with a clear cell component (participants with pure papilla",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "AVEO Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02627963"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00217399",
+            "title": "A Phase I/II Trial of BAY 43-9006 (Sorafenib) in Combination With Anastrozole in Patients With Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-06",
+            "completion_date": "2013-01",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "Sorafenib may stop the growth of tumor cells by blocking blood flow to the tumor and by blocking some of the enzymes needed for cell growth. Estradiol can cause the growth of breast cancer. Hormone therapy using anastrozole may fight breast cancer by blocking the use of estradiol by the tumor cells. Sometimes when hormone therapy is given, it does not stop the growth of tumor cells. The tumor is said to be resistant to hormone therapy. Giving sorafenib together with anastrozole may reduce drug r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed breast cancer\n* Metastatic disease\n* Measurable disease, defined as \\>=1 unidimensionally measurable lesion, including \\>= 1 of the following:\n\n  * Lesion \\>= 10 mm on CT scan (5 mm sections)\n  * Lesion \\>= 20 mm on CT scan or MRI (10 ",
+            "endpoints": [
+              "Complete Response + Partial Response + Stable Disease > 24 Weeks"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00217399"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01183663",
+            "title": "A Phase I Study of Lenalidomide in Combination With Bevacizumab, Sorafenib, Temsirolimus, or 5-fluorouracil, Leucovorin, Oxaliplatin (FOLFOX) in Patients With Advanced Cancers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-08",
+            "completion_date": "2016-05",
+            "country": "United States",
+            "enrollment": 180,
+            "brief_summary": "The goal of this clinical research study is to find the highest tolerable doses of the combinations of lenalidomide and other drugs that can be given to patients with advanced cancer. The safety of the drug combinations will also be studied.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with advanced or metastatic cancer that is refractory to standard therapy, has relapsed after standard therapy, or for which there is no standard therapy available.\n2. Patients must be \\>/= 3 weeks beyond treatment with a cytotoxic chemotherapy regimen, therapeutic r",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Lenalidomide in Combination With Bevacizumab, Sorafenib, Temsirolimus, or 5-Fluorouracil, Leucovorin, Oxaliplatin (FOLFOX)"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01183663"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00573755",
+            "title": "Phase II Randomized Study of Sorafenib Compared to Placebo When Administered in Combination With Aromatase Inhibitors for Postmenopausal Women With Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2007-12",
+            "completion_date": "2013-04",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "RATIONALE: Sorafenib may stop the growth of tumor cells by blocking blood flow to the tumor and by blocking some of the enzymes needed for cell growth. Estrogen can cause the growth of breast cancer cells. Aromatase inhibition therapy using letrozole, anastrozole, or exemestane may fight breast cancer by lowering the amount of estrogen the body makes. It is not yet known whether sorafenib is more effective than a placebo when given together with letrozole, anastrozole, or exemestane in treating ",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically or cytologically confirmed adenocarcinoma of the breast\n\n  * Metastatic disease\n* Measurable disease, defined as ≥ 1 unidimensionally measurable lesion ≥ 20 mm by conventional techniques (i.e., MRI or CT scan of chest, abdomen and pelvis) or ≥ 10 mm by spir",
+            "endpoints": [
+              "Progression-free Survival"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00573755"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00548899",
+            "title": "Phase II Study of Neoadjuvant Epirubicin, Cyclophosphamide (EC) + Sorafenib Followed by Paclitaxel (P) + Sorafenib in Women With Previously Untreated",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-11",
+            "completion_date": "2011-12",
+            "country": "Germany",
+            "enrollment": 36,
+            "brief_summary": "The purpose of this study is to determine the efficacy and safety of sorafenib in the neoadjuvant setting in patients with primary breast cancer",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Unilateral or bilateral primary carcinoma of the breast,\n* Tumor lesion in the breast with a palpable size of \\>= 2 cm. The lesion has to be measurable in two-dimensions preferably by sonography. In case of inflammatory disease the extent of inflammation can be used as measura",
+            "endpoints": [
+              "to establish the most feasible regimen of EC-P (P-EC) with sorafenib"
+            ],
+            "sponsor": "GBG Forschungs GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT00548899"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00326898",
+            "title": "ASSURE: Adjuvant Sorafenib or Sunitinib for Unfavorable Renal Carcinoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-04-24",
+            "completion_date": "2021-09-01",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 1943,
+            "brief_summary": "This randomized phase III trial studies sunitinib malate to see how well it works compared to sorafenib tosylate or placebo in treating patients with kidney cancer that has been removed by surgery. Sunitinib malate and sorafenib tosylate may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. Giving sunitinib malate or sorafenib tosylate after surgery may kill any tumor cells that remain after surgery. It is not yet known",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pre-surgical criteria:\n\n  * Patients must have primary-intact renal cell carcinoma, eligible for nephrectomy with curative intent\n  * Tumors \\>= 4 cm AND/OR macroscopic fully resectable nodes AND/OR surgically resectable renal vein thrombus AND/OR surgically resectable inferio",
+            "endpoints": [
+              "Disease-free Survival (DFS)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00326898"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00828074",
+            "title": "Phase I/II Vinorelbine and Sorafenib as Salvage Therapy in Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-11",
+            "completion_date": "2014-04",
+            "country": "United States",
+            "enrollment": 46,
+            "brief_summary": "RATIONALE: Sorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as vinorelbine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving sorafenib together with vinorelbine may kill more tumor cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of sorafenib when given together with vinorelbine and to see how well the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed stage IV adenocarcinoma of the breast; (unless metastatic disease is documented by computed tomography \\[CT\\] scan, magnetic resonance imaging \\[MRI\\], or bone scan; also, skin disease that has not been biopsied mayb",
+            "endpoints": [
+              "Number of Participants With at Least One Dose Limiting Toxicity in Phase I",
+              "Recommended Phase II Dose"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00828074"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00378703",
+            "title": "The BeST Trial: A Randomized Phase II Study of VEGF, RAF Kinase, and mTOR Combination Targeted Therapy (CTT) With Bevacizumab, Sorafenib, and Temsirolimus in Advanced Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-09-14",
+            "completion_date": "2017-03-21",
+            "country": "Peru, United States",
+            "enrollment": 361,
+            "brief_summary": "This randomized phase II trial studies different combinations of bevacizumab, temsirolimus, and sorafenib tosylate to see how well they work compared with bevacizumab alone in treating patients with kidney cancer that has spread to other places in the body. Monoclonal antibodies, such as bevacizumab, may interfere with the ability of tumor cells to grow and spread. Bevacizumab and sorafenib tosylate may stop the growth of tumor cells by blocking blood flow to the tumor. Temsirolimus and sorafeni",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients will be required to have the clear cell variant of renal cell carcinoma with less than 25% of any other histology (including, but not limited to, papillary or chromophobe or oncocytic); there must be histologic confirmation by treating center of either primary or meta",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00378703"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00634634",
+            "title": "Phase I/II Trial of Letrozole (Femara) and Sorafenib (Nexavar) in Postmenopausal Women With Hormone-Receptor Positive Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-08-11",
+            "completion_date": "2023-04-28",
+            "country": "United States",
+            "enrollment": 52,
+            "brief_summary": "Letrozole is an aromatase inhibitor that is approved in the first-line treatment of postmenopausal women with hormone receptor-positive or hormone receptor unknown locally advanced or metastatic breast cancer. Sorafenib may stop the growth of tumor cells by blocking blood flow to the tumor and by blocking some of the enzymes needed for cell growth. This phase I/II trial is studying the side effects and best dose of sorafenib when given in combination with letrozole and to see how well they work ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically confirmed invasive breast cancer\n2. Stage IIIB, IIIC with T4 lesion or Stage IV disease\n3. Breast cancer must be ER-positive and/or PR-positive\n4. Age ³ 18 years of age\n5. ECOG performance status 0, 1 or 2\n6. Able to swallow and oral medication\n7. Adequate end ",
+            "endpoints": [
+              "Sorafenib in Combination With Fixed Dose of of 2.5mg of Letrozole Maximum Tolerated Dose (MTD)"
+            ],
+            "sponsor": "Rutgers, The State University of New Jersey",
+            "url": "https://clinicaltrials.gov/study/NCT00634634"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00544167",
+            "title": "A Pilot Study of Adjuvant Doxorubicin and Cyclophosphamide Followed by Paclitaxel Plus Sorafenib in Women With Node Positive or High-Risk Early Stage Breast Cancer",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2007-05",
+            "completion_date": "2011-04",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "Sorafenib is being looked at in a number of solid tumor settings including breast cancer. This trial is designed as a pilot study to assess the safety and tolerability of a novel oral agent in combination with standard chemotherapy in the treatment of early stage node positive or otherwise high-risk breast cancer. If this should prove to be a tolerable regimen for patients, this would provide rationale for further studies in a larger randomized fashion.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically-confirmed breast cancer with an interval between definitive surgery that includes axillary lymph node involvement assessment and initiation of study treatment of less than or equal to 84 days.\n* Definitive surgery - either mastectomy with axil",
+            "endpoints": [
+              "The Safety and Tolerability of Protocol Treatment, Defined as the Percentage of Patients Experiencing Severe or Life-threatening Side Effects Per CTCAE Version 3.0."
+            ],
+            "sponsor": "SCRI Development Innovations, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00544167"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01178411",
+            "title": "An Extension Protocol for Subjects Who Were Previously Enrolled in Other Tivantinib (ARQ 197) Protocols",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-08-31",
+            "completion_date": "2019-01-14",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "This is an extension study that will allow participants to continue to receive study therapy when the original studies into which they were enrolled have reached their designated end-dates. This extension study is designed to further evaluate the safety and tolerability of tivantinib (ARQ 197) monotherapy or in combination with other drug(s) when given to participants who tolerated previous treatment well and may benefit from the continuing treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent to participate in clinical study of tivantinib\n* Male or female participants of the age defined in the original protocol they were enrolled.\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) ≤3 (or ≤2 for tivantinib-naive parti",
+            "endpoints": [
+              "Extent of Exposure to ARQ 197 in Participants Benefiting From Prior ARQ 197 Therapy"
+            ],
+            "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+            "url": "https://clinicaltrials.gov/study/NCT01178411"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00827177",
+            "title": "A Phase 1 Dose Escalation Study of ARQ 197 in Combination With Sorafenib in Adult Patients With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2009-09",
+            "completion_date": "2013-05",
+            "country": "Italy, United States",
+            "enrollment": 87,
+            "brief_summary": "This is an open-label, dose-escalation study of ARQ 197 administered orally in combination with sorafenib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent granted prior to initiation of any study-specific screening procedures\n* 18 year of age or older\n* Histologically or cytologically confirmed locally advanced, inoperable or metastatic solid tumors. In the two expansion cohorts, only patients with histo",
+            "endpoints": [
+              "To identify maximum tolerated dose (MTD) and/or recommended phase 2 dose (RP2D) of ARQ 197 when administered in combination with sorafenib."
+            ],
+            "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+            "url": "https://clinicaltrials.gov/study/NCT00827177"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00954135",
+            "title": "Letrozole Plus Oral Cyclophosphamide Plus/Minus Sorafenib as Primary Systemic Treatment in Post-menopausal, Estrogen Receptor Positive, Breast Cancer Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2007-09",
+            "completion_date": "2010-12",
+            "country": "Italy",
+            "enrollment": 190,
+            "brief_summary": "Endocrine therapy is the mainstay of systemic treatment in patients with endocrine responsive breast cancer. Aromatase inhibitors are the most active agents in post-menopausal women. Randomized comparisons either in primary/adjuvant setting or in metastatic disease setting have demonstrated the superiority of these drugs over tamoxifen.\n\nPrimary systemic treatment administered to breast cancer patients is a useful model to identify baseline features able to predict which patients are most likely",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Women in postmenopausal status\n* 2\\. Age\\> 60 or age \\> 18 and unfit for chemotherapy with commonly employed regimens in breast cancer patients\n* 3\\. Diagnosis of invasive BC, T\\>2, N0-N2, M0,\n* 4\\. Endocrine Responsive disease according to San Gallen criteria\n* 5\\. ECOG P",
+            "endpoints": [
+              "Progression free survival"
+            ],
+            "sponsor": "University of Turin, Italy",
+            "url": "https://clinicaltrials.gov/study/NCT00954135"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03318562",
+            "title": "A Pharmacodynamic Study of Oral eFT508 in Subjects With Advanced Triple Negative Breast Cancer and Hepatocellular Carcinoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2017-11-21",
+            "completion_date": "2019-01-22",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "This study will evaluate the pharmacodynamic (PD), safety, antitumor activity, and PK of eFT508 in female subjects who have pathologically documented, radiographically measurable, metastatic or locally advanced and unresectable TNBC and have received prior cancer therapy regimen for metastatic disease, and in male and female subjects who have histologically or cytologically confirmed advanced HCC not amenable to surgical resection and have failed systemic therapy.",
+            "eligibility_criteria": "Inclusion Criteria (TNBC Cohort Only):\n\n* Women ≥18 years of age\n* Pathologically documented diagnosis of TNBC that is metastatic or locally advanced and unresectable\n* Adequate hepatic function and coagulation profile\n* Negative HIV, HBV and HCV\n\nInclusion Criteria (HCC Cohort Only):\n\n* Men or Wome",
+            "endpoints": [
+              "Level of biomarkers of antitumor activation"
+            ],
+            "sponsor": "Effector Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT03318562"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15466206",
+            "title": "BAY 43-9006 exhibits broad spectrum oral antitumor activity and targets the RAF/MEK/ERK pathway and receptor tyrosine kinases involved in tumor progression and angiogenesis.",
+            "abstract": "The RAS/RAF signaling pathway is an important mediator of tumor cell proliferation and angiogenesis. The novel bi-aryl urea BAY 43-9006 is a potent inhibitor of Raf-1, a member of the RAF/MEK/ERK signaling pathway. Additional characterization showed that BAY 43-9006 suppresses both wild-type and V599E mutant BRAF activity in vitro. In addition, BAY 43-9006 demonstrated significant activity against several receptor tyrosine kinases involved in neovascularization and tumor progression, including vascular endothelial growth factor receptor (VEGFR)-2, VEGFR-3, platelet-derived growth factor receptor beta, Flt-3, and c-KIT. In cellular mechanistic assays, BAY 43-9006 demonstrated inhibition of the mitogen-activated protein kinase pathway in colon, pancreatic, and breast tumor cell lines expressing mutant KRAS or wild-type or mutant BRAF, whereas non-small-cell lung cancer cell lines expressing mutant KRAS were insensitive to inhibition of the mitogen-activated protein kinase pathway by BAY ",
+            "journal": "Cancer research",
+            "year": "2004",
+            "authors": [
+              "Wilhelm Scott M",
+              "Carter Christopher",
+              "Tang Liya",
+              "Wilkie Dean",
+              "McNabola Angela"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Benzenesulfonates",
+              "Cell Line, Tumor",
+              "Disease Progression",
+              "Female",
+              "Humans",
+              "MAP Kinase Kinase Kinase 1",
+              "MAP Kinase Kinase Kinases",
+              "MAP Kinase Signaling System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15466206/"
+          },
+          {
+            "pmid": "40716153",
+            "title": "ATF7IP inhibits Sorafenib-induced ferroptosis in hepatocellular carcinoma cells by inhibiting CYB5R2 transcription and stabilizing PARK7 protein.",
+            "abstract": "Ferroptosis, an iron-dependent form of programmed cell death, arises from the accumulation of lipid peroxides at toxic levels. Sorafenib, a first-line treatment for advanced hepatocellular carcinoma, shows limited clinical efficacy due to drug resistance. However, the mechanisms underlying Sorafenib resistance, especially related to ferroptosis, remain poorly understood. In this study, we identify activating transcription factor 7-interacting protein (ATF7IP) as a key inhibitor of ferroptosis. ATF7IP depletion promotes Sorafenib-induced ferroptosis, resulting in decreased cell viability, reduced cellular glutathione (GSH) levels, increased lipid peroxidation, and altered mitochondrial crista structure. Notably, ATF7IP knockdown shows cooperative effects with Sorafenib in inhibiting hepatocellular carcinoma growth in mice. Mechanistically, ATF7IP interacts with SET domain bifurcated histone lysine methyltransferase 1 (SETDB1) to epigenetically silence the transcription of cytochrome b5 ",
+            "journal": "Redox biology",
+            "year": "2025",
+            "authors": [
+              "Su Yijie",
+              "Huang Sirui",
+              "Duan Yang",
+              "Zhang Liang",
+              "Feng Shengyun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Sorafenib",
+              "Ferroptosis",
+              "Carcinoma, Hepatocellular",
+              "Repressor Proteins",
+              "Cytochrome-B(5) Reductase",
+              "Protein Deglycase DJ-1",
+              "Transcription, Genetic",
+              "Histone-Lysine N-Methyltransferase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40716153/"
+          },
+          {
+            "pmid": "32434184",
+            "title": "Sorafenib Inhibits Proliferation, Migration and Invasion of Breast Cancer Cells.",
+            "abstract": "Metastatic breast cancer has poor prognosis due to limited therapeutic options. Protein kinase dysregulations have a major role in breast cancer progression and metastasis. In this study, we investigated the anti-cancer activity of sorafenib, a multikinase inhibitor, which targets receptor tyrosine kinases in breast cancer. Although treatment with sorafenib has increased the patient survival and inhibited metastatic migration in hepatocellular carcinoma, its role in breast cancer migration, metastasis, and intracellular signaling modulation is unknown.",
+            "journal": "Oncology",
+            "year": "2020",
+            "authors": [
+              "Dattachoudhury Sreeja",
+              "Sharma Renu",
+              "Kumar Atul",
+              "Jaganathan Bithiah Grace"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Cell Movement",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Epithelial-Mesenchymal Transition",
+              "Female",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "MAP Kinase Signaling System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32434184/"
+          },
+          {
+            "pmid": "39486634",
+            "title": "The mode of action of sorafenib in MDA-MB-231 breast carcinoma cells involves components of apoptotic, necroptotic and autophagy-dependent cell death pathways.",
+            "abstract": "We report the identification of an interesting mode of action by sorafenib (SF) (Nexavar) in triple-negative breast adenocarcinoma MDA-MB-231 cells. The dying cells presented features of apoptosis, such as externalization of phosphatidylserine and cleaved caspase-3, and autophagy-mediated cell death, such as formation of autophagosomes and autolysosomes, the overexpression of LC3-II, and the presence of LAMP1-positive vacuoles, while displaying insufficient autophagic flux. Components of endoplasmic reticulum stress (ER stress; PERK and CHOP) and of necroptosis (p-MLKL) were also elevated considerably. Investigating potential target proteins that could modulate this form of cell death, we next investigated the role of tubulin disruption, which is known to induce necroptosis, apoptosis, and autophagy-dependent cell death. Interactions of SF with purified tubulin were investigated in detail using a combination of cellular and biophysical assays, transmission electron microscopy, and comp",
+            "journal": "Experimental cell research",
+            "year": "2024",
+            "authors": [
+              "Radha Gudapureddy",
+              "Pragyandipta Pratyush",
+              "Naik Pradeep Kumar",
+              "Lopus Manu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sorafenib",
+              "Autophagy",
+              "Apoptosis",
+              "Female",
+              "Necroptosis",
+              "Cell Line, Tumor",
+              "Antineoplastic Agents",
+              "Tubulin",
+              "Breast Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39486634/"
+          },
+          {
+            "pmid": "24726537",
+            "title": "Sorafenib resistance and JNK signaling in carcinoma during extracellular matrix stiffening.",
+            "abstract": "Tumor progression is coincident with mechanochemical changes in the extracellular matrix (ECM). We hypothesized that tumor stroma stiffening, alongside a shift in the ECM composition from a basement membrane-like microenvironment toward a dense network of collagen-rich fibers during tumorigenesis, confers resistance to otherwise powerful chemotherapeutics. To test this hypothesis, we created a high-throughput drug screening platform based on our poly(ethylene glycol)-phosphorylcholine (PEG-PC) hydrogel system, and customized it to capture the stiffness and integrin-binding profile of in vivo tumors. We report that the efficacy of a Raf kinase inhibitor, sorafenib, is reduced on stiff, collagen-rich microenvironments, independent of ROCK activity. Instead, sustained activation of JNK mediated this resistance, and combining a JNK inhibitor with sorafenib eliminated stiffness-mediated resistance in triple negative breast cancer cells. Surprisingly, neither ERK nor p38 appears to mediate s",
+            "journal": "Biomaterials",
+            "year": "2014",
+            "authors": [
+              "Nguyen Thuy V",
+              "Sleiman Marianne",
+              "Moriarty Timothy",
+              "Herrick William G",
+              "Peyton Shelly R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Biomechanical Phenomena",
+              "Breast",
+              "Breast Neoplasms",
+              "Carcinoma",
+              "Cell Line, Tumor",
+              "Collagen",
+              "Drug Resistance, Neoplasm",
+              "Extracellular Matrix",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24726537/"
+          },
+          {
+            "pmid": "35962160",
+            "title": "Oral sorafenib-loaded microemulsion for breast cancer: evidences from the in-vitro evaluations and pharmacokinetic studies.",
+            "abstract": "Sorafenib tosylate (SFB) is a multikinase inhibitor that inhibits tumour growth and proliferation for the management of breast cancer but is also associated with issues like toxicity and drug resistance. Also, being a biopharmaceutical class II (BCS II) drug, its oral bioavailability is the other challenge. Henceforth, this report intended to encapsulate SFB into a biocompatible carrier with biodegradable components, i.e., phospholipid. The microemulsion of the SFB was prepared and characterized for the surface charge, morphology, micromeritics and drug release studies. The cell viability assay was performed on 4T1 cell lines and inferred that the IC50 value of sorafenib-loaded microemulsion (SFB-loaded ME) was enhanced compared to the naïve SFB at the concentrations of about 0.75 µM. More drug was available for the pharmacological response, as the protein binding was notably decreased, and the drug from the developed carriers was released in a controlled manner. Furthermore, the pharm",
+            "journal": "Scientific reports",
+            "year": "2022",
+            "authors": [
+              "Chaurawal Nishtha",
+              "Misra Charu",
+              "Abul Barkat Harshita",
+              "Jatyan Reena",
+              "Chitkara Deepak"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Biological Availability",
+              "Breast Neoplasms",
+              "Cell Survival",
+              "Drug Carriers",
+              "Drug Liberation",
+              "Female",
+              "Humans",
+              "Nanoparticles",
+              "Sorafenib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35962160/"
+          },
+          {
+            "pmid": "28335647",
+            "title": "Sorafenib for the treatment of breast cancer.",
+            "abstract": "Breast cancer treatment includes many options depending on the tumor clinicopathological profile, which groups breast cancer into various subtypes. Bevacizumab is currently the only drug capable of targeting angiogenesis in breast cancer. Sorafenib has also been studied in combination with other agents. Areas covered: Pharmacological aspects of sorafenib, including results from preclinical studies on breast cancer cells; findings about clinical efficacy and safety in both single-arm and randomized clinical trials; ongoing trials. Expert opinion: Since sorafenib as a single agent has shown limited efficacy in breast cancer, its combination with other drugs is under investigation. Dose reduction is the main challenge when sorafenib is combined with chemotherapy or endocrine therapy. Although randomized phase-II trials on sorafenib plus chemotherapy versus chemotherapy alone have shown potential benefits in progression-free survival, preliminary results from a phase-III study in combinati",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2017",
+            "authors": [
+              "Bronte Giuseppe",
+              "Andreis Daniele",
+              "Bravaccini Sara",
+              "Maltoni Roberta",
+              "Cecconetto Lorenzo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Breast Neoplasms",
+              "Capecitabine",
+              "Disease-Free Survival",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans",
+              "Niacinamide",
+              "Phenylurea Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28335647/"
+          },
+          {
+            "pmid": "38229326",
+            "title": "MiR-600 mediates EZH2/RUNX3 signal axis to modulate breast cancer cell viability and sorafenib sensitivity.",
+            "abstract": "Breast cancer (BC) ranks as the most prevalent gynecologic tumor globally. Abnormal expression of miRNAs is concerned with the development of cancers such as BC. However, little is known about the role of miR-600 in BC. This work aimed to explore the role of miR-600 in the malignant progression and sorafenib sensitivity of BC cells. Expression and interaction of miR-600/EZH2/RUNX3 were analyzed by bioinformatics. qRT-PCR was utilized to assay RNA expression of miR-600 and mRNA expression of EZH2/RUNX3. The binding relationship between miR-600 and EZH2 was tested by dual luciferase assay and RNA immunoprecipitation (RIP). The effects of miR-600/EZH2/RUNX3 axis on the malignant behavior and sorafenib sensitivity of BC cells were detected by CCK-8 and colony formation assay. Low expression of miR-600 and RUNX3 in BC was found by bioinformatics and molecular assays. High expression of EZH2 in BC was negatively correlated with RUVX3. Dual luciferase assay and RIP demonstrated that MiR-600 c",
+            "journal": "Journal of biochemical and molecular toxicology",
+            "year": "2024",
+            "authors": [
+              "Zhao Qian",
+              "Li Dan",
+              "Feng Jinchun",
+              "Jinsihan Dilixiati"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Enhancer of Zeste Homolog 2 Protein",
+              "Gene Expression Regulation, Neoplastic",
+              "MicroRNAs",
+              "Sorafenib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38229326/"
+          },
+          {
+            "pmid": "28289864",
+            "title": "Correlation between clinical response to sorafenib in hepatocellular carcinoma treatment and polymorphisms of P-glycoprotein (ABCB1) and of breast cancer resistance protein (ABCG2): monocentric study.",
+            "abstract": "We studied the relation between the polymorphism of P-glycoprotein (P-gp) and of breast cancer resistance protein (BCRP), encoded by ABCB1 and ABCG2 genes, respectively, and the pharmacokinetic variability and clinical response during the treatment with sorafenib of hepatocellular carcinoma.",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2017",
+            "authors": [
+              "Tandia Mahamadou",
+              "Mhiri Asma",
+              "Paule Bernard",
+              "Saffroy Raphaël",
+              "Cailliez Valérie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ATP Binding Cassette Transporter, Subfamily B",
+              "ATP Binding Cassette Transporter, Subfamily G, Member 2",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Carcinoma, Hepatocellular",
+              "DNA",
+              "Drug Monitoring"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28289864/"
+          },
+          {
+            "pmid": "25175082",
+            "title": "Sorafenib and nilotinib resensitize tamoxifen resistant breast cancer cells to tamoxifen treatment via estrogen receptor α.",
+            "abstract": "Tamoxifen‑resistant breast cancer is a major clinical problem and new treatment strategies are highly warranted. In this study, the multitargeting kinase inhibitors sorafenib and nilotinib were investigated as potential new treatment options for tamoxifen‑resistant breast cancer. The two compounds inhibited cell growth, reduced expression of total estrogen receptor α (ER), Ser118-phosphorylated ER, FOXA1 and AIB1 and resensitized tamoxifen‑resistant cells to tamoxifen. The ER downmodulator fulvestrant exerted strong growth inhibition of tamoxifen‑resistant cells and addition of sorafenib and nilotinib could not further suppress growth, showing that sorafenib and nilotinib exerted growth inhibition via ER. In support of this, estradiol prevented sorafenib and nilotinib mediated growth inhibition. These results demonstrate that sorafenib and nilotinib act via ER and ER-associated proteins, indicating that these kinase inhibitors in combination with tamoxifen may be potential new treatmen",
+            "journal": "International journal of oncology",
+            "year": "2014",
+            "authors": [
+              "Pedersen Astrid M",
+              "Thrane Susan",
+              "Lykkesfeldt Anne E",
+              "Yde Christina W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Cell Proliferation",
+              "Drug Resistance, Neoplasm",
+              "Estrogen Receptor alpha",
+              "Female",
+              "Gene Expression Regulation, Neoplastic",
+              "Hepatocyte Nuclear Factor 3-alpha",
+              "Humans",
+              "MCF-7 Cells",
+              "Niacinamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25175082/"
+          },
+          {
+            "pmid": "29608984",
+            "title": "Sorafenib improves alkylating therapy by blocking induced inflammation, invasion and angiogenesis in breast cancer cells.",
+            "abstract": "Molecular targeted compounds are emerging as a strategy to improve classical chemotherapy. Herein, we describe that using low dose of the multikinase inhibitor sorafenib improves cyclophosphamide antitumor activity by inhibiting angiogenesis, metastasis and promoting tumor healing in MDA-MB231 xenografts and the 4T1-12B syngeneic breast cancer metastasis model. Mechanistic studies in MDA-MB231 cells revealed that alkylation upregulates inflammatory genes/proteins such as COX-2, IL8, CXCL2 and MMP1 in a MEK1/2-ERK1/2-dependent manner. These proteins enrich the secretome of cancer cells, stimulating cell invasion and angiogenesis via autocrine and paracrine mechanisms. Sorafenib inhibits MEK1/2-ERK1/2 pathway thereby decreasing inflammatory genes and mitigating cell invasion and angiogenesis at basal and alkylation-induced conditions whereas NRF2 and ER stress pathways involved in alkylation survival are not affected. In non-invasive/non-angiogenic breast cancer cells (SKBR3 and MCF7), a",
+            "journal": "Cancer letters",
+            "year": "2018",
+            "authors": [
+              "Zanotto-Filho Alfeu",
+              "Rajamanickam Subapriya",
+              "Loranc Eva",
+              "Masamsetti V Pragathi",
+              "Gorthi Aparna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Cyclophosphamide",
+              "Drug Synergism",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29608984/"
+          },
+          {
+            "pmid": "38656346",
+            "title": "The effects of metformin and PCL-sorafenib nanoparticle co-treatment on MCF-7 cell culture model of breast cancer.",
+            "abstract": "Despite breakthrough therapeutics in breast cancer, it is one of the main causes of mortality among women worldwide. Thus, drug therapies for treating breast cancer have recently been developed by scientists. Metformin and sorafenib are well-known therapeutics in breast cancer. In the present study, we combined sorafenib and PCL-sorafenib with metformin to improve drug absorption and promote therapeutic efficiency. The MCF-7 cells were treated with metformin, sorafenib, or PCL-sorafenib. The growth inhibitory effect of these drugs and cell viability were assessed using MTT and flow cytometry assays, respectively. The expression of targeted genes involved in cell proliferation, signaling, and the cell cycle was measured by real-time PCR. The results showed that MCF-7 cells treated with metformin/sorafenib and PCL-sorafenib/metformin co-treatment contributed to 50% viability compared to the untreated group. Moreover, PI and Annexin V staining tests showed that the cell viability for metf",
+            "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "year": "2024",
+            "authors": [
+              "Heydarnia Emad",
+              "Sepasi Aref",
+              "Asefi Nika",
+              "Khakshournia Sara",
+              "Mohammadnejad Javad"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Metformin",
+              "Sorafenib",
+              "MCF-7 Cells",
+              "Breast Neoplasms",
+              "Cell Survival",
+              "Nanoparticles",
+              "Cell Proliferation",
+              "Female",
+              "Apoptosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38656346/"
+          },
+          {
+            "pmid": "32214813",
+            "title": "Enhancing Anti-Tumor Activity of Sorafenib Mesoporous Silica Nanomatrix in Metastatic Breast Tumor and Hepatocellular Carcinoma via the Co-Administration with Flufenamic Acid.",
+            "abstract": "Because tumor-associated inflammation is a hallmark of cancer treatment, in the present study, sorafenib mesoporous silica nanomatrix (MSNM@SFN) co-administrated with flufenamic acid (FFA, a non-steroidal anti-inflammatory drug (NSAID)) was investigated to enhance the anti-tumor activity of MSNM@SFN.",
+            "journal": "International journal of nanomedicine",
+            "year": "2020",
+            "authors": [
+              "Li Zhuo-Yue",
+              "Yin Yi-Fan",
+              "Guo Yang",
+              "Li Hui",
+              "Xu Mei-Qi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Humans",
+              "Male",
+              "20-Hydroxysteroid Dehydrogenases",
+              "Aldo-Keto Reductase Family 1 Member C3",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carcinoma, Hepatocellular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32214813/"
+          },
+          {
+            "pmid": "31118247",
+            "title": "Oncofetal HLF transactivates c-Jun to promote hepatocellular carcinoma development and sorafenib resistance.",
+            "abstract": "The unique expression pattern makes oncofetal proteins ideal diagnostic biomarkers and therapeutic targets in cancer. However, few oncofetal proteins have been identified and entered clinical practice.",
+            "journal": "Gut",
+            "year": "2019",
+            "authors": [
+              "Xiang Dai-Min",
+              "Sun Wen",
+              "Zhou Tengfei",
+              "Zhang Cheng",
+              "Cheng Zhuo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Basic-Leucine Zipper Transcription Factors",
+              "Carcinoma, Hepatocellular",
+              "Cell Line, Tumor",
+              "DNA, Neoplasm",
+              "Disease Progression",
+              "Drug Resistance, Neoplasm",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31118247/"
+          },
+          {
+            "pmid": "20054642",
+            "title": "Synergistic activity of letrozole and sorafenib on breast cancer cells.",
+            "abstract": "Estrogens induce breast tumor cell proliferation by directly regulating gene expression via the estrogen receptor (ER) transcriptional activity and by affecting growth factor signaling pathways such as mitogen-activated protein kinase (MAPK) and AKT/mammalian target of rapamycin Complex1 (mTORC1) cascades. In this study we demonstrated the preclinical therapeutic efficacy of combining the aromatase inhibitor letrozole with the multi-kinase inhibitor sorafenib in aromatase-expressing breast cancer cell lines. Treatment with letrozole reduced testosterone-driven cell proliferation, by inhibiting the synthesis of estrogens. Sorafenib inhibited cell proliferation in a concentration-dependent manner; this effect was not dependent on sorafenib-mediated inhibition of Raf1, but involved the down-regulation of mTORC1 and its targets p70S6K and 4E-binding protein 1 (4E-BP1). At concentrations of 5-10 μM the growth-inhibitory effect of sorafenib was associated with the induction of apoptosis, as ",
+            "journal": "Breast cancer research and treatment",
+            "year": "2010",
+            "authors": [
+              "Bonelli Mara A",
+              "Fumarola Claudia",
+              "Alfieri Roberta R",
+              "La Monica Silvia",
+              "Cavazzoni Andrea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Signal Transducing",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Apoptosis Inducing Factor",
+              "Aromatase",
+              "Aromatase Inhibitors",
+              "Benzenesulfonates",
+              "Breast Neoplasms",
+              "Caspase 7",
+              "Caspase 9"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20054642/"
+          },
+          {
+            "pmid": "24370210",
+            "title": "Phase I/II trial of vinorelbine and sorafenib in metastatic breast cancer.",
+            "abstract": "We investigated the efficacy and toxicity of sorafenib, a multikinase inhibitor of vascular endothelial growth factor receptor tyrosine kinase, in combination with vinorelbine therapy in a phase I/II trial in patients with metastatic breast cancer.",
+            "journal": "Clinical breast cancer",
+            "year": "2014",
+            "authors": [
+              "Luu Thehang",
+              "Frankel Paul",
+              "Chung Cathie",
+              "Chow Warren",
+              "Mortimer Joanne"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Maximum Tolerated Dose",
+              "Middle Aged",
+              "Neoplasm Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24370210/"
+          },
+          {
+            "pmid": "22016478",
+            "title": "Clinical presentation and management of hand-foot skin reaction associated with sorafenib in combination with cytotoxic chemotherapy: experience in breast cancer.",
+            "abstract": "Current combination therapies for advanced breast cancer provide a modest survival benefit but with greater toxicity than with monotherapies. New combinations are needed that improve the efficacy of current treatments and have acceptable tolerability profiles. Recent clinical trials have assessed the efficacy and safety of the multikinase inhibitor sorafenib in combination with common treatments for advanced breast cancer. Sorafenib has both antiangiogenic and antiproliferative activities and is indicated for patients with unresectable hepatocellular and advanced renal cell carcinoma. Generally, sorafenib is associated with manageable, non-life-threatening adverse events. One of the more common adverse events seen with sorafenib is hand-foot skin reaction, a dermatologic toxicity usually localized to the pressure points of the palms and soles. Although hand-foot skin reaction is reversible and not life threatening, it can have a significant impact on a patient's quality of life and may",
+            "journal": "The oncologist",
+            "year": "2011",
+            "authors": [
+              "Gomez Patricia",
+              "Lacouture Mario E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Benzenesulfonates",
+              "Breast Neoplasms",
+              "Female",
+              "Hand-Foot Syndrome",
+              "Humans",
+              "Niacinamide",
+              "Phenylurea Compounds",
+              "Pyridines",
+              "Sorafenib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22016478/"
+          },
+          {
+            "pmid": "23314174",
+            "title": "The combination of sorafenib and radiation preferentially inhibits breast cancer stem cells by suppressing HIF-1α expression.",
+            "abstract": "The importance of anticancer stem cell research for breast cancer lies in the possibility of providing new approaches for an improved understanding of anticancer activity and cancer treatment. In this study, we demonstrated that the preclinical therapeutic efficacy of combining the multikinase inhibitor sorafenib with radiation was more effective in hypoxia-exposed breast cancer stem cells. We assessed cell viability and Annexin V to evaluate the combined effect of sorafenib and radiation following exposure to hypoxia. Our results showed that the synergistic cytotoxicity increased tumor cell apoptosis significantly and reduced cell proliferation in MDA-MB-231 and MCF-7 cells under hypoxic conditions compared to sorafenib or radiation alone in vitro. Additionally, the combined treatment induced G2/M cell cycle arrest. Notably, the combination of sorafenib and radiation eliminated CD44+CD24-/low cells preferentially, which highly expressed hypoxia-inducible factor (HIF)-1α and effectivel",
+            "journal": "Oncology reports",
+            "year": "2013",
+            "authors": [
+              "Lee Jae Ho",
+              "Shim Jae Woong",
+              "Choi Yoo Jin",
+              "Heo Kyu",
+              "Yang Kwangmo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Cell Survival",
+              "Chemoradiotherapy",
+              "Female",
+              "Gene Expression",
+              "Humans",
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "MCF-7 Cells",
+              "Matrix Metalloproteinase 2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23314174/"
+          },
+          {
+            "pmid": "39541924",
+            "title": "Synergistic anticancer efficacy of polydatin and sorafenib against the MCF-7 breast cancer cell line via inhibiting of PI3K/AKT/mTOR pathway and reducing resistance to treatment.",
+            "abstract": "Polydatin (PD), a glucoside derivative of resveratrol, has been investigated for its potential to mitigate sorafenib (SOF) side effects and combat multidrug resistance in cancer treatment. The study evaluated its mechanism of action for inhibiting the protein kinase B/mTOR pathway in promoting breast cancer proliferation. The combined PD and SOF have synergistic effects with a combination index (CI) < 1 in the liver (HepG2) and breast (MCF-7) cancer cell lines. Molecular docking studies were conducted to analyze interactions of PD& SOF with protein kinases as well as apoptotic and multidrug resistance proteins, including AKT1, PI3K, mTOR, Apaf-1, and ABCB1 in MCF-7 cells. Experimental validation through real-time PCR confirmed. PD has a strong binding affinity, particularly with AKT1 (-56 kcal/mol) and ABCB1 (-27.16 kcal/mol), a gene associated with multidrug resistance. These interactions were linked to anti-proliferative anti-angiogenic effects and reduced resistance to treatment, de",
+            "journal": "Biochemical and biophysical research communications",
+            "year": "2024",
+            "authors": [
+              "Donia Thoria",
+              "Ali Ehab M M",
+              "Kalantan Abdulaziz A",
+              "Alzahrani Faisal Ay",
+              "Eid Thamir M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Proto-Oncogene Proteins c-akt",
+              "Stilbenes",
+              "Drug Synergism",
+              "Sorafenib",
+              "MCF-7 Cells",
+              "TOR Serine-Threonine Kinases",
+              "Drug Resistance, Neoplasm",
+              "Glucosides",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39541924/"
+          },
+          {
+            "pmid": "24815468",
+            "title": "Investigation of antitumor effects of sorafenib and lapatinib alone and in combination on MCF-7 breast cancer cells.",
+            "abstract": "Breast cancer evolution and tumor progression are controlled by complex interactions between steroid receptors and growth factor receptor signaling. Aberrant growth factor receptor signaling can augment or suppress estrogen receptor function in hormone-dependent breast cancer cells. Thus, we aimed to investigate antitumor effects of sorafenib and lapatinib alone and in combination on MCF-7 breast cancer cells.",
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2014",
+            "authors": [
+              "Kacan Turgut",
+              "Altun Ahmet",
+              "Altun Gulsah Gultekin",
+              "Kacan Selen Baloglu",
+              "Sarac Bulent"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Drug Evaluation, Preclinical",
+              "Drug Synergism",
+              "ErbB Receptors",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24815468/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal pelvis carcinoma",
+        "txgnn_score": 0.9939678907394408,
+        "txgnn_rank": 7401,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00112671",
+            "title": "A Phase II Study of BAY 43-9006 in Advanced or Metastatic Urothelial Cancer (Transitional Cell Cancer of the Bladder, Ureter and Renal Pelvis)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-04",
+            "completion_date": "2010-05",
+            "country": "Canada",
+            "enrollment": 17,
+            "brief_summary": "This phase II trial is studying how well sorafenib works in treating patients with advanced or metastatic cancer of the urinary tract. Sorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed transitional cell cancer of the bladder, renal pelvis or ureter\n* Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to b",
+            "endpoints": [
+              "Number of Paricipants With Tumour Response Defined as Partial or Complete Response Per the RECIST 1.0 Criteria"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00112671"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01844947",
+            "title": "An Exploratory Phase I Study With Sorafenib in Addition to Vinflunine in Progressive Locally Advanced or Metastatic Transitional Cell Carcinoma of the Urothelial Tract",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "2018-06-05",
+            "country": "Denmark, Sweden",
+            "enrollment": 22,
+            "brief_summary": "This study aims to analyse the tolerability (side effects and safety) with standard treatment (Javlor®) with the addition of a second anti-tumour drug: sorafenib (Nexavar®). This is the first time this treatment combination is studied in humans. Samples of blood, urine and tumour tissues will be analysed for molecular biomarkers. These biomarkers may potentially help us in the future in predicting whether a patient will benefit or not from the cancer treatment. The study also aims to investigate",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* signed informed consent;\n* histologically confirmed transitional cell (pure or mixed histology including transitional cell carcinoma are allowed) carcinoma of the urothelial tract;\n* patients who have received neoadjuvant or adjuvant platinum-containing chemotherapy and who ar",
+            "endpoints": [
+              "Number of patients with adverse events"
+            ],
+            "sponsor": "Karolinska University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01844947"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00112905",
+            "title": "Phase II Trial of Sorafenib (BAY 43-9006) (IND 69896; NSC 724772) in Patients With Advanced Urothelial Cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2005-10",
+            "completion_date": "2008-03",
+            "country": "United States",
+            "enrollment": 27,
+            "brief_summary": "This phase II trial is studying how well sorafenib works in treating patients with progressive regional or metastatic cancer of the urothelium. Sorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed transitional cell carcinoma or mixed histologies containing a component of transitional cell carcinoma of the urothelium (renal pelvis, ureter, bladder, urethra) with manifestations of progressing regional or metastatic cancer; or (2) Nontransitional c",
+            "endpoints": [
+              "Kaplan-Meier Estimate of Progression-free Survival at 4 Months"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00112905"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00727532",
+            "title": "Correlation of Pathologic Findings After Neo-adjuvant Sorafenib With Results of Diffusion-Weighted Magnetic Resonance Imaging in Patients With Locally Advanced or Metastatic Clear Cell Renal Cell Carcinoma",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2008-07",
+            "completion_date": "2013-09",
+            "country": "United States",
+            "enrollment": 9,
+            "brief_summary": "RATIONALE: Sorafenib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. Giving sorafenib before surgery may make the tumor smaller and reduce the amount of normal tissue that needs to be removed.\n\nPURPOSE: This clinical trial is studying how well sorafenib works in treating patients with locally advanced or metastatic kidney cancer.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed newly diagnosed clear cell renal cell carcinoma, meeting 1 of the following criteria:\n\n  * Localized disease, as evidenced by intact, bulky, and primary renal lesions (T1 \\> 3 cm, any T2, T3, or T4) appropriate for nephrectomy\n  * Limited metastat",
+            "endpoints": [
+              "Percentage Change in Difference in Apparent Diffusion Coefficient Between Baseline and Week 5",
+              "Change in Tumor Size From Baseline to Approximately 29-34 Days After Completion of Neoadjuvant Sorafenib Treatment"
+            ],
+            "sponsor": "Northwestern University",
+            "url": "https://clinicaltrials.gov/study/NCT00727532"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21479988",
+            "title": "Treatment of metastatic renal cell carcinoma and renal pelvic cancer.",
+            "abstract": "A better understanding of the molecular biology of renal cell carcinoma (RCC) and the emergence of molecular targeted drugs have revolutionized the treatment for patients with metastatic RCC (mRCC). Multi-targeted tyrosine kinase inhibitors (sorafenib and sunitinib) and mammalian target of rapamycin inhibitors (temsirolimus and everolimus) have recently shown superiority over interferon-α or placebo. However, while the molecular targeted drugs have demonstrated encouraging results, these drugs have also sometimes induced unexpected adverse events. Control of adverse events is important to obtain the maximum effectiveness and sustain quality of life for patients. Because renal pelvic cancer has many similarities in pathogenesis with urinary bladder cancer, the same chemotherapeutic regimen is often proposed for patients with metastatic renal pelvic cancer. Combined chemotherapy with gemcitabine and cisplatin is now widely considered to be first-line chemotherapy against these metastatic",
+            "journal": "Clinical and experimental nephrology",
+            "year": "2011",
+            "authors": [
+              "Tanji Nozomu",
+              "Yokoyama Masayoshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzenesulfonates",
+              "Carcinoma, Renal Cell",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Everolimus",
+              "Humans",
+              "Indoles",
+              "Kidney Neoplasms",
+              "Kidney Pelvis",
+              "Niacinamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21479988/"
+          },
+          {
+            "pmid": "25274276",
+            "title": "SEOM clinical guidelines for the treatment of renal cell carcinoma.",
+            "abstract": "The purpose of this article was to provide updated recommendations for the diagnosis and treatment of renal cell carcinoma. Pathological confirmation is mandatory before treatment with ablative or focal therapies before any type of systemic therapy. Renal cell cancer should be staged according to the TNM classification system. A laparoscopic nephron-sparing surgery should be the approach for tumors <4 cm if technically feasible. Otherwise, radical (or partial in selected cases) nephrectomy is the treatment of choice, with lymph node dissection only performed in patients with clinically detected lymph node involvement. Some retrospective evidence for a cytoreductive nephrectomy in the postimmunotherapy era suggests a benefit in patients with good or intermediate risk or for patients with a symptomatic primary lesion. Adjuvant treatment with chemotherapy or with targeted agents is not recommended and studies are ongoing today. Patients with metastatic disease should be staged by computed",
+            "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+            "year": "2014",
+            "authors": [
+              "Bellmunt J",
+              "Puente J",
+              "Garcia de Muro J",
+              "Lainez N",
+              "Rodríguez C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Renal Cell",
+              "Humans",
+              "Kidney Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25274276/"
+          },
+          {
+            "pmid": "27342991",
+            "title": "Upper tract urothelial carcinoma topical issue 2016: treatment of metastatic cancer.",
+            "abstract": "To review the management of metastatic upper tract urothelial carcinoma (UTUC) including recent advances in targeted and immune therapies as an update to the 2014 joint international consultation on UTUC, co-sponsored by the Société Internationale d'Urologie and International Consultation on Urological Diseases.",
+            "journal": "World journal of urology",
+            "year": "2017",
+            "authors": [
+              "Pham M N",
+              "Apolo A B",
+              "De Santis M",
+              "Galsky M D",
+              "Leibovich B C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Carboplatin",
+              "Carcinoma, Transitional Cell",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Docetaxel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27342991/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulva sarcoma",
+        "txgnn_score": 0.9937415719032288,
+        "txgnn_rank": 7591,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.993451714515686,
+        "txgnn_rank": 7872,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "23557478",
+            "title": "Dermatofibrosarcoma protuberans (DFSP) successfully treated with sorafenib: case report.",
+            "abstract": "DFSP is a locally invasive, slow-growing tumor of the subcutaneous tissue that rarely metastasizes but recurs frequently after surgical excision. We report herein a case of highly recurrent, locally invasive DFSP that failed both postoperative radiation therapy and complete trial of Imatinib, but was successfully treated with Sorafenib, which showed unprecedented response.",
+            "journal": "Clinical sarcoma research",
+            "year": "2013",
+            "authors": [
+              "Kamar Francois G",
+              "Kairouz Victor F",
+              "Sabri Alain N"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23557478/"
+          },
+          {
+            "pmid": "17419949",
+            "title": "PDGF receptors as targets in tumor treatment.",
+            "abstract": "Signaling through platelet-derived growth factor (PDGF) receptors contributes to multiple tumor-associated processes. The recent introduction of clinically useful PDGF inhibitors have the last years validated PDGF receptors in malignant and stromal cells as relevant cancer drug targets. Mutational activation of PDGF receptor signaling in malignant cells has been described in some rare tumor types such as dermatofibrosarcoma protuberans, a subset of GISTs, and some hematologic malignancies. Furthermore, expression of PDGF receptors on pericytes is a common characteristic of solid tumors. The clinical efficacy of novel multikinase inhibitors, such as sunitinib and sorafenib, most likely involves targeting of PDGF receptor-dependent pericytes. Preclinical studies suggest that targeting of stromal PDGF receptors might also constitute a novel strategy to enhance tumor drug uptake. Finally, recent studies have implied both pro- and antimetastatic effects of PDGF receptors on malignant and st",
+            "journal": "Advances in cancer research",
+            "year": "2007",
+            "authors": [
+              "Ostman Arne",
+              "Heldin Carl-Henrik"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Clinical Trials, Phase III as Topic",
+              "Drug Delivery Systems",
+              "Extracellular Fluid",
+              "Fibroblasts",
+              "Humans",
+              "Imatinib Mesylate",
+              "Indoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17419949/"
+          },
+          {
+            "pmid": "29408302",
+            "title": "The role of small molecule platelet-derived growth factor receptor (PDGFR) inhibitors in the treatment of neoplastic disorders.",
+            "abstract": "Platelet-derived growth factor (PDGF) was discovered as a serum-derived component necessary for the growth of smooth muscle cells, fibroblasts, and glial cells. The PDGF family is a product of four gene products and consists of five dimeric isoforms: PDGF-AA, PDGF-BB, PDGF-CC, PDGF-DD, and the PDGF-AB heterodimer. This growth factor family plays an essential role in embryonic development and in wound healing in the adult. These growth factors mediate their effects by binding to and activating their receptor protein-tyrosine kinases, which are encoded by two genes: PDGFRA and PDGFRB. The functional receptors consist of the PDGFRα/α and PDGFRβ/β homodimers and the PDGFRα/β heterodimer. Although PDGF signaling is most closely associated with mesenchymal cells, PDGFs and PDGF receptors are widely expressed in the mammalian central nervous system. The PDGF receptors contain an extracellular domain that is made up of five immunoglobulin-like domains (Ig-d1/2/3/4/5), a transmembrane segment, ",
+            "journal": "Pharmacological research",
+            "year": "2018",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Ligands",
+              "Neoplasms",
+              "Platelet-Derived Growth Factor",
+              "Protein Kinase Inhibitors",
+              "Receptors, Platelet-Derived Growth Factor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29408302/"
+          },
+          {
+            "pmid": "24712007",
+            "title": "[Medical treatment of soft tissue sarcomas based on the histological subtype].",
+            "abstract": "The medical treatment of adult soft tissue sarcomas is more and more dictated by the histological subtype, this applies to both cytotoxics and target therapies. Doxorubicin and ifosfamid are the two drugs used either in monotherapy or combination with the best established response rates in adult soft tissue sarcomas for several years. In addition to these compounds there is evidence of efficacy of new drugs such as taxanes in angiosarcoma, gemcitabine+taxanes combination in leiomyosarcomas, trabectedin in leiomyosarcomas and liposarcomas with an extremely high activity in myxoid liposarcoma. With regard to target therapy pazopanib seems especially active in leiomyosarcomas and synoviosarcomas, but totally inactive in liposarcomas, sunitinib and cediranib in alveolar soft part sarcomas, sunitinib and bevacizumab+temozolamide combination in solitary fibrous tumors, and sorafenib in angiosarcomas. mTOR inhibitors are active in PEComas (perivascular epitheloid cell tumors) and crizotinib i",
+            "journal": "Magyar onkologia",
+            "year": "2014",
+            "authors": [
+              "Pápai Zsuzsanna"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Gastrointestinal Stromal Tumors",
+              "Hemangiopericytoma",
+              "Hemangiosarcoma",
+              "Humans",
+              "Leiomyosarcoma",
+              "Liposarcoma",
+              "Molecular Targeted Therapy",
+              "Sarcoma",
+              "Sarcoma, Kaposi"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24712007/"
+          },
+          {
+            "pmid": "31396640",
+            "title": "[Is there a magic bullet for sarcomas? : Personalised treatment for maligant tumours of bone and soft tissue].",
+            "abstract": "Personalised tumour therapies aim to selectively target pathways and structures to which a tumour shows an oncogenic addiction.",
+            "journal": "Der Orthopade",
+            "year": "2019",
+            "authors": [
+              "Scheipl S",
+              "Liegl-Atzwanger B",
+              "Szkandera J",
+              "Rinner B",
+              "Viertler C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bone Neoplasms",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Prospective Studies",
+              "Sarcoma",
+              "Soft Tissue Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31396640/"
+          },
+          {
+            "pmid": "26931561",
+            "title": "Histology-Specific Uses of Tyrosine Kinase Inhibitors in Non-gastrointestinal Stromal Tumor Sarcomas.",
+            "abstract": "Adult sarcomas, especially those with metastatic or unresectable disease, have limited treatment options. Traditional chemotherapeutic options have been limited by poor response rates in patients with advanced sarcomas. The important clinical question is whether the success of targeted therapy in GIST can be extended to other sarcomas and also if preclinical data describing targets across this heterogeneous group of cancers can be translated to clinical efficacy of known and upcoming target specific agents. Multi-targeted tyrosine kinase inhibitors (TKI) such as pazopanib, sorafenib, sunutinib, cediranib have shown benefits across various histologies of soft tissue sarcoma as well as bone sarcomas. The efficacy of imatinib in Dermatofibrosarcoma Protruberans; sunitinib and cediranib in alveolar soft part sarcoma; and sorafenib and imatinib in chordomas have provided a treatment option of these rare tumors where no effective options existed. TKIs are being tested in combination with che",
+            "journal": "Current treatment options in oncology",
+            "year": "2016",
+            "authors": [
+              "Sethi Tarsheen K",
+              "Keedy Vicki L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Bone Neoplasms",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Protein Kinase Inhibitors",
+              "Protein-Tyrosine Kinases",
+              "Receptor Protein-Tyrosine Kinases",
+              "Sarcoma",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26931561/"
+          },
+          {
+            "pmid": "22987955",
+            "title": "Histology- and non-histology-driven therapy for treatment of soft tissue sarcomas.",
+            "abstract": "Medical treatment of adult soft tissue sarcomas is more and more dictated by the histological subtype, in a family of rare cancers made up of dozens of these subsets. This applies to both cytotoxics and target therapies. In addition to doxorubicin and ifosfamide, therefore, there is evidence of efficacy of gemcitabine in leiomyosarcomas; trabectedin in leiomyosarcomas and liposarcomas, with an exceedingly high activity in myxoid liposarcoma; taxanes and gemcitabine in angiosarcoma. With regard to target therapies, imatinib is paradigmatically effective in the usually non-medically treated dermatofibrosarcoma. Then, in the face of a strong rationale, mammalian target of rapamycin (mTOR) inhibitors are active in a proportion of PEComas (perivascular epithelioid cell tumours) and crizotinib in ALK-rearranged inflammatory myofibroblastic tumours. Though the mechanism is less understood at the moment, pazopanib seems especially active in leiomyosarcoma and synovial sarcoma; sunitinib and ce",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2012",
+            "authors": [
+              "Casali P G"
+            ],
+            "pub_types": [
+              "Conference Proceedings",
+              "Overall"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Hemangiosarcoma",
+              "Humans",
+              "Leiomyosarcoma",
+              "Liposarcoma",
+              "Liposarcoma, Myxoid",
+              "Sarcoma",
+              "Soft Tissue Neoplasms",
+              "Solitary Fibrous Tumors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22987955/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00398",
+    "name": "Sorafenib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sorafenib"
+      },
+      "queried_at": "2026-03-09T20:50:47.673876",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sorafenib"
+      },
+      "queried_at": "2026-03-09T20:50:51.626320",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T20:50:53.389653",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T20:51:00.190203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T20:51:05.268564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T20:51:06.127931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T20:51:11.226237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T20:51:15.038034",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T20:51:16.904221",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T20:51:28.456043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T20:51:33.399012",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T20:51:35.337115",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T20:51:41.247246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T20:51:42.578606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T20:51:43.652374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T20:51:49.776811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T20:51:51.859394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T20:51:54.299822",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T20:51:58.522294",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T20:51:59.953372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-09T20:52:03.824934",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-09T20:52:11.107047",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-09T20:52:24.820701",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal pelvis carcinoma"
+      },
+      "queried_at": "2026-03-09T20:52:28.931985",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal pelvis carcinoma"
+      },
+      "queried_at": "2026-03-09T20:52:36.806913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "renal pelvis carcinoma"
+      },
+      "queried_at": "2026-03-09T20:52:45.263168",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "vulva sarcoma"
+      },
+      "queried_at": "2026-03-09T20:52:49.129647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "vulva sarcoma"
+      },
+      "queried_at": "2026-03-09T20:52:58.333716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "vulva sarcoma"
+      },
+      "queried_at": "2026-03-09T20:53:00.668938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T20:53:03.170284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T20:53:10.738706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sorafenib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T20:53:17.198944",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T20:53:17.284735"
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "drug": {
+    "inn": "Piracetam",
+    "drugbank_id": "DB09210",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.9845209717750548,
+        "txgnn_rank": 14504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.9826039671897888,
+        "txgnn_rank": 15702,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9802046418190002,
+        "txgnn_rank": 16935,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29501867",
+            "title": "Levetiracetam mitigates lipopolysaccharide-induced JAK2/STAT3 and TLR4/MAPK signaling pathways activation in a rat model of adjuvant- induced arthritis.",
+            "abstract": "Levetiracetam (LEV), a novel anti-epileptic drug that has been demonstrated with an anti-inflammatory effect, but the exact mechanisms of its action remain to be fully defined. The present study aimed to evaluate the possible effects of LEV on lipopolysaccharides (LPS)-induced Janus kinase-signal transducers and activators of transcription (JAK/STAT) as well as toll-like receptor 4 (TLR4)/ mitogen activated protein kinase (MAPK) signaling pathways activation in adjuvant induced arthritis (AIA). Rats were allocated into normal control, three arthritic control groups: Complete Freund's Adjuvant (CFA) (0.4 ml/3days/12days), LPS (100 µg/kg/day), CFA+LPS, and three treated groups: CFA+LEV, LPS+LEV and CFA+LPS+LEV. LEV was administered in a dose 50 mg/kg/day for 15 day. After 28 days, tissue samples were collected for assessment of phosphorylated JAK2, STAT3, TLR4, MAPK and cathepsin K quantitative expression in synovium. Additionally, Serum samples were used for biochemical evaluation of in",
+            "journal": "European journal of pharmacology",
+            "year": "2018",
+            "authors": [
+              "Abed El-Gaphar Omnia Ahmed Mohamed",
+              "Abo-Youssef Amira M",
+              "Halal Gouda Kamel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Arthritis, Experimental",
+              "Arthritis, Rheumatoid",
+              "Cathepsin K",
+              "Cytokines",
+              "Female",
+              "Freund's Adjuvant",
+              "Humans",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29501867/"
+          },
+          {
+            "pmid": "17225057",
+            "title": "Orofacial dystonia related to Sjogren's syndrome.",
+            "abstract": "Sjogren's syndrome (SS), either primary or secondary, is rarely accompanied by CNS complications. We report the exceptional case of a patient with secondary SS, who presented orofacial dystonia as a consequence of her disease. Initial treatment with clonazepam and levetiracetam was unsuccessful. However, dystonia was dramatically improved by a treatment with corticosteroids. This case demonstrates that corticosteroids can be efficacious in the treatment of dystonia related to SS.",
+            "journal": "Clinical rheumatology",
+            "year": "2007",
+            "authors": [
+              "Papageorgiou Sokratis G",
+              "Kontaxis Theodoros",
+              "Bonakis Anastasios",
+              "Kalfakis Nikolaos"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Brain",
+              "Clonazepam",
+              "Dystonia",
+              "Dystonic Disorders",
+              "Face",
+              "Female",
+              "Humans",
+              "Levetiracetam",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17225057/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9763184189796448,
+        "txgnn_rank": 18739,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic porphyria",
+        "txgnn_score": 0.975529134273529,
+        "txgnn_rank": 19094,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15101839",
+            "title": "Levetiracetam in focal epilepsy and hepatic porphyria: a case report.",
+            "abstract": "We report a patient with focal epilepsy and latent hereditary coproporphyria who had exacerbation of clinical symptoms of porphyria under treatment with valproate and primidone and was then treated with levetiracetam without exacerbation of clinically latent porphyria.",
+            "journal": "Epilepsia",
+            "year": "2004",
+            "authors": [
+              "Paul Friedemann",
+              "Meencke Heinz-Joachim"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Anticonvulsants",
+              "Comorbidity",
+              "Epilepsies, Partial",
+              "Female",
+              "Humans",
+              "Levetiracetam",
+              "Piracetam",
+              "Porphyrias, Hepatic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15101839/"
+          },
+          {
+            "pmid": "17163270",
+            "title": "Levetiracetam in idiopathic generalised epilepsy and porphyria cutanea tarda.",
+            "abstract": "We report the case of a 50-year-old male patient with idiopathic generalised epilepsy and porphyria cutanea tarda. Valproic acid and phenobarbital monotherapy controlled seizures but exacerbated porphyric symptomatology, while clobazam, clonazepam and lamotrigine monotherapy were well tolerated as regards porphyric disturbances but did not completely control seizures. Tonic- clonic seizures were eventually controlled by a combination of clonazepam (9 mg/day) and lamotrigine (150 mg/day), but absences persisted and this treatment caused significant adverse effects consisting of sedation and memory disturbances. Levetiracetam monotherapy (3 g/day) was accompanied by complete control of seizures; memory disturbances and sedation also resolved, and no porphyrinogenetic activity of levetiracetam was observed. This is the first report of the safe use of levetiracetam in porphyria cutanea tarda.",
+            "journal": "Clinical drug investigation",
+            "year": "2006",
+            "authors": [
+              "Bilo Leonilda",
+              "Meo Roberta",
+              "Fulvia de Leva Maria"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Anticonvulsants",
+              "Clonazepam",
+              "Drug Therapy, Combination",
+              "Epilepsy, Tonic-Clonic",
+              "Humans",
+              "Lamotrigine",
+              "Levetiracetam",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17163270/"
+          },
+          {
+            "pmid": "18454784",
+            "title": "Use of propofol anesthesia and adjunctive treatment with levetiracetam and gabapentin in managing status epilepticus in a patient of acute intermittent porphyria.",
+            "abstract": "",
+            "journal": "Epilepsia",
+            "year": "2008",
+            "authors": [
+              "Bhatia Rohit",
+              "Vibha Deepti",
+              "Srivastava M V Padma",
+              "Prasad Kameshwar",
+              "Tripathi Manjari"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Amines",
+              "Anesthetics, Intravenous",
+              "Anticonvulsants",
+              "Child",
+              "Comorbidity",
+              "Cyclohexanecarboxylic Acids",
+              "Gabapentin",
+              "Humans",
+              "Levetiracetam",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454784/"
+          },
+          {
+            "pmid": "16239766",
+            "title": "Levetiracetam in porphyric status epilepticus: a case report.",
+            "abstract": "Status epilepticus in patients with acute intermittent porphyria (AIP) are difficult to treat. In this report the author describes a patient with AIP and status epilepticus who was successfully treated with a combination of intravenous magnesium and levetiracetam. This case and the limited experience reported in the literature show that it is probably safe to administer levetiracetam in patients with AIP; however, its role in the treatment of status epilepticus deserves further evaluation.",
+            "journal": "Clinical neuropharmacology",
+            "year": "2005",
+            "authors": [
+              "Zaatreh Megdad M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Humans",
+              "Injections, Intravenous",
+              "Levetiracetam",
+              "Magnesium",
+              "Male",
+              "Middle Aged",
+              "Piracetam",
+              "Porphyria, Acute Intermittent",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16239766/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.975373148918152,
+        "txgnn_rank": 19167,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.97445809841156,
+        "txgnn_rank": 19539,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9730587601661682,
+        "txgnn_rank": 20103,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9718589186668396,
+        "txgnn_rank": 20569,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primitive portal vein thrombosis",
+        "txgnn_score": 0.9718005061149596,
+        "txgnn_rank": 20589,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09210",
+    "name": "Piracetam",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Piracetam"
+      },
+      "queried_at": "2026-03-10T07:15:27.249072",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Piracetam"
+      },
+      "queried_at": "2026-03-10T07:15:28.613766",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T07:15:29.173630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T07:15:32.863000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T07:15:33.521879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T07:15:34.012697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T07:15:37.865844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T07:15:38.595543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:15:39.262412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:15:45.941352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:15:48.678567",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T07:15:49.420295",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T07:15:52.889409",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T07:15:54.510388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T07:15:55.109967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T07:15:57.996737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T07:15:59.911859",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:16:00.386158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:16:03.661266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:16:04.410192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T07:16:05.061032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T07:16:08.578642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T07:16:09.273444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T07:16:09.810796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T07:16:12.679739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T07:16:13.370092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T07:16:13.868744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T07:16:17.067163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T07:16:17.718475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T07:16:18.194429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T07:16:21.584598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piracetam",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T07:16:22.242368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:16:22.256388"
+  }
+}

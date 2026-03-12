@@ -1,0 +1,2066 @@
+{
+  "drug": {
+    "inn": "Flecainide",
+    "drugbank_id": "DB01195",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "stroke disorder",
+        "txgnn_score": 0.9991200566291808,
+        "txgnn_rank": 1774,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01288352",
+            "title": "Early Therapy of Atrial Fibrillation for Stroke Prevention Trial (EAST).",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-07-01",
+            "completion_date": "2020-05-31",
+            "country": "Switzerland, Spain, United Kingdom, France, Belgium, Netherlands, Germany, Italy, Denmark, Czechia, Poland",
+            "enrollment": 2789,
+            "brief_summary": "EAST prospectively tests the hypothesis that an early, structured rhythm control therapy based on antiarrhythmic drugs and catheter ablation can prevent atrial fibrillation (AF) related complications in patients with AF when compared to usual care.\n\nPatients will be randomized to early therapy or usual care. In the early therapy group, patients will receive either catheter ablation (usually by pulmonary vein isolation), or adequate antiarrhythmic drug therapy at an early time point. The initial ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Recent-onset AF (≤ 1 year prior to enrolment)\n2. At least one ECG within recent 12 months that documents AF whereas the AF episode must last longer than 30 sec.\n3. One of the following:\n\n   * age \\> 75 years or\n   * prior stroke or transient ischemic attack\n\n   OR two of the ",
+            "endpoints": [
+              "A composite of cardiovascular death, stroke and hospitalization due to worsening of heart failure or due to acute coronary syndrome."
+            ],
+            "sponsor": "Atrial Fibrillation Network",
+            "url": "https://clinicaltrials.gov/study/NCT01288352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01447862",
+            "title": "Vernakalant Versus Ibutilide In Recent-Onset Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-10",
+            "completion_date": "2015-05",
+            "country": "Austria",
+            "enrollment": 101,
+            "brief_summary": "Atrial fibrillation is the most common cardiac arrhythmia and is expected to affect about 30 million North Americans and Europeans by 2050. Atrial fibrillation is associated with increased cardiovascular morbidity and mortality, with stroke being an especially important and potentially devastating complication. Many studies have investigated the efficacy of different drugs in converting atrial fibrillation to sinus rhythm. There are numerous randomized controlled trials that have tested the effi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Symptoms of atrial fibrillation since no longer than 48 hours\n* Age 18 - 90 years\n\nExclusion Criteria:\n\n* Need for immediate electrical cardioversion due to hemodynamic instability (hypotension: systolic blood pressure \\< 100 mmHg, dyspnea, loss of consciousness, unstable angi",
+            "endpoints": [
+              "Time in minutes until conversion to sinus rhythm (measured from the start of the first study drug administration)"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT01447862"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07270848",
+            "title": "A Multicenter Prospective Study on the Efficacy, Safety, and Quality of Life Improvements of Dronedarone for Early Rhythm Control in Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-01",
+            "completion_date": "2028-12",
+            "country": "South Korea",
+            "enrollment": 1898,
+            "brief_summary": "The purpose of this study is to compare two commonly used types of medicine for treating atrial fibrillation (also called AF), a condition that causes an irregular heart rhythm. This study is for adults who have been diagnosed with AF within the past year.\n\nResearchers want to find out which medicine is more effective, safer, and provides a better quality of life for patients needing to control their heart rhythm.\n\nParticipants who agree to join the study will be randomly assigned (like flipping",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants who have voluntarily provided written informed consent to participate.\n* Adults aged 19 years or older.\n* Life expectancy of at least 1 year.\n* Diagnosis of atrial fibrillation within the past 1 year.\n* Participants with an indication for antiarrhythmic drug thera",
+            "endpoints": [
+              "Efficacy : Recurrence of Atrial Fibrillation",
+              "Safety : Rate of Drug Discontinuation Due to Adverse Events"
+            ],
+            "sponsor": "Inha University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07270848"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02459574",
+            "title": "Ablation Verses Anti-arrhythmic Therapy for Reducing All Hospital Episodes From Recurrent Atrial Fibrillation",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2015-05-01",
+            "completion_date": "2018-11-27",
+            "country": "United Kingdom",
+            "enrollment": 321,
+            "brief_summary": "A streamlined AF ablation procedure done without PV mapping as a daycase is more effective than anti-arrhythmic drugs at reducing all hospital episodes for recurrent atrial fibrillation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Documented paroxysmal atrial fibrillation\n2. Modification or initiation of anti-arrhythmic agent required for symptom control\n3. Males or females eighteen (18) to eighty (80) years of age\n4. Suitable candidate for catheter ablation\n5. Signed informed consent\n\nExclusion Criter",
+            "endpoints": [
+              "All Hospital Episodes (Emergency Room or Patient Request for OPD) Related to Treatment for Atrial Arrhythmia"
+            ],
+            "sponsor": "Imperial College London",
+            "url": "https://clinicaltrials.gov/study/NCT02459574"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00523978",
+            "title": "A Randomized, Controlled Clinical Trial of Catheter Cryoablation in the Treatment of Paroxysmal Atrial Fibrillation.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-10",
+            "completion_date": "2011-07",
+            "country": "Canada, United States",
+            "enrollment": 245,
+            "brief_summary": "This study (STOP AF) is a prospective, randomized, controlled, multicenter, pivotal clinical investigation conducted at 26 investigational sites in the United States and Canada. Subjects with paroxysmal atrial fibrillation (PAF) referred for ablative intervention after efficacy failure of one or more Study Atrial Fibrillation (AF) Drugs (flecainide, propafenone or sotalol) were randomized 2:1 to cryoablation intervention (Experimental Subjects, ES) or to a Study AF Drug (Control Subjects, CS). S",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented Paroxysmal Atrial Fibrillation (PAF): PAF diagnosis, 2 episodes of PAF within the last 2 months, at least 1 episode of PAF must be documented\n* Age 18-75\n* Documented Effectiveness Failure of one (1) AF drug\n* Willing to be randomized to either group and do full 12 ",
+            "endpoints": [
+              "Acute Procedural Success (APS)",
+              "Freedom From Chronic Treatment Failure (CTF)",
+              "Treatment Success"
+            ],
+            "sponsor": "Medtronic Cardiac Rhythm and Heart Failure",
+            "url": "https://clinicaltrials.gov/study/NCT00523978"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00911508",
+            "title": "Catheter Ablation vs Anti-arrhythmic Drug Therapy for Atrial Fibrillation Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2009-11-13",
+            "completion_date": "2017-12-31",
+            "country": "Australia, United Kingdom, Canada, South Korea, Germany, Italy, United States, China, Russia, Czechia",
+            "enrollment": 2204,
+            "brief_summary": "The (Catheter Ablation Versus Anti-arrhythmic Drug Therapy for Atrial Fibrillation Trial) CABANA Trial has the overall goal of establishing the appropriate roles for medical and ablative intervention for atrial fibrillation (AF). The CABANA Trial is designed to test the hypothesis that the treatment strategy of left atrial catheter ablation for the purpose of eliminating atrial fibrillation (AF) will be superior to current state-of-the-art therapy with either rate control or rhythm control drugs",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Over the preceding 6 months have:\n\n  1. ≥2 paroxysmal (electrocardiographic documentation of at least 1) atrial fibrillation (AF) episodes lasting ≥1 hour in duration: (that terminate spontaneously within 7 days or cardioversion is performed within 48h of AF onset): or\n  2. el",
+            "endpoints": [
+              "Number of Participants With Composite of Total Mortality, Disabling Stroke, Serious Bleeding, or Cardiac Arrest in Patients Warranting Therapy for AF."
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00911508"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02294955",
+            "title": "Catheter Ablation Compared With Pharmacological Therapy for Atrial Fibrillation - a Randomized Multicentre Study Comparing Atrial Fibrillation Ablation Strategy With Optimized Conventional Pharmacological Strategy After 12 Months Follow-up.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2008-05",
+            "completion_date": "2018-09",
+            "country": "Sweden",
+            "enrollment": 152,
+            "brief_summary": "The objective is to compare the efficacy of 2 treatment strategies, catheter ablation of atrial fibrillation versus optimized pharmacological therapy, in patients with symptomatic atrial fibrillation.\n\nIt is a randomized, prospective, controlled, open-label multicentre, parallel-group study including 116 patients. Inclusion criteria are patients aged 30-70 years with symptoms related to atrial fibrillation and who have failed or been intolerant to at least one anti-arrhythmic drug, with at least",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with symptoms related to atrial fibrillation (AF), who have failed or been intolerant to at least one drug used for either rate or rhythm control (Vaughan Williams class I, II, or III anti-arrhythmic drug) thus excluding digitalis and Calcium channel inhibitors.\n2. T",
+            "endpoints": [
+              "quality of life"
+            ],
+            "sponsor": "Uppsala University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02294955"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06096337",
+            "title": "A Prospective Randomized Multicenter Global Study Comparing Pulsed Field Ablation (PFA) Versus Anti-Arrhythmic Drug (AAD) Therapy as a First Line Treatment for Persistent Atrial Fibrillation",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-12-28",
+            "completion_date": "2028-02-04",
+            "country": "Hong Kong, Australia, Spain, France, Canada, Croatia, Belgium, Austria, Germany, Italy, United States, Singapore, Taiwan",
+            "enrollment": 484,
+            "brief_summary": "The purpose of this study is to establish the safety and effectiveness of pulsed field ablation as a first-line ablation treatment for subjects with persistent atrial fibrillation as compared to subjects who received an initial treatment with anti-arrhythmic drugs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years of age, or older if specified by local law\n2. Have symptomatic persistent AF, confirmed by both:\n\n   a. Documentation, within 180 days of randomization, or treatment assignment for roll-in subjects, of either: i. A 24-hour continuous ECG recording (from any reg",
+            "endpoints": [
+              "Rate of randomized PFA or PFA Assigned subjects with PFA System inserted into the body, during the index or repeat PFA procedure during blanking period, with device or procedure-related Composite Adverse Events that is serious.",
+              "Rate of intent to treat subjects with treatment success from the pulse field ablation treatment and Anti-Arrhythmic Drug treatment."
+            ],
+            "sponsor": "Boston Scientific Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT06096337"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01646281",
+            "title": "Effects of Vernakalant and Flecainide on Atrial Contractility in Patients With Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2012-08",
+            "completion_date": "2013-08",
+            "country": "Netherlands",
+            "enrollment": 70,
+            "brief_summary": "Atrial fibrillation (AF) is associated with decreased atrial contractility which is associated with stroke. Decreased contractility becomes apparent after cardioversion of atrial fibrillation, a short period (weeks) during which stroke risk is increased. Improved contractility immediately after cardioversion may prevent arrhythmia progression. In addition, it may reduce the stroke risk. Vernakalant is a new antiarrhythmic drug able to convert atrial fibrillation to sinus rhythm and at the same t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* persistent AF or paroxysmal AF\n* eligible for treatment with vernakalant or flecainide infusion to restore sinus rhythm\n* receiving adequate anticoagulant therapy (or having an episode of AF lasting \\< 24 hours)\n\nExclusion Criteria:\n\n* refusal or inability to give informed con",
+            "endpoints": [
+              "Atrial contractility measured by echocardiography"
+            ],
+            "sponsor": "Maastricht University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01646281"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06783868",
+            "title": "Randomized Control Study to Assess the Neurological Outcomes After Atrial Fibrillation Ablation for Rhythm Control vs Routine Medication Therapy in Patients With Recent Stroke: SAVE STROKE Phase II Study",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-10",
+            "completion_date": "2027-06",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "A prospective, non-blinded, multi-center study to assess the impact of early Catheter Ablation (CA) in patients with a new diagnosis of Atrial Fibrillation(AF) at the time of stroke. 100 patients will be enrolled.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ages \\>18 and able to provide consent.\n* Presenting with an acute stroke and new-onset AF\n* Modified RANKIN score (mRS) \\< 6\n* Must be able to undergo some form of cardiac monitoring \\[implantable loop recorder (ILR), electrocardiogram (ECG), Holter monitor\\] to quantify AF bu",
+            "endpoints": [
+              "Functional neurologic outcome - Modified Rankin Scale",
+              "Recurrent Stroke"
+            ],
+            "sponsor": "Kansas City Heart Rhythm Research Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT06783868"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03737929",
+            "title": "Comparison of the Efficacy of Hybrid Ablative Therapy for Patients with Persistent Atrial Fibrillation Versus Conventional Catheter Ablation",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2019-07-08",
+            "completion_date": "2025-12-31",
+            "country": "France",
+            "enrollment": 228,
+            "brief_summary": "Atrial fibrillation (AF) is the most common cardiac arrhythmia with a prevalence ranging from 5% over 60 years old to 17% after 85 years old. Besides hemodynamical compromises and occurrence of heart failure, stroke remains the most feared complication related to AF with a risk increased by 5-fold.\n\nCatheter ablation with the aim of pulmonary veins isolation (PVI) has evolved as a standardized treatment option in paroxysmal AF (PAF), supported by the current guidelines. However, due to advanced ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* To have a history of symptomatic persistent atrial fibrillation (AF) (continuous AF lasting 7 days or more) or long-standing persistent AF (continuous AF lasting for more than 12 months)\n* To be refractory to or intolerant to at least one class I (flecainide / propafenone) or ",
+            "endpoints": [
+              "Atrial fibrillation (AF)/Atrial tachycardia (AT) recurrence"
+            ],
+            "sponsor": "University Hospital, Toulouse",
+            "url": "https://clinicaltrials.gov/study/NCT03737929"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06322017",
+            "title": "Prospective Multicenter Randomized and Controlled Study Evaluating the Benefit of Early Pulmonary Vein Isolation Compared to Usual Treatment in Patients Aged Over 75 Years and Presenting With Atrial Fibrillation",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-04-09",
+            "completion_date": "2030-04-09",
+            "country": "France",
+            "enrollment": 294,
+            "brief_summary": "Therapeutic management of Atrial Fibrillation (AF) is based either on heart rate control or on rhythm control, a strategy which aims to maintain a normal heart rhythm. The benefit in terms of morbidity and mortality of a normal heart rhythm would, however, be largely offset by the frequent side effects of antiarrhythmic drugs which could even lead to an increase in mortality compared to rate control. This increase has particularly been suggested in people aged over 75.\n\nSince the emergence of ca",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Man or woman aged 75 and over.\n* Paroxysmal AF or early recurrent or persistent paroxysmal AF first diagnosed less than 12 months ago.\n* Patient who consented to participate in the study.\n* Patient affiliated to a social security system.\n\nExclusion Criteria:\n\n* Indication of c",
+            "endpoints": [
+              "Time before occurrence of the first event among cardiovascular death, hospitalization (all causes) and stroke"
+            ],
+            "sponsor": "Nantes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06322017"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03624920",
+            "title": "Safety and Efficacy of THN102 in Patients With Parkinson's Disease and Excessive Daytime Sleepiness",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-07-12",
+            "completion_date": "2020-02-24",
+            "country": "France, Germany, United States, Czechia, Hungary",
+            "enrollment": 77,
+            "brief_summary": "This is a randomized, placebo-controlled, 3-way cross-over phase IIa trial comparing two dose levels of THN102 to placebo in patients suffering from Parkinson's disease associated with excessive daytime sleepiness.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects with a diagnosis of idiopathic Parkinson's disease as defined by the Movement Disorders Society (MDS).\n* Subjects with Hoehn and Yahr scale score ≤ 4.\n* Body mass index \\> 18 kg/m2 and \\< 35 kg/m2.\n* Subjects should have a complaint of daytime sleepiness impacting the",
+            "endpoints": [
+              "Safety Adverse Events"
+            ],
+            "sponsor": "Theranexus",
+            "url": "https://clinicaltrials.gov/study/NCT03624920"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05293080",
+            "title": "Early Treatment of Atrial Fibrillation for Stroke Prevention Trial in Acute STROKE",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-09",
+            "completion_date": "2029-03",
+            "country": "N/A",
+            "enrollment": 1746,
+            "brief_summary": "This study will determine whether early, comprehensive, rhythm control therapy prevents adverse cardiovascular outcome in patients with acute ischemic stroke and atrial fibrillation compared to usual care.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Acute ischemic stroke in the previous four weeks, diagnosed by imaging (CT or MRI) or clinical diagnosis\n* Possibility to start the trial treatment within 4 weeks after stroke, and as soon as clinically justifiable\n* AF first detected ≤1 year prior to randomization\n* Informed ",
+            "endpoints": [
+              "Time to first recurrent stroke, cardiovascular death, or hospitalization due to worsening of heart failure or due to acute coronary syndrome."
+            ],
+            "sponsor": "Universitätsklinikum Hamburg-Eppendorf",
+            "url": "https://clinicaltrials.gov/study/NCT05293080"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05213104",
+            "title": "Assessment of Flecainide to Lower the Patent Foramen Ovale Closure Risk of Atrial Arrhythmia or Tachycardia",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-03-23",
+            "completion_date": "2026-07",
+            "country": "France",
+            "enrollment": 186,
+            "brief_summary": "About 30% of ischemic strokes are cryptogenic. Patent Foramen Ovale (PFO) is present in about 25% of the general population. In cryptogenic strokes, PFO has been shown to be overrepresented and recent intervention studies have confirmed that PFO has a causal link with stroke. In patients with recent cryptogenic stroke, these randomized studies have shown at least 50%-reduction of recurrent neurological events after PFO percutaneous closure compared with medical therapy alone. At the The risk of ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥ 18 years of age\n* They are candidates for a procedure of PFO closure, whatever the indication (secondary prevention of stroke, platypnoea, decompression illness…). The indication must have been confirmed by a multidisciplinary team as recommended by the Haute Autorité de San",
+            "endpoints": [
+              "percentage of patients with at least one episode of atrial arrythmia"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT05213104"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07405671",
+            "title": "Randomized Evaluation of fleCAinide Safety Versus STandard of Care in Patients With Coronary Artery Disease and Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-09",
+            "completion_date": "2029-12",
+            "country": "N/A",
+            "enrollment": 988,
+            "brief_summary": "The goal of this clinical trial is to learn whether the antiarrhythmic drug flecainide can be used as safely as standard rhythm-control drugs in people with atrial fibrillation (AF) and stable coronary artery disease (CAD). The study includes adults aged 18 years and older who have AF and known but stable coronary artery disease.\n\nThe main questions this study aims to answer are:\n\n* Is treatment with flecainide as safe as standard rhythm-control drugs (sotalol or amiodarone) in this patient grou",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Voluntary written informed consent of the participant or their legally authorized representative has been obtained prior to any screening procedures\n2. At least 18 years of age at the time of signing the Informed Consent Form\n3. Non-permanent atrial fibrillation or ectopic at",
+            "endpoints": [
+              "Composite safety outcome"
+            ],
+            "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+            "url": "https://clinicaltrials.gov/study/NCT07405671"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00392106",
+            "title": "Study of Focused Circumferential UltraSound for the Treatment of Atrial Fibrillation",
+            "phase": "PHASE3",
+            "status": "SUSPENDED",
+            "start_date": "2006-04",
+            "completion_date": "2011-06",
+            "country": "Czechia, United States",
+            "enrollment": 240,
+            "brief_summary": "The purpose of this study is to determine if the HIFU Pulmonary Vein Ablation System is effective in the treatment of paroxysmal Atrial Fibrillation compared to the control of best medical therapy with FDA approved antiarrhythmic drugs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented atrial fibrillation\n* Failed or intolerant to at least 1 anti-arrhythmic drug\n* Able to take anti-coagulant therapy\n* Able to complete screening tests required for inclusion/exclusion criteria\n* Able to take at least 1 approved anti-arrhythmic drug\n* Not pregnant\n* ",
+            "endpoints": [
+              "Acute treatment with elimination of AF episodes",
+              "Death, stroke, and hospitalization for recurrence of AF"
+            ],
+            "sponsor": "ProRhythm, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00392106"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05939076",
+            "title": "First-line Cryoablation for Early Treatment of Persistent Atrial Fibrillation - a Randomized Study Comparing Early Trigger Isolation Using the Cryoballoon Versus Antiarrhythmic Medication",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2023-08-21",
+            "completion_date": "2028-12",
+            "country": "United Kingdom, Hungary, Slovakia, Sweden",
+            "enrollment": 220,
+            "brief_summary": "The goal of this multicentre, prospective, randomized, open, blinded for evaluation of end point (PROBE) controlled parallel-group superiority trial, is to compare the efficacy of antiarrhythmic drug (AAD) therapy and cryoballoon pulmonary vein isolation (PVI) regarding freedom from atrial fibrillation (%) assessed by an implantable cardiac monitor (ICM), ECG tracing or Holter at 12 months in patients with persistent AF. The main question\\[s\\] it aims to answer are:\n\n* Will first-line cryoballoo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Non-longstanding persistent symptomatic AF with at least 2 episodes within last 24 months, the latest episode within the previous 6 months and one documented on a 12 lead ECG or Holter monitor, that is classified as either\n\n  1. Classical persistent AF (continuously sustained ",
+            "endpoints": [
+              "Proportion of patients free from first atrial tachyarrhythmia recurrence lasting 6 minutes or longer"
+            ],
+            "sponsor": "Region Örebro County",
+            "url": "https://clinicaltrials.gov/study/NCT05939076"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02389218",
+            "title": "A Prospective Study of Medical Therapy Against Cryoballoon Ablation in Symptomatic Recent Onset Persistent Atrial Fibrilation",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-03-03",
+            "completion_date": "2020-05-14",
+            "country": "Belgium",
+            "enrollment": 13,
+            "brief_summary": "Prospective trial comparing the efficacy and safety of CryoBalloonAblation (CBA) to standardized medication for treatment of early onset persistent atrial fibrillation (AF) without structural heart disease. The value of CBA in these patients has never been studied; the endpoints for persistent patients are much easier than for paroxysmal patients. Reduction in left atrial (LA) size will be compared versus patients on drug therapy and versus failing patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\> 21 years and legally capable\n* First documentation or history of symptomatic AF more than 30 sec within the last 2 years\n* Twice AF within the last year\n* One episode cardioverted after more than 48 hours or spontaneously terminated after more than 7 days\n* Eligible for at ",
+            "endpoints": [
+              "Sinus rhythm"
+            ],
+            "sponsor": "University Hospital, Ghent",
+            "url": "https://clinicaltrials.gov/study/NCT02389218"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27159789",
+            "title": "Atrial fibrillation.",
+            "abstract": "Atrial fibrillation (AF) is the most common sustained cardiac rhythm disorder, and increases in prevalence with increasing age and the number of cardiovascular comorbidities. AF is characterized by a rapid and irregular heartbeat that can be asymptomatic or lead to symptoms such as palpitations, dyspnoea and dizziness. The condition can also be associated with serious complications, including an increased risk of stroke. Important recent developments in the clinical epidemiology and management of AF have informed our approach to this arrhythmia. This Primer provides a comprehensive overview of AF, including its epidemiology, mechanisms and pathophysiology, diagnosis, screening, prevention and management. Management strategies, including stroke prevention, rate control and rhythm control, are considered. We also address quality of life issues and provide an outlook on future developments and ongoing clinical trials in managing this common arrhythmia.",
+            "journal": "Nature reviews. Disease primers",
+            "year": "2016",
+            "authors": [
+              "Lip Gregory Y H",
+              "Fauchier Laurent",
+              "Freedman Saul B",
+              "Van Gelder Isabelle",
+              "Natale Andrea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ablation Techniques",
+              "Anticoagulants",
+              "Aspirin",
+              "Atrial Fibrillation",
+              "Dizziness",
+              "Dyspnea",
+              "Electric Countershock",
+              "Flecainide",
+              "Heart Failure",
+              "Heart Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27159789/"
+          },
+          {
+            "pmid": "11445058",
+            "title": "Atrial Flutter.",
+            "abstract": "Atrial flutter (AFl) is an arrhythmia resulting from reentry in a macroreentrant circuit, most commonly in the right atrium. Typical AFl uses the narrow isthmus of right atrial tissue between the tricuspid valve annulus and the inferior vena cava orifice as part of the macroreentrant circuit. The treatment of AFl is directed toward achieving the following four goals. 1) In the presence of AFl, adequate rate control is required, which can be achieved in most but not all patients by oral or intravenous digoxin, calcium channel blockers, or beta-blockers, alone or in combination. 2) Anticoagulation with warfarin should be considered in patients with recurrent AFl, especially those over 70 years of age, and those with a history of atrial fibrillation, stroke, or structural heart disease. 3) Conversion to sinus rhythm can be achieved in up to 70% of patients with intravenous ibutilide, but this should be reserved for patients with either normal hearts or only mild left ventricular dysfuncti",
+            "journal": "Current treatment options in cardiovascular medicine",
+            "year": "2001",
+            "authors": [
+              "Garg Ashok",
+              "Feld Gregory K."
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11445058/"
+          },
+          {
+            "pmid": "25430048",
+            "title": "Atrial fibrillation (acute onset).",
+            "abstract": "Acute atrial fibrillation is rapid, irregular, and chaotic atrial activity of recent onset. Various definitions of acute atrial fibrillation have been used in the literature, but for the purposes of this review we have included studies where atrial fibrillation may have occurred up to 7 days previously. Risk factors for acute atrial fibrillation include increasing age, cardiovascular disease, alcohol, diabetes, and lung disease. Acute atrial fibrillation increases the risk of stroke and heart failure. The condition resolves spontaneously within 24 to 48 hours in more than 50% of people; however, many people will require interventions to control heart rate or restore sinus rhythm.",
+            "journal": "BMJ clinical evidence",
+            "year": "2014",
+            "authors": [
+              "Lip Gregory Y H",
+              "Apostolakis Stavros"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Electric Countershock",
+              "Humans",
+              "Safety"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25430048/"
+          },
+          {
+            "pmid": "21718559",
+            "title": "Atrial fibrillation (acute onset).",
+            "abstract": "Acute atrial fibrillation is rapid, irregular, and chaotic atrial activity of less than 48 hours' duration. Risk factors for acute atrial fibrillation include increasing age, cardiovascular disease, alcohol, diabetes, and lung disease. Acute atrial fibrillation increases the risk of stroke and heart failure. The condition resolves spontaneously within 24 to 48 hours in over 50% of people; however, many people will require interventions to control heart rate or restore sinus rhythm.",
+            "journal": "BMJ clinical evidence",
+            "year": "2011",
+            "authors": [
+              "Lip Gregory Y H",
+              "Apostolakis Stavros"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Humans",
+              "Propafenone",
+              "Sotalol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21718559/"
+          },
+          {
+            "pmid": "19450312",
+            "title": "Atrial fibrillation (acute onset).",
+            "abstract": "Risk factors for acute atrial fibrillation include increasing age, cardiovascular disease, alcohol, diabetes, and lung disease. Acute atrial fibrillation increases the risk of stroke and heart failure. Acute atrial fibrillation resolves spontaneously within 24-48 hours in over 50% of people, however many people will require interventions to control heart rate or restore sinus rhythm.",
+            "journal": "BMJ clinical evidence",
+            "year": "2008",
+            "authors": [
+              "Lip Gregory Y H",
+              "Watson Timothy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Humans",
+              "Propafenone",
+              "Sotalol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19450312/"
+          },
+          {
+            "pmid": "37109225",
+            "title": "Comparing the Efficacy of Carvedilol and Flecainide on the Treatment of Idiopathic Premature Ventricular Complexes from Ventricular Outflow Tract: A Multicenter, Randomized, Open-Label Pilot Study.",
+            "abstract": "The mechanism of premature ventricular complexes (PVC) occurring in the ventricular outflow tract (OT) is related to an intracellular calcium overload and delayed afterdepolarizations that lead to triggered activity. The guidelines recommend using beta-blockers and flecainide for idiopathic PVCs, but they also acknowledge the limited evidence supporting this recommendation. We conducted a multicenter, randomized, open-label pilot study comparing the effect of carvedilol and flecainide on OT PVC, which are widely used to treat this arrhythmia. Patients with a 24 h Holter recording a PVC burden ≥ 5%, which showed positive R waves in leads II, III, and aVF, and without structural heart disease were enrolled. They were randomly assigned to the carvedilol or flecainide group, and the maximum tolerated dose was administered for 12 weeks. A total of 103 participants completed the protocol: 51 with carvedilol and 52 with flecainide. After 12 weeks of treatment, the mean PVC burden significantl",
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "authors": [
+              "Hwang Jongmin",
+              "Oh Yong-Seog",
+              "Park Hyoung-Seob",
+              "Choi Jong-Il",
+              "Lee Young Soo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37109225/"
+          },
+          {
+            "pmid": "38702961",
+            "title": "Safety and efficacy of long-term sodium channel blocker therapy for early rhythm control: the EAST-AFNET 4 trial.",
+            "abstract": "Clinical concerns exist about the potential proarrhythmic effects of the sodium channel blockers (SCBs) flecainide and propafenone in patients with cardiovascular disease. Sodium channel blockers were used to deliver early rhythm control (ERC) therapy in EAST-AFNET 4.",
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2024",
+            "authors": [
+              "Rillig Andreas",
+              "Eckardt Lars",
+              "Borof Katrin",
+              "Camm A John",
+              "Crijns Harry J G M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Male",
+              "Female",
+              "Treatment Outcome",
+              "Middle Aged",
+              "Flecainide",
+              "Anti-Arrhythmia Agents",
+              "Sodium Channel Blockers",
+              "Atrial Fibrillation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38702961/"
+          },
+          {
+            "pmid": "39077579",
+            "title": "The Challenge of Managing Atrial Fibrillation during Pregnancy.",
+            "abstract": "The incidence of atrial fibrillation (AF) during pregnancy increases with maternal age and with the presence of structural heart disorders. Early diagnosis and prompt therapy can considerably reduce the risk of thromboembolism. The therapeutic approach to AF during pregnancy is particularly challenging, and the maternal and fetal risks associated with the use of antiarrhythmic and anticoagulant drugs must be carefully evaluated. Moreover, the currently used thromboembolic risk scores have yet to be validated for the prediction of stroke during pregnancy. At present, electrical cardioversion is considered to be the safest and most effective strategy in women with hemodynamic instability. Beta-selective blockers are also recommended as the first choice for rate control. Antiarrhythmic drugs such as flecainide, propafenone and sotalol should be considered for rhythm control if atrioventricular nodal-blocking drugs fail. AF catheter ablation is currently not recommended during pregnancy. O",
+            "journal": "Reviews in cardiovascular medicine",
+            "year": "2023",
+            "authors": [
+              "Lucà Fabiana",
+              "Oliva Fabrizio",
+              "Abrignani Maurizio Giuseppe",
+              "Russo Maria Giovanna",
+              "Parrini Iris"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39077579/"
+          },
+          {
+            "pmid": "27884575",
+            "title": "Brugada Pattern Caused by a Flecainide Overdose.",
+            "abstract": "Brugada pattern can be found on the electrocardiogram (ECG) of patients with altered mental status, usually with fever or drug intoxication. Diagnosis remains challenging, because the ECG changes are dynamic and variable. In addition, triggers are not always clearly identified. In patients with atrial fibrillation (AF), the use of class IC antidysrhythmic drugs can unmask a Brugada pattern on the ECG, especially if combined with other medications acting on sodium channels.",
+            "journal": "The Journal of emergency medicine",
+            "year": "2017",
+            "authors": [
+              "Tessitore Elena",
+              "Ramlawi Majd",
+              "Tobler Olivier",
+              "Sunthorn Henri"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Atrial Fibrillation",
+              "Bipolar Disorder",
+              "Brugada Syndrome",
+              "Consciousness Disorders",
+              "Drug Overdose",
+              "Electrocardiography",
+              "Emergency Service, Hospital",
+              "Flecainide",
+              "Humans",
+              "Lamotrigine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27884575/"
+          },
+          {
+            "pmid": "28496906",
+            "title": "Risk of Cardiovascular Events, Stroke, Congestive Heart Failure, Interstitial Lung Disease, and Acute Liver Injury: Dronedarone versus Amiodarone and Other Antiarrhythmics.",
+            "abstract": "No published studies have evaluated the risks of cardiovascular (CV) events, stroke, congestive heart failure (CHF), interstitial lung disease (ILD), and severe acute liver injury (ALI) related to antiarrhythmics treatment in real-world clinical practice setting. We examined the relationship between the above events and the selected antiarrhythmics in the real-world setting in the US. Using a retrospective cohort design, the hazard ratios of the outcome events were analyzed from 10,455 adult patients with a diagnosis of atrial fibrillation/atrial flutter and a new treatment with dronedarone (comparison drug), amiodarone, sotalol, flecainide, or propafenone between 07/20/2009 and 12/31/2010 from the Clinformatics Data MartTM database. The patients were followed until: 1) switch to another antiarrhythmic drug, 2) occurrence of the outcome event, 3) end of enrollment, or 4) end of the study period, whichever occurred first. No significant differences were observed in the hazard ratios of ",
+            "journal": "Journal of atrial fibrillation",
+            "year": "2013",
+            "authors": [
+              "Gao Shujun",
+              "Dai Wanju",
+              "Zhang Ling",
+              "Juhaeri Juhaeri",
+              "Wang Yunxun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28496906/"
+          },
+          {
+            "pmid": "35114252",
+            "title": "Increased atrial effectiveness of flecainide conferred by altered biophysical properties of sodium channels.",
+            "abstract": "Atrial fibrillation (AF) affects over 1% of the population and is a leading cause of stroke and heart failure in the elderly. A feared side effect of sodium channel blocker therapy, ventricular pro-arrhythmia, appears to be relatively rare in patients with AF. The biophysical reasons for this relative safety of sodium blockers are not known. Our data demonstrates intrinsic differences between atrial and ventricular cardiac voltage-gated sodium currents (INa), leading to reduced maximum upstroke velocity of action potential and slower conduction, in left atria compared to ventricle. Reduced atrial INa is only detected at physiological membrane potentials and is driven by alterations in sodium channel biophysical properties and not by NaV1.5 protein expression. Flecainide displayed greater inhibition of atrial INa, greater reduction of maximum upstroke velocity of action potential, and slowed conduction in atrial cells and tissue. Our work highlights differences in biophysical properties",
+            "journal": "Journal of molecular and cellular cardiology",
+            "year": "2022",
+            "authors": [
+              "O' Brien Sian",
+              "Holmes Andrew P",
+              "Johnson Daniel M",
+              "Kabir S Nashitha",
+              "O' Shea Christopher"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Action Potentials",
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Flecainide",
+              "Heart Atria",
+              "Humans",
+              "Sodium",
+              "Sodium Channel Blockers",
+              "Sodium Channels"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35114252/"
+          },
+          {
+            "pmid": "4054136",
+            "title": "Comparative haemodynamic effects of intravenous flecainide in patients with and without heart failure and with and without beta-blocker therapy.",
+            "abstract": "The haemodynamic effects of flecainide were compared in three different subsets of patients with documented coronary disease. Ten patients (A) had no heart failure, 5 patients were on beta blockers (B) and 5 patients had overt heart failure (C). Flecainide was associated with negative inotropic effects that were relatively more pronounced in patients with left ventricular dysfunction: pulmonary wedge pressure increased by 27% in A, by 31% in B and by 42% in C; left ventricular stroke volume and stroke work decreased respectively by 10 and 12% in A, 21 and 19% in B, 26 and 28% in C. Ejection fraction decreased by 9% in A, 13% in B and 20% in C, in relation with an increase in end systolic volume (+9% in A, +10% in B and +5% in C). Absolute changes, however, were not significantly different from one group to another except for the increase of systemic vascular resistance which was more pronounced in C as compared with the other groups. The myocardial depression was also confirmed by the ",
+            "journal": "European heart journal",
+            "year": "1985",
+            "authors": [
+              "Legrand V",
+              "Materne P",
+              "Vandormael M",
+              "Collignon P",
+              "Kulbertus H E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Blood Pressure",
+              "Coronary Disease",
+              "Electrocardiography",
+              "Female",
+              "Flecainide",
+              "Heart Rate",
+              "Hemodynamics",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4054136/"
+          },
+          {
+            "pmid": "8199770",
+            "title": "Flecainide: its value and danger.",
+            "abstract": "Flecainide is an important addition to the therapeutic armamentarium because it is a potent agent for the treatment of paroxysmal supraventricular tachycardia in patients without structural heart disease. Flecainide also may be useful in patients with debilitating nonsustained ventricular arrhythmias in the absence of structural heart disease. It is rarely useful in the management of life-threatening sustained ventricular arrhythmias.",
+            "journal": "Heart disease and stroke : a journal for primary care physicians",
+            "year": "1994",
+            "authors": [
+              "Malik R",
+              "Ellenbogen K A",
+              "Stambler B S",
+              "Wood M A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Arrhythmias, Cardiac",
+              "Contraindications",
+              "Electrophysiology",
+              "Flecainide",
+              "Humans",
+              "Tachycardia, Supraventricular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8199770/"
+          },
+          {
+            "pmid": "6695822",
+            "title": "Effects of flecainide on ventricular function: clinical and experimental correlations.",
+            "abstract": "Flecainide has unusual electrophysiologic properties and a high potency for the suppression of ventricular tachyarrhythmias. Little is known about its inotropic and hemodynamic actions. In isolated rabbit papillary muscle, it produced a concentration-dependent depression of contractile force, the threshold concentration being 1.0 micrograms/ml. In patients undergoing coronary angiography for ischemic heart disease and given 1 (n = 11) and 2 mg/kg (n = 11) of flecainide acetate i.v., there was no change in heart rate or mean arterial pressure. The vehicle in which i.v. flecainide was suspended had no significant effects in 6 patients in whom it was tested. Both doses produced comparable hemodynamic effects irrespective of the level of the left ventricular ejection fraction. The mean right atrial pressure increased by 12% (p less than 0.05) after 1 mg/kg and by 15% (p less than 0.01) after 2 mg/kg of the drug. The corresponding increases in mean wedge pressure were 44% (p less than 0.05)",
+            "journal": "The American journal of cardiology",
+            "year": "1984",
+            "authors": [
+              "Josephson M A",
+              "Ikeda N",
+              "Singh B N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Animals",
+              "Anti-Arrhythmia Agents",
+              "Cardiac Catheterization",
+              "Coronary Disease",
+              "Female",
+              "Flecainide",
+              "Heart",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6695822/"
+          },
+          {
+            "pmid": "19265095",
+            "title": "Acute management of atrial fibrillation.",
+            "abstract": "Acute atrial fibrillation (AF) is the most common cardiac rhythm encountered in clinical practice and is commonly seen in acutely ill patients in critical care. In the latter setting, AF may have two main clinical sequelae: (1) haemodynamic instability and (2) thromboembolism. The approach to the management of AF can broadly be divided into a rate control strategy or a rhythm control strategy, and is largely driven by symptom assessment and functional status. A crucial part of AF management requires the appropriate use of thromboprophylaxis. In patients who are haemodynamically unstable with AF, urgent direct current cardioversion should be considered. Apart from electrical cardioversion, drugs are commonly used, and Class I (flecainide, propafenone) and Class III (amiodarone) antiarrhythmic drugs are more likely to revert AF to sinus rhythm. Beta blockers and rate limiting calcium blockers, as well as digoxin, are often used in controlling heart rate in patients with acute onset AF. T",
+            "journal": "Chest",
+            "year": "2009",
+            "authors": [
+              "Khoo Chee W",
+              "Lip Gregory Y H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Electric Countershock",
+              "Humans",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19265095/"
+          },
+          {
+            "pmid": "37676022",
+            "title": "Are antiarrhythmic agents indicated in premature ventricular complex-induced cardiomyopathy and when?",
+            "abstract": "Premature ventricular complexes (PVCs) are the most common ventricular arrhythmia that are encountered in the clinical practice. Recent data suggests that high PVC burden may lead to the development of PVC-induced cardiomyopathy (PVC-CM) even in patients without structural heart disease. Treatment for effective suppression of PVCs, can reverse PVC-CM. Both antiarrhythmic drugs (AADs) and catheter ablation (CA) are recognized treatment modalities for any cardiac arrhythmias. However, with increasing preference of CA, the role of AADs needs further defining regarding their efficacy, safety, indications and patient selection to treat PVC-CM.",
+            "journal": "Journal of cardiovascular electrophysiology",
+            "year": "2024",
+            "authors": [
+              "Kantharia Bharat K",
+              "Shah Arti N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Arrhythmia Agents",
+              "Ventricular Premature Complexes",
+              "Stroke Volume",
+              "Ventricular Dysfunction, Left",
+              "Cardiomyopathies",
+              "Catheter Ablation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37676022/"
+          },
+          {
+            "pmid": "40800559",
+            "title": "Flecainide fallout: a rare case report of refractory ventricular tachycardia and updated management strategies.",
+            "abstract": "Flecainide is a Class IC antiarrhythmic drug used to treat arrhythmias such as atrial fibrillation (AF), paroxysmal supraventricular tachycardia, and ventricular tachycardia (VT). Its mechanism involves blocking sodium channels, leading to QRS widening, especially at higher heart rates. This property increases the risk of pro-arrhythmic events, particularly in patients with structural heart disease or ischaemia.",
+            "journal": "European heart journal. Case reports",
+            "year": "2025",
+            "authors": [
+              "Kumar Abhishek",
+              "Gupta Manisha",
+              "Varshney Amratansh",
+              "Kumar Rounak"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40800559/"
+          },
+          {
+            "pmid": "30067936",
+            "title": "National Heart Foundation of Australia and Cardiac Society of Australia and New Zealand: Australian clinical guidelines for the diagnosis and management of atrial fibrillation 2018.",
+            "abstract": "Atrial fibrillation (AF) is increasing in prevalence and is associated with significant morbidity and mortality. The optimal diagnostic and treatment strategies for AF are continually evolving and care for patients requires confidence in integrating these new developments into practice. These clinical practice guidelines will assist Australian practitioners in the diagnosis and management of adult patients with AF. Main recommendations: These guidelines provide advice on the standardised assessment and management of patients with atrial fibrillation regarding: screening, prevention and diagnostic work-up; acute and chronic arrhythmia management with antiarrhythmic therapy and percutaneous and surgical ablative therapies; stroke prevention and optimal use of anticoagulants; and integrated multidisciplinary care. Changes in management as a result of the guideline: Opportunistic screening in the clinic or community is recommended for patients over 65 years of age. The importance of decidi",
+            "journal": "The Medical journal of Australia",
+            "year": "2018",
+            "authors": [
+              "Brieger David",
+              "Amerena John",
+              "Attia John R",
+              "Bajorek Beata",
+              "Chan Kim H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Atrial Fibrillation",
+              "Australia",
+              "Humans",
+              "New Zealand"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30067936/"
+          },
+          {
+            "pmid": "38551548",
+            "title": "Class 1C Antiarrhythmics for Premature Ventricular Complex Suppression in Nonischemic Cardiomyopathy With Implantable Cardioverter-Defibrillators.",
+            "abstract": "Premature ventricular complexes (PVCs) are common and associated with worse outcomes in patients with heart failure. Class 1C antiarrhythmic drugs (AADs) effectively suppress PVCs, but guidelines currently restrict their use in structural heart disease.",
+            "journal": "JACC. Clinical electrophysiology",
+            "year": "2024",
+            "authors": [
+              "Raad Mohamad",
+              "Yogasundaram Haran",
+              "Oranefo Justice",
+              "Guandalini Gustavo",
+              "Markman Timothy"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Anti-Arrhythmia Agents",
+              "Cardiomyopathies",
+              "Defibrillators, Implantable",
+              "Middle Aged",
+              "Aged",
+              "Ventricular Premature Complexes",
+              "Flecainide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38551548/"
+          },
+          {
+            "pmid": "19678722",
+            "title": "Pharmacologic management of atrial fibrillation: established and emerging options.",
+            "abstract": "In patients with atrial fibrillation (AF), antiarrhythmic drug therapy currently plays a greater role in maintaining sinus rhythm after cardioversion than it does in converting AF to sinus rhythm. Amiodarone is the most effective antiarrhythmic agent for maintaining sinus rhythm after cardioversion in patients with AF. However, its pharmacokinetics is complex; the drug interacts with many commonly used medications; and long-term use can cause thyroid dysfunction, hepatotoxicity, and other severe extracardiac adverse effects. The use of antiarrhythmic strategies in patients with AF has decreased because of evidence of greater safety and lower costs for hospitalization obtained from the use of rate-control strategies instead. Nevertheless, some patients require a rhythm-control strategy. Warfarin is used to prevent embolic stroke in many patients with AF, but its use is also complex and requires monitoring. Therefore, efforts have been made to develop antiarrhythmic agents with improved ",
+            "journal": "Journal of managed care pharmacy : JMCP",
+            "year": "2009",
+            "authors": [
+              "Kalus James S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Clinical Trials as Topic",
+              "Drug Interactions",
+              "Drug Monitoring",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19678722/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete susceptibility to ischemic stroke",
+        "txgnn_score": 0.998596727848053,
+        "txgnn_rank": 2618,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sick sinus syndrome 2, autosomal dominant",
+        "txgnn_score": 0.9979339838027954,
+        "txgnn_rank": 3505,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ABri amyloidosis",
+        "txgnn_score": 0.9974421262741088,
+        "txgnn_rank": 4092,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sarcoglycanopathy",
+        "txgnn_score": 0.9969461560249328,
+        "txgnn_rank": 4649,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Wildervanck syndrome",
+        "txgnn_score": 0.996766209602356,
+        "txgnn_rank": 4829,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "macrocephaly, dysmorphic facies, and psychomotor retardation",
+        "txgnn_score": 0.9950554370880128,
+        "txgnn_rank": 6440,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "duodenal obstruction",
+        "txgnn_score": 0.993493378162384,
+        "txgnn_rank": 7834,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cerebrovascular disorder",
+        "txgnn_score": 0.9922426342964172,
+        "txgnn_rank": 8840,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01288352",
+            "title": "Early Therapy of Atrial Fibrillation for Stroke Prevention Trial (EAST).",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-07-01",
+            "completion_date": "2020-05-31",
+            "country": "Switzerland, Spain, United Kingdom, France, Belgium, Netherlands, Germany, Italy, Denmark, Czechia, Poland",
+            "enrollment": 2789,
+            "brief_summary": "EAST prospectively tests the hypothesis that an early, structured rhythm control therapy based on antiarrhythmic drugs and catheter ablation can prevent atrial fibrillation (AF) related complications in patients with AF when compared to usual care.\n\nPatients will be randomized to early therapy or usual care. In the early therapy group, patients will receive either catheter ablation (usually by pulmonary vein isolation), or adequate antiarrhythmic drug therapy at an early time point. The initial ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Recent-onset AF (≤ 1 year prior to enrolment)\n2. At least one ECG within recent 12 months that documents AF whereas the AF episode must last longer than 30 sec.\n3. One of the following:\n\n   * age \\> 75 years or\n   * prior stroke or transient ischemic attack\n\n   OR two of the ",
+            "endpoints": [
+              "A composite of cardiovascular death, stroke and hospitalization due to worsening of heart failure or due to acute coronary syndrome."
+            ],
+            "sponsor": "Atrial Fibrillation Network",
+            "url": "https://clinicaltrials.gov/study/NCT01288352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02248753",
+            "title": "Acute Cardioversion Versus Wait And See-approach for Symptomatic Atrial Fibrillation in the Emergency Department (RACE 7 ACWAS-trial)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2014-10",
+            "completion_date": "2019-12",
+            "country": "Netherlands",
+            "enrollment": 437,
+            "brief_summary": "A symptomatic episode of the heart rhythm disorder 'atrial fibrillation' (AF) is a frequent reason for visits to the emergency department. Currently, in the majority of cases, immediate (electrical or pharmacological) cardioversion is chosen, while atrial fibrillation terminates spontaneously in 70% of the cases within 24 hours. A wait-and-see approach with rate-control medication only, and when needed cardioversion within 48 hours of onset of symptoms, could be effective, safe and more cost-eff",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ECG with atrial fibrillation at the emergency department\n* Heart rate \\> 70bpm\n* Symptoms most probable due to atrial fibrillation\n* Duration of symptoms \\< 36 hours\n* \\> 18 years of age\n* Able and willing to sign informed consent\n* Able and willing to use MyDiagnostick\n\nExclu",
+            "endpoints": [
+              "12-lead ECG"
+            ],
+            "sponsor": "Maastricht University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02248753"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06096337",
+            "title": "A Prospective Randomized Multicenter Global Study Comparing Pulsed Field Ablation (PFA) Versus Anti-Arrhythmic Drug (AAD) Therapy as a First Line Treatment for Persistent Atrial Fibrillation",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-12-28",
+            "completion_date": "2028-02-04",
+            "country": "Hong Kong, Australia, Spain, France, Canada, Croatia, Belgium, Austria, Germany, Italy, United States, Singapore, Taiwan",
+            "enrollment": 484,
+            "brief_summary": "The purpose of this study is to establish the safety and effectiveness of pulsed field ablation as a first-line ablation treatment for subjects with persistent atrial fibrillation as compared to subjects who received an initial treatment with anti-arrhythmic drugs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years of age, or older if specified by local law\n2. Have symptomatic persistent AF, confirmed by both:\n\n   a. Documentation, within 180 days of randomization, or treatment assignment for roll-in subjects, of either: i. A 24-hour continuous ECG recording (from any reg",
+            "endpoints": [
+              "Rate of randomized PFA or PFA Assigned subjects with PFA System inserted into the body, during the index or repeat PFA procedure during blanking period, with device or procedure-related Composite Adverse Events that is serious.",
+              "Rate of intent to treat subjects with treatment success from the pulse field ablation treatment and Anti-Arrhythmic Drug treatment."
+            ],
+            "sponsor": "Boston Scientific Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT06096337"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06783868",
+            "title": "Randomized Control Study to Assess the Neurological Outcomes After Atrial Fibrillation Ablation for Rhythm Control vs Routine Medication Therapy in Patients With Recent Stroke: SAVE STROKE Phase II Study",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-10",
+            "completion_date": "2027-06",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "A prospective, non-blinded, multi-center study to assess the impact of early Catheter Ablation (CA) in patients with a new diagnosis of Atrial Fibrillation(AF) at the time of stroke. 100 patients will be enrolled.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ages \\>18 and able to provide consent.\n* Presenting with an acute stroke and new-onset AF\n* Modified RANKIN score (mRS) \\< 6\n* Must be able to undergo some form of cardiac monitoring \\[implantable loop recorder (ILR), electrocardiogram (ECG), Holter monitor\\] to quantify AF bu",
+            "endpoints": [
+              "Functional neurologic outcome - Modified Rankin Scale",
+              "Recurrent Stroke"
+            ],
+            "sponsor": "Kansas City Heart Rhythm Research Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT06783868"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05293080",
+            "title": "Early Treatment of Atrial Fibrillation for Stroke Prevention Trial in Acute STROKE",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-09",
+            "completion_date": "2029-03",
+            "country": "N/A",
+            "enrollment": 1746,
+            "brief_summary": "This study will determine whether early, comprehensive, rhythm control therapy prevents adverse cardiovascular outcome in patients with acute ischemic stroke and atrial fibrillation compared to usual care.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Acute ischemic stroke in the previous four weeks, diagnosed by imaging (CT or MRI) or clinical diagnosis\n* Possibility to start the trial treatment within 4 weeks after stroke, and as soon as clinically justifiable\n* AF first detected ≤1 year prior to randomization\n* Informed ",
+            "endpoints": [
+              "Time to first recurrent stroke, cardiovascular death, or hospitalization due to worsening of heart failure or due to acute coronary syndrome."
+            ],
+            "sponsor": "Universitätsklinikum Hamburg-Eppendorf",
+            "url": "https://clinicaltrials.gov/study/NCT05293080"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05213104",
+            "title": "Assessment of Flecainide to Lower the Patent Foramen Ovale Closure Risk of Atrial Arrhythmia or Tachycardia",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-03-23",
+            "completion_date": "2026-07",
+            "country": "France",
+            "enrollment": 186,
+            "brief_summary": "About 30% of ischemic strokes are cryptogenic. Patent Foramen Ovale (PFO) is present in about 25% of the general population. In cryptogenic strokes, PFO has been shown to be overrepresented and recent intervention studies have confirmed that PFO has a causal link with stroke. In patients with recent cryptogenic stroke, these randomized studies have shown at least 50%-reduction of recurrent neurological events after PFO percutaneous closure compared with medical therapy alone. At the The risk of ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥ 18 years of age\n* They are candidates for a procedure of PFO closure, whatever the indication (secondary prevention of stroke, platypnoea, decompression illness…). The indication must have been confirmed by a multidisciplinary team as recommended by the Haute Autorité de San",
+            "endpoints": [
+              "percentage of patients with at least one episode of atrial arrythmia"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT05213104"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27159789",
+            "title": "Atrial fibrillation.",
+            "abstract": "Atrial fibrillation (AF) is the most common sustained cardiac rhythm disorder, and increases in prevalence with increasing age and the number of cardiovascular comorbidities. AF is characterized by a rapid and irregular heartbeat that can be asymptomatic or lead to symptoms such as palpitations, dyspnoea and dizziness. The condition can also be associated with serious complications, including an increased risk of stroke. Important recent developments in the clinical epidemiology and management of AF have informed our approach to this arrhythmia. This Primer provides a comprehensive overview of AF, including its epidemiology, mechanisms and pathophysiology, diagnosis, screening, prevention and management. Management strategies, including stroke prevention, rate control and rhythm control, are considered. We also address quality of life issues and provide an outlook on future developments and ongoing clinical trials in managing this common arrhythmia.",
+            "journal": "Nature reviews. Disease primers",
+            "year": "2016",
+            "authors": [
+              "Lip Gregory Y H",
+              "Fauchier Laurent",
+              "Freedman Saul B",
+              "Van Gelder Isabelle",
+              "Natale Andrea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ablation Techniques",
+              "Anticoagulants",
+              "Aspirin",
+              "Atrial Fibrillation",
+              "Dizziness",
+              "Dyspnea",
+              "Electric Countershock",
+              "Flecainide",
+              "Heart Failure",
+              "Heart Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27159789/"
+          },
+          {
+            "pmid": "38702961",
+            "title": "Safety and efficacy of long-term sodium channel blocker therapy for early rhythm control: the EAST-AFNET 4 trial.",
+            "abstract": "Clinical concerns exist about the potential proarrhythmic effects of the sodium channel blockers (SCBs) flecainide and propafenone in patients with cardiovascular disease. Sodium channel blockers were used to deliver early rhythm control (ERC) therapy in EAST-AFNET 4.",
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2024",
+            "authors": [
+              "Rillig Andreas",
+              "Eckardt Lars",
+              "Borof Katrin",
+              "Camm A John",
+              "Crijns Harry J G M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Male",
+              "Female",
+              "Treatment Outcome",
+              "Middle Aged",
+              "Flecainide",
+              "Anti-Arrhythmia Agents",
+              "Sodium Channel Blockers",
+              "Atrial Fibrillation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38702961/"
+          },
+          {
+            "pmid": "27884575",
+            "title": "Brugada Pattern Caused by a Flecainide Overdose.",
+            "abstract": "Brugada pattern can be found on the electrocardiogram (ECG) of patients with altered mental status, usually with fever or drug intoxication. Diagnosis remains challenging, because the ECG changes are dynamic and variable. In addition, triggers are not always clearly identified. In patients with atrial fibrillation (AF), the use of class IC antidysrhythmic drugs can unmask a Brugada pattern on the ECG, especially if combined with other medications acting on sodium channels.",
+            "journal": "The Journal of emergency medicine",
+            "year": "2017",
+            "authors": [
+              "Tessitore Elena",
+              "Ramlawi Majd",
+              "Tobler Olivier",
+              "Sunthorn Henri"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Atrial Fibrillation",
+              "Bipolar Disorder",
+              "Brugada Syndrome",
+              "Consciousness Disorders",
+              "Drug Overdose",
+              "Electrocardiography",
+              "Emergency Service, Hospital",
+              "Flecainide",
+              "Humans",
+              "Lamotrigine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27884575/"
+          },
+          {
+            "pmid": "25820938",
+            "title": "Antiarrhythmics for maintaining sinus rhythm after cardioversion of atrial fibrillation.",
+            "abstract": "Atrial fibrillation is the most frequent sustained arrhythmia. Atrial fibrillation frequently recurs after restoration of normal sinus rhythm. Antiarrhythmic drugs have been widely used to prevent recurrence, but the effect of these drugs on mortality and other clinical outcomes is unclear. This is an update of a review previously published in 2008 and 2012.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "authors": [
+              "Lafuente-Lafuente Carmelo",
+              "Valembois Lucie",
+              "Bergmann Jean-François",
+              "Belmin Joël"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Cause of Death",
+              "Electric Countershock",
+              "Humans",
+              "Randomized Controlled Trials as Topic",
+              "Recurrence",
+              "Secondary Prevention"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25820938/"
+          },
+          {
+            "pmid": "41152878",
+            "title": "Concomitant use of direct oral anticoagulants and interacting antiarrhythmic drugs and the risk of stroke and bleeding among patients with non-valvular atrial fibrillation: a multinational cohort study.",
+            "abstract": "Several antiarrhythmic drugs can interact with direct oral anticoagulants (DOACs) through pharmacokinetic mechanisms increasing DOAC levels. Our multinational cohort study assessed the effectiveness and safety of concomitant use of DOACs and interacting antiarrhythmic drugs among patients with non-valvular atrial fibrillation (NVAF).",
+            "journal": "BMC medicine",
+            "year": "2025",
+            "authors": [
+              "Meinert Fabian Maximilian",
+              "Dimakos Jenny",
+              "Cui Ying",
+              "Filion Kristian B",
+              "Renoux Christel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Atrial Fibrillation",
+              "Male",
+              "Female",
+              "Anti-Arrhythmia Agents",
+              "Aged",
+              "Middle Aged",
+              "Hemorrhage",
+              "Anticoagulants",
+              "Cohort Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41152878/"
+          },
+          {
+            "pmid": "19265095",
+            "title": "Acute management of atrial fibrillation.",
+            "abstract": "Acute atrial fibrillation (AF) is the most common cardiac rhythm encountered in clinical practice and is commonly seen in acutely ill patients in critical care. In the latter setting, AF may have two main clinical sequelae: (1) haemodynamic instability and (2) thromboembolism. The approach to the management of AF can broadly be divided into a rate control strategy or a rhythm control strategy, and is largely driven by symptom assessment and functional status. A crucial part of AF management requires the appropriate use of thromboprophylaxis. In patients who are haemodynamically unstable with AF, urgent direct current cardioversion should be considered. Apart from electrical cardioversion, drugs are commonly used, and Class I (flecainide, propafenone) and Class III (amiodarone) antiarrhythmic drugs are more likely to revert AF to sinus rhythm. Beta blockers and rate limiting calcium blockers, as well as digoxin, are often used in controlling heart rate in patients with acute onset AF. T",
+            "journal": "Chest",
+            "year": "2009",
+            "authors": [
+              "Khoo Chee W",
+              "Lip Gregory Y H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Electric Countershock",
+              "Humans",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19265095/"
+          },
+          {
+            "pmid": "41029687",
+            "title": "Fatty acid metabolism in ischemic stroke: multi-omics biomarker discovery and therapeutic potential of GPR84.",
+            "abstract": "Ischemic stroke (IS), a leading cause of global disability and premature mortality, results from cerebral artery occlusion and subsequent ischemic necrosis. Fatty acid metabolism (FAM) plays a crucial role in energy supply and oxidative damage associated with IS, yet reliable biomarkers and targeted therapies remain elusive, necessitating systematic investigation.",
+            "journal": "BMC medical genomics",
+            "year": "2025",
+            "authors": [
+              "Wu Jun",
+              "Wu Da",
+              "Qi Ming",
+              "Jiang Kuan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Receptors, G-Protein-Coupled",
+              "Biomarkers",
+              "Ischemic Stroke",
+              "Fatty Acids",
+              "Male",
+              "Transcriptome",
+              "Female",
+              "Gene Expression Profiling",
+              "Molecular Docking Simulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41029687/"
+          },
+          {
+            "pmid": "1344090",
+            "title": "Atrial fibrillation: conventional wisdom reappraised.",
+            "abstract": "For years the conventional approach to treatment of atrial fibrillation has centered around use of digoxin for rate control and type IA agents for conversion to normal sinus rhythm and has avoided use of anticoagulation therapy for most patients. Current data suggest that new conventions are needed. beta-Blockers or calcium channel blockers should be considered equal to, if not better than, digoxin for rate control. Type IA agents are still the drugs of choice for conversion to and maintenance of normal sinus rhythm, but the newer agents propafenone and flecainide, and perhaps even amiodarone, may be more efficacious if preliminary data are truly indicative of their effect. The use of antiarrhythmic agents requires caution and careful attention to factors that may predispose patients to their inherent proarrhythmic effects. Finally, anticoagulation therapy is no longer reserved for a few patients but should be used in low doses in most patients (when not contraindicated) to lower risk ",
+            "journal": "Heart disease and stroke : a journal for primary care physicians",
+            "year": "1992",
+            "authors": [
+              "Blazing M A",
+              "Morris J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Cerebrovascular Disorders",
+              "Electric Countershock",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1344090/"
+          },
+          {
+            "pmid": "12670640",
+            "title": "Pharmacologic and nonpharmacologic options to maintain sinus rhythm: guideline-based and new approaches.",
+            "abstract": "Atrial fibrillation is a common arrhythmia in patients with heart failure and is responsible for substantial morbidity and mortality. Restoration and preservation of sinus rhythm, therefore, has a premium. Of the numerous treatment options available, many must be avoided because of their potential for adverse effects or because of limited proof of efficacy in defined populations. Published guidelines provide help by synthesizing clinical trial data into a recommended approach. This article summarizes current information regarding the best methods applicable to patients with left ventricular dysfunction for rate control, sinus rhythm restoration and maintenance, and stroke prevention. New and evolving therapies and how they might fit into the evolving treatment paradigm are also briefly reviewed.",
+            "journal": "The American journal of cardiology",
+            "year": "2003",
+            "authors": [
+              "Kowey Peter R",
+              "Yan Gan Xin",
+              "Winkel Elaine",
+              "Kao Walter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Cardiac Pacing, Artificial",
+              "Catheter Ablation",
+              "Flecainide",
+              "Heart Rate",
+              "Humans",
+              "Phenethylamines",
+              "Practice Guidelines as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12670640/"
+          },
+          {
+            "pmid": "37216662",
+            "title": "Risk for Bleeding-Related Hospitalizations During Use of Amiodarone With Apixaban or Rivaroxaban in Patients With Atrial Fibrillation : A Retrospective Cohort Study.",
+            "abstract": "Amiodarone, the most effective antiarrhythmic drug in atrial fibrillation, inhibits apixaban and rivaroxaban elimination, thus possibly increasing anticoagulant-related risk for bleeding.",
+            "journal": "Annals of internal medicine",
+            "year": "2023",
+            "authors": [
+              "Ray Wayne A",
+              "Chung Cecilia P",
+              "Stein C Michael",
+              "Smalley Walter",
+              "Zimmerman Eli"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aged",
+              "Female",
+              "United States",
+              "Male",
+              "Rivaroxaban",
+              "Atrial Fibrillation",
+              "Amiodarone",
+              "Flecainide",
+              "Sotalol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37216662/"
+          },
+          {
+            "pmid": "23322136",
+            "title": "Contemporary approach to electrical and pharmacological cardioversion of atrial fibrillation.",
+            "abstract": "In patients with atrial fibrillation (AF), a rhythm-control strategy may be adopted when there are unacceptable symptoms from AF, failure of rate control, and/or the presence of comorbidities, such as heart failure, that may improve with restoration of sinus rhythm. When a rhythm-control strategy is chosen and the patient is in persistent AF, cardioversion will be necessary to convert the rhythm to sinus. Patients with AF present for > 48 hours must be effectively anticoagulated both prior to and after cardioversion. With newer oral anticoagulants, achieving effective anticoagulation is faster and more reliable, with no requirement for blood test monitoring. Cardioversion can be accomplished either electrically or pharmacologically, and in some cases, electrical cardioversion may be facilitated pharmacologically. Electrical cardioversion has a higher success rate compared with pharmacological cardioversion in the short-term. Pharmacological cardioversion is usually accomplished with in",
+            "journal": "Postgraduate medicine",
+            "year": "2012",
+            "authors": [
+              "Rajagopalan Bharath",
+              "Curtis Anne B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Electric Countershock",
+              "Humans",
+              "Stroke",
+              "Thromboembolism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23322136/"
+          },
+          {
+            "pmid": "28335638",
+            "title": "Incidence and clinical predictors of subsequent atrial fibrillation requiring additional ablation after cavotricuspid isthmus ablation for typical atrial flutter.",
+            "abstract": "We sought to investigate the incidence of atrial fibrillation after catheter ablation for typical atrial flutter and to determine the predictors for symptomatic atrial fibrillation that required a further additional dedicated ablation procedure.",
+            "journal": "Scandinavian cardiovascular journal : SCJ",
+            "year": "2017",
+            "authors": [
+              "De Bortoli Alessandro",
+              "Shi Li-Bin",
+              "Ohm Ole-Jørgen",
+              "Hoff Per Ivar",
+              "Schuster Peter"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Atrial Flutter",
+              "Catheter Ablation",
+              "Cerebrovascular Disorders",
+              "Chi-Square Distribution",
+              "Female",
+              "Flecainide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28335638/"
+          },
+          {
+            "pmid": "31952984",
+            "title": "One-year clinical events and management of patients with atrial fibrillation hospitalized in cardiology centers: Data from the BLITZ-AF study.",
+            "abstract": "The management of atrial fibrillation (AF) has changed with the introduction of direct anticoagulants (DOACs) and new techniques such as catheter ablation. An update collection of data from \"real world\" AF patients followed by cardiologists is useful to obtain information on both management, outcomes and guideline adherence in clinical practice.",
+            "journal": "European journal of internal medicine",
+            "year": "2020",
+            "authors": [
+              "Cemin Roberto",
+              "Colivicchi Furio",
+              "Maggioni Aldo P",
+              "Boriani Giuseppe",
+              "De Luca Leonardo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Cardiology",
+              "Humans",
+              "Registries",
+              "Stroke"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31952984/"
+          },
+          {
+            "pmid": "37000581",
+            "title": "Cardiovascular outcomes in patients with atrial fibrillation concomitantly treated with antiarrhythmic drugs and non-vitamin k antagonist oral anticoagulants.",
+            "abstract": "Limited data compared antiarrhythmic drugs (AADs) with concomitant non-vitamin K antagonist oral anticoagulants in atrial fibrillation patients, hence the aim of the study.",
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2023",
+            "authors": [
+              "Wu Victor Chien-Chia",
+              "Wang Chun-Li",
+              "Huang Yu-Chang",
+              "Tu Hui-Tzu",
+              "Huang Yu-Tung"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Propafenone",
+              "Administration, Oral",
+              "Brain Ischemia",
+              "Anticoagulants",
+              "Stroke",
+              "Amiodarone",
+              "Dronedarone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37000581/"
+          },
+          {
+            "pmid": "23871349",
+            "title": "Low stroke risk after elective cardioversion of atrial fibrillation: an analysis of the Flec-SL trial.",
+            "abstract": "Current recommendations for anticoagulation management during cardioversion are largely based on historical data and expert consensus.",
+            "journal": "International journal of cardiology",
+            "year": "2013",
+            "authors": [
+              "Apostolakis Stavros",
+              "Haeusler Karl Georg",
+              "Oeff Michael",
+              "Treszl Andras",
+              "Andresen Dietrich"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Cohort Studies",
+              "Electric Countershock",
+              "Female",
+              "Flecainide",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23871349/"
+          },
+          {
+            "pmid": "30528621",
+            "title": "Impact of dronedarone on the risk of myocardial infarction and stroke in atrial fibrillation patients followed in general practices in Germany.",
+            "abstract": "The goal of this study was to analyze the impact of dronedarone on the risk of myocardial infarction and stroke in atrial fibrillation (AF) patients followed in general practices in Germany.",
+            "journal": "International journal of cardiology",
+            "year": "2019",
+            "authors": [
+              "Ehrlich Joachim R",
+              "Look Christiane",
+              "Kostev Karel",
+              "Israel Carsten W",
+              "Goette Andreas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Databases, Factual",
+              "Dronedarone",
+              "Female",
+              "Follow-Up Studies",
+              "General Practice",
+              "Germany"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30528621/"
+          },
+          {
+            "pmid": "2114081",
+            "title": "[Incessant idiopathic ventricular tachycardia in infants].",
+            "abstract": "Reduction of the arrhythmia was obtained in 1 to 5 days, spontaneously (2 cases) of after oral amiodarone (500 to 2000 mg/m2/24 hr) (5 cases) or intravenous flecainide or propafenone in the two most critically ill patients. With the exception of 1 patient who was successfully treated with propranolol for 1 year, amiodarone was prescribed in all cases for 7 to 36 months after reversion to sinus rhythm: 5 children have been taken off treatment and seem to be completely cured 4 to 9 years after withdrawal; the other 3 patients have not had recurrences but have only been treated for 6 to 15 months. One of them has neurological sequellae from a cerebral embolism originating from an atrial thrombus. These results show that incessant ventricular tachycardia in infancy is a serious condition but amenable to medical treatment with high dose amiodarone or, when poorly tolerated, intravenous Class 1c antiarrhythmics for reduction of the arrhythmia, and amiodarone at adequate doses for 2 years to ",
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1990",
+            "authors": [
+              "Villain E",
+              "Bonnet D",
+              "Kachaner J",
+              "Le Bidois J",
+              "Cohen L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Cardiomyopathies",
+              "Child, Preschool",
+              "Electrocardiography",
+              "Female",
+              "Flecainide",
+              "Follow-Up Studies",
+              "Heart Neoplasms",
+              "Heart Ventricles",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2114081/"
+          },
+          {
+            "pmid": "8729366",
+            "title": "[Atrial electrophysiological study of unexplained ischemic cerebrovascular disorders].",
+            "abstract": "The aim of this study was to search for the presence of atrial vulnerability by programmed atrial stimulation in patients with unexplained ischaemic cerebrovascular strokes and to evaluate the effects of intravenous flecainide acetate on the electrophysiological parameters and on the induction of atrial arrhythmias. Thirty-eight patients (20 men, 18 women) with a mean age of 38.4 +/- 11 years were investigated. Programmed atrial pacing triggered a sustained (> 1 min) atrial arrhythmia with 1 or 2 extrastimuli in 23 of the 38 patients (61%), in these patients, there was a significant shortening of the effective refractory periods (ERP: 193 +/- 23 vs 218 +/- 30 ms; p < 0.02) and of the functional refractory periods (FRP: 228 +/- 25 vs 253 +/- 27 ms; p < 0.01) with lengthening of the A2 auriculogramme (99.7 +/- 22 vs 76.1 +/- 16 ms; p < 0.05). A combined study of the refractory periods and conduction defects provides a means of calculating an index of latent vulnerability which is greatly",
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1995",
+            "authors": [
+              "Reeb T",
+              "de Chillou C",
+              "Sadoul N",
+              "Lacour J C",
+              "Ducrocq X"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Atrial Flutter",
+              "Cardiac Pacing, Artificial",
+              "Cerebrovascular Disorders",
+              "Electrocardiography, Ambulatory",
+              "Female",
+              "Flecainide",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8729366/"
+          },
+          {
+            "pmid": "22177826",
+            "title": "Usefulness of postmortem biochemistry in forensic pathology: illustrative case reports.",
+            "abstract": "The aim of this work is to present some practical, postmortem biochemistry applications to illustrate the usefulness of this discipline and reassert the importance of carrying out biochemical investigations as an integral part of the autopsy process. Five case reports are presented pertaining to diabetic ketoacidosis in an adult who was not known to suffer from diabetes and in presence of multiple psychotropic substances; fatal flecainide intoxication in a poor metabolizer also presenting an impaired renal function; diabetic ketoacidosis showing severe postmortem changes; primary aldosteronism presented with intracranial hemorrhage and hypothermia showing severe postmortem changes. The cases herein presented can be considered representative examples of the importance of postmortem biochemistry investigations, which may provide significant information useful in determining the cause of death in routine forensic casework or contribute to understanding the pathophysiological mechanisms in",
+            "journal": "Legal medicine (Tokyo, Japan)",
+            "year": "2012",
+            "authors": [
+              "Palmiere Cristian",
+              "Lesta Maria del Mar",
+              "Sabatasso Sara",
+              "Mangin Patrice",
+              "Augsburger Marc"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "2-Propanol",
+              "3-Hydroxybutyric Acid",
+              "Adult",
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "Benzodiazepines",
+              "Biomarkers",
+              "Blood Urea Nitrogen",
+              "Cytochrome P-450 CYP2D6",
+              "Diabetic Ketoacidosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22177826/"
+          },
+          {
+            "pmid": "1715060",
+            "title": "The interaction of antiarrhythmic drugs and the energy for cardioversion of chronic atrial fibrillation.",
+            "abstract": "Antiarrhythmic drugs may alter the energy for cardioversion of ventricular arrhythmias. This study compares the energy necessary for cardioverting chronic atrial fibrillation in 57 patients taking type Ia, Ic, or type III antiarrhythmic drugs. Patients taking Ia (n = 22) or III (n = 14) drugs had a median energy for cardioversion of 100 joules, while the patients taking Ic (n = 17) drugs had a median energy of 200 joules (P = 0.03). There were no differences in the frequency of unsuccessful cardioversion. There were no serious adverse events in any of the three groups, although three patients in the Ic group had greater than 3 second pauses after the shock. The data suggest that the use of Ic antiarrhythmic drugs results in a higher energy for cardioversion of atrial fibrillation. However with higher energies, conversion is as successful as for type Ia and type III.",
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "1991",
+            "authors": [
+              "Guarnieri T",
+              "Tomaselli G",
+              "Griffith L S",
+              "Brinker J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Bradycardia",
+              "Cerebrovascular Disorders",
+              "Chronic Disease",
+              "Electric Countershock",
+              "Electrocardiography",
+              "Energy Transfer",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1715060/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9920663833618164,
+        "txgnn_rank": 8982,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01195",
+    "name": "Flecainide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Flecainide"
+      },
+      "queried_at": "2026-03-09T16:31:33.657151",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Flecainide"
+      },
+      "queried_at": "2026-03-09T16:31:37.183316",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "stroke disorder"
+      },
+      "queried_at": "2026-03-09T16:31:39.485128",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "stroke disorder"
+      },
+      "queried_at": "2026-03-09T16:31:47.882556",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "stroke disorder"
+      },
+      "queried_at": "2026-03-09T16:31:51.213694",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-09T16:31:51.930547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-09T16:31:57.021941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-09T16:31:57.819857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "sick sinus syndrome 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-09T16:31:58.982760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "sick sinus syndrome 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-09T16:32:03.381625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "sick sinus syndrome 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-09T16:32:05.279792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T16:32:06.318957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T16:32:11.486248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T16:32:12.761319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "sarcoglycanopathy"
+      },
+      "queried_at": "2026-03-09T16:32:14.331072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "sarcoglycanopathy"
+      },
+      "queried_at": "2026-03-09T16:32:19.624532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "sarcoglycanopathy"
+      },
+      "queried_at": "2026-03-09T16:32:21.442365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "Wildervanck syndrome"
+      },
+      "queried_at": "2026-03-09T16:32:22.187763",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "Wildervanck syndrome"
+      },
+      "queried_at": "2026-03-09T16:32:26.711491",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "Wildervanck syndrome"
+      },
+      "queried_at": "2026-03-09T16:32:27.818041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      },
+      "queried_at": "2026-03-09T16:32:29.011082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      },
+      "queried_at": "2026-03-09T16:32:34.462519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      },
+      "queried_at": "2026-03-09T16:32:36.631732",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-09T16:32:37.976484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-09T16:32:42.112574",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "duodenal obstruction"
+      },
+      "queried_at": "2026-03-09T16:32:43.584070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-09T16:32:51.323211",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-09T16:32:57.044311",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "cerebrovascular disorder"
+      },
+      "queried_at": "2026-03-09T16:33:03.876542",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T16:33:05.495225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T16:33:10.621614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flecainide",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T16:33:15.271438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:33:15.346947"
+  }
+}

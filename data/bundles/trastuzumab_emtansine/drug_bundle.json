@@ -1,0 +1,2791 @@
+{
+  "drug": {
+    "inn": "Trastuzumab emtansine",
+    "drugbank_id": "DB05773",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "progesterone-receptor positive breast cancer",
+        "txgnn_score": 0.9981807470321656,
+        "txgnn_rank": 3170,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04675827",
+            "title": "De-Escalation of Adjuvant Chemotherapy in HER2-positive, Estrogen Receptor-negative, Node-negative Early Breast Cancer Patients Who Achieved Pathological Complete Response After Neoadjuvant Chemotherapy and Dual HER2 Blockade",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-01-17",
+            "completion_date": "2024-11-26",
+            "country": "Switzerland, Australia, France, South Korea, Belgium, Israel",
+            "enrollment": 139,
+            "brief_summary": "DECRESCENDO is a multicentre, open-label, dual-phase single-arm phase II de-escalation study evaluating neoadjuvant treatment with 12 administrations of weekly IV paclitaxel 80 mg/m2 (or IV docetaxel 75 mg/m2 every 3 weeks for 4 cycles) combined with subcutaneous (SC) fixed dose combination (FDC) of pertuzumab and trastuzumab (loading dose of 1200 mg pertuzumab and 600 mg trastuzumab, followed by 600 mg pertuzumab and 600 mg trastuzumab) every 3 weeks for 4 cycles.\n\nSurgery will be performed acc",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female.\n2. Age ≥18 years old.\n3. Eastern Cooperative Oncology Group (ECOG) performance status ≤1.\n4. Subjects whose tumour measures ≥15 mm and ≤50 mm, according to clinical staging performed with imaging exams (either mammography, ultrasound or breast magnetic resonan",
+            "endpoints": [
+              "3-year RFS in HER2-enriched subjects who achieve a pCR"
+            ],
+            "sponsor": "Jules Bordet Institute",
+            "url": "https://clinicaltrials.gov/study/NCT04675827"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03726879",
+            "title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled Clinical Trial To Evaluate the Efficacy and Safety Of Atezolizumab or Placebo in Combination With Neoadjuvant Doxorubicin + Cyclophosphamide Followed By Paclitaxel + Trastuzumab + Pertuzumab In Early Her2-Positive Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-01-11",
+            "completion_date": "2023-08-24",
+            "country": "Spain, Canada, South Korea, Brazil, Germany, Italy, United States, Russia, Czechia, Poland, Taiwan, Japan",
+            "enrollment": 454,
+            "brief_summary": "This study (also known as IMpassion050) will evaluate the efficacy and safety of atezolizumab compared with placebo when given in combination with neoadjuvant dose-dense anthracycline (doxorubicin) + cyclophosphamide followed by paclitaxel + trastuzumab + pertuzumab (ddAC-PacHP) in patients with early HER2-positive breast cancer (T2-4, N1-3, M0).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of HER2-positive breast cancer, and hormonal and PD-L1 status, as documented through central testing of a representative tumor tissue specimen\n* Primary breast tumor size of \\> 2 cm by any radiographic measurement\n* Stage at presentation: T2-T4, N1-N3, M0 a",
+            "endpoints": [
+              "Percentage of Participants With Pathological Complete Response (pCR) in the PD-L1-Positive Population (IC 1/2/3)",
+              "pCR in the ITT Population"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03726879"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02326974",
+            "title": "The Impact of HER2 Heterogeneity on the Treatment of Early-stage HER2-positive Breast Cancer: a Phase II Study of T-DM1 in Combination With Pertuzumab in the Preoperative Setting",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2015-01",
+            "completion_date": "2028-01",
+            "country": "United States",
+            "enrollment": 164,
+            "brief_summary": "This research study is studying a combination of drugs as a possible treatment for breast cancer that has tested positive for a protein called HER2.\n\nThe names of the study interventions involved in this study are:\n\n* Trastuzumab emtansine (also called T-DM1)\n* Pertuzumab",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have HER2-positive Stage II or III histologically confirmed invasive carcinoma of the breast. A minimum tumor size of 2 cm determined by physical exam or imaging is required.\n* HER-2 positive, confirmed by central testing (Clarient labs): IHC 3+ and/or FISH posit",
+            "endpoints": [
+              "Rate of Pathologic Complete Response (pCR) by HER2 Amplification Status Non-Heterogeneous"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02326974"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06131424",
+            "title": "Multicentre NIS Retrospective Study to Know the Prevalence of HER2- Low,Clinical Characteristics,Treatment Patterns,Associated Outcome in Patient With HER2-negative in Metastatic Breast Cancer Who Progressed on Systemic Anticancer Therapy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2024-04-23",
+            "completion_date": "2025-05-19",
+            "country": "Hong Kong, India, Brazil, Indonesia, Argentina, Malaysia, Mexico, Philippines, Panama, Singapore, Dominican Republic, Vietnam, Thailand",
+            "enrollment": 1151,
+            "brief_summary": "This noninterventional, multicenter,retrospective study has been proposed to estimate the prevalence, clinicopathological characteristics,treatment patterns and clinical outcomes of human epidermal growth factor receptor 2 -(HER2)low locally-advanced or metastatic breast cancer(mBC) by accurate rescoring of archived IHC-stained formalin-fixed paraffin-embedded (FFPE) slides for HER2 in patients previously identified as HER2-negative from emerging markets of international regions (non-US and non-",
+            "eligibility_criteria": "Inclusion Criteria:1. Men or women, ≥18 years of age 2. Provision of informed consent by the patient or next of kin/legal representative (for deceased patients at study entry, unless a waiver was granted) according to local regulations 3. Must have a histological or cytological confirmed previous di",
+            "endpoints": [
+              "Proportion of patients with IHC 1+ or IHC 2+/ISH- HER2 expression.",
+              "Proportion of patients with HER2 ultra-low (IHC 0 (pattern 0+) with membrane staining ie, incomplete and faint/barely perceptible in ≤10% tumor cells) HER2 expression and IHC null (IHC 0 ie, absent membrane staining),"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT06131424"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39631485",
+            "title": "Targeted and cytotoxic inhibitors used in the treatment of breast cancer.",
+            "abstract": "Breast cancer is the most commonly diagnosed malignancy and the fifth leading cause of cancer deaths worldwide. Surgery and radiation therapy are localized therapies for early-stage and metastatic breast cancer. The management of breast cancer is determined in large part by the HER2 (human epidermal growth factor receptor 2), HR (hormone receptor), ER (estrogen receptor), and PR (progesterone receptor) status. Our views of breast cancer are evolving as its molecular hallmarks are examined, which now include immunohistochemical markers (ER, PR, HER2, and proliferation marker protein Ki-67), genomic markers (BRCA1/2 and PIK3CA), and immunomarkers (tumor-infiltrating lymphocytes and PDL1). About two-thirds of malignancies of the breast are HR-positive/HER2-negative; accordingly, endocrine-based therapy is a major treatment option for these patients. Hormonal or endocrine therapy includes selective estrogen receptor modulators (SERMs) such as raloxifene, tamoxifen and toremifene, selective",
+            "journal": "Pharmacological research",
+            "year": "2024",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Breast Neoplasms",
+              "Female",
+              "Antineoplastic Agents",
+              "Animals",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39631485/"
+          },
+          {
+            "pmid": "35640077",
+            "title": "Systemic Therapy for Advanced Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer: ASCO Guideline Update.",
+            "abstract": "To update evidence-based guideline recommendations to practicing oncologists and others on systemic therapy for patients with human epidermal growth factor receptor 2 (HER2)-positive advanced breast cancer.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2022",
+            "authors": [
+              "Giordano Sharon H",
+              "Franzoi Maria Alice B",
+              "Temin Sarah",
+              "Anders Carey K",
+              "Chandarlapaty Sarat"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Practice Guidelines as Topic",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Stroke Volume",
+              "Trastuzumab",
+              "Ventricular Function, Left"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35640077/"
+          },
+          {
+            "pmid": "35251981",
+            "title": "Durable Effect of Pyrotinib and Metronomic Vinorelbine in HER2-Positive Breast Cancer With Leptomeningeal Disease: A Case Report and Literature Review.",
+            "abstract": "Leptomeningeal metastases (LM) are rare and catastrophic for metastatic breast cancer (MBC). The prognosis of HER2-positive breast cancer (BC) with LM is extremely poor. There is no high-quality evidence of treatment regimens in HER2-positive BC with LM yet. Here, we present a case of LM in a 50-year-old woman with HER2-positive BC. Immunohistochemistry revealed invasive ductal carcinoma, estrogen receptor negative, progesterone receptor negative, HER2 3+, P53 positive 80%, and Ki-67 positive 35%. Reported for the first time, the patient was given pyrotinib-targeted therapy (400 mg, oral, every day), metronomic vinorelbine (40 mg, oral, three times a week), and intrathecal methotrexate (10 mg, infrequent and irregular use due to poor compliance) synchronously. The patient received and benefited from the treatment regimen for 16 months. And the quality of life, as self-reported, improved significantly. We also comprehensively summarized all the case reports, observational studies, and c",
+            "journal": "Frontiers in oncology",
+            "year": "2022",
+            "authors": [
+              "Chi Yajing",
+              "Shang Mao",
+              "Xu Liang",
+              "Gong Heyi",
+              "Tao Rongjie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35251981/"
+          },
+          {
+            "pmid": "35140078",
+            "title": "Receptor conversion and vocal cord paralysis in a patient with breast cancer.",
+            "abstract": "Receptor conversion in breast cancer occurs in up to 32% of patients, resulting in ineffective therapy in the absence of corresponding biomarkers. We report a case of a middle-aged woman who presented with a 2-month history of hoarseness. Laryngoscopy demonstrated right vocal cord paralysis. Whole body positron emission tomography-CT (PET-CT) scan showed a hypermetabolic cervical lymph node, worrisome for metastasis. Biopsy of the cervical lymph node was consistent with metastatic carcinoma of the breast (GATA3 and mammaglobin positive, oestrogen receptor (OR)-positive, progesterone receptor-negative and human epidermal growth factor receptor 2 (HER2)-positive). She underwent targeted therapy with ado-trastuzumab emtansine every 3 weeks. Repeat PET-CT scan after 6 months showed stable disease. Reassessment of receptor status in metastatic breast cancer is encouraged to rule out receptor conversion. There is significant cross-talk between OR and HER2 signalling pathways, leading to trea",
+            "journal": "BMJ case reports",
+            "year": "2022",
+            "authors": [
+              "Tan Harold Nathan",
+              "Catedral Lance Isidore Garcenila",
+              "Velasco Rogelio Jr",
+              "San Juan Michael"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Lymph Nodes",
+              "Middle Aged",
+              "Positron Emission Tomography Computed Tomography",
+              "Positron-Emission Tomography",
+              "Vocal Cord Paralysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35140078/"
+          },
+          {
+            "pmid": "40642740",
+            "title": "Long Durable Response With Trastuzumab Deruxtecan Monotherapy in a Triple-Negative Metastatic Breast Cancer Patient With Human Epidermal Growth Factor Receptor 2 Mutation: A Long-Term Follow-Up and Literature Review.",
+            "abstract": "The human epidermal growth factor receptor 2 (HER2)/erythroblastic oncogene B2 (ERBB2) is a tyrosine kinase receptor protein that plays an important role in the pathogenesis and aggressive nature of the tumors. It is well studied in various cancers, including breast, gastric, esophageal, ovarian, lung, and endometrial cancers. It is a well-known negative prognostic indicator in breast cancer associated with decreased disease-free survival and overall survival. Breast cancer treatment has been revolutionized with the invention of targeted monoclonal antibody therapies against the HER2 receptor, particularly trastuzumab and its antibody-drug conjugates (ADCs). HER2-targeted therapies have proven to improve progression-free survival and overall survival when added to chemotherapy in adjuvant, neoadjuvant, and metastatic settings in patients who are HER2-positive. ADCs approved for breast cancer include trastuzumab emtansine (Kadcyla, T-DM1) and trastuzumab deruxtecan (Enhertu, T-DXd). Wit",
+            "journal": "Journal of medical cases",
+            "year": "2025",
+            "authors": [
+              "Idamakanti Muralidhar",
+              "Bijjam Rani Indrani",
+              "Kumar Manoj",
+              "Mukkamalla Shiva Kumar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40642740/"
+          },
+          {
+            "pmid": "29939838",
+            "title": "Systemic Therapy for Patients With Advanced Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer: ASCO Clinical Practice Guideline Update.",
+            "abstract": "Purpose To update evidence-based guideline recommendations for practicing oncologists and others on systemic therapy for patients with human epidermal growth factor receptor 2 (HER2)-positive advanced breast cancer to 2018. Methods An Expert Panel conducted a targeted systematic literature review (for both systemic treatment and CNS metastases) and identified 622 articles. Outcomes of interest included overall survival, progression-free survival, and adverse events. Results Of the 622 publications identified and reviewed, no additional evidence was identified that would warrant a change to the 2014 recommendations. Recommendations HER2-targeted therapy is recommended for patients with HER2-positive advanced breast cancer, except for those with clinical congestive heart failure or significantly compromised left ventricular ejection fraction, who should be evaluated on a case-by-case basis. Trastuzumab, pertuzumab, and taxane for first-line treatment and trastuzumab emtansine for second-",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2018",
+            "authors": [
+              "Giordano Sharon H",
+              "Temin Sarah",
+              "Chandarlapaty Sarat",
+              "Crews Jennie R",
+              "Esteva Francisco J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Erb-b2 Receptor Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29939838/"
+          },
+          {
+            "pmid": "33726508",
+            "title": "Current trends in the treatment of HR+/HER2+ breast cancer.",
+            "abstract": "Treatment for HR+/HER2+ patients has been debated, as some tumors within this luminal HER2+ subtype behave like luminal A cancers, whereas others behave like non-luminal HER2+ breast cancers. Recent research and clinical trials have revealed that a combination of hormone and targeted anti-HER2 approaches without chemotherapy provides long-term disease control for at least some HR+/HER2+ patients. Novel anti-HER2 therapies, including neratinib and trastuzumab emtansine, and new agents that are effective in HR+ cancers, including the next generation of oral selective estrogen receptor downregulators/degraders and CDK4/6 inhibitors such as palbociclib, are now being evaluated in combination. This review discusses current trials and results from previous studies that will provide the basis for current recommendations on how to treat newly diagnosed patients with HR+/HER2+ disease.",
+            "journal": "Future oncology (London, England)",
+            "year": "2021",
+            "authors": [
+              "Kay Charlene",
+              "Martínez-Pérez Carlos",
+              "Meehan James",
+              "Gray Mark",
+              "Webber Victoria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Chemotherapy, Adjuvant",
+              "Clinical Trials as Topic",
+              "Estrogen Receptor Antagonists",
+              "Female",
+              "Humans",
+              "Immunoconjugates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33726508/"
+          },
+          {
+            "pmid": "24799465",
+            "title": "Systemic therapy for patients with advanced human epidermal growth factor receptor 2-positive breast cancer: American Society of Clinical Oncology clinical practice guideline.",
+            "abstract": "To provide evidence-based recommendations to practicing oncologists and others on systemic therapy for patients with human epidermal growth factor receptor 2 (HER2) -positive advanced breast cancer.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2014",
+            "authors": [
+              "Giordano Sharon H",
+              "Temin Sarah",
+              "Kirshner Jeffrey J",
+              "Chandarlapaty Sarat",
+              "Crews Jennie R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Anastrozole",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Breast Neoplasms",
+              "Clinical Trials as Topic",
+              "Comorbidity",
+              "Docetaxel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24799465/"
+          },
+          {
+            "pmid": "28259011",
+            "title": "Clinical use of biomarkers in breast cancer: Updated guidelines from the European Group on Tumor Markers (EGTM).",
+            "abstract": "Biomarkers play an essential role in the management of patients with invasive breast cancer. For selecting patients likely to respond to endocrine therapy, both oestrogen receptors (ERs) and progesterone receptors (PRs) should be measured on all newly diagnosed invasive breast cancers. On the other hand, for selecting likely response to all forms of anti-HER2 therapy (trastuzumab, pertuzumab, lapatinib or ado-trastuzumab emtansine), determination of HER2 expression or gene copy number is mandatory. Where feasible, measurement of ER, PR and HER2 should be performed on recurrent lesions and the primary invasive tumour. Although methodological problems exist in the determination of Ki67, because of its clearly established clinical value, wide availability and low costs relative to the available multianalyte signatures, Ki67 may be used for determining prognosis, especially if values are low or high. In oestrogen receptor (ER)-positive, HER2-negative, lymph node-negative patients, multiana",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2017",
+            "authors": [
+              "Duffy M J",
+              "Harbeck N",
+              "Nap M",
+              "Molina R",
+              "Nicolini A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Biomarkers, Tumor",
+              "Breast Neoplasms",
+              "Female",
+              "Gene Expression Profiling",
+              "Genetic Testing",
+              "Humans",
+              "Ki-67 Antigen",
+              "Neoplasm Proteins",
+              "Plasminogen Activator Inhibitor 1",
+              "Practice Guidelines as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28259011/"
+          },
+          {
+            "pmid": "25873876",
+            "title": "Dose-reduced trastuzumab emtansine: active and safe in acute hepatic dysfunction.",
+            "abstract": "Breast cancer is the most common cancer in women worldwide. The majority of deaths attributed to breast cancer are a result of metastatic disease, and 30% of early breast cancers (EBC) will develop distant disease. The 5-year survival of patients with metastatic disease is estimated at 23%. Breast cancer subtypes continue to be stratified histologically on oestrogen, progesterone and human epidermal growth factor-2 (HER2) receptor expression. HER2-positive breast cancers represent 25% of all breast cancer diagnoses. The therapies available for metastatic breast cancer (MBC) are expanding, in particular within the field of HER2-positive disease, with the approval of trastuzumab, pertuzumab, lapatinib and trastuzumab emtansine (TDM-1). Recently, TDM-1 has been shown to improve progression-free survival in HER2 MBC when compared to capecitabine and lapatinib in clinical studies. Its main toxicities are deranged liver function tests and thrombocytopenia. There have also been cases of acute",
+            "journal": "Case reports in oncology",
+            "year": "2015",
+            "authors": [
+              "Sharp Adam",
+              "Johnston Stephen R D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25873876/"
+          },
+          {
+            "pmid": "37445276",
+            "title": "Aminosteroid RM-581 Decreases Cell Proliferation of All Breast Cancer Molecular Subtypes, Alone and in Combination with Breast Cancer Treatments.",
+            "abstract": "Breast cancer (BC) is a heterogenous disease classified into four molecular subtypes (Luminal A, Luminal B, HER2 and triple-negative (TNBC)) depending on the expression of the estrogen receptor (ER), the progesterone receptor (PR) and the human epidermal receptor 2 (HER2). The development of effective treatments for BC, especially TNBC, remains a challenge. Aminosteroid derivative RM-581 has previously shown an antiproliferative effect in multiple cancers in vitro and in vivo. In this study, we evaluated its effect in BC cell lines representative of BC molecular subtypes, including metastatic TNBC. We found that RM-581 has an antiproliferative effect on all BC molecular subtypes, especially on Luminal A and TNBC, in 2D and 3D cultures. The combination of RM-581 and trastuzumab or trastuzumab-emtansine enhanced the anticancer effect of each drug for HER2-positive BC cell lines, and the combination of RM-581 and taxanes (docetaxel or paclitaxel) improved the antiproliferative effect of R",
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "authors": [
+              "Burguin Anna",
+              "Roy Jenny",
+              "Ouellette Geneviève",
+              "Maltais René",
+              "Bherer Juliette"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37445276/"
+          },
+          {
+            "pmid": "41098634",
+            "title": "Trastuzumab Deruxtecan Significantly Reduces Human Epidermal Growth Factor Receptor 2-Positive Pancreatic Metastasis from Advanced Breast Cancer: A Case Report.",
+            "abstract": "Pancreatic metastases from breast cancer are rare, with only 61 reported cases. They are often difficult to differentiate from primary pancreatic cancer based on clinical presentation and imaging. The median overall survival after the diagnosis of pancreatic metastases has been reported to be short (17 months).",
+            "journal": "Surgical case reports",
+            "year": "2025",
+            "authors": [
+              "Tanida Rino",
+              "Tanaka Takashige",
+              "Hamada-Nishimoto Mai",
+              "Senda Noriko",
+              "Kang Yookija"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41098634/"
+          },
+          {
+            "pmid": "34215766",
+            "title": "The prognostic relevance of HER2-positivity gain in metastatic breast cancer in the ChangeHER trial.",
+            "abstract": "In metastatic breast cancer (mBC), the change of human epidermal growth factor receptor 2 (HER2) status between primary and metastatic lesions is widely recognized, however clinical implications are unknown. Our study address the question if relevant differences exist between subjects who preserve the HER2 status and those who gain the HER2 positivity when relapsed. Data of patients affected by HER2-positive mBC, treated with pertuzumab and/or trastuzumab-emtansine (T-DM1) in a real-world setting at 45 Italian cancer centers were retrospectively collected and analyzed. From 2003 to 2017, 491 HER2-positive mBC patients were included. Of these, 102 (20.7%) had been initially diagnosed as HER2-negative early BC. Estrogen and/or progesterone receptor were more expressed in patients with HER2-discordance compared to patients with HER2-concordant status (p < 0.0001 and p = 0.006, respectively). HER2-discordant tumors were characterized also by a lower rate of brain metastases (p = 0.01) and ",
+            "journal": "Scientific reports",
+            "year": "2021",
+            "authors": [
+              "Pizzuti Laura",
+              "Barba Maddalena",
+              "Mazzotta Marco",
+              "Krasniqi Eriseld",
+              "Maugeri-Saccà Marcello"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brain Neoplasms",
+              "Breast Neoplasms",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34215766/"
+          },
+          {
+            "pmid": "24892840",
+            "title": "New developments in metastatic breast cancer: integrating recent data into clinical practice.",
+            "abstract": "The treatment of metastatic breast cancer continues to be a challenging area for medical oncologists. Breast tumors are classified into several groups based on immunohistochemistry: those that are estrogen-receptor–positive and human epidermal growth factor receptor 2 (HER2)-negative; those that are HER2-positive and either estrogen-receptor–positive or estrogen-receptor–negative; and those that are negative for the estrogen receptor, progesterone receptor, and HER2 (known as triple-negative). These biologic factors are an important component of the risk assessment and treatment strategy. Management goals for advanced disease are to target treatment to the specific biology in a more effective way, and to add in targeted agents that may improve the effectiveness of standard therapies, such as hormone therapy and chemotherapy. There are several new therapies that are changing outcome for patients with metastatic disease, such as eribulin, pertuzumab, and ado-trastuzumab emtansine. It is ",
+            "journal": "Clinical advances in hematology & oncology : H&O",
+            "year": "2013",
+            "authors": [
+              "Perez Edith A",
+              "Rugo Hope S",
+              "Vahdat Linda T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast",
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Neoplasm Metastasis",
+              "Erb-b2 Receptor Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24892840/"
+          },
+          {
+            "pmid": "33482449",
+            "title": "Favorable survival with combined treatment in a metastatic breast cancer patient undergoing hemodialysis: A case report.",
+            "abstract": "Management of breast cancer patients undergoing hemodialysis (HD) is difficult because of a lack of evidence about drug selection, dose adjustment, and surgical procedures. We herein present a case of metastatic breast cancer in a patient undergoing HD.",
+            "journal": "International journal of surgery case reports",
+            "year": "2021",
+            "authors": [
+              "Matsumoto Megumi",
+              "Yano Hiroshi",
+              "Otsubo Ryota",
+              "Tanaka Aya",
+              "Nagayasu Takeshi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33482449/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "normal breast-like subtype of breast carcinoma",
+        "txgnn_score": 0.9981807470321656,
+        "txgnn_rank": 3171,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06348134",
+            "title": "Assessing the Efficacy and Safety of Optimal Neoadjuvant to Adjuvant Anti-HER2- Based Therapy in Nigerian Women With HER2+ Breast Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-03-18",
+            "completion_date": "2036-07-01",
+            "country": "Nigeria",
+            "enrollment": 74,
+            "brief_summary": "Doctors leading this study would like to learn about providing cancer treatment/therapies to Nigerian women with breast cancer based on their human epidermal growth factor receptor 2 (HER2) status. This study will focus on the efficacy and safety of anti-HER2 cancer treatment before and after surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nWritten informed consent must be obtained prior to any screening procedures\n\n1. Women ages of 18 to 70 years old\n2. Biopsy-accessible breast tumor of significant size for core needle biopsy /ultrasound measurable (≥ 2cm)\n3. Measurable breast tumour using ultrasonography (≥ 2cm)\n",
+            "endpoints": [
+              "Pathological Complete Response"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT06348134"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "progesterone-receptor negative breast cancer",
+        "txgnn_score": 0.9981768131256104,
+        "txgnn_rank": 3175,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06299852",
+            "title": "Stereotactic Radiation Therapy for HE2-positive Oligometastatic Breast Cancer",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-07-01",
+            "completion_date": "2025-09-01",
+            "country": "Russia",
+            "enrollment": 58,
+            "brief_summary": "This study involves two non-randomized groups of patients: the observation group and the comparison group. The comparison group will retrospectively include data on 29 patients with oligometastatic HER2-positive breast cancer who received treatment with trastuzumab-emtansine and had a history of SRT.\n\nThe prospective part of this study aims to include 29 patients with oligometastatic HER2-positive breast cancer. These patients will undergo SRT followed by the administration of trastuzumab emtans",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients must be at least 18 years of age and able to give written informed consent and comply with study procedures;\n2. Clinical diagnosis: breast cancer, metastatic form;\n3. Oligo-metastatic disease as determined by standard of care diagnostics, limited to 5 total individua",
+            "endpoints": [
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "N.N. Petrov National Medical Research Center of Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT06299852"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02658734",
+            "title": "A Multicenter, Open-Label, Single-Arm, Phase IV Study of Trastuzumab Emtansine in Indian Patients With HER2-Positive Unresectable Locally Advanced or Metastatic Breast Cancer Who Have Received Prior Treatment With Trastuzumab and a Taxane",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-11-01",
+            "completion_date": "2019-12-14",
+            "country": "India",
+            "enrollment": 70,
+            "brief_summary": "This is a Phase IV, single-arm, multicenter, open-label clinical trial designed to assess the safety of trastuzumab emtansine in Indian patients with HER2-positive unresectable locally advanced breast cancer (LABC) or metastatic breast cancer (mBC) who have received prior treatment with trastuzumab and a taxane.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Prospectively confirmed HER2-positive (i.e., IHC 3+ or IHC 2+ and gene amplified by fluorescence in situ hybridization \\[FISH\\] positive) as assessed on primary tumor and/or metastatic site\n* Documented progression of unresectable, locally advanced, or mBC, determined by the i",
+            "endpoints": [
+              "Severity of Adverse Events",
+              "Percentage of Participants With Adverse Events"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT02658734"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05081609",
+            "title": "IL Believe: A Phase 1/2, Open-label, Dose Escalation and Dose Expansion Study to Investigate the Safety and Tolerability of TransCon IL-2 β/γ Alone or in Combination With Pembrolizumab, TransCon TLR7/8 Agonist, or Other Anticancer Therapies, in Adult Participants With Locally Advanced or Metastatic Solid Tumor Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-01-11",
+            "completion_date": "2029-08",
+            "country": "Australia, Spain, Canada, South Korea, Belgium, Italy, United States, Singapore, Taiwan, Poland",
+            "enrollment": 320,
+            "brief_summary": "TransCon IL-2 β/γ is an investigational drug being developed for treatment of locally advanced or metastatic solid tumors. This is a first-in-human, open-label, Phase 1/2, dose escalation and dose expansion study of TransCon IL-2 β/γ as monotherapy or in combination therapy in adult participants with advanced or metastatic solid tumors. Given the unique PK profile enabled by the TransCon technology, TransCon IL-2 β/γ presents the opportunity to enhance the therapeutic index of current IL-2 thera",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* At least 18 years of age, or country defined local legal age\n* Demonstrated adequate organ function at screening\n* Life expectancy \\>12 weeks as determined by the Investigator\n* Female and male participants of childbearing potential who are sexually active must agree to us",
+            "endpoints": [
+              "Safety and Tolerability",
+              "Maximum Tolerated Dose (MTD)",
+              "Recommended Phase 2 Dose (RP2D)"
+            ],
+            "sponsor": "Ascendis Pharma A/S",
+            "url": "https://clinicaltrials.gov/study/NCT05081609"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05578287",
+            "title": "Disitamab Vedotin Combined With Tislelizumab, Low-dose Capecitabine and Celecoxib as Salvage Therapy for HER2-positive Metastatic Colorectal Cancer: a Phase II Trial (DETECT)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2023-07-18",
+            "completion_date": "2025-12-25",
+            "country": "China",
+            "enrollment": 29,
+            "brief_summary": "As an established therapeutic target, HER2 is widely used in a variety of tumors, including breast cancer and gastric cancer, among which a variety of drugs, including trastuzumab, lapatinib and T-DM1, have been approved for the treatment of breast cancer and gastric cancer with HER2 amplification or overexpression. In colorectal cancer, HER2 as a target has also been focused in recent years.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. A voluntarily signed and dated informed consent must be obtained from the subject in accordance with regulations and institutional guidelines before performing any protocol-related procedures other than routine care;\n2. Aged 18-75;\n3. Patients with pathologically or cytologic",
+            "endpoints": [
+              "Safety",
+              "Feasibility"
+            ],
+            "sponsor": "Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT05578287"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07008976",
+            "title": "A Randomized, Open-label, Parallel-controlled Phase III Clinical Trial to Evaluate the Efficacy and Safety of TQB2102 for Injection Versus Trastuzumab Emtansine for Injection in Patients With HER2-positive Advanced Breast Cancer",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-07-07",
+            "completion_date": "2028-12",
+            "country": "China",
+            "enrollment": 246,
+            "brief_summary": "This study adopted a randomized, open-label, positive drug-controlled, multi-center trial design. The primary endpoint was PFS evaluated by the Independent Review Committee (IRC). Eligible subjects were randomly assigned in a 1:1 ratio to receive either TQB2102 for injection or trastuzumab emtansine for injection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The subjects voluntarily participated in this study, signed the informed consent form, and had good compliance;\n* Age: 18 - 75 years old (at the time of signing the informed consent form); Eastern Cooperative Oncology Group (ECOG )score ≤ 1; Expected survival period exceeds 3 ",
+            "endpoints": [
+              "The Progression-Free Survival (PFS) evaluated by Independent Review Committee (IRC)"
+            ],
+            "sponsor": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT07008976"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05530057",
+            "title": "Randomized, Open Label, Multi-Center, Phase II Trial of Eribulin With or Without SB3 (Trastuzumab-biosimilar) in Patients With HER2-overexpressed Recurrent or Stage IV Breast Cancer Who Have Received at Least 2 Prior HER2-directed Regimens",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2020-02-18",
+            "completion_date": "2028-06-30",
+            "country": "South Korea",
+            "enrollment": 180,
+            "brief_summary": "Optimal salvage treatment for HER2-positive breast cancer after trastuzumab and T-DM1 failure still remains to be established. We would like to investigate the efficacy and safety of combination chemotherapy of eribulin and trastuzumab as salvage treatment for HER2-Positive breast cancer after exposure to trastuzumab and T-DM1",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults ≥18 years old.\n* Pathologically documented breast cancer that:\n\n  * is unresectable or metastatic\n  * has confirmed HER2 positive expression (immunohistochemistry or FISH) as determined according to American Society of Clinical Oncology - College of American Pathologist",
+            "endpoints": [
+              "Primary Efficacy Endpoint(PFS)"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05530057"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03084939",
+            "title": "A Randomized, Multicenter, Phase III Open-Label Study of the Efficacy and Safety of Trastuzumab Emtansine Versus Lapatinib Plus Capecitabine in Chinese Patients With HER2-Positive Locally Advanced or Metastatic Breast Cancer Who Have Received Prior Trastuzumab-Based Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-04-24",
+            "completion_date": "2023-03-14",
+            "country": "China",
+            "enrollment": 351,
+            "brief_summary": "This is a Phase III, randomized, multicenter, two-arm, open-label study designed to evaluate the safety and efficacy of trastuzumab emtansine compared with that of lapatinib + capecitabine in Chinese participants with HER2-positive, unresectable locally advanced breast cancer (LABC) or metastatic breast cancer (MBC) who have received prior trastuzumab-based therapy. A total of approximately 350 participants will be enrolled in China. The study will consist of 2 stages. Stage 1: Eligible particip",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged \\>/= 18 years\n* Prospective centrally assessed HER2-positive disease (i.e., immunohistochemistry \\[IHC\\] 3+ and/or gene amplified \\[HER2 to Chromosome 17 \\[CEP 17\\] ratio \\>/= 2\\]) by in situ hybridization (ISH) through use of archival paraffin-embedded tumor tissue\n* His",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03084939"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03709082",
+            "title": "A Phase I/II Study of Palbociclib, Letrozole and T-DM1 in Trastuzumab Refractory Estrogen Receptor Positive (ER+) and HER2 Positive Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2018-10-15",
+            "completion_date": "2021-02-03",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "This study will determine the recommend dose of palbociclib in combination with letrozole and another medication, Ado-trastuzumab emtansine (T-DM1). Additionally, researchers will determine how well this recommended dose will improve outcomes in this type of advanced breast cancer.\n\nThe study will include a safety lead-in with escalating dosing of palbociclib to determine the recommended phase II dose (RP2D) of palbociclib in this combination and an expanded phase II of palbociclib at the RP2D i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically confirmed diagnosis of Estrogen Receptor (ER) positive and HER2 (human epidermal growth factor receptor 2) positive metastatic breast cancer based on local laboratory results.\n* Prior treatment with a taxane (including paclitaxel, docetaxel and/or nanoparticle p",
+            "endpoints": [
+              "Rate of Overall Response"
+            ],
+            "sponsor": "University of Kansas Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03709082"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00679341",
+            "title": "A Randomized, Multicenter, Phase ii Study of the Efficacy and Safety of Trastuzumab-MCC-DM1 vs. Trastuzumab (Herceptin®) and Docetaxel (Taxotere®) in Patients With Metastatic HER2-positive Breast Cancer Who Have Not Received Prior Chemotherapy for Metastatic Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-09",
+            "completion_date": "2012-05",
+            "country": "N/A",
+            "enrollment": 137,
+            "brief_summary": "This was a Phase II, randomized, multicenter, international, 2-arm, open-label clinical trial designed to explore the efficacy and safety of trastuzumab emtansine (T-DM1) relative to the combination of trastuzumab and docetaxel in patients with human epidermal growth factor receptor 2 (HER2)-positive, unresectable, locally advanced breast cancer and/or metastatic breast cancer who have not received prior chemotherapy for metastatic disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed adenocarcinoma of the breast with locally advanced or metastatic disease, and a candidate for chemotherapy.\n* Human epidermal growth factor receptor 2 (HER2)-positive.\n* No prior chemotherapy for their metastatic breast cancer (MBC).\n*",
+            "endpoints": [
+              "Progression-free Survival (PFS) by the Investigator Using Modified Response Evaluation Criteria In Solid Tumors (RECIST)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT00679341"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04351230",
+            "title": "Phase II Trial of Abemaciclib and T-DM1 in Women and Men With HER2-positive Advanced or Metastatic Breast Cancer Who Progressed on Treatment With a Taxane, Trastuzumab and Pertuzumab",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2020-11-11",
+            "completion_date": "2022-02-16",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This phase II trial studies how well T-DMI with or without abemaciclib works for the treatment of HER2-positive breast cancer that has spread to other places in the body (metastatic). T-DM1 is a monoclonal antibody, called trastuzumab, linked to a chemotherapy drug called DM1. Trastuzumab attaches to HER2 positive cancer cells in a targeted way and delivers DM1 to kill them. Abemaciclib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Giving T-DM1 and ab",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-REGISTRATION - INCLUSION CRITERIA\n* Agree to undergo a core biopsy of breast cancer tissue derived from a local, regional or distant site for mandatory confirmation of ER+/ER-, progesterone receptor (PR) and HER2 status\n\n  * NOTE: If a single lesion is present, imaging mus",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Academic and Community Cancer Research United",
+            "url": "https://clinicaltrials.gov/study/NCT04351230"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06968585",
+            "title": "A Phase III,Multicenter,Randomized,Open-Label,Active-Controlled Trial of A166 Versus Trastuzumab Emtansine (T-DM1) in Patients With HER2-Positive Unresectable or Metastatic Breast Cancer Previously Treated With Trastuzumab and Taxane Therapy",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-07-18",
+            "completion_date": "2028-03-31",
+            "country": "China",
+            "enrollment": 365,
+            "brief_summary": "Evaluation of the efficacy of A166 versus trastuzumab emtansine (T-DM1) in Patients with HER2-Positive unresectable or metastatic breast cancer previously treated with trastuzumab and taxane therapy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female patient ≥ 18 years and ≤ 75 years when signing the informed consent form.\n2. Breast cancer patients by histopathology and/or cytology documented.\n3. Disease progression after receiving a trastuzumab-based regimen (or a commercially available trastuzumab biosimi",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Sichuan Kelun Pharmaceutical Research Institute Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT06968585"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06439693",
+            "title": "A Single-Arm, Phase II Study of Sequential Therapy With Curative Intent in de Novo HER2+ Metastatic Breast Cancer: The SAPPHO Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-08-08",
+            "completion_date": "2033-03-30",
+            "country": "United States",
+            "enrollment": 72,
+            "brief_summary": "The purpose of this study is to test the safety and effectiveness of a sequence of drugs (a Taxane plus Trastuzumab plus Pertuzumab followed by Trastuzumab Deruxtecan, followed by Tucatinib plus Ado-Trastuzumab Emtansine (T-DM1), followed by Trastuzumab plus Pertuzumab plus Tucatinib) in HER2+ Breast Cancer. The study will help investigators understand whether first intensifying therapy for a specific period and then stopping treatment is safe and effective for participants.\n\nThe names of the st",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Participants must have histologically or cytologically confirmed unresectable locally advanced or metastatic invasive breast carcinoma. Patients must have stage IV breast carcinoma at diagnosis (i.e., de novo metastatic) with unequivocal evidence of metastasis on imaging.\n* Di",
+            "endpoints": [
+              "Disease Free Survival at 4 Years (DFS4)"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06439693"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03379428",
+            "title": "Phase I/II Trial of Ibrutinib Plus Trastuzumab in HER2-amplified Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-11-29",
+            "completion_date": "2025-01",
+            "country": "United States",
+            "enrollment": 34,
+            "brief_summary": "This is a Phase I/II, open-label dose-escalation study designed to evaluate the maximum tolerated dose (MTD) and dose-limiting side effects of ibrutinib (560 or 840 or 420 mg daily oral dose), given in combination with trastuzumab administered through the vein, in patients with HER2-amplified Metastatic Breast Cancer that has gotten worse after prior therapy with ado-trastuzumab emtansine (T-DM1).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Female, Age ≥ 18 years\n* 2\\. Histologic or cytologic confirmation of HER2-amplified breast cancer according to most recent biopsy (local testing permitted)\n\n  * a. HER2-amplified status is defined as a HER2/CEP17 ratio ≥2 or an average of ≥6 HER2 gene copies per cell by in",
+            "endpoints": [
+              "Phase I: Maximum Tolerated Dose",
+              "Phase II: Clinical Benefit Rate"
+            ],
+            "sponsor": "US Oncology Research",
+            "url": "https://clinicaltrials.gov/study/NCT03379428"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04158947",
+            "title": "A Randomized Study of HER2+ Breast Cancer Patients With Active Refractory Brain Metastases Treated With Afatinib in Combination With T-DM1 vs. T-DM1 Alone",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-05-10",
+            "completion_date": "2024-03-31",
+            "country": "China",
+            "enrollment": 130,
+            "brief_summary": "This study is being done for the following reasons:\n\nThe study has two parts. The purpose of the first part (Phase I) of the study is to find out the highest dose of Afatinib that can be given safely with T-DM1.\n\nThe purpose of the second part of the study (Phase II) is to find out whether the dose of Afatinib with T-DM1 determined in Phase I will keep breast cancer from getting worse for a period of time.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients provided written informed consent\n* Women aged 18-75 years old\n* Histologically or cytologically confirmed HER2-positive (IHC 3+ or ISH+) breast cancer\n* Patients with HER2 positive breast cancer with a documented central nervous system (CNS) recurrence/progression (b",
+            "endpoints": [
+              "Safety and tolerability of T-DM1 and Afatinib to determine the recommended Phase II dose (RP2D)",
+              "Objective Response Rate(ORR)"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT04158947"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02144012",
+            "title": "A Randomized, Multicenter, Open-Label Phase III Study to Evaluate the Efficacy and Safety of Trastuzumab Emtansine Versus the Combination of Trastuzumab Plus Docetaxel as First-Line Treatment of Patients With Her2-Positive Progressive Or Recurrent Locally Advanced Or Metastatic Breast Cancer.",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2014-06",
+            "completion_date": "2016-01",
+            "country": "Taiwan, Malaysia, South Korea, Thailand",
+            "enrollment": 49,
+            "brief_summary": "This is a Phase III, randomized, multicenter, multinational, two-arm, open-label clinical trial to investigate a first-line treatment of participants with human epidermal growth factor receptor-2 (HER2)-positive metastatic breast cancer. The study will enroll patients with HER2-positive, unresectable, locally advanced breast cancer (BC) if they have recurrent disease or progressive disease (PD) despite primary multi-modality therapy, and/or metastatic BC if they have not received prior chemother",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\>/= 18 years\n* HER2-positive disease, as defined by an immunohistochemistry test score of 3+ and/or in situ hybridization positivity, prospectively confirmed by a Sponsor-designated central laboratory prior to enrollment\n* Histologically or cytologically confirmed adenoca",
+            "endpoints": [
+              "Progression-Free Survival (PFS)",
+              "Safety: Percentage of Participants With Adverse Events (AEs)",
+              "Safety: Percentage of Participants With Grade 3 and 4 AEs"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT02144012"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05429684",
+            "title": "Precise Targeted Therapy for Refractory HER2 Positive Advanced Breast Cancer Based on Genome Signature and Drug Sensitivity of PDO Model",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2021-01-01",
+            "completion_date": "2024-02-28",
+            "country": "China",
+            "enrollment": 120,
+            "brief_summary": "This is an open, prospective and interventional clinical study. Patients with advanced Human Epidermal Growth Factor Receptor 2 (HER2) positive breast cancer resistant to trastuzumab will be enrolled in the study. Histological specimens obtained from different metastatic foci of patients, are used to conduct genome-wide sequencing together with Circulating tumor DNA (ctDNA) of blood samples. Meanwhile, investigator will construct PDO model based on biopsy tissue. Patients as well as their paired",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. 18-70 years old;\n2. Women;\n3. ECOG score 0-2;\n4. Locally advanced or metastatic breast cancer confirmed by histopathology;\n5. Positive HER2 expression in cancer tissues (IHC 3 +, or IHC 2 + but FISH amplification);\n6. Resistant to trastuzumab (including disease progression du",
+            "endpoints": [
+              "ORR",
+              "PDO model inhibition rate"
+            ],
+            "sponsor": "First Affiliated Hospital Xi'an Jiaotong University",
+            "url": "https://clinicaltrials.gov/study/NCT05429684"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06663787",
+            "title": "Personalized Detection of ctDNA for Patients With HER2-Positive Metastatic Breast Cancer Who Achieved Durable Response by Anti-HER2 Treatment (HER2 CR)",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-04-01",
+            "completion_date": "2025-12-31",
+            "country": "United States, Japan",
+            "enrollment": 50,
+            "brief_summary": "Anti-HER2 therapy, such as trastuzumab and pertuzumab, has significantly improved long-term survival in HER2-positive breast cancer. The updated data of the CLEOPATRA trial showed significant Kaplan-Meier curves, suggesting the potential for a cure. However, the efficacy of maintenance therapy in long-term responders remains unexplored. This study will assess MRD in unresectable HER2-positive breast cancer cases with long-term response using the Signatera™ ctDNA assay, which could contribute to ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HER2 + metastatic breast cancer\n* Pre / post menopausal\n* Previously treated with anti-HER2 therapy\n* Continuing CR or PR for more than 2 year\n\nExclusion Criteria:\n\n* Patients who were deemed inappropriate as research subjects based on the physician's judgment, such as those p",
+            "endpoints": [
+              "The status of ctDNA"
+            ],
+            "sponsor": "Nagoya City University",
+            "url": "https://clinicaltrials.gov/study/NCT06663787"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04185649",
+            "title": "A Clinical Study Evaluating the Efficacy and Safety of BAT8001 Injection for the Treatment of HER2-positive Advanced Breast Cancer - A Multicenter, Randomized, Open-label, Positive-controlled, Superiority Phase III Clinical Trial in China",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2018-07-01",
+            "completion_date": "2021-12-31",
+            "country": "China",
+            "enrollment": 410,
+            "brief_summary": "To evaluate the safety and efficacy of BAT8001 for the treatment of HER2-positive advanced breast cancer, using lapatinib in combination with capecitabine as the positive control drug.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients are required to provide at least 10 unstained sections.\n2. HER2-positive (defined as: IHC 3+ or FISH+) confirmed by the central laboratory of this study.\n3. Histologically and/or cytologically confirmed invasive breast cancer, including unresectable locally advanced ",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Bio-Thera Solutions",
+            "url": "https://clinicaltrials.gov/study/NCT04185649"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03530696",
+            "title": "A Single Arm Phase II Study to Evaluate Efficacy of T-DM1 With Palbociclib in the Treatment of Patients With Metastatic HER2 Positive Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-12-06",
+            "completion_date": "2022-12-22",
+            "country": "United States",
+            "enrollment": 55,
+            "brief_summary": "This is a single arm, phase II study to evaluate if the combination of T-DM1 with palbociclib improves progression-free survival in patients with metastatic HER2 positive breast cancer. All patients will be treated with T-DM1 with palbociclib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Be informed of the investigational nature of the study and all pertinent aspects of the trial\n2. Sign and provide written consent in accordance with institutional and federal guidelines.\n3. ECOG Performance status of 0-2\n4. Recurrent or metastatic HER2-positive breast cancer ",
+            "endpoints": [
+              "Estimate Progression-free Survival"
+            ],
+            "sponsor": "University of Arizona",
+            "url": "https://clinicaltrials.gov/study/NCT03530696"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06316531",
+            "title": "A Randomized Controlled Phase III Clinical Study Comparing BL-M07D1 With T-DM1 in Patients With Unresectable Locally Advanced or Metastatic HER2-positive Breast Cancer",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-05-08",
+            "completion_date": "2026-05",
+            "country": "China",
+            "enrollment": 274,
+            "brief_summary": "This study is a registered phase III, randomized, open-label, multicenter study to evaluate the efficacy and safety of BL-M07D1 in patients with unresectable locally advanced or metastatic HER2-positive breast cancer who had failed previous treatment with taxanes and trastuzumab.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Voluntarily sign the informed consent and follow the requirements of the protocol;\n2. No gender limit;\n3. Age ≥18 years old and ≤75 years old at the time of signing the informed consent;\n4. expected survival time ≥3 months;\n5. Patients with histologically or cytologically con",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT06316531"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06068985",
+            "title": "Classifying for HER2 Dependence to De-Escalate Neoadjuvant Chemotherapy in Patients With HER2+ Early Breast Cancer Undergoing HER2 Double-Blockade",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-09-05",
+            "completion_date": "2032-04",
+            "country": "Brazil",
+            "enrollment": 63,
+            "brief_summary": "This study aims to identify HER2-positive early-stage breast cancer patients who could benefit from neoadjuvant treatment using PHESGO™ (pertuzumab and trastuzumab) without chemotherapy. The approach involves utilizing specific biomarkers (HR and HER2 IHC status) to select participants whose tumors strongly rely on the HER2 pathway, potentially benefiting from a HER2-targeted approach without chemotherapy concurrently.",
+            "eligibility_criteria": "Prescreening Eligibility Criteria (Molecular Assessment):\n\n* Signed prescreening informed consent form (ICF); Women between 18-80 years of age at time of signing ICF.\n* ECOG ≤ 1.\n* HER2+ breast cancer with clinical stage at presentation: T1cN1, T2, N0-1\n* HER2 3+ by IHC\n* ER IHC ≤10%\n* PR IHC negati",
+            "endpoints": [
+              "Pathologic Complete Response (pCR) Rate"
+            ],
+            "sponsor": "Latin American Cooperative Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT06068985"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00829166",
+            "title": "A Randomized, Multicenter, Phase III Open-label Study of the Efficacy and Safety of Trastuzumab MCC-DM1 vs. Capecitabine + Lapatinib in Patients With HER2-Positive Locally Advanced or Metastatic Breast Cancer Who Have Received Prior Trastuzumab-Based Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-02",
+            "completion_date": "2015-09",
+            "country": "India, United States, Slovenia, Philippines, Canada, South Korea, Italy, Russia, Sweden, Poland, Hong Kong, Colombia, United Kingdom, France, New Zealand, Brazil, Germany, Denmark, Mexico, Switzerland, Spain, Bosnia and Herzegovina, Finland, Portugal, Bulgaria, Singapore, Taiwan",
+            "enrollment": 991,
+            "brief_summary": "This is a Phase III, randomized, multicenter, international, 2-arm, open-label clinical trial designed to compare the safety and efficacy of trastuzumab emtansine (T-DM1) with that of capecitabine + lapatinib in participants with human epidermal growth factor receptor 2 (HER2)-positive locally advanced or metastatic breast cancer. Participants will be treated until disease progression (PD), unmanageable toxicity, or study termination. Once disease progression is reported, all participants will b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HER2 status must be prospectively, centrally tested and be HER2-positive based on central laboratory assay results\n* Histologically or cytologically confirmed invasive breast cancer\n* Prior treatment for breast cancer in the adjuvant, unresectable, locally advanced, or metasta",
+            "endpoints": [
+              "Percentage of Participants With PD or Death as Assessed by an Independent Review Committee (IRC)",
+              "Progression-free Survival (PFS) as Assessed by an IRC (Co-primary Endpoint)",
+              "Percentage of Participants Who Died: Second Interim Analysis"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT00829166"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03529110",
+            "title": "A Phase 3, Multicenter, Randomized, Open-Label, Active-Controlled Study of DS-8201a (Trastuzumab Deruxtecan), an Anti-HER2 Antibody Drug Conjugate (ADC), Versus Ado Trastuzumab Emtansine (T-DM1) for HER2-Positive, Unresectable and/or Metastatic Breast Cancer Subjects Previously Treated With Trastuzumab and Taxane",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-08-09",
+            "completion_date": "2026-07-30",
+            "country": "Hong Kong, Australia, Spain, France, Canada, South Korea, Belgium, Brazil, Germany, Italy, United Kingdom, United States, China, Taiwan, Japan",
+            "enrollment": 524,
+            "brief_summary": "This study is designed to compare the anti-tumor activity as well as the safety and efficacy of DS-8201a versus T-DM1 in HER2-positive, unresectable and/or metastatic breast cancer subjects previously treated with trastuzumab and taxane.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Must be competent and able to comprehend, sign, and date an Institutional Review Board (IRB) or Ethics Committee (EC) approved ICF before performance of any study-specific procedures or tests.\n2. Adults ≥18 y old. (Please follow local regulatory requirements if the legal age ",
+            "endpoints": [
+              "Progression-Free Survival (PFS) Based on Blinded Independent Central Review (BICR) in Participants With HER2-Positive, Unresectable and/or Metastatic Breast Cancer Previously Treated With Trastuzumab and Taxane"
+            ],
+            "sponsor": "Daiichi Sankyo",
+            "url": "https://clinicaltrials.gov/study/NCT03529110"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03248492",
+            "title": "A Phase 2, Multicenter, Open-Label Study of DS-8201a, an Anti-HER2-Antibody Drug Conjugate (ADC) for HER2-Positive, Unresectable and/or Metastatic Breast Cancer Subjects Previously Treated With T-DM1 (DESTINY-Breast01)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2017-08-25",
+            "completion_date": "2024-05-06",
+            "country": "Spain, United Kingdom, France, Canada, South Korea, Belgium, Italy, United States, Japan",
+            "enrollment": 253,
+            "brief_summary": "Some human epidermal growth factor receptor 2 (HER-2) breast cancer patients do not respond or become resistant to current treatment. DS-8201a is a new experimental product that is a combination of an antibody and a drug. It has not yet been approved for use. DS-8201a may slow down tumor growth. This might improve outcomes for these patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men or women the age of majority in their country\n* Has pathologically documented breast cancer that:\n\n  1. is unresectable or metastatic\n  2. has HER2 positive expression confirmed per protocol\n* Has an adequate tumor sample\n* Has at least one measurable lesion per Response E",
+            "endpoints": [
+              "Objective Response Rate as Confirmed by Independent Central Review Following Intravenous Administration of 5.4 mg/kg DS-8201a in Participants With Metastatic Breast Cancer (Enrolled Analysis Set)"
+            ],
+            "sponsor": "Daiichi Sankyo",
+            "url": "https://clinicaltrials.gov/study/NCT03248492"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01494662",
+            "title": "A Phase II Trial of HKI-272 (Neratinib), Neratinib and Capecitabine, and Ado-Trastuzumab Emtansine for Patients With Human Epidermal Growth Factor Receptor 2 (HER2)-Positive Breast Cancer and Brain Metastases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-02",
+            "completion_date": "2024-04-19",
+            "country": "United States",
+            "enrollment": 140,
+            "brief_summary": "The purpose of this research study is to determine how well neratinib works in treating breast cancer that has spread to the brain. Neratinib is a recently discovered oral drug that may stop breast cancer cells from growing abnormally by inhibiting (or blocking) members of a family of proteins that include Human Epidermal Growth Factor Receptor 2 (HER2).\n\nIn this research study, the investigators are looking to see how well neratinib works to decrease the size of or stabilize breast cancer that ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients (men or women) must have histologically or cytologically confirmed invasive breast cancer, with metastatic disease. Patients without pathologic or cytologic confirmation of metastatic disease should have unequivocal evidence of metastasis by physical exam or radiologi",
+            "endpoints": [
+              "Objective Response Rate Per Composite Response Criteria",
+              "Objective Response Rate Per RANO-BM Criteria"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01494662"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05231863",
+            "title": "Tyrosine Kinase Inhibitors (TKIs) Based Therapy in Trastuzumab Emtansine (T-DM1) Resistant HER2-positive Metastatic Breast Cancer: A Real-world Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2019-08-01",
+            "completion_date": "2022-12",
+            "country": "China",
+            "enrollment": 100,
+            "brief_summary": "This is a real world study to evaluate the efficacy and safety of tyrosine kinase inhibitors after T-DM1 progression.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female and 18-70 years old\n* Metastatic or locally recurrent HER2-positive breast cancer\n* Patients received TKIs-based therapy after T-DM1 failure in treatment for metastasis\n* Complete and accurate medical data\n\nExclusion Criteria:\n\n\\- Incomplete medical data",
+            "endpoints": [
+              "Progression Free Survival (PFS)",
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "The First Affiliated Hospital with Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT05231863"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01745965",
+            "title": "A Prospective, Randomized Multicenter, Open-label Comparison of Preoperative Trastuzumab Emtansine (T-DM1) With or Without Standard Endocrine Therapy vs. Trastuzumab With Standard Endocrine Therapy Given for Twelve Weeks in Patients With Operable HER2+/HR+ Breast Cancer Within the ADAPT Protocol.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-11",
+            "completion_date": "2025-01-15",
+            "country": "Germany",
+            "enrollment": 380,
+            "brief_summary": "Trial to optimize neoadjuvant therapy for HER overexpression and co-expressing of hormone receptors(ER and/or PR) breast cancer (HEr2+/HR+).\n\nA new high potential trastuzumab conjugate T-DM1(trastuzumab was linked with the cytotoxic agent mertansine DM1)was tested with endocrine therapy and without against a standard arm with trastuzumab and endocrine therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female patients, age at diagnosis 18 years and above (consider patients at 70 years and above for ADAPT Elderly)\n* Histologically confirmed unilateral primary invasive carcinoma of the breast\n* Clinical T1 - T4 (except inflammatory breast cancer)\n* All clinical N (cN)\n* No cli",
+            "endpoints": [
+              "Comparison of the pCR rates in patients with HER2+/HR+ breast cancer treated by preoperative T-DM1 with or without standard endocrine therapy or trastuzumab with endocrine therapy.",
+              "Evaluation of dynamic testing (based on proliferation/apoptosis changes in serial biopsy and imaging by MRI) after three weeks of treatment as a surrogate parameter for response."
+            ],
+            "sponsor": "West German Study Group",
+            "url": "https://clinicaltrials.gov/study/NCT01745965"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01702558",
+            "title": "Phase I Study of the Combination of Trastuzumab Emtansine (T-DM1) and Capecitabine in HER2-Positive Metastatic Breast Cancer and HER2-Positive Locally Advanced/Metastatic Gastric Cancer Patients, Followed by a Randomized, Open-Label Phase II Study of Trastuzumab Emtansine and Capecitabine Versus Trastuzumab Emtansine Alone in HER2-Positive Metastatic Breast Cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2012-12-03",
+            "completion_date": "2017-05-31",
+            "country": "Spain, France, Canada, Slovakia, Brazil, Germany, Argentina, Italy, Portugal, Russia, Greece, Serbia",
+            "enrollment": 182,
+            "brief_summary": "This multicenter study will assess the maximum tolerated dose (MTD) of capecitabine in combination with Kadcyla (trastuzumab emtansine) in participants with HER2-positive mBC or HER2-positive LA/mGC using a Phase 1 design, followed by a randomized, open-label Phase 2 part to explore the efficacy and safety of the combination of Kadcyla and capecitabine compared with Kadcyla alone in participants with mBC. The anticipated time on study treatment is until disease progression, intolerable toxicity,",
+            "eligibility_criteria": "Inclusion Criteria:\n\nMetastatic Breast Cancer\n\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2\n* Adequate blood cell count\n* Adequate liver, renal, and cardiac function\n* Life expectancy greater than or equal to (\\>/=) 12 weeks\n* Histologically or cytologically confirmed",
+            "endpoints": [
+              "Phase 1 (mBC): Percentage of Participants With Dose-Limiting Toxicities (DLTs)",
+              "Phase 1 (mBC): Maximum Tolerated Dose (MTD) of Capecitabine When Combined With Trastuzumab Emtansine (3.6 mg/kg Every 3 Weeks)",
+              "Phase 2 (mBC): Percentage of Participants With Best Overall Response (BOR) as Assessed by the Investigator According to Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT01702558"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03032107",
+            "title": "A Phase 1b Study Of Pembrolizumab In Combination With Trastuzumab-DM1 In Metastatic HER2-Positive Breast Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-02-17",
+            "completion_date": "2024-12-05",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "This research study is studying a combination of drugs as a possible treatment for metastatic breast cancer.\n\nThe interventions involved in this study are:\n\n* Pembrolizumab\n* Trastuzumab emtansine (also called T-DM1)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed invasive breast cancer, with stage IV disease. Patients without pathologic or cytologic confirmation of metastatic disease should have unequivocal evidence of metastasis from physical examination or radiologic evalua",
+            "endpoints": [
+              "Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability]"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03032107"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03975647",
+            "title": "Randomized, Double-blind, Phase 3 Study of Tucatinib or Placebo in Combination With Ado-trastuzumab Emtansine (T-DM1) for Subjects With Unresectable Locally-advanced or Metastatic HER2+ Breast Cancer (HER2CLIMB-02)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-10-02",
+            "completion_date": "2029-03-10",
+            "country": "Australia, Belgium, Austria, United States, Canada, South Korea, Netherlands, Italy, Sweden, Japan, United Kingdom, France, Germany, Israel, Denmark, Switzerland, Spain, China, Singapore, Taiwan",
+            "enrollment": 466,
+            "brief_summary": "This study is being done to see if tucatinib with ado-trastuzumab emtansine (T-DM1) works better than T-DM1 alone to help patients who have a specific type of breast cancer called HER2 positive breast carcinoma. The breast cancer in this study is either metastatic (spread into other parts of the body) or cannot be removed completely with surgery.\n\nPatients in this study will be randomly assigned to get either tucatinib or placebo (a pill with no medicine). This is a blinded study, so neither pat",
+            "eligibility_criteria": "* Inclusion Criteria:\n\n  * Histologically confirmed HER2+ breast carcinoma as determined by a sponsor-designated central laboratory\n  * History of prior treatment with a taxane and trastuzumab in any setting, separately or in combination\n  * Have progression of unresectable locally advanced/metastat",
+            "endpoints": [
+              "Progression-Free Survival (PFS) as Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (v)1.1 Based on Investigator Assessment"
+            ],
+            "sponsor": "Seagen Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03975647"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07259226",
+            "title": "International Multicenter Multicohort Open-label Phase II Trial Aiming to Define Optimal Methods for Predicting Response/Resistance to Antibody-drug Conjugates in Patients With Solid Tumors Treated According to Current Standard Indications.",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-11-14",
+            "completion_date": "2030-11-01",
+            "country": "France",
+            "enrollment": 400,
+            "brief_summary": "International study that will evaluate the association of prespecified biomarkers with resistance to Antibody-drug conjugates (ADCs), a type of targeted cancer treatment currently used in clinical practice for treating different tumor types.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients must have signed a written informed consent form prior to any trial specific procedures;\n2. Patients must be ≥18 years old;\n3. Histologically confirmed or radiologically documented unresectable locally advanced or metastatic cancer (Breast, Urothelial, Non small Cell",
+            "endpoints": [
+              "Biomarkers of resistance to ADC"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT07259226"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05755048",
+            "title": "A Multicenter, Open-label, Randomized Controlled Phase III Clinical Study to Compare the Efficacy and Safety of FS-1502 Versus T-DM1 in Patients With HER2-positive Unresectable Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-03-28",
+            "completion_date": "2026-01-31",
+            "country": "China",
+            "enrollment": 314,
+            "brief_summary": "This study is designed to compare the anti-tumor activity as well as the safety and efficacy of FS-1502 versus T-DM1 in HER2-positive, unresectable locally advanced or metastatic breast cancer subjects previously treated with trastuzumab and taxane.",
+            "eligibility_criteria": "Inclusion Criteria:Subjects are eligible to be included in the study only if they meet all of the following criteria:\n\n1. Male or female age ≥ 18;\n2. Histologically or cytologically confirmed HER2-positive unresectable locally advanced or metastatic breast cancer;\n3. Prior treatment with trastuzumab",
+            "endpoints": [
+              "Progression-Free Survival (PFS) Based on Independent Central Review (ICR) in Participants With HER2-Positive, Unresectable locally advanced or Metastatic Breast Cancer Previously Treated With Trastuzumab and Taxane."
+            ],
+            "sponsor": "Shanghai Fosun Pharmaceutical Industrial Development Co. Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT05755048"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05408845",
+            "title": "A Phase II Trial of HER2-Targeted Therapies for Recurrent, Metastatic, or Unresectable HER2-Expressing Salivary Gland Cancers",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-03-03",
+            "completion_date": "2028-07-31",
+            "country": "United States",
+            "enrollment": 146,
+            "brief_summary": "This phase II trial compares the effect of usual treatment of docetaxel chemotherapy plus trastuzumab, to ado-emtansine (T-DM1) in patients with HER2-postive salivary gland cancer that has come back (recurrent), that has spread from where it first started (primary site) to other places in the body, or cannot be removed by surgery (unresectable). This trial is also testing how well trastuzumab deruxtecan works in treating patients with HER2-low recurrent or metastatic salivary gland cancer. Trast",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically (histologically or cytologically) proven diagnosis of HER2-positive OR HER2-low expressing recurrent/metastatic salivary gland cancer (SGC)\n\n  * HER2-positive cohort:\n\n    * Note: The majority of HER2-positive SGCs are salivary duct carcinoma (SDCs), but to a le",
+            "endpoints": [
+              "Progression free survival (PFS) (HER2-Positive Cohort)",
+              "Objective response rate (ORR) (HER2-Low Expressing Cohort)"
+            ],
+            "sponsor": "NRG Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT05408845"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02564900",
+            "title": "Phase 1, Two-Part, Multicenter, Non-randomized, Open-label, Multiple Dose First-In-Human Study of DS-8201A, in Subjects With Advanced Solid Malignant Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2015-09-01",
+            "completion_date": "2023-12-22",
+            "country": "United States, Japan",
+            "enrollment": 292,
+            "brief_summary": "This is an open-label, two-part, multicenter study to evaluate the safety and tolerability of DS-8201a in participants with advanced solid malignant tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group performance status( PS) of 0 or 1.\n* Left Ventricular Ejection Fraction (LVEF) ≥ 50%\n\nPart 1:\n\n* Advanced/unresectable or metastatic breast cancer or gastric or gastroesophageal junction adenocarcinoma that is refractory to or intolerable wit",
+            "endpoints": [
+              "Objective Response Rate (ORR) Following Treatment With DS-8201a in Participants With Advanced Solid Malignant Tumors (Dose Escalation and Dose Expansion Phases)"
+            ],
+            "sponsor": "Daiichi Sankyo",
+            "url": "https://clinicaltrials.gov/study/NCT02564900"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02229149",
+            "title": "Randomized Phase II Trial of Chemotherapy of Physician's Choice Plus Trastuzumab Versus Chemotherapy of Physician's Choice Plus Trastuzumab Plus Pertuzumab In Women With Pretreated, HER2-Overexpressing Metastatic Breast Cancer (MBC)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2014-12",
+            "completion_date": "2022-01",
+            "country": "United States",
+            "enrollment": 33,
+            "brief_summary": "This randomized phase 2 study will seek to determine the effectiveness of chemotherapy (physician's choice of vinorelbine, taxane \\[paclitaxel, docetaxel or nab paclitaxel\\] or capecitabine) plus trastuzumab vs chemotherapy (physician's choice) plus trastuzumab plus pertuzumab in women with HER2-overexpressing metastatic breast (MBC) that has been previously treated with ado-trastuzumab emtansine (T-DM1) in the metastatic setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Female, Age ≥ 18 years\n2. Histologic or cytologic confirmation of human epidermal growth factor receptor 2 (HER2)-positive breast cancer according to most recent biopsy (local testing permitted)\n3. Measurable or evaluable metastatic disease by Response Evaluation Criteria in ",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "US Oncology Research",
+            "url": "https://clinicaltrials.gov/study/NCT02229149"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04740918",
+            "title": "A Randomized, Multicenter, Double-Blind, Placebo-Controlled Phase III Study of the Efficacy and Safety of Trastuzumab Emtansine in Combination With Atezolizumab or Placebo in Patients With HER2-Positive and PD-L1-Positive Locally Advanced or Metastatic Breast Cancer Who Have Received Prior Trastuzumab- (+/- Pertuzumab) and Taxane-Based Therapy (KATE3)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2021-06-07",
+            "completion_date": "2024-06-19",
+            "country": "Australia, United States, Philippines, Canada, Croatia, South Korea, Italy, Russia, Poland, Norway, Colombia, United Kingdom, France, Brazil, Spain, Turkey (Türkiye), Finland, China, Portugal",
+            "enrollment": 96,
+            "brief_summary": "This study will evaluate the efficacy, safety and patient-reported outcomes of trastuzumab emtansine plus atezolizumab compared with trastuzumab emtansine plus placebo in participants with HER2-positive and PD-L1-positive LABC or MBC.Participants must have progressed either during or after prior trastuzumab- (+/- pertuzumab) and taxane-based therapy for LABC/MBC; or during (or within 6 months after completing) trastuzumab- (+/-pertuzumab) and taxane-based therapy in the neoadjuvant and/or adjuva",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HER2+ and PD-L1+ locally advanced (LABC) or metastatic breast cancer (MBC)\n* Progression must have occurred during most recent treatment for LABC/MBC or during, or within 6 months after completing, neoadjuvant and/or adjuvant therapy\n* Prior treatment with trastuzumab (+/- per",
+            "endpoints": [
+              "Progression-Free Survival (PFS) as Determined by Investigator Using Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST v1.1)",
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04740918"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02073487",
+            "title": "Randomized Open Label PhII Trial of Neoadjuvant Trastuzumab Emtansine(Te) in Combination w/Lapatinib(L) Followed by Abraxane (A) Compared w/Trastuzumab Plus Pertuzumab Followed by Paclitaxel in Her2/Neu Over-Expressed Breast Cancer Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-02",
+            "completion_date": "2019-01",
+            "country": "United States",
+            "enrollment": 32,
+            "brief_summary": "This is a randomized, open label Phase II neoadjuvant study comparing the efficacy and safety of trastuzumab emtansine (T-DM1) plus lapatinib (L)followed by abraxane (A) versus trastuzumab plus pertuzumab followed by paclitaxel in patients with HER2-overexpressing breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female gender;\n* Age ≥18 years;\n* Performance Status- Eastern Cooperative Oncology Group (ECOG) 0-1\n* Histologically confirmed invasive breast cancer:\n* Primary tumor greater than 1 cm diameter, measured by clinical examination and mammography or ultrasound.\n* Any N,\n* No evid",
+            "endpoints": [
+              "Pathological Complete Response (pCR) RCB-0 or RCB-1"
+            ],
+            "sponsor": "The Methodist Hospital Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02073487"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04675827",
+            "title": "De-Escalation of Adjuvant Chemotherapy in HER2-positive, Estrogen Receptor-negative, Node-negative Early Breast Cancer Patients Who Achieved Pathological Complete Response After Neoadjuvant Chemotherapy and Dual HER2 Blockade",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-01-17",
+            "completion_date": "2024-11-26",
+            "country": "Switzerland, Australia, France, South Korea, Belgium, Israel",
+            "enrollment": 139,
+            "brief_summary": "DECRESCENDO is a multicentre, open-label, dual-phase single-arm phase II de-escalation study evaluating neoadjuvant treatment with 12 administrations of weekly IV paclitaxel 80 mg/m2 (or IV docetaxel 75 mg/m2 every 3 weeks for 4 cycles) combined with subcutaneous (SC) fixed dose combination (FDC) of pertuzumab and trastuzumab (loading dose of 1200 mg pertuzumab and 600 mg trastuzumab, followed by 600 mg pertuzumab and 600 mg trastuzumab) every 3 weeks for 4 cycles.\n\nSurgery will be performed acc",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female.\n2. Age ≥18 years old.\n3. Eastern Cooperative Oncology Group (ECOG) performance status ≤1.\n4. Subjects whose tumour measures ≥15 mm and ≤50 mm, according to clinical staging performed with imaging exams (either mammography, ultrasound or breast magnetic resonan",
+            "endpoints": [
+              "3-year RFS in HER2-enriched subjects who achieve a pCR"
+            ],
+            "sponsor": "Jules Bordet Institute",
+            "url": "https://clinicaltrials.gov/study/NCT04675827"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02390427",
+            "title": "Phase Ib Dose-escalation Trial of Taselisib (GDC-0032) in Combination With Anti-HER2 Therapies in Participants With Advanced HER2+ Breast Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2015-04-20",
+            "completion_date": "2024-07",
+            "country": "United States",
+            "enrollment": 68,
+            "brief_summary": "This research study is a way of gaining new knowledge about the combination of Taselisib with other drugs in the treatment of metastatic breast cancer. Taselisib is an investigational drug which works by blocking a protein called PI3K (phosphoinositide 3-kinase) that helps cancer cells grow. This drug has been used in laboratory experiments and information from these studies suggests that this drug may help to prevent or slow the growth of cancer cells. The main purpose of this study is to find ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Metastatic, locally advanced , or locally recurrent breast cancer\n* Histologically confirmed HER2+ invasive breast cancer\n* Measurable or non-measurable disease per RECIST v1.1\n* Prior therapy - Prior trastuzumab, lapatinib, pertuzumab, and trastuzumab emtansine (T-DM1) are al",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Taselisib in combination with anti-HER2 therapy(ies) and/or paclitaxel."
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02390427"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00934856",
+            "title": "An Open-Label, Multi-Center Phase I/II Study of the Safety and Tolerability of the Combination of Trastuzumab-MCC-DM1 (T-DM1) With Docetaxel, and Potentially Pertuzumab, for Treatment for Patients With Advanced Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-07",
+            "completion_date": "2013-10",
+            "country": "Spain, United Kingdom, France, United States",
+            "enrollment": 98,
+            "brief_summary": "This is an open-label, multi-center, non-randomized study of the safety and tolerability of the combination of T-DM1 plus docetaxel for the treatment of participants with metastatic breast cancer (MBC) and of T-DM1 plus docetaxel with or without pertuzumab, for the treatment of participants with locally advanced breast cancer (LABC). The study comprises an initial dose finding (feasibility) part to determine the maximum tolerated dose (MTD) of T-DM1 and docetaxel, followed by an extension part a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-1 (ECOG performance status of 2 will be allowed if only due to debilitating bone disease)\n* HER2-positive metastatic or locally advanced breast cancer\n\nFor MBC participants:\n\n* Documented metastatic or inoperable l",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicity (DLT) - MBC and LABC Feasibility Population",
+              "Percentage of Participants With Adverse Events (AEs) or Serious AEs (SAEs) - MBC and LABC Population"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT00934856"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00951665",
+            "title": "A Phase Ib-IIa, Open-label, Dose-Escalation Study of the Safety, Tolerability and Pharmacokinetics of Trastuzumab Emtansine, Paclitaxel and Pertuzumab Administered Intravenously to Patients With Her2-positive, Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-08",
+            "completion_date": "2013-06",
+            "country": "United States",
+            "enrollment": 107,
+            "brief_summary": "This Phase Ib-IIa, multi-institutional, open-label, dose-escalation study is designed to evaluate the safety, tolerability, pharmacokinetics and feasibility of trastuzumab emtansine (T-DM1) administered by intravenous (IV) infusion in combination with paclitaxel (and pertuzumab, if applicable) in patients with human epidermal growth factor receptor 2-positive (HER2-positive), locally advanced or metastatic breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically documented HER2-positive locally advanced or metastatic breast cancer\n* Tumor tissue blocks or 15-20 unstained tissue slides for confirmatory central laboratory HER2 status testing and other exploratory assessments\n* Prior trastuzumab in any line of therapy (Pha",
+            "endpoints": [
+              "Number of Participants With Any Adverse Events (AEs), Serious Adverse Events (SAEs), AEs of Grades 3/4, and Death",
+              "Number of Participants With Dose Limiting Toxicity (DLT) of the Combination of T-DM1 and Paclitaxel When T-DM1 Was Administered on Either an Q3W or QW Schedule for Both With and Without Pertuzumab Treatment",
+              "Maximum Tolerated Dose of T-DM1 When T-DM1 (Q3W or QW) and Paclitaxel (QW) Was Administered With and Without Pertuzumab"
+            ],
+            "sponsor": "Genentech, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00951665"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03203616",
+            "title": "Multicenter, Non-randomised, Open-label, Single Agent Phase II Study to Determine the Clinical Benefit of Trastuzumab Emtansine (T-DM1) in HER2-positive Metastatic Breast Cancer Patients With Brain Metastasis",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2018-02-23",
+            "completion_date": "2018-08-27",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "Women with breast cancer often develop metastases in the brain. Currently, treatment of these metastases is difficult and relies on radiotherapy or surgery which often fail. Therefore, development of new methods of treatment for breast cancer with brain metastasis is very important. T-DM1 is a drug that is already in everyday use for a specific type of breast cancer called HER2-positive breast cancer. The objective of this study is to investigate whether T-DM1 is also effective in brain metastas",
+            "eligibility_criteria": "Inclusion Criteria:\n\nParticipants must meet all these criteria in order to be eligible for the study:\n\nGeneral Criteria:\n\n* Female patients (≥ 18 years);\n* Histologically confirmed HER2-positive breast cancer patients (IHC 3+ and/or ISH positive);\n* Patients should have previously received trastuzum",
+            "endpoints": [
+              "Clinical Benefit (CB)"
+            ],
+            "sponsor": "Jules Bordet Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03203616"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06324357",
+            "title": "Beamion BCGC-1: A Phase Ib Dose Escalation and Phase II Dose Optimization, Randomized, Open-label, Multicenter Trial of Oral Zongertinib (BI 1810631) Alone or in Combination With Other Agents for the Treatment of Patients With Advanced HER2+ Metastatic Breast Cancer (mBC), Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma (mGEAC), or Metastatic Colorectal Cancer (mCRC)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-06-03",
+            "completion_date": "2029-01-08",
+            "country": "Spain, United Kingdom, France, South Korea, Belgium, Germany, Italy, United States, China, Japan",
+            "enrollment": 768,
+            "brief_summary": "This study is open to adults aged 18 years and older with different types of HER2+ cancer that has spread and cannot be removed by surgery. People can take part in this study if their tumours show HER2 aberrations and previous treatment was not successful. The purpose of this study is to find a suitable dose of zongertinib that people with different types of HER2+ cancer that has spread can tolerate best when taken together with trastuzumab deruxtecan (T-DXd), with trastuzumab emtansine (T-DM1),",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Patients ≥18 years of age or over the legal age of consent in countries where that is greater than 18 years at the time of signature of the informed consent form (ICF)\n* Cohorts A to K and Cohort O: Documented Human epidermal growth factor receptor 2 overexpressing and/or ampl",
+            "endpoints": [
+              "Dose escalation (Phase Ib): Occurrence of dose-limiting toxicities (DLTs) in the maximum tolerated dose (MTD) evaluation period",
+              "Dose optimization and justification (Phase II): Objective response (OR)"
+            ],
+            "sponsor": "Boehringer Ingelheim",
+            "url": "https://clinicaltrials.gov/study/NCT06324357"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07307287",
+            "title": "SHR-A1811 Plus Pertuzumab as Neoadjuvant Therapy for Early or Locally Advanced HR-Positive HER2-Positive Breast Cancer: A Prospective, Open-Label, Phase II Study",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-12-20",
+            "completion_date": "2027-12-31",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "Breast cancer is the most common malignancy in women, with approximately 20% classified as HER2-positive. Anti-HER2 blockade (trastuzumab plus pertuzumab) combined with chemotherapy constitutes the standard neoadjuvant regimen; however, the pathological complete response (pCR) rate in the HR-positive subgroup remains only 35-40%, and platinum-containing schedules are associated with significant hematologic toxicity. Antibody-drug conjugates (ADCs) integrate targeted delivery with potent cytotoxi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Female, aged 18-70 years at the time of informed consent.\n2. Histologically confirmed invasive breast cancer, with no prior systemic anti-cancer therapy.\n3. Pathologically documented HR-positive (ER ≥ 1% and/or PR ≥ 1%) and HER2-positive disease, per the 2018 ASCO-CAP guideli",
+            "endpoints": [
+              "Pathologic complete response (pCR)"
+            ],
+            "sponsor": "Tianjin Medical University Cancer Institute and Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07307287"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01983501",
+            "title": "A Phase 1b, Open-label Study to Assess the Safety and Tolerability of Tucatinib (ONT-380) Combined With Ado-trastuzumab Emtansine (Trastuzumab Emtansine; T-DM1)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2014-02-28",
+            "completion_date": "2020-09-03",
+            "country": "Canada, United States",
+            "enrollment": 57,
+            "brief_summary": "The purpose of this study is to determine the maximal tolerated dose (MTD) or recommended dose (RD) and to assess the safety and tolerability of tucatinib (ONT-380) combined with ado-trastuzumab emtansine (T-DM1) in patients with HER2+ breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HER2+ metastatic breast cancer, documented as HER2+ by FISH and/or 3+ staining by immunohistochemistry.\n* History of prior therapy with trastuzumab and a taxane, separately or in combination. For patients in dose escalation and MTD expansion cohorts, prior therapy with trastuz",
+            "endpoints": [
+              "Incidence of adverse events"
+            ],
+            "sponsor": "Seagen Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01983501"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03523572",
+            "title": "A Phase 1b, Multicenter, Two-Part, Open-Label Study of Trastuzumab Deruxtecan, an Anti-Human Epidermal Growth Factor Receptor-2 (HER2)-Antibody Drug Conjugate (ADC), in Combination With Nivolumab, an Anti-PD-1 Antibody, for Subjects With HER2-expressing Advanced Breast and Urothelial Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2018-08-02",
+            "completion_date": "2023-09-12",
+            "country": "Spain, United Kingdom, France, Belgium, Germany, Italy, United States",
+            "enrollment": 86,
+            "brief_summary": "This is a study of trastuzumab deruxtecan for the treatment of HER2-positive unresectable or metastatic breast cancer following two or more prior anti-HER2 based regimens.\n\nParticipants will receive this study drug along with a cancer drug, an immune checkpoint inhibitor, anti-PD1, called nivolumab.\n\nThe study will be done in two parts:\n\n* Part 1 is to identify the recommended dose to use for treatment.\n* Part 2 is to find out how well the combination works, and how safe and tolerable it is.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Is the age of majority (adulthood) in their country\n2. Has an Eastern Cooperative Oncology Group Performance Status (ECOG PS) of 0 to 1\n3. Has pathologically documented breast cancer or urothelial cancer that is unresectable or metastatic, and refractory to or intolerant of e",
+            "endpoints": [
+              "Number of Participants With Dose-Limiting Toxicities at 3.2 mg/kg and 5.4 mg/kg Dose Level in Participants With HER2-expressing Advanced Breast Cancer in Dose Escalation",
+              "Percentage of Participants With Objective Response Rate (ORR) Based on Independent Central Review in Participants With HER2-expressing Advanced Breast Cancer or Urothelial Cancer"
+            ],
+            "sponsor": "Daiichi Sankyo",
+            "url": "https://clinicaltrials.gov/study/NCT03523572"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06595563",
+            "title": "HER2 Molecular Imaging With 89Zr-trastuzumab PET/CT as a Predictive Biomarker for Antibody-drug Conjugate Sequencing in Patients With Advanced HER2-positive Breast Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2026-02",
+            "completion_date": "2029-09",
+            "country": "Belgium",
+            "enrollment": 87,
+            "brief_summary": "ZEPHIR-02 is a multicentre, open-label phase II study that will enroll subjects with HER2-positive advanced/metastatic breast cancer (mBC) who have experienced disease progression under trastuzumab deruxtecan (T-DXd) in the metastatic setting.\n\nAll subjects will undergo baseline biopsy, blood collection, FDG-PET/CT and 89Zr-trastuzumab PET/CT (HER2-PET/CT) and will be classified as HER2-PET/CT positive or negative, as previously described in the ZEPHIR trial. Focusing on a central visual \"patien",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ECOG performance status ≤ 1\n* Must have histologically or cytologically confirmed progressive advanced/metastatic HER2-positive breast carcinoma as per the updated American Society of Clinical Oncology (ASCO) - College of American Pathologists (CAP) guidelines according to loc",
+            "endpoints": [
+              "Characterization of genomic alterations and HER2 expression.",
+              "Time to treatment failure (TTF)"
+            ],
+            "sponsor": "Jules Bordet Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06595563"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02038010",
+            "title": "A Phase I Study of BYL719 and Trastuzumab-MCC-DM1 in HER2-Positive Metastatic Breast Cancer Patients With Progression on Prior Trastuzumab and Taxane-Based Therapy",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2014-05-21",
+            "completion_date": "2017-05-20",
+            "country": "United States",
+            "enrollment": 17,
+            "brief_summary": "The purpose of this study is to see whether a combination of two different drugs - trastuzumab-MCC-DM1 (T-DM1) and BYL719 is safe, and if it might be effective in treating metastatic breast cancer. T-DM1 is a type of drug that contains an antibody (trastuzumab) linked to chemotherapy. The antibody in T-DM1 targets a marker on breast cancer cells called HER2, which allows the drug to go directly to the cancer cells. The use of T-DM1 in this study is considered standard treatment for the type of c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically-confirmed HER2-positive breast cancer that is locally advanced or metastatic (stage 4); ideally this should be from biopsy of the metastatic disease; however if this is not available, histologic confirmation from the primary tumor is acceptabl",
+            "endpoints": [
+              "Dose Limiting Toxicity (DLT) of Dose-escalating BYL719 in Combination With T-DM1",
+              "Maximum Tolerated Dose (MTD) of BYL719 in Combination With T-DM1."
+            ],
+            "sponsor": "Northwestern University",
+            "url": "https://clinicaltrials.gov/study/NCT02038010"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03726879",
+            "title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled Clinical Trial To Evaluate the Efficacy and Safety Of Atezolizumab or Placebo in Combination With Neoadjuvant Doxorubicin + Cyclophosphamide Followed By Paclitaxel + Trastuzumab + Pertuzumab In Early Her2-Positive Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-01-11",
+            "completion_date": "2023-08-24",
+            "country": "Spain, Canada, South Korea, Brazil, Germany, Italy, United States, Russia, Czechia, Poland, Taiwan, Japan",
+            "enrollment": 454,
+            "brief_summary": "This study (also known as IMpassion050) will evaluate the efficacy and safety of atezolizumab compared with placebo when given in combination with neoadjuvant dose-dense anthracycline (doxorubicin) + cyclophosphamide followed by paclitaxel + trastuzumab + pertuzumab (ddAC-PacHP) in patients with early HER2-positive breast cancer (T2-4, N1-3, M0).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of HER2-positive breast cancer, and hormonal and PD-L1 status, as documented through central testing of a representative tumor tissue specimen\n* Primary breast tumor size of \\> 2 cm by any radiographic measurement\n* Stage at presentation: T2-T4, N1-N3, M0 a",
+            "endpoints": [
+              "Percentage of Participants With Pathological Complete Response (pCR) in the PD-L1-Positive Population (IC 1/2/3)",
+              "pCR in the ITT Population"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03726879"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00509769",
+            "title": "A Phase II, Single-arm, Open-label Study of Trastuzumab-MCC-DM1 Administered Intravenously to Patients With HER2-Positive Metastatic Breast Cancer Who Have Progressed While Receiving HER2-Directed Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-07",
+            "completion_date": "2009-06",
+            "country": "United States",
+            "enrollment": 112,
+            "brief_summary": "This was a multi-institutional, open-label, single-arm, Phase II study of trastuzumab emtansine (T-DM1) administered by intravenous (IV) infusion to patients with human epidermal growth factor receptor 2 (HER2)-positive metastatic breast cancer (MBC).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent form.\n* Human epidermal growth factor receptor 2 (HER2)-positive metastatic breast cancer (MBC); tissue (slides or blocks) available for HER2 confirmation.\n* History of progression on HER2-directed therapy for the treatment of HER2-positive breast cance",
+            "endpoints": [
+              "Objective Response Assessed by the Independent Review Facility Using Response Evaluation Criteria in Solid Tumors (RECIST)"
+            ],
+            "sponsor": "Genentech, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00509769"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39631485",
+            "title": "Targeted and cytotoxic inhibitors used in the treatment of breast cancer.",
+            "abstract": "Breast cancer is the most commonly diagnosed malignancy and the fifth leading cause of cancer deaths worldwide. Surgery and radiation therapy are localized therapies for early-stage and metastatic breast cancer. The management of breast cancer is determined in large part by the HER2 (human epidermal growth factor receptor 2), HR (hormone receptor), ER (estrogen receptor), and PR (progesterone receptor) status. Our views of breast cancer are evolving as its molecular hallmarks are examined, which now include immunohistochemical markers (ER, PR, HER2, and proliferation marker protein Ki-67), genomic markers (BRCA1/2 and PIK3CA), and immunomarkers (tumor-infiltrating lymphocytes and PDL1). About two-thirds of malignancies of the breast are HR-positive/HER2-negative; accordingly, endocrine-based therapy is a major treatment option for these patients. Hormonal or endocrine therapy includes selective estrogen receptor modulators (SERMs) such as raloxifene, tamoxifen and toremifene, selective",
+            "journal": "Pharmacological research",
+            "year": "2024",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Breast Neoplasms",
+              "Female",
+              "Antineoplastic Agents",
+              "Animals",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39631485/"
+          },
+          {
+            "pmid": "40642740",
+            "title": "Long Durable Response With Trastuzumab Deruxtecan Monotherapy in a Triple-Negative Metastatic Breast Cancer Patient With Human Epidermal Growth Factor Receptor 2 Mutation: A Long-Term Follow-Up and Literature Review.",
+            "abstract": "The human epidermal growth factor receptor 2 (HER2)/erythroblastic oncogene B2 (ERBB2) is a tyrosine kinase receptor protein that plays an important role in the pathogenesis and aggressive nature of the tumors. It is well studied in various cancers, including breast, gastric, esophageal, ovarian, lung, and endometrial cancers. It is a well-known negative prognostic indicator in breast cancer associated with decreased disease-free survival and overall survival. Breast cancer treatment has been revolutionized with the invention of targeted monoclonal antibody therapies against the HER2 receptor, particularly trastuzumab and its antibody-drug conjugates (ADCs). HER2-targeted therapies have proven to improve progression-free survival and overall survival when added to chemotherapy in adjuvant, neoadjuvant, and metastatic settings in patients who are HER2-positive. ADCs approved for breast cancer include trastuzumab emtansine (Kadcyla, T-DM1) and trastuzumab deruxtecan (Enhertu, T-DXd). Wit",
+            "journal": "Journal of medical cases",
+            "year": "2025",
+            "authors": [
+              "Idamakanti Muralidhar",
+              "Bijjam Rani Indrani",
+              "Kumar Manoj",
+              "Mukkamalla Shiva Kumar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40642740/"
+          },
+          {
+            "pmid": "35140078",
+            "title": "Receptor conversion and vocal cord paralysis in a patient with breast cancer.",
+            "abstract": "Receptor conversion in breast cancer occurs in up to 32% of patients, resulting in ineffective therapy in the absence of corresponding biomarkers. We report a case of a middle-aged woman who presented with a 2-month history of hoarseness. Laryngoscopy demonstrated right vocal cord paralysis. Whole body positron emission tomography-CT (PET-CT) scan showed a hypermetabolic cervical lymph node, worrisome for metastasis. Biopsy of the cervical lymph node was consistent with metastatic carcinoma of the breast (GATA3 and mammaglobin positive, oestrogen receptor (OR)-positive, progesterone receptor-negative and human epidermal growth factor receptor 2 (HER2)-positive). She underwent targeted therapy with ado-trastuzumab emtansine every 3 weeks. Repeat PET-CT scan after 6 months showed stable disease. Reassessment of receptor status in metastatic breast cancer is encouraged to rule out receptor conversion. There is significant cross-talk between OR and HER2 signalling pathways, leading to trea",
+            "journal": "BMJ case reports",
+            "year": "2022",
+            "authors": [
+              "Tan Harold Nathan",
+              "Catedral Lance Isidore Garcenila",
+              "Velasco Rogelio Jr",
+              "San Juan Michael"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Lymph Nodes",
+              "Middle Aged",
+              "Positron Emission Tomography Computed Tomography",
+              "Positron-Emission Tomography",
+              "Vocal Cord Paralysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35140078/"
+          },
+          {
+            "pmid": "35251981",
+            "title": "Durable Effect of Pyrotinib and Metronomic Vinorelbine in HER2-Positive Breast Cancer With Leptomeningeal Disease: A Case Report and Literature Review.",
+            "abstract": "Leptomeningeal metastases (LM) are rare and catastrophic for metastatic breast cancer (MBC). The prognosis of HER2-positive breast cancer (BC) with LM is extremely poor. There is no high-quality evidence of treatment regimens in HER2-positive BC with LM yet. Here, we present a case of LM in a 50-year-old woman with HER2-positive BC. Immunohistochemistry revealed invasive ductal carcinoma, estrogen receptor negative, progesterone receptor negative, HER2 3+, P53 positive 80%, and Ki-67 positive 35%. Reported for the first time, the patient was given pyrotinib-targeted therapy (400 mg, oral, every day), metronomic vinorelbine (40 mg, oral, three times a week), and intrathecal methotrexate (10 mg, infrequent and irregular use due to poor compliance) synchronously. The patient received and benefited from the treatment regimen for 16 months. And the quality of life, as self-reported, improved significantly. We also comprehensively summarized all the case reports, observational studies, and c",
+            "journal": "Frontiers in oncology",
+            "year": "2022",
+            "authors": [
+              "Chi Yajing",
+              "Shang Mao",
+              "Xu Liang",
+              "Gong Heyi",
+              "Tao Rongjie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35251981/"
+          },
+          {
+            "pmid": "28259011",
+            "title": "Clinical use of biomarkers in breast cancer: Updated guidelines from the European Group on Tumor Markers (EGTM).",
+            "abstract": "Biomarkers play an essential role in the management of patients with invasive breast cancer. For selecting patients likely to respond to endocrine therapy, both oestrogen receptors (ERs) and progesterone receptors (PRs) should be measured on all newly diagnosed invasive breast cancers. On the other hand, for selecting likely response to all forms of anti-HER2 therapy (trastuzumab, pertuzumab, lapatinib or ado-trastuzumab emtansine), determination of HER2 expression or gene copy number is mandatory. Where feasible, measurement of ER, PR and HER2 should be performed on recurrent lesions and the primary invasive tumour. Although methodological problems exist in the determination of Ki67, because of its clearly established clinical value, wide availability and low costs relative to the available multianalyte signatures, Ki67 may be used for determining prognosis, especially if values are low or high. In oestrogen receptor (ER)-positive, HER2-negative, lymph node-negative patients, multiana",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2017",
+            "authors": [
+              "Duffy M J",
+              "Harbeck N",
+              "Nap M",
+              "Molina R",
+              "Nicolini A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Biomarkers, Tumor",
+              "Breast Neoplasms",
+              "Female",
+              "Gene Expression Profiling",
+              "Genetic Testing",
+              "Humans",
+              "Ki-67 Antigen",
+              "Neoplasm Proteins",
+              "Plasminogen Activator Inhibitor 1",
+              "Practice Guidelines as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28259011/"
+          },
+          {
+            "pmid": "37445276",
+            "title": "Aminosteroid RM-581 Decreases Cell Proliferation of All Breast Cancer Molecular Subtypes, Alone and in Combination with Breast Cancer Treatments.",
+            "abstract": "Breast cancer (BC) is a heterogenous disease classified into four molecular subtypes (Luminal A, Luminal B, HER2 and triple-negative (TNBC)) depending on the expression of the estrogen receptor (ER), the progesterone receptor (PR) and the human epidermal receptor 2 (HER2). The development of effective treatments for BC, especially TNBC, remains a challenge. Aminosteroid derivative RM-581 has previously shown an antiproliferative effect in multiple cancers in vitro and in vivo. In this study, we evaluated its effect in BC cell lines representative of BC molecular subtypes, including metastatic TNBC. We found that RM-581 has an antiproliferative effect on all BC molecular subtypes, especially on Luminal A and TNBC, in 2D and 3D cultures. The combination of RM-581 and trastuzumab or trastuzumab-emtansine enhanced the anticancer effect of each drug for HER2-positive BC cell lines, and the combination of RM-581 and taxanes (docetaxel or paclitaxel) improved the antiproliferative effect of R",
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "authors": [
+              "Burguin Anna",
+              "Roy Jenny",
+              "Ouellette Geneviève",
+              "Maltais René",
+              "Bherer Juliette"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37445276/"
+          },
+          {
+            "pmid": "39827242",
+            "title": "Steroid hormone receptors, exome sequencing and treatment responsiveness of breast cancer patient-derived xenografts originated in a South American country.",
+            "abstract": "Breast cancer (BC) patient-derived xenografts (PDX) are relevant models for precision medicine. However, there are no collections derived from South American BC patients. Since ethnicity significantly impacts clinical outcomes, it is necessary to develop PDX models from different lineages. Our goals were to a) develop BC PDX from our population; b) characterize the expression of estrogen (ER), progesterone (PR), androgen (AR) and glucocorticoid (GR) receptors, basal and luminal cytokeratins, EGFR and HER2; c) identify PDX mutations; d) evaluate the response to treatments selected based on their biological and genetic features, and e) perform BC tissue cultures (BCTC) from PDX tissues and compare in vivo and ex vivo results. Surgical fragments were maintained in a culture medium and inoculated subcutaneously into untreated NSG female mice, or treated with estradiol pellets. Other fragments were fixed in formalin for diagnosis and immunohistochemistry, and a third piece was frozen at -80",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Pataccini Gabriela",
+              "Elia Andrés",
+              "Sequeira Gonzalo",
+              "Ambrosio Luisa",
+              "Coianis Marcela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Animals",
+              "Humans",
+              "Mice",
+              "Breast Neoplasms",
+              "Exome Sequencing",
+              "Xenograft Model Antitumor Assays",
+              "Receptors, Progesterone",
+              "Receptors, Estrogen",
+              "South America"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39827242/"
+          },
+          {
+            "pmid": "34215766",
+            "title": "The prognostic relevance of HER2-positivity gain in metastatic breast cancer in the ChangeHER trial.",
+            "abstract": "In metastatic breast cancer (mBC), the change of human epidermal growth factor receptor 2 (HER2) status between primary and metastatic lesions is widely recognized, however clinical implications are unknown. Our study address the question if relevant differences exist between subjects who preserve the HER2 status and those who gain the HER2 positivity when relapsed. Data of patients affected by HER2-positive mBC, treated with pertuzumab and/or trastuzumab-emtansine (T-DM1) in a real-world setting at 45 Italian cancer centers were retrospectively collected and analyzed. From 2003 to 2017, 491 HER2-positive mBC patients were included. Of these, 102 (20.7%) had been initially diagnosed as HER2-negative early BC. Estrogen and/or progesterone receptor were more expressed in patients with HER2-discordance compared to patients with HER2-concordant status (p < 0.0001 and p = 0.006, respectively). HER2-discordant tumors were characterized also by a lower rate of brain metastases (p = 0.01) and ",
+            "journal": "Scientific reports",
+            "year": "2021",
+            "authors": [
+              "Pizzuti Laura",
+              "Barba Maddalena",
+              "Mazzotta Marco",
+              "Krasniqi Eriseld",
+              "Maugeri-Saccà Marcello"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brain Neoplasms",
+              "Breast Neoplasms",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34215766/"
+          },
+          {
+            "pmid": "24892840",
+            "title": "New developments in metastatic breast cancer: integrating recent data into clinical practice.",
+            "abstract": "The treatment of metastatic breast cancer continues to be a challenging area for medical oncologists. Breast tumors are classified into several groups based on immunohistochemistry: those that are estrogen-receptor–positive and human epidermal growth factor receptor 2 (HER2)-negative; those that are HER2-positive and either estrogen-receptor–positive or estrogen-receptor–negative; and those that are negative for the estrogen receptor, progesterone receptor, and HER2 (known as triple-negative). These biologic factors are an important component of the risk assessment and treatment strategy. Management goals for advanced disease are to target treatment to the specific biology in a more effective way, and to add in targeted agents that may improve the effectiveness of standard therapies, such as hormone therapy and chemotherapy. There are several new therapies that are changing outcome for patients with metastatic disease, such as eribulin, pertuzumab, and ado-trastuzumab emtansine. It is ",
+            "journal": "Clinical advances in hematology & oncology : H&O",
+            "year": "2013",
+            "authors": [
+              "Perez Edith A",
+              "Rugo Hope S",
+              "Vahdat Linda T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast",
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Neoplasm Metastasis",
+              "Erb-b2 Receptor Tyrosine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24892840/"
+          },
+          {
+            "pmid": "40433060",
+            "title": "Male Occult Primary Breast Cancer Diagnosed with Small Bowel Metastases: A Case Report.",
+            "abstract": "Male occult breast cancers are extremely rare and often difficult to diagnose. With only few cases reported, no established treatment is available. And metastatic spread to the small intestine from a tumor originating outside the peritoneal cavity is rare. However, there is a higher tendency for metastasis to the peritoneal cavity, including the small bowel, in the case of lobular carcinoma of the breast.",
+            "journal": "Surgical case reports",
+            "year": "2025",
+            "authors": [
+              "Ogata Suguru",
+              "Toh Uhi",
+              "Ozaki Kunihiro",
+              "Mihara Yutaro",
+              "Ogata Nanae"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40433060/"
+          },
+          {
+            "pmid": "33482449",
+            "title": "Favorable survival with combined treatment in a metastatic breast cancer patient undergoing hemodialysis: A case report.",
+            "abstract": "Management of breast cancer patients undergoing hemodialysis (HD) is difficult because of a lack of evidence about drug selection, dose adjustment, and surgical procedures. We herein present a case of metastatic breast cancer in a patient undergoing HD.",
+            "journal": "International journal of surgery case reports",
+            "year": "2021",
+            "authors": [
+              "Matsumoto Megumi",
+              "Yano Hiroshi",
+              "Otsubo Ryota",
+              "Tanaka Aya",
+              "Nagayasu Takeshi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33482449/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast tumor luminal A or B",
+        "txgnn_score": 0.9981083869934082,
+        "txgnn_rank": 3255,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02448420",
+            "title": "A Phase II Trial of Palbociclib in Combination With Trastuzumab and Endocrine Therapy in Patients With Previously-treated Locally Advanced or Metastatic HER2-positive Breast Cancer (PATRICIA II)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-07",
+            "completion_date": "2023-11-30",
+            "country": "Spain",
+            "enrollment": 73,
+            "brief_summary": "PATRICIA is a phase II, open-label, multicentre, Simon's two-stage-design study of the combination of palbociclib plus trastuzumab, with or without letrozole, in post-menopausal patients with HER2-positive locally advanced or metastatic breast cancer (MBC) who have received chemotherapy and treatment with trastuzumab for their metastatic disease. Cohorts A, B1, and B2 based on their HR status and treatment allocation were planned.\n\nCohort A included patients with hormone receptor-negative, HER2 ",
+            "eligibility_criteria": "Inclusion Criteria\n\nFor Cohorts A and B (Recruitment Closed)\n\n1. Written signed Informed Consent for all study procedures in accordance with the local administrative requirements prior to starting the protocol-specific procedures.\n2. Female patients\n3. Age 18 years or older\n4. ECOG performance statu",
+            "endpoints": [
+              "Progression-Free Survival at 6 months",
+              "Progression-Free Survival (PFS)as Assessed by the Investigator [ Time Frame: From randomization date to date of first documentation of progression or death"
+            ],
+            "sponsor": "SOLTI Breast Cancer Research Group",
+            "url": "https://clinicaltrials.gov/study/NCT02448420"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32323265",
+            "title": "B Cell Development and Maturation.",
+            "abstract": "Since the identification of B cells in 1965 (Cooper  et al. 1965), three has been tremendous progress in our understanding of B cell development, maturation and function. A number of B cell subpopulations, including B-1, B-2 and regulatory B cells, have been identified. B-1 cells mainly originate from the fetal liver and contain B-1a and B-1b subsets. B-2 cells are derived from the bone marrow (BM) and can be further classified into follicular B (FOB) and marginal zone B (MZB) cells. Regulatory B cells (Bregs) function to suppress immune responses, primarily by production of the anti-inflammatory cytokine IL-10. B cell tolerance is established at several checkpoints, during B cell development in the BM (central tolerance) as well as during B cell maturation and activation in the periphery (peripheral tolerance). This chapter will focus on the regulation of important processes during the development and maturation of B-1 and B-2 cells.",
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2020",
+            "authors": [
+              "Wang Ying",
+              "Liu Jun",
+              "Burrows Peter D",
+              "Wang Ji-Yang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "B-Lymphocytes",
+              "Bone Marrow Cells",
+              "Humans",
+              "Immune Tolerance",
+              "Lymphocyte Activation",
+              "Peripheral Tolerance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32323265/"
+          },
+          {
+            "pmid": "11244048",
+            "title": "B cell development pathways.",
+            "abstract": "B cell development is a highly regulated process whereby functional peripheral subsets are produced from hematopoietic stem cells, in the fetal liver before birth and in the bone marrow afterward. Here we review progress in understanding some aspects of this process in the mouse bone marrow, focusing on delineation of the earliest stages of commitment, on pre-B cell receptor selection, and B cell tolerance during the immature-to-mature B cell transition. Then we note some of the distinctions in hematopoiesis and pre-B selection between fetal liver and adult bone marrow, drawing a connection from fetal development to B-1/CD5(+) B cells. Finally, focusing on CD5(+) cells, we consider the forces that influence the generation and maintenance of this distinctive peripheral B cell population, enriched for natural autoreactive specificities that are encoded by particular germline V(H)-V(L) combinations.",
+            "journal": "Annual review of immunology",
+            "year": "2001",
+            "authors": [
+              "Hardy R R",
+              "Hayakawa K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antigens, CD",
+              "Antigens, Differentiation, B-Lymphocyte",
+              "B-Lymphocyte Subsets",
+              "B-Lymphocytes",
+              "Bone Marrow",
+              "CD5 Antigens",
+              "Cell Differentiation",
+              "Cell Lineage",
+              "Gene Expression Regulation, Developmental"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11244048/"
+          },
+          {
+            "pmid": "34590138",
+            "title": "Hepatitis B Vaccines.",
+            "abstract": "Hepatitis B is caused by the hepatitis B virus (HBV), which infects the liver and may lead to chronic liver disease, including cirrhosis and hepatocellular carcinoma. HBV represents a worldwide public health problem, causing major morbidity and mortality. Affordable, safe, and effective, hepatitis B vaccines are the best tools we have to control and prevent hepatitis B. In 2019, coverage of 3 doses of the hepatitis B vaccine reached 85% worldwide compared to around 30% in 2000. The effective implementation of hepatitis B vaccination programs has resulted in a substantial decrease in the HBV carrier rate and hepatitis B-related morbidity and mortality. This article summarizes the great triumphs of the hepatitis B vaccine, the first anticancer and virus-like-particle-based vaccine. In addition, existing unresolved issues and future perspectives on hepatitis B vaccination required for global prevention of HBV infection are discussed.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2021",
+            "authors": [
+              "Pattyn Jade",
+              "Hendrickx Greet",
+              "Vorsters Alex",
+              "Van Damme Pierre"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Hepatitis B",
+              "Hepatitis B Vaccines",
+              "Hepatitis B e Antigens",
+              "Hepatitis B virus",
+              "Humans",
+              "Vaccination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34590138/"
+          },
+          {
+            "pmid": "37878202",
+            "title": "Anti-HER2 Drugs for the Treatment of Advanced HER2 Positive Breast Cancer.",
+            "abstract": "Approximately 15-20% of breast cancers (BC) demonstrate HER2 overexpression/gene amplification. Historically, before the era of HER2-directed therapies, this subtype was associated with poor prognosis. Anti-HER2 agents dramatically changed the natural course of disease and significantly prolonged patients' survival. In recent years, a number of new anti-HER2 therapies have been developed, and their approvals offer new therapeutic options for patients with advanced HER2-positive breast cancer. At present, HER2 pathway blocking drugs used in the treatment of metastatic breast cancer worldwide include trastuzumab and pertuzumab in the first-line treatment; trastuzumab deruxtecan and trastuzumab emtansine in the second line; and tucatinib, neratinib, lapatinib, and margetuximab in further lines of treatment of advanced HER2 positive breast cancer. Additionally, there are many clinical trials underway evaluating drugs blocking the HER2 pathway in advanced disease setting. This article prese",
+            "journal": "Current treatment options in oncology",
+            "year": "2023",
+            "authors": [
+              "Stanowicka-Grada Malwina",
+              "Senkus Elżbieta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Breast Neoplasms",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Trastuzumab",
+              "Ado-Trastuzumab Emtansine",
+              "Lapatinib"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37878202/"
+          },
+          {
+            "pmid": "34969512",
+            "title": "[Not Available].",
+            "abstract": "The emergence of a new tumor entity called HER2-low breast cancer leads us to reconsider therapeutic indications in patients whose tumors were usually considered as luminal or triple negative. The development of antibody-drug conjugates (ADCs) allows using HER2 as a vector of a cytoxic drug with significant clinical efficacy in breast cancer with low HER2 expression. Trastuzumab deruxtecan monotherapy is currently evaluated in phase III trials in HER2-low patients, but also in combination in earlier phase studies. Many ADCs are in development, with highly anticipated results. The toxicities of these various ADCs seem manageable and compatible with prolonged administration. Her2-low breast cancer subtype may benefit from dedicated therapeutic strategies in the next few years.",
+            "journal": "Bulletin du cancer",
+            "year": "2021",
+            "authors": [
+              "Mallet Amélie",
+              "Ombline De Calbiac",
+              "Robert Marie",
+              "Campone Mario",
+              "Frenel Jean Sébastien"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Antibodies, Bispecific",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Female",
+              "Humans",
+              "Immunoconjugates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34969512/"
+          },
+          {
+            "pmid": "32323276",
+            "title": "B Cell Lymphoma.",
+            "abstract": "B cell development and activation are accompanied by dynamic genetic alterations including V(D)J rearrangements and immunoglobulin-gene somatic hypermutation and class-switch recombination. Abnormalities in these genetic events can cause chromosomal translocations and genomic mutations, leading to altered expression and function of genes involved in B cell survival or proliferation and consequently B lymphomagenesis. In fact, B cell lymphoma accounts for 95% of the lymphomas. In this chapter, we summarize the morphology, immunophenotypes, clinical features, genetic defects that cause the malignancies, treatments, and prognosis of the most prevalent types of B cell lymphomas, including typical precursor B cell malignance (B-ALL/LBL) and mature B cell lymphoma (Hodgkin lymphoma and B cell non-Hodgkin lymphoma).",
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2020",
+            "authors": [
+              "Meng Xin",
+              "Min Qing",
+              "Wang Ji-Yang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "B-Lymphocytes",
+              "Humans",
+              "Immunoglobulin Class Switching",
+              "Lymphoma, B-Cell",
+              "Somatic Hypermutation, Immunoglobulin",
+              "Translocation, Genetic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32323276/"
+          },
+          {
+            "pmid": "38300710",
+            "title": "HER2 heterogeneity and treatment response-associated profiles in HER2-positive breast cancer in the NCT02326974 clinical trial.",
+            "abstract": "BACKGROUNDHER2-targeting therapies have great efficacy in HER2-positive breast cancer, but resistance, in part due to HER2 heterogeneity (HET), is a significant clinical challenge. We previously described that in a phase II neoadjuvant trastuzumab emtansine (T-DM1) and pertuzumab (P) clinical trial in early-stage HER2-positive breast cancer, none of the patients with HER2-HET tumors had pathologic complete response (pCR).METHODSTo investigate cellular and molecular differences among tumors according to HER2 heterogeneity and pCR, we performed RNA sequencing and ERBB2 FISH of 285 pretreatment and posttreatment tumors from 129 patients in this T-DM1+P neoadjuvant trial. A subset of cases was also subject to NanoString spatial digital profiling.RESULTSPretreatment tumors from patients with pCR had the highest level of ERBB2 mRNA and ERBB signaling. HER2 heterogeneity was associated with no pCR, basal-like features, and low ERBB2 expression yet high ERBB signaling sustained by activation o",
+            "journal": "The Journal of clinical investigation",
+            "year": "2024",
+            "authors": [
+              "Li Zheqi",
+              "Metzger Filho Otto",
+              "Viale Giuseppe",
+              "dell'Orto Patrizia",
+              "Russo Leila"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Ado-Trastuzumab Emtansine",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Phosphatidylinositol 3-Kinases",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Trastuzumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38300710/"
+          },
+          {
+            "pmid": "36809046",
+            "title": "De-Escalated Neoadjuvant Trastuzumab-Emtansine With or Without Endocrine Therapy Versus Trastuzumab With Endocrine Therapy in HR+/HER2+ Early Breast Cancer: 5-Year Survival in the WSG-ADAPT-TP Trial.",
+            "abstract": "Neoadjuvant chemotherapy is standard of care in human epidermal growth factor receptor 2-positive (HER2+) early breast cancer (EBC), irrespective of the hormone receptor status. Trastuzumab-emtansine (T-DM1), antibody-drug conjugate, is highly effective in HER2+ EBC; however, no survival data are available for de-escalated antibody-drug conjugate-based neoadjuvant therapy without conventional chemotherapy.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2023",
+            "authors": [
+              "Harbeck Nadia",
+              "Nitz Ulrike A",
+              "Christgen Matthias",
+              "Kümmel Sherko",
+              "Braun Michael"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Trastuzumab",
+              "Breast Neoplasms",
+              "Ado-Trastuzumab Emtansine",
+              "Neoadjuvant Therapy",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Biomarkers, Tumor",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36809046/"
+          },
+          {
+            "pmid": "33783302",
+            "title": "CpG-Adjuvanted Hepatitis B Vaccine (HEPLISAV-B®) Update.",
+            "abstract": "Introduction: HEPLISAV-B is a hepatitis B vaccine composed of rHBsAg mixed with a synthetic oligonucleotide containing CpG motifs that stimulate innate immunity through TLR9. This vaccine was recently approved by FDA in view of its superior efficacy.Areas covered: Published literature on HEPLISAV-B was critically reviewed. Four randomized controlled trials among 7,056 subjects receiving 2 doses of HEPLISAV-B and 3,214 subjects receiving 3 doses of Engerix-B showed superior seroprotection rate (SPR) (anti-HBs ≥10 mIU/mL) of 90-100%, compared with 71-90% in those receiving Engerix-B. Furthermore, the seroprotection rate was also significantly higher in HEPLISAV-B compared with Engerix-B recipients in persons with traditionally poor vaccine responses such as older adults, diabetics, and those with chronic kidney disease. The safety profiles among 9,871 subjects were similar between HEPLISAV-B and Engerix-B .Expert opinion: HEPLISAV-B, a CpG adjuvant mixed with HBsAg, is more efficacious a",
+            "journal": "Expert review of vaccines",
+            "year": "2021",
+            "authors": [
+              "Lee Guan-Huei",
+              "Lim Seng-Gee"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Immunologic",
+              "Aged",
+              "Hepatitis B",
+              "Hepatitis B Antibodies",
+              "Hepatitis B Surface Antigens",
+              "Hepatitis B Vaccines",
+              "Humans",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33783302/"
+          },
+          {
+            "pmid": "17471822",
+            "title": "Introduction to B-Cell disorders.",
+            "abstract": "Healthcare professionals have a good understanding of B cells in normal immunity. Although the role of lymphocytes and the lymphoid system in lymphoma is understood, the role of B cells is less clear in several autoimmune diseases, such as rheumatoid arthritis, idiopathic thrombocytopenic purpura, and autoimmune hemolytic anemia. This article will present an overview of malignant and nonmalignant B-cell disorders. Experts hypothesize that some monoclonal antibodies can deplete the B-cell population and prevent B- and T-cell responses in autoimmune diseases. Nurses should understand the data surrounding monoclonal therapy, which are not always presented clearly. Nurses' ability to interpret data is important to their patients and colleagues.",
+            "journal": "Clinical journal of oncology nursing",
+            "year": "2007",
+            "authors": [
+              "Noonan Kimberly"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "B-Lymphocytes",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Radioimmunotherapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17471822/"
+          },
+          {
+            "pmid": "39424718",
+            "title": "B Cell Differentiation and the Origin and Pathogenesis of Human B Cell Lymphomas.",
+            "abstract": "Immunoglobulin (IG) gene remodeling by V(D)J recombination plays a central role in the generation of normal B cells, and somatic hypermutation and class switching of IG genes are key processes during antigen-driven B cell differentiation in the germinal center reaction. However, errors of these processes are involved in the development of B cell lymphomas. IG locus-associated translocations of proto-oncogenes are a hallmark of many B cell malignancies. Additional transforming events include inactivating mutations in various tumor suppressor genes and also latent infection of B cells with viruses, such as Epstein-Barr virus. Most B cell lymphomas require B cell antigen receptor expression, and in several instances chronic antigenic stimulation plays a role in lymphoma development and/or sustaining tumor growth. Often, survival and proliferation signals provided by other cells in the microenvironment are a further critical factor in lymphoma development and pathophysiology. Most B cell m",
+            "journal": "Methods in molecular biology (Clifton, N.J.)",
+            "year": "2025",
+            "authors": [
+              "Weniger Marc A",
+              "Seifert Marc",
+              "Küppers Ralf"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Cell Differentiation",
+              "B-Lymphocytes",
+              "Germinal Center"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39424718/"
+          },
+          {
+            "pmid": "40866060",
+            "title": "Randomised trial of trastuzumab deruxtecan and biology-driven selection of neoadjuvant treatment for HER2-positive breast cancer: a study protocol of ARIADNE.",
+            "abstract": "Neoadjuvant therapy is the standard of care for the treatment of human epidermal growth factor receptor 2 (HER2)-positive breast cancer (BC). Studies on first-generation antibody-drug conjugates, such as trastuzumab emtansine (T-DM1), showed equal or slightly lower efficacy than chemotherapy combined with dual HER2 blockade. Trastuzumab deruxtecan (T-DXd) is a next-generation conjugate approved for the treatment of metastatic HER2-positive and HER2-low BC, with greatly improved efficacy compared to T-DM1.",
+            "journal": "BMJ open",
+            "year": "2025",
+            "authors": [
+              "Matikas Alexios",
+              "Naume Bjørn",
+              "Wildiers Hans",
+              "Sonke Gabe",
+              "Dieci Maria Vittoria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carboplatin",
+              "Clinical Trials, Phase II as Topic",
+              "Docetaxel",
+              "Immunoconjugates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40866060/"
+          },
+          {
+            "pmid": "33493147",
+            "title": "HER2-positive metastatic breast cancer: a comprehensive review.",
+            "abstract": "Cases of human epidermal growth factor receptor 2 (HER2)-positive breast cancer represent approximately 15% to 20% of all breast cancers. Historically, this subtype of breast cancer was associated with an increased risk for the development of systemic and brain metastases and poor overall survival. The introduction of trastuzumab dramatically changed the outcomes of patients with HER2-positive disease, with many demonstrating outcomes similar to those of patients with luminal tumors. Currently, the first-line standard of care for patients with HER2-positive metastatic breast cancer is dual HER2 antibody therapy with pertuzumab/trastuzumab plus a taxane. After progression, the standard of care is trastuzumab emtansine (T-DM1). Although the treatment choices for patients whose disease has progressed on these agents are more limited, promising new drugs have emerged as effective options, including tucatinib and trastuzumab deruxtecan, which were recently approved by the US Food and Drug A",
+            "journal": "Clinical advances in hematology & oncology : H&O",
+            "year": "2021",
+            "authors": [
+              "Exman Pedro",
+              "Tolaney Sara M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brain Neoplasms",
+              "Breast Neoplasms",
+              "Bridged-Ring Compounds",
+              "Camptothecin",
+              "Female",
+              "Humans",
+              "Immunoconjugates",
+              "Neoplasm Metastasis",
+              "Oxazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33493147/"
+          },
+          {
+            "pmid": "34557923",
+            "title": "Heplisav-B in Prior Hepatitis B Vaccine Nonresponders: A Case Series.",
+            "abstract": "Hepatitis B is a potentially deadly infection that can be acquired by exposure to infectious human blood or body fluids. While service members and others at occupational risk are routinely vaccinated to prevent hepatitis B, non-responders to this vaccine are at continued risk. Heplisav-B is a newer vaccine that may offer additional protection to those at risk.",
+            "journal": "Military medicine",
+            "year": "2022",
+            "authors": [
+              "Williams Alan L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Hepatitis B",
+              "Hepatitis B Antibodies",
+              "Hepatitis B Surface Antigens",
+              "Hepatitis B Vaccines",
+              "Humans",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34557923/"
+          },
+          {
+            "pmid": "25748080",
+            "title": "HER2-positive metastatic breast cancer: a changing scenario.",
+            "abstract": "Adjuvant trastuzumab (AT) dramatically improved HER2-positive breast cancer prognosis. Relapsed disease after AT has different patterns and information is available from observational studies. In this Review Chemotherapy regimens combined to anti-HER2 blockade are discussed, focusing in particular the role of anthracyclines, taxanes and capecitabine. The use of trastuzumab beyond progression and the role of other anti-HER2 agents like lapatinib, pertuzumab and T-DM1 are explored, as also dual blockade and in trastuzumab resistant Patients. Metastatic \"de novo\" HER2 Luminal (co-expression of HER2 and hormone receptors) Patients are eligible for anastrozole and trastuzumab but if pretreated with trastuzumab they are also eligible for lapatinib and letrozole. In any case endocrine treatment plays a complementary role to chemotherapy which remains pivotal. The last topic explored is treatment options for patients with brain metastases where both trastuzumab given concurrent with radiothera",
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2015",
+            "authors": [
+              "Mustacchi G",
+              "Biganzoli L",
+              "Pronzato P",
+              "Montemurro F",
+              "Dambrosio M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Anthracyclines",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brain",
+              "Brain Neoplasms",
+              "Breast",
+              "Breast Neoplasms",
+              "Capecitabine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25748080/"
+          },
+          {
+            "pmid": "16879952",
+            "title": "B-1 B cells: development, selection, natural autoantibody and leukemia.",
+            "abstract": "B-1 (CD5+) B cells constitute a phenotypic and functionally distinct population of B cells in mouse that show enriched expression of autoreactive B-cell antigen receptors and that produce several types of natural autoantibodies. Recently, there has been much progress in this field of research. Evidence has appeared for the existence of distinctive B-cell precursors that preferentially generate B-1 B cells, and the crucial requirement for strong B-cell antigen receptor signaling in the maturation of B-1 B cells has been established. Other work focuses on a phenotypically similar population that lacks CD5, termed 'B-1b', which shows similarities and differences from most CD5+ B cells in both development and function. The relationship of normal B-1 cells with B-cell lymphomas and leukemias continues to be a subject of interest and debate.",
+            "journal": "Current opinion in immunology",
+            "year": "2006",
+            "authors": [
+              "Hardy Richard R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autoantibodies",
+              "Autoantigens",
+              "B-Lymphocyte Subsets",
+              "CD5 Antigens",
+              "Immunophenotyping",
+              "Leukemia",
+              "Lymphopoiesis",
+              "Mice",
+              "Receptors, Antigen, B-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16879952/"
+          },
+          {
+            "pmid": "26194636",
+            "title": "Siglec-G is a B-1 cell inhibitory receptor and also controls B cell tolerance.",
+            "abstract": "B cell antigen receptor signaling on B-1 cells is controlled by several inhibitory receptors, including Siglec-G, which is a member of the Siglec (sialic acid-binding immunoglobulin-like lectin) family and inhibits B cell signaling. The inhibitory function of Siglec-G is largely restricted to B-1 cells, as demonstrated by studies of Siglec-G-deficient mice showing a phenotype affecting mostly B-1 cells. Siglec-G-deficient mice show a markedly increased B-1a cell population, enhanced B-1 cell signaling, and a shift in the immunoglobulin repertoire secreted by their B-1 cells. Mouse models have provided evidence that Siglec-G binds to the B cell receptor (BCR) on the B cell surface via interaction with sialic acid ligands. As an inhibitory receptor on B cells, Siglec-G controls B cell tolerance, and deficiency of this protein can increase the severity of autoimmune diseases. Despite its importance on B-1 cells, there is evidence that the control of B cell tolerance by Siglec-G occurs on ",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "2015",
+            "authors": [
+              "Nitschke Lars"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autoimmunity",
+              "B-Lymphocyte Subsets",
+              "Humans",
+              "Immune Tolerance",
+              "Lectins",
+              "Mice",
+              "Receptors, Antigen, B-Cell",
+              "Sialic Acid Binding Immunoglobulin-like Lectins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26194636/"
+          },
+          {
+            "pmid": "34293709",
+            "title": "B-prolymphocytic leukemia: Is it time to retire this entity?",
+            "abstract": "B-prolymphocytic leukemia (B-PLL) is included as a distinct entity in the current World Health Organization classification of hematolymphoid neoplasms. However, the diagnosis of B-PLL has presented several challenges since its conception, and over the past decades investigations of B-PLL have revealed substantial biologic and molecular heterogeneity. These data have shown that many B-PLL cases present many similarities with other types of small B-cell lymphomas, and that small B-cell lymphomas can undergo prolymphocytoid transformation. As a result, the frequency of B-PLL has markedly decreased, and currently B-PLL is a very rare entity. Most recent studies focused on B-PLL cases have been conducted on limited cohorts, precluding robust conclusions. In this article, we provide a concise historical review of B-PLL and describe the diagnostic and clinical challenges associated with establishing this diagnosis. We also argue that cases currently classified as B-PLL are unlikely to be a un",
+            "journal": "Annals of diagnostic pathology",
+            "year": "2021",
+            "authors": [
+              "El Hussein Siba",
+              "Khoury Joseph D",
+              "Medeiros L Jeffrey"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cell Transformation, Neoplastic",
+              "Humans",
+              "Immunophenotyping",
+              "Leukemia, Prolymphocytic, B-Cell",
+              "Lymphocytes",
+              "Lymphoma, B-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34293709/"
+          },
+          {
+            "pmid": "11168923",
+            "title": "Transcription factor-kappa B (NF-kappa B) and renal disease.",
+            "abstract": "Transcription factor-kappa B (NF-kappa B) and renal disease. Nuclear factor-kappa B (NF-kappa B) comprises a family of dimeric transcription factors that regulate the expression of numerous genes involved in inflammation and cell proliferation. Although NF-kappa B was initially identified in lymphocytes, it has been found to be a transcription factor present in virtually all cell types. In resting cells, NF-kappa B dimers remain in the cytoplasm in an inactive form bound to the inhibitory subunit I kappa B. Upon stimulation, I kappa B is phosphorylated, ubiquitinylated, and ultimately degraded by proteolytic cleavage by the proteasome system. As a result, NF-kappa B dimers are translocated into the nucleus and activate the transcription of target genes. Increasing data suggest a pivotal role for NF-kappa B in a variety of pathophysiological conditions in which either inflammation or cell number control are critical events. NF-kappa B has been found to be activated in experimental renal",
+            "journal": "Kidney international",
+            "year": "2001",
+            "authors": [
+              "Guijarro C",
+              "Egido J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Kidney",
+              "Kidney Diseases",
+              "NF-kappa B",
+              "Structure-Activity Relationship"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11168923/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "synovium cancer",
+        "txgnn_score": 0.97504723072052,
+        "txgnn_rank": 19311,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tenosynovial giant cell tumor",
+        "txgnn_score": 0.967308759689331,
+        "txgnn_rank": 22126,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tenosynovial giant cell tumor, localized type",
+        "txgnn_score": 0.9616870880126952,
+        "txgnn_rank": 23840,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant giant cell tumor",
+        "txgnn_score": 0.9605187773704528,
+        "txgnn_rank": 24135,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40614854",
+            "title": "Drug-tolerant persisting polyploid giant cancer cells mediate resistance to HER2-targeting antibody-drug conjugates.",
+            "abstract": "Polyploid giant cancer cells (PGCCs) contribute to resistance against various cancer therapies. This study investigates whether HER2-directed antibody-drug conjugates (ADC) induce PGCCs and their role in drug resistance. HER2-positive breast cancer (JIMT-1) and gastric cancer (MKN7, SNU-216) cells were treated with HER2-directed ADCs, trastuzumab emtansine, trastuzumab deruxtecan, XMT-1522, and disitamab vedotin (DV). The induced persister cells were characterized using live cell imaging, confocal microscopy, immunohistochemistry, flow cytometry, gene expression analysis, SNP genotyping, and next-generation sequencing. Drug sensitivity was assessed using the AlamarBlue assay and SCID mouse xenografts. All 4 ADCs induced PGCCs, with XMT-1522 and DV being the most effective. The induced giant cells were drug-resistant and exhibited drug-tolerant persister cell characteristics. HER2 protein levels were downregulated in persisting drug-tolerant PGCCs and their daughter cells. JIMT-1 cells ",
+            "journal": "Cancer letters",
+            "year": "2025",
+            "authors": [
+              "Yazdi Narjes",
+              "Pourjamal Negar",
+              "Katainen Riku",
+              "Väänänen Juho",
+              "Dai Jun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Erb-b2 Receptor Tyrosine Kinases",
+              "Drug Resistance, Neoplasm",
+              "Immunoconjugates",
+              "Animals",
+              "Female",
+              "Cell Line, Tumor",
+              "Xenograft Model Antitumor Assays",
+              "Mice",
+              "Mice, SCID"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40614854/"
+          },
+          {
+            "pmid": "32583565",
+            "title": "Characterization of T-DM1-resistant breast cancer cells.",
+            "abstract": "The development of targeted therapies has drastically improved the outcome of patients with different types of cancer. T-DM1 (trastuzumab-emtansine) is an antibody-drug conjugate used for the treatment of HER2-positive breast cancer combining the FDA approved mAb (monoclonal antibody) trastuzumab and the microtubule cytotoxic agent DM1 (emtansine). Despite clinical successes achieved by targeted therapies, a large number of patients develop resistance during treatment. To explore mechanisms of resistance to T-DM1, the MDA-MB-361 HER2-positive breast cancer cell line was exposed in vitro to T-DM1 in the absence or presence of ciclosporin A. Previously reported mechanisms of resistance such as trastuzumab-binding alterations, MDR1 upregulation, and SLC46A3 downregulation were not observed in these models. Despite a decrease in HER2 expression at the cell surface, both resistant cell lines remained sensitive to HER2 targeted therapies such as mAbs and tyrosine kinase inhibitors. In additi",
+            "journal": "Pharmacology research & perspectives",
+            "year": "2020",
+            "authors": [
+              "Sauveur Juliette",
+              "Conilh Louise",
+              "Beaumel Sabine",
+              "Chettab Kamel",
+              "Jordheim Lars-Petter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Aneuploidy",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Immunological",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Humans",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32583565/"
+          },
+          {
+            "pmid": "21510863",
+            "title": "Trastuzumab-DM1 causes tumour growth inhibition by mitotic catastrophe in trastuzumab-resistant breast cancer cells in vivo.",
+            "abstract": "Trastuzumab is widely used for the treatment of HER2-positive breast cancer. Despite encouraging clinical results, a significant fraction of patients are, or become, refractory to the drug. To overcome this, trastuzumab-DM1 (T-DM1), a newer, more potent drug has been introduced. We tested the efficacy and mechanisms of action of T-DM1 in nine HER2-positive breast cancer cell lines in vitro and in vivo. The nine cell lines studied included UACC-893, MDA-453 and JIMT-1, which are resistant to both trastuzumab and lapatinib.",
+            "journal": "Breast cancer research : BCR",
+            "year": "2011",
+            "authors": [
+              "Barok Mark",
+              "Tanner Minna",
+              "Köninki Katri",
+              "Isola Jorma"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Ado-Trastuzumab Emtansine",
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibody-Dependent Cell Cytotoxicity",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Proliferation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21510863/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "human herpesvirus 8-related tumor",
+        "txgnn_score": 0.9554212093353271,
+        "txgnn_rank": 25358,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ectomesenchymoma",
+        "txgnn_score": 0.9551525115966796,
+        "txgnn_rank": 25429,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB05773",
+    "name": "Trastuzumab emtansine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Trastuzumab emtansine"
+      },
+      "queried_at": "2026-03-09T16:56:00.434991",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Trastuzumab emtansine"
+      },
+      "queried_at": "2026-03-09T16:56:02.591028",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "progesterone-receptor positive breast cancer"
+      },
+      "queried_at": "2026-03-09T16:56:04.234552",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "progesterone-receptor positive breast cancer"
+      },
+      "queried_at": "2026-03-09T16:56:10.090580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "progesterone-receptor positive breast cancer"
+      },
+      "queried_at": "2026-03-09T16:56:15.872276",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "normal breast-like subtype of breast carcinoma"
+      },
+      "queried_at": "2026-03-09T16:56:17.065723",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "normal breast-like subtype of breast carcinoma"
+      },
+      "queried_at": "2026-03-09T16:56:24.900371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "normal breast-like subtype of breast carcinoma"
+      },
+      "queried_at": "2026-03-09T16:56:26.829515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "progesterone-receptor negative breast cancer"
+      },
+      "queried_at": "2026-03-09T16:56:31.865652",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "progesterone-receptor negative breast cancer"
+      },
+      "queried_at": "2026-03-09T16:56:38.071839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "progesterone-receptor negative breast cancer"
+      },
+      "queried_at": "2026-03-09T16:56:41.453728",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "breast tumor luminal A or B"
+      },
+      "queried_at": "2026-03-09T16:56:43.047418",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "breast tumor luminal A or B"
+      },
+      "queried_at": "2026-03-09T16:56:51.007661",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "breast tumor luminal A or B"
+      },
+      "queried_at": "2026-03-09T16:56:55.332820",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "synovium cancer"
+      },
+      "queried_at": "2026-03-09T16:56:55.999419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "synovium cancer"
+      },
+      "queried_at": "2026-03-09T16:57:00.081150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "synovium cancer"
+      },
+      "queried_at": "2026-03-09T16:57:01.106976",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "tenosynovial giant cell tumor"
+      },
+      "queried_at": "2026-03-09T16:57:01.773335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "tenosynovial giant cell tumor"
+      },
+      "queried_at": "2026-03-09T16:57:07.412888",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "tenosynovial giant cell tumor"
+      },
+      "queried_at": "2026-03-09T16:57:08.930510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "tenosynovial giant cell tumor, localized type"
+      },
+      "queried_at": "2026-03-09T16:57:09.618872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "tenosynovial giant cell tumor, localized type"
+      },
+      "queried_at": "2026-03-09T16:57:13.406916",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "tenosynovial giant cell tumor, localized type"
+      },
+      "queried_at": "2026-03-09T16:57:14.593389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "malignant giant cell tumor"
+      },
+      "queried_at": "2026-03-09T16:57:16.252024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "malignant giant cell tumor"
+      },
+      "queried_at": "2026-03-09T16:57:22.097861",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "malignant giant cell tumor"
+      },
+      "queried_at": "2026-03-09T16:57:25.249855",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "queried_at": "2026-03-09T16:57:26.440459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "queried_at": "2026-03-09T16:57:29.743729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "queried_at": "2026-03-09T16:57:30.600216",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-09T16:57:33.067749",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-09T16:57:36.957080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trastuzumab emtansine",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-09T16:57:38.122523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:57:38.137179"
+  }
+}

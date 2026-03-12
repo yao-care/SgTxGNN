@@ -1,0 +1,1806 @@
+{
+  "drug": {
+    "inn": "Ofloxacin",
+    "drugbank_id": "DB01165",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9991374015808104,
+        "txgnn_rank": 1740,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9991374015808104,
+        "txgnn_rank": 1741,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9990443587303162,
+        "txgnn_rank": 1909,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9986134767532348,
+        "txgnn_rank": 2587,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22808724",
+            "title": "[Problems with identification of beta-hemolytic streptococcus resistant to bacitracin isolated from patients with pharyngitis].",
+            "abstract": "The genus Streptococcus comprises a number of species characterized by a differential pathogenic potential. These bacteria can be considered as members of microbial physiological flora but they can also cause mild infections or severe, life threatening conditions. The majority of infections of streptococcal etiology are caused by beta-hemolysing species. The predominant causative agent of bacterial pharyngitis is Streptococcus pyogenes. This species usually doesn't give rise to any identification difficulties due to the introduction the well determined diagnostic schemes. Problems concerning laboratory identification can be, however, associated with other species of beta-hemolysing streptococci isolated from patients with pharyngitis. These streptococci can demonstrate features similar to those of S. pyogenes and share the group antygen A, such as some strains of Streptococcus anginosus and Streptococcus dysgalactiae subsp. equisimilis. The determination of sensitivity to bacitracin, w",
+            "journal": "Medycyna doswiadczalna i mikrobiologia",
+            "year": "2012",
+            "authors": [
+              "Olender Alina",
+              "Łetowska Iwona",
+              "Karyński Michał",
+              "Kiernicka-Ciekot Katarzyna",
+              "Pels Katarzyna"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bacitracin",
+              "Drug Resistance, Bacterial",
+              "Female",
+              "Humans",
+              "Male",
+              "Microbial Sensitivity Tests",
+              "Pharyngitis",
+              "Species Specificity",
+              "Streptococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22808724/"
+          },
+          {
+            "pmid": "40350274",
+            "title": "[Campylobacter lari bacteremia during treatment of pure red cell aplasia following major ABO-mismatched hematopoietic stem cell transplantation].",
+            "abstract": "Campylobacter lari is a rare cause of bacteremia in Campylobacter spp. Clinical course and symptoms vary by report, and no standard approaches to antimicrobial selection and duration of treatment have been established. A 68-year-old man who underwent haploidentical hematopoietic stem cell transplantation (HSCT) from a major ABO-incompatible donor with post-transplant cyclophosphamide for myelodysplastic syndromes developed pure red cell anemia and post-transfusion iron overload. On day 360, the patient developed fever and spiral-shaped gram-negative bacteria were detected by blood culture. The isolate was identified as C. lari by mass spectrometry. The isolate was resistant to levofloxacin, and intravenous cefepime was given followed by maintenance therapy with oral amoxicillin. We here report the first case of C. lari bacteremia developing after allogeneic HSCT.",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2025",
+            "authors": [
+              "Yoshimaru Ryo",
+              "Nakamura Hirotaka",
+              "Guo Yony-Mei",
+              "Chi Song-Gi",
+              "Minami Yousuke"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Hematopoietic Stem Cell Transplantation",
+              "Aged",
+              "ABO Blood-Group System",
+              "Red-Cell Aplasia, Pure",
+              "Bacteremia",
+              "Campylobacter Infections",
+              "Anti-Bacterial Agents",
+              "Blood Group Incompatibility"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40350274/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.9983537197113036,
+        "txgnn_rank": 2952,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monoclonal gammopathy",
+        "txgnn_score": 0.9981775283813475,
+        "txgnn_rank": 3174,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31668592",
+            "title": "Levofloxacin prophylaxis in patients with newly diagnosed myeloma (TEAMM): a multicentre, double-blind, placebo-controlled, randomised, phase 3 trial.",
+            "abstract": "Myeloma causes profound immunodeficiency and recurrent, serious infections. Around 5500 new cases of myeloma are diagnosed per year in the UK, and a quarter of patients will have a serious infection within 3 months of diagnosis. We aimed to assess whether patients newly diagnosed with myeloma benefit from antibiotic prophylaxis to prevent infection, and to investigate the effect on antibiotic-resistant organism carriage and health care-associated infections in patients with newly diagnosed myeloma.",
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "authors": [
+              "Drayson Mark T",
+              "Bowcock Stella",
+              "Planche Tim",
+              "Iqbal Gulnaz",
+              "Pratt Guy"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Antibiotic Prophylaxis",
+              "Double-Blind Method",
+              "Febrile Neutropenia",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Infections",
+              "Levofloxacin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31668592/"
+          },
+          {
+            "pmid": "32172361",
+            "title": "Supportive Care in Multiple Myeloma.",
+            "abstract": "As novel therapies are expanding the life expectancy of patients with multiple myeloma, appropriate supportive care has become critical in the management of these patients. This review aims to outline the key principles of supportive care of patients with myeloma, including management of bone disease, renal disease, anemia, peripheral neuropathy, infections, and venous thromboembolism.",
+            "journal": "Current hematologic malignancy reports",
+            "year": "2020",
+            "authors": [
+              "Guzdar Amy",
+              "Costello Caitlin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Multiple Myeloma",
+              "Palliative Care",
+              "Quality of Life",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32172361/"
+          },
+          {
+            "pmid": "32007199",
+            "title": "Levofloxacin prophylaxis in patients with myeloma.",
+            "abstract": "",
+            "journal": "The Lancet. Oncology",
+            "year": "2020",
+            "authors": [
+              "Albrich Werner C",
+              "Boggian Katia"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Antibiotic Prophylaxis",
+              "Double-Blind Method",
+              "Febrile Neutropenia",
+              "Humans",
+              "Levofloxacin",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32007199/"
+          },
+          {
+            "pmid": "32007198",
+            "title": "Levofloxacin prophylaxis in patients with myeloma.",
+            "abstract": "",
+            "journal": "The Lancet. Oncology",
+            "year": "2020",
+            "authors": [
+              "Teh Benjamin W",
+              "Harrison Simon J",
+              "Worth Leon J",
+              "Thursky Karin A",
+              "Slavin Monica A"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Antibiotic Prophylaxis",
+              "Double-Blind Method",
+              "Febrile Neutropenia",
+              "Humans",
+              "Levofloxacin",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32007198/"
+          },
+          {
+            "pmid": "37573150",
+            "title": "Characteristics and outcome of infectious complications after autologous hematopoietic cell transplantation in multiple myeloma patients.",
+            "abstract": "Infections are a significant cause of morbidity and mortality after autologous hematopoietic cell transplantation (AHCT) in multiple myeloma (MM) patients. There has been a rapid advancement and evolution in MM treatment landscape in the last decade. There is limited information on post-AHCT infectious complications among MM patients with or without levofloxacin prophylaxis from developing countries.",
+            "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+            "year": "2023",
+            "authors": [
+              "Jandial Aditya",
+              "Lad Deepesh",
+              "Jain Arihant",
+              "Khadwal Alka",
+              "Singh Charanpreet"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Adult",
+              "Middle Aged",
+              "Aged",
+              "Female",
+              "Multiple Myeloma",
+              "Levofloxacin",
+              "Retrospective Studies",
+              "Antibiotic Prophylaxis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37573150/"
+          },
+          {
+            "pmid": "32007200",
+            "title": "Levofloxacin prophylaxis in patients with myeloma - Authors' reply.",
+            "abstract": "",
+            "journal": "The Lancet. Oncology",
+            "year": "2020",
+            "authors": [
+              "Drayson Mark T",
+              "Bowcock Stella",
+              "Planche Tim",
+              "Iqbal Gulnaz",
+              "Pratt Guy"
+            ],
+            "pub_types": [
+              "Letter",
+              "Research Support, Non-U.S. Gov't",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antibiotic Prophylaxis",
+              "Double-Blind Method",
+              "Humans",
+              "Levofloxacin",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32007200/"
+          },
+          {
+            "pmid": "31668593",
+            "title": "Reducing infection-related morbidity and mortality in patients with myeloma.",
+            "abstract": "",
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "authors": [
+              "Ramasamy Karthik"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Diphosphonates",
+              "Double-Blind Method",
+              "Humans",
+              "Infections",
+              "Levofloxacin",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31668593/"
+          },
+          {
+            "pmid": "29080369",
+            "title": "Ciprofloxacin vs levofloxacin for prophylaxis during hematopoietic stem-cell transplantation.",
+            "abstract": "The objective of the current retrospective study was to compare differences in rate of breakthrough infections for ciprofloxacin vs levofloxacin prophylaxis in autologous hematopoietic stem-cell transplant (HSCT) patients treated for multiple myeloma. This was a retrospective, cohort study comparing autologous HSCT recipients treated for multiple myeloma who received ciprofloxacin prophylaxis vs levofloxacin prophylaxis. A total of 297 patients, 143 levofloxacin- and 154 ciprofloxacin-treated were included. There was a significantly higher incidence of bloodstream infections in the ciprofloxacin group (24/154) compared to the levofloxacin group (10/143), P = .03, primarily caused by a statistically higher incidence of gram-positive bloodstream infections (ciprofloxacin [21/154] vs levofloxacin [8/143]; P < .01). Clinically relevant differences exist between fluoroquinolone agents used for prophylaxis. Levofloxacin prophylaxis was more effective than ciprofloxacin prophylaxis to reduce ",
+            "journal": "Clinical transplantation",
+            "year": "2018",
+            "authors": [
+              "Copeland Vanessa",
+              "McLaughlin Milena",
+              "Trifilio Steven"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antibiotic Prophylaxis",
+              "Bacterial Infections",
+              "Ciprofloxacin",
+              "Female",
+              "Follow-Up Studies",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Incidence",
+              "Levofloxacin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29080369/"
+          },
+          {
+            "pmid": "32019731",
+            "title": "Bacterial Infection Among Patients With Multiple Myeloma Treated With Bortezomib-based Induction Therapy: Real-World Experience in an Asian Cancer Center.",
+            "abstract": "The treatment landscape for multiple myeloma (MM) has progressed significantly, and over the past decade, bortezomib-based induction therapy has been a standard of care. However, the practice of antibacterial prophylaxis during induction therapy has been diverse. The aim of our study is to evaluate the proportion of patients with febrile episodes and bacteremia among patients with MM, during the first 12 weeks of bortezomib-based induction therapy, without routine fluoroquinolone prophylaxis, but with routine Pneumocystis Carinii prophylaxis (mostly with trimethoprim-sulfamethoxazole), in a region with high fluoroquinolone resistance rate. Of note, these patients have direct access to health care facilities and timely supportive care.",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2020",
+            "authors": [
+              "Soekojo Cinnie Yentia",
+              "Low Jia Zhen",
+              "Oh Jaslyn",
+              "Ooi Melissa",
+              "De Mel Sanjay"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bacterial Infections",
+              "Bortezomib",
+              "Female",
+              "Fluoroquinolones",
+              "Humans",
+              "Induction Chemotherapy",
+              "Male",
+              "Middle Aged",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32019731/"
+          },
+          {
+            "pmid": "29564621",
+            "title": "Addition of doxycycline to ciprofloxacin for infection prophylaxis during autologous stem cell transplants for multiple myeloma.",
+            "abstract": "The most commonly used antibacterial prophylaxis during autologous stem cell transplants (ASCT) for multiple myeloma (MM) involves a fluoroquinolone, such as ciprofloxacin or levofloxacin. We assessed the impact of adding doxycycline to ciprofloxacin as routine antibacterial prophylaxis in these patients.",
+            "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+            "year": "2018",
+            "authors": [
+              "Sivik J M",
+              "Davidson J",
+              "Hale C M",
+              "Drabick J J",
+              "Talamo G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Bacterial Infections",
+              "Ciprofloxacin",
+              "Doxycycline",
+              "Female",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29564621/"
+          },
+          {
+            "pmid": "31690402",
+            "title": "Prophylactic levofloxacin to prevent infections in newly diagnosed symptomatic myeloma: the TEAMM RCT.",
+            "abstract": "Myeloma causes profound immunodeficiency and recurrent serious infections. There are approximately 5500 new UK cases of myeloma per annum, and one-quarter of patients will have a serious infection within 3 months of diagnosis. Newly diagnosed patients may benefit from antibiotic prophylaxis to prevent infection. However, the use of prophylaxis has not been established in myeloma and may be associated with health-care-associated infections (HCAIs), such as Clostridium difficile. There is a need to assess the benefits and cost-effectiveness of the use of antibacterial prophylaxis against any risks in a double-blind, placebo-controlled, randomised clinical trial.",
+            "journal": "Health technology assessment (Winchester, England)",
+            "year": "2019",
+            "authors": [
+              "Drayson Mark T",
+              "Bowcock Stella",
+              "Planche Tim",
+              "Iqbal Gulnaz",
+              "Pratt Guy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antibiotic Prophylaxis",
+              "Clostridioides difficile",
+              "Cost-Benefit Analysis",
+              "Cross Infection",
+              "England",
+              "Female",
+              "Humans",
+              "Levofloxacin",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31690402/"
+          },
+          {
+            "pmid": "32304873",
+            "title": "Fluoroquinolone Prophylaxis in Autologous Stem Cell Transplantation: Worthy of a Second Look.",
+            "abstract": "Prophylaxis with fluoroquinolone (FQ) for patients undergoing autologous stem cell transplantation (ASCT) remains controversial. We performed a retrospective review of patients undergoing ASCT with and without bacterial prophylaxis to compare endpoints of interest. In accordance with institutional policy, patients undergoing ASCT for multiple myeloma routinely receive levofloxacin prophylaxis during their period of neutropenia, whereas patients undergoing the ASCT for lymphoma do not. We retrospectively examined patients with multiple myeloma (MM) or lymphoma undergoing ASCT between July 2015 and July 2018 for evidence of positive blood cultures. A total of 172 patients underwent ASCT for lymphoma and 343 underwent ASCT for MM. The 2 cohorts were similar in terms of baseline characteristics. Almost 20% (35 of 172) of the patients with lymphoma and 5.2% (18 of 342) of those with MM had a bloodstream infection (BSI). BSI occurred an average of 2 days earlier in patients with lymphoma com",
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2020",
+            "authors": [
+              "Maakaron Joseph E",
+              "Liscynesky Christina",
+              "Boghdadly Zeinab El",
+              "Huang Ying",
+              "Agyeman Akwasi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibiotic Prophylaxis",
+              "Fluoroquinolones",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Multiple Myeloma",
+              "Retrospective Studies",
+              "Stem Cell Transplantation",
+              "Transplantation, Autologous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32304873/"
+          },
+          {
+            "pmid": "29576386",
+            "title": "Multiple Myeloma: Clinical Updates From the American Society of Hematology Annual Meeting, 2017.",
+            "abstract": "The novel clinical data for myeloma that were presented in the 2017 Annual Meeting of the American Society of Hematology are summarized here. Studies with curative approach (CESAR) or prolonging progression-free survival (CENTAURUS) for patients with high-risk smoldering multiple myeloma (SMM) are described. Updated data from large phase III studies for patients with newly diagnosed MM (NDMM) who are eligible for autologous stem cell transplantation (ASCT) (EMN02, MRC XI) are described, along with the results of studies using novel anti-myeloma drug combinations for induction, consolidation, and maintenance as first-line therapy. The role of minimal residual disease for patients with MM is also discussed. We also present the results of novel phase III studies in patients with NDMM who are not eligible for ASCT (ALCYONE) and new data for their treatment. Recent updates of important studies in the field of relapsed/refractory MM (ASPIRE, POLLUX) along with novel immunotherapy approaches ",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2018",
+            "authors": [
+              "Terpos Evangelos"
+            ],
+            "pub_types": [
+              "Conference Proceedings"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antineoplastic Agents",
+              "Hematology",
+              "Immunotherapy",
+              "Multiple Myeloma",
+              "Neoplasm, Residual",
+              "Transplantation, Autologous",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29576386/"
+          },
+          {
+            "pmid": "26150022",
+            "title": "Impact of Prophylactic Levofloxacin on Rates of Bloodstream Infection and Fever in Neutropenic Patients with Multiple Myeloma Undergoing Autologous Hematopoietic Stem Cell Transplantation.",
+            "abstract": "Few studies have evaluated the role of antibacterial prophylaxis during neutropenia in patients with multiple myeloma undergoing autologous hematopoietic stem cell transplantation (HSCT). At our center, levofloxacin prophylaxis was initiated in June 2006 in patients with myeloma who were undergoing autologous HSCT. We compared the incidence of bloodstream infection (BSI) and fever and neutropenia (FN) within 30 days of transplantation before (January 2003 to May 2006) and after (June 2006 to April 2010) the initiation of levofloxacin prophylaxis in patients undergoing autologous HSCT for myeloma. We also compared rates of BSI and FN during the same time periods in autologous HSCT recipients with lymphoma who did not receive antibacterial prophylaxis during either time period. After the initiation of levofloxacin prophylaxis, the BSI rate decreased from 41.2% (49 of 119) to 14.7% (23 of 156) and the rate of FN decreased from 91.6% to 60.9% in patients with myeloma (P < .001, for each). ",
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2015",
+            "authors": [
+              "Satlin Michael J",
+              "Vardhana Santosh",
+              "Soave Rosemary",
+              "Shore Tsiporah B",
+              "Mark Tomer M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibiotic Prophylaxis",
+              "Antifungal Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bacteremia",
+              "Clostridioides difficile",
+              "Clostridium Infections",
+              "Combined Modality Therapy",
+              "Drug Resistance, Microbial",
+              "Drug Resistance, Multiple, Bacterial",
+              "Enterobacteriaceae"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150022/"
+          },
+          {
+            "pmid": "32861018",
+            "title": "The impact of anti-bacterial prophylaxis on the outcome of patients treated with venetoclax-based regimens for relapsed/refractory plasma cell dyscrasias: Real-life data.",
+            "abstract": "",
+            "journal": "Leukemia research",
+            "year": "2020",
+            "authors": [
+              "Avivi Irit",
+              "Gatt Moshe E",
+              "Luttwak Efrat",
+              "Magen Hila",
+              "Dally Najib"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibiotic Prophylaxis",
+              "Antineoplastic Agents",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Follow-Up Studies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32861018/"
+          },
+          {
+            "pmid": "25212681",
+            "title": "Effect of levofloxacin prophylaxis for prevention of severe infections in multiple myeloma patients receiving bortezomib-containing regimens.",
+            "abstract": "Fluoroquinolone is recommended as a prophylactic antibiotic for high-risk patients with profound neutropenia. We previously reported that multiple myeloma (MM) patients who received bortezomib-based regimens were at higher risk of severe infections (30.9%) associated with lymphocytopenia. In the study, we evaluated whether severe infectious complications can be prevented by prophylactic administration of oral levofloxacin in MM patients treated with bortezomib-based regimens. A total of 80 patients received oral levofloxacin 500 mg daily during the median four cycles of treatment. The prophylactic group (n = 80) with levofloxacin showed significantly decreased severe infections compared to a historical control group (n = 139) without levofloxacin prophylaxis during treatment of bortezomib-based regimens (17.5 vs. 30.9%, P = 0.037). In the prophylactic group, two patients (2.5%) died of pneumonia and septic shock. Four patients (5%) stopped levofloxacin due to side effects that consiste",
+            "journal": "International journal of hematology",
+            "year": "2014",
+            "authors": [
+              "Jung Sung-Hoon",
+              "Kang Seung-Ji",
+              "Jang Hee-Chang",
+              "Ahn Jae-Sook",
+              "Yang Deok-Hwan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Infective Agents",
+              "Antibiotic Prophylaxis",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Boronic Acids",
+              "Bortezomib",
+              "Comorbidity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25212681/"
+          },
+          {
+            "pmid": "15791505",
+            "title": "Impact of fluoroquinolone prophylaxis on reduced infection-related mortality among patients with neutropenia and hematologic malignancies.",
+            "abstract": "Fluoroquinolone prophylaxis during neutropenia in patients with cancer has been associated with decreased incidence of gram-negative bacteremia. Bacterial antimicrobial resistance is likely to cause a progressive lack of efficacy of fluoroquinolones, but no convincing evidence from clinicoepidemiologic observations has proved this hypothesis.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2005",
+            "authors": [
+              "Reuter Stefan",
+              "Kern Winfried V",
+              "Sigge Anja",
+              "Döhner Hartmut",
+              "Marre Reinhard"
+            ],
+            "pub_types": [
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amyloidosis",
+              "Anemia, Aplastic",
+              "Anti-Bacterial Agents",
+              "Antibiotic Prophylaxis",
+              "Bacterial Infections",
+              "Humans",
+              "Leukemia",
+              "Levofloxacin",
+              "Lymphoma",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15791505/"
+          },
+          {
+            "pmid": "24797543",
+            "title": "Impact of a change in antibacterial prophylaxis on bacteremia and hospitalization rates following outpatient autologous peripheral blood stem cell transplantation for multiple myeloma.",
+            "abstract": "Levofloxacin is routinely used for the prevention of invasive bacterial infections during autologous peripheral blood stem cell transplantation (APBSCT). However, increasing rates of bacterial sepsis were noted at our institution among multiple myeloma (MM) patients undergoing outpatient APBSCT with melphalan-based chemotherapy and levofloxacin prophylaxis. We assessed the impact of a change in antibacterial prophylaxis from oral levofloxacin (Period 1) to sequential oral levofloxacin followed by ertapenem (Period 2).",
+            "journal": "Transplant infectious disease : an official journal of the Transplantation Society",
+            "year": "2014",
+            "authors": [
+              "Kim J H",
+              "Goulston C",
+              "Zangari M",
+              "Tricot G",
+              "Boyer M W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Antineoplastic Agents",
+              "Bacteremia",
+              "Ertapenem",
+              "Female",
+              "Hospitalization",
+              "Humans",
+              "Levofloxacin",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24797543/"
+          },
+          {
+            "pmid": "25591868",
+            "title": "A case of acute kidney injury from crystal nephropathy secondary to pomalidomide and levofloxacin use.",
+            "abstract": "Pomalidomide is an analog of thalidomide with immunomodulatory, anti-angiogenic, and anti-neoplastic activity indicated for the treatment of multiple myeloma refractory to at least two prior therapies. The incidence for renal failure was <5% in a single phase II study of pomalidomide and dexamethasone in patients with multiple myeloma that failed both lenalidomide and bortezomib therapy. We report a case suggesting crystal nephropathy as the mechanism for acute kidney injury in pomalidomide and fluoroquinolone use.",
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2016",
+            "authors": [
+              "Baird Phylicia",
+              "Leung Sam",
+              "Hoang Huy",
+              "Babalola Olawumi",
+              "Devoe Craig E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Female",
+              "Humans",
+              "Levofloxacin",
+              "Multiple Myeloma",
+              "Thalidomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25591868/"
+          },
+          {
+            "pmid": "11858365",
+            "title": "Three-year outcome in a patient with Staphylococcus lugdunensis discitis.",
+            "abstract": "The few reported cases of bone and joint infection by Staphylococcus lugdunensis indicate that the clinical manifestations are severe, the diagnosis elusive, and the treatment difficult. We report a case of lumbar discitis caused by Staphylococcus lugdunensis in a 67-year-old man receiving chemotherapy for stage III IgA lambda multiple myeloma. Treatment was with ofloxacin and pristinamycin for 1 year. Although he started to improve only 5 months after treatment initiation, the outcome was favorable. Follow-up at the time of this writing is 3 years.",
+            "journal": "Joint bone spine",
+            "year": "2002",
+            "authors": [
+              "Camacho Mildreth",
+              "Guis Sandrine",
+              "Mattei Jean-Pierre",
+              "Costello Régis",
+              "Roudier Jean"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Discitis",
+              "Humans",
+              "Immunocompromised Host",
+              "Lumbar Vertebrae",
+              "Male",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11858365/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+        "txgnn_score": 0.9980194568634032,
+        "txgnn_rank": 3379,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "septicemic plague",
+        "txgnn_score": 0.9979053735733032,
+        "txgnn_rank": 3543,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32435803",
+            "title": "The African Green Monkey Model of Pneumonic Plague and US Food and Drug Administration Approval of Antimicrobials Under the Animal Rule.",
+            "abstract": "Additional treatment options for pneumonic plague, the most severe form of infection by Yersinia pestis, are needed, as past US Food and Drug Administration (FDA) approvals were not based on clinical trials that meet today's standards, and multiple drugs are sought to counter resistance or use in special populations. Due to the sporadic nature of outbreaks and the low number of pneumonic cases of disease, we sought FDA approval of antimicrobials for treatment under the Animal Efficacy Rule, where efficacy can be demonstrated in 1 or more well-characterized animal models that sufficiently represent human disease.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2020",
+            "authors": [
+              "Hewitt Judith A",
+              "Lanning Lynda L",
+              "Campbell Joseph L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chlorocebus aethiops",
+              "Disease Models, Animal",
+              "Levofloxacin",
+              "Plague",
+              "United States",
+              "United States Food and Drug Administration",
+              "Yersinia pestis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32435803/"
+          },
+          {
+            "pmid": "16127904",
+            "title": "[Ofloxacin efficacy in the prophylaxis and treatment of experimental plague due to antigen complete and defective strains of the pathogen].",
+            "abstract": "Strains of the plague microbe, antigen complete and defective by fraction I and mouse toxin had the same in vitro susceptibility to ofloxacin (MIC 0.08 mg/L). The drug was superior in its activity to pefloxacin and especially nalidixic acid. In the experiments with albino mice (prophylaxis, 5 days) the ofloxacin efficacy was lower when the infection was due to the plague microbe strains deprived of the ability to produce fraction I and mouse toxin, evident from a statistically significant increase of the drug ED50 and a decrease of the animal survival percentage. When used in the doses corresponding to the human average daily doses, ofloxacin provided effective animal protection (80 to 100 per cent survival) after the prophylaxis for 7 days and the treatment of the plague infection irrespective of the strains, complete or antigen changed. However, when the infection is due to the antigen changed strain, ofloxacin should be used in the maximum daily doses at least for 7 days.",
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2002",
+            "authors": [
+              "Samokhodkina E D",
+              "Shcherbaniuk A I",
+              "Ryzhko I V",
+              "Tsuraeva R I",
+              "Skalyga E Iu"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antigens, Bacterial",
+              "Disease Models, Animal",
+              "Mice",
+              "Mutation",
+              "Ofloxacin",
+              "Plague",
+              "Ribulose-Bisphosphate Carboxylase",
+              "Yersinia pestis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16127904/"
+          },
+          {
+            "pmid": "29109161",
+            "title": "Combating Multidrug-Resistant Pathogens with Host-Directed Nonantibiotic Therapeutics.",
+            "abstract": "Earlier, we reported that three Food and Drug Administration-approved drugs, trifluoperazine (TFP; an antipsychotic), amoxapine (AXPN; an antidepressant), and doxapram (DXP; a breathing stimulant), identified from an in vitro murine macrophage cytotoxicity screen, provided mice with 40 to 60% protection against pneumonic plague when administered at the time of infection for 1 to 3 days. In the present study, the therapeutic potential of these drugs against pneumonic plague in mice was further evaluated when they were administered at up to 48 h postinfection. While the efficacy of TFP was somewhat diminished as treatment was delayed to 24 h, the protection of mice with AXPN and DXP increased as treatment was progressively delayed to 24 h. At 48 h postinfection, these drugs provided the animals with significant protection (up to 100%) against challenge with the agent of pneumonic or bubonic plague when they were administered in combination with levofloxacin. Likewise, when they were used",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2018",
+            "authors": [
+              "Andersson Jourdan A",
+              "Sha Jian",
+              "Kirtley Michelle L",
+              "Reyes Emily",
+              "Fitts Eric C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acinetobacter baumannii",
+              "Amoxapine",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Cell Line",
+              "Disease Models, Animal",
+              "Doxapram",
+              "Drug Repositioning",
+              "Drug Resistance, Multiple, Bacterial",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29109161/"
+          },
+          {
+            "pmid": "21859946",
+            "title": "Cethromycin-mediated protection against the plague pathogen Yersinia pestis in a rat model of infection and comparison with levofloxacin.",
+            "abstract": "The Gram-negative plague bacterium, Yersinia pestis, has historically been regarded as one of the deadliest pathogens known to mankind, having caused three major pandemics. After being transmitted by the bite of an infected flea arthropod vector, Y. pestis can cause three forms of human plague: bubonic, septicemic, and pneumonic, with the latter two having very high mortality rates. With increased threats of bioterrorism, it is likely that a multidrug-resistant Y. pestis strain would be employed, and, as such, conventional antibiotics typically used to treat Y. pestis (e.g., streptomycin, tetracycline, and gentamicin) would be ineffective. In this study, cethromycin (a ketolide antibiotic which inhibits bacterial protein synthesis and is currently in clinical trials for respiratory tract infections) was evaluated for antiplague activity in a rat model of pneumonic infection and compared with levofloxacin, which operates via inhibition of bacterial topoisomerase and DNA gyrase. Followin",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2011",
+            "authors": [
+              "Rosenzweig Jason A",
+              "Brackman Sheri M",
+              "Kirtley Michelle L",
+              "Sha Jian",
+              "Erova Tatiana E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Female",
+              "Ketolides",
+              "Levofloxacin",
+              "Ofloxacin",
+              "Plague",
+              "Rats",
+              "Yersinia pestis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21859946/"
+          },
+          {
+            "pmid": "37748767",
+            "title": "Plague Gives Surprises in the Second Decade of the Twenty-First Century.",
+            "abstract": "From 2010 through 2019, the six leading countries by numbers of human plague cases reported to the WHO were, in order from highest to lowest, Madagascar, Congo, Uganda, Peru, Tanzania, and the United States. From these countries, there was a total of 4,547 cases, of whom 786 (17%) died. Top plague events were four outbreaks of primary pneumonic plague in Madagascar that affected 1,936 persons, including index cases, of whom 137 died. One of the outbreaks was caused by a streptomycin-resistant strain of Yersinia pestis. Person-to-person transmission occurred in a taxi, in households with family caregivers, at burial ceremonies and wakes for victims, and at a hospital where cases were treated. Unique clinical presentations in the United States included a dog owner who acquired pneumonic plague from his sick dog, a boy with septicemic plague who developed complications of osteomyelitis and arthritis that required surgery for bone removal and bone grafting, and a prairie dog handler who ac",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "2023",
+            "authors": [
+              "Butler Thomas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Animals",
+              "Chlorocebus aethiops",
+              "Plague",
+              "Yersinia pestis",
+              "Anti-Bacterial Agents",
+              "Levofloxacin",
+              "Sciuridae"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37748767/"
+          },
+          {
+            "pmid": "32435805",
+            "title": "Effect of Delaying Treatment on Efficacy of Ciprofloxacin and Levofloxacin in the African Green Monkey Model of Pneumonic Plague.",
+            "abstract": "Ciprofloxacin and levofloxacin, 2 fluoroquinolone antimicrobials, are ≥90% effective for the treatment of inhalational plague when administered within 2-6 hours of fever onset in African green monkeys (AGM). Based on data in the AGM model, these antimicrobials were approved under the Food and Drug Administration's Animal Efficacy Rule. However, that data did not address the issue of how long treatment with these antimicrobials would remain effective after fever onset.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2020",
+            "authors": [
+              "Campbell Joseph L",
+              "Fay Michael P",
+              "Lanning Lynda L",
+              "Hewitt Judith A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Chlorocebus aethiops",
+              "Ciprofloxacin",
+              "Disease Models, Animal",
+              "Levofloxacin",
+              "Plague",
+              "Yersinia pestis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32435805/"
+          },
+          {
+            "pmid": "9517950",
+            "title": "Antibiotic treatment of experimental pneumonic plague in mice.",
+            "abstract": "A mouse model was developed to evaluate the efficacy of antibiotic treatment of pneumonic plague; streptomycin was compared to antibiotics with which there is little or no clinical experience. Infection was induced by inhalation of aerosolized Yersinia pestis organisms. Antibiotics were administered by intraperitoneal injection every 6 hours for 5 days, at doses that produced levels of drug in serum comparable to those observed in humans treated for other serious infections. These studies compared in vitro to in vivo activity and evaluated the efficacy of antibiotics started at different times after exposure. Early treatment (started 24 h after challenge, when 0 of 10 mice tested had positive blood cultures) with netilmicin, ciprofloxacin, ofloxacin, ceftriaxone, ceftazidime, aztreonam, ampicillin, and rifampin (but not cefazolin, cefotetan, or ceftizoxime) demonstrated efficacy comparable to streptomycin. Late treatment (started 42 h after exposure, when five of five mice tested had p",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1998",
+            "authors": [
+              "Byrne W R",
+              "Welkos S L",
+              "Pitt M L",
+              "Davis K J",
+              "Brueckner R P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Disease Models, Animal",
+              "Female",
+              "Mice",
+              "Plague",
+              "Streptomycin",
+              "Survival Analysis",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9517950/"
+          },
+          {
+            "pmid": "17517837",
+            "title": "Impact of resistance selection and mutant growth fitness on the relative efficacies of streptomycin and levofloxacin for plague therapy.",
+            "abstract": "Yersinia pestis, the bacterium that causes plague, is a potential agent of biowarfare and bioterrorism. The aminoglycoside antibiotic streptomycin is the gold standard for treatment. However, this recommendation is based on scant animal and clinical data. We used an in vitro pharmacodynamic infection model to compare the efficacies of 10-day regimens of streptomycin versus the fluoroquinolone antibiotic levofloxacin for the treatment of Y. pestis infection and to evaluate for emergence of resistance. The human serum concentration-time profiles for standard clinical regimens of 1 g of streptomycin given every 12 h and 500 mg of levofloxacin given every 24 h were simulated. The growth fitness of drug-resistant mutants was examined in neutropenic and immunocompetent mouse thigh infection models. In the in vitro infection system, untreated bacteria grew from 10(7) to 10(10) CFU/ml. Streptomycin therapy caused a 10(5) CFU/ml reduction in the number of bacteria over 24 h, followed by regrowt",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2007",
+            "authors": [
+              "Louie Arnold",
+              "Deziel Mark R",
+              "Liu Weiguo",
+              "Drusano George L"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Colony Count, Microbial",
+              "Disease Models, Animal",
+              "Drug Resistance, Bacterial",
+              "Humans",
+              "Immunocompetence",
+              "Levofloxacin",
+              "Mice",
+              "Microbial Sensitivity Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17517837/"
+          },
+          {
+            "pmid": "18227160",
+            "title": "Braun lipoprotein (Lpp) contributes to virulence of yersiniae: potential role of Lpp in inducing bubonic and pneumonic plague.",
+            "abstract": "Yersinia pestis evolved from Y. pseudotuberculosis to become the causative agent of bubonic and pneumonic plague. We identified a homolog of the Salmonella enterica serovar Typhimurium lipoprotein (lpp) gene in Yersinia species and prepared lpp gene deletion mutants of Y. pseudotuberculosis YPIII, Y. pestis KIM/D27 (pigmentation locus minus), and Y. pestis CO92 with reduced virulence. Mice injected via the intraperitoneal route with 5 x 10(7) CFU of the Deltalpp KIM/D27 mutant survived a month, even though this would have constituted a lethal dose for the parental KIM/D27 strain. Subsequently, these Deltalpp KIM/D27-injected mice were solidly protected against an intranasally administered, highly virulent Y. pestis CO92 strain when it was given as five 50% lethal doses (LD(50)). In a parallel study with the pneumonic plague mouse model, after 72 h postinfection, the lungs of animals infected with wild-type (WT) Y. pestis CO92 and given a subinhibitory dose of levofloxacin had acute inf",
+            "journal": "Infection and immunity",
+            "year": "2008",
+            "authors": [
+              "Sha Jian",
+              "Agar Stacy L",
+              "Baze Wallace B",
+              "Olano Juan P",
+              "Fadl Amin A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Cytokines",
+              "Disease Models, Animal",
+              "Female",
+              "Levofloxacin",
+              "Lipoproteins",
+              "Macrophages",
+              "Mice",
+              "Mice, Inbred BALB C"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18227160/"
+          },
+          {
+            "pmid": "20052916",
+            "title": "[Efficacy of levofloxacin, lomefloxacin and moxifloxacin vs. other fluoroquinolones in experimental plague due to FI+ and FI- strains of Yersinia pestis in Albino mice].",
+            "abstract": "Activity of levofloxacin, lomefloxacin and moxifloxacin against 20 FI+ and 20 FI- strains of Yersinia pestis was studied. It was shown that the strains were highly susceptible to the fluoroquinolones. In the experiments on mice subcutaneously infected with suspension of strains 231 FI+ and 231 FI- of Y. pestis in a dose of about 1000 LD50 (10(4) microbial cells) the ED50 of levofloxacin and moxifloxacin was 5.5-14.0 mg/kg independent of the infective culture phenotype and that of lomefloxacin was 18.5 mg/kg. Estimation of the impact of the pathogen infective dose value on the results of the experimental plague treatment with the therapeutic dose equivalent to the human one showed high efficacy of the fluoroquinolones (efficacy index of 10(4)). The treatment for 7 days provided 90-100-percent survival of the animals. The prophylactive use of lomefloxacin (in 5 hours - 5 days) was less efficient (70-80% of the survivals) in the animals infected with the antigen-changed (FI-) variant of t",
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2009",
+            "authors": [
+              "Ryzhko I V",
+              "Tsuraeva R I",
+              "Anisimov B I",
+              "Trishina A V"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Aza Compounds",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Fluoroquinolones",
+              "Humans",
+              "Levofloxacin",
+              "Mice",
+              "Moxifloxacin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20052916/"
+          },
+          {
+            "pmid": "10085037",
+            "title": "Immune response to Yersinia outer proteins and other Yersinia pestis antigens after experimental plague infection in mice.",
+            "abstract": "There is limited information concerning the nature and extent of the immune response to the virulence determinants of Yersinia pestis during the course of plague infection. In this study, we evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment. Such a model may replicate the clinical situation in humans and indicate which virulence determinants are expressed in vivo. Immunoglobulin G enzyme-linked immunosorbent assay and immunoblotting were performed by using purified, recombinant antigens including F1, V antigen, YpkA, YopH, YopM, YopB, YopD, YopN, YopE, YopK, plasminogen activator protease (Pla), and pH 6 antigen as well as purified lipopolysaccharide. The major antigens recognized by murine convalescent sera were F1, V antigen, YopH, YopM, YopD, and Pla. Early treatment with antibiotics tended to reduce the immune response and differences between antibiotic treatment regimens were noted. These results may indicate ",
+            "journal": "Infection and immunity",
+            "year": "1999",
+            "authors": [
+              "Benner G E",
+              "Andrews G P",
+              "Byrne W R",
+              "Strachan S D",
+              "Sample A K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents",
+              "Antibodies, Bacterial",
+              "Antigens, Bacterial",
+              "Bacterial Outer Membrane Proteins",
+              "Disease Models, Animal",
+              "Electrophoresis, Polyacrylamide Gel",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female",
+              "Immunoblotting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10085037/"
+          },
+          {
+            "pmid": "18644132",
+            "title": "A multicopy suppressor screening approach as a means to identify antibiotic resistance determinant candidates in Yersinia pestis.",
+            "abstract": "Yersinia pestis is the causative agent of plague and a potential agent of bioterrorism and biowarfare. The plague biothreat and the emergence of multidrug-resistant plague underscore the need to increase our understanding of the intrinsic potential of Y. pestis for developing antimicrobial resistance and to anticipate the mechanisms of resistance that may emerge in Y. pestis. Identification of Y. pestis genes that, when overexpressed, are capable of reducing antibiotic susceptibility is a useful strategy to expose genes that this pathogen may rely upon to evolve antibiotic resistance via a vertical modality. In this study, we explored the use of a multicopy suppressor, Escherichia coli host-based screening approach as a means to expose antibiotic resistance determinant candidates in Y. pestis.",
+            "journal": "BMC microbiology",
+            "year": "2008",
+            "authors": [
+              "Stirrett Karen L",
+              "Ferreras Julian A",
+              "Rossi Sebastian M",
+              "Moy Richard L",
+              "Fonseca Fabio V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aminoglycosides",
+              "Anti-Bacterial Agents",
+              "Chromosome Mapping",
+              "Chromosomes, Bacterial",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Bacterial",
+              "Escherichia coli",
+              "Gene Expression Regulation, Bacterial",
+              "Genes, Bacterial",
+              "Genome, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18644132/"
+          },
+          {
+            "pmid": "23239803",
+            "title": "Evaluation of protective potential of Yersinia pestis outer membrane protein antigens as possible candidates for a new-generation recombinant plague vaccine.",
+            "abstract": "Plague caused by Yersinia pestis manifests itself in bubonic, septicemic, and pneumonic forms. Although the U.S. Food and Drug Administration recently approved levofloxacin, there is no approved human vaccine against plague. The capsular antigen F1 and the low-calcium-response V antigen (LcrV) of Y. pestis represent excellent vaccine candidates; however, the inability of the immune responses to F1 and LcrV to provide protection against Y. pestis F1(-) strains or those which harbor variants of LcrV is a significant concern. Here, we show that the passive transfer of hyperimmune sera from rats infected with the plague bacterium and rescued by levofloxacin protected naive animals against pneumonic plague. Furthermore, 10 to 12 protein bands from wild-type (WT) Y. pestis CO92 reacted with the aforementioned hyperimmune sera upon Western blot analysis. Based on mass spectrometric analysis, four of these proteins were identified as attachment invasion locus (Ail/OmpX), plasminogen-activating",
+            "journal": "Clinical and vaccine immunology : CVI",
+            "year": "2013",
+            "authors": [
+              "Erova Tatiana E",
+              "Rosenzweig Jason A",
+              "Sha Jian",
+              "Suarez Giovanni",
+              "Sierra Johanna C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Bacterial",
+              "Bacterial Outer Membrane Proteins",
+              "Bacterial Proteins",
+              "Immune Sera",
+              "Immunization",
+              "Immunization, Passive",
+              "Levofloxacin",
+              "Mice",
+              "Ofloxacin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23239803/"
+          },
+          {
+            "pmid": "21347450",
+            "title": "Levofloxacin cures experimental pneumonic plague in African green monkeys.",
+            "abstract": "Yersinia pestis, the agent of plague, is considered a potential bioweapon due to rapid lethality when delivered as an aerosol. Levofloxacin was tested for primary pneumonic plague treatment in a nonhuman primate model mimicking human disease.",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2011",
+            "authors": [
+              "Layton Robert Colby",
+              "Mega William",
+              "McDonald Jacob D",
+              "Brasel Trevor L",
+              "Barr Edward B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Chlorocebus aethiops",
+              "Disease Models, Animal",
+              "Infusions, Intravenous",
+              "Levofloxacin",
+              "Lung",
+              "Ofloxacin",
+              "Plague"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21347450/"
+          },
+          {
+            "pmid": "8203841",
+            "title": "Assessment of a fluoroquinolone, three beta-lactams, two aminoglycosides, and a cycline in treatment of murine Yersinia pestis infection.",
+            "abstract": "Amoxicillin, cefotaxime, ceftriaxone, gentamicin, doxycycline, and ofloxacin were active in vitro, like the reference drug streptomycin, against the virulent strain Yersinia pestis 6/69M. The comparative efficacies of these drugs in vivo were evaluated in a standardized and reproducible mouse model of systemic infection. Each antibiotic was injected intravenously once, at 24 h postinfection, and then repeatedly during 48 h. In vivo results were measured by counting the viable bacteria recovered from the whole spleens of mice sacrificed at selected times. All the drugs were manifestly successful; ceftriaxone, ofloxacine, and the reference drug were the most effective. Therefore, gentamicin and doxycycline could be used, depending on the clinical forms of the Y. pestis infection. Further investigations on beta-lactams, especially those used in the present study, could be carried out to confirm or not confirm their activities against Y. pestis. Ofloxacin appeared to be as active and to pe",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1994",
+            "authors": [
+              "Bonacorsi S P",
+              "Scavizzi M R",
+              "Guiyoule A",
+              "Amouroux J H",
+              "Carniel E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Doxycycline",
+              "Drug Resistance, Microbial",
+              "Fluoroquinolones",
+              "Humans",
+              "Mice",
+              "Microbial Sensitivity Tests",
+              "Plague",
+              "Spleen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8203841/"
+          },
+          {
+            "pmid": "19121669",
+            "title": "High-level resistance to fluoroquinolones and cephalosporins in Burkholderia pseudomallei and closely related species.",
+            "abstract": "The molecular mechanisms involved in the development of a high level of resistance to a wide range of antimicrobials in Burkholderia pseudomallei and closely related species have not been sufficiently investigated. In the present study, the properties of B. pseudomallei, B. mallei and B. thailandensis mutants with increased resistance to fluoroquinolones and cephalosporins were analysed. Resistance to pefloxacin, ofloxacin and ceftazidime in B. pseudomallei and B. thailandensis was accompanied by an increased resistance to aminoglycosides, beta-lactams, macrolides and chloramphenicol, whereas mutants of B. mallei were characterized by a narrower spectrum of resistance. With the use of the differential display technique, we demonstrated that multiple resistant variants of B. pseudomallei, B. mallei and B. thailandensis had an increased expression of putative efflux transporters belonging to the resistance-nodulation division superfamily and the major facilitator superfamily. With the ap",
+            "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+            "year": "2008",
+            "authors": [
+              "Viktorov Dimitry V",
+              "Zakharova Irina B",
+              "Podshivalova Maria V",
+              "Kalinkina Elena V",
+              "Merinova Olga A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Burkholderia",
+              "Burkholderia Infections",
+              "Burkholderia pseudomallei",
+              "Cephalosporins",
+              "Cricetinae",
+              "DNA, Bacterial",
+              "Drug Resistance, Microbial",
+              "Fluoroquinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19121669/"
+          },
+          {
+            "pmid": "21127743",
+            "title": "Protection Afforded by Fluoroquinolones in Animal Models of Respiratory Infections with Bacillus anthracis, Yersinia pestis, and Francisella tularensis.",
+            "abstract": "Successful treatment of inhalation anthrax, pneumonic plague and tularemia can be achieved with fluoroquinolone antibiotics, such as ciprofloxacin and levofloxacin, and initiation of treatment is most effective when administered as soon as possible following exposure. Bacillus anthracis Ames, Yersinia pestis CO92, and Francisella tularensis SCHU S4 have equivalent susceptibility in vitro to ciprofloxacin and levofloxacin (minimal inhibitory concentration is 0.03 μg/ml); however, limited information is available regarding in vivo susceptibility of these infectious agents to the fluoroquinolone antibiotics in small animal models. Mice, guinea pig, and rabbit models have been developed to evaluate the protective efficacy of antibiotic therapy against these life-threatening infections. Our results indicated that doses of ciprofloxacin and levofloxacin required to protect mice against inhalation anthrax were approximately 18-fold higher than the doses of levofloxacin required to protect aga",
+            "journal": "The open microbiology journal",
+            "year": "2010",
+            "authors": [
+              "Peterson Johnny W",
+              "Moen Scott T",
+              "Healy Daniel",
+              "Pawlik Jennifer E",
+              "Taormina Joanna"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21127743/"
+          },
+          {
+            "pmid": "13677133",
+            "title": "[Formation of virulent antigen-modified mutants (Fra-, Fra-Tox-) of plague bacteria resistant to rifampicin and quinolones].",
+            "abstract": "Experiments were performed with two strains of plague bacteria--231 (isolated from marmot) and 358 (isolated from human) and their isogenic variants with Fra- and Fra-Tox- phenotype. Mutants resistant to rifampicin (Rifr) and nalidixic acid (Nalr) appeared independently of pathogen phenotype and genotype with frequency n.10(-8)-n.10(-9), subsequently. Rifr mutation influenced on virulence manifestation at albino mice and antigendeficient variants with Fra- and Fra-Tox- phenotype. In every group of strains highly virulent subcultures were registered. Resistance to nalidixic acid mainly was not associated with virulence loss. Nalr mutants of parent and antigenmodified mutants were cross resistant to fluoroqinolones (ciprofloxacin, ofloxacin, pefloxacin, lomefloxacin). LD50 for untreated albino mice did not differ from LD50, for mice treated with rifampicin (when mice were infected with strain resistant to rifampicin) or with nalidixic acid and fluoroquinolones (when animals were infected",
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2003",
+            "authors": [
+              "Ryzhko I V",
+              "Shcherbaniuk A I",
+              "Skalyga E Iu",
+              "Tsuraeva R I",
+              "Moldavan I A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "4-Quinolones",
+              "Animals",
+              "Anti-Infective Agents",
+              "Drug Resistance, Multiple, Bacterial",
+              "Humans",
+              "Mice",
+              "Mutation",
+              "Phenotype",
+              "Plague",
+              "Rifampin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13677133/"
+          },
+          {
+            "pmid": "23063826",
+            "title": "A non-invasive in vivo imaging system to study dissemination of bioluminescent Yersinia pestis CO92 in a mouse model of pneumonic plague.",
+            "abstract": "The gold standard in microbiology for monitoring bacterial dissemination in infected animals has always been viable plate counts. This method, despite being quantitative, requires sacrificing the infected animals. Recently, however, an alternative method of in vivo imaging of bioluminescent bacteria (IVIBB) for monitoring microbial dissemination within the host has been employed. Yersinia pestis is a Gram-negative bacterium capable of causing bubonic, septicemic, and pneumonic plague. In this study, we compared the conventional counting of bacterial colony forming units (cfu) in the various infected tissues to IVIBB in monitoring Y. pestis dissemination in a mouse model of pneumonic plague. By using a transposon mutagenesis system harboring the luciferase (luc) gene, we screened approximately 4000 clones and obtained a fully virulent, luc-positive Y. pestis CO92 (Y. pestis-luc2) reporter strain in which transposition occurred within the largest pMT1 plasmid which possesses murine toxin",
+            "journal": "Microbial pathogenesis",
+            "year": "2013",
+            "authors": [
+              "Sha Jian",
+              "Rosenzweig Jason A",
+              "Kirtley Michelle L",
+              "van Lier Christina J",
+              "Fitts Eric C"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Animals, Outbred Strains",
+              "Anti-Bacterial Agents",
+              "Disease Models, Animal",
+              "Female",
+              "Flow Cytometry",
+              "Genes, Reporter",
+              "Humans",
+              "Levofloxacin",
+              "Luciferases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23063826/"
+          },
+          {
+            "pmid": "10987101",
+            "title": "[The experimental validation of the advantages of combined emergency (fluoroquinolones) and specific (EV Nalr) prevention of plague versus their sequential use].",
+            "abstract": "Mice immunization with reference vaccine at the early stage of plague infection provided animals survival and prolonged mean survival period up to 2-5 days. Ciprofloxacin, ofloxacin and pefloxacin prevents development of post vaccine immunity at white mice, immunized by reference vaccine strain EV. Nalidixic acid and norfloxacin effect on post vaccine immunity was lower. Use of immunogenic strain EV Nafr (resistant to nalidixic acid and fluoroquinolones) provided antiplague immunity formation at the background of fluoroquinolones prophylaxis. Ciprofloxacin, ofloxacin and pefloxacin used for plague prophylaxis at white mice infected with Yersinia pestis (about 1000 LD50) inhibited postinfective immunity development. Nalidixic acid and norfloxacin didn't demonstrate such effect. Urgent (fluoroquinolones) and specific (EV Nalr) combined prophylaxis was evaluated as more effective for a 5-day period and provided the development of antiplague immunity.",
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2000",
+            "authors": [
+              "Ryzhko I V",
+              "Tsuraeva R I",
+              "Samokhodkina E D",
+              "Shcherbaniuk A I",
+              "Mishan'kin B N"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents",
+              "Dose-Response Relationship, Immunologic",
+              "Drug Evaluation, Preclinical",
+              "Drug Therapy, Combination",
+              "Emergencies",
+              "Fluoroquinolones",
+              "Immunity",
+              "Immunization",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10987101/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hematological disorder",
+        "txgnn_score": 0.997216820716858,
+        "txgnn_rank": 4345,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.9956588745117188,
+        "txgnn_rank": 5915,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30055152",
+            "title": "Outbreak of Microsporidial Keratoconjunctivitis Associated With Water Contamination in Swimming Pools in Taiwan.",
+            "abstract": "To report an outbreak of microsporidial keratoconjunctivitis resulting from a swimming pool in Taiwan.",
+            "journal": "American journal of ophthalmology",
+            "year": "2018",
+            "authors": [
+              "Wang Wen-Yi",
+              "Chu Hsiao-Sang",
+              "Lin Pei-Chun",
+              "Lee Tai-Fen",
+              "Kuo Kuan-Ting"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Bacterial Agents",
+              "Betamethasone",
+              "Disease Outbreaks",
+              "Drug Combinations",
+              "Eye Infections, Fungal",
+              "Female",
+              "Glucocorticoids",
+              "Humans",
+              "Keratoconjunctivitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30055152/"
+          },
+          {
+            "pmid": "16670489",
+            "title": "Rapid healing of vernal shield ulcer after surgical debridement: A case report.",
+            "abstract": "This study was designed to report a patient with a vernal shield ulcer that did not respond to medical therapy but healed in 1 week after surgical debridement of the ulcer base.",
+            "journal": "Cornea",
+            "year": "2006",
+            "authors": [
+              "Ozbek Zeynep",
+              "Burakgazi Ahmet Z",
+              "Rapuano Christopher J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Conjunctivitis, Allergic",
+              "Cornea",
+              "Corneal Ulcer",
+              "Debridement",
+              "Female",
+              "Humans",
+              "Ophthalmologic Surgical Procedures",
+              "Wound Healing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16670489/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01165",
+    "name": "Ofloxacin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ofloxacin"
+      },
+      "queried_at": "2026-03-09T16:24:07.139170",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ofloxacin"
+      },
+      "queried_at": "2026-03-09T16:24:28.469825",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T16:24:29.686097",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T16:24:34.748199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-09T16:24:35.928713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T16:24:37.160707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T16:24:41.042825",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-09T16:24:42.088459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T16:24:42.966452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T16:24:47.639614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-09T16:24:48.540057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T16:24:50.245876",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T16:24:56.582223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-09T16:25:00.339232",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-09T16:25:01.524326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-09T16:25:07.021968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-09T16:25:09.637031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-09T16:25:10.376025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-09T16:25:20.150010",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-09T16:25:29.242958",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-09T16:25:36.019480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-09T16:25:42.586890",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-09T16:25:45.042661",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-09T16:25:47.072314",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-09T16:25:54.329525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-09T16:25:58.561044",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-09T16:26:00.296636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-09T16:26:04.921028",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-09T16:26:06.844898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:26:07.827251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:26:14.897857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofloxacin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T16:26:18.445522",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:26:18.458591"
+  }
+}

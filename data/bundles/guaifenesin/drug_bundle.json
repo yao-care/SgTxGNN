@@ -1,0 +1,773 @@
+{
+  "drug": {
+    "inn": "Guaifenesin",
+    "drugbank_id": "DB00874",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9998317956924438,
+        "txgnn_rank": 552,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01364467",
+            "title": "The Effect of Oral Guaifenesin on Pediatric Chronic Rhinitis: A Pilot Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-05",
+            "completion_date": "2018-03-05",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This is a 14-day, randomized, placebo-controlled, parallel group, masked clinical trial of oral guaifenesin for the therapy of Chronic Rhinitis (CRS) in 36 children between the ages of 7 and 18 years. The study investigates the effectiveness of guaifenesin in the relief of nasal symptoms in children with CRS using the sinonasal 5 survey (SN-5) in comparison to nasal airway volume, and biophysical properties of nasal secretion. The investigators hypothesize that Guaifenesin use over a period of 1",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Children between the ages of 7 and 18 years, diagnosed with Chronic Rhinitis and nasal stuffiness for at least 3 month duration.\n\nExclusion Criteria:\n\n* Children with immunodeficiency, cystic fibrosis, acute or subacute symptoms, signs of bacterial infection, and/or those who ",
+            "endpoints": [
+              "Change in Subjective Nasal Scoring"
+            ],
+            "sponsor": "Virginia Commonwealth University",
+            "url": "https://clinicaltrials.gov/study/NCT01364467"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "9065342",
+            "title": "Management of sinusitis in adult cystic fibrosis.",
+            "abstract": "Until recently, cystic fibrosis was frequently fatal during childhood. However, with current medical management, many patients are living into adulthood. This has created a new population of patients with chronic sinusitis and severe medical problems. In this report, experience with 22 patients, eight of whom have undergone sinus surgery, is presented, and recommendations for management are proposed. Presenting symptoms are typical of sinusitis, but in a few patients, severe debilitating headaches predominate. Oral antibiotics are often of little use due to the numerous courses of high dose intravenous antibiotics used for resistant pulmonary infections. Topical nasal steroids and mucolytics have been of some benefit. Fourteen operative procedures were performed on eight patients. These procedures included 12 endoscopic sphenoethmoidectomies, four Caldwell-Luc procedures, two frontal sinus obliterations, and one transseptal sphenoidotomy (many of these were in combination.) Results fro",
+            "journal": "American journal of rhinology",
+            "year": "1997",
+            "authors": [
+              "Marks S C",
+              "Kissner D G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Administration, Oral",
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Chronic Disease",
+              "Combined Modality Therapy",
+              "Cystic Fibrosis",
+              "Endoscopy",
+              "Ethmoid Sinus",
+              "Expectorants"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9065342/"
+          },
+          {
+            "pmid": "12487405",
+            "title": "Hidden respiratory allergies in voice users: treatment strategies.",
+            "abstract": "The treatment of the allergic voice patient may be somewhat different than other voice patients. Antihistamines are generally avoided, though decongestants with Guaifenesin may be useful. Steroids are more useful in perennial allergic systems. Steroids may be inhaled nasally, inhaled orally, or given systemically. Systemic steroids are especially useful for a performer who needs quick relief. We strongly feel that vocalists with chronic laryngitis and dysphonia should be allergy tested. A hidden dust mite or cat dander allergy is often found. A clean indoor environment can then be established. Immunotherapy injections can also be initiated. Both of these treatments, desensitization injections and environmental control, are especially useful in vocalists. These treatments are helpful in keeping a vocalist's trachea, larynx, and nasal cavity healthy. A careful search for mild asthma should be considered. Establishing good vocal hygiene and voice training may also be necessary.",
+            "journal": "Logopedics, phoniatrics, vocology",
+            "year": "2002",
+            "authors": [
+              "Jackson-Menaldi Cristina A",
+              "Dzul Andrew I",
+              "Holland R Wayne"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Combined Modality Therapy",
+              "Humans",
+              "Immunoglobulin E",
+              "Respiratory Tract Diseases",
+              "Rhinitis, Allergic, Perennial",
+              "Voice Disorders",
+              "Voice Training"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12487405/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9998074173927308,
+        "txgnn_rank": 607,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faucial diphtheria",
+        "txgnn_score": 0.9954259991645812,
+        "txgnn_rank": 6133,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical disc degenerative disorder",
+        "txgnn_score": 0.9950196743011476,
+        "txgnn_rank": 6471,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.992698848247528,
+        "txgnn_rank": 8474,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tracheal disease",
+        "txgnn_score": 0.988280951976776,
+        "txgnn_rank": 11841,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02982876",
+            "title": "Airway Stents for Excessive Dynamic Airway Collapse: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-12",
+            "completion_date": "2024-12-31",
+            "country": "N/A",
+            "enrollment": 50,
+            "brief_summary": "Airway stents are used as standard of care to identify which patients with excessive dynamic airway collapse will benefit from a definitive surgical treatment. However, the specific way in which these stents are effective has not been tested. The purpose of this research study is to determine the effectiveness of airway stents when used in the airways of patients with severe symptomatic excessive dynamic airway collapse compared to patients with severe symptomatic excessive dynamic airway collap",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient with sever symptomatic EDAC (collapse \\>90% of the airway during exhalation at dynamic CT scan)\n* Age \\> 18 years\n\nExclusion Criteria:\n\n* Patients who have not been well managed from their respiratory comorbidities (asthma, COPD, obstructed sleep apnea, GERD, relapsing",
+            "endpoints": [
+              "St. George's Respiratory Questionnaire"
+            ],
+            "sponsor": "Beth Israel Deaconess Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02982876"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04471597",
+            "title": "Topical Bupivacaine Effect On The Response To Awake Extubation During Emergence From General Anesthesia In Patients Undergoing Elective Thyroidectomy. A Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-07-20",
+            "completion_date": "2023-09-01",
+            "country": "Egypt",
+            "enrollment": 48,
+            "brief_summary": "* Emergence from general anesthesia is often complicated by the ETT-induced emergence phenomena (EP), which include coughing, sympathetic stimulation, sore throat, increased bleeding from the surgical site, and increased intracranial and intraocular pressures.\n* Techniques that have been used to help diminish coughing during emergence include \"deep\" extubation (removal of the endotracheal tube \\[ETT\\] while the patient is still in a deep plane of general anesthesia), administration of intravenou",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatient acceptance. BMI \\< 35kg/m2. ASA I and ASA II. Scheduled for elective thyroidectomy under general anesthesia\n\nExclusion Criteria:\n\nPatient refusal. History or anticipated difficult intubation. Chronic respiratory disease such as chronic obstructive pulmonary disease or as",
+            "endpoints": [
+              "Grade of coughing"
+            ],
+            "sponsor": "Zagazig University",
+            "url": "https://clinicaltrials.gov/study/NCT04471597"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07384546",
+            "title": "Spontaneous Breathing-Preserved Anesthesia and Surgical Strategy to Improve Early Postoperative Hospital Recovery After Lung Transplantation (BREATHE), A Prospective, Multicenter, Blinded Endpoint Assessment Single-arm Clinical Study",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-10",
+            "completion_date": "2027-01-30",
+            "country": "N/A",
+            "enrollment": 110,
+            "brief_summary": "The goal of this study is to learn whether a spontaneous-breathing (\"tubeless\") anesthesia and surgery strategy can improve early recovery and remain safe for adults who receive a lung transplant. This strategy aims to help lung transplant recipients maintain spontaneous breathing as much as possible during and after surgery, avoid tracheal intubation with invasive mechanical ventilation and deep sedation, and thereby support faster recovery while maintaining postoperative survival and safety. A",
+            "eligibility_criteria": "【1】Inclusion Criteria\n\n1. Age and informed consent: Aged 18-70 years; able to understand the study and provide written informed consent; willing and able to complete follow-up.\n2. Transplant candidacy: Listed in the CLuTR registry and/or the local center's lung transplant waiting list, and scheduled",
+            "endpoints": [
+              "Number of Participants Requiring Postoperative Invasive Mechanical Ventilation (IMV) During Index Hospitalization",
+              "Postoperative Hospital Length of Stay (Days) During Index Hospitalization",
+              "Rate of Perioperative Survival"
+            ],
+            "sponsor": "The First Affiliated Hospital of Guangzhou Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT07384546"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "23113953",
+            "title": "Effects of guaifenesin, N-acetylcysteine, and ambroxol on MUC5AC and mucociliary transport in primary differentiated human tracheal-bronchial cells.",
+            "abstract": "Therapeutic intervention in the pathophysiology of airway mucus hypersecretion is clinically important. Several types of drugs are available with different possible modes of action. We examined the effects of guaifenesin (GGE), N-acetylcysteine (NAC) and ambroxol (Amb) on differentiated human airway epithelial cells stimulated with IL-13 to produce additional MUC5AC.",
+            "journal": "Respiratory research",
+            "year": "2012",
+            "authors": [
+              "Seagrave Jeanclare",
+              "Albrecht Helmut H",
+              "Hill David B",
+              "Rogers Duncan F",
+              "Solomon Gail"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Ambroxol",
+              "Cells, Cultured",
+              "Expectorants",
+              "Guaifenesin",
+              "Humans",
+              "Interleukin-13",
+              "Mucin 5AC",
+              "Mucociliary Clearance",
+              "Respiratory Mucosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23113953/"
+          },
+          {
+            "pmid": "30124173",
+            "title": "The challenges of treating tracheobronchitis in a laryngectomee due to nontypeable Haemophilus influenzae: a case report.",
+            "abstract": "Laryngectomees run the risk of developing severe respiratory tract infections especially during the winter and when they do not wear a stoma cover. A case of severe tracheobronchitis in a laryngectomee is presented that illustrates the risks and difficulties encountered in managing this infection in a neck breather.",
+            "journal": "Journal of medical case reports",
+            "year": "2018",
+            "authors": [
+              "Brook Itzhak"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Bronchitis",
+              "Haemophilus Infections",
+              "Haemophilus influenzae",
+              "Humans",
+              "Laryngectomy",
+              "Male",
+              "Respiratory Tract Infections",
+              "Tracheitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30124173/"
+          },
+          {
+            "pmid": "7017490",
+            "title": "[Clinical evaluation of the activity of 2 preparations with similar action in bronchopneumopathies in the aged].",
+            "abstract": "The results obtained in a single blind controlled study using a new preparation, guacetisal, and an already available similar product based on dimethylaminophenazone guaiacolglycolate and calcium ethylcamphorate, are reported. The drugs were administered to 28 elderly patients of both sexes suffering from bronchopneumopathies for a period of 7 consecutive days with 2 suppositories/day. The results generally favoured the new product. Tolerance was very good at all levels.",
+            "journal": "Minerva medica",
+            "year": "1981",
+            "authors": [
+              "Lauri D",
+              "Salvini P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aminopyrine",
+              "Aspirin",
+              "Blood",
+              "Bronchitis",
+              "Clinical Trials as Topic",
+              "Cough",
+              "Drug Combinations",
+              "Drug Evaluation",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7017490/"
+          },
+          {
+            "pmid": "1130082",
+            "title": "[The treatment of the pseudocroup syndrome (author's transl)].",
+            "abstract": "The results of the implementation of Myoscain E/Holzinger in the treatment of the \"pseudocroup syndrome\" (laryngitis catarrhalis) are reported. The generally prompt action of the drug is stressed. It is pointed out that non-response to the compound suggests a more serious form of the disease necessitating close observation. A list of diseases involved in the differential diagnosis is added.",
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "1975",
+            "authors": [
+              "Potacs W"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Diagnosis, Differential",
+              "Drug Evaluation",
+              "Guaifenesin",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Laryngismus",
+              "Laryngitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1130082/"
+          },
+          {
+            "pmid": "4765427",
+            "title": "[Therapeutic activity of an association of a mucolytic drug and a bronchodilator agent in the treatment of respiratory inflammations].",
+            "abstract": "",
+            "journal": "Minerva medica",
+            "year": "1973",
+            "authors": [
+              "Boselli G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bronchiectasis",
+              "Bronchitis",
+              "Bronchodilator Agents",
+              "Bronchopneumonia",
+              "Chronic Disease",
+              "Cough",
+              "Drug Combinations",
+              "Expectorants",
+              "Guaifenesin",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4765427/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9869647026062012,
+        "txgnn_rank": 12866,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anorectal stricture",
+        "txgnn_score": 0.9863227605819702,
+        "txgnn_rank": 13345,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anal polyp",
+        "txgnn_score": 0.9860911965370178,
+        "txgnn_rank": 13512,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.9848094582557678,
+        "txgnn_rank": 14317,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00874",
+    "name": "Guaifenesin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Guaifenesin"
+      },
+      "queried_at": "2026-03-09T10:02:22.316919",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Guaifenesin"
+      },
+      "queried_at": "2026-03-09T10:02:26.980809",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T10:02:27.832705",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T10:02:31.682792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T10:02:33.907589",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T10:02:34.694772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T10:02:38.439000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T10:02:39.735367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T10:02:40.743127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T10:02:45.342076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T10:02:46.924325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T10:02:48.489844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T10:02:51.971123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T10:02:53.023676",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:02:53.720137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:02:57.690567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:02:58.569453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "tracheal disease"
+      },
+      "queried_at": "2026-03-09T10:03:00.124189",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "tracheal disease"
+      },
+      "queried_at": "2026-03-09T10:03:03.789933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "tracheal disease"
+      },
+      "queried_at": "2026-03-09T10:03:06.544075",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T10:03:07.206446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T10:03:11.875775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T10:03:13.274208",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T10:03:14.428283",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T10:03:18.872509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-09T10:03:20.576800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "anal polyp"
+      },
+      "queried_at": "2026-03-09T10:03:21.105956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "anal polyp"
+      },
+      "queried_at": "2026-03-09T10:03:24.974543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "anal polyp"
+      },
+      "queried_at": "2026-03-09T10:03:25.720741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:03:26.622718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:03:31.224282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Guaifenesin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:03:32.134375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:03:32.142604"
+  }
+}

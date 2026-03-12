@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Aminacrine",
+    "drugbank_id": "DB11561",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "paratyphoid fever",
+        "txgnn_score": 0.9825916290283204,
+        "txgnn_rank": 15713,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diffuse scleroderma",
+        "txgnn_score": 0.9585978388786316,
+        "txgnn_rank": 24611,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sinusitis",
+        "txgnn_score": 0.9577614068984984,
+        "txgnn_rank": 24790,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottitis",
+        "txgnn_score": 0.9550440907478333,
+        "txgnn_rank": 25453,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "apical periodontitis",
+        "txgnn_score": 0.954111099243164,
+        "txgnn_rank": 25686,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "periapical granuloma",
+        "txgnn_score": 0.9512107968330384,
+        "txgnn_rank": 26415,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "suppurative periapical periodontitis",
+        "txgnn_score": 0.9512107968330384,
+        "txgnn_rank": 26416,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic ethmoidal sinusitis",
+        "txgnn_score": 0.9510114789009094,
+        "txgnn_rank": 26456,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic rhinosinusitis",
+        "txgnn_score": 0.9503116607666016,
+        "txgnn_rank": 26614,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "paranasal sinus neoplasm (disease)",
+        "txgnn_score": 0.9499772787094116,
+        "txgnn_rank": 26703,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11561",
+    "name": "Aminacrine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Aminacrine"
+      },
+      "queried_at": "2026-03-10T07:33:26.781493",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Aminacrine"
+      },
+      "queried_at": "2026-03-10T07:33:28.089659",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "paratyphoid fever"
+      },
+      "queried_at": "2026-03-10T07:33:28.652109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "paratyphoid fever"
+      },
+      "queried_at": "2026-03-10T07:33:31.630199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "paratyphoid fever"
+      },
+      "queried_at": "2026-03-10T07:33:32.437742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "diffuse scleroderma"
+      },
+      "queried_at": "2026-03-10T07:33:32.988921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "diffuse scleroderma"
+      },
+      "queried_at": "2026-03-10T07:33:39.217498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "diffuse scleroderma"
+      },
+      "queried_at": "2026-03-10T07:33:40.363221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "sinusitis"
+      },
+      "queried_at": "2026-03-10T07:33:41.395406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "sinusitis"
+      },
+      "queried_at": "2026-03-10T07:33:44.689787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "sinusitis"
+      },
+      "queried_at": "2026-03-10T07:33:45.340849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-10T07:33:45.835772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-10T07:33:48.912611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-10T07:33:49.753023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "apical periodontitis"
+      },
+      "queried_at": "2026-03-10T07:33:50.556086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "apical periodontitis"
+      },
+      "queried_at": "2026-03-10T07:33:53.846331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "apical periodontitis"
+      },
+      "queried_at": "2026-03-10T07:33:54.682243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "periapical granuloma"
+      },
+      "queried_at": "2026-03-10T07:33:55.280180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "periapical granuloma"
+      },
+      "queried_at": "2026-03-10T07:33:58.351766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "periapical granuloma"
+      },
+      "queried_at": "2026-03-10T07:33:59.597187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "suppurative periapical periodontitis"
+      },
+      "queried_at": "2026-03-10T07:34:00.238451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "suppurative periapical periodontitis"
+      },
+      "queried_at": "2026-03-10T07:34:03.188697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "suppurative periapical periodontitis"
+      },
+      "queried_at": "2026-03-10T07:34:03.910037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "queried_at": "2026-03-10T07:34:04.492141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "queried_at": "2026-03-10T07:34:07.726284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "queried_at": "2026-03-10T07:34:08.443193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "chronic rhinosinusitis"
+      },
+      "queried_at": "2026-03-10T07:34:09.217415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "chronic rhinosinusitis"
+      },
+      "queried_at": "2026-03-10T07:34:14.702432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "chronic rhinosinusitis"
+      },
+      "queried_at": "2026-03-10T07:34:15.437479",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "queried_at": "2026-03-10T07:34:15.960047",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "queried_at": "2026-03-10T07:34:19.498276",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aminacrine",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "queried_at": "2026-03-10T07:34:20.254217",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:34:20.264550"
+  }
+}

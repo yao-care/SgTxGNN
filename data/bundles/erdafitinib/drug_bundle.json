@@ -1,0 +1,525 @@
+{
+  "drug": {
+    "inn": "Erdafitinib",
+    "drugbank_id": "DB12147",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9937950372695924,
+        "txgnn_rank": 7541,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.9926744103431702,
+        "txgnn_rank": 8485,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.9926451444625854,
+        "txgnn_rank": 8513,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9925442934036256,
+        "txgnn_rank": 8600,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31862477",
+            "title": "Properties of FDA-approved small molecule protein kinase inhibitors: A 2020 update.",
+            "abstract": "Because genetic alterations including mutations, overexpression, translocations, and dysregulation of protein kinases are involved in the pathogenesis of many illnesses, this enzyme family is currently the subject of many drug discovery programs in the pharmaceutical industry. The US FDA approved four small molecule protein kinase antagonists in 2019; these include entrectinib, erdafitinib, pexidartinib, and fedratinib. Entrectinib binds to TRKA/B/C and ROS1 and is prescribed for the treatment of solid tumors with NTRK fusion proteins and for ROS1-postive non-small cell lung cancers. Erdafitinib inhibits fibroblast growth factor receptors 1-4 and is used in the treatment of urothelial bladder cancers. Pexidartinib is a CSF1R antagonist that is prescribed for the treatment of tenosynovial giant cell tumors. Fedratinib blocks JAK2 and is used in the treatment of myelofibrosis. Overall, the US FDA has approved 52 small molecule protein kinase inhibitors, nearly all of which are orally eff",
+            "journal": "Pharmacological research",
+            "year": "2020",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Drug Approval",
+              "Humans",
+              "Protein Kinase Inhibitors",
+              "United States",
+              "United States Food and Drug Administration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31862477/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis",
+        "txgnn_score": 0.9905816316604614,
+        "txgnn_rank": 10134,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9902858138084412,
+        "txgnn_rank": 10344,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrohpic lateral sclerosis type 22",
+        "txgnn_score": 0.989059567451477,
+        "txgnn_rank": 11232,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis, susceptibility to",
+        "txgnn_score": 0.9888291954994202,
+        "txgnn_rank": 11412,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "axial spondylometaphyseal dysplasia",
+        "txgnn_score": 0.9883391857147216,
+        "txgnn_rank": 11808,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Mills syndrome",
+        "txgnn_score": 0.9878476858139038,
+        "txgnn_rank": 12175,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12147",
+    "name": "Erdafitinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Erdafitinib"
+      },
+      "queried_at": "2026-03-10T04:33:24.778798",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Erdafitinib"
+      },
+      "queried_at": "2026-03-10T04:33:26.734088",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T04:33:27.521822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T04:33:30.537161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T04:33:31.291597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T04:33:31.837600",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T04:33:34.929756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-10T04:33:36.345177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T04:33:37.470665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T04:33:40.738816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T04:33:41.722232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:33:42.335354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:33:45.221113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:33:47.028190",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T04:33:47.575968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T04:33:50.473628",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T04:33:51.184602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T04:33:51.776633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T04:33:56.469285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T04:33:57.494161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T04:33:58.030294",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T04:34:02.727722",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T04:34:03.528618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T04:34:04.079754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T04:34:08.123200",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T04:34:09.790206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T04:34:10.373380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T04:34:14.340904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T04:34:15.877806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "Mills syndrome"
+      },
+      "queried_at": "2026-03-10T04:34:16.441476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "Mills syndrome"
+      },
+      "queried_at": "2026-03-10T04:34:19.827105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erdafitinib",
+        "disease": "Mills syndrome"
+      },
+      "queried_at": "2026-03-10T04:34:20.591090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:34:20.608113"
+  }
+}

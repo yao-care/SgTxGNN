@@ -1,0 +1,626 @@
+{
+  "drug": {
+    "inn": "Ceftaroline fosamil",
+    "drugbank_id": "DB06590",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9820308685302734,
+        "txgnn_rank": 16001,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.9816151261329652,
+        "txgnn_rank": 16214,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27530754",
+            "title": "Outpatient use of ceftaroline fosamil versus vancomycin for osteoarticular infection: a matched cohort study.",
+            "abstract": "There are few convenient intravenous options for long-term outpatient treatment of osteoarticular infection (OAI) and limited effectiveness and safety data exist for this off-label use of ceftaroline. The objective of this study was to describe the long-term effectiveness and safety of ceftaroline for the treatment of OAI.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2016",
+            "authors": [
+              "Athans Vasilios",
+              "Kenney Rachel M",
+              "Wong Jacob",
+              "Davis Susan L"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Cephalosporins",
+              "Drug Utilization",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27530754/"
+          },
+          {
+            "pmid": "23312602",
+            "title": "Current management of prosthetic joint infections in adults: results of an Emerging Infections Network survey.",
+            "abstract": "There is a dearth of guidance on the management of prosthetic joint infections (PJIs), in particular because of the lack of high-quality evidence for optimal antibiotics. Thus, we designed a nine-question survey of current practices and preferences among members of the Emerging Infections Network, a CDC-sponsored network of infectious diseases physicians, which was distributed in May 2012. In total, 556 (47.2%) of 1178 network members responded. As first-line antibiotic choice for MSSA PJI, 59% of responders indicated oxacillin/nafcillin, 33% cefazolin and 7% ceftriaxone; the commonest alternative was cefazolin (46%). For MRSA PJI, 90% preferred vancomycin, 7% daptomycin and 0.8% ceftaroline; the commonest alternative was daptomycin (65%). Antibiotic selection for coagulase-negative staphylococci varied depending on methicillin susceptibility. For staphylococcal PJIs with retained hardware, most providers would add rifampicin. Propionibacterium is usually treated with vancomycin (40%),",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2013",
+            "authors": [
+              "Marschall Jonas",
+              "Lane Michael A",
+              "Beekmann Susan E",
+              "Polgreen Philip M",
+              "Babcock Hilary M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Bacteria",
+              "Bacterial Infections",
+              "Communicable Diseases, Emerging",
+              "Cross-Sectional Studies",
+              "Humans",
+              "Osteoarthritis",
+              "Prosthesis-Related Infections",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23312602/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.9794932007789612,
+        "txgnn_rank": 17248,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "23312602",
+            "title": "Current management of prosthetic joint infections in adults: results of an Emerging Infections Network survey.",
+            "abstract": "There is a dearth of guidance on the management of prosthetic joint infections (PJIs), in particular because of the lack of high-quality evidence for optimal antibiotics. Thus, we designed a nine-question survey of current practices and preferences among members of the Emerging Infections Network, a CDC-sponsored network of infectious diseases physicians, which was distributed in May 2012. In total, 556 (47.2%) of 1178 network members responded. As first-line antibiotic choice for MSSA PJI, 59% of responders indicated oxacillin/nafcillin, 33% cefazolin and 7% ceftriaxone; the commonest alternative was cefazolin (46%). For MRSA PJI, 90% preferred vancomycin, 7% daptomycin and 0.8% ceftaroline; the commonest alternative was daptomycin (65%). Antibiotic selection for coagulase-negative staphylococci varied depending on methicillin susceptibility. For staphylococcal PJIs with retained hardware, most providers would add rifampicin. Propionibacterium is usually treated with vancomycin (40%),",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2013",
+            "authors": [
+              "Marschall Jonas",
+              "Lane Michael A",
+              "Beekmann Susan E",
+              "Polgreen Philip M",
+              "Babcock Hilary M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Bacteria",
+              "Bacterial Infections",
+              "Communicable Diseases, Emerging",
+              "Cross-Sectional Studies",
+              "Humans",
+              "Osteoarthritis",
+              "Prosthesis-Related Infections",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23312602/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9748080968856812,
+        "txgnn_rank": 19402,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "21382815",
+            "title": "New drugs: Ceftaroline fosamil, pegloticase, and eribulin mesylate.",
+            "abstract": "",
+            "journal": "Journal of the American Pharmacists Association : JAPhA",
+            "year": "2011",
+            "authors": [
+              "Hussar Daniel A",
+              "Pasco Lisa"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Cephalosporins",
+              "Female",
+              "Furans",
+              "Gout",
+              "Humans",
+              "Ketones",
+              "Mesylates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21382815/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9728646278381348,
+        "txgnn_rank": 20182,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9715795516967772,
+        "txgnn_rank": 20677,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.970144748687744,
+        "txgnn_rank": 21217,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9698283672332764,
+        "txgnn_rank": 21351,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9683568477630616,
+        "txgnn_rank": 21821,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9670781493186952,
+        "txgnn_rank": 22202,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06590",
+    "name": "Ceftaroline fosamil",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ceftaroline fosamil"
+      },
+      "queried_at": "2026-03-10T07:36:16.916463",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ceftaroline fosamil"
+      },
+      "queried_at": "2026-03-10T07:36:18.492609",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:36:19.098396",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:36:22.511114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T07:36:23.245141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T07:36:23.890804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T07:36:28.645664",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T07:36:30.862740",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T07:36:31.367196",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T07:36:34.064950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T07:36:35.841539",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:36:36.464243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:36:39.817605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T07:36:41.844661",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T07:36:42.569280",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T07:36:45.712867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-10T07:36:46.339709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T07:36:46.954328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T07:36:51.886258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T07:36:52.593506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T07:36:53.148995",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T07:36:57.855382",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T07:36:58.924478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T07:36:59.793579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T07:37:03.594813",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T07:37:04.593081",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T07:37:05.448412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T07:37:09.166301",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T07:37:10.453541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T07:37:11.212772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T07:37:14.754639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ceftaroline fosamil",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T07:37:15.662617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:37:15.665879"
+  }
+}

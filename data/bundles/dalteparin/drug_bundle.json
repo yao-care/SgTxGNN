@@ -1,0 +1,884 @@
+{
+  "drug": {
+    "inn": "Dalteparin",
+    "drugbank_id": "DB06779",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "thrombophilia due to protein C deficiency, autosomal recessive",
+        "txgnn_score": 0.9987576007843018,
+        "txgnn_rank": 2393,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.99673330783844,
+        "txgnn_rank": 4854,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01178333",
+            "title": "Heparin-Induced Thrombocytopenia - Retrospective Analysis of Data on Incidence and Outcomes Study (HIT-RADIO Study)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2010-06",
+            "completion_date": "2010-12",
+            "country": "United States",
+            "enrollment": 668,
+            "brief_summary": "HIT-RADIO is a study of patients who had a positive heparin PF-4 antibody test between 1/21/2008 and 9/25/2008 at selected hospitals. The study will collect and analyse information that is already in the patients' medical records. Information about laboratory values (such as platelet counts), treatments (such as medications), and outcomes (such as blood clots, amputation, and death) will be included.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All subjects with a positive heparin PF-4 antibody test occurring between 1/21/2008 and 9/25/2008\n* Medical record available for the admission during which the positive heparin PF-4 antibody test was obtained\n\nExclusion Criteria:\n\n* None",
+            "endpoints": [
+              "Time to Occurrence of a Composite Triple Endpoint Consisting of Death, Limb Amputation/Gangrene, and New Thrombosis",
+              "Time to Occurrence of a Composite Triple Endpoint Consisting of Death, Limb Amputation/Gangrene, and New Thrombosis"
+            ],
+            "sponsor": "Carelon Research",
+            "url": "https://clinicaltrials.gov/study/NCT01178333"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00222352",
+            "title": "Diagnosis and Treatment of Acute Coronary Syndromes in the Emergency Department: The Impact of Rapid Bedside cTnI Testing on Outcomes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2004-12",
+            "completion_date": "2007-03",
+            "country": "United States",
+            "enrollment": 2000,
+            "brief_summary": "In a randomized, controlled clinical trial, point-of care testing at the bedside using the cardiac biomarker troponin I in ED patients with possible ACS will be compared to traditional testing of this assay for myocardial necrosis obtained in the central laboratory. Our hypothesis: point-of-care testing for troponin I will decrease the time for disposition of patients with possible ACS in the emergency setting and decrease the time required for administering appropriate therapies for these patie",
+            "eligibility_criteria": "Inclusion criteria\n\n* Age \\>21 years old\n* Chest pain or other symptoms that lead to drawing cardiac bio-markers for possible ACS diagnosis\n\nExclusion criteria\n\n* Presentation with chest pain in the presence of a tachydysrhythmia (ventricular tachycardia, supraventricular tachycardia, or rapid atria",
+            "endpoints": [
+              "Time to disposition from the ED"
+            ],
+            "sponsor": "University of Cincinnati",
+            "url": "https://clinicaltrials.gov/study/NCT00222352"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01863134",
+            "title": "Clinical Effects of Eptifibatide Administration in High Risk Patients Presenting With Non-ST Segment Elevation Acute Coronary Syndrome (NSTE-ACS) Requiring Urgent Coronary Artery Bypass Graft Surgery in Short- and Long-Term Follow-up",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-01",
+            "completion_date": "2010-12",
+            "country": "United States, Poland",
+            "enrollment": 140,
+            "brief_summary": "1. INTRODUCTION\n\n   Through last couple of years the number of patients treated for acute coronary event without persistent ST segment elevation in ECG has been growing.\n\n   This is probably an effect of improving diagnostics of myocardial infraction without persistent ST segment elevation in ECG, due to routine Troponin serum level evaluation and better primary prevention.\n\n   This fact makes the search for the optimal treatment for patients with acute coronary event without persistent ST segme",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must have a typical anginal pain lasting at least 20 min., but no longer than 24h.\n* ECG confirming ischaemia\n* ST segment depression \\>= 1,0 mm in at least 2 leads, or,\n* negative T waves \\>= 2,0 mm in at least 2 leads.\n* Positive troponin I (TnI).\n* Subjects must de",
+            "endpoints": [
+              "Major Adverse Cardiac and Cerebrovascular Events (MACCE)"
+            ],
+            "sponsor": "Medical University of Silesia",
+            "url": "https://clinicaltrials.gov/study/NCT01863134"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04808895",
+            "title": "Multicenter Randomized, Double-blind, Placebo-controlled, Clinical Trial of Acetylsalicylic Acid in the Prevention of Severe SARS-CoV2 Pneumonia in Hospitalised Patients (Asperum)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2021-04-01",
+            "completion_date": "2021-08-31",
+            "country": "Italy",
+            "enrollment": 204,
+            "brief_summary": "Inflammatory diseases favour the onset of venous thromboembolic events in hospitalized patients. Thromboprophylaxis with a fixed dose of heparin/low molecular weight heparin (LMWH) is recommended if concomitant inflammatory disease. In severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) pneumonia an inflammation-dependent thrombotic process occurs and platelet activation may promote thrombosis and amplify inflammation, as indicated by previous experimental evidence, and the similarities ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* in a medical area ward dedicated to Covid-19 patients\n* Positivity by RT\\_PCR of the search for genetic material of SARS-CoV2\n* Covid-19 pneumonia with moderate clinical picture based on clinical parameters\n* O2 saturation\\> 94% with maximum FiO2 32%\n* Respiratory acts \\<30 / ",
+            "endpoints": [
+              "Prevention of clinical worsening",
+              "Prevention of lung function worsening",
+              "Prevention of death"
+            ],
+            "sponsor": "Azienda Ospedaliera Universitaria Integrata Verona",
+            "url": "https://clinicaltrials.gov/study/NCT04808895"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05293132",
+            "title": "The Effect of Montelukast Versus Co Enzyme Q10 on the Clinical Outcome of Patients With Sepsis",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2022-02-01",
+            "completion_date": "2023-06-01",
+            "country": "Egypt",
+            "enrollment": 90,
+            "brief_summary": "Sepsis is a leading cause of morbidity and mortality in intensive care units. Sepsis is a life-threatening organ dysfunction linked to a dysregulated host response to infection. It leads to overwhelming of systemic inflammation causing release of proinflammatory cytokines, which trigger overproduction of reactive oxygen species. Several animal studies with sepsis proved the effectiveness of montelukast and coenzyme Q10 as anti-inflammatory and antioxidants in preventing end organ damage, deterio",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAge \\>18 years old.\n\n* Males and females\n* Confirmed diagnosis of sepsis according to the third sepsis definition which include documented or suspected infection, plus an acute change in total SOFA score ≥ 2 points\n\nExclusion Criteria:\n\n* Pregnancy\n* A severe moribund state\n* An",
+            "endpoints": [
+              "Twenty-eight-day mortality"
+            ],
+            "sponsor": "Ain Shams University",
+            "url": "https://clinicaltrials.gov/study/NCT05293132"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05964621",
+            "title": "Venous Thromboembolism in Patients Undergoing Primary Pancreatic Tumour Resection; a Prospective Observational Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2023-09-01",
+            "completion_date": "2024-10-01",
+            "country": "Greece",
+            "enrollment": 64,
+            "brief_summary": "This study will evaluate the development of venous thromboembolism (VTE) and possible determinants in patients with primary pancreatic cancer undergoing pancreatic cancer resection.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Consecutive pancreatic cancer patients undergoing pancreatic cancer resection in University Hospital of Larissa, after informed consent will be included.\n\nExclusion Criteria:\n\n* Refuse to participate\n* Previous thromboembolic event \\< 6 months prior to the operation\n* History ",
+            "endpoints": [
+              "Neutrophil to lymphocyte ratio-VTE",
+              "von Willebrand factor-VTE",
+              "Factors VIII and XI-VTE"
+            ],
+            "sponsor": "University of Thessaly",
+            "url": "https://clinicaltrials.gov/study/NCT05964621"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00457002",
+            "title": "A Phase 3 Randomized, Double-Blind, Parallel-group, Multi-center Study of the Safety and Efficacy of Apixaban for Prophylaxis of Venous Thromboembolism in Acutely Ill Medical Subjects During and Following Hospitalization.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-06",
+            "completion_date": "2011-05",
+            "country": "Australia, India, Belgium, Austria, United States, Peru, Philippines, Ukraine, Canada, South Korea, Netherlands, Italy, Chile, Czechia, Russia, Sweden, Norway, Hong Kong, Colombia, Poland, France, United Kingdom, Brazil, Germany, Argentina, Israel, Denmark, Mexico, Hungary, Spain, Turkey (Türkiye), South Africa, Malaysia, Singapore, Taiwan",
+            "enrollment": 6758,
+            "brief_summary": "The purpose of this study is to learn if apixaban can prevent blood clots in the leg (deep vein thrombosis \\[DVT\\]) and lung (pulmonary embolism \\[PE\\]) that sometimes occur within patients hospitalized for acute medical illness, and to learn how apixaban compares to enoxaparin (Lovenox®) for preventing these clots. The safety of apixaban will also be studied.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* men and non-pregnant, non-breastfeeding women\n* 40 years or older\n* hospitalized with congestive heart failure or acute respiratory failure\n* infection (without septic shock)\n* acute rheumatic disorder\n* inflammatory bowel disease\n\nExclusion Criteria:\n\n* patients with venous t",
+            "endpoints": [
+              "Incidence of Composite of Adjudicated Total Venous Thromboembolism (VTE) and VTE-related Death During the Intended Treatment Period - Primary Efficacy Population",
+              "Incidence of Major Bleeding During the Treatment Period in Treated Participants",
+              "Incidence of Clinically Relevant Non-Major (CRNM) Bleeding During the Treatment Period in Treated Participants"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT00457002"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05895136",
+            "title": "A Novel COMBinATorial Therapy With Albumin and Enoxaparin in Patients With Decompensated Cirrhosis at High-risk of Poor Outcome (COMBAT Trial).",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-07-01",
+            "completion_date": "2025-09",
+            "country": "Spain, United Kingdom, France, Germany, Italy",
+            "enrollment": 90,
+            "brief_summary": "The goal of this clinical trial is to determine primarily whether a combinatorial therapy based on the administration of human albumin and enoxaparin is safe and effective in patients with decompensated cirrhosis discharged from the hospital. The main questions it aims to answer are:\n\n* Is this combinatorial therapy safe and tolerable?\n* Is this combinatorial therapy effective?\n* does this combinatorial therapy cost more or less than standard medical therapy? Participants will attend to study vi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age between 18 and 80 years.\n2. Patients with decompensated cirrhosis admitted to hospital due to AD according to the EASL-CLIF criteria (rapid onset of ascites, hepatic encephalopathy, portal hypertensive-related gastrointestinal bleeding, bacterial infection, or any combina",
+            "endpoints": [
+              "To assess the safety and tolerability of the combinatorial therapy in terms of TEAE (pulmonary edema, major bleeding and/or thrombocytopenia"
+            ],
+            "sponsor": "European Foundation for Study of Chronic Liver Failure",
+            "url": "https://clinicaltrials.gov/study/NCT05895136"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04778917",
+            "title": "Observation and Treatment of Pulmonary Microthrombosis in Childhood Pneumonia With Elevated D-dimer",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-12",
+            "completion_date": "2018-02",
+            "country": "China",
+            "enrollment": 124,
+            "brief_summary": "Objective\n\n1\\. Master the clinical feathers, imaging features and laboratory diagnosis characteristics and economic costs of children pneumonia with higher D-dimer:\n\n1. Compare the characteristics of different groups of children in the course of the disease，clinicalsymptoms and signs;\n2. All the children in the study need to do enhanced CT, to observe if there were intrapulmonary vascular thrombosis and necrosis pneumonia signs;\n3. compared changes of coagulation index beside D-dimer.\n\n2\\. Compa",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of simple pneumonia\n* Age 28 days to 18 years\n\nExclusion Criteria:\n\n* With congenital heart disease\n* With kidney disease\n* With blood system diseases\n* With paralysis\n* With muscle tension\n* With fracture,\n* With a family history of thrombotic disease\n* Wit",
+            "endpoints": [
+              "Lung imaging absorption improvement time after treatment",
+              "Time to improve cough symptoms",
+              "Heat retreat time"
+            ],
+            "sponsor": "Capital Institute of Pediatrics, China",
+            "url": "https://clinicaltrials.gov/study/NCT04778917"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07183605",
+            "title": "Central Catheter Anti-Xa Sampling Study for Accurate aNalysis and Reliable Dosage Assessment",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-09-22",
+            "completion_date": "2026-10",
+            "country": "France",
+            "enrollment": 30,
+            "brief_summary": "The goal is to investigate whether blood samples drawn from a central venous catheter can provide reliable measurements of unfractionated heparin (UFH) anti-Xa activity, compared to the standard method of peripheral vein puncture, in intensive care unit (ICU) patients receiving continuous intravenous UFH.\n\nTo evaluate the reliability of central venous blood sampling, the study will compare anti-Xa activity levels obtained simultaneously from two different types of blood draws: one from a periphe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Person (or support person/relative if unable to do so) who has agreed to participate in the study\n* 18 years of age or older\n* Hospitalized in intensive care medicine\n* Having a central venous catheter with at least three lumens (internal jugular, subclavian or femoral) alread",
+            "endpoints": [
+              "Difference in anti-Xa activity values between the two sampling sites."
+            ],
+            "sponsor": "Centre Hospitalier Régional d'Orléans",
+            "url": "https://clinicaltrials.gov/study/NCT07183605"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04441996",
+            "title": "Therapeutic Plasma Exchange for COVID-19-associated Hyperviscosity",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-07-17",
+            "completion_date": "2021-03-18",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "Many patients with Coronavirus Disease 2019 (COVID-19) have atypical blood clots. These blood clots can occur in either veins or arteries and be large, like in stroke or heart attack, or very tiny, called microthrombi. Some patients with COVID-19 even have blood clots despite being on anti-clotting medications. Blood with increased viscosity does not flow through the body normally, in the same way that syrup, a highly viscous liquid, and water, a minimally viscous liquid, flow differently. The r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Patients admitted to the ICU at Emory University Hospital, Emory University Hospital Midtown, or Emory Saint Joseph's Hospital\n* Evidence of COVID-19 infection documented by a laboratory test either by one of the following:\n\n  * A diagnostic test (e.g., nasoph",
+            "endpoints": [
+              "Plasma Viscosity",
+              "Cumulative Incidence of Adverse Events"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT04441996"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04528888",
+            "title": "Steroids and Unfractionated Heparin in Critically Ill Patients With Pneumonia From COVID-19 Infection. A Multicenter, Interventional, Randomized, Three Arms Study Design",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2020-11-25",
+            "completion_date": "2021-07-30",
+            "country": "Italy",
+            "enrollment": 210,
+            "brief_summary": "SARS-CoV-2 infection seems to induce in most critical cases an excessive and aberrant hyper-inflammatory host immune response that is associated with a so-called \"cytokine storm\", moreover pro-thrombotic derangements of haemostatic system is another common finding in most severe forms of COVID19 infections, which may be explained by the activation of coagulative cascade primed by inflammatory stimuli, in line with what is observed in many other forms of sepsis. Targeting inflammatory responses e",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Positive SARS-CoV-2 diagnostic (on pharyngeal swab of deep airways material)\n2. Positive pressure ventilation (either non-invasive or invasive) from \\> 24 hours\n3. Invasive mechanical ventilation from \\< 96 hours\n4. P/F ratio \\< 150\n5. D-dimer level \\> 6 x upper limit of loca",
+            "endpoints": [
+              "All-cause mortality at day 28"
+            ],
+            "sponsor": "University of Modena and Reggio Emilia",
+            "url": "https://clinicaltrials.gov/study/NCT04528888"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01729559",
+            "title": "Venous Thromboembolic Prophylaxis After Major Trauma: A Randomized Controlled Trial of Three Times a Day Unfractionated Heparin Versus Twice a Day Enoxaparin",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-11",
+            "completion_date": "2014-10",
+            "country": "United States",
+            "enrollment": 495,
+            "brief_summary": "The rate of venous thromboembolic events in trauma patients at high risk for deep vein thrombosis and pulmonary embolism receiving low dose unfractionated heparin every 8 hours will be equivalent or less than a similar group of patients given a standard every 12 hour dose of low molecular weight heparin.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Admitted to Scripps Mercy Trauma Service\n* ≥18 Years old\n* Stratified to either Significant or Highest risk of VTE by ACCP guidelines\n\nExclusion Criteria:\n\n* Estimated Injury Severity Score (ISS) ≤9\n* Likely to be discharged before hospital day 7\n* Systemic coagulopathy define",
+            "endpoints": [
+              "Lower Extremity Deep Vein Thrombosis",
+              "Pulmonary Embolus"
+            ],
+            "sponsor": "Scripps Health",
+            "url": "https://clinicaltrials.gov/study/NCT01729559"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01241903",
+            "title": "Early Use of Rosuvastatin (Crestor) in Acute Coronary Syndromes: Targeting Platelet-Leukocyte Interactions",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2011-06",
+            "completion_date": "2014-02",
+            "country": "United States",
+            "enrollment": 54,
+            "brief_summary": "The central hypothesis for this work is that platelet - leukocyte interactions play a critical role in the pathogenesis of acute ischemic events. The primary objective of the study is to determine if early, high-dose administration of the HMG-CoA reductase inhibitor rosuvastatin in the setting of acute coronary syndrome and percutaneous coronary intervention exerts beneficial vascular effects by reducing platelet - leukocyte interactions.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects must be between 18 and 80 years old.\n2. Subjects must be willing and able to give informed consent\n3. A woman of child-bearing potential who is currently sexually active must agree to use a medically accepted method of contraception while receiving protocol-specified",
+            "endpoints": [
+              "Platelet - Leukocyte Aggregates"
+            ],
+            "sponsor": "University of Kentucky",
+            "url": "https://clinicaltrials.gov/study/NCT01241903"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9952477812767028,
+        "txgnn_rank": 6277,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+        "txgnn_score": 0.9934090375900269,
+        "txgnn_rank": 7907,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuropathy, painful",
+        "txgnn_score": 0.9918814301490784,
+        "txgnn_rank": 9120,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00765063",
+            "title": "A 6 Month, Prospective, Open-Label Multiple Center Extension Trial To Evaluate The Long Term Safety And Sustained Efficacy Of Fragmin In The Treatment Of Chronic Foot Ulcers In Diabetic Patients With Peripheral Arterial Occlusive Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-10",
+            "completion_date": "2010-10",
+            "country": "United Kingdom, Canada, Belgium, Austria, Germany, Italy, Denmark, Russia, Czechia, Ukraine, Sweden, Greece, Poland, Norway",
+            "enrollment": 62,
+            "brief_summary": "The primary objective of this 6 month open-label extension trial is to evaluate long-term safety and tolerability of dalteparin in treatment of chronic neuroischaemic foot ulcers in diabetic patients with peripheral arterial occlusive disease (PAOD) and peripheral neuropathy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must have completed the 6 month study duration in the A6301083 study.\n* Subjects must have a positive ulcer treatment response, defined as a reduction in the study ulcer area size (ie, ulcer area reduction \\>0%) at Visit 8 (EOT Visit) from baseline in the A6301083 stu",
+            "endpoints": [
+              "Number of All Hemorrhages",
+              "Number of Major Hemorrhages",
+              "Number of Minor Hemorrhages"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00765063"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00445328",
+            "title": "Prospective Randomized Phase IV Open Label Comparative Study Of Dalteparin vs Unfractionated Heparin For The Prevention Of Venous Thromboembolism (VTE) In Hospitalized Acutely Ill Medical Patients.",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2007-06",
+            "completion_date": "2008-07",
+            "country": "India",
+            "enrollment": 84,
+            "brief_summary": "The purpose of this study is to compare the efficacy and safety of dalteparin vs unfractionated heparin for the prevention of VTE (Venous Thromboembolism) in hospitalized acutely ill medical patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged greater than or equal to 18 years\n* Acute medical condition with a projected hospitalization of greater than or equal to 4 days and had less than or equal to 3 days of prior immobilization for more than two thirds of the day\n* Acute congestive heart failure Class III-IV p",
+            "endpoints": [
+              "Confirmed Thromboembolic Events",
+              "Composite of Objectively Verified Thromboembolic Events"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00445328"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00662831",
+            "title": "A 6 Month, Prospective, Randomized, Double Blind, Placebo-Controlled, Parallel Group, Multiple Center Trial To Evaluate The Efficacy And Safety Of Fragmin In The Treatment Of Chronic Neuroischaemic Foot Ulcers In Diabetic Patients",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-04",
+            "completion_date": "2010-10",
+            "country": "Spain, United Kingdom, Canada, Belgium, Austria, Germany, Italy, Denmark, Finland, Russia, Czechia, Ukraine, Sweden, Greece, Poland, Lithuania, Norway",
+            "enrollment": 276,
+            "brief_summary": "The purpose of the study isto see the effect of Fragmin on the healing of diabetic foot ulcers by determining the number of subjects with ≥50% reduction in ulcer surface area including intact skin healing.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female subjects 18 years of age with type 1 or type 2 diabetes.\n* Subjects with peripheral occlusive arterial disease (PAOD) and a neuropathy disability score (NDS) of \\>3\n\nExclusion Criteria:\n\n* Subjects who have undergone vascular reconstruction or angioplasty less t",
+            "endpoints": [
+              "Number of Participants With Greater Than or Equal to 50 Percent Reduction in Ulcer Surface Area Including Intact Skin Healing"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00662831"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombotic thrombocytopenic purpura",
+        "txgnn_score": 0.980941891670227,
+        "txgnn_rank": 16590,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retinal telangiectasia",
+        "txgnn_score": 0.9553924202919006,
+        "txgnn_rank": 25366,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29068144",
+            "title": "Branch retinal artery occlusion as a clinical manifestation of hereditary haemorrhagic telangiectasia (Osler-Weber-Rendu syndrome) in pregnancy.",
+            "abstract": "",
+            "journal": "Acta ophthalmologica",
+            "year": "2018",
+            "authors": [
+              "Askim Andreas J",
+              "Thrane Alexander S",
+              "Giaever Petter",
+              "Andersen Rune",
+              "Krohn Jørgen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dalteparin",
+              "Echocardiography",
+              "Embolization, Therapeutic",
+              "Female",
+              "Fibrinolytic Agents",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Pregnancy",
+              "Pregnancy Complications, Cardiovascular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29068144/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retinal microaneurysm",
+        "txgnn_score": 0.951944887638092,
+        "txgnn_rank": 26261,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "arteriosclerotic retinopathy",
+        "txgnn_score": 0.951944887638092,
+        "txgnn_rank": 26260,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral artery occlusion",
+        "txgnn_score": 0.9496487975120544,
+        "txgnn_rank": 26789,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "17011126",
+            "title": "Neuroprotective effect of pentosan polysulphate on ischemia-related neuronal death of the hippocampus.",
+            "abstract": "Pentosan polysulphate (PPS) negatively charged sulphated glycosaminoglycan was studied in ischemia-related hippocampal neuronal death and compared with a low molecular weight of heparin, named dalteparin in rats. Transient global ischemia was produced by four vessel-occlusion, the occlusion of the bilateral common carotid arteries following the electrocautherization of the vertebral arteries. 3mg/kg of PPS or 300IU/kg of dalteparin was administered i.v. immediately after 7min-occlusion/reperfusion. Seven days after the operation, the animals were perfused with 4% paraformaldehyde, and paraffinized coronal brain sections measuring 6microm in thickness were stained with hematoxylin and eosin. Neuronal damage was then estimated as a ratio of the number of degenerated neurons to that of both the surviving and degenerated neurons in three distinct area of the CA1 subfield. The ratio of neuronal death increased with the length of the occlusion-time, at 5, 7 and 10min. Both PPS and dalteparin",
+            "journal": "Neuroscience letters",
+            "year": "2006",
+            "authors": [
+              "Sakurai-Yamashita Yasuko",
+              "Kinugawa Hidekazu",
+              "Niwa Masami"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticoagulants",
+              "Blood-Brain Barrier",
+              "Carotid Artery, Common",
+              "Cell Death",
+              "Dalteparin",
+              "Hippocampus",
+              "Immunohistochemistry",
+              "Ischemic Attack, Transient",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17011126/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06779",
+    "name": "Dalteparin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dalteparin"
+      },
+      "queried_at": "2026-03-09T13:47:44.037471",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dalteparin"
+      },
+      "queried_at": "2026-03-09T13:47:53.017608",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive"
+      },
+      "queried_at": "2026-03-09T13:47:53.843717",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive"
+      },
+      "queried_at": "2026-03-09T13:47:58.494809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive"
+      },
+      "queried_at": "2026-03-09T13:47:59.751062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T13:48:01.955128",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T13:48:07.229296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T13:48:08.230696",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T13:48:09.027453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T13:48:13.631535",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T13:48:14.938137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly"
+      },
+      "queried_at": "2026-03-09T13:48:15.860512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly"
+      },
+      "queried_at": "2026-03-09T13:48:21.299991",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly"
+      },
+      "queried_at": "2026-03-09T13:48:22.396186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "neuropathy, painful"
+      },
+      "queried_at": "2026-03-09T13:48:24.141357",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "neuropathy, painful"
+      },
+      "queried_at": "2026-03-09T13:48:29.095060",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "neuropathy, painful"
+      },
+      "queried_at": "2026-03-09T13:48:30.237123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T13:48:31.757497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T13:48:40.702756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T13:48:42.115558",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal telangiectasia"
+      },
+      "queried_at": "2026-03-09T13:48:43.136093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal telangiectasia"
+      },
+      "queried_at": "2026-03-09T13:48:47.810309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal telangiectasia"
+      },
+      "queried_at": "2026-03-09T13:48:50.803581",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal microaneurysm"
+      },
+      "queried_at": "2026-03-09T13:48:53.010454",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal microaneurysm"
+      },
+      "queried_at": "2026-03-09T13:48:57.808948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal microaneurysm"
+      },
+      "queried_at": "2026-03-09T13:48:58.855673",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "arteriosclerotic retinopathy"
+      },
+      "queried_at": "2026-03-09T13:49:00.034119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "arteriosclerotic retinopathy"
+      },
+      "queried_at": "2026-03-09T13:49:03.706787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "arteriosclerotic retinopathy"
+      },
+      "queried_at": "2026-03-09T13:49:05.505792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "vertebral artery occlusion"
+      },
+      "queried_at": "2026-03-09T13:49:06.197772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "vertebral artery occlusion"
+      },
+      "queried_at": "2026-03-09T13:49:10.739419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "vertebral artery occlusion"
+      },
+      "queried_at": "2026-03-09T13:49:14.635643",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T13:49:14.652502"
+  }
+}

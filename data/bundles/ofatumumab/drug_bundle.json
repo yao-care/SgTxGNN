@@ -1,0 +1,2925 @@
+{
+  "drug": {
+    "inn": "Ofatumumab",
+    "drugbank_id": "DB06650",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+        "txgnn_score": 0.99771249294281,
+        "txgnn_rank": 3763,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
+        "txgnn_score": 0.99771249294281,
+        "txgnn_rank": 3764,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "follicular lymphoma",
+        "txgnn_score": 0.997011423110962,
+        "txgnn_rank": 4589,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01119794",
+            "title": "Ofatumumab in Combination With Bortesomib in Patients With Relapsed or Refractory Low-Grade Non-Hodgkins Lymphoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-07",
+            "completion_date": "2015-07",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "The purpose of this study is to: Investigate the Overall Response Rate (ORR) of the combination of ofatumumab and bortezomib in patients with low-grade B-cell non-Hodgkin lymphoma (LG-NHL) that relapse beyond 6 months of a previous rituximab-containing regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients are required to have histologically confirmed lymphoma according to the WHO/Revised European-American Lymphoma classification, including B-cell small lymphocytic lymphoma (SLL); marginal zone lymphoma (MZL); follicular lymphoma (FL), grades 1, 2, or 3; mantle cell lym",
+            "endpoints": [
+              "Overall Response Rate (ORR) of the Combination of Ofatumumab and Bortezomib in Patients Receiving Study Treatment"
+            ],
+            "sponsor": "Brown University",
+            "url": "https://clinicaltrials.gov/study/NCT01119794"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01239394",
+            "title": "Phase II Trial Ofatumumab for Initial Systemic Treatment of Indolent B-cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-12",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 43,
+            "brief_summary": "Ofatumumab is a drug that works by attaching to the CD20 molecule found on the surface of cancerous B cells, and then triggering the death of those cells. It is approved by the FDA for treatment of another B-cell cancer, chronic lymphocytic leukemia, and also has evidence of success in people who's B-cell lymphomas have relapsed after initial treatments. In this research study we are looking to see if ofatumumab is effective and safe in treating previously untreated B-cell NHL.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed indolent CD20+B-cell NHL of the following histologies: follicular lymphoma, grades 1-2; Marginal zone lymphoma (extranodal, nodal or splenic); small lymphocytic lymphoma; low-grade B-cell lymphoma not otherwise specified with CD20+ expression\n* Measura",
+            "endpoints": [
+              "Efficacy: Complete Response Rate (CRR)"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01239394"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01294579",
+            "title": "A Phase II Open-Label Study of Ofatumumab and Bendamustine Followed by Maintenance Ofatumumab for Indolent B-cell Non-Hodgkin's Lymphoma (B-NHL) Which Has Relapsed After Rituximab or a Rituximab Containing Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-05-17",
+            "completion_date": "2016-12-20",
+            "country": "United States",
+            "enrollment": 49,
+            "brief_summary": "The purpose of this phase II open label study was is to evaluate the safety and efficacy of ofatumumab and bendamustine followed by maintenance ofatumumab in subjects with indolent B-NHL who had relapsed after Rituximab treatment. A maximum of 53 subjects at least 18 years old with Small lymphocytic, lymphoplasmacytic, marginal zone lymphoma, or follicular lymphoma; Grades 1, 2 and 3a, would have been enrolled (34 in Stage 1 and 19 in Stage 2). Subjects should have had Rituximab-sensitive diseas",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent\n* Small lymphocytic, lymphoplasmacytic, marginal zone lymphoma, and follicular lymphoma; Grades 1, 2 and 3a, defined according to World Health organization (WHO) guidelines. \\[Tefferi, 2008\\]\n* Tumor was verified to be CD20+ (based on local eval",
+            "endpoints": [
+              "Complete Remission (CR) Rate of Induction Therapy After Cycle 6 (28 Days) (FAS)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01294579"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01190449",
+            "title": "A Phase II Trial of Ofatumumab (CALGB IND #) in Previously Untreated Follicular Non-Hodgkin's Lymphoma (NHL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-08",
+            "completion_date": "2020-10-15",
+            "country": "United States",
+            "enrollment": 51,
+            "brief_summary": "RATIONALE: Monoclonal antibodies, such as ofatumumab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them.\n\nPURPOSE: This randomized phase II trial is studying ofatumumab to see how well it works in treating patients with previously untreated stage II, stage III, or stage IV follicular non-Hodgkin lymphoma.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed follicular non-Hodgkin lymphoma (NHL) meeting 1 of the following criteria:\n\n  * Bulky (i.e., single mass ≥ 7cm in any uni-dimensional measurement) stage II disease\n  * Stage III or IV disease\n* WHO grade 1, 2, or 3a disease\n* Bone marrow biopsies ",
+            "endpoints": [
+              "Overall Response Rate (Complete or Partial Response) by Month 12"
+            ],
+            "sponsor": "Alliance for Clinical Trials in Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT01190449"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00823719",
+            "title": "A Single Arm, Safety and Efficacy Study of Ofatumumab in Combination With ICE or DHAP Chemotherapy in Relapsed or Refractory Aggressive Lymphoma Prior to Autologous Stem Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-05",
+            "completion_date": "2011-09",
+            "country": "N/A",
+            "enrollment": 61,
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of ofatumumab used in combination with ifosfamide, carboplatin, etoposide (ICE) or dexamethasone, cytarabine, cisplatin (DHAP) salvage chemotherapy regimens in subjects with relapsed or refractory diffuse large B cell lymphoma (DLBCL) who are eligible for autologous stem cell transplant.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects with CD20 positive aggressive non-Hodgkin's lymphoma (NHL) including DLBCL, transformed follicular lymphoma (FL) \\& grade 3b FL.\n\nRefractory to, or relapsed following, first-line treatment with rituximab combined with anthracycline- or anthracenedione-based chemothera",
+            "endpoints": [
+              "Number of Participants With Overall Response (OR), as Assessed by the Investigator"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00823719"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00742144",
+            "title": "An Open-label Phase I Study of Ofatumumab in Japanese Patients With CD20 Positive Follicular Lymphoma or Chronic Lymphocytic Leukemia",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2008-09-19",
+            "completion_date": "2009-11-18",
+            "country": "Japan",
+            "enrollment": 6,
+            "brief_summary": "This is an open-label study to evaluate safety, tolerability, efficacy and PK profile of ofatumumab monotherapy in Japanese follicular lymphoma (FL) or chronic lymphocytic leukemia (CLL) patients. subject will receive ofatumumab 8 weekly infusions.",
+            "eligibility_criteria": "INCLUSION CRITERIA:\n\n* Signed Informed Consent.\n* Histologically confirmed relapsed or refractory CD20 positive FL grade 1-3a and 1 or more clearly demarcated lesions with a largest diameter = 1.5 cm, or CD5, CD19, CD20 and CD23 positive relapse or refractory CLL.\n* Subjects must have adequate blood",
+            "endpoints": [
+              "tolerability"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00742144"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01263418",
+            "title": "A Phase II Trial Of Ofatumumab In Older (≥70 Years) Patients With Previously Untreated Low Or Intermediate Risk Indolent B-Cell Lymphomas",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2011-06",
+            "completion_date": "2018-01",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This research study will only include two types of non-Hodgkin Lymphoma (NHL), follicular lymphoma or marginal zone lymphoma and participants will be age 70 or older.\n\nThe purpose of this research study is to learn about the safety of the treatment with the drug ofatumumab to find out what effects, both good and bad this treatment has on lymphoma. Ofatumumab is a monoclonal antibody. Monoclonal antibodies are being used to treat some types of cancer. Monoclonal antibodies are a type of protein m",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Stage II, III, or IV follicular or marginal zone B-cell CD20+ lymphomas not previously treated with systemic therapy\n* Low/intermediate risk grade 1 or 2 follicular NHL or marginal zone lymphoma defined by 2004 Follicular Lymphoma International Prognostic Index (FLIPI) scores\n",
+            "endpoints": [
+              "To determine overall response rates (ORR) following ofatumumab treatment in older (≥ 70 years old) patients with previously untreated low or intermediate risk indolent NHL"
+            ],
+            "sponsor": "UNC Lineberger Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01263418"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00494780",
+            "title": "An Open-labeled, Randomized, Two-dose, Parallel Group Trial of Ofatumumab, a Fully Human Monoclonal Anti-CD20 Antibody, in Combination With CHOP, in Patients With Previously Untreated Follicular Lymphoma (FL).",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-06",
+            "completion_date": "2010-09",
+            "country": "United States",
+            "enrollment": 59,
+            "brief_summary": "To investigate the efficacy in two dose regimens of ofatumumab in combination with CHOP (cyclophosphamide,doxorubicin, vincristine,prednisolone) in previously untreated patients with Follicular Lymphoma (FL)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient with Follicular Lymphoma (FL)\n* Confirmed diagnosis of Follicular lymphoma\n* 18 years or above\n* Verbal and written information about the study\n\nExclusion Criteria:\n\n* No previous treatment for Follicular Lymphoma\n* Clinical suspicion that the Follicular Lymphoma has t",
+            "endpoints": [
+              "Number of Participants With the Indicated Overall Best Response (OBR) at Visit 26 (3 Months After the Last Infusion of Ofatumumab)"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00494780"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00394836",
+            "title": "A Single-arm, International, Multi-center Trial of HuMax-CD20, a Fully Human Monoclonal Anti-CD20 Antibody, in Patients With Follicular Lymphoma Who Are Refractory to Rituximab as Monotherapy or in Combination With Chemotherapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-05",
+            "completion_date": "2013-09",
+            "country": "United Kingdom",
+            "enrollment": 116,
+            "brief_summary": "A Single-Arm, International, Multi-Center Trial of HuMax-CD20 (Ofatumumab), a Fully Human Monoclonal Anti-CD20 Antibody, in Patients With Follicular Lymphoma Who Are Refractory to Rituximab as Monotherapy or in Combination With Chemotherapy",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Patient with follicular lymphoma grade 1 - 2\n* Refractory to rituximab given as monotherapy or in combination with any chemotherapy or to rituximab given as maintenance treatment following R-chemo, defined as:\n* failure to achieve at least PR to rituximab given as monotherapy o",
+            "endpoints": [
+              "Number of Participants With Objective Response (OR)",
+              "Number of Participants Classified as Responders and Non-responders for Objective Response (OR)"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00394836"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01286272",
+            "title": "A Randomized Phase II Trial of Ofatumumab and Bendamustine vs. Ofatumumab, Bortezomib (NSC # 681239) and Bendamustine in Patients With Untreated Follicular Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-04-28",
+            "completion_date": "2025-09-02",
+            "country": "United States",
+            "enrollment": 135,
+            "brief_summary": "This randomized phase II trial studies how well ofatumumab and bendamustine hydrochloride with or without bortezomib works in treating patients with untreated follicular non-Hodgkin lymphoma. Monoclonal antibodies, such as ofatumumab, may block cancer growth in different ways by targeting certain cells. Drugs used in chemotherapy, such as bendamustine hydrochloride, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopp",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed follicular non-Hodgkin lymphoma, World Health Organization (WHO) classification grade 1, 2, or 3a (\\> 15 centroblasts per high-power field with centrocytes present)\n\n  * Bone marrow biopsies as the sole means of diagnosis are not acceptable, but they m",
+            "endpoints": [
+              "Complete Response Rate"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01286272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01397591",
+            "title": "Phase II Trial of Ofatumumab and Bortezomib in Subjects With Relapsed Cluster of Differentiation Antigen 20 (CD20)+ Diffuse Large B Cell Lymphoma, Follicular Lymphoma, or Mantle Cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2011-10",
+            "completion_date": "2013-07",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "This phase II trial studies how well giving ofatumumab together with bortezomib works in treating patients with relapsed diffuse large B cell lymphoma (DLBCL), follicular lymphoma (FL), or mantle cell lymphoma (MCL). Monoclonal antibodies, such as ofatumumab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Bortezomib may stop the growth of cancer cells by ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have biopsy sample obtained within 6 months of study entry that:\n* Is histologically confirmed DLBCL, MCL or FL, by an Oregon Health and Science University (OHSU) hematopathologist\n* Retains expression of CD20+\n* Patients must be refractory to or have recurrent d",
+            "endpoints": [
+              "Response Rate of Ofatumumab in Combination With Bortezomib in Patients With Relapsed CD20+ (Cluster of DIfferentiation Antigen 20) Diffuse Large B Cell Lymphoma, Follicular Lymphoma, or Mantle Cell Lymphoma"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01397591"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00092274",
+            "title": "An Open-label, International, Multicenter, Dose Escalating, Phase I/II Study of HuMax-CD20 in Patients With Relapsed or Refractory Follicular Lymphoma Grade I-II",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2004-09",
+            "completion_date": "2005-01",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this trial is to determine the safety and efficacy of HuMax-CD20 as a treatment for Follicular Lymphoma (FL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Relapsed or refractory follicular lymphoma grade I-II\n* Tumor verified to be CD20 positive\n* CT scan showing demarcated lesions\n\nExclusion Criteria:\n\n* Previous treatment with rituximab resulting in less than partial response\n* Previous radioimmunotherapy\n* Previous stem cell ",
+            "endpoints": [],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00092274"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01077518",
+            "title": "Randomized Open Label of Ofatumumab and Bendamustine Combination Compared With Bendamustine Monotherapy in Indolent B-cell Non-Hodgkin's Lymphoma Unresponsive to Rituximab or a Rituximab-Containing Regimen During or Within Six Months of Treatment",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2010-08-26",
+            "completion_date": "2018-12-26",
+            "country": "Hong Kong, United Kingdom, France, Canada, Slovakia, Belgium, Austria, Argentina, Germany, Italy, United States, Russia, Ukraine, Greece, Poland, Puerto Rico, Japan",
+            "enrollment": 346,
+            "brief_summary": "The purpose of this study was to evaluate the safety and efficacy of ofatumumab and bendamustine combination therapy in patients with indolent B-cell NHL that did not respond to rituximab or a rituximab-containing regimen during or within 6 months of the last rituximab treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Indolent lymphoma including Grades 1-3a follicular, small lymphocytic, lymphoplasmacytic, and marginal zone lymphoma; Stages III-IV, or bulky disease, Stage II. Tumor verified CD20+ and CT imaging done at screening verifying disease\n* Indolent B-cell NHL that remains stable or",
+            "endpoints": [
+              "Progression-free Survival (PFS) as Assessed by the Independent Review Committee (IRC)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01077518"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02710643",
+            "title": "\"MIRO\" (Molecularly Oriented Immuno - Radio -Therapy): Multicenter Phase II Study for the Treatment of the Molecular Basis of Stage I / II Follicular Lymphoma With Local Radiotherapy With / Without Ofatumumab",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-10",
+            "completion_date": "2022-04-07",
+            "country": "Italy",
+            "enrollment": 110,
+            "brief_summary": "Phase II prospective multicenter study for stage I/II Follicular Lymphoma treated with involved-field radiotherapy (IFRT) at doses of 24 Gy) with or without Ofatumumab for 8 weekly doses on molecular basis. Patients with positive basal Bcl-2 will be followed every 3 months and with Bcl-2 detection every 6 months for 3 years. Patient with negative basal Bcl-2 will be followed every 3 months without further Bcl-2 detection.\n\nOfatumumab treatment will be administered to:\n\n1. Patients with positive ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed follicular lymphoma grade I-IIIa;\n* Stage IA or IIA (no more than 2 contiguous nodal regions) non bulky (\\<7 cm);\n* FLIPI ≤2, FLIPI2 ≤2;\n* Previously untreated;\n* Age ≥ 18;\n* Informed consent;\n* Staging with PET-CT, bone marrow biopsy;\n* Qualitative/qu",
+            "endpoints": [
+              "Bcl-2 negativization after Ofatumumab"
+            ],
+            "sponsor": "Fondazione Italiana Linfomi - ETS",
+            "url": "https://clinicaltrials.gov/study/NCT02710643"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00811733",
+            "title": "A Phase II Trial of Ofatumumab in Subjects With Waldenstrom's Macroglobulinemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-03-01",
+            "completion_date": "2014-02-01",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "Given the tolerability and efficacy of ofatumumab in follicular lymphoma and Chronic Lymphocytic Leukemia, and the need to improve therapy for patients with WM utilizing a non-myelosuppressive agent this phase II trial of ofatumumab is being initiated in patients with Waldenstrom's Macroglobulinemia (WM).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed and active Waldenstrom's Macroglobulinemia requiring treatment.\n* Ambulatory and capable of all selfcare. Up and about more than 50% of waking hours.\n* Adequate organ function.\n* Detectable CD20 positive of the tumor cells.\n* Measurable disease as defined by a monocl",
+            "endpoints": [
+              "Number of Participants With Overall Response (OR) for Cycle 1 (Including the Redosing Cycle), as Assessed by the Investigator",
+              "Number of Participants With OR for Cycle 1 (Excluding the Redosing Cycle), as Assessed by the Investigator"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00811733"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28983798",
+            "title": "Rituximab in B-Cell Hematologic Malignancies: A Review of 20 Years of Clinical Experience.",
+            "abstract": "Rituximab is a human/murine, chimeric anti-CD20 monoclonal antibody with established efficacy, and a favorable and well-defined safety profile in patients with various CD20-expressing lymphoid malignancies, including indolent and aggressive forms of B-cell non-Hodgkin lymphoma. Since its first approval 20 years ago, intravenously administered rituximab has revolutionized the treatment of B-cell malignancies and has become a standard component of care for follicular lymphoma, diffuse large B-cell lymphoma, chronic lymphocytic leukemia, and mantle cell lymphoma. For all of these diseases, clinical trials have demonstrated that rituximab not only prolongs the time to disease progression but also extends overall survival. Efficacy benefits have also been shown in patients with marginal zone lymphoma and in more aggressive diseases such as Burkitt lymphoma. Although the proven clinical efficacy and success of rituximab has led to the development of other anti-CD20 monoclonal antibodies in r",
+            "journal": "Advances in therapy",
+            "year": "2017",
+            "authors": [
+              "Salles Gilles",
+              "Barrett Martin",
+              "Foà Robin",
+              "Maurer Joerg",
+              "O'Brien Susan"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Immunological",
+              "B-Lymphocytes",
+              "Hematologic Neoplasms",
+              "History, 20th Century",
+              "History, 21st Century",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28983798/"
+          },
+          {
+            "pmid": "38937025",
+            "title": "Local radiotherapy and measurable residual disease-driven immunotherapy in patients with early-stage follicular lymphoma (FIL MIRO): final results of a prospective, multicentre, phase 2 trial.",
+            "abstract": "The mainstay of treatment for early-stage follicular lymphoma is local radiotherapy, with a possible role for anti-CD20 monoclonal antibody (mAb). We aimed to evaluate the effect of these treatments using a measurable residual disease (MRD)-driven approach.",
+            "journal": "The Lancet. Haematology",
+            "year": "2024",
+            "authors": [
+              "Pulsoni Alessandro",
+              "Ferrero Simone",
+              "Tosti Maria Elena",
+              "Luminari Stefano",
+              "Dondi Alessandra"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase II",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Follicular",
+              "Male",
+              "Female",
+              "Neoplasm, Residual",
+              "Middle Aged",
+              "Aged",
+              "Prospective Studies",
+              "Adult",
+              "Immunotherapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38937025/"
+          },
+          {
+            "pmid": "31174236",
+            "title": "Randomized trial of ofatumumab and bendamustine versus ofatumumab, bendamustine, and bortezomib in previously untreated patients with high-risk follicular lymphoma: CALGB 50904 (Alliance).",
+            "abstract": "This multicenter, randomized phase 2 trial evaluated complete responses (CRs), efficacy, and safety with ofatumumab and bendamustine and with ofatumumab, bendamustine, and bortezomib in patients with untreated, high-risk follicular lymphoma (FL).",
+            "journal": "Cancer",
+            "year": "2019",
+            "authors": [
+              "Blum Kristie A",
+              "Polley Mei-Yin",
+              "Jung Sin-Ho",
+              "Dockter Travis J",
+              "Anderson Sarah"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bendamustine Hydrochloride",
+              "Bortezomib",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31174236/"
+          },
+          {
+            "pmid": "22389254",
+            "title": "Ofatumumab monotherapy in rituximab-refractory follicular lymphoma: results from a multicenter study.",
+            "abstract": "New treatments are required for rituximab-refractory follicular lymphoma (FL). In the present study, patients with rituximab-refractory FL received 8 weekly infusions of ofatumumab (CD20 mAb; dose 1, 300 mg and doses 2-8, 500 or 1000 mg; N = 116). The median age of these patients was 61 years, 47% had high-risk Follicular Lymphoma International Prognostic Index scores, 65% were chemotherapy-refractory, and the median number of prior therapies was 4. The overall response rate was 13% and 10% for the 500-mg and 1000-mg arms, respectively. Among 27 patients refractory to rituximab monotherapy, the overall response rate was 22%. The median progression-free survival was 5.8 months. Forty-six percent of patients demonstrated tumor reduction 3 months after therapy initiation, and the median progression-free survival for these patients was 9.1 months. The most common adverse events included infections, rash, urticaria, fatigue, and pruritus. Three patients experienced grade 3 infusion-related ",
+            "journal": "Blood",
+            "year": "2012",
+            "authors": [
+              "Czuczman Myron S",
+              "Fayad Luis",
+              "Delwail Vincent",
+              "Cartron Guillaume",
+              "Jacobsen Eric"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Agents",
+              "B-Lymphocytes",
+              "Disease-Free Survival",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22389254/"
+          },
+          {
+            "pmid": "24443277",
+            "title": "Population pharmacokinetics of ofatumumab in patients with chronic lymphocytic leukemia, follicular lymphoma, and rheumatoid arthritis.",
+            "abstract": "Ofatumumab is a human monoclonal antibody directed at CD20 approved for treatment of chronic lymphocytic leukemia. The population pharmacokinetics of intravenous ofatumumab were characterized in patients with relapsed/refractory chronic lymphocytic leukemia, relapsed/refractory follicular lymphoma, and rheumatoid arthritis, diseases with widely varying CD20⁺ B-cell counts in blood. Serum concentration data from a total of 477 patients who received ofatumumab doses ranging from 100 mg to 2000 mg in different dosing regimens were analyzed to determine the pharmacokinetic characteristics of ofatumumab across different patient groups and to identify factors contributing to the pharmacokinetic variability. Ofatumumab pharmacokinetics were well described by a linear two-compartment model component to represent non-specific monoclonal antibody clearance from the central compartment interacting with a model component representing the target-mediated clearance of ofatumumab by binding to CD20 e",
+            "journal": "Journal of clinical pharmacology",
+            "year": "2014",
+            "authors": [
+              "Struemper Herbert",
+              "Sale Mark",
+              "Patel Bela R",
+              "Østergaard Mikkel",
+              "Österborg Anders"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Validation Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD20",
+              "Antineoplastic Agents",
+              "Arthritis, Rheumatoid",
+              "B-Lymphocytes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24443277/"
+          },
+          {
+            "pmid": "22409295",
+            "title": "Chemoimmunotherapy with ofatumumab in combination with CHOP in previously untreated follicular lymphoma.",
+            "abstract": "An international, Phase II trial was conducted to assess two doses of ofatumumab, a human CD20 monoclonal antibody, combined with cyclophosphamide (750 mg/m(2) ), doxorubicin (50 mg/m(2) ), prednisone (100 mg days 3-7) and vincristine (1·4 mg/m(2) ) (O-CHOP), as frontline treatment for follicular lymphoma (FL). 59 patients with previously untreated FL were randomized to ofatumumab 500 mg (n = 29) or 1000 mg (n = 30) day 1, with CHOP on day 3 every 3 weeks for six cycles. Median duration of FL was 0·1 years for both dose groups; 34% and 38% of patients had high-risk Follicular Lymphoma International Prognostic Index (FLIPI) scores in the 500- and 1000-mg dose groups, respectively. Overall response rate was 90% for the 500-mg group and 100% for the 1000-mg group. 62% of patients achieved complete response (CR)/unconfirmed CR (CRu). 76% of patients with FLIPI score 3-5 attained CR/CRu. Longer follow-up time is needed for analysis of survival end points. The most common Common Terminology ",
+            "journal": "British journal of haematology",
+            "year": "2012",
+            "authors": [
+              "Czuczman Myron S",
+              "Hess Georg",
+              "Gadeberg Ole V",
+              "Pedersen Lars M",
+              "Goldstein Nancy"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cyclophosphamide",
+              "Doxorubicin",
+              "Female",
+              "Humans",
+              "Lymphoma, Follicular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22409295/"
+          },
+          {
+            "pmid": "30723894",
+            "title": "Phase 2 multicentre study of single-agent ofatumumab in previously untreated follicular lymphoma: CALGB 50901 (Alliance).",
+            "abstract": "Rituximab monotherapy has proven efficacy in treatment-naïve, asymptomatic advanced-stage follicular lymphoma (FL). Ofatumumab is a fully humanized anti-CD20 monoclonal antibody with increased CD20 affinity and complement-dependent cytotoxicity. This phase 2 trial (NCT01190449) evaluated ofatumumab in patients with untreated, low/intermediate-risk FL International Prognostic Index (FLIPI), advanced-stage FL to determine single-agent efficacy. Patients with measurable disease in stages III/IV or bulky stage II, regardless of Groupe d'Etude des Lymphomes Folliculaires criteria, received 4 weekly 1000 mg doses followed by four extended induction doses once every 8 weeks. Primary endpoint was overall response rate (ORR) to 1000 mg; secondary endpoints were progression-free survival (PFS) and safety. Fifty-one patients were enrolled. Fifteen patients were randomized to 500 mg prior to discontinuing that arm for slow accrual. Among 36 patients on the 1000 mg arm, ORR was 84%, median PFS was ",
+            "journal": "British journal of haematology",
+            "year": "2019",
+            "authors": [
+              "Rosenbaum Cara A",
+              "Jung Sin-Ho",
+              "Pitcher Brandelyn",
+              "Bartlett Nancy L",
+              "Smith Sonali M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Biomarkers",
+              "Female",
+              "Humans",
+              "Lymphoma, Follicular",
+              "Male",
+              "Middle Aged",
+              "Neoplasm Grading"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30723894/"
+          },
+          {
+            "pmid": "21083037",
+            "title": "Follicular lymphoma: emerging therapeutic strategies.",
+            "abstract": "Follicular lymphoma is a diverse disease, both biologically and clinically. Patients may present with indolent, asymptomatic disease or more aggressive, symptomatic disease with high tumor burden. Decision-making to treat in the frontline is based on histology, disease burden and patient symptoms. The general approach should be a combination of rituximab and chemotherapy, traditionally using alkylating agents, with or without an anthracycline, with more recent evidence for the alternative of bendamustine. Relapsed/refractory follicular lymphoma carries similar variability in presentation. Therapeutic options include the same regimens traditionally used for first-line therapy; however, they also include agents, such as bendamustine, bortezomib, lenalidomide and anti-CD20 agents (rituximab, ofatumumab and radioimmunotherapy). Finally, hematopoietic stem cell transplantation (both autologous and allogeneic) remains a useful treatment strategy, although the optimal timing of such approache",
+            "journal": "Expert review of hematology",
+            "year": "2010",
+            "authors": [
+              "Kenkre Vaishalee P",
+              "Kahl Brad S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Agents",
+              "Drug Therapy, Combination",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Lymphoma, Follicular",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21083037/"
+          },
+          {
+            "pmid": "24598689",
+            "title": "[Recent advances in therapy of follicular lymphoma].",
+            "abstract": "Follicular lymphoma is a common pathological subtypes of lymphoma, it ranked only second to diffuse large B-cell lymphoma, accounts for 22% of non Hodgkin's lymphoma. Follicular lymphoma is a displaying biologically and clinically diverse disease. Patients may present indolent, asymptomatic disease or more aggressive, symptomatic disease with high tumor burden. Decision-making to treat in the frontline is based on histology manifestation, tumor burden and patient symptoms. Treatment for follicular lymphoma includes radiotherapy, chemotherapy, immunological therapy and autologous stem cell transplantation or allogeneic stem cell transplantation.Radiation therapy is the first treatment of early stage follicular lymphoma. For advanced follicular lymphoma chemotherapy, chemotherapy combined immunotherapy or immune radiotherapy, stem cell transplantation may be chosen. In recent years, drugs for lymphoma including bortezomib, lenalidomide, Ofatumumab, Epratuzumab and so on, and the therapeu",
+            "journal": "Zhongguo shi yan xue ye xue za zhi",
+            "year": "2014",
+            "authors": [
+              "Liu Xiang-Xiang",
+              "Wang Li-Na",
+              "Yang Wei-Lin",
+              "Xi Ya-Ming"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymphoma, Follicular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24598689/"
+          },
+          {
+            "pmid": "34607678",
+            "title": "[New European approval: Duvelisib - relapsed/refractory CLL and follicular lymphoma].",
+            "abstract": "",
+            "journal": "Bulletin du cancer",
+            "year": "2021",
+            "authors": [
+              "Fornero Léa",
+              "Lamure Sylvain"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Humanized",
+              "Clinical Trials, Phase II as Topic",
+              "Drug Approval",
+              "Drug Resistance, Neoplasm",
+              "Europe",
+              "Humans",
+              "Isoquinolines",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Lymphoma, Follicular",
+              "Phosphatidylinositol 3-Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34607678/"
+          },
+          {
+            "pmid": "35663281",
+            "title": "Immunotherapy in indolent Non-Hodgkin's Lymphoma.",
+            "abstract": "Treatment of non-Hodgkin lymphoma (NHL) in general has improved over the years with the emergence of the monoclonal antibodies (MAB) therapy. NHL is divided into B cell NHL and T cell NHL. Treatment of NHL was based on the subtype of NHL and its staging. NHL is divided into aggressive and indolent NHL (iNHL). Subtypes of iNHL include: Follicular lymphoma (FL), Marginal zone lymphoma (MZL), Chronic lymphocytic leukemia/small-cell lymphocytic lymphoma (CLL/SLL), Gastric mucosa-associated lymphoid tissue (MALT) lymphoma, Lymphoplasmacytic lymphoma, Waldenström macroglobulinemia, Nodal marginal zone lymphoma (NMZL), Splenic marginal zone lymphoma (SMZL). Chemotherapy was the main stay treatment of iNHL until the emergence of Rituximab, anti-CD20 MAB targeting CD-20 surface cell antigens that are present on B-cells lymphoma and not on precursor cells, mainly efficacious in B cell iNHL, It became the mainstay treatment in follicular lymphoma (FL) as a single agent modality or in combination ",
+            "journal": "Leukemia research reports",
+            "year": "2022",
+            "authors": [
+              "Amhaz Ghid",
+              "Bazarbachi Ali",
+              "El-Cheikh Jean"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35663281/"
+          },
+          {
+            "pmid": "29934061",
+            "title": "An Evidence-based Review of Anti-CD20 Antibody-containing Regimens for the Treatment of Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia, Diffuse Large B-cell Lymphoma, or Follicular Lymphoma.",
+            "abstract": "Combination regimens with anti-CD20 agents might improve the outcomes of patients with relapsed or refractory B-cell malignancies; however, the available comparative clinical evidence is limited. The present review assessed the reported evidence on the efficacy of anti-CD20 monoclonal antibodies combined with chemotherapy for patients with relapsed or refractory chronic lymphocytic leukemia (CLL), follicular lymphoma (FL), or diffuse large B-cell lymphoma (DLBCL), using a rapid evidence assessment approach. MEDLINE, Embase, and the Cochrane Library were searched from January 1, 1997 to July 14, 2017 (English language only). The data identified from randomized controlled trials or single-arm prospective studies are reported as descriptive study summaries, grouped by anti-CD20 agent and outcome (overall response rate, including complete response and partial response; duration of response; survival, including overall survival and progression-free survival). Of 56 included reports, 32 repo",
+            "journal": "Clinical lymphoma, myeloma & leukemia",
+            "year": "2018",
+            "authors": [
+              "Falchi Lorenzo",
+              "Ferrajoli Alessandra",
+              "Jacobs Ira",
+              "Nava-Parada Pilar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD20",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease Progression",
+              "Drug Resistance, Neoplasm",
+              "Evidence-Based Medicine",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29934061/"
+          },
+          {
+            "pmid": "18390837",
+            "title": "First clinical use of ofatumumab, a novel fully human anti-CD20 monoclonal antibody in relapsed or refractory follicular lymphoma: results of a phase 1/2 trial.",
+            "abstract": "Ofatumumab is a unique monoclonal antibody that targets a distinct small loop epitope on the CD20 molecule. Preclinical data show that ofatumumab is active against B-cell lymphoma/chronic lymphocytic leukemia cells with low CD20-antigen density and high expression of complement inhibitory molecules. In a phase 1/2 trial evaluating safety and efficacy of ofatumumab in relapsed or refractory follicular non-Hodgkin lymphoma (FL) grade 1 or 2, 4 dose groups of 10 patients received 4 weekly infusions of 300, 500, 700, or 1000 mg. Patients had a median of 2 prior FL therapies and 13% had elevated lactate dehydrogenase. No safety concerns or maximum tolerated dose was identified. A total of 274 adverse events were reported; 190 were judged related to ofatumumab, most occurring on the first infusion day with Common Terminology Criteria grade 1 or 2. Eight related events were grade 3. Treatment caused immediate and profound B-cell depletion, and 65% of patients reverted to negative BCL2 status.",
+            "journal": "Blood",
+            "year": "2008",
+            "authors": [
+              "Hagenbeek Anton",
+              "Gadeberg Ole",
+              "Johnson Peter",
+              "Pedersen Lars Møller",
+              "Walewski Jan"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD20",
+              "B-Lymphocytes",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18390837/"
+          },
+          {
+            "pmid": "26043777",
+            "title": "Ofatumumab in the treatment of non-Hodgkin's lymphomas.",
+            "abstract": "Ofatumumab is a second-generation humanized monoclonal antibody targeting CD20 registered for the treatment of patients with relapsing/refractory chronic lymphocytic leukemia. This review will describe the activity of ofatumumab in patients with CD20 B-cell lymphomas.",
+            "journal": "Expert opinion on biological therapy",
+            "year": "2015",
+            "authors": [
+              "Karlin Lionel",
+              "Coiffier Bertrand"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD20",
+              "Antineoplastic Agents",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Lymphoma, Large B-Cell, Diffuse",
+              "Lymphoma, Mantle-Cell",
+              "Lymphoma, Non-Hodgkin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26043777/"
+          },
+          {
+            "pmid": "22045523",
+            "title": "[Proteins in haematology].",
+            "abstract": "The introduction of monoclonal antibodies has been a milestone in the treatment of hematologic neoplasms. The CD20 antibody rituximab has been a trailblazer and represents meanwhile a fixed combination partner of different first- and second-line chemotherapies in CD20-positive B-cell-non-Hodgkin's lymphoma (NHL). Rituximab maintenance is established in follicular lymphoma. The drug is also used for the treatment of non-malignant hematologic diseases (i.e. immunthrombocytopenia). Rituximab was followed by the CD52 antibody alemtuzumab and recently by the CD20 antibody ofatumumab for the therapy of CLL and the radioimmunconjugate ibritumomab-tiuxetan indicated for the treatment of refractory or relapsed CD20-positive follicular lymphoma or as consolidation after induction chemotherapy. In the near future, approval of several new antibodies is expected. For the treatment of refractory or relapsed Hodgkin's lymphoma and relapsed systemic anaplastic large cell lymphoma, the CD30 antibody br",
+            "journal": "Therapeutische Umschau. Revue therapeutique",
+            "year": "2011",
+            "authors": [
+              "Clarenbach Ricarda E",
+              "Mey Ulrich"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alemtuzumab",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antibodies, Neoplasm",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brentuximab Vedotin",
+              "Humans",
+              "Immunoconjugates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22045523/"
+          },
+          {
+            "pmid": "32933335",
+            "title": "Anti-CD20 treatment for B-cell malignancies: current status and future directions.",
+            "abstract": "The introduction of anti-CD20 monoclonal antibody therapy with rituximab in the 1990s greatly improved outcomes for patients with B-cell malignancies. Disease resistance or relapse after successful initial therapy and declining efficacy of subsequent rounds of treatment were the basis for the development of alternative anti-CD20-based antibody therapies.",
+            "journal": "Expert opinion on biological therapy",
+            "year": "2021",
+            "authors": [
+              "Klein Christian",
+              "Jamois Candice",
+              "Nielsen Tina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antigens, CD20",
+              "B-Lymphocytes",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Lymphoma, Non-Hodgkin",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32933335/"
+          },
+          {
+            "pmid": "32292084",
+            "title": "Duvelisib for the treatment of chronic lymphocytic leukemia.",
+            "abstract": "Duvelisib, a first in class, oral, dual PI3 k-delta/gamma inhibitor recently received FDA approval for previously treated CLL (chronic lymphocytic leukemia)/SLL (small lymphocytic lymphoma) and follicular lymphoma. Data coming from the phase III 'DUO' trial, in fact, showed a superior progression-free survival (PFS) in CLL patients treated with duvelisib compared to ofatumumab.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2020",
+            "authors": [
+              "Frustaci Anna Maria",
+              "Tedeschi Alessandra",
+              "Deodato Marina",
+              "Zamprogna Giulia",
+              "Cairoli Roberto"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Antineoplastic Agents",
+              "Class Ia Phosphatidylinositol 3-Kinase",
+              "Class Ib Phosphatidylinositol 3-Kinase",
+              "Clinical Trials as Topic",
+              "Drug Evaluation, Preclinical",
+              "Humans",
+              "Isoquinolines",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Progression-Free Survival"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32292084/"
+          },
+          {
+            "pmid": "22830942",
+            "title": "Ofatumumab, the first human anti-CD20 monoclonal antibody for the treatment of B cell hematologic malignancies.",
+            "abstract": "Ofatumumab is the first human anti-CD20 monoclonal antibody to be approved for patients in the United States and the European Union. Ofatumumab received accelerated approval from the U.S. Food and Drug Administration in October 2009 and was granted a conditional marketing authorization by the European Medicines Agency in April 2010 for the treatment of patients with chronic lymphocytic leukemia (CLL) refractory to fludarabine and alemtuzumab, based on interim results of a pivotal phase 2 trial. Preliminary positive results for ofatumumab in combination with chemotherapy in patients with CLL are currently being confirmed in larger randomized trials in both the frontline setting and the relapsed/refractory setting. Ofatumumab has also shown potential in treating B cell non-Hodgkin's lymphoma, such as follicular lymphoma (FL), diffuse large B cell lymphoma (DLBCL), and Waldenström's macroglobulinemia. Additional trials are ongoing to confirm activity of ofatumumab as monotherapy and in co",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "2012",
+            "authors": [
+              "Gupta Ira V",
+              "Jewell Roxanne C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD20",
+              "Hematologic Neoplasms",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22830942/"
+          },
+          {
+            "pmid": "23610620",
+            "title": "Novel agents in indolent lymphomas.",
+            "abstract": "Indolent non-Hodgkin's lymphomas (iNHLs) include follicular lymphomas (FL), marginal-zone lymphoma, lymphoplasmacytic lymphoma/Waldenström macroglobulinemia and small lymphocytic lymphoma. First-line standard therapy in advanced, symptomatic iNHL consists of rituximab-based immunochemotherapy. The recent rediscovery of the 'old' chemotherapeutic agent bendamustine, an alkylating agent with a peculiar mechanism of action, has added a new effective and well-tolerated option to the therapeutic armamentarium in iNHL, increasing response rates and duration. However, patients invariably relapse and subsequent active and well-tolerated agents are needed. In recent years a large number of new targeted agents have been tested in preclinical and clinical experimentation in FL and indolent nonfollicular lymphoma (iNFL), including the new monoclonal antibodies binding CD20 or other surface antigens, immunoconjugates and bispecific antibodies. Moreover novel agents directed against intracellular pr",
+            "journal": "Therapeutic advances in hematology",
+            "year": "2013",
+            "authors": [
+              "Merli Michele",
+              "Ferrario Andrea",
+              "Basilico Claudia",
+              "Maffioli Margherita",
+              "Caramazza Domenica"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23610620/"
+          },
+          {
+            "pmid": "18535937",
+            "title": "Ofatumumab, a human monoclonal antibody for lymphoid malignancies and autoimmune disorders.",
+            "abstract": "Genmab A/S and licensee GlaxoSmithKline plc are developing ofatumumab, an anti-CD20 human mAb, for the potential intravenous treatment of non-Hodgkin's lymphoma and autoimmune diseases, such as rheumatoid arthritis (RA) and multiple sclerosis (MS). Phase I and II clinical trials have been completed in patients with chronic lymphocytic leukemia (CLL), rituximab-refractory follicular lymphoma (FL) and RA. At the time of publication ofatumumab was undergoing a phase II clinical trial in patients with diffuse large B-cell lymphoma and phase III clinical trials in patients with B-cell CLL (B-CLL) in which fludarabine and alemtuzumab treatments have failed and in patients with rituximab-refractory FL. Ofatumumab was also undergoing phase II clinical trials as a combination therapy for previously untreated patients with FL in combination with cyclophosphamide, adriamycin, vincristine, and prednisone and in combination with fludarabine and cyclophosphamide for the treatment of B-CLL. In additi",
+            "journal": "Current opinion in molecular therapeutics",
+            "year": "2008",
+            "authors": [
+              "Robak Tadeusz"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Autoimmune Diseases",
+              "Clinical Trials as Topic",
+              "Contraindications",
+              "Drug Evaluation, Preclinical",
+              "Humans",
+              "Lymphatic Diseases",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18535937/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leukemia, lymphocytic, susceptibility to",
+        "txgnn_score": 0.9959222078323364,
+        "txgnn_rank": 5672,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26408673",
+            "title": "Chronic Lymphocytic Leukemia: Current Concepts.",
+            "abstract": "Chronic lymphocytic leukemia (CLL) is the most common type of leukemia in adults, and while in early, asymptomatic stages treatment is not indicated, the threat to the quality of life and increased mortality of patients posed by more advanced-stage disease necessitate therapeutic intervention. Guidelines of when and how to treat are not well-established because CLL is a disease of the elderly and it is important to balance preservation of functional status and control of the disease. Advances in molecular and genetic profiling has led to the ability to identify sub-groups of patients with CLL whose disease may respond to selected therapy. This review discusses current standard therapies in the major sub-groups of CLL based on age and functional status, in both the front-line and relapsed/refractory settings. It also provides a concise review of novel agents that have shown considerable efficacy in CLL.",
+            "journal": "Anticancer research",
+            "year": "2015",
+            "authors": [
+              "Yu Eun-Mi",
+              "Kittai Adam",
+              "Tabbara Imad A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Factors",
+              "Aged",
+              "Antineoplastic Agents",
+              "Biomarkers, Tumor",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Molecular Targeted Therapy",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26408673/"
+          },
+          {
+            "pmid": "23850806",
+            "title": "Complement factor H-derived short consensus repeat 18-20 enhanced complement-dependent cytotoxicity of ofatumumab on chronic lymphocytic leukemia cells.",
+            "abstract": "The antitumor activity of monoclonal antibodies in the treatment of chronic lymphocytic leukemia is mediated mainly by antibody-dependent cellular cytotoxicity and complement-dependent cytotoxicity. Unfortunately, the efficacy of complement-dependent cytotoxicity is strongly restricted due to the expression and acquisition of regulators of complement activation by lymphocytic leukemia cells. Whereas the role of membrane regulators of complement activation, such as CD55 and CD59, has been investigated in detail in chronic lymphocytic leukemia, the involvement of soluble regulators of complement activation, such as complement factor H, has not yet been reported. Propidium iodide staining was performed to investigate the efficacy of ofatumumab and factor H-derived short-consensus-repeat 18-20 in the induction of complement-dependent cytotoxicity on primary chronic lymphocytic leukemia cells from 20 patients. Deposition of complement C3 fragments was monitored by western blot analysis. Exp",
+            "journal": "Haematologica",
+            "year": "2013",
+            "authors": [
+              "Hörl Susanne",
+              "Banki Zoltan",
+              "Huber Georg",
+              "Ejaz Asim",
+              "Müllauer Brigitte"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Cells, Cultured",
+              "Complement Factor H",
+              "Consensus Sequence",
+              "Cytotoxins",
+              "Dose-Response Relationship, Drug",
+              "Drug Synergism",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23850806/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic lymphocytic leukemia/small lymphocytic lymphoma",
+        "txgnn_score": 0.9955334663391112,
+        "txgnn_rank": 6028,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01217749",
+            "title": "An Open-label, Phase 1b/2, Safety and Efficacy Study of the Bruton's Tyrosine Kinase (Btk) Inhibitor, PCI-32765, and Ofatumumab in Subjects With Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma and Prolymphocytic Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-12",
+            "completion_date": "2014-05",
+            "country": "United States",
+            "enrollment": 71,
+            "brief_summary": "The purpose of this study is to determine the efficacy and safety of a fixed-dose, daily regimen of orally administered PCI-32765 combined with ofatumumab in subjects with relapsed/refractory CLL/SLL and related diseases",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects with histologically confirmed chronic lymphocytic leukemia (CLL), small lymphocytic lymphoma (SLL), prolymphocytic leukemia (PLL), or Richter's transformation arising out of CLL/SLL as defined by WHO classification of hematopoietic neoplasms and satisfying ≥ 1 of the",
+            "endpoints": [
+              "Percentage of Participants Achieving Response",
+              "Safety During Dose-Limiting Toxicity (DLT) Observation Period"
+            ],
+            "sponsor": "Pharmacyclics LLC.",
+            "url": "https://clinicaltrials.gov/study/NCT01217749"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01119794",
+            "title": "Ofatumumab in Combination With Bortesomib in Patients With Relapsed or Refractory Low-Grade Non-Hodgkins Lymphoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-07",
+            "completion_date": "2015-07",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "The purpose of this study is to: Investigate the Overall Response Rate (ORR) of the combination of ofatumumab and bortezomib in patients with low-grade B-cell non-Hodgkin lymphoma (LG-NHL) that relapse beyond 6 months of a previous rituximab-containing regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients are required to have histologically confirmed lymphoma according to the WHO/Revised European-American Lymphoma classification, including B-cell small lymphocytic lymphoma (SLL); marginal zone lymphoma (MZL); follicular lymphoma (FL), grades 1, 2, or 3; mantle cell lym",
+            "endpoints": [
+              "Overall Response Rate (ORR) of the Combination of Ofatumumab and Bortezomib in Patients Receiving Study Treatment"
+            ],
+            "sponsor": "Brown University",
+            "url": "https://clinicaltrials.gov/study/NCT01119794"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01497496",
+            "title": "Phase II Study of Ofatumumab in Combination With High Dose Methylprednisolone Followed by Ofatumumab and Lenalidomide Consolidative Therapy for the Treatment of Relapsed or Refractory CLL/SLL The HiLOG Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-01-26",
+            "completion_date": "2020-03-20",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "The main purpose of this study is to see if the combination of ofatumumab with high dose methylprednisolone followed by additional treatment with ofatumumab and lenalidomide can help people with relapsed or refractory CLL/SLL get rid of their CLL/SLL for a long period of time. Researchers also want to find out if the combination of ofatumumab with methylprednisolone followed by additional treatment with ofatumumab and lenalidomide is safe and tolerable.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Understand and voluntarily sign an informed consent form\n* Able to adhere to the study visit schedule and other protocol requirements\n* Patients must have histologically or cytologically confirmed CD5+/CD20+ B-Cell chronic lymphocytic leukemia or small lymphocytic lymphoma. Th",
+            "endpoints": [
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01497496"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01848145",
+            "title": "Rapid Infusion of Ofatumumab in Patients With Previously Treated Chronic Lymphocytic Leukemia, a Phase II Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-07",
+            "completion_date": "2017-03",
+            "country": "United States",
+            "enrollment": 34,
+            "brief_summary": "This is a Phase II, single-arm study of ofatumumab investigating the safety of an accelerated infusion schedule of ofatumumab in patients who have received at least one prior therapy for CLL. The primary endpoint is to evaluate the number of subjects able to complete infusion number 3 (2000 mg) within 15 minutes of the planned time.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. CD20+ B-cell chronic lymphocytic leukemia (B-CLL) according to International Workshop on CLL Working Group (IWCLL WG) Diagnostic Criteria.\n2. Have received at least one prior therapy for CLL.\n\n   •If previously treated with ofatumumab must have achieved at least a partial res",
+            "endpoints": [
+              "Percent of Patients Who Complete an Accelerated Infusion Regimen Within 15 Minutes of the Planned 2-hour Treatment."
+            ],
+            "sponsor": "SCRI Development Innovations, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01848145"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01239394",
+            "title": "Phase II Trial Ofatumumab for Initial Systemic Treatment of Indolent B-cell Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-12",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 43,
+            "brief_summary": "Ofatumumab is a drug that works by attaching to the CD20 molecule found on the surface of cancerous B cells, and then triggering the death of those cells. It is approved by the FDA for treatment of another B-cell cancer, chronic lymphocytic leukemia, and also has evidence of success in people who's B-cell lymphomas have relapsed after initial treatments. In this research study we are looking to see if ofatumumab is effective and safe in treating previously untreated B-cell NHL.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed indolent CD20+B-cell NHL of the following histologies: follicular lymphoma, grades 1-2; Marginal zone lymphoma (extranodal, nodal or splenic); small lymphocytic lymphoma; low-grade B-cell lymphoma not otherwise specified with CD20+ expression\n* Measura",
+            "endpoints": [
+              "Efficacy: Complete Response Rate (CRR)"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01239394"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02614508",
+            "title": "A Phase I Study of Buparlisib (BKM120) and Ofatumumab or Ibrutinib in Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2016-01",
+            "completion_date": "2019-08",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "This phase I trial studies the side effects and best dose of buparlisib when given together with ofatumumab or ibrutinib in treating patients with chronic lymphocytic leukemia that has returned after a period of improvement or does not respond to treatment. Buparlisib and ibrutinib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as ofatumumab, may block cancer growth in different ways by targeting certain cells. Giving bupar",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed B-cell chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL) according to World Health Organization (WHO) criteria with at least one of the following indications for treatment:\n\n  * Progressive disease or marked splenom",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) of buparlisib when combined with ibrutinib in relapsed/refractory CLL for ibrutinib naive patients defined as the dose level at which no more than 1 of 6 patients experiences a dose-limiting toxicity",
+              "MTD of buparlisib when combined with ofatumumab in relapsed/refractory CLL for ibrutinib pre-treated patients defined as the dose level at which no more than 1 of 6 patients experiences a dose-limiting toxicity"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT02614508"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02556346",
+            "title": "Pharmacokinetics, Pharmacodynamics, Safety and Tolerability of Multiple Dose Regimens of MT-3724 for the Treatment of Patients With Relapsed Chronic B-cell Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2015-11",
+            "completion_date": "2016-12",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This Phase I, multiple ascending dose study will seek to enroll subjects with relapsed/refractory Chronic B-cell Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL) with confirmed and measurable disease who have received standard treatment with at least one anti-CD20 antibody (e.g.; rituximab, ofatumumab) containing front-line regimen that resulted in initial response, followed by relapse/recurrence and who are not eligible for any further approved biologic therapy, chemotherapy and/o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men or women, age 18 years or older\n* Life expectancy \\> 3 months\n* Flow cytometric confirmation of CLL is required at screening. Previous confirmation of CLL/SLL including confirmed immunohistological diagnosis with a characteristic CD5+/CD20+ B-cell immunophenotype according",
+            "endpoints": [
+              "Tolerability as measured by number of subjects with dose limiting toxicities",
+              "Safety as measured by number of subjects with Adverse Events using CTCAE",
+              "Tolerability as measured by adverse events using CTCAE and clinical laboratory parameters"
+            ],
+            "sponsor": "Molecular Templates, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02556346"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00824265",
+            "title": "A Phase III, Open Label, Randomized Trial of Ofatumumab Added to Fludarabine-Cyclophosphamide vs. Fludarabine-Cyclophosphamide Combination in Subjects With Relapsed Chronic Lymphocytic Leukemia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-03-12",
+            "completion_date": "2017-10-25",
+            "country": "Spain, United Kingdom, Canada, India, Brazil, Netherlands, Germany, Italy, Romania, Thailand, United States, Bulgaria, Mexico, Russia, Ukraine, Greece, Taiwan, Poland",
+            "enrollment": 365,
+            "brief_summary": "The purpose of this study was to evaluate the safety and efficacy of ofatumumab added to fludarabine-cyclophosphamide in patients with relapsed Chronic Lymphocytic Leukemia (CLL).",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* confirmed and active CLL requiring treatment\n* at least one previous treatment for CLL and having achieved a complete or partial remission/response but after a period of 6 or more months, shows evidence of disease progression\n* fully active at a minimum or fully capable of",
+            "endpoints": [
+              "Progression-free Survival (PFS), as Assessed by the Independent Review Committee (IRC)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT00824265"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02004522",
+            "title": "A Phase 3 Study of Duvelisib Versus Ofatumumab in Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia/ Small Lymphocytic Lymphoma (DUO)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2021-06",
+            "country": "Australia, Spain, France, United Kingdom, New Zealand, Belgium, Austria, Germany, Italy, United States, Hungary",
+            "enrollment": 319,
+            "brief_summary": "A Phase 3 clinical trial to examine the efficacy of duvelisib monotherapy versus ofatumumab monotherapy in subjects with relapsed or refractory Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of active CLL or SLL that meets at least one of the IWCLL 2008 criteria for requiring treatment (Binet Stage ≥ B and/or Rai Stage ≥ I)\n* Disease that has progressed during or relapsed after at least one previous CLL/SLL therapy\n* Not appropriate for treatment with a ",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "SecuraBio",
+            "url": "https://clinicaltrials.gov/study/NCT02004522"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01039376",
+            "title": "A Phase III, Open Label, Randomized, Multicenter Trial of Ofatumumab Maintenance Treatment Versus no Further Treatment in Subjects With Relapsed Chronic Lymphocytic Leukemia (CLL) Who Have Responded to Induction Therapy",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2010-05-06",
+            "completion_date": "2018-06-26",
+            "country": "Australia, India, Belgium, United States, Ukraine, Canada, South Korea, Netherlands, Italy, Russia, Czechia, Sweden, Poland, Norway, France, Brazil, Argentina, Israel, Denmark, Hungary, Spain, Turkey (Türkiye), Finland, Greece, Puerto Rico",
+            "enrollment": 480,
+            "brief_summary": "The purpose of this study was to determine if maintenance therapy with ofatumumab would prolong remission in patients with CLL who have responded to second or third line treatment. This study would also evaluate the safety of ofatumumab maintenance compared to observation (the current standard of care). This study was co-developed with the HOVON and NORDIC CLL group and would be conducted as a collaborative effort with GSK.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults with documented diagnosis of CLL based on the modified IWCLL updated NCI-WG guidelines (Hallek, 2008)\n* At least PR according to the revised 2008 NCI-WG CLL criteria, within 3 months of the response assessment after the last dose of 2nd/3rd line treatment\n* The anti-leu",
+            "endpoints": [
+              "Progression-free Survival, as Assessed by the Investigator",
+              "Progression-free Survival, as Assessed by the Independent Review Committee (IRC)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01039376"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01002755",
+            "title": "Combination of Lenalidomide and Ofatumumab in Patients With Previously Treated Chronic Lymphocytic Leukemia and Small Lymphocytic Lymphoma (CLL/SLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-01-19",
+            "completion_date": "2018-01-31",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "This phase II trial studies how well lenalidomide and ofatumumab work in treating participants with previously treated chronic lymphocytic leukemia or small lymphocytic lymphoma. Drugs used in chemotherapy, such as lenalidomide, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Monoclonal antibodies, such as ofatumumab, may interfere with the ability of tumor cells to grow and spread. Giving ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Understand and voluntarily sign an informed consent\n* Patients with CLL or small lymphocytic lymphoma (SLL) with active disease: B-CLL Rai III-IV or earlier stage disease with evidence of \"active disease\" as defined by the National Cancer Institute (NCI)-sponsored working grou",
+            "endpoints": [
+              "Overall Response Rate"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01002755"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01453062",
+            "title": "Phase IV Observational Study in Chronic Lymphocytic Leukemia Patients Receiving Ofatumumab in the European Union",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-09",
+            "completion_date": "2012-11",
+            "country": "N/A",
+            "enrollment": 1,
+            "brief_summary": "B-cell chronic lymphocytic leukemia (CLL) is a subtype of mature peripheral B-cell neoplasms, characterized by the accumulation of circulating malignant lymphocytes that typically express cell surface markers CD5, CD20, and CD23. It is the most common type of leukemia in adults in Western Europe and in the US. The median age at diagnosis is 65-70 years, with a male to female ratio of 2:1. Initially, most patients present with asymptomatic lymphocytosis and do not need cytoreductive therapy. Pati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All CLL patients who have previously received Arzerra, whether alive or deceased\n* Patients who have either completed the full course of Arzerra therapy or discontinued treatment early\n\nExclusion Criteria:\n\n* CLL patients newly initiating Arzerra\n* Patients having been treated",
+            "endpoints": [
+              "Physicians' assessment of response"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01453062"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01125787",
+            "title": "PHASE II CLINICAL PROTOCOL FOR THE TREATMENT OF PATIENTS WITH PREVIOUSLY UNTREATED CHRONIC LYMPHOCYTIC LEUKEMIA WITH A COMBINATION OF BENDAMUSTINE AND OFATUMUMAB",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-05",
+            "completion_date": "2011-04",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "Investigational Drug:\n\nOfatumumab (Azerra)\n\nRoute of Administration:\n\nIntravenous (IV)\n\nHypothesis:\n\nThis study is designed to assess the toxicity and overall response rate. Ofatumumab is a fully human monoclonal antibody (A type of protein made in the laboratory that can bind to substances in the body, including tumor cells) that shows promising activity in the treatment of CLL as a single agent. It is thought that by combining it with Bendamustine, an FDA approved treatment for CLL, the effect",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be \\>/= 18 years old and able to provide consent\n* Must have diagnosis of CLL as defined by NCI criteria\n* Must be previously untreated for CLL\n* Must require chemotherapy\n* serum creatinine \\<1.8 mg/dl\n* Bilirubin must be \\</= 2 mg/d, unless secondary to tumor\n* Must hav",
+            "endpoints": [
+              "Overall Response Rate (Efficacy)"
+            ],
+            "sponsor": "Nevada Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01125787"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01010568",
+            "title": "Ofatumumab and Bendamustine in Previously Treated Chronic Lymphocytic Leukemia/ Small Lymphocytic Leukemia",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-04",
+            "completion_date": "2014-08",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "The purpose of this study is to evaluate the safety and effectiveness of the combination of bendamustine and ofatumumab in subjects with relapsed/refractory chronic lymphocytic leukemia and small cell lymphoma. All subjects enrolled on this study will receive both drugs by intravenous (IV) infusion.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically confirmed CLL or SLL requiring therapy\n* Age 18 years of age or older\n* ECOG performance status 0, 1, or 2\n* Normal organ and bone marrow function\n* Resolution of toxic effects from prior therapies\n* Ability to adhere to the study schedule and give written infor",
+            "endpoints": [
+              "Overall Response Rate"
+            ],
+            "sponsor": "Georgetown University",
+            "url": "https://clinicaltrials.gov/study/NCT01010568"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03280160",
+            "title": "A Multicenter, Non-randomized, Open Label Study to Evaluate the Efficacy and Security of Ibrutinib Followed by Ibrutinib Consolidation in Combination With Ofatumumab in Previously Untreated Patients With Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2017-09-07",
+            "completion_date": "2022-09",
+            "country": "Spain",
+            "enrollment": 84,
+            "brief_summary": "Based on the promising results obtained with ibrutinib as single agent, the results obtained with ibrutinib in combination with ofatumumab in a previous phase I/IIb study (Jaglowski 2015), and since data from in vitro studies do not support a synergistic effect of the combination of ibrutinib and anti-CD20 mAbs, we propose a chemotherapy-free combined strategy based on ibrutinib monotherapy as front line treatment for patients with CLL, with the addition of a consolidation phase with ofatumumab ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients with previously untreated CLL or SLL defined following IWCLL criteria (Hallek, 2008).\n* Must understand and voluntarily sign an informed consent form.\n* Age ≥ 18 years at the time of signing the informed consent form and must be able to adhere to the study visit",
+            "endpoints": [
+              "Efficacy in terms of response rate"
+            ],
+            "sponsor": "PETHEMA Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT03280160"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01563055",
+            "title": "A Phase I/II, Open-label Study of Ofatumumab Added to Chlorambucil in Previously Untreated Japanese Patients With Chronic Lymphocytic Leukemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-04",
+            "completion_date": "2014-11",
+            "country": "Japan",
+            "enrollment": 10,
+            "brief_summary": "This is an open-label study to evaluate tolerability, safety, efficacy and pharmacokinetic profile of ofatumumab in combination with chlorambucil in Japanese patients with previously untreated Chronic Lymphocytic Leukemia (CLL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of CLL defined by : Circulating B lymphocytes ≥5,000 /μL AND Flow cytometry confirmation of immunophenotype with CD5, CD19, CD20, and CD23 prior to Visit 2.\n* Considered inappropriate for fludarabine-based therapy\n* Active disease and indication for treatment based o",
+            "endpoints": [
+              "Number of Participants Who Developed Toxicity Requiring Discontinuation From Study Treatment During Cycle 1",
+              "Number of Participants With Overall Response, as Assessed by the Independent Review Committee (IRC) With CT, IRC and Investigator"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01563055"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01131247",
+            "title": "PHASE II CLINICAL PROTOCOL FOR THE TREATMENT OF PATIENTS WITH RELAPSED/REFRACTORY CHRONIC LYMPHOCYTIC LEUKEMIA WITH A COMBINATION OF BENDAMUSTINE AND OFATUMUMAB",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "Investigational Drugs:\n\nOfatumumab (Azerra) + bendamustine (Trenda)\n\nRoute of Administration:\n\nIntravenous (IV)\n\nHypothesis:\n\nThis study is designed to assess the toxicity and overall response rate. Ofatumumab is a fully human monoclonal antibody (A type of protein made in the laboratory that can bind to substances in the body, including tumor cells) that shows promising activity in the treatment of CLL as a single agent. It is thought that by combining it with Bendamustine, an FDA approved trea",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be \\>/= 18 years old and able to provide consent\n* Must have diagnosis of CLL as defined by NCI criteria\n* Must require chemotherapy\n* Must be previously treated with a minimum of one course of prior chemo or other treatment\n* Serum creatinine \\<1.8 mg/dl\n* Bilirubin must",
+            "endpoints": [
+              "Overall Response Rate/ Efficacy"
+            ],
+            "sponsor": "Nevada Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01131247"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01515176",
+            "title": "Phase 1b/2 Study of Dinaciclib (SCH 727965) and Ofatumumab in Relapsed and Refractory CLL/SLL/B-PLL",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-01",
+            "completion_date": "2016-07-19",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "This phase I/II trial studies the side effects and the best dose of ofatumumab and dinaciclib and to see how well they work in treating patients with relapsed or refractory chronic lymphocytic leukemia, small lymphocytic lymphoma, or B-cell prolymphocytic leukemia. Monoclonal antibodies, such as ofatumumab, can find cancer cells and help kill them. Dinaciclib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving ofatumumab together with dinaciclib may",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed B-cell chronic lymphocytic leukemia (B-CLL)/small lymphocytic lymphoma (SLL) or a B-cell prolymphocytic leukemia (B-PLL) according to 2008 World Health Organization (WHO) diagnostic criteria\n* Patients must meet one or more of the fo",
+            "endpoints": [
+              "Maximum-tolerated Dose of Dinaciclib When Given in Combination With Ofatumumab, Defined as a Dose Level Where at Most One of 6 Evaluable Patients Has a Dose Limiting Toxicity (Phase Ia)",
+              "Number of Patients With Dose-limiting Toxicity Incidents Graded According to the NCI CTCAE v4.0 (Phase I)",
+              "Percentage of Patients Who Achieve an Overall Response, Defined as Achieving a Complete Response, an Unconfirmed Complete Response (SLL Only), or a Partial Response (Phase II)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01515176"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00410163",
+            "title": "An Open-labeled, Randomized, Two-dose, Parallel Group Trial of Ofatumumab, a Fully Human Monoclonal Anti-CD20 Antibody, in Combination With Fludarabine and Cyclophosphamide, in Patients With Previously Untreated B-cell CLL",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2013-05",
+            "country": "United Kingdom, United States",
+            "enrollment": 61,
+            "brief_summary": "To investigate the safety and efficacy of two dose regimes of ofatumumab in combination with chemotherapy in previously untreated patients with B-CLL",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with active B-CLL and with an indication for treatment\n2. Age ≥ 18 years\n3. Following receipt of verbal and written information about the study, the patient must provide signed informed consent before any study related activity is carried out\n\nExclusion Criteria:\n\n1.",
+            "endpoints": [
+              "Number of Participants (Par.) With Complete Remission (CR), Measured From Start of Treatment Until 3 Months After Last Infusion",
+              "Number of Participants (Par.) Who Were Classified as Responders and Non-responders"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00410163"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07233330",
+            "title": "Obinutuzumab Treatment in Frequently Relapsing and Rituximab-Dependent Idiopathic Nephrotic Syndrome in Adults: a Fully Academic, Single-arm, Open, Prospective, Intervention Trial",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-02",
+            "completion_date": "2029-03",
+            "country": "Italy",
+            "enrollment": 10,
+            "brief_summary": "This is a multicenter, open-label, single-arm Phase II clinical trial designed to evaluate the safety, efficacy, and immunological effects of obinutuzumab in adult patients with multi-relapsing, rituximab-dependent steroid-sensitive NS.\n\nObinutuzumab is a glycoengineered, humanized type II anti-CD20 monoclonal antibody that was initially developed to overcome rituximab resistance in B-cell malignancies. Obinutuzumab induced a longer and deeper B cell depletion than rituximab being able to deplet",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult age (≥18 years old)\n* Rituximab-dependent idiopathic nephrotic syndrome is defined and confirmed as:\n\n  * Availability of a recent (over the last 5 years) diagnostic kidney biopsy to confirm the diagnosis of MCD, FSGS or IgM glomerulonephritis and quantify the severity o",
+            "endpoints": [
+              "Number of relapse-free participants"
+            ],
+            "sponsor": "Mario Negri Institute for Pharmacological Research",
+            "url": "https://clinicaltrials.gov/study/NCT07233330"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01496976",
+            "title": "Phase II Study of Ofatumumab in Combination With High Dose Methylprednisolone Followed by Ofatumumab and Lenalidomide Consolidative Therapy for the Treatment of Untreated CLL/SLL The HiLOG Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03-30",
+            "completion_date": "2024-09-11",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "The main purpose of this study is to see if ofatumumab with methylprednisolone followed by additional treatment with ofatumumab and lenalidomide can help people with Chronic Lymphocytic Leukemia (CLL) get rid of their CLL for a long period of time. Researchers also want to find out if the combination of ofatumumab with methylprednisolone followed by additional treatment with ofatumumab and lenalidomide is safe and tolerable.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Understand and voluntarily sign an informed consent form\n* Able to adhere to the study visit schedule and other protocol requirements\n* Patients must have histologically or cytologically confirmed CD5+/CD20+ B-Cell chronic lymphocytic leukemia or small lymphocytic lymphoma. Th",
+            "endpoints": [
+              "Number of Participants With Complete Response (CR)",
+              "Number of Participants With Partial Response (PR)"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01496976"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01313689",
+            "title": "An Open Label, Multicenter Study Investigating the Safety and Efficacy of Ofatumumab Therapy Versus Physicians' Choice in Patients With Bulky Fludarabine-Refractory Chronic Lymphocytic Leukaemia (CLL)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-04-14",
+            "completion_date": "2017-04-24",
+            "country": "United Kingdom, France, Slovakia, Belgium, Austria, Germany, Israel, Italy, Bulgaria, Czechia, Hungary, Russia, Sweden, Ukraine, Singapore, Ireland, Poland",
+            "enrollment": 122,
+            "brief_summary": "The purpose of this study was to confirm the clinical benefit observed in the pivotal registration study, Hx-CD20-406. The Committee for Medicinal Products for Human Use (CHMP) required that a randomized study be conducted in CLL patients with bulky fludarabine-refractory disease as a specific obligation for grant of conditional approval for ARZERRA™ in the European Union (EU). This study compared ofatumumab with the physicians' choice of therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults with documented diagnosis of active CLL requiring treatment\n* Bulky lymphadenopathy, defined as at least 1 lymph node \\>5 cm\n* Must be refractory to fludarabine treatment\n* Age 18 yrs or older\n* At least 2 prior therapies for CLL\n* Eastern Cooperative Oncology Group (EC",
+            "endpoints": [
+              "Progression-free Survival (PFS) as Assessed by Independent Review Committee (IRC)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01313689"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01716208",
+            "title": "Phase II Trial of Ofatumumab and Fresh Frozen Plasma in Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-01-14",
+            "completion_date": "2020-10-01",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "It has been shown that many patients with lymphoma or chronic lymphocytic leukemia (CLL)have low levels of complement. Several drugs have been approved by the Food and Drug Administration (FDA) for use in this cancer. However, these drugs are often used as combination therapies which means two or more drugs are part of the treatment. Many people, especially elderly patients, cannot put up with the use of multiple drugs because of the side effects.\n\nThe main purpose of this study is to see if pat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have a pathological diagnosis of B-cell CLL.\n* Patients must have received prior rituximab therapy and must have recovered from all non-hematologic toxicities. (Previous radiation is allowed as long as patients have recovered from all treatment related toxicities",
+            "endpoints": [
+              "Response to Therapy"
+            ],
+            "sponsor": "University of California, Davis",
+            "url": "https://clinicaltrials.gov/study/NCT01716208"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01024010",
+            "title": "Phase II Trial of Pentostatin, Cyclophosphamide, and Ofatumumab for Previously Untreated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-03",
+            "completion_date": "2017-09-28",
+            "country": "United States",
+            "enrollment": 82,
+            "brief_summary": "This phase II trial studies how well giving ofatumumab together with pentostatin and cyclophosphamide works in treating patients with untreated chronic lymphocytic leukemia or small lymphocytic lymphoma. Monoclonal antibodies, such as ofatumumab, can block the ability of cancer cells to grow and spread. Drugs used in chemotherapy, such as pentostatin and cyclophosphamide, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of CLL according to the National Cancer Institute (NCI) criteria or SLL according to the World Health Organization (WHO) criteria, including previous documentation of:\n* Biopsy-proven SLL\n* Diagnosis of CLL according to NCI working group criteria as evidenced by all ",
+            "endpoints": [
+              "Arm A: Percentage of Complete Responses",
+              "Arm B: Treatment-free Survival at 18 Months"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT01024010"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01352312",
+            "title": "Phase I Trial With Cohort Expansion of Pentostatin, Bendamustine and Ofatumumab (PBO) for the Treatment of Chronic Lymphocytic Leukemia and Non-Hodgkin's Lymphoma",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2011-05-25",
+            "completion_date": "2018-05-10",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "This is a Phase 1 study with Cohort Expansion of Pentostatin, Bendamustine and Ofatumumab (PBO) for patients with previously treated Chronic Lymphocytic Leukemia (CLL) and B-cell Non-Hodgkin's Lymphoma (B- cell NHL). The purpose of this study is to determine the optimal dose of bendamustine in combination with pentostatin and ofatumumab, and then to see how safe these three drugs work together.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Previously treated CLL or other B-cell neoplasm including small lymphocytic lymphoma, hairy cell leukemia, follicular, lymphoma, Waldenstrom's macroglobulinemia, marginal zone lymphomas, mantle cell lymphomas, lymphoplasmacytic lymphoma and diffuse large B-cell lymphoma. Pati",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Bendamustine",
+              "Dose Limiting Toxicity (DLT)"
+            ],
+            "sponsor": "Thomas Jefferson University",
+            "url": "https://clinicaltrials.gov/study/NCT01352312"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01578707",
+            "title": "A Randomized, Multicenter, Open-label, Phase 3 Study of the Bruton's Tyrosine Kinase (BTK) Inhibitor Ibrutinib (PCI-32765) Versus Ofatumumab in Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-06",
+            "completion_date": "2018-10-25",
+            "country": "Australia, Spain, France, United Kingdom, Belgium, Austria, Italy, United States, Ireland, Poland",
+            "enrollment": 391,
+            "brief_summary": "The purpose of the study is to evaluate whether treatment with ibrutinib as a monotherapy results in a clinically significant improvement in progression free survival (PFS) as compared to treatment with ofatumumab in patients with relapsed or refractory Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ECOG performance status of 0-1.\n* Diagnosis of CLL or SLL that meets IWCLL 2008 criteria.\n* Active disease meeting at least 1 of the IWCLL 2008 criteria for requiring treatment.\n* Must have received at least one prior therapy for CLL/SLL.\n* Considered not appropriate for treat",
+            "endpoints": [
+              "PFS (Progression Free Survival) by Independent Review Committee (IRC), Limited to the Time of Primary Analysis 06 November 2013"
+            ],
+            "sponsor": "Pharmacyclics LLC.",
+            "url": "https://clinicaltrials.gov/study/NCT01578707"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02135133",
+            "title": "A Phase II Study of Idelalisib (GS1101, CAL101) + Ofatumumab in Previously Untreated Chronic Lymphocytic Leukemia (CLL) and Small Lymphocytic Leukemia (SLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2020-10-06",
+            "country": "United States",
+            "enrollment": 27,
+            "brief_summary": "This research study is evaluating a combination of drugs called Ofatumumab and Idelalisib as a possible treatment for Chronic Lymphocytic Leukemia (CLL) and Small Lymphocytic Leukemia (SLL).\n\nThe main purpose of this study is to examine the combination of the two drugs, Ofatumumab and Idelalisib, in participants who have been diagnosed with CLL/SLL and have not previously received treatment but do require treatment. The investigators hope to observe how participants' disease will be impacted by ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must meet the following criteria on screening examination to be eligible to participate in the study:\n* Subjects must have CLL / SLL, as documented by a history at some point of an absolute peripheral blood B cell count \\> 5000, with a monoclonal B cell population",
+            "endpoints": [
+              "Overall Response Rate (ORR)"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02135133"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01145209",
+            "title": "A Phase II Study of Ofatumumab-Based Induction Chemoimmunotheraphy Followed by Consolidation Ofatumumab Immunotherapy in Previously Untreated Patients With Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-07-01",
+            "completion_date": "2023-09-15",
+            "country": "United States",
+            "enrollment": 32,
+            "brief_summary": "Background:\n\n\\- Ofatumumab was approved by the U.S. Food and Drug Administration to treat patients with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) who have not responded to standard chemotherapy. Ofatumumab is a substance that recognizes specific types of white blood cells called B-lymphocytes, which become cancerous in CLL/SLL. Ofatumumab attaches to a molecule called CD20, which is found on the surface of B-cells, and destroys them. Previous studies have shown that ",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nHistologically confirmed CLL or SLL as defined by the following:\n\n* B-lymphocytosis greater than 5000 cells/micro L (may be less than 5000 cells/micro L if lymphadenopathy is present with histologic confirmation of lymph node involvement by SLL).\n* Immunophenotypic profile con",
+            "endpoints": [
+              "Progression Free Survival Rate 2 Years After Initiation of Induction Therapy"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT01145209"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01520922",
+            "title": "A Phase II, Multi-centre Study Investigating the Safety and Efficacy of Ofatumumab and Bendamustine Combination in Patients With Untreated or Relapsed Chronic Lymphocytic Leukaemia (CLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2015-11",
+            "country": "Spain, Belgium, Italy, United States, Russia, Czechia, Greece, Poland",
+            "enrollment": 99,
+            "brief_summary": "This is a Phase II, open label, single arm, multi-centre study investigating the safety and efficacy of ofatumumab plus bendamustine in subjects with untreated or relapsed CLL.\n\nEach subject from the screening phase who is willing to participate in the study and is found eligible according to the inclusion and exclusion criteria will enter the treatment phase and will receive a maximum of 6 Cycles of study treatment (ofatumumab plus bendamustine). All subjects will receive 3 Cycles of study trea",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A diagnosis of CLL defined by a circulating B-lymphocyte count of greater than or equal to 5,000/uL at study entry or at any time in the past and flow cytometry confirmation of immunophenotype with CD5, CD19, CD20, CD23, CD79b, and surface Ig prior to first dose of study treat",
+            "endpoints": [
+              "Number of Participants With Overall Response (OR), as Assessed by the Investigator"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01520922"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01258933",
+            "title": "Ofatumumab for Residual Disease and Maintenance Following Chemotherapy or Chemoimmunotherapy in Patients With Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2011-07-06",
+            "completion_date": "2024-10-18",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "The goal of this clinical research study is to find out if ofatumumab can control CLL or SLL that is left after chemotherapy or chemoimmunotherapy. The safety of the drug will also be studied.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Diagnosis of CD20+ chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) treated with chemotherapy or chemoimmunotherapy: Post-frontline therapy, patients must have non-progressing disease and be 4 months to 1 year post treatment. Post-treatment for relapsed ",
+            "endpoints": [
+              "Number of Patients With Objective Response"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01258933"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01113632",
+            "title": "Phase II Trial of Ofatumumab for Older Patients and Patients Who Refuse Fludarabine-Based Regimens With Previously Untreated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-07",
+            "completion_date": "2016-08",
+            "country": "United States",
+            "enrollment": 77,
+            "brief_summary": "The risk of immunosuppression deters many patients from receiving fludarabine, while combination chemotherapy regimens are poorly tolerated by elderly or infirm chronic lymphocytic leukemia (CLL) patients. Previous studies by our group and others have shown that rituximab is safe and well tolerated when used as a single agent in patients with CLL. In addition, maintenance therapy with rituximab was well tolerated by CLL patients, with probable prolongation of progression-free survival (Hainswort",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. CD20+ B-cell chronic lymphocytic leukemia (B-CLL) or small lymphocytic lymphoma according to NCI criteria (see Appendix B).\n2. Previously untreated CLL or small lymphocytic lymphoma (SLL).\n3. Patients must require treatment according to NCI-Working Group guidelines (see Appen",
+            "endpoints": [
+              "Overall Response Rate (ORR)"
+            ],
+            "sponsor": "SCRI Development Innovations, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01113632"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01077622",
+            "title": "A Phase I/II, a Single Arm, Open-label Study of Ofatumumab (GSK1841157) in Patients With Previously Treated Chronic Lymphocytic Leukemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2009-09-01",
+            "completion_date": "2011-04-01",
+            "country": "South Korea, Japan",
+            "enrollment": 10,
+            "brief_summary": "Ofatumumab is an IgG1κ fully human monoclonal antibody (mAb) that specifically recognizes an epitope on the human differentiation antigen CD20 molecule. In vitro and in vivo studies demonstrated that ofatumumab depletes CD20 positive (CD20+) B cells through complement-dependent cytotoxicity (CDC) and antibody-dependent cell-mediated cytotoxicity (ADCC), which results in the antitumour effect.\n\nThis is an open-label study to evaluate safety, tolerability, efficacy and PK profile of ofatumumab mon",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubjects eligible for enrolment in the study must meet all of the following criteria at the time of screening:\n\n* Patients who gave consent to this study participation and signed into informed consent form.\n* Previously treated(Patients who received at least one prior CLL therap",
+            "endpoints": [
+              "Number of Participants With a Dose-limiting Toxicity (DLT)",
+              "Percentage of Participants (Par.) With Objective Response (OR), Defined as Complete Remission (CR), CR Incomplete (CRi), Partial Remission (PR), and Nodular PR (nPR) as Assessed by a Safety and Evaluation Review Committee (SERC) and the Investigator"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT01077622"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02049515",
+            "title": "A Study of IPI-145 and Ofatumumab in Patients With Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma Previously Enrolled in Study IPI-145-07 Duvelisib (IPI-145)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-12",
+            "completion_date": "2020-06-12",
+            "country": "Australia, Spain, France, United Kingdom, New Zealand, Belgium, Austria, Germany, Italy, United States, Hungary",
+            "enrollment": 99,
+            "brief_summary": "A Phase 3 (extension) clinical trial to examine the efficacy of IPI-145 (duvelisib) monotherapy or ofatumumab monotherapy in participants with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) who experienced disease progression after treatment with IPI-145 or ofatumumab in study IPI-145-07 (NCT02004522).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Received either IPI-145 or ofatumumab while participating in study IPI-145-07 and experienced radiologically confirmed disease progression\n* Diagnosis of active CLL or SLL that met at least one of the IWCLL 2008 criteria for requiring treatment\n* Measurable disease with a lymp",
+            "endpoints": [
+              "Overall Response Rate (ORR)"
+            ],
+            "sponsor": "SecuraBio",
+            "url": "https://clinicaltrials.gov/study/NCT02049515"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01243190",
+            "title": "Ofatumumab Early Treatment for High-Risk Treatment-Naive, Early Stage (0-II) Patients With Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-03",
+            "completion_date": "2023-03-28",
+            "country": "United States",
+            "enrollment": 44,
+            "brief_summary": "The goal of this clinical research study is to learn if ofatumumab can help to control CLL/SLL that has not yet been treated. The safety of this drug will also be studied.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Diagnosis of chronic lymphocytic leukemia (CLL)/ small lymphocytic leukemia (SLL), previously untreated, Rai stage 0-ll\n2. At least 1 of the following high-risk features for previously untreated patients: Rai stage II disease; Rai stage 0-I with disease-related fatigue; Serum",
+            "endpoints": [
+              "Number of Patients With Complete Response (CR)"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01243190"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31512258",
+            "title": "Final analysis from RESONATE: Up to six years of follow-up on ibrutinib in patients with previously treated chronic lymphocytic leukemia or small lymphocytic lymphoma.",
+            "abstract": "Ibrutinib, a once-daily oral inhibitor of Bruton's tyrosine kinase, is approved in the United States and Europe for treatment of patients with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL). The phase 3 RESONATE study showed improved efficacy of single-agent ibrutinib over ofatumumab in patients with relapsed/refractory CLL/SLL, including those with high-risk features. Here we report the final analysis from RESONATE with median follow-up on study of 65.3 months (range, 0.3-71.6) in the ibrutinib arm. Median progression-free survival (PFS) remained significantly longer for patients randomized to ibrutinib vs ofatumumab (44.1 vs 8.1 months; hazard ratio [HR]: 0.148; 95% confidence interval [CI]: 0.113-0.196; P˂.001). The PFS benefit with ibrutinib vs ofatumumab was preserved in the genomic high-risk population with del(17p), TP53 mutation, del(11q), and/or unmutated IGHV status (median PFS 44.1 vs 8.0 months; HR: 0.110; 95% CI: 0.080-0.152), which represented 82% ",
+            "journal": "American journal of hematology",
+            "year": "2019",
+            "authors": [
+              "Munir Talha",
+              "Brown Jennifer R",
+              "O'Brien Susan",
+              "Barrientos Jacqueline C",
+              "Barr Paul M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Cardiovascular Diseases",
+              "Female",
+              "Follow-Up Studies",
+              "Hematologic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31512258/"
+          },
+          {
+            "pmid": "28983798",
+            "title": "Rituximab in B-Cell Hematologic Malignancies: A Review of 20 Years of Clinical Experience.",
+            "abstract": "Rituximab is a human/murine, chimeric anti-CD20 monoclonal antibody with established efficacy, and a favorable and well-defined safety profile in patients with various CD20-expressing lymphoid malignancies, including indolent and aggressive forms of B-cell non-Hodgkin lymphoma. Since its first approval 20 years ago, intravenously administered rituximab has revolutionized the treatment of B-cell malignancies and has become a standard component of care for follicular lymphoma, diffuse large B-cell lymphoma, chronic lymphocytic leukemia, and mantle cell lymphoma. For all of these diseases, clinical trials have demonstrated that rituximab not only prolongs the time to disease progression but also extends overall survival. Efficacy benefits have also been shown in patients with marginal zone lymphoma and in more aggressive diseases such as Burkitt lymphoma. Although the proven clinical efficacy and success of rituximab has led to the development of other anti-CD20 monoclonal antibodies in r",
+            "journal": "Advances in therapy",
+            "year": "2017",
+            "authors": [
+              "Salles Gilles",
+              "Barrett Martin",
+              "Foà Robin",
+              "Maurer Joerg",
+              "O'Brien Susan"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Immunological",
+              "B-Lymphocytes",
+              "Hematologic Neoplasms",
+              "History, 20th Century",
+              "History, 21st Century",
+              "Humans",
+              "Lymphoma, B-Cell",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28983798/"
+          },
+          {
+            "pmid": "25828085",
+            "title": "Ofatumumab and its role as immunotherapy in chronic lymphocytic leukemia.",
+            "abstract": "",
+            "journal": "Haematologica",
+            "year": "2015",
+            "authors": [
+              "Sandhu Suneet",
+              "Mulligan Stephen P"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Immunologic Factors",
+              "Immunotherapy",
+              "Leukemia, Lymphocytic, Chronic, B-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25828085/"
+          },
+          {
+            "pmid": "22143062",
+            "title": "Immunomodulatory drugs and active immunotherapy for chronic lymphocytic leukemia.",
+            "abstract": "The last decade witnessed the emergence of several therapeutic options for patients with chronic lymphocytic leukemia (CLL) for first-line and relapsed settings. The vast majority of patients with relapsed or refractory CLL carry poor prognostic features, which are strong predictors of shorter overall survival and resistance to first-line treatment, particularly fludarabine-based regimens.",
+            "journal": "Cancer control : journal of the Moffitt Cancer Center",
+            "year": "2012",
+            "authors": [
+              "Carballido Estrella",
+              "Veliz Marays",
+              "Komrokji Rami",
+              "Pinilla-Ibarz Javier"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Disease-Free Survival",
+              "Humans",
+              "Immunologic Factors",
+              "Immunotherapy, Active",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22143062/"
+          },
+          {
+            "pmid": "20068404",
+            "title": "Ofatumumab.",
+            "abstract": "Ofatumumab is an anti-CD20 IgG1kappa human monoclonal antibody that is being considered by the US Food and Drug Administration and the European Medicines Agency for marketing approval as a treatment for chronic lymphocytic leukemia. The mAb is also being studied as a treatment for lymphoma, rheumatoid arthritis and multiple sclerosis. The candidate targets the same antigen as rituximab, but ofatumumab binds a novel, membrane-proximal epitope, and dissociates from its target at a slower rate compared to rituximab. Ofatumumab might be approved in the US by August 2009.",
+            "journal": "mAbs",
+            "year": "2009",
+            "authors": [
+              "Zhang Bodi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Arthritis, Rheumatoid",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Multiple Sclerosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20068404/"
+          },
+          {
+            "pmid": "24598189",
+            "title": "[Chronic lymphocytic leukemia].",
+            "abstract": "",
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2014",
+            "authors": [
+              "Aoki Sadao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Alemtuzumab",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bendamustine Hydrochloride",
+              "Cyclophosphamide",
+              "Doxorubicin",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24598189/"
+          },
+          {
+            "pmid": "31327069",
+            "title": "How to Choose the Best Treatment and Testing for Chronic Lymphocytic Leukemia in the Tsunami of New Treatment Options.",
+            "abstract": "Treatment of chronic lymphocytic leukemia (CLL) has undergone a major shift since introduction of multiple targeted agents. B cell receptor inhibitors that target either bruton tyrosine kinase (ibrutinib) or phosphatidylinositol 3-kinases (idelalisib and duvelisib) and BCL-2 inhibitor venetoclax have become the mainstay of treatment.",
+            "journal": "Current oncology reports",
+            "year": "2019",
+            "authors": [
+              "Yeung Cecilia C S",
+              "Shadman Mazyar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormal Karyotype",
+              "Algorithms",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Molecular Targeted Therapy",
+              "Prognosis",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31327069/"
+          },
+          {
+            "pmid": "20481657",
+            "title": "Ofatumumab.",
+            "abstract": "Ofatumumab is a fully human anti-CD20 monoclonal antibody that induces antibody-dependent cell-mediated cytotoxicity and complement-dependent cytotoxicity in CD20-expressing B lymphocytes. Ofatumumab is highly potent in lysing B cells, and this appears to stem from its binding site on the short extracellular loop of the target CD20 protein and its slow release from the target molecule. In a pivotal, noncomparative study in patients with fludarabine- and alemtuzumab-refractory chronic lymphocytic leukaemia (CLL), ofatumumab induced objective responses in 58% (99% CI 40, 74) of patients, which met a prespecified superiority criterion. The median duration of response was 7.1 months. The median progression-free survival was 5.7 months and the median overall survival was 13.7 months. In patients with fludarabine- and alemtuzumab-refractory CLL, infections and neutropenia were the most frequent treatment-related adverse events (all grades) that occurred during ofatumumab treatment; infection",
+            "journal": "Drugs",
+            "year": "2010",
+            "authors": [
+              "Sanford Mark",
+              "McCormack Paul L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20481657/"
+          },
+          {
+            "pmid": "32482755",
+            "title": "The regulation and function of CD20: an \"enigma\" of B-cell biology and targeted therapy.",
+            "abstract": "The introduction of anti-CD20 monoclonal antibodies such as rituximab, ofatumumab, or obinutuzumab improved the therapy of B-cell malignancies even though the precise physiological role and regulation of CD20 remains unclear. Furthermore, CD20 expression is highly variable between different B-cell malignancies, patients with the same malignancy, and even between intraclonal subpopulations in an individual patient. Several epigenetic (EZH2, HDAC1/2, HDAC1/4, HDAC6, complex Sin3A-HDAC1) and transcription factors (USF, OCT1/2, PU.1, PiP, ELK1, ETS1, SP1, NFκB, FOXO1, CREM, SMAD2/3) regulating CD20 expression (encoded by MS4A1) have been characterized. CD20 is induced in the context of microenvironmental interactions by CXCR4/SDF1 (CXCL12) chemokine signaling and the molecular function of CD20 has been linked to the signaling propensity of B-cell receptor (BCR). CD20 has also been shown to interact with multiple other surface proteins on B cells (such as CD40, MHCII, CD53, CD81, CD82, and ",
+            "journal": "Haematologica",
+            "year": "2020",
+            "authors": [
+              "Pavlasova Gabriela",
+              "Mraz Marek"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antigens, CD20",
+              "B-Lymphocytes",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Pyrimidines",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32482755/"
+          },
+          {
+            "pmid": "37138022",
+            "title": "Ofatumumab regimens in chronic lymphocytic leukemia: a meta-analysis.",
+            "abstract": "Ofatumumab's therapeutic impact on patients with chronic lymphocytic leukemia (CLL) has been the subject of increasing clinical research. However, in recent years, no studies have yet provided a pooled assessment of the treatment effect of ofatumumab vs. non-ofatumumab regimens. Therefore, we conducted a progression meta-analysis to evaluate the efficacy of ofatumumab-based treatment in CLL patients using data from clinical studies. Relevant publications from PubMed, Web of Science and ClinicalTrials.gov were searched. The efficacy outcomes were progression-free survival (PFS) and overall survival (OS). The articles reviewed in the mentioned databases and matching the specified keywords were searched until January 2023. The pooled efficacy analysis showed that there was a significant difference in PFS [hazard ratios (HR) = 0.62, 95% confidence interval (CI) = 0.52-0.74] and no significant difference in OS (HR = 0.86, 95% CI = 0.71-1.03) between ofatumumab-based therapy and non-ofatumum",
+            "journal": "Annals of hematology",
+            "year": "2023",
+            "authors": [
+              "Ashoub Muhammad Hossein",
+              "Naseri Amirreza",
+              "Mohammadi Parisa",
+              "Mohammadi Masoud"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Antibodies, Monoclonal",
+              "Progression-Free Survival"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37138022/"
+          },
+          {
+            "pmid": "26566719",
+            "title": "Ofatumumab for treating chronic lymphocytic leukemia: a safety profile.",
+            "abstract": "Ofatumumab, the first fully human IgG1κ, belongs to the second generation of the first class of anti-CD20 monoclonal antibodies. The drug used alone and in combination with drugs having different mechanisms of action has shown a favorable toxicity profile and significant benefit especially in relapsed/refractory chronic lymphocytic leukemia (CLL) patients in doses up to 2000 mg.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2015",
+            "authors": [
+              "Korycka-Wołowiec Anna",
+              "Wołowiec Dariusz",
+              "Robak Tadeusz"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antigens, CD20",
+              "Antineoplastic Agents",
+              "Humans",
+              "Immunotherapy",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Rituximab",
+              "Salvage Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26566719/"
+          },
+          {
+            "pmid": "25736010",
+            "title": "Chronic lymphocytic leukemia/small lymphocytic lymphoma, version 1.2015.",
+            "abstract": "Chronic lymphocytic leukemia (CLL) and small lymphocytic lymphoma (SLL) are different manifestations of the same disease, which are managed in the same way. The advent of novel monoclonal antibodies (ofatumumab and obinutuzumab) led to the development of effective chemoimmunotherapy regimens. The recently approved small molecule kinase inhibitors (ibrutinib and idelalisib) are effective treatment options for CLL in elderly patients with decreased tolerance for aggressive regimens and in patients with poor prognostic features who do not benefit from conventional chemoimmunotherapy regimens. This portion of the NCCN Guidelines for Non-Hodgkin's Lymphomas describes the recent specific to the incorporation of recently approved targeted therapies for the management of patients with newly diagnosed and relapsed or refractory CLL/SLL.",
+            "journal": "Journal of the National Comprehensive Cancer Network : JNCCN",
+            "year": "2015",
+            "authors": [
+              "Zelenetz Andrew D",
+              "Gordon Leo I",
+              "Wierda William G",
+              "Abramson Jeremy S",
+              "Advani Ranjana H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Algorithms",
+              "Comorbidity",
+              "Disease Management",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Neoplasm Staging",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25736010/"
+          },
+          {
+            "pmid": "33790574",
+            "title": "Oral PI3K-δ,γ Inhibitor for the Management of People with Chronic Lymphocytic Leukemia and Small Lymphocytic Lymphoma: A Narrative Review on Duvelisib.",
+            "abstract": "The development of highly effective targeted therapies has led to a new treatment paradigm in patients with chronic lymphocytic leukemia or small lymphocytic lymphoma (CLL/SLL). Despite these advances, many patients will eventually require alternative treatment strategies due to the emergence of tolerability issues or resistance to these novel agents. Duvelisib is a first-in-class, potent oral agent with dual inhibitor activity against the δ and γ isoforms of phosphoinositide 3-kinase (PI3Kδ and PI3Kγ), which are specific to the hematopoietic system. Dysregulation of the PI3K/PTEN/AKT/mTOR pathway has been implicated in cancer cell growth, survival and metabolism and has been the subject of cancer drug development in recent years. Duvelisib demonstrated activity in CLL/SLL in early trials, leading to further evaluation in the Phase 3 DUO trial that compared duvelisib against ofatumumab in patients with relapsed/refractory CLL/SLL. This trial led to the Food and Drug Administration (FDA",
+            "journal": "OncoTargets and therapy",
+            "year": "2021",
+            "authors": [
+              "Shah Ankit",
+              "Barrientos Jacqueline C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33790574/"
+          },
+          {
+            "pmid": "24947256",
+            "title": "Ofatumumab as front-line therapy in untreated chronic lymphocytic leukemia.",
+            "abstract": "Ofatumumab is a fully human IgG1 type I anti-CD20 monoclonal antibody that binds to both the small and large loop of the membrane antigen CD20. Much of its therapeutic efficacy is derived through complement-dependent cytotoxicity, although it also appears to operate via induction of caspase-dependent apoptosis and shows potent antibody-dependent cellular phagocytosis. CD20 is an important but sometimes difficult antigen to effectively target in chronic lymphocytic leukemia (CLL) secondary to its overall dim expression in CLL cells. Currently, ofatumumab is approved in the USA and EU for fludarabine- and alemtuzumab-refractory CLL patients. However, the experience with ofatumumab in untreated CLL patients is mounting and shows competitive response and survival rates with an acceptable adverse event profile. Herein, we outline the efficacy and toxicities of ofatumumab alone and in combination for the front-line treatment of CLL.",
+            "journal": "Future oncology (London, England)",
+            "year": "2014",
+            "authors": [
+              "Reagan John L",
+              "Castillo Jorge J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Survival Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24947256/"
+          },
+          {
+            "pmid": "23211638",
+            "title": "Epitope interactions of monoclonal antibodies targeting CD20 and their relationship to functional properties.",
+            "abstract": "Several novel anti-CD20 monoclonal antibodies are currently in development with the aim of improving the treatment of B cell malignancies. Mutagenesis and epitope mapping studies have revealed differences between the CD20 epitopes recognized by these antibodies. Recently, X-ray crystallography studies confirmed that the Type I CD20 antibody rituximab and the Type II CD20 antibody obinutuzumab (GA101) differ fundamentally in their interaction with CD20 despite recognizing a partially overlapping epitope on CD20. The Type I CD20 antibodies rituximab and ofatumumab are known to bind to different epitopes. The differences suggest that the biological properties of these antibodies are not solely determined by their core epitope sequences, but also depend on other factors, such as the elbow hinge angle, the orientation of the bound antibody and differential effects mediated by the Fc region of the antibody. Taken together, these factors may explain differences in the preclinical properties a",
+            "journal": "mAbs",
+            "year": "2013",
+            "authors": [
+              "Klein Christian",
+              "Lammens Alfred",
+              "Schäfer Wolfgang",
+              "Georges Guy",
+              "Schwaiger Manfred"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antigens, CD20",
+              "Clinical Trials as Topic",
+              "Crystallography, X-Ray",
+              "Epitope Mapping",
+              "Epitopes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23211638/"
+          },
+          {
+            "pmid": "27854102",
+            "title": "The Next Generation of Targeted Molecules for the Treatment of Chronic Lymphocytic Leukemia.",
+            "abstract": "With the recent approval of several new targeted therapies for chronic lymphocytic leukemia (CLL), there are now multiple options for its treatment. Inhibitors of Bruton tyrosine kinase (with ibrutinib being the first-in-class US Food and Drug Administration-approved agent) and phosphoinositide 3-kinase (with idelalisib as the first-in-class approved agent) are promising because they are generally well tolerated and highly effective against this malignancy. These agents may be particularly important in the treatment of older patients who are less able to tolerate the myelosuppression (and subsequent infections) associated with chemoimmunotherapy. As a class of medications, B-cell receptor inhibitors have some unique side effects, including redistribution lymphocytosis. Toxicities associated specifically with ibrutinib include increased risk for bleeding and atrial fibrillation. Idelalisib also has some unique toxicities: transaminitis, colitis, and pneumonitis. Targeted therapies recen",
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "2016",
+            "authors": [
+              "Jeyakumar Deepa",
+              "O'Brien Susan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Molecular Targeted Therapy",
+              "Phosphatidylinositol 3-Kinases",
+              "Pyrazoles",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27854102/"
+          },
+          {
+            "pmid": "26408673",
+            "title": "Chronic Lymphocytic Leukemia: Current Concepts.",
+            "abstract": "Chronic lymphocytic leukemia (CLL) is the most common type of leukemia in adults, and while in early, asymptomatic stages treatment is not indicated, the threat to the quality of life and increased mortality of patients posed by more advanced-stage disease necessitate therapeutic intervention. Guidelines of when and how to treat are not well-established because CLL is a disease of the elderly and it is important to balance preservation of functional status and control of the disease. Advances in molecular and genetic profiling has led to the ability to identify sub-groups of patients with CLL whose disease may respond to selected therapy. This review discusses current standard therapies in the major sub-groups of CLL based on age and functional status, in both the front-line and relapsed/refractory settings. It also provides a concise review of novel agents that have shown considerable efficacy in CLL.",
+            "journal": "Anticancer research",
+            "year": "2015",
+            "authors": [
+              "Yu Eun-Mi",
+              "Kittai Adam",
+              "Tabbara Imad A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Factors",
+              "Aged",
+              "Antineoplastic Agents",
+              "Biomarkers, Tumor",
+              "Genetic Predisposition to Disease",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Molecular Targeted Therapy",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26408673/"
+          },
+          {
+            "pmid": "24925211",
+            "title": "Ofatumumab and bendamustine in previously treated chronic lymphocytic leukemia and small lymphocytic lymphoma.",
+            "abstract": "Despite initial responses > 90% with fludarabine and rituximab-based regimens, patients with chronic lymphocytic leukemia (CLL) invariably relapse and require further treatment. Ofatumumab and bendamustine have each shown efficacy in relapsed/refractory CLL with overall response rates (ORRs) of 58% and 76%, respectively. Given excellent data with bendamustine and rituximab in relapsed/refractory CLL/small lymphocytic lymphoma (SLL), this phase II study evaluated the combination of ofatumumab and bendamustine in previously treated patients. Patients received ofatumumab 300 mg intravenously (IV) day - 7, followed by ofatumumab 1000 mg IV day 1 and bendamustine 70 mg/m(2) days 1 and 2 of each 28-day cycle. Patients received 4-6 cycles depending on number of prior therapies, as long as well-tolerated or until progression. Of 10 patients enrolled, the ORR was 40% and complete response rate was 20%. The median progression-free and overall survivals were 8.1 months and 16.2 months. Three pati",
+            "journal": "Leukemia & lymphoma",
+            "year": "2015",
+            "authors": [
+              "Ujjani Chaitra",
+              "Ramzi Pari",
+              "Gehan Edmund",
+              "Wang Hongkun",
+              "Wang Yiru"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anemia",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bendamustine Hydrochloride",
+              "Disease-Free Survival",
+              "Drug Administration Schedule",
+              "Fatigue"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24925211/"
+          },
+          {
+            "pmid": "28782884",
+            "title": "Chronic lymphocytic leukemia: 2017 update on diagnosis, risk stratification, and treatment.",
+            "abstract": "Chronic lymphocytic leukemia (CLL) is the commonest leukemia in western countries. The disease typically occurs in elderly patients and has a highly variable clinical course. Leukemic transformation is initiated by specific genomic alterations that impair apoptosis of clonal B cells.",
+            "journal": "American journal of hematology",
+            "year": "2017",
+            "authors": [
+              "Hallek Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chromosome Deletion",
+              "Chromosomes, Human, Pair 17",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Piperidines",
+              "Pyrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28782884/"
+          },
+          {
+            "pmid": "29212732",
+            "title": "The Role of Rituximab in Chronic Lymphocytic Leukemia Treatment and the Potential Utility of Biosimilars.",
+            "abstract": "Chronic lymphocytic leukemia (CLL) is managed with observation for asymptomatic or clinically silent disease; pharmacologic intervention is generally required for symptomatic patients with clinically significant adenopathy or cytopenia. In the front-line treatment of CLL, the current standard-of-care includes chemotherapy in combination with an anti-CD20 monoclonal antibody (e.g., rituximab, ofatumumab, or obinutuzumab) or ibrutinib as single agent. Despite the evolving treatment paradigm toward targeted therapy, it is likely that rituximab (plus chemotherapy), with or without targeted agents, will retain a significant role in CLL treatment. However, patents for many biologics, including rituximab, have expired or will expire in the near future. Furthermore, access to rituximab has remained challenging, particularly in countries with restricted resources. Together, these concerns have prompted the development of safe and effective rituximab biosimilars. The term \"biosimilar\" refers to ",
+            "journal": "The oncologist",
+            "year": "2018",
+            "authors": [
+              "Brown Jennifer R",
+              "Cymbalista Florence",
+              "Sharman Jeff",
+              "Jacobs Ira",
+              "Nava-Parada Pilar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal, Murine-Derived",
+              "Antineoplastic Agents",
+              "Biosimilar Pharmaceuticals",
+              "Drug Development",
+              "Health Services Accessibility",
+              "Humans",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Rituximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29212732/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "metastatic neoplasm",
+        "txgnn_score": 0.994983434677124,
+        "txgnn_rank": 6498,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01659021",
+            "title": "A Phase 3, Randomized, Controlled Study Evaluating the Efficacy and Safety of Idelalisib (GS-1101) in Combination With Ofatumumab for Previously Treated Chronic Lymphocytic Leukemia",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2012-12-04",
+            "completion_date": "2018-08-15",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Belgium, Denmark, United States, Sweden, Ireland, Poland",
+            "enrollment": 261,
+            "brief_summary": "The primary objective of this study is to evaluate the effect of the addition of idelalisib to ofatumumab on progression-free survival (PFS) in participants with previously treated chronic lymphocytic leukemia (CLL).",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Adults with previously treated recurrent CLL who have measurable lymphadenopathy\n* Require therapy for CLL\n* Have experienced CLL progression \\< 24 months since the completion of the last prior therapy\n* Have disease that is not refractory to ofatumumab\n\nNote: Other protoc",
+            "endpoints": [
+              "Progression-Free Survival"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT01659021"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01465334",
+            "title": "A Phase II Study of Ofatumumab-High Dose Methylprednisolone Followed by Ofatumumab-Alemtuzumab in 17p Deletion CLL",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2011-12",
+            "completion_date": "2017-01",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The main purpose of this study is to examine how two separate groups of 17p deletion Chronic lymphocytic leukemia (CLL) participants respond to sequential treatment with this particular combination of drugs. The two groups are those participants who have previously received treatment for their CLL and those who have not yet received any treatment. The combination of drugs is Ofatumumab and High-Dose Methylprednisolone (HDMP) first followed by Ofatumumab and Alemtuzumab. All three drugs are FDA a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented CLL/SLL\n* 17p deletion by FISH in 20% or more nuclei on peripheral blood, bone marrow or lymph node\n* Normal organ function\n\nExclusion Criteria:\n\n* Pregnant or breast feeding\n* Current active hepatic or biliary disease\n* Chronic or current infectious disease requiri",
+            "endpoints": [
+              "Induction Overall Response Rate (ORR)"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01465334"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01200589",
+            "title": "Phase III Randomized, Open Label Study of Single Agent Ofatumumab Vs. Single Agent Rituximab in Indolent B-Cell Non Hodgkin Lymphoma Relapsed After Rituximab-Containing Therapy",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2010-10-11",
+            "completion_date": "2016-12-19",
+            "country": "France, Canada, Slovakia, Brazil, Belgium, South Korea, United States, China, Peru, Bulgaria, Czechia, Hungary, Ukraine, South Africa, Puerto Rico, Japan",
+            "enrollment": 438,
+            "brief_summary": "This was a multi-center, parallel, active comparator controlled, open-label, randomized (1:1) phase III study of single agent ofatumumab compared to single agent rituximab in subjects with rituximab-sensitive indolent B-cell non hodgkin lymphoma that has relapsed at least 6 months after completing treatment with single agent rituximab or a rituximab-containing regimen. Subjects must have attained a Complete Response or Partial Response to their last prior rituximab containing therapy lasting at ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Indolent NHL subtypes defined according to World Health Organization guidelines:\n\n   1. Follicular lymphoma Grades 1, 2, 3 A\n   2. Small lymphocytic lymphoma (SLL)\n   3. Marginal zone lymphoma\n   4. Lymphoplasmacytic lymphoma\n2. Rituximab-sensitive iNHL, defined as a partial ",
+            "endpoints": [
+              "Progression-free Survival (PFS) - Number of Participants With PFS Events"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01200589"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01191190",
+            "title": "A Phase II Study of Ofatumumab in Combination With High-dose Methylprednisolone in Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia (CLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-08",
+            "completion_date": "2012-08",
+            "country": "United States",
+            "enrollment": 21,
+            "brief_summary": "Patients who have relapsed/refractory CLL and require therapy as per iwCLL guidelines will be eligible. Subjects will receive a treatment with ofatumumab and HDMP for three consecutive 4 week cycles. The primary endpoint is to determine the complete response (CR) to therapy and the secondary endpoints will assess the safety and tolerability of the regimen, the impact of the treatment on progression free, treatment free, overall survival, and pharmacokinetics of ofatumumab. Patients will receive ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Previously treated patients with a diagnosis of CLL\n2. Previous treatment with any monoclonal antibody or chemotherapy regardless of response as defined by the iwCLL Working Group Guidelines as evidenced by:\n\n   * progressive marrow failure as manifested by the development of",
+            "endpoints": [
+              "IwCLL-WG Defined Complete Response (CR)"
+            ],
+            "sponsor": "University of California, San Diego",
+            "url": "https://clinicaltrials.gov/study/NCT01191190"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02004522",
+            "title": "A Phase 3 Study of Duvelisib Versus Ofatumumab in Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia/ Small Lymphocytic Lymphoma (DUO)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2021-06",
+            "country": "Australia, Spain, France, United Kingdom, New Zealand, Belgium, Austria, Germany, Italy, United States, Hungary",
+            "enrollment": 319,
+            "brief_summary": "A Phase 3 clinical trial to examine the efficacy of duvelisib monotherapy versus ofatumumab monotherapy in subjects with relapsed or refractory Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of active CLL or SLL that meets at least one of the IWCLL 2008 criteria for requiring treatment (Binet Stage ≥ B and/or Rai Stage ≥ I)\n* Disease that has progressed during or relapsed after at least one previous CLL/SLL therapy\n* Not appropriate for treatment with a ",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "SecuraBio",
+            "url": "https://clinicaltrials.gov/study/NCT02004522"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01131247",
+            "title": "PHASE II CLINICAL PROTOCOL FOR THE TREATMENT OF PATIENTS WITH RELAPSED/REFRACTORY CHRONIC LYMPHOCYTIC LEUKEMIA WITH A COMBINATION OF BENDAMUSTINE AND OFATUMUMAB",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "Investigational Drugs:\n\nOfatumumab (Azerra) + bendamustine (Trenda)\n\nRoute of Administration:\n\nIntravenous (IV)\n\nHypothesis:\n\nThis study is designed to assess the toxicity and overall response rate. Ofatumumab is a fully human monoclonal antibody (A type of protein made in the laboratory that can bind to substances in the body, including tumor cells) that shows promising activity in the treatment of CLL as a single agent. It is thought that by combining it with Bendamustine, an FDA approved trea",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be \\>/= 18 years old and able to provide consent\n* Must have diagnosis of CLL as defined by NCI criteria\n* Must require chemotherapy\n* Must be previously treated with a minimum of one course of prior chemo or other treatment\n* Serum creatinine \\<1.8 mg/dl\n* Bilirubin must",
+            "endpoints": [
+              "Overall Response Rate/ Efficacy"
+            ],
+            "sponsor": "Nevada Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01131247"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01376713",
+            "title": "CD20-Immunotargeting in Metastatic Melanoma Patients- A Prospective, Open Label, Sequential Pilot Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-06",
+            "completion_date": "2015-05",
+            "country": "Austria",
+            "enrollment": 10,
+            "brief_summary": "The purpose of this study is to assess the overall disease control rate of Ofatumumab wo/w Dacarbazine in subjects with American Joint Committee on Cancer (AJCC 2009) unresectable stage III or stage IV melanoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients older than 18 years\n* Signed informed consent\n* Metastatic non-ocular melanoma - unresectable stage III B (T1- 4a, N2b-c), stage III C (AJCC 2009) or stage IV (AJCC 2009).\n* measurable disease with more than one metastatic lesion, according to RECIST v. 1.1 criteria,\n",
+            "endpoints": [
+              "Disease control according to RECIST v. 1.1 criteria"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT01376713"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01613300",
+            "title": "Ofatumumab as Part of the Reduced Intensity Conditioning Regimen (RIC) for Patients With High Risk B Non Hodgkin's Lymphoma Undergoing Allogeneic Hematopoietic Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-04-04",
+            "completion_date": "2020-06",
+            "country": "Spain",
+            "enrollment": 33,
+            "brief_summary": "The aim of this study is rate of acute graft-versus-host disease II-IV measured at day +365according to conventional criteria (Przepiorka et al. 1995) in patients with high risk non-Hodgkin lymphoma B subjects with Allogeneic Stem Cell Transplant",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects who have given their informed consent before any study-specific procedures\n2. Histopathological diagnostic of NHL cell B CD 20 + B of different histologic subtypes:\n3. High risk CD +20 Lymphoma having at least one of the following characteristics:\n\n   * Less than a p",
+            "endpoints": [
+              "Rate of acute grade II-IV graft-versus-host disease at 1 year"
+            ],
+            "sponsor": "Grupo Español de Linfomas y Transplante Autólogo de Médula Ósea",
+            "url": "https://clinicaltrials.gov/study/NCT01613300"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01195766",
+            "title": "Phase II-study Using Ofatumumab and ESHAP Followed by Autologous Trasplant of Hemopoietic Precursors for the Treatment of Classic Hodgkin's Lymphoma on Relapse, Partial Response or Refractory to First Line Treatment",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-07",
+            "completion_date": "2015-05",
+            "country": "Spain",
+            "enrollment": 64,
+            "brief_summary": "The aim of this study is to analyze the efficacy of O-ESHAP treatment for Hodgkin's lymphome patients that have a first line chemotherapy treatment failure due to refractoriness, partial response or relapsed.\n\nIn the same way, mortality, global survival and free-progression survival after O-ESHAP treatment and TAPH will also analyzed.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with histologically confirmed relapsed, partial response or refractory classical HL after first line chemotherapy. They will be included irrespective of CD20 expression on HRS cells. CD20 expression will be analyzed on all available biopsies and this data will be reco",
+            "endpoints": [
+              "Analysis of the global response rate (complete responses + partial responses) after O-ESHAP treatment"
+            ],
+            "sponsor": "Grupo Español de Linfomas y Transplante Autólogo de Médula Ósea",
+            "url": "https://clinicaltrials.gov/study/NCT01195766"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04047628",
+            "title": "A Multicenter Randomized Controlled Trial of Best Available Therapy Versus Autologous Hematopoietic Stem Cell Transplant for Treatment-Resistant Relapsing Multiple Sclerosis (ITN077AI)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2019-12-19",
+            "completion_date": "2029-10",
+            "country": "United States",
+            "enrollment": 156,
+            "brief_summary": "This is a multi-center prospective rater-masked (blinded) randomized controlled trial of 156 participants, comparing the treatment strategy of Autologous Hematopoietic Stem Cell Transplantation (AHSCT) to the treatment strategy of Best Available Therapy (BAT) for treatment-resistant relapsing multiple sclerosis (MS). Participants will be randomized at a 1 to 1 (1:1) ratio.\n\nAll participants will be followed for 72 months after randomization (Day 0, Visit 0).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 to 55 years, inclusive, at the time of the screening Visit -2.\n2. Diagnosis of MS according to the 2017 McDonald Criteria139.\n3. EDSS ≤ 6.0 at the time of randomization (Day 0).\n4. T2 abnormalities on brain MRI that fulfill the 2017 McDonald MRI criteria for disseminat",
+            "endpoints": [
+              "Multiple Sclerosis (MS) Relapse-Free Survival"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04047628"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01520922",
+            "title": "A Phase II, Multi-centre Study Investigating the Safety and Efficacy of Ofatumumab and Bendamustine Combination in Patients With Untreated or Relapsed Chronic Lymphocytic Leukaemia (CLL)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2015-11",
+            "country": "Spain, Belgium, Italy, United States, Russia, Czechia, Greece, Poland",
+            "enrollment": 99,
+            "brief_summary": "This is a Phase II, open label, single arm, multi-centre study investigating the safety and efficacy of ofatumumab plus bendamustine in subjects with untreated or relapsed CLL.\n\nEach subject from the screening phase who is willing to participate in the study and is found eligible according to the inclusion and exclusion criteria will enter the treatment phase and will receive a maximum of 6 Cycles of study treatment (ofatumumab plus bendamustine). All subjects will receive 3 Cycles of study trea",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A diagnosis of CLL defined by a circulating B-lymphocyte count of greater than or equal to 5,000/uL at study entry or at any time in the past and flow cytometry confirmation of immunophenotype with CD5, CD19, CD20, CD23, CD79b, and surface Ig prior to first dose of study treat",
+            "endpoints": [
+              "Number of Participants With Overall Response (OR), as Assessed by the Investigator"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01520922"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00622388",
+            "title": "An Open-label, Single-arm. Multi-center Phase 2 Trial With Ofatumumab in Patients With Relapsed/Progressive Diffuse Large B-Cell Lymphoma (DLBCL) Ineligible for Transplant or Relapse/Progression After Autologous Transplant",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-12",
+            "completion_date": "2014-08",
+            "country": "United Kingdom",
+            "enrollment": 81,
+            "brief_summary": "The purpose of this trial is to determine the effect of ofatumumab in patients with Diffused Large B-Cell Lymphoma (DLBCL) ineligible for transplant or relapsed after autologous transplant",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients with DLBCL\n\n* and relapse after complete remission or disease progression after partial remission who are ineligible for autologous stem cell transplantation\n* and relapse after complete remission or disease progression after partial remission following autologous stem ",
+            "endpoints": [
+              "Number of Participants With Objective Response",
+              "Number of Participants Classified as Responders and Non-responders for Objective Response"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT00622388"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27389174",
+            "title": "Associations of ofatumumab exposure and treatment outcomes in patients with untreated CLL receiving chemoimmunotherapy.",
+            "abstract": "Relationships between patient characteristics, ofatumumab pharmacokinetics, and treatment outcomes were investigated in this phase 2 trial of ofatumumab plus fludarabine and cyclophosphamide (FC) in untreated chronic lymphocytic leukemia. Patients were randomized 1:1 to receive 500 or 1000 mg ofatumumab (Cycle 1; 300 mg) plus FC every 4 weeks for six cycles. Median Cmax and Ctrough values were similar at Cycle 1 regardless of the ultimate clinical outcome. At later doses, these values were higher for patients with complete response (CR) than for other patients. Higher Cmax and Ctrough values at Cycles 3 and 6 were significantly associated with an increased likelihood of CR, whereas ofatumumab pharmacokinetics were not associated with an objective response (OR) on the basis of univariate analyses. Multivariate analyses indicated that baseline patient/disease factors were predominantly associated with CR (17p status) or OR (bulky lymphadenopathy, gender, and serum thymidine kinase), rath",
+            "journal": "Leukemia & lymphoma",
+            "year": "2017",
+            "authors": [
+              "Jewell Roxanne C",
+              "Kipps Thomas J",
+              "Dürig Jan",
+              "Griskevicius Laimonas",
+              "Stilgenbauer Stephan"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chromosome Aberrations",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27389174/"
+          },
+          {
+            "pmid": "28928360",
+            "title": "Tumor-associated B-cells induce tumor heterogeneity and therapy resistance.",
+            "abstract": "In melanoma, therapies with inhibitors to oncogenic BRAFV600E are highly effective but responses are often short-lived due to the emergence of drug-resistant tumor subpopulations. We describe here a mechanism of acquired drug resistance through the tumor microenvironment, which is mediated by human tumor-associated B cells. Human melanoma cells constitutively produce the growth factor FGF-2, which activates tumor-infiltrating B cells to produce the growth factor IGF-1. B-cell-derived IGF-1 is critical for resistance of melanomas to BRAF and MEK inhibitors due to emergence of heterogeneous subpopulations and activation of FGFR-3. Consistently, resistance of melanomas to BRAF and/or MEK inhibitors is associated with increased CD20 and IGF-1 transcript levels in tumors and IGF-1 expression in tumor-associated B cells. Furthermore, first clinical data from a pilot trial in therapy-resistant metastatic melanoma patients show anti-tumor activity through B-cell depletion by anti-CD20 antibody",
+            "journal": "Nature communications",
+            "year": "2017",
+            "authors": [
+              "Somasundaram Rajasekharan",
+              "Zhang Gao",
+              "Fukunaga-Kalabis Mizuho",
+              "Perego Michela",
+              "Krepler Clemens"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "B-Lymphocytes",
+              "Cell Survival",
+              "Cisplatin",
+              "Drug Resistance, Neoplasm",
+              "Fibroblast Growth Factor 2",
+              "Humans",
+              "In Vitro Techniques"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28928360/"
+          },
+          {
+            "pmid": "29284380",
+            "title": "Potential cost savings by dose down-rounding of monoclonal antibodies in a community cancer center.",
+            "abstract": "Purpose Increasing new cancer cases and approval of effective but expensive new drugs extending survival have led to unsustainable cancer care costs. Potential cost savings by a hypothetical dose down-rounding project of monoclonal antibodies at a community-based cancer center is presented. Methods From October 2014 through October 2015, metastatic cancer patients receiving monoclonal antibodies at CHI-Health St Francis Cancer Treatment Center in Grand Island, Nebraska, were identified through electronic health records. A total of 11 different types of monoclonal antibodies that were administered during the study period were identified. Trastuzumab, ofatumumab, and obinutuzumab did not require dose-rounding; thus, they were excluded from the analyses. Available vial size(s) and costs per milligram per average wholesale price for each monoclonal antibody were recorded. Costs of actual amounts prescribed were compared to the costs of theoretically reduced ≤5% and ≤10% doses rounded to th",
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2018",
+            "authors": [
+              "Copur Mehmet S",
+              "Gnewuch Curtis",
+              "Schriner Megan",
+              "Tharnish Mark",
+              "Gonen Mithat"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents, Immunological",
+              "Cancer Care Facilities",
+              "Cost Savings",
+              "Drug Costs",
+              "Humans",
+              "Neoplasm Metastasis",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29284380/"
+          },
+          {
+            "pmid": "28303751",
+            "title": "Vasoactive peptides associate with treatment outcome ofbevacizumab-containing therapy in metastatic colorectal cancer.",
+            "abstract": "Hypertension is a common early adverse event of anti-angiogenic treatment of cancer and may associate with treatment response. However, blood pressure measurement as a surrogate response biomarker has methodological limitations, and predictive biomarkers of angiogenesis inhibitors are lacking. In disease associated with hypertension, vasoactive peptides have been linked to cardiovascular pressure load. Here, we have explored potential associations between circulating levels of vasoactive peptides and tumor response during bevacizumab-containing treatment of colorectal cancer.",
+            "journal": "Acta oncologica (Stockholm, Sweden)",
+            "year": "2017",
+            "authors": [
+              "Hagman Helga",
+              "Bendahl Pär-Ola",
+              "Melander Olle",
+              "Sundberg Jan",
+              "Johnsson Anders"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adrenomedullin",
+              "Adult",
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Atrial Natriuretic Factor",
+              "Biomarkers, Tumor",
+              "Colorectal Neoplasms",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28303751/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant spiradenoma",
+        "txgnn_score": 0.9948455095291138,
+        "txgnn_rank": 6619,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Langerhans cell histiocytosis",
+        "txgnn_score": 0.9934083223342896,
+        "txgnn_rank": 7908,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "histiocytic and dendritic cell neoplasm",
+        "txgnn_score": 0.9899412989616394,
+        "txgnn_rank": 10568,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "childhood mediastinal neurogenic neoplasm",
+        "txgnn_score": 0.9894329905509948,
+        "txgnn_rank": 10937,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06650",
+    "name": "Ofatumumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ofatumumab"
+      },
+      "queried_at": "2026-03-09T18:24:53.798058",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ofatumumab"
+      },
+      "queried_at": "2026-03-09T18:25:26.192768",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+      },
+      "queried_at": "2026-03-09T18:25:27.302437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+      },
+      "queried_at": "2026-03-09T18:25:32.805241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+      },
+      "queried_at": "2026-03-09T18:25:34.604038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      },
+      "queried_at": "2026-03-09T18:25:35.117143",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      },
+      "queried_at": "2026-03-09T18:25:40.667035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      },
+      "queried_at": "2026-03-09T18:25:41.526020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "follicular lymphoma"
+      },
+      "queried_at": "2026-03-09T18:25:47.002822",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "follicular lymphoma"
+      },
+      "queried_at": "2026-03-09T18:25:52.420387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "follicular lymphoma"
+      },
+      "queried_at": "2026-03-09T18:26:01.333854",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "leukemia, lymphocytic, susceptibility to"
+      },
+      "queried_at": "2026-03-09T18:26:04.574863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "leukemia, lymphocytic, susceptibility to"
+      },
+      "queried_at": "2026-03-09T18:26:09.056892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "leukemia, lymphocytic, susceptibility to"
+      },
+      "queried_at": "2026-03-09T18:26:11.505903",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      },
+      "queried_at": "2026-03-09T18:26:21.557418",
+      "status": "success",
+      "result_count": 34,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      },
+      "queried_at": "2026-03-09T18:26:26.486212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      },
+      "queried_at": "2026-03-09T18:26:37.814456",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "metastatic neoplasm"
+      },
+      "queried_at": "2026-03-09T18:26:39.888651",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "metastatic neoplasm"
+      },
+      "queried_at": "2026-03-09T18:26:44.179751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "metastatic neoplasm"
+      },
+      "queried_at": "2026-03-09T18:26:47.366794",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "malignant spiradenoma"
+      },
+      "queried_at": "2026-03-09T18:26:48.005568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "malignant spiradenoma"
+      },
+      "queried_at": "2026-03-09T18:26:54.220203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "malignant spiradenoma"
+      },
+      "queried_at": "2026-03-09T18:26:55.813200",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "Langerhans cell histiocytosis"
+      },
+      "queried_at": "2026-03-09T18:26:56.410671",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "Langerhans cell histiocytosis"
+      },
+      "queried_at": "2026-03-09T18:27:01.508022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "Langerhans cell histiocytosis"
+      },
+      "queried_at": "2026-03-09T18:27:05.180077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "histiocytic and dendritic cell neoplasm"
+      },
+      "queried_at": "2026-03-09T18:27:07.233773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "histiocytic and dendritic cell neoplasm"
+      },
+      "queried_at": "2026-03-09T18:27:13.079925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "histiocytic and dendritic cell neoplasm"
+      },
+      "queried_at": "2026-03-09T18:27:14.469945",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "childhood mediastinal neurogenic neoplasm"
+      },
+      "queried_at": "2026-03-09T18:27:15.316046",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "childhood mediastinal neurogenic neoplasm"
+      },
+      "queried_at": "2026-03-09T18:27:21.994538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ofatumumab",
+        "disease": "childhood mediastinal neurogenic neoplasm"
+      },
+      "queried_at": "2026-03-09T18:27:24.184849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:27:24.217805"
+  }
+}

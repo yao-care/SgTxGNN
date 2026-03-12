@@ -1,0 +1,669 @@
+{
+  "drug": {
+    "inn": "Doxylamine",
+    "drugbank_id": "DB00366",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9984834790229796,
+        "txgnn_rank": 2785,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9935927987098694,
+        "txgnn_rank": 7742,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9933633804321288,
+        "txgnn_rank": 7953,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.9925962090492249,
+        "txgnn_rank": 8558,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.974635660648346,
+        "txgnn_rank": 19470,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "IgE responsiveness, atopic",
+        "txgnn_score": 0.968914270401001,
+        "txgnn_rank": 21659,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9054139852523804,
+        "txgnn_rank": 34253,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.8375861644744873,
+        "txgnn_rank": 39988,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.8324973583221436,
+        "txgnn_rank": 40246,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06772974",
+            "title": "Comparison of Tablet Ginger Versus Tablet Doxylamine Succinate in Control of Nausea and Vomiting in Pregnancy",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-01-15",
+            "completion_date": "2025-07-15",
+            "country": "Pakistan",
+            "enrollment": 66,
+            "brief_summary": "Nausea and vomiting are common GI symptoms of pregnancy. Multiple managing options have been used for NVP. Doxylamine succinate is used as first line treatment for NVP despite that alternative modalities such as ginger extracts and tablets is being explored.\n\nThis RCT will be conducted after taking ethical approval and informed consent, in Department of Gynecology, Aziz Bhatti Shaheed teaching hospital, Gujrat. Patients will be divided into two equal groups. One group will receive tablet ginger ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pregnant women age\\>18 years\n* 5 to 8weeks of gestation and 8+1to11weeks\n* Attending OPD with signs and symptoms of nausea and vomiting with ultrasound confirmed pregnancy\n* 1st and 2nd gravida\n* Patients who will give consent\n\nExclusion Criteria:\n\n* Patients were hospitalized",
+            "endpoints": [
+              "Reduction in Nausea and Vomiting based on Pregnancy-Unique Quantification of Emesis Score"
+            ],
+            "sponsor": "Nawaz Sharif Medical College",
+            "url": "https://clinicaltrials.gov/study/NCT06772974"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29671128",
+            "title": "A Phase I Study of the Pharmacokinetics and Pharmacodynamics of Intranasal Doxylamine in Subjects with Chronic Intermittent Sleep Impairment.",
+            "abstract": "Doxylamine tablets are approved as an over-the-counter sleep aid. We developed a doxylamine succinate intranasal metered-dose delivery system with the expectation of a more rapid onset of action with reduced side-effect potential compared with the oral tablet.",
+            "journal": "Drugs in R&D",
+            "year": "2018",
+            "authors": [
+              "Allison Mark",
+              "Hale Cecilia"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Biological Availability",
+              "Cross-Over Studies",
+              "Dose-Response Relationship, Drug",
+              "Doxylamine",
+              "Female",
+              "Histamine H1 Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29671128/"
+          },
+          {
+            "pmid": "17474541",
+            "title": "Efficacy of a single evening dose of syrup containing paracetamol, dextromethorphan hydrobromide, doxylamine succinate and ephedrine sulfate in subjects with multiple common cold symptoms.",
+            "abstract": "The aim of this study was to evaluate the efficacy of a single night-time dose of a syrup containing paracetamol, dextromethorphan hydrobromide, doxylamine succinate and ephedrine sulfate in subjects with multiple cold symptoms.",
+            "journal": "International journal of clinical pharmacology and therapeutics",
+            "year": "2007",
+            "authors": [
+              "Mizoguchi H",
+              "Wilson A",
+              "Jerdack G R",
+              "Hull J D",
+              "Goodale M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Adolescent",
+              "Adult",
+              "Analgesics, Non-Narcotic",
+              "Antitussive Agents",
+              "Bronchodilator Agents",
+              "Common Cold",
+              "Dextromethorphan",
+              "Double-Blind Method",
+              "Doxylamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17474541/"
+          },
+          {
+            "pmid": "25822385",
+            "title": "Practical selection of antiemetics in the ambulatory setting.",
+            "abstract": "Nausea and vomiting are mediated primarily by three neurotransmitter pathways: visceral stimulation releases dopamine and serotonin; vestibular and central nervous system activation release histamine and acetylcholine; and chemoreceptor trigger zone activation releases dopamine and serotonin. Clinicians can improve the effectiveness and cost-effectiveness of treatments by targeting the appropriate pathways. Antihistamines and anticholinergics are most effective in patients with vestibular-mediated nausea secondary to vertigo. Serotonin antagonists block serotonin in the intestines and chemoreceptor trigger zone, and are most effective for treating gastroenteritis. Dopamine antagonists block dopamine in the intestines and chemoreceptor trigger zone; indications for these agents are similar to those for serotonin antagonists. For treatment of mild pregnancy-induced nausea, pyridoxine with or without doxylamine is recommended, and ginger may also be effective. In patients with migraine he",
+            "journal": "American family physician",
+            "year": "2015",
+            "authors": [
+              "Flake Zachary A",
+              "Linn Becky S",
+              "Hornecker Jaime R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antiemetics",
+              "Clinical Decision-Making",
+              "Female",
+              "Gastritis",
+              "Humans",
+              "Hyperemesis Gravidarum",
+              "Migraine Disorders",
+              "Nausea",
+              "Pregnancy",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25822385/"
+          },
+          {
+            "pmid": "787738",
+            "title": "Treatment of migraine attacks with an analgesic combination (Mersyndol).",
+            "abstract": "The relief of acute migraine attacks with an analgesic/antihistamine combination containing paracetamol, codeine phosphate, doxylamine succinate and caffeine (Mersyndol) compared with that achieved with a placebo has been studied in a double-blind, crossover trial. Mersyndol emerged as significantly better than placebo in the complete relief of migraine pain, and was clearly superior to placebo in partially relieving the pain of migraine. These results suggest that it could be a useful alternative to ergotamine, and a comparative trial with ergotamine is suggested. Side effects with this combination were fairly common but mild, and consisted mainly of drowsiness caused by the antihistamine component.",
+            "journal": "The Medical journal of Australia",
+            "year": "1976",
+            "authors": [
+              "Somerville B W"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Acute Disease",
+              "Caffeine",
+              "Clinical Trials as Topic",
+              "Codeine",
+              "Doxylamine",
+              "Drug Combinations",
+              "Humans",
+              "Migraine Disorders",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/787738/"
+          },
+          {
+            "pmid": "24098516",
+            "title": "Misuse and dependence on non-prescription codeine analgesics or sedative H1 antihistamines by adults: a cross-sectional investigation in France.",
+            "abstract": "Given the growing worldwide market of non-prescription drugs, monitoring their misuse in the context of self-medication represents a particular challenge in Public Health. The aim of this study was to investigate the prevalence of misuse, abuse, and dependence on non-prescription psychoactive drugs.",
+            "journal": "PloS one",
+            "year": "2013",
+            "authors": [
+              "Roussin Anne",
+              "Bouyssi Annabelle",
+              "Pouché Lucie",
+              "Pourcel Laure",
+              "Lapeyre-Mestre Maryse"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetaminophen",
+              "Adult",
+              "Aged",
+              "Analgesics, Opioid",
+              "Codeine",
+              "Cross-Sectional Studies",
+              "Female",
+              "France",
+              "Histamine H1 Antagonists",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24098516/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faucial diphtheria",
+        "txgnn_score": 0.8121271729469299,
+        "txgnn_rank": 41273,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00366",
+    "name": "Doxylamine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Doxylamine"
+      },
+      "queried_at": "2026-03-09T19:30:16.838198",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Doxylamine"
+      },
+      "queried_at": "2026-03-09T19:30:20.528258",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T19:30:21.432977",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T19:30:27.102920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T19:30:28.184426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T19:30:29.010156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T19:30:34.812756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T19:30:41.145156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T19:30:41.998141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T19:30:47.037220",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T19:30:48.287326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T19:30:48.934178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T19:30:53.598947",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T19:30:54.747324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T19:30:55.437307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T19:31:00.476117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T19:31:03.474556",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T19:31:04.503072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T19:31:09.819971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T19:31:12.405194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T19:31:13.409062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T19:31:19.896003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T19:31:20.827488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T19:31:21.806466",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T19:31:27.095774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T19:31:28.163680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T19:31:29.347632",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T19:31:33.903490",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T19:31:40.270975",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T19:31:41.644620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T19:31:47.508333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Doxylamine",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T19:31:49.196272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:31:49.220829"
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "drug": {
+    "inn": "Gatifloxacin",
+    "drugbank_id": "DB01044",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9759371280670166,
+        "txgnn_rank": 18899,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9759371280670166,
+        "txgnn_rank": 18900,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.973127007484436,
+        "txgnn_rank": 20074,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9645578265190125,
+        "txgnn_rank": 22974,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.9586172103881836,
+        "txgnn_rank": 24605,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monoclonal gammopathy",
+        "txgnn_score": 0.9561034440994264,
+        "txgnn_rank": 25194,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+        "txgnn_score": 0.9523305296897888,
+        "txgnn_rank": 26168,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hematological disorder",
+        "txgnn_score": 0.9364373683929444,
+        "txgnn_rank": 29467,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "septicemic plague",
+        "txgnn_score": 0.9326518177986144,
+        "txgnn_rank": 30178,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15555886",
+            "title": "Efficacy of the latest fluoroquinolones against experimental Yersinia pestis.",
+            "abstract": "The efficacies of prophylactic and therapeutic gatifloxacin and moxifloxacin were assessed in a BALB/c mouse model of systemic and pneumonic plague and compared with ciprofloxacin. Mice were given 100 mg/kg of the antibiotic by oral administration twice daily for 7 days starting 1h prior to infection or following infection. All antibiotics offered full protection for up to 6h following systemic challenge, and for up to 30 h following an aerosol challenge. The efficacy of each of the antibiotics decreased when antibiotics were started 18 h following systemic challenge and 48 h following aerosol challenge. Fluoroquinolones may therefore be considered useful candidates for the treatment of bubonic and pneumonic plague.",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2004",
+            "authors": [
+              "Steward J",
+              "Lever M S",
+              "Russell P",
+              "Beedham R J",
+              "Stagg A J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Ciprofloxacin",
+              "Disease Models, Animal",
+              "Fluoroquinolones",
+              "Gatifloxacin",
+              "Mice",
+              "Mice, Inbred BALB C",
+              "Microbial Sensitivity Tests",
+              "Plague",
+              "Yersinia pestis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15555886/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hematopoietic and lymphoid system neoplasm",
+        "txgnn_score": 0.8627223968505859,
+        "txgnn_rank": 38232,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01044",
+    "name": "Gatifloxacin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Gatifloxacin"
+      },
+      "queried_at": "2026-03-10T08:12:55.963439",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Gatifloxacin"
+      },
+      "queried_at": "2026-03-10T08:12:58.284893",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:59.582348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T08:13:02.691298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T08:13:03.670848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T08:13:04.314737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T08:13:08.560827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T08:13:09.260967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T08:13:09.730117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T08:13:12.983419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T08:13:14.520325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T08:13:16.276429",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T08:13:19.980440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T08:13:21.687672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T08:13:22.333863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T08:13:25.598385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T08:13:26.408256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T08:13:27.229877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T08:13:31.862257",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T08:13:32.582770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T08:13:33.549688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T08:13:36.942113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T08:13:37.821818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T08:13:38.724200",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T08:13:45.621614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T08:13:46.346115",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T08:13:46.879768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T08:13:50.727777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T08:13:52.980293",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematopoietic and lymphoid system neoplasm"
+      },
+      "queried_at": "2026-03-10T08:13:53.816663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematopoietic and lymphoid system neoplasm"
+      },
+      "queried_at": "2026-03-10T08:13:56.985911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematopoietic and lymphoid system neoplasm"
+      },
+      "queried_at": "2026-03-10T08:13:57.715558",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:13:57.718604"
+  }
+}

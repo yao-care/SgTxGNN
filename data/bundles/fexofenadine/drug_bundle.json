@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Fexofenadine",
+    "drugbank_id": "DB00950",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9984742999076844,
+        "txgnn_rank": 2797,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.9862891435623168,
+        "txgnn_rank": 13371,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharoconjunctivitis",
+        "txgnn_score": 0.984024465084076,
+        "txgnn_rank": 14807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "viral conjunctivitis",
+        "txgnn_score": 0.9816640615463256,
+        "txgnn_rank": 16197,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parasitic eyelid infestation",
+        "txgnn_score": 0.9667086005210876,
+        "txgnn_rank": 22323,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulcerative blepharitis",
+        "txgnn_score": 0.9659276008605956,
+        "txgnn_rank": 22565,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infective urethral stricture",
+        "txgnn_score": 0.9632710218429564,
+        "txgnn_rank": 23385,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postinfectious vasculitis",
+        "txgnn_score": 0.9613295793533324,
+        "txgnn_rank": 23944,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "post-bacterial disorder",
+        "txgnn_score": 0.9610501527786256,
+        "txgnn_rank": 24010,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "noninfectious dermatoses of eyelid",
+        "txgnn_score": 0.9583679437637328,
+        "txgnn_rank": 24657,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00950",
+    "name": "Fexofenadine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fexofenadine"
+      },
+      "queried_at": "2026-03-09T10:38:14.443615",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fexofenadine"
+      },
+      "queried_at": "2026-03-09T10:38:16.492088",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:17.087463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:21.692497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:22.689557",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:23.219437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:27.187768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:27.987368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "blepharoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:28.486751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "blepharoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:31.795157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "blepharoconjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:32.789003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "viral conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:33.337325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "viral conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:36.516958",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "viral conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:38:37.375706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "parasitic eyelid infestation"
+      },
+      "queried_at": "2026-03-09T10:38:37.904392",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "parasitic eyelid infestation"
+      },
+      "queried_at": "2026-03-09T10:38:41.587801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "parasitic eyelid infestation"
+      },
+      "queried_at": "2026-03-09T10:38:42.346393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "ulcerative blepharitis"
+      },
+      "queried_at": "2026-03-09T10:38:43.308657",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "ulcerative blepharitis"
+      },
+      "queried_at": "2026-03-09T10:38:46.810617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "ulcerative blepharitis"
+      },
+      "queried_at": "2026-03-09T10:38:47.741800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-09T10:38:48.389367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-09T10:38:53.280350",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-09T10:38:54.252535",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-09T10:38:56.245224",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-09T10:39:00.356877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-09T10:39:01.880596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-09T10:39:02.733802",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-09T10:39:06.225331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-09T10:39:07.133215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "noninfectious dermatoses of eyelid"
+      },
+      "queried_at": "2026-03-09T10:39:08.324653",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "noninfectious dermatoses of eyelid"
+      },
+      "queried_at": "2026-03-09T10:39:11.107119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fexofenadine",
+        "disease": "noninfectious dermatoses of eyelid"
+      },
+      "queried_at": "2026-03-09T10:39:12.771346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:39:12.776326"
+  }
+}

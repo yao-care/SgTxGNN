@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Tetanus Immune Globulin",
+    "drugbank_id": "DB11604",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9861472249031068,
+        "txgnn_rank": 13474,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.9854351282119752,
+        "txgnn_rank": 13939,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.9854351282119752,
+        "txgnn_rank": 13940,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.9854351282119752,
+        "txgnn_rank": 13941,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.9854351282119752,
+        "txgnn_rank": 13942,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.9854351282119752,
+        "txgnn_rank": 13943,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9851969480514526,
+        "txgnn_rank": 14065,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9851969480514526,
+        "txgnn_rank": 14066,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9846214056015016,
+        "txgnn_rank": 14433,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9834049940109252,
+        "txgnn_rank": 15181,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11604",
+    "name": "Tetanus Immune Globulin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin"
+      },
+      "queried_at": "2026-03-10T06:52:35.626568",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin"
+      },
+      "queried_at": "2026-03-10T06:52:37.849416",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T06:52:39.182818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T06:52:42.334792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T06:52:43.063186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T06:52:43.632806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T06:52:46.614733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T06:52:47.333035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T06:52:48.057549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T06:52:51.000187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T06:52:52.947515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T06:52:54.906270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T06:52:58.256141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T06:52:59.109328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T06:52:59.988370",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T06:53:03.338888",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T06:53:04.038565",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T06:53:04.867960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T06:53:08.648425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T06:53:09.988527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T06:53:10.640917",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T06:53:15.668908",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T06:53:16.408497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T06:53:17.005916",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T06:53:20.792349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T06:53:21.515953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T06:53:22.168193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T06:53:26.370154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T06:53:27.203426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T06:53:27.701996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T06:53:33.114112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tetanus Immune Globulin",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T06:53:34.143287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:53:34.154775"
+  }
+}

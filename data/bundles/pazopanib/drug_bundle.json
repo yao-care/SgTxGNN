@@ -1,0 +1,2560 @@
+{
+  "drug": {
+    "inn": "Pazopanib",
+    "drugbank_id": "DB06589",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
+        "txgnn_score": 0.9963047504425048,
+        "txgnn_rank": 5308,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified renal cell carcinoma",
+        "txgnn_score": 0.9963047504425048,
+        "txgnn_rank": 5309,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01613846",
+            "title": "Phase III Randomized Sequential Open-label Study to Evaluate the Efficacy and Safety of Sorafenib Followed by Pazopanib Versus Pazopanib Followed by Sorafenib in the Treatment of Advanced / Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "",
+            "country": "Austria, Netherlands, Germany",
+            "enrollment": 544,
+            "brief_summary": "Sorafenib and pazopanib are both effective and promising treatments for advanced Renal Cell Carcinoma (RCC). Both drugs are registered for this indication. No prospective comparative data in advanced RCC (or other indications) have been published. A search in the clinicaltrials.gov database did not reveal any planned or ongoing studies. As sequential therapy is now the standard of treatment for advanced RCC it is important to evaluate in clinical trials what the value of different sequential str",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with metastatic / advanced RCC (all histologies), who are not suitable for cytokine therapy and for whom study medication constitutes first-line treatment. For cytokine- unsuitability at least one of the following criteria must be fulfilled\\*:\n\n   * Age 66 to 88 year",
+            "endpoints": [
+              "To evaluate if progression-free survival from randomization to progression or death during second-line therapy (Total PFS) of sorafenib followed by pazopanib is non-inferior compared to pazopanib followed by sorafenib."
+            ],
+            "sponsor": "Technical University of Munich",
+            "url": "https://clinicaltrials.gov/study/NCT01613846"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31921344",
+            "title": "Real-world evidence on first-line treatment for metastatic renal cell carcinoma with non-clear cell and sarcomatoid histologies: are sunitinib and pazopanib interchangeable?",
+            "abstract": "Non-clear cell renal cell carcinoma (nccRCC) and sarcomatoid renal cell carcinoma (sRCC) are underrepresented in clinical trials. Treatment approaches are frequently extrapolated from data of clear cell renal cell carcinoma, in which pazopanib is non-inferior to sunitinib. We aim to compare the effectiveness of first-line sunitinib and pazopanib for nccRCC and sRCC.",
+            "journal": "Ecancermedicalscience",
+            "year": "2019",
+            "authors": [
+              "Bonadioa Renata Colombo",
+              "Velho Pedro Isaacsson",
+              "Marta Guilherme Nader",
+              "Nardo Mirella",
+              "Souza Manoel Carlos LA"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31921344/"
+          },
+          {
+            "pmid": "28108284",
+            "title": "First-Line PAzopanib in NOn-clear-cell Renal cArcinoMA: The Italian Retrospective Multicenter PANORAMA Study.",
+            "abstract": "Pazopanib is a standard first-line treatment for metastatic clear-cell renal cell carcinoma (ccRCC). Very few data on its activity in non-clear-cell renal cell carcinoma (nccRCC) are currently available. The aim of this study was to retrospectively analyze efficacy and toxicity of pazopanib in nccRCC patients.",
+            "journal": "Clinical genitourinary cancer",
+            "year": "2017",
+            "authors": [
+              "Buti Sebastiano",
+              "Bersanelli Melissa",
+              "Maines Francesca",
+              "Facchini Gaetano",
+              "Gelsomino Francesco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Italy",
+              "Kidney Neoplasms",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28108284/"
+          },
+          {
+            "pmid": "27568124",
+            "title": "Outcomes of Patients With Metastatic Non-Clear-Cell Renal Cell Carcinoma Treated With Pazopanib.",
+            "abstract": "Pazopanib is associated with increased progression-free survival (PFS) in clear-cell renal cell carcinoma (RCC) and has become a standard of care in this disease. The drug is used in metastatic non-clear-cell RCC, but data on outcomes in this setting are limited.",
+            "journal": "Clinical genitourinary cancer",
+            "year": "2017",
+            "authors": [
+              "Matrana Marc R",
+              "Baiomy Ali",
+              "Campbell Matthew",
+              "Alamri Suhail",
+              "Shetty Aditya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Kidney Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27568124/"
+          },
+          {
+            "pmid": "30268423",
+            "title": "Carcinoma of Unknown Primary Site (CUP) With Metastatic Renal-Cell Carcinoma (mRCC) Histologic and Immunohistochemical Characteristics (CUP-mRCC): Results From Consecutive Patients Treated With Targeted Therapy and Review of Literature.",
+            "abstract": "Carcinoma of unknown primary site (CUP) is a heterogenous group of metastatic cancer with no detectable primary tumor site. Diagnostic assessment occasionally presents CUP with metastatic renal-cell carcinoma (mRCC) histologic and immunohistochemical characteristics (CUP-mRCC). Efficacy and toxicity data for vascular endothelial growth factor inhibitor therapies in CUP-mRCC patients are few.",
+            "journal": "Clinical genitourinary cancer",
+            "year": "2019",
+            "authors": [
+              "Overby Anders",
+              "Duval Lone",
+              "Ladekarl Morten",
+              "Laursen Britt Elmedal",
+              "Donskov Frede"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Carcinoma, Papillary",
+              "Carcinoma, Renal Cell",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Immunohistochemistry",
+              "Kidney Neoplasms",
+              "Lymphatic Metastasis",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30268423/"
+          },
+          {
+            "pmid": "28546525",
+            "title": "Pazopanib for the Treatment of Non-clear Cell Renal Cell Carcinoma: A Single-Arm, Open-Label, Multicenter, Phase II Study.",
+            "abstract": "The optimal treatment strategy for patients with metastatic non-clear cell type renal cell carcinoma (nccRCC) remains unclear. Although several inhibitors of vascular endothelial growth factor have recently shown efficacy against nccRCC, the clinical benefit of pazopanib in nccRCC has not been analyzed. We therefore designed a single-arm, open-label, phase II study to determine the efficacy and safety of pazopanib in patients with nccRCC.",
+            "journal": "Cancer research and treatment",
+            "year": "2018",
+            "authors": [
+              "Jung Ki Sun",
+              "Lee Su Jin",
+              "Park Se Hoon",
+              "Lee Jae-Lyun",
+              "Lee Se-Hoon"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiogenesis Inhibitors",
+              "Carcinoma, Renal Cell",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Male",
+              "Middle Aged",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28546525/"
+          },
+          {
+            "pmid": "41558869",
+            "title": "Outcomes of Patients with Metastatic Non-clear Cell Renal Cell Carcinoma Receiving Contemporary or Traditional First-line Therapies: Results from the International Metastatic Renal Cell Carcinoma Database Consortium.",
+            "abstract": "Real-world evidence on the effectiveness of first-line immuno-oncology (IO)-based combinations or cabozantinib (CABO) over traditional targeted therapies in metastatic non-clear cell renal cell carcinoma (nccRCC) is limited. This study aims to compare the outcomes of first-line therapies for metastatic nccRCC according to histologic subtypes, including papillary renal cell carcinoma (RCC), unclassified RCC, and chromophobe RCC with or without sarcomatoid dedifferentiation.",
+            "journal": "European urology oncology",
+            "year": "2026",
+            "authors": [
+              "Takemura Kosuke",
+              "Graham Jeffrey",
+              "Maj David",
+              "Zarba Martin",
+              "Wells J Connor"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41558869/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma associated with neuroblastoma",
+        "txgnn_score": 0.9963047504425048,
+        "txgnn_rank": 5310,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9958563446998596,
+        "txgnn_rank": 5741,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01506596",
+            "title": "A Phase II Study of Pazopanib in the Treatment of Surgically Unresectable or Metastatic Liposarcoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03",
+            "completion_date": "2016-03",
+            "country": "United States",
+            "enrollment": 42,
+            "brief_summary": "The purpose of this study is to evaluate the effectiveness and safety of single agent pazopanib in subjects with unresectable or metastatic liposarcoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written informed consent.\n* Age \\> or = to 18 years.\n* Histologically or cytologically confirmed high- or intermediate-grade liposarcoma (allowed subtypes include liposarcoma dedifferentiated, myxoid/round cell, pleomorphic, mixed-type, or not otherwise specified).\n* Surgicall",
+            "endpoints": [
+              "12-week Progression Free Rate"
+            ],
+            "sponsor": "Vector Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT01506596"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01692496",
+            "title": "Phase II Clinical Trial of Pazopanib to Evaluate the Activity and Tolerability in Patients With Advanced and/or Metastatic Liposarcoma Who Have Relapsed Following Standard Therapies or for Whom no Standard Therapy Exists",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-01-29",
+            "completion_date": "2018-03-02",
+            "country": "Germany, Spain",
+            "enrollment": 52,
+            "brief_summary": "Soft tissue and bone sarcomas are rare malignant tumors, which encompasses a large family of more than 50 histologically distinct tumor subtypes, all of which share a putative mesenchymal origin. In the case of soft tissue sarcomas (STS) surgical excision is the mainstay of treatment, but despite curative surgery, around half of patients develop distant metastases and die from disease. Few therapeutic approaches are currently available to patients with unresectable, locally advanced, or metastat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects must provide written informed consent prior to performance of study-specific procedures or assessments and must be willing to comply with treatment and follow-up.\n\n   Informed consent must be obtained prior to start of the specified screening window.\n\n   Procedures c",
+            "endpoints": [
+              "Progression-free Survival (PFS) Assessed 12 Weeks After Start of Treatment"
+            ],
+            "sponsor": "Grupo Espanol de Investigacion en Sarcomas",
+            "url": "https://clinicaltrials.gov/study/NCT01692496"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01532687",
+            "title": "A Randomized, Double-Blind Phase II, Study of Gemcitabine Alone or in Combination With Pazopanib for Refractory Soft Tissue Sarcoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-03-13",
+            "completion_date": "2019-10-31",
+            "country": "United States",
+            "enrollment": 54,
+            "brief_summary": "This randomized phase II trial studies how well gemcitabine hydrochloride works with or without pazopanib hydrochloride in treating patients with refractory soft tissue sarcoma. Drugs used in chemotherapy, such as gemcitabine hydrochloride, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Pazopanib hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Pazopanib hydrochloride",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must provide written informed consent prior to performance of study-specific procedures or assessments, and must be willing to comply with treatment and follow-up; procedures conducted as part of the subject's routine clinical management (e.g., blood count, imaging st",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01532687"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06263231",
+            "title": "A Multicenter, Randomized, Phase 3 Study to Assess the Efficacy and Safety of INtratumorally Administered INT230-6 (SHAO, VINblastine, CIsplatin) Compared With US Standard of Care in Adults With Locally Recurrent, InoperaBLE, or Metastatic Soft Tissue Sarcomas (INVINCIBLE-3)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-06-28",
+            "completion_date": "2028-12",
+            "country": "Spain, France, Canada, Germany, United States",
+            "enrollment": 333,
+            "brief_summary": "To compare Overall Survival (OS) for INT230-6 vs United States (US) Standard of Care (SOC) in participants with unresectable or metastatic liposarcoma, undifferentiated pleomorphic sarcoma or leiomyosarcoma who have disease progression prior to study enrollment following no more than 2 standard therapies, which must have included an anthracycline-based regimen, unless contraindicated, and then a maximum of 1 additional regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participant is of any sex and must be ≥ 18 years old and provide written informed consent to participate in the study.\n\n   Type of Participant and Disease Characteristics\n2. Histologically proven, unresectable, locally advanced, or metastatic Soft Tissue Sarcoma (STS) only of",
+            "endpoints": [
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Intensity Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06263231"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02180867",
+            "title": "Pazopanib Neoadjuvant Trial in Non-Rhabdomyosarcoma Soft Tissue Sarcomas (PAZNTIS): A Phase II/III Randomized Trial of Preoperative Chemoradiation or Preoperative Radiation Plus or Minus Pazopanib (NSC# 737754)",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-07-11",
+            "completion_date": "2026-12-24",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 140,
+            "brief_summary": "This randomized phase II/III trial studies how well pazopanib, when combined with chemotherapy and radiation therapy or radiation therapy alone, work in the treatment of patients with newly diagnosed non-rhabdomyosarcoma soft tissue sarcomas that can eventually be removed by surgery. Radiation therapy uses high energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as ifosfamide and doxorubicin, work in different ways to stop the growth of tumor cells, either by killing the cells, b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Note: eligible patients must have a body surface area \\>= 0.5 m\\^2 AND be able to swallow whole tablets\n* Newly diagnosed and histopathologically confirmed, potentially resectable NRSTS of the extremity and trunk will be eligible for the chemotherapy or non-chemotherapy cohort",
+            "endpoints": [
+              "Feasible Dose: Pediatric",
+              "Feasible Dose: Adult",
+              "Percentage of Chemoradiotherapy Patients With Positive Pathologic Response at Week 13"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02180867"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06239272",
+            "title": "NRSTS2021, A Risk Adapted Study Evaluating Maintenance Pazopanib, Limited Margin, Dose-Escalated Radiation Therapy and Selinexor in Non-Rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-03-27",
+            "completion_date": "2037-06",
+            "country": "United States",
+            "enrollment": 139,
+            "brief_summary": "The study participant has been diagnosed with non-rhabdomyosarcoma (NRSTS).\n\nPrimary Objectives\n\nIntermediate-Risk\n\n* To estimate the 3-year event-free survival for intermediate-risk patients treated with ifosfamide, doxorubicin, pazopanib, surgery, and maintenance pazopanib, with or without RT.\n* To characterize the pharmacokinetics of pazopanib and doxorubicin in combination with ifosfamide in intermediate-risk participants, to assess potential covariates to explain the inter- and intra-indivi",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria - All Patients\n\n* Patients must be ≤ 30 years at the time of the biopsy that established the diagnosis of NRSTS.\n* Surgical Resection: Patients who had an upfront resection prior to enrollment will be eligible if they are able to begin therapy within 28 days o",
+            "endpoints": [
+              "Event-free survival (EFS)",
+              "Maximum tolerated dose (MTD) and/or the recommended phase 2 dosage (RP2D)"
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06239272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01900743",
+            "title": "Activity and Safety of Regorafenib in Patients With Metastatic Soft Tissue Sarcoma Previously Treated With Anthracycline-based Chemotherapy : a Multinational, Randomized, Phase II, Placebo-controlled Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-06-05",
+            "completion_date": "2020-09-16",
+            "country": "Austria, France",
+            "enrollment": 219,
+            "brief_summary": "This is an international (France, Austria and Germany), randomized, double-blind, placebo-controlled, phase II study to evaluate the efficacy and safety of regorafenib in patients with histologically proven metastatic and/or unresectable Soft Tissue Sarcoma (STS) after failure or intolerance to doxorubicin (or other anthracycline).\n\nFive cohorts will be defined:\n\nCohort A: Liposarcoma Cohort B: Leiomyosarcoma Cohort C: Synovial sarcoma Cohort D: other sarcomas (see Appendix C) Cohort E: Leiomyos",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Histological documentation of soft tissue sarcoma (including uterus)with available Formalin Fixed Paraffin Embedded (FFPE) blocks. Eligible soft tissue sarcomas are non-adipocytic soft tissue sarcomas\n* Prior treatment with doxorubicin or other anthracycline. M",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Centre Oscar Lambret",
+            "url": "https://clinicaltrials.gov/study/NCT01900743"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02048371",
+            "title": "SARC024: A Blanket Protocol to Study Oral Regorafenib in Patients With Selected Sarcoma Subtypes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-07",
+            "completion_date": "2022-05",
+            "country": "United States",
+            "enrollment": 131,
+            "brief_summary": "Although regorafenib was approved for use in patients who had progressive GIST despite imatinib and/or sunitinib on the basis of phase II and phase III data, it has not been examined in a systematic fashion in patients with other forms of sarcoma.\n\nGiven the activity of sorafenib, sunitinib and pazopanib in soft tissue sarcomas, and evidence of activity of sorafenib in osteogenic sarcoma and possibly Ewing/Ewing-like sarcoma, there is precedent to examine SMOKIs (small molecule oral kinase inhib",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 10 year for Liposarcoma, Osteosarcoma, Ewing sarcoma and Mesenchymal Chondrosarcoma; Age ≥ 5 years for Rhabdomyosarcoma cohorts\n* Weight ≥ 15 kg (33 lb)\n* Patients must have histologically or cytologically confirmed advanced/metastatic liposarcoma, osteogenic sarcoma, Ew",
+            "endpoints": [
+              "Progression-free Survival (PFS). Cohort A and Cohort B",
+              "Progression-free Survival (PFS). Cohort C, Cohort D, and Cohort E"
+            ],
+            "sponsor": "Sarcoma Alliance for Research through Collaboration",
+            "url": "https://clinicaltrials.gov/study/NCT02048371"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02357810",
+            "title": "A Phase II Study of Pazopanib With Oral Topotecan in Patients With Metastatic and Non-resectable Soft Tissue and Bone Sarcomas",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-03-21",
+            "completion_date": "2021-10-12",
+            "country": "United States",
+            "enrollment": 178,
+            "brief_summary": "The purpose of this clinical research study is to learn if pazopanib when given in combination with topotecan can help to control sarcomas. The safety of this drug combination will also be studied. Pazopanib hydrochloride and topotecan hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must provide written informed consent prior to performance of study-specific procedures or assessments and must be willing to comply with treatment and follow-up\n* Patients must have a histologically confirmed diagnosis of:\n\n  * Metastatic soft tissue sarcomas (non-li",
+            "endpoints": [
+              "Progression Free Survival at 12 Weeks for Patients With Soft Tissue Sarcoma (STS) Treated With Pazopanib and Oral Topotecan"
+            ],
+            "sponsor": "Northwestern University",
+            "url": "https://clinicaltrials.gov/study/NCT02357810"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31010343",
+            "title": "Pazopanib in patients with advanced intermediate-grade or high-grade liposarcoma.",
+            "abstract": "Introduction: Liposarcomas (LPS) are a heterogeneous group of adipocytic soft tissue sarcomas with limited treatment options in the advanced/metastatic setting. Pazopanib is a multi-target tyrosine kinase inhibitor (TKI) with anti-angiogenic and antitumorigenic properties. Whilst targeted agents including TKIs have been extensively studied in other solid tumors and the sarcoma subtype gastrointestinal stromal tumor (GIST), we currently lack effective treatments for the liposarcoma subtype. Several phase II and III studies of oral TKIs in soft tissue sarcomas have excluded liposarcoma because of a reported lack of activity following the EORTC 62043 study. Areas: We review the use of pazopanib in advanced intermediate and high-grade liposarcomas where complete surgical resection is not possible. Expert opinion: The current clinical and pharmacological data demonstrate the efficacy of pazopanib in soft tissue sarcomas, but new data suggest that anti-angiogenic agents may have limited acti",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2019",
+            "authors": [
+              "Chamberlain Florence E",
+              "Wilding Chris",
+              "Jones Robin L",
+              "Huang Paul"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Biomarkers, Tumor",
+              "Humans",
+              "Indazoles",
+              "Liposarcoma",
+              "Neoplasm Grading",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31010343/"
+          },
+          {
+            "pmid": "35609512",
+            "title": "Established and Experimental Systemic Treatment Options for Advanced Liposarcoma.",
+            "abstract": "While soft-tissue sarcomas (STSs) are rare tumors, liposarcomas are among the most common type of STS and are divided into four main subtypes: atypical lipomatous tumor/well-differentiated liposarcoma; dedifferentiated liposarcoma; myxoid/round-cell liposarcoma (MLPS); and pleomorphic liposarcoma (PLPS). The four different subtypes of liposarcomas have varying underlying molecular pathology, clinical behavior, and treatment sensitivity.",
+            "journal": "Oncology research and treatment",
+            "year": "2022",
+            "authors": [
+              "Schöffski Patrick"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Doxorubicin",
+              "Humans",
+              "Ifosfamide",
+              "Liposarcoma",
+              "Sarcoma",
+              "Trabectedin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35609512/"
+          },
+          {
+            "pmid": "36890471",
+            "title": "Protocol for the 2ND-STEP study, Japan Clinical Oncology Group study JCOG1802: a randomized phase II trial of second-line treatment for advanced soft tissue sarcoma comparing trabectedin, eribulin and pazopanib.",
+            "abstract": "Soft tissue sarcomas (STS) are a rare type of malignancy comprising a variety of histological diagnoses. Chemotherapy constitutes the standard treatment for advanced STS. Doxorubicin-based regimens, which include the administration of doxorubicin alone or in combination with ifosfamide or dacarbazine, are widely accepted as first-line chemotherapy for advanced STS. Trabectedin, eribulin, pazopanib, and gemcitabine plus docetaxel (GD), which is the empirical standard therapy in Japan, are major candidates for second-line chemotherapy for advanced STS, although clear evidence of the superiority of any one regimen is lacking. The Bone and Soft Tissue Tumor Study Group of the Japan Clinical Oncology Group (JCOG) conducts this trial to select the most promising regimen among trabectedin, eribulin, and pazopanib for comparison with GD as the test arm regimen in a future phase III trial of second-line treatment for patients with advanced STS.",
+            "journal": "BMC cancer",
+            "year": "2023",
+            "authors": [
+              "Endo Makoto",
+              "Kataoka Tomoko",
+              "Fujiwara Toshifumi",
+              "Tsukushi Satoshi",
+              "Takahashi Masanobu"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Trabectedin",
+              "Japan",
+              "Sarcoma",
+              "Soft Tissue Neoplasms",
+              "Doxorubicin",
+              "Gemcitabine",
+              "Docetaxel",
+              "Liposarcoma, Myxoid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36890471/"
+          },
+          {
+            "pmid": "28844815",
+            "title": "Pazopanib for advanced liposarcoma.",
+            "abstract": "",
+            "journal": "The Lancet. Oncology",
+            "year": "2017",
+            "authors": [
+              "Gilbert Judith A"
+            ],
+            "pub_types": [
+              "News"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Clinical Trials, Phase II as Topic",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Humans",
+              "Indazoles",
+              "Liposarcoma",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28844815/"
+          },
+          {
+            "pmid": "30060824",
+            "title": "Doxorubicin-resistant pleomorphic liposarcoma with PDGFRA gene amplification is targeted and regressed by pazopanib in a patient-derived orthotopic xenograft mouse model.",
+            "abstract": "Pleomorphic liposarcoma (PLPS) is a heterogeneous resistant group of tumors. Complete surgical resection is the only known way to treat PLPS. PLPS is reristant to both radiation and chemotherapy. Therefore, precise individualized therapy is needed to improve outcome of advanced PLPS patients. In this study, a patient-derived orthotopic xenograft (PDOX) model of a PDGFRA-amplified PLPS was established in the biceps femoris of nude mice by surgical orthotopic implantation (SOI) in order to match the patient. The PLPS PDOX was treated with pazopanib (PAZ) which targets PDGFRA, as well as with temozolomide (TEM) and first-line therapy doxorubicin (DOX). The PLPS PDOX was resistant to DOX and responded very well to PAZ as well as TEM. The tumor volume on treatment day-14 relative to day-1 was as follows: DOX (4.50 ± 2.6, p = 0.8087); PAZ (1.29 ± 0.9, p = 0.0008 compared to the control, p = 0.0167 compared to DOX); TEM (1.07 ± 0.8, p = 0.0079 compared to the control, p = 0.0079 compared to D",
+            "journal": "Tissue & cell",
+            "year": "2018",
+            "authors": [
+              "Kiyuna Tasuku",
+              "Murakami Takashi",
+              "Tome Yasunori",
+              "Igarashi Kentaro",
+              "Kawaguchi Kei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Animals",
+              "Doxorubicin",
+              "Gene Amplification",
+              "Humans",
+              "Indazoles",
+              "Liposarcoma",
+              "Male",
+              "Mice",
+              "Mice, Nude"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30060824/"
+          },
+          {
+            "pmid": "35392006",
+            "title": "A long-term survivor of advanced retroperitoneal dedifferentiated liposarcoma: a successful multimodal approach with extended resection and chemotherapy.",
+            "abstract": "Surgical resection is the mainstay of treatment for retroperitoneal liposarcoma (RPLS). Herein, we describe a case of dedifferentiated RPLS successfully treated with an extended surgical approach with adjuvant chemotherapy. A 61-year-old male was referred to our hospital with a chief complaint of chest tightness. Abdominal computed tomography revealed a large retroperitoneal tumor, 11 cm in diameter, extensively invading the surrounding organs: the celiac axis, the splenic artery, the pancreatic body and tail, the lesser curvature of the stomach and the left adrenal gland. Endoscopic ultrasound-guided fine-needle aspiration biopsy confirmed dedifferentiated liposarcoma, suggesting aggressive tumor biology. We performed total gastrectomy combined with distal pancreatectomy with celiac axis and left adrenal gland resection with a curative intent. The postoperative course was almost uneventful. As the pathological findings indicated a positive margin with a well-differentiated liposarcoma",
+            "journal": "Nagoya journal of medical science",
+            "year": "2022",
+            "authors": [
+              "Nakahashi Koichi",
+              "Yokoyama Yukihiro",
+              "Fukaya Masahide",
+              "Igami Tsuyoshi",
+              "Mizuno Takashi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ifosfamide",
+              "Liposarcoma",
+              "Male",
+              "Middle Aged",
+              "Retroperitoneal Neoplasms",
+              "Survivors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35392006/"
+          },
+          {
+            "pmid": "32026050",
+            "title": "Dedifferentiated Liposarcoma: Systemic Therapy Options.",
+            "abstract": "Over the last several years, the systemic treatment landscape for dedifferentiated liposarcoma (DDLPS) has notably expanded. Historically, systemic therapy options have been limited to cytotoxic chemotherapy agents, including doxorubicin, ifosfamide, gemcitabine, and docetaxel, that were shown to have efficacy in unselected populations of patients with soft tissue sarcomas. More recently, however, there have been phase II and III trials establishing clinical benefit of the cytotoxic agents trabectedin and eribulin along with the tyrosine kinase inhibitor pazopanib in patients with advanced liposarcoma and DDLPS. Additionally, there are several investigational targeted therapies that have incorporated advances in the understanding of DDLPS disease biology, exploiting the fact that nearly all such tumors include highly amplified expression of MDM2 and CDK4. Recent clinical trials have supported the benefit of the CDK4 inhibitor abemaciclib and the nuclear export inhibitor selinexor and s",
+            "journal": "Current treatment options in oncology",
+            "year": "2020",
+            "authors": [
+              "Gahvari Zhubin",
+              "Parkes Amanda"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clinical Decision-Making",
+              "Combined Modality Therapy",
+              "Disease Management",
+              "Humans",
+              "Liposarcoma",
+              "Neoplasm Grading",
+              "Neoplasm Staging",
+              "Prognosis",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32026050/"
+          },
+          {
+            "pmid": "34356494",
+            "title": "Molecular and Pathological Profiling of Corresponding Treatment-Naïve and Neoadjuvant Pazopanib-Treated High-Risk Soft Tissue Sarcoma Samples of the GISG-04/NOPASS Study.",
+            "abstract": "In the framework of the German Interdisciplinary Sarcoma Group GISG-04/NOPASS trial, we evaluated soft tissue sarcoma samples taken before and after neoadjuvant pazopanib therapy using histopathology and next generation sequencing (NGS) to find potential predictive biomarkers. We also aimed to improve the genetically based sarcoma classification and to elucidate additional potentially druggable mutations. In total, 30 tumor samples from 18 patients consisting of 12 pre-therapeutic biopsies and 18 resection specimens following neoadjuvant pazopanib therapy were available for analyses. NGS was performed with the Oncomine Focus Assay (Ion Torrent) covering 0.03 Mb of DNA and enabled the detection of genetic variants in 52 cancer-relevant genes. Pathological analysis showed significant regression (≥50%) after pazopanib treatment in only one undifferentiated (pleomorphic) sarcoma. NGS analyses revealed a very high frequency of CDK4 amplification (88%; 7/8) in the group of dedifferentiated l",
+            "journal": "Biology",
+            "year": "2021",
+            "authors": [
+              "Gaiser Timo",
+              "Sauer Christian",
+              "Marx Alexander",
+              "Jakob Jens",
+              "Kasper Bernd"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34356494/"
+          },
+          {
+            "pmid": "37298520",
+            "title": "Treatment of De-Differentiated Liposarcoma in the Era of Immunotherapy.",
+            "abstract": "Well-differentiated/de-differentiated liposarcoma (WDLPS/DDLPS) is one of the most common histologic subtypes of soft tissue sarcoma (STS); however, treatment options remain limited. WDLPS and DDLPS both exhibit the characteristic amplification of chromosome region 12q13-15, which contains the genes CDK4 and MDM2. DDLPS exhibits higher amplification ratios of these two and carries additional genomic lesions, including the amplification of chromosome region 1p32 and chromosome region 6q23, which may explain the more aggressive biology of DDLPS. WDLPS does not respond to systemic chemotherapy and is primarily managed with local therapy, including multiple resections and debulking procedures whenever clinically feasible. In contrast, DDLPS can respond to chemotherapy drugs and drug combinations, including doxorubicin (or doxorubicin in combination with ifosfamide), gemcitabine (or gemcitabine in combination with docetaxel), trabectedin, eribulin, and pazopanib. However, the response rate ",
+            "journal": "International journal of molecular sciences",
+            "year": "2023",
+            "authors": [
+              "Zhou Maggie Y",
+              "Bui Nam Q",
+              "Charville Gregory W",
+              "Ganjoo Kristen N",
+              "Pan Minggui"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Liposarcoma",
+              "Immunotherapy",
+              "Docetaxel",
+              "Doxorubicin",
+              "Proto-Oncogene Proteins c-mdm2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37298520/"
+          },
+          {
+            "pmid": "28547734",
+            "title": "Systemic Therapy for Soft Tissue Sarcoma: Proposals for the Optimal Use of Pazopanib, Trabectedin, and Eribulin.",
+            "abstract": "Soft tissue sarcoma (STS) is a rare tumor with more than 50 histologic subtypes. Although treatment outcomes for patients with STS have improved greatly over the past few decades owing to the adoption of a multidisciplinary approach, patients with advanced disease have a poor prognosis. The development of anticancer drugs has been directed toward improving overall survival (OS). Doxorubicin monotherapy is currently the only standard option for the first-line treatment of STS. However, there is no standard therapy for second-line and later treatment at present. Since 2012, three anticancer drugs-pazopanib, trabectedin, and eribulin-have been approved in Japan for the second-line or later treatment of patients with advanced STS of any histologic subtype. However, the chemosensitivity of STS to each of these drugs varies by histologic subtype and their safety profiles differ; thus, histologic subtype and patient characteristics must be considered when determining optimal treatment. In thi",
+            "journal": "Advances in therapy",
+            "year": "2017",
+            "authors": [
+              "Kawai Akira",
+              "Yonemori Kan",
+              "Takahashi Shunji",
+              "Araki Nobuhito",
+              "Ueda Takafumi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Alkylating",
+              "Dioxoles",
+              "Furans",
+              "Humans",
+              "Indazoles",
+              "Japan",
+              "Ketones",
+              "Pyrimidines",
+              "Sarcoma",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28547734/"
+          },
+          {
+            "pmid": "34050255",
+            "title": "Phase II study of pazopanib with oral topotecan in patients with metastatic and non-resectable soft tissue and bone sarcomas.",
+            "abstract": "Pazopanib is active in refractory soft-tissue sarcoma (STS) and significantly prolongs PFS. Prior studies of combinations of metronomic topotecan with pazopanib have indicated preclinical evidence of response in patients with sarcoma.",
+            "journal": "British journal of cancer",
+            "year": "2021",
+            "authors": [
+              "Schulte Brian",
+              "Mohindra Nisha",
+              "Milhem Mohammed",
+              "Attia Steven",
+              "Robinson Steven"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease-Free Survival",
+              "Drug Administration Schedule",
+              "Humans",
+              "Indazoles",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34050255/"
+          },
+          {
+            "pmid": "33355646",
+            "title": "Efficacy of Pazopanib With or Without Gemcitabine in Patients With Anthracycline- and/or Ifosfamide-Refractory Soft Tissue Sarcoma: Final Results of the PAPAGEMO Phase 2 Randomized Clinical Trial.",
+            "abstract": "Pazopanib and gemcitabine have shown good tolerability, albeit modest single-agent activity in pretreated soft tissue sarcoma. A combined regimen to improve outcomes is required.",
+            "journal": "JAMA oncology",
+            "year": "2021",
+            "authors": [
+              "Schmoll Hans-Joachim",
+              "Lindner Lars H",
+              "Reichardt Peter",
+              "Heißner Klaus",
+              "Kopp Hans-Georg"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anthracyclines",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Deoxycytidine",
+              "Female",
+              "Humans",
+              "Ifosfamide",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33355646/"
+          },
+          {
+            "pmid": "30889920",
+            "title": "Real-World Experiences with Pazopanib in Patients with Advanced Soft Tissue and Bone Sarcoma in Northern California.",
+            "abstract": "Background: Pazopanib was approved for advanced soft tissue sarcoma as a second- or third-line therapy based on the clinical trial \"Pazopanib for metastatic soft-tissue sarcoma\" (PALETTE). We hypothesized that the real-world experiences may be significantly different from the clinical trial results. Methods: We analyzed the response pattern of patients with advanced soft tissue and bone sarcoma who received pazopanib treatment between 1 January 2011 and 31 October 2018 in Kaiser Permanente Northern California. Results: A total of 123 patients with 23 different histologic subtypes were assessable. One patient with low-grade fibromyxoid sarcoma obtained complete response (CR) after 2 months of treatment with pazopanib, 12 patients (9.7%) obtained partial response (PR), 34 patients (27.6%) had stable disease (SD), while 76 patients (61.8%) developed progressive disease (PD). The disease control rate (DCR) was 46.3% (CR + PR + SD). Among the 12 patients with PR, 3 had undifferentiated pleo",
+            "journal": "Medical sciences (Basel, Switzerland)",
+            "year": "2019",
+            "authors": [
+              "Seto Tiffany",
+              "Song Mee-Na",
+              "Trieu Maily",
+              "Yu Jeanette",
+              "Sidhu Manpreet"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30889920/"
+          },
+          {
+            "pmid": "27434055",
+            "title": "Chemotherapy for soft tissue sarcoma.",
+            "abstract": "Soft tissue sarcoma is a term used to describe a heterogeneous group of many rare tumors. Since the initial description of activity of doxorubicin, several additional agents have been brought to bear in the treatment of these diseases. Despite 2 recent drug approvals, doxorubicin and ifosfamide remain the most effective chemotherapy drugs available for the treatment of majority of these tumors. Optimal dosing and administration influence outcomes because of the steep dose-response curves associated with these agents. The debate endures regarding whether patients who have advanced disease should routinely receive single agents sequentially or in combination. Adjuvant therapy remains similarly controversial, although meta-analyses do support its use. Contemporary treatment of soft tissue sarcoma routinely incorporates additional lines of treatment that have become available over the last 15 years. Fixed-dose-rate gemcitabine with or without docetaxel is a standard second-line treatment. ",
+            "journal": "Cancer",
+            "year": "2016",
+            "authors": [
+              "Ratan Ravin",
+              "Patel Shreyaskumar R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Sarcoma",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27434055/"
+          },
+          {
+            "pmid": "33290314",
+            "title": "Efficacy and safety of anlotinib in patients with unresectable or metastatic well-differentiated/dedifferentiated liposarcoma: a single-center retrospective study.",
+            "abstract": "Treatment options for unresectable local recurrence or metastatic well-differentiated/dedifferentiated liposarcoma (WDLS/DDLS) remain limited. Different liposarcoma subtypes have varying clinical features and sensitivities to treatment regimens. The multitarget tyrosine kinase inhibitors (TKIs), such as pazopanib and regorafenib, have been approved for use in nonadipocytic soft tissue sarcomas (STS). Anlotinib, another TKI, has been approved in China for treating metastatic STS that has progressed after the use of anthracycline-based regimens. In this study, we aimed to evaluate the role of anlotinib in the treatment of local recurrence or metastatic WDLS/DDLS. From August 2018 to June 2020, 17 patients with unresectable local recurrence or metastatic WDLS/DDLS treated with anlotinib in our center were included. The follow-up cutoff time was set as 20 October 2020. Baseline and observation indicators were collected and analyzed. Estimated median progression-free survival (PFS) was 27.9",
+            "journal": "Anti-cancer drugs",
+            "year": "2021",
+            "authors": [
+              "Li Zhi-Ke",
+              "Liu Jie",
+              "Deng Yao-Tiao",
+              "Jiang Yu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents, Immunological",
+              "Female",
+              "Humans",
+              "Indoles",
+              "Liposarcoma",
+              "Male",
+              "Middle Aged",
+              "Neoplasm Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33290314/"
+          },
+          {
+            "pmid": "31200257",
+            "title": "The combination of gemcitabine and docetaxel arrests a doxorubicin-resistant dedifferentiated liposarcoma in a patient-derived orthotopic xenograft model.",
+            "abstract": "Liposarcoma (LS) is a chemotherapy-resistant disease. The aim of the present study was to find precise therapy for a recurrent dedifferentiated liposarcoma (DDLS) in a patient-derived orthotopic xenograft (PDOX) model. The DDLS PDOX models were established orthotopically in the right inguinal area of nude mice. The DDLS PDOX models were randomized into five groups: untreated; doxorubicin (DOX); gemcitabine (GEM) combined with docetaxel (DOC); pazopanib (PAZ); and yondelis (YON). On day 15, all mice were sacrificed. Measurement of tumor volume and body weight were done two times a week. The DDLS PDOX was resistant to DOX (P > 0.184). YON suppressed tumor growth significantly compared to control group (P < 0.027). However, only GEM combined with DOC arrested the tumor growth (P < 0.001). These findings suggest that GEM combined with DOC has clinical potential for this and possibly other DDLS patients.",
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2019",
+            "authors": [
+              "Miyake Kentaro",
+              "Higuchi Takashi",
+              "Oshiro Hiromichi",
+              "Zhang Zhiying",
+              "Sugisawa Norihiko"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Deoxycytidine",
+              "Disease Models, Animal",
+              "Docetaxel",
+              "Doxorubicin",
+              "Drug Resistance, Neoplasm",
+              "Heterografts",
+              "Humans",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31200257/"
+          },
+          {
+            "pmid": "27918201",
+            "title": "The importance of treating by histological subtype in advanced soft tissue sarcoma.",
+            "abstract": "While surgical resection (±radiotherapy) is standard treatment for localized soft tissue sarcomas (STS), chemotherapy is the mainstay for managing locally advanced and metastatic disease. Expanding knowledge of the biologies and sensitivities of STS histotypes, in conjunction with results from a growing collection of retrospective reviews and prospective randomized studies, point to the importance of treating in consideration of histological subtype. Doxorubicin ± ifosfamide continues to be standard first-line therapy for most STS subtypes. Main options for second- or later-line therapy include trabectedin, dacarbazine, gemcitabine combinations, pazopanib and, most recently, eribulin. Using illustrative case studies, treatment options are reviewed for three of the more common STS subtypes - uterine leiomyosarcoma, liposarcoma and synovial sarcoma - with a focus on use of trabectedin.",
+            "journal": "Future oncology (London, England)",
+            "year": "2017",
+            "authors": [
+              "Martín Broto Javier",
+              "Le Cesne Axel",
+              "Reichardt Peter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Combined Modality Therapy",
+              "Disease Management",
+              "Humans",
+              "Leiomyosarcoma",
+              "Liposarcoma",
+              "Neoplasm Staging",
+              "Sarcoma",
+              "Sarcoma, Synovial",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27918201/"
+          },
+          {
+            "pmid": "28832986",
+            "title": "Results of a prospective phase 2 study of pazopanib in patients with advanced intermediate-grade or high-grade liposarcoma.",
+            "abstract": "This phase 2, single-arm, multicenter study was designed to determine the treatment activity and safety of single-agent pazopanib in patients with unresectable or metastatic liposarcoma.",
+            "journal": "Cancer",
+            "year": "2017",
+            "authors": [
+              "Samuels Brian L",
+              "Chawla Sant P",
+              "Somaiah Neeta",
+              "Staddon Arthur P",
+              "Skubitz Keith M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiogenesis Inhibitors",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Indazoles",
+              "Liposarcoma",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28832986/"
+          },
+          {
+            "pmid": "25500074",
+            "title": "Pazopanib, a Receptor Tyrosine Kinase Inhibitor, Suppresses Tumor Growth through Angiogenesis in Dedifferentiated Liposarcoma Xenograft Models.",
+            "abstract": "The rarity of dedifferentiated liposarcoma (DDLPS) and the lack of experimental DDLPS models limit the development of novel therapeutic strategies. Pazopanib (PAZ) is a tyrosine kinase inhibitor that is approved for the treatment of non-adipocytic advanced soft tissue sarcoma. The activity of this agent has not yet been properly explored in preclinical liposarcoma models nor in a randomized phase Ш clinical trial in this entity. The aim of the present study was to investigate whether PAZ had antitumor activity in DDLPS models in vivo.",
+            "journal": "Translational oncology",
+            "year": "2014",
+            "authors": [
+              "Li Haifu",
+              "Wozniak Agnieszka",
+              "Sciot Raf",
+              "Cornillie Jasmien",
+              "Wellens Jasmien"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25500074/"
+          },
+          {
+            "pmid": "24555529",
+            "title": "Emerging therapies for adult soft tissue sarcoma.",
+            "abstract": "Soft tissue sarcoma (STS) are a broad group of rare tumors. Cornerstone of treatment is surgery. Complementary radiotherapy is recommended in high-risk STS arising from extremities. Doxorubicine ± ifosfamide based cytotoxic chemotherapy, explored in few randomized trials, showed a certain degree of activity, playing an established role only in unresectable disease. Since peculiar chemosensitivity towards alternative drugs was described for different metastatic subtypes in second or further lines, the modern concept of 'histology-driven chemotherapy' has been accepted and employed: gemicitabine ± dacarbazine, trabectedin and taxanes used respectively in patients with leiomyosarcoma, solitary fibrous tumor, myxoid/round cell liposarcoma, angiosarcoma. Recent discoveries about molecular pathways involved in STS tumorogenesis led to develop molecular targeted agents such as imatinib used in advanced dermatofibrosarcoma protuberans (DFSP) or metastatic DFSP-related fibrosarcoma, pazopanib, ",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2014",
+            "authors": [
+              "Radaelli Stefano",
+              "Stacchiotti Sivia",
+              "Casali Paolo G",
+              "Gronchi Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemotherapy, Adjuvant",
+              "Clinical Trials as Topic",
+              "Combined Modality Therapy",
+              "Histone Deacetylase Inhibitors",
+              "Humans",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24555529/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "childhood kidney cell carcinoma",
+        "txgnn_score": 0.9953503608703612,
+        "txgnn_rank": 6192,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01575548",
+            "title": "Randomized, Double-Blind Phase III Study of Pazopanib vs. Placebo in Patients With Metastatic Renal Cell Carcinoma Who Have No Evidence of Disease Following Metastatectomy",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2012-08-08",
+            "completion_date": "2027-02-20",
+            "country": "United States",
+            "enrollment": 129,
+            "brief_summary": "This randomized phase III trial studies how well pazopanib hydrochloride works compared to placebo in treating patients with kidney cancer that has spread to other parts of the body and have no evidence of disease after surgery. Pazopanib hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be at least 18 years of age at the time of randomization\n* Patient must have pathologically confirmed renal cell carcinoma with a clear cell component; pure papillary and chromophobe histologies are excluded; there must be pathologic confirmation of metastatic dis",
+            "endpoints": [
+              "Disease-free Survival (DFS)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01575548"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.9951229691505432,
+        "txgnn_rank": 6382,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart fibrosarcoma",
+        "txgnn_score": 0.9937191009521484,
+        "txgnn_rank": 7613,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02601209",
+            "title": "A Phase I/Randomized Phase II Study of MLN0128 (TAK-228) VS. Pazopanib in Patients With Locally Advanced/Unresectable and/or Metastatic Sarcoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2015-11-30",
+            "completion_date": "2022-07-11",
+            "country": "United States",
+            "enrollment": 151,
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of sapanisertib and to see how well it works compared to pazopanib hydrochloride in treating patients with sarcoma that is too large to be removed (locally advanced) or has spread to other areas of the body (metastatic). Sapanisertib and pazopanib hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have slides available for submission to central pathology review; this review is mandatory prior to registration to confirm eligibility and proper cohort assignment\n\n  * HISTOLOGIC COHORT 1: Undifferentiated pleomorphic sarcoma (includes: malignant fibrous histio",
+            "endpoints": [
+              "Number of Phase I Participants With Dose-Limiting Toxicity Events (Phase I)",
+              "Progression-free Survival (PFS) (Phase II Analysis Group 2 - Initial Treatment Period)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02601209"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02180867",
+            "title": "Pazopanib Neoadjuvant Trial in Non-Rhabdomyosarcoma Soft Tissue Sarcomas (PAZNTIS): A Phase II/III Randomized Trial of Preoperative Chemoradiation or Preoperative Radiation Plus or Minus Pazopanib (NSC# 737754)",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-07-11",
+            "completion_date": "2026-12-24",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 140,
+            "brief_summary": "This randomized phase II/III trial studies how well pazopanib, when combined with chemotherapy and radiation therapy or radiation therapy alone, work in the treatment of patients with newly diagnosed non-rhabdomyosarcoma soft tissue sarcomas that can eventually be removed by surgery. Radiation therapy uses high energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as ifosfamide and doxorubicin, work in different ways to stop the growth of tumor cells, either by killing the cells, b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Note: eligible patients must have a body surface area \\>= 0.5 m\\^2 AND be able to swallow whole tablets\n* Newly diagnosed and histopathologically confirmed, potentially resectable NRSTS of the extremity and trunk will be eligible for the chemotherapy or non-chemotherapy cohort",
+            "endpoints": [
+              "Feasible Dose: Pediatric",
+              "Feasible Dose: Adult",
+              "Percentage of Chemoradiotherapy Patients With Positive Pathologic Response at Week 13"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02180867"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06239272",
+            "title": "NRSTS2021, A Risk Adapted Study Evaluating Maintenance Pazopanib, Limited Margin, Dose-Escalated Radiation Therapy and Selinexor in Non-Rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-03-27",
+            "completion_date": "2037-06",
+            "country": "United States",
+            "enrollment": 139,
+            "brief_summary": "The study participant has been diagnosed with non-rhabdomyosarcoma (NRSTS).\n\nPrimary Objectives\n\nIntermediate-Risk\n\n* To estimate the 3-year event-free survival for intermediate-risk patients treated with ifosfamide, doxorubicin, pazopanib, surgery, and maintenance pazopanib, with or without RT.\n* To characterize the pharmacokinetics of pazopanib and doxorubicin in combination with ifosfamide in intermediate-risk participants, to assess potential covariates to explain the inter- and intra-indivi",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria - All Patients\n\n* Patients must be ≤ 30 years at the time of the biopsy that established the diagnosis of NRSTS.\n* Surgical Resection: Patients who had an upfront resection prior to enrollment will be eligible if they are able to begin therapy within 28 days o",
+            "endpoints": [
+              "Event-free survival (EFS)",
+              "Maximum tolerated dose (MTD) and/or the recommended phase 2 dosage (RP2D)"
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06239272"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroblastic neoplasm",
+        "txgnn_score": 0.99347722530365,
+        "txgnn_rank": 7850,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02180867",
+            "title": "Pazopanib Neoadjuvant Trial in Non-Rhabdomyosarcoma Soft Tissue Sarcomas (PAZNTIS): A Phase II/III Randomized Trial of Preoperative Chemoradiation or Preoperative Radiation Plus or Minus Pazopanib (NSC# 737754)",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-07-11",
+            "completion_date": "2026-12-24",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 140,
+            "brief_summary": "This randomized phase II/III trial studies how well pazopanib, when combined with chemotherapy and radiation therapy or radiation therapy alone, work in the treatment of patients with newly diagnosed non-rhabdomyosarcoma soft tissue sarcomas that can eventually be removed by surgery. Radiation therapy uses high energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as ifosfamide and doxorubicin, work in different ways to stop the growth of tumor cells, either by killing the cells, b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Note: eligible patients must have a body surface area \\>= 0.5 m\\^2 AND be able to swallow whole tablets\n* Newly diagnosed and histopathologically confirmed, potentially resectable NRSTS of the extremity and trunk will be eligible for the chemotherapy or non-chemotherapy cohort",
+            "endpoints": [
+              "Feasible Dose: Pediatric",
+              "Feasible Dose: Adult",
+              "Percentage of Chemoradiotherapy Patients With Positive Pathologic Response at Week 13"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02180867"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02066285",
+            "title": "A Phase II Open-Label Trial of Pazopanib Administered as a Single Agent in Patients With Unresectable or Metastatic Solitary Fibrous Tumor (SFT) and Extraskeletal Myxoid Chondrosarcoma (EMC)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-06",
+            "completion_date": "2023-03-24",
+            "country": "Spain",
+            "enrollment": 96,
+            "brief_summary": "Phase II, open-label, non-randomized, international multicenter clinical trial with two strata (SFT and EMC). 8 sites in Spain, 5 sites in Italy and 5 sites in France. Patients will receive oral pazopanib at 800 mg once daily continuously. Patients will continue to receive treatment until there is evidence of progressive disease, unacceptable toxicity, non-compliance, withdrawn consent or investigator decision. The main goal is to determine the objective response rate (ORR) (confirmed complete r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Informed consent prior to performance of study-specific procedures or assessments and must be willing to comply with treatment and follow up.\n* Age ≥ 18 years or legal age of consent if greater than 18 years.\n* Histologic diagnosis of solitary fibrous tumor (stratum 1) or extr",
+            "endpoints": [
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "Grupo Espanol de Investigacion en Sarcomas",
+            "url": "https://clinicaltrials.gov/study/NCT02066285"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06239272",
+            "title": "NRSTS2021, A Risk Adapted Study Evaluating Maintenance Pazopanib, Limited Margin, Dose-Escalated Radiation Therapy and Selinexor in Non-Rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-03-27",
+            "completion_date": "2037-06",
+            "country": "United States",
+            "enrollment": 139,
+            "brief_summary": "The study participant has been diagnosed with non-rhabdomyosarcoma (NRSTS).\n\nPrimary Objectives\n\nIntermediate-Risk\n\n* To estimate the 3-year event-free survival for intermediate-risk patients treated with ifosfamide, doxorubicin, pazopanib, surgery, and maintenance pazopanib, with or without RT.\n* To characterize the pharmacokinetics of pazopanib and doxorubicin in combination with ifosfamide in intermediate-risk participants, to assess potential covariates to explain the inter- and intra-indivi",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria - All Patients\n\n* Patients must be ≤ 30 years at the time of the biopsy that established the diagnosis of NRSTS.\n* Surgical Resection: Patients who had an upfront resection prior to enrollment will be eligible if they are able to begin therapy within 28 days o",
+            "endpoints": [
+              "Event-free survival (EFS)",
+              "Maximum tolerated dose (MTD) and/or the recommended phase 2 dosage (RP2D)"
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06239272"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37526369",
+            "title": "Intracranial Relapse in Pediatric Sarcoma.",
+            "abstract": "Advances in local control techniques, chemotherapy regimens, and imaging modalities have led to improvements in both morbidity and mortality in pediatric sarcoma patients. However, approximately one-third of patients develop disease relapse and intracranial metastasis was considered rare. The incidence of sarcoma brain metastasis is thought to have increased and is associated with grim outcomes. This was a retrospective study of 3 deidentified patient charts illustrating the possibility of the central nervous system as a potential site for pediatric sarcoma relapse and investigate the patterns of such relapses. We note this is the first report of infantile fibrosarcoma brain metastasis and a rare report of sarcoma lymph node metastasis. In addition, each patient was treated with targeted therapies, including entrectinib, Ruxolitnib, and pazopanib. Caregivers in cases 2 and 3 reported new-onset neurological manifestations before identification of new brain metastasis, indicating a lag i",
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2023",
+            "authors": [
+              "Smith Danielle E",
+              "Hamby Tyler",
+              "Heym Kenneth",
+              "Mohamed Ashraf",
+              "Vallance Kelly L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Retrospective Studies",
+              "Sarcoma",
+              "Fibrosarcoma",
+              "Brain Neoplasms",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37526369/"
+          },
+          {
+            "pmid": "33973549",
+            "title": "Desmoid-type fibromatosis: toward a holistic management.",
+            "abstract": "Desmoid-type fibromatosis, a rare locally aggressive fibroblastic proliferation, is a treatment challenge. This review aimed to explore recent data about the management of desmoid-type fibromatosis.",
+            "journal": "Current opinion in oncology",
+            "year": "2021",
+            "authors": [
+              "Penel Nicolas",
+              "Kasper Bernd",
+              "van Der Graaf Winette T A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amyloid Precursor Protein Secretases",
+              "Enzyme Inhibitors",
+              "Desmoid Tumors",
+              "Humans",
+              "Practice Guidelines as Topic",
+              "Protein Kinases",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33973549/"
+          },
+          {
+            "pmid": "38759389",
+            "title": "Real-word experience of pazopanib and sorafenib in patients with desmoid tumors: A CanSaRCC multi-center study.",
+            "abstract": "Sorafenib and pazopanib, two tyrosine kinase inhibitors (TKI), are widely used in patients with progressive symptomatic desmoid tumors (DT). Limited real-word data is available on long-term outcomes of patients who progressed on, stopped, or continued TKIs.",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2024",
+            "authors": [
+              "Noujaim Jonathan",
+              "Gupta Abha A",
+              "Holloway Caroline L",
+              "Saleh Ramy",
+              "Srikanthan Amirrtha"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Indazoles",
+              "Sorafenib",
+              "Sulfonamides",
+              "Male",
+              "Female",
+              "Pyrimidines",
+              "Middle Aged",
+              "Adult",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38759389/"
+          },
+          {
+            "pmid": "29614488",
+            "title": "Efficacy and Safety of Pazopanib for Recurrent or Metastatic Solitary Fibrous Tumor.",
+            "abstract": "To investigate the efficacy and safety of pazopanib for recurrent or metastatic solitary fibrous tumor (SFT) in first- and second-line settings.",
+            "journal": "Oncology",
+            "year": "2018",
+            "authors": [
+              "Ebata Takahiro",
+              "Shimoi Tatsunori",
+              "Bun Seiko",
+              "Miyake Mototaka",
+              "Yoshida Akihiko"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiogenesis Inhibitors",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29614488/"
+          },
+          {
+            "pmid": "25269954",
+            "title": "Preclinical and clinical evidence of activity of pazopanib in solitary fibrous tumour.",
+            "abstract": "To explore the activity of pazopanib in solitary fibrous tumour (SFT).",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2014",
+            "authors": [
+              "Stacchiotti S",
+              "Tortoreto M",
+              "Baldi G G",
+              "Grignani G",
+              "Toss A"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Axitinib",
+              "Bevacizumab",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25269954/"
+          },
+          {
+            "pmid": "35837705",
+            "title": "Desmoid tumors: who, when and how to treat?",
+            "abstract": "The objective of this article is to summarize new treatment strategies of desmoid tumors.",
+            "journal": "Current opinion in oncology",
+            "year": "2022",
+            "authors": [
+              "Mikhael Rabih",
+              "Smith Myles",
+              "Tzanis Dimitri",
+              "Watson Sarah",
+              "Miah Aisha B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Clinical Trials, Phase II as Topic",
+              "Desmoid Tumors",
+              "Humans",
+              "Methotrexate",
+              "Progression-Free Survival",
+              "Randomized Controlled Trials as Topic",
+              "Retrospective Studies",
+              "Vinblastine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35837705/"
+          },
+          {
+            "pmid": "32838682",
+            "title": "Pazopanib-related secondary polycythemia in metastatic myxofibrosarcoma: A case report and review of the literature.",
+            "abstract": "Pazopanib, a tyrosine kinase inhibitor (TKI), is a standard treatment for various tumours, including metastatic non-adipocytic soft-tissue sarcomas. In literature, erythrocytosis has been described as a TKI-related condition.",
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2021",
+            "authors": [
+              "Fanelli Martina",
+              "Caputo Francesco",
+              "Cerma Krisida",
+              "Gelsomino Fabio",
+              "Bari Alessia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Fibroma",
+              "Fibrosarcoma",
+              "Humans",
+              "Indazoles",
+              "Male",
+              "Middle Aged",
+              "Polycythemia",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32838682/"
+          },
+          {
+            "pmid": "39608303",
+            "title": "Pazopanib in the real-world setting in soft tissue sarcomas: data from the Italian national registry.",
+            "abstract": "Pazopanib is part of the therapeutic armamentarium for the treatment of patients with advanced non-adipocytic soft tissue sarcomas (STS) who have received prior chemotherapy, but its optimal use in STS histologies is still left to be further defined.",
+            "journal": "ESMO open",
+            "year": "2024",
+            "authors": [
+              "Vincenzi B",
+              "Olimpieri P P",
+              "Celant S",
+              "Mazzocca A",
+              "Cortellini A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Indazoles",
+              "Male",
+              "Female",
+              "Sulfonamides",
+              "Pyrimidines",
+              "Registries",
+              "Italy",
+              "Sarcoma",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39608303/"
+          },
+          {
+            "pmid": "30336470",
+            "title": "Differences in the Efficacies of Pazopanib and Gemcitabine/Docetaxel as Second-Line Treatments for Metastatic Soft Tissue Sarcoma.",
+            "abstract": "We retrospectively investigated the treatment outcomes of second-line treatment with pazopanib or gemcitabine/docetaxel in patients with advanced soft tissue sarcoma (STS).",
+            "journal": "Oncology",
+            "year": "2019",
+            "authors": [
+              "Kim Jee Hung",
+              "Park Hyung Soon",
+              "Heo Su Jin",
+              "Kim Sang Kyum",
+              "Han Jung Woo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Deoxycytidine",
+              "Docetaxel",
+              "Female",
+              "Humans",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30336470/"
+          },
+          {
+            "pmid": "35150408",
+            "title": "Clinical outcomes of medical treatments for progressive desmoid tumors following active surveillance: a systematic review.",
+            "abstract": "Approximately 80% of desmoid tumors (DTs) show spontaneous regression or disease stabilization during first-line active surveillance. Medical treatment can be considered in cases of disease progression. This systematic review aimed to evaluate the effectiveness and toxicity of each medical treatment by reviewing only the studies that included progressive disease as the inclusion criterion. We searched the EMBASE, PubMed, and CENTRAL databases to identify published studies for progressive DTs. The disease control rates of the medical treatments, such as low-dose chemotherapy with methotrexate plus vinblastine or vinorelbine, imatinib, sorafenib, pazopanib, nilotinib, anlotinib, doxorubicin-based agents, liposomal doxorubicin, hydroxyurea, and oral vinorelbine for progressive DTs were 71-100%, 78-92%, 67-96%, 84%, 88%, 86%, 89-100%, 90-100%, 75%, and 64%, respectively. Low-dose chemotherapy, sorafenib, pazopanib, nilotinib, anlotinib, and liposomal doxorubicin had similar toxicities. Sor",
+            "journal": "Musculoskeletal surgery",
+            "year": "2023",
+            "authors": [
+              "Tsukamoto S",
+              "Takahama T",
+              "Mavrogenis A F",
+              "Tanaka Y",
+              "Tanaka Y"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vinorelbine",
+              "Sorafenib",
+              "Imatinib Mesylate",
+              "Hydroxyurea",
+              "Desmoid Tumors",
+              "Watchful Waiting",
+              "Methotrexate",
+              "Doxorubicin",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35150408/"
+          },
+          {
+            "pmid": "28723233",
+            "title": "Treatment patterns and clinical outcomes with pazopanib in patients with advanced soft tissue sarcomas in a compassionate use setting: results of the SPIRE study.",
+            "abstract": "A named patient program (NPP) was designed to provide patients with advanced soft-tissue sarcoma (aSTS) access to pazopanib, a multitargeted tyrosine kinase inhibitor. The SPIRE study was a retrospective chart review of participating patients.",
+            "journal": "Acta oncologica (Stockholm, Sweden)",
+            "year": "2017",
+            "authors": [
+              "Gelderblom Hans",
+              "Judson Ian R",
+              "Benson Charlotte",
+              "Merimsky Ofer",
+              "Grignani Giovanni"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Compassionate Use Trials",
+              "Disease-Free Survival",
+              "Female",
+              "Hemangiosarcoma",
+              "Humans",
+              "Indazoles",
+              "Leiomyosarcoma",
+              "Lung Neoplasms",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28723233/"
+          },
+          {
+            "pmid": "39265219",
+            "title": "Low-grade fibromyxoid sarcoma and sclerosing epithelioid fibrosarcoma, outcome of advanced disease: retrospective study from the Ultra-Rare Sarcoma Working Group.",
+            "abstract": "To present findings from a retrospective study conducted by the Ultra-Rare Sarcoma Working Group on metastatic low-grade fibromyxoid sarcoma (LGFMS), sclerosing epithelioid fibrosarcoma (SEF), and hybrid (H)-LGFMS/SEF across 28 global centres.",
+            "journal": "ESMO open",
+            "year": "2024",
+            "authors": [
+              "Giani C",
+              "Denu R A",
+              "Ljevar S",
+              "Gronchi A",
+              "Napolitano A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Retrospective Studies",
+              "Female",
+              "Male",
+              "Fibrosarcoma",
+              "Middle Aged",
+              "Adult",
+              "Aged",
+              "Young Adult",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39265219/"
+          },
+          {
+            "pmid": "30578023",
+            "title": "Pazopanib for treatment of advanced malignant and dedifferentiated solitary fibrous tumour: a multicentre, single-arm, phase 2 trial.",
+            "abstract": "A solitary fibrous tumour is a rare soft-tissue tumour with three clinicopathological variants: typical, malignant, and dedifferentiated. Preclinical experiments and retrospective studies have shown different sensitivities of solitary fibrous tumour to chemotherapy and antiangiogenics. We therefore designed a trial to assess the activity of pazopanib in a cohort of patients with malignant or dedifferentiated solitary fibrous tumour. The clinical and translational results are presented here.",
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "authors": [
+              "Martin-Broto Javier",
+              "Stacchiotti Silvia",
+              "Lopez-Pousa Antonio",
+              "Redondo Andres",
+              "Bernabeu Daniel"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Male",
+              "Middle Aged",
+              "Multivariate Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30578023/"
+          },
+          {
+            "pmid": "29384266",
+            "title": "Pazopanib therapy for desmoid tumors in adolescent and young adult patients.",
+            "abstract": "Desmoid tumors/aggressive fibromatosis (DT/AF) lack a reliably effective medical therapy. Surgical resection may be morbid and does not preclude recurrence. Radiation may carry severe late effects, particularly detrimental in young patients. At our institution, we recently observed promising results with pazopanib therapy for DT/AF in adolescent and young adult (AYA) patients.",
+            "journal": "Pediatric blood & cancer",
+            "year": "2018",
+            "authors": [
+              "Agresta Laura",
+              "Kim Hee",
+              "Turpin Brian K",
+              "Nagarajan Rajaram",
+              "Plemmons Alexandra"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Angiogenesis Inhibitors",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Desmoid Tumors",
+              "Follow-Up Studies",
+              "Humans",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29384266/"
+          },
+          {
+            "pmid": "31578997",
+            "title": "Pazopanib for progressive desmoid tumours: children, persistant effects, and cost.",
+            "abstract": "",
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "authors": [
+              "Nishida Yoshihiro",
+              "Sakai Tomohisa",
+              "Koike Hiroshi",
+              "Ito Kan"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Drug Therapy, Combination",
+              "Desmoid Tumors",
+              "Humans",
+              "Indazoles",
+              "Methotrexate",
+              "Pyrimidines",
+              "Sulfonamides",
+              "Vinblastine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31578997/"
+          },
+          {
+            "pmid": "38726846",
+            "title": "Active surveillance and emerging medical treatment options for desmoid: when and for whom?",
+            "abstract": "This article discusses the evolving approaches to desmoid tumors management, shedding light on recent developments.",
+            "journal": "Current opinion in oncology",
+            "year": "2024",
+            "authors": [
+              "Bonvalot Sylvie",
+              "Miah Aisha",
+              "Kasper Bernd"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Desmoid Tumors",
+              "Watchful Waiting",
+              "Randomized Controlled Trials as Topic",
+              "Sorafenib",
+              "Indazoles",
+              "Pyrimidines",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38726846/"
+          },
+          {
+            "pmid": "33719012",
+            "title": "Desmoid Fibromatosis: Management in an Era of Increasing Options.",
+            "abstract": "Desmoid fibromatosis (DF) is a locally aggressive clonal neoplasm with locally aggressive behavior and no metastatic potential. Historical treatment of DF has consisted primarily of up-front surgery when feasible. In recent years, recognition that DF can spontaneously stabilize or involute has allowed for many patients to be managed with watchful waiting rather than intervention. This review is intended to review recent developments in the treatment of DF.",
+            "journal": "Current oncology reports",
+            "year": "2021",
+            "authors": [
+              "Ratan Ravin",
+              "Roland Christina L",
+              "Bishop Andrew J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Desmoid Tumors",
+              "Humans",
+              "Indazoles",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sorafenib",
+              "Sulfonamides",
+              "Watchful Waiting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33719012/"
+          },
+          {
+            "pmid": "33723397",
+            "title": "Rationale for the use of tyrosine kinase inhibitors in the treatment of paediatric desmoid-type fibromatosis.",
+            "abstract": "In children with desmoid-type fibromatosis (DTF) in whom disease progression occurs after an initial watch-and-wait strategy, prolonged low-dose chemotherapy using vinblastine and methotrexate (VBL-MTX) is currently the standard of care. These conventional drugs have been prospectively evaluated but their efficacy and safety profiles are limited, and alternative therapeutic options are therefore essential. Based on the results of clinical trials, the use of tyrosine kinase inhibitors (TKIs) in the treatment of DTF is currently considered only in adult patients. TKIs such as imatinib show superior therapeutic efficacy to VBL-MTX and tolerable short-term side effects for the treatment of adult DFT, supporting the concept of the use of TKIs for the treatment of paediatric DFT. Moreover, new-generation TKIs, such as pazopanib and sorafenib, have shown improved therapeutic efficacy compared to imatinib in adult non-comparative studies. A tolerable safety profile of TKI therapy in children w",
+            "journal": "British journal of cancer",
+            "year": "2021",
+            "authors": [
+              "Sparber-Sauer Monika",
+              "Orbach Daniel",
+              "Navid Fariba",
+              "Hettmer Simone",
+              "Skapek Stephen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age of Onset",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Desmoid Tumors",
+              "Humans",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33723397/"
+          },
+          {
+            "pmid": "24555529",
+            "title": "Emerging therapies for adult soft tissue sarcoma.",
+            "abstract": "Soft tissue sarcoma (STS) are a broad group of rare tumors. Cornerstone of treatment is surgery. Complementary radiotherapy is recommended in high-risk STS arising from extremities. Doxorubicine ± ifosfamide based cytotoxic chemotherapy, explored in few randomized trials, showed a certain degree of activity, playing an established role only in unresectable disease. Since peculiar chemosensitivity towards alternative drugs was described for different metastatic subtypes in second or further lines, the modern concept of 'histology-driven chemotherapy' has been accepted and employed: gemicitabine ± dacarbazine, trabectedin and taxanes used respectively in patients with leiomyosarcoma, solitary fibrous tumor, myxoid/round cell liposarcoma, angiosarcoma. Recent discoveries about molecular pathways involved in STS tumorogenesis led to develop molecular targeted agents such as imatinib used in advanced dermatofibrosarcoma protuberans (DFSP) or metastatic DFSP-related fibrosarcoma, pazopanib, ",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2014",
+            "authors": [
+              "Radaelli Stefano",
+              "Stacchiotti Sivia",
+              "Casali Paolo G",
+              "Gronchi Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemotherapy, Adjuvant",
+              "Clinical Trials as Topic",
+              "Combined Modality Therapy",
+              "Histone Deacetylase Inhibitors",
+              "Humans",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24555529/"
+          },
+          {
+            "pmid": "35864381",
+            "title": "ISG15 as a prognostic biomarker in solitary fibrous tumour.",
+            "abstract": "Solitary fibrous tumour (SFT) is a rare mesenchymal malignancy that lacks robust prognostic and predictive biomarkers. Interferon-stimulated gene 15 (ISG15) is a ubiquitin-like modifier, associated with tumour progression, and with poor survival of SFT patients, as previous published by our group. Here, we describe the role of ISG15 in the biology of this rare tumour.",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2022",
+            "authors": [
+              "Mondaza-Hernandez Jose L",
+              "Moura David S",
+              "Lopez-Alvarez María",
+              "Sanchez-Bustos Paloma",
+              "Blanco-Alcaina Elena"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cytokines",
+              "Doxorubicin",
+              "Humans",
+              "Immunohistochemistry",
+              "Interferons",
+              "Prognosis",
+              "Solitary Fibrous Tumors",
+              "Ubiquitins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35864381/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kidney fibrosarcoma",
+        "txgnn_score": 0.9932532906532288,
+        "txgnn_rank": 8030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.992867946624756,
+        "txgnn_rank": 8332,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02601209",
+            "title": "A Phase I/Randomized Phase II Study of MLN0128 (TAK-228) VS. Pazopanib in Patients With Locally Advanced/Unresectable and/or Metastatic Sarcoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2015-11-30",
+            "completion_date": "2022-07-11",
+            "country": "United States",
+            "enrollment": 151,
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of sapanisertib and to see how well it works compared to pazopanib hydrochloride in treating patients with sarcoma that is too large to be removed (locally advanced) or has spread to other areas of the body (metastatic). Sapanisertib and pazopanib hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have slides available for submission to central pathology review; this review is mandatory prior to registration to confirm eligibility and proper cohort assignment\n\n  * HISTOLOGIC COHORT 1: Undifferentiated pleomorphic sarcoma (includes: malignant fibrous histio",
+            "endpoints": [
+              "Number of Phase I Participants With Dose-Limiting Toxicity Events (Phase I)",
+              "Progression-free Survival (PFS) (Phase II Analysis Group 2 - Initial Treatment Period)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02601209"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01059656",
+            "title": "A Phase IIa Open Multicenter, Trial, of Treatment With Pazopanib (Multi Tyrosine Kinase Inhibitor) in Dermatofibrosarcomas (DFSP), Unresectable Locally Advanced (Potentially Mutilating Surgery), Primary or Relapsing , Transformed or Not.",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-07",
+            "completion_date": "2014-04",
+            "country": "France",
+            "enrollment": 23,
+            "brief_summary": "In relation to the activation of PDGF-mediated signalization due to the fusion gene COL1A1-PDGFb in DFSP, imatinib (800mg/day) has shown activity in advanced DFSP and has became the reference treatment option for these patients. Yet the activity observed does not allow for a downstaging compatible with successful resection in a number of patients and does not prevent subsequent tumour progression in case of residual tumour.Pazopanib in relation to 1) its multi tyrosine kinase inhibiting activity",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primitive unresectable DFSP, locally advanced (potentially mutilating surgery), or in relapse or transformed.\n* Histologic confirmation of the Darier-FERRAND tumour (transformed types will be accepted provided a previous caryotype confirming the translocation (17,22)\n* Age \\> ",
+            "endpoints": [
+              "Decrease of at least 30% of the biggest diameter measured clinically at 6 months preceded by clinical response"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT01059656"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02180867",
+            "title": "Pazopanib Neoadjuvant Trial in Non-Rhabdomyosarcoma Soft Tissue Sarcomas (PAZNTIS): A Phase II/III Randomized Trial of Preoperative Chemoradiation or Preoperative Radiation Plus or Minus Pazopanib (NSC# 737754)",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-07-11",
+            "completion_date": "2026-12-24",
+            "country": "Canada, Puerto Rico, United States",
+            "enrollment": 140,
+            "brief_summary": "This randomized phase II/III trial studies how well pazopanib, when combined with chemotherapy and radiation therapy or radiation therapy alone, work in the treatment of patients with newly diagnosed non-rhabdomyosarcoma soft tissue sarcomas that can eventually be removed by surgery. Radiation therapy uses high energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as ifosfamide and doxorubicin, work in different ways to stop the growth of tumor cells, either by killing the cells, b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Note: eligible patients must have a body surface area \\>= 0.5 m\\^2 AND be able to swallow whole tablets\n* Newly diagnosed and histopathologically confirmed, potentially resectable NRSTS of the extremity and trunk will be eligible for the chemotherapy or non-chemotherapy cohort",
+            "endpoints": [
+              "Feasible Dose: Pediatric",
+              "Feasible Dose: Adult",
+              "Percentage of Chemoradiotherapy Patients With Positive Pathologic Response at Week 13"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02180867"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06239272",
+            "title": "NRSTS2021, A Risk Adapted Study Evaluating Maintenance Pazopanib, Limited Margin, Dose-Escalated Radiation Therapy and Selinexor in Non-Rhabdomyosarcoma Soft Tissue Sarcoma (NRSTS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-03-27",
+            "completion_date": "2037-06",
+            "country": "United States",
+            "enrollment": 139,
+            "brief_summary": "The study participant has been diagnosed with non-rhabdomyosarcoma (NRSTS).\n\nPrimary Objectives\n\nIntermediate-Risk\n\n* To estimate the 3-year event-free survival for intermediate-risk patients treated with ifosfamide, doxorubicin, pazopanib, surgery, and maintenance pazopanib, with or without RT.\n* To characterize the pharmacokinetics of pazopanib and doxorubicin in combination with ifosfamide in intermediate-risk participants, to assess potential covariates to explain the inter- and intra-indivi",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria - All Patients\n\n* Patients must be ≤ 30 years at the time of the biopsy that established the diagnosis of NRSTS.\n* Surgical Resection: Patients who had an upfront resection prior to enrollment will be eligible if they are able to begin therapy within 28 days o",
+            "endpoints": [
+              "Event-free survival (EFS)",
+              "Maximum tolerated dose (MTD) and/or the recommended phase 2 dosage (RP2D)"
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06239272"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37610680",
+            "title": "Multi-omic profiling and real time ex vivo modelling of imatinib-resistant dermatofibrosarcoma protuberans with fibrosarcomatous transformation.",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a rare and indolent cutaneous sarcoma, with the risk of aggressive fibro-sarcomatous transformation. Limited effective options are available for un-resectable or metastatic DFSP beyond targeting the oncogenic PDGF pathway with imatinib therapy. We established a patient-derived xenograft (PDX) and cell line model (designated MDFSP-S1) of imatinib-resistant DFSP with fibro-sarcomatous transformation. Whole genome sequencing identified high-level amplification at chromosomes 17 and 22, whilst homozygous deep deletion was demonstrated at chromosome 9 (CDKN2A, CDKN2B, MTAP). RNA sequencing followed by Sanger sequencing confirmed the pathognomonic COL1A1-PDGFB t (17;22) rearrangement in the original tumour, PDX and cell line model. Immunohistochemistry profiles of the PDX model were consistent with the patient's tumour sample (CD34 + /MIB1 + /SOX10- ). Gene set enrichment analysis highlighted top-scoring Hallmark gene sets in several oncogenic signal",
+            "journal": "Human cell",
+            "year": "2023",
+            "authors": [
+              "Chan Jason Yongsheng",
+              "Lee Elizabeth Chun Yong",
+              "Li Zhimei",
+              "Lee Jing Yi",
+              "Lim Abner Herbert"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37610680/"
+          },
+          {
+            "pmid": "32956651",
+            "title": "A Multicenter Phase II Study of Pazopanib in Patients with Unresectable Dermatofibrosarcoma Protuberans.",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a soft-tissue sarcoma characterized by a high risk of local infiltration. The identification of the COL1A1-PDGFB t(17;22) translocation activating the PDGF pathway led to the use of imatinib in unresectable DFSP, with a response rate of 36-80%. Pazopanib is a multitarget tyrosine kinase inhibitor approved for soft-tissue sarcomas. We conducted a phase II study of patients with unresectable DFSP to evaluate the efficacy and safety of pazopanib. Patients received 800 mg of pazopanib daily. The primary endpoint was the objective response rate defined as the reduction of the largest diameter of the tumor by ≥30% at 6 months or at surgery. A total of 23 patients, including one pretreated with imatinib, were enrolled. With a median follow-up of 6.2 months (interquartile range = 5.6-7.8 months), five patients (22%, 95% confidence interval = 7-22%) had a partial response to pazopanib. The best objective response rate was 30% (95% confidence interval = ",
+            "journal": "The Journal of investigative dermatology",
+            "year": "2021",
+            "authors": [
+              "Delyon Julie",
+              "Porcher Raphael",
+              "Battistella Maxime",
+              "Meyer Nicolas",
+              "Adamski Henri"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Biomarkers, Tumor",
+              "Dermatofibrosarcoma",
+              "Drug Resistance, Neoplasm",
+              "Epidermal Growth Factor",
+              "ErbB Receptors",
+              "Female",
+              "Gene Expression Profiling",
+              "Gene Expression Regulation, Neoplastic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32956651/"
+          },
+          {
+            "pmid": "22510939",
+            "title": "Dermatofibrosarcoma protruberans treatment with platelet-derived growth factor receptor inhibitor: a review of clinical trial results.",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a rare mesenchymal neoplasm arising in the dermis, accounting for less than 0.1% of all cancers. Given its rarity, and paucity of randomized trials, the nuances of treatment are not widely understood. In this review we attempt to summarize the available data to guide treatment choices for physicians managing this disease.",
+            "journal": "Current opinion in oncology",
+            "year": "2012",
+            "authors": [
+              "Malhotra Binu",
+              "Schuetze Scott M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Clinical Trials as Topic",
+              "Dermatofibrosarcoma",
+              "Humans",
+              "Imatinib Mesylate",
+              "Piperazines",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Receptors, Platelet-Derived Growth Factor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22510939/"
+          },
+          {
+            "pmid": "27434055",
+            "title": "Chemotherapy for soft tissue sarcoma.",
+            "abstract": "Soft tissue sarcoma is a term used to describe a heterogeneous group of many rare tumors. Since the initial description of activity of doxorubicin, several additional agents have been brought to bear in the treatment of these diseases. Despite 2 recent drug approvals, doxorubicin and ifosfamide remain the most effective chemotherapy drugs available for the treatment of majority of these tumors. Optimal dosing and administration influence outcomes because of the steep dose-response curves associated with these agents. The debate endures regarding whether patients who have advanced disease should routinely receive single agents sequentially or in combination. Adjuvant therapy remains similarly controversial, although meta-analyses do support its use. Contemporary treatment of soft tissue sarcoma routinely incorporates additional lines of treatment that have become available over the last 15 years. Fixed-dose-rate gemcitabine with or without docetaxel is a standard second-line treatment. ",
+            "journal": "Cancer",
+            "year": "2016",
+            "authors": [
+              "Ratan Ravin",
+              "Patel Shreyaskumar R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Humans",
+              "Sarcoma",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27434055/"
+          },
+          {
+            "pmid": "28515919",
+            "title": "Programmed death-ligand 1 expression is associated with fibrosarcomatous transformation of dermatofibrosarcoma protuberans.",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a locally invading tumor, characterized by the presence of the collagen type I α 1 (COL1A1)-platelet-derived growth factor (PDGF) β fusion gene. We herein report the case of a 31-year-old man with a history of resection of an abdominal wall DFSP. The patient presented with chest pain and a computed tomography scan revealed a large mass in the posterior mediastinum and another mass in the right lung. The mediastinal mass was a sarcomatous lesion expressing the COL1A1-PDGFβ fusion gene, suggesting that it represented a metastasis of the DFSP following fibrosarcomatous (FS) transformation. Following resection of the mediastinal metastasis and subsequent radiotherapy, the mass in the right lung was also resected. Due to the emergence of pleural and pancreatic tail metastases, the patient was treated with a combination therapy of adriamycin and ifosfamide. After five courses, the disease progressed and the patient was subsequently treated with pazop",
+            "journal": "Molecular and clinical oncology",
+            "year": "2017",
+            "authors": [
+              "Tsuchihashi Kenji",
+              "Kusaba Hitoshi",
+              "Yamada Yuichi",
+              "Okumura Yuta",
+              "Shimokawa Hozumi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28515919/"
+          },
+          {
+            "pmid": "24555529",
+            "title": "Emerging therapies for adult soft tissue sarcoma.",
+            "abstract": "Soft tissue sarcoma (STS) are a broad group of rare tumors. Cornerstone of treatment is surgery. Complementary radiotherapy is recommended in high-risk STS arising from extremities. Doxorubicine ± ifosfamide based cytotoxic chemotherapy, explored in few randomized trials, showed a certain degree of activity, playing an established role only in unresectable disease. Since peculiar chemosensitivity towards alternative drugs was described for different metastatic subtypes in second or further lines, the modern concept of 'histology-driven chemotherapy' has been accepted and employed: gemicitabine ± dacarbazine, trabectedin and taxanes used respectively in patients with leiomyosarcoma, solitary fibrous tumor, myxoid/round cell liposarcoma, angiosarcoma. Recent discoveries about molecular pathways involved in STS tumorogenesis led to develop molecular targeted agents such as imatinib used in advanced dermatofibrosarcoma protuberans (DFSP) or metastatic DFSP-related fibrosarcoma, pazopanib, ",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2014",
+            "authors": [
+              "Radaelli Stefano",
+              "Stacchiotti Sivia",
+              "Casali Paolo G",
+              "Gronchi Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents, Hormonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemotherapy, Adjuvant",
+              "Clinical Trials as Topic",
+              "Combined Modality Therapy",
+              "Histone Deacetylase Inhibitors",
+              "Humans",
+              "Immunologic Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24555529/"
+          },
+          {
+            "pmid": "27988943",
+            "title": "Pazopanib induced a partial response in a patient with metastatic fibrosarcomatous dermatofibrosarcoma protuberans without genetic translocations resistant to mesna, doxorubicin, ifosfamide and dacarbazine chemotherapy and gemcitabine-docetaxel chemotherapy.",
+            "abstract": "",
+            "journal": "The Journal of dermatology",
+            "year": "2017",
+            "authors": [
+              "Miyagawa Takuya",
+              "Kadono Takafumi",
+              "Kimura Takayuki",
+              "Saigusa Ryosuke",
+              "Yoshizaki Ayumi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Abdomen",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Dacarbazine",
+              "Deoxycytidine",
+              "Dermatofibrosarcoma",
+              "Docetaxel",
+              "Doxorubicin",
+              "Drug Resistance, Neoplasm",
+              "Fatal Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27988943/"
+          },
+          {
+            "pmid": "34066400",
+            "title": "Long-Term Outcome of Neoadjuvant Tyrosine Kinase Inhibitors Followed by Complete Surgery in Locally Advanced Dermatofibrosarcoma Protuberans.",
+            "abstract": "In locally advanced dermatofibrosarcoma protuberans (DFSP), imatinib mesylate has been described as an efficient neoadjuvant therapy. This retrospective study included patients with locally advanced DFSP who received neoadjuvant TKI (imatinib or pazopanib) from 2007 to 2017 at Saint Louis Hospital, Paris. The primary endpoint was the evaluation of the long-term status. A total of 27 patients were included, of whom nine had fibrosarcomatous transformation. The median duration of treatment was 7 months. The best response to TKI treatment before surgery, evaluated according to RECIST1.1 on MRI, consisted of complete/partial response (38.5%) or stability (46.2%). DFSP was surgically removed in 24 (89%) patients. A total of 23 patients (85%) were disease-free after 64.8 months of median follow-up (95% confidence interval 47.8; 109.3). One patient developed distant metastases 37 months after surgical tumor resection and finally died. Two patients (7%) did not get surgery because of metastati",
+            "journal": "Cancers",
+            "year": "2021",
+            "authors": [
+              "Beaziz Jessica",
+              "Battistella Maxime",
+              "Delyon Julie",
+              "Farges Cécile",
+              "Marco Oren"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34066400/"
+          },
+          {
+            "pmid": "24712007",
+            "title": "[Medical treatment of soft tissue sarcomas based on the histological subtype].",
+            "abstract": "The medical treatment of adult soft tissue sarcomas is more and more dictated by the histological subtype, this applies to both cytotoxics and target therapies. Doxorubicin and ifosfamid are the two drugs used either in monotherapy or combination with the best established response rates in adult soft tissue sarcomas for several years. In addition to these compounds there is evidence of efficacy of new drugs such as taxanes in angiosarcoma, gemcitabine+taxanes combination in leiomyosarcomas, trabectedin in leiomyosarcomas and liposarcomas with an extremely high activity in myxoid liposarcoma. With regard to target therapy pazopanib seems especially active in leiomyosarcomas and synoviosarcomas, but totally inactive in liposarcomas, sunitinib and cediranib in alveolar soft part sarcomas, sunitinib and bevacizumab+temozolamide combination in solitary fibrous tumors, and sorafenib in angiosarcomas. mTOR inhibitors are active in PEComas (perivascular epitheloid cell tumors) and crizotinib i",
+            "journal": "Magyar onkologia",
+            "year": "2014",
+            "authors": [
+              "Pápai Zsuzsanna"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Gastrointestinal Stromal Tumors",
+              "Hemangiopericytoma",
+              "Hemangiosarcoma",
+              "Humans",
+              "Leiomyosarcoma",
+              "Liposarcoma",
+              "Molecular Targeted Therapy",
+              "Sarcoma",
+              "Sarcoma, Kaposi"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24712007/"
+          },
+          {
+            "pmid": "24041629",
+            "title": "Pazopanib a tyrosine kinase inhibitor with strong anti-angiogenetic activity: a new treatment for metastatic soft tissue sarcoma.",
+            "abstract": "Soft tissue sarcomas (STS) are rare tumors with mesenchymal origin, accounting for 1% of all human cancer. Local control of STS can be obtained through the use of surgery and radiotherapy. In about 40% of these patients, disease will recur at distant sites, and of these more than 90% will die because of this aggressive malignancy. In advanced and/or metastatic STS patients treated with anthracycline-based regimen the median overall survival is about 12 months, and it has remained unchanged during the last 20 years. Clearly, this strongly suggests the need for discover more active compounds in STS, such as imatinib in GIST or dermatofibrosarcoma patients. In this paper we describe the crucial role of angiogenesis mechanisms in sarcomas development and progression. Consequentially, we focus on pazopanib, a novel multitargeted tyrosine kinase inhibitor with anti-angiogenic activity, mainly due to VEGFR2 pathway interference. We also analyze principal completed trials leading pazopanib app",
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2014",
+            "authors": [
+              "Ranieri Girolamo",
+              "Mammì Maria",
+              "Donato Di Paola Eugenio",
+              "Russo Emilio",
+              "Gallelli Luca"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Animals",
+              "Humans",
+              "Indazoles",
+              "Molecular Targeted Therapy",
+              "Neoplasm Metastasis",
+              "Protein Kinase Inhibitors",
+              "Pyrimidines",
+              "Sarcoma",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24041629/"
+          },
+          {
+            "pmid": "37592448",
+            "title": "Extensive analysis of 59 sarcoma-related fusion genes identified pazopanib as a potential inhibitor to COL1A1-PDGFB fusion gene.",
+            "abstract": "Sarcomas are malignant mesenchymal tumors that are extremely rare and divergent. Fusion genes are involved in approximately 30% of sarcomas as driver oncogenes; however, their detailed functions are not fully understood. In this study, we determined the functional significance of 59 sarcoma-related fusion genes. The transforming potential and drug sensitivities of these fusion genes were evaluated using a focus formation assay (FFA) and the mixed-all-nominated-in-one (MANO) method, respectively. The transcriptome was also examined using RNA sequencing of 3T3 cells transduced with each fusion gene. Approximately half (28/59, 47%) of the fusion genes exhibited transformation in the FFA assay, which was classified into five types based on the resulting phenotype. The sensitivity to 12 drugs including multityrosine kinase inhibitors was assessed using the MANO method and pazopanib was found to be more effective against cells expressing the COL1A1-PDGFB fusion gene compared with the others.",
+            "journal": "Cancer science",
+            "year": "2023",
+            "authors": [
+              "Hirose Takeshi",
+              "Ikegami Masachika",
+              "Kojima Shinya",
+              "Yoshida Akihiko",
+              "Endo Makoto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37592448/"
+          },
+          {
+            "pmid": "33776477",
+            "title": "Rechallenge with Multi-Targeted Tyrosine Kinase Inhibitors in Patients with Advanced Soft Tissue Sarcoma: A Single-Center Experience.",
+            "abstract": "Chemotherapy and multi-targeted tyrosine kinase inhibitors (TKI) are important treatments for advanced soft tissue sarcomas, but the following treatment remains unclear after the failure of these drugs. This retrospective study investigated the efficacy and safety of multi-targeted TKI rechallenge in patients with advanced soft tissue sarcoma after the failure of previous TKI treatment.",
+            "journal": "Cancer management and research",
+            "year": "2021",
+            "authors": [
+              "Liu Jie",
+              "Deng Yao-Tiao",
+              "Wu Xin",
+              "Jiang Yu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33776477/"
+          },
+          {
+            "pmid": "22987955",
+            "title": "Histology- and non-histology-driven therapy for treatment of soft tissue sarcomas.",
+            "abstract": "Medical treatment of adult soft tissue sarcomas is more and more dictated by the histological subtype, in a family of rare cancers made up of dozens of these subsets. This applies to both cytotoxics and target therapies. In addition to doxorubicin and ifosfamide, therefore, there is evidence of efficacy of gemcitabine in leiomyosarcomas; trabectedin in leiomyosarcomas and liposarcomas, with an exceedingly high activity in myxoid liposarcoma; taxanes and gemcitabine in angiosarcoma. With regard to target therapies, imatinib is paradigmatically effective in the usually non-medically treated dermatofibrosarcoma. Then, in the face of a strong rationale, mammalian target of rapamycin (mTOR) inhibitors are active in a proportion of PEComas (perivascular epithelioid cell tumours) and crizotinib in ALK-rearranged inflammatory myofibroblastic tumours. Though the mechanism is less understood at the moment, pazopanib seems especially active in leiomyosarcoma and synovial sarcoma; sunitinib and ce",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2012",
+            "authors": [
+              "Casali P G"
+            ],
+            "pub_types": [
+              "Conference Proceedings",
+              "Overall"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Hemangiosarcoma",
+              "Humans",
+              "Leiomyosarcoma",
+              "Liposarcoma",
+              "Liposarcoma, Myxoid",
+              "Sarcoma",
+              "Soft Tissue Neoplasms",
+              "Solitary Fibrous Tumors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22987955/"
+          },
+          {
+            "pmid": "26931561",
+            "title": "Histology-Specific Uses of Tyrosine Kinase Inhibitors in Non-gastrointestinal Stromal Tumor Sarcomas.",
+            "abstract": "Adult sarcomas, especially those with metastatic or unresectable disease, have limited treatment options. Traditional chemotherapeutic options have been limited by poor response rates in patients with advanced sarcomas. The important clinical question is whether the success of targeted therapy in GIST can be extended to other sarcomas and also if preclinical data describing targets across this heterogeneous group of cancers can be translated to clinical efficacy of known and upcoming target specific agents. Multi-targeted tyrosine kinase inhibitors (TKI) such as pazopanib, sorafenib, sunutinib, cediranib have shown benefits across various histologies of soft tissue sarcoma as well as bone sarcomas. The efficacy of imatinib in Dermatofibrosarcoma Protruberans; sunitinib and cediranib in alveolar soft part sarcoma; and sorafenib and imatinib in chordomas have provided a treatment option of these rare tumors where no effective options existed. TKIs are being tested in combination with che",
+            "journal": "Current treatment options in oncology",
+            "year": "2016",
+            "authors": [
+              "Sethi Tarsheen K",
+              "Keedy Vicki L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Bone Neoplasms",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Protein Kinase Inhibitors",
+              "Protein-Tyrosine Kinases",
+              "Receptor Protein-Tyrosine Kinases",
+              "Sarcoma",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26931561/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06589",
+    "name": "Pazopanib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pazopanib"
+      },
+      "queried_at": "2026-03-09T21:57:17.510439",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pazopanib"
+      },
+      "queried_at": "2026-03-09T21:57:21.617731",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T21:57:22.413684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T21:57:30.688302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T21:57:31.725452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T21:57:34.190891",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T21:57:42.160129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T21:57:53.497016",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T21:57:55.228712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T21:58:00.280544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "queried_at": "2026-03-09T21:58:07.200756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T21:58:10.391240",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T21:58:17.286717",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T21:58:34.199247",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T21:58:38.582804",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T21:58:46.382492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "queried_at": "2026-03-09T21:58:49.080759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T21:58:49.800703",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T21:58:55.337225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T21:58:56.912694",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-09T21:59:02.645005",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-09T21:59:08.710663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-09T21:59:09.756854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-09T21:59:11.734677",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-09T21:59:17.771004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-09T21:59:30.360100",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-09T21:59:33.474345",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-09T21:59:37.865607",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-09T21:59:39.732633",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T21:59:42.651736",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T21:59:47.630956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pazopanib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T21:59:52.504016",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T21:59:52.509353"
+  }
+}

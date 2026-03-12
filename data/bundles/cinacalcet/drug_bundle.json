@@ -1,0 +1,1258 @@
+{
+  "drug": {
+    "inn": "Cinacalcet",
+    "drugbank_id": "DB01012",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9848079681396484,
+        "txgnn_rank": 14319,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.953931987285614,
+        "txgnn_rank": 25736,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9423148036003112,
+        "txgnn_rank": 28377,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27873072",
+            "title": "Cinacalcet hydrochloride relieves hypercalcemia in Japanese patients with parathyroid cancer and intractable primary hyperparathyroidism.",
+            "abstract": "Pharmacological treatment of hypercalcemia is essential for patients with parathyroid carcinoma and intractable primary hyperparathyroidism (PHPT). Use of the calcimimetic cinacalcet hydrochloride (cinacalcet) is an option to treat such patients. We investigated the efficacy and safety of cinacalcet in Japanese patients with parathyroid carcinoma and intractable PHPT. Five Japanese patients with parathyroid carcinoma and two with intractable PHPT were enrolled in an open-label, single-arm study consisting of titration and maintenance phases. Cinacalcet doses were titrated until the albumin-corrected serum calcium concentration decreased to 10.0 mg/dL or less or until dose escalation was considered not necessary or feasible. Serum calcium concentration at the baseline was 12.1 ± 1.3 mg/dL (mean ± standard deviation; range 10.4-14.6 mg/dL) and decreased to 10.1 ± 1.6 mg/dL (range 8.6-13.3 mg/dL) at the end of the titration phase with cinacalcet at a dosage of up to 75 mg three times a da",
+            "journal": "Journal of bone and mineral metabolism",
+            "year": "2017",
+            "authors": [
+              "Takeuchi Yasuhiro",
+              "Takahashi Shunsuke",
+              "Miura Daishu",
+              "Katagiri Makoto",
+              "Nakashima Noriaki"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Asian People",
+              "Calcium",
+              "Calcium, Dietary",
+              "Cinacalcet",
+              "Creatinine",
+              "Demography",
+              "Dose-Response Relationship, Drug",
+              "Electrocardiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27873072/"
+          },
+          {
+            "pmid": "38780484",
+            "title": "Calcium-sensing Receptor, a Potential Biomarker Revealed by Large-scale Public Databases and Experimental Verification in Metastatic Breast Cancer.",
+            "abstract": "Breast cancer (BC) is a common cancer characterized by a high molecular heterogeneity. Therefore, understanding its biological properties and developing effective treatments for patients with different molecular features is imperative. Calcium-sensing receptor (CaSR) has been implicated in several regulatory functions in various types of human cancers. However, its underlying pathological mechanism in BC progression remains elusive.",
+            "journal": "Technology in cancer research & treatment",
+            "year": "2024",
+            "authors": [
+              "Xie Wanlin",
+              "Xu Huimin",
+              "Cheng Yangyang",
+              "Lin Xin",
+              "Zeng Jingya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Receptors, Calcium-Sensing",
+              "Breast Neoplasms",
+              "Female",
+              "Biomarkers, Tumor",
+              "Gene Expression Regulation, Neoplastic",
+              "Neoplasm Metastasis",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Databases, Genetic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38780484/"
+          },
+          {
+            "pmid": "18541104",
+            "title": "Calciphylaxis of the breast: a rare disease in the differential diagnosis of breast cancer.",
+            "abstract": "Calciphylaxis is a rare, but potentially life-threatening condition usually observed in patients with end-stage chronic renal disease and characterized by small- and medium-sized blood vessel calcification leading to tissue ischemia. The clinical features are primarily cutaneous, consisting of skin necrosis and ulceration, mostly located in the lower extremities. We report a case of a 56-year-old woman with a previous history of renal disease and atypical lobular hyperplasia of the right breast, who developed painful skin necrosis on both breasts. Differential diagnosis comprises acute bacterial infection with ulceration, cutaneous vasculitis, cancer and calciphylaxis.",
+            "journal": "Acta dermatovenerologica Croatica : ADC",
+            "year": "2008",
+            "authors": [
+              "Padovan Cristina",
+              "Bonfigli Fabrizio",
+              "Ulessi Bruno",
+              "Gottardi Chiara",
+              "Giansante Carlo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Breast Diseases",
+              "Breast Neoplasms",
+              "Calciphylaxis",
+              "Cinacalcet",
+              "Diagnosis, Differential",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Kidney Failure, Chronic",
+              "Mastectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18541104/"
+          },
+          {
+            "pmid": "19627726",
+            "title": "[Primary hyperparathyroidism. An alternative to the surgery].",
+            "abstract": "Primary hyperparathyroidism is caused by an adenoma/hyperplasia in the parathyroid glands in which hypercalcemia is mainly due to an increased secretion of parathormone (PTH). The only definitive treatment is surgery. There are some patients at high surgical risk or who refuse surgery, and whose hypercalcemia cannot be controlled with conventional medical therapy such as hydration, diuretics and/or oral biphosphonates. We suggest the use of two drugs indicated for the treatment of hypercalcemia of other etiologies: zoledronic acid, a parenteral bisphosphonate, and cinacalcet, a calcimimetic agent that reduces PTH secretion. We present the case of a woman with hypercalcemia due to primary hyperparathyroidism caused by an adenoma, who was treated with both drugs.",
+            "journal": "Endocrinologia y nutricion : organo de la Sociedad Espanola de Endocrinologia y Nutricion",
+            "year": "2009",
+            "authors": [
+              "Díaz Guardiola Patricia",
+              "Vega Piñero Belén",
+              "Alameda Hernando Carmen",
+              "Pavón de Paz Isabel",
+              "Iglesias Bolaños Paloma"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenoma",
+              "Aged, 80 and over",
+              "Breast Neoplasms",
+              "Carcinoma",
+              "Carcinoma, Renal Cell",
+              "Cinacalcet",
+              "Comorbidity",
+              "Contraindications",
+              "Diphosphonates",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19627726/"
+          },
+          {
+            "pmid": "32312250",
+            "title": "Case report of a cystic parathyroidal adenoma with rapid growth induced by cinacalcet.",
+            "abstract": "Primary hyperparathyroidism is a rare condition of disease which can seldomly present as giant retrotrhyroideal cysts, complicating the localization of the adenoma to resect.",
+            "journal": "BMC endocrine disorders",
+            "year": "2020",
+            "authors": [
+              "Werner Christoph",
+              "Lupp Amelie",
+              "Mtuka-Pardon Gabriele",
+              "Kloos Christof",
+              "Wolf Gunter"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenoma",
+              "Biopsy",
+              "Calcium-Regulating Hormones and Agents",
+              "Cinacalcet",
+              "Cysts",
+              "Diagnostic Errors",
+              "Disease Progression",
+              "Female",
+              "Humans",
+              "Hypercalcemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32312250/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9372682571411132,
+        "txgnn_rank": 29288,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03123406",
+            "title": "A Multi-center Study Evaluating Efficacy and Safety of Cinacalcet Hydrochloride(HCL) in Calcium, Phosphorus and Intact Parathyroid Hormone(iPTH) Serum Levels in Chinese Chronic Kidney Disease(CKD) Hemodialysis(HD) Patients With Mild, Moderate and Severe Secondary Hyperparathyroidism(SHPT)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2017-04-19",
+            "completion_date": "2019-09-06",
+            "country": "China",
+            "enrollment": 750,
+            "brief_summary": "1. To evaluate achievement ratio of iPTH,Calcium and phosphorus after taking Cinacalcet HCL in hemodialysis subjects with mild, moderate and severe SHPT;\n2. To explore the impact of Cinacalcet HCL using on the combined use of drugs;\n3. To explore the difference of patients who continued or discontinued Cinacalcet HCL in real-world period from 33rd to 52nd week.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\- Parents/guardians must sign informed consent;\n\nMust be males or females whose age are 18 to 75 years old;\n\nClinical diagnosis of chronic kidney disease on maintenance hemodialysis with secondary hyperparathyroidism;\n\niPTH must be equal or higher than 300Pg/ml;\n\nMust not have ",
+            "endpoints": [
+              "Compared with baseline data, the proportion of subjects reaching iPTH target at 20th week",
+              "Compared with baseline data, the proportion of subjects reaching iPTH target at 32nd week"
+            ],
+            "sponsor": "Kyowa Kirin Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT03123406"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00325104",
+            "title": "Cinacalcet Actions in Familial Primary Hyperparathyroidism",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-05-09",
+            "completion_date": "2007-03-31",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "This study will evaluate the benefits and side effects of a new medication called Cinacalcet for treating patients with primary hyperparathyroidism associated with multiple endocrine neoplasia type 1 (MEN1) or type 2A (MEN2A). Patients with primary hyperparathyroidism have elevated levels of blood calcium caused by too much parathyroid hormone released by one or more parathyroid tumors. The parathyroids are small glands located in the neck. Most cases of primary hyperparathyroidism are due to a ",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n\nCriteria for inclusion\n\n1. Patients with primary hyperparathyroidism associated with MEN1 or 2A syndrome and no indications for current surgical interventions.\n2. For initial pilot study, 15-20 patients with MEN1 syndrome and biochemical evidence of hyperparathyroidism will be",
+            "endpoints": [],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT00325104"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04637360",
+            "title": "To Study the Bone Turnover Markers and Bone Density Changes in Hyperperparathyroid Dialysis Patients Under Calcium Sensing Receptor Agonist Cinacalcet Treatment",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2018-01-01",
+            "completion_date": "2020-06-30",
+            "country": "Taiwan",
+            "enrollment": 40,
+            "brief_summary": "Chronic kidney disease related mineral and bone disorders (CKD-MBDs) and secondary hyperparathyroidism (SHPT) are observed in most patients with chronic kidney disease on dialysis (CKD-5D). The original use of the calcimimetic cinacalcet in these patients was to reduce the elevated parathyroid hormone (PTH) levels; however, subsequent clinical studies consistently confirmed its beneficial effects on mineral disturbances and bone disease. Although many mechanisms proposed, its specific mechanisms",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. 20 - 80 yrs of age and eligible for consent\n2. Hyperparathyroid (iPTH\\>300 pg/mL) regular dialysis patients using cinacalcet and start the treatment during the study period.\n\nExclusion Criteria:\n\n1. \\<20yrs or \\>80yrs patients\n2. Post-menopausal female patients\n3. Malignancie",
+            "endpoints": [
+              "Parathyroid serum level"
+            ],
+            "sponsor": "Min-Sheng General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04637360"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35407574",
+            "title": "Management and Long-Term Follow-Up of Hyperparathyroidism in Multiple Endocrine Neoplasia Type 1: Single Center Experience.",
+            "abstract": "Primary hyperparathyroidism (PHPT) in the most common and earliest manifestation of multiple endocrine neoplasia type-1 (MEN1). Epidemiological data have been reported in MEN1 patients but data on long-term follow-up focusing on PHPT are scarce.",
+            "journal": "Journal of clinical medicine",
+            "year": "2022",
+            "authors": [
+              "Yavropoulou Maria P",
+              "Vlachou Sofia",
+              "Tsoli Marina",
+              "Fostira Florentia",
+              "Kaltsas Gregory"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35407574/"
+          },
+          {
+            "pmid": "24285106",
+            "title": "Impact of cinacalcet hydrochloride in clinical management of primary hyperparathyroidism in multiple endocrine neoplasia type 1.",
+            "abstract": "Primary hyperparathyroidism (PHPT) is one of main cause of morbidity in patients with multiple endocrine neoplasia type 1 (MEN1). Medical therapy with cinacalcet-hydrochloride may modify the therapeutic strategy of MEN1 related PHPT. We present an experience with cinacalcet-hydrochloride in two patients with MEN1 PHPT.",
+            "journal": "Minerva endocrinologica",
+            "year": "2013",
+            "authors": [
+              "Del Prete M",
+              "Marotta V",
+              "Ramundo V",
+              "Marciello F",
+              "Di Sarno A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Biomarkers",
+              "Calcimimetic Agents",
+              "Calcium",
+              "Cinacalcet",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hyperparathyroidism, Primary",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24285106/"
+          },
+          {
+            "pmid": "26224587",
+            "title": "Cinacalcet therapy in patients affected by primary hyperparathyroidism associated to Multiple Endocrine Neoplasia Syndrome type 1 (MEN1).",
+            "abstract": "Primary hyperparathyroidism is the main endocrinopathy associated with Multiple Endocrine Neoplasia type 1 syndrome. Cinacalcet is a calcimimetic agent licensed for the treatment of secondary hyperparathyroidism in patients with end-stage renal disease, and for the reduction of marked hypercalcemia in patients with parathyroid carcinoma and sporadic hyperparathyroidism requiring surgery but for whom parathyroidectomy is contraindicated. It may provide a medical alternative for the management of primary hyperparathyroidism in subjects affected by Multiple Endocrine Neoplasia type 1. In this longitudinal, intervention study, 33 MEN1 patients had been enrolled, 10 males and 23 females with a mean age of 40 ± 11.9 years, range 20-63. Primary hyperparathyroidism was the first clinical manifestation in 12 patients. All subjects commenced with Cinacalcet 30 mg/day, 22 patients starting therapy with calcimimetics as an alternative to surgery, and 11 patients opting for the medication after the",
+            "journal": "Endocrine",
+            "year": "2016",
+            "authors": [
+              "Giusti Francesca",
+              "Cianferotti Luisella",
+              "Gronchi Giorgio",
+              "Cioppi Federica",
+              "Masi Laura"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase IV",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adenoma",
+              "Adult",
+              "Calcium",
+              "Cinacalcet",
+              "Female",
+              "Humans",
+              "Hyperparathyroidism, Primary",
+              "Longitudinal Studies",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26224587/"
+          },
+          {
+            "pmid": "37893182",
+            "title": "Pediatric Neuroendocrine Neoplasia of the Parathyroid Glands: Delving into Primary Hyperparathyroidism.",
+            "abstract": "Our objective was to overview the most recent data on primary hyperparathyroidism (PHP) in children and teenagers from a multidisciplinary perspective. Methods: narrative review based on full-length, English-language papers (from PubMed, between January 2020 and July 2023). Results: 48 papers (14 studies of ≥10 subjects/study, and 34 case reports/series of <10 patients/study). Study-sample-based analysis: except for one case-control study, all of the studies were retrospective, representing both multicenter (n = 5) and single-center (n = 7) studies, and cohort sizes varied from small (N = 10 to 19), to medium-sized (N = 23 to 36) and large (N = 63 to 83); in total, the reviewed studies covered 493 individuals with PHP. Case reports/series (n = 34, N = 41): the mean ages studied varied from 10.2 to 14 years in case reports, and the mean age was 17 years in case series. No clear female predominance was identified, unlike that observed in the adult population. Concerning the assessments, ",
+            "journal": "Biomedicines",
+            "year": "2023",
+            "authors": [
+              "Carsote Mara",
+              "Stanciu Mihaela",
+              "Popa Florina Ligia",
+              "Gheorghe Ana-Maria",
+              "Ciuche Adrian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37893182/"
+          },
+          {
+            "pmid": "24868516",
+            "title": "Parathyroid carcinoma in pregnancy.",
+            "abstract": "A 24-year-old female patient with parathyroid carcinoma, the rarest endocrine malignancy, had two pregnancies. In the first pregnancy, she had severe nausea and fatigue. Hypercalcemia and hyperparathyroidism were diagnosed in the postpartum period. Hyperemesis gravidarum masked a diagnosis of hypercalcemia. Neck ultrasound and Tc-99m sestamibi found an enlarged lower right parathyroid gland. The gland was surgically removed, and an initial pathology report described atypical adenoma. Shortly afterward, she became pregnant again. During the second pregnancy, her calcium level was frequently controlled but was always in the normal range. Normocalcemia is explained by the specific physiology of pregnancy accompanied by hemodilution, hypoalbuminemia and maternal hypercalciuria (mediated by increased glomerular filtration). During lactation, calcium levels rose, and a new neck ultrasound showed a solitary mass in the area of prior surgery and an enlarged pretracheal lymph node. Fine needle ",
+            "journal": "World journal of clinical cases",
+            "year": "2014",
+            "authors": [
+              "Baretić Maja",
+              "Tomić Brzac Hrvojka",
+              "Dobrenić Margareta",
+              "Jakovčević Antonia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24868516/"
+          },
+          {
+            "pmid": "22104762",
+            "title": "Update on the use of cinacalcet in the management of primary hyperparathyroidism.",
+            "abstract": "Cinacalcet is an allosteric modulator of the calcium sensing receptor acting to sensitize this receptor to the extracellular calcium. Cinacalcet has been shown to be effective in reducing or normalizing serum calcium levels in several groups of patients with primary hyperparathyroidism (PHPT), including patients with mild to moderate PHPT, intractable PHPT, and parathyroid carcinoma, and in PHPT as a part of multiple endocrine neoplasia type 1. Cinacalcet slightly reduces PTH levels and has no effects on bone mineral density. Cinacalcet at low doses is well tolerated, but side effects are more frequent and severe when relatively high doses are needed to control hypercalcemia. Cinacalcet may be of benefit in a wide spectrum of PHPT severity, offering a novel therapeutic option for the control of hypercalcemia in PHPT patients who are not able to undergo parathyroidectomy. To what extent the reduction of serum calcium particularly in patients with mild to moderate hypercalcemia, translat",
+            "journal": "Journal of endocrinological investigation",
+            "year": "2012",
+            "authors": [
+              "Marcocci C",
+              "Cetani F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cinacalcet",
+              "Disease Management",
+              "Humans",
+              "Hyperparathyroidism, Primary",
+              "Naphthalenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22104762/"
+          },
+          {
+            "pmid": "36090548",
+            "title": "Off-label use of cinacalcet in pediatric primary hyperparathyroidism: A French multicenter experience.",
+            "abstract": "Cinacalcet is a calcimimetic approved in adults with primary hyperparathyroidism (PHPT). Few cases reports described its use in pediatric HPT, with challenges related to the risk of hypocalcemia, increased QT interval and drug interactions. In this study, we report the French experience in this setting.",
+            "journal": "Frontiers in pediatrics",
+            "year": "2022",
+            "authors": [
+              "Bernardor Julie",
+              "Flammier Sacha",
+              "Salles Jean-Pierre",
+              "Amouroux Cyril",
+              "Castanet Mireille"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36090548/"
+          },
+          {
+            "pmid": "33244495",
+            "title": "UNEXPECTED HYPERPARATHYROIDISM IN A PATIENT WITH ACRODYSOSTOSIS.",
+            "abstract": "Acrodysostosis is a rare skeletal dysplasia with one gene mutation associated with pseudohypoparathyroidism. We describe a 15-year-old male patient with genetic acrodysostosis who presented with hyperparathyroidism.",
+            "journal": "AACE clinical case reports",
+            "year": "2020",
+            "authors": [
+              "Hiers Paul S",
+              "Rohrs Henry J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33244495/"
+          },
+          {
+            "pmid": "37657020",
+            "title": "The evolution of primary hyperparathyroidism publications and global productivity from past to present: A bibliometric analysis during 1980 to 2022.",
+            "abstract": "The aim of this study was to perform a descriptive analysis of scientific articles about primary hyperparathyroidism (PHPT) using bibliometric approaches. By analyzing the links between the various research components (authors, journals, institutions, countries) of the academic outputs, it was aimed to summarize the intellectual structure of PHPT, identify recent research trends, and determine the global productivity. Three thousand nine hundred fifty-four articles on PHPT published between 1980 and 2022 were pulled from the Web of Science database and analyzed using bibliometric approaches. Bibliometric network visualization maps were used to identify trending topics, citation analysis, and international collaborations. Spearman correlation coefficient was used for correlation analysis. The 3 most prolific authors are Bilezikian JP. (n = 87), Silverberg SJ. (n = 72) and Akerstrom G. (n = 57). The top 3 most productive institutions were Columbia University (n = 133), Udice French Resea",
+            "journal": "Medicine",
+            "year": "2023",
+            "authors": [
+              "Göbüt Hüseyin",
+              "Bostanci Hasan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Female",
+              "Pregnancy",
+              "Humans",
+              "Cinacalcet",
+              "Hyperparathyroidism, Primary",
+              "Positron Emission Tomography Computed Tomography",
+              "Quality of Life",
+              "Bibliometrics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37657020/"
+          },
+          {
+            "pmid": "22577108",
+            "title": "MEN1-related hyperparathyroidism: response to cinacalcet and its relationship with the calcium-sensing receptor gene variant Arg990Gly.",
+            "abstract": "Primary hyperparathyroidism (PHPT) is a challenging problem in type 1 multiple endocrine neoplasia (MEN1) due to the high postsurgery recurrence rate. The aim was to evaluate the efficacy of cinacalcet in MEN1 patients in comparison with patients with sporadic PHPT (sPHPT) and the effect of Arg990Gly calcium-sensing receptor (CASR) polymorphism on the response to treatment.",
+            "journal": "European journal of endocrinology",
+            "year": "2012",
+            "authors": [
+              "Filopanti Marcello",
+              "Verga Uberta",
+              "Ermetici Federica",
+              "Olgiati Luca",
+              "Eller-Vainicher Cristina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenoma",
+              "Adult",
+              "Amino Acid Substitution",
+              "Arginine",
+              "Calcimimetic Agents",
+              "Cinacalcet",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Female",
+              "Glycine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22577108/"
+          },
+          {
+            "pmid": "30736110",
+            "title": "Cinacalcet in the management of primary hyperparathyroidism.",
+            "abstract": "Parathyroidectomy is currently the only curative treatment for primary hyperparathyroidism (PHPT). There are few alternative treatment options in patients who are ineligible for, or unwilling to undergo, surgery and those in whom parathyroidectomy has failed. Current options include the recently approved drug cinacalcet. Cinacalcet is an allosteric modulator of the calcium-sensing receptor, acting to sensitize this receptor to extracellular calcium. Cinacalcet has been found to be effective in reducing or normalizing serum calcium levels in several groups of PHPT patients, including those with mild-to-moderate PHPT, intractable disease, parathyroid carcinoma and multiple endocrine neoplasia Type 1. Cinacalcet slightly reduces parathyroid hormone levels and has no effect on bone mineral density. Cinacalcet is well tolerated when used at low doses, but side effects are not uncommon when relatively high doses are needed to control hypercalcemia. The current evidence indicates that cinacal",
+            "journal": "Expert review of endocrinology & metabolism",
+            "year": "2012",
+            "authors": [
+              "Cetani Filomena",
+              "Marcocci Claudio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30736110/"
+          },
+          {
+            "pmid": "20585352",
+            "title": "Clinical Use of Cinacalcet in MEN1 Hyperparathyroidism.",
+            "abstract": "Background. Management of multiple-endocrine neoplasia type 1- (MEN1-) associated hyperparathyroidism is associated with high recurrence rates and high surgical morbidity due to multiple neck explorations. Cinacalcet, a calcimimetic agent licensed for the treatment of secondary hyperparathyroidism and parathyroid carcinoma, may provide a medical alternative for the management of these complex patients. Methods. A prospective audit was performed of eight patients; three males and five females, aged 20-38 at diagnosis. Two patients commenced cinacalcet as primary treatment and six had previous surgery. Six patients had complications of hyperparathyroidism: renal calculi, renal dysfunction, and reduced bone mineral density. All were commenced on cinacalcet 30 mg bd for MEN1 associated hyperparathyroidism; doses were subsequently reduced to 30 mg od in four patients. Results. Significant reductions were observed in serum calcium and PTH measurements. Serum calcium reduced by a median of 0.",
+            "journal": "International journal of endocrinology",
+            "year": "2010",
+            "authors": [
+              "Moyes V J",
+              "Monson J P",
+              "Chew S L",
+              "Akker S A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20585352/"
+          },
+          {
+            "pmid": "37934711",
+            "title": "18F-Fluorocholine PET/CT in the Detection of Hyperfunctioning Transplanted Parathyroid Tissue.",
+            "abstract": "A 54-year-old woman diagnosed with multiple endocrine neoplasia syndrome type 1 and primary hyperparathyroidism underwent total parathyroidectomy with autotransplantation of parathyroid tissue fragments in the right forearm in 1999. Since several years later, follow-up laboratory examinations showed the relapse of hypercalcemia; the patient started cinacalcet therapy. To exclude the presence of hyperfunctioning parathyroid glands in ortotopic or ectopic sites, a PET/CT scan with 18F-fluorocholine was performed. The PET/CT scan excluded the presence of ortotopic and ectopic parathyroid glands but showed a hyperplastic parathyroid fragment in the right forearm, responsible for the patient's persistent hypercalcemia.",
+            "journal": "Clinical nuclear medicine",
+            "year": "2023",
+            "authors": [
+              "Garrou Federico",
+              "Rizzo Alessio",
+              "Rosso Daniela",
+              "Bondi Stefano",
+              "Racca Manuela"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Parathyroid Glands",
+              "Positron Emission Tomography Computed Tomography",
+              "Hypercalcemia",
+              "Neoplasm Recurrence, Local",
+              "Choline",
+              "Hyperparathyroidism, Primary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37934711/"
+          },
+          {
+            "pmid": "21971564",
+            "title": "Cinacalcet efficacy in patients with moderately severe primary hyperparathyroidism according to the European Medicine Agency prescription labeling.",
+            "abstract": "Patients with primary hyperparathyroidism (PHPT) with contraindications to parathyroidectomy (PTx) or persistent PHPT have few non surgical options.",
+            "journal": "Journal of endocrinological investigation",
+            "year": "2012",
+            "authors": [
+              "Cetani F",
+              "Saponaro F",
+              "Banti C",
+              "Cianferotti L",
+              "Vignali E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Biomarkers",
+              "Cinacalcet",
+              "Contraindications",
+              "Drug Labeling",
+              "European Union",
+              "Female",
+              "Follow-Up Studies",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21971564/"
+          },
+          {
+            "pmid": "23330456",
+            "title": "[Surgery of the parathyroid gland].",
+            "abstract": "The introduction of various techniques for minimally invasive parathyroidectomy (MIP) has changed both the conceptual and surgical approach to parathyroid disease. The perceived advantages of minimally invasive surgery among both clinicians and patients have been a major factor in the development of new surgical techniques, as well as refinement of preoperative localization techniques such as high-sensitive ultrasound and technetium sestamibi scanning. MIP for primary hyperparathyroidism has become an accepted part of endocrine surgical practice worldwide. In recent years, medical management of hyperparathyroidism has been made possible with the use of therapeutics specifically aimed at the calcium-sensing receptor, a cell-surface protein widely viewed as the primary regulator of parathyroid hormone secretion. The calcimimetic agent cinacalcet is approved for the treatment of secondary hyperparathyroidism in patients with chronic kidney disease on dialysis and for the treatment of hype",
+            "journal": "Nihon Geka Gakkai zasshi",
+            "year": "2012",
+            "authors": [
+              "Fukunari Nobuhiro"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Hyperparathyroidism",
+              "Male",
+              "Multiple Endocrine Neoplasia Type 1",
+              "Parathyroidectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23330456/"
+          },
+          {
+            "pmid": "33936819",
+            "title": "\"Primary Hyperparathyroidism (PHPT) in Children: Two Case Reports and Review of the Literature\".",
+            "abstract": "Primary hyperparathyroidism (PHPT) is a rare disorder in children and adolescents. Typical biochemical features are hypercalcemia and hypophosphatemia, but the clinical features can be heterogeneous, and in some cases, symptoms are vague and nonspecific, leading to misdiagnosis or late diagnosis. Herein, we report two cases of PHPT in pediatric age with different presenting symptoms, pain in the foot, and progressive alteration of the gait in the first case and recurrent abdominal pain with emotional lability in the second. Biochemical and radiological assessment confirmed PHPT. Both cases were treated surgically as definitive treatment, but in the second case, previous medical treatment with cinacalcet, a calcimimetic agent, was required to reduce serum PTH and calcium levels. After surgery, despite conventional treatment with calcium and calcitriol, case 1 developed a hungry bone syndrome. The analysis of the MEN-1 (Multiple Endocrine Neoplasia) gene was negative in both cases. A dia",
+            "journal": "Case reports in endocrinology",
+            "year": "2021",
+            "authors": [
+              "Tuli Gerdi",
+              "Munarin Jessica",
+              "Tessaris Daniele",
+              "Buganza Raffaele",
+              "Matarazzo Patrizia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33936819/"
+          },
+          {
+            "pmid": "27612033",
+            "title": "Fluorine-18 fluorocholine PET-CT localizes hyperparathyroidism in patients with inconclusive conventional imaging: a multicenter study from the Netherlands.",
+            "abstract": "Several reports have shown good performance of fluorine-18 fluorocholine (F-FCH) PET-computed tomography (CT) for parathyroid localization, although overall evidence remains scarce. We collected data from three institutions in the Netherlands and investigated the performance of F-FCH PET-CT as a second-line imaging modality.",
+            "journal": "Nuclear medicine communications",
+            "year": "2016",
+            "authors": [
+              "Kluijfhout Wouter P",
+              "Vorselaars Wessel M C M",
+              "van den Berk Sandra A M",
+              "Vriens Menno R",
+              "Borel Rinkes Inne H M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Choline",
+              "Diagnostic Errors",
+              "Female",
+              "Fluorine Radioisotopes",
+              "Humans",
+              "Hyperparathyroidism",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27612033/"
+          },
+          {
+            "pmid": "27650236",
+            "title": "Hyperparathyroidism-jaw Tumor Syndrome: An Overlooked Cause of Severe Hypercalcemia.",
+            "abstract": "Ossifying fibromas of the maxillofacial bones are an uncommon form of benign neoplasm usually treated by surgical excision. Up to 30% of patients with hyperparathyroidism-jaw tumor syndrome, a rare form of multiple endocrine neoplasia resulting from autosomal dominant inactivating mutation of the Hrpt2 tumor suppressor gene, initially present with ossifying fibromas. Coincident hypercalcemia because of the presence of parathyroid adenoma is common in these patients, of whom 15% may have or may develop parathyroid carcinoma. The authors present a case of severe postsurgical hypercalcemia after removal of a large maxillary ossifying fibroma in a patient with previously unrecognized hyperparathyroidism-jaw tumor AU3 syndrome.",
+            "journal": "The American journal of the medical sciences",
+            "year": "2016",
+            "authors": [
+              "Mathews Joseph Wolfgang",
+              "Winchester Rhonda",
+              "Alsaygh Nebras",
+              "Bartlett Anne M",
+              "Luttrell Louis"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenoma",
+              "Adult",
+              "Calcimimetic Agents",
+              "Calcitonin",
+              "Calcium",
+              "Cinacalcet",
+              "Diagnosis, Differential",
+              "Female",
+              "Fibroma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27650236/"
+          },
+          {
+            "pmid": "24353437",
+            "title": "An unusual case of malignancy-related hypercalcemia.",
+            "abstract": "To report the case of a 28-year-old woman who presented with hypercalcemia (total calcium =4.11 mmol/L), elevated parathyroid hormone (PTH) 24.6 pmol/L, normal parathyroid hormone-related peptide 7.8 pg/mL, and a 63 mm × 57 mm, poorly differentiated neuroendocrine carcinoma (small-cell type) pancreatic mass with liver metastases.",
+            "journal": "International journal of general medicine",
+            "year": "2013",
+            "authors": [
+              "Doyle Mary-Anne",
+              "Malcolm Janine C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24353437/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9308473467826844,
+        "txgnn_rank": 30487,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9215661883354188,
+        "txgnn_rank": 32041,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypertrichosis (disease)",
+        "txgnn_score": 0.9166119694709778,
+        "txgnn_rank": 32866,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "subarachnoid hemorrhage (disease)",
+        "txgnn_score": 0.9139236211776732,
+        "txgnn_rank": 33244,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.912051558494568,
+        "txgnn_rank": 33461,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25498383",
+            "title": "Calcium-sensing receptor activation in chronic kidney disease: effects beyond parathyroid hormone control.",
+            "abstract": "Secondary hyperparathyroidism (SHPT) is an important complication of advanced chronic kidney disease (CKD). Cinacalcet, an allosteric modulator of the calcium-sensing receptor (CaSR) expressed in parathyroid glands, is the only calcimimetic approved to treat SHPT in patients on dialysis. By enhancing CaSR sensitivity for plasma extracellular calcium (Ca(2+)0), cinacalcet reduces serum parathyroid hormone, Ca(2+)0, and serum inorganic phosphorous concentrations, allowing better control of SHPT and CKD-mineral and bone disorders. Of interest, the CaSR also is expressed in a variety of tissues where its activation regulates diverse cellular processes, including secretion, apoptosis, and proliferation. Thus, the existence of potential off-target effects of cinacalcet cannot be neglected. This review summarizes our current knowledge concerning the potential role(s) of the CaSR expressed in various tissues in CKD-related disorders, independently of parathyroid hormone control.",
+            "journal": "Seminars in nephrology",
+            "year": "2014",
+            "authors": [
+              "Massy Ziad A",
+              "Hénaut Lucie",
+              "Larsson Tobias E",
+              "Vervloet Marc G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bone and Bones",
+              "Calcimimetic Agents",
+              "Cinacalcet",
+              "Gastrointestinal Tract",
+              "Homeostasis",
+              "Humans",
+              "Hyperparathyroidism, Secondary",
+              "Hypertension, Pulmonary",
+              "Naphthalenes",
+              "Parathyroid Hormone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25498383/"
+          },
+          {
+            "pmid": "39677159",
+            "title": "Calcific Uremic Arteriolopathy (CUA) Among Malaysian Dialysis Patients: Clinical Characteristics, Treatment, and Outcomes.",
+            "abstract": "Background Calcific uremic arteriolopathy (CUA) is a rare but debilitating disease affecting patients with kidney disease. Reported risk factors of CUA in the literature include female sex, obesity, diabetes mellitus, and vitamin K antagonists' (VKAs) usage. CUA prevalence in Malaysia is unknown and has not been reported before. Methods A multicenter observational study was conducted in 13 centers all over Malaysia to study the clinical characteristics, treatment, and outcomes of CUA. The data of patients confirmed with CUA between January 1, 2016, and December 31, 2021, was collected from medical records by each center's nephrologists. Results Out of 33 confirmed CUA cases, 69.7% were females, and 66.7% were Malay with a mean age of 47.33 ± 13.80 years old. The mean BMI was 25.66 ± 9.77 kg/m2, and 18.2% were classified as obese (BMI > 30). Two-thirds of the patients were on hemodialysis (HD), and the mean dialysis vintage was 6.2 ± 4.11 years. A majority (87.9%) have hypertension, 33.",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Lee Yee Wan",
+              "Tan Min Hui",
+              "Bavanandan Sunita",
+              "Bee Boon Cheak",
+              "Lim Christopher Thiam Seong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39677159/"
+          },
+          {
+            "pmid": "37404402",
+            "title": "A Delicate Balance: Challenges in the Management of Primary Hyperparathyroidism and Congestive Heart Failure.",
+            "abstract": "Primary hyperparathyroidism (PHPT) is an excessive parathyroid hormone (PTH) production disorder, causing increased calcium levels. Commonly, these cases are asymptomatic and detected incidentally on routine labs. These patients are usually conservatively managed and monitored periodically, including bone and kidney health evaluation. Medical management of severe hypercalcemia secondary to PHPT includes IV fluids, cinacalcet, bisphosphonates, and dialysis, while the surgical treatment is parathyroidectomy. Patients suffering from heart failure with reduced ejection fraction (HFrEF) on diuretics and PHPT require a delicate balance of their volume status to prevent exacerbation of either condition. In patients with these two comorbidities on the opposite ends of the volume spectrum, it can lead to challenges in managing these patients. We present a case of a woman with repeated hospitalizations due to poor volume status control.  An 82-year-old female with primary hyperparathyroidism (di",
+            "journal": "Cureus",
+            "year": "2023",
+            "authors": [
+              "Mohan Nikita",
+              "Bahniwal Rupinder K",
+              "Shah Manasi S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37404402/"
+          },
+          {
+            "pmid": "27230839",
+            "title": "[Pharmacological characteristics of drugs targeted on calcium-sensing receptor.-properties of cinacalcet hydrochloride as allosteric modulator].",
+            "abstract": "Calcimimetics act as positive allosteric modulators of the calcium-sensing receptor (CaSR), thereby decreasing parathyroid hormone (PTH) secretion from the parathyroid glands. On the other hand, negative allosteric modulators of the CaSR with stimulatory effect on PTH secretion are termed calcilytics. The calcimimetic cinacalcet hydrochloride (cinacalcet) is the world's first allosteric modulator of G protein-coupled receptor to enter the clinical market. Cinacalcet just tunes the physiological effects of Ca(2+), an endogenous ligand, therefore, shows high selectivity and low side effects. Calcimimetics also increase cell surface CaSR expression by acting as pharmacological chaperones (pharmacoperones). It is considered that the cinacalcet-induced upper gastrointestinal problems are resulted from enhanced physiological responses to Ca(2+) and amino acids via increased sensitivity of digestive tract CaSR by cinacalcet. While clinical developments of calcilytics for osteoporosis were unf",
+            "journal": "Clinical calcium",
+            "year": "2016",
+            "authors": [
+              "Nagano Nobuo",
+              "Tsutsui Takaaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Allosteric Regulation",
+              "Biomimetic Materials",
+              "Calcium",
+              "Cinacalcet",
+              "Humans",
+              "Molecular Chaperones",
+              "Protein Binding",
+              "Receptors, Calcium-Sensing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27230839/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete familial combined hyperlipidemia",
+        "txgnn_score": 0.9079558849334716,
+        "txgnn_rank": 33966,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01012",
+    "name": "Cinacalcet",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cinacalcet"
+      },
+      "queried_at": "2026-03-10T07:12:15.280888",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cinacalcet"
+      },
+      "queried_at": "2026-03-10T07:12:15.796273",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T07:12:16.347400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T07:12:19.766018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T07:12:20.598239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T07:12:21.202735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T07:12:24.246205",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T07:12:24.914021",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T07:12:25.519086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T07:12:28.992838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T07:12:31.254647",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T07:12:33.272587",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T07:12:37.712601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T07:12:40.002715",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:12:40.595982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:12:43.666788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:12:44.303283",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:12:44.892412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:12:48.648730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:12:49.777316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-10T07:12:50.320219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-10T07:12:53.546743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-10T07:12:54.159877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "subarachnoid hemorrhage (disease)"
+      },
+      "queried_at": "2026-03-10T07:12:54.659273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "subarachnoid hemorrhage (disease)"
+      },
+      "queried_at": "2026-03-10T07:12:58.028613",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "subarachnoid hemorrhage (disease)"
+      },
+      "queried_at": "2026-03-10T07:12:58.897175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T07:12:59.566279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T07:13:03.403586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T07:13:05.383032",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-10T07:13:05.922393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-10T07:13:08.846053",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cinacalcet",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-10T07:13:09.694560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:13:09.698810"
+  }
+}

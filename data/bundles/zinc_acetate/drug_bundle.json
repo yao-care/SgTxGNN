@@ -1,0 +1,615 @@
+{
+  "drug": {
+    "inn": "Zinc acetate",
+    "drugbank_id": "DB14487",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9997063279151917,
+        "txgnn_rank": 783,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.999702513217926,
+        "txgnn_rank": 789,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03309995",
+            "title": "The Effect of Zinc Acetate Lozenges on the Rate of Recovery From the Common Cold: a Randomized Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-12-01",
+            "completion_date": "2018-09-24",
+            "country": "Finland",
+            "enrollment": 87,
+            "brief_summary": "A randomized parallel-group two arm superiority trial with an allocation ratio 1:1, both participants and investigators blinded.\n\nThe zinc lozenge that will be used in the study is a commercial product available from the University Pharmacy, Helsinki, Finland. The product is classified as a \"medical device\" and it is not regulated according to the jurisdiction for medicines.\n\nEach lozenge contains 13 mg elemental zinc as zinc acetate. The instruction in the commercial package for common cold pat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ≥18 years, recollecting that they usually have had ≥1 colds per winter.\n\nExclusion Criteria:\n\n* pregnancy or lactation; chronic runny nose or chronic cough.",
+            "endpoints": [
+              "The duration of the common cold (time to recovery)"
+            ],
+            "sponsor": "University of Helsinki",
+            "url": "https://clinicaltrials.gov/study/NCT03309995"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32679246",
+            "title": "Comparative study between zinc oxide nanoparticles synthesis by biogenic and wet chemical methods in vivo and in vitro against Staphylococcus aureus.",
+            "abstract": "ZnO nanoparticles (ZnO-NPs) can be used as nano medicine for Staphylococcus aureus infection, which causes deleterious effects on liver, kidney and lung tissue, as it causes catarrhal bronchitis, peri-bronchial oedema, lymphocytic granulomas, oedematous fluid and haemorrhage inside the bronchi, and interstitial pneumonia. In this research ZnO nanoparticle (ZnO-NPs) synthesis by biogenic method using green alga Ulva fasciata and by wet chemical method. Both of them tested in vitro and in vivo against Staphylococcus aureus. The characterization of ZnO-NPs was detected by U.V spectroscopy, Fourier-transform infrared (FTIR), Energy dispersive X-ray spectroscopy (EDX), X-ray diffraction (XRD), Scanning Electron Microscope (SEM) and Transmission Electron Microscope (TEM). In vivo assessment eight groups, each group contain of five rats and the treatment as follow (1) an uninfected control group; (2) an infected group; groups (3), (4), and (5) were injected with biogenic or chemical ZnO-NPs o",
+            "journal": "Microbial pathogenesis",
+            "year": "2020",
+            "authors": [
+              "Hamouda Ragaa A",
+              "Yousuf Wesam E",
+              "Mohammed A B Abeer",
+              "Mohammed Rasha Salah",
+              "Darwish Doaa B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Metal Nanoparticles",
+              "Microbial Sensitivity Tests",
+              "Nanoparticles",
+              "Plant Extracts",
+              "Rats",
+              "Spectroscopy, Fourier Transform Infrared",
+              "Staphylococcal Infections",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32679246/"
+          },
+          {
+            "pmid": "23782414",
+            "title": "Effect of vitamins, protein level and probiotics on immune response of moulted male broiler breeders.",
+            "abstract": "This study was planned to investigate the comparative effect of vitamins C (L-ascorbic acid), E (DL-α-tocopherol acetate), probiotics, lower than normal protein level (14%) and combination of these treatments on immune response of male broiler breeders after zinc-induced moulting. One hundred and eighty birds at the age of 65 weeks were induced to moult by mixing zinc oxide (ZnO) in feed at the rate 3000 IU/kg of feed. Upon completion of moulting, birds were divided into six groups (five replicates per group) in a completely randomized design and were fed vitamin C (500 IU/kg), vitamin E (100 IU/kg), lower protein level, probiotics (50 mg/l), and a combination of these components, while one group was kept as control. After completion of moulting phase (5 weeks), the treatment effects were tested as in vitro macrophages engulfment percentage, nitric oxide (NO) production, serum antibody titres against Newcastle disease (ND) and infectious bronchitis (IB). The results showed that in vitr",
+            "journal": "Journal of animal physiology and animal nutrition",
+            "year": "2014",
+            "authors": [
+              "Khan R U",
+              "Rahman Z U",
+              "Javed I",
+              "Muhammad F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animal Feed",
+              "Animal Nutritional Physiological Phenomena",
+              "Animals",
+              "Ascorbic Acid",
+              "Cells, Cultured",
+              "Chickens",
+              "Diet",
+              "Dietary Proteins",
+              "Macrophages, Peritoneal",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23782414/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9991757273674012,
+        "txgnn_rank": 1679,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acrodermatitis chronica atrophicans",
+        "txgnn_score": 0.9983046054840088,
+        "txgnn_rank": 3029,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neonatal dermatomyositis",
+        "txgnn_score": 0.998100221157074,
+        "txgnn_rank": 3268,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne keloid",
+        "txgnn_score": 0.9980024695396424,
+        "txgnn_rank": 3402,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydroa vacciniforme, familial",
+        "txgnn_score": 0.9978797435760498,
+        "txgnn_rank": 3573,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+        "txgnn_score": 0.997801959514618,
+        "txgnn_rank": 3661,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyopathic dermatomyositis",
+        "txgnn_score": 0.997747242450714,
+        "txgnn_rank": 3722,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.9957186579704284,
+        "txgnn_rank": 5864,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10398312",
+            "title": "Effect of zinc supplementation on incidence of infections and hospital admissions in sickle cell disease (SCD).",
+            "abstract": "Zinc deficiency is a common nutritional problem in adult sickle-cell disease (SCD) patients. Hyperzincuria and increased requirement of zinc due to continued hemolysis in SCD are probable bases for zinc deficiency in these patients. Zinc deficiency affects adversely T-helper1 (TH1) functions and cell mediated immunity and interleukin (IL)-2 production is decreased in zinc deficient subjects. We hypothesized that zinc supplementation will improve T-helper1 function and decrease incidence of infections in patients with SCD. We tested this hypothesis in 32 SCD subjects who were divided in three groups (Grs A, B, and C). Grs A (n = 11) and B (n = 10) were zinc deficient based on cellular zinc criteria and Gr C (n = 11) were zinc sufficient. Gr A subjects were observed for 1 year (baseline), following which they received zinc acetate (50 to 75 mg of elemental zinc orally daily) for 3 years. Gr B subjects were observed for 1 year (baseline), following which they received placebo for 1 year a",
+            "journal": "American journal of hematology",
+            "year": "1999",
+            "authors": [
+              "Prasad A S",
+              "Beck F W",
+              "Kaplan J",
+              "Chandrasekar P H",
+              "Ortega J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Anemia, Sickle Cell",
+              "Communicable Diseases",
+              "Cross-Over Studies",
+              "Dietary Supplements",
+              "Granulocytes",
+              "Hematocrit",
+              "Hemoglobins",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10398312/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14487",
+    "name": "Zinc acetate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Zinc acetate"
+      },
+      "queried_at": "2026-03-09T11:49:21.840520",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Zinc acetate"
+      },
+      "queried_at": "2026-03-09T11:49:24.256068",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T11:49:25.084084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T11:49:29.643784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T11:49:30.656004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T11:49:32.085652",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T11:49:36.742294",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-09T11:49:41.003560",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T11:49:41.743143",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T11:49:45.814893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-09T11:49:47.104959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T11:49:47.996030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T11:49:53.370931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "queried_at": "2026-03-09T11:49:57.371733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T11:50:01.054327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T11:50:05.804219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "neonatal dermatomyositis"
+      },
+      "queried_at": "2026-03-09T11:50:06.507333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T11:50:08.074308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T11:50:12.408475",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "acne keloid"
+      },
+      "queried_at": "2026-03-09T11:50:13.018065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T11:50:13.584031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T11:50:17.309625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "queried_at": "2026-03-09T11:50:17.959521",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T11:50:18.472582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T11:50:22.408326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "queried_at": "2026-03-09T11:50:23.411816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T11:50:24.985936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T11:50:29.213622",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "queried_at": "2026-03-09T11:50:29.831566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T11:50:30.369075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T11:50:34.307804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zinc acetate",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-09T11:50:37.808552",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:50:37.827303"
+  }
+}

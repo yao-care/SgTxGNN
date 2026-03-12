@@ -1,0 +1,2405 @@
+{
+  "drug": {
+    "inn": "Erlotinib",
+    "drugbank_id": "DB00530",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Ewing sarcoma",
+        "txgnn_score": 0.9577088356018066,
+        "txgnn_rank": 24807,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02689336",
+            "title": "Phase 2 Clinical Trial Treating Relapsed/Recurrent/Refractory Pediatric Solid Tumors With the Genomically-Targeted Agent Erlotinib in Combination With Temozolomide",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2016-08-06",
+            "completion_date": "2020-05-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This study proposes to treat patients with the combination of erlotinib and temozolomide. Patients with relapsed, recurrent, refractory, or high risk malignancies whose tumors possess a non-synonymous mutation in EGFR, ERBB2, or JAK2V617F (JAK2) will be eligible for the study. Very few phase 2 clinical trials have been performed in pediatrics using targeted agents in combination with conventional chemotherapy agents. Furthermore, since some combinations such as the combination of this study (erl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* One to 21 years of age\n* Relapsed, recurrent, or refractory malignancy. All solid tumor diagnoses will be eligible.\n\n  * Pathologic confirmation of the diagnosis either at original diagnosis or recurrence.\n  * Known non-synonymous mutation in the following genes: EGFR, ERBB2, ",
+            "endpoints": [
+              "Overall response rate"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT02689336"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26835334",
+            "title": "Advances in paediatric cancer treatment.",
+            "abstract": "Four out of five children diagnosed with cancer can be cured with contemporary cancer therapy. This represents a dramatic improvement since 50 years ago when the cure rate of childhood cancer was <25% in the pre-chemotherapy era. Over the past ten years, while improvement in overall survival (OS) has been marginal, progress in pediatric oncology lies with adopting risk-adapted therapeutic approach. This has been made possible through identifying clinical and biologic prognostic factors with rigorous research and stratifying patients using these risk factors, and subsequently modifying therapy according to risk group assignment. This review provides a perspective for eight distinct pediatric malignancies, in which significant advances in treatment were made in the last decade and are leading to changes in standard of care. This includes four hematologic malignancies [acute lymphoblastic leukemia (ALL), acute myeloid leukemia (AML), non-Hodgkin lymphoma (NHL) and Hodgkin lymphoma (HL)] a",
+            "journal": "Translational pediatrics",
+            "year": "2014",
+            "authors": [
+              "Saletta Federica",
+              "Seng Michaela S",
+              "Lau Loretta M S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26835334/"
+          },
+          {
+            "pmid": "29080385",
+            "title": "Evaluation of patritumab with or without erlotinib in combination with standard cytotoxic agents against pediatric sarcoma xenograft models.",
+            "abstract": "Integrating molecularly targeted agents with cytotoxic drugs used in curative treatment of pediatric cancers is complex. An evaluation was undertaken with the ERBB3/Her3-specific antibody patritumab (P) either alone or with the ERBB1/epidermal growth factor receptor inhibitor erlotinib (E) in combination with standard cytotoxic agents, cisplatin, vincristine, and cyclophosphamide, in pediatric sarcoma xenograft models that express receptors and ligands targeted by these agents.",
+            "journal": "Pediatric blood & cancer",
+            "year": "2018",
+            "authors": [
+              "Bandyopadhyay Abhik",
+              "Favours Edward",
+              "Phelps Doris A",
+              "Pozo Vanessa Del",
+              "Ghilu Samson"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antibodies, Neutralizing",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bone Neoplasms",
+              "Broadly Neutralizing Antibodies",
+              "Cell Line, Tumor",
+              "Erlotinib Hydrochloride",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29080385/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibromatosis, gingival",
+        "txgnn_score": 0.9526981115341188,
+        "txgnn_rank": 26067,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of lung",
+        "txgnn_score": 0.9511552453041076,
+        "txgnn_rank": 26424,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hamartoma of lung",
+        "txgnn_score": 0.9506500959396362,
+        "txgnn_rank": 26545,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung benign neoplasm",
+        "txgnn_score": 0.9499867558479308,
+        "txgnn_rank": 26698,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30392436",
+            "title": "Afatinib and Erlotinib in the treatment of squamous-cell lung cancer.",
+            "abstract": "Squamous-cell carcinoma (SCC) of the lung represents around 20% of non-small cell lung cancers. Although activating mutations of EGFR are rare in this subtype, its overexpression occurs in more than half the cases. Consequently, many epidermal growth factor receptor (EGFR)-targeted agents have been investigated in patients with SCC.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2018",
+            "authors": [
+              "Tagliamento Marco",
+              "Genova Carlo",
+              "Rijavec Erika",
+              "Rossi Giovanni",
+              "Biello Federica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Afatinib",
+              "Antineoplastic Agents",
+              "Carcinoma, Squamous Cell",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30392436/"
+          },
+          {
+            "pmid": "30069756",
+            "title": "Erlotinib.",
+            "abstract": "The epidermal growth factor receptor (EGFR) has been implicated in a multiplicity of cancer-related signal transduction pathways like cellular proliferation, adhesion, migration, neoangiogenesis and apoptosis inhibition, all of which are important features of cancerogenesis and tumour progression. Its tyrosine kinase activity plays a central role in mediating these processes and has been intensely studied to exploit it as a therapeutic target. Inhibitors of this pathway have been developed and assessed in trials with significant efficacy in clinical applications. The current review focuses in particular on the clinical data of EGFR tyrosine kinase inhibition in different tumour entities, preferably non-small cell lung cancer and pancreatic cancer with emphasis to the approved small molecule erlotinib. Its clinical applications, evidence-based efficacy and toxicity as well as predictive markers of response are discussed.",
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "year": "2018",
+            "authors": [
+              "Steins Martin",
+              "Thomas Michael",
+              "Geißler Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Antineoplastic Agents",
+              "Carcinoma",
+              "Carcinoma, Hepatocellular",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Liver Neoplasms",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30069756/"
+          },
+          {
+            "pmid": "23140355",
+            "title": "Erlotinib and gefitinib for elderly patients with advanced non-small-cell lung cancer.",
+            "abstract": "Erlotinib and gefitinib are tyrosine kinase inhibitors (TKI) associated with the EGFR, which is involved in cell proliferation, growth, migration, invasion and survival, and has been found to be overexpressed in non-small-cell lung cancer. Erlotinib was the first target agent approved for the treatment of NSCLC in second- and third line, in patients unselected for EGFR mutations; gefitinib was the first EGFR tyrosine kinase inhibitor approved for the treatment of NSCLC in all lines of setting in patients harbouring EGFR mutations. In elderly patients, with a poor prognosis, and different co-morbidities, erlotinib and gefitinib could be considered as valid therapeutic options. This paper reviews the role of both drugs, in the management of elderly patients affected by advanced NSCLC based on an update analysis of randomised and non-randomised clinical trials.",
+            "journal": "Anti-cancer agents in medicinal chemistry",
+            "year": "2014",
+            "authors": [
+              "Passaro Antonio",
+              "Alesini Daniele",
+              "Pochesci Alessia",
+              "Cortesi Enrico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23140355/"
+          },
+          {
+            "pmid": "32164971",
+            "title": "Erlotinib.",
+            "abstract": "Erlotinib (OSI-774), marketed by Genentech as Tarceva®, is anticancer drug approved by US-FDA for the treatment of Non-Small Cell Lung Cancer (NSCLC) and Pancreatic Cancer. Erlotinib inhibited epidermal growth factor receptor (EGFR) that blocks tumor cell division, produces cell cycle arrest, and initiates programmed cell death in EGFR-overexpressing human tumor cells. This study presents a comprehensive profile of erlotinib, including detailed nomenclature, formula, elemental analysis, methods of preparation, physico-chemical characteristics, and methods of analysis (including spectroscopic, electrochemical, and chromatographic methods of analysis). Spectroscopic and spectrometric analyses include UV/vis spectroscopy, vibrational spectroscopy, nuclear magnetic resonance spectrometry ((1)H and (13)C NMR), and mass spectrometry. Chromatographic methods of analyses include thin layer chromatography, and high-performance liquid chromatography. Pharmacology of erlotinib including pharmacod",
+            "journal": "Profiles of drug substances, excipients, and related methodology",
+            "year": "2020",
+            "authors": [
+              "Abdelgalil Ahmed A",
+              "Al-Kahtani Hamad M",
+              "Al-Jenoobi Fahad I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Pancreatic Neoplasms",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32164971/"
+          },
+          {
+            "pmid": "37863665",
+            "title": "BPTF Drives Gastric Cancer Resistance to EGFR Inhibitor by Epigenetically Regulating the C-MYC/PLCG1/Perk Axis.",
+            "abstract": "Erlotinib, an EGFR tyrosine kinase inhibitor, is used for treating patients with cancer exhibiting EGFR overexpression or mutation. However, the response rate of erlotinib is low among patients with gastric cancer (GC). The findings of this study illustrated that the overexpression of bromodomain PHD finger transcription factor (BPTF) is partially responsible for erlotinib resistance in GC, and the combination of the BPTF inhibitor AU-1 with erlotinib synergistically inhibited tumor growth both in vivo and in vitro. AU-1 inhibited the epigenetic function of BPTF and decreased the transcriptional activity of c-MYC on PLCG1 by attenuating chromosome accessibility of the PLCG1 promoter region, thus decreasing the expression of p-PLCG1 and p-Erk and eventually improving the sensitivity of GC cells to erlotinib. In patient-derived xenograft (PDX) models, AU-1 monotherapy exhibited remarkable tumor-inhibiting activity and is synergistic anti-tumor effects when combined with erlotinib. Altoge",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Li Fangyuan",
+              "Yu Junxian",
+              "Pan Tao",
+              "Feng Haoran",
+              "Li Jianfang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Erlotinib Hydrochloride",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Lung Neoplasms",
+              "ErbB Receptors",
+              "Stomach Neoplasms",
+              "Drug Resistance, Neoplasm",
+              "Cell Line, Tumor",
+              "Phospholipase C gamma",
+              "Nerve Tissue Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37863665/"
+          },
+          {
+            "pmid": "40433361",
+            "title": "Prognostic significance of calcium-related genes in lung adenocarcinoma and the role of TNNC1 in macrophage polarization and erlotinib resistance.",
+            "abstract": "Calcium signaling is critical in tumorigenesis. This study analyzed the characteristics of a calcium-related prognostic genes (CRPGs) signature in lung adenocarcinoma (LUAD) for prognostic value and explored TNNC1 as a potential therapeutic target for erlotinib resistance.",
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "authors": [
+              "Feng Jian",
+              "Chen Zhe",
+              "Wang Gaoming",
+              "Yao Yu",
+              "Min Xuewen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adenocarcinoma of Lung",
+              "Erlotinib Hydrochloride",
+              "Drug Resistance, Neoplasm",
+              "Lung Neoplasms",
+              "Prognosis",
+              "Gene Expression Regulation, Neoplastic",
+              "Macrophages",
+              "Biomarkers, Tumor",
+              "Calcium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40433361/"
+          },
+          {
+            "pmid": "25795635",
+            "title": "Gefitinib and erlotinib in metastatic non-small cell lung cancer: a meta-analysis of toxicity and efficacy of randomized clinical trials.",
+            "abstract": "Tyrosine kinase inhibitors (TKIs) targeting the epidermal growth factor receptor (EGFR) have been evaluated in patients with metastatic and advanced non-small cell lung cancer (NSCLC). The U.S. Food and Drug Administration initially granted accelerated approval to gefitinib but subsequently rescinded the authorization. Erlotinib and afatinib are similar compounds approved for the treatment of metastatic NSCLC. The objective of this study was to compare the efficacy and toxicity of erlotinib, gefitinib, and afatinib in NSCLC.",
+            "journal": "The oncologist",
+            "year": "2015",
+            "authors": [
+              "Burotto Mauricio",
+              "Manasanch Elisabet E",
+              "Wilkerson Julia",
+              "Fojo Tito"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Afatinib",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Disease-Free Survival",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Publication Bias",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25795635/"
+          },
+          {
+            "pmid": "39137595",
+            "title": "Real-world outcomes of atypical EGFR-mutated metastatic non-small cell lung cancer (mNSCLC)treated with osimertinib (osi) vs. Afatinib or erlotinib.",
+            "abstract": "Limited data are available comparing the efficacy of osi versus earlier generation TKIs for mNSCLC with atypical EGFR mutations (AMs) such as L861Q, G719X, S768I and exon20.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2024",
+            "authors": [
+              "Barsouk Adam",
+              "Elghawy Omar",
+              "Heidlauf Alec",
+              "Yu Connie",
+              "Wang Lucy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Afatinib",
+              "Male",
+              "Female",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Lung Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Retrospective Studies",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39137595/"
+          },
+          {
+            "pmid": "23943298",
+            "title": "Coadministration of erlotinib and curcumin augmentatively reduces cell viability in lung cancer cells.",
+            "abstract": "Resistance to erlotinib in lung cancer cases includes T790M mutant epidermal growth factor receptor and c-Met gene amplification, but other unknown mechanisms account for about 30% of the resistance. Activation of the nuclear factor kappa B (NFkappaB)-related pathways in association with the reduction in ikappaB level may be one of such potential mechanisms. It is known that curcumin inhibits the inducible activation of NFkappaB at least in part by sustaining ikappaB expression level. Therefore, we evaluated the effects of coadministration of erlotinib and curcumin on lung cancer cells. We found that erlotinib and curcumin augmentatively reduced cell viability. Studies in PC9 cells showed that induction of apoptosis was involved. Expression of ikappaB was elevated in PC9 cells by curcumin administration, and pretreatment with siRNAs for ikappaB significantly attenuated the reduction in cell viability after coadministration of erlotinib and curcumin. Furthermore, coadministration of erl",
+            "journal": "Phytotherapy research : PTR",
+            "year": "2014",
+            "authors": [
+              "Yamauchi Yoshikane",
+              "Izumi Yotaro",
+              "Yamamoto Jun",
+              "Nomori Hiroaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Curcumin",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "I-kappa B Proteins",
+              "Lung Neoplasms",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23943298/"
+          },
+          {
+            "pmid": "37026321",
+            "title": "Erlotinib-induced dry eye.",
+            "abstract": "",
+            "journal": "Indian journal of ophthalmology",
+            "year": "2023",
+            "authors": [
+              "Ravisankar Rashmita",
+              "Mohankumar Arthi",
+              "Shivananda Narayana"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Erlotinib Hydrochloride",
+              "Dry Eye Syndromes",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37026321/"
+          },
+          {
+            "pmid": "28152323",
+            "title": "Chemotherapy and intercalated gefitinib or erlotinib in the treatment of advanced non-small-cell lung cancer.",
+            "abstract": "Preclinical data showed that intercalated administration of epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) and chemotherapy might be effective in the treatment of advanced non-small-cell lung cancer (NSCLC). This review will summarize and discuss the clinical results available to date from prospective studies investigating this approach. Areas covered: A structured search of bibliographic databases for peer-reviewed literature and of main International meetings was undertaken, for trials testing the intercalated addition of EGFR-TKIs to chemotherapy in advanced NSCLC. Expert commentary: The results of intercalated schedules of EGFR-TKI and chemotherapy are interesting but somewhat contrasting. This approach could represent a potential treatment option in patients with advanced NSCLC, that deserves to be further investigated within well-designed randomized trials.",
+            "journal": "Expert review of respiratory medicine",
+            "year": "2017",
+            "authors": [
+              "Rossi Antonio",
+              "La Salvia Anna",
+              "Di Maio Massimo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Prospective Studies",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28152323/"
+          },
+          {
+            "pmid": "32803701",
+            "title": "Erlotinib and bevacizumab in elderly patients ≥75 years old with non-small cell lung cancer harboring epidermal growth factor receptor mutations.",
+            "abstract": "The efficacy and safety of combination therapy with erlotinib and bevacizumab in elderly patients with non-small-cell lung cancer (NSCLC) harboring epidermal growth factor receptor (EGFR) gene mutations are unknown. Elderly patients aged ≥75 years old with advanced or recurrent NSCLC and EGFR mutations (exon 19 deletion or L858R mutation in exon 21) received erlotinib (150 mg, daily) and bevacizumab (15 mg/kg on day 1 of a 21-day cycle) until disease progression or the occurrence of unacceptable toxicities. The primary endpoint was progression-free survival from enrollment. Twenty-five patients were enrolled in this study, and the median age was 80 years. Fifteen (60.0%) and 10 patients (40.0%) had exon 21 L858R mutations and exon 19 deletions, respectively. The median progression-free survival from enrollment was 12.6 months [95% confidence interval (CI): 8.0-33.7 months]. The objective response rate was 88.0% [95% CI: 74.0%-99.0%], and the disease control rate was 100% [95% CI: 88.7%",
+            "journal": "Investigational new drugs",
+            "year": "2021",
+            "authors": [
+              "Aoshima Yoichiro",
+              "Karayama Masato",
+              "Inui Naoki",
+              "Yasui Hideki",
+              "Hozumi Hironao"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Dose-Response Relationship, Drug",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32803701/"
+          },
+          {
+            "pmid": "19633484",
+            "title": "Wood-smoke exposure as a response and survival predictor in erlotinib-treated nonsmall cell lung cancer patients.",
+            "abstract": "",
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2009",
+            "authors": [
+              "Arrieta Oscar",
+              "Rios Trejo Miguel Angel",
+              "Michel Rosa M"
+            ],
+            "pub_types": [
+              "Comment",
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Prognosis",
+              "Protein Kinase Inhibitors",
+              "Quinazolines",
+              "Smoke",
+              "Survival Rate",
+              "Wood"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19633484/"
+          },
+          {
+            "pmid": "37750513",
+            "title": "Comparison of Plasma Metabolites From Patients With Non-Small Cell Lung Cancer by Erlotinib Treatment and Skin Rash.",
+            "abstract": "Erlotinib is a necessary anticancer treatment for non-small cell lung cancer (NSCLC) patients yet it causes severe side effects such as skin rash. In this study, researchers compared the untargeted compound profiles before and after erlotinib administration to observe changes in blood metabolites in NSCLC patients. The levels of 1005 substances changed after taking erlotinib. The levels of 306 and 699 metabolites were found to have increased and decreased, respectively. We found 5539 substances with peak area differences based on the presence of skin rash. Carbohydrate, amino acid, and vitamin metabolic pathways were altered in response to the onset of erlotinib-induced skin rash. Finally, this study proposed using plasma metabolites to identify biomarker(s) induced by erlotinib, as well as target molecule(s), for the treatment of dermatological toxic effects.",
+            "journal": "Integrative cancer therapies",
+            "year": "2023",
+            "authors": [
+              "Lee Won Kil",
+              "Myong Jisoo",
+              "Kwag Eunbin",
+              "Shin Younmin",
+              "Son Ji Woong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Exanthema",
+              "Antineoplastic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37750513/"
+          },
+          {
+            "pmid": "35915188",
+            "title": "The histone deacetylase SIRT6 promotes glycolysis through the HIF-1α/HK2 signaling axis and induces erlotinib resistance in non-small cell lung cancer.",
+            "abstract": "Erlotinib is a first-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI). Overcoming erlotinib resistance is crucial to improve the survival of advanced non-small cell lung cancer (NSCLC) patients with sensitive EGFR mutations. It is also an important clinical problem that urgently needs a solution. In this study, we explored strategies to overcome erlotinib resistance from the perspective of energy metabolism. SIRT6 is a histone deacetylase. Here, we found that high expression of SIRT6 is associated with poor prognosis of lung adenocarcinoma, especially in EGFR-mutated NSCLC patients. The next cell experiment found that SIRT6 expression increased in erlotinib-resistant cells, and SIRT6 expression was negatively correlated with the sensitivity of NSCLC to erlotinib. Inhibition of SIRT6 promoted erlotinib-induced apoptosis in erlotinib-resistant cells, and glycolysis in drug-resistant cells was also inhibited. Functional studies have shown that SIRT6 increas",
+            "journal": "Apoptosis : an international journal on programmed cell death",
+            "year": "2022",
+            "authors": [
+              "You Qiai",
+              "Wang Jianmin",
+              "Yu Yongxin",
+              "Li Feng",
+              "Meng Lingxin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Apoptosis",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Glycolysis",
+              "Histone Deacetylases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35915188/"
+          },
+          {
+            "pmid": "30068310",
+            "title": "Gefitinib provides similar effectiveness and improved safety than erlotinib for east Asian populations with advanced non-small cell lung cancer: a meta-analysis.",
+            "abstract": "The first-generation epidermal growth factor receptor tyrosine kinase inhibitors gefitinib and erlotinib have both been proven effective for treating advanced non-small cell lung cancer (NSCLC), especially in East Asian patients. We conducted this meta-analysis to compare their efficacy and safety in treating advanced NSCLC in this population.",
+            "journal": "BMC cancer",
+            "year": "2018",
+            "authors": [
+              "Zhang Wenxiong",
+              "Wei Yiping",
+              "Yu Dongliang",
+              "Xu Jianjun",
+              "Peng Jinhua"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Asian People",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lung Neoplasms",
+              "Middle Aged",
+              "Progression-Free Survival"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30068310/"
+          },
+          {
+            "pmid": "35961402",
+            "title": "Heat shock protein 90 inhibitor 17-AAG down-regulates thymidine phosphorylase expression and potentiates the cytotoxic effect of tamoxifen and erlotinib in human lung squamous carcinoma cells.",
+            "abstract": "Elevated thymidine phosphorylase (TP) levels, a key enzyme in the pyrimidine nucleoside salvage pathway, in cancer cells, are related to a poor prognosis in a variety of cancers. Heat shock protein 90 (Hsp90) is a ubiquitous molecular chaperone that is involved in the stabilization and maturation of many oncogenic proteins. The aim of this study is to elucidate whether Hsp90 inhibitor 17-AAG could enhance tamoxifen- and erlotinib-induced cytotoxicity in nonsmall cell lung cancer (NSCLC) cells via modulating TP expression in two squamous NSCLC cell lines, H520 and H1703. We found that 17-AAG reduced TP expression via inactivating the MKK1/2-ERK1/2-mitogen-activated protein kinase (MAPK) pathway. TP knockdown with siRNA or ERK1/2 MAPK inactivation with the pharmacological inhibitor U0126 could enhance the cytotoxic and growth inhibitory effects of 17-AAG. In contrast, MKK1-CA or MKK2-CA (a constitutively active form of MKK1/2) vector-enforced expression could reduce the cytotoxic and cel",
+            "journal": "Biochemical pharmacology",
+            "year": "2022",
+            "authors": [
+              "Ko Jen-Chung",
+              "Chen Jyh-Cheng",
+              "Hsieh Jou-Min",
+              "Tseng Pei-Yu",
+              "Chiang Chen-Shan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Benzoquinones",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Squamous Cell",
+              "Cell Line, Tumor",
+              "Erlotinib Hydrochloride",
+              "HSP90 Heat-Shock Proteins",
+              "Humans",
+              "Lactams, Macrocyclic",
+              "Lung"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35961402/"
+          },
+          {
+            "pmid": "25664933",
+            "title": "Risk of selected gastrointestinal toxicities in patients with advanced non-small cell lung cancer receiving erlotinib: a systematic review and meta-analysis.",
+            "abstract": "We performed a meta-analysis of diarrhea and stomatitis associated with erlotinib use in patients with advanced non-small cell lung cancer. Eligible studies included randomized trials of patients with non-small cell lung cancer on erlotinib describing events of diarrhea and stomatitis. A total of 19 clinical trials including 7524 patients were considered eligible for the meta-analysis. The relative risk of all-grade diarrhea and stomatitis were 2.96 (95% CI: 2.31-3.8; p < 0.00001), 3.62 (95% CI: 2.43-5.39; p = 0.00001), respectively, whereas the relative risk of high-grade diarrhea and stomatitis were 4.65 (95% CI: 3.30-6.55; p < 0.00001), 2.63 (95% CI: 0.83-8.27; p = 0.1), respectively. Our meta-analysis has demonstrated that regimens containing erlotinib for the treatment of advanced non-small cell lung cancer are associated with a significantly increased risk of all-grade diarrhea, stomatitis and high-grade diarrhea. Close clinical monitoring is required when using and administering",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2015",
+            "authors": [
+              "Abdel-Rahman Omar",
+              "Fouad Mona"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Diarrhea",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Randomized Controlled Trials as Topic",
+              "Stomatitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25664933/"
+          },
+          {
+            "pmid": "25740245",
+            "title": "Hsp27 Inhibition with OGX-427 Sensitizes Non-Small Cell Lung Cancer Cells to Erlotinib and Chemotherapy.",
+            "abstract": "Non-small cell lung cancer (NSCLC) is the most frequent cause of death from cancer worldwide. Despite the availability of active chemotherapy regimens and EGFR tyrosine kinase inhibitors, all advanced patients develop recurrent disease after first-line therapy. Although Hsp27 is a stress-induced chaperone that promotes acquired resistance in several cancers, its relationship to treatment resistance in NSCLC has not been defined. Understanding adaptive responses of acquired resistance will help guide new strategies to control NSCLC. Hsp27 levels were evaluated in an HCC827 erlotinib-resistant-derived cell line (HCC-827Resistant), and sensitivity to erlotinib was examined in Hsp27-overexpressing A549 cells. The role of Hsp27 in both erlotinib and cytotoxic treatment resistance was evaluated in HCC-827 and A549 NSCLC cells using the Hsp27 antisense drug OGX-427. The effect of OGX-427 in combination with erlotinib was also assessed in mice bearing A549 xenografts. Hsp27 is induced by erlot",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2015",
+            "authors": [
+              "Lelj-Garolla Barbara",
+              "Kumano Masafumi",
+              "Beraldi Eliana",
+              "Nappi Lucia",
+              "Rocchi Palma"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Drug Resistance, Neoplasm",
+              "Drug Synergism",
+              "Erlotinib Hydrochloride",
+              "Gene Expression Regulation, Neoplastic",
+              "HSP27 Heat-Shock Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25740245/"
+          },
+          {
+            "pmid": "30855490",
+            "title": "Efficacy of erlotinib and celecoxib for patients with advanced non-small cell lung cancer: A retrospective study.",
+            "abstract": "This study evaluated the efficacy and toxicity of erlotinib and celecoxib (EC) for treating Chinese patients with advanced non-small cell lung cancer (ANSCLC) and epidermal growth factor receptor (EGFR) wild type.Totally, 75 subjects with ANSCLC and EGFR wild type were included. They all underwent EC treatment. The outcome measurements consisted of progression-free survival (PFS), overall survival (OS), complete response (CR), partial response (PR), stable disease (SD), progress disease (PD), and disease control rate (DCR). Additionally, adverse events were also documented.Two-year CR, PR, SD, PD, and DCR were 4.0%, 6.7%, 42.6%, 46.7%, and 53.3% respectively. The median PFS was 3.4 months, the median OS was 10.0 months. Additionally, acceptable toxicities were recorded in this study.The results showed that EC may be efficacious for patients with ANSCLC and EGFR wild type only, and acceptable toxicity among the Chinese Han population.",
+            "journal": "Medicine",
+            "year": "2019",
+            "authors": [
+              "Jin Yi-Hua",
+              "Li Wei-Hong",
+              "Bai Yan",
+              "Ni Lei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Celecoxib",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30855490/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung hilum carcinoma",
+        "txgnn_score": 0.9495648741722108,
+        "txgnn_rank": 26815,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung germ cell tumor",
+        "txgnn_score": 0.9451462626457214,
+        "txgnn_rank": 27782,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00030498",
+            "title": "Phase I Study of OSI-774 (NSC 718781) for Solid Tumors in Patients With Hepatic or Renal Dysfunction",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2001-12",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 75,
+            "brief_summary": "Phase I trial to study the effectiveness of erlotinib in treating patients who have metastatic or unresectable solid tumors and liver or kidney dysfunction. Biological therapies such as erlotinib may interfere with the growth of tumor cells and slow the growth of the tumor",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed solid tumor, including gliomas and the following epithelial malignancies:\n\n  * Non-small cell lung\n  * Mesothelioma\n  * Breast\n  * Head and neck\n  * Esophageal\n  * Pancreatic\n  * Bladder\n  * Prostate\n  * Ovarian\n  * Anal\n  * Colorectal carcinoma\n  * Ce",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) of OSI-774 determined by dose-limiting toxicities"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00030498"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00397384",
+            "title": "A Phase I Clinical and Biological Evaluation of Combined EGFR Blockade With Erlotinib and Cetuximab in Patients With Advanced Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2013-06",
+            "country": "United States",
+            "enrollment": 43,
+            "brief_summary": "This phase I trial is studying the side effects and best dose of erlotinib hydrochloride when given together with cetuximab and to see how well they work in treating patients with advanced gastrointestinal cancer, head and neck cancer, non-small cell lung cancer, or colorectal cancer. Erlotinib hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as cetuximab, can block tumor growth in different ways. Some block the ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed incurable gastrointestinal tract, head and neck, or non-small cell lung cancers that are KRAS wild type; if KRAS mutational status cannot be determined on archived tumor tissue from the patient, a needle or excisiona",
+            "endpoints": [
+              "Incidence of DLT, defined as recurring grade 2 or greater non-hematological or grade 3 or greater hematological toxicities or skin rash graded using Common Terminology Criteria for Adverse Events version 3.0 (CTCAE-v3)",
+              "MTD defined as the dose level at which fewer than 2 out of 6 patients experience DLT graded using CTCAE-v3"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00397384"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00600496",
+            "title": "A Phase I, Open-Label, Multi-center Study to Assess the Safety, Tolerability and Pharmacokinetics of AZD6244 (ARRY-142886) When Given in Combination With Standard Doses of Selected Chemotherapies to Patients With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2007-12-14",
+            "completion_date": "2025-12-31",
+            "country": "United States",
+            "enrollment": 140,
+            "brief_summary": "This study is being conducted to determine if a combination of AZD6244 given orally twice a day with standard doses of selected chemotherapies will be safe and tolerable for cancer patients with advanced solid tumors. The highest tolerated dose of AZD6244 in combination with selected chemotherapies will be evaluated. The study will also investigate how AZD6244 in combination with standard chemotherapies are absorbed, distributed and excreted by the body as well as the length of time that the dru",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients will have measurable and/or non-measurable disease, lacking curative options for whom the selected chemotherapy agents represent the standard of care\n* WHO performance status 0-1\n* Patients must be able to swallow AZD6244 capsules\n\nExclusion Criteria:\n\n* Prior treatme",
+            "endpoints": [
+              "Safety and tolerability of twice daily oral doses of AZD6244 when administered in combination with standard doses of selected chemotherapies."
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT00600496"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01115803",
+            "title": "A Phase 1b Trial of LY2584702 in Combination With Erlotinib or Everolimus in Patients With Solid Tumors",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2010-03",
+            "completion_date": "2011-06",
+            "country": "France, United States",
+            "enrollment": 29,
+            "brief_summary": "Study I3G-MC-JGCB (JGCB) is a multicenter, nonrandomized, open-label, dose-escalation Phase 1b study of LY2584702 in combination with either erlotinib or everolimus.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Dose Escalation portion (Part 1): have histological or cytological evidence of a diagnosis of cancer that is advanced and/or metastatic disease (including Non-Hodgkin's Lymphoma) for which no proven effective therapy exists.\n* Dose Confirmation portion (Part 2): have histologi",
+            "endpoints": [
+              "Recommended Dose for Phase 2 Studies"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT01115803"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02431169",
+            "title": "Genomic Landscape of EGFR Mutant NSCLC Prior to Erlotinib and at the Time of Disease Progression Following Erlotinib",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "start_date": "2015-04-30",
+            "completion_date": "2019-06-27",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "The investigators propose to conduct a pilot feasibility study of single agent erlotinib in patients with metastatic EGFR mutant adenocarcinoma of the lung with up to one prior treatment with the sole purpose of characterizing the genomic landscape before erlotinib and at the time of disease progression. The logistics of obtaining adequate quality fresh tissue specimens for sequencing studies before therapy and at the time of disease progression in patients with advanced lung cancer are complex ",
+            "eligibility_criteria": "Patient Selection\n\n* Diagnosis of metastatic stage IIIB/IV lung adenocarcinoma\n* Presence of known sensitizing mutations in EGFR TK domain\n* Consented to HRPO# 201305031 (\"Tissue and Blood Acquisition for Genomic Analysis and Collection of Health Information from Patients with Thoracic Malignancies,",
+            "endpoints": [
+              "Genetic changes associated with disease progression following treatment with erlotinib in patients with activating mutations in the EGFR TK domain known to be responsive to therapy"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT02431169"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02279004",
+            "title": "A Prospective Study of Plasma Genotyping as a Noninvasive Biomarker for Genotype-directed Cancer Care",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2014-07-03",
+            "completion_date": "2026-12",
+            "country": "United States",
+            "enrollment": 840,
+            "brief_summary": "Tumor genotyping has become an essential biomarker for the care of advanced lung cancer and melanoma, and is currently used to identify patients for treatment with targeted kinase inhibitors like erlotinib and vemurafenib. However, tumor genotyping can be slow and cumbersome, and is limited by availability of tumor biopsy tissue for testing. The aim of this study is to prospectively evaluate a blood-based genotyping tool that can quantify the presence of oncogenic mutations (EGFR, KRAS, BRAF) in",
+            "eligibility_criteria": "Inclusion Criteria\n\nTo participate in this study a participant must meet the eligibility of one of the following cohorts:\n\nCohort 1: Cancers beginning initial treatment\n\n* One of the following diagnoses:\n\n  * Cohort 1A (CLOSED):\n\n    ---Advanced non-squamous NSCLC (including adenosquamous)\n  * Cohor",
+            "endpoints": [
+              "Accuracy of Plasma Genotyping Assay"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02279004"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00101348",
+            "title": "A Phase I, and Biologic Correlative Study of Erlotinib, in Combination With Cetuximab and Bevacizumab in Patients With Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-01",
+            "completion_date": "2008-05",
+            "country": "United States",
+            "enrollment": 66,
+            "brief_summary": "This randomized phase I/II trial studies the side effects, best way to give, and best dose of erlotinib and bevacizumab when given with cetuximab and how well giving erlotinib and cetuximab together with or without bevacizumab works in treating patients with metastatic or unresectable kidney, colorectal, head and neck, pancreatic, or non-small cell lung cancer. Erlotinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as cetu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* One of the following histologically confirmed diagnoses:\n\n  * Renal cell cancer\n\n    * Clear cell histology\n    * Metastatic or unresectable disease AND meets 1 of the following criteria:\n\n      * Recurrent disease\n      * Refractory to interleukin-2 (IL-2)- or interferon-base",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) of erlotinib hydrochloride combined with cetuximab determined by dose-limiting toxicities (DLT) graded according to the Common Terminology Criteria for Adverse Events (CTCAE) version 3 (Part I)",
+              "MTD of bevacizumab combined with cetuximab and erlotinib hydrochloride determined by DLT graded according to the CTCAE version 3 (Part II)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00101348"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01178411",
+            "title": "An Extension Protocol for Subjects Who Were Previously Enrolled in Other Tivantinib (ARQ 197) Protocols",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2010-08-31",
+            "completion_date": "2019-01-14",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "This is an extension study that will allow participants to continue to receive study therapy when the original studies into which they were enrolled have reached their designated end-dates. This extension study is designed to further evaluate the safety and tolerability of tivantinib (ARQ 197) monotherapy or in combination with other drug(s) when given to participants who tolerated previous treatment well and may benefit from the continuing treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed written informed consent to participate in clinical study of tivantinib\n* Male or female participants of the age defined in the original protocol they were enrolled.\n* Eastern Cooperative Oncology Group (ECOG) performance status (PS) ≤3 (or ≤2 for tivantinib-naive parti",
+            "endpoints": [
+              "Extent of Exposure to ARQ 197 in Participants Benefiting From Prior ARQ 197 Therapy"
+            ],
+            "sponsor": "ArQule, Inc., a subsidiary of Merck Sharp & Dohme LLC, a subsidiary of Merck & Co., Inc. (Rahway, NJ USA)",
+            "url": "https://clinicaltrials.gov/study/NCT01178411"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "21493184",
+            "title": "Glioblastoma: changing expectations?",
+            "abstract": "Glioblastoma (GB) represents the most aggressive glioma in the adult population. Despite recent research efforts, the prognosis of patients with GB has remained dismal. Lately, the knowledge of genetic information about gliomagenesis has increased; we even have a classification of the genetic expression of the tumour. The main problem is that at the moment we do not have any therapeutical resources to help us better treat these tumours, as we can do, with others tumours like breast, lung and colorectal cancer. We have also improved on diagnostic imaging, especially with the new MRI sequences; we can now better define the characteristics of the tumour area and the surrounding brain structures, allowing us to adjust resections. Thanks to the most advanced surgery techniques, such as neuronavigation, intraoperative control of the nervous function and the tumour volume, the neurosurgeon is able to complete tumour exeresis with less morbidity. These imaging techniques allow the radiation on",
+            "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+            "year": "2011",
+            "authors": [
+              "Arribas Alpuente Leoncio",
+              "Menéndez López Antonio",
+              "Yayá Tur Ricardo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents",
+              "Brain Neoplasms",
+              "Combined Modality Therapy",
+              "Glioblastoma",
+              "Humans",
+              "Neurosurgical Procedures",
+              "Radiotherapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21493184/"
+          },
+          {
+            "pmid": "38548752",
+            "title": "Comprehensive mutational scanning of EGFR reveals TKI sensitivities of extracellular domain mutants.",
+            "abstract": "The epidermal growth factor receptor, EGFR, is frequently activated in lung cancer and glioblastoma by genomic alterations including missense mutations. The different mutation spectra in these diseases are reflected in divergent responses to EGFR inhibition: significant patient benefit in lung cancer, but limited in glioblastoma. Here, we report a comprehensive mutational analysis of EGFR function. We perform saturation mutagenesis of EGFR and assess function of ~22,500 variants in a human EGFR-dependent lung cancer cell line. This approach reveals enrichment of erlotinib-insensitive variants of known and unknown significance in the dimerization, transmembrane, and kinase domains. Multiple EGFR extracellular domain variants, not associated with approved targeted therapies, are sensitive to afatinib and dacomitinib in vitro. Two glioblastoma patients with somatic EGFR G598V dimerization domain mutations show responses to dacomitinib treatment followed by within-pathway resistance mutati",
+            "journal": "Nature communications",
+            "year": "2024",
+            "authors": [
+              "Hayes Tikvah K",
+              "Aquilanti Elisa",
+              "Persky Nicole S",
+              "Yang Xiaoping",
+              "Kim Erica E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glioblastoma",
+              "Protein Kinase Inhibitors",
+              "ErbB Receptors",
+              "Lung Neoplasms",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38548752/"
+          },
+          {
+            "pmid": "22588876",
+            "title": "Occupy EGFR.",
+            "abstract": "Erlotinib and gefitinib inhibit the growth of non-small cell lung cancer tumors that harbor activating epidermal growth factor receptor (EGFR) mutations but are ineffective against EGFR variants found in glioblastoma. New studies by Barkovich and colleagues and Vivanco and colleagues show that these drugs only occupy the active sites of glioblastoma-derived EGFR mutants to a limited extent and fail to inhibit the activated receptor. Other EGFR inhibitors that target distinct receptor conformations are more effective in the treatment of glioblastoma. These studies reveal distinct drug selectivities for different EGFR mutations and show that an analysis of binding-site occupancy should be considered as a biomarker for inhibitor efficacy in targeting EGFR.",
+            "journal": "Cancer discovery",
+            "year": "2012",
+            "authors": [
+              "Park Jin H",
+              "Lemmon Mark A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain Neoplasms",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Glioma",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22588876/"
+          },
+          {
+            "pmid": "22378048",
+            "title": "Synergistic effects of erlotinib and everolimus on bronchial carcinoids and large-cell neuroendocrine carcinomas with activated EGFR/AKT/mTOR pathway.",
+            "abstract": "Epidermal growth factor receptor (EGFR) and mammalian target of rapamycin (mTOR) are crucial targets in cancer therapy. Combined inhibition of both targets yielded synergistic effects in vitro and in vivo in several cancer entities. However, the impact of EGFR and mTOR expression and combined inhibition in neuroendocrine lung tumors other than small-cell lung cancer remains unclear.",
+            "journal": "Neuroendocrinology",
+            "year": "2012",
+            "authors": [
+              "Bago-Horvath Zsuzsanna",
+              "Sieghart Wolfgang",
+              "Grusch Michael",
+              "Lackner Andreas",
+              "Hayden Hubert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents",
+              "Carcinoma, Bronchogenic",
+              "Carcinoma, Neuroendocrine",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Child"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22378048/"
+          },
+          {
+            "pmid": "38261467",
+            "title": "Germline USP36 Mutation Confers Resistance to EGFR-TKIs by Upregulating MLLT3 Expression in Patients with Non-Small Cell Lung Cancer.",
+            "abstract": "Although somatic mutations were explored in depth, limited biomarkers were found to predict the resistance of EGFR tyrosine kinase inhibitors (EGFR-TKI). Previous studies reported N6-methyladenosine (m6A) levels regulated response of EGFR-TKIs; whether the germline variants located in m6A sites affected resistance of EGFR-TKIs is still unknown.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2024",
+            "authors": [
+              "Guan Shaoxing",
+              "Chen Xi",
+              "Wei Yuru",
+              "Wang Fei",
+              "Xie Wen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Germ Cells",
+              "Germ-Line Mutation",
+              "Lung Neoplasms",
+              "Mutation",
+              "Nuclear Proteins",
+              "Protein Kinase Inhibitors",
+              "Ubiquitin Thiolesterase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38261467/"
+          },
+          {
+            "pmid": "20444843",
+            "title": "Erlotinib in combination with pemetrexed for patients with advanced non-small-cell lung cancer (NSCLC): a phase I dose-finding study.",
+            "abstract": "Erlotinib and pemetrexed are approved single agents for second-line treatment of non-small-cell lung cancer (NSCLC) and, in combination, have shown synergistic antitumor activity in NSCLC cell lines. We investigated the safety, pharmacokinetics and preliminary efficacy of combined erlotinib-pemetrexed in patients with refractory advanced NSCLC.",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2010",
+            "authors": [
+              "Ranson M",
+              "Reck M",
+              "Anthoney A",
+              "Hanauske A-R",
+              "Dean E"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carcinoma, Large Cell",
+              "Carcinoma, Neuroendocrine",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Squamous Cell",
+              "Disease Progression",
+              "ErbB Receptors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20444843/"
+          },
+          {
+            "pmid": "21485758",
+            "title": "Epidermal growth factor receptor targeted therapies for solid tumours.",
+            "abstract": "The majority of human epithelial cancers is frequently characterized by a functional activation of the epidermal growth factor receptor (EGFR)-driven-pathways. Today, two classes of EGFR inhibitors are routinely used in the clinic: anti-EGFR monoclonal antibodies such as cetuximab and panitumumab and small-molecule inhibitors of the EGFR tyrosine kinase activity such as erlotinib and gefitinib. Anti-EGFR therapies have been approved in several countries for the treatment of metastatic nonsmall-cell lung cancer, colorectal cancer, squamous-cell carcinoma of the head and neck, and pancreatic cancer. This article summarizes the clinical evidence of the anticancer activity of anti-EGFR treatment, and considers the current, and controversial, clinical issues with respect to their optimal use in the treatment of patients with cancer. Mechanisms of resistance to anti-EGFR treatment are also briefly discussed.",
+            "journal": "Acta clinica Belgica",
+            "year": "2011",
+            "authors": [
+              "Van den Eynde M",
+              "Baurain J F",
+              "Mazzeo F",
+              "Machiels J P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Carcinoma, Squamous Cell",
+              "Cell Cycle",
+              "Cetuximab",
+              "Colorectal Neoplasms",
+              "ErbB Receptors",
+              "Glioblastoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21485758/"
+          },
+          {
+            "pmid": "35877711",
+            "title": "The Marine-Derived Macrolactone Mandelalide A Is an Indirect Activator of AMPK.",
+            "abstract": "The mandelalides are complex macrolactone natural products with distinct macrocycle motifs and a bioactivity profile that is heavily influenced by compound glycosylation. Mandelalides A and B are direct inhibitors of mitochondrial ATP synthase (complex V) and therefore more toxic to mammalian cells with an oxidative metabolic phenotype. To provide further insight into the pharmacology of the mandelalides, we studied the AMP-activated protein kinase (AMPK) energy stress pathway and report that mandelalide A is an indirect activator of AMPK. Wild-type mouse embryonic fibroblasts (MEFs) and representative human non-small cell lung cancer (NSCLC) cells showed statistically significant increases in phospho-AMPK (Thr172) and phospho-ACC (Ser79) in response to mandelalide A. Mandelalide L, which also harbors an A-type macrocycle, induced similar increases in phospho-AMPK (Thr172) and phospho-ACC (Ser79) in U87-MG glioblastoma cells. In contrast, MEFs co-treated with an AMPK inhibitor (dorsomo",
+            "journal": "Marine drugs",
+            "year": "2022",
+            "authors": [
+              "Mattos Daphne R",
+              "Wan Xuemei",
+              "Serrill Jeffrey D",
+              "Nguyen Minh H",
+              "Humphreys Ian R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AMP-Activated Protein Kinases",
+              "Adenosine Triphosphate",
+              "Animals",
+              "Antineoplastic Agents",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Erlotinib Hydrochloride",
+              "Fibroblasts",
+              "Glioblastoma",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35877711/"
+          },
+          {
+            "pmid": "29280916",
+            "title": "Erlotinib for coexisting typical bronchial carcinoid and advanced lung adenocarcinoma: does the epidermal growth factor receptor mutation status matter?",
+            "abstract": "Adenocarcinoma (AC) is the most common type of primary pulmonary malignancy. Lung carcinoid, however, is a rare neuroendocrine tumor. Their coexistence is extremely uncommon. We report the unique case of synchronous advanced lung AC of the right upper lobe (stage IIIB) and typical endobronchial carcinoid tumor in the contralateral lower lobe in a 49-year-old white female who had never smoked. PET-computed tomography scan revealed a fluorine-18-fluorodeoxyglucose-avid AC lesion, whereas the carcinoid tumor was fluorine-18-fluorodeoxyglucose occult. After two lines of platinum-based combination chemotherapies and radiotherapy, the AC progressed, and oral tyrosine kinase inhibitor therapy with erlotinib was initiated in third line. On erlotinib, the AC remained stable for 50 months until disease progression, whereas the carcinoid completely regressed. Molecular testing of the rebronchoscopied AC revealed an exon 19 deletion mutation in the epidermal growth factor receptor (EGFR) gene, whe",
+            "journal": "Anti-cancer drugs",
+            "year": "2018",
+            "authors": [
+              "Drpa Gordana",
+              "Sreter Katherina B",
+              "Manojlovic Spomenka",
+              "Kukulj Suzana"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Adenocarcinoma of Lung",
+              "Antineoplastic Agents",
+              "Bronchial Neoplasms",
+              "Carcinoid Tumor",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29280916/"
+          },
+          {
+            "pmid": "32815691",
+            "title": "Nevoid melanoma and eruptive nevi from erlotinib.",
+            "abstract": "Cutaneous side effects such as acneiform eruption, xerosis, and paronychia are frequently observed in patients undergoing treatment with epidermal growth factor receptor (EGFR) inhibitors for non-small cell lung cancer and other solid tumors. Interestingly, these side effects appear to positively correlate with length of remission, indicating that disruption of homeostatic EGFR signaling in the skin may serve as a marker of therapeutic EGFR inhibition in tumors. We report the case of a woman with metastatic lung cancer in remission being treated with the EGFR inhibitor, erlotinib, who experienced numerous commonly occurring adverse cutaneous reactions early in her treatment, and after two years of treatment developed eruptive nevi as well as a nevoid melanoma. Changes in pigmented lesions and the development of melanoma have been described during treatment with the BRAF inhibitor, vemurafenib, and are believed to relate to paradoxical activation of BRAF and the MAPK pathway. We specula",
+            "journal": "Dermatology online journal",
+            "year": "2020",
+            "authors": [
+              "Seidman Jason S",
+              "Eichenfield Dawn Z",
+              "Orme Charisse M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Breast Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Female",
+              "Humans",
+              "Lung Neoplasms",
+              "Melanoma",
+              "Nevus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32815691/"
+          },
+          {
+            "pmid": "31215437",
+            "title": "Stapled EGFR peptide reduces inflammatory breast cancer and inhibits additional HER-driven models of cancer.",
+            "abstract": "The human epidermal growth factor receptor (HER) family of transmembrane tyrosine kinases is overexpressed and correlates with poor prognosis and decreased survival in many cancers. The receptor family has been therapeutically targeted, yet tyrosine kinase inhibitors (TKIs) do not inhibit kinase-independent functions and antibody-based targeting does not affect internalized receptors. We have previously demonstrated that a peptide mimicking the internal juxtamembrane domain of HER1 (EGFR; EJ1) promotes the formation of non-functional HER dimers that inhibit kinase-dependent and kinase-independent functions of HER1 (ERBB1/EGFR), HER2 (ERBB2) and HER3 (ERBB3). Despite inducing rapid HER-dependent cell death in vitro, EJ1 peptides are rapidly cleared in vivo, limiting their efficacy.",
+            "journal": "Journal of translational medicine",
+            "year": "2019",
+            "authors": [
+              "Maisel Sabrina A",
+              "Broka Derrick",
+              "Atwell Benjamin",
+              "Bunch Thomas",
+              "Kupp Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "A549 Cells",
+              "Animals",
+              "Brain Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Down-Regulation",
+              "ErbB Receptors",
+              "Female",
+              "Glioblastoma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31215437/"
+          },
+          {
+            "pmid": "22236672",
+            "title": "Role of chemotherapy on brain metastasis.",
+            "abstract": "Cytotoxic chemotherapy has been considered ineffective for brain metastasis, traditionally because of poor penetration across the blood-brain barrier. However, cytotoxic chemotherapy could be effective in some specific situation, e.g. macroscopic brain metastasis of chemosensitive disease, such as small cell lung cancer, germ cell tumor and breast cancer. Recently, tyrosine kinase inhibitors targeting epidermal growth factor receptor (EGFR) (gefitinib and erlotinib) or human epidermal growth factor receptor 2 (HER2) (lapatinib) have a promising activity to brain metastasis of lung cancer with activating EGFR mutations or breast cancer with HER2 over expression. More molecular targeting agents will also be used against brain metastasis with the advance of understanding of molecular mechanism of cancer.",
+            "journal": "Progress in neurological surgery",
+            "year": "2012",
+            "authors": [
+              "Lee Se-Hoon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Neoplasms",
+              "Erlotinib Hydrochloride",
+              "Gefitinib",
+              "Humans",
+              "Lapatinib",
+              "Protein Kinase Inhibitors",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22236672/"
+          },
+          {
+            "pmid": "17189393",
+            "title": "Epidermal growth factor receptor activation: how exon 19 and 21 mutations changed our understanding of the pathway.",
+            "abstract": "The discovery of epidermal growth factor receptor (EGFR) mutations in never-smokers has been the most relevant finding ever in non-small cell lung cancer. When patients whose tumors bear the sensitizing mutations are treated with the tyrosine kinase inhibitors gefitinib or erlotinib, we witness response rates and durations never before reported, including complete responses. At the same time, the presence of EGFR mutations has raised numerous new questions, tantalizing data, and new challenges for treatment. This is particularly true as we try to generalize the findings in lung cancer to other malignancies. The indiscriminate use of gefitinib or erlotinib in the general lung cancer population results in meager survival benefit for patients. Similarly, the tyrosine kinase inhibitors have limited activity in a variety of tumor types with EGFR overexpression. This has led to the question of whether EGFR remains a viable target in patients other than those whose tumors contain mutations, a",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2006",
+            "authors": [
+              "Rosell Rafael",
+              "Taron Miquel",
+              "Reguart Noemi",
+              "Isla Dolores",
+              "Moran Teresa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Biomarkers, Tumor",
+              "Brain Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cetuximab",
+              "Clinical Trials as Topic",
+              "DNA Mutational Analysis",
+              "Disease Progression",
+              "ErbB Receptors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17189393/"
+          },
+          {
+            "pmid": "38685671",
+            "title": "Decoding dynamic interactions between EGFR-TKD and DAC through computational and experimental approaches: A novel breakthrough in lung melanoma treatment.",
+            "abstract": "In the quest for effective lung cancer treatments, the potential of 3,6-diaminoacridine-9-carbonitrile (DAC) has emerged as a game changer. While DAC's efficacy against glioblastoma is well documented, its role in combating lung cancer has remained largely untapped. This study focuses on CTX-1, exploring its interaction with the pivotal EGFR-TKD protein, a crucial target in lung cancer therapeutics. A meticulous molecular docking analysis revealed that CTX-1 exhibits a noteworthy binding affinity of -7.9 kcal/mol, challenging Erlotinib, a conventional lung cancer medication, which displayed a binding affinity of -7.3 kcal/mol. For a deeper understanding of CTX-1's molecular mechanics, this study employed rigorous 100-ns molecular dynamics simulations, demonstrating CTX-1's remarkable stability in comparison with erlotinib. The Molecular Mechanics Poisson-Boltzmann Surface Area (MM-PBSA) method further corroborated these results, with CTX-1 showing a free binding energy of -105.976 ± 1.",
+            "journal": "Journal of cellular and molecular medicine",
+            "year": "2024",
+            "authors": [
+              "Meher Rajesh Kumar",
+              "Mir Showkat Ahmad",
+              "Singh Kritika",
+              "Mukerjee Nobendu",
+              "Nayak Binata"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "ErbB Receptors",
+              "Lung Neoplasms",
+              "Molecular Docking Simulation",
+              "Molecular Dynamics Simulation",
+              "Cell Line, Tumor",
+              "Apoptosis",
+              "Melanoma",
+              "Protein Binding",
+              "Erlotinib Hydrochloride"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38685671/"
+          },
+          {
+            "pmid": "28778263",
+            "title": "Large Cell Neuroendocrine Carcinoma Transformation and EGFR-T790M Mutation as Coexisting Mechanisms of Acquired Resistance to EGFR-TKIs in Lung Cancer.",
+            "abstract": "Acquired resistance to tyrosine kinase inhibitors (TKIs) represents the Achilles' heel of targeted treatment in lung cancer. Epidermal growth factor receptor (EGFR)-TKIs are considered the standard first-line treatment for patients with EGFR mutant non-small cell lung cancer; however, after a median of 9 to 12 months, virtually all patients develop acquired resistance, which is mediated by the development of an EGFR-T790M secondary mutation in approximately 60% of cases. Different mechanisms of acquired resistance have also been described with lower incidence, including mutations in other driver oncogenes or phenotypic transformation. Herein, we report the first case of a patient with EGFR-mutant lung adenocarcinoma with a long-lasting response to first-line erlotinib treatment who acquired resistance to treatment because of acquisition of both EGFR-T790M mutation and \"high-grade\" large cell neuroendocrine transformation. This case also shows how resistance to third-generation EGFR-TKI",
+            "journal": "Mayo Clinic proceedings",
+            "year": "2017",
+            "authors": [
+              "Baglivo Sara",
+              "Ludovini Vienna",
+              "Sidoni Angelo",
+              "Metro Giulio",
+              "Ricciuti Biagio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Neuroendocrine",
+              "Carcinoma, Non-Small-Cell Lung",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Male",
+              "Middle Aged",
+              "Molecular Targeted Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28778263/"
+          },
+          {
+            "pmid": "35896603",
+            "title": "Optimization of the 4-anilinoquin(az)oline scaffold as epidermal growth factor receptor (EGFR) inhibitors for chordoma utilizing a toxicology profiling assay platform.",
+            "abstract": "The 4-anilinoquin(az)oline is a well-known kinase inhibitor scaffold incorporated in clinical inhibitors including gefitinib, erlotinib, afatinib, and lapatinib, all of which have previously demonstrated activity against chordoma cell lines in vitro. We screened a focused array of compounds based on the 4-anilinoquin(az)oline scaffold against both U-CH1 and the epidermal growth factor receptor (EGFR) inhibitor resistant U-CH2. To prioritize the hit compounds for further development, we screened the compound set in a multiparameter cell health toxicity assay. The de-risked compounds were then screened against a wider panel of patient derived cell lines and demonstrated low micromolar efficacy in cells. We also investigated the properties that gave rise to the toxophore markers, including the structural and electronic features, while optimizing for EGFR in-cell target engagement. These de-risked leads present a potential new therapeutic avenue for treatment of chordomas and new chemical ",
+            "journal": "Scientific reports",
+            "year": "2022",
+            "authors": [
+              "Bieberich Andrew A",
+              "Laitinen Tuomo",
+              "Maffuid Kaitlyn",
+              "Fatig Raymond O",
+              "Torrice Chad D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Aniline Compounds",
+              "Chordoma",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Humans",
+              "Lung Neoplasms",
+              "Mutation",
+              "Protein Kinase Inhibitors",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35896603/"
+          },
+          {
+            "pmid": "19601750",
+            "title": "The epidermal growth factor receptor as a therapeutic target in glioblastoma multiforme and other malignant neoplasms.",
+            "abstract": "The epidermal growth factor receptor (EGFR) is dysregulated in various tumour types such as glioblastoma multiforme (GBM), breast cancer, ovarian carcinoma, non-small cell lung cancer and other cancers. As the intracellular tyrosine kinase of the EGFR activates signalling cascades leading to cell proliferation, angiogenesis and inhibition of apoptosis, the EGFR represents an attractive target in cancer therapy. In GBM which is the most common primary central nervous system tumour in adults, the EGFR is overexpressed in about 40 to 50% of cases, and almost half of these co-express the mutant receptor subtype EGFRvIII. This EGFR variant is constitutively activated, and thereby may contribute to the aggressive and refractory course of GBM which is associated with a median survival of only 40 to 60 weeks from diagnosis. Various trials are ongoing focusing on EGFR and EGFRvIII as new therapeutic targets in GBM. Anti-EGFR monoclonal antibodies (MAbs), e.g. cetuximab, and tyrosine kinase inhi",
+            "journal": "Anti-cancer agents in medicinal chemistry",
+            "year": "2009",
+            "authors": [
+              "Loew S",
+              "Schmidt U",
+              "Unterberg A",
+              "Halatsch M-E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "ErbB Receptors",
+              "Glioblastoma",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19601750/"
+          },
+          {
+            "pmid": "19447869",
+            "title": "Analysis of ErbB receptors in pulmonary carcinoid tumors.",
+            "abstract": "This study aimed to investigate the expression of the ErbB family of receptor tyrosine kinases in pulmonary typical carcinoid and atypical carcinoid tumors and to understand the role of epidermal growth factor receptor (EGFR) signaling in pulmonary carcinoid tumor proliferation.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2009",
+            "authors": [
+              "Rickman Otis B",
+              "Vohra Pawan K",
+              "Sanyal Bharati",
+              "Vrana Julie A",
+              "Aubry Marie-Christine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Base Sequence",
+              "Carcinoid Tumor",
+              "Cell Proliferation",
+              "DNA Mutational Analysis",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19447869/"
+          },
+          {
+            "pmid": "20127563",
+            "title": "XL-184, a MET, VEGFR-2 and RET kinase inhibitor for the treatment of thyroid cancer, glioblastoma multiforme and NSCLC.",
+            "abstract": "XL-184 (BMS-907351), under development by Exelixis Inc and Bristol-Myers Squibb Co, is a pan-tyrosine kinase inhibitor for the potential oral treatment of medullary thyroid cancer, glioblastoma multiforme and NSCLC. The prinicipal targets of XL-184 are MET, VEGFR-2 and RET, but the drug is also reported to display inhibitory activity against KIT, FLT3 and TEK. Preclinical studies demonstrated that XL-184 potently inhibited multiple receptor tyrosine kinases in various cancer cell lines and animal xenograft models, and that the drug exhibited significant oral bioavailability and blood-brain barrier penetration. A phase I clinical trial in patients with advanced solid malignancies indicated that XL-184 accumulated dose-dependently in the plasma and had a long terminal half-life. A phase II trial in patients with progressive or recurrent glioblastoma revealed modest but promising median progression-free survival. Toxicity and side effects for the drug have generally been of low-to-moderat",
+            "journal": "IDrugs : the investigational drugs journal",
+            "year": "2010",
+            "authors": [
+              "Zhang Ying",
+              "Guessous Fadila",
+              "Kofman Alex",
+              "Schiff David",
+              "Abounader Roger"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Carcinoma, Medullary",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Clinical Trials as Topic",
+              "Drug Evaluation, Preclinical",
+              "Glioblastoma",
+              "Humans",
+              "Lung Neoplasms",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20127563/"
+          },
+          {
+            "pmid": "25700797",
+            "title": "De novo pulmonary small cell carcinomas and large cell neuroendocrine carcinomas harboring EGFR mutations: Lack of response to EGFR inhibitors.",
+            "abstract": "Epidermal growth factor receptor (EGFR) mutations are present in 10-20% of all non-small-cell lung cancers and predict for response to EGFR tyrosine kinase inhibitors (TKIs). However, the incidence of these mutations and their ability to predict response to TKIs in high-grade pulmonary neuroendocrine carcinomas [i.e. small cell lung cancer (SCLC) and large cell neuroendocrine carcinoma (LCNEC)] is unknown.",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2015",
+            "authors": [
+              "Le Xiuning",
+              "Desai Neelam V",
+              "Majid Adnan",
+              "Karp Rebecca S",
+              "Huberman Mark S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Agents",
+              "Carboplatin",
+              "Carcinoma, Neuroendocrine",
+              "Disease Progression",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Erlotinib Hydrochloride",
+              "Etoposide",
+              "Fatal Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25700797/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary sulcus neoplasm",
+        "txgnn_score": 0.9451462626457214,
+        "txgnn_rank": 27783,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+        "txgnn_score": 0.9334191679954528,
+        "txgnn_rank": 30028,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of which are characterised by the selective degeneration of the frontal and temporal cortices. Genetics is an important risk factor for frontotemporal dementia. Advances in clinical, imaging, and molecular characterisation have increased the accuracy of frontotemporal dementia diagnosis, thus allowing for the accurate differentiation of these syndromes from psychiatric disorders. As the understanding of the molecular basis for frontotemporal dementia improves, rational therapies are beginning to em",
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alzheimer Disease",
+              "Aphasia",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Mental Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26595641/"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontotemporal lobar degeneration, with a much broader range of signs and symptoms at presentation than has been previously considered. Accurate and early diagnosis of frontotemporal dementia is now a possibility due to development of neuropsychological measures with a special focus on social cognition. Advances in plasma and CSF biomarkers, and innovations in structural and functional imaging, will prove useful for future clinical trials in people with frontotemporal dementia.",
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans",
+              "Neurodegenerative Diseases",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35182511/"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. In this article, the authors discuss the clinical presentation, diagnostic criteria, neuropathology, genetics, and treatments of these disorders.",
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Frontotemporal Dementia",
+              "History, 20th Century",
+              "Humans",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28410663/"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive dementia (PPA). We searched PubMed, MEDLINE, and Google Scholar for articles about FTD disease published in English between January 1, 1975 till 2018. We used the search terms \"frontotemporal dementia,\" \"Fronto temporal dementia-motor neuron disease,\" \"dementia,\" \"cognition,\" \"behavioral variant,\" and \"primary progressive aphasia.",
+            "journal": "Neurology India",
+            "year": "2021",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Executive Function",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Language",
+              "Neurodegenerative Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34747778/"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Frontotemporal Dementia",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39620838/"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Neuroimaging",
+              "Supranuclear Palsy, Progressive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32439025/"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia requires three of six clinically discriminating features (disinhibition, apathy/inertia, loss of sympathy/empathy, perseverative/compulsive behaviours, hyperorality and dysexecutive neuropsychological profile). 'Probable' behavioural variant frontotemporal dementia adds functional disability and characteristic neuroimaging, while behavioural variant frontotemporal dementia 'with definite frontotemporal lobar degeneration' requires histopathological confirmation or a pathogenic mutation. Sixteen bra",
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Behavior",
+              "Female",
+              "Frontotemporal Dementia",
+              "Guidelines as Topic",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neuropsychological Tests",
+              "Reproducibility of Results"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21810890/"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Frontotemporal Lobar Degeneration",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35678399/"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Drug Development",
+              "Frontotemporal Dementia",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38687620/"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disease, and limbic-predominant age-related transactivation response DNA-binding protein 43 encephalopathy, as well as exacerbate the progression of amyotrophic lateral sclerosis (ALS) and FTD caused by the hexanucleotide repeat expansion in the C9orf72 gene. Elevating and/or restoring PGRN levels is an attractive therapeutic strategy and is being investigated for neurodegenerative diseases through multiple mechanisms of action.",
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microglia",
+              "Mutation",
+              "Neurodegenerative Diseases",
+              "Progranulins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35039149/"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several diagnostic criteria have been proposed, which in essence all require a history of slowly progressive motor symptoms, with UMN and LMN signs on neurological examination, clear spread of symptoms through the body, the exclusion of other disorder that cause similar symptoms and an EMG that it is compatible with LMN loss. ALS is heterogeneous disorder that may present in multitude ways, which makes the diagnosis challenging. Therefore, a systematic approach in the diagnostic process is required in li",
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Amyotrophic Lateral Sclerosis",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38802173/"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to further expand knowledge of the biologic processes at play in FTD and may in turn propel research toward identifying curative and preventative pharmacologic therapies. The aim of this chapter is to discuss the clinical, pathologic, and genetic complexities of FTD and related disorders.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31753137/"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several primary psychiatric disorders including bipolar affective disorder and schizophrenia. Emphasis will be placed on the behavioral variant of FTD (bvFTD), which is the common clinical syndrome seen with degeneration of the frontal lobes and is the most likely to be encountered in psychiatric settings.",
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain",
+              "Diagnosis, Differential",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Psychotropic Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31727221/"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cognition Disorders",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Mental Disorders",
+              "Neuroimaging",
+              "Neuropsychological Tests",
+              "Psychiatric Status Rating Scales"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27042904/"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Positron-Emission Tomography",
+              "Primary Progressive Nonfluent Aphasia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28330541/"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based on protein accumulation in the brain. Pathogenic mutations in different genes have been identified. Specific pharmacological treatment is the main research goal. Meanwhile the management must focus on early correct diagnosis, symptom alleviation, caregiver support and educational interventions.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Behavioral Symptoms",
+              "C9orf72 Protein",
+              "Diagnostic Errors",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Microtubule-Associated Proteins",
+              "Middle Aged",
+              "Neuroimaging",
+              "Personality Assessment",
+              "Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25998110/"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical Alzheimer disease and heralded by behavioral or communication manifestations. There is a behavioral variant and a language variant, referred to as primary progressive aphasia.",
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aphasia, Primary Progressive",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Neuropsychological Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26613998/"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the differential diagnosis and improving diagnostic accuracy. As such, neuroimaging is considered a core investigative tool in the evaluation of neurodegenerative disorders. Furthermore, patterns of neurodegeneration correlate with the underlying neuropathological substrates of the frontotemporal dementia syndromes, which can aid clinicians in determining the underlying etiology and improve prognostication. This review explores the advancements in neuroimaging and discusses the phenotypic and pathol",
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Brain",
+              "Frontotemporal Dementia",
+              "Genetic Variation",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Neuroimaging",
+              "Positron-Emission Tomography",
+              "tau Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34389969/"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "abstract": "",
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Introductory Journal Article"
+            ],
+            "mesh_terms": [
+              "Frontotemporal Dementia",
+              "Humans",
+              "Psychiatry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23611342/"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzheimer's disease commit crimes. The neurobiological origin of delinquency in dementia is poorly understood. On the basis of current study results first delinquency in older age can be explained by impairment of social cognition, difficulties in making appropriate emotional contributions and disturbed control of behavior. Affection of frontal and anterior temporal brain structures seem to be of high relevance. As dementia impairs criminal responsibility psychiatrists are confronted with a forensic ",
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Brain",
+              "Criminal Behavior",
+              "Criminals",
+              "Frontotemporal Dementia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33575835/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "junctional epidermolysis bullosa",
+        "txgnn_score": 0.9288805723190308,
+        "txgnn_rank": 30826,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00530",
+    "name": "Erlotinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Erlotinib"
+      },
+      "queried_at": "2026-03-10T09:17:04.006685",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Erlotinib"
+      },
+      "queried_at": "2026-03-10T09:17:06.970112",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T09:17:07.691788",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T09:17:10.762754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T09:17:13.231235",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-10T09:17:13.988842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-10T09:17:17.807048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "queried_at": "2026-03-10T09:17:18.834360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-10T09:17:20.015176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-10T09:17:24.636275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "fibroma of lung"
+      },
+      "queried_at": "2026-03-10T09:17:25.916422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-10T09:17:27.215568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-10T09:17:31.599498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "hamartoma of lung"
+      },
+      "queried_at": "2026-03-10T09:17:33.006268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-10T09:17:33.990182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-10T09:17:37.704873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung benign neoplasm"
+      },
+      "queried_at": "2026-03-10T09:17:41.469541",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-10T09:17:42.185294",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-10T09:17:45.599398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "queried_at": "2026-03-10T09:17:46.816674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-10T09:17:47.710152",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-10T09:17:50.942359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "lung germ cell tumor"
+      },
+      "queried_at": "2026-03-10T09:17:55.602704",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-10T09:17:56.187585",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-10T09:17:59.739416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "queried_at": "2026-03-10T09:18:01.549302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-10T09:18:02.997509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-10T09:18:07.067089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "queried_at": "2026-03-10T09:18:12.582977",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-10T09:18:13.386526",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-10T09:18:17.585687",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Erlotinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "queried_at": "2026-03-10T09:18:18.615707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:18:18.626796"
+  }
+}

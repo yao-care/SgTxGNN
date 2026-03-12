@@ -1,0 +1,547 @@
+{
+  "drug": {
+    "inn": "Bromhexine",
+    "drugbank_id": "DB09019",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "vulvitis",
+        "txgnn_score": 0.837541401386261,
+        "txgnn_rank": 39992,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vaginitis (disease)",
+        "txgnn_score": 0.8341038227081299,
+        "txgnn_rank": 40161,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2080031",
+            "title": "[Respiratory distress syndrome in premature births].",
+            "abstract": "The paper reports the results of a study of respiratory distress syndrome in premature birth, one of the most common and important forms of respiratory disorders affecting neonates during the first days of life. One hundred and fifty-six premature births from 1 January 1986 to 30 June 1988 were included in the study. From an analysis of results it emerges that there is a lower incidence of respiratory distress syndrome in both vaginal deliveries and cases treated with Ambroxol.",
+            "journal": "Minerva ginecologica",
+            "year": "1990",
+            "authors": [
+              "Grio R",
+              "Marchino G L",
+              "Giobbe C",
+              "Zaccheo F",
+              "Ferrara L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ambroxol",
+              "Cesarean Section",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Premature, Diseases",
+              "Respiratory Distress Syndrome, Newborn",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2080031/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "catatrichy",
+        "txgnn_score": 0.8243302702903748,
+        "txgnn_rank": 40672,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvovaginitis",
+        "txgnn_score": 0.822161853313446,
+        "txgnn_rank": 40781,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.8180974125862122,
+        "txgnn_rank": 40969,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28860846",
+            "title": "Ambroxol for the treatment of fibromyalgia: science or fiction?",
+            "abstract": "Fibromyalgia appears to present in subgroups with regard to biological pain induction, with primarily inflammatory, neuropathic/neurodegenerative, sympathetic, oxidative, nitrosative, or muscular factors and/or central sensitization. Recent research has also discussed glial activation or interrupted dopaminergic neurotransmission, as well as increased skin mast cells and mitochondrial dysfunction. Therapy is difficult, and the treatment options used so far mostly just have the potential to address only one of these aspects. As ambroxol addresses all of them in a single substance and furthermore also reduces visceral hypersensitivity, in fibromyalgia existing as irritable bowel syndrome or chronic bladder pain, it should be systematically investigated for this purpose. Encouraged by first clinical observations of two working groups using topical or oral ambroxol for fibromyalgia treatments, the present paper outlines the scientific argument for this approach by looking at each of the af",
+            "journal": "Journal of pain research",
+            "year": "2017",
+            "authors": [
+              "Kern Kai-Uwe",
+              "Schwickert Myriam"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28860846/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "keratosis follicularis spinulosa decalvans, autosomal dominant",
+        "txgnn_score": 0.8136680126190186,
+        "txgnn_rank": 41209,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulceration of vulva",
+        "txgnn_score": 0.8130738139152527,
+        "txgnn_rank": 41230,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar neoplasm",
+        "txgnn_score": 0.812633752822876,
+        "txgnn_rank": 41247,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bacterial vaginosis",
+        "txgnn_score": 0.8100746273994446,
+        "txgnn_rank": 41347,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vaginal discharge",
+        "txgnn_score": 0.8080671429634094,
+        "txgnn_rank": 41445,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09019",
+    "name": "Bromhexine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Bromhexine"
+      },
+      "queried_at": "2026-03-10T10:32:46.090847",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Bromhexine"
+      },
+      "queried_at": "2026-03-10T10:32:55.039299",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T10:32:56.473490",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T10:33:00.258772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T10:33:01.060284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vaginitis (disease)"
+      },
+      "queried_at": "2026-03-10T10:33:01.705511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vaginitis (disease)"
+      },
+      "queried_at": "2026-03-10T10:33:05.533822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vaginitis (disease)"
+      },
+      "queried_at": "2026-03-10T10:33:08.006814",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "catatrichy"
+      },
+      "queried_at": "2026-03-10T10:33:09.327384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "catatrichy"
+      },
+      "queried_at": "2026-03-10T10:33:14.376299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "catatrichy"
+      },
+      "queried_at": "2026-03-10T10:33:15.062789",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T10:33:15.589549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T10:33:18.426781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T10:33:19.367196",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:33:19.877331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:33:23.659408",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T10:33:26.909144",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "keratosis follicularis spinulosa decalvans, autosomal dominant"
+      },
+      "queried_at": "2026-03-10T10:33:27.658533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "keratosis follicularis spinulosa decalvans, autosomal dominant"
+      },
+      "queried_at": "2026-03-10T10:33:31.318467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "keratosis follicularis spinulosa decalvans, autosomal dominant"
+      },
+      "queried_at": "2026-03-10T10:33:32.177844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "ulceration of vulva"
+      },
+      "queried_at": "2026-03-10T10:33:32.807228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "ulceration of vulva"
+      },
+      "queried_at": "2026-03-10T10:33:37.309564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "ulceration of vulva"
+      },
+      "queried_at": "2026-03-10T10:33:38.222051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvar neoplasm"
+      },
+      "queried_at": "2026-03-10T10:33:38.966611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvar neoplasm"
+      },
+      "queried_at": "2026-03-10T10:33:42.334451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vulvar neoplasm"
+      },
+      "queried_at": "2026-03-10T10:33:43.771186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T10:33:44.419324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T10:33:49.141726",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T10:33:50.207452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T10:33:50.731649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T10:33:54.072465",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Bromhexine",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T10:33:55.244329",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:33:55.250782"
+  }
+}

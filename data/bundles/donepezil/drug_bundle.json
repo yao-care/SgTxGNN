@@ -1,0 +1,1599 @@
+{
+  "drug": {
+    "inn": "Donepezil",
+    "drugbank_id": "DB00843",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "psychogenic movement disorders",
+        "txgnn_score": 0.992302179336548,
+        "txgnn_rank": 8800,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic tic disorder",
+        "txgnn_score": 0.9918906688690186,
+        "txgnn_rank": 9112,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18343255",
+            "title": "Donepezil use in children and adolescents with tics and attention-deficit/hyperactivity disorder: an 18-week, single-center, dose-escalating, prospective, open-label study.",
+            "abstract": "Striatal cholinergic dysfunction may be important in tics and attention-deficit/hyperactivity disorder (ADHD).",
+            "journal": "Clinical therapeutics",
+            "year": "2008",
+            "authors": [
+              "Cubo Esther",
+              "Fernández Jaén Alberto",
+              "Moreno Celia",
+              "Anaya Belén",
+              "González Miguel"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Child",
+              "Cholinesterase Inhibitors",
+              "Comorbidity",
+              "Donepezil",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Indans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18343255/"
+          },
+          {
+            "pmid": "10440471",
+            "title": "Donepezil for Tourette's disorder and ADHD.",
+            "abstract": "",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1999",
+            "authors": [
+              "Hoopes S P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Child",
+              "Comorbidity",
+              "Donepezil",
+              "Humans",
+              "Indans",
+              "Male",
+              "Nootropic Agents",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10440471/"
+          },
+          {
+            "pmid": "16045972",
+            "title": "Effects of donepezil, nicotine and haloperidol on the central serotonergic system in mice: implications for Tourette's syndrome.",
+            "abstract": "We have previously reported that acute and chronic donepezil and nicotine administration significantly attenuate DOI-induced head twitch response (HTR) in mice. This behavior, primarily mediated by stimulation of 5-HT2A receptors, has been proposed to model tic symptoms seen in Tourette's syndrome (TS). Haloperidol, a drug widely used to treat symptoms of TS, has also been reported to reduce DOI-induced head shakes in rodents when administered acutely. These findings suggest an inhibitory interaction of these drugs with 5-HT2A receptors. To test this hypothesis, we evaluated the effects of chronic donepezil, nicotine and haloperidol on expression levels of 5-HT2A mRNA and 5-HT2A receptor density in select brain regions. Initially, we established a dose-response relationship for the acute and chronic haloperidol and DOI-induced HTR. Male ICR mice were treated twice daily with donepezil (0.1 mg/kg), nicotine (0.5 mg/kg), and once daily with haloperidol (0.4 mg/kg) for 14 days and were sa",
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "2005",
+            "authors": [
+              "Hayslett Renee L",
+              "Tizabi Yousef"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amphetamines",
+              "Animals",
+              "Behavior, Animal",
+              "Binding, Competitive",
+              "Cerebral Cortex",
+              "Corpus Striatum",
+              "Donepezil",
+              "Dose-Response Relationship, Drug",
+              "Frontal Lobe",
+              "Gene Expression"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16045972/"
+          },
+          {
+            "pmid": "14643839",
+            "title": "Effects of donepezil on DOI-induced head twitch response in mice: implications for Tourette syndrome.",
+            "abstract": "Tourette syndrome (TS) is a neurological disorder characterized by persistent motor and phonic tics. Administration of the selective 5-HT(2A/2C) agonist 1-(2, 5-dimethoxy-4-iodophenyl)-2-aminopropane (DOI) induces head twitches in mice that have been proposed to model tics seen in TS. Previous studies have demonstrated that nicotine markedly attenuates DOI-induced head twitch response (HTR). This and the reports that nicotine may have clinical efficacy in reducing symptoms of TS suggest possible involvement of the nicotinic cholinergic system in this disorder. Donepezil is an acetylcholinesterase inhibitor approved for use in mild to moderate Alzheimer's disease. The purpose of this study was to investigate whether donepezil might also reduce DOI-induced HTR, and whether its combination with nicotine might result in an additive or synergistic effect. Moreover, to elucidate the possible role of nicotinic receptors in this paradigm, the effects of mecamylamine, a nicotinic antagonist, wa",
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "2003",
+            "authors": [
+              "Hayslett Renee L",
+              "Tizabi Yousef"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amphetamines",
+              "Animals",
+              "Donepezil",
+              "Drug Synergism",
+              "Head Movements",
+              "Indans",
+              "Male",
+              "Mecamylamine",
+              "Mice",
+              "Mice, Inbred ICR"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14643839/"
+          },
+          {
+            "pmid": "16986157",
+            "title": "Donepezil also effective in the treatment of Tourette's syndrome?",
+            "abstract": "",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2006",
+            "authors": [
+              "Niederhofer Helmut"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Electroencephalography",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Indans",
+              "Piperidines",
+              "Tourette Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16986157/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary orthostatic tremor",
+        "txgnn_score": 0.9917134046554564,
+        "txgnn_rank": 9239,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "extrapyramidal and movement disease",
+        "txgnn_score": 0.9915784597396852,
+        "txgnn_rank": 9340,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40224553",
+            "title": "Movement disorders associated with acetylcholinesterase inhibitors in Alzheimer's dementia: A systematic review.",
+            "abstract": "Acetylcholinesterase inhibitors (AChEIs) are widely used in Alzheimer's disease (AD). This study aims to systematically review the literature about movement disorders (MDs) associated with AChEIs for AD, which include donepezil, galantamine, rivastigmine, tacrine, and ipidacrine.",
+            "journal": "Brain circulation",
+            "year": "2025",
+            "authors": [
+              "Rissardo Jamir Pitton",
+              "Caprara Ana Letícia Fornari"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40224553/"
+          },
+          {
+            "pmid": "15669896",
+            "title": "Beneficial effect of donepezil in the treatment of elderly patients with tardive movement disorders.",
+            "abstract": "Tardive dyskinesia and other delayed-onset abnormal involuntary movement disorders may occur as a result of the use of psychotropic drugs. A distinction is usually made between classic tardive dyskinesia (TD) (orobuccal-lingual-facial) and tardive dystonia, tardive tremor (TT), tardive akathisia, and other related syndromes. In spite of the development of atypical antipsychotics with fewer side effects, tardive movement disorders nevertheless continue to present a significant clinical and therapeutic challenge. Several reports have suggested that donepezil may be helpful in the treatment of TD.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2005",
+            "authors": [
+              "Bergman Joseph",
+              "Dwolatzky Tzvi",
+              "Brettholz Izidor",
+              "Lerner Vladimir"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antipsychotic Agents",
+              "Basal Ganglia Diseases",
+              "Bipolar Disorder",
+              "Cholinesterase Inhibitors",
+              "Cognition Disorders",
+              "Donepezil",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Geriatric Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15669896/"
+          },
+          {
+            "pmid": "14676467",
+            "title": "Pharmacologic treatment expectations in the management of dementia with Lewy bodies.",
+            "abstract": "Recently recognized as an entity separate from Alzheimer's disease (AD) and Parkinson's disease with dementia, dementia with Lewy bodies (DLB) is a frequent cause of dementia. It is characterized by progressive cognitive decline and attention deficits, but in contrast to AD, the cognitive changes typically fluctuate over time. Patients with DLB often experience Parkinson-like spontaneous motor features as well as recurrent visual hallucinations. Another frequent finding in DLB is rapid eye movement (REM) sleep disorder. Ideally, each of the major symptom domains associated with DLB (behavioral, motor, and cognitive) would be treated, but drug interactions in these patients are a serious concern. In addition, many patients with DLB are hypersensitive to neuroleptics, which can induce severe extrapyramidal and other symptoms--sometimes ending in death. Compared with conventional neuroleptics, the newer atypical antipsychotic agents may be associated with lower rates of extrapyramidal sid",
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2004",
+            "authors": [
+              "Kaufer Daniel I"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Antipsychotic Agents",
+              "Brain",
+              "Carbamates",
+              "Cholinesterase Inhibitors",
+              "Diagnosis, Differential",
+              "Donepezil",
+              "Galantamine",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14676467/"
+          },
+          {
+            "pmid": "12671528",
+            "title": "Donepezil as add-on treatment of psychotic symptoms in patients with dementia of the Alzheimer's type.",
+            "abstract": "Traditionally, the neuropsychiatric symptoms of Alzheimer's disease (AD) have been managed with neuroleptics or benzodiazepines, which have serious side effects. Preliminary observations suggest the possible value of cholinesterase inhibitors in the amelioration of psychotic symptoms in patients with dementia of the Alzheimer's type, dementia with Lewy bodies, and in patients with Parkinson's disease. Twelve inpatients with AD with psychotic symptoms and lack of improvement of their delusions/hallucinations during perphenazine treatment (8 mg/day) for 3 weeks received random open-label donepezil 5 mg daily in addition to an ongoing treatment of 8 mg/day perphenazine or 16 mg/day perphenazine. Assessments conducted at baseline and after weeks 2 and 4 included the Mini-Mental State Examination, the Global Deterioration Scale, the Positive and Negative Symptoms Scale, and the Clinical Global Impressions scale. Frequency of extrapyramidal symptoms was measured according to the Abnormal Inv",
+            "journal": "Clinical neuropharmacology",
+            "year": "2003",
+            "authors": [
+              "Bergman Joseph",
+              "Brettholz Izidor",
+              "Shneidman Michael",
+              "Lerner Vladimir"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Alzheimer Disease",
+              "Antipsychotic Agents",
+              "Delusions",
+              "Donepezil",
+              "Drug Therapy, Combination",
+              "Female",
+              "Hallucinations",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12671528/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign shuddering attacks",
+        "txgnn_score": 0.9915784597396852,
+        "txgnn_rank": 9341,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tremor-nystagmus-duodenal ulcer syndrome",
+        "txgnn_score": 0.9915425777435304,
+        "txgnn_rank": 9378,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41362004",
+            "title": "Behçet Disease and Cognitive Impairment: A Case Study of an Overlooked Symptom.",
+            "abstract": "BACKGROUND Behçet disease (BD) is a rare systemic vasculitis with diverse clinical manifestations, most commonly oral ulcers. Neurological involvement occurs in 5% to 15% of cases, often presenting as brainstem and myelopathic syndromes. However, cognitive impairment can develop even in the absence of overt neurological signs. A case-control study using the Brief Repeatable Battery of Neuropsychological Tests reported cognitive dysfunction in 38% of BD patients lacking overt neurological symptoms, suggesting that the cognitive dysfunction was immune-mediated. This case report points to the importance of heightened clinical vigilance in patients with BD presenting with subtle cognitive changes, even in the absence of neurological involvement. Routine neuropsychological screening could enable earlier detection and timely intervention, thereby reducing the risk of irreversible cognitive decline. CASE REPORT A 59-year-old woman with BD presented with progressive cognitive impairment 1 year",
+            "journal": "The American journal of case reports",
+            "year": "2025",
+            "authors": [
+              "Nathania Caroline Evanthe",
+              "Prodjohardjono Astuti",
+              "Susianti Noor Alia",
+              "Gofir Abdul",
+              "Setyaningrum Cempaka Thursina Srie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Behcet Syndrome",
+              "Cognitive Dysfunction",
+              "Neuropsychological Tests",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41362004/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal tonic upgaze of childhood with ataxia",
+        "txgnn_score": 0.9912180304527284,
+        "txgnn_rank": 9634,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lingual-facial-buccal dyskinesia",
+        "txgnn_score": 0.9901561737060548,
+        "txgnn_rank": 10436,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15689723",
+            "title": "Donepezil and tardive dyskinesia.",
+            "abstract": "",
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "2005",
+            "authors": [
+              "Schopick David"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Indans",
+              "Male",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15689723/"
+          },
+          {
+            "pmid": "15965316",
+            "title": "Olanzapine-induced myoclonic status.",
+            "abstract": "Olanzapine-related seizures have rarely been reported despite its proconvulsant risk. This is the first description of myoclonic status induced by this antipsychotic. A 54-year-old woman with probable Alzheimer disease developed continuous myoclonic jerks just after adding olanzapine for neuropsychiatric symptoms. She was already receiving citalopram and donepezil at low doses. Jerks coincided with spikes and polyspike/wave complexes on EEG. Olanzapine was immediately suspended and the seizures subsided. A control EEG showed no paroxysmal discharges. Several months later she was given haloperidol and she remained seizure free. Olanzapine shares some pharmacologic similarities with clozapine, a neuroleptic with a high risk of dose-dependent seizures. This adverse effect should be taken into account, and olanzapine should be used with caution if concomitant circumstances could decrease the seizure threshold.",
+            "journal": "Clinical neuropharmacology",
+            "year": "2005",
+            "authors": [
+              "Camacho Ana",
+              "García-Navarro Magdalena",
+              "Martínez Begoña",
+              "Villarejo Alberto",
+              "Pomares Eva"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Antipsychotic Agents",
+              "Benzodiazepines",
+              "Dose-Response Relationship, Drug",
+              "Electroencephalography",
+              "Female",
+              "Haloperidol",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15965316/"
+          },
+          {
+            "pmid": "29553158",
+            "title": "Cholinergic medication for antipsychotic-induced tardive dyskinesia.",
+            "abstract": "Tardive dyskinesia (TD) remains a troublesome adverse effect of conventional antipsychotic (neuroleptic) medication. It has been proposed that TD could have a component of central cholinergic deficiency. Cholinergic drugs have been used to treat TD.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "authors": [
+              "Tammenmaa-Aho Irina",
+              "Asher Rosie",
+              "Soares-Weiser Karla",
+              "Bergman Hanna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Cholinergic Agents",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Patient Dropouts",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29553158/"
+          },
+          {
+            "pmid": "18321753",
+            "title": "Donepezil-induced jaw tremor.",
+            "abstract": "",
+            "journal": "Parkinsonism & related disorders",
+            "year": "2008",
+            "authors": [
+              "Song In-Uk",
+              "Kim Joong-Seok",
+              "Ryu Seon-Young",
+              "Lee Sang-Bong",
+              "An Jae-Young"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Donepezil",
+              "Female",
+              "Humans",
+              "Indans",
+              "Jaw",
+              "Memory Disorders",
+              "Neuropsychological Tests",
+              "Nootropic Agents",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18321753/"
+          },
+          {
+            "pmid": "9520529",
+            "title": "Treatment of agitation in dementia.",
+            "abstract": "Agitation occurs commonly in patients with dementia. Before symptomatic pharmacotherapy is undertaken, it is imperative to perform a sequence of evaluations and interventions to establish whether simpler and safer, nonpharmacologic approaches will be beneficial. When psychotropic medications are used they should be used judiciously, in the lowest effective doses and for the shortest period of time necessary. Ineffective medications should be stopped, and even effective medications should be empirically tapered in most patients to learn whether treatment is still necessary. Antipsychotics probably show the greatest benefit for agitation associated with psychotic features; they have less demonstrated efficacy for agitation not associated with psychotic features. The side effects of typical agents are legion; data are pending regarding atypical agents. The available evidence regarding nonneuroleptic medications ranges from case reports to well-designed, double-blind, placebo-controlled, r",
+            "journal": "New directions for mental health services",
+            "year": "1997",
+            "authors": [
+              "Tariot P",
+              "Gaile S E",
+              "Castelli N A",
+              "Porsteinsson A P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Dementia",
+              "Humans",
+              "Psychomotor Agitation",
+              "Psychotropic Drugs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9520529/"
+          },
+          {
+            "pmid": "12137608",
+            "title": "Cholinergic medication for neuroleptic-induced tardive dyskinesia.",
+            "abstract": "Tardive dyskinesia remains a troublesome adverse effect of conventional antipsychotic (neuroleptic) medication. It has been proposed that tardive dyskinesia could have a component of central cholinergic deficiency. Cholinergic drugs have been used to treat tardive dyskinesia.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2002",
+            "authors": [
+              "Tammenmaa I A",
+              "McGrath J J",
+              "Sailas E",
+              "Soares-Weiser K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Cholinergic Agents",
+              "Dyskinesia, Drug-Induced",
+              "Humans",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12137608/"
+          },
+          {
+            "pmid": "23917951",
+            "title": "Non-dopaminergic treatments for motor control in Parkinson's disease.",
+            "abstract": "The pathological processes underlying Parkinson's disease (PD) involve more than dopamine cell loss within the midbrain. These non-dopaminergic neurotransmitters include noradrenergic, serotonergic, glutamatergic, and cholinergic systems within cortical, brainstem and basal ganglia regions. Several non-dopaminergic treatments are now in clinical use to treat motor symptoms of PD, or are being evaluated as potential therapies. Agents for symptomatic monotherapy and as adjunct to dopaminergic therapies for motor symptoms include adenosine A2A antagonists and the mixed monoamine-B inhibitor (MAO-BI) and glutamate release agent safinamide. The largest area of potential use for non-dopaminergic drugs is as add-on therapy for motor fluctuations. Thus adenosine A2A antagonists, safinamide, and the antiepileptic agent zonisamide can extend the duration of action of levodopa. To reduce levodopa-induced dyskinesia, drugs that target overactive glutamatergic neurotransmission can be used, and inc",
+            "journal": "Drugs",
+            "year": "2013",
+            "authors": [
+              "Fox Susan H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine A2 Receptor Antagonists",
+              "Animals",
+              "Antiparkinson Agents",
+              "Dopamine Agents",
+              "Drug Resistance",
+              "Dyskinesia, Drug-Induced",
+              "Gait Disorders, Neurologic",
+              "Humans",
+              "Levodopa",
+              "Mesencephalon"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23917951/"
+          },
+          {
+            "pmid": "40791064",
+            "title": "Efficacy and safety of cholinesterase inhibitors and memantine for cognitive symptoms in patients with Huntington's disease: A systematic review.",
+            "abstract": "BackgroundHuntington's Disease (HD) is an autosomal dominant neurodegenerative disorder. Clinical features encompass a broad spectrum of movement disorders, psychiatric and cognitive symptoms, often progressing to dementia and imposing a substantial burden on patients and their families. While cholinesterase inhibitors and memantine are often used for symptomatic treatment of Alzheimer's Disease and other dementias, there is currently no approved medication for treating cognitive symptoms in HD.ObjectiveWe aim to review, summarize, and appraise evidence from the literature for the use of cholinesterase inhibitors and memantine in the treatment of cognitive symptoms in patients with HD.MethodsA searched was conducted in PubMed and SCOPUS, from inception until February 2024, for Randomized Clinical Trials (RCTs), open-label, and case-control studies. Quality appraisal was performed using ROBINS-I and ROB2 for non-randomized studies and RCTs, respectively.ResultsFive eligible studies (thr",
+            "journal": "Journal of Huntington's disease",
+            "year": "2025",
+            "authors": [
+              "Rodrigues Catarina Correia",
+              "Carvalho Vanessa",
+              "Sotero Filipa Dourado",
+              "Mulroy Eoin",
+              "Guedes Leonor Correia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Memantine",
+              "Cholinesterase Inhibitors",
+              "Huntington Disease",
+              "Cognitive Dysfunction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40791064/"
+          },
+          {
+            "pmid": "12611743",
+            "title": "Use of cholinesterase inhibitors in clinical practice: evidence-based recommendations.",
+            "abstract": "Cholinesterase inhibitors (ChE-Is) are the standard of therapy for treatment of patients with Alzheimer disease (AD) and are the only class of drugs approved by the Food and Drug Administration (FDA) for treatment of this condition. This review provides evidenced-based recommendations for use of ChE-Is in clinical practice. The author searched computerized literature databases of the approved ChE-Is widely used in clinical practice (donepezil, rivastigmine, and galantamine), and extended the review with bibliographies from identified articles and package inserts of information reviewed by the FDA. Double-blind, placebo-controlled trials providing Class I evidence were used as data sources whenever possible. Articles with Class II and Class III data were used when Class I data were unavailable. In general, ChE-Is exert modest reproducible effects in patients with mild-to-moderate AD. Drug-placebo differences are evident on global and cognitive measures. Secondary outcomes, including mea",
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2003",
+            "authors": [
+              "Cummings Jeffrey L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Cholinesterase Inhibitors",
+              "Cognition Disorders",
+              "Double-Blind Method",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Neuropsychological Tests",
+              "Practice Patterns, Physicians'",
+              "Psychomotor Agitation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12611743/"
+          },
+          {
+            "pmid": "11106308",
+            "title": "Comparison of donepezil-, tacrine-, rivastigmine- and metrifonate-induced central and peripheral cholinergically mediated responses in the rat.",
+            "abstract": "There are now several acetylcholinesterase inhibitors in clinical use for the treatment of Alzheimer's disease, however, no systematic comparative studies of their central and peripheral cholinergic mediated effects in rats appear to have been reported. The present study investigated the dose-response characteristics of donepezil, tacrine, rivastigmine and metrifonate in inducing tremor, lacrimation, salivation and hypothermia and the duration of action of these compounds in Lister hooded rats. Data obtained were compared with the clinical observations on these drugs. Three doses of each compound were given orally to establish a dose-response curve for each behaviour, Tremor and lacrimation were scored, salivation was measured by weighing swabs applied to the mouth area and hypothermia was measured with a rectal probe. ED50 values were calculated for tremor. Using a just sub-maximal tremorigenic dose, the duration of response was examined. All four compounds produced dose-dependent inc",
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2000",
+            "authors": [
+              "Dronfield S",
+              "Egan K",
+              "Marsden C A",
+              "Green A R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Body Temperature",
+              "Carbamates",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Dose-Response Relationship, Drug",
+              "Hypothermia",
+              "Indans",
+              "Lacrimal Apparatus",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11106308/"
+          },
+          {
+            "pmid": "19296357",
+            "title": "Pain and palliative care pharmacotherapy literature summaries and analyses.",
+            "abstract": "Timely and important studies are reviewed and commentaries provided by leading palliative care clinicians. Symptoms, interventions, and treatment-related adverse events addressed in this issue are management of Alzheimer's agitation with donepezil; needle-free lidocaine powder for minor painful procedures; psychostimulants in depression; anticoagulation for cancer-related venous thromboembolism; effect of waiting for acute pain treatment on risk of chronic pain; and an update on severe cutaneous reactions associated with medications.",
+            "journal": "Journal of pain & palliative care pharmacotherapy",
+            "year": "2009",
+            "authors": [
+              "Abernethy Amy P",
+              "Farrell Tommie W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Amphetamines",
+              "Anesthetics, Local",
+              "Anticoagulants",
+              "Antidepressive Agents",
+              "Depression",
+              "Donepezil",
+              "Drug Therapy",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19296357/"
+          },
+          {
+            "pmid": "19142126",
+            "title": "Effect of donepezil on tardive dyskinesia.",
+            "abstract": "",
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2009",
+            "authors": [
+              "Ogunmefun Adeleke",
+              "Hasnain Mehrul",
+              "Alam Akhtar",
+              "Osuala Theodore",
+              "Regenold William T"
+            ],
+            "pub_types": [
+              "Letter",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antipsychotic Agents",
+              "Cholinesterase Inhibitors",
+              "Cross-Over Studies",
+              "Donepezil",
+              "Double-Blind Method",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19142126/"
+          },
+          {
+            "pmid": "21148081",
+            "title": "Pharmacokinetic and pharmacodynamic properties of cholinesterase inhibitors donepezil, tacrine, and galantamine in aged and young Lister hooded rats.",
+            "abstract": "Physiological alterations that may change pharmacological response accompany aging. Pharmacokinetic/pharmacodynamic properties of cholinesterase inhibitors (ChEIs) used in the treatment of Alzheimer's disease, donepezil, tacrine, and galantamine, were investigated in an aged Lister hooded rat model. Intravenous and oral 6-h blood sampling profiles in old (30 months old) and young (7 months old) rats revealed pharmacokinetic changes similar to those in humans with an approximately 40% increase in C(max) of galantamine and prolonged t(1/2) (1.4-fold) and mean residence time (1.5-fold) of donepezil. Tacrine disposition was maintained with age, and area under the concentration-time curve and clearance in old rats were similar to those in young rats for all drugs tested as was bioavailability. Old rats showed a trend of increased pharmacodynamic sensitivity (<20%) to ChEIs in cholinesterase activity assays, which was attributed to pharmacokinetic effects because a trend of higher blood and ",
+            "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+            "year": "2011",
+            "authors": [
+              "Goh Catherine W",
+              "Aw Chiu Cheong",
+              "Lee Jasinda H",
+              "Chen Christopher P",
+              "Browne Edward R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Animals",
+              "Biological Availability",
+              "Brain",
+              "Cholinesterase Inhibitors",
+              "Cholinesterases",
+              "Donepezil",
+              "Dose-Response Relationship, Drug",
+              "Galantamine",
+              "Half-Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21148081/"
+          },
+          {
+            "pmid": "14564129",
+            "title": "Cholinesterase inhibitor therapies and neuropsychiatric manifestations of Alzheimer's disease.",
+            "abstract": "Neuropsychiatric symptoms (NPS) of Alzheimer's disease (AD) occur throughout the course of AD. Behaviors include mood alterations, psychosis, agitation, and apathy. These symptoms are a major cause of diminished quality of life for both patients and caregivers. Evidence suggests that a cholinergic deficit resulting from a loss of cholinergic neurons is the biological basis of some NPS in AD and related dementias. The basal forebrain nuclei, the primary source of cholinergic projections to the cortex, become atrophied in AD. Cholinesterase inhibitors (ChE-Is) enhance neuronal transmission by increasing the availability of acetylcholine at the receptors. This effect is believed to be beneficial in improving or stabilizing many behavioral symptoms of AD. Preliminary studies of ChE-Is have shown mixed results; however, the results of more recent studies have been favorable.",
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2004",
+            "authors": [
+              "Wynn Zakiya J",
+              "Cummings Jeffrey L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Cholinesterase Inhibitors",
+              "Depression",
+              "Humans",
+              "Psychomotor Agitation",
+              "Psychotic Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14564129/"
+          },
+          {
+            "pmid": "10634264",
+            "title": "Donepezil for Huntington's disease.",
+            "abstract": "",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2000",
+            "authors": [
+              "Fernandez H H",
+              "Friedman J H",
+              "Grace J",
+              "Beason-Hazen S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Female",
+              "Humans",
+              "Huntington Disease",
+              "Indans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10634264/"
+          },
+          {
+            "pmid": "24127392",
+            "title": "Cholinesterase inhibitors and Pisa syndrome: a pharmacovigilance study.",
+            "abstract": "Case reports suggest a relationship between cholinesterase inhibitors (ChEIs) and Pisa syndrome (PS), also known as pleurothotonus, a form of dystonia, but this relationship has not been systematically examined. Our objective was to estimate the adjusted reporting ratios of PS with donepezil, rivastigmine, and galantamine in the United States Food and Drug Administration (FDA) Adverse Event Reporting System (FAERS) database.",
+            "journal": "Pharmacotherapy",
+            "year": "2014",
+            "authors": [
+              "Zannas Anthony S",
+              "Okuno Yasushi",
+              "Doraiswamy P Murali"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adverse Drug Reaction Reporting Systems",
+              "Aged",
+              "Cholinesterase Inhibitors",
+              "Databases, Factual",
+              "Dystonia",
+              "Female",
+              "Humans",
+              "Male",
+              "Pharmacovigilance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24127392/"
+          },
+          {
+            "pmid": "20738813",
+            "title": "Issues facing home-based medical support services.",
+            "abstract": "The first part of the present review describes the current status of elderly people with behavioral and psychological symptoms of dementia (BPSD) in the community and basic viewpoints for differentiating between different forms of dementia. Specifically, it focuses on four points among the data and research related to determining the current status of elderly people with BPSD. We also propose basic concepts for differentiating between the core symptoms of dementia and BPSD, BPSD and delirium, and agitation and delirium. In the second part of the present review, various aspects of the symptom 'agitation' are discussed based on the experience of our home visit medical service for people with dementia by describing two cases. In cases such as Case 1, where the subject was given high doses of antipsychotics, we believe the problem was that the physicians immediately abstracted all of the abnormal behavior in the subject's life as 'agitation', and provided treatment to the subject according",
+            "journal": "Psychogeriatrics : the official journal of the Japanese Psychogeriatric Society",
+            "year": "2010",
+            "authors": [
+              "Kinoshita Toru",
+              "Hanabusa Hiroo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antipsychotic Agents",
+              "Caregivers",
+              "Delirium",
+              "Dementia",
+              "Diagnosis, Differential",
+              "Donepezil",
+              "Home Care Services",
+              "House Calls"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20738813/"
+          },
+          {
+            "pmid": "17914039",
+            "title": "Donepezil for the treatment of agitation in Alzheimer's disease.",
+            "abstract": "Agitation is a common and distressing symptom in patients with Alzheimer's disease. Cholinesterase inhibitors improve cognitive outcomes in such patients, but the benefits of these drugs for behavioral disturbances are unclear.",
+            "journal": "The New England journal of medicine",
+            "year": "2007",
+            "authors": [
+              "Howard Robert J",
+              "Juszczak Edmund",
+              "Ballard Clive G",
+              "Bentham Peter",
+              "Brown Richard G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Alzheimer Disease",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Indans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17914039/"
+          },
+          {
+            "pmid": "15610922",
+            "title": "Systematic review of cholinergic drugs for neuroleptic-induced tardive dyskinesia: a meta-analysis of randomized controlled trials.",
+            "abstract": "The authors evaluated the efficacy of cholinergic drugs in the treatment of neuroleptic-induced tardive dyskinesia (TD) by a systematic review of the literature on the following agents: choline, lecithin, physostigmine, tacrine, 7-methoxyacridine, ipidacrine, galantamine, donepezil, rivastigmine, eptastigmine, metrifonate, arecoline, RS 86, xanomeline, cevimeline, deanol, and meclofenoxate. All relevant randomized controlled trials, without any language or year limitations, were obtained from the Cochrane Schizophrenia Group's Register of Trials. Trials were classified according to their methodological quality. For binary and continuous data, relative risks (RR) and weighted or standardized mean differences (SMD) were calculated, respectively. Eleven trials with a total of 261 randomized patients were included in the meta-analysis. Cholinergic drugs showed a minor trend for improvement of tardive dyskinesia symptoms, but results were not statistically significant (RR 0.84, 95% confiden",
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2004",
+            "authors": [
+              "Tammenmaa Irina A",
+              "Sailas Eila",
+              "McGrath John J",
+              "Soares-Weiser Karla",
+              "Wahlbeck Kristian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Dyskinesia Agents",
+              "Antipsychotic Agents",
+              "Cholinergic Agents",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15610922/"
+          },
+          {
+            "pmid": "17914047",
+            "title": "Treatment of neuropsychiatric symptoms in patients with dementia.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2007",
+            "authors": [
+              "Yaffe Kristine"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Alzheimer Disease",
+              "Antipsychotic Agents",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Humans",
+              "Indans",
+              "Patient Selection",
+              "Piperidines",
+              "Psychomotor Agitation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17914047/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute intermittent porphyria",
+        "txgnn_score": 0.9874588251113892,
+        "txgnn_rank": 12492,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma",
+        "txgnn_score": 0.98283189535141,
+        "txgnn_rank": 15557,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20415624",
+            "title": "A pilot study for the effects of donepezil therapy on cerebral and optic nerve head blood flow, visual field defect in normal-tension glaucoma.",
+            "abstract": "To evaluate the effect of donepezil hydrochloride, an agent for the treatment of Alzheimer's disease (AD), on the cerebral and optic nerve head (ONH) blood flow, visual field defect in normal-tension glaucoma (NTG) patients with decreased cerebral blood flow (CBF) that demonstrates an AD-like perfusion pattern.",
+            "journal": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+            "year": "2010",
+            "authors": [
+              "Yoshida Yukiko",
+              "Sugiyama Tetsuya",
+              "Utsunomiya Keita",
+              "Ogura Yasuharu",
+              "Ikeda Tsunehiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Aged",
+              "Blood Flow Velocity",
+              "Brain",
+              "Cerebrovascular Circulation",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Female",
+              "Humans",
+              "Indans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20415624/"
+          },
+          {
+            "pmid": "10637365",
+            "title": "Molecular modelling and QSAR of reversible acetylcholines-terase inhibitors.",
+            "abstract": "Acetylcholinesterase (AChE) inhibitors are an important class of medicinal agents useful for the treatment of Alzheimer s disease, glaucoma, myasthenia gravis and for the recovery of neuromuscular block in surgery. To rationalize the structural requirements of AChE inhibitors we attempt to derive a coherent AChE-inhibitor recognition pattern based on literature data of molecular modelling and quantitative structure-activity relationship (QSAR) analyses. These data are summarised from nearly all therapeutically important chemical classes of reversible AChE inhibitors, e.g., derivatives of physostigmine, tacrine, donepezil and huperzine A. Interactions observed from X-ray crystallography between these inhibitors and AChE have also been incorporated and compared with modelling and QSAR results. It is concluded that hydrophobicity and the presence of an ionizable nitrogen are the pre-requisites for the inhibitors to interact with AChE. However the mode of interaction i.e., the 3-dimensiona",
+            "journal": "Current medicinal chemistry",
+            "year": "2000",
+            "authors": [
+              "Kaur J",
+              "Zhang M Q"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alkaloids",
+              "Alzheimer Disease",
+              "Cholinesterase Inhibitors",
+              "Crystallography, X-Ray",
+              "Donepezil",
+              "Drug Design",
+              "Glaucoma",
+              "Humans",
+              "Indans",
+              "Models, Molecular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10637365/"
+          },
+          {
+            "pmid": "23462028",
+            "title": "Charles bonnet syndrome: treating nonpsychiatric hallucinations.",
+            "abstract": "Charles Bonnet syndrome (CBS) is characterized by recurrent or persistent complex visual hallucinations that occur in visually impaired individuals with intact cognition and no evidence of psychiatric illness. Patients usually retain insight into the unreal nature of their hallucinations.3,4 CBS is often misdiagnosed, and predominantly affects elderly patients with vision changes (e.g., age-related macular degeneration, glaucoma, and cataract). While many require only the assurance of the benign nature of the hallucinations, nonpharmacological and pharmacological interventions have been reported to be useful in the treatment of CBS. This case involves an 83-year-old female, with a two-year history of CBS, who presented to the clinic with worsening visual hallucinations over the past few months. She was starting to lose insight into her hallucinations secondary to her new diagnosis of dementia. Several pharmacological agents were explored to determine the most appropriate choice for our",
+            "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+            "year": "2013",
+            "authors": [
+              "Nguyen Ngoc-Diem",
+              "Osterweil Dan",
+              "Hoffman Janice"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Cognition",
+              "Dementia",
+              "Donepezil",
+              "Female",
+              "Hallucinations",
+              "Humans",
+              "Indans",
+              "Nootropic Agents",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23462028/"
+          },
+          {
+            "pmid": "27967267",
+            "title": "Recent advances in acetylcholinesterase Inhibitors and Reactivators: an update on the patent literature (2012-2015).",
+            "abstract": "Acetylcholinesterase (AChE) is the major enzyme that hydrolyzes acetylcholine, a key neurotransmitter for synaptic transmission, into acetic acid and choline. Mild inhibition of AChE has been shown to have therapeutic relevance in Alzheimer's disease (AD), myasthenia gravis, and glaucoma among others. In contrast, strong inhibition of AChE can lead to cholinergic poisoning. To combat this, AChE reactivators have to be developed to remove the offending AChE inhibitor, restoring acetylcholine levels to normal. Areas covered: This article covers recent advances in the development of acetylcholinesterase modulators, including both inhibitors of acetylcholinesterase for the efforts in development of new chemical entities for treatment of AD, as well as re-activators for resurrection of organophosphate bound acetylcholinesterase. Expert opinion: Over the past three years, research efforts have continued to identify novel small molecules as AChE inhibitors for both CNS and peripheral diseases",
+            "journal": "Expert opinion on therapeutic patents",
+            "year": "2017",
+            "authors": [
+              "McHardy Stanton F",
+              "Wang Hua-Yu Leo",
+              "McCowen Shelby V",
+              "Valdez Matthew C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetylcholinesterase",
+              "Alzheimer Disease",
+              "Animals",
+              "Cholinesterase Inhibitors",
+              "Drug Design",
+              "Glaucoma",
+              "Humans",
+              "Ligands",
+              "Myasthenia Gravis",
+              "Patents as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27967267/"
+          },
+          {
+            "pmid": "16127117",
+            "title": "Angle-closure glaucoma after discontinuing donepezil hydrochloride (Aricept).",
+            "abstract": "",
+            "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
+            "year": "2005",
+            "authors": [
+              "Enzenauer Robert W",
+              "Bowers Patrick J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Donepezil",
+              "Female",
+              "Glaucoma, Angle-Closure",
+              "Humans",
+              "Indans",
+              "Middle Aged",
+              "Nootropic Agents",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16127117/"
+          },
+          {
+            "pmid": "16503777",
+            "title": "Effect of oral donepezil on intraocular pressure in normotensive Alzheimer patients.",
+            "abstract": "Donepezil, a selective acetylcholinesterase (AChE) inhibitor, has been shown to reduce intraocular pressure (IOP) in ocular normotensive rabbit eyes. The aim of this investigation was to evaluate the effect of oral donepezil on IOP and pupil diameter after mid-term oral treatment in normotensive persons. Thirty-two newly diagnosed Alzheimer patients with normal IOP and no further antiglaucomatous treatment were included in the study. IOP and pupil diameter were evaluated before and 4 weeks after daily intake of 5 mg donepezil. IOP and pupil diameter were significantly lower/smaller after 4 weeks of treatment. The mean IOP of all 63 eyes was 14.1 mmHg before and 12.8 mmHg after treatment (8.8% reduction). Mean pupil diameter constricted from 3.9 to 3.6 mm (-7.4%). These findings show that donepezil, and, possibly, other selective AChE inhibitors, can potentially be used to treat glaucoma. They are also known to have neuroprotective effects in Alzheimer's, and, therefore, might have an a",
+            "journal": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+            "year": "2006",
+            "authors": [
+              "Estermann Stephan",
+              "Daepp Gian-Carlo",
+              "Cattapan-Ludewig Katja",
+              "Berkhoff Magdalena",
+              "Frueh Beatrice E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Aged",
+              "Aged, 80 and over",
+              "Alzheimer Disease",
+              "Cholinesterase Inhibitors",
+              "Donepezil",
+              "Female",
+              "Humans",
+              "Indans",
+              "Intraocular Pressure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16503777/"
+          },
+          {
+            "pmid": "20197638",
+            "title": "Histological protection by donepezil against neurodegeneration induced by ischemia-reperfusion in the rat retina.",
+            "abstract": "Although a blockade of acetylcholine esterase has been reported to suppress neuronal cell death induced by exogenous glutamate and beta-amyloid, information is still limited regarding the neuroprotective effects of the acetylcholine esterase inhibitor donepezil. We histologically examined the effects of donepezil on neuronal injury induced by ischemia-reperfusion. Intravenous and intravitreous treatment with donepezil 15 min prior to ischemia dramatically reduced the retinal damage. The protective effect of donepezil in the ganglion cell layer was not affected by mecamylamine, a nicotinic acetylcholine-receptor antagonist, nor scopolamine, a muscarinic acetylcholine-receptor antagonist. The protective effect of donepezil in the inner plexiform layer was reduced not by mecamylamine, but by scopolamine. Neostigmine, a choline-esterase inhibitor, and pilocarpine, a muscarinic acetylcholine-receptor agonist, have protective effects in the inner plexiform layer and the inner nuclear layer. ",
+            "journal": "Journal of pharmacological sciences",
+            "year": "2010",
+            "authors": [
+              "Sakamoto Kenji",
+              "Ohki Kayo",
+              "Saito Maki",
+              "Nakahara Tsutomu",
+              "Ishii Kunio"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Donepezil",
+              "Indans",
+              "Male",
+              "Neurodegenerative Diseases",
+              "Neuroprotective Agents",
+              "Piperidines",
+              "Rats",
+              "Rats, Sprague-Dawley",
+              "Reperfusion Injury"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20197638/"
+          },
+          {
+            "pmid": "23258422",
+            "title": "Donepezil abolishes anticholinergic activity in a patient with amnesia.",
+            "abstract": "We report the case of a 74-year-old woman who presented with amnesia and positive serum anticholinergic activity (SAA), which disappeared after treatment with the cholinesterase inhibitor donepezil for 1 year. Her only other regular medications were topical glaucoma preparations. We suggest that mental stress, mild cognitive impairment and Alzheimer's disease pathology combined to generate SAA in this patient. We also consider that SAA may have subsequently become negative because of upregulation of acetylcholine production by donepezil, and because the patient's other medications and physical condition (including glaucoma) remained unchanged during the 1-year period.",
+            "journal": "Pharmacology",
+            "year": "2013",
+            "authors": [
+              "Konishi Kimiko",
+              "Hori Koji",
+              "Tomioka Hiroi",
+              "Minegishi Genshin",
+              "Tani Masayuki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Amnesia",
+              "Cholinesterase Inhibitors",
+              "Cognitive Dysfunction",
+              "Donepezil",
+              "Female",
+              "Humans",
+              "Indans",
+              "Nootropic Agents",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23258422/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00843",
+    "name": "Donepezil",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Donepezil"
+      },
+      "queried_at": "2026-03-10T05:19:04.200345",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Donepezil"
+      },
+      "queried_at": "2026-03-10T05:19:06.392773",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "psychogenic movement disorders"
+      },
+      "queried_at": "2026-03-10T05:19:06.921911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "psychogenic movement disorders"
+      },
+      "queried_at": "2026-03-10T05:19:10.031985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "psychogenic movement disorders"
+      },
+      "queried_at": "2026-03-10T05:19:10.850325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-10T05:19:11.343426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-10T05:19:14.471724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-10T05:19:18.034680",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "primary orthostatic tremor"
+      },
+      "queried_at": "2026-03-10T05:19:18.622513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "primary orthostatic tremor"
+      },
+      "queried_at": "2026-03-10T05:19:21.354223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "primary orthostatic tremor"
+      },
+      "queried_at": "2026-03-10T05:19:21.973804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "queried_at": "2026-03-10T05:19:22.521986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "queried_at": "2026-03-10T05:19:25.674334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "queried_at": "2026-03-10T05:19:28.008784",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-10T05:19:28.502110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-10T05:19:31.214980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-10T05:19:31.837816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "queried_at": "2026-03-10T05:19:32.436806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "queried_at": "2026-03-10T05:19:36.060138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "queried_at": "2026-03-10T05:19:37.993388",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "queried_at": "2026-03-10T05:19:39.351070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "queried_at": "2026-03-10T05:19:43.392987",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "queried_at": "2026-03-10T05:19:44.766720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "lingual-facial-buccal dyskinesia"
+      },
+      "queried_at": "2026-03-10T05:19:45.399514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "lingual-facial-buccal dyskinesia"
+      },
+      "queried_at": "2026-03-10T05:19:48.633209",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "lingual-facial-buccal dyskinesia"
+      },
+      "queried_at": "2026-03-10T05:19:50.879250",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "acute intermittent porphyria"
+      },
+      "queried_at": "2026-03-10T05:19:51.822599",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "acute intermittent porphyria"
+      },
+      "queried_at": "2026-03-10T05:19:55.397423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "acute intermittent porphyria"
+      },
+      "queried_at": "2026-03-10T05:19:56.184116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-10T05:19:56.833895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-10T05:19:59.960325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Donepezil",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-10T05:20:02.087908",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:20:02.090729"
+  }
+}

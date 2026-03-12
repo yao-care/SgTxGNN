@@ -1,0 +1,520 @@
+{
+  "drug": {
+    "inn": "Idarubicin",
+    "drugbank_id": "DB01177",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "bulbar polio",
+        "txgnn_score": 0.9704795479774476,
+        "txgnn_rank": 21090,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "5q35 microduplication syndrome",
+        "txgnn_score": 0.9486675262451172,
+        "txgnn_rank": 27004,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neuralgic amyotrophy",
+        "txgnn_score": 0.9278942942619324,
+        "txgnn_rank": 31024,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic neuralgia",
+        "txgnn_score": 0.921516478061676,
+        "txgnn_rank": 32044,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial thrombocytosis",
+        "txgnn_score": 0.7934234142303467,
+        "txgnn_rank": 42129,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "reactive thrombocytosis",
+        "txgnn_score": 0.7915477156639099,
+        "txgnn_rank": 42210,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.7839780449867249,
+        "txgnn_rank": 42529,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal neoplasm",
+        "txgnn_score": 0.7740018963813782,
+        "txgnn_rank": 42951,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39588445",
+            "title": "Cervical Granulocytic Sarcoma Without Acute Leukemia: A Case Report and Review of 42 Additional Cases.",
+            "abstract": "Granulocytic sarcoma (GS), also known as extramedullary myeloid tumor, is a rare malignant neoplasm composed of immature myeloid cells. Although it is most commonly associated with acute myeloid leukemia (AML), a subset of GS cases can occur prior to the development of AML. GS can present in a variety of extramedullary locations, including bone, skin, lymph nodes, and the female reproductive system. We report the case of a 45-year-old Asian female patient who presented to our hospital in July 2015 with a three-month history of left-sided lumbago. A contrast-enhanced computed tomography (CT) scan of the abdomen and pelvis revealed a retroperitoneal mass and an enlarged uterine cervix with an accompanying 57×52 mm mass. A cervical biopsy confirmed the diagnosis of GS. Immunohistochemical (IHC) analysis of the biopsy showed that the neoplastic cells were positive for CD34, CD15, CD33, CD43, lysozyme, and myeloperoxidase. The patient was subsequently treated with an idarubicin and cytarabi",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Zhu Wenting",
+              "Tao Chengbei",
+              "Ruan Zhengying",
+              "Xu Linglong"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39588445/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.7559928297996521,
+        "txgnn_rank": 43631,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete Hodgkin's granuloma",
+        "txgnn_score": 0.7257508635520935,
+        "txgnn_rank": 44541,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01177",
+    "name": "Idarubicin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Idarubicin"
+      },
+      "queried_at": "2026-03-10T08:19:55.869157",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Idarubicin"
+      },
+      "queried_at": "2026-03-10T08:19:57.705437",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T08:19:58.293830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T08:20:01.598107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "bulbar polio"
+      },
+      "queried_at": "2026-03-10T08:20:02.365438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T08:20:03.124397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T08:20:06.583264",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "queried_at": "2026-03-10T08:20:08.450620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T08:20:09.043774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T08:20:12.328655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "neuralgic amyotrophy"
+      },
+      "queried_at": "2026-03-10T08:20:13.809332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T08:20:14.296136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T08:20:17.960393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "amyotrophic neuralgia"
+      },
+      "queried_at": "2026-03-10T08:20:18.852579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "familial thrombocytosis"
+      },
+      "queried_at": "2026-03-10T08:20:19.518020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "familial thrombocytosis"
+      },
+      "queried_at": "2026-03-10T08:20:22.998372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "familial thrombocytosis"
+      },
+      "queried_at": "2026-03-10T08:20:23.713972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "reactive thrombocytosis"
+      },
+      "queried_at": "2026-03-10T08:20:24.310273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "reactive thrombocytosis"
+      },
+      "queried_at": "2026-03-10T08:20:28.850956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "reactive thrombocytosis"
+      },
+      "queried_at": "2026-03-10T08:20:29.680275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T08:20:30.412372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T08:20:34.966663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T08:20:36.328756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T08:20:36.902776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T08:20:40.709477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T08:20:43.326828",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T08:20:44.182962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T08:20:47.157315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T08:20:48.628605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "obsolete Hodgkin's granuloma"
+      },
+      "queried_at": "2026-03-10T08:20:49.258043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "obsolete Hodgkin's granuloma"
+      },
+      "queried_at": "2026-03-10T08:20:52.257503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Idarubicin",
+        "disease": "obsolete Hodgkin's granuloma"
+      },
+      "queried_at": "2026-03-10T08:20:54.664784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:20:54.705348"
+  }
+}

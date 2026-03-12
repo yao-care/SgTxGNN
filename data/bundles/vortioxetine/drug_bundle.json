@@ -1,0 +1,1811 @@
+{
+  "drug": {
+    "inn": "Vortioxetine",
+    "drugbank_id": "DB09068",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "neurotic disorder",
+        "txgnn_score": 0.9924126267433168,
+        "txgnn_rank": 8712,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04446039",
+            "title": "Comparison of Antidepressants in the Real-World: Retrospective Cohort Study Using Big Data",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-07-04",
+            "completion_date": "2022-11-03",
+            "country": "South Korea",
+            "enrollment": 370212,
+            "brief_summary": "The primary purpose of this study is to investigate medication utilization pattern and risk of adverse outcomes among commonly used antidepressants by using nationwide claims database, in order to assess overall clinical benefit of antidepressant therapy in real-world practice.",
+            "eligibility_criteria": "Inclusion Criteria\n\nPatients must meet all of the following inclusion criteria to be eligible for inclusion in the study:\n\n1. Patients aged 18 years or older on the index date\n2. Patients who had at least one inpatient claim or two outpatient claims in the intake period with any of the following dia",
+            "endpoints": [
+              "Medication Possession Ratio (MPR) During First 180 Days of Treatment",
+              "Persistence During First 180 Days of Treatment",
+              "Percentage of Participants Who Discontinued Treatment in the First 90 Days From the Index Date"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04446039"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31006795",
+            "title": "[Neurotic depression: approaches to treatment].",
+            "abstract": "This paper presents a case report of a patient with neurotic depression. The features of personal predisposition and clinical characteristics of the disease are considered. The authors note the advantages of an integrated approach to the treatment of neurotic depression with antidepressants and psychotherapy (cognitive behavioral therapy).",
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2019",
+            "authors": [
+              "Volel B A",
+              "Sorokina O Yu"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Cognitive Behavioral Therapy",
+              "Depressive Disorder",
+              "Humans",
+              "Psychotherapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31006795/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotic depression",
+        "txgnn_score": 0.9908881187438964,
+        "txgnn_rank": 9889,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04446039",
+            "title": "Comparison of Antidepressants in the Real-World: Retrospective Cohort Study Using Big Data",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-07-04",
+            "completion_date": "2022-11-03",
+            "country": "South Korea",
+            "enrollment": 370212,
+            "brief_summary": "The primary purpose of this study is to investigate medication utilization pattern and risk of adverse outcomes among commonly used antidepressants by using nationwide claims database, in order to assess overall clinical benefit of antidepressant therapy in real-world practice.",
+            "eligibility_criteria": "Inclusion Criteria\n\nPatients must meet all of the following inclusion criteria to be eligible for inclusion in the study:\n\n1. Patients aged 18 years or older on the index date\n2. Patients who had at least one inpatient claim or two outpatient claims in the intake period with any of the following dia",
+            "endpoints": [
+              "Medication Possession Ratio (MPR) During First 180 Days of Treatment",
+              "Persistence During First 180 Days of Treatment",
+              "Percentage of Participants Who Discontinued Treatment in the First 90 Days From the Index Date"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04446039"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29477251",
+            "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are available; however, because of inadequate resources, antidepressants are used more frequently than psychological interventions. Prescription of these agents should be informed by the best available evidence. Therefore, we aimed to update and expand our previous work to compare and rank antidepressants for the acute treatment of adults with unipolar major depressive disorder.",
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "authors": [
+              "Cipriani Andrea",
+              "Furukawa Toshi A",
+              "Salanti Georgia",
+              "Chaimani Anna",
+              "Atkinson Lauren Z"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Patient Dropouts",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29477251/"
+          },
+          {
+            "pmid": "34029378",
+            "title": "New generation antidepressants for depression in children and adolescents: a network meta-analysis.",
+            "abstract": "Major depressive disorders have a significant impact on children and adolescents, including on educational and vocational outcomes, interpersonal relationships, and physical and mental health and well-being. There is an association between major depressive disorder and suicidal ideation, suicide attempts, and suicide. Antidepressant medication is used in moderate to severe depression; there is now a range of newer generations of these medications.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2021",
+            "authors": [
+              "Hetrick Sarah E",
+              "McKenzie Joanne E",
+              "Bailey Alan P",
+              "Sharma Vartika",
+              "Moller Carl I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antidepressive Agents",
+              "Bias",
+              "Child",
+              "Citalopram",
+              "Major Depressive Disorder",
+              "Desvenlafaxine Succinate",
+              "Duloxetine Hydrochloride",
+              "Female",
+              "Fluoxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34029378/"
+          },
+          {
+            "pmid": "38957929",
+            "title": "Vortioxetine for depression in adults: A systematic review and dose-response meta-analysis of randomized controlled trials.",
+            "abstract": "Major depressive disorder (MDD) is a prevalent psychiatric condition and vortioxetine offers promising antidepressant effects due to its unique pharmacological profile. However, the dose-response relationships of vortioxetine for MDD is not well established. We aimed to conduct dose-response meta-analyses to fill this gap.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2024",
+            "authors": [
+              "Yang Xin",
+              "Fang Shuping",
+              "Lyu Wenqi",
+              "Hu Yongbo",
+              "Xu Huifang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Randomized Controlled Trials as Topic",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38957929/"
+          },
+          {
+            "pmid": "29189941",
+            "title": "Vortioxetine: Clinical Pharmacokinetics and Drug Interactions.",
+            "abstract": "Vortioxetine is a novel antidepressant with multimodal activity currently approved for the treatment of major depressive disorder. Vortioxetine is orally administered once daily at 5- to 20-mg doses. The pharmacokinetics of vortioxetine are linear and dose proportional, with a mean terminal half-life of approximately 66 h and steady-state plasma concentrations generally achieved within 2 weeks of dosing. The mean absolute oral bioavailability of vortioxetine is 75%. No food effect on pharmacokinetics was observed. Vortioxetine is metabolized by cytochrome P450 enzymes and subsequently by uridine diphosphate glucuronosyltransferase. The major metabolite is pharmacologically inactive, and the minor pharmacologically active metabolite is not expected to cross the blood-brain barrier, making the parent compound primarily responsible for in-vivo activity. No clinically relevant differences were observed in vortioxetine exposure by sex, age, race, body size, and renal or hepatic function. Do",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2018",
+            "authors": [
+              "Chen Grace",
+              "Højer Astrid-Maria",
+              "Areberg Johan",
+              "Nomikos George"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Drug Interactions",
+              "Humans",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29189941/"
+          },
+          {
+            "pmid": "33038880",
+            "title": "Cognitive dysfunctions in depression - significance, description and treatment prospects.",
+            "abstract": "Cognitive dysfunctions are part of the symptomatology of depressive disorders but they may persist even after the patient reaches symptomatic remission. As persistent symptoms of depression, cognitive dysfunctions may inhibit and restrict the patient's functioning in many spheres and significantly impair its quality. In addition, they increase the risk of somatic diseases and contribute to the increase of benefits disbursed from state aid. Furthermore, it is a factor negatively affecting the prognosis of depressive disorders because it increases the risk of recurrence of depression and reduces the susceptibility to pharmacotherapy. Neural network dysfunctions and changes in morphometry in particular areas of the brain are responsible for the persistence of cognitive deficits after MDD treatment. Most of currently used thymoleptics facilitate remission of depressive disorders but do not lead to reversal of cognitive deficits. There is growing evidence that antidepressants used in clinic",
+            "journal": "Psychiatria polska",
+            "year": "2020",
+            "authors": [
+              "Czerwińska Agnieszka",
+              "Pawłowski Tomasz"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Cognition",
+              "Cognitive Dysfunction",
+              "Depression",
+              "Major Depressive Disorder",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33038880/"
+          },
+          {
+            "pmid": "36253442",
+            "title": "Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis.",
+            "abstract": "A systematic review and random-effects model network meta-analysis were conducted to compare the efficacy, acceptability, tolerability, and safety of antidepressants to treat adults with major depressive disorder (MDD) in the maintenance phase. This study searched the PubMed, Cochrane Library, and Embase databases and included only double-blind, randomized, placebo-controlled trials with an enrichment design: patients were stabilized on the antidepressant of interest during the open-label study and then randomized to receive the same antidepressant or placebo. The outcomes were the 6-month relapse rate (primary outcome, efficacy), all-cause discontinuation (acceptability), discontinuation due to adverse events (tolerability), and the incidence of individual adverse events. The risk ratio with a 95% credible interval was calculated. The meta-analysis comprised 34 studies (n = 9384, mean age = 43.80 years, and %females = 68.10%) on 20 antidepressants (agomelatine, amitriptyline, bupropio",
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Sakuma Kenji",
+              "Okuya Makoto",
+              "Hatano Masakazu"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Adult",
+              "Major Depressive Disorder",
+              "Duloxetine Hydrochloride",
+              "Sertraline",
+              "Citalopram",
+              "Venlafaxine Hydrochloride",
+              "Vortioxetine",
+              "Fluoxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36253442/"
+          },
+          {
+            "pmid": "36561896",
+            "title": "Treatment-Resistant Bipolar Depression: Therapeutic Trends, Challenges and Future Directions.",
+            "abstract": "Bipolar disorder (BD) is a chronic mental illness impacting 1-2% of the population worldwide and causing high rates of functional impairment. Patients with BD spend most of their time in depressive episodes and up to one-third of patients do not respond to adequate doses of medications. Although no consensus exists for definition of treatment-resistant bipolar depression (TRBD), failure of symptoms improvement despite an adequate trial of two therapeutic agents is a common theme of TRBD. In this paper, we review the evidence base of therapeutic interventions, challenges, and potential future directions for TRBD.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2022",
+            "authors": [
+              "Elsayed Omar H",
+              "Ercis Mete",
+              "Pahwa Mehak",
+              "Singh Balwinder"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36561896/"
+          },
+          {
+            "pmid": "37424409",
+            "title": "Anhedonia and Depressive Disorders.",
+            "abstract": "Anhedonia is a core symptom of depression and of several psychiatric disorders. Anhedonia has however expanded from its original definition to encompass a spectrum of reward processing deficits that received much interest in the last decades. It is a relevant risk factor for possible suicidal behaviors, and that it may operate as an independent risk factor for suicidality apart from the episode severity. Anhedonia has also been linked to inflammation with a possible reciprocal deleterious effect on depression. Its neurophysiological bases mainly include alterations in striatal and prefrontal areas, with dopamine being the most involved neurotransmitter. Anhedonia is thought to have a significant genetic component and polygenic risk scores are a possible tool for predicting an individual's risk for developing anhedonia. Traditional antidepressants, such as selective serotonin reuptake inhibitors, showed a limited benefit on anhedonia, also considering their potential pro-anhedonic effec",
+            "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+            "year": "2023",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37424409/"
+          },
+          {
+            "pmid": "37032427",
+            "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A Genotypes and Serotonin Reuptake Inhibitor Antidepressants.",
+            "abstract": "Serotonin reuptake inhibitor antidepressants, including selective serotonin reuptake inhibitors (SSRIs; i.e., citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, and sertraline), serotonin and norepinephrine reuptake inhibitors (i.e., desvenlafaxine, duloxetine, levomilnacipran, milnacipran, and venlafaxine), and serotonin modulators with SSRI-like properties (i.e., vilazodone and vortioxetine) are primary pharmacologic treatments for major depressive and anxiety disorders. Genetic variation in CYP2D6, CYP2C19, and CYP2B6 influences the metabolism of many of these antidepressants, which may potentially affect dosing, efficacy, and tolerability. In addition, the pharmacodynamic genes SLC6A4 (serotonin transporter) and HTR2A (serotonin-2A receptor) have been examined in relation to efficacy and side effect profiles of these drugs. This guideline updates and expands the 2015 Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6 and CYP2C19 genotypes an",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2023",
+            "authors": [
+              "Bousman Chad A",
+              "Stevenson James M",
+              "Ramsey Laura B",
+              "Sangkuhl Katrin",
+              "Hicks J Kevin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Cytochrome P-450 CYP2D6",
+              "Cytochrome P-450 CYP2B6",
+              "Pharmacogenetics",
+              "Major Depressive Disorder",
+              "Cytochrome P-450 CYP2C19",
+              "Serotonin Plasma Membrane Transport Proteins",
+              "Serotonin",
+              "Antidepressive Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37032427/"
+          },
+          {
+            "pmid": "25016186",
+            "title": "Vortioxetine, a novel antidepressant with multimodal activity: review of preclinical and clinical data.",
+            "abstract": "Vortioxetine, a novel antidepressant for the treatment of major depressive disorder (MDD), is a 5-HT3, 5-HT7 and 5-HT1D receptor antagonist, 5-HT1B receptor partial agonist, 5-HT1A receptor agonist and serotonin (5-HT) transporter (SERT) inhibitor. Here we review its preclinical and clinical properties and discuss translational aspects. Vortioxetine increases serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic and glutamatergic neurotransmission in brain structures associated with MDD. These multiple effects likely derive from its interaction with 5-HT-receptor-mediated negative feedback mechanisms controlling neuronal activity. In particular, 5-HT3 receptors may play a prominent role, since their blockade i) increases pyramidal neuron activity by removing 5-HT3 receptor-mediated excitation of GABA interneurons, and ii) augments SSRI effects on extracellular 5-HT. However, modulation of the other 5-HT receptor subtypes also likely contributes to vortioxetine's pharmac",
+            "journal": "Pharmacology & therapeutics",
+            "year": "2015",
+            "authors": [
+              "Sanchez Connie",
+              "Asin Karen E",
+              "Artigas Francesc"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Humans",
+              "Piperazines",
+              "Receptors, Serotonin",
+              "Serotonin Agents",
+              "Serotonin Plasma Membrane Transport Proteins",
+              "Sulfides",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25016186/"
+          },
+          {
+            "pmid": "33549697",
+            "title": "Gastrointestinal side effects associated with antidepressant treatments in patients with major depressive disorder: A systematic review and meta-analysis.",
+            "abstract": "Gastrointestinal side effects (SEs) are frequently observed in patients with major depressive disorder (MDD) while taking antidepressants and may lead to treatment discontinuation. The aim of this meta-analysis is to provide quantitative measures on short-term rates of gastrointestinal SEs in MDD patients treated with second-generation antidepressants. An electronic search of the literature was conducted by using MEDLINE, ISI Web of Science - Web of Science Core Collection, and Cochrane Library databases. Eligible studies had to focus on the use of at least one of 15 antidepressants commonly used in MDD (i.e., agomelatine, bupropion, citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, levomilnacipran, mirtazapine, paroxetine, reboxetine, sertraline, venlafaxine, and vortioxetine) and report data on treatment-emergent gastrointestinal SEs (i.e. nausea/vomiting, diarrhoea, constipation, abdominal pain, dyspepsia, anorexia, increased appetite and dry mouth) with",
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2021",
+            "authors": [
+              "Oliva Vincenzo",
+              "Lippi Matteo",
+              "Paci Riccardo",
+              "Del Fabro Lorenzo",
+              "Delvecchio Giuseppe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Constipation",
+              "Major Depressive Disorder",
+              "Diarrhea",
+              "Humans",
+              "Nausea",
+              "Vomiting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33549697/"
+          },
+          {
+            "pmid": "36708956",
+            "title": "Vortioxetine in patients with major depressive disorder and high levels of anxiety symptoms: An updated analysis of efficacy and tolerability.",
+            "abstract": "Patients with major depressive disorder (MDD) often experience comorbid anxiety symptoms. Vortioxetine has demonstrated efficacy in treating anxiety symptoms in patients with MDD; however, efficacy and tolerability have not been assessed across the entire approved dosage range.",
+            "journal": "Journal of affective disorders",
+            "year": "2023",
+            "authors": [
+              "Adair Michael",
+              "Christensen Michael Cronquist",
+              "Florea Ioana",
+              "Loft Henrik",
+              "Fagiolini Andrea"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vortioxetine",
+              "Major Depressive Disorder",
+              "Piperazines",
+              "Treatment Outcome",
+              "Sulfides",
+              "Anxiety",
+              "Double-Blind Method",
+              "Acetamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36708956/"
+          },
+          {
+            "pmid": "27508501",
+            "title": "The Safety, Tolerability and Risks Associated with the Use of Newer Generation Antidepressant Drugs: A Critical Review of the Literature.",
+            "abstract": "Newer generation antidepressant drugs (ADs) are widely used as the first line of treatment for major depressive disorders and are considered to be safer than tricyclic agents. In this critical review, we evaluated the literature on adverse events, tolerability and safety of selective serotonin reuptake inhibitors, serotonin noradrenaline reuptake inhibitors, bupropion, mirtazapine, trazodone, agomelatine, vilazodone, levomilnacipran and vortioxetine. Several side effects are transient and may disappear after a few weeks following treatment initiation, but potentially serious adverse events may persist or ensue later. They encompass gastrointestinal symptoms (nausea, diarrhea, gastric bleeding, dyspepsia), hepatotoxicity, weight gain and metabolic abnormalities, cardiovascular disturbances (heart rate, QT interval prolongation, hypertension, orthostatic hypotension), genitourinary symptoms (urinary retention, incontinence), sexual dysfunction, hyponatremia, osteoporosis and risk of frac",
+            "journal": "Psychotherapy and psychosomatics",
+            "year": "2016",
+            "authors": [
+              "Carvalho André F",
+              "Sharma Manu S",
+              "Brunoni André R",
+              "Vieta Eduard",
+              "Fava Giovanni A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Humans",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27508501/"
+          },
+          {
+            "pmid": "35799757",
+            "title": "Clinical efficacy of Vortioxetine and escitalopram in the treatment of depression.",
+            "abstract": "This study was aimed to investigate the efficacy and safety of vortioxetine hydrobromide in the treatment of major depressive disorder (MDD).",
+            "journal": "Pakistan journal of medical sciences",
+            "year": "2022",
+            "authors": [
+              "Shao Shichuan",
+              "Sun Baomin",
+              "Sun Huiqing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35799757/"
+          },
+          {
+            "pmid": "39366871",
+            "title": "A Systematic Review of Antidepressants and Psychotherapy Commonly Used in the Treatment of Late Life Depression for Their Effects on Cognition.",
+            "abstract": "Cognitive dysfunction is common in late life depression (LLD) and is a major risk factor for dementia. Recent studies show limited improvement in cognition with commonly employed treatments for LLD, contradicting the notion that cognition \"returns to normal\" with treatment. However, findings differ with the treatments used. The aim of this study is to perform a systematic review of studies of antidepressants and psychotherapies commonly employed in LLD to determine their effects on cognition, particularly processing speed, memory, and executive function. We searched for trials of acute phase treatment, in nondemented individuals 60 years and older with unipolar nonpsychotic Major Depressive Disorder, that assessed cognitive performance with neuropsychological tests before and after treatment. We compared the magnitude of change in cognition by examining within group effect sizes. Six antidepressant trials and two psychotherapy trials (both using Problem Solving Therapy)(PST) provided r",
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2025",
+            "authors": [
+              "Nelson J Craig",
+              "Gandelman Jason A",
+              "Mackin R Scott"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antidepressive Agents",
+              "Psychotherapy",
+              "Major Depressive Disorder",
+              "Aged",
+              "Cognition"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39366871/"
+          },
+          {
+            "pmid": "35033635",
+            "title": "Vortioxetine for Major Depressive Disorder in Adolescents: 12-Week Randomized, Placebo-Controlled, Fluoxetine-Referenced, Fixed-Dose Study.",
+            "abstract": "To evaluate the efficacy and safety of vortioxetine in adolescents with major depressive disorder (MDD).",
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "2022",
+            "authors": [
+              "Findling Robert L",
+              "DelBello Melissa P",
+              "Zuddas Alessandro",
+              "Emslie Graham J",
+              "Ettrup Anders"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Fluoxetine",
+              "Humans",
+              "Piperazines",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Single-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35033635/"
+          },
+          {
+            "pmid": "38838790",
+            "title": "Cognitive improvement in late-life depression treated with vortioxetine and duloxetine in an eight-week randomized controlled trial: The role of age at first onset and change in depressive symptoms.",
+            "abstract": "Age at first onset of depression as a clinical factor affecting cognitive improvement in late life depression was investigated.",
+            "journal": "Journal of affective disorders",
+            "year": "2024",
+            "authors": [
+              "Xue Lingfeng",
+              "Bocharova Mariia",
+              "Young Allan H",
+              "Aarsland Dag"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Duloxetine Hydrochloride",
+              "Vortioxetine",
+              "Female",
+              "Male",
+              "Aged",
+              "Antidepressive Agents",
+              "Middle Aged",
+              "Age of Onset",
+              "Cognition"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38838790/"
+          },
+          {
+            "pmid": "25224953",
+            "title": "A review of the clinical efficacy, safety and tolerability of the antidepressants vilazodone, levomilnacipran and vortioxetine.",
+            "abstract": "As a leading cause of disability, major depressive disorder (MDD) is characterized by reduced quality of life and altered functioning. Current pharmaceutical treatment options are limited in their success by modest effects and adverse events that often lead to discontinuation. One current trend in antidepressant development is to combine inhibition of the serotonin transporter with other pharmacological targets, including the norepinephrine transporter or different serotonin receptors.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2014",
+            "authors": [
+              "Deardorff William James",
+              "Grossberg George T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Benzofurans",
+              "Clinical Trials, Phase III as Topic",
+              "Cyclopropanes",
+              "Major Depressive Disorder",
+              "Humans",
+              "Indoles",
+              "Milnacipran",
+              "Piperazines",
+              "Sulfides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25224953/"
+          },
+          {
+            "pmid": "39338172",
+            "title": "Effectiveness of Vortioxetine Treatment on Depression and Cognitive Functions in Patients with Alzheimer's Disease: A 12-Month, Retrospective, Observational Study.",
+            "abstract": "This study aimed to assess the effectiveness of vortioxetine for improving depressive symptoms, cognitive performance, daily and global functioning in patients with Alzheimer's disease (AD) and major depressive disorder (MDD) in real-world clinical practice. We retrospectively identified 46 AD patients who had received treatment for 12 months with vortioxetine. Drug effects were evaluated at baseline, 4, 8, and 12 months. The primary endpoint was change from baseline in the Hamilton Depression Rating Scale (HDRS) and in the Cornell Scale for Depression in Dementia (CSDD) to month 12. Cognitive and daily and global functioning changes were also evaluated. Significant baseline-to-endpoint improvement in depressive symptom severity was observed (p < 0.0001). At month 12, the least-square mean (standard error) change score from baseline was -10.48 (±0.42) on the HDRS and -9.04 (±0.62) on the CSDD. Significant improvements in cognitive performance were observed for the Rey Auditory Verbal L",
+            "journal": "Journal of personalized medicine",
+            "year": "2024",
+            "authors": [
+              "García-Alberca José María",
+              "De La Guia Paz",
+              "Gris Esther",
+              "Mendoza Silvia",
+              "Lopez De La Rica María"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39338172/"
+          },
+          {
+            "pmid": "24676550",
+            "title": "Vortioxetine for the treatment of depression.",
+            "abstract": "To evaluate the clinical literature and potential clinical role of vortioxetine (Brintellix) for the treatment of major depressive disorder (MDD).",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2014",
+            "authors": [
+              "Pearce Erica F",
+              "Murphy Julie A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Depression",
+              "Major Depressive Disorder",
+              "Humans",
+              "Piperazines",
+              "Serotonin Agents",
+              "Sulfides",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24676550/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melancholia",
+        "txgnn_score": 0.9908804893493652,
+        "txgnn_rank": 9894,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01153009",
+            "title": "A Phase 3, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled, Duloxetine-Referenced, Fixed-Dose Study Comparing the Efficacy and Safety of 2 Doses (15 and 20 mg) of Lu AA21004 in Acute Treatment of Adults With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-06",
+            "completion_date": "2012-03",
+            "country": "United States",
+            "enrollment": 614,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety and tolerability of vortioxetine, once daily (QD), compared with placebo in adults with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Man or a woman who suffers from a major depressive episode (MDE) recurrent as the primary diagnosis according to the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, Text Revision (DSM-IV-TR) criteria (classification code 296.3x) as confirmed by the Stru",
+            "endpoints": [
+              "Change From Baseline in the Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT01153009"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01163266",
+            "title": "A Phase 3, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled, Fixed-Dose Study Comparing the Efficacy and Safety of 2 Doses (10 and 20 mg) of Lu AA21004 in Acute Treatment of Adults With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-07",
+            "completion_date": "2012-01",
+            "country": "United States",
+            "enrollment": 462,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of vortioxetine, once daily (QD), compared with placebo in adults with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Suffers from a major depressive episode recurrent as the primary diagnosis according to the American Psychiatric Association Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, Text Revision (DSM-IV-TR) criteria.\n* Has a Montgomery Åsberg Depression Rating S",
+            "endpoints": [
+              "Change From Baseline in Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT01163266"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00735709",
+            "title": "A Randomized, Double-blind, Parallel-Group, Placebo-Controlled, Fixed-Dose Study Comparing the Efficacy and Safety of 3 Doses of Lu AA21004 in Acute Treatment of Adults With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-08",
+            "completion_date": "2009-08",
+            "country": "Australia, United Kingdom, France, South Korea, Netherlands, Germany, Latvia, Malaysia, Czechia, Russia, Ukraine, South Africa, Taiwan, Lithuania, Poland",
+            "enrollment": 560,
+            "brief_summary": "The purpose of this study is to determine the effectiveness and safety of vortioxetine, once daily (QD), in patients with Major Depressive Disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has a primary diagnosis of major depressive episode according to the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, Text Revision (DSM-IV-TR) criteria.\n* The reported duration of the current major depressive episode is at least 3 months.\n* Has a Montgom",
+            "endpoints": [
+              "Change From Baseline in the 24-item Hamilton Depression Scale Total Score At Week 8"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT00735709"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01152996",
+            "title": "A Phase 3, Long-Term, Open-Label, Flexible-Dose, Extension Study Evaluating the Safety and Tolerability of Lu AA21004 (15 and 20 mg) in Subjects With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-09",
+            "completion_date": "2013-05",
+            "country": "N/A",
+            "enrollment": 1075,
+            "brief_summary": "The purpose of this study is to determine the long-term safety and tolerability of vortioxetine, once daily (QD), in participants with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has completed either study LuAA21004\\_315 ( NCT01153009), LuAA21004\\_316 (NCT01163266), or LuAA21004\\_317 (NCT01179516) immediately prior to enrollment in the extension study (ie, the baseline visit is the same visit as the Week 8 \\[Lu AA21004\\_317\\] or Week 10 \\[Lu AA21004\\_3",
+            "endpoints": [
+              "Number of Participants With Treatment-Emergent Adverse Events at a Frequency Threshold of ≥5%",
+              "Number of Participants With Serious Treatment-Emergent Adverse Events",
+              "Treatment-Emergent Adverse Events Leading to Study Discontinuation"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT01152996"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00707980",
+            "title": "A Long-Term, Open-Label, Flexible-Dose, Extension Study Evaluating the Safety and Tolerability of Lu AA21004 in Subjects With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-06",
+            "completion_date": "2010-08",
+            "country": "Australia, United Kingdom, France, South Korea, Croatia, Netherlands, Germany, Latvia, United States, Malaysia, Russia, Ukraine, South Africa, Taiwan, Serbia, Lithuania, Poland",
+            "enrollment": 836,
+            "brief_summary": "The purpose of this study is to determine the long-term efficacy and safety of vortioxetine, once daily (QD), in adults with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has completed the double blind treatment period of either study Lu AA21004\\_304 (NCT00672620) or LuAA21004\\_305 (NCT00735709) immediately prior to enrollment in the extension study (ie, the baseline visit is the same visit as the completion visit of the double blind treatment ",
+            "endpoints": [
+              "Physical Examination Findings",
+              "Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings",
+              "Number of Participants With Potentially Clinically Significant Electrocardiogram (ECG) Findings"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT00707980"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01255787",
+            "title": "A Multinational, Randomized, Double-Blind, Placebo-Controlled, Dose Ranging Study to Assess the Efficacy and Safety of Lu AA21004 in Patients With Major Depressive Disorder",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-11",
+            "completion_date": "2012-04",
+            "country": "Hong Kong, India, Croatia, Romania, South Korea, Germany, Latvia, Finland, Malaysia, Russia, Philippines, Ukraine, Poland, Taiwan, Serbia, Japan",
+            "enrollment": 600,
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of multiple doses of vortioxetine, once daily (QD), in participants with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Suffers from Major Depressive Disorder as the primary diagnosis according to Diagnostic and Statistical Manual of Mental Disorders, 4th Edition, Text Revision (DSM-IV-TR) criteria (classification code 296.2x and 296.3x).\n2. The reported duration of the current major depressiv",
+            "endpoints": [
+              "Change From Baseline in Montgomery-Åsberg Depression Rating Scale (MADRS) Total Score"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT01255787"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29477251",
+            "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are available; however, because of inadequate resources, antidepressants are used more frequently than psychological interventions. Prescription of these agents should be informed by the best available evidence. Therefore, we aimed to update and expand our previous work to compare and rank antidepressants for the acute treatment of adults with unipolar major depressive disorder.",
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "authors": [
+              "Cipriani Andrea",
+              "Furukawa Toshi A",
+              "Salanti Georgia",
+              "Chaimani Anna",
+              "Atkinson Lauren Z"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Patient Dropouts",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29477251/"
+          },
+          {
+            "pmid": "29189941",
+            "title": "Vortioxetine: Clinical Pharmacokinetics and Drug Interactions.",
+            "abstract": "Vortioxetine is a novel antidepressant with multimodal activity currently approved for the treatment of major depressive disorder. Vortioxetine is orally administered once daily at 5- to 20-mg doses. The pharmacokinetics of vortioxetine are linear and dose proportional, with a mean terminal half-life of approximately 66 h and steady-state plasma concentrations generally achieved within 2 weeks of dosing. The mean absolute oral bioavailability of vortioxetine is 75%. No food effect on pharmacokinetics was observed. Vortioxetine is metabolized by cytochrome P450 enzymes and subsequently by uridine diphosphate glucuronosyltransferase. The major metabolite is pharmacologically inactive, and the minor pharmacologically active metabolite is not expected to cross the blood-brain barrier, making the parent compound primarily responsible for in-vivo activity. No clinically relevant differences were observed in vortioxetine exposure by sex, age, race, body size, and renal or hepatic function. Do",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2018",
+            "authors": [
+              "Chen Grace",
+              "Højer Astrid-Maria",
+              "Areberg Johan",
+              "Nomikos George"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Drug Interactions",
+              "Humans",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29189941/"
+          },
+          {
+            "pmid": "25016186",
+            "title": "Vortioxetine, a novel antidepressant with multimodal activity: review of preclinical and clinical data.",
+            "abstract": "Vortioxetine, a novel antidepressant for the treatment of major depressive disorder (MDD), is a 5-HT3, 5-HT7 and 5-HT1D receptor antagonist, 5-HT1B receptor partial agonist, 5-HT1A receptor agonist and serotonin (5-HT) transporter (SERT) inhibitor. Here we review its preclinical and clinical properties and discuss translational aspects. Vortioxetine increases serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic and glutamatergic neurotransmission in brain structures associated with MDD. These multiple effects likely derive from its interaction with 5-HT-receptor-mediated negative feedback mechanisms controlling neuronal activity. In particular, 5-HT3 receptors may play a prominent role, since their blockade i) increases pyramidal neuron activity by removing 5-HT3 receptor-mediated excitation of GABA interneurons, and ii) augments SSRI effects on extracellular 5-HT. However, modulation of the other 5-HT receptor subtypes also likely contributes to vortioxetine's pharmac",
+            "journal": "Pharmacology & therapeutics",
+            "year": "2015",
+            "authors": [
+              "Sanchez Connie",
+              "Asin Karen E",
+              "Artigas Francesc"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Humans",
+              "Piperazines",
+              "Receptors, Serotonin",
+              "Serotonin Agents",
+              "Serotonin Plasma Membrane Transport Proteins",
+              "Sulfides",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25016186/"
+          },
+          {
+            "pmid": "36253442",
+            "title": "Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis.",
+            "abstract": "A systematic review and random-effects model network meta-analysis were conducted to compare the efficacy, acceptability, tolerability, and safety of antidepressants to treat adults with major depressive disorder (MDD) in the maintenance phase. This study searched the PubMed, Cochrane Library, and Embase databases and included only double-blind, randomized, placebo-controlled trials with an enrichment design: patients were stabilized on the antidepressant of interest during the open-label study and then randomized to receive the same antidepressant or placebo. The outcomes were the 6-month relapse rate (primary outcome, efficacy), all-cause discontinuation (acceptability), discontinuation due to adverse events (tolerability), and the incidence of individual adverse events. The risk ratio with a 95% credible interval was calculated. The meta-analysis comprised 34 studies (n = 9384, mean age = 43.80 years, and %females = 68.10%) on 20 antidepressants (agomelatine, amitriptyline, bupropio",
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Sakuma Kenji",
+              "Okuya Makoto",
+              "Hatano Masakazu"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Adult",
+              "Major Depressive Disorder",
+              "Duloxetine Hydrochloride",
+              "Sertraline",
+              "Citalopram",
+              "Venlafaxine Hydrochloride",
+              "Vortioxetine",
+              "Fluoxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36253442/"
+          },
+          {
+            "pmid": "38957929",
+            "title": "Vortioxetine for depression in adults: A systematic review and dose-response meta-analysis of randomized controlled trials.",
+            "abstract": "Major depressive disorder (MDD) is a prevalent psychiatric condition and vortioxetine offers promising antidepressant effects due to its unique pharmacological profile. However, the dose-response relationships of vortioxetine for MDD is not well established. We aimed to conduct dose-response meta-analyses to fill this gap.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2024",
+            "authors": [
+              "Yang Xin",
+              "Fang Shuping",
+              "Lyu Wenqi",
+              "Hu Yongbo",
+              "Xu Huifang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Dose-Response Relationship, Drug",
+              "Randomized Controlled Trials as Topic",
+              "Vortioxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38957929/"
+          },
+          {
+            "pmid": "37032427",
+            "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A Genotypes and Serotonin Reuptake Inhibitor Antidepressants.",
+            "abstract": "Serotonin reuptake inhibitor antidepressants, including selective serotonin reuptake inhibitors (SSRIs; i.e., citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, and sertraline), serotonin and norepinephrine reuptake inhibitors (i.e., desvenlafaxine, duloxetine, levomilnacipran, milnacipran, and venlafaxine), and serotonin modulators with SSRI-like properties (i.e., vilazodone and vortioxetine) are primary pharmacologic treatments for major depressive and anxiety disorders. Genetic variation in CYP2D6, CYP2C19, and CYP2B6 influences the metabolism of many of these antidepressants, which may potentially affect dosing, efficacy, and tolerability. In addition, the pharmacodynamic genes SLC6A4 (serotonin transporter) and HTR2A (serotonin-2A receptor) have been examined in relation to efficacy and side effect profiles of these drugs. This guideline updates and expands the 2015 Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6 and CYP2C19 genotypes an",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2023",
+            "authors": [
+              "Bousman Chad A",
+              "Stevenson James M",
+              "Ramsey Laura B",
+              "Sangkuhl Katrin",
+              "Hicks J Kevin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Cytochrome P-450 CYP2D6",
+              "Cytochrome P-450 CYP2B6",
+              "Pharmacogenetics",
+              "Major Depressive Disorder",
+              "Cytochrome P-450 CYP2C19",
+              "Serotonin Plasma Membrane Transport Proteins",
+              "Serotonin",
+              "Antidepressive Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37032427/"
+          },
+          {
+            "pmid": "36708956",
+            "title": "Vortioxetine in patients with major depressive disorder and high levels of anxiety symptoms: An updated analysis of efficacy and tolerability.",
+            "abstract": "Patients with major depressive disorder (MDD) often experience comorbid anxiety symptoms. Vortioxetine has demonstrated efficacy in treating anxiety symptoms in patients with MDD; however, efficacy and tolerability have not been assessed across the entire approved dosage range.",
+            "journal": "Journal of affective disorders",
+            "year": "2023",
+            "authors": [
+              "Adair Michael",
+              "Christensen Michael Cronquist",
+              "Florea Ioana",
+              "Loft Henrik",
+              "Fagiolini Andrea"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vortioxetine",
+              "Major Depressive Disorder",
+              "Piperazines",
+              "Treatment Outcome",
+              "Sulfides",
+              "Anxiety",
+              "Double-Blind Method",
+              "Acetamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36708956/"
+          },
+          {
+            "pmid": "37424409",
+            "title": "Anhedonia and Depressive Disorders.",
+            "abstract": "Anhedonia is a core symptom of depression and of several psychiatric disorders. Anhedonia has however expanded from its original definition to encompass a spectrum of reward processing deficits that received much interest in the last decades. It is a relevant risk factor for possible suicidal behaviors, and that it may operate as an independent risk factor for suicidality apart from the episode severity. Anhedonia has also been linked to inflammation with a possible reciprocal deleterious effect on depression. Its neurophysiological bases mainly include alterations in striatal and prefrontal areas, with dopamine being the most involved neurotransmitter. Anhedonia is thought to have a significant genetic component and polygenic risk scores are a possible tool for predicting an individual's risk for developing anhedonia. Traditional antidepressants, such as selective serotonin reuptake inhibitors, showed a limited benefit on anhedonia, also considering their potential pro-anhedonic effec",
+            "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+            "year": "2023",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37424409/"
+          },
+          {
+            "pmid": "33549697",
+            "title": "Gastrointestinal side effects associated with antidepressant treatments in patients with major depressive disorder: A systematic review and meta-analysis.",
+            "abstract": "Gastrointestinal side effects (SEs) are frequently observed in patients with major depressive disorder (MDD) while taking antidepressants and may lead to treatment discontinuation. The aim of this meta-analysis is to provide quantitative measures on short-term rates of gastrointestinal SEs in MDD patients treated with second-generation antidepressants. An electronic search of the literature was conducted by using MEDLINE, ISI Web of Science - Web of Science Core Collection, and Cochrane Library databases. Eligible studies had to focus on the use of at least one of 15 antidepressants commonly used in MDD (i.e., agomelatine, bupropion, citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, levomilnacipran, mirtazapine, paroxetine, reboxetine, sertraline, venlafaxine, and vortioxetine) and report data on treatment-emergent gastrointestinal SEs (i.e. nausea/vomiting, diarrhoea, constipation, abdominal pain, dyspepsia, anorexia, increased appetite and dry mouth) with",
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2021",
+            "authors": [
+              "Oliva Vincenzo",
+              "Lippi Matteo",
+              "Paci Riccardo",
+              "Del Fabro Lorenzo",
+              "Delvecchio Giuseppe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Constipation",
+              "Major Depressive Disorder",
+              "Diarrhea",
+              "Humans",
+              "Nausea",
+              "Vomiting"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33549697/"
+          },
+          {
+            "pmid": "34029378",
+            "title": "New generation antidepressants for depression in children and adolescents: a network meta-analysis.",
+            "abstract": "Major depressive disorders have a significant impact on children and adolescents, including on educational and vocational outcomes, interpersonal relationships, and physical and mental health and well-being. There is an association between major depressive disorder and suicidal ideation, suicide attempts, and suicide. Antidepressant medication is used in moderate to severe depression; there is now a range of newer generations of these medications.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2021",
+            "authors": [
+              "Hetrick Sarah E",
+              "McKenzie Joanne E",
+              "Bailey Alan P",
+              "Sharma Vartika",
+              "Moller Carl I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antidepressive Agents",
+              "Bias",
+              "Child",
+              "Citalopram",
+              "Major Depressive Disorder",
+              "Desvenlafaxine Succinate",
+              "Duloxetine Hydrochloride",
+              "Female",
+              "Fluoxetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34029378/"
+          },
+          {
+            "pmid": "27508501",
+            "title": "The Safety, Tolerability and Risks Associated with the Use of Newer Generation Antidepressant Drugs: A Critical Review of the Literature.",
+            "abstract": "Newer generation antidepressant drugs (ADs) are widely used as the first line of treatment for major depressive disorders and are considered to be safer than tricyclic agents. In this critical review, we evaluated the literature on adverse events, tolerability and safety of selective serotonin reuptake inhibitors, serotonin noradrenaline reuptake inhibitors, bupropion, mirtazapine, trazodone, agomelatine, vilazodone, levomilnacipran and vortioxetine. Several side effects are transient and may disappear after a few weeks following treatment initiation, but potentially serious adverse events may persist or ensue later. They encompass gastrointestinal symptoms (nausea, diarrhea, gastric bleeding, dyspepsia), hepatotoxicity, weight gain and metabolic abnormalities, cardiovascular disturbances (heart rate, QT interval prolongation, hypertension, orthostatic hypotension), genitourinary symptoms (urinary retention, incontinence), sexual dysfunction, hyponatremia, osteoporosis and risk of frac",
+            "journal": "Psychotherapy and psychosomatics",
+            "year": "2016",
+            "authors": [
+              "Carvalho André F",
+              "Sharma Manu S",
+              "Brunoni André R",
+              "Vieta Eduard",
+              "Fava Giovanni A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Humans",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27508501/"
+          },
+          {
+            "pmid": "36561896",
+            "title": "Treatment-Resistant Bipolar Depression: Therapeutic Trends, Challenges and Future Directions.",
+            "abstract": "Bipolar disorder (BD) is a chronic mental illness impacting 1-2% of the population worldwide and causing high rates of functional impairment. Patients with BD spend most of their time in depressive episodes and up to one-third of patients do not respond to adequate doses of medications. Although no consensus exists for definition of treatment-resistant bipolar depression (TRBD), failure of symptoms improvement despite an adequate trial of two therapeutic agents is a common theme of TRBD. In this paper, we review the evidence base of therapeutic interventions, challenges, and potential future directions for TRBD.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2022",
+            "authors": [
+              "Elsayed Omar H",
+              "Ercis Mete",
+              "Pahwa Mehak",
+              "Singh Balwinder"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36561896/"
+          },
+          {
+            "pmid": "33038880",
+            "title": "Cognitive dysfunctions in depression - significance, description and treatment prospects.",
+            "abstract": "Cognitive dysfunctions are part of the symptomatology of depressive disorders but they may persist even after the patient reaches symptomatic remission. As persistent symptoms of depression, cognitive dysfunctions may inhibit and restrict the patient's functioning in many spheres and significantly impair its quality. In addition, they increase the risk of somatic diseases and contribute to the increase of benefits disbursed from state aid. Furthermore, it is a factor negatively affecting the prognosis of depressive disorders because it increases the risk of recurrence of depression and reduces the susceptibility to pharmacotherapy. Neural network dysfunctions and changes in morphometry in particular areas of the brain are responsible for the persistence of cognitive deficits after MDD treatment. Most of currently used thymoleptics facilitate remission of depressive disorders but do not lead to reversal of cognitive deficits. There is growing evidence that antidepressants used in clinic",
+            "journal": "Psychiatria polska",
+            "year": "2020",
+            "authors": [
+              "Czerwińska Agnieszka",
+              "Pawłowski Tomasz"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Cognition",
+              "Cognitive Dysfunction",
+              "Depression",
+              "Major Depressive Disorder",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33038880/"
+          },
+          {
+            "pmid": "25224953",
+            "title": "A review of the clinical efficacy, safety and tolerability of the antidepressants vilazodone, levomilnacipran and vortioxetine.",
+            "abstract": "As a leading cause of disability, major depressive disorder (MDD) is characterized by reduced quality of life and altered functioning. Current pharmaceutical treatment options are limited in their success by modest effects and adverse events that often lead to discontinuation. One current trend in antidepressant development is to combine inhibition of the serotonin transporter with other pharmacological targets, including the norepinephrine transporter or different serotonin receptors.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2014",
+            "authors": [
+              "Deardorff William James",
+              "Grossberg George T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Benzofurans",
+              "Clinical Trials, Phase III as Topic",
+              "Cyclopropanes",
+              "Major Depressive Disorder",
+              "Humans",
+              "Indoles",
+              "Milnacipran",
+              "Piperazines",
+              "Sulfides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25224953/"
+          },
+          {
+            "pmid": "35033635",
+            "title": "Vortioxetine for Major Depressive Disorder in Adolescents: 12-Week Randomized, Placebo-Controlled, Fluoxetine-Referenced, Fixed-Dose Study.",
+            "abstract": "To evaluate the efficacy and safety of vortioxetine in adolescents with major depressive disorder (MDD).",
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "2022",
+            "authors": [
+              "Findling Robert L",
+              "DelBello Melissa P",
+              "Zuddas Alessandro",
+              "Emslie Graham J",
+              "Ettrup Anders"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Major Depressive Disorder",
+              "Double-Blind Method",
+              "Fluoxetine",
+              "Humans",
+              "Piperazines",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Single-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35033635/"
+          },
+          {
+            "pmid": "38945303",
+            "title": "Prenatal exposure to vortioxetine and vilazodone: Impact on depressive- and anxiety-like behavioral manifestations in young rat offspring.",
+            "abstract": "Major depressive disorder (MDD) affects millions of people worldwide, with women at a higher risk during the childbearing age. Vortioxetine (VOX) and Vilazodone (VLZ) are newer antidepressants with improved therapeutic profile commonly used, but their safety during pregnancy and long-term effects on offspring are poorly understood due to paucity of literature in preclinical and clinical studies. This study aimed to investigate whether prenatal exposure to VOX and VLZ impacts depressive- and anxiety-like neurobehavioral alterations in offspring, focusing on neurotransmitter-mediated mechanisms. Pregnant Wistar dams received either VOX or VLZ, 1 mg/day and 2 mg/day of the drug orally from gestation day (GD) 6-21. The dams naturally delivered their offspring and reared until they reached postnatal day (PND) 21. Offspring of both sexes were tested for display of depressive-and anxiety-like behaviors from PND 56-70. After PND 70, offspring were sacrificed, and their brains were collected to",
+            "journal": "Behavioural brain research",
+            "year": "2024",
+            "authors": [
+              "Singh Pallavi",
+              "Agrawal Priyanka",
+              "Singh K P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Pregnancy",
+              "Prenatal Exposure Delayed Effects",
+              "Vortioxetine",
+              "Anxiety",
+              "Rats, Wistar",
+              "Vilazodone Hydrochloride",
+              "Male",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38945303/"
+          },
+          {
+            "pmid": "25075188",
+            "title": "Pharmacology and clinical potential of vortioxetine in the treatment of major depressive disorder.",
+            "abstract": "VORTIOXETINE IS A NEW MULTIMODAL ACTION ANTIDEPRESSANT WITH TWO TYPES OF ACTION: serotonin transporter (SERT) blockade and a strong affinity for several serotoninergic receptors. It is an antagonist of the 5-HT3 and 5-HT7 receptors, a partial agonist of 5-HT1B, and an agonist of 5-HT1A. Its combined action on SERT and four subtypes of serotoninergic receptors increases the extracellular concentration of serotonin, dopamine, and noradrenaline. Twelve clinical trials have been carried out, nine of which had positive results versus placebo. When active comparators were included in the study design, no significant differences were found except in one study in which the efficacy of vortioxetine was superior to the comparator (agomelatine) in depression resistant to selective serotonin reuptake inhibitors (SSRI)/serotonin-norepinephrine reuptake inhibitors (SNRI) treatment. Tolerability studies indicate that the drug does not cause any important problems on blood tests, vital signs, or on el",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2014",
+            "authors": [
+              "Alvarez Enric",
+              "Perez Victor",
+              "Artigas Francesc"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25075188/"
+          },
+          {
+            "pmid": "40585554",
+            "title": "Efficacy and tolerability of vortioxetine monotherapy in SSRI-resistant OCD: a retrospective multicenter study.",
+            "abstract": "Treatment-resistant obsessive-compulsive disorder (OCD) remains a major clinical challenge, with a substantial proportion of patients failing to respond to standard treatment with selective serotonin reuptake inhibitors (SSRI). Vortioxetine, a multimodal antidepressant approved for major depressive disorder, has shown potential advantages in terms of tolerability and cognitive enhancement, but its efficacy in OCD has not been systematically explored.",
+            "journal": "Frontiers in psychiatry",
+            "year": "2025",
+            "authors": [
+              "Martiadis Vassilis",
+              "Pessina Enrico",
+              "Cattaneo Carlo Ignazio",
+              "Martini Azzurra",
+              "Raffone Fabiola"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40585554/"
+          },
+          {
+            "pmid": "40917304",
+            "title": "Vortioxetine Improves Brain Glymphatic System Function, Functional Connectivity, and Cognitive Functions in Major Depressive Disorder.",
+            "abstract": "Background: The therapeutic effects of vortioxetine on mood and cognition have been documented in major depressive disorder (MDD). This study aims to examine whether vortioxetine can improve brain glymphatic system function and connections among functional brain networks and to explore the underlying relationships among these changes. Methods: A total of 34 patients with MDD and 41 healthy controls (HCs) were recruited in the study. All participants underwent mood and cognitive assessment, and diffusion tensor imaging (DTI) and resting-state functional MRI scans at baseline and 8-week follow-up. The DTI analysis along the perivascular space (DTI-ALPS) index, and functional connectivity (FC) were assessed. Cognitive assessment was conducted using the Chinese version of Measurement Consensus Cognitive Battery (MCCB). Correlation analysis was subsequently performed to explore underlying association among these indexes. Results: Compared to HCs, patients with MDD showed decreased DTI-ALPS ",
+            "journal": "Depression and anxiety",
+            "year": "2025",
+            "authors": [
+              "Guo Zixuan",
+              "Tang Xinyue",
+              "Zhong Shuming",
+              "Chen Guanmao",
+              "Chen Pan"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Young Adult",
+              "Antidepressive Agents",
+              "Brain",
+              "Cognition",
+              "Connectome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40917304/"
+          },
+          {
+            "pmid": "39276484",
+            "title": "Vortioxetine versus reuptake inhibitors in adults with major depressive disorder: A systematic review and meta-analysis of randomized controlled trials.",
+            "abstract": "Although vortioxetine demonstrates superior efficacy relative to placebo, there is still a lack of robust evidence to determine whether it offers advantages over commonly prescribed antidepressants for treating major depressive disorder (MDD). Thus, we aimed to perform a systematic review and meta-analysis comparing vortioxetine vs reuptake inhibitors in adults with MDD, analyzing two classes separately: (i) vortioxetine vs SSRIs and (ii) vortioxetine vs SNRIs.",
+            "journal": "Asian journal of psychiatry",
+            "year": "2024",
+            "authors": [
+              "Barbosa Eduardo Cerchi",
+              "da Silva Giovanna Hanike Santos",
+              "Sbardelotto Ângelo Eduardo Espíndola",
+              "Barroso Douglas Carneiro",
+              "de Lima Fernanda Ribeiro"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Meta-Analysis",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vortioxetine",
+              "Major Depressive Disorder",
+              "Randomized Controlled Trials as Topic",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Adult",
+              "Antidepressive Agents",
+              "Serotonin and Noradrenaline Reuptake Inhibitors",
+              "Outcome Assessment, Health Care"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39276484/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal torticollis of infancy",
+        "txgnn_score": 0.9906959533691406,
+        "txgnn_rank": 10030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dysthymic disorder",
+        "txgnn_score": 0.9902425408363342,
+        "txgnn_rank": 10363,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00707980",
+            "title": "A Long-Term, Open-Label, Flexible-Dose, Extension Study Evaluating the Safety and Tolerability of Lu AA21004 in Subjects With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-06",
+            "completion_date": "2010-08",
+            "country": "Australia, United Kingdom, France, South Korea, Croatia, Netherlands, Germany, Latvia, United States, Malaysia, Russia, Ukraine, South Africa, Taiwan, Serbia, Lithuania, Poland",
+            "enrollment": 836,
+            "brief_summary": "The purpose of this study is to determine the long-term efficacy and safety of vortioxetine, once daily (QD), in adults with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has completed the double blind treatment period of either study Lu AA21004\\_304 (NCT00672620) or LuAA21004\\_305 (NCT00735709) immediately prior to enrollment in the extension study (ie, the baseline visit is the same visit as the completion visit of the double blind treatment ",
+            "endpoints": [
+              "Physical Examination Findings",
+              "Number of Participants With Potentially Clinically Significant Laboratory Evaluation Findings",
+              "Number of Participants With Potentially Clinically Significant Electrocardiogram (ECG) Findings"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT00707980"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "agoraphobia",
+        "txgnn_score": 0.9897570610046388,
+        "txgnn_rank": 10703,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29760763",
+            "title": "An open-label, flexible dose adaptive study evaluating the efficacy of vortioxetine in subjects with panic disorder.",
+            "abstract": "Despite the current treatments available for panic disorder (PD), as many as one-third of patients have persistent and treatment-resistant panic attacks. Vortioxetine is an approved medicine for major depressive disorder and has been shown to have anxiolytic properties. The purpose of this study was to evaluate its efficacy and safety in an adult population with a diagnosis of PD.",
+            "journal": "Annals of general psychiatry",
+            "year": "2018",
+            "authors": [
+              "Shah Anish",
+              "Northcutt Joanne"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29760763/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ohdo syndrome and variants",
+        "txgnn_score": 0.9870508909225464,
+        "txgnn_rank": 12812,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Keppen-Lubinsky syndrome",
+        "txgnn_score": 0.985345184803009,
+        "txgnn_rank": 13990,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+        "txgnn_score": 0.9826067090034484,
+        "txgnn_rank": 15700,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+        "txgnn_score": 0.9792000651359558,
+        "txgnn_rank": 17392,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09068",
+    "name": "Vortioxetine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Vortioxetine"
+      },
+      "queried_at": "2026-03-10T03:03:50.946092",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Vortioxetine"
+      },
+      "queried_at": "2026-03-10T03:03:53.020368",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-10T03:03:53.837176",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-10T03:03:57.727644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-10T03:04:00.844172",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T03:04:02.028259",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T03:04:05.753792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T03:04:10.555433",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T03:04:11.447396",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T03:04:15.519275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T03:04:18.867908",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T03:04:19.717921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T03:04:22.868395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T03:04:24.149895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T03:04:24.894817",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T03:04:30.432517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T03:04:31.136380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T03:04:31.767145",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T03:04:35.073956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T03:04:37.060972",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T03:04:37.841301",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T03:04:41.620174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T03:04:42.570397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "queried_at": "2026-03-10T03:04:43.118473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "queried_at": "2026-03-10T03:04:46.647550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "queried_at": "2026-03-10T03:04:47.528774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T03:04:48.399078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T03:04:51.690434",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "queried_at": "2026-03-10T03:04:52.570106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-10T03:04:53.299707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-10T03:04:56.946493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Vortioxetine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-10T03:04:57.985106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:04:58.000475"
+  }
+}

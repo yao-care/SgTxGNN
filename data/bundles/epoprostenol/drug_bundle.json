@@ -1,0 +1,2997 @@
+{
+  "drug": {
+    "inn": "Epoprostenol",
+    "drugbank_id": "DB01240",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9841372966766356,
+        "txgnn_rank": 14731,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "7026501",
+            "title": "The effect of infused prostacyclin in migraine and cluster headache.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "1981",
+            "authors": [
+              "Peatfield R C",
+              "Gawel M J",
+              "Rose F C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cluster Headache",
+              "Epoprostenol",
+              "Humans",
+              "Infusions, Parenteral",
+              "Male",
+              "Middle Aged",
+              "Migraine Disorders",
+              "Prostaglandins",
+              "Vascular Headaches"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7026501/"
+          },
+          {
+            "pmid": "3937967",
+            "title": "[Pathomechanisms of pain attacks in Horton's headache (cluster headache)].",
+            "abstract": "In view of the still unexplained pathomechanism of Horton's cluster headaches 9 patients were given a challenge test with nitroglycerin while at the same time the attacks were blocked with indomethacin. The attacks were provoked with one dose (1 mg) of nitroglycerin. Then during 3 days the patients took 75-100 mg indomethacin which dose was quite sufficient for inhibition of the activity of arachidonic acid cyclooxygenase. On the fourth day another nitroglycerine provocation was done. No inhibitory effect of indomethacin on the attack was observed. It seems doubtful that products of arachidonic acid cyclooxygenation play any role in the pathomechanism of this headache.",
+            "journal": "Neurologia i neurochirurgia polska",
+            "year": "1985",
+            "authors": [
+              "Bogucki A",
+              "Kozubski W"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arachidonic Acid",
+              "Arachidonic Acids",
+              "Cluster Headache",
+              "Cyclooxygenase Inhibitors",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Indomethacin",
+              "Male",
+              "Prostaglandin-Endoperoxide Synthases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3937967/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9828768372535706,
+        "txgnn_rank": 15526,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03187678",
+            "title": "A Multicenter, Open-label, Single-sequence Cross-over Study to Assess Safety, Tolerability, and Pharmacokinetics of Intravenous Selexipag in Subjects With Stable Pulmonary Arterial Hypertension Switching From an Oral Stable Dose of Selexipag",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-12-04",
+            "completion_date": "2018-05-29",
+            "country": "Germany, United States",
+            "enrollment": 20,
+            "brief_summary": "The development of selexipag for intravenous administration will be useful to avoid treatment interruptions in patients with pulmonary arterial hypertension (PAH) already treated with selexipag administered orally as tablets (Uptravi®). The target population for intravenous selexipag includes those PAH patients who are hospitalized and are unable to swallow tablets of Uptravi.\n\nThe primary objective of this study is to assess whether it is safe for patients with PAH to temporarily change from se",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent form prior to any study-mandated procedure.\n* Male and female subjects aged from 18 to 75 years (inclusive),\n* Subjects with stable pulmonary arterial hypertension (PAH) defined as WHO Functional Class I-III at Visit 1 and Visit 2, and no change (i.e., ",
+            "endpoints": [
+              "Number of Participants With at Least One Adverse Event (AE)",
+              "Number of Participants With Prostacyclin-associated Adverse Events",
+              "Number of Participants With Adverse Event Related to Injection Site Reactions"
+            ],
+            "sponsor": "Actelion",
+            "url": "https://clinicaltrials.gov/study/NCT03187678"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00510172",
+            "title": "Migraine Inducing Effects and Changes in Brain Haemodynamics of PGI2",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2006-12",
+            "completion_date": "2007-09",
+            "country": "Denmark",
+            "enrollment": 12,
+            "brief_summary": "We hypothesised that intravenous infusion of PGI2 induced headache or migraine and cranial vasodilatation in migraineurs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* migraine without aura and healthy apart from that\n* age 18-55 years\n* 50-100 kg\n* Secure contraceptives\n\nExclusion Criteria:\n\n* Tension Type Headache more than 3 time a month\n* Other primary headaches\n* Medication prior to the study (closer than 4 times plasma halflife)\n* Migr",
+            "endpoints": [
+              "Headache and accompanying symptoms. Blood flow velocity in the middle cerebral artery, diameter changes in superficial temporal artery and radial artery."
+            ],
+            "sponsor": "Glostrup University Hospital, Copenhagen",
+            "url": "https://clinicaltrials.gov/study/NCT00510172"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04589390",
+            "title": "Selexipag for the Treatment of Schistosomiasis-Associated Pulmonary Arterial Hypertension",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-10-15",
+            "completion_date": "2022-03-31",
+            "country": "Brazil",
+            "enrollment": 20,
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is a severe, progressive and potentially fatal disease that impairs the pulmonary circulation and leads to right ventricular failure. One of the world most prevalent etiologies of PAH is schistosomiasis-associated pulmonary arterial hypertension (Sch-PAH). New drugs have emerged to treat other forms of PAH, but their benefits cannot be automatically translated for Sch-PAH patients, since this etiology was not included in the pivotal PAH trials. One of the mo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with symptomatic Sch-PAH. Sch-PAH diagnosis necessarily include the three criteria below\n\n  1. Invasive confirmation of PAH, according to the criteria defined in the Pulmonary Hypertension Sixth World Symposium: mean pulmonary artery pressure higher than 20 mmHg, at r",
+            "endpoints": [
+              "Pulmonary vascular resistance"
+            ],
+            "sponsor": "University of Sao Paulo General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04589390"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00291395",
+            "title": "PGI2 Induced Headache and Cerebral Haemodynamics in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2005-09",
+            "completion_date": "",
+            "country": "Denmark",
+            "enrollment": 12,
+            "brief_summary": "Before , during and after intravenous administration of PGI2 we score/measure headache, rCBF, blood flow in middle cerebral artery and diameter of superficial temporal artery/radial artery and correlate that to known patophysiology of headache to see if PGI2 is involved in headache pathophysiology.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy volunteers,\n\nExclusion Criteria:\n\n* Primary headache,\n* headache on the day of investigation,\n* Hypertension,\n* hypotension,\n* pregnant/nursing\n* Daily intake of medication (except oral contraceptives)\n* Cardiovascular or CNS disease\n* Drug/Alcohol abuse\n* Psychiatric ",
+            "endpoints": [
+              "Headache"
+            ],
+            "sponsor": "Danish Headache Center",
+            "url": "https://clinicaltrials.gov/study/NCT00291395"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "3895589",
+            "title": "Cerebral vasospasm following aneurysmal subarachnoid hemorrhage.",
+            "abstract": "Cerebral vasospasm following aneurysmal subarachnoid hemorrhage is one of the most important causes of cerebral ischemia, and is the leading cause of death and disability after aneurysm rupture. There are two definitions of cerebral vasospasm: angiographic and clinical. Care must be exercised to be certain that it is clear which entity is being addressed. The diagnosis of the clinical syndrome is one of exclusion and can rarely be made with absolute certainty. The pathogenesis of cerebral vasospasm is poorly understood. Most current theories focus on the release of factors from the subarachnoid clot. More attention must be given to the role of endothelial damage and alterations in the blood-arterial wall barrier. The application of modern techniques for studying vascular smooth muscle which have been developed as a result of research in the areas of hypertension and atherosclerosis must be applied to the problem of cerebral vasospasm. A stress test to select patients with angiographic ",
+            "journal": "Stroke",
+            "year": "1985",
+            "authors": [
+              "Kassell N F",
+              "Sasaki T",
+              "Colohan A R",
+              "Nazar G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Calcium Channel Blockers",
+              "Cerebral Angiography",
+              "Confusion",
+              "Consciousness Disorders",
+              "Epoprostenol",
+              "Headache",
+              "Humans",
+              "Hypertension",
+              "Intracranial Aneurysm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3895589/"
+          },
+          {
+            "pmid": "6344102",
+            "title": "Epoprostenol (prostacyclin,PGI2) increases apparent liver blood flow in man.",
+            "abstract": "When epoprostenol (prostacyclin, PGI2) is given by infusion to man, cardiac output is increased, and it appears that the gastrointestinal tract may receive a disproportionate share of this. We have used the clearance of indocyanine green dye to estimate liver blood flow in 8 healthy subjects. During an infusion of PGI2 at a dose of 5 ng/kg/min, apparent liver blood flow increased from 925 +/- 220 ml/min (Mean +/- s.d) to 1320 +/- 453 ml/min, an average increase of 41.1%. Significant changes in heart rate, headache, facial flushing, systolic blood pressure, and pulse pressure were noticed. We suggest that endogenous epoprostenol (PGI2) may be of importance in the physiological regulation of liver blood flow in man. As this dose of epoprostenol could be tolerated readily, epoprostenol therapy could prove a therapeutic advance in some liver disorders, particularly liver transplantation, and possibly in the therapy of certain drug overdoses.",
+            "journal": "Prostaglandins, leukotrienes, and medicine",
+            "year": "1983",
+            "authors": [
+              "Hassan S",
+              "Pickles H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blood Pressure",
+              "Blushing",
+              "Digestive System",
+              "Epoprostenol",
+              "Headache",
+              "Heart Rate",
+              "Humans",
+              "Liver",
+              "Liver Circulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6344102/"
+          },
+          {
+            "pmid": "7029794",
+            "title": "Clinical applications of prostaglandins and their inhibitors.",
+            "abstract": "",
+            "journal": "Stroke",
+            "year": "1981",
+            "authors": [
+              "Moskowitz M A",
+              "Coughlin S R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain",
+              "Cerebrovascular Circulation",
+              "Cerebrovascular Disorders",
+              "Ductus Arteriosus, Patent",
+              "Epoprostenol",
+              "Humans",
+              "Ischemic Attack, Transient",
+              "Migraine Disorders",
+              "Prostaglandin Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7029794/"
+          },
+          {
+            "pmid": "19614689",
+            "title": "Prostaglandin I2 (epoprostenol) triggers migraine-like attacks in migraineurs.",
+            "abstract": "Prostacyclin [prostaglandin I(2) (PGI(2))] activates and sensitizes meningeal sensory afferents. In healthy subjects PGI(2) triggers headache in healthy subjects. However, the migraine-eliciting effect of PGI(2) has not been systematically studied in patients with migraine. We hypothesized that intravenous infusion of the stable prostacyclin analogue epoprostenol would trigger migraine-like attacks in migraineurs. We infused 10 ng kg(-1) min(-1) PGI(2) or placebo over 25 min in 12 migraineurs without aura in a controlled, double-blind, cross-over study and recorded headache intensity and associated symptoms, velocity in the middle cerebral artery (V(MCA)) and diameter in the superficial temporal artery. In the period 0-14 h, 12 subjects reported headache on PGI(2) day compared with three subjects on placebo day (P = 0.004), and six subjects fulfilled the criteria for an experimentally induced migraine-like attack compared with two subjects on placebo (P = 0.219). During infusion and po",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2010",
+            "authors": [
+              "Wienecke T",
+              "Olesen J",
+              "Ashina M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Area Under Curve",
+              "Cerebrovascular Circulation",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Cerebral Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19614689/"
+          },
+          {
+            "pmid": "7019463",
+            "title": "Headache mechanisms.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1981",
+            "authors": [
+              "Page H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "News"
+            ],
+            "mesh_terms": [
+              "Aspirin",
+              "Epoprostenol",
+              "Humans",
+              "Indomethacin",
+              "Prostaglandins",
+              "Prostaglandins E",
+              "Vascular Headaches"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7019463/"
+          },
+          {
+            "pmid": "10938901",
+            "title": "Platelet arachidonate cascade of migraineurs in the interictal phase.",
+            "abstract": "Morphological and functional alterations of platelets in migraineurs may be linked to the development of migraine. We examined the eicosanoid synthesis of platelets of untreated female migraineurs in a headache-free period and compared it to that of age- and blood group-matched healthy female volunteers. In the platelets of headache-free migraineurs significantly less amounts of anti-aggregatory prostaglandin D2 and prostacyclin, as well as of 12-L-hydroxy-5,8,10-heptadecatrienoic acid (a potent endogenous inducer of endothelial prostacyclin production) were produced, while the synthesis of platelet aggregatory thromboxane did not differ when compared to that of healthy women. These results suggest that the platelet eicosanoids of migraineurs in the headache-free period might promote the development of cellular, vascular and neurological events inducing headache.",
+            "journal": "Platelets",
+            "year": "2000",
+            "authors": [
+              "Mezei Z",
+              "Kis B",
+              "Gecse A",
+              "Tajti J",
+              "Boda B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arachidonic Acid",
+              "Blood Platelets",
+              "Case-Control Studies",
+              "Eicosanoids",
+              "Epoprostenol",
+              "Fatty Acids, Unsaturated",
+              "Female",
+              "Humans",
+              "Lipoxygenase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10938901/"
+          },
+          {
+            "pmid": "6087306",
+            "title": "Beta-adrenoceptor and epoprostenol (prostacyclin) responsiveness of lymphocytes in migraine patients.",
+            "abstract": "Beta-adrenoceptor blocking drugs are of prophylactic value in some patients with migraine. Beta-adrenoceptor responsiveness as measured by lymphocyte cAMP responsiveness to isoprenaline has, therefore, been compared in ten untreated classical migraine patients and ten matched non-migraine control subjects. Lymphocyte responsiveness to epoprostenol (prostacyclin, PGI2) was also compared. No difference in response to either agent was found between the two groups. A generalized abnormality of beta-adrenoceptor function does not appear to be present in classical migraine, but a defect localized to specific vascular regions cannot be excluded.",
+            "journal": "Postgraduate medical journal",
+            "year": "1984",
+            "authors": [
+              "Kilfeather S A",
+              "Massarella A",
+              "Gorgolewska G",
+              "Ansell E",
+              "Turner P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cyclic AMP",
+              "Dose-Response Relationship, Drug",
+              "Epoprostenol",
+              "Humans",
+              "In Vitro Techniques",
+              "Isoproterenol",
+              "Lymphocytes",
+              "Migraine Disorders",
+              "Receptors, Adrenergic, beta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6087306/"
+          },
+          {
+            "pmid": "1744538",
+            "title": "Clinical study on antithrombotic effects of ticlopidine in ischemic stroke.",
+            "abstract": "The investigators conducted a clinical study on antithrombotic effectiveness in ischemic stroke at Siriraj Hospital Medical School, Mahidol University from May 1987 to May 1989. Twenty-nine patients, 16 males and 13 females were enrolled in the study. The ages of the patients ranged from 30-87 years with a mean age of 63 +/- 11 years. Ticlopidine (250 mg) could significantly inhibit platelet aggregation induced by ADP and collagen within 24 hours of drug administration. After 1 week to 6 months, only aggregation by ADP was still inhibited significantly without significant effects on fibrinolytic activity and prostacyclin. Hematocrit was significantly decreased at the 1st and 2nd month of treatment. Serious side effects were skin rash and severe headache while the other common ones were dizziness, and diarrhea but these effects disappeared without discontinuing the drug. Most patients who suffered from nausea, diarrhea and headache, had temporary elevated SGPT. It may be concluded that ",
+            "journal": "Journal of the Medical Association of Thailand = Chotmaihet thangphaet",
+            "year": "1991",
+            "authors": [
+              "Ketsa-Ard K",
+              "Poungvarin N",
+              "Juengchareon M",
+              "Jarerat S",
+              "Kittigul L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Blood Cell Count",
+              "Brain Ischemia",
+              "Cerebrovascular Disorders",
+              "Epoprostenol",
+              "Female",
+              "Fibrinolysis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1744538/"
+          },
+          {
+            "pmid": "8761844",
+            "title": "A dose-effect study of beraprost sodium in intermittent claudication.",
+            "abstract": "We compared the efficacy and safety of three doses of beraprost sodium, an epoprostenol analogue, with placebo in the treatment of intermittent claudication (Fontaine's stage II). One hundred sixty-four patients were randomized to receive either placebo, 20 micrograms beraprost sodium (BPS60 group), 40 micrograms beraprost sodium (BPS120 group), or 60 micrograms beraprost sodium (BPS180 group) three times daily administered orally in a double-blind manner for 12 weeks. Treadmill exercise tests were performed twice during an initial selection phase (D-28 and D0) at week 10 (at trough beraprost concentration) and week 12 (at peak beraprost concentration) of the treatment phase. At week 10, all groups showed an increase in pain-free walking distance, and this distance was greatest in the BPS60 and BPS120 groups (p = 0.055). At week 12, a similar pattern was observed, and the difference was significant between the groups (p = 0.023). The most frequent adverse events reported were gastroint",
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "1996",
+            "authors": [
+              "Lievre M",
+              "Azoulay S",
+              "Lion L",
+              "Morand S",
+              "Girre J P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Epoprostenol",
+              "Exercise Test",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Headache",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8761844/"
+          },
+          {
+            "pmid": "2935911",
+            "title": "[Prostaglandins in cerebrovascular pathology].",
+            "abstract": "",
+            "journal": "Revista de medicina interna, neurologie, psihiatrie, neurochirurgie, dermato-venerologie. Neurologie, psihiatrie, neurochirurgie",
+            "year": "1985",
+            "authors": [
+              "Pascu I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Arteriosclerosis",
+              "Brain Ischemia",
+              "Cardiovascular Physiological Phenomena",
+              "Cerebrovascular Disorders",
+              "Constriction, Pathologic",
+              "Epoprostenol",
+              "Humans",
+              "Migraine Disorders",
+              "Prostaglandin Antagonists",
+              "Prostaglandins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2935911/"
+          },
+          {
+            "pmid": "7026501",
+            "title": "The effect of infused prostacyclin in migraine and cluster headache.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "1981",
+            "authors": [
+              "Peatfield R C",
+              "Gawel M J",
+              "Rose F C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cluster Headache",
+              "Epoprostenol",
+              "Humans",
+              "Infusions, Parenteral",
+              "Male",
+              "Middle Aged",
+              "Migraine Disorders",
+              "Prostaglandins",
+              "Vascular Headaches"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7026501/"
+          },
+          {
+            "pmid": "3159222",
+            "title": "Prostaglandins in therapy of cardiovascular disease.",
+            "abstract": "",
+            "journal": "Advances in prostaglandin, thromboxane, and leukotriene research",
+            "year": "1985",
+            "authors": [
+              "Szczeklik A",
+              "Gryglewski R J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alprostadil",
+              "Angina Pectoris",
+              "Arteriosclerosis Obliterans",
+              "Blood Pressure",
+              "Cardiovascular Diseases",
+              "Cerebrovascular Disorders",
+              "Clinical Trials as Topic",
+              "Epoprostenol",
+              "Extracorporeal Circulation",
+              "Fibrinolysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3159222/"
+          },
+          {
+            "pmid": "11863312",
+            "title": "Effects of beraprost sodium (Dorner) in patients with diabetes mellitus complicated by chronic arterial obstruction.",
+            "abstract": "The effects of the prostaglandin I2 derivative beraprost sodium (Dorner) on ankle pressure index (AP; ankle joint-to-upper extremity systolic pressure ratio), subjective symptoms, and intermittent claudication were investigated in diabetic patients with arteriosclerosis obliterans (ASO). Forty patients (25 men and 15 women), mean age 63.9 years, were enrolled in this study. ASO was grade I in 30 patients, grade II in seven, grade III in one, and grade IV in two according to the Fontaine classification. They were administered six tablets (20 microg/tablet) of beraprost sodium daily for 6 months. At 3 and 6 months, API had significantly increased and symptoms such as coldness, numbness, and lack of feeling in the lower extremities were significantly improved. Ten evaluable patients increased ambulatory distance by approximately threefold, suggesting an improvement in intermittent claudication. Adverse reactions were experienced by five (12.5%) of the 40 patients (one case each of headach",
+            "journal": "Angiology",
+            "year": "2002",
+            "authors": [
+              "Toyota Takayoshi",
+              "Oikawa Shinichi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Ankle",
+              "Arteriosclerosis Obliterans",
+              "Blood Pressure",
+              "Chronic Disease",
+              "Diabetes Complications",
+              "Diabetes Mellitus",
+              "Epoprostenol",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11863312/"
+          },
+          {
+            "pmid": "20647181",
+            "title": "Segmental cerebral vasoconstriction: successful treatment of secondary cerebral ischaemia with intravenous prostacyclin.",
+            "abstract": "We describe a 23-year-old male patient who presented with spontaneous intermittent and increasing attacks of severe, left-sided thunderclap headache combined with rapidly progressive muscle weakness and dysphasia, including gradual loss of consciousness. Subsequent CT, MRI and DSA showed progressive brain ischaemia and oedema within the left cerebral hemisphere with strict ipsilateral segmental arterial vasoconstriction. Despite extensive medical care, including steroids, the patient deteriorated rapidly. However, the clinical course changed dramatically within 15 h after the start of an intravenous infusion of prostacyclin at a dose of 0.9 ng/kg/min, with an almost complete recovery of consciousness and speech. In addition the pathophysiological alterations seen on magnetic resonance (imaging and digital) subtraction angiography including diffusion-weighted imaging and apparent diffusion coefficient maps shortly before prostacyclin treatment were clearly reduced when the patient was e",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2010",
+            "authors": [
+              "Grände Per-Olof",
+              "Lundgren Anders",
+              "Bjartmarz Hjalmar",
+              "Cronqvist Mats"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Accidental Falls",
+              "Adult",
+              "Angiography, Digital Subtraction",
+              "Antihypertensive Agents",
+              "Aphasia",
+              "Brain",
+              "Brain Ischemia",
+              "Cerebrovascular Circulation",
+              "Diffusion Magnetic Resonance Imaging",
+              "Epoprostenol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20647181/"
+          },
+          {
+            "pmid": "3903957",
+            "title": "Side effects of prostacyclin in patients with angina pectoris and coronary artery disease.",
+            "abstract": "Although the exposure of human subjects to prostacyclin (PGI2) infusion has been broad, no systematic approaches have been made in order to investigate the dose-related side effects in patients with angina pectoris and coronary artery disease (CAD). We studied 25 patients with typical chest pain and overt CAD. All patients underwent a cycloergometer stress testing (25 W increments at 2-min intervals). PGI2 was infused in scalar doses up to 10 ng/kg/min. During the infusion 25 patients (100%) had facial flushing, 7 (28%) moderate headache and one (4%) had nausea. In addition, 4 patients experienced the typical chest pain and had significant (greater than or equal to 0.1 mV) ST segment depression at 8.10 ng/kg/min infusion rates. These patients had lower tolerance to exercise (6.7 +/- 1.7 vs. 8.8 +/- 1.9 min; p less than 0.05) and coronary artery lesions more severe than those observed in patients without drug-induced angina pectoris. Our data therefore indicate that PGI2 at therapeutic ",
+            "journal": "La Ricerca in clinica e in laboratorio",
+            "year": "1985",
+            "authors": [
+              "Galvani M",
+              "Bugiardini R",
+              "Ferrini D",
+              "Gridelli C",
+              "Mari L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angina Pectoris",
+              "Coronary Disease",
+              "Epoprostenol",
+              "Exercise Test",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3903957/"
+          },
+          {
+            "pmid": "3332539",
+            "title": "Menstrual migraine: a possible pathogenic implication of platelet function.",
+            "abstract": "It has been suggested that migraine is a blood disorder caused by a primary abnormality of platelet behaviour. We have studied in different phases of the cycle of 11 healthy normal women and 13 patients suffering from menstrual migraine: 1. The platelet aggregation induced in vitro by ADP, collagen and ristocetin; 2. The platelet sensitivity to prostacyclin (PSP); 3. The platelet content of 5-hydroxytryptimine (5-HT); 4. The possible correlation between these parameters and the plasma concentration of progesterone. The results demonstrate that in patients with menstrual migraine the platelet response to various aggregating agents is not modified compared to the controls, whereas there is a different response of the PSP to the modulating effect of plasma progesterone. Moreover, in the same patients the platelets have an increased capability of accumulating 5-HT during the perimenstrual phase of the cycle. This suggests that platelet dysfunction may play a role in the pathogenesis of men",
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "1987",
+            "authors": [
+              "Benedetto C",
+              "Massobrio M",
+              "Zonca M",
+              "Melzi E",
+              "Nattero G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adult",
+              "Blood Platelets",
+              "Collagen",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Menstrual Cycle",
+              "Migraine Disorders",
+              "Platelet Aggregation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3332539/"
+          },
+          {
+            "pmid": "3539360",
+            "title": "Prostaglandins: their release, biological effects and relationships to pain and inflammation.",
+            "abstract": "",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1986",
+            "authors": [
+              "Bennett A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Capillary Permeability",
+              "Dinoprostone",
+              "Epoprostenol",
+              "Humans",
+              "Inflammation",
+              "Migraine Disorders",
+              "Pain",
+              "Prostaglandins",
+              "Prostaglandins E",
+              "Thromboxane A2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3539360/"
+          },
+          {
+            "pmid": "3286580",
+            "title": "Menstrual migraine: new biochemical and psychological aspects.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "1988",
+            "authors": [
+              "Nattero G",
+              "Allais G",
+              "De Lorenzo C",
+              "Torre E",
+              "Ancona M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blood Platelets",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Menstrual Cycle",
+              "Menstruation Disturbances",
+              "Migraine Disorders",
+              "Serotonin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3286580/"
+          },
+          {
+            "pmid": "3937967",
+            "title": "[Pathomechanisms of pain attacks in Horton's headache (cluster headache)].",
+            "abstract": "In view of the still unexplained pathomechanism of Horton's cluster headaches 9 patients were given a challenge test with nitroglycerin while at the same time the attacks were blocked with indomethacin. The attacks were provoked with one dose (1 mg) of nitroglycerin. Then during 3 days the patients took 75-100 mg indomethacin which dose was quite sufficient for inhibition of the activity of arachidonic acid cyclooxygenase. On the fourth day another nitroglycerine provocation was done. No inhibitory effect of indomethacin on the attack was observed. It seems doubtful that products of arachidonic acid cyclooxygenation play any role in the pathomechanism of this headache.",
+            "journal": "Neurologia i neurochirurgia polska",
+            "year": "1985",
+            "authors": [
+              "Bogucki A",
+              "Kozubski W"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arachidonic Acid",
+              "Arachidonic Acids",
+              "Cluster Headache",
+              "Cyclooxygenase Inhibitors",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Indomethacin",
+              "Male",
+              "Prostaglandin-Endoperoxide Synthases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3937967/"
+          },
+          {
+            "pmid": "3152004",
+            "title": "MAO activity, serotonin metabolism and aggregation of platelets from migraine patients. A preliminary study.",
+            "abstract": "Platelets of migraine patients showed abnormal behavior such as hyperaggregability and reduced monoamine oxidase activity (MAO). We measured the MAO activity, serotonin (5-HT) content and release, adenosine diphosphate (ADP)-induced aggregation, and the prostacyclin (PGI2) antiaggregatory effect using the same sample of platelets from migraine patients to find out if these characteristics are intercorrelated. A significant correlation between MAO activity and sensitivity to PGI2 was found.",
+            "journal": "Polish journal of pharmacology and pharmacy",
+            "year": "1988",
+            "authors": [
+              "Kovács K",
+              "Tóthfalusi L",
+              "Hermán F",
+              "Magyar K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adult",
+              "Blood Platelets",
+              "Chlorpromazine",
+              "Epoprostenol",
+              "Humans",
+              "Male",
+              "Migraine Disorders",
+              "Monoamine Oxidase",
+              "Platelet Aggregation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3152004/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.8754608631134033,
+        "txgnn_rank": 37162,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19614689",
+            "title": "Prostaglandin I2 (epoprostenol) triggers migraine-like attacks in migraineurs.",
+            "abstract": "Prostacyclin [prostaglandin I(2) (PGI(2))] activates and sensitizes meningeal sensory afferents. In healthy subjects PGI(2) triggers headache in healthy subjects. However, the migraine-eliciting effect of PGI(2) has not been systematically studied in patients with migraine. We hypothesized that intravenous infusion of the stable prostacyclin analogue epoprostenol would trigger migraine-like attacks in migraineurs. We infused 10 ng kg(-1) min(-1) PGI(2) or placebo over 25 min in 12 migraineurs without aura in a controlled, double-blind, cross-over study and recorded headache intensity and associated symptoms, velocity in the middle cerebral artery (V(MCA)) and diameter in the superficial temporal artery. In the period 0-14 h, 12 subjects reported headache on PGI(2) day compared with three subjects on placebo day (P = 0.004), and six subjects fulfilled the criteria for an experimentally induced migraine-like attack compared with two subjects on placebo (P = 0.219). During infusion and po",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2010",
+            "authors": [
+              "Wienecke T",
+              "Olesen J",
+              "Ashina M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Area Under Curve",
+              "Cerebrovascular Circulation",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Cerebral Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19614689/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.8729016780853271,
+        "txgnn_rank": 37365,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.8545325994491577,
+        "txgnn_rank": 38862,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.8299041390419006,
+        "txgnn_rank": 40367,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.8291929364204407,
+        "txgnn_rank": 40403,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35259564",
+            "title": "Contribution of cyclooxygenase-1-dependent prostacyclin synthesis to bradykinin-induced dermal extravasation.",
+            "abstract": "Non-allergic angioedema is a potentially life-threatening condition caused by accumulation of bradykinin and subsequent activation of bradykinin type 2 receptors (B2). Since COX activity plays a pivotal role in B2 signaling, the aim of this study was to determine which prostaglandins are the key mediators and which COX, COX-1 or COX-2, is predominantly involved.",
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2022",
+            "authors": [
+              "Krybus Michael",
+              "Sieradzki Marc",
+              "Fahimi Ehsan",
+              "Metry Sara",
+              "Nüsing Rolf"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angioedema",
+              "Animals",
+              "Arachidonate 5-Lipoxygenase",
+              "Arachidonic Acid",
+              "Bradykinin",
+              "Cyclooxygenase 1",
+              "Diclofenac",
+              "Endothelial Cells",
+              "Epoprostenol",
+              "Group IV Phospholipases A2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35259564/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.8222343921661377,
+        "txgnn_rank": 40773,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00510172",
+            "title": "Migraine Inducing Effects and Changes in Brain Haemodynamics of PGI2",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2006-12",
+            "completion_date": "2007-09",
+            "country": "Denmark",
+            "enrollment": 12,
+            "brief_summary": "We hypothesised that intravenous infusion of PGI2 induced headache or migraine and cranial vasodilatation in migraineurs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* migraine without aura and healthy apart from that\n* age 18-55 years\n* 50-100 kg\n* Secure contraceptives\n\nExclusion Criteria:\n\n* Tension Type Headache more than 3 time a month\n* Other primary headaches\n* Medication prior to the study (closer than 4 times plasma halflife)\n* Migr",
+            "endpoints": [
+              "Headache and accompanying symptoms. Blood flow velocity in the middle cerebral artery, diameter changes in superficial temporal artery and radial artery."
+            ],
+            "sponsor": "Glostrup University Hospital, Copenhagen",
+            "url": "https://clinicaltrials.gov/study/NCT00510172"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02006576",
+            "title": "Proof-of-concept Study to Demonstrate Inhibition of Prostaglandin E (PGE) Production and Associated Biological Effects in the Lower Respiratory Tract by Ibuprofen.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-01-01",
+            "completion_date": "2018-03-31",
+            "country": "United States",
+            "enrollment": 118,
+            "brief_summary": "The Prostaglandin Inhibition for Emphysema (PIE) study will determine if a currently available therapy, ibuprofen 600 mg three times daily, can block PGE production in the lower respiratory tract and if this results in improvement in measures of lung repair function.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 45 years\n* Emphysema (\\>5% of voxels \\<950 Hounsfield Units determined on the CT scan performed as part of the COPDGene study as quantified at the COPDGene radiology center). An equivalent scan as determined by the radiology center is also acceptable.\n* Post-bronchodila",
+            "endpoints": [
+              "Will Ibuprofen, 600 mg Three Times Daily, Decrease PGE Concentration in the Alveolar Portion of BAL Fluid in Subjects With Emphysema in Comparison to Placebo?"
+            ],
+            "sponsor": "University of Nebraska",
+            "url": "https://clinicaltrials.gov/study/NCT02006576"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01329562",
+            "title": "Evaluation of CGRP, Estrogen, Cortisol, VIP, α-Amylase, PGE2, PGI2 and ß-Endorphin Levels in Saliva of Menstrual Migraine Patients Before and After Treatment With Treximet™",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-05",
+            "completion_date": "2012-06",
+            "country": "United States",
+            "enrollment": 41,
+            "brief_summary": "The purpose of this study is to (1) evaluate pain-free efficacy of Treximet™ following treatment of menstrual migraine, (2) investigate levels of Calcitonin gene-related peptide (CGRP), estrogen, cortisol, vasoactive intestinal peptide (VIP), alpha (a)-amylase, Prostaglandin E2 (PGE2), Prostaglandin I2 (PGI2) and beta (ß)-endorphin in saliva before and after Treximet™, (3) evaluate efficacy of Treximet™ to return to baseline levels following treatment, and (4) correlate estrogen in saliva vs. ur",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubject\n\n1. is female between the ages of 18-45 and, if of child-bearing potential, has a negative pregnancy test (urine or serum) at screen, and agrees to one of the following:\n\n   * Complete abstinence from intercourse from 2 weeks prior to administration of the investigationa",
+            "endpoints": [
+              "Migraine Recurrence",
+              "Time to Pain Free",
+              "Biomarkers Measured at Baseline, Menstrual Migraine Headache Onset, and 2 Hours Post Treatment"
+            ],
+            "sponsor": "Cady, Roger, M.D.",
+            "url": "https://clinicaltrials.gov/study/NCT01329562"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00291395",
+            "title": "PGI2 Induced Headache and Cerebral Haemodynamics in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2005-09",
+            "completion_date": "",
+            "country": "Denmark",
+            "enrollment": 12,
+            "brief_summary": "Before , during and after intravenous administration of PGI2 we score/measure headache, rCBF, blood flow in middle cerebral artery and diameter of superficial temporal artery/radial artery and correlate that to known patophysiology of headache to see if PGI2 is involved in headache pathophysiology.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy volunteers,\n\nExclusion Criteria:\n\n* Primary headache,\n* headache on the day of investigation,\n* Hypertension,\n* hypotension,\n* pregnant/nursing\n* Daily intake of medication (except oral contraceptives)\n* Cardiovascular or CNS disease\n* Drug/Alcohol abuse\n* Psychiatric ",
+            "endpoints": [
+              "Headache"
+            ],
+            "sponsor": "Danish Headache Center",
+            "url": "https://clinicaltrials.gov/study/NCT00291395"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "6087306",
+            "title": "Beta-adrenoceptor and epoprostenol (prostacyclin) responsiveness of lymphocytes in migraine patients.",
+            "abstract": "Beta-adrenoceptor blocking drugs are of prophylactic value in some patients with migraine. Beta-adrenoceptor responsiveness as measured by lymphocyte cAMP responsiveness to isoprenaline has, therefore, been compared in ten untreated classical migraine patients and ten matched non-migraine control subjects. Lymphocyte responsiveness to epoprostenol (prostacyclin, PGI2) was also compared. No difference in response to either agent was found between the two groups. A generalized abnormality of beta-adrenoceptor function does not appear to be present in classical migraine, but a defect localized to specific vascular regions cannot be excluded.",
+            "journal": "Postgraduate medical journal",
+            "year": "1984",
+            "authors": [
+              "Kilfeather S A",
+              "Massarella A",
+              "Gorgolewska G",
+              "Ansell E",
+              "Turner P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cyclic AMP",
+              "Dose-Response Relationship, Drug",
+              "Epoprostenol",
+              "Humans",
+              "In Vitro Techniques",
+              "Isoproterenol",
+              "Lymphocytes",
+              "Migraine Disorders",
+              "Receptors, Adrenergic, beta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6087306/"
+          },
+          {
+            "pmid": "19614689",
+            "title": "Prostaglandin I2 (epoprostenol) triggers migraine-like attacks in migraineurs.",
+            "abstract": "Prostacyclin [prostaglandin I(2) (PGI(2))] activates and sensitizes meningeal sensory afferents. In healthy subjects PGI(2) triggers headache in healthy subjects. However, the migraine-eliciting effect of PGI(2) has not been systematically studied in patients with migraine. We hypothesized that intravenous infusion of the stable prostacyclin analogue epoprostenol would trigger migraine-like attacks in migraineurs. We infused 10 ng kg(-1) min(-1) PGI(2) or placebo over 25 min in 12 migraineurs without aura in a controlled, double-blind, cross-over study and recorded headache intensity and associated symptoms, velocity in the middle cerebral artery (V(MCA)) and diameter in the superficial temporal artery. In the period 0-14 h, 12 subjects reported headache on PGI(2) day compared with three subjects on placebo day (P = 0.004), and six subjects fulfilled the criteria for an experimentally induced migraine-like attack compared with two subjects on placebo (P = 0.219). During infusion and po",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2010",
+            "authors": [
+              "Wienecke T",
+              "Olesen J",
+              "Ashina M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Area Under Curve",
+              "Cerebrovascular Circulation",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Cerebral Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19614689/"
+          },
+          {
+            "pmid": "7029794",
+            "title": "Clinical applications of prostaglandins and their inhibitors.",
+            "abstract": "",
+            "journal": "Stroke",
+            "year": "1981",
+            "authors": [
+              "Moskowitz M A",
+              "Coughlin S R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Brain",
+              "Cerebrovascular Circulation",
+              "Cerebrovascular Disorders",
+              "Ductus Arteriosus, Patent",
+              "Epoprostenol",
+              "Humans",
+              "Ischemic Attack, Transient",
+              "Migraine Disorders",
+              "Prostaglandin Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7029794/"
+          },
+          {
+            "pmid": "3286580",
+            "title": "Menstrual migraine: new biochemical and psychological aspects.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "1988",
+            "authors": [
+              "Nattero G",
+              "Allais G",
+              "De Lorenzo C",
+              "Torre E",
+              "Ancona M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blood Platelets",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Menstrual Cycle",
+              "Menstruation Disturbances",
+              "Migraine Disorders",
+              "Serotonin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3286580/"
+          },
+          {
+            "pmid": "10938901",
+            "title": "Platelet arachidonate cascade of migraineurs in the interictal phase.",
+            "abstract": "Morphological and functional alterations of platelets in migraineurs may be linked to the development of migraine. We examined the eicosanoid synthesis of platelets of untreated female migraineurs in a headache-free period and compared it to that of age- and blood group-matched healthy female volunteers. In the platelets of headache-free migraineurs significantly less amounts of anti-aggregatory prostaglandin D2 and prostacyclin, as well as of 12-L-hydroxy-5,8,10-heptadecatrienoic acid (a potent endogenous inducer of endothelial prostacyclin production) were produced, while the synthesis of platelet aggregatory thromboxane did not differ when compared to that of healthy women. These results suggest that the platelet eicosanoids of migraineurs in the headache-free period might promote the development of cellular, vascular and neurological events inducing headache.",
+            "journal": "Platelets",
+            "year": "2000",
+            "authors": [
+              "Mezei Z",
+              "Kis B",
+              "Gecse A",
+              "Tajti J",
+              "Boda B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arachidonic Acid",
+              "Blood Platelets",
+              "Case-Control Studies",
+              "Eicosanoids",
+              "Epoprostenol",
+              "Fatty Acids, Unsaturated",
+              "Female",
+              "Humans",
+              "Lipoxygenase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10938901/"
+          },
+          {
+            "pmid": "3332539",
+            "title": "Menstrual migraine: a possible pathogenic implication of platelet function.",
+            "abstract": "It has been suggested that migraine is a blood disorder caused by a primary abnormality of platelet behaviour. We have studied in different phases of the cycle of 11 healthy normal women and 13 patients suffering from menstrual migraine: 1. The platelet aggregation induced in vitro by ADP, collagen and ristocetin; 2. The platelet sensitivity to prostacyclin (PSP); 3. The platelet content of 5-hydroxytryptimine (5-HT); 4. The possible correlation between these parameters and the plasma concentration of progesterone. The results demonstrate that in patients with menstrual migraine the platelet response to various aggregating agents is not modified compared to the controls, whereas there is a different response of the PSP to the modulating effect of plasma progesterone. Moreover, in the same patients the platelets have an increased capability of accumulating 5-HT during the perimenstrual phase of the cycle. This suggests that platelet dysfunction may play a role in the pathogenesis of men",
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "1987",
+            "authors": [
+              "Benedetto C",
+              "Massobrio M",
+              "Zonca M",
+              "Melzi E",
+              "Nattero G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adult",
+              "Blood Platelets",
+              "Collagen",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Menstrual Cycle",
+              "Migraine Disorders",
+              "Platelet Aggregation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3332539/"
+          },
+          {
+            "pmid": "3152004",
+            "title": "MAO activity, serotonin metabolism and aggregation of platelets from migraine patients. A preliminary study.",
+            "abstract": "Platelets of migraine patients showed abnormal behavior such as hyperaggregability and reduced monoamine oxidase activity (MAO). We measured the MAO activity, serotonin (5-HT) content and release, adenosine diphosphate (ADP)-induced aggregation, and the prostacyclin (PGI2) antiaggregatory effect using the same sample of platelets from migraine patients to find out if these characteristics are intercorrelated. A significant correlation between MAO activity and sensitivity to PGI2 was found.",
+            "journal": "Polish journal of pharmacology and pharmacy",
+            "year": "1988",
+            "authors": [
+              "Kovács K",
+              "Tóthfalusi L",
+              "Hermán F",
+              "Magyar K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenosine Diphosphate",
+              "Adult",
+              "Blood Platelets",
+              "Chlorpromazine",
+              "Epoprostenol",
+              "Humans",
+              "Male",
+              "Migraine Disorders",
+              "Monoamine Oxidase",
+              "Platelet Aggregation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3152004/"
+          },
+          {
+            "pmid": "2935911",
+            "title": "[Prostaglandins in cerebrovascular pathology].",
+            "abstract": "",
+            "journal": "Revista de medicina interna, neurologie, psihiatrie, neurochirurgie, dermato-venerologie. Neurologie, psihiatrie, neurochirurgie",
+            "year": "1985",
+            "authors": [
+              "Pascu I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Arteriosclerosis",
+              "Brain Ischemia",
+              "Cardiovascular Physiological Phenomena",
+              "Cerebrovascular Disorders",
+              "Constriction, Pathologic",
+              "Epoprostenol",
+              "Humans",
+              "Migraine Disorders",
+              "Prostaglandin Antagonists",
+              "Prostaglandins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2935911/"
+          },
+          {
+            "pmid": "7026501",
+            "title": "The effect of infused prostacyclin in migraine and cluster headache.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "1981",
+            "authors": [
+              "Peatfield R C",
+              "Gawel M J",
+              "Rose F C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cluster Headache",
+              "Epoprostenol",
+              "Humans",
+              "Infusions, Parenteral",
+              "Male",
+              "Middle Aged",
+              "Migraine Disorders",
+              "Prostaglandins",
+              "Vascular Headaches"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7026501/"
+          },
+          {
+            "pmid": "3539360",
+            "title": "Prostaglandins: their release, biological effects and relationships to pain and inflammation.",
+            "abstract": "",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1986",
+            "authors": [
+              "Bennett A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Capillary Permeability",
+              "Dinoprostone",
+              "Epoprostenol",
+              "Humans",
+              "Inflammation",
+              "Migraine Disorders",
+              "Pain",
+              "Prostaglandins",
+              "Prostaglandins E",
+              "Thromboxane A2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3539360/"
+          },
+          {
+            "pmid": "3299149",
+            "title": "[Role of blood platelet aggregation in menstrual migraine].",
+            "abstract": "",
+            "journal": "Minerva medica",
+            "year": "1987",
+            "authors": [
+              "Massobrio M",
+              "Zonca M",
+              "Benedetto C",
+              "Nattero G",
+              "Allais G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "6-Ketoprostaglandin F1 alpha",
+              "Blood Platelets",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Menstrual Cycle",
+              "Migraine Disorders",
+              "Platelet Aggregation",
+              "Serotonin",
+              "Thromboxane B2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3299149/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "respiratory failure",
+        "txgnn_score": 0.777435302734375,
+        "txgnn_rank": 42797,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01717209",
+            "title": "Combined Inhaled Nitric Oxide and Inhaled Prostacyclin After Cardiac Surgery for Heart Transplantation and for Left Ventricular Assist Device Placement",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-10",
+            "completion_date": "2013-10",
+            "country": "United States",
+            "enrollment": 14,
+            "brief_summary": "Research study evaluating the individual and combined effects of inhaled nitric oxide (iNO) and inhaled prostacyclin (iPGI2), on the function of the right heart after surgery for either heart transplant or for left ventricular assist device (LVAD) placement. The investigators hope to learn if these two medications, when given together after surgery, improve right heart function by lowering blood vessel pressures in the lungs. The investigators hope to learn if the combined effects of these two m",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult cardiac surgical patients scheduled to undergo either heart transplantation or LVAD placement\n\nExclusion Criteria:\n\n* Patients with prior documented allergic reactions or intolerance to either nitric oxide or prostacyclin will be excluded. Patients not undergoing heart t",
+            "endpoints": [
+              "Pulmonary Hypertension"
+            ],
+            "sponsor": "Stanford University",
+            "url": "https://clinicaltrials.gov/study/NCT01717209"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04452669",
+            "title": "Double-blind, Placebo Controlled Study to Assess the Efficacy and Safety of VentaProst (Inhaled Epoprostenol Delivered Via Dedicated Delivery System) in Subjects With COVID-19 Requiring Mechanical Ventilation",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-09-15",
+            "completion_date": "2021-06-29",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "The purpose of this study is to investigate whether inhaled epoprostenol given via a breath actuated delivery system will help improve oxygen levels and treatment outcomes in patients with COVID-19 who are on mechanical ventilation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed COVID-19 positive by RT-PCR test\n* Patients who require invasive mechanical ventilation.\n* Consent or professional consent obtained\n\nExclusion Criteria:\n\n* Patients on ECMO support.\n* Patients receiving another inhalation research medication or inhaled nitric oxide.\n",
+            "endpoints": [
+              "Change in Respiratory Failure",
+              "Change in Cardiac/Circulatory Failure"
+            ],
+            "sponsor": "Aerogen Pharma Limited",
+            "url": "https://clinicaltrials.gov/study/NCT04452669"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02170519",
+            "title": "Inhaled Aerosolized Prostacyclin for Pulmonary Hypertension Requiring Inhaled Nitric Oxide",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2006-09",
+            "completion_date": "2009-01",
+            "country": "N/A",
+            "enrollment": 27,
+            "brief_summary": "Acute secondary pulmonary hypertension (PH) often leads to dysfunction of the right ventricle (RV) and can be a significant cause of patient morbidity and mortality. Selective pulmonary vasodilation with inhaled nitric oxide (INO) has become the treatment of choice for this condition. The evidence supporting INO safety and efficacy under these circumstances is sparse, however, and is largely extrapolated from the use of INO in neonatal pulmonary hypertension. Moreover, the high cost and potentia",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Clinical evidence of pulmonary hypertension (PH) requiring INO therapy as prescribed by the attending physician.\n2. Indwelling arterial catheter.\n3. Signed informed consent\n\nExclusion Criteria:\n\n1. Clinically unstable circulatory condition requiring epinephrine \\> 0.1 mcg/kg/",
+            "endpoints": [
+              "Percent Change in Oxygen Saturation (SpO2) From Baseline",
+              "Percent Change in Oxygen Saturation (SpO2) From Baseline",
+              "Change in Mean Heart Rate From Baseline"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT02170519"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02436512",
+            "title": "A Phase 3 Open-label Multi-Center, Two-Part Single-arm Study to Evaluate the Acute Vasodilation Response of Inhaled Nitric Oxide as a Predictor of Successful Wean From Parental Prostacyclins in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2015-06",
+            "completion_date": "2015-08",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The EAGLE study is a Phase 3, open-label, multi-center, two-part, single-arm study of GeNOsyl(R) delivery system(s) to evaluate if inhaled nitric oxide-induced vasodilation predicts successful wean from parenteral prostacyclin (PGI) in subjects with World Health Organization (WHO) Group 1 pulmonary arterial hypertension (PAH) undergoing a medically necessary right heart catheterization (RHC). All subjects enrolled in the study will undergo an attempt to wean from parenteral PGI per standard of c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The subject or subject's legally authorized representative signs and dates an Institutional Review Board (IRB) approved informed consent form prior to the initiation of any study-related activities.\n* The subject has been diagnosed with PAH (WHO Group 1) and is WHO Functional ",
+            "endpoints": [
+              "Wean Success vs Wean Failure"
+            ],
+            "sponsor": "Geno LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02436512"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05565911",
+            "title": "The Relationship of Postoperative Morbidity / Mortality Rates of Patients With Pulmonary Hypertension With Risk Factors",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2021-10-01",
+            "completion_date": "2023-10-01",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 150,
+            "brief_summary": "Pulmonary hypertension (PHT) is an oPAP ≥25 mmHg as assessed by right heart catheterization at rest. It is divided into 5 groups according to its etiology and mechanism. The first group is patients with pulmonary arterial hypertension due to various reasons (drugs, connective tissue diseases, etc.). Group 2 is classified as left heart failure, group 3 is due to chronic lung disease and hypoxemia, group 4 is due to pulmonary arterial obstruction (most commonly CTEPH), and group 5 is patients with",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • Dinlenme halinde sağ kalp kateterizasyonu ile oPAB\\> 25mmHg olan hastalar,\n\n  * Non-obstetrik ve non-kardiyak cerrahi geçirecek hastalar\n\nExclusion Criteria:\n\n* • Dinlenme halinde sağ kalp kateterizasyonu ile oPAB\\< 25mmHg olan hastalar,\n\n  * Obstetrik veya kardiyak cerrahi ",
+            "endpoints": [
+              "Comparison of postoperative morbidity/mortality"
+            ],
+            "sponsor": "Baskent University",
+            "url": "https://clinicaltrials.gov/study/NCT05565911"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02220335",
+            "title": "Pulmonary Arterial Denervation in Patients With Pulmonary Hypertension Associated With the Left Heart Failure: a Randomised Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2014-08-08",
+            "completion_date": "2018-12-30",
+            "country": "China",
+            "enrollment": 98,
+            "brief_summary": "A number of 100 patients with pulmonary hypertension associated with the left Heart failure scheduled for elective pulmonary arterial denervation (PADN) are randomized 1:1 to either PADN or control group.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age\\>18yr\n* \"Reactive\"Pulmonary Hypertension in Left Heart Failure: mPAP≥25 mmHg, PCWP\\>15 mmHg and pulmonary vascular resistance (PVR) \\[The PVR =(mPAP-PCWP)/ carbon monoxide\\]\\>3.0 woods unit\n* Voluntary acceptance of all follow-up assessment of program requirements.\n\nExclus",
+            "endpoints": [
+              "6-min-walk distance increase"
+            ],
+            "sponsor": "Nanjing First Hospital, Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT02220335"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01105091",
+            "title": "A Phase IV, Open-label, Randomized, Multicenter Study of the Safety, Tolerability,and Pharmacokinetics of ACT- 385781A Compared to Flolan® in Injectable Prostanoid Treatment-naïve Patients With Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2010-03",
+            "completion_date": "2011-07",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "This is a prospective, multi-center, open-label, randomized, Phase IV exploratory study comparing safety, tolerability, pharmacokinetics, and effectiveness of ACT-385781A and Flolan (epoprostenol sodium) in patients with pulmonary arterial hypertension who are naïve to injectable prostanoid treatment and in need of such treatment. Approximately 30 patients from 8 U.S. clinical sites will be randomized to receive either ACT-385781A or Flolan (2:1 respectively) for 28 days of treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female subjects aged 18-65 years\n2. Patients with the following types of pulmonary arterial hypertension (PAH) belonging to WHO Group I:\n\n   * Idiopathic (IPAH)\n   * Heritable (HPAH)\n   * Associated (APAH) with\n\n     * Connective tissue diseases\n     * Drugs and toxin",
+            "endpoints": [
+              "Dose Normalized Pharmacokinetics of 6,15-diketo-13,14-dihydro-Prostacyclin F1alpha at 2 ng/kg/Min",
+              "Dose Normalized Pharmacokinetics of 6,15-diketo-13,14-dihydro-Prostacyclin F1alpha at 4 ng/kg/Min",
+              "Dose Normalized Pharmacokinetics of 6-keto-Prostacyclin F1alpha at 2 ng/kg/Min"
+            ],
+            "sponsor": "Actelion",
+            "url": "https://clinicaltrials.gov/study/NCT01105091"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00159861",
+            "title": "A Multinational, Multi-Center, Randomised, Double-Bind, Placebo-Controlled, Parallel Group Study to Assess the Safety and Efficacy of a Subject Optimised Dose of Sildenafil Citrate (20, 40, or 80 mg. Sildenafil Citrate TID) Based on the Toleration, When Used in Combination With Intravenous Prostacyclin( Epoprostenol) in the Treatment of Pulmonary Arterial Hypertension.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2003-07",
+            "completion_date": "2006-01",
+            "country": "Spain, United Kingdom, France, Canada, Belgium, Netherlands, Italy, Israel, Denmark, United States, Czechia",
+            "enrollment": 267,
+            "brief_summary": "Determination of the effects of sildenafil citrate and epoprostenol when used in combination in patients with pulmonary arterial hypertension",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with pulmonary arterial hypertension caused by primary PAH, associated with connective tissue disease or following surgical repair of a congenital heart lesion\n\nExclusion Criteria:\n\n* PH other than PAH",
+            "endpoints": [
+              "Categorized Change From Baseline in 6-Minute Walking Distance"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00159861"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04235608",
+            "title": "Sevoflurane for Sedation in Acute Respiratory Distress Syndrome: a Multicenter Prospective Randomized Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-05-03",
+            "completion_date": "2024-10-02",
+            "country": "France",
+            "enrollment": 700,
+            "brief_summary": "This study evaluates whether a sedation with inhaled sevoflurane will decrease mortality and increase time off the ventilator at 28 days in patients with acute respiratory distress syndrome (ARDS).\n\nHalf of the patients will receive inhaled sedation with sevoflurane and the other half will receive intravenous sedation with propofol.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Presence for ≤24 hours of all of the following conditions, within one week of a clinical insult or new or worsening respiratory symptoms:\n\n  * PaO2/FiO2 \\<150 mmHg with positive end-expiratory pressure (PEEP) ≥8 cmH2O (or, if arterial blood gas not available, S",
+            "endpoints": [
+              "Ventilator-free days through day 28"
+            ],
+            "sponsor": "University Hospital, Clermont-Ferrand",
+            "url": "https://clinicaltrials.gov/study/NCT04235608"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00458276",
+            "title": "Multicenter, Double-blind, Randomized, Placebo-controlled, Parallel-group Study to Assess the Efficacy, Safety and Tolerability of Tezosentan in Patients With Pre-operative Pulmonary Hypertension, Due to Left Heart Disease, Undergoing Cardiac Surgery",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2007-04",
+            "completion_date": "2008-03",
+            "country": "United Kingdom, France, Canada, India, Slovakia, Austria, Germany, Israel, Italy, United States, Czechia, Sweden, Serbia, Poland",
+            "enrollment": 274,
+            "brief_summary": "Endothelin-1 is a powerful substance that may be involved in causing hemodynamic instability (problems related to unstable blood pressure) during and after open heart surgery. Tezosentan is an investigational intravenous drug that blocks the endothelin receptors. This clinical trial will assess the potential benefit of tezosentan compared with placebo in the treatment of patients undergoing open heart surgery with cardiopulmonary bypass (CPB). Treatment time is from the start of surgery up to 24",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥ 18 years of age\n* Male or female patients (females of child-bearing potential must have been surgically sterilized or use a reliable method of contraception).\n* Patients undergoing complex\\* cardiac surgery on CPB and having systolic PAP \\> 40 mmHg or mean PAP \\> 30",
+            "endpoints": [
+              "The primary objective of this trial is to demonstrate that tezosentan, a dual ERA, reduces the incidence of clinically relevant right ventricular failure in patients with pre-operative pulmonary hypertension, due to left heart disease, undergoing CPB."
+            ],
+            "sponsor": "Idorsia Pharmaceuticals Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT00458276"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07457762",
+            "title": "AIRDROP: Can we Improve Adherence to Inhaled Treatment for Pulmonary Arterial Hypertension?",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-05-01",
+            "completion_date": "2026-12-28",
+            "country": "Brazil",
+            "enrollment": 72,
+            "brief_summary": "Pulmonary Arterial Hypertension is a rare and progressive condition that compromises pulmonary circulation and can lead to right ventricular failure. Despite recent advances in diagnosis and treatment, the median survival of patients is only 2.8 years. The treatment for this disease is based on drugs that act on three main pathways: prostacyclin, endothelin, and nitric oxide. Iloprost, a prostacyclin analogue available in an inhaled form, is an important and well-established treatment. However, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \"Adult patients aged ≥ 18 years, treated at the referral center for PH management at the Heart Institute of the University of São Paulo Medical School, with an invasive confirmed diagnosis of PAH (mean pulmonary arterial pressure \\[mPAP\\] greater than 20 mmHg at rest, pulmonar",
+            "endpoints": [
+              "Medication Adherence Measured by the Martín-Bayarre-Grau (MBG) Questionnaire."
+            ],
+            "sponsor": "University of Sao Paulo General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07457762"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00380068",
+            "title": "ARIES-3: A Phase 3, Long-Term, Open-Label, Multicenter Safety and Efficacy Study of Ambrisentan in Subjects With Pulmonary Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-08",
+            "completion_date": "2009-05",
+            "country": "Australia, Canada, United States",
+            "enrollment": 224,
+            "brief_summary": "The primary objective of this study was to evaluate the safety and efficacy of ambrisentan in a broad population of participants with pulmonary hypertension (PH). Secondary objectives of this study were to evaluate the effects of ambrisentan on other clinical measures of pulmonary arterial hypertension (PAH), long-term treatment success, and survival.",
+            "eligibility_criteria": "Summarized Inclusion Criteria:\n\n1. 18 years of age or older\n2. Current diagnosis of PH associated with an acceptable etiology as outlined in the protocol, including: PH due to the following etiologies: 1) PAH including idiopathic and familial PAH and PAH associated with collagen vascular disease, co",
+            "endpoints": [
+              "Change From Baseline to Week 24 in 6 Minute Walk Distance (6MWD)"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT00380068"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03556020",
+            "title": "A Randomized, Double-Blind, Parallel Group, Phase 2 Study to Assess the Safety, Tolerability, and Efficacy of Once Weekly Subcutaneous (SC) Injections of a Sustained-Release Vasoactive Intestinal Peptide (VIP) Analogue, Pemziviptadil (PB1046), in Adult Subjects With Symptomatic Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2018-07-15",
+            "completion_date": "2022-01-07",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "This is a multi-center, randomized, double-blind, controlled, Phase 2 study to assess the safety, tolerability, and efficacy of pemziviptadil (PB1046) at the optimally titrated dose after 16 weeks of treatment. Subjects will be randomized in a 2:1 ratio to one of two parallel dose groups: a) high-dose group where PB1046 will be up-titrated from a 0.2 mg/kg minimally effective starting dose to a target high dose level of at least 1.2 mg/kg or higher to a maximally tolerated dose (MTD), or b) a lo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male and female subjects with PAH, ≥18 and ≤ 79 years of age, who are symptomatic and have reduced exercise capacity due primarily to their PAH diagnosis and have been assessed by a qualified individual (i.e. physician, physician assistant, nurse practitioner) to be in NYHA/WH",
+            "endpoints": [
+              "Incidence and severity of AEs",
+              "Incidence of Clinical Laboratory Abnormalities",
+              "Changes in Diastolic Blood Pressure"
+            ],
+            "sponsor": "PhaseBio Pharmaceuticals Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03556020"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07453030",
+            "title": "PROPULSE-Sch: Long-Term Evaluation of Selexipag in Schistosomiasis-Associated Pulmonary Arterial Hypertension Using a Propensity Score-Matched Mirror Cohort",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-03-01",
+            "completion_date": "2027-03-01",
+            "country": "Brazil",
+            "enrollment": 30,
+            "brief_summary": "Schistosomiasis-associated pulmonary arterial hypertension is a serious condition that can lead to shortness of breath, heart failure, frequent hospitalizations, and early death. Although treatments for pulmonary arterial hypertension have improved over time, patients with this specific cause of the disease are often not included in long-term studies.\n\nSelexipag is an oral medication used to treat pulmonary arterial hypertension and is part of routine clinical care in Brazil. Its long-term effec",
+            "eligibility_criteria": "Inclusion Criteria\n\nAdults aged 18 years or older.\n\n* Confirmed diagnosis of pulmonary arterial hypertension associated with schistosomiasis (PAH-Sch).\n* Diagnosis of pre-capillary pulmonary arterial hypertension confirmed by right heart catheterization, performed at any time prior to the index date",
+            "endpoints": [
+              "Time to Clinical Worsening"
+            ],
+            "sponsor": "University of Sao Paulo General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07453030"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06658522",
+            "title": "RECOMPENSE: Right vEntricular COMPENsation With SotatercEpt: a Prospective Single Arm Open Label Phase 4 Study to Evaluate the Effects of Sotatercept on Right Ventricular Function in Pulmonary Arterial Hypertension",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-05-14",
+            "completion_date": "2026-05-01",
+            "country": "Netherlands",
+            "enrollment": 20,
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is a progressive disease characterized by vascular remodelling resulting in elevated pressures in the pulmonary artery (PA). This elevated pressure ultimately leads to fulminant right heart failure. Current therapeutic options are limited and are centred around vasodilatory medications such as phosphodiesterase-5 inhibitors and prostacyclin. While these medications allow for the widening of blood vessels that are narrowed due to remodelling, they have no eff",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adult patients between 18-70 years of age\n2. Able to provide signed informed consent\n3. WHO FC II to IV\n4. NTproBNP \\&gt; 300 ng/L\n5. PAH etiology belonging to one of the following groups (Nice classification):\n\n   * Idiopathic PAH\n   * Heritable PAH\n6. Hemodynamic diagnosis ",
+            "endpoints": [
+              "Power per beat",
+              "Right ventricular pulmonary artery coupling"
+            ],
+            "sponsor": "Amsterdam UMC, location VUmc",
+            "url": "https://clinicaltrials.gov/study/NCT06658522"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00373360",
+            "title": "Rapid Switch From Intravenous Epoprostenol to Intravenous Remodulin® (Treprostinil Sodium) in Patients With Stable Pulmonary Arterial Hypertension: Safety, Efficacy and Treatment Satisfaction",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2006-09",
+            "completion_date": "2008-01",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "The purpose of this 8-week study is to compare the effects of switching from therapy with epoprostenol or Flolan to IV Remodulin. This study will also assess the effect that changing to Remodulin will have on patient satisfaction with their treatment and impact on quality of life.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18 to 70 years\n* Diagnosis of Idiopathic or Familial Pulmonary Arterial Hypertension (PAH)or PAH associated with a collagen vascular disease or PAH associated with congenital systemic-to-pulmonary shunt repaired greater than 5 years prior to study entry or PAH associated w",
+            "endpoints": [
+              "Change in the Distance Transversed During the 6 Minute Walk Test From Baseline to Week 8."
+            ],
+            "sponsor": "United Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT00373360"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04481503",
+            "title": "Transthoracic Echocardiography of Cardiac Function of Parturients in Labor",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-09-05",
+            "completion_date": "2024-05-01",
+            "country": "United States",
+            "enrollment": 150,
+            "brief_summary": "This echocardiography study will characterize heart structure and function during labor. Imaging of the heart during the stress of labor could increase detection of subclinical cardiovascular disease using advanced imaging techniques. Cardiac serum biomarkers and complication rates will also be measured and compared between patients with and without evidence of cardiovascular disease on echocardiography.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All healthy parturients 18 years of age or older with estimated gestation greater than or equal to 37 weeks who are expected to deliver during their hospitalization.\n* During the echocardiographic exam, the patient must be in active labor with cervical dilation between 6-10 cm",
+            "endpoints": [
+              "The proportion of patients with an abnormal strain pattern as compared to parturients not in labor",
+              "The proportion of patients with diastolic dysfunction as compared to parturients not in labor"
+            ],
+            "sponsor": "Dartmouth-Hitchcock Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04481503"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00325403",
+            "title": "A 12-Week, International, Multicenter, Double-Blind, Randomized, Placebo-Controlled Comparison of the Efficacy and Safety of Oral UT-15C Sustained Release Tablets in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-10",
+            "completion_date": "2011-04",
+            "country": "France, Canada, India, Belgium, Netherlands, Austria, Israel, Italy, United States, China, Mexico, Puerto Rico, Poland",
+            "enrollment": 349,
+            "brief_summary": "This study was an international, multicenter, randomized (2:1 active:placebo), double-blind, placebo-controlled study in subjects with PAH who were NOT currently receiving approved therapy for their PAH. Study visits occurred at 4 week intervals for 12 weeks (with an additional visit at Week 11) with the key measure of efficacy being the 6-minute walk test. Study procedures included routine blood tests, medical history, physical exams, disease evaluation, and exercise tests. Two optional substud",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Between 12 and 75 years of age, inclusive.\n* Body weight at least 40 kg with a Body Mass Index \\< 45\n* PAH that is either idiopathic/heritable; associated with repaired congenital systemic-to-pulmonary shunts (repaired ≥ 5 years); associated with collagen vascular disease; ass",
+            "endpoints": [
+              "Six Minute Walk Distance (6MWD)"
+            ],
+            "sponsor": "United Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT00325403"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01966302",
+            "title": "Compassionate Use of Beraprost Sodium 314d Modified Release (BPS-314d-MR) for Three Patients With Pulmonary Arterial Hypertension (PAH).",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-11",
+            "completion_date": "2019-06-02",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "The purpose of this study is to see if Lung LLC's new experimental formulation of the medicine Beraprost Sodium, called Beraprost Sodium 314d Modified Release (BPS-314d-MR), can improve the symptoms of pulmonary arterial hypertension (PAH) in patients. An experimental drug is one that has not been approved by the U.S. Food and Drug Administration for use in the general public. This research study is for patients who have pulmonary arterial hypertension (PAH) and have just completed taking part i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Prior participation in Beraprost-MR study at Harbor-UCLA\n\nExclusion Criteria:\n\n* No prior participation in Beraprost study at Harbor-UCLA",
+            "endpoints": [
+              "Number of participants experiencing Adverse Events"
+            ],
+            "sponsor": "Lundquist Institute for Biomedical Innovation at Harbor-UCLA Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT01966302"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07357974",
+            "title": "Impact of Sotatercept on Pulmonary Artery and Right Ventricle Remodeling Imaging Assessed With 68Ga-FAPI PET/CT in Patients With PAH: a Pilot Study",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-01",
+            "completion_date": "2028-12-01",
+            "country": "France",
+            "enrollment": 15,
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is a rare, progressive disease characterized by structural changes in the pulmonary arteries, leading to increased pulmonary vascular resistance and elevated pulmonary arterial pressure and, if untreated, right heart failure. Diagnosis requires a comprehensive evaluation, including right heart catheterization performed in specialized centers.\n\nDespite advances in the understanding and management of the disease, PAH remains a severe condition. Current approve",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Documented diagnostic right heart catheterization (RHC) within 12 months of screening documenting a minimum PVR of ≥ 4 Wood units and pulmonary capillary wedge pressure (PCWP) or left ventricular end-diastolic pressure (LVEDP) of ≤ 15 mmHg, with the diagnosis ",
+            "endpoints": [
+              "Vascular remodeling as assessed by [68Ga] Ga-FAPI uptake of pulmonary arteries on PET/CT imaging."
+            ],
+            "sponsor": "University Hospital, Brest",
+            "url": "https://clinicaltrials.gov/study/NCT07357974"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05825417",
+            "title": "A Multicentre Randomised Cross-over Trial of Disease Specific Therapy in Patients With Pulmonary Arterial Hypertension (PAH) Implanted With Pulmonary Artery Pressure and Cardiac Rhythm Monitoring Devices (CardioMEMS/ConfirmRx)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2023-06-14",
+            "completion_date": "2026-01",
+            "country": "United Kingdom",
+            "enrollment": 40,
+            "brief_summary": "The goal of this clinical trial is to evaluate the capacity of implantable/remote technology for early evaluation of drug therapies in patients with pulmonary arterial hypertension (PAH). The main question it aims to answer is whether structured changes in clinical therapy will be detectable using implanted regulatory approved devices. Participants will will be implanted with approved medical devices and will enter into a study of approved drugs to assess physiology, activity and patient reporte",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Able to provide informed consent\n* Age 18-80 years\n* PAH which is idiopathic, heritable or associated with drugs, toxins or connective tissue disease\n* Stable PAH therapeutic regime comprising any combination of ERA and PDE5i for at least 1 month prior to screening (unless una",
+            "endpoints": [
+              "Right Ventricular Stroke Volume (RVSV) flow on each therapy measured by MRI RSVS (flow) on each therapy measured by MRI"
+            ],
+            "sponsor": "Sheffield Teaching Hospitals NHS Foundation Trust",
+            "url": "https://clinicaltrials.gov/study/NCT05825417"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00430716",
+            "title": "A MULTINATIONAL, MULTICENTRE, RANDOMIZED, PARALLEL GROUP, DOUBLE-BLIND STUDY TO ASSESS THE EFFICACY AND SAFETY OF 1MG, 5MG AND 20 MG TID OF ORAL SILDENAFIL IN THE TREATMENT OF SUBJECTS AGED 18 YEARS AND OVER WITH PULMONARY ARTERIAL HYPERTENSION (PAH)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2008-04-08",
+            "completion_date": "2010-05-25",
+            "country": "United Kingdom, India, Romania, Brazil, Belgium, Italy, Latvia, Netherlands, United States, China, Bulgaria, Malaysia, Philippines, Russia, Greece, Thailand, Poland",
+            "enrollment": 130,
+            "brief_summary": "To demonstrate a dose response for 1 mg, 5 mg and 20 mg TID oral sildenafil for the treatment of subjects with PAH.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects with PAH (i.e. IPAH or secondary to connective tissue disease or with surgical repair of ASD, VSD, PDA, aorto-pulmonary window) whose baseline six minute walk test distance is \\>/= 100 m and \\</= 450 m.\n* Subjects with a mean pulmonary artery pressure of \\>/= 25 mmHg ",
+            "endpoints": [
+              "Change From Baseline in the Total Distance Walked During 6-Minute Walk Test (6MWT) at Week 12"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00430716"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03111212",
+            "title": "Therapeutic Iloprost for the Treatment of Acute Respiratory Distress Syndrome (ARDS) (the ThIlo-Trial)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-06-25",
+            "completion_date": "2021-08-14",
+            "country": "Germany",
+            "enrollment": 150,
+            "brief_summary": "The patients will be randomized into one of two groups. Both groups will receive standard care as is state of the art. The intervention group will receive Iloprost nebulized as inhalative therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Horowitz index \\<300\n* Bilateral opacities on frontal chest radiograph\n* requirement of positive pressure ventilation\n* no clinical evidence of left atrial hypertension\n* enrollment within 48h of onset of ARDS\n* mechanical ventilation \\<7 days\n\nExclusion Criteria:\n\n* age \\<18 ",
+            "endpoints": [
+              "Oxygenation Index on Day 5 of Prostacyclin Treatment measured as PaO2/FiO2"
+            ],
+            "sponsor": "University Hospital Tuebingen",
+            "url": "https://clinicaltrials.gov/study/NCT03111212"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00718952",
+            "title": "Multi-centre, Prospective, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Treatment of Pulmonary Arterial Hypertension With Vardenafil in China",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-07",
+            "completion_date": "2010-02",
+            "country": "China",
+            "enrollment": 60,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of vardenafil in the treatment of pulmonary arterial hypertension.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects aged 12-65.\n* Confirmed idiopathic pulmonary hypertension, connective tissue disease associated pulmonary hypertension, congenital heart disease(with Eisenmenger syndrome) associated pulmonary hypertension.\n* Baseline 6-minutes walking distance 150m-550m.\n* WHO pulmon",
+            "endpoints": [
+              "The change in exercise capacity, as measured by the total distance walked in six minutes"
+            ],
+            "sponsor": "Tongji University",
+            "url": "https://clinicaltrials.gov/study/NCT00718952"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01445873",
+            "title": "NON-INTERVENTIONAL (NI) DRUG STUDY PROTOCOL: THREE-COUNTRY PILOT STUDY FOR RETROSPECTIVE CHART REVIEW OF EFFECTIVENESS OF THELIN® (SITAXSENTAN) IN PATIENTS WITH PULMONARY ARTERIAL HYPERTENSION (PAH)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2009-12-01",
+            "completion_date": "2011-03-28",
+            "country": "N/A",
+            "enrollment": 36,
+            "brief_summary": "The objectives of this study are to develop research methods and corresponding materials for a study of the effectiveness of sitaxentan sodium (Thelin) in \"real-world\" settings; to pilot test these methods at three study centers in Europe; and to refine and finalize research methods and corresponding materials for possible use in a follow-on, full-scale examination of the effectiveness of sitaxentan sodium (Thelin) in \"real-world\" settings.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Idiopathic PAH, or PAH secondary to connective tissue disease\n* Receipt of Thelin for treatment of PAH\n* 6 months of follow-up (except in the event of death) subsequent to initial receipt of Thelin\n* Minimum of one clinic visit documented in the medical record during the 6-mon",
+            "endpoints": [
+              "Patterns of Pharmacotherapy With Sitaxentan Sodium (Thelin): Mean Time to Therapy Augmentation",
+              "Patterns of Pharmacotherapy With Sitaxentan Sodium (Thelin): Therapy Switching",
+              "Patterns of Pharmacotherapy With Sitaxentan Sodium (Thelin): Therapy Discontinuation"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01445873"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02284737",
+            "title": "A Prospective, Multi-center, Randomized Control Trial to Investigate the Efficacy of Pulmonary Artery Denervation to Improved Functional Capacity and Hemodynamics in Patients With Pulmonary Artery Hypertension",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2014-11-28",
+            "completion_date": "2021-07-30",
+            "country": "China",
+            "enrollment": 100,
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is characterized by premature death mainly because of progressive and severe right ventricular failure. Target drugs are reported to be associated with significant improvement of clinical outcome for PAH patients. However, previous studies using those target drugs focused on the change of 6-minute walk distance (6MWD) and or hemodynamic responses. As 6MWD has weak correlation with clinical outcome (time to clinical worsening, TTCW), benefits from target drug",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of informed consent prior to any study specific procedures;\n* Men and women 18 years and older;\n* Group I PAH, defined as a mPAP≥25mmHg, PCWP\\<15mmHg and PVR\\[The PVR =(mPAP-PCWP)/CO\\]\\>3.0 Woods unit.\n\nExclusion Criteria:\n\nGeneral exclusion criteria:\n\n* Pregnancy an",
+            "endpoints": [
+              "Pulmonary artery hypertension (PAH)- related events"
+            ],
+            "sponsor": "Nanjing First Hospital, Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT02284737"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01370096",
+            "title": "Vasopressin and Inhaled Prostacyclin in Pediatric Pulmonary Hypertension",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2012-02",
+            "completion_date": "2016-09",
+            "country": "Canada",
+            "enrollment": 3,
+            "brief_summary": "To diagnose pulmonary hypertension, children have a cardiac catheterization to check the blood pressure in their lungs. Children with pulmonary hypertension have high blood pressure in their lungs. The right ventricle of the heart has to do more work to pump against this higher pressure. The investigators do not know the best medicine(s) to help children with pulmonary hypertension when their right ventricles fail. The purpose of the study is to look at the effects of two different medicines on ",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAll pediatric patients with pulmonary hypertension defined as a mean pulmonary artery pressure ≥ 25mmHg undergoing diagnostic cardiac catheterization for clinical purposes are potential subjects. Subjects must have preserved left ventricular function (ejection fraction ≥ 40 %). ",
+            "endpoints": [
+              "PVR/SVR indexed ratio"
+            ],
+            "sponsor": "University of Alberta",
+            "url": "https://clinicaltrials.gov/study/NCT01370096"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01468571",
+            "title": "Effects of Spironolactone on Collagen Metabolism in Pulmonary Arterial Hypertension",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2011-07",
+            "completion_date": "2015-12",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "The purpose of this study is to determine the effects of spironolactone on collagen markers in a large number of patients with pulmonary hypertension. In addition, safety and tolerability of spironolactone, an aldosterone receptor antagonist, in patients with pulmonary arterial hypertension, will be determined.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* Body weight \\> 40 kg\n* PAH Diagnostic Group I\n* Stable subjects with no change in PAH specific therapy within the last 4 weeks\n* No change in dose of background therapy (digoxin, diuretic) within the last 2 weeks excluding anticoagulation\n\nExclusion Cri",
+            "endpoints": [
+              "Change in biomarker levels in the spironolactone treated as compared to placebo treated group."
+            ],
+            "sponsor": "Baylor College of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT01468571"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06319274",
+            "title": "Efficacy and Safety of 72-hour Infusion of Prostacyclin (1 ng/kg/Min) in Mechanically Ventilated Patients With Infectious Pulmonary Endotheliopathy - a Multicenter Randomized, Placebo-controlled, Blinded, Investigator-initiated Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-04-15",
+            "completion_date": "2027-09-30",
+            "country": "Denmark",
+            "enrollment": 450,
+            "brief_summary": "The purpose of this clinical trial is to investigate the efficacy and safety of continuous intravenous administration of low dose iloprost versus placebo for 72-hours, in 450 mechanically ventilated patients with infectious respiratory failure. The study hypothesis is that iloprost may be beneficial as an endothelial rescue treatment as it is anticipated to deactivate the endothelium and restore vascular integrity in patients suffering from respiratory failure caused by endothelial breakdown, ul",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult intensive care patients (age ≥ 18 years)\n* Suspected pulmonary infection\n* Need for mechanical ventilation (\\< 24 hours from time of screening)\n* soluble thrombomodulin (sTM) ≥ 4 ng/mL in blood plasma\n\nExclusion Criteria:\n\n* Withdrawal from active therapy\n* Pregnancy (no",
+            "endpoints": [
+              "28-day mortality"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT06319274"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01234571",
+            "title": "Impact of Hemo-dialysis Therapy on Blood Levels of Treprostenil in End Stage Renal Disease Patients With Pulmonary Hypertension",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2010-11",
+            "completion_date": "",
+            "country": "N/A",
+            "enrollment": 5,
+            "brief_summary": "Remodulin (Treprostenil sodium) is synthetic prostacyclin analog available as a solution for administration in the intravenous route. It is approved for treatment of class I - pulmonary hypertension functional capacity stage III-IV. A key factor for the success of pulmonary hypertension therapy is maintaining near constant blood level of a given medications along the day. A sudden decrease in the blood levels might lead to rebound phenomenon; abrupt increase in the pulmonary artery pressure whic",
+            "eligibility_criteria": "Inclusion Criteria:patients with PAH who receive chronic (more than 3 months) Treprostenil treatment administered intravenously as a single agent therapy who maintain chronic hemo-dialysis therapy. Patients must be in stable condition for at least one month. Patients other than class I PAH will be n",
+            "endpoints": [],
+            "sponsor": "Rambam Health Care Campus",
+            "url": "https://clinicaltrials.gov/study/NCT01234571"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04420741",
+            "title": "Efficacy and Safety of 72-hour Infusion of Prostacyclin (1 Nanogram(ng)/ Kilo(kg)/Minute(Min)) in Patients With COVID-19 Induced Pulmonary Endotheliopathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-06-15",
+            "completion_date": "2021-04-23",
+            "country": "Denmark",
+            "enrollment": 80,
+            "brief_summary": "The purpose of this trial is to investigate the efficacy and safety of continuous intravenous administration of low dose iloprost versus placebo for 72-hours, in 80 patients with COVID-19 suffering from respiratory failure. The study hypothesis is that iloprost may be beneficial as an endothelial rescue treatment as it is anticipated to deactivate the endothelium and restore vascular integrity in COVID-19 patients suffering from respiratory failure caused by endothelial breakdown, ultimately imp",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult intensive care patients (aged 18 years or above)\n* Confirmed COVID-19 infection\n* Need for mechanical ventilation (\\< 72 hours at time of screening)\n* Soluble thrombomodulin (sTM) ≥ 4 ng/mL\n\nExclusion Criteria:\n\n* Withdrawal from active therapy\n* Pregnancy (non-pregnancy",
+            "endpoints": [
+              "Mechanical ventilation free days"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT04420741"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03863990",
+            "title": "Survival and Prognostic Factors in Pulmonary Arterial Hypertension. A Multicenter Observational Registry (START)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-07-15",
+            "completion_date": "2020-05-11",
+            "country": "Argentina",
+            "enrollment": 104,
+            "brief_summary": "In this study researchers want to learn more about Pulmonary Arterial Hypertension, a type of high blood pressure in the lungs related to the narrowing of the small blood vessels in the lungs (group 1 according to WHO classification). Goal of the study is to describe the signs and risk factors of the illness at study start and the chances of survival.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Consecutive newly diagnosed patients by Right heart catheterization (RHC) from 01-Jan-2012 to 31-Dec-2017, belonging to one of the following of Group 1 PAH subgroups: Idiopathic (IPAH), or Heritable (HPAH), or Drug or toxin induced, or Associated (APAH) with one of the followi",
+            "endpoints": [
+              "Age at baseline",
+              "Sex",
+              "Ethnicity"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT03863990"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05075161",
+            "title": "Pirfenidone to Prevent Fibrosis in ARDS. A Randomized Controlled Trial - PIONEER",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-06-01",
+            "completion_date": "2025-12",
+            "country": "Italy, Kazakhstan",
+            "enrollment": 130,
+            "brief_summary": "Acute respiratory distress syndrome (ARDS) is a severe form of acute lung injury and a major cause of Intensive Care Unit (ICU) admission worldwide. Despite a large number of randomized clinical trials, a specific and effective pharmacological approach for patients with ARDS is still lacking.\n\nFibroproliferation is a crucial part of the host defence response, and severe fibrotic lung disease affects ARDS patients even years after acute phase resolution.\n\nPirfenidone is an oral anti-fibrotic drug",
+            "eligibility_criteria": "Inclusion Criteria:\n\nConcomitant presence of:\n\n* ARDS (moderate and severe) - Berlin definition\n\n  1. Within 1 week of a known clinical insult or new or worsening respiratory symptoms\n  2. Bilateral opacities on CXR which are not fully explained by effusions, lobar/lung collapse or nodules\n  3. Resp",
+            "endpoints": [
+              "The number of ventilator free days (VFD) at day 28."
+            ],
+            "sponsor": "Università Vita-Salute San Raffaele",
+            "url": "https://clinicaltrials.gov/study/NCT05075161"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06849570",
+            "title": "Assessment of the PEEP Responsiveness to Titrate End-expiratory Pressure and of the Need for Muscle Relaxation During Prone Positioning in Moderate-to-severe Acute Respiratory Distress Syndrome: A Master Protocol",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-04-01",
+            "completion_date": "2029-04-01",
+            "country": "N/A",
+            "enrollment": 1200,
+            "brief_summary": "Despite best supportive care, mortality of the Acute Respiratory Distress Syndrom (ARDS) remains high. In the absence of specific treatments, providing safe and efficient mechanical ventilation (MV) is key to survival.\n\nThe use of low tidal volumes (VT) and plateau pressures (PPLAT) improves survival in randomized controlled trials (RCTs), but the safest VT to be applied for each patient remains unknown. Whether targeting low ∆P instead of a 6 mL/kg VT improves outcome has not been tested prospe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Invasive mechanical ventilation within 96 hours of ICU admission and within 72 hours of tracheal intubation for first randomization and then within 72 hours of the first randomization for the second randomization\n* Patients meeting the Berlin ARDS definition criteria with hypo",
+            "endpoints": [
+              "28-day all-cause mortality"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06849570"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04589390",
+            "title": "Selexipag for the Treatment of Schistosomiasis-Associated Pulmonary Arterial Hypertension",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-10-15",
+            "completion_date": "2022-03-31",
+            "country": "Brazil",
+            "enrollment": 20,
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is a severe, progressive and potentially fatal disease that impairs the pulmonary circulation and leads to right ventricular failure. One of the world most prevalent etiologies of PAH is schistosomiasis-associated pulmonary arterial hypertension (Sch-PAH). New drugs have emerged to treat other forms of PAH, but their benefits cannot be automatically translated for Sch-PAH patients, since this etiology was not included in the pivotal PAH trials. One of the mo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with symptomatic Sch-PAH. Sch-PAH diagnosis necessarily include the three criteria below\n\n  1. Invasive confirmation of PAH, according to the criteria defined in the Pulmonary Hypertension Sixth World Symposium: mean pulmonary artery pressure higher than 20 mmHg, at r",
+            "endpoints": [
+              "Pulmonary vascular resistance"
+            ],
+            "sponsor": "University of Sao Paulo General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04589390"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02279745",
+            "title": "An Open-label Extension Study of Ralinepag in Patients With Pulmonary Arterial Hypertension",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-07-08",
+            "completion_date": "2021-03-29",
+            "country": "Australia, Spain, Romania, Slovakia, United States, Bulgaria, Czechia, Hungary, Serbia, Poland",
+            "enrollment": 45,
+            "brief_summary": "This study was an open-label extension study to determine the long-term safety and tolerability of ralinepag in subjects with World Health Organization (WHO) Group 1 pulmonary arterial hypertension (PAH) who have completed Study APD811-003, or who were assigned to receive placebo and were discontinued due to clinical worsening.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Evidence of a personally signed and dated informed consent document.\n* Was willing and able to comply with scheduled visits, treatment plan, laboratory tests, and other study procedures and was deemed an appropriate candidate for participation in a long-term extension study.\n*",
+            "endpoints": [
+              "Change From Baseline in Pulmonary Vascular Resistance",
+              "Change From Baseline in Cardiac Output",
+              "Change From Baseline in Cardiac Index"
+            ],
+            "sponsor": "United Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT02279745"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01431716",
+            "title": "A Multicenter, Single-arm, Open-label, Phase 3b Study to Assess the Effects of Switching From Flolan® to EFI/ACT-385781A in Patients With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-03",
+            "completion_date": "2012-07",
+            "country": "Spain, France, Canada, Belgium, Netherlands, Italy",
+            "enrollment": 42,
+            "brief_summary": "This study is investigating the effect of switching from Flolan® to Epoprostenol for Injection (EFI/ACT-385781A) in pulmonary arterial hypertension patients currently treated with Flolan®. For this purpose patients being treated for at least 12 months with Flolan® will be switched from Flolan® to EFI/ACT-385781A and followed-up for 90 days. During these 90 days safety and tolerability of EFI/ACT-385781A will closely be monitored in all treated patients. This 90 follow-up will provide clinical ev",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female aged 18 years and above\n2. Patients with the following types of pulmonary arterial hypertension (PAH) belonging to WHO Group I: Idiopathic (IPAH), Heritable (HPAH), Associated (APAH) with Connective tissue diseases or Drugs and toxins\n3. Patients treated with F",
+            "endpoints": [
+              "Change in Pulmonary Vascular Resistance From Baseline to End of Treatment (EOT).",
+              "Change in Total Pulmonary Resistance From Baseline to End of Treatment (EOT).",
+              "Change in Mean Pulmonary Arterial Pressure From Baseline to End of Treatment (EOT)."
+            ],
+            "sponsor": "Actelion",
+            "url": "https://clinicaltrials.gov/study/NCT01431716"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07254338",
+            "title": "Blood and uRine Metabolomics Exploration for Assessing Thoracic Health After Treatment of Group 3 Pulmonary Hypertension",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2026-02-16",
+            "completion_date": "2029-08-16",
+            "country": "France",
+            "enrollment": 80,
+            "brief_summary": "Fibrosing interstitial lung diseases (FILDs) encompass a group of rare diseases characterized by progressive pulmonary fibrosis leading to respiratory failure. Current treatments primarily aim to slow disease progression but remain limited, making lung transplantation the ultimate recourse.\n\nThe development of pulmonary hypertension (PH) in the context of FILDs significantly worsens morbidity and mortality and drastically reduces patients' life expectancy. Conventional treatments for PH are gene",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients suffering from progressive interstitial lung disease (ILD) and especially lung fibrosis\n* Suspicion of precapillar pulmonary hypertension (group 3 PH / ILD-PH)\n* Patients undergoing cardiac catheterisation for haemodynamic confirmation\n* Patient who has given informed",
+            "endpoints": [
+              "Comparison of urinary metabolite concentrations before and after initiation of treatment measured centrally by proton nuclear magnetic resonance spectroscopy (¹H-NMR).",
+              "Comparison of blood metabolite concentrations before and after initiation of treatment measured centrally by proton nuclear magnetic resonance spectroscopy (¹H-NMR).",
+              "Comparative prognosis analysis within sub-groups"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT07254338"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00325442",
+            "title": "A 16-Week, International, Multicenter, Double-Blind, Randomized, Placebo-Controlled Comparison of the Efficacy and Safety of Oral UT-15C Sustained Release Tablets in Combination With an Endothelin Receptor Antagonist and/or a Phosphodiesterase-5 Inhibitor in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-10",
+            "completion_date": "2010-12",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Belgium, Netherlands, Austria, Germany, Israel, Italy, United States, Ireland, Poland",
+            "enrollment": 354,
+            "brief_summary": "This study was an international, multi-center, randomized, double-blind, placebo-controlled study in subjects with PAH who were currently receiving approved therapy for their PAH (i.e., endothelin receptor antagonist and/or phosphodiesterase-5 inhibitor). Study visits occurred at 4 week intervals for 16 weeks; the key measure of efficacy was the 6-minute walk test. Study procedures included routine blood tests, medical history, physical exams, disease evaluation, and exercise tests. One optional",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Between 12 and 70 years of age, inclusive.\n* Body weight at least 45 kg (approximately 100 pounds).\n* PAH that is either idiopathic/heritable (including PAH associated with appetite suppressant/toxin use); PAH associated with repaired congenital systemic-to-pulmonary shunts (r",
+            "endpoints": [
+              "Six Minute Walk Distance (6MWD)"
+            ],
+            "sponsor": "United Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT00325442"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00887978",
+            "title": "A 16-Week, International, Multicenter, Double-Blind, Randomized, Placebo-Controlled Study of the Efficacy and Safety of Oral UT-15C Sustained Release Tablets in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-06",
+            "completion_date": "2011-07",
+            "country": "Spain, United Kingdom, France, Canada, Belgium, Netherlands, Germany, Israel, Italy, United States, Portugal, Sweden",
+            "enrollment": 310,
+            "brief_summary": "This study is an international, multi-center, randomized, double-blind, placebo-controlled study in subjects with PAH who are currently receiving approved therapy for their PAH (i.e., endothelin receptor antagonist and/or phosphodiesterase-5 inhibitor). Study visits will occur at 4 week intervals for 16 weeks with the key measure of efficacy being the 6-minute walk test. Study procedures include routine blood tests, medical history, physical exams, disease evaluation, and exercise tests.\n\nPatien",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A subject is eligible for inclusion in this study if all of the following criteria apply:\n* Between 18 and 75 years of age, inclusive.\n* Body weight at least 40 kg (approximately 90 lbs.)\n* PAH that is either idiopathic/heritable; associated with appetite suppressant or toxin ",
+            "endpoints": [
+              "6-minute Walk Distance (6MWD)"
+            ],
+            "sponsor": "United Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT00887978"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01470703",
+            "title": "Extracorporeal Membrane Oxygenation(ECMO) for Severe Acute Respiratory Distress Syndrome (ARDS)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2011-12-08",
+            "completion_date": "2017-09",
+            "country": "France",
+            "enrollment": 249,
+            "brief_summary": "This international multicenter, randomized, open trial will evaluate the impact of Extracorporeal Membrane Oxygenation (ECMO), instituted early after the diagnosis of acute respiratory distress syndrome (ARDS) not evolving favorably after 3-6 hours under optimal ventilatory management and maximum medical treatment, on the morbidity and mortality associated with this disease.",
+            "eligibility_criteria": "Inclusion criteria :\n\n1. ARDS defined according to the following criteria (9) :\n\n   * Intubation and mechanical ventilation for ≤ 6 days\n   * Bilateral radiological pulmonary infiltrates consistent with edema\n   * PaO2/FiO2 ratio \\< 200 mm Hg\n   * Absence of clinical evidence of elevated left atrial",
+            "endpoints": [
+              "All cause mortality on day 60 following randomization"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT01470703"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03795428",
+            "title": "A Long-Term, Open Label Extension Study of Pemziviptadil (PB1046) Subcutaneous Injections in Pulmonary Arterial Hypertension Subjects Following Completion of Study PB1046-PT-CL-0004",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2019-04-10",
+            "completion_date": "2022-01-11",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "This is a multi-center, Phase 2 Long-Term, Open Label Extension (OLE) Study to assess the safety and tolerability of pemziviptadil (PB1046) at an optimally titrated dose. This is a Long-Term, Open label Extension (OLE) Study for subjects with (PAH), having participated in double-blind Study PB1046-PT-CL-0004. The study will include adult subjects previously diagnosed with symptomatic PAH, who are receiving background clinician-directed therapy for PAH.\n\nDuring this period, subjects will continue",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must have completed Week 17 / End of Study of PB1046-PT-CL-0004;\n* Willing and able to sign a written Informed Consent (IC) prior to all study-related procedures;\n* Agrees to use a medically acceptable method of contraception (both male and female patients) throughout",
+            "endpoints": [
+              "Incidence and Severity of Adverse Events",
+              "Incidence of Clinical Laboratory Abnormalities",
+              "Change in Diastolic Blood Pressure from baseline"
+            ],
+            "sponsor": "PhaseBio Pharmaceuticals Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03795428"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01319045",
+            "title": "Iloprost for the Treatment of Pulmonary Hypertension in Adults With Congenital Heart Disease",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2011-06",
+            "completion_date": "2013-05",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "Pulmonary arterial hypertension (PAH), or high blood pressure in the lungs, is common in patients with congenital heart disease. Historically these patients suffered significant morbidity and mortality due to a lack of effective therapies. More recently, advanced therapies which target the mechanisms underlying the development and progression of PAH have been introduced into clinical care. Oral, intravenous, subcutaneous, and inhaled therapies are all available for the treatment of PAH. Patients",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age greater than or equal to 18 years old\n* Congenital heart disease with pulmonary arterial hypertension and cyanosis (resting oxygen saturation \\< 90% on room air)\n* Stable on oral therapy (PDE5 inhibitor and/or endothelin blockade) for at least three months\n\nExclusion Crite",
+            "endpoints": [
+              "Safety and Tolerability"
+            ],
+            "sponsor": "University of California, Los Angeles",
+            "url": "https://clinicaltrials.gov/study/NCT01319045"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40513981",
+            "title": "Inhaled epoprostenol for management of acute respiratory failure and pulmonary vascular disease.",
+            "abstract": "Inhaled epoprostenol has remained an attractive and viable option for the delivery of prostacyclin to offset abnormalities in ventilation and perfusion mismatch while minimizing the typical adverse effects associated with systemic administration. There is a need to better understand pharmacologic properties of inhaled epoprostenol and its application to diseases affecting the cardiopulmonary system. The goal of this review is to provide an overview of inhaled epoprostenol and outline its use specifically in the medical management of acute hypoxemic respiratory failure and pulmonary vascular disease. Among patients with acute respiratory distress syndrome who ultimately required invasive ventilation, inhaled epoprostenol has not improved ventilator-free days, intensive care unit length of stay, or mortality. However, it may be beneficial in certain select patient populations. In the management of pulmonary hypertension, inhaled epoprostenol has allowed for continued maintenance of chron",
+            "journal": "Pulmonary pharmacology & therapeutics",
+            "year": "2025",
+            "authors": [
+              "Connelly Daniel",
+              "Delahanty Jessica",
+              "Patel Shyam",
+              "Ackerbauer Kimberly A",
+              "Bosch Nicholas A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Epoprostenol",
+              "Administration, Inhalation",
+              "Hypertension, Pulmonary",
+              "Respiratory Distress Syndrome",
+              "Antihypertensive Agents",
+              "Respiratory Insufficiency",
+              "Acute Disease",
+              "Animals"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40513981/"
+          },
+          {
+            "pmid": "39969780",
+            "title": "Pulmonary Hypertension Associated with Interstitial Lung Disease (PH-ILD): Back to the Future.",
+            "abstract": "Pulmonary hypertension (PH) is a progressive syndrome characterized by increased pulmonary artery pressure. PH often complicates chronic lung diseases, thus contributing to a substantial disease burden and poor prognosis. The WHO Group 3 Pulmonary Hypertension has many subcategories, including sleep-hypoventilation PH, high altitude-PH, chronic obstructive pulmonary disease (COPD)-PH, and interstitial lung disease (PH-ILD), the latter carrying the worst prognosis. ILD is a heterogeneous group of disorders characterized by cough and shortness of breath and, in progressive forms, irreversible loss of function and respiratory failure. The development of PH in patients with ILD worsens exercise capacity and exertional dyspnea and impairs quality of life. Thus, suspicion and early detection of PH following thorough cardiologic evaluation (i.e., echocardiography, pro-BNP, and right heart catheterization) is paramount for appropriate patient management. For PH secondary to chronic respiratory",
+            "journal": "Advances in therapy",
+            "year": "2025",
+            "authors": [
+              "Fiorentù Giordano",
+              "Bernardinello Nicol",
+              "Giulianelli Giacomo",
+              "Cocconcelli Elisabetta",
+              "Balestro Elisabetta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Lung Diseases, Interstitial",
+              "Antihypertensive Agents",
+              "Epoprostenol",
+              "Prognosis",
+              "Quality of Life",
+              "Oxygen Inhalation Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39969780/"
+          },
+          {
+            "pmid": "33234007",
+            "title": "Responsiveness of Inhaled Epoprostenol in Respiratory Failure due to COVID-19.",
+            "abstract": "Inhaled pulmonary vasodilators are used as adjunctive therapies for the treatment of refractory hypoxemia. Available evidence suggest they improve oxygenation in a subset of patients without changing long-term trajectory. Given the differences in respiratory failure due to COVID-19 and \"traditional\" ARDS, we sought to identify their physiologic impact.",
+            "journal": "Journal of intensive care medicine",
+            "year": "2021",
+            "authors": [
+              "Sonti Rajiv",
+              "Pike C William",
+              "Cobb Nathan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Aged",
+              "COVID-19",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Hypoxia",
+              "Male",
+              "Middle Aged",
+              "Oxygen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33234007/"
+          },
+          {
+            "pmid": "35952768",
+            "title": "Inhaled Nitric Oxide vs Epoprostenol During Acute Respiratory Failure: An Observational Target Trial Emulation.",
+            "abstract": "The inhaled vasodilators nitric oxide and epoprostenol may be initiated to improve oxygenation in mechanically ventilated patients with severe acute respiratory failure (ARF); however, practice patterns and head-to-head comparisons of effectiveness are unclear.",
+            "journal": "Chest",
+            "year": "2022",
+            "authors": [
+              "Bosch Nicholas A",
+              "Law Anica C",
+              "Vail Emily A",
+              "Gillmeyer Kari R",
+              "Gershengorn Hayley B"
+            ],
+            "pub_types": [
+              "Observational Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Epoprostenol",
+              "Nitric Oxide",
+              "Administration, Inhalation",
+              "Respiratory Distress Syndrome",
+              "Vasodilator Agents",
+              "Respiratory Insufficiency"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35952768/"
+          },
+          {
+            "pmid": "23829793",
+            "title": "Pulmonary arterial hypertension.",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a chronic and progressive disease leading to right heart failure and ultimately death if untreated. The first classification of PH was proposed in 1973. In 2008, the fourth World Symposium on PH held in Dana Point (California, USA) revised previous classifications. Currently, PH is devided into five subgroups. Group 1 includes patients suffering from idiopathic or familial PAH with or without germline mutations. Patients with a diagnosis of PAH should systematically been screened regarding to underlying mutations of BMPR2 gene (bone morphogenetic protein receptor type 2) or more rarely of ACVRL1 (activine receptor-like kinase type 1), ENG (endogline) or Smad8 genes. Pulmonary veno occusive disease and pulmonary capillary hemagiomatosis are individualized and designated as clinical group 1'. Group 2 'Pulmonary hypertension due to left heart diseases' is divided into three sub-groups: systolic dysfonction, diastolic dysfonction and valvular dysfon",
+            "journal": "Orphanet journal of rare diseases",
+            "year": "2013",
+            "authors": [
+              "Montani David",
+              "Günther Sven",
+              "Dorfmüller Peter",
+              "Perros Frédéric",
+              "Girerd Barbara"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Heart Diseases",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23829793/"
+          },
+          {
+            "pmid": "35787522",
+            "title": "Study design and rationale for the TETON phase 3, randomised, controlled clinical trials of inhaled treprostinil in the treatment of idiopathic pulmonary fibrosis.",
+            "abstract": "Idiopathic pulmonary fibrosis (IPF) greatly impacts quality of life and eventually leads to premature death from respiratory failure. Inhaled treprostinil was associated with improvements in forced vital capacity (FVC) and reduced exacerbations of underlying lung disease in post hoc analyses from a phase 3 study in patients with precapillary pulmonary hypertension due to interstitial lung disease. These results, combined with preclinical evidence of treprostinil's antifibrotic activity, support its investigation in the treatment of IPF.",
+            "journal": "BMJ open respiratory research",
+            "year": "2022",
+            "authors": [
+              "Nathan Steven D",
+              "Behr Jurgen",
+              "Cottin Vincent",
+              "Lancaster Lisa",
+              "Smith Peter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Double-Blind Method",
+              "Epoprostenol",
+              "Humans",
+              "Idiopathic Pulmonary Fibrosis",
+              "Quality of Life",
+              "Treatment Outcome",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35787522/"
+          },
+          {
+            "pmid": "38854955",
+            "title": "Severe bronchospasm and acute respiratory failure associated with inhaled prostacyclin therapy.",
+            "abstract": "Prostacyclin therapy is a mainstay of the management of pulmonary arterial hypertension (PAH). Inhaled prostacyclins present safe and effective options for the management of PAH that limit systemic side effects. We describe the first reported case of life-threatening bronchospasm and acute respiratory failure associated with inhaled prostacyclin administration.",
+            "journal": "Pulmonary circulation",
+            "year": "2024",
+            "authors": [
+              "Steinbacher Donna",
+              "Murray Brian",
+              "Devlin Thomas",
+              "Carson Shannon S",
+              "Ford H James"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38854955/"
+          },
+          {
+            "pmid": "35274053",
+            "title": "The Use of Inhaled Epoprostenol for Acute Respiratory Distress Syndrome Secondary Due To COVID-19: a Case Series.",
+            "abstract": "Inhaled epoprostenol (iEpo) is a pulmonary vasodilator used to treat refractory respiratory failure, including that caused by Coronavirus 2019 (COVID-19) pneumonia.",
+            "journal": "Journal of critical care medicine (Universitatea de Medicina si Farmacie din Targu-Mures)",
+            "year": "2022",
+            "authors": [
+              "Imtiaz Komal",
+              "Jodeh Wade",
+              "Sudekum Dave",
+              "DiGiovine Bruno",
+              "Hecht Jason"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35274053/"
+          },
+          {
+            "pmid": "23153879",
+            "title": "Mechanical ventilation.",
+            "abstract": "The treatment of respiratory failure requiring mechanical ventilation has advanced significantly over the last 20 years. The goal of therapy in patients with acute respiratory distress syndrome should be to optimize oxygenation while minimizing the risk of ventilator-induced lung injury and providing adequate ventilation. Appropriate use of ventilation modes and strategies, positive-end expiratory pressure levels, and recruitment maneuvers can improve oxygen delivery. Salvage therapies, such as prone positioning, inhaled epoprostenol and nitric oxide, and high-frequency oscillatory ventilation, have a well-established role in supportive management and are associated with improved oxygenation but not survival.",
+            "journal": "The Surgical clinics of North America",
+            "year": "2012",
+            "authors": [
+              "James Mollie M",
+              "Beilman Greg J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Lung Injury",
+              "Humans",
+              "Respiration, Artificial",
+              "Respiratory Distress Syndrome",
+              "Respiratory Insufficiency"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23153879/"
+          },
+          {
+            "pmid": "27737558",
+            "title": "Adjuvants to Mechanical Ventilation for Acute Respiratory Failure. Adoption, De-adoption, and Factors Associated with Selection.",
+            "abstract": "Adoption and de-adoption of adjuvant strategies to mechanical ventilation for acute respiratory failure (ARF), and factors associated with their selection, have not been extensively evaluated.",
+            "journal": "Annals of the American Thoracic Society",
+            "year": "2017",
+            "authors": [
+              "Munshi Laveena",
+              "Gershengorn Hayley B",
+              "Fan Eddy",
+              "Wunsch Hannah",
+              "Ferguson Niall D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Inhalation",
+              "Aged",
+              "Antihypertensive Agents",
+              "Bronchodilator Agents",
+              "Cohort Studies",
+              "Epoprostenol",
+              "Extracorporeal Membrane Oxygenation",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27737558/"
+          },
+          {
+            "pmid": "34933375",
+            "title": "Pulmonary Hypertension and COVID-19.",
+            "abstract": "Coronavirus disease 2019 (COVID-19) is a primary respiratory infectious disease, which can result in pulmonary and cardiovascular complications. From its first appearance in the city of Wuhan (China), the infection spread worldwide, leading to its declaration as a pandemic on March 11, 2020. Clinical research on SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) suggests that the virus may determine changes in the pulmonary hemodynamics through mechanisms of endothelial dysfunction, vascular leak, thrombotic microangiopathy, and venous thromboembolism that are similar to those leading to pulmonary hypertension (PH). Current available studies report echocardiographic signs of PH in approximately 12 to 13% of hospitalized patients with COVID-19. Those with chronic pulmonary obstructive disease, congestive heart failure, pulmonary embolism, and prior PH are at increased risk to develop or worsen PH. Evidence of PH seems to be associated with increased disease severity and poor o",
+            "journal": "Hamostaseologie",
+            "year": "2022",
+            "authors": [
+              "Castiglione Laura",
+              "Droppa Michal"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "COVID-19",
+              "Epoprostenol",
+              "Heart Failure",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Pandemics",
+              "SARS-CoV-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34933375/"
+          },
+          {
+            "pmid": "37401479",
+            "title": "Inhaled Epoprostenol Compared With Nitric Oxide for Right Ventricular Support After Major Cardiac Surgery.",
+            "abstract": "Right ventricular failure (RVF) is a leading driver of morbidity and death after major cardiac surgery for advanced heart failure, including orthotopic heart transplantation and left ventricular assist device implantation. Inhaled pulmonary-selective vasodilators, such as inhaled epoprostenol (iEPO) and nitric oxide (iNO), are essential therapeutics for the prevention and medical management of postoperative RVF. However, there is limited evidence from clinical trials to guide agent selection despite the significant cost considerations of iNO therapy.",
+            "journal": "Circulation",
+            "year": "2023",
+            "authors": [
+              "Ghadimi Kamrouz",
+              "Cappiello Jhaymie L",
+              "Wright Mary Cooter",
+              "Levy Jerrold H",
+              "Bryner Benjamin S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Administration, Inhalation",
+              "Cardiac Surgical Procedures",
+              "Epoprostenol",
+              "Heart Failure",
+              "Nitric Oxide",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37401479/"
+          },
+          {
+            "pmid": "36158384",
+            "title": "A Comparison of Inhaled Epoprostenol in Patients With Acute Respiratory Distress Syndrome and COVID-19-Associated Acute Respiratory Distress Syndrome.",
+            "abstract": "Introduction Acute respiratory distress syndrome (ARDS) and coronavirus disease 2019 (COVID-19)-associated acute respiratory distress syndrome (CARDS) are both characterized by non-cardiogenic pulmonary edema and severe hypoxemia that leads to a high percentage of patients suffering in-hospital mortality. Mechanistically, inhaled epoprostenol (iEPO) has shown a role in the treatment of ARDS and CARDS but little data are available directly comparing the two disease processes. Due to the lack of evidence of iEPO in ARDS and CARDS, the authors sought to compare the pulmonary effects of iEPO for mechanically ventilated patients with CARDS against a case match control of those with ARDS. Methods A retrospective cohort of all patients receiving iEPO between January 1, 2020, and February 22, 2022, was reviewed. Patients with ARDS were case-matched in a 2:1 allocation ratio of CARDS to ARDS by the number of medical comorbidities and age +/- 5 years. Clinical data collected included patient dem",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Robinson John",
+              "Santarelli Anthony",
+              "Wilks Nathan",
+              "Latu Lelann",
+              "Charran Ordessia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36158384/"
+          },
+          {
+            "pmid": "31729256",
+            "title": "Effectiveness, Safety, and Economic Comparison of Inhaled Epoprostenol Brands, Flolan and Veletri, in Acute Respiratory Distress Syndrome.",
+            "abstract": "Background: No previous studies exist examining 2 inhaled epoprostenol formulations in an acute respiratory distress syndrome (ARDS) patient population. Objective: The study aim was to evaluate a formulary conversion from inhaled Flolan to Veletri to determine the impact on effectiveness, safety, and cost in patients with ARDS. Methods: This was a single-center, retrospective, matched cohort observational study at a tertiary care academic medical center. Patients included were mechanically ventilated, adult patients with ARDS receiving inhaled Flolan or Veletri for ≥1 hour in the intensive care unit. Results: A total of 132 patients were included in the matched cohort. There was no difference detected in change in partial pressure of arterial O2/fraction of inspired O2 (PaO2/FiO2) ratio after 1 hour of therapy between the inhaled Flolan and Veletri groups (27.2 ± 46.2 vs 30 ± 68 mm Hg, P = 0.78). Significant differences in secondary outcomes included incidence of hypotension (83% vs 95",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2020",
+            "authors": [
+              "Hawn Jaclyn M",
+              "Bauer Seth R",
+              "Wanek Matthew R",
+              "Li Manshi",
+              "Wang Xiaofeng"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Adult",
+              "Drug Compounding",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Hypotension",
+              "Middle Aged",
+              "Pharmaceutic Aids",
+              "Respiratory Distress Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31729256/"
+          },
+          {
+            "pmid": "3511889",
+            "title": "Prostaglandin and complement interaction in clinical acute respiratory failure.",
+            "abstract": "This study investigated the interaction of plasma levels of circulating prostaglandins and activated complement in clinical acute respiratory failure (ARDS). Fifty patients at risk for ARDS were followed up for up to ten days. Arterial blood gases and plasma levels of complement components C3a and C5a, thromboxane B2 (TxB), and prostaglandin 6-keto-F1 alpha (PGI) and granulocyte aggregation (GA) were measured daily. Seventeen patients (34%) developed ARDS, with mortality of 41% vs 23% for patients without ARDS. Compared with patients without ARDS, the ARDS group had significantly increased plasma C3a (1,130 +/- 750 vs 636 +/- 368 ng/mL) and granulocyte aggregation (48 +/- 10 vs 17 +/- 4 percentage of the maximum light transmission [% max T]). Plasma C5a, TxB, or PGI did not change significantly with or without ARDS. No measured variable was significantly associated with mortality. Regression analysis revealed significant correlations between GA, TxB, PGI, and arterial oxygenation. Plas",
+            "journal": "Archives of surgery (Chicago, Ill. : 1960)",
+            "year": "1986",
+            "authors": [
+              "Slotman G J",
+              "Burchard K W",
+              "Yellin S A",
+              "Williams J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Cell Aggregation",
+              "Complement Activation",
+              "Complement C3",
+              "Complement C3a",
+              "Complement C5",
+              "Complement C5a"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3511889/"
+          },
+          {
+            "pmid": "38516615",
+            "title": "Use of Inhaled Epoprostenol in Patients With COVID-19 Receiving Humidified, High-Flow Nasal Oxygen Is Associated With Progressive Respiratory Failure.",
+            "abstract": "The clinical benefit of using inhaled epoprostenol (iEpo) through a humidified high-flow nasal cannula (HHFNC) remains unknown for patients with COVID-19.",
+            "journal": "CHEST critical care",
+            "year": "2023",
+            "authors": [
+              "Michelson Andrew P",
+              "Lyons Patrick G",
+              "Nguyen Nguyet M",
+              "Reynolds Daniel",
+              "McDonald Rachel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38516615/"
+          },
+          {
+            "pmid": "3892164",
+            "title": "Thromboxane and prostacyclin in clinical acute respiratory failure.",
+            "abstract": "Plasma levels of thromboxane A2 and prostacyclin have been elevated during experimental acute respiratory failure (ARDS). The present study evaluates the relationship of plasma levels of thromboxane A2 and prostacyclin, measured by radioimmunoassay as the stable metabolites thromboxane B2 (TxB) and prostaglandin 6-K-F1 alpha (PGI) to the incidence of clinical ARDS. Sixty-seven consecutive patients at risk for ARDS were studied prospectively. TxB, PGI, platelet, and leukocyte counts were measured daily for up to 5 days. Of 55 patients without cerebral injury, 25 (45%) developed ARDS, and 30 did not. Of 12 patients with cerebral injury, none developed ARDS. This difference was highly significant (P less than 0.01). TxB was increased and age lower with head injury (P less than 0.05). PGI was significantly lower in ARDS (110 +/- 32 vs 227 +/- 211 pg/ml, P less than 0.05), and mean TxB was unchanged. TxB was increased in age greater than 60 and decreased with prostaglandin inhibitors. ARDS ",
+            "journal": "The Journal of surgical research",
+            "year": "1985",
+            "authors": [
+              "Slotman G J",
+              "Burchard K W",
+              "Gann D S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "6-Ketoprostaglandin F1 alpha",
+              "Adrenal Cortex Hormones",
+              "Age Factors",
+              "Craniocerebral Trauma",
+              "Epoprostenol",
+              "Female",
+              "Humans",
+              "Male",
+              "Platelet Count",
+              "Prostaglandin Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3892164/"
+          },
+          {
+            "pmid": "12952271",
+            "title": "Zardaverine and aerosolised iloprost in a model of acute respiratory failure.",
+            "abstract": "In this study, the impact of aerosolised prostacyclin (PGI2) and iloprost in the absence or presence of subthreshold intravascular doses of the dual-selective phosphodiesterase-3/4 inhibitor zardaverine was investigated in an experimental model of acute respiratory failure. In perfused rabbit lungs, continuous infusion of the thromboxane-A2-mimetic U46619 provoked pulmonary hypertension, accompanied by progressive lung oedema formation and severe ventilation-perfusion mismatch with predominance of shunt flow (increasing from approximately 2 to 58%, as assessed by the multiple inert gas elimination technique). Aerosolisation of PGI2 (in total 1.05 microg x kg(-1) for 15 min caused a decrease in pulmonary artery pressure (Ppa) and a limitation of maximum shunt flow to approximately 37%. When nebulised PGI2 was combined with subthreshold intravascular zardaverine, which did not affect pulmonary haemodynamics per se, the duration of the PGI2 effect was increased. Aerosolisation of 3 microg",
+            "journal": "The European respiratory journal",
+            "year": "2003",
+            "authors": [
+              "Schermuly R T",
+              "Leuchte H",
+              "Ghofrani H A",
+              "Weissmann N",
+              "Rose F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "15-Hydroxy-11 alpha,9 alpha-(epoxymethano)prosta-5,13-dienoic Acid",
+              "Administration, Inhalation",
+              "Animals",
+              "Antihypertensive Agents",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Drug Therapy, Combination",
+              "Epoprostenol",
+              "Female",
+              "Iloprost"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12952271/"
+          },
+          {
+            "pmid": "8647586",
+            "title": "Extracorporeal membrane oxygenation with veno-venous bypass and apneic oxygenation for treatment of severe neonatal respiratory failure.",
+            "abstract": "Seven newborn infants with life-threatening respiratory failure were treated with veno-venous (V-V) extracorporeal lung support and apneic oxygenation after maximal ventilatory and pharmacological treatment failed. Diagnosis were meconium aspiration syndrome in 3 cases, respiratory distress syndrome in 2, sepsis in 1, congenital diaphragmatic hernia in 1. Before ECMO 6 infants received tolazoline, 4 surfactant, 3 high frequency ventilation, 1 prostaglandin E, 1 epoprostenol, 2 nitric oxide. Newborns were highly hypoxemic at admission and all but one underwent rescue cannulation. V-V bypass was performed with a single lumen single cannula and tidal flow was generated by an alternating clamp using a non-occlusive roller pump. The mean duration of bypass was 162.4 +/- 162.3 hours and infants were extubated 94.5 +/- 74.8 hours after decannulation. Five newborns survived and two died. Growth and neurologic development of the older children is normal. The extracorporeal lung support with V-V",
+            "journal": "The International journal of artificial organs",
+            "year": "1995",
+            "authors": [
+              "Somaschini M",
+              "Bellan C",
+              "Locatelli G",
+              "Glauber M",
+              "Colombo A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic alpha-Antagonists",
+              "Epoprostenol",
+              "Extracorporeal Membrane Oxygenation",
+              "Humans",
+              "Hypoxia",
+              "Infant, Newborn",
+              "Nitric Oxide",
+              "Oxygen Consumption",
+              "Platelet Aggregation Inhibitors",
+              "Prostaglandins E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8647586/"
+          },
+          {
+            "pmid": "32655855",
+            "title": "Anti-synthetase syndrome-associated pulmonary veno-occlusive disease.",
+            "abstract": "Pulmonary arterial hypertension has been reported with a prevalence of 7.9% in patients with anti-synthetase syndrome; however, anti-synthetase syndrome associated with pulmonary veno-occlusive disease (PVOD) has never before been described in the literature. We present a novel case of anti-synthetase syndrome-associated PVOD in a patient who presented with hypoxic respiratory failure associated with right heart failure and was diagnosed with anti-synthetase syndrome based on his autoimmune serology and pre-capillary pulmonary hypertension on right heart catheterization. He was initiated on pulmonary arterial hypertension therapy, but with escalating dose of parenteral epoprostenol, experienced acute clinical worsening with chest imaging concerning for PVOD that was confirmed on autopsy. Anti-synthetase syndrome can be associated with PVOD, and it should be suspected in patients who have evidence of pre-capillary pulmonary hypertension and who deteriorate with the initiation of pulmona",
+            "journal": "Pulmonary circulation",
+            "year": "2020",
+            "authors": [
+              "Kay Diana",
+              "Kadri Ferdous",
+              "Fitzpatrick Garrett",
+              "Alnuaimat Hassan",
+              "Reddy Raju"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32655855/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete rare pulmonary disease",
+        "txgnn_score": 0.7495027184486389,
+        "txgnn_rank": 43820,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01240",
+    "name": "Epoprostenol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Epoprostenol"
+      },
+      "queried_at": "2026-03-10T07:21:17.088365",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Epoprostenol"
+      },
+      "queried_at": "2026-03-10T07:21:18.087563",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:21:18.636834",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:21:21.682959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T07:21:23.583054",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:21:24.104714",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:21:27.411982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T07:21:29.221609",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T07:21:29.864891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T07:21:33.734265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T07:21:35.412671",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T07:21:35.913962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T07:21:39.184783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T07:21:39.937123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T07:21:40.510105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T07:21:44.042092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T07:21:45.197572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T07:21:45.842619",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T07:21:49.048811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T07:21:49.887544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T07:21:50.392751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T07:21:53.641481",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T07:21:57.175763",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T07:21:57.938790",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T07:22:01.206318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T07:22:03.467607",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "respiratory failure"
+      },
+      "queried_at": "2026-03-10T07:22:05.199452",
+      "status": "success",
+      "result_count": 43,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "respiratory failure"
+      },
+      "queried_at": "2026-03-10T07:22:08.141406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "respiratory failure"
+      },
+      "queried_at": "2026-03-10T07:22:10.513793",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "obsolete rare pulmonary disease"
+      },
+      "queried_at": "2026-03-10T07:22:11.109940",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "obsolete rare pulmonary disease"
+      },
+      "queried_at": "2026-03-10T07:22:14.853999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Epoprostenol",
+        "disease": "obsolete rare pulmonary disease"
+      },
+      "queried_at": "2026-03-10T07:22:15.688245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:22:15.694089"
+  }
+}

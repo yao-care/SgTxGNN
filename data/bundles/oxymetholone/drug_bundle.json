@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Oxymetholone",
+    "drugbank_id": "DB06412",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "seborrheic dermatitis",
+        "txgnn_score": 0.9905316829681396,
+        "txgnn_rank": 10166,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9868320226669312,
+        "txgnn_rank": 12954,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9852871894836426,
+        "txgnn_rank": 14022,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic keratosis",
+        "txgnn_score": 0.9704930186271667,
+        "txgnn_rank": 21081,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar inverted follicular keratosis",
+        "txgnn_score": 0.9648616909980774,
+        "txgnn_rank": 22891,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9594983458518982,
+        "txgnn_rank": 24415,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+        "txgnn_score": 0.938835382461548,
+        "txgnn_rank": 29017,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "psoriasis",
+        "txgnn_score": 0.9334449172019958,
+        "txgnn_rank": 30023,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parapsoriasis",
+        "txgnn_score": 0.9284924268722534,
+        "txgnn_rank": 30908,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute lichenoid pityriasis",
+        "txgnn_score": 0.90727698802948,
+        "txgnn_rank": 34040,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06412",
+    "name": "Oxymetholone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Oxymetholone"
+      },
+      "queried_at": "2026-03-10T05:49:01.871251",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Oxymetholone"
+      },
+      "queried_at": "2026-03-10T05:49:03.458047",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T05:49:04.044656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T05:49:06.899608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T05:49:07.960948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T05:49:08.487031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T05:49:11.313285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T05:49:12.038970",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T05:49:12.666851",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T05:49:16.514373",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T05:49:17.295001",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T05:49:17.911313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T05:49:21.454447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T05:49:22.413922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T05:49:22.950638",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T05:49:26.689252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T05:49:27.590420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T05:49:28.120504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T05:49:30.888751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T05:49:31.538489",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T05:49:32.069982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T05:49:34.788775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T05:49:35.536817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T05:49:36.003783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T05:49:38.667185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "psoriasis"
+      },
+      "queried_at": "2026-03-10T05:49:39.792223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "parapsoriasis"
+      },
+      "queried_at": "2026-03-10T05:49:40.541858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "parapsoriasis"
+      },
+      "queried_at": "2026-03-10T05:49:44.312329",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "parapsoriasis"
+      },
+      "queried_at": "2026-03-10T05:49:44.991678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "acute lichenoid pityriasis"
+      },
+      "queried_at": "2026-03-10T05:49:45.562491",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "acute lichenoid pityriasis"
+      },
+      "queried_at": "2026-03-10T05:49:49.146480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxymetholone",
+        "disease": "acute lichenoid pityriasis"
+      },
+      "queried_at": "2026-03-10T05:49:49.892546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:49:49.894220"
+  }
+}

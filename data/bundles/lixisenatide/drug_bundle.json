@@ -1,0 +1,531 @@
+{
+  "drug": {
+    "inn": "Lixisenatide",
+    "drugbank_id": "DB09265",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.97561377286911,
+        "txgnn_rank": 19060,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.9745618104934692,
+        "txgnn_rank": 19504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.9745618104934692,
+        "txgnn_rank": 19505,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.97232586145401,
+        "txgnn_rank": 20393,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.9621968269348145,
+        "txgnn_rank": 23686,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.960249960422516,
+        "txgnn_rank": 24211,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32911572",
+            "title": "Effects of lixisenatide treatment on mild cachexia and related metabolic abnormalities in Walker-256 tumour-bearing rats.",
+            "abstract": "Lixisenatide, a glucagon-like peptide-1 (GLP-1) receptor agonist, is used in the treatment of type 2 diabetes mellitus (T2DM). It increases insulin (INS) secretion and can decrease INS resistance, improving metabolic disorders in this disease. However, its effects on metabolic disturbances in cancer-bearing, which also exhibit decreased INS secretion and INS resistance, changes that may contribute to weight loss (cachexia), have not yet been evaluated. The purpose of this study was to investigate the lixisenatide treatment effects on mild cachexia and related metabolic abnormalities in Walker-256 tumour-bearing rats. Lixisenatide (50 μg kg-1 , SC) was administered once daily, for 6 days, after inoculation of Walker-256 tumour cells. Acute lixisenatide treatment did not improve hypoinsulinemia, INS secretion and INS resistance of tumour-bearing rats. It also did not prevent the reduced glucose and increased triacylglycerol and lactate in the blood and nor the loss of retroperitoneal and",
+            "journal": "Cell biochemistry and function",
+            "year": "2021",
+            "authors": [
+              "Quintilhano Débora L",
+              "Miksza Daniele R",
+              "Biazi Giuliana R",
+              "Frasson-Uemura Isabele G",
+              "Graciano Maria Fernanda R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Glucose",
+              "Cachexia",
+              "Cell Line, Tumor",
+              "Glucose",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Insulin",
+              "Insulin Resistance",
+              "Insulin Secretion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32911572/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9601266980171204,
+        "txgnn_rank": 24241,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9591689705848694,
+        "txgnn_rank": 24494,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.956654727458954,
+        "txgnn_rank": 25049,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.82027268409729,
+        "txgnn_rank": 40859,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09265",
+    "name": "Lixisenatide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lixisenatide"
+      },
+      "queried_at": "2026-03-10T08:15:09.864000",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lixisenatide"
+      },
+      "queried_at": "2026-03-10T08:15:11.605693",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T08:15:12.222144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T08:15:16.487023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T08:15:17.324081",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:18.076532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:22.085763",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:23.781812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:24.351495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:28.406067",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:31.258131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:32.483449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:35.846388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T08:15:37.002986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:15:37.595898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:15:40.312680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:15:41.125204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T08:15:41.654910",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T08:15:45.331397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T08:15:48.616952",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:15:51.700331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:15:55.531375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:15:56.340152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T08:15:56.856970",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T08:16:00.399963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T08:16:01.622112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:16:02.144279",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:16:05.425722",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T08:16:06.474105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T08:16:07.085894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T08:16:10.337197",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lixisenatide",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T08:16:11.044919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:16:11.054219"
+  }
+}

@@ -1,0 +1,1253 @@
+{
+  "drug": {
+    "inn": "Trabectedin",
+    "drugbank_id": "DB05109",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9972604513168336,
+        "txgnn_rank": 4289,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03470805",
+            "title": "Phase-II Study of Olaparib as Maintenance Therapy After Response to Trabectedin-pegylated Liposomal Doxorubicin in Recurrent Ovarian Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-06-21",
+            "completion_date": "2022-07-27",
+            "country": "Spain",
+            "enrollment": 9,
+            "brief_summary": "Epithelial ovarian cancer harbours 20% Breast Cancer gene (BRCA)1/2 mutations independently of family history. Poly ADP ribose polymerase (PARP) inhibitors (PARPi) have shown clinical activity among patients with homologous recombination deficiency (HRD) and specifically among BRCA1/2 mutation carriers.\n\nThe European Medicines Agency (EMA) approved the use of olaparib as maintenance therapy \"as monotherapy for the maintenance treatment of adult patients with platinum sensitive relapsed BRCA muta",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Provision of informed consent prior to any study specific procedures.\n2. Female aged ≥18 years.\n3. Patients with high-grade serous or endometrioid ovarian carcinoma.\n4. Treatment-free interval of last platinum (TFIp) higher than 6 months.\n5. BRCA1/2 germline or somatic delete",
+            "endpoints": [
+              "Progression free survival (PFS)"
+            ],
+            "sponsor": "Grupo Español de Investigación en Cáncer de Ovario",
+            "url": "https://clinicaltrials.gov/study/NCT03470805"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00786838",
+            "title": "A Single-Blind, Multicenter, Placebo-Controlled, Sequential Design Study Evaluating the Potential Effects of a Single-Dose Administration of Trabectedin on the QT Intervals of the Electrocardiogram",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-10",
+            "completion_date": "2009-12",
+            "country": "Spain, France, India, South Korea, Belgium, United States, Russia",
+            "enrollment": 76,
+            "brief_summary": "The purpose of this study is to assess the potential effects of trabectedin on the QT/QTc interval duration measured by electrocardiograms (ECGs) in participants with advanced solid tumor malignancies when administered at a therapeutic dose.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants with locally advanced or metastatic solid tumors who have received three or less prior lines of systemic chemotherapy\n* Participants must have relapsed or had progressive disease following standard of care treatment with chemotherapy prior to enrollment, or intole",
+            "endpoints": [
+              "The Difference in the Change From Baseline (Predose on Day 1) in QTc Intervals Trabectedin Relative to Placebo at 24 Hour Post Dose by Fridericia Correction",
+              "The Difference in the Change From Baseline (Predose on Day 1) in QTc Intervals Trabectedin Relative to Placebo at 24 Hour Post Dose by Bazett's Correction"
+            ],
+            "sponsor": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C.",
+            "url": "https://clinicaltrials.gov/study/NCT00786838"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26592307",
+            "title": "Trabectedin for the treatment of breast cancer.",
+            "abstract": "Trabectedin is an anti-tumor compound registered in Europe and in several other countries, for the second-line treatment of soft tissue sarcoma (STS) and for ovarian cancer in combination with liposomal doxorubicin. Trabectedin inhibits cancer cell proliferation mainly affecting the transcription regulation. Trabectedin also acts as a modulator of tumor microenvironment by reducing the number of tumor associated macrophages (TAM). Because of its unique mechanism of action, trabectedin has the potential to act as antineoplastic agent also in several solid malignancies, including breast cancer (BC).",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2016",
+            "authors": [
+              "D'Incalci Maurizio",
+              "Zambelli Alberto"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "DNA Repair",
+              "Dioxoles",
+              "Female",
+              "Humans",
+              "Neoplasm Metastasis",
+              "Tetrahydroisoquinolines",
+              "Trabectedin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26592307/"
+          },
+          {
+            "pmid": "39777457",
+            "title": "Trabectedin Enhances the Antitumor Effects of IL-12 in Triple-Negative Breast Cancer.",
+            "abstract": "IL-12 is a potent NK cell-stimulating cytokine, but the presence of immunosuppressive myeloid cells such as myeloid-derived suppressor cells (MDSC) can inhibit IL-12-induced NK-cell cytotoxicity. Thus, we hypothesized that trabectedin, a myeloid cell-depleting agent, would improve the efficacy of IL-12 in triple-negative breast cancer (TNBC). In vitro treatment of healthy donor NK cells with trabectedin increased expression of the activation marker CD69 and mRNA expression of T-box transcription factor (Tbx21), the cytotoxic ligands TNF-related apoptosis-inducing ligand (TNFSF10), Fas ligand (FASLG), and the dendritic cell (DC)-recruiting chemokine lymphotactin (XCL1). The combination of IL-12 and trabectedin increased NK-cell cytotoxicity and activation and production of IFN-γ, TNF-α, and granzyme B in the presence of human TNBC cells. Treatment of 4T1 and EMT6 tumor-bearing mice with IL-12 and trabectedin led to a significant reduction in tumor burden compared with single-agent contr",
+            "journal": "Cancer immunology research",
+            "year": "2025",
+            "authors": [
+              "Schwarz Emily",
+              "Savardekar Himanshu",
+              "Zelinskas Sara",
+              "Mouse Abigail",
+              "Lapurga Gabriella"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Triple Negative Breast Neoplasms",
+              "Animals",
+              "Trabectedin",
+              "Interleukin-12",
+              "Humans",
+              "Female",
+              "Mice",
+              "Cell Line, Tumor",
+              "Killer Cells, Natural",
+              "Xenograft Model Antitumor Assays"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39777457/"
+          },
+          {
+            "pmid": "27710871",
+            "title": "Trabectedin as a chemotherapy option for patients with BRCA deficiency.",
+            "abstract": "Trabectedin is a marine-derived product that was originally isolated from the Caribbean sea squirt Ecteinascidia turbinata and the first anticancer marine drug to be approved by the European Union. It is currently used as a single agent for the treatment of patients with soft tissue sarcoma after failure of anthracyclines and ifosfamide, or for those patients who are unsuited to receive these agents, and in patients with relapsed, platinum-sensitive ovarian cancer in combination with pegylated liposomal doxorubicin. Trabectedin has a unique multi-faceted mechanism of action that involves transcription regulation and DNA repair systems, including transcription-coupled nucleotide excision repair and homologous recombination repair (HRR) as the main hallmarks of its antiproliferative activity. In addition, trabectedin has shown the ability to modulate the tumor microenvironment. Indeed, the activity of trabectedin is related to altered function and expression of DNA repair genes, such as ",
+            "journal": "Cancer treatment reviews",
+            "year": "2016",
+            "authors": [
+              "Monk Bradley J",
+              "Lorusso Domenica",
+              "Italiano Antoine",
+              "Kaye Stan B",
+              "Aracil Miguel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Alkylating",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "BRCA1 Protein",
+              "BRCA2 Protein",
+              "Breast Neoplasms",
+              "Dioxoles",
+              "Doxorubicin",
+              "Female",
+              "Genes, BRCA1",
+              "Genes, BRCA2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27710871/"
+          },
+          {
+            "pmid": "25239225",
+            "title": "Trabectedin as a single-agent treatment of advanced breast cancer after anthracycline and taxane treatment: a multicenter, randomized, phase II study comparing 2 administration regimens.",
+            "abstract": "The purpose of this study was to assess the efficacy and safety of trabectedin for advanced breast cancer.",
+            "journal": "Clinical breast cancer",
+            "year": "2014",
+            "authors": [
+              "Goldstein Lori J",
+              "Gurtler Jayne",
+              "Del Prete Salvatore A",
+              "Tjulandin Sergei",
+              "Semiglazov Vladimir F"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anthracyclines",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carcinoma, Ductal, Breast",
+              "Carcinoma, Lobular",
+              "Dioxoles",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25239225/"
+          },
+          {
+            "pmid": "23364677",
+            "title": "Analysis of DNA repair-related genes in breast cancer reveals CUL4A ubiquitin ligase as a novel biomarker of trabectedin response.",
+            "abstract": "Trabectedin is more active in nucleotide excision repair (NER)-efficient and homologous recombination repair (HRR)-deficient cells. As up to 25% of sporadic breast tumors present somatic inactivation of the HRR pathway (BRCAness phenotype), we sought to characterize trabectedin effect in BRCA1-proficient and BRCA1-null breast cancer cell lines. We evaluated whether HRR and NER gene expression correlates with trabectedin sensitivity and explored the response predictive value of the CUL4A ubiquitin ligase, which ubiquitinates NER pathway members. We characterized trabectedin cytotoxicity, cell-cycle effects, and BRCA1, BRCA2, XRCC3, XPG, ERCC1, and CUL4A expression in 10 breast cancer cell lines. Gene expression and trabectedin sensitivity association were determined in cell lines. Survival assays after trabectedin treatment were conducted in CUL4A-silenced BRCA1-proficient and -deficient cells. Because of limited phase II clinical trials evaluating trabectedin efficacy in patients with ",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2013",
+            "authors": [
+              "García María J",
+              "Saucedo-Cuevas Laura Paula",
+              "Muñoz-Repeto Iván",
+              "Fernández Victoria",
+              "Robles María J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Cullin Proteins",
+              "DNA Repair",
+              "Dioxoles",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Gene Expression"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23364677/"
+          },
+          {
+            "pmid": "27266804",
+            "title": "Phase 2 Study of Trabectedin in Patients With Hormone Receptor-Positive, HER-2-Negative, Advanced Breast Carcinoma According to Expression of Xeroderma Pigmentosum G Gene.",
+            "abstract": "Preclinical and clinical data suggest that xeroderma pigmentosum G gene (XPG) status might predict trabectedin efficacy. This phase 2 study evaluated the efficacy of trabectedin at a dose of 1.3 mg/m2 as a 3-hour intravenous infusion every 3 weeks in hormone receptor-positive, HER-2 (human epidermal growth factor receptor 2)-negative, advanced breast cancer patients according to the tumor level of XPG mRNA expression.",
+            "journal": "Clinical breast cancer",
+            "year": "2016",
+            "authors": [
+              "Awada Ahmad",
+              "Cortés Javier",
+              "Martín Miguel",
+              "Aftimos Philippe",
+              "Oliveira Mafalda"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents, Alkylating",
+              "Biomarkers, Pharmacological",
+              "Breast Neoplasms",
+              "DNA-Binding Proteins",
+              "Dioxoles",
+              "Disease-Free Survival",
+              "Drug Administration Schedule"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27266804/"
+          },
+          {
+            "pmid": "19114300",
+            "title": "Phase I clinical and pharmacokinetic study of trabectedin and doxorubicin in advanced soft tissue sarcoma and breast cancer.",
+            "abstract": "The combination of trabectedin (T) and doxorubicin (D) was brought into clinical development in soft tissue sarcoma (STS) and advanced breast cancer (ABC) because of its in vitro and in vivo additive anti-tumour effect, the fact that there are no overlapping toxicities and the anti-tumour activity of T in those tumours. Feasibility and anti-tumour activity of T+D administered every 3 weeks were evaluated in 38 patients (STS=29, ABC=9) untreated for advanced disease. D was given at 60 mg/m(2) and T at escalating doses from 600 to 800 microg/m(2), which was the maximum tolerated dose due to dose-limiting febrile neutropenia and asthenia. The recommended dose--given to 18 patients in total--was 700 microg/m(2) T with 60 mg/m(2) D. The pharmacokinetic profile of T and D at cycle 1 was analysed in 20 patients. The most common toxicities included a severe but reversible ASAT/ALAT increase (94%), nausea/vomiting, neutropenia, asthenia/fatigue, stomatitis. Partial response and stable disease w",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2009",
+            "authors": [
+              "Sessa C",
+              "Perotti A",
+              "Noberasco C",
+              "De Braud F",
+              "Gallerani E"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Alanine Transaminase",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Aspartate Aminotransferases",
+              "Breast Neoplasms",
+              "Dioxoles",
+              "Doxorubicin",
+              "Drug Administration Schedule",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19114300/"
+          },
+          {
+            "pmid": "38863768",
+            "title": "Focus on Trabectedin in Ovarian Cancer: What Do We Still Need to Know?",
+            "abstract": "In the era of single and combination maintenance therapies as well as platinum and Poly (ADP-ribose) polymerase inhibitors (PARPi) resistance, the choice of subsequent treatments following first-line platinum-based chemotherapy in recurrent ovarian cancer (ROC) patients has become increasingly complex. Within the ovarian cancer treatment algorithm, particularly in the emerging context of PARPi resistance, the role of trabectedin, in combination with pegylated liposomal doxorubicin (PLD) still preserves its significance. This paper offers valuable insights into the multifaceted role and mechanism of action of trabectedin in ROC. The main results of clinical trials and studies involving trabectedin/PLD, along with hints of Breast Cancer genes (BRCA)-mutated and BRCAness phenotype cases, are critically discussed. Moreover, this review provides and contextualizes potential scenarios of administering trabectedin in combination with PLD in ROC, according to established guidelines and beyond.",
+            "journal": "Drug design, development and therapy",
+            "year": "2024",
+            "authors": [
+              "Boccia Serena Maria",
+              "Sassu Carolina Maria",
+              "Ergasti Raffaella",
+              "Vertechy Laura",
+              "Apostol Adriana Ionelia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Trabectedin",
+              "Humans",
+              "Ovarian Neoplasms",
+              "Female",
+              "Antineoplastic Agents, Alkylating",
+              "Tetrahydroisoquinolines",
+              "Dioxoles",
+              "Doxorubicin",
+              "Polyethylene Glycols",
+              "Antineoplastic Combined Chemotherapy Protocols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38863768/"
+          },
+          {
+            "pmid": "23792433",
+            "title": "A diverse induction of apoptosis by trabectedin in MCF-7 (HER2-/ER+) and MDA-MB-453 (HER2+/ER-) breast cancer cells.",
+            "abstract": "Trabectedin (Yondelis, ET-743), a semi synthetic tetrahydroisoquinoline alkaloid that was originally derived from the marine tunicate Ecteinascidia turbinata. The objective of this study was to investigate whether trabectedin mediated apoptosis shows any diversity in human breast cancer cell lines with different genotypes. Trabectedin induced cytotoxicity and apoptosis in both breast cancer cells in a time and concentration-dependent manner. The expression levels of the death receptor pathway molecules, TRAIL-R1/DR4, TRAIL-R2/DR5, FAS/TNFRSF6, TNF RI/TNFRSF1A, and FADD were significantly increased by 2.6-, 3.1-, 1.7-, 11.2- and 4.0-fold by trabectedin treatment in MCF-7 cells. However, in MDA-MB-453 cells, the mitochondrial pathway related pro-apoptotic proteins Bax, Bad, Cytochrome c, Smac/DIABLO, and Cleaved Caspase-3 expressions were induced by 4.2-, 3.6-, 4.8-, 4.5-, and 4.4-fold, and the expression levels of anti-apoptotic proteins Bcl-2 and Bcl-XL were reduced by 4.8- and 5.2-fol",
+            "journal": "Toxicology letters",
+            "year": "2013",
+            "authors": [
+              "Atmaca Harika",
+              "Bozkurt Emir",
+              "Uzunoglu Selim",
+              "Uslu Ruchan",
+              "Karaca Burcak"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Apoptosis Regulatory Proteins",
+              "Breast Neoplasms",
+              "Caspase 3",
+              "Caspase 7",
+              "Cell Line, Tumor",
+              "Cytochromes c",
+              "Dioxoles",
+              "Female",
+              "Gene Expression Regulation, Neoplastic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23792433/"
+          },
+          {
+            "pmid": "33185631",
+            "title": "Trabectedin for the therapy of ovarian cancer.",
+            "abstract": "Trabectedin is a marine-derivate antitumor drug with a relevant cytotoxic activity and good safety profile. It has been investigated for the treatment of solid diseases, including ovarian cancer (OC), breast cancer, and soft-tissue sarcoma. In 2009, results from the pivotal trial OVA-301 led the European Medicines Agency (EMA) to the approval of trabectedin in combination with PEGylated liposomal doxorubicin for the treatment of platinum-sensitive recurrent OC; further studies revealed an additional benefit also in the subgroup of patients with partially platinum-sensitive disease and in those with a BRCA-mutated status. Additionally, trabectedin demonstrated to prolong the time interval to the subsequent chemotherapy line. Recently, the improved understanding of the antitumor action exerted by trabectedin paved the way to new investigational trials exploring its combination with targeted therapies.",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2020",
+            "authors": [
+              "Evangelisti G",
+              "Barra F",
+              "D'Alessandro G",
+              "Tantari M",
+              "Stigliani S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Clinical Trials as Topic",
+              "Dioxoles",
+              "Female",
+              "Humans",
+              "Neoplasm Recurrence, Local",
+              "Ovarian Neoplasms",
+              "Tetrahydroisoquinolines",
+              "Trabectedin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33185631/"
+          },
+          {
+            "pmid": "19496709",
+            "title": "Trabectedin for the management of soft-tissue sarcoma.",
+            "abstract": "Trabectedin is a new marine-derived compound that binds the DNA minor groove and interacts with proteins of the DNA-repair machinery. Trabectedin has shown promising single-agent activity in pretreated patients with soft-tissue sarcoma (STS) and ovarian and breast cancer; combination with various other chemotherapeutic drugs is feasible. Toxicities are mainly hematological and hepatic, with grade 3-4 neutropenia and thrombocytopenia observed in approximately 50 and 20% of patients, respectively, and grade 3-4 elevation of liver transaminases observed in 35-50% of patients treated with trabectedin. Trabectedin obtained regulatory approval by the EMEA and in other countries for the treatment of STS patients after failure of all available standard-of-care chemotherapy. Current research focuses on the identification of predictive factors for patients treated with trabectedin as well as the development of other combinations.",
+            "journal": "Expert review of anticancer therapy",
+            "year": "2009",
+            "authors": [
+              "Boudou Laurence",
+              "Baconnier Mathieu",
+              "Blay Jean-Yves",
+              "Lombard-Bohas Catherine",
+              "Cassier Philippe A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Controlled Clinical Trials as Topic",
+              "DNA Repair",
+              "Dioxoles",
+              "Female",
+              "Humans",
+              "Liver",
+              "Neutropenia",
+              "Ovarian Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19496709/"
+          },
+          {
+            "pmid": "27775259",
+            "title": "Major clinical research advances in gynecologic cancer in 2015.",
+            "abstract": "In 2015, fourteen topics were selected as major research advances in gynecologic oncology. For ovarian cancer, high-level evidence for annual screening with multimodal strategy which could reduce ovarian cancer deaths was reported. The best preventive strategies with current status of evidence level were also summarized. Final report of chemotherapy or upfront surgery (CHORUS) trial of neoadjuvant chemotherapy in advanced stage ovarian cancer and individualized therapy based on gene characteristics followed. There was no sign of abating in great interest in immunotherapy as well as targeted therapies in various gynecologic cancers. The fifth Ovarian Cancer Consensus Conference which was held in November 7-9 in Tokyo was briefly introduced. For cervical cancer, update of human papillomavirus vaccines regarding two-dose regimen, 9-valent vaccine, and therapeutic vaccine was reviewed. For corpus cancer, the safety concern of power morcellation in presumed fibroids was explored again with ",
+            "journal": "Journal of gynecologic oncology",
+            "year": "2016",
+            "authors": [
+              "Suh Dong Hoon",
+              "Kim Miseon",
+              "Kim Hak Jae",
+              "Lee Kyung Hun",
+              "Kim Jae Weon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomedical Research",
+              "Breast Neoplasms",
+              "Combined Modality Therapy",
+              "Dioxoles",
+              "Endometrial Neoplasms",
+              "Female",
+              "Genital Neoplasms, Female",
+              "Humans",
+              "Immunotherapy",
+              "Neoadjuvant Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27775259/"
+          },
+          {
+            "pmid": "24941346",
+            "title": "Anti-angiogenic effects of trabectedin (Yondelis; ET-743) on human breast cancer cells.",
+            "abstract": "Trabectedin, a tetrahydroisoquinoline alkaloid derived from a Caribbean tunicate Ecteinascidia turbinata, has been shown to have antitumor effects. In this study, we assessed the possible anti-angiogenic effects of trabectedin on human umbilical vein endothelial cells (HUVECs) and breast cancer cell lines. An XTT cell viability assay was used to determine cytotoxicity. A scratch assay was used to detect the migration of cells after trabectedin treatment. Angiogenic cytokine profiles of breast cancer cell lines, before and after treatment with trabectedin, were investigated using an angiogenesis antibody array. Changes in mRNA expression levels of VEGF were evaluated using qRT-PCR. Trabectedin inhibited the viability of HUVECs and breast cancer cells in a concentration- and time-dependent manner. The migration of both HUVECs and breast cancer cells was suppressed by trabectedin treatment. Angiogenic cytokines which are known to regulate tumorigenicity and angiogenesis, such as GM-CSF, I",
+            "journal": "European cytokine network",
+            "year": "2014",
+            "authors": [
+              "Atmaca Harika",
+              "Uzunoglu Selim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Cell Survival",
+              "Dioxoles",
+              "Female",
+              "Granulocyte-Macrophage Colony-Stimulating Factor",
+              "Human Umbilical Vein Endothelial Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24941346/"
+          },
+          {
+            "pmid": "12960733",
+            "title": "Yondelis (trabectedin, ET-743): the development of an anticancer agent of marine origin.",
+            "abstract": "Yondelis (trabectedin, ET-743) is a novel antitumor agent derived from a marine source, the Caribbean tunicate Ecteinascidia turbinata. Preclinical studies demonstrated activity at low concentrations against a variety of tumors. The mechanism by which ET-743 exerts its antitumor activity has not been completely elucidated yet. Binding to the minor groove of DNA which causes a bend towards the major groove has been demonstrated. Furthermore, ET-743 interferes with DNA binding proteins and transcription factors. Clinical studies have been initiated as phase I dose-finding studies at four different treatment regimens. Dose-limiting toxicities were hematological, including neutropenia and thrombocytopenia. Furthermore, significant liver toxicity was observed, especially as a rise in transaminase levels. Antitumor activity in phase I and phase II trials was studied in multiple tumor types, including soft tissue sarcomas, melanomas and breast cancer. ET-743 is currently being extensively inv",
+            "journal": "Anti-cancer drugs",
+            "year": "2003",
+            "authors": [
+              "van Kesteren Ch",
+              "de Vooght M M M",
+              "López-Lázaro L",
+              "Mathôt R A A",
+              "Schellens J H M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Alkylating",
+              "Cell Cycle",
+              "Chemistry, Pharmaceutical",
+              "Clinical Trials as Topic",
+              "Dioxoles",
+              "Female",
+              "Humans",
+              "Isoquinolines",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12960733/"
+          },
+          {
+            "pmid": "31994460",
+            "title": "Trabectedin (Yondelis®) as a Therapeutic Option in Gynecological Cancers: A Focus on its Mechanisms of Action, Clinical Activity and Genomic Predictors of Drug Response.",
+            "abstract": "The use of predictive biomarkers provides potential individualized cancer therapeutic options to prevent therapy failure as well as serious toxicities. Several recent studies showed that predictive and prognostic biomarkers are a notable personalized strategy to improve patients' care in several cancers. Trabectedin (Yondelis®) is a cytotoxic agent, derived from a marine organism, harbouring a significant antitumor activity against several cancers such as soft tissue sarcoma, ovarian, and breast cancers. Recently and with the advent of molecular genetic testing, BRCA mutational status was found as an important predictor of response to this anticancer drug, especially in gynecological cancers. The aim of this updated review is to discuss the mechanisms of action of trabectedin against the wellknown cancer hallmarks described until today. The current advances were also examined related to genomic biomarkers that can be used in the future to predict the efficacy of this potent anticancer ",
+            "journal": "Current drug targets",
+            "year": "2020",
+            "authors": [
+              "Souid Soumaya",
+              "Aissaoui Dorra",
+              "Srairi-Abid Najet",
+              "Essafi-Benkhadir Khadija"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Alkylating",
+              "BRCA1 Protein",
+              "BRCA2 Protein",
+              "Biomarkers, Pharmacological",
+              "Breast Neoplasms",
+              "Female",
+              "Genital Neoplasms, Female",
+              "Genomics",
+              "Humans",
+              "Trabectedin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31994460/"
+          },
+          {
+            "pmid": "25722380",
+            "title": "Effect of BRCA1 and XPG mutations on treatment response to trabectedin and pegylated liposomal doxorubicin in patients with advanced ovarian cancer: exploratory analysis of the phase 3 OVA-301 study.",
+            "abstract": "We investigated the association of BRCA1 and XPG mutations with response rate (RR), progression-free survival (PFS) and overall survival (OS) in a subset of patients from a phase 3 clinical trial comparing the efficacy and safety of trabectedin + pegylated liposomal doxorubicin (PLD) versus PLD alone in patients with recurrent ovarian cancer.",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2015",
+            "authors": [
+              "Monk B J",
+              "Ghatage P",
+              "Parekh T",
+              "Henitz E",
+              "Knoblauch R"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antibiotics, Antineoplastic",
+              "Antineoplastic Agents, Alkylating",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "BRCA1 Protein",
+              "DNA-Binding Proteins",
+              "Dioxoles",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Doxorubicin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25722380/"
+          },
+          {
+            "pmid": "35023320",
+            "title": "A Novel Metabolic Reprogramming Strategy for the Treatment of Diabetes-Associated Breast Cancer.",
+            "abstract": "Diabetes is directly related to the risk of breast cancer (BC) occurrence and worsened BC prognosis. Currently, there are no specific treatments for diabetes-associated BC. This paper aims to understand the fundamental mechanisms of diabetes-induced BC progression and to develop personalized treatments. It reports a metabolic reprogramming strategy (MRS) that pharmaceutical induction of glucose import and glycolysis with metformin and NF-κB inhibitor (NF-κBi) while blocking the export of excessive lactate via inhibiting monocarboxylate transporter 4 (MCT4) leads to a metabolic crisis within the cancer cells. It demonstrates that the MRS shifts the metabolism of BC cells toward higher production of lactate, blocks lactate secretion, prompts intracellular acidification and induces significant cytotoxicity. Moreover, a novel MCT4 inhibitor CB-2 has been identified by structure-based virtual screening. A triple combination of metformin, CB-2, and trabectedin, a drug that impedes NF-κB sign",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2022",
+            "authors": [
+              "Hao Qiongyu",
+              "Huang Zhimin",
+              "Li Qun",
+              "Liu Dingxie",
+              "Wang Piwen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Diabetes Mellitus, Experimental",
+              "Disease Models, Animal",
+              "Female",
+              "Glucose",
+              "Glycolysis",
+              "Humans",
+              "Hypoglycemic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35023320/"
+          },
+          {
+            "pmid": "18410797",
+            "title": "Emerging agents in the treatment of anthracycline- and taxane-refractory metastatic breast cancer.",
+            "abstract": "Despite the recent trend toward treatment of early stage breast cancer aggressively with anthracyclines and taxanes, nearly half of those women will have metastatic recurrence. Moreover, because of the increasing prior exposure to these drugs, far more women facing first-line therapy for recurrent disease will now have developed anthracycline- and taxane-refractory metastatic breast cancer (ATRMBC), presenting a major therapeutic challenge. A number of established drugs are showing promise in this setting: capecitabine alone or combined with lapatinib; gemcitabine; vinorelbine; and oxaliplatin. At the same time, a variety of new drugs are emerging for potential use in ATRMBC. Among the drugs in clinical development that have shown promising activity include novel classes of compounds (camptothecins and epothilones), newer members of established classes (pemetrexed and vinflunine), and agents with novel mechanisms of action (the mitosis inhibitor E7389 and the ascidian-derived anticance",
+            "journal": "Seminars in oncology",
+            "year": "2008",
+            "authors": [
+              "Dean-Colomb Windy",
+              "Esteva Francisco J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Alkylating",
+              "Antineoplastic Agents, Phytogenic",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Clinical Trials as Topic",
+              "Deoxycytidine",
+              "Dioxoles",
+              "Diphtheria Toxin",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18410797/"
+          },
+          {
+            "pmid": "24692579",
+            "title": "Activity of trabectedin in germline BRCA1/2-mutated metastatic breast cancer: results of an international first-in-class phase II study.",
+            "abstract": "Breast cancer is a heterogeneous disease defined by both germline and somatic abnormalities. In preclinical models, tumors carrying homologous recombination defects are highly sensitive to trabectedin. This phase II trial evaluated the efficacy and safety of trabectedin in BRCA1/2 germline mutation carriers with pretreated metastatic breast cancer (MBC).",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2014",
+            "authors": [
+              "Delaloge S",
+              "Wolp-Diniz R",
+              "Byrski T",
+              "Blum J L",
+              "Gonçalves A"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Dioxoles",
+              "Disease-Free Survival",
+              "Female",
+              "Genes, BRCA1",
+              "Genes, BRCA2",
+              "Germ-Line Mutation",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24692579/"
+          },
+          {
+            "pmid": "38366738",
+            "title": "Effectiveness of trabectedin for radiation-induced angiosarcoma of the breast refractory to several anticancer drugs.",
+            "abstract": "",
+            "journal": "The Journal of dermatology",
+            "year": "2024",
+            "authors": [
+              "Matsuzaki Erina",
+              "Kajihara Ikko",
+              "Tomiguchi Mai",
+              "Kimura Toshihiro",
+              "Araki Seina"
+            ],
+            "pub_types": [
+              "Letter",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Antineoplastic Agents, Alkylating",
+              "Breast Neoplasms",
+              "Drug Resistance, Neoplasm",
+              "Hemangiosarcoma",
+              "Neoplasms, Radiation-Induced",
+              "Trabectedin",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38366738/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "choriocarcinoma of ovary",
+        "txgnn_score": 0.989376664161682,
+        "txgnn_rank": 10982,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonadal germ cell tumor",
+        "txgnn_score": 0.9892107248306274,
+        "txgnn_rank": 11101,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian primitive germ cell tumor",
+        "txgnn_score": 0.989065170288086,
+        "txgnn_rank": 11223,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian malignant mesothelioma",
+        "txgnn_score": 0.9862815737724304,
+        "txgnn_rank": 13374,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27512118",
+            "title": "Trabectedin Is Active against Malignant Pleural Mesothelioma Cell and Xenograft Models and Synergizes with Chemotherapy and Bcl-2 Inhibition In Vitro.",
+            "abstract": "Malignant pleural mesothelioma (MPM) is characterized by widespread resistance to systemic therapy. Trabectedin is an antineoplastic agent targeting both the malignant cells and the tumor microenvironment that has been approved for the treatment of advanced soft tissue sarcoma and ovarian cancer. In this preclinical study, we evaluated the antineoplastic potential of trabectedin as a single agent and in drug combination approaches in human MPM. Therefore, we utilized an extended panel of MPM cell lines (n = 6) and primary cell cultures from surgical MPM specimens (n = 13), as well as nonmalignant pleural tissue samples (n = 2). Trabectedin exerted a dose-dependent cytotoxic effect in all MPM cell cultures in vitro when growing as adherent monolayers or nonadherent spheroids with IC50 values ≤ 2.6 nmol/L. Nonmalignant mesothelial cells were significantly less responsive. The strong antimesothelioma activity was based on cell-cycle perturbation and apoptosis induction. The activity of tr",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2016",
+            "authors": [
+              "Hoda Mir A",
+              "Pirker Christine",
+              "Dong Yawen",
+              "Schelch Karin",
+              "Heffeter Petra"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents, Alkylating",
+              "Apoptosis",
+              "Cell Cycle",
+              "Cell Line, Tumor",
+              "Cell Movement",
+              "Cell Survival",
+              "Cisplatin",
+              "Dioxoles",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27512118/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian cancer, susceptibility to, 1",
+        "txgnn_score": 0.984977126121521,
+        "txgnn_rank": 14206,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27710871",
+            "title": "Trabectedin as a chemotherapy option for patients with BRCA deficiency.",
+            "abstract": "Trabectedin is a marine-derived product that was originally isolated from the Caribbean sea squirt Ecteinascidia turbinata and the first anticancer marine drug to be approved by the European Union. It is currently used as a single agent for the treatment of patients with soft tissue sarcoma after failure of anthracyclines and ifosfamide, or for those patients who are unsuited to receive these agents, and in patients with relapsed, platinum-sensitive ovarian cancer in combination with pegylated liposomal doxorubicin. Trabectedin has a unique multi-faceted mechanism of action that involves transcription regulation and DNA repair systems, including transcription-coupled nucleotide excision repair and homologous recombination repair (HRR) as the main hallmarks of its antiproliferative activity. In addition, trabectedin has shown the ability to modulate the tumor microenvironment. Indeed, the activity of trabectedin is related to altered function and expression of DNA repair genes, such as ",
+            "journal": "Cancer treatment reviews",
+            "year": "2016",
+            "authors": [
+              "Monk Bradley J",
+              "Lorusso Domenica",
+              "Italiano Antoine",
+              "Kaye Stan B",
+              "Aracil Miguel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Alkylating",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "BRCA1 Protein",
+              "BRCA2 Protein",
+              "Breast Neoplasms",
+              "Dioxoles",
+              "Doxorubicin",
+              "Female",
+              "Genes, BRCA1",
+              "Genes, BRCA2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27710871/"
+          },
+          {
+            "pmid": "14669039",
+            "title": "Comparison of four modulators of drug metabolism as protectants against the hepatotoxicity of the novel antitumor drug yondelis (ET-743) in the female rat and in hepatocytes in vitro.",
+            "abstract": "Yondelis (ET-743), a tetrahydroisoquinoline alkaloid isolated from a marine tunicate, is a novel drug with demonstrated anticancer activity in early clinical trials against sarcoma, breast and ovarian carcinoma. Yondelis has myelotoxic and hepatotoxic side effects, the latter reflected by reversible transaminitis and cholangitis. In the female rat pretreatment with high-dose dexamethasone has been shown to abrogate yondelis-mediated hepatotoxicity, an effect tentatively linked to its ability to induce cytochrome P450 CYP3A isoenzymes, which metabolize yondelis. Here we tested the hypothesis that pretreatment of rats with modulators of hepatic drug metabolism, beta-naphthoflavone, phenobarbitone or N-acetylcysteine, protect rat livers against the effects of yondelis.",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2004",
+            "authors": [
+              "Donald Sarah",
+              "Verschoyle Richard D",
+              "Greaves Peter",
+              "Orr Samantha",
+              "Jimeno Jose"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Alkaline Phosphatase",
+              "Animals",
+              "Antineoplastic Agents, Alkylating",
+              "Aspartate Aminotransferases",
+              "Cell Survival",
+              "Chemical and Drug Induced Liver Injury",
+              "Dexamethasone",
+              "Dioxoles",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14669039/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian adenosarcoma",
+        "txgnn_score": 0.984977126121521,
+        "txgnn_rank": 14207,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian Sertoli-Leydig cell tumor",
+        "txgnn_score": 0.9847036600112916,
+        "txgnn_rank": 14377,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian thecoma",
+        "txgnn_score": 0.9845593571662904,
+        "txgnn_rank": 14482,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bilateral breast carcinoma",
+        "txgnn_score": 0.9843112826347352,
+        "txgnn_rank": 14616,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB05109",
+    "name": "Trabectedin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Trabectedin"
+      },
+      "queried_at": "2026-03-10T00:23:48.468473",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Trabectedin"
+      },
+      "queried_at": "2026-03-10T00:23:53.361333",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:23:55.119442",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:24:00.892093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:24:05.953840",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "choriocarcinoma of ovary"
+      },
+      "queried_at": "2026-03-10T00:24:07.027149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "choriocarcinoma of ovary"
+      },
+      "queried_at": "2026-03-10T00:24:11.083114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "choriocarcinoma of ovary"
+      },
+      "queried_at": "2026-03-10T00:24:12.531663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "gonadal germ cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:13.883136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "gonadal germ cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:17.640030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "gonadal germ cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:19.431792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian primitive germ cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:20.498635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian primitive germ cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:25.727121",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian primitive germ cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:27.447498",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian malignant mesothelioma"
+      },
+      "queried_at": "2026-03-10T00:24:28.931126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian malignant mesothelioma"
+      },
+      "queried_at": "2026-03-10T00:24:35.165237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian malignant mesothelioma"
+      },
+      "queried_at": "2026-03-10T00:24:38.633504",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian cancer, susceptibility to, 1"
+      },
+      "queried_at": "2026-03-10T00:24:39.435235",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian cancer, susceptibility to, 1"
+      },
+      "queried_at": "2026-03-10T00:24:45.691955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian cancer, susceptibility to, 1"
+      },
+      "queried_at": "2026-03-10T00:24:50.196560",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian adenosarcoma"
+      },
+      "queried_at": "2026-03-10T00:24:51.315439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian adenosarcoma"
+      },
+      "queried_at": "2026-03-10T00:24:55.635419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian adenosarcoma"
+      },
+      "queried_at": "2026-03-10T00:24:56.637819",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian Sertoli-Leydig cell tumor"
+      },
+      "queried_at": "2026-03-10T00:24:57.946473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian Sertoli-Leydig cell tumor"
+      },
+      "queried_at": "2026-03-10T00:25:03.097372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian Sertoli-Leydig cell tumor"
+      },
+      "queried_at": "2026-03-10T00:25:05.555201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian thecoma"
+      },
+      "queried_at": "2026-03-10T00:25:07.584815",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian thecoma"
+      },
+      "queried_at": "2026-03-10T00:25:12.813367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "ovarian thecoma"
+      },
+      "queried_at": "2026-03-10T00:25:14.262272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "bilateral breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:25:15.039357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "bilateral breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:25:21.038928",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trabectedin",
+        "disease": "bilateral breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:25:22.269236",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:25:22.422707"
+  }
+}

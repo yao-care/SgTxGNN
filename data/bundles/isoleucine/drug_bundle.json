@@ -1,0 +1,899 @@
+{
+  "drug": {
+    "inn": "Isoleucine",
+    "drugbank_id": "DB00167",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gastroparesis (disease)",
+        "txgnn_score": 0.9932233095169068,
+        "txgnn_rank": 8054,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete vitamin D deficiency",
+        "txgnn_score": 0.983491837978363,
+        "txgnn_rank": 15116,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital prothrombin deficiency",
+        "txgnn_score": 0.9790590405464172,
+        "txgnn_rank": 17471,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dyspepsia",
+        "txgnn_score": 0.977392077445984,
+        "txgnn_rank": 18252,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26743458",
+            "title": "Revealing Potential Biomarkers of Functional Dyspepsia by Combining 1H NMR Metabonomics Techniques and an Integrative Multi-objective Optimization Method.",
+            "abstract": "Metabonomics methods have gradually become important auxiliary tools for screening disease biomarkers. However, recognition of metabolites or potential biomarkers closely related to either particular clinical symptoms or prognosis has been difficult. The current study aims to identify potential biomarkers of functional dyspepsia (FD) by a new strategy that combined hydrogen nuclear magnetic resonance ((1)H NMR)-based metabonomics techniques and an integrative multi-objective optimization (LPIMO) method. First, clinical symptoms of FD were evaluated using the Nepean Dyspepsia Index (NDI), and plasma metabolic profiles were measured by (1)H NMR. Correlations between the key metabolites and the NDI scores were calculated. Then, LPIMO was developed to identify a multi-biomarker panel by maximizing diagnostic ability and correlation with the NDI score. Finally, a KEGG database search elicited the metabolic pathways in which the potential biomarkers are involved. The results showed that glut",
+            "journal": "Scientific reports",
+            "year": "2016",
+            "authors": [
+              "Wu Qiaofeng",
+              "Zou Meng",
+              "Yang Mingxiao",
+              "Zhou Siyuan",
+              "Yan Xianzhong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alanine",
+              "Algorithms",
+              "Biomarkers",
+              "Blood Glucose",
+              "Case-Control Studies",
+              "Dyspepsia",
+              "Female",
+              "Glutamine",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26743458/"
+          },
+          {
+            "pmid": "19854601",
+            "title": "1H NMR-based metabonomic study on the metabolic changes in the plasma of patients with functional dyspepsia and the effect of acupuncture.",
+            "abstract": "Functional dyspepsia (FD) is a common gastrointestinal disorder with multiple pathogenic mechanisms seen in clinical practice, and acupuncture may potentially be an alternative therapy for it. In order to investigate the biological effects of FD and the effect of acupuncture on metabolism, (1)H nuclear magnetic resonance (NMR)-based metabonomic techniques have been used to compare the plasma metabolic profiles of six female FD patients with those of six female healthy control subjects. Plasma metabolic profiles of FD patients treated by acupuncture at the Foot-Yangming Meridian were also collected and compared. Data obtained from NMR spectroscopy were subjected to principal components analysis (PCA). The results show that there are relatively higher levels of glucose, acetate, high-density lipoprotein (HDL), and phosphatidylcholine (PtdCho), and lower levels of lactate, leucine/isoleucine, N-acetyl glycoprotein (NAc), and low-density lipoprotein/very low-density lipoprotein (LDL/VLDL) ",
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "2010",
+            "authors": [
+              "Wu Qiaofeng",
+              "Zhang Qi",
+              "Sun Bo",
+              "Yan Xianzhong",
+              "Tang Yong"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acupuncture Therapy",
+              "Adult",
+              "Biomarkers",
+              "Dyspepsia",
+              "Female",
+              "Humans",
+              "Magnetic Resonance Spectroscopy",
+              "Metabolomics",
+              "Protons",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19854601/"
+          },
+          {
+            "pmid": "20712055",
+            "title": "Helicobacter pylori CagA protein polymorphisms and their lack of association with pathogenesis.",
+            "abstract": "To investigate Helicobacter pylori (H. pylori) CagA diversity and to evaluate the association between protein polymorphisms and the occurrence of gastric pathologies.",
+            "journal": "World journal of gastroenterology",
+            "year": "2010",
+            "authors": [
+              "Acosta Nicole",
+              "Quiroga Andrés",
+              "Delgado Pilar",
+              "Bravo María-Mercedes",
+              "Jaramillo Carlos"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acid Motifs",
+              "Amino Acid Sequence",
+              "Antigens, Bacterial",
+              "Bacterial Proteins",
+              "Biopsy",
+              "Chi-Square Distribution",
+              "Colombia",
+              "Duodenal Ulcer",
+              "Gastritis",
+              "Gastritis, Atrophic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20712055/"
+          },
+          {
+            "pmid": "27558952",
+            "title": "Influence of amino acids on gastric adaptive relaxation (accommodation) in rats as evaluated with a barostat.",
+            "abstract": "The present study aimed to evaluate the effects of selected straight alkyl chain, hydroxylated chain and branched chain amino acids on gastric adaptive relaxation, as these have previously been shown to have differing effects on gastric emptying.",
+            "journal": "Journal of smooth muscle research = Nihon Heikatsukin Gakkai kikanshi",
+            "year": "2016",
+            "authors": [
+              "Uchida Masayuki",
+              "Iwamoto Chizuru"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adaptation, Physiological",
+              "Administration, Oral",
+              "Amino Acids",
+              "Animals",
+              "Dyspepsia",
+              "Glycine",
+              "Injections, Intravenous",
+              "Male",
+              "Manometry",
+              "Muscle Relaxation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27558952/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal tubular acidosis",
+        "txgnn_score": 0.9762109518051147,
+        "txgnn_rank": 18781,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9761355",
+            "title": "Benign methylmalonic acidemia in a sibship with distal renal tubular acidosis.",
+            "abstract": "Two male infants born to consanguineous parents were investigated for feeding difficulties in the 1st month of life. Both were found to have distal renal tubular acidosis (dRTA) with hypercalciuria. Nephrocalcinosis was present in the first child but not in the second. Urinary organic acid profile demonstrated an excess of methylmalonic acid (MMA) in both children in the absence of any other organic acid. MMA mutase activity and propionate incorporation were normal. There have been no neurological symptoms in either child. The first child has normal growth and psychomotor development at 4 years. His brother, who also has significant gastrooesophageal reflux, has failed to thrive and currently requires nasogastric feeding and caloric supplements to maintain weight along the 3rd percentile. Urinary and plasma MMA continue to be raised in both cases. The association of increased urinary and plasma MMA and dRTA presenting in the 1st month of life has not previously been reported and may re",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "1998",
+            "authors": [
+              "Dudley J",
+              "Allen J",
+              "Tizard J",
+              "McGraw M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acidosis, Renal Tubular",
+              "Calcium",
+              "Failure to Thrive",
+              "Humans",
+              "Infant, Newborn",
+              "Isoleucine",
+              "Kidney Function Tests",
+              "Male",
+              "Metabolism, Inborn Errors",
+              "Methylmalonic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9761355/"
+          },
+          {
+            "pmid": "1019163",
+            "title": "Changes of blood pressure, plasma renin activity and plasma aldosterone concentration following the infusion of Sar1-Ile8-angiotensin II in hypertensive, fluid and electrolyte disorders.",
+            "abstract": "1-Sarcosine, 8-isoleucine angiotensin II (Sar1-Ile8-AII) was infused intravenously in 5 normal volunteers and 66 subjects with various hypertensive, fluid and electrolyte disorders. Changes of blood pressure (BP), plasma renin activity (PRA) and plasma aldosterone concentration (PAC) were studied. In normal subjects, Sar1-Ile-AII showed pressor (agonistic) activity, which was related to both dosage and sodium intake. Hyporeninaemic hypertensive subjects (pirmary aldosteronism) showed pressor responses to a smaller dose of this compound than the dose employed in normal subjects. Hyporeninaemic hypertensive subjects and normal volunteers after 3 days of high sodium intake showed significant elevations of BP and PAC and reduction of PRA. Changes of BP, PAC and PRA in normoreninaemic subjects including those with Bartter's syndrome, renal tubular acidosis or liver cirrhosis with ascites showed reduction of BP and PAC and elevation of PRA. The results indicate that the compound has both ago",
+            "journal": "Progress in biochemical pharmacology",
+            "year": "1976",
+            "authors": [
+              "Yamamoto T",
+              "Doi K",
+              "Ogihara T",
+              "Ichihara K",
+              "Hata T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acidosis, Renal Tubular",
+              "Aldosterone",
+              "Angiotensin II",
+              "Bartter Syndrome",
+              "Blood Pressure",
+              "Cushing Syndrome",
+              "Edema",
+              "Heart Failure",
+              "Humans",
+              "Hyperaldosteronism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1019163/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.9722733497619628,
+        "txgnn_rank": 20412,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15790420",
+            "title": "The relation between plasma tyrosine concentration and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis.",
+            "abstract": "In primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC) fatigue is a major clinical problem. Abnormal amino acid (AA) patterns have been implicated in the development of fatigue in several non-hepatological conditions but for PBC and PSC no data are available. This study aimed to identify abnormalities in AA patterns and to define their relation with fatigue.",
+            "journal": "BMC gastroenterology",
+            "year": "2005",
+            "authors": [
+              "ter Borg Pieter C J",
+              "Fekkes Durk",
+              "Vrolijk Jan Maarten",
+              "van Buuren Henk R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amino Acids",
+              "Biomarkers",
+              "Cholangitis, Sclerosing",
+              "Fatigue",
+              "Female",
+              "Humans",
+              "Liver Cirrhosis, Biliary",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15790420/"
+          },
+          {
+            "pmid": "24222941",
+            "title": "PNPLA3 I148M polymorphism and progressive liver disease.",
+            "abstract": "The 148 Isoleucine to Methionine protein variant (I148M) of patatin-like phospholipase domain-containing 3 (PNPLA3), a protein is expressed in the liver and is involved in lipid metabolism, has recently been identified as a major determinant of liver fat content. Several studies confirmed that the I148M variant predisposes towards the full spectrum of liver damage associated with fatty liver: from simple steatosis to steatohepatitis and progressive fibrosis. Furthermore, the I148M variant represents a major determinant of progression of alcohol related steatohepatitis to cirrhosis, and to influence fibrogenesis and related clinical outcomes in chronic hepatitis C virus hepatitis, and possibly chronic hepatitis B virus hepatitis, hereditary hemochromatosis and primary sclerosing cholangitis. All in all, studies suggest that the I148M polymorphism may represent a general modifier of fibrogenesis in liver diseases. Remarkably, the effect of the I148M variant on fibrosis was independent of",
+            "journal": "World journal of gastroenterology",
+            "year": "2013",
+            "authors": [
+              "Dongiovanni Paola",
+              "Donati Benedetta",
+              "Fares Roberta",
+              "Lombardi Rosa",
+              "Mancina Rosellina Margherita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Hepatocellular",
+              "Cholangitis, Sclerosing",
+              "Disease Progression",
+              "Fatty Liver",
+              "Fatty Liver, Alcoholic",
+              "Genetic Predisposition to Disease",
+              "Hemochromatosis",
+              "Hepatitis B, Chronic",
+              "Hepatitis C, Chronic",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24222941/"
+          },
+          {
+            "pmid": "36454904",
+            "title": "PNPLA3 allele frequency has no impact on biliary bile acid composition or disease course in patients with primary sclerosing cholangitis.",
+            "abstract": "Primary sclerosing cholangitis (PSC) is a chronic inflammatory disease that leads to bile duct strictures, cholestasis, and biliary cirrhosis. PNPLA3 (patatin-like phospholipase domain containing 3), regulates cellular lipid synthesis by converting lysophosphatidic acid into phosphatidic acid. Isoleucine mutation to methionine at position 148 (I148M) causes a loss of this function. Only two studies, with contradictory results, have evaluated the role of PNPLA3 in PSC. The rs738409(G) variant of PNPLA3 has been associated with an increased risk for transplantation in male patients with dominant strictures (DS). The study aimed to evaluate the PNPLA3 allele frequency effect on the clinical outcomes, progression, and prognosis of PSC. Furthermore, we analyzed the impact of PNPLA3 on phospholipid and bile acid composition to evaluate the effect of the PNPLA3 status on UDCA response.",
+            "journal": "PloS one",
+            "year": "2022",
+            "authors": [
+              "Färkkilä Martti",
+              "Kautiainen Hannu",
+              "Tenca Andrea",
+              "Jokelainen Kalle",
+              "Arola Johanna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Bile Acids and Salts",
+              "Cholangitis, Sclerosing",
+              "Cholestasis",
+              "Constriction, Pathologic",
+              "Gene Frequency",
+              "Liver Cirrhosis",
+              "Phospholipids",
+              "Phospholipases A2, Calcium-Independent"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36454904/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial visceral myopathy",
+        "txgnn_score": 0.9680259823799132,
+        "txgnn_rank": 21907,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypophosphatemic rickets",
+        "txgnn_score": 0.9582926034927368,
+        "txgnn_rank": 24679,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "potassium deficiency disease",
+        "txgnn_score": 0.9548693895339966,
+        "txgnn_rank": 25493,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15577749",
+            "title": "[Neuroprotective role of PACAP, VIP, and PHI in the central nervous system].",
+            "abstract": "Pituitary adenylate cyclase-activating polypeptide (PACAP), vasoactive intestinal peptide (VIP), and peptide histidine-isoleucine (PHI) belong to a structurally related family of polypeptides present in many regions of the central and peripheral nervous system. The neuroprotective potential of PACAP, VIP, and PHI has become a matter of intensive investigations in many animal models. In vitro studies revealed that PACAP protects neurons against apoptosis occurring naturally during CNS development and apoptosis induced by a series of neurotoxins, such as ethanol, hydrogen peroxide (H2O2), prion protein, beta-amyloid, HIV envelope glycoprotein (gp120), potassium ion deficit, and high glutamate concentrations. Similarly, in vivo investigations conducted in models of ischemia and Parkinson's disease confirmed the neuroprotective properties of PACAP. It was revealed that the anti-apoptotic action of PACAP can be directly associated with the activation of signal transduction pathways preventi",
+            "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
+            "year": "2004",
+            "authors": [
+              "Sokołowska Paulina",
+              "Dejda Agnieszka",
+              "Nowak Jerzy Z"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Central Nervous System",
+              "Humans",
+              "Neurodegenerative Diseases",
+              "Neuroprotective Agents",
+              "Peptide PHI",
+              "Pituitary Adenylate Cyclase-Activating Polypeptide",
+              "Vasoactive Intestinal Peptide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15577749/"
+          },
+          {
+            "pmid": "22492876",
+            "title": "An infant with pseudohyperkalemia, hemolysis, and seizures: cation-leaky GLUT1-deficiency syndrome due to a SLC2A1 mutation.",
+            "abstract": "GLUT1 (glucose transporter 1) deficiency syndrome is a well-known presentation in pediatric practice. Very rare mutations not only disable carbohydrate transport but also cause the red cell membrane to be constitutively permeant to monovalent cations, namely sodium and potassium.",
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2012",
+            "authors": [
+              "Bawazir Waleed M",
+              "Gevers Evelien F",
+              "Flatt Joanna F",
+              "Ang Ai Leen",
+              "Jacobs Benjamin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Epilepsy",
+              "Erythrocytes, Abnormal",
+              "Female",
+              "Glucose Transporter Type 1",
+              "Hemolysis",
+              "Humans",
+              "Hyperkalemia",
+              "Infant",
+              "Magnetic Resonance Imaging",
+              "Potassium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22492876/"
+          },
+          {
+            "pmid": "23958592",
+            "title": "Metabolic encephalopathy in beta-ketothiolase deficiency: the first report from India.",
+            "abstract": "Beta-ketothiolase deficiency, or mitochondrial acetoacetyl-CoA thiolase (T2) deficiency, is a rare autosomal recessive disorder affecting isoleucine catabolism and ketone body metabolism. A patient from South India presented with acute ketoacidosis at 11 months of age. During the acute crisis the C5OH (2-methyl-3-hydroxybutyryl) carnitine and C5:1 (tiglyl) carnitine were elevated and large amounts of 2-methyl-3-hydroxybutyrate, tiglylglycine, and 2-methylacetoacetate were excreted. Brain CT showed bilateral basal ganglia lesions. Potassium ion-activated acetoacetyl-CoA thiolase activity was deficient in the patient's fibroblasts. The patient is a homozygote for a novel c.578T>G (M193R) mutation. This is the first report of T2 deficiency confirmed by enzyme and molecular analysis from India.",
+            "journal": "Brain & development",
+            "year": "2014",
+            "authors": [
+              "Akella Radha Rama Devi",
+              "Aoyama Yuka",
+              "Mori Chihiro",
+              "Lingappa Lokesh",
+              "Cariappa Rohit"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetyl-CoA C-Acetyltransferase",
+              "Acetyl-CoA C-Acyltransferase",
+              "Amino Acid Metabolism, Inborn Errors",
+              "Brain",
+              "Brain Diseases, Metabolic",
+              "DNA Mutational Analysis",
+              "Humans",
+              "India",
+              "Infant",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23958592/"
+          },
+          {
+            "pmid": "20046049",
+            "title": "Different clinical presentation in siblings with mitochondrial acetoacetyl-CoA thiolase deficiency and identification of two novel mutations.",
+            "abstract": "Mitochondrial acetoacetyl-CoA thiolase (T2) catalyzes 2-methylacetoacetyl-CoA cleavage into acetyl-CoA and propionyl-CoA in isoleucine catabolism and interconversion between acetyl-CoA and acetoacetyl-CoA in ketone body metabolism. T2 deficiency is a rare metabolic disease of autosomal recessive inheritance. The disorder is characterized by intermittent ketoacidotic episodes. The onset of clinical symptoms is in the infant or toddler period. The frequency of episodes declines with age, stopping before adolescence. Here we report two siblings with this disorder. The proband (GK65) is a French girl born from non-consanguineous parents. She presented several ketoacidotic episodes with 5 hospitalizations from age 2 to 4 years, the first of them complicated by ketoacidotic coma. Minor episodes, which are generally provoked by infections or high protein intake, still persist at age of 16 years. Molecular analysis of the T2 gene has revealed the compound heterozygosity of c.578T>C (M193T) and",
+            "journal": "The Tohoku journal of experimental medicine",
+            "year": "2010",
+            "authors": [
+              "Thümmler Susanne",
+              "Dupont Didier",
+              "Acquaviva Cécile",
+              "Fukao Toshiyuki",
+              "de Ricaud Dominique"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetyl-CoA C-Acetyltransferase",
+              "Adolescent",
+              "Base Sequence",
+              "Child",
+              "Child, Preschool",
+              "DNA Mutational Analysis",
+              "Female",
+              "Humans",
+              "Immunoblotting",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20046049/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified intestinal pseudoobstruction",
+        "txgnn_score": 0.952386200428009,
+        "txgnn_rank": 26156,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00167",
+    "name": "Isoleucine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Isoleucine"
+      },
+      "queried_at": "2026-03-10T04:54:10.459265",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Isoleucine"
+      },
+      "queried_at": "2026-03-10T04:54:11.490700",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T04:54:12.047500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T04:54:14.988777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T04:54:15.847643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T04:54:16.372231",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T04:54:19.710309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T04:54:20.444758",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T04:54:21.004315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T04:54:25.314896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T04:54:26.497597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-10T04:54:27.192798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-10T04:54:32.295169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "dyspepsia"
+      },
+      "queried_at": "2026-03-10T04:54:34.351040",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-10T04:54:34.981828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-10T04:54:38.048164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "renal tubular acidosis"
+      },
+      "queried_at": "2026-03-10T04:54:40.091966",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T04:54:40.657433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T04:54:44.177190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T04:54:46.284257",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-10T04:54:46.792273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-10T04:54:50.480544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-10T04:54:51.179528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "queried_at": "2026-03-10T04:54:52.147716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "queried_at": "2026-03-10T04:54:55.181323",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "queried_at": "2026-03-10T04:54:57.102433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "potassium deficiency disease"
+      },
+      "queried_at": "2026-03-10T04:54:57.714922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "potassium deficiency disease"
+      },
+      "queried_at": "2026-03-10T04:55:01.106728",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "potassium deficiency disease"
+      },
+      "queried_at": "2026-03-10T04:55:03.109772",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-10T04:55:03.711193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-10T04:55:07.371227",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "queried_at": "2026-03-10T04:55:08.173353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:55:08.201558"
+  }
+}

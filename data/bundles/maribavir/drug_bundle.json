@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Maribavir",
+    "drugbank_id": "DB06234",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.8779374361038208,
+        "txgnn_rank": 36940,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.7911180853843689,
+        "txgnn_rank": 42226,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchial neoplasm (disease)",
+        "txgnn_score": 0.777786374092102,
+        "txgnn_rank": 42777,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.762364387512207,
+        "txgnn_rank": 43367,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "filariasis",
+        "txgnn_score": 0.7426198124885559,
+        "txgnn_rank": 44018,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rectosigmoid junction neoplasm",
+        "txgnn_score": 0.7341007590293884,
+        "txgnn_rank": 44268,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colonic lymphangioma",
+        "txgnn_score": 0.7331897616386414,
+        "txgnn_rank": 44290,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lipoma of colon",
+        "txgnn_score": 0.7323145270347595,
+        "txgnn_rank": 44319,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cecum neuroendocrine tumor G1",
+        "txgnn_score": 0.7313404083251953,
+        "txgnn_rank": 44338,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cecum villous adenoma",
+        "txgnn_score": 0.7306835651397705,
+        "txgnn_rank": 44366,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06234",
+    "name": "Maribavir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Maribavir"
+      },
+      "queried_at": "2026-03-10T10:26:28.419277",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Maribavir"
+      },
+      "queried_at": "2026-03-10T10:26:29.683269",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T10:26:30.296571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T10:26:33.478822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T10:26:34.678653",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T10:26:35.152541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T10:26:39.232584",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T10:26:41.358221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "bronchial neoplasm (disease)"
+      },
+      "queried_at": "2026-03-10T10:26:43.430652",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "bronchial neoplasm (disease)"
+      },
+      "queried_at": "2026-03-10T10:26:46.661451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "bronchial neoplasm (disease)"
+      },
+      "queried_at": "2026-03-10T10:26:47.414039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T10:26:47.987004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T10:26:53.236215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T10:26:54.288821",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T10:26:54.942402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T10:26:58.691352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "filariasis"
+      },
+      "queried_at": "2026-03-10T10:27:00.784133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "rectosigmoid junction neoplasm"
+      },
+      "queried_at": "2026-03-10T10:27:02.866388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "rectosigmoid junction neoplasm"
+      },
+      "queried_at": "2026-03-10T10:27:07.637226",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "rectosigmoid junction neoplasm"
+      },
+      "queried_at": "2026-03-10T10:27:08.967733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "colonic lymphangioma"
+      },
+      "queried_at": "2026-03-10T10:27:09.707372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "colonic lymphangioma"
+      },
+      "queried_at": "2026-03-10T10:27:13.637750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "colonic lymphangioma"
+      },
+      "queried_at": "2026-03-10T10:27:14.620117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "lipoma of colon"
+      },
+      "queried_at": "2026-03-10T10:27:15.639597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "lipoma of colon"
+      },
+      "queried_at": "2026-03-10T10:27:19.487232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "lipoma of colon"
+      },
+      "queried_at": "2026-03-10T10:27:20.532712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "cecum neuroendocrine tumor G1"
+      },
+      "queried_at": "2026-03-10T10:27:21.155903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "cecum neuroendocrine tumor G1"
+      },
+      "queried_at": "2026-03-10T10:27:24.695083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "cecum neuroendocrine tumor G1"
+      },
+      "queried_at": "2026-03-10T10:27:25.762363",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "cecum villous adenoma"
+      },
+      "queried_at": "2026-03-10T10:27:26.461358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "cecum villous adenoma"
+      },
+      "queried_at": "2026-03-10T10:27:29.364139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Maribavir",
+        "disease": "cecum villous adenoma"
+      },
+      "queried_at": "2026-03-10T10:27:30.491485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:27:30.494158"
+  }
+}

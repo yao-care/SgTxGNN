@@ -1,0 +1,531 @@
+{
+  "drug": {
+    "inn": "Tropicamide",
+    "drugbank_id": "DB00809",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9953195452690125,
+        "txgnn_rank": 6223,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.991348922252655,
+        "txgnn_rank": 9537,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9912012815475464,
+        "txgnn_rank": 9649,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9859742522239684,
+        "txgnn_rank": 13581,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36305442",
+            "title": "Cyclopentolate eye drops-induced anaphylaxis in an infant.",
+            "abstract": "Cyclopentolate is frequently used as a mydriatic agent during ophthalmological examinations in childhood and hypersensitivity reactions associated with this drug are rare. We aim to report an infant who experienced anaphylaxis due to cyclopentolate eye drops.",
+            "journal": "The Turkish journal of pediatrics",
+            "year": "2022",
+            "authors": [
+              "Terece Sinem Polat",
+              "Ertoy-Karagöl Hacer İlbilge",
+              "Köken Gizem",
+              "Atalay Hatice Tuba",
+              "Türkcan Büşra Topuz"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Infant",
+              "Female",
+              "Humans",
+              "Child",
+              "Cyclopentolate",
+              "Ophthalmic Solutions",
+              "Anaphylaxis",
+              "Tropicamide",
+              "Mydriatics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36305442/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.985373079776764,
+        "txgnn_rank": 13979,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9842871427536012,
+        "txgnn_rank": 14633,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9842414259910583,
+        "txgnn_rank": 14657,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9655386805534364,
+        "txgnn_rank": 22687,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasopharyngitis",
+        "txgnn_score": 0.9644703269004822,
+        "txgnn_rank": 23004,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.9606783986091614,
+        "txgnn_rank": 24099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00809",
+    "name": "Tropicamide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tropicamide"
+      },
+      "queried_at": "2026-03-10T03:11:46.910976",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tropicamide"
+      },
+      "queried_at": "2026-03-10T03:11:48.882373",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T03:11:49.551512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T03:11:52.401905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T03:11:53.059667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T03:11:53.650006",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T03:11:57.069784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T03:11:57.956974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T03:11:59.109865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T03:12:03.123812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T03:12:04.001378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T03:12:04.528746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T03:12:07.721419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T03:12:10.854410",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T03:12:11.449247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T03:12:14.734246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T03:12:15.472712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:16.069507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:19.842240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:20.606447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:21.155007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:24.053195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:25.280437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T03:12:25.823441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T03:12:29.401894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T03:12:30.108423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:30.565645",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:33.235256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-10T03:12:34.121714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T03:12:35.463726",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T03:12:38.704994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tropicamide",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T03:12:39.889158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T03:12:39.893550"
+  }
+}

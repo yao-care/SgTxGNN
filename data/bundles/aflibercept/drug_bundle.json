@@ -1,0 +1,519 @@
+{
+  "drug": {
+    "inn": "Aflibercept",
+    "drugbank_id": "DB08885",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "esotropia",
+        "txgnn_score": 0.993823766708374,
+        "txgnn_rank": 7517,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.975555181503296,
+        "txgnn_rank": 19083,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.975555181503296,
+        "txgnn_rank": 19084,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "varicose disease",
+        "txgnn_score": 0.96953547000885,
+        "txgnn_rank": 21445,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urethral calculus",
+        "txgnn_score": 0.9597246646881104,
+        "txgnn_rank": 24359,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adenosine deaminase deficiency",
+        "txgnn_score": 0.9575933814048768,
+        "txgnn_rank": 24831,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disease of newborn",
+        "txgnn_score": 0.9555541276931764,
+        "txgnn_rank": 25329,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02537054",
+            "title": "Intravitreal Aflibercept (Eylea) for Therapy of Choroidal Neovascularization (CNV) and Fibrovascular Proliferation (FVP) in Patients With Pseudoxanthoma Elasticum (PXE)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-09",
+            "completion_date": "2018-07-02",
+            "country": "Germany",
+            "enrollment": 15,
+            "brief_summary": "The purpose of this study is to determine whether Aflibercept (Eylea) is effective in the treatment of choroidal neovascularization and fibrovascular proliferation in patients with pseudoxanthoma elasticum (PXE) in terms of preservation or improvement of visual acuity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of PXE by moleculargenetic diagnosis and/or skin biopsy\n* Diagnosed CNV or FVP\n* Age 18-65 years\n* Voluntary participation in this study as proven by written informed consent\n* Ability to follow study instructions and likely to attend and complete all required visits",
+            "endpoints": [
+              "Change in distance best corrected visual acuity between end-of study visit and screening visit"
+            ],
+            "sponsor": "University Hospital, Bonn",
+            "url": "https://clinicaltrials.gov/study/NCT02537054"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ectomesenchymoma",
+        "txgnn_score": 0.9451995491981506,
+        "txgnn_rank": 27769,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant cutaneous granular cell skin tumor",
+        "txgnn_score": 0.945094108581543,
+        "txgnn_rank": 27795,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "middle ear neuroendocrine tumor",
+        "txgnn_score": 0.9441502690315248,
+        "txgnn_rank": 27995,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08885",
+    "name": "Aflibercept",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Aflibercept"
+      },
+      "queried_at": "2026-03-10T04:32:31.762382",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Aflibercept"
+      },
+      "queried_at": "2026-03-10T04:32:33.203908",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T04:32:33.896964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T04:32:37.178348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T04:32:38.017944",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T04:32:38.766260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T04:32:42.969849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-10T04:32:43.640277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T04:32:44.217874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T04:32:48.322803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-10T04:32:49.077761",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T04:32:49.634170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T04:32:53.097872",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "varicose disease"
+      },
+      "queried_at": "2026-03-10T04:32:53.841874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "urethral calculus"
+      },
+      "queried_at": "2026-03-10T04:32:54.627524",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "urethral calculus"
+      },
+      "queried_at": "2026-03-10T04:32:57.503511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "urethral calculus"
+      },
+      "queried_at": "2026-03-10T04:32:58.337426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-10T04:32:59.067780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-10T04:33:03.019690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "queried_at": "2026-03-10T04:33:03.685423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-10T04:33:04.321588",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-10T04:33:07.276250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "queried_at": "2026-03-10T04:33:08.119420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-10T04:33:08.669248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-10T04:33:11.649525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "ectomesenchymoma"
+      },
+      "queried_at": "2026-03-10T04:33:12.473975",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "queried_at": "2026-03-10T04:33:13.180056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "queried_at": "2026-03-10T04:33:16.297019",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "queried_at": "2026-03-10T04:33:17.569863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "queried_at": "2026-03-10T04:33:18.082774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "queried_at": "2026-03-10T04:33:20.883517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Aflibercept",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "queried_at": "2026-03-10T04:33:21.651085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:33:21.676065"
+  }
+}

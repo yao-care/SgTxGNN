@@ -1,0 +1,634 @@
+{
+  "drug": {
+    "inn": "Sodium carbonate",
+    "drugbank_id": "DB09460",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9980108141899108,
+        "txgnn_rank": 3394,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.9971876740455629,
+        "txgnn_rank": 4380,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07325383",
+            "title": "Evaluating the Safety and Efficacy of N-acetylcysteine Mouthwash on the Prevention of Mucositis in Patients Undergoing Hematopoietic Stem Cell Transplantation: a Double-blind Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-08-18",
+            "completion_date": "2026-02",
+            "country": "Iran",
+            "enrollment": 106,
+            "brief_summary": "Oral mucositis (OM) is one of the most frequent complications in patients who undergo HSCT. It not only causes severe discomfort but also affects treatment adherence and increases hospital stays. In this study, we aim to assess whether using N-acetylcysteine mouthwash can safely and effectively prevent OM. The trial is randomized and conducted in the hematology wards of TUMS-affiliated RIOHCT, including both autologous and allogeneic HSCT patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients undergoing hematopoietic stem cell transplantation (HSCT), including both allogeneic and autologous transplants\n* Age ≥18 years\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Known hypersensitivity to N-acetylcysteine or any components of the effervesce",
+            "endpoints": [
+              "Incidence of oral mucositis",
+              "Incidence of N-acetylcysteine-related Adverse Events",
+              "Incidence of Severe Oral Mucositis"
+            ],
+            "sponsor": "Tehran University of Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT07325383"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04054128",
+            "title": "Bicarbonate vs Heparin Catheter Lock in Chronic Hemodialysis Patients",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2019-09-11",
+            "completion_date": "2020-09-28",
+            "country": "Mexico",
+            "enrollment": 60,
+            "brief_summary": "Prospective clinical trial to evaluate the efficacy of catheter lock with bicarbonate vs heparin in chronic hemodialysis patients. Two groups will be created, sodium bicarbonate lock group (experimental group) and heparin lock group (control group). Catheter pressures, flow, patency and infection outcomes will be compare between groups at different time points (30, 60 and 90 days).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who accept participation and sign informed consent.\n* Incident or prevalent chronic hemodialysis patients who receive at least 2 sessions per week with 1 month of clinical stability defined as: no hospitalizations, no vascular access infections, no changes in blood fl",
+            "endpoints": [
+              "Arterial line pressure at fixed blood flow in sodium bicarbonate lock versus heparin lock catheters in chronic hemodialysis patients",
+              "Arterial line pressure at fixed blood flow in sodium bicarbonate lock versus heparin lock catheters in chronic hemodialysis patients",
+              "Arterial line pressure at fixed blood flow in sodium bicarbonate lock versus heparin lock catheters in chronic hemodialysis patients"
+            ],
+            "sponsor": "Hospital General \"Dr. Miguel Silva\" de Morelia",
+            "url": "https://clinicaltrials.gov/study/NCT04054128"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "34600046",
+            "title": "Assessment of epinephrine sublingual stability and permeability pathways to enhance its permeability for the treatment of anaphylaxis.",
+            "abstract": "Prompt epinephrine (Epi) injection using auto-injectors is the initial life-saving out-of-hospital treatment for anaphylaxis. However, patients and healthcare providers are eagerly awaiting a more convenient alternative dosage form that would overcome auto-injectors drawbacks. Previously, we extensively evaluated multiple alternative fast-disintegrating sublingual Epi tablet (FDSTs) formulations. However, the sublingual stability of Epi and effect of modifying the sublingual microenvironment pH on its stability and transport pathways were not yet fully investigated. Results depicted that Epi remained sufficiently stable at various pHs in human saliva and porcine sublingual tissue's extract. Epi permeability (EP) through excised porcine sublingual membrane was greatest at pH 8.0 (p < 0.05), 11-fold higher than the negative control (Epi at pH 6.8). Sodium carbonate (Na Carb) 0.75% was the most efficient buffer to modify Epi solution pH to 8.0. Both sodium dodecyl sulfate (SDS) 0.075% and",
+            "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "year": "2021",
+            "authors": [
+              "Rawas-Qalaji Mutasem",
+              "Bafail Rawan",
+              "Cagliani Roberta",
+              "Haider Mohamed",
+              "Hussain Zahid"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Sublingual",
+              "Anaphylaxis",
+              "Animals",
+              "Epinephrine",
+              "Humans",
+              "Permeability",
+              "Swine",
+              "Tablets"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34600046/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "food-dependent exercise-induced anaphylaxis",
+        "txgnn_score": 0.99626487493515,
+        "txgnn_rank": 5363,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9961611032485962,
+        "txgnn_rank": 5450,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dry eye syndrome",
+        "txgnn_score": 0.9957613348960876,
+        "txgnn_rank": 5815,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27813150",
+            "title": "Impact of a sodium carbonate spray combined with professional oral hygiene procedures in patients with Sjögren's syndrome: an explorative study.",
+            "abstract": "The aim of this study was to make an initial estimation on the effects of a sodium bicarbonate and xylitol spray (Cariex® ), associated with non-surgical periodontal therapy, in participants with primary Sjögren's syndrome.",
+            "journal": "Gerodontology",
+            "year": "2017",
+            "authors": [
+              "Gambino Alessio",
+              "Broccoletti Roberto",
+              "Cafaro Adriana",
+              "Cabras Marco",
+              "Carcieri Paola"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Carbonates",
+              "Dental Care",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Motivation",
+              "Mouth Diseases",
+              "Oral Hygiene"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27813150/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ventricular tachycardia",
+        "txgnn_score": 0.9918498992919922,
+        "txgnn_rank": 9147,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete bundle branch block",
+        "txgnn_score": 0.9897357225418092,
+        "txgnn_rank": 10723,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "panuveitis (disease)",
+        "txgnn_score": 0.9889041781425476,
+        "txgnn_rank": 11348,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Sjogren syndrome",
+        "txgnn_score": 0.9881941080093384,
+        "txgnn_rank": 11906,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27813150",
+            "title": "Impact of a sodium carbonate spray combined with professional oral hygiene procedures in patients with Sjögren's syndrome: an explorative study.",
+            "abstract": "The aim of this study was to make an initial estimation on the effects of a sodium bicarbonate and xylitol spray (Cariex® ), associated with non-surgical periodontal therapy, in participants with primary Sjögren's syndrome.",
+            "journal": "Gerodontology",
+            "year": "2017",
+            "authors": [
+              "Gambino Alessio",
+              "Broccoletti Roberto",
+              "Cafaro Adriana",
+              "Cabras Marco",
+              "Carcieri Paola"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Carbonates",
+              "Dental Care",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Motivation",
+              "Mouth Diseases",
+              "Oral Hygiene"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27813150/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+        "txgnn_score": 0.9872398972511292,
+        "txgnn_rank": 12672,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09460",
+    "name": "Sodium carbonate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sodium carbonate"
+      },
+      "queried_at": "2026-03-09T21:29:09.292524",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sodium carbonate"
+      },
+      "queried_at": "2026-03-09T21:29:32.283715",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T21:29:33.864630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T21:29:39.852141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T21:29:41.052345",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-09T21:29:46.117742",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-09T21:29:51.363318",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-09T21:29:54.299748",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-09T21:29:55.673936",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-09T21:30:03.102836",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-09T21:30:05.696970",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T21:30:06.573804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T21:30:11.412120",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T21:30:12.874119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "dry eye syndrome"
+      },
+      "queried_at": "2026-03-09T21:30:13.785397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "dry eye syndrome"
+      },
+      "queried_at": "2026-03-09T21:30:19.453363",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "dry eye syndrome"
+      },
+      "queried_at": "2026-03-09T21:30:22.127535",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T21:30:22.719799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T21:30:30.747598",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T21:30:31.511499",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "obsolete bundle branch block"
+      },
+      "queried_at": "2026-03-09T21:30:33.492956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "obsolete bundle branch block"
+      },
+      "queried_at": "2026-03-09T21:30:40.422961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "obsolete bundle branch block"
+      },
+      "queried_at": "2026-03-09T21:30:41.284188",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "panuveitis (disease)"
+      },
+      "queried_at": "2026-03-09T21:30:42.095569",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "panuveitis (disease)"
+      },
+      "queried_at": "2026-03-09T21:30:47.646234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "panuveitis (disease)"
+      },
+      "queried_at": "2026-03-09T21:30:50.506346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "Sjogren syndrome"
+      },
+      "queried_at": "2026-03-09T21:30:51.275049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "Sjogren syndrome"
+      },
+      "queried_at": "2026-03-09T21:30:55.973996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "Sjogren syndrome"
+      },
+      "queried_at": "2026-03-09T21:30:58.948564",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T21:30:59.925821",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T21:31:04.883846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium carbonate",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "queried_at": "2026-03-09T21:31:05.931434",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T21:31:05.942380"
+  }
+}

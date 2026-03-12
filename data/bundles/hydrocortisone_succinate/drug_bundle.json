@@ -1,0 +1,848 @@
+{
+  "drug": {
+    "inn": "Hydrocortisone succinate",
+    "drugbank_id": "DB14545",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic asthma",
+        "txgnn_score": 0.9704282879829408,
+        "txgnn_rank": 21111,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05607901",
+            "title": "A Comparative Clinical Trial Evaluating the Effect and Safety of Tacrolimus Versus Hydrocortisone in Management of Atopic Dermatitis in Children",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2022-10-28",
+            "completion_date": "2023-11-20",
+            "country": "Egypt",
+            "enrollment": 100,
+            "brief_summary": "One of the most frequent skin conditions is atopic dermatitis (AD), characterized by its pruritic inflammation effect. Where the prevalence of AD increased in the last three decades by two or three folds worldwide, especially in developed countries, AD is supposed to affect about 15% to 30% of children, and 2% to 10% of adults. This type of dermatitis is frequently linked to a family history of other atopic illnesses such as allergic rhinitis or asthma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female, 2-16 years old AD patients.\n\nExclusion Criteria:\n\n* patients diagnosed with other skin disorders of serious type and who are taking systemic corticosteroids or anti-inflammatory medications.",
+            "endpoints": [
+              "To compare the impact of topical tacrolimus ointment to topical hydrocortisone cream by measuring inflammatory cytokine levels in the blood."
+            ],
+            "sponsor": "Tanta University",
+            "url": "https://clinicaltrials.gov/study/NCT05607901"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03742414",
+            "title": "SEAL (Stopping Eczema and ALlergy) Study: Prevent the Allergic March by Enhancing the Skin Barrier",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-06-30",
+            "completion_date": "2028-06-30",
+            "country": "United Kingdom, United States",
+            "enrollment": 398,
+            "brief_summary": "This is a randomized, controlled trial designed for children who are have already developed atopic dermatitis (AD or eczema) by 12 weeks of age. The aim is to compare the effect of proactive sequential skin care, including the twice-daily use of a tri-lipid skin barrier cream (Epiceram) and proactive use of fluticasone propionate cream, against reactive AD therapy, to reduce the occurrence and severity of AD in early infancy and thereby prevent food allergy (FA).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants who develop early onset visible dry skin or atopic dermatitis up to and equal to 12 weeks of age.\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. In good general health as evidenced by medical history\n4.",
+            "endpoints": [
+              "number of foods each participant is sensitized to"
+            ],
+            "sponsor": "Harvard School of Public Health (HSPH)",
+            "url": "https://clinicaltrials.gov/study/NCT03742414"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "12668895",
+            "title": "Crossreacting drugs and chemicals.",
+            "abstract": "Aspirin and nonsteroidal antiinflammatory drugs (NSAIDs) exert their clinical effect through inhibition of prostaglandin H synthases 1 and 2, also known as cyclooxygenase. This shared effect of COX-inhibition is also the mechanism for shared adverse effects. Much of our understanding of cross-reacting drugs and chemicals with aspirin comes from studying asthmatics with aspirin-exacerbated respiratory disease (AERD). Aspirin exacerbated respiratory disease is characterized by recalcitrant sinusitis/polyposis, asthma and precipitation of asthma after ingestion of aspirin and most NSAIDs. Cross-reactions between ASA and NSAIDs occur with first exposure unlike IgE-mediated allergic drug reactions. Cross-reactions between aspirin and other drugs are dependent upon inhibition of the cyclooxygenase-1 isoenzyme. Desensitization to aspirin will result in cross-desensitization to all NSATDs that inhibit COX-1. Despite reports in the literature, there does not appear to he cross-reactions between",
+            "journal": "Clinical reviews in allergy & immunology",
+            "year": "2003",
+            "authors": [
+              "Woessner Katharine M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Aspirin",
+              "Cross Reactions",
+              "Cyclooxygenase 1",
+              "Cyclooxygenase 2",
+              "Cyclooxygenase 2 Inhibitors",
+              "Cyclooxygenase Inhibitors",
+              "Drug Eruptions",
+              "Humans",
+              "Isoenzymes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12668895/"
+          },
+          {
+            "pmid": "1938768",
+            "title": "Systemic allergic reactions to corticosteroids.",
+            "abstract": "Allergic anaphylactic (type I) reactions to corticosteroid medications are uncommon; however, a number of well-documented cases have been reported. We present a review of the literature, and report on two patients who suffered anaphylaxis after injections of corticosteroids. The first patient, a registered nurse, was finally found to be sensitive to all corticosteroid preparations containing carboxymethylcellulose, as well as the pure carboxymethylcellulose. The second patient had positive skin tests to hydrocortisone, hydrocortisone sodium succinate, methylprednisolone sodium succinate, and suxamethonium. Both patients were tested on two occasions; four normal subjects were tested in parallel, and did not elicit any positive skin reaction. In patients with systemic severe reactions to injectable corticosteroids, we recommend careful and comprehensive skin testing with most available corticosteroids, as well as the components of the injectables.",
+            "journal": "The Journal of asthma : official journal of the Association for the Care of Asthma",
+            "year": "1991",
+            "authors": [
+              "Murrieta-Aguttes M",
+              "Michelen V",
+              "Leynadier F",
+              "Duarte-Risselin C",
+              "Halpern G M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Drug Hypersensitivity",
+              "Female",
+              "Glucocorticoids",
+              "Heart Arrest",
+              "Humans",
+              "Hydrocortisone",
+              "Hypersensitivity, Immediate",
+              "Male",
+              "Skin Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1938768/"
+          },
+          {
+            "pmid": "15226693",
+            "title": "[Skin allergy to hydrocortisone hemisuccinate in a patient with asthma].",
+            "abstract": "Corticosteroids are the basis of treatment of asthma; they interrupt the development of inflammation. However, corticosteroids can also be at the origin of severe allergical reactions.",
+            "journal": "Presse medicale (Paris, France : 1983)",
+            "year": "2004",
+            "authors": [
+              "El Mekki Fethi",
+              "Belhadj Sameh",
+              "Taktak Sophia",
+              "Abouda Maher",
+              "Hamzaoui Agnes"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Anti-Asthmatic Agents",
+              "Anti-Inflammatory Agents",
+              "Arachidonic Acids",
+              "Asthma",
+              "Biopsy",
+              "Diagnosis, Differential",
+              "Drug Eruptions",
+              "Drug Monitoring"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15226693/"
+          },
+          {
+            "pmid": "8230880",
+            "title": "[Bronchospasms caused by intravenous hydrocortisone sodium hemisuccinate (Solu-Cortef) in an aspirin-sensitive asthmatic patient].",
+            "abstract": "This is a report of a male patient who had an anaphylaxia-like reaction to hydrocortisone sodium hemisuccinate (Solu-Cortef). A 32-year-old male with aspirin sensitivity was treated for moderate wheezing with 200 mg Solu-Cortef given intravenously. After this treatment, his condition deteriorated acutely and he was admitted to our hospital. Intradermal skin tests revealed positive immediate reactions to Solu-Cortef, Saxizon, Solu-Medrol and Predonine. Challenge tests with 100 mg Solu-Cortef and Saxizon injection showed 34% and 27% decrease, respectively in FEV1 15 min after injection. These results suggest that succinylation of steroids resulted in allergic reaction to steroids in this patient.",
+            "journal": "Nihon Kyobu Shikkan Gakkai zasshi",
+            "year": "1993",
+            "authors": [
+              "Yoshikawa T",
+              "Iida Y",
+              "Horiuchi I",
+              "Inaba S",
+              "Terai T"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aspirin",
+              "Asthma",
+              "Bronchial Spasm",
+              "Drug Hypersensitivity",
+              "Humans",
+              "Hydrocortisone",
+              "Infusions, Intravenous",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8230880/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intrinsic asthma",
+        "txgnn_score": 0.9670941829681396,
+        "txgnn_rank": 22195,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04278404",
+            "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2020-03-05",
+            "completion_date": "2027-09",
+            "country": "Canada, United States",
+            "enrollment": 5000,
+            "brief_summary": "The study investigators are interested in learning more about how drugs, that are given to children by their health care provider, act in the bodies of children and young adults in hopes to find the most safe and effective dose for children. The primary objective of this study is to evaluate the PK of understudied drugs currently being administered to children per SOC as prescribed by their treating provider.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participant is \\< 21 years of age\n2. Parent/ Legal Guardian/ Adult Participant can understand the consent process and is willing to provide informed consent/HIPAA:\n3. (a) Participant is receiving one or more of the study drugs of interest at the time of enrollment or (b) Part",
+            "endpoints": [
+              "Clearance (CL) or apparent oral clearance (CL/F) as measured by PK sampling",
+              "Volume of distribution (V) or apparent oral volume of distribution (V/F) as measured by PK sampling",
+              "Elimination rate constant (ke) as measured by PK sampling"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT04278404"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "7264102",
+            "title": "Bronchospasm caused by intravenous hydrocortisone sodium succinate (Solu-Cortef) in aspirin-sensitive asthmatics.",
+            "abstract": "Eleven patients with intrinsic asthma and aspirin sensitivity were challenged with intravenous hydrocortisone sodium succinate (Solu-Cortef; the Upjohn Co., Kalamazoo, Mich.). Three patients showed definite evidence of bronchospasm, which was easily reversed by subcutaneous administration of epinephrine. Evidence is presented which suggests that this reaction was not caused by other constituents of the preparation but rather was caused by Solu-Cortef alone. No atopy was demonstrated in the group as a whole, and the reaction observed was probably nonallergic in nature. We suggest the replacement of intravenous hydrocortisone sodium succinate with dexamethasone in the treatment of such a population.",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1981",
+            "authors": [
+              "Dajani B M",
+              "Sliman N A",
+              "Shubair K S",
+              "Hamzeh Y S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aspirin",
+              "Asthma",
+              "Bronchial Spasm",
+              "Dexamethasone",
+              "Female",
+              "Forced Expiratory Volume",
+              "Humans",
+              "Hydrocortisone",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7264102/"
+          },
+          {
+            "pmid": "2214430",
+            "title": "[Severe bronchial reaction induced by hydrocortisone sodium succinate in an aspirin-sensitive asthmatic patient].",
+            "abstract": "This is a report of a female patient who had an anaphylaxis-like reactions to hydrocortisone sodium succinate (Saxizon). A 31-year-old female with intrinsic bronchial asthma and aspirin sensitivity was admitted to our hospital because of an episode of asthmatic attack. The patient had had episodes of dyspnea since 1976, and had been treated with oral bronchodilators and intermittent corticosteroids. After admission, she was given 100 mg of hydrocortisone sodium succinate intravenously. A few minutes later she developed severe bronchospasm and lost consciousness. An endotracheal tube was inserted and she was mechanically ventilated for 2 hours. The patient recovered after 1 hour. An inhalation challenge test with Sulpyrin was positive. When the provocation challenge test with 100 mg of hydrocortisone sodium succinate (Saxizon) injection was performed, she developed subjective and objective evidence of bronchospasm. Intradermal skin test revealed positive immediate reactions to Saxizon, ",
+            "journal": "Nihon Kyobu Shikkan Gakkai zasshi",
+            "year": "1990",
+            "authors": [
+              "Suenaga N",
+              "Nakamura H",
+              "Shiratusuki N",
+              "Hirano T",
+              "Uyama O"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aspirin",
+              "Asthma",
+              "Bronchial Spasm",
+              "Drug Hypersensitivity",
+              "Female",
+              "Humans",
+              "Hydrocortisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2214430/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9523563385009766,
+        "txgnn_rank": 26160,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03635957",
+            "title": "A Multicenter, Efficacy and Safety Study of Methotrexate to Increase Response Rates in Patients With Uncontrolled Gout Receiving KRYSTEXXA® (Pegloticase) (MIRROR Open-Label [OL])",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-09-26",
+            "completion_date": "2020-10-26",
+            "country": "United States",
+            "enrollment": 14,
+            "brief_summary": "The overall objective of the study is to assess the efficacy, safety, tolerability, and pharmacokinetics (PK) of the concomitant use of pegloticase with methotrexate (MTX) to enhance the response rate seen with pegloticase alone in adults with uncontrolled gout.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Willing and able to give informed consent.\n2. Willing and able to comply with the prescribed treatment protocol and evaluations for the duration of the study.\n3. Adult men or women ≥18 to ≤65 years of age.\n4. Women of childbearing potential (including those with an onset of m",
+            "endpoints": [
+              "Percentage of Serum Uric Acid (sUA < 6 mg/dL) Responders During Month 6"
+            ],
+            "sponsor": "Amgen",
+            "url": "https://clinicaltrials.gov/study/NCT03635957"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9469498991966248,
+        "txgnn_rank": 27391,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9458782076835632,
+        "txgnn_rank": 27625,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine polyp",
+        "txgnn_score": 0.9398534297943116,
+        "txgnn_rank": 28848,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vocal cord",
+        "txgnn_score": 0.938348114490509,
+        "txgnn_rank": 29101,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of middle ear",
+        "txgnn_score": 0.9380358457565308,
+        "txgnn_rank": 29152,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epulis",
+        "txgnn_score": 0.9371734857559204,
+        "txgnn_rank": 29305,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28832260",
+            "title": "Development of chitosan/gelatin/keratin composite containing hydrocortisone sodium succinate as a buccal mucoadhesive patch to treat desquamative gingivitis.",
+            "abstract": "The aim of this research was to develop chitosan/gelatin/keratin composite containing hydrocortisone sodium succinate as a buccal mucoadhesive patch to treat desquamative gingivitis, which was fabricated through an environmental friendly process. Mucoadhesive films increase the advantage of higher efficiency and drug localization in the affected region. In this research, mucoadhesive films, for the release of hydrocortisone sodium succinate, were prepared using different ratios of chitosan, gelatin and keratin. In the first step, chitosan and gelatin proportions were optimized after evaluating the mechanical properties, swelling capacity, water uptake, stability, and biodegradation of the films. Then, keratin was added at different percentages to the optimum composite of chitosan and gelatin together with the drug. The results of surface pH showed that none of the samples were harmful to the buccal cavity. FTIR analysis confirmed the influence of keratin on the structure of the composi",
+            "journal": "Drug development and industrial pharmacy",
+            "year": "2018",
+            "authors": [
+              "Davoudi Zahra",
+              "Rabiee Mohammad",
+              "Houshmand Behzad",
+              "Eslahi Niloofar",
+              "Khoshroo Kimia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adhesiveness",
+              "Chitosan",
+              "Gelatin",
+              "Gingivitis",
+              "Hydrocortisone",
+              "Keratins",
+              "Succinates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28832260/"
+          },
+          {
+            "pmid": "13907824",
+            "title": "[Hydrocortisone hemisuccinate treatment of ulcerative and bullous lesions in the oral mucosa].",
+            "abstract": "",
+            "journal": "Ugeskrift for laeger",
+            "year": "1962",
+            "authors": [
+              "HJORTING-HANSEN E",
+              "MEIER C H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Blister",
+              "Gingivitis, Necrotizing Ulcerative",
+              "Humans",
+              "Hydrocortisone",
+              "Mouth Mucosa",
+              "Stomatitis",
+              "Succinates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13907824/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of frontal sinus",
+        "txgnn_score": 0.9366955757141112,
+        "txgnn_rank": 29413,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02912468",
+            "title": "A Randomized, 24-Week Treatment, Double-blind, Placebo-controlled Efficacy and Safety Study of Dupilumab 300 mg Every Other Week, in Patients With Bilateral Nasal Polyposis on a Background Therapy With Intranasal Corticosteroids",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-12-05",
+            "completion_date": "2018-07-05",
+            "country": "United Kingdom, France, Romania, Netherlands, Germany, Italy, United States, Bulgaria, Czechia, Hungary, Russia, Ukraine, Poland",
+            "enrollment": 276,
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of dupilumab 300 milligram (mg) every 2 weeks (q2w) compared to placebo on a background of mometasone furoate nasal spray (MFNS) in reducing nasal congestion/obstruction (NC) severity and endoscopic nasal polyp score (NPS) in participants with bilateral nasal polyposis (NP). In addition for Japan participants, reduction in computed tomography (CT) scan opacification of the sinuses was a coprimary objective.\n\nSecondary Objectives:\n\n* To evaluate the ef",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Participants with bilateral sinonasal polyposis that despite prior treatment with systemic corticosteroids (SCS) anytime within the past 2 years; and/or had a medical contraindication / intolerance to SCS; and/or had prior surgery for NP at the screening visit, had:\n* An endos",
+            "endpoints": [
+              "Change From Baseline at Week 24 in Nasal Congestion/Obstruction Symptom Severity Score",
+              "Change From Baseline at Week 24 in Nasal Polyp Score"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT02912468"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02898454",
+            "title": "A Randomized, Double-blind, 52-week, Placebo Controlled Efficacy and Safety Study of Dupilumab, in Patients With Bilateral Nasal Polyposis on a Background Therapy With Intranasal Corticosteroids",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-11-28",
+            "completion_date": "2018-11-16",
+            "country": "Australia, Spain, Turkey (Türkiye), Canada, Belgium, Argentina, Israel, United States, Portugal, Chile, Mexico, Russia, Sweden, Japan",
+            "enrollment": 448,
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of dupilumab 300 mg every 2 weeks (q2w) compared to placebo on a background of mometasone furoate nasal spray (MFNS) in reducing nasal congestion (NC)/obstruction severity and endoscopic nasal polyp score (NPS) in participants with bilateral nasal polyps (NP). In addition for Japanese participants, reduction in computed tomography (CT) scan opacification of the sinuses was a co-primary objective.\n\nSecondary Objectives:\n\n* To evaluate the efficacy of d",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Participants with bilateral sino-nasal polyposis that despite prior treatment with SCS anytime within the past 2 years; and/or had a medical contraindication/intolerance to SCS; and/or had prior surgery for NP at the screening visit, had:\n* An endoscopic bilateral NPS at Visi",
+            "endpoints": [
+              "Change From Baseline at Week 24 in Nasal Congestion/Obstruction Symptom Severity Score",
+              "Change From Baseline at Week 24 in Nasal Polyp Score"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT02898454"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14545",
+    "name": "Hydrocortisone succinate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Hydrocortisone succinate"
+      },
+      "queried_at": "2026-03-10T08:33:31.750984",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Hydrocortisone succinate"
+      },
+      "queried_at": "2026-03-10T08:33:42.397547",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:33:44.177255",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:33:48.924172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:33:51.180654",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:33:52.825188",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:33:56.234983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:33:59.786929",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:34:01.284727",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:34:04.146241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:34:05.284569",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:34:05.816644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:34:09.476901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:34:10.075799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:34:10.566911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:34:14.213495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:34:15.121033",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T08:34:15.770611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T08:34:20.065723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-10T08:34:21.334022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T08:34:22.071856",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T08:34:25.605471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T08:34:26.524432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T08:34:27.096850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T08:34:30.450150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T08:34:32.027091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T08:34:32.577894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T08:34:36.574956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T08:34:41.115953",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-10T08:34:43.676066",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-10T08:34:47.072374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone succinate",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-10T08:34:48.327779",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:34:48.339683"
+  }
+}

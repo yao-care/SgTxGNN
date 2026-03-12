@@ -1,0 +1,1183 @@
+{
+  "drug": {
+    "inn": "Phentermine",
+    "drugbank_id": "DB00191",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypervitaminosis",
+        "txgnn_score": 0.995707094669342,
+        "txgnn_rank": 5873,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "proximal 16p11.2 microdeletion syndrome",
+        "txgnn_score": 0.9948765635490416,
+        "txgnn_rank": 6581,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete hypertelorism (disease)",
+        "txgnn_score": 0.994127869606018,
+        "txgnn_rank": 7277,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "frontorhiny",
+        "txgnn_score": 0.990389049053192,
+        "txgnn_rank": 10253,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postural orthostatic tachycardia syndrome",
+        "txgnn_score": 0.8966974020004272,
+        "txgnn_rank": 35132,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26968177",
+            "title": "Stimulant medication and postural orthostatic tachycardia syndrome: a tale of two cases.",
+            "abstract": "Stimulant medication may mimic the tachycardia of postural orthostatic tachycardia syndrome. Two case histories illustrate how missing the clinical distinction between a primary dysautonomia and a medication effect may have avoidable adverse consequences.",
+            "journal": "Clinical autonomic research : official journal of the Clinical Autonomic Research Society",
+            "year": "2016",
+            "authors": [
+              "Cheshire William P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Central Nervous System Stimulants",
+              "Diagnostic Errors",
+              "Female",
+              "Heart Rate",
+              "Humans",
+              "Norepinephrine Plasma Membrane Transport Proteins",
+              "Obesity",
+              "Phentermine",
+              "Postural Orthostatic Tachycardia Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26968177/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lethal polymalformative syndrome, Boissel type",
+        "txgnn_score": 0.8066243529319763,
+        "txgnn_rank": 41525,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fatty liver disease",
+        "txgnn_score": 0.7774214148521423,
+        "txgnn_rank": 42798,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07058155",
+            "title": "OPTIMAL Trial: Optimizing Portal Hypertension With TIPS and Interval Metabolic Surgery for Advanced Liver Disease",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-12-17",
+            "completion_date": "2034-02-01",
+            "country": "United States",
+            "enrollment": 70,
+            "brief_summary": "Cirrhosis is a form of advanced liver disease that can lead to serious complications, especially when combined with severe obesity. Many patients with cirrhosis also develop a condition called clinically significant portal hypertension (CSPH), which is increased pressure in the veins of the liver. CSPH raises the risk of life-threatening events like internal bleeding and liver failure. Unfortunately, treatment options for people who have both cirrhosis and severe obesity are very limited, especi",
+            "eligibility_criteria": "Inclusion Criteria\n\n1. Candidate for general anesthesia.\n2. Age 18-70 years at consent.\n3. BMI 35-70 kg/m² at first study visit.\n4. Eligible for sleeve gastrectomy per ASMBS/IFSO 2022 guidelines.\n5. Insurance coverage for metabolic surgery.\n6. Current or prior anti-obesity medication use permitted.\n",
+            "endpoints": [
+              "Change in SF-36 Physical Component Summary (PCS) Score From Baseline to 6 Months"
+            ],
+            "sponsor": "The Cleveland Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT07058155"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03849729",
+            "title": "Effectiveness and Tolerability of Phentermine in the Reduction of Intrahepatic Fat Infiltration, Adipose Tissue and Postoperative Complications in Patients Under Bariatric Surgery",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-03-01",
+            "completion_date": "2020-04-01",
+            "country": "Mexico",
+            "enrollment": 92,
+            "brief_summary": "Surgical management of Morbid Obesity is increasingly frequent. A low-calorie diet is recommended with the main goal of reducing intrahepatic fat infiltration, fat tissue and making easier the surgery. Information the use pharmacological interventions during the preoperative period in this population are rare.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women and men\n* \\>18 years and \\<55 years old.\n* Diagnosis of obesity grade II with comorbidities\n* Diagnosis of obesity grade III with or without comorbidities\n* Approved to bariatric surgery by an interdisciplinary committee\n* Having signed the Informed consent form\n\nExclusi",
+            "endpoints": [
+              "Number of participants with Intrahepatic fat",
+              "Fat tissue"
+            ],
+            "sponsor": "Hospital Juarez de Mexico",
+            "url": "https://clinicaltrials.gov/study/NCT03849729"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30502373",
+            "title": "Obesity and nonalcoholic fatty liver disease: From pathophysiology to therapeutics.",
+            "abstract": "The obesity epidemic is closely associated with the rising prevalence and severity of nonalcoholic fatty liver disease (NAFLD): obesity has been linked not only with simple steatosis (SS), but also with advanced disease, i.e., nonalcoholic steatohepatitis (NASH), NASH-related cirrhosis and hepatocellular carcinoma. As a consequence, apart from increasing all-cause mortality, obesity seems to increase liver-specific mortality in NAFLD patients. Given the lack of approved pharmacological interventions for NAFLD, targeting obesity is a rational option for its management. As the first step, lifestyle modification (diet and exercise) is recommended, although it is difficult to achieve and sustain. When the first step fails, adding pharmacotherapy is recommended. Several anti-obesity medications have been investigated in NAFLD (e.g., orlistat, glucagon-like peptide-1 analogs), other anti-obesity medications have not been investigated (e.g., lorcaserin, phentermine hydrochloric, phentermine/t",
+            "journal": "Metabolism: clinical and experimental",
+            "year": "2019",
+            "authors": [
+              "Polyzos Stergios A",
+              "Kountouras Jannis",
+              "Mantzoros Christos S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Non-alcoholic Fatty Liver Disease",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30502373/"
+          },
+          {
+            "pmid": "41025003",
+            "title": "Efficacy and safety of anti-obesity drugs in metabolic dysfunction-associated steatotic liver disease: An updated review.",
+            "abstract": "Obesity is a major driver of metabolic dysfunction-associated steatotic liver disease (MASLD) and its progressive form, metabolic dysfunction-associated steatohepatitis (MASH). As the global prevalence of obesity continues to rise, the burden of MASLD/MASH is increasing, posing significant challenges to healthcare systems. The use of anti-obesity medications (AOMs) in this population is complex due to altered hepatic metabolism, safety concerns, and potential hepatotoxicity. Recent advances in pharmacologic agents, such as glucagon-like peptide-1 (GLP-1) receptor agonists (GLP-1 RAs), dual GLP-1/glucose-gastric inhibitory polypeptide (GIP) agonists, and triple GLP-1/GIP/glucagon agonists, have shown promising metabolic effects in the general population. Among these, GLP-1 RAs (e.g., liraglutide and semaglutide) consistently demonstrate hepatic benefits, including reductions in hepatic steatosis, improvements in liver enzyme profiles, and attenuation of fibrosis progression. Tirzepatide",
+            "journal": "World journal of gastroenterology",
+            "year": "2025",
+            "authors": [
+              "Concepción-Zavaleta Marcio J",
+              "Fuentes-Mendoza Jenyfer M",
+              "Gonzáles-Yovera Jhean G",
+              "Ruvalcaba-Barbosa Gemma Y",
+              "Cura-Rodríguez Leonardo D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Obesity",
+              "Anti-Obesity Agents",
+              "Liver",
+              "Glucagon-Like Peptide-1 Receptor Agonists",
+              "Treatment Outcome",
+              "Non-alcoholic Fatty Liver Disease",
+              "Fatty Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41025003/"
+          },
+          {
+            "pmid": "35501557",
+            "title": "Anti-obesity Medications for the Management of Nonalcoholic Fatty Liver Disease.",
+            "abstract": "Obesity is closely associated with nonalcoholic fatty liver disease (NAFLD), a highly prevalent disease without any approved medication. The aim of this review was to summarize the evidence on the effect of anti-obesity medications on NAFLD, especially focusing on hepatic histology.",
+            "journal": "Current obesity reports",
+            "year": "2022",
+            "authors": [
+              "Polyzos Stergios A",
+              "Goulis Dimitrios G",
+              "Giouleme Olga",
+              "Germanidis Georgios S",
+              "Goulas Antonis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Obesity Agents",
+              "Liraglutide",
+              "Non-alcoholic Fatty Liver Disease",
+              "Obesity",
+              "Orlistat",
+              "Phentermine",
+              "Sodium-Glucose Transporter 2 Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35501557/"
+          },
+          {
+            "pmid": "35430025",
+            "title": "JCL Roundtable. Obesity, Diabetes, and Liver Disease in Relation to Cardiovascular Risk.",
+            "abstract": "Metabolic risk for cardiovascular and other systems includes much more than just LDL cholesterol. This JCL Roundtable brings together 3 experts to address new opportunities to reduce the risks posed by obesity, diabetes, and fatty liver disease. Successful nutritional approaches to weight loss are diverse and need to be matched with individual preferences. Topiramate plus extended-release phentermine has been shown to promote meaningful weight loss in randomized trials, but the patented drug combination is expensive. Clinical experience suggests that generic topiramate and phentermine may also be effective. Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) and sodium-glucose cotransporter 2 inhibitors (SGLT2is) have shown favorable tolerability and efficacy for cardiovascular disease in randomized trials, an achievement without precedent among earlier diabetes medications. These 2 drug classes differ in their effects. GLP-1 RAs decrease atherosclerotic cardiovascular events and als",
+            "journal": "Journal of clinical lipidology",
+            "year": "2022",
+            "authors": [
+              "Wyne Kathleen L",
+              "Litwin Sheldon E",
+              "Cusi Kenneth",
+              "Guyton John R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cardiovascular Diseases",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Nephropathies",
+              "Female",
+              "Glucagon-Like Peptide 1",
+              "Heart Disease Risk Factors",
+              "Humans",
+              "Hypoglycemic Agents",
+              "Liver Cirrhosis",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35430025/"
+          },
+          {
+            "pmid": "36059008",
+            "title": "Phentermine/Topiramate: Pediatric First Approval.",
+            "abstract": "Phentermine/topiramate extended-release capsule (Qsymia®) is a fixed-dose combination of phentermine and topiramate, which is being developed by VIVUS (a subsidiary of Icahn Enterprises) for the treatment of obesity, sleep apnoea syndrome, type 2 diabetes mellitus and non-alcoholic steatohepatitis (NASH). The once-daily formulation of phentermine (a sympathomimetic amine) and topiramate is designed to combat obesity by decreasing appetite and increasing satiety. In July 2022, phentermine/topiramate received its first approval in the USA, as an adjunct to a reduced-calorie diet and increased physical activity, for chronic weight management in pediatric patients aged ≥ 12 years with BMI in the 95th percentile or greater standardized for age and sex. Phentermine/topiramate is approved in the US and South Korea for obesity in adults. Clinical development of phentermine/topiramate for sleep apnoea syndrome and type-2 diabetes in obese patients and preclinical development for NASH is ongoing",
+            "journal": "Paediatric drugs",
+            "year": "2022",
+            "authors": [
+              "Dhillon Sohita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Adolescent",
+              "Humans",
+              "Child",
+              "Topiramate",
+              "Anti-Obesity Agents",
+              "Sympathomimetics",
+              "Delayed-Action Preparations",
+              "Non-alcoholic Fatty Liver Disease",
+              "Diabetes Mellitus, Type 2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36059008/"
+          },
+          {
+            "pmid": "36120448",
+            "title": "Which is the optimal antiobesity agent for patients with nonalcoholic fatty liver disease?",
+            "abstract": "Nonalcoholic fatty liver disease (NAFLD) is the commonest chronic liver disease and affects a considerable proportion of the general population worldwide. Obesity is a major risk factor for development and progression of NAFLD and weight loss is an effective intervention for the management of NAFLD. However, few patients achieve substantial and sustained weight loss with lifestyle measures. Therefore, antiobesity agents are frequently considered in patients with NAFLD but there are limited data on their safety and efficacy. In the present review, we discuss the role of antiobesity agents in the management of NAFLD. All approved antiobesity agents appear to reduce transaminase levels and to improve steatosis in patients with NAFLD. However, their effects on fibrosis are less well studied and whether they affect liver-related outcomes, including progression to cirrhosis and hepatocellular cancer, is unknown. The glucagon-like peptide-1 receptor agonists, liraglutide and semaglutide, appe",
+            "journal": "Frontiers in endocrinology",
+            "year": "2022",
+            "authors": [
+              "Tsankof Alexandra",
+              "Neokosmidis Georgios",
+              "Koureta Evgenia",
+              "Veneti Stavroula",
+              "Cholongitas Evangelos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Obesity Agents",
+              "Diabetes Mellitus, Type 2",
+              "Glucagon-Like Peptide-1 Receptor",
+              "Humans",
+              "Liraglutide",
+              "Non-alcoholic Fatty Liver Disease",
+              "Obesity",
+              "Platelet Aggregation Inhibitors",
+              "Transaminases",
+              "Weight Loss"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36120448/"
+          },
+          {
+            "pmid": "37511966",
+            "title": "Pediatric Obesity: Complications and Current Day Management.",
+            "abstract": "Obesity affects approximately 1 in 5 youth globally and increases the risk of complications during adolescence and young adulthood, including type 2 diabetes, dyslipidemia, hypertension, non-alcoholic fatty liver disease, obstructive sleep apnea, and polycystic ovary syndrome. Children and adolescents with obesity frequently experience weight stigma and have an impaired quality of life, which may exacerbate weight gain. Pediatric obesity is typically defined using sex-, age-, and population-specific body mass index percentiles. Once identified, pediatric obesity should always be managed with lifestyle modification. However, adolescents with obesity may also benefit from anti-obesity medications (AOM), several of which have been approved for use in adolescents by the US Food and Drug Administration, including liraglutide, phentermine/topiramate, and semaglutide. For children with specific, rare monogenic obesity disorders, setmelanotide is available and may lead to significant weight lo",
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Vajravelu Mary Ellen",
+              "Tas Emir",
+              "Arslanian Silva"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37511966/"
+          },
+          {
+            "pmid": "19199918",
+            "title": "Obesity: pathophysiology and clinical management.",
+            "abstract": "Obesity is an increasingly serious socioeconomic and clinical problem. Between (1/4)-(1/3) of population in the developed countries can be classified as obese. Four major etiological factors for development of obesity are genetic determinants, environmental factors, food intake and exercise. Obesity increases the risk of the development of various pathologic conditions including: insulin-resistant diabetes mellitus, cardiovascular disease, non-alcoholic fatty liver disease, endocrine problems, and certain forms of cancer. Thus, obesity is a negative determinant for longevity. In this review we provide broad overview of pathophysiology of obesity. We also discuss various available, and experimental therapeutic methods. We highlight functions of adipocytes including fat storing capacity and secretory activity resulting in numerous endocrine effects like leptin, IL-6, adiponectin, and resistin. The anti-obesity drugs are classified according to their primary action on energy balance. Majo",
+            "journal": "Current medicinal chemistry",
+            "year": "2009",
+            "authors": [
+              "Gurevich-Panigrahi Tatiana",
+              "Panigrahi Soumya",
+              "Wiechec Emilia",
+              "Los Marek"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Obesity Agents",
+              "Appetite Depressants",
+              "Humans",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19199918/"
+          },
+          {
+            "pmid": "39150883",
+            "title": "Obesity management in the pediatric patient.",
+            "abstract": "The purpose of this review is to discuss treatment modalities for obesity in children and adolescents, including nonpharmacological, pharmacological, and surgical interventions.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2025",
+            "authors": [
+              "Matson Kelly L",
+              "Fenn Norman E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pediatric Obesity",
+              "Child",
+              "Adolescent",
+              "Anti-Obesity Agents",
+              "Bariatric Surgery",
+              "Exercise"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39150883/"
+          },
+          {
+            "pmid": "39604664",
+            "title": "Presence of Mood and/or Anxiety Disorders Does Not Affect Success of Weight Management Therapies in Metabolic Dysfunction-Associated Steatotic Liver Disease.",
+            "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) and resultant steatohepatitis (MASH) have been linked to psychiatric comorbidities. The treatment of MASLD/MASH primarily relies upon weight loss, where achieving a 7% total body weight loss is recommended to improve steatohepatitis. We aimed to determine whether achieving a 7% total body weight loss (TBWL) in MASLD/MASH patients was significantly different in the presence of a mood and/or anxiety disorder in an interdisciplinary clinic that integrates weight management and hepatology care.",
+            "journal": "Digestive diseases and sciences",
+            "year": "2025",
+            "authors": [
+              "Bollinger Bryan",
+              "Cotter Robert",
+              "Deng Yanhong",
+              "Ilagan-Ying Ysabel",
+              "Gupta Vikas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Retrospective Studies",
+              "Middle Aged",
+              "Anxiety Disorders",
+              "Mood Disorders",
+              "Weight Loss",
+              "Adult",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39604664/"
+          },
+          {
+            "pmid": "32153507",
+            "title": "Effect of Weight Loss Medications on Hepatic Steatosis and Steatohepatitis: A Systematic Review.",
+            "abstract": "Non-alcoholic fatty liver disease (NAFLD) is a common comorbidity in individuals with obesity. Although multiple pharmacotherapeutics are in development, currently there are limited strategies specifically targeting NAFLD. This systematic review summarizes the existing literature on hepatic effects of medications used for weight loss. Glucagon-like peptide 1 (GLP-1) agonists are the best-studied in this regard, and evidence consistently demonstrates reduction in liver fat content, sometimes accompanied by improvements in histological features of steatohepatitis and reductions in serum markers of hepatic injury such as alanine aminotransferase (ALT). It remains unclear whether these benefits are independent of the weight loss caused by these agents. Literature is limited regarding effects of orlistat, but a small number of reports suggest that orlistat reduces liver fat content and improves histologic features of NASH, benefits which may also be driven primarily by weight loss. A sizeab",
+            "journal": "Frontiers in endocrinology",
+            "year": "2020",
+            "authors": [
+              "Pan Chelsea S",
+              "Stanley Takara L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Anti-Obesity Agents",
+              "Fatty Liver",
+              "Humans",
+              "Non-alcoholic Fatty Liver Disease",
+              "Prognosis",
+              "Weight Loss"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32153507/"
+          },
+          {
+            "pmid": "32378399",
+            "title": "Current Long-Term Pharmacotherapies for the Management of Obesity.",
+            "abstract": "Obesity is a serious and growing worldwide health challenge associated with type 2 diabetes mellitus, cardiovascular disease, osteoarthritis, some cancers, sleep apnea, asthma, and nonalcoholic fatty liver. The Korean Society for the Study of Obesity recommends that pharmacotherapy should be considered when intensive lifestyle modifications fail to achieve a weight reduction in obese patients with a body mass index ≥25 kg/m2. Long-term medications for obesity have traditionally fallen into two major categories: centrally acting anorexiant medications and peripherally acting medications, such as orlistat. In this paper, we provide an overview of the anti-obesity medications currently available for the long-term and individualized treatment of obesity.",
+            "journal": "Journal of obesity & metabolic syndrome",
+            "year": "2020",
+            "authors": [
+              "Kim Bo-Yeon",
+              "Kang Seon Mee",
+              "Kang Jee-Hyun",
+              "Kim Kyoung Kon",
+              "Kim Bomtaeck"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32378399/"
+          },
+          {
+            "pmid": "38726916",
+            "title": "The combined pioglitazone and topiramate therapy for management of pediatric patients with severe MASLD.",
+            "abstract": "Metabolic dysfunction associated steatotic liver disease (MASLD) is the most common cause of chronic hepatitis in adult and pediatric patients. Adolescents with severe MASLD can demonstrate a more aggressive disease phenotype as they more commonly develop liver fibrosis than BMI matched adults. Therefore, MASLD is the fastest growing indication for liver transplants in young adults.",
+            "journal": "Saudi journal of gastroenterology : official journal of the Saudi Gastroenterology Association",
+            "year": "2024",
+            "authors": [
+              "Conroy Callen",
+              "Radulescu Aurelia",
+              "Attia Suzanna L",
+              "Shelman Nathan",
+              "Lee James T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Topiramate",
+              "Pioglitazone",
+              "Adolescent",
+              "Male",
+              "Female",
+              "Retrospective Studies",
+              "Treatment Outcome",
+              "Drug Therapy, Combination",
+              "Child"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38726916/"
+          },
+          {
+            "pmid": "39720872",
+            "title": "Topiramate treatment of pediatric metabolic dysfunction-associated steatotic liver disease: A descriptive cohort study.",
+            "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a common disease in children. Lifestyle modification is the primary treatment but difficult to achieve and maintain. Topiramate is a component of an approved weight loss medication (topiramate-phentermine) in children aged 12 years and older but is more commonly used as a single agent, off-label, for pediatric obesity. Our aim is to describe change in anthropometrics and laboratory values while providing topiramate treatment of pediatric MASLD.",
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "year": "2025",
+            "authors": [
+              "Kohut Taisa",
+              "Tou Andrea",
+              "Carr Emily",
+              "Xanthakos Stavra",
+              "Arce-Clachar Ana Catalina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Topiramate",
+              "Male",
+              "Child",
+              "Female",
+              "Cohort Studies",
+              "Body Mass Index",
+              "Alanine Transaminase",
+              "Adolescent",
+              "Fatty Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39720872/"
+          },
+          {
+            "pmid": "18560368",
+            "title": "Antiobesity effects of the beta-cell hormone amylin in combination with phentermine or sibutramine in diet-induced obese rats.",
+            "abstract": "To characterize the interactive effects of amylin with phentermine or sibutramine on food intake, body weight/composition and gene expression in diet-induced obese (DIO) rats.",
+            "journal": "International journal of obesity (2005)",
+            "year": "2008",
+            "authors": [
+              "Roth J D",
+              "Trevaskis J L",
+              "Wilson J",
+              "Lei C",
+              "Athanacio J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amyloid",
+              "Animals",
+              "Anti-Obesity Agents",
+              "Body Composition",
+              "Body Weight",
+              "Cyclobutanes",
+              "Diet",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18560368/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pentosuria",
+        "txgnn_score": 0.7497288584709167,
+        "txgnn_rank": 43813,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.7297326922416687,
+        "txgnn_rank": 44406,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.7096335291862488,
+        "txgnn_rank": 45055,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37368102",
+            "title": "Narrative Review of Topiramate: Clinical Uses and Pharmacological Considerations.",
+            "abstract": "Due to the diverse mechanisms of action of antiseizure drugs, there has been a rise in prescriptions of these drugs for non-epileptic pathologies. One drug that is now being used for a variety of conditions is topiramate. This is a narrative review that used PubMed, Google Scholar, MEDLINE, and ScienceDirect to review literature on the clinical and pharmacologic properties of topiramate. Topiramate is a commonly prescribed second-generation antiseizure drug. The drug works through multiple pathways to prevent seizures. In this regard, topiramate blocks sodium and calcium voltage-gated channels, inhibits glutamate receptors, enhances gamma-aminobutyric acid (GABA) receptors, and inhibits carbonic anhydrase. Topiramate is approved by the Food and Drug Administration (FDA) for epilepsy treatment and migraine prophylaxis. Topiramate in combination with phentermine is also FDA-approved for weight loss in patients with a body mass index (BMI) > 30. The current target dosing for topiramate mo",
+            "journal": "Advances in therapy",
+            "year": "2023",
+            "authors": [
+              "Pearl Nathan Z",
+              "Babin Caroline P",
+              "Catalano Nicole T",
+              "Blake James C",
+              "Ahmadzadeh Shahab"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Topiramate",
+              "Anticonvulsants",
+              "Fructose",
+              "Epilepsy",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37368102/"
+          },
+          {
+            "pmid": "20707765",
+            "title": "Phentermine, topiramate and their combination for the treatment of adiposopathy ('sick fat') and metabolic disease.",
+            "abstract": "Positive caloric balance often causes pathologic adipocyte and adipose tissue anatomical and functional changes (termed adiposopathy or 'sick fat'), which may lead to pathogenic adipocyte and adipose tissue responses and metabolic disease. Fat weight loss may improve adiposopathy, and thus improve metabolic disease in overweight patients. Unfortunately, the efficacy of non-surgical weight loss therapies is often limited due to redundant physiological systems that help 'protect' against starvation and/or negative caloric balance. One strategy to overcome these limitations is to combine weight loss drug therapies having complementary mechanisms of action, thereby affecting more than one physiologic process influencing body fat accumulation. Phentermine is a noradrenergic sympathomimetic amine approved for short-term treatment of obesity. Topiramate is a sulfamate-substituted monosaccharide derivative of the naturally occurring sugar monosaccharide D-fructose approved as a treatment for m",
+            "journal": "Expert review of cardiovascular therapy",
+            "year": "2010",
+            "authors": [
+              "Bays Harold"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adipose Tissue",
+              "Adiposity",
+              "Animals",
+              "Anti-Obesity Agents",
+              "Appetite Depressants",
+              "Appetite Regulation",
+              "Delayed-Action Preparations",
+              "Drug Approval",
+              "Drug Combinations",
+              "Drugs, Investigational"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20707765/"
+          },
+          {
+            "pmid": "22348915",
+            "title": "Phentermine/topiramate for weight reduction and treatment of adverse metabolic consequences in obesity.",
+            "abstract": "Phentermine hydrochloride is a noradrenergic sympathetic amine approved for decades by the U.S. Food and Drug Administration (FDA) at doses as high as 37.5 mg/day for the short-term treatment of obesity. Topiramate is a sulfamate-substituted monosaccharide marketed since 1996, and approved by the FDA for seizure disorders at doses up to 400 mg/day and for the prevention of migraine headaches at doses up to 100 mg/day. Clinical trial data suggest topiramate promotes weight loss. The prescribing information of neither agent describes adverse drug interactions with the other. The controlled-release formulation of phentermine and topiramate at low, medium and full doses (with full dose containing 15 mg of phentermine hydrochloride and 92 mg of topiramate) promotes weight reduction, with clinical trial data supporting improvement in adiposopathic consequences leading to metabolic diseases. Reported adverse events with this combination agent are as expected, based upon knowledge of the indiv",
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2011",
+            "authors": [
+              "Bays H E",
+              "Gadde K M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Obesity Agents",
+              "Appetite Depressants",
+              "Chemistry, Pharmaceutical",
+              "Drug Approval",
+              "Drug Combinations",
+              "Fructose",
+              "Humans",
+              "Obesity",
+              "Phentermine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22348915/"
+          },
+          {
+            "pmid": "9543401",
+            "title": "A close look at fenfluramine and dexfenfluramine.",
+            "abstract": "In an effort to combat obesity, several medications have been developed. The nonamphetamine anorectics, such as phentermine, fenfluramine, and dexfenfluramine, have been recommended as first-line drug therapy for the treatment of obesity once diet and exercise alone have failed. Numerous studies have shown that these agents can promote weight loss when combined with diet restriction and exercise. Although fenfluramine and dexfenfluramine lack the abuse potential of amphetamine and its congeners, these agents are associated with drug interactions and adverse effects. Concomitant administration of fenfluramine or dexfenfluramine with medications that enhance serotonin levels (e.g., antidepressants, monoamine oxidase inhibitors, and migraine medications) can precipitate serotonin syndrome. Sudden discontinuation of fenfluramine or dexfenfluramine after prolonged administration can precipitate withdrawal depressive symptoms. Primary pulmonary hypertension, a potentially fatal disorder, has",
+            "journal": "The Journal of emergency medicine",
+            "year": "1998",
+            "authors": [
+              "Vivero L E",
+              "Anderson P O",
+              "Clark R F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Appetite Depressants",
+              "Clinical Trials as Topic",
+              "Drug Therapy, Combination",
+              "Emergencies",
+              "Fenfluramine",
+              "Humans",
+              "Obesity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9543401/"
+          },
+          {
+            "pmid": "23630428",
+            "title": "Clinical utility of phentermine/topiramate (Qsymia™) combination for the treatment of obesity.",
+            "abstract": "Qsymia™ (Vivus Inc, Mountain View, CA, USA), a combination of phentermine and delayed-release topiramate, has been available in the US since September 2012 for the treatment of obesity. Phentermine is an anorexigenic agent, which is approved for the short-term treatment of obesity, while topiramate is approved for nonweight loss indications - seizure disorders and migraine prophylaxis. The amount of weight loss achieved with combination therapy is of a greater magnitude than what could be achieved with either agent alone. Adverse events that occur with the combination therapy are in line with the known side effect profiles of the constituent drugs; teratogenicity, a slight increase in heart rate, psychiatric and cognitive adverse effects, and metabolic acidosis are concerns.",
+            "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+            "year": "2013",
+            "authors": [
+              "Shin Jin Hee",
+              "Gadde Kishore M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23630428/"
+          },
+          {
+            "pmid": "10772044",
+            "title": "Expression of 5-hydroxytryptamine receptor subtype messenger RNA in interstitial cells from human heart valves.",
+            "abstract": "Severe heart valve disorder has been reported in patients receiving a combination of the anorectic drugs fenfluramine and phentermine. The exact molecular mechanisms involved remain unknown. Fenfluramine alters the serotonin level in the brain, while phentermine interferes with the pulmonary clearance of serotonin; these data suggest that serotonin levels affect regulation of valve function. The aim of the present study was to characterize the serotonin receptor (5-hydroxytryptamine) subtypes expressed in the interstitial cells of human heart valves.",
+            "journal": "The Journal of heart valve disease",
+            "year": "2000",
+            "authors": [
+              "Roy A",
+              "Brand N J",
+              "Yacoub M H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Appetite Depressants",
+              "Culture Techniques",
+              "Extracellular Matrix",
+              "Fenfluramine",
+              "Gene Expression",
+              "Heart Valves",
+              "Humans",
+              "Phentermine",
+              "RNA, Messenger",
+              "Receptor, Serotonin, 5-HT1B"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10772044/"
+          },
+          {
+            "pmid": "25911503",
+            "title": "Paradoxical topiramate-induced hyperphagia successfully treated with phentermine in a woman with migraine.",
+            "abstract": "We report a 49-year-old female migraineur who experienced paradoxical hyperphagia and concurrent intrusive food thoughts leading to rapid weight gain and a substantial increase in waist circumference. A significant reduction in migraine frequency was also observed during topiramate treatment, a widely used migraine prophylactic agent which is generally associated with weight loss. Withdrawal of topiramate saw appetite return to baseline levels, however, migraine frequency was again increased. Topiramate was reinitiated in combination with phentermine, a drug indicated for weight management, without reoccurrence of adverse effects. Migraine control was maintained and progressive weight loss ensued. Combination treatment with phentermine may be a useful strategy should other patients experience this adverse reaction while gaining therapeutic anti-migraine benefit from topiramate.",
+            "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+            "year": "2015",
+            "authors": [
+              "Johnson Jacinta L",
+              "Rolan Paul E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Appetite Depressants",
+              "Drug Therapy, Combination",
+              "Female",
+              "Fructose",
+              "Humans",
+              "Hyperphagia",
+              "Male",
+              "Middle Aged",
+              "Migraine Disorders",
+              "Neuroprotective Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25911503/"
+          },
+          {
+            "pmid": "24978347",
+            "title": "Topiramate's reduction of body mass index in heavy drinkers: lack of moderation by a GRIK1 polymorphism.",
+            "abstract": "Topiramate, which interacts with multiple neurotransmitter and enzyme systems, is approved by the Food and Drug Administration to treat seizure disorder, prevent migraine, and (in combination with phentermine) reduce weight. Topiramate has also been shown in multiple studies to reduce heavy drinking. The authors found that topiramate 200 mg/day significantly reduced heavy drinking in heavy drinkers with a treatment goal of reduced drinking (Kranzler et al., 2014). Further, in the European American (EA) subsample (n = 122), a single nucleotide polymorphism (rs2832407) in GRIK1, which encodes the GluK1 subunit of the kainate receptor, moderated the effect on heavy drinking days. Here the authors examined the effects of topiramate on body mass index (BMI) and the moderating effect of rs2832407 in the EA subsample from Kranzler et al. (2014). Across the 12 weeks of treatment, BMI was reduced by 1.2 kg/m2 (p < .001) in the topiramate group but was unchanged in the placebo group. There was n",
+            "journal": "Experimental and clinical psychopharmacology",
+            "year": "2014",
+            "authors": [
+              "Kranzler Henry R",
+              "Feinn Richard",
+              "Gelernter Joel",
+              "Pond Timothy",
+              "Covault Jonathan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alcohol Drinking",
+              "Anti-Obesity Agents",
+              "Body Mass Index",
+              "Female",
+              "Fructose",
+              "Genotype",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24978347/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00191",
+    "name": "Phentermine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Phentermine"
+      },
+      "queried_at": "2026-03-10T00:03:55.593330",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Phentermine"
+      },
+      "queried_at": "2026-03-10T00:03:58.643107",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "hypervitaminosis"
+      },
+      "queried_at": "2026-03-10T00:04:00.867717",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "hypervitaminosis"
+      },
+      "queried_at": "2026-03-10T00:04:07.851691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "hypervitaminosis"
+      },
+      "queried_at": "2026-03-10T00:04:09.668209",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "proximal 16p11.2 microdeletion syndrome"
+      },
+      "queried_at": "2026-03-10T00:04:11.011226",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "proximal 16p11.2 microdeletion syndrome"
+      },
+      "queried_at": "2026-03-10T00:04:16.290555",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "proximal 16p11.2 microdeletion syndrome"
+      },
+      "queried_at": "2026-03-10T00:04:18.063180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-10T00:04:19.079727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-10T00:04:26.923849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "obsolete hypertelorism (disease)"
+      },
+      "queried_at": "2026-03-10T00:04:28.435915",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "frontorhiny"
+      },
+      "queried_at": "2026-03-10T00:04:30.244365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "frontorhiny"
+      },
+      "queried_at": "2026-03-10T00:04:35.191693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "frontorhiny"
+      },
+      "queried_at": "2026-03-10T00:04:38.214511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T00:04:40.076871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T00:04:43.916325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "postural orthostatic tachycardia syndrome"
+      },
+      "queried_at": "2026-03-10T00:04:46.581372",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "lethal polymalformative syndrome, Boissel type"
+      },
+      "queried_at": "2026-03-10T00:04:47.866761",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "lethal polymalformative syndrome, Boissel type"
+      },
+      "queried_at": "2026-03-10T00:04:54.879089",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "lethal polymalformative syndrome, Boissel type"
+      },
+      "queried_at": "2026-03-10T00:04:56.172145",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "fatty liver disease"
+      },
+      "queried_at": "2026-03-10T00:04:57.520156",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "fatty liver disease"
+      },
+      "queried_at": "2026-03-10T00:05:05.070827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "fatty liver disease"
+      },
+      "queried_at": "2026-03-10T00:05:15.812416",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "pentosuria"
+      },
+      "queried_at": "2026-03-10T00:05:16.767774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "pentosuria"
+      },
+      "queried_at": "2026-03-10T00:05:22.164035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "pentosuria"
+      },
+      "queried_at": "2026-03-10T00:05:23.716967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T00:05:24.763950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T00:05:32.090441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T00:05:33.765517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T00:05:35.630855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T00:05:53.364678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phentermine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T00:06:01.676427",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:06:01.702917"
+  }
+}

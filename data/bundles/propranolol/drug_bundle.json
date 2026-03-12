@@ -1,0 +1,2143 @@
+{
+  "drug": {
+    "inn": "Propranolol",
+    "drugbank_id": "DB00571",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "distal myopathy, Tateyama type",
+        "txgnn_score": 0.9939767122268676,
+        "txgnn_rank": 7395,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital myopathy with excess of thin filaments",
+        "txgnn_score": 0.9930307269096376,
+        "txgnn_rank": 8202,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypertrophic cardiomyopathy due to intensive athletic training",
+        "txgnn_score": 0.9916681051254272,
+        "txgnn_rank": 9269,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chondroma",
+        "txgnn_score": 0.9914186000823976,
+        "txgnn_rank": 9462,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cirrhotic cardiomyopathy",
+        "txgnn_score": 0.9911871552467346,
+        "txgnn_rank": 9666,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25250684",
+            "title": "Investigation of cardiomyopathy in children with cirrhotic and noncirrhotic portal hypertension.",
+            "abstract": "Cirrhotic cardiomyopathy (CCMP) is a functional disorder characterized by electrophysiological disturbances, and diastolic and/or systolic dysfunction in patients with liver disease. This disorder is a well-defined entity in adults, but pediatric data are limited. The aim of the study was to determine the incidence, features, and risk factors of CCMP in children with portal hypertension (PHT).",
+            "journal": "Journal of pediatric gastroenterology and nutrition",
+            "year": "2015",
+            "authors": [
+              "Celtik Coskun",
+              "Durmaz Ozlem",
+              "Oner Naci",
+              "Yavuz Taner",
+              "Gökce Selim"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antihypertensive Agents",
+              "Ascites",
+              "Blood Pressure",
+              "Cardiomyopathies",
+              "Case-Control Studies",
+              "Child",
+              "Child, Preschool",
+              "Diuretics",
+              "Echocardiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25250684/"
+          },
+          {
+            "pmid": "38738176",
+            "title": "Propranolol can correct prolonged QT intervals in patients with cirrhosis.",
+            "abstract": "Prolonged QT intervals are extremely common in patients with cirrhosis and affect their treatment outcomes. Propranolol is often used to prevent gastroesophageal variceal hemorrhage in patients with cirrhosis; however, it is uncertain whether propranolol exerts a corrective effect on QT interval prolongation in patients with cirrhosis.",
+            "journal": "Frontiers in pharmacology",
+            "year": "2024",
+            "authors": [
+              "Han Huanqin",
+              "Chen Junlian",
+              "Deng Zhirong",
+              "Li Tingting",
+              "Qi Xiaoying"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38738176/"
+          },
+          {
+            "pmid": "15387011",
+            "title": "[Cirrhotic cardiomyopathy: prolonged QTc-interval and dyssynchronic electrical and mechanical systole in cirrhosis].",
+            "abstract": "",
+            "journal": "Ugeskrift for laeger",
+            "year": "2004",
+            "authors": [
+              "Henriksen Jens H",
+              "Fuglsang Stefan",
+              "Bendtsen Flemming",
+              "Christensen Erik",
+              "Møller Søren"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Adult",
+              "Aged",
+              "Cardiomyopathies",
+              "Electrocardiography",
+              "Female",
+              "Heart",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Portal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15387011/"
+          },
+          {
+            "pmid": "32446716",
+            "title": "Non-selective beta-blockers impair global circulatory homeostasis and renal function in cirrhotic patients with refractory ascites.",
+            "abstract": "The safety of non-selective β-blockers (NSBBs) has been questioned in refractory ascites (RA). We studied the effects of NSBBs on cardiac systolic function, systemic hemodynamics, and renal perfusion pressure (RPP) and function in patients with diuretic-responsive ascites (DRA) and RA.",
+            "journal": "Journal of hepatology",
+            "year": "2020",
+            "authors": [
+              "Téllez Luis",
+              "Ibáñez-Samaniego Luis",
+              "Pérez Del Villar Candelas",
+              "Yotti Raquel",
+              "Martínez Javier"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Ascites",
+              "Female",
+              "Glomerular Filtration Rate",
+              "Heart Function Tests",
+              "Hemodynamics",
+              "Hemorrhage",
+              "Humans",
+              "Hypertension, Portal",
+              "Kidney Function Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32446716/"
+          },
+          {
+            "pmid": "35763518",
+            "title": "Blunted cardiovascular effects of beta-blockers in patients with cirrhosis: Relation to severity?",
+            "abstract": "Patients with cirrhosis and portal hypertension are at high risk of developing complications such as variceal hemorrhage, ascites, and cardiac dysfunction, the latter of which is known as cirrhotic cardiomyopathy. Since non-selective beta-blockers (NSBB) may aggravate hemodynamic complications we investigated the effect of real-time propranolol infusion on cardiac function in patients with varying degrees of cirrhosis.",
+            "journal": "PloS one",
+            "year": "2022",
+            "authors": [
+              "Nabilou Puria",
+              "Danielsen Karen Vagner",
+              "Kimer Nina",
+              "Hove Jens Dahlgaard",
+              "Bendtsen Flemming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Esophageal and Gastric Varices",
+              "Gastrointestinal Hemorrhage",
+              "Humans",
+              "Liver Cirrhosis",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35763518/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cardiomyopathy",
+        "txgnn_score": 0.9911834001541138,
+        "txgnn_rank": 9670,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05427474",
+            "title": "Role of Combined Therapy of Propranolol and Gabapentin in Paroxysmal Sympathetic Hyperactivity in Traumatic Brain Injury at Emergency Intensive Care Unit",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2022-12-01",
+            "completion_date": "2023-10-31",
+            "country": "Egypt",
+            "enrollment": 90,
+            "brief_summary": "Paroxysmal sympathetic hyperactivity (PSH) is a syndrome that comprises a series of signs and symptoms reflecting exacerbated sympathetic activity, including arterial hypertension, fever, tachycardia, generalized perspiration, anomalous motor activity (dystonia, muscle stiffness, extension), tachypnea, mechanical ventilator maladjustment, hypoxemia, hypercapnia, and hyperglycemia. PSH episodes can be intense and prolonged and can occur several times a day and all of these can lead to secondary b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • ICU patients with moderate (GCS 9-12) to severe (GCS \\<9) traumatic brain injury .\n\nExclusion Criteria:\n\n* Pre-existing brain dysfunction .\n* History of allergy to any of the combined drug therapy ( propranolol or gabapentine ) .\n* History of obstructive lung disease .\n* His",
+            "endpoints": [
+              "mortality rate of patients"
+            ],
+            "sponsor": "Zagazig University",
+            "url": "https://clinicaltrials.gov/study/NCT05427474"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04767061",
+            "title": "N-of-1 Trials for Deprescribing Beta-blockers in HFpEF",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-04-01",
+            "completion_date": "2023-04-28",
+            "country": "United States",
+            "enrollment": 9,
+            "brief_summary": "The purpose of this study is to understand the impact of beta-blockers on physical function in older adults with heart failure. We will achieve this objective by conducting N-of-1 trials. N-of-1 trials are personalized experiments that test different treatment options in an individual patient.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ambulatory adults ≥65 years of age with Heart Failure with Preserved Ejection Fraction (HFpEF) according to ACC/AHA guidelines: (signs and symptoms of Heart failure \\[HF\\] and ejection fraction \\[EF\\] ≥50%)\n* Taking Beta blocker\n\nExclusion Criteria:\n\n* Alternate Causes of HFpE",
+            "endpoints": [
+              "Change in Physical Activity When on Beta-blocker Versus When Off Beta-blocker, as Measured by Step Count on Wearable Activity Monitoring Device",
+              "Change in Lower Extremity Function When on Beta-blocker Versus When Off Beta-blocker, as Measured by the Balance Portion of a Modified Version of the Short Physical Performance Battery.",
+              "Change in Lower Extremity Function When on Beta-blocker Versus When Off Beta-blocker, as Measured by the Gait Speed Portion of a Modified Version of the Short Physical Performance Battery."
+            ],
+            "sponsor": "Weill Medical College of Cornell University",
+            "url": "https://clinicaltrials.gov/study/NCT04767061"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05019027",
+            "title": "N-of-1 Trials to Promote Deprescribing in Older Adults With Transthyretin Cardiac Amyloidosis",
+            "phase": "PHASE4",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2024-01-31",
+            "completion_date": "2026-12-31",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "The study team will generate preliminary data on whether patients with cardiac amyloidosis feel better when their beta-blocker is stopped. To achieve this objective, 20 N-of-1 trials (on vs. off) will be conducted, and the study team will subsequently interview participants to better understand their outcomes. Each subject will participate in 2 periods lasting between up to 6 weeks each based on each patient's health profile. We will also engage stakeholders to understand the acceptability and f",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Ambulatory adults age ≥65 years with TTR-cardiac amyloidosis (confirmed by PYP scan or biopsy)\n2. Taking beta-blocker\n\nExclusion Criteria:\n\n1. Other compelling indication(s) for beta-blockers:\n\n   1. Angina\n   2. Acute coronary syndrome, myocardial infarction or coronary arte",
+            "endpoints": [
+              "The change in exercise capacity when on beta-blocker versus when off beta-blocker, as measured by peak oxygen consumption (VO2) during Cardiopulmonary Exercise Test (CPET).",
+              "The change in patient-reported health status when on beta-blocker versus when off beta-blocker, as measured by Kansas City Cardiomyopathy Questionnaire (KCCQ-12).",
+              "The change in patient-reported quality of life when on beta-blocker versus when off beta-blocker, as measured by the EuroQol-5d Visual Analogue Scale."
+            ],
+            "sponsor": "Weill Medical College of Cornell University",
+            "url": "https://clinicaltrials.gov/study/NCT05019027"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "4576657",
+            "title": "Propranolol.",
+            "abstract": "",
+            "journal": "Annals of internal medicine",
+            "year": "1973",
+            "authors": [
+              "Morrelli H F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Angina Pectoris",
+              "Arrhythmias, Cardiac",
+              "Cardiomyopathy, Hypertrophic",
+              "Humans",
+              "Hypertension",
+              "Hyperthyroidism",
+              "Legislation, Drug",
+              "Pheochromocytoma",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4576657/"
+          },
+          {
+            "pmid": "7200796",
+            "title": "Haemodynamic effects of nifedipine and propranolol in patients with hypertrophic obstructive cardiomyopathy.",
+            "abstract": "The haemodynamic effects of nifedipine, propranolol, and the combined administration of the two drugs were studied in 12 patients with hypertrophic obstructive cardiomyopathy. The combined administration of nifedipine and propranolol appeared to be superior to that of nifedipine alone. The spontaneous heart rate was reduced in most cases after nifedipine plus propranolol, and at atrial pacing the following results were obtained: left ventricular peak systolic pressure was reduced from 200 +/- 39 to 157 +/- 30 mmHg; a positive correlation was found between the pre-drug left ventricular end-diastolic pressure and the magnitude of reduction in left ventricular end-diastolic pressure; systolic blood pressure was reduced from 125 +/- 31 to 111 +/- 27 mmHg, and total peripheral resistance was reduced from 1403 +/- 307 to 1160 +/- 209 dyne s-1 cm-5. The combined administration reduced the resting left ventricular outflow gradient from 76 +/- 19 to 45 +/- 26 mmHg, while cardiac index was left ",
+            "journal": "British heart journal",
+            "year": "1982",
+            "authors": [
+              "Landmark K",
+              "Sire S",
+              "Thaulow E",
+              "Amlie J P",
+              "Nitter-Hauge S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cardiomyopathy, Hypertrophic",
+              "Drug Therapy, Combination",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Nifedipine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7200796/"
+          },
+          {
+            "pmid": "1611637",
+            "title": "Effect of propranolol and disopyramide on left ventricular function at rest and during exercise in hypertrophic cardiomyopathy.",
+            "abstract": "In 19 patients with hypertrophic cardiomyopathy (15 males, 4 females, mean age 49.2 +/- 10.8 years) left ventricular function was studied with radionuclide ventriculography at rest and during exercise in a crossover design without intervention and after disopyramide and propranolol treatment. 15 of the 19 patients had a resting or latent intraventricular gradient of more than 30 mm Hg. Left ventricular function at rest and during exercise was evaluated before medication, 90 min after oral administration of 200 mg disopyramide or 160 mg propranolol and after 3 weeks of oral therapy with disopyramide 200 mg 2 times a day or propranolol 80 mg 4 times a day. After long-term treatment with disopyramide, resting ejection fraction decreased from 72 +/- 12 to 69 +/- 14% (p less than 0.01) and peak ejection rate (PER) decreased from 3.46 +/- 135 to 3.24 +/- 65 end-diastolic volume (EDV).s-1 (p less than 0.01). Peak filling rate (PFR) at rest decreased from 3.01 +/- 0.8 to 2.77 +/- 0.63 EDV.s-1 ",
+            "journal": "Cardiology",
+            "year": "1992",
+            "authors": [
+              "Hartmann A",
+              "Kühn J",
+              "Hopf R",
+              "Klepzig H",
+              "Standke R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Cardiac Output",
+              "Cardiomyopathy, Hypertrophic",
+              "Disopyramide",
+              "Echocardiography",
+              "Exercise Test",
+              "Female",
+              "Hemodynamics",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1611637/"
+          },
+          {
+            "pmid": "10460081",
+            "title": "Acute dilated cardiomyopathy and central nervous system toxicity following propranolol intoxication.",
+            "abstract": "We report a case of a 16-year-old boy who developed central nervous system (CNS) depression and acute dilated cardiomyopathy following ingestion of 3200 mg of propranolol in a suicide attempt. Early echocardiographic findings were the only sign of cardiac toxicity.",
+            "journal": "Pediatric emergency care",
+            "year": "1999",
+            "authors": [
+              "Lifshitz M",
+              "Zucker N",
+              "Zalzstein E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adolescent",
+              "Adrenergic beta-Agonists",
+              "Adrenergic beta-Antagonists",
+              "Antidotes",
+              "Cardiomyopathy, Dilated",
+              "Central Nervous System Diseases",
+              "Drug Overdose",
+              "Echocardiography",
+              "Glucagon"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10460081/"
+          },
+          {
+            "pmid": "4402697",
+            "title": "The cardiomyopathies.",
+            "abstract": "",
+            "journal": "British heart journal",
+            "year": "1972",
+            "authors": [
+              "Goodwin J F",
+              "Oakley C M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Angina Pectoris",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Cardiomegaly",
+              "Cardiomyopathies",
+              "Endocarditis, Bacterial",
+              "Eugenics",
+              "Female",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4402697/"
+          },
+          {
+            "pmid": "3673167",
+            "title": "[Treatment of hypertrophic cardiomyopathy with nifedipine and propranolol in combination].",
+            "abstract": "Fifteen patients (14 males and 1 female) with hypertrophic cardiomyopathy, ranging from 22 to 67 years of age (mean: 45.5 years) were treated with oral nifedipine and propranolol for 6 to 24 (mean: 18) months. Twelve of the patients had been pretreated with a mean oral dose of 560 mg verapamil for 60 to 93 (mean 78.5) months, showing slight subjective and objective improvement. Treatment with nifedipine and propranolol was terminated in five cases, due to deterioration or side effects after 6 and 12 months, respectively. During combined therapy, two patients reported improvement, whereas in five cases there was no change and eight patients reported deterioration. There was no change in the Sokolow index. The radiologically determined heart volume increased in 10 out of 15 patients and in the total group from 887 +/- 214 to 938 +/- 248 ml/1.73 m2. Echocardiographic measurements showed a significant increase in left atrial diameter from 40.0 +/- 9 to 44.0 +/- 11 mm, whereas ventricular w",
+            "journal": "Zeitschrift fur Kardiologie",
+            "year": "1987",
+            "authors": [
+              "Hopf R",
+              "Thomas J",
+              "Klepzig H",
+              "Kaltenbach M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cardiomyopathy, Hypertrophic",
+              "Drug Therapy, Combination",
+              "Echocardiography",
+              "Electrocardiography",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3673167/"
+          },
+          {
+            "pmid": "7191199",
+            "title": "Propranolol and arrhythmia in hypertrophic cardiomyopathy.",
+            "abstract": "",
+            "journal": "The American journal of cardiology",
+            "year": "1980",
+            "authors": [
+              "Canedo M I",
+              "Frank M J",
+              "Abdulla A M"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Arrhythmias, Cardiac",
+              "Cardiomyopathy, Hypertrophic",
+              "Humans",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7191199/"
+          },
+          {
+            "pmid": "36104228",
+            "title": "A Case of Infantile Mitochondrial Cardiomyopathy Treated with a Combination of Low-Dose Propranolol and Cibenzoline for Left Ventricular Outflow Tract Stenosis.",
+            "abstract": "Hypertrophic cardiomyopathy is a common cardiac complication in mitochondrial disorders, and the morbidity rate in neonatal cases is up to 40%. The mortality rate within 3 months for neonatal-onset mitochondrial cardiomyopathy is known to be high because there is currently no established treatment.We report the case of a male infant with neonatal-onset mitochondrial disorder presenting lactic acidosis and hypertrophic cardiomyopathy. Genetic analysis of the patient revealed recurrent m.13513G>A, p.Asp393Asn in mitochondrially encoded NADH dehydrogenase 5 gene (MT-ND5). Low-dose propranolol was initially administered for cardiomyopathy; however, he developed hypertrophic obstructive cardiomyopathy (HOCM) at 3 months of age. To reduce the risk of hypoglycemia associated with high-dose propranolol, cibenzoline, a class Ia antiarrhythmic drug, was added at a dose of 2.5 mg/kg/day and increased weekly to 7.5 mg/kg/day with monitoring of the blood concentration of cibenzoline. Left ventricul",
+            "journal": "International heart journal",
+            "year": "2022",
+            "authors": [
+              "Shimozawa Hironori",
+              "Sato Tomoyuki",
+              "Osaka Hitoshi",
+              "Takeda Atsuhito",
+              "Miyauchi Akihiko"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Cardiomyopathy, Hypertrophic",
+              "Constriction, Pathologic",
+              "Humans",
+              "Imidazoles",
+              "Infant, Newborn",
+              "Male",
+              "NADH Dehydrogenase",
+              "Propranolol",
+              "Ventricular Function, Left"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36104228/"
+          },
+          {
+            "pmid": "2019674",
+            "title": "Morphological changes associated with furazolidone-induced cardiomyopathy: effects of digoxin and propranolol.",
+            "abstract": "The purpose of the present study was to examine light microscopic data qualitatively as well as quantitatively from an animal model of dilated cardiomyopathy in the turkey. A previous study reported the gross cardioprotective effect of propranolol and the lack of cardioprotection with digoxin in furazolidone-induced cardiomyopathy. It was therefore important to define whether the response of the myocardium to therapeutic interventions differed from the structural responses seen in their absence. In furazolidone-treated birds with resultant cardiac dilation there was myocyte hypertrophy, enlargement of nuclei and reorientation of subepicardial myocardial fibres. Similar changes were noted in birds receiving both furazolidone and digoxin. However, birds receiving propranolol, a non-selective beta-receptor antagonist, and furazolidone did not demonstrate a hypertrophic response or reorientation of fibres. These data indicate that propranolol maintained myocardial morphology and morphometr",
+            "journal": "Journal of comparative pathology",
+            "year": "1991",
+            "authors": [
+              "Gwathmey J K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cardiomyopathy, Dilated",
+              "Digoxin",
+              "Furazolidone",
+              "Heart",
+              "Propranolol",
+              "Turkeys"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2019674/"
+          },
+          {
+            "pmid": "7192151",
+            "title": "Effects of propranolol on myocardial oxygen consumption, substrate extraction, and haemodynamics in hypertrophic obstructive cardiomyopathy.",
+            "abstract": "Myocardial substrate extraction, coronary sinus flow, cardiac output, and left ventricular pressure were measured at increasing pacing rates before and after propranolol (0.2 mg/kg) in 13 patients with hypertrophic obstructive cardiomyopathy (HOCM) during diagnostic cardiac catheterisation. At the lowest pacing rate myocardial oxygen consumption varied considerably between patients and very high values were found in several individuals (range 10.1 to 57.5 ml/min). These large differences between patients were not explicable by differences in cardiac work; consequently, cardiac efficiency, estimated from the oxygen cost of external work, varied between patients and was lower than normal in all but two. The pattern of substrate extraction at the lowest pacing rate was similar to results reported for the normal heart, and measured oxygen consumption could be accounted for by complete oxidation of the substrates extracted; thus there was no evidence of a gross abnormality of oxidative meta",
+            "journal": "British heart journal",
+            "year": "1980",
+            "authors": [
+              "Thompson D S",
+              "Naqvi N",
+              "Juul S M",
+              "Swanton R H",
+              "Coltart D J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Blood Pressure",
+              "Cardiac Output",
+              "Cardiac Pacing, Artificial",
+              "Cardiomyopathy, Hypertrophic",
+              "Coronary Circulation",
+              "Heart Ventricles",
+              "Hemodynamics",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7192151/"
+          },
+          {
+            "pmid": "565899",
+            "title": "Propranolol and parturition.",
+            "abstract": "Propranolol is a beta-adrenergic blocking drug with a wide spectrum of use and may diverse pharmacologic effects. This case report is an example of a parturient who was on a large dose of propranolol for idiopathic hypertrophic subaortic stenosis. The effects of this drug on pregnancy, labor, and above all, the fetus are discussed.",
+            "journal": "Obstetrics and gynecology",
+            "year": "1978",
+            "authors": [
+              "Datta S",
+              "Kitzmiller J L",
+              "Ostheimer G W",
+              "Schoenbaum S C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, Local",
+              "Anesthesia, Obstetrical",
+              "Aortic Stenosis, Subvalvular",
+              "Cardiomyopathy, Hypertrophic",
+              "Cardiovascular System",
+              "Female",
+              "Fetus",
+              "Humans",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/565899/"
+          },
+          {
+            "pmid": "2920304",
+            "title": "Combination of disopyramide and propranolol in hypertrophic cardiomyopathy.",
+            "abstract": "Fifteen patients were studied by echocardiography, apexcardiogram and carotid pulse tracings in four ways: basally; on propranolol 40 mg, three times daily; on disopyramide 200 mg single dose, three days after propranolol discontinuation; and on both drugs. The following data were measured: systolic anterior mitral motion slope, systolic anterior mitral distance from the septum, outflow tract diameter, the A wave to the total apexcardiographic excursion ratio, carotid pulse contour and left ventricular ejection time index. Propranolol did not produce any significant changes while disopyramide was much more effective in changing the data in a direction suggesting diminution of left ventricular outflow gradient. The combination of propranolol and disopyramide had the greatest influence. Fourteen patients received the two drugs for 12.3 +/- 4.3 months with improvement of NYHA class.",
+            "journal": "The Canadian journal of cardiology",
+            "year": "1989",
+            "authors": [
+              "Cokkinos D V",
+              "Salpeas D",
+              "Ioannou N E",
+              "Christoulas S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cardiomyopathy, Hypertrophic",
+              "Disopyramide",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Echocardiography",
+              "Female",
+              "Humans",
+              "Kinetocardiography",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2920304/"
+          },
+          {
+            "pmid": "3189143",
+            "title": "Acute hemodynamic effects of pindolol and propranolol in patients with dilated cardiomyopathy: relevance of intrinsic sympathomimetic activity.",
+            "abstract": "The administration of beta-blocking agents to patients with poor left ventricular (LV) function may result in clinical and hemodynamic deterioration. The beta antagonist pindolol has intrinsic sympathomimetic activity (ISA) and therefore may be better tolerated. To test this hypothesis 30 patients with a precatheterization diagnosis of dilated cardiomyopathy were randomly assigned to three groups to receive intravenous injections of placebo, propranolol, or pindolol. The baseline ejection fraction and hemodynamics were similar for all groups. For propranolol 1 mg, 2 mg, 3 mg, and 4 mg doses were given 5 minutes apart until a maximum dose of 10 mg was reached, until a 25% reduction in the heart rate or mean arterial pressure occurred, or until clinical deterioration developed. For pindolol, 0.1 mg, 0.2 mg, 0.3 mg, and 0.4 mg boluses were used with the same end points. Baseline hemodynamics were measured and repeated 15 minutes after the last dose of each drug was administered. The mean ",
+            "journal": "American heart journal",
+            "year": "1988",
+            "authors": [
+              "Shanes J G",
+              "Wolfkiel C",
+              "Ghali J",
+              "Dierenfeldt B J",
+              "Kondos G T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cardiac Catheterization",
+              "Cardiomyopathy, Dilated",
+              "Double-Blind Method",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Male",
+              "Pindolol",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3189143/"
+          },
+          {
+            "pmid": "6686544",
+            "title": "Diastolic function in hypertrophic cardiomyopathy: effects of propranolol and verapamil on diastolic stiffness.",
+            "abstract": "In patients with hypertrophic cardiomyopathy (HCM), impaired left ventricular (LV) relaxation and diastolic filling have been reported. Therefore, we determined LV diastolic stiffness in nine patients with HCM before and 10 to 15 min after 0.15 mg/kg propranolol i.v. (group 1) and in six patients with HCM before and 10 to 15 min after 0.1 mg/kg verapamil i.v. (group 2). Simultaneous LV cineangiography and high-fidelity pressure measurements were performed in group 1 and simultaneous M-mode echocardiography and high-fidelity pressure measurements in group 2. Passive LV chamber stiffness was determined in group 1 from the diastolic pressure-volume data using an exponential three-parameter model: P = ae beta V + C, where P = pressure, alpha = intercept, beta = constant of chamber stiffness, V = volume and C = baseline pressure. Passive LV myocardial stiffness was estimated in group 2 from the diastolic stress-strain data using a viscoelastic model: sigma = alpha' (e beta' epsilon -1) + et",
+            "journal": "European heart journal",
+            "year": "1983",
+            "authors": [
+              "Hess O M",
+              "Grimm J",
+              "Krayenbuehl H P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cardiomyopathy, Hypertrophic",
+              "Echocardiography",
+              "Heart Rate",
+              "Heart Ventricles",
+              "Humans",
+              "Myocardial Contraction",
+              "Propranolol",
+              "Stroke Volume",
+              "Verapamil"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6686544/"
+          },
+          {
+            "pmid": "8989641",
+            "title": "Hemodynamic predictors of early intolerance and long-term effects of propranolol in dilated cardiomyopathy.",
+            "abstract": "Fifty-six patients with dilated cardiomyopathy (DCM) (aged 14-68 years) and background therapy of angiotensin-converting enzyme inhibitors, diuretics, and digoxin were given an initial challenge of propranolol in gradually increasing doses. These patients were studied noninvasively and hemodynamically and subjected to right ventricle biopsy.",
+            "journal": "Journal of cardiac failure",
+            "year": "1996",
+            "authors": [
+              "Talwar K K",
+              "Bhargava B",
+              "Upasani P T",
+              "Verma S",
+              "Kamlakar T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenergic beta-Antagonists",
+              "Adult",
+              "Aged",
+              "Cardiomyopathy, Dilated",
+              "Chi-Square Distribution",
+              "Drug Administration Schedule",
+              "Evaluation Studies as Topic",
+              "Female",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8989641/"
+          },
+          {
+            "pmid": "12439640",
+            "title": "The beta-adrenergic receptors.",
+            "abstract": "The beta-adrenergic receptors of the myocardium play an important role in the regulation of heart function. The beta-adrenergic receptors belong to the family of G-protein coupled receptors. Three subtypes have been distinguished (beta1-, beta2-, and beta3-adrenoceptors). The receptors consist of seven membrane-spanning domains, three intra- and three extracellular loops, one extracellular N-terminal domain, and one intracellular C-terminal tail.",
+            "journal": "Herz",
+            "year": "2002",
+            "authors": [
+              "Wallukat Gerd"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Animals",
+              "Animals, Newborn",
+              "Arrhythmias, Cardiac",
+              "Autoantibodies",
+              "Calcium",
+              "Cardiomyopathy, Dilated",
+              "Cell Differentiation",
+              "Cells, Cultured",
+              "Down-Regulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12439640/"
+          },
+          {
+            "pmid": "3433863",
+            "title": "Effects of nifedipine and propranolol combined therapy in patients with hypertrophic cardiomyopathy.",
+            "abstract": "Fifteen (14 male and one female) patients with hypertrophic cardiomyopathy, ranging from 22 to 67 (mean: 45.5) years of age were treated with oral nifedipine and propranolol for 6 to 24 (mean:18) months. Twelve of the patients had been pretreated with a mean oral dose of 560 mg verapamil for 60 up to 93 (mean: 78.5) months, showing slight subjective and objective improvement. Treatment with nifedipine-propranolol was terminated in five cases due to deterioration or side effects after 6 and 12 months, respectively. During combined therapy, two patients reported subjective improvement, but in five cases there was no change and eight patients reported deterioration. The mean Sokolow-index showed no change. The radiologically determined heart volume increased in 11/15 patients and significantly in the mean of all patients from 887 +/- 239 to 947 +/- 246 ml/m2. In addition, echocardiographic measurements showed a significant increase in left atrial diameter from 40.0 +/- 9 to 42.1 +/- 9 mm,",
+            "journal": "Zeitschrift fur Kardiologie",
+            "year": "1987",
+            "authors": [
+              "Hopf R",
+              "Kaltenbach M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cardiomyopathy, Hypertrophic",
+              "Drug Therapy, Combination",
+              "Echocardiography",
+              "Electrocardiography",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3433863/"
+          },
+          {
+            "pmid": "4606956",
+            "title": "Propranolol.",
+            "abstract": "",
+            "journal": "Disease-a-month : DM",
+            "year": "1974",
+            "authors": [
+              "Shand D G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Angina Pectoris",
+              "Arrhythmias, Cardiac",
+              "Asthma",
+              "Blood Pressure",
+              "Cardiac Output",
+              "Cardiomyopathy, Hypertrophic",
+              "Dose-Response Relationship, Drug",
+              "Half-Life",
+              "Heart Failure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4606956/"
+          },
+          {
+            "pmid": "1094291",
+            "title": "Drug therapy: Propranolol.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "1975",
+            "authors": [
+              "Shand D G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Angina Pectoris",
+              "Arrhythmia, Sinus",
+              "Arrhythmias, Cardiac",
+              "Cardiomyopathy, Hypertrophic",
+              "Humans",
+              "Hypertension",
+              "Hyperthyroidism",
+              "Injections, Intravenous",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1094291/"
+          },
+          {
+            "pmid": "15923319",
+            "title": "Propranolol ameliorates and epinephrine exacerbates progression of acute and chronic viral myocarditis.",
+            "abstract": "Recent studies point to important interactions between proinflammatory cytokines and neurohumoral mediators in heart failure. Here we investigate the influence of the beta-adrenergic system on cytokines and neurohumoral factors and the sequelae of viral myocarditis. In an experimental model with virus-infected BALB/c mice, we studied the acute and chronic effects of epinephrine and propranolol on myocardial morphology, cytokine gene expression, and survival. BALB/c mice were inoculated with the encephalomyocarditis virus (EMCV) or sham inoculated with saline and followed for 30 days. Epinephrine increased the severity of inflammatory cell infiltration and myocardial necrosis induced by EMCV. Gene expression of TNF-alpha, IL-6, and IL-10 was markedly enhanced by epinephrine in EMCV-inoculated mice. Survival rate after 30 days was reduced to 40% in epinephrine-treated EMCV-inoculated mice compared with 70% in untreated EMCV-inoculated mice (P < 0.05). Treatment with the beta-blocker prop",
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2005",
+            "authors": [
+              "Wang Ju-Feng",
+              "Meissner Achim",
+              "Malek Sohail",
+              "Chen Yu",
+              "Ke Qingen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adrenergic Agonists",
+              "Adrenergic beta-Antagonists",
+              "Amnion",
+              "Animals",
+              "Arrhythmias, Cardiac",
+              "Cardiovirus Infections",
+              "Chronic Disease",
+              "Cytokines",
+              "Death, Sudden, Cardiac"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15923319/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intramuscular hemangioma",
+        "txgnn_score": 0.9897050261497498,
+        "txgnn_rank": 10756,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34419523",
+            "title": "Infantile hemangioma. Part 2: Management.",
+            "abstract": "The majority of infantile hemangiomas (IH) can be managed conservatively, but for those requiring active treatment, management has been revolutionized in the last decade by the discovery of propranolol. Patients that may require active intervention should receive specialist review, ideally before 5 weeks of age to mitigate the risk of sequelae. Propranolol can commence for most infants in the outpatient setting and the most frequently employed dosing regimen is 1 mg/kg twice daily. In the future, β-blockers with a more-selective mechanism of action, such as atenolol, show some promise. In recalcitrant lesions, systemic corticosteroids or sirolimus may be considered. For small, superficial IHs, topical timolol maleate or pulsed dye laser may be considered. Where the IH involutes with cutaneous sequelae, a range of interventions have been reported, including surgery, laser, and embolization. IHs have a well-described clinical trajectory and are readily diagnosed and managed via telemedic",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2021",
+            "authors": [
+              "Sebaratnam Deshan F",
+              "Rodríguez Bandera Ana L",
+              "Wong Li-Chuen F",
+              "Wargon Orli"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "COVID-19",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Nevus",
+              "Pandemics",
+              "Propranolol",
+              "SARS-CoV-2",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34419523/"
+          },
+          {
+            "pmid": "34874911",
+            "title": "Non-beta blocker enantiomers of propranolol and atenolol inhibit vasculogenesis in infantile hemangioma.",
+            "abstract": "Propranolol and atenolol, current therapies for problematic infantile hemangioma (IH), are composed of R(+) and S(-) enantiomers: the R(+) enantiomer is largely devoid of beta blocker activity. We investigated the effect of R(+) enantiomers of propranolol and atenolol on the formation of IH-like blood vessels from hemangioma stem cells (HemSCs) in a murine xenograft model. Both R(+) enantiomers inhibited HemSC vessel formation in vivo. In vitro, similar to R(+) propranolol, both atenolol and its R(+) enantiomer inhibited HemSC to endothelial cell differentiation. As our previous work implicated the transcription factor sex-determining region Y (SRY) box transcription factor 18 (SOX18) in propranolol-mediated inhibition of HemSC to endothelial differentiation, we tested in parallel a known SOX18 small-molecule inhibitor (Sm4) and show that this compound inhibited HemSC vessel formation in vivo with efficacy similar to that seen with the R(+) enantiomers. We next examined how R(+) propra",
+            "journal": "The Journal of clinical investigation",
+            "year": "2022",
+            "authors": [
+              "Seebauer Caroline T",
+              "Graus Matthew S",
+              "Huang Lan",
+              "McCann Alex",
+              "Wylie-Sears Jill"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Atenolol",
+              "Hemangioma",
+              "Humans",
+              "Mice",
+              "Neoplastic Stem Cells",
+              "Neovascularization, Pathologic",
+              "Propranolol",
+              "Xenograft Model Antitumor Assays"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34874911/"
+          },
+          {
+            "pmid": "28833230",
+            "title": "Efficacy and rebound rates in propranolol-treated subglottic hemangioma: A literature review.",
+            "abstract": "Propranolol has recently become the treatment of choice for management of subglottic and airway hemangiomas. This literature review aimed to determine the success rate of propranolol for managing these lesions as well as the rate of rebound growth following propranolol treatment cessation.",
+            "journal": "The Laryngoscope",
+            "year": "2017",
+            "authors": [
+              "Schwartz Tyler",
+              "Faria John",
+              "Pawar Sachin",
+              "Siegel Dawn",
+              "Chun Robert H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Hemangioma",
+              "Humans",
+              "Propranolol",
+              "Tracheal Diseases",
+              "Treatment Outcome",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28833230/"
+          },
+          {
+            "pmid": "34719577",
+            "title": "Efficacy and Safety of Propranolol Gel for Infantile Hemangioma: A Randomized, Double-Blind Study.",
+            "abstract": "We aimed to evaluate the efficacy and safety of propranolol gel at various concentrations with infantile hemangiomas after proliferative phases. We designed a single-center, randomized, double-blind, dose-dependent trial with placebo control and randomized patients to receive propranolol gel at 0, 1, or 5%, twice daily for 24 weeks. The primary efficacy endpoint was the percentage change in redness of the tumors. Safety endpoints were skin characteristics changes and systemic symptoms. We made two comparisons to evaluate the superiority of 1 and 5% propranolol gels against placebo for primary endpoint analysis and used the t-test to compare parents' satisfaction with these treatments. Initially, 19 patients were enrolled, but 8 were excluded from the analysis. We were underpowered to answer the question of efficacy. In the per-protocol set, we found similar results for the redness percentage change among the patients on placebo, 1 and 5% gel. However, the difference in redness before a",
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2022",
+            "authors": [
+              "Rikihisa Naoaki",
+              "Takatsuka Hirokazu",
+              "Suzuki Takaaki",
+              "Shiko Yuki",
+              "Kawasaki Yohei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Child",
+              "Double-Blind Method",
+              "Gels",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Propranolol",
+              "Skin Neoplasms",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34719577/"
+          },
+          {
+            "pmid": "35512856",
+            "title": "Efficacy and safety of propranolol cream in infantile hemangioma: A prospective pilot study.",
+            "abstract": "Infantile hemangioma (IH) is a common tumor in infants that gradually resolves and is often untreated. However, for cosmetic reasons, parents often opt for treatment. Oral propranolol, the first-line therapy for IH, is sometimes associated with several side effects, including hypotension, bradycardia, and hypoglycemia. No clinical studies on topical propranolol have been conducted using standardized procedures. We evaluated the efficacy and safety of topical propranolol in patients with IH. This multicenter, prospective pilot study was conducted from June 2019 to October 2020 and involved eight Japanese infants aged 35-150 days with proliferating IH. Patients were treated with 5% propranolol cream twice daily. We examined the efficacy rate based on central evaluation (complete or near-complete healing of the target hemangioma) at weeks 24 and 12, respectively, compared to baseline values. The efficacy rate at week 24 was 68.8% (95% confidence interval: 44.1-85.9%). The surface area, ma",
+            "journal": "Journal of pharmacological sciences",
+            "year": "2022",
+            "authors": [
+              "Nagata Eiko",
+              "Kashiwagura Yasuharu",
+              "Okada Eisaku",
+              "Tanaka Shimako",
+              "Sano Shinichiro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adrenergic beta-Antagonists",
+              "Hemangioma",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Pilot Projects",
+              "Propranolol",
+              "Prospective Studies",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35512856/"
+          },
+          {
+            "pmid": "34546198",
+            "title": "Infantile Glottic Hemangioma: Bronchoscopic Evaluation and Propranolol Treatment.",
+            "abstract": "",
+            "journal": "Journal of bronchology & interventional pulmonology",
+            "year": "2021",
+            "authors": [
+              "Yüksel Hasan",
+              "Yaşar Adem",
+              "Gürbüz Nida",
+              "Bizbirlik Zeynep I",
+              "Yilmaz Özge"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Hemangioma",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Propranolol",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34546198/"
+          },
+          {
+            "pmid": "36243426",
+            "title": "Infantile Hemangiomas.",
+            "abstract": "Infantile hemangiomas (IHs) are the most common benign vascular tumors of childhood. They develop during the first few weeks of life and naturally progress by proliferating over several months before they involute and resolve; this renders them inconsequential in many cases, but sometimes IHs can have detrimental consequences on function and disfigurement. Hence, systemic propranolol has become a crucial element in IH management, alongside various other medical, procedural, and surgical options that aim to promote their quicker resolution and prevent and alleviate complications.",
+            "journal": "Dermatologic clinics",
+            "year": "2022",
+            "authors": [
+              "Hasbani Divina Justina",
+              "Hamie Lamiaa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Hemangioma",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Propranolol",
+              "Skin Neoplasms",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36243426/"
+          },
+          {
+            "pmid": "35988523",
+            "title": "Diagnosis of infantile subglottic hemangioma and the effect of oral propranolol.",
+            "abstract": "To investigate the clinical characteristics of infantile subglottic hemangioma (SGH), and to observe the safety and efficacy of propranolol in the treatment of SGH.",
+            "journal": "American journal of otolaryngology",
+            "year": "2022",
+            "authors": [
+              "Chen Wei",
+              "Zhu Peng",
+              "Xu Mengrou",
+              "Chen Shumei",
+              "Wang Ying"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Female",
+              "Child",
+              "Humans",
+              "Infant",
+              "Child, Preschool",
+              "Propranolol",
+              "Retrospective Studies",
+              "Laryngeal Neoplasms",
+              "Hemangioma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35988523/"
+          },
+          {
+            "pmid": "30986805",
+            "title": "Propranolol suppresses infantile hemangioma cell proliferation and promotes apoptosis by upregulating miR-125b expression.",
+            "abstract": "Propranolol could repress infantile hemangioma cell growth and induce apoptosis. miR-125b could inhibit cell proliferation in some tumors. However, whether propranolol exerts its proliferation inhibition and apoptosis-promoting effect by regulating the expression of miR-125b needs to be further investigated. In tumor tissue and endothelial cells isolated from infantile hemangioma patients, we found that the expression levels of miR-125b were significantly decreased. In-vitro analysis revealed that propranolol increased the expression of miR-125b in hemangioma cells in a dose-dependent and time-dependent manner. Interestingly, it was observed that regression of miR-125b expression by its inhibitor could abrogate the effect of propranolol on hemangioma cell growth and apoptosis. In addition, our data further identified TFAP4 as a direct target of miR-125b. Collectively, our data provided evidence that propranolol may repress infantile hemangioma cell growth and promote apoptosis through ",
+            "journal": "Anti-cancer drugs",
+            "year": "2019",
+            "authors": [
+              "Huang Jiajia",
+              "Jiang Dongdong",
+              "Zhao Shasha",
+              "Wang Aifeng"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Retracted Publication"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Apoptosis",
+              "Biomarkers, Tumor",
+              "Cell Proliferation",
+              "Gene Expression Regulation, Neoplastic",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "MicroRNAs",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30986805/"
+          },
+          {
+            "pmid": "37456875",
+            "title": "Combinative effects of β-elemene and propranolol on the proliferation, migration, and angiogenesis of hemangioma.",
+            "abstract": "Hemangioma (HA) is one of the most common benign vascular tumors among children. Propranolol is used as the first-line treatment for hemangioma and is a non-selective blocker of the β-adrenergic receptor. β-elemene is a compound extracted from Rhizoma zedoariae and has been approved for the treatment of tumors in clinical practice. However, the combinatorial effects of β-elemene and propranolol in the treatment of HA remains unclear. This study explored the combinative effects and mechanisms of β-elemene and propranolol using hemangioma-derived endothelial cells (HemECs). Cytotoxic assays showed that the combinatorial treatment of β-elemene and propranolol did not increase the cytotoxic effects of HemECs. Furthermore, functional analysis showed that the combinatorial treatment with β-elemene and propranolol significantly inhibited the proliferation, migration, and tube formation of the HemECs compared to the single treatment regimens. Mechanistic analysis showed that combinative treatm",
+            "journal": "PeerJ",
+            "year": "2023",
+            "authors": [
+              "Wang Zhenyu",
+              "Chen Yinxian",
+              "Yang Lin",
+              "Yao Dunbiao",
+              "Shen Yang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Propranolol",
+              "Endothelial Cells",
+              "Vascular Endothelial Growth Factor A",
+              "Cell Proliferation",
+              "Hemangioma",
+              "Penicillins",
+              "Sesquiterpenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37456875/"
+          },
+          {
+            "pmid": "26945282",
+            "title": "Infantile Hemangiomas: Pathogenesis and Review of Propranolol Use.",
+            "abstract": "Infantile hemangiomas are complex benign vascular tumors that present after birth. Hemangioma lesions have a predictable course of growth, but little is understood about the mechanism behind their development. Infantile hemangiomas are considered proliferative lesions of the endothelial cells.",
+            "journal": "Advances in neonatal care : official journal of the National Association of Neonatal Nurses",
+            "year": "2016",
+            "authors": [
+              "Laken Patricia Ann"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26945282/"
+          },
+          {
+            "pmid": "26574555",
+            "title": "Propranolol Targets Hemangioma Stem Cells via cAMP and Mitogen-Activated Protein Kinase Regulation.",
+            "abstract": "Infantile hemangiomas (IHs) are the most common vascular tumor and arise from a hemangioma stem cell (HemSC). Propranolol has proved efficacious for problematic IHs. Propranolol is a nonselective β-adrenergic receptor (βAR) antagonist that can lower cAMP levels and activate the mitogen-activated protein kinase (MAPK) pathway downstream of βARs. We found that HemSCs express β1AR and β2AR in proliferating IHs and determined the role of these βARs and the downstream pathways in mediating propranolol's effects. In isolated HemSCs, propranolol suppressed cAMP levels and activated extracellular signal-regulated kinase (ERK)1/2 in a dose-dependent fashion. Propranolol, used at doses of <10(-4) M, reduced cAMP levels and decreased HemSC proliferation and viability. Propranolol at ≥10(-5) M reduced cAMP levels and activated ERK1/2, and this correlated with HemSC apoptosis and cytotoxicity at ≥10(-4) M. Stimulation with a βAR agonist, isoprenaline, promoted HemSC proliferation and rescued the an",
+            "journal": "Stem cells translational medicine",
+            "year": "2016",
+            "authors": [
+              "Munabi Naikhoba C O",
+              "England Ryan W",
+              "Edwards Andrew K",
+              "Kitajewski Alison A",
+              "Tan Qian Kun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cell Proliferation",
+              "Cyclic AMP",
+              "Dose-Response Relationship, Drug",
+              "Hemangioma",
+              "Humans",
+              "MAP Kinase Signaling System",
+              "Mice",
+              "Mice, Nude"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26574555/"
+          },
+          {
+            "pmid": "25115372",
+            "title": "Propranolol promotes accelerated and dysregulated adipogenesis in hemangioma stem cells.",
+            "abstract": "Infantile hemangiomas (IHs) are the most common tumor of infancy, yet there are no Food and Drug Administration-approved therapeutics to date. Recently, the nonselective β-adrenergic-blocker propranolol has been shown to be a safe and effective means of treating IHs, although its mechanism has yet to be elucidated. We have previously demonstrated that propranolol induces early and incomplete adipogenesis in stem cells derived from hemangiomas. We hypothesize that propranolol promotes dysregulated adipogenesis via the improper regulation of adipogenic genes.",
+            "journal": "Annals of plastic surgery",
+            "year": "2014",
+            "authors": [
+              "England Ryan W",
+              "Hardy Krista L",
+              "Kitajewski Alex M",
+              "Wong Alvin",
+              "Kitajewski Jan K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adipogenesis",
+              "Hemangioma",
+              "Humans",
+              "Neoplastic Stem Cells",
+              "Propranolol",
+              "Time Factors",
+              "Tumor Cells, Cultured"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25115372/"
+          },
+          {
+            "pmid": "31838054",
+            "title": "Propranolol inhibits proliferation and induces apoptosis of hemangioma-derived endothelial cells via Akt pathway by down-regulating Ang-2 expression.",
+            "abstract": "Hemangioma is one of the commonest benign vascular tumors among children. Propranolol is the first-line therapeutic drug for hemangioma. However, the effects and mechanisms of propranolol in hemangioma have not been thoroughly elaborated. In this study, the effects and mechanisms of propranolol were explored using hemangioma-derived endothelial cells (HemECs). The expression of GLUT1 were determined by immunofluorescence staining. qRT-PCR assay was conducted to detect the mRNA expressions of angiopoietin-2 (Ang-2) and Tie-2. Western blot assay was carried out to measure the protein levels of Ang-2, Tie-2, protein kinase-B (Akt) and phospholyrated-Akt (p-Akt). Cell proliferation was assessed by Cell Counting Kit-8 (CCK-8) assay and Western blot of Ki67 protein level. Cell apoptosis was measured by flow cytometry analysis and Western blot of Bax and Bcl-2 levels. We found that propranolol inhibited proliferation and induced apoptosis in human umbilical vein endothelial cells (HUVECs) and",
+            "journal": "Chemico-biological interactions",
+            "year": "2020",
+            "authors": [
+              "Sun Bin",
+              "Dong Changxian",
+              "Lei Hongzhao",
+              "Gong Yubin",
+              "Li Miaomiao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiopoietin-2",
+              "Apoptosis",
+              "Cell Line",
+              "Cell Proliferation",
+              "Down-Regulation",
+              "Endothelial Cells",
+              "Hemangioma",
+              "Human Umbilical Vein Endothelial Cells",
+              "Humans",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31838054/"
+          },
+          {
+            "pmid": "37113082",
+            "title": "Our experience with propranolol for infantile hemangioma.",
+            "abstract": "The most frequent benign vascular tumor in children is infantile hemangioma (IH). For severe IHs, propranolol has become the first-line Treatment. Despite the fact that several studies have comprehensive therapy regimens, including the best time to start Treatment, dosage, visit frequency, and treatment duration, there is still controversy about the best time to start and stop propranolol medication.",
+            "journal": "Skin research and technology : official journal of International Society for Bioengineering and the Skin (ISBS) [and] International Society for Digital Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI)",
+            "year": "2023",
+            "authors": [
+              "Wu Yao",
+              "Zhao Piaoping",
+              "Song Wei",
+              "Lu Wenmin",
+              "Dai Ting"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Retracted Publication"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Infant",
+              "Propranolol",
+              "Treatment Outcome",
+              "Hemangioma",
+              "Administration, Oral",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37113082/"
+          },
+          {
+            "pmid": "23266923",
+            "title": "Initiation and use of propranolol for infantile hemangioma: report of a consensus conference.",
+            "abstract": "Infantile hemangiomas (IHs) are common neoplasms composed of proliferating endothelial-like cells. Despite the relative frequency of IH and the potential severity of complications, there are currently no uniform guidelines for treatment. Although propranolol has rapidly been adopted, there is significant uncertainty and divergence of opinion regarding safety monitoring, dose escalation, and its use in PHACE syndrome (PHACE = posterior fossa, hemangioma, arterial lesions, cardiac abnormalities, eye abnormalities; a cutaneous neurovascular syndrome characterized by large, segmental hemangiomas of the head and neck along with congenital anomalies of the brain, heart, eyes and/or chest wall). A consensus conference was held on December 9, 2011. The multidisciplinary team reviewed existing data on the pharmacologic properties of propranolol and all published reports pertaining to the use of propranolol in pediatric patients. Workgroups were assigned specific topics to propose protocols on t",
+            "journal": "Pediatrics",
+            "year": "2013",
+            "authors": [
+              "Drolet Beth A",
+              "Frommelt Peter C",
+              "Chamlin Sarah L",
+              "Haggstrom Anita",
+              "Bauman Nancy M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Consensus Statements as Topic",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Propranolol",
+              "Research Report",
+              "Vascular Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23266923/"
+          },
+          {
+            "pmid": "26101993",
+            "title": "Is Propranolol Safe and Effective for Outpatient Use for Infantile Hemangioma? A Prospective Study of 679 Cases From One Center in China.",
+            "abstract": "The protocol for the treatment of infantile hemangioma with propranolol varies among different clinical centers.",
+            "journal": "Annals of plastic surgery",
+            "year": "2016",
+            "authors": [
+              "Chang Lei",
+              "Ye Xiaoxiao",
+              "Qiu Yajing",
+              "Ma Gang",
+              "Jin Yunbo"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Ambulatory Care",
+              "China",
+              "Female",
+              "Follow-Up Studies",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Male",
+              "Propranolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26101993/"
+          },
+          {
+            "pmid": "40600388",
+            "title": "YTHDF1-Mediated m6A Methylation of GLUT1 Promotes Progress and Suppresses Propranolol Sensitivity in Infantile Hemangioma.",
+            "abstract": "Early intervention for infantile hemangioma (IH) typically involves the use of the first-line drug propranolol, which can be taken orally or applied topically. However, approximately 10% of patients develop resistance, highlighting the need to elucidate the underlying molecular mechanisms. This study found that the expression of glucose transporter 1 (GLUT1) was significantly increased in IH tissues. Knockdown of GLUT1 significantly inhibited the cell viability, colony formation, and angiogenesis of HemEC cells. Moreover, high GLUT1 levels caused insensitivity to propranolol treatment in IH as HemEC cells showed few significant changes to intracellular GLUT1 protein expression and glycolysis level upon treatment with propranolol, while overexpression of GLUT1 promoted colony formation and increased the IC50 value of HemEC cells with propranolol treatment. The YT521-B homology domain family protein 1 (YTHDF1), an m6A reader in mRNA, was significantly increased in IH tissues compared wit",
+            "journal": "Cell biology international",
+            "year": "2025",
+            "authors": [
+              "Du Yunfeng",
+              "Li Pengyuan",
+              "Du Xianghong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glucose Transporter Type 1",
+              "Propranolol",
+              "Hemangioma",
+              "RNA-Binding Proteins",
+              "Methylation",
+              "Cell Line, Tumor",
+              "Infant",
+              "Drug Resistance, Neoplasm",
+              "Cell Proliferation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40600388/"
+          },
+          {
+            "pmid": "22691693",
+            "title": "Propranolol reduces infantile hemangioma volume and vessel density.",
+            "abstract": "To evaluate changes in infantile hemangioma tissue before and after propranolol therapy, using gray-scale and color Doppler ultrasound imaging.",
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2012",
+            "authors": [
+              "Bingham Matthew M",
+              "Saltzman Babette",
+              "Vo Nghia-Jack",
+              "Perkins Jonathan A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Female",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Male",
+              "Propranolol",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22691693/"
+          },
+          {
+            "pmid": "21338243",
+            "title": "Efficacy and safety of propranolol in the treatment of parotid hemangioma.",
+            "abstract": "A 2-month-old female patient presented an extensive bilateral parotid hemangioma (PH) focally ulcerated. Additionally, hepatic ultrasonography revealed a hemangioendothelioma located at right lobe. She was treated with oral prednisolone (3 mg/kg/day) during 10 months with clinical improvement of PH, despite failure to thrive and arterial hypertension. However, regrowth of the lesion occurred after discontinuation of oral steroid. Propranolol hydrochloride (2 mg/kg/day divided into two doses) was then started and maintained for 16 months, with marked involution of the hemangioma and with no systemic side effects during treatment course. Curiously, also the liver hemangioendothelioma completely resolved after starting propranolol. PH is a threatening cervicofacial segmental hemangioma that frequently proliferates after the year of age and needs long-term treatment. On the other hand, hepatic hemangioendotheliomas may be associated with cutaneous hemangiomas in some patients and their nat",
+            "journal": "Cutaneous and ocular toxicology",
+            "year": "2011",
+            "authors": [
+              "Morais Paulo",
+              "Magina Sofia",
+              "Mateus Mário",
+              "Trindade Eunice",
+              "Jesus José Miguel"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Female",
+              "Hemangioendothelioma",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Liver Neoplasms",
+              "Magnetic Resonance Angiography",
+              "Neoplasms, Second Primary",
+              "Parotid Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21338243/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Maffucci syndrome",
+        "txgnn_score": 0.9896703362464904,
+        "txgnn_rank": 10775,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast epithelioid hemangioma",
+        "txgnn_score": 0.9890985488891602,
+        "txgnn_rank": 11201,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22303741",
+            "title": "[Pediatrics].",
+            "abstract": "Several preliminary studies suggest that prophylactic administration of probiotics reduces the incidence of necrotizing enterocolitis (NEC) in preterm infants, and several neonatology units have introduced this treatment under strict surveillance. Nonetheless, breast milk feeding remains the mainstay of NEC prevention. The beta-blocker propranolol, known for its effectiveness on cutaneous hemangiomas, is also proving useful for the treatment of subglottic or visceral hemangiomas. Following the decrease in severe bacterial infections thanks to widespread vaccinations, the McCarthy clinical score has regained importance in the prediction of the risk of bacterial infection in febrile infants. It is easy to use, economical, and has a diagnostic value comparable to laboratory tests. The new WHO growth charts have been introduced in Switzerland in 2011 to take into account the increasing regional and ethnic variations in our country. Any significant change in growth velocity should prompt an",
+            "journal": "Revue medicale suisse",
+            "year": "2012",
+            "authors": [
+              "Fischer C J",
+              "Giannoni E",
+              "Truttmann A C",
+              "Tolsa J-F",
+              "Chevallay M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Agonists",
+              "Bacterial Infections",
+              "Breast Feeding",
+              "Enterocolitis, Necrotizing",
+              "Fever",
+              "Growth Charts",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22303741/"
+          },
+          {
+            "pmid": "27607318",
+            "title": "Infantile hemangiomas, complications and treatments.",
+            "abstract": "Infantile hemangiomas (IHs) are the most common vascular tumors of infancy. While the majority regress without the need for intervention, approximately 10%, often site dependent, can cause serious complications and require treatment. IH complications can be categorized as life threatening, obstructive, ulcerative or disfiguring. Life threatening complications include airway and hepatic IHs. Functional complications obstructing vital structures or impairing function include periocular, nasal, labial, parotid, auricular, and breast IHs. Local complications arise from ulceration or those in cosmetically sensitive areas. Therapeutic options for complicated IHs include pharmacologic (topical or systemic), surgical, or laser interventions. Topical agents are best employed for small, superficial, and localized IHs; while systemic therapy is reserved for larger IHs and those with more aggressive growth characteristics with propranolol as first-line therapy.",
+            "journal": "Seminars in cutaneous medicine and surgery",
+            "year": "2016",
+            "authors": [
+              "Cheng Carol Erin",
+              "Friedlander Sheila Fallon"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adrenergic beta-Antagonists",
+              "Airway Obstruction",
+              "Drug Therapy, Combination",
+              "Esthetics",
+              "Facial Neoplasms",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Laser Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27607318/"
+          },
+          {
+            "pmid": "38196847",
+            "title": "Infantile Hemangioma of the Breast: Long-Term Assessment of Outcomes.",
+            "abstract": "The literature is meager regarding the natural history and outcomes of infantile hemangiomas (IHs) in the breast. Treatment in childhood may be considered due to psychosocial and physical concerns with breast development. Early surgical intervention may cause iatrogenic breast asymmetry and possibly impair lactation later in life. This study characterizes the clinical presentation, management, and long-term outcomes of IHs arising in the breast.",
+            "journal": "Plastic and reconstructive surgery. Global open",
+            "year": "2024",
+            "authors": [
+              "Labow Brian I",
+              "Alshamekh Shomoukh A",
+              "Carlberg Valerie M",
+              "Zacur Jennifer L",
+              "Uihlein Lily C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38196847/"
+          },
+          {
+            "pmid": "32647928",
+            "title": "Efficacy and safety of adrenergic beta-antagonist combined with lasers in the treatment of infantile hemangiomas: a meta-analysis.",
+            "abstract": "To investigate the efficacy and safety of combined therapy with adrenergic beta-antagonist and lasers in infantile hemangiomas (IH). A search of Pubmed, Cochrane, Embase, Wanfang Date, CNKI (China National Knowledge Infrastructure) and CBM (China Biology Medicine) databases was conducted to identify studies that examined response to combined therapy with adrenergic beta-antagonist and laser in IH patients. Pooled odds ratios (ORs) and 95% confidence intervals (CIs) in random-effects or fixed-effects models were calculated with Review Manger 5.3. Efficacy of combined therapy with oral propranolol and lasers was significantly better than that of propranolol (OR 5.79, 95% CI 2.52-13.31, P < 0.00001) or lasers (OR 5.09, 95% CI 3.04-8.54, P < 0.00001) alone. Combined therapy with topical timolol and lasers was more effective than topical timolol (OR 3.71, 95% CI 2.46-5.59, P < 0.00001) or lasers (OR 10.92, 95% CI 1.90-62.70, P = 0.007) alone. We did not observe statistically significant dif",
+            "journal": "Pediatric surgery international",
+            "year": "2020",
+            "authors": [
+              "Chen Xingfan",
+              "Guo Yu",
+              "Wang Pu",
+              "Qiu Fengzhen",
+              "Sun Yuming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Combined Modality Therapy",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Laser Therapy",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32647928/"
+          },
+          {
+            "pmid": "20615772",
+            "title": "Low-dose propranolol for infantile haemangioma.",
+            "abstract": "In 2008, propranolol was serendipitously observed to cause accelerated involution of infantile haemangioma. However, the mechanism by which it causes this dramatic effect is unknown, the dosage empirical and the optimal duration of treatment unexplored. This study determines the minimal dosage and duration of propranolol treatment to achieve accelerated involution of problematic infantile haemangioma. Consecutive patients with problematic proliferating infantile haemangioma treated with propranolol were culled from our prospective vascular anomalies database. The patients were initially managed as inpatients and commenced on propranolol at 0.25 mg kg(-1) twice daily, and closely monitored. The dosage was increased to 0.5 mg kg(-1) twice daily after 24 h, if there was no cardiovascular or metabolic side effect. The dosage was increased further by 0.5 mg kg(-1) day(-1) until a visible effect was noticed or up to a maximum of 2 mg kg(-1) day(-1), and was maintained until the lesion had fu",
+            "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+            "year": "2011",
+            "authors": [
+              "Tan Swee T",
+              "Itinteang Tinte",
+              "Leadbitter Philip"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adrenergic beta-Antagonists",
+              "Breast Neoplasms",
+              "Ear Neoplasms",
+              "Female",
+              "Follow-Up Studies",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20615772/"
+          },
+          {
+            "pmid": "41266952",
+            "title": "Evolution of Trunk and Extremities Infantile Hemangiomas: A Real-World Clinical Setting Study.",
+            "abstract": "Infantile hemangiomas (IH) may lead to both functional and aesthetic sequelae, especially in certain locations such as the breast area; therefore, understanding the factors that influence these outcomes is essential for optimizing management. This prospective study of patients with IHs on the trunk and extremities from Cruces University Hospital Vascular Anomaly Registry (01/2011 to 12/2023) included 449 patients [73.3% female; median age of 3.61 months (2.14; 6.18)]. The results suggest that IHs on the extremities showed a greater response to propranolol, whereas lesions in the anterior thoracic region, particularly the breast area, and the upper back were associated with a poorer response and increased likelihood of retreatment. Thus, this study raises awareness of the importance of early treatment and close follow-up, particularly of IHs in these locations.",
+            "journal": "Pediatric dermatology",
+            "year": "2025",
+            "authors": [
+              "Villa-Gonzalez Jose Maria",
+              "Ramirez-Romero Johanna",
+              "Santos-Zorrozúa Borja",
+              "López-Almaraz Ricardo",
+              "Gonzalez-Hermosa Maria Rosario"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41266952/"
+          },
+          {
+            "pmid": "29333831",
+            "title": "[Mammary hemangioma in an infant with apparent mastitis. Case report].",
+            "abstract": "Mammary pathology is infrequent during childhood. It is rare the probability of finding a breast mass in an infant. The most frequent possible diagnoses at this age are breast abscess, mastitis, breast engorgement due to maternal hormonal stimulation and hemangioma. Reaching the proper diagnosis is essential in order to apply a suitable treatment and avoid the potential disease complications. We present the case of a female infant having a mass in the right breast from birth. Initially the entity was treated as mastitis. Nevertheless, the bad evolution made necessary considering the differential diagnosis. It was concluded to be a hemangioma. Due to the lesion ulceration and the potential risk of developing breast hypoplasia, treatment with propranolol was started. The tumor was almost completely resolved.",
+            "journal": "Archivos argentinos de pediatria",
+            "year": "2018",
+            "authors": [
+              "Rodríguez Jiménez Cristina",
+              "Míguez Navarro Concepción",
+              "Campos Domínguez Minia",
+              "Garrido Colino Carmen"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Diagnosis, Differential",
+              "Female",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Mastitis",
+              "Nipples"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29333831/"
+          },
+          {
+            "pmid": "32110833",
+            "title": "Special management considerations for propranolol use in breastfed infants of mothers taking antihypertensives.",
+            "abstract": "Propranolol is approved for treatment of infantile hemangiomas (IH). IH proliferation coincides with the time when most women are breastfeeding, yet there are no reports describing the clinical effects on infants treated with propranolol while being nursed by mothers on oral antihypertensive medications. We describe two cases of breastfed infants, with mothers taking multiple antihypertensives of different drug classes, who were initiated on propranolol for IH treatment and discuss the theoretical risk of propranolol use in this setting.",
+            "journal": "Pediatric dermatology",
+            "year": "2020",
+            "authors": [
+              "Aizman Leora",
+              "Van Den Anker John",
+              "Tender Jennifer",
+              "Krishnan Anita",
+              "Kirkorian Anna Yasmine"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Antihypertensive Agents",
+              "Breast Feeding",
+              "Female",
+              "Hemangioma",
+              "Humans",
+              "Infant",
+              "Mothers",
+              "Propranolol",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32110833/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast capillary hemangioma",
+        "txgnn_score": 0.9890046715736388,
+        "txgnn_rank": 11274,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02732678",
+            "title": "Dose-Finding of Propranolol in Combination With Metronomic Fixed Oral Cyclophosphamide Based on Bivariate Efficacy-tolerability Outcome in Patients With Locally Advanced or Metastatic Angiosarcoma: A Collaborative and Innovative Phase I-II Sequential Trial by the French Sarcoma Group (GSF/GETO)",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2016-05",
+            "completion_date": "2019-05",
+            "country": "France",
+            "enrollment": 24,
+            "brief_summary": "Adrenergic processes stimulated by epinephrine and norepinephrine drive to the development of tumor growth and metastasis. Beta-adrenergic receptor (BAR) antagonists have shown efficacy against melanoma, breast cancer and prostate cancer. The non-specific BAR inhibitor propranolol has been used as the gold standard treatment in pediatric patients with benign infantile hemangioma which express high levels of beta adrenergic receptors potentially explaining their sensitively to propranolol. BAR ha",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adolescent \\> 15 years with a body surface \\>1,6 m2\n* Histologically proven angiosarcoma, reviewed by an independent pathologist, with metastasis or locally advanced stage not amenable to radiotherapy or curative-intent surgery after multidisciplinary decision ;\n* Prior system",
+            "endpoints": [
+              "toxicity of each tested propranolol dose level in association to cyclophosphamide assessed according to NCI-CTC AE Version 4.0",
+              "Non-progression rate"
+            ],
+            "sponsor": "Assistance Publique Hopitaux De Marseille",
+            "url": "https://clinicaltrials.gov/study/NCT02732678"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04105517",
+            "title": "Prescription of Hemangiol in the Treatment of Proliferative Infantile Hemangiomas Requiring Systemic Treatment: Post Marketing Surveillance Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-07-01",
+            "completion_date": "2019-10-30",
+            "country": "France",
+            "enrollment": 500,
+            "brief_summary": "Infantile hemangioma is a benign tumor belonging to the group of vascular tumors in the ISSVA classification (International Society for the Study of Vascular Anomalies). The diagnosis is clinical and radiological. The hemangioma appears during the first weeks of life (70% classically within 2 weeks after birth) but can, when it develops in the subcutaneous tissue, appear until the age of 2 to 3 months .\n\nIts evolution is characteristic and is divided into 3 phases with a proliferative phase char",
+            "eligibility_criteria": "Inclusion criteria:\n\n\\- Child from 0 to 18 years old hospitalized for introduction of Hemangiol between January 2014 and November 2018\n\nExclusion criteria:\n\n\\- Patients refuse the use of medical data will be excluded.",
+            "endpoints": [
+              "Incidence of adverse events in children with proliferative infantile hemangiomas receiving Hemangiol"
+            ],
+            "sponsor": "University Hospital, Montpellier",
+            "url": "https://clinicaltrials.gov/study/NCT04105517"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32647928",
+            "title": "Efficacy and safety of adrenergic beta-antagonist combined with lasers in the treatment of infantile hemangiomas: a meta-analysis.",
+            "abstract": "To investigate the efficacy and safety of combined therapy with adrenergic beta-antagonist and lasers in infantile hemangiomas (IH). A search of Pubmed, Cochrane, Embase, Wanfang Date, CNKI (China National Knowledge Infrastructure) and CBM (China Biology Medicine) databases was conducted to identify studies that examined response to combined therapy with adrenergic beta-antagonist and laser in IH patients. Pooled odds ratios (ORs) and 95% confidence intervals (CIs) in random-effects or fixed-effects models were calculated with Review Manger 5.3. Efficacy of combined therapy with oral propranolol and lasers was significantly better than that of propranolol (OR 5.79, 95% CI 2.52-13.31, P < 0.00001) or lasers (OR 5.09, 95% CI 3.04-8.54, P < 0.00001) alone. Combined therapy with topical timolol and lasers was more effective than topical timolol (OR 3.71, 95% CI 2.46-5.59, P < 0.00001) or lasers (OR 10.92, 95% CI 1.90-62.70, P = 0.007) alone. We did not observe statistically significant dif",
+            "journal": "Pediatric surgery international",
+            "year": "2020",
+            "authors": [
+              "Chen Xingfan",
+              "Guo Yu",
+              "Wang Pu",
+              "Qiu Fengzhen",
+              "Sun Yuming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Combined Modality Therapy",
+              "Hemangioma, Capillary",
+              "Humans",
+              "Infant",
+              "Laser Therapy",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32647928/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00571",
+    "name": "Propranolol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Propranolol"
+      },
+      "queried_at": "2026-03-10T04:26:50.629524",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Propranolol"
+      },
+      "queried_at": "2026-03-10T04:26:51.658597",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "distal myopathy, Tateyama type"
+      },
+      "queried_at": "2026-03-10T04:26:52.193270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "distal myopathy, Tateyama type"
+      },
+      "queried_at": "2026-03-10T04:26:55.877869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "distal myopathy, Tateyama type"
+      },
+      "queried_at": "2026-03-10T04:26:56.946144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "congenital myopathy with excess of thin filaments"
+      },
+      "queried_at": "2026-03-10T04:26:57.459622",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "congenital myopathy with excess of thin filaments"
+      },
+      "queried_at": "2026-03-10T04:27:00.196048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "congenital myopathy with excess of thin filaments"
+      },
+      "queried_at": "2026-03-10T04:27:01.295549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "hypertrophic cardiomyopathy due to intensive athletic training"
+      },
+      "queried_at": "2026-03-10T04:27:02.446367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "hypertrophic cardiomyopathy due to intensive athletic training"
+      },
+      "queried_at": "2026-03-10T04:27:05.745793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "hypertrophic cardiomyopathy due to intensive athletic training"
+      },
+      "queried_at": "2026-03-10T04:27:07.173447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "chondroma"
+      },
+      "queried_at": "2026-03-10T04:27:07.697527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "chondroma"
+      },
+      "queried_at": "2026-03-10T04:27:11.828925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "chondroma"
+      },
+      "queried_at": "2026-03-10T04:27:13.882986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "cirrhotic cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T04:27:14.496972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "cirrhotic cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T04:27:17.358756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "cirrhotic cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T04:27:19.575295",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T04:27:20.128184",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T04:27:22.914605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T04:27:26.123556",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "intramuscular hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:26.806059",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "intramuscular hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:31.008571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "intramuscular hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:34.820355",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "Maffucci syndrome"
+      },
+      "queried_at": "2026-03-10T04:27:35.355638",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "Maffucci syndrome"
+      },
+      "queried_at": "2026-03-10T04:27:38.390855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "Maffucci syndrome"
+      },
+      "queried_at": "2026-03-10T04:27:39.126083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "breast epithelioid hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:39.726216",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "breast epithelioid hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:44.261906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "breast epithelioid hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:46.324756",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "breast capillary hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:46.878322",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "breast capillary hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:50.110164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Propranolol",
+        "disease": "breast capillary hemangioma"
+      },
+      "queried_at": "2026-03-10T04:27:51.871969",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:27:51.898515"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "drug": {
+    "inn": "Phenyltoloxamine",
+    "drugbank_id": "DB11160",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.96241694688797,
+        "txgnn_rank": 23630,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.951850950717926,
+        "txgnn_rank": 26277,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.932464063167572,
+        "txgnn_rank": 30202,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anorectal stricture",
+        "txgnn_score": 0.9183236956596376,
+        "txgnn_rank": 32618,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9175970554351808,
+        "txgnn_rank": 32724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9091038703918456,
+        "txgnn_rank": 33831,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00378144",
+            "title": "A Community Pharmacy Based Investigation in the Self-Medication Area Efficacy and Safety of Sinutab and Pseudoephedrine on Subjects With Nasal Congestion Accompanied by Headache in the Setting of a Common Cold",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2008-03",
+            "country": "Belgium",
+            "enrollment": 469,
+            "brief_summary": "The purpose of this study is to investigate the efficacy and safety for a marketed sinus allergy product, Sinutab, in the treatment of nasal congestion and headache.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* age 18 years or more\n* reported cold symptoms beginning ≤ 48 hours prior to visit 1\n* scored ≥ 2 for each of nasal congestion and headache using the Modified Jackson Subject Evaluation Scale\n* willing and able to comply with scheduled visits, treatment plan, and other study pr",
+            "endpoints": [
+              "Change from baseline in the sum of nasal congestion and headache sign/symptom scores"
+            ],
+            "sponsor": "Johnson & Johnson Consumer and Personal Products Worldwide",
+            "url": "https://clinicaltrials.gov/study/NCT00378144"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anal polyp",
+        "txgnn_score": 0.90748929977417,
+        "txgnn_rank": 34020,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "proctitis",
+        "txgnn_score": 0.8966192007064819,
+        "txgnn_rank": 35141,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.8912752866744995,
+        "txgnn_rank": 35696,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.8839114904403687,
+        "txgnn_rank": 36359,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11160",
+    "name": "Phenyltoloxamine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Phenyltoloxamine"
+      },
+      "queried_at": "2026-03-10T06:20:37.190390",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Phenyltoloxamine"
+      },
+      "queried_at": "2026-03-10T06:20:38.944562",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T06:20:39.497541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T06:20:42.746873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T06:20:43.365828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-10T06:20:43.916932",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-10T06:20:47.117816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-10T06:20:47.849509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T06:20:49.460428",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T06:20:53.430020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T06:20:54.153406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-10T06:20:54.803425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-10T06:20:58.150030",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "anorectal stricture"
+      },
+      "queried_at": "2026-03-10T06:20:58.755372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T06:20:59.770398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T06:21:02.524904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T06:21:03.228882",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T06:21:03.724161",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T06:21:06.959305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T06:21:08.564795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "anal polyp"
+      },
+      "queried_at": "2026-03-10T06:21:09.472085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "anal polyp"
+      },
+      "queried_at": "2026-03-10T06:21:13.777141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "anal polyp"
+      },
+      "queried_at": "2026-03-10T06:21:14.517448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "proctitis"
+      },
+      "queried_at": "2026-03-10T06:21:15.153658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "proctitis"
+      },
+      "queried_at": "2026-03-10T06:21:18.732035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "proctitis"
+      },
+      "queried_at": "2026-03-10T06:21:19.502202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T06:21:20.005149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T06:21:23.284144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T06:21:25.030656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T06:21:25.634082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T06:21:28.517136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Phenyltoloxamine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T06:21:29.298073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:21:29.308142"
+  }
+}

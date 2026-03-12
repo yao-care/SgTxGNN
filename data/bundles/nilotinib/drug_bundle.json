@@ -1,0 +1,763 @@
+{
+  "drug": {
+    "inn": "Nilotinib",
+    "drugbank_id": "DB04868",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.9930540919303894,
+        "txgnn_rank": 8190,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29408302",
+            "title": "The role of small molecule platelet-derived growth factor receptor (PDGFR) inhibitors in the treatment of neoplastic disorders.",
+            "abstract": "Platelet-derived growth factor (PDGF) was discovered as a serum-derived component necessary for the growth of smooth muscle cells, fibroblasts, and glial cells. The PDGF family is a product of four gene products and consists of five dimeric isoforms: PDGF-AA, PDGF-BB, PDGF-CC, PDGF-DD, and the PDGF-AB heterodimer. This growth factor family plays an essential role in embryonic development and in wound healing in the adult. These growth factors mediate their effects by binding to and activating their receptor protein-tyrosine kinases, which are encoded by two genes: PDGFRA and PDGFRB. The functional receptors consist of the PDGFRα/α and PDGFRβ/β homodimers and the PDGFRα/β heterodimer. Although PDGF signaling is most closely associated with mesenchymal cells, PDGFs and PDGF receptors are widely expressed in the mammalian central nervous system. The PDGF receptors contain an extracellular domain that is made up of five immunoglobulin-like domains (Ig-d1/2/3/4/5), a transmembrane segment, ",
+            "journal": "Pharmacological research",
+            "year": "2018",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Ligands",
+              "Neoplasms",
+              "Platelet-Derived Growth Factor",
+              "Protein Kinase Inhibitors",
+              "Receptors, Platelet-Derived Growth Factor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29408302/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9884663820266724,
+        "txgnn_rank": 11704,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02587169",
+            "title": "GEIS-27: Phase I/II Multicenter and Prospective Trial of Nilotinib and Adriamycin as Neoadjuvant Treatment in Liposarcomas and Leiomyosarcomas of Retroperitoneum",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2012-01",
+            "completion_date": "2015-12",
+            "country": "Spain",
+            "enrollment": 40,
+            "brief_summary": "Phase I/II multicenter and prospective trial of nilotinib and adriamycin as neoadjuvant treatment in liposarcomas and leiomyosarcomas of retroperitoneum.\n\nThe main objective of this study is to improve relapse-free survival (RFS)and overall survival (OS) decreasing from 50% to 30% the relapse percentage at 5 years in patients with resected sarcoma of retroperitoneum.\n\nSecondary objectives include the analysis of antitumoral activity through response rate (RECIST and tissular changes), the assess",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with histological diagnosis of well differentiated liposarcoma, dedifferentiated liposarcoma or primary leiomyosarcoma of retroperitoneum and resectable. In phase I the study will recruit patients with high-grade chondrosarcoma of non-mesenchymal type.\n* Age: 18-70 ye",
+            "endpoints": [
+              "Relapse-free survival (RFS) at 5 years"
+            ],
+            "sponsor": "Broto, Javier Martín, M.D.",
+            "url": "https://clinicaltrials.gov/study/NCT02587169"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30037815",
+            "title": "Nilotinib as Coadjuvant Treatment with Doxorubicin in Patients with Sarcomas: A Phase I Trial of the Spanish Group for Research on Sarcoma.",
+            "abstract": "Purpose: Nilotinib plus doxorubicin showed to be synergistic regarding apoptosis in several sarcoma cell lines. A phase I/II trial was thus designed to explore the feasibility of nilotinib as coadjuvant of doxorubicin by inhibiting MRP-1/P-gp efflux activity. The phase I part of the study is presented here.Patients and Methods: Nilotinib 400 mg/12 hours was administered in fixed dose from day 1 to 6, and doxorubicin on day 5 of each cycle. Three dose escalation levels for doxorubicin at 60, 65, and 75 mg/m2 were planned. Cycles were repeated every 3 weeks for a total of 4 cycles. Eligible subtypes were retroperitoneal liposarcoma, leiomyosarcoma, and unresectable/metastatic high-grade chondrosarcoma.Results: Thirteen patients were enrolled: 7 chondrosarcoma, 4 liposarcoma, and 2 leiomyosarcoma. In 46 cycles administered, the most relevant grade 3/4 adverse effects per patient were neutropenia 54%, febrile neutropenia 15%, and asthenia 8%. No cardiac toxicity was observed. Only one dose",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2018",
+            "authors": [
+              "Alemany Regina",
+              "Moura David S",
+              "Redondo Andres",
+              "Martinez-Trufero Javier",
+              "Calabuig Silvia"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Biomarkers, Tumor",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Chemotherapy, Adjuvant",
+              "Doxorubicin",
+              "Drug Evaluation, Preclinical",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30037815/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.9873650670051576,
+        "txgnn_rank": 12563,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ewing sarcoma",
+        "txgnn_score": 0.9845476746559144,
+        "txgnn_rank": 14492,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39775930",
+            "title": "A Novel Disulfidptosis-Related Risk Signature for Prognostic Prediction in Patients With Ewing Sarcoma.",
+            "abstract": "Ewing sarcoma (ES) is a malignant bone tumor prevalent among children and adolescents. Disulfidptosis represents a novel form of cell death; however, the mechanism of disulfidptosis in ES remains unclear. Our aim is to explore the disulfidptosis-related prognostic signature in ES. Utilizing transcriptomic and clinical data of ES, disulfidptosis-related hub genes (DRHGs) were identified by differential gene expression analysis and Least Absolute Shrinkage and Selection Operator (LASSO) Cox regression analysis. A disulfidptosis-related risk score model (DRRS) was constructed based on these DRHGs. The performance of DRRS was assessed using survival analysis and receiver operating characteristic curve analysis. Immune cell infiltration in different risk subgroups and correlations between DRRS and antitumor reagents were also analyzed. In this study, we developed a disulfidptosis-related prognostic feature based on LRPPRC (leucine rich pentatricopeptide repeat containing), IQGAP1 (IQ motif ",
+            "journal": "Journal of orthopaedic research : official publication of the Orthopaedic Research Society",
+            "year": "2025",
+            "authors": [
+              "Che Chunqing",
+              "Song Delei",
+              "Xue Peng",
+              "Yin Xuqing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sarcoma, Ewing",
+              "Bone Neoplasms",
+              "Prognosis",
+              "Female",
+              "Male",
+              "Adolescent",
+              "Child",
+              "Transcriptome",
+              "Disulfidptosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39775930/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.9702485799789428,
+        "txgnn_rank": 21176,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart fibrosarcoma",
+        "txgnn_score": 0.9701059460639954,
+        "txgnn_rank": 21229,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.9694406986236572,
+        "txgnn_rank": 21478,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kidney fibrosarcoma",
+        "txgnn_score": 0.9690054059028624,
+        "txgnn_rank": 21622,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroblastic neoplasm",
+        "txgnn_score": 0.9689664244651794,
+        "txgnn_rank": 21635,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35689379",
+            "title": "Penttinen syndrome-associated PDGFRB Val665Ala variant causes aberrant constitutive STAT1 signalling.",
+            "abstract": "Penttinen syndrome is a rare progeroid disorder caused by mutations in platelet-derived growth factor (PDGF) receptor beta (encoded by the PDGFRB proto-oncogene) and characterized by a prematurely aged appearance with lipoatrophy, skin lesions, thin hair and acro-osteolysis. Activating mutations in PDGFRB have been associated with other human diseases, including Kosaki overgrowth syndrome, infantile myofibromatosis, fusiform aneurysms, acute lymphoblastic leukaemia and myeloproliferative neoplasms associated with eosinophilia. The goal of the present study was to characterize the PDGFRB p.Val665Ala variant associated with Penttinen syndrome at the molecular level. This substitution is located in a conserved loop of the receptor tyrosine kinase domain. We observed that the mutant receptor was expressed at a lower level but showed constitutive activity. In the absence of ligand, the mutant activated STAT1 and elicited an interferon-like transcriptional response. Phosphorylation of STAT3,",
+            "journal": "Journal of cellular and molecular medicine",
+            "year": "2022",
+            "authors": [
+              "Nédélec Audrey",
+              "Guérit Emilie M",
+              "Dachy Guillaume",
+              "Lenglez Sandrine",
+              "Wong Lok San"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acro-Osteolysis",
+              "Aged",
+              "Humans",
+              "Interferons",
+              "Limb Deformities, Congenital",
+              "Myofibromatosis",
+              "Progeria",
+              "Receptor, Platelet-Derived Growth Factor beta",
+              "STAT1 Transcription Factor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35689379/"
+          },
+          {
+            "pmid": "35150408",
+            "title": "Clinical outcomes of medical treatments for progressive desmoid tumors following active surveillance: a systematic review.",
+            "abstract": "Approximately 80% of desmoid tumors (DTs) show spontaneous regression or disease stabilization during first-line active surveillance. Medical treatment can be considered in cases of disease progression. This systematic review aimed to evaluate the effectiveness and toxicity of each medical treatment by reviewing only the studies that included progressive disease as the inclusion criterion. We searched the EMBASE, PubMed, and CENTRAL databases to identify published studies for progressive DTs. The disease control rates of the medical treatments, such as low-dose chemotherapy with methotrexate plus vinblastine or vinorelbine, imatinib, sorafenib, pazopanib, nilotinib, anlotinib, doxorubicin-based agents, liposomal doxorubicin, hydroxyurea, and oral vinorelbine for progressive DTs were 71-100%, 78-92%, 67-96%, 84%, 88%, 86%, 89-100%, 90-100%, 75%, and 64%, respectively. Low-dose chemotherapy, sorafenib, pazopanib, nilotinib, anlotinib, and liposomal doxorubicin had similar toxicities. Sor",
+            "journal": "Musculoskeletal surgery",
+            "year": "2023",
+            "authors": [
+              "Tsukamoto S",
+              "Takahama T",
+              "Mavrogenis A F",
+              "Tanaka Y",
+              "Tanaka Y"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vinorelbine",
+              "Sorafenib",
+              "Imatinib Mesylate",
+              "Hydroxyurea",
+              "Desmoid Tumors",
+              "Watchful Waiting",
+              "Methotrexate",
+              "Doxorubicin",
+              "Indazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35150408/"
+          },
+          {
+            "pmid": "26376592",
+            "title": "Occurrence of Carcinoma of the Pancreas Following Nilotinib Therapy for Chronic Myeloid Leukemia: Report of a Case with Review of the Literature.",
+            "abstract": "The patient, a 79-year-old Japanese man, was diagnosed with the chronic phase of chronic myeloid leukemia and begun on nilotinib therapy in April 2011. The therapeutic response was major molecular response in August. About 19 months after the start of nilotinib therapy at 400 mg/day (November 2012), an adenocarcinoma (24 x 20 mm) confined to the head of the pancreas developed. In February 2013, a pancreaticoduodenectomy was performed. The therapy regimen was switched to dasatinib at 100 mg/day, beginning in April. The response was still major molecular response with no recurrence of pancreatic carcinoma in July 2013. There have been 29 reported cases of secondary neoplasms associated with nilotinib therapy. These secondary neoplasms were characterized by relatively frequent occurrence of papilloma (6 cases), gastric cancer (3 cases), fibroma (3 cases), and thyroid neoplasms (2 cases). The present case, however, is the first to be reported as carcinoma of the pancreas. This report descr",
+            "journal": "Turkish journal of haematology : official journal of Turkish Society of Haematology",
+            "year": "2015",
+            "authors": [
+              "Sekiguchi Yasunobu",
+              "Shimada Asami",
+              "Matsuzawa Moe",
+              "Imai Hidenori",
+              "Wakabayashi Mutsumi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Aged",
+              "Antineoplastic Agents",
+              "Causality",
+              "Clinical Trials as Topic",
+              "Dasatinib",
+              "Depression",
+              "Drug Substitution",
+              "Fibroma",
+              "Hemangioma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26376592/"
+          },
+          {
+            "pmid": "26455322",
+            "title": "PDGFRB mutants found in patients with familial infantile myofibromatosis or overgrowth syndrome are oncogenic and sensitive to imatinib.",
+            "abstract": "Recently, germline and somatic heterozygous mutations in the platelet-derived growth factor receptor β (PDGFRB) have been associated with familial infantile myofibromatosis (IM), which is characterized by soft tissue tumors, and overgrowth syndrome, a disease that predisposes to cancer. These mutations have not been functionally characterized. In the present study, the activity of three PDGFRB mutants associated with familial IM (R561C, P660T and N666K) and one PDGFRB mutant found in patients with overgrowth syndrome (P584R) was tested in various models. The P660T mutant showed no difference with the wild-type receptor, suggesting that it might represent a polymorphic variant unrelated to the disease. By contrast, the three other mutants were constitutively active and able to transform NIH3T3 and Ba/F3 cells to different extents. In particular, the germline mutant identified in overgrowth syndrome, P584R, was a stronger oncogene than the germline R561C mutant associated with myofibroma",
+            "journal": "Oncogene",
+            "year": "2016",
+            "authors": [
+              "Arts F A",
+              "Chand D",
+              "Pecquet C",
+              "Velghe A I",
+              "Constantinescu S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blotting, Western",
+              "Cell Line",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Transformation, Neoplastic",
+              "Female",
+              "Growth Disorders",
+              "Humans",
+              "Imatinib Mesylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26455322/"
+          },
+          {
+            "pmid": "28282612",
+            "title": "Imatinib induces sustained progression arrest in RECIST progressive desmoid tumours: Final results of a phase II study of the German Interdisciplinary Sarcoma Group (GISG).",
+            "abstract": "Desmoid tumours describe a rare monoclonal, fibroblastic proliferation characterised by an often unpredictable clinical course. Surgery is one therapeutic option for progressing patients, except if mutilating and associated with considerable function loss. Different systemic treatment approaches have been investigated and promising results could be demonstrated using imatinib.",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2017",
+            "authors": [
+              "Kasper Bernd",
+              "Gruenwald Viktor",
+              "Reichardt Peter",
+              "Bauer Sebastian",
+              "Rauch Geraldine"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abdominal Neoplasms",
+              "Abdominal Wall",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Extremities",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28282612/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "conventional fibrosarcoma",
+        "txgnn_score": 0.9679344892501832,
+        "txgnn_rank": 21935,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB04868",
+    "name": "Nilotinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Nilotinib"
+      },
+      "queried_at": "2026-03-10T04:58:19.128228",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Nilotinib"
+      },
+      "queried_at": "2026-03-10T04:58:20.181657",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T04:58:20.819843",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T04:58:24.050141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T04:58:26.108393",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:26.620126",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:30.003914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:31.825859",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:32.508032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:35.902173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:36.509342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:37.001530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:39.800144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "Ewing sarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:41.977565",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:58:42.452837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:58:45.206504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:58:45.960666",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:46.470701",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:49.277784",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:49.974358",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T04:58:50.634389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T04:58:54.461714",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T04:58:55.217438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:55.861889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:58:59.382644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:00.213800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:59:00.900235",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:59:05.086253",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:59:07.843023",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:08.831457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:12.264187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nilotinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "queried_at": "2026-03-10T04:59:12.904263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:59:12.915166"
+  }
+}

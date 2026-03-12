@@ -1,0 +1,2299 @@
+{
+  "drug": {
+    "inn": "Betahistine",
+    "drugbank_id": "DB06698",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "restless legs syndrome",
+        "txgnn_score": 0.9851250648498536,
+        "txgnn_rank": 14114,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "active cochleovestibular Meniere disease",
+        "txgnn_score": 0.983370304107666,
+        "txgnn_rank": 15203,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "active vestibular Meniere disease",
+        "txgnn_score": 0.983370304107666,
+        "txgnn_rank": 15204,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26245698",
+            "title": "Use of betahistine in the treatment of peripheral vertigo.",
+            "abstract": "Clinical studies and meta-analyses demonstrated that betahistine is effective and safe in the treatment of Ménière's disease, BPPV (benign paroxysmal positional vertigo), vestibular neuronitis, and other types of peripheral vertigo.",
+            "journal": "Acta oto-laryngologica",
+            "year": "2015",
+            "authors": [
+              "Ramos Alcocer Rubén",
+              "Ledezma Rodríguez José Gregorio",
+              "Navas Romero Antonio",
+              "Cardenas Nuñez José Luis",
+              "Rodríguez Montoya Vicente"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Betahistine",
+              "Histamine Agonists",
+              "Humans",
+              "Postural Balance",
+              "Quality of Life",
+              "Vertigo",
+              "Vestibule, Labyrinth"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26245698/"
+          },
+          {
+            "pmid": "24057832",
+            "title": "Pharmacotherapy of vestibular disorders and nystagmus.",
+            "abstract": "Vertigo and dizziness are with a life-time prevalence of ~30% among the most common symptoms and are often associated with nystagmus or other oculomotor disorders. The prerequisite for a successful treatment is a precise diagnosis of the underlying disorder. In this overview, the current pharmacological treatment options for peripheral and central vestibular, cerebellar, and oculomotor disorders including nystagmus are described. There are basically seven groups of drugs that can be used (the \"7 As\"): antiemetics; anti-inflammatory, anti-Menière's, and antimigraine medications; antidepressants, anticonvulsants, and aminopyridines. In acute vestibular neuritis, recovery of the peripheral vestibular function can be improved by treatment with oral corticosteroids. In Menière's disease, a long-term high-dose treatment with betahistine-dihydrochloride (at least 48 mg three times daily) had a significant effect on the frequency of the attacks; the underlying mode of action is evidently an in",
+            "journal": "Seminars in neurology",
+            "year": "2013",
+            "authors": [
+              "Strupp Michael",
+              "Kremmyda Olympia",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebellar Diseases",
+              "Dizziness",
+              "Humans",
+              "Meniere Disease",
+              "Nystagmus, Pathologic",
+              "Ophthalmoplegia",
+              "Vestibular Diseases",
+              "Vestibular Neuronitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24057832/"
+          },
+          {
+            "pmid": "19300572",
+            "title": "Betahistine in the treatment of Ménière's disease.",
+            "abstract": "Ménière's disease and related disease of the vestibular system are common and debilitating. Current therapy is multi-modal and includes drug therapy and lifestyle adaptations. Unfortunately many of the drugs used in treatment (particularly those used to control nausea) are sedative and hamper the process of vestibular compensation. Although betahistine (Serc®), BetaSerc®); Solvay Pharmaceuticals) is the mainstay of drug treatment in these illnesses, its efficacy has not, until recently, been evaluated to modern standards. Betahistine is an analog of histamine with weak agonist properties at histamine H1 receptors and more potent anatgonistic effects at histamine H3 receptors. Growing evidence suggests that the mechanism of action of betahistine lies in the central nervous system and in particularly in the neuronal systems involved in the recovery from process after vestibular loss. The histaminergic neurones of the tuberomamillary and vestibular nuclei are implicated. In recent years t",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2007",
+            "authors": [
+              "Lacour Michel",
+              "van de Heyning Paul H",
+              "Novotny Miroslav",
+              "Tighilet Brahim"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19300572/"
+          },
+          {
+            "pmid": "29942281",
+            "title": "Betahistine Treatment in a Cat Model of Vestibular Pathology: Pharmacokinetic and Pharmacodynamic Approaches.",
+            "abstract": "This study is a pharmacokinetic (PK) and pharmacodynamics (PD) approach using betahistine doses levels in unilateral vestibular neurectomized cats (UVN) comparable to those used in humans for treating patients with Menière's disease. The aim is to investigate for the first time oral betahistine administration (0.2 and 2 mg/kg/day) with plasma concentrations of betahistine and its major metabolite 2-pyridylacetic acid (2-PAA) (N = 9 cats), the time course of posture recovery (N = 13 cats), and the regulation of the enzyme synthesizing histamine (histidine decarboxylase: HDC) in the tuberomammillary nuclei (TMN) of UVN treated animals (N = the same 13 cats plus 4 negative control cats). In addition the effect of co-administration of the lower betahistine dose (0.2 mg/kg/day) and selegiline (1 mg/kg/day), an inhibitor of the monamine oxidase B (MAOBi) implicated in betahistine catabolism was investigated. The PK parameters were the peak concentration (Cmax), the time when the maximum conc",
+            "journal": "Frontiers in neurology",
+            "year": "2018",
+            "authors": [
+              "Tighilet Brahim",
+              "Léonard Jacques",
+              "Watabe Isabelle",
+              "Bernard-Demanze Laurence",
+              "Lacour Michel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29942281/"
+          },
+          {
+            "pmid": "37528598",
+            "title": "Associations Among Medical Therapy, SelfAdministered Exercise, and Characteristics of Ménière's Disease.",
+            "abstract": "The aim of the current study was to explore the associations among different therapeutic procedures, self-administered exercise, and characteristics of Ménière's disease.",
+            "journal": "The journal of international advanced otology",
+            "year": "2023",
+            "authors": [
+              "Pyykkö Ilmari",
+              "Pyykkö Nora",
+              "Manchaiah Vinaya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Male",
+              "Meniere Disease",
+              "Quality of Life",
+              "Retrospective Studies",
+              "Vertigo",
+              "Vestibular Diseases",
+              "Syncope",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37528598/"
+          },
+          {
+            "pmid": "2068937",
+            "title": "Histamine in the treatment of vertigo.",
+            "abstract": "The vasodilating properties of histamine were the basis for histamine treatment of episodic vertigo and other inner ear dysfunctions. The successes obtained led to the development of betahistine: an orally active histamine analogue; its general pharmacology resembles that of histamine. Animal pharmacology experiments proved that betahistine increases cerebral blood flow and probably also affects vestibular neurons. From clinical studies, it appears that betahistine is an effective agent for the symptomatic treatment of Meniere's syndrome. Efficacy has also been shown in the treatment of patients suffering from paroxysmal vertigo.",
+            "journal": "Acta oto-laryngologica. Supplementum",
+            "year": "1991",
+            "authors": [
+              "Fischer A J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Betahistine",
+              "Histamine",
+              "Humans",
+              "Meniere Disease",
+              "Receptors, Histamine",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2068937/"
+          },
+          {
+            "pmid": "21461686",
+            "title": "Pharmacotherapy of vestibular and ocular motor disorders, including nystagmus.",
+            "abstract": "We review current pharmacological treatments for peripheral and central vestibular disorders, and ocular motor disorders that impair vision, especially pathological nystagmus. The prerequisites for successful pharmacotherapy of vertigo, dizziness, and abnormal eye movements are the \"4 D's\": correct diagnosis, correct drug, appropriate dosage, and sufficient duration. There are seven groups of drugs (the \"7 A's\") that can be used: antiemetics; anti-inflammatory, anti-Ménière's, and anti-migrainous medications; anti-depressants, anti-convulsants, and aminopyridines. A recovery from acute vestibular neuritis can be promoted by treatment with oral corticosteroids. Betahistine may reduce the frequency of attacks of Ménière's disease. The aminopyridines constitute a novel treatment approach for downbeat and upbeat nystagmus, as well as episodic ataxia type 2 (EA 2); these drugs may restore normal \"pacemaker\" activity to the Purkinje cells that govern vestibular and cerebellar nuclei. A limit",
+            "journal": "Journal of neurology",
+            "year": "2011",
+            "authors": [
+              "Strupp Michael",
+              "Thurtell Matthew J",
+              "Shaikh Aasef G",
+              "Brandt Thomas",
+              "Zee David S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Drug Therapy",
+              "Humans",
+              "Nystagmus, Pathologic",
+              "Ocular Motility Disorders",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21461686/"
+          },
+          {
+            "pmid": "16415675",
+            "title": "Pharmacological advances in the treatment of neuro-otological and eye movement disorders.",
+            "abstract": "First, to describe the current pharmacological treatment options for peripheral and central vestibular, cerebellar, and ocular motor disorders. Second, to identify vestibular and ocular motor disorders in which treatment trials are warranted.",
+            "journal": "Current opinion in neurology",
+            "year": "2006",
+            "authors": [
+              "Strupp Michael",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebellar Ataxia",
+              "Cerebellar Diseases",
+              "Cerebellum",
+              "GABA Agonists",
+              "Humans",
+              "Nystagmus, Pathologic",
+              "Ocular Motility Disorders",
+              "Potassium Channel Blockers",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16415675/"
+          },
+          {
+            "pmid": "7113814",
+            "title": "Long-term evaluation of the treatment of Menière's disease with betahistine HCl.",
+            "abstract": "Long-term evaluation of patients treated continuously for a period of 12-14 years with betahistine HCl shows a success rates of more than 80%. Many of these patients had various other kinds of therapy before betahistine HCl treatment to no avail. It seems to us that betahistine HCl is only a basic long-term treatment which has no habituation and still is active in controlling Menière's disease even after a long-term period. Other drugs such as antihistamine, phenothiazines, vitamins and tranquilizers only produce a symptomatic treatment. Betahistine HCl produces no modification or effect on the evolution of deafness.",
+            "journal": "Advances in oto-rhino-laryngology",
+            "year": "1982",
+            "authors": [
+              "Bertrand R A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Audiometry",
+              "Betahistine",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Meniere Disease",
+              "Pyridines",
+              "Random Allocation",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7113814/"
+          },
+          {
+            "pmid": "22365373",
+            "title": "Effect of transtympanic low-pressure therapy in patients with unilateral Menière's disease unresponsive to betahistine: a randomised, placebo-controlled, double-blinded, clinical trial.",
+            "abstract": "To determine the effect of the Meniett low-pressure generator on the subjective symptoms and audiovestibular disease markers of patients with unilateral Menière's disease unresponsive to betahistine treatment.",
+            "journal": "The Journal of laryngology and otology",
+            "year": "2012",
+            "authors": [
+              "Gürkov R",
+              "Filipe Mingas L B",
+              "Rader T",
+              "Louza J",
+              "Olzowy B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Audiometry, Pure-Tone",
+              "Betahistine",
+              "Caloric Tests",
+              "Double-Blind Method",
+              "Ear Canal",
+              "Equipment Design",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22365373/"
+          },
+          {
+            "pmid": "23388590",
+            "title": "[Treatment of vestibular vertigo and Ménière syndrome in outpatient clinics].",
+            "abstract": "An aim of this study was to assess clinical efficacy and tolerability of tagista in the symptomatic treatment of vestibular vertigo and Ménière syndrome. Thirty-two patients, 16 women and 16 men, aged from 25 to 67 years, were examined. Vertigo was caused by chronic brain ischemia in 17 cases and by the disturbance of blood circulation in the vertebral-basilar system in 14 patients with osteochondrosis of cervical spine. One patient was diagnosed with Ménière syndrome. Tagista was used in dose 24 mg twice a day during 4 weeks in the combination with standard treatment, exercise therapy and stability training. The results revealed a statistically significant effect of the drug on main symptoms (frequency, duration and intensity of vertigo attacks etc) and its good tolerability that allowed to recommend the drug in neurological practice.",
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2012",
+            "authors": [
+              "Kostenko E V",
+              "Petrova L V",
+              "Torgovanova E A",
+              "Ganzhula P A",
+              "Lisenker L N"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Ambulatory Care Facilities",
+              "Betahistine",
+              "Combined Modality Therapy",
+              "Exercise",
+              "Female",
+              "Humans",
+              "Male",
+              "Meniere Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23388590/"
+          },
+          {
+            "pmid": "2068940",
+            "title": "Treatment of acute vestibular vertigo.",
+            "abstract": "The alleviation of vestibular distress using drug therapy is a question of whether treatment with drugs is advisable at all or whether more emphasis should be directed towards active habituation therapy. Histamine and especially its derivative, betahistine, inhibit the massive impulses to the polysynaptic neurons of the lateral vestibular nucleus without having any sedative effect, as measured by saccadic eye movements. In the ENT Clinic of Turku University Hospital, betahistine has been used to treat 613 Meniere's patients at a dose of 8 mg three times daily. In about 80% of these patients, the results of therapy were positive. Betahistine is the current most effective drug in maintenance therapy of Meniere's disease, although it does not resolve all of the problem of this disorder. Betahistine can also be used in other forms of vestibular vertigo as maintenance therapy, because it only has minimal side-effects and it has not been shown to slow down habituation.",
+            "journal": "Acta oto-laryngologica. Supplementum",
+            "year": "1991",
+            "authors": [
+              "Aantaa E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Betahistine",
+              "Humans",
+              "Meniere Disease",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2068940/"
+          },
+          {
+            "pmid": "20567979",
+            "title": "Does betahistine treatment have additional benefits to vestibular rehabilitation?",
+            "abstract": "The aim of this study was to investigate the effect of high-dose betahistine treatment added to vestibular rehabilitation (VR) on the disability, balance and postural stability in patients with unilateral vestibular disorder. The VR group (group 1, n = 24) and the VR + betahistine group (group 2, n = 23) were analyzed retrospectively. All patients were evaluated before and after an 8-week customized VR in terms of disability (Dizziness Handicap Inventory, DHI), dynamic balance [Dynamic Gait Index (DGI)] and postural stability (static posturography). In group 1 and group 2, differences between DHI, DGI and falling index score on static posturography before and after the exercise program were significant (p < 0.05). In addition, a significant difference was detected only in group 2 in the variables evaluated in static posturography-Fourier 4 analysis (p < 0.05). Both VR and betahistine + VR have a positive effect on disability and balance in patients with unilateral vestibular disorder. ",
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2010",
+            "authors": [
+              "Karapolat Hale",
+              "Celebisoy Nese",
+              "Kirazli Yesim",
+              "Bilgen Cem",
+              "Eyigor Sibel"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Betahistine",
+              "Caloric Tests",
+              "Combined Modality Therapy",
+              "Disability Evaluation",
+              "Dose-Response Relationship, Drug",
+              "Exercise Therapy",
+              "Female",
+              "Gait"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20567979/"
+          },
+          {
+            "pmid": "20940335",
+            "title": "Betahistine treatment improves the recovery of static symptoms in patients with unilateral vestibular loss.",
+            "abstract": "Vestibular loss induces a combination of postural, oculomotor, and perceptive symptoms that are compensated over time. The aim of this study was to analyze the influence of betahistine dihydrochloride on vestibular compensation. A randomized, double-blind, placebo-controlled study was performed in Menière's disease patients who underwent a curative unilateral vestibular neurotomy (UVN). The effects of betahistine treatment were investigated on a broad spectrum of vestibular-induced changes resulting from vestibular loss: body sway, head orientation, ocular cyclotorsion, spontaneous nystagmus, verticality perception, and self-evaluation of the postural stability. The time course of the recovery was compared in 16 patients who received either a placebo or betahistine (24 mg b.i.d.) from 3 days up to 3 months after UVN. Patients were examined before (day -1) and after UVN (days 7, 30, and 90). Results indicate that betahistine reduces the time to recovery by 1 month or more depending on t",
+            "journal": "Journal of clinical pharmacology",
+            "year": "2011",
+            "authors": [
+              "Redon Christine",
+              "Lopez Christophe",
+              "Bernard-Demanze Laurence",
+              "Dumitrescu Michel",
+              "Magnan Jacques"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Betahistine",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Meniere Disease",
+              "Middle Aged",
+              "Nystagmus, Pathologic",
+              "Placebos",
+              "Postural Balance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20940335/"
+          },
+          {
+            "pmid": "8333888",
+            "title": "[Otogenic vertigo. Differentiation and therapy].",
+            "abstract": "Disturbance of equilibrium is perceived subjectively as vertigo. The origin of this unspecified symptom can be varied and must be differentiated for causal therapy. Sudden vestibular disorders were treated symptomatically using drugs that suppress different input activities. For long-term therapy other antivertigo drugs like Betahistin are appropriate. This medication produces positive vasoactive effects and inhibits central vestibular structures. Clinicians are now challenged to design the best possible treatment and exercise regimes, including medication, for patients suffering from vestibular disturbances.",
+            "journal": "Laryngo- rhino- otologie",
+            "year": "1993",
+            "authors": [
+              "Stoll W"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diagnosis, Differential",
+              "GABA Antagonists",
+              "Histamine Agonists",
+              "Histamine Antagonists",
+              "Humans",
+              "Meniere Disease",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8333888/"
+          },
+          {
+            "pmid": "11677834",
+            "title": "Betahistine in the treatment of vertigo. History and clinical implications of recent pharmacological researches.",
+            "abstract": "A short profile of betahistine and its activity in treatment of Menière's disease and other forms of peripheral vertigo is presented. The clinical efficacy of betahistine is documented by a series of more than twenty controlled clinical studies, performed in the years 1966-2000. Basic researches initially proved that bethaistine acts trough a vasodilating action on inner ear and cerebral blood flow (Suga and Snow, 1969; Martinez, 1972). In the following years this activity was confirmed using the modern laser doppler flowmetry technique (Laurikainen et al, 1998). Further recent studies proved that betahistine acts on the central vestibular histaminergic system as a weak H1 agonist and a strong H3 antagonist (Arrang et al., 1985), improving the process of vestibular compensation (Tighilet et al., 1995) as well as on peripheral labyrinthine receptors, reducing the spontaneous firing rate but not the activity induced by thermal or mechanical stimulation (Botta et al., 1998). More than for",
+            "journal": "Acta otorhinolaryngologica Italica : organo ufficiale della Societa italiana di otorinolaringologia e chirurgia cervico-facciale",
+            "year": "2001",
+            "authors": [
+              "Mira E"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Betahistine",
+              "History, 20th Century",
+              "Meniere Disease",
+              "Research",
+              "Vasodilator Agents",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11677834/"
+          },
+          {
+            "pmid": "6363584",
+            "title": "Betahistine dihydrochloride in the treatment of vertigo of peripheral vestibular origin. A double-blind placebo-controlled study.",
+            "abstract": "A double-blind, cross-over, placebo-controlled study of betahistine dihydrochloride (12 mg, t.i.d.) was carried out in patients with vertigo of peripheral vestibular origin. Twenty-four patients completed the study, which consisted of two six-week treatment periods. The patients were diagnosed as suffering from Menière's disease (15 patients), vertigo due to other (specified) causes (five patients), or vertigo of unknown origin (four patients). Patients were examined by the investigator at the start of the study and were re-assessed at three-weekly intervals. In addition, they recorded the nature, frequency and severity of their symptoms on diary cards. Both the incidence and severity of dizziness (the predominant presenting complaint) were found to be significantly reduced during betahistine treatment (p = 0.004). The occurrence of nausea and vomiting was also significantly reduced during betahistine treatment (p = 0.014 and 0.036 respectively). There were no statistically significant",
+            "journal": "The Journal of laryngology and otology",
+            "year": "1984",
+            "authors": [
+              "Oosterveld W J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Activities of Daily Living",
+              "Betahistine",
+              "Clinical Trials as Topic",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Male",
+              "Meniere Disease",
+              "Pyridines",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6363584/"
+          },
+          {
+            "pmid": "21179531",
+            "title": "Current treatment of vestibular, ocular motor disorders and nystagmus.",
+            "abstract": "Vertigo and dizziness are among the most common complaints with a lifetime prevalence of about 30%. The various forms of vestibular disorders can be treated with pharmacological therapy, physical therapy, psychotherapeutic measures or, rarely, surgery. In this review, the current pharmacological treatment options for peripheral and central vestibular, cerebellar and ocular motor disorders will be described. They are as follows for peripheral vestibular disorders. In vestibular neuritis recovery of the peripheral vestibular function can be improved by treatment with oral corticosteroids. In Menière's disease a recent study showed long-term high-dose treatment with betahistine has a significant effect on the frequency of the attacks. The use of aminopyridines introduced a new therapeutic principle in the treatment of downbeat and upbeat nystagmus and episodic ataxia type 2 (EA 2). These potassium channel blockers presumably increase the activity and excitability of cerebellar Purkinje ce",
+            "journal": "Therapeutic advances in neurological disorders",
+            "year": "2009",
+            "authors": [
+              "Strupp Michael",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21179531/"
+          },
+          {
+            "pmid": "30421285",
+            "title": "Tenotomy of the middle ear muscles : An unknown surgical approach in Meniere's disease.",
+            "abstract": "Tenotomy of the tendon of the stapedius and tensor tympani muscles is a relatively unknown therapeutic procedure in Menière's disease. Widespread approaches include medicinal treatment with betahistine or diuretics as well as interventional procedures, such as intratympanic gentamicin or glucocorticoid injection, vestibular neurectomy, labyrinthectomy or endolymphatic sac surgery. The exact pathomechanism of this approach is not fully known. It is assumed that by cutting the tendons of both middle ear muscles in cases of endolymphatic hydrops the stapes is not additionally actively pushed against the oval window but can deviate laterally and thereby does not augment the inner ear pressure even further. Studies have shown that this method does not only improve vestibular symptoms but also, in contrast to most other strategies, increases the hearing level. The formation of scar tissue and the resulting reduction of ossicular chain mobility, especially due to postoperative infections, may",
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "2019",
+            "authors": [
+              "Reichmayr Caroline",
+              "Sterrer Elisabeth",
+              "Bachtiar Arian",
+              "Layr Matthias",
+              "Loader Benjamin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Ear, Middle",
+              "Female",
+              "Gentamicins",
+              "Humans",
+              "Meniere Disease",
+              "Tenotomy",
+              "Treatment Outcome",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30421285/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "active cochlear Meniere disease",
+        "txgnn_score": 0.983370304107666,
+        "txgnn_rank": 15205,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26139562",
+            "title": "Histaminergic H3-Heteroreceptors as a Potential Mediator of Betahistine-Induced Increase in Cochlear Blood Flow.",
+            "abstract": "Betahistine is a histamine-like drug that is considered beneficial in Ménière's disease by increasing cochlear blood flow. Acting as an agonist at the histamine H1-receptor and as an inverse agonist at the H3-receptor, these receptors as well as the adrenergic α2-receptor were investigated for betahistine effects on cochlear blood flow.",
+            "journal": "Audiology & neuro-otology",
+            "year": "2015",
+            "authors": [
+              "Bertlich Mattis",
+              "Ihler Friedrich",
+              "Freytag Saskia",
+              "Weiss Bernhard G",
+              "Strupp Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Betahistine",
+              "Cochlea",
+              "Female",
+              "Guinea Pigs",
+              "Histamine Agonists",
+              "Histamine Antagonists",
+              "Receptors, Histamine H3",
+              "Regional Blood Flow"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26139562/"
+          },
+          {
+            "pmid": "28818391",
+            "title": "Role of capillary pericytes and precapillary arterioles in the vascular mechanism of betahistine in a guinea pig inner ear model.",
+            "abstract": "Betahistine is a histamine analogue that is used for the treatment of Menière's disease. Animal studies showed that it increases local blood flow in the stria vascularis. In terms of its mode of action, recent studies have prompted discussion of whether betahistine actively affects cochlear microcirculation by dilations of pericytes or of precapillary arterioles or by mere downstream effects. Hence, we investigated the effects of betahistine on cochlear capillary pericytes and precapillary arterioles.",
+            "journal": "Life sciences",
+            "year": "2017",
+            "authors": [
+              "Bertlich Mattis",
+              "Ihler Friedrich",
+              "Weiss Bernhard G",
+              "Freytag Saskia",
+              "Strupp Michael"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arterioles",
+              "Betahistine",
+              "Ear, Inner",
+              "Guinea Pigs",
+              "Histamine Agonists",
+              "Microscopy, Fluorescence",
+              "Microscopy, Fluorescence, Multiphoton",
+              "Pericytes",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28818391/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "otosclerosis",
+        "txgnn_score": 0.9819042086601256,
+        "txgnn_rank": 16096,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "3065060",
+            "title": "Drugs affecting the inner ear. A review of their clinical efficacy, mechanisms of action, toxicity, and place in therapy.",
+            "abstract": "Many drugs have a site of action within the inner ear. The list includes therapeutic, diagnostic and ototoxic agents. Therapeutic agents are most useful in cases of infections, endolymphatic hydrops, vascular insufficiency, vertigo of peripheral origin, autoimmune disease, otosclerosis (otospongiosis), sudden hearing loss and tinnitus. For infections, the most widely used anti-microbial agents are the penicillins and cephalosporins. There are no antiviral agents that have been proven useful for inner ear viral infections. However, steroids have been of some value for controlling some of the sequelae. Steroids have also been useful in conjunction with ampicillin in cases of syphilitic hearing loss. In cases of endolymphatic hydrops, the diuretics chlorthalidone, hydrochlorothiazide and acetazolamide have been useful. When diuretic and diet therapy cannot control endolymphatic hydrops, ototoxic drugs such as streptomycin have been used. In cases of vascular insufficiency within the inner",
+            "journal": "Drugs",
+            "year": "1988",
+            "authors": [
+              "Norris C H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ear, Inner",
+              "Humans",
+              "Labyrinth Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3065060/"
+          },
+          {
+            "pmid": "19491792",
+            "title": "[Vestibular disorders in patients with otosclerosis: prevalence, diagnostic and therapeutic options].",
+            "abstract": "A total of 177 patients with otosclerosis were selected for this study. Vestibular disorders were diagnosed in 40 (22.6%) of them. The patients were allocated to 2 groups comprising 11 and 18 subjects respectively. Patients of group 1 were given surgical treatment during the current hospitalization. Patients of group 2 were treated by conservative therapy following stapedoplasty performed 1 year or more earlier. The study included analysis of vestibular symptoms and evaluation of clinical effectiveness of the combined treatment in the form of therapy with betahistine dihydrochloride (betaserk) during 2 months and a course of 10-12 sessions of game exercises at a stabilographic complex. The patients of both groups enjoyed reduced severity of subjective and objective vestibular symptoms and statistically significant improvement of the equilibrium function assessed from statokinesigrams. It is concluded that combined vestibuloadaptive therapy is an effective method of preparation for stap",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2009",
+            "authors": [
+              "Morozova S V",
+              "Dobrotin V E",
+              "Kulakova L A",
+              "Kaspranskaia G R",
+              "Ovchinnikov Iu M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Betahistine",
+              "Diagnosis, Differential",
+              "Female",
+              "Follow-Up Studies",
+              "Histamine Agonists",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Otosclerosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19491792/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral vertigo",
+        "txgnn_score": 0.9807456731796264,
+        "txgnn_rank": 16688,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07203248",
+            "title": "A Real-world Study on the Use of CGRP-targeted Medications for the Treatment of Vestibular Migraine in Chinese Patients",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-12",
+            "completion_date": "2028-12",
+            "country": "N/A",
+            "enrollment": 2000,
+            "brief_summary": "Vestibular migraine is a phenotype of migraine, characterized by more prominent vertigo symptoms compared to headache. Treatments for VM are mainly divided into two categories: acute treatment and preventive treatment. Acute treatment aims to reduce the severity and duration of a single episode, while preventive treatment aims to decrease the frequency, severity, and duration of attacks. Current acute treatments are primarily divided into pain relief and anti-dizziness, with specific drugs such ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female, aged between 18 and 75 years.\n2. Meet the following criteria established by the Barany Society for the diagnosis of vestibular migraine or probable vestibular migraine:\n\n   Vestibular Migraine A: At least five episodes with moderate or severe vestibular sympto",
+            "endpoints": [
+              "The average scores of the most severe vestibular symptom post-dose measured by VAS scale to evaluate the effectiveness of CGRP medication in the acute treatment of vestibular migraine",
+              "Change in number of Moderate/Severe vestibular symptom days as defined by Bárány Society for participants measured daily from the observational phase compared to baseline between group B1 and B2"
+            ],
+            "sponsor": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "url": "https://clinicaltrials.gov/study/NCT07203248"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06001047",
+            "title": "Effect of Head Acupuncture on Residual Symptoms After Canalith Repositioning Procedure for Benign Paroxysmal Positional Vertigo: a Single-center Randomized Controlled Trial.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2026-11-01",
+            "country": "China",
+            "enrollment": 120,
+            "brief_summary": "Benign paroxysmal positional vertigo (BPPV) is the most common peripheral vestibular disorder, and currently, manual repositioning techniques are often used for treatment. However, up to 30%-50% of patients may experience residual symptoms such as non-rotational dizziness, heaviness, instability, and emotional disturbances even after successful repositioning, which significantly impacts their daily functioning and quality of life. Electroacupuncture therapy has been proven to be an effective tre",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. According to the diagnostic criteria and therapeutic efficacy evaluation for benign paroxysmal positional vertigo (BPPV) formulated by the Otolaryngology-Head and Neck Surgery Branch of the Chinese Medical Association, the patient was confirmed as having BPPV and the repositi",
+            "endpoints": [
+              "Visual Analog Scale (VAS) score",
+              "Dizziness Handicap Inventory"
+            ],
+            "sponsor": "Xi'an No.3 Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06001047"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03908567",
+            "title": "Multicenter Randomized Controlled Phase 2 Trial to Evaluate AM-125 in the Treatment of Acute Peripheral Vertigo Following Neurosurgery (TRAVERS)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-07-18",
+            "completion_date": "2022-03-28",
+            "country": "France",
+            "enrollment": 124,
+            "brief_summary": "Treatment of vertigo after removal of a tumor of the balance and hearing nerve after neurosurgery, which damages or cuts the vestibular nerve (balance).\n\nThis trial explores the efficacy and safety of AM-125 in the treatment of acute vertigo. In this proof of concept trial patients experiencing vertigo after neurosurgery (vestibular schwannoma labyrinthectomy and vestibular neurectomy) will receive AM-125 or placebo. It evaluates the potential of AM-125 versus placebo in reducing the symptoms of",
+            "eligibility_criteria": "Main Inclusion Criteria:\n\n1. Scheduled for neurosurgery (vestibular schwannoma resection, labyrinthectomy or vestibular neurectomy).\n2. Small to moderately large vestibular schwannoma (Koos grade I-III; Samii grade T1-T3b; ≤ 30 mm in diameter in cerebellopontine angle) that does not displace the bra",
+            "endpoints": [
+              "Improvement of time standing on foam (eyes closed)",
+              "Improvement in tandem Romberg test (eyes closed)"
+            ],
+            "sponsor": "Auris Medical, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03908567"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01759251",
+            "title": "Post-marketing Observational Program of Betaserc® (Betahistine Dihydrochloride) to Evaluate Effectiveness in Patients With Vestibular Vertigo in Routine Practice",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2013-01",
+            "completion_date": "2014-05",
+            "country": "Russia, Ukraine",
+            "enrollment": 309,
+            "brief_summary": "The purposes of this international post-marketing observational program is to investigate effectiveness of betahistine dihydrochloride (Betaserc®) tablets and assess the course of vestibular vertigo after treatment discontinuation in population of Russia and Ukraine outpatients suffering from vestibular vertigo in pragmatic clinical settings. Exploratory analyses of results from both participating countries may be expected to provide insights about the subjective circumstances of vestibular vert",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Male or female 18 years and older.\n* Patients with vestibular vertigo of known or unknown origin, and for whom the physician has decided to prescribe 48 mg of betahistine dihydrochloride (Betaserc®) in accordance with locally approved label.\n* Patients who are willing and able ",
+            "endpoints": [
+              "Scale for Vestibular Vertigo Severity Level and Clinical Response Evaluation (SVVSLCRE)"
+            ],
+            "sponsor": "Abbott",
+            "url": "https://clinicaltrials.gov/study/NCT01759251"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32530417",
+            "title": "Vestibular Disorders.",
+            "abstract": "Recent research findings have improved the understanding of the diagnosis, pathophysiology, genetics, etiology, and treatment of peripheral, central, and functional vestibular vertigo syndromes.",
+            "journal": "Deutsches Arzteblatt international",
+            "year": "2020",
+            "authors": [
+              "Strupp Michael",
+              "Dlugaiczyk Julia",
+              "Ertl-Wagner Birgit Bettina",
+              "Rujescu Dan",
+              "Westhofen Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "International Classification of Diseases",
+              "Meta-Analysis as Topic",
+              "Randomized Controlled Trials as Topic",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32530417/"
+          },
+          {
+            "pmid": "26545070",
+            "title": "Menière's disease.",
+            "abstract": "Menière's disease causes feelings of fullness or pressure in the ear, hearing loss, tinnitus, and recurrent bouts of vertigo, and mainly affects people aged 30-60 years. Menière's disease is at first progressive but fluctuating, and episodes can occur in clusters. Vertigo usually resolves eventually, but the hearing deteriorates and the tinnitus and pressure may persist regardless of treatment.",
+            "journal": "BMJ clinical evidence",
+            "year": "2015",
+            "authors": [
+              "Wright Tony"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diet",
+              "Humans",
+              "Meniere Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26545070/"
+          },
+          {
+            "pmid": "26245698",
+            "title": "Use of betahistine in the treatment of peripheral vertigo.",
+            "abstract": "Clinical studies and meta-analyses demonstrated that betahistine is effective and safe in the treatment of Ménière's disease, BPPV (benign paroxysmal positional vertigo), vestibular neuronitis, and other types of peripheral vertigo.",
+            "journal": "Acta oto-laryngologica",
+            "year": "2015",
+            "authors": [
+              "Ramos Alcocer Rubén",
+              "Ledezma Rodríguez José Gregorio",
+              "Navas Romero Antonio",
+              "Cardenas Nuñez José Luis",
+              "Rodríguez Montoya Vicente"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Betahistine",
+              "Histamine Agonists",
+              "Humans",
+              "Postural Balance",
+              "Quality of Life",
+              "Vertigo",
+              "Vestibule, Labyrinth"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26245698/"
+          },
+          {
+            "pmid": "26797774",
+            "title": "Efficacy and safety of betahistine treatment in patients with Meniere's disease: primary results of a long term, multicentre, double blind, randomised, placebo controlled, dose defining trial (BEMED trial).",
+            "abstract": "What is the long term efficacy of betahistine dihydrochloride on the incidence of vertigo attacks in patients with Meniere's disease, compared with placebo?",
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "2016",
+            "authors": [
+              "Adrion Christine",
+              "Fischer Carolin Simone",
+              "Wagner Judith",
+              "Gürkov Robert",
+              "Mansmann Ulrich"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Betahistine",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Female",
+              "Germany",
+              "Histamine Agonists",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26797774/"
+          },
+          {
+            "pmid": "36827524",
+            "title": "Systemic pharmacological interventions for Ménière's disease.",
+            "abstract": "Ménière's disease is a condition that causes recurrent episodes of vertigo, associated with hearing loss and tinnitus. A number of pharmacological interventions have been used in the management of this condition, including betahistine, diuretics, antiviral medications and corticosteroids. The underlying cause of Ménière's disease is unknown, as is the way in which these treatments may work. The efficacy of these different interventions at preventing vertigo attacks, and their associated symptoms, is currently unclear.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2023",
+            "authors": [
+              "Webster Katie E",
+              "Galbraith Kevin",
+              "Harrington-Benton Natasha A",
+              "Judd Owen",
+              "Kaski Diego"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Meniere Disease",
+              "Tinnitus",
+              "Betahistine",
+              "Adrenal Cortex Hormones",
+              "Vertigo",
+              "Diuretics",
+              "Histamine Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36827524/"
+          },
+          {
+            "pmid": "24177346",
+            "title": "Betahistine treatment in managing vertigo and improving vestibular compensation: clarification.",
+            "abstract": "Betahistine dihydrochloride (betahistine) is currently used in the management of vertigo and vestibular pathologies with different aetiologies. The main goal of this review is to clarify the mechanisms of action of this drug, responsible for the symptomatic relief of vertigo and the improvement of vestibular compensation. The review starts with a brief summary recalling the role of histamine as a neuromodulator/neurotransmitter in the control of the vestibular functions, and the role of the histaminergic system in vestibular compensation. Then are presented data recorded in animal models demonstrating that betahistine efficacy can be explained by mechanisms targeting the histamine receptors (HRs) at three different levels: the vascular tree, with an increase of cochlear and vestibular blood flow involving the H1R; the central nervous system, with an increase of histamine turnover implicating the H3R, and the peripheral labyrinth, with a decrease of vestibular input implying the H3R/H4R",
+            "journal": "Journal of vestibular research : equilibrium & orientation",
+            "year": "2013",
+            "authors": [
+              "Lacour Michel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Betahistine",
+              "Histamine",
+              "Humans",
+              "Receptors, Histamine",
+              "Vertigo",
+              "Vestibular Diseases",
+              "Vestibule, Labyrinth"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24177346/"
+          },
+          {
+            "pmid": "30256205",
+            "title": "European Position Statement on Diagnosis, and Treatment of Meniere's Disease.",
+            "abstract": "Meniere Disease keeps challenges in its diagnosis and treatment since was defined by Prosper Meniere at the beginning of 19th Century. Several classifications and definition were made until now and speculations still exist on its etiology. As the etiology remains speculative the treatment models remain in discussion also. The European Academy of Otology and Neurotology Vertigo Guidelines Study Group intended to work on the diagnosis and treatment of Meniere's disease and created the European Positional Statement Document also by resuming the consensus studies on it. The new techniques on diagnosis are emphasized as well as the treatment models for each stage of the disease are clarified by disregarding the dilemmas on its treatment. The conservative, noninvasive and invasive therapeutic models are highlighted.",
+            "journal": "The journal of international advanced otology",
+            "year": "2018",
+            "authors": [
+              "Magnan Jacques",
+              "Özgirgin O Nuri",
+              "Trabalzini Franco",
+              "Lacour Michel",
+              "Escamez Antonio Lopez"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Consensus Statement"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Betahistine",
+              "Consensus",
+              "Conservative Treatment",
+              "Denervation",
+              "Diuretics",
+              "Endolymphatic Sac",
+              "European Union",
+              "Gentamicins",
+              "Hearing Loss, Sensorineural"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30256205/"
+          },
+          {
+            "pmid": "23778722",
+            "title": "Meta-analysis of clinical studies with betahistine in Ménière's disease and vestibular vertigo.",
+            "abstract": "We present a meta-analysis of 12 double-blind, randomized, placebo-controlled clinical studies with betahistine in patients suffering from vestibular vertigo or Ménière's disease, based on both published and unpublished data. The clinical endpoint we used was the investigator's overall opinion on the response to treatment of the vertigo symptoms, after at least 1 month of treatment. We introduce a new effect parameter, the odds of a favorable treatment outcome, with the odds ratio as measure to compare the responses of betahistine and placebo patients. For each study a separate odds ratio was estimated (the study-specific odds ratio). All but one of the study-specific odds ratios were >1.0, meaning that with the new effect parameter there was evidence of an effect of betahistine on vertigo symptoms in 11 of the 12 studies. Four of the 12 studies showed a statistically significant effect in favor of betahistine compared to placebo. The meta-analytical (i.e., average) odds ratio was 2.58",
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2014",
+            "authors": [
+              "Nauta Jozef J P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Betahistine",
+              "Double-Blind Method",
+              "Humans",
+              "Meniere Disease",
+              "Odds Ratio",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome",
+              "Vasodilator Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23778722/"
+          },
+          {
+            "pmid": "26643594",
+            "title": "[Peripheral, central and functional vertigo syndromes].",
+            "abstract": "Depending on the temporal course, three forms of vertigo syndrome can be differentiated: 1) vertigo attacks, e.g. benign paroxysmal positional vertigo (BPPV), Menière's disease and vestibular migraine, 2) acute spontaneous vertigo lasting for days, e.g. acute unilateral vestibulopathy, brainstem or cerebellar infarction and 3) symptoms lasting for months or years, e.g. bilateral vestibulopathy and functional vertigo. The specific therapy of the various syndromes is based on three principles: 1) physical treatment with liberatory maneuvers for BPPV and balance training for vestibular deficits, 2) pharmacotherapy, e.g. for acute unilateral vestibulopathy (corticosteroids) and Menière's disease (transtympanic administration of gentamicin or steroids and high-dose betahistine therapy); placebo-controlled pharmacotherapy studies are currently being carried out for acute unilateral vestibulopathy, vestibular paroxysmia, prophylaxis of BPPV, vestibular migraine, episodic ataxia type 2 and cer",
+            "journal": "Der Nervenarzt",
+            "year": "2015",
+            "authors": [
+              "Strupp M",
+              "Dieterich M",
+              "Zwergal A",
+              "Brandt T"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Combined Modality Therapy",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Physical Therapy Modalities",
+              "Psychotherapy",
+              "Treatment Outcome",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26643594/"
+          },
+          {
+            "pmid": "40070497",
+            "title": "Effectiveness of betahistine as an add-on therapy to epley maneuver for benign paroxysmal positional vertigo: A systematic review and meta-analysis.",
+            "abstract": "Epley maneuver is the most effective treatment for benign paroxysmal positional vertigo (BPPV). Betahistine has been shown to be effective in treating BPPV. This systematic review aims to compare the effectiveness of Epley maneuver with betahistine to Epley maneuver alone in reducing residual dizziness in BPPV.",
+            "journal": "World journal of otorhinolaryngology - head and neck surgery",
+            "year": "2025",
+            "authors": [
+              "Alsolamy Renad",
+              "Alaraifi Abdulaziz K",
+              "Aloqaili Yazeed"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40070497/"
+          },
+          {
+            "pmid": "11700150",
+            "title": "Histamine and betahistine in the treatment of vertigo: elucidation of mechanisms of action.",
+            "abstract": "The aim of this review is to provide clinicians with a picture of the mechanisms by which: histamine and histaminergic agonists act on the vestibular system both peripherally and centrally; and histaminergic agonists and antagonists interfere with the recovery process after peripheral vestibular lesion. We have focused on betahistine, a structural analogue of histamine with weak histamine H(1) receptor agonist and more potent H(3) receptor antagonist properties, to review the currently available data on the role of the histaminergic system in the recovery process after peripheral vestibular deficits and the effects of histamine analogues in the clinical treatment of vertigo. This review provides new insights into the basic mechanisms by which betahistine improves vestibular compensation in animal models of unilateral vestibular dysfunction, and elucidates particularly the mechanisms of action of this substance at the level of the CNS. It is proposed that betahistine may reduce peripher",
+            "journal": "CNS drugs",
+            "year": "2001",
+            "authors": [
+              "Lacour M",
+              "Sterkers O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Betahistine",
+              "Histamine",
+              "Histamine Agonists",
+              "Histamine Antagonists",
+              "Humans",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11700150/"
+          },
+          {
+            "pmid": "33929156",
+            "title": "[Betahistine in vestibular disorders: current concepts and perspectives].",
+            "abstract": "The goal of this paper is to review the pharmacological profile of betahistine and evidence for using it in the treatment of common vestibular disorders. Betahistine is a weak agonist for histamine H1 receptors and strong antagonist for histamine H3 receptors. It demonstrates the maximum benefit in different types of peripheral vertigo, especially in Meniere's disease. The best results in decreasing intensity of vertigo, frequency of attacks and stimulation of vestibular compensation were obtained in daily dose 48 mg during 3 months. In benign paroxysmal positional vertigo betahistine is used to treat residual dizziness after successful treatment of otolithiasis and to reduce the severity of vertigo during repositioning maneuvers. In vestibular neuritis betahistine stimulates central compensation during vestibular rehabilitation. A new once-daily drug formulation of modified-release betahistine is non-inferior to traditional and has a comparable safety profile, and could improve patien",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2021",
+            "authors": [
+              "Zamergrad M V",
+              "Kunelskaya N L",
+              "Guseva A L",
+              "Amelin A V",
+              "Lilenko S V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Dizziness",
+              "Humans",
+              "Meniere Disease",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33929156/"
+          },
+          {
+            "pmid": "24000301",
+            "title": "The treatment and natural course of peripheral and central vertigo.",
+            "abstract": "Recent studies have extended our understanding of the pathophysiology, natural course, and treatment of vestibular vertigo. The relative frequency of the different forms is as follows: benign paroxysmal positional vertigo (BPPV) 17.1%; phobic vestibular vertigo 15%; central vestibular syndromes 12.3%; vestibular migraine 11.4%; Menière's disease 10.1%; vestibular neuritis 8.3%; bilateral vestibulopathy 7.1%; vestibular paroxysmia 3.7%.",
+            "journal": "Deutsches Arzteblatt international",
+            "year": "2013",
+            "authors": [
+              "Strupp Michael",
+              "Dieterich Marianne",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Diseases",
+              "Causality",
+              "Comorbidity",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Prevalence",
+              "Risk Factors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24000301/"
+          },
+          {
+            "pmid": "27638077",
+            "title": "Menière's disease.",
+            "abstract": "Menière's disease (MD) is a chronic multifactorial disorder of the inner ear characterized by episodic vestibular symptoms associated with sensorineural hearing loss, tinnitus, and aural pressure. Epidemiologic and genomic evidence supports a genetic susceptibility with multiple biochemical pathways involved, including the endocrine system, innate immune response, and autonomic nervous system. Allergens, infectious agents, vascular events, or genetic factors could modify inner-ear homeostasis and trigger MD. The diagnosis of MD is based on clinical criteria and requires the observation of an episodic vertigo syndrome associated with low- to medium-frequency sensorineural hearing loss and fluctuating aural symptoms (hearing loss, tinnitus, and/or fullness) in the affected ear. Headache is also found during the attacks and bilateral involvement is found in 25-40% of cases. Audiologic and vestibular assessment is recommended to monitor the clinical course. The treatment of MD is symptomat",
+            "journal": "Handbook of clinical neurology",
+            "year": "2016",
+            "authors": [
+              "Espinosa-Sanchez J M",
+              "Lopez-Escamez J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Audiometry",
+              "Autonomic Nervous System",
+              "Humans",
+              "Meniere Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27638077/"
+          },
+          {
+            "pmid": "39525524",
+            "title": "Effect of betahistine on pro-inflammatory cytokine expression in autoimmune inner ear disease and Meniere's disease patients.",
+            "abstract": "Betahistine is a partial H1 receptor agonist and a potent H3 receptor antagonist commonly used for the treatment of MD and peripheral vertigo. The aim of this study was to investigate the impact of betahistine on the salt induced cytokine expression profiles of AIED and MD patients.",
+            "journal": "Laryngoscope investigative otolaryngology",
+            "year": "2024",
+            "authors": [
+              "Yellin Ilana",
+              "Pathak Shresh",
+              "Vambutas Andrea"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39525524/"
+          },
+          {
+            "pmid": "27327415",
+            "title": "Betahistine for symptoms of vertigo.",
+            "abstract": "Vertigo is a symptom in which individuals experience a false sensation of movement. This type of dizziness is thought to originate in the inner ear labyrinth or its neural connections. It is a commonly experienced symptom and can cause significant problems with carrying out normal activities. Betahistine is a drug that may work by improving blood flow to the inner ear. This review examines whether betahistine is more effective than a placebo at treating symptoms of vertigo from different causes.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2016",
+            "authors": [
+              "Murdin Louisa",
+              "Hussain Kiran",
+              "Schilder Anne G M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Humans",
+              "Randomized Controlled Trials as Topic",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27327415/"
+          },
+          {
+            "pmid": "23254559",
+            "title": "Peripheral vestibular disorders.",
+            "abstract": "First, to update the diagnosis, pathophysiology, and treatment of the most frequent peripheral vestibular disorders. Second, to identify those disorders for which the diagnostic criteria are still deficient and treatment trials are still lacking.",
+            "journal": "Current opinion in neurology",
+            "year": "2013",
+            "authors": [
+              "Strupp Michael",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Vestibular Diseases",
+              "Vestibular Evoked Myogenic Potentials",
+              "Vestibular Nerve"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23254559/"
+          },
+          {
+            "pmid": "26998036",
+            "title": "Puerarin and betahistine treatment of vertebrobasilar ischemia vertigo: A meta-analysis of randomized controlled trials.",
+            "abstract": "The present meta-analysis aimed to evaluate the effectiveness and safety of puerarin co-treatment with betahistine in treating vertebrobasilar ischemia (VBI) vertigo. A total of 6 medical databases were searched, identifying randomized controlled trials (RCTs) of VBI vertigo performed until August 2014 that investigated a combined treatment of puerarin with betahistine or with other conventional drugs. The quality of the literature was evaluated using the Cochrane Collaboration's tool for assessing risk of bias, and Rev Man 5.0 software was used for statistical analysis and evaluation. The present study included 7 RCTs, involving a total of 664 subjects, and revealed a statistically significant increase in efficacy between the control and the experimental group (odds ratio [OR], 4.99; 95% confidence interval [CI], 3.05 to 8.15). The average blood flow velocity within the vertebrobasilar arteries increased following treatment with puerarin and betahistine compared with that of the contr",
+            "journal": "Experimental and therapeutic medicine",
+            "year": "2016",
+            "authors": [
+              "Chen Yan-Yan",
+              "Chen Wen",
+              "Zhang Qing",
+              "Li Hui",
+              "Zhang Ye-Wen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26998036/"
+          },
+          {
+            "pmid": "16116833",
+            "title": "Benign paroxysmal positional vertigo: a study of two manoeuvres with and without betahistine.",
+            "abstract": "Efficacy of the liberatory manoeuvre and of gradual otolitis dispersion technique, with or without associated drug therapy, have been compared. Included in this prospective study were 103 patients with benign paroxysmal positional vertigo seen in the Outpatient Department. Patients were classified into 4 groups according to treatment: Liberatory Manoeuvre according to methods described by Semont et al., with and without betahistine, Gradual Otolitis Dispersion Technique according to Brandt and Daroff, with and without betahistine. Evaluation was performed at baseline and at 3, 7, 14, 30, 60 and 90 days after start of treatment. Response to treatment was evaluated using criteria of Epley. At day 14, liberatory manoeuvre-betahistine and Brandt and Daroff-betahistine groups did significantly better than liberatory manoeuvre and Brandt and Daroff groups (p < 0.05). Improvement reached at day 30 was: 100% in liberatory manoeuvre-betahistine group; 96.30% (p > 0.05) in Brandt and Daroff-beta",
+            "journal": "Acta otorhinolaryngologica Italica : organo ufficiale della Societa italiana di otorinolaringologia e chirurgia cervico-facciale",
+            "year": "2005",
+            "authors": [
+              "Cavaliere M",
+              "Mottola G",
+              "Iemma M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Factors",
+              "Aged",
+              "Betahistine",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Posture",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16116833/"
+          },
+          {
+            "pmid": "41038567",
+            "title": "Efficacy and safety of the cinnarizine/dimenhydrinate combination versus betahistine in the treatment of vertigo: A systematic literature review.",
+            "abstract": "Vertigo is a frequent reason for medical consultation and may result from a wide range of aetiologies. Betahistine and the fixed low-dose combination of cinnarizine 20 mg and dimenhydrinate 40 mg are commonly used therapeutic options, each with distinct antivertigo profiles. This systematic review, conducted in accordance with the PRISMA guidelines, aims to compare the efficacy and safety of these two treatments in patients with vertigo of various origins. A comprehensive search was conducted in PubMed, Cochrane Library, Google Scholar, and ClinicalTrials.gov, with no restrictions on language or publication date. Eligible studies included clinical trials and meta-analyses comparing the fixed low-dose combination (20 mg/40 mg) versus betahistine (12 or 16 mg), assessing efficacy through the Mean Vertigo Score (MVS) and safety based on the incidence of adverse events (AEs). The RoB 2 and ROBIS tools were used to evaluate the risk of bias. A total of nine studies were identified (six clin",
+            "journal": "Acta otorrinolaringologica espanola",
+            "year": "2025",
+            "authors": [
+              "Martín-Enguix David",
+              "Gómez Gabaldón Niceto",
+              "Amaro-Gahete Francisco J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Comparative Study",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Betahistine",
+              "Dimenhydrinate",
+              "Cinnarizine",
+              "Vertigo",
+              "Drug Combinations",
+              "Treatment Outcome",
+              "Histamine H1 Antagonists",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41038567/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "age-related hearing impairment",
+        "txgnn_score": 0.9793446660041808,
+        "txgnn_rank": 17317,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertigo, benign recurrent, 2",
+        "txgnn_score": 0.9777956008911132,
+        "txgnn_rank": 18075,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06848712",
+            "title": "Brain Structural Abnormalities in Patients With Vertigo",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-09-01",
+            "completion_date": "2022-12-31",
+            "country": "Hungary",
+            "enrollment": 464,
+            "brief_summary": "Introduction: Dizziness is one of the most common complaints in medical practice and is associated with various underlying conditions, including neurological, otolaryngological, and psychological disorders. Preliminary imaging studies like CT, cervical spine X-rays, and carotid/vertebral artery ultrasound, aids in precise diagnosis and targeted therapeutic decisions. MRI is one of the most effective imaging modalities currently available for examining the brain.\n\nPurpose: To identify structural ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Reported dizziness (vertigo) as a primary symptom\n* Brain MRI requested by the attending physician\n\nExclusion Criteria:\n\n* Prior neurological disease or disorder (other than vertigo/dizziness in the vertigo group)\n* MRI contraindications (e.g., pacemaker, metal",
+            "endpoints": [
+              "Occurrences With Specific Structural Brain Abnormalities Observed on MRI"
+            ],
+            "sponsor": "University of Pecs",
+            "url": "https://clinicaltrials.gov/study/NCT06848712"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06001047",
+            "title": "Effect of Head Acupuncture on Residual Symptoms After Canalith Repositioning Procedure for Benign Paroxysmal Positional Vertigo: a Single-center Randomized Controlled Trial.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2026-11-01",
+            "country": "China",
+            "enrollment": 120,
+            "brief_summary": "Benign paroxysmal positional vertigo (BPPV) is the most common peripheral vestibular disorder, and currently, manual repositioning techniques are often used for treatment. However, up to 30%-50% of patients may experience residual symptoms such as non-rotational dizziness, heaviness, instability, and emotional disturbances even after successful repositioning, which significantly impacts their daily functioning and quality of life. Electroacupuncture therapy has been proven to be an effective tre",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. According to the diagnostic criteria and therapeutic efficacy evaluation for benign paroxysmal positional vertigo (BPPV) formulated by the Otolaryngology-Head and Neck Surgery Branch of the Chinese Medical Association, the patient was confirmed as having BPPV and the repositi",
+            "endpoints": [
+              "Visual Analog Scale (VAS) score",
+              "Dizziness Handicap Inventory"
+            ],
+            "sponsor": "Xi'an No.3 Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06001047"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07075289",
+            "title": "Comparing Oral Lumbrokinase DLBS1033 and Betahistine Mesylate in Benign Paroxysmal Positional Vertigo: A Randomized Comparative Study on Inflammatory Markers, Quality of Life, and Symptom Resolution",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2024-04-01",
+            "completion_date": "2024-12-27",
+            "country": "Indonesia",
+            "enrollment": 44,
+            "brief_summary": "The goal of this clinical trial is to learn if oral lumbrokinase DLBS1033 works better than betahistine mesylate on inflammation, quality of life, and dizziness symptoms of adult benign paroxysmal positional vertigo (BPPV) patients. It will also learn about the safety of oral lumbrokinase DLBS1033 as a causative therapy of BPPV. The main questions it aims to answer are:\n\n* Is there a difference in the decrease in IL-1β levels between BPPV patients who receive oral lumbrokinase DLBS1033 therapy a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged between 18 and 65 years old\n* Diagnosed with BPPV by a neurologist based on a clear history of positional vertigo symptoms (nausea, vomiting, imbalance with head movements) and characteristic torsional nystagmus during the Dix-Hallpike maneuver (latency, fatigability, dur",
+            "endpoints": [
+              "Dizziness severity",
+              "Quality of life from the BPPV patients",
+              "Inflammatory biomarkers of the BPPV patients"
+            ],
+            "sponsor": "Universitas Sebelas Maret",
+            "url": "https://clinicaltrials.gov/study/NCT07075289"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05127694",
+            "title": "Comparison of the Efficacy of Medical Treatment and Vestibular Rehabilitation In Patients With Acute Benign Paroxysmal Positional Vertigo",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-07-01",
+            "completion_date": "2020-04-16",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 30,
+            "brief_summary": "Benign paroxysmal positional vertigo (BPPV) is a vestibular disorder that manifests itself as a result of dizziness caused by the otoconia in the inner ear coming out of their places and circulating freely in the semicircular canals or by attaching to the cupula and sensitizing the cupula to head movements against gravity. The aim of the study is to compare the effectiveness of pharmacological treatment initiated by the physician and vestibular rehabilitation initiated by physiotherapist in pati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18-50 years of age,\n* Positive Dix-Hallpike test result, and\n* No spontaneous nystagmus.\n\nExclusion Criteria:\n\n* Patients with Meniere's disease, vestibular neuritis, labyrinthitis, sudden sensory hearing loss, chronic otitis media, non-ambulatory patients, patients with verti",
+            "endpoints": [
+              "Perceptual Dizziness",
+              "Balance",
+              "Vestibular Dysfunction"
+            ],
+            "sponsor": "Istanbul Medipol University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05127694"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40070497",
+            "title": "Effectiveness of betahistine as an add-on therapy to epley maneuver for benign paroxysmal positional vertigo: A systematic review and meta-analysis.",
+            "abstract": "Epley maneuver is the most effective treatment for benign paroxysmal positional vertigo (BPPV). Betahistine has been shown to be effective in treating BPPV. This systematic review aims to compare the effectiveness of Epley maneuver with betahistine to Epley maneuver alone in reducing residual dizziness in BPPV.",
+            "journal": "World journal of otorhinolaryngology - head and neck surgery",
+            "year": "2025",
+            "authors": [
+              "Alsolamy Renad",
+              "Alaraifi Abdulaziz K",
+              "Aloqaili Yazeed"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40070497/"
+          },
+          {
+            "pmid": "35379352",
+            "title": "Betahistine alleviates benign paroxysmal positional vertigo (BPPV) through inducing production of multiple CTRP family members and activating the ERK1/2-AKT/PPARy pathway.",
+            "abstract": "Betahistine is a clinical medication for the treatment of benign paroxysmal positional vertigo (BPPV). Otolin, a secreted glycoprotein with a C-terminal globular domain homologous to the immune complement C1q, has been identified as a biomarker for BPPV. However, the role of complement C1q/TNF-related proteins (CTRPs) with a C-terminal globular domain in BPPV is unclear, so we explored the change of CTRPs in betahistine treated BPPV.",
+            "journal": "Biological research",
+            "year": "2022",
+            "authors": [
+              "Hui Jing",
+              "Lei Qi",
+              "Ji Zhi",
+              "Zi Dingjing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Dizziness",
+              "Humans",
+              "MAP Kinase Signaling System",
+              "Mice",
+              "PPAR gamma",
+              "Proto-Oncogene Proteins c-akt"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35379352/"
+          },
+          {
+            "pmid": "16116833",
+            "title": "Benign paroxysmal positional vertigo: a study of two manoeuvres with and without betahistine.",
+            "abstract": "Efficacy of the liberatory manoeuvre and of gradual otolitis dispersion technique, with or without associated drug therapy, have been compared. Included in this prospective study were 103 patients with benign paroxysmal positional vertigo seen in the Outpatient Department. Patients were classified into 4 groups according to treatment: Liberatory Manoeuvre according to methods described by Semont et al., with and without betahistine, Gradual Otolitis Dispersion Technique according to Brandt and Daroff, with and without betahistine. Evaluation was performed at baseline and at 3, 7, 14, 30, 60 and 90 days after start of treatment. Response to treatment was evaluated using criteria of Epley. At day 14, liberatory manoeuvre-betahistine and Brandt and Daroff-betahistine groups did significantly better than liberatory manoeuvre and Brandt and Daroff groups (p < 0.05). Improvement reached at day 30 was: 100% in liberatory manoeuvre-betahistine group; 96.30% (p > 0.05) in Brandt and Daroff-beta",
+            "journal": "Acta otorhinolaryngologica Italica : organo ufficiale della Societa italiana di otorinolaringologia e chirurgia cervico-facciale",
+            "year": "2005",
+            "authors": [
+              "Cavaliere M",
+              "Mottola G",
+              "Iemma M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Age Factors",
+              "Aged",
+              "Betahistine",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Posture",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16116833/"
+          },
+          {
+            "pmid": "33929156",
+            "title": "[Betahistine in vestibular disorders: current concepts and perspectives].",
+            "abstract": "The goal of this paper is to review the pharmacological profile of betahistine and evidence for using it in the treatment of common vestibular disorders. Betahistine is a weak agonist for histamine H1 receptors and strong antagonist for histamine H3 receptors. It demonstrates the maximum benefit in different types of peripheral vertigo, especially in Meniere's disease. The best results in decreasing intensity of vertigo, frequency of attacks and stimulation of vestibular compensation were obtained in daily dose 48 mg during 3 months. In benign paroxysmal positional vertigo betahistine is used to treat residual dizziness after successful treatment of otolithiasis and to reduce the severity of vertigo during repositioning maneuvers. In vestibular neuritis betahistine stimulates central compensation during vestibular rehabilitation. A new once-daily drug formulation of modified-release betahistine is non-inferior to traditional and has a comparable safety profile, and could improve patien",
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2021",
+            "authors": [
+              "Zamergrad M V",
+              "Kunelskaya N L",
+              "Guseva A L",
+              "Amelin A V",
+              "Lilenko S V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Dizziness",
+              "Humans",
+              "Meniere Disease",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33929156/"
+          },
+          {
+            "pmid": "27327415",
+            "title": "Betahistine for symptoms of vertigo.",
+            "abstract": "Vertigo is a symptom in which individuals experience a false sensation of movement. This type of dizziness is thought to originate in the inner ear labyrinth or its neural connections. It is a commonly experienced symptom and can cause significant problems with carrying out normal activities. Betahistine is a drug that may work by improving blood flow to the inner ear. This review examines whether betahistine is more effective than a placebo at treating symptoms of vertigo from different causes.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2016",
+            "authors": [
+              "Murdin Louisa",
+              "Hussain Kiran",
+              "Schilder Anne G M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Humans",
+              "Randomized Controlled Trials as Topic",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27327415/"
+          },
+          {
+            "pmid": "37206852",
+            "title": "Comparison of the Efficacy of Vestibular Rehabilitation and Pharmacological Treatment in Benign Paroxysmal Positional Vertigo.",
+            "abstract": "Aim: The aim of the study is to compare the effects of vestibular rehabilitation and pharmacological treatment in benign paroxysmal positional vertigo (BPPV). Materials and methods: Thirty patients (40.93 ± 8.66 years old) diagnosed with BPPV were recruited. Patients were equally divided into pharmacological control group and vestibular rehabilitation group. The pharmacological control group was further divided into Group A (n = 8, 2 doses/day, 24 mg betahistine) and Group B (n = 7, 1 dose/day, 50 mg dimenhydrinate in addition to betahistine). Patients in the rehabilitation group underwent repeated head and eye movements, and Epley or Barbecue Roll Maneuvers were applied for 4 weeks. Subjective assessment of vertigo was measured with the visual analog scale. Static balance parameters were measured with the tandem, one-legged stance, and Romberg tests. Dynamic visual acuity was measured with a Snellen chart, and vestibular dysfunction was measured with the Unterberger (Fukuda stepping) ",
+            "journal": "Indian journal of otolaryngology and head and neck surgery : official publication of the Association of Otolaryngologists of India",
+            "year": "2023",
+            "authors": [
+              "Ata Görkem",
+              "Şakul Ayşe Arzu",
+              "Kılıç Gamze",
+              "Çelikyurt Cengiz"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37206852/"
+          },
+          {
+            "pmid": "32978116",
+            "title": "Betahistine add-on therapy for treatment of subjects with posterior benign paroxysmal positional vertigo: a randomized controlled trial.",
+            "abstract": "Benign paroxysmal positional vertigo is a common vestibular disorder that accounts for one fifth of hospital admissions due to vertigo, although it is commonly undiagnosed.",
+            "journal": "Brazilian journal of otorhinolaryngology",
+            "year": "2022",
+            "authors": [
+              "Sayin Ibrahim",
+              "Koç Recep Haydar",
+              "Temirbekov Dastan",
+              "Gunes Selcuk",
+              "Cirak Musa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Dizziness",
+              "Humans",
+              "Physical Therapy Modalities",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32978116/"
+          },
+          {
+            "pmid": "26643594",
+            "title": "[Peripheral, central and functional vertigo syndromes].",
+            "abstract": "Depending on the temporal course, three forms of vertigo syndrome can be differentiated: 1) vertigo attacks, e.g. benign paroxysmal positional vertigo (BPPV), Menière's disease and vestibular migraine, 2) acute spontaneous vertigo lasting for days, e.g. acute unilateral vestibulopathy, brainstem or cerebellar infarction and 3) symptoms lasting for months or years, e.g. bilateral vestibulopathy and functional vertigo. The specific therapy of the various syndromes is based on three principles: 1) physical treatment with liberatory maneuvers for BPPV and balance training for vestibular deficits, 2) pharmacotherapy, e.g. for acute unilateral vestibulopathy (corticosteroids) and Menière's disease (transtympanic administration of gentamicin or steroids and high-dose betahistine therapy); placebo-controlled pharmacotherapy studies are currently being carried out for acute unilateral vestibulopathy, vestibular paroxysmia, prophylaxis of BPPV, vestibular migraine, episodic ataxia type 2 and cer",
+            "journal": "Der Nervenarzt",
+            "year": "2015",
+            "authors": [
+              "Strupp M",
+              "Dieterich M",
+              "Zwergal A",
+              "Brandt T"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Combined Modality Therapy",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Physical Therapy Modalities",
+              "Psychotherapy",
+              "Treatment Outcome",
+              "Vertigo"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26643594/"
+          },
+          {
+            "pmid": "24000301",
+            "title": "The treatment and natural course of peripheral and central vertigo.",
+            "abstract": "Recent studies have extended our understanding of the pathophysiology, natural course, and treatment of vestibular vertigo. The relative frequency of the different forms is as follows: benign paroxysmal positional vertigo (BPPV) 17.1%; phobic vestibular vertigo 15%; central vestibular syndromes 12.3%; vestibular migraine 11.4%; Menière's disease 10.1%; vestibular neuritis 8.3%; bilateral vestibulopathy 7.1%; vestibular paroxysmia 3.7%.",
+            "journal": "Deutsches Arzteblatt international",
+            "year": "2013",
+            "authors": [
+              "Strupp Michael",
+              "Dieterich Marianne",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Brain Diseases",
+              "Causality",
+              "Comorbidity",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Prevalence",
+              "Risk Factors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24000301/"
+          },
+          {
+            "pmid": "34845147",
+            "title": "Pharmacotherapy of cerebellar and vestibular disorders.",
+            "abstract": "Major therapeutic advances have been made in patients with episodic and progressive cerebellar ataxias, downbeat nystagmus and some vestibular disorders. We provide an update review on this subject highlighting important research findings from the last two years.",
+            "journal": "Current opinion in neurology",
+            "year": "2022",
+            "authors": [
+              "Lemos João",
+              "Manto Mario"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Humans",
+              "Nystagmus, Pathologic",
+              "Prospective Studies",
+              "Quality of Life",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34845147/"
+          },
+          {
+            "pmid": "25903394",
+            "title": "Pharmacotherapy of vestibular and cerebellar disorders and downbeat nystagmus: translational and back-translational research.",
+            "abstract": "There are currently eight groups of drugs for the pharmacotherapy of vertigo, nystagmus, and cerebellar disorders: antiemetics; anti-inflammatories, antimenieres, and antimigraineous medications; antidepressants, anticonvulsants, aminopyridines, and acetyl-DL-leucine (\"the eight A's\"). In acute unilateral vestibulopathy, corticosteroids improve the recovery of peripheral vestibular function, but there is not sufficient current evidence for a general recommendation. There is also insufficient evidence that 48 or 144 mg/day betahistine has an effect in Ménière's disease. Therefore, higher dosages are currently recommended; in animal studies, it was shown that betahistine increases cochlear blood flow. In vestibular paroxysmia, oxcarbazepine was effective (one yet not randomized controlled trial (RCT)). Aminopyridines are recommended for the treatment of downbeat nystagmus (two RCTs) and episodic ataxia type 2 (EA2, one RCT). There are so far no RCTs on vestibular migraine, so currently n",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "2015",
+            "authors": [
+              "Strupp Michael",
+              "Zwergal Andreas",
+              "Feil Katharina",
+              "Bremova Tatiana",
+              "Brandt Thomas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aminopyridines",
+              "Animals",
+              "Betahistine",
+              "Humans",
+              "Nystagmus, Pathologic",
+              "Postural Balance",
+              "Translational Research, Biomedical",
+              "Vestibular Diseases",
+              "Vestibule, Labyrinth"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25903394/"
+          },
+          {
+            "pmid": "32128517",
+            "title": "An Evaluation of the Effects of Betahistine and Dimenhydrinate on Posterior Canal Benign Paroxysmal Positional Vertigo.",
+            "abstract": "Benign paroxysmal positional vertigo (BPPV) is the most common peripheral vestibular system disease causing dizziness. It occurs more in the 5th decade of life and affects the posterior canal in 90% of the patients. The most effective treatment method is canalith repositioning (CRP) maneuver. The aim of this study is to evaluate the effects of betahistine and dimenhydrinate therapies in addition to CRP maneuver on BPPV patients.",
+            "journal": "Turkish archives of otorhinolaryngology",
+            "year": "2019",
+            "authors": [
+              "İnan Hakkı Caner",
+              "Kıraç Merve"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32128517/"
+          },
+          {
+            "pmid": "31217316",
+            "title": "Effects of vestibular rehabilitation, with or without betahistine, on managing residual dizziness after successful repositioning manoeuvres in patients with benign paroxysmal positional vertigo: a protocol for a randomised controlled trial.",
+            "abstract": "Benign paroxysmal positional vertigo (BPPV) is recognised as the leading cause of peripheral vertigo in adults. The canalith repositioning procedure (CRP) can be used for effective treatment of BPPV. However, some patients experience residual dizziness (RD) even after successful CRP, resulting in a significant negative impact on their daily function and quality of life. Exercise-based vestibular rehabilitation (VR) has been proven as an effective method for managing dizziness and has been applied in patients with various vestibular disorders. However, the efficacy of VR to specifically target RD post-BPPV is unknown. This study aims to investigate the efficacy of VR, compared with betahistine or VR plus betahistine treatment, in the treatment of patients experiencing RD after successful CRP.",
+            "journal": "BMJ open",
+            "year": "2019",
+            "authors": [
+              "Wu Peixia",
+              "Cao Wenzhu",
+              "Hu Yan",
+              "Li Huawei"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Dizziness",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Patient Positioning"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31217316/"
+          },
+          {
+            "pmid": "19128642",
+            "title": "Efficacy of a home-based exercise program on benign paroxysmal positional vertigo compared with betahistine.",
+            "abstract": "To determine the efficacy of a home-based exercise program by comparing it with betahistine in patients with benign paroxysmal positional vertigo (BPPV).",
+            "journal": "Journal of otolaryngology - head & neck surgery = Le Journal d'oto-rhino-laryngologie et de chirurgie cervico-faciale",
+            "year": "2008",
+            "authors": [
+              "Kulcu Duygu Geler",
+              "Yanik Burcu",
+              "Boynukalin Serife",
+              "Kurtais Yesim"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Betahistine",
+              "Dose-Response Relationship, Drug",
+              "Electronystagmography",
+              "Exercise Therapy",
+              "Eye Movements",
+              "Female",
+              "Follow-Up Studies",
+              "Histamine Antagonists",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19128642/"
+          },
+          {
+            "pmid": "29376992",
+            "title": "[Seven principles in the treatment of vestibular vertigo and results of the study of VIRTUOSO].",
+            "abstract": "This article reports the results of the international post-marketing observational program VIRTUOSO aimed at the evaluation of the efficacy of betahistine dihydrochloride at the dose of 48 mg/day for 1-2 months in patients with paroxysmal vertigo of various origins. The clinical response was rated as good, very good or excellent in 74.1% of the patients (p<0.001). Monthly vertigo attack frequency with betahistine decreased in average from 8.0 to 3.0 (p<0.001). Vertigo attack frequency further decreased during the 2-month follow-up after the end of betahistine treatment. No serious adverse effects of betahistine have been reported.",
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2017",
+            "authors": [
+              "Zamergrad M V",
+              "Parfenov V A",
+              "Matsnev E I",
+              "Morozova S V",
+              "Melnikov O A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Humans",
+              "Product Surveillance, Postmarketing",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29376992/"
+          },
+          {
+            "pmid": "29301160",
+            "title": "[Pharmacotherapy of Vestibular Disorders, Nystagmus and Cerebellar Disorders].",
+            "abstract": "There are currently different groups of drugs for the pharmacotherapy of vertigo, nystagmus and cerebellar disorders: antiemetics; anti-inflammatories, antimenieres, and antimigraineous medications and antidepressants, anticonvulsants, aminopyridines as well as acetyl-DL-leucine. In acute unilateral vestibulopathy, corticosteroids improve the recovery of peripheral vestibular function, but currently there is not sufficient evidence for a general recommendation. There is insufficient evidence to support the view that 16 mg t. i. d. or 48 mg t. i. d. betahistine has an effect in Menière's disease. Therefore, higher dosages are recommended. In animal studies, it was shown that betahistine increases cochlear blood flow. In vestibular paroxysmia, oxcarbazepine was effective (one randomized controlled trial (RCT)). Aminopyridines are recommended for the treatment of downbeat nystagmus (two RCTs) and episodic ataxia type 2 (EA2, one RCT). There has been no RCT on the efficacy of beta-blockers",
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2018",
+            "authors": [
+              "Feil K",
+              "Böttcher N",
+              "Kremmyda O",
+              "Muth C",
+              "Teufel J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Central Nervous System Agents",
+              "Cerebellar Diseases",
+              "Humans",
+              "Nystagmus, Pathologic",
+              "Randomized Controlled Trials as Topic",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29301160/"
+          },
+          {
+            "pmid": "37794554",
+            "title": "Effect of betahistine treatment on dizziness and anxiety symptoms of BPPV patients.",
+            "abstract": "Patients with benign paroxysmal positional vertigo (BPPV) may experience significant deterioration in their quality of life due to dizziness and anxiety symptoms.",
+            "journal": "Nigerian journal of clinical practice",
+            "year": "2023",
+            "authors": [
+              "Erdur Z B",
+              "Evran N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Benign Paroxysmal Positional Vertigo",
+              "Dizziness",
+              "Betahistine",
+              "Quality of Life",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37794554/"
+          },
+          {
+            "pmid": "21852389",
+            "title": "The effects of betahistine in addition to epley maneuver in posterior canal benign paroxysmal positional vertigo.",
+            "abstract": "The purpose of this study is to evaluate the effects of betahistine in addition to Epley maneuver on the quality of life of patients with posterior semicircular canal benign paroxysmal positional vertigo (BPPV) of the canalithiasis type.",
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2012",
+            "authors": [
+              "Guneri Enis Alpin",
+              "Kustutan Ozge"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Benign Paroxysmal Positional Vertigo",
+              "Betahistine",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21852389/"
+          },
+          {
+            "pmid": "26421856",
+            "title": "[Pharmacotherapy of Vestibular Disorders, Nystagmus and Cerebellar Disorders].",
+            "abstract": "There are currently different groups of drugs for the pharmacotherapy of vertigo, nystagmus and cerebellar disorders: antiemetics; anti-inflammatories, antimenieres, and antimigraineous medications and antidepressants, anticonvulsants, aminopyridines as well as acetyl-DL-leucine. In acute unilateral vestibulopathy, corticosteroids improve the recovery of peripheral vestibular function, but currently there is not sufficient evidence for a general recommendation. There is insufficient evidence to support the view that 16 mg t. i. d. or 48 mg t. i. d. betahistine has an effect in Menière's disease. Therefore, higher dosages are recommended. In animal studies, it was shown that betahistine increases cochlear blood flow. In vestibular paroxysmia, oxcarbazepine was effective (one randomized controlled trial (RCT)). Aminopyridines are recommended for the treatment of downbeat nystagmus (two RCTs) and episodic ataxia type 2 (EA2, one RCT). There has been no RCT on the efficacy of beta-blockers",
+            "journal": "Fortschritte der Neurologie-Psychiatrie",
+            "year": "2015",
+            "authors": [
+              "Feil K",
+              "Böttcher N",
+              "Kremmyda O",
+              "Muth C",
+              "Teufel J"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cerebellar Diseases",
+              "Humans",
+              "Nystagmus, Pathologic",
+              "Vestibular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26421856/"
+          },
+          {
+            "pmid": "40755656",
+            "title": "Effectiveness of Ryokeijutsukanto in the Treatment of Benign Paroxysmal Positional Vertigo (BPPV).",
+            "abstract": "Background Benign paroxysmal positional vertigo (BPPV) is the most common acute vertigo disorder caused by otolith displacement in the inner ear. Recurrence, particularly in older adults, poses a significant clinical challenge. Objectives This study evaluates the therapeutic effects of ryokeijutsukanto, a Kampo medicine, on BPPV when used adjunctively with the Brandt-Daroff (BD) method. Methods A prospective cohort study was conducted following the STROBE (Strengthening the Reporting of Observational Studies in Epidemiology) guidelines. Forty-eight BPPV patients were divided into three groups: Group A (BD method only, N=8), Group B (BD method + Kampo, N=11), and Group C (BD method + betahistine 36 mg, N=29). As Kampo, ryokeijutsukanto 7.5 mg was given three times a day before meals, divided into three doses. The BD method was performed daily, and the outcomes were measured by subjective improvement and positional nystagmus resolution. Results Positional nystagmus resolution occurred in",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Goto Fumiyuki",
+              "Kaneda Shoji",
+              "Wasano Koichiro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40755656/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive hyperinsulinism due to Kir6.2 deficiency",
+        "txgnn_score": 0.9777380228042604,
+        "txgnn_rank": 18097,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperinsulinemic hypoglycemia, familial",
+        "txgnn_score": 0.9732191562652588,
+        "txgnn_rank": 20026,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06698",
+    "name": "Betahistine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Betahistine"
+      },
+      "queried_at": "2026-03-10T07:03:16.970403",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Betahistine"
+      },
+      "queried_at": "2026-03-10T07:03:18.753442",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-10T07:03:19.358563",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-10T07:03:22.179462",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "restless legs syndrome"
+      },
+      "queried_at": "2026-03-10T07:03:22.794597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active cochleovestibular Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:23.290171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active cochleovestibular Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:26.552984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active cochleovestibular Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:27.387986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active vestibular Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:27.889237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active vestibular Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:31.188398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active vestibular Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:34.810287",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active cochlear Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:35.380260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active cochlear Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:38.576994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "active cochlear Meniere disease"
+      },
+      "queried_at": "2026-03-10T07:03:40.835517",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "otosclerosis"
+      },
+      "queried_at": "2026-03-10T07:03:41.373777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "otosclerosis"
+      },
+      "queried_at": "2026-03-10T07:03:44.703292",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "otosclerosis"
+      },
+      "queried_at": "2026-03-10T07:03:46.522289",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "peripheral vertigo"
+      },
+      "queried_at": "2026-03-10T07:03:47.665668",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "peripheral vertigo"
+      },
+      "queried_at": "2026-03-10T07:03:51.010004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "peripheral vertigo"
+      },
+      "queried_at": "2026-03-10T07:03:54.675112",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "age-related hearing impairment"
+      },
+      "queried_at": "2026-03-10T07:03:55.525109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "age-related hearing impairment"
+      },
+      "queried_at": "2026-03-10T07:03:58.507941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "age-related hearing impairment"
+      },
+      "queried_at": "2026-03-10T07:03:59.188680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "vertigo, benign recurrent, 2"
+      },
+      "queried_at": "2026-03-10T07:03:59.783758",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "vertigo, benign recurrent, 2"
+      },
+      "queried_at": "2026-03-10T07:04:05.056959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "vertigo, benign recurrent, 2"
+      },
+      "queried_at": "2026-03-10T07:04:08.934829",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "autosomal recessive hyperinsulinism due to Kir6.2 deficiency"
+      },
+      "queried_at": "2026-03-10T07:04:09.703186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "autosomal recessive hyperinsulinism due to Kir6.2 deficiency"
+      },
+      "queried_at": "2026-03-10T07:04:13.506675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "autosomal recessive hyperinsulinism due to Kir6.2 deficiency"
+      },
+      "queried_at": "2026-03-10T07:04:14.225998",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "hyperinsulinemic hypoglycemia, familial"
+      },
+      "queried_at": "2026-03-10T07:04:14.687225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "hyperinsulinemic hypoglycemia, familial"
+      },
+      "queried_at": "2026-03-10T07:04:17.727978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Betahistine",
+        "disease": "hyperinsulinemic hypoglycemia, familial"
+      },
+      "queried_at": "2026-03-10T07:04:18.752798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:04:18.774552"
+  }
+}

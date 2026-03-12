@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Flavoxate",
+    "drugbank_id": "DB01148",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+        "txgnn_score": 0.997474491596222,
+        "txgnn_rank": 4050,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9974175691604614,
+        "txgnn_rank": 4116,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "specific developmental disorder",
+        "txgnn_score": 0.995554506778717,
+        "txgnn_rank": 6007,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "attention deficit-hyperactivity disorder",
+        "txgnn_score": 0.9938907623291016,
+        "txgnn_rank": 7458,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.9927218556404114,
+        "txgnn_rank": 8449,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9912681579589844,
+        "txgnn_rank": 9604,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroduodenitis",
+        "txgnn_score": 0.991182804107666,
+        "txgnn_rank": 9672,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peptic ulcer disease",
+        "txgnn_score": 0.9909963607788086,
+        "txgnn_rank": 9803,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.9890307784080504,
+        "txgnn_rank": 11251,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chondromyxoid fibroma",
+        "txgnn_score": 0.988911271095276,
+        "txgnn_rank": 11340,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01148",
+    "name": "Flavoxate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Flavoxate"
+      },
+      "queried_at": "2026-03-09T23:20:46.546017",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Flavoxate"
+      },
+      "queried_at": "2026-03-09T23:21:42.956036",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "queried_at": "2026-03-09T23:21:44.793324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "queried_at": "2026-03-09T23:21:51.561850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "queried_at": "2026-03-09T23:21:54.720530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T23:21:55.673967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T23:22:03.051254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-09T23:22:05.216668",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "specific developmental disorder"
+      },
+      "queried_at": "2026-03-09T23:22:06.437172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "specific developmental disorder"
+      },
+      "queried_at": "2026-03-09T23:22:16.164895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "specific developmental disorder"
+      },
+      "queried_at": "2026-03-09T23:22:19.677100",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T23:22:22.776311",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T23:22:32.075504",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T23:22:33.623721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T23:22:35.578932",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T23:22:38.646740",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-09T23:22:46.070956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T23:22:52.064530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T23:23:08.522000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-09T23:23:10.243489",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T23:23:13.203325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T23:23:18.725452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T23:23:21.341024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T23:23:25.487901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T23:23:33.121859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "peptic ulcer disease"
+      },
+      "queried_at": "2026-03-09T23:23:35.320055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T23:23:36.715760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T23:23:45.540012",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-09T23:23:51.286064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "chondromyxoid fibroma"
+      },
+      "queried_at": "2026-03-09T23:23:52.996404",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "chondromyxoid fibroma"
+      },
+      "queried_at": "2026-03-09T23:24:05.863579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Flavoxate",
+        "disease": "chondromyxoid fibroma"
+      },
+      "queried_at": "2026-03-09T23:24:10.122988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T23:24:10.148425"
+  }
+}

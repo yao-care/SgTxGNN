@@ -1,0 +1,2666 @@
+{
+  "drug": {
+    "inn": "Chlorpheniramine",
+    "drugbank_id": "DB01114",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9975990653038024,
+        "txgnn_rank": 3907,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01293201",
+            "title": "A Multi-Center, Double-Blind, Randomized, Placebo-Controlled, Parallel-Group Study Evaluating the Safety and Efficacy of STAHIST in Adult and Adolescent Subjects With a History of Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-03",
+            "completion_date": "2011-08",
+            "country": "United States",
+            "enrollment": 290,
+            "brief_summary": "The overall development plan is to show that the combination of tried-and-proven decongestant/antihistamine ingredients (pseudoephedrine hydrochloride and chlorpheniramine maleate), plus a very small amount of belladonna alkaloids (.24 mg atropine sulfate) is a comprehensive, safe and effective B.I.D. drug treatment regimen, indicated for the relief of symptoms associated with seasonal allergic rhinitis in adults and children 12 years of age and older. Treated symptoms include nasal congestion, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and females of any ethnic group between 12 and 60 years of age.\n2. History of moderate to severe Seasonal Allergic Rhinitis (SAR) for at least two years.\n3. Subjects' symptoms resulting from the irritation of sinus, nasal and upper respiratory tract tissues will include ",
+            "endpoints": [
+              "Total Symptom Scores (TSS)"
+            ],
+            "sponsor": "Magna Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01293201"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03296358",
+            "title": "A Randomized, Double-blinded, Controlled Trial of Adding a Short Burst of Corticosteroid to the Conventional Treatment of H1 Antihistamines",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-10-01",
+            "completion_date": "2019-10-31",
+            "country": "Thailand",
+            "enrollment": 75,
+            "brief_summary": "A randomized, double-blinded, controlled trial of adding a short burst of corticosteroid to the conventional treatment of H1 antihistamines",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients visit emergency room at King chulalongkorn memorial hospital (KCMH) age between 18-50 years who meet the following criteria of acute urticarial such as\n\n  1. eruption of wheals, central swelling of various sizes, with or without surrounding erythema; with or without a",
+            "endpoints": [
+              "Itch score"
+            ],
+            "sponsor": "Chulalongkorn University",
+            "url": "https://clinicaltrials.gov/study/NCT03296358"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02082054",
+            "title": "A Phase 2, Double-Blind, Parallel-Group, Dose-Ranging Study Evaluating Safety/ Efficacy Atropine Doses With Pseudoephedrine and Chlorpheniramine in SAR Patients 12 Years of Age and Older",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2014-03",
+            "completion_date": "2014-05",
+            "country": "United States",
+            "enrollment": 125,
+            "brief_summary": "This active vs active comparative trial will evaluate the safety and efficacy of incremental doses of atropine in combination with pseudoephedrine 120 mg/chlorpheniramine 8 mg in adult patients with a history of seasonal allergic rhinitis. Hypotheses are defined by total nasal symptom scores (TNSS) recorded by subjects in diaries where efficacy will be established by statistical significance where p \\< 0.05.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and females of any ethnic group between 12 and 60 years of age.\n2. History of moderate to severe SAR for at least two years; defined as having a score of 2 or more on a 0-3 point scale\n3. Documentation of sensitivity will be obtained from medical records or positive skin",
+            "endpoints": [
+              "Dose-ranging data for atropin"
+            ],
+            "sponsor": "Magna Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02082054"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35652393",
+            "title": "Chlorpheniramine, an Old Drug with New Potential Clinical Applications: A Comprehensive Review of the Literature.",
+            "abstract": "Chlorpheniramine Maleate (CPM), also known as chlorphenamine, is a potent alkylamine first-generation H1 antihistamine that has been used since the 1950s. CPM is a widely popular drug commonly used to treat allergic conditions, given its antihistamine properties. Although mainly used in over-the-counter treatment for cough and colds, various studies discuss a wide range of CPM's clinical uses, such as treating asthma, plasma cell gingivitis, chronic urticaria, and depression, among others. This antihistamine is usually taken orally; however, intravenous, intramuscular, and subcutaneous routes have been documented. Intranasal routes of this drug have recently been explored, especially due to its antiviral properties against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Accordingly, given CPM's extensive medical and safety profile, the present review explores this versatile drug's current and potential clinical applications. Although it is widely used mainly for treating ",
+            "journal": "Current reviews in clinical and experimental pharmacology",
+            "year": "2024",
+            "authors": [
+              "Rizvi Syed A A",
+              "Ferrer Gustavo",
+              "Khawaja Uzzam A",
+              "Sanchez-Gonzalez Marcos A"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Chlorpheniramine",
+              "Histamine H1 Antagonists",
+              "Common Cold",
+              "Administration, Intranasal",
+              "SARS-CoV-2",
+              "Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35652393/"
+          },
+          {
+            "pmid": "1981354",
+            "title": "Cetirizine. A review of its pharmacological properties and clinical potential in allergic rhinitis, pollen-induced asthma, and chronic urticaria.",
+            "abstract": "Cetirizine, a piperazine derivative and carboxylated metabolite of hydroxyzine, is a potent histamine H1-receptor antagonist with antiallergic properties. It has marked affinity for peripheral histamine H1-receptors and, at the standard dose of 10mg daily, lacks the CNS depressant effects of standard antihistamines. In addition, it inhibits histamine release and eosinophil chemotaxis during the secondary phase of the allergic response. Results from controlled clinical trials indicate that cetirizine is an effective and well tolerated treatment of seasonal and perennial allergic rhinitis and chronic idiopathic urticaria. Cetirizine appears to be as effective as conventional dosages of terfenadine, chlorpheniramine and hydroxyzine in relieving symptoms associated with these disorders and produces a markedly lower incidence of sedation than chlorpheniramine, hydroxyzine and several other standard antihistamines. Thus, cetirizine appears to provide a useful alternative to other 'nonsedatin",
+            "journal": "Drugs",
+            "year": "1990",
+            "authors": [
+              "Campoli-Richards D M",
+              "Buckley M M",
+              "Fitton A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Asthma",
+              "Cetirizine",
+              "Chronic Disease",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hydroxyzine",
+              "Pollen",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1981354/"
+          },
+          {
+            "pmid": "1715267",
+            "title": "Acrivastine. A review of its pharmacological properties and therapeutic efficacy in allergic rhinitis, urticaria and related disorders.",
+            "abstract": "Acrivastine is a short acting histamine H1-receptor antagonist with a rapid onset of action. Double-blind clinical trials have shown acrivastine (usually 8mg three times daily) to be an effective and well tolerated antihistamine in the treatment of chronic urticaria and allergic rhinitis. Acrivastine was more effective than placebo and similar in efficacy to clemastine or terfenadine in the treatment of seasonal allergic rhinitis. In the treatment of dermatoses in which histamine has a pathogenetic role, the efficacy of acrivastine was superior to that of placebo and similar to that of usual dosages of clemastine, hydroxyzine, chlorpheniramine, cyproheptadine or terfenadine. Acrivastine caused less drowsiness than clemastine, the incidence of adverse effects being indistinguishable from that with placebo or terfenadine. Thus, acrivastine is an effective addition to drugs currently available for the treatment of patients with allergic diseases in whom a histamine H1-receptor antagonist ",
+            "journal": "Drugs",
+            "year": "1991",
+            "authors": [
+              "Brogden R N",
+              "McTavish D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dermatitis, Atopic",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Rhinitis, Allergic, Seasonal",
+              "Triprolidine",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1715267/"
+          },
+          {
+            "pmid": "19348661",
+            "title": "Multiple H1-antihistamine-induced urticaria.",
+            "abstract": "H(1)-antihistamines are widely used in the treatment of various allergic diseases. Particularly, a cornerstone of the management of chronic idiopathic urticaria is treatment with H(1)-antihistamines. However, a few cases of H(1)-antihistamine-induced urticaria have been reported. A 34-year-old woman presented with a 4-month history of recurrent urticaria, which was prominently exacerbated by the administration of H(1)-antihistamines. The patient consented to a provocation test of fexofenadine among drugs including cetirizine and hydroxyzine, which were suspected of inducing severe symptoms in episodes. One hour after challenge with 12 mg fexofenadine (one-fifth of the therapeutic dose), a urticarial reaction rapidly developed on nearly the entire body with remarkably increased levels of plasma histamine (190 nmol/L) and plasma leukotriene B4 (150 pg/mL). In challenge tests with other antihistamines, generalized urticaria occurred 5 and 1 h after intake of 10 mg loratadine and 10 mg bep",
+            "journal": "The Journal of dermatology",
+            "year": "2009",
+            "authors": [
+              "Inomata Naoko",
+              "Tatewaki Satoko",
+              "Ikezawa Zenro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Drug Eruptions",
+              "Female",
+              "Histamine",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Immunologic Tests",
+              "Leukotriene B4",
+              "Loratadine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19348661/"
+          },
+          {
+            "pmid": "2873823",
+            "title": "Urticaria in Thai children.",
+            "abstract": "In this study, 142 patients under 12 years of age with the diagnosis of urticaria accompanied or not by angioedema were examined. In all 72.6% of the patients were under 6 years of age. Boys and girls were equally affected, 13.4% of the cases had chronic urticaria, 56.3% had a previous history of urticaria, 88.0% had generalized urticaria, and about half of the cases had associated angioedema. The causes of the urticaria were identified or suspected in 32.4% of the cases. Drugs, foods, insect bites and stings, infections and cold were the most common or associated precipitating agents in that order. Histories revealed 27.5% of the cases had records of other allergic diseases, and 76.1% had allergic diseases in the family. Dermographisms were found in 16.2% of the cases, and 22.5% of cases had eosinophilia. The means of IgE levels in both acute and chronic urticaria were within normal limits, and there was no statistically significant difference between the two groups. Skin testing was ",
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1986",
+            "authors": [
+              "Tuchinda M",
+              "Srimaruta N",
+              "Habanananda S",
+              "Vareenil J",
+              "Assatherawatts A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angioedema",
+              "Child",
+              "Child, Preschool",
+              "Chronic Disease",
+              "Drug Eruptions",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity",
+              "Immunoglobulin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2873823/"
+          },
+          {
+            "pmid": "8808167",
+            "title": "Ebastine. a review of its pharmacological properties and clinical efficacy in the treatment of allergic disorders.",
+            "abstract": "Ebastine is a long-acting nonsedating second generation histamine H1 receptor antagonist which binds preferentially to peripheral H1 receptors in vivo. It has shown antihistamine and antiallergic activity in healthy volunteers and patients with allergies, and protected against histamine-induced bronchoconstriction in patients with asthma. Significant symptom improvement is observed in patients with seasonal or perennial allergic rhinitis or chronic idiopathic urticaria following administration of ebastine 10 mg/day, or 20 mg/day in severe rhinitis. In clinical trials, the efficacy of ebastine 10 or 20 mg/day was generally similar to standard dosages of terfenadine, cetirizine, astemizole and loratadine in patients with seasonal allergic rhinitis, astemizole, terfenadine and ketotifen in patients with chronic idiopathic urticaria, and ketotifen, terfenadine, chlorpheniramine and mequitazine in patients with perennial allergic rhinitis. The most frequent adverse events reported during eb",
+            "journal": "Drugs",
+            "year": "1996",
+            "authors": [
+              "Wiseman L R",
+              "Faulds D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Butyrophenones",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8808167/"
+          },
+          {
+            "pmid": "7528133",
+            "title": "Loratadine. A reappraisal of its pharmacological properties and therapeutic use in allergic disorders.",
+            "abstract": "Loratadine is a long-acting antihistamine agent, exhibiting partial selectivity for peripheral histamine H1-receptors. To date, loratadine has been evaluated in allergic rhinitis, urticaria and, to a limited extent, in asthma. In several large controlled comparative clinical studies, loratadine was superior to placebo, faster acting than astemizole and as effective as azatadine, cetirizine, chlorpheniramine (chlorphenamine), clemastine, hydroxyzine, mequitazine and terfenadine in patients with allergic rhinitis and chronic urticaria. The clinical effectiveness of loratadine in asthma is at present unclear. Loratadine is well tolerated. At dosages of 10 mg daily, commonly reported adverse events were somnolence, fatigue and headache. Sedation occurred less frequently with loratadine than with azatadine, cetirizine, chlorpheniramine, clemastine and mequitazine. Serious ventricular arrhythmias, as reported with some other second generation histamine H1-receptor antagonists, have not been ",
+            "journal": "Drugs",
+            "year": "1994",
+            "authors": [
+              "Haria M",
+              "Fitton A",
+              "Peters D H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Drug Interactions",
+              "Humans",
+              "Hypersensitivity",
+              "Loratadine",
+              "Psychomotor Performance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7528133/"
+          },
+          {
+            "pmid": "2568212",
+            "title": "Nonsedating histamine H1-receptor antagonists.",
+            "abstract": "The chemistry, pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosages of the nonsedating histamine H1-receptor antagonists terfenadine, astemizole, loratadine, and acrivastine are reviewed. Terfenadine and astemizole are chemically unrelated to histamine H1-receptor antagonists such as diphenhydramine and chlorpheniramine. Loratadine is structurally related to the antihistamine azatadine, and acrivastine is a side-chain-reduced metabolite of the antihistamine triprolidine. Like other histamine H1-receptor antagonists, they competitively block histamine receptor sites rather than inhibiting histamine release. All four drugs have relatively long half-lives and are rapidly absorbed after oral administration. Terfenadine, astemizole, and loratadine are metabolized extensively in the liver; terfenadine and astemizole are both 97% protein bound. Terfenadine 60 mg twice daily has been shown to be as effective as conventional antihistamines for the treatment of seasona",
+            "journal": "Clinical pharmacy",
+            "year": "1989",
+            "authors": [
+              "Mann K V",
+              "Crowe J P",
+              "Tietze K J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity",
+              "Hypnotics and Sedatives"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2568212/"
+          },
+          {
+            "pmid": "1683523",
+            "title": "Comparative efficacy of H1 antihistamines.",
+            "abstract": "Second-generation H1 receptor antagonists (cetirizine, terfenadine, astemizole, loratadine, azelastine, and acrivastine) offer several important advantages over the older first-generation antihistamines. They are substantially less sedating and have little or no anticholinergic activity. Many of them are effective for 12 to 24 hours, thereby increasing compliance. In addition to acting as competitive inhibitors of histamine, several seem to have other antiallergic mechanisms as well. They are all absorbed well when taken orally. Many studies demonstrate their effectiveness compared with placebo in the treatment of seasonal and perennial rhinitis and chronic urticaria, and several studies suggest that they have a role in the treatment of bronchial asthma. A number of multicenter, double-blind, placebo-controlled studies comparing the effectiveness of terfenadine, 60 mg bid, with chlorpheniramine, 8 mg bid, in seasonal allergic rhinitis demonstrate that both drugs are approximately equal",
+            "journal": "Annals of allergy",
+            "year": "1991",
+            "authors": [
+              "Aaronson D W"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Histamine H1 Antagonists",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1683523/"
+          },
+          {
+            "pmid": "28601540",
+            "title": "Atrial Fibrillation in Anaphylaxis.",
+            "abstract": "The relationship between anaphylaxis and cardiovascular events has been reported in the past. While skin and respiratory symptoms are usually the most common and the first to appear, cardiovascular complications play a key role and represent the leading cause of death in anaphylaxis.",
+            "journal": "The American journal of medicine",
+            "year": "2017",
+            "authors": [
+              "Rojas-Perez-Ezquerra Patricia",
+              "Noguerado-Mellado Blanca",
+              "Morales-Cabeza Cristina",
+              "Zambrano Ibarra Gabriela",
+              "Datino Romaniega Tomas"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Actinidia",
+              "Administration, Intravenous",
+              "Adult",
+              "Aged, 80 and over",
+              "Anaphylaxis",
+              "Animals",
+              "Anisakis",
+              "Anti-Arrhythmia Agents",
+              "Anti-Inflammatory Agents",
+              "Arachis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28601540/"
+          },
+          {
+            "pmid": "15623181",
+            "title": "To evaluate and compare the effects of first generation anti-histamine (chlorpheniramine maleate) and second generation anti-histamine (loratadine) on isolated trachea of rabbit.",
+            "abstract": "The incidence of respiratory allergy has increased gradually over the past several years and current estimates suggest that allergic rhinitis affects approximately 20% of the population. Large scales population surveys indicate that up to 38% of patients with rhinitis have asthma. The allergic response in the airways is an important pathogensis to cause bronchoconstriction owing to increased responsiveness of tracheo bronchial tree to various stimuli and also causes the release of histamine and other chemical mediators from mast cells. Histamine has been shown to be an important mediator of an allergic reaction in both the upper and lower respiratory airways. Chlorpheniramine maleate is a stable, most potent, sedative first generation anti-histamine and is effective in the treatment of allergic disorders. Loratadine is a highly potent, non-sedating, long acting tricyclic, second generation anti-histamine. It is indicated in allergic rhinits, chronic idiopathic urticaria and allergic br",
+            "journal": "JPMA. The Journal of the Pakistan Medical Association",
+            "year": "2004",
+            "authors": [
+              "Jalbani G A",
+              "Aamir K",
+              "Shaikh A M",
+              "Unar M A",
+              "Ashraf R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chlorpheniramine",
+              "Histamine H1 Antagonists",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Loratadine",
+              "Muscle Contraction",
+              "Muscle, Smooth",
+              "Rabbits",
+              "Trachea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15623181/"
+          },
+          {
+            "pmid": "31852144",
+            "title": "Chlorpheniramine-induced anaphylaxis: Two case reports and a retrospective review of pharmacovigilance database.",
+            "abstract": "Anaphylaxis is a serious allergic reaction which could be life-threatening. To date, it could be diagnosed by causality between clinical manifestations and triggers. But it is not always easy to find out the clue. Chlorpheniramine maleate (peniramin) is known to safe and it is an antihistamine commonly used to treat almost the whole allergic disease, including urticaria and allergic rhinitis. We recently experienced 2 cases of chlorpheniramine induced anaphylaxis. To document suspected cases of chlorpheniramine-induced adverse reactions, we analyzed a database spontaneously reported adverse drug reactions in the Ajou Regional Pharmacovigilance Center from 2011 to 2017.",
+            "journal": "Medicine",
+            "year": "2019",
+            "authors": [
+              "Lee So-Hee",
+              "Lee Youngsoo",
+              "Woo Seong-Dae",
+              "Doo Ko-Eun",
+              "Ha Chae-Yeon"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Chlorpheniramine",
+              "Databases, Pharmaceutical",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Middle Aged",
+              "Pharmacovigilance",
+              "Republic of Korea",
+              "Tryptases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31852144/"
+          },
+          {
+            "pmid": "41602253",
+            "title": "Rebound Pruritus and Urticaria Post-discontinuation of Chronic Cetirizine Use: A Case Report.",
+            "abstract": "Cetirizine is a common over-the-counter antihistamine used to treat allergic rhinitis, eczema, and urticaria. There have been increasing reports showing increased risk of rebound pruritus following discontinuation of long-term antihistamine use in the United States and the Netherlands. However, evidence on this condition and its management among Asian populations remains limited. We report the case of a Chinese male in his 50s with a background of hypertension, hyperlipidaemia, and chronic urticaria who had been regularly taking over-the-counter cetirizine for the past two years. He presented with recurrent urticaria, characterized by wheals and severe pruritus over his forearms, emerging two to three days after each cetirizine discontinuation attempt. A diagnosis of rebound pruritus and urticaria post-discontinuation of cetirizine was made. Through shared decision-making, he was switched to loratadine and chlorpheniramine for three days before transitioning to an \"as-needed\" regimen w",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Seng Jun Jie Benjamin",
+              "Cai Meijin",
+              "Oka Prawira"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41602253/"
+          },
+          {
+            "pmid": "32641443",
+            "title": "Urticaria and angioedema as a prodromal cutaneous manifestation of SARS-CoV-2 (COVID-19) infection.",
+            "abstract": "This is a case of a patient who presented with an urticarial rash 48 hours before developing symptoms of fever and a continuous cough. She subsequently developed angioedema of her lips and hands before testing positive for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. Urticarial rashes occurring 48 hours before other symptoms of COVID-19 infection have been documented. This case demonstrates the importance of heightened awareness that not all urticarial rashes represent spontaneous urticaria and as a consequence, this may result in misdiagnosis and ultimately delayed diagnosis. This is the first reported case in the literature of urticaria with angioedema as a prodromal phenomenon of COVID-19.",
+            "journal": "BMJ case reports",
+            "year": "2020",
+            "authors": [
+              "Hassan Khalid"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angioedema",
+              "Anti-Allergic Agents",
+              "Betacoronavirus",
+              "COVID-19",
+              "Chlorpheniramine",
+              "Coronavirus Infections",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32641443/"
+          },
+          {
+            "pmid": "26240795",
+            "title": "Chlorpheniramine-induced anaphylaxis diagnosed by basophil activation test.",
+            "abstract": "Chlorpheniramine is a widely prescribed H1-antihistamine for relieving urticaria or histamine-mediated allergic reactions. However, although rare, it may cause immediate hypersensitivity reactions. The diagnosis is usually made by provocation test, but its application is often limited due to comorbidities or potential risk of severe reactions. In those cases, skin tests and basophil activation tests can be considered as additional diagnostic tests for the drug allergy. Here, we report a 33-year-old female with underlying chronic urticaria, who recurrently developed anaphylaxis after chlorpheniramine administration. Intradermal test showed positive responses in the patient at 0.02 mg/mL of chlorpheniramine, but not in healthy controls. Basophil activation test showed significant up-regulation of CD63 and CD203c by chlorpheniramine. The present case reminds the rare but potential allergic risk of chlorpheniramine, and also suggests the potential utility of basophil activation test in mak",
+            "journal": "Asia Pacific allergy",
+            "year": "2015",
+            "authors": [
+              "Lee Hyun-Seung",
+              "Song Woo-Jung",
+              "Lee Ji-Won",
+              "Cho Young-Yoon",
+              "Park Han-Ki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26240795/"
+          },
+          {
+            "pmid": "27803886",
+            "title": "Bepotastine-induced urticaria, cross-reactive with other antihistamines.",
+            "abstract": "Second-generation antihistamines are widely prescribed for the control of symptoms of allergic inflammation such as itchy hives, coryza, and itchy eyes. In rare circumstances, these drugs might provoke allergic inflammation. Hypersensitivity to bepotastine besilate, a second-generation antihistamine has never been reported. A 17-year-old schoolgirl, whose paroxysmal itchy hives had been controlled with bepotastine, experienced aggravation of the hives. An oral provocation test confirmed her hypersensitivity to bepotastine and cross-reactivity to levocetirizine. She showed no reaction to chlorpheniramine, ketotifen, or olopatadine among the 13 antihistamines tested. While searching for an antihistamine to control her itchy hives, we found that she also exhibited cross-reactivity to various antihistamines with different chemical structures from that of bepotastine, which is not predicted according to the chemical classification of antihistamines. We report a case of hypersensitivity to b",
+            "journal": "Asia Pacific allergy",
+            "year": "2016",
+            "authors": [
+              "Kang Ju Wan",
+              "Lee Jaechun"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27803886/"
+          },
+          {
+            "pmid": "2523301",
+            "title": "Loratadine. A preliminary review of its pharmacodynamic properties and therapeutic efficacy.",
+            "abstract": "Loratadine is a long acting antihistamine which has a high selectivity for peripheral histamine H1-receptors and lacks the central nervous system depressant effects often associated with some of the older antihistamines. Results from controlled clinical trials have shown that loratadine (usually 10mg once daily) is a well-tolerated and effective antihistamine which will be beneficial in patients with allergic rhinitis and chronic urticaria. It was found to be significantly superior to placebo, faster acting than astemizole and as effective as usual dosages of terfenadine, clemastine, mequitazine and azatadine in eliciting relief of symptoms. Importantly, loratadine is associated with a lower incidence of sedation than azatadine, clemastine, chlorpheniramine and mequitazine. Thus, loratadine, with its convenience of once daily administration, will be a useful addition to those drugs currently available for the treatment of patients with allergic diseases in whom a histamine H1-receptor ",
+            "journal": "Drugs",
+            "year": "1989",
+            "authors": [
+              "Clissold S P",
+              "Sorkin E M",
+              "Goa K L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Common Cold",
+              "Cyproheptadine",
+              "Female",
+              "Humans",
+              "Loratadine",
+              "Male",
+              "Rhinitis, Allergic, Perennial",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2523301/"
+          },
+          {
+            "pmid": "14977391",
+            "title": "Cetirizine: a review of its use in allergic disorders.",
+            "abstract": "Cetirizine is a selective, second-generation histamine H1 receptor antagonist, with a rapid onset, a long duration of activity and low potential for interaction with drugs metabolised by the hepatic cytochrome P450 system. Cetirizine was generally more effective than other H1 receptor antagonists at inhibiting histamine-induced wheal and flare responses. Cetirizine is an effective and well tolerated agent for the treatment of symptoms of seasonal allergic rhinitis (SAR), perennial allergic rhinitis (PAR) and chronic idiopathic urticaria (CIU) in adult, adolescent and paediatric patients. In adults with these allergic disorders, cetirizine was as effective as conventional dosages of ebastine (SAR, PAR, CIU), fexofenadine (SAR), loratadine (SAR, CIU) or mizolastine (SAR). This agent was significantly more effective, and with a more rapid onset of action, than loratadine in 2-day studies in environmental exposure units (SAR). In paediatric patients, cetirizine was as at least as effective",
+            "journal": "Drugs",
+            "year": "2004",
+            "authors": [
+              "Curran Monique P",
+              "Scott Lesley J",
+              "Perry Caroline M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Evaluation Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Anti-Allergic Agents",
+              "Cetirizine",
+              "Child",
+              "Child, Preschool",
+              "Drug Administration Schedule",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14977391/"
+          },
+          {
+            "pmid": "8977966",
+            "title": "The incidence, aetiology and management of anaphylaxis presenting to an accident and emergency department.",
+            "abstract": "We retrospectively studied anaphylaxis in an A&E department from computerized records. In 1993 (Study A), of 55,000 patients seen in casualty, nine had severe anaphylaxis (ANA) with loss of consciousness (LOC) or fainting (about 1: 6000). Fifteen had generalized allergic reactions (GR) without LOC or fainting, but including dyspnoea due to laryngeal oedema or asthma, angioedema and/or urticaria. Thus there were 24 (about 1:2300) generalized reactions involving hypotension and/or respiratory difficulty. A further case diagnosed as hyperventilation syndrome was probably a wasp sting GR. Six cases of urticaria and/or angioedema were also identified. Of the nine with ANA, a possible cause was identified in eight (3 stings; 2 drugs; 3 foods). There was delay in arrival in A&E: hypotension was noted in three and had resolved spontaneously in six. Only 3/9 were related with adrenaline: i.v. hydrocortisone and chlorpheniramine was the mainstay of treatment. No investigation was recommended nor",
+            "journal": "QJM : monthly journal of the Association of Physicians",
+            "year": "1996",
+            "authors": [
+              "Stewart A G",
+              "Ewan P W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anaphylaxis",
+              "Child",
+              "Child, Preschool",
+              "Emergencies",
+              "Female",
+              "Food Hypersensitivity",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8977966/"
+          },
+          {
+            "pmid": "39265704",
+            "title": "Comparative inhibition by oral bilastine, parenteral dexchlorpheniramine, and a new bilastine parenteral (i.v. and i.m.) formulation of histamine-induced wheal and flare response: A randomised phase I trial.",
+            "abstract": "Bilastine is a well-known non-sedating second-generation antihistamine authorised worldwide for the symptomatic treatment of allergic rhinoconjunctivitis (seasonal and perennial) and urticaria with proven efficacy and good safety and tolerability profile. When the oral route is not suitable or a rapid onset of action is preferred, parenteral formulations represent an effective treatment option. However, the parenteral formulations currently available are sedating antihistamines. The objective of this research was to compare the peripheral anti-H1 activity of different bilastine formulations (i.v., i.m. and oral) and dexchlorpheniramine among them also versus placebo.",
+            "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "year": "2024",
+            "authors": [
+              "Coimbra Jimena",
+              "Puntes Montserrat",
+              "Molina Pol",
+              "Gich Ignasi",
+              "Antonijoan Rosa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase I",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Chlorpheniramine",
+              "Male",
+              "Adult",
+              "Benzimidazoles",
+              "Female",
+              "Cross-Over Studies",
+              "Double-Blind Method",
+              "Histamine",
+              "Administration, Oral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39265704/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9953000545501708,
+        "txgnn_rank": 6235,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10582116",
+            "title": "Changes in nasal resistance and nasal geometry using pressure and acoustic rhinometry in a feline model of nasal congestion.",
+            "abstract": "This is the first report describing the use and pharmacological characterization of nasal patency by both pressure rhinometry and acoustic rhinometry (AcR) in an experimental cat model of nasal congestion. In pressure rhinometry studies, aerosolized compound 48/80 (0.1-3.0%), a mast cell liberator, increased nasal airway resistance (NAR) 1.2 +/- 0.6, 5.8 +/- 0.5, 8.6 +/- 1.1 and 7.9 +/- 1.5 cmH2O.L/minute, respectively. Increases in NAR produced by compound 48/80 were associated with a 395% increase in histamine concentration found in the nasal lavage fluid. Pretreatment with the alpha-adrenoreceptor agonist, phenylpropanolamine (PPA; 0.1-3.0 mg/kg, i.v.), and the NO synthetase inhibitor, NG-nitro-L-arginine (L-NAME; 10 mg/kg, i.v.) attenuated the increases in NAR produced by compound 48/80. The histamine H1 antagonist chlorpheniramine (1.0 mg/kg, i.v.) and the H2 antagonist, ranitidine (1.0 mg/kg, i.v.) had no decongestant activity. Also without decongestant activity were the muscarin",
+            "journal": "American journal of rhinology",
+            "year": "1999",
+            "authors": [
+              "McLeod R L",
+              "Mingo G G",
+              "Herczku C",
+              "Corboz M R",
+              "Ramos S I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acoustics",
+              "Aerosols",
+              "Airway Resistance",
+              "Animals",
+              "Cats",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Histamine Release",
+              "Male",
+              "Nasal Obstruction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10582116/"
+          },
+          {
+            "pmid": "10582118",
+            "title": "Combined histamine H1 and H3 receptor blockade produces nasal decongestion in an experimental model of nasal congestion.",
+            "abstract": "We studied the pharmacological actions of combined histamine H1/H3 receptor blockade on the increase in nasal airway resistance (NAR) and decrease in nasal cavity volume produced by nasal exposure to compound 48/80, a mast cell degranulator. In the anesthetized cat compound 48/80 (1%) produced a maximum increase in NAR of 9.1 +/- 0.7 cmH20.L/minute. The increase in NAR in animals pretreated with a combination of the H1 antagonist, chlorpheniramine (CTM; 0.8 mg/kg i.v.) and increasing doses of the H3 antagonist, thioperamide (THIO; 1.0, 3.0, and 10.0 mg/kg i.v.) were 6.1 +/- 2.1, 4.2 +/- 1.0 and 2.2 +/- 0.7 cmH20.L/minute, respectively. A second H3 antagonist, clobenpropit (CLOB; 0.03, 0.3, and 1.0 mg/kg i.v.) combined with CTM (0.8 mg/kg i.v.) also inhibited the nasal effects of compound 48/80. When the nonsedating H1 antihistamine, loratadine (3.0 mg/kg i.v.), was substituted for CTM, it also reduced nasal congestion when given in combination with THIO (10 mg/kg i.v.). In contrast, tr",
+            "journal": "American journal of rhinology",
+            "year": "1999",
+            "authors": [
+              "McLeod R L",
+              "Mingo G G",
+              "Herczku C",
+              "DeGennaro-Culver F",
+              "Kreutner W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Airway Resistance",
+              "Animals",
+              "Cats",
+              "Chlorpheniramine",
+              "Disease Models, Animal",
+              "Drug Evaluation, Preclinical",
+              "Drug Therapy, Combination",
+              "Histamine Antagonists",
+              "Histamine H1 Antagonists",
+              "Histamine Release"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10582118/"
+          },
+          {
+            "pmid": "12387934",
+            "title": "Pharmacological characterization of a noninvasive, chronic, experimental dog model of nasal congestion.",
+            "abstract": "The present experiments were undertaken to pharmacologically characterize a noninvasive, chronic, experimental dog model of nasal congestion with the overall goal of developing an effective tool for studying the mechanism of action of nasal decongestant drugs.",
+            "journal": "Journal of pharmacological and toxicological methods",
+            "year": "2002",
+            "authors": [
+              "Koss Michael C",
+              "Yu Yongxin",
+              "Hey John A",
+              "McLeod Robbie L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Animals",
+              "Chlorpheniramine",
+              "Disease Models, Animal",
+              "Dogs",
+              "Drug Therapy, Combination",
+              "Ephedrine",
+              "Histamine H1 Antagonists",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12387934/"
+          },
+          {
+            "pmid": "12962193",
+            "title": "A model of allergic nasal congestion in dogs sensitized to ragweed.",
+            "abstract": "Acoustic rhinometry is a noninvasive method that uses sound waves to measure dimensions of the nasal cavity.",
+            "journal": "American journal of rhinology",
+            "year": "2003",
+            "authors": [
+              "Rudolph Karin",
+              "Bice David E",
+              "Hey John A",
+              "McLeod Robbie L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic alpha-Agonists",
+              "Airway Resistance",
+              "Ambrosia",
+              "Animals",
+              "Anti-Allergic Agents",
+              "Blood Pressure",
+              "Body Temperature",
+              "Chlorpheniramine",
+              "Disease Models, Animal",
+              "Dogs"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12962193/"
+          },
+          {
+            "pmid": "11895194",
+            "title": "Acoustic rhinometry in the dog: a novel large animal model for studies of nasal congestion.",
+            "abstract": "The aim of this project was to develop and pharmacologically characterize an experimental dog model of nasal congestion in which nasal patency is measured using acoustic rhinometry. Solubilized compound 48/80 (0.3-3.0%) was administered intranasally to thiopental anesthetized beagle dogs to elicit nasal congestion via localized mast cell degranulation. Compound 48/80-induced effects on parameters of nasal patency were studied in vehicle-treated animals, as well as in the same animals pretreated 2 hours earlier with oral d-pseudoephedrine or chlorpheniramine. Local mast cell degranulation caused a close-related decrease in nasal cavity volume and minimal cross-sectional area (Amin) together with a highly variable increase in nasal secretions. Maximal responses were seen at 90-120 minutes after 48/80 administration. Oral administration of the adrenergic agonist, d-pseudoephedrine (3.0 mg/kg), significantly antagonized all of the nasal effects of compound 48/80 (3.0%). In contrast, oral a",
+            "journal": "American journal of rhinology",
+            "year": "2002",
+            "authors": [
+              "Koss Michael C",
+              "Yu Yongxin",
+              "Hey John A",
+              "McLeod Robbie L"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acoustics",
+              "Airway Resistance",
+              "Animals",
+              "Chlorpheniramine",
+              "Disease Models, Animal",
+              "Dogs",
+              "Drug Interactions",
+              "Ephedrine",
+              "Male",
+              "Nasal Obstruction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11895194/"
+          },
+          {
+            "pmid": "10822083",
+            "title": "A new model of allergic rhinitis in rats by topical sensitization and evaluation of H(1)-receptor antagonists.",
+            "abstract": "An animal model of chronic allergic rhinitis was developed by repeated local booster sensitization into the nasal cavity in sensitized rats. The severity of allergic rhinitis was assessed by determining the extent of two markers of nasal allergic symptoms (sneezing and nasal rubbing) after antigen challenge. The number of incidents of sneezing and nasal rubbing was markedly increased during intranasal instillation of antigen in sensitized rats. The PCA titers were also markedly elevated by intranasal sensitization. Some histamine H(1)-receptor antagonists such as chlorpheniramine, ketotifen, astemizole and epinastine inhibited the increase in antigen-induced nasal symptoms in a dose-related manner. Nasal rubbing was more potently inhibited by H(1)-receptor antagonists than sneezing. In conclusion, we developed a chronic allergic rhinitis model showing nasal symptoms in rats, and this model may be useful for evaluating the effects of drugs on allergic rhinitis.",
+            "journal": "Immunopharmacology",
+            "year": "2000",
+            "authors": [
+              "Sugimoto Y",
+              "Kawamoto E",
+              "Chen Z",
+              "Kamei C"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Animals",
+              "Anti-Allergic Agents",
+              "Astemizole",
+              "Chlorpheniramine",
+              "Dibenzazepines",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Histamine H1 Antagonists",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10822083/"
+          },
+          {
+            "pmid": "1705288",
+            "title": "Allergic rhinitis model with Brown Norway rat and evaluation of antiallergic drugs.",
+            "abstract": "An animal disease model of allergic rhinitis was developed with Brown Norway (BN) rat, a high immunoglobulin E responder strain. BN rats were immunized with ovalbumin (OA) and made to suffer from allergic rhinitis. The severity of allergic rhinitis was assessed by determining the extent of the three kinds of markers, Evan's blue, histamine and N-acetyl-beta-D-glucosaminidase, released into the nasal perfusate following the OA challenge to the nasal cavity of OA-sensitized BN rats. This experimental system was appreciated by antiallergic drugs; chlorpheniramine maleate inhibited the release of Evan's blue and elevated that of histamine, but did not affect the N-acetyl-beta-D-glucosaminidase level. Halopredone acetate inhibited the releases of all the three markers. The estimation of the released markers using allergic rhinitis brought about in BN rats was found to be a useful experimental system for evaluating the effect of drugs on allergic rhinitis.",
+            "journal": "Journal of pharmacobio-dynamics",
+            "year": "1990",
+            "authors": [
+              "Takahashi N",
+              "Aramaki Y",
+              "Tsuchiya S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetylglucosaminidase",
+              "Administration, Topical",
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Antigens",
+              "Biomarkers",
+              "Chlorpheniramine",
+              "Disease Models, Animal",
+              "Evans Blue",
+              "Fluprednisolone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1705288/"
+          },
+          {
+            "pmid": "2923378",
+            "title": "The pathophysiology of rhinitis. II. Assessment of the sources of protein in histamine-induced nasal secretions.",
+            "abstract": "Nasal provocation tests were performed on nine atopic and 15 nonatopic subjects in order to assess the sources of protein in histamine-induced secretions and to examine the bilateral secretory response to unilaterally applied topical histamine (the nasonasal reflex). Nasal lavages were assayed for the following proteins: albumin, total protein, secretory IgA (sIgA), nonsecretory IgA (serum IgA), and total IgA. Histamine stimulation produced a profound ipsilateral protein secretion enriched in the serum proteins albumin and nonsecretory IgA. Histamine also produced a smaller contralateral protein secretion (about 15% as large as the ipsilateral response) which contained disproportionately elevated concentrations of the glandular protein sIgA. Topical pretreatment with chlorpheniramine (an H-1 antihistamine) completely abrogated the ipsilateral nasal secretory response to histamine. Nasal pretreatment with atropine (a muscarinic antagonist) had no significant effect on ipsilateral nasal ",
+            "journal": "The American review of respiratory disease",
+            "year": "1989",
+            "authors": [
+              "Raphael G D",
+              "Meredith S D",
+              "Baraniuk J N",
+              "Druce H M",
+              "Banks S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Atropine",
+              "Chlorpheniramine",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Histamine",
+              "Humans",
+              "Immunohistochemistry",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2923378/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9949542880058287,
+        "txgnn_rank": 6521,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.9913135170936584,
+        "txgnn_rank": 9560,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35652393",
+            "title": "Chlorpheniramine, an Old Drug with New Potential Clinical Applications: A Comprehensive Review of the Literature.",
+            "abstract": "Chlorpheniramine Maleate (CPM), also known as chlorphenamine, is a potent alkylamine first-generation H1 antihistamine that has been used since the 1950s. CPM is a widely popular drug commonly used to treat allergic conditions, given its antihistamine properties. Although mainly used in over-the-counter treatment for cough and colds, various studies discuss a wide range of CPM's clinical uses, such as treating asthma, plasma cell gingivitis, chronic urticaria, and depression, among others. This antihistamine is usually taken orally; however, intravenous, intramuscular, and subcutaneous routes have been documented. Intranasal routes of this drug have recently been explored, especially due to its antiviral properties against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Accordingly, given CPM's extensive medical and safety profile, the present review explores this versatile drug's current and potential clinical applications. Although it is widely used mainly for treating ",
+            "journal": "Current reviews in clinical and experimental pharmacology",
+            "year": "2024",
+            "authors": [
+              "Rizvi Syed A A",
+              "Ferrer Gustavo",
+              "Khawaja Uzzam A",
+              "Sanchez-Gonzalez Marcos A"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Chlorpheniramine",
+              "Histamine H1 Antagonists",
+              "Common Cold",
+              "Administration, Intranasal",
+              "SARS-CoV-2",
+              "Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35652393/"
+          },
+          {
+            "pmid": "334082",
+            "title": "Primary acquired cold urticaria. Double-blind comparative study of treatment with cyproheptadine, chlorpheniramine, and placebo.",
+            "abstract": "Eight subjects with primary-acquired cold urticaria were treated with chlorpheniramine maleate, cyproheptadine hydrochloride, and placebo in a double-blind clinical trial. During three separate seven-day treatment periods, each patient took 4 mg of either active drug or lactose placebo three times a day. Objective measurements were made at the beginning and end of each treatment period by establishing the minimum time (MT) of cold stimulus application required to provoke urtication. In addition, the spontaneous appearance of cold urticaria lesions was recorded during each treatment period. The MT required for induction of urtication with a cold stimulus was significantly greater for eight patients receiving cyproheptadine as compared to chlorpheniramine or placebo (P less than .01). The study demonstrated that cyproheptadine had a significant suppressive action on experimental cold-induced urticaria, while placebo and chlorpheniramine proved ineffective.",
+            "journal": "Archives of dermatology",
+            "year": "1977",
+            "authors": [
+              "Wanderer A A",
+              "St Pierre J P",
+              "Ellis E F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Chlorpheniramine",
+              "Clinical Trials as Topic",
+              "Cold Temperature",
+              "Cyproheptadine",
+              "Double-Blind Method",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/334082/"
+          },
+          {
+            "pmid": "2873823",
+            "title": "Urticaria in Thai children.",
+            "abstract": "In this study, 142 patients under 12 years of age with the diagnosis of urticaria accompanied or not by angioedema were examined. In all 72.6% of the patients were under 6 years of age. Boys and girls were equally affected, 13.4% of the cases had chronic urticaria, 56.3% had a previous history of urticaria, 88.0% had generalized urticaria, and about half of the cases had associated angioedema. The causes of the urticaria were identified or suspected in 32.4% of the cases. Drugs, foods, insect bites and stings, infections and cold were the most common or associated precipitating agents in that order. Histories revealed 27.5% of the cases had records of other allergic diseases, and 76.1% had allergic diseases in the family. Dermographisms were found in 16.2% of the cases, and 22.5% of cases had eosinophilia. The means of IgE levels in both acute and chronic urticaria were within normal limits, and there was no statistically significant difference between the two groups. Skin testing was ",
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1986",
+            "authors": [
+              "Tuchinda M",
+              "Srimaruta N",
+              "Habanananda S",
+              "Vareenil J",
+              "Assatherawatts A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angioedema",
+              "Child",
+              "Child, Preschool",
+              "Chronic Disease",
+              "Drug Eruptions",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity",
+              "Immunoglobulin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2873823/"
+          },
+          {
+            "pmid": "11702618",
+            "title": "Treatment of urticaria. An evidence-based evaluation of antihistamines.",
+            "abstract": "Urticaria is a cutaneous syndrome characterized by dermal edema (wheal) and erythema (flare) that blanches with pressure. The lesions typically last less than 24 hours and are usually pruritic. In 1983, Christensen and Maibach summarized the theory behind the use of histamine H1 receptor antagonists (antihistamines) in clinical dermatology. These agents remain the mainstay of treatment for urticaria. This article reviews the medical literature on the effectiveness of antihistamines in urticarial syndromes, including acute, chronic idiopathic and the physical urticarias. Older antihistamines, such as chlorpheniramine and hydroxyzine, are effective in the treatment of urticarias, but they also have marked sedative and anticholinergic effects. Newer nonsedating antihistamines (second-generation antihistamines) have been developed that have reduced adverse effects because they do not cross the blood-brain barrier; these agents (acrivastine, cetirizine, loratadine, mizolastine, fexofenadine",
+            "journal": "American journal of clinical dermatology",
+            "year": "2001",
+            "authors": [
+              "Lee E E",
+              "Maibach H I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Controlled Clinical Trials as Topic",
+              "Evidence-Based Medicine",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Treatment Outcome",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11702618/"
+          },
+          {
+            "pmid": "2523301",
+            "title": "Loratadine. A preliminary review of its pharmacodynamic properties and therapeutic efficacy.",
+            "abstract": "Loratadine is a long acting antihistamine which has a high selectivity for peripheral histamine H1-receptors and lacks the central nervous system depressant effects often associated with some of the older antihistamines. Results from controlled clinical trials have shown that loratadine (usually 10mg once daily) is a well-tolerated and effective antihistamine which will be beneficial in patients with allergic rhinitis and chronic urticaria. It was found to be significantly superior to placebo, faster acting than astemizole and as effective as usual dosages of terfenadine, clemastine, mequitazine and azatadine in eliciting relief of symptoms. Importantly, loratadine is associated with a lower incidence of sedation than azatadine, clemastine, chlorpheniramine and mequitazine. Thus, loratadine, with its convenience of once daily administration, will be a useful addition to those drugs currently available for the treatment of patients with allergic diseases in whom a histamine H1-receptor ",
+            "journal": "Drugs",
+            "year": "1989",
+            "authors": [
+              "Clissold S P",
+              "Sorkin E M",
+              "Goa K L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Common Cold",
+              "Cyproheptadine",
+              "Female",
+              "Humans",
+              "Loratadine",
+              "Male",
+              "Rhinitis, Allergic, Perennial",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2523301/"
+          },
+          {
+            "pmid": "21217928",
+            "title": "A case of chlorpheniramine maleate-induced hypersensitivity with aspirin intolerance.",
+            "abstract": "Antihistamines are commonly used to treat allergic disease, such as allergic rhinitis, urticaria, and angioedema. Although several previous reports describe hypersensitivity to antihistamines such as cetirizine and hydroxyzine, documented cases of chlorpheniramine hypersensitivity are extremely rare. Here, we report the case of a 45-year-old Korean woman who presented with urticaria after ingesting a cold medication. Over the previous 5 years, she had also experienced a food allergy to crab and shrimp, allergic rhinitis, and repeated urticaria after ingesting cold medication. Provocation with aspirin elicited generalized urticaria. Intravenous chlorpheniramine and methylprednisolone was injected for symptom control, but in fact appeared to aggravate urticaria. A second round of skin and provocation tests for chlorpheniramine and methylprednisolone showed positive results only for chlorpheniramine. She was diagnosed with aspirin intolerance and chlorpheniramine hypersensitivity, and was",
+            "journal": "Allergy, asthma & immunology research",
+            "year": "2011",
+            "authors": [
+              "Kim Min-Hye",
+              "Lee Sang-Min",
+              "Lee So-Hee",
+              "Kwon Hyouk-Soo",
+              "Kim Sae-Hoon"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21217928/"
+          },
+          {
+            "pmid": "37501211",
+            "title": "Effects of the immunoglobulin/histamine complex on panic disorder concurrent with chronic spontaneous urticaria: a case report.",
+            "abstract": "Panic disorder and panic attacks are two of the most common problems in psychiatry. A psychoimmunological correlation between allergic diseases and panic disorder has been strongly suggested. Histamine H1 receptor antagonists have been suggested as alternative drugs for the treatment of panic disorder. Chronic spontaneous urticaria (CSU) and panic disorder improved simultaneously with selective serotonin reuptake inhibitor antidepressants. Panic disorder has also been treated with the antihistamine chlorpheniramine. The immunoglobulin/histamine complex is a histamine-fixed immunoglobulin preparation that was reported to be effective in treating CSU. This case report describes the successful treatment of a patient with concomitant panic disorder and CSU for 23 years using immunoglobulin/histamine complex therapy.",
+            "journal": "Journal of medical case reports",
+            "year": "2023",
+            "authors": [
+              "Kim Hyuk Soon",
+              "Noh Geunwoong"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Histamine",
+              "Panic Disorder",
+              "Chronic Disease",
+              "Chronic Urticaria",
+              "Urticaria",
+              "Histamine H1 Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37501211/"
+          },
+          {
+            "pmid": "17297840",
+            "title": "[Anesthesia in a woman with cold urticaria].",
+            "abstract": "",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2006",
+            "authors": [
+              "Pérez Martínez D",
+              "Gonzalo González A A",
+              "Jarma Antacle N",
+              "Benlloch Petit R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Anesthesia, Inhalation",
+              "Anesthesia, Intravenous",
+              "Anti-Anxiety Agents",
+              "Chlorpheniramine",
+              "Cold Temperature",
+              "Colectomy",
+              "Diazepam",
+              "Diverticulum",
+              "Female",
+              "Histamine H1 Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17297840/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9832269549369812,
+        "txgnn_rank": 15301,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9707652926445008,
+        "txgnn_rank": 20957,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02246166",
+            "title": "A Double-Blind, Randomised, Placebo-Controlled, Parallelgroup, Single-Dose Study to Evaluate Effect of Paracetamol, Pseudoephedrine Hydrochloride, Dextromethorphan Hydrobromide and Chlorpheniramine Maleate Tablets Compared to Placebo in Subjects Suffering From the Common Cold or Influenza Over a 4 Hour Period",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-01",
+            "completion_date": "2015-02",
+            "country": "China",
+            "enrollment": 53,
+            "brief_summary": "This phase IV multi-centre, randomised, double-blind, placebo-controlled, parallel-group, single-dose study will assess the efficacy and tolerability of the active tablets versus placebo in participants suffering from cold and influenza. Eligible participants will be randomly assigned to one of 2 treatment groups (active or placebo tablets) and enter a four-hour (hr) treatment phase. Each participant will be administered only once during each study period. Participants will use a questionnaire t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged at least 18 years and less than 65 years\n* Good general and mental health in the opinion of the investigator\n* Participants diagnosed with a common cold or flu and must have the following symptoms of at least \"moderate\" in intensity (≥ 2) at the screening visit (baseline)",
+            "endpoints": [
+              "Symptom Severity Assessment at 15 Minutes",
+              "Symptom Severity Assessment at 30 Minutes",
+              "Symptom Severity Assessment at 1 Hour"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT02246166"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05520944",
+            "title": "Accelerating COVID-19 Clinical Recovery in the Outpatient Setting: Retrospective Data Collection and Analysis of COVID-19 Patients Treated With ClorNovir® (Chlorpheniramine Maleate (0.4% Nasal Spray)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2021-08-26",
+            "completion_date": "2022-10-01",
+            "country": "Dominican Republic",
+            "enrollment": 1000,
+            "brief_summary": "The purpose of this retrospective study is to evaluate the effectiveness of CPM nasal spray as part of the treatment of COVID-19 and its impact on clinical symptoms. Two cohort groups will be compared (CPM vs. standard care). The hypothesis to be tested is that patients treated with CPM nasal spray showed more rapid clinical improvement than those treated with standard of care alone. Clinical improvement will be evaluated by the total number of days with the manifestation of COVID-19 symptoms, i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female patients with a documented diagnosis of SAR-CoV-2\n* Patients with positive RT-PCR or antigen test for SARS-CoV-2 in nasopharyngeal or oropharyngeal swabs\n* Both vaccinated and unvaccinated (high-risk) persons will be included.\n* Willing and able to provide writt",
+            "endpoints": [
+              "Time to Clinical Recovery",
+              "Incidence of significant COVID-19-related clinical events",
+              "Incidence and severity of serious adverse events (SAEs)"
+            ],
+            "sponsor": "Dr. Ferrer BioPharma",
+            "url": "https://clinicaltrials.gov/study/NCT05520944"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00940836",
+            "title": "Phase III Clinical Trial - Efficacy and Safety Assessment of a Compound Acetaminophen, Chlorpheniramine and Phenylephrine Combination in the Symptomatic Treatment of Common Cold and Flu-Like Syndrome in Adults",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2009-06",
+            "completion_date": "",
+            "country": "Brazil",
+            "enrollment": 146,
+            "brief_summary": "The aim of this study is to assess the efficacy and safety of an anti-cold preparation compounded by acetaminophen, chlorpheniramine and phenylephrine for the treatment of cold and flu symptoms in healthy individuals in a randomized, double-blind, placebo-controlled clinical trial.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 18 to 60 years old;\n* Presenting with at least 6 and at max 72 hours of common cold symptoms (headache, muscle ache, rhinorrhea, nasal obstruction, sneezing, cough, sore or irritated throat, hoarseness, fever) or flu-like syndrome (high fever, muscle or articular a",
+            "endpoints": [
+              "Symptom improval assessed by questionnaires concerning headache, muscle ache, rhinorrhea, nasal obstruction, sneezes, cough, sore or irritated throat, hoarseness and fever, rated by patient himself in a scale from 0 to 4, being 0-absence and 4-severe."
+            ],
+            "sponsor": "Hospital de Clinicas de Porto Alegre",
+            "url": "https://clinicaltrials.gov/study/NCT00940836"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05275933",
+            "title": "Assessing the Efficacy of TCM Capsules Lian Hua Qing Wen Jiao Nang as Adjuvant Treatment in Mild COVID-19 Patients on Home Recovery Program in Singapore: a Randomised, Double-blind, Placebo-controlled Study",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2022-04-05",
+            "completion_date": "2023-11-22",
+            "country": "Singapore",
+            "enrollment": 93,
+            "brief_summary": "This research aims to investigate the adjuvant effect of LH in reducing the symptomatic duration of fully vaccinated, mild COVID-19 patients on home recovery program in Singapore. It is aimed to assist policymakers in incorporating clinically proven TCM treatment for mild COVID-19 patients on home recovery program, and establishing a guideline on TCM pandemic treatment protocol which is suitable to be integrated into the healthcare system.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants of age 21 to 79 years, all gender and races.\n2. Participant provides informed consent prior to initiation of any study procedures.\n3. Fully vaccinated (according to latest MOH criteria. Refer to Appendix 1) and qualified for Protocol 2 Primary Care (P2PC) (Append",
+            "endpoints": [
+              "1.1 Time (Days) to become asymptomatic (the event) for all 8 major COVID-19 symptoms."
+            ],
+            "sponsor": "Singapore Chung Hwa Medical Institution",
+            "url": "https://clinicaltrials.gov/study/NCT05275933"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01389518",
+            "title": "Evaluation of the Efficacy and Safety of Fixed Combination of Paracetamol, Chlorpheniramine and Phenylephrine in the Treatment of Symptomatic Common Cold and Flu Syndrome in Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2009-05",
+            "completion_date": "2009-11",
+            "country": "N/A",
+            "enrollment": 146,
+            "brief_summary": "The aim of this study is to evaluate the efficacy and safety of a fixed combination of paracetamol, phenylephrine and chlorpheniramine in symptomatic treatment of common cold and flu-like illness in adults in a randomized, double-blind, controlled trial. The investigators included 146 healthy study subjects aged between 18 and 60 years who presented flu or common cold moderate to severe onset of less than 3 days (72 hours). After clinical and laboratory evaluation were randomized to receive acti",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women between 18 and 60;\n* Presented symptoms of recent onset, for more than 6 hours and less than 72 hours, characterizing one of the following conditions:\n\nthe common cold, which consists of at least 2 symptoms among the 10 following: sneezing, rhinorrhea, nasal cong",
+            "endpoints": [
+              "Symptom score"
+            ],
+            "sponsor": "Hospital de Clinicas de Porto Alegre",
+            "url": "https://clinicaltrials.gov/study/NCT01389518"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02735070",
+            "title": "Phase III Study Comparing Coristina® D to Resfenol® in the Symptomatic Treatment of Common Cold",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2016-09",
+            "completion_date": "2017-03",
+            "country": "N/A",
+            "enrollment": 366,
+            "brief_summary": "The primary objective of this study is to evaluate the non-inferiority of Coristina® d in the symptomatic treatment of the common cold compared to Resfenol® comparator.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Sign and date the informed consent form;\n2. Age between 18 and 60 years old;\n3. Symptoms of common cold not exceeding 72 hours must be present;\n4. It will be considered symptoms of the common cold the presence of at least 2 of the 10 symptoms following: runny nose, sneezing, ",
+            "endpoints": [
+              "Global Evaluation from 1 to 3 days after last dose"
+            ],
+            "sponsor": "Brainfarma Industria Química e Farmacêutica S/A",
+            "url": "https://clinicaltrials.gov/study/NCT02735070"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27432623",
+            "title": "Treatment of Cluster Headache: The American Headache Society Evidence-Based Guidelines.",
+            "abstract": "Cluster headache (CH), the most common trigeminal autonomic cephalalgia, is an extremely debilitating primary headache disorder that is often not optimally treated. New evidence-based treatment guidelines for CH will assist clinicians with identifying and choosing among current treatment options.",
+            "journal": "Headache",
+            "year": "2016",
+            "authors": [
+              "Robbins Matthew S",
+              "Starling Amaal J",
+              "Pringsheim Tamara M",
+              "Becker Werner J",
+              "Schwedt Todd J"
+            ],
+            "pub_types": [
+              "Guideline",
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Central Nervous System Agents",
+              "Cluster Headache",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27432623/"
+          },
+          {
+            "pmid": "26095756",
+            "title": "H1-antihistamines for primary mast cell activation syndromes: a systematic review.",
+            "abstract": "Primary mast cell activation syndromes (MCAS) are a group of disorders presenting with symptoms of mast cell mediator release.",
+            "journal": "Allergy",
+            "year": "2015",
+            "authors": [
+              "Nurmatov U B",
+              "Rhatigan E",
+              "Simons F E R",
+              "Sheikh A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Disease Management",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Mast Cells",
+              "Mastocytosis",
+              "Randomized Controlled Trials as Topic",
+              "Syndrome",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26095756/"
+          },
+          {
+            "pmid": "36425231",
+            "title": "Clinically Relevant Drug Interactions with Monoamine Oxidase Inhibitors.",
+            "abstract": "Monoamine oxidase inhibitors (MAOI) are a class of drugs that were originally developed for the treatment of depression but have since been expanded to be used in management of affective and neurological disorders, as well as stroke and aging-related neurocognitive changes. Ranging from irreversible to reversible and selective to non-selective, these drugs target the monoamine oxidase (MAO) enzyme and prevent the oxidative deamination of various monoamines and catecholamines such as serotonin and dopamine, respectively. Tyramine is a potent releaser of norepinephrine (NE) and is found in high concentrations in foods such as aged cheeses and meats. Under normal conditions, NE is unable to accumulate to toxic levels due to the presence of MAO-A, an enzyme that degrades neurotransmitters, including NE. When MAO-A is inhibited, the capacity to handle tyramine intake from the diet is significantly reduced causing the brain to be vulnerable to overstimulation of postsynaptic adrenergic recep",
+            "journal": "Health psychology research",
+            "year": "2022",
+            "authors": [
+              "Edinoff Amber N",
+              "Swinford Connor R",
+              "Odisho Amira S",
+              "Burroughs Caroline R",
+              "Stark Cain W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36425231/"
+          },
+          {
+            "pmid": "7528133",
+            "title": "Loratadine. A reappraisal of its pharmacological properties and therapeutic use in allergic disorders.",
+            "abstract": "Loratadine is a long-acting antihistamine agent, exhibiting partial selectivity for peripheral histamine H1-receptors. To date, loratadine has been evaluated in allergic rhinitis, urticaria and, to a limited extent, in asthma. In several large controlled comparative clinical studies, loratadine was superior to placebo, faster acting than astemizole and as effective as azatadine, cetirizine, chlorpheniramine (chlorphenamine), clemastine, hydroxyzine, mequitazine and terfenadine in patients with allergic rhinitis and chronic urticaria. The clinical effectiveness of loratadine in asthma is at present unclear. Loratadine is well tolerated. At dosages of 10 mg daily, commonly reported adverse events were somnolence, fatigue and headache. Sedation occurred less frequently with loratadine than with azatadine, cetirizine, chlorpheniramine, clemastine and mequitazine. Serious ventricular arrhythmias, as reported with some other second generation histamine H1-receptor antagonists, have not been ",
+            "journal": "Drugs",
+            "year": "1994",
+            "authors": [
+              "Haria M",
+              "Fitton A",
+              "Peters D H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Drug Interactions",
+              "Humans",
+              "Hypersensitivity",
+              "Loratadine",
+              "Psychomotor Performance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7528133/"
+          },
+          {
+            "pmid": "8808167",
+            "title": "Ebastine. a review of its pharmacological properties and clinical efficacy in the treatment of allergic disorders.",
+            "abstract": "Ebastine is a long-acting nonsedating second generation histamine H1 receptor antagonist which binds preferentially to peripheral H1 receptors in vivo. It has shown antihistamine and antiallergic activity in healthy volunteers and patients with allergies, and protected against histamine-induced bronchoconstriction in patients with asthma. Significant symptom improvement is observed in patients with seasonal or perennial allergic rhinitis or chronic idiopathic urticaria following administration of ebastine 10 mg/day, or 20 mg/day in severe rhinitis. In clinical trials, the efficacy of ebastine 10 or 20 mg/day was generally similar to standard dosages of terfenadine, cetirizine, astemizole and loratadine in patients with seasonal allergic rhinitis, astemizole, terfenadine and ketotifen in patients with chronic idiopathic urticaria, and ketotifen, terfenadine, chlorpheniramine and mequitazine in patients with perennial allergic rhinitis. The most frequent adverse events reported during eb",
+            "journal": "Drugs",
+            "year": "1996",
+            "authors": [
+              "Wiseman L R",
+              "Faulds D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Butyrophenones",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8808167/"
+          },
+          {
+            "pmid": "7010874",
+            "title": "Cimetidine in the prophylaxis of migraine.",
+            "abstract": "The prophylactic effect of the histamine H2-blocker cimetidine, either alone or combined with an H1-blocker (chlorpheniramine), was investigated in 34 migraine patients in a double-blind crossover trial. Twelve patients withdrew during the course of the trial, one because of the side effects and the remainder because of failure to attend checkups or to keep adequate record of attacks. In the 22 patients who completed the trial, there were no significant responses to cimetidine or cimetidine + chlorpheniramine, during 3 months' therapy, as compared with 3 months' therapy with placebo, either on number, duration or severity of attacks. The study demonstrates that cimetidine is unlikely to be effective in migraine, and casts doubt on the role of histamine in the development of migraine attacks.",
+            "journal": "Acta neurologica Scandinavica",
+            "year": "1980",
+            "authors": [
+              "Nanda R N",
+              "Arthur G P",
+              "Johnson R H",
+              "Lambie D G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Chlorpheniramine",
+              "Cimetidine",
+              "Clinical Trials as Topic",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Guanidines",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7010874/"
+          },
+          {
+            "pmid": "11915306",
+            "title": "[Clinical study of BRON-L syrup (cough suppressant) abuse].",
+            "abstract": "In 1980s, abuse and dependence of BRON-W syrup (cough suppressant), which contains methylephedrine, dihydrocodeine, chlorpheniramine and caffeine, were prevalent in Japan. Pharmacological and clinical studies suggest that methylephedrine and dihydrocodeine cause dependence. Although BRON-L syrup, newly modified cough suppressant contains only chlorpheniramine and caffeine, there still are abuse and dependence of this drug. In this report, three cases of BRON-L syrup abuse are demonstrated. All cases started using BRON-L syrup in the late teens in their peer groups, and dropped out from school. Case 1 misused only BRON-L syrup, but case 2 and 3 were multi-drug abusers (case 2: amphetamine, cocaine, and marijuana, case 3: solvent, alcohol, bromovalerylurea), and had kept in tough with the peer groups. Case 2 and 3 hospitalized more than 2 times. Withdrawal symptoms, such as headache, insomnia, and irritability were mild and improved in a few weeks after drug use was stopped. These findin",
+            "journal": "Nihon Arukoru Yakubutsu Igakkai zasshi = Japanese journal of alcohol studies & drug dependence",
+            "year": "2002",
+            "authors": [
+              "Miyatake Ryosuke",
+              "Doi Tomoko",
+              "Date Kenji",
+              "Naitoh Tomomichi",
+              "Suwaki Hiroshi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antitussive Agents",
+              "Caffeine",
+              "Chlorpheniramine",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Male",
+              "Nonprescription Drugs",
+              "Substance-Related Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11915306/"
+          },
+          {
+            "pmid": "479908",
+            "title": "Cluster headache: trial of a combined histamine H1 and H2 antagonist treatment.",
+            "abstract": "Fifteen patients with symptomatic cluster headache participated in a double-blind crossover trial of a combined histamine H1 and H2 antagonist treatment. The trial lasted six weeks. There was no significant improvement on active treatment as regards mean number of headache attacks per week, intensity, or duration of attacks. These results suggest that histamine does not play a significant role in the pathogenesis of cluster headache.",
+            "journal": "Journal of neurology, neurosurgery, and psychiatry",
+            "year": "1979",
+            "authors": [
+              "Russell D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Chlorpheniramine",
+              "Cimetidine",
+              "Cluster Headache",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Evaluation Studies as Topic",
+              "Guanidines",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/479908/"
+          },
+          {
+            "pmid": "10096452",
+            "title": "Possible involvement of histamine in muscular fatigue in temporomandibular disorders: animal and human studies.",
+            "abstract": "As an approach to clarifying the molecular basis of pain and fatigue in muscles involved in temporomandibular disorders, we examined the activity of histidine decarboxylase (HDC), the enzyme which forms histamine, in the masseter muscles of mice. In the resting muscle, HDC activity was very low. Direct electrical stimulation of the muscle markedly elevated HDC activity. HDC activity rose within 3 hrs of the electrical stimulation, peaked at 6 to 8 hrs, and then gradually declined. Intraperitoneal injection of a small amount of interleukin-1 (IL-1) (from 1 to 10 microg/kg) produced a similar elevation of HDC activity in the masseter muscle. We also examined the effect of an antihistamine, chlorphenylamine (CP), on temporomandibular disorders in humans and compared it with that of an anti-inflammatory analgesic, flurbiprofen (FB). Two groups received one or the other of the drugs daily for 7 days, and they were asked about their signs and symptoms before and after the treatment. A positi",
+            "journal": "Journal of dental research",
+            "year": "1999",
+            "authors": [
+              "Watanabe M",
+              "Tabata T",
+              "Huh J I",
+              "Inai T",
+              "Tsuboi A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analysis of Variance",
+              "Animals",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Chlorpheniramine",
+              "Electric Stimulation",
+              "Facial Pain",
+              "Flurbiprofen",
+              "Histamine",
+              "Histamine H1 Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10096452/"
+          },
+          {
+            "pmid": "9850752",
+            "title": "[Chronic brain edema in neurocysticercosis].",
+            "abstract": "In a retrospective study, we report the clinical characteristics of chronic brain oedema (CBO) in 34 patients with neurocysticercosis (NCC) who presented diffuse brain oedema upon computed tomography (CT) as a common point. All patients received dextrochlorpheniramine, and, 94.1% of them also albendazole. A predominance of females (73.5%) aged 11-40 years (92.3%) was seen. Headache occurred in 94.1% of patients, nausea/vomiting in 47.1%, epileptic manifestations in 41.1% and psychiatric disorders in 38.2%. Hyperreflexia was obtained in 82.3% of patients, papilloedema in 58.8% and normal neurological examination in 11.8%. The CT scan of the brain showed an association of oedema with calcifications in 61.8% of cases. The cerebrospinal fluid (CSF) pressure was higher before than after treatment (p < 0.05). At the last visit, 79.4% of patients were currently asymptomatic (57.1% of them without medication). It is pointed out that CBO may be an antigenic manifestation in NCC without the conc",
+            "journal": "Arquivos de neuro-psiquiatria",
+            "year": "1998",
+            "authors": [
+              "Agapejev S",
+              "Yela D A",
+              "Gomes A E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Albendazole",
+              "Anthelmintics",
+              "Brain Edema",
+              "Chlorpheniramine",
+              "Chronic Disease",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9850752/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.9700888991355896,
+        "txgnn_rank": 21236,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9683210849761964,
+        "txgnn_rank": 21836,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27432623",
+            "title": "Treatment of Cluster Headache: The American Headache Society Evidence-Based Guidelines.",
+            "abstract": "Cluster headache (CH), the most common trigeminal autonomic cephalalgia, is an extremely debilitating primary headache disorder that is often not optimally treated. New evidence-based treatment guidelines for CH will assist clinicians with identifying and choosing among current treatment options.",
+            "journal": "Headache",
+            "year": "2016",
+            "authors": [
+              "Robbins Matthew S",
+              "Starling Amaal J",
+              "Pringsheim Tamara M",
+              "Becker Werner J",
+              "Schwedt Todd J"
+            ],
+            "pub_types": [
+              "Guideline",
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Central Nervous System Agents",
+              "Cluster Headache",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27432623/"
+          },
+          {
+            "pmid": "479908",
+            "title": "Cluster headache: trial of a combined histamine H1 and H2 antagonist treatment.",
+            "abstract": "Fifteen patients with symptomatic cluster headache participated in a double-blind crossover trial of a combined histamine H1 and H2 antagonist treatment. The trial lasted six weeks. There was no significant improvement on active treatment as regards mean number of headache attacks per week, intensity, or duration of attacks. These results suggest that histamine does not play a significant role in the pathogenesis of cluster headache.",
+            "journal": "Journal of neurology, neurosurgery, and psychiatry",
+            "year": "1979",
+            "authors": [
+              "Russell D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Chlorpheniramine",
+              "Cimetidine",
+              "Cluster Headache",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Evaluation Studies as Topic",
+              "Guanidines",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/479908/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "IgE responsiveness, atopic",
+        "txgnn_score": 0.9597233533859252,
+        "txgnn_rank": 24360,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhinitis",
+        "txgnn_score": 0.9582425951957704,
+        "txgnn_rank": 24690,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04790487",
+            "title": "A Randomized Placebo Control Trial to Evaluate the Efficacy of Chlorpheniramine Maleate Nasal Spray vs. Placebo for Acute or Chronic Rhinitis",
+            "phase": "PHASE2, PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2019-07-30",
+            "completion_date": "2021-12-30",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Allergic rhinitis is defined as the symptoms of sneezing, nasal itching, airflow obstruction, and, mostly, clear nasal discharge caused by IgE-mediated reactions against inhaled allergens and involving mucosal inflammation driven by T cells (Th2) auxiliary type 2. pollens and molds, as well as allergens from perennial interiors, such as dust mites, pets, pests, and some molds. The pattern of dominant allergens depends on the geographic region and degree of urbanization, but the general prevalenc",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. No oral steroids\n2. No oral antihistamine\n3. No Nafasoline If the patient needs rescue treatment, he will go to the intervention arm with chlorpheniramine or with the combination of chlorpheniramine and fluticasone. If a participant experienced a severe acute nasal block, the",
+            "endpoints": [
+              "Daily Symptom Score (DSS)",
+              "Visual Analogue Scale (VAS)"
+            ],
+            "sponsor": "Larkin Community Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04790487"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01293201",
+            "title": "A Multi-Center, Double-Blind, Randomized, Placebo-Controlled, Parallel-Group Study Evaluating the Safety and Efficacy of STAHIST in Adult and Adolescent Subjects With a History of Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-03",
+            "completion_date": "2011-08",
+            "country": "United States",
+            "enrollment": 290,
+            "brief_summary": "The overall development plan is to show that the combination of tried-and-proven decongestant/antihistamine ingredients (pseudoephedrine hydrochloride and chlorpheniramine maleate), plus a very small amount of belladonna alkaloids (.24 mg atropine sulfate) is a comprehensive, safe and effective B.I.D. drug treatment regimen, indicated for the relief of symptoms associated with seasonal allergic rhinitis in adults and children 12 years of age and older. Treated symptoms include nasal congestion, ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and females of any ethnic group between 12 and 60 years of age.\n2. History of moderate to severe Seasonal Allergic Rhinitis (SAR) for at least two years.\n3. Subjects' symptoms resulting from the irritation of sinus, nasal and upper respiratory tract tissues will include ",
+            "endpoints": [
+              "Total Symptom Scores (TSS)"
+            ],
+            "sponsor": "Magna Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01293201"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00932256",
+            "title": "STAHIST IND 105781 Phase 1 Clinical Trial",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2009-10",
+            "completion_date": "2010-12",
+            "country": "United States",
+            "enrollment": 21,
+            "brief_summary": "MAGNA intends to show that the combination of pseudoephedrine, chlorpheniramine, plus a small amount of belladonna alkaloid is a comprehensive, safe and effective twice daily (BID) drug treatment for seasonal allergic rhinitis (SAR) patients with post-nasal drip (PND). The phase 1 single-dose trial will consist of 21 subjects: 1) to gather pharmacodynamic measurements and blood levels of active ingredients over 12 hours; 2) To report subjective scores by subjects rating efficacy of single dose o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males and females of any ethnic group between the ages of 18 and 60 years of age.\n* History of moderate to severe SAR for at least one year.\n* Subjects' symptoms will include the five symptoms (\"S5\") that are the focus of this study:\n\n  * nasal congestion;\n  * rhinorrhea;\n  * ",
+            "endpoints": [
+              "To gather pharmacodynamic measurements and assess blood levels (five draws) of the active ingredients in STAHIST over the dosage interval period of 12 hours."
+            ],
+            "sponsor": "Magna Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00932256"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01008397",
+            "title": "Phase 1 Study of AHIST in Seasonal Allergic Rhinitis Patients",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2011-04",
+            "completion_date": "2011-05",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Objectives:\n\nA) To gather pharmacodynamic measurements and assess blood levels of the active ingredients in AHIST over the dosage interval period of 12 hours.\n\nHypothesis: Hysteresis curves plotting each active ingredient's blood levels over a 12-hour dosage interval will substantiate S5 Symptom Diary scores (IE: evidentiary therapeutic window data);\n\nB) To report subjective scores by subjects rating the efficacy of a single dose AHIST in relieving nasal congestion, rhinorrhea, nasal itching, sn",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and females of any ethnic group between 18 and 60 years of age.\n2. History of moderate to severe Seasonal Allergic Rhinitis (SAR) for at least two years.\n3. Subjects' symptoms resulting from the irritation of sinus, nasal and upper respiratory tract tissues will include ",
+            "endpoints": [
+              "To gather pharmacodynamic measurements and assess blood levels (five draws) of the active ingredient in AHIST over the dosage interval period of 12 hours."
+            ],
+            "sponsor": "Magna Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01008397"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03879772",
+            "title": "Dose-Ranging Study of Mometasone Furoate Nasal Spray (SCH 32088) in the Treatment of Children (Ages 6-11) With Seasonal Allergic Rhinitis (Protocol C95-161)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1996-03-12",
+            "completion_date": "1996-07-01",
+            "country": "N/A",
+            "enrollment": 679,
+            "brief_summary": "The purpose of this study was to identify the lowest dosage of mometasone furoate nasal spray (MFNS) that provided adequate efficacy with an acceptable safety profile for children (ages 6-11) with seasonal allergic rhinitis (SAR). The MFNS dose levels of 25, 100, and 200 mcg QD were compared with beclomethasone dipropionate (BDP), as an active control, and placebo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have at least a one-year history of seasonal allergic rhinitis which previously required treatment for tree and/or grass pollen\n* Have a positive skin test response to an appropriate tree and/or grass seasonal allergen within the last year.\n* Must be free of any clinically sig",
+            "endpoints": [
+              "Change From Baseline in the Total Nasal Symptom Score (TNSS) at Day 8 as Assessed by Investigator"
+            ],
+            "sponsor": "Organon and Co",
+            "url": "https://clinicaltrials.gov/study/NCT03879772"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02722083",
+            "title": "A Single-blind, Randomized, Placebo Controlled, Crossover Pilot Study to Evaluate the Onset of Action of an Antihistamine in Subjects Following Allergen Exposure in an Allergen Chamber",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2016-05-07",
+            "completion_date": "2016-07-13",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "The purpose of the study is to explore the onset of effect of an antihistamine in a controlled environment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ambulatory healthy male and female subjects between 18 to 65 years of age inclusive;\n* Self-reported to have seasonal allergic rhinitis for at least 2 years prior\n* Documented positive skin prick test response to common ragweed (ambrosia artemisiifolia) pollen; prick with whea",
+            "endpoints": [
+              "The time to the meaningful relief, as defined by at least 15% of reduction from baseline in Total Symptom Score (TSS)"
+            ],
+            "sponsor": "Bayer",
+            "url": "https://clinicaltrials.gov/study/NCT02722083"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02082054",
+            "title": "A Phase 2, Double-Blind, Parallel-Group, Dose-Ranging Study Evaluating Safety/ Efficacy Atropine Doses With Pseudoephedrine and Chlorpheniramine in SAR Patients 12 Years of Age and Older",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2014-03",
+            "completion_date": "2014-05",
+            "country": "United States",
+            "enrollment": 125,
+            "brief_summary": "This active vs active comparative trial will evaluate the safety and efficacy of incremental doses of atropine in combination with pseudoephedrine 120 mg/chlorpheniramine 8 mg in adult patients with a history of seasonal allergic rhinitis. Hypotheses are defined by total nasal symptom scores (TNSS) recorded by subjects in diaries where efficacy will be established by statistical significance where p \\< 0.05.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and females of any ethnic group between 12 and 60 years of age.\n2. History of moderate to severe SAR for at least two years; defined as having a score of 2 or more on a 0-3 point scale\n3. Documentation of sensitivity will be obtained from medical records or positive skin",
+            "endpoints": [
+              "Dose-ranging data for atropin"
+            ],
+            "sponsor": "Magna Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02082054"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35652393",
+            "title": "Chlorpheniramine, an Old Drug with New Potential Clinical Applications: A Comprehensive Review of the Literature.",
+            "abstract": "Chlorpheniramine Maleate (CPM), also known as chlorphenamine, is a potent alkylamine first-generation H1 antihistamine that has been used since the 1950s. CPM is a widely popular drug commonly used to treat allergic conditions, given its antihistamine properties. Although mainly used in over-the-counter treatment for cough and colds, various studies discuss a wide range of CPM's clinical uses, such as treating asthma, plasma cell gingivitis, chronic urticaria, and depression, among others. This antihistamine is usually taken orally; however, intravenous, intramuscular, and subcutaneous routes have been documented. Intranasal routes of this drug have recently been explored, especially due to its antiviral properties against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Accordingly, given CPM's extensive medical and safety profile, the present review explores this versatile drug's current and potential clinical applications. Although it is widely used mainly for treating ",
+            "journal": "Current reviews in clinical and experimental pharmacology",
+            "year": "2024",
+            "authors": [
+              "Rizvi Syed A A",
+              "Ferrer Gustavo",
+              "Khawaja Uzzam A",
+              "Sanchez-Gonzalez Marcos A"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Chlorpheniramine",
+              "Histamine H1 Antagonists",
+              "Common Cold",
+              "Administration, Intranasal",
+              "SARS-CoV-2",
+              "Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35652393/"
+          },
+          {
+            "pmid": "30203761",
+            "title": "Therapeutic effect of chlorpheniramine in treatingupper airway cough syndrome (UACS) and chronic rhinitis/sinusitis.",
+            "abstract": "This paper aims to analyze the specific effect of chlorpheniramine on upper airway cough syndrome is related to its treatment of chronic rhinitis and sinusitis. A total of 218 patients admitted to hospital between March 2014 and June 2016 were treated with chlorpheniramine. The patients were divided into two groups based on treatment effect in follow-up visits (all were effective): effective group (114 cases, 52.29%) and ineffective group (104 cases, 47.71%). The proportion of complicated rhinitis or sinusitis of the two groups were compared, and improvement effect on clinical symptoms of chronic rhinitis and sinusitis after treatment was compared. The probability of rhinitis / sinusitis was 65.79% (75/114) in the effective group and 69.23% (72/104) in the ineffective group. There was no statistical difference between the two groups (P>0.05). In both effective and ineffective group, the symptoms such as chest tightness and shortness of breath and pharyngeal discomfort were improved to ",
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2018",
+            "authors": [
+              "Du Fen"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Case-Control Studies",
+              "Chlorpheniramine",
+              "Chronic Disease",
+              "Cough",
+              "Dextromethorphan",
+              "Drug Therapy, Combination",
+              "Female",
+              "Guaifenesin",
+              "Histamine H1 Antagonists",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30203761/"
+          },
+          {
+            "pmid": "15562884",
+            "title": "Addition of ibuprofen to pseudoephedrine and chlorpheniramine in the treatment of seasonal allergic rhinitis.",
+            "abstract": "Patients with seasonal allergic rhinitis experience many nasal and concomitant nonnasal symptoms. Many patients also experience headaches and facial pain, pressure, or discomfort. Standard over-the-counter therapy with antihistamines and nasal decongestants often does not completely relieve all symptoms associated with allergic rhinitis.",
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2004",
+            "authors": [
+              "Meltzer Eli O",
+              "Berman Gary D",
+              "Corren Jonathan",
+              "Pedinoff Andrew J",
+              "Doyle Geraldine"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Chlorpheniramine",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Ephedrine",
+              "Female",
+              "Humans",
+              "Ibuprofen",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15562884/"
+          },
+          {
+            "pmid": "7007473",
+            "title": "Pharmacologic prophylaxis of allergic rhinitis: relative efficacy of hydroxyzine and chlorpheniramine.",
+            "abstract": "The efficacy of hydroxyzine and chlorpheniramine in preventing exacerbations of ragweed allergic rhinitis was compared in a double-blind, randomized manner. Ninety-five subjects with positive skin tests, a history of two previous symptomatic seasons, and discontinuation of immunotherapy for at least 1 yr received either hydroxyzine 150 mg/day, chlorpheniramine 24 mg/day, or placebo during the 1978 ragweed season. Subjects in the placebo group experienced annoying or disabling sneezing 50% of days during the period of highest pollen counts whereas those in the chlorpheniramine and hydroxyzine groups experienced this symptom with equal severity only 22% and 12% of days, respectively. Suppression of rhinorrhea and itchy nose was similar although less dramatic. Both antihistamines were more effective than placebo in altering conjunctivitis, but neither decreased the frequency or severity of nasal stuffiness. Skin tests to ragweed decreased in diameter during the season by 38%, 13%, and 3% ",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1981",
+            "authors": [
+              "Wong L",
+              "Hendeles L",
+              "Weinberger M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Chlorpheniramine",
+              "Clinical Trials as Topic",
+              "Female",
+              "Humans",
+              "Hydroxyzine",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7007473/"
+          },
+          {
+            "pmid": "6126871",
+            "title": "Controlled trial of terfenadine and chlorpheniramine maleate in perennial rhinitis.",
+            "abstract": "A double-blind clinical trial in 60 patients with perennial rhinitis was conducted to compare the efficacy and side effects of two antihistamines, terfenadine and chlorpheniramine maleate, and placebo. There was no statistically significant difference in response between active treatments and placebo. Although side effects were more frequent with chlorpheniramine this also was not statistically significant.",
+            "journal": "Postgraduate medical journal",
+            "year": "1982",
+            "authors": [
+              "Brostoff J",
+              "Lockhart J D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Benzhydryl Compounds",
+              "Chlorpheniramine",
+              "Clinical Trials as Topic",
+              "Double-Blind Method",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6126871/"
+          },
+          {
+            "pmid": "12839108",
+            "title": "Management of rhinitis and asthma in pregnancy.",
+            "abstract": "To objectively critique recent available data on the proper management of allergy and asthma during pregnancy, with an emphasis on understanding the risk and benefit of medications used during pregnancy for these disorders.",
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2003",
+            "authors": [
+              "Blaiss Michael S"
+            ],
+            "pub_types": [
+              "Guideline",
+              "Journal Article",
+              "Practice Guideline",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Asthma",
+              "Disease Management",
+              "Female",
+              "Humans",
+              "Maternal Welfare",
+              "Pregnancy",
+              "Pregnancy Complications",
+              "Rhinitis, Allergic, Perennial",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12839108/"
+          },
+          {
+            "pmid": "27508135",
+            "title": "Comparative Study of Apo-Cetirizine Single Therapy and Intermittent Sequential Therapy with Cetirizine, Loratadine and Chlorpheniramine in Allergic Rhinitis.",
+            "abstract": "There are limited numbers of articles, studying combined use of antihistamines. In this study, we compare single therapy of Apo-Cetirizine with a new regimen of intermittent sequential therapy with cetirizine, loratadine and chlorpheniramine in treatment of seasonal allergic rhinitis. This randomized clinical trial was performed between April and September at the peak prevalence of seasonal allergic rhinitis. Fifty-four eligible patients diagnosed clinically to have seasonal allergic rhinitis were randomized in two groups: 24 cases in single therapy arm, received Apo-Cetirizine 10 mg tablet daily and in other arm, 30 patients received sequential regimen of cetirizine 10 mg tablet, loratadine 10 mg tablet and chlorpheniramine 4 mg tablet, one tablet each day. Major Symptom Complex Score (MSCS) and Total Symptom Complex Score (TSCS) of patients were recorded before treatment and after 30 days of treatment in two groups. The average post-treatment MSCS and TSCS in combination therapy grou",
+            "journal": "Indian journal of otolaryngology and head and neck surgery : official publication of the Association of Otolaryngologists of India",
+            "year": "2016",
+            "authors": [
+              "Safavi Naini Ali",
+              "Ghorbani Jahangir",
+              "Mazloom Ebrahim"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27508135/"
+          },
+          {
+            "pmid": "320916",
+            "title": "Double-blind, controlled study of clemastine fumarate, chlorpheniramine and placebo in patients with seasonal allergic rhinitis.",
+            "abstract": "A whole body plethysmograph (body box) equipped with a flow meter (see Figure 1) was used for objective quantification of the effects of single doses of clemastine fumarate 2.68 mg, chlorpheniramine 4 mg and placebo in a double-blind study of 48 patients with seasonal allergic rhinitis. This technique offers an objective means of assessing drug effects on nasal congestion and obstruction. Before the development of whole body plethysmography, only subjective assessments of antihistamines' effects on nasal blockage or congestion were available. These subjective reports usually noted that nasal blockage or congestion was refractory to antihistamines or minimally relieved by them. However, in this study, nasal and oral airway resistances, each measured by whole body plethysmography, were lowered by clemastine fumarate and chlorpheniramine. These results were corroborated by the patients' and physician's assessments of changes in symptom severity and the physician's evaluation of intranasal",
+            "journal": "Annals of allergy",
+            "year": "1977",
+            "authors": [
+              "Thomas J S",
+              "Heurich A E",
+              "Ralph J W",
+              "Crane R",
+              "Shepherd D A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Airway Resistance",
+              "Chlorpheniramine",
+              "Clemastine",
+              "Clinical Trials as Topic",
+              "Drug Evaluation",
+              "Humans",
+              "Placebos",
+              "Plethysmography, Whole Body",
+              "Pyrrolidines",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/320916/"
+          },
+          {
+            "pmid": "3057041",
+            "title": "Multicenter, double-blind, multiple-dose, parallel-groups efficacy and safety trial of azelastine, chlorpheniramine, and placebo in the treatment of spring allergic rhinitis.",
+            "abstract": "Azelastine, a novel antiallergic medication, was compared with chlorpheniramine maleate and placebo for efficacy and safety in the treatment of spring allergic rhinitis in a multicenter, double-blind, multiple-dose, parallel-groups study. One hundred fifty-five subjects participated. Subjects ranged in age from 18 to 60 years of age and had at least a 2-year history of spring allergic rhinitis, confirmed by positive skin test to spring aeroallergens. Medications were given four times daily; the azelastine groups received 0.5, 1.0, or 2.0 mg in the morning and evening with placebo in the early and late afternoon; the chlorpheniramine group received 4.0 mg four times daily. Daily subject symptom cards were completed during a screening period to assess pretreatment symptoms and during a 4-week treatment period while subjects received study medications. Individual symptoms, total symptoms, and major symptoms were compared to determine efficacy of medication. Elicited, volunteered, and obse",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1988",
+            "authors": [
+              "Weiler J M",
+              "Donnelly A",
+              "Campbell B H",
+              "Connell J T",
+              "Diamond L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Chlorpheniramine",
+              "Circadian Rhythm",
+              "Clinical Trials as Topic",
+              "Dizziness",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3057041/"
+          },
+          {
+            "pmid": "6737232",
+            "title": "Urinary excretion of chlorpheniramine and its metabolites in children.",
+            "abstract": "The pharmacokinetics and urinary excretion of chlorpheniramine were studied in 11 patients, aged 6-16 years, with allergic rhinitis. In these children, chlorpheniramine had a mean elimination half-life of 13.1 +/- 6.6 h, a mean clearance rate of 7.23 +/- 3.16 mL/min/kg, and a mean apparent volume of distribution of 7.0 +/- 2.8 L/kg. Over 48 h, the recovery in urine was as follows: chlorpheniramine, 11.3 +/- 6.7%; demethylchlorpheniramine , 23.3 +/- 11.1%; and didemethylchlorpheniramine , 9.6 +/- 9.4%. Urine flow rate and urine pH were uncontrolled and ranged from 2.2 to 113.3 mL/h and 5.1-7.9, respectively, over the 48-h period. In some children urine flow rate and pH were constant, while in others there was great variability. When drug and metabolite excretion rates versus both urine flow rates and pH values were analyzed by multiple linear regression, the results were significantly better (p less than or equal to 0.05) than when each factor was analyzed independently. The excretion r",
+            "journal": "Journal of pharmaceutical sciences",
+            "year": "1984",
+            "authors": [
+              "Simons K J",
+              "Simons F E",
+              "Luciuk G H",
+              "Frith E M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Biotransformation",
+              "Child",
+              "Chlorpheniramine",
+              "Chromatography, High Pressure Liquid",
+              "Chromatography, Liquid",
+              "Half-Life",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Kinetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6737232/"
+          },
+          {
+            "pmid": "35507096",
+            "title": "In vivo visualization and analysis of ciliary motion in allergic rhinitis models induced by ovalbumin.",
+            "abstract": "Due to the lack of an assessment approach, the image of in vivo nasal ciliary motion of allergic rhinitis (AR) has never been captured and analyzed to date. Here, we have used an optimized approach to analyze the nasal ciliary function in vivo in AR rats. The digital microscopy system, a method for direct observation of ciliary motion in a living AR rat model, was applied to visualize and measure ciliary motion in vivo, including ciliary beat frequency (CBF) and ciliary beat distance (CBD). The AR rat model was established by ovalbumin sensitization. Comparisons of nasal ciliary motion in vivo between the experimental group (ovalbumin sensitization, allergen, or histamine) and the control group were analyzed. In the living rat model of allergic rhinitis, CBF and CBD decreased to 57.8 and 73.1% of the control group, respectively, but were restored after administration of chlorpheniramine maleate. Ovalbumin (OVA) significantly inhibited the ciliary motion of normal mucosa in vivo. Howeve",
+            "journal": "Experimental biology and medicine (Maywood, N.J.)",
+            "year": "2022",
+            "authors": [
+              "Liu Chen",
+              "Pang Chuan",
+              "Chen Dai-Shi",
+              "Wang Jin",
+              "Yi Wen-Qi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Allergens",
+              "Animals",
+              "Cytokines",
+              "Disease Models, Animal",
+              "Histamine",
+              "Mice",
+              "Mice, Inbred BALB C",
+              "Nasal Mucosa",
+              "Ovalbumin",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35507096/"
+          },
+          {
+            "pmid": "320917",
+            "title": "Double-blind, controlled study of clemastine fumarate, chlorpheniramine and placebo in the symptomatic treatment of seasonal allergic rhinitis in desensitized and nondesensitized patients.",
+            "abstract": "In double-blind trials clemastine fumarate 2.68 mg. chlorpheniramine 4 mg and placebo were randomly assigned to two groups of patients with seasonal allergic rhinitis. Thirty-nine desensitized patients were given one of the three test drugs in a parallel design; 67 nondesensitized patients each received two of the three drugs in a crossover design. Assessment of drug activity in each study was by whole body plethysmography and intranasal color photography as well as by subjective methods. Objective measurements showed clemastine fumarate was significantly superior to placebo and often better than chlorpheniramine in decreasing true nasal resistance and relieving nasal congestion. High placebo responses characterized the subjective evaluations, although the active drugs were clearly better. Responses varied somewhat between desensitized and nondesensitized patients. The number of reports of sedative effect, high in all groups, seemed to be more closely related to these antihistamine con",
+            "journal": "Annals of allergy",
+            "year": "1977",
+            "authors": [
+              "Thomas J S",
+              "Heurich A E",
+              "Huh C",
+              "Crane R",
+              "Shepherd D A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Airway Resistance",
+              "Chlorpheniramine",
+              "Clemastine",
+              "Clinical Trials as Topic",
+              "Desensitization, Immunologic",
+              "Humans",
+              "Placebos",
+              "Plethysmography, Whole Body",
+              "Pyrrolidines",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/320917/"
+          },
+          {
+            "pmid": "1981354",
+            "title": "Cetirizine. A review of its pharmacological properties and clinical potential in allergic rhinitis, pollen-induced asthma, and chronic urticaria.",
+            "abstract": "Cetirizine, a piperazine derivative and carboxylated metabolite of hydroxyzine, is a potent histamine H1-receptor antagonist with antiallergic properties. It has marked affinity for peripheral histamine H1-receptors and, at the standard dose of 10mg daily, lacks the CNS depressant effects of standard antihistamines. In addition, it inhibits histamine release and eosinophil chemotaxis during the secondary phase of the allergic response. Results from controlled clinical trials indicate that cetirizine is an effective and well tolerated treatment of seasonal and perennial allergic rhinitis and chronic idiopathic urticaria. Cetirizine appears to be as effective as conventional dosages of terfenadine, chlorpheniramine and hydroxyzine in relieving symptoms associated with these disorders and produces a markedly lower incidence of sedation than chlorpheniramine, hydroxyzine and several other standard antihistamines. Thus, cetirizine appears to provide a useful alternative to other 'nonsedatin",
+            "journal": "Drugs",
+            "year": "1990",
+            "authors": [
+              "Campoli-Richards D M",
+              "Buckley M M",
+              "Fitton A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Asthma",
+              "Cetirizine",
+              "Chronic Disease",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hydroxyzine",
+              "Pollen",
+              "Rhinitis, Allergic, Seasonal",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1981354/"
+          },
+          {
+            "pmid": "10230583",
+            "title": "Treating allergic rhinitis in pregnancy. Safety considerations.",
+            "abstract": "Allergic rhinitis affects approximately one-third of women of childbearing age. As a result, symptoms ranging from sneezing and itching to severe nasal obstruction may require pharmacotherapy. However, product labels state that medications for allergic rhinitis should be avoided during pregnancy due to lack of fetal safety data, even though the majority of the agents have human data which refute these notions. We present a systematic and critical review of the medical literature on the use of pharmacotherapy for the management of allergic rhinitis during pregnancy. Electronic databases and other literature sources were searched to identify observational controlled studies focusing on the rate of fetal malformations in pregnant women exposed to agents used to treat allergic rhinitis and related diseases compared with controls. Immunotherapy and intranasal sodium cromoglycate (cromolyn) and beclo-methasone would be considered as first-line therapy, both because of their lack of associati",
+            "journal": "Drug safety",
+            "year": "1999",
+            "authors": [
+              "Mazzotta P",
+              "Loebstein R",
+              "Koren G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Nasal Decongestants",
+              "Pregnancy",
+              "Pregnancy Complications",
+              "Rhinitis, Allergic, Perennial",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10230583/"
+          },
+          {
+            "pmid": "11331439",
+            "title": "Newer antihistamines.",
+            "abstract": "",
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2001",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Anti-Allergic Agents",
+              "Cetirizine",
+              "Chlorpheniramine",
+              "Procedural Sedation",
+              "Diphenhydramine",
+              "Dose-Response Relationship, Drug",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11331439/"
+          },
+          {
+            "pmid": "37573600",
+            "title": "The Effect of Warm Acupuncture on EOS, IgE, Inflammatory Factors, and T Lymphocyte Subsets in Patients with Allergic Rhinitis of Lung Qi Deficiency and Cold-Type.",
+            "abstract": "The purpose of this study was to investigate the effects of warming needle therapy on eosinophils, specific immunoglobulin E (IgE), inflammatory factors, and T lymphocyte subsets in patients with lung qi deficiency and cold-type allergic rhinitis (AR).",
+            "journal": "Alternative therapies in health and medicine",
+            "year": "2023",
+            "authors": [
+              "Sun Dunpo",
+              "Jiang Mingxiao",
+              "Lu Meng",
+              "Ma Xiaomin",
+              "Shang Guochao"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Qi",
+              "Quality of Life",
+              "Tumor Necrosis Factor-alpha",
+              "Interleukin-6",
+              "Interleukin-8",
+              "Rhinitis, Allergic",
+              "Acupuncture Therapy",
+              "Syndrome",
+              "Immunoglobulin E"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37573600/"
+          },
+          {
+            "pmid": "16800414",
+            "title": "Efficacy and central nervous system impairment of newer-generation prescription antihistamines in seasonal allergic rhinitis.",
+            "abstract": "Allergic rhinitis is a highly prevalent disorder and oral antihistamines are often used to manage patient symptoms. Older-generation antihistamines, such as diphenhydramine and chlorpheniramine, are effective at relieving the symptoms of seasonal allergic rhinitis (SAR); however, they are associated with adverse events, including sedation and impairment, at, or above, the recommended dose. Newer-generation antihistamines, such as desloratadine, cetirizine and fexofenadine, were developed to minimize adverse events. In this article, studies examining newer-generation antihistamines in adults and children were reviewed. The clinical evidence confirms that desloratadine, cetirizine and fexofenadine are effective at managing the symptoms of SAR in adults and children; however, cetirizine is more likely to cause sedation. Physician intervention is paramount to SAR symptom management. It is essential that appropriate treatment relieves SAR symptoms with absent or minimal adverse events. This",
+            "journal": "Southern medical journal",
+            "year": "2006",
+            "authors": [
+              "Spangler Dennis L",
+              "Brunton Stephen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Central Nervous System",
+              "Cetirizine",
+              "Histamine H1 Antagonists",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Humans",
+              "Loratadine",
+              "Quality of Life",
+              "Rhinitis, Allergic, Seasonal",
+              "Terfenadine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16800414/"
+          },
+          {
+            "pmid": "1715267",
+            "title": "Acrivastine. A review of its pharmacological properties and therapeutic efficacy in allergic rhinitis, urticaria and related disorders.",
+            "abstract": "Acrivastine is a short acting histamine H1-receptor antagonist with a rapid onset of action. Double-blind clinical trials have shown acrivastine (usually 8mg three times daily) to be an effective and well tolerated antihistamine in the treatment of chronic urticaria and allergic rhinitis. Acrivastine was more effective than placebo and similar in efficacy to clemastine or terfenadine in the treatment of seasonal allergic rhinitis. In the treatment of dermatoses in which histamine has a pathogenetic role, the efficacy of acrivastine was superior to that of placebo and similar to that of usual dosages of clemastine, hydroxyzine, chlorpheniramine, cyproheptadine or terfenadine. Acrivastine caused less drowsiness than clemastine, the incidence of adverse effects being indistinguishable from that with placebo or terfenadine. Thus, acrivastine is an effective addition to drugs currently available for the treatment of patients with allergic diseases in whom a histamine H1-receptor antagonist ",
+            "journal": "Drugs",
+            "year": "1991",
+            "authors": [
+              "Brogden R N",
+              "McTavish D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dermatitis, Atopic",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Rhinitis, Allergic, Seasonal",
+              "Triprolidine",
+              "Urticaria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1715267/"
+          },
+          {
+            "pmid": "7069073",
+            "title": "Pharmacokinetics and efficacy of chlorpheniramine in children.",
+            "abstract": "Chlorpheniramine is widely used, but there is very little information about its pharmacokinetics and efficacy in children. In 11 patients with allergic rhinitis, ages 6 to 16 yr, we found a mean serum chlorpheniramine half-life of 13.1 +/- 6.3 hr, a mean volume of distribution of 7.0 +/- 2.8 L/kg, and a mean clearance rate of 7.2 +/- 3.2 ml/min/kg. Suppression of symptoms and signs of allergic rhinitis and suppression of the histamine-induced wheal and flare responses occurred when mean serum chlorpheniramine concentration ranged from 2.3 to 12.1 and 4.1 to 10.0 ng/ml, respectively. This combined with the large volume of distribution for the drug, suggest that tissue binding is an important aspect of chlorpheniramine pharmacokinetics.",
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1982",
+            "authors": [
+              "Simons F E",
+              "Luciuk G H",
+              "Simons K J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Chlorpheniramine",
+              "Female",
+              "Humans",
+              "Kinetics",
+              "Male",
+              "Rhinitis, Allergic, Seasonal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7069073/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01114",
+    "name": "Chlorpheniramine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Chlorpheniramine"
+      },
+      "queried_at": "2026-03-09T18:14:21.257755",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Chlorpheniramine"
+      },
+      "queried_at": "2026-03-09T18:14:42.467766",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T18:14:43.664132",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T18:14:49.977637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T18:14:58.348065",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T18:14:59.904212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T18:15:04.886806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T18:15:11.607106",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:15:12.483753",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:15:15.981022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T18:15:17.417078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T18:15:18.470966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T18:15:23.501996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-09T18:15:27.826414",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:15:28.531892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:15:32.424460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T18:15:33.699741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T18:15:35.811433",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T18:15:42.905354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T18:15:49.562896",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T18:15:50.609190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T18:15:54.924459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-09T18:15:57.574951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T18:15:59.269259",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T18:16:02.604270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T18:16:06.610845",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T18:16:07.404401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T18:16:16.265971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-09T18:16:17.920830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T18:16:21.222601",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T18:16:29.420693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Chlorpheniramine",
+        "disease": "rhinitis"
+      },
+      "queried_at": "2026-03-09T18:16:33.312397",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:16:33.326380"
+  }
+}

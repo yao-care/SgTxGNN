@@ -1,0 +1,534 @@
+{
+  "drug": {
+    "inn": "Meloxicam",
+    "drugbank_id": "DB00814",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9992486834526062,
+        "txgnn_rank": 1576,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.999160647392273,
+        "txgnn_rank": 1703,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9990203380584716,
+        "txgnn_rank": 1956,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9988872408866882,
+        "txgnn_rank": 2200,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudoachondroplasia",
+        "txgnn_score": 0.9980666041374208,
+        "txgnn_rank": 3319,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "spondyloarthropathy, susceptibility to",
+        "txgnn_score": 0.9952208399772644,
+        "txgnn_rank": 6302,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid nodulosis",
+        "txgnn_score": 0.9950965046882628,
+        "txgnn_rank": 6404,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
+        "txgnn_score": 0.9943934679031372,
+        "txgnn_rank": 7023,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25057265",
+            "title": "Safety of celecoxib and nonselective nonsteroidal anti-inflammatory drugs in juvenile idiopathic arthritis: results of the Phase 4 registry.",
+            "abstract": "This study aimed to assess long-term safety and developmental data on juvenile idiopathic arthritis (JIA) patients treated in routine clinical practice with celecoxib or nonselective nonsteroidal anti-inflammatory drugs (nsNSAIDs).",
+            "journal": "Pediatric rheumatology online journal",
+            "year": "2014",
+            "authors": [
+              "Sobel Rachel E",
+              "Lovell Daniel J",
+              "Brunner Hermine I",
+              "Weiss Jennifer E",
+              "Morris Paula W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis, Juvenile",
+              "Celecoxib",
+              "Child",
+              "Child, Preschool",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25057265/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "WHIM syndrome",
+        "txgnn_score": 0.9938043355941772,
+        "txgnn_rank": 7534,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9936094284057616,
+        "txgnn_rank": 7727,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00814",
+    "name": "Meloxicam",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Meloxicam"
+      },
+      "queried_at": "2026-03-09T10:19:02.062131",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Meloxicam"
+      },
+      "queried_at": "2026-03-09T10:19:12.144952",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T10:19:13.028892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T10:19:18.730124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T10:19:20.016430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T10:19:21.085292",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T10:19:26.828366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T10:19:27.622148",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T10:19:28.372724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T10:19:31.365839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T10:19:32.327218",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T10:19:32.862725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T10:19:36.112913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-09T10:19:37.060316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T10:19:37.661438",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T10:19:42.121416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "pseudoachondroplasia"
+      },
+      "queried_at": "2026-03-09T10:19:43.770525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T10:19:44.534701",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T10:19:48.760963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T10:19:50.363343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "rheumatoid nodulosis"
+      },
+      "queried_at": "2026-03-09T10:19:51.426847",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "rheumatoid nodulosis"
+      },
+      "queried_at": "2026-03-09T10:19:56.818887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "rheumatoid nodulosis"
+      },
+      "queried_at": "2026-03-09T10:19:57.819211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "queried_at": "2026-03-09T10:19:58.325849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "queried_at": "2026-03-09T10:20:03.813135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "queried_at": "2026-03-09T10:20:06.330026",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T10:20:07.945474",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T10:20:11.343849",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T10:20:12.727039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T10:20:13.488790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T10:20:16.675452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Meloxicam",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T10:20:17.751199",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:20:17.762774"
+  }
+}

@@ -1,0 +1,2258 @@
+{
+  "drug": {
+    "inn": "Raltegravir",
+    "drugbank_id": "DB06817",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.9978435039520264,
+        "txgnn_rank": 3611,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01227824",
+            "title": "A Randomized, Double Blind Study of the Safety and Efficacy of GSK1349572 50mg Once Daily to Raltegravir 400mg Twice Daily Both Administered With Fixed-dose Dual Nucleoside Reverse Transcriptase Inhibitor Therapy Over 96 Weeks in HIV-1 Infected Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-10-19",
+            "completion_date": "2016-12-27",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Germany, Italy, United States, Russia",
+            "enrollment": 828,
+            "brief_summary": "The purpose of this trial is to assess the non-inferior antiviral activity of GSK1349572 50 mg once daily versus RAL 400mg twice daily over 48 weeks; non-inferiority will also be tested at Week 96. Both GSK1349572 and RAL will be given in combination with fixed-dose dual NRTI therapy (ABC/3TC or TDF/FTC). This study will be conducted in HIV-1 infected ART-naïve adult subjects.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Screening plasma HIV-1 RNA ≥1000 c/mL\n* Antiretroviral-naïve (≤ 10 days of prior therapy with any antiretroviral agent following a diagnosis of HIV-1 infection)\n* Ability to understand and sign a written informed consent form\n* Willingness to use approved methods of contracept",
+            "endpoints": [
+              "Percentage of Participants With Human Immunodeficiency Virus-1 (HIV-1) Ribonucleic Acid (RNA) [HIV-1RNA] <50 Copies (c)/Milliliter (mL) Through Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01227824"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01231516",
+            "title": "A Randomized, Double-blind Study of the Safety and Efficacy of GSK1349572 50 mg Once Daily Versus Raltegravir 400 mg Twice Daily, Both Administered With an Investigator-selected Background Regimen Over 48 Weeks in HIV-1 Infected, Integrase Inhibitor-Naïve, Antiretroviral-Experienced Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2010-10-26",
+            "completion_date": "2021-02-02",
+            "country": "Australia, Belgium, United States, Canada, Netherlands, Italy, Chile, Russia, Poland, United Kingdom, France, Brazil, Argentina, Mexico, Hungary, Spain, Romania, Greece, South Africa, Taiwan",
+            "enrollment": 724,
+            "brief_summary": "ING111762 is a 48 week, randomized, double-blind, active-controlled, multicenter, parallel group, non-inferiority study. The study will be conducted in at least 688 HIV-1 infected antiretroviral experienced, integrase-naïve subjects. Subjects will be randomized 1:1 to receive GSK1349572 50 mg once daily or raltegravir (RAL) 400 mg twice daily, each added to an investigator selected background regimen consisting of at least one fully active agent plus no more than one second single agent which ma",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Antiretroviral therapy (ART)-experienced, Human Immunodeficiency Virus (HIV) -1 infected adults at least 18 years of age.\n* Women capable of becoming pregnant must use appropriate contraception during the study (as defined by the protocol).\n* HIV-1 infection as documented by H",
+            "endpoints": [
+              "Percentage of Participants With HIV-1 Ribonucleic Acid (RNA) <50 Copies/Milliliter (c/mL) at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01231516"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.9978435039520264,
+        "txgnn_rank": 3610,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00863668",
+            "title": "Decay Kinetics of HIV With the Integrase Inhibitor Raltegravir",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2009-03",
+            "completion_date": "2011-03",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The reduction with antiretroviral therapy (ART) of HIV RNA in blood, and HIV RNA in infected cells and in viruses associated with the follicular dendritic cell (FDC) network in lymphatic tissues, typically follows a two-phase pattern of decline. The half-life of the first-phase is about 1 day and that of the second phase is about 14 days, with comparable estimates for first-phase decay in SIV-infected rhesus macaques.\n\nWhile substantial evidence supports the current view that first-phase decay r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV positive (proven serologically at the time of screen, unless evidence for seroconversion)\n* Evidence of recent (proven seroconversion within 4 months) or acute infection (HIV antibody negative, HIV RNA positive), or CD4 T Cells \\> 350 in peripheral blood and plasma viral l",
+            "endpoints": [
+              "Rate of HIV mRNA Decline Measured in Peripheral Blood",
+              "Rate of HIV mRNA Expression Decline Measured in Lymphatic Tissues",
+              "CD4+ T Cell Number Increase in Peripheral Blood Over Time"
+            ],
+            "sponsor": "University of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT00863668"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29643246",
+            "title": "Dynamics of Simian Immunodeficiency Virus Two-Long-Terminal-Repeat Circles in the Presence and Absence of CD8+ Cells.",
+            "abstract": "CD8+ cells play a key role in human immunodeficiency virus (HIV)/simian immunodeficiency virus (SIV) infection, but their specific mechanism(s) of action in controlling the virus is unclear. Two-long-terminal-repeat (2-LTR) circles are extrachromosomal products generated upon failed integration of HIV/SIV. To understand the specific effects of CD8+ cells on infected cells, we analyzed the dynamics of 2-LTR circles in SIVmac251-infected rhesus macaques (RMs) treated with an integrase inhibitor (INT). Twenty RMs underwent CD8+ cell depletion and received raltegravir (RAL) monotherapy or a combination of both. Blood, lymph nodes (LNs), and gut biopsy specimens were routinely sampled. Plasma viral loads (pVLs) and 2-LTR circles from peripheral blood mononuclear cells (PBMCs) and LN lymphocytes were measured with quantitative reverse transcription-PCR (qRT-PCR). In the CD8 depletion group, an ∼1-log increase in pVLs and a slow increase in PBMC 2-LTRs occurred following depletion. In the INT",
+            "journal": "Journal of virology",
+            "year": "2018",
+            "authors": [
+              "Policicchio Benjamin B",
+              "Cardozo Erwing Fabian",
+              "Sette Paola",
+              "Xu Cuiling",
+              "Haret-Richter George"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "CD8-Positive T-Lymphocytes",
+              "Leukocytes, Mononuclear",
+              "Lymph Nodes",
+              "Macaca mulatta",
+              "Simian Acquired Immunodeficiency Syndrome",
+              "Simian Immunodeficiency Virus",
+              "Terminal Repeat Sequences",
+              "Viral Load",
+              "Virus Replication"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29643246/"
+          },
+          {
+            "pmid": "29466356",
+            "title": "Emergence of resistance mutations in simian immunodeficiency virus (SIV)-infected rhesus macaques receiving non-suppressive antiretroviral therapy (ART).",
+            "abstract": "Two SIVmac251-infected rhesus macaques received tenofovir/emtricitabine with raltegravir intensification. Viral rebound occurred during treatment and sequencing of reverse transcriptase and integrase genes identified multiple resistance mutations. Similar to HIV infection, antiretroviral-resistance mutations may occur in SIV-infected nonhuman primates receiving nonsuppressive ART. As ART administration to nonhuman primates is currently dramatically expanding, fueled by both cure research and the study of HIV-related comorbidities, viral resistance should be factored in the study design and data interpretation.",
+            "journal": "PloS one",
+            "year": "2018",
+            "authors": [
+              "Policicchio Benjamin Bruno",
+              "Sette Paola",
+              "Xu Cuiling",
+              "Haret-Richter George",
+              "Dunsmore Tammy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Disease Models, Animal",
+              "Drug Resistance, Multiple, Viral",
+              "Drug Therapy, Combination",
+              "Emtricitabine",
+              "Genes, Viral",
+              "Humans",
+              "Integrases",
+              "Macaca mulatta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29466356/"
+          },
+          {
+            "pmid": "20233398",
+            "title": "Response of a simian immunodeficiency virus (SIVmac251) to raltegravir: a basis for a new treatment for simian AIDS and an animal model for studying lentiviral persistence during antiretroviral therapy.",
+            "abstract": "In this study we successfully created a new approach to ART in SIVmac251 infected nonhuman primates. This drug regimen is entirely based on drugs affecting the pre-integration stages of replication and consists of only two nucleotidic/nucleosidic reverse transcriptase inhibitors (Nt/NRTIs) and raltegravir, a promising new drug belonging to the integrase strand transfer inhibitor (INSTI) class.",
+            "journal": "Retrovirology",
+            "year": "2010",
+            "authors": [
+              "Lewis Mark G",
+              "Norelli Sandro",
+              "Collins Matt",
+              "Barreca Maria Letizia",
+              "Iraci Nunzio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "CD4 Lymphocyte Count",
+              "CD4-Positive T-Lymphocytes",
+              "Cell Line",
+              "Cells, Cultured",
+              "DNA, Viral",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20233398/"
+          },
+          {
+            "pmid": "31597776",
+            "title": "Evaluating the Intactness of Persistent Viral Genomes in Simian Immunodeficiency Virus-Infected Rhesus Macaques after Initiating Antiretroviral Therapy within One Year of Infection.",
+            "abstract": "The major obstacle to more-definitive treatment for HIV infection is the early establishment of virus that persists despite long-term combination antiretroviral therapy (cART) and can cause recrudescent viremia if cART is interrupted. Previous studies of HIV DNA that persists despite cART indicated that only a small fraction of persistent viral sequences was intact. Experimental simian immunodeficiency virus (SIV) infections of nonhuman primates (NHPs) are essential models for testing interventions designed to reduce the viral reservoir. We studied the viral genomic integrity of virus that persists during cART under conditions typical of many NHP reservoir studies, specifically with cART started within 1 year postinfection and continued for at least 9 months. The fraction of persistent DNA in SIV-infected NHPs starting cART during acute or chronic infection was assessed with a multiamplicon, real-time PCR assay designed to analyze locations that are regularly spaced across the viral ge",
+            "journal": "Journal of virology",
+            "year": "2019",
+            "authors": [
+              "Long Samuel",
+              "Fennessey Christine M",
+              "Newman Laura",
+              "Reid Carolyn",
+              "O'Brien Sean P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "CD4-Positive T-Lymphocytes",
+              "DNA, Viral",
+              "Emtricitabine",
+              "Genome, Viral",
+              "Genomics",
+              "Macaca mulatta",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31597776/"
+          },
+          {
+            "pmid": "32166319",
+            "title": "The Integrase Inhibitors Dolutegravir and Raltegravir Exert Proadipogenic and Profibrotic Effects and Induce Insulin Resistance in Human/Simian Adipose Tissue and Human Adipocytes.",
+            "abstract": "Although some integrase strand transfer inhibitors (INSTIs) promote peripheral and central adipose tissue/weight gain in people with human immunodeficiency virus (PHIV), the underlying mechanism has not been identified. Here, we used human and simian models to assess the impact of INSTIs on adipose tissue phenotype and function.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2020",
+            "authors": [
+              "Gorwood Jennifer",
+              "Bourgeois Christine",
+              "Pourcher Valérie",
+              "Pourcher Guillaume",
+              "Charlotte Frédéric"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adipocytes",
+              "Adipose Tissue",
+              "Drug Resistance, Viral",
+              "HIV Infections",
+              "HIV Integrase Inhibitors",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Insulin Resistance",
+              "Integrase Inhibitors",
+              "Oxazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32166319/"
+          },
+          {
+            "pmid": "26378179",
+            "title": "Characterization of the Drug Resistance Profiles of Integrase Strand Transfer Inhibitors in Simian Immunodeficiency Virus SIVmac239.",
+            "abstract": "We previously showed that the simian immunodeficiency virus SIVmac239 is susceptible to human immunodeficiency virus (HIV) integrase (IN) strand transfer inhibitors (INSTIs) and that the same IN drug resistance mutations result in similar phenotypes in both viruses. Now we wished to determine whether tissue culture drug selection studies with SIV would yield the same resistance mutations as in HIV. Tissue culture selection experiments were performed using rhesus macaque peripheral blood mononuclear cells (PBMCs) infected with SIVmac239 viruses in the presence of increasing concentrations of dolutegravir (DTG), elvitegravir (EVG), and raltegravir (RAL). We now show that 22 weeks of selection pressure with DTG yielded a mutation at position R263K in SIV, similar to what has been observed in HIV, and that selections with EVG led to emergence of the E92Q substitution, which is a primary INSTI resistance mutation in HIV associated with EVG treatment failure. To study this at a biochemical l",
+            "journal": "Journal of virology",
+            "year": "2015",
+            "authors": [
+              "Hassounah Said A",
+              "Liu Yannan",
+              "Quashie Peter K",
+              "Oliveira Maureen",
+              "Moisi Daniela"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cloning, Molecular",
+              "DNA Primers",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Viral",
+              "Electrophoresis, Polyacrylamide Gel",
+              "HEK293 Cells",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Integrase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26378179/"
+          },
+          {
+            "pmid": "24622515",
+            "title": "Postexposure protection of macaques from vaginal SHIV infection by topical integrase inhibitors.",
+            "abstract": "Coitally delivered microbicide gels containing antiretroviral drugs are important for HIV prevention. However, to date, microbicides have contained entry or reverse transcriptase inhibitors that block early steps in virus infection and thus need to be given as a preexposure dose that interferes with sexual practices and may limit compliance. Integrase inhibitors block late steps after virus infection and therefore are more suitable for post-coital dosing. We first determined the kinetics of strand transfer in vitro and confirmed that integration begins about 6 hours after infection. We then used a repeat-challenge macaque model to assess efficacy of vaginal gels containing integrase strand transfer inhibitors when applied before or after simian/human immunodeficiency virus (SHIV) challenge. We showed that gel containing the strand transfer inhibitor L-870812 protected two of three macaques when applied 30 min before SHIV challenge. We next evaluated the efficacy of 1% raltegravir gel a",
+            "journal": "Science translational medicine",
+            "year": "2014",
+            "authors": [
+              "Dobard Charles",
+              "Sharma Sunita",
+              "Parikh Urvi M",
+              "West Rolieria",
+              "Taylor Andrew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Administration, Intravaginal",
+              "Administration, Topical",
+              "Animals",
+              "Antiviral Agents",
+              "Body Fluids",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Viral",
+              "Female",
+              "Gels",
+              "Integrase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24622515/"
+          },
+          {
+            "pmid": "34903055",
+            "title": "Lentiviral Infections Persist in Brain despite Effective Antiretroviral Therapy and Neuroimmune Activation.",
+            "abstract": "HIV infection persists in different tissue reservoirs among people with HIV (PWH) despite effective antiretroviral therapy (ART). In the brain, lentiviruses replicate principally in microglia and trafficking macrophages. The impact of ART on this viral reservoir is unknown. We investigated the activity of contemporary ART in various models of lentivirus brain infection. HIV-1 RNA and total and integrated DNA were detected in cerebral cortex from all PWH (n = 15), regardless of ART duration or concurrent plasma viral quantity and, interestingly, integrated proviral DNA levels in brain were significantly higher in the aviremic ART-treated group (P < 0.005). Most ART drugs tested (dolutegravir, ritonavir, raltegravir, and emtricitabine) displayed significantly lower 50% effective concentration (EC50) values in lymphocytes than in microglia, except tenofovir, which showed 1.5-fold greater activity in microglia (P < 0.05). In SIV-infected Chinese rhesus macaques, despite receiving suppressi",
+            "journal": "mBio",
+            "year": "2021",
+            "authors": [
+              "Mohammadzadeh Nazanin",
+              "Roda Weston",
+              "Branton William G",
+              "Clain Julien",
+              "Rabezanahary Henintsoa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-HIV Agents",
+              "Brain",
+              "Disease Models, Animal",
+              "HIV Infections",
+              "HIV-1",
+              "Humans",
+              "Macaca mulatta",
+              "Macrophages",
+              "Microglia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34903055/"
+          },
+          {
+            "pmid": "28923862",
+            "title": "Antiviral Activity of Bictegravir and Cabotegravir against Integrase Inhibitor-Resistant SIVmac239 and HIV-1.",
+            "abstract": "Animal models are essential to study novel antiretroviral drugs, resistance-associated mutations (RAMs), and treatment strategies. Bictegravir (BIC) is a novel potent integrase strand transfer inhibitor (INSTI) that has shown promising results against HIV-1 infection in vitro and in vivo and against clinical isolates with resistance against INSTIs. BIC has a higher genetic barrier to the development of resistance than two clinically approved INSTIs, termed raltegravir and elvitegravir. Another clinically approved INSTI, dolutegravir (DTG) also possesses a high genetic barrier to resistance, while a fourth compound, termed cabotegravir (CAB), is currently in late phases of clinical development. Here we report the susceptibilities of simian immunodeficiency virus (SIV) and HIV-1 integrase (IN) mutants containing various RAMs to BIC, CAB, and DTG. BIC potently inhibited SIV and HIV-1 in single cycle infection with 50% effective concentrations (EC50s) in the low nM range. In single cycle S",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2017",
+            "authors": [
+              "Hassounah Said A",
+              "Alikhani Ahmad",
+              "Oliveira Maureen",
+              "Bharaj Simrat",
+              "Ibanescu Ruxandra-Ilinca"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amides",
+              "Amino Acid Substitution",
+              "Drug Resistance, Viral",
+              "HEK293 Cells",
+              "HIV Integrase",
+              "HIV Integrase Inhibitors",
+              "HIV-1",
+              "HeLa Cells",
+              "Heterocyclic Compounds, 3-Ring",
+              "Heterocyclic Compounds, 4 or More Rings"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28923862/"
+          },
+          {
+            "pmid": "23365453",
+            "title": "Comprehensive in vitro analysis of simian retrovirus type 4 susceptibility to antiretroviral agents.",
+            "abstract": "Simian retrovirus type 4 (SRV-4), a simian type D retrovirus, naturally infects cynomolgus monkeys, usually without apparent symptoms. However, some infected monkeys presented with an immunosuppressive syndrome resembling that induced by simian immunodeficiency virus infection. Antiretrovirals with inhibitory activity against SRV-4 are considered to be promising agents to combat SRV-4 infection. However, although some antiretrovirals have been reported to have inhibitory activity against SRV-1 and SRV-2, inhibitors with anti-SRV-4 activity have not yet been studied. In this study, we identified antiretroviral agents with anti-SRV-4 activity from a panel of anti-human immunodeficiency virus (HIV) drugs using a robust in vitro luciferase reporter assay. Among these, two HIV reverse transcriptase inhibitors, zidovudine (AZT) and tenofovir disoproxil fumarate (TDF), potently inhibited SRV-4 infection within a submicromolar to nanomolar range, which was similar to or higher than the activit",
+            "journal": "Journal of virology",
+            "year": "2013",
+            "authors": [
+              "Togami Hiroaki",
+              "Shimura Kazuya",
+              "Okamoto Munehiro",
+              "Yoshikawa Rokusuke",
+              "Miyazawa Takayuki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Amino Acid Sequence",
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Genes, Reporter",
+              "Integrases",
+              "Luciferases",
+              "Microbial Sensitivity Tests",
+              "Organophosphonates",
+              "Protease Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23365453/"
+          },
+          {
+            "pmid": "26529558",
+            "title": "Nanoparticle-Based ARV Drug Combinations for Synergistic Inhibition of Cell-Free and Cell-Cell HIV Transmission.",
+            "abstract": "Nanocarrier-based drug delivery systems are playing an emerging role in human immunodeficiency virus (HIV) chemoprophylaxis and treatment due to their ability to alter the pharmacokinetics and improve the therapeutic index of various antiretroviral (ARV) drug compounds used alone and in combination. Although several nanocarriers have been described for combination delivery of ARV drugs, measurement of drug-drug activities facilitated by the use of these nanotechnology platforms has not been fully investigated for topical prevention. Here, we show that physicochemically diverse ARV drugs can be encapsulated within polymeric nanoparticles to deliver multidrug combinations that provide potent HIV chemoprophylaxis in relevant models of cell-free, cell-cell, and mucosal tissue infection. In contrast to existing approaches that coformulate ARV drug combinations together in a single nanocarrier, we prepared single-drug-loaded nanoparticles that were subsequently combined upon administration. ",
+            "journal": "Molecular pharmaceutics",
+            "year": "2015",
+            "authors": [
+              "Jiang Yonghou",
+              "Cao Shijie",
+              "Bright Danielle K",
+              "Bever Alaina M",
+              "Blakney Anna K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-HIV Agents",
+              "Drug Carriers",
+              "Drug Combinations",
+              "Drug Delivery Systems",
+              "HIV Infections",
+              "HIV Reverse Transcriptase",
+              "HIV-1",
+              "Humans",
+              "Lactic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26529558/"
+          },
+          {
+            "pmid": "21757617",
+            "title": "IL-15 delays suppression and fails to promote immune reconstitution in virally suppressed chronically SIV-infected macaques.",
+            "abstract": "Human immunodeficiency virus (HIV) infection is characterized by a progressive loss of memory CD4(+) T cells in multiple tissues, especially at mucosal surfaces where most of these cells reside. Although antiretroviral therapy (ART) suppresses viral replication and promotes the recovery of peripheral CD4(+) T cells, HIV-infected patients fail to fully reconstitute the CD4(+) T-cell pool at mucosal sites. IL-15 has been shown to preferentially expand memory-phenotype T cells and promote their migration to nonlymphoid tissues. Here we examined IL-15 treatment in combination with highly active ART in chronically SIV-infected rhesus macaques and found that IL-15 delayed viral suppression and failed to enhance ART-induced total and antigen-specific CD4(+) T-cell reconstitution at mucosal and lymphoid sites. IL-15 was able to induce the transient proliferation of SIV-specific, CMV-specific, and total memory CD8(+) T cells, but not of SIV-specific or total CD4(+) T cells. Moreover, upon treat",
+            "journal": "Blood",
+            "year": "2011",
+            "authors": [
+              "Lugli Enrico",
+              "Mueller Yvonne M",
+              "Lewis Mark G",
+              "Villinger Francois",
+              "Katsikis Peter D"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, N.I.H., Intramural"
+            ],
+            "mesh_terms": [
+              "Adaptive Immunity",
+              "Adenine",
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "CD4 Lymphocyte Count",
+              "CD4-Positive T-Lymphocytes",
+              "Deoxycytidine",
+              "Drug Evaluation, Preclinical",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21757617/"
+          },
+          {
+            "pmid": "25583721",
+            "title": "Simian-tropic HIV as a model to study drug resistance against integrase inhibitors.",
+            "abstract": "Drug resistance represents a key aspect of human immunodeficiency virus (HIV) treatment failure. It is important to develop nonhuman primate models for studying issues of drug resistance and the persistence and transmission of drug-resistant viruses. However, relatively little work has been conducted using either simian immunodeficiency virus (SIV) or SIV/HIV recombinant viruses for studying resistance against integrase strand transfer inhibitors (INSTIs). Here, we used a T-cell-tropic SIV/HIV recombinant virus in which the capsid and vif regions of HIV-1 were replaced with their SIV counterparts (simian-tropic HIV-1 [stHIV-1](SCA,SVIF)) to study the impact of a number of drug resistance substitutions in the integrase coding region at positions E92Q, G118R, E138K, Y143R, S153Y, N155H, and R263K on drug resistance, viral infectivity, and viral replication capacity. Our results show that each of these substitutions exerted effects that were similar to their effects in HIV-1. Substitution",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2015",
+            "authors": [
+              "Wares Melissa",
+              "Hassounah Said",
+              "Mesplède Thibault",
+              "Sandstrom Paul A",
+              "Wainberg Mark A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Line",
+              "Drug Resistance, Viral",
+              "HIV Integrase Inhibitors",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Models, Biological",
+              "Mutagenesis, Site-Directed",
+              "Oxazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25583721/"
+          },
+          {
+            "pmid": "25648264",
+            "title": "Lentivirus-mediated Gene Transfer in Hematopoietic Stem Cells Is Impaired in SHIV-infected, ART-treated Nonhuman Primates.",
+            "abstract": "Recent studies have demonstrated that genetically modified hematopoietic stem cells (HSCs) can reduce HIV viremia. We have developed an HIV/AIDS-patient model in Simian/human immunodeficiency virus (SHIV)-infected pigtailed macaques that are stably suppressed on antiretroviral therapy (ART: raltegravir, emtricitabine and tenofovir). Following SHIV infection and ART, animals undergo autologous HSC transplantation (HSCT) with lentivirally transduced cluster of differentiation (CD)34(+) cells expressing the mC46 anti-HIV fusion protein. We show that SHIV(+), ART-treated animals had very low gene marking levels after HSCT. Pretransduction CD34(+) cells contained detectable levels of all three ART drugs, likely contributing to the low gene transfer efficiency. Following HSCT recovery and the cessation of ART, plasma viremia rebounded, indicating that myeloablative total body irradiation cannot completely eliminate viral reservoirs after autologous HSCT. The kinetics of recovery following au",
+            "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+            "year": "2015",
+            "authors": [
+              "Younan Patrick M",
+              "Peterson Christopher W",
+              "Polacino Patricia",
+              "Kowalski John P",
+              "Obenza Willimark"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiretroviral Therapy, Highly Active",
+              "Gene Expression",
+              "Genetic Therapy",
+              "Genetic Vectors",
+              "Hematopoietic Stem Cell Transplantation",
+              "Hematopoietic Stem Cells",
+              "Immunophenotyping",
+              "Lentivirus",
+              "Lymphocyte Count"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25648264/"
+          },
+          {
+            "pmid": "26165400",
+            "title": "Short Communication: Practical Experience with Analysis and Design of Repeat Low-Dose SHIVSF162P3 Exposure Studies in Female Pigtail Macaques with Varying Susceptibility During Menstrual Cycling.",
+            "abstract": "Vaginal SHIVSF162P3 acquisition in pigtail macaques (Macaca nemestrina) is dependent on time point during the menstrual cycle. Susceptibility is higher around menstruation and lower at ovulation in mid cycle. This complicates the design of repeat low-dose (RLD) SHIV exposure studies because virus challenges given during low susceptibility periods have lower chances to infect. To account for fluctuating susceptibility, we analyzed menstrual cycles rather than exposures until infection following virus challenges. We first reanalyzed infection data of 41 macaques receiving placebo or no treatment during once (n=18) or twice (n=23) weekly virus exposures. The same number of cycles was required for infection with either challenge frequency, while it took a median four or six challenges for once or twice weekly exposures, respectively. More virus challenges to infection likely reflect frequent unsuccessful exposures in frequently exposed animals. When reanalyzing two previously reported biom",
+            "journal": "AIDS research and human retroviruses",
+            "year": "2015",
+            "authors": [
+              "Kersh Ellen N",
+              "Henning Tara R",
+              "Dobard Charles",
+              "Heneine Walid",
+              "McNicholl Janet M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Anti-Retroviral Agents",
+              "Disease Susceptibility",
+              "Disease Transmission, Infectious",
+              "Female",
+              "Macaca nemestrina",
+              "Menstrual Cycle",
+              "Placebos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26165400/"
+          },
+          {
+            "pmid": "24920794",
+            "title": "Effect of HIV-1 integrase resistance mutations when introduced into SIVmac239 on susceptibility to integrase strand transfer inhibitors.",
+            "abstract": "Studies on the in vitro susceptibility of SIV to integrase strand transfer inhibitors (INSTIs) have been rare. In order to determine the susceptibility of SIVmac239 to INSTIs and characterize the genetic pathways that might lead to drug resistance, we inserted various integrase (IN) mutations that had been selected with HIV under drug pressure with raltegravir (RAL), elvitegravir (EVG), and dolutegravir (DTG) into the IN gene of SIV. We evaluated the effects of these mutations on SIV susceptibility to INSTIs and on viral infectivity. Sequence alignments of SIVmac239 IN with various HIV-1 isolates showed a high degree of homology and conservation of each of the catalytic triad and the key residues involved in drug resistance. Each of the G118R, Y143R, Q148R, R263K, and G140S/Q148R mutations, when introduced into SIV, impaired infectiousness and replication fitness compared to wild-type virus. Using TZM-bl cells, we demonstrated that the Q148R and N155H mutational pathways conferred resi",
+            "journal": "Journal of virology",
+            "year": "2014",
+            "authors": [
+              "Hassounah Said A",
+              "Mesplède Thibault",
+              "Quashie Peter K",
+              "Oliveira Maureen",
+              "Sandstrom Paul A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Substitution",
+              "Animals",
+              "Antiviral Agents",
+              "Cells, Cultured",
+              "Drug Resistance, Viral",
+              "HIV Integrase",
+              "HIV-1",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Macaca mulatta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24920794/"
+          },
+          {
+            "pmid": "22737073",
+            "title": "A highly intensified ART regimen induces long-term viral suppression and restriction of the viral reservoir in a simian AIDS model.",
+            "abstract": "Stably suppressed viremia during ART is essential for establishing reliable simian models for HIV/AIDS. We tested the efficacy of a multidrug ART (highly intensified ART) in a wide range of viremic conditions (10³-10⁷) viral RNA copies/mL) in SIVmac251-infected rhesus macaques, and its impact on the viral reservoir. Eleven macaques in the pre-AIDS stage of the disease were treated with a multidrug combination (highly intensified ART) consisting of two nucleosidic/nucleotidic reverse transcriptase inhibitors (emtricitabine and tenofovir), an integrase inhibitor (raltegravir), a protease inhibitor (ritonavir-boosted darunavir) and the CCR5 blocker maraviroc. All animals stably displayed viral loads below the limit of detection of the assay (i.e. <40 RNA copies/mL) after starting highly intensified ART. By increasing the sensitivity of the assay to 3 RNA copies/mL, viral load was still below the limit of detection in all subjects tested. Importantly, viral DNA resulted below the assay det",
+            "journal": "PLoS pathogens",
+            "year": "2012",
+            "authors": [
+              "Shytaj Iart Luca",
+              "Norelli Sandro",
+              "Chirullo Barbara",
+              "Della Corte Alessandro",
+              "Collins Matt"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Animals",
+              "Anti-HIV Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Cyclohexanes",
+              "Darunavir",
+              "Deoxycytidine",
+              "Drug Therapy, Combination",
+              "Emtricitabine",
+              "Flow Cytometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22737073/"
+          },
+          {
+            "pmid": "21505294",
+            "title": "Gold drug auranofin restricts the viral reservoir in the monkey AIDS model and induces containment of viral load following ART suspension.",
+            "abstract": "A small pool of long-lived memory CD4 T cells harboring the retroviral genome is one main obstacle to HIV eradication. We tested the impact of the gold compound, auranofin, on phenotype and viability of CD4 T cells in vitro, and on persistence of lentiviral reservoir cells in vivo.",
+            "journal": "AIDS (London, England)",
+            "year": "2011",
+            "authors": [
+              "Lewis Mark G",
+              "DaFonseca Sandrina",
+              "Chomont Nicolas",
+              "Palamara Anna T",
+              "Tardugno Maria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Retroviral Agents",
+              "Antirheumatic Agents",
+              "Auranofin",
+              "CD4-Positive T-Lymphocytes",
+              "DNA, Viral",
+              "Macaca mulatta",
+              "Pilot Projects",
+              "Simian Acquired Immunodeficiency Syndrome",
+              "Simian Immunodeficiency Virus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21505294/"
+          },
+          {
+            "pmid": "16484468",
+            "title": "Retrovirus meeting. Novel attacks on HIV move closer to reality.",
+            "abstract": "",
+            "journal": "Science (New York, N.Y.)",
+            "year": "2006",
+            "authors": [
+              "Cohen Jon"
+            ],
+            "pub_types": [
+              "News"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "Animals",
+              "Anti-HIV Agents",
+              "Evolution, Molecular",
+              "HIV Infections",
+              "HIV-1",
+              "Humans",
+              "Organic Chemicals",
+              "Organophosphonates",
+              "Primates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16484468/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.997715711593628,
+        "txgnn_rank": 3758,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "AIDS related complex",
+        "txgnn_score": 0.964943826198578,
+        "txgnn_rank": 22860,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01076179",
+            "title": "KALETRA in Combination With New Substances (PROTEKT)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2008-09",
+            "completion_date": "2016-01",
+            "country": "N/A",
+            "enrollment": 502,
+            "brief_summary": "The purpose of this study is to investigate the tolerability of Kaletra (lopinavir/ritonavir) in combination with new substances such as integrase inhibitors (INIs), C-C chemokine receptor type 5 (CCR5) antagonists, and new non-nucleoside reverse transcriptase inhibitors (NNRTIs), as there are many reasons (intolerability, complex resistant patterns or even personal reasons) which may result in a change from the daily clinical routine and lead to the use of a newly approved antiretroviral agent ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥ 18years of age\n* Written informed consent (authorization to the investigator to use and/or disclose personal and/or health data before entry into the KALETRA® post marketing observational study)\n* HIV-1 infection\n* Patients treated with KALETRA®, independent from th",
+            "endpoints": [
+              "Prevalence of Adverse Events (Weeks 0-144), Per Event",
+              "Prevalence of Adverse Events (Weeks 0-144), Per Participant"
+            ],
+            "sponsor": "AbbVie",
+            "url": "https://clinicaltrials.gov/study/NCT01076179"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02383355",
+            "title": "Switch From an NNRTI or PI-based Regimen to a RAltegravir-based Regimen in Virologically Suppressed HIV-infected Patients: Effects on Platelet Reactivity, Platelet-monocyte Aggregation and the Inflammatory anD Thrombotic State of Monocytes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-03-01",
+            "completion_date": "2017-07-01",
+            "country": "N/A",
+            "enrollment": 40,
+            "brief_summary": "Cardiovascular disease (CVD) has emerged as a leading cause of morbidity and mortality in HIVinfected individuals. The precise mechanisms underlying this increased cardiovascular risk remain to be elucidated. Platelet hyperreactivity and increased platelet-monocyte aggregation (PMA) are found in HIVinfectedpatients and may contribute to the excess cardiovascular risk as platelets play a key role in the onset and progression of atherosclerosis and in acute cardiovascular events. In addition, HIV-",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female\n* Documented HIV-infection\n* Age ≥ 18 years\n* Willing to comply with the protocol requirements\n* On stable antiretroviral therapy (ART) for ≥ 6 months at screening\n* Undetectable plasma HIV viral load (\\<50 copies/mL) for at least 6 months\n* CD4 cell count \\> 30",
+            "endpoints": [
+              "Platelet Reactivity Measured by Expression of P-selectin (CD62p) and Fibrinogen Binding"
+            ],
+            "sponsor": "Radboud University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02383355"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00485264",
+            "title": "A Phase I/II, Multicenter, Open-Label, Noncomparative Study of the International Maternal, Pediatric, Adolescent AIDS Clinical Trials (IMPAACT) Group to Evaluate the Safety, Tolerability, Pharmacokinetics, and Antiviral Activity of Raltegravir (Isentress, MK-0518) in HIV-1 Infected Children and Adolescents",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-09-17",
+            "completion_date": "2017-05-18",
+            "country": "Brazil, Argentina, United States, Botswana, South Africa, Puerto Rico",
+            "enrollment": 153,
+            "brief_summary": "Integrase is 1 of 3 HIV (Human Immunodeficiency Virus)-1 enzymes required for viral replication. Raltegravir is a drug that prevents integrase from working properly. This drug has been tested for safety and efficacy in adults, but this is the first study to examine raltegravir in children and adolescents. The purpose of this study was to determine the appropriate dose for raltegravir across the pediatric age range from 4 weeks to 18 years of age, by acquiring short and long term safety data, int",
+            "eligibility_criteria": "Inclusion Criteria for All Participants:\n\n* Documentation of HIV-1 infection, defined as positive results from two samples collected at different time points. More information on this criterion can be found in the protocol.\n* For participants in Cohorts I, IIA, IIB, and III: On unchanged therapeutic",
+            "endpoints": [
+              "Percentage of Participants With Grade 3 or 4 Adverse Events (AEs)",
+              "Number of Participants Terminated From Treatment Due to Suspected Adverse Drug Reaction (SADR) Attributable to the Study Medication",
+              "Number of Participants Who Died"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00485264"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33886444",
+            "title": "Mycobacterium avium complex and Cryptococcus neoformans co-infection in a patient with acquired immunodeficiency syndrome: a case report.",
+            "abstract": "Opportunistic infections (OI) are common in patients with acquired immunodeficiency syndrome (AIDS). Cryptococcus neoformans and Mycobacterium avium complex (MAC) are frequently responsible of such infections. However, concurrent infection with these two pathogens is uncommon and underreported in the literature.",
+            "journal": "Acta clinica Belgica",
+            "year": "2022",
+            "authors": [
+              "Gregoire Emilien",
+              "Pirotte Benoit François",
+              "Moerman Filip",
+              "Altdorfer Antoine",
+              "Gaspard Laura"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "AIDS-Related Opportunistic Infections",
+              "Acquired Immunodeficiency Syndrome",
+              "Adult",
+              "Antigens, Fungal",
+              "Coinfection",
+              "Cryptococcosis",
+              "Cryptococcus neoformans",
+              "HIV Infections",
+              "Homosexuality, Male",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33886444/"
+          },
+          {
+            "pmid": "25394095",
+            "title": "Efficacy, safety, and lack of interactions with the use of raltegravir in HIV-infected patients undergoing antineoplastic chemotherapy.",
+            "abstract": "Concomitant use of combination antiretroviral regimen (cART) and cancer chemotherapy is difficult due to complex interactions and increased toxicity. Raltegravir could be an adequate option through its favourable drug-drug interaction profile.",
+            "journal": "Journal of the International AIDS Society",
+            "year": "2014",
+            "authors": [
+              "Bañón Sara",
+              "Machuca Isabel",
+              "Araujo Susana",
+              "Moreno Ana",
+              "Perez-Elías María J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25394095/"
+          },
+          {
+            "pmid": "37568163",
+            "title": "Heart transplantation and human immunodeficiency virus-navigating drug-drug interactions: a case report.",
+            "abstract": "Antiretroviral therapy (ART) has led to a decline in human immunodeficiency virus (HIV)-related mortality, but comorbidities, including organ dysfunction, are increasingly the focus of care. Heart transplant (HT) is a very effective therapeutic strategy for end-stage heart failure (HF); however, clinicians may be hesitant due to concerns of complex drug-drug interactions (DDIs) between ART and HT immunosuppressive regimens and the potential impact of ART on long-term HT outcomes. In this report, we describe long-term (76-month) follow-up of a patient with HIV-positive status who underwent orthotopic HT with special emphasis on complex drug interactions.",
+            "journal": "AIDS research and therapy",
+            "year": "2023",
+            "authors": [
+              "Almangour Thamer A",
+              "Skersick Preston T",
+              "Corbett Amanda",
+              "Rodgers Jo E",
+              "Chang Patricia P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Middle Aged",
+              "HIV Infections",
+              "Tenofovir",
+              "Emtricitabine",
+              "Anti-HIV Agents",
+              "HIV-1",
+              "HIV Seropositivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37568163/"
+          },
+          {
+            "pmid": "25691383",
+            "title": "Cocaine modulates HIV-1 integration in primary CD4+ T cells: implications in HIV-1 pathogenesis in drug-abusing patients.",
+            "abstract": "Epidemiologic studies suggest that cocaine abuse worsens HIV-1 disease progression. Increased viral load has been suggested to play a key role for the accelerated HIV disease among cocaine-abusing patients. The goal of this study was to investigate whether cocaine enhances proviral DNA integration as a mechanism to increase viral load. We infected CD4(+) T cells that are the primary targets of HIV-1 in vivo and treated the cells with physiologically relevant concentrations of cocaine (1 µM-100 µM). Proviral DNA integration in the host genome was measured by nested qPCR. Our results illustrated that cocaine from 1 µM through 50 µM increased HIV-1 integration in CD4(+) T cells in a dose-dependent manner. As integration can be modulated by several early postentry steps of HIV-1 infection, we examined the direct effects of cocaine on viral integration by in vitro integration assays by use of HIV-1 PICs. Our data illustrated that cocaine directly increases viral DNA integration. Furthermore",
+            "journal": "Journal of leukocyte biology",
+            "year": "2015",
+            "authors": [
+              "Addai Amma B",
+              "Pandhare Jui",
+              "Paromov Victor",
+              "Mantri Chinmay K",
+              "Pratap Siddharth"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "CD4-Positive T-Lymphocytes",
+              "Cell Nucleus",
+              "Cells, Cultured",
+              "Cocaine",
+              "Cocaine-Related Disorders",
+              "DNA, Viral",
+              "Disease Progression",
+              "Dose-Response Relationship, Drug",
+              "Endocytosis",
+              "HEK293 Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25691383/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital human immunodeficiency virus",
+        "txgnn_score": 0.964943826198578,
+        "txgnn_rank": 22861,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02422797",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Dolutegravir Plus Rilpivirine From Current INI-, NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-04-21",
+            "completion_date": "2023-05-25",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Germany, Argentina, Italy, United States, Russia, Taiwan",
+            "enrollment": 518,
+            "brief_summary": "The aim of this study was to determine if virologically suppressed, human immunodeficiency virus type 1 (HIV-1) infected adults on an antiretroviral regimen (including 2 nucleoside reverse transcriptase inhibitors \\[NRTIs\\] plus a third agent) remain suppressed upon switching to a two-drug regimen with dolutegravir (DTG) + rilpivirine (RPV). The study primarily assessed the non-inferiority antiviral activity of switching to DTG + RPV once daily compared to the continuation of current antiretrovi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have been able to understand and comply with protocol requirements, instructions, and restrictions.\n* Participants must have been likely to complete the study as planned.\n* Participants must have been considered appropriate candidates for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 RNA <50 c/mL at Week 48 Using Snapshot Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02422797"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01568892",
+            "title": "A Phase III Randomized, Double-blind Study to Demonstrate the Antiviral Activity of Dolutegravir (DTG) 50 mg Twice Daily Versus Placebo Both Co-Administered With a Failing Antiretroviral Regimen Over Seven Days, Followed by an Open Label Phase With All Subjects Receiving DTG 50 mg Twice Daily Co-administered With an Optimised Background Regimen (OBR) in HIV-1 Infected, Integrase Inhibitor Therapy-Experienced and Resistant, Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-04-18",
+            "completion_date": "2013-12-16",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "Study ING116529 is a multicenter, randomized, study with an initial 7 day placebo- controlled, functional monotherapy phase to quantify the antiviral activity attributable to dolutegravir (DTG) in HIV-1 infected, ART-experienced adults who are experiencing virological failure on an Integrase inhibitor containing regimen (current RAL or ELV failures), with evidence of genotypic resistance to RAL or ELV at study entry. Thirty subjects will be randomized (1:1) to receive either DTG 50mg BID (Arm A)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Screening plasma HIV-1 RNA ≥1000 copies/mL\n* ART-experienced, INI-experienced, DTG naïve\n* Current virological failure on raltegravir (RAL) or elvitegravir (ELV) regimen\n* The subject's HIV-1 shows genotypic resistance to RAL or ELV at Screening\n* Subject has been on stable AR",
+            "endpoints": [
+              "Mean Change From Baseline in Plasma Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) at Day 8"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01568892"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00797381",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety, Tolerability of MK-0518 in Treatment-Experienced HIV-1 Infected Adult Patients With Hemophilia",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2009-05",
+            "completion_date": "2011-05",
+            "country": "China",
+            "enrollment": 100,
+            "brief_summary": "This is an randomized, double-blind, placebo-controlled study to assess the safety, tolerability and efficacy of MK-0518 compared to placebo when combined with other antiretroviral drugs, in treatment-experienced HIV-infected patients with hemophilia.\n\nSubjects enrolled in the study sign the consent form, then are randomly assigned to MK-0518 400 mg twice daily plus optimized background therapy (OBT) group or placebo plus OBT group.Each group concludes at least 50 subjects. For each patient, det",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-infected patients with hemophilia aged over 18 who have failed previous antiretroviral treatment are eligible.",
+            "endpoints": [
+              "The safety and tolerability of MK-0518 400 mg b.i.d. compared to placebo, both in combination with OBT, assessed by review of the accumulated safety data in HIV-infected patients with hemophilia."
+            ],
+            "sponsor": "Shanghai Public Health Clinical Center",
+            "url": "https://clinicaltrials.gov/study/NCT00797381"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02131233",
+            "title": "A Phase III Multicenter, Double-Blind, Randomized, Active Comparator-Controlled Clinical Trial to Evaluate the Safety and Efficacy of Reformulated Raltegravir 1200 mg Once Daily Versus Raltegravir 400 mg Twice Daily, Each in Combination With TRUVADA™, in Treatment-Naïve HIV-1 Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-05-23",
+            "completion_date": "2016-12-19",
+            "country": "N/A",
+            "enrollment": 802,
+            "brief_summary": "To evaluate the safety and efficacy of reformulated raltegravir (MK-0518) 1200 mg once daily in combination with TRUVADA™ versus raltegravir 400 mg twice daily in combination with TRUVADA™ in HIV-1 infected, treatment-naive participants. The primary hypothesis being tested is that reformulated raltegravir 1200 mg once-daily is non-inferior to raltegravir 400 mg twice-daily, each in combination therapy with TRUVADA™, as assessed by the proportion of participants achieving HIV-1 ribonucleic acid (",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 positive\n* Naïve to antiretroviral therapy including investigational antiretroviral agents\n* Not of reproductive potential or, if of reproductive potential agrees to 1) true abstinence, or 2) use of an acceptable method of birth control during the study\n\nExclusion Criter",
+            "endpoints": [
+              "Percentage of Participants Achieving <40 Copies/mL Human Immunodeficiency Virus-1 (HIV-1) Ribonucleic Acid (RNA) at Week 48"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02131233"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00105157",
+            "title": "Multicenter Study to Evaluate the Safety and Efficacy of MK0518 in Combination With An Optimized Background Therapy (OBT), Versus OBT Alone, in HIV-Infected Patients With Documented Resistance",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-03",
+            "completion_date": "2009-07",
+            "country": "N/A",
+            "enrollment": 179,
+            "brief_summary": "This study will investigate the safety and efficacy of different doses of an investigational drug (MK0518) as a therapy for HIV-infected patients failing current antiretroviral therapies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be HIV positive with Human Immunodeficiency Virus (HIV) Ribonucleic Acid (RNA) values that are within ranges required by the study\n* Patient must be currently on antiretroviral therapy (ART)\n\nExclusion Criteria:\n\n* Patient less than 18 years of age\n* Additional ex",
+            "endpoints": [
+              "Change From Baseline in Plasma HIV RNA (log10 Copies/mL) at Week 24"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00105157"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01458132",
+            "title": "WEUSKOP5522: Observational Drug Exposure Registry for Long-Term Follow-Up of Subjects Exposed to GSK2248761",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-07-29",
+            "completion_date": "2013-04-30",
+            "country": "N/A",
+            "enrollment": 19,
+            "brief_summary": "The World Health Organization has estimated that as many as 10% of the population worldwide may at some point experience at least one seizure. The percentage with active epilepsy is from 0.4% to 1%. From 40% to 65% of patients with HIV infection have been estimated to have some neurological involvement; the percentage reaches as high as 70% to 80% when post-mortem assessments are included. Estimates of the percentage of HIV-infected patients with seizure occurrence have varied widely, with one r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects who were previously randomized in the Phase 2b studies SGN113399 or SGN113404 and received GSK2248761\n\nExclusion Criteria:\n\n* N/A",
+            "endpoints": [
+              "Number of Participants With Occurrence of Seizure"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01458132"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02938520",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Open-Label Study Evaluating the Efficacy, Safety, and Tolerability of Long-Acting Intramuscular Cabotegravir and Rilpivirine for Maintenance of Virologic Suppression Following Switch From an Integrase Inhibitor Single Tablet Regimen in HIV-1 Infected Antiretroviral Therapy Naive Adult Participants",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-10-27",
+            "completion_date": "2025-12-31",
+            "country": "Spain, United Kingdom, France, Canada, Netherlands, Germany, Italy, United States, Russia, South Africa, Japan",
+            "enrollment": 631,
+            "brief_summary": "The First Long-Acting Injectable Regimen (FLAIR) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult participants whose virus is virologically suppressed on an integrase inhibitor single tablet regimen (INI STR) will remain suppressed after switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). In this study, the INI STR will be limited to abacavir/dolutegravir/lamivudine (ABC/DTG/3TC). FLAI",
+            "eligibility_criteria": "Inclusion Criteria: - HIV-1 infected, ART-naive men or women aged 18 years or greater at the time of signing the informed consent. - HIV-1 infection as documented by Screening plasma HIV-1 RNA \\>=1000 c/mL; - Antiretroviral-naive (\\<=10 days of prior therapy with any antiretroviral agent following a",
+            "endpoints": [
+              "Percentage of Participants With Virologic Failure (HIV-1 Ribonucleic Acid [RNA] >=50 Copies Per Millilter [mL]) Using Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02938520"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02429791",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Dolutegravir Plus Rilpivirine From Current INI-, NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-Infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-04-14",
+            "completion_date": "2023-05-30",
+            "country": "Australia, Spain, France, Canada, United Kingdom, Belgium, Netherlands, Germany, Argentina, Italy, United States, Russia, Taiwan",
+            "enrollment": 510,
+            "brief_summary": "The aim of this study was to determine if virologically suppressed human immunodeficiency virus type 1 (HIV-1) infected adults on an antiretroviral regimen (including 2 nucleoside reverse transcriptase inhibitors \\[NRTIs\\] plus a third agent) remain suppressed upon switching to a two-drug regimen with dolutegravir (DTG) + rilpivirine (RPV). The study primarily assessed the non-inferiority antiviral activity of switching to DTG + RPV once daily compared to continuation of current antiretroviral r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have been able to understand and comply with protocol requirements, instructions, and restrictions.\n* Participants must have been likely to complete the study as planned.\n* Participants must have been considered appropriate candidates for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 RNA <50 c/mL at Week 48 Using Snapshot Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02429791"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04518228",
+            "title": "Pharmacokinetic Properties of Antiretroviral and Anti-Tuberculosis Drugs During Pregnancy and Postpartum",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-09-01",
+            "completion_date": "2025-07-10",
+            "country": "India, Brazil, United States, Uganda, Kenya, South Africa, Puerto Rico, Thailand",
+            "enrollment": 205,
+            "brief_summary": "The purpose of this study is to evaluate the pharmacokinetic (PK) properties of antiretroviral (ARV) and anti-tuberculosis (TB) drugs administered during pregnancy and postpartum.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nComponent 1: Pregnant WLHIV receiving oral ARVs and no TB drugs, and their infants\n\n* Mother is of legal age or otherwise able to provide independent informed consent as determined by site standard operating procedures (SOPs) and consistent with site institutional review board (",
+            "endpoints": [
+              "Number of women who meet area under the curve (AUC) target in second trimester (2T)",
+              "Number of women who meet area under the curve (AUC) target in third trimester (3T)",
+              "Number of women who meet area under the curve (AUC) in postpartum (PP)"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT04518228"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07412977",
+            "title": "\"Pregnancy and Viral Infections: Impact on Pregnant Women and Their Children. French Prospective Cohort.\"",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-02",
+            "completion_date": "2039-12",
+            "country": "France",
+            "enrollment": 5160,
+            "brief_summary": "The VIROPREG study is a French prospective multicenter cohort study that aims to assess the impact of viral infections and antiviral treatments received during pregnancy on maternal and child health. The study focuses on both chronic viral infections: human immunodeficiency virus (HIV), hepatitis B virus (HBV), hepatitis C virus (HCV)\\] and on arbovirus infections.\n\nThis study aims at investigating the following research questions:\n\n* What is the rate of mother-to-child transmission for each vir",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPregnant women :\n\n* Cis-gender pregnant woman wishing to carry her pregnancy to term and give birth in one of the maternity units participating in the research, whatever the term of pregnancy (inclusion as soon as possible after conception, whatever the outcome);\n* Age ≥18 years",
+            "endpoints": [
+              "HIV-1/HIV-2 Cohort: Scores assessing gross and fine motor skills and social-emotional development at 4 years of age",
+              "Hepatitis B Cohort: HBV infection at 9 months of age",
+              "Hepatitis C Cohort: HCV infection between 18 and 24 months of age"
+            ],
+            "sponsor": "ANRS, Emerging Infectious Diseases",
+            "url": "https://clinicaltrials.gov/study/NCT07412977"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03299049",
+            "title": "A Phase IIIb, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Long-acting Cabotegravir Plus Long-acting Rilpivirine Administered Every 8 Weeks or Every 4 Weeks in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-10-27",
+            "completion_date": "2029-12-31",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Argentina, Italy, United States, Mexico, Russia, Sweden, South Africa",
+            "enrollment": 1049,
+            "brief_summary": "This Antiretroviral Therapy as Long Acting Suppression every 2 Months (ATLAS-2M) study is designed to demonstrate the non-inferior antiviral activity and safety of CAB LA + RPV LA administered every 8 weeks (Q8W) compared to CAB LA + RPV LA administered every 4 weeks (Q4W) over a 48-week treatment period in approximately 1020 adult HIV-1 infected subjects. Subjects will be divided in 2 groups; Group 1 will include subjects receiving current anti-retroviral (ART) standard of care (SOC) therapy wh",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects who will be able to understand and comply with protocol requirements, instructions, and restrictions.\n* Understand the long term commitment to the study and be likely to complete the study as planned\n* Be considered as an appropriate candidate for participation in an ",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus-ribonucleic Acid (HIV-RNA) >=50 Copies Per Milliliter (c/mL) as Per Food and Drug Administration (FDA) Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT03299049"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03060447",
+            "title": "A Phase 1b, Randomized, Double-Blind, Placebo-controlled Study to Evaluate the Safety and Efficacy of GS-9620 in Antiretroviral Treated HIV-1 Infected Controllers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-05-09",
+            "completion_date": "2020-02-13",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "The primary objective of this study is to evaluate the safety and tolerability of a 10-dose regimen of vesatolimod in HIV-1 infected controllers on antiretroviral treatment (ART) and during analytical treatment interruption (ATI) following vesatolimod dosing.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Plasma HIV-1 ribonucleic acid (RNA) levels \\< 50 copies/mL at screening\n* Chronic HIV-1 infection (for ≥ 6 months) prior to ART initiation\n* Pre-ART Plasma HIV-1 RNA set point between 50 and ≤ 5,000 copies/mL measured within two years prior to ART initiation\n* On ART for ≥",
+            "endpoints": [
+              "Percentage of Participants Experiencing Treatment Emergent Serious Adverse Events (TESAEs) and Treatment Emergent Adverse Events (TEAEs)"
+            ],
+            "sponsor": "Gilead Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT03060447"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02951052",
+            "title": "A Phase III, Randomized, Multicenter, Parallel-group, Non-inferiority, Open-label Study Evaluating the Efficacy, Safety, and Tolerability of Switching to Long-acting Cabotegravir Plus Long-acting Rilpivirine From Current INI- NNRTI-, or PI-based Antiretroviral Regimen in HIV-1-infected Adults Who Are Virologically Suppressed",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-10-28",
+            "completion_date": "2029-12-31",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Argentina, Italy, United States, Mexico, Russia, Sweden, South Africa",
+            "enrollment": 618,
+            "brief_summary": "The Antiretroviral Therapy as Long Acting Suppression (ATLAS) study is being conducted to establish if human immunodeficiency virus type-1 (HIV-1) infected adult subjects with current viral suppression on a regimen with 2 nucleoside reverse transcriptase inhibitors (NRTIs) plus a third agent, remain suppressed upon switching to a two-drug intramuscular (IM) long-acting (LA) regimen of cabotegravir (CAB) and rilpivirine (RPV). This is a Phase 3, multi-phase, randomized, open label, active-control",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged 18 years or older (or ≥19 where required by local regulatory agencies), at the time of signing the informed consent.\n* Must be on uninterrupted current regimen (either the initial or second ARV regimen) for at least 6 months prior to Screening. Any prior switch, defined a",
+            "endpoints": [
+              "Number of Participants With Virologic Failure (HIV-1 Ribonucleic Acid [RNA] >=50 Copies Per Millilter [mL]) Using Snapshot Algorithm at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02951052"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01641809",
+            "title": "A Phase IIb, Dose Ranging Study of Oral GSK1265744 in Combination With Nucleoside Reverse Transcriptase Inhibitors for Induction of Human Immunodeficiency Virus -1 (HIV-1) Virologic Suppression Followed by an Evaluation of Maintenance of Virologic Suppression When Oral GSK1265744 is Combined With Oral Rilpivirine in HIV-1 Infected, Antiretroviral Therapy Naive Adult Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-08-06",
+            "completion_date": "2019-01-15",
+            "country": "Canada, United States",
+            "enrollment": 244,
+            "brief_summary": "The study is designed to select a dose of GSK1265744 primarily on the basis of antiviral activity and tolerability in HIV-1 infected, antiretroviral naive subjects.\n\nThis study consists of two parts:\n\nInduction Phase: Approximately 200 subjects will be randomized (50 subjects in each of the 4 treatment arms). The Induction Phase consists of a 24 week dose-ranging evaluation of GSK1265744 at blinded doses of 10 mg, 30 mg and 60 mg once-daily and a control arm of open-label efavirenz (EFV) 600 mg ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected male or female subjects \\>= 18 years of age\n* Screening plasma HIV-1 RNA \\>=1000 c/mL\n* CD4+ cell count \\>=200 cells/millimeter (mm)\\^3\n* ART-naive defined as having =\\<10 days of prior therapy with any antiretroviral agent following a diagnosis of HIV-1 infecti",
+            "endpoints": [
+              "Percentage of Participants With HIV-1 Ribonucleic Acid (RNA) <50 Copies/Milliliter (mL) at Week 48 Using the Missing, Switch, Discontinuation Equals Failure (MSDF) Algorithm"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01641809"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00443729",
+            "title": "A Multicenter, Double-Blind, Randomized, Active-Controlled Study to Evaluate the Safety and Antiretroviral Activity of MK0518 Versus KALETRA in HIV-Infected Patients Switched From a Stable KALETRA-Based Regimen - Study B",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2007-05",
+            "completion_date": "2009-04",
+            "country": "N/A",
+            "enrollment": 355,
+            "brief_summary": "The purpose of this study is to investigate the efficacy, safety, and tolerability of an investigational treatment for patients with Human Immunodeficiency Virus (HIV).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient is at least 18 years of age\n* Patient is human immunodeficiency virus (HIV) positive\n* Patient has documented Human Immunodeficiency Virus (HIV) RiboNucleic Acid (RNA) \\<50 copies/milliliter (mL) for at least 3 months while on a KALETRA based regimen\n* Patient has been",
+            "endpoints": [
+              "Number of Patients With Plasma Human Immunodeficiency Virus (HIV) RiboNucleic Acid (RNA) <50 Copies/mL at Week 24",
+              "Number of Patients With Clinical Adverse Experiences (CAEs) Through 24 Weeks",
+              "Mean Percent Change From Baseline in Fasting Serum Cholesterol at Week 12"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00443729"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01384734",
+            "title": "A Phase IIb Randomized, Controlled, Partially-Blinded Trial to Investigate Safety, Efficacy and Dose-Response of BMS-663068 in Treatment-experienced HIV-1 Subjects, Followed by an Open-Label Period on the Recommended Dose",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-07-26",
+            "completion_date": "2017-05-12",
+            "country": "Colombia, Spain, Romania, Germany, Argentina, United States, Peru, Mexico, Russia, South Africa",
+            "enrollment": 254,
+            "brief_summary": "The purpose of this study is to assess the safety, efficacy, tolerability and pharmacokinetics of four doses of BMS-663068 with Raltegravir (RAL) + Tenofovir Disoproxil Fumarate (TDF). At least 1 dose of BMS-663068 can be identified which is safe, well tolerated, and efficacious when combined with RAL + TDF for treatment-experienced HIV-1 infected subjects. PHENOSENSE® is a registered trademark of Monogram Biosciences.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Plasma HIV-1 RNA ≥ 1000 copies/ml at Screening\n* Treatment experience with antiretroviral therapies (excluding integrase inhibitors)\n* Screening PHENOSENSE Entry indicating BMS-626529 inhibitory concentration (IC)50 \\< 0.1 μM\n* Cluster of differentiation (CD)4+ T-cell count \\>",
+            "endpoints": [
+              "Percentage of Participants With Plasma HIV-1 Ribonucleic Acid (RNA) < 50 Copies Per Milliliter (c/mL) at Week 24",
+              "Number of Participants With Serious Adverse Events (SAE) and Discontinuation Due to AEs up to Week 24"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01384734"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00768989",
+            "title": "A Multicenter, Randomized, Open-Label, Active-Controlled Pilot Study to Evaluate the Safety and Antiretroviral Activity of Unboosted Atazanavir BID Plus Raltegravir BID and Boosted Atazanavir QD in Combination With Tenofovir/Emtricitabine QD in Treatment Naive HIV-Infected Subjects",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2008-11",
+            "completion_date": "2010-05",
+            "country": "Argentina, France, United States",
+            "enrollment": 167,
+            "brief_summary": "The purpose of this study is to determine if the combination of atazanavir and raltegravir taken together is safe and effective in the treatment of human immunodeficiency virus (HIV).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Human Immunodeficiency Virus (HIV)-1 positive status\n* HIV ribonucleic acid (RNA) level \\>=5000 copies/mL\n* Antiretroviral treatment-naive\n* Absolute Cluster of Differentiation 4 (CD4) cell count meeting 1 of the following criteria:\n* \\<350 cells/mm\\^3\n* Screening CD4 \\>=350 a",
+            "endpoints": [
+              "Number of Participants With Human Immunodeficiency Virus (HIV) Ribonucleic Acid (RNA) Level <50 Copies/mL at Week 24"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT00768989"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04442737",
+            "title": "A Phase 4, Randomized, Active-Controlled, Open-label Study to Evaluate the Safety and Tolerability of Switching to Once-Daily Darunavir/Cobicistat/Emtricitabine/Tenofovir Alafenamide (D/C/F/TAF) Fixed-dose Combination (FDC) Regimen in Virologically-suppressed Human Immunodeficiency Virus Type 1 (HIV-1) Infected Participants Experiencing Rapid Weight Gain With an INI + TAF/FTC ARV Regimen",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-07-01",
+            "completion_date": "2023-08-30",
+            "country": "United States",
+            "enrollment": 103,
+            "brief_summary": "The purpose of this study is to assess the percent change in body weight when switching to darunavir/cobicistat/emtricitabine/tenofovir alafenamide (D/C/F/TAF) fixed-dose combination (FDC) (Immediate Switch Arm) compared to continuing the current integrase (INI) + tenofovir alafenamide/emtricitabine (TAF/FTC) antiretroviral (ARV) regimen (Delayed Switch Arm) in virologically-suppressed human immunodeficiency virus (HIV)-1 infected participants who have experienced rapid and significant body weig",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Body Mass Index (BMI) of greater than or equal to (\\>=) 18 kilogram per meter square (kg/m\\^2) at time of starting an integrase (INI)-based regimen plus Tenofovir Alafenamide/Emtricitabine (TAF/FTC) antiretroviral (ARV) regimen\n* Documented human immunodeficiency virus (HIV)-1",
+            "endpoints": [
+              "Percent Change From Baseline in Body Weight at Week 24",
+              "Percent Change From Baseline in Body Weight at Week 24: Body Mass Index (BMI) >=30 Kilograms Per Square Meter (kg/m^2) Subgroup",
+              "Percent Change From Baseline in Body Weight at Week 24: Female and Male Subgroup"
+            ],
+            "sponsor": "Janssen Scientific Affairs, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT04442737"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02831764",
+            "title": "A Phase III, Randomised, Double-blind, Multicentre, Parallel-group, Non-inferiority Study Evaluating the Efficacy, Safety, and Tolerability of Dolutegravir Plus Lamivudine Compared to Dolutegravir Plus Tenofovir/Emtricitabine in HIV-1-infected Treatment-naïve Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-07-18",
+            "completion_date": "2022-06-29",
+            "country": "Switzerland, Australia, Spain, France, Canada, Romania, Belgium, United Kingdom, Germany, Argentina, Italy, United States, Portugal, Peru, Mexico, Russia, Taiwan, Poland",
+            "enrollment": 722,
+            "brief_summary": "This study will compare safety, efficacy, and tolerability of a two drug regimen of dolutegravir (DTG) plus (+) lamivudine (3TC) administered once daily with DTG plus two nucleoside reverse transcriptase inhibitors (tenofovir disoproxil fumarate \\[TDF\\]/emtricitabine \\[FTC\\] fixed dose combination \\[FDC\\]) administered once daily in human immunodeficiency virus (HIV) 1 infected adult participants that have not previously received antiretroviral therapy. The study is designed to demonstrate the n",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be an HIV 1 infected adult \\>=18 years of age (or older, if required by local regulations) at the time of signing the informed consent\n* An eligible female participant should not be pregnant (as confirmed by a negative serum human chorionic gonadotrophin (hCG) test at Scr",
+            "endpoints": [
+              "Percentage of Participants With Plasma Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies/mL (c/mL) at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT02831764"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01332227",
+            "title": "An Open-Label, Randomized Study Evaluating a Switch From a Regimen of Two Nucleoside Reverse Transcriptase Inhibitors Regimen Plus Any Third Agent to Either a Regimen of Atazanavir/Ritonavir Once Daily and Raltegravir Twice Daily or to a Regimen of Atazanavir/Ritonavir Once Daily and Tenofovir/Emtricitabine Once Daily in Virologically Suppressed HIV-1 Infected Subjects With Safety and/or Tolerability Issues on Their Present Treatment Regimen.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-10",
+            "completion_date": "2014-02",
+            "country": "Spain, United Kingdom, France, Germany, Italy, United States, Poland",
+            "enrollment": 132,
+            "brief_summary": "The purpose of this study is to determine whether HIV-1-infected patients, who are virologically suppressed on a regimen of 2 nucleoside reverse transcriptase inhibitors plus any third agent but are experiencing safety and/or tolerability issues, will maintain virologic suppression after switching to a regimen of heat-stable ritonavir boosted atazanavir, 300/100 mg, once daily plus raltegravir, 400 mg, twice daily.",
+            "eligibility_criteria": "Key Inclusion Criteria\n\n* Current treatment regimen of 2 nucleoside reverse transcriptase inhibitors (NRTIs) plus any third agent for at least 3 months immediately prior to screening\n* Virologic suppression (HIV-1 RNA \\<50 c/mL) for at least 3 months immediately prior to screening\n* Virologic suppre",
+            "endpoints": [
+              "Percentage of Participants With HIV-1 RNA Level <40 c/mL at Week 24"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT01332227"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00042289",
+            "title": "Pharmacokinetic Properties of Antiretroviral and Related Drugs During Pregnancy and Postpartum",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2003-06-09",
+            "completion_date": "2020-09-30",
+            "country": "Brazil, Argentina, United States, Botswana, South Africa, Tanzania, Puerto Rico, Thailand",
+            "enrollment": 1578,
+            "brief_summary": "IMPAACT P1026s is a Phase IV prospective clinical study to evaluate the pharmacokinetics (PKs) of antiretroviral (ARV) and tuberculosis (TB) medications in pregnant women and their infants. (Pharmacokinetics are the various interactions between a drug and the body.) This study also evaluated the PKs of certain ARVs in postpartum women before and after starting hormonal contraceptives. The PKs of these drugs were evaluated by measuring the amount of medicine present in blood and/or vaginal secret",
+            "eligibility_criteria": "Maternal Inclusion Criteria:\n\n* Participant must belong to one of the following 5 groups:\n\n  1. HIV-infected pregnant women greater than or equal to 20 weeks gestation NOT on TB treatment receiving one or more of the ARV drugs/drug combinations specified in the protocol\n  2. HIV-infected pregnant wo",
+            "endpoints": [
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Median (IQR) for ARVs and TB Drugs",
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Median (Range) for ARVs and TB Drugs",
+              "PK Parameter: Area Under the Curve From 0 to 12 Hours (AUC12) With Geometric Mean (95% CI) for ARVs and TB Drugs"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT00042289"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01780831",
+            "title": "A Phase I Trial to Evaluate the Safety and Pharmacokinetics of Raltegravir in HIV-1-Exposed Neonates at Risk of Acquiring HIV-1 Infection",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2014-01-28",
+            "completion_date": "2018-04-20",
+            "country": "Brazil, United States, South Africa, Puerto Rico, Thailand",
+            "enrollment": 52,
+            "brief_summary": "The purpose of this study was to evaluate the safety and pharmacokinetics (PK) of raltegravir (RAL) when given to HIV-1-exposed, normal birth weight newborn infants at risk of acquiring HIV-1 infection. (PK is the study of the time course of absorption, distribution, metabolism, and excretion of drugs in the body.) The primary goal of this study was to determine a dose of RAL that was safe and met the PK targets for infants when administered during the first 6 weeks of life in addition to standa",
+            "eligibility_criteria": "Maternal Inclusion Criteria:\n\n* Mother is living with HIV and either i) known to have HIV diagnosis prior to labor (testing obtained and designated per local SOC in the medical record and either on or recently started CART prior to delivery) or ii) identified as having HIV diagnosis at the time of l",
+            "endpoints": [
+              "Number of Infants Who Died or Had Grade 3/4 Adverse Event Through 6 Weeks of Life",
+              "AUC24 for Cohort 1 RAL Dose #1 (Within 48 Hours of Birth)",
+              "Cmax for Cohort 1 RAL Dose #1 (Within 48 Hours of Birth)"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT01780831"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00443703",
+            "title": "A Multicenter, Double-Blind, Randomized, Active-Controlled Study to Evaluate the Safety and Antiretroviral Activity of MK0518 Versus KALETRA in HIV-Infected Patients Switched From a Stable KALETRA-Based Regimen - Study A",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2007-05",
+            "completion_date": "2009-04",
+            "country": "N/A",
+            "enrollment": 352,
+            "brief_summary": "The purpose of this study is to investigate the efficacy, safety, and tolerability of an investigational treatment for patients with HIV.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient is at least 18 years of age\n* Patient is Human Immunodeficiency Virus (HIV) positive\n* Patient has documented Human Immunodeficiency Virus (HIV) RiboNucleic Acid (RNA) \\<50 copies/milliliter (mL) for at least 3 months while on a KALETRA based regimen\n* Patient has been",
+            "endpoints": [
+              "Number of Patients With Plasma Human Immunodeficiency Virus (HIV) RiboNucleic Acid (RNA) <50 Copies/mL at Week 24",
+              "Number of Patients With Clinical Adverse Experiences (CAEs) Through 24 Weeks",
+              "Mean Percent Change From Baseline in Fasting Serum Cholesterol at Week 12"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00443703"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01199731",
+            "title": "A Phase 2b Study to Select a Once Daily Oral Dose of GSK2248761 in HIV-1 Infected Antiretroviral Therapy Experienced Adults With Non-nucleoside Reverse Transcriptase Inhibitor (NNRTI) Resistance",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2010-10-05",
+            "completion_date": "2011-07-19",
+            "country": "Canada, Romania, Belgium, Italy, United States",
+            "enrollment": 30,
+            "brief_summary": "This 48 week, phase 2b study in 150 HIV-1 infected antiretroviral therapy experienced adult subjects consists of a dose-ranging evaluation of GSK2248761 at blinded doses of 100 mg and 200 mg once daily with a control arm of open-label etravirine (ETV) 200 mg twice daily. The background ART for all three arms will be darunavir/ritonavir (DRV/r) 600 mg/100 mg twice daily plus raltegravir (RAL) 400 mg twice daily. Antiviral activity, safety, PK, and development of viral resistance will be evaluated",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infected adults greater than or equal to 18 years of age. Females are eligible to enter and participate in the study if she is (1) non-childbearing potential, (2) child bearing potential with negative pregnancy test at screening and Day 1 and agrees to use protocol-speci",
+            "endpoints": [
+              "Percentage of Participants With Human Immunodeficiency Virus Type 1 (HIV-1) Ribonucleic Acid (RNA) <50 Copies Per Milliliter (/mL) at Week 16"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01199731"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00369941",
+            "title": "A Multicenter, Double-Blind, Randomized, Active-Controlled Study to Evaluate the Safety and Antiretroviral Activity of MK-0518 Versus Efavirenz in Treatment Naive HIV-Infected Patients, Each in Combination With TRUVADA™",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-08",
+            "completion_date": "2012-02",
+            "country": "N/A",
+            "enrollment": 566,
+            "brief_summary": "This study will investigate the safety and efficacy of MK-0518 versus efavirenz, in combination with TRUVADA, as a therapy for Human Immunodeficiency Virus (HIV)-infected patients not previously treated.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant is a male or female at least 18 years of age\n* Participant is HIV positive\n* Participant is naïve to antiretroviral therapy (ART) and has not received any ART\n\nExclusion Criteria:\n\n* Participant has received approved or experimental antiretroviral agents in the pas",
+            "endpoints": [
+              "Number of Participants Who Achieved Human Immunodeficiency Virus (HIV) Ribonucleic Acid (RNA) <50 Copies/mL at Week 48",
+              "Number of Participants With Clinical Adverse Experiences (CAEs) at Week 48",
+              "Number of Participants With Serious CAEs at Week 48"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00369941"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01828073",
+            "title": "Raltegravir Pharmacokinetics and Safety in Neonates",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-05-19",
+            "completion_date": "2018-04-23",
+            "country": "Brazil, United States, South Africa, Tanzania, Thailand",
+            "enrollment": 40,
+            "brief_summary": "The purpose of this study was to determine the washout pharmacokinetics (PK) and safety of in utero/intrapartum exposure to maternal raltegravir (RAL) in infants born to pregnant women with HIV infection who received RAL 400 mg twice daily. The study also provided data for the development of an infant RAL starting dosing regimen for IMPAACT P1110 (NCT01780831).",
+            "eligibility_criteria": "Participant study inclusions and exclusion criteria are listed below.\n\nCohort 1 M-I pairs were enrolled prior to delivery so that only maternal study inclusion and exclusion criteria were assessed at enrollment.\n\nCohort 1: Maternal Study Inclusion Criteria\n\n* Documentation of HIV-1 infection.\n* Viab",
+            "endpoints": [
+              "PK Parameter: Neonatal RAL Elimination Half-life (T1/2)",
+              "Ratio of Cord Blood to Maternal Blood RAL Concentrations",
+              "Number of Infants Who Met Composite Safety Endpoint (Grade 3/4 Adverse Event, Adverse Birth Outcome, Death)"
+            ],
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
+            "url": "https://clinicaltrials.gov/study/NCT01828073"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01328041",
+            "title": "A Phase III Study to Demonstrate the Antiviral Activity and Safety of Dolutegravir in HIV-1 Infected Adult Subjects With Treatment Failure on an Integrase Inhibitor Containing Regimen.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2011-05",
+            "completion_date": "2015-05",
+            "country": "Spain, France, Canada, Belgium, Italy, United States, Portugal",
+            "enrollment": 183,
+            "brief_summary": "The purpose of this trial is to assess the antiviral activity and safety of a dolutegravir (DTG) containing regimen in HIV-1 infected, antiretroviral therapy (ART)-experienced adults with current or historical failure on an integrase inhibitor (INI) containing regimen. The study will assess DTG 50mg twice daily administered initially with the current failing ART regimen but then with an optimised background ART regimen (OBR) after Day 7. The first analyses will be conducted after the last subjec",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Screening plasma HIV-1 RNA ≥500 copies/mL\n* ART-experienced, INI-experienced, DTG naïve\n* Experienced virological failure on raltegravir (RAL) or elvitegravir (ELV) regimen\n* The subject's HIV-1 shows resistance to RAL or ELV at Screening or at prior time point of virological ",
+            "endpoints": [
+              "Mean Change From Baseline in Plasma HIV-1 RNA at Day 8",
+              "Number of Participants With HIV-1 RNA Less Than 50 Copies/mL at Week 24",
+              "Number of Participants With HIV-1 RNA Less Than 50 Copies/mL at Week 48"
+            ],
+            "sponsor": "ViiV Healthcare",
+            "url": "https://clinicaltrials.gov/study/NCT01328041"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03667547",
+            "title": "An Open-label Single Oral Dose Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of MK-0518 1200 mg (600 mg Tablet × 2) in Healthy Japanese Male Participants",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-09-27",
+            "completion_date": "2018-10-23",
+            "country": "Japan",
+            "enrollment": 12,
+            "brief_summary": "This study is designed to evaluate safety, tolerability, and pharmacokinetics of a single 1200-mg dose of raltegravir (MK-0518, ISENTRESS®) in healthy Japanese male participants.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Japanese male in good health\n* Body mass index (BMI) between 18.5 and 32.0 kg/m\\^2\n* Nonsmoker and has not used nicotine-containing products for over 3 months at the time of screening test.\n\nExclusion Criteria:\n\n* History of clinically significant endocrine, gastrointestinal, ",
+            "endpoints": [
+              "Number of Participants With an Adverse Event (AE)",
+              "Number of Participants Discontinued From the Study Due to an AE",
+              "Number of Participants With a Serious Adverse Event (SAE)"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT03667547"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00100048",
+            "title": "Multicenter, Double-Blind, Randomized, Dose Ranging Study to Compare the Safety and Activity of MK0518 Plus Tenofovir and Lamivudine (3TC) Versus Efavirenz Plus Tenofovir and Lamivudine (3TC) in ART-Naive, HIV-Infected Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2005-01",
+            "completion_date": "2010-07",
+            "country": "N/A",
+            "enrollment": 206,
+            "brief_summary": "This is a study that will investigate the safety and efficacy of an investigational drug in Human immunodeficiency virus (HIV) infected patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be HIV positive who must have received less than 7 days total of any antiretroviral therapy (HIV related therapy)\n\nExtension Studies:\n\n* First extension: Patient completed the 48-week base study\n* Second extension: Patient completed the first 144-week extension st",
+            "endpoints": [
+              "Change From Baseline in Plasma Human Immunodeficiency Virus (HIV) Ribonucleic Acid (RNA) on Day 10 (Cohort I)",
+              "Number of Patients With Clinical Adverse Experiences (CAEs) and Number of Patients With Serious CAEs at Day 10 (Cohort I)",
+              "Number of Participants With HIV RNA Levels Below 400 Copies/mL at Week 24 (Cohort II)"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00100048"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01467479",
+            "title": "An Open Label,Phase 3 Study of Telaprevir in Combination With Peginterferon Alfa 2a (Pegasys®) and Ribavirin (Copegus®) in Subjects Coinfected With Genotype 1 Hepatitis C Virus and Human Immunodeficiency Virus Type 1(HCV/HIV-1)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2011-12",
+            "completion_date": "2014-02",
+            "country": "Spain, Canada, Germany, United States, Puerto Rico",
+            "enrollment": 185,
+            "brief_summary": "The purpose of this study is to treat human immunodeficiency virus (HIV) and Hepatitis C Virus (HCV) co-infected subjects with telaprevir, pegylated interferon alfa-2a (Peg-IFN-alfa-2a), and ribavirin (RBV) to achieve undetectable hepatitis C virus ribonucleic acid (HCV RNA) 12 weeks after the last planned dose of study drug.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have chronic, genotype 1a or 1b, hepatitis C with HCV RNA greater than (\\>) 1000 international units per milliliter (IU/mL)\n* Population A: HCV Pegylated interferon (Peg-IFN)/RBV treatment naive (received no prior HCV therapy)or Peg-IFN/RBV prior treatment wi",
+            "endpoints": [
+              "Percentage of Participants With Sustained Viral Response 12 Weeks After Last Planned Dose of Study Drug (SVR12)"
+            ],
+            "sponsor": "Vertex Pharmaceuticals Incorporated",
+            "url": "https://clinicaltrials.gov/study/NCT01467479"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30531300",
+            "title": "Brief Report: Surveillance of Congenital Anomalies After Exposure to Raltegravir or Elvitegravir During Pregnancy in the United Kingdom and Ireland, 2008-2018.",
+            "abstract": "The indisputable benefits of antiretroviral therapy (ART) in the reduction of mother-to-child-transmission of HIV have to be carefully balanced with the risks of embryo-fetal toxicities due to fetal exposure to maternal ART. The recent report of a potential safety signal with dolutegravir use in pregnancy and potential increased rate of neural tube defects has raised the question of a potential class effect for integrase strand inhibitors. To contribute real-world evidence, we evaluated data on pregnant women receiving raltegravir (RAL) or elvitegravir (EVG) in the United Kingdom and Ireland.",
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2019",
+            "authors": [
+              "Rasi Virginia",
+              "Cortina-Borja Mario",
+              "Peters Helen",
+              "Sconza Rebecca",
+              "Thorne Claire"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Drug-Induced",
+              "Adult",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Infectious Disease Transmission, Vertical",
+              "Ireland",
+              "Pregnancy",
+              "Pregnancy Complications, Infectious",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30531300/"
+          },
+          {
+            "pmid": "37307279",
+            "title": "Congenital malformations and preeclampsia associated with integrase inhibitor use in pregnancy: A single-center analysis.",
+            "abstract": "Antiretroviral therapy (ART) decreases perinatal HIV transmission, but concerns exist regarding maternal and infant safety. We compared the incidence of congenital malformations and other adverse outcomes in pregnancies exposed to integrase inhibitor (INSTI) versus non-INSTI ART.",
+            "journal": "PloS one",
+            "year": "2023",
+            "authors": [
+              "Smith Christiana",
+              "Fought Angela J",
+              "Sung Joyce F",
+              "McKinney Jennifer R",
+              "Metz Torri D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Infant",
+              "HIV Infections",
+              "HIV Integrase Inhibitors",
+              "Maternal Exposure",
+              "Abnormalities, Drug-Induced",
+              "Pregnancy Trimester, First",
+              "Pre-Eclampsia",
+              "Anti-Retroviral Agents",
+              "Retrospective Studies",
+              "Cohort Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37307279/"
+          },
+          {
+            "pmid": "31021990",
+            "title": "Is There a Safety Signal for Dolutegravir and Integrase Inhibitors During Pregnancy?",
+            "abstract": "Dolutegravir, an integrase strand transfer inhibitor (InSTI), is a major antiretroviral agent for HIV infection. Its use is promising, especially in low- and middle-income countries, because of a high resistance barrier and a good safety profile. Very recently, a World Health Organization safety signal has been raised regarding neural tube defects after the first-trimester exposure. Furthermore, to date, the experience is limited regarding the use of the other InSTI drugs (raltegravir and elvitegravir) during pregnancy. Our objective is to analyze the safety of InSTI drugs in pregnant women.",
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2019",
+            "authors": [
+              "Chouchana Laurent",
+              "Beeker Nathanael",
+              "Treluyer Jean-Marc"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Retroviral Agents",
+              "Cohort Studies",
+              "Congenital Abnormalities",
+              "Drug Resistance, Viral",
+              "Female",
+              "France",
+              "HIV Infections",
+              "HIV Integrase Inhibitors",
+              "HIV-1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31021990/"
+          },
+          {
+            "pmid": "31458978",
+            "title": "Structure-Driven Discovery of α,γ-Diketoacid Inhibitors Against UL89 Herpesvirus Terminase.",
+            "abstract": "Human cytomegalovirus (HCMV) is an opportunistic pathogen causing a variety of severe viral infections, including irreversible congenital disabilities. Nowadays, HCMV infection is treated by inhibiting the viral DNA polymerase. However, DNA polymerase inhibitors have several drawbacks. An alternative strategy is to use compounds against the packaging machinery or terminase complex, which is essential for viral replication. Our discovery that raltegravir (1), a human immunodeficiency virus drug, inhibits the nuclease function of UL89, one of the protein subunits of the complex, prompted us to further develop terminase inhibitors. On the basis of the structure of 1, a library of diketoacid (α,γ-DKA and β,δ-DKA) derivatives were synthesized and tested for UL89-C nuclease activity. The mode of action of α,γ-DKA derivatives on the UL89 active site was elucidated by using X-ray crystallography, molecular docking, and in vitro experiments. Our studies identified α,γ-DKA derivative 14 able to ",
+            "journal": "ACS omega",
+            "year": "2018",
+            "authors": [
+              "Bongarzone Salvatore",
+              "Nadal Marta",
+              "Kaczmarska Zuzanna",
+              "Machón Cristina",
+              "Álvarez Mercedes"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31458978/"
+          },
+          {
+            "pmid": "39086081",
+            "title": "Integrase inhibitor drugs during pregnancy and congenital anomalies: A case/non-case study from the global pharmacovigilance database VigiBase®.",
+            "abstract": "In 2018, a significant neural tube defects (NTD) signal was reported after pre-conceptional exposure to dolutegravir, but was not confirmed in further analysis. Since 2019, dolutegravir-based regimen, an integrase inhibitor (INI), is recommended by WHO as the most-effective first-line therapy in all patients living with HIV. To explore the potential INI-related teratogenic effect, we searched disproportionate signals between exposure to INI-class drugs and congenital anomalies, compared to non-INI drugs, using the international pharmacovigilance database, VigiBase®. We selected all the reports registered in VigiBase® between 01/01/2007 and 30/03/2021 on any antiretroviral drug-related fetal or neonatal adverse drug reactions, declared either in children (<2 years) exposed in utero or in pregnant women (12-50 years). A case/non-case study was conducted to detected signals between congenital anomalies and prenatal exposure to any INI-class drug, compared to non-INI drugs, by estimating a",
+            "journal": "Pharmacology research & perspectives",
+            "year": "2024",
+            "authors": [
+              "Saint-Lary Laura",
+              "Lacroix Isabelle",
+              "Leroy Valériane",
+              "Sommet Agnès"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pregnancy",
+              "Female",
+              "Pharmacovigilance",
+              "Adult",
+              "Adolescent",
+              "Abnormalities, Drug-Induced",
+              "Databases, Factual",
+              "Heterocyclic Compounds, 3-Ring",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39086081/"
+          },
+          {
+            "pmid": "38864586",
+            "title": "First-trimester exposure to newer antiretroviral agents and congenital anomalies in a US cohort.",
+            "abstract": "To characterize associations of exposure to newer antiretroviral medications in the first trimester with congenital anomalies among infants born to persons with HIV in the United States.",
+            "journal": "AIDS (London, England)",
+            "year": "2024",
+            "authors": [
+              "Fung Kelly",
+              "Hernandez-Diaz Sonia",
+              "Zash Rebecca",
+              "Chadwick Ellen G",
+              "Van Dyke Russell B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Pregnancy",
+              "Pregnancy Trimester, First",
+              "HIV Infections",
+              "United States",
+              "Adult",
+              "Abnormalities, Drug-Induced",
+              "Infant, Newborn",
+              "Longitudinal Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38864586/"
+          },
+          {
+            "pmid": "31595301",
+            "title": "Analysis of Pharmacovigilance Databases for Dolutegravir Safety in Pregnancy.",
+            "abstract": "The Botswana Tsepamo study reported neural tube defects (NTDs) in 4 of 426 (0.94%) infants of women receiving preconception dolutegravir (DTG) antiretroviral therapy (ART) vs 14 of 11 300 (0.12%) receiving preconception non-DTG ART. Data are needed to investigate this potential safety signal. Clinicians, patients, and pharmaceutical companies can report adverse drug reactions (ADRs) to pharmacovigilance databases. Data from ADRs reported to various pharmacovigilance databases were searched for NTDs.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2020",
+            "authors": [
+              "van De Ven Nikolien S",
+              "Pozniak Anton L",
+              "Levi Jacob A",
+              "Clayden Polly",
+              "Garratt Anna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Botswana",
+              "Databases, Factual",
+              "Female",
+              "HIV Infections",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Oxazines",
+              "Pharmacovigilance",
+              "Piperazines",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31595301/"
+          },
+          {
+            "pmid": "33048878",
+            "title": "Risk of birth defects and perinatal outcomes in HIV-infected women exposed to integrase strand inhibitors during pregnancy.",
+            "abstract": "Following an alert on neural tube defects and dolutegravir, we sought to evaluate if the exposure integrase strand transfer inhibitors (INSTIs) at conception was associated with birth defects or other adverse pregnancy outcomes.",
+            "journal": "AIDS (London, England)",
+            "year": "2021",
+            "authors": [
+              "Sibiude Jeanne",
+              "Le Chenadec Jérôme",
+              "Mandelbrot Laurent",
+              "Dollfus Catherine",
+              "Matheron Sophie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Drug-Induced",
+              "Congenital Abnormalities",
+              "Female",
+              "HIV Infections",
+              "HIV Integrase Inhibitors",
+              "Heterocyclic Compounds, 3-Ring",
+              "Humans",
+              "Infant, Newborn",
+              "Integrases",
+              "Oxazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33048878/"
+          },
+          {
+            "pmid": "20587860",
+            "title": "Use of newer antiretroviral agents, darunavir and etravirine with or without raltegravir, in pregnancy: a report of two cases.",
+            "abstract": "Although antiretroviral therapy during pregnancy is associated with significant reductions in the risk of vertical transmission of HIV, attainment of this outcome in highly treatment-experienced pregnant women might be complicated by the lack of active drugs available to assemble a potent regimen. The recent licensing and availability of darunavir, etravirine and raltegravir has broadened management options available for highly treatment-experienced patients. However, data on their safety and efficacy in preventing vertical transmission are limited.",
+            "journal": "Antiviral therapy",
+            "year": "2010",
+            "authors": [
+              "Jaworsky Denise",
+              "Thompson Courtney",
+              "Yudin Mark H",
+              "Bitnun Ari",
+              "Brophy Jason"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-HIV Agents",
+              "Darunavir",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Infant",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20587860/"
+          },
+          {
+            "pmid": "34151853",
+            "title": "Inflammatory Myositis Secondary to Anti-Retroviral Therapy in a Child; Case Report and Review of the Literature.",
+            "abstract": "Here, we describe a five year old girl with congenital HIV who had a six-week onset of rapidly deteriorating mobility and progressive proximal muscle weakness, associated with a raised Creatine Kinase (CK) level of 4330 U/L [25-200 U/L], subsequently diagnosed with an inflammatory myositis. Potential causes were investigated by paediatric neurology and immunology teams. Her viral load had been undetectable over the preceding two years, excluding a primary HIV myositis. While MRI scanning did not show evidence of definite myositis, a muscle biopsy showed evidence of an inflammatory process, comprising a moderate endomysial, perimysial and perivascular mononuclear (CD8 + T cell) infiltrate with increased MHC expression. No particular features of dermatomyositis or immune-mediated necrotising myopathy were identified and there were no features of an inclusion body myositis.Given the absence of active HIV infection, the role of anti-retroviral medications was considered. She had had a rece",
+            "journal": "Journal of neuromuscular diseases",
+            "year": "2021",
+            "authors": [
+              "Monaghan Marie",
+              "Loh Charlotte",
+              "Jones Stephen",
+              "Oware Agyepong",
+              "Urankar Kathryn"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Retroviral Agents",
+              "Antiretroviral Therapy, Highly Active",
+              "Child, Preschool",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Lamivudine",
+              "Myositis",
+              "Raltegravir Potassium",
+              "Viral Load"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34151853/"
+          },
+          {
+            "pmid": "41701456",
+            "title": "HIV and Pregnancy in Türkiye: Gaps and Gains in the Era of Modern ART: A Multicenter Cohort Study.",
+            "abstract": "We aimed to review perinatal outcomes in HIV-positive pregnant women and their infants, as well as Turkish clinicians' approaches to the management of HIV in pregnancy. This multicenter cohort study included pregnant women living with HIV (WLWH) across Türkiye from 2010 to 2024. 209 pregnancies among 162 WLWH were identified. Nearly 90.9% were diagnosed before or during pregnancy, and 90% were on antiretroviral therapy (ART) at delivery. 150 women had viral loads of less than 1,000 copies/mL during labor. The most chosen ART combination during pregnancy was tenofovir/emtricitabine+raltegravir. Most common mode of delivery was cesarean section (78.9%). Among 174 deliveries, 22 (12.6%) were preterm. Regarding newborn prophylaxis, 137 (88.4%) received zidovudine and 34 received nevirapine. 14 infants were breastfed. No congenital malformation, neonatal or maternal mortality was observed. Overall, 13 infants were diagnosed HIV-positive, indicating an MTCT rate of 7.9% in this cohort. Breas",
+            "journal": "AIDS and behavior",
+            "year": "2026",
+            "authors": [
+              "Damar Çakırca Tuba",
+              "Kurtaran Behice",
+              "Aydın Özlem",
+              "Kayaaslan Bircan",
+              "Kaya Bülent"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41701456/"
+          },
+          {
+            "pmid": "32473739",
+            "title": "Effectiveness and safety of integrase inhibitors in HIV-infected pregnant women followed up in the Madrid Cohort.",
+            "abstract": "The risk of HIV-1 mother-to-child transmission (MTCT) is associated mainly with gestational age at which antiretroviral therapy begins and the HIV-1 RNA plasma viral load at delivery. Regimens with integrase inhibitors (INI) are increasing in high-risk pregnant women. The objective was to review the experience with INI in a Madrid Cohort of mother-infant pairs.",
+            "journal": "Medicina clinica",
+            "year": "2020",
+            "authors": [
+              "Illán Ramos Marta",
+              "Mazariegos Orellana Diana",
+              "Prieto Tato Luis M",
+              "Navarro Gómez M Luisa",
+              "Muñoz Gálligo Eloy"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Observational Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-HIV Agents",
+              "Child",
+              "Female",
+              "HIV Infections",
+              "Humans",
+              "Infant",
+              "Infectious Disease Transmission, Vertical",
+              "Integrase Inhibitors",
+              "Pregnancy",
+              "Pregnancy Complications, Infectious"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32473739/"
+          },
+          {
+            "pmid": "24556267",
+            "title": "[Use of raltegravir in pregnant HIV-1 infected women: experience in different clinical scenarios].",
+            "abstract": "",
+            "journal": "Enfermedades infecciosas y microbiologia clinica",
+            "year": "2014",
+            "authors": [
+              "Cecchini Diego",
+              "Martinez Marina",
+              "Morganti Laura",
+              "Rodriguez Claudia"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-HIV Agents",
+              "Chemical and Drug Induced Liver Injury",
+              "Drug Therapy, Combination",
+              "Female",
+              "HIV Infections",
+              "HIV Integrase Inhibitors",
+              "HIV-1",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24556267/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete familial combined hyperlipidemia",
+        "txgnn_score": 0.9598416686058044,
+        "txgnn_rank": 24322,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroma of prostate",
+        "txgnn_score": 0.944433569908142,
+        "txgnn_rank": 27938,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast fibrocystic disease",
+        "txgnn_score": 0.9385780692100524,
+        "txgnn_rank": 29058,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign reproductive system neoplasm",
+        "txgnn_score": 0.9372018575668336,
+        "txgnn_rank": 29296,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Brenner tumor",
+        "txgnn_score": 0.9356719851493835,
+        "txgnn_rank": 29620,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06817",
+    "name": "Raltegravir",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Raltegravir"
+      },
+      "queried_at": "2026-03-09T17:59:14.825628",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Raltegravir"
+      },
+      "queried_at": "2026-03-09T17:59:17.392706",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T17:59:18.349673",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T17:59:22.134169",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T17:59:23.077682",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T17:59:23.671627",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T17:59:27.284266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T17:59:33.664060",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T17:59:36.723228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T17:59:40.925311",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T17:59:42.431410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T17:59:46.924171",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T17:59:54.495515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "AIDS related complex"
+      },
+      "queried_at": "2026-03-09T17:59:58.042717",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T18:00:03.537322",
+      "status": "success",
+      "result_count": 30,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T18:00:07.123658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "congenital human immunodeficiency virus"
+      },
+      "queried_at": "2026-03-09T18:00:10.012470",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T18:00:10.751927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T18:00:14.423062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "queried_at": "2026-03-09T18:00:15.085131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T18:00:15.875412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T18:00:22.335764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "fibroma of prostate"
+      },
+      "queried_at": "2026-03-09T18:00:23.656940",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-09T18:00:24.980170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-09T18:00:31.641209",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-09T18:00:32.781684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T18:00:33.807563",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T18:00:38.241658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "queried_at": "2026-03-09T18:00:39.149035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T18:00:39.979056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T18:00:43.130234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Raltegravir",
+        "disease": "Brenner tumor"
+      },
+      "queried_at": "2026-03-09T18:00:43.949527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:00:43.952372"
+  }
+}

@@ -1,0 +1,1855 @@
+{
+  "drug": {
+    "inn": "Iopamidol",
+    "drugbank_id": "DB08947",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9857184290885924,
+        "txgnn_rank": 13762,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.979117751121521,
+        "txgnn_rank": 17433,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02380209",
+            "title": "An Early Phase Clinical Trial to Evaluate the Feasibility of CEST MRI in Patients With Early Stage Breast Cancer",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2014-08",
+            "completion_date": "2016-08",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "Evaluate the feasibility of translating preclinical Chemical Exchange Saturation Transfer (CEST) MRI protocol designed to estimate tumor extracellular pH (pHe) to a clinical MRI scanner in women with early stage breast cancer. Assays are used to quantify tumor acidosis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Newly diagnosed infiltrating ductal carcinoma (IDC) of the breast\n* \\>= 1.0 cm primary tumor\n* Calculated creatinine clearance \\>= 50 mL/min\n* Willing and able to provide informed consent\n* Age ≥ 18 years\n* ECOG performance status 0-2\n* Informed of the investigational nature o",
+            "endpoints": [
+              "pH measurement of the tumor will be measured by the CEST MRI."
+            ],
+            "sponsor": "University of Arizona",
+            "url": "https://clinicaltrials.gov/study/NCT02380209"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "10587129",
+            "title": "Comparison of unenhanced, hepatic arterial-dominant, and portal venous-dominant phase helical CT for the detection of liver metastases in women with breast carcinoma.",
+            "abstract": "The purpose of this study was to evaluate triple-phase helical CT for detection of hepatic metastases from breast carcinoma.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "1999",
+            "authors": [
+              "Sheafor D H",
+              "Frederick M G",
+              "Paulson E K",
+              "Keogan M T",
+              "DeLong D M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Breast Neoplasms",
+              "Female",
+              "Hepatic Artery",
+              "Humans",
+              "Liver Neoplasms",
+              "Middle Aged",
+              "Observer Variation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10587129/"
+          },
+          {
+            "pmid": "17380009",
+            "title": "Current status of sentinel lymph node navigation surgery in breast and gastrointestinal tract.",
+            "abstract": "Sentinel lymph node biopsy (SLNB) has been developed as a new diagnostic and therapeutic modality in melanoma and breast cancer surgery. The purpose of the SLNB include preventing the operative morbidity and improving the pathologic stage by focusing on fewer lymph nodes using immunocytochemic and molecular technology has almost achieved in breast cancer surgery. The prognostic meaning of immunocytochemically detected micrometastases is also evaluating in the SLN and bone marrow aspirates of women with early-stage breast cancer. SLNB using available techniques have suggested that the lymphatic drainage of the gastrointestinal tract is much more complicated than other sites, skip metastasis being rather frequent because of an aberrant lymphatic drainage outside of the basin exist. At the moment, the available data does not justify reduced extent of lymphadenectomy, but provides strong evidence for an improvement in tumor staging on the basis of SLNB. Two large scale prospective multi-ce",
+            "journal": "The journal of medical investigation : JMI",
+            "year": "2007",
+            "authors": [
+              "Tangoku Akira",
+              "Seike Junichi",
+              "Nakano Kiichiro",
+              "Nagao Taeko",
+              "Honda Junko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Colorectal Neoplasms",
+              "Esophageal Neoplasms",
+              "False Negative Reactions",
+              "Female",
+              "Gastrointestinal Neoplasms",
+              "Humans",
+              "Lymphography",
+              "Sentinel Lymph Node Biopsy",
+              "Stomach Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17380009/"
+          },
+          {
+            "pmid": "17434068",
+            "title": "Perfusion CT of breast carcinoma: arterial perfusion of nonscirrhous carcinoma was higher than that of scirrhous carcinoma.",
+            "abstract": "Our goals were to apply perfusion CT technique to breast tumor and to evaluate the correlation between arterial perfusion value and other tumor characteristics.",
+            "journal": "Academic radiology",
+            "year": "2007",
+            "authors": [
+              "Hirasawa Hiromi",
+              "Tsushima Yoshito",
+              "Hirasawa Satoshi",
+              "Takei Hiroyuki",
+              "Taketomi-Takahasi Ayako"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma, Scirrhous",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Artifacts",
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Injections, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17434068/"
+          },
+          {
+            "pmid": "25577514",
+            "title": "Breast sentinel lymph node navigation with three-dimensional computed tomography-lymphography: a 12-year study.",
+            "abstract": "To evaluate the utility of three-dimensional (3D) computed tomography (CT)-lymphography (LG) breast sentinel lymph node navigation in our institute.",
+            "journal": "Breast cancer (Tokyo, Japan)",
+            "year": "2016",
+            "authors": [
+              "Yamamoto Shigeru",
+              "Suga Kazuyoshi",
+              "Maeda Kazunari",
+              "Maeda Noriko",
+              "Yoshimura Kiyoshi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Imaging, Three-Dimensional",
+              "Iopamidol",
+              "Lymphography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25577514/"
+          },
+          {
+            "pmid": "40781532",
+            "title": "Glucose stimulated CEST MRI pHe mapping for improved differentiation of tumors with altered hypoxia inducible factor 1alpha expression.",
+            "abstract": "Identification of highly aggressive tumors from benign phenotypes is an important diagnostic need, with increased expression of hypoxia-inducible factor-1α (HIF-1α) as one factor linked to tumor progression and treatment response. HIF-1α stabilization is closely linked to extracellular pH (pHe) through the regulation of glycolysis, proton transporters and vascular endothelial growth factor (VEGF). Magnetic resonance imaging (MRI)-based pHe measurement has shown promise in differentiating tumor phenotypes. In this study, we evaluated a new protocol designed to enhance tumor acidosis by administering glucose prior to pHe measurements in orthotopic human breast cancer xenografts. To demonstrate the utility of this approach, we used human triple-negative breast cancer (TNBC) MDA-MB-231 cells that were either wild type (231-WT) or genetically engineered to stably express short hairpin RNA (shRNA) against HIF-1α (231-HIF-1α-shRNA) or engineered to overexpress VEGF (231-VEGF). Iopamidol was a",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Singh Aruna",
+              "Stabinska Julia",
+              "Krishnamachary Balaji",
+              "Sedaghat Farzad",
+              "Nimmagadda Sridhar"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Glucose",
+              "Animals",
+              "Cell Line, Tumor",
+              "Female",
+              "Mice",
+              "Vascular Endothelial Growth Factor A",
+              "Hydrogen-Ion Concentration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40781532/"
+          },
+          {
+            "pmid": "14699178",
+            "title": "Breast sentinel lymph node mapping at CT lymphography with iopamidol: preliminary experience.",
+            "abstract": "To evaluate sentinel lymph node (SLN) mapping with interstitial computed tomographic (CT) lymphography with small volumes of iopamidol for direction of SLN biopsy in breast cancer.",
+            "journal": "Radiology",
+            "year": "2004",
+            "authors": [
+              "Suga Kazuyoshi",
+              "Yuan Yue",
+              "Okada Munemasa",
+              "Matsunaga Naofumi",
+              "Tangoku Akira"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Biopsy, Needle",
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Imaging, Three-Dimensional",
+              "Iopamidol",
+              "Lymph Node Excision"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14699178/"
+          },
+          {
+            "pmid": "26108564",
+            "title": "A comparison of iopromide and iopamidol, two acidoCEST MRI contrast media that measure tumor extracellular pH.",
+            "abstract": "Acidosis within tumor and kidney tissues has previously been quantitatively measured using a molecular imaging technique known as acidoCEST MRI. The previous studies used iopromide and iopamidol, two iodinated contrast agents that are approved for clinical CT diagnoses and have been repurposed for acidoCEST MRI studies. We aimed to compare the performance of the two agents for measuring pH by optimizing image acquisition conditions, correlating pH with a ratio of CEST effects from an agent, and evaluating the effects of concentration, endogenous T1 relaxation time and temperature on the pH-CEST ratio correlation for each agent. These results showed that the two agents had similar performance characteristics, although iopromide produced a pH measurement with a higher dynamic range while iopamidol produced a more precise pH measurement. We then compared the performance of the two agents to measure in vivo extracellular pH (pHe) within xenograft tumor models of Raji lymphoma and MCF-7 bre",
+            "journal": "Contrast media & molecular imaging",
+            "year": "2015",
+            "authors": [
+              "Moon Brianna F",
+              "Jones Kyle M",
+              "Chen Liu Qi",
+              "Liu Peilu",
+              "Randtke Edward A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acidosis",
+              "Animals",
+              "Calibration",
+              "Cell Line, Tumor",
+              "Contrast Media",
+              "Drug Resistance, Neoplasm",
+              "Extracellular Fluid",
+              "Female",
+              "Humans",
+              "Hydrogen-Ion Concentration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26108564/"
+          },
+          {
+            "pmid": "25300719",
+            "title": "Contrast-enhanced spectral mammography: an emerging new tool in the clinician's arsenal.",
+            "abstract": "",
+            "journal": "Academic radiology",
+            "year": "2014",
+            "authors": [
+              "Keller Brad M"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Algorithms",
+              "Breast Neoplasms",
+              "Female",
+              "Humans",
+              "Iopamidol",
+              "Mammography",
+              "Radiographic Image Enhancement",
+              "Radiographic Image Interpretation, Computer-Assisted",
+              "Radiography, Dual-Energy Scanned Projection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25300719/"
+          },
+          {
+            "pmid": "19546179",
+            "title": "Incidental breast lesions detected on CT: what is their significance?",
+            "abstract": "An increasing number of breast lesions are being detected incidentally on CT. The aim of this study was to investigate the rate of referrals to the breast unit for assessment of lesions identified on CT and the resulting yield of previously undiagnosed breast malignancies from this pathway. A retrospective review was undertaken of CT examinations conducted over a period of 14 years. All patients (with no previous history of breast cancer) whose report contained the keyword \"breast\" and who were referred to a specialist breast unit for assessment were reviewed. CT lesion morphology and enhancement pattern were identified and compared with the final diagnostic outcome. 70 patients were identified by retrospective analysis, yielding 78 incidental breast lesions, of which 22 (28.2%) were malignant (category B5). This gave a positive predictive value (PPV) for malignancy of 28.2%. The best morphological predictor of malignancy was spiculation (PPV, 76%) and irregularity (PPV, 58%), whereas ",
+            "journal": "The British journal of radiology",
+            "year": "2010",
+            "authors": [
+              "Moyle P",
+              "Sonoda L",
+              "Britton P",
+              "Sinnatamby R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Breast Neoplasms",
+              "Breast Neoplasms, Male",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Incidental Findings",
+              "Iopamidol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19546179/"
+          },
+          {
+            "pmid": "27572810",
+            "title": "MRI-CEST assessment of tumour perfusion using X-ray iodinated agents: comparison with a conventional Gd-based agent.",
+            "abstract": "X-ray iodinated contrast media have been shown to generate contrast in MR images when used with the chemical exchange saturation transfer (CEST) approach. The aim of this study is to compare contrast enhancement (CE) capabilities and perfusion estimates between radiographic molecules and a Gd-based contrast agent in two tumour murine models with different vascularization patterns.",
+            "journal": "European radiology",
+            "year": "2017",
+            "authors": [
+              "Anemone Annasofia",
+              "Consolino Lorena",
+              "Longo Dario Livio"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Contrast Media",
+              "Female",
+              "Gadolinium",
+              "Heterocyclic Compounds",
+              "Image Enhancement",
+              "Iohexol",
+              "Iopamidol",
+              "Magnetic Resonance Imaging",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27572810/"
+          },
+          {
+            "pmid": "27750238",
+            "title": "US-US Fusion Imaging in Radiofrequency Ablation for Liver Metastases.",
+            "abstract": "Radiofrequency ablation (RFA) induces gas bubbles in ablation zones, and the ablative margin cannot be evaluated accurately on ultrasound (US) during and immediately after RFA. This study assessed the usefulness of US-US fusion imaging to visualize the ablative margin of RFA for liver metastasis.",
+            "journal": "Digestive diseases (Basel, Switzerland)",
+            "year": "2016",
+            "authors": [
+              "Minami Yasunori",
+              "Minami Tomohiro",
+              "Chishina Hirokazu",
+              "Kono Masashi",
+              "Arizumi Tadaaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anatomy, Cross-Sectional",
+              "Catheter Ablation",
+              "Cohort Studies",
+              "Colorectal Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27750238/"
+          },
+          {
+            "pmid": "19709994",
+            "title": "Breast cancer liver metastases: US-guided percutaneous radiofrequency ablation--intermediate and long-term survival rates.",
+            "abstract": "To retrospectively assess the local control and intermediate- and long-term survival of patients with liver metastases from breast cancer who have undergone percutaneous ultrasonography (US)-guided radiofrequency (RF) ablation.",
+            "journal": "Radiology",
+            "year": "2009",
+            "authors": [
+              "Meloni Maria Franca",
+              "Andreano Anita",
+              "Laeseke Paul F",
+              "Livraghi Tito",
+              "Sironi Sandro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Breast Neoplasms",
+              "Catheter Ablation",
+              "Contrast Media",
+              "Disease Progression",
+              "Female",
+              "Humans",
+              "Iopamidol",
+              "Liver Neoplasms",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19709994/"
+          },
+          {
+            "pmid": "27687829",
+            "title": "Contrast-enhanced spectral mammography (CESM) versus breast magnetic resonance imaging (MRI): A retrospective comparison in 66 breast lesions.",
+            "abstract": "The purpose of this study was to retrospectively compare the diagnostic performance of contrast-enhanced spectral mammography (CESM) with that of breast magnetic resonance imaging (BMRI) in breast cancer detection using parameters, including sensitivity, positive predictive value (PPV), lesion size, morphology, lesion and background enhancement, and examination time.",
+            "journal": "Diagnostic and interventional imaging",
+            "year": "2017",
+            "authors": [
+              "Li L",
+              "Roth R",
+              "Germaine P",
+              "Ren S",
+              "Lee M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Breast Neoplasms",
+              "Carcinoma",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Image Enhancement",
+              "Iopamidol",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27687829/"
+          },
+          {
+            "pmid": "25127846",
+            "title": "Use of contrast-enhanced spectral mammography for intramammary cancer staging: preliminary results.",
+            "abstract": "To prospectively evaluate and compare the accuracy of contrast-enhanced spectral mammography (CESM) and ultrasound (US) in size measurement of breast cancer with histologic tumor sizes as gold standard.",
+            "journal": "Academic radiology",
+            "year": "2014",
+            "authors": [
+              "Blum Katrin S",
+              "Rubbert Christian",
+              "Mathys Britta",
+              "Antoch Gerald",
+              "Mohrmann Svjetlana"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Algorithms",
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Iopamidol",
+              "Mammography",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25127846/"
+          },
+          {
+            "pmid": "14976475",
+            "title": "Sentinel lymph node biopsy using computed tomography-lymphography in patients with breast cancer.",
+            "abstract": "The sentinel lymph node biopsy (SLNB) technique is established in the treatment of breast cancer. The current technique of mapping the SLN with blue dye or radiotracers requires a learning period. Tracer and injection site selection and intraoperative pathologic examination have been discussed.",
+            "journal": "Surgery",
+            "year": "2004",
+            "authors": [
+              "Tangoku Akira",
+              "Yamamoto Shigeru",
+              "Suga Kazuyoshi",
+              "Ueda Katsuhiko",
+              "Nagashima Yukiko"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Breast Neoplasms",
+              "Breast Neoplasms, Male",
+              "Female",
+              "Humans",
+              "Lymphography",
+              "Male",
+              "Middle Aged",
+              "Sentinel Lymph Node Biopsy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14976475/"
+          },
+          {
+            "pmid": "28009075",
+            "title": "ASSESSMENT OF SENTINEL LYMPH NODE METASTASIS IN CANINE MAMMARY GLAND TUMORS USING COMPUTED TOMOGRAPHIC INDIRECT LYMPHOGRAPHY.",
+            "abstract": "In the staging process of the breast cancer, demonstrating metastasis of the sentinel lymph node (SLN) has an important prognostic value, in both humans and animals. The aim of this prospective case-control study was to determine the diagnostic value of computed tomographic indirect lymphography (CT-LG) for detecting SLN metastasis in dogs with mammary cancer. Thirty-three female dogs with tumors in the abdominal and inguinal mammary glands were prospectively selected and subjected to CT-LG, 1 and 5 min after injection of 1 ml of contrast agent (iopamidol) in the subareolar tissue of the neoplastic and the contralateral normal mammary glands. The pattern of postcontrast opacification, degree of postcontrast enhancement, and size and shape were assessed in 65 SLNs in total and were correlated with histopathological findings. The absence of opacification or heterogeneous opacification 1 min after contrast medium injection showed the highest sensitivity, specificity, and accuracy (93%, 10",
+            "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+            "year": "2017",
+            "authors": [
+              "Soultani Christina",
+              "Patsikas Michail N",
+              "Karayannopoulou Maria",
+              "Jakovljevic Samuel",
+              "Chryssogonidis Ioannis"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Case-Control Studies",
+              "Dog Diseases",
+              "Dogs",
+              "Female",
+              "Lymphatic Metastasis",
+              "Lymphography",
+              "Mammary Neoplasms, Animal",
+              "Prospective Studies",
+              "Sentinel Lymph Node"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28009075/"
+          },
+          {
+            "pmid": "34911489",
+            "title": "Imaging features of sentinel lymph node mapped by multidetector-row computed tomography lymphography in predicting axillary lymph node metastasis.",
+            "abstract": "Accurately assessing axillary lymph node (ALN) status in breast cancer is vital for clinical decision making and prognosis. The purpose of this study was to evaluate the predictive value of sentinel lymph node (SLN) mapped by multidetector-row computed tomography lymphography (MDCT-LG) for ALN metastasis in breast cancer patients.",
+            "journal": "BMC medical imaging",
+            "year": "2021",
+            "authors": [
+              "Ou Xiaochan",
+              "Zhu Jianbin",
+              "Qu Yaoming",
+              "Wang Chengmei",
+              "Wang Baiye"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Axilla",
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Imaging, Three-Dimensional",
+              "Iopamidol",
+              "Lymphatic Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34911489/"
+          },
+          {
+            "pmid": "22718426",
+            "title": "Computed tomographic lymphography predicts the difficulty of sentinel lymph node biopsy with dye.",
+            "abstract": "Sentinel lymph node biopsy (SLNB) has been a method of choice for treating breast cancer. Computed tomographic lymphography (CT-LG) provides a view of the sentinel lymph node (SLN) with the detailed lymphatic anatomy preoperatively, and the SLN is easily identified during SLNB. In this article, we examined the usefulness of CT-LG to predict the difficulty of SLNB with the dye method.",
+            "journal": "Breast cancer (Tokyo, Japan)",
+            "year": "2014",
+            "authors": [
+              "Yokohata Kazunori",
+              "Hattori Masami",
+              "Fujimoto Takaaki",
+              "Chikazawa Nobuhito",
+              "Maeyama Ryo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Iopamidol",
+              "Lymphography",
+              "Predictive Value of Tests",
+              "Sentinel Lymph Node Biopsy",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22718426/"
+          },
+          {
+            "pmid": "41661649",
+            "title": "Prevalence of Acute and Delayed Contrast Reactions With Multiple Exposures to Contrast-Enhanced Mammography-Experience From the TOCEM Trial.",
+            "abstract": "To detail acute and delayed contrast reactions associated with contrast-enhanced mammography (CEM) in a prospective screening trial.",
+            "journal": "Journal of breast imaging",
+            "year": "2026",
+            "authors": [
+              "Gu Lin",
+              "Zuwasti Ufara",
+              "Rigling McKenna",
+              "Berg Wendie A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Contrast Media",
+              "Middle Aged",
+              "Mammography",
+              "Prospective Studies",
+              "Breast Neoplasms",
+              "Prevalence",
+              "Aged",
+              "Iopamidol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41661649/"
+          },
+          {
+            "pmid": "19150783",
+            "title": "Developing DCE-CT to quantify intra-tumor heterogeneity in breast tumors with differing angiogenic phenotype.",
+            "abstract": "The objective of this study is to evaluate the ability of dynamic contrast enhanced computed tomography (DCE-CT) to assess intratumor physiological heterogeneity in tumors with different angiogenic phenotypes. DCE-CT imaging was performed on athymic nude mice bearing xenograft wild type (MCF-7(neo)) and VEGF-transfected (MCF-7(VEGF)) tumors by using a clinical multislice CT, and compared to skeletal muscle. Parametrical maps of tumor physiology--perfusion (F), permeability-surface area (PS), fractional intravascular plasma (f(p)), and interstitial space (f(is))--were obtained by fitting the time-dependent contrast-enhanced curves to a two-compartmental kinetic model for each voxel (0.3 x 0.3 x 0.75 mm(3)). Mean physiological measurements were compared with (positron emission tomography (PET) imaging, and the spatial distribution of tumor vasculature was compared with histology. No statistically significant difference was found in mean physiological values of F, PS, and f(p) in MCF-7(ne",
+            "journal": "IEEE transactions on medical imaging",
+            "year": "2009",
+            "authors": [
+              "Cao Minsong",
+              "Liang Yun",
+              "Shen Changyu",
+              "Miller Kathy D",
+              "Stantz Keith M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Animals",
+              "Breast Neoplasms",
+              "Contrast Media",
+              "Disease Models, Animal",
+              "Female",
+              "Histocytochemistry",
+              "Humans",
+              "Image Processing, Computer-Assisted",
+              "Iopamidol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19150783/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9741263389587402,
+        "txgnn_rank": 19682,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9737721681594848,
+        "txgnn_rank": 19803,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19051938",
+            "title": "Fibromuscular dysplasia of the carotid artery.",
+            "abstract": "We describe the ultrasound-Doppler and angio-CT findings of the internal carotid string-of-beads sign in a patient with fibromuscular dysplasia (FMD). FMD is a disease of unknown etiology typically affecting the medium and larger arteries of young and middle-aged women. The most commonly affected arteries are the renal arteries followed by the internal carotid arteries. The lumbar, mesenteric, celiac, hepatic and iliac arteries are less commonly affected. Patients typically present with renovascular hypertension in case of renal artery involvement, Transient ischemic attack or stroke can be one of the presenting symptoms in carotid artery involvement.",
+            "journal": "JBR-BTR : organe de la Societe royale belge de radiologie (SRBR) = orgaan van de Koninklijke Belgische Vereniging voor Radiologie (KBVR)",
+            "year": "2008",
+            "authors": [
+              "Herregods N",
+              "Beckers R",
+              "Van Rattinghe R",
+              "Verstraete K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiography",
+              "Carotid Artery Diseases",
+              "Carotid Artery, Internal",
+              "Contrast Media",
+              "Female",
+              "Fibromuscular Dysplasia",
+              "Humans",
+              "Iopamidol",
+              "Middle Aged",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19051938/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.9669650197029114,
+        "txgnn_rank": 22241,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "20720072",
+            "title": "Do patients with structural abnormalities of the shoulder experience pain after MR arthrography of the shoulder?",
+            "abstract": "To assess the pain course after intraarticular injection of a gadolinium-containing contrast material admixed with anesthetic for magnetic resonance (MR) arthrography of the shoulder in relation to internal derangements of the shoulder.",
+            "journal": "Radiology",
+            "year": "2010",
+            "authors": [
+              "Steurer-Dober Isabelle",
+              "Rufibach Kaspar",
+              "Hodler Juerg",
+              "Saupe Nadja",
+              "Zanetti Marco"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anesthetics, Local",
+              "Arthralgia",
+              "Contrast Media",
+              "Female",
+              "Gadolinium DTPA",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20720072/"
+          },
+          {
+            "pmid": "16357409",
+            "title": "Diagnostic performance of MR arthrography after rotator cuff repair.",
+            "abstract": "The objective of this study was to investigate the diagnostic performance of MR arthrography after rotator cuff repair.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2006",
+            "authors": [
+              "Duc Sylvain R",
+              "Mengiardi Bernard",
+              "Pfirrmann Christian W A",
+              "Jost Bernhard",
+              "Hodler Juerg"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Contrast Media",
+              "Female",
+              "Gadolinium DTPA",
+              "Humans",
+              "Iopamidol",
+              "Magnetic Resonance Imaging",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16357409/"
+          },
+          {
+            "pmid": "9442336",
+            "title": "Radiographic visualization of patellar tendon grafts for the reconstruction of the anterior cruciate ligament.",
+            "abstract": "The new biodegradable interference screws offer very many advantages for anterior cruciate ligament replacement with patellar tendon. However, their radiolucency makes it impossible to identify the anchorage sites. We describe an imaging technique of the plasty and its anchorage sites by means of a radiopaque contrast that is commonly used in radiology (Iopamidol; Bracco, Milan, Italy). It is an easy technique that does not extend the time of surgery, it is harmless, and allows us to identify malpositioning or impingement of the plasty.",
+            "journal": "Arthroscopy : the journal of arthroscopic & related surgery : official publication of the Arthroscopy Association of North America and the International Arthroscopy Association",
+            "year": "1997",
+            "authors": [
+              "Vaquero J",
+              "Vidal C",
+              "Cubillo A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anterior Cruciate Ligament",
+              "Biodegradation, Environmental",
+              "Bone Screws",
+              "Contrast Media",
+              "Femur",
+              "Humans",
+              "Injections",
+              "Iopamidol",
+              "Patellar Ligament",
+              "Radiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9442336/"
+          },
+          {
+            "pmid": "12700560",
+            "title": "Sonographic versus magnetic resonance arthrographic evaluation of full-thickness rotator cuff tears in millimeters.",
+            "abstract": "Preoperative knowledge of full-thickness rotator cuff tear size is important in counseling patients because tear size affects the choice of surgical techniques and the functional outcome of surgery. Twenty-six shoulders of twenty-five consecutive patients were included in a prospective study that compared the preoperative accuracy of magnetic resonance arthrography and ultrasonography for tear size in millimeters with intraoperative findings. No significant differences were found between intraoperative, ultrasonographic, and magnetic resonance arthrographic data for the width of tears. Adoption of a \"curved line measurement\" for ultrasonographic evaluation of large tears eliminated the tendency of ultrasonography to underestimate tears greater than or equal to 35 mm in width. No significant differences were found between intraoperative, ultrasonographic, and magnetic resonancearthrographic data for retraction of tears. However, a limitation of ultrasonography to evaluate retractions of",
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2003",
+            "authors": [
+              "Kluger Rainer",
+              "Mayrhofer Rudolf",
+              "Kröner Andreas",
+              "Pabinger Christoph",
+              "Pärtan Gerald"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Arthrography",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Iopamidol",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12700560/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis fibrosa",
+        "txgnn_score": 0.9660439491271972,
+        "txgnn_rank": 22535,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic granulomatous myositis",
+        "txgnn_score": 0.9660439491271972,
+        "txgnn_rank": 22536,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.9643179774284364,
+        "txgnn_rank": 23059,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "7089282",
+            "title": "The effect of ionic and nonionic contrast media on the sickling phenomenon.",
+            "abstract": "The effects of an ionic contrast agent (meglumine iothalamate) and a nonionic contrast medium (iopamidol) on the sickling phenomenon were studied in vitro. The findings indicate that, at the same concentration of contrast agent in the blood, iopamidol causes significantly less sickling than meglumine iothalamate. This indicates that nonionic contrast agents are preferable for diagnostic studies in patients with sickle cell anemia.",
+            "journal": "Radiology",
+            "year": "1982",
+            "authors": [
+              "Rao V M",
+              "Rao A K",
+              "Steiner R M",
+              "Burka E R",
+              "Grainger R G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anemia, Sickle Cell",
+              "Contrast Media",
+              "Dose-Response Relationship, Drug",
+              "Hemoglobin, Sickle",
+              "Humans",
+              "Iopamidol",
+              "Iothalamate Meglumine",
+              "Iothalamic Acid",
+              "Radiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7089282/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9616389274597168,
+        "txgnn_rank": 23855,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29667884",
+            "title": "Egg-and-Banana Sign: A Novel Diagnostic CT Marker for Pulmonary Hypertension.",
+            "abstract": "The purpose of this study was to retrospectively determine whether the egg-and-banana sign, defined as the visualization of the main pulmonary artery (PA) at the level of the aortic arch, is a sensitive and specific diagnostic marker for pulmonary hypertension.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2018",
+            "authors": [
+              "Scelsi Chris L",
+              "Bates William B",
+              "Melenevsky Yulia V",
+              "Sharma Gyanendra K",
+              "Thomson Norman B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aorta",
+              "Cardiac Catheterization",
+              "Cardiac-Gated Imaging Techniques",
+              "Case-Control Studies",
+              "Contrast Media",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29667884/"
+          },
+          {
+            "pmid": "3659354",
+            "title": "Pulmonary angiography with iopamidol: patient comfort, image quality, and hemodynamics.",
+            "abstract": "The choice of a contrast agent for pulmonary angiography has important implications for patient comfort, image quality, and perhaps the safety of the procedure, particularly for \"high-risk\" patients. In a prospective study the nonionic, low-osmolality agent iopamidol eliminated the problem of image degradation due to coughing, and patients showed excellent tolerance for it. However, pressure measurements obtained within 3-5 minutes of injection of iopamidol and diatrizoate sodium meglumine 76% showed no significant difference in the hemodynamic effects of the two contrast agents, either for normotensive or for pulmonary hypertensive patients. Contrary to a common presumption, pulmonary hypertension by itself did not appear to increase the risk of pulmonary angiography. The theoretic presumption of greater hemodynamic stability with low-osmolality contrast agents was not clinically evident in this trial with iopamidol. At present, enhanced patient comfort and improved image quality rema",
+            "journal": "Radiology",
+            "year": "1987",
+            "authors": [
+              "Saeed M",
+              "Braun S D",
+              "Cohan R H",
+              "Sussman S K",
+              "Illescas F F"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Blood Pressure",
+              "Diatrizoate",
+              "Female",
+              "Humans",
+              "Iopamidol",
+              "Male",
+              "Middle Aged",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3659354/"
+          },
+          {
+            "pmid": "26803575",
+            "title": "Pulmonary Artery Imaging in Patients with Chronic Thromboembolic Pulmonary Hypertension: Comparison of Cone-Beam CT and 64-Row Multidetector CT.",
+            "abstract": "To compare the depiction of pulmonary arteries in pulmonary arterial catheter-based contrast-enhanced cone-beam CT with peripheral intravenous contrast-enhanced multidetector CT in patients with suspected chronic thromboembolic pulmonary hypertension.",
+            "journal": "Journal of vascular and interventional radiology : JVIR",
+            "year": "2016",
+            "authors": [
+              "Hinrichs Jan B",
+              "von Falck Christian",
+              "Hoeper Marius M",
+              "Olsson Karen M",
+              "Wacker Frank K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Angiography, Digital Subtraction",
+              "Computed Tomography Angiography",
+              "Cone-Beam Computed Tomography",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Infusions, Intravenous"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26803575/"
+          },
+          {
+            "pmid": "6666667",
+            "title": "Pulmonary angiography with iopamidol and Renografin 76 in normal and pulmonary hypertensive dogs.",
+            "abstract": "The cardiovascular response produced during pulmonary angiography performed with the standard ionic agent diatrizoate (Renografin 76) and a new non-ionic agent iopamidol was compared. Nine dogs were evaluated while ventilated on room air and on 10% O2 which significantly elevated pulmonary arterial pressure. Iopamidol produced similar changes in mean aortic and pulmonary arterial pressures compared with normal saline (less than 20% change). Renografin 76, however, produced a significantly greater elevation in mean pulmonary arterial pressure (a 41% increase) and depression in mean aortic pressure (a 40% reduction) than either saline or iopamidol (p less than 0.01). These results were similar for dogs being ventilated with room air and oxygen. The results indicate that iopamidol should be better tolerated and therefore a safer contrast agent for pulmonary angiography than diatrizoate.",
+            "journal": "Acta radiologica: diagnosis",
+            "year": "1983",
+            "authors": [
+              "Thompson W M",
+              "Mills S R",
+              "Bates M",
+              "Hedlund L",
+              "Rommel J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Aorta",
+              "Blood Pressure",
+              "Cardiovascular System",
+              "Contrast Media",
+              "Coronary Circulation",
+              "Diatrizoate",
+              "Diatrizoate Meglumine",
+              "Dogs",
+              "Drug Combinations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6666667/"
+          },
+          {
+            "pmid": "18496041",
+            "title": "Lung perfusion in patients with pulmonary hypertension: comparison between MDCT pulmonary angiography with minIP reconstructions and 99mTc-MAA perfusion scan.",
+            "abstract": "Alterations in lung perfusion are a well-known feature of pulmonary hypertension (PH) seen on nuclear medicine studies. Abnormal radiotracer distribution in patients with PH may be caused by arterial thromboembolic occlusion, like in chronic thromboembolic pulmonary hypertension, by parenchymal destruction as in interstitial lung disease and pulmonary emphysema or by distal arteriopathy, like in idiopathic pulmonary arterial hypertension and other nonembolic forms. The different imaging pattern on radionuclide perfusion studies represents an important element for differential diagnosis. The aim of this study was to evaluate minimum intensity projection (minIP) images as an alternative to perfusion scintigraphy. We compared lung parenchyma attenuation patterns as depicted in minIP reconstructions with scintigraphic findings of lung perfusion in patients affected by pulmonary hypertension from various etiologies.",
+            "journal": "Investigative radiology",
+            "year": "2008",
+            "authors": [
+              "Bartalena Tommaso",
+              "Oboldi Devil",
+              "Guidalotti Pier Luigi",
+              "Rinaldi Maria Francesca",
+              "Bertaccini Paola"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiography",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iopamidol",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18496041/"
+          },
+          {
+            "pmid": "3436330",
+            "title": "The haemodynamic side-effects of ionic and non-ionic contrast media in the presence of pulmonary hypertension: experimental and clinical investigation.",
+            "abstract": "The haemodynamic side-effects of ionic (amidotrizoate) and non-ionic (iopamidol) contrast media after injection into the right atrium were compared in experimental and clinical studies. Pulmonary hypertension was induced in 10 dogs by embolization of the pulmonary vascular bed with agar-agar solution (mean pulmonary artery pressure = 44.2 mmHg). Iopamidol (1.5 ml kg-1) caused a moderate decrease in pulmonary and systemic vascular resistance, slight increases in right ventricular end-diastolic pressure and a marked rise in right ventricular contractility (dP/dtmax). Amidotrizoate (1.5 ml kg-1) caused considerable systemic vasodilation and initial increases in pulmonary vascular resistance and pressure followed by a substantial increase in right ventricular end-diastolic pressure and a decrease in contractility. Central and peripheral haemodynamics were measured in 20 patients with pulmonary hypertension (mean pulmonary artery pressure = 38.1 mmHg) due to valvular heart disease before an",
+            "journal": "European heart journal",
+            "year": "1987",
+            "authors": [
+              "Schräder R",
+              "Hellige G",
+              "Kaltenbach M",
+              "Kober G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Animals",
+              "Blood Pressure",
+              "Cardiac Catheterization",
+              "Cardiac Output",
+              "Contrast Media",
+              "Diatrizoate",
+              "Dogs",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3436330/"
+          },
+          {
+            "pmid": "8539407",
+            "title": "Pulmonary angiography performed with iopamidol: complications in 1,434 patients.",
+            "abstract": "To evaluate the safety of pulmonary angiography performed with iopamidol compared with pulmonary angiography performed with ionic contrast media.",
+            "journal": "Radiology",
+            "year": "1996",
+            "authors": [
+              "Hudson E R",
+              "Smith T P",
+              "McDermott V G",
+              "Newman G E",
+              "Suhocki P V"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiography",
+              "Catheterization, Swan-Ganz",
+              "Child",
+              "Contrast Media",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8539407/"
+          },
+          {
+            "pmid": "22580809",
+            "title": "Densitometric CT evaluation of acute and chronic thromboembolic filling defects of the pulmonary arteries before and after contrast injection.",
+            "abstract": "The aim of this study was to assess the baseline computed tomography (CT) attenuation of acute and chronic pulmonary thromboemboli, their contrast enhancement (CE), correlation with haematocrit (Ht) levels and the presence of hypertrophic bronchial arteries.",
+            "journal": "La Radiologia medica",
+            "year": "2012",
+            "authors": [
+              "De Luca F",
+              "Modolon C",
+              "Buia F",
+              "Attinà D",
+              "Fughelli P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Bronchial Arteries",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iopamidol",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22580809/"
+          },
+          {
+            "pmid": "16794166",
+            "title": "Hemodynamic effects of monomeric nonionic contrast media in pulmonary angiography in chronic thromboembolic pulmonary hypertension.",
+            "abstract": "The purpose of this study was to investigate the hemodynamic safety of the monomeric nonionic contrast agent iomeprol for selective pulmonary angiography in chronic thromboembolic pulmonary hypertension (CTPH), and to investigate the effect of periinterventional oxygen administration.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2006",
+            "authors": [
+              "Pitton Michael B",
+              "Kemmerich Gunter",
+              "Herber Sascha",
+              "Mayer Eckhard",
+              "Thelen Manfred"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiography, Digital Subtraction",
+              "Blood Pressure",
+              "Chronic Disease",
+              "Contrast Media",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16794166/"
+          },
+          {
+            "pmid": "3788260",
+            "title": "[Hemodynamic side effects of an ionic and a nonionic roentgen contrast medium in patients with heart valve diseases and pulmonary hypertension].",
+            "abstract": "The purpose of this study was to compare the hemodynamic side effects of an ionic and a nonionic contrast medium intra-individually. 20 patients with valvular heart disease (NYHA III-IV) and pulmonary hypertension (PPAsyst greater than or equal to 40 mm Hg) received injections of 40 ml iopamidol (0.8 osmol/kg) and 40 ml amidotrizoate (2.1 osmol/kg) into the right atrium. Heart rate and cardiac output, as well as right atrial, pulmonary-artery, pulmonary-capillary, and aortic pressures were measured. Peripheral and pulmonary vascular resistance and stroke volume were calculated. Right atrial pressure increased more after amidotrizoate (p less than 0.001). Pulmonary artery pressure was elevated with both contrast media to the same extent. An increase in aortic pressure was seen after iopamidol, while a decrease occurred after amidotrizoate (p less than 0.01). Amidotrizoate caused a more marked increase in heart rate (p less than 0.001) and cardiac output (p less than 0.001). Stroke volum",
+            "journal": "Zeitschrift fur Kardiologie",
+            "year": "1986",
+            "authors": [
+              "Schräder R",
+              "Schulte H",
+              "Wendt T",
+              "Klepzig H",
+              "Kober G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cardiac Catheterization",
+              "Cardiac Output",
+              "Diatrizoate",
+              "Double-Blind Method",
+              "Female",
+              "Heart Rate",
+              "Heart Valve Diseases",
+              "Hemodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3788260/"
+          },
+          {
+            "pmid": "9687951",
+            "title": "[Chronic thromboembolic pulmonary hypertension: hemodynamic effects of selective pulmonary artery DSA with nonionic contrast media].",
+            "abstract": "This study evaluates the effects of pulmonary bolus injection of nonionic contrast medium on pulmonary artery pressure and resistance in patients with chronic thromboembolic pulmonary hypertension.",
+            "journal": "RoFo : Fortschritte auf dem Gebiete der Rontgenstrahlen und der Nuklearmedizin",
+            "year": "1998",
+            "authors": [
+              "Pitton M B",
+              "Düber C",
+              "Mayer E",
+              "Thelen M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Angiography, Digital Subtraction",
+              "Chronic Disease",
+              "Contrast Media",
+              "Data Interpretation, Statistical",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9687951/"
+          },
+          {
+            "pmid": "1700769",
+            "title": "Histamine release induced by radiographic contrast media. Comparison between pulmonary and peritoneal mast cells derived from normotensive and spontaneously hypertensive rats.",
+            "abstract": "Intravascular application of radiographic contrast media (RCM) can cause adverse allergic/pseudoallergic reactions in certain individuals. In view of the increased risk for the reactions associated with cardiovascular diseases, we have investigated histamine release from isolated mast cells derived from the peritoneal cavity and the lung of normotensive and spontaneously hypertensive rats. Six commonly used RCM were tested in their clinical formulations: Angiographin (amidotrizoate), Rayvist (ioglycate), Telebrix (ioxithalamate), Hexabrix (ioxaglate), Solutrast (iopamidol), and Ultravist (iopromide). The three RCM with low osmolality (Hexabrix, Solutrast and Ultravist) released little histamine from all cell populations tested. Mast cells derived from spontaneously hypertensive rats released significantly more histamine following challenge with high osmolar RCM than those derived from normotensive rats. Higher concentrations were required to elicit release from the peritoneal cells tha",
+            "journal": "International archives of allergy and applied immunology",
+            "year": "1990",
+            "authors": [
+              "Amon E U",
+              "Ennis M",
+              "Lorenz W",
+              "Schnabel M",
+              "Schneider C"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Contrast Media",
+              "Female",
+              "Histamine Release",
+              "Hypertension",
+              "Lung",
+              "Mast Cells",
+              "Peritoneal Cavity",
+              "Rats",
+              "Rats, Inbred SHR"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1700769/"
+          },
+          {
+            "pmid": "6670838",
+            "title": "[Use of iopamidol in pulmonary angiography].",
+            "abstract": "",
+            "journal": "Annales de radiologie",
+            "year": "1983",
+            "authors": [
+              "Marache P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Contrast Media",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iopamidol",
+              "Iothalamic Acid",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6670838/"
+          },
+          {
+            "pmid": "17704957",
+            "title": "PVOD suggested by MDCT and clinical findings in a pregnant woman.",
+            "abstract": "Pulmonary hypertension secondary to pulmonary venoocclusive disease (PVOD) is increasingly recognized (Wagenvoort, Chest 69:82-86, [20]; Scully et al., N Engl J Med 308:823-834, [21]). The clinical presentation is usually progressive pulmonary hypertension. It should be kept in mind when there is pulmonary arterial hypertension, pulmonary edema, and a normal pulmonary artery wedge pressure. Importance of diagnosing this condition is to protect patient from fatal pulmonary edema when using prostacyclins that are effective for treatment of primary pulmonary hypertension. Herein, we present multidetector computed tomography findings of PVOD in a pregnant woman that presented with pulmonary hypertension.",
+            "journal": "Emergency radiology",
+            "year": "2008",
+            "authors": [
+              "Akpinar Erhan",
+              "Akpinar Burcu",
+              "Turkbey Baris",
+              "Deren Ozgur",
+              "Ariyurek Macit"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iopamidol",
+              "Pregnancy",
+              "Pregnancy Complications, Cardiovascular",
+              "Pregnancy Outcome",
+              "Pulmonary Veno-Occlusive Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17704957/"
+          },
+          {
+            "pmid": "17038493",
+            "title": "Imaging of the pulmonary circulation in the closed-chest rat using synchrotron radiation microangiography.",
+            "abstract": "Structural changes of the pulmonary circulation during the pathogenesis of pulmonary arterial hypertension remain to be fully elucidated. Although angiography has been used for visualizing the pulmonary circulation, conventional angiography systems have considerable limitations for visualizing small microvessels (diameters < 200 microm), particularly within a closed-chest animal model. In this study we assess the effectiveness of monochromatic synchrotron radiation (SR) for microangiography of the pulmonary circulation in the intact-chest rat. Male adult Sprague-Dawley rats were anesthetized, and a catheter was positioned within the right ventricle, for administering iodinated contrast agent (Iomeron 350). Subsequently, microangiography of pulmonary arterial branches within the left lung was performed using monochromatic SR. Additionally, we assessed dynamic changes in vessel diameter during acute hypoxic (10% and 8% O2 for 4 min each) pulmonary vasoconstriction (HPV). Using SR we were",
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2007",
+            "authors": [
+              "Schwenke Daryl O",
+              "Pearson James T",
+              "Umetani Keiji",
+              "Kangawa Kenji",
+              "Shirai Mikiyasu"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiography",
+              "Animals",
+              "Blood Vessels",
+              "Hypertension, Pulmonary",
+              "Hypoxia",
+              "Iopamidol",
+              "Lung",
+              "Male",
+              "Pulmonary Circulation",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17038493/"
+          },
+          {
+            "pmid": "23690710",
+            "title": "The role of divided injections of a sclerotic agent over two days in balloon-occluded retrograde transvenous obliteration for large gastric varices.",
+            "abstract": "To determine the safety and usefulness of a two-tiered approach to balloon-occluded retrograde transvenous obliteration (B-RTO) as a treatment for large gastric varices after portal hypertension.",
+            "journal": "Korean journal of radiology",
+            "year": "2013",
+            "authors": [
+              "Yamagami Takuji",
+              "Yoshimatsu Rika",
+              "Miura Hiroshi",
+              "Matsumoto Tomohiro",
+              "Hasebe Terumitsu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Balloon Occlusion",
+              "Catheters, Indwelling",
+              "Collateral Circulation",
+              "Drug Administration Schedule",
+              "Esophageal and Gastric Varices",
+              "Female",
+              "Femoral Vein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23690710/"
+          },
+          {
+            "pmid": "6485470",
+            "title": "[Central venous injection of large amounts of contrast media--advantages of a low osmolar contrast medium in experimentally-induced pulmonary hypertension].",
+            "abstract": "Intravenous administration of contrast material is a prerequisite for the imaging of the cardiovascular system with computed tomography and digital subtraction techniques. Fatal side effects after intravenous contrast injection, particularly in patients with pulmonary hypertension, have been reported repeatedly. The object of this study was to compare hemodynamic side effects of a conventional, ionic contrast medium (amidotrizoate; 2.1 osmol/kg) and a modern, non-ionic compound (iopamidol; 0.8 osmol/kg) after intravenous bolus injection (1.5 ml/kg). Experiments were carried out in 10 open-chest dogs with pulmonary normotension and hypertension induced by embolisation. Under control conditions (PPA = 19.9 mm Hg) both contrast media produced marked pulmonary and peripheral vasodilation. Major effects were seen after amidotrizoate (RPULM 60.3%, RPERI 32.1% vs 72.5% and 70.4% of controls). In pulmonary hypertension (PPA = 44.2 mmHg), iopamidol had similar hemodynamic effects compared to co",
+            "journal": "Zeitschrift fur Kardiologie",
+            "year": "1984",
+            "authors": [
+              "Schräder R",
+              "Wolpers H G",
+              "Korb H",
+              "Hoeft A",
+              "Klepzig H"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Blood Pressure",
+              "Contrast Media",
+              "Diatrizoate",
+              "Dogs",
+              "Heart Rate",
+              "Hemodynamics",
+              "Hypertension, Pulmonary",
+              "Injections, Intravenous",
+              "Iopamidol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6485470/"
+          },
+          {
+            "pmid": "9007799",
+            "title": "Prospective evaluation of pulmonary artery pressures during pulmonary angiography performed with low-osmolar nonionic contrast media.",
+            "abstract": "To determine the effects of pulmonary angiography performed with low-osmolar, nonionic contrast media on pulmonary artery pressures.",
+            "journal": "Journal of vascular and interventional radiology : JVIR",
+            "year": "1996",
+            "authors": [
+              "Smith T P",
+              "Lee V S",
+              "Hudson E R",
+              "Newman G E",
+              "Payne C S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiography",
+              "Blood Pressure",
+              "Contrast Media",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Iopamidol",
+              "Middle Aged",
+              "Osmolar Concentration",
+              "Prospective Studies",
+              "Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9007799/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibromyalgia",
+        "txgnn_score": 0.9605926871299744,
+        "txgnn_rank": 24117,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08947",
+    "name": "Iopamidol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Iopamidol"
+      },
+      "queried_at": "2026-03-10T06:56:37.715118",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Iopamidol"
+      },
+      "queried_at": "2026-03-10T06:56:39.886674",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T06:56:40.518197",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T06:56:43.506394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T06:56:44.200222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:56:44.665751",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:56:48.426073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:56:52.281999",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T06:56:52.932617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T06:56:56.206961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T06:56:57.279830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T06:56:58.226862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T06:57:01.152161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T06:57:03.418686",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T06:57:03.952310",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T06:57:07.277480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T06:57:10.111160",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T06:57:10.761514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T06:57:14.059088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T06:57:14.754725",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T06:57:15.250215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T06:57:18.107494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T06:57:18.818252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T06:57:19.300251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T06:57:22.461929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T06:57:24.504638",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T06:57:25.575228",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T06:57:28.753755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-10T06:57:30.807633",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T06:57:31.731742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T06:57:35.013952",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Iopamidol",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T06:57:35.824050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:57:35.831476"
+  }
+}

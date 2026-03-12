@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Lomefloxacin",
+    "drugbank_id": "DB00978",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "laryngotracheitis",
+        "txgnn_score": 0.9961422085762024,
+        "txgnn_rank": 5467,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart valve disease",
+        "txgnn_score": 0.99370276927948,
+        "txgnn_rank": 7625,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart conduction disease",
+        "txgnn_score": 0.9929782748222352,
+        "txgnn_rank": 8254,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital anomaly of ventricular septum",
+        "txgnn_score": 0.992602288722992,
+        "txgnn_rank": 8546,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart neoplasm",
+        "txgnn_score": 0.9922747015953064,
+        "txgnn_rank": 8816,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pericardium disease",
+        "txgnn_score": 0.9916412830352784,
+        "txgnn_rank": 9283,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "carcinoid heart disease",
+        "txgnn_score": 0.9915607571601868,
+        "txgnn_rank": 9355,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cardiac anomalies-heterotaxy syndrome",
+        "txgnn_score": 0.9915607571601868,
+        "txgnn_rank": 9356,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myocardial rupture",
+        "txgnn_score": 0.9915607571601868,
+        "txgnn_rank": 9357,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart aneurysm",
+        "txgnn_score": 0.9915607571601868,
+        "txgnn_rank": 9358,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00978",
+    "name": "Lomefloxacin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lomefloxacin"
+      },
+      "queried_at": "2026-03-09T11:44:22.088468",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lomefloxacin"
+      },
+      "queried_at": "2026-03-09T11:44:24.775084",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "laryngotracheitis"
+      },
+      "queried_at": "2026-03-09T11:44:25.848246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "laryngotracheitis"
+      },
+      "queried_at": "2026-03-09T11:44:31.490219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "laryngotracheitis"
+      },
+      "queried_at": "2026-03-09T11:44:32.265501",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart valve disease"
+      },
+      "queried_at": "2026-03-09T11:44:32.912916",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart valve disease"
+      },
+      "queried_at": "2026-03-09T11:44:36.859190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart valve disease"
+      },
+      "queried_at": "2026-03-09T11:44:37.541448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart conduction disease"
+      },
+      "queried_at": "2026-03-09T11:44:38.162238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart conduction disease"
+      },
+      "queried_at": "2026-03-09T11:44:41.394697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart conduction disease"
+      },
+      "queried_at": "2026-03-09T11:44:42.111925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "congenital anomaly of ventricular septum"
+      },
+      "queried_at": "2026-03-09T11:44:42.613788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "congenital anomaly of ventricular septum"
+      },
+      "queried_at": "2026-03-09T11:44:47.869615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "congenital anomaly of ventricular septum"
+      },
+      "queried_at": "2026-03-09T11:44:49.314741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart neoplasm"
+      },
+      "queried_at": "2026-03-09T11:44:50.294353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart neoplasm"
+      },
+      "queried_at": "2026-03-09T11:44:54.015946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart neoplasm"
+      },
+      "queried_at": "2026-03-09T11:44:55.007959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "pericardium disease"
+      },
+      "queried_at": "2026-03-09T11:44:56.253723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "pericardium disease"
+      },
+      "queried_at": "2026-03-09T11:45:00.263410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "pericardium disease"
+      },
+      "queried_at": "2026-03-09T11:45:01.332997",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "carcinoid heart disease"
+      },
+      "queried_at": "2026-03-09T11:45:02.406338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "carcinoid heart disease"
+      },
+      "queried_at": "2026-03-09T11:45:06.098088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "carcinoid heart disease"
+      },
+      "queried_at": "2026-03-09T11:45:06.798502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "cardiac anomalies-heterotaxy syndrome"
+      },
+      "queried_at": "2026-03-09T11:45:07.399328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "cardiac anomalies-heterotaxy syndrome"
+      },
+      "queried_at": "2026-03-09T11:45:10.741439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "cardiac anomalies-heterotaxy syndrome"
+      },
+      "queried_at": "2026-03-09T11:45:12.054723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "myocardial rupture"
+      },
+      "queried_at": "2026-03-09T11:45:12.747064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "myocardial rupture"
+      },
+      "queried_at": "2026-03-09T11:45:16.105752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "myocardial rupture"
+      },
+      "queried_at": "2026-03-09T11:45:17.309031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart aneurysm"
+      },
+      "queried_at": "2026-03-09T11:45:18.199857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart aneurysm"
+      },
+      "queried_at": "2026-03-09T11:45:24.052945",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lomefloxacin",
+        "disease": "heart aneurysm"
+      },
+      "queried_at": "2026-03-09T11:45:25.343540",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:45:25.364862"
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "drug": {
+    "inn": "Cefadroxil",
+    "drugbank_id": "DB01140",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9860022068023682,
+        "txgnn_rank": 13567,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9860022068023682,
+        "txgnn_rank": 13568,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9839153289794922,
+        "txgnn_rank": 14869,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.980383574962616,
+        "txgnn_rank": 16838,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.977793514728546,
+        "txgnn_rank": 18076,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monoclonal gammopathy",
+        "txgnn_score": 0.976516842842102,
+        "txgnn_rank": 18646,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+        "txgnn_score": 0.9755409359931946,
+        "txgnn_rank": 19089,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9692683815956116,
+        "txgnn_rank": 21527,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9692683815956116,
+        "txgnn_rank": 21528,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2673664",
+            "title": "Clinical experience with 1000 patients treated with cefetamet pivoxil.",
+            "abstract": "Clinical studies have been carried out world-wide on cefetamet pivoxil, a new orally active cephalosporin. This paper reports on the first 1000 patients treated with the antibiotic; another 505 patients received standard antibiotics, mainly cefadroxil and cefaclor, for comparison. The results show that single doses of 1500 and 1200 mg cefetamet pivoxil were fully effective in gonorrhoea. Comparative trials in uncomplicated urinary tract infection indicate a significant superiority of a single dose of 2 g cefetamet pivoxil (n = 158; 90.0% cure) versus 2 g cefadrox (n = 162; 77.0% cure). In complicated urinary tract infections, a comparable outcome was achieved with a single daily dose of 2 g cefetamet pivoxil for 10 days (n = 99; 90% cure) and 1 g cefadroxil twice daily for 10 days (n = 98; 76.5% cure). The clinical response rate in acute exacerbation of chronic bronchitis was 89.4% in the group receiving cefetamet pivoxil (136 patients) and 83% in the cefaclor-treated group (n = 122). ",
+            "journal": "Current medical research and opinion",
+            "year": "1989",
+            "authors": [
+              "Bernstein-Hahn L",
+              "Valdés E",
+              "Gehanno P",
+              "Giamarellou H",
+              "Lassus A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bacterial Infections",
+              "Bronchitis",
+              "Ceftizoxime",
+              "Clinical Trials as Topic",
+              "Gonorrhea",
+              "Humans",
+              "Otorhinolaryngologic Diseases",
+              "Research Design",
+              "Urethritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2673664/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "septicemic plague",
+        "txgnn_score": 0.967864990234375,
+        "txgnn_rank": 21963,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01140",
+    "name": "Cefadroxil",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Cefadroxil"
+      },
+      "queried_at": "2026-03-10T06:54:45.102006",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Cefadroxil"
+      },
+      "queried_at": "2026-03-10T06:54:46.463344",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T06:54:47.022537",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T06:54:50.358544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T06:54:51.000190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T06:54:51.550575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T06:54:55.504964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T06:54:56.311313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T06:54:56.847980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T06:55:00.082422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T06:55:00.778686",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T06:55:01.456126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T06:55:05.324835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T06:55:06.034009",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T06:55:06.634783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T06:55:09.519195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T06:55:10.576315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T06:55:11.363048",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T06:55:15.100541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T06:55:16.330582",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T06:55:16.856129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T06:55:21.887103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T06:55:22.756602",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T06:55:23.284887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T06:55:26.631730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T06:55:27.351477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T06:55:28.095445",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T06:55:31.550677",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T06:55:33.549554",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T06:55:34.087114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T06:55:37.112634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Cefadroxil",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T06:55:37.832963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:55:37.838906"
+  }
+}

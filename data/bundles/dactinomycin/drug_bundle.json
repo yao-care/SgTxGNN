@@ -1,0 +1,3529 @@
+{
+  "drug": {
+    "inn": "Dactinomycin",
+    "drugbank_id": "DB00970",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "relapsing-remitting multiple sclerosis",
+        "txgnn_score": 0.9957951307296752,
+        "txgnn_rank": 5783,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+        "txgnn_score": 0.9953526258468628,
+        "txgnn_rank": 6189,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.994862139225006,
+        "txgnn_rank": 6599,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "5563889",
+            "title": "Sarcoma botryoides (rhabdomyosarcoma) of the bile ducts with survival.",
+            "abstract": "",
+            "journal": "Journal of pediatric surgery",
+            "year": "1971",
+            "authors": [
+              "Akers D R",
+              "Needham M E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bile Duct Neoplasms",
+              "Bile Ducts",
+              "Child",
+              "Child, Preschool",
+              "Common Bile Duct",
+              "Dactinomycin",
+              "Gallbladder",
+              "Humans",
+              "Male",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5563889/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "embryonal extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.99482661485672,
+        "txgnn_rank": 6632,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parameningeal embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.9947806000709534,
+        "txgnn_rank": 6661,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19770373",
+            "title": "Vincristine, actinomycin, and cyclophosphamide compared with vincristine, actinomycin, and cyclophosphamide alternating with vincristine, topotecan, and cyclophosphamide for intermediate-risk rhabdomyosarcoma: children's oncology group study D9803.",
+            "abstract": "The purpose of this study was to compare the outcome of patients with intermediate-risk rhabdomyosarcoma (RMS) treated with standard VAC (vincristine, dactinomycin, and cyclophosphamide) chemotherapy to that of patients treated with VAC alternating with vincristine, topotecan, and cyclophosphamide (VAC/VTC).",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2009",
+            "authors": [
+              "Arndt Carola A S",
+              "Stoner Julie A",
+              "Hawkins Douglas S",
+              "Rodeberg David A",
+              "Hayes-Jordan Andrea A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Infant",
+              "Kaplan-Meier Estimate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19770373/"
+          },
+          {
+            "pmid": "12654440",
+            "title": "Volumetric considerations in radiotherapy for pediatric parameningeal rhabdomyosarcomas.",
+            "abstract": "To assess the influence of radiation volume on outcome in pediatric parameningeal rhabdomyosarcomas (PM-RMSs).",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2003",
+            "authors": [
+              "Chen Changhu",
+              "Shu Hui Kuo G",
+              "Goldwein Joel W",
+              "Womer Richard B",
+              "Maity Amit"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Cranial Irradiation",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Disease-Free Survival",
+              "Doxorubicin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12654440/"
+          },
+          {
+            "pmid": "10856103",
+            "title": "Benefit of intensified therapy for patients with local or regional embryonal rhabdomyosarcoma: results from the Intergroup Rhabdomyosarcoma Study IV.",
+            "abstract": "To compare failure-free survival (FFS) and survival for patients with local or regional embryonal rhabdomyosarcoma treated on the Intergroup Rhabdomyosarcoma Study (IRS)-IV with that of comparable patients treated on IRS-III.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2000",
+            "authors": [
+              "Baker K S",
+              "Anderson J R",
+              "Link M P",
+              "Grier H E",
+              "Qualman S J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Etoposide",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10856103/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prostate embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.9945918917655944,
+        "txgnn_rank": 6832,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34900598",
+            "title": "Embryonal rhabdomyosarcoma of the adult prostate: case report and review.",
+            "abstract": "Herein is reported a case of embryonal rhabdomyosarcoma of the prostate in a 54-year-old male. The presenting symptoms were dysuria, hematuria, and systemic thrombotic events. Diagnosis was ascertained through a transurethral resection. The treatment course consisted of transurethral resection, prostatic embolization, chemotherapy with dactinomycin, vincristine, and cyclophosphamide, cystoprostatectomy, rectal excision, and external beam radiation. The patient succumbed to the fatality of this disease within six months of diagnosis. Rhabdomyosarcoma is a rare tumor that can arise in the prostate and this case highlights an unusually refractory and rapidly fatal case. Treatment guidelines are not established for adults with this disease.",
+            "journal": "Urology case reports",
+            "year": "2022",
+            "authors": [
+              "Johnson Jeffrey",
+              "Brant Aaron",
+              "Sze Christina",
+              "Burgos Ananias Motta",
+              "Sheuka Natallia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34900598/"
+          },
+          {
+            "pmid": "1127815",
+            "title": "Embryonal rhabdomyosarcoma of the bladder and prostate in childhood.",
+            "abstract": "Of 30 children treated for embryonal rhabdomyosarcoma the primary site of tumor was the bladder in 14 cases (9 boys and 5 girls) and the prostate in 16 cases. The mean age at diagnosis was 3 years in patients with bladder sarcoma and 6.5 years in patients with sarcoma of the prostate. Over-all survival rate has been 23 per cent--5 children with rhabdomyosarcoma of the bladder and 2 with rhadbomyosarcoma of the porstate are alive from 1 1/2 to 23 years postoperatively. Aggressive coordinated treatment with surgery, radiotherapy and cyclic combination chemotherapy is recommended.",
+            "journal": "The Journal of urology",
+            "year": "1975",
+            "authors": [
+              "Timmons J W",
+              "Burgert E O",
+              "Soule E H",
+              "Gilchrist G S",
+              "Kelalis P P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Age Factors",
+              "Child",
+              "Child, Preschool",
+              "Dactinomycin",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Infant",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1127815/"
+          },
+          {
+            "pmid": "32058205",
+            "title": "Treatment strategies and outcomes for spinal rhabdomyosarcoma: A series of 11 cases in a single center and review of the literature.",
+            "abstract": "Rhabdomyosarcoma (RMS) involving the spine is rare. The aim of the present study is to explore the clinicopathological features, surgical treatments and outcomes of this rare disease.",
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2020",
+            "authors": [
+              "Wang Tao",
+              "Gao Xin",
+              "Yang Jian",
+              "Guo Wen",
+              "Wu Zheyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Buttocks",
+              "Chemoradiotherapy, Adjuvant",
+              "Chemotherapy, Adjuvant",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Cyclophosphamide",
+              "Dactinomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32058205/"
+          },
+          {
+            "pmid": "11846299",
+            "title": "Rhabdomyosarcoma and undifferentiated sarcoma in the first two decades of life: a selective review of intergroup rhabdomyosarcoma study group experience and rationale for Intergroup Rhabdomyosarcoma Study V.",
+            "abstract": "To review the importance of prognostic factors in developing new protocols for children with rhabdomyosarcoma (RMS).",
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2001",
+            "authors": [
+              "Raney R B",
+              "Anderson J R",
+              "Barr F G",
+              "Donaldson S S",
+              "Pappo A S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Cisplatin",
+              "Clinical Trials as Topic",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Disease-Free Survival"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11846299/"
+          },
+          {
+            "pmid": "55104",
+            "title": "A case of embryonal sarcoma (rhabdomyosarcoma) of the prostate treated with combined surgical and cytostatic therapy.",
+            "abstract": "The case history of a 22-months old boy with a malignant embryonal tumor of the prostate is given. Five years after initiation and three years after termination of a combined therapy with cytostatic drugs (actinomycin D, vincristine sulfate and cyclophosphamide) and surgery he is in good health without any signs of recurrence or metastatic disease. On this moment it is still impossible to be certain whether this therapy is the key for treatment of these tumors, but the successes published and the result till now in this case can be an indication that we are going in the right direction. Perhaps we may even hope that in the future we will have cytostatic drugs and combinations of therapy which will enable us to avoid mutilating operations.",
+            "journal": "Archivum chirurgicum Neerlandicum",
+            "year": "1975",
+            "authors": [
+              "Doeven J J",
+              "de Vries J A",
+              "Oldhoff J",
+              "Eibergen R",
+              "Boer P W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Infant",
+              "Male",
+              "Prostate",
+              "Prostatic Neoplasms",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/55104/"
+          },
+          {
+            "pmid": "4610841",
+            "title": "Management of embryonal rhabdomyosarcoma in children.",
+            "abstract": "",
+            "journal": "The Surgical clinics of North America",
+            "year": "1974",
+            "authors": [
+              "Exelby P R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abdominal Neoplasms",
+              "Adolescent",
+              "Biopsy",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Diagnosis, Differential",
+              "Doxorubicin",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4610841/"
+          },
+          {
+            "pmid": "10856103",
+            "title": "Benefit of intensified therapy for patients with local or regional embryonal rhabdomyosarcoma: results from the Intergroup Rhabdomyosarcoma Study IV.",
+            "abstract": "To compare failure-free survival (FFS) and survival for patients with local or regional embryonal rhabdomyosarcoma treated on the Intergroup Rhabdomyosarcoma Study (IRS)-IV with that of comparable patients treated on IRS-III.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2000",
+            "authors": [
+              "Baker K S",
+              "Anderson J R",
+              "Link M P",
+              "Grier H E",
+              "Qualman S J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Etoposide",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10856103/"
+          },
+          {
+            "pmid": "23320845",
+            "title": "Spindle cell rhabdomyosarcoma of the prostate.",
+            "abstract": "The spindle cell rhabdomyosarcoma is a rare variant of the embryonal rhabdomyosarcoma, mostly occurring in childhood. Only a few cases are described in adults. To date, no case of the spindle cell subtype of the prostatic embryonal rhabdomyosarcoma has been published. We report on a 23-year-old man, initially presenting with obstructive micturition problems, perineal pain and night sweat. After diagnosis by transrectal biopsy of the prostate, radiochemotherapy within the CWS 2002 P study was applied: nine cycles of vincristine, doxorubicin, actinomycin D, ifosfamide, and fractionated radiotherapy of the tumor and suspect lymph nodes (final dose 50.4 Gy). The tumor initially shrank, but an early local recurrence arose. Second-line chemotherapy was applied, followed by a salvage radical cytoprostatectomy. The patient died of disseminated disease 14 months after diagnosis.",
+            "journal": "International journal of urology : official journal of the Japanese Urological Association",
+            "year": "2013",
+            "authors": [
+              "Latz Stefan",
+              "Ellinger Jörg",
+              "Goltz Diane",
+              "Marx Christian",
+              "Leuschner Ivo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Humans",
+              "Ifosfamide",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Prostate",
+              "Prostatic Neoplasms",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23320845/"
+          },
+          {
+            "pmid": "28427078",
+            "title": "A Case of Adult Metastatic Rhabdomyosarcoma of the Prostate Cured by Long-Term Chemotherapy with Local Radiation.",
+            "abstract": "A 32-year-old man visited our hospital due to urinary retention. Prostate-specific antigen was 13.7 ng/mL. Imaging examinations showed a large prostatic tumor and lung and internal iliac lymph node metastases. Transrectal biopsy confirmed embryonal rhabdomyosarcoma of the prostate classified as cT2bN1M1 (stage IV) by the International Rhabdomyosarcoma Study (IRS) Group staging system. Systemic chemotherapy was started according to the IRS III regimen 36, which consisted of 16 weeks of induction chemotherapy with radiation. After 20 weeks, magnetic resonance imaging showed the disappearance of metastases, and the prostate tumor shrunk markedly. Moreover, prostatic re-biopsy showed no viable tumor cells. Maintenance chemotherapy, excluding vincristine because of severe peripheral nerve disorder, was performed for 2 years. There has been no recurrence for 49 months after the termination of maintenance chemotherapy. To the best of our knowledge, this is the longest surviving case of adult-",
+            "journal": "Urologia internationalis",
+            "year": "2019",
+            "authors": [
+              "Konno Masato",
+              "Mitsuzuka Koji",
+              "Yamada Shigeyuki",
+              "Yamashita Shinichi",
+              "Kaiho Yasuhiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Humans",
+              "Male",
+              "Neoplasm Recurrence, Local",
+              "Prostate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28427078/"
+          },
+          {
+            "pmid": "3815716",
+            "title": "The role of ifosfamide in paediatric soft tissue sarcomas.",
+            "abstract": "Early clinical trials in adults showed favourable results of ifosfamide (IF) in several tumours. In a previous study we used IF and vincristine (VCR) and observed 6 complete responses (CR) among 25 previously heavily treated children. Especially patients with rhabdomyosarcoma (RMS) responded well, with 4 partial responses (PR) and 2 CR among 6 patients. This and the fact that the combination of VCR, actinomycin D (ACD) and cyclophosphamide (CYT) still give good results in RMS patients led us to replace CYT with IF in this combination. This IVA protocol consists of IF 3000 mg/m2 i.v. in 1 h on days 1 and 2, VCR 1.5 mg/m2 by i.v. push on day 1, and ACD 900 micrograms/m2 by i.v. push on days 1 and 2. The course is repeated at 28-day intervals. VCR 1.5 mg/m2 is given on day 14. We used this protocol als induction therapy in 18 newly diagnosed RMS patients. The primary sites were: abdomen (4 patients), bladder and prostate (3), head and neck (9: orbita 5), extremity (1), chest wall (1). At ",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "1986",
+            "authors": [
+              "de Kraker J",
+              "Voûte P A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Dactinomycin",
+              "Drug Evaluation",
+              "Humans",
+              "Ifosfamide",
+              "Sarcoma",
+              "Soft Tissue Neoplasms",
+              "Vincristine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3815716/"
+          },
+          {
+            "pmid": "22104356",
+            "title": "Local control with reduced-dose radiotherapy for low-risk rhabdomyosarcoma: a report from the Children's Oncology Group D9602 study.",
+            "abstract": "To analyze the effect of reduced-dose radiotherapy on local control in children with low-risk rhabdomyosarcoma (RMS) treated in the Children's Oncology Group D9602 study.",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2012",
+            "authors": [
+              "Breneman John",
+              "Meza Jane",
+              "Donaldson Sarah S",
+              "Raney R Beverly",
+              "Wolden Suzanne"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Age Factors",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Drug Administration Schedule",
+              "Female",
+              "Head and Neck Neoplasms",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22104356/"
+          },
+          {
+            "pmid": "32307379",
+            "title": "[PRIMARY PROSTATIC RHABDOMYOSARCOMA WITH REPEATING CEREBRAL HEMORRHAGE FROM BRAIN METASTASES IN AN ADULT: A CASE REPORT].",
+            "abstract": "A 28-year-old man visited a nearby doctor with a chief complaint of hematospermia. Magnetic resonance imaging showed a tumor 12-cm in diameter in his pelvis and he was introduced to our hospital. The tumor had replaced the prostate and infiltrated the rectum. He already had multiple lung, pelvic lymph, and bone metastases. He was diagnosed with embryonal rhabdomyosarcoma based on pathological findings after needle tumor biopsy. His disease was stage IV rhabdomyosarcoma according to the Intergroup Rhabdomyosarcoma Study, and he received a VAC (vincristine, actinomycin D, cyclophosphamide) chemotherapy regimen. Despite a partial response with 44% shrinkage in tumor diameter after seven cycles of chemotherapy, he experienced cerebral hemorrhage from small brain metastases during preparation for the eighth course. During gamma knife planning, the cerebral hemorrhage from small brain metastases repeated four times. The patient died 8 months after the introduction of chemotherapy.",
+            "journal": "Nihon Hinyokika Gakkai zasshi. The japanese journal of urology",
+            "year": "2019",
+            "authors": [
+              "Tochigi Kosuke",
+              "Sassa Naoto",
+              "Kanada Yoshie",
+              "Ohashi Tomoyoshi",
+              "Inoue Satoshi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brain Neoplasms",
+              "Cerebral Hemorrhage",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Fatal Outcome",
+              "Humans",
+              "Male",
+              "Prostatic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32307379/"
+          },
+          {
+            "pmid": "2091536",
+            "title": "[Leiomyosarcoma of the prostate. Report of a case].",
+            "abstract": "Sarcomas of the prostate are rare tumors and are predominantly rhabdomyosarcoma in children and leiomyosarcoma in the young adult (less than 50 years). We report on a rare case of prostate sarcoma in a 49-year-old patient whose presenting features were those of rapidly evolving prostatism and dyschezia (rectal constipation). The diagnosis was established histopathologically by cytology and biopsy. Despite the initial chemotherapeutic treatment, the course of the disease was fulminant and the patient died from multiple lymphatic metastases. We discuss its embryonal origin, clinical features, differential diagnosis and underscore the need for sequential combined treatment with chemotherapy, surgery and post-operative radiotherapy.",
+            "journal": "Archivos espanoles de urologia",
+            "year": "1990",
+            "authors": [
+              "Romero Pérez P",
+              "Lobato Encinas J J",
+              "Megías Garrigos J",
+              "Mira Llinares A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Humans",
+              "Leiomyosarcoma",
+              "Male",
+              "Middle Aged",
+              "Prostatic Neoplasms",
+              "Vincristine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2091536/"
+          },
+          {
+            "pmid": "2488079",
+            "title": "[Genitourinary rhabdomyosarcoma in childhood].",
+            "abstract": "We present the result obtained by GICOP in the treatment of 12 genitourinary rhabdomyosarcoma, located in vagina-uterus (5), bladder-prostate (4) and paratesticular (3). The age of the patients ranging from 1 to 15 years. Embryonal rhabdomyosarcoma was the most common histologic type (58 for 100) being the major number of cases in stadium II. The treatment was based in the combination of chemotherapy protocolised with vincristine, d-actinomycin, cyclophosphamide (VAC), vincristine, adriamycin (VAC-VAD) and/or iphosphamide, vincristine, d-actinomycin (IVA), use of radiotherapy, marrow auto-transplantation and radical surgery avoidance. Complete remission was achieved in 11 out of 12 cases (92 for 100), relapsing in 5 cases (38 for 100) of which 4 (80 for 100) achieved a second remission. An 82 for 100 disease free survival was achieved in a 5 year period.",
+            "journal": "Cirugia pediatrica : organo oficial de la Sociedad Espanola de Cirugia Pediatrica",
+            "year": "1989",
+            "authors": [
+              "González Rivero M A",
+              "Mulet J F",
+              "Martín J C",
+              "Illa J",
+              "Melo M"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Clinical Protocols",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Remission Induction",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2488079/"
+          },
+          {
+            "pmid": "941356",
+            "title": "Current trends in treatment of childhood rhabdomyosarcoma of lower genitourinary tract.",
+            "abstract": "Treatment of childhood embryonal rhabdomyosarcoma of the lower genitourinary tract is in the process of undergoing drastic changes. Extensive surgery with excision of the lesion and its contiguous structures leaving the patient with significant physical disability is being replaced by biopsy and aggressive combined chemotherapy along with radiation therapy. Although it would appear that survival may be improved by this approach, caution is recommended and extirpation advised should the tumor fail to respond rapidly to chemotherapy.",
+            "journal": "Urology",
+            "year": "1976",
+            "authors": [
+              "Belman A B",
+              "Baum E S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Biopsy, Needle",
+              "Child",
+              "Child, Preschool",
+              "Chlorambucil",
+              "Dactinomycin",
+              "Humans",
+              "Infant",
+              "Male",
+              "Prostatic Neoplasms",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/941356/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liver sarcoma",
+        "txgnn_score": 0.99420565366745,
+        "txgnn_rank": 7199,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00002611",
+            "title": "NATIONAL WILMS TUMOR STUDY-5 -- THERAPEUTIC TRIAL AND BIOLOGY STUDY",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1995-07",
+            "completion_date": "2003-08",
+            "country": "Switzerland, Australia, Canada, New Zealand, Netherlands, United States, Puerto Rico",
+            "enrollment": 3031,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Radiation therapy uses high energy x-rays to damage tumor cells. It is not yet known whether combination chemotherapy alone or combination chemotherapy plus radiation therapy is more effective for childhood kidney cancer.\n\nPURPOSE: Phase III trial to compare the effectiveness of combination chemotherapy with or without radiation therapy in treating children who have kidney canc",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed stage I-V kidney cancer of one of the following histologies:\n\n  * Wilms' tumor, favorable histology\n  * Wilms' tumor, focal or diffuse anaplastic\n  * Clear cell sarcoma\n  * Rhabdoid tumor\n\n    * (The rhabdoid tumor stratum closed to accrual effect",
+            "endpoints": [
+              "Progression free survival"
+            ],
+            "sponsor": "Children's Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT00002611"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "23864278",
+            "title": "Embryonal sarcoma of the liver.",
+            "abstract": "Embryonal sarcoma accounts for 6 % of liver tumors. This study reviews its features and the results of treatment in a referral center.",
+            "journal": "Pediatric surgery international",
+            "year": "2013",
+            "authors": [
+              "Chocarro G",
+              "Amesty M V",
+              "Hernández F",
+              "Chenu B G Goiboru",
+              "Ortíz R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Epirubicin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23864278/"
+          },
+          {
+            "pmid": "11779051",
+            "title": "Undifferentiated embryonal sarcoma with unusual features arising within mesenchymal hamartoma of the liver: report of a case and review of the literature.",
+            "abstract": "Undifferentiated embryonal sarcoma (UES) is a rare and highly malignant hepatic neoplasm, affecting almost exclusively the pediatric population. It has replaced malignant mesenchymoma, under which diagnostic term the first three cases were described. A link between embryonal sarcoma and mesenchymal hamartoma of the liver (MHL) has long been proposed, because of clinicopathologic overlaps of these entities; however, until recently, this association remained tenuous. Cases of UES arising in a background of mesenchymal hamartoma of the liver have previously been reported in two teenage girls. Discovery of a similar genetic abnormality in MHL and UES has clinched the supposed link between them. There have also been two reports of UES with prominent cystification, one associated with peripheral eosinophilia, and thereby masquerading as hydatid cyst of the liver. We report a case of UES arising in a young boy with MHL, with unusual histologic features, including large mesothelial-lined cysts",
+            "journal": "Pediatric and developmental pathology : the official journal of the Society for Pediatric Pathology and the Paediatric Pathology Society",
+            "year": "2001",
+            "authors": [
+              "O'Sullivan M J",
+              "Swanson P E",
+              "Knoll J",
+              "Taboada E M",
+              "Dehner L P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Cell Nucleus",
+              "Child, Preschool",
+              "Chromosome Banding",
+              "Chromosomes, Human, Pair 11",
+              "Chromosomes, Human, Pair 19",
+              "Cisplatin",
+              "Cyclophosphamide",
+              "Cytoplasmic Structures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11779051/"
+          },
+          {
+            "pmid": "4111335",
+            "title": "Some antineoplastic antibiotics.",
+            "abstract": "",
+            "journal": "Journal of pharmaceutical sciences",
+            "year": "1972",
+            "authors": [
+              "Cheng C C",
+              "Zee-Cheng K Y"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Amino Sugars",
+              "Animals",
+              "Antibiotics, Antineoplastic",
+              "Azaserine",
+              "Benzazepines",
+              "Bleomycin",
+              "Carcinoma, Ehrlich Tumor",
+              "Carcinoma, Hepatocellular",
+              "Cricetinae"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4111335/"
+          },
+          {
+            "pmid": "52569",
+            "title": "Effect of antitumor agents on sarcoma-180 tumor cells transplanted to liver, kidney, and lung.",
+            "abstract": "The survival time of animals, inhibition of the incorporation of thymidine-[6-3H] (3H-TdR) into DNA, and histopathological observation were made after the injection of Mitomycin-C, Bleomycin, cyclophosphamide, Daunomycin, Actinomycin-D, or 5-fluorouracil into mice transplanted with sarcoma-180 to their liver, kidney, and lung. The most prolonged survival time was obtained by the injection with cyclophosphamide and a moderate prolonged survival by Bleomycin and Actinomycin-D. In the case of 5-fluorouracil and Daunomycin, there were extreme variations in the survival time depending on the site of tumor growth. Cyclophosphamide and 5-fluorouracil showed greater and longer lasting inhibition of the incorporation of 3H-TdR into DNA of the tumor tissue, whereas the remaining agents caused transient inhibition on the tumor tissue. Inhibitory ratio and duration of the incorporation of 3H-TdR into DNA of normal site of the tissue of tumor-bearing organ were found to be more increased or almost ",
+            "journal": "Gan",
+            "year": "1975",
+            "authors": [
+              "Umezawa I",
+              "Komiyama K",
+              "Kawakubo Y",
+              "Nishiyama Y"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Bleomycin",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Daunorubicin",
+              "Fluorouracil",
+              "Kidney Neoplasms",
+              "Liver Neoplasms",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/52569/"
+          },
+          {
+            "pmid": "37814737",
+            "title": "Undifferentiated Embryonal Sarcoma of the Liver in Pediatrics: A Diagnostic Challenge With Implications for Early Management.",
+            "abstract": "A 10-year-old boy was evaluated for intermittent colicky abdominal pain, general malaise, and asthenia. Imaging revealed a solid liver lesion. Subsequent biopsy and extension studies diagnosed the lesion as undifferentiated embryonal sarcoma of the liver, classified as PRETEXT II, group III according to the postoperative staging system of the Intergroup Study for Soft Tissue Sarcomas. He underwent neoadjuvant chemotherapy using alternating cycles of ifosfamide, doxorubicin, vincristine, D-actinomycin, and cyclophosphamide. This was followed by surgical intervention and two additional adjuvant chemotherapy cycles, resulting in a complete disease response. The patient remains in follow-up and shows no signs of relapse 28 months post-diagnosis. Undifferentiated embryonal sarcoma of the liver is a rare and often misdiagnosed condition that can be mistaken for a benign disease. Its prognosis hinges on timely and accurate diagnosis, which is essential for effectively treating patients with t",
+            "journal": "Cureus",
+            "year": "2023",
+            "authors": [
+              "Suárez Amaranto",
+              "Suaza Vallejo Maria Camila",
+              "Brito Javier",
+              "Luengas Juan Pablo",
+              "Mesa Jorge"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37814737/"
+          },
+          {
+            "pmid": "21671362",
+            "title": "Dactinomycin and vincristine toxicity in the treatment of childhood cancer: a retrospective study from the Children's Oncology Group.",
+            "abstract": "Dactinomycin (AMD) and vincristine (VCR) have been used for the treatment of childhood cancer over the past 40 years but evidence-based dosing guidance is lacking.",
+            "journal": "Pediatric blood & cancer",
+            "year": "2011",
+            "authors": [
+              "Langholz Bryan",
+              "Skolnik Jeffrey M",
+              "Barrett Jeffrey S",
+              "Renbarger Jamie",
+              "Seibel Nita L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemical and Drug Induced Liver Injury",
+              "Child",
+              "Child, Preschool",
+              "Dactinomycin",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21671362/"
+          },
+          {
+            "pmid": "4333048",
+            "title": "[Deoxythimidine kinase].",
+            "abstract": "",
+            "journal": "Tanpakushitsu kakusan koso. Protein, nucleic acid, enzyme",
+            "year": "1971",
+            "authors": [
+              "Fujii S",
+              "Arima T",
+              "Masaka M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenocorticotropic Hormone",
+              "Animals",
+              "Carcinoma, Ehrlich Tumor",
+              "Cell Division",
+              "Chromatography, DEAE-Cellulose",
+              "Cricetinae",
+              "DNA",
+              "Dactinomycin",
+              "Enzyme Induction",
+              "Escherichia coli"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4333048/"
+          },
+          {
+            "pmid": "39032218",
+            "title": "Impact of age on safety of Busulfan-Melphalan followed by autologous hematopoietic stem-cell transplantation versus standard chemotherapy in the patients of the EURO-E.W.I.N.G. 99 and Ewing 2008 clinical trials.",
+            "abstract": "Ewing sarcoma (ES), is a rare cancer affecting children, adolescents and adults. After VIDE (vincristine-ifosfamide-doxorobucin-etoposide) induction chemotherapy, Busulfan-Melphalan (BuMel) high-dose chemotherapy followed by autologous hematopoietic stem cells transplantation improved outcomes in unfavourable localized ES, but with more toxicities than conventional chemotherapy (VAI: Vincristine-dactinomycin-Ifosfamide). We evaluated whether the risk of acute toxicity associated with BuMel compared to VAI varied according to age in patients recruited in the R2Loc and R2Pulm randomised trials of the Euro-E.W.I.N.G.99 and Ewing-2008 trials.",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2024",
+            "authors": [
+              "Choderlos de Laclos Xavier",
+              "Risbourg Séverine",
+              "Brennan Bernadette",
+              "Bertucci François",
+              "Gaspar Nathalie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hematopoietic Stem Cell Transplantation",
+              "Sarcoma, Ewing",
+              "Busulfan",
+              "Child",
+              "Adolescent",
+              "Young Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Transplantation, Autologous",
+              "Melphalan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39032218/"
+          },
+          {
+            "pmid": "9191535",
+            "title": "Venoocclusive disease of the liver after chemotherapy with vincristine, actinomycin D, and cyclophosphamide for the treatment of rhabdomyosarcoma. A report of the Intergroup Rhabdomyosarcoma Study Group. Childrens Cancer Group, the Pediatric Oncology Group, and the Pediatric Intergroup Statistical Center.",
+            "abstract": "Venoocclusive disease (VOD) of the liver is a common complication after allogenic and autologous bone marrow transplantation for malignant disease. The authors report the unusual and unexpected complication of VOD of the liver occurring in children with rhabdomyosarcoma who were receiving vincristine, actinomycin D, and cyclophosphamide (VAC) according to the chemotherapy regimens of the Intergroup Rhabdomyosarcoma Study (IRS) IV.",
+            "journal": "Cancer",
+            "year": "1997",
+            "authors": [
+              "Ortega J A",
+              "Donaldson S S",
+              "Ivy S P",
+              "Pappo A",
+              "Maurer H M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Hepatic Veno-Occlusive Disease",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9191535/"
+          },
+          {
+            "pmid": "7700188",
+            "title": "Veno-occlusive disease of the liver after chemotherapy for rhabdomyosarcoma: case report with a review of the literature.",
+            "abstract": "We describe the case of a 3-year-old girl who developed veno-occlusive disease of the liver while receiving chemotherapy for parameningeal rhabdomyosarcoma. After suffering lethargy and oral mucosal bleeding for one day, the patient exhibited a sudden weight gain and refractoriness to platelet transfusions. Symptoms rapidly worsened with elevation of liver enzymes, bleeding diatheses, and respiratory failure. An ultrasound scan of the liver demonstrated reversed flow in the portal vein. Maximal supportive care, including tracheal intubation and mechanical ventilation, was required. The patient gradually recovered with no respiratory and minimal neurological sequelae. Veno-occlusive disease of the liver should be considered in children receiving chemotherapy who develop weight gain, a sudden drop in platelet count and derangement of liver enzymes. Aggressive supportive measures should be instituted if necessary, as patients surviving the acute phase can expect to make a full recovery.",
+            "journal": "Medical and pediatric oncology",
+            "year": "1995",
+            "authors": [
+              "Kanwar V S",
+              "Albuquerque M L",
+              "Ribeiro R C",
+              "Kauffman W M",
+              "Furman W L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Hepatic Veno-Occlusive Disease",
+              "Humans",
+              "Meningeal Neoplasms",
+              "Rhabdomyosarcoma",
+              "Vincristine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7700188/"
+          },
+          {
+            "pmid": "15143082",
+            "title": "Age is a risk factor for chemotherapy-induced hepatopathy with vincristine, dactinomycin, and cyclophosphamide.",
+            "abstract": "To evaluate the spectrum of and determine the risk factors for the development of liver toxicity (hepatopathy) after therapy with vincristine, dactinomycin, and cyclophosphamide (VAC) for rhabdomyosarcoma in children and adolescents.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2004",
+            "authors": [
+              "Arndt C",
+              "Hawkins D",
+              "Anderson J R",
+              "Breitfeld P",
+              "Womer R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemical and Drug Induced Liver Injury",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15143082/"
+          },
+          {
+            "pmid": "11255730",
+            "title": "Metastatic osteosarcoma to the liver after treatment for synovial sarcoma: a case report.",
+            "abstract": "Metastatic osteosarcoma most commonly affects the lungs and other bones. Hepatic metastasis at the time of diagnosis is extremely rare. A 14-year-old boy with synovial sarcoma of the left popliteal fossa was treated with surgical resection, radiotherapy for microscopic residual disease, and 1 year of chemotherapy (vincristine, cyclophosphamide, dactinomycin, and doxorubicin). Approximately 10 years after the initial diagnosis, a secondary osteosarcoma developed in the left proximal tibia. Computed tomography at presentation showed bilateral pulmonary metastases and large ossified nodules in the liver that demonstrated abnormal avidity on 99mTc MDP bone scan indicating hepatic metastasis. Despite chemotherapy (cisplatin, ifosfamide, high-dose methotrexate, and dacarbazine), the patient died of progressive disease 4 months after the diagnosis of the second cancer. Hepatic metastasis was found at the time of diagnosis of a secondary osteosarcoma and manifested as ossified nodules. The ris",
+            "journal": "Pediatric hematology and oncology",
+            "year": "2001",
+            "authors": [
+              "Daw N C",
+              "Kaste S C",
+              "Hill D A",
+              "Kun L E",
+              "Pratt C B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Fatal Outcome",
+              "Humans",
+              "Liver Neoplasms",
+              "Lung Neoplasms",
+              "Male",
+              "Neoplasms, Radiation-Induced",
+              "Neoplasms, Second Primary",
+              "Ossification, Heterotopic",
+              "Osteosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11255730/"
+          },
+          {
+            "pmid": "4261537",
+            "title": "[Effect of variamycin on RNA biosynthesis in isolated cell nuclei of rat M-1 sarcoma and liver].",
+            "abstract": "",
+            "journal": "Biokhimiia (Moscow, Russia)",
+            "year": "1972",
+            "authors": [
+              "Rubtsova G V",
+              "Eselevich M M",
+              "Votrin I I",
+              "Debov S S",
+              "Sazykin Iu O"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibiotics, Antineoplastic",
+              "Cell Nucleus",
+              "Dactinomycin",
+              "Liver",
+              "Male",
+              "Plicamycin",
+              "RNA",
+              "RNA, Neoplasm",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4261537/"
+          },
+          {
+            "pmid": "31471158",
+            "title": "Solid organ transplantation after treatment for childhood cancer: a retrospective cohort analysis from the Childhood Cancer Survivor Study.",
+            "abstract": "Serious chronic medical conditions occur in childhood cancer survivors. We aimed to investigate incidence of and risk factors for end-organ damage resulting in registration on a waiting list for or receiving a solid organ transplantation and 5-year survival following these procedures.",
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "authors": [
+              "Dietz Andrew C",
+              "Seidel Kristy",
+              "Leisenring Wendy M",
+              "Mulrooney Daniel A",
+              "Tersak Jean M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Cancer Survivors",
+              "Child",
+              "Child, Preschool",
+              "End Stage Liver Disease",
+              "Female",
+              "Heart Failure",
+              "Heart Transplantation",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31471158/"
+          },
+          {
+            "pmid": "22935658",
+            "title": "Regression of mesenchymal hamartoma of the liver with sarcoma chemotherapy.",
+            "abstract": "We present a young patient with metastatic Ewing sarcoma that had hepatic lesions. As we were unaware of hepatic metastases in Ewing sarcoma, liver biopsy was performed. The pathologic findings were diagnostic of mesenchymal hamartoma of the liver. Surprisingly, the combined chemotherapy for metastatic sarcoma resulted in almost complete resolution of the hamartoma in the liver. This option may be useful in extreme cases when resection is not feasible.",
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2013",
+            "authors": [
+              "Kuperman Amir A",
+              "Kornreich Liora",
+              "Feinmesser Meora",
+              "Ash Shifra",
+              "Yaniv Issac"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bone Neoplasms",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Diagnostic Errors",
+              "Doxorubicin",
+              "Etoposide",
+              "Female",
+              "Hamartoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22935658/"
+          },
+          {
+            "pmid": "22540346",
+            "title": "A long-term survival case of adult undifferentiated embryonal sarcoma of liver.",
+            "abstract": "Undifferentiated embryonal sarcoma of the liver (USEL) is a rare malignant hepatic tumor with a poor prognosis that is usually observed in children (aged 6 to 10 years) and rarely seen in adults. We present a case of USEL in a 27-year-old woman with no previous history of the disease. Laboratory tests performed on admission showed that the patient had mildly elevated levels of aspartate aminotransferase, alanine transaminase, alkaline phosphatase, lactate dehydrogenase, and γ-glutamyl transpeptidase. The levels of viral hepatitis and tumor serum markers were all within normal limits. Computed tomography showed a large mass involving the right lobe and the medial segment of the liver. Right trisectionectomy was performed. Microscopically, the tumor was composed of pleomorphic and polynuclear dyskaryotic cells in a myxoid stroma with focal eosinophilic globules and no clear differentiation to muscle. Histological diagnosis showed undifferentiated embryonal sarcoma. Adjuvant therapy with ",
+            "journal": "World journal of surgical oncology",
+            "year": "2012",
+            "authors": [
+              "Noguchi Keita",
+              "Yokoo Hideki",
+              "Nakanishi Kazuaki",
+              "Kakisaka Tatsuhiko",
+              "Tsuruga Yosuke"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cell Differentiation",
+              "Cisplatin",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22540346/"
+          },
+          {
+            "pmid": "28104133",
+            "title": "Liver Transplantation for Biliary Rhabdomyosarcoma With Liver Metastasis: Report of One Case.",
+            "abstract": "Liver transplantation in combination with chemotherapy in postoperative biliary rhabdomyosarcoma recurrence of children was evaluated.",
+            "journal": "Transplantation proceedings",
+            "year": "2017",
+            "authors": [
+              "Shen C-H",
+              "Dong K-R",
+              "Tao Y-F",
+              "Chen G",
+              "Li R-D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biliary Tract Neoplasms",
+              "Chemotherapy, Adjuvant",
+              "Child",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Graft Rejection",
+              "Humans",
+              "Immunosuppressive Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28104133/"
+          },
+          {
+            "pmid": "11378345",
+            "title": "Veno-occlusive disease with multi-organ involvement following actinomycin-D.",
+            "abstract": "Actinomycin-D (Act-D) is a rare cause of veno-occlusive disease (VOD). Between 1993 and 1998, we managed 6 patients, all male, median age 19 months (range 6-48 months) who received Act-D for Wilms' tumour (n=4), clear cell sarcoma (n=1) or rhabdomyosarcoma (n=1). VOD presented with a median platelet count of 12 x 10(9)/l, INR 3.8, fibrinogen 16 mg/l, fibrinogen degradation products (FDPs) > or =80 microg/l, aspartate aminotransferase (AST) 6922 IU/l, bilirubin 47 micromol/l. In 3 cases, transient liver dysfunction and thrombocytopenia without neutropenia had been observed after a previous course of Act-D. All six children developed encephalopathy, hepatomegaly, ascites, reversed portal flow and renal impairment. All received mechanical ventilation and two required haemofiltration. The treatment was supportive. Severe Adult Respiratory Distress Syndrome developed in 3 patients, all of whom died. 3 patients recovered. The outcome of VOD with multi-organ failure is poor. Intravascular coa",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2001",
+            "authors": [
+              "D'Antiga L",
+              "Baker A",
+              "Pritchard J",
+              "Pryor D",
+              "Mieli-Vergani G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibiotics, Antineoplastic",
+              "Child, Preschool",
+              "Constriction, Pathologic",
+              "Dactinomycin",
+              "Humans",
+              "Infant",
+              "Kidney Neoplasms",
+              "Male",
+              "Multiple Organ Failure",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11378345/"
+          },
+          {
+            "pmid": "6180609",
+            "title": "Multi-enzyme-targeted chemotherapy by acivicin and actinomycin.",
+            "abstract": "On the basis of our observation of the increased specific activities of glutamine-utilizing enzymes in purine and pyrimidine metabolism in hepatoma 3924A, and because the concentration of glutamine is ten times lower in the hepatomas than in the liver, the biochemical pharmacology of the anti-glutamine agent, acivicin, was examined. (1) Acivicin competitively inhibited the activities of amidophosphoribosyl-transferase, CTP synthetase and carbamoyl-phosphate synthetase II from extracts of liver and hepatoma 3924A. (2) In addition to the competitive inhibition exerted by acivicin, evidence was obtained that this drug also irreversibly inactivated in vitro the glutamine-utilizing enzymes. It is particularly relevant for the selectivity of acivicin that the activity of aspartate carbamoyltransferase, an enzyme present in the same complex as carbamoyl-phosphate synthetase II, was not affected by the anti-glutamine agent. (3) Acivicin in vivo brought down the activities of glutamine-utilizin",
+            "journal": "Advances in enzyme regulation",
+            "year": "1982",
+            "authors": [
+              "Weber G",
+              "Prajda N",
+              "Lui M S",
+              "Denton J E",
+              "Aoki T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antimetabolites, Antineoplastic",
+              "Cells, Cultured",
+              "Dactinomycin",
+              "Deoxyribonucleotides",
+              "Glutamine",
+              "Humans",
+              "Isoxazoles",
+              "Liver Neoplasms, Experimental",
+              "Oxazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6180609/"
+          },
+          {
+            "pmid": "4327934",
+            "title": "Liver tumours in infancy and childhood.",
+            "abstract": "",
+            "journal": "The Journal of pathology",
+            "year": "1971",
+            "authors": [
+              "Keeling J W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Carcinoma, Hepatocellular",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Hamartoma",
+              "Hepatectomy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4327934/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "upper aerodigestive tract neoplasm",
+        "txgnn_score": 0.9916248917579652,
+        "txgnn_rank": 9295,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11408506",
+            "title": "Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease.",
+            "abstract": "The study goal was to improve outcome in children with rhabdomyosarcoma by comparing risk-based regimens of surgery, radiotherapy (RT) and chemotherapy.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2001",
+            "authors": [
+              "Crist W M",
+              "Anderson J R",
+              "Meza J L",
+              "Fryer C",
+              "Raney R B"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Disease-Free Survival",
+              "Dose Fractionation, Radiation",
+              "Eyelid Neoplasms",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11408506/"
+          },
+          {
+            "pmid": "35267106",
+            "title": "Context-dependent activation of p53 target genes and induction of apoptosis by actinomycin D in aerodigestive tract cancers.",
+            "abstract": "Actinomycin D (ActD) was the first anticancer antibiotic approved for the management of human cancers. However, the notorious toxicity profile limits its widespread application in cancers, including cancers of the aerodigestive tract. Recent studies show that combining low-dose ActD with existing chemotherapies could potentially protect normal cells from the toxicity of chemotherapy drugs through p53 activation (cyclotherapy). An understanding of ActD's effect on p53 signaling is critical for the meaningful application of ActD in cyclotherapy-based combinations. This study evaluated the anti-tumor efficacy and mechanism of action of ActD in aerodigestive tract cancers. We found that ActD strongly inhibited the growth of a panel of aerodigestive tract cancer cell lines and induced efficient apoptosis, although the sensitivity varies among cell lines. The IC50 values of ActD spanned between 0.021 and 2.96 nM. Mechanistic studies revealed that ActD increased the expression of total and ph",
+            "journal": "Apoptosis : an international journal on programmed cell death",
+            "year": "2022",
+            "authors": [
+              "Adeluola Adeoluwa A",
+              "Bosomtwe Nana",
+              "Long Timothy E",
+              "Amin A R M Ruhul"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Antibiotics, Antineoplastic",
+              "Apoptosis",
+              "Dactinomycin",
+              "Humans",
+              "Neoplasms",
+              "Tumor Suppressor Protein p53"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35267106/"
+          },
+          {
+            "pmid": "40074591",
+            "title": "Primary cutaneous/subcutaneous Ewings sarcoma.",
+            "abstract": "Amongst Ewing sarcoma family of tumours, (EFST), cutaneous/subcutaneous Ewing sarcoma are defined as tumours arising from cutaneous or subcutaneous tissue, not invading the underlying aponeurosis. They are rare tumours, with less than 200 patients published. They are typically small tumours (less than 5cm), and can arise at any anatomical location, with a particular tropism for distal, truncal and head/neck locations, compared to classical Ewing sarcoma. Like other conjunctive tumours, they have to be treated in specialized centers, with a diagnostic procedure following ESMO guidelines about soft-tissue tumours, favoring a core needle biopsy in most cases. They share classical pathological and molecular features of EFST (including EWSR1 rearrangement). Metastatic presentation is rare (less than 5% at diagnosis), but must be carefully searched using appropriated imaging considered the bad prognosis of these patients. Treatment strategy relies on neoadjuvant and adjuvant chemotherapy, su",
+            "journal": "Bulletin du cancer",
+            "year": "2025",
+            "authors": [
+              "Valentin Thibaud",
+              "Winter Sarah",
+              "Martin Valentine",
+              "Csanyi Marie",
+              "Marec Berard Perrine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sarcoma, Ewing",
+              "Skin Neoplasms",
+              "Rare Diseases",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Vincristine",
+              "Subcutaneous Tissue",
+              "Soft Tissue Neoplasms",
+              "Doxorubicin",
+              "Chemotherapy, Adjuvant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40074591/"
+          },
+          {
+            "pmid": "1247416",
+            "title": "Laryngeal rhabdomyosarcoma.",
+            "abstract": "Laryngeal rhabdomyosarcomas are very rare, extremely malignant tumors. Approximately half of the reported cases have occurred in children. Diagnosis may be difficult, and adequate biopsy material is crucial in the identification of these lesions. Unil recently, rhabdomyosarcomas carried a dismal prognosis; however, combined treatment with surgery, irradiation, and triple chemotherapy appears to have improved the outlook. This should probably be the treatment for laryngeal rhabdomyosarcomas, and was successfully used in the case reported herein.",
+            "journal": "Archives of otolaryngology (Chicago, Ill. : 1960)",
+            "year": "1976",
+            "authors": [
+              "Canalis R F",
+              "Platz C E",
+              "Cohn A M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Humans",
+              "Laryngeal Neoplasms",
+              "Laryngectomy",
+              "Male",
+              "Prognosis",
+              "Radiotherapy",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1247416/"
+          },
+          {
+            "pmid": "4143475",
+            "title": "Clinical use of radiation sensitizing agents.",
+            "abstract": "",
+            "journal": "Cancer treatment reviews",
+            "year": "1974",
+            "authors": [
+              "Goffinet D R",
+              "Bagshaw M A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antimetabolites, Antineoplastic",
+              "Bleomycin",
+              "Bromodeoxycytidine",
+              "Bromodeoxyuridine",
+              "Bromouracil",
+              "Carcinoma, Squamous Cell",
+              "Dactinomycin",
+              "Dose-Response Relationship, Radiation",
+              "Floxuridine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4143475/"
+          },
+          {
+            "pmid": "33032302",
+            "title": "Associations between childhood cancer treatment and tooth agenesis.",
+            "abstract": "The aim of this study was to determine the prevalence of dental developmental disturbances in long-term survivors of childhood malignancies in New Zealand children. This study reports associations with potential risk factors to inform oncologists and dentists of the likelihood of dental abnormalities.",
+            "journal": "The New Zealand medical journal",
+            "year": "2020",
+            "authors": [
+              "Shum Matthew",
+              "Mahoney Erin",
+              "Naysmith Kate",
+              "Macfarlane Scott",
+              "Corbett Rob"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anodontia",
+              "Antineoplastic Agents, Alkylating",
+              "Cancer Survivors",
+              "Cross-Sectional Studies",
+              "Cyclophosphamide",
+              "Female",
+              "Humans",
+              "Male",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33032302/"
+          },
+          {
+            "pmid": "4187515",
+            "title": "Management of orbital rhabdomyosarcoma.",
+            "abstract": "",
+            "journal": "American journal of ophthalmology",
+            "year": "1969",
+            "authors": [
+              "Dayto G O",
+              "Langdon E",
+              "Rochlin D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Chemotherapy, Cancer, Regional Perfusion",
+              "Child",
+              "Child, Preschool",
+              "Dactinomycin",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Lymph Nodes",
+              "Neck Dissection",
+              "Neoplasm Recurrence, Local",
+              "Orbital Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4187515/"
+          },
+          {
+            "pmid": "12782823",
+            "title": "Bile acid induces cyclo-oxygenase-2 expression in cultured human pharyngeal cells: a possible mechanism of carcinogenesis in the upper aerodigestive tract by laryngopharyngeal reflux.",
+            "abstract": "Laryngopharyngeal reflux is a common event in patients with head and neck cancer. Bile acid is known to be related to tumor formation in the esophagus through the overexpression of cyclo-oxygenase-2 (COX-2), an enzyme that produces prostanoids. To better understand the mechanism of the laryngopharyngeal reflux-cancer connection, we examined COX-2 expression by bile acid in cultured human pharyngeal mucosa cells.",
+            "journal": "The Laryngoscope",
+            "year": "2003",
+            "authors": [
+              "Sung Myung-Whun",
+              "Roh Jong-Lyel",
+              "Park Bum Jung",
+              "Park Seok Woo",
+              "Kwon Tack-Kyun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Bile Acids and Salts",
+              "Cell Transformation, Neoplastic",
+              "Chenodeoxycholic Acid",
+              "Cyclooxygenase 2",
+              "Dactinomycin",
+              "Dose-Response Relationship, Drug",
+              "Enzyme Induction",
+              "Esophageal Neoplasms",
+              "Gastroesophageal Reflux",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12782823/"
+          },
+          {
+            "pmid": "10661351",
+            "title": "Cutaneous and subcutaneous Ewing's sarcoma: an indolent disease.",
+            "abstract": "The occurrence of extraosseous Ewing's sarcoma (ES) in deep soft tissues has been well described, but cases in which this tumor occurs in a primary cutaneous or subcutaneous site have rarely been reported. The superficial variant may be less aggressive than are the more common bony and deep soft tissue counterparts with an apparently favorable outcome. A retrospective review of patients with cutaneous or subcutaneous ES was conducted to analyze outcome and patterns of failure.",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2000",
+            "authors": [
+              "Chow E",
+              "Merchant T E",
+              "Pappo A",
+              "Jenkins J J",
+              "Shah A B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Combined Modality Therapy",
+              "Female",
+              "Humans",
+              "Male",
+              "Retrospective Studies",
+              "Sarcoma, Ewing",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10661351/"
+          },
+          {
+            "pmid": "1382002",
+            "title": "Rhabdomyosarcoma of the head and neck in children.",
+            "abstract": "Twenty-two children, 9 male and 13 female, with a non-orbital rhabdomyosarcoma of the head and neck, treated between 1970 and 1988, have been reviewed. Since 1972, treatment has consisted of combination chemotherapy, and where necessary radiotherapy and/or surgery. Complete clinical remission after initial chemotherapy was observed in 21 children. Six children were cured after primary treatment but 15 developed recurrent disease. Thirteen children had a parameningeal localized tumour, with eventual meningeal involvement in 5. Survival in this group was worse than in the non-meningeal group. Lymph node metastasis at first presentation (5 patients) had no influence on prognosis, whereas development of lymph node metastases during follow-up resulted in 100% mortality. All patients were retrospectively classified according to both the IRS-classification and TNM-descriptive system. No correlation with either system could be established. Fourteen of 15 children with recurrent disease were tr",
+            "journal": "Clinical otolaryngology and allied sciences",
+            "year": "1992",
+            "authors": [
+              "Coene I J",
+              "Schouwenburg P F",
+              "Voûte P A",
+              "Marion J",
+              "Burgers V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Ifosfamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1382002/"
+          },
+          {
+            "pmid": "12654440",
+            "title": "Volumetric considerations in radiotherapy for pediatric parameningeal rhabdomyosarcomas.",
+            "abstract": "To assess the influence of radiation volume on outcome in pediatric parameningeal rhabdomyosarcomas (PM-RMSs).",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2003",
+            "authors": [
+              "Chen Changhu",
+              "Shu Hui Kuo G",
+              "Goldwein Joel W",
+              "Womer Richard B",
+              "Maity Amit"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Cranial Irradiation",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Disease-Free Survival",
+              "Doxorubicin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12654440/"
+          },
+          {
+            "pmid": "41585198",
+            "title": "A scientometric and comparative study of rhabdomyosarcoma research by pediatricians and stomatologists.",
+            "abstract": "Rhabdomyosarcoma (RMS) frequently affects pediatric patients and common occurs in the head and neck region. The purpose of this study was to compare the scientometric characteristics of RMS publications by pediatricians and stomatologists.",
+            "journal": "Journal of dental sciences",
+            "year": "2026",
+            "authors": [
+              "Chen Wenke",
+              "Li Hui",
+              "Ren Zhenhu",
+              "Zhang Chongfang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41585198/"
+          },
+          {
+            "pmid": "30806970",
+            "title": "A rare resected case of pulmonary rhabdomyosarcoma.",
+            "abstract": "Rhabdomyosarcoma is a well-known neoplasm in children that frequently occurs in the extremities, the head and neck region, and the genitourinary tract. To the best of our knowledge, pulmonary primary rhabdomyosarcoma in adults is exceedingly rare, and few resected cases have been reported. We report a case of pulmonary primary rhabdomyosarcoma that was surgically resected then treated with adjuvant chemotherapy (vincristine, actinomycin-D and cyclophosphamide). At 9 months after surgery, the patient is free from disease. Although the prognosis of rhabdomyosarcoma is unfavorable, surgical resection and adjuvant therapy could be a potential treatment strategy for pulmonary primary rhabdomyosarcoma.",
+            "journal": "General thoracic and cardiovascular surgery",
+            "year": "2019",
+            "authors": [
+              "Nishioka Yuki",
+              "Tane Shinya",
+              "Nishio Wataru",
+              "Tanaka Hiroki",
+              "Ogawa Hiroyuki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Lung Neoplasms",
+              "Rhabdomyosarcoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30806970/"
+          },
+          {
+            "pmid": "36739231",
+            "title": "Overexpressed ZC3H13 suppresses papillary thyroid carcinoma growth through m6A modification-mediated IQGAP1 degradation.",
+            "abstract": "The purpose of this study was to clarify the effect of ZC3H13 on the growth of papillary thyroid carcinoma (PTC).",
+            "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+            "year": "2023",
+            "authors": [
+              "Xie Rong",
+              "Chen Wanzhi",
+              "Lv Yunxia",
+              "Xu Debin",
+              "Huang Da"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Mice",
+              "Animals",
+              "Humans",
+              "Thyroid Cancer, Papillary",
+              "MicroRNAs",
+              "Mice, Nude",
+              "Dactinomycin",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Neoplasm Invasiveness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36739231/"
+          },
+          {
+            "pmid": "4418614",
+            "title": "Infectious DNA of tick-borne encephalitis virus.",
+            "abstract": "",
+            "journal": "Archiv fur die gesamte Virusforschung",
+            "year": "1974",
+            "authors": [
+              "Zhdanov V M",
+              "Bogomolova N N",
+              "Gavrilov V I",
+              "Andzhaparidze O G",
+              "Deryabin P G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Squamous Cell",
+              "Cell Line",
+              "DNA, Neoplasm",
+              "DNA, Viral",
+              "Dactinomycin",
+              "Encephalitis Viruses, Tick-Borne",
+              "Humans",
+              "Laryngeal Neoplasms",
+              "Nucleic Acid Hybridization",
+              "Nucleoproteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4418614/"
+          },
+          {
+            "pmid": "4368680",
+            "title": "Enhancement of radiation effects by chemotherapy.",
+            "abstract": "",
+            "journal": "Acta radiologica. Supplementum",
+            "year": "1971",
+            "authors": [
+              "Vermund H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alkylating Agents",
+              "Carcinoma, Bronchogenic",
+              "Carcinoma, Squamous Cell",
+              "DNA, Neoplasm",
+              "Dactinomycin",
+              "Female",
+              "Folic Acid Antagonists",
+              "Humans",
+              "Male",
+              "Methotrexate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4368680/"
+          },
+          {
+            "pmid": "12410115",
+            "title": "[Pediatric rhabdomyosarcoma of the infratemporal fossa].",
+            "abstract": "Prognosis of rhabdomyosarcoma of the infratemporal fossa is generally poor. We report our experience.",
+            "journal": "Annales d'oto-laryngologie et de chirurgie cervico faciale : bulletin de la Societe d'oto-laryngologie des hopitaux de Paris",
+            "year": "2002",
+            "authors": [
+              "Rozan O",
+              "Janot F",
+              "Oberlin O",
+              "Schwaab G",
+              "Quintana E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Age Factors",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Dactinomycin",
+              "Disease-Free Survival",
+              "Female",
+              "Head and Neck Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12410115/"
+          },
+          {
+            "pmid": "33172776",
+            "title": "Adult parameningial alveolar rhabdomyosarcoma: Case report and literature review.",
+            "abstract": "Alveolar rhabdomyosarcoma (ARMS) represents the most common childhood soft tissue sarcoma, but they are rarely seen among adults. Most of the protocols for adults are adapted from pediatric protocols. Here we report a case of a 53-year-old woman diagnosed with a nasal alveolar rhabdomyosarcoma, stage IV at diagnosis, treated by chemotherapy (a regimen inspired from the pediatric protocole pEpSSG RMS 2005) which led to partial response followed by chemo-radiotherapy. We performed a systematic review of adult head and neck ARMS and found 29 cases. Primary chemotherapy with different protocols (VAC, VAI or VIE) should be done followed by surgery and/or external beam radiotherapy (preferably with IMRT). EBRT seems beneficial to every ARMS with a dose around 50Gy in a conventional fractionation, eventually completed with a boost on residual tumor. The target volume must be defined on pre-chemotherapy imaging. Brachytherapy and proton therapy are under evaluation.",
+            "journal": "Cancer radiotherapie : journal de la Societe francaise de radiotherapie oncologique",
+            "year": "2020",
+            "authors": [
+              "Barthère Xavier",
+              "Guillerm Sophie",
+              "Quero Laurent",
+              "Le Maignan Christine",
+              "Torossian Nourezza"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemoradiotherapy",
+              "Combined Modality Therapy",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Female",
+              "Humans",
+              "Ifosfamide",
+              "Middle Aged",
+              "Nose Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33172776/"
+          },
+          {
+            "pmid": "4610841",
+            "title": "Management of embryonal rhabdomyosarcoma in children.",
+            "abstract": "",
+            "journal": "The Surgical clinics of North America",
+            "year": "1974",
+            "authors": [
+              "Exelby P R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abdominal Neoplasms",
+              "Adolescent",
+              "Biopsy",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Diagnosis, Differential",
+              "Doxorubicin",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4610841/"
+          },
+          {
+            "pmid": "1580153",
+            "title": "Long-term treatment in infantile choriocarcinoma.",
+            "abstract": "The long-term treatment of a 5 month old boy with precocious puberty secondary to the production of chorionic gonadotropin (hCG) by a choriocarcinoma is described. Of 13 cases of infantile choriocarcinoma reported in the literature, none were successfully treated. The present study describes a partially successful outcome with embolization of a hepatic tumor, irradiation of lung and right submandibular tumors, chemotherapy with methotrexate (MTX), actinomycin D (ACD), cyclophosphamide (CPA) and etoposide (VP16), and splenectomy and hepatic lobectomy. Subsequently, the residual hepatic tumors were treated with high dose melphalan (HDM) followed by reinfusion of unpurged autologous marrow.",
+            "journal": "Acta paediatrica Japonica : Overseas edition",
+            "year": "1992",
+            "authors": [
+              "Hongo T",
+              "Fujii Y",
+              "Fukuoka T",
+              "Iijima S",
+              "Matsusita T"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bone Marrow Transplantation",
+              "Chemotherapy, Adjuvant",
+              "Child, Preschool",
+              "Choriocarcinoma",
+              "Chorionic Gonadotropin",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Embolization, Therapeutic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1580153/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "head and neck cancer",
+        "txgnn_score": 0.9916175007820128,
+        "txgnn_rank": 9304,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03382158",
+            "title": "International Pleuropulmonary Blastoma/DICER1 Registry (for PPB, DICER1 and Associated Conditions)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2016-12-06",
+            "completion_date": "2035-12-06",
+            "country": "United States",
+            "enrollment": 3400,
+            "brief_summary": "Pleuropulmonary blastoma (PPB) is a rare malignant neoplasm of the lung presenting in early childhood. Type I PPB is a purely cystic lesion, Type II is a partially cystic, partially solid tumor, Type III is a completely solid tumor. Treatment of children with PPB is at the discretion of the treating institution. This study builds off of the 2009 study and will also seek to enroll individuals with DICER1-associated conditions, some of whom may present only with the DICER1 gene mutation, which wil",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Known or suspected PPB or related thoracic tumor\n2. Known or suspected sex-cord stromal tumor including Sertoli-Leydig cell tumor and gynandroblastoma (males or females)\n3. Other known or suspected DICER1-related condition including ovarian sarcoma, cystic nephroma, renal sar",
+            "endpoints": [
+              "Event-free survival"
+            ],
+            "sponsor": "Children's Hospitals and Clinics of Minnesota",
+            "url": "https://clinicaltrials.gov/study/NCT03382158"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "11408506",
+            "title": "Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease.",
+            "abstract": "The study goal was to improve outcome in children with rhabdomyosarcoma by comparing risk-based regimens of surgery, radiotherapy (RT) and chemotherapy.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2001",
+            "authors": [
+              "Crist W M",
+              "Anderson J R",
+              "Meza J L",
+              "Fryer C",
+              "Raney R B"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Disease-Free Survival",
+              "Dose Fractionation, Radiation",
+              "Eyelid Neoplasms",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11408506/"
+          },
+          {
+            "pmid": "1382002",
+            "title": "Rhabdomyosarcoma of the head and neck in children.",
+            "abstract": "Twenty-two children, 9 male and 13 female, with a non-orbital rhabdomyosarcoma of the head and neck, treated between 1970 and 1988, have been reviewed. Since 1972, treatment has consisted of combination chemotherapy, and where necessary radiotherapy and/or surgery. Complete clinical remission after initial chemotherapy was observed in 21 children. Six children were cured after primary treatment but 15 developed recurrent disease. Thirteen children had a parameningeal localized tumour, with eventual meningeal involvement in 5. Survival in this group was worse than in the non-meningeal group. Lymph node metastasis at first presentation (5 patients) had no influence on prognosis, whereas development of lymph node metastases during follow-up resulted in 100% mortality. All patients were retrospectively classified according to both the IRS-classification and TNM-descriptive system. No correlation with either system could be established. Fourteen of 15 children with recurrent disease were tr",
+            "journal": "Clinical otolaryngology and allied sciences",
+            "year": "1992",
+            "authors": [
+              "Coene I J",
+              "Schouwenburg P F",
+              "Voûte P A",
+              "Marion J",
+              "Burgers V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Female",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Ifosfamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1382002/"
+          },
+          {
+            "pmid": "14566822",
+            "title": "The effect of nitric oxide on cyclooxygenase-2 (COX-2) overexpression in head and neck cancer cell lines.",
+            "abstract": "The overexpression of cyclooxygenase-2 (COX-2) and inducible nitric oxide synthase (iNOS) has been previously reported in head and neck squamous cell carcinoma (HNSCC), as well as in many cancers. We hypothesized that endogenous nitric oxide (NO) might increase the expression of COX-2 in cancer cells. Therefore, we investigated the cross-talk between NO and the prostaglandin (PG) pathways in HNSCC cell lines. We found that COX-2 and iNOS expressions were elevated simultaneously. On adding the NO donor, SNAP, the PGE2 level was increased 2-20 times due to increased COX-2 expression. This increase of COX-2 expression by SNAP or PMA (potent inducer of both iNOS and COX-2) was blocked to various degrees by NO scavengers and NOS inhibitors (L-NAME and 1400W). Also, the expression of COX-2 in resting cells was inhibited by NOS inhibitors. Moreover, COX-2 expression, induced by SNAP, was inhibited by ODQ, a soluble guanylate cyclase (sGC) inhibitor. The effect of dibutyryl-cGMP on COX-2 expre",
+            "journal": "International journal of cancer",
+            "year": "2003",
+            "authors": [
+              "Park Seok-Woo",
+              "Lee Sang-Goo",
+              "Song Sang-Hyun",
+              "Heo Dae-Seog",
+              "Park Bum-Jung"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Squamous Cell",
+              "Cyclooxygenase 1",
+              "Cyclooxygenase 2",
+              "Dactinomycin",
+              "Gene Expression Regulation, Enzymologic",
+              "Gene Expression Regulation, Neoplastic",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Isoenzymes",
+              "Membrane Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14566822/"
+          },
+          {
+            "pmid": "40074591",
+            "title": "Primary cutaneous/subcutaneous Ewings sarcoma.",
+            "abstract": "Amongst Ewing sarcoma family of tumours, (EFST), cutaneous/subcutaneous Ewing sarcoma are defined as tumours arising from cutaneous or subcutaneous tissue, not invading the underlying aponeurosis. They are rare tumours, with less than 200 patients published. They are typically small tumours (less than 5cm), and can arise at any anatomical location, with a particular tropism for distal, truncal and head/neck locations, compared to classical Ewing sarcoma. Like other conjunctive tumours, they have to be treated in specialized centers, with a diagnostic procedure following ESMO guidelines about soft-tissue tumours, favoring a core needle biopsy in most cases. They share classical pathological and molecular features of EFST (including EWSR1 rearrangement). Metastatic presentation is rare (less than 5% at diagnosis), but must be carefully searched using appropriated imaging considered the bad prognosis of these patients. Treatment strategy relies on neoadjuvant and adjuvant chemotherapy, su",
+            "journal": "Bulletin du cancer",
+            "year": "2025",
+            "authors": [
+              "Valentin Thibaud",
+              "Winter Sarah",
+              "Martin Valentine",
+              "Csanyi Marie",
+              "Marec Berard Perrine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sarcoma, Ewing",
+              "Skin Neoplasms",
+              "Rare Diseases",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Vincristine",
+              "Subcutaneous Tissue",
+              "Soft Tissue Neoplasms",
+              "Doxorubicin",
+              "Chemotherapy, Adjuvant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40074591/"
+          },
+          {
+            "pmid": "6688242",
+            "title": "Rhabdomyosarcoma of the head and neck.",
+            "abstract": "A retrospective review of all cases of rhabdomyosarcoma seen at UCLA was done. Survival prior to the advent of cyclic multidrug chemotherapy was compared to survival with this therapy. In the latter group, unlike other published series, survival was 150% better with gross total removal of disease as compared to biopsy only. All received at least 5000 rads. Fifteen percent presented with regional nodal metastases. However 75% of these also had intracranial extension and all died. An additional 19% developed late regional nodal metastases. Eighty percent of these also developed systemic metastases and all died. Survival in the absence of nodal disease was 41%. This is the first study to address the influence of regional nodal metastases, early and late on the outcome of treatment. In rhabdomyosarcoma of the head and neck, regional nodal metastases at any time implies a grave prognosis and more seriously adversely affects the progress than it does in squamous cell carcinoma in adults.",
+            "journal": "International journal of pediatric otorhinolaryngology",
+            "year": "1983",
+            "authors": [
+              "Newman A N",
+              "Rice D H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Drug Therapy, Combination",
+              "Female",
+              "Head and Neck Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6688242/"
+          },
+          {
+            "pmid": "14183096",
+            "title": "RHABDOMYOSARCOMA OF THE HEAD AND NECK IN CHILDREN.",
+            "abstract": "",
+            "journal": "Annals of surgery",
+            "year": "1964",
+            "authors": [
+              "KOOP C E",
+              "TEWARSON I P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Facial Neoplasms",
+              "Facial Paralysis",
+              "Head",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14183096/"
+          },
+          {
+            "pmid": "12586800",
+            "title": "Treatment of localized nonorbital, nonparameningeal head and neck rhabdomyosarcoma: lessons learned from intergroup rhabdomyosarcoma studies III and IV.",
+            "abstract": "The characteristics and clinical outcomes of children and adolescents with localized nonorbital, nonparameningeal head and neck rhabdomyosarcoma (RMS) treated on national protocols from the Intergroup Rhabdomyosarcoma Group are reported.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2003",
+            "authors": [
+              "Pappo Alberto S",
+              "Meza Jane L",
+              "Donaldson Sarah S",
+              "Wharam Moody D",
+              "Wiener Eugene S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Agents",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Disease-Free Survival",
+              "Female",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12586800/"
+          },
+          {
+            "pmid": "3138611",
+            "title": "Multiparametric flow cytometry of human squamous cell carcinoma lines from the head and neck.",
+            "abstract": "Squamous cell carcinomas of the head and neck consist of heterogeneous cell populations. The purpose of the present study was to investigate whether established cell lines from human head and neck cancers under chemotherapy behaved similarly to tumors in patients during in vivo treatment. This is of interest in terms of improvements of chemotherapeutic protocols and understanding of the mechanisms of cytotoxic drug resistance. Permanent squamous carcinoma cell lines of the larynx (HLaC 78, 79), parotid gland (HPaC 79), tongue (SCC-15, SCC-25), hypopharynx (FaDu), and tumor lines with different histology and origin, as mucoepidermoid cancer cells of the submandibular gland (A 253), Epstein-Barr virus-infected human B cells (BC-1) and mouse fibroblasts (3T3) were incubated with chemotherapeutic drugs for 1 to 4 days at 37 degrees C. Despite the microscopic similarities to patient carcinomas, cancer cell lines of the head and neck showed different susceptibilities to cell kill mediated by",
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "1988",
+            "authors": [
+              "Wustrow T P",
+              "Raffael A",
+              "Valet G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Squamous Cell",
+              "Cell Line",
+              "Cell Survival",
+              "Cells, Cultured",
+              "Drug Resistance",
+              "Flow Cytometry",
+              "Head and Neck Neoplasms",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3138611/"
+          },
+          {
+            "pmid": "4236911",
+            "title": "Perfusion and infusion chemotherapy for cancer of the head and neck.",
+            "abstract": "",
+            "journal": "Proceedings. National Cancer Conference",
+            "year": "1964",
+            "authors": [
+              "Golomb F M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Bromodeoxyuridine",
+              "Carotid Arteries",
+              "Catheterization",
+              "Chemotherapy, Cancer, Regional Perfusion",
+              "Cyclophosphamide",
+              "DNA",
+              "Dactinomycin",
+              "Floxuridine",
+              "Fluorouracil"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4236911/"
+          },
+          {
+            "pmid": "508194",
+            "title": "Childhood rhabdomyosarcomas of the head and neck.",
+            "abstract": "The most common soft tissue sarcoma occurring in infants and children is rhabdomyosarcoma, the head and neck being a frequently involved site. Treatment philosophy underwent an evolution in 1968 from radical surgery with or without adjunctive radiation therapy to a planned protocol incorporating surgery and irradiation with combination cyclic chemotherapy involving vincristine sulfate, dactinomycin, and cyclophosphamide. This study represents an analysis of 35 infants and children treated at Columbus Children's Hospital from 1955 to 1976. An evaluation of factors is discussed with respect to effect on survival. The fact that the study includes the full spectrum of treatment philosophies ranging from the previous program of aggressive surgical resection to the current multimodality approach permits a unique opportunity to analyze the success of the recent therapeutic program.",
+            "journal": "Archives of otolaryngology (Chicago, Ill. : 1960)",
+            "year": "1979",
+            "authors": [
+              "Schuller D E",
+              "Lawrence T L",
+              "Newton W A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antineoplastic Agents",
+              "Bone Neoplasms",
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Evaluation Studies as Topic",
+              "Female",
+              "Head and Neck Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/508194/"
+          },
+          {
+            "pmid": "4351166",
+            "title": "Embryonal rhabdomyosarcoma of the head and neck in children.",
+            "abstract": "",
+            "journal": "The Laryngoscope",
+            "year": "1973",
+            "authors": [
+              "Sessions D G",
+              "Ragab A H",
+              "Vietti T J",
+              "Biller H F",
+              "Ogura J H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Cyclophosphamide",
+              "Dactinomycin",
+              "Ear Neoplasms",
+              "Female",
+              "Head",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4351166/"
+          },
+          {
+            "pmid": "14107013",
+            "title": "INTRA-ARTERIAL INFUSION FOR HEAD AND NECK CANCER.",
+            "abstract": "",
+            "journal": "Archives of surgery (Chicago, Ill. : 1960)",
+            "year": "1964",
+            "authors": [
+              "JESSE R H",
+              "VILLARREAL R",
+              "LETAYF V",
+              "RUFINO C",
+              "HICKEY R C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Brain Neoplasms",
+              "Dactinomycin",
+              "Facial Neoplasms",
+              "Fluorouracil",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Hydrogen Peroxide",
+              "Infusions, Intra-Arterial",
+              "Infusions, Parenteral"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14107013/"
+          },
+          {
+            "pmid": "15825203",
+            "title": "AMORE protocol in pediatric head and neck rhabdomyosarcoma: descriptive analysis of failure patterns.",
+            "abstract": "The AMORE protocol is a local treatment for patients with nonorbital pediatric head and neck rhabdomyosarcoma (HNRMS). The objectives of this study were: (1) to assess the adequacy of the concept, and (2) to identify factors associated with relapse.",
+            "journal": "Head & neck",
+            "year": "2005",
+            "authors": [
+              "Buwalda Joeri",
+              "Freling Nicole J",
+              "Blank Leo E C M",
+              "Balm Alfons J M",
+              "Bras Johannes"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Brachytherapy",
+              "Child",
+              "Child, Preschool",
+              "Clinical Protocols",
+              "Combined Modality Therapy",
+              "Dactinomycin",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15825203/"
+          },
+          {
+            "pmid": "33032302",
+            "title": "Associations between childhood cancer treatment and tooth agenesis.",
+            "abstract": "The aim of this study was to determine the prevalence of dental developmental disturbances in long-term survivors of childhood malignancies in New Zealand children. This study reports associations with potential risk factors to inform oncologists and dentists of the likelihood of dental abnormalities.",
+            "journal": "The New Zealand medical journal",
+            "year": "2020",
+            "authors": [
+              "Shum Matthew",
+              "Mahoney Erin",
+              "Naysmith Kate",
+              "Macfarlane Scott",
+              "Corbett Rob"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anodontia",
+              "Antineoplastic Agents, Alkylating",
+              "Cancer Survivors",
+              "Cross-Sectional Studies",
+              "Cyclophosphamide",
+              "Female",
+              "Humans",
+              "Male",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33032302/"
+          },
+          {
+            "pmid": "39058728",
+            "title": "Localized incompletely resected standard risk rhabdomyosarcoma in children and adolescents: Results from the European Paediatric Soft Tissue Sarcoma Study Group RMS 2005 trial.",
+            "abstract": "The authors report the prospective evaluation of reduced dose alkylator chemotherapy combined with radiotherapy for European Pediatric Soft Tissue Sarcoma Study Group (EpSSG) standard risk nonalveolar rhabdomyosarcoma (NA-RMS).",
+            "journal": "Cancer",
+            "year": "2024",
+            "authors": [
+              "Mandeville Henry C",
+              "Bisogno Gianni",
+              "Minard-Colin Veronique",
+              "Alaggio Rita",
+              "Ben-Arush Myriam"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Young Adult",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Dactinomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39058728/"
+          },
+          {
+            "pmid": "12942316",
+            "title": "Epidermal growth factor receptor-targeted therapy potentiates lovastatin-induced apoptosis in head and neck squamous cell carcinoma cells.",
+            "abstract": "Mevalonate metabolites are vital for a variety of key cellular functions with the biosynthetic products including cholesterol and farnesyl and geranylgeranyl isoprenoids. Inhibition of this pathway using lovastatin induces a potent apoptotic response in a specific subset of human tumor-derived cell lines, including head and neck squamous cell carcinomas (HNSCC). In this study, we evaluated the potential of a number of chemotherapeutics that demonstrate activity in HNSCC, including an inhibitor of epidermal growth factor receptor (EGFR) to potentiate the cytotoxic effects of lovastatin.",
+            "journal": "Journal of cancer research and clinical oncology",
+            "year": "2003",
+            "authors": [
+              "Mantha Angela J",
+              "McFee Kathryn E",
+              "Niknejad Nima",
+              "Goss Glenwood",
+              "Lorimer Ian A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Carcinoma, Squamous Cell",
+              "Cell Line, Tumor",
+              "Cycloheximide",
+              "Dactinomycin",
+              "Drug Delivery Systems",
+              "ErbB Receptors",
+              "Head and Neck Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12942316/"
+          },
+          {
+            "pmid": "3955515",
+            "title": "Late effects after treatment of twenty children with soft tissue sarcomas of the head and neck. Experience at a single institution with a review of the literature.",
+            "abstract": "Twenty children with soft tissue sarcomas of the head and neck, treated at the Children's Hospital of Philadelphia and the Hospital of the University of Pennsylvania from 1972 to 1981, were evaluated for the late deleterious effects of treatment. All patients received radiation therapy and combination chemotherapy with vincristine, dactinomycin, and cyclophosphamide; certain patients also received Adriamycin (doxorubicin). All had ophthalmologic, otologic, growth, and cosmetic evaluations; 15 also had dental and maxillofacial examinations. The median age at diagnosis was 6 years (range, 7 months-13 years). Median follow-up from time of diagnosis was 5.5 years with a minimum of 3 years in all but four patients. The major problems encountered were related to the eyes (xerophthalmia and cataracts), ears (hearing loss), teeth (maleruption and caries), glandular structures (xerostomia, hypopituitarism), and development (craniofacial deformity). It is concluded that children treated for soft",
+            "journal": "Cancer",
+            "year": "1986",
+            "authors": [
+              "Fromm M",
+              "Littman P",
+              "Raney R B",
+              "Nelson L",
+              "Handler S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Child",
+              "Child, Preschool",
+              "Combined Modality Therapy",
+              "Dentition",
+              "Facial Injuries",
+              "Follow-Up Studies",
+              "Growth",
+              "Head and Neck Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3955515/"
+          },
+          {
+            "pmid": "869773",
+            "title": "Soft-tissue sarcoma of the head and neck after puberty.",
+            "abstract": "The most frequent soft-tissue sarcomas in the head and neck are are embryonal rhabdomyosarcomas and neurofibrosarcomas. Histological grading and the staging of the lesions bear on the prognosis of the disease. The use of sequential surgical resection plus postoperative radiation therapy has considerably improved the local control of these sarcomas. The use of multiple-drug systemic chemotherapy as an adjuvant to radiation therapy is fraught with considerate complications in this seris of patients. Studies are ongoing for a better understanding of the immunologic changes that occur in patients with sarcoma.",
+            "journal": "Archives of otolaryngology (Chicago, Ill. : 1960)",
+            "year": "1977",
+            "authors": [
+              "Goepfert H",
+              "Lindberg R D",
+              "Sinkovics J G",
+              "Ayala A G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Dacarbazine",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Female",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/869773/"
+          },
+          {
+            "pmid": "949697",
+            "title": "Embryonal rhabdomyosarcoma of head and neck in children. Correlation of stage, radiation dose, local control, and survival.",
+            "abstract": "Nineteen consecutive children are analyzed according to clinical stay, radiation dose (NSD), local control, and survival. The majority received 1600 to 1750 rets and courses of actinomycin during their radiation treatments. The favorable sites were the orbit, facial soft tissue, and the larynx. The primary site control rate was 89%, and the metastatic neck control rate was 80%. The 2-year survival was 70%, and the 5-year survival was 67%. Five children are alive and well 12 to 15 years after irradiation. Late sequelae are hypoplasia of the orbit and maxillary sinus.",
+            "journal": "Cancer",
+            "year": "1976",
+            "authors": [
+              "Liebner E J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Dactinomycin",
+              "Ear Neoplasms",
+              "Ear, Middle",
+              "Female",
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/949697/"
+          },
+          {
+            "pmid": "8621263",
+            "title": "Protective effects of interferon-gamma on squamous-cell carcinoma of head and neck targets in antibody-dependent cellular cytotoxicity mediated by human natural killer cells.",
+            "abstract": "An in vitro model of antibody-dependent cellular cytotoxicity (ADCC) was established, using squamous-cell carcinoma of the head and neck (SCCHN) targets,human/mouse chimeric monoclonal antibodies (cMAbs) SF-25 and 323/A3 and human peripheral blood mononuclear cells (PBMC). We previously showed that natural killer (NK) cells are the main effector population mediating ADCC in the presence of the cMAbs. ADCC was significantly inhibited by the overnight pre-treatment of SCCHN targets with exogenous interferon-gamma (IFN-gamma). This inhibition was dose-dependent, reproducible and consistently observed with various SCCHN cell lines. SCCHN cells pre-treated with IFN-gamma had a significantly higher expression of intercellular adhesion molecule-I (ICAM-I) and major histocompatibility complex (MHC) class I antigens compared with untreated target cells. No differences in expression of the SCCHN-associated antigens on these targets or in the formation of NK-SCCHN conjugates were found, using flo",
+            "journal": "International journal of cancer",
+            "year": "1996",
+            "authors": [
+              "Sung M W",
+              "Johnson J T",
+              "Van Dongen G",
+              "Whiteside T L"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibody-Dependent Cell Cytotoxicity",
+              "Carcinoma, Squamous Cell",
+              "Cell Line",
+              "Cycloheximide",
+              "Dactinomycin",
+              "Flow Cytometry",
+              "Head and Neck Neoplasms",
+              "Histocompatibility Antigens Class I"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8621263/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "T-cell leukemia",
+        "txgnn_score": 0.9887795448303224,
+        "txgnn_rank": 11449,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00002766",
+            "title": "A Phase III Trial Comparing ARA-C/High-Dose Mitoxantrone (\"ALL-2') to A Standard Vincristine/Prednisone Based Regimen ('L-20') as Induction Therapy For Adult Patients With Acute Lymphoblastic Leukemia (ALL): The ALL-4 Protocol",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1996-03",
+            "completion_date": "2011-09",
+            "country": "United States",
+            "enrollment": 170,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells. It is not yet known which regimen of combination chemotherapy is more effective for acute lymphoblastic leukemia, lymphoblastic lymphoma, or chronic myelogenous leukemia.\n\nPURPOSE: This randomized phase III trial is studying two different chemotherapy regimens and comparing them to see how well they work in treating adults",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Diagnosis of one of the following malignancies:\n\n  * Acute lymphoblastic leukemia (ALL) of B- or T-cell lineage\n  * Philadelphia chromosome-positive ALL eligible\n  * Lymphoblastic lymphoma\n  * Chronic myelogenous leukemia in lymphoid blast crisis\n\nPATIENT CHARACTERISTICS:",
+            "endpoints": [
+              "Complete Remission (CR)"
+            ],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00002766"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36008542",
+            "title": "Current status and future perspectives in targeted therapy of NPM1-mutated AML.",
+            "abstract": "Nucleophosmin 1 (NPM1) is a nucleus-cytoplasmic shuttling protein which is predominantly located in the nucleolus and exerts multiple functions, including regulation of centrosome duplication, ribosome biogenesis and export, histone assembly, maintenance of genomic stability and response to nucleolar stress. NPM1 mutations are the most common genetic alteration in acute myeloid leukemia (AML), detected in about 30-35% of adult AML and more than 50% of AML with normal karyotype. Because of its peculiar molecular and clinico-pathological features, including aberrant cytoplasmic dislocation of the NPM1 mutant and wild-type proteins, lack of involvement in driving clonal hematopoiesis, mutual exclusion with recurrent cytogenetic abnormalities, association with unique gene expression and micro-RNA profiles and high stability at relapse, NPM1-mutated AML is regarded as a distinct genetic entity in the World Health Organization (WHO) classification of hematopoietic malignancies. Starting from",
+            "journal": "Leukemia",
+            "year": "2022",
+            "authors": [
+              "Ranieri Roberta",
+              "Pianigiani Giulia",
+              "Sciabolacci Sofia",
+              "Perriello Vincenzo Maria",
+              "Marra Andrea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Dactinomycin",
+              "Histones",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Mutation",
+              "Nuclear Proteins",
+              "Nucleophosmin",
+              "Proto-Oncogene Proteins c-bcl-2",
+              "RNA"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36008542/"
+          },
+          {
+            "pmid": "2004665",
+            "title": "Apoptosis: mode of cell death induced in T cell leukemia lines by dexamethasone and other agents.",
+            "abstract": "Glucocorticoids can mediate the destruction of thymocytes and T cell-derived leukemia cells through a mechanism known as apoptosis. The characteristic feature of apoptosis is fragmentation of DNA at internucleosomal linkers through the activity of a specific endonuclease. In this study, an attempt was made to compare dexamethasone-induced apoptosis in two T cell-derived human leukemia lines (CEM-C1 and CEM-C7) to the cell killing brought about by selected cytotoxic agents. In the CEM-C7 cell line (dexamethasone-sensitive), apoptosis was induced not only by dexamethasone but by actinomycin D, cycloheximide, and 25-OH cholesterol. In the CEM-C1 cell line (dexamethasone-resistant) cycloheximide, 25-OH cholesterol, or cell starvation could induce apoptosis. It appears that in leukemic cells apoptosis may be induced by a variety of unrelated toxic agents and is not limited to glucocorticoids.",
+            "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+            "year": "1991",
+            "authors": [
+              "Bansal N",
+              "Houle A",
+              "Melnykovych G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cell Division",
+              "Cell Survival",
+              "Cycloheximide",
+              "DNA Damage",
+              "Dactinomycin",
+              "Deoxyribonucleases",
+              "Dexamethasone",
+              "Humans",
+              "Hydroxycholesterols",
+              "In Vitro Techniques"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2004665/"
+          },
+          {
+            "pmid": "1834326",
+            "title": "Discordant gene and surface expression of the T-cell receptor/CD3 complex in adult T-cell leukemia cells.",
+            "abstract": "Cell surface expression of the T-cell receptor (TCR)/CD3 complex on the cells from 11 acute type adult T-cell leukemia (ATL) and 4 lymphoma type ATL patients was examined by flow cytometry. Cells from 10 of 11 acute ATL patients were TCR alpha beta+ and CD3+, and their mean fluorescence intensities were low (TCR alpha beta, 25.3-84.6; CD3, 22.8-87.8). Cells from two of four lymphoma type ATL did not express this complex, and the other two were CD3+, TCR alpha beta-. In contrast, the mean fluorescence intensity of the TCR/CD3 complex in cells from a patient with T4 chronic lymphocytic leukemia was not low (TCR alpha beta, 129.9; CD3, 117.1). mRNA expressions of the TCR alpha, beta, and CD3 gamma, delta, epsilon, and zeta chains were examined by Northern blots. ATL cells from two acute and two lymphoma types expressed amounts of this complex equal to or greater than those expressed by T4 chronic lymphocytic leukemia. CD3 delta and TCR beta mRNA in ATL and T4 chronic lymphocytic leukemia ",
+            "journal": "Cancer research",
+            "year": "1991",
+            "authors": [
+              "Suzushima H",
+              "Hattori T",
+              "Asou N",
+              "Wang J X",
+              "Nishikawa K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antigens, Differentiation, T-Lymphocyte",
+              "CD3 Complex",
+              "Dactinomycin",
+              "Female",
+              "Humans",
+              "Leukemia, T-Cell",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1834326/"
+          },
+          {
+            "pmid": "15895438",
+            "title": "Quantification of T-cell-mediated apoptosis in heterogeneous leukemia populations using four-color multiparameter flow cytometry.",
+            "abstract": "The unique capacity of dendritic cells to present antigens to naive T cells is being increasingly utilized in cancer therapy. The efficacy of cell-based immunotherapy can be analyzed by determination of cytotoxic activity of T cells toward tumor cells in vitro. This study supplies a flow cytometric method to analyze T-cell-mediated cytotoxic activity toward heterogeneous leukemic cell populations at a single-cell level.",
+            "journal": "Cytometry. Part A : the journal of the International Society for Analytical Cytology",
+            "year": "2005",
+            "authors": [
+              "Westers Theresia M",
+              "Houtenbos Ilse",
+              "Schuurhuis Gerrit Jan",
+              "Ossenkoppele Gert J",
+              "van de Loosdrecht Arjan A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Biomarkers, Tumor",
+              "CD28 Antigens",
+              "Cell Death",
+              "Cytotoxicity Tests, Immunologic",
+              "Cytotoxicity, Immunologic",
+              "Dactinomycin",
+              "Flow Cytometry",
+              "Fluorescent Dyes",
+              "HL-60 Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15895438/"
+          },
+          {
+            "pmid": "9409752",
+            "title": "Doxorubicin-induced apoptosis in human T-cell leukemia is mediated by caspase-3 activation in a Fas-independent way.",
+            "abstract": "It has recently been proposed that doxorubicin (DOX) can induce apoptosis in human T-leukemia cells via the Fas/FasL system in an autocrine/paracrine way. We show here that treatment of Jurkat cells with either anti-Fas antibodies, anthracyclin drugs or actinomycin D induces the activation of CPP32 (caspase-3) and apoptosis. However, DOX treatment did not induce the expression of membrane FasL or the release of soluble FasL and co-incubation with blocking anti-Fas antibodies prevented Fas-induced but not DOX-induced apoptosis. All the morphological and biochemical signs of apoptosis induced by anti-Fas or DOX can be prevented by Z-VAD-fmk, a general caspase inhibitor. DEVD-cho, a specific inhibitor of CPP32-like caspases which completely blocks Fas-mediated apoptosis, prevented drug-induced nuclear apoptosis but not cell death. We conclude that: (i) DOX-induced apoptosis in human T-leukemia/lymphoma is Fas-independent and (ii) caspase-3 is responsible of DOX-induced nuclear apoptosis b",
+            "journal": "FEBS letters",
+            "year": "1997",
+            "authors": [
+              "Gamen S",
+              "Anel A",
+              "Lasierra P",
+              "Alava M A",
+              "Martinez-Lorenzo M J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Annexin A5",
+              "Antibodies",
+              "Apoptosis",
+              "Caspase 3",
+              "Caspases",
+              "Cell Line",
+              "Cysteine Endopeptidases",
+              "Dactinomycin",
+              "Doxorubicin",
+              "Enzyme Activation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9409752/"
+          },
+          {
+            "pmid": "10680701",
+            "title": "Cell kinetic study of normal human bone marrow hematopoiesis and acute leukemia using 7AAD/PY.",
+            "abstract": "We have used the 7AAD/PY method to analyze the cell cycle status of normal human bone marrow hematopoiesis, and found that the cell kinetics differed. There were cells with relatively low levels of RNA in the S-phase (Type I) and a high level in the S-phase (Type 11). T-cells, B-cells, nucleated red cells and CD34+/CD19+ early B-cells in bone marrow were Type I, whereas myelomonocytic subset and CD34+/CD33-dim+ common myeloid cells were Type II. AC133+/CD38-dim cells, which were thought to be lineage-marker negative hematopoietic stem cells, had intermediate amounts of RNA in the S-phase between Type I and II (Type 0). Seventy-four cases of acute leukemia were also analyzed. Most of the T- and B-ALL cases were found to be Type I, most of the ANLL cases were Type II, and there were 10 cases that were Type 0. These findings yielded fundamental information about normal hematopoiesis and acute leukemia.",
+            "journal": "European journal of haematology",
+            "year": "2000",
+            "authors": [
+              "Toba K",
+              "Koike T",
+              "Watanabe K",
+              "Fuse I",
+              "Takahashi M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antigens, CD",
+              "Antigens, CD34",
+              "Bone Marrow Cells",
+              "Burkitt Lymphoma",
+              "Cell Cycle",
+              "Cells, Cultured",
+              "DNA",
+              "Dactinomycin",
+              "Hematopoiesis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10680701/"
+          },
+          {
+            "pmid": "17990182",
+            "title": "Bortezomib induces apoptosis in T-cell prolymphocytic leukemia (T-PLL).",
+            "abstract": "",
+            "journal": "Leukemia & lymphoma",
+            "year": "2007",
+            "authors": [
+              "Ozpuyan Fulya",
+              "Meyer Paul",
+              "Ni Hongyu",
+              "Al-Masri Hytham",
+              "Alkan Serhan"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Boronic Acids",
+              "Bortezomib",
+              "Cell Survival",
+              "Cryopreservation",
+              "Dactinomycin",
+              "Drug Evaluation, Preclinical",
+              "Flow Cytometry",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17990182/"
+          },
+          {
+            "pmid": "3182332",
+            "title": "Radiation resistance in a multidrug resistant human T-cell leukemia line.",
+            "abstract": "In clinical practice, cancers refractory to chemotherapy commonly appear to be comparatively radioresistant. One mechanism by which cancer cells become resistant to chemotherapy is pleiotropic multidrug resistance, characterized by cross resistance to a number of otherwise unrelated heterocyclic antineoplastic agents, including vinca alkaloids, anthracyclines, dactinomycin, and others. We have studied a drug sensitive human leukemia cell line, CEM; a pleiotropic multidrug resistant subline of CEM, CEM/VLB100; VLB-1, a drug sensitive revertant subline arising during in vivo passage of CEM/VLB100; and a methotrexate resistant subline of CEM, CEM-MTX. Using soft-agar colony formation after graded doses of X rays as an endpoint, we found that CEM, CEM-MTX, and CEM/VLB100 had similar terminal slopes (D0 = 0.66 Gy). However, the CEM/VLB100 survival curve had a broader initial shoulder (n = 3.0, Dq = 0.75 Gy) than did CEM (n = 1.6, Dq = 0.25 Gy) or CEM/MTX (n = 1.0, Dq = 0 Gy), suggesting tha",
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "1988",
+            "authors": [
+              "Shimm D S",
+              "Olson S",
+              "Hill A B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Cell Line",
+              "Cell Survival",
+              "Drug Resistance",
+              "Humans",
+              "In Vitro Techniques",
+              "Leukemia, T-Cell",
+              "Phenotype",
+              "Radiation Tolerance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3182332/"
+          },
+          {
+            "pmid": "10554182",
+            "title": "Flow cytometric analysis of live cell proliferation and phenotype in populations with low viability.",
+            "abstract": "Combined analysis of DNA content and immunofluorescence on single cells by flow cytometry provides information on the proliferative response of subpopulations to stimuli in mixed cell preparations; however, in low-viability cell preparations, dead cells interfere with accurate flow cytometric data analysis because of nonspecific binding of antibodies and altered DNA-staining profiles. Light scatter differences between nonviable and viable cells are unreliable, particularly after the cell permeabilization step that is necessary for DNA staining. We developed a method for identification of nonviable cells by fluorescence in cell preparations that are stained simultaneously for cell surface or intracellular immunofluorescence and DNA content.",
+            "journal": "Cytometry",
+            "year": "1999",
+            "authors": [
+              "Schmid I",
+              "Ferbas J",
+              "Uittenbogaart C H",
+              "Giorgi J V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Cell Death",
+              "Cell Division",
+              "Cell Survival",
+              "Coloring Agents",
+              "DNA, Neoplasm",
+              "Dactinomycin",
+              "Flow Cytometry",
+              "Fluorescent Antibody Technique",
+              "Fluorescent Dyes",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10554182/"
+          },
+          {
+            "pmid": "8389617",
+            "title": "Induction of functional lipoxin A4 receptors in HL-60 cells.",
+            "abstract": "The appearance of [11,12-3H]lipoxin A4 (LXA4) specific binding sites was examined with human acute promyelocytic leukemic cell line 60 (HL-60) cells exposed to either retinoic acid, phorbol 12-myristate 13-acetate (PMA), or dimethyl sulfoxide (DMSO). All three agents induced a threefold to fivefold increase in the expression of specific [11,12-3H]LXA4 binding. Similar results were obtained in parallel with [14,15-3H]leukotriene (LT) B4. For both 3H-ligands, homologous displacement curves were similar and independent of the agent used to induce differentiation. Specific binding of [11,12-3H]LXA4 to differentiated HL-60 cells gave a kd = 0.6 +/- 0.3 nmol/L. The appearance of both [11,12-3H]LXA4 and [14,15-3H]LTB4-specific binding sites was inhibited by actinomycin D, and LXA4 binding was sensitive to protease treatment. Specific binding of [11,12-3H]LXA4 was not evident with human platelets, red blood cells (RBCs) or the cultured B-cell (Raji), T-cell (Jurkat) lines save human endothelia",
+            "journal": "Blood",
+            "year": "1993",
+            "authors": [
+              "Fiore S",
+              "Romano M",
+              "Reardon E M",
+              "Serhan C N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Binding, Competitive",
+              "Dactinomycin",
+              "Dimethyl Sulfoxide",
+              "Enzyme Activation",
+              "Humans",
+              "Hydroxyeicosatetraenoic Acids",
+              "Leukemia, Promyelocytic, Acute",
+              "Leukotriene B4",
+              "Lipoxins",
+              "Neutrophils"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8389617/"
+          },
+          {
+            "pmid": "1696013",
+            "title": "Inhibition of T-cell proliferation by a MYB antisense oligomer is accompanied by selective down-regulation of DNA polymerase alpha expression.",
+            "abstract": "We recently found that inhibition of MYB protein synthesis in human peripheral blood mononuclear cells (PBMC) exposed to human c-myb (designated MYB) antisense oligodeoxynucleotides prevents entry into S phase and cell proliferation. To determine the mechanism(s) by which down-regulation of human c-myb protein (MYB) synthesis interferes with DNA synthesis, we analyzed mRNA levels of DNA polymerase alpha and proliferating cell nuclear antigen (PCNA), transcripts of two genes required for DNA synthesis, in normal and leukemic T lymphocytes exposed to MYB antisense oligodeoxynucleotides. Expression of DNA polymerase alpha was inhibited both in normal T lymphocytes progressing from G0 to S phase and in exponentially growing CCRF-CEM leukemic cells, whereas expression of PCNA was inhibited only in mitogen-stimulated PBMC and remained essentially unaffected in the leukemia T-cell line. The functional link between expression of MYB and DNA polymerase alpha mRNAs was further demonstrated by an",
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "1990",
+            "authors": [
+              "Venturelli D",
+              "Travali S",
+              "Calabretta B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Cell Division",
+              "Cell Line",
+              "Cells, Cultured",
+              "DNA Polymerase II",
+              "DNA Replication",
+              "Dactinomycin",
+              "Humans",
+              "Interphase",
+              "Nuclear Proteins",
+              "Oligodeoxyribonucleotides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1696013/"
+          },
+          {
+            "pmid": "2720561",
+            "title": "Therapy-induced drug resistance in a human leukemia line (LALW-2). A clinically relevant model.",
+            "abstract": "A human leukemic T-cell line, LALW-2, established by xenografting in nude mice, has been maintained through 14 serial passages. The cells display consistent morphologic features, immunophenotype, and karyotypic aberrations (including an 11;14 translocation) and exhibit rearrangement of the T-cell receptor beta-chain gene. The growth rate of LALW-2 xenografts was differentially affected by drugs administered to host mice, the cells being resistant to cytotoxic agents (particularly methotrexate and doxorubicin) used in treatment of the donor patient. In short-term in vitro culture, LALW-2 cells exhibited extreme resistance to methotrexate and were also resistant to vincristine, vinblastine, dactinomycin, and doxorubicin. The findings differ from those obtained with laboratory-derived methotrexate or multidrug-resistant cell lines. The response of LALW-2 cells, in both the nude mouse model and in vitro, is consistent with acquisition of drug-resistance as a result of clinical treatment.",
+            "journal": "Cancer",
+            "year": "1989",
+            "authors": [
+              "White L",
+              "Haber M",
+              "Brian M J",
+              "Norris M D",
+              "Trickett A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Cell Line",
+              "Drug Screening Assays, Antitumor",
+              "Humans",
+              "Karyotyping",
+              "Leukemia, Experimental",
+              "Leukemia-Lymphoma, Adult T-Cell",
+              "Mice",
+              "Mice, Nude"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2720561/"
+          },
+          {
+            "pmid": "11084611",
+            "title": "Expression of interleukin-4 in apoptotic cells: stimulation of the type-2 cytokine by different toxins in human peripheral blood mononuclear and tumor cells.",
+            "abstract": "Immunological reactivity is regulated by T-cell populations (type-1 and type-2 cells) via cytokine secretion, but their influence on apoptosis remains unclear.",
+            "journal": "Cytometry",
+            "year": "2000",
+            "authors": [
+              "Stein G M",
+              "Pfüller U",
+              "Schietzel M",
+              "Büssing A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Brefeldin A",
+              "CD4-Positive T-Lymphocytes",
+              "CD8-Positive T-Lymphocytes",
+              "Caspase Inhibitors",
+              "Caspases",
+              "Cells, Cultured",
+              "Cycloheximide",
+              "DNA Fragmentation",
+              "Dactinomycin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11084611/"
+          },
+          {
+            "pmid": "9395239",
+            "title": "p53-induced apoptosis in the human T-ALL cell line CCRF-CEM.",
+            "abstract": "The tumor suppressor p53 has been implicated in apoptosis induction and is mutated in human T-ALL CCRF-CEM cells. To investigate possible consequences of wild-type p53 loss, we reconstituted CEM-C7H2, a subclone of CCRF-CEM, with a temperature-sensitive p53 allele (p53ts). Stably transfected lines expressed high levels of p53ts and shift to the permissive temperature (32 degrees C) caused rapid induction of p53-regulated genes, such as p21(CIP1/WAF1), mdm-2 and bax. This was followed by extensive apoptosis within 24 h to 36 h, supporting the notion that mutational p53 inactivation contributed to the malignant phenotype. p53-dependent apoptosis was preceded by digestion of poly(ADP-ribose) polymerase, a typical target of interleukin-1beta-converting enzyme (ICE)-like proteases/caspases, and was markedly resistant to the ICE/caspase-1 and FLICE/caspase-8 inhibitor acetyl-Tyr-Val-Ala-Asp.chloromethylketone (YVAD), but sensitive to the CPP32/caspase-3 inhibitor benzyloxycarbonyl-Asp-Glu-Va",
+            "journal": "Oncogene",
+            "year": "1997",
+            "authors": [
+              "Geley S",
+              "Hartmann B L",
+              "Hattmannstorfer R",
+              "Löffler M",
+              "Ausserlechner M J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Caspase 1",
+              "Caspase 8",
+              "Caspase 9",
+              "Caspases",
+              "Cycloheximide",
+              "Cysteine Endopeptidases",
+              "Cysteine Proteinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9395239/"
+          },
+          {
+            "pmid": "11034370",
+            "title": "Cytotoxic T cells specifically induce Fas on target cells, thereby facilitating exocytosis-independent induction of apoptosis.",
+            "abstract": "Cytotoxic T (Tc) cells deficient in perforin lyse Fas-negative targets after lengthy incubation periods. This process is independent of granzymes, and killing occurs via the Fas pathway for the following reasons. Interaction of perforin-deficient Tc cells with Fas-negative targets leads to an up-regulation of Fas that is dependent on Ag recognition, de novo synthesis, and transport of proteins to the target cell surface. Treatment of effectors with brefeldin A, but not with the exocytosis inhibitor concanamycin, inhibited this process. Lysis of targets is inhibited by anti-Fas Abs, soluble mouse Fas-Fc, and the caspase-cascade inhibitor, crm-A. Targets from Fas-mutant lpr mice are refractory to lysis, and Tc cells from mice deficient in Fas- and perforin-mediated lysis do not lyse Fas-negative targets. The possible relevance of this exocytosis-independent cytolytic process in the regulation of T cell activity and control of pathogens is discussed.",
+            "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+            "year": "2000",
+            "authors": [
+              "Simon M M",
+              "Waring P",
+              "Lobigs M",
+              "Nil A",
+              "Tran T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Apoptosis",
+              "Brefeldin A",
+              "Coculture Techniques",
+              "Cycloheximide",
+              "Cytotoxicity Tests, Immunologic",
+              "Cytotoxicity, Immunologic",
+              "Dactinomycin",
+              "Epitopes, T-Lymphocyte"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11034370/"
+          },
+          {
+            "pmid": "8069863",
+            "title": "Differences between drug-sensitive and -resistant human leukemic CEM cells in c-jun expression, AP-1 DNA-binding activity, and formation of Jun/Fos family dimers, and their association with internucleosomal DNA ladders after treatment with VM-26.",
+            "abstract": "Although the DNA topoisomerases are critical intracellular targets of a number of clinically important anticancer drugs, the mechanism(s) by which inhibition of these enzymes causes cell death are poorly understood. We found that treatment of human leukemic lymphoblasts (CCRF-CEM) with teniposide (VM-26), under conditions that stabilize DNA-topoisomerase II complexes, caused the formation of internucleosomal DNA ladders. However, it appeared unlikely that the VM-26-stabilized DNA-topoisomerase II-cleavable complexes directly produce these internucleosomal DNA ladders, since similar nucleosomal DNA ladders were observed following either continuous or a short (1 h) exposure of cells to VM-26. Under continuous exposure to VM-26, the internucleosomal DNA ladders were associated with the transient induction of c-jun mRNA in a dose-dependent fashion, reaching maximum expression at 6 h after treatment with VM-26 and being down-regulated to basal levels by 12 h. The induction of c-jun mRNA by ",
+            "journal": "Cancer research",
+            "year": "1994",
+            "authors": [
+              "Kim R",
+              "Beck W T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Base Sequence",
+              "DNA Topoisomerases, Type II",
+              "DNA, Neoplasm",
+              "Dactinomycin",
+              "Drug Resistance",
+              "Genes, jun",
+              "Humans",
+              "Leukemia-Lymphoma, Adult T-Cell",
+              "Molecular Sequence Data",
+              "Proto-Oncogene Proteins c-fos"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8069863/"
+          },
+          {
+            "pmid": "16280692",
+            "title": "A transcription inhibitor, actinomycin D, enhances HIV-1 replication through an interleukin-6-dependent pathway.",
+            "abstract": "We previously demonstrated that Actinomycin D (ActD) enhanced HIV-1 replication in the MT-2 cell, a human T-cell leukemia virus type-1-infected cell line. The MT-2 cell is known to produce multiple cytokines spontaneously. In this study, we investigated the impact of ActD on the cytokine production from MT-2 cells and HIV-1 replication in a latently infected cell line, U1. MT-2 cells were pulse-treated with 0 or 200 nM of ActD, and culture supernatants were collected 3 days after incubation. Supernatants from untreated cells (Sup0) induced HIV-1 replication by 150-fold in U1 cells. Culture supernatants from ActD-treated cells (Sup200) enhanced HIV-1 replication by 1200-fold. A combination of a sequential chromatographic approach and mass spectrometric analysis identified that the HIV-inducing factors in Sup200 were interleukin (IL)-6 and tumor necrosis factor (TNF)-beta. Quantitative analysis revealed that ActD treatment increased the concentration of IL-6 in Sup200 by 600% compared wi",
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2005",
+            "authors": [
+              "Imamichi Tomozumi",
+              "Conrads Thomas P",
+              "Zhou Ming",
+              "Liu Yuxin",
+              "Adelsberger Joseph W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Blotting, Northern",
+              "Cell Line",
+              "Chromatography",
+              "Dactinomycin",
+              "HIV Core Protein p24",
+              "HIV-1",
+              "Humans",
+              "Interleukin-6",
+              "Lymphotoxin-alpha",
+              "Mass Spectrometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16280692/"
+          },
+          {
+            "pmid": "15979272",
+            "title": "Coordinate stabilization of growth-regulatory transcripts in T cell malignancies.",
+            "abstract": "We used microarray technology to compare mRNA decay rates of approximately 7000 transcripts in normal purified human T lymphocytes or the malignant T cell lines Jurkat and H9 following transcriptional arrest with actinomycin D. We found that over 2000 transcripts were expressed at abnormal levels in malignant T cells, including approximately 100 transcripts that were overexpressed and exhibited abnormally stable mRNA. Seventeen transcripts that encoded components of the ubiquitin-proteasome system were coordinately overexpressed and stabilized in both malignant cell lines. This pathway plays an important role in regulating cell growth and the development of malignancy. Numerous additional transcripts that encode proteins involved in growth regulation, damage repair and stress responses, posttranscriptional gene expression, and mitochondrial metabolism were also coordinately up-regulated and stabilized. Overall, our results suggest that abnormal mRNA stabilization in malignancy can lead",
+            "journal": "Genomics",
+            "year": "2005",
+            "authors": [
+              "Vlasova Irina A",
+              "McNabb Jennifer",
+              "Raghavan Arvind",
+              "Reilly Cavan",
+              "Williams Darlisha A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Dactinomycin",
+              "Gene Expression Regulation",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "Jurkat Cells",
+              "Leukemia, T-Cell",
+              "Mitochondria",
+              "Nucleic Acid Synthesis Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15979272/"
+          },
+          {
+            "pmid": "6690624",
+            "title": "Rapid killing of actinomycin D-treated tumor cells by human mononuclear cells. I. Effectors belong to the monocyte-macrophage lineage.",
+            "abstract": "Preincubation of tumor cells with actinomycin D (Act D) rendered various murine and human lines susceptible to killing by unstimulated human peripheral blood mononuclear cells (PBM) in a 6-hr 51Cr-release assay. The murine WEHI 164 sarcoma was selected for analysis of drug-dependent cellular cytotoxicity (DDCC) because high levels of killing were detected with this tumor, and it was considerably resistant to natural killer (NK) cell activity. Optimal conditions for induction of susceptibility to lysis included a 3-hr preincubation with 1 microgram/ml Act D. Effector cells of cytotoxicity against Act D-treated WEHI 164 cells were plastic adherent (greater than 85% monocytes). Cells nonadherent to plastic and nylon wool (less than or equal to 1% monocytes) had no appreciable DDCC activity. In contrast NK activity against K562 cells was mediated by nonadherent cells. When PBM were fractionated on a one step discontinuous gradient of Percoll designed to enrich for monocytes (greater than 9",
+            "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+            "year": "1984",
+            "authors": [
+              "Colotta F",
+              "Peri G",
+              "Villa A",
+              "Mantovani A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Line",
+              "Cell Separation",
+              "Cytotoxicity, Immunologic",
+              "Dactinomycin",
+              "Fibrosarcoma",
+              "Humans",
+              "Immunity, Cellular",
+              "Killer Cells, Natural",
+              "Kinetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6690624/"
+          },
+          {
+            "pmid": "7491768",
+            "title": "Analysis of trafficking of Rev and transdominant Rev proteins in living cells using green fluorescent protein fusions: transdominant Rev blocks the export of Rev from the nucleus to the cytoplasm.",
+            "abstract": "Expression of gag/pol and env genes of human immunodeficiency virus requires the viral Rev protein. Mutant Rev proteins, displaying a transdominant phenotype (TDRev), were shown to inhibit Rev function. To investigate the underlying mechanism of this inhibition, the green fluorescent protein (GFP) of Aequorea victoria was fused to Rev and TDRev, which allowed the study of their trafficking and interactions in living human cells. Both Rev-GFP and TDRev-GFP were shown to retain appropriate nucleolar localization and function. Upon actinomycin D treatment, Rev-GFP was transported to the cytoplasm within 1.5 hr, while TDRev, although partially dissociated from the nucleolus, was retained in the nucleus. Coexpression of Rev-GFP and TDRev in the same cell demonstrated that TDRev inhibited the transport of Rev-GFP from the nucleus to the cytoplasm. This inhibition was specific for Rev, since the export of the functionally analogous Rex protein of the human T-cell leukemia virus type I was not",
+            "journal": "Virology",
+            "year": "1995",
+            "authors": [
+              "Stauber R",
+              "Gaitanaris G A",
+              "Pavlakis G N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Base Sequence",
+              "Biological Transport",
+              "Cell Line, Transformed",
+              "Cell Nucleolus",
+              "Cell Nucleus",
+              "Cytoplasm",
+              "DNA Primers",
+              "Dactinomycin",
+              "Gene Products, rev",
+              "Gene Products, rex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7491768/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00970",
+    "name": "Dactinomycin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dactinomycin"
+      },
+      "queried_at": "2026-03-10T02:44:15.459045",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dactinomycin"
+      },
+      "queried_at": "2026-03-10T02:44:23.438233",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "relapsing-remitting multiple sclerosis"
+      },
+      "queried_at": "2026-03-10T02:44:24.131440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "relapsing-remitting multiple sclerosis"
+      },
+      "queried_at": "2026-03-10T02:44:27.667383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "relapsing-remitting multiple sclerosis"
+      },
+      "queried_at": "2026-03-10T02:44:28.518901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-10T02:44:29.093853",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-10T02:44:32.593880",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-10T02:44:33.639941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:34.564211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:41.886960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:45.712103",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:46.868525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:50.422931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:51.218343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:51.841719",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:55.122167",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:57.798980",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:44:58.403668",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:45:03.465405",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T02:45:05.817205",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "liver sarcoma"
+      },
+      "queried_at": "2026-03-10T02:45:06.430122",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "liver sarcoma"
+      },
+      "queried_at": "2026-03-10T02:45:09.630240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "liver sarcoma"
+      },
+      "queried_at": "2026-03-10T02:45:12.587881",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "queried_at": "2026-03-10T02:45:13.399437",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "queried_at": "2026-03-10T02:45:16.332974",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "queried_at": "2026-03-10T02:45:20.309443",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "head and neck cancer"
+      },
+      "queried_at": "2026-03-10T02:45:20.996291",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "head and neck cancer"
+      },
+      "queried_at": "2026-03-10T02:45:23.973119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "head and neck cancer"
+      },
+      "queried_at": "2026-03-10T02:45:26.562405",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "T-cell leukemia"
+      },
+      "queried_at": "2026-03-10T02:45:27.380040",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "T-cell leukemia"
+      },
+      "queried_at": "2026-03-10T02:45:31.510820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dactinomycin",
+        "disease": "T-cell leukemia"
+      },
+      "queried_at": "2026-03-10T02:45:35.838547",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:45:35.857934"
+  }
+}

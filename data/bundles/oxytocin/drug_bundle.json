@@ -1,0 +1,530 @@
+{
+  "drug": {
+    "inn": "Oxytocin",
+    "drugbank_id": "DB00107",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.9596877694129944,
+        "txgnn_rank": 24365,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasopharyngitis",
+        "txgnn_score": 0.946954071521759,
+        "txgnn_rank": 27390,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.9317416548728944,
+        "txgnn_rank": 30313,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "recalcitrant atopic dermatitis",
+        "txgnn_score": 0.828838050365448,
+        "txgnn_rank": 40422,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atopic conjunctivitis",
+        "txgnn_score": 0.7919149994850159,
+        "txgnn_rank": 42193,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "IgE responsiveness, atopic",
+        "txgnn_score": 0.774320662021637,
+        "txgnn_rank": 42941,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cold urticaria",
+        "txgnn_score": 0.7720195651054382,
+        "txgnn_rank": 43036,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esotropia",
+        "txgnn_score": 0.7710387110710144,
+        "txgnn_rank": 43068,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37597111",
+            "title": "Do infants with isolated congenital sixth nerve palsy require comprehensive work-up? A retrospective cohort and review of the literature.",
+            "abstract": "The purpose of this study is to describe a case series of infants with isolated congenital sixth nerve palsy (ICSNP) and suggest a management algorithm based on our experience and a review of the literature.",
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2024",
+            "authors": [
+              "Ehrenberg Miriam",
+              "Dotan Gad",
+              "Friling Ronit",
+              "Konen Osnat",
+              "Dadon Judith Kramarz"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Infant, Newborn",
+              "Infant",
+              "Humans",
+              "Oxytocin",
+              "Retrospective Studies",
+              "Abducens Nerve Diseases",
+              "Eye",
+              "Algorithms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37597111/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.752008318901062,
+        "txgnn_rank": 43744,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urticaria, aquagenic",
+        "txgnn_score": 0.6388295888900757,
+        "txgnn_rank": 46976,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00107",
+    "name": "Oxytocin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Oxytocin"
+      },
+      "queried_at": "2026-03-10T09:14:30.098635",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Oxytocin"
+      },
+      "queried_at": "2026-03-10T09:14:31.717963",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T09:14:32.249351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T09:14:36.949328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-10T09:14:38.679919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-10T09:14:39.175955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-10T09:14:42.581998",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "nasopharyngitis"
+      },
+      "queried_at": "2026-03-10T09:14:43.293544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:14:44.044107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:14:48.544690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:14:49.543128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T09:14:50.585676",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T09:14:53.934934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "queried_at": "2026-03-10T09:14:54.670670",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "atopic conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:14:55.320210",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "atopic conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:14:59.032145",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "atopic conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:15:00.199105",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-10T09:15:00.848006",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-10T09:15:04.101266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "queried_at": "2026-03-10T09:15:05.404091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T09:15:05.929805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T09:15:09.588823",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "cold urticaria"
+      },
+      "queried_at": "2026-03-10T09:15:11.422760",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T09:15:12.083508",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T09:15:16.060919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-10T09:15:19.644921",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:15:20.772810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:15:25.195625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:15:27.579857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "urticaria, aquagenic"
+      },
+      "queried_at": "2026-03-10T09:15:28.389173",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "urticaria, aquagenic"
+      },
+      "queried_at": "2026-03-10T09:15:31.628604",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxytocin",
+        "disease": "urticaria, aquagenic"
+      },
+      "queried_at": "2026-03-10T09:15:33.096713",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:15:33.102425"
+  }
+}

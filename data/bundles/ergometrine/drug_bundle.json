@@ -1,0 +1,1827 @@
+{
+  "drug": {
+    "inn": "Ergometrine",
+    "drugbank_id": "DB01253",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypertrichosis (disease)",
+        "txgnn_score": 0.9996355772018432,
+        "txgnn_rank": 936,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ambras type hypertrichosis universalis congenita",
+        "txgnn_score": 0.999479115009308,
+        "txgnn_rank": 1184,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9994391798973083,
+        "txgnn_rank": 1243,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malformation syndrome with odontal and/or periodontal component",
+        "txgnn_score": 0.9994173049926758,
+        "txgnn_rank": 1276,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22057194",
+            "title": "Periodontitis and diabetes: a two-way relationship.",
+            "abstract": "Periodontitis is a common chronic inflammatory disease characterised by destruction of the supporting structures of the teeth (the periodontal ligament and alveolar bone). It is highly prevalent (severe periodontitis affects 10-15% of adults) and has multiple negative impacts on quality of life. Epidemiological data confirm that diabetes is a major risk factor for periodontitis; susceptibility to periodontitis is increased by approximately threefold in people with diabetes. There is a clear relationship between degree of hyperglycaemia and severity of periodontitis. The mechanisms that underpin the links between these two conditions are not completely understood, but involve aspects of immune functioning, neutrophil activity, and cytokine biology. There is emerging evidence to support the existence of a two-way relationship between diabetes and periodontitis, with diabetes increasing the risk for periodontitis, and periodontal inflammation negatively affecting glycaemic control. Incide",
+            "journal": "Diabetologia",
+            "year": "2012",
+            "authors": [
+              "Preshaw P M",
+              "Alba A L",
+              "Herrera D",
+              "Jepsen S",
+              "Konstantinidis A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Periodontitis",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22057194/"
+          },
+          {
+            "pmid": "35688447",
+            "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+            "abstract": "The recently published clinical practice guideline (CPG) for the treatment of periodontitis in stages I-III provided evidence-based recommendations for the treatment of periodontitis patients, defined according to the 2018 classification. Stage IV periodontitis shares the severity and complexity characteristics of stage III periodontitis, but includes the anatomical and functional sequelae of tooth and periodontal attachment loss (tooth flaring and drifting, bite collapse, etc.), which require additional interventions following completion of active periodontal therapy.",
+            "journal": "Journal of clinical periodontology",
+            "year": "2022",
+            "authors": [
+              "Herrera David",
+              "Sanz Mariano",
+              "Kebschull Moritz",
+              "Jepsen Søren",
+              "Sculean Anton"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Delivery of Health Care",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Periodontics",
+              "Periodontitis",
+              "Tooth Loss"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35688447/"
+          },
+          {
+            "pmid": "9495612",
+            "title": "Microbial complexes in subgingival plaque.",
+            "abstract": "It has been recognized for some time that bacterial species exist in complexes in subgingival plaque. The purpose of the present investigation was to attempt to define such communities using data from large numbers of plaque samples and different clustering and ordination techniques. Subgingival plaque samples were taken from the mesial aspect of each tooth in 185 subjects (mean age 51 +/- 16 years) with (n = 160) or without (n = 25) periodontitis. The presence and levels of 40 subgingival taxa were determined in 13,261 plaque samples using whole genomic DNA probes and checkerboard DNA-DNA hybridization. Clinical assessments were made at 6 sites per tooth at each visit. Similarities between pairs of species were computed using phi coefficients and species clustered using an averaged unweighted linkage sort. Community ordination was performed using principal components analysis and correspondence analysis. 5 major complexes were consistently observed using any of the analytical methods.",
+            "journal": "Journal of clinical periodontology",
+            "year": "1998",
+            "authors": [
+              "Socransky S S",
+              "Haffajee A D",
+              "Cugini M A",
+              "Smith C",
+              "Kent R L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Bacteria, Anaerobic",
+              "Bacterial Typing Techniques",
+              "Cluster Analysis",
+              "DNA Probes",
+              "DNA, Bacterial",
+              "Dental Plaque",
+              "Ecosystem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9495612/"
+          },
+          {
+            "pmid": "37435999",
+            "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+            "abstract": "Regenerative periodontal surgical procedures are an important component in the treatment of advanced periodontitis. They aim to improve the long-term prognosis of teeth that are periodontally compromised by the presence of intrabony and/or furcation defects, resulting biologically in formation of root cementum, periodontal ligament, and alveolar bone and evidenced clinically by reduction of deep pockets to maintainable probing depths and/or improvements of vertical and horizontal furcation depth. Over the last 25 years, substantial clinical evidence has been accumulated to support the value of regenerative procedures in periodontally compromised dentitions. However, treatment success requires close attention to certain factors on the level of the patient, the tooth/defect, and the operator. Ignoring these factors in case selection, treatment planning, and treatment execution will increase the risk of complications that may jeopardize clinical success and may even be considered as treat",
+            "journal": "Periodontology 2000",
+            "year": "2023",
+            "authors": [
+              "Jepsen Karin",
+              "Sculean Anton",
+              "Jepsen Søren"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Guided Tissue Regeneration, Periodontal",
+              "Oral Surgical Procedures",
+              "Treatment Outcome",
+              "Periodontitis",
+              "Prognosis",
+              "Alveolar Bone Loss",
+              "Furcation Defects"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37435999/"
+          },
+          {
+            "pmid": "35420698",
+            "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+            "abstract": "Glycaemic control is a key component in diabetes mellitus (diabetes) management. Periodontitis is the inflammation and destruction of the underlying supporting tissues of the teeth. Some studies have suggested a bidirectional relationship between glycaemic control and periodontitis.  Treatment for periodontitis involves subgingival instrumentation, which is the professional removal of plaque, calculus, and debris from below the gumline using hand or ultrasonic instruments. This is known variously as scaling and root planing, mechanical debridement, or non-surgical periodontal treatment. Subgingival instrumentation is sometimes accompanied by local or systemic antimicrobials, and occasionally by surgical intervention to cut away gum tissue when periodontitis is severe. This review is part one of an update of a review published in 2010 and first updated in 2015, and evaluates periodontal treatment versus no intervention or usual care.  OBJECTIVES: To investigate the effects of periodonta",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "authors": [
+              "Simpson Terry C",
+              "Clarkson Janet E",
+              "Worthington Helen V",
+              "MacDonald Laura",
+              "Weldon Jo C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Diabetes Mellitus, Type 2",
+              "Glycated Hemoglobin",
+              "Glycemic Control",
+              "Humans",
+              "Periodontal Index",
+              "Periodontitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35420698/"
+          },
+          {
+            "pmid": "36883660",
+            "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+            "abstract": "Gingival fibroblasts (GFs) are essential components of the periodontium, which are responsible for the maintenance of tissue structure and integrity. However, the physiological role of GFs is not restricted to the production and remodeling of the extracellular matrix. GFs also act as sentinel cells that modulate the immune response to oral pathogens invading the gingival tissue. As an important \"nonclassical\" component of the innate immune system, GFs respond to bacteria and damage-related signals by producing cytokines, chemokines, and other inflammatory mediators. Although the activation of GFs supports the elimination of invading bacteria and the resolution of inflammation, their uncontrolled or excessive activation may promote inflammation and bone destruction. This occurs in periodontitis, a chronic inflammatory disease of the periodontium initiated and sustained by dysbiosis. In the inflamed gingival tissue, GFs acquire imprinted proinflammatory phenotypes that promote the growth",
+            "journal": "Journal of dental research",
+            "year": "2023",
+            "authors": [
+              "Wielento A",
+              "Lagosz-Cwik K B",
+              "Potempa J",
+              "Grabiec A M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Porphyromonas gingivalis",
+              "Inflammation",
+              "Gingiva",
+              "Chronic Periodontitis",
+              "Fibroblasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36883660/"
+          },
+          {
+            "pmid": "37452425",
+            "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes Mediate Endoplasmic Reticulum Stress and Immune Reprogramming for Periodontitis Therapy.",
+            "abstract": "Periodontitis is a chronic infectious disease caused by bacterial irritation. As an essential component of the host immunity, macrophages are highly plastic and play a crucial role in inflammatory response. An appropriate and timely transition from proinflammatory (M1) to anti-inflammatory (M2) macrophages is indispensable for treating periodontitis. As M2 macrophage-derived exosomes (M2-exos) can actively target inflammatory sites and modulate immune microenvironments, M2-exos can effectively treat periodontitis. Excessive endoplasmic reticulum stress (ER stress) and unfolded protein response (UPR) are highly destructive pathological characteristics during inflammatory periodontal bone loss. Although melatonin has antioxidant and anti-inflammatory effects, studies focusing on melatonin ER stress modulation remain limited. This study fabricates engineered M2-exos loading with melatonin (Mel@M2-exos) for treating periodontitis. As a result, M2-exos drive an appropriate and timely macrop",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Cui Ya",
+              "Hong Shebin",
+              "Xia Yunhui",
+              "Li Xiaojing",
+              "He Xiaoya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Rats",
+              "Humans",
+              "Animals",
+              "Melatonin",
+              "Exosomes",
+              "Periodontitis",
+              "Endoplasmic Reticulum Stress",
+              "Inflammation",
+              "Macrophages"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37452425/"
+          },
+          {
+            "pmid": "29193334",
+            "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+            "abstract": "The integrity of the peri-implant soft-tissue seal is crucial for maintaining peri-implant tissue health. Whilst the transmucosal component of the restored implant shares some common features with teeth, namely the presence of a junctional epithelium and a connective tissue component, there are some important differences. A key difference is the nature of the relationship of the connective tissue with the implant surface, whereby there is 'adaptation' of collagen fibers in a parallel orientation in relation to the implant, but insertion of fiber attachment perpendicularly into cementum in the case of teeth. This, combined with reduced cellularity and vascularity in the peri-implant connective tissue, may make implants more susceptible to disease initiation and progression. Furthermore, the presence of a subgingival connection between the implant and the abutment/restoration poses some specific challenges, and maintaining the integrity of this connection is important in preserving peri-",
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "authors": [
+              "Ivanovski Saso",
+              "Lee Ryan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Collagen",
+              "Connective Tissue",
+              "Dental Abutments",
+              "Dental Implant-Abutment Design",
+              "Dental Implantation, Endosseous",
+              "Dental Implants",
+              "Dental Prosthesis, Implant-Supported",
+              "Epithelial Attachment",
+              "Fibroblasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29193334/"
+          },
+          {
+            "pmid": "38907216",
+            "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+            "abstract": "Periodontitis is a chronic inflammation caused by a bacterial infection and is intimately associated with an overactive immune response. Biomaterials are being utilized more frequently in periodontal therapy due to their designability and unique drug delivery system. However, local and systemic immune response reactions driven by the implantation of biomaterials could result in inflammation, tissue damage, and fibrosis, which could end up with the failure of the implantation. Therefore, immunological adjustment of biomaterials through precise design can reduce the host reaction while eliminating the periodontal tissue's long-term chronic inflammation response. It is important to note that macrophages are an active immune system component that can participate in the progression of periodontal disease through intricate polarization mechanisms. And modulating macrophage polarization by designing biomaterials has emerged as a new periodontal therapy technique. In this review, we discuss th",
+            "journal": "Journal of nanobiotechnology",
+            "year": "2024",
+            "authors": [
+              "Peng Shumin",
+              "Fu Haojie",
+              "Li Rui",
+              "Li Hui",
+              "Wang Shuyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Periodontitis",
+              "Biocompatible Materials",
+              "Macrophages",
+              "Animals",
+              "Immunotherapy",
+              "Drug Delivery Systems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38907216/"
+          },
+          {
+            "pmid": "38362600",
+            "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+            "abstract": "Mounting evidence indicates that periodontitis-related oral bacteria may contribute to gut microbial dysbiosis. This clinical study aimed to explore the oral-gut microbial signatures associated with periodontitis and to longitudinally evaluate the effect of periodontal treatment on the oral and gut microbial composition. Stool and saliva samples from generalized stage III/IV periodontitis patients (n = 47) were collected and analyzed by 16S ribosomal RNA gene amplicon sequencing, before and 3 mo after steps I to II of periodontal therapy. Periodontally healthy matched subjects (n = 47) were used as controls. Principal component analysis was carried out to identify oral-gut microbial profiles between periodontitis patients at baseline and healthy subjects; periodontitis samples were longitudinally compared before and after treatment. β-Diversity of gut microbial profiles of periodontitis patients before treatment significantly differed from healthy controls (P < 0.001). Periodontal ther",
+            "journal": "Journal of dental research",
+            "year": "2024",
+            "authors": [
+              "Baima G",
+              "Ferrocino I",
+              "Del Lupo V",
+              "Colonna E",
+              "Thumbigere-Math V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gastrointestinal Microbiome",
+              "Dysbiosis",
+              "RNA, Ribosomal, 16S",
+              "Periodontitis",
+              "Microbiota"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38362600/"
+          },
+          {
+            "pmid": "7782979",
+            "title": "The modified papilla preservation technique. A new surgical approach for interproximal regenerative procedures.",
+            "abstract": "A modification of the papilla preservation technique has been applied to achieve primary closure of the interproximal tissue over barrier membranes placed coronal to the alveolar crest. Fifteen patients with deep intrabony interproximal defects were treated. Defects had a probing attachment level loss of 9.9 +/- 3.2 mm and a recession of the gingival margin of 1.7 +/- 1.6 mm. The depth of the intrabony component was 5.5 +/- 2.9 mm; while the suprabony component was 5.9 +/- 2.0 mm. Titanium-reinforced teflon membranes were placed 1.3 +/- 0.7 mm from the cemento-enamel junction, 4.5 +/- 1.6 mm coronal to the interproximal alveolar bone crest. Primary closure over the interproximal portion of the membrane was obtained in 93% of cases. In 73% of the cases complete coverage of the membrane was maintained until its removal at 6 weeks. These data indicate that the modified papilla preservation technique can be successfully applied to obtain primary closure of the interdental space in regenera",
+            "journal": "Journal of periodontology",
+            "year": "1995",
+            "authors": [
+              "Cortellini P",
+              "Prato G P",
+              "Tonetti M S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alveolar Bone Loss",
+              "Female",
+              "Gingiva",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Male",
+              "Membranes, Artificial",
+              "Middle Aged",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7782979/"
+          },
+          {
+            "pmid": "29194794",
+            "title": "The periodontal pocket.",
+            "abstract": "Periodontal disease is synonymous with the presence of periodontal pockets, and very often the clinical success of periodontal therapy is based on periodontal pocket depth reduction. Therefore, in the fields of periodontology and implant dentistry, significant research effort has been placed on the etiopathogenesis, diagnosis and treatment of periodontal/peri-implant disease and as a consequence on pocket pathology. In this volume of Periodontology 2000, the in-depth reviews include topics ranging from preclinical models, anatomy and structure of tissues, and molecular and bacterial components, to treatments of pockets around teeth and implants. These reviews aim to provide the readers with current and future perspectives on the different areas of research into the periodontal pocket.",
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "authors": [
+              "Donos Nikolaos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dental Calculus",
+              "Dental Implantation, Endosseous",
+              "Dental Implants",
+              "Gingiva",
+              "Gingival Crevicular Fluid",
+              "Humans",
+              "Oral Hygiene",
+              "Peri-Implantitis",
+              "Periodontal Diseases",
+              "Periodontal Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29194794/"
+          },
+          {
+            "pmid": "29291254",
+            "title": "Supportive periodontal therapy (SPT) for maintaining the dentition in adults treated for periodontitis.",
+            "abstract": "Periodontitis is a bacterially-induced, chronic inflammatory disease that destroys the connective tissues and bone that support teeth. Active periodontal treatment aims to reduce the inflammatory response, primarily through eradication of bacterial deposits. Following completion of treatment and arrest of inflammation, supportive periodontal therapy (SPT) is employed to reduce the probability of re-infection and progression of the disease; to maintain teeth without pain, excessive mobility or persistent infection in the long term, and to prevent related oral diseases.According to the American Academy of Periodontology, SPT should include all components of a typical dental recall examination, and importantly should also include periodontal re-evaluation and risk assessment, supragingival and subgingival removal of bacterial plaque and calculus, and re-treatment of any sites showing recurrent or persistent disease. While the first four points might be expected to form part of the routine",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "authors": [
+              "Manresa Carolina",
+              "Sanz-Miralles Elena C",
+              "Twigg Joshua",
+              "Bravo Manuel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Chronic Periodontitis",
+              "Dental Plaque",
+              "Humans",
+              "Middle Aged",
+              "Periodontal Debridement",
+              "Periodontics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29291254/"
+          },
+          {
+            "pmid": "12010523",
+            "title": "Clinical significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing.",
+            "abstract": "Analysis of Egyptian hieroglyphics and medical papyri indicate that non-surgical periodontal treatment was common 3000-4000 years ago. Even today, scaling and root planing (SRP) remains an essential part of successful periodontal therapy. The collective evidence from numerous clinical trials reveals a consistency of clinical response in the treatment of chronic periodontitis by SRP using manual, sonic, or ultrasonic instrumentation. Thus, SRP remains the 'gold standard' to which more recently developed therapeutic modalities must be compared. Inherent to the clinical evaluation of SRP are such concerns as manual versus sonic and ultrasonic instrumentation, control of sub-gingival bacterial populations, removal of calculus, root smoothness and changes in various clinical parameters, e.g. probing depth, attachment levels, bleeding on probing and gingival inflammation. Lastly, an abbreviated discussion is presented on a relatively new paradigm of complete mouth 'disinfection' in a compres",
+            "journal": "Journal of clinical periodontology",
+            "year": "2002",
+            "authors": [
+              "Cobb Charles M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chronic Disease",
+              "Dental Calculus",
+              "Dental Plaque",
+              "Dental Scaling",
+              "Evidence-Based Medicine",
+              "Gingival Hemorrhage",
+              "Gingivitis",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12010523/"
+          },
+          {
+            "pmid": "18673013",
+            "title": "Rethinking periodontal inflammation.",
+            "abstract": "Clinical signs and symptoms, as well as medical and dental history, are all considered in the clinical determination of gingival inflammation and periodontal disease severity. However, the \"biologic systems model\" highlights that the clinical presentation of periodontal disease is closely tied to the underlying biologic phenotype. We propose that the determination and integration of subject-level factors, microbial composition, systemic immune response, and gingival tissue inflammatory mediator responses will better reflect the biology of the biofilm-gingival interface in a specific patient and may provide insights on clinical management. Disease classifications and multivariable models further refine the biologic basis for the increasing severity of periodontal disease expression. As such, new classifications may better identify disease-susceptible and treatment-non-responsive individuals than current classifications that are heavily influenced by probing and attachment level measurem",
+            "journal": "Journal of periodontology",
+            "year": "2008",
+            "authors": [
+              "Offenbacher Steven",
+              "Barros Silvana P",
+              "Beck James D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biofilms",
+              "Disease Susceptibility",
+              "Epigenesis, Genetic",
+              "Gingivitis",
+              "Humans",
+              "Inflammation",
+              "Inflammation Mediators",
+              "Models, Biological",
+              "Periodontitis",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18673013/"
+          },
+          {
+            "pmid": "20599785",
+            "title": "Complement and periodontitis.",
+            "abstract": "Although the complement system is centrally involved in host defense, its overactivation or deregulation (e.g., due to inherent host genetic defects or due to pathogen subversion) may excessively amplify inflammation and contribute to immunopathology. Periodontitis is an oral infection-driven chronic inflammatory disease which exerts a systemic impact on health. This paper reviews evidence linking complement to periodontal inflammation and pathogenesis. Clinical and histological observations show a correlation between periodontal inflammatory activity and local complement activation. Certain genetic polymorphisms or deficiencies in specific complement components appear to predispose to increased susceptibility to periodontitis. Animal model studies and in vitro experiments indicate that periodontal bacteria can either inhibit or activate distinct components of the complement cascade. Porphyromonas gingivalis, a keystone species in periodontitis, subverts complement receptor 3 and C5a a",
+            "journal": "Biochemical pharmacology",
+            "year": "2010",
+            "authors": [
+              "Hajishengallis George"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Complement Activation",
+              "Complement C5a",
+              "Complement Inactivating Agents",
+              "Complement System Proteins",
+              "Genetic Predisposition to Disease",
+              "Host-Pathogen Interactions",
+              "Humans",
+              "Immunity, Innate",
+              "Macrophage-1 Antigen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20599785/"
+          },
+          {
+            "pmid": "17243998",
+            "title": "A minimally invasive surgical technique with an enamel matrix derivative in the regenerative treatment of intra-bony defects: a novel approach to limit morbidity.",
+            "abstract": "This study was undertaken to describe a new surgical approach (minimally invasive surgical technique, MIST) and to evaluate preliminarily its clinical performance and patient perception associated with the application of enamel matrix derivative (EMD) in the treatment of isolated deep intra-bony defects.",
+            "journal": "Journal of clinical periodontology",
+            "year": "2007",
+            "authors": [
+              "Cortellini Pierpaolo",
+              "Tonetti Maurizio S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alveolar Bone Loss",
+              "Attitude to Health",
+              "Cohort Studies",
+              "Dental Enamel Proteins",
+              "Female",
+              "Follow-Up Studies",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Intraoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17243998/"
+          },
+          {
+            "pmid": "11276517",
+            "title": "Osseous resective surgery.",
+            "abstract": "Osseous resective surgery necessitates following certain guidelines for proper recontouring of the alveolar bone and proper management and positioning of the gingival tissues. The results from osseous resective surgery are technique sensitive. It has limited use in treating cases with very deep intrabony or hemiseptal defects, which should be treated with a different surgical approach. If osseous resective surgery is used in advanced lesions, a compromise in the amount of probing depth reduction should be expected. Yet, osseous resective surgery provides the surest method of reducing pockets with an intrabony or hemiseptal osseous component of 3 mm or less, albeit at the expense of some attachment in the neighboring less involved sites. Osseous resective surgery has been and remains one of the principal periodontal treatment modalities because of its proven success (Fig. 17).",
+            "journal": "Periodontology 2000",
+            "year": "2000",
+            "authors": [
+              "Carnevale G",
+              "Kaldahl W B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alveolar Bone Loss",
+              "Alveolar Process",
+              "Alveoloplasty",
+              "Animals",
+              "Bone Remodeling",
+              "Bone Resorption",
+              "Clinical Trials as Topic",
+              "Gingival Recession",
+              "Gingivoplasty",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11276517/"
+          },
+          {
+            "pmid": "34269040",
+            "title": "The apically incised coronally advanced surgical technique (AICAST) for periodontal regeneration in isolated defects: a case series.",
+            "abstract": "The aim of this retrospective case series was to report the performance up to 5 years of an innovative surgical design (the apically incised coronally advanced surgical technique [AICAST]) for the regenerative treatment of one- or two-walled intrabony periodontal lesions.",
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "authors": [
+              "Calzavara Dino",
+              "Morante Segio",
+              "Sanz Javier",
+              "Noguerol Fernando",
+              "Gonzalez Jerian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alveolar Bone Loss",
+              "Dental Enamel Proteins",
+              "Follow-Up Studies",
+              "Gingival Recession",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Regeneration",
+              "Retrospective Studies",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34269040/"
+          },
+          {
+            "pmid": "3533789",
+            "title": "Juvenile periodontitis.",
+            "abstract": "Juvenile periodontitis occurs in children and young adults and can be classified into: periodontitis which occurs in otherwise healthy individuals, and periodontitis which occurs in juveniles with systemic disease. The periodontitis which occurs in otherwise healthy individuals consists of two major forms: juvenile periodontitis, also called periodontosis or localized juvenile periodontitis (LJP), and generalized juvenile periodontitis which includes early onset adult periodontitis, recurrent necrotizing ulcerative periodontitis and the true generalized form of juvenile periodontitis. Periodontitis in systemically diseased individuals can be divided into three subgroups: juvenile periodontitis associated with primary neutrophil disorders, juvenile periodontal disease in which neutrophils are secondarily abnormal, and juvenile periodontitis associated with other diseases. Juvenile periodontitis is perhaps the best understood form of periodontal disease. A major infecting organism, Actin",
+            "journal": "International dental journal",
+            "year": "1986",
+            "authors": [
+              "Genco R J",
+              "Christersson L A",
+              "Zambon J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Aggressive Periodontitis",
+              "Disease",
+              "Humans",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3533789/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+        "txgnn_score": 0.99940824508667,
+        "txgnn_rank": 1292,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "isolated genetic hair shaft abnormality",
+        "txgnn_score": 0.9993706345558168,
+        "txgnn_rank": 1351,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.999277651309967,
+        "txgnn_rank": 1539,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9793694",
+            "title": "Methysergide.",
+            "abstract": "Methysergide is a semisynthetic ergot alkaloid ergometrine derivative, introduced in pharmacotherapy for migraine prophylaxis as a specific serotonin (5HT) receptor antagonist. Methysergide is not just a 5HT2 antagonist, it is also a 5HT1 agonist. Open and controlled studies attest to methysergide's efficacy. It may be more effective in resistant cases with a high attack frequency and may act synergistically with ergotamine and dihydroergotamine (DHE) for breakthrough attacks. Contraindications include pregnancy, peripheral vascular disorders, severe arteriosclerosis, coronary artery disease, severe hypertension, thrombophlebitis or cellulitis of the legs, peptic ulcer disease, fibrotic disorders, lung diseases, collagen disease, liver or renal function impairment, valvular heart disease, debilitation, or serious infection. Methysergide can induce retroperitoneal fibrosis and pleural and heart valve fibrosis with an estimated incidence of 1 in 5,000 treated patients. Therefore, it shou",
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1998",
+            "authors": [
+              "Silberstein S D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Methysergide",
+              "Migraine Disorders",
+              "Randomized Controlled Trials as Topic",
+              "Serotonin Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9793694/"
+          },
+          {
+            "pmid": "15293589",
+            "title": "Prinzmetal's angina.",
+            "abstract": "Prinzmetal's angina, often referred to as \"variant\" angina, is a temporary increase in coronary vascular tone (vasospasm) causing a marked, but transient reduction in luminal diameter. This coronary vasospastic state is usually focal at a single site and can occur in either a normal or diseased vessel. Patients are predominantly younger women who may not have the classical cardiovascular risk factors (except for cigarette use). PVA has been associated with vasospastic disorders such as Raynaud's phenomenon and migraine headaches. Arrhythmias are common and may be life threatening especially when the effects of vasospasm are seen in those ECG leads that reflect the potential variations of the epicardial surface of the left ventricle. Endothelial dysfunction has been considered as primarily responsible for PVA. The diagnosis is made by observing transient ST-segment elevation during the attack of angina. Since PVA is not a \"demand\"- induced symptom, but rather a supply (vasospastic) abno",
+            "journal": "American journal of critical care : an official publication, American Association of Critical-Care Nurses",
+            "year": "2004",
+            "authors": [
+              "Keller Kathryn Buchanan",
+              "Lemberg Louis"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Angina Pectoris, Variant",
+              "Diagnosis, Differential",
+              "Electrocardiography, Ambulatory",
+              "Female",
+              "Humans",
+              "Time Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15293589/"
+          },
+          {
+            "pmid": "556819",
+            "title": "Carotidynia.",
+            "abstract": "Nosologic uncertainty about carotidynia has arisen, in part, because the syndrome was initially classified as an atypical facial neuralgia. More recently, carotidynia has been characterized as a recurring vascular neck pain, often accompanied by carotid tenderness and soft tissue swelling and sometimes by vascular headaches. We now report that drugs useful in the prophylaxis of migraine appear to be effective in carotidynia. Eight women (ages 39 to 77) with unilateral, episodic neck pain of 1 to 19 years' duration have been observed for periods ranging from 7 months to 6 years. All experienced marked relief in the intensity and frequency of their pain syndromes after the administration of methysergide, ergonovine maleate, propranolol, or nortriptyline. No patient had evidence of arteritis. The responsiveness of both migraine headaches and carotidynia to similar drugs suggests a common pathophysiologic mechanism.",
+            "journal": "Neurology",
+            "year": "1977",
+            "authors": [
+              "Raskin N H",
+              "Prusiner S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Carotid Artery Diseases",
+              "Dose-Response Relationship, Drug",
+              "Ergonovine",
+              "Female",
+              "Headache",
+              "Humans",
+              "Jaw Diseases",
+              "Methysergide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/556819/"
+          },
+          {
+            "pmid": "2759844",
+            "title": "Menstrual migraine and intermittent ergonovine therapy.",
+            "abstract": "The treatment of patients suffering with menstrual migraine is sometimes a difficult and frustrating problem for the physician. As many menstrual migraine headaches are refractory to abortive therapy, prophylactic therapy is often needed. Ergonovine maleate, an ergot derivative with vasoconstrictive properties, has been used with some success in migraine headache patients. Forty patients who were treated with intermittent prophylactic ergonovine were studied over six months. The patients ranged in age from 22 to 40 years, and all suffered with menstrual migraine headaches which were refractory to abortive therapy. Each patient took ergonovine maleate 0.2 mg three to four times daily during menses and recorded headache occurrence and severity. After three months, 24 patients (60%) reported significantly less severe attacks, six patients (15%) reported less frequent headaches and 14 patients (35%) reported no improvement. After six months there was a decrease in effectiveness with 20 pat",
+            "journal": "Headache",
+            "year": "1989",
+            "authors": [
+              "Gallagher R M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Ergonovine",
+              "Female",
+              "Humans",
+              "Menstruation Disturbances",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2759844/"
+          },
+          {
+            "pmid": "23432443",
+            "title": "Oral methylergonovine maleate for refractory migraine and cluster headache prevention.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "2013",
+            "authors": [
+              "Saper Joel R",
+              "Evans Randolph W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Analgesics, Non-Narcotic",
+              "Cluster Headache",
+              "Dihydroergotamine",
+              "Female",
+              "Humans",
+              "Methylergonovine",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23432443/"
+          },
+          {
+            "pmid": "19895705",
+            "title": "Efficacy and tolerability of intravenous methylergonovine in migraine female patients attending the emergency department: a pilot open-label study.",
+            "abstract": "Methylergonovine is an ergot alkaloid widely used in postpartum women. It is also an active metabolite of methysergide and previous studies suggest that it could be effective against refractory headache and cluster headache. The purpose of the present study was to assess the potential therapeutic effectiveness of methylergonovine in the emergency treatment of severe migraine.",
+            "journal": "Head & face medicine",
+            "year": "2009",
+            "authors": [
+              "Niño-Maldonado Alfredo I",
+              "Caballero-García Gary",
+              "Mercado-Bochero Wilfrido",
+              "Rico-Villademoros Fernando",
+              "Calandre Elena P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analysis of Variance",
+              "Blood Pressure",
+              "Emergency Service, Hospital",
+              "Emergency Treatment",
+              "Female",
+              "Humans",
+              "Methylergonovine",
+              "Middle Aged",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19895705/"
+          },
+          {
+            "pmid": "14797654",
+            "title": "[Treatment of migraine and persistent headache with ergotamine tartrate and novocaine aerosols].",
+            "abstract": "",
+            "journal": "La Presse medicale",
+            "year": "1950",
+            "authors": [
+              "TABART J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aerosols",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Ergotamine",
+              "Headache",
+              "Migraine Disorders",
+              "Procaine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14797654/"
+          },
+          {
+            "pmid": "7216754",
+            "title": "Interval therapy of migraine: long-term results.",
+            "abstract": "",
+            "journal": "Headache",
+            "year": "1980",
+            "authors": [
+              "Raskin N H",
+              "Schwartz R K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Amitriptyline",
+              "Cyproheptadine",
+              "Ergonovine",
+              "Ergotamine",
+              "Humans",
+              "Middle Aged",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7216754/"
+          },
+          {
+            "pmid": "23216317",
+            "title": "QT prolongation, Torsade de Pointes, myocardial ischemia from coronary vasospasm, and headache medications. Part 1: review of serotonergic cardiac adverse events with a triptan case.",
+            "abstract": "Serotonin (5-hydroxytryptamine)(1B/1D) agonists are vasoconstrictors that can affect coronary and cerebral arteries. Retrosternal chest, arm, and jaw pain following triptan use is generally attributed to \"triptan sensations\" and dismissed as noncardiac. However, triptans narrow normal coronary arteries and occasionally trigger vasospasm. They are contraindicated in atherosclerotic vascular disease. Part 1 of this review examines the relationship of medications used in migraine with the likelihood of causing vasospasm or vasoconstriction, and the triggering of cardiac arrhythmias. We report an illustrative case of polymorphic ventricular tachyarrhythmia, electrocardiogram changes consistent with cardiac ischemia, and acquired corrected QT interval lengthening following oral sumatriptan in a 53-year-old migraineur without risk factors for coronary artery disease (CAD). Extensive evaluation revealed insignificant single coronary vessel atherosclerosis and coronary artery vasospasm on ergo",
+            "journal": "Headache",
+            "year": "2013",
+            "authors": [
+              "Stillman Mark J",
+              "Tepper Stewart",
+              "Tepper Deborah E",
+              "Cho Leslie"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Coronary Vasospasm",
+              "Electrocardiography",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Migraine Disorders",
+              "Myocardial Ischemia",
+              "Serotonin Receptor Agonists",
+              "Sumatriptan",
+              "Torsades de Pointes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23216317/"
+          },
+          {
+            "pmid": "5761912",
+            "title": "Prophylaxis of recurrent headache.",
+            "abstract": "",
+            "journal": "British medical journal",
+            "year": "1969",
+            "authors": [],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ergonovine",
+              "Ergotamine",
+              "Headache",
+              "Humans",
+              "Methysergide",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5761912/"
+          },
+          {
+            "pmid": "20987521",
+            "title": "Comparison of dihydroergotamine, ergotamine and other agents in the treatment of migraine.",
+            "abstract": "",
+            "journal": "Permanente Foundation medical bulletin",
+            "year": "1946",
+            "authors": [
+              "DANNENBERG T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Claviceps",
+              "Dihydroergotamine",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Ergotamine",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20987521/"
+          },
+          {
+            "pmid": "3948446",
+            "title": "Familial migraine and coronary artery spasm in two siblings.",
+            "abstract": "A common pathophysiology for the clinical association of variant angina and migraine has been suggested, but the pathogenesis of both illnesses is yet unknown. Our report presents two siblings with both illnesses and a familial history of migraine where coronary artery spasm was documented, spontaneously in one and after the administration of ergonovine maleate in the other one. Our study strongly supports the hypothesis that genetic factors possibly play a role in the etiology of variant angina and migraine at least in some patients.",
+            "journal": "Clinical cardiology",
+            "year": "1986",
+            "authors": [
+              "Fournier J A",
+              "Fernández-Cortacero J A",
+              "Granado C",
+              "Gascón D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angiography",
+              "Cardiac Catheterization",
+              "Coronary Vasospasm",
+              "Electrocardiography",
+              "Female",
+              "Hemodynamics",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3948446/"
+          },
+          {
+            "pmid": "6773347",
+            "title": "Pleural thickening caused by Sansert and Ergotrate in the treatment of migraine.",
+            "abstract": "",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "1980",
+            "authors": [
+              "Gefter W B",
+              "Epstein D M",
+              "Bonavita J A",
+              "Miller W T"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Asbestosis",
+              "Diagnosis, Differential",
+              "Ergonovine",
+              "Female",
+              "Humans",
+              "Male",
+              "Methysergide",
+              "Middle Aged",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6773347/"
+          },
+          {
+            "pmid": "20276689",
+            "title": "Dihydroergotamine (D.H.E. 45), a new and effective drug in the treatment of migraine.",
+            "abstract": "",
+            "journal": "Rocky Mountain medical journal",
+            "year": "1946",
+            "authors": [
+              "POLLOCK L A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Claviceps",
+              "Dihydroergotamine",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20276689/"
+          },
+          {
+            "pmid": "567295",
+            "title": "Basilar artery migraine 12 patients, with an attack recorded electroencephalographically.",
+            "abstract": "Basilar artery migraine is distinctive disorder characterized by symptoms referable to dysfunction of brainstem structures in conjunction with more typical migrainous phenomena. Our experience with 12 cases, seen in a period of 10 years, is reviewed. In one instance, an attack of basilar artery migraine was captured by EEG, and appeared as a typical photoconvulsive response. More than half of our patients responded well to anticonvulsant drugs.",
+            "journal": "Neurology",
+            "year": "1978",
+            "authors": [
+              "Swanson J W",
+              "Vick N A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Basilar Artery",
+              "Cerebral Arterial Diseases",
+              "Child",
+              "Child, Preschool",
+              "Electroencephalography",
+              "Epilepsy",
+              "Ergonovine",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/567295/"
+          },
+          {
+            "pmid": "10971665",
+            "title": "Case reports: postpartum cerebral angiopathy in a patient with chronic migraine with aura.",
+            "abstract": "A 25-year-old woman with a history of chronic severe migraine with aura presented in an apoplectic state 1 week after the delivery of her third child. She developed a severe headache and within hours lapsed into a coma. A CT scan of the brain showed cerebral edema and an occipital hemorrhage. A four-vessel angiogram showed diffuse arterial narrowing of all the intracranial vessels with segmental narrowing of the suprasellar portion of the internal carotid arteries bilaterally. She had no risk factors for stroke or vasculitis. Her pregnancy and delivery were uneventful with no preeclampsia or eclampsia. Apart from ergometrine at the time of the delivery, no vasoconstrictor drugs were used. She recovered spontaneously. Serial CT scans of the brain demonstrated resolution of the edema and hemorrhage with the development of cortical and watershed infarcts. A repeat cerebral angiogram was normal. She was, therefore, diagnosed as having suffered from postpartum cerebral angiopathy, a form of",
+            "journal": "Headache",
+            "year": "2000",
+            "authors": [
+              "Modi M",
+              "Modi G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cerebral Angiography",
+              "Chronic Disease",
+              "Female",
+              "Humans",
+              "Migraine with Aura",
+              "Puerperal Disorders",
+              "Remission, Spontaneous",
+              "Stroke",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10971665/"
+          },
+          {
+            "pmid": "13306339",
+            "title": "Historical development of the ergot therapy of migraine.",
+            "abstract": "",
+            "journal": "International archives of allergy and applied immunology",
+            "year": "1955",
+            "authors": [
+              "ROTHLIN E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cardiovascular Agents",
+              "Claviceps",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13306339/"
+          },
+          {
+            "pmid": "18886638",
+            "title": "[The dihydroergotamine in the treatment of the migraine headache].",
+            "abstract": "",
+            "journal": "Belgisch tijdschrift voor geneeskunde",
+            "year": "1948",
+            "authors": [
+              "BRUSSELMANS P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Claviceps",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18886638/"
+          },
+          {
+            "pmid": "15428294",
+            "title": "Use of ergot preparations in migraine.",
+            "abstract": "",
+            "journal": "Journal of the American Medical Association",
+            "year": "1950",
+            "authors": [
+              "FUCHS M",
+              "BLUMENTHAL L S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Claviceps",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Humans",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15428294/"
+          },
+          {
+            "pmid": "14797305",
+            "title": "[Treatment of migraine by dihydroergotamine].",
+            "abstract": "",
+            "journal": "Paris medical",
+            "year": "1950",
+            "authors": [
+              "HERSCHBERG A D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dihydroergotamine",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Humans",
+              "Migraine Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14797305/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.998955011367798,
+        "txgnn_rank": 2071,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10971665",
+            "title": "Case reports: postpartum cerebral angiopathy in a patient with chronic migraine with aura.",
+            "abstract": "A 25-year-old woman with a history of chronic severe migraine with aura presented in an apoplectic state 1 week after the delivery of her third child. She developed a severe headache and within hours lapsed into a coma. A CT scan of the brain showed cerebral edema and an occipital hemorrhage. A four-vessel angiogram showed diffuse arterial narrowing of all the intracranial vessels with segmental narrowing of the suprasellar portion of the internal carotid arteries bilaterally. She had no risk factors for stroke or vasculitis. Her pregnancy and delivery were uneventful with no preeclampsia or eclampsia. Apart from ergometrine at the time of the delivery, no vasoconstrictor drugs were used. She recovered spontaneously. Serial CT scans of the brain demonstrated resolution of the edema and hemorrhage with the development of cortical and watershed infarcts. A repeat cerebral angiogram was normal. She was, therefore, diagnosed as having suffered from postpartum cerebral angiopathy, a form of",
+            "journal": "Headache",
+            "year": "2000",
+            "authors": [
+              "Modi M",
+              "Modi G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cerebral Angiography",
+              "Chronic Disease",
+              "Female",
+              "Humans",
+              "Migraine with Aura",
+              "Puerperal Disorders",
+              "Remission, Spontaneous",
+              "Stroke",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10971665/"
+          },
+          {
+            "pmid": "20509463",
+            "title": "The history of ergot of rye (Claviceps purpurea) II: 1900-1940.",
+            "abstract": "Ergot, in 1900, was a 'chemical mess'. Henry Wellcome, the pharmaceutical manufacturer, invited Henry Hallett Dale, a physiologist, to join his research department and solve this problem. Dale, in turn, recruited an outstanding group of scientists, including George Barger, Arthur Ewins and Harold Dudley, who would make distinguished contributions not only to the chemistry of ergot but also to the identification of acetylcholine, histamine and tyramine and to studies on their physiological effects. Initially Barger and Dale isolated the compound ergotoxine, but this proved to be a false lead; it was later shown to be a mixture of three different ergot alkaloids. The major success of the Wellcome group was the discovery and isolation of ergometrine, which would prove to be life-saving in postpartum haemorrhage. In 1917 Arthur Stoll and his colleagues started work on ergot at Sandoz Pharmaceuticals in Basel. A series of important results emerged over the next 30 years, including the isola",
+            "journal": "The journal of the Royal College of Physicians of Edinburgh",
+            "year": "2009",
+            "authors": [
+              "Lee M R"
+            ],
+            "pub_types": [
+              "Biography",
+              "Historical Article",
+              "Journal Article",
+              "Portrait"
+            ],
+            "mesh_terms": [
+              "Chemistry",
+              "England",
+              "Ergonovine",
+              "Ergot Alkaloids",
+              "Ergotamine",
+              "History, 20th Century",
+              "Humans",
+              "Physiology"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20509463/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9983555674552916,
+        "txgnn_rank": 2950,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.998305320739746,
+        "txgnn_rank": 3028,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31020129",
+            "title": "Immunosuppressive therapy ameliorates refractory vasospastic angina, severe pulmonary hypertension, and bronchiolitis in a patient with eosinophilic granulomatosis with polyangiitis: a case report.",
+            "abstract": "Eosinophilic granulomatosis with polyangiitis (EGPA) is characterized by tissue and blood eosinophilia, vasculitis of small to medium-sized vessels, and allergy symptoms, and can cause various manifestations, including heart, lung, gastrointestinal, skin, and peripheral nerve disorders.",
+            "journal": "European heart journal. Case reports",
+            "year": "2018",
+            "authors": [
+              "Konno Ryo",
+              "Tatebe Shunsuke",
+              "Shirai Tsuyoshi",
+              "Shimokawa Hiroaki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31020129/"
+          },
+          {
+            "pmid": "22731893",
+            "title": "Management of pre-eclampsia: issues for anaesthetists.",
+            "abstract": "Pre-eclampsia is a leading cause of maternal morbidity and mortality. Substandard care is often present and many deaths are preventable. The aim of this review is to summarise the key management issues for anaesthetists in the light of the current literature. A systematic literature search of electronic databases was undertaken including MEDLINE, EMBASE and the Cochrane Library using the key words obstetrics, pregnancy, pregnancy complications, maternal, pre-eclampsia, preeclampsia, cardiac function, haemodynamics, haemolysis, elevated liver enzymes, low platelets (HELLP), eclampsia, anaesthesia, anesthesia, neuraxial. Relevant Colleges and Societies websites were examined for pertinent guidelines. The disease is defined within the context of hypertensive diseases, and early recognition of pre-eclampsia and its complications, as well as multidisciplinary expert team management is highlighted. Accurate monitoring and recording of observations including the use of transthoracic echocardi",
+            "journal": "Anaesthesia",
+            "year": "2012",
+            "authors": [
+              "Dennis A T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesia, Obstetrical",
+              "Anesthesia, Obstetrical",
+              "Blood Pressure",
+              "Breast Feeding",
+              "Cesarean Section",
+              "Eclampsia",
+              "Female",
+              "Fluid Therapy",
+              "HELLP Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22731893/"
+          },
+          {
+            "pmid": "41185581",
+            "title": "Systemic Vasculopathy Associated With Homozygous RNF213 Mutation Presenting as Peripheral Pulmonary Artery Stenosis and Coronary Vasospasm Without Moyamoya Disease: A Case Report.",
+            "abstract": "We report the case of a 19-year-old man who presented with exertional dyspnea and recurrent chest pain, with a homozygous mutation in the RNF213 gene and without evidence of moyamoya disease. Coronary angiography revealed significant stenosis in the left main coronary artery and ergonovine provocation testing demonstrated severe vasospasm, leading to a diagnosis of variant angina. Intravascular ultrasound revealed fibrous intimal thickening without atherosclerotic plaque. Pulmonary artery angiography revealed multiple segmental stenoses with a beaded appearance, suggestive of peripheral pulmonary artery stenosis. Right heart catheterization confirmed pre-capillary pulmonary hypertension. The patient underwent percutaneous coronary intervention for the coronary lesion, followed by balloon pulmonary angioplasty, resulting in marked improvement in symptoms, right ventricular function, and pulmonary hemodynamics. Genetic testing confirmed a homozygous RNF213 p.R4810K (c.14429G>A) mutation.",
+            "journal": "Journal of Korean medical science",
+            "year": "2025",
+            "authors": [
+              "Lim So-Min",
+              "Kim Ga Yun",
+              "Pack Dayoung",
+              "Lee Jang Ho",
+              "Lee Jae-Seung"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Ubiquitin-Protein Ligases",
+              "Adenosine Triphosphatases",
+              "Young Adult",
+              "Mutation",
+              "Moyamoya Disease",
+              "Homozygote",
+              "Coronary Vasospasm",
+              "Stenosis, Pulmonary Artery"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41185581/"
+          },
+          {
+            "pmid": "3214444",
+            "title": "Effects of nilvadipine on the cardiovascular system in experimental animals.",
+            "abstract": "The effects of 5-isopropyl 3-methyl 2-cyano-1,4-dihydro-6-methyl-4-(m-nitrophenyl)-3,5-pyridinedicarboxylate (nilvadipine, FR 34235, FK 235) on the cardiovascular system were investigated in isolated organs and whole animals. 1. Nilvadipine inhibited Ca2+-induced contractions of isolated dog coronary artery in high-K+, Ca2+-free medium, and the pA2 value was 10.64. In this effect, nilvadipine was 18 times more potent than nifedipine and 525 times more potent than diltiazem. In contrast, its inhibitory effect on Ca2+-induced contractions of isolated guinea pig atria was weaker (pA2:8.2): only twice that of nifedipine and 25 times that of diltiazem. 2. Nilvadipine also inhibited K+-induced 45Ca2+ uptake in isolated dog coronary arteries and isolated guinea pig atria. In the coronary arteries, the IC50 value of nilvadipine was 2.7 x 10(-10) mol/l, which was, respectively 17, 8, and 589 times lower than that of nifedipine, nicardipine and diltiazem. In the atria, on the other hand, the IC5",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1988",
+            "authors": [
+              "Ohtsuka M",
+              "Koibuchi Y",
+              "Sakai S",
+              "Tsujioka K",
+              "Fujiwara T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Calcium",
+              "Calcium Channel Blockers",
+              "Coronary Disease",
+              "Coronary Vessels",
+              "Dogs",
+              "Female",
+              "Guinea Pigs",
+              "Heart",
+              "Heart Atria"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3214444/"
+          },
+          {
+            "pmid": "4673361",
+            "title": "The cardiovascular effects of oxytocic drugs.",
+            "abstract": "",
+            "journal": "British journal of anaesthesia",
+            "year": "1972",
+            "authors": [
+              "Johnstone M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abortion, Spontaneous",
+              "Abortion, Therapeutic",
+              "Adolescent",
+              "Adult",
+              "Blood Vessels",
+              "Constriction",
+              "Dilatation",
+              "Electrocardiography",
+              "Ergonovine",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4673361/"
+          },
+          {
+            "pmid": "26050249",
+            "title": "Cesarean Delivery in a Parturient with Left Ventricular Noncompaction Complicated by Acute Pulmonary Hypertension After Methylergonovine Administration for Postpartum Hemorrhage.",
+            "abstract": "Left ventricular noncompaction is a rare congenital cardiomyopathy that is an arrest in the normal process of cardiac compaction, resulting in the development of multiple prominent trabeculations in the left ventricle. We report a case of a parturient with left ventricular noncompaction causing decompensated heart failure who underwent cesarean delivery that was complicated by an acute pulmonary hypertensive crisis.",
+            "journal": "A & A case reports",
+            "year": "2015",
+            "authors": [
+              "Spitzer Yelena",
+              "Weiner Menachem M",
+              "Beilin Yaakov"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cesarean Section",
+              "Female",
+              "Heart Failure",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Isolated Noncompaction of the Ventricular Myocardium",
+              "Methylergonovine",
+              "Oxytocics",
+              "Postpartum Hemorrhage"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26050249/"
+          },
+          {
+            "pmid": "2126741",
+            "title": "Hemodynamic and coronary vasodilative action of two nitroglycerin oral spray formulations.",
+            "abstract": "This study compared glycerol trinitrate (NTG) oral spray in a new hydrophilic formulation with a reference aerosol in a lipophilic base with respect to the time to onset of action on hemodynamics and on the coronary vasomotor tone. Differences in the profile of action between the two spray formulations were assessed in two groups of ten patients each. In each of the two groups the patients were randomly assigned to receive 0.8 mg of aerosolized NTG in either the hydrophilic or lipophilic base in double-blind fashion. The patients of group A had stable, exercise-induced angina pectoris, in whom responses to the sprays were evaluated under resting conditions. The patients of group B were suspicious of vasospastic or mixed form of angina pectoris, in whom the effects of the sprays were studied under diagnostic ergonovine provocation. The onset and extent of action of the sprays were assessed by serial measurements of hemodynamic parameters and repeat quantitative coronary angiography. The",
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "1990",
+            "authors": [
+              "Gansser R E",
+              "Schneeweiss A",
+              "Weiss M",
+              "Bachmann K F"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aerosols",
+              "Aged",
+              "Blood Pressure",
+              "Coronary Angiography",
+              "Coronary Vessels",
+              "Double-Blind Method",
+              "Ergonovine",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2126741/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01253",
+    "name": "Ergometrine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ergometrine"
+      },
+      "queried_at": "2026-03-09T12:42:45.659640",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ergometrine"
+      },
+      "queried_at": "2026-03-09T12:42:48.799552",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T12:42:51.086215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T12:42:57.428219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T12:42:59.542689",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T12:43:00.432667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T12:43:04.629803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T12:43:05.758796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T12:43:07.528805",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T12:43:11.762332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T12:43:13.292754",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T12:43:14.525064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T12:43:21.128689",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T12:43:30.711970",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T12:43:32.558193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T12:43:37.766175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T12:43:39.881369",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T12:43:41.020782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T12:43:46.730511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T12:43:48.456970",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T12:43:49.451202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T12:43:53.722513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T12:43:58.138268",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T12:43:59.967178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T12:44:06.649248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-09T12:44:11.620168",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T12:44:13.198094",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T12:44:17.401992",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T12:44:19.415822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T12:44:20.228836",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T12:44:24.268111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ergometrine",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T12:44:28.590720",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:44:28.656310"
+  }
+}

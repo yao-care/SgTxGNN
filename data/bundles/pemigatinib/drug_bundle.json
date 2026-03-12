@@ -1,0 +1,528 @@
+{
+  "drug": {
+    "inn": "Pemigatinib",
+    "drugbank_id": "DB15102",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9970631003379822,
+        "txgnn_rank": 4529,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "txgnn_score": 0.995422065258026,
+        "txgnn_rank": 6141,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HER2 positive breast carcinoma",
+        "txgnn_score": 0.9948564767837524,
+        "txgnn_rank": 6604,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33513356",
+            "title": "Properties of FDA-approved small molecule protein kinase inhibitors: A 2021 update.",
+            "abstract": "Owing to the dysregulation of protein kinase activity in many diseases including cancer, the protein kinase enzyme family has become one of the most important drug targets in the 21st century. There are 62 FDA-approved therapeutic agents that target about two dozen different protein kinases and eight of these were approved in 2020. All of the FDA-approved drugs are orally effective with the exception of netarsudil (a ROCK1/2 non-receptor protein-serine/threonine kinase antagonist given as an eye drop for the treatment of glaucoma) and temsirolimus (an indirect mTOR inhibitor given intravenously for the treatment of renal cell carcinoma). Of the approved drugs, ten target protein-serine/threonine protein kinases, four are directed against dual specificity protein kinases (MEK1/2), thirteen block non-receptor protein-tyrosine kinases, and 35 target receptor protein-tyrosine kinases. The data indicate that 55 of these drugs are prescribed for the treatment of neoplasms (52 against solid t",
+            "journal": "Pharmacological research",
+            "year": "2021",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Drug Approval",
+              "Humans",
+              "Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Protein Structure, Secondary",
+              "Pyrazoles",
+              "Pyridines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33513356/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cytomegalovirus infection",
+        "txgnn_score": 0.9945995807647704,
+        "txgnn_rank": 6822,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infectious bovine rhinotracheitis",
+        "txgnn_score": 0.9943239688873292,
+        "txgnn_rank": 7082,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant catarrh",
+        "txgnn_score": 0.9943239688873292,
+        "txgnn_rank": 7083,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis",
+        "txgnn_score": 0.9940822720527648,
+        "txgnn_rank": 7316,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrohpic lateral sclerosis type 22",
+        "txgnn_score": 0.9926536083221436,
+        "txgnn_rank": 8504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amyotrophic lateral sclerosis, susceptibility to",
+        "txgnn_score": 0.9925106763839722,
+        "txgnn_rank": 8627,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "axial spondylometaphyseal dysplasia",
+        "txgnn_score": 0.9924591183662416,
+        "txgnn_rank": 8660,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15102",
+    "name": "Pemigatinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pemigatinib"
+      },
+      "queried_at": "2026-03-10T00:53:38.248500",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pemigatinib"
+      },
+      "queried_at": "2026-03-10T00:53:47.101339",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T00:53:47.933612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T00:53:56.187756",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T00:53:59.900338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T00:54:01.130086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T00:54:06.324490",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amenorrhea (disease)"
+      },
+      "queried_at": "2026-03-10T00:54:08.742338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:54:10.022949",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:54:16.433776",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T00:54:21.583893",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T00:54:23.442586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T00:54:28.884943",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "cytomegalovirus infection"
+      },
+      "queried_at": "2026-03-10T00:54:29.821464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T00:54:31.597796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T00:54:35.890618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "infectious bovine rhinotracheitis"
+      },
+      "queried_at": "2026-03-10T00:54:36.940489",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T00:54:37.624359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T00:54:41.192032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "malignant catarrh"
+      },
+      "queried_at": "2026-03-10T00:54:42.700546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T00:54:43.750946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T00:54:48.629293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "queried_at": "2026-03-10T00:54:49.566113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T00:54:51.031322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T00:54:56.877389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrohpic lateral sclerosis type 22"
+      },
+      "queried_at": "2026-03-10T00:54:57.723141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T00:54:59.624922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T00:55:04.577797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "amyotrophic lateral sclerosis, susceptibility to"
+      },
+      "queried_at": "2026-03-10T00:55:06.291680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T00:55:07.348495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T00:55:13.785126",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pemigatinib",
+        "disease": "axial spondylometaphyseal dysplasia"
+      },
+      "queried_at": "2026-03-10T00:55:14.984729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:55:15.008742"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "drug": {
+    "inn": "Fosaprepitant",
+    "drugbank_id": "DB06717",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9991570711135864,
+        "txgnn_rank": 1710,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pneumocystosis",
+        "txgnn_score": 0.9986594915390016,
+        "txgnn_rank": 2529,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9982125759124756,
+        "txgnn_rank": 3131,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Cryptococcal meningitis",
+        "txgnn_score": 0.9979228377342224,
+        "txgnn_rank": 3520,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9976211190223694,
+        "txgnn_rank": 3887,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00248547",
+            "title": "A Pilot Study of Aprepitant vs. Placebo Combined With Standard Antiemetics for the Control of Nausea and Vomiting During Hematopoietic Cell Transplatation(HCT)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2004-05",
+            "completion_date": "2009-01",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "RATIONALE: Antiemetic drugs, such as aprepitant, ondansetron, and dexamethasone, may help lessen or prevent nausea and vomiting in patients undergoing a stem cell transplant.\n\nPURPOSE: This randomized clinical trial is studying aprepitant, ondansetron, and dexamethasone to see how well they work compared to placebo, ondansetron, and dexamethasone in preventing nausea and vomiting in patients who are undergoing a stem cell transplant.",
+            "eligibility_criteria": "Inclusion:\n\n* 18 years of age or greater\n* must be scheduled for an autologous or allogeneic bone marrow or peripheral stem cell transplant\n* Eastern Cooperative Oncology Group(ECOG) performance status \\< or = 2\n* patients must have signed informed consent\n* must be able to swallow tablets and capsu",
+            "endpoints": [
+              "Number of Emesis Free Participants During the Study Period."
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00248547"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01736917",
+            "title": "Phase II Study of Fosaprepitant + 5HT3 Receptor Antagonists + Dexamethasone in Patients With Germ Cell Tumors Undergoing 5 Day Cisplatin-based Chemotherapy: Hoosier Oncology Group Study QL12-153",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-01",
+            "completion_date": "2015-06",
+            "country": "United States",
+            "enrollment": 65,
+            "brief_summary": "The hypothesis is that the substitution of multi-day oral aprepitant with (intravenous) IV fosaprepitant, in combination with a 5-HT3 receptor antagonists (5HT3RA) + dexamethasone will provide comparable protection from 5 day cisplatin chemotherapy induced nausea and vomiting, compared to the results of our prior study of aprepitant. This study will be the first clinical trial evaluating fosaprepitant in patients receiving multi-day cisplatin. This will be a single arm, phase II study. The inves",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male patients ≥15 years of age with histologically or cytologically confirmed diagnosis of germ cell tumor receiving a standard 5 day cisplatin based chemotherapy regimen. Prior chemotherapy is allowed. Patients do not have to be chemo naïve.\n* Written informed consent and HIP",
+            "endpoints": [
+              "Percentage of Participants With Complete Response of Acute and Delayed Chemotherapy Induced Nausea and Vomiting"
+            ],
+            "sponsor": "Hoosier Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT01736917"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00293384",
+            "title": "Pilot Study Evaluating Aprepitant (MK-869) for Prevention of Nausea & Vomiting Secondary to High Dose Cyclophosphamide Administered to Patients Underging Undergoing Peripheral Hematopoietic Progenitor Cell Mobilization Prior to Autologous Transplantation",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2004-10",
+            "completion_date": "2012-02",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "RATIONALE: Antiemetic drugs, such as aprepitant, granisetron, and dexamethasone, may help lessen or prevent nausea and vomiting in patients treated with chemotherapy.\n\nPURPOSE: This clinical trial is studying how well giving aprepitant together with granisetron and dexamethasone works in preventing nausea and vomiting in patients receiving cyclophosphamide before undergoing an autologous stem cell transplant.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Undergoing autologous peripheral blood stem cell transplantation and stem cell mobilization using cyclophosphamide\n* Candidate (per institutional requirements) for autologous peripheral blood stem cell transplantation\n\n  * No psychiatric illness or multi-system organ fail",
+            "endpoints": [
+              "Proportion of Participants With Controlled Acute Vomiting"
+            ],
+            "sponsor": "Barbara Ann Karmanos Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT00293384"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intracranial abscess",
+        "txgnn_score": 0.9974783062934875,
+        "txgnn_rank": 4046,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retinitis",
+        "txgnn_score": 0.9967840909957886,
+        "txgnn_rank": 4811,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "32058829",
+            "title": "UVR-B-induced NKR-1 Expression in Ocular Tissues is blocked by Substance P Receptor Antagonist Fosaprepitant in the Exposed as well as Unexposed Partner Eye.",
+            "abstract": "Purpose: To investigate the effect of NKR-1 antagonists in an established UVR-B-induced cataract mouse model. Furthermore, to examine the expression of pro-inflammatory cytokines/chemokines in mouse eyes following unilateral UVR-B exposure.Methods: Mice received intraperitoneally injections of Fosaprepitant and Spantide I, before and after unilateral exposure to UVR-B. After day 3 and 7 post-exposure, ocular tissues were extracted for the detection of NKR-1 protein level by ELISA.Results: Pretreatment with Fosaprepitant decreases NKR-1 expression in exposed ocular tissues as well as in the unexposed lens epithelium compared to the saline group. Spantide I treatment showed a tendency of NKR-1 overexpression in ocular tissues.Conclusion: The clinically approved NKR-1 receptor antagonist Fosaprepitant decreases NKR-1 protein expression effectively not only in the exposed but also in the unexposed partner eye in a UVR-B irradiation mouse model. No effect was seen on the protein concentrati",
+            "journal": "Ocular immunology and inflammation",
+            "year": "2021",
+            "authors": [
+              "Gross Janine",
+              "Wegener Alfred R",
+              "Kronschläger Martin",
+              "Schönfeld Carl-Ludwig",
+              "Holz Frank G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Aqueous Humor",
+              "Cataract",
+              "Choroid",
+              "Ciliary Body",
+              "Cornea",
+              "Disease Models, Animal",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Epithelial Cells",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32058829/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Plasmodium falciparum malaria",
+        "txgnn_score": 0.9964029788970948,
+        "txgnn_rank": 5212,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "echinococcus granulosus infectious disease",
+        "txgnn_score": 0.994998574256897,
+        "txgnn_rank": 6487,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperargininemia",
+        "txgnn_score": 0.9940839409828186,
+        "txgnn_rank": 7314,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06717",
+    "name": "Fosaprepitant",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fosaprepitant"
+      },
+      "queried_at": "2026-03-09T16:15:31.217106",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fosaprepitant"
+      },
+      "queried_at": "2026-03-09T16:15:39.624145",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T16:15:40.987859",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T16:15:46.711759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T16:15:47.634095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "pneumocystosis"
+      },
+      "queried_at": "2026-03-09T16:15:48.707923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "pneumocystosis"
+      },
+      "queried_at": "2026-03-09T16:15:54.454521",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "pneumocystosis"
+      },
+      "queried_at": "2026-03-09T16:15:56.515408",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T16:15:57.433305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T16:16:03.190203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T16:16:04.362055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "Cryptococcal meningitis"
+      },
+      "queried_at": "2026-03-09T16:16:04.886517",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "Cryptococcal meningitis"
+      },
+      "queried_at": "2026-03-09T16:16:10.473712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "Cryptococcal meningitis"
+      },
+      "queried_at": "2026-03-09T16:16:11.175492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-09T16:16:11.940855",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-09T16:16:16.984915",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-09T16:16:18.740348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "intracranial abscess"
+      },
+      "queried_at": "2026-03-09T16:16:19.663550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "intracranial abscess"
+      },
+      "queried_at": "2026-03-09T16:16:28.486968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "intracranial abscess"
+      },
+      "queried_at": "2026-03-09T16:16:30.603461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "retinitis"
+      },
+      "queried_at": "2026-03-09T16:16:31.290037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "retinitis"
+      },
+      "queried_at": "2026-03-09T16:16:37.289427",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "retinitis"
+      },
+      "queried_at": "2026-03-09T16:16:42.839188",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-09T16:16:43.914130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-09T16:16:49.547130",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-09T16:16:52.996176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-09T16:16:54.477436",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-09T16:16:59.493204",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-09T16:17:01.387965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "hyperargininemia"
+      },
+      "queried_at": "2026-03-09T16:17:02.092052",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "hyperargininemia"
+      },
+      "queried_at": "2026-03-09T16:17:06.772902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fosaprepitant",
+        "disease": "hyperargininemia"
+      },
+      "queried_at": "2026-03-09T16:17:08.573706",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:17:08.590248"
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "drug": {
+    "inn": "Dextromethorphan",
+    "drugbank_id": "DB00514",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.99984872341156,
+        "txgnn_rank": 513,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06958692",
+            "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Phase 3 Trial of Dextromethorphan and Bupropion Sustained-Release Tablets in Adult Patients With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-04-11",
+            "completion_date": "2026-12-30",
+            "country": "China",
+            "enrollment": 388,
+            "brief_summary": "A multicenter, randomized, double-blind, placebo-controlled, phase 3 trial, aim to evaluate the efficacy and safety of dextromethorphan and bupropion sustained-release tablets in Chinese adult patients with major depressive disorder.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female, Age 18 - 65, inclusive\n2. Currently meets DSM-5 diagnosis of MDD without psychotic features, Current major depressive episode of at least 4 weeks in duration at screening\n3. Identified as MDD by Mini-international Neuropsychiatric interview (M.I.N.I.)\n4. MADRS",
+            "endpoints": [
+              "Change in MADRS Total Score From Baseline to Week 6"
+            ],
+            "sponsor": "CSPC Ouyi Pharmaceutical Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT06958692"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9998249411582948,
+        "txgnn_rank": 575,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faucial diphtheria",
+        "txgnn_score": 0.9935517311096193,
+        "txgnn_rank": 7779,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9931825995445251,
+        "txgnn_rank": 8091,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical disc degenerative disorder",
+        "txgnn_score": 0.9930416345596312,
+        "txgnn_rank": 8198,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.992468535900116,
+        "txgnn_rank": 8655,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tracheal disease",
+        "txgnn_score": 0.9859110116958618,
+        "txgnn_rank": 13628,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "952583",
+            "title": "Antitussive properties of butorphanol.",
+            "abstract": "Butorphanol (levo-N-cyclobutylmethyl-3, 14-dihydroxy morphinan), a potent analgetic agent of the narcotic antagonist type with a low abuse potential in laboratory animals, was evaluated for antitussive activity in unanesthetized guinea-pigs and dogs. Subcutaneously, it was over 100 times more active than codeine, dextromethorphan and dl-pentazocine and about 20 times more active than morphine in the guinea-pig, while in the dog it was 100, 10 and 4 times more active than codeine, dl-pentazocine and morphine, respectively. Orally, butorphanol was 15-20 times more active than either codeine or dextromethrophan in both species. Naloxone reversed the antitussive effects of butorphanol, codeine, morphine and dl-pentazocine while those of dextromethorphan were not antagonized. The antitussive effect of butorphanol and morphine lasted about 4 hr and both compounds were longer acting than codeine. Butorphanol was also shown to be as effective against cough of pathological origin as against exp",
+            "journal": "Archives internationales de pharmacodynamie et de therapie",
+            "year": "1976",
+            "authors": [
+              "Cavanagh R L",
+              "Gylys J A",
+              "Bierwagen M E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antitussive Agents",
+              "Bronchitis",
+              "Cough",
+              "Cyclobutanes",
+              "Dogs",
+              "Electric Stimulation",
+              "Guinea Pigs",
+              "Male",
+              "Morphinans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/952583/"
+          },
+          {
+            "pmid": "2255670",
+            "title": "The effects of vadocaine, dextromethorphan, diphenhydramine and hydroxyzine on the ciliary beat frequency in rats in vitro.",
+            "abstract": "Mucociliary function is a major cleansing mechanism of the respiratory tract. Many drugs used in the treatment of respiratory diseases impair the ciliary beat frequency (CBF) of mucous membrane. Our aim was to study by means of a photoelectric technique, the effects of two antitussives--dextromethorphan and vadocaine--and two antihistamines--hydroxyzine and diphenhydramine--on the rat tracheal CBF in vitro. The CBF was measured from tracheal explants immersed in drug solutions. Dextromethorphan (1.0 mg/ml and 10.0 mg/ml) caused 16.9-20.8% decrease in the CBF during the 40 min. measurement period. Vadocaine (0.1 mg/ml and 0.5 mg/ml) decreased the CBF by 6.9%. Higher vadocaine concentrations caused a dose-dependent inhibitory effect so that mucociliary function stopped totally within 20 min. with 5.0 mg/ml vadocaine solution. Both diphenhydramine and hydroxyzine totally stopped the ciliary activity during 20 min. with concentrations of 2.5 mg/ml and 1.0 mg/ml. respectively. Locke-Ringer ",
+            "journal": "Pharmacology & toxicology",
+            "year": "1990",
+            "authors": [
+              "Karttunen P",
+              "Silvasti M",
+              "Virta P",
+              "Saano V",
+              "Nuutinen J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cilia",
+              "Dextromethorphan",
+              "Diphenhydramine",
+              "Hydroxyzine",
+              "Male",
+              "Mucociliary Clearance",
+              "Piperidines",
+              "Rats",
+              "Rats, Inbred Strains"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2255670/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "massive neonatal aspiration syndrome",
+        "txgnn_score": 0.9784340262413024,
+        "txgnn_rank": 17773,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "respiratory syncytial virus bronchiolitis",
+        "txgnn_score": 0.976466715335846,
+        "txgnn_rank": 18667,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hantavirus infectious disease",
+        "txgnn_score": 0.9763523936271667,
+        "txgnn_rank": 18720,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00514",
+    "name": "Dextromethorphan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dextromethorphan"
+      },
+      "queried_at": "2026-03-09T09:52:42.211251",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dextromethorphan"
+      },
+      "queried_at": "2026-03-09T09:52:50.783432",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T09:52:51.532016",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T09:52:54.815397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T09:52:55.764570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T09:52:57.082869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T09:53:03.074348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T09:53:04.115718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T09:53:05.461817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T09:53:09.148330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "faucial diphtheria"
+      },
+      "queried_at": "2026-03-09T09:53:11.208031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T09:53:12.245927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T09:53:15.813787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T09:53:17.057247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T09:53:17.612118",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T09:53:21.057406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "queried_at": "2026-03-09T09:53:22.185207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T09:53:22.995245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T09:53:26.935328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T09:53:27.896996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "tracheal disease"
+      },
+      "queried_at": "2026-03-09T09:53:28.730157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "tracheal disease"
+      },
+      "queried_at": "2026-03-09T09:53:32.587303",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "tracheal disease"
+      },
+      "queried_at": "2026-03-09T09:53:36.303057",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "massive neonatal aspiration syndrome"
+      },
+      "queried_at": "2026-03-09T09:53:37.076980",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "massive neonatal aspiration syndrome"
+      },
+      "queried_at": "2026-03-09T09:53:40.228106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "massive neonatal aspiration syndrome"
+      },
+      "queried_at": "2026-03-09T09:53:41.223730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "respiratory syncytial virus bronchiolitis"
+      },
+      "queried_at": "2026-03-09T09:53:41.872359",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "respiratory syncytial virus bronchiolitis"
+      },
+      "queried_at": "2026-03-09T09:53:47.321695",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "respiratory syncytial virus bronchiolitis"
+      },
+      "queried_at": "2026-03-09T09:53:48.491015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "hantavirus infectious disease"
+      },
+      "queried_at": "2026-03-09T09:53:49.233125",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "hantavirus infectious disease"
+      },
+      "queried_at": "2026-03-09T09:53:53.873313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "hantavirus infectious disease"
+      },
+      "queried_at": "2026-03-09T09:53:55.096848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:53:55.099157"
+  }
+}

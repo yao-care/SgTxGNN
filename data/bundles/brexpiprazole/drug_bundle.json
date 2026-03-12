@@ -1,0 +1,1994 @@
+{
+  "drug": {
+    "inn": "Brexpiprazole",
+    "drugbank_id": "DB09128",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "dysthymic disorder",
+        "txgnn_score": 0.9852641820907592,
+        "txgnn_rank": 14035,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal torticollis of infancy",
+        "txgnn_score": 0.9830214977264404,
+        "txgnn_rank": 15450,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "agoraphobia",
+        "txgnn_score": 0.9822540879249572,
+        "txgnn_rank": 15887,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotic disorder",
+        "txgnn_score": 0.9773005843162536,
+        "txgnn_rank": 18287,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurotic depression",
+        "txgnn_score": 0.9711155891418456,
+        "txgnn_rank": 20826,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34986373",
+            "title": "Augmentation strategies for treatment resistant major depression: A systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy and discontinuation of augmentation agents in adult patients with treatment-resistant depression (TRD). We conducted a systematic review and network meta-analyses (NMA) to combine direct and indirect comparisons of augmentation agents.",
+            "journal": "Journal of affective disorders",
+            "year": "2022",
+            "authors": [
+              "Nuñez Nicolas A",
+              "Joseph Boney",
+              "Pahwa Mehak",
+              "Kumar Rakesh",
+              "Resendez Manuel Gardea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Research Support, N.I.H., Extramural",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Depression",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34986373/"
+          },
+          {
+            "pmid": "37149344",
+            "title": "Pharmacotherapy for Treatment-Resistant Depression: Antidepressants and Atypical Antipsychotics.",
+            "abstract": "Treatment-resistant depression (TRD) affects one in three patients with major depressive disorder and is associated with increased risk of all-cause mortality. Studies of real-world practices suggest that antidepressant monotherapy continues to be the most widely used treatment after inadequate response to a first-line treatment. However, rates of remission with antidepressants in TRD are suboptimal. Atypical antipsychotics are the most widely studied augmentation agent and aripiprazole, brexpiprazole, cariprazine, quetiapine extended-release, and olanzapine-fluoxetine combination are approved for depression. Benefits of using atypical antipsychotics for TRD has to be weighted against their potential adverse events, such as weight gain, akathisia, and tardive dyskinesia.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2023",
+            "authors": [
+              "Vas Collin",
+              "Jain Ayush",
+              "Trivedi Mili",
+              "Jha Manish Kumar",
+              "Mathew Sanjay J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depression",
+              "Antidepressive Agents",
+              "Quetiapine Fumarate",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37149344/"
+          },
+          {
+            "pmid": "36561896",
+            "title": "Treatment-Resistant Bipolar Depression: Therapeutic Trends, Challenges and Future Directions.",
+            "abstract": "Bipolar disorder (BD) is a chronic mental illness impacting 1-2% of the population worldwide and causing high rates of functional impairment. Patients with BD spend most of their time in depressive episodes and up to one-third of patients do not respond to adequate doses of medications. Although no consensus exists for definition of treatment-resistant bipolar depression (TRBD), failure of symptoms improvement despite an adequate trial of two therapeutic agents is a common theme of TRBD. In this paper, we review the evidence base of therapeutic interventions, challenges, and potential future directions for TRBD.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2022",
+            "authors": [
+              "Elsayed Omar H",
+              "Ercis Mete",
+              "Pahwa Mehak",
+              "Singh Balwinder"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36561896/"
+          },
+          {
+            "pmid": "28331332",
+            "title": "Clinical role of brexpiprazole in depression and schizophrenia.",
+            "abstract": "Brexpiprazole, a serotonin-dopamine activity modulator, is the second D2 partial agonist to come to market and has been approved for the treatment of schizophrenia and as an adjunctive treatment in major depressive disorder. With less intrinsic activity than aripiprazole at the D2 receptor and higher potency at 5-HT2A, 5-HT1A, and α1B receptors, the pharmacological properties of brexpiprazole suggest a more tolerable side effect profile with regard to akathisia, extrapyramidal dysfunction, and sedation. While no head-to-head data are currently available, double-blind placebo-controlled studies show favorable results, with the number needed to treat (NNT) vs placebo of 6-15 for response in acute schizophrenia treatment and 4 for maintenance. NNT is 12 for response and 17-31 for remission vs placebo in major depression. In schizophrenia trials, treatment-emergent adverse effects (TEAEs) and discontinuation rates due to TEAEs were lower in treatment groups vs placebo (7.1%-9.2% vs 14.7%, ",
+            "journal": "Therapeutics and clinical risk management",
+            "year": "2017",
+            "authors": [
+              "Parikh Nishant B",
+              "Robinson Diana M",
+              "Clayton Anita H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28331332/"
+          },
+          {
+            "pmid": "38924903",
+            "title": "Efficacy and safety of eight enhanced therapies for treatment-resistant depression: A systematic review and network meta-analysis of RCTs.",
+            "abstract": "Treatment-Resistant Depression (TRD) challenges psychiatric treatment, with existing guidelines covering only a subset of augmentation strategies.",
+            "journal": "Psychiatry research",
+            "year": "2024",
+            "authors": [
+              "Guo Qinghua",
+              "Guo Libo",
+              "Wang Yong",
+              "Shang Shaomei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antidepressive Agents",
+              "Depressive Disorder, Treatment-Resistant",
+              "Electroconvulsive Therapy",
+              "Ketamine",
+              "Outcome Assessment, Health Care",
+              "Psilocybin",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38924903/"
+          },
+          {
+            "pmid": "38993656",
+            "title": "The Black Book of Psychotropic Dosing and Monitoring.",
+            "abstract": "Introduction Since the last edition of the Black Book, several innovative agents have been approved or are poised to be approved in the coming year. These include novel antidepressants, the first muscarine agonist for the treatment of schizophrenia, the first psychedelic which may be approved for the treatment of PTSD (Post Traumatic Stress Disorder), and the first disease modifying drug for the treatment of Alzheimer's disease. Three new antidepressants have come to the market in the past 18 months. The first of those, Auvelity, the combination of bupropion and dextromethorphan, takes advantage of a pharmacokinetic and pharmacodynamic synergism between the two drugs.85 Dextromethorphan has several pharmacodynamic properties including actions on the NMDA receptor and the Sigma 1 receptor, adding to the indirect norepinephrine agonist properties of bupropion. How Dextromethorphan is rapidly metabolized via the CYP2D6 isoenzyme to dextrophan that may have mu opioid agonist properties. Th",
+            "journal": "Psychopharmacology bulletin",
+            "year": "2024",
+            "authors": [
+              "DeBattista Charles",
+              "Schatzberg Alan F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Bupropion",
+              "Dextromethorphan",
+              "Psychotropic Drugs",
+              "Antidepressive Agents",
+              "Drug Monitoring",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38993656/"
+          },
+          {
+            "pmid": "26301701",
+            "title": "Efficacy and safety of adjunctive brexpiprazole 2 mg in major depressive disorder: a phase 3, randomized, placebo-controlled study in patients with inadequate response to antidepressants.",
+            "abstract": "To assess the efficacy, tolerability, and safety of brexpiprazole as adjunctive therapy to antidepressant treatments (ADTs) in adults with major depressive disorder (as defined by DSM-IV-TR criteria) and inadequate response to ADTs.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2015",
+            "authors": [
+              "Thase Michael E",
+              "Youakim James M",
+              "Skuban Aleksandar",
+              "Hobart Mary",
+              "Augustine Carole"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26301701/"
+          },
+          {
+            "pmid": "34238049",
+            "title": "Efficacy and Tolerability of Combination Treatments for Major Depression: Antidepressants plus Second-Generation Antipsychotics vs. Esketamine vs. Lithium.",
+            "abstract": "Successful treatment of major depressive disorder (MDD) can be challenging, and failures (\"treatment-resistant depression\" [TRD]) are frequent. Steps to address TRD include increasing antidepressant dose, combining antidepressants, adding adjunctive agents, or using nonpharmacological treatments. Their relative efficacy and tolerability remain inadequately tested. In particular, the value and safety of increasingly employed second-generation antipsychotics (SGAs) and new esketamine, compared to lithium as antidepressant adjuncts remain unclear.",
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2021",
+            "authors": [
+              "Vázquez Gustavo H",
+              "Bahji Anees",
+              "Undurraga Juan",
+              "Tondo Leonardo",
+              "Baldessarini Ross J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant",
+              "Dose-Response Relationship, Drug",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Ketamine",
+              "Lithium Compounds",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34238049/"
+          },
+          {
+            "pmid": "40129874",
+            "title": "Anhedonia: Current and future treatments.",
+            "abstract": "Anhedonia is a transdiagnostic domain that leads to poor disorder outcome and low remission rates. This narrative review describes a broad range of interventions targeting anhedonia, including pharmacological, neuromodulatory, behavioral, and lifestyle-based approaches. Drugs such as vortioxetine, agomelatine, bupropion, ketamine, and brexpiprazole show promising anti-anhedonic effects, while traditional antidepressants, such as serotonin-norepinephrine reuptake inhibitors (SNRIs) and, even more so, selective serotonin reuptake inhibitors (SSRIs), are less effective. Neuromodulation techniques, including repetitive transcranial magnetic stimulation, transcranial direct current stimulation, and transcutaneous auricular vagus nerve stimulation, proved effective at improving anhedonia, particularly when used in targeted areas. Psychotherapeutic interventions, including behavioral activation, mindfulness-based strategies, and savoring techniques, also help re-engage patients with pleasurab",
+            "journal": "PCN reports : psychiatry and clinical neurosciences",
+            "year": "2025",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40129874/"
+          },
+          {
+            "pmid": "28228056",
+            "title": "Brexpiprazole.",
+            "abstract": "To review the pharmacology and clinical data for brexpiprazole in schizophrenia and major depressive disorder (MDD).",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2017",
+            "authors": [
+              "Markovic Marija",
+              "Gallipani Alyssa",
+              "Patel Krina H",
+              "Maroney Megan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Clinical Trials, Phase III as Topic",
+              "Major Depressive Disorder",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Quinolones",
+              "Receptor, Serotonin, 5-HT1A",
+              "Receptors, Dopamine D2",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28228056/"
+          },
+          {
+            "pmid": "26262883",
+            "title": "Brexpiprazole (Rexulti) for schizophrenia and depression.",
+            "abstract": "",
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2015",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Major Depressive Disorder",
+              "Dopamine Agonists",
+              "Humans",
+              "Quinolones",
+              "Randomized Controlled Trials as Topic",
+              "Schizophrenia",
+              "Serotonin Agents",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26262883/"
+          },
+          {
+            "pmid": "39243127",
+            "title": "Advances in Mood Disorder Pharmacotherapy: Evaluating New Antipsychotics and Mood Stabilizers for Bipolar Disorder and Schizophrenia.",
+            "abstract": "This article provides a narrative review of recent developments in mood-stabilizing drugs, considering their mechanism of action, efficacy, safety, and therapeutic potential in the treatment of mood disorders, particularly bipolar disorder and schizophrenia. The review focuses on the mechanism and clinical aspects of second-generation antipsychotic medications; aripiprazole, classified as a third-generation antipsychotic medication; lamotrigine, as a representative of antiepileptic drugs; and lurasidone, a novel second-generation antipsychotic medication. Moreover, the article refers to one of the newest and most highly effective normothymic drugs, cariprazine. The potential of new mood stabilizer candidates lumateperone and brexpiprazole is also presented. Covered topics include the clinical efficacy of new drugs in reducing manic and depressive symptoms during acute episodes, as well as their role in preventing relapse. In addition, we analyzed the incidence of adverse effects of eac",
+            "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+            "year": "2024",
+            "authors": [
+              "Kowalczyk Emilia",
+              "Koziej Sylwia",
+              "Soroka Ewelina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antipsychotic Agents",
+              "Bipolar Disorder",
+              "Schizophrenia",
+              "Mood Disorders",
+              "Aripiprazole",
+              "Anticonvulsants",
+              "Lamotrigine",
+              "Lurasidone Hydrochloride",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39243127/"
+          },
+          {
+            "pmid": "36855876",
+            "title": "Pharmacotherapies for Treatment-Resistant Depression: How Antipsychotics Fit in the Rapidly Evolving Therapeutic Landscape.",
+            "abstract": "One in three adults with major depressive disorder (MDD) do not experience clinically significant improvement after multiple sequential courses of antidepressants and have treatment-resistant depression (TRD). The presence of TRD contributes to the morbidity and excess mortality associated with MDD and has been linked to significantly increased health care expenses. In the absence of a consensus definition of TRD, this report takes a broad approach by considering inadequate response to one or more courses of antidepressants and focuses on atypical antipsychotics that are approved by the U.S. Food and Drug Administration for treatment of depression (aripiprazole, brexpiprazole, cariprazine, extended-release quetiapine, and olanzapine-fluoxetine combination). While multiple acute-phase studies have demonstrated the efficacy of these medications in improving depressive symptoms, clinically meaningful improvement (i.e., remission) remains limited, with significant concerns about side effec",
+            "journal": "The American journal of psychiatry",
+            "year": "2023",
+            "authors": [
+              "Jha Manish K",
+              "Mathew Sanjay J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "United States",
+              "Adult",
+              "Humans",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depression",
+              "Depressive Disorder, Treatment-Resistant",
+              "Aripiprazole",
+              "Drug-Related Side Effects and Adverse Reactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36855876/"
+          },
+          {
+            "pmid": "27274197",
+            "title": "Spotlight on brexpiprazole and its potential in the treatment of schizophrenia and as adjunctive therapy for the treatment of major depression.",
+            "abstract": "Antipsychotic agents, utilized for the treatment of a range of psychiatric disorders, differ substantially in terms of their pharmacology and adverse effect profiles. Incomplete and variable efficacy, differences in safety-tolerability, and highly heterogeneous response across individuals prompt development of new agents. Brexpiprazole is one of the two most recently introduced antipsychotic agents approved for the treatment of schizophrenia and as an adjunct for treatment of major depressive disorder. Its pharmacology, clinical trial data, and efficacy and side effects in comparison with other antipsychotic agents are discussed. Brexpiprazole is a dopamine D-2 partial agonist with potent activity at the serotonin 5HT1A and 5HT2A and noradrenergic alpha-1B and alpha-2C receptors. Placebo-controlled clinical trials in persons with schizophrenia support its efficacy in treating psychosis and preventing relapse. Short-term clinical trials also support its efficacy as an adjunct to antidep",
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "authors": [
+              "Bruijnzeel Dawn",
+              "Tandon Rajiv"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Major Depressive Disorder",
+              "Humans",
+              "Quinolones",
+              "Schizophrenia",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27274197/"
+          },
+          {
+            "pmid": "35716011",
+            "title": "Optimal dose of brexpiprazole for augmentation therapy of antidepressant-refractory depression: A systematic review and dose-effect meta-analysis.",
+            "abstract": "Brexpiprazole augmentation is an effective treatment strategy for antidepressant-refractory depression, but its optimal dosage remains unclear.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2022",
+            "authors": [
+              "Furukawa Yuki",
+              "Oguro Saki",
+              "Obata Satomi",
+              "Hamza Tasnim",
+              "Ostinelli Edoardo G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antidepressive Agents",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant",
+              "Female",
+              "Humans",
+              "Male",
+              "Quinolones",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35716011/"
+          },
+          {
+            "pmid": "35975555",
+            "title": "The Canadian Network for Mood and Anxiety Treatments (CANMAT) Task Force Report: Serotonergic Psychedelic Treatments for Major Depressive Disorder.",
+            "abstract": "Serotonergic psychedelics are re-emerging as potential novel treatments for several psychiatric disorders including major depressive disorder. The Canadian Network for Mood and Anxiety Treatments (CANMAT) convened a task force to review the evidence and provide a consensus recommendation for the clinical use of psychedelic treatments for major depressive disorder.",
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "2023",
+            "authors": [
+              "Rosenblat Joshua D",
+              "Husain M Ishrat",
+              "Lee Yena",
+              "McIntyre Roger S",
+              "Mansur Rodrigo B"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hallucinogens",
+              "Psilocybin",
+              "Major Depressive Disorder",
+              "Canada",
+              "Anxiety",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35975555/"
+          },
+          {
+            "pmid": "36138129",
+            "title": "The impact of pharmacological and non-pharmacological interventions on physical health outcomes in people with mood disorders across the lifespan: An umbrella review of the evidence from randomised controlled trials.",
+            "abstract": "People with mood disorders have increased risk of comorbid medical diseases versus the general population. It is paramount to identify interventions to improve physical health in this population.",
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "authors": [
+              "Croatto Giovanni",
+              "Vancampfort Davy",
+              "Miola Alessandro",
+              "Olivola Miriam",
+              "Fiedorowicz Jess G"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Aged",
+              "Adolescent",
+              "Fluoxetine",
+              "Olanzapine",
+              "Quetiapine Fumarate",
+              "Selective Serotonin Reuptake Inhibitors",
+              "Aripiprazole",
+              "Longevity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36138129/"
+          },
+          {
+            "pmid": "38219278",
+            "title": "Comparison of brexpiprazole, aripiprazole, and placebo for Japanese major depressive disorder: A systematic review and network meta-analysis.",
+            "abstract": "This systematic review and frequentist network meta-analysis used random-effects models is conducted to determine whether there are differences in the efficacy, acceptability, tolerability, and safety profiles of brexpiprazole (BRE) and aripiprazole (ARI) for Japanese with major depressive disorder (MDD) who were inadequately responsive to antidepressants.",
+            "journal": "Neuropsychopharmacology reports",
+            "year": "2024",
+            "authors": [
+              "Kishi Taro",
+              "Sakuma Kenji",
+              "Saito Takeo",
+              "Nakagawa Atsuo",
+              "Kato Masaki"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aripiprazole",
+              "Major Depressive Disorder",
+              "Japan",
+              "Psychomotor Agitation",
+              "Weight Gain",
+              "Randomized Controlled Trials as Topic",
+              "Thiophenes",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38219278/"
+          },
+          {
+            "pmid": "37933521",
+            "title": "Adjunctive brexpiprazole 1 mg and 2 mg daily for Japanese patients with major depressive disorder following inadequate response to antidepressants: a phase 2/3, randomized, double-blind (BLESS) study.",
+            "abstract": "Inadequate antidepressant response interrupts effective treatment of major depressive disorder (MDD). The BLESS study evaluates the dosage, efficacy, and safety of brexpiprazole adjunctive therapy in Japanese patients with inadequate antidepressant therapy (ADT) response.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2024",
+            "authors": [
+              "Kato Masaki",
+              "Shiosakai Masako",
+              "Kuwahara Kazuo",
+              "Iba Katsuhiro",
+              "Shimada Yuki"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Clinical Trial, Phase II",
+              "Clinical Trial, Phase III",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Major Depressive Disorder",
+              "Prospective Studies",
+              "Japan",
+              "Single-Blind Method",
+              "Drug Therapy, Combination",
+              "Antidepressive Agents",
+              "Treatment Outcome",
+              "Double-Blind Method",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37933521/"
+          },
+          {
+            "pmid": "32141908",
+            "title": "Efficacy and safety of brexpiprazole in acute management of psychiatric disorders: a meta-analysis of randomized controlled trials.",
+            "abstract": "Brexpiprazole is a new atypical antipsychotic for schizophrenia management and as adjunct in major depressive disorder (MDD). We searched randomized controlled trials (RCT) to review brexpiprazole efficacy and tolerability in acute management of schizophrenia and MDD using PubMed, EUDRACT, ClinicalTrials.gov and Cochrane Central Register of Controlled Trials. A meta-analysis was conducted using the identified 14 RCT to assess its efficacy using positive and negative syndrome scale (PANSS), clinical global impressions - severity of illness (CGI-S), personal and social performance scale (PSP), Montgomery-Åsberg depression rating scale (MADRS), Sheehan disability scale (SDS) and Hamilton depression rating scale (HDRS17). The mean difference comparing brexpiprazole and placebo were PANSS -4.48, CGI-S -0.23 and PSP 3.24 favoring brexpiprazole. Compared to aripiprazole and quetiapine, brexpiprazole showed similar efficacy. In MDD, brexpiprazole showed efficacy compared to placebo demonstrate",
+            "journal": "International clinical psychopharmacology",
+            "year": "2020",
+            "authors": [
+              "Antoun Reyad Ayman",
+              "Girgis Eriny",
+              "Mishriky Raafat"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Aripiprazole",
+              "Major Depressive Disorder",
+              "Humans",
+              "Psychiatric Status Rating Scales",
+              "Quetiapine Fumarate",
+              "Quinolones",
+              "Schizophrenia",
+              "Thiophenes",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32141908/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melancholia",
+        "txgnn_score": 0.9706649780273438,
+        "txgnn_rank": 21003,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34986373",
+            "title": "Augmentation strategies for treatment resistant major depression: A systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy and discontinuation of augmentation agents in adult patients with treatment-resistant depression (TRD). We conducted a systematic review and network meta-analyses (NMA) to combine direct and indirect comparisons of augmentation agents.",
+            "journal": "Journal of affective disorders",
+            "year": "2022",
+            "authors": [
+              "Nuñez Nicolas A",
+              "Joseph Boney",
+              "Pahwa Mehak",
+              "Kumar Rakesh",
+              "Resendez Manuel Gardea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Research Support, N.I.H., Extramural",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Depression",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34986373/"
+          },
+          {
+            "pmid": "26301701",
+            "title": "Efficacy and safety of adjunctive brexpiprazole 2 mg in major depressive disorder: a phase 3, randomized, placebo-controlled study in patients with inadequate response to antidepressants.",
+            "abstract": "To assess the efficacy, tolerability, and safety of brexpiprazole as adjunctive therapy to antidepressant treatments (ADTs) in adults with major depressive disorder (as defined by DSM-IV-TR criteria) and inadequate response to ADTs.",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2015",
+            "authors": [
+              "Thase Michael E",
+              "Youakim James M",
+              "Skuban Aleksandar",
+              "Hobart Mary",
+              "Augustine Carole"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26301701/"
+          },
+          {
+            "pmid": "37149344",
+            "title": "Pharmacotherapy for Treatment-Resistant Depression: Antidepressants and Atypical Antipsychotics.",
+            "abstract": "Treatment-resistant depression (TRD) affects one in three patients with major depressive disorder and is associated with increased risk of all-cause mortality. Studies of real-world practices suggest that antidepressant monotherapy continues to be the most widely used treatment after inadequate response to a first-line treatment. However, rates of remission with antidepressants in TRD are suboptimal. Atypical antipsychotics are the most widely studied augmentation agent and aripiprazole, brexpiprazole, cariprazine, quetiapine extended-release, and olanzapine-fluoxetine combination are approved for depression. Benefits of using atypical antipsychotics for TRD has to be weighted against their potential adverse events, such as weight gain, akathisia, and tardive dyskinesia.",
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2023",
+            "authors": [
+              "Vas Collin",
+              "Jain Ayush",
+              "Trivedi Mili",
+              "Jha Manish Kumar",
+              "Mathew Sanjay J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depression",
+              "Antidepressive Agents",
+              "Quetiapine Fumarate",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37149344/"
+          },
+          {
+            "pmid": "40129874",
+            "title": "Anhedonia: Current and future treatments.",
+            "abstract": "Anhedonia is a transdiagnostic domain that leads to poor disorder outcome and low remission rates. This narrative review describes a broad range of interventions targeting anhedonia, including pharmacological, neuromodulatory, behavioral, and lifestyle-based approaches. Drugs such as vortioxetine, agomelatine, bupropion, ketamine, and brexpiprazole show promising anti-anhedonic effects, while traditional antidepressants, such as serotonin-norepinephrine reuptake inhibitors (SNRIs) and, even more so, selective serotonin reuptake inhibitors (SSRIs), are less effective. Neuromodulation techniques, including repetitive transcranial magnetic stimulation, transcranial direct current stimulation, and transcutaneous auricular vagus nerve stimulation, proved effective at improving anhedonia, particularly when used in targeted areas. Psychotherapeutic interventions, including behavioral activation, mindfulness-based strategies, and savoring techniques, also help re-engage patients with pleasurab",
+            "journal": "PCN reports : psychiatry and clinical neurosciences",
+            "year": "2025",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40129874/"
+          },
+          {
+            "pmid": "38993656",
+            "title": "The Black Book of Psychotropic Dosing and Monitoring.",
+            "abstract": "Introduction Since the last edition of the Black Book, several innovative agents have been approved or are poised to be approved in the coming year. These include novel antidepressants, the first muscarine agonist for the treatment of schizophrenia, the first psychedelic which may be approved for the treatment of PTSD (Post Traumatic Stress Disorder), and the first disease modifying drug for the treatment of Alzheimer's disease. Three new antidepressants have come to the market in the past 18 months. The first of those, Auvelity, the combination of bupropion and dextromethorphan, takes advantage of a pharmacokinetic and pharmacodynamic synergism between the two drugs.85 Dextromethorphan has several pharmacodynamic properties including actions on the NMDA receptor and the Sigma 1 receptor, adding to the indirect norepinephrine agonist properties of bupropion. How Dextromethorphan is rapidly metabolized via the CYP2D6 isoenzyme to dextrophan that may have mu opioid agonist properties. Th",
+            "journal": "Psychopharmacology bulletin",
+            "year": "2024",
+            "authors": [
+              "DeBattista Charles",
+              "Schatzberg Alan F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Bupropion",
+              "Dextromethorphan",
+              "Psychotropic Drugs",
+              "Antidepressive Agents",
+              "Drug Monitoring",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38993656/"
+          },
+          {
+            "pmid": "28228056",
+            "title": "Brexpiprazole.",
+            "abstract": "To review the pharmacology and clinical data for brexpiprazole in schizophrenia and major depressive disorder (MDD).",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2017",
+            "authors": [
+              "Markovic Marija",
+              "Gallipani Alyssa",
+              "Patel Krina H",
+              "Maroney Megan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Clinical Trials, Phase III as Topic",
+              "Major Depressive Disorder",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Quinolones",
+              "Receptor, Serotonin, 5-HT1A",
+              "Receptors, Dopamine D2",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28228056/"
+          },
+          {
+            "pmid": "36561896",
+            "title": "Treatment-Resistant Bipolar Depression: Therapeutic Trends, Challenges and Future Directions.",
+            "abstract": "Bipolar disorder (BD) is a chronic mental illness impacting 1-2% of the population worldwide and causing high rates of functional impairment. Patients with BD spend most of their time in depressive episodes and up to one-third of patients do not respond to adequate doses of medications. Although no consensus exists for definition of treatment-resistant bipolar depression (TRBD), failure of symptoms improvement despite an adequate trial of two therapeutic agents is a common theme of TRBD. In this paper, we review the evidence base of therapeutic interventions, challenges, and potential future directions for TRBD.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2022",
+            "authors": [
+              "Elsayed Omar H",
+              "Ercis Mete",
+              "Pahwa Mehak",
+              "Singh Balwinder"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36561896/"
+          },
+          {
+            "pmid": "28331332",
+            "title": "Clinical role of brexpiprazole in depression and schizophrenia.",
+            "abstract": "Brexpiprazole, a serotonin-dopamine activity modulator, is the second D2 partial agonist to come to market and has been approved for the treatment of schizophrenia and as an adjunctive treatment in major depressive disorder. With less intrinsic activity than aripiprazole at the D2 receptor and higher potency at 5-HT2A, 5-HT1A, and α1B receptors, the pharmacological properties of brexpiprazole suggest a more tolerable side effect profile with regard to akathisia, extrapyramidal dysfunction, and sedation. While no head-to-head data are currently available, double-blind placebo-controlled studies show favorable results, with the number needed to treat (NNT) vs placebo of 6-15 for response in acute schizophrenia treatment and 4 for maintenance. NNT is 12 for response and 17-31 for remission vs placebo in major depression. In schizophrenia trials, treatment-emergent adverse effects (TEAEs) and discontinuation rates due to TEAEs were lower in treatment groups vs placebo (7.1%-9.2% vs 14.7%, ",
+            "journal": "Therapeutics and clinical risk management",
+            "year": "2017",
+            "authors": [
+              "Parikh Nishant B",
+              "Robinson Diana M",
+              "Clayton Anita H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28331332/"
+          },
+          {
+            "pmid": "39243127",
+            "title": "Advances in Mood Disorder Pharmacotherapy: Evaluating New Antipsychotics and Mood Stabilizers for Bipolar Disorder and Schizophrenia.",
+            "abstract": "This article provides a narrative review of recent developments in mood-stabilizing drugs, considering their mechanism of action, efficacy, safety, and therapeutic potential in the treatment of mood disorders, particularly bipolar disorder and schizophrenia. The review focuses on the mechanism and clinical aspects of second-generation antipsychotic medications; aripiprazole, classified as a third-generation antipsychotic medication; lamotrigine, as a representative of antiepileptic drugs; and lurasidone, a novel second-generation antipsychotic medication. Moreover, the article refers to one of the newest and most highly effective normothymic drugs, cariprazine. The potential of new mood stabilizer candidates lumateperone and brexpiprazole is also presented. Covered topics include the clinical efficacy of new drugs in reducing manic and depressive symptoms during acute episodes, as well as their role in preventing relapse. In addition, we analyzed the incidence of adverse effects of eac",
+            "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+            "year": "2024",
+            "authors": [
+              "Kowalczyk Emilia",
+              "Koziej Sylwia",
+              "Soroka Ewelina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antipsychotic Agents",
+              "Bipolar Disorder",
+              "Schizophrenia",
+              "Mood Disorders",
+              "Aripiprazole",
+              "Anticonvulsants",
+              "Lamotrigine",
+              "Lurasidone Hydrochloride",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39243127/"
+          },
+          {
+            "pmid": "36855876",
+            "title": "Pharmacotherapies for Treatment-Resistant Depression: How Antipsychotics Fit in the Rapidly Evolving Therapeutic Landscape.",
+            "abstract": "One in three adults with major depressive disorder (MDD) do not experience clinically significant improvement after multiple sequential courses of antidepressants and have treatment-resistant depression (TRD). The presence of TRD contributes to the morbidity and excess mortality associated with MDD and has been linked to significantly increased health care expenses. In the absence of a consensus definition of TRD, this report takes a broad approach by considering inadequate response to one or more courses of antidepressants and focuses on atypical antipsychotics that are approved by the U.S. Food and Drug Administration for treatment of depression (aripiprazole, brexpiprazole, cariprazine, extended-release quetiapine, and olanzapine-fluoxetine combination). While multiple acute-phase studies have demonstrated the efficacy of these medications in improving depressive symptoms, clinically meaningful improvement (i.e., remission) remains limited, with significant concerns about side effec",
+            "journal": "The American journal of psychiatry",
+            "year": "2023",
+            "authors": [
+              "Jha Manish K",
+              "Mathew Sanjay J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "United States",
+              "Adult",
+              "Humans",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depression",
+              "Depressive Disorder, Treatment-Resistant",
+              "Aripiprazole",
+              "Drug-Related Side Effects and Adverse Reactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36855876/"
+          },
+          {
+            "pmid": "27274197",
+            "title": "Spotlight on brexpiprazole and its potential in the treatment of schizophrenia and as adjunctive therapy for the treatment of major depression.",
+            "abstract": "Antipsychotic agents, utilized for the treatment of a range of psychiatric disorders, differ substantially in terms of their pharmacology and adverse effect profiles. Incomplete and variable efficacy, differences in safety-tolerability, and highly heterogeneous response across individuals prompt development of new agents. Brexpiprazole is one of the two most recently introduced antipsychotic agents approved for the treatment of schizophrenia and as an adjunct for treatment of major depressive disorder. Its pharmacology, clinical trial data, and efficacy and side effects in comparison with other antipsychotic agents are discussed. Brexpiprazole is a dopamine D-2 partial agonist with potent activity at the serotonin 5HT1A and 5HT2A and noradrenergic alpha-1B and alpha-2C receptors. Placebo-controlled clinical trials in persons with schizophrenia support its efficacy in treating psychosis and preventing relapse. Short-term clinical trials also support its efficacy as an adjunct to antidep",
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "authors": [
+              "Bruijnzeel Dawn",
+              "Tandon Rajiv"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Major Depressive Disorder",
+              "Humans",
+              "Quinolones",
+              "Schizophrenia",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27274197/"
+          },
+          {
+            "pmid": "37933521",
+            "title": "Adjunctive brexpiprazole 1 mg and 2 mg daily for Japanese patients with major depressive disorder following inadequate response to antidepressants: a phase 2/3, randomized, double-blind (BLESS) study.",
+            "abstract": "Inadequate antidepressant response interrupts effective treatment of major depressive disorder (MDD). The BLESS study evaluates the dosage, efficacy, and safety of brexpiprazole adjunctive therapy in Japanese patients with inadequate antidepressant therapy (ADT) response.",
+            "journal": "Psychiatry and clinical neurosciences",
+            "year": "2024",
+            "authors": [
+              "Kato Masaki",
+              "Shiosakai Masako",
+              "Kuwahara Kazuo",
+              "Iba Katsuhiro",
+              "Shimada Yuki"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Clinical Trial, Phase II",
+              "Clinical Trial, Phase III",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Major Depressive Disorder",
+              "Prospective Studies",
+              "Japan",
+              "Single-Blind Method",
+              "Drug Therapy, Combination",
+              "Antidepressive Agents",
+              "Treatment Outcome",
+              "Double-Blind Method",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37933521/"
+          },
+          {
+            "pmid": "32141908",
+            "title": "Efficacy and safety of brexpiprazole in acute management of psychiatric disorders: a meta-analysis of randomized controlled trials.",
+            "abstract": "Brexpiprazole is a new atypical antipsychotic for schizophrenia management and as adjunct in major depressive disorder (MDD). We searched randomized controlled trials (RCT) to review brexpiprazole efficacy and tolerability in acute management of schizophrenia and MDD using PubMed, EUDRACT, ClinicalTrials.gov and Cochrane Central Register of Controlled Trials. A meta-analysis was conducted using the identified 14 RCT to assess its efficacy using positive and negative syndrome scale (PANSS), clinical global impressions - severity of illness (CGI-S), personal and social performance scale (PSP), Montgomery-Åsberg depression rating scale (MADRS), Sheehan disability scale (SDS) and Hamilton depression rating scale (HDRS17). The mean difference comparing brexpiprazole and placebo were PANSS -4.48, CGI-S -0.23 and PSP 3.24 favoring brexpiprazole. Compared to aripiprazole and quetiapine, brexpiprazole showed similar efficacy. In MDD, brexpiprazole showed efficacy compared to placebo demonstrate",
+            "journal": "International clinical psychopharmacology",
+            "year": "2020",
+            "authors": [
+              "Antoun Reyad Ayman",
+              "Girgis Eriny",
+              "Mishriky Raafat"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Aripiprazole",
+              "Major Depressive Disorder",
+              "Humans",
+              "Psychiatric Status Rating Scales",
+              "Quetiapine Fumarate",
+              "Quinolones",
+              "Schizophrenia",
+              "Thiophenes",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32141908/"
+          },
+          {
+            "pmid": "34092824",
+            "title": "Brexpiprazole for the Treatment of Schizophrenia and Major Depressive Disorder: A Comprehensive Review of Pharmacological Considerations in Clinical Practice.",
+            "abstract": "Mood and psychotic disorders are a group of illnesses that affect behavior and cognition. Schizophrenia is characterized by positive symptoms, such as delusions and hallucinations, as well as negative symptoms. Major depressive disorder (MDD) is a mood disorder that affects the patient's emotions, energy, and motivation. Brexpiprazole works as a partial agonist at serotonin 5-hydroxytryptamine1A and dopamine D2 receptors and an antagonist at serotonin 5-hydroxytryptamine2A. Schizophrenia and MDD have a wide range of risk factors, both biological and environmental. Third generation antipsychotics, which include brexpiprazole, are the latest group of drugs to reach the market, demonstrating efficacy and tolerability. Patients with acute schizophrenia have responded well to brexpiprazole. In this regard, in patients who have MDD plus anxiety symptoms, brexpiprazole can be effective as an adjunctive therapy and can reduce anxiety symptoms. In summary, brexpiprazole has proved to be an effe",
+            "journal": "Psychopharmacology bulletin",
+            "year": "2021",
+            "authors": [
+              "Edinoff Amber N",
+              "Wu Natalie W",
+              "Maxey Benjamin S",
+              "Ren Amy L",
+              "Leethy Kenna N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34092824/"
+          },
+          {
+            "pmid": "39424742",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Long-term Safety and Efficacy of Adjunctive Brexpiprazole 2 mg Daily in Japanese Patients with Major Depressive Disorder.",
+            "abstract": "Inadequate response to antidepressant monotherapy is common among patients with major depressive disorder (MDD). The efficacy and safety of adjunctive brexpiprazole 2 mg/day has recently been confirmed during the 6-week, randomized, placebo-controlled phase 2/3 (BLESS) study, which evaluated brexpiprazole at 1 mg/day and 2 mg/day versus placebo as adjunctive therapy to antidepressant therapies in 740 Japanese patients with MDD and an inadequate response to antidepressant monotherapy. This study evaluated the long-term safety and efficacy of adjunctive fixed-dose brexpiprazole 2 mg/day in Japanese patients with MDD.",
+            "journal": "CNS drugs",
+            "year": "2024",
+            "authors": [
+              "Kato Masaki",
+              "Shiosakai Masako",
+              "Kuwahara Kazuo",
+              "Iba Katsuhiro",
+              "Shimada Yuki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Clinical Trial, Phase II"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Major Depressive Disorder",
+              "Thiophenes",
+              "Female",
+              "Quinolones",
+              "Male",
+              "Middle Aged",
+              "Double-Blind Method",
+              "Aged",
+              "Antidepressive Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39424742/"
+          },
+          {
+            "pmid": "38219278",
+            "title": "Comparison of brexpiprazole, aripiprazole, and placebo for Japanese major depressive disorder: A systematic review and network meta-analysis.",
+            "abstract": "This systematic review and frequentist network meta-analysis used random-effects models is conducted to determine whether there are differences in the efficacy, acceptability, tolerability, and safety profiles of brexpiprazole (BRE) and aripiprazole (ARI) for Japanese with major depressive disorder (MDD) who were inadequately responsive to antidepressants.",
+            "journal": "Neuropsychopharmacology reports",
+            "year": "2024",
+            "authors": [
+              "Kishi Taro",
+              "Sakuma Kenji",
+              "Saito Takeo",
+              "Nakagawa Atsuo",
+              "Kato Masaki"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aripiprazole",
+              "Major Depressive Disorder",
+              "Japan",
+              "Psychomotor Agitation",
+              "Weight Gain",
+              "Randomized Controlled Trials as Topic",
+              "Thiophenes",
+              "Quinolones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38219278/"
+          },
+          {
+            "pmid": "34238049",
+            "title": "Efficacy and Tolerability of Combination Treatments for Major Depression: Antidepressants plus Second-Generation Antipsychotics vs. Esketamine vs. Lithium.",
+            "abstract": "Successful treatment of major depressive disorder (MDD) can be challenging, and failures (\"treatment-resistant depression\" [TRD]) are frequent. Steps to address TRD include increasing antidepressant dose, combining antidepressants, adding adjunctive agents, or using nonpharmacological treatments. Their relative efficacy and tolerability remain inadequately tested. In particular, the value and safety of increasingly employed second-generation antipsychotics (SGAs) and new esketamine, compared to lithium as antidepressant adjuncts remain unclear.",
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2021",
+            "authors": [
+              "Vázquez Gustavo H",
+              "Bahji Anees",
+              "Undurraga Juan",
+              "Tondo Leonardo",
+              "Baldessarini Ross J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Major Depressive Disorder",
+              "Depressive Disorder, Treatment-Resistant",
+              "Dose-Response Relationship, Drug",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Ketamine",
+              "Lithium Compounds",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34238049/"
+          },
+          {
+            "pmid": "29955525",
+            "title": "Brexpiprazole: A review of a new treatment option for schizophrenia and major depressive disorder.",
+            "abstract": "Brexpiprazole is an atypical antipsychotic that works as a partial agonist at serotonin 5-hydroxytryptamine1A and dopamine D2 receptors and an antagonist at serotonin 5-hydroxytryptamine2A. It has US Food and Drug Administration approval for monotherapy treatment of schizophrenia and adjunctive treatment to antidepressants for major depressive disorder. Two phase-3 clinical trials demonstrated efficacy and relatively fair tolerability with regard to adverse effects for each indication. Akathisia was frequently reported in the major depressive disorder trials but less so in the schizophrenia trials. Significant increases in body weight and triglycerides were seen across all studies. Brexpiprazole appears to be a viable option for treating an acute exacerbation of schizophrenia requiring hospitalization or adjunctive treatment of major depressive disorder in patients who showed an inadequate response to 1 to 3 antidepressants. Further clinical trials are warranted to determine the long-t",
+            "journal": "The mental health clinician",
+            "year": "2017",
+            "authors": [
+              "Diefenderfer Lauren A",
+              "Iuppa Courtney"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29955525/"
+          },
+          {
+            "pmid": "35975555",
+            "title": "The Canadian Network for Mood and Anxiety Treatments (CANMAT) Task Force Report: Serotonergic Psychedelic Treatments for Major Depressive Disorder.",
+            "abstract": "Serotonergic psychedelics are re-emerging as potential novel treatments for several psychiatric disorders including major depressive disorder. The Canadian Network for Mood and Anxiety Treatments (CANMAT) convened a task force to review the evidence and provide a consensus recommendation for the clinical use of psychedelic treatments for major depressive disorder.",
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "2023",
+            "authors": [
+              "Rosenblat Joshua D",
+              "Husain M Ishrat",
+              "Lee Yena",
+              "McIntyre Roger S",
+              "Mansur Rodrigo B"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hallucinogens",
+              "Psilocybin",
+              "Major Depressive Disorder",
+              "Canada",
+              "Anxiety",
+              "Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35975555/"
+          },
+          {
+            "pmid": "38924903",
+            "title": "Efficacy and safety of eight enhanced therapies for treatment-resistant depression: A systematic review and network meta-analysis of RCTs.",
+            "abstract": "Treatment-Resistant Depression (TRD) challenges psychiatric treatment, with existing guidelines covering only a subset of augmentation strategies.",
+            "journal": "Psychiatry research",
+            "year": "2024",
+            "authors": [
+              "Guo Qinghua",
+              "Guo Libo",
+              "Wang Yong",
+              "Shang Shaomei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antidepressive Agents",
+              "Depressive Disorder, Treatment-Resistant",
+              "Electroconvulsive Therapy",
+              "Ketamine",
+              "Outcome Assessment, Health Care",
+              "Psilocybin",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38924903/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Keppen-Lubinsky syndrome",
+        "txgnn_score": 0.9605314135551452,
+        "txgnn_rank": 24130,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ohdo syndrome and variants",
+        "txgnn_score": 0.949688732624054,
+        "txgnn_rank": 26783,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retinal dystrophy with or without extraocular anomalies",
+        "txgnn_score": 0.9475339651107788,
+        "txgnn_rank": 27241,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9416661",
+            "title": "Orbital infections.",
+            "abstract": "Orbital infections account for the majority of primary intraorbital disease processes. Sinusitis is the most common etiology. Five stages of cellulitis secondary to sinusitis have been described. Systemic conditions which predispose to orbital infection include diabetes, septicemia, malignancy, and immunosuppresion. Clinical signs and symptoms include superficial inflammatory changes, as well as proptosis, limitation of extraocular motility, and visual loss. Causative agents are most commonly bacteria, with fungus, viruses, and parasites seen less frequently. Imaging is performed by CT and/or MRI which are complementary in certain cases. Differential diagnosis of imaging abnormalities includes inflammatory and granulomatous diseases, as well as neoplasm.",
+            "journal": "Seminars in ultrasound, CT, and MR",
+            "year": "1997",
+            "authors": [
+              "Hershey B L",
+              "Roth T C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Eye Infections",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Orbit",
+              "Orbital Diseases",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9416661/"
+          },
+          {
+            "pmid": "20127583",
+            "title": "Pearls: diplopia.",
+            "abstract": "Double vision may arise from ocular, neurologic, or extraocular muscle disorders. The approach to patients with diplopia requires a systematic approach to the history and the physical examination. There are many challenges in the evaluation of diplopia, ranging from the patient's mental status to the fine points of the examination. This article provides a process for interviewing and examining these patients, explaining the rationale and differential diagnosis of various clinical presentations. Common causes of monocular and binocular diplopia are addressed by the pattern of diplopia described by the patient. The examination and the interpretation of examination findings are presented by incorporating the \"upside-down-and-backwards\" concept. This review offers some Pearls-perhaps even diamonds-on evaluating patients who complain of diplopia, as well as those who have eye movement abnormalities but can't articulate their symptoms.",
+            "journal": "Seminars in neurology",
+            "year": "2010",
+            "authors": [
+              "Friedman Deborah I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Diagnosis, Differential",
+              "Diplopia",
+              "Humans",
+              "Neurologic Examination",
+              "Ocular Motility Disorders",
+              "Terminology as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20127583/"
+          },
+          {
+            "pmid": "22241537",
+            "title": "[Congenital ptosis].",
+            "abstract": "Simple congenital ptosis is the most common form, characterised by fatty dystrophy and fibrosis of the levator muscle, which leads to a restricted elevation in upgaze and a lid lag in downgaze. In the complicated form additional changes will be found: fibrosis of extraocular muscles, synkinesia or anomalies of the lids. Moreover, congenital ptosis is relatively often associated with refractive errors and/or disturbance of the binocular vision. Therefore a careful examination is necessary. Therapeutic management includes first prevention of amblyopia either by occlusion or by early surgical intervention. The choice of operation depends on the grade of ptosis, the actual levator function and the presence of lid anomalies as well.",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "2012",
+            "authors": [
+              "Hübner H"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Blepharoptosis",
+              "Humans",
+              "Muscular Diseases",
+              "Oculomotor Muscles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22241537/"
+          },
+          {
+            "pmid": "38249493",
+            "title": "Congenital anomalies of lens shape.",
+            "abstract": "The crystalline lens is an important structure in the eye that starts to develop as early as the 22nd day of gestation, with further differentiation that continues after the induction. Congenital anomalies of the lens may involve the size, shape, and position of the lens. They may sometimes be associated with anterior segment dysgenesis or persistence of the tunica vasculosa lentis and hyperplastic vitreous and hyaloid system. Manifestations of anomalies of the lens shape are usually seen in early or late childhood however may sometimes be delayed into adulthood based on the level of visual impairment or the presence or absence of any syndromic associations. While lens coloboma has more often been reported in isolation, the more commonly implicated genes include the PAX6 gene, lenticonus in particular anterior is often part of Alport syndrome with extra-ocular manifestations in the kidneys and hearing abnormalities due to mutations in the alpha 5 chain of the Type IV collagen gene. Rec",
+            "journal": "Taiwan journal of ophthalmology",
+            "year": "2023",
+            "authors": [
+              "Bhate Manjushree",
+              "Motwani Divya",
+              "Murthy Somasheila I",
+              "Fernandes Merle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38249493/"
+          },
+          {
+            "pmid": "109006",
+            "title": "Unilateral cryptophthalmia.",
+            "abstract": "Two patients had the variable clinical features of unilateral cryptophthalmia. A 5-month-old boy had isolated unilateral cryptophthalmia: a small boney orbit, deformed optic canal, and a small amorphous mass with no normal intraocular tissue representing the globe. No extraocular muscles or optic nerve were identified by B-scan ultrasound or by computed axial tomography x-ray techniques. The second patient, a 13-year-old girl, had unilateral cryptophthalmia, and numerous systemic abnormalities including a head circumference less than the third percentile, severe mental retardation, hypoplasia of the left side of the head, and a left facial cleft deformity. She also had contractures of hips, knees and ankles, and bilateral spasticity and jerky movements. The left boney orbit was contracted and deformed and contained a small amorphous tissue with no ocular detail, as revealed by B-scan and computed tomography scan.",
+            "journal": "American journal of ophthalmology",
+            "year": "1979",
+            "authors": [
+              "Howard R O",
+              "Fineman R M",
+              "Anderson B",
+              "Moseley N",
+              "Gilman M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Adolescent",
+              "Adult",
+              "Child, Preschool",
+              "Chromosomes, Human",
+              "Eye Abnormalities",
+              "Facial Bones",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/109006/"
+          },
+          {
+            "pmid": "24413161",
+            "title": "Congenital trochlear-oculomotor synkinesis.",
+            "abstract": "Synkinesis of the extraocular muscles forms a subset of congenital ocular motility abnormalities termed congenital cranial dysinnervation disorders. Synkinesis most frequently involves the abducens or oculomotor nerves and rarely the trochlear nerve. Only 3 such patients have been described in the literature. We report an isolated case of trochlear-oculomotor synkinesis in a healthy 6-year-old boy and discuss the proposed pathophysiology of this disorder.",
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2014",
+            "authors": [
+              "Bursztyn Lulu L C D",
+              "Makar Inas"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Diagnosis, Differential",
+              "Eye Movements",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Ocular Motility Disorders",
+              "Oculomotor Muscles",
+              "Oculomotor Nerve",
+              "Synkinesis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24413161/"
+          },
+          {
+            "pmid": "7035111",
+            "title": "The Wagner-Stickler syndrome complex.",
+            "abstract": "The Wagner's vitreoretinal degeneration is a condition characterized by myopia, cataract, optically empty vitreous cavity and retinal breaks leading to retinal detachments with poor surgical prognosis. Several extraocular manifestations were reported to be associated with these eye findings and various syndromes were delineated describing sensorineural deafness, orofacial anomalies and skeletal dysplasias. There is enough evidence to suggest that this condition results from a phenotypic variability of genic origin, transmitted as an irregular autosomal dominant trait. In the absence of knowledge about the primary gene defect, the problems in nosology emphasize the difficulty in distinguishing genetic heterogeneity from variable gene expression. In view of the great deal of similarity between all these syndromes with vitreoretinal degeneration it is suggested that all these entities represent the extremes of the same disease spectrum forming parts of a continuum.",
+            "journal": "Documenta ophthalmologica. Advances in ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Godel V",
+              "Nemet P",
+              "Lazar M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Bone and Bones",
+              "Face",
+              "Humans",
+              "Mouth Abnormalities",
+              "Myopia",
+              "Retina",
+              "Retinal Degeneration",
+              "Syndrome",
+              "Vitreous Body"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7035111/"
+          },
+          {
+            "pmid": "38321238",
+            "title": "Pediatric orbital lesions: ocular pathologies.",
+            "abstract": "Orbital pathologies can be broadly classified as ocular, extra-ocular soft-tissue (non-neoplastic and neoplastic), osseous, and traumatic. In part 1 of this orbital series, the authors will discuss the differential diagnosis and key imaging features of pediatric ocular pathologies. These include congenital and developmental lesions (microphthalmos, anophthalmos, persistent fetal vasculature, coloboma, morning glory disc anomaly, retinopathy of prematurity, Coats disease), optic disc drusen, infective and inflammatory lesions (uveitis, toxocariasis, toxoplasmosis), and ocular neoplasms (retinoblastoma, retinal hamartoma, choroidal melanoma, choroidal nevus). This pictorial review provides a practical approach to the imaging work-up of these anomalies with a focus on ocular US as the first imaging modality and additional use of CT and/or MRI for the evaluation of intracranial abnormalities. The characteristic imaging features of the non-neoplastic mimics of retinoblastoma, such as persis",
+            "journal": "Pediatric radiology",
+            "year": "2024",
+            "authors": [
+              "Gerrie Samantha K",
+              "Rajani Heena",
+              "Branson Helen M",
+              "Lyons Christopher J",
+              "Marie Eman"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Eye Diseases",
+              "Orbital Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38321238/"
+          },
+          {
+            "pmid": "19826317",
+            "title": "Variable synergistic divergence.",
+            "abstract": "To report a patient with congenital fibrosis of the extraocular muscles showing either synergistic divergence or adduction.",
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "2009",
+            "authors": [
+              "Kim Jae Hyoung",
+              "Hwang Jeong-Min"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abducens Nerve",
+              "Atrophy",
+              "Blepharoptosis",
+              "Blinking",
+              "Child",
+              "Exotropia",
+              "Eye Movements",
+              "Female",
+              "Fibrosis",
+              "Fixation, Ocular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19826317/"
+          },
+          {
+            "pmid": "33447730",
+            "title": "Eye involvement in inherited metabolic disorders.",
+            "abstract": "Inherited metabolic disorders are a large group of rare disorders affecting normal biochemical pathways. Many metabolic disorders can present with symptoms affecting the eye, and eye disorders can evolve later in the natural history of an already diagnosed metabolic disorder. The ophthalmic involvement can be very varied affecting any part of the eye, including abnormalities of cornea, lens dislocation and cataracts, retina and the distal optic pathway, and extraocular muscles. Awareness of inherited metabolic disorders is important to facilitate early diagnosis and in some cases instigate early treatment if a patient presents with eye involvement suggestive of a metabolic disorder. Ophthalmological interventions are also an important component of the multisystem holistic approach to treating patients with metabolic disorders.",
+            "journal": "Therapeutic advances in ophthalmology",
+            "year": "2020",
+            "authors": [
+              "Davison James E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33447730/"
+          },
+          {
+            "pmid": "19064847",
+            "title": "Orbital arteriovenous malformations.",
+            "abstract": "To present the clinical features, management, and outcomes in a series of patients with orbital arteriovenous malformations (AVMs).",
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "2008",
+            "authors": [
+              "Warrier Sunil",
+              "Prabhakaran Venkatesh C",
+              "Valenzuela Alejandra",
+              "Sullivan Tim J",
+              "Davis Garry"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Arteriovenous Malformations",
+              "Carotid Artery, External",
+              "Embolization, Therapeutic",
+              "Face",
+              "Female",
+              "Fluorescein Angiography",
+              "Humans",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19064847/"
+          },
+          {
+            "pmid": "24932988",
+            "title": "Pathogenesis and treatment of maculopathy associated with cavitary optic disc anomalies.",
+            "abstract": "To propose a unifying theory regarding the pathogenesis of maculopathy associated with cavitary optic disc anomalies and to describe a rational approach to achieving a permanent cure in affected eyes.",
+            "journal": "American journal of ophthalmology",
+            "year": "2014",
+            "authors": [
+              "Jain Nieraj",
+              "Johnson Mark W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Eye Diseases, Hereditary",
+              "Humans",
+              "Laser Coagulation",
+              "Macula Lutea",
+              "Optic Disk",
+              "Retinal Diseases",
+              "Tomography, Optical Coherence",
+              "Vitrectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24932988/"
+          },
+          {
+            "pmid": "33806565",
+            "title": "Optic Nerve Head and Retinal Abnormalities Associated with Congenital Fibrosis of the Extraocular Muscles.",
+            "abstract": "Congenital fibrosis of the extraocular muscles (CFEOM) is a congenital cranial dysinnervation disorder caused by developmental abnormalities affecting cranial nerves/nuclei innervating the extraocular muscles. Autosomal dominant CFEOM arises from heterozygous missense mutations of KIF21A or TUBB3. Although spatiotemporal expression studies have shown KIF21A and TUBB3 expression in developing retinal ganglion cells, it is unclear whether dysinnervation extends beyond the oculomotor system. We aimed to investigate whether dysinnervation extends to the visual system by performing high-resolution optical coherence tomography (OCT) scans characterizing retinal ganglion cells within the optic nerve head and retina. Sixteen patients with CFEOM were screened for mutations in KIF21A, TUBB3, and TUBB2B. Six patients had apparent optic nerve hypoplasia. OCT showed neuro-retinal rim loss. Disc diameter, rim width, rim area, and peripapillary nerve fiber layer thickness were significantly reduced i",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Thomas Mervyn G",
+              "Maconachie Gail D E",
+              "Kuht Helen J",
+              "Chan Wai-Man",
+              "Sheth Viral"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cranial Nerves",
+              "Female",
+              "Fibrosis",
+              "Humans",
+              "Male",
+              "Mutation, Missense",
+              "Oculomotor Muscles",
+              "Ophthalmoplegia",
+              "Optic Disk"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33806565/"
+          },
+          {
+            "pmid": "30747268",
+            "title": "Neuroradiological and clinical features in ophthalmoplegia.",
+            "abstract": "Especially in acute onset of ophthalmoplegia, efficient neuroradiological evaluation is necessary to assist differential diagnosis, clinical course, and treatment options.",
+            "journal": "Neuroradiology",
+            "year": "2019",
+            "authors": [
+              "Weidauer Stefan",
+              "Hofmann Christian",
+              "Wagner Marlies",
+              "Hattingen Elke"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diagnosis, Differential",
+              "Humans",
+              "Neuroimaging",
+              "Ophthalmoplegia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30747268/"
+          },
+          {
+            "pmid": "30196776",
+            "title": "Ophthalmoplegia and Congenital Cranial Dysinnervation Disorders.",
+            "abstract": "Some forms of ophthalmoplegia are congenital and fall into the category of Congenital Cranial Dysinnervation Disorders (CCDDs). These disorders arise from a primary defect of cranial nucleus/nerve development or guidance. Many have substantial limitations of ocular motility with or without other associated features. The type and degree of ophthalmoplegia can be similar between CCDD subtypes as well as with non-congenital forms of ophthalmoplegia. Therefore diagnostic confirmation often requires neuro-imaging and/or genetic investigations. The clinician should consider this category in cases of ophthalmoplegia that are congenital and nonprogressive in nature.",
+            "journal": "Journal of binocular vision and ocular motility",
+            "year": "2018",
+            "authors": [
+              "Oystreck Darren T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cranial Nerves",
+              "Eye Movements",
+              "Fibrosis",
+              "Humans",
+              "Oculomotor Muscles",
+              "Ophthalmoplegia",
+              "Congenital Cranial Dysinnervation Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30196776/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+        "txgnn_score": 0.944981038570404,
+        "txgnn_rank": 27821,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09128",
+    "name": "Brexpiprazole",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Brexpiprazole"
+      },
+      "queried_at": "2026-03-10T06:18:21.627964",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Brexpiprazole"
+      },
+      "queried_at": "2026-03-10T06:18:24.898735",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T06:18:26.291312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T06:18:36.397355",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T06:18:37.445603",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T06:18:37.965270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T06:18:41.193242",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-10T06:18:42.043388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T06:18:42.669442",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T06:18:46.444648",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-10T06:18:47.118454",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-10T06:18:47.692463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-10T06:18:53.265272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "neurotic disorder"
+      },
+      "queried_at": "2026-03-10T06:18:54.093008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T06:18:54.745152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T06:18:59.613486",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "neurotic depression"
+      },
+      "queried_at": "2026-03-10T06:19:03.587162",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T06:19:04.059873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T06:19:09.296202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "melancholia"
+      },
+      "queried_at": "2026-03-10T06:19:14.972355",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "queried_at": "2026-03-10T06:19:15.723570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "queried_at": "2026-03-10T06:19:19.923287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "queried_at": "2026-03-10T06:19:20.577101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T06:19:21.095426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T06:19:24.617055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "queried_at": "2026-03-10T06:19:25.453232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "retinal dystrophy with or without extraocular anomalies"
+      },
+      "queried_at": "2026-03-10T06:19:25.947863",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "retinal dystrophy with or without extraocular anomalies"
+      },
+      "queried_at": "2026-03-10T06:19:29.875094",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "retinal dystrophy with or without extraocular anomalies"
+      },
+      "queried_at": "2026-03-10T06:19:33.184827",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-10T06:19:34.340977",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-10T06:19:38.046580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Brexpiprazole",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "queried_at": "2026-03-10T06:19:38.658313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:19:38.664124"
+  }
+}

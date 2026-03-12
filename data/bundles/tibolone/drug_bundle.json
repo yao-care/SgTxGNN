@@ -1,0 +1,625 @@
+{
+  "drug": {
+    "inn": "Tibolone",
+    "drugbank_id": "DB09070",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.963134765625,
+        "txgnn_rank": 23429,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29521155",
+            "title": "Migraine, hormones and the menopausal transition.",
+            "abstract": "Migraine is a common, disabling and incapacitating headache disorder that may be triggered by many factors, such as hormones especially during the perimenopausal period, where large alterations in estradiol levels can occur. The evidence implies that hormonal fluctuations are one of the important triggers of migraine. During reproductive life and during hormonal contraception, the course of migraine can be impacted. Different types of migraine with and without aura can be variously influenced by hormones. Migraine can constitute a risk factor for stroke and this must be taken in account for menopause hormone therapy. Hormone therapy is a possible approach to prevent migraine that happens during the menopause transition. Scarce data on the various regimens and types of hormone therapy are available. Transdermal estradiol displays a more favorable profile on migraine than oral estrogens because it may provide more constant levels of estrogens.",
+            "journal": "Climacteric : the journal of the International Menopause Society",
+            "year": "2018",
+            "authors": [
+              "Hipolito Rodrigues M A",
+              "Maitrot-Mantelet L",
+              "Plu-Bureau G",
+              "Gompel A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Contraception",
+              "Estradiol",
+              "Estrogen Replacement Therapy",
+              "Estrogens",
+              "Female",
+              "Humans",
+              "Menopause",
+              "Migraine Disorders",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29521155/"
+          },
+          {
+            "pmid": "16894336",
+            "title": "Different effects of tibolone and low-dose EPT in the management of postmenopausal women with primary headaches.",
+            "abstract": "The present randomized prospective study aimed to compare the effect of tibolone (T) with conventional low-dose estrogen-progestogen therapy (EPT) administered in a combined continuous regimen on the course of primary headaches in postmenopausal women requesting hormone therapy (HT) for climacteric complaints.",
+            "journal": "Menopause (New York, N.Y.)",
+            "year": "2006",
+            "authors": [
+              "Nappi Rossella E",
+              "Sances Grazia",
+              "Sommacal Arianna",
+              "Detaddei Silvia",
+              "Facchinetti Fabio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Analysis of Variance",
+              "Estrogen Receptor Modulators",
+              "Estrogen Replacement Therapy",
+              "Female",
+              "Headache",
+              "Humans",
+              "Middle Aged",
+              "Norpregnenes",
+              "Postmenopause",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16894336/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Worth syndrome",
+        "txgnn_score": 0.9603064060211182,
+        "txgnn_rank": 24196,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9579428434371948,
+        "txgnn_rank": 24750,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "29521155",
+            "title": "Migraine, hormones and the menopausal transition.",
+            "abstract": "Migraine is a common, disabling and incapacitating headache disorder that may be triggered by many factors, such as hormones especially during the perimenopausal period, where large alterations in estradiol levels can occur. The evidence implies that hormonal fluctuations are one of the important triggers of migraine. During reproductive life and during hormonal contraception, the course of migraine can be impacted. Different types of migraine with and without aura can be variously influenced by hormones. Migraine can constitute a risk factor for stroke and this must be taken in account for menopause hormone therapy. Hormone therapy is a possible approach to prevent migraine that happens during the menopause transition. Scarce data on the various regimens and types of hormone therapy are available. Transdermal estradiol displays a more favorable profile on migraine than oral estrogens because it may provide more constant levels of estrogens.",
+            "journal": "Climacteric : the journal of the International Menopause Society",
+            "year": "2018",
+            "authors": [
+              "Hipolito Rodrigues M A",
+              "Maitrot-Mantelet L",
+              "Plu-Bureau G",
+              "Gompel A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Contraception",
+              "Estradiol",
+              "Estrogen Replacement Therapy",
+              "Estrogens",
+              "Female",
+              "Humans",
+              "Menopause",
+              "Migraine Disorders",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29521155/"
+          },
+          {
+            "pmid": "19465675",
+            "title": "Hormonal management of migraine at menopause.",
+            "abstract": "In this review, we underline the importance of linking migraine to reproductive stages for optimal management of such a common disease across the lifespan of women. Menopause has a variable effect on migraine depending on individual vulnerability to neuroendocrine changes induced by estrogen fluctuations and on the length of menopausal transition. Indeed, an association between estrogen 'milieu' and attacks of migraine is strongly supported by several lines of evidence. During the perimenopause, it is likely to observe a worsening of migraine, and a tailored hormonal replacement therapy (HRT) to minimize estrogen/progesterone imbalance may be effective. In the natural menopause, women experience a more favourable course of migraine in comparison with those who have surgical menopause. When severe climacteric symptoms are present, postmenopausal women may be treated with continuous HRT. Even tibolone may be useful when analgesic overuse is documented. However, the transdermal route of o",
+            "journal": "Menopause international",
+            "year": "2009",
+            "authors": [
+              "Nappi Rossella E",
+              "Sances Grazia",
+              "Detaddei Silvia",
+              "Ornati Alessandra",
+              "Chiovato Luca"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Estrogen Replacement Therapy",
+              "Estrogens",
+              "Female",
+              "Health Status",
+              "Humans",
+              "Menopause",
+              "Middle Aged",
+              "Migraine Disorders",
+              "Treatment Outcome",
+              "Women's Health"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19465675/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pregnancy associated osteoporosis",
+        "txgnn_score": 0.9560452699661256,
+        "txgnn_rank": 25206,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9553897976875304,
+        "txgnn_rank": 25368,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal dominant neovascular inflammatory vitreoretinopathy",
+        "txgnn_score": 0.9484649300575256,
+        "txgnn_rank": 27046,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic dermatitis",
+        "txgnn_score": 0.9327950477600098,
+        "txgnn_rank": 30153,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "succinyl-CoA:3-ketoacid CoA transferase deficiency",
+        "txgnn_score": 0.9204770922660828,
+        "txgnn_rank": 32256,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heparin cofactor 2 deficiency",
+        "txgnn_score": 0.91207754611969,
+        "txgnn_rank": 33457,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.9044424891471864,
+        "txgnn_rank": 34352,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09070",
+    "name": "Tibolone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tibolone"
+      },
+      "queried_at": "2026-03-10T08:47:23.261583",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tibolone"
+      },
+      "queried_at": "2026-03-10T08:47:24.177838",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:47:24.708922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:47:27.570422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T08:47:29.415509",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T08:47:29.957897",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T08:47:32.728378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T08:47:33.409722",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:47:34.024827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:47:37.112262",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T08:47:39.019977",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T08:47:39.669509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T08:47:43.230245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T08:47:44.526176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:47:45.560241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:47:49.374406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T08:47:50.545212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "queried_at": "2026-03-10T08:47:51.061162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "queried_at": "2026-03-10T08:47:54.898298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "queried_at": "2026-03-10T08:47:55.596247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:47:56.317053",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:47:59.814101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:48:01.019347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
+      },
+      "queried_at": "2026-03-10T08:48:02.175578",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
+      },
+      "queried_at": "2026-03-10T08:48:05.983018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
+      },
+      "queried_at": "2026-03-10T08:48:06.988683",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T08:48:08.482680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T08:48:12.043107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T08:48:12.941738",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T08:48:14.273270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T08:48:17.492041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tibolone",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T08:48:19.068426",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:48:19.071457"
+  }
+}

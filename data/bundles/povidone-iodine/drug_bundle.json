@@ -1,0 +1,3035 @@
+{
+  "drug": {
+    "inn": "Povidone-iodine",
+    "drugbank_id": "DB06812",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Plasmodium falciparum malaria",
+        "txgnn_score": 0.8833173513412476,
+        "txgnn_rank": 36416,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peptic esophagitis",
+        "txgnn_score": 0.8296492695808411,
+        "txgnn_rank": 40377,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peritonitis",
+        "txgnn_score": 0.8263208270072937,
+        "txgnn_rank": 40559,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38698327",
+            "title": "Efficacy of sucrose and povidone-iodine mixtures in peritoneal dialysis catheter exit-site care.",
+            "abstract": "Exit-site infection (ESI) is a common recurring complication in patients undergoing peritoneal dialysis (PD). Sucrose and povidone-iodine (SPI) mixtures, antimicrobial ointments that promote wound healing, have been used for the treatment of ulcers and burns, but their efficacy in exit-site care is still unclear.",
+            "journal": "BMC nephrology",
+            "year": "2024",
+            "authors": [
+              "Nakayama Takashin",
+              "Morimoto Kohkichi",
+              "Uchiyama Kiyotaka",
+              "Washida Naoki",
+              "Kusahana Ei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Povidone-Iodine",
+              "Middle Aged",
+              "Retrospective Studies",
+              "Male",
+              "Female",
+              "Aged",
+              "Sucrose",
+              "Anti-Infective Agents, Local",
+              "Peritoneal Dialysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38698327/"
+          },
+          {
+            "pmid": "18593388",
+            "title": "Povidone-iodine: use in hand disinfection, skin preparation and antiseptic irrigation.",
+            "abstract": "Iodine and its antibacterial properties have been used for the prevention or management of wound infections for over 150 years. However, the use of solutions (tincture) of iodine has been replaced by the widespread use of povidone-iodine, a water-soluble compound, which is a combination of molecular iodine and polyvinylpyrrolidone. The resultant broad spectrum of antimicrobial activity is well documented and its efficacy, particularly in relation to resistant micro-organisms such as methicillin-resistant Staphylococcus aureus, has been shown. In the clinical environment, there is no general agreement regarding the 'best' antiseptic and the practice varies widely. This article reviews the studies that have assessed the efficacy of povidone-iodine in hand disinfection and skin preparation and its use as an antiseptic irrigant. Although there is a distinct lack of well-designed, randomised controlled trials evaluating antiseptic efficacy, selection should be based on the next best availab",
+            "journal": "International wound journal",
+            "year": "2008",
+            "authors": [
+              "Durani Piyush",
+              "Leaper David"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Infective Agents, Local",
+              "Antisepsis",
+              "Choice Behavior",
+              "Enema",
+              "Evidence-Based Medicine",
+              "Hand Disinfection",
+              "Humans",
+              "Microbial Sensitivity Tests",
+              "Patient Selection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18593388/"
+          },
+          {
+            "pmid": "646500",
+            "title": "Intraperitoneal povidone-iodine in experimental peritonitis.",
+            "abstract": "Two experimental models were utilized to study the efficacy of intraperitoneal povidone-iodine in an established peritonitis. In both models, there was a 100% mortality in the povidone-iodine treated group. In laboratories which have reported favorable results, the animals were treated before peritonitis was allowed to develop. Clinical studies with povidone-iodine lavage have used dilute solutions which did not remain in the infected space. The effectiveness of this method was probably due to mechanical continuous irrigation. Our toxicity studies showed povidone-iodine to be fatal in normal animals in dosages exceeding 4.0 ml/kg. However, a dose of 2.0 ml/kg, which was nontoxic in normal animals, was fatal in animals with peritonitis. This study strongly suggests that the intraperitoneal administration of povidone-iodine can be fatal when the animal is compromised by peritonitis. The mechanism of this effect is unclear. On the basis of these studies, the intraperitoneal administration",
+            "journal": "Annals of surgery",
+            "year": "1978",
+            "authors": [
+              "Lagarde M C",
+              "Bolton J S",
+              "Cohn I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dogs",
+              "Drug Evaluation, Preclinical",
+              "Female",
+              "Injections, Intraperitoneal",
+              "Iodine",
+              "Male",
+              "Peritonitis",
+              "Povidone",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/646500/"
+          },
+          {
+            "pmid": "378012",
+            "title": "Intraperitoneal povidone-iodine in experimental canine and murine peritonitis.",
+            "abstract": "In dogs with appendicitis-peritonitis, intraperitoneal povidone-iodine caused death more rapidly than the instillation of saline solution. The bacterial content of canine peritoneal fluid increased with time. Although fewer bacteria were found in fluid from povidone-iodine-treated dogs, the differences were not statistically significant. Qualitative chemical analysis of peritoneal fluid revealed iodide, but not free iodine, 15 to 30 minutes after instillation of povidone-iodine. Iodine was present in the peritoneum at 2 hours but not at 3 or 6 hours. The antibacterial effect of povidone-iodine was demonstrated in mice challenged intraperitoneally with lethal doses of Escherichia coli. Povidone-iodine diminished mortality when injected immediately (p less than 0.005) but not when given 1 to 3 hours later. Immediate injection of povidone-iodine into mice lowered the number of E. coli by 3 logs. Injection of povidone-iodine 3 hours after bacterial challenge lowered the number of E. coli b",
+            "journal": "American journal of surgery",
+            "year": "1979",
+            "authors": [
+              "Bolton J S",
+              "Bornside G H",
+              "Cohn I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Appendicitis",
+              "Ascitic Fluid",
+              "Bacteroides",
+              "Clostridium",
+              "Dogs",
+              "Escherichia coli",
+              "Escherichia coli Infections",
+              "Female",
+              "Injections, Intraperitoneal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/378012/"
+          },
+          {
+            "pmid": "2926923",
+            "title": "Intraperitoneal povidone-iodine.",
+            "abstract": "",
+            "journal": "JAMA",
+            "year": "1989",
+            "authors": [
+              "Goldenheim P D"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dogs",
+              "Humans",
+              "Peritoneal Lavage",
+              "Povidone",
+              "Povidone-Iodine",
+              "Wound Infection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2926923/"
+          },
+          {
+            "pmid": "9322732",
+            "title": "Sclerosing encapsulating peritonitis after intraperitoneal use of povidone iodine.",
+            "abstract": "The use of intraperitoneal povidone iodine as an agent for peritoneal lavage in colorectal surgery is controversial. Although it possesses a wide range of antimicrobial activity and is rapidly lethal to dissociated colorectal cancer cells in vitro, concern about its potential toxicity remains.",
+            "journal": "The Australian and New Zealand journal of surgery",
+            "year": "1997",
+            "authors": [
+              "Keating J P",
+              "Neill M",
+              "Hill G L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Female",
+              "Humans",
+              "Intestinal Obstruction",
+              "Intestines",
+              "Male",
+              "Peritoneal Lavage"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9322732/"
+          },
+          {
+            "pmid": "1376156",
+            "title": "Infections and pseudoinfections due to povidone-iodine solution contaminated with Pseudomonas cepacia.",
+            "abstract": "In 1989 we investigated the first instance of Pseudomonas cepacia infections due to intrinsic contamination of a povidone-iodine product. Six patients in a Texas pediatric facility had P. cepacia infection or pseudoinfection (three, peritonitis; one, pseudoperitonitis; and two, pseudobacteremia). Epidemiological studies showed one risk factor for infection of peritoneal fluid with P. cepacia: performance of peritoneal dialysis in the dialysis unit with use of one lot of povidone-iodine later found to be intrinsically contaminated (4/5 vs. 0/16, P = .001). Blood cultures yielded P. cepacia after nurses wiped the tops of blood culture bottles with the povidone-iodine solution before inoculation. P. cepacia was cultured from three povidone-iodine containers used at the hospital and from four containers of the same lot obtained from other health-care facilities in Texas and California. Isolates from patients and the povidone-iodine had similar antibiograms, identical plasmid profiles, and ",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1992",
+            "authors": [
+              "Panlilio A L",
+              "Beck-Sague C M",
+              "Siegel J D",
+              "Anderson R L",
+              "Yetts S Y"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacteremia",
+              "Burkholderia cepacia",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Cross Infection",
+              "Disease Outbreaks",
+              "Drug Contamination",
+              "Humans",
+              "Infant",
+              "Intensive Care Units, Pediatric"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1376156/"
+          },
+          {
+            "pmid": "362070",
+            "title": "Intraperitoneal povidone-iodine in peritonitis.",
+            "abstract": "",
+            "journal": "The Journal of surgical research",
+            "year": "1978",
+            "authors": [
+              "Gilmore O J",
+              "Reid C",
+              "Houang E",
+              "Shaw E J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dose-Response Relationship, Drug",
+              "Escherichia coli Infections",
+              "Female",
+              "Injections, Intraperitoneal",
+              "Lethal Dose 50",
+              "Mice",
+              "Mice, Inbred Strains",
+              "Peritonitis",
+              "Povidone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/362070/"
+          },
+          {
+            "pmid": "3284623",
+            "title": "Treatment of experimental peritonitis with intraperitoneal povidone-iodine solution.",
+            "abstract": "Intraperitoneal lavage with povidone-iodine solution has been reported by some to be beneficial in the treatment of peritonitis and by others to cause local and toxic side effects. In this study, 200 white mice, divided into four groups of 50, were subjected to bacterial peritonitis. The first group had no treatment; peritoneal lavage was carried out using povidone-iodine solution in the second group and a 0.9% sodium chloride solution in the third. In the fourth group, antibiotics (clindamycin and gentamicin) were instilled intraperitoneally without peritoneal lavage. The povidone-iodine solution had no beneficial effect, the death rate after 1 week (76%) being similar to that in the control group (78%) and much higher than that in mice treated with sodium chloride lavage (38%) and antibiotics without lavage (16%). A second series of experiments was, therefore, carried out to investigate the toxic effect of povidone-iodine solution intraperitoneally on mice without peritonitis; the so",
+            "journal": "Canadian journal of surgery. Journal canadien de chirurgie",
+            "year": "1988",
+            "authors": [
+              "Oğuz M",
+              "Bektemir M",
+              "Dülger M",
+              "Yalin R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Escherichia coli Infections",
+              "Female",
+              "Male",
+              "Mice",
+              "Peritoneal Lavage",
+              "Peritoneum",
+              "Peritonitis",
+              "Povidone",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3284623/"
+          },
+          {
+            "pmid": "30064203",
+            "title": "Superficial and Deep Skin Preparation with Povidone-Iodine for Ventriculoperitoneal Shunt Surgery : A Technical Note.",
+            "abstract": "Ventriculoperitoneal (VP) shunt surgery is a common and effective treatment for hydrocephalus and cerebrospinal fluid disorders. Infection remains a major cause of morbidity and mortality after a VP shunt. There is evidence that a deep skin flora microbiome may have a role to play in post-operative infections. In this technical note, we present a skin preparation technique that addresses the issue of the skin flora beyond the initial incision.",
+            "journal": "Journal of Korean Neurosurgical Society",
+            "year": "2019",
+            "authors": [
+              "Craven Claudia L",
+              "Thompson Simon D",
+              "Toma Ahmed K",
+              "Watkins Laurence D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30064203/"
+          },
+          {
+            "pmid": "20676488",
+            "title": "Effects of the povidone-iodine (PVPI) in treatment of bacterial peritonitis induced in rats.",
+            "abstract": "To evaluate the effectiveness of the use of the povidone-iodine (PVI) added to the liquid of wash of the peritoneal cavity in the reduction of bacterial absorption and in the remainder non-phagocyted bacteria in the circulating blood of rat.",
+            "journal": "Acta cirurgica brasileira",
+            "year": "2010",
+            "authors": [
+              "Araujo Ivana Duval de",
+              "Grossi Giovanni Cezar Xavier",
+              "Diniz Simone Odília Fernandes",
+              "Nunes Tarcizo Afonso",
+              "Braga Eduardo Angelo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Disease Models, Animal",
+              "Drug Evaluation, Preclinical",
+              "Escherichia coli Infections",
+              "Female",
+              "Macrophages, Peritoneal",
+              "Peritoneal Cavity",
+              "Peritoneal Lavage",
+              "Peritonitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20676488/"
+          },
+          {
+            "pmid": "2782579",
+            "title": "A complication of povidone-iodine.",
+            "abstract": "",
+            "journal": "Anaesthesia",
+            "year": "1989",
+            "authors": [
+              "Joshi P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Arrhythmias, Cardiac",
+              "Female",
+              "Humans",
+              "Intraoperative Complications",
+              "Peritoneal Lavage",
+              "Povidone",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2782579/"
+          },
+          {
+            "pmid": "21912021",
+            "title": "The comparison of exit-site care with normal saline and povidone-iodine in preventing exit-site infection and peritonitis in children on chronic peritoneal dialysis treatment.",
+            "abstract": "Peritonitis and catheter exit- site infections (ESI) are important causes of hospitalization and catheter loss in patients undergoing chronic peritoneal dialysis (CPD). The frequency of infection can be reduced by scrupulous exit- site care with or without topical antiseptics. There are no studies showing any benefit in the use of povidone-iodine or normal saline for care of exit- sites in long- term CPD patients. In this study, we aimed to determine the potential effectiveness of the application of povidone-iodine or normal saline at the catheter exit- site in preventing ESI and peritonitis in children on CPD. A total of 98 patients treated with either povidone-iodine or normal saline were included in this study. Group I (34 patients) used povidone-iodine and group II (64 patients) simply cleansed the exit- site with normal saline (0.9% NaCl). Dressings were changed 2 to 3 times in a week. The total cumulative follow- up time was 3233 patient- months. ESIs occurred in 10 (29.4%) of 34",
+            "journal": "Saudi journal of kidney diseases and transplantation : an official publication of the Saudi Center for Organ Transplantation, Saudi Arabia",
+            "year": "2011",
+            "authors": [
+              "Yavascan Onder",
+              "Anil Murat",
+              "Kara Orhan Deniz",
+              "Bal Alkan",
+              "Akcan Nursel"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Infective Agents, Local",
+              "Catheters, Indwelling",
+              "Child",
+              "Female",
+              "Humans",
+              "Male",
+              "Peritoneal Dialysis",
+              "Peritonitis",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21912021/"
+          },
+          {
+            "pmid": "2493128",
+            "title": "Contaminated povidone-iodine solution--Texas.",
+            "abstract": "",
+            "journal": "MMWR. Morbidity and mortality weekly report",
+            "year": "1989",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Drug Contamination",
+              "Humans",
+              "Peritonitis",
+              "Povidone",
+              "Povidone-Iodine",
+              "Pseudomonas",
+              "Pseudomonas Infections",
+              "Texas"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2493128/"
+          },
+          {
+            "pmid": "69122",
+            "title": "Intraperiotoneal povidone iodine.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1977",
+            "authors": [
+              "Gilmore O J"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Escherichia coli Infections",
+              "Humans",
+              "Injections, Intraperitoneal",
+              "Mice",
+              "Peritonitis",
+              "Povidone",
+              "Povidone-Iodine",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/69122/"
+          },
+          {
+            "pmid": "26894035",
+            "title": "Comparison of exit site infection and peritonitis incidences between povidone-iodine and normal saline use for chronic exit site care in peritoneal dialysis patients.",
+            "abstract": "Catheter-related exit site infection is a major risk factor for the development of peritonitis and can contribute to failure of treatment maintenance in peritoneal dialysis (PD) patients. Although povidone-iodine can be used for exit site care, the irritation induced by the local application of povidone-iodine could lead to secondary infection. Therefore, we evaluated the clinical effectiveness of normal saline compared with povidone-iodine as a method of exit site care in chronic PD patients.",
+            "journal": "Kidney research and clinical practice",
+            "year": "2014",
+            "authors": [
+              "Lee Su Mi",
+              "Nam Hwa Seong",
+              "Jeong Eu Gene",
+              "Son Young Ki",
+              "Kim Seong Eun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26894035/"
+          },
+          {
+            "pmid": "7244971",
+            "title": "Peritoneal lavage with povidone-iodine solution in experimentally induced peritonitis.",
+            "abstract": "Two experimental studies were carried out upon dogs to clarify the efficacy of peritoneal povidone-iodine lavage in peritonitis. With an experimental model of peritonitis which closely resembles the clinical situation, we found that peritoneal lavage with povidone-iodine was not more effective than other lavage regimens in decreasing bacterial colony counts and was associated with an early 100 per cent mortality. Renal function was not affected by the treatment with this antiseptic solution. However, we found a statistically significant superimposed metabolic acidosis in the peritonitis group treated with povidone-iodine when compared with the other groups, by means of a significant decrease in base excess, p less than 0.01, at the two hour postlavage measures. This metabolic acidosis was also observed in normal dogs undergoing peritoneal lavage with povidone-iodine, showing a significant decrease in serum bicarbonate level one hour, p less than 0.05, and three hours, p less than 0.01,",
+            "journal": "Surgery, gynecology & obstetrics",
+            "year": "1981",
+            "authors": [
+              "Lores M E",
+              "Ortíz J R",
+              "Rosselló P J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acidosis",
+              "Animals",
+              "Bicarbonates",
+              "Disease Models, Animal",
+              "Dogs",
+              "Female",
+              "Humans",
+              "Ileum",
+              "Ligation",
+              "Peritonitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7244971/"
+          },
+          {
+            "pmid": "29907236",
+            "title": "Peritoneal lavage with povidone-iodine solution in colorectal cancer-induced rats.",
+            "abstract": "Although peritoneal lavage with povidone-iodine (PVPI) is frequently performed after surgery on the gastrointestinal tract, the effects of PVPI on the intestinal epithelial barrier are unknown. The purpose of this study was to investigate the effects of abdominal irrigation with PVPI on the intestinal epithelial barrier in a colorectal cancer (CRC)-induced rat model.",
+            "journal": "The Journal of surgical research",
+            "year": "2018",
+            "authors": [
+              "Song Hua-Li",
+              "Zhang Dong-Mei",
+              "Wen Heng",
+              "Wang Meng",
+              "Zhao Na"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acidosis",
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Azoxymethane",
+              "Bacterial Translocation",
+              "Colorectal Neoplasms",
+              "Dextran Sulfate",
+              "Endotoxins",
+              "Gastrointestinal Microbiome",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29907236/"
+          },
+          {
+            "pmid": "40094137",
+            "title": "Effect of Wound Irrigation with Povidone Iodine Versus Normal Saline on Superficial Incisional Surgical Site Infection Following Laparotomy for Peritonitis.",
+            "abstract": "Peritonitis is a surgical emergency arising mostly from the perforation or rupture of an abdominal hollow viscus. Surgical operations for peritonitis are often attended by high morbidity and sometimes mortality in severe cases. Surgical site infection (SSI) is perhaps the most common post-operative morbidity following laparotomy for peritonitis.",
+            "journal": "Journal of the West African College of Surgeons",
+            "year": "2025",
+            "authors": [
+              "Adeleke Akeem Aderogba",
+              "Wuraola Funmilola Olanike",
+              "Olasehinde Olalekan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40094137/"
+          },
+          {
+            "pmid": "1681916",
+            "title": "Effect of povidone iodine and chlorhexidine on the mortality and bacterial clearance in the abdominal cavity of peritonitis rats.",
+            "abstract": "Peritonitis was induced in Wistar rats by intraperitoneal inoculation of pure Escherichia coli. The mortality rate in the untreated control group was 36% (18/50). Rats in which 2 ml 1% povidone iodine had been injected intraperitoneally 5 min after the bacterial challenge, had a significantly increased mortality rate (43/50, 86%) (p less than 0.01). When the same experiment was done with 2 ml of 0.05% chlorhexidine the mortality rate decreased significantly to 16% (8/50) (p less than 0.05). Povidone iodine did not have any bactericidal effect; on the contrary, the number of colonies of bacteria had increased in all the animals 12 and 24 hours after challenge. Chlorhexidine, on the other hand, had sufficient bactericidal effect to cause a progressive decrease in the concentration of intraperitoneal bacteria.",
+            "journal": "The European journal of surgery = Acta chirurgica",
+            "year": "1991",
+            "authors": [
+              "Celdran Uriarte A",
+              "Iñarrea Lasheras P",
+              "Marijuan Martin J L",
+              "Castilla Reparaz C",
+              "Ponte Miramonte M C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Chlorhexidine",
+              "Colony Count, Microbial",
+              "Escherichia coli",
+              "Escherichia coli Infections",
+              "Female",
+              "Male",
+              "Peritonitis",
+              "Povidone-Iodine",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1681916/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Peyronie disease",
+        "txgnn_score": 0.8170792460441589,
+        "txgnn_rank": 41035,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36897233",
+            "title": "Timing and causative organisms associated with modern inflatable penile prosthesis infection: an institutional retrospective.",
+            "abstract": "The advent of antibiotic-coated devices has reduced the rate of inflatable penile prosthesis (IPP) infections; however, this may have altered microbial profiles when infections do occur.",
+            "journal": "The journal of sexual medicine",
+            "year": "2023",
+            "authors": [
+              "Bole Md Raevti",
+              "Habashy Md Engy",
+              "Yang Md David",
+              "Ahmed MBBCh Mohamed",
+              "Trost Md Landon"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Retrospective Studies",
+              "Rifampin",
+              "Penile Prosthesis",
+              "Povidone-Iodine",
+              "Anti-Bacterial Agents",
+              "Penile Diseases",
+              "Penile Implantation",
+              "Gentamicins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36897233/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malaria",
+        "txgnn_score": 0.8141878843307495,
+        "txgnn_rank": 41183,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04033003",
+            "title": "Group Antenatal Care to Promote a Healthy Pregnancy and Optimize Maternal and Newborn Outcomes: A Cluster Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-07-29",
+            "completion_date": "2023-06-26",
+            "country": "Ghana",
+            "enrollment": 1761,
+            "brief_summary": "Antenatal care (ANC) has the potential to play a pivotal role in ensuring positive pregnancy outcomes for both mothers and their newborns. A critical component of all ANC is teaching women to recognize the major complications that account for the majority of preventable maternal and newborn deaths. Antenatal care provides an opportunity to promote a healthy lifestyle, to integrate positive health behaviors, and to develop a trusting relationship with a provider and the health system. While group",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* willingness to participate in the study\n* less than 20 weeks' gestation 3) able to speak Dangme, Ga, Akan, Ewe, or English\n* over the age of 15 years\n\nExclusion Criteria:\n\n* No history of medical problems that would indicate the participant might be considered \"high risk\" (e.g",
+            "endpoints": [
+              "Change in Ability to Identify Danger Signs in Pregnancy",
+              "Change in Birth Preparedness and Complication Readiness",
+              "Change in Ability to Identify Newborn Danger Signs"
+            ],
+            "sponsor": "University of Michigan",
+            "url": "https://clinicaltrials.gov/study/NCT04033003"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "34908464",
+            "title": "Inactivating Effects of Common Laboratory Disinfectants, Fixatives, and Temperatures on the Eggs of Soil Transmitted Helminths.",
+            "abstract": "Soil-transmitted helminths (STH) are important and widespread intestinal pathogens of humans and animals. It is presently unknown which inactivating procedures may be universally effective for safe transport, preservation, and disinfection of STH-contaminated specimens, and this lack of knowledge may expose laboratory staff to higher risk of laboratory-acquired infections (LAI's). There are limited data on the efficacy of commonly used disinfectants and fecal fixatives for inactivating the eggs of STH. This work tested five disinfectants for surface cleanup, four storage temperature conditions, and six transport/storage fixatives, to inactivate eggs of three species of STH of animal origin (Ascaris suum \"roundworm,\" Trichuris vulpis \"whipworm\" and Ancylostoma caninum \"hookworm\") as surrogates for human STH. Among disinfectants, exposure to 10% povidone-iodine for ≥5 min inactivated 100% of the three species tested, while 5 min exposure to 95% ethanol inactivated T. vulpis and A. caninu",
+            "journal": "Microbiology spectrum",
+            "year": "2021",
+            "authors": [
+              "Kines Kristine J",
+              "Fox Mark",
+              "Ndubuisi MacKevin",
+              "Verocai Guilherme G",
+              "Cama Vitaliano"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Ancylostoma",
+              "Ancylostomatoidea",
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Ascaris suum",
+              "Containment of Biohazards",
+              "Disinfectants",
+              "Disinfection",
+              "Ethanol",
+              "Feces"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34908464/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pneumonia",
+        "txgnn_score": 0.8050350546836853,
+        "txgnn_rank": 41613,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04344236",
+            "title": "A Phase II, Randomized, Open-label, Single-institution Study of the Effects of Povidone Iodine Oral Gargles and Nasal Rinses on Viral Load in Patients With COVID-19",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2020-04-09",
+            "completion_date": "2020-05-09",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "For this study, 48 patients who have been diagnosed with COVID-19 will be randomly assigned to four study groups: control, saline, chlorhexidine gluconate, and povidone-iodine. Each patient will be asked to gargle with a solution of either saline, chlorhexidine gluconate, or povidone-iodine or nothing (control group) as well as spray the same solution in their nose four times daily. Patients will then be tested for COVID-19 once daily in the evening for 7 days and viral loads will be measured.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Positive test for COVID-19\n2. Age 18-79 years\n3. Willing and able to perform oral gargles and nasal rinses four times daily\n\nExclusion Criteria\n\n1. Requiring mechanical ventilation\n2. Unable or unwilling to perform oral gargles and nasal rinses four times daily\n3. History of ",
+            "endpoints": [
+              "Viral load (and/or cycle time to PCR as a proxy for quantitative viral load) in the nasopharynx and oropharynx"
+            ],
+            "sponsor": "NYU Langone Health",
+            "url": "https://clinicaltrials.gov/study/NCT04344236"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04517188",
+            "title": "A Phase 4 Study to Evaluate Nasopharyngeal SARS-CoV-2 Viral Shedding After Halodine Nasal Antiseptic in Patients With COVID-19",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2021-04-01",
+            "completion_date": "2021-07-01",
+            "country": "N/A",
+            "enrollment": 40,
+            "brief_summary": "Povidone iodine (PVP-I) is a well-known broad spectrum, resistance free antimicrobial agent that has a long history of safe and effective use. Halodine Nasal Antiseptic is formulated for topical application PVP-I to nasal passages, and has demonstrated effectiveness against SARS-COV-2 in vitro - 99.99% inactivation within 15 seconds. This study will evaluate the ability of Halodine Nasal Antiseptic to impact SARS-CoV-2 in vivo.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Hospitalized with COVID-19\n* Positive SARS-CoV-2 (rRT)-PCR within 48 hours of enrollment\n\nExclusion Criteria:\n\n* Allergies to iodine-containing compounds",
+            "endpoints": [
+              "Nasopharyngeal SARS-CoV-2 Viral Load"
+            ],
+            "sponsor": "Halodine LLC",
+            "url": "https://clinicaltrials.gov/study/NCT04517188"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04721626",
+            "title": "A Topical Antiseptic Bundle for Decreasing Surgical Site Infection in Head and Neck Cancer Patients: Perioperative Effects on the Oral Microbiome",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-01-06",
+            "completion_date": "2021-10-04",
+            "country": "United States",
+            "enrollment": 25,
+            "brief_summary": "This is a single-arm prospective trial of an intra- and postoperative topical antiseptic bundle. The study will recruit patients undergoing an open surgical resection of the upper aerodigestive tract requiring a planed vascularized reconstruction, which may be either pedicled and/or free flap. The objectives are to evaluate antimicrobial effects of a perioperative topical antiseptic bundle and to identify the source of surgical site infection as well as the rate of 30-day adverse events in head ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 years or older.\n2. Planned to undergo an open surgical procedure requiring a communication between the upper aerodigestive tract and cervical skin with a planned vascularized reconstruction, which may be either a regional pedicled and/or free flap.\n3. Subsites reconstr",
+            "endpoints": [
+              "Oral microbial abundance in preoperative samples measured by quantitative bacteriology.",
+              "Oral microbial abundance in preoperative samples measured by 16s sequencing.",
+              "Oral microbial abundance in intraoperative samples prior to antiseptic irrigations measured by quantitative bacteriology."
+            ],
+            "sponsor": "Medical College of Wisconsin",
+            "url": "https://clinicaltrials.gov/study/NCT04721626"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01036958",
+            "title": "Development and Validation of a Symptom Scale for Children With Chronic Graft-Versus-Host Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2009-11-25",
+            "completion_date": "2018-02-06",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "Background:\n\n* Chronic graft-vs-host disease (GVHD) is an important cause of morbidity and mortality in patients undergoing allogeneic bone marrow transplantation. The symptoms of chronic GVHD are similar to those of other autoimmune diseases, and treatment for the pain often involves steroid use that can cause severe side effects over the long term.\n* At present, there is no research instrument that measures symptoms in children with chronic GVHD. Treatment practitioners may use one of several ",
+            "eligibility_criteria": "* INCLUSION CRITERIA:\n* Children of 5 to 18 years of age, who have undergone prior allogeneic stem cell transplant.\n* Clinical diagnosis of chronic GVHD with need for systemic treatment.\n* No evidence of primary disease relapse.\n* Must be willing to sign informed consent, or if applicable, child ass",
+            "endpoints": [
+              "Develop pediatric cGVHD symptom scale"
+            ],
+            "sponsor": "National Institutes of Health Clinical Center (CC)",
+            "url": "https://clinicaltrials.gov/study/NCT01036958"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05214196",
+            "title": "The Effectiveness of Oral Antiseptics on the Intraoral Viral Load of SARS-CoV-2",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-09-01",
+            "completion_date": "2021-12-07",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 75,
+            "brief_summary": "In a study conducted on 75 COVID-19 patients, the effect of SARS-CoV-2 on viral load was investigated as a result of the use of hypochlorous acid and povidone-iodine as an oral antiseptic.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Positive SARS-CoV-2 RT-PCR result,\n* Adult hospitalized patient,\n* The participants have the physical and psychological ability to follow the instructions in the study.\n\nExclusion Criteria:\n\n* Patients intubated and supported by a mechanical respirator,\n* Severe acute or chron",
+            "endpoints": [
+              "RT-PCR analysis"
+            ],
+            "sponsor": "Ataturk University",
+            "url": "https://clinicaltrials.gov/study/NCT05214196"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02195869",
+            "title": "A Multicenter Open-Label Phase 1b/2 Study of Ibrutinib in Steroid Dependent or Refractory Chronic Graft Versus Host Disease",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-07-14",
+            "completion_date": "2017-09-15",
+            "country": "United States",
+            "enrollment": 45,
+            "brief_summary": "The purpose of this study is to assess the safety and clinical efficacy of ibrutinib in subjects with steroid dependent or refractory Chronic Graft Versus Host Disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Steroid dependent or refractory classic chronic GVHD disease.\n* No more than 3 previous treatments for cGVHD.\n* Receiving baseline systemic glucocorticoid therapy (at stable dose) for cGVHD at study entry.\n* Men and women ≥18 years old.\n* Karnofsky performance status ≥60.\n\nExc",
+            "endpoints": [
+              "Phase 1b: To Evaluate the Safety and Tolerability of Ibrutinib in Steroid Dependent/Refractory cGVHD.",
+              "Phase 2: Overall Response Rate as the Percentage of Participants With Response"
+            ],
+            "sponsor": "Pharmacyclics LLC.",
+            "url": "https://clinicaltrials.gov/study/NCT02195869"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04364802",
+            "title": "Povidone-Iodine Intranasal for Prophylaxis in Front-line Health-care Personnel and Inpatients During the Sars-CoV-2 Pandemic",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-04-29",
+            "completion_date": "2022-01-28",
+            "country": "United States",
+            "enrollment": 98,
+            "brief_summary": "Povidone-iodine (PVP-I) is a broad-spectrum antiseptic with activity against bacteria, fungi, and viruses. It has been previously used in both intranasal preparations against Methicillin Resistant Staphylococcus Aureus (MRSA) as well as oral preparations in in-vitro studies of Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV), Middle Eastern Respiratory Syndrome Coronavirus (MERS-CoV), influenza H1N1, and rotavirus with good efficacy. This study will evaluate the efficacy of PVP-I as prop",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* healthcare worker OR\n* patient with expected hospital stay of 7+ days OR\n* patient admitted for major surgery OR\n* community member\n* COVID19 negative by nasal swab test\n* asymptomatic for COVID19\n* able to consent\n\nExclusion Criteria:\n\n* positive for COVID19 by nasal swab\n* s",
+            "endpoints": [
+              "Percent of Healthcare Workers Testing Positive for COVID-19.",
+              "Percent of Patients Testing Positive for COVID-9.",
+              "Percent of Community Participants Testing Positive for COVID-9."
+            ],
+            "sponsor": "University of Kentucky",
+            "url": "https://clinicaltrials.gov/study/NCT04364802"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02975921",
+            "title": "Efficacy of Povidone-Iodine Instillation Via Tunneled Pleural Catheters in Achieving Pleurodesis: A Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "start_date": "2018-07",
+            "completion_date": "2021-06",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to determine whether betadine (povidone-iodine) instillation during routine indwelling Tunneled Pleural Catheter (TPC) placement is efficacious in promoting pleurodesis and thus reducing the time to TPC removal.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Requiring Tunneled Catheter Placement for a Pleural Effusion\n\nExclusion Criteria:\n\n* Patient with a nonexpandable lung\n* Non-english speaker",
+            "endpoints": [
+              "Time to Tunneled Pleural Catheter Removal"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT02975921"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04449965",
+            "title": "The Efficacy of Topical Povidone-Iodine Rinses in the Management of the Coronavirus Disease 2019 (COVID-19)",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2021-01-19",
+            "completion_date": "2021-08-16",
+            "country": "Canada",
+            "enrollment": 5,
+            "brief_summary": "The aim of this study is to determine if Povidone iodine (PVP-I) rinses and throat gargles or a PVP-I gel forming nasal spray compared to a placebo (a treatment that has no physical effect to a person) is an effective treatment for patients diagnosed with COVID-19. These patients have been diagnosed with mild/moderate COVID-19 symptoms and sent home for self-isolation. Patients will be instructed to take either of the two treatments or placebo twice daily for two weeks and have follow up visits ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 19 years or older\n* Patients diagnosed with laboratory-confirmed SARS-CoV-2 and the development of COVID-19 compatible symptoms within the last 72 hours before enrolment\n* Do not require hospitalization\n\nExclusion Criteria:\n\n* Sinonasal tumor\n* Hypersensitivity to iodine or be",
+            "endpoints": [
+              "Change in SARS-CoV-2 positivity in the saliva",
+              "Change in the SAR-CoV-2 viral load in the saliva"
+            ],
+            "sponsor": "St. Paul's Hospital, Canada",
+            "url": "https://clinicaltrials.gov/study/NCT04449965"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05895773",
+            "title": "Effect of Nasal and Oropharyngeal Use of Povidone Iodine and Glycyrrhizin on Ventilator-associated Respiratory Infections: A Randomized Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2023-06-24",
+            "completion_date": "2023-11-24",
+            "country": "Egypt",
+            "enrollment": 78,
+            "brief_summary": "It has been shown that oral hygiene reduces the incidence of ventilator-associated pneumonia (VAP). The nasopharynx is considered to be an important source of contaminated micro aspiration to the lung however, the effect of nasopharyngeal decontamination on VAP has not been yet investigated. The investigators hypothesized that decontamination of oral and nasopharyngeal cavities with combined Povidone Iodine and glycyrrhizin would remarkably reduce the incidence of VAP.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* on mechanical ventilation less than 24 h after admission and expected to continue mechanical ventilation for more than 72h.\n\nExclusion Criteria:\n\n* Exclusion criteria include immunosuppression, aspiration pneumonia, all types of pneumonia, sepsis and septic shock, tracheostomy",
+            "endpoints": [
+              "ventilator-associated pneumonia."
+            ],
+            "sponsor": "Menoufia University",
+            "url": "https://clinicaltrials.gov/study/NCT05895773"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00950027",
+            "title": "Prospective Randomized Double Blind Study Comparing the Effect of Oropharyngeal Decontamination by Povidone-iodine to Placebo on Ventilator-associated Pneumonia in Patients With Head Trauma or Cerebral Hemorrhage",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2008-04",
+            "completion_date": "2011-09",
+            "country": "France",
+            "enrollment": 179,
+            "brief_summary": "Head trauma and severe cerebral hemorrhage are major risk factors for development of ventilator-associated pneumonia. In a previous open labelled, single center study the investigators showed that repeated oropharyngeal decontamination with povidone-iodine may be an effective strategy to decrease the prevalence of ventilator-associated pneumonia in patients with head trauma. The present study aims to confirm these results in a multicenter, double blind study including patients suffering from hea",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults \\> 18 years\n* Closed head trauma with a Glasgow Coma Score \\<=8 or cerebral Hemorrhage with a Glasgow Coma Score of \\<=8\n* Expected need mechanical ventilation for \\>=2 days\n* Written informed consent from the patient's next-of-kin. If no relative is present at the time",
+            "endpoints": [
+              "Rate of ventilator associated pneumonia"
+            ],
+            "sponsor": "Rennes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00950027"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05049213",
+            "title": "Investigating the Therapeutic Role of Topical Medical Treatment in Oral and Nasal Cavities on the Patients With Positive Severe Cute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2022-06-24",
+            "completion_date": "2022-08-01",
+            "country": "Taiwan",
+            "enrollment": 7,
+            "brief_summary": "The goal of this study is to recruit confirmed Covid-19 patients, to evaluate whether the topical anti-septic can improve clinical outcome in early Severe acute respiratory syndrome coronavirus 2(SARS-CoV-2) infection. During the global pandemic period, an effective and highly available method once be identified, it will reduce the risk of disease transmission and lower the medical burden.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. age older than 20 years of age\n2. admission with a confirmed positive test for SARS-CoV-2 infection by reverse transcription polymerase chain reaction (RT- PCR)\n3. disease onset (start of COVID-19 symptom and PCR test) for ≤ 120 hours\n4. available informed consent of this stu",
+            "endpoints": [
+              "Change from baseline naso-pharyngeal viral load quantified by RT-PCR at Day 8"
+            ],
+            "sponsor": "National Taiwan University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05049213"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06936969",
+            "title": "Comparison of 40% Glucose Solution and Autologous Blood Patch Pleurodesis for Postoperative Air Leak After Lung Resections: Prospective Randomized Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-12-22",
+            "completion_date": "2027-05",
+            "country": "Poland",
+            "enrollment": 200,
+            "brief_summary": "Prolonged or persistent air leak (PAL) is one of the most common complications in patients after surgery on the lung parenchyma. Air leaks typically originate from alveolar-pleural fistulas, which can result from surgical manipulation of the lung parenchyma or the bronchial stump after procedures such as lobectomy. Key risk factors for PAL include extensive lung resections such as lobectomy, presence of pleural adhesions, incomplete interlobar fissures, chronic obstructive pulmonary disease (COP",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age: patients aged 18 years or older.\n* Surgical Procedure: patients who underwent anatomical lung resections (segmentectomy, lobectomy, or bilobectomy) at the Department of Thoracic Surgery, Poznan University of Medical Sciences, between November 2023 and December 2024.\n* Pro",
+            "endpoints": [
+              "Number of Days Until Resolution of Prolonged Air Leak (PAL)"
+            ],
+            "sponsor": "Wielkopolskie Centrum Pulmonologii i Torakochirurgii",
+            "url": "https://clinicaltrials.gov/study/NCT06936969"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05375773",
+            "title": "A Single-center, Open-label, Randomized Controlled Trial to Evaluate the Efficacy of Sino-nasal and Mouth Cavity Rinse With an Iodine-based Solution in Reducing Viral Load in Asymptomatic Coronavirus Diseases (COVID-19)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-04-16",
+            "completion_date": "2022-10-31",
+            "country": "China",
+            "enrollment": 300,
+            "brief_summary": "The emergence of a novel coronavirus(SARS-CoV-2) in late 2019 has resulted in a global epidemic of the infectious condition COVID-19. Since March 2022, the Omicron mutant has caused widespread transmission in Shanghai, China, and is characterized by the majority of asymptomatic patients. Although showing no obvious symptoms, the asymptomatic patients have high transmissibility because of high viral loads in their oropharynx and nasopharynx. Therefore，this study puts forwards the hypothesis that ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients nucleic acid testing positive for COVID-19.\n* Diagnose as asymptomatic patients infected by COVID-19, and receive medical observation at a Fang Chang Hospital.\n* Be able to understand this study, willing to participate in, and sign the informed consent form.\n* Commit ",
+            "endpoints": [
+              "negative conversion rate"
+            ],
+            "sponsor": "Ruijin Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05375773"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04721457",
+            "title": "Mouth Rinses Efficacy on Salivary SARS-CoV-2 Viral Load: A Randomized Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-01-03",
+            "completion_date": "2021-12-10",
+            "country": "Saudi Arabia",
+            "enrollment": 90,
+            "brief_summary": "Preoperative antiseptic mouth rinses have been widely used as a standard protocol before routine dental treatment reduces oral microorganism counts. During dental procedures, aerosolized microorganisms contaminate the dental environment and nearby surfaces and remain suspended for 4 hours. Thus, the reduction in the number of aerosolized microorganisms by pre-procedural rinsing may reduce cross-contamination between dentists, office personnel, and patients. Recent reviews have advocated the use ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adults age 18 years or older presented to TETAMMAN clinics, Jeddah, Saudi Arabia.\n2. COVID-19-positive patients confirmed by RT-PCR and within two days of oral or nasopharyngeal swabs\n3. Asymptomatic or within seven days of the onset of symptoms.\n4. Has the ability to rinse a",
+            "endpoints": [
+              "Change in the salivary viral load within each mouth rinse groups and controls",
+              "Compare salivary viral load between mouth rinse groups and controls at baseline",
+              "Compare salivary viral load between mouth rinse groups and controls at 5 minutes post rinsing"
+            ],
+            "sponsor": "King Abdulaziz University",
+            "url": "https://clinicaltrials.gov/study/NCT04721457"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04478019",
+            "title": "Role of NaSo-oropHaryngeal Antiseptic dEcolonizaiton to Reduce Covid-19 Viral Shedding and Disease Transmission: SHIELD Study",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2020-07-07",
+            "completion_date": "2022-06-30",
+            "country": "United States",
+            "enrollment": 245,
+            "brief_summary": "Essential workers in positions with increased likelihood of exposure to SARS-CoC-2 will be most impacted by the proposed project. Evidence has shown that the SARS-CoV-2 novel coronavirus is easily transmissable through close contact between individuals, especially during aerosol-generating procedures such as intubation of patients. The intervention proposed in this study (nasal and oral decontamination with povidone-iodine and chlorhexidine, respectively) presents an opportunity for a safe, effe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant is a essential worker performing at least some in-person job duties (not 100% remote)\n* Participant is willing and able to perform intervention and data collection procedures.\n* Participant is able to provide informed consent in English language.\n\nExclusion Criteri",
+            "endpoints": [
+              "Number of Participants with COVID-19 diagnosis",
+              "SARS-Cov-2 Viral Load"
+            ],
+            "sponsor": "University of Wisconsin, Madison",
+            "url": "https://clinicaltrials.gov/study/NCT04478019"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04719208",
+            "title": "Reduction of Sars-CoV-2 Oral Viral Load With Prophylactic Mouth Rinse",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2020-10-06",
+            "completion_date": "2023-12",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "The purpose of this study is to test the effectiveness of prophylactic mouth rinses in reducing the amount of viruses, specifically SARS-CoV-2 in the oral cavity. This research will guide dental and medical providers on best practices to be performed prior to dental and medical procedures involving the oral cavity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject of both sexes, aged 18 years or older\n2. Patients who are confirmed positive for COVID-19.\n3. Patients currently hospitalized at Augusta University Medical Center.\n4. Subject voluntarily signing the informed consent document.\n\nExclusion Criteria:\n\n1. Age younger than ",
+            "endpoints": [
+              "Change in oral SARS-CoV-2 load in oral cavity of COVID-19 patient using prophylactic mouth rinse"
+            ],
+            "sponsor": "Augusta University",
+            "url": "https://clinicaltrials.gov/study/NCT04719208"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04549376",
+            "title": "Virucidal Effect of Povidone Iodine on COVID-19 In-Vivo: an Open Label Randomized Clinical Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-07-01",
+            "completion_date": "2020-10-30",
+            "country": "Bangladesh",
+            "enrollment": 200,
+            "brief_summary": "It is an established fact that, corona virus spread through the respiratory droplets. Colonization of the virus in oropharynx and/or nasopharynx is considered to be major factor for transmissibility of the virus through respiratory secretions. Preventing colonization of the virus by administrating povidone iodine in the nasal passage therefore, a rational thought which is supported by recent evidence of in-vitro virucidal action of povidone iodine in Severe Acute Respiratory Syndrome-Coronavirus",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age: 15-90 years\n* Either gender\n* Patients diagnosed with COVID-19 disease by RT-PCR\n* Have confirmed COVID-19 symptoms and symptom onset within the past 10 days\n* Capable of using a nasal spray device and perform nasal irrigation required by the study\n* Willing to participat",
+            "endpoints": [
+              "Proportion of COVID-19 positive cases following intervention"
+            ],
+            "sponsor": "Bangladesh Reference Institute of Chemical Measurements (BRICM)",
+            "url": "https://clinicaltrials.gov/study/NCT04549376"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04249570",
+            "title": "Efficacy of Gastrostomy Tube Coated With Povidone-iodine for Reducing Peristomal Infection Rate After PEG Insertion",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2014-04",
+            "completion_date": "2020-07",
+            "country": "Taiwan",
+            "enrollment": 90,
+            "brief_summary": "Percutaneous endoscopic gastrostomy (PEG) was created to replace surgical gastrostomy in patients who are needed long-term tube feeding. PEG has less severe complication rate or mortality rate compared with traditional surgical gastrostomy. However, there are still some mild complications which cannot be completely prevented and peristomal infection is the most common one. Povidone-iodine (PVP-I) exhibits broad range of microbicidal activity via increasing the solubility of iodine. In our study,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with central nervous system disorder, head and neck cancer, esophageal motility disorder or swallowing dysfunction related to face trauma, who are the candidates for percutaneous endoscopic gastrostomy under doctors' suggestion\n* Patients between 20 and 100 years old\n",
+            "endpoints": [
+              "Peristomal infection rate"
+            ],
+            "sponsor": "Taipei Veterans General Hospital, Taiwan",
+            "url": "https://clinicaltrials.gov/study/NCT04249570"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04603794",
+            "title": "Comparison of Normal Saline, Hydrogen Peroxide, Chlorhexidine and Povidone-Iodine Mouth Rinses in COVID-19 Patients",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2020-10-01",
+            "completion_date": "2020-11",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "Researchers know that the virus that causes COVID-19 has been found in the saliva (spit) of individuals who exhibit signs of the disease. Investigators would like to test the ability of three mouthwashes to reduce the levels of this virus in participants' mouths. Investigators will ask participants to use a liquid to swish around in the mouth for 30 seconds and spit it into a collection cup. Investigators will also collect spit from participants before and after participants use the mouthwash. A",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. adults age 18-80 admitted to The Ohio State University Medical Center,\n2. diagnosis of COVID-19 confirmed by Polymerase Chain Reaction (PCR),\n3. salivary carriage of COVID-19 virus\n4. ability to perform mouthwash rinses and to expectorate.\n\nExclusion Criteria:\n\n1. allergy to ",
+            "endpoints": [
+              "real time reverse transcriptase quantitative PCR",
+              "ct values"
+            ],
+            "sponsor": "Ohio State University",
+            "url": "https://clinicaltrials.gov/study/NCT04603794"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04842721",
+            "title": "Effect of Prolonged Mouth Rinse With Hypertonic Saturated Saline Solution on the Naso-Pharyngeal Viral Load of Covid-19 Virus in Vivo.",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2021-07",
+            "completion_date": "2021-12",
+            "country": "Canada",
+            "enrollment": 0,
+            "brief_summary": "Sars-Cov2 virus is transmitted through the respiratory route and by direct contact with contaminated surfaces and subsequent contact with nasal, oral or ocular mucosa. Many studies have found that the oral cavity and specifically the saliva may be a high-risk route for SARS-CoV-2 infection. Thus, strategies reducing salivary viral load could contribute to reduce the risk of transmission. Furthermore, studies have shown that SARS-CoV persists for two days in oral mucous membranes before its diffu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Tested positive for Covid in the past 7 days\n* Have the ability to perform mouth rinse twice daily for 2 days and to undergo Covid testing by Oro or Naso-Pharyngeal swabs.\n* No need for a ventilator for oxygenation support\n* Can understand and read English\n* Lives in Alberta C",
+            "endpoints": [
+              "Number of Participants with Negative Covid PCR test results"
+            ],
+            "sponsor": "Batroussy, Rafik",
+            "url": "https://clinicaltrials.gov/study/NCT04842721"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04347954",
+            "title": "Effect of PVP-I Nasal Sprays vs Normal Saline Nasal Sprays on SARS-CoV-2 Nasopharyngeal Titers",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-08-15",
+            "completion_date": "2020-12-13",
+            "country": "United States",
+            "enrollment": 47,
+            "brief_summary": "The study aims to determine the safety and efficacy of povidone-iodine (PVP-I) containing nasal sprays as compared to isotonic saline nasal sprays in COVID-19 positive patients. The primary outcome measure is SARS-CoV-2 viral titers in the nasal cavity and nasopharynx. In vitro studies have shown PVP-I to be highly virucidal against the viruses which cause SARS and MERS. Additionally, clinical studies have shown PVP-I saline sprays to be well tolerated in human subjects. PVP-I oral rinses and sp",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of COVID-19 by lab test within 5 days of study participation\n\nExclusion Criteria:\n\n* Allergy to \"iodine,\" shellfish, or food dye\n* Receiving intranasal steroids\n* Sinus surgery within 30 days of beginning the study\n* Intubated at the time of enrollment\n* Pregnancy\n* ",
+            "endpoints": [
+              "Mean Cycle Threshold (Ct) Values Through Day 3 as a Measure of Change in Viral Titers of SARS-CoV-2"
+            ],
+            "sponsor": "Stanford University",
+            "url": "https://clinicaltrials.gov/study/NCT04347954"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04371965",
+            "title": "Povidone Iodine Mouthwash, Gargle, and Nasal Spray to Reduce Naso- Pharyngeal Viral Load in Patients With SARS-CoV-2",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-09-01",
+            "completion_date": "2020-10-23",
+            "country": "France",
+            "enrollment": 24,
+            "brief_summary": "The SARS-CoV-2 coronavirus pandemic is responsible for more than 180,000 deaths worldwide and 20,000 deaths in France. To date, no treatment or vaccine has been successful. Povidone-iodine is an antiseptic suitable for use on the skin and mucosa with potent virucidal activity, particularly against coronaviruses. It is marketed for oro-nasopharyngeal decolonization.\n\n24 patients with positive nasopharyngeal SARS-CoV-2 carriage will be randomized (1:1) in an experimental group (benefiting from pov",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (age over 18 yrs) of both sexes\n* With positive SARS-CoV-2 carriage by RT-PCR\n* Having given their written consent after having been informed\n\nExclusion Criteria\n\n* Patient with low viral load (threshold cycle \\[Ct\\] \\> 25 per RT-PCR),\n* Patient unable to perform oro-na",
+            "endpoints": [
+              "Change from baseline naso-pharyngeal viral load quantified by RT-PCR at Day7"
+            ],
+            "sponsor": "Poitiers University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04371965"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06002867",
+            "title": "Investigation of the Effect of Serratus Anterior Plan Block on Postoperative Pain in Patients Who Underwent Minimally Invasive Cardiac Surgery.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-09-01",
+            "completion_date": "2024-04-10",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 40,
+            "brief_summary": "Acute postoperative pain is defined as sudden onset pain that develops after stimulation due to surgical intervention. It is most severe in the first 24 hours after surgery and gradually decreases in severity and creates dissatisfaction in the patient. Postoperative pain that cannot be treated properly can cause various systemic effects, prolongation of hospital stay, decrease in patients' quality of life, and development of chronic pain. An increase in blood pressure, heart rate, cardiac irrita",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Between the ages of 18-65,\n* Coronary artery patients with normal left ventricular function and scheduled for elective coronary artery bypass surgery,\n* Valve diseases for which elective valve replacement is planned with normal left ventricular function,\n* Cases of ASD (Atrial",
+            "endpoints": [
+              "Morphine consumption by PCA (Patient Control Analgesia)"
+            ],
+            "sponsor": "Kahramanmaras Sutcu Imam University",
+            "url": "https://clinicaltrials.gov/study/NCT06002867"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04410159",
+            "title": "A Pilot, Open-Labelled, Randomised Controlled Trial Of Povidone-Iodine Vs Essential Oil And Tap Water Gargling For COVID-19 Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-06-22",
+            "completion_date": "2020-07-06",
+            "country": "Malaysia",
+            "enrollment": 20,
+            "brief_summary": "The purpose of this study is to assess the ability of regular gargling to eliminate severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in the throat and nasopharynx. This 4 arms interventional study compares the effect of gargling using povidone-iodine, essential oils- based, tap water with control (no intervention) among Stage 1 coronavirus disease-2019 (COVID-19) patients.\n\nFindings from this study will provide new insight into the importance of gargling in the treatment and preventi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. adult aged 18 years and above\n2. able to understand instructions\n3. Stage 1 COVID-19\n4. \\< 5 days of illness or diagnosis\n\nExclusion Criteria:\n\n1. Less than 18 years old\n2. Unable to understand instructions\n3. Stage 2 \\& 3 COVID-19\n4. Respiratory symptoms or fever on admissio",
+            "endpoints": [
+              "Number of Participants With Early Viral Clearance"
+            ],
+            "sponsor": "Universiti Sains Islam Malaysia",
+            "url": "https://clinicaltrials.gov/study/NCT04410159"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04584684",
+            "title": "Antiviral Efficacy and Acceptability of Therapeutic Antiseptic Mouth Rinses for Inactivation of COVID SARS-2 Virus",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2020-12-18",
+            "completion_date": "2021-10-21",
+            "country": "United States",
+            "enrollment": 128,
+            "brief_summary": "Randomized, double-blind prospective trial to test the efficacy and acceptability of therapeutic, antiseptic mouth rinses to inactivate severe acute respiratory syndrome coronavirus (SARS-CoV-2) in saliva of COVID-19 positive patients aged 18-65 years old. All mouthrinses are commercially available and will be used according to on-label instructions. Patients will be randomized to a mouthrinse and will be asked to give a saliva sample immediately before and after a one minute mouthwash. Saliva s",
+            "eligibility_criteria": "Inclusion Criteria: Subjects must meet all of the following inclusion criteria to be eligible for enrollment in the study:\n\n* Diagnosed COVID+ status by physician. Either became symptomatic in the prior 7 days, or if not symptomatic, likely infected/exposed within the prior 7 days.\n* Individuals (al",
+            "endpoints": [
+              "Change in Salivary Viral RNA Level of SARS-CoV-2",
+              "Change in Rapid Antigen Test Salivary Protein Levels of SARS-CoV-2",
+              "Change in Salivary Protein Antigen Levels of SARS-CoV-2"
+            ],
+            "sponsor": "University of North Carolina, Chapel Hill",
+            "url": "https://clinicaltrials.gov/study/NCT04584684"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04341688",
+            "title": "A Double Blind, Randomized Controlled Pilot Trial of Gargling Agents in Reducing Intraoral Viral Load Among Laboratory Confirmed COVID-19 Patients: GARGLES STUDY",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-12-01",
+            "completion_date": "2022-07-31",
+            "country": "N/A",
+            "enrollment": 50,
+            "brief_summary": "Pakistan is a resource restraint country, it's not possible to carry out coronavirus testing at mass scale. Simple cost effective intervention against the present pandemic is highly desirable.\n\nFor patients: Identifying an antiviral gargle that could substantially reduce the colonies of COVID-19 residing in mouth and oro-naso-pharynx is likely to reduce the viral load. Such reduction in the viral load through surface debridement could aid the effective immune response in improving the overall sy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The inclusion criteria are laboratory confirmed Covid-19 positive male or female subjects in the age range of 18-65 years, within seven days of the onset of mild to moderate symptoms of viral infection, already admitted in the hospital.\n\nExclusion Criteria:\n\n* Edentulous patie",
+            "endpoints": [
+              "Intraoral viral load"
+            ],
+            "sponsor": "Aga Khan University",
+            "url": "https://clinicaltrials.gov/study/NCT04341688"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00434460",
+            "title": "Active Observational Study of the Adoption and Transfer of Clinical Practice Guidelines Through Education, for Ventilator Associated Pneumonia (ABATE VAP Study)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2007-04",
+            "completion_date": "2010-07",
+            "country": "Canada, United States",
+            "enrollment": 1320,
+            "brief_summary": "The purpose of this prospective, multicentre, time-series study is to develop, implement, refine, and evaluate a sustainable behaviour change strategy in the intensive care unit (ICU).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\>= 17 years old\n* Mechanically ventilated \\> 48 hours \\< 96 hours\n\nExclusion Criteria:\n\n* Previous enrollment in the study",
+            "endpoints": [],
+            "sponsor": "Canadian Critical Care Trials Group",
+            "url": "https://clinicaltrials.gov/study/NCT00434460"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04941131",
+            "title": "The Role of Chlorhexidine in Minimizing the Viral Load Among COVID-19 Patients: A Randomized Controlled Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2023-05-18",
+            "completion_date": "2023-08-20",
+            "country": "Saudi Arabia",
+            "enrollment": 60,
+            "brief_summary": "Existing evidence confirmed that saliva and oral cavity to be a reservoir for SARS-CoV-2. In dental clinic aerosol-producing-procedures pose a significant risk for transmission of the infection . It is very important to minimize the risk of transmission in dental office reducing the load of SARS-CoV-2 in saliva if possible, in suspect or conformed cases. Preprocedural mouth rises have been used widely to minimize the number of oral microorganisms. Multiple studies confirmed the efficacy of those",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A history of positive nasal swabs for SARS-CoV-2 based on reverse-transcription polymerase chain reaction (RT-PCR) assays.\n\nExclusion Criteria:\n\n* History of allergy to any of the products that will be used\n* known pregnancy\n* Renal failure",
+            "endpoints": [
+              "E Genes"
+            ],
+            "sponsor": "King Abdulaziz University",
+            "url": "https://clinicaltrials.gov/study/NCT04941131"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04559035",
+            "title": "Nasal Irrigation to Reduce COVID-19 Morbidity",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-09-24",
+            "completion_date": "2021-11-04",
+            "country": "United States",
+            "enrollment": 239,
+            "brief_summary": "The purpose of this study is to evaluate if using nasal irrigation, also known as nasal lavage, for 14 days after a positive test in high risk patients can reduce the severity of symptoms associated with COVID-19. Nasal lavage consists of running salt water in one nostril and out the other to get rid of germs. Nasal irrigation was done with either Betadine or baking soda to determine if adding an antimicrobial or changing the pH of the mucous helped. Hospitalization and death were compared for c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Capable of understanding and providing informed consent using remote consent\n* Willingness and physical capacity to initiate nasal irrigation and to adhere to the protocol\n* Willing to give additional contact phone number of another person who will know the health status of th",
+            "endpoints": [
+              "Frequency"
+            ],
+            "sponsor": "Augusta University",
+            "url": "https://clinicaltrials.gov/study/NCT04559035"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04446104",
+            "title": "A Randomized Open-label Prophylaxis Trial Among Migrant Workers at High-risk of COVID-19 (DORM Trial)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2020-05-13",
+            "completion_date": "2020-08-31",
+            "country": "Singapore",
+            "enrollment": 4257,
+            "brief_summary": "In December 2019, a novel coronavirus, now called COVID-19, emerged as a global health threat from Wuhan, China. Within weeks, the contagious virus spread within and between communities, causing a lower respiratory tract infection dominated by symptoms of fever, cough and sore throat. The incubation period was estimated at between 5 to 7 days, but could last as long as 14 days. Although COVID-19 causes a mostly mild and self-limiting disease, respiratory involvement has been reported in about 5%",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubjects must meet all the of following criteria to be included in this study:\n\n* Men residing in dormitory aged 21-60 years\n* Willing and able to give informed consent\n* Able to understand instructions and consume study medications according to the study protocol.\n* Weight more",
+            "endpoints": [
+              "Laboratory-confirmed COVID-19 in treatment arms (hydroxychloroquine, ivermectin, zinc and povidone iodine)"
+            ],
+            "sponsor": "National University Hospital, Singapore",
+            "url": "https://clinicaltrials.gov/study/NCT04446104"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05239598",
+            "title": "A Phase II, Randomized Trial to Test the Effect of Povidone-iodine 0.5% as Mouthwash/Gargle on SARS-CoV-2 Load (COVID 19) as an Adjuvant Infection Control Measure in Dental Practice",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2022-02-07",
+            "completion_date": "2022-07-13",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "This study is a two-arm, randomized, 2-phase study. Phase I will be double blinded clinical trial of the safety and efficacy of an antiseptic mouthwash solution on reducing SARS-CoV-2 load in COVID 19+ adult individuals. Phase II is designed as an open label trial, and all subjects will receive the active mouthwash.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Able and willing to provide informed consent prior to initiation of study procedures.\n2. Stated willingness to comply with all study procedures and availability for the duration of the study.\n3. Male or female, aged 18 years and older.\n4. Clinical diagnosis of COVID-19 infect",
+            "endpoints": [
+              "[PCR Saliva] Percent Change From Baseline Ct Viral Targets"
+            ],
+            "sponsor": "University of Pennsylvania",
+            "url": "https://clinicaltrials.gov/study/NCT05239598"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04707742",
+            "title": "Clinical Evaluation of Antiseptic Mouth Rinses to Reduce Salivary Viral Load of SARS-CoV-2 in COVID-19 Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-06-15",
+            "completion_date": "2021-09-30",
+            "country": "Spain",
+            "enrollment": 160,
+            "brief_summary": "As no curative treatment for SARS-CoV-2 is currently available, most public health measures to contain the pandemic are based on preventing the spread of the pathogen. The virus is transmitted by the respiratory route and by direct contact with contaminated surfaces and subsequent contact with nasal, oral or ocular mucosa. Although patients with symptomatic coronavirus disease 2019 (COVID-19) have been the main source of transmission, observations suggest that asymptomatic and incubating patient",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Lower than 7 days from the positive SARS-COV-2 PCR test of a nasopharyngeal sample\n* Have the ability to donate saliva samples and perform mouthwash\n\nExclusion Criteria:\n\n* Patient participation in a COVID-19 research study using experimental drugs,\n* Use of an antiseptic mout",
+            "endpoints": [
+              "Effect of 5 different mouthwashes on the SARS-Cov2 viral load.",
+              "Effect of 5 different mouthwashes on the infective SARS-Cov2 viral load in saliva."
+            ],
+            "sponsor": "Fundación para el Fomento de la Investigación Sanitaria y Biomédica de la Comunitat Valenciana",
+            "url": "https://clinicaltrials.gov/study/NCT04707742"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04393792",
+            "title": "Can a Sinus Rinse and Mouth Wash Reduce Viral Load in COVID-19 Positive Individuals and Their Co-residents?",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2020-05-05",
+            "completion_date": "2022-03",
+            "country": "United Kingdom",
+            "enrollment": 40,
+            "brief_summary": "COVID-19 is highly infectious and transmission of the virus is thought to be similar to that of influenza which can be transferred through droplets released when a person coughs, sneezes or talks. Studies have shown that nasal rinsing and mouth washes may be an important way to deliver treatments that could reduce the amount of a virus that is present in the nose and mouth. This also could mean that there is less virus available to pass on to others. We want to see if the use of nose rinses and ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthcare worker OR patient on a general ward who has had a positive COVID-19 test OR a person who is co-residing with an affected staff member or patient who is now at home in self-isolation.\n* capable of giving informed consent\n* able to self-administer the sinus rinses and",
+            "endpoints": [
+              "Change in viral load in the oral and nasopharyngeal cavity"
+            ],
+            "sponsor": "Hampshire Hospitals NHS Foundation Trust",
+            "url": "https://clinicaltrials.gov/study/NCT04393792"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04510402",
+            "title": "Phase I/II Trial (Safety and Dosing) of Povidone-iodine (PVP-I) Nasal Swab For Preventing COVID-19 Spread in Healthy Subjects",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-08",
+            "completion_date": "2021-04",
+            "country": "N/A",
+            "enrollment": 50,
+            "brief_summary": "Title: Phase I/II Trial (Safety and Dosing) of Povidone-iodine (PVP-I) Nasal Swab For Preventing COVID-19 Spread in Healthy Subjects:\n\nSummary: This study will evaluate in a PH I/II trial in healthy volunteers the safety and tolerability of PVP-I nasal swabs daily application. The intent is to follow with a PH III randomized controlled clinical trial to assess the capacity for PVP-I nasal swabs to mitigate the transmission of respiratory viruses specifically COVID 19.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Healthy volunteers from the Boston community\n2. 18-70 years of age\n3. In good health, without thyroid or cardiac disease, without symptoms of COVID-19\\*\n4. Normal baseline TSH\n\nExclusion Criteria:\n\n1. History of thyroid or cardiac disease\n2. Current BWH employee\n3. Allergy or",
+            "endpoints": [
+              "Number of participants with treatment-related adverse events as assessed by self reporting, metabolic and endocrine metrics"
+            ],
+            "sponsor": "Brigham and Women's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04510402"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37215234",
+            "title": "Effect of Oral Care with Povidone-Iodine in the Prevention of Ventilator-Associated Pneumonia; a Systematic Review and Meta-Analysis.",
+            "abstract": "Ventilator-associated pneumonia (VAP) is one of the most common nosocomial infections affecting one-third of patients with mechanical ventilation. This study aimed to synthesize available evidence regarding the effect of treatment with povidone-iodine (PI) among adult patients admitted to intensive care units (ICUs) for the prevention of VAP.",
+            "journal": "Archives of academic emergency medicine",
+            "year": "2023",
+            "authors": [
+              "Emami Zeydi Amir",
+              "Parvizi Arman",
+              "Haddadi Soudabeh",
+              "Karkhah Samad",
+              "Hosseini Seyed Javad"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37215234/"
+          },
+          {
+            "pmid": "32979667",
+            "title": "Considerations for povidone-iodine antisepsis in pediatric nasal and pharyngeal surgery during the COVID-19 pandemic.",
+            "abstract": "Surgeons resuming elective procedures during the COVID-19 pandemic should consider strategies to mitigate risk of exposure. For otolaryngologists performing surgery on children, unique vulnerability to SARS-CoV-2 results from a regular interface with the upper respiratory tract mucosa. A growing interest in perioperative application of povidone‑iodine (PVP-I) to the nasopharynx and oropharynx has emerged. The purpose of this review is to provide an evidence-based assessment of PVP-I in pediatric oral, nasal and pharyngeal surgery.",
+            "journal": "American journal of otolaryngology",
+            "year": "2020",
+            "authors": [
+              "Chorney Stephen R",
+              "Rizzi Mark D",
+              "Dedhia Kavita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents, Local",
+              "Betacoronavirus",
+              "COVID-19",
+              "Child",
+              "Coronavirus Infections",
+              "Humans",
+              "Infectious Disease Transmission, Patient-to-Professional",
+              "Nasopharynx",
+              "Oropharynx",
+              "Otorhinolaryngologic Surgical Procedures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32979667/"
+          },
+          {
+            "pmid": "33118690",
+            "title": "Prophylactic and therapeutic topical povidone-iodine in coronavirus disease 2019 (COVID-19): What is the evidence?",
+            "abstract": "",
+            "journal": "International forum of allergy & rhinology",
+            "year": "2020",
+            "authors": [
+              "Yan Carol H",
+              "Bleier Benjamin S"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Aerosols",
+              "Anti-Infective Agents, Local",
+              "Antiviral Agents",
+              "COVID-19",
+              "Centers for Disease Control and Prevention, U.S.",
+              "Evidence-Based Medicine",
+              "Humans",
+              "Particulate Matter",
+              "Povidone-Iodine",
+              "Respiratory Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33118690/"
+          },
+          {
+            "pmid": "32520599",
+            "title": "Povidone-Iodine Use in Sinonasal and Oral Cavities: A Review of Safety in the COVID-19 Era.",
+            "abstract": "Approaches to nasal and oral decontamination with povidone-iodine (PVP-I) have been published to reduce nosocomial spread of Severe Acute Respiratory Syndrome-Coronavirus 2 (SARS-CoV-2). The safety of PVP-I topically applied to the nasal and oral cavity is addressed by a literature review. The specific efficacy of PVP-I against coronaviruses and its potential efficacy against SARS-CoV-2 is discussed.",
+            "journal": "Ear, nose, & throat journal",
+            "year": "2020",
+            "authors": [
+              "Frank Samantha",
+              "Capriotti Joseph",
+              "Brown Seth M",
+              "Tessema Belachew"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Infective Agents, Local",
+              "Betacoronavirus",
+              "COVID-19",
+              "Coronavirus",
+              "Coronavirus Infections",
+              "Disinfection",
+              "Humans",
+              "Mouth",
+              "Nasal Cavity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32520599/"
+          },
+          {
+            "pmid": "39060100",
+            "title": "Povidone-iodine functionalized nanofibers are prophylactic and protect against dissemination of SARS-CoV-2 infection.",
+            "abstract": "The novel personal protection equipment based on a face mask equipped with a nanofiber filter functionalized with povidone iodine has been developed and tested in a clinical trial. This nanofiber filter was characterized with a low flow resistance and, thus, allowed comfortable breathing. The performed study proved that the novel nanofiber filter with incorporated povidone-iodine was characterized with a slow release of iodine which minimized side effects but kept disinfection efficiency. Our clinical study performed on 207 positively tested SARS-CoV-2 patients wearing the PPE for 4-8 hours daily for 1 to 4 days has shown that even the iodine amount as low as 0.00028 ppm was sufficient to significantly decrease the reproduction number and, very importantly, to protect against severe course of disease.",
+            "journal": "Epidemiologie, mikrobiologie, imunologie : casopis Spolecnosti pro epidemiologii a mikrobiologii Ceske lekarske spolecnosti J.E. Purkyne",
+            "year": "2024",
+            "authors": [
+              "Amler E",
+              "Vojáček V",
+              "Sopko B",
+              "Divín R",
+              "Pashchenko A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Povidone-Iodine",
+              "COVID-19",
+              "Humans",
+              "Nanofibers",
+              "SARS-CoV-2",
+              "Pandemics",
+              "Pneumonia, Viral",
+              "Coronavirus Infections",
+              "Betacoronavirus",
+              "Anti-Infective Agents, Local"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39060100/"
+          },
+          {
+            "pmid": "35594333",
+            "title": "Repurposing povidone-iodine to reduce the risk of SARS-CoV-2 infection and transmission: a narrative review.",
+            "abstract": "Accumulating data suggest antiviral effects of povidone-iodine against the Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) virus. This narrative review aims to examine the antiviral mechanisms of povidone-iodine, efficacy of povidone-iodine against the SARS-CoV-2 virus, and safety of povidone-iodine to human epithelial cells and thyroid function.",
+            "journal": "Annals of medicine",
+            "year": "2022",
+            "authors": [
+              "Lim Nicole-Ann",
+              "Teng Ooiean",
+              "Ng Chester Yan Hao",
+              "Bao Lena X Y",
+              "Tambyah Paul Anantharajah"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "COVID-19",
+              "Humans",
+              "Mouthwashes",
+              "Povidone-Iodine",
+              "SARS-CoV-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35594333/"
+          },
+          {
+            "pmid": "36058840",
+            "title": "Utility of mouth rinses with povidone-iodine and hydrogen peroxide in patients with COVID-19.",
+            "abstract": "Povidone-iodine and hydrogen peroxide could be effective in against SARS-CoV-2.",
+            "journal": "Enfermedades infecciosas y microbiologia clinica (English ed.)",
+            "year": "2023",
+            "authors": [
+              "Pablo-Marcos Daniel",
+              "Abascal Beatriz",
+              "Lloret Lara",
+              "Gutiérrez Cuadra Manuel",
+              "Velasco Nieves"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Male",
+              "Anti-Infective Agents, Local",
+              "COVID-19",
+              "Hydrogen Peroxide",
+              "Mouthwashes",
+              "Povidone-Iodine",
+              "SARS-CoV-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36058840/"
+          },
+          {
+            "pmid": "32951446",
+            "title": "Efficacy of Povidone-Iodine Nasal and Oral Antiseptic Preparations Against Severe Acute Respiratory Syndrome-Coronavirus 2 (SARS-CoV-2).",
+            "abstract": "Severe acute respiratory syndrome-coronavirus 2 (SARS-CoV-2) is the pathogen responsible for the global pandemic of coronavirus disease 2019 (COVID-19). From the first reported cases in December 2019, the virus has spread to over 4 million people worldwide. Human-to-human transmission occurs mainly through the aerosolization of respiratory droplets. Transmission also occurs through contact with contaminated surfaces and other fomites. Improved antisepsis of human and nonhuman surfaces has been identified as a key feature of transmission reduction. There are no previous studies of povidone iodine (PVP-I) against SARS-CoV-2. This study evaluated nasal and oral antiseptic formulations of PVP-I for virucidal activity against SARS-CoV-2. This is the first report on the efficacy of PVP-I against the virus that causes COVID-19.",
+            "journal": "Ear, nose, & throat journal",
+            "year": "2021",
+            "authors": [
+              "Pelletier Jesse S",
+              "Tessema Belachew",
+              "Frank Samantha",
+              "Westover Jonna B",
+              "Brown Seth M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Infective Agents, Local",
+              "COVID-19",
+              "Humans",
+              "In Vitro Techniques",
+              "Microbial Viability",
+              "Mouth Mucosa",
+              "Mouthwashes",
+              "Nasal Lavage",
+              "Nasal Mucosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32951446/"
+          },
+          {
+            "pmid": "39179488",
+            "title": "Effect of different mouthwashes on ventilator-related outcomes and mortality in intensive care unit patients: A network meta-analysis.",
+            "abstract": "Ventilator-associated pneumonia is a common and life-threatening complication in intensive care unit (ICU) patients. Maintaining oral hygiene is crucial for reducing ventilator-associated pneumonia incidence. Various mouthwash solutions are used for oral care in ICU settings, but their comparative effectiveness remains unclear. This study aims to systematically evaluate and compare the efficacy and safety of commonly used mouthwashes for oral care in mechanically ventilated ICU patients.",
+            "journal": "Australian critical care : official journal of the Confederation of Australian Critical Care Nurses",
+            "year": "2025",
+            "authors": [
+              "He Qianqian",
+              "Peng Zengjin",
+              "He Caiyun",
+              "Zhang Chao",
+              "Hu Rong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hospital Mortality",
+              "Intensive Care Units",
+              "Mouthwashes",
+              "Oral Hygiene",
+              "Pneumonia, Ventilator-Associated",
+              "Respiration, Artificial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39179488/"
+          },
+          {
+            "pmid": "33034297",
+            "title": "Povidone-iodine and carrageenan are candidates for SARS-CoV-2 infection control.",
+            "abstract": "",
+            "journal": "Hong Kong medical journal = Xianggang yi xue za zhi",
+            "year": "2020",
+            "authors": [
+              "Hui K K"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Betacoronavirus",
+              "COVID-19",
+              "Carrageenan",
+              "Coronavirus Infections",
+              "Humans",
+              "Infection Control",
+              "Pandemics",
+              "Pneumonia, Viral",
+              "Povidone-Iodine",
+              "Public Health"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33034297/"
+          },
+          {
+            "pmid": "39803048",
+            "title": "A Crossover Trial of a Novel Toothbrushing Method for Prevention of Aspiration Pneumonia: Toothpaste With Povidone-Iodine and Moisturizing Gel Mixture.",
+            "abstract": "Toothbrushing, during which dental plaque is brushed off into the oral cavity, can increase the risk of aspiration pneumonia in older adults and intubated patients.",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Funahara Madoka",
+              "Imakiire Akira",
+              "Funahara Ryuichiro",
+              "Oyama Haruka",
+              "Soutome Sakiko"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39803048/"
+          },
+          {
+            "pmid": "36973223",
+            "title": "Effect of the povidone iodine, hypertonic alkaline solution and saline nasal lavage on nasopharyngeal viral load in COVID-19.",
+            "abstract": "The present study aimed to investigate the in vivo activity of nasal irrigation (NI) with saline, NI with povidone-iodine (PVP-I) 1%, NI with a mix of hypertonic alkaline and PVP-I 1% against Severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2).",
+            "journal": "Clinical otolaryngology : official journal of ENT-UK ; official journal of Netherlands Society for Oto-Rhino-Laryngology & Cervico-Facial Surgery",
+            "year": "2023",
+            "authors": [
+              "Batioglu-Karaaltin Aysegul",
+              "Yigit Ozgur",
+              "Cakan Dogan",
+              "Akgul Ozer",
+              "Yigit Enes"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Povidone-Iodine",
+              "COVID-19",
+              "SARS-CoV-2",
+              "Viral Load",
+              "COVID-19 Drug Treatment",
+              "Prospective Studies",
+              "Nasal Lavage",
+              "Sodium Chloride"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36973223/"
+          },
+          {
+            "pmid": "37559968",
+            "title": "Analysis of povidone iodine, chlorhexidine acetate and polyhexamethylene biguanide as wound disinfectants: in vitro cytotoxicity and antibacterial activity.",
+            "abstract": "Even though disinfectants are commonly used in clinical practice and daily life, there are few studies on their antibacterial ability and cytotoxicity, which are closely related to the safety and effectiveness of their use. To provide a basis for the use of disinfectants, the cytotoxicity and antibacterial activity of three most commonly used disinfectants, povidone-iodine, chlorhexidine acetate and polyhexamethylene biguanide (PHMB), were investigated.",
+            "journal": "BMJ nutrition, prevention & health",
+            "year": "2023",
+            "authors": [
+              "Zhang Mingshi",
+              "Jin Jian",
+              "Liu Yingying",
+              "Ben Chi",
+              "Li Haihang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37559968/"
+          },
+          {
+            "pmid": "34720096",
+            "title": "Low-concentration povidone-iodine for the prevention of intraocular infections in ophthalmic surgery.",
+            "abstract": "Endophthamitis following intraocular surgery is rare using current antiseptic techniques, such as single application of 5% povidone-iodine to the ocular surface and adjuvant topical or intracameral antibiotics. Challenges remain, however, including increased multidrug-resistant bacterial endophthalmitis, increased fungal endophthalmitis, and the low but nonzero endophthalmitis rate attributable to the typical bacteria that colonize the ocular surface.",
+            "journal": "Current opinion in ophthalmology",
+            "year": "2022",
+            "authors": [
+              "Grzybowski Andrzej",
+              "Shimada Hiroyuki",
+              "Nakashizuka Hiroyuki",
+              "Koerner Jagger"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents, Local",
+              "COVID-19",
+              "Endophthalmitis",
+              "Humans",
+              "Postoperative Complications",
+              "Povidone-Iodine",
+              "SARS-CoV-2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34720096/"
+          },
+          {
+            "pmid": "27778318",
+            "title": "Oral hygiene care for critically ill patients to prevent ventilator-associated pneumonia.",
+            "abstract": "Ventilator-associated pneumonia (VAP) is defined as pneumonia developing in people who have received mechanical ventilation for at least 48 hours. VAP is a potentially serious complication in these patients who are already critically ill. Oral hygiene care (OHC), using either a mouthrinse, gel, toothbrush, or combination, together with aspiration of secretions, may reduce the risk of VAP in these patients.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2016",
+            "authors": [
+              "Hua Fang",
+              "Xie Huixu",
+              "Worthington Helen V",
+              "Furness Susan",
+              "Zhang Qi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Chlorhexidine",
+              "Critical Illness",
+              "Humans",
+              "Intensive Care Units",
+              "Mouthwashes",
+              "Oral Hygiene",
+              "Pneumonia, Ventilator-Associated",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27778318/"
+          },
+          {
+            "pmid": "24346519",
+            "title": "Oropharyngeal decontamination with antiseptics to prevent ventilator-associated pneumonia: rethinking the benefits of povidone-iodine.",
+            "abstract": "",
+            "journal": "Critical care medicine",
+            "year": "2014",
+            "authors": [
+              "Li Bassi Gianluigi",
+              "De Rosa Francesca",
+              "Marti Joan Daniel",
+              "Terraneo Silvia"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents, Local",
+              "Brain Injuries",
+              "Cerebral Hemorrhage",
+              "Female",
+              "Humans",
+              "Male",
+              "Pneumonia, Ventilator-Associated",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24346519/"
+          },
+          {
+            "pmid": "34466468",
+            "title": "Effectiveness of Povidone-Iodine 1% Eye Drop on Streptococcus pneumoniae and Escherichia coli Induced-Keratitis in Mice.",
+            "abstract": "Bacterial keratitis is an ophthalmic infection that may result in irreversible corneal damage. This study aimed to examine the effectiveness of povidone-iodine eye drop 1% in eye infection caused by inoculation of Streptococcus pneumoniae and Escherichia coli of mice.",
+            "journal": "Galen medical journal",
+            "year": "2019",
+            "authors": [
+              "Hadipour Jahromy Mahsa",
+              "Najafi Abdolhamid",
+              "Majdi Nassab Farzaneh",
+              "Moiniyan Mahya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34466468/"
+          },
+          {
+            "pmid": "32434361",
+            "title": "Povidone-iodine chemical pleurodesis in treating spontaneous chylothorax in pediatric patients.",
+            "abstract": "Chylothorax is a rare disease with a high mortality rate in pediatric patients like newborns and infants. As one of the minimally invasive treatments, chemical pleural pleurodesis has been gradually used in treating pediatric chylothorax patients in recent years. This study explored the feasibility, safety and effect of povidone-iodine chemical pleurodesis (CP) for spontaneous chylothorax in young pediatric patients.",
+            "journal": "Annals of palliative medicine",
+            "year": "2020",
+            "authors": [
+              "Long Wei-Guang",
+              "Cai Bin",
+              "Liu Yang",
+              "Wang Wen-Jie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Chylothorax",
+              "Female",
+              "Humans",
+              "Male",
+              "Pleural Effusion",
+              "Pleurodesis",
+              "Povidone-Iodine",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32434361/"
+          },
+          {
+            "pmid": "36399104",
+            "title": "Stable thyroid function despite regular use of povidone-iodine throat spray for SARS-CoV-2 prophylaxis.",
+            "abstract": "It is unclear whether unintentional ingestion of povidone-iodine following its application to the oropharyngeal space could affect thyroid function.",
+            "journal": "Annals of medicine",
+            "year": "2022",
+            "authors": [
+              "Quek Amy May Lin",
+              "Ng Mei Yen",
+              "Teng Ooiean",
+              "Lim Nicole-Ann",
+              "Ng Geelyn Jeng Lin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Adult",
+              "Povidone-Iodine",
+              "Thyroid Gland",
+              "SARS-CoV-2",
+              "Case-Control Studies",
+              "Pharynx",
+              "COVID-19",
+              "Thyrotropin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36399104/"
+          },
+          {
+            "pmid": "33538761",
+            "title": "Povidone Iodine Mouthwash, Gargle, and Nasal Spray to Reduce Nasopharyngeal Viral Load in Patients With COVID-19: A Randomized Clinical Trial.",
+            "abstract": "This randomized clinical trial investigates the efficacy of nasopharyngeal povidone iodine solutions in reducing the viral load of patients with COVID-19.",
+            "journal": "JAMA otolaryngology-- head & neck surgery",
+            "year": "2021",
+            "authors": [
+              "Guenezan Jeremy",
+              "Garcia Magali",
+              "Strasters Deidre",
+              "Jousselin Clément",
+              "Lévêque Nicolas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anti-Infective Agents, Local",
+              "COVID-19",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Mouthwashes",
+              "Nasal Sprays",
+              "Nasopharynx"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33538761/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Camurati-Engelmann disease",
+        "txgnn_score": 0.7981298565864563,
+        "txgnn_rank": 41914,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "appendicitis",
+        "txgnn_score": 0.7978596687316895,
+        "txgnn_rank": 41923,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02664220",
+            "title": "A Randomized Pilot Trial of Dilute Povidone-iodine Irrigation vs No Irrigation for Children With Acute, Perforated Appendicitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-04",
+            "completion_date": "2018-03",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "The goal of this study is to compare the efficacy of PVI irrigation to no irrigation for decreasing postoperative intra-abdominal abscesses in children with perforated appendicitis. Additionally, this study aims to verify the safety profile of dilute PVI for intra-abdominal irrigation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Children who undergo an appendectomy for perforated appendicitis. (Appendicitis: Diagnosis is made intraoperatively by the surgeon. Diagnosis Method: The visualization of a gross defect in the appendiceal wall or the presence of intraperitoneal stool or a fecalith at the time ",
+            "endpoints": [
+              "Number of Participants With Postoperative Intra-abdominal Abscess"
+            ],
+            "sponsor": "The University of Texas Health Science Center, Houston",
+            "url": "https://clinicaltrials.gov/study/NCT02664220"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06808737",
+            "title": "Assessment of the Efficacy of Transversus Abdominis Plane Block in Alleviating Acute Appendicitis Pain in the Emergency Department",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2024-05-08",
+            "completion_date": "2024-12-28",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 105,
+            "brief_summary": "This study aims to evaluate the efficacy of Transversus Abdominis Plane (TAP) block in preoperative pain management for patients diagnosed with acute appendicitis who are scheduled for emergency surgery in the emergency department. The research seeks to assess the potential of TAP block in reducing pain intensity prior to surgical intervention among patients diagnosed with acute appendicitis in the emergency setting. The goal is to contribute insights that can enhance practical approaches to ach",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients diagnosed with acute appendicitis in the emergency department and scheduled for definitive surgery following general surgical consultation: patients will have their Alvarado score calculated based on history, physical examination, and laboratory tests, and acute appen",
+            "endpoints": [
+              "Total Perioperative Opioid Consumption"
+            ],
+            "sponsor": "Ankara City Hospital Bilkent",
+            "url": "https://clinicaltrials.gov/study/NCT06808737"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06705842",
+            "title": "The APPI-Cost Trial: Cost Assessment of Povidone-Iodine Irrigation for Prevention of Intra-abdominal Abscess in Perforated Appendicitis",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-04-07",
+            "completion_date": "2027-03-31",
+            "country": "United States",
+            "enrollment": 346,
+            "brief_summary": "The purpose of this study to assess the clinical effectiveness and cost-effectiveness of povidone-iodine (PVI) irrigation in perforated appendicitis, to investigate barriers and facilitators to future implementation of PVI irrigation, and to collect costs and clinical and patient-reported outcomes among patients with non-perforated appendicitis.",
+            "eligibility_criteria": "Eligibility for Enrollment\n\nInclusion Criteria:\n\n* Plan to undergo appendectomy for acute appendicitis\n\nExclusion Criteria:\n\n* Preoperative hemodynamic instability requiring ongoing infusion of vasopressors\n* Allergy to iodine\n* Uncontrolled hyper- or hypothyroidism\n* Renal dysfunction\n* Pregnant or",
+            "endpoints": [
+              "Cost-effectiveness of PVI relative to usual care"
+            ],
+            "sponsor": "The University of Texas Health Science Center, Houston",
+            "url": "https://clinicaltrials.gov/study/NCT06705842"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06808087",
+            "title": "Comparison of the Efficacy of Transversus Abdominis Plane Block and Erector Spinae Plane Block in the Management of Acute Appendicitis Pain in the Emergency Department",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2024-05-08",
+            "completion_date": "2024-12-15",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 96,
+            "brief_summary": "This study aims to compare the effectiveness of TAP (Transversus Abdominal Plane) block, ESPB (Erector Spinal Plane Block), and tramadol in preoperative pain management for patients diagnosed with acute appendicitis and undergoing emergency surgery in the emergency department. The study will evaluate the potential of TAP block and ESPB administered to patients diagnosed with acute appendicitis in the emergency department to reduce pain intensity before surgical intervention. This study aims to c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 18 years and older\n* Patients who provide written consent\n\nExclusion Criteria:\n\n* Patients with abdominal wall anatomical abnormalities\n* Patients with known local anesthetic allergies\n* Patients with a BMI \\>30\n* Patients weighing less than 45 kg\n* Patients with",
+            "endpoints": [
+              "Primary Outcome"
+            ],
+            "sponsor": "Ankara City Hospital Bilkent",
+            "url": "https://clinicaltrials.gov/study/NCT06808087"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04200729",
+            "title": "Povidone-iodine Irrigation for Prevention of Intra-abdominal Abscess in Pediatric Perforated Appendicitis",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2027-03-01",
+            "completion_date": "2030-03-01",
+            "country": "United States",
+            "enrollment": 1750,
+            "brief_summary": "The purpose of this study is to determine the effect of intra-abdominal irrigation with povidone-iodine (PVI) versus usual care on the rate of 30-day postoperative intra-abdominal abscesses (IAA) and to determine the effect of PVI irrigation versus usual care on 30-day hospital length of stay(LOS) and 30-day readmissions.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Admitted to a participating center\n* Appendectomy performed for acute appendicitis\n* Intraoperative diagnosis of perforated appendicitis\n\nExclusion Criteria:\n\n* Simple or gangrenous appendicitis\n* Interval or incidental appendectomy\n* Initial attempt at non-operative managemen",
+            "endpoints": [
+              "number of patients with post operative intra-abdominal abscesses"
+            ],
+            "sponsor": "The University of Texas Health Science Center, Houston",
+            "url": "https://clinicaltrials.gov/study/NCT04200729"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37863798",
+            "title": "Povidone-iodine intra-abdominal irrigation versus no irrigation in pediatric perforated appendicitis: A secondary economic analysis of a Bayesian randomized controlled trial.",
+            "abstract": "A pilot randomized controlled trial (RCT) conducted in children (2-17 ​y) with perforated appendicitis demonstrated an 89% probability of reduced intra-abdominal abscess (IAA) rate with povidone-iodine (PVI) irrigation, compared with no irrigation (NI). We hypothesized that PVI also reduced 30-day hospital costs.",
+            "journal": "American journal of surgery",
+            "year": "2024",
+            "authors": [
+              "Ferguson Dalya M",
+              "Anderson K Tinsley",
+              "Avritscher Elenir B C",
+              "Arshad Seyed A",
+              "Bartz-Kurycki Marisa A"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Abdominal Abscess",
+              "Appendectomy",
+              "Appendicitis",
+              "Postoperative Complications",
+              "Povidone-Iodine",
+              "Child, Preschool",
+              "Adolescent"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37863798/"
+          },
+          {
+            "pmid": "31567357",
+            "title": "Povidone-iodine Irrigation for Pediatric Perforated Appendicitis May Be Protective: A Bayesian Pilot Randomized Controlled Trial.",
+            "abstract": "A randomized controlled trial was conducted to test the hypothesis that povidone-iodine (PVI) irrigation versus no irrigation (NI) reduces postoperative intra-abdominal abscess (IAA) in children with perforated appendicitis.",
+            "journal": "Annals of surgery",
+            "year": "2020",
+            "authors": [
+              "Anderson Kathryn Tinsley",
+              "Putnam Luke Randall",
+              "Bartz-Kurycki Marisa Angeline",
+              "Hamilton Emma Catherine",
+              "Yafi Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Abdominal Abscess",
+              "Adolescent",
+              "Anti-Infective Agents, Local",
+              "Appendicitis",
+              "Bayes Theorem",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31567357/"
+          },
+          {
+            "pmid": "39657362",
+            "title": "Intra-peritoneal Povidone-iodine Irrigation Decreases Abscesses in a Perforated Appendicitis Murine Model.",
+            "abstract": "Children with perforated appendicitis frequently form post-operative intra-abdominal abscesses (IAA). Intra-peritoneal irrigation for prevention remains controversial. Using a perforated appendicitis murine model, we sought to determine the effect of intra-peritoneal irrigation on post-operative IAA and adhesion formation.",
+            "journal": "Journal of pediatric surgery",
+            "year": "2025",
+            "authors": [
+              "Krinock Derek J",
+              "Stephenson Krista",
+              "Irby David",
+              "Akmyradov Chary",
+              "Barker Melanie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Povidone-Iodine",
+              "Animals",
+              "Abdominal Abscess",
+              "Mice",
+              "Disease Models, Animal",
+              "Appendicitis",
+              "Peritoneal Lavage",
+              "Tissue Adhesions",
+              "Anti-Infective Agents, Local",
+              "Postoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39657362/"
+          },
+          {
+            "pmid": "378012",
+            "title": "Intraperitoneal povidone-iodine in experimental canine and murine peritonitis.",
+            "abstract": "In dogs with appendicitis-peritonitis, intraperitoneal povidone-iodine caused death more rapidly than the instillation of saline solution. The bacterial content of canine peritoneal fluid increased with time. Although fewer bacteria were found in fluid from povidone-iodine-treated dogs, the differences were not statistically significant. Qualitative chemical analysis of peritoneal fluid revealed iodide, but not free iodine, 15 to 30 minutes after instillation of povidone-iodine. Iodine was present in the peritoneum at 2 hours but not at 3 or 6 hours. The antibacterial effect of povidone-iodine was demonstrated in mice challenged intraperitoneally with lethal doses of Escherichia coli. Povidone-iodine diminished mortality when injected immediately (p less than 0.005) but not when given 1 to 3 hours later. Immediate injection of povidone-iodine into mice lowered the number of E. coli by 3 logs. Injection of povidone-iodine 3 hours after bacterial challenge lowered the number of E. coli b",
+            "journal": "American journal of surgery",
+            "year": "1979",
+            "authors": [
+              "Bolton J S",
+              "Bornside G H",
+              "Cohn I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Appendicitis",
+              "Ascitic Fluid",
+              "Bacteroides",
+              "Clostridium",
+              "Dogs",
+              "Escherichia coli",
+              "Escherichia coli Infections",
+              "Female",
+              "Injections, Intraperitoneal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/378012/"
+          },
+          {
+            "pmid": "41033180",
+            "title": "Feasibility of Low-Volume Atomized Povidone-Iodine as a Peritoneal Antiseptic in Complicated Appendicitis.",
+            "abstract": "Pediatric complicated appendicitis carries significant risk of abscess formation. Current surgical techniques for reduction of postoperative abscess include suction, irrigation with saline or dilute povidone-iodine, or drain placement. However, these approaches are not supported by high-quality evidence. This study aims to investigate the feasibility of administering low-volume atomized povidone-iodine (LVAP) as an antiseptic technique for complicated appendicitis.",
+            "journal": "The Journal of surgical research",
+            "year": "2025",
+            "authors": [
+              "Bates Kelly R",
+              "Lehane Alison J",
+              "Dodd Ashley C",
+              "Liesman Daniel R",
+              "Grabowski Julia E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Povidone-Iodine",
+              "Appendicitis",
+              "Retrospective Studies",
+              "Feasibility Studies",
+              "Male",
+              "Child",
+              "Female",
+              "Appendectomy",
+              "Anti-Infective Agents, Local"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41033180/"
+          },
+          {
+            "pmid": "3790957",
+            "title": "Combined topical povidone-iodine and systemic antibiotics in postappendicectomy wound sepsis.",
+            "abstract": "Three hundred and fifteen patients with appendicitis were randomized into two groups. One group received pre-operative systemic gentamicin and metronidazole while the other group received 1 per cent topical povidone-iodine solution in addition to the antibiotics. For early appendicitis including normal and acutely inflamed appendices, only one dose of antibiotics was used. The postoperative wound sepsis was very low in both groups of patients and there was no statistical difference between them. For late appendicitis including gangrenous and perforated appendices, the antibiotics were continued for 7 days. Eight out of 51 patients who had the topical agent developed wound sepsis compared with one out of 52 patients who received no topical agent. This difference is statistically significant (P = 0.03). All wound infections presented within 2 weeks of operation and were deep. Povidone-iodine, 1 per cent, adversely affects the wound infection rate in late appendicitis and should not be us",
+            "journal": "The British journal of surgery",
+            "year": "1986",
+            "authors": [
+              "Lau W Y",
+              "Fan S T",
+              "Chu K W",
+              "Yip W C",
+              "Chong K K"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Appendectomy",
+              "Drug Therapy, Combination",
+              "Gentamicins",
+              "Humans",
+              "Metronidazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3790957/"
+          },
+          {
+            "pmid": "2860183",
+            "title": "Systemic metronidazole combined with either topical povidone-iodine or ampicillin in acute appendicitis.",
+            "abstract": "One-hundred consecutive patients undergoing appendicectomy either electively or for clinically diagnosed acute appendicitis were studied to examine the difference between the use of topical povidone-iodine (PVP-I) and ampicillin in the wound given at the time of closure. All patients were treated with metronidazole suppositories for 48 h starting at the time of pre-medication in addition to a topical agent. The overall wound infection rate was 14%. If the appendix was histologically normal or inflamed, the rate fell to 10% whereas if gangrenous or perforated it rose to 24%. Sixty-six per cent of the patients with a perforated appendicitis developed a wound infection. There was no significant difference in the wound infection rate between those treated with PVP-I and those with ampicillin. Topical antisepsis using PVP-I is preferable to ampicillin as it abolishes the risk of antibiotic resistance or allergy developing and since it is comparatively more cost-effective.",
+            "journal": "The Journal of hospital infection",
+            "year": "1985",
+            "authors": [
+              "Parker M C",
+              "Mathams A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Infective Agents",
+              "Anti-Infective Agents, Local",
+              "Appendectomy",
+              "Child",
+              "Drug Therapy, Combination",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2860183/"
+          },
+          {
+            "pmid": "40753233",
+            "title": "Evaluating the efficacy of dilute povidone-iodine versus normal saline for preventing surgical site infections following appendectomy: a prospective observational study in Ghanaian tertiary hospital.",
+            "abstract": "and Aims: Surgical site infection (SSI) remains a common postoperative complication for patients with acute appendicitis. This study aimed to compare the effectiveness of dilute povidone-iodine and normal saline in preventing post-appendectomy surgical site infections.",
+            "journal": "BMC surgery",
+            "year": "2025",
+            "authors": [
+              "Abdul-Latif Sulemana",
+              "Yorke Joseph",
+              "Brenu Samuel Gyasi",
+              "Oppong Joseph Kwaku",
+              "Buckman Tonnies Abeku"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Young Adult",
+              "Anti-Infective Agents, Local",
+              "Appendectomy",
+              "Appendicitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40753233/"
+          },
+          {
+            "pmid": "6378144",
+            "title": "Combined preoperative antibiotic therapy and intraoperative topical povidone-iodine. Reduction of wound sepsis following emergency appendectomy.",
+            "abstract": "Single doses of clindamycin hydrochloride and gentamicin sulfate given preoperatively, combined with intraoperative topical application of povidone-iodine were given to patients with perforated or gangrenous appendicitis. The incidence of wound sepsis was reduced from 36% to 5%; severe infections were reduced from 25% to 0% when compared with a control untreated group of patients. When used alone, povidone-iodine had little effect in these patients. No toxic effects of the antibiotics or antiseptic were recorded nor were any resistant strains of pathogenic organisms grown from cultures.",
+            "journal": "Archives of surgery (Chicago, Ill. : 1960)",
+            "year": "1984",
+            "authors": [
+              "Sherlock D J",
+              "Ward A",
+              "Holl-Allen R T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Appendectomy",
+              "Appendicitis",
+              "Clindamycin",
+              "Clinical Trials as Topic",
+              "Drug Therapy, Combination",
+              "Emergencies",
+              "Gentamicins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6378144/"
+          },
+          {
+            "pmid": "25126720",
+            "title": "Post-appendectomy surgical site infection rate after using an antimicrobial film incise drape: a prospective study.",
+            "abstract": "An appendectomy is a contaminated or potentially dirty surgical procedure that can be associated with surgical site infection (SSI).",
+            "journal": "Surgical infections",
+            "year": "2015",
+            "authors": [
+              "Al-Qahtani Saleh M",
+              "Al-Amoudi Hani M",
+              "Al-Jehani Suhad",
+              "Ashour Abdullah S",
+              "Abd-Hammad Mohammed R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-Infective Agents",
+              "Appendectomy",
+              "Child",
+              "Female",
+              "Humans",
+              "Male",
+              "Prospective Studies",
+              "Surgical Drapes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25126720/"
+          },
+          {
+            "pmid": "12098059",
+            "title": "Antiseptic wick: does it reduce the incidence of wound infection following appendectomy?",
+            "abstract": "The role of prophylactic antibiotics is well established for contaminated wounds, but the use of antiseptic wound wicks is controversial. The aim of this work was to study the potential use of wound wicks to reduce the rate of infection following appendectomy. This prospective randomized controlled clinical trial was conducted at a university hospital in the department of surgery. The subjects were patients undergoing appendectomy for definite acute appendicitis. They were randomized by computer to primary subcuticular wound closure or use of an antiseptic wound wick. For the latter, ribbon gauze soaked in povidone-iodine was placed between interrupted nylon skin sutures. Wicks were soaked daily and removed on the fourth postoperative day. All patients received antibiotic prophylaxis. They were reviewed while in hospital and 4 weeks following operation for evidence of wound infection. The main outcome measures were wound infection, wound discomfort, and cosmetic result. The overall wou",
+            "journal": "World journal of surgery",
+            "year": "2002",
+            "authors": [
+              "McGreal Gerald T",
+              "Joy Aislinn",
+              "Manning Brian",
+              "Kelly John L",
+              "O'Donnell Joseph A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anti-Infective Agents, Local",
+              "Antibiotic Prophylaxis",
+              "Appendectomy",
+              "Appendicitis",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12098059/"
+          },
+          {
+            "pmid": "7356379",
+            "title": "Disinfection of surgical wounds without inhibition of normal wound healing.",
+            "abstract": "The goal of disinfection of surgical wounds is to destroy as large a number as possible of the microbes that have made their way into the surgical wounds during the time of surgery, without disturbing the normal wound-healing process. It is not a substitute for preoperative disinfection of the skin or aseptic technique, but makes it possible to further decrease the rate of infection in slightly or moderately contaminated wounds. This was shown with a series of 294 pediatric surgical patients, 283 of whom had undergone appendectomy. A 5% povidone-iodine solution, especially in combination with excipients, was too strong, whereas a 1% povidone-iodine solution without excipients applied to the surgical wound was safe from the standpoint of wound healing, and decresed the number of wound infections in those patients with appendicitis in whom neither peritonitis nor periappendicular abscess had yet developed.",
+            "journal": "Archives of surgery (Chicago, Ill. : 1960)",
+            "year": "1980",
+            "authors": [
+              "Viljanto J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Aerosols",
+              "Appendectomy",
+              "Cellulose",
+              "Child",
+              "Disinfection",
+              "Drainage",
+              "Humans",
+              "Povidone",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7356379/"
+          },
+          {
+            "pmid": "15603047",
+            "title": "Management of wound infection after appendectomy: are parenteral antibiotics useful?",
+            "abstract": "This study investigated the use of antibiotics in the treatment of wound infections after appendectomy. The subjects were 72 patients with post-operative wound infections at a district general hospital in Jordan. All patients received daily antiseptic dressings with povidone-iodine 10% in alcohol. The patients were randomized in a single-blind trial to receive either no antibiotics or parenteral antibiotics metronidazole and cefoxitin. There was no significant effect of antibiotic use in patients with early inflamed or severely inflamed appendicitis. However, for patients with perforated appendicitis the mean length of hospital stay and the mean frequency of change of dressings were significantly reduced. We conclude that antibiotics do not offer any advantage in post-appendectomy wound infections except for cases of perforated appendix.",
+            "journal": "Eastern Mediterranean health journal = La revue de sante de la Mediterranee orientale = al-Majallah al-sihhiyah li-sharq al-mutawassit",
+            "year": "2002",
+            "authors": [
+              "Harahsheh B",
+              "Hiyasat B",
+              "Abulail A",
+              "Al-Basheer M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Anti-Infective Agents",
+              "Antisepsis",
+              "Appendectomy",
+              "Bandages",
+              "Cefoxitin",
+              "Combined Modality Therapy",
+              "Drug Therapy, Combination",
+              "Follow-Up Studies",
+              "Hospitals, District"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15603047/"
+          },
+          {
+            "pmid": "41586132",
+            "title": "Strangulated Inguinal Hernia Containing Caecum and Inflamed Appendix: Two Case Reports and Review of the Literature to Guide Management.",
+            "abstract": "Amyand's hernia is defined by the presence of the appendix in the sac of an inguinal hernia. Its treatment poses two problems: the risk of infection associated with the presence of the appendix and the choice of surgical technique, which must reduce the risk of infection while minimising the risk of recurrence. In this article, we present two patients treated for a strangulated inguinal hernia containing the appendix and caecum and review the literature for evidence that may guide the choice of treatment.",
+            "journal": "Journal of abdominal wall surgery : JAWS",
+            "year": "2025",
+            "authors": [
+              "Tcheutchoua Soh Guillaume",
+              "Faye Papa Mamadou",
+              "Nde Armel Franck Tene",
+              "Ndong Abdourahmane",
+              "Diallo Thierno Amadou Telly"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41586132/"
+          },
+          {
+            "pmid": "9880419",
+            "title": "Effectiveness of collagen-gentamicin implant for treatment of \"dirty\" abdominal wounds.",
+            "abstract": "The purpose of this work was to compare the efficacy and safety of the collagen-gentamicin sponge with conventional treatment (wound open, maintaining a close observation, and cleaning it daily with antiseptics) for the prophylaxis of infection in \"dirty\" abdominal wounds. Seventy-three patients with dirty abdominal wounds caused by gastrointestinal tract surgery were studied. The patients were randomized in two groups: group A, open wounds, treated with local cleansing, metronidazole 20 to 40 mg/kg/day IV and gentamicin 5 mg/kg/day IV for 7 days. Group B, primary closure with collagen-gentamicin implant plus metronidazole 20 to 40 mg/kg/day IV for 7 days. Surgical wound infections were significantly reduced by the collagen-gentamicin implant. Polymicrobial infections were observed in group A, whereas the infections were caused only by a single organism in group B. In conclusion, the collagen-gentamicin implant is effective and well tolerated in the treatment of \"dirty\" surgical abdomi",
+            "journal": "World journal of surgery",
+            "year": "1999",
+            "authors": [
+              "Guzmán Valdivia Gomez G",
+              "Guerrero T S",
+              "Lluck M C",
+              "Delgado F J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents",
+              "Anti-Infective Agents, Local",
+              "Appendicitis",
+              "Bacterial Infections",
+              "Collagen",
+              "Colonic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9880419/"
+          },
+          {
+            "pmid": "1252827",
+            "title": "Letter: Metronidazole in appendicitis.",
+            "abstract": "",
+            "journal": "British medical journal",
+            "year": "1976",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Appendectomy",
+              "Bacteroides Infections",
+              "Humans",
+              "Metronidazole",
+              "Povidone-Iodine",
+              "Surgical Wound Infection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1252827/"
+          },
+          {
+            "pmid": "3389001",
+            "title": "[Effect of intraoperative local polyvinylpyrrolidone iodine administration on the risk of wound infection following appendectomy].",
+            "abstract": "A study conducted into 91 appendectomised patients revealed wound infection rates to worsen from eight to 26 per cent (p less than 0.05) in the wake of locally delimited intra-operative application of povidone-iodine solution, two per cent in concentration. No other factors were found to be responsible for that aggravation. Tissue toxicity was found to outweight bactericidal effects, even with application in diluted and PVP-bonded form. Hence, povidone-iodine solutions not even in diluted form should ever be applied to wound treatment.",
+            "journal": "Zentralblatt fur Chirurgie",
+            "year": "1988",
+            "authors": [
+              "Eggert A",
+              "Baumann M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Appendectomy",
+              "Appendicitis",
+              "Female",
+              "Humans",
+              "Intestinal Perforation",
+              "Male",
+              "Peritoneal Lavage",
+              "Povidone",
+              "Povidone-Iodine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3389001/"
+          },
+          {
+            "pmid": "462065",
+            "title": "[Prevention of post appendectomy incision abscess with the use of polyvinilpyrrolidone iodine (prospective study)].",
+            "abstract": "365 appendicectomy cases performed from 1972 to 1976 were studied prospectively. In 135 control cases the wound was not lavaged. In 102 cases the wound was lavaged with normal saline solution. En 108 cases the wound was lavaged with PVP-I. Wound abscess formation rate in the first group was 28.8%, in the second group was 21.35% and in the third group was 18.5%. Patients operated after 1974 and treated with PVP-I showed a 4.2% abscess formation. Morbility and mortality in appendicitis are best reduced if early diagnosis and surgical treatment are backed by a faultless technic.",
+            "journal": "Revista de gastroenterologia de Mexico",
+            "year": "1979",
+            "authors": [
+              "Christen Florencia J",
+              "Ribé Bello J",
+              "Cueto García J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Appendectomy",
+              "Appendicitis",
+              "Child",
+              "Child, Preschool",
+              "Drug Evaluation",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/462065/"
+          },
+          {
+            "pmid": "4128070",
+            "title": "Letter: Wound infection in acute appendicitis.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1973",
+            "authors": [],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Ampicillin",
+              "Appendectomy",
+              "Appendicitis",
+              "Cross Infection",
+              "Humans",
+              "Povidone",
+              "Povidone-Iodine",
+              "Surgical Wound Infection",
+              "Tetracycline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4128070/"
+          },
+          {
+            "pmid": "4127593",
+            "title": "Letter: Wound infection in acute appendicitis.",
+            "abstract": "",
+            "journal": "Lancet (London, England)",
+            "year": "1973",
+            "authors": [
+              "Benson E A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Ampicillin",
+              "Anti-Inflammatory Agents",
+              "Appendicitis",
+              "Humans",
+              "Penicillin Resistance",
+              "Povidone",
+              "Povidone-Iodine",
+              "Surgical Wound Infection",
+              "Tetracycline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4127593/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "aortic valve insufficiency",
+        "txgnn_score": 0.7959923148155212,
+        "txgnn_rank": 42015,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "2375901",
+            "title": "Management of an infected graft in the ascending aorta by an omental pedicel graft and irrigation with povidone iodine.",
+            "abstract": "An infected graft in the ascending aorta was managed by use of an omental pedicel graft and local irrigation with a dilute suspension of aqueous providone iodine. This conservative approach is an alternative to the high risk procedure of graft replacement. The large abscess cavity associated with the aortic prosthesis was diagnosed by computed tomography.",
+            "journal": "British heart journal",
+            "year": "1990",
+            "authors": [
+              "Joyce W",
+              "Huddy S",
+              "Smith E E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abscess",
+              "Aged",
+              "Aortic Valve Insufficiency",
+              "Combined Modality Therapy",
+              "Female",
+              "Heart Valve Prosthesis",
+              "Humans",
+              "Infections",
+              "Omentum",
+              "Postoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2375901/"
+          },
+          {
+            "pmid": "11198316",
+            "title": "Right ventricular and septal anomalies complicated by subacute bacterial endocarditis.",
+            "abstract": "We report the case of a 31-year-old woman with no history of heart disease. She came to the hospital with fever, dyspnea, palpitation, and edema of the lower extremities. She was found to have aortic, mitral, and pulmonary valve insufficiency, and the initial diagnosis was subacute bacterial endocarditis. At surgery, we replaced the aortic and mitral valves with mechanical prostheses and the pulmonary valve with a bioprosthesis. The prostheses were soaked intraoperatively with fluconazole and the heart chambers were irrigated with povidone-iodine to prevent infection by bacteria and fungi. We also found 2 previously unsuspected anomalies: 1 was a muscular bundle that divided the right ventricle into 2 chambers, and the other was a ventricular septal defect, 1.0 cm in diameter. We resected the muscular bundle and patched the septal defect. The patient had an uneventful postoperative course and was in New York Heart Association functional class I at the 15-month follow-up visit. We specu",
+            "journal": "Texas Heart Institute journal",
+            "year": "2000",
+            "authors": [
+              "He Q C",
+              "Wang Y Q",
+              "Zhong B T",
+              "Chen Z L",
+              "Guo J G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Echocardiography",
+              "Endocarditis, Subacute Bacterial",
+              "Female",
+              "Heart Septal Defects, Ventricular",
+              "Heart Valve Diseases",
+              "Heart Ventricles",
+              "Humans",
+              "Radiography, Thoracic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11198316/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "active peptic ulcer disease",
+        "txgnn_score": 0.7956575751304626,
+        "txgnn_rank": 42033,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06812",
+    "name": "Povidone-iodine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Povidone-iodine"
+      },
+      "queried_at": "2026-03-10T10:25:15.350836",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Povidone-iodine"
+      },
+      "queried_at": "2026-03-10T10:25:18.127891",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T10:25:18.995123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T10:25:22.340567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T10:25:22.963541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "peptic esophagitis"
+      },
+      "queried_at": "2026-03-10T10:25:23.510355",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "peptic esophagitis"
+      },
+      "queried_at": "2026-03-10T10:25:26.335507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "peptic esophagitis"
+      },
+      "queried_at": "2026-03-10T10:25:26.924065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "peritonitis"
+      },
+      "queried_at": "2026-03-10T10:25:27.387308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "peritonitis"
+      },
+      "queried_at": "2026-03-10T10:25:30.909540",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "peritonitis"
+      },
+      "queried_at": "2026-03-10T10:25:33.179459",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Peyronie disease"
+      },
+      "queried_at": "2026-03-10T10:25:33.680734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Peyronie disease"
+      },
+      "queried_at": "2026-03-10T10:25:37.225674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Peyronie disease"
+      },
+      "queried_at": "2026-03-10T10:25:39.442964",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-10T10:25:40.003761",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-10T10:25:42.768615",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-10T10:25:47.201117",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "pneumonia"
+      },
+      "queried_at": "2026-03-10T10:25:53.958948",
+      "status": "success",
+      "result_count": 35,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "pneumonia"
+      },
+      "queried_at": "2026-03-10T10:25:58.520024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "pneumonia"
+      },
+      "queried_at": "2026-03-10T10:26:02.666990",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Camurati-Engelmann disease"
+      },
+      "queried_at": "2026-03-10T10:26:03.574277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Camurati-Engelmann disease"
+      },
+      "queried_at": "2026-03-10T10:26:06.503079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "Camurati-Engelmann disease"
+      },
+      "queried_at": "2026-03-10T10:26:07.872166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "appendicitis"
+      },
+      "queried_at": "2026-03-10T10:26:08.809493",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "appendicitis"
+      },
+      "queried_at": "2026-03-10T10:26:13.405063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "appendicitis"
+      },
+      "queried_at": "2026-03-10T10:26:15.764078",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "aortic valve insufficiency"
+      },
+      "queried_at": "2026-03-10T10:26:16.728190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "aortic valve insufficiency"
+      },
+      "queried_at": "2026-03-10T10:26:20.160285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "aortic valve insufficiency"
+      },
+      "queried_at": "2026-03-10T10:26:21.912487",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "active peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T10:26:22.437624",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "active peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T10:26:25.778619",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Povidone-iodine",
+        "disease": "active peptic ulcer disease"
+      },
+      "queried_at": "2026-03-10T10:26:27.694356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:26:27.699137"
+  }
+}

@@ -1,0 +1,2203 @@
+{
+  "drug": {
+    "inn": "Leucine",
+    "drugbank_id": "DB00149",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "congenital prothrombin deficiency",
+        "txgnn_score": 0.989990234375,
+        "txgnn_rank": 10539,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroparesis (disease)",
+        "txgnn_score": 0.9884651899337769,
+        "txgnn_rank": 11705,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.9841755032539368,
+        "txgnn_rank": 14692,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07277075",
+            "title": "Probiotic Intervention and Its Influence on Serum Leucine-Rich Alpha-2 Glycoprotein 1 Levels in Acne Vulgaris Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2024-10-01",
+            "completion_date": "2025-09-30",
+            "country": "Egypt",
+            "enrollment": 50,
+            "brief_summary": "This study aimed to assess the serum level of Leucine-rich alpha-2 glycoprotein 1 (LRG1) in Acne vulgaris (AV) individuals and evaluate the effect of probiotic therapy on these serum levels.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years.\n* Both sexes.\n* Had not used systemic or topical acne therapy for at least two months or two weeks before the research, respectively.\n* Participants with clinically diagnosed mild to moderate acne vulgaris (AV) based on the Global Acne Grading System (GAGS)\n\nExc",
+            "endpoints": [
+              "Serum Leucine-Rich Alpha-2 Glycoprotein 1 Level"
+            ],
+            "sponsor": "Benha University",
+            "url": "https://clinicaltrials.gov/study/NCT07277075"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38409251",
+            "title": "NLRP3 inflammasome activation and NETosis positively regulate each other and exacerbate proinflammatory responses: implications of NETosis inhibition for acne skin inflammation treatment.",
+            "abstract": "Inflammasomes are multiprotein complexes involved in the host immune response to pathogen infections. Thus, inflammasomes participate in many conditions, such as acne. Recently, it was shown that NETosis, a type of neutrophil cell death, is induced by bacterial infection and is involved in inflammatory diseases such as delayed wound healing in patients with diabetes. However, the relationship between inflammasomes and NETosis in the pathogenesis of inflammatory diseases has not been well studied. In this study, we determined whether NETosis is induced in P. acnes-induced skin inflammation and whether activation of the nucleotide-binding domain, leucine-rich family, and pyrin domain-containing-3 (NLRP3) inflammasome is one of the key factors involved in NETosis induction in a mouse model of acne skin inflammation. We found that NETosis was induced in P. acnes-induced skin inflammation in mice and that inhibition of NETosis ameliorated P. acnes-induced skin inflammation. In addition, our",
+            "journal": "Cellular & molecular immunology",
+            "year": "2024",
+            "authors": [
+              "Kim Hyo Jeong",
+              "Lee Yun Sang",
+              "Lee Bok-Soon",
+              "Han Chang-Hak",
+              "Kim Sang Gyu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "NLR Family, Pyrin Domain-Containing 3 Protein",
+              "Animals",
+              "Inflammasomes",
+              "Extracellular Traps",
+              "Acne Vulgaris",
+              "Mice",
+              "Inflammation",
+              "Skin",
+              "Neutrophils",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38409251/"
+          },
+          {
+            "pmid": "23529682",
+            "title": "[Acne and diet].",
+            "abstract": "In industrialized countries acne presents as an epidemic disease of civilization affecting sebaceous follicles of adolescents and young adults, associated with increased body mass index and insulin resistance. \"Western style\" diet, characterized by high glycaemic load and increased consumption of insulinotropic milk proteins, plays an important role in acne pathogenesis. On the cellular level, nutrient-derived metabolic signals are sensed by the metabolic transcription factor FoxO1 and integrated by the regulatory kinase mTORC1. mTORC1, the central hub of protein- and lipid biosynthesis, cell growth and proliferation, is activated by insulin, IGF-1 and branched-chain essential amino acids, especially leucine. The understanding of Western diet-mediated nutrient signalling with over-activated mTORC1 offers a reasonable approach for dietary intervention in acne by lowering glycaemic load and consumption of milk and milk products. A suitable diet attenuating increased mTORC1 activity is a ",
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2013",
+            "authors": [
+              "Melnik B C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Diet",
+              "Feeding Behavior",
+              "Humans",
+              "Hyperglycemia",
+              "Insulin-Like Growth Factor I",
+              "Mechanistic Target of Rapamycin Complex 1",
+              "Multiprotein Complexes",
+              "TOR Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23529682/"
+          },
+          {
+            "pmid": "29807397",
+            "title": "Development and Characterization of an Anti-Acne Gel Containing Siamese Crocodile (Crocodylus siamensis) Leukocyte Extract.",
+            "abstract": "Leukocytes are reportedly the first line of the innate immune defense and essential for the control of common bacterial infections. Therefore, in this work, the antibacterial activity of crocodile leukocyte extract against Propionibacterium acnes was evaluated, and we also characterized the related activity of skin infection. The leukocyte extract showed the minimum inhibitory concentration to be 100 μg/ml to P. acnes. SEM imaging demonstrated that the leukocyte extract adversely affected P. acnes cell permeability in a concentration-dependent manner. Furthermore, the crocodile leukocyte extract could significantly reduce proinflammatory markers and decrease inflammatory signs in infected mouse ears. The crude leukocyte extract was further purified using FPLC and RP-HPLC. The resulting fraction F5 was indicated as the anti-acne peptide-containing fraction. The molecular mass of the peptide contained in F5 was calculated to be 4,790.5 Da. N-Terminal sequencing revealed the amino acid se",
+            "journal": "Journal of microbiology and biotechnology",
+            "year": "2018",
+            "authors": [
+              "Phupiewkham Weeraya",
+              "Lu Qiumin",
+              "Payoungkiattikun Wisarut",
+              "Temsiripong Threeranan",
+              "Jangpromma Nisachon"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Administration, Topical",
+              "Alligators and Crocodiles",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antimicrobial Cationic Peptides",
+              "Cell Extracts",
+              "Drug Stability",
+              "Gels",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29807397/"
+          },
+          {
+            "pmid": "27187378",
+            "title": "The Relationship between NALP3 and Autoinflammatory Syndromes.",
+            "abstract": "The nucleotide-binding domain, leucine-rich repeat/pyrin domain-containing-3 (NALP3) inflammasome, which is required for synthesis of interleukin-1β, has been implicated in the pathogenesis of several autoinflammatory syndromes. This review of the literature summarizes the interconnectedness of NALP3 inflammasome with some of these disorders. Familial Mediterranean fever results from a mutation in the Mediterranean fever (MEFV) gene, which encodes the pyrin protein. Previous study results suggest that pyrin suppresses caspase-1 activation, perhaps by competing for the adaptor protein, termed, pyrin domain of apoptosis/speck-like protein containing a caspase-recruitment domain (ACS) which therefore interferes with NALP3 inflammasome activation. The nucleotide-binding domain, leucine-rich repeat/pyrin domain-containing-3 (NALP3) inflammasome is constitutively activated in cryopyrin-associated periodic syndromes due to gain-of-function mutations resulting from point mutations within the n",
+            "journal": "International journal of molecular sciences",
+            "year": "2016",
+            "authors": [
+              "Campbell Lorna",
+              "Raheem Irfan",
+              "Malemud Charles J",
+              "Askari Ali D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Inflammatory Agents",
+              "Hereditary Autoinflammatory Diseases",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Inflammasomes",
+              "NLR Family, Pyrin Domain-Containing 3 Protein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27187378/"
+          },
+          {
+            "pmid": "24275598",
+            "title": "Treating inflammation by blocking interleukin-1 in humans.",
+            "abstract": "IL-1 is a master cytokine of local and systemic inflammation. With the availability of specific IL-1 targeting therapies, a broadening list of diseases has revealed the pathologic role of IL-1-mediated inflammation. Although IL-1, either IL-1α or IL-1β, was administered to patients in order to improve bone marrow function or increase host immune responses to cancer, these patients experienced unacceptable toxicity with fever, anorexia, myalgias, arthralgias, fatigue, gastrointestinal upset and sleep disturbances; frank hypotension occurred. Thus it was not unexpected that specific pharmacological blockade of IL-1 activity in inflammatory diseases would be beneficial. Monotherapy blocking IL-1 activity in a broad spectrum of inflammatory syndromes results in a rapid and sustained reduction in disease severity. In common conditions such as heart failure and gout arthritis, IL-1 blockade can be effective therapy. Three IL-1blockers have been approved: the IL-1 receptor antagonist, anakinr",
+            "journal": "Seminars in immunology",
+            "year": "2013",
+            "authors": [
+              "Dinarello Charles A",
+              "van der Meer Jos W M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Diabetes Mellitus",
+              "Heart Failure",
+              "Humans",
+              "Inflammation",
+              "Interleukin 1 Receptor Antagonist Protein",
+              "Interleukin-1 Receptor Accessory Protein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24275598/"
+          },
+          {
+            "pmid": "16778789",
+            "title": "Inhibitors of dipeptidyl peptidase IV and aminopeptidase N target major pathogenetic steps in acne initiation.",
+            "abstract": "Acne is a chronic disease hallmarked by sebaceous hyperplasia, follicular hyperkeratosis, and inflammation. Parallel targeting of these factors is required to treat acne effectively. Inhibitors of dipeptidyl peptidase IV (DP IV) and aminopeptidase N (APN) show strong anti-inflammatory effects on immune cells and therapeutic efficacy in autoimmune disorders. Our investigation focused on the expression and functional relevance of these ectopeptidases in three cell types which exhibit an altered phenotype in early acne lesions. We showed for the first time expression of DP IV and APN on human sebocytes. In the SZ95 sebocyte cell line, the DP IV inhibitors Lys[Z(NO2)]-thiazolidide and Lys[Z(NO2)]-pyrrolidide and the APN inhibitors actinonin and bestatin suppressed proliferation, enhanced terminal differentiation, and slightly decreased total neutral lipid production. The anti-inflammatory and differentiation-restoring cytokine IL-1 receptor antagonist was significantly upregulated in SZ95 ",
+            "journal": "The Journal of investigative dermatology",
+            "year": "2007",
+            "authors": [
+              "Thielitz Anja",
+              "Reinhold Dirk",
+              "Vetter Robert",
+              "Bank Ute",
+              "Helmuth Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Anti-Bacterial Agents",
+              "CD13 Antigens",
+              "Cell Differentiation",
+              "Cell Proliferation",
+              "Cells, Cultured",
+              "Dipeptidyl Peptidase 4",
+              "Dipeptidyl-Peptidase IV Inhibitors",
+              "Enzyme Inhibitors",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16778789/"
+          },
+          {
+            "pmid": "34188292",
+            "title": "Toll-Like Receptors in Dermatology, Venereology, and Leprosy.",
+            "abstract": "Toll-like receptors (TLRs) represent a family of Type I transmembrane proteins characterized by an extracellular leucine-rich repeat domain and a cytoplasmic domain. TLRs represent a conserved group of receptors which help the immune system to function properly. Different TLRs are associated with an array of skin diseases. TLR agonists and antagonists have great potential for the treatment of allergic and inflammatory diseases.",
+            "journal": "Indian journal of dermatology",
+            "year": "2021",
+            "authors": [
+              "Gandhi Sneha",
+              "Ravindra K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34188292/"
+          },
+          {
+            "pmid": "22870349",
+            "title": "Dietary intervention in acne: Attenuation of increased mTORC1 signaling promoted by Western diet.",
+            "abstract": "The purpose of this paper is to highlight the endocrine signaling of Western diet, a fundamental environmental factor involved in the pathogenesis of epidemic acne. Western nutrition is characterized by high calorie uptake, high glycemic load, high fat and meat intake, as well as increased consumption of insulin- and IGF-1-level elevating dairy proteins. Metabolic signals of Western diet are sensed by the nutrient-sensitive kinase, mammalian target of rapamycin complex 1 (mTORC1), which integrates signals of cellular energy, growth factors (insulin, IGF-1) and protein-derived signals, predominantly leucine, provided in high amounts by milk proteins and meat. mTORC1 activates SREBP, the master transcription factor of lipogenesis. Leucine stimulates mTORC1-SREBP signaling and leucine is directly converted by sebocytes into fatty acids and sterols for sebaceous lipid synthesis. Over-activated mTORC1 increases androgen hormone secretion and most likely amplifies androgen-driven mTORC1 sign",
+            "journal": "Dermato-endocrinology",
+            "year": "2012",
+            "authors": [
+              "Melnik Bodo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22870349/"
+          },
+          {
+            "pmid": "22419445",
+            "title": "Diet in acne: further evidence for the role of nutrient signalling in acne pathogenesis.",
+            "abstract": "Recent evidence underlines the role of Western diet in the pathogenesis of acne. Acne is absent in populations consuming Palaeolithic diets with low glycaemic load and no consumption of milk or dairy products. Two randomized controlled studies, one of which is presented in this issue of Acta Dermato-Venereologica, have provided evidence for the beneficial therapeutic effects of low glycaemic load diets in acne. Epidemiological evidence confirms that milk consumption has an acne-promoting or acne-aggravating effect. Recent progress in understanding the nutrient-sensitive kinase mammalian target of rapamycin complex 1 (mTORC1) allows a new view of nutrient signalling in acne by both high glycaemic load and increased insulin-, IGF-1-, and leucine signalling due to milk protein consumption. Acne should be regarded as an mTORC1-driven disease of civilization, like obesity, type 2 diabetes and cancer induced by Western diet. Early dietary counselling of teenage acne patients is thus a great ",
+            "journal": "Acta dermato-venereologica",
+            "year": "2012",
+            "authors": [
+              "Melnik Bodo C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Acne Vulgaris",
+              "Animals",
+              "Diet, Carbohydrate-Restricted",
+              "Dietary Carbohydrates",
+              "Female",
+              "Humans",
+              "Male",
+              "Severity of Illness Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22419445/"
+          },
+          {
+            "pmid": "16122996",
+            "title": "A missense mutation in pstpip2 is associated with the murine autoinflammatory disorder chronic multifocal osteomyelitis.",
+            "abstract": "Chronic recurrent multifocal osteomyelitis (CRMO) is an autoinflammatory disorder that primarily affects bone but is often accompanied by inflammation of the skin and/or gastrointestinal tract. The etiology is unknown but evidence suggests a genetic component to disease susceptibility. Although most cases of CRMO are sporadic, there is an autosomal recessive syndromic form of the disease, called Majeed syndrome, which is due to homozygous mutations in LPIN2. In addition, there is a phenotypically similar mouse, called cmo (chronic multifocal osteomyelitis) in which the disease is inherited as an autosomal recessive disorder. The cmo locus has been mapped to murine chromosome 18. In this report, we describe phenotypic abnormalities in the cmo mouse that include bone, cartilage and skin inflammation. Utilizing a backcross breeding strategy, we refined the cmo locus to a 1.3 Mb region on murine chromosome 18. Within the refined region was the gene pstpip2, which shares significant sequenc",
+            "journal": "Bone",
+            "year": "2006",
+            "authors": [
+              "Ferguson Polly J",
+              "Bing Xinyu",
+              "Vasef Mohammed A",
+              "Ochoa Luis A",
+              "Mahgoub Amar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Signal Transducing",
+              "Amino Acid Sequence",
+              "Amino Acid Substitution",
+              "Animals",
+              "Autoimmune Diseases",
+              "Chromosome Mapping",
+              "Chromosomes, Mammalian",
+              "Chronic Disease",
+              "Crosses, Genetic",
+              "Cytoskeletal Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16122996/"
+          },
+          {
+            "pmid": "27936930",
+            "title": "Different Contributions of CDKAL1, KIF21B, and LRRK2/MUC19 Polymorphisms to SAPHO Syndrome, Rheumatoid Arthritis, Ankylosing Spondylitis, and Seronegative Spondyloarthropathy.",
+            "abstract": "Synovitis, acne, pustulosis, hyperostosis, and osteitis (SAPHO) syndrome, rheumatoid arthritis (RA), ankylosing spondylitis (AS), and seronegative spondyloarthropathy (SPA) are autoimmune diseases of unknown etiology, which share some clinical manifestations in common. Previous family-based investigations support genetic contributions to the susceptibility of these diseases. The current study evaluated whether three previously reported AS-associated single-nucleotide polymorphisms (SNPs), rs6908425 T>C in CDKAL1, rs11584383 T>C near KIF21B, and rs11175593 C>T near LRRK2/MUC19, have any genetic overlap across multiple autoimmune diseases including SAPHO syndrome, RA, AS, and SPA.",
+            "journal": "Genetic testing and molecular biomarkers",
+            "year": "2017",
+            "authors": [
+              "Li Nan",
+              "Ma Junfen",
+              "Li Kai",
+              "Guo Changlong",
+              "Ming Liang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acquired Hyperostosis Syndrome",
+              "Adult",
+              "Aged",
+              "Alleles",
+              "Arthritis, Rheumatoid",
+              "Case-Control Studies",
+              "Ethnicity",
+              "Female",
+              "Gene Frequency",
+              "Genetic Predisposition to Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27936930/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bone Paget disease",
+        "txgnn_score": 0.9800038933753968,
+        "txgnn_rank": 17024,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30654731",
+            "title": "VCP maintains lysosomal homeostasis and TFEB activity in differentiated skeletal muscle.",
+            "abstract": "Differentiated tissue is particularly vulnerable to alterations in protein and organelle homeostasis. The essential protein VCP, mutated in hereditary inclusion body myopathy, amyotrophic lateral sclerosis and frontotemporal dementia, is critical for efficient clearance of misfolded proteins and damaged organelles in dividing cells, but its role in terminally differentiated tissue affected by disease mutations is less clear. To understand the relevance of VCP in differentiated tissue, we inactivated it in skeletal muscle of adult mice. Surprisingly, knockout muscle demonstrated a necrotic myopathy with increased macroautophagic/autophagic proteins and damaged lysosomes. This was not solely due to a defect in autophagic degradation because age-matched mice with muscle inactivation of the autophagy essential protein, ATG5, did not demonstrate a myopathy. Notably, myofiber necrosis was preceded by upregulation of LGALS3/Galectin-3, a marker of damaged lysosomes, and TFEB activation, sugge",
+            "journal": "Autophagy",
+            "year": "2019",
+            "authors": [
+              "Arhzaouy Khalid",
+              "Papadopoulos Chrisovalantis",
+              "Schulze Nina",
+              "Pittman Sara K",
+              "Meyer Hemmo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autophagy",
+              "Basic Helix-Loop-Helix Leucine Zipper Transcription Factors",
+              "Endoplasmic Reticulum Chaperone BiP",
+              "HeLa Cells",
+              "Homeostasis",
+              "Humans",
+              "Lysosomes",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30654731/"
+          },
+          {
+            "pmid": "40383127",
+            "title": "Molnupiravir or nirmatrelvir-ritonavir plus usual care versus usual care alone in patients admitted to hospital with COVID-19 (RECOVERY): a randomised, controlled, open-label, platform trial.",
+            "abstract": "Molnupiravir and nirmatrelvir-ritonavir are oral antivirals that have shown efficacy in preventing disease progression in outpatients with COVID-19. We aimed to evaluate these treatments for patients hospitalised with COVID-19 pneumonia, for whom data on these antivirals are scarce.",
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2025",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Antiviral Agents",
+              "COVID-19",
+              "COVID-19 Drug Treatment",
+              "Cytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40383127/"
+          },
+          {
+            "pmid": "20335036",
+            "title": "Two Australian families with inclusion-body myopathy, Paget's disease of bone and frontotemporal dementia: novel clinical and genetic findings.",
+            "abstract": "We report the first Australian families with inclusion-body myopathy, Paget's disease of the bone and frontotemporal dementia (IBMPFD). The clinical characteristics of the two pedigrees are described including a previously undescribed phenotypic feature of pyramidal tract dysfunction in one family member. A novel mutation in the valosin-containing protein (VCP) gene (p.Arg155Leu) was found in one family while the other family had a previously reported mutation (p.Leu198Trp). Our findings broaden the phenotypic spectrum of IBMPFD and further emphasise the resemblance to amyotrophic lateral sclerosis in some cases.",
+            "journal": "Neuromuscular disorders : NMD",
+            "year": "2010",
+            "authors": [
+              "Kumar Kishore R",
+              "Needham Merrilee",
+              "Mina Kym",
+              "Davis Mark",
+              "Brewer Janice"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphatases",
+              "Adult",
+              "Alkaline Phosphatase",
+              "Arginine",
+              "Australia",
+              "Cell Cycle Proteins",
+              "Creatine Kinase",
+              "Electrodiagnosis",
+              "Family Health",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20335036/"
+          },
+          {
+            "pmid": "12374763",
+            "title": "Domain-specific mutations in sequestosome 1 (SQSTM1) cause familial and sporadic Paget's disease.",
+            "abstract": "Paget's disease of bone (PDB) is a common disorder characterized by focal abnormalities of increased and disorganized bone turnover. Genetic factors are important in the pathogenesis of PDB, and in previous studies, we and others identified a locus for familial PDB by genome-wide search on 5q35-qter (PDB3). The gene encoding sequestosome 1 (SQSTM1/p62) maps to within the PDB3 critical region, and recent studies have identified a proline-leucine amino acid change at codon 392 of SQSTM1 (P392L) in French-Canadian patients with PDB. We conducted mutation screening of positional candidate genes in the PDB3 locus in patients with PDB, and also identified mutations in the gene encoding SQSTM1 as a common cause of familial and sporadic PDB. Three different mutations were found, all affecting the highly conserved ubiquitin-binding domain. The most common mutation was the P392L change in exon 8, which was found in 13 of 68 families (19.1%). Another mutation-a T insertion that introduces a stop ",
+            "journal": "Human molecular genetics",
+            "year": "2002",
+            "authors": [
+              "Hocking Lynne J",
+              "Lucas Gavin J A",
+              "Daroszewska Anna",
+              "Mangion Jon",
+              "Olavesen Mark"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Signal Transducing",
+              "Aged",
+              "Base Sequence",
+              "Binding Sites",
+              "Carrier Proteins",
+              "Case-Control Studies",
+              "DNA",
+              "DNA Mutational Analysis",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12374763/"
+          },
+          {
+            "pmid": "18765443",
+            "title": "A SQSTM1/p62 mutation linked to Paget's disease increases the osteoclastogenic potential of the bone microenvironment.",
+            "abstract": "Paget's disease of bone (PDB) is the second most common bone disease and is characterized by focal bone lesions which contain large numbers of abnormal osteoclasts (OCLs) and very active normal osteoblasts in a highly osteoclastogenic marrow microenvironment. The etiology of PDB is not well understood and both environmental and genetic causes have been implicated in its pathogenesis. Mutations in the SQSTM1/p62 gene have been identified in up to 30% of Paget's patients. To determine if p62 mutation is sufficient to induce PDB, we generated mice harboring a mutation causing a P-to-L (proline-to-leucine) substitution at residue 394 (the murine equivalent of human p62(P392L), the most common PDB-associated mutation). Bone marrow cultures from p62(P394L) mice formed increased numbers of OCLs in response to receptor activator of NF-kappaB ligand (RANKL), tumor necrosis factor alpha (TNF-alpha) or 1alpha,25-(OH)(2)D(3), similar to PDB patients. However, purified p62(P394L) OCL precursors dep",
+            "journal": "Human molecular genetics",
+            "year": "2008",
+            "authors": [
+              "Hiruma Yuko",
+              "Kurihara Noriyoshi",
+              "Subler Mark A",
+              "Zhou Hua",
+              "Boykin Christina S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Signal Transducing",
+              "Animals",
+              "Bone Marrow",
+              "Bone Resorption",
+              "Cells, Cultured",
+              "Female",
+              "Humans",
+              "Male",
+              "Mice",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18765443/"
+          },
+          {
+            "pmid": "15647816",
+            "title": "Ubiquitin-associated domain mutations of SQSTM1 in Paget's disease of bone: evidence for a founder effect in patients of British descent.",
+            "abstract": "Mutations in the UBA domain of SQSTM1 are a common cause of Paget's disease of bone. Here we show that the most common disease-causing mutation (P392L) is carried on a shared haplotype, consistent with a founder effect and a common ancestral origin.",
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2005",
+            "authors": [
+              "Lucas Gavin J A",
+              "Hocking Lynne J",
+              "Daroszewska Anna",
+              "Cundy Tim",
+              "Nicholson Geoff C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "3' Untranslated Regions",
+              "Adaptor Proteins, Signal Transducing",
+              "Alleles",
+              "DNA Primers",
+              "Exons",
+              "Female",
+              "Founder Effect",
+              "Genotype",
+              "Haplotypes",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15647816/"
+          },
+          {
+            "pmid": "29310658",
+            "title": "The involvement of endoplasmic reticulum formation and protein synthesis efficiency in VCP- and ATL1-related neurological disorders.",
+            "abstract": "The endoplasmic reticulum (ER) is the biggest organelle in cells and is involved in versatile cellular processes. Formation and maintenance of ER morphology are regulated by a series of proteins controlling membrane fusion and curvature. At least six different ER morphology regulators have been demonstrated to be involved in neurological disorders-including Valosin-containing protein (VCP), Atlastin-1 (ATL1), Spastin (SPAST), Reticulon 2 (RTN2), Receptor expression enhancing protein 1 (REEP1) and RAB10-suggesting a critical role of ER formation in neuronal activity and function. Among these genes, mutations in VCP gene involve in inclusion body myopathy with Paget disease of bone and frontotemporal dementia (IBMPFD), familial amyotrophic lateral sclerosis (ALS), autism spectrum disorders (ASD), and hereditary spastic paraplegia (HSP). ATL1 is also one of causative genes of HSP. RAB10 is associated with Parkinson's disease (PD). A recent study showed that VCP and ATL1 work together to r",
+            "journal": "Journal of biomedical science",
+            "year": "2018",
+            "authors": [
+              "Shih Yu-Tzu",
+              "Hsueh Yi-Ping"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Endoplasmic Reticulum",
+              "GTP-Binding Proteins",
+              "Humans",
+              "Membrane Proteins",
+              "Nervous System Diseases",
+              "Protein Biosynthesis",
+              "Valosin Containing Protein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29310658/"
+          },
+          {
+            "pmid": "21515589",
+            "title": "A point mutation in the ubiquitin-associated domain of SQSMT1 is sufficient to cause a Paget's disease-like disorder in mice.",
+            "abstract": "Mutations of SQSTM1 occur in about10% of patients with Paget's disease of bone (PDB), but it is unclear whether they play a causal role or regulate susceptibility to an environmental trigger. Here we show that mice with a proline to leucine mutation at codon 394 of mouse sqstm1 (P394L), equivalent to the P392L SQSTM1 mutation in humans, develop a bone disorder with remarkable similarity to PDB. The P394L mutant mice developed focal bone lesions with increasing age and by 12 months, 14/18 (77%) heterozygotes and 20/21 (95%) homozygotes had lesions, compared with 0/18 (0%) wild-type littermates (P< 0.001). Lesions predominantly affected the lower limbs in an asymmetric manner and were characterized by focal increases in bone turnover, with increased bone resorption and formation, disruption of the normal bone architecture and accumulation of woven bone. Osteoclasts within lesions were larger and more nucleated than normal and some contained nuclear inclusions similar to those observed in",
+            "journal": "Human molecular genetics",
+            "year": "2011",
+            "authors": [
+              "Daroszewska Anna",
+              "van 't Hof Robert J",
+              "Rojas Javier A",
+              "Layfield Robert",
+              "Landao-Basonga Euphemie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Signal Transducing",
+              "Amino Acid Substitution",
+              "Animals",
+              "Autophagy",
+              "Autophagy-Related Protein 5",
+              "Bone Resorption",
+              "Disease Models, Animal",
+              "Heat-Shock Proteins",
+              "Humans",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21515589/"
+          },
+          {
+            "pmid": "20144545",
+            "title": "LXXLL peptide mimetics as inhibitors of the interaction of vitamin D receptor with coactivators.",
+            "abstract": "Suppression of vitamin D receptor (VDR)-mediated transcription is expected be of therapeutic value in Paget's disease. Once an agonist activates VDR, recruitment of additional coactivator proteins is essential for transcription. Neither non-secosteroidal VDR antagonists nor non-peptide coactivator binding inhibitors for VDR have been reported so far. Based on the X-ray structure of VDR and an LXXLL-containing peptide fragment of the coactivator (where L is leucine and X is any amino acid), which adopts a partially alpha-helical conformation, benzodiazepine molecules were rationally designed as non-peptide coactivator mimetics. TR-FRET assay showed that the synthesized compounds inhibited the interaction between VDR and a coactivator peptide fragment. Compound 2 showed an IC(50) of 20microM. Compound 2 also inhibited VDR-mediated transcription, and this activity was independent of the concentration of co-existing agonist. Furthermore, compound 2 did not inhibit estrogen receptor alpha-m",
+            "journal": "Bioorganic & medicinal chemistry letters",
+            "year": "2010",
+            "authors": [
+              "Mita Yusuke",
+              "Dodo Kosuke",
+              "Noguchi-Yachide Tomomi",
+              "Miyachi Hiroyuki",
+              "Makishima Makoto"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Benzodiazepines",
+              "Binding Sites",
+              "Crystallography, X-Ray",
+              "Fluorescence Resonance Energy Transfer",
+              "Humans",
+              "Osteitis Deformans",
+              "Peptides",
+              "Protein Binding",
+              "Receptors, Calcitriol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20144545/"
+          },
+          {
+            "pmid": "23498974",
+            "title": "VCP is essential for mitochondrial quality control by PINK1/Parkin and this function is impaired by VCP mutations.",
+            "abstract": "Mutations in VCP cause multisystem degeneration impacting the nervous system, muscle, and/or bone. Patients may present with ALS, Parkinsonism, frontotemporal dementia, myopathy, Paget's disease, or a combination of these. The disease mechanism is unknown. We developed a Drosophila model of VCP mutation-dependent degeneration. The phenotype is reminiscent of PINK1 and parkin mutants, including a pronounced mitochondrial defect. Indeed, VCP interacts genetically with the PINK1/parkin pathway in vivo. Paradoxically, VCP complements PINK1 deficiency but not parkin deficiency. The basis of this paradox is resolved by mechanistic studies in vitro showing that VCP recruitment to damaged mitochondria requires Parkin-mediated ubiquitination of mitochondrial targets. VCP recruitment coincides temporally with mitochondrial fission, and VCP is required for proteasome-dependent degradation of Mitofusins in vitro and in vivo. Further, VCP and its adaptor Npl4/Ufd1 are required for clearance of dama",
+            "journal": "Neuron",
+            "year": "2013",
+            "authors": [
+              "Kim Nam Chul",
+              "Tresse Emilie",
+              "Kolaitis Regina-Maria",
+              "Molliex Amandine",
+              "Thomas Ruth E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Validation Study"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Vesicular Transport",
+              "Adenosine Triphosphatases",
+              "Animals",
+              "Animals, Genetically Modified",
+              "Carbonyl Cyanide m-Chlorophenyl Hydrazone",
+              "Cell Cycle Proteins",
+              "Cells, Cultured",
+              "Drosophila",
+              "Drosophila Proteins",
+              "Embryo, Mammalian"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23498974/"
+          },
+          {
+            "pmid": "5761856",
+            "title": "[Significance of leucine aminopeptidase].",
+            "abstract": "",
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1969",
+            "authors": [
+              "Weber H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alkaline Phosphatase",
+              "Biliary Tract Diseases",
+              "Bone Diseases",
+              "Bone Neoplasms",
+              "Echinococcosis, Hepatic",
+              "Estrogens",
+              "Female",
+              "Gestational Age",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5761856/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete vitamin D deficiency",
+        "txgnn_score": 0.9767216444015504,
+        "txgnn_rank": 18548,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postmenopausal osteoporosis",
+        "txgnn_score": 0.9742422699928284,
+        "txgnn_rank": 19633,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01757340",
+            "title": "Calorie Restriction With Leucine Supplementation in Postmenopausal Women",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2012-09",
+            "completion_date": "2017-03",
+            "country": "United States",
+            "enrollment": 43,
+            "brief_summary": "The purpose of this study is to determine whether consuming additional leucine during calorie restriction induced weight loss has beneficial or harmful effects on multi-organ (liver, muscle, adipose tissue) insulin sensitivity, colonocyte proliferation rates, the gut microbiome, muscle mass and function, and bone mineral density in obese, postmenopausal women.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Obese with body mass index (BMI) between 30 and 40 kg/m2\n* Postmenopausal\n* Sedentary (i.e., less than 1.5 hours of exercise per week)\n\nExclusion Criteria:\n\n* Individuals with diabetes and/or uncontrolled hypertension\n* Individuals with hepatitis B and/or C\n* Individuals who s",
+            "endpoints": [
+              "Change in muscle mass",
+              "Change in muscle strength",
+              "Change in bone mineral density and bone mineral content"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT01757340"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33293818",
+            "title": "Metabolite Profiling of Osteoporosis and Atherosclerosis in Postmenopausal Women: A Cross-Sectional Study.",
+            "abstract": "Atherosclerosis (AS) and osteoporosis (OP) are common causes of morbidity and mortality in postmenopausal women and are connected via an unknown mechanistic link. Metabolite profiling of blood samples may allow the identification of new biomarkers and pathways for this enigmatic association.",
+            "journal": "Vascular health and risk management",
+            "year": "2020",
+            "authors": [
+              "Värri Miika",
+              "Niskanen Leo",
+              "Tuomainen Tomi-Pekka",
+              "Honkanen Risto",
+              "Kröger Heikki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Amino Acids",
+              "Atherosclerosis",
+              "Biomarkers",
+              "Case-Control Studies",
+              "Cross-Sectional Studies",
+              "Energy Metabolism",
+              "Female",
+              "Humans",
+              "Lipids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33293818/"
+          },
+          {
+            "pmid": "39445778",
+            "title": "Evaluation of Osteogenic Phenotype in Postmenopausal Women Receiving Anabolic and Antiresorptive Osteoporosis Therapies.",
+            "abstract": "Aging of the general population has led to a substantial increase in the prevalence of osteoporosis over the past decades. While there are effective pharmacological agents that increase bone formation, decrease bone resorption, and decrease fracture risk, they do not uniformly cure osteoporosis. This has prompted investigations to examine whether combination therapy (COMBO) with these agents can result in an additive benefit. Since concomitant therapy with denosumab and teriparatide has shown promise in this respect, investigations were undertaken to explore whether the changes in osteogenic phenotype could provide insight into the cellular and molecular mechanism of this effect. Investigations were performed in postmenopausal women receiving denosumab, teriparatide, or both for 3 months. Histomorphometric parameters were the primary outcome, while exploratory studies examined RNA expression in bone biopsies as well as in sorted and cultured bone marrow stromal cells (BMSCs). Osteogeni",
+            "journal": "Endocrinology",
+            "year": "2024",
+            "authors": [
+              "Kobelski Margaret M",
+              "Ramchand Sabashini K",
+              "Tsai Joy N",
+              "Leder Benjamin Z",
+              "Demay Marie B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Osteogenesis",
+              "Teriparatide",
+              "Middle Aged",
+              "Bone Density Conservation Agents",
+              "Aged",
+              "Osteoporosis, Postmenopausal",
+              "Denosumab",
+              "Postmenopause"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39445778/"
+          },
+          {
+            "pmid": "37495941",
+            "title": "The potential of Klebsiella and Escherichia-Shigella and amino acids metabolism to monitor patients with postmenopausal osteoporosis in northwest China.",
+            "abstract": "Intestinal flora has been proposed to mediate the occurrence of postmenopausal osteoporosis (PMO). However, the mechanism by which microbes and their metabolites interactively promote PMO remains unknown.",
+            "journal": "BMC microbiology",
+            "year": "2023",
+            "authors": [
+              "Liang Zhuang",
+              "Hao Yuqi",
+              "Yang Lei",
+              "Yuan Puwei",
+              "Kang Wulin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Osteoporosis, Postmenopausal",
+              "RNA, Ribosomal, 16S",
+              "Bone Density",
+              "Metabolomics",
+              "Interleukin-6",
+              "Amino Acids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37495941/"
+          },
+          {
+            "pmid": "37555233",
+            "title": "Hmga1-overexpressing lentivirus protects against osteoporosis by activating the Wnt/β-catenin pathway in the osteogenic differentiation of BMSCs.",
+            "abstract": "Postmenopausal osteoporosis is associated with bone formation inhibition mediated by the impaired osteogenic differentiation potential of bone marrow mesenchymal stem cells (BMSCs). However, identifying and confirming the essential genes in the osteogenic differentiation of BMSCs and osteoporosis remain challenging. The study aimed at revealing the key gene that regulated osteogenic differentiation of BMSCs and led to osteoporosis, thus exploring its therapeutic effect in osteoporosis. In the present study, six essential genes related to the osteogenic differentiation of BMSCs and osteoporosis were identified, namely, fibrillin 2 (Fbn2), leucine-rich repeat-containing 17 (Lrrc17), heat shock protein b7 (Hspb7), high mobility group AT-hook 1 (Hmga1), nexilin F-actin-binding protein (Nexn), and endothelial cell-specific molecule 1 (Esm1). Furthermore, the in vivo and in vitro experiments showed that Hmga1 expression was increased during the osteogenic differentiation of rat BMSCs, while ",
+            "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+            "year": "2023",
+            "authors": [
+              "Wu Zhixin",
+              "Zhu Jiayong",
+              "Wen Yinxian",
+              "Lei Pengfei",
+              "Xie Jie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Rats",
+              "Animals",
+              "Osteogenesis",
+              "Wnt Signaling Pathway",
+              "beta Catenin",
+              "Osteoporosis, Postmenopausal",
+              "Lentivirus",
+              "Osteoporosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37555233/"
+          },
+          {
+            "pmid": "27355564",
+            "title": "Low Plasma Level of Leucine-Rich Repeat-Containing 17 (LRRc17) Is an Independent and Additive Risk Factor for Osteoporotic Fractures in Postmenopausal Women.",
+            "abstract": "A novel role of leucine-rich repeat-containing 17 (LRRc17), an LRR protein secreted by osteoblasts, as a negative regulator of receptor activator of NF-κB ligand-induced osteoclast differentiation was found. However, the clinical association between LRRc17 and osteoporotic fracture (OF) has not yet been investigated. We hypothesized that low circulating plasma level of LRRc17 might serve as an independent and additive risk factor for OF, including vertebral fractures (VF) and non-vertebral fractures (non-VF). In this case-control study, 102 OF cases and 102 age- and body mass index-matched controls (mean age, 63.2 years) were analyzed among 532 postmenopausal women. VF (n = 49) and non-VF (n = 60) participants were identified using lateral thoracolumbar radiographs and an interviewer-assisted questionnaire, respectively. Median LRRc17 levels were significantly lower in participants with any OF (117.5 versus 197.3 pg/mL, p < 0.001), VF (93.2 versus 172.4 pg/mL, p = 0.002), and non-VF (1",
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2016",
+            "authors": [
+              "Hong Namki",
+              "Kim Beom-Jun",
+              "Kim Chong Hwa",
+              "Baek Ki Hyun",
+              "Min Yong-Ki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Area Under Curve",
+              "Biomarkers",
+              "Bone Density",
+              "Bone Marrow",
+              "Bone Remodeling",
+              "Female",
+              "Humans",
+              "Intercellular Signaling Peptides and Proteins",
+              "Logistic Models",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27355564/"
+          },
+          {
+            "pmid": "36684175",
+            "title": "Postmenopausal osteoporosis: Effect of moderate-intensity treadmill exercise on bone proteomics in ovariectomized rats.",
+            "abstract": "This study aimed to identify the key proteins in the bone mass of ovariectomized (OVX) rats after a period of regular moderate-intensity treadmill exercise and to investigate their effects using tag mass spectrometry and quantitative proteomics with a view to improving the understanding and treatment of postmenopausal osteoporosis.",
+            "journal": "Frontiers in surgery",
+            "year": "2022",
+            "authors": [
+              "Yang Yong-Jie",
+              "Li Ye",
+              "Gao Li"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36684175/"
+          },
+          {
+            "pmid": "31141566",
+            "title": "Osteopenia-osteoporosis discrimination in postmenopausal women by 1H NMR-based metabonomics.",
+            "abstract": "This is a report on how 1H NMR-based metabonomics was employed to discriminate osteopenia from osteoporosis in postmenopausal women, identifying the main metabolites associated to the separation between the groups. The Assays were performed using seventy-eight samples, being twenty-eight healthy volunteers, twenty-six osteopenia patients and twenty-four osteoporosis patients. PCA, LDA, PLS-DA and OPLS-DA formalisms were used. PCA discriminated the samples from healthy volunteers from diseased patient samples. Osteopenia-osteoporosis discrimination was only obtained using Analysis Discriminants formalisms, as LDA, PLS-DA and OPLS-DA. The metabonomics model using LDA formalism presented 88.0% accuracy, 88.5% specificity and 88.0% sensitivity. Cross-Validation, however, presented some problems as the accuracy of modeling decreased. LOOCV resulted in 78.0% accuracy. The OPLS-DA based model was better: R2Y and Q2 values equal to 0.871 (p<0.001) and 0.415 (p<0.001). LDA and OPLS-DA indicated",
+            "journal": "PloS one",
+            "year": "2019",
+            "authors": [
+              "Pontes T A",
+              "Barbosa A D",
+              "Silva R D",
+              "Melo-Junior M R",
+              "Silva R O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Bone Diseases, Metabolic",
+              "Case-Control Studies",
+              "Diagnosis, Differential",
+              "Discriminant Analysis",
+              "Female",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Magnetic Resonance Spectroscopy",
+              "Metabolomics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31141566/"
+          },
+          {
+            "pmid": "40023006",
+            "title": "Integration of UHPLC-MS and mass spectrometry imaging techniques revealed the protective mechanism of Gushudan in postmenopausal osteoporosis rats via branched-chain amino acid metabolism based on the 'kidney-bone' axis.",
+            "abstract": "According to the theory of traditional Chinese medicine, the kidney is regarded as governing the bones and dominating the storage of essence. Gushudan (GSD) is a traditional Chinese medicine prescription that has the effects of strengthening bone and nourishing the kidney. However, the mechanism of action of GSD in preventing postmenopausal osteoporosis (PMOP) rats based on the 'kidney-bone' axis remains to be further systematically investigated. In this study, an integrated kidney metabolomics method based on three MS detection modes of UHPLC-HRMS, UHPLC-MS/MS and AFADESI-MSI was developed to reveal the protective mechanism of GSD in PMOP rats. Firstly, the non-targeted metabolomics was investigated to comprehensively explore the metabolic changes in the kidneys of PMOP rats based on the UHPLC-Q-Orbitrap HRMS. Subsequently, UHPLC-MS/MS targeted metabolomics and Mass Spectrometry Imaging (MSI) techniques were combined to elucidate the preventive mechanism of GSD on PMOP through branche",
+            "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+            "year": "2025",
+            "authors": [
+              "Ren Mengxin",
+              "Wang Yajing",
+              "Yuan Yue",
+              "Du Hailing",
+              "Liang Qinghua"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Amino Acids, Branched-Chain",
+              "Rats",
+              "Tandem Mass Spectrometry",
+              "Chromatography, High Pressure Liquid",
+              "Drugs, Chinese Herbal",
+              "Rats, Sprague-Dawley",
+              "Kidney",
+              "Osteoporosis, Postmenopausal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40023006/"
+          },
+          {
+            "pmid": "37533033",
+            "title": "Effect of a 3-month L-carnitine supplementation and resistance training program on circulating markers and bone mineral density in postmenopausal women: a randomized controlled trial.",
+            "abstract": "Higher circulating levels of trimethylamine N-oxide (TMAO), which is a metabolite that can be produced by the gut microbiota from L-carnitine (LC), have been associated with bone mineral density (BMD). Because LC supplementation can improve bone density and microstructural properties in animal models, this study aimed to examine the effects of 12 weeks of LC supplementation on BMD and selected blood markers involved in bone metabolism of postmenopausal women participating in a resistance training (RT) program.",
+            "journal": "Nutrition & metabolism",
+            "year": "2023",
+            "authors": [
+              "Olek Robert A",
+              "Samborowska Emilia",
+              "Wisniewski Piotr",
+              "Wojtkiewicz Pawel",
+              "Wochna Krystian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37533033/"
+          },
+          {
+            "pmid": "40703670",
+            "title": "Gut microbiota changes in postmenopausal women with low bone density linked to serum amino acid metabolism.",
+            "abstract": "The gut microbiota (GM) has been linked to changes in bone mineral density (BMD), potentially contributing to the development of osteopenia or osteoporosis. Although the relationship between specific bacterial taxa and bone remodeling has been documented in various populations, data on the Mexican population remain limited. This study aimed to analyze the changes in the taxonomic composition of GM associated with low BMD (osteopenia/osteoporosis) and explore potential mechanisms influencing bone metabolism in Mexican postmenopausal women.",
+            "journal": "Frontiers in cellular and infection microbiology",
+            "year": "2025",
+            "authors": [
+              "Becerra-Cervera Adriana",
+              "Jiménez-Ortega Rogelio F",
+              "Aparicio-Bautista Diana I",
+              "Palacios-González Berenice",
+              "Vela-Amieva Marcela"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Gastrointestinal Microbiome",
+              "Amino Acids",
+              "Bone Density",
+              "Postmenopause",
+              "Middle Aged",
+              "Mexico",
+              "RNA, Ribosomal, 16S",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40703670/"
+          },
+          {
+            "pmid": "41239487",
+            "title": "miR-629-3p affects postmenopausal osteoporosis through targeted regulation of BACH1.",
+            "abstract": "Osteoporosis (OP) represents a major global health challenge, particularly among postmenopausal women. Currently, there remains a shortage of reliable diagnostic biomarkers and targeted therapies for OP.",
+            "journal": "Journal of orthopaedic surgery and research",
+            "year": "2025",
+            "authors": [
+              "Yun Dong",
+              "Zhang Jinxiang",
+              "Ha Siyuan",
+              "Xiao Jing",
+              "Yan Caifeng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "MicroRNAs",
+              "Basic-Leucine Zipper Transcription Factors",
+              "Middle Aged",
+              "Osteoporosis, Postmenopausal",
+              "Osteoblasts",
+              "Animals",
+              "Cell Proliferation",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41239487/"
+          },
+          {
+            "pmid": "26170735",
+            "title": "Polymorphisms of SLC22A9 (hOAT7) in Korean Females with Osteoporosis.",
+            "abstract": "Among solute carrier proteins, the organic anion transporters (OATs) play an important role for the elimination or reabsorption of endogenous and exogenous negatively charged anionic compounds. Among OATs, SLC22A9 (hOAT7) transports estrone sulfate with high affinity. The net decrease of estrogen, especially in post-menopausal women induces rapid bone loss. The present study was performed to search the SNP within exon regions of SLC22A9 in Korean females with osteoporosis. Fifty healthy controls and 50 osteoporosis patients were screened for the genetic polymorphism in the coding region of SLC22A9 using GC-clamped PCR and denaturing gradient gel electrophoresis (DGGE). Six SNPs were found on the SLC22A9 gene from Korean women with/without osteoporosis. The SNPs were located as follows: two SNPs in the osteoporosis group (A645G and T1277C), three SNPs in the control group (G1449T, C1467T and C1487T) and one SNP in both the osteoporosis and control groups (G767A). The G767A, T1277C and C",
+            "journal": "The Korean journal of physiology & pharmacology : official journal of the Korean Physiological Society and the Korean Society of Pharmacology",
+            "year": "2015",
+            "authors": [
+              "Ahn Seong Kyu",
+              "Suh Chang Kook",
+              "Cha Seok Ho"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26170735/"
+          },
+          {
+            "pmid": "35521804",
+            "title": "Premature menopause and autoimmune primary ovarian insufficiency in two international multi-center cohorts.",
+            "abstract": "To investigate markers of premature menopause (<40 years) and specifically the prevalence of autoimmune primary ovarian insufficiency (POI) in European women.",
+            "journal": "Endocrine connections",
+            "year": "2022",
+            "authors": [
+              "Vogt Elinor Chelsom",
+              "Real Francisco Gómez",
+              "Husebye Eystein Sverre",
+              "Björnsdottir Sigridur",
+              "Benediktsdottir Bryndis"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35521804/"
+          },
+          {
+            "pmid": "23408954",
+            "title": "Metabolomic profiles delineate signature metabolic shifts during estrogen deficiency-induced bone loss in rat by GC-TOF/MS.",
+            "abstract": "Postmenopausal osteoporosis is a complicated and multi-factorial disease. To study the metabolic profiles and pathways activated in osteoporosis, Eight rats were oophorectomized (OVX group) to represent postmenopausal osteoporosis and the other eight rats were sham operated (Sham group) to be the control. The biochemical changes were assessed with metabolomics using a gas chromatography/time-of-flight mass spectrometry. Metabolomic profile using serial blood samples obtained prior to and at different time intervals after OVX were analyzed by principal component analysis (PCA) and Partial least squares-discriminant analysis (PLS-DA). The conventional indicators (bone mineral density, serum Bone alkaline phosphatase (B-ALP) and N-telopeptide of type I collagen (NTx) of osteoporosis in rats were also determined simultaneously. In OVX group, the metabolomics method could describe the endogenous changes of the disease more sensitively and systematically than the conventional criteria during",
+            "journal": "PloS one",
+            "year": "2013",
+            "authors": [
+              "Ma Bo",
+              "Liu Jiannan",
+              "Zhang Qi",
+              "Ying Hanjie",
+              "A Jiye"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Body Weight",
+              "Bone Density",
+              "Estrogens",
+              "Female",
+              "Gas Chromatography-Mass Spectrometry",
+              "Metabolomics",
+              "Osteoporosis",
+              "Ovariectomy",
+              "Principal Component Analysis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23408954/"
+          },
+          {
+            "pmid": "35542168",
+            "title": "LC-MS-based plasma metabolomics reveals metabolic variations in ovariectomy-induced osteoporosis in female Wistar rats.",
+            "abstract": "Osteoporosis with a reduction in bone mineral density has become one of the most common metabolic bone diseases. Postmenopausal women are a high-risk group that suffers from osteoporosis when the production of estrogen in their body rapidly declines. Early prediction and diagnosis of osteoporosis will be conducive to having a greater chance to control the deterioration in condition of osteoporosis patients; however, there are still no effective measures in practice. In this study, we aimed at exploring metabolic variations in postmenopausal osteoporosis using ovariectomized female rats as an animal model. The research was performed using liquid chromatography/mass spectrometry (LC/MS) combined with multivariate statistical analysis for plasma metabolome analysis. The results reveal that metabolic variations of ovariectomized-induced osteoporosis involve 18 differentially expressed metabolites and 13 related metabolism pathways such as valine, leucine and isoleucine biosynthesis as well",
+            "journal": "RSC advances",
+            "year": "2018",
+            "authors": [
+              "Hu Yan",
+              "Zhang Xiaojian",
+              "Shan Yu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35542168/"
+          },
+          {
+            "pmid": "10750555",
+            "title": "Association of transforming growth factor beta1 genotype with therapeutic response to active vitamin D for postmenopausal osteoporosis.",
+            "abstract": "Transforming growth factor beta (TGF-beta) is an important regulator of bone metabolism, its effects being intertwined with those of estrogen and vitamin D. A T-->C polymorphism in exon 1 of the TGF-beta1 gene, which results in the substitution of proline for leucine, is associated with bone mineral density (BMD). However, it is not known whether this polymorphism affects the response to treatment with active vitamin D or to hormone replacement therapy (HRT) in individuals with osteoporosis. Changes in BMD at the lumbar spine (L2-L4 BMD) were compared among TGF-beta1 genotypes in 363 postmenopausal Japanese women who were divided into three groups: an untreated, control group (n = 130), an active vitamin D treatment group (n = 117), and an HRT group (n = 116). TGF-beta1 genotype was determined with an allele-specific polymerase chain reaction assay. In the control group, the rate of bone loss decreased according to the rank order of genotypes TT (homozygous for the T allele) > TC (hete",
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2000",
+            "authors": [
+              "Yamada Y",
+              "Harada A",
+              "Hosoi T",
+              "Miyauchi A",
+              "Ikeda K"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Amino Acid Substitution",
+              "Bone Density",
+              "Bone Resorption",
+              "Calcitriol",
+              "Estrogen Replacement Therapy",
+              "Estrogens, Conjugated (USP)",
+              "Exons",
+              "Female",
+              "Gene Frequency"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10750555/"
+          },
+          {
+            "pmid": "29428397",
+            "title": "Pyk2 deficiency potentiates osteoblast differentiation and mineralizing activity in response to estrogen or raloxifene.",
+            "abstract": "Bone remodeling is controlled by the actions of bone-degrading osteoclasts and bone-forming osteoblasts (OBs). Aging and loss of estrogen after menopause affects bone mass and quality. Estrogen therapy, including selective estrogen receptor modulators (SERMs), can prevent bone loss and increase bone mineral density in post-menopausal women. Although investigations of the effects of estrogen on osteoclast activity are well advanced, the mechanism of action of estrogen on OBs is still unclear. The proline-rich tyrosine kinase 2 (Pyk2) is important for bone formation and female mice lacking Pyk2 (Pyk2-KO) exhibit elevated bone mass, increased bone formation rate and reduced osteoclast activity. Therefore, in the current study, we examined the role of estrogen signaling on the mechanism of action of Pyk2 in OBs. As expected, Pyk2-KO OBs showed significantly higher proliferation, matrix formation, and mineralization than WT OBs. In addition we found that Pyk2-KO OBs cultured in the presence",
+            "journal": "Molecular and cellular endocrinology",
+            "year": "2018",
+            "authors": [
+              "Posritong Sumana",
+              "Hong Jung Min",
+              "Eleniste Pierre P",
+              "McIntyre Patrick W",
+              "Wu Jennifer L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alkaline Phosphatase",
+              "Animals",
+              "Biomarkers",
+              "Calcification, Physiologic",
+              "Cell Count",
+              "Cell Differentiation",
+              "Cell Proliferation",
+              "Cells, Cultured",
+              "Estrogen Receptor alpha",
+              "Estrogen Receptor beta"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29428397/"
+          },
+          {
+            "pmid": "9783545",
+            "title": "Association of a polymorphism of the transforming growth factor-beta1 gene with genetic susceptibility to osteoporosis in postmenopausal Japanese women.",
+            "abstract": "Transforming growth factor-beta (TGF-beta) is both abundant in bone and an important regulator of bone metabolism. A T-->C transition at nucleotide 29 in the signal sequence region of the TGF-beta1 gene results in a Leu-->Pro substitution at amino acid position 10. The possible association of this polymorphism with bone mass and the prevalence of osteoporosis has now been investigated in a total of 287 postmenopausal women from two regions (Obu City, Aichi Prefecture, and Sanda City, Hyogo Prefecture) of Japan. A significant association of TGF-beta1 genotype with bone mass was detected in both populations; bone mineral density (BMD) at the lumbar spine was greater in individuals with the CC genotype than in those with the TT or TC genotype. The frequency of vertebral fractures was significantly lower in individuals with the CC genotype than in those with the TC or TT genotypes. For each region, multivariable logistic regression analysis revealed that the frequency of the T allele was s",
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "1998",
+            "authors": [
+              "Yamada Y",
+              "Miyauchi A",
+              "Goto J",
+              "Takagi Y",
+              "Okuizumi H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amino Acid Substitution",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Japan",
+              "Leucine",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9783545/"
+          },
+          {
+            "pmid": "10996011",
+            "title": "Association of a Leu(10)-->Pro polymorphism of the transforming growth factor-beta1 with genetic susceptibility to osteoporosis and spinal osteoarthritis.",
+            "abstract": "Osteoporosis and osteoarthritis each exhibit a strong genetic component. Although polymorphisms of a variety of genes have been associated with bone mineral density and genetic susceptibility to osteoporosis or to osteoarthritis, the genes responsible for these conditions have not been definitively identified. We have shown that a T(869)-->C polymorphism of the transforming growth factor-beta1 (TGF-beta1) gene, which results in a Leu-->Pro substitution at amino acid 10, is associated with bone mineral density in Japanese adolescents and postmenopausal women, with genetic susceptibility to osteoporosis or spinal osteoarthritis, and with the outcome of treatment for osteoporosis with active vitamin D. I here review our recent studies, which have provided insight into the function of TGF-beta1 as well as into the role of genetic factors in the development of osteoporosis and osteoarthritis.",
+            "journal": "Mechanisms of ageing and development",
+            "year": "2000",
+            "authors": [
+              "Yamada Y"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Density",
+              "Disease Susceptibility",
+              "Genetic Predisposition to Disease",
+              "Genotype",
+              "Humans",
+              "Leucine",
+              "Osteoarthritis",
+              "Osteoporosis",
+              "Polymorphism, Genetic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10996011/"
+          },
+          {
+            "pmid": "15336593",
+            "title": "Leucine7 to proline7 polymorphism in prepro-NPY gene and femoral neck bone mineral density in postmenopausal women.",
+            "abstract": "Neuropeptide Y (NPY) is a versatile neurotransmitter that has recently been shown to regulate bone metabolism in animal and in vitro studies. We studied the influence of leucine7-to-proline7 (Leu7/Pro7) polymorphism of the NPY signal peptide gene on bone mineral density (BMD) before and after a 5-year hormone replacement therapy (HRT) in 316 early postmenopausal women participating in a randomized controlled trial nested in the population-based Kuopio Osteoporosis Risk Factor and Prevention (OSTPRE) study. The participants were randomized into two treatment groups: the HRT group (n = 146) received a sequential combination of 2 mg estradiol valerate and 1 mg cyproterone acetate and calcium lactate, 500 mg/day (equal to 93 mg Ca2+) alone or in combination with vitamin D3, 100-300 IU/day. The non-HRT group (n = 170) received calcium lactate, 500 mg alone or in combination with vitamin D3, 100-300 IU/day. BMDs of the lumbar spine (L2-4) and proximal femur were measured by using dual X-ray ",
+            "journal": "Bone",
+            "year": "2004",
+            "authors": [
+              "Heikkinen Anna-Mari",
+              "Niskanen Leo K",
+              "Salmi Jukka A",
+              "Koulu Markku",
+              "Pesonen Ullamari"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Bone Density",
+              "Estrogen Replacement Therapy",
+              "Female",
+              "Femur Neck",
+              "Follow-Up Studies",
+              "Humans",
+              "Leucine",
+              "Middle Aged",
+              "Neuropeptide Y",
+              "Polymorphism, Genetic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15336593/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.971837878227234,
+        "txgnn_rank": 20577,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38901430",
+            "title": "Intergenic risk variant rs56258221 skews the fate of naive CD4+ T cells via miR4464-BACH2 interplay in primary sclerosing cholangitis.",
+            "abstract": "Primary sclerosing cholangitis (PSC) is an immune-mediated liver disease of unknown pathogenesis, with a high risk to develop cirrhosis and malignancies. Functional dysregulation of T cells and association with genetic polymorphisms in T cell-related genes were previously reported for PSC. Here, we genotyped a representative PSC cohort for several disease-associated risk loci and identified rs56258221 (BACH2/MIR4464) to correlate with not only the peripheral blood T cell immunophenotype but also the functional capacities of naive CD4+ T (CD4+ TN) cells in people with PSC. Mechanistically, rs56258221 leads to an increased expression of miR4464, in turn causing attenuated translation of BACH2, a major gatekeeper of T cell quiescence. Thereby, the fate of CD4+ TN is skewed toward polarization into pro-inflammatory subsets. Clinically, people with PSC carrying rs56258221 show signs of accelerated disease progression. The data presented here highlight the importance of assigning functional ",
+            "journal": "Cell reports. Medicine",
+            "year": "2024",
+            "authors": [
+              "Poch Tobias",
+              "Bahn Jonas",
+              "Casar Christian",
+              "Krause Jenny",
+              "Evangelakos Ioannis"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cholangitis, Sclerosing",
+              "MicroRNAs",
+              "CD4-Positive T-Lymphocytes",
+              "Basic-Leucine Zipper Transcription Factors",
+              "Male",
+              "Polymorphism, Single Nucleotide",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38901430/"
+          },
+          {
+            "pmid": "29707118",
+            "title": "Identification of a serum biomarker panel for the differential diagnosis of cholangiocarcinoma and primary sclerosing cholangitis.",
+            "abstract": "The non-invasive differentiation of malignant and benign biliary disease is a clinical challenge. Carbohydrate antigen 19-9 (CA19-9), leucine-rich α2-glycoprotein (LRG1), interleukin 6 (IL6), pyruvate kinase M2 (PKM2), cytokeratin 19 fragment (CYFRA21.1) and mucin 5AC (MUC5AC) have reported utility for differentiating cholangiocarcinoma (CCA) from benign biliary disease. Herein, serum levels of these markers were tested in 66 cases of CCA and 62 cases of primary sclerosing cholangitis (PSC) and compared with markers of liver function and inflammation. Markers panels were assessed for their ability to discriminate malignant and benign disease. Several of the markers were also assessed in pre-diagnosis biliary tract cancer (BTC) samples with performances evaluated at different times prior to diagnosis. We show that LRG1 and IL6 were unable to accurately distinguish CCA from PSC, whereas CA19-9, PKM2, CYFRA21.1 and MUC5AC were significantly elevated in malignancy. Area under the receiver ",
+            "journal": "Oncotarget",
+            "year": "2018",
+            "authors": [
+              "Cuenco Joy",
+              "Wehnert Natascha",
+              "Blyuss Oleg",
+              "Kazarian Anna",
+              "Whitwell Harry J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29707118/"
+          },
+          {
+            "pmid": "15790420",
+            "title": "The relation between plasma tyrosine concentration and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis.",
+            "abstract": "In primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC) fatigue is a major clinical problem. Abnormal amino acid (AA) patterns have been implicated in the development of fatigue in several non-hepatological conditions but for PBC and PSC no data are available. This study aimed to identify abnormalities in AA patterns and to define their relation with fatigue.",
+            "journal": "BMC gastroenterology",
+            "year": "2005",
+            "authors": [
+              "ter Borg Pieter C J",
+              "Fekkes Durk",
+              "Vrolijk Jan Maarten",
+              "van Buuren Henk R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amino Acids",
+              "Biomarkers",
+              "Cholangitis, Sclerosing",
+              "Fatigue",
+              "Female",
+              "Humans",
+              "Liver Cirrhosis, Biliary",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15790420/"
+          },
+          {
+            "pmid": "22821403",
+            "title": "Genome-wide association analysis in primary sclerosing cholangitis and ulcerative colitis identifies risk loci at GPR35 and TCF4.",
+            "abstract": "Approximately 60%-80% of patients with primary sclerosing cholangitis (PSC) have concurrent ulcerative colitis (UC). Previous genome-wide association studies (GWAS) in PSC have detected a number of susceptibility loci that also show associations in UC and other immune-mediated diseases. We aimed to systematically compare genetic associations in PSC with genotype data in UC patients with the aim of detecting new susceptibility loci for PSC. We performed combined analyses of GWAS for PSC and UC comprising 392 PSC cases, 987 UC cases, and 2,977 controls and followed up top association signals in an additional 1,012 PSC cases, 4,444 UC cases, and 11,659 controls. We discovered novel genome-wide significant associations with PSC at 2q37 [rs3749171 at G-protein-coupled receptor 35 (GPR35); P = 3.0 × 10(-9) in the overall study population, combined odds ratio [OR] and 95% confidence interval [CI] of 1.39 (1.24-1.55)] and at 18q21 [rs1452787 at transcription factor 4 (TCF4); P = 2.61 × 10(-8) ",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2013",
+            "authors": [
+              "Ellinghaus David",
+              "Folseraas Trine",
+              "Holm Kristian",
+              "Ellinghaus Eva",
+              "Melum Espen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Basic Helix-Loop-Helix Leucine Zipper Transcription Factors",
+              "Belgium",
+              "Case-Control Studies",
+              "Cholangitis, Sclerosing",
+              "Colitis, Ulcerative",
+              "Comorbidity",
+              "Genetic Loci",
+              "Genetic Predisposition to Disease",
+              "Genome-Wide Association Study",
+              "Genotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22821403/"
+          },
+          {
+            "pmid": "1639348",
+            "title": "Amino acid substitutions at position 38 of the DR beta polypeptide confer susceptibility to and protection from primary sclerosing cholangitis.",
+            "abstract": "Previous studies based on serological HLA phenotyping have implicated genes in the HLA class II region in susceptibility to and protection from primary sclerosing cholangitis. In a recent report, the HLA DRw52a antigen was present in all 29 patients who had been referred for liver transplantation. In this study, HLA DRB, DQA and DQB genotypes were studied using gene amplification and sequence-specific oligonucleotide probing in 71 patients with primary sclerosing cholangitis and 68 healthy controls to determine the frequency among the patients of the DRB3*0101 allele that encodes DRw52a and whether other class II alleles are involved in susceptibility or protection. DRB3*0101 was the most strongly associated allele, being present in 55% of the patients and 22% of the controls. Survival among the DRB3*0101-positive patients was reduced compared with the DRB3*0101-negative patients. Both DRB3*0101 and DRB5*0101, a possible second DRB susceptibility allele, encode a leucine residue at pos",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "1992",
+            "authors": [
+              "Farrant J M",
+              "Doherty D G",
+              "Donaldson P T",
+              "Vaughan R W",
+              "Hayllar K M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Base Sequence",
+              "Cholangitis, Sclerosing",
+              "Genotype",
+              "HLA-DQ Antigens",
+              "HLA-DR Antigens",
+              "Haplotypes",
+              "Humans",
+              "Molecular Sequence Data",
+              "Peptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1639348/"
+          },
+          {
+            "pmid": "8194717",
+            "title": "Immunogenetics of chronic liver diseases.",
+            "abstract": "The genetic background of autoimmune diseases becomes more and more evident. Immunogenetics comprises the analysis of genes and their products located at the region 6p21 on the short arm of chromosome 6, which is also known as the major histocompatibility complex (MHC). MHC class I and II genes are highly polymorphic. The complement genes C2, C4A, C4B, and BF, which are also polymorphic, became known as MHC class III genes. In autoimmune hepatitis type 1, there is a dual association for white persons with either HLA-A1-B8-DR3 or HLA-DR4. In patients from Japan, autoimmune hepatitis type 1 is predominantly associated with HLA-DR4. This dual association is confirmed at the DNA level. Whereas only limited data are available for autoimmune hepatitis type 2, the association of primary biliary cirrhosis with HLA-DR8 is based on several studies. Primary sclerosing cholangitis is associated with HLA-B8-DR3 and -DR52a. This association was confirmed at the DNA level because of a significant inc",
+            "journal": "Gastroenterology",
+            "year": "1994",
+            "authors": [
+              "Manns M P",
+              "Krüger M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chronic Disease",
+              "HLA Antigens",
+              "Humans",
+              "Immunogenetics",
+              "Liver Diseases",
+              "Major Histocompatibility Complex",
+              "Terminology as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8194717/"
+          },
+          {
+            "pmid": "24594265",
+            "title": "The emerging roles of TCF4 in disease and development.",
+            "abstract": "Genome-wide association studies have identified common variants in transcription factor 4 (TCF4) as susceptibility loci for schizophrenia, Fuchs' endothelial corneal dystrophy, and primary sclerosing cholangitis. By contrast, rare TCF4 mutations cause Pitt-Hopkins syndrome, a disorder characterized by intellectual disability and developmental delay, and have also been described in patients with other neurodevelopmental disorders. TCF4 therefore sits at the nexus between common and rare disorders. TCF4 interacts with other basic helix-loop-helix proteins, forming transcriptional networks that regulate the differentiation of several distinct cell types. Here, we review the role of TCF4 in these seemingly diverse disorders and discuss recent data implicating TCF4 as an important regulator of neurodevelopment and epithelial-mesenchymal transition.",
+            "journal": "Trends in molecular medicine",
+            "year": "2014",
+            "authors": [
+              "Forrest Marc P",
+              "Hill Matthew J",
+              "Quantock Andrew J",
+              "Martin-Rendon Enca",
+              "Blake Derek J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Basic Helix-Loop-Helix Leucine Zipper Transcription Factors",
+              "Basic Helix-Loop-Helix Proteins",
+              "Cognition",
+              "Epithelial-Mesenchymal Transition",
+              "Facies",
+              "Gene Expression Regulation",
+              "Humans",
+              "Hyperventilation",
+              "Intellectual Disability",
+              "Iridocorneal Endothelial Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24594265/"
+          },
+          {
+            "pmid": "33638203",
+            "title": "Hepatobiliary Organoids and Their Applications for Studies of Liver Health and Disease: Are We There Yet?",
+            "abstract": "Organoid culture systems have emerged as a frontier technology in liver and biliary research. These three-dimensional (3D) cell cultures derived from pluripotent and adult hepatobiliary cells model organ structure and function. Building on gastrointestinal organoid establishment, hepatobiliary organoid cultures were generated from mouse leucine-rich repeat-containing G-protein-coupled receptor 5-positive liver progenitor cells. Subsequently, 3D hepatobiliary organoid cultures were developed from hepatocytes and cholangiocytes to model human and animal hepatobiliary health and disease. Hepatocyte organoids have been used to study Alagille syndrome, fatty liver disease, Wilson disease, hepatitis B viral infection, and cystic fibrosis. Cholangiocyte organoids have been established to study normal cholangiocyte biology and primary sclerosing cholangitis and to test organoid potential to form bile ducts and gallbladder tissue in vitro. Hepatobiliary cancer organoids, termed tumoroids, have ",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2021",
+            "authors": [
+              "Shiota Junya",
+              "Samuelson Linda C",
+              "Razumilava Nataliya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Digestive System Diseases",
+              "Gastroenterology",
+              "Humans",
+              "Models, Biological",
+              "Organoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33638203/"
+          },
+          {
+            "pmid": "8000512",
+            "title": "Small duct cholangitis induced by N-formyl L-methionine L-leucine L-tyrosine in rats.",
+            "abstract": "Primary sclerosing cholangitis (PSC) frequently accompanies inflammatory bowel diseases. In an attempt to increase our understanding of the pathogenesis of PSC, we studied bile duct changes in rats with colitis which had been given N-formyl L-methionine L-leucine L-tyrosine (fMLT) rectally; fMLT is one of the chemotactic peptides produced by Escherichia coli, and is secreted into the bile by hepatocytes after it enters the portal blood. Transrectal administration of fMLT induced a marked inflammation in the portal triad and mild hepatocyte necrosis on the 4th day. The infiltrating leukocytes in the portal tract were mostly mononuclear cells, which densely infiltrated around the bile ducts. These mononuclear cells appeared to attach to bile duct epithelial cells, and they were more numerous in the smaller bile ducts. Electron microscopy revealed that lymphocytes were in direct contact with bile duct lining cells and that some epithelial cells had degenerated or collapsed. These results ",
+            "journal": "Journal of gastroenterology",
+            "year": "1994",
+            "authors": [
+              "Yamada S",
+              "Ishii M",
+              "Liang L S",
+              "Yamamoto T",
+              "Toyota T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bile Ducts, Intrahepatic",
+              "Cholangitis, Sclerosing",
+              "Colitis",
+              "Escherichia coli Infections",
+              "Male",
+              "N-Formylmethionine Leucyl-Phenylalanine",
+              "Rats",
+              "Rats, Wistar"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8000512/"
+          },
+          {
+            "pmid": "21970875",
+            "title": "A combination of serum leucine-rich α-2-glycoprotein 1, CA19-9 and interleukin-6 differentiate biliary tract cancer from benign biliary strictures.",
+            "abstract": "Biliary tract cancer (BTC) and benign biliary strictures can be difficult to differentiate using standard tumour markers such as serum carbohydrate antigen 19-9 (CA19-9) as they lack diagnostic accuracy.",
+            "journal": "British journal of cancer",
+            "year": "2011",
+            "authors": [
+              "Sandanayake N S",
+              "Sinclair J",
+              "Andreola F",
+              "Chapman M H",
+              "Xue A"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Biliary Tract Neoplasms",
+              "Biomarkers, Tumor",
+              "CA-19-9 Antigen",
+              "Cholangitis",
+              "Cholangitis, Sclerosing",
+              "Female",
+              "Glycoproteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21970875/"
+          },
+          {
+            "pmid": "8276178",
+            "title": "HLA DR4 is a marker for rapid disease progression in primary sclerosing cholangitis.",
+            "abstract": "Primary sclerosing cholangitis (PSC) is an inflammatory disease of the biliary tree associated with an increase in the HLA alleles DR3, DR52a, DR2, Dw2, and a decrease in DR4. However, it is not certain which of these alleles provides the primary associations. Our aim was to establish the primary HLA associations with PSC and to assess the ability of HLA alleles to mark for disease progression.",
+            "journal": "Gastroenterology",
+            "year": "1994",
+            "authors": [
+              "Mehal W Z",
+              "Lo Y M",
+              "Wordsworth B P",
+              "Neuberger J M",
+              "Hubscher S C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Sequence",
+              "Antigens, Differentiation",
+              "Autoimmune Diseases",
+              "Base Sequence",
+              "Cholangitis",
+              "Chromosome Mapping",
+              "Chronic Disease",
+              "Colitis, Ulcerative",
+              "Female",
+              "Genotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8276178/"
+          },
+          {
+            "pmid": "23643663",
+            "title": "Analysis of the autoimmune regulator gene in patients with autoimmune non-APECED polyendocrinopathies.",
+            "abstract": "The pathogenesis of autoimmunity was derived from a complex interaction of genetic and environmental factors. Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy is a rare autosomal recessive disease caused by mutations in the autoimmune regulator (AIRE) gene. AIRE gene variants and, in particular, heterozygous loss-of-function mutations were also discovered in organ-specific autoimmune disorders, possibly contributing to their etiopathogenesis. It was suggested that even predisposition to develop certain autoimmune conditions may be derived from AIRE gene polymorphisms including S278R and intronic IVS9+6 G>A. In this study we unravel the hypothesis on whether AIRE gene variants may predispose individuals to associated autoimmune conditions in 41 Italian patients affected by non-APECED autoimmune polyendocrinopathies. We could not detect any heterozygous mutations of the AIRE gene. Although a trend of association was observed, heterozygous polymorphisms S278R and IVS9+6 G>A ",
+            "journal": "Genomics",
+            "year": "2013",
+            "authors": [
+              "Palma Alessia",
+              "Gianchecchi Elena",
+              "Palombi Melania",
+              "Luciano Rosa",
+              "Di Carlo Pierluigi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Case-Control Studies",
+              "Child",
+              "Female",
+              "Genetic Carrier Screening",
+              "Humans",
+              "Italy",
+              "Male",
+              "Polyendocrinopathies, Autoimmune"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23643663/"
+          },
+          {
+            "pmid": "28926118",
+            "title": "C/EBP homologous protein-induced loss of intestinal epithelial stemness contributes to bile duct ligation-induced cholestatic liver injury in mice.",
+            "abstract": "Impaired intestinal barrier function promotes the progression of various liver diseases, including cholestatic liver diseases. The close association of primary sclerosing cholangitis (PSC) with inflammatory bowel disease highlights the importance of the gut-liver axis. It has been reported that bile duct ligation (BDL)-induced liver fibrosis is significantly reduced in C/EBP homologous protein knockout (CHOP-/- ) mice. However, the underlying mechanisms remain unclear. In the current study, we demonstrate that BDL induces striking and acute hepatic endoplasmic reticulum (ER) stress responses after 1 day, which return to normal after 3 days. No significant hepatocyte apoptosis is detected 7-14 days following BDL. However, the inflammatory response is significantly increased after 7 days, which is similar to what we found in human PSC liver samples. BDL-induced loss of stemness in intestinal stem cells (ISCs), disruption of intestinal barrier function, bacterial translocation, activation",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2018",
+            "authors": [
+              "Liu Runping",
+              "Li Xiaojiaoyang",
+              "Huang Zhiming",
+              "Zhao Derrick",
+              "Ganesh Bhagyalaxmi Sukka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Bile Ducts",
+              "Cell Culture Techniques",
+              "Cholestasis",
+              "Endoplasmic Reticulum Stress",
+              "Female",
+              "Hepatocytes",
+              "Humans",
+              "Intestinal Mucosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28926118/"
+          },
+          {
+            "pmid": "31556146",
+            "title": "Technique and outcome of domino liver transplantation from patients with maple syrup urine disease: Expanding the donor pool for live donor liver transplantation.",
+            "abstract": "Domino liver transplantation (DLT) using liver allografts from patients with metabolic disorders enhances organ utilization. Short- and long-term course and outcome of these patients can impact the decision to offer this procedure to patients, especially those with diseases that can potentially be cured with liver transplant. We reviewed the outcomes of DLT from maple syrup urine disease (MSUD) patients in our large academic pediatric and adult transplant program.",
+            "journal": "Clinical transplantation",
+            "year": "2019",
+            "authors": [
+              "Celik Neslihan",
+              "Kelly Beau",
+              "Soltys Kyle",
+              "Squires James E",
+              "Vockley Jerry"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Child, Preschool",
+              "End Stage Liver Disease",
+              "Female",
+              "Follow-Up Studies",
+              "Graft Rejection",
+              "Graft Survival",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31556146/"
+          },
+          {
+            "pmid": "8020893",
+            "title": "The molecular genetics of autoimmune liver disease.",
+            "abstract": "The dual observations that human leukocyte antigens have an antigen-binding groove and that the polymorphism we study as human leukocyte antigen types is largely related to amino acid substitutions in and around that groove have provided a new focus for immunogenetic studies. In autoimmune liver disease, recent studies have described specific amino acid substitutions in the antigen-binding groove of human leukocyte antigen DR molecules that may determine both disease susceptibility, through their direct influence on antigen binding, and the severity of the disease. In autoimmune hepatitis, lysine residues at DR beta position 71 in European subjects and arginine or histidine residues at DR beta position 13 in Japanese subjects may be responsible for much human leukocyte antigen-encoded disease susceptibility. Similar claims have been made for leucine residues at DR beta 38 in primary sclerosing cholangitis and for leucine residues at DP beta 35 in Japanese patients with primary biliary ",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "1994",
+            "authors": [
+              "Donaldson P",
+              "Doherty D",
+              "Underhill J",
+              "Williams R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Autoimmune Diseases",
+              "Cholangitis, Sclerosing",
+              "Chromosomes, Human, Pair 6",
+              "Genes, MHC Class I",
+              "Genes, MHC Class II",
+              "Genetic Predisposition to Disease",
+              "HLA-DR Antigens",
+              "Hepatitis",
+              "Humans",
+              "Liver Cirrhosis, Biliary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8020893/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pregnancy associated osteoporosis",
+        "txgnn_score": 0.9657168984413148,
+        "txgnn_rank": 22629,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34768327",
+            "title": "Femoral µCT Analysis, Mechanical Testing and Immunolocalization of Bone Proteins in β-Hydroxy β-Methylbutyrate (HMB) Supplemented Spiny Mouse in a Model of Pregnancy and Lactation-Associated Osteoporosis.",
+            "abstract": "A metabolite of leucine, ß-hydroxy-ß-methylbutyrate (HMB), used as a dietary supplement effects muscle tissue gain and bone tissue quality. Since there are no studies on the effects of HMB during pregnancy yet, the aim of the current study was to determine the effects of HMB supplementation during pregnancy on osteoporotic bone quality postpartum and post-lactation using spiny mice (Acomys cahirinus) as the animal models. The six-month-old dams were divided into four groups: pregnant and lactating controls, and pregnant and lactating HMB-treated (during the second trimester of pregnancy) females. The intensity of the immunoreaction of osteocalcin (OC), osteoprotegerin (OPG), bone morphogenetic protein 2 (BMP-2), tissue inhibitor of metalloproteinases 2 (TIMP-2), matrix metalloproteinase 8 and 13 (MMP-8 and MMP-13) and proteins involved in bone turnover, was measured in femoral trabecular and compact bone, as well as in the hyaline and epiphyseal cartilage of the femora. The analysis of",
+            "journal": "Journal of clinical medicine",
+            "year": "2021",
+            "authors": [
+              "Tomaszewska Ewa",
+              "Muszyński Siemowit",
+              "Donaldson Janine",
+              "Dobrowolski Piotr",
+              "Chand Deepesh K P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34768327/"
+          },
+          {
+            "pmid": "36004351",
+            "title": "Case report: Early-onset osteoporosis in a patient carrying a novel heterozygous variant of the WNT1 gene.",
+            "abstract": "The WNT1 gene is crucial for bone development and homeostasis. Homozygous mutations in WNT1 cause severe bone fragility known as osteogenesis imperfecta type XV. Moreover, heterozygous WNT1 mutations have been found in adults with early-onset osteoporosis. We identified a 35 year-old Caucasian woman who experienced multiple vertebral fractures two months after her second pregnancy. There was no history of risk factors for secondary osteoporosis or family history of osteoporosis. Dual-energy X-ray absorptiometry confirmed a marked reduction of bone mineral density (BMD) at the lumbar spine (0.734 g/cm2, Z-score -2.8), femoral neck (0.48 g/cm2, Z-score -3.5), and total hip (0.589 g/cm2, Z-score -3.0). Blood tests excluded secondary causes of bone fragility. Genetic analysis revealed a heterozygous missense mutation (p.Leu370Val) in the WNT1 gene. Varsome classified it as a variant of uncertain significance. However, the fact that the Leucine residue at position 370 is highly conserved am",
+            "journal": "Frontiers in endocrinology",
+            "year": "2022",
+            "authors": [
+              "Campopiano Maria Cristina",
+              "Fogli Antonella",
+              "Michelucci Angela",
+              "Mazoni Laura",
+              "Longo Antonella"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Research Support, Non-U.S. Gov't",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bone Density",
+              "Female",
+              "Humans",
+              "Lumbar Vertebrae",
+              "Osteogenesis Imperfecta",
+              "Osteoporosis",
+              "Pregnancy",
+              "Teriparatide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36004351/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "albinism-deafness syndrome",
+        "txgnn_score": 0.9643207788467408,
+        "txgnn_rank": 23055,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Worth syndrome",
+        "txgnn_score": 0.9633418321609496,
+        "txgnn_rank": 23354,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00149",
+    "name": "Leucine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Leucine"
+      },
+      "queried_at": "2026-03-10T05:55:30.192479",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Leucine"
+      },
+      "queried_at": "2026-03-10T05:55:31.783350",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T05:55:32.257618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T05:55:36.291528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T05:55:37.183911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T05:55:37.770948",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T05:55:40.712978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "queried_at": "2026-03-10T05:55:41.738627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T05:55:42.261207",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T05:55:44.939798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-10T05:55:47.636519",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T05:55:48.298098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T05:55:51.670423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "bone Paget disease"
+      },
+      "queried_at": "2026-03-10T05:55:54.382710",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T05:55:54.914193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T05:55:58.122605",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "queried_at": "2026-03-10T05:55:58.864380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "postmenopausal osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:55:59.314118",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "postmenopausal osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:56:02.816751",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "postmenopausal osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:56:04.935074",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T05:56:05.536499",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T05:56:08.614463",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T05:56:12.753760",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:56:14.228256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:56:17.337643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "queried_at": "2026-03-10T05:56:19.736832",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "albinism-deafness syndrome"
+      },
+      "queried_at": "2026-03-10T05:56:20.263434",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "albinism-deafness syndrome"
+      },
+      "queried_at": "2026-03-10T05:56:23.833620",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "albinism-deafness syndrome"
+      },
+      "queried_at": "2026-03-10T05:56:24.513423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T05:56:24.981031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T05:56:28.365618",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leucine",
+        "disease": "Worth syndrome"
+      },
+      "queried_at": "2026-03-10T05:56:28.980995",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:56:28.984647"
+  }
+}

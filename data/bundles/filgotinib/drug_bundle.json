@@ -1,0 +1,546 @@
+{
+  "drug": {
+    "inn": "Filgotinib",
+    "drugbank_id": "DB14845",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "HER2 positive breast carcinoma",
+        "txgnn_score": 0.9888359904289246,
+        "txgnn_rank": 11401,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombocytopenia",
+        "txgnn_score": 0.9887450337409972,
+        "txgnn_rank": 11476,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35367240",
+            "title": "Underpinning IL-6 biology and emphasizing selective JAK blockade as the potential alternate therapeutic intervention for rheumatoid arthritis.",
+            "abstract": "Interleukin 6 (IL-6), a pleiotropic inflammatory cytokine, is produced transiently due to tissue damage and infections. Nonetheless, IL-6 contributes to the host regenerative defense mechanism via classical signaling at the basal physiological level. Although tightly regulated transcriptional and post-transcriptional mechanism modulates its expression, dysregulated continual production of IL-6 during inflammatory conditions negatively affects immune cells. Molecular evidence has substantiated the pernicious out-turn of IL-6 trans-signaling in developing one such autoimmune joint disorder, rheumatoid arthritis (RA). Significantly increased levels of IL-6 in RA, along with multiple growth factors mainly released by synovial-like fibroblasts (FLS) and macrophages, is crucial for clinical disease progression. Due to its pathogenicity, in mediating inflammation and context-driven signaling cassette, blockade of IL-6 could be a potent target in the therapeutic intervention of RA. The clinica",
+            "journal": "Life sciences",
+            "year": "2022",
+            "authors": [
+              "Srivastava Susmita",
+              "Rasool Mahaboobkhan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Biology",
+              "Disease Progression",
+              "Fibroblasts",
+              "Humans",
+              "Interleukin-6",
+              "Janus Kinases",
+              "STAT Transcription Factors",
+              "Signal Transduction",
+              "Synovial Membrane"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35367240/"
+          },
+          {
+            "pmid": "41458193",
+            "title": "Immune-Mediated Thrombocytopenia in an Ulcerative Colitis Patient After Initiating Filgotinib Treatment: A Case Report.",
+            "abstract": "Moderate-to-severe ulcerative colitis can be effectively treated with JAK-1 inhibition, but platelet counts should be closely monitored, especially in active disease. We confirmed immune-mediated thrombocytopenia (ITP) in one of our patients after the initiation of filgotinib. Whether this was drug-induced is uncertain.",
+            "journal": "Clinical case reports",
+            "year": "2026",
+            "authors": [
+              "van der Hoff M J",
+              "El-Morabit F",
+              "Löwenberg M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41458193/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary thrombocytopenia with normal platelets",
+        "txgnn_score": 0.9884541630744934,
+        "txgnn_rank": 11712,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "marcothrombocytopenia with mitral valve insufficiency",
+        "txgnn_score": 0.9884389042854308,
+        "txgnn_rank": 11717,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "transient neonatal thrombocytopenia",
+        "txgnn_score": 0.9879612326622008,
+        "txgnn_rank": 12089,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dense granule disease",
+        "txgnn_score": 0.9877771139144896,
+        "txgnn_rank": 12230,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9873623847961426,
+        "txgnn_rank": 12564,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.983347475528717,
+        "txgnn_rank": 15236,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "progesterone-receptor negative breast cancer",
+        "txgnn_score": 0.9829756617546082,
+        "txgnn_rank": 15476,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "normal breast-like subtype of breast carcinoma",
+        "txgnn_score": 0.9828613996505736,
+        "txgnn_rank": 15537,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14845",
+    "name": "Filgotinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Filgotinib"
+      },
+      "queried_at": "2026-03-10T06:15:19.381497",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Filgotinib"
+      },
+      "queried_at": "2026-03-10T06:15:20.538059",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:15:21.084472",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:15:24.162045",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:15:24.880769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T06:15:25.329511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T06:15:28.158523",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T06:15:29.935509",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T06:15:30.402053",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T06:15:33.793530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T06:15:34.852772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T06:15:35.631596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T06:15:38.533503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T06:15:39.594067",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "transient neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T06:15:40.265115",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "transient neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T06:15:44.106816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "transient neonatal thrombocytopenia"
+      },
+      "queried_at": "2026-03-10T06:15:45.036786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "dense granule disease"
+      },
+      "queried_at": "2026-03-10T06:15:45.534630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "dense granule disease"
+      },
+      "queried_at": "2026-03-10T06:15:49.787323",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "dense granule disease"
+      },
+      "queried_at": "2026-03-10T06:15:51.297432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T06:15:52.033112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T06:15:55.333625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T06:15:56.486711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T06:15:57.156689",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T06:16:00.667418",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T06:16:01.635144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "progesterone-receptor negative breast cancer"
+      },
+      "queried_at": "2026-03-10T06:16:02.947467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "progesterone-receptor negative breast cancer"
+      },
+      "queried_at": "2026-03-10T06:16:05.908041",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "progesterone-receptor negative breast cancer"
+      },
+      "queried_at": "2026-03-10T06:16:06.847669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "normal breast-like subtype of breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:16:07.559427",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "normal breast-like subtype of breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:16:11.364874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Filgotinib",
+        "disease": "normal breast-like subtype of breast carcinoma"
+      },
+      "queried_at": "2026-03-10T06:16:12.282755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T06:16:12.287670"
+  }
+}

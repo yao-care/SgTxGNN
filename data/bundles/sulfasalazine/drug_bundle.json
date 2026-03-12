@@ -1,0 +1,1476 @@
+{
+  "drug": {
+    "inn": "Sulfasalazine",
+    "drugbank_id": "DB00795",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.999428927898407,
+        "txgnn_rank": 1265,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9993625283241272,
+        "txgnn_rank": 1376,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.9988160133361816,
+        "txgnn_rank": 2303,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis with juvenile macular dystrophy",
+        "txgnn_score": 0.9966083765029908,
+        "txgnn_rank": 5004,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.996421217918396,
+        "txgnn_rank": 5193,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03975790",
+            "title": "Comparative Analysis of Outcomes Among Patients Initiating Xeljanz in Combination With Oral MTX Who Withdraw MTX Versus Continue MTX Using a United States Healthcare Claims Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2018-05-29",
+            "completion_date": "2018-10-02",
+            "country": "United States",
+            "enrollment": 479,
+            "brief_summary": "To address the objectives, a retrospective cohort design will be employed to evaluate patient characteristics, treatment patterns, medication effectiveness, and health care cost and utilization in RA patients newly initiating tofacitinib in combination with oral methotrexate (MTX)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* At least one claim for tofacitinib between 01 January 2014 and 31 January 2017 (the identification period).\n* Presence of The International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9 CM) code for RA (in any position) during the one-year pre-index pe",
+            "endpoints": [
+              "Number of Participants as Per Type of Insurance Plan",
+              "Number of Participants in Each Geographic Region",
+              "Number of Participants With Biologic Disease Modifying Antirheumatic Drug (bDMARD) Use During Pre-Index Period"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03975790"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00551707",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Multi-Center Study to Evaluate the Superiority of CRx-102 Over Each of Its Components When Given to Subjects With Active Rheumatoid Arthritis (RA)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2007-10",
+            "completion_date": "2009-01",
+            "country": "Canada, Romania, Argentina, United States, Mexico, Hungary, Russia, Estonia, South Africa, Serbia, Lithuania, Poland",
+            "enrollment": 51,
+            "brief_summary": "CRx-102 is a synergistic combination drug candidate containing the cardiovascular drug dipyridamole and a very low dose of the glucocorticoid prednisolone. CRx-102 is believed to work through a novel mechanism of action in which dipyridamole selectively amplifies the anti-inflammatory and immunomodulatory activities of the glucocorticoid without replicating the dose-dependent adverse effects. CRx-102 has been associated with clinical benefit in proof of concept studies in subjects with hand Oste",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subject must voluntarily give written informed consent\n* Subject must be ≥ 18 years of age\n* Subject must have RA (ACR criteria)\n* Subject must have at least 4 swollen joints and at least 6 tender joints at screening and baseline (28 joint count)\n* Subject must have a CRP \\> U",
+            "endpoints": [
+              "Absolute C-reactive Protein (CRP) Values at Day 98 - As Treated Population"
+            ],
+            "sponsor": "Zalicus",
+            "url": "https://clinicaltrials.gov/study/NCT00551707"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29548914",
+            "title": "Attenuation of inflammation and cartilage degradation by sulfasalazine-containing hyaluronic acid on osteoarthritis rat model.",
+            "abstract": "The aim of this study was to investigate the effects of a sulfasalazine-containing hyaluronic acid (SASP/HA) systems on in vitro anti-inflammation and the alleviation of cartilage degradation in both lipopolysaccharide (LPS)-stimulated synoviocytes and a rat model of monosodium iodoacetate (MIA)-induced osteoarthritis (OA). The SASP/HA resulted in long-term release of SASP from the SASP/HA for up to 60 days in a sustained manner. In vitro studies performed using real-time polymerase chain reaction (PCR) assay revealed that the SASP/HA was able to effectively and dose-dependently inhibit the mRNA expression levels of pro-inflammatory cytokines such as matrix metalloproteinases-3 (MMP-3), cyclooxygenase-2 (COX-2), interleukin-6 (IL-6), and tumor necrosis factor-α (TNF-α) in LPS-stimulated synoviocytes. In vivo studies showed that intra articular injection of SASP/HA greatly reduced the MIA-stimulated mRNA expression of MMP-3, COX-2, IL-6, and TNF-α in blood. Furthermore, these significan",
+            "journal": "International journal of biological macromolecules",
+            "year": "2018",
+            "authors": [
+              "Kim Sung Eun",
+              "Lee Jae Yong",
+              "Shim Kyu-Sik",
+              "Lee Sunghee",
+              "Min Kyoengwoo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cartilage",
+              "Hyaluronic Acid",
+              "Inflammation",
+              "Lipopolysaccharides",
+              "Osteoarthritis",
+              "Rats",
+              "Rats, Sprague-Dawley",
+              "Sulfasalazine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29548914/"
+          },
+          {
+            "pmid": "35958605",
+            "title": "Ferroptosis in inflammatory arthritis: A promising future.",
+            "abstract": "Ferroptosis is a kind of regulatory cell death (RCD) caused by iron accumulation and lipid peroxidation, which is characterized by mitochondrial morphological changes and has a complex regulatory network. Ferroptosis has been gradually emphasized in the pathogenesis of inflammatory arthritis. In this review, we summarized the relevant research on ferroptosis in various inflammatory arthritis including rheumatoid arthritis (RA), osteoarthritis, gout arthritis, and ankylosing spondylitis, and focused on the relationship between RA and ferroptosis. In patients with RA and animal models of RA, there was evidence of iron overload and lipid peroxidation, as well as mitochondrial dysfunction that may be associated with ferroptosis. Ferroptosis inducers have shown good application prospects in tumor therapy, and some anti-rheumatic drugs such as methotrexate and sulfasalazine have been shown to have ferroptosis modulating effects. These phenomena suggest that the role of ferroptosis in the pat",
+            "journal": "Frontiers in immunology",
+            "year": "2022",
+            "authors": [
+              "Chang Siyuan",
+              "Tang Mengshi",
+              "Zhang Bikui",
+              "Xiang Daxiong",
+              "Li Fen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arthritis, Rheumatoid",
+              "Ferroptosis",
+              "Iron",
+              "Iron Overload",
+              "Lipid Peroxidation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35958605/"
+          },
+          {
+            "pmid": "24329131",
+            "title": "Effects of sulfasalazine and tofacitinib on the protein profile of articular chondrocytes.",
+            "abstract": "Sulfasalazine (SSZ) and tofacitinib are effective for treating rheumatoid arthritis, however, their effects on chondrocytes have not been fully understood. We here tried to elucidate their effects on chondrocyte proteins.",
+            "journal": "Modern rheumatology",
+            "year": "2014",
+            "authors": [
+              "Endo Wataru",
+              "Arito Mitsumi",
+              "Sato Toshiyuki",
+              "Kurokawa Manae S",
+              "Omoteyama Kazuki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Cartilage, Articular",
+              "Chondrocytes",
+              "Female",
+              "Humans",
+              "Interleukin-1beta",
+              "Male",
+              "Piperidines",
+              "Pyrimidines",
+              "Pyrroles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24329131/"
+          },
+          {
+            "pmid": "26466556",
+            "title": "Sulfasalazine attenuates ACL transection and medial menisectomy-induced cartilage destruction by inhibition of cystine/glutamate antiporter.",
+            "abstract": "We had previously demonstrated that excitatory amino acid glutamate plays a role in the progression and severity of knee osteoarthritis (OA), and early hyaluronic acid injection attenuates the OA progression by attenuation of knee joint glutamate level, which was also related to the cystine/glutamate antiporter system X (system XC-) expression. System XC- uptakes cystine into chondrocytes for glutathione (GSH) synthesis, but the role of system XC- in OA is rarely addressed. Sulfasalazine (SSZ) is a system XC- inhibitor; SSZ was applied intra-articularly to study the function of system XC- in the development of OA in rats subjected to anterior cruciate ligament transection and medial meniscectomy (ACLT + MMx). Moerover, the system XC- activator N-acetylcysteine (NAC) was also applied to verify the role of system XC-. The intra-articular injection of SSZ significantly attenuated knee swelling and cartilage destruction in the knees of ACLT + MMx rats and this effect was blocked by NAC. Th",
+            "journal": "Journal of orthopaedic research : official publication of the Orthopaedic Research Society",
+            "year": "2016",
+            "authors": [
+              "Tsai Wei-Yuan",
+              "Tsai Ru-Yin",
+              "Liu Chih-Chung",
+              "Wu Jia-Lin",
+              "Wong Chih-Shung"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anterior Cruciate Ligament Injuries",
+              "Antiporters",
+              "Antirheumatic Agents",
+              "Cells, Cultured",
+              "Chondrocytes",
+              "Drug Evaluation, Preclinical",
+              "Knee Injuries",
+              "Male",
+              "Osteoarthritis, Knee"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26466556/"
+          },
+          {
+            "pmid": "31084537",
+            "title": "Rheumatology Care Using Telemedicine.",
+            "abstract": "Introduction: People living in many parts of the world have limited access to diagnostic studies and therapies for rheumatologic, musculoskeletal, and connective tissue diseases. The challenge has been particularly poignant for rural areas of low- and middle-income countries. Objectives: We report on the implementation of a telemedicine program in Iran for the evaluation and treatment of patients with rheumatologic and musculoskeletal diseases. More than 4,800 patients were seen remotely over a span of 5 years by a rheumatologist in the United States. The remote rheumatologist was aided by a general physician and a nurse at a local charity hospital in northeastern Iran that has a catchment area that includes rural regions extending to the border of Afghanistan. Seventy to 90 patients were evaluated online by the remote rheumatologist 3 days a week. A subset of patients was evaluated by the rheumatologist in person every 4 months. Materials and Methods: The population of rheumatology pa",
+            "journal": "Telemedicine journal and e-health : the official journal of the American Telemedicine Association",
+            "year": "2020",
+            "authors": [
+              "Rezaian Michael M",
+              "Brent Lawrence H",
+              "Roshani Shima",
+              "Ziaee Mahmood",
+              "Sobhani Fahimeh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Female",
+              "Humans",
+              "Iran",
+              "Male",
+              "Middle Aged",
+              "Rheumatology",
+              "Telemedicine",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31084537/"
+          },
+          {
+            "pmid": "19690126",
+            "title": "Sulfasalazine blocks the release of proteoglycan and collagen from cytokine stimulated cartilage and down-regulates metalloproteinases.",
+            "abstract": "To investigate the effect of SSZ on the release of GAG and collagen fragments from bovine nasal cartilage and MMP and ADAMTS (a disintegrin and metalloproteinase domain with thrombospondin motifs) proteinases from human articular chondrocytes (HACs) stimulated with IL-1alpha and oncostatin M (OSM).",
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2009",
+            "authors": [
+              "Lakey Rachel L",
+              "Cawston Tim E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antirheumatic Agents",
+              "Cartilage, Articular",
+              "Cattle",
+              "Cells, Cultured",
+              "Collagen",
+              "Culture Media, Conditioned",
+              "Dose-Response Relationship, Drug",
+              "Down-Regulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19690126/"
+          },
+          {
+            "pmid": "1673814",
+            "title": "[Effect of sulfasalazine and its metabolites on prostaglandin and leukotriene liberation from human synovial tissue].",
+            "abstract": "The effects of sulfasalazine (SASP) and its metabolites sulfapyridine (SP) and 5-aminosalicylic acid (5-ASA) were investigated on release of prostaglandins (PG) and leukotrienes (LT) from synovial tissue of 37 patients with osteoarthritis, chondrocalcinosis and rheumatoid arthritis. Calcium ionophore A23187 significantly increased the release of PGE2, 6-keto-PGF1 alpha, LTB4, and LTC4 from human synovial tissue irrespective of the underlying joint disease. SASP inhibited release of LTC4 and increased release of PGE2. On the other hand, 5-ASA and SP inhibited the release of all eicosanoids measured. The effective concentrations of SASP and SP were found to be in the range which can be reached during SASP therapy. On the other hand, blood and synovial fluid levels of 5-ASA are considerably lower than those which inhibit eicosanoid synthesis in vitro. While nonsteroidal anti-inflammatory drugs, which are used for symptomatic therapy of rheumatoid arthritis, inhibit cyclooxygenase only, SP",
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "1991",
+            "authors": [
+              "Wittenberg H R",
+              "Kleemeyer K",
+              "Peskar B M",
+              "Peskar B A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "6-Ketoprostaglandin F1 alpha",
+              "Aminosalicylic Acids",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis, Rheumatoid",
+              "Chondrocalcinosis",
+              "Culture Techniques",
+              "Dinoprostone",
+              "Humans",
+              "Knee Joint",
+              "Leukotriene B4"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1673814/"
+          },
+          {
+            "pmid": "11478054",
+            "title": "Current concepts regarding pharmacologic treatment of rheumatoid and osteoarthritis.",
+            "abstract": "Treating patients with osteoarthritis (OA) and rheumatoid arthritis (RA) remains challenging; however, new agents offer the chance for an improved quality of life. As an alternative to traditional nonsteroidal anti-inflammatories, cyclooxygenase-2 inhibitors provide pain relief for OA and RA patients with possible fewer side effects. Otherwise, OA patients may opt for topical agents, injections, or supplements. Rheumatoid arthritis research has led to an improved understanding of the inflammatory cascade and an appreciation of the early tissue destruction. A new treatment philosophy has thus emerged along with the development of new biologic agents; the latter, along with combination therapy and a new disease modifying antirheumatic drug, leflunomide, have greatly expanded the chances for disease control in RA patients.",
+            "journal": "Hand clinics",
+            "year": "2001",
+            "authors": [
+              "Wildy K S",
+              "Wasko M C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Immunologic",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antibodies, Monoclonal",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Celecoxib",
+              "Cyclooxygenase Inhibitors",
+              "Digestive System",
+              "Etanercept",
+              "Glucocorticoids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11478054/"
+          },
+          {
+            "pmid": "9567207",
+            "title": "Update on clinical trials in the rheumatic diseases.",
+            "abstract": "Therapeutic trials in rheumatoid arthritis (RA), osteoarthritis, seronegative spondyloarthopathies, back pain, systemic lupus erythematosus, and systemic sclerosis are reviewed. For RA, minocycline has been proven effective in some subsets of RA, whereas tumor necrosis factor receptor IgG fusion protein appears quite effective for treating the symptoms of RA in a more resistant group. The latter trial illustrates the importance of tumor necrosis factor in RA. Also, the triple combination of hydroxychloroquine, sulfasalazine, and methotrexate is very effective even in resistant RA. In osteoarthritis, the effects of nonsteroidal anti-inflammatory drugs, intra-articular steroids, and biologics are reviewed, with generally nondifferentiable nonsteroidal anti-inflammatory drug effects and some short-term intra-articular effects of new biologics. Sulfasalazine is moderately effective for ankylosing spondylitis and psoriatic arthritis, although the large placebo response in the latter makes i",
+            "journal": "Current opinion in rheumatology",
+            "year": "1998",
+            "authors": [
+              "Furst D E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Rheumatic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9567207/"
+          },
+          {
+            "pmid": "35951003",
+            "title": "Elevated expression of TAM receptor tyrosine kinase in synovial fluid and synovial tissue of rheumatoid arthritis.",
+            "abstract": "To investigate the expression and roles of TAM (Tyro3/Axl/Mer) receptor tyrosine kinases (TK) in synovial fluid and synovial tissue of patients with rheumatoid arthritis (RA). The expression of TAM TKs in the synovial fluid and synovial tissues of RA and osteoarthritis (OA) patients was measured by ELISA and immunohistochemistry. The relationships between soluble TAM TKs (sTAM TKs) levels and the clinical features, laboratory parameters and disease activity were analyzed in RA. The concentrations of sTAM TK in the synovial fluids of RA patients were increased in comparison to those of OA patients. Compared with OA patients, the expression of membrane Tyro3 TK (mTyro3 TK) and mMer TK in RA patient synovial tissue were significantly increased, which may partly explain the possible mechanism of elevated levels of sTAM TK in RA patient synovial fluid. sAxl TK levels were decreased in RA patients under sulfasalazine treatment and elevated in patients under Iguratimod treatment. Furthermore,",
+            "journal": "Clinical and experimental immunology",
+            "year": "2022",
+            "authors": [
+              "Zheng Li",
+              "Xu Liling",
+              "Hu Fanlei",
+              "Xue Jimeng",
+              "Bai Mingxin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Complement C3",
+              "Humans",
+              "Osteoarthritis",
+              "Receptor Protein-Tyrosine Kinases",
+              "Rheumatoid Factor",
+              "Sulfasalazine",
+              "Synovial Fluid",
+              "Synovial Membrane",
+              "Tyrosine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35951003/"
+          },
+          {
+            "pmid": "24231065",
+            "title": "Interstitial lung diseases induced or exacerbated by DMARDS and biologic agents in rheumatoid arthritis: a systematic literature review.",
+            "abstract": "To review published cases of induced or exacerbated interstitial lung disease (ILD) in rheumatoid arthritis (RA) associated with non-biologic disease-modifying antirheumatic drugs (nbDMARDs) and biologics and to discuss clinical implications in daily practice.",
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2014",
+            "authors": [
+              "Roubille Camille",
+              "Haraoui Boulos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Biological Factors",
+              "Humans",
+              "Lung Diseases, Interstitial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24231065/"
+          },
+          {
+            "pmid": "17143978",
+            "title": "The association of rheumatoid arthritis and its treatment with sinus disease.",
+            "abstract": "To determine if rates of sinus disease are increased in patients with rheumatoid arthritis (RA) and whether RA treatment alters the risk of sinus disease.",
+            "journal": "The Journal of rheumatology",
+            "year": "2006",
+            "authors": [
+              "Michaud Kaleb",
+              "Wolfe Frederick"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "Chronic Disease",
+              "Comorbidity",
+              "Female",
+              "Fibromyalgia",
+              "Health Status",
+              "Hospitalization",
+              "Humans",
+              "Longitudinal Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17143978/"
+          },
+          {
+            "pmid": "26082314",
+            "title": "15-hydroxyprostaglandin dehydrogenase is upregulated by hydroxychloroquine in rheumatoid arthritis fibroblast-like synoviocytes.",
+            "abstract": "15-Hydroxyprostaglandin dehydrogenase (HPGD) is the key enzyme responsible for the metabolic inactivation of prostaglandin E2 (PGE2) catabolism. PGE2 is one of the predominant catabolic factors involved in rheumatoid arthritis (RA). However, the expression and regulation of HPGD in RA fibroblast‑like synoviocyte (FLS) remain to be elucidated. Disease‑modifying anti‑rheumatic drugs (DMARDs) are the most important anti‑arthritic drugs, which reduce the effect of joint injury. The aim of the present study was to assess the expression of HPGD in RA tissues and cells, and normal synovial tissues and cells. The effect of the most popular DMARDs, hydroxychloroquine, on the expression of HPGD in RA‑FLS was also investigated. Western blotting and immunohistochemical analysis demonstrated that the expression levels of HPGD in human synovium were lower in RA synovium compared with the normal and OA synovium. In RA‑FLS, the expression of HPGD was increased following treatment with several DMARDs, ",
+            "journal": "Molecular medicine reports",
+            "year": "2015",
+            "authors": [
+              "Kim Hak-Jae",
+              "Lee Sora",
+              "Lee Haw-Yong",
+              "Won Hansol",
+              "Chang Sung-Hae"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Cells, Cultured",
+              "Fibroblasts",
+              "Humans",
+              "Hydroxychloroquine",
+              "Hydroxyprostaglandin Dehydrogenases",
+              "Immunohistochemistry",
+              "Microscopy, Confocal",
+              "Mitogen-Activated Protein Kinases",
+              "Osteoarthritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26082314/"
+          },
+          {
+            "pmid": "22294633",
+            "title": "PAR(2) expression in peripheral blood monocytes of patients with rheumatoid arthritis.",
+            "abstract": "Proteinase-activated receptor 2 (PAR(2)) is a G protein-coupled receptor activated by serine proteinases with proinflammatory activity. A study was undertaken to investigate the presence and functional significance of PAR(2) expression on rheumatoid arthritis (RA)-derived leucocyte subsets.",
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2012",
+            "authors": [
+              "Crilly A",
+              "Burns E",
+              "Nickdel M B",
+              "Lockhart J C",
+              "Perry M E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Arthritis, Rheumatoid",
+              "CD3 Complex",
+              "Cells, Cultured",
+              "Cross-Sectional Studies",
+              "Female",
+              "Flow Cytometry",
+              "Gene Expression"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22294633/"
+          },
+          {
+            "pmid": "21975788",
+            "title": "Combination therapy for pain management in inflammatory arthritis (rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, other spondyloarthritis).",
+            "abstract": "Despite optimal therapy with disease-modifying antirheumatic drugs, many people with inflammatory arthritis (IA) continue to have persistent pain that may require additional therapy.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2011",
+            "authors": [
+              "Ramiro Sofia",
+              "Radner Helga",
+              "van der Heijde Désirée",
+              "van Tubergen Astrid",
+              "Buchbinder Rachelle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Analgesics",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis",
+              "Arthritis, Psoriatic",
+              "Arthritis, Rheumatoid",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Pain",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21975788/"
+          },
+          {
+            "pmid": "32282362",
+            "title": "Induction of HLA-B27-Associated Reactive Arthritis After a Wharton's Jelly \"Stem Cell\" Injection.",
+            "abstract": "Orthobiologic injections are an emerging treatment option for musculoskeletal conditions. Allogenic gestational tissue-derived products, including umbilical cord-derived Wharton's jelly, are among the available options. These tissues are currently being harvested and sold by companies as an off-the-shelf \"stem cell\" injection for conditions such as back pain and osteoarthritis. Despite documented infections from similar umbilical cord derivatives, \"stem cell clinics\" continue to use them. Here, we report the first documented case of HLA-B27-associated reactive arthritis induced by a Wharton's jelly stem cell injection. A 36-yr-old man was injected with Wharton's jelly for low back pain and within 24 hours developed fevers, chills, polyarthritis, and enthesitis. Infectious disease work-up was negative. Inflammatory markers were elevated and his HLA-B27 antigen was positive. Initial treatment included methylprednisolone and sulfasalazine. This case highlights the unknown dangers of these",
+            "journal": "American journal of physical medicine & rehabilitation",
+            "year": "2020",
+            "authors": [
+              "Madhoun Hareth",
+              "Landry Kristen",
+              "Baria Michael R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arthritis, Reactive",
+              "HLA-B27 Antigen",
+              "Humans",
+              "Injections",
+              "Male",
+              "Mesenchymal Stem Cell Transplantation",
+              "Wharton Jelly"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32282362/"
+          },
+          {
+            "pmid": "25314295",
+            "title": "Aurothiomalate inhibits the expression of mPGES-1 in primary human chondrocytes.",
+            "abstract": "Microsomal prostaglandin E synthase-1 (mPGES-1) is a terminal enzyme in the production of prostaglandin E2 (PGE2) and its expression is upregulated during inflammation. mPGES-1 is considered as a potential drug target for the treatment of arthritis to reduce adverse effects related to the current non-steroidal anti-inflammatory drugs (NSAIDs). Our aim was to study the expression of mPGES-1 in primary human chondrocytes and whether the expression is affected by clinically used antirheumatic drugs.",
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "2015",
+            "authors": [
+              "Tuure L",
+              "Hämäläinen M",
+              "Moilanen T",
+              "Moilanen E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Chondrocytes",
+              "Dexamethasone",
+              "Dinoprostone",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Gene Expression Regulation, Enzymologic",
+              "Glucocorticoids",
+              "Gold Sodium Thiomalate",
+              "Humans",
+              "Hydroxychloroquine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25314295/"
+          },
+          {
+            "pmid": "10813295",
+            "title": "The epidemiology of psoriatic arthritis in Olmsted County, Minnesota, USA, 1982-1991.",
+            "abstract": "To determine the incidence, prevalence, and outcomes of psoriatic arthritis (PsA) in a geographically defined community.",
+            "journal": "The Journal of rheumatology",
+            "year": "2000",
+            "authors": [
+              "Shbeeb M",
+              "Uramoto K M",
+              "Gibson L E",
+              "O'Fallon W M",
+              "Gabriel S E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antirheumatic Agents",
+              "Arthritis",
+              "Arthritis, Psoriatic",
+              "Cohort Studies",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10813295/"
+          },
+          {
+            "pmid": "33238804",
+            "title": "A case of enteropathic arthritis complicated by superimposed bilateral septic arthritis of the hips.",
+            "abstract": "Polyarticular septic arthritis is an underappreciated clinical entity. Pre-existing joint diseases, such as osteoarthritis and rheumatoid arthritis have been shown to be risk factors for septic arthritis. However, there is a paucity of data in the literature regarding the risk of septic arthritis in those patients with enteropathic arthritis. Here, we describe the case of a 47-year-old female with a background history of ulcerative colitis who presented with difficulty mobilising and pain in the hips associated with lethargy, fever and a significant inflammatory response. After an investigative process, she was newly diagnosed with enteropathic arthritis, complicated at presentation, by bilateral septic arthritis of the hips, based on progressive radiological destruction and a joint aspirate that grew Staphylococcus aureus. After treatment with antibiotics and steroids, her pain and mobility significantly improved, and she was discharged with a plan for an elective hip replacement and ",
+            "journal": "Modern rheumatology case reports",
+            "year": "2021",
+            "authors": [
+              "Colquhoun Matthew",
+              "Roy Arpita",
+              "Kirresh Othman",
+              "Mouyis Maria"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Infectious",
+              "Female",
+              "Hip",
+              "Humans",
+              "Middle Aged",
+              "Osteoarthritis",
+              "Spondylarthritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33238804/"
+          },
+          {
+            "pmid": "12205730",
+            "title": "The effects of sulphasalazine on urinary excretion of the hydroxypyridinium crosslinks of collagen in patients with rheumatoid arthritis.",
+            "abstract": "Secondary osteoporosis is a feature of rheumatoid arthritis (RA). In recent years, several attempts have been made to develop specific markers for monitoring connective tissue metabolism in arthritic diseases. Our purpose, in this study was to assess pyridinium crosslinks (PYD and DPYD) excretion in relation to the activity of RA (changes related to sulphasalazine treatment). Fourty premenopausal female patients with active RA (mean age; 36.0 +/- 7.2 years), 20 postmenopausal women with active RA (mean age; 60.0 +/- 6.8 years), 23 postmenopausal women with OA (mean age; 56.1 +/- 6.6 years) and 17 premenopausal healthy subjects (mean age; 28.3 +/- 4.28 years) were enrolled in our study. All of the 40 premenopausal female patients with active RA were given sulphasalazine. The mean follow up period for these patients was 10.3 +/- 1.1 months. In all of these patients, urine samples were collected both in the active and in the inactive periods. Urine PYD and DPYD levels were measured by ELI",
+            "journal": "Yonsei medical journal",
+            "year": "2002",
+            "authors": [
+              "Dílek Keskin",
+              "Alí Inal",
+              "Göksal Keskin",
+              "Hüseyin Tutkak",
+              "Güner Tokgöz"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Aged",
+              "Amino Acids",
+              "Arthritis, Rheumatoid",
+              "Collagen",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Osteoporosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12205730/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "WHIM syndrome",
+        "txgnn_score": 0.996193528175354,
+        "txgnn_rank": 5430,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9961234927177428,
+        "txgnn_rank": 5490,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "spondyloarthropathy, susceptibility to",
+        "txgnn_score": 0.9952899217605592,
+        "txgnn_rank": 6242,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "10910178",
+            "title": "Juvenile spondyloarthropathies.",
+            "abstract": "This paper reviews the recent literature on the juvenile spondyloarthropathies. Several case reports emphasized clinical characteristics of the spondyloarthropathies including reactive arthritis. MR imaging seemed to enhance the detection of sacroiliitis in children with spondyloarthropathies. The presence of different cytokines in various forms of juvenile arthritis including the juvenile spondyloarthropathies was investigated and suggested a role for the anti-inflammatory cytokines in milder disease. Evidence for the association of low-molecular-weight polypeptide gene polymorphism with susceptibility to acute anterior uveitis was found in a Mexican population of patients with spondyloarthropathies, including 80 with juvenile spondyloarthropathy. A review of therapeutic use of sulfasalazine in children with chronic arthritis, including those with juvenile spondyloarthropathy, concluded that it was safe and effective. Last, a study assessed aerobic fitness and physical activity in pat",
+            "journal": "Current opinion in rheumatology",
+            "year": "2000",
+            "authors": [
+              "Pepmueller P H",
+              "Moore T L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antirheumatic Agents",
+              "Arthritis, Juvenile",
+              "Arthritis, Reactive",
+              "Child",
+              "Female",
+              "Germany",
+              "Humans",
+              "Male",
+              "Spondylitis, Ankylosing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10910178/"
+          },
+          {
+            "pmid": "34599048",
+            "title": "The Interplay Between COVID-19 and Spondyloarthritis or Its Treatment.",
+            "abstract": "The coronavirus disease 2019 (COVID-19) pandemic has created multiple uncertainties regarding rheumatic diseases or their treatment, with regard to the susceptibility to or severity of the viral disease. We aimed to address these questions as they relate to spondyloarthritis (SpA).",
+            "journal": "The Journal of rheumatology",
+            "year": "2022",
+            "authors": [
+              "Rosenbaum James T",
+              "Weisman Michael H",
+              "Hamilton Hedley",
+              "Shafer Cassie",
+              "Aslanyan Elin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "COVID-19",
+              "Humans",
+              "Rheumatologists",
+              "SARS-CoV-2",
+              "Spondylarthritis",
+              "Spondylitis, Ankylosing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34599048/"
+          },
+          {
+            "pmid": "25413361",
+            "title": "Arylamine N-acetyltransferase polymorphisms in Han Chinese patients with ankylosing spondylitis and their correlation to the adverse drug reactions to sulfasalazine.",
+            "abstract": "Polymorphisms of Arylamine N-acetyltransferase (NAT) that contribute to diverse susceptibilities of some autoimmune diseases are also linked to the metabolism of several drugs including sulfasalazine (SSZ). The aim of this study was to investigate the distribution of NAT polymorphisms in Han Chinese patients with ankylosing spondylitis (AS) and their correlation to sulfasalazine-induced adverse drug reactions (ADRs).",
+            "journal": "BMC pharmacology & toxicology",
+            "year": "2014",
+            "authors": [
+              "Hou Zhi-duo",
+              "Xiao Zheng-yu",
+              "Gong Yao",
+              "Zhang Yu-ping",
+              "Zeng Qing Yu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Antirheumatic Agents",
+              "Arylamine N-Acetyltransferase",
+              "Asian People",
+              "Female",
+              "Genotype",
+              "Humans",
+              "Isoenzymes",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25413361/"
+          },
+          {
+            "pmid": "19938189",
+            "title": "Rheumatic manifestations of inflammatory bowel disease.",
+            "abstract": "This article reviews the literature concerning rheumatic manifestations of inflammatory bowel disease (IBD), including common immune-mediated pathways, frequency, clinical course and therapy. Musculoskeletal complications are frequent and well-recognized manifestations in IBD, and affect up to 33% of patients with IBD. The strong link between the bowel and the osteo-articular system is suggested by many clinical and experimental observations, notably in HLA-B27 transgenic rats. The autoimmune pathogenic mechanisms shared by IBD and spondyloarthropathies include genetic susceptibility to abnormal antigen presentation, aberrant recognition of self, the presence of autoantibodies against specific antigens shared by the colon and other extra-colonic tissues, and increased intestinal permeability. The response against microorganisms may have an important role through molecular mimicry and other mechanisms. Rheumatic manifestations of IBD have been divided into peripheral arthritis, and axia",
+            "journal": "World journal of gastroenterology",
+            "year": "2009",
+            "authors": [
+              "Rodríguez-Reyna Tatiana Sofía",
+              "Martínez-Reyes Cynthia",
+              "Yamamoto-Furusho Jesús Kazúo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Cadherins",
+              "Cytokines",
+              "Gastroenterology",
+              "Humans",
+              "Inflammation",
+              "Inflammatory Bowel Diseases",
+              "Intestines",
+              "Mesalamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19938189/"
+          },
+          {
+            "pmid": "18166219",
+            "title": "Insights into the pathology and treatment of spondyloarthritis: from the bench to the clinic.",
+            "abstract": "The spondyloarthritides are a set of chronic inflammatory diseases that consists of 5 interrelated subsets (ankylosing spondylitis [AS], psoriatic arthritis [PsA], reactive arthritis, arthritis associated with inflammatory bowel disease, and undifferentiated spondyloarthropathy). The aim of this review was to evaluate the classification, genetic susceptibility, pathology, and response to treatment of spondyloarthritis (SpA).",
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2008",
+            "authors": [
+              "Davis John C",
+              "Mease Philip J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adalimumab",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antirheumatic Agents",
+              "Etanercept",
+              "Female",
+              "Genetic Predisposition to Disease",
+              "HLA-B27 Antigen",
+              "Humans",
+              "Immunoglobulin G"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18166219/"
+          },
+          {
+            "pmid": "20436080",
+            "title": "Undifferentiated spondyloarthritis: a longterm followup.",
+            "abstract": "To analyze the longterm followup of a series of Brazilian patients with undifferentiated spondyloarthritis (uSpA).",
+            "journal": "The Journal of rheumatology",
+            "year": "2010",
+            "authors": [
+              "Sampaio-Barros Percival D",
+              "Bortoluzzo Adriana B",
+              "Conde Roseneide A",
+              "Costallat Lilian Tereza L",
+              "Samara Adil M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Asian People",
+              "Black People",
+              "Brazil",
+              "Cohort Studies",
+              "Disease Progression",
+              "Female",
+              "Follow-Up Studies",
+              "Genetic Predisposition to Disease",
+              "HLA-B27 Antigen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20436080/"
+          },
+          {
+            "pmid": "26061056",
+            "title": "Rheumatic Manifestations in Patients with Chikungunya Infection.",
+            "abstract": "Chikungunya virus (CHIKV) infection is a common cause of febrile arthritis. The most common manifestations of acute infection are fever, symmetrical polyarthralgias or polyarthritis, myalgias, and maculopapular rash. Up to 80% of patients may develop musculoskeletal manifestations that persist longer than 3 months, causing impairment in their quality of life. The most common chronic manifestations are persistent or relapsing-remitting polyarthralgias, polyarthritis, and myalgias. Fingers, wrists, knees, ankles, and toes are the most frequently involved, but proximal joints and axial involvement can occur in the chronic stage. Chronic manifestations of CHIKV infection may resemble those of some autoimmune connective tissue diseases. Furthermore, CHIKV infection can cause cryoglobulinemia and may induce rheumatoid arthritis and seronegative spondyloarthropathies in genetically susceptible individuals. The Centers for Disease Control and Prevention recommend acetaminophen and non steroida",
+            "journal": "Puerto Rico health sciences journal",
+            "year": "2015",
+            "authors": [
+              "Arroyo-Ávila Mariangelí",
+              "Vilá Luis M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chikungunya Fever",
+              "Humans",
+              "Rheumatic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26061056/"
+          },
+          {
+            "pmid": "15922688",
+            "title": "Spondyloarthritis: update on pathogenesis and management.",
+            "abstract": "A great deal of progress has occurred in the past few years in elucidating the causes and designing new treatments for ankylosing spondylitis and other types of spondyloarthritis. In addition to the human leukocyte antigen (HLA)-B27 and other major histocompatibility complex (MHC) genes, chromosomal regions and genes elsewhere in the genome are being implicated both in disease susceptibility and severity. The various ways HLA-B27 may function in causing spondyloarthritis now are better understood to encompass not only antigen presentation but also other mechanisms, possibly all being operative in pathogenesis (misfolding of the HLA-B27 molecule, impaired intracellular killing of bacteria, and HLA-B27 itself serving as an autoantigen). Specific enteric and sexually acquired infections can trigger reactive arthritis, though no specific microbe has been identified in other forms of spondyloarthritis. Intestinal inflammation with impairment of the gut:blood barrier may be operative in driv",
+            "journal": "The American journal of medicine",
+            "year": "2005",
+            "authors": [
+              "Reveille John D",
+              "Arnett Frank C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Antibodies, Monoclonal",
+              "Antirheumatic Agents",
+              "Disease Susceptibility",
+              "HLA-B27 Antigen",
+              "Humans",
+              "Infliximab",
+              "Major Histocompatibility Complex",
+              "Spondylitis, Ankylosing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15922688/"
+          },
+          {
+            "pmid": "8105815",
+            "title": "Are antibiotics of any use in reactive arthritis?",
+            "abstract": "In the pathogenesis of reactive arthritis, infection through the mucosal route and genetic susceptibility (HLA-B27) are the most important contributing factors. With regard to non-specific urethritis, most probably caused by Chlamydia trachomatis infection, the use of early antimicrobial therapy has been shown to be effective in preventing arthritic recurrences. When the arthritis has been initiated, short-term conventional antimicrobial therapy seems unable to modify the course of the ongoing disease. In patients with acute reactive arthritis, a prolonged (3-month) treatment with tetracycline shortens the duration of arthritis when triggered by Chlamydia trachomatis, while such treatment has not proved effective in enteroarthritis. In patients with chronic reactive enteroarthritis, a prolonged course of quinolones, such as ciprofloxacin, might be of benefit. Sulfasalazine, which has an effect in the acute exacerbations of ankylosing spondylitis, is probably also effective in chronic r",
+            "journal": "APMIS : acta pathologica, microbiologica, et immunologica Scandinavica",
+            "year": "1993",
+            "authors": [
+              "Leirisalo-Repo M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Arthritis, Reactive",
+              "Chlamydia Infections",
+              "Ciprofloxacin",
+              "Humans",
+              "Sulfasalazine",
+              "Tetracycline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8105815/"
+          },
+          {
+            "pmid": "1419506",
+            "title": "Juvenile rheumatoid arthritis, juvenile chronic arthritis, and juvenile spondyloarthropathies.",
+            "abstract": "Immunogenetics are supporting the marked heterogeneity of chronic arthritis in children. Thus DRw13-DRw18 and DQw6-DQw18 were associated with persistent pauciarticular disease in children with an early onset of disease. Several studies have shown DPw2 as an additional susceptibility factor in this subgroup. Standardization of diagnostic criteria for juvenile onset spondyloarthropathy and psoriatic arthritis is necessary; various studies are in progress, and although HLA-B27 provides the common marker, this may only apply to a small group of juvenile psoriatics who have spondyloarthropathy. In the management of juvenile rheumatoid arthritis, methotrexate in moderate doses has been shown to be superior to lower doses of methotrexate and placebo in controlling polyarthritis. Methotrexate may be of particular value in treating the polyarthritis that follows a pauciarticular onset. The possible value of sulfasalazine in a B27 group with persistent polyarthritis has been suggested. Highlight",
+            "journal": "Current opinion in rheumatology",
+            "year": "1992",
+            "authors": [
+              "Ansell B M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Antibodies, Antinuclear",
+              "Arthritis, Juvenile",
+              "Child",
+              "Humans",
+              "Immunogenetics",
+              "Methotrexate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1419506/"
+          },
+          {
+            "pmid": "12105678",
+            "title": "[Reactive arthritis: advances in diagnosis and treatment].",
+            "abstract": "Reactive Arthritis (ReA) is an aseptic synovitis developing after a primary infection distant from the joint, mainly localized in the gastrointestinal (Enteroarthritis) or genitourinary tract (Uroarthritis). Because of either the asymmetric joint involvement, the possibility of involvement of the spine and enthesis, and the HLA-B27 association ReA is considered one of the spondylarthropathies. Recently, bacterial components or viable bacteria were found in joints during ReA. For this reason, the limits between ReA itself and infectious arthritis are now less definite. Generally accepted diagnostic and classification criteria are still lacking but the improvement in techniques for detection of bacteria increase the possibility to identify the triggering agents. Several studies have examined the role of antimicrobial drugs in ameliorating the natural course of ReA, with some positive results for Uroarthritis only. However, more conventional treatments based on NSAIDs, sulfasalazine and s",
+            "journal": "Reumatismo",
+            "year": "2002",
+            "authors": [
+              "Palazzi C",
+              "Olivieri I",
+              "Salvarani C",
+              "D'Amico E",
+              "Alleva G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis, Reactive",
+              "Bacteria",
+              "Bacterial Infections",
+              "Bacteriological Techniques",
+              "Diagnosis, Differential",
+              "Enteritis",
+              "Female",
+              "Female Urogenital Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12105678/"
+          },
+          {
+            "pmid": "9293060",
+            "title": "Reactive arthritis: is it a useful concept?",
+            "abstract": "Reactive arthritis (ReA) is one of the most common arthritides affecting young adults. In most cases it follows urogenital or enteric bacterial infection, but its pathogenesis is not fully understood. It is generally considered a sterile arthritis which appears to involve immune response to bacterial organisms and genetic host susceptibility associated with the presence of HLA-B27 antigen. New findings suggest that in some ReA cases, viable bacteria are present inside the joints, and these organisms may cause the disease and trigger the inflammatory response. ReA manifests clinically as a rheumatoid factor negative oligoarthritis associated with enthesopathy and certain mucosal and skin lesions. Laboratory findings in ReA are non-specific. Although concepts of its pathogenesis are still evolving, so-called ReA remains an important condition to be distinguished from rheumatoid arthritis. Prognosis is generally better. Treatments with known effects in some cases include non-steroidal ant",
+            "journal": "The British journal of clinical practice",
+            "year": "1997",
+            "authors": [
+              "Beutler A M",
+              "Schumacher H R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis, Reactive",
+              "Chlamydia Infections",
+              "Enterobacteriaceae Infections",
+              "Humans",
+              "Prognosis",
+              "Prohibitins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9293060/"
+          },
+          {
+            "pmid": "19151978",
+            "title": "M694V mutation may have a role in susceptibility to ankylosing spondylitis.",
+            "abstract": "",
+            "journal": "Rheumatology international",
+            "year": "2009",
+            "authors": [
+              "Akar Servet",
+              "Birlik Merih",
+              "Sari Ismail",
+              "Onen Fatos",
+              "Akkoc Nurullah"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Colchicine",
+              "Diclofenac",
+              "Drug Combinations",
+              "Female",
+              "Follow-Up Studies",
+              "Genetic Predisposition to Disease",
+              "Glucosamine",
+              "Gout Suppressants"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19151978/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9949374198913574,
+        "txgnn_rank": 6537,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9942640662193298,
+        "txgnn_rank": 7140,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00795",
+    "name": "Sulfasalazine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sulfasalazine"
+      },
+      "queried_at": "2026-03-09T11:27:20.611660",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sulfasalazine"
+      },
+      "queried_at": "2026-03-09T11:27:29.613807",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T11:27:31.534765",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T11:27:35.149444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T11:27:36.300121",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T11:27:36.884342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T11:27:40.633309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T11:27:41.427960",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-09T11:27:43.233114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-09T11:27:48.130792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-09T11:27:48.821800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "queried_at": "2026-03-09T11:27:49.400149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "queried_at": "2026-03-09T11:27:54.269001",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "queried_at": "2026-03-09T11:27:55.526302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-09T11:27:56.513156",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-09T11:28:00.391809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-09T11:28:02.801140",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T11:28:03.319142",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T11:28:07.170493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T11:28:07.895223",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T11:28:08.549018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T11:28:13.138011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-09T11:28:13.911157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T11:28:14.582661",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T11:28:17.988734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "spondyloarthropathy, susceptibility to"
+      },
+      "queried_at": "2026-03-09T11:28:21.454831",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T11:28:22.185366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T11:28:25.340697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-09T11:28:26.267503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T11:28:26.910446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T11:28:29.626253",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sulfasalazine",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-09T11:28:30.585793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:28:30.587095"
+  }
+}

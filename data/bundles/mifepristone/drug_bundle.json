@@ -1,0 +1,591 @@
+{
+  "drug": {
+    "inn": "Mifepristone",
+    "drugbank_id": "DB00834",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "punctate epithelial keratoconjunctivitis",
+        "txgnn_score": 0.97599858045578,
+        "txgnn_rank": 18880,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea",
+        "txgnn_score": 0.9716815948486328,
+        "txgnn_rank": 20629,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "18704103",
+            "title": "Glucocorticoids enhance Toll-like receptor 2 expression in human keratinocytes stimulated with Propionibacterium acnes or proinflammatory cytokines.",
+            "abstract": "Toll-like receptors (TLRs) on keratinocytes are important cell surface receptors involved in the innate and acquired immune response to invading microorganisms. In acne vulgaris, TLR2 activation by Propionibacterium acnes (P. acnes) may induce skin inflammation via induction of various proinflammatory molecules that stimulate the invasion of inflammatory cells. Although corticosteroids themselves exert immunosuppressive or anti-inflammatory effects, it is well known clinically that systemic or topical glucocorticoid treatment provokes an acneiform reaction. Nevertheless, the effect of steroids on TLR2 expression in human keratinocytes remains unknown. Here, we found that the addition of glucocorticoids, such as dexamethasone and cortisol, to cultured human keratinocytes increased their TLR2 gene expression. Moreover, these glucocorticoids markedly enhanced TLR2 gene expression, which was further stimulated by P. acnes, tumor necrosis factor-alpha, and IL-1alpha. Gene expression of mito",
+            "journal": "The Journal of investigative dermatology",
+            "year": "2009",
+            "authors": [
+              "Shibata Michio",
+              "Katsuyama Masako",
+              "Onodera Tomoko",
+              "Ehama Ritsuko",
+              "Hosoi Junichi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cells, Cultured",
+              "Dermatitis",
+              "Dexamethasone",
+              "Gene Expression",
+              "Glucocorticoids",
+              "Gram-Positive Bacterial Infections",
+              "Hormone Antagonists",
+              "Humans",
+              "Hydrocortisone",
+              "Interleukin-1alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18704103/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "otitis externa",
+        "txgnn_score": 0.966543972492218,
+        "txgnn_rank": 22380,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "post-bacterial disorder",
+        "txgnn_score": 0.9664799571037292,
+        "txgnn_rank": 22407,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04751500",
+            "title": "The HYsteroscopic Miscarriage MaNagement (HYMMN) Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-01-31",
+            "completion_date": "2022-11-02",
+            "country": "United Kingdom",
+            "enrollment": 149,
+            "brief_summary": "Pregnancy tissue can be found remaining in the womb in up to 20% of women following a miscarriage. These \"retained products of conception\" (RPOC), which are diagnosed by transvaginal ultrasound, can cause prolonged bleeding, pain, infection, impaired fertility and therefore further psychological distress. Ineffective medical and surgical interventions place considerable burden on affected women and utilise scarce health care resources. Additionally, surgery is performed 'blindly' using a suction",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women above 18 years\n* Women choosing either expectant or medical management of a first-trimester miscarriage ≤14 weeks gestation\n* Women wanting to conceive as soon as possible after their miscarriage\n* Consent to trial processes: (1) undergo follow-up with transvaginal ultra",
+            "endpoints": [
+              "Number of eligible patients",
+              "Proportion of patients enrolled into the trial",
+              "Proportion of patients attending scan"
+            ],
+            "sponsor": "Birmingham Women's and Children's NHS Foundation Trust",
+            "url": "https://clinicaltrials.gov/study/NCT04751500"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postinfectious vasculitis",
+        "txgnn_score": 0.9660698771476746,
+        "txgnn_rank": 22524,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infective urethral stricture",
+        "txgnn_score": 0.9656456112861632,
+        "txgnn_rank": 22651,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "post-infectious syndrome",
+        "txgnn_score": 0.9653881192207336,
+        "txgnn_rank": 22729,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00352911",
+            "title": "A Randomized, Placebo-controlled, Dose Escalating, Phase II Trial of the Anti -HIV-Activity and Safety of VGX-410 (Mifepristone) in HIV-1 Infected Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2007-11",
+            "country": "United States",
+            "enrollment": 19,
+            "brief_summary": "The objective of the study is to determine whether mifepristone (VGX-410) has anti-HIV-1 activity at doses of either 300 mg or 600 mg per day after oral administration for 14 days at each dose level.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* HIV-1 infection\n* CD4 cell count \\> 200\n* Plasma HIV-1 RNA \\> 2000 copies/mL and have not received antiretroviral therapy within the 16 weeks prior to entry\n* Absolute neutrophil count \\> 750/mm3\n* Hemoglobin \\> 10 g/dL\n* Platelet count \\> 100,000 mm3\n* Creatinine \\< 2 X upper",
+            "endpoints": [
+              "Mean Log Change in Viral Load From Baseline (Day 1) to Day 56"
+            ],
+            "sponsor": "VGX Pharmaceuticals, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00352911"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05097326",
+            "title": "Mifepristone as an Adjunct to Transcervical Balloon for Labor Induction (MiLI): A Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2022-06-27",
+            "completion_date": "2023-04-29",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this trial is to explore mifepristone as an option for induction of labor at term by evaluating the efficacy of mifepristone use for cervical preparation. Since the Labor Induction versus Expectant Management in Low-Risk Nulliparous Women (ARRIVE) trial supporting that elective induction after 39 weeks decreases cesarean sections and morbidity, rates of elective term inductions are increasing.\n\nAt Lucile Packard Children's Hospital at Stanford University specifically, approximatel",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Pregnant patients between ages 18 to 45 years\n2. Singleton, live gestation\n3. Nulliparous\n4. Gestational age between 37 weeks 0 days - 42 weeks 0 days\n5. Fetus in cephalic presentation\n6. Patients admitted for labor induction\n7. Patients who are not in labor with intact membr",
+            "endpoints": [
+              "Number of Uterine Contractions",
+              "Number of Participants With Uterine Tachysystole",
+              "Number of Minutes in Hypertonus"
+            ],
+            "sponsor": "Stanford University",
+            "url": "https://clinicaltrials.gov/study/NCT05097326"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Chagas cardiomyopathy",
+        "txgnn_score": 0.9645212292671204,
+        "txgnn_rank": 22986,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "infection-related hemolytic uremic syndrome",
+        "txgnn_score": 0.964200496673584,
+        "txgnn_rank": 23099,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parasitic eyelid infestation",
+        "txgnn_score": 0.9282442331314088,
+        "txgnn_rank": 30961,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00834",
+    "name": "Mifepristone",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mifepristone"
+      },
+      "queried_at": "2026-03-10T08:11:45.360597",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mifepristone"
+      },
+      "queried_at": "2026-03-10T08:11:48.862955",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T08:11:49.417540",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T08:11:52.455487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "queried_at": "2026-03-10T08:11:53.999527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "rosacea"
+      },
+      "queried_at": "2026-03-10T08:11:54.653879",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "rosacea"
+      },
+      "queried_at": "2026-03-10T08:11:58.165467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "rosacea"
+      },
+      "queried_at": "2026-03-10T08:12:00.010366",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "otitis externa"
+      },
+      "queried_at": "2026-03-10T08:12:01.610372",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "otitis externa"
+      },
+      "queried_at": "2026-03-10T08:12:04.472024",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "otitis externa"
+      },
+      "queried_at": "2026-03-10T08:12:05.230953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-10T08:12:06.007632",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-10T08:12:10.163300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "post-bacterial disorder"
+      },
+      "queried_at": "2026-03-10T08:12:10.884792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-10T08:12:12.507775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-10T08:12:16.758440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "postinfectious vasculitis"
+      },
+      "queried_at": "2026-03-10T08:12:17.536969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-10T08:12:18.225357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-10T08:12:29.960943",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "infective urethral stricture"
+      },
+      "queried_at": "2026-03-10T08:12:30.708004",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "post-infectious syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:31.370415",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "post-infectious syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:34.883185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "post-infectious syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:35.623827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T08:12:36.319106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T08:12:40.580592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "queried_at": "2026-03-10T08:12:41.317337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:42.215485",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:45.872258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "queried_at": "2026-03-10T08:12:47.137779",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "parasitic eyelid infestation"
+      },
+      "queried_at": "2026-03-10T08:12:48.272559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "parasitic eyelid infestation"
+      },
+      "queried_at": "2026-03-10T08:12:52.887026",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mifepristone",
+        "disease": "parasitic eyelid infestation"
+      },
+      "queried_at": "2026-03-10T08:12:53.893941",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:12:53.912564"
+  }
+}

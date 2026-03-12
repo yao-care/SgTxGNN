@@ -1,0 +1,668 @@
+{
+  "drug": {
+    "inn": "Ruxolitinib",
+    "drugbank_id": "DB08877",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "uterine corpus perivascular epithelioid cell tumor",
+        "txgnn_score": 0.997275412082672,
+        "txgnn_rank": 4272,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign PEComa",
+        "txgnn_score": 0.997253119945526,
+        "txgnn_rank": 4297,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphangiomyoma",
+        "txgnn_score": 0.9972315430641174,
+        "txgnn_rank": 4326,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphangioleiomyomatosis",
+        "txgnn_score": 0.9963698387145996,
+        "txgnn_rank": 5244,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9952147006988524,
+        "txgnn_rank": 6314,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35186752",
+            "title": "FUS-DDIT3 Fusion Oncoprotein Expression Affects JAK-STAT Signaling in Myxoid Liposarcoma.",
+            "abstract": "Myxoid liposarcoma is one of the most common sarcoma entities characterized by FET fusion oncogenes. Despite a generally favorable prognosis of myxoid liposarcoma, chemotherapy resistance remains a clinical problem. This cancer stem cell property is associated with JAK-STAT signaling, but the link to the myxoid-liposarcoma-specific FET fusion oncogene FUS-DDIT3 is not known. Here, we show that ectopic expression of FUS-DDIT3 resulted in elevated levels of STAT3 and phosphorylated STAT3. RNA sequencing identified 126 genes that were regulated by both FUS-DDIT3 expression and JAK1/2 inhibition using ruxolitinib. Sixty-six of these genes were connected in a protein interaction network. Fifty-three and 29 of these genes were confirmed as FUS-DDIT3 and STAT3 targets, respectively, using public chromatin immunoprecipitation sequencing data sets. Enriched gene sets among the 126 regulated genes included processes related to cytokine signaling, adipocytokine signaling, and chromatin remodeling",
+            "journal": "Frontiers in oncology",
+            "year": "2022",
+            "authors": [
+              "Dolatabadi Soheila",
+              "Jonasson Emma",
+              "Andersson Lisa",
+              "Luna Santamaría Manuel",
+              "Lindén Malin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35186752/"
+          },
+          {
+            "pmid": "30650179",
+            "title": "JAK-STAT signalling controls cancer stem cell properties including chemotherapy resistance in myxoid liposarcoma.",
+            "abstract": "Myxoid liposarcoma (MLS) shows extensive intratumoural heterogeneity with distinct subpopulations of tumour cells. Despite improved survival of MLS patients, existing therapies have shortcomings as they fail to target all tumour cells. The nature of chemotherapy-resistant cells in MLS remains unknown. Here, we show that MLS cell lines contained subpopulations of cells that can form spheres, efflux Hoechst dye and resist doxorubicin, all properties attributed to cancer stem cells (CSCs). By single-cell gene expression, western blot, phospho-kinase array, immunoprecipitation, immunohistochemistry, flow cytometry and microarray analysis we showed that a subset of MLS cells expressed JAK-STAT genes with active signalling. JAK1/2 inhibition via ruxolitinib decreased, while stimulation with LIF increased, phosphorylation of STAT3 and the number of cells with CSC properties indicating that JAK-STAT signalling controlled the number of cells with CSC features. We also show that phosphorylated S",
+            "journal": "International journal of cancer",
+            "year": "2019",
+            "authors": [
+              "Dolatabadi Soheila",
+              "Jonasson Emma",
+              "Lindén Malin",
+              "Fereydouni Bentolhoda",
+              "Bäcksten Karin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Doxorubicin",
+              "Drug Resistance, Neoplasm",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "Janus Kinases",
+              "Liposarcoma, Myxoid",
+              "Neoplastic Stem Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30650179/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial rhabdoid tumor",
+        "txgnn_score": 0.9948535561561584,
+        "txgnn_rank": 6608,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lung PEComa",
+        "txgnn_score": 0.9943523406982422,
+        "txgnn_rank": 7052,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.993911862373352,
+        "txgnn_rank": 7443,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemophagocytic syndrome associated with an infection",
+        "txgnn_score": 0.9931555390357972,
+        "txgnn_rank": 8116,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04424056",
+            "title": "An Open Randomized Therapeutic Trial Using ANAKINRA, TOCILIZUMAB Alone or in Association With RUXOLITINIB in Severe Stage 2b and 3 of COVID19-associated Disease",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2020-09-01",
+            "completion_date": "2022-11-01",
+            "country": "France",
+            "enrollment": 216,
+            "brief_summary": "COVID19-associated disease may have different clinical aspects classified in 3 stages. Some patients initially presenting with a non-hypoxemic viral pneumonia (stage 2a) may evolve toward a more severe stage 2b or 3 (acute respiratory distress syndrome, ARDS) around the 7th or 10th day of evolution, with a severe biological inflammatory syndrome (CRP\\>200 mg/l), and some times more severe complications such as acute renal insufficiency, consumptive coagulopathy or shock, requiring increasing oxy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients older than 18 year up to 75 year-old maximum\n* Eligible for resuscitation care in UCI\n* with proven infection with COVID-19, using at least one positive pharyngeal polymerase chain reaction (PCR) test\n* COVID19 infection pneumonia at\n\n  * Stage 2b: Hypoxemic pneumonia",
+            "endpoints": [
+              "Ventilation free days at D28"
+            ],
+            "sponsor": "Assistance Publique Hopitaux De Marseille",
+            "url": "https://clinicaltrials.gov/study/NCT04424056"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07424222",
+            "title": "Ruxolitinib for Immune Effector Cell Associated Hemophagocytic Lymphohistiocytosis-like Syndrome (RISE)",
+            "phase": "PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-05-01",
+            "completion_date": "2028-12-01",
+            "country": "N/A",
+            "enrollment": 16,
+            "brief_summary": "This is a pilot study to gather information about safety and efficacy of using ruxolitinib (RUX) to treat Immune Effector Cell Associated Hemophagocytic Lymphohistiocytosis-like Syndrome (IEC-HS) occurring after CAR-T therapy. In addition, correlative studies will be done to 1) estimate the optimal duration of RUX therapy, 2) to identify immunological biomarkers associated with response (3) To evaluate the dynamics of CAR T expansion following RUX treatment.\n\nOral RUX will be administered twice ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients of age 18 or older\n* Diagnosis of for Immune Effector Cell Associated Hemophagocytic Lymphohistiocytosis-like Syndrome (IEC-HS) per ASTCT consensus criteria\n* Patients must have an elevated ferritin (\\>2 × ULN) at time of infusion and/or have a ferritin count that is ",
+            "endpoints": [
+              "Number of Participants with Clinical Response",
+              "Number of Adverse events"
+            ],
+            "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+            "url": "https://clinicaltrials.gov/study/NCT07424222"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+        "txgnn_score": 0.9931555390357972,
+        "txgnn_rank": 8117,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34605776",
+            "title": "Consensus-Based Guidelines for the Recognition, Diagnosis, and Management of Hemophagocytic Lymphohistiocytosis in Critically Ill Children and Adults.",
+            "abstract": "Hemophagocytic lymphohistiocytosis is a hyperinflammatory syndrome that often requires critical care support and remains difficult to diagnose. These guidelines are meant to aid in the early recognition, diagnosis, supportive care, and treatment of patients with hemophagocytic lymphohistiocytosis in ICUs.",
+            "journal": "Critical care medicine",
+            "year": "2022",
+            "authors": [
+              "Hines Melissa R",
+              "von Bahr Greenwood Tatiana",
+              "Beutel Gernot",
+              "Beutel Karin",
+              "Hays J Allyson"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Consensus",
+              "Critical Illness",
+              "Humans",
+              "Lymphohistiocytosis, Hemophagocytic",
+              "Macrophage Activation Syndrome",
+              "Neoplasm Recurrence, Local",
+              "Steroids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34605776/"
+          },
+          {
+            "pmid": "37702780",
+            "title": "[Treatment of hemophagocytic lymphohistiocytosis in patients in the intensive care unit].",
+            "abstract": "Hemophagocytic lymphohistiocytosis (HLH) is a hyperinflammatory syndrome characterized by hyperferritinemia. A differentiation is made between hereditary and acquired forms. In contrast to children, almost all cases in adult patients consist of acquired secondary HLH. Infections, malignancies and autoimmune diseases are frequent triggers of secondary HLH. More recently, cases of HLH have also been described in association with immunotherapy, e.g., when using chimeric antigen receptor (CAR) T‑cell treatment. In critically ill patients in the intensive care unit (ICU), sepsis represents the major differential diagnosis of HLH due to the frequently similar clinical presentation. Sometimes both sepsis and HLH are present at the same time. An early diagnosis and timely initiation of immunosuppressive treatment are essential for the further course and prognosis of HLH. Therefore, HLH should be considered as a possible diagnosis in critically ill patients with persistent fever and additional ",
+            "journal": "Innere Medizin (Heidelberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Eichenauer Dennis A",
+              "La Rosée Paul"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Humans",
+              "Lymphohistiocytosis, Hemophagocytic",
+              "Critical Illness",
+              "Hyperferritinemia",
+              "Immunotherapy",
+              "Intensive Care Units"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37702780/"
+          },
+          {
+            "pmid": "40134914",
+            "title": "Severe pneumonia caused by Chlamydia abortus complicated by hemophagocytic syndrome: a case report.",
+            "abstract": "Pneumonia caused by Chlamydia abortus (C. abortus) is uncommon, particularly when complicated by severe acute respiratory distress syndrome (ARDS) and multiple organ dysfunction syndrome (MODS). Hemophagocytic lymphohistiocytosis (HLH) is a rare and potentially fatal disease characterized by the uncontrolled activation and non-malignant expansion of macrophages and T lymphocytes. This report describes a case of severe pneumonia complicated by hemophagocytic lymphohistiocytosis, caused by Chlamydia abortus.",
+            "journal": "Frontiers in medicine",
+            "year": "2025",
+            "authors": [
+              "Xu Jisong",
+              "Zeng Haiwen",
+              "Li Huangen",
+              "Lin Xiaoyun",
+              "Lin Tianlai"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40134914/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08877",
+    "name": "Ruxolitinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ruxolitinib"
+      },
+      "queried_at": "2026-03-10T00:14:35.489257",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ruxolitinib"
+      },
+      "queried_at": "2026-03-10T00:15:20.702496",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "uterine corpus perivascular epithelioid cell tumor"
+      },
+      "queried_at": "2026-03-10T00:15:22.228951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "uterine corpus perivascular epithelioid cell tumor"
+      },
+      "queried_at": "2026-03-10T00:15:29.490973",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "uterine corpus perivascular epithelioid cell tumor"
+      },
+      "queried_at": "2026-03-10T00:15:31.593234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "benign PEComa"
+      },
+      "queried_at": "2026-03-10T00:15:33.622056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "benign PEComa"
+      },
+      "queried_at": "2026-03-10T00:15:42.163315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "benign PEComa"
+      },
+      "queried_at": "2026-03-10T00:15:43.825637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-10T00:15:46.060250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-10T00:15:53.822425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-10T00:15:56.558106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lymphangioleiomyomatosis"
+      },
+      "queried_at": "2026-03-10T00:15:58.526904",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lymphangioleiomyomatosis"
+      },
+      "queried_at": "2026-03-10T00:16:06.508140",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lymphangioleiomyomatosis"
+      },
+      "queried_at": "2026-03-10T00:16:09.203451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T00:16:09.920966",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T00:16:15.251516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-10T00:16:22.172607",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "queried_at": "2026-03-10T00:16:22.753454",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "queried_at": "2026-03-10T00:16:34.321432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "queried_at": "2026-03-10T00:16:35.892506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lung PEComa"
+      },
+      "queried_at": "2026-03-10T00:16:39.849080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lung PEComa"
+      },
+      "queried_at": "2026-03-10T00:16:50.627177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "lung PEComa"
+      },
+      "queried_at": "2026-03-10T00:16:52.822816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T00:16:53.996856",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T00:17:03.117072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-10T00:17:04.568576",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "queried_at": "2026-03-10T00:17:07.877027",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "queried_at": "2026-03-10T00:17:16.611563",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "queried_at": "2026-03-10T00:17:47.532165",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "queried_at": "2026-03-10T00:17:52.417107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "queried_at": "2026-03-10T00:18:31.420930",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ruxolitinib",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "queried_at": "2026-03-10T00:18:49.353213",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:18:49.377227"
+  }
+}

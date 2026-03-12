@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Treosulfan",
+    "drugbank_id": "DB11678",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9900884032249452,
+        "txgnn_rank": 10473,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.9895519614219666,
+        "txgnn_rank": 10851,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.9895519614219666,
+        "txgnn_rank": 10850,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.989510715007782,
+        "txgnn_rank": 10882,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.989510715007782,
+        "txgnn_rank": 10883,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.989510715007782,
+        "txgnn_rank": 10884,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.989510715007782,
+        "txgnn_rank": 10885,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.989510715007782,
+        "txgnn_rank": 10886,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9893053770065308,
+        "txgnn_rank": 11038,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9891549944877625,
+        "txgnn_rank": 11146,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11678",
+    "name": "Treosulfan",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Treosulfan"
+      },
+      "queried_at": "2026-03-10T05:54:40.822945",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Treosulfan"
+      },
+      "queried_at": "2026-03-10T05:54:43.563703",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T05:54:44.257338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T05:54:47.560243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T05:54:48.226078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T05:54:48.758423",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T05:54:52.432073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T05:54:53.306752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T05:54:53.980852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T05:54:57.320459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T05:54:58.169370",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T05:54:58.757736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T05:55:02.363513",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T05:55:03.282630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T05:55:04.761009",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T05:55:07.790129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T05:55:08.710031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T05:55:09.428062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T05:55:12.520512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T05:55:13.179188",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T05:55:13.623483",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T05:55:16.530460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T05:55:17.163709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T05:55:17.607829",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T05:55:20.716497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T05:55:21.492593",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:55:22.018631",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:55:24.707927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T05:55:25.308219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T05:55:25.758203",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T05:55:28.942530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Treosulfan",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T05:55:29.658110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:55:29.659722"
+  }
+}

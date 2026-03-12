@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Fedratinib",
+    "drugbank_id": "DB12500",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "benign PEComa",
+        "txgnn_score": 0.9983647465705872,
+        "txgnn_rank": 2943,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphangiomyoma",
+        "txgnn_score": 0.9983355402946472,
+        "txgnn_rank": 2978,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine corpus perivascular epithelioid cell tumor",
+        "txgnn_score": 0.9983332753181458,
+        "txgnn_rank": 2982,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.997980535030365,
+        "txgnn_rank": 3434,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhabdoid tumor",
+        "txgnn_score": 0.99777752161026,
+        "txgnn_rank": 3686,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial rhabdoid tumor",
+        "txgnn_score": 0.997675120830536,
+        "txgnn_rank": 3818,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive familial Mediterranean fever",
+        "txgnn_score": 0.9974599480628968,
+        "txgnn_rank": 4077,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+        "txgnn_score": 0.9974260926246644,
+        "txgnn_rank": 4104,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemophagocytic syndrome associated with an infection",
+        "txgnn_score": 0.9974260926246644,
+        "txgnn_rank": 4105,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphangioleiomyomatosis",
+        "txgnn_score": 0.9974141120910645,
+        "txgnn_rank": 4121,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB12500",
+    "name": "Fedratinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fedratinib"
+      },
+      "queried_at": "2026-03-09T19:56:30.126863",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fedratinib"
+      },
+      "queried_at": "2026-03-09T19:56:35.821366",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "benign PEComa"
+      },
+      "queried_at": "2026-03-09T19:56:37.512867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "benign PEComa"
+      },
+      "queried_at": "2026-03-09T19:56:44.029215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "benign PEComa"
+      },
+      "queried_at": "2026-03-09T19:56:45.573043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-09T19:56:46.474931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-09T19:56:51.832380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "lymphangiomyoma"
+      },
+      "queried_at": "2026-03-09T19:56:53.054493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "uterine corpus perivascular epithelioid cell tumor"
+      },
+      "queried_at": "2026-03-09T19:56:54.346528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "uterine corpus perivascular epithelioid cell tumor"
+      },
+      "queried_at": "2026-03-09T19:56:58.461505",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "uterine corpus perivascular epithelioid cell tumor"
+      },
+      "queried_at": "2026-03-09T19:57:00.721542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T19:57:03.395256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T19:57:15.948744",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T19:57:17.550946",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "rhabdoid tumor"
+      },
+      "queried_at": "2026-03-09T19:57:18.773844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "rhabdoid tumor"
+      },
+      "queried_at": "2026-03-09T19:57:25.858808",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "rhabdoid tumor"
+      },
+      "queried_at": "2026-03-09T19:57:29.067782",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "queried_at": "2026-03-09T19:57:30.050630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "queried_at": "2026-03-09T19:57:35.875011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "queried_at": "2026-03-09T19:57:36.706402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "queried_at": "2026-03-09T19:57:38.500215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "queried_at": "2026-03-09T19:57:46.204772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "queried_at": "2026-03-09T19:57:50.166933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "queried_at": "2026-03-09T19:57:50.717258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "queried_at": "2026-03-09T19:57:54.754864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "queried_at": "2026-03-09T19:57:56.718416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "queried_at": "2026-03-09T19:57:57.348422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "queried_at": "2026-03-09T19:58:01.507711",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "queried_at": "2026-03-09T19:58:03.504580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "lymphangioleiomyomatosis"
+      },
+      "queried_at": "2026-03-09T19:58:05.016425",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "lymphangioleiomyomatosis"
+      },
+      "queried_at": "2026-03-09T19:58:16.957688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fedratinib",
+        "disease": "lymphangioleiomyomatosis"
+      },
+      "queried_at": "2026-03-09T19:58:18.064871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:58:18.076188"
+  }
+}

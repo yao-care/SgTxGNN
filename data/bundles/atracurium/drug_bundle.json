@@ -1,0 +1,593 @@
+{
+  "drug": {
+    "inn": "Atracurium",
+    "drugbank_id": "DB13295",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "myofascial pain syndrome",
+        "txgnn_score": 0.9409640431404114,
+        "txgnn_rank": 28635,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.938955307006836,
+        "txgnn_rank": 28994,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobinemia",
+        "txgnn_score": 0.9263308048248292,
+        "txgnn_rank": 31279,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "7653798",
+            "title": "[Increase of prilocaine-induced methemoglobinemia following anesthesia induction].",
+            "abstract": "Although the local anaesthetic prilocaine is less cardio- and neurotoxic than lidocaine, it bears the disadvantage of the formation of methaemoglobin by the metabolite o-toluidine. Prilocaine is often successfully used, especially for the blockade of the brachial plexus, but one problem of this technique is the failure rate of 3-10%, with the consequence that general anaesthesia after administration of prilocaine is frequently necessary. Methaemoglobin formation after prilocaine administration has been thoroughly investigated. Nothing is known, however, about the interactions of prilocaine and the induction of general anaesthesia relative to methaemoglobinaemia. CASE REPORT. Two patients (47 and 52 years old) each received 500 mg prilocaine for the axillary blockade of the brachial plexus. After 100 and 120 min respectively, it was necessary to induce general anaesthesia, for which 350 mg thiopental, 1 mg alfentanil and 45 mg atracurium were used. At 15 min after induction, methaemoglo",
+            "journal": "Der Anaesthesist",
+            "year": "1995",
+            "authors": [
+              "Rudlof B",
+              "Durstewitz-Knierim D",
+              "Ridderskamp I",
+              "Scharenberg C",
+              "Brandt L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Brachial Plexus",
+              "Carcinogens",
+              "Humans",
+              "Methemoglobinemia",
+              "Middle Aged",
+              "Nerve Block",
+              "Prilocaine",
+              "Toluidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7653798/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.9255980253219604,
+        "txgnn_rank": 31387,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25902325",
+            "title": "The incidence of perioperative hypersensitivity reactions: a single-center, prospective, cohort study.",
+            "abstract": "The incidence of perioperative hypersensitivity reactions, which can be life-threatening, ranges from 1 in 20,000 to 1 in 1361. These reactions are usually classified as IgE or non-IgE mediated. The aim of this study was to determine the incidence of allergic reactions during general anesthesia in our hospital, to establish the incidence of the allergic reactions for each drug used, to assess the frequency of IgE-mediated reactions in even mild reactions, and to compare the degree of agreement between anesthesiologist suspicion and allergy diagnosis.",
+            "journal": "Anesthesia and analgesia",
+            "year": "2015",
+            "authors": [
+              "Berroa Felicia",
+              "Lafuente Alberto",
+              "Javaloyes Gracia",
+              "Cabrera-Freitag Paula",
+              "de la Borbolla Juan M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anesthesia, General",
+              "Anesthesia, Local",
+              "Biomarkers",
+              "Child",
+              "Child, Preschool",
+              "Drug Hypersensitivity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25902325/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "conjunctivitis",
+        "txgnn_score": 0.9007916450500488,
+        "txgnn_rank": 34734,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic granulomatous myositis",
+        "txgnn_score": 0.8870527148246765,
+        "txgnn_rank": 36059,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis fibrosa",
+        "txgnn_score": 0.8870527148246765,
+        "txgnn_rank": 36060,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.8826548457145691,
+        "txgnn_rank": 36474,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobinemia, alpha type",
+        "txgnn_score": 0.8824365735054016,
+        "txgnn_rank": 36498,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibromyalgia",
+        "txgnn_score": 0.8800396919250488,
+        "txgnn_rank": 36730,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9095707",
+            "title": "Evaluation of succinylcholine-induced fasciculations and myalgias with or without atracurium pretreatment.",
+            "abstract": "Pretreatment regimens that decrease the incidence of fasciculations and postoperative myalgias have been the focus of many research studies. The subject of pretreatment remains controversial. An experimental double blind study was conducted of 50 patients, men and women, aged 18 to 65 years who were having elective minor orthopedic surgery. Group A participants (n = 24) received normal saline, and group B participants (n = 26) received atracurium 0.05 mg/kg, followed by succinylcholine 1.5 mg/kg. Data that were collected included age, ASA physical status, weight, height, anesthesia and postanesthesia recovery times, type of procedure, medications administered, and allergies. Phase I of the study consisted of evaluation for the presence of fasciculations. In phase II, the intubation conditions (e.g., character of the vocal cords, presence of coughing, and degree of ease with laryngoscopy) were evaluated. Phase III included evaluation of postoperative myalgias at 24 and 72 hours. Data we",
+            "journal": "AANA journal",
+            "year": "1996",
+            "authors": [
+              "Hochhalter C M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Atracurium",
+              "Double-Blind Method",
+              "Fasciculation",
+              "Female",
+              "Fibromyalgia",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9095707/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13295",
+    "name": "Atracurium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Atracurium"
+      },
+      "queried_at": "2026-03-10T09:43:01.003423",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Atracurium"
+      },
+      "queried_at": "2026-03-10T09:43:03.019780",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T09:43:03.701700",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T09:43:07.409061",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myofascial pain syndrome"
+      },
+      "queried_at": "2026-03-10T09:43:08.119353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T09:43:09.046195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T09:43:13.659733",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T09:43:14.582401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T09:43:15.578401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T09:43:20.166392",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-10T09:43:23.340483",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T09:43:24.145804",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T09:43:27.148990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T09:43:30.460824",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:43:31.047692",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:43:34.848489",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "conjunctivitis"
+      },
+      "queried_at": "2026-03-10T09:43:35.527248",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T09:43:36.046088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T09:43:39.570752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-10T09:43:40.299288",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T09:43:40.820331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T09:43:44.297470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-10T09:43:45.345562",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T09:43:45.853778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T09:43:48.612773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T09:43:49.967119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T09:43:50.475302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T09:43:54.807162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-10T09:43:55.596176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T09:43:56.246375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T09:44:00.066766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-10T09:44:02.252616",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:44:02.259285"
+  }
+}

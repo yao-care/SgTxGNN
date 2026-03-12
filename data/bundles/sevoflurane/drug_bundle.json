@@ -1,0 +1,935 @@
+{
+  "drug": {
+    "inn": "Sevoflurane",
+    "drugbank_id": "DB01236",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9978107810020448,
+        "txgnn_rank": 3650,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Tourette syndrome",
+        "txgnn_score": 0.995025098323822,
+        "txgnn_rank": 6468,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibromyalgia",
+        "txgnn_score": 0.9941633343696594,
+        "txgnn_rank": 7250,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26419112",
+            "title": "[Anesthetic Management for a Patient with Fibromyalgia].",
+            "abstract": "A 22-year-old female with fibromyalgia (FM) was scheduled for tonsillectomy under general anesthesia. Her medication included pregabalin 300 mg x day(-1) and dantrolene 50 mg x day(-1). Anesthesia was maintained with sevoflurane-remifentanil-fentanyl. Intravenous injection of fentanyl 20 μg x hr(-1) and droperidol 100 μg x hr(-1) was continued for 24 hours. On the first postoperative day, she reported that she had slept well and had no pain. There are some perioperative problems in a patient with FM. Therefore, anesthetic managements for a patient with FM is worth reporting.",
+            "journal": "Masui. The Japanese journal of anesthesiology",
+            "year": "2015",
+            "authors": [
+              "Kamitani Kazuo",
+              "Yoshida Hitoshi",
+              "Arai Riho",
+              "Oishi Hirofumi",
+              "Kataoka Hisashi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Female",
+              "Fibromyalgia",
+              "Humans",
+              "Postoperative Pain",
+              "Tonsillectomy",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26419112/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.9941148161888124,
+        "txgnn_rank": 7285,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34967805",
+            "title": "Local Anesthetic Injection Before Incision Decreases General Anesthesia Requirements in Pediatric Trigger Thumb Release: A Randomized Controlled Trial.",
+            "abstract": "Animal studies have shown evidence of neurotoxicity from inhalational anesthesia, yet clinical studies have been less conclusive. While ongoing studies investigate the clinical significance of anesthesia-associated neurodevelopmental changes in young children, reducing anesthetic exposure in pediatric orthopaedic surgery is prudent. The primary objective of this study is to determine if local anesthetic injection before surgical incision versus after surgical release decreased inhalational anesthetic exposure in children undergoing unilateral trigger thumb release. The secondary objectives were to determine if the timing of local anesthetic injection affected postoperative pain or length of stay.",
+            "journal": "Journal of pediatric orthopedics",
+            "year": "2022",
+            "authors": [
+              "Lin Elaina E",
+              "Fazal Faris Z",
+              "Pearsall Matthew F",
+              "Talwar Divya",
+              "Chang Hannah"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Anesthesia, Local",
+              "Anesthetics, Local",
+              "Child",
+              "Child, Preschool",
+              "Humans",
+              "Postoperative Pain",
+              "Surgical Wound",
+              "Trigger Finger Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34967805/"
+          },
+          {
+            "pmid": "38233786",
+            "title": "Effects of propofol versus sevoflurane on surgical field visibility during arthroscopic rotator cuff repair: a randomized trial.",
+            "abstract": "During arthroscopic rotator cuff repair (ARCR), clear surgical field visibility (SFV) is the basis of successful surgery, but the choice of anesthesia maintenance drugs may have different effects on SFV. In this study, we aimed to compare the effects of propofol- and sevoflurane-based general anesthesia on SFV in patients undergoing ARCR.",
+            "journal": "BMC anesthesiology",
+            "year": "2024",
+            "authors": [
+              "Yin Wenchao",
+              "Yin Chenzhu",
+              "Wang Wencan",
+              "Peng Rao",
+              "Su Li"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Propofol",
+              "Sevoflurane",
+              "Remifentanil",
+              "Rocuronium",
+              "Prospective Studies",
+              "Rotator Cuff",
+              "Retrospective Studies",
+              "Methyl Ethers",
+              "Piperidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38233786/"
+          },
+          {
+            "pmid": "23232381",
+            "title": "Propofol sedation for infants with idiopathic clubfoot undergoing percutaneous tendoachilles tenotomy.",
+            "abstract": "To determine whether percutaneous tenotomy of the Achilles tendon in infants with idiopathic clubfeet can be safely performed under propofol sedation.",
+            "journal": "Journal of pediatric orthopedics",
+            "year": "2013",
+            "authors": [
+              "Iravani Mohamad",
+              "Chalabi John",
+              "Kim Rachel",
+              "Ebramzadeh Edward",
+              "Zionts Lewis E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Achilles Tendon",
+              "Clubfoot",
+              "Deep Sedation",
+              "Female",
+              "Humans",
+              "Hypnotics and Sedatives",
+              "Infant",
+              "Male",
+              "Propofol",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23232381/"
+          },
+          {
+            "pmid": "14698365",
+            "title": "Preoperative droperidol improved postoperative pain relief in patients undergoing rotator-cuff repair during general anesthesia using intravenous morphine.",
+            "abstract": "To demonstrate the effect of preoperative and intraoperative, small-dose intravenous (IV) droperidol on postoperative pain relief in orthopedic patients given general anesthesia with morphine.",
+            "journal": "Journal of clinical anesthesia",
+            "year": "2003",
+            "authors": [
+              "Yamamoto Sumii",
+              "Yamaguchi Hiroshi",
+              "Sakaguchi Misa",
+              "Yamashita Soichiro",
+              "Satsumae Tsuyoshi"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Anesthesia",
+              "Anesthesia, General",
+              "Double-Blind Method",
+              "Droperidol",
+              "Female",
+              "Humans",
+              "Injections, Intravenous",
+              "Male",
+              "Middle Aged",
+              "Morphine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14698365/"
+          },
+          {
+            "pmid": "19921357",
+            "title": "Postoperative analgesic effect of preoperative intravenous flurbiprofen in arthroscopic rotator cuff repair.",
+            "abstract": "This study was carried out to evaluate the postoperative analgesic effects of preoperative intravenous flurbiprofen in patients undergoing arthroscopic rotator cuff repair under general anesthesia.",
+            "journal": "Journal of anesthesia",
+            "year": "2009",
+            "authors": [
+              "Takada Masafumi",
+              "Fukusaki Makoto",
+              "Terao Yoshiaki",
+              "Yamashita Kazunori",
+              "Takada Miwako"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Analgesics, Opioid",
+              "Anesthesia, General",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthroscopy",
+              "Buprenorphine",
+              "Female",
+              "Flurbiprofen",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19921357/"
+          },
+          {
+            "pmid": "13677277",
+            "title": "[A case of Marshall-Smith syndrome].",
+            "abstract": "Marshall-Smith syndrome (MSS) is a rare clinical disorder, characterized by accelerated skeletal maturation, facial anomalies, failure to thrive and death in early infancy due to respiratory complications. We experienced the difficult airway case with MSS. A 4-year-old boy underwent tenosynovectomy for the snapping finger. Although his upper airway was diagnosed as almost normal on the fiber-optic laryngoscope examination, he frequently showed pharyngeal collapse during sleep. Anesthesia was induced and maintained with N2O-O2-sevoflurane using oral-airway without muscle relaxants. But, when we inserted the laryngoscope in order to clarify the existence of the difficult intubation, we could only see a part of the epiglottis. We concluded that we must treat MSS as difficult airway and intubation, even if in the mild case of MSS.",
+            "journal": "Masui. The Japanese journal of anesthesiology",
+            "year": "2003",
+            "authors": [
+              "Watanabe Yoko",
+              "Tanaka Yoko",
+              "Umemura Naoji",
+              "Koitabashi Toshiya"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Anesthesia, General",
+              "Bone Diseases, Developmental",
+              "Child, Preschool",
+              "Face",
+              "Finger Joint",
+              "Growth Disorders",
+              "Humans",
+              "Intubation, Intratracheal",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13677277/"
+          },
+          {
+            "pmid": "11212406",
+            "title": "[Anesthesia considerations in West syndrome].",
+            "abstract": "",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2000",
+            "authors": [
+              "Delás Ramírez F",
+              "Navarro Egea M",
+              "Pardina Badia B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Achilles Tendon",
+              "Anesthesia, Inhalation",
+              "Anesthetics, Inhalation",
+              "Anticonvulsants",
+              "Child",
+              "Drug Interactions",
+              "Female",
+              "Humans",
+              "Hypnotics and Sedatives",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11212406/"
+          },
+          {
+            "pmid": "21299684",
+            "title": "Effect of caudal block on sevoflurane requirement for lower limb surgery in children with cerebral palsy.",
+            "abstract": "Caudal block is a widely used technique for providing perioperative pain management in children. In this randomized double-blinded study, we evaluated the effects of preoperative caudal block on sevoflurane requirements in children with cerebral palsy (CP) undergoing lower limb surgery while bispectral index (BIS) values were maintained between 45 and 55.",
+            "journal": "Paediatric anaesthesia",
+            "year": "2011",
+            "authors": [
+              "Kim Soo Hwan",
+              "Chun Duk-Hee",
+              "Chang Chul Ho",
+              "Kim Tae Wan",
+              "Kim Young Mi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Achilles Tendon",
+              "Anesthesia, Caudal",
+              "Anesthesia, General",
+              "Anesthesia, Inhalation",
+              "Anesthetics, Inhalation",
+              "Blood Pressure",
+              "Cerebral Palsy",
+              "Child",
+              "Consciousness Monitors",
+              "Double-Blind Method"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21299684/"
+          },
+          {
+            "pmid": "23158561",
+            "title": "[Effects of continuous interscalene brachial plexus block plus general anesthesia versus general anesthesia alone on perioperative management of arthroscopic rotator cuff repair surgery].",
+            "abstract": "To compare continuous interscalene brachial plexus block (CISB) in the patients undergoing rotator cuff repair surgery.",
+            "journal": "Zhonghua yi xue za zhi",
+            "year": "2012",
+            "authors": [
+              "Wei Yue",
+              "Guo Xiang-yang",
+              "Yang Lu",
+              "Rong Yu-lan",
+              "Xu Chuan-ya"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthesia, General",
+              "Arthroscopy",
+              "Brachial Plexus",
+              "Humans",
+              "Middle Aged",
+              "Nerve Block",
+              "Rotator Cuff"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23158561/"
+          },
+          {
+            "pmid": "18333396",
+            "title": "[Systemic mastocytosis and anesthesia: a case report].",
+            "abstract": "",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2008",
+            "authors": [
+              "Egido V",
+              "Fuentes A",
+              "Buisán L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anesthesia, General",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Autonomic Nerve Block",
+              "Brachial Plexus",
+              "Breast Neoplasms",
+              "Contraindications",
+              "Etomidate",
+              "Female",
+              "Histamine H1 Antagonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18333396/"
+          },
+          {
+            "pmid": "20962654",
+            "title": "Sevoflurane in anaesthetic management of a patient with methylmalonic acidaemia.",
+            "abstract": "",
+            "journal": "European journal of anaesthesiology",
+            "year": "2011",
+            "authors": [
+              "Ozturk Levent",
+              "Kesimci Elvin",
+              "Albayrak Tuna",
+              "Kanbak Orhan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Achilles Tendon",
+              "Amino Acid Metabolism, Inborn Errors",
+              "Anesthetics, Inhalation",
+              "Child, Preschool",
+              "Clubfoot",
+              "Female",
+              "Humans",
+              "Methyl Ethers",
+              "Sevoflurane"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20962654/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myositis fibrosa",
+        "txgnn_score": 0.9941085577011108,
+        "txgnn_rank": 7290,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic granulomatous myositis",
+        "txgnn_score": 0.9941085577011108,
+        "txgnn_rank": 7291,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9940311312675476,
+        "txgnn_rank": 7356,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trichotillomania",
+        "txgnn_score": 0.9932823181152344,
+        "txgnn_rank": 8014,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.992314875125885,
+        "txgnn_rank": 8791,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03789370",
+            "title": "Maintenance of Anaesthesia With Sevoflurane Versus Propofol and the Occurrence of Postoperative Headache.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2014-11-07",
+            "completion_date": "2020-10-30",
+            "country": "Greece",
+            "enrollment": 130,
+            "brief_summary": "Postoperative headache is a major issue after general anaesthesia and surgery. The aim of this study is to investigate the possible difference in the occurrence of postoperative headache when general anaesthesia is maintained with propofol, which is supposed to have protective effects on migraine patients, versus sevoflurane.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ASA I-III\n* scheduled operation under general anaesthesia\n* operations \\<4 hours\n* minorgynaecological operatios (leiomyomectomy)\n* hernia repair\n* arthroscopic procedurs\n* minor orthopaedic operations without the use of tourniquet or cement\n* saphenectomy\n* minor urologic ope",
+            "endpoints": [
+              "incidence of postoperative headache (yes or no)"
+            ],
+            "sponsor": "Attikon Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03789370"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31852450",
+            "title": "Ten-year experience with standardized non-operating room anesthesia with Sevoflurane for MRI in children affected by neuropsychiatric disorders.",
+            "abstract": "Children require anesthesia for MRI to maintain immobility and reduce discomfort; clear indications about the best anesthesiologic management are lacking and each center developed its own protocol. Moreover, children with neuropsychiatric disorders more likely require sedation and are described in literature as more prone to general and respiratory complications. Aim of this study was to analyze the applicability of a sevoflurane-based approach, to describe general and respiratory complications and to identify risk factors in a pediatric neuropsychiatric population.",
+            "journal": "BMC anesthesiology",
+            "year": "2019",
+            "authors": [
+              "Mongodi Silvia",
+              "Ottonello Gaia",
+              "Viggiano Raffaelealdo",
+              "Borrelli Paola",
+              "Orcesi Simona"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthetics, Inhalation",
+              "Child",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Female",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Mental Disorders",
+              "Nervous System Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31852450/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inclusion body myositis",
+        "txgnn_score": 0.9909062385559082,
+        "txgnn_rank": 9876,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27247916",
+            "title": "Anesthetic Considerations of Sporadic Inclusion Body Myositis in an Elderly Man With Orthopedic Trauma.",
+            "abstract": "Sporadic inclusion body myositis (IBM) is an inflammatory myopathy characterized by progressive asymmetric extremity weakness, oropharyngeal dysphagia, and the potential for exaggerated sensitivity to neuromuscular blockers and respiratory compromise. The authors describe their management of a patient with IBM undergoing urgent orthopedic surgery.",
+            "journal": "Anesthesiology and pain medicine",
+            "year": "2016",
+            "authors": [
+              "Steck Dominik T",
+              "Choi Christine",
+              "Gollapudy Suneeta",
+              "Pagel Paul S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27247916/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01236",
+    "name": "Sevoflurane",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sevoflurane"
+      },
+      "queried_at": "2026-03-09T21:59:54.067687",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sevoflurane"
+      },
+      "queried_at": "2026-03-09T22:00:12.029777",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T22:00:13.473351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T22:00:19.571275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-09T22:00:21.595684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-09T22:00:22.381256",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-09T22:00:29.029473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "Tourette syndrome"
+      },
+      "queried_at": "2026-03-09T22:00:30.271133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-09T22:00:31.440085",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-09T22:00:36.341611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "fibromyalgia"
+      },
+      "queried_at": "2026-03-09T22:00:39.287265",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-09T22:00:40.553323",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-09T22:00:47.227654",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-09T22:00:55.177128",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-09T22:00:56.454855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-09T22:01:03.484405",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "myositis fibrosa"
+      },
+      "queried_at": "2026-03-09T22:01:04.707076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-09T22:01:05.788366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-09T22:01:11.719342",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "queried_at": "2026-03-09T22:01:12.802752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T22:01:14.335337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T22:01:22.089552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T22:01:24.105969",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-09T22:01:24.935791",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-09T22:01:31.706739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "trichotillomania"
+      },
+      "queried_at": "2026-03-09T22:01:33.707447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T22:01:34.821828",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T22:01:41.705225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-09T22:01:46.024911",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "inclusion body myositis"
+      },
+      "queried_at": "2026-03-09T22:01:46.898405",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "inclusion body myositis"
+      },
+      "queried_at": "2026-03-09T22:01:52.441789",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sevoflurane",
+        "disease": "inclusion body myositis"
+      },
+      "queried_at": "2026-03-09T22:01:58.910976",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:01:58.925606"
+  }
+}

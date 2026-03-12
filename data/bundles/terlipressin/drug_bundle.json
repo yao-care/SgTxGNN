@@ -1,0 +1,1177 @@
+{
+  "drug": {
+    "inn": "Terlipressin",
+    "drugbank_id": "DB02638",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9977627992630004,
+        "txgnn_rank": 3707,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.997707724571228,
+        "txgnn_rank": 3769,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary hypertension",
+        "txgnn_score": 0.9955920577049256,
+        "txgnn_rank": 5974,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03584087",
+            "title": "Efficacy of Terlipressin Therapy in Acute Variceal Haemorrhage After Endoscopic Variceal Ligation: A Randomised Controlled Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-05-07",
+            "completion_date": "2019-07-31",
+            "country": "India",
+            "enrollment": 74,
+            "brief_summary": "Upper gastrointestinal (UGI) bleed of variceal origin is a common medical emergency. Prompt endoscopic variceal ligation (EVL) is therapeutic as well as diagnostic. Terlipressin, a vasopressin analog (intravenous, 2 mg q 4 hourly), is widely used promptly in any suspicious case of variceal haemorrhage (VH) before endoscopic procedure, along with volume and blood resuscitative measures. As per guideline, after EVL Terlipressin therapy (1 mg IV q 4 hourly) is continued for 2-5 day to prevent re-bl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Irrespective of gender with age ≥ 18 years\n* All the patients with endoscopy proven acute variceal haemorrhage (VH)\n* Receiving Pre-EVL Terlipressin therapy\n* EVL done within 24 hours of presentation\n* Ready to give written informed consent\n\nExclusion Criteria:\n\n* Patients wit",
+            "endpoints": [
+              "Number of participants with Early-Rebleed",
+              "Number of participants with Rebleed",
+              "Early-Mortality"
+            ],
+            "sponsor": "Post Graduate Institute of Medical Education and Research, Chandigarh",
+            "url": "https://clinicaltrials.gov/study/NCT03584087"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06027970",
+            "title": "Efficacy of Continuous Terlipressin Therapy After Endoscopic Variceal Ligation in Acute Variceal Haemorrhage: A Randomised Control Clinical Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-09",
+            "completion_date": "2024-12",
+            "country": "India",
+            "enrollment": 165,
+            "brief_summary": "Upper gastrointestinal (UGI) bleed of variceal origin is a common medical emergency. Prompt endoscopic variceal ligation (EVL) is therapeutic as well as diagnostic. Terlipressin, a vasopressin analog (intravenous, 2 mg q 4 hourly), is widely used promptly in any suspicious cases of variceal haemorrhage (VH) before endoscopic intervention, along with volume and blood resuscitative measures.\n\nAs per guideline, after EVL Terlipressin therapy (1 mg IV q 4 hourly) is advised to continue for 2-5 day t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Irrespective of gender\n* age ≥ 18 years\n* all the patients with endoscopy proven acute VH with successful EVL done\n\nExclusion Criteria:\n\n* Patients not receiving pre-EVL Terlipressin therapy\n* not achieving haemostasis during EVL\n* EVL done beyond 48 hours of admission because",
+            "endpoints": [
+              "Re-bleed",
+              "Mortality"
+            ],
+            "sponsor": "Post Graduate Institute of Medical Education and Research, Chandigarh",
+            "url": "https://clinicaltrials.gov/study/NCT06027970"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06256432",
+            "title": "A Multi-Centre, Randomised, Open-Label, Phase II Study of Ambrisentan in Patients With Hepatorenal Syndrome",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-04-17",
+            "completion_date": "2026-02",
+            "country": "India",
+            "enrollment": 54,
+            "brief_summary": "Patients with advanced cirrhosis of the liver develop kidney problems occasionally. This condition is called Hepatorenal Syndrome, requires hospitalization and frequently results in death.\n\nThe goal of this clinical trial is to test whether the administration of low doses of ambrisentan can help patients with Hepatorenal Syndrome and to determine if it is safe. Ambrisentan is a drug that is approved for the treatment of high blood pressure in the lungs at higher doses.\n\nThis clinical trial will ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Written Informed consent prior to any study-related procedures.\n* Age ≥ 18 years and ≤ 70 years.\n* Male or non-pregnant, non-lactating female. Women of child-bearing potential must have a confirmed negative serum pregnancy test at the time of screening and must use a highly ef",
+            "endpoints": [
+              "Change in estimated GFR (eGFR) from baseline"
+            ],
+            "sponsor": "Noorik Biopharmaceuticals AG",
+            "url": "https://clinicaltrials.gov/study/NCT06256432"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05315557",
+            "title": "Efficacy and Safety of Vasopressin Versus Terlipressin as a Second Vasopressor in Critically Ill Cirrhotics With Septic Shock- the VITEL-C Trial.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-04-05",
+            "completion_date": "2023-03-31",
+            "country": "India",
+            "enrollment": 100,
+            "brief_summary": "Sepsis is a life-threatening organ dysfunction caused by dysregulated host response. A Subset of sepsis is septic shock which has almost 4-6 times the mortality when compared to sepsis. Septic shock has underlying cellular and metabolic abnormalities in addition to circulatory dysfunction. The circulatory dysfunction in sepsis is in the form of severe vasodilatation with high cardiac index. Cirrhosis is a state of hyperdynamic circulation. The mortality of septic shock in these group of patients",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18-70yrs\n2. An informed consent from the patient or relative\n\nExclusion Criteria:\n\n1. Age \\<18 years and \\> 70 years\n2. Stroke\n3. Severe sepsis requiring higher dose of noradrenaline (\\>1mcg/Kg/min)\n4. Myocardial dysfunction, Coronary artery disease, Arrhythmias\n5. Periph",
+            "endpoints": [
+              "Improvement in systemic hemodynamics at 6 hours after randomization"
+            ],
+            "sponsor": "Institute of Liver and Biliary Sciences, India",
+            "url": "https://clinicaltrials.gov/study/NCT05315557"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40190717",
+            "title": "Hemodynamic profile of terlipressin and octreotide in patients with cirrhosis and portal hypertension: a randomized, single-blind clinical trial.",
+            "abstract": "Continuous infusion of terlipressin may result in a more sustained reduction in portal pressure with fewer adverse effects than administered as a bolus. This study aimed to compare the hepatic and cardiopulmonary hemodynamic effects and safety profiles of bolus vs. terlipressin continuous infusion.",
+            "journal": "JHEP reports : innovation in hepatology",
+            "year": "2025",
+            "authors": [
+              "Perez-Campuzano Valeria",
+              "Olivas Pol",
+              "Ferrusquía-Acosta José",
+              "Torres Sonia",
+              "Borras Roger"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40190717/"
+          },
+          {
+            "pmid": "37811089",
+            "title": "Continuous vs. intermittent terlipressin infusion for portal hypertension: a systematic review and meta-analysis.",
+            "abstract": "Portal hypertension, a major complication of chronic liver disease, often leads to life-threatening variceal bleeding, managed effectively with vasoactive drugs like terlipressin. However, the most optimal method of terlipressin administration, continuous versus intermittent infusion, remains a subject of debate, necessitating this systematic review and meta-analysis for evidence-based decision-making in managing this critical condition.",
+            "journal": "Annals of medicine and surgery (2012)",
+            "year": "2023",
+            "authors": [
+              "Hassan Mona",
+              "Merza Nooraldin",
+              "Nawras Yusuf",
+              "Bahbah Eshak I",
+              "Al-Hillan Alsadiq"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37811089/"
+          },
+          {
+            "pmid": "38442012",
+            "title": "Continuous home terlipressin infusion increases handgrip strength and reduces ascites-A prospective randomized crossover study.",
+            "abstract": "Observational studies suggest a beneficial effect of continuous terlipressin infusion (CTI) on ascites and sarcopenia in decompensated cirrhosis with portal hypertension.",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2024",
+            "authors": [
+              "Terbah Ryma",
+              "Testro Adam G",
+              "Hoermann Rudolf",
+              "Majumdar Avik",
+              "Chapman Brooke"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Ascites",
+              "Cross-Over Studies",
+              "Terlipressin",
+              "Prospective Studies",
+              "Female",
+              "Hand Strength",
+              "Liver Cirrhosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38442012/"
+          },
+          {
+            "pmid": "32999121",
+            "title": "Rescue Treatment with Terlipressin for Persistent Pulmonary Hypertension and Refractory Shock in a Preterm Infant.",
+            "abstract": "",
+            "journal": "Indian pediatrics",
+            "year": "2020",
+            "authors": [
+              "Oulego-Erroz Ignacio",
+              "Terroba-Seara Sandra",
+              "Castanon-Lopez Leticia",
+              "Rodriguez-Nunez Antonio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Infant",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Shock",
+              "Shock, Septic",
+              "Terlipressin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32999121/"
+          },
+          {
+            "pmid": "22893473",
+            "title": "Terlipressin improves pulmonary pressures in cirrhotic patients with pulmonary hypertension and variceal bleeding or hepatorenal syndrome.",
+            "abstract": "Terlipressin has been shown to improve both pulmonary and systemic hemodynamics in stable cirrhotic patients with pulmonary hypertension, whereas other vasoconstrictors may cause pulmonary pressures to deteriorate. We investigated the pulmonary and systemic hemodynamic effects of the first terlipressin dose (2 mg) in 7 cirrhotic patients with PH presenting with variceal bleeding (n=4) or hepatorenal syndrome (n=3). Terlipressin decreased pulmonary vascular resistance (158.8+/-8.9 vs 186.5+/-13.9 dynes · sec · cm-5; P=0.003) together with an increase in systemic vascular resistance (2143+/-126 vs 1643+/-126 dynes · sec · cm-5; P<0.001). Terlipressin should be the vasoconstrictor treatment of choice when patients present with variceal bleeding or HRS.",
+            "journal": "Hepatobiliary & pancreatic diseases international : HBPD INT",
+            "year": "2012",
+            "authors": [
+              "Kalambokis George N",
+              "Pappas Konstantinos",
+              "Tsianos Epameinondas V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Arterial Pressure",
+              "Esophageal and Gastric Varices",
+              "Female",
+              "Gastrointestinal Hemorrhage",
+              "Greece",
+              "Hepatorenal Syndrome",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Liver Cirrhosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22893473/"
+          },
+          {
+            "pmid": "27885969",
+            "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+            "abstract": "P001 - Sepsis impairs the capillary response within hypoxic capillaries and decreases erythrocyte oxygen-dependent ATP efflux R. M. Bateman, M. D. Sharpe, J. E. Jagger, C. G. Ellis P002 - Lower serum immunoglobulin G2 level does not predispose to severe flu. J. Solé-Violán, M. López-Rodríguez, E. Herrera-Ramos, J. Ruíz-Hernández, L. Borderías, J. Horcajada, N. González-Quevedo, O. Rajas, M. Briones, F. Rodríguez de Castro, C. Rodríguez Gallego P003 - Brain protective effects of intravenous immunoglobulin through inhibition of complement activation and apoptosis in a rat model of sepsis F. Esen, G. Orhun, P. Ergin Ozcan, E. Senturk, C. Ugur Yilmaz, N. Orhan, N. Arican, M. Kaya, M. Kucukerden, M. Giris, U. Akcan, S. Bilgic Gazioglu, E. Tuzun P004 - Adenosine a1 receptor dysfunction is associated with leukopenia: A possible mechanism for sepsis-induced leukopenia R. Riff, O. Naamani, A. Douvdevani P005 - Analysis of neutrophil by hyper spectral imaging - A preliminary report R. Takegawa, ",
+            "journal": "Critical care (London, England)",
+            "year": "2016",
+            "authors": [
+              "Bateman R. M.",
+              "Sharpe M. D.",
+              "Jagger J. E.",
+              "Ellis C. G.",
+              "Solé-Violán J."
+            ],
+            "pub_types": [
+              "Conference Proceedings"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27885969/"
+          },
+          {
+            "pmid": "21733953",
+            "title": "Differential effects of terlipressin on pulmonary and systemic hemodynamics in patients with cirrhosis and pulmonary hypertension: an echo study.",
+            "abstract": "Terlipressin has been associated with pulmonary arterial vasodilation in patients with pulmonary hypertension (PH). We investigated the effects of terlipressin on pulmonary vascular resistance (PVR) in patients with cirrhosis without and with PH. Pulmonary vascular resistance and cardiac output (CO) by Doppler ultrasound, mean arterial pressure (MAP), and systemic vascular resistance (SVR) were evaluated in patients with cirrhosis with PVR -120 dyne s cm⁻⁵ (group 1, n = 20) and PVR >120 dyne s cm⁻⁵ (group 2, n = 10) before and 30 minutes after terlipressin infusion (2 mg). After terlipressin, PVR increased significantly in group 1 (96.1 ± 20.2 vs 85.1 ± 18 dyne s cm⁻⁵; P = .004) but decreased significantly in group 2 (170.4 ± 37.8 vs 157.8 ± 28.1 dyne s cm⁻⁵; P= .04). Pulmonary vascular resistance changes in group 2 correlated significantly with baseline PVR (r = -0.632; P = .04). Terlipressin induced a significant increase in MAP and SVR and a significant decrease in CO in both groups",
+            "journal": "Angiology",
+            "year": "2012",
+            "authors": [
+              "Kalambokis Georgios N",
+              "Pappas Konstantinos",
+              "Tsianos Epameinondas V"
+            ],
+            "pub_types": [
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antihypertensive Agents",
+              "Cardiac Output",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Liver Cirrhosis, Alcoholic",
+              "Lypressin",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21733953/"
+          },
+          {
+            "pmid": "34179513",
+            "title": "Efficacy and safety of vasopressin and terlipressin in preterm neonates: a protocol for a systematic review.",
+            "abstract": "The use of vasoactive agents like arginine vasopressin (AVP) and terlipressin to treat hypotension or persistent pulmonary hypertension in critically ill preterm neonates is increasing. Therefore, a systematic review of the available data on dosing, efficacy and safety of AVP and terlipressin in this patient population appears beneficial.",
+            "journal": "BMJ paediatrics open",
+            "year": "2021",
+            "authors": [
+              "Alsaadi Abdulrahman Salim",
+              "Sushko Katelyn",
+              "Bui Vivian",
+              "Van Den Anker John",
+              "Razak Abdul"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Infant, Newborn",
+              "Lypressin",
+              "Shock",
+              "Systematic Reviews as Topic",
+              "Terlipressin",
+              "Vasoconstrictor Agents",
+              "Vasopressins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34179513/"
+          },
+          {
+            "pmid": "30971593",
+            "title": "Terlipressin versus norepinephrine to prevent milrinone-induced systemic vascular hypotension in cardiac surgery patient with pulmonary hypertension.",
+            "abstract": "Milrinone at inotropic doses requires the addition of a vasoconstrictive drug. We hypothesized that terlipressin use could selectively recover the systemic vascular hypotension induced by milrinone without increasing the pulmonary vascular resistance (PVR) and mean pulmonary artery pressure (MPAP) as norepinephrine in cardiac surgery patients.",
+            "journal": "Annals of cardiac anaesthesia",
+            "year": "2019",
+            "authors": [
+              "Abdelazziz Mai Mohsen",
+              "Abdelhamid Hadil Magdi"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cardiac Surgical Procedures",
+              "Cardiotonic Agents",
+              "Female",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Hypotension",
+              "Male",
+              "Milrinone",
+              "Norepinephrine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30971593/"
+          },
+          {
+            "pmid": "21292065",
+            "title": "Terlipressin as rescue therapy for refractory pulmonary hypertension in a neonate with a congenital diaphragmatic hernia.",
+            "abstract": "We report the case of a 38-week gestational age neonate, with isolated congenital diaphragmatic hernia presenting with refractory persistent pulmonary hypertension, systemic hypotension, and hypoxemia, resistant to usual therapeutics. Arginine vasopressin is responsible for systemic vasoconstriction and decreases pulmonary hypertension. We theorized that terlipressin, its long-acting analogue, could have the same properties. We used terlipressin as rescue therapy after parental and local ethics committee acceptance. After a bolus of terlipressin 20 μg/kg and continuous infusion at a rate of 5 μg/kg per hour, blood oxygen saturation improved from 75% to 98%, oxygen requirements fell from fraction of inspired oxygen 100% to 40%, and mean arterial pressure rose from 28 to 46 mm Hg, allowing a decrease of vasopressor infusion. Terlipressin may be useful in the management of neonates with congenital diaphragmatic hernia and refractory pulmonary hypertension.",
+            "journal": "Journal of pediatric surgery",
+            "year": "2011",
+            "authors": [
+              "Stathopoulos Lefteris",
+              "Nicaise Claire",
+              "Michel Fabrice",
+              "Thomachot Laurent",
+              "Merrot Thierry"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Cause of Death",
+              "Delayed-Action Preparations",
+              "Drug Resistance",
+              "Fatal Outcome",
+              "Hernia, Diaphragmatic",
+              "Hernias, Diaphragmatic, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Infant, Newborn"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21292065/"
+          },
+          {
+            "pmid": "34800381",
+            "title": "Management of Decompensated Cirrhosis and Associated Syndromes.",
+            "abstract": "Patients with cirrhosis account for 3% of intensive care unit admissions with hospital mortality exceeding 50%; however, improvements in survival among patients with acutely decompensated cirrhosis and organ failure have been described when treated in specialized liver transplant centers. Acute-on-chronic liver failure is a distinct clinical syndrome characterized by decompensated cirrhosis associated with one or more organ failures resulting in a significantly higher short-term mortality. In this review, we will discuss the management of common life-threatening complications in the patient with cirrhosis that require intensive care management including neurologic, cardiovascular, gastrointestinal, pulmonary, and renal complications.",
+            "journal": "The Surgical clinics of North America",
+            "year": "2022",
+            "authors": [
+              "Chandna Shaun",
+              "Zarate Eduardo Rodríguez",
+              "Gallegos-Orozco Juan F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acute-On-Chronic Liver Failure",
+              "Combined Modality Therapy",
+              "Critical Care",
+              "Esophageal and Gastric Varices",
+              "Gastrointestinal Hemorrhage",
+              "Hepatic Encephalopathy",
+              "Hepatopulmonary Syndrome",
+              "Hepatorenal Syndrome",
+              "Humans",
+              "Hypertension, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34800381/"
+          },
+          {
+            "pmid": "40986890",
+            "title": "Point-of-care ultrasound (POCUS)-guided volume management and the effect of cirrhotic cardiomyopathy on acute kidney injury outcomes in cirrhosis.",
+            "abstract": "Point-of-care ultrasound (POCUS) helps in assessing volume status and cirrhotic cardiomyopathy (CCM). We evaluated POCUS-guided volume management and explored clinical predictors, including CCM, of acute kidney injury (AKI) reversal, need for renal replacement therapy (RRT), and survival in cirrhosis and AKI between January 2023 and November 2024. Exclusions were patients with structural cardiac disease, portopulmonary hypertension, acute variceal bleeding, and septic shock.",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2025",
+            "authors": [
+              "Premkumar Madhumita",
+              "Kajal Kamal",
+              "Roy Akash",
+              "Izzy Manhal",
+              "Divyaveer Smita"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40986890/"
+          },
+          {
+            "pmid": "19624374",
+            "title": "The role of terlipressin in the management of severe pulmonary hypertension in congenital diaphragmatic hernia.",
+            "abstract": "",
+            "journal": "Paediatric anaesthesia",
+            "year": "2009",
+            "authors": [
+              "Papoff Paola",
+              "Caresta Elena",
+              "Versacci Paolo",
+              "Grossi Rosanna",
+              "Midulla Fabio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Blood Pressure",
+              "Female",
+              "Hernias, Diaphragmatic, Congenital",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Infant",
+              "Lypressin",
+              "Oxygen",
+              "Terlipressin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19624374/"
+          },
+          {
+            "pmid": "41265546",
+            "title": "Chronic Kidney Disease Does Not Influence Response to Terlipressin in Hepatorenal Syndrome-Acute Kidney Injury.",
+            "abstract": "Efficacy of treatment with terlipressin and its impact on outcome in patients with hepatorenal syndrome-acute kidney injury (HRS-AKI) and chronic kidney disease (CKD) is unknown. This multicenter, retrospective, observational study aimed to investigate treatment response of terlipressin (+ albumin) in patients with HRS-AKI and CKD compared with patients without CKD.",
+            "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "year": "2025",
+            "authors": [
+              "Uschner Frank Erhard",
+              "Schleicher Eva Maria",
+              "Passenberg Moritz",
+              "Pohl Julian",
+              "Praktiknjo Michael"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41265546/"
+          },
+          {
+            "pmid": "15259082",
+            "title": "Effects of terlipressin on systolic pulmonary artery pressure of patients with liver cirrhosis: an echocardiographic assessment.",
+            "abstract": "Portopulmonary hypertension is a serious complication of chronic liver disease. Our aim was to search into the effect of terlipressin on systolic pulmonary artery pressure among cirrhotic patients.",
+            "journal": "World journal of gastroenterology",
+            "year": "2004",
+            "authors": [
+              "Altintas Engin",
+              "Akkus Necdet",
+              "Gen Ramazan",
+              "Helvaci M-Rami",
+              "Sezgin Orhan"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antihypertensive Agents",
+              "Blood Pressure",
+              "Echocardiography",
+              "Female",
+              "Humans",
+              "Liver Cirrhosis",
+              "Lypressin",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15259082/"
+          },
+          {
+            "pmid": "23128058",
+            "title": "Effects of terlipressin on pulmonary artery pressure in a septic cooled infant: an echocardiographic assessment.",
+            "abstract": "Experience with terlipressin (TP) in the neonatal field is scarce. We describe the effects of TP on pulmonary circulation, studied with echocardiography, in an asphyxiated septic cooled infant with pulmonary hypertension (PH) who developed catecholamine-resistant hypotension and exacerbation of PH shortly after the beginning of the rewarming. TP was added to norephinephine and adrenaline infusions at the dose of 0.02 mg kg(-1) every 6 h, because of refractory hypotension and oliguria. After 10 min, blood pressure dramatically and definitely increased, and urinary output was re-established after 60 min. Echocardiographic evaluation 30 min after the second bolus of TP showed unchanged velocity of the tricuspidal valve regurgitation and improved biventricular functional indexes respect to the pre-treatment assessment. TP was continued for 12 h (three doses) without significant adverse effect except for a transient increase in troponin levels. Addition of TP boluses to catecholamine infusi",
+            "journal": "Journal of perinatology : official journal of the California Perinatal Association",
+            "year": "2012",
+            "authors": [
+              "Radicioni M",
+              "Troiani S",
+              "Camerini P G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antihypertensive Agents",
+              "Asphyxia Neonatorum",
+              "Disease Progression",
+              "Epinephrine",
+              "Humans",
+              "Hypertension, Pulmonary",
+              "Hypothermia, Induced",
+              "Infant, Newborn",
+              "Lypressin",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23128058/"
+          },
+          {
+            "pmid": "15305765",
+            "title": "[Vasopressin and its analogues in the therapy of shock].",
+            "abstract": "Hemodynamic support during the circulatory failure with vasodilation, most frequently during the septic shock, is based on volume recovery and administration of inotropic drugs. If such therapy is not sufficient, vasoconstriction drugs are subsequently or parallel added to maintain the perfusion pressure. As a standard therapy, norepinephrine or other catecholamines with alpha-adrenergic effect are used in rising doses. Some patients do not respond to such therapy with desired hemodynamic changes--they develop catecholamine resistant shock. Because of serious side effects of high doses of catecholamines, alternative vasopressors are necessary. Vasopressin, antidiuretic hormone, has in physiological conditions only minimal effect of the vascular tone. During hypovolemia its concentration rises and it may significantly contribute to the maintenance of arterial pressure by vasoconstriction. Contrary to it, during septic shock the levels of vasopressine are very low and vasodilation clinic",
+            "journal": "Casopis lekaru ceskych",
+            "year": "2004",
+            "authors": [
+              "Novák F",
+              "Lubanda H",
+              "Onderková R",
+              "Zák A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Lypressin",
+              "Shock",
+              "Shock, Septic",
+              "Terlipressin",
+              "Vasoconstrictor Agents",
+              "Vasodilation",
+              "Vasopressins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15305765/"
+          },
+          {
+            "pmid": "40498117",
+            "title": "Real-World Experience of Home Continuous Terlipressin Infusion for Complications of Portal Hypertension.",
+            "abstract": "Home continuous terlipressin infusion (CTI) is an emerging therapy for the treatment of portal hypertensive complications in decompensated cirrhosis. This study presents efficacy and safety data of long-term CTI in a longitudinal cohort.",
+            "journal": "The American journal of gastroenterology",
+            "year": "2025",
+            "authors": [
+              "Chapman Brooke",
+              "Sinclair Marie",
+              "Majumdar Avik",
+              "Yu Catherine",
+              "Widdop James"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40498117/"
+          },
+          {
+            "pmid": "24030843",
+            "title": "[Management of decompensated liver cirrhosis in the intensive care unit].",
+            "abstract": "Liver cirrhosis is the end-stage of long-standing chronic liver diseases. The occurrence of complications from liver cirrhosis increases the mortality risk, but the prognosis can be improved by optimal management in the intensive care unit (ICU). Defined diagnostic algorithms allow the etiology and presence of typical complications upon presentation to the ICU to be identified. Acute variceal bleeding requires endoscopic intervention, vasoactive drugs, antibiotics, supportive intensive care measures and, where necessary, urgent transjugular intrahepatic portosystemic shunt (TIPS) procedure. Spontaneous bacterial peritonitis needs to be diagnosed and immediately treated in patients with ascites. Hepatorenal syndrome should be treated by albumin and terlipressin. In case of respiratory failure, differential diagnosis should not only consider pneumonia, pulmonary embolism and cardiac failure, but also hepatic hydrothorax, portopulmonary hypertension and hepatopulmonary syndrome. The feasi",
+            "journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+            "year": "2013",
+            "authors": [
+              "Lerschmacher O",
+              "Koch A",
+              "Streetz K",
+              "Trautwein C",
+              "Tacke F"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Algorithms",
+              "Diagnosis, Differential",
+              "Esophageal and Gastric Varices",
+              "Gastrointestinal Hemorrhage",
+              "Hepatic Encephalopathy",
+              "Hepatorenal Syndrome",
+              "Humans",
+              "Intensive Care Units",
+              "Liver Cirrhosis",
+              "Liver Transplantation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24030843/"
+          },
+          {
+            "pmid": "18280605",
+            "title": "Significant improvement of portopulmonary hypertension after 1-week terlipressin treatment.",
+            "abstract": "Cirrhosis associated with moderate and severe portopulmonary hypertension carries a poor prognosis. Optimal management has not yet been defined. Current treatment options, such as prostacyclin analogues, endothelin antagonists, and phosphodiesterase-5 inhibitors, are characterized by slow onset of action and various adverse effects, particularly in patients with advanced cirrhosis. Here, we report the significant reduction of pulmonary arterial pressure after 1-week terlipressin treatment in a patient with concomitant hepato-renal syndrome. Terlipressin could be a novel and safe treatment for portopulmonary hypertension.",
+            "journal": "Journal of hepatology",
+            "year": "2008",
+            "authors": [
+              "Kalambokis Georgios",
+              "Korantzopoulos Panagiotis",
+              "Nikas Spyros A",
+              "Theodorou Areti",
+              "Tsianos Epameinondas V"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antihypertensive Agents",
+              "Follow-Up Studies",
+              "Humans",
+              "Hypertension, Portal",
+              "Hypertension, Pulmonary",
+              "Injections, Intravenous",
+              "Lypressin",
+              "Male",
+              "Shock, Septic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18280605/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "kyphoscoliotic heart disease",
+        "txgnn_score": 0.994786262512207,
+        "txgnn_rank": 6657,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esotropia",
+        "txgnn_score": 0.9934590458869934,
+        "txgnn_rank": 7861,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma 1, open angle",
+        "txgnn_score": 0.9927323460578918,
+        "txgnn_rank": 8439,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9909271001815796,
+        "txgnn_rank": 9860,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02119884",
+            "title": "Hemodynamic Effects of Terlipressin and High Dose Octreotide on Patients With Liver Cirrhosis Related Esophageal Varices: A Randomized, Placebo-controlled Multicenter Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-02",
+            "completion_date": "2016-06",
+            "country": "China",
+            "enrollment": 88,
+            "brief_summary": "The purpose of the study is to find patients's response to terlipressin and octreotide during hepatic venous pressure gradient measurement by observing portal and systemic hemodynamics.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Gastric and Esophageal Varices have been confirmed through endoscopy\n* Liver Biopsy, CT or MRI indicates cirrhosis\n* Patients who experienced variceal bleeding\n\nExclusion Criteria:\n\n* The patients who are beyond the range from 18 to 80 years old\n* The patients with unstable vi",
+            "endpoints": [
+              "Fluctuation of HVPG"
+            ],
+            "sponsor": "Shanghai Zhongshan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02119884"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04221672",
+            "title": "Study on the Effect of Terlipressin on Recovery of Liver Function After Hepatectomy: a Multicenter Randomized Controlled Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2019-11-07",
+            "completion_date": "2020-12-30",
+            "country": "China",
+            "enrollment": 86,
+            "brief_summary": "Portal vein hypertension is associated with post-hepatectomy liver failure in patients with liver cirrhosis. Our previous study found that bolus injection of 1 mg terlipressin immediately after hepatectomy decreased portal vein pressure, and post-operative continuous use of terlipressin decreased the amount of abdominal drain. In this multicenter randomized controlled study, we aim to evaluate the effects of terlipressin in the patients who underwent liver resection complicated by portal vein hy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects signed informed consent.\n* An open liver resection is planned.\n* Hepatitis B virus infection background.\n* Pre-operative liver function is Child-Pugh A.\n* Subjects with clinical significance portal vein hypertension or the liver stiffness \\> 12 kPa before surgery.\n* P",
+            "endpoints": [
+              "The total abdominal drainage"
+            ],
+            "sponsor": "Shanghai Zhongshan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04221672"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.989069640636444,
+        "txgnn_rank": 11220,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma",
+        "txgnn_score": 0.98866069316864,
+        "txgnn_rank": 11540,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31841026",
+            "title": "Dobutamine reverses the cardio-suppressive effects of terlipressin without improving renal function in cirrhosis and ascites: a randomized controlled trial.",
+            "abstract": "Acute kidney injury and hepatorenal syndrome (HRS) are frequent complications in patients with cirrhosis and ascites. First-line treatment is terlipressin, which reverses HRS in ~40% of patients but also lowers cardiac output (CO). We aimed to investigate whether reversing the cardio-suppressive effect of terlipressin with the β-adrenoceptor agonist dobutamine would increase CO and thereby increase the glomerular filtration rate (GFR). We randomized 25 patients with cirrhosis, ascites, and impaired renal function (2:2:1): group A received terlipressin followed by the addition of dobutamine; group B received dobutamine and terlipressin as monotherapies; and group C received placebo. Renal and cardiac functions were assessed during 8 clearance periods of 30 min, and concentrations of vasoactive hormones were measured. Dobutamine as a monotherapy increased CO (1.03 L/min, P < 0.01) but had no significant effects on GFR. Renin (P < 0.05), angiotensin II (P < 0.005), and aldosterone (P < 0.",
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2020",
+            "authors": [
+              "Israelsen Mads",
+              "Dahl Emilie Kristine",
+              "Madsen Bjørn Stæhr",
+              "Wiese Signe",
+              "Bendtsen Flemming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Kidney Injury",
+              "Adolescent",
+              "Adrenergic beta-Agonists",
+              "Adult",
+              "Aged",
+              "Arterial Pressure",
+              "Ascites",
+              "Cardiac Output",
+              "Dobutamine",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31841026/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9886252880096436,
+        "txgnn_rank": 11574,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB02638",
+    "name": "Terlipressin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Terlipressin"
+      },
+      "queried_at": "2026-03-09T22:15:23.807547",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Terlipressin"
+      },
+      "queried_at": "2026-03-09T22:15:48.379982",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-09T22:15:50.496828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-09T22:15:59.992166",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-09T22:16:01.397621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T22:16:02.711394",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T22:16:09.610353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T22:16:11.243411",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T22:16:17.380366",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T22:16:25.313796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "pulmonary hypertension"
+      },
+      "queried_at": "2026-03-09T22:16:32.930886",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T22:16:33.898795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T22:16:37.423842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "queried_at": "2026-03-09T22:16:38.627693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-09T22:16:40.008232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-09T22:16:43.725972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "esotropia"
+      },
+      "queried_at": "2026-03-09T22:16:45.106461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-09T22:16:47.644194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-09T22:16:53.854177",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-09T22:16:55.504938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T22:16:58.410056",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T22:17:04.302614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-09T22:17:05.226779",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T22:17:06.180282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T22:17:12.033497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-09T22:17:17.052809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-09T22:17:18.168464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-09T22:17:25.863891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "glaucoma"
+      },
+      "queried_at": "2026-03-09T22:17:35.249659",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T22:17:37.111512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T22:17:43.701627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Terlipressin",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-09T22:17:52.916884",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T22:17:52.948979"
+  }
+}

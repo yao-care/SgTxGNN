@@ -1,0 +1,717 @@
+{
+  "drug": {
+    "inn": "Ioversol",
+    "drugbank_id": "DB09134",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "osteoarthritis susceptibility",
+        "txgnn_score": 0.9967405200004578,
+        "txgnn_rank": 4849,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoarthritis",
+        "txgnn_score": 0.9963185787200928,
+        "txgnn_rank": 5288,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04733092",
+            "title": "Prospective Study of the Safety and Efficacy of the Use of a Lipiodol Emulsion for the Embolization of Inflammatory Hypervascularizations Observed in Patients With Joint or Abarticular Knee Pain",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-03-03",
+            "completion_date": "2022-09-20",
+            "country": "France",
+            "enrollment": 22,
+            "brief_summary": "Knee osteoarthritis is a common cause of disability in patients who are often young and active. Surgery being an option only for the most severe cases, there is little alternative in case of failure of recommended medication. Inflammatory hypervascularization of the joint is a known source of pain. Temporary embolization of intra-arterial inflammatory hypervascularization has been used since 2012 with good results on pain relief to treat patients with musculoskeletal disorders that are resistant",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of primary inflammatory knee osteoarthritis of the target joint defined by a knee osteoarthritis according to the American College of Rheumatology (ACR) classification and a score ≥ 2 according to the classification of Kellgren and Lawrence\n* Patient not eligible for",
+            "endpoints": [
+              "Serious Adverse Events (SAE)"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT04733092"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06497140",
+            "title": "A Randomized Sham-controlled, Multicenter Trial on the Effect of Genicular Arteries Embolization in Symptomatic Knee Osteoarthritis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-09-30",
+            "completion_date": "2028-10-01",
+            "country": "France",
+            "enrollment": 130,
+            "brief_summary": "Knee OsteoArthritis (KOA) is a common disease associated with pain and impaired function. Many patients are not relieved of their symptoms with enough efficacy by conservative treatments. Genicular Arteries Embolization (GAE) is a new minimally invasive endovascular treatment allowing symptoms relief. The investigator previously demonstrated the safety of GAE using an ethiodized oil-based emulsion for the treatment of painful knee osteoarthritis in a first-in-man single-arm clinical trial called",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of primary KOA according to the classification of the American College of Rheumatology (ACR) (5)\n* Radiographic Kellgren and Lawrence score ≥ 2 (6)\n* VAS pain score ≥ 40 mm (scale 0-100 mm)\n* Previous intra-articular injection in the target knee\n* Patient not eligibl",
+            "endpoints": [
+              "Change of pain assessed by a Visual Analogue Scale (VAS) at 3 months compared to randomization."
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06497140"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06611007",
+            "title": "Evaluation of the Safety of LipiodolⓇ Embolization in Symptomatic Digital Osteoarthritis Refractory to Conventional Treatment: a Pilot Study of 15 Patients",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-01-30",
+            "completion_date": "2028-07-15",
+            "country": "France",
+            "enrollment": 15,
+            "brief_summary": "The goal of this clinical trial is to evaluate the safety of arterial embolization using Lipiodol® in patients with symptomatic hand osteoarthritis refractory to conventional treatment. It will also learn about the efficacy of arterial embolization with Lipiodol® in reducing pain and improving hand function.\n\nThe main questions it aims to answer are:\n\n* What are the side effects and complications associated with the Lipiodol® arterial embolization procedure?\n* Does arterial embolization reduce p",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged ≥ 40 years.\n* Osteoarthritis of the hand according to American College of Rheumatology criteria 1990\n* Osteoarthritis affecting at least two proximal and/or distal interphalangeal joints with a radiological Kellgren-Lawrence stage ≥ 2.\n* Symptomatic osteoarthriti",
+            "endpoints": [
+              "Number and Frequency of Embolisation-Related Adverse Events as Assessed by CTCAE"
+            ],
+            "sponsor": "University Hospital, Grenoble",
+            "url": "https://clinicaltrials.gov/study/NCT06611007"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06859164",
+            "title": "Genicular Artery Embolization for Reducing Pain in Symptomatic Knee Osteoarthritis: A Pilot Randomized Sham-Controlled Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-05-01",
+            "completion_date": "2026-11-30",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "Genicular Artery Embolization for Reducing Pain in Symptomatic Knee Osteoarthritis: A Pilot Randomized Sham-Controlled Study (SHAM-PAIN) is a NIH-NIAMS funded project designed to assess enrollment feasibility and detect any differences between GAE and a similar sham intervention in reducing KOA-related pain at 3 months as measured by the Knee injury and Osteoarthritis Outcome Score (KOOS) pain subscore. Additionally, this study aims to determine the magnitude of difference in pain response betwe",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 40-80\n* Bilateral or unilateral knee pain attributed to osteoarthritis (treat the knee with greater pain-if equal, patient chooses)\n* Grade 2-4 osteoarthritis on standing weight-bearing knee radiographs per the Kellgren-Lawrence grading scale\n* Knee pain \\> 6 mon",
+            "endpoints": [
+              "Reduction in KOOS pain subscore"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT06859164"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38102013",
+            "title": "Genicular artery embolization for knee osteoarthritis: Results of the LipioJoint-1 trial.",
+            "abstract": "The purpose of this study was to evaluate the safety and efficacy of transient genicular artery embolization (GAE) using an ethiodized oil-based emulsion for the treatment of knee osteoarthritis (KOA).",
+            "journal": "Diagnostic and interventional imaging",
+            "year": "2024",
+            "authors": [
+              "Sapoval Marc",
+              "Querub Charles",
+              "Pereira Helena",
+              "Pellerin Olivier",
+              "Boeken Tom"
+            ],
+            "pub_types": [
+              "Multicenter Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Aged",
+              "Osteoarthritis, Knee",
+              "Prospective Studies",
+              "Emulsions",
+              "Ethiodized Oil",
+              "Pain",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38102013/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.995595633983612,
+        "txgnn_rank": 5971,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38102013",
+            "title": "Genicular artery embolization for knee osteoarthritis: Results of the LipioJoint-1 trial.",
+            "abstract": "The purpose of this study was to evaluate the safety and efficacy of transient genicular artery embolization (GAE) using an ethiodized oil-based emulsion for the treatment of knee osteoarthritis (KOA).",
+            "journal": "Diagnostic and interventional imaging",
+            "year": "2024",
+            "authors": [
+              "Sapoval Marc",
+              "Querub Charles",
+              "Pereira Helena",
+              "Pellerin Olivier",
+              "Boeken Tom"
+            ],
+            "pub_types": [
+              "Multicenter Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Middle Aged",
+              "Aged",
+              "Osteoarthritis, Knee",
+              "Prospective Studies",
+              "Emulsions",
+              "Ethiodized Oil",
+              "Pain",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38102013/"
+          },
+          {
+            "pmid": "40137121",
+            "title": "A Multifaceted Computational Approach to Identify PAD4 Inhibitors for the Treatment of Rheumatoid Arthritis (RA).",
+            "abstract": "Neutrophil cells' lysis forms the extracellular traps (NETs) to counter the foreign body during insults to the body. Peptidyl arginine deiminase (PAD) participates in this process and is then released into the extracellular fluid with the lysed cell components. In some diseases, patients with abnormal function of PADs, especially PAD 4, tend to form autoantibodies against the abnormal citrullinated proteins that are the result of PAD activity on arginine side chains. Those antibodies, which are highly distinct in RA, are distinctly anti-citrullinated protein antibodies (ACPA). This study used an in-silico drug repurposing approach of FDA-approved medications to identify potential alternative medications that can inhibit this process and address solutions to the current limitations of existing therapies.",
+            "journal": "Metabolites",
+            "year": "2025",
+            "authors": [
+              "Alturki Mansour S",
+              "Gomaa Mohamed S",
+              "Tawfeeq Nada",
+              "Al Khzem Abdulaziz H",
+              "Shaik Mohsina B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40137121/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia",
+        "txgnn_score": 0.9936176538467408,
+        "txgnn_rank": 7719,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.993280827999115,
+        "txgnn_rank": 8016,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "23321839",
+            "title": "Craniofacial bone infarcts in sickle cell disease: clinical and radiological manifestations.",
+            "abstract": "To investigate the clinicoradiological manifestations of craniofacial bone infarcts in patients with sickle cell disease (SCD).",
+            "journal": "Journal of computer assisted tomography",
+            "year": "2013",
+            "authors": [
+              "Watanabe Memi",
+              "Saito Naoko",
+              "Nadgir Rohini N",
+              "Liao Joseph H",
+              "Flower Elisa N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anemia, Sickle Cell",
+              "Child",
+              "Child, Preschool",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Infant",
+              "Infarction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23321839/"
+          },
+          {
+            "pmid": "22195536",
+            "title": "Safety of iodinated intravenous contrast medium administration in sickle cell disease.",
+            "abstract": "Increased sickling of erythrocytes following intravenous iodinated contrast has been described in patients with sickle cell disease. In vitro, the effect is correlated with the tonicity, viscosity, acidity, and ionic nature of contrast media. Less erythrocyte sickling is observed in vitro with second-generation low- and iso-osmolar contrast agents. Clinical impact of these newer intravenous contrast agents has not been investigated.",
+            "journal": "The American journal of medicine",
+            "year": "2012",
+            "authors": [
+              "Campbell Kimberly L",
+              "Hud Laryssa M",
+              "Adams Suzanne",
+              "Andrel Jocelyn",
+              "Ballas Samir K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anemia, Sickle Cell",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Infusions, Intravenous",
+              "Male",
+              "Middle Aged",
+              "Retrospective Studies",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22195536/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+        "txgnn_score": 0.9931636452674866,
+        "txgnn_rank": 8107,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+        "txgnn_score": 0.9931627511978148,
+        "txgnn_rank": 8112,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myosclerosis",
+        "txgnn_score": 0.9928586483001708,
+        "txgnn_rank": 8338,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9925631880760192,
+        "txgnn_rank": 8586,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alopecia",
+        "txgnn_score": 0.992530643939972,
+        "txgnn_rank": 8612,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09134",
+    "name": "Ioversol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ioversol"
+      },
+      "queried_at": "2026-03-10T01:26:22.940018",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ioversol"
+      },
+      "queried_at": "2026-03-10T01:26:25.453953",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T01:26:26.410194",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T01:26:31.665896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "queried_at": "2026-03-10T01:26:32.924013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T01:26:35.867048",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T01:26:41.440772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis"
+      },
+      "queried_at": "2026-03-10T01:26:45.002272",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T01:26:45.568934",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T01:26:50.324572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T01:26:55.455626",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T01:26:56.185464",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T01:26:59.421034",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia"
+      },
+      "queried_at": "2026-03-10T01:27:00.317783",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T01:27:01.700356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T01:27:06.385717",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T01:27:10.940237",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T01:27:13.734452",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T01:27:20.026039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "queried_at": "2026-03-10T01:27:22.272647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T01:27:23.967331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T01:27:28.944094",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "queried_at": "2026-03-10T01:27:30.215484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T01:27:32.100963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T01:27:37.324768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "myosclerosis"
+      },
+      "queried_at": "2026-03-10T01:27:38.040746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T01:27:39.947355",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T01:27:44.821655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T01:27:46.098268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T01:27:47.182415",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T01:27:53.482878",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "alopecia"
+      },
+      "queried_at": "2026-03-10T01:27:55.680146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:27:55.699620"
+  }
+}

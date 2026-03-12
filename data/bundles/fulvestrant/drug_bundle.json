@@ -1,0 +1,1609 @@
+{
+  "drug": {
+    "inn": "Fulvestrant",
+    "drugbank_id": "DB00947",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "HIV infectious disease",
+        "txgnn_score": 0.9990800619125366,
+        "txgnn_rank": 1848,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40343334",
+            "title": "Multi-cohort cross-omics analysis reveals disease mechanisms and therapeutic targets in HTLV-1-associated myelopathy, a neglected retroviral neuroinflammatory disorder.",
+            "abstract": "HTLV-1 is an enigmatic retrovirus triggering a debilitating neuroinflammatory disease, HTLV-1-associated myelopathy (HAM), with unknown pathogenesis. Both HTLV-1 infection and HAM predominantly affect women and non-white neglected populations. HAM is lacking disease-modifying treatment, as current treatment is mostly symptomatic and inspired by either HIV-1 or multiple sclerosis therapeutic strategies. We used systems biology analyses of novel and publicly available data comprising (epi)genomics, transcriptomics, metabolomics and proteomics of multi-ancestry cohorts from a total of > 2500 People Living with HTLV-1 from 5 countries (Brazil, Peru, Japan, UK, US). Leveraging an unique admixed Brazilian cohort, genome-wide association study (GWAS) revealed African-specific variants in inflammasome sensor AIM2 with genome-wide significance (p < 5x10-8). Suggestive loci (p > 5x10-8) corresponding to metabolic, immune and neuronal genes were validated using published Japanese GWAS. Polygenic ",
+            "journal": "Research square",
+            "year": "2025",
+            "authors": [
+              "Van Weyenbergh Johan",
+              "Assone Tatiane",
+              "Racine Isaac",
+              "Menezes Soraya",
+              "Gonçalves Fernanda"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Preprint"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40343334/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9985358715057372,
+        "txgnn_rank": 2700,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05735080",
+            "title": "A Phase 1/2, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Efficacy of INX-315 in Patients With Advanced Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-03-28",
+            "completion_date": "2026-06",
+            "country": "Australia, United States",
+            "enrollment": 150,
+            "brief_summary": "Incyclix Bio (Incyclix) is developing INX-315 as an oral, small molecule inhibitor of cyclin dependent kinase 2 (CDK2) for the treatment of human cancers. This first-in-human study is designed to evaluate the safety, tolerability, pharmacokinetics (PK) and preliminary antitumor activity of INX-315 in patients with recurrent advanced/metastatic cancer, including hormone receptor positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) breast cancer who progressed on a prior cyclin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Advanced unresectable or metastatic ER+/HER2- BC that has progressed following treatment with a CDK4/6 inhibitor\n2. Advanced/ metastatic platinum-resistant or platinum-refractory epithelial ovarian cancer (including fallopian tube cancer/primary peritoneal cancer) CCNE-1 ampl",
+            "endpoints": [
+              "Part A and B: Evaluate the incidents of treatment emergent adverse events and laboratory abnormalities in INX-315 monotherapy and in combination with fulvestrant",
+              "Part A: Evaluate the occurrence of dose-limiting toxicities (DLTs) during Cycle 1",
+              "Part A: Recommend at least two doses of INX-315 to be evaluated in the expansion phase"
+            ],
+            "sponsor": "Incyclix Bio",
+            "url": "https://clinicaltrials.gov/study/NCT05735080"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04355858",
+            "title": "Precision Treatment of Luminal Advanced Breast Cancer Based on Molecular Subtyping",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-05-01",
+            "completion_date": "2025-04-01",
+            "country": "China",
+            "enrollment": 319,
+            "brief_summary": "This study is a prospective, single-center, open-label, umbrella-shaped phase II clinical study for patients with HR+/HER2- endocrine-resistant advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Females ≥18 years old;\n* Histologically confirmed HR + / HER2- invasive breast cancer (specific definition: immunohistochemical detection of ER\\> 10% tumor cell positive is defined as ER positive, PR\\> 10% tumor cell positive is defined as PR positive, ER and / or PR Positive ",
+            "endpoints": [
+              "ORR"
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT04355858"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04553133",
+            "title": "PHASE 1/2A DOSE ESCALATION, FINDING AND EXPANSION STUDY EVALUATING SAFETY, TOLERABILITY, PHARMACOKINETICS, PHARMACODYNAMICS AND ANTI TUMOR ACTIVITY OF PF-07104091 AS A SINGLE AGENT AND IN COMBINATION THERAPY",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-09-16",
+            "completion_date": "2026-03-30",
+            "country": "Argentina, United States, China, Bulgaria, Japan",
+            "enrollment": 154,
+            "brief_summary": "To assess the safety and tolerability of increasing doses of PF-07104091 and to estimate the Maximum Tolerated Dose (MTD) and/or select the Recommended Phase 2 dose (RP2D) for PF-07104091 as a single agent in participants with advanced or metastatic small cell lung, breast and ovarian cancers.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants with HR-positive HER2-negative advanced or metastatic breast cancer (received at least two prior lines in the advanced or metastatic setting including one prior line of combined CDK4/6 inhibitor and endocrine therapy and no more than two prior lines of cytotoxic c",
+            "endpoints": [
+              "Dose Escalation: Number of participants with Dose-limiting toxicities (DLT) during first cycle",
+              "To evaluate incidence of treatment emergent adverse events and laboratory abnormalities",
+              "Evaluate pulse rate that is out of normal range and changes in pulse rate as compared to baseline"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04553133"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04767594",
+            "title": "PERFORM: An EPidEmiological, PRospective Cohort Study to Generate Real-world Evidence in Patients With HR+/HER2- Advanced Breast Cancer Treated in the First Line Setting as Per Current Standard Of Care With an EndocRine-based Palbociclib CoMbination Therapy",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-10-27",
+            "completion_date": "2029-04-30",
+            "country": "Austria, Germany",
+            "enrollment": 1409,
+            "brief_summary": "This is a prospective, single-arm, multi-center observational non-interventional study (NIS) in Germany and Austria.",
+            "eligibility_criteria": "Patients must meet all of the following inclusion criteria to be eligible for inclusion in the study:\n\n1. Evidence of a personally signed and dated informed consent document indicating that the patient has been informed of all pertinent aspects of the study.\n2. Diagnosis of HR+/HER2- locally advance",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04767594"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04158362",
+            "title": "Open-label, Randomized, Multicenter, Phase III Study, Comparing Standard Chemotherapy to Standard Combination of Endocrine Therapy With Abemaciclib as Initial Metastatic Treatment Among Patients With Visceral Metastasis of ER+ HER2-breast Cancer, High Burden Disease",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-06-11",
+            "completion_date": "2028-06",
+            "country": "France",
+            "enrollment": 180,
+            "brief_summary": "AMBRE is a phase III study comparing two standard treatments as initial metastatic treatment in ER+/HER2- breast cancer (BC) patients with visceral metastasis and high burden disease: Chemotherapy and combination of endocrine therapy with abemaciclib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient must have signed a written informed consent form prior to any study specific procedures.\n2. Female age ≥ 18 years.\n3. Performance status, Eastern Cooperative Oncology Group (ECOG) 0-2.\n4. Histologically confirmed adenocarcinoma of the breast.\n5. Metastatic breast canc",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT04158362"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06129786",
+            "title": "Overcoming Therapy Resistance in ER+ Breast Cancer Patients: a Translational Project (OVERTuRE)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2023-05-18",
+            "completion_date": "2026-05-18",
+            "country": "Italy",
+            "enrollment": 74,
+            "brief_summary": "Patients presenting with a de novo diagnosis of luminal-like advanced breast cancer (ABC) or with disease recurrence after \\>12 months from the end of adjuvant ET, are generally candidate to a first line therapy with an aromatase inhibitor in association with a CDK4/6i. Disease recurrence in \\<12 months from the end of adjuvant ET defines the disease as \"endocrine resistant\" and identifies patients that should receive a first line therapy with the selective estrogen receptor degrader (SERD) Fulv",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically proven diagnosis of adenocarcinoma of the breast with evidence of metastatic disease.\n* ER positive tumor ≥ 1%\n* HER2 negative breast cancer by FISH or IHC (IHC 0,1+, 2+ and/or FISH HER2: CEP17 ratio \\< 2.0)\n* Females, 18 years of age or older\n* Candidate to fir",
+            "endpoints": [
+              "To identify potential biomarkers predictive of a clinical benefit in patients receiving a first line therapy with AI/fulvestrant (+/- LH-RH analogue) in association with a CDK4/6i for luminal-like ABC.",
+              "To identify potential biomarkers predictive of a clinical benefit in patients receiving a first line therapy with AI/fulvestrant (+/- LH-RH analogue) in association with a CDK4/6i for luminal-like ABC."
+            ],
+            "sponsor": "Centro di Riferimento Oncologico - Aviano",
+            "url": "https://clinicaltrials.gov/study/NCT06129786"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02107703",
+            "title": "MONARCH 2: A Randomized, Double-Blind, Placebo-Controlled, Phase 3 Study of Fulvestrant With or Without Abemaciclib, a CDK4/6 Inhibitor, for Women With Hormone Receptor Positive, HER2 Negative Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2014-07-22",
+            "completion_date": "2027-12",
+            "country": "Australia, Belgium, United States, Canada, South Korea, Italy, Russia, Poland, Japan, France, Germany, Denmark, Mexico, Switzerland, Spain, Romania, Finland, Greece, Puerto Rico, Taiwan",
+            "enrollment": 669,
+            "brief_summary": "The main purpose of this study is to compare progression-free survival for women with hormone receptor positive (HR+), human epidermal growth factor receptor (HER2) negative advanced breast cancer receiving either abemaciclib + fulvestrant or fulvestrant alone. Participants will be randomized to abemaciclib or placebo in a 2:1 ratio. The study will last about 9 months for each participant.\n\nFor the endocrine naïve cohort, all participants will received abemaciclib + fulvestrant.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Have a diagnosis of HR+, HER2- breast cancer\n* Have locally advanced disease not amenable to curative treatment by surgery or metastatic disease. In addition, participants must fulfill 1 of the following criteria:\n\n  * relapsed with radiologic evidence of progression while rece",
+            "endpoints": [
+              "Progression-Free Survival (PFS)"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT02107703"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05262400",
+            "title": "A PHASE 1B/2, OPEN-LABEL, MULTICENTER, DOSE ESCALATION AND DOSE EXPANSION STUDY TO EVALUATE THE SAFETY, TOLERABILITY, PHARMACOKINETICS, PHARMACODYNAMICS, AND ANTITUMOR ACTIVITY OF PF-07220060 IN COMBINATION WITH PF-07104091 PLUS ENDOCRINE THERAPY IN PARTICIPANTS WITH ADVANCED SOLID TUMORS",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-03-14",
+            "completion_date": "2026-08-23",
+            "country": "Spain, Brazil, Argentina, United States, China, Bulgaria, Czechia, Mexico, South Africa",
+            "enrollment": 192,
+            "brief_summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called PF-07220060 and PF-07104091) in people with breast cancer. This clinical study consists of 2 parts (part 1 and part 2). In part 1, we are seeking participants who:\n\n* Have been diagnosed with Breast Cancer (BC) of either types:\n* Have HR+, HER2- BC\n* Refractory HR-positive/HER2-positive BC\n* Have other solid tumors other than BC\n\nIn part 2, we are seeking participants who:\n\n-Have HR-positive",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Part 1: Breast Cancer (BC)\n* HR+, HER2- BC\n* Refractory HR-positive/HER2-positive BC\n* Part 1: Solid Tumors other than BC\n* Part 2:\n* HR-positive/HER2-negative BC\n* Lesion:\n* Part 1: evaluable lesion (including skin or bone lesion only)\n* Part 2: measurable lesion per RECIST v1",
+            "endpoints": [
+              "Dose Escalation: Number of participants with Dose-limiting toxicities (DLT) during first cycle",
+              "Number of participants with treatment emergent adverse events (AEs)",
+              "Incidence of participants with clinical laboratory abnormalities"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05262400"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05631795",
+            "title": "ALPelisib INdia Safety STudy (ALPINIST): A Phase IV, Prospective, Multicenter, Open-label, Non-comparative, Interventional Study to Assess the Safety of Alpelisib Plus Fulvestrant, in Men and Post-menopausal Women With HR Positive, HER2-negative, Advanced Breast Cancer (aBC) With a PIK3CA Mutation, Whose Disease Has Progressed on or After Endocrine Based Treatment.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2022-08-09",
+            "completion_date": "2025-06-12",
+            "country": "India",
+            "enrollment": 40,
+            "brief_summary": "The purpose of this study is to determine the safety of alpelisib plus fulvestrant in men and post-menopausal women with HR-positive, HER2-negative, advanced or metastatic breast cancer (aBC) with a PIK3CA mutation, whose disease has progressed on or after endocrine-based treatment",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Participants with confirmed PIK3CA mutant advanced or metastatic breast cancer\n* Postmenopausal females and males ≥ 18 years old with confirmed HR-positive, HER2-negative advanced or metastatic breast cancer.\n* Adequate liver function\n* Adequate renal function\n* Fasting pl",
+            "endpoints": [
+              "Percentage of participants with at least one on-treatment adverse events (AEs)"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT05631795"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06135714",
+            "title": "a Randomized Trial for OLIGo Metastases Breast cAncer With or Without Metastasis-dIrected Therapy",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2023-11-08",
+            "completion_date": "2032-10-31",
+            "country": "Japan",
+            "enrollment": 340,
+            "brief_summary": "OLIGAMI trial is a multi-institutional, two-arm, open-label, randomized controlled phase III trial being conducted with the participation of 50 hospitals belonging to Japan Clinical Oncology Group. After the first registration, all patients will be performed in a 12-week, subtype-specific, systemic therapy consisting of CDK4/6 inhibitors with hormonal therapy for luminal BC, docetaxel with trastuzumab and pertuzumab for HER2-positive BC, chemotherapy with immune checkpoint inhibitors for triple-",
+            "eligibility_criteria": "Primary Registration Eligibility Criteria:\n\n1. Histologically diagnosed as invasive breast cancer. Biopsy from oligometastasis is desirable but not required.\n2. Histologically proven positive/negative for ER, PgR, and HER2, and classified as luminal, HER2-positive, or TN breast cancer.\n3. One of the",
+            "endpoints": [
+              "Overall survival after second registration"
+            ],
+            "sponsor": "Tokyo Medical and Dental University",
+            "url": "https://clinicaltrials.gov/study/NCT06135714"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01701050",
+            "title": "COMETI Phase 2: Characterization of Circulating Tumor Cells (CTC) From Patients With Metastatic Breast Cancer Using the CTC-Endocrine Therapy Index",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2013-04-01",
+            "completion_date": "2016-11-10",
+            "country": "Canada, United States",
+            "enrollment": 121,
+            "brief_summary": "Utilizing CellSearch® technology, the ability to both enumerate and reliably and reproducibly characterize circulating tumor cells (CTC) for tumor markers that predict endocrine sensitivity (estrogen receptor \\[ER\\] and Bcl-2) and resistance (HER2 and Ki67) has been demonstrated. An algorithm for a CTC-Endocrine Therapy Index (CTC-ETI) has been constructed that can be calculated for each patient using the CTC enumeration and marker results. The primary goal of this study is to determine a CTC-ET",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent.\n* Women who are 18 years or older.\n* Patients must have estrogen receptor (ER) positive, HER2 negative metastatic breast cancer (MBC) with at least one non-irradiated distant site of metastasis.\n* ECOG performance status of 0-2.\n* Patients must have cu",
+            "endpoints": [
+              "Rapid Disease Progression"
+            ],
+            "sponsor": "Janssen Diagnostics, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01701050"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02646735",
+            "title": "A Randomized, Open Label, Multi-Centre Study to Compare the Efficacy and Tolerability of Fulvestrant 500mg With Exemestane for Postmenopausal Advanced Breast Cancer Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2015-12",
+            "completion_date": "2020-12",
+            "country": "China",
+            "enrollment": 148,
+            "brief_summary": "A Randomized, Open label, Parallel-group, Multi-center study. Eligible patients will be randomized in a 1:1 ratio to receive fulvestrant 500 mg or Exemestane 25mg.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent document on file;\n* Age over 60 years;\n* Age \\< 60 years and amenorrheic for 12 or more months in the absence of chemotherapy, tamoxifen, toremifene, or ovarian suppression and FSH and oestradiol level in the postmenopausal range;\n* Patients with metast",
+            "endpoints": [
+              "PFS"
+            ],
+            "sponsor": "ChineseAMS",
+            "url": "https://clinicaltrials.gov/study/NCT02646735"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03280563",
+            "title": "A Phase Ib/II, Open-Label, Multicenter, Randomized Umbrella Study Evaluating the Efficacy and Safety of Multiple Immunotherapy-Based Treatment Combinations in Patients With Hormone Receptor-Positive HER2-Negative Breast Cancer (MORPHEUS-HR+ Breast Cancer)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-12-22",
+            "completion_date": "2024-09-26",
+            "country": "Israel, United States, South Korea",
+            "enrollment": 144,
+            "brief_summary": "This study is designed to evaluate the efficacy, safety, and pharmacokinetics of several immunotherapy-based combination treatments in participants with inoperable locally advanced or metastatic HR-positive, HER2-negative breast cancer who have progressed during or following treatment with a cyclin-dependent kinase (CDK) 4/6 inhibitor in the first- or second-line setting, such as palbociclib, ribociclib, or abemaciclib. The study will be performed in two stages. During Stage 1, participants will",
+            "eligibility_criteria": "Inclusion Criteria for Both Stages:\n\n* Measurable disease per RECIST v1.1\n* Adequate hematologic and end organ function\n* Disease progression during or after first- or second-line hormonal therapy with CDK4/6 inhibitor\n\nInclusion Criteria for Stage 1:\n\n* Eastern Cooperative Oncology Group (ECOG) per",
+            "endpoints": [
+              "Stage 1: Percentage of Participants With Objective Response"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03280563"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03195192",
+            "title": "Utilizing Multiomic Advanced Diagnostics to Identify CDK 4/6 Inhibitor Response Predictors and a Post-treatment Multiomic Signature for Patients With ER+/HER2- Metastatic Breast Cancer",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-03-09",
+            "completion_date": "2020-06-30",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "This is an open-label, multicenter study in patients with metastatic breast cancer who are candidates for standard first line treatment with palbociclib or ribociclib plus endocrine therapy. To be eligible, patients must have received no prior chemotherapeutic or hormonal regimen for metastatic disease. However, patients may still be considered eligible if they have already started treatment with endocrine therapy (an aromatase inhibitor or fulvestrant) plus palbociclib or ribociclib for no long",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically proven diagnosis of adenocarcinoma of the breast with evidence of locoregionally recurrent or metastatic disease.\n* Tumors must be estrogen and/or progesterone receptor positive according to ASCO/CAP 2010 guidelines as either ",
+            "endpoints": [
+              "Evaluate baseline phosphorylated RB levels in tumor tissue as a predictive marker of response to palbociclib or ribociclib as first line treatment for ER+/HER2- metastatic breast cancer"
+            ],
+            "sponsor": "Side-Out Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT03195192"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02753686",
+            "title": "Treatment of Canadian Men and Pre/Postmenopausal Women With ER+ Advanced Breast Cancer in the Real-World Setting With Hormone Therapy ± Targeted Therapy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-03-15",
+            "completion_date": "2022-12-01",
+            "country": "Canada",
+            "enrollment": 440,
+            "brief_summary": "Although randomized controlled trials (RCTs) provide evidence of efficacy, generalization of these results to patients in the real-world setting is challenging, given RCTs are conducted in highly selected patient populations.\n\nAn understanding of the effectiveness of approved cancer therapies in routine clinical practice is essential in order to optimize the management of these patients and to identify treatment and monitoring gaps.\n\nThis is the first Canadian study to describe real-world treatm",
+            "eligibility_criteria": "INCLUSION CRITERIA:\n\n1. Patient is an adult, male or female ≥ 18 years old at the time of informed consent.\n2. Patient has histologically and/or cytologically confirmed diagnosis of breast cancer.\n3. Patient has inoperable locally advanced or metastatic breast cancer.\n4. Patient has ER positive and/",
+            "endpoints": [
+              "Duration on Treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02753686"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04539496",
+            "title": "A Multicenter, Open-label Phase I/II Study of XZP-3287 in Metastasis Solid Tumors in China",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-05-22",
+            "completion_date": "2025-12-31",
+            "country": "China",
+            "enrollment": 402,
+            "brief_summary": "This study includes single agent/combination dose exploration study and the phase II study. The primary purpose of the dose exploration study is to determine the maximum tolerated dose(MTD)/recommended phase II dose(RP2D) of XZP-3287 and assess its safety and preliminary efficacy in solid tumor patients. The phase II study aims to explore the efficacy and safety profiles of XZP-3287 as a single- agent in hormone receptor(HR) positive, human epidermal growth factor receptor 2(HER2) negative advan",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Single agent and combination dose exploration study：Patient is an adult male/female 18\\~70 years old; the phase II study：Patient is an adult male/female ≥ 18 years old;\n* Single agent dose escalation study ：Patients with a histologically or cytologically confirmed diagnosis of",
+            "endpoints": [
+              "Single agent and combination dose exploration study：AE evaluation",
+              "The phase II study：Objective response rate (ORR) assessed by Independent Review Committee (IRC)"
+            ],
+            "sponsor": "Sihuan Pharmaceutical Holdings Group Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT04539496"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07288359",
+            "title": "An Open-label, Multi-center, Phase I/II Study of GVV858 as a Single Agent and in Combination With Endocrine Therapy in Patients With Advanced Hormone Receptor Positive, HER2- Negative Breast Cancer and Other Advanced Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-12-29",
+            "completion_date": "2031-05-09",
+            "country": "Singapore, United States, Taiwan, Japan",
+            "enrollment": 205,
+            "brief_summary": "Phase I: Characterize safety and tolerability of GVV858 as a single agent and in combination with fulvestrant or letrozole. Identify dose range for optimization/recommended dose for further clinical evaluation.\n\nPhase II: Further characterize the safety and tolerability of GVV858 in combination with fulvestrant in patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years old.\n* Patients with one of the following histologically or cytologically confirmed advanced cancers:\n\nPhase I (patients with one of the following cancers, from whom no standard therapy is available or appropriate in the judgment of the investigator):\n\n* HR+/HER",
+            "endpoints": [
+              "Phase I: Incidence and severity of dose-limiting toxicities (DLTs)",
+              "Phase I and phase II: Incidence and severity of adverse events (AEs) and serious adverse events (SAEs)",
+              "Phase I and phase II: Frequency of dose interruptions, reductions and discontinuations"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT07288359"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05343117",
+            "title": "Comparative Effectiveness of Palbociclib Based-therapy as Initial Endocrine Therapy Versus Palbociclib Based-therapy After Chemotherapy for HR+/HER2- Advanced Breast Cancer in Chinese Clinical Practice: a Real-world Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2021-12-01",
+            "completion_date": "2024-06-01",
+            "country": "China",
+            "enrollment": 400,
+            "brief_summary": "A multi-center non-interventional observational study led by the Cancer Hospital Chinese Academy of Medical Sciences to compare the effectiveness of palbociclib based-therapy as initial endocrine therapy versus palbociclib based-therapy after chemotherapy for HR+/HER2- advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years, female (retrospective part);\n2. Histologically or cytologically confirmed recurrent or metastatic HR+/HER2- breast cancer, if there was metastatic pathology, the histological pathology of metastases should prevail (retrospective part);\n3. Received palbociclib ",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "ChineseAMS",
+            "url": "https://clinicaltrials.gov/study/NCT05343117"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04300790",
+            "title": "Study to Evaluate the Effect of Metformin in the Prevention of Hyperglycemia in HR[+]/HER2[-] PIK3CA-mutation Advanced Breast Cancer Patients Treated With Alpelisib Plus Endocrine Therapy. Study Metallica",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-10-23",
+            "completion_date": "2025-03-16",
+            "country": "Spain",
+            "enrollment": 69,
+            "brief_summary": "Men and post- or induced menopausal women with ER\\[+\\] and/or PgR\\[+\\], HER2\\[- \\] advanced BC, with centrally-confirmed PI3KCAMut who progressed to an aromatase inhibitor (AI) regimen.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed Informed Consent Form (ICF)prior to participation in any study- related activities.\n2. Men, pre-menopausal or post-menopausal women ≥ 18 years of age at the time of signing ICF.\n3. Men and pre-menopausal women should have been treated with a luteinizing hormone-releasi",
+            "endpoints": [
+              "Assess the rate of patients with G3-4 hyperglycemia (HG) by CTCAE v4.03 over the first 2 cycles of treatment with alpelisib (BYL719) (Cohorts A and B)",
+              "Assess the rate of patients with permanent discontinuation of alpelisib due to related AEs after 8 weeks of treatment with alpelisib plus endocrine therapy and antidiabetic treatment (Cohort C)."
+            ],
+            "sponsor": "MedSIR",
+            "url": "https://clinicaltrials.gov/study/NCT04300790"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01626222",
+            "title": "A Phase IIIB, Multi-Center, Open Label Study For Postmenopausal Women With Estrogen Receptor Positive Locally Advanced or Metastatic Breast Cancer Treated With Everolimus (RAD001) in Combination With Exemestane: 4EVER - Efficacy, Safety, Health Economics, Translational Research",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-06",
+            "completion_date": "2013-11",
+            "country": "Germany",
+            "enrollment": 301,
+            "brief_summary": "The present multi-center, open-label, single-arm study aims to evaluate the efficacy and safety, quality of life and health resources utilization in postmenopausal women with hormone receptor positive breast cancer progressing following prior therapy with non-steroidal aromatase inhibitors (NSAI) treated with the combination of Everolimus and Exemestane.",
+            "eligibility_criteria": "Main Inclusion criteria:\n\nMetastatic or locally advanced breast cancer not amenable to curative treatment by surgery or radiotherapy or any other non-systemic treatment.\n\nHistological or cytological confirmation of estrogen receptor positive (ER+) and/or progesterone receptor positive (PgR+), human ",
+            "endpoints": [
+              "Overall Response Rate (ORR) after 24 weeks of treatment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT01626222"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04936295",
+            "title": "A Phase II Study of the Efficacy and Tolerability of Fulvestrant Plus Anlotinib in HR(+)/HER2(-) Metastatic Breast Cancer Patients With FGFR Mutation",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2021-06-16",
+            "completion_date": "2025-06-01",
+            "country": "China",
+            "enrollment": 61,
+            "brief_summary": "Previous studies have shown that the FGF signaling pathway is closely related to endocrine therapy resistance in breast cancer, but there is not sufficient evidence for the combination of endocrine therapy and FGFR inhibitors. Anlotinib is a highly effective VEGFRs, FGFRs, PDGFRs multi-target tyrosine kinase inhibitor. Therefore, we conducted this single-arm, single-center phase II clinical study to evaluate the efficacy and the safety of anlotinib combined with fulvestrant in patients with meta",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Voluntarily sign the informed consent form;\n2. 18-75 years old;\n3. Women in any menstrual state, premenopausal or perimenopausal patients need to receive luteinizing hormone releasing hormone(LHRH) analogue;\n4. Eastern Cooperative Oncology Group (ECOG) score \\[0-1\\] points;\n5",
+            "endpoints": [
+              "Clinical benefit rate (CBR)"
+            ],
+            "sponsor": "Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT04936295"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02422615",
+            "title": "A Randomized Double-blind, Placebo-controlled Study of Ribociclib in Combination With Fulvestrant for the Treatment of Men and Postmenopausal Women With Hormone Receptor Positive, HER2-negative, Advanced Breast Cancer Who Have Received no or Only One Line of Prior Endocrine Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-06-09",
+            "completion_date": "2023-01-11",
+            "country": "Australia, Belgium, Austria, United States, Lebanon, Canada, South Korea, Netherlands, Italy, Russia, Czechia, Sweden, Thailand, Norway, Poland, Colombia, United Kingdom, France, Germany, Denmark, Mexico, Hungary, Jordan, Switzerland, Spain, Turkey (Türkiye), Portugal, Bulgaria, Malaysia, Singapore",
+            "enrollment": 726,
+            "brief_summary": "The main aim of this study was to evaluate the efficacy and safety of adding ribociclib to fulvestrant in men and postmenopausal women with hormone receptor positive (HR+), HER2-negative advanced breast cancer.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. Patients were adults, both male and female, aged ≥ 18 years at the time of providing informed consent. Female patients were required to be postmenopausal. Informed consent was obtained prior to any trial-related activities, following local guidelines.\n2. Patients had a co",
+            "endpoints": [
+              "Progression Free Survival (PFS) Per Investigator Assessment"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02422615"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06619704",
+            "title": "A rEtrospectIve Real-world Analysis of earLy responsE ratEs With Ribociclib and Endocrine Therapy and Descriptive aNalysis of HR+, HER2- Metastatic Breast Cancer Patients Treated With Chemotherapy (EILEEN)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2022-08-10",
+            "completion_date": "2023-09-27",
+            "country": "United States",
+            "enrollment": 194,
+            "brief_summary": "EILEEN was a non-interventional/observational, retrospective, multi-center, real life cohort study conducted in 14 private and academic oncology clinics in Turkey. Group I cohort of the study was based on secondary use of data of postmenopausal hormone receptor-positive (HR+), human epidermal growth factor receptor 2-negative (HER2-) metastatic breast cancer (MBC) patients treated with ribociclib in combination with letrozole (LET) or fulvestrant (FUL) after June 2020. Group II cohort of the stu",
+            "eligibility_criteria": "Inclusion Criteria:\n\nGroup I: Postmenopausal female patients who had histologically or cytologically confirmed HR-positive (10% or more ER+), HER2-negative, metastatic breast cancer and initiated ribociclib combinations per local label.\n\n* Treated with ribociclib plus letrozole relapsed after 12 mon",
+            "endpoints": [
+              "Overall Response Rate (ORR) at First Assessment After Initiation of Treatment Combinations"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT06619704"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05564377",
+            "title": "Molecular Analysis for Combination Therapy Choice (ComboMATCH)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-04-07",
+            "completion_date": "2030-07-01",
+            "country": "Puerto Rico, United States",
+            "enrollment": 2900,
+            "brief_summary": "This ComboMATCH patient screening trial is the gateway to a coordinated set of clinical trials to study cancer treatment directed by genetic testing. Patients with solid tumors that have spread to nearby tissue or lymph nodes (locally advanced) or have spread to other places in the body (advanced) and have progressed on at least one line of standard systemic therapy or have no standard treatment that has been shown to prolong overall survival may be candidates for these trials. Genetic tests loo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must have measurable disease\n* Patient must have an Eastern Cooperative Oncology Group (ECOG) performance status between 0-2 OR patient must have Lansky performance status of \\>= 50% or Karnofsky performance status of \\>= 50%\n* Patient must be deemed potentially eligib",
+            "endpoints": [
+              "Accrual of patients to ComboMATCH treatment trials",
+              "Assignment of patients to ComboMATCH treatment trials",
+              "Enrollment rates to ComboMATCH treatment trials"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05564377"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06630325",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART): Adaptive Clinical Treatment (ACT)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2025-06-24",
+            "completion_date": "2033-06-30",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This phase II trial tests the how well a precision medicine approach (serial measurements of molecular and architectural response to therapy \\[SMMART\\])-adaptive clinical treatment \\[ACT\\]) works in treating patients with sarcoma, prostate, breast, ovarian or pancreatic cancer that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced). SMMART testing uses genetic and protein tests to learn how cancer changes and to understand what drug",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-SCREENING: Written informed consent prior to any Pre-Screening activities, study-specific procedures or interventions\n* PRE-SCREENING: At least 18 years of age at time of informed consent. Persons of all gender identities, biological sexes, races, and ethnicities will be i",
+            "endpoints": [
+              "Proportion of participants who receive an adaptive clinical treatment (ACT) therapy based serial measurements of molecular and architectural responses to therapy (SMMART)-ACT tumor board recommendation"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06630325"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04967248",
+            "title": "Alpelisib (Piqray®) Post-Authorization Safety Study (PASS): a Non-interventional Study of Alpelisib in Combination With Fulvestrant in Postmenopausal Women, and Men, With Hormone Receptor Positive (HR+), Human Epidermal Growth Factor Receptor 2 Negative (HER2-), Locally Advanced or Metastatic Breast Cancer With a Phosphatidylinositol-3-kinase Catalytic Subunit Alpha (PIK3CA) Mutation, After Disease Progression Following Endocrine Therapy as Monotherapy, in the Real-world Setting",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "start_date": "2023-06-21",
+            "completion_date": "2024-10-18",
+            "country": "N/A",
+            "enrollment": 4,
+            "brief_summary": "This was a prospective, multi-national, non-interventional study (NIS) collecting data from postmenopausal women, and adult men, with HR+, HER2- locally advanced or metastatic breast cancer whose tumor harbors a PIK3CA mutation, and who were to be treated with alpelisib in combination with fulvestrant after disease progression following endocrine therapy as monotherapy, in the real-world setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent from the patient or a legally acceptable representative, obtained before any study-related activities are undertaken\n* Patients diagnosed with HR+, HER2- locally advanced or metastatic breast cancer with a PIK3CA mutation\n* Patients who have disease pro",
+            "endpoints": [
+              "Incidence proportion of hyperglycemia"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04967248"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05362760",
+            "title": "Combination of Abemaciclib and Endocrine Therapy in Hormone Receptor Positive HER2 Negative Locally Advanced or Metastatic Breast Cancer With Focus on Digital Side Effect Management. The MINERVA Trial - A Phase IV Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2022-04-27",
+            "completion_date": "2029-04",
+            "country": "Germany, Switzerland",
+            "enrollment": 300,
+            "brief_summary": "The MINERVA Trial aims to evaluate safety, efficacy and quality of life (QoL) for the combination of Abemaciclib with an Aromatase Inhibitor or Fulvestrant in pre- and postmenopausal patients with metastatic hormone receptor positive HER2 negative breast cancer in the first line setting.\n\nSide effect monitoring and patient reported outcomes will be captured using the web- and app-based CANKADO digital health application. Via this user-friendly tool the patients can document their therapy side ef",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients will be included in the trial only if they meet all the following criteria:\n\n1. Have given written informed consent prior to any trial-specific procedures\n2. Are reliable, willing to be available for the duration of the trial and are willing to follow trial procedures\n3",
+            "endpoints": [
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "University of Ulm",
+            "url": "https://clinicaltrials.gov/study/NCT05362760"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07062965",
+            "title": "An Interventional, Open-Label, Randomized, Multicenter, Phase 3 Study of PF-07248144 Plus Fulvestrant Compared to Investigator's Choice of Therapy in Adult Participants With Hormone Receptor-Positive, HER2-Negative Advanced/Metastatic Breast Cancer Whose Disease Progressed After Prior CDK4/6 Inhibitor-based Therapy",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-08-05",
+            "completion_date": "2030-11-04",
+            "country": "Australia, India, Belgium, United States, Canada, South Korea, Netherlands, Italy, Czechia, Sweden, Poland, Japan, Israel, Spain, Slovakia, Finland, China, Bulgaria, Greece, Puerto Rico, Taiwan",
+            "enrollment": 400,
+            "brief_summary": "The purpose of this study is to learn about the safety and effects of the study medicine PF-07248144 when given along with fulvestrant for the possible treatment of HR-positive, HER2-negative advanced or metastatic breast cancer.\n\nHR-positive breast cancer cells have proteins on their surface called receptors that bind to hormones like estrogen and progesterone (female sex hormones). These hormones can promote the growth of cancer cells.\n\nHER2-negative describes cells that have a small amount or",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of HR-positive HER2-negative breast cancer with evidence of locally advanced or metastatic disease, which is not amenable to surgical resection or radiation therapy with curative intent.\n* Prior CDK4/6 inhibitor therapy in combination with endocrine therapy",
+            "endpoints": [
+              "Progression Free Survival (PFS) as determined by blinded independent central review (BICR) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT07062965"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04791384",
+            "title": "Multicenter Open Label Phase Ib/II Trial of Abemaciclib and Elacestrant in Patients With Brain Metastasis Due to HR+/Her2- Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2022-04-21",
+            "completion_date": "2025-01",
+            "country": "United States",
+            "enrollment": 44,
+            "brief_summary": "This is a multi-institutional, single arm, open label, Phase Ib/II study of abemaciclib in combination with elacestrant in patients with HR+/Her2- breast cancer metastatic to the brain. Patients may have received up to two prior lines of systemic chemotherapy for locally advanced or metastatic disease. There will be no limit on prior use of endocrine therapy including aromatase inhibitors, tamoxifen and fulvestrant, given a documented clinical benefit of elacestrant in this setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients will be eligible for inclusion in this study if all of the following criteria apply:\n\n  1. Post-menopausal women with histologically or cytologically diagnosed metastatic HR+/Her2- breast cancer defined as positive for estrogen receptor or progesterone receptor (more ",
+            "endpoints": [
+              "The number of patients in Phase 1b part of the study with any adverse events (AE).",
+              "Assess the efficacy of the drug combination abemaciclib and elacestrant."
+            ],
+            "sponsor": "Criterium, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04791384"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02291913",
+            "title": "Phase II Open Label Study of Everolimus in Combination With Anti-estrogen Therapy in Hormone Receptor-Positive HER2-Negative Advanced Breast Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-12-18",
+            "completion_date": "2019-01-31",
+            "country": "United States",
+            "enrollment": 48,
+            "brief_summary": "Many patients with ER-positive or PR-positive breast cancer are treated with endocrine therapy. Although most ER/PR-positive tumors initially respond to hormonal therapy, patients often experience disease progression. Everolimus, in combination with exemestane, has shown activity in endocrine-resistant disease. This study will evaluate the efficacy of Everolimus+ anti-estrogen therapy in patients with ER-positive metastatic breast cancer who have progressed after receiving anti-estrogen therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologic diagnosis of unresectable, locally recurrent or MBC.\n2. ER and/or PR-positive tumors with staining by immunohistochemistry (IHC) based on the most recent biopsy.\n3. Only 1 previous chemotherapy regimen for MBC. Patients progressing while receiving adjuvant endocrin",
+            "endpoints": [
+              "Median Progression Free Survival (PFS)"
+            ],
+            "sponsor": "SCRI Development Innovations, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT02291913"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04557449",
+            "title": "A PHASE 1/2A STUDY EVALUATING THE SAFETY, TOLERABILITY, PHARMACOKINETICS, PHARMACODYNAMICS, AND ANTI-TUMOR ACTIVITY OF PF-07220060 AS A SINGLE AGENT AND AS PART OF COMBINATION THERAPY IN PARTICIPANTS WITH ADVANCED SOLID TUMORS",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-09-23",
+            "completion_date": "2027-11-23",
+            "country": "United Kingdom, Slovakia, Argentina, United States, China, Mexico, Czechia, Japan",
+            "enrollment": 362,
+            "brief_summary": "This is a Phase 1/2A, open label, multicenter, nonrandomized, multiple dose, safety, tolerability, pharmacokinetic and pharmacodynamic study of PF-07220060 administered as a single agent and then in combination with endocrine therapy.\n\nThe study consists of two parts and a China and Japan monotherapy cohort. Part 1 includes dose escalation cohorts evaluating PF-07220060 as single agent or in combination with endocrine therapy or enzalutamide, as well as a food effect cohort and a DDI cohort Part",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Part 1: Breast Cancer (BC)\n\n  * Refractory Hormone Receptor Positive (HR+), Human Epidermal Growth Factor Receptor 2 Negative (HER2-) BC\n  * Part 1A/Part 1D/Part1E also include: Refractory HR-positive/HER2-positive BC\n* Part 1: Tumors other than BC (Part 1A/Part 1D/Part 1E): NS",
+            "endpoints": [
+              "Number of participants with dose limiting toxicities in the Dose Escalation Portion",
+              "Incidence of clinically significant AEs",
+              "Incidence of clinically significant laboratory assessments"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04557449"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03519178",
+            "title": "PHASE 1/2A DOSE ESCALATION AND EXPANSION STUDY EVALUATING SAFETY, TOLERABILITY, PHARMACOKINETIC, PHARMACODYNAMICS AND ANTI-TUMOR ACTIVITY OF PF-06873600 AS A SINGLE AGENT AND IN COMBINATION WITH ENDOCRINE THERAPY",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2018-03-07",
+            "completion_date": "2024-10-30",
+            "country": "Canada, United States, Bulgaria, Russia, Ukraine, Japan",
+            "enrollment": 155,
+            "brief_summary": "The purpose of this clinical trial is to learn about the safety and effects of study medicine (PF-06873600) when taken alone or with hormone therapy by people with cancer.\n\nPeople may be able to participate in this study if they have the following types of cancer: Hormone Receptor positive (HR+) breast cancer; Human Epidermal Growth Factor Receptor 2 (HER2)-negative breast cancer that is advanced or metastatic (spread to other parts of the body); triple negative breast cancer; epithelial ovarian",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a diagnosis of Hormone Receptor Positive (HR+), Human Epidermal Growth Factor Receptor 2 Negative (HER2-) breast cancer\n\n  • Prior combined CDK 4/6 inhibitor and endocrine therapy and 1 or 2 prior lines of chemotherapy\n* Have a diagnosis of metastatic triple negative brea",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicities (DLTs) - Part 1",
+              "Number of Participants With Adverse Events (AEs) and Serious AEs (SAEs) - Part 1 + Part 2",
+              "Number of Participants With Worst Post-Baseline Hematology Results Based on Common Terminology Criteria for Adverse Events (CTCAE) Grade: Part 1 + Part 2"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03519178"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03238196",
+            "title": "A Phase Ib Trial of Fulvestrant, Palbociclib (CDK4/6 Inhibitor) and Erdafitinib (JNJ- 42756493,Pan-FGFR Tyrosine Kinase Inhibitor) in ER+/HER2-/FGFR-Amplified Metastatic Breast Cancer (MBC)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-08-18",
+            "completion_date": "2024-03-20",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "This is an open-label, multi-institution, phase Ib trial that evaluates the safety and tolerability and preliminary anti-tumor activity of fulvestrant, palbociclib and erdafitinib in patients with ER+/HER2-/FGFR-amplified metastatic breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must be able to swallow and retain oral medication\n* Patients must be ≥ 18 years of age\n* Female patients of no childbearing potential must be post-menopausal. Postmenopausal female subjects should be defined prior to protocol enrollment by any of the following:\n* Par",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicities (DLT) in the First Cycle for the Determination of the Maximum Tolerated Dose (MTD)"
+            ],
+            "sponsor": "Vanderbilt-Ingram Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03238196"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06726148",
+            "title": "An Open-label, Multi-center, Phase I/II Study of ECI830 as a Single Agent and in Combination With Ribociclib and Endocrine Therapy in Patients With Advanced Hormone Receptor Positive, HER2-negative Breast Cancer and Advanced Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-04-03",
+            "completion_date": "2028-09-25",
+            "country": "Australia, Spain, France, Canada, South Korea, Germany, Israel, Italy, Denmark, United States, Czechia, Singapore, Taiwan, Japan",
+            "enrollment": 280,
+            "brief_summary": "Phase I: Characterize safety and tolerability of ECI830 as a single agent and in combination with ribociclib and fulvestrant. Identify dose range for optimization/recommended dose for future studies.\n\nPhase II: Assess the anti-tumor activity of ECI830 in combination with ribociclib and fulvestrant in patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAge ≥ 18 years old.\n\nPatients with one of the following indications:\n\nPhase I:\n\nHR+/HER2- aBC with disease progression on or following at least one line of hormone-based therapy in combination with a CDK4/6i and at least one additional line of systemic therapy for metastatic dis",
+            "endpoints": [
+              "Phase I: Incidence of dose-limiting toxicities (DLTs)",
+              "Phase I: Incidence of adverse events (AEs) and serious adverse events (SAEs)",
+              "Phase I: Number of participants with dose interruptions, reductions and discontinuations"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT06726148"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05654623",
+            "title": "A PHASE 3, RANDOMIZED, OPEN-LABEL, MULTICENTER TRIAL OF ARV-471 (PF-07850327) VS FULVESTRANT IN PARTICIPANTS WITH ESTROGEN RECEPTOR-POSITIVE, HER2-NEGATIVE ADVANCED BREAST CANCER WHOSE DISEASE PROGRESSED AFTER PRIOR ENDOCRINE BASED TREATMENT FOR ADVANCED DISEASE (VERITAC-2)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-03-03",
+            "completion_date": "2028-05-15",
+            "country": "Australia, India, Belgium, Austria, United States, Canada, South Korea, Italy, Czechia, Sweden, Japan, Poland, United Kingdom, France, Brazil, Germany, Argentina, Israel, Mexico, Hungary, Switzerland, Spain, Turkey (Türkiye), Slovakia, Finland, China, Bulgaria, Greece, South Africa, Puerto Rico, Taiwan",
+            "enrollment": 624,
+            "brief_summary": "A study to learn about a new medicine called ARV-471 (PF-07850327) in people who have advanced metastatic breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult participants with loco-regional recurrent or metastatic breast disease not amenable to surgical resection or radiation therapy\n* Confirmed diagnosis of ER+/HER2- breast cancer\n* Prior therapies for locoregional recurrent or metastatic disease must fulfill all the followi",
+            "endpoints": [
+              "Progression Free Survival (PFS) by Blinded Independent Central Review (BICR) Assessment Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (v) 1.1- All Randomized Participants",
+              "PFS by BICR Assessment Per RECIST v1.1-Participants With ESR1 Mutation"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05654623"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02894398",
+            "title": "Open-label, Multi-center, sINGlE Arm Clinical Study to Evaluate Efficacy/QoL in Women With HR+, HER2-, Regionally Recurrent or Metastatic Breast Cancer Receiving Palbociclib With an AI or Fulvestrant After Prior Endocrine Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-09-06",
+            "completion_date": "2023-02-15",
+            "country": "Germany",
+            "enrollment": 388,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and quality of life in women with advanced breast cancer (locally advance inoperable or metastatic adenocarcinoma of the breast), HR+ / HER2-, who are treated with an aromatase inhibitor or fulvestrant as baseline therapy in combination with palbociclib (Ibrance)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Personally signed written informed consent prior to beginning protocol specific procedures, including expected cooperation of the patient for the treatment and follow-up, must be obtained and documented according to the local regulatory requirements\n2. Women with proven diagn",
+            "endpoints": [
+              "Clinical Benefit Rate (CBR)"
+            ],
+            "sponsor": "iOMEDICO AG",
+            "url": "https://clinicaltrials.gov/study/NCT02894398"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03939897",
+            "title": "A Randomized Phase I/II Trial of Fulvestrant and Abemaciclib in Combination With Copanlisib (FAC) Versus Fulvestrant and Abemaciclib Alone (FA) for Endocrine-Resistant, Hormone Receptor Positive, HER2 Negative Metastatic Breast Cancer (FAC vs FA)",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-06-17",
+            "completion_date": "2026-08-14",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This phase I trial studies the effects (good and bad) of adding copanlisib to the usual therapy of fulvestrant and abemaciclib in treating patients with hormone receptor positive and HER2 negative breast cancer that has spread from where it first started (breast) to other places in the body (metastatic). Some breast cancer cells have receptors for the hormones estrogen or progesterone. These cells are hormone receptor positive and they need estrogen or progesterone to grow. This can affect how t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed ER and/or PR positive, HER2 negative or non-amplified breast cancer that is stage IV, with measurable or non-measurable disease. ER/PR positivity is defined as at least 1% positive or an Allred score of at least 3. H",
+            "endpoints": [
+              "Dose-limiting Toxicity (DLT)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT03939897"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07340619",
+            "title": "UNLOCK - EPIBREAST, a Phase II Study of Prifetrastat (PF-07248144), a KAT6 Inhibitor, Plus Fulvestrant for Advanced HR+/HER2- Breast Cancer, With Biomarkers Analyses",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-05-18",
+            "completion_date": "2029-11-18",
+            "country": "N/A",
+            "enrollment": 51,
+            "brief_summary": "Although treatments for breast cancer have improved, 20-30% of patients with early disease develop metastases (cancer that spreads to other parts of the body). Among the different types of breast cancer, hormone-sensitive cancers that do not overexpress the HER2 protein (HR+/HER2-) are the most common. For patients with this type of cancer, an endocrine treatment such as aromatase inhibitors, tamoxifen or fulvestrant, is often used and may be combined with drugs called CDK4/6 inhibitors, which h",
+            "eligibility_criteria": "Inclusion Criteria:\n\nIn order to participate in the trial, all patients must meet all the following criteria:\n\n1. Patient must have signed the written informed consent prior to any study specific screening procedures.\n\n   Note : When the patient is physically unable to give her/his written consent, ",
+            "endpoints": [
+              "The primary objective of the study is to assess the effect of prifetrastat with fulvestrant on ctDNA-based mutation burden among patients with HR+/HER2- mBC."
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT07340619"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04726332",
+            "title": "A Dose Escalation and Expansion Study of the Safety and Pharmacokinetics of XL102 as Single-Agent and Combination Therapy in Subjects With Inoperable Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2021-02-10",
+            "completion_date": "2024-05-02",
+            "country": "United States",
+            "enrollment": 52,
+            "brief_summary": "This is a Phase 1, open-label, dose-escalation and expansion study evaluating the safety, tolerability, PK, antitumor activity, and effect on biomarkers of XL102 administered orally alone and in multiple combination regimens to subjects with advanced solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Cytologically or histologically and radiologically confirmed solid tumor that is inoperable, locally advanced, metastatic, or recurrent.\n* Dose-Escalation Stage Cohort A (Solid Tumors): The subject has a solid tumor that is unresectable or metastatic and for which life-prolong",
+            "endpoints": [
+              "Dose-Escalation Stage: MTD/recommended dose for XL102",
+              "Cohort-Expansion Stage: Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Exelixis",
+            "url": "https://clinicaltrials.gov/study/NCT04726332"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07366632",
+            "title": "A Phase I, International, Multicenter Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of a Single Dose of BL0175 Injection Compared With a Single Dose of Fulvestrant Injection in Postmenopausal Women",
+            "phase": "PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-26",
+            "completion_date": "2026-12-21",
+            "country": "N/A",
+            "enrollment": 27,
+            "brief_summary": "The goal of this clinical trial is to learn the safety and PK of the single dose of BL0175 Injection in postmenopausal women and to compare that with a single dose of Fulvestrant Injection. The main questions it aims to answer are:\n\n* What medical problems do participants have when using drug BL0175?\n* How long can BL0175 remain in your blood? Participants will receive a single dose of drug BL0175 or a single dose of Fulvestrant Injection in a randomized method",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Volunteer to participate in the study, be able to understand the requirements of a clinical study, and sign informed consent form.\n2. Postmenopausal female participants aged ≥ 18 years old.\n3. Body weight ≥ 45kg and body mass index (BMI= weight/height2) scores ≥ 18 kg/m2 and ",
+            "endpoints": [
+              "Number of participants with adverse events as assessed by CTCAE v6.0"
+            ],
+            "sponsor": "Shanghai Best-Link Bioscience, LLC",
+            "url": "https://clinicaltrials.gov/study/NCT07366632"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05252416",
+            "title": "A Phase 1/2 Study to Evaluate the Safety, Pharmacokinetics, and Efficacy of BLU-222 as a Single Agent and in Combination Therapy for Patients With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2022-04-07",
+            "completion_date": "2025-07-04",
+            "country": "Italy, United Kingdom, United States",
+            "enrollment": 50,
+            "brief_summary": "This is a Phase 1/2, open-label, first-in-human (FIH) study designed to evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and anticancer activity of BLU-222, a selective inhibitor of CDK2.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Advanced solid tumors that has progressed beyond standard of care OR\n2. HR+ HER2- BC that has progressed following treatment with a CDK4/6 inhibitor OR\n3. Endometrial and gastric cancer that has progressed after at least 2 prior therapies (including one prior platinum therapy",
+            "endpoints": [
+              "[Phase 1] Determine the maximum tolerated dose (MTD) of BLU-222",
+              "[Phase 1] Determine the recommended Phase 2 dose (RP2D) of BLU-222",
+              "[Phase 1] Rate and severity of adverse events"
+            ],
+            "sponsor": "Blueprint Medicines Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT05252416"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01226316",
+            "title": "A Phase I, Open-Label, Multicentre Study to Assess the Safety, Tolerability, Pharmacokinetics and Preliminary Anti-tumour Activity of Ascending Doses of AZD5363 Under Adaptable Dosing Schedules in Patients With Advanced Solid Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-12-01",
+            "completion_date": "2024-12-03",
+            "country": "Spain, United Kingdom, France, Canada, Netherlands, Italy, Denmark, United States, Singapore, Japan",
+            "enrollment": 285,
+            "brief_summary": "This study is designed to investigate the safety and tolerability of a new drug, AZD5363, in patients with advanced cancer - and to identify a dose and schedule that can be used in the future. This study will also investigate how the body handles AZD5363 (ie, how quickly the body absorbs and removes the drug). This study will also investigate anti-tumour activity of AZD5363 in patients with advanced / metastatic breast, gynaecological cancers or other solid cancers bearing either AKT1 / PIK3CA o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged at least 18 years.\n* Parts A,B: The presence of a solid, malignant tumour, excluding lymphoma, that is resistance to standard therapies or for which no standard therapies exist.\n* ER+/HER2+ breast, ovarian, cervical, endometrial cancer, or other solid cancers, resistance ",
+            "endpoints": [
+              "Parts A,B,C,D,E & F : Safety and tolerability of AZD5363 in terms of adverse events and serious adverse events",
+              "Parts A,B,C,D,E & F : Safety and tolerability of AZD5363 in terms of death",
+              "Parts A,B,C,D,E & F: Safety and tolerability of AZD5363 by assessing changes from baseline of laboratory data (clinical chemistry, haematology, urinalysis)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT01226316"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05295043",
+            "title": "A Multicenter Clinical Study Evaluating Real-world CDK4/6 Inhibitor Combined With Endocrine Therapy in HR+/HER2- Advanced Breast Cancer",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-12-10",
+            "completion_date": "2024-01-01",
+            "country": "N/A",
+            "enrollment": 500,
+            "brief_summary": "By retrospectively collecting and arranging real-world data of multi-center HR+/HER2- advanced breast cancer in China combined with CDK4/6 inhibitor and endocrine therapy, we analyzed different HER2 expression levels (HER2 0, 1+, 2+ and FISH-), especially Clinical outcomes of endocrine therapy for metastatic breast cancer with low HER2 expression (HER2 1+, 2+ and FISH-), exploring potential biomarkers of CDK4/6 inhibitors, and understanding the outcome characteristics of HER2 heterogeneity in MB",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\) Female patients with advanced breast cancer aged ≥18 years. 2) For breast cancer patients diagnosed as HR-positive and HER2-negative by pathological examination, the expression levels of ER, PR, and HER2 were reported by immunohistochemistry in the primary or metastatic le",
+            "endpoints": [
+              "Progression-free survival (PFS) From enrollment to progression or death (for any reason) Progression-free survival (PFS)"
+            ],
+            "sponsor": "Tianjin Medical University Cancer Institute and Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05295043"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07235176",
+            "title": "A Phase Ib/II Clinical Study to Evaluate Safety, Preliminary Efficacy and PK Characteristic of QLS1304 Combined With Endocrine Therapy in ER+/HER2- Breast Cancer Patients",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2026-01-05",
+            "completion_date": "2031-12-30",
+            "country": "China",
+            "enrollment": 300,
+            "brief_summary": "This study is a multi-center, open label, phase Ib/II clinical trial aimed at evaluating the safety, preliminary efficacy characteristic and PK characteristics of QLS1304 in combined with endocrine therapy in ER+/HER2- breast cancer patients. This study was divided into two stages: combo dose escalation and dose expansion.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Volunteer to participate in this study, sign an informed consent form and have good compliance;\n2. Age ≥ 18 years old, Male or female\n3. ECOG score: 0-1\n4. Expected survival ≥ 12 weeks\n5. Local recurrent or metastatic advanced ER+/HER2- breast cancer confirmed by histopatholo",
+            "endpoints": [
+              "Recommended Phase II Dose (RP2D) of QLS1304 in combo therapy",
+              "objective response rate（ORR）"
+            ],
+            "sponsor": "Qilu Pharmaceutical Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT07235176"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04606446",
+            "title": "A PHASE 1/2A DOSE ESCALATION AND EXPANSION STUDY TO EVALUATE SAFETY, TOLERABILITY, PHARMACOKINETIC, PHARMACODYNAMIC, AND ANTI-TUMOR ACTIVITY OF PF-07248144 IN PARTICIPANTS WITH ADVANCED OR METASTATIC SOLID TUMORS",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2020-11-16",
+            "completion_date": "2029-09-22",
+            "country": "Australia, South Korea, United States, China, Japan",
+            "enrollment": 320,
+            "brief_summary": "This is an open-label, multi center study to evaluate safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of PF-07248144 and early signs of clinical efficacy of PF-07248144 as a single agent and in combination with other agents",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Disease Characteristics - Breast, Prostate, and Lung Cancer\n* Part 1A (Monotherapy Dose Escalation) Histological or cytological diagnosis of locally advanced or metastatic ER+HER2- breast cancer, CRPC, or NSCLC that is intolerant or resistant to standard therapy or for which n",
+            "endpoints": [
+              "Number of participants with dose-limiting toxicities in the Dose Escalation Arms.",
+              "Safety and Tolerability as assessed by adverse event monitoring for participants enrolled in the Dose Escalation Arms.",
+              "Safety and Tolerability through monitoring of laboratory assessments for participants enrolled in the Dose Escalation Arms."
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04606446"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04059484",
+            "title": "An Open Label Randomized Phase 2 Trial of Amcenestrant (SAR439859), Versus Endocrine Monotherapy as Per Physician's Choice in Patients With Estrogen Receptor-positive, HER2-Negative Locally Advanced or Metastatic Breast Cancer With Prior Exposure to Hormonal Therapies",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2019-10-22",
+            "completion_date": "2025-01-02",
+            "country": "Australia, Belgium, Latvia, United States, Ukraine, Canada, South Korea, Italy, Russia, Czechia, Poland, Japan, France, Brazil, Argentina, Israel, Mexico, Spain, Turkey (Türkiye), China, Greece, Puerto Rico, Taiwan",
+            "enrollment": 367,
+            "brief_summary": "Primary Objective:\n\nTo determine whether amcenestrant per overall survival (os) improves progression free survival (PFS) when compared with an endocrine monotherapy of the choice of the physician, in participants with metastatic or locally advanced breast cancer\n\nSecondary Objectives:\n\n* To compare the overall survival in the 2 treatment arms\n* To assess the objective response rate in the 2 treatment arms\n* To evaluate the disease control rate in the 2 treatment arms\n* To evaluate the clinical b",
+            "eligibility_criteria": "Inclusion criteria :\n\n* 18 years or older.\n* Histological or cytological diagnosis of adenocarcinoma of the breast.\n* Locally advanced not amenable to radiation therapy or surgery in a curative intent, and/or metastatic disease.\n* Estrogen receptor(ER) positive status.\n* Human epidermal growth facto",
+            "endpoints": [
+              "Progression Free Survival (PFS)",
+              "Chinese Cohort: Progression Free Survival"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT04059484"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03772353",
+            "title": "Pyrotinib, Dalpiciclib(SHR6390) and Endocrine Therapy in Subjects With Dual-receptor Positive(ER+/HER2+) Advanced Breast Cancer: a Multi-center Phase Ib/II Study",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2019-05-12",
+            "completion_date": "2025-12-10",
+            "country": "China",
+            "enrollment": 59,
+            "brief_summary": "This is a single-center Ib / II study of triple targeted drug combination (endocrine therapy，novel HER2-targeted small molecule inhibitor pyrotinib and CDK4/6 inhibitor dalpiciclib(SHR6390) ) as a first or second line of therapy in patients with relapsed/metastatic hormone receptor positive and HER2-positive breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects voluntarily joined the study, signed informed consent, and had good compliance.\n2. Postmenopausal or premenopausal perimenopausal female patients aged ≥ 18 years and ≤ 75 years old,Meet one of the following:\n\n   * Previous bilateral oophorectomy, or age ≥ 60 years; o",
+            "endpoints": [
+              "The number of patients in the Phase 1b part of the study with any adverse events (AE).",
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT03772353"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06341894",
+            "title": "Efficacy and Safety of Dalpiciclib With Endocrine Therapy as Adjuvant Treatment in Patients With Hormone Receptor-positive, HER2-negative Early Breast Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-11-17",
+            "completion_date": "2029-06",
+            "country": "China",
+            "enrollment": 1163,
+            "brief_summary": "The investigator conduct a phase II multi-center, open-label trial to evaluate efficacy and safety of dalpiciclib with endocrine therapy as adjuvant treatment in patients with medium /high risk hormone receptor-positive, HER2-negative Early Breast Cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient is ≥ 18 years-old\n* Patient is female with known menopausal status (postmenopausal or premenopausal/perimenopause)\n* Patient with histologically confirmed HR+/HER2- early breast cancer (immunohistochemical ER and/or PR≥10%)\n* Histologically confirmed invasive breast ca",
+            "endpoints": [
+              "invasive Disease-free Survival (iDFS)"
+            ],
+            "sponsor": "The First Affiliated Hospital with Nanjing Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT06341894"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05216432",
+            "title": "First-in-Human Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, as a Single Agent in Patients With Advanced Solid Tumors and in Combination With Endocrine Therapy +/- a CDK4/6 or CDK4 Inhibitor in Patients With Advanced Solid Tumors or Advanced Breast Cancer",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-12-08",
+            "completion_date": "2027-04-30",
+            "country": "Australia, Spain, France, Italy, United States",
+            "enrollment": 930,
+            "brief_summary": "This is an open-label, FIH study designed to evaluate the maximum tolerated dose, recommended Phase 2 dose, safety, tolerability, PK, pharmacodynamics, and preliminary antineoplastic activity of RLY-2608, in advanced solid tumor patients with a Phosphatidylinositol-4,5-bisphosphate-3 kinase, catalytic subunit alpha (PIK3CA) mutation in blood and/or tumor per local assessment. The study will evaluate RLY-2608 as a single agent for patients with unresectable or metastatic solid tumors. It will als",
+            "eligibility_criteria": "Key Inclusion Criteria\n\nPatient has ECOG performance status of 0-1\n\nOne or more documented primary oncogenic PIK3CA mutation(s) in blood and/or tumor per local assessment\n\nOther potentially oncogenic PIK3CA mutations may be considered but must be approved by the Sponsor prior to enrollment.\n\nPart 1 ",
+            "endpoints": [
+              "Determination of maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D) of RLY-2608 as a single agent",
+              "Determination of maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D) of RLY-2608 in combination with fulvestrant",
+              "Determination of maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D) of RLY-2608 in combination with fulvestrant and a CDK 4/6 inhibitor (palbociclib, ribociclib), and in combination with CDK4 inhibitor (PF-07220060) and fulvestrant"
+            ],
+            "sponsor": "Relay Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05216432"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03355157",
+            "title": "A Randomized, Open-label, Multi-center Phase IV Study Evaluating Palbociclib Plus Endocrine Treatment Versus a Chemotherapy-based Treatment Strategy in Patients With Hormone Receptor Positive / HER2 Negative Breast Cancer in a Real World Setting (GBG 93 - PADMA Study).",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-03-01",
+            "completion_date": "2024-08-30",
+            "country": "Germany",
+            "enrollment": 130,
+            "brief_summary": "The goal of the study for patients with metastatic breast cancer (MBC) is to show that palbociclib + endocrine therapy shows a significant improvement in time-to-treatment failure over chemotherapy regimen (mono-chemotherapy with or without endocrine therapy). This would provide level 1 evidence from real world that palbociclib plus endocrine therapy is the first choice in MBC patients needing first-line therapy not only compared to endocrine therapy but also compared to chemotherapy with or wit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Written informed consent prior to beginning specific protocol procedures, including expected cooperation of the patients for the treatment and follow-up, willingness and ability to complete collection of data via wearable device and study mobile must be obtained and documente",
+            "endpoints": [
+              "Time-to-treatment failure (TTF)"
+            ],
+            "sponsor": "GBG Forschungs GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT03355157"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "simian immunodeficiency virus infection",
+        "txgnn_score": 0.9983224272727966,
+        "txgnn_rank": 3001,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "feline acquired immunodeficiency syndrome",
+        "txgnn_score": 0.9983224272727966,
+        "txgnn_rank": 3002,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.9981871247291564,
+        "txgnn_rank": 3161,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9958320260047911,
+        "txgnn_rank": 5759,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33587021",
+            "title": "Amelioration of rheumatoid arthritis in a breast cancer patient treated with palbociclib: a case report.",
+            "abstract": "Rheumatoid arthritis is a common autoimmune disease that requires new therapeutic agents. Cyclin-dependent kinase 4/6 inhibitors have recently been approved for metastatic breast cancer patients and have also been reported to improve the arthritis score in collagen-induced arthritis mouse models. We report a 56-year-old woman who had previously been diagnosed with rheumatoid arthritis and treated with methotrexate. At age 40, she underwent surgery with curative intent for breast cancer but subsequently developed lung metastases. Palbociclib, a cyclin-dependent kinase 4/6 inhibitor, was administered in combination with fulvestrant (anti-oestrogen drug) for metastatic breast cancer. One month later, serum matrix metalloproteinase-3 and C-reactive protein levels were markedly decreased, and her rheumatoid arthritis symptoms, which had worsened just prior to the detection of metastatic lung disease, showed amelioration. Methotrexate, which had been used to treat her rheumatoid arthritis, c",
+            "journal": "Modern rheumatology case reports",
+            "year": "2021",
+            "authors": [
+              "Murakami Fumi",
+              "Horimoto Yoshiya",
+              "Shimizu Hideo",
+              "Tada Kurisu",
+              "Yamaji Ken"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Breast Neoplasms",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Piperazines",
+              "Protein Kinase Inhibitors",
+              "Pyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33587021/"
+          },
+          {
+            "pmid": "39570400",
+            "title": "Estrogen hindrance escalates inflammation and neurodegeneration in the hippocampal regions of collagen-induced arthritis female Sprague-Dawley rats.",
+            "abstract": "This study aims to investigate the effect of estrogen hindrance, i.e., menopause in women for instance with rheumatoid arthritis on the brain hippocampal region by using collagen-induced arthritis (CIA) female rat model (RA). CIA was induced in female rats by injecting bovine type II collagen and incomplete Freund's adjuvant. Estrogen receptor antagonist, fulvestrant (Ful), was given to RA rats to create estrogen hindrance. Control (C) and RA rats were injected with saline and DMSO, respectively, while RA + Ful rats received a 7-day fulvestrant injection. Following experiment completion, rats were sacrificed, and brains were harvested. Brains were stained with H&E and cresyl violet staining and morphological changes in the hippocampus were identified. Additionally, oxidative stress, inflammatory, and apoptosis markers' levels in the hippocampus were analyzed by qPCR, ELISA, and immunohistochemistry techniques. RA + Ful rats showed neuronal atrophy and reduced neurogenesis in the hippoc",
+            "journal": "Pflugers Archiv : European journal of physiology",
+            "year": "2025",
+            "authors": [
+              "Lee Zuo Hao",
+              "Tung Wong Siew",
+              "Santhiran Kabileshvaran A/L Jana",
+              "Shahzad Huma",
+              "Giribabu Nelli"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Hippocampus",
+              "Rats",
+              "Rats, Sprague-Dawley",
+              "Oxidative Stress",
+              "Estrogens",
+              "Inflammation",
+              "Arthritis, Experimental",
+              "Apoptosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39570400/"
+          },
+          {
+            "pmid": "15806305",
+            "title": "Estrogen specifically stimulates expression and production of osteoprotegerin from rheumatoid synovial fibroblasts.",
+            "abstract": "We studied the effects of estrogen on human fibroblast-like synovial cells in rheumatoid arthritis (RA-FLS) focusing on receptor activator of NF-kappaB ligand (RANKL) and its decoy receptor osteoprotegerin (OPG), the osteoclast formation and function regulators that have a substantial role in bone erosion of RA. Estrogen influences osteoporosis and the onset of RA clinically. The cellular responses of RA-FLS to estrogen are initiated via two high-affinity estrogen receptors (ERs). Culture of RA-FLS in the presence of 10(-6) M 17beta-estradiol (E2) increased expression of estrogen receptor (ER)-alpha, but not ER-beta. OPG mRNA expression was significantly increased, whereas RANKL mRNA was unaffected. E2 treatment also significantly increased the amount of OPG released in the culture supernatant. The increase of OPG and ER-alpha was specifically antagonized by the pure estrogen antagonist ICI 182780. Tamoxifen, a selective ER moderator, did not increase OPG. The results indicate that est",
+            "journal": "International journal of molecular medicine",
+            "year": "2005",
+            "authors": [
+              "Mitani Makoto",
+              "Miura Yasushi",
+              "Saura Ryuichi",
+              "Kitagawa Atsushi",
+              "Fukuyama Taihei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Carrier Proteins",
+              "Cells, Cultured",
+              "Estradiol",
+              "Estrogen Receptor Modulators",
+              "Estrogen Receptor alpha",
+              "Estrogen Receptor beta",
+              "Estrogens",
+              "Fibroblasts",
+              "Fulvestrant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15806305/"
+          },
+          {
+            "pmid": "25681337",
+            "title": "Estradiol promotes M1-like macrophage activation through cadherin-11 to aggravate temporomandibular joint inflammation in rats.",
+            "abstract": "Macrophages play a major role in joint inflammation. Estrogen is involved in rheumatoid arthritis and temporomandibular disorders. However, the underlying mechanism is still unclear. This study was done to verify and test how estrogen affects M1/M2-like macrophage polarization and then contributes to joint inflammation. Female rats were ovariectomized and treated with increasing doses of 17β-estradiol for 10 d and then intra-articularly injected with CFA to induce temporomandibular joint (TMJ) inflammation. The polarization of macrophages and expression of cadherin-11 was evaluated at 24 h after the induction of TMJ inflammation and after blocking cadherin-11 or estrogen receptors. NR8383 macrophages were treated with estradiol and TNF-α, with or without blocking cadherin-11 or estrogen receptors, to evaluate the expression of the M1/M2-like macrophage-associated genes. We found that estradiol increased the infiltration of macrophages with a proinflammatory M1-like predominant profile ",
+            "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+            "year": "2015",
+            "authors": [
+              "Kou Xiao-Xing",
+              "Li Chen-Shuang",
+              "He Dan-Qing",
+              "Wang Xue-Dong",
+              "Hao Ting"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arginase",
+              "Arthritis",
+              "Blotting, Western",
+              "Cadherins",
+              "Estradiol",
+              "Estrogen Receptor Antagonists",
+              "Estrogens",
+              "Female",
+              "Fulvestrant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25681337/"
+          },
+          {
+            "pmid": "17056036",
+            "title": "An estrogen receptor-beta agonist is active in models of inflammatory and chemical-induced pain.",
+            "abstract": "ERB-041 (2-(3-Fluoro-4-hydroxyphenyl)-7-vinyl-1,3 benzoxazol-5-ol) is a selective estrogen receptor-beta agonist with activity in rodent models of rheumatoid arthritis and endometriosis. Clinical trials for these diseases are underway: however, the role of estrogen receptor-beta in modulating pain associated with inflammation remains unknown. These studies demonstrate that acutely administered ERB-041 is anti-hyperalgesic in preclinical models of chemical-induced and acute inflammatory pain, thus suggesting that ERB-041 may be useful for modulating pain associated with some types of inflammation.",
+            "journal": "European journal of pharmacology",
+            "year": "2006",
+            "authors": [
+              "Leventhal Liza",
+              "Brandt Michael R",
+              "Cummons Terri A",
+              "Piesla Michael J",
+              "Rogers Kathryn E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dose-Response Relationship, Drug",
+              "Estradiol",
+              "Estrogen Receptor beta",
+              "Fulvestrant",
+              "Hot Temperature",
+              "Hyperalgesia",
+              "Inflammation",
+              "Male",
+              "Oxazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17056036/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acne (disease)",
+        "txgnn_score": 0.993669092655182,
+        "txgnn_rank": 7660,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9929472208023072,
+        "txgnn_rank": 8277,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.9929431080818176,
+        "txgnn_rank": 8278,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.991565465927124,
+        "txgnn_rank": 9350,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00947",
+    "name": "Fulvestrant",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Fulvestrant"
+      },
+      "queried_at": "2026-03-09T16:45:24.816952",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Fulvestrant"
+      },
+      "queried_at": "2026-03-09T16:45:34.075843",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-09T16:45:35.042107",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-09T16:45:40.568319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "HIV infectious disease"
+      },
+      "queried_at": "2026-03-09T16:45:44.015400",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-09T16:45:48.747515",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-09T16:45:54.349236",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-09T16:45:55.787065",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T16:45:57.134072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T16:46:01.427037",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "queried_at": "2026-03-09T16:46:04.279745",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T16:46:05.680456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T16:46:10.956068",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-09T16:46:12.531761",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T16:46:15.283062",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T16:46:23.713091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-09T16:46:25.606894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T16:46:26.636542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T16:46:31.231077",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T16:46:36.273644",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-09T16:46:36.925319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-09T16:46:45.200347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "acne (disease)"
+      },
+      "queried_at": "2026-03-09T16:46:47.131956",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T16:46:47.786979",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T16:46:53.179418",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T16:46:55.140913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-09T16:46:57.788492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-09T16:47:01.993480",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-09T16:47:04.575983",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T16:47:06.330448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T16:47:11.728163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Fulvestrant",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T16:47:13.541506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T16:47:13.664345"
+  }
+}

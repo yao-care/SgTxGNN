@@ -1,0 +1,712 @@
+{
+  "drug": {
+    "inn": "Tigecycline",
+    "drugbank_id": "DB00560",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "disorder of tyrosine metabolism",
+        "txgnn_score": 0.9576342701911926,
+        "txgnn_rank": 24825,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02883036",
+            "title": "Changes of Mitochondrial Biogenesis and Metabolic Characteristics About Tigecycline to Treat Chronic Myeloid Leukemia in Vitro",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2016-09",
+            "completion_date": "",
+            "country": "China",
+            "enrollment": 100,
+            "brief_summary": "Chronic myeloid leukemia (CML) is a myeloproliferative neoplasm companies with the BCR-ABL fusion gene encoded by the Philadelphia (Ph) chromosome. The BCR-ABL fusion protein(the formation of the chimeric gene BCR/ABL on chromosome 22 and a reciprocal ABL/BCR on chromosome 9,it has no expanded name) plays key role on CML leukemogenesis by activating its downstream signaling pathway of survival and proliferation. Imatinib, a targeted competitive inhibitor of a BCR-ABL tyrosine kinase, changed the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of Philadelphia chromosome positive and/or BCR-ABL positive CML confirmed by cytogenetic and/or molecular analysis;\n* Age \\>18 years.\n* Eligibility of patients receiving any medications or substances known to affect or determined following review of their case by the",
+            "endpoints": [
+              "mitochondrial biogenesis and metabolic characteristics of Bone Marrow(BM)/ Peripheral Blood(PB) mononuclear cells"
+            ],
+            "sponsor": "Nanfang Hospital, Southern Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT02883036"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "41009505",
+            "title": "Effect of Tigecycline on the Homeostasis of Human Epidermal Melanocytes and Fibroblasts.",
+            "abstract": "Tigecycline is an antibiotic belonging to the glycylcycline group of tetracyclines. Similar to other tetracycline derivatives, tigecycline is used in dermatology because of its bacteriostatic effect. Despite an overall favorable safety profile, tetracyclines are associated with a spectrum of cutaneous adverse effects, notably pigmentary disorders and phototoxic reactions. These dermatologic manifestations are presumed to result from tigecycline's affinity for melanin biopolymer and its subsequent accumulation within the pigment-containing tissues. This study aimed to assess the impact of tigecycline on human normal skin cell homeostasis varied by melanin content. The study was conducted on HEMn-LP melanocytes and human dermal fibroblasts. The aim was achieved by determining the cell number, cell cycle, mitochondrial potential, and redox homeostasis and determining in silico the possibility of binding tigecycline to melanin biopolymers. In this study, it was shown that the cells more se",
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "authors": [
+              "Rzepka Zuzanna",
+              "Karkoszka-Stanowska Marta",
+              "Marciniec Krzysztof",
+              "Zdybel Magdalena",
+              "Pilawa Barbara"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Melanocytes",
+              "Tigecycline",
+              "Fibroblasts",
+              "Homeostasis",
+              "Melanins",
+              "Reactive Oxygen Species",
+              "Anti-Bacterial Agents",
+              "Oxidative Stress",
+              "Membrane Potential, Mitochondrial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41009505/"
+          },
+          {
+            "pmid": "28920959",
+            "title": "Targeting mitochondrial oxidative phosphorylation eradicates therapy-resistant chronic myeloid leukemia stem cells.",
+            "abstract": "Treatment of chronic myeloid leukemia (CML) with imatinib mesylate and other second- and/or third-generation c-Abl-specific tyrosine kinase inhibitors (TKIs) has substantially extended patient survival. However, TKIs primarily target differentiated cells and do not eliminate leukemic stem cells (LSCs). Therefore, targeting minimal residual disease to prevent acquired resistance and/or disease relapse requires identification of new LSC-selective target(s) that can be exploited therapeutically. Considering that malignant transformation involves cellular metabolic changes, which may in turn render the transformed cells susceptible to specific assaults in a selective manner, we searched for such vulnerabilities in CML LSCs. We performed metabolic analyses on both stem cell-enriched (CD34+ and CD34+CD38-) and differentiated (CD34-) cells derived from individuals with CML, and we compared the signature of these cells with that of their normal counterparts. Through combination of stable isoto",
+            "journal": "Nature medicine",
+            "year": "2017",
+            "authors": [
+              "Kuntz Elodie M",
+              "Baquero Pablo",
+              "Michie Alison M",
+              "Dunn Karen",
+              "Tardito Saverio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Blotting, Western",
+              "Cell Survival",
+              "Chromatography, Liquid",
+              "Drug Resistance, Neoplasm",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Hypoglycemic Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28920959/"
+          },
+          {
+            "pmid": "29404396",
+            "title": "Auto-Commentary on: \"Targeting mitochondrial oxidative phosphorylation eradicates therapy-resistant chronic myeloid leukemia stem cells\".",
+            "abstract": "We have recently uncovered an abnormal increase in mitochondrial oxidative metabolism in therapy-resistant chronic myeloid leukaemia stem cells (LSCs). By simultaneously disrupting mitochondrial respiration and inhibiting BCR-ABL kinase activity using the antibiotic tigecycline and imatinib respectively, we effectively eradicated LSCs and prevented disease relapse in pre-clinical animal models.",
+            "journal": "Molecular & cellular oncology",
+            "year": "2018",
+            "authors": [
+              "de Beauchamp Lucie",
+              "Baquero Pablo",
+              "Kuntz Elodie M",
+              "Gottlieb Eyal",
+              "Helgason G Vignir"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29404396/"
+          },
+          {
+            "pmid": "31765940",
+            "title": "Targeting histone deacetylase SIRT1 selectively eradicates EGFR TKI-resistant cancer stem cells via regulation of mitochondrial oxidative phosphorylation in lung adenocarcinoma.",
+            "abstract": "Lung adenocarcinoma (LAD) is a human malignancy successfully treated with the tyrosine kinase inhibitor (TKI) gefitinib; however, the enrichment of therapy resistant cancer stem cells (CSCs) in such patients is assumed to be a source of treatment failure. Evaluation of LAD cell populations treated with the TKI inhibitor gefitinib identified unique aspects of a subpopulation of tumor cells exhibiting stem-like properties and mitochondria-specific metabolic features along with their reliance on sirtuin 1 (SIRT1) for survival advantage. This addiction to bioenergetic metabolism in LAD treated with EGFR-targeted therapy suggests that mitochondrial targeting should be synthetically lethal using established cytotoxic therapies. Accordingly, loss of the phenotype present in resistant CSC clones either by targeting the energy metabolism with tigecycline, a mitochondrial DNA-translation inhibitor, or tenovin-6 (TV-6), a SIRT1 inhibitor, inhibited their dependency on mitochondrial oxidative phos",
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2020",
+            "authors": [
+              "Sun Jiangtao",
+              "Li Guifang",
+              "Liu Yiwen",
+              "Ma Mingyang",
+              "Song Kaifang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma of Lung",
+              "Animals",
+              "Cell Line, Tumor",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Drug Resistance, Neoplasm",
+              "ErbB Receptors",
+              "Histone Deacetylase Inhibitors",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31765940/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "teratogenic Pierre Robin syndrome",
+        "txgnn_score": 0.9533129930496216,
+        "txgnn_rank": 25878,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria",
+        "txgnn_score": 0.9490811824798584,
+        "txgnn_rank": 26921,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disorder of phenylalanine metabolism",
+        "txgnn_score": 0.9360038638114928,
+        "txgnn_rank": 29550,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9355359077453612,
+        "txgnn_rank": 29649,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9355359077453612,
+        "txgnn_rank": 29650,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9283570051193236,
+        "txgnn_rank": 30939,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9193716645240784,
+        "txgnn_rank": 32433,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34956120",
+            "title": "Co-occurrence of bla NDM-1 and mcr-9 in a Conjugative IncHI2/HI2A Plasmid From a Bloodstream Infection-Causing Carbapenem-Resistant Klebsiella pneumoniae.",
+            "abstract": "Spread of the carbapenemase-encoding and mobilized colistin resistance (mcr) genes among Enterobacteriales poses a great threat to global public health, especially when the both genes are transferred by a single plasmid. Here, we identified a bla NDM-1- and mcr-9-co-encoding plasmid harbored by a clinical isolate of Klebsiella pneumoniae (KPN710429). KPN710429 was recovered from a blood sample from an inpatient in a tertiary hospital in China, and antimicrobial susceptibility testing showed that it was multidrug-resistant and only susceptible to aztreonam, colistin, and tigecycline. KPN710429 belongs to sequence type (ST) 1308 and capsular serotype KL144. The string test of KPN710429 was negative, and this strain didn't exhibit a hypervirulent phenotype according to serum-killing and Galleria mellonella lethality assessments. Whole-genome sequencing revealed the KPN710429 genome comprises a single chromosome and three plasmids. All virulence associated genes were harbored by chromosome",
+            "journal": "Frontiers in microbiology",
+            "year": "2021",
+            "authors": [
+              "Liu Zhou",
+              "Hang Xiubing",
+              "Xiao Xiao",
+              "Chu Wenwen",
+              "Li Xin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34956120/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.9174580574035645,
+        "txgnn_rank": 32749,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monoclonal gammopathy",
+        "txgnn_score": 0.9086721539497375,
+        "txgnn_rank": 33877,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38732105",
+            "title": "Tigecycline Opposes Bortezomib Effect on Myeloma Cells Decreasing Mitochondrial Reactive Oxygen Species Production.",
+            "abstract": "Multiple myeloma is an incurable plasma cell malignancy. Most patients end up relapsing and developing resistance to antineoplastic drugs, like bortezomib. Antibiotic tigecycline has activity against myeloma. This study analyzed tigecycline and bortezomib combination on cell lines and plasma cells from myeloma patients. Apoptosis, autophagic vesicles, mitochondrial mass, mitochondrial superoxide, cell cycle, and hydrogen peroxide were studied by flow cytometry. In addition, mitochondrial antioxidants and electron transport chain complexes were quantified by reverse transcription real-time PCR (RT-qPCR) or western blot. Cell metabolism and mitochondrial activity were characterized by Seahorse and RT-qPCR. We found that the addition of tigecycline to bortezomib reduces apoptosis in proportion to tigecycline concentration. Supporting this, the combination of both drugs counteracts bortezomib in vitro individual effects on the cell cycle, reduces autophagy and mitophagy markers, and revert",
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "authors": [
+              "Ramos-Acosta Carlos",
+              "Huerta-Pantoja Laura",
+              "Salazar-Hidalgo Milton Eduardo",
+              "Mayol Elsa",
+              "Jiménez-Vega Selene"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bortezomib",
+              "Humans",
+              "Multiple Myeloma",
+              "Tigecycline",
+              "Mitochondria",
+              "Reactive Oxygen Species",
+              "Apoptosis",
+              "Cell Line, Tumor",
+              "Antineoplastic Agents",
+              "Autophagy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38732105/"
+          },
+          {
+            "pmid": "30247801",
+            "title": "Inhibition of autophagy enhances the antitumour activity of tigecycline in multiple myeloma.",
+            "abstract": "Accumulating evidence shows that tigecycline, a first-in-class glycylcycline, has potential antitumour properties. Here, we found that tigecycline dramatically inhibited the proliferation of multiple myeloma (MM) cell lines RPMI-8226, NCI-H929 and U266 in a dose and time-dependent manner. Meanwhile, tigecycline also potently impaired the colony formation of these three cell lines. Mechanism analysis found that tigecycline led to cell cycle arrest at G0/G1 with down-regulation of p21, CDK2 and cyclin D1, rather than induced apoptosis, in MM cells. Importantly, we found that tigecycline induced autophagy and an autophagy inhibitor bafilomycin A1 further amplified the tigecycline-induced cytotoxicity, suggesting that autophagy plays a cytoprotective role in tigecycline-treated MM cells. Mechanisms modulating autophagy found that tigecycline enhanced the phosphorylation of AMPK, but did not decrease the phosphorylation of Akt, to inhibit the phosphorylation of mTOR and its two downstream e",
+            "journal": "Journal of cellular and molecular medicine",
+            "year": "2018",
+            "authors": [
+              "Ma Ruye",
+              "Zhang Yu",
+              "Wang Wei",
+              "Wu Junqing",
+              "Yang Qianqian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenylate Kinase",
+              "Animals",
+              "Antineoplastic Agents",
+              "Autophagosomes",
+              "Autophagy",
+              "Cell Cycle Checkpoints",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Chloroquine",
+              "Cytoprotection"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30247801/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00560",
+    "name": "Tigecycline",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tigecycline"
+      },
+      "queried_at": "2026-03-10T09:18:21.616376",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tigecycline"
+      },
+      "queried_at": "2026-03-10T09:18:26.712613",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "disorder of tyrosine metabolism"
+      },
+      "queried_at": "2026-03-10T09:18:27.748792",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "disorder of tyrosine metabolism"
+      },
+      "queried_at": "2026-03-10T09:18:31.639474",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "disorder of tyrosine metabolism"
+      },
+      "queried_at": "2026-03-10T09:18:36.314996",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "teratogenic Pierre Robin syndrome"
+      },
+      "queried_at": "2026-03-10T09:18:36.859927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "teratogenic Pierre Robin syndrome"
+      },
+      "queried_at": "2026-03-10T09:18:40.085283",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "teratogenic Pierre Robin syndrome"
+      },
+      "queried_at": "2026-03-10T09:18:40.791494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+      },
+      "queried_at": "2026-03-10T09:18:41.354708",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+      },
+      "queried_at": "2026-03-10T09:18:45.885163",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+      },
+      "queried_at": "2026-03-10T09:18:46.534241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-10T09:18:47.043492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-10T09:18:50.745700",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "queried_at": "2026-03-10T09:18:51.984262",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T09:18:52.801258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T09:18:56.089645",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T09:18:57.004894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T09:18:57.790748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T09:19:01.344191",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T09:19:02.767450",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T09:19:03.440993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T09:19:07.886108",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T09:19:09.089192",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T09:19:09.986416",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T09:19:13.788002",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T09:19:16.114410",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T09:19:19.172856",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T09:19:22.363710",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T09:19:23.256690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T09:19:24.002822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T09:19:29.354076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tigecycline",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T09:19:31.690273",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:19:31.700995"
+  }
+}

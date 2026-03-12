@@ -1,0 +1,529 @@
+{
+  "drug": {
+    "inn": "Hydrocortisone aceponate",
+    "drugbank_id": "DB14538",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9758043885231018,
+        "txgnn_rank": 18965,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic asthma",
+        "txgnn_score": 0.9718350172042848,
+        "txgnn_rank": 20578,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11817968",
+            "title": "New and established topical corticosteroids in dermatology: clinical pharmacology and therapeutic use.",
+            "abstract": "Currently, topical glucocorticosteroids are the most frequently used drugs in dermatologic practice. Over the years, research has focused on strategies to optimize potency and, in particular, the anti-inflammatory and immunosuppressive capacity of these drugs, while minimizing adverse effects. However, 'ideal' topical corticosteroids have not yet been synthesized. They should be able to permeate the stratum corneum and reach adequate concentrations in the skin without reaching high serum concentrations. Such characteristics can be obtained by increasing the natural lipophilicity of corticosteroids, e.g. by esterification. In the past, many structural modifications have been made to improve the efficacy of topical corticosteroids to produce drugs with greater potency, although this has often been associated with a higher likelihood of adverse effects. Betamethasone dipropionate and clobetasol propionate, known as fifth-generation corticosteroids, are a typical example of potent molecule",
+            "journal": "American journal of clinical dermatology",
+            "year": "2002",
+            "authors": [
+              "Brazzini Benedetta",
+              "Pimpinelli Nicola"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Anti-Inflammatory Agents",
+              "Budesonide",
+              "Drug Compounding",
+              "Glaucoma",
+              "Humans",
+              "Hydrocortisone",
+              "Hypertrichosis",
+              "Risk Assessment",
+              "Rosacea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11817968/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exostosis",
+        "txgnn_score": 0.9706004858016968,
+        "txgnn_rank": 21031,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intrinsic asthma",
+        "txgnn_score": 0.9690915942192078,
+        "txgnn_rank": 21596,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "iris disease",
+        "txgnn_score": 0.9662204384803772,
+        "txgnn_rank": 22486,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Crohn's colitis",
+        "txgnn_score": 0.9624375700950624,
+        "txgnn_rank": 23622,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary cutaneous T-cell lymphoma",
+        "txgnn_score": 0.961247742176056,
+        "txgnn_rank": 23959,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic dermatitis",
+        "txgnn_score": 0.9569335579872132,
+        "txgnn_rank": 24988,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of iris",
+        "txgnn_score": 0.9553222060203552,
+        "txgnn_rank": 25385,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "iris cancer",
+        "txgnn_score": 0.9543644785881042,
+        "txgnn_rank": 25634,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14538",
+    "name": "Hydrocortisone aceponate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate"
+      },
+      "queried_at": "2026-03-10T08:13:58.674087",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate"
+      },
+      "queried_at": "2026-03-10T08:14:01.138452",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:14:01.939390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:14:05.421093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T08:14:06.569622",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:14:07.163800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:14:13.822260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "allergic asthma"
+      },
+      "queried_at": "2026-03-10T08:14:16.393581",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "exostosis"
+      },
+      "queried_at": "2026-03-10T08:14:17.314875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "exostosis"
+      },
+      "queried_at": "2026-03-10T08:14:20.992354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "exostosis"
+      },
+      "queried_at": "2026-03-10T08:14:21.671040",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:14:22.264398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:14:26.167914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "intrinsic asthma"
+      },
+      "queried_at": "2026-03-10T08:14:27.229285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris disease"
+      },
+      "queried_at": "2026-03-10T08:14:28.296690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris disease"
+      },
+      "queried_at": "2026-03-10T08:14:33.023219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris disease"
+      },
+      "queried_at": "2026-03-10T08:14:33.878306",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "Crohn's colitis"
+      },
+      "queried_at": "2026-03-10T08:14:34.684905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "Crohn's colitis"
+      },
+      "queried_at": "2026-03-10T08:14:40.055720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "Crohn's colitis"
+      },
+      "queried_at": "2026-03-10T08:14:41.139129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "queried_at": "2026-03-10T08:14:42.442892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "queried_at": "2026-03-10T08:14:47.046924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "queried_at": "2026-03-10T08:14:47.771837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:14:48.489270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:14:53.682831",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:14:54.500327",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "benign neoplasm of iris"
+      },
+      "queried_at": "2026-03-10T08:14:55.070794",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "benign neoplasm of iris"
+      },
+      "queried_at": "2026-03-10T08:14:59.004607",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "benign neoplasm of iris"
+      },
+      "queried_at": "2026-03-10T08:14:59.708764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris cancer"
+      },
+      "queried_at": "2026-03-10T08:15:00.283362",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris cancer"
+      },
+      "queried_at": "2026-03-10T08:15:03.814842",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris cancer"
+      },
+      "queried_at": "2026-03-10T08:15:05.881292",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:15:05.889765"
+  }
+}

@@ -1,0 +1,1090 @@
+{
+  "drug": {
+    "inn": "Mometasone furoate",
+    "drugbank_id": "DB14512",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "2-hydroxyethyl methacrylate sensitization",
+        "txgnn_score": 0.9861556887626648,
+        "txgnn_rank": 13468,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vocal cord",
+        "txgnn_score": 0.9767062664031982,
+        "txgnn_rank": 18555,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of middle ear",
+        "txgnn_score": 0.9764766097068788,
+        "txgnn_rank": 18661,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04915456",
+            "title": "Prospective Randomized, Placebo-controlled Clinical Study to Study the Effect of Postoperative Additive Systemic Steroids in Chronic Rhinosinusitis With Nasal Polyps",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-01-18",
+            "completion_date": "2021-02",
+            "country": "N/A",
+            "enrollment": 106,
+            "brief_summary": "This study investigate the additive effect of systemic postoperative steroids in patients with chronic rhinosinusitis (CRSwNP). All patients receive a functional endoscopic sinus surgery (FESS) followed by topical steroid spray for 3 months. Postoperatively, patients will be randomized to either an additional systemic steroid or a placebo for 1 month. Patients will be followed for 2 years. Effect on Nasal Polyp score (NPS), Lund-Kennedy-Score (LKS), recurrence rates, smell scores, Rhinosinusitis",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* CRSwNP\n* refractory to medical therapy\n* no previous sinus surgery\n* Lund-Kennedy-Score ≥ 1\n* Lund-Mackay-Score ≥ 10\n\nExclusion Criteria:\n\n* ciliary impairment\n* autoimmune disease\n* cystic fibrosis\n* immunodeficiency",
+            "endpoints": [
+              "Nasal Polyp Score (NPS)"
+            ],
+            "sponsor": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+            "url": "https://clinicaltrials.gov/study/NCT04915456"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03280550",
+            "title": "A Phase III, Randomized, Multicenter, Double-blind, Placebo-controlled Clinical Trial of Omalizumab in Patients With Chronic Rhinosinusitis With Nasal Polyps",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-11-15",
+            "completion_date": "2019-03-11",
+            "country": "United Kingdom, Canada, Germany, United States, Portugal, Mexico, Czechia, Russia, Ukraine, Poland",
+            "enrollment": 138,
+            "brief_summary": "The purpose of this study is to determine the efficacy and safety of omalizumab compared with placebo in adult participants with chronic rhinosinusitis with nasal polyps (CRSwNP) who have had an inadequate response to standard-of-care treatments.\n\nStudy GA39855 (POLYP 2; NCT03280537) was another Phase III study by the Sponsor with identical objectives and design and was run in parallel with this study.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-75 years, inclusive, at time of signing Informed Consent Form.\n* Ability to comply with the study protocol, in the investigator's judgment.\n* Nasal polyp score (NPS) \\>= 5, with a unilateral score of \\>= 2 for each nostril, at screening (Day -35), and on Day -7.\n* Sino-",
+            "endpoints": [
+              "Change From Baseline in Nasal Polyp Score (NPS) at Week 24",
+              "Change From Baseline in Average Daily Nasal Congestion Score (NCS) at Week 24"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03280550"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01616160",
+            "title": "An Open-label Study to Identify Molecular Markers of Steroid Resistance in Nasal Polyposis Before and Following Treatment With Mometasone Furoate (MFNS) 2 Sprays/Nostril (100 mcg/Nostril) Twice Daily for 4 Weeks.",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2013-07",
+            "completion_date": "2018-01-09",
+            "country": "United States",
+            "enrollment": 11,
+            "brief_summary": "Aim 1: To assess steroid sensitivity to mometasone furoate (MF) in cultured nasal polyp explant tissue in vitro.\n\nAim 2: To assess steroid sensitivity in vivo in each subject by comparing symptom scores, nasal endoscopic findings before and following 4 weeks of treatment with mometasone furoate nasal spray (MFNS) and by comparing tissue immunohistology in NP biopsies pre- and post-treatment withA MFNS.\n\nAim 3: To characterize the molecular signature of gene mRNA expression in \"steroid-sensitive\"",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\- The subject must fulfill all of the following conditions or characteristics to be considered for enrollment:\n\n1. Male or female between ages 21 - 70 years residing in the Boston area\n2. History of chronic rhinosinusitis (symptoms for at least 3 months). Subject must have two ",
+            "endpoints": [
+              "Change in Steroid Sensitivity in Vivo Symptom Scores - Trouble With Sense of Smell",
+              "Change in Steroid Sensitivity in Vivo Nasal Endoscopy Polyp Scores"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01616160"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "19289710",
+            "title": "Use of mometasone furoate to prevent polyp relapse after endoscopic sinus surgery.",
+            "abstract": "To evaluate the effect of mometasone furoate on prevention or reduction of nasal polyp relapse and worsening of symptoms after functional endoscopic sinus surgery (FESS).",
+            "journal": "Archives of otolaryngology--head & neck surgery",
+            "year": "2009",
+            "authors": [
+              "Stjärne Pär",
+              "Olsson Petter",
+              "Alenius Martin"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Inflammatory Agents",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Endoscopy",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19289710/"
+          },
+          {
+            "pmid": "31117809",
+            "title": "In-office Placement of Mometasone Furoate Sinus Implants for Recurrent Nasal Polyps: A Pooled Analysis.",
+            "abstract": "A mometasone furoate (MF) sinus implant (1350 mcg) was evaluated in 2 randomized controlled trials (RCTs) in 400 adults with nasal polyps (NP) who were candidates for revision endoscopic sinus surgery (RESS). We conducted a pooled analysis to evaluate the efficacy of MF implant in specific subgroups of NP patients.",
+            "journal": "American journal of rhinology & allergy",
+            "year": "2019",
+            "authors": [
+              "Stolovitzky J Pablo",
+              "Kern Robert C",
+              "Han Joseph K",
+              "Forwith Keith D",
+              "Ow Randall A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Absorbable Implants",
+              "Adult",
+              "Ambulatory Surgical Procedures",
+              "Anti-Inflammatory Agents",
+              "Chronic Disease",
+              "Drug-Eluting Stents",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31117809/"
+          },
+          {
+            "pmid": "27141307",
+            "title": "Mometasone furoate nasal spray: a systematic review.",
+            "abstract": "The inflammatory diseases of the nose, rhino-pharynx and paranasal sinuses (allergic and non allergic rhinitis, NARES; rhinosinusitis with/without nasal polyposis, adenoidal hypertrophy with/without middle ear involvement) clinically manifest themselves with symptoms and complications severely affecting quality of life and health care expenditure. Intranasal administration of corticosteroids, being fast, simple, and not requiring cooperation, is the preferred way to treat the patients, to optimize their quality of life, at the same time minimizing the risk of exacerbations and complications. Among the different topical steroids available on the market, we performed a comparative analysis in terms of effectiveness and safety between mometasone furoate (MF) and its main competitors. Searching through Pub Med and Google Scholar and using as entries \"mometasone furoate\", \"rhinitis\", \"sinusitis\", \"asthma\", \"polyposis\", \"otitis media with effusion\", and \"adenoid hypertrophy\" we found 344 art",
+            "journal": "Multidisciplinary respiratory medicine",
+            "year": "2016",
+            "authors": [
+              "Passali Desiderio",
+              "Spinosi Maria Carla",
+              "Crisanti Anna",
+              "Bellussi Luisa Maria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27141307/"
+          },
+          {
+            "pmid": "29350840",
+            "title": "A phase 3 trial of mometasone furoate sinus implants for chronic sinusitis with recurrent nasal polyps.",
+            "abstract": "Topical intranasal corticosteroid sprays (INCSs) are standard treatment for nasal polyps (NPs), but their efficacy is reduced by poor patient compliance and impaired access of drug to the sinus mucosa. A corticosteroid-eluting sinus implant was designed to address these limitations in patients with recurrent polyposis after sinus surgery by delivering 1350 μg of mometasone furoate (MF) directly to the ethmoid sinus mucosa over approximately 90 days.",
+            "journal": "International forum of allergy & rhinology",
+            "year": "2018",
+            "authors": [
+              "Kern Robert C",
+              "Stolovitzky J Pablo",
+              "Silvers Stacey L",
+              "Singh Ameet",
+              "Lee Jivianne T"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Chronic Disease",
+              "Double-Blind Method",
+              "Drug Implants",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Mometasone Furoate",
+              "Nasal Mucosa"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29350840/"
+          },
+          {
+            "pmid": "27302143",
+            "title": "Effect of sodium hyaluronate added to topical corticosteroids in chronic rhinosinusitis with nasal polyposis.",
+            "abstract": "Available medical treatments for chronic rhinosinusitis (CRS) with nasal polyposis (CRSwNP) comprise systemic and topical therapies. Although topical corticosteroids are effective in the treatment of CRS, they are not completely devoid of adverse effects. Thus, care has to be taken when long-term treatments are prescribed. There is recent evidence that sodium hyaluronate (SH), the major component of many extracellular matrices, promotes tissue healing, including activation and moderation of the inflammatory responses, cell proliferation, migration, and angiogenesis.",
+            "journal": "American journal of rhinology & allergy",
+            "year": "2016",
+            "authors": [
+              "Cantone Elena",
+              "Iengo Maurizio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Chronic Disease",
+              "Endoscopy",
+              "Female",
+              "Humans",
+              "Hyaluronic Acid",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27302143/"
+          },
+          {
+            "pmid": "25256638",
+            "title": "Steroid-eluting sinus implant for in-office treatment of recurrent polyposis: a pharmacokinetic study.",
+            "abstract": "Long-term use of systemic glucocorticoid therapy has been associated with hypothalamic-pituitary-adrenal axis suppression and other systemic adverse events. This pharmacokinetic study evaluated the systemic safety and performance of a bioabsorbable sinus implant that gradually releases 1350 μg of mometasone furoate directly to the sinus mucosa.",
+            "journal": "International forum of allergy & rhinology",
+            "year": "2014",
+            "authors": [
+              "Ow Randall",
+              "Groppo Eli",
+              "Clutter Donald",
+              "Gawlicka Anna K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Absorbable Implants",
+              "Adult",
+              "Anti-Inflammatory Agents",
+              "Biological Availability",
+              "Chromatography, High Pressure Liquid",
+              "Drug Implants",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female",
+              "Humans",
+              "Hydrocortisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25256638/"
+          },
+          {
+            "pmid": "30645028",
+            "title": "Phase 1 clinical study to assess the safety of a novel drug delivery system providing long-term topical steroid therapy for chronic rhinosinusitis.",
+            "abstract": "Chronic rhinosinusitis (CRS) patients who fail medical management have few treatment options other than endoscopic sinus surgery (ESS). A novel biodegradable mometasone furoate drug delivery system (LYR-210) providing continuous topical steroid therapy to sinonasal mucosa over 24 weeks was developed to treat unoperated CRS patients who have failed medical management prior to ESS. LYR-210 was designed to slowly expand in the middle meatus, ensuring efficient drug delivery as mucosal swelling reduces.",
+            "journal": "International forum of allergy & rhinology",
+            "year": "2019",
+            "authors": [
+              "Douglas Richard G",
+              "Psaltis Alkis J",
+              "Rimmer Joanne",
+              "Kuruvilla Tom",
+              "Cervin Anders"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Inflammatory Agents",
+              "Chronic Disease",
+              "Drug Delivery Systems",
+              "Drug Liberation",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30645028/"
+          },
+          {
+            "pmid": "33465455",
+            "title": "Dupilumab improves upper and lower airway disease control in chronic rhinosinusitis with nasal polyps and asthma.",
+            "abstract": "Chronic rhinosinusitis with nasal polyps (CRSwNP) and type 2 asthma share the same inflammatory pathophysiology and are frequent comorbidities. Dupilumab, a fully human monoclonal antibody, blocks the shared receptor component for interleukin 4 and interleukin 13, which are key and central drivers of type 2 inflammation.",
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2021",
+            "authors": [
+              "Laidlaw Tanya M",
+              "Bachert Claus",
+              "Amin Nikhil",
+              "Desrosiers Martin",
+              "Hellings Peter W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antibodies, Monoclonal, Humanized",
+              "Asthma",
+              "Double-Blind Method",
+              "Female",
+              "Forced Expiratory Volume",
+              "Humans",
+              "Interleukin-4 Receptor alpha Subunit",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33465455/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of frontal sinus",
+        "txgnn_score": 0.9755507707595824,
+        "txgnn_rank": 19085,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06834347",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, 52-week Phase 3 Trial to Investigate the Efficacy, Safety, and Tolerability of Itepekimab in Adult Participants With Inadequately-controlled Chronic Rhinosinusitis With Nasal Polyps",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-02-12",
+            "completion_date": "2027-12-13",
+            "country": "Austria, United States, Canada, South Korea, Netherlands, Italy, Chile, Sweden, Poland, Japan, United Kingdom, Brazil, Germany, Argentina, Israel, Mexico, Hungary, Spain, Turkey (Türkiye), Finland, Portugal",
+            "enrollment": 210,
+            "brief_summary": "EFC18418 is a multinational, randomized, double-blind, placebo-controlled, parallel-group, Phase 3 study with 3 treatment groups. The purpose of the study is to evaluate the efficacy, safety and tolerability of 2 dosing regimens of itepekimab compared to placebo as add-on therapy to intranasal corticosteroids (INCS) in male and female participants with chronic rhinosinusitis with nasal polyps (CRSwNP) aged 18 years of age and older.\n\nStudy details include:\n\n* The study duration per participant (",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be 18 years of age or older.\n* Participants with a history of chronic rhinosinusitis with nasal polyps (CRSwNP) for at least 1 year prior to screening\n* Participants must have at least one of the following features:\n\n  * Prior sinonasal surgery for nasal poly",
+            "endpoints": [
+              "Change from baseline in the endoscopic NPS",
+              "Change from baseline in the NCS"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT06834347"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05390255",
+            "title": "Establishment of Precise Diagnosis and Treatment System for Refractory Chronic Rhinosinusitis",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2022-05-25",
+            "completion_date": "2024-12-31",
+            "country": "China",
+            "enrollment": 87,
+            "brief_summary": "Chronic rhinosinusitis that recurs after adequate surgery and conventional medical treatment is called refractory chronic rhinosinusitis (RCRS). Omalizumab and oral glucocorticoid therapy can play an important role in the treatment of RCRS, but there is still a lack of comparative studies on the efficacy and safety of the two. In addition, biomarkers are a hotspot in RCRS research, but there is still a lack of studies on changes in marker expression with disease progression and treatment.\n\nIn th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* (1) Age 18-70 years old;\n* (2) All meet the diagnostic criteria of CRS in EPOS2020;\n* (3) Patients with asthma were in a stable state, with FEV1 \\> 80% of the predicted value or 80% of the optimal value of personal FEV1;\n* (4) Good compliance, able to complete clinical observa",
+            "endpoints": [
+              "The change in endoscopic score"
+            ],
+            "sponsor": "Beijing Tongren Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05390255"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04858802",
+            "title": "The EXPAND Study: A Clinical Evaluation of PROPEL® Contour Sinus Implant Placement in the Frontal Sinus Ostium Following In-office Bilateral Balloon Dilation",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-05-12",
+            "completion_date": "2022-06-20",
+            "country": "United States",
+            "enrollment": 80,
+            "brief_summary": "The objective of this study is to evaluate the efficacy of PROPEL Contour placement following an in-office frontal sinus balloon dilation (SBD) in patients with chronic rhinosinusitis (CRS)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient is 18 years of age or older.\n2. Patient is willing and able to comply with protocol requirements.\n3. Patient has confirmed diagnosis of CRS per International Consensus Statement on Allergy and Rhinology, Rhinosinusitis 2021 (ICAR:RS) guidelines.\n4. Bilateral disease i",
+            "endpoints": [
+              "Difference in FSO Patency by Blinded Reviewer"
+            ],
+            "sponsor": "Intersect ENT",
+            "url": "https://clinicaltrials.gov/study/NCT04858802"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02912468",
+            "title": "A Randomized, 24-Week Treatment, Double-blind, Placebo-controlled Efficacy and Safety Study of Dupilumab 300 mg Every Other Week, in Patients With Bilateral Nasal Polyposis on a Background Therapy With Intranasal Corticosteroids",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-12-05",
+            "completion_date": "2018-07-05",
+            "country": "United Kingdom, France, Romania, Netherlands, Germany, Italy, United States, Bulgaria, Czechia, Hungary, Russia, Ukraine, Poland",
+            "enrollment": 276,
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of dupilumab 300 milligram (mg) every 2 weeks (q2w) compared to placebo on a background of mometasone furoate nasal spray (MFNS) in reducing nasal congestion/obstruction (NC) severity and endoscopic nasal polyp score (NPS) in participants with bilateral nasal polyposis (NP). In addition for Japan participants, reduction in computed tomography (CT) scan opacification of the sinuses was a coprimary objective.\n\nSecondary Objectives:\n\n* To evaluate the ef",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Participants with bilateral sinonasal polyposis that despite prior treatment with systemic corticosteroids (SCS) anytime within the past 2 years; and/or had a medical contraindication / intolerance to SCS; and/or had prior surgery for NP at the screening visit, had:\n* An endos",
+            "endpoints": [
+              "Change From Baseline at Week 24 in Nasal Congestion/Obstruction Symptom Severity Score",
+              "Change From Baseline at Week 24 in Nasal Polyp Score"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT02912468"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05545072",
+            "title": "A Randomized, 52-week Treatment Double-blind, Placebo-controlled Efficacy and Safety Study of Dupilumab 300 mg Every Other Week After Endoscopic Sinus Surgery in Patients With Allergic Fungal Rhinosinusitis (AFRS) on a Background Therapy With Intranasal Corticosteroid Spray",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2023-10-26",
+            "completion_date": "2024-07-10",
+            "country": "United States",
+            "enrollment": 5,
+            "brief_summary": "The purpose of this study is to find a more effective treatment for allergic fungal rhinosinusitis (AFRS). Most people suffering from nasal polyps have elevated levels of white blood cells called eosinophils that are involved in inflammation of the air passages. Despite appropriate treatment with oral/topical corticosteroids, saline irrigations, and surgery, nasal polyps return frequently within months of surgery. Participants will be administered a placebo or dupilumab every two weeks for 52 we",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Capable of giving signed informed consent\n* Patients aged \\>18 years at the time of signing the informed consent form (ICF)\n* Patients with nasal polyps in the setting of suspected AFRS and electing to undergo comprehensive sinus surgery per established criteria\n\n  * Diagnosis",
+            "endpoints": [
+              "Modified Lund-Kennedy (mLK) Score",
+              "Incidence of Oral/Topical Corticosteroid Utilization Per Participant"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT05545072"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02898454",
+            "title": "A Randomized, Double-blind, 52-week, Placebo Controlled Efficacy and Safety Study of Dupilumab, in Patients With Bilateral Nasal Polyposis on a Background Therapy With Intranasal Corticosteroids",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-11-28",
+            "completion_date": "2018-11-16",
+            "country": "Australia, Spain, Turkey (Türkiye), Canada, Belgium, Argentina, Israel, United States, Portugal, Chile, Mexico, Russia, Sweden, Japan",
+            "enrollment": 448,
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of dupilumab 300 mg every 2 weeks (q2w) compared to placebo on a background of mometasone furoate nasal spray (MFNS) in reducing nasal congestion (NC)/obstruction severity and endoscopic nasal polyp score (NPS) in participants with bilateral nasal polyps (NP). In addition for Japanese participants, reduction in computed tomography (CT) scan opacification of the sinuses was a co-primary objective.\n\nSecondary Objectives:\n\n* To evaluate the efficacy of d",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Participants with bilateral sino-nasal polyposis that despite prior treatment with SCS anytime within the past 2 years; and/or had a medical contraindication/intolerance to SCS; and/or had prior surgery for NP at the screening visit, had:\n* An endoscopic bilateral NPS at Visi",
+            "endpoints": [
+              "Change From Baseline at Week 24 in Nasal Congestion/Obstruction Symptom Severity Score",
+              "Change From Baseline at Week 24 in Nasal Polyp Score"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT02898454"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04851964",
+            "title": "A Multicentre, Randomised, Double-Blind, Parallel-Group, Placebo-Controlled Phase 3 Efficacy and Safety Study of Tezepelumab in Participants With Severe Chronic Rhinosinusitis With Nasal Polyposis (WAYPOINT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-04-22",
+            "completion_date": "2024-12-11",
+            "country": "Spain, United Kingdom, Canada, Germany, Denmark, United States, China, Hungary, Poland, Japan",
+            "enrollment": 416,
+            "brief_summary": "A Multicentre, Randomised, Double-Blind, Parallel-Group, Placebo-Controlled Phase 3 Efficacy and Safety Study of Tezepelumab in Participants with Severe Chronic Rhinosinusitis with Nasal Polyposis",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants with physician-diagnosed CRSwNP for at least 12 months prior to Visit 1 that have:\n\n   1. Severity consistent with need for surgery as defined by total NPS ≥ 5 (≥ 2 for each nostril) at screening, as determined by the central reader\n   2. Nasal Congestion Score (",
+            "endpoints": [
+              "Change From Baseline in Total Nasal Polyp Score at Week 52",
+              "Change From Baseline in Bi-weekly Mean Nasal Congestion Score (NCS) at Week 52"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT04851964"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03729310",
+            "title": "Comparison of Two Steroid Nasal Implants Following Endoscopic Sinus Surgery for Chronic Rhinosinusitis",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2020-03",
+            "completion_date": "2020-05-26",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "The purpose of this study is to learn whether there is a difference in postoperative (after surgery) endoscopic appearance of the sinus cavities (the way that the sinuses look through a camera) between sinuses that receive one of two types of resorbable steroid eluting sinus packing (a sponge-like material which dissolves within several days while releasing a steroid): 1) Propel Implant or 2) Nasopore soaked with triamcinolone at the time of endoscopic sinus surgery (ESS) for chronic rhinosinusi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n-Adult patients undergoing endoscopic sinus surgery for the treatment of chronic rhinosinusitis refractory to medical management\n\nExclusion Criteria:\n\n* Patients ineligible for informed consent\n* Patients unwilling or unable to comply with the postoperative visits necessary for ",
+            "endpoints": [
+              "Change from Pre-operative score in Patient's nasal endoscopy, as measured by Perioperative Sinus Endoscopy (POSE) Scores"
+            ],
+            "sponsor": "Weill Medical College of Cornell University",
+            "url": "https://clinicaltrials.gov/study/NCT03729310"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03401229",
+            "title": "A Multicenter, Randomized, Double-Blind, Parallel-Group, Placebo-Controlled Phase 3 Efficacy and Safety Study Of Benralizumab in Patients With Severe Nasal Polyposis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2018-01-15",
+            "completion_date": "2020-07-31",
+            "country": "Canada, Belgium, Austria, Germany, Denmark, United States, Hungary, Poland",
+            "enrollment": 413,
+            "brief_summary": "The aim of this present study is to investigate the use of benralizumab as treatment for severe nasal polyposis. The effect of benralizumab on nasal polyps will be assessed over a 56 weeks of treatment period in patients with severe bilateral nasal polyposis who are still symptomatic despite standard of care therapy, i.e current use of intranasal corticosteroids (INCS) and prior surgery and/or use of systemic corticosteroids. The first 200 patients that complete the 56-week treatment will have a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Capable of giving signed informed consent, which includes compliance with the requirements and restrictions, listed in the informed consent form (ICF) and in protocol.\n2. Provision of signed and dated, written informed consent form (ICF) prior to any mandatory study specific ",
+            "endpoints": [
+              "Change From Baseline in Total NPS at Week 40",
+              "Change From Baseline in NBS at Week 40"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT03401229"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06834360",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel-group, 52-week Phase 3 Trial to Investigate the Efficacy, Safety, and Tolerability of Itepekimab in Adult Participants With Inadequately-controlled Chronic Rhinosinusitis With Nasal Polyps",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2025-02-06",
+            "completion_date": "2027-12-13",
+            "country": "Australia, Belgium, United States, Canada, Netherlands, Italy, Chile, Czechia, Poland, United Kingdom, France, Brazil, Germany, Argentina, Israel, Denmark, Hungary, Spain, Turkey (Türkiye), Romania, China",
+            "enrollment": 210,
+            "brief_summary": "EFC18419 is a multinational, randomized, double-blind, placebo-controlled, parallel-group, Phase 3 study with 3 treatment groups. The purpose of the study is to evaluate the efficacy, safety and tolerability of 2 dosing regimens of itepekimab compared to placebo as add-on therapy to intranasal corticosteroids (INCS) in male and female participants with chronic rhinosinusitis with nasal polyps (CRSwNP) aged 18 years of age and older.\n\nStudy details include:\n\n* The study duration per participant (",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be 18 years of age or older.\n* Participants with a history of chronic rhinosinusitis with nasal polyps (CRSwNP) for at least 1 year prior to screening\n* Participants must have at least one of the following features:\n\n  * Prior sinonasal surgery for nasal poly",
+            "endpoints": [
+              "Change from baseline in the endoscopic NPS",
+              "Change from baseline in the NCS"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT06834360"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01920893",
+            "title": "A Randomized, Double-Blind, Phase 2, Placebo Controlled, 2 Arm Study To Evaluate Dupilumab In Patients With Bilateral Nasal Polyposis And Chronic Symptoms Of Sinusitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2013-08",
+            "completion_date": "2014-11",
+            "country": "Spain, Sweden, United States, Belgium",
+            "enrollment": 60,
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of dupilumab (SAR231893/REGN668) in the treatment of bilateral Nasal Polyposis (NP) by assessment of the endoscopic nasal polyp score (NPS) in comparison to placebo.\n\nSecondary Objectives:\n\nTo evaluate effect of dupilumab with regards to:\n\n* symptoms of sinusitis,\n* sinus computed tomography (CT) scan,\n* NPS in the sub-group of participants with co-morbid asthma,\n* Safety and tolerability.",
+            "eligibility_criteria": "Inclusion criteria: participants with:\n\n* A minimum bilateral nasal polyp score of 5 out of a maximum score of 8 (with a unilateral score of at least 2 for each nostril) despite completion of a prior intranasal corticosteroid (INCS) treatment for at least 8 weeks before screening.\n* Presence of at l",
+            "endpoints": [
+              "Change From Baseline in Bilateral Endoscopic Nasal Polyp Score (NPS) at Week 16"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT01920893"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06691113",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Proof-of-Concept (PoC) Study to Assess the Efficacy, Safety and Tolerability of Itepekimab in Participants With Inadequately Controlled Chronic Rhinosinusitis Without Nasal Polyps",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2024-12-16",
+            "completion_date": "2027-02-09",
+            "country": "Spain, France, Canada, Romania, Belgium, South Korea, Italy, Argentina, United States, China, Portugal, Chile, Poland",
+            "enrollment": 60,
+            "brief_summary": "ACT18421 is a multinational, randomized, double-blind, placebo-controlled, parallel-group, Phase 2 study with 3 treatment groups. The purpose of the study is to evaluate the efficacy, safety and tolerability of 2 dosing regimens of itepekimab compared to placebo in male and female participants with chronic rhinosinusitis without nasal polyps (CRSsNP) aged 18 years of age and older.\n\nStudy details include:\n\n* The study duration (4-week screening, 24--week intervention, 20--week safety followup) w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must be 18 years of age or older.\n* Participants must have ongoing symptoms of nasal congestion/obstruction at least 12 consecutive weeks before Visit 1 and a Nasal Congestion Score (NCS) ≥2 at Visit 1 (day score) and Visit 2 (weekly average score).\n* Participants ",
+            "endpoints": [
+              "Change from baseline in sinus (maxillary, ethmoid) percent opacification volume assessed by CT scan"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT06691113"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07174115",
+            "title": "A Phase IIa Clinical Study to Evaluate the Efficacy and Safety of HTMC0658 Tablets in the Treatment of Chronic Rhinosinusitis Without Nasal Polyps",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-08-18",
+            "completion_date": "2026-06",
+            "country": "China",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this clinical trial is to assess the efficacy and safety of HTMC0658 tablets in treating subjects with chronic rhinosinusitis without nasal polyps (CRSsNP).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects aged between 18 and 75 years, inclusive, of either sex.\n2. Body Mass Index (BMI) calculated as weight in kilograms divided by the square of height in meters (kg/m²), with a BMI of at least 18.5.\n3. Subjects must meet the diagnostic criteria for chronic rhinosinusitis",
+            "endpoints": [
+              "Change from baseline in Lund-MacKay (LMK) score on sinus CT scan at Week 12"
+            ],
+            "sponsor": "Shanghai Huilun Pharmaceutical Co., Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT07174115"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04596189",
+            "title": "Anti-IL4/IL13 Therapy With Dupilumab for Prevention of Refractory Chronic Rhinosinusitis After Endoscopic Sinus Surgery for CRSwNP",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2021-05-25",
+            "completion_date": "2024-04-23",
+            "country": "Canada",
+            "enrollment": 30,
+            "brief_summary": "The investigators believe that administering Dupilumab during the pre- and peri-operative period of surgery for chronic rhinosinusitis with nasal polyps (CRSwNP) will safely downregulate Type 2 inflammation of the healing sinus environment and will allow for better coordinated and more effective mucosal healing. Specifically, the investigators believe that endoscopic signs and symptoms of recurrence will be reduced in the Dupilumab-treated group, and that this will be reflected in quality of lif",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥ 18 years of age.\n* Patients with bilateral sino-nasal polyposis scheduled for a revision surgery for CRSwNP, according to usual clinical criteria of untolerable obstruction, anosmia, recurrent infections or difficulty with control of asthma.\n* Ongoing symptoms (for ",
+            "endpoints": [
+              "Number of participants with non-recurrence of sinus cavity oedema as assessed endoscopically"
+            ],
+            "sponsor": "Centre hospitalier de l'Université de Montréal (CHUM)",
+            "url": "https://clinicaltrials.gov/study/NCT04596189"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03688555",
+            "title": "A Randomized, Double-blind, Placebo-controlled, 12-week Treatment Study to Evaluate the Effect of ACT-774312 in Subjects With Bilateral Nasal Polyposis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-10-19",
+            "completion_date": "2020-12-01",
+            "country": "Germany, Belgium",
+            "enrollment": 10,
+            "brief_summary": "The study will evaluate the effect of ACT-774312 on the nasal polyps and will assess the safety and tolerability of ACT-774312 in the patients with bilateral nasal polyposis",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Signed informed consent in the local language prior to any study mandated procedure.\n* A minimum bilateral nasal polyp score (NPS) of 5 out of a maximum of 8 for both nostrils (with at least a score of 2 for each nostril) despite completion of a prior intranasal corticosteroid",
+            "endpoints": [
+              "Change From Baseline to Week 12 in Nasal Polyp Score as Measured by Nasal Endoscopy (Assessed Centrally)"
+            ],
+            "sponsor": "Idorsia Pharmaceuticals Ltd.",
+            "url": "https://clinicaltrials.gov/study/NCT03688555"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03607175",
+            "title": "Randomized Clinical Control Trial Comparing the Effects of a Steroid Eluting Implant Versus Triamcinolone-impregnated Carboxymethylcellulose Foam on the Postoperative Clinic Experience in Patients That Underwent Functional Endoscopic Surgery for Nasal Polyposis",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2023-07-24",
+            "completion_date": "2025-12-30",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This is a research study to find out if an off-label use of carboxymethylcellulose foam (CMC), an absorbable nasal packing, combined with triamcinolone acetonide, a steroid, is more comfortable postoperatively for participants and is as effective in decreasing scarring, swelling and crusting after surgery than an FDA approved steroid eluting implant. Anticipated sample size will be 30. Study is an intrapatient control design. Subjects will be randomly assigned to receive CMC foam with triamcinol",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provision of signed and dated informed consent form\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n* Diagnosis of nasal polyposis and desiring surgery\n\nExclusion Criteria:\n\n* A known history of intolerance to corticoster",
+            "endpoints": [
+              "Postoperative Perioperative Sinus Endoscopy Score"
+            ],
+            "sponsor": "State University of New York - Downstate Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03607175"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of external auditory canal",
+        "txgnn_score": 0.9755246639251708,
+        "txgnn_rank": 19098,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fibroepithelial polyp",
+        "txgnn_score": 0.9754951000213624,
+        "txgnn_rank": 19114,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vulva",
+        "txgnn_score": 0.9753535389900208,
+        "txgnn_rank": 19173,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of ureter",
+        "txgnn_score": 0.9753364324569702,
+        "txgnn_rank": 19179,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epulis",
+        "txgnn_score": 0.9753230214118958,
+        "txgnn_rank": 19186,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neoplastic polyp",
+        "txgnn_score": 0.9751323461532592,
+        "txgnn_rank": 19279,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14512",
+    "name": "Mometasone furoate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Mometasone furoate"
+      },
+      "queried_at": "2026-03-10T00:26:59.286375",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Mometasone furoate"
+      },
+      "queried_at": "2026-03-10T00:27:08.020279",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "queried_at": "2026-03-10T00:27:09.010822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "queried_at": "2026-03-10T00:27:14.486931",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "queried_at": "2026-03-10T00:27:15.310056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T00:27:18.649929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T00:27:23.946838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-10T00:27:25.989301",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T00:27:28.609465",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T00:27:35.239032",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-10T00:27:48.843509",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-10T00:28:31.891325",
+      "status": "success",
+      "result_count": 16,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-10T00:28:51.472200",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-10T00:28:54.704544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of external auditory canal"
+      },
+      "queried_at": "2026-03-10T00:28:56.062180",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of external auditory canal"
+      },
+      "queried_at": "2026-03-10T00:29:03.216735",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of external auditory canal"
+      },
+      "queried_at": "2026-03-10T00:29:04.968319",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "fibroepithelial polyp"
+      },
+      "queried_at": "2026-03-10T00:29:06.383317",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "fibroepithelial polyp"
+      },
+      "queried_at": "2026-03-10T00:29:12.552287",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "fibroepithelial polyp"
+      },
+      "queried_at": "2026-03-10T00:29:13.579038",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of vulva"
+      },
+      "queried_at": "2026-03-10T00:29:16.108584",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of vulva"
+      },
+      "queried_at": "2026-03-10T00:29:21.330265",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of vulva"
+      },
+      "queried_at": "2026-03-10T00:29:22.447233",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-10T00:29:23.566837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-10T00:29:29.548496",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "polyp of ureter"
+      },
+      "queried_at": "2026-03-10T00:29:32.908411",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T00:29:34.361455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T00:29:41.662646",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "epulis"
+      },
+      "queried_at": "2026-03-10T00:29:43.569374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "neoplastic polyp"
+      },
+      "queried_at": "2026-03-10T00:29:44.808029",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "neoplastic polyp"
+      },
+      "queried_at": "2026-03-10T00:29:51.104700",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Mometasone furoate",
+        "disease": "neoplastic polyp"
+      },
+      "queried_at": "2026-03-10T00:29:52.255014",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:29:52.305368"
+  }
+}

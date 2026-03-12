@@ -1,0 +1,2151 @@
+{
+  "drug": {
+    "inn": "Ertapenem",
+    "drugbank_id": "DB00303",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "bacterial arthritis",
+        "txgnn_score": 0.9971522092819214,
+        "txgnn_rank": 4428,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "staphylococcus aureus infection",
+        "txgnn_score": 0.9927858710289,
+        "txgnn_rank": 8392,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06174649",
+            "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-12-22",
+            "completion_date": "2025-06-18",
+            "country": "Greece, Israel, India, Spain",
+            "enrollment": 900,
+            "brief_summary": "This study is a 2-arm, multicenter, multinational, prospective, randomized, controlled clinical trial. Hospitalized subjects with blood cultures growing Gram negative bacilli (GNB) will be randomized 1:1 to have the positive blood cultures characterized using standard of care (SOC) antimicrobial susceptibility testing (AST) vs. a rapid AST method known as Reveal™ in addition to SOC AST. The purpose of the FAST trial is to evaluate whether use of a rapid phenotypic AST improves clinical outcomes ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Positive blood culture with Gram stain showing GNB\n2. Hospitalized at the time of Gram stain result\n3. Enrolled within 16 hours of blood culture positivity\n\nExclusion Criteria:\n\n1. Positive blood culture for GNB within the prior 7 days (if known at the time of Gram stain resu",
+            "endpoints": [
+              "Subject Clinical Outcomes, as measured by Desirability of Outcome Ranking (DOOR)"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT06174649"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06044272",
+            "title": "Antimicrobial Resistance Profiles in Healthcare Facilities From Meta State, Colombia: A Retrospective Observational Study From 2018-2022",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2023-09-01",
+            "completion_date": "2024-06-30",
+            "country": "Colombia",
+            "enrollment": 10000,
+            "brief_summary": "Introduction: Healthcare-associated infections cause a burden in morbidity and mortality, and they increase the financial cost of care. Nevertheless, they are not limited to setting factors, and several community conditions and contexts are linked. Clinical laboratories from hospitals report monthly to the Public Health Laboratory.\n\nObjective: The study aims to establish the antimicrobial resistance profile of the most significant bacteria involved in healthcare-associated infections in Meta Sta",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All records with results from microbial isolation and antimicrobial resistance profile.\n\nExclusion Criteria:\n\n* Records of quality control; no information on resistance or susceptibility.",
+            "endpoints": [
+              "Number of microorganisms resistant to the antimicrobial"
+            ],
+            "sponsor": "Hospital Departamental de Villavicencio",
+            "url": "https://clinicaltrials.gov/study/NCT06044272"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06634940",
+            "title": "International Surveillance of Antimicrobial Resistance in Cirrhosis-Related Infections",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2020-11-15",
+            "completion_date": "2031-06-01",
+            "country": "Argentina",
+            "enrollment": 1000,
+            "brief_summary": "What is this study about?\n\nThis study tracks antibiotic resistance in patients with cirrhosis who develop bacterial infections. Cirrhosis is a condition where the liver is severely scarred, and people with cirrhosis are at high risk for serious bacterial infections.\n\nWhy is this study important?\n\nBacterial infections are common in patients with cirrhosis, affecting 25-46% of those who are hospitalized. These infections can be life-threatening, with 1 in 4 patients dying from complications. Many ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Episodes of culture-confirmed bacterial infections\n* Patients diagnosed with cirrhosis\n* Infections diagnosed either at the time of hospital admission or during hospitalization\n\nExclusion Criteria:\n\n* History of solid organ or hematopoietic stem cell transplantation\n* Declined",
+            "endpoints": [
+              "Proportion of multidrug-resistant organisms",
+              "Proportion of extensively drug-resistant microorganisms",
+              "Proportion of pan drug-resistant microorganisms"
+            ],
+            "sponsor": "Hospital Italiano de Buenos Aires",
+            "url": "https://clinicaltrials.gov/study/NCT06634940"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07148960",
+            "title": "Does Staphylococcus Aureus Bacteremia Early Dual Therapy Improve Outcomes? (SABEDTIO) Clinical Trial",
+            "phase": "PHASE4",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2025-09-15",
+            "completion_date": "2027-07",
+            "country": "United States",
+            "enrollment": 300,
+            "brief_summary": "The goal of this open-label, pragmatic, randomized controlled clinical trial is to learn if patients with Staphylococcus aureus bacteremia (SAB) given the intervention of early dual intravenous (IV) antibiotic therapy will decrease duration of bacteremia (\\< 6 days) and improve outcomes compared to single IV antibiotic therapy.\n\nThe main questions this study aims to answer are:\n\n* To decrease SAB duration and improve outcomes by using early dual vs. single agent IV antibiotic therapy\n* To accele",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* The patient is hospitalized at J.W. Ruby Memorial Hospital, Berkeley Medical Center, Camden Clark Medical Center, Princeton Community Hospital, Thomas Hospital, United Hospital Center, or Wheeling Hospital\n* The patient has been identified to have Staphylococcus aureus bactere",
+            "endpoints": [
+              "Percentage of participants with prolonged bacteremia (≥ 6 days)",
+              "Seeding of a New Site - Incidence",
+              "All-Cause Mortality"
+            ],
+            "sponsor": "West Virginia University",
+            "url": "https://clinicaltrials.gov/study/NCT07148960"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07376889",
+            "title": "COMBAT-SAB: Combination Antibiotic Therapy for Staphylococcus Aureus Bacteremia",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-02-01",
+            "completion_date": "2029-01",
+            "country": "United States",
+            "enrollment": 2096,
+            "brief_summary": "The purpose of this study is to see if, in selected patients with a serious bacterial infection of the bloodstream, treating the bacterial infection with a combination of antibiotics is more effective than treating the infection with a single antibiotic. Participants must have blood cultures which are positive for a certain type of bacteria.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Alive and admitted to an Intermountain Health (IH) hospital acute care unit at enrollment\n* Initial positive blood culture with either methicillin-resistant Staphylococcus aureus (MRSA) or methicillin-susceptible Staphylococcus aureus (MSSA), collected:\n\n  1. o",
+            "endpoints": [
+              "Desirability of Outcome Ranking (DOOR)"
+            ],
+            "sponsor": "Intermountain Health Care, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT07376889"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03218397",
+            "title": "Rapid Identification and Phenotypic Susceptibility Testing for Gram-Negative Bacteremia (RAPIDS-GN)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-10-09",
+            "completion_date": "2018-11-30",
+            "country": "United States",
+            "enrollment": 500,
+            "brief_summary": "RAPIDS-GN is a multi-center, prospective, randomized, controlled trial to evaluate the following strategies for patients with confirmed gram-negative bacillus bacteremia (GNB):\n\n1. Standard culture and antimicrobial susceptibility testing (AST); or\n2. Rapid identification and AST using the Accelerate PhenoTest™ BC Kit, performed on the Accelerate Pheno™ System (AXDX)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Positive blood culture with Gram stain showing GNB identified during local laboratory business hours.\n\nExclusion Criteria:\n\n* Identification of GNB outside of local laboratory business hours (e.g. whenever laboratories are staffed to perform both rapid testing and routine test",
+            "endpoints": [
+              "Hours to First Antibiotic Modification"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT03218397"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00366249",
+            "title": "A Multicenter, Randomized, Double-Blind, Comparison Study of the Safety and Efficacy of a Once-Daily Dose of Tigecycline Versus Ertapenem for the Treatment of Foot Infections in Subjects With Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-01",
+            "completion_date": "2009-03",
+            "country": "Australia, India, Belgium, Austria, Latvia, United States, Peru, Ukraine, Estonia, Lithuania, Canada, Croatia, South Korea, Italy, Chile, Russia, Sweden, Poland, Colombia, United Kingdom, France, Brazil, Germany, Argentina, Denmark, Mexico, Hungary, Panama, Switzerland, Spain, Turkey (Türkiye), Romania, Slovakia, Finland, China, Portugal, Greece, South Africa, Taiwan",
+            "enrollment": 1061,
+            "brief_summary": "The purpose of this study was to look at the safety and effectiveness of a once-daily dose of tigecycline compared to ertapenem for the treatment of diabetic foot infections. The co-primary efficacy endpoints were not met.",
+            "eligibility_criteria": "Main inclusion criteria:\n\n* Men and women aged 18 or older with diabetes and a qualifying foot infection. People with evidence of a diabetic foot infection with osteomyelitis may qualify for the osteomyelitis substudy arm.\n\nMain exclusion criteria:\n\n* People with additional significant disease, infe",
+            "endpoints": [
+              "Number of Patients With Clinical Response of Cure Vs. Failure.",
+              "Number of Patients With Clinical Response of Cure Vs. Failure/Indeterminate."
+            ],
+            "sponsor": "Wyeth is now a wholly owned subsidiary of Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT00366249"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04886284",
+            "title": "Combination Cefazolin With Ertapenem for Methicillin-susceptible Staphylococcus Aureus Bacteremia (CERT)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-05-20",
+            "completion_date": "2026-07",
+            "country": "Canada",
+            "enrollment": 60,
+            "brief_summary": "There is a variety of in vitro, in vivo (animal model), and human case series data which suggests that the addition of ertapenem to cefazolin could improve outcomes in methicillin-susceptible S. aureus bacteremia. No randomized controlled trial has been performed.\n\nThis study is an approved sub-study of The Staphylococcus aureus Network Adaptive Platform (SNAP) trial (NCT05137119)",
+            "eligibility_criteria": "The participant must fulfil all inclusion and exclusion criteria for the SNAP Platform (NCT05137119) and also the following inclusion and exclusion criteria to be eligible for this sub-study:\n\nInclusion Criteria:\n\n1. Adult \\>=18 years old\n2. S. aureus bacteremia within the past 48 hours:\n\n   * with ",
+            "endpoints": [
+              "Clinical success"
+            ],
+            "sponsor": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+            "url": "https://clinicaltrials.gov/study/NCT04886284"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31773134",
+            "title": "Cefazolin and Ertapenem Salvage Therapy Rapidly Clears Persistent Methicillin-Susceptible Staphylococcus aureus Bacteremia.",
+            "abstract": "Cefazolin and ertapenem combination therapy was used successfully to salvage 11 cases (6 endocarditis) of persistent methicillin-susceptible Staphylococcus aureus (MSSA) bacteremia, including immediate clearance (≤24 hours) in 8 cases. While in vitro synergy was modest, cefazolin plus ertapenem exhibited synergistic action in a rat model of MSSA endocarditis. The combination of cefazolin and ertapenem provides potent in vivo activity against MSSA beyond what is predicted in vitro and warrants further clinical study in the treatment of refractory MSSA bacteremia and endocarditis.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2020",
+            "authors": [
+              "Ulloa Erlinda R",
+              "Singh Kavindra V",
+              "Geriak Matthew",
+              "Haddad Fadi",
+              "Murray Barbara E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Cefazolin",
+              "Ertapenem",
+              "Methicillin",
+              "Rats",
+              "Salvage Therapy",
+              "Staphylococcal Infections",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31773134/"
+          },
+          {
+            "pmid": "27572414",
+            "title": "Cefazolin and Ertapenem, a Synergistic Combination Used To Clear Persistent Staphylococcus aureus Bacteremia.",
+            "abstract": "Ertapenem and cefazolin were used in combination to successfully clear refractory methicillin-susceptible Staphylococcus aureus (MSSA) bacteremia. In addition, recent work has demonstrated activity of combination therapy with beta-lactams from different classes against methicillin-resistant S. aureus (MRSA). The ertapenem-plus-cefazolin combination was evaluated for synergy in vitro and in vivo in a murine skin infection model using an index MSSA bloodstream isolate from a patient in whom persistent bacteremia was cleared with this combination and against a cadre of well-described research strains and clinical strains of MSSA and MRSA. Against the index MSSA bloodstream isolate, ertapenem and cefazolin showed synergy using both checkerboard (fractional inhibitory concentration [FIC] index = 0.375) and time-kill assays. Using a disk diffusion ertapenem potentiation assay, the MSSA isolate showed a cefazolin disk zone increased from 34 to 40 mm. In vitro pharmacokinetic/pharmacodynamic m",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2016",
+            "authors": [
+              "Sakoulas George",
+              "Olson Joshua",
+              "Yim Juwon",
+              "Singh Niedita B",
+              "Kumaraswamy Monika"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Cefazolin",
+              "Disease Models, Animal",
+              "Disk Diffusion Antimicrobial Tests",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Ertapenem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27572414/"
+          },
+          {
+            "pmid": "39230345",
+            "title": "Exploring combination treatment options for persistent methicillin-susceptible Staphylococcus aureus bacteremia.",
+            "abstract": "This review explores the management of persistent methicillin-susceptible Staphylococcus aureus bacteremia (SAB), emphasizing the importance of timely intervention due to SAB's association with metastatic dissemination, relapse, and mortality.",
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2025",
+            "authors": [
+              "Al Shaikhli Hiba",
+              "Akins Ronda L",
+              "Stover Kayla R",
+              "Barber Katie E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Staphylococcal Infections",
+              "Bacteremia",
+              "Drug Therapy, Combination",
+              "Staphylococcus aureus",
+              "Methicillin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39230345/"
+          },
+          {
+            "pmid": "19527173",
+            "title": "Doripenem.",
+            "abstract": "Carbapenems play a significant role in the current antibiotic armamentarium. Doripenem is the newest carbapenem to be commercially released. Its antimicrobial spectrum more closely resembles those of meropenem and imipenem than that of ertapenem. Thus, it has significant in vitro activity against streptococci, methicillin-susceptible staphylococci, Enterobacteriaceae (including extended-spectrum beta-lactamase-producing strains), Pseudomonas aeruginosa, Acinetobacter species, and Bacteroides fragilis. Doripenem does not have clinically useful activity against methicillin-resistant Staphylococcus aureus, vancomycin-resistant enterococci, and the majority of gram-negative bacilli that are resistant to meropenem or imipenem. In vitro, resistant P. aeruginosa mutants appear to be harder to select with doripenem than with other carbapenems. Doripenem has been approved for use in treatment of complicated intra-abdominal infection and complicated urinary tract infection. Studies of hospital-a",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2009",
+            "authors": [
+              "Paterson David L",
+              "Depestel Daryl D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Carbapenems",
+              "Doripenem",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Peritonitis",
+              "Pneumonia, Bacterial",
+              "Seizures",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19527173/"
+          },
+          {
+            "pmid": "35294769",
+            "title": "Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.",
+            "abstract": "Sulopenem (formerly known as CP-70,429, and CP-65,207 when a component of a racemic mixture with its R isomer) is an intravenous and oral penem that possesses in vitro activity against fluoroquinolone-resistant, extended spectrum β-lactamases (ESBL)-producing, multidrug-resistant (MDR) Enterobacterales. Sulopenem is being developed to treat patients with uncomplicated and complicated urinary tract infections (UTIs) as well as intra-abdominal infections. This review will focus mainly on its use in UTIs. The chemical structure of sulopenem shares properties of penicillins, cephalosporins, and carbapenems. Sulopenem is available as an oral prodrug formulation, sulopenem etzadroxil, which is hydrolyzed by intestinal esterases, resulting in active sulopenem. In early studies, the S isomer of CP-65,207, later developed as sulopenem, demonstrated greater absorption, higher drug concentrations in the urine, and increased stability against the renal enzyme dehydropeptidase-1 compared with the R",
+            "journal": "Drugs",
+            "year": "2022",
+            "authors": [
+              "Zhanel George G",
+              "Pozdirca Marianna",
+              "Golden Alyssa R",
+              "Lawrence Courtney K",
+              "Zelenitsky Sheryl"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Guinea Pigs",
+              "Humans",
+              "Male",
+              "Mice",
+              "Anti-Bacterial Agents",
+              "Bacteriuria",
+              "beta-Lactamases",
+              "Carbapenems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35294769/"
+          },
+          {
+            "pmid": "38946294",
+            "title": "Carbapenem combination therapy versus standard of care for persistent methicillin-susceptible Staphylococcus aureus bacteraemia.",
+            "abstract": "Successful use of carbapenems in combination with cefazolin or oxacillin for treatment of MSSA bacteraemia has been described; however, comparative data to standard treatment approaches are lacking.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2024",
+            "authors": [
+              "Shah Sunish",
+              "Clarke Lloyd G",
+              "Ludwig Justin",
+              "Burgdorf Sarah",
+              "Arbulu Guerra Ricardo D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Bacteremia",
+              "Retrospective Studies",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Anti-Bacterial Agents",
+              "Drug Therapy, Combination",
+              "Aged",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38946294/"
+          },
+          {
+            "pmid": "40448546",
+            "title": "Impact of hypoalbuminemia on patients receiving ertapenem combination therapy for methicillin-susceptible Staphylococcus aureus bacteraemia.",
+            "abstract": "Ertapenem combination therapy has been associated with a faster time to blood culture sterilization in patients with MSSA bacteraemia. However, guidance documents advise avoiding ertapenem in patients with a serum albumin level of <2.5 g/dL for Gram negative infections given that ertapenem is highly protein bound and patients with hypoalbuminemia may experience suboptimal ertapenem exposures.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2025",
+            "authors": [
+              "Shah Sunish",
+              "Clarke Lloyd G",
+              "Balasubramani G K",
+              "Peng Lingyi",
+              "Smith Brandon J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ertapenem",
+              "Bacteremia",
+              "Male",
+              "Female",
+              "Staphylococcal Infections",
+              "Anti-Bacterial Agents",
+              "Retrospective Studies",
+              "Middle Aged",
+              "Hypoalbuminemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40448546/"
+          },
+          {
+            "pmid": "36401791",
+            "title": "Treatment of persistent methicillin-susceptible Staphylococcus aureus bacteremia and presumed osteomyelitis with oxacillin and ertapenem in a premature neonate.",
+            "abstract": "Neonatal sepsis remains a high cause of morbidity and mortality in preterm neonates. Methicillin-susceptible Staphylococcus aureus (MSSA) can cause persistent bloodstream infections and invasive disease in neonates. We report the first published case of persistent MSSA bacteremia in a preterm neonate successfully treated with oxacillin and ertapenem combination therapy.",
+            "journal": "Pharmacotherapy",
+            "year": "2023",
+            "authors": [
+              "Hitchins Margaret",
+              "O'Mara Keliana",
+              "Edwards Laura",
+              "Bouchard Jeannette"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Infant, Newborn",
+              "Humans",
+              "Oxacillin",
+              "Staphylococcus aureus",
+              "Ertapenem",
+              "Anti-Bacterial Agents",
+              "Methicillin",
+              "Staphylococcal Infections",
+              "Osteomyelitis",
+              "Bacteremia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36401791/"
+          },
+          {
+            "pmid": "33207996",
+            "title": "Prevalence of methicillin-sensitive, methicillin-resistant Staphylococcus aureus, and extended-spectrum beta-lactamase-producing Escherichia coli in newborns: a cross-sectional study.",
+            "abstract": "The prevalence of antimicrobial-resistant bacteria and methicillin-sensitive Staphylococcus aureus (MSSA) in healthy newborns and the role of maternal transmission are scarcely discussed.",
+            "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+            "year": "2022",
+            "authors": [
+              "Heigl Katharina",
+              "Zamfir Mihai",
+              "Adler Alexandra C",
+              "Dammeyer Antchen",
+              "Schomacher Lasse"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Cross-Sectional Studies",
+              "Escherichia coli",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Methicillin",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Microbial Sensitivity Tests",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33207996/"
+          },
+          {
+            "pmid": "11772242",
+            "title": "Ertapenem: a new carbapenem.",
+            "abstract": "Ertapenem is a new 1-beta-methyl carbapenem, stable to dehydropeptidase, which binds preferable to penicillin-binding proteins (PBP) 2 and 3. Ertapenem has a broad antibacterial spectrum with MIC90 values < 0.5 mg/l for penicillin-susceptible Streptococcus pneumoniae, Streptococcus pyogenes, methicillin-sensitive Staphylococcus aureus, Haemophilus influenzae, Moraxella catarrhalis, Escherichia coli, Citrobacter spp., Klebsiella spp., Serratia spp., Proteus spp., Clostridium perfringens, Fusobacterium spp. Peptostreptococcus spp. and anaerobic Streptococcus spp. Ertapenem exhibits a bactericidal mode of action as shown by time-killing curves and exhibits a short PAE of 1.4 - 2.6 h against the Gram-positive strains but no PAE against Gram-negative strains. In an infection model in mice, it has been shown that ertapenem and imipenem were highly efficacious at a level of 2 mg/kg in bacterial clearance in comparison to ceftriaxone, cefepime, ceftazidime, cefazolin, cefonicid, cefotaxime and",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2001",
+            "authors": [
+              "Odenholt I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Carbapenems",
+              "Clinical Trials, Phase II as Topic",
+              "Drug Evaluation",
+              "Ertapenem",
+              "Gram-Negative Aerobic Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11772242/"
+          },
+          {
+            "pmid": "26833159",
+            "title": "Oritavancin Combinations with β-Lactams against Multidrug-Resistant Staphylococcus aureus and Vancomycin-Resistant Enterococci.",
+            "abstract": "Oritavancin possesses activity against vancomycin-resistant enterococci (VRE) and methicillin-resistantStaphylococcus aureus(MRSA).In vitrodata suggest synergy between beta-lactams (BLs) and vancomycin or daptomycin, agents similar to oritavancin. We evaluated the activities of BLs combined with oritavancin against MRSA and VRE. Oritavancin MICs were determined for 30 strains, 5 each of MRSA, daptomycin-nonsusceptible (DNS) MRSA, vancomycin-intermediate MRSA (VISA), heteroresistant VISA (hVISA), vancomycin-resistantEnterococcus faecalis, and vancomycin-resistantEnterococcus faecium Oritavancin MICs were determined in the presence of subinhibitory concentrations of BLs. Oritavancin combined with ceftaroline, cefazolin, or nafcillin was evaluated for lethal synergy against MRSA, and oritavancin combined with ceftaroline, ampicillin, or ertapenem was evaluated for lethal synergy against VRE in 24-h time-kill assays. Oritavancin at 0.5× the MIC was combined with BLs at 0.5× the MIC or the ",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2016",
+            "authors": [
+              "Smith Jordan R",
+              "Yim Juwon",
+              "Raut Animesh",
+              "Rybak Michael J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Cefazolin",
+              "Cephalosporins",
+              "Daptomycin",
+              "Drug Resistance, Multiple, Bacterial",
+              "Drug Synergism",
+              "Ertapenem",
+              "Glycopeptides",
+              "Gram-Positive Bacterial Infections",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26833159/"
+          },
+          {
+            "pmid": "34599521",
+            "title": "Cefazolin plus ertapenem and heart transplantation as salvage therapy for refractory LVAD infection due to methicillin-susceptible Staphylococcus aureus: A case series.",
+            "abstract": "The use of left ventricular assist devices (LVADs) is increasingly more common as the availability of donor organs in relation to failing hearts is outstandingly limited. Infections are the most common complications in LVAD recipients, particularly those caused by Staphylococcus spp. Refractory LVAD-related infections are not uncommon as achieving adequate source control is often not feasible before heart transplantation. Evidence suggest that cefazolin plus ertapenem is effective in refractory methicillin-susceptible Staphylococcus aureus (MSSA) bacteremia, but this approach has not been described in LVAD recipients. In this article, we report two cases of refractory MSSA bacteremia in LVAD recipients that were successfully treated with salvage therapy with cefazolin plus ertapenem and subsequent heart transplantation. This treatment strategy should be considered in patients with refractory LVAD-associated infection due to MSSA that are not responding to standard treatment.",
+            "journal": "Journal of cardiac surgery",
+            "year": "2021",
+            "authors": [
+              "Cardenas-Alvarez Jorge L",
+              "Suarez Jose",
+              "Motoa Gabriel",
+              "Anjan Shweta",
+              "Natori Yoichiro"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Cefazolin",
+              "Ertapenem",
+              "Heart Transplantation",
+              "Heart-Assist Devices",
+              "Humans",
+              "Methicillin",
+              "Salvage Therapy",
+              "Staphylococcal Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34599521/"
+          },
+          {
+            "pmid": "39777519",
+            "title": "Enhanced Killing of Methicillin-Resistant Staphylococcus aureus With Ceftaroline or Vancomycin in Combination With Carbapenems.",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) bacteremia is associated with high rates of treatment failure, even when antibiotics showing in vitro susceptibility are used. Early optimization of therapy is crucial to reduce morbidity and mortality. Building on our previous research on carbapenem therapy for methicillin-susceptible S aureus bacteremia, we examined the utility of adjunctive carbapenems (ertapenem or meropenem) to enhance the efficacy of ceftaroline or vancomycin for treatment of MRSA.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2025",
+            "authors": [
+              "Jankeel Allen",
+              "Pérez-Parra Gabriel",
+              "Khetarpal Anuj K",
+              "Alvarado Ivan A",
+              "Nizet Victor"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ceftaroline",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Humans",
+              "Cephalosporins",
+              "Anti-Bacterial Agents",
+              "Animals",
+              "Carbapenems",
+              "Vancomycin",
+              "Staphylococcal Infections",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39777519/"
+          },
+          {
+            "pmid": "39935929",
+            "title": "Isolated Pulmonary Valve Infective Endocarditis With Persistent Staphylococcus aureus Bacteremia and Rapid Clearance With Ertapenem Plus Cefazolin.",
+            "abstract": "Infective endocarditis is an infection of the heart's native or prosthetic valves, often caused by bacteria such as Staphylococcus aureus. Although infective endocarditis most commonly affects the left heart, cases of right-sided infective endocarditis, involving structures like the tricuspid or pulmonary valves, are also noted. Isolated native pulmonary valve infective endocarditis is exceptionally rare. After suspicion, the diagnosis relies on clinical symptoms and signs, imaging, and microbiological evidence. We report an unusual case of isolated pulmonary valve infective endocarditis in a previously healthy 59-year-old man without typical risk factors. He presented with unspecific symptoms such as fever, chills, dizziness, and left shoulder pain. Radiologically, the patient presented small ground-glass opacities in both lungs that aggravated during the first days after hospital admission with multifocal consolidation areas, and later developing bilateral necrotizing pneumonia. Desp",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Fernandes Paulo",
+              "Maia Oliveira João",
+              "Rocha Ana Rita",
+              "Carvalho Sara",
+              "Vaz José"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39935929/"
+          },
+          {
+            "pmid": "38417732",
+            "title": "The effect of different antibiotic combinations in calcium sulfate cement on the growth of Cutibacterium acnes and Staphylococcus periprosthetic shoulder infection isolates.",
+            "abstract": "Periprosthetic joint infections (PJI) of the shoulder are a devastating complication of shoulder arthroplasty and are commonly caused by Staphylococcus and Cutibacterium acnes. Absorbable calcium sulfate (CS) beads are sometimes used for delivering antibiotics in PJI. This study evaluates the in vitro effect of different combinations of gentamicin, vancomycin, and ertapenem in beads made from CS cement on the growth of C acnes and coagulase-negative Staphylococcus (CNS) strains.",
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2024",
+            "authors": [
+              "Listopadzki Thomas",
+              "Chowdhury Allison",
+              "Kohut Kevin",
+              "Haider Mohammad Nadir",
+              "Crane John K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Bacterial Agents",
+              "Calcium Sulfate",
+              "Prosthesis-Related Infections",
+              "Staphylococcus",
+              "Vancomycin",
+              "Bone Cements",
+              "Propionibacterium acnes",
+              "Gentamicins",
+              "Arthroplasty, Replacement, Shoulder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38417732/"
+          },
+          {
+            "pmid": "34978891",
+            "title": "Is the Success of Cefazolin plus Ertapenem in Methicillin-Susceptible Staphylococcus aureus Bacteremia Based on Release of Interleukin-1 Beta?",
+            "abstract": "Cefazolin and ertapenem have been shown to be an effective salvage regimen for refractory methicillin-susceptible Staphylococcus aureus bacteremia. Our findings suggest cefazolin plus ertapenem in vitro stimulates interleukin-1β release from peripheral blood monocytes both with and without S. aureus presence. This IL-1β augmentation was primarily driven by ertapenem. These findings support further exploration of cefazolin plus ertapenem in MSSA bacteremia and may partially explain its marked potency in vivo despite modest synergy in vitro.",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2022",
+            "authors": [
+              "Smelter Dan",
+              "Hayney Mary",
+              "Sakoulas George",
+              "Rose Warren"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Cefazolin",
+              "Ertapenem",
+              "Humans",
+              "Interleukin-1beta",
+              "Methicillin",
+              "Staphylococcal Infections",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34978891/"
+          },
+          {
+            "pmid": "35493130",
+            "title": "Potent Activity of Ertapenem Plus Cefazolin Within Staphylococcal Biofilms: A Contributing Factor in the Treatment of Methicillin-Susceptible Staphylococcus aureus Endocarditis.",
+            "abstract": "Besides antistaphylococcal beta-lactams and source control, there are limited validated antimicrobial salvage options in patients with prolonged methicillin-susceptible Staphylococcus aureus (MSSA) bacteremia, including infective endocarditis (IE).",
+            "journal": "Open forum infectious diseases",
+            "year": "2022",
+            "authors": [
+              "Gilbertie Jessica",
+              "Ulloa Erlinda R",
+              "Daiker Jennifer C",
+              "Nguyen Khanh",
+              "Smelter Dan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35493130/"
+          },
+          {
+            "pmid": "35393639",
+            "title": "Oxacillin plus ertapenem rapidly clears persistent left ventricular assist device-related methicillin-susceptible Staphylococcus aureus bacteremia.",
+            "abstract": "There is an increasing use of left ventricular assist devices (LVADs) as bridge to transplantation or permanent destination therapy in the heart failure patient population. Infection remains a common complication in LVADs, with Gram-positive skin flora as predominant pathogens implicated, including Staphylococcus aureus. While there is emerging evidence for synergistic antibiotic combinations with methicillin resistant S. aureus, there remains a significant gap in the literature for persistent methicillin susceptible S. aureus bacteremia. In this article, we describe the first successful treatment of persistent LVAD-related bacteremia with salvage oxacillin plus ertapenem. The salvage therapy described here must be balanced by the risks for toxicity, impact on resistance, microbiota disruption, drug shortages, and patient costs. This combination warrants further evaluation in the clinical setting to better establish its role in our expanding patient population.",
+            "journal": "Journal of cardiac surgery",
+            "year": "2022",
+            "authors": [
+              "Wilsey H Andrew",
+              "Pisani Barbara",
+              "O'Neill Thomas J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Bacteremia",
+              "Ertapenem",
+              "Heart-Assist Devices",
+              "Humans",
+              "Methicillin",
+              "Methicillin-Resistant Staphylococcus aureus",
+              "Oxacillin",
+              "Staphylococcal Infections",
+              "Staphylococcus aureus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35393639/"
+          },
+          {
+            "pmid": "16801442",
+            "title": "In vitro and in vivo assessment of linezolid combined with ertapenem: a highly synergistic combination against methicillin-resistant Staphylococcus aureus.",
+            "abstract": "Linezolid in combination with ertapenem showed in vitro synergy against methicillin-resistant Staphylococcus aureus strains. We confirmed this interaction in vivo by using a rabbit endocarditis experimental model and simulation of the human pharmacokinetics in animals for both antibiotics. Linezolid plus ertapenem exhibited highly synergistic activity in vivo after 4 days of treatment.",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2006",
+            "authors": [
+              "Jacqueline Cedric",
+              "Caillon Jocelyne",
+              "Grossi Olivier",
+              "Le Mabecque Virginie",
+              "Miegeville Anne-Françoise"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetamides",
+              "Animals",
+              "Anti-Infective Agents",
+              "Drug Synergism",
+              "Endocarditis, Bacterial",
+              "Ertapenem",
+              "Humans",
+              "Linezolid",
+              "Methicillin Resistance",
+              "Oxazolidinones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16801442/"
+          },
+          {
+            "pmid": "15164963",
+            "title": "Efficacy of ertapenem against methicillin-susceptible Staphylococcus aureus in complicated skin/skin structure infections: results of a double-blind clinical trial versus piperacillin-tazobactam.",
+            "abstract": "Staphylococcus aureus is the predominant pathogen in complicated skin/skin structure infections. In this analysis of a subgroup of data from a randomised, double-blind trial, the efficacy of ertapenem 1 g daily was compared with piperacillin-tazobactam 3.375 g Q6H for treatment of complicated skin/skin structure infections caused by methicillin-susceptible S. aureus (MSSA). Of the 529 treated patients in this trial, 185 (35.0%) had MSSA as a baseline pathogen. At the test of cure assessment 10-21 days post-therapy, 54 of 67 (80.6%) protocol evaluable patients in the ertapenem group and 55 of 68 (80.9%) in the piperacillin-tazobactam group were cured (odds ratio: 1.0 (95% confidence interval (CI): 0.4-2.4), P = 0.99). In both treatment groups, cure rates were higher in patients with monomicrobial than polymicrobial infections, but the difference was not significant. In this subgroup analysis of patients with MSSA complicated skin/skin structure infections, therapy with ertapenem 1 g dai",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2004",
+            "authors": [
+              "Gesser Richard M",
+              "McCarroll Kathleen A",
+              "Woods Gail L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Double-Blind Method",
+              "Ertapenem",
+              "Female",
+              "Humans",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15164963/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.9875497221946716,
+        "txgnn_rank": 12392,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.9875497221946716,
+        "txgnn_rank": 12393,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9853945970535278,
+        "txgnn_rank": 13966,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "toxocariasis",
+        "txgnn_score": 0.9844473600387572,
+        "txgnn_rank": 14552,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.9833602905273438,
+        "txgnn_rank": 15211,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03218800",
+            "title": "Ertapenem Administered Subcutaneously Versus Intravenously for Urinary Tract Infections in Oncological Palliative Care Patients: a Randomized, Open, Non-inferiority Clinical Trial",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2017-06-01",
+            "completion_date": "2021-02-28",
+            "country": "Brazil",
+            "enrollment": 30,
+            "brief_summary": "Infections requiring intravenous antimicrobial therapy are very common events in patients with advanced cancer. Nevertheless, these patients frequently present vascular damages becoming extremely difficult to access and maintain intravenous route for hydration and nutritional support. In this context, the subcutaneous route could be implemented as an alternative route for replacement of fluids, electrolytes and drugs. Few studies have evaluated the possibility of using the subcutaneous route for",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Any type of cancer in palliative care;\n* Urinary tract infection;\n* Informed consent assigned by the patient or legal representative.\n\nExclusion Criteria:\n\n* Neutropenia;\n* Unconsciousness.",
+            "endpoints": [
+              "microbiological cure"
+            ],
+            "sponsor": "Instituto Nacional de Cancer, Brazil",
+            "url": "https://clinicaltrials.gov/study/NCT03218800"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04671290",
+            "title": "Temocillin Versus Carbapenems for Urinary Tract Infection Due to ESBL-producing Enterobacteriaceae: a Multicenter Case-control Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-01-01",
+            "completion_date": "2019-10-31",
+            "country": "N/A",
+            "enrollment": 144,
+            "brief_summary": "To assess the efficacy of temocillin compared to carbapenems for the management of ESBL-E UTI.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults\n* Diagnosis of UTI defined by at least two of the following symptoms :chills,temperature \\>38°C (fever), flank or pelvic pain, nausea or vomiting, dysuria, urinary frequency, or urinary urgency, costovertebral angle tenderness on physical examination\n* Positive urine cu",
+            "endpoints": [
+              "Rate of clinical cure"
+            ],
+            "sponsor": "Centre Hospitalier Annecy Genevois",
+            "url": "https://clinicaltrials.gov/study/NCT04671290"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00771316",
+            "title": "A Phase 3, Randomized, Active Comparator-Controlled Clinical Trial to Study the Safety and Efficacy of MK0826 and Meropenem in Patients With Complicated Urinary Tract Infection",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2008-12",
+            "completion_date": "2009-06",
+            "country": "N/A",
+            "enrollment": 6,
+            "brief_summary": "The purpose of this study is to demonstrate that MK0826 is comparable to Meropenem in the treatment of complicated Urinary Tract Infections (UTIs) in adults.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has a clinically suspected and /or bacteriologically documented complicated UTI or acute pyelonephritis judged by the investigator to be serious\n* Patient has one positive urine culture within 48 hours of enrollment\n* Patient has one or more signs or symptoms of either",
+            "endpoints": [
+              "Number of Participants With Serious Urinary Tract Infection With an Overall Microbiological Response to MK0826 Compared to Meropenem at the 5 to 9 Day Post Therapy Early Follow-up Visit",
+              "Number of Participants With Serious Urinary Tract Infection With a Clinical Response to MK0826 Compared to Meropenem at Discontinuation of Intravenous Therapy (DCIV)",
+              "Number of Participants With Serious Urinary Tract Infection With an Overall Microbiological Response to MK0826 Compared to Meropenem at Discontinuation of Intravenous Therapy (DCIV)"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00771316"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06482151",
+            "title": "Evaluation of the Prevalence of E. Coli O Serotypes in Paediatric Population With Recurrent Urinary Tract Infection in Europe",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "start_date": "2025-03-11",
+            "completion_date": "2025-03-11",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This is a multicentre, observational, epidemiological study in which infants within the first 3 months of life with UTI and children aged ≥4 months with r-UTI will be recruited from nephrology /emergency departments and primary care in European countries",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 0 weeks and 17 years\n* Significant urine culture positive only for E. coli\n* For infants up to 3 months of age, a confirmed first UTI episode as identified by urine culture obtained by a sterile method (as described above) and positive for E. coli only (no other pa",
+            "endpoints": [
+              "To assess the serogroups of E. coli in the study cohort"
+            ],
+            "sponsor": "PENTA Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT06482151"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05319561",
+            "title": "Dissemination and Implementation of a Videoconference Antimicrobial Stewardship Team (VAST)",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-03-28",
+            "completion_date": "2026-03-31",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "Antimicrobial-resistant and healthcare-associated pathogens are a global health threat. The goals of antimicrobial stewardship are to minimize unnecessary and inappropriate antimicrobial use as a means to combat antimicrobial resistance. Previously, the investigators implemented a Videoconference Antimicrobial Stewardship Team (VAST) at 2 VA Medical Centers (VAMCs), using telehealth to connect clinicians at a rural VAMC to a geographically distant infectious disease expert Both VASTs successfull",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* VA medical centers without local ID expertise that pair with an ID-expert from another VA medical center.\n\nExclusion Criteria:\n\n* (none)",
+            "endpoints": [
+              "Days of Antibiotic Therapy / 1000 Bed Days of Care"
+            ],
+            "sponsor": "VA Office of Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT05319561"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00398099",
+            "title": "Clinical Evaluation for the Efficacy, Safety, Tolerability & Medical Resource Utilization of Invanz (Ertapenem Sodium) Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2005-07",
+            "completion_date": "2006-01",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "To collect clinical response data with the use of ertapenem in approved indications.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female patients, 20 years of age or older\n* Patients did not receive any systemic antibiotic before enrollment, or patients with failed clinical response (no improvement on symptoms or laboratory data) through previous antibiotic treatment\n* Patients who required thera",
+            "endpoints": [
+              "Signs and symptoms of infection on days 3, 4, 7 and 14 during treatment"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00398099"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02474706",
+            "title": "Evaluation of the Non-inferiority of Cefoxitin Versus Imipenem/Cilastatin in the Treatment of Urinary Tract Infections Caused by ESBL-producing Escherichia Coli",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2016-03",
+            "completion_date": "2017-12",
+            "country": "France",
+            "enrollment": 6,
+            "brief_summary": "Background Information: Infections caused by extended-spectrum β-lactamase (ESBL)-producing Escherichia coli are becoming increasingly common owing to incorrect use of antibiotics and cross-transmission in healthcare establishments. These give rise to major problems in standard clinical practice: penicillins and cephalosporins cannot be used, and resistance to the other classes of antibiotics normally used, such as fluoroquinolones or cotrimoxazole, is very frequently observed. The current thera",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Patient admitted to any medical or surgical department in the participating centre\n* Documented urinary tract infection (other than cystitis), with or without bacteremia, caused by ESBL-producing E. coli susceptible in vitro to cefoxitin (minimal inhibition co",
+            "endpoints": [
+              "Control urine culture negative"
+            ],
+            "sponsor": "Central Hospital, Nancy, France",
+            "url": "https://clinicaltrials.gov/study/NCT02474706"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01173068",
+            "title": "A Prospective Observational Study of Ertapenem in Outpatient Parenteral Antibiotic Therapy (OPAT) for Complicated Urinary Tract Infections.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2010-08",
+            "completion_date": "2014-09",
+            "country": "Singapore",
+            "enrollment": 60,
+            "brief_summary": "The aim of this study is to determine the outcomes when using ertapenem for complicated urinary tract infections in the OPAt setting.\n\nThe study hypothesis: Ertapenem is an efficacious and safe therapeutic option for complicated urinary tract infections in the OPAt setting.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients between 21 years old to 70 years old.\n* Diagnosed with complicated urinary tract infection due to pathogen susceptible to ertapenem based on microbiology report, and the use of ertapenem is deemed clinically appropriate by the Infectious Disease physician in cha",
+            "endpoints": [
+              "Clinical Outcome"
+            ],
+            "sponsor": "National University Hospital, Singapore",
+            "url": "https://clinicaltrials.gov/study/NCT01173068"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00379951",
+            "title": "A Prospective, Multicenter, Noncomparative, Open Label Study to Evaluate the Safety, Tolerability and Efficacy of Ertapenem Sodium in the Treatment of Complicated Urinary Tract Infections",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2005-06",
+            "completion_date": "2006-05",
+            "country": "N/A",
+            "enrollment": 107,
+            "brief_summary": "The purpose of this study is to evaluate the safety, tolerability and efficacy of ertapenem sodium as initial therapy for the treatment of complicated urinary tract infections, including pyelonephritis in indian adults.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has a complicated urinary tract infection\n* Patient has acute pyelonephritis with fever, flank pain, pus in the urine, and positive urine culture\n* Patient is indian and 18 years of age or greater.\n\nExclusion Criteria:\n\n* Patient had a kidney transplant\n* Patient had b",
+            "endpoints": [
+              "Safety and tolerability"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00379951"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03891433",
+            "title": "Piperacillin/Tazobactam Versus Carbapenems in Non-bacteremic Urinary Tract Infections Due to Extended-spectrum Β-lactamase (ESBL)-producing Escherichia Coli or Klebsiella Pneumoniae - (CAPITIS Study)",
+            "phase": "PHASE4",
+            "status": "SUSPENDED",
+            "start_date": "2019-04-01",
+            "completion_date": "2026-04-01",
+            "country": "Colombia",
+            "enrollment": 198,
+            "brief_summary": "This study evaluates the efficacy in achieving clinical cure in non-bacteremic urinary tract infections (UTI) caused by Escherichia coli or Klebsiella pneumoniae producers of extended-spectrum β-lactamases (ESBL) in adult patients. Half of participants will receive Piperacillin/Tazobactam as treatment, while the other half will receive Carbapenems.\n\nThe investigators will verify that Piperacillin/Tazobactam is not inferior in achieving clinical cure, and that is not associated with a higher risk",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (≥18 years) with hospital admission for non-bacteremic UTI caused by E. coli or K. pneumoniae ESBL susceptible to piperacillin/tazobactam and carbapenems.\n* Presence of any risk factor associated with UTI due to ESBL germs: older age 64 years, diabetes mellitus, bladder",
+            "endpoints": [
+              "Clinical cure."
+            ],
+            "sponsor": "Universidad del Norte",
+            "url": "https://clinicaltrials.gov/study/NCT03891433"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03788967",
+            "title": "A Phase 3, Randomized, Double-blind, Double-dummy, Multicenter, Prospective Study to Assess the Efficacy, Safety and Pharmacokinetics of Orally Administered Tebipenem Pivoxil Hydrobromide (SPR994) Compared to Intravenous Ertapenem in Patients With Complicated Urinary Tract Infection (cUTI) or Acute Pyelonephritis (AP)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-06-03",
+            "completion_date": "2020-05-27",
+            "country": "Moldova, Romania, Slovakia, Latvia, United States, Bulgaria, Czechia, Hungary, Russia, Ukraine, Estonia, South Africa, Serbia, Georgia, Poland",
+            "enrollment": 1372,
+            "brief_summary": "The key purpose of this study is to evaluate the efficacy, safety and pharmacokinetics (PK) of tebipenem pivoxil hydrobromide (TBPM-PI-HBr) compared to intravenous (IV) ertapenem, in participants with complicated Urinary Tract Infection (cUTI) or Acute Pyelonephritis (AP).",
+            "eligibility_criteria": "Inclusion Criteria\n\n1. Male and female participants at least 18 years of age.\n2. Able to provide informed consent.\n3. Able to ingest oral tablets for the anticipated treatment duration. If present at baseline, nausea and/or vomiting should have been mild or well-controlled with antiemetic therapy, i",
+            "endpoints": [
+              "Overall Response (Combined Clinical Cure and Microbiological Eradication) at Test-of-Cure (TOC) in Micro Intent-to-Treat Population",
+              "Number of Participants With Treatment Emergent Adverse Events (TEAEs) in The Safety Population"
+            ],
+            "sponsor": "Spero Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT03788967"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01138566",
+            "title": "Clinical Significance and Optimal Treatment of Community-onset Urinary Tract Infections Caused by Extended-spectrum β-lactamase and/or AmpC β-lactamase Producing Enterobacteriaceae",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "",
+            "completion_date": "",
+            "country": "Taiwan",
+            "enrollment": 400,
+            "brief_summary": "The purposes of this study are:\n\n1. To estimate the prevalence of extended spectrum β-lactamase (ESBL) and/or AmpC among Enterobacteriaceae which cause community-onset urinary tract infections (UTIs)\n2. To collect the background, risk factors and clinical outcome of patients with community-acquired uropathogenic condition related to Enterobacteriaceae (both ESBL, AmpC- and non ESBL and/or AmpC producing) after receive different antibiotic regimens.\n3. To develop a scoring system to early identif",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients who admitted to the Taipei Veterans General Hospital with the diagnosis of community-onset UTI caused by Enterobacteriaceae will be eligible for inclusion in this study if hospitalization for parental antimicrobial therapy is required\n\nExclusion Criteria:\n\n* pre",
+            "endpoints": [],
+            "sponsor": "Taipei Veterans General Hospital, Taiwan",
+            "url": "https://clinicaltrials.gov/study/NCT01138566"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01014013",
+            "title": "A Prospective, Multicenter, Partially-Blinded, Randomized, Comparative Study to Evaluate the Safety, Tolerability and Efficacy of INVANZ Versus Ceftriaxone Sodium in the Treatment of Complicated Urinary Tract Infections in Adults",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-04",
+            "completion_date": "2009-02",
+            "country": "N/A",
+            "enrollment": 271,
+            "brief_summary": "The purpose of this study is to determine the efficacy of ertapenem sodium (Invanz) in treatment of complicated urinary tract infections with respect to the proportion of patients with a favorable microbiological response at 5-9 days post therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients with a suspected or documented complicated urinary tract infection\n* Female patients must test negative for pregnancy and agree to use adequate birth control measures\n* Nursing women must agree to defer breastfeeding until 5 days after completion of all study an",
+            "endpoints": [
+              "Microbiological Response Assessment Profile",
+              "The Number of Patients Who Experience Any Drug-related Adverse Experiences Leading to Discontinuation of Parenteral Study Drug and the Number of Patients With Any Drug-related Serious Adverse Experiences (AEs) During Parenteral Treatment"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT01014013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00451386",
+            "title": "A Prospective, Multicenter, Double-Blind, Randomized, Comparative Study to Evaluate the Safety, Local Tolerability, and Clinical Outcome of Ertapenem Versus Ceftriaxone in Pediatric Patients With Complicated Urinary Tract Infection, Skin and Soft Tissue Infection, or Community-Acquired Pneumonia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2002-01",
+            "completion_date": "2003-12",
+            "country": "N/A",
+            "enrollment": 400,
+            "brief_summary": "This study will investigate the safety and efficacy of ertapenem versus ceftriaxone in pediatric patients with urinary tract infections, skin infections, or community-acquired pneumonia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with UTI must have white blood cells and bacteria in the urine with bladder catheterization or urologic abnormality, kidney infection or both\n* Patients with SSTI must have a recent infection\n* Patients with CAP must have a chest x-ray indicating bacterial pneumonia a",
+            "endpoints": [
+              "To evaluate the incidence of any clinical and/or laboratory drug-related serious adverse experience during the parenteral therapy period in pediatric patients treated with ertapenem."
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT00451386"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04502095",
+            "title": "Does Prophylactic Antibiotic Decrease the Rate of Urinary Tract Infection After Robot Assisted Radical Cystectomy",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-09-02",
+            "completion_date": "2025-03-13",
+            "country": "United States",
+            "enrollment": 89,
+            "brief_summary": "This trial investigates whether a one-month course of preventative (prophylactic) antibiotics helps to reduce urinary tract infections after robot-assisted surgery to remove all of the bladder as well as nearby tissues and organs (radical cystectomy). Urinary tract infections are a common occurrence after robot-assisted radical cystectomy. Antibiotics such as trimethoprim-sulfamethoxazole or nitrofurantoin may prevent or control infections in patients with urinary tract infection and may help im",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Any patient that electively chooses to have a cystectomy is eligible to participate in the study. Indications for a person who may undergo a cystectomy include having a diagnosis of muscle-invasive bladder cancer (MIBC) or refractory non-muscle invasive bladder cancer (NMIBC)\n",
+            "endpoints": [
+              "90-day urinary tract infection (UTI) status"
+            ],
+            "sponsor": "Roswell Park Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT04502095"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05224401",
+            "title": "Pivmecillinam With Amoxicillin/Clavulanic Acid for Step Down Oral Therapy in Febrile UTIs Caused by ESBL-producing Enterobacterales (PACUTI)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2023-05-29",
+            "completion_date": "2027-09-01",
+            "country": "Sweden",
+            "enrollment": 330,
+            "brief_summary": "To evaluate if the combination of pivmecillinam and clavulanic acid (PAC) is non-inferior to ciprofloxacin, trimethoprim-sulfamethoxazole or ertapenem as step down oral therapy in patients with febrile UTI caused by extended spectrum beta-lactamase (ESBL) producing Enterobacterales (EPE).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years\n2. Fever (≥ 38.3 C) or shaking chills at least once at home or in hospital\n3. Clinical suspicion of UTI including at least one of the following symptoms:\n\n   1. Dysuria, urinary urgency, difficulty urinating, new or worsened urinary incontinence, macroscopic ha",
+            "endpoints": [
+              "Clinical cure"
+            ],
+            "sponsor": "Lund University",
+            "url": "https://clinicaltrials.gov/study/NCT05224401"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02729116",
+            "title": "Sitafloxacin and Ertapenem Treatment for Acute Urinary Tract Infection Caused by E. Coli or K. Pneumoniae in Post-kidney Transplantation Patients",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "start_date": "2016-07",
+            "completion_date": "2024-01",
+            "country": "Thailand",
+            "enrollment": 30,
+            "brief_summary": "This study evaluates oral antimicrobial agents for the treatment of non-bacteremic acute urinary tract infection caused by Extended Spectrum Beta Lactamase producing Escherichia coli or Klebsiella pneumoniae in Post-kidney transplantation. Patients are treated with intravenous (IV) antibiotics follow by oral sitafloxacin or IV ertapenem.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\>18 years\n* Acute urinary infection by definitions\n* Positive urine culture for Extended Spectrum Beta Lactamase E. coli or K. pneumoniae ≥105 colony forming unit/mL\n* Post-kidney transplantation\n* Voluntarily consented to be enrolled in the study\n\nExclusion Criteria:\n\n* ",
+            "endpoints": [
+              "Number of patients with clinical cure of acute urinary tract infection"
+            ],
+            "sponsor": "Khon Kaen University",
+            "url": "https://clinicaltrials.gov/study/NCT02729116"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07236944",
+            "title": "Pivmecillinam as Oral Step-Down Treatment for Escherichia Coli Febrile Urinary Tract Infection Versus Standard of Care: A Randomized Controlled Non-Inferiority Multicenter Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2025-12",
+            "completion_date": "2029-03",
+            "country": "Sweden, Norway",
+            "enrollment": 560,
+            "brief_summary": "The goal of this clinical trial is to learn if oral treatment with pivmecillinam is effective to treat febrile urinary tract infections in adult patients. Hospitalized patients who have received 2-4 days of intravenous antibiotic therapy for febrile urinary tract infections, and have responded to treatment, will be randomized to either pivmecillinam or standard treatment (other oral or intravenous antibiotics).\n\nThe main question the study aims to answer is if oral follow-up with pivmecillinam i",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. ≥18 years of age.\n2. Diagnosis of fUTI, defined as i) fever ≥ 38°C and ii) at least one of the following: flank pain or pelvic pain, nausea or vomiting, dysuria, urinary frequency or urgency, and costovertebral angle tenderness on physical examination.\n3. Growth of E. coli in",
+            "endpoints": [
+              "Clinical response (primary endpoint)."
+            ],
+            "sponsor": "Uppsala University",
+            "url": "https://clinicaltrials.gov/study/NCT07236944"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28592240",
+            "title": "Randomized controlled trial of piperacillin-tazobactam, cefepime and ertapenem for the treatment of urinary tract infection caused by extended-spectrum beta-lactamase-producing Escherichia coli.",
+            "abstract": "Due to limited therapeutic options, the spread of extended-spectrum beta-lactamases (ESBLs) have become a major public health concern. We conducted a prospective, randomized, open-label comparison of the therapeutic efficacy of piperacillin-tazobactam (PTZ), cefepime, and ertapenem in febrile nosocomial urinary tract infection with ESBL-producing Escherichia coli (ESBL-EC).",
+            "journal": "BMC infectious diseases",
+            "year": "2017",
+            "authors": [
+              "Seo Yu Bin",
+              "Lee Jacob",
+              "Kim Young Keun",
+              "Lee Seung Soon",
+              "Lee Jeong-A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Cefepime",
+              "Cephalosporins",
+              "Cross Infection",
+              "Ertapenem",
+              "Escherichia coli",
+              "Escherichia coli Infections",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28592240/"
+          },
+          {
+            "pmid": "35294769",
+            "title": "Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.",
+            "abstract": "Sulopenem (formerly known as CP-70,429, and CP-65,207 when a component of a racemic mixture with its R isomer) is an intravenous and oral penem that possesses in vitro activity against fluoroquinolone-resistant, extended spectrum β-lactamases (ESBL)-producing, multidrug-resistant (MDR) Enterobacterales. Sulopenem is being developed to treat patients with uncomplicated and complicated urinary tract infections (UTIs) as well as intra-abdominal infections. This review will focus mainly on its use in UTIs. The chemical structure of sulopenem shares properties of penicillins, cephalosporins, and carbapenems. Sulopenem is available as an oral prodrug formulation, sulopenem etzadroxil, which is hydrolyzed by intestinal esterases, resulting in active sulopenem. In early studies, the S isomer of CP-65,207, later developed as sulopenem, demonstrated greater absorption, higher drug concentrations in the urine, and increased stability against the renal enzyme dehydropeptidase-1 compared with the R",
+            "journal": "Drugs",
+            "year": "2022",
+            "authors": [
+              "Zhanel George G",
+              "Pozdirca Marianna",
+              "Golden Alyssa R",
+              "Lawrence Courtney K",
+              "Zelenitsky Sheryl"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Guinea Pigs",
+              "Humans",
+              "Male",
+              "Mice",
+              "Anti-Bacterial Agents",
+              "Bacteriuria",
+              "beta-Lactamases",
+              "Carbapenems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35294769/"
+          },
+          {
+            "pmid": "36068705",
+            "title": "Sulopenem for the Treatment of Complicated Urinary Tract Infections Including Pyelonephritis: A Phase 3, Randomized Trial.",
+            "abstract": "Sulopenem is a thiopenem antibiotic being developed for the treatment of multidrug-resistant infections. The availability of both intravenous (IV) and oral formulations will facilitate earlier hospital discharge.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2023",
+            "authors": [
+              "Dunne Michael W",
+              "Aronin Steven I",
+              "Das Anita F",
+              "Akinapelli Karthik",
+              "Breen Jeanne"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Ertapenem",
+              "Bacteriuria",
+              "Urinary Tract Infections",
+              "Anti-Bacterial Agents",
+              "Pyelonephritis",
+              "Ciprofloxacin",
+              "Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36068705/"
+          },
+          {
+            "pmid": "20163277",
+            "title": "Ertapenem.",
+            "abstract": "Given their broad-spectrum and safety, carbapenems are a widely used class of antibiotics, especially in the treatment of hospital-acquired infections including infections due to multidrug-resistant organisms. Ertapenem is a unique member of this class, with a narrower spectrum that lacks reliable activity against Pseudomonas and Enterococcus. Given its spectrum and half-life of 4 h it is better suited to use in community-acquired infections and it is particularly well positioned for use in the outpatient setting.",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2010",
+            "authors": [
+              "Congeni Blaise L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Community-Acquired Infections",
+              "Ertapenem",
+              "Half-Life",
+              "Humans",
+              "Outpatients",
+              "beta-Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20163277/"
+          },
+          {
+            "pmid": "38215770",
+            "title": "Efficacy and safety of a structured de-escalation from antipseudomonal β-lactams in bloodstream infections due to Enterobacterales (SIMPLIFY): an open-label, multicentre, randomised trial.",
+            "abstract": "De-escalation from broad-spectrum to narrow-spectrum antibiotics is considered an important measure to reduce the selective pressure of antibiotics, but a scarcity of adequate evidence is a barrier to its implementation. We aimed to determine whether de-escalation from an antipseudomonal β-lactam to a narrower-spectrum drug was non-inferior to continuing the antipseudomonal drug in patients with Enterobacterales bacteraemia.",
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2024",
+            "authors": [
+              "López-Cortés Luis Eduardo",
+              "Delgado-Valverde Mercedes",
+              "Moreno-Mellado Elisa",
+              "Goikoetxea Aguirre Josune",
+              "Guio Carrión Laura"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Multicenter Study",
+              "Journal Article",
+              "Pragmatic Clinical Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "beta-Lactams",
+              "Anti-Bacterial Agents",
+              "Ceftriaxone",
+              "Ertapenem",
+              "Bacteremia",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38215770/"
+          },
+          {
+            "pmid": "40027950",
+            "title": "Epidemiology and antimicrobial resistance patterns of urinary tract infection: insights and strategies from a 5-year serial cross-sectional study in Vietnam.",
+            "abstract": "Urinary tract infection (UTI) is one of the most common bacterial infections in clinical practice. Given the rapid increase in antimicrobial resistance and the scarcity of new antibiotics, along with the absence of individual antibiogram testing in some countries, there is an urgent need for robust surveillance systems.",
+            "journal": "Therapeutic advances in infectious disease",
+            "year": "2025",
+            "authors": [
+              "Que Anh Tram",
+              "Tran Anh Dao",
+              "Trang Thi Hong Nhung",
+              "Tran Thi Nhu Le",
+              "Bui Ngoc-Niem"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40027950/"
+          },
+          {
+            "pmid": "24622445",
+            "title": "Ertapenem versus ceftriaxone for the treatment of complicated infections: a meta-analysis of randomized controlled trials.",
+            "abstract": "Ertapenem has been demonstrated to be highly effective for the treatment of complicated infections. The aim of this study was to compare the efficacy and safety of ertapenem with ceftriaxone.",
+            "journal": "Chinese medical journal",
+            "year": "2014",
+            "authors": [
+              "Bai Nan",
+              "Sun Chunguang",
+              "Wang Jin",
+              "Cai Yun",
+              "Liang Beibei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Ceftriaxone",
+              "Ertapenem",
+              "Humans",
+              "Intraabdominal Infections",
+              "Pneumonia",
+              "Randomized Controlled Trials as Topic",
+              "Urinary Tract Infections",
+              "beta-Lactams"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24622445/"
+          },
+          {
+            "pmid": "28848015",
+            "title": "Translational Efficacy of Humanized Exposures of Cefepime, Ertapenem, and Levofloxacin against Extended-Spectrum-β-Lactamase-Producing Escherichia coli in a Murine Model of Complicated Urinary Tract Infection.",
+            "abstract": "Validated animal models are required as bridging tools to assess the utility of novel therapies and potential microbiologic outcomes. Herein, we utilized uropathogenic extended-spectrum-β-lactamase (ESBL)-producing and non-ESBL-producing Escherichia coli in the neutropenic murine complicated urinary tract infection (cUTI) model with humanized exposures of cefepime, ertapenem, and levofloxacin to assess its translational value to human outcomes. Our data support the translational utility of this murine model to cUTI in humans as humanized exposures produced microbiologic outcomes consistent with the phenotypic profiles of the organisms.",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2017",
+            "authors": [
+              "Monogue Marguerite L",
+              "Nicolau David P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Cefepime",
+              "Cephalosporins",
+              "Disease Models, Animal",
+              "Ertapenem",
+              "Escherichia coli Infections",
+              "Female",
+              "Humans",
+              "Levofloxacin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28848015/"
+          },
+          {
+            "pmid": "16878390",
+            "title": "[Ertapenem and other antibacterials].",
+            "abstract": "Ertapenem is a carbapenem that shares the activity of imipenem and meropenem against most species, but is less active against non-fermenters. The activity is retained against most strains with AmpC and extended-spectrum beta-lactamases, although the resistance can arise if these enzymes are combined with extreme impermeability. The resistance can also be caused by IMP, VIM, KPC and NMC carbapenemases, but again, co-requires impermeability. Although the spread of carbapenemases in the future is a concern, they are currently very rare. Given as a 1 g intravenous (i.v.) infusion once daily, ertapenem has a plasma half-life of -4 h in healthy volunteers, and a Cn,a, of 155 mg/l and 13 mg/l for total and free drug, respectively. Excretion is largely renal, divided equally between native drug and an open-ring derivative. The trials showed equivalence to piperacillin/tazobactam or ceftriaxone in (a) abdominal infections, (b) community-acquired pneumonia, (c) acute pelvic infections, (d) skin ",
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2006",
+            "authors": [],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Clinical Trials as Topic",
+              "Drug Evaluation, Preclinical",
+              "Ertapenem",
+              "Female",
+              "Genital Diseases, Female",
+              "Gram-Negative Bacteria",
+              "Gram-Positive Bacteria",
+              "Humans",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16878390/"
+          },
+          {
+            "pmid": "18945594",
+            "title": "Safety and tolerability of ertapenem versus ceftriaxone in a double-blind study performed in children with complicated urinary tract infection, community-acquired pneumonia or skin and soft-tissue infection.",
+            "abstract": "The carbapenem antibiotic ertapenem has been shown to be safe, well tolerated and effective in treating adults with complicated urinary tract infection, skin and soft-tissue infection and community-acquired pneumonia. In this study, we evaluated ertapenem for treating these infections in children in a randomised, double-blind, active-controlled clinical trial. The primary outcome was the incidence of clinical and laboratory drug-related serious adverse events (AEs). Children were randomised in a 3:1 ratio (ertapenem:ceftriaxone) stratified by index infection and age to receive ertapenem or ceftriaxone; 303 children received ertapenem and 100 children received ceftriaxone. The median duration of parenteral therapy was 4 days for both treatments. The most commonly reported drug-related clinical AEs during parenteral therapy were diarrhoea (5.9% ertapenem, 10% ceftriaxone), infusion site erythema (3% ertapenem, 2% ceftriaxone) and infusion site pain (5% ertapenem, 1% ceftriaxone). One chi",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2009",
+            "authors": [
+              "Arguedas Adriano",
+              "Cespedes Jaime",
+              "Botet Francesc Aseni",
+              "Blumer Jeffrey",
+              "Yogev Ram"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anti-Bacterial Agents",
+              "Ceftriaxone",
+              "Child",
+              "Child, Preschool",
+              "Community-Acquired Infections",
+              "Double-Blind Method",
+              "Ertapenem",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18945594/"
+          },
+          {
+            "pmid": "15150185",
+            "title": "Treatment of complicated urinary tract infection in adults: combined analysis of two randomized, double-blind, multicentre trials comparing ertapenem and ceftriaxone followed by appropriate oral therapy.",
+            "abstract": "The efficacy and safety of parenteral ertapenem, a Group 1 carbapenem, 1 g once a day, for the treatment of complicated urinary tract infections (UTIs; i.e. acute pyelonephritis, UTI in men, or UTI associated with obstruction, foreign body or a urological abnormality interfering with normal voiding) in adults, were compared with those of parenteral ceftriaxone, 1 g once a day, in two similarly designed prospective, double-blind, randomized studies. In both studies, patients could be switched to an oral agent after > or = 3 days of parenteral study therapy. At entry, 850 patients were stratified according to whether they had acute pyelonephritis or other complicated UTI without acute pyelonephritis. Two hundred and fifty-six patients in the ertapenem group and 224 in the ceftriaxone group were microbiologically evaluable. Ninety-six per cent of these patients were switched to oral therapy, usually ciprofloxacin; the median (range) duration of parenteral and total therapy, respectively, ",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2004",
+            "authors": [
+              "Wells Wilbur G",
+              "Woods Gail L",
+              "Jiang Qi",
+              "Gesser Richard M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Ceftriaxone",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Ertapenem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15150185/"
+          },
+          {
+            "pmid": "24797063",
+            "title": "Pharmacokinetics of ertapenem in outpatients with complicated urinary tract infections.",
+            "abstract": "Ertapenem is a broad-spectrum carbapenem antibiotic used to treat severe bacterial infections. In view of its dosing convenience, it is increasingly used as outpatient therapy. The objective of this study was to determine the pharmacokinetics and renal disposition of ertapenem in outpatients with complicated urinary tract infections.",
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2014",
+            "authors": [
+              "Zhou Jian",
+              "Sulaiman Zuraidah",
+              "Llorin Ryan M",
+              "Hee Kim-Hor",
+              "Lee Lawrence Soon-U"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Chromatography, Liquid",
+              "Ertapenem",
+              "Humans",
+              "Infusions, Intravenous",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24797063/"
+          },
+          {
+            "pmid": "27239695",
+            "title": "Ertapenem in outpatient parenteral antimicrobial therapy for complicated urinary tract infections.",
+            "abstract": "Ertapenem is a broad-spectrum antibiotic that is increasingly being utilized. Its dosing convenience renders it suitable for outpatient therapy, and its pharmacokinetic characteristics favour its use against complicated urinary tract infections (cUTIs). Despite this, sufficient clinical data are lacking for its use against cUTIs in the outpatient setting. We assessed the microbiological and clinical cure rates associated with ertapenem treatment for cUTIs in two outpatient parenteral antimicrobial therapy (OPAT) departments.",
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2017",
+            "authors": [
+              "Trad Mohamad-Ali",
+              "Zhong Lihua H",
+              "Llorin Ryan M",
+              "Tan Shire Yang",
+              "Chan Monica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Administration, Intravenous",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Ambulatory Care",
+              "Anti-Bacterial Agents",
+              "Ertapenem",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27239695/"
+          },
+          {
+            "pmid": "31581974",
+            "title": "Pharmacokinetics of Ertapenem in Sheep (Ovis aries) with Experimentally Induced Urinary Tract Infection.",
+            "abstract": "Sheep are commonly used as animal models for human biomedical research, but descriptions of their use for studying the pharmacokinetics of carbapenem antimicrobials, such as ertapenem, are unavailable. Ertapenem is a critical antimicrobial for human infections, and the description of the pharmacokinetics of this drug is of value for research using ovine as models for human diseases, such as urinary tract infections (UTI). There are currently no ovine models for comparative biomedical research of UTI. The objective of this study was to report the pharmacokinetics of ertapenem in sheep after single and multiple dosing. In addition, we explored the effects of an immunomodulatory drug (Zelnate) on the pharmacokinetics of ertapenem in sheep. Eight healthy ewes (weight, 64.4 ± 7.7 kg) were used in an ovine bacterial cystitis model of human cystitis with Pseudomonas aeruginosa. After disease confirmation, each ewe received 1 g of ertapenem intravenously once every 24 h for 5 administrations. ",
+            "journal": "Comparative medicine",
+            "year": "2019",
+            "authors": [
+              "Smith Joe S",
+              "Borts David J",
+              "Slagel Clare C",
+              "Rajewski Suzanne M",
+              "Bousquet-Melou Alain"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Disease Models, Animal",
+              "Ertapenem",
+              "Humans",
+              "Pseudomonas aeruginosa",
+              "Sheep",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31581974/"
+          },
+          {
+            "pmid": "38450331",
+            "title": "Characteristics and susceptibility pattern of catheter-associated urinary tract infections (CAUTI) bacteria in Indonesia: A study in a national reference hospital of Sumatra region 2020-2021.",
+            "abstract": "Catheter-associated urinary tract infection (CAUTI) is defined as a urinary tract infection associated with catheter placement for more than two consecutive days. Hence, antibiotic resistance in the context of CAUTIs represents a substantial challenge. The aim of this study was to present the characteristics of patients with CAUTI and the susceptibility pattern of CAUTI bacteria in the national reference hospital of the Sumatra region of Indonesia. A cross-sectional study was conducted at H. Adam Malik General Hospital, Medan, Indonesia, from 2020 to 2021, using a total sampling. All CAUTI patients included were on catheterization and diagnosed based on the Centers for Disease Control and Prevention (CDC) guidelines. The patient's urine culture and antibiotic susceptibility test were carried out on the patient's admitted urine sample for further assessment. Identification of bacteria, antibiotic susceptibility test, and the extended-spectrum beta-lactamase (ESBL) test for Escherichia c",
+            "journal": "Narra J",
+            "year": "2023",
+            "authors": [
+              "Perdana Muhammad A",
+              "Wahyuni Dian D",
+              "Yunita Rina"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38450331/"
+          },
+          {
+            "pmid": "39357570",
+            "title": "Outpatient parenteral antimicrobial therapy with carbapenems: A systematic review.",
+            "abstract": "To review the literature on parenteral carbapenems in OPAT and present comprehensive evidence on their safety, efficacy, and stability.",
+            "journal": "The Journal of infection",
+            "year": "2024",
+            "authors": [
+              "Wolie Z T",
+              "Roberts J A",
+              "Wale Y M",
+              "Unwin S",
+              "McCarthy K"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ambulatory Care",
+              "Anti-Bacterial Agents",
+              "Bacterial Infections",
+              "Carbapenems",
+              "Ertapenem",
+              "Infusions, Parenteral",
+              "Meropenem",
+              "Treatment Outcome",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39357570/"
+          },
+          {
+            "pmid": "37396068",
+            "title": "Prevalence, Pathogenic Bacterial Profile and Antimicrobial Susceptibility Pattern of Urinary Tract Infection Among Children with Congenital Anomalies of the Kidney and Urinary Tract.",
+            "abstract": "The study was to detect the pathogenic bacterial profile and antibiogram among children with congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "journal": "Infection and drug resistance",
+            "year": "2023",
+            "authors": [
+              "Zhang Kaiping",
+              "Zhang Yin",
+              "Chao Min",
+              "Hao Zongyao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37396068/"
+          },
+          {
+            "pmid": "31944332",
+            "title": "Evaluation of Eravacycline: A Novel Fluorocycline.",
+            "abstract": "Eravacycline (ERV), formerly known as TP-434, is a novel tetracycline (TET) antibiotic that exhibits in vitro activity against various gram-positive, gram-negative aerobic and anaerobic pathogens, including those exhibiting TET-specific acquired resistance mechanisms. Similar to other TETs, it inhibits protein synthesis through binding to the 30S ribosomal subunit. Eravacycline was approved by the United States Food and Drug Administration (FDA) in August 2018 for the treatment of complicated intraabdominal infections (cIAIs) in adults following the Investigating Gram-Negative Infections Treated with Eravacycline (IGNITE)1 and IGNITE4 phase III trials. In these two, double-blind, multicenter clinical trials, ERV was proven noninferior in terms of clinical response in comparison to ertapenem and meropenem, respectively. Eravacycline was well tolerated with nausea, vomiting, and infusion site reactions being the most commonly reported adverse reactions. Clinicians now have ERV as a novel",
+            "journal": "Pharmacotherapy",
+            "year": "2020",
+            "authors": [
+              "Alosaimy Sara",
+              "Abdul-Mutakabbir Jacinda C",
+              "Kebriaei Razie",
+              "Jorgensen Sarah C J",
+              "Rybak Michael J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Tetracyclines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31944332/"
+          },
+          {
+            "pmid": "39477264",
+            "title": "Risk factors and drug resistance of adult community-onset urinary tract infections caused by Escherichia coli-producing extended-spectrum β-lactamase in the Chongqing region, China: a retrospective case-control study.",
+            "abstract": "To evaluate the prevalence, resistance and risk factors of community-onset urinary tract infections (COUTIs) caused by extended-spectrum β-lactamase-producing Escherichia coli (ESBL-EC) for providing a basis for the selection of clinical therapeutic agents.",
+            "journal": "BMJ open",
+            "year": "2024",
+            "authors": [
+              "Zhou Yan-Ling",
+              "Long Biao-Li",
+              "Liu He-Lei",
+              "Wu Jing",
+              "Xia Hong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Urinary Tract Infections",
+              "Retrospective Studies",
+              "China",
+              "Male",
+              "Female",
+              "Community-Acquired Infections",
+              "Escherichia coli",
+              "Risk Factors",
+              "Escherichia coli Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39477264/"
+          },
+          {
+            "pmid": "21669223",
+            "title": "Consensus review of the epidemiology and appropriate antimicrobial therapy of complicated urinary tract infections in Asia-Pacific region.",
+            "abstract": "Urinary tract infections (UTIs) are among the most prevalent infectious diseases in the general population. They cause a substantial financial burden in the community and are associated with significant morbidity and mortality, particularly in hospitals. With increased rates of antimicrobial resistance, especially in the Asia-Pacific region, treatment of complicated UTIs (cUTIs) can be challenging for clinicians. Consideration of an optimal antimicrobial agent should be based on local resistance patterns, patient-specific factors, pharmacokinetic and pharmacodynamic principles, and cost. In the Asia-Pacific region, nearly half of Escherichia coli urinary isolates were resistant (including intermediate and resistant) to levofloxacin or ciprofloxacin and ≥30% were resistant to third-generation cephalosporins (cefotaxime, ceftriaxone, and ceftazidime) and cefepime. Overall, 33% of urinary E. coli isolates exhibited extended-spectrum β-lactamase (ESBL)-producing phenotypes. Prevalence of E",
+            "journal": "The Journal of infection",
+            "year": "2011",
+            "authors": [
+              "Hsueh Po-Ren",
+              "Hoban Daryl J",
+              "Carmeli Yehuda",
+              "Chen Shey-Ying",
+              "Desikan Sunita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review",
+              "Consensus Statement"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Asia, Southeastern",
+              "Bacteria",
+              "Bacterial Infections",
+              "Drug Resistance, Bacterial",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21669223/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9826498031616212,
+        "txgnn_rank": 15673,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9812780022621156,
+        "txgnn_rank": 16411,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9812780022621156,
+        "txgnn_rank": 16412,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35820778",
+            "title": "Spontaneous clearance of asymptomatic anogenital and pharyngeal Neisseria gonorrhoeae: a secondary analysis from the NABOGO trial.",
+            "abstract": "Spontaneous clearance of asymptomatic Neisseria gonorrhoeae (NG) does occur, but data are scarce. We aimed to assess spontaneous clearance among patients with asymptomatic anal, pharyngeal, vaginal and urethral NG infections who participated in the New AntiBiotic treatment Options for uncomplicated GOnorrhoea (NABOGO) trial. In addition, we assessed the determinants associated with spontaneous clearance.",
+            "journal": "Sexually transmitted infections",
+            "year": "2023",
+            "authors": [
+              "Teker Buhari",
+              "de Vries Henry",
+              "Heijman Titia",
+              "van Dam Alje",
+              "Schim van der Loeff Maarten"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Equivalence Trial"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Neisseria gonorrhoeae",
+              "Gonorrhea",
+              "Anti-Bacterial Agents",
+              "Ceftriaxone",
+              "Pharynx",
+              "Nucleic Acid Amplification Techniques",
+              "Chlamydia Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35820778/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00303",
+    "name": "Ertapenem",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ertapenem"
+      },
+      "queried_at": "2026-03-10T00:41:51.493915",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ertapenem"
+      },
+      "queried_at": "2026-03-10T00:42:25.266525",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "bacterial arthritis"
+      },
+      "queried_at": "2026-03-10T00:42:26.767084",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "bacterial arthritis"
+      },
+      "queried_at": "2026-03-10T00:42:33.632643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "bacterial arthritis"
+      },
+      "queried_at": "2026-03-10T00:42:35.816424",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "queried_at": "2026-03-10T00:42:43.614286",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "queried_at": "2026-03-10T00:42:48.228957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "queried_at": "2026-03-10T00:43:05.058062",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T00:43:09.068510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T00:43:15.531546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T00:43:17.602559",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T00:43:18.632101",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T00:43:24.457731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T00:43:25.727630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T00:43:30.708328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T00:43:35.053607",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T00:43:37.415285",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "toxocariasis"
+      },
+      "queried_at": "2026-03-10T00:43:38.191857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "toxocariasis"
+      },
+      "queried_at": "2026-03-10T00:43:44.365481",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "toxocariasis"
+      },
+      "queried_at": "2026-03-10T00:43:45.472612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-10T00:44:00.773410",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-10T00:44:05.878616",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-10T00:44:12.862668",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T00:44:13.725800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T00:44:17.219858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T00:44:19.782143",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T00:44:20.810406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T00:44:27.336343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T00:44:30.109060",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T00:44:31.514737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T00:44:40.313112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ertapenem",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T00:44:44.953081",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T00:44:44.957753"
+  }
+}

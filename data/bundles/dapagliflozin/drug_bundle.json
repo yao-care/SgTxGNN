@@ -1,0 +1,532 @@
+{
+  "drug": {
+    "inn": "Dapagliflozin",
+    "drugbank_id": "DB06292",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "focal stiff limb syndrome",
+        "txgnn_score": 0.981986403465271,
+        "txgnn_rank": 16020,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "classic stiff person syndrome",
+        "txgnn_score": 0.981986403465271,
+        "txgnn_rank": 16021,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "opsismodysplasia",
+        "txgnn_score": 0.9805825352668762,
+        "txgnn_rank": 16758,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thiamine-responsive dysfunction syndrome",
+        "txgnn_score": 0.9803109169006348,
+        "txgnn_rank": 16876,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "drug-induced localized lipodystrophy",
+        "txgnn_score": 0.970311164855957,
+        "txgnn_rank": 21156,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "centrifugal lipodystrophy",
+        "txgnn_score": 0.9690304398536682,
+        "txgnn_rank": 21610,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pressure-induced localized lipoatrophy",
+        "txgnn_score": 0.9681946635246276,
+        "txgnn_rank": 21862,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic localized lipodystrophy",
+        "txgnn_score": 0.966684877872467,
+        "txgnn_rank": 22334,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pancreatic agenesis",
+        "txgnn_score": 0.965925395488739,
+        "txgnn_rank": 22566,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33559163",
+            "title": "Dapagliflozin ameliorates pancreatic injury and activates kidney autophagy by modulating the AMPK/mTOR signaling pathway in obese rats.",
+            "abstract": "Chronic consumption of a high-fat diet induces obesity and impairs the ultra-structure of organs and tissues. We examined the effect of sodium-glucose cotransporter 2 (SGLT2) inhibitor-dapagliflozin on renal and pancreatic injuries in obese condition. Rats were fed a high-fat diet for 16 weeks to induce obesity. After that, dapagliflozin or vildagliptin, 1.0 or 3.0 mg/kg/day, respectively, was administered by oral gavage for 4 weeks. The effects of dapagliflozin on insulin resistance, kidney autophagy, pancreatic oxidative stress, endoplasmic reticulum (ER) stress, inflammation, and apoptosis in high-fat diet-induced obese rats were elucidated. High-fat-diet fed rats demonstrated metabolic abnormalities including increased body weight, visceral fat weight, plasma insulin, plasma cholesterol, homeostasis model assessment (HOMA) index, and TAUCg, indicating the obese-insulin resistant and glucose intolerance conditions. Also, high-fat-diet fed rats exhibited significant pancreatic injury",
+            "journal": "Journal of cellular physiology",
+            "year": "2021",
+            "authors": [
+              "Jaikumkao Krit",
+              "Promsan Sasivimon",
+              "Thongnak Laongdao",
+              "Swe Myat T",
+              "Tapanya Monruedee"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "AMP-Activated Protein Kinases",
+              "Animals",
+              "Apoptosis",
+              "Autophagy",
+              "Benzhydryl Compounds",
+              "Diet, High-Fat",
+              "Endoplasmic Reticulum Stress",
+              "Gene Expression Regulation",
+              "Glucose Tolerance Test",
+              "Glucosides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33559163/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune oophoritis",
+        "txgnn_score": 0.9043477177619934,
+        "txgnn_rank": 34362,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06292",
+    "name": "Dapagliflozin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dapagliflozin"
+      },
+      "queried_at": "2026-03-10T07:37:17.799252",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dapagliflozin"
+      },
+      "queried_at": "2026-03-10T07:37:19.345317",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:19.996229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:22.721935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "focal stiff limb syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:23.469874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:24.048614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:27.224140",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "classic stiff person syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:27.947957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T07:37:28.801746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T07:37:33.655627",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "opsismodysplasia"
+      },
+      "queried_at": "2026-03-10T07:37:34.351074",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:34.947458",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:38.727646",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "queried_at": "2026-03-10T07:37:40.257869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:37:40.949389",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:37:45.398845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:37:46.368854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:37:46.997649",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:37:50.624455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:37:52.778994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T07:37:54.313625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T07:37:58.122332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "queried_at": "2026-03-10T07:37:59.836573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:38:00.504487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:38:04.412653",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "queried_at": "2026-03-10T07:38:05.344669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T07:38:06.411858",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T07:38:09.771431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "pancreatic agenesis"
+      },
+      "queried_at": "2026-03-10T07:38:12.042709",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:38:13.024512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:38:16.663111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dapagliflozin",
+        "disease": "autoimmune oophoritis"
+      },
+      "queried_at": "2026-03-10T07:38:17.844312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:38:17.878760"
+  }
+}

@@ -1,0 +1,1559 @@
+{
+  "drug": {
+    "inn": "Nitrofurantoin",
+    "drugbank_id": "DB00698",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.998915195465088,
+        "txgnn_rank": 2143,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31222078",
+            "title": "Antibiotic treatment and flares of rheumatoid arthritis: a self-controlled case series study analysis using CPRD GOLD.",
+            "abstract": "There is emerging evidence of the impact of infections on rheumatoid arthritis pathogenesis and flares. We aimed to study the association between antibiotic use (and timing of use), and the occurrence of flares in patients with RA. We nested a self-controlled case series (SCCS) of patients who have RA flares within a newly diagnosed RA cohort (n = 31,992) from the UK Clinical Practice Research Datalink (CPRD) GOLD dataset. We determined associations between exposure to antibiotics (beta-lactam, imidazole, macrolide, nitrofurantoin, quinolone, sulphonamide and trimethoprim, and tetracycline) and the occurrence of RA flares. Conditional fixed-effects Poisson regression models were used to determine incidence rate ratios (IRR), offset by the natural logarithm of risk periods. A total of 1,192 (3.7%) of RA subjects had one or more flare/s during the study period, and were therefore included. Use of sulphonamide and trimethoprim was associated with an increased risk of RA flare at 29-90 day",
+            "journal": "Scientific reports",
+            "year": "2019",
+            "authors": [
+              "Nagra Navraj S",
+              "Robinson Danielle E",
+              "Douglas Ian",
+              "Delmestri Antonella",
+              "Dakin Stephanie G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Arthritis, Rheumatoid",
+              "Cohort Studies",
+              "Datasets as Topic",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31222078/"
+          },
+          {
+            "pmid": "15195196",
+            "title": "Drug-induced pulmonary fibrosis.",
+            "abstract": "Pulmonary fibrosis is characterized by the accumulation of excessive connective tissue in the lungs. Its causes include chronic administration of some drugs for example bleomycin, cyclophosphamide, amiodarone, procainamide, penicillamine, gold and nitrofurantoin; exposure to certain environmental factors such as gases, asbestos and silica and bacterial or fungal infections. Some systemic diseases also predispose to the disease for example rheumatoid arthritis and systemic lupus erythematosus. The disease is associated with release of oxygen radicals and some mediators such as tumor necrosis factor-alpha TNF-alpha, transforming growth factor-beta TGF-beta, PDGF, IGF-I, ET-I and interleukins 1, 4, 8 and 13. The symptoms of the disease include dyspnea, non-productive cough, fever and damage to the lung cells. It is diagnosed with the aid of chest radiography, high resolution computed tomographic scanning and the result of pulmonary function tests. Drug-induced pulmonary fibrosis may invol",
+            "journal": "Saudi medical journal",
+            "year": "2004",
+            "authors": [
+              "Daba Mohammed H",
+              "El-Tahir Kamal E",
+              "Al-Arifi Mohammed N",
+              "Gubara Othman A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antioxidants",
+              "Apoptosis",
+              "Cytokines",
+              "Humans",
+              "Pulmonary Fibrosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15195196/"
+          },
+          {
+            "pmid": "35145797",
+            "title": "A Unique Interaction of Methotrexate and Nitrofurantoin Resulting in Irreversible Pulmonary Fibrosis.",
+            "abstract": "Pulmonary toxicity is the most well-known severe complication related to both methotrexate and nitrofurantoin, which can present as acute, subacute, and chronic. Rheumatoid arthritis is also known to cause pulmonary disease if left untreated. In this report, we present a unique case of a 94-year-old female being treated with methotrexate for several years and then treated with nitrofurantoin in the setting of rheumatoid arthritis and chronic urinary tract infections, resulting in irreversible pulmonary fibrosis, which can further cause more susceptibility to infections and pneumonia. Drug-drug interactions are common in polypharmacy and a patient's history should be analyzed thoroughly before prescribing any new medication that can cause more harm to the patient than good.",
+            "journal": "Cureus",
+            "year": "2022",
+            "authors": [
+              "Kochhar Smriti",
+              "Bommu Veera Jayasree Latha",
+              "Kocur Mariusz",
+              "Shah Viraj",
+              "Cheriyath Pramil"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35145797/"
+          },
+          {
+            "pmid": "25362778",
+            "title": "[Drug-induced interstitial lung diseases].",
+            "abstract": "Drug-induced infiltrative lung disease may manifest as variable clinical radiological patterns, including subacute or chronic interstitial pneumonia, pulmonary fibrosis, eosinophilic pneumonia, organising pneumonia, pulmonary edema, or sarcoidosis. A large amount of drugs have been incriminated, including those used in cardiovascular diseases (amiodarone, statins and angiotensin converting enzyme inhibitors), antibiotics (minocycline, nitrofurantoin), most of anticancer drugs (and especially chemotherapy and chest radiation), treatment of rheumatoid arthritis, as well as more recent drugs. A high index of suspicion is therefore required in any patient with infiltrative lung disease and the web-based tool www.pneumotox.com will help to list possible causative drugs. The following steps are necessary: history and timing of drug exposure, clinical and imaging pattern, exclusion of other causes of infiltrative lung disease, improvement following drug discontinuation. Rechallenge, dangerous",
+            "journal": "La Revue du praticien",
+            "year": "2014",
+            "authors": [
+              "Bonniaud Philippe",
+              "Georges Marjolaine",
+              "Favrolt Nicolas",
+              "Camus Philippe"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Diagnosis, Differential",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Iatrogenic Disease",
+              "Lung Diseases, Interstitial",
+              "Neoplasms",
+              "Radiography, Thoracic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25362778/"
+          },
+          {
+            "pmid": "3335140",
+            "title": "Poor prognosis in patients with rheumatoid arthritis hospitalized for interstitial lung fibrosis.",
+            "abstract": "Fifty-seven patients with rheumatoid arthritis (RA) were treated in hospital for diffuse interstitial lung fibrosis. Although interstitial fibrosis (either on the basis of lung function tests or chest roentgenograms or both) is fairly common among patients with RA, according to this study interstitial fibrosis of sufficient extent or severity to warrant hospitalization was rare: incidence of hospitalization due to the lung disease in RA patients was one case per 3,500 patient-years. Eight patients had a largely reversible lung disease associated with drug treatment (gold, D-penicillamine or nitrofurantoin.) The remaining 49 had interstitial fibrosis of unknown cause. Causes for hospitalization were respiratory and general symptoms in 38, but infiltrations on routine chest roentgenographic examinations alone in eleven patients. Forty-five out of the 49 patients had crackles on auscultation. The most typical findings in lung function tests were restriction and a decreased diffusion capac",
+            "journal": "Chest",
+            "year": "1988",
+            "authors": [
+              "Hakala M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Female",
+              "Forced Expiratory Volume",
+              "Hospitalization",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Prognosis",
+              "Pulmonary Fibrosis",
+              "Vital Capacity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3335140/"
+          },
+          {
+            "pmid": "11937933",
+            "title": "[Phenylbutazone-induced sialadenitis fever simulating angioedema].",
+            "abstract": "Drug-induced sialadenitis is uncommon and unrecognized. Drugs such as nitrofurantoïn, nifedipine and methimazole have been reported to induce sialadenitis. However, phenylbutazone and oxyphenbutazone are the most frequently implicated agents. We describe a case of phenylbutazone-induced parotitis and submaxillitis with cutaneous and hepatic involvement.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2002",
+            "authors": [
+              "Viseux V",
+              "Béguin L",
+              "Poulain J F",
+              "Sarraj A",
+              "Mayeux I"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Angioedema",
+              "Arthritis, Rheumatoid",
+              "Diagnosis, Differential",
+              "Drug Hypersensitivity",
+              "Female",
+              "Fever of Unknown Origin",
+              "Humans",
+              "Middle Aged",
+              "Parotid Gland",
+              "Phenylbutazone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11937933/"
+          },
+          {
+            "pmid": "899886",
+            "title": "Screening for and treatment of bacteriuria in a middle-aged female population. II. Results of short-term nitrofurantoin therapy and one-year follow-up.",
+            "abstract": "",
+            "journal": "Acta medica Scandinavica",
+            "year": "1977",
+            "authors": [
+              "Takala J",
+              "Jousimies H",
+              "Sievers K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Arthritis, Rheumatoid",
+              "Bacteriuria",
+              "Diabetes Complications",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hypertension",
+              "Mass Screening",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/899886/"
+          },
+          {
+            "pmid": "41635325",
+            "title": "A Mysterious Case of Autoimmune Hepatitis Triggered by Herpes Zoster Virus Versus Drug-Induced Liver Injury.",
+            "abstract": "Autoimmune hepatitis triggered by Herpes Zoster infection is a relatively rare condition and a diagnosis of exclusion, as there are other more common causes of autoimmune hepatitis. While evaluating a patient with suspected autoimmune hepatitis, common causes such as viral hepatitis, Epstein-Barr virus, and medications like amoxicillin-clavulanic acid, statins, nitrofurantoin and methyldopa must be ruled out. Furthermore, autoimmune processes like thyroiditis, type 1 diabetes mellitus, rheumatoid arthritis, and ulcerative colitis should be considered. Herpes Zoster virus is known to cause diseases such as post-herpetic neuralgia, meningitis, meningoencephalitis, myelitis, cranial neuropathies, keratitis, uveitis, scleritis, and vision loss. Rarely, it can also trigger an autoimmune process in the body, causing hepatitis. A major dilemma that can be encountered while evaluating a patient with suspected autoimmune hepatitis precipitated by Herpes Zoster infection is drug-induced liver in",
+            "journal": "Cureus",
+            "year": "2026",
+            "authors": [
+              "Alajab Samia",
+              "Tariq Sara",
+              "Agho Osamede",
+              "Adeoshun Lela",
+              "Diaz Ledesma Lizeth"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41635325/"
+          },
+          {
+            "pmid": "8104358",
+            "title": "[Gold salt-induced pneumonia and CD4 alveolitis].",
+            "abstract": "In a 62-year old man who consulted for dyspnoea, clinical, radiological and functional examinations led to the diagnosis of immunoallergic lung disease caused by gold salt therapy. Regression of the symptoms when gold salt therapy was withdrawn supported this diagnosis. Contrary to previously published cases concerning treatment with gold salts, the study of bronchoalveolar lavage (BAL) fluid yielded a lymphocytic alveolitis with a very high CD4/CD8 ratio, as already reported with methotrexate, cyclothiazide and nitrofurantoin. This case can be added to the list of drugs that may induce CD4 alveolitis; it also reminds the existence of gold salt pneumonia and permits to discuss the value of a lymphocyte subpopulation study in the BAL fluid in patients with drug-induced immunoallergic lung diseases.",
+            "journal": "Revue de pneumologie clinique",
+            "year": "1993",
+            "authors": [
+              "Breton J L",
+              "Westeel V",
+              "Garnier G",
+              "Louis J M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alveolitis, Extrinsic Allergic",
+              "Antirheumatic Agents",
+              "Arthritis, Rheumatoid",
+              "CD4-Positive T-Lymphocytes",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Organogold Compounds",
+              "Pneumonia",
+              "Respiratory Function Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8104358/"
+          },
+          {
+            "pmid": "4608019",
+            "title": "[Alveolitis and pulmonary fibrosis--an attempt at a synopsis].",
+            "abstract": "",
+            "journal": "Der Internist",
+            "year": "1974",
+            "authors": [
+              "von Wichert P",
+              "Hain E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aluminum",
+              "Antineoplastic Agents",
+              "Arthritis, Rheumatoid",
+              "Asbestosis",
+              "Berylliosis",
+              "Colitis, Ulcerative",
+              "Dust",
+              "Gas Poisoning",
+              "Hepatitis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4608019/"
+          },
+          {
+            "pmid": "5401858",
+            "title": "[Current therapeutics in clinical medicine].",
+            "abstract": "",
+            "journal": "Revue medicale de Liege",
+            "year": "1969",
+            "authors": [
+              "van Cauwenberge H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Arthritis, Rheumatoid",
+              "Cardiovascular Diseases",
+              "Cephalosporins",
+              "Endocrine System Diseases",
+              "Ethambutol",
+              "Furazolidone",
+              "Gastrointestinal Diseases",
+              "Hematologic Diseases",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5401858/"
+          },
+          {
+            "pmid": "4933314",
+            "title": "Skin window studies of the acute inflammatory responses of neutropenic patients.",
+            "abstract": "",
+            "journal": "Blood",
+            "year": "1971",
+            "authors": [
+              "Dale D C",
+              "Wolff S M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Agranulocytosis",
+              "Child",
+              "Cyclophosphamide",
+              "Felty Syndrome",
+              "Granulomatosis with Polyangiitis",
+              "Humans",
+              "Inflammation",
+              "Leukocyte Count",
+              "Monocytes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4933314/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+        "txgnn_score": 0.9981184005737304,
+        "txgnn_rank": 3247,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+        "txgnn_score": 0.998102366924286,
+        "txgnn_rank": 3266,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Homeodomain Proteins",
+              "Transcription Factors",
+              "Anterior Eye Segment",
+              "Eye Abnormalities",
+              "Forkhead Transcription Factors",
+              "Mutation",
+              "Eye Diseases, Hereditary",
+              "Bone and Bones",
+              "Hearing Loss, Sensorineural"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35882526/"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurrence risk can be determined only after complete evaluation of the patient and other family members.",
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Pagon R A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Choroid",
+              "Coloboma",
+              "Eye",
+              "Eye Abnormalities",
+              "Female",
+              "Genes, Dominant",
+              "Genes, Recessive",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6782689/"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle interhemispheric variant\" of HPE at the less severe end of the spectrum. Between them, different intermediate forms demonstrate a continuum in a wide phenotypic spectrum rather than well-defined categories. Although the term \"HPE\" suggests a disorder affecting only the prosencephalon, other brain structures are involved, underlining the complexity of the malformation. Because of close spatiotemporal interactions and common signaling pathways contributing to the development of both brain and face, co",
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anencephaly",
+              "Brain",
+              "Central Nervous System",
+              "Dandy-Walker Syndrome",
+              "Eye Abnormalities",
+              "Face",
+              "Holoprosencephaly",
+              "Humans",
+              "Prosencephalon",
+              "Spinal Cord"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30182440/"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Coloboma",
+              "Humans",
+              "Infant",
+              "Neuroimaging",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Retinal Vessels"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33870948/"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough examination of the child's eye, often with general anesthesia. Different clinical aspects can be observed: simple megalocornea without ocular or systemic anomalies, megalocornea with ocular and/or systemic anomalies as well as multiple malformation syndromes, dermatological diseases, skeletal diseases, and genetic or chromosomic diseases. A systematic general pediatric examination is therefore necessary. Congenital megalocornea must be considered, first of all, as a differential diagnosis of primar",
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Cornea",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Genetic Linkage",
+              "Glaucoma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11941259/"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Choroid",
+              "Choroidal Neovascularization",
+              "Coloboma",
+              "Diagnosis, Differential",
+              "Humans",
+              "Optic Disk",
+              "Optic Nerve Diseases",
+              "Pigment Epithelium of Eye",
+              "Retina",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10498002/"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "authors": [
+              "Savino P J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Coloboma",
+              "Fundus Oculi",
+              "Humans",
+              "Ischemia",
+              "Nerve Compression Syndromes",
+              "Ophthalmoscopy",
+              "Optic Disk",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Optic Neuritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6390155/"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a result, the horse owner frequently receives misinformation. Hopefully, this brief coverage of congenital ocular anomalies will provide useful information and assist in appropriate communication to concerned parties.",
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "authors": [
+              "Roberts S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cataract",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Eyelid Diseases",
+              "Horse Diseases",
+              "Horses",
+              "Nasolacrimal Duct",
+              "Night Blindness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1458324/"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used in four eyelids with congenital distichiasis, with very good results.",
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Cryotherapy",
+              "Eyelashes",
+              "Eyelids",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16848213/"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Branchio-Oto-Renal Syndrome",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22963965/"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, appropriate facial embryology, assessment and surgical considerations of the various congenital craniofacial abnormalities are reviewed. The expanding availability of craniofacial surgeons and surgical teams along with improved surgical results will ultimately require an increasing involvement by many more ophthalmologists in the evaluation and management of these congenital abnormalities.",
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Craniofacial Dysostosis",
+              "Craniosynostoses",
+              "Eye Abnormalities",
+              "Facial Bones",
+              "Humans",
+              "Orbit",
+              "Skull",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2237761/"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Infant",
+              "Humans",
+              "Nasolacrimal Duct",
+              "Lacrimal Duct Obstruction",
+              "Eyelids",
+              "Lacrimal Apparatus",
+              "Eyelid Diseases",
+              "Treatment Outcome",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36636984/"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Child",
+              "Eyelids",
+              "Female",
+              "Fraser Syndrome",
+              "Humans",
+              "Male",
+              "Microphthalmos",
+              "Rare Diseases",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35791156/"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Coloboma",
+              "DNA Mutational Analysis",
+              "DNA-Binding Proteins",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11581073/"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases, respectively. Thirty-four (54%) of the 63 CAKUT-associated genes (55 'green' and 8 'amber') had a reported ocular phenotype. Five of the 6 most common CAKUT-associated genes (PAX2, EYA1, SALL1, GATA3, PBX1) that represent 30% of all diagnoses had ocular features. The ocular abnormalities found with most CAKUT-associated genes and with five of the six commonest were coloboma, microphthalmia, optic disc anomalies, refraction errors (astigmatism, myopia, and hypermetropia), and cataract. Seven of ",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Mice",
+              "Animals",
+              "Humans",
+              "Kidney",
+              "Urinary Tract",
+              "Vesico-Ureteral Reflux",
+              "Urogenital Abnormalities"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37468646/"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate or uvula 7/21, high, broad nasal bridge 15/15, cranial abnormality 6/21, congenital heart defect 5/21, cryptorchidism 9/21, and mental retardation 11/17. In our series, the most frequent anomalies include telecanthus 18/18, hypospadias 18/18, cleft lip/palate or uvula 8/18, high, broad nasal bridge 10/11, cranial abnormality 12/18, congenital heart defect 3/18, upper urinary tract anomaly 4/9, and mental retardation 10/12. There is also an increased incidence of like-sex twinning, 11/18 in our fa",
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Cleft Lip",
+              "Cleft Palate",
+              "Diseases in Twins",
+              "Eyelids",
+              "Humans",
+              "Hypospadias",
+              "Male",
+              "Pedigree",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3050099/"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of posterior embryotoxon with iris bridging strands (Axenfeld anomaly) and iris hypoplasia causing corectopia and pseudopolycoria (Rieger anomaly). Glaucoma due to iridogoniodysgenesis is the main source of morbidity and is typically diagnosed during infancy or childhood in over half of affected individuals. Angle bypass surgery, such as glaucoma drainage devices and trabeculectomies, is often needed to obtain intraocular pressure control. A multi-disciplinary approach including glaucoma specialists a",
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36926528/"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Eyebrows",
+              "Eyelashes",
+              "Eyelids",
+              "Humans",
+              "Infant, Newborn",
+              "Macrostomia",
+              "Male",
+              "Surgical Flaps",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2036354/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic nephropathy",
+        "txgnn_score": 0.9975724816322328,
+        "txgnn_rank": 3943,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39238303",
+            "title": "Pathogenic Bacteria and Antimicrobial Resistance in Hospital-Acquired Urinary Tract Infections among Patients with Diabetic Nephropathy.",
+            "abstract": "Hospital-acquired urinary tract infections (UTIs) are common complications in patients with diabetic nephropathy (DN), leading to increased mortality and increased medical resource utilisation. This study investigated hospital-acquired UTIs in patients with DN, focusing on prevalent pathogens and drug resistance to inform clinical management.",
+            "journal": "Archivos espanoles de urologia",
+            "year": "2024",
+            "authors": [
+              "Zhang Wenjie",
+              "Xiu Hong",
+              "Chen Lei",
+              "Dong Yanguang",
+              "Zhang Yongxiang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Urinary Tract Infections",
+              "Female",
+              "Retrospective Studies",
+              "Male",
+              "Cross Infection",
+              "Middle Aged",
+              "Diabetic Nephropathies",
+              "Aged",
+              "Drug Resistance, Bacterial"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39238303/"
+          },
+          {
+            "pmid": "40918892",
+            "title": "Hospital Admissions and Antimicrobial Resistance Patterns in Diabetic Patients With Urinary Tract Infections: A Cross-Sectional Study From a Tertiary Care Center in Pakistan.",
+            "abstract": "Background Diabetes mellitus is a global public health challenge, significantly increasing susceptibility to infections, particularly urinary tract infections (UTIs). Diabetic patients face a higher risk of recurrent and complicated UTIs due to impaired immune function, poor glycemic control, and associated comorbidities. Objective This study aimed to determine the frequency and demographic trends of hospital admissions in diabetic patients suffering from urinary tract infections, identify associated clinical risk factors, evaluate the microbiological profile of uropathogens, and assess prevailing patterns of antimicrobial resistance. Methodology This cross-sectional study was conducted at Gulab Devi Hospital, Lahore, from 1st January 2025 to 30th June 2025. A total of 325 diabetic patients admitted with suspected UTIs were included using non-probability consecutive sampling. Demographic, clinical, and laboratory data were collected. Midstream urine samples were cultured to identify pa",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Raza Ali",
+              "Pervaiz Numan",
+              "Ali Irfan",
+              "Shafqat Mariam Bint",
+              "Zubair Muhammad"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918892/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9975332021713256,
+        "txgnn_rank": 3990,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.997138500213623,
+        "txgnn_rank": 4442,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.9959154725074768,
+        "txgnn_rank": 5681,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33987431",
+            "title": "Autoimmune hepatitis-is histology conclusive?",
+            "abstract": "Liver biopsy is an essential and necessary element in the diagnosis and management of autoimmune hepatitis, and is of very special importance in the scoring system for diagnosis. Histopathology shows moderate to severe inflammatory infiltrates with abundant plasma cells in the enlarged portal tracts with interface hepatitis and moderate to severe necroinflammatory lesions in the lobules with lymphoplasmacytic reaction. Regeneration develops with rosette formation and regenerative nodules. One important issue is the differentiation between acute onset of autoimmune hepatitis and a flare up of chronic disease; this cannot be diagnosed in some cases clinically and therefore requires a biopsy to evaluate the stage of the disease. There are some variants of the disease with cholestatic features such as autoantibody negative autoimmune hepatitis and giant cell hepatitis as well as overlap syndromes with primary biliary cholangitis and primary sclerosing cholangitis. Clinically, three types o",
+            "journal": "Annals of translational medicine",
+            "year": "2021",
+            "authors": [
+              "Beer Andrea",
+              "Dienes Hans Peter"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33987431/"
+          },
+          {
+            "pmid": "21907008",
+            "title": "Urinary tract infection as a risk factor for autoimmune liver disease: from bench to bedside.",
+            "abstract": "Autoimmune liver diseases include autoimmune hepatitis (AIH), primary biliary cirrhosis (PBC), and primary sclerosing cholangitis. A variety of environmental and genetic risk factors have been associated with these conditions. Recurrent urinary tract infections (rUTI) have been strongly associated with PBC, and to a lesser extent with AIH. These observations were initially based on the observation of significant bacteriuria in female patients with PBC. Larger epidemiological studies demonstrated that there was indeed a strong correlation between recurrent UTI and PBC. AIH has not been linked to recurrent UTI in epidemiological studies; however treatment of UTI with nitrofurantoin can induce AIH. As Escherichia coli is the most prevalent organism isolated in women with UTI, it has been suggested that molecular mimicry between microbial and human PDC-E2 (the main autoantigenic target in PBC) epitopes may explain the link between UTI and PBC. Multiple studies have demonstrated molecular m",
+            "journal": "Clinics and research in hepatology and gastroenterology",
+            "year": "2012",
+            "authors": [
+              "Smyk Daniel S",
+              "Bogdanos Dimitrios P",
+              "Kriese Stephen",
+              "Billinis Charalambos",
+              "Burroughs Andrew K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cholangitis, Sclerosing",
+              "Hepatitis, Autoimmune",
+              "Humans",
+              "Liver Cirrhosis, Biliary",
+              "Molecular Mimicry",
+              "Risk Factors",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21907008/"
+          },
+          {
+            "pmid": "1855164",
+            "title": "Liver diseases in the elderly.",
+            "abstract": "The preceding discussions outline the various forms of cirrhosis that may be encountered in the elderly population. Cirrhosis is not uncommon in older patients. Although it has been stated that most cirrhosis in the elderly is due to alcohol, these assumptions are perhaps overestimations. In the authors' experience, many older patients are inappropriately labeled with alcoholic liver disease--presumed guilty until proven otherwise--and have subsequently been shown to have nonalcoholic liver disease. Careful investigation is required. Hepatotoxic drug exposure (e.g., to alpha methyldopa, nitrofurantoin, or isoniazid) should be ruled out, and hepatitis B and hepatitis C serology obtained. Primary biliary cirrhosis may occur in both sexes, and thus antimitochondrial antibody should be assayed. Severe heart disease may result in cardiac cirrhosis in the elderly, with ascites and hepatomegaly. Alpha 1-antitrypsin deficiency, primary sclerosing cholangitis, idiopathic hemochromatosis, and ch",
+            "journal": "Clinics in geriatric medicine",
+            "year": "1991",
+            "authors": [
+              "Levinson J R",
+              "Gordon S C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Diagnosis, Differential",
+              "Humans",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1855164/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobinemia, alpha type",
+        "txgnn_score": 0.9941778182983398,
+        "txgnn_rank": 7234,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.994175136089325,
+        "txgnn_rank": 7240,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "1220515",
+            "title": "[Pyelonephritis].",
+            "abstract": "Chronic pyelonephritis is, by definition, a chronic interestial nephritis due to immediate or late effects of bacterial infection of the renal parenchyma. The main diagnostic criterion is recurrent or permanent bacteriuria. As a rule, bacteriuria follows as a secondary symptom a primary renal disturbance such as malformations of the urinary tract, stones, gout, analgesic abuse, diabetes mellitus or pregnancy. It is most important to eradicate predisposing factors, if possible, for successful antimicrobial therapy. In some cases, permanent intensive chemotherapy might be more harmful to the patient than untreated chronic bacteriuria, in itself.",
+            "journal": "Acta medica Austriaca",
+            "year": "1975",
+            "authors": [
+              "Loew H"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bacteriuria",
+              "Cephalosporins",
+              "Humans",
+              "Nitrofurantoin",
+              "Penicillins",
+              "Pyelonephritis",
+              "Recurrence",
+              "Urine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1220515/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "methemoglobinemia",
+        "txgnn_score": 0.9937990307807922,
+        "txgnn_rank": 7537,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "3176031",
+            "title": "Formation of methemoglobin by photoactivation of nitrofurantoin or of 5-nitrofurfural in rats exposed to UV-A light.",
+            "abstract": "The antibacterial drug nitrofurantoin (NFT) is notorious for causing hemolytic anemia, which may be related to the methemoglobinemia, another side-effect of NFT. As NFT is photolabile, and nitrite, well known as a MetHb generator, is an important photoproduct of NFT, it seems not unlikely that light is a cause of NFT-induced MetHb formation. When rats were irradiated with UV-A immediately after oral NFT administration, the amount of MetHb significantly increased: 0.97 +/- 0.37% n = 36 (P less than 0.001 Student's t-test, control value: 0.5%). An increase in MetHb was also observed with rats simultaneously exposed to UV-A and the major photodecomposition product of NFT, viz. 5-nitrofurfural. In addition in vitro experiments proved the formation of MetHb as a result of photoactivation of NFT. Nitrite, photochemically formed from nitrofurfural and from the metabolite nitrofuroic acid, plays an important role. A dark reaction of the other photoproduct, nitrofurfural, with hemoglobin also a",
+            "journal": "Toxicology",
+            "year": "1988",
+            "authors": [
+              "Busker R W",
+              "Beijersbergen van Henegouwen G M",
+              "Menke R F",
+              "Vasbinder W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Female",
+              "Furaldehyde",
+              "Furans",
+              "Methemoglobinemia",
+              "Nitrofurantoin",
+              "Photolysis",
+              "Rats",
+              "Rats, Inbred Strains",
+              "Sodium Nitrite"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3176031/"
+          },
+          {
+            "pmid": "930081",
+            "title": "[Drug-induced methemoglobinemia in a newborn infant].",
+            "abstract": "",
+            "journal": "Wiadomosci lekarskie (Warsaw, Poland : 1960)",
+            "year": "1977",
+            "authors": [
+              "Maszkiewicz W",
+              "Ornat K",
+              "Sosnowska B"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Male",
+              "Maternal-Fetal Exchange",
+              "Methemoglobinemia",
+              "Nitrofurantoin",
+              "Pregnancy",
+              "Urinary Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/930081/"
+          },
+          {
+            "pmid": "5359411",
+            "title": "[A case of drug-induced hemolytic anemia with methemoglobinemia in a newborn].",
+            "abstract": "",
+            "journal": "Wiadomosci lekarskie (Warsaw, Poland : 1960)",
+            "year": "1969",
+            "authors": [
+              "Maszkiewicz W",
+              "Soltys R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anemia, Hemolytic",
+              "Female",
+              "Humans",
+              "Infant, Newborn",
+              "Infant, Newborn, Diseases",
+              "Maternal-Fetal Exchange",
+              "Methemoglobinemia",
+              "Methylene Blue",
+              "Nitrofurantoin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5359411/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00698",
+    "name": "Nitrofurantoin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Nitrofurantoin"
+      },
+      "queried_at": "2026-03-09T17:41:22.966181",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Nitrofurantoin"
+      },
+      "queried_at": "2026-03-09T17:41:37.413610",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T17:41:39.884066",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T17:41:43.180771",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-09T17:41:45.980618",
+      "status": "success",
+      "result_count": 12,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-09T17:41:47.144087",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-09T17:41:52.133430",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-09T17:41:53.917830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-09T17:41:55.047822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-09T17:42:00.184184",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-09T17:42:04.435634",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-09T17:42:05.288275",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-09T17:42:08.334902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-09T17:42:11.575795",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T17:42:13.788875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T17:42:19.379449",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T17:42:20.321794",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T17:42:20.887903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T17:42:24.776707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T17:42:25.472962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-09T17:42:26.421131",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-09T17:42:34.039857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-09T17:42:37.966072",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-09T17:42:38.577689",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-09T17:42:42.102790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "queried_at": "2026-03-09T17:42:42.878795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-09T17:42:43.834103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-09T17:42:48.022398",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-09T17:42:53.683603",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-09T17:42:57.488951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-09T17:43:01.494255",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Nitrofurantoin",
+        "disease": "methemoglobinemia"
+      },
+      "queried_at": "2026-03-09T17:43:04.564978",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T17:43:04.575785"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Racecadotril",
+    "drugbank_id": "DB11696",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "polyclonal hyperviscosity syndrome",
+        "txgnn_score": 0.977153182029724,
+        "txgnn_rank": 18365,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperamylasemia",
+        "txgnn_score": 0.977153182029724,
+        "txgnn_rank": 18366,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital analbuminemia",
+        "txgnn_score": 0.9752516150474548,
+        "txgnn_rank": 19224,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blood group incompatibility",
+        "txgnn_score": 0.9687837958335876,
+        "txgnn_rank": 21707,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "premalignant hematological system disease",
+        "txgnn_score": 0.9660606384277344,
+        "txgnn_rank": 22529,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "monoclonal gammopathy",
+        "txgnn_score": 0.965608298778534,
+        "txgnn_rank": 22665,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+        "txgnn_score": 0.9624711871147156,
+        "txgnn_rank": 23613,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hematological disorder",
+        "txgnn_score": 0.9539738893508912,
+        "txgnn_rank": 25719,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "septicemic plague",
+        "txgnn_score": 0.9529418349266052,
+        "txgnn_rank": 25984,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute cystitis (disease)",
+        "txgnn_score": 0.942919909954071,
+        "txgnn_rank": 28235,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11696",
+    "name": "Racecadotril",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Racecadotril"
+      },
+      "queried_at": "2026-03-10T08:06:27.773111",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Racecadotril"
+      },
+      "queried_at": "2026-03-10T08:06:29.313132",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T08:06:30.077601",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T08:06:32.847254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "queried_at": "2026-03-10T08:06:33.621284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T08:06:34.272364",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T08:06:38.168090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "hyperamylasemia"
+      },
+      "queried_at": "2026-03-10T08:06:39.818981",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T08:06:40.467670",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T08:06:45.303660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "congenital analbuminemia"
+      },
+      "queried_at": "2026-03-10T08:06:46.403441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T08:06:47.937724",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T08:06:53.412696",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "blood group incompatibility"
+      },
+      "queried_at": "2026-03-10T08:06:54.497479",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T08:06:55.241644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T08:06:58.294410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "premalignant hematological system disease"
+      },
+      "queried_at": "2026-03-10T08:06:59.456772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T08:07:00.078087",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T08:07:03.711316",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "monoclonal gammopathy"
+      },
+      "queried_at": "2026-03-10T08:07:04.589436",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T08:07:05.222669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T08:07:09.425051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "queried_at": "2026-03-10T08:07:10.453082",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T08:07:11.788098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T08:07:15.904075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "congenital hematological disorder"
+      },
+      "queried_at": "2026-03-10T08:07:16.547777",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T08:07:17.347172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T08:07:22.408092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "septicemic plague"
+      },
+      "queried_at": "2026-03-10T08:07:23.169860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "acute cystitis (disease)"
+      },
+      "queried_at": "2026-03-10T08:07:23.721453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "acute cystitis (disease)"
+      },
+      "queried_at": "2026-03-10T08:07:27.323330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Racecadotril",
+        "disease": "acute cystitis (disease)"
+      },
+      "queried_at": "2026-03-10T08:07:28.053709",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:07:28.063062"
+  }
+}

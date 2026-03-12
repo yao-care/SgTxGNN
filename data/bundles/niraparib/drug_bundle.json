@@ -1,0 +1,1071 @@
+{
+  "drug": {
+    "inn": "Niraparib",
+    "drugbank_id": "DB11793",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "epiglottis neoplasm",
+        "txgnn_score": 0.9998766183853148,
+        "txgnn_rank": 407,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cystic neoplasm",
+        "txgnn_score": 0.999875545501709,
+        "txgnn_rank": 412,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05289648",
+            "title": "The Molecular and the Clinical Effects of Preoperative Niraparib in Patients with High-grade Endometrial Cancer: Phase 0 Exploratory Trial",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2024-05-01",
+            "completion_date": "2026-01-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "The study will investigate the effect of niraparib on tumor tissue in chemotherapy naïve, newly diagnosed, high-grade endometrial cancer patients. Biomarkers of cognate molecular pathways as well as investigational assays will be used to study the antineoplastic effect of the drug.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients must be female ≥18 years of age, able to understand the study procedures and agree to participate in the study by providing written informed consent\n2. Histological and staging criteria:\n\n   Patients must have histologically diagnosed\n   1. Grade 3 endometrioid, sero",
+            "endpoints": [
+              "Tumor cells proliferation before and after the treatment",
+              "Cell cycle arrest",
+              "Apoptosis marker"
+            ],
+            "sponsor": "Sir Mortimer B. Davis - Jewish General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05289648"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04716686",
+            "title": "Niraparib Monotherapy as Maintain and Recurrent Treatment of Endometrial Serous Carcinoma: A Multi-center, Open-label, Prospective Clinical Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-06-01",
+            "completion_date": "2026-12-31",
+            "country": "China",
+            "enrollment": 83,
+            "brief_summary": "Endometrial Serous carcinoma (ESC) has similar molecular characteristics to high-grade serous ovarian carcinoma (HGSOC) and basal cell-like breast cancer, such as similar Chromosomal instability, somatic copy number variation profiles and somatic mutations. The clinical treatment of ESC also refers to the treatment model of HGSOC. The PARP inhibitor niraparib used in this study, which was approved by FDA for the maintenance treatment of adult patients with recurrent epithelial ovarian, fallopian",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women aged 18 or above\n* Histological confirmation of serous endometrial cancer or other types of endometrial cancer\n* FIGO stage III-IV\n* ESC Patients have received at least 6 cycles of first-line platinum containing chemotherapy after surgery and achieved CR, PR or SD; ESC p",
+            "endpoints": [
+              "PFS%（1 year）",
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Shandong University",
+            "url": "https://clinicaltrials.gov/study/NCT04716686"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04159155",
+            "title": "Canadian Multi-arm Multi-stage Randomized Controlled Trial Assessing Front Line and Maintenance Treatment in Serous or p53 Mutant Endometrial Cancer",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2020-11-17",
+            "completion_date": "2025-05-26",
+            "country": "Canada",
+            "enrollment": 11,
+            "brief_summary": "This is an umbrella, two-arm, multi-stage, phase II trial. The purpose of the trial in the early stage cohort is to determine if EBRT improves disease free survival (defined as the time from random assignment to disease recurrence or death from any cause) compared to vaginal brachytherapy after chemotherapy in women with serous or p53 aberrant endometrial cancer. The purpose of the trial in the advanced stage cohort is to determine if the maintenance with experimental treatment increases progres",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with pure serous endometrial carcinoma will be included. Other histotypes (endometrioid and clear cell) with abnormal/mutant-type p53 is acceptable.\n* Local TP53 results must be available for Central review.\n* Patients diagnosed with stage I, II tumors will be enrolle",
+            "endpoints": [
+              "Disease Free Survival Rate"
+            ],
+            "sponsor": "University Health Network, Toronto",
+            "url": "https://clinicaltrials.gov/study/NCT04159155"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40702505",
+            "title": "Determination of high-grade serous ovarian cancer stem cell-based subtypes and prognostic model and identification of highly expressed VSIG4 and STAB1 in macrophages.",
+            "abstract": "Cancer stem cells are associated with tumorigenesis, aggression, and drug resistance. We aimed to identify stem cell-related subtypes and a prognostic tool, and to investigate potential stem cell-related genes contributing to high-grade serous ovarian cancer (HGSOC).",
+            "journal": "Journal of ovarian research",
+            "year": "2025",
+            "authors": [
+              "Wu Huijuan",
+              "Li Dan",
+              "Sun Lu",
+              "Song Hualin",
+              "Wang Ke"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Ovarian Neoplasms",
+              "Prognosis",
+              "Neoplastic Stem Cells",
+              "Macrophages",
+              "Cystadenocarcinoma, Serous",
+              "Middle Aged",
+              "Biomarkers, Tumor",
+              "Neoplasm Grading"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40702505/"
+          },
+          {
+            "pmid": "41520277",
+            "title": "Evaluating carboplatin and PARP inhibitor combination efficacy using high-grade serous carcinoma spheroids and organoids.",
+            "abstract": "PARP inhibitors (PARPis) are new targeted agents that exploit homologous recombination DNA repair deficiencies (HRDs), which are present in 50% of high-grade serous carcinoma (HGSC) cases. Currently, olaparib is approved as maintenance therapy for BRCA1/2-mutated HGSC, and niraparib is approved for platinum-sensitive recurrent disease. However, research is currently expanding their potential as front-line agents or in combination with carboplatin, a standard HGSC chemotherapeutic.",
+            "journal": "Cancer biology & therapy",
+            "year": "2026",
+            "authors": [
+              "Tomas Emily J",
+              "Davis Jennifer",
+              "Ramos Valdes Yudith",
+              "Shepherd Trevor G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Carboplatin",
+              "Poly(ADP-ribose) Polymerase Inhibitors",
+              "Female",
+              "Organoids",
+              "Ovarian Neoplasms",
+              "Cystadenocarcinoma, Serous",
+              "Cell Line, Tumor",
+              "Spheroids, Cellular",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41520277/"
+          },
+          {
+            "pmid": "31851805",
+            "title": "Personalized Medicine for Primary Treatment of Serous Ovarian Cancer.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "authors": [
+              "Longo Dan L"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Cystadenocarcinoma, Serous",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Ovarian Neoplasms",
+              "Piperidines",
+              "Precision Medicine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31851805/"
+          },
+          {
+            "pmid": "40473279",
+            "title": "Maintenance with niraparib in patients with stage III, stage IV, chemo-naïve recurrent or platinum-sensitive recurrent uterine serous carcinoma: study protocol for a phase II clinical trial.",
+            "abstract": "Uterine serous carcinoma (USC) accounts for 40% of endometrial cancer-related deaths. The standard of care for stages III and IV USC yields a 20%-30% survival at 2 years and a 10%-20% survival at 3-5 years. Recent advances in the second-line treatment of advanced or recurrent USC are rapidly evolving. Targeted therapeutic approaches with the use of lenvatinib plus pembrolizumab, as well as the use of trastuzumab deruxtecan, offer new hope for successful second-line therapies for patients. However, further investigation into novel targeted therapeutic approaches is warranted, given the high burden of disease associated with this aggressive histological subtype. USC shares clinical and genomic similarities with epithelial ovarian cancer, suggesting a correlation with 'BRCAness'. Niraparib, a potent PARP1 and PARP2 inhibitor, was shown to have a positive impact on platinum-sensitive recurrent ovarian cancer, regardless of the presence or absence of BRCA status. Our hypothesis is that pati",
+            "journal": "BMJ open",
+            "year": "2025",
+            "authors": [
+              "Frimer Marina",
+              "Katcher Arielle",
+              "Blustein Pegah",
+              "Sison Cristina",
+              "Girda Eugenia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Indazoles",
+              "Piperidines",
+              "Neoplasm Recurrence, Local",
+              "Uterine Neoplasms",
+              "Poly(ADP-ribose) Polymerase Inhibitors",
+              "Neoplasm Staging",
+              "Cystadenocarcinoma, Serous",
+              "Clinical Trials, Phase II as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40473279/"
+          },
+          {
+            "pmid": "31466953",
+            "title": "Niraparib as maintenance therapy in a patient with ovarian cancer and brain metastases.",
+            "abstract": "Ovarian cancer is the second the most common gynaecological malignancy in developed countries. 70% of patients relapse in the first 3 years following debulking surgery and first-line chemotherapy. Niraparib is a poly adenosine diphosphate ribose polymerase inhibitor which uses the concept of synthetic lethality in the presence of a mutation in the breast cancer susceptibility gene (BRCA), and is now recommended as maintenance treatment in patients with platinum-sensitive relapse of ovarian cancer. It has been shown to increase progression-free survival. We present a case of a 68-year-old woman with brain metastases from high-grade serous ovarian cancer who has remained free of disease progression for longer than 17 months with niraparib use as maintenance treatment after second-line chemotherapy.",
+            "journal": "BMJ case reports",
+            "year": "2019",
+            "authors": [
+              "Gray Simon",
+              "Khor Xiao Ying",
+              "Yiannakis Dennis"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Brain Neoplasms",
+              "Cystadenocarcinoma, Serous",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Indazoles",
+              "Maintenance Chemotherapy",
+              "Neoplasm Grading",
+              "Ovarian Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31466953/"
+          },
+          {
+            "pmid": "34321239",
+            "title": "Acquired RAD51C Promoter Methylation Loss Causes PARP Inhibitor Resistance in High-Grade Serous Ovarian Carcinoma.",
+            "abstract": "In high-grade serous ovarian carcinoma (HGSC), deleterious mutations in DNA repair gene RAD51C are established drivers of defective homologous recombination and are emerging biomarkers of PARP inhibitor (PARPi) sensitivity. RAD51C promoter methylation (meRAD51C) is detected at similar frequencies to mutations, yet its effects on PARPi responses remain unresolved.In this study, three HGSC patient-derived xenograft (PDX) models with methylation at most or all examined CpG sites in the RAD51C promoter show responses to PARPi. Both complete and heterogeneous methylation patterns were associated with RAD51C gene silencing and homologous recombination deficiency (HRD). PDX models lost meRAD51C following treatment with PARPi rucaparib or niraparib, where a single unmethylated copy of RAD51C was sufficient to drive PARPi resistance. Genomic copy number profiling of one of the PDX models using SNP arrays revealed that this resistance was acquired independently in two genetically distinct lineag",
+            "journal": "Cancer research",
+            "year": "2021",
+            "authors": [
+              "Nesic Ksenija",
+              "Kondrashova Olga",
+              "Hurley Rachel M",
+              "McGehee Cordelia D",
+              "Vandenberg Cassandra J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Cell Line, Tumor",
+              "Computational Biology",
+              "Cystadenocarcinoma, Serous",
+              "DNA Methylation",
+              "DNA-Binding Proteins",
+              "Disease Models, Animal",
+              "Drug Resistance, Neoplasm",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34321239/"
+          },
+          {
+            "pmid": "41465250",
+            "title": "Global Proteomic Determination of the Poly-Pharmacological Effects of PARP Inhibitors Following Treatment of High-Grade Serous Ovarian Cancer Cells.",
+            "abstract": "High-grade serous ovarian cancer (HGSOC) is the most commonly diagnosed ovarian cancer subtype. Approximately half of all patients diagnosed with HGSOC are deficient in homologous recombination (HR), harbor BRCA1/2 mutations, and are treated with poly (ADP-ribose) polymerase (PARP) inhibitors (PARPis). FDA-approved PARPis Olaparib, Niraparib, and Rucaparib all contribute to adverse effects in patients due to their poly-pharmacological properties. This feature necessitates investigation of global protein responses to PARPi treatment beyond DNA repair in the context of BRCA mutational status and HR deficiency. We sought to determine the landscape of differential PARPi-induced proteomes in HGSOC cells exhibiting different BRCA1/2 mutational statuses. Here, we applied immunofluorescence microscopy to detect γH2AX, Rad51, and geminin foci as markers of DNA damage and repair upon treatment of HGSOC cells with IC50 doses of PARPis. Global proteome perturbations upon PARPi treatment were measu",
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "authors": [
+              "Perez Jesenia M",
+              "Barrera-Estrada Valerie",
+              "Twigg Carly A I",
+              "Thomas Stefani N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Poly(ADP-ribose) Polymerase Inhibitors",
+              "Female",
+              "Ovarian Neoplasms",
+              "Proteomics",
+              "Cell Line, Tumor",
+              "Piperazines",
+              "Phthalazines",
+              "Indazoles",
+              "Indoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41465250/"
+          },
+          {
+            "pmid": "41323499",
+            "title": "Comprehensive genomic profiling for homologous recombination deficiency guides PARP inhibitor therapy recommendations in ovarian cancer.",
+            "abstract": "To evaluate the technical performance and clinical integration of FoundationOne®CDx (F1CDx) for high-grade serous ovarian cancer (HGSOC), focusing on its role in guiding PARP inhibitor (PARPi) therapy recommendations in a tertiary oncology center.",
+            "journal": "Pathology oncology research : POR",
+            "year": "2025",
+            "authors": [
+              "Inci Alp",
+              "Witzel Isabell",
+              "Moch Holger",
+              "Rahmani-Khajouei Sepehr",
+              "Zoche Martin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Poly(ADP-ribose) Polymerase Inhibitors",
+              "Ovarian Neoplasms",
+              "Retrospective Studies",
+              "Middle Aged",
+              "BRCA1 Protein",
+              "Aged",
+              "BRCA2 Protein",
+              "Homologous Recombination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41323499/"
+          },
+          {
+            "pmid": "41214101",
+            "title": "Claudin-4 as a dual regulator of genome stability and immune evasion in high grade serous ovarian cancer.",
+            "abstract": "High-grade serous carcinoma (HGSC) thrives in an immune-suppressive microenvironment marked by poor T-cell infiltration and blunted anti-tumor responses, driving immune evasion, tumor progression, and therapy resistance. Regulation of genomic instability, which restricts cytoplasmic DNA accumulation, is essential to prevent immune activation. Claudin-4, often overexpressed in HGSC, is strongly linked to therapy resistance and plays a key role in regulating initiation and resolution of genomic instability, shaping the tumor's potential ability to evade immune surveillance and withstand treatment; however, its role in immune evasion remains unclear. We used in vitro ovarian cancer models with stable claudin-4 overexpression and knockdown. In a humanized mouse model, ovarian tumors were treated with the claudin mimic peptide (CMP) and a PARP inhibitor. Tumor growth and immune infiltration were assessed by IVIS imaging and spectral flow cytometry. Mechanistic studies included autophagy flu",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Bitler Benjamin G",
+              "Lang Julie",
+              "Nunez-Avellaneda Daniel",
+              "Behbakht Kian",
+              "Davidson Natalie R"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Ovarian Neoplasms",
+              "Animals",
+              "Claudin-4",
+              "Mice",
+              "Genomic Instability",
+              "Cell Line, Tumor",
+              "Cystadenocarcinoma, Serous",
+              "Immune Evasion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41214101/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of hypopharynx",
+        "txgnn_score": 0.9998748302459716,
+        "txgnn_rank": 415,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of tongue",
+        "txgnn_score": 0.9998743534088136,
+        "txgnn_rank": 417,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign neoplasm of floor of mouth",
+        "txgnn_score": 0.999874234199524,
+        "txgnn_rank": 418,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical neuroblastoma",
+        "txgnn_score": 0.9998738765716552,
+        "txgnn_rank": 422,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tumor of testis and paratestis",
+        "txgnn_score": 0.9998736381530762,
+        "txgnn_rank": 423,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pre-malignant neoplasm",
+        "txgnn_score": 0.9998730421066284,
+        "txgnn_rank": 426,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05351983",
+            "title": "Patient-derived Organoid Generation in Pancreatic Cancer: a Single Centre, Open-label, Single Arm Feasibility Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-09-22",
+            "completion_date": "2023-12-31",
+            "country": "Switzerland",
+            "enrollment": 60,
+            "brief_summary": "Few chemotherapeutic options exist for pancreatic cancer. Moreover, objective criteria are lacking for deciding which regimen is more beneficial for patient presenting with metastases at diagnosis.\n\nThis study investigates whether organoid generation from tumour samples of pancreatic cancer is a safe and feasible process for testing of multiple chemotherapy regimens in the laboratory.\n\nBy participating to this study, patients will have a part of the tumour tissue retrieved and sent to the labora",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Written informed consent provided\n* Patients older than 18 years\n* Histologically- or cytologically-proven pancreatic ductal adenocarcinoma (PDAC)\n* Tumour lesion amenable for laparoscopic, surgical biopsy\n* Eastern Cooperative Oncology Group (ECOG) Performance status (PS) 0-2",
+            "endpoints": [
+              "Feasibility of the process"
+            ],
+            "sponsor": "Klinik Hirslanden, Zurich",
+            "url": "https://clinicaltrials.gov/study/NCT05351983"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01042379",
+            "title": "I-SPY Trial (Investigation of Serial Studies to Predict Your Therapeutic Response With Imaging And moLecular Analysis 2)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2010-03-01",
+            "completion_date": "2031-12",
+            "country": "United States",
+            "enrollment": 5000,
+            "brief_summary": "The purpose of this study is to further advance the ability to practice personalized medicine by learning which new drug agents are most effective with which types of breast cancer tumors and by learning more about which early indicators of response (tumor analysis prior to surgery via magnetic resonance imaging (MRI) images along with tissue and blood samples) are predictors of treatment success.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed invasive cancer of the breast\n* Clinically or radiologically measureable disease in the breast after diagnostic biopsy, defined as longest diameter greater than or equal to 25 mm (2.5cm)\n* No prior cytotoxic regimens are allowed for this malignancy. Pa",
+            "endpoints": [
+              "Determine whether adding experimental agents to standard neoadjuvant medications increases the probability of pathologic complete response (pCR) over standard neoadjuvant chemotherapy for each biomarker signature established at trial entry."
+            ],
+            "sponsor": "QuantumLeap Healthcare Collaborative",
+            "url": "https://clinicaltrials.gov/study/NCT01042379"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05021562",
+            "title": "Zedula Special Drug Use Observational Study \"Ovarian Cancer\"",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-09-13",
+            "completion_date": "2026-03-31",
+            "country": "Japan",
+            "enrollment": 354,
+            "brief_summary": "The main aim of this study is to check for side effects from treatment with niraparib.\n\nThe study sponsor will not be involved in how the participants are treated but will provide instructions on how the clinics will record what happens during the study.\n\nDuring the study, participants with ovarian cancer will take capsules of niraparib (Zedula) once a day according to their clinic's standard practice. The study doctors will check for side effects from niraparib for 1 year after treatment starts",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAn individual who corresponds to any of the following:\n\n* Ovarian cancer patients after initial chemotherapy (maintenance therapy)\n* Patients with platinum antineoplastic drug sensitive recurrent ovarian cancer (maintenance therapy)\n* Recurrent ovarian cancer with platinum-sensi",
+            "endpoints": [
+              "Number of Participants with Adverse Event of Myelosuppression",
+              "Number of Participants with Adverse Event of Hypertension",
+              "Number of Participants with Adverse Event of Posterior Reversible Encephalopathy Syndrome"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT05021562"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03307785",
+            "title": "Phase 1b Dose-Finding Study of Niraparib, TSR-022, Bevacizumab, and Platinum-Based Doublet Chemotherapy in Combination With TSR-042 in Patients With Advanced or Metastatic Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-10-12",
+            "completion_date": "2024-12-11",
+            "country": "United States",
+            "enrollment": 60,
+            "brief_summary": "Part A: To test the safety and tolerability of combination therapy with Niraparib and TSR-042 and to establish a safe dose that will be used in a Phase 2 study.\n\nPart B: To test the safety and tolerability of combination therapy with Carboplatin-Paclitaxel and TSR-042 and to establish a safe dose that will be used in a Phase 2 study.\n\nPart C: To test the safety and tolerability of combination therapy with Niraparib, TSR-042 and Bevacizumab and to establish a safe dose that will be used in a Phas",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has histologically or cytologically proven advanced (unresectable) or metastatic cancer as outlined below according to study part and disease type:\n* Part A: Patients with previously treated advanced or metastatic cancer. Patient may have received no more than 4 lines ",
+            "endpoints": [
+              "Part A: Number of Participants With Dose-limiting Toxicity (DLT)",
+              "Part B: Number of Participants With DLT",
+              "Part C: Number of Participants With DLT"
+            ],
+            "sponsor": "Tesaro, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03307785"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05289648",
+            "title": "The Molecular and the Clinical Effects of Preoperative Niraparib in Patients with High-grade Endometrial Cancer: Phase 0 Exploratory Trial",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2024-05-01",
+            "completion_date": "2026-01-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "The study will investigate the effect of niraparib on tumor tissue in chemotherapy naïve, newly diagnosed, high-grade endometrial cancer patients. Biomarkers of cognate molecular pathways as well as investigational assays will be used to study the antineoplastic effect of the drug.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients must be female ≥18 years of age, able to understand the study procedures and agree to participate in the study by providing written informed consent\n2. Histological and staging criteria:\n\n   Patients must have histologically diagnosed\n   1. Grade 3 endometrioid, sero",
+            "endpoints": [
+              "Tumor cells proliferation before and after the treatment",
+              "Cell cycle arrest",
+              "Apoptosis marker"
+            ],
+            "sponsor": "Sir Mortimer B. Davis - Jewish General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05289648"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04462809",
+            "title": "A Three-Cohort Phase II Trial to Assess the Efficacy of a Maintenance Treatment With TALAzoparib Following First Line Platinum-based Chemotherapy in Pleural or Malignant Peritoneal MESOthelioma Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-09-01",
+            "completion_date": "2024-10-01",
+            "country": "N/A",
+            "enrollment": 40,
+            "brief_summary": "Malignant mesothelioma is an invasive neoplasm that arises from mesothelium that lines several organs. Common primary sites of origin of mesotheliomas are the pleura (malignant pleural mesothelioma: 85%) and peritoneum (malignant peritoneal mesothelioma 15%), and rarely the pericardium and tunica vaginalis.\n\nThe standard of care recommended for malignant pleural mesotheliomas (MPM) is palliative chemotherapy based on a doublet of platinum salt and an anti-folate. The median survival of patients ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients older than 18 years old\n* Patients with Eastern Cooperative Oncology Group (ECOG) performance status ≤2\n* Histologically - or cytologically - confirmed malignant mesotheliomas: epithelioid, sarcomatoid, biphasic\n* Developed from pleura (cohort A) or from peritoneum (c",
+            "endpoints": [
+              "Non-progression proportion"
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT04462809"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05751629",
+            "title": "Cohort A: PARP Inhibitor-Naïve Platinum-Resistant Ovarian Cancer Treatment Cohort With TSR-042, Bevacizumab, and Niraparib",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2018-11-15",
+            "completion_date": "2022-04-01",
+            "country": "United States",
+            "enrollment": 41,
+            "brief_summary": "The primary objective of this sub study is to evaluate the efficacy of the combination of TSR-042, bevacizumab, and niraparib in participants with advanced, relapsed, high-grade ovarian, fallopian tube, or primary peritoneal cancer who have received 1 to 2 prior lines of anticancer therapy, are PARP inhibitor naïve, and have platinum-resistant but not refractory disease.\n\nThis study is a sub study of the master protocol - OPAL (NCT03574779).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must be resistant to the most recent platinum-based therapy, defined for the purpose of this protocol as progression within 6 months from completion of a minimum of 4 cycles of platinum-containing therapy. This should be calculated from the date of the last adminis",
+            "endpoints": [
+              "Confirmed Objective Response Rate (ORR) Per Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1 by Investigator Assessment"
+            ],
+            "sponsor": "Tesaro, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05751629"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02925234",
+            "title": "A Dutch National Study on Behalf of the CPCT to Facilitate Patient Access to Commercially Available, Targeted Anti-cancer Drugs to Determine the Potential Efficacy in Treatment of Advanced Cancers With a Known Molecular Profile",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2016-08",
+            "completion_date": "2027-12",
+            "country": "Netherlands",
+            "enrollment": 1550,
+            "brief_summary": "This is a prospective, non-randomized clinical trial that aims to describe the efficacy and toxicity of commercially available, targeted anticancer drugs\\* prescribed for treatment of patients with advanced cancer with a potentially actionable variant as revealed by a genomic or protein expression test. The study also aims to simplify patient access to approved targeted therapies that are contributed to the program by collaborating pharmaceutical companies and to perform next generation sequenci",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adult (age \\>18 years) patient with a histologically-proven locally advanced or metastatic solid tumor, multiple myeloma or B cell non-Hodgkin lymphomawith symptomatic disease progression or progression according to RECIST-criteria after standard anti-cancer treatment or for ",
+            "endpoints": [
+              "Percentage of patients that are treated based on their molecular tumor profile",
+              "Objective tumor response",
+              "Stable disease"
+            ],
+            "sponsor": "The Netherlands Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02925234"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04991480",
+            "title": "A Phase I/IIa, Open-label, Multi-centre Study to Assess the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of the DNA Polymerase Theta Inhibitor ART4215 Administered Orally as Monotherapy and in Combination to Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-09-13",
+            "completion_date": "2025-12-24",
+            "country": "United Kingdom, United States",
+            "enrollment": 93,
+            "brief_summary": "This clinical trial is evaluating a drug called ART4215 in participants with advanced or metastatic solid tumors. The main goals of this study are to:\n\n* Find the recommended dose of ART4215 that can be given safely to participants alone and in combination with talazoparib\n* Learn more about the side effects of ART4215 alone and in combination with talazoparib\n* Learn more about the effectiveness of ART4215 alone and in combination with talazoparib\n* Learn more about the effectiveness of ART4215",
+            "eligibility_criteria": "General Inclusion Criteria:\n\n* Signed informed consent\n* Discontinued all previous treatments for cancer for at least 21 days or 5 half-lives, whichever is shorter (except in Germany where local regulation requires the longer of 21 days or 5 half-lives washout), and recovered from the acute effects ",
+            "endpoints": [
+              "Part A: Number of participants with dose limiting toxicities (DLTs) from ART4215 monotherapy, in combination with talazoparib or in combination with niraparib",
+              "Part B1 and B2: Number of participants with adverse events following administration of ART4215",
+              "Part B3: Progression free survival (PFS) as a measure of efficacy for ART4215 in combination with talazoparib or talazoparib alone"
+            ],
+            "sponsor": "Artios Pharma Ltd",
+            "url": "https://clinicaltrials.gov/study/NCT04991480"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05406700",
+            "title": "A Phase 0 Clinical Trial to Evaluate Drug Concentrations and Pharmacodynamic Parameters of Niraparib in Tumor Tissue of Patients With Surgically Accessible Recurrent IDH 1/2 Gliomas",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-05-18",
+            "completion_date": "2026-10",
+            "country": "United States",
+            "enrollment": 16,
+            "brief_summary": "This is a randomized, two-arm, open-label, phase 0 trial to assess intratumoral pharmacokinetics and pharmacodynamics of niraparib in subjects with progressive IDH1 or IDH2 mutant glioma.\n\n\\- This research study involves an experimental treatment called Niraparib.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must be ≥18 years of age.\n* Participants must have histologically or cytologically confirmed glioma, with documented IDH1 and/or IDH2 gene-mutation at time of initial diagnosis\n* Participants must have radiographic evidence of progression/recurrence per RANO crite",
+            "endpoints": [
+              "Drug concentration of niraparib"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05406700"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04673448",
+            "title": "Phase IB Trial of Niraparib and Dostarlimab (TSR-042) in Patients With BRCA-Mutated Breast, Pancreas or Ovary Cancer",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-10-18",
+            "completion_date": "2026-09-30",
+            "country": "United States",
+            "enrollment": 18,
+            "brief_summary": "This phase IB trial evaluates the effect of niraparib and TSR-042 in treating patients with BRCA-mutated breast, pancreas, ovary, fallopian tube, or primary peritoneal cancer that cannot be removed by surgery (unresectable) or has spread to other places in the body (metastatic). Niraparib is an inhibitor of PARP, an enzyme that helps repair deoxyribonucleic acid (DNA) when it becomes damaged. Blocking PARP may help keep cancer cells from repairing their damaged DNA, causing them to die. PARP inh",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participant must have breast, pancreas, ovary, fallopian tube or primary peritoneal cancer that is unresectable or metastatic, with a pathogenic mutation in BRCA1 or BRCA2 (either germline or somatic) as confirmed by next generation gene sequencing such as University of Washin",
+            "endpoints": [
+              "Best objective response"
+            ],
+            "sponsor": "University of Washington",
+            "url": "https://clinicaltrials.gov/study/NCT04673448"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05238831",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: Adaptive Clinical Treatment (ACT)",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2023-01-30",
+            "completion_date": "2026-05-31",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "SMMART-ACT is a feasibility pilot study to determine if testing samples from a participant's cancer using a precision medicine approach can be used to identify specific drugs or drug combinations that can help control their disease. The safety and tolerability of the drug or drug combination is also to be studied. Another purpose is for researchers to study tumor cells to try to learn why some people respond to a certain therapy and others do not, and why some cancer drugs stop working. The stud",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PRE-SCREENING: Written informed consent prior to any pre-screening activities, study-specific procedures or interventions.\n* PRE-SCREENING: At least 18 years of age at time of informed consent. Persons of all gender identities, biological sexes, races, and ethnicities will be ",
+            "endpoints": [
+              "Proportion of participants who receive an ACT therapy based an ACT Tumor Board recommendation."
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT05238831"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05076513",
+            "title": "A Phase 0 'Trigger' Trial of Niraparib in Newly-diagnosed Glioblastoma and Recurrent IDH1/2(+) ATRX Mutant Glioma",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-10-29",
+            "completion_date": "2025-09",
+            "country": "United States",
+            "enrollment": 42,
+            "brief_summary": "This is an open-label, multi-center Phase 0 study with an expansion phase that will enroll up to 24 participants with newly-diagnosed glioblastoma and up to 18 recurrent glioma participants with IDH mutation and ATRX loss. The trial will be composed of a Phase 0 component (subdivided into Arm A and B) and a therapeutic expansion phase. Patients with tumors demonstrating a positive PK Response (in Arm A) or a positive PD Response (in Arm B) of the Phase 0 component of the study will graduate to a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Arm A participants undergoing resection for a suspected newly diagnosed glioblastoma. For Arm B, participants undergoing resection who have had a prior resection of histologically diagnosed WHO grade II-IV glioma with IDH1 or IDH2 mutation and ATRX loss.\n2. Arm A participants",
+            "endpoints": [
+              "Phase 0 Arm A: Total and unbound niraparib concentration in enhancing and nonenhancing tissue",
+              "Phase 0 Arm B: Presence of Chromosomal fusion",
+              "Phase 0 Expansion Arm A: Progression-free survival in participants with demonstrated PK effects"
+            ],
+            "sponsor": "St. Joseph's Hospital and Medical Center, Phoenix",
+            "url": "https://clinicaltrials.gov/study/NCT05076513"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inner ear neoplasm",
+        "txgnn_score": 0.9998730421066284,
+        "txgnn_rank": 427,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schwannoma of jugular foramen",
+        "txgnn_score": 0.9998728036880492,
+        "txgnn_rank": 429,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11793",
+    "name": "Niraparib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Niraparib"
+      },
+      "queried_at": "2026-03-09T09:56:35.015505",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Niraparib"
+      },
+      "queried_at": "2026-03-09T09:56:37.164152",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-09T09:56:37.877693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-09T09:56:41.199154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "epiglottis neoplasm"
+      },
+      "queried_at": "2026-03-09T09:56:41.902164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "cystic neoplasm"
+      },
+      "queried_at": "2026-03-09T09:56:43.351216",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "cystic neoplasm"
+      },
+      "queried_at": "2026-03-09T09:56:47.530284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "cystic neoplasm"
+      },
+      "queried_at": "2026-03-09T09:56:49.980406",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-09T09:56:50.710338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-09T09:56:53.888259",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of hypopharynx"
+      },
+      "queried_at": "2026-03-09T09:56:54.698610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-09T09:56:55.205383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-09T09:56:58.084988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of tongue"
+      },
+      "queried_at": "2026-03-09T09:56:58.820964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-09T09:56:59.342780",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-09T09:57:02.861015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "benign neoplasm of floor of mouth"
+      },
+      "queried_at": "2026-03-09T09:57:03.565816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-09T09:57:04.056636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-09T09:57:08.560277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "cervical neuroblastoma"
+      },
+      "queried_at": "2026-03-09T09:57:10.513261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "tumor of testis and paratestis"
+      },
+      "queried_at": "2026-03-09T09:57:11.514184",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "tumor of testis and paratestis"
+      },
+      "queried_at": "2026-03-09T09:57:15.076382",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "tumor of testis and paratestis"
+      },
+      "queried_at": "2026-03-09T09:57:15.759380",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "pre-malignant neoplasm"
+      },
+      "queried_at": "2026-03-09T09:57:16.862329",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "pre-malignant neoplasm"
+      },
+      "queried_at": "2026-03-09T09:57:20.321119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "pre-malignant neoplasm"
+      },
+      "queried_at": "2026-03-09T09:57:21.006838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "inner ear neoplasm"
+      },
+      "queried_at": "2026-03-09T09:57:21.507503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "inner ear neoplasm"
+      },
+      "queried_at": "2026-03-09T09:57:24.310566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "inner ear neoplasm"
+      },
+      "queried_at": "2026-03-09T09:57:25.274170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-09T09:57:26.060611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-09T09:57:30.276251",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Niraparib",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "queried_at": "2026-03-09T09:57:31.192406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T09:57:31.195654"
+  }
+}

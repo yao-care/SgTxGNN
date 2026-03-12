@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Lonoctocog alfa",
+    "drugbank_id": "DB13998",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9985484480857848,
+        "txgnn_rank": 2683,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.998446762561798,
+        "txgnn_rank": 2830,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9976492524147034,
+        "txgnn_rank": 3844,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Scott syndrome",
+        "txgnn_score": 0.9944422841072084,
+        "txgnn_rank": 6969,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acquired coagulation factor deficiency",
+        "txgnn_score": 0.988512396812439,
+        "txgnn_rank": 11676,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bleeding diathesis due to a collagen receptor defect",
+        "txgnn_score": 0.9871036410331726,
+        "txgnn_rank": 12771,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+        "txgnn_score": 0.9864104390144348,
+        "txgnn_rank": 13286,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.9841187000274658,
+        "txgnn_rank": 14735,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.9841187000274658,
+        "txgnn_rank": 14736,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombotic thrombocytopenic purpura",
+        "txgnn_score": 0.981272041797638,
+        "txgnn_rank": 16417,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB13998",
+    "name": "Lonoctocog alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lonoctocog alfa"
+      },
+      "queried_at": "2026-03-09T19:17:51.758395",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lonoctocog alfa"
+      },
+      "queried_at": "2026-03-09T19:17:55.483702",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T19:17:56.579401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T19:18:00.827050",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-09T19:18:01.757720",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T19:18:03.071650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T19:18:09.590769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-09T19:18:10.972897",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T19:18:12.223736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T19:18:20.283493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-09T19:18:21.535051",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T19:18:22.320747",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T19:18:26.584388",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "Scott syndrome"
+      },
+      "queried_at": "2026-03-09T19:18:27.983549",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "queried_at": "2026-03-09T19:18:28.674147",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "queried_at": "2026-03-09T19:18:33.076109",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "queried_at": "2026-03-09T19:18:33.790290",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T19:18:36.204229",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T19:18:42.673682",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "queried_at": "2026-03-09T19:18:43.710313",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T19:18:46.475162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T19:18:49.779488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "queried_at": "2026-03-09T19:18:51.022746",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T19:18:52.473136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T19:18:57.495637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T19:18:58.944531",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T19:19:00.304786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T19:19:07.146774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T19:19:08.880183",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T19:19:09.925401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T19:19:13.773787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lonoctocog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-09T19:19:14.634250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:19:14.651202"
+  }
+}

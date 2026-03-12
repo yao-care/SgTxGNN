@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Ramucirumab",
+    "drugbank_id": "DB05578",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "uterine ligament adenocarcinoma",
+        "txgnn_score": 0.9994876384735109,
+        "txgnn_rank": 1176,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endocervical carcinoma",
+        "txgnn_score": 0.9994712471961976,
+        "txgnn_rank": 1196,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adenoid cystic carcinoma of the cervix uteri",
+        "txgnn_score": 0.999451458454132,
+        "txgnn_rank": 1226,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine ligament serous adenocarcinoma",
+        "txgnn_score": 0.9994321465492249,
+        "txgnn_rank": 1258,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "signet ring cell variant cervical mucinous adenocarcinoma",
+        "txgnn_score": 0.999373495578766,
+        "txgnn_rank": 1345,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cervical adenosquamous carcinoma, glassy cell variant",
+        "txgnn_score": 0.9993699193000792,
+        "txgnn_rank": 1356,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine ligament endometrioid adenocarcinoma",
+        "txgnn_score": 0.9993656277656556,
+        "txgnn_rank": 1364,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine ligament clear cell adenocarcinoma",
+        "txgnn_score": 0.9993584752082824,
+        "txgnn_rank": 1382,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine ligament mucinous adenocarcinoma",
+        "txgnn_score": 0.999357521533966,
+        "txgnn_rank": 1384,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intestinal variant cervical mucinous adenocarcinoma",
+        "txgnn_score": 0.9993513226509094,
+        "txgnn_rank": 1398,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB05578",
+    "name": "Ramucirumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ramucirumab"
+      },
+      "queried_at": "2026-03-09T14:16:39.269691",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ramucirumab"
+      },
+      "queried_at": "2026-03-09T14:16:42.847120",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:16:43.998793",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:16:49.289104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:16:50.432764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "endocervical carcinoma"
+      },
+      "queried_at": "2026-03-09T14:16:51.477739",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "endocervical carcinoma"
+      },
+      "queried_at": "2026-03-09T14:16:56.936787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "endocervical carcinoma"
+      },
+      "queried_at": "2026-03-09T14:16:59.057723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "adenoid cystic carcinoma of the cervix uteri"
+      },
+      "queried_at": "2026-03-09T14:17:00.550928",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "adenoid cystic carcinoma of the cervix uteri"
+      },
+      "queried_at": "2026-03-09T14:17:04.285214",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "adenoid cystic carcinoma of the cervix uteri"
+      },
+      "queried_at": "2026-03-09T14:17:05.445021",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament serous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:07.846877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament serous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:12.326908",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament serous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:13.840340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "signet ring cell variant cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:14.708477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "signet ring cell variant cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:22.086576",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "signet ring cell variant cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:25.393867",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "cervical adenosquamous carcinoma, glassy cell variant"
+      },
+      "queried_at": "2026-03-09T14:17:26.601635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "cervical adenosquamous carcinoma, glassy cell variant"
+      },
+      "queried_at": "2026-03-09T14:17:35.211160",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "cervical adenosquamous carcinoma, glassy cell variant"
+      },
+      "queried_at": "2026-03-09T14:17:38.539500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:40.247201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:43.370727",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament endometrioid adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:45.280045",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament clear cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:46.010476",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament clear cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:50.902625",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament clear cell adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:51.979098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:52.943576",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:58.280268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "uterine ligament mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:17:59.957774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "intestinal variant cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:18:01.241971",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "intestinal variant cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:18:06.712864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ramucirumab",
+        "disease": "intestinal variant cervical mucinous adenocarcinoma"
+      },
+      "queried_at": "2026-03-09T14:18:08.018058",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T14:18:08.025441"
+  }
+}

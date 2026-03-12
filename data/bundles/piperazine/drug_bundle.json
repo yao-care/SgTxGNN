@@ -1,0 +1,2354 @@
+{
+  "drug": {
+    "inn": "Piperazine",
+    "drugbank_id": "DB00592",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "echinococcus granulosus infectious disease",
+        "txgnn_score": 0.9774396419525146,
+        "txgnn_rank": 18235,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "alveolar echinococcosis",
+        "txgnn_score": 0.9630829095840454,
+        "txgnn_rank": 23444,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22947125",
+            "title": "In vitro efficacy of the anticancer drug imatinib on Echinococcus multilocularis larvae.",
+            "abstract": "The metacestode stage of Echinococcus multilocularis is the causative agent of alveolar echinococcosis (AE), a lethal zoonosis with very limited treatment options. Chemotherapy of AE currently employs benzimidazoles (BZs); however, these exert only a parasitostatic action in vivo and have to be given life-long. In the search for novel drug targets, we have concentrated on parasite signalling pathways. Here we report significant antiparasitic effects of imatinib, an ABL kinase inhibitor that is in clinical use to treat certain cancers. At concentrations of 25 μM, imatinib was highly effective in killing Echinococcus stem cells, metacestode vesicles and protoscoleces in vitro. Moreover, already at concentrations as low as 10 μM, imatinib significantly inhibited the formation of metacestode vesicles from parasite stem cells, inactivated 50% of vesicles after 7 days, and induced morphological alterations in the metacestode upon short-term treatment. We also demonstrate that E. multilocular",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2012",
+            "authors": [
+              "Hemer Sarah",
+              "Brehm Klaus"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anthelmintics",
+              "Benzamides",
+              "Echinococcus multilocularis",
+              "Helminth Proteins",
+              "Imatinib Mesylate",
+              "Larva",
+              "Molecular Sequence Data",
+              "Piperazines",
+              "Protein Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22947125/"
+          },
+          {
+            "pmid": "16940089",
+            "title": "In vitro activities of itraconazole, methiazole, and nitazoxanide versus Echinococcus multilocularis larvae.",
+            "abstract": "Albendazole (ABZ) and mebendazole are the only drugs licensed for treatment of human alveolar echinococcosis. In order to augment the armamentarium against this deadly disease, we tested a series of drugs for their efficacy against Echinococcus multilocularis larvae. E. multilocularis larvae grown intraperitoneally in Mongolian gerbils were transferred into tissue culture. Vesicles budded from the tissue blocks and after 6 weeks, drugs were added, and the effect on the vesicles was observed. We tested the following drugs at various concentrations: ABZ, artemether, caspofungin, itraconazole (ITZ), ivermectin, methiazole (MTZ), miltefosine, nitazoxanide (NTZ), rifampin, and trimethoprim-sulfamethoxazole. ABZ, ITZ, MTZ, and NTZ effectively destroyed parasite vesicles in this in vitro culture system. At high NTZ doses of 10 microg/ml, disintegration of all vesicles was observed after 7 days and was significantly more rapid than with ABZ at equal concentrations (21 days). After drug discont",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2006",
+            "authors": [
+              "Reuter Stefan",
+              "Manfras Burkhard",
+              "Merkle Marion",
+              "Härter Georg",
+              "Kern Peter"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiparasitic Agents",
+              "Benzimidazoles",
+              "Carbamates",
+              "Echinococcus multilocularis",
+              "Gerbillinae",
+              "Itraconazole",
+              "Larva",
+              "Nitro Compounds",
+              "Thiazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16940089/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute neonatal citrullinemia type I",
+        "txgnn_score": 0.9370057582855223,
+        "txgnn_rank": 29342,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adult-onset citrullinemia type I",
+        "txgnn_score": 0.9370057582855223,
+        "txgnn_rank": 29343,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malaria",
+        "txgnn_score": 0.933358073234558,
+        "txgnn_rank": 30038,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36609279",
+            "title": "Implementation research of a cluster randomized trial evaluating the implementation and effectiveness of intermittent preventive treatment for malaria using dihydroartemisinin-piperaquine on reducing malaria burden in school-aged children in Tanzania: methodology, challenges, and mitigation.",
+            "abstract": "It has been more than 20 years since the malaria epidemiologic shift to school-aged children was noted. In the meantime, school-aged children (5-15 years) have become increasingly more vulnerable with asymptomatic malaria prevalence reaching up to 70%, making them reservoirs for subsequent transmission of malaria in the endemic communities. Intermittent Preventive Treatment of malaria in schoolchildren (IPTsc) has proven to be an effective tool to shrink this reservoir. As of 3rd June 2022, the World Health Organization recommends IPTsc in moderate and high endemic areas. Even so, for decision-makers, the adoption of scientific research recommendations has been stifled by real-world implementation challenges. This study presents methodology, challenges faced, and mitigations used in the evaluation of the implementation of IPTsc using dihydroartemisinin-piperaquine (DP) in three councils (Handeni District Council (DC), Handeni Town Council (TC) and Kilindi DC) of Tanga Region, Tanzania ",
+            "journal": "Malaria journal",
+            "year": "2023",
+            "authors": [
+              "Makenga Geofrey",
+              "Seth Misago D",
+              "Baraka Vito",
+              "Mmbando Bruno P",
+              "Challe Daniel P"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child",
+              "Antimalarials",
+              "Tanzania",
+              "Malaria",
+              "Quinolines",
+              "Drug Combinations",
+              "Artemisinins",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36609279/"
+          },
+          {
+            "pmid": "38978151",
+            "title": "Pharmacokinetics of piperaquine and its association with intermittent malaria preventive therapy outcomes during pregnancy.",
+            "abstract": "Dihydroartemisinin-piperaquine (DHP) recently showed superior effectiveness over sulfadoxine-pyrimethamine for malaria intermittent preventive treatment in pregnancy (IPTp). We investigated day 7 piperaquine pharmacokinetics and its therapeutic efficacy in preventing malaria during pregnancy.",
+            "journal": "BMC pharmacology & toxicology",
+            "year": "2024",
+            "authors": [
+              "Mlugu Eulambius M",
+              "Minzi Omary M S",
+              "Johansson Mats",
+              "Kamuhabwa Appolinary A R",
+              "Aklillu Eleni"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Pregnancy",
+              "Quinolines",
+              "Antimalarials",
+              "Adult",
+              "Pregnancy Complications, Parasitic",
+              "Young Adult",
+              "Malaria",
+              "Artemisinins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38978151/"
+          },
+          {
+            "pmid": "27973923",
+            "title": "Prevention and control of malaria in pregnancy - new threats, new opportunities?",
+            "abstract": "Over 100 million women and their babies are at risk of malaria in pregnancy each year. Malaria prevention in pregnancy relies on long-lasting insecticidal nets (LLINs), and, in Africa, intermittent preventive treatment in pregnancy (IPTp). Increasing resistance of malaria parasites to sulfadoxine-pyrimethamine, the only drug endorsed for IPTp, and increasing mosquito resistance to pyrethroids used in LLINs, threaten the efficacy of these proven strategies, while operational challenges restrict their implementation in areas of great need. Areas Covered: This review summarizes strategies for malaria prevention in pregnancy (both currently used and those undergoing preclinical and clinical evaluation), primarily drawing on publications and study protocols from the last decade. Challenges associated with each strategy are discussed, including the particular problem of HIV and malaria in pregnancy, and areas of further research are highlighted. Expert Commentary: Alternative drugs for IPTp ",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2017",
+            "authors": [
+              "Rogerson Stephen J",
+              "Unger Holger W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Antimalarials",
+              "Artemisinins",
+              "Culicidae",
+              "Drug Combinations",
+              "Drug Resistance",
+              "Female",
+              "Humans",
+              "Insecticide-Treated Bednets"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27973923/"
+          },
+          {
+            "pmid": "34499116",
+            "title": "Dihydroartemisinin-Piperaquine Chemoprevention and Malaria Incidence After Severe Flooding: Evaluation of a Pragmatic Intervention in Rural Uganda.",
+            "abstract": "Malaria epidemics are a well-described phenomenon after extreme precipitation and flooding. Yet, few studies have examined mitigation measures to prevent post-flood malaria epidemics.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2022",
+            "authors": [
+              "Boyce Ross M",
+              "Hollingsworth Brandon D",
+              "Baguma Emma",
+              "Xu Erin",
+              "Goel Varun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Pragmatic Clinical Trial",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antimalarials",
+              "Artemisinins",
+              "Chemoprevention",
+              "Child",
+              "Floods",
+              "Humans",
+              "Incidence",
+              "Malaria",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34499116/"
+          },
+          {
+            "pmid": "33763871",
+            "title": "Malaria PK/PD and the Role Pharmacometrics Can Play in the Global Health Arena: Malaria Treatment Regimens for Vulnerable Populations.",
+            "abstract": "Malaria is an infectious disease which disproportionately effects children and pregnant women. These vulnerable populations are often excluded from clinical trials resulting in one-size-fits-all treatment regimens based on those established for a nonpregnant adult population. Pharmacokinetic/pharmacodynamic (PK/PD) models can be used to optimize dose selection as they define the drug exposure-response relationship. Additionally, these models are able to identify patient characteristics that cause alterations in the expected PK/PD profiles and through simulations can recommend changes to dosing which compensate for the differences. In this review, we examine how PK/PD models have been applied to optimize antimalarial dosing recommendations for young children, including those who are malnourished, pregnant women, and individuals receiving concomitant therapies such as those for HIV treatment. The malaria field has had great success in utilizing PK/PD models as a foundation to update trea",
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2021",
+            "authors": [
+              "Hughes Emma",
+              "Wallender Erika",
+              "Mohamed Ali Ali",
+              "Jagannathan Prasanna",
+              "Savic Radojka M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amodiaquine",
+              "Anti-HIV Agents",
+              "Antimalarials",
+              "Artemether, Lumefantrine Drug Combination",
+              "Artemisinins",
+              "Artesunate",
+              "Child, Preschool",
+              "Dose-Response Relationship, Drug",
+              "Drug Combinations",
+              "Drug Interactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33763871/"
+          },
+          {
+            "pmid": "34216212",
+            "title": "The Effect of Intermittent Preventive Treatment of Malaria During Pregnancy and Placental Malaria on Infant Risk of Malaria.",
+            "abstract": "Intermittent preventive treatment of malaria during pregnancy (IPTp) with dihydroartemisinin-piperaquine (DP) provides greater protection from placental malaria than sulfadoxine-pyrimethamine (SP). Some studies suggest placental malaria alters risk of malaria infection in infants, but few have quantified the effect of IPTp on infant susceptibility to malaria.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2022",
+            "authors": [
+              "Andronescu Liana R",
+              "Sharma Ankur",
+              "Peterson Ingrid",
+              "Kachingwe Martin",
+              "Kachepa Witness"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antimalarials",
+              "Artemisinins",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Infant",
+              "Malaria",
+              "Malawi",
+              "Parasitemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34216212/"
+          },
+          {
+            "pmid": "31050803",
+            "title": "A systematic review and meta-analysis of dihydroartemisinin-piperaquine versus sulphadoxine-pyrimethamine for malaria prevention in pregnancy.",
+            "abstract": "Intermittent preventive treatment (IPT) with sulphadoxine-pyrimethamine (SP) is recommended for preventing maternal and fetal effects of malaria in pregnancy. Increasing parasite resistance to SP has necessitated the search for an alternative medication.",
+            "journal": "International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics",
+            "year": "2019",
+            "authors": [
+              "Olaleye Atinuke",
+              "Okusanya Babasola O",
+              "Oduwole Olabisi",
+              "Esu Ekpereonne",
+              "Meremikwu Martin"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Pregnancy",
+              "Antimalarials",
+              "Artemisinins",
+              "Drug Combinations",
+              "Drug Therapy, Combination",
+              "Malaria",
+              "Parasitemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31050803/"
+          },
+          {
+            "pmid": "33272281",
+            "title": "Infant sex modifies associations between placental malaria and risk of malaria in infancy.",
+            "abstract": "Placental malaria (PM) has been associated with a higher risk of malaria during infancy. However, it is unclear whether this association is causal, and is modified by infant sex, and whether intermittent preventive treatment in pregnancy (IPTp) can reduce infant malaria by preventing PM.",
+            "journal": "Malaria journal",
+            "year": "2020",
+            "authors": [
+              "Kakuru Abel",
+              "Roh Michelle E",
+              "Kajubi Richard",
+              "Ochieng Teddy",
+              "Ategeka John"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antimalarials",
+              "Artemisinins",
+              "Drug Combinations",
+              "Female",
+              "Humans",
+              "Incidence",
+              "Infant",
+              "Infant, Newborn",
+              "Malaria, Falciparum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33272281/"
+          },
+          {
+            "pmid": "30304408",
+            "title": "Mass Drug Administration to Control and Eliminate Malaria in Africa: How Do We Best Utilize the Tools at Hand?",
+            "abstract": "",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2019",
+            "authors": [
+              "Guler Jennifer L",
+              "Rosenthal Philip J"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Africa",
+              "Artemisinins",
+              "Gambia",
+              "Humans",
+              "Malaria",
+              "Mass Drug Administration",
+              "Prospective Studies",
+              "Quinolines",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30304408/"
+          },
+          {
+            "pmid": "27865890",
+            "title": "Safety, tolerability, and efficacy of repeated doses of dihydroartemisinin-piperaquine for prevention and treatment of malaria: a systematic review and meta-analysis.",
+            "abstract": "Intermittent preventive treatment (IPT) for malaria is used in infants, children, adults, and pregnant women. Dihydroartemisinin-piperaquine (DP) is an effective, well tolerated artemisinin-based combination therapy. The long half-life of piperaquine makes it attractive for IPT. We conducted a systematic review and meta-analysis to establish the efficacy and safety of repeated treatment with DP.",
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2017",
+            "authors": [
+              "Gutman Julie",
+              "Kovacs Stephanie",
+              "Dorsey Grant",
+              "Stergachis Andy",
+              "Ter Kuile Feiko O"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antimalarials",
+              "Artemisinins",
+              "Drug Combinations",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Malaria",
+              "Pyrimethamine",
+              "Quinolines",
+              "Randomized Controlled Trials as Topic",
+              "Sulfadoxine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27865890/"
+          },
+          {
+            "pmid": "40468209",
+            "title": "The economic burden and catastrophic health expenditures among children with sickle cell anaemia on households in malaria-endemic areas: insights from Uganda and Malawi.",
+            "abstract": "Chronic diseases such as sickle cell anaemia (SCA) often lead to catastrophic health expenditures, especially in malaria-endemic regions. There is limited evidence on the economic burden faced by households with children suffering from SCA. This study aimed to assess the household economic burden of SCA and the incidence of catastrophic health expenditures in Uganda and Malawi.",
+            "journal": "BMC public health",
+            "year": "2025",
+            "authors": [
+              "Kamya Carol",
+              "Idro Richard",
+              "Kalibbala Dennis",
+              "Phiri Kamija S",
+              "Nkosi-Gondwe Thandile"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Uganda",
+              "Malawi",
+              "Child",
+              "Child, Preschool",
+              "Male",
+              "Female",
+              "Malaria",
+              "Adolescent",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40468209/"
+          },
+          {
+            "pmid": "31795967",
+            "title": "Piperaquine concentration and malaria treatment outcomes in Ugandan children treated for severe malaria with intravenous Artesunate or quinine plus Dihydroartemisinin-Piperaquine.",
+            "abstract": "Treatment for severe malaria must be prompt with effective parenteral antimalarial drugs for at least 24 h to achieve fast parasite clearance, and when the patient can tolerate oral therapy, treatment should be completed with effective artemisinin based combination therapy (ACT) for complete parasite clearance and to prevent recrudescence. We evaluated piperaquine concentration and malaria treatment outcomes among Ugandan children treated for severe malaria with intravenous artesunate (AS) or quinine (QN) plus dihydroartemisinin-piperaquine (DP), in Tororo District Hospital in Eastern Uganda.",
+            "journal": "BMC infectious diseases",
+            "year": "2019",
+            "authors": [
+              "Byakika-Kibwika Pauline",
+              "Ssenyonga Ronald",
+              "Lamorde Mohammed",
+              "Blessborn Daniel",
+              "Tarning Joel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Intravenous",
+              "Antimalarials",
+              "Artemisinins",
+              "Artesunate",
+              "Child, Preschool",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Infant",
+              "Malaria, Falciparum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31795967/"
+          },
+          {
+            "pmid": "38761871",
+            "title": "The effect of malaria-induced alteration of metabolism on piperaquine disposition in Plasmodium yoelii infected mice and predicted in malaria patients.",
+            "abstract": "Malaria-induced alteration of physiological parameters and pharmacokinetic properties of antimalarial drugs may be clinically relevant. Whether and how malaria alters the disposition of piperaquine (PQ) was investigated in this study.",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2024",
+            "authors": [
+              "Xie Yuewu",
+              "Zhang Yifan",
+              "Lin Feifei",
+              "Chen Xiaoyue",
+              "Xing Jie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Quinolines",
+              "Malaria",
+              "Plasmodium yoelii",
+              "Antimalarials",
+              "Humans",
+              "Mice",
+              "Disease Models, Animal",
+              "Female",
+              "Parasitemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38761871/"
+          },
+          {
+            "pmid": "21354139",
+            "title": "Aryl piperazine and pyrrolidine as antimalarial agents. Synthesis and investigation of structure-activity relationships.",
+            "abstract": "Piperazine and pyrrolidine derivatives were synthesised and evaluated for their capacity to inhibit the growth of Plasmodium falciparum chloroquine-resistant (FCR-3) strain in culture. The combined presence of a hydroxyl group, a propane chain and a fluor were shown to be crucial for the antiplasmodial activity. Five compounds of the aryl-alcohol series inhibited 50% of parasite growth at doses ≤10 μM. The most active compound 1-(4-fluoronaphthyl)-3-[4-(4-nitro-2-trifluoromethylphenyl)piperazin-1-yl] propan-1-ol was almost 20-40 times more active on P. falciparum (IC(50): 0.5 μM) than on tumorogenic and non-tumorogenic cells. In vivo it has a very weak effect; inhibiting 35% of parasite growth only, at 10 mg/kg/day against Plasmodium berghei infected mice without any impact on survival time. In silico molecular docking study and molecular electrostatic potential calculation revealed that this compound bound to the active site of Plasmodium plasmepsin II enzyme.",
+            "journal": "Experimental parasitology",
+            "year": "2011",
+            "authors": [
+              "Mendoza Adela",
+              "Pérez-Silanes Silvia",
+              "Quiliano Miguel",
+              "Pabón Adriana",
+              "Galiano Silvia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antimalarials",
+              "Cell Line, Tumor",
+              "Chlorocebus aethiops",
+              "Erythrocytes",
+              "Female",
+              "Humans",
+              "Macrophages, Peritoneal",
+              "Malaria",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21354139/"
+          },
+          {
+            "pmid": "35271592",
+            "title": "Therapeutic efficacy of artemether-lumefantrine, artesunate-amodiaquine and dihydroartemisinin-piperaquine in the treatment of uncomplicated Plasmodium falciparum malaria in Sub-Saharan Africa: A systematic review and meta-analysis.",
+            "abstract": "Sub-Saharan Africa has the highest burden of malaria in the world. Artemisinin-based combination therapies (ACTs) have been the cornerstone in the efforts to reduce the global burden of malaria. In the effort to facilitate early detection of resistance for artemisinin derivatives and partner drugs, WHO recommends monitoring of ACT's efficacy in the malaria endemic countries. The present systematic meta-analysis study summarises the evidence of therapeutic efficacy of the commonly used artemisinin-based combinations for the treatment of uncomplicated P. falciparum malaria in Sub-Saharan Africa after more than a decade since the introduction of the drugs.",
+            "journal": "PloS one",
+            "year": "2022",
+            "authors": [
+              "Marwa Karol",
+              "Kapesa Anthony",
+              "Baraka Vito",
+              "Konje Evelyne",
+              "Kidenya Benson"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Africa South of the Sahara",
+              "Amodiaquine",
+              "Antimalarials",
+              "Artemether",
+              "Artemether, Lumefantrine Drug Combination",
+              "Artemisinins",
+              "Artesunate",
+              "Drug Combinations",
+              "Ethanolamines",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35271592/"
+          },
+          {
+            "pmid": "27653565",
+            "title": "Antimalarial Activity of KAF156 in Falciparum and Vivax Malaria.",
+            "abstract": "KAF156 belongs to a new class of antimalarial agents (imidazolopiperazines), with activity against asexual and sexual blood stages and the preerythrocytic liver stages of malarial parasites.",
+            "journal": "The New England journal of medicine",
+            "year": "2016",
+            "authors": [
+              "White Nicholas J",
+              "Duong Tran T",
+              "Uthaisin Chirapong",
+              "Nosten François",
+              "Phyo Aung P"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Antimalarials",
+              "Female",
+              "Fever",
+              "Humans",
+              "Imidazoles",
+              "Malaria, Falciparum",
+              "Malaria, Vivax",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27653565/"
+          },
+          {
+            "pmid": "39418986",
+            "title": "Intermittent preventive treatment for malaria in pregnancy and infant growth: a mediation analysis of a randomised trial.",
+            "abstract": "Intermittent preventive treatment for malaria in pregnancy (IPTp) can improve birth outcomes, but whether it confers benefits to postnatal growth is unclear. We investigated the effect of IPTp on infant growth in Uganda and its pathways of effects using causal mediation analyses.",
+            "journal": "EBioMedicine",
+            "year": "2024",
+            "authors": [
+              "Tong Yanwei",
+              "Ratnasiri Kalani",
+              "Hanif Suhi",
+              "Nguyen Anna T",
+              "Roh Michelle E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pregnancy",
+              "Female",
+              "Antimalarials",
+              "Infant",
+              "Malaria",
+              "Pregnancy Complications, Parasitic",
+              "Infant, Newborn",
+              "Adult",
+              "Pyrimethamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39418986/"
+          },
+          {
+            "pmid": "32618250",
+            "title": "Recent Travel History and Plasmodium falciparum Malaria Infection in a Region of Heterogenous Transmission in Southern Province, Zambia.",
+            "abstract": "As Zambia continues to reduce its malaria incidence and target elimination in Southern Province, there is a need to identify factors that can reintroduce parasites and sustain malaria transmission. To examine the relative contributions of types of human mobility on malaria prevalence, this analysis quantifies the proportion of the population having recently traveled during both peak and nonpeak transmission seasons over the course of 2 years and assesses the relationship between short-term travel and malaria infection status. Among all residents targeted by mass drug administration in the Lake Kariba region of Southern Province, 602,620 rapid diagnostic tests and recent travel histories were collected during four campaign rounds occurring between December 2014 and February 2016. Rates of short-term travel in the previous 2 weeks fluctuated seasonally from 0.3% to 1.2%. Travel was significantly associated with prevalent malaria infection both seasonally and overall (adjusted odds ratio ",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "2020",
+            "authors": [
+              "Porter Travis R",
+              "Finn Timothy P",
+              "Silumbe Kafula",
+              "Chalwe Victor",
+              "Hamainza Busiku"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antimalarials",
+              "Artemisinins",
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Family Characteristics",
+              "Female",
+              "Humans",
+              "Malaria, Falciparum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32618250/"
+          },
+          {
+            "pmid": "28614292",
+            "title": "Patience for patients.",
+            "abstract": "",
+            "journal": "Nature",
+            "year": "2017",
+            "authors": [
+              "Savage Neil"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Altruism",
+              "Drug Approval",
+              "Drug Discovery",
+              "Drug Industry",
+              "Female",
+              "HIV Infections",
+              "Hope",
+              "Humans",
+              "Malaria",
+              "Malaria Vaccines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28614292/"
+          },
+          {
+            "pmid": "28332319",
+            "title": "Piperazine-linked 4-aminoquinoline-chalcone/ferrocenyl-chalcone conjugates: Synthesis and antiplasmodial evaluation.",
+            "abstract": "A series of piperazine-linked 4-aminoquinoline-chalcone/ferrocenyl-chalcone conjugates were prepared with a view to evaluate their activities against Plasmodium falciparum. The synthesized conjugates had in vitro IC50 values from 0.41 to 2.38 μm against chloroquine-resistant and mefloquine-sensitive W2 strain of P. falciparum. The submicromolar activities of most of the synthesized conjugates suggest that such molecular frameworks can act as therapeutic templates for the design and synthesis of new antimalarials.",
+            "journal": "Chemical biology & drug design",
+            "year": "2017",
+            "authors": [
+              "Singh Amandeep",
+              "Rani Anu",
+              "Gut Jiri",
+              "Rosenthal Philip J",
+              "Kumar Vipan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminoquinolines",
+              "Antimalarials",
+              "Chalcone",
+              "Chloroquine",
+              "Drug Resistance",
+              "Ferrous Compounds",
+              "HeLa Cells",
+              "Humans",
+              "Malaria, Falciparum",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28332319/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Smouldering systemic mastocytosis",
+        "txgnn_score": 0.931587278842926,
+        "txgnn_rank": 30337,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37309222",
+            "title": "Systemic mastocytosis in adults: 2023 update on diagnosis, risk stratification and management.",
+            "abstract": "Systemic mastocytosis (SM) results from clonal proliferation of mast cells (MC) in extracutaneous organs.",
+            "journal": "American journal of hematology",
+            "year": "2023",
+            "authors": [
+              "Pardanani Animesh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Mastocytosis, Systemic",
+              "Imatinib Mesylate",
+              "Mast Cells",
+              "Leukemia, Mast-Cell",
+              "Risk Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37309222/"
+          },
+          {
+            "pmid": "20553795",
+            "title": "In vitro and in vivo growth-inhibitory effects of cladribine on neoplastic mast cells exhibiting the imatinib-resistant KIT mutation D816V.",
+            "abstract": "In most patients with systemic mastocytosis (SM), including aggressive SM (ASM) and mast cell (MC) leukemia (MCL), neoplastic cells express the oncogenic KIT mutation D816V, which confers resistance to imatinib. Cladribine (2CdA) is a nucleoside analog that has been introduced as a promising agent for treatment of advanced SM.",
+            "journal": "Experimental hematology",
+            "year": "2010",
+            "authors": [
+              "Böhm Alexandra",
+              "Sonneck Karoline",
+              "Gleixner Karoline V",
+              "Schuch Karina",
+              "Pickl Winfried F"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Amino Acid Substitution",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Benzamides",
+              "Caspases",
+              "Cell Line, Tumor",
+              "Cladribine",
+              "Drug Resistance, Neoplasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20553795/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+        "txgnn_score": 0.9212200045585632,
+        "txgnn_rank": 32100,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urea cycle disorder",
+        "txgnn_score": 0.9161621928215028,
+        "txgnn_rank": 32929,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34146540",
+            "title": "CXCR2, a novel target to overcome tyrosine kinase inhibitor resistance in chronic myelogenous leukemia cells.",
+            "abstract": "Chronic myeloid leukemia (CML) is a reciprocal translocation disorder driven by a breakpoint cluster region (BCR)-Abelson leukemia virus (ABL) fusion gene that stimulates abnormal tyrosine kinase activity. Tyrosine kinase inhibitors (TKIs) are effective in treating Philadelphia chromosome (Ph) + CML patients. However, the appearance of TKI-resistant CML cells is a hurdle in CML treatment. Therefore, it is necessary to identify novel alternative treatments targeting tyrosine kinases. This study was designed to determine whether C-X-C chemokine receptor 2 (CXCR2) could be a novel target for TKI-resistant CML treatment. Interleukin 8 (IL-8), a CXCR2 ligand, was significantly increased in the bone marrow serum of initially diagnosed CML patients and TKI-resistant CML cell conditioned media. CXCR2 antagonists suppressed the proliferation of CML cells via cell cycle arrest in the G2/M phase. CXCR2 inhibition also attenuated mTOR, c-Myc, and BCR-ABL expression, leading to CML cell apoptosis, ",
+            "journal": "Biochemical pharmacology",
+            "year": "2021",
+            "authors": [
+              "Kim Ji-Hea",
+              "Lee Seung-Jin",
+              "Kang Ka-Won",
+              "Lee Byung-Hyun",
+              "Park Yong"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Drug Delivery Systems",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34146540/"
+          },
+          {
+            "pmid": "15421822",
+            "title": "Nutritional melalgia, a deficiency vascular disease.",
+            "abstract": "",
+            "journal": "Journal of the American Medical Association",
+            "year": "1950",
+            "authors": [
+              "VERNON S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carbamoyl-Phosphate Synthase I Deficiency Disease",
+              "Cardiovascular System",
+              "Deficiency Diseases",
+              "Diethylcarbamazine",
+              "Folic Acid",
+              "Vascular Diseases",
+              "Vitamin B Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15421822/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "systemic mastocytosis",
+        "txgnn_score": 0.912649929523468,
+        "txgnn_rank": 33390,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37309222",
+            "title": "Systemic mastocytosis in adults: 2023 update on diagnosis, risk stratification and management.",
+            "abstract": "Systemic mastocytosis (SM) results from clonal proliferation of mast cells (MC) in extracutaneous organs.",
+            "journal": "American journal of hematology",
+            "year": "2023",
+            "authors": [
+              "Pardanani Animesh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Mastocytosis, Systemic",
+              "Imatinib Mesylate",
+              "Mast Cells",
+              "Leukemia, Mast-Cell",
+              "Risk Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37309222/"
+          },
+          {
+            "pmid": "40471046",
+            "title": "New treatments for systemic mastocytosis in 2025.",
+            "abstract": "To provide an accessible, comprehensive overview of past, present, imminent, and future therapies for systemic mastocytosis.",
+            "journal": "Current opinion in allergy and clinical immunology",
+            "year": "2025",
+            "authors": [
+              "Costanzo Giovanni",
+              "Marzio Valentina",
+              "Cavaglià Edoardo",
+              "Paoletti Giovanni",
+              "Heffler Enrico"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mastocytosis, Systemic",
+              "Staurosporine",
+              "Protein Kinase Inhibitors",
+              "Proto-Oncogene Proteins c-kit",
+              "Pyrazoles",
+              "Animals",
+              "Pyrroles",
+              "Imatinib Mesylate",
+              "Clinical Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40471046/"
+          },
+          {
+            "pmid": "15988348",
+            "title": "[Systemic mastocytosis].",
+            "abstract": "Systemic mastocytosis is characterized by abnormal mast cell proliferation in different organs. The 2001 consensus classification distinguishes in separate categories indolent systemic mastocytosis, systemic mastocytosis with concomitant blood disease, aggressive systemic mastocytosis and mast cell leukemia. Clinical manifestations are caused by tissue infiltration by proliferating mastocytes and by release of mediators. The principal organs affected are the skin, bones, digestive tract, liver, spleen and lymph nodes. Diagnosis of mastocytosis is based on appropriate stains (Giemsa, toluidine blue) and immunophenotype features (tryptase, CD117, also known as c-KIT and stem cell factor receptor). Serum tryptase levels reflect the total mast cell burden. Treatment must prevent release of mast cell mediators (histamine antagonists, cromolyn sodium, corticosteroids, or leukotriene-receptor inhibitors), limit bone involvement (bisphosphonates) and reduce the number of circulating mast cells",
+            "journal": "Presse medicale (Paris, France : 1983)",
+            "year": "2005",
+            "authors": [
+              "Fain O",
+              "Stirnemann J",
+              "Eclache V",
+              "Barete S",
+              "Casassus P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzamides",
+              "Biomarkers",
+              "Bone and Bones",
+              "Cell Differentiation",
+              "Cell Division",
+              "Cladribine",
+              "Diphosphonates",
+              "Flushing",
+              "Histamine H1 Antagonists",
+              "Histamine Release"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15988348/"
+          },
+          {
+            "pmid": "36485158",
+            "title": "Available and emerging therapies for bona fide advanced systemic mastocytosis and primary eosinophilic neoplasms.",
+            "abstract": "The historically poor prognosis of patients with advanced systemic mastocytosis (AdvSM) and primary eosinophilic neoplasms has shifted to increasingly favorable outcomes with the discovery of druggable targets. The multikinase/KIT inhibitor midostaurin and the highly selective KIT D816V inhibitor avapritinib can elicit marked improvements in measures of mast cell (MC) burden as well as reversion of MC-mediated organ damage (C-findings) and disease symptoms. With avapritinib, the achievement of molecular remission of KIT D816V and improved survival compared with historical therapy suggests a potential to affect disease natural history. BLU-263 and bezuclastinib are KIT D816V inhibitors currently being tested in trials of AdvSM. In the new World Health Organization and International Consensus Classifications, the category of \"myeloid/lymphoid neoplasms with eosinophilia and tyrosine kinase (TK) gene fusions\" is inclusive of rearrangements involving PDGFRA, PDGFRB, FGFR1, JAK2, FLT3, and ",
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2022",
+            "authors": [
+              "Gotlib Jason"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Mastocytosis, Systemic",
+              "Protein Kinase Inhibitors",
+              "Myeloproliferative Disorders",
+              "Imatinib Mesylate",
+              "Eosinophilia",
+              "Proto-Oncogene Proteins c-kit",
+              "Mastocytosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36485158/"
+          },
+          {
+            "pmid": "25688753",
+            "title": "Systemic mastocytosis in adults: 2015 update on diagnosis, risk stratification, and management.",
+            "abstract": "Systemic mastocytosis (SM) results from a clonal proliferation of abnormal mast cells (MC) in one or more extracutaneous organs.",
+            "journal": "American journal of hematology",
+            "year": "2015",
+            "authors": [
+              "Pardanani Animesh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Bone Marrow",
+              "Cell Proliferation",
+              "Cladribine",
+              "Disease Management",
+              "Humans",
+              "Imatinib Mesylate",
+              "Interferon-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25688753/"
+          },
+          {
+            "pmid": "32578014",
+            "title": "Ripretinib: First Approval.",
+            "abstract": "Ripretinib (QINLOCK™) is a novel type II tyrosine switch control inhibitor being developed by Deciphera Pharmaceuticals for the treatment of KIT proto-oncogene receptor tyrosine kinase (KIT)-driven and/or platelet derived growth factor receptor A (PDGFRA)-driven cancers, including gastrointestinal stromal tumour (GIST). Ripretinib inhibits KIT and PDGFRA kinase, including wild-type, primary and secondary mutations, as well as other kinases, such as PDGFRB, TIE2, VEGFR2 and BRAF. In May 2020, oral ripretinib received its first approval in the USA for the treatment of adult patients with advanced GIST who have received prior treatment with ≥ 3 kinase inhibitors, including imatinib. The US FDA, Health Canada and the Australian Therapeutic Goods Administration collaborated on the review of the ripretinib new drug application in this indication as part of Project Orbis; regulatory review in Australia and Canada is ongoing. Clinical development for GIST, solid tumours and systemic mastocytos",
+            "journal": "Drugs",
+            "year": "2020",
+            "authors": [
+              "Dhillon Sohita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Drug Approval",
+              "Gastrointestinal Neoplasms",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Imatinib Mesylate",
+              "Protein Kinase Inhibitors",
+              "Proto-Oncogene Mas",
+              "Receptor, Platelet-Derived Growth Factor alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32578014/"
+          },
+          {
+            "pmid": "23720340",
+            "title": "Systemic mastocytosis in adults: 2013 update on diagnosis, risk stratification, and management.",
+            "abstract": "Systemic mastocytosis (SM) results from a clonal proliferation of abnormal mast cells (MC) in one or more extracutaneous organs.",
+            "journal": "American journal of hematology",
+            "year": "2013",
+            "authors": [
+              "Pardanani Animesh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Adult",
+              "Benzamides",
+              "Bone Marrow",
+              "CD2 Antigens",
+              "Cladribine",
+              "Disease Progression",
+              "Humans",
+              "Imatinib Mesylate",
+              "Interferon-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23720340/"
+          },
+          {
+            "pmid": "17099633",
+            "title": "Systemic mastocytosis: current classification and novel therapeutic options.",
+            "abstract": "Systemic mast cell disease is characterized by dysregulated mast cell growth and survival, with infiltration into multiple organs and release of systemic mediators. Much has been learned about mast cell biology over the past 20 years, and it has become apparent that activating mutations in the c-KIT receptor tyrosine kinase underlie the aberrant cell signaling and mast cell growth in a majority of patients. Despite this knowledge, targeted therapy with imatinib has been largely unsuccessful due to resistance of the common c-KIT D816V (Asp-->Val) mutation. Novel strategies designed to inhibit the growth of mast cells containing the c-KIT D816V mutations have shown success in vitro and may provide effective targeted therapy for this treatment-refractory disease.",
+            "journal": "Clinical advances in hematology & oncology : H&O",
+            "year": "2006",
+            "authors": [
+              "Barbie David A",
+              "Deangelo Daniel J"
+            ],
+            "pub_types": [
+              "Historical Article",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzamides",
+              "Drug Design",
+              "Enzyme Activation",
+              "History, 20th Century",
+              "History, 21st Century",
+              "Humans",
+              "Imatinib Mesylate",
+              "Mast Cells",
+              "Mastocytosis, Systemic",
+              "Mutation, Missense"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17099633/"
+          },
+          {
+            "pmid": "15307112",
+            "title": "Relationship between idiopathic hypereosinophilic syndrome, eosinophilic leukemia, and systemic mastocytosis.",
+            "abstract": "Chronic eosinophilic leukemia is a neoplastic condition with persistent eosinophilia as the major hematological abnormality and with the eosinophils being part of the neoplastic clone. Some cases can be recognized by traditional hematological criteria, but many can be recognized only when a clonal cytogenetic or molecular genetic abnormality is demonstrated. A range of cytogenetic and molecular genetic abnormalities has been recognized, including both those seen in other myeloid malignancies (such as trisomy 8, monosomy 7, and 20q-) and those that are particularly linked to eosinophil differentiation (such as rearrangements of PDGFRB, FGFR1, and PDGFRA, the latter with formation of a FIP1L1-PDGFRA fusion gene). The discovery of the FIP1L1-PDGFRA fusion gene has led to the recognition that many patients who would previously have been regarded as having idiopathic hypereosinophilia actually have chronic eosinophilic leukemia. The same fusion gene has also been found in patients with hype",
+            "journal": "American journal of hematology",
+            "year": "2004",
+            "authors": [
+              "Bain Barbara J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzamides",
+              "Cytogenetic Analysis",
+              "Diagnosis, Differential",
+              "Humans",
+              "Hypereosinophilic Syndrome",
+              "Imatinib Mesylate",
+              "Mastocytosis, Systemic",
+              "Oncogene Proteins, Fusion",
+              "Piperazines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15307112/"
+          },
+          {
+            "pmid": "15995324",
+            "title": "Systemic mastocytosis: bone marrow pathology, classification, and current therapies.",
+            "abstract": "Mast cell disease (MCD) is characterized by the abnormal growth and accumulation of neoplastic mast cells (MC) in one or more organs. The diagnosis of systemic MCD is most commonly established by a thorough histological and immunohistochemical examination of a bone marrow (BM) trephine specimen. In cases with pathognomonic perivascular and -trabecular aggregates of morphologically atypical MC and significant BM involvement, the diagnosis may be relatively straightforward. In contrast, when a sparse, loose pattern of MC infiltration predominates, or when MCs are obscured by an associated non-MC hematological neoplasm, a high index of suspicion and use of adjunctive tests, including special stains, such as tryptase and CD25, may be necessary to reach a diagnosis. The updated classification for MCD clarifies the clinical and pathological criteria for categorizing patients into relatively discrete subgroups. Some cases, however, such those with Fip1-like-1-platelet-derived growth factor re",
+            "journal": "Acta haematologica",
+            "year": "2005",
+            "authors": [
+              "Pardanani A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Bone Marrow",
+              "Humans",
+              "Imatinib Mesylate",
+              "Interferon-alpha",
+              "Mastocytosis, Systemic",
+              "Oncogene Proteins, Fusion",
+              "Piperazines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15995324/"
+          },
+          {
+            "pmid": "2370766",
+            "title": "[Systemic mastocytosis].",
+            "abstract": "",
+            "journal": "Klinicheskaia meditsina",
+            "year": "1990",
+            "authors": [
+              "Kasimov N K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Mastocytosis",
+              "Middle Aged",
+              "Prognosis",
+              "Prospidium",
+              "Quinuclidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2370766/"
+          },
+          {
+            "pmid": "15731964",
+            "title": "[Systemic mastocytosis].",
+            "abstract": "",
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2005",
+            "authors": [
+              "Sökler Martin",
+              "Kanz Lothar"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Benzamides",
+              "Cladribine",
+              "Humans",
+              "Imatinib Mesylate",
+              "Immunosuppressive Agents",
+              "Interferon-alpha",
+              "Male",
+              "Mastocytosis, Systemic",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15731964/"
+          },
+          {
+            "pmid": "17110460",
+            "title": "Identification of MCL1 as a novel target in neoplastic mast cells in systemic mastocytosis: inhibition of mast cell survival by MCL1 antisense oligonucleotides and synergism with PKC412.",
+            "abstract": "MCL-1 is a Bcl-2 family member that has been described as antiapoptotic in various myeloid neoplasms. Therefore, MCL-1 has been suggested as a potential new therapeutic target. Systemic mastocytosis (SM) is a myeloid neoplasm involving mast cells (MCs) and their progenitors. In the present study, we examined the expression and functional role of MCL-1 in neoplastic MCs and sought to determine whether MCL-1 could serve as a target in SM. As assessed by RT-PCR and immunohistochemical examination, primary neoplastic MCs expressed MCL-1 mRNA and the MCL-1 protein in all SM patients examined. Moreover, MCL-1 was detectable in both subclones of the MC line HMC-1--HMC-1.1 cells, which lack the SM-related KIT mutation D816V, and HMC-1.2 cells, which carry KIT D816V. Exposure of HMC-1.1 cells or HMC-1.2 cells to MCL-1-specific antisense oligonucleotides (ASOs) or MCL-1-specific siRNA resulted in reduced survival and increased apoptosis compared with untreated cells. Moreover, MCL-1 ASOs were fo",
+            "journal": "Blood",
+            "year": "2007",
+            "authors": [
+              "Aichberger Karl J",
+              "Mayerhofer Matthias",
+              "Gleixner Karoline V",
+              "Krauth Maria-Theresa",
+              "Gruze Alexander"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Base Sequence",
+              "Benzamides",
+              "Cell Line",
+              "DNA Primers",
+              "Drug Synergism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17110460/"
+          },
+          {
+            "pmid": "31381378",
+            "title": "An evaluation of masitinib for treating systemic mastocytosis.",
+            "abstract": "Introduction: Systemic Mastocytosis (SM) is a complex family of rare diseases, against which pharmacological therapies are still very few. It is a c-kit driven disease, whose disregulation leads to uncontrolled activation and proliferation of mast cells (MCs) with consequent release of effector molecules which are responsible for its clinical manifestations. Areas covered: Masitinib is a relatively new potential drug against SM and its chemical structure strictly derives from imatinib, the first tyrosine kinase inhibitor which entered the pharmaceutical market about 15 years ago. In this review, the authors present masitinib in all its properties, from chemistry to pharmacology and toxicity to its potential clinical application in SM, focusing the discussion on the few clinical trials in which it has been involved, with a particular attention on the still open challenge to determine how to measure the response to therapy. Expert opinion: In spite of their similarity in chemistry and bi",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2019",
+            "authors": [
+              "Laforgia Mariarita",
+              "Marech Ilaria",
+              "Nardulli Patrizia",
+              "Calabrò Concetta",
+              "Gadaleta Cosimo Damiano"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Benzamides",
+              "Humans",
+              "Imatinib Mesylate",
+              "Mast Cells",
+              "Mastocytosis, Systemic",
+              "Piperidines",
+              "Protein Kinase Inhibitors",
+              "Proto-Oncogene Proteins c-kit",
+              "Pyridines",
+              "Thiazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31381378/"
+          },
+          {
+            "pmid": "38640058",
+            "title": "Papular-purpuric \"gloves and socks\" syndrome in systemic mastocytosis treated with imatinib: a diagnostic challenge.",
+            "abstract": "",
+            "journal": "Polish archives of internal medicine",
+            "year": "2024",
+            "authors": [
+              "Jaworek Andrzej K",
+              "Sacha Tomasz",
+              "Woźniak-Knop Martyna",
+              "Hałubiec Przemysław",
+              "Giza Agnieszka"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Middle Aged",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Imatinib Mesylate",
+              "Mastocytosis, Systemic",
+              "Piperazines",
+              "Pyrimidines",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38640058/"
+          },
+          {
+            "pmid": "21442641",
+            "title": "Systemic mastocytosis in adults: 2011 update on diagnosis, risk stratification, and management.",
+            "abstract": "Systemic mastocytosis (SM) results from a clonal proliferation of abnormal mast cells (MC) in one or more extracutaneous organs.",
+            "journal": "American journal of hematology",
+            "year": "2011",
+            "authors": [
+              "Pardanani Animesh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Bone Marrow",
+              "Cladribine",
+              "Dasatinib",
+              "Disease-Free Survival",
+              "Humans",
+              "Hydroxyurea",
+              "Imatinib Mesylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21442641/"
+          },
+          {
+            "pmid": "14676628",
+            "title": "Clinical, genetic, and therapeutic insights into systemic mast cell disease.",
+            "abstract": "Mast cell disease is markedly heterogeneous in its underlying molecular pathogenesis, clinical presentation, natural history, and specific treatment. Skin-only disease (cutaneous mastocytosis) is infrequent in adults and systemic mastocytosis may be broadly classified as an indolent or aggressive variant based on the absence or presence of impaired organ function. Urticaria pigmentosa and mast cell mediator release symptoms can occur in all categories of mast cell disease and may not be prognostically detrimental. The purpose of this review is to summarize current concepts and recent advances in the pathogenesis and treatment of adult mast cell disease.",
+            "journal": "Current opinion in hematology",
+            "year": "2004",
+            "authors": [
+              "Tefferi Ayalew",
+              "Pardanani Animesh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Benzamides",
+              "Cladribine",
+              "Humans",
+              "Imatinib Mesylate",
+              "Mast Cells",
+              "Mastocytosis",
+              "Mastocytosis, Systemic",
+              "Oncogene Proteins, Fusion",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14676628/"
+          },
+          {
+            "pmid": "12951180",
+            "title": "[Treatment of systemic mastocytosis].",
+            "abstract": "Systemic mastocytosis is a rare disease, characterized by mast cells proliferation in various organs. Two types of clinical manifestations can be distinguished: those related to mast cells mediators release and those related to tumoral proliferation involving different organs, these later defining aggressive systemic mastocytosis. Until recently, treatment was mainly symptomatic, without anti tumoral effect.",
+            "journal": "La Revue de medecine interne",
+            "year": "2003",
+            "authors": [
+              "Marrache F",
+              "Mémain N",
+              "Bonté I",
+              "Barete S",
+              "Casassus P"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Cladribine",
+              "Cytarabine",
+              "Diphosphonates",
+              "Enzyme Inhibitors",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Imatinib Mesylate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12951180/"
+          },
+          {
+            "pmid": "16631942",
+            "title": "Recurrent syncope and anaphylaxis as presentation of systemic mastocytosis in a pediatric patient: case report and literature review.",
+            "abstract": "Mastocytosis refers to a rare collection of disorders, both cutaneous and systemic, that are characterized by increased numbers of mast cells. Depending on the extent of the disease, these disorders may present with symptoms resulting from mast cell degranulation including flushing, diarrhea, vomiting, cramping, syncope, or anaphylaxis. In pediatric patients, cutaneous involvement is most prevalent in the form of urticaria pigmentosa, which is typically asymptomatic or minimally so with resolution by adolescence. In this case report and review of literature, we review a case of a 3-year-old child with uritcaria pigmentosa displaying recurrent syncope and anaphylaxis as the first presentation of systemic mastocytosis. We found data to be limited on this topic, and concluded that pediatric patients with prior diagnoses of cutaneous mastocytosis could benefit from either more aggressive screening for systemic disease or prophylactic treatment with antihistamines and rescue subcutaneous ep",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2006",
+            "authors": [
+              "Shaffer Holly C",
+              "Parsons Daniel J",
+              "Peden David B",
+              "Morrell Dean"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anaphylaxis",
+              "Cetirizine",
+              "Child, Preschool",
+              "Histamine H1 Antagonists, Non-Sedating",
+              "Histamine H2 Antagonists",
+              "Humans",
+              "Male",
+              "Mastocytosis, Systemic",
+              "Ranitidine",
+              "Recurrence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16631942/"
+          },
+          {
+            "pmid": "6101289",
+            "title": "Treatment of systemic mastocytosis.",
+            "abstract": "",
+            "journal": "The New England journal of medicine",
+            "year": "1980",
+            "authors": [
+              "Simon R A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Cimetidine",
+              "Cromolyn Sodium",
+              "Cyproheptadine",
+              "Drug Therapy, Combination",
+              "Guanidines",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hydroxyzine",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6101289/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cystic echinococcosis",
+        "txgnn_score": 0.8932999968528748,
+        "txgnn_rank": 35472,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "21797064",
+            "title": "[Immunorehabilitation in patients with paecilomycosis-complicated echinococcosis and asthma].",
+            "abstract": "Paecilomycosis is a new type of systemic mycosis caused by different species of fungi of the genus Paecilomyces. Paecilomycosis-complicated echinococcosis and asthma run a severe course. A complication of mycosis is accompanied by secondary immunodeficiency. A good result was obtained in the treatment of ill children by using the fungicide diflucan and the immunomodulator polyoxidonium. In the examinees with paecilomycosis-complicated echinococcosis, secondary immunodeficiency was characterized by a statistical significant reduction in the blood levels of the lymphoid cells CD3+, CD4+, CD8+, CD16+, CD21+, by phagocytosis, a decrease in its quantitative parameters, and an increase in the counts of immunoglobulins and circulating immunocomplexes. To normalize the immune status in patients with paecilomycosis-complicated echinococcosis, it is expedient to postsurgicallyuse fungicides, such as nizoral, diflucan, orungal, mycosyst, and the immunomodulators polyoxidonium and irillen.",
+            "journal": "Meditsinskaia parazitologiia i parazitarnye bolezni",
+            "year": "2011",
+            "authors": [
+              "Streliaeva A V",
+              "Polzikov V V",
+              "Shcheglova T A",
+              "Gasparian É R",
+              "Prokina E S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Asthma",
+              "Echinococcosis",
+              "Fluconazole",
+              "Humans",
+              "Immunologic Factors",
+              "Itraconazole",
+              "Ketoconazole",
+              "Mycoses",
+              "Paecilomyces"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21797064/"
+          },
+          {
+            "pmid": "7955777",
+            "title": "Clinical pharmacokinetics in the treatment of tropical diseases. Some applications and limitations.",
+            "abstract": "In recent years major advances have been made in the clinical pharmacology of many drugs used for the treatment of tropical diseases, particularly in the design and development of dosage regimens for the treatment of severe malaria. For example, by careful manipulation of its rate of administration, chloroquine has been shown to be well tolerated when used for treatment of severe disease caused by susceptible parasites. Similarly, important advances have been made in the rational design of quinine dosage regimens for patients in South East Asia and Africa. Investigation of the pharmacokinetics of mefloquine has drawn attention to the problems associated with its administration as combination therapy with pyrimethamine and sulfadoxine in Thailand. Similarly, evaluation of the pharmacokinetic properties of halofantrine has led to the demonstration that poor and erratic absorption could be just as likely to explain therapeutic failure as resistance of the parasite to effects of this drug.",
+            "journal": "Clinical pharmacokinetics",
+            "year": "1994",
+            "authors": [
+              "Edwards G",
+              "Winstanley P A",
+              "Ward S A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chloroquine",
+              "Diethylcarbamazine",
+              "Drug Resistance",
+              "Echinococcosis",
+              "Filariasis",
+              "Humans",
+              "Malaria",
+              "Mefloquine",
+              "Pharmacokinetics",
+              "Phenanthrenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7955777/"
+          },
+          {
+            "pmid": "29630082",
+            "title": "Pulmonary Hydatid Disease with Aspergillosis - An Unusual Association in an Immunocompetent Host.",
+            "abstract": "Echinococcosis is a common cause of pulmonary cavities. Aspergillus fumigatus, a saprophytic fungus, can colonise pulmonary cavities caused by tuberculosis, sarcoidosis, echinococcosis, bronchiectasis and neoplasms. Infection by Aspergillus is often seen in immunosuppressed cases. However, co-infection of Aspergillus with pulmonary echinococcosis is unexpected and very unusual, especially in an immunocompetent patient. We present the case of a 45-year-old immunocompetent male who came with non-resolving pneumonia and fever for 8 months and dyspnoea since 15 days accompanied by recurrent episodes of hemoptysis since 5 days. Chest X Ray and Computed Tomography scan showed a cystic lesion in the middle lobe of the right lung. Middle lobectomy with video-assisted thoracoscopic surgery was performed and histopathology revealed ectocyst of Hydatid cyst which was also colonised by septate fungal hyphae exhibiting acute angled branching, morphologically consistent with Aspergillus. Gomori Meth",
+            "journal": "Turk patoloji dergisi",
+            "year": "2019",
+            "authors": [
+              "Goyal Rahul Chanderhas",
+              "Tyagi Ruchita",
+              "Garg Bhavna",
+              "Mishra Atul",
+              "Sood Neena"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Albendazole",
+              "Anticestodal Agents",
+              "Antifungal Agents",
+              "Echinococcosis, Pulmonary",
+              "Humans",
+              "Immunocompetence",
+              "Itraconazole",
+              "Lung",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29630082/"
+          },
+          {
+            "pmid": "15269042",
+            "title": "Effect of different pharmacologic and chemical agents on the integrity of hydatid cyst membranes.",
+            "abstract": "We performed an in vitro investigation of the effects of widely used scolicidal and sclerosing agents, as well as some pharmacologic products, on the integrity of the membrane of hydatid cysts.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2004",
+            "authors": [
+              "Karaoglanoglu Mustafa",
+              "Akinci Omer Faruk",
+              "Bozkurt Sedat",
+              "Deniz Seyhmus",
+              "Karatas Gülhiz"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Infective Agents, Local",
+              "Antiprotozoal Agents",
+              "Cysts",
+              "Echinococcosis",
+              "In Vitro Techniques",
+              "Sodium Hypochlorite"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15269042/"
+          },
+          {
+            "pmid": "24822340",
+            "title": "[Effect of different drugs on Echinococcus multilocularis metacestodes in vitro ].",
+            "abstract": "To test the effect of 6 drugs or combination on the in vitro cultured Echinococcus multilocularis (Em) metacestodes.",
+            "journal": "Zhongguo ji sheng chong xue yu ji sheng chong bing za zhi = Chinese journal of parasitology & parasitic diseases",
+            "year": "2011",
+            "authors": [
+              "Mai Hepiretihan-Ai Erken",
+              "Wang Yun-Haix",
+              "Zhao Jin-Ming",
+              "Bai Lei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Albendazole",
+              "Animals",
+              "Anticestodal Agents",
+              "Drug Therapy, Combination",
+              "Echinococcosis",
+              "Echinococcus multilocularis",
+              "Female",
+              "Gerbillinae",
+              "Hep G2 Cells",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24822340/"
+          },
+          {
+            "pmid": "16940089",
+            "title": "In vitro activities of itraconazole, methiazole, and nitazoxanide versus Echinococcus multilocularis larvae.",
+            "abstract": "Albendazole (ABZ) and mebendazole are the only drugs licensed for treatment of human alveolar echinococcosis. In order to augment the armamentarium against this deadly disease, we tested a series of drugs for their efficacy against Echinococcus multilocularis larvae. E. multilocularis larvae grown intraperitoneally in Mongolian gerbils were transferred into tissue culture. Vesicles budded from the tissue blocks and after 6 weeks, drugs were added, and the effect on the vesicles was observed. We tested the following drugs at various concentrations: ABZ, artemether, caspofungin, itraconazole (ITZ), ivermectin, methiazole (MTZ), miltefosine, nitazoxanide (NTZ), rifampin, and trimethoprim-sulfamethoxazole. ABZ, ITZ, MTZ, and NTZ effectively destroyed parasite vesicles in this in vitro culture system. At high NTZ doses of 10 microg/ml, disintegration of all vesicles was observed after 7 days and was significantly more rapid than with ABZ at equal concentrations (21 days). After drug discont",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2006",
+            "authors": [
+              "Reuter Stefan",
+              "Manfras Burkhard",
+              "Merkle Marion",
+              "Härter Georg",
+              "Kern Peter"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiparasitic Agents",
+              "Benzimidazoles",
+              "Carbamates",
+              "Echinococcus multilocularis",
+              "Gerbillinae",
+              "Itraconazole",
+              "Larva",
+              "Nitro Compounds",
+              "Thiazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16940089/"
+          },
+          {
+            "pmid": "22947125",
+            "title": "In vitro efficacy of the anticancer drug imatinib on Echinococcus multilocularis larvae.",
+            "abstract": "The metacestode stage of Echinococcus multilocularis is the causative agent of alveolar echinococcosis (AE), a lethal zoonosis with very limited treatment options. Chemotherapy of AE currently employs benzimidazoles (BZs); however, these exert only a parasitostatic action in vivo and have to be given life-long. In the search for novel drug targets, we have concentrated on parasite signalling pathways. Here we report significant antiparasitic effects of imatinib, an ABL kinase inhibitor that is in clinical use to treat certain cancers. At concentrations of 25 μM, imatinib was highly effective in killing Echinococcus stem cells, metacestode vesicles and protoscoleces in vitro. Moreover, already at concentrations as low as 10 μM, imatinib significantly inhibited the formation of metacestode vesicles from parasite stem cells, inactivated 50% of vesicles after 7 days, and induced morphological alterations in the metacestode upon short-term treatment. We also demonstrate that E. multilocular",
+            "journal": "International journal of antimicrobial agents",
+            "year": "2012",
+            "authors": [
+              "Hemer Sarah",
+              "Brehm Klaus"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anthelmintics",
+              "Benzamides",
+              "Echinococcus multilocularis",
+              "Helminth Proteins",
+              "Imatinib Mesylate",
+              "Larva",
+              "Molecular Sequence Data",
+              "Piperazines",
+              "Protein Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22947125/"
+          },
+          {
+            "pmid": "877439",
+            "title": "The effect of niclosamide on Echinococcus granulosus, Taenia hydatigena and Taenia ovis infections in dogs.",
+            "abstract": "The effect of niclosamide (particle size 1 micron m) and its piperazine salt (particle size 5-10 micron m) on Echinococcus granulosus and Taenia hydatigena has been investigated. The piperazine salt of niclosamide was also tested for activity against Taenia ovis. These trials involved 326 dogs. Irrespective of particle size, the drug was found to be virtually inactive against 28-day-old E granulosus. Some evidence was found indicating that there may be a low degree of activity against 70-day-old worms. The drug was found to be effective at 32 mg/kg and 64 mg/kg against T hydatigena and 50 mg/kg against T ovis. Some evidence was obtained that milk decrease the efficiency of the piperazine salt against T hydatigena at the lower dose rates. Micronisation of the drug did not increase the efficiency against this parasite. Vomiting and diarrhoea were common sequelae.",
+            "journal": "Research in veterinary science",
+            "year": "1977",
+            "authors": [
+              "Gemmell M A",
+              "Johnstone P D",
+              "Oudemans G"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Dog Diseases",
+              "Dogs",
+              "Echinococcosis",
+              "Milk",
+              "Niclosamide",
+              "Particle Size",
+              "Taeniasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/877439/"
+          },
+          {
+            "pmid": "14044745",
+            "title": "HOST-PARASITE RELATIONSHIPS IN ECHINOCOCCOSIS. IX. IN VITRO SURVIVAL OF HYDATID SCOLICES AND THE EFFECTS OF DRUGS UPON SCOLEX RESPIRATION.",
+            "abstract": "",
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "1963",
+            "authors": [
+              "SCHWABE C W",
+              "HADIDIAN L",
+              "KOUSSA M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acridines",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antimony",
+              "Atropine",
+              "Culture Media",
+              "Diethylcarbamazine",
+              "Echinococcosis",
+              "Echinococcus",
+              "Emetine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14044745/"
+          },
+          {
+            "pmid": "11806295",
+            "title": "[Trimetazidine prevents ischemia-reperfusion injury in hepatic surgery under vascular clamping].",
+            "abstract": "Clamping the hepatic pedicle (or Pringle's manoeuvre) is frequently used to reduce blood loss during liver surgery. This induces a normothermic ischaemia of the overall liver. In this study we have investigated the anti-ischaemic effect of trimetazidine during surgery on hydatid cysts of the liver requiring vascular clamping of the hepatic pedicle. Seventy-six hepatic pericystectomies were performed under a 40 min normothermic ischaemia. Two randomized groups including 38 patients each received daily either trimetazidine (80 mg/kg, group 1) or placebo (group 2) for 5 days before surgery. The effect of trimetazidine was evaluated on different parameters, the macroscopic appearance of the tissue, the ATP content in liver biopsies obtained before and after 15, 30 and 60 min reperfusion, the activity of the aminotransferase in the plasma and the plasma concentrations of reduced and oxidized gluthatione. No mortality was observed. The duration of hospital stay was reduced for patients treat",
+            "journal": "Therapie",
+            "year": "2001",
+            "authors": [
+              "Settaf A",
+              "Zaim N",
+              "Bellouch M",
+              "Tillement J P",
+              "Morin D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "English Abstract",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Echinococcosis, Hepatic",
+              "Female",
+              "Humans",
+              "Intraoperative Care",
+              "Liver",
+              "Male",
+              "Middle Aged",
+              "Reperfusion Injury",
+              "Surgical Instruments"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11806295/"
+          },
+          {
+            "pmid": "14092494",
+            "title": "[THE TREATMENT OF PULMONARY PARASITOSES].",
+            "abstract": "",
+            "journal": "Les Cahiers du College de medecine des hopitaux de Paris",
+            "year": "1963",
+            "authors": [
+              "POULET J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amebiasis",
+              "Antimony",
+              "Bephenium Compounds",
+              "Chenopodium",
+              "Echinococcosis",
+              "Echinococcosis, Pulmonary",
+              "Emetine",
+              "Hookworm Infections",
+              "Humans",
+              "Lucanthone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14092494/"
+          },
+          {
+            "pmid": "21494880",
+            "title": "Pulmonary artery embolism due to a ruptured hepatic hydatid cyst: clinical and radiologic imaging findings.",
+            "abstract": "Hydatid pulmonary embolism is an uncommon condition resulting from the rupture of a hydatid heart cyst or the opening of a visceral hydatid cyst into the venous circulation. We report a rare case with multiple intra-arterial pulmonary hydatid cyst emboli originating from a hepatic hydatid cyst ruptured into the hepatic segment of the inferior vena cava. We present the ultrasonography findings of hepatic hydatid cyst and multidetector computed tomography pulmonary angiography images demonstrating both multiple hydatid cyst emboli and their hepatic origin.",
+            "journal": "Emergency radiology",
+            "year": "2011",
+            "authors": [
+              "Akgun Veysel",
+              "Battal Bilal",
+              "Karaman Bulent",
+              "Ors Fatih",
+              "Deniz Omer"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Albendazole",
+              "Cetirizine",
+              "Diagnosis, Differential",
+              "Echinococcosis, Hepatic",
+              "Humans",
+              "Male",
+              "Multidetector Computed Tomography",
+              "Pulmonary Embolism",
+              "Rupture"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21494880/"
+          },
+          {
+            "pmid": "14183098",
+            "title": "THE EFFECT OF CERTAIN SUBSTANCES AGAINST ECHINOCOCCUS GRANULOSUS AND TAENIA HYDATIGENA INFECTIONS IN DOGS.",
+            "abstract": "",
+            "journal": "Annals of tropical medicine and parasitology",
+            "year": "1964",
+            "authors": [
+              "FORBES L S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anthelmintics",
+              "Benzimidazoles",
+              "Chloroquine",
+              "Dithiazanine",
+              "Dog Diseases",
+              "Dogs",
+              "Echinococcosis",
+              "Echinococcus granulosus",
+              "England"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14183098/"
+          },
+          {
+            "pmid": "22824534",
+            "title": "Invasive aspergillosis associated with pulmonary hydatid disease.",
+            "abstract": "A patient presented with a cavitating lung lesion. Serology and sputum microscopy led to the diagnosis of pulmonary hydatid disease. However, histology of the operative samples revealed aspergillosis in the cavity and surrounding lung tissue. This is the first report of invasive aspergillosis occurring as a consequence of spontaneous hydatid cyst rupture.",
+            "journal": "Travel medicine and infectious disease",
+            "year": "2012",
+            "authors": [
+              "Fifer H M",
+              "Chiodini P L",
+              "Lucas S B",
+              "Brown J S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Aspergillosis",
+              "Echinococcosis, Pulmonary",
+              "Female",
+              "Humans",
+              "Itraconazole",
+              "Young Adult"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22824534/"
+          },
+          {
+            "pmid": "4092164",
+            "title": "[Anaphylactic shock during surgical treatment of hepatic hydatidosis].",
+            "abstract": "",
+            "journal": "Cahiers d'anesthesiologie",
+            "year": "1985",
+            "authors": [
+              "Artus M",
+              "Hollocou B",
+              "Bodin J M",
+              "Noury D",
+              "Roumeas J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aminocaproic Acid",
+              "Anaphylaxis",
+              "Drug Therapy, Combination",
+              "Echinococcosis, Hepatic",
+              "Female",
+              "Humans",
+              "Hydroxyzine",
+              "Intraoperative Complications",
+              "Isoquinolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4092164/"
+          },
+          {
+            "pmid": "4477636",
+            "title": "[Experimental therapy of alveococcosis. II. Effectiveness of some anti-nematode preparations in alveococcosis of laboratory animals].",
+            "abstract": "",
+            "journal": "Meditsinskaia parazitologiia i parazitarnye bolezni",
+            "year": "1974",
+            "authors": [
+              "Krotov A I",
+              "Cherniaeva A I",
+              "Kovalenko F P",
+              "Baiandina D G",
+              "Budanova I S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticestodal Agents",
+              "Diethylcarbamazine",
+              "Dithiazanine",
+              "Drug Evaluation, Preclinical",
+              "Echinococcosis",
+              "Humans",
+              "Infant, Newborn",
+              "Larva",
+              "Lethal Dose 50"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4477636/"
+          },
+          {
+            "pmid": "1758368",
+            "title": "[The search for new antiparasitic agents. 8. The synthesis and study of the acute toxicity, anti-alveolar hydatid and antihymenolepiasis activity of 1-alkyl-4[4-(heterylamino)phenyl]piperazines].",
+            "abstract": "The synthesis and the acute toxicity and anticestodal activity of l-alkyl-4-[-(heterylamino)phenyl]-piperazines are presented. These compounds were found to be able to suppress the growth of larvocysts of Echinococcus multilocularis in cotton rats when injected intraperitoneally in a single dose of 0.25 g/kg, close to capacity of mebendazole. The tested compounds were also highly effective against the adult stage of Hymenolepis nana. Experimentally infected mice given an oral single dose of 0.2-0.5 g/kg of the drug were radically cured.",
+            "journal": "Meditsinskaia parazitologiia i parazitarnye bolezni",
+            "year": "1991",
+            "authors": [
+              "Mikhaĭlitsyn F S",
+              "Kozyreva N P",
+              "Lebedeva M N",
+              "Kovalenko F P",
+              "Dzhabarova V I"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticestodal Agents",
+              "Drug Evaluation, Preclinical",
+              "Echinococcosis",
+              "Female",
+              "Hymenolepiasis",
+              "Male",
+              "Mice",
+              "Piperazines",
+              "Sigmodontinae"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1758368/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00592",
+    "name": "Piperazine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Piperazine"
+      },
+      "queried_at": "2026-03-10T08:05:13.129715",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Piperazine"
+      },
+      "queried_at": "2026-03-10T08:05:15.629277",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-10T08:05:16.317245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-10T08:05:19.844314",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-10T08:05:20.773577",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "alveolar echinococcosis"
+      },
+      "queried_at": "2026-03-10T08:05:22.216828",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "alveolar echinococcosis"
+      },
+      "queried_at": "2026-03-10T08:05:25.720902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "alveolar echinococcosis"
+      },
+      "queried_at": "2026-03-10T08:05:27.934780",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "acute neonatal citrullinemia type I"
+      },
+      "queried_at": "2026-03-10T08:05:28.483799",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "acute neonatal citrullinemia type I"
+      },
+      "queried_at": "2026-03-10T08:05:31.566178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "acute neonatal citrullinemia type I"
+      },
+      "queried_at": "2026-03-10T08:05:33.458642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "adult-onset citrullinemia type I"
+      },
+      "queried_at": "2026-03-10T08:05:34.267636",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "adult-onset citrullinemia type I"
+      },
+      "queried_at": "2026-03-10T08:05:39.616944",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "adult-onset citrullinemia type I"
+      },
+      "queried_at": "2026-03-10T08:05:40.421967",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-10T08:05:40.920300",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-10T08:05:45.724921",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "malaria"
+      },
+      "queried_at": "2026-03-10T08:05:51.372397",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T08:05:52.008787",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T08:05:55.862862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T08:05:58.240844",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "queried_at": "2026-03-10T08:05:59.040691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "queried_at": "2026-03-10T08:06:02.073078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "queried_at": "2026-03-10T08:06:02.861893",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "urea cycle disorder"
+      },
+      "queried_at": "2026-03-10T08:06:03.470845",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "urea cycle disorder"
+      },
+      "queried_at": "2026-03-10T08:06:08.091942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "urea cycle disorder"
+      },
+      "queried_at": "2026-03-10T08:06:09.889533",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T08:06:10.464835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T08:06:13.691493",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "systemic mastocytosis"
+      },
+      "queried_at": "2026-03-10T08:06:17.059035",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "cystic echinococcosis"
+      },
+      "queried_at": "2026-03-10T08:06:17.685705",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "cystic echinococcosis"
+      },
+      "queried_at": "2026-03-10T08:06:24.182734",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Piperazine",
+        "disease": "cystic echinococcosis"
+      },
+      "queried_at": "2026-03-10T08:06:26.501340",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:06:26.516957"
+  }
+}

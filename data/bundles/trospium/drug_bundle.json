@@ -1,0 +1,647 @@
+{
+  "drug": {
+    "inn": "Trospium",
+    "drugbank_id": "DB00209",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "irritable bowel syndrome",
+        "txgnn_score": 0.9804478883743286,
+        "txgnn_rank": 16806,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33890538",
+            "title": "Antimuscarinic use among older adults with dementia and overactive bladder: a Medicare beneficiaries study.",
+            "abstract": "This study examined the incidence and predictors of antimuscarinic medication use including non-selective antimuscarinics among older adults with dementia and overactive bladder (OAB).",
+            "journal": "Current medical research and opinion",
+            "year": "2021",
+            "authors": [
+              "Kachru Nandita",
+              "Holmes Holly M",
+              "Johnson Michael L",
+              "Chen Hua",
+              "Aparasu Rajender R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Dementia",
+              "Female",
+              "Humans",
+              "Medicare",
+              "Muscarinic Antagonists",
+              "Tolterodine Tartrate",
+              "United States",
+              "Urinary Bladder, Overactive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33890538/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cauda equina syndrome",
+        "txgnn_score": 0.966478943824768,
+        "txgnn_rank": 22408,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete neurogenic bladder (disease)",
+        "txgnn_score": 0.9543311595916748,
+        "txgnn_rank": 25640,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "common cold",
+        "txgnn_score": 0.9540708661079408,
+        "txgnn_rank": 25698,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dysthymic disorder",
+        "txgnn_score": 0.94844251871109,
+        "txgnn_rank": 27051,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurocirculatory asthenia",
+        "txgnn_score": 0.946114420890808,
+        "txgnn_rank": 27571,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9400793313980104,
+        "txgnn_rank": 28799,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autonomic nervous system disease",
+        "txgnn_score": 0.9385045766830444,
+        "txgnn_rank": 29071,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "insomnia (disease)",
+        "txgnn_score": 0.9353559613227844,
+        "txgnn_rank": 29692,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05145413",
+            "title": "A Phase 3, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety and Efficacy of Adjunctive KarXT in Subjects With Inadequately Controlled Symptoms of Schizophrenia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2021-11-12",
+            "completion_date": "2025-03-19",
+            "country": "United Kingdom, India, Romania, United States, Bulgaria, Japan, Serbia, Poland",
+            "enrollment": 396,
+            "brief_summary": "This is a Phase 3, 6-week, randomized, double-blind, placebo-controlled, multicenter, outpatient study in subjects with schizophrenia with an inadequate response to their current atypical antipsychotic treatment. The primary objective of the study is to assess the efficacy of adjunctive KarXT (a fixed dose combination of xanomeline and trospium chloride twice daily \\[BID\\]) versus placebo in the treatment of subjects with inadequately controlled symptoms of schizophrenia as measured by the Posit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject is aged ≥18 to \\<65 years at the time of randomization\n2. Subject is capable of providing signed Informed Consent Form before any study assessments will be performed\n3. Subject has a primary diagnosis of schizophrenia established by a comprehensive psychiatric evaluat",
+            "endpoints": [
+              "Change From Baseline in Positive and Negative Syndrome Scale (PANSS) Total Score at Week 6"
+            ],
+            "sponsor": "Karuna Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT05145413"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07101094",
+            "title": "Real-world Evaluation of Treatment Satisfaction and KarXT Utilization Registry (RESKU)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-09-22",
+            "completion_date": "2029-05-14",
+            "country": "United States",
+            "enrollment": 300,
+            "brief_summary": "The purpose of this study is to understand treatment preference and satisfaction among adults with schizophrenia in the United States who are prescribed xanomeline and trospium chloride (X/T) therapy",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Aged ≥18 years at index date.\n* Have a confirmed diagnosis of schizophrenia before index date.\n* Receipt of an initial prescription order for xanomeline and trospium chloride (XT) and plan to fill and initiate such therapy.\n* Provide a signed and dated Institutional Review Boa",
+            "endpoints": [
+              "Participant medication preference as assessed by the Preference of Medication (POM) questionnaire",
+              "Participant treatment satisfaction as assessed by the Medication Satisfaction Questionnaire (MSQ)"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT07101094"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05304767",
+            "title": "An Open-label Extension Study to Assess the Long-term Safety and Tolerability of Adjunctive KarXT in Subjects With Inadequately Controlled Symptoms of Schizophrenia",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2022-03-07",
+            "completion_date": "2026-03-19",
+            "country": "United Kingdom, India, Romania, United States, Bulgaria, Czechia, Poland, Serbia, Japan",
+            "enrollment": 280,
+            "brief_summary": "This is a Phase 3, multicenter, 52-week, outpatient, open-label extension (OLE) study to evaluate the long-term safety and tolerability of adjunctive KarXT in subjects with schizophrenia with an inadequate response to their current antipsychotic treatment who previously completed the treatment period (Visit 8/Day 42 ± 3) of ARISE Study (KAR-012). The primary objective of the study is to assess the long-term safety and tolerability of adjunctive KarXT (a fixed dose combination of xanomeline and t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subject is aged ≥18 to \\<66 years at the time of randomization of Study KAR-012\n2. Subject has successfully completed the treatment period of Study KAR-012\n3. Subject has been compliant with the procedures in Study KAR-012 (in the Investigator's judgement)\n4. Subject has been",
+            "endpoints": [
+              "Incidence of treatment-emergent adverse events (TEAEs)"
+            ],
+            "sponsor": "Karuna Therapeutics",
+            "url": "https://clinicaltrials.gov/study/NCT05304767"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39880004",
+            "title": "Xanomeline-Trospium for Adults with Schizophrenia Experiencing Acute Psychosis: A Systematic Review and Meta-analysis of Safety and Tolerability Outcomes.",
+            "abstract": "The United States Food and Drug Administration approved the xanomeline-trospium combination in September 2024 for treating schizophrenia, based in part on three double-blind, randomized placebo-controlled trials in adults with schizophrenia experiencing acute psychosis. This random-effects model pairwise meta-analysis of those three trials found that xanomeline-trospium was comparable to placebo in terms of all-cause discontinuation, discontinuation rate due to adverse events, Simpson-Angus Scale score change, Barnes Akathisia Rating Scale score change, body weight change, body mass index change, blood pressure change, serum total cholesterol change, blood glucose change, QTc interval changes, and the incidence of headache, somnolence, insomnia, dizziness, akathisia, agitation, tachycardia, gastroesophageal reflux disease, diarrhea, increased weight, and decreased appetite. However, xanomeline-trospium was associated with a higher incidence of at least one adverse event, dry mouth, hyp",
+            "journal": "Pharmacopsychiatry",
+            "year": "2025",
+            "authors": [
+              "Kishi Taro",
+              "Citrome Leslie",
+              "Sakuma Kenji",
+              "Hamanaka Shun",
+              "Nishii Yasufumi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Schizophrenia",
+              "Psychotic Disorders",
+              "Adult",
+              "Randomized Controlled Trials as Topic",
+              "Antipsychotic Agents",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39880004/"
+          },
+          {
+            "pmid": "33890538",
+            "title": "Antimuscarinic use among older adults with dementia and overactive bladder: a Medicare beneficiaries study.",
+            "abstract": "This study examined the incidence and predictors of antimuscarinic medication use including non-selective antimuscarinics among older adults with dementia and overactive bladder (OAB).",
+            "journal": "Current medical research and opinion",
+            "year": "2021",
+            "authors": [
+              "Kachru Nandita",
+              "Holmes Holly M",
+              "Johnson Michael L",
+              "Chen Hua",
+              "Aparasu Rajender R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Dementia",
+              "Female",
+              "Humans",
+              "Medicare",
+              "Muscarinic Antagonists",
+              "Tolterodine Tartrate",
+              "United States",
+              "Urinary Bladder, Overactive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33890538/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9344063997268676,
+        "txgnn_rank": 29870,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00209",
+    "name": "Trospium",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Trospium"
+      },
+      "queried_at": "2026-03-10T07:50:07.472392",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Trospium"
+      },
+      "queried_at": "2026-03-10T07:50:09.116669",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T07:50:10.278023",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T07:50:15.639881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "irritable bowel syndrome"
+      },
+      "queried_at": "2026-03-10T07:50:19.143248",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T07:50:19.998885",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T07:50:23.915400",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "cauda equina syndrome"
+      },
+      "queried_at": "2026-03-10T07:50:24.793939",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T07:50:25.522138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T07:50:28.850097",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "queried_at": "2026-03-10T07:50:29.590478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T07:50:30.181127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T07:50:33.440312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "common cold"
+      },
+      "queried_at": "2026-03-10T07:50:34.289170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T07:50:35.014124",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T07:50:38.477230",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "dysthymic disorder"
+      },
+      "queried_at": "2026-03-10T07:50:39.166575",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-10T07:50:39.672090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-10T07:50:42.518172",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "queried_at": "2026-03-10T07:50:43.340136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T07:50:44.896891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T07:50:48.683912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T07:50:49.485866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T07:50:50.717095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T07:50:54.042046",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "autonomic nervous system disease"
+      },
+      "queried_at": "2026-03-10T07:50:54.946817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T07:50:55.584205",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T07:50:58.799020",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "insomnia (disease)"
+      },
+      "queried_at": "2026-03-10T07:51:00.761000",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T07:51:01.332234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T07:51:05.090148",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Trospium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T07:51:05.822008",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:51:05.831355"
+  }
+}

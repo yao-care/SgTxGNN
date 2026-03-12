@@ -1,0 +1,1748 @@
+{
+  "drug": {
+    "inn": "Praziquantel",
+    "drugbank_id": "DB01058",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "uterine corpus epithelioid leiomyosarcoma",
+        "txgnn_score": 0.9727516174316406,
+        "txgnn_rank": 20227,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Plasmodium falciparum malaria",
+        "txgnn_score": 0.9721648097038268,
+        "txgnn_rank": 20442,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01722539",
+            "title": "Efficacy and Safety of Sulfadoxine-pyrimethamine or Sulfadoxine-pyrimethamine Plus Piperaquine Regimens Delivered Through Intermittent Preventive Treatment in Schoolchildren of Democratic Republic of Congo: A Randomised Control Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-11",
+            "completion_date": "2013-11",
+            "country": "Republic of the Congo",
+            "enrollment": 616,
+            "brief_summary": "Considering the facts that: (i) IPT of malaria provides substantial protection against anaemia and malaria in school children (ii); SP resistance has no significant impact on the prophylactic efficacy (iii) SP-PQ is safe and as efficacious as SP: the investigators hypothesize that antimalarial IPT with SP and SP-PQ will improve haemoglobin concentration, reduce anaemia prevalence, malaria incidence and parasitaemia, and improve malnutrition and school performance in school-aged children of Congo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* males and females in primary school children,\n* anticipated local residence for the study duration,\n* signed or thumb-printed informed consent by the parents or guardians and witnessed by an impartial witness (whenever parents/guardians are illiterate)\n\nExclusion Criteria:\n\n* ",
+            "endpoints": [
+              "Hemoglobin change"
+            ],
+            "sponsor": "Universiteit Antwerpen",
+            "url": "https://clinicaltrials.gov/study/NCT01722539"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00347113",
+            "title": "The Effect of Schistosome and Soil-transmitted Helminth Infections on Malaria,Infection, Morbidity and Antibody Response Among School and Pre-school Children in Mwanza, Tanzania",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2011-01",
+            "country": "Tanzania",
+            "enrollment": 620,
+            "brief_summary": "The proposed study has as the main objective to investigate the effect of schistosome and STH infections and the effect of an anthelminthic intervention on P. falciparum malaria, related anaemia and malaria antibody responses among school and pre-school children in Mwanza, Tanzania. The study will include a cross-sectional baseline survey followed by an anthelminthic intervention trial of two years duration. At baseline, prevalence and intensity of malaria, schistosome and STH infections and the",
+            "eligibility_criteria": "Inclusion Criteria:\n\n\\- preschool children (\\>5 years of age) school children standard I-V (\\>7 years of age\n\nExclusion Criteria:\n\n\\- Children with severe malaria or anaemia Children who have receuived anthelmintic treatment (\\< 6 months ago)",
+            "endpoints": [
+              "incidence of malaria cases",
+              "Spleen and liver size",
+              "Hæmoglobin"
+            ],
+            "sponsor": "DBL -Institute for Health Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT00347113"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03893097",
+            "title": "A Proof-of-concept Trial to Evaluate Artesunate-mefloquine as a Novel Alternative Treatment for Schistosomiasis in African Children",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-10-14",
+            "completion_date": "2021-03-04",
+            "country": "Senegal",
+            "enrollment": 726,
+            "brief_summary": "The SchistoSAM study is an open label, two-arm, individually-randomized controlled trial with a non-inferiority design, conducted in northern Senegal.\n\nThe study aims at determining if the efficacy of one and of repeated courses of artesunate-mefloquine (AM) is respectively similar to or higher than that of a standard praziquantel (PZQ) treatment. Secondly, the study will assess if novel DNA- and antigen-based diagnostics are more accurate than microscopy in assessing antischistosomal treatment ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Children ≥6 and ≤14 years of age\n2. Enrolled in one of the selected primary schools in the region\n3. Infected with schistosomiasis (i.e. Schistosoma spp. eggs in urine and/or stool)\n4. Informed consent from parents/guardians signed\n\nExclusion Criteria:\n\n1. History of, or ongo",
+            "endpoints": [
+              "Evaluate the efficacy of a single course of artesunate-mefloquine for the treatment of schistosomiasis, compared to the standard PZQ regimen: Parasitological cure rate",
+              "Number of safety events of a single course of artesunate-mefloquine for the treatment of schistosomiasis, compared to the standard PZQ regimen",
+              "Number of safety events of a single course of artesunate-mefloquine for the treatment of schistosomiasis, compared to the standard PZQ regimen"
+            ],
+            "sponsor": "Institute of Tropical Medicine, Belgium",
+            "url": "https://clinicaltrials.gov/study/NCT03893097"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02769013",
+            "title": "Assessing the Effect of Neglected Tropical Diseases on Plasmodium Falciparum Transmission in an Area of Co-endemicity",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-04",
+            "completion_date": "2020-10",
+            "country": "Ghana, Gabon",
+            "enrollment": 380,
+            "brief_summary": "Assessing the effect of neglected tropical diseases on Plasmodium falciparum transmission in an area of co endemicity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects aged from 6 to 30 years\n* Without severe or moderate disease\n* Agreement to be enrolled in the study (written informed consent or consent by the legal representative and assent)\n* Living in the study area for at least 1 year\n\nExclusion Criteria:\n\n* Anaemia with haemog",
+            "endpoints": [
+              "Number of participants with Plasmodium falciparum gametocytes and/or asexual blood stages"
+            ],
+            "sponsor": "University Hospital Tuebingen",
+            "url": "https://clinicaltrials.gov/study/NCT02769013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03640403",
+            "title": "Effectiveness and Safety of Intermittent Preventive Treatment for Malaria Using Either Dihydroartemisinin-piperaquine or Artesunate-amodiaquine in Reducing Malaria Related Morbidities and Improving Cognitive Ability in School-aged Children in Tanzania: A Controlled Randomised Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2019-03-26",
+            "completion_date": "2021-12-31",
+            "country": "Tanzania",
+            "enrollment": 1555,
+            "brief_summary": "Background:\n\nIn high-transmission settings, up to 70% of school-aged children harbour malaria parasites which is mostly asymptomatic, thus, from an epidemiological point of view, they contribute significantly as reservoir to onward malaria transmission to others. In endemic areas, malaria accounts for around 50% of the mortality, 13-50% of all school absenteeism, and causes anaemia in approximately 85 million school-aged children of sub Saharan Africa that also impairs the cognitive development ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Includes parental/guardian informed consent\n* Assent by primary school children aged 11 years and above.\n* Aged 5-15 years.\n* Currently, lives within the pre-defined catchment area of Muheza District.\n* Will remain within the same area throughout the study period (preferably c",
+            "endpoints": [
+              "Change from baseline in mean haemoglobin concentration at months 12 and 20 of follow-up",
+              "Clinical malaria incidence from month 0 till months 12 and 20 of follow up"
+            ],
+            "sponsor": "National Institute for Medical Research, Tanzania",
+            "url": "https://clinicaltrials.gov/study/NCT03640403"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "1545596",
+            "title": "Antiparasitic agents.",
+            "abstract": "In recent years, introduction of new and more effective agents has improved the overall therapy for parasitic infections. This field, however, is still plagued by numerous problems, including the development of resistance to antimicrobial agents (especially with malaria), unavailability of agents in the United States or lack of approval by the Food and Drug Administration, and major toxicities or lack of experience in pregnant women and children, which limits use in these groups of patients. Widespread resistance of Plasmodium falciparum to chloroquine and other agents has complicated the treatment and prophylaxis of this type of malaria. A combination of quinine and Fansidar is usually effective oral therapy for falciparum malaria; quinidine may be administered if intravenous therapy is needed. Mefloquine, which is currently recommended for prophylaxis against chloroquine-resistant P. falciparum, is also effective for single-dose oral treatment, although this regimen has not yet been ",
+            "journal": "Mayo Clinic proceedings",
+            "year": "1992",
+            "authors": [
+              "Rosenblatt J E"
+            ],
+            "pub_types": [
+              "Bibliography",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anthelmintics",
+              "Antimalarials",
+              "Antiprotozoal Agents",
+              "Humans",
+              "Intestinal Diseases, Parasitic",
+              "Malaria",
+              "Parasitic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1545596/"
+          },
+          {
+            "pmid": "19276810",
+            "title": "Parasitic lung infections.",
+            "abstract": "Global climate change and population explosion leading to changes in natural ecosystem and travel across the continents have resulted in an increase in the transmission of parasites to human beings. This review focuses on recent advancements in parasitic lung infections.",
+            "journal": "Current opinion in pulmonary medicine",
+            "year": "2009",
+            "authors": [
+              "Vijayan Vannan Kandi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiparasitic Agents",
+              "Greenhouse Effect",
+              "Humans",
+              "Immunocompromised Host",
+              "Immunosuppressive Agents",
+              "Lung Diseases, Parasitic",
+              "Opportunistic Infections",
+              "Prevalence",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19276810/"
+          },
+          {
+            "pmid": "17568947",
+            "title": "Anti-malaria humoral responses in children exposed to Plasmodium falciparum and Schistosoma haematobium.",
+            "abstract": "Antibody responses directed against the Plasmodium falciparum antigens, total extract, anti-merozoite surface protein-3 (MSP3b) and glutamate-rich protein (Glurp-R0) were studied in 42 children exposed to both Schistosoma haematobium and P. falciparum infections. The association between levels of the anti-malaria IgG subclasses and IgM with host age, sex, schistosome infection intensity and schistosome specific antibodies was studied before chemotherapeutic treatment of schistosome infections. This showed a significant negative association between schistosome infection intensity and levels of IgG1, IgG3, and IgG4 directed against malaria total extract antigen, and a positive association between levels of anti-schistosome soluble egg antigen IgG2, IgG3, and IgG4 and levels of the same subclasses directed against malaria total extract antigens. The effect of treating schistosome infections with praziquantel on malaria specific responses was also studied. This treatment resulted in increa",
+            "journal": "Memorias do Instituto Oswaldo Cruz",
+            "year": "2007",
+            "authors": [
+              "Mutapi F",
+              "Roussilhon C",
+              "Mduluza T",
+              "Druilhe P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Animals",
+              "Anthelmintics",
+              "Antibodies, Protozoan",
+              "Antibody Specificity",
+              "Antigens, Protozoan",
+              "Child",
+              "Cross Reactions",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17568947/"
+          },
+          {
+            "pmid": "41159886",
+            "title": "Efficacy of praziquantel for treatment of Plasmodium falciparum infection in asymptomatic Gabonese adults: A double-blind placebo-controlled randomized phase IIb clinical trial.",
+            "abstract": "Schistosomiasis and malaria are major poverty-related parasitic infectious diseases. They are often co-endemic and affect similar target populations. Mass drug administration and intermittent preventive treatment programs are commonly used for their control. From a programmatic perspective the conception of preventive treatment programs targeting both diseases simultaneously would be a great advantage. While there is preliminary evidence that certain anti-malarial drugs exert a clinically important effect on Schistosomes, little is known on whether praziquantel (PZQ), the only licensed drug to treat schistosomiasis, has activity against Plasmodium parasites. Therefore, the CORMA-MAL study was conducted to evaluate anti-malarial activity of PZQ.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2025",
+            "authors": [
+              "Mischlinger Johannes",
+              "Pechmann Klara",
+              "Werner Jacob",
+              "Zinsou Alex Hounmenou",
+              "Vogler Michael"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41159886/"
+          },
+          {
+            "pmid": "38265982",
+            "title": "Have there been efforts to integrate malaria and schistosomiasis prevention and control programs? A scoping review of the literature.",
+            "abstract": "Malaria and schistosomiasis are two important parasitic diseases that are a particular threat to young children and pregnant women in sub-Saharan Africa. Malaria and schistosomiasis prevention and control strategies primarily focus on the distribution of long-lasting insecticidal nets and the delivery of praziquantel tablets to at-risk populations in high burden settings through mass drug administration, respectively. The objective of this scoping review was to identify previous efforts to integrate malaria and schistosomiasis prevention and control programs in the literature and to summarize the strategies and approaches used in these programs following the PRISMA-ScR guidelines. We reviewed published and grey literature using a combination of keywords and search terms following themes surrounding \"malaria\", \"Plasmodium falciparum\", \"Anopheles\", \"schistosomiasis\", \"Schistosoma haematobium\", \"Schistosoma mansoni\", and \"snails\". Neither a date limit nor relevant terms for prevention and",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2024",
+            "authors": [
+              "Duguay Claudia",
+              "Raduy Sydney",
+              "Khov Engluy",
+              "Protopopoff Natacha",
+              "Feng Cindy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Scoping Review"
+            ],
+            "mesh_terms": [
+              "Pregnancy",
+              "Child",
+              "Animals",
+              "Humans",
+              "Female",
+              "Child, Preschool",
+              "Antimalarials",
+              "Coinfection",
+              "Malaria",
+              "Schistosomiasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38265982/"
+          },
+          {
+            "pmid": "21696629",
+            "title": "Efficacy of integrated school based de-worming and prompt malaria treatment on helminths -Plasmodium falciparum co-infections: A 33 months follow up study.",
+            "abstract": "The geographical congruency in distribution of helminths and Plasmodium falciparum makes polyparasitism a common phenomenon in Sub Saharan Africa. The devastating effects of helminths-Plasmodium co-infections on primary school health have raised global interest for integrated control. However little is known on the feasibility, timing and efficacy of integrated helminths-Plasmodium control strategies. A study was conducted in Zimbabwe to evaluate the efficacy of repeated combined school based antihelminthic and prompt malaria treatment.",
+            "journal": "BMC international health and human rights",
+            "year": "2011",
+            "authors": [
+              "Midzi Nicholas",
+              "Mtapuri-Zinyowera Sekesai",
+              "Sangweme Davison",
+              "Paul Noah H",
+              "Makware Godfrey"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21696629/"
+          },
+          {
+            "pmid": "37808169",
+            "title": "Malaria, Urogenital Schistosomiasis, and Anaemia in Pregnant Ghanaian Women.",
+            "abstract": "Anaemia is common in sub-Saharan Africa, and parasitic infections could worsen its burden during pregnancy. Moreover, women become susceptible to malaria during pregnancy. We investigated Plasmodium falciparum (P. falciparum) and Schistosoma haematobium (S. haematobium) infections and determined their association with anaemia during pregnancy.",
+            "journal": "Journal of parasitology research",
+            "year": "2023",
+            "authors": [
+              "Frempong Naa Adjeley",
+              "Ahiabor Charity",
+              "Anyan William K",
+              "Mama Atikatou",
+              "Kusi Kwadwo Asamoah"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37808169/"
+          },
+          {
+            "pmid": "10531774",
+            "title": "Praziquantel for treatment of malaria.",
+            "abstract": "The possible effect of oral praziquantel on malaria parasites was studied. Nine patients with P. falciparum and one patient with P. vivax were treated with 30 mg/kg/day of praziquantel in three divided doses for a maximum of 8 days. The results showed that eight patients had complete cure within 4-6 days of using praziquantel. Two patients with P. falciparum complicated by jaundice and severe anemia showed no response and required antimalarial drugs. One patient had bloody diarrhoea. It could be concluded that praziquantel might represent a new line for treatment of malaria.",
+            "journal": "JPMA. The Journal of the Pakistan Medical Association",
+            "year": "1998",
+            "authors": [
+              "al-Waili N S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anthelmintics",
+              "Antimalarials",
+              "Child",
+              "Female",
+              "Humans",
+              "Malaria",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10531774/"
+          },
+          {
+            "pmid": "20353134",
+            "title": "Changes in the humoral immune responses after chemotherapy in single and co-infected individuals with Schisosoma haematobium and Plasmodium falciparum.",
+            "abstract": "To determine the effects of chemotherapy on the humoral immune responses in single and coinfected individuals with Schistosoma haematobium and Plasmodium falciparum.",
+            "journal": "The Central African journal of medicine",
+            "year": "2006",
+            "authors": [
+              "Zinyowera S",
+              "Muchaneta-Kubara C E",
+              "Mutapi F",
+              "Midzi N",
+              "Ndlovu P D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Animals",
+              "Child",
+              "Enzyme-Linked Immunosorbent Assay",
+              "Female",
+              "Humans",
+              "Immunity, Humoral",
+              "Immunoglobulin Isotypes",
+              "Immunologic Factors",
+              "Malaria, Falciparum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20353134/"
+          },
+          {
+            "pmid": "37446846",
+            "title": "Design, Synthesis and Evaluation of Praziquantel Analogues and New Molecular Hybrids as Potential Antimalarial and Anti-Schistosomal Agents.",
+            "abstract": "Malaria and schistosomiasis are two of the neglected tropical diseases that persistently wreak havoc worldwide. Although many antimalarial drugs such as chloroquine are readily available, the emergence of drug resistance necessitates the development of new therapies to combat this disease. Conversely, Praziquantel (PZQ) remains the sole effective drug against schistosomiasis, but its extensive use raises concerns about the potential for drug resistance to develop. In this project, the concept of molecular hybridization was used as a strategy to design the synthesis of new molecular hybrids with potential antimalarial and antischistosomal activity. A total of seventeen molecular hybrids and two PZQ analogues were prepared by coupling 6-alkylpraziquanamines with cinnamic acids and cyclohexane carboxylic acid, respectively. The synthesised compounds were evaluated for their antimalarial and antischistosomal activity; while all of the above compounds were inactive against Plasmodium falcip",
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Kasago Freddy Mugisho",
+              "Häberli Cécile",
+              "Keiser Jennifer",
+              "Masamba Wayiza"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Praziquantel",
+              "Antimalarials",
+              "Schistosoma mansoni",
+              "Schistosomicides",
+              "Schistosomiasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37446846/"
+          },
+          {
+            "pmid": "36119865",
+            "title": "Urogenital schistosomiasis transmission, malaria and anemia among school-age children in Northern Ghana.",
+            "abstract": "In sub-Saharan Africa, co-morbidity with malaria, schistosomiasis, and soil transmitted helminths (STH) is common among young children. The current study investigated malaria, urinary schistosomiasis and their co-infection and anemia among school-age children in an endemic community, Nakolo in the Kassena-Nankana East District of northern Ghana.",
+            "journal": "Heliyon",
+            "year": "2022",
+            "authors": [
+              "Dassah Sylvester",
+              "Asiamah Gideon K",
+              "Harun Valentine",
+              "Appiah-Kubi Kwaku",
+              "Oduro Abraham"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36119865/"
+          },
+          {
+            "pmid": "25210876",
+            "title": "Co-infection of long-term carriers of Plasmodium falciparum with Schistosoma haematobium enhances protection from febrile malaria: a prospective cohort study in Mali.",
+            "abstract": "Malaria and schistosomiasis often overlap in tropical and subtropical countries and impose tremendous disease burdens; however, the extent to which schistosomiasis modifies the risk of febrile malaria remains unclear.",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2014",
+            "authors": [
+              "Doumbo Safiatou",
+              "Tran Tuan M",
+              "Sangala Jules",
+              "Li Shanping",
+              "Doumtabe Didier"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Intramural"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Animals",
+              "Child",
+              "Child, Preschool",
+              "Coinfection",
+              "Female",
+              "Humans",
+              "Infant",
+              "Malaria, Falciparum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25210876/"
+          },
+          {
+            "pmid": "37523402",
+            "title": "Epidemiology of malaria, schistosomiasis, and geohelminthiasis amongst children 3-15 years of age during the dry season in Northern Cameroon.",
+            "abstract": "The double burden of malaria and helminthiasis in children poses an obvious public health challenge, particularly in terms of anemia morbidity. While both diseases frequently geographically overlap, most studies focus on mono-infection and general prevalence surveys without molecular analysis. The current study investigated the epidemiological determinants of malaria, schistosomiasis, and geohelminthiasis transmission among children in the North Region of Cameroon.",
+            "journal": "PloS one",
+            "year": "2023",
+            "authors": [
+              "Nkemngo Francis N",
+              "W G Raissa Lymen",
+              "Nebangwa Derrick N",
+              "Nkeng Asongha M",
+              "Kengne Alvine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Animals",
+              "Humans",
+              "Child, Preschool",
+              "Child",
+              "Adolescent",
+              "Cross-Sectional Studies",
+              "Cameroon",
+              "Seasons",
+              "Schistosomiasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37523402/"
+          },
+          {
+            "pmid": "24609234",
+            "title": "A review of dihydroartemisinin as another gift from traditional Chinese medicine not only for malaria control but also for schistosomiasis control.",
+            "abstract": "Artemisinin, also known as qinghaosu, is a sesquiterpene lactone endoperoxide extracted from the plant Artemisia annua L, an herb employed in traditional Chinese medicine. Artemisinin and its two main derivatives artemether and artesunate have been shown to be effective against both malaria and schistosomiasis, and therefore, they were described by Liu et al (Parasitol Res 110:2071-2074, 2012b) as the gifts from traditional Chinese medicine not only for malaria control but also for schistosomiasis control. However, another artemisinin derivative dihydroartemisinin (DHA) cannot be neglected. Dihydroartemisinin, a derivative of artemisinin with the C-10 lactone group replaced by hemiacetal and the active metabolite of all artemisinin compounds, was firstly identified as an antimalarial agent, and the dihydroartemisinin-piperaquine combination has been recommended as a first-line treatment of uncomplicated Plasmodium falciparum malaria by the WHO. It has been recently found that administr",
+            "journal": "Parasitology research",
+            "year": "2014",
+            "authors": [
+              "Zhang Xu-Guang",
+              "Li Gui-Xin",
+              "Zhao Shu-Shun",
+              "Xu Fu-Liang",
+              "Wang Yun-Hai"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antimalarials",
+              "Artemether",
+              "Artemisinins",
+              "Artesunate",
+              "Drugs, Chinese Herbal",
+              "Female",
+              "Malaria, Falciparum",
+              "Mice",
+              "Praziquantel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24609234/"
+          },
+          {
+            "pmid": "20350194",
+            "title": "Efficacy and safety of mefloquine, artesunate, mefloquine-artesunate, and praziquantel against Schistosoma haematobium: randomized, exploratory open-label trial.",
+            "abstract": "Morbidity control of schistosomiasis relies on a single drug, praziquantel. The antimalarial drug mefloquine possesses interesting antischistosomal properties, yet no clinical studies have been performed.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2010",
+            "authors": [
+              "Keiser Jennifer",
+              "N'Guessan Nicaise A",
+              "Adoubryn Koffi D",
+              "Silué Kigbafori D",
+              "Vounatsou Penelope"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abdominal Pain",
+              "Animals",
+              "Anthelmintics",
+              "Artemisinins",
+              "Artesunate",
+              "Child",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Incidence"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20350194/"
+          },
+          {
+            "pmid": "37957702",
+            "title": "Feasibility and safety of integrating mass drug administration for helminth control with seasonal malaria chemoprevention among Senegalese children: a randomized controlled, observer-blind trial.",
+            "abstract": "The overlap in the epidemiology of malaria and helminths has been identified as a potential area to exploit for the development of an integrated control strategy that may help to achieve elimination of malaria and helminths. A randomized, controlled, observer-blind trial was conducted to assess the feasibility and safety of combining mass drug administration (MDA) for schistosomiasis and soil transmitted helminths (STH) with seasonal malaria chemoprevention (SMC) among children living in Senegal.",
+            "journal": "Malaria journal",
+            "year": "2023",
+            "authors": [
+              "Afolabi Muhammed O",
+              "Sow Doudou",
+              "Agbla Schadrac C",
+              "Fall El Hadji Babacar",
+              "Sall Fatimata Bintou"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Child",
+              "Male",
+              "Female",
+              "Antimalarials",
+              "Praziquantel",
+              "Albendazole",
+              "Mass Drug Administration",
+              "Seasons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37957702/"
+          },
+          {
+            "pmid": "30080853",
+            "title": "Schistosoma haematobium effects on Plasmodium falciparum infection modified by soil-transmitted helminths in school-age children living in rural areas of Gabon.",
+            "abstract": "Malaria burden remains high in the sub-Saharan region where helminths are prevalent and where children are often infected with both types of parasites. Although the effect of helminths on malaria infection is evident, the impact of these co-infections is not clearly elucidated yet and the scarce findings are conflicting. In this study, we investigated the effect of schistosomiasis, considering soil-transmitted helminths (STH), on prevalence and incidence of Plasmodium falciparum infection.",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2018",
+            "authors": [
+              "Dejon-Agobé Jean Claude",
+              "Zinsou Jeannot Fréjus",
+              "Honkpehedji Yabo Josiane",
+              "Ateba-Ngoa Ulysse",
+              "Edoa Jean-Ronald"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Albendazole",
+              "Animals",
+              "Anthelmintics",
+              "Antimalarials",
+              "Artemether, Lumefantrine Drug Combination",
+              "Child",
+              "Female",
+              "Gabon",
+              "Helminthiasis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30080853/"
+          },
+          {
+            "pmid": "25887977",
+            "title": "The impact of anthelmintic treatment intervention on malaria infection and anaemia in school and preschool children in Magu district, Tanzania: an open label randomised intervention trial.",
+            "abstract": "Some studies have suggested that helminth infections increase the risk of malaria infection and are associated with increased number of malaria attacks and anaemia. Thus interventions to control helminth infections may have an impact on incidence of clinical malaria and anaemia. The current study assessed the impact of two anthelmintic treatment approaches on malaria infection and on anaemia in school and pre-school children in Magu district, Tanzania.",
+            "journal": "BMC infectious diseases",
+            "year": "2015",
+            "authors": [
+              "Kinung'hi Safari M",
+              "Magnussen Pascal",
+              "Kishamawe Coleman",
+              "Todd Jim",
+              "Vennervald Birgitte J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Albendazole",
+              "Ancylostomatoidea",
+              "Anemia",
+              "Animals",
+              "Anthelmintics",
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Helminthiasis",
+              "Hookworm Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25887977/"
+          },
+          {
+            "pmid": "30484584",
+            "title": "[Prevalence of Malaria, Intestinal and Urinary parasite infections in Kalifabougou, Mali].",
+            "abstract": "Soil transmitted helminthiasis and schistosomiasis are neglected tropical diseases (NTD), affecting the health status of endemic Malian populations. Mali has a national NTD elimination program using the mass drug administration (MDA) strategy combining Albendazole, Ivermectinand Praziquantel. Malaria still remains a public health problem in Mali. The Community health Center (CSCOM) in Kalifabougouvillage in the Kati health district has benefited from such MDA program since 2010.",
+            "journal": "Le Mali medical",
+            "year": "2018",
+            "authors": [
+              "Doumbo Safiatou Niaré",
+              "Ongoïba Aissata",
+              "Doumtabe Didier",
+              "Tran Tuan M",
+              "Traoré Abdrahamane"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Cohort Studies",
+              "Cross-Sectional Studies",
+              "Female",
+              "Humans",
+              "Infant",
+              "Intestinal Diseases, Parasitic",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30484584/"
+          },
+          {
+            "pmid": "24416463",
+            "title": "Orally active antischistosomal early leads identified from the open access malaria box.",
+            "abstract": "Worldwide hundreds of millions of schistosomiasis patients rely on treatment with a single drug, praziquantel. Therapeutic limitations and the threat of praziquantel resistance underline the need to discover and develop next generation drugs.",
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2014",
+            "authors": [
+              "Ingram-Sieber Katrin",
+              "Cowan Noemi",
+              "Panic Gordana",
+              "Vargas Mireille",
+              "Mansour Nuha R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Anthelmintics",
+              "Disease Models, Animal",
+              "Female",
+              "Inhibitory Concentration 50",
+              "Mice",
+              "Parasite Load",
+              "Parasitic Sensitivity Tests",
+              "Quinoxalines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24416463/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal sarcoma",
+        "txgnn_score": 0.9716496467590332,
+        "txgnn_rank": 20646,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine corpus myxoid leiomyosarcoma",
+        "txgnn_score": 0.9716364741325378,
+        "txgnn_rank": 20652,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anus leiomyosarcoma",
+        "txgnn_score": 0.9714908599853516,
+        "txgnn_rank": 20715,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "small intestinal sarcoma",
+        "txgnn_score": 0.966850519180298,
+        "txgnn_rank": 22275,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gnathomiasis",
+        "txgnn_score": 0.9646589756011964,
+        "txgnn_rank": 22944,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "16767879",
+            "title": "[Human helminthiasis transmitted by fishes].",
+            "abstract": "The consumption of dishes made from raw fresh- or see-water fishes exposes many individuals (residents, visitors or migrants) from tropical to arctic regions to the risk of helminthiasis. Anisakiasis, diphyllobothriasis, clonorchiasis, opistorchiasis and gnathostomiasis have distinct parasitic cycles and various clinical presentations, from sub-clinical infections to life-threatening hemorragic or tumoral complications. In-depth history, clinical presentation, stool examination for ova and parasites and serology usually allow for a specific diagnosis to be made. The common anti-parasitic drugs, such as albendazole, ivermectin and praziquantel, are efficacious against most of these helminthiasis. Sufficient cooking or freezing of fishes before consumption are very efficient preventive measures.",
+            "journal": "Revue medicale suisse",
+            "year": "2006",
+            "authors": [
+              "Chappuis F",
+              "Loutan L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Fishes",
+              "Food Parasitology",
+              "Helminthiasis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16767879/"
+          },
+          {
+            "pmid": "31847422",
+            "title": "Percutaneous Emergence of Gnathostoma spinigerum Following Praziquantel Treatment.",
+            "abstract": "A Bangladeshi patient with prior travel to Saudi Arabia was hospitalized in the United States for a presumptive liver abscess. Praziquantel was administered following a positive Schistosoma antibody test. Ten days later, a subadult worm migrated to the skin surface and was identified morphologically as Gnathostoma spinigerum. This case highlights the challenges of gnathostomiasis diagnosis, raising questions on potential serologic cross-reactivity and the possible role of praziquantel in stimulating outward migration of Gnathostoma larvae/subadults.",
+            "journal": "Tropical medicine and infectious disease",
+            "year": "2019",
+            "authors": [
+              "Sapp Sarah G H",
+              "Kaminski Monica",
+              "Abdallah Marie",
+              "Bishop Henry S",
+              "Fox Mark"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31847422/"
+          },
+          {
+            "pmid": "24039291",
+            "title": "Cutaneous gnathostomiasis with recurrent migratory nodule and persistent eosinophilia: a case report from China.",
+            "abstract": "The present study reports a human case of cutaneous gnathostomiasis with recurrent migratory nodule and persistent eosinophilia in China. A 52-year-old woman from Henan Province, central China, presented with recurrent migratory reddish swelling and subcutaneous nodule in the left upper arm and on the back for 3 months. Blood examination showed eosinophila (21.2%), and anti-sparganum antibodies were positive. Skin biopsy of the lesion and histopathological examinations revealed dermal infiltrates of eosinophils but did not show any parasites. Thus, the patient was first diagnosed as sparganosis; however, new migratory swellings occurred after treatment with praziquantel for 3 days. On further inquiring, she recalled having eaten undercooked eels and specific antibodies to the larvae of Gnathostoma spinigerum were detected. The patient was definitely diagnosed as cutaneous gnathostomiasis caused by Gnathostoma sp. and treated with albendazole (1,000 mg/day) for 15 days, and the subseque",
+            "journal": "The Korean journal of parasitology",
+            "year": "2013",
+            "authors": [
+              "Cui Jing",
+              "Wang Ye",
+              "Wang Zhong Quan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anthelmintics",
+              "Antibodies, Helminth",
+              "China",
+              "Eosinophilia",
+              "Female",
+              "Gnathostoma",
+              "Gnathostomiasis",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24039291/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fascioliasis",
+        "txgnn_score": 0.9625688791275024,
+        "txgnn_rank": 23575,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9455057",
+            "title": "[Human fascioliasis: comparison of a fasciolicidal effect of bithionol and praziquantel].",
+            "abstract": "There is no consensus about the optimal treatment for fascioliasis. Here we report 5 cases of fascioliasis and 12 cases of fascioliasis reviewed from the literature, and discuss the clinical characteristics and treatment of this parasitic disease. The diagnosis was made in 88% of all patients by the serological test and eggs in the feces were negative in all patients. The characteristic CT findings of all patients in our series were cluster of multiple abscess-like lesions in the liver. Eosinophilia was present in all patients. Bithionol was effective in all of the 13 patients and praziquantel was effective in 4 of 8 patients. Three of 4 patients, in whom praziquantel was not effective, were treated with bithionol successfully. No severe side effects were noticed in all patients. Bithionol seems to be more effective against fasciola sp. than praziquantel. Bithionol is proposed as the drug of choice for the treatment of human fascioliasis.",
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "1997",
+            "authors": [
+              "Kodama K"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antiplatyhelmintic Agents",
+              "Bithionol",
+              "Drug Administration Schedule",
+              "Fascioliasis",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9455057/"
+          },
+          {
+            "pmid": "16307491",
+            "title": "Triclabendazole for the treatment of fascioliasis and paragonimiasis.",
+            "abstract": "Fascioliasis and paragonimiasis, which are caused by liver flukes (Fasciola) and lung flukes (Paragonimus), are emerging public health problems. Several hundred millions of people are at risk of the two diseases that cause considerable morbidity and delay socio-economic development. Triclabendazole, a benzimidazole derivative, has been routinely used since 1983 in veterinary medicine to control infections with Fasciola spp. in domestic herbivorous animals. In 1986, a veterinary formulation of triclabendazole was first administered to two human patients with fascioliasis. Clinical data obtained thus far suggest that triclabendazole is the most efficacious and best tolerated drug for the treatment of fascioliasis. Moreover, the drug holds promise as a useful therapeutic alternative to praziquantel in the treatment of paragonimiasis. This review of triclabendazole includes an overview of the pharmacodynamics and pharmacokinetics, toxicology and efficacy against the major food-borne tremat",
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2005",
+            "authors": [
+              "Keiser Jennifer",
+              "Engels Dirk",
+              "Büscher Gottfried",
+              "Utzinger Jürg"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anthelmintics",
+              "Benzimidazoles",
+              "Fascioliasis",
+              "Food Parasitology",
+              "Humans",
+              "Paragonimiasis",
+              "Triclabendazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16307491/"
+          },
+          {
+            "pmid": "15113313",
+            "title": "Human fascioliasis.",
+            "abstract": "Fasciola hepatica, a zoonotic liver fluke, can also cause disease in humans. Common symptoms are epigastric pain, upper abdominal pain and malaise. Fever and arthralgia are common in acute fascioliasis. Eosinophilia is the predominant laboratory finding, especially in patients with the acute form of the disease. Diagnosis and treatment is not easy, as physicians rarely encounter this disease, and effective drugs are not available in many countries. Human fascioliasis may be underestimated. Patients with eosinophilia and abdominal pain should be evaluated for F. hepatica infestation by parasitological, radiological and serological tests.",
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2004",
+            "authors": [
+              "Saba R",
+              "Korkmaz M",
+              "Inan D",
+              "Mamikoğlu L",
+              "Turhan O"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Albendazole",
+              "Animals",
+              "Antibodies, Helminth",
+              "Antiplatyhelmintic Agents",
+              "Benzimidazoles",
+              "Fasciola hepatica",
+              "Fascioliasis",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15113313/"
+          },
+          {
+            "pmid": "16258225",
+            "title": "Asymptomatic fascioliasis.",
+            "abstract": "A 72-year-old Japanese man displayed asymptomatic eosinophilia for 4 months. Computed tomography showed multiple space-occupying lesions in the liver. Zoonotic liver flukes were suspected based on occupational exposure to cattle, serological and radiological findings. Immunological examination was helpful in diagnosing the disease and laparoscopy was crucial in confirming Fasciola hepatica and excluding the possibility of malignant hepatic tumors. Human fascioliasis was finally diagnosed and praziquantel administered. Blood eosinophilia resolved within 4 months and liver tumors almost disappeared within 12 months. From our experience, laparoscopy with liver biopsy is very important for diagnosing human fascioliasis, particularly for asymptomatic fascioliasis.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2005",
+            "authors": [
+              "Adachi Seiji",
+              "Kotani Kazuhiko",
+              "Shimizu Tetsu",
+              "Tanaka Kiwamu",
+              "Shimizu Tatsunori"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Animals",
+              "Cattle",
+              "Eosinophilia",
+              "Fasciola hepatica",
+              "Fascioliasis",
+              "Humans",
+              "Liver",
+              "Male",
+              "Occupational Exposure"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16258225/"
+          },
+          {
+            "pmid": "18930014",
+            "title": "A familial outbreak of fascioliasis in Eastern Anatolia: a report with review of literature.",
+            "abstract": "To present the results of a cross-sectional epidemiological analysis of a familial outbreak of fascioliasis in Eastern Anatolia and to discuss the clinical, diagnostic and therapeutic properties of the patients.",
+            "journal": "Acta tropica",
+            "year": "2011",
+            "authors": [
+              "Karahocagil Mustafa Kasim",
+              "Akdeniz Hayrettin",
+              "Sunnetcioglu Mahmut",
+              "Cicek Muttalip",
+              "Mete Rafet"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abdomen",
+              "Adolescent",
+              "Adult",
+              "Animals",
+              "Antibodies, Helminth",
+              "Child",
+              "Child, Preschool",
+              "Cross-Sectional Studies",
+              "Disease Outbreaks",
+              "Enzyme-Linked Immunosorbent Assay"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18930014/"
+          },
+          {
+            "pmid": "2091367",
+            "title": "Praziquantel and Fasciola hepatica infection.",
+            "abstract": "",
+            "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+            "year": "1990",
+            "authors": [
+              "Ripert C L"
+            ],
+            "pub_types": [
+              "Letter",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Anthelmintics",
+              "Benzimidazoles",
+              "Fascioliasis",
+              "Humans",
+              "Praziquantel",
+              "Triclabendazole"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2091367/"
+          },
+          {
+            "pmid": "7837967",
+            "title": "Fascioliasis in developed countries: a review of classic and aberrant forms of the disease.",
+            "abstract": "Cases of human infestation by Fasciola hepatica are not uncommon in Spain and other European countries. We report our experience with 20 patients diagnosed from 1982 to 1991 and present a critical review of published cases from western countries. Because F. hepatica has a special tropism for the liver, abdominal pain, hepatomegaly, and constitutional symptoms are among the most common manifestations of acute-stage fascioliasis. However, in the chronic stage, biliary colic and cholangitis are the predominant manifestations. The clinical spectrum of fascioliasis is variable, and patients may present with extrahepatic abnormalities, such as pulmonary infiltrates, pleuropericarditis, meningitis, or lymphadenopathy. Therefore, a high index of suspicion is required to establish a correct diagnosis. Eosinophilia is the most frequent laboratory abnormality. The CT scan has become a useful technique in the diagnostic work-up. A definitive diagnosis may be established by the observation of paras",
+            "journal": "Medicine",
+            "year": "1995",
+            "authors": [
+              "Arjona R",
+              "Riancho J A",
+              "Aguado J M",
+              "Salesa R",
+              "González-Macías J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Fascioliasis",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7837967/"
+          },
+          {
+            "pmid": "8218685",
+            "title": "Fascioliasis: case reports and review.",
+            "abstract": "Fasciola hepatica, a zoonotic liver fluke, can cause disease in humans. Fascioliasis, while common in some tropical and developing countries, is uncommon in the United States. We report two cases of fascioliasis that illustrate both the hepatic and biliary stages of the disease. Clinical features and diagnostic aspects including serologic, radiographic, and histopathologic studies are emphasized. Praziquantel was ineffective in treatment of both patients. Bithionol appears to be an effective treatment for fascioliasis.",
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1993",
+            "authors": [
+              "Price T A",
+              "Tuazon C U",
+              "Simon G L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Bithionol",
+              "Fascioliasis",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Praziquantel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8218685/"
+          },
+          {
+            "pmid": "1875062",
+            "title": "Successful treatment of Taenia saginata and Hymenolepis nana by single oral dose of praziquantel.",
+            "abstract": "Infections by adult cestodes are widely distributed in the world, and induced digestive and general disturbances. In this study, 40 patients with Taenia saginata and 15 with Hymenolepis nana were treated by one single oral dose of Praziquantel, at the dosage of 10 mg/kg/day and 20 mg/kg/day respectively. As side effects, no biological disturbances occurred, but 6 patients complained of abdominal pain and diarrhea. The efficiency was complete. Praziquantel, a wide spectrum anti-helminthic day drug, used in schistosomiasis, fascioliasis, cysticercosis, is the best treatment of adult cestodes.",
+            "journal": "Journal of the Egyptian Society of Parasitology",
+            "year": "1991",
+            "authors": [
+              "Bouree P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Animals",
+              "Child",
+              "Child, Preschool",
+              "Cysticercosis",
+              "Humans",
+              "Hymenolepiasis",
+              "Hymenolepis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1875062/"
+          },
+          {
+            "pmid": "26496745",
+            "title": "Association between praziquantel treatment and cholangiocarcinoma: a hospital-based matched case-control study.",
+            "abstract": "Infection by the liver fluke, Opisthorchis viverrini, remains an important public health problem in Thailand and has resulted in the highest prevalence of infection and incidence of subsequent cholangiocarcinoma (CCA) in the world. Praziquantel (PZQ) is the antihelminthic drug of choice for treatment. Previous studies in hamsters showed that repeated infection and PZQ treatment could increase the risk of CCA. However, the few available epidemiology studies in humans have shown unclear evidence of an increased risk of CCA with frequency of PZQ intake. The present study investigated the relationship between the number of repeated PZQ treatments and CCA.",
+            "journal": "BMC cancer",
+            "year": "2015",
+            "authors": [
+              "Kamsa-Ard Supot",
+              "Luvira Vor",
+              "Pugkhem Ake",
+              "Luvira Varisara",
+              "Thinkhamrop Bandit"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anthelmintics",
+              "Bile Duct Neoplasms",
+              "Case-Control Studies",
+              "Cholangiocarcinoma",
+              "Fascioliasis",
+              "Female",
+              "Humans",
+              "Logistic Models"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26496745/"
+          },
+          {
+            "pmid": "11555180",
+            "title": "Pharmacokinetics and microsomal oxidation of praziquantel and its effects on the P450 system in three-month-old lambs infested by Fasciola hepatica.",
+            "abstract": "Praziquantel (PZQ) is a broadly effective trematocide and cestocide, widely employed in veterinary and human medicine. In view of several differences in both its pharmacokinetic profile in different animal species and in the cytochrome P450-dependent system between ruminant and nonruminant species, the present study was undertaken to determine the pharmacokinetics of this drug, its effects on the P450 system and the involvement of cytochrome P450 in its metabolism in 3-month-old lambs infested by Fasciola hepatica. Following both oral and i.m. administration, PZQ disposition was best described by a linear one-compartment open model with a rapid absorption and elimination. Although the PZQ dose used by the i.m. route was only half of that used by the oral route, the mean PZQ plasma concentration was higher after i.m. than after oral treatment. Oral treatment with 30 mg/kg/day of PZQ did not modify the mono-oxygenase activities tested, whilst the administration of PZQ at a dose of 60 mg/",
+            "journal": "Journal of veterinary pharmacology and therapeutics",
+            "year": "2001",
+            "authors": [
+              "Giorgi M",
+              "Salvatori A P",
+              "Soldani G",
+              "Giusiani M",
+              "Longo V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Animals",
+              "Animals, Newborn",
+              "Anthelmintics",
+              "Area Under Curve",
+              "Chromatography, High Pressure Liquid",
+              "Cytochrome P-450 Enzyme System",
+              "Fasciola hepatica",
+              "Fascioliasis",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11555180/"
+          },
+          {
+            "pmid": "15127652",
+            "title": "[Fascioliasis: diagnosis, epidemiology and treatment].",
+            "abstract": "Fascioliasis is a trematode, disease of liver and bile ducts of sheep, cattle, and other ruminants throughout the world that is caused by the fluke, Fasciola hepatica. Human infection has been reported in Mexico, Cuba, Puerto Rico, Chile, Peru, Uruguay, Brazil, Argentina, the US, Europe, eastern Africa, Japan and Australia. The parasite's miracidium invades one of the various Lymnaea water snail hosts. Infection results from ingestion of encysted metacercariae attached to raw watercress (Nasturtium officinale). Symptoms recorded from human cases included irregular fever, epigastric pain and abdominal tenderness, obstructive jaundice and leucocytosis with eosinophilea up to 60%. Specific diagnosis is based on recovery of the eggs in the patient's stool or from biliary tract drainage. Treatment is with emetine hydrochloride given intramusculary. Bithionol is given orally at a dosage of 30-50 mg/kg but on alternate days from 10 to 15 doses. Praziquantel is probably effective. Preventive m",
+            "journal": "Revista de gastroenterologia de Mexico",
+            "year": "2003",
+            "authors": [
+              "Carrada-Bravo Teodoro"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Animals",
+              "Antinematodal Agents",
+              "Bithionol",
+              "Child",
+              "Cross-Sectional Studies",
+              "Emetine",
+              "Fasciola hepatica",
+              "Fascioliasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15127652/"
+          },
+          {
+            "pmid": "10201269",
+            "title": "[Fascioliasis].",
+            "abstract": "",
+            "journal": "Ryoikibetsu shokogun shirizu",
+            "year": "1999",
+            "authors": [
+              "Suou T",
+              "Mitsuda A",
+              "Fukui A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antiplatyhelmintic Agents",
+              "Bithionol",
+              "Diagnosis, Differential",
+              "Fasciola hepatica",
+              "Fascioliasis",
+              "Humans",
+              "Praziquantel",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10201269/"
+          },
+          {
+            "pmid": "9235854",
+            "title": "[Hepatic fascioliasis].",
+            "abstract": "Hepatic fascioliasis is a pathology with an increasing incidence, morbidity and mortality all over the world and most particularly in our country, where endemic spots have been found, particularly in rural areas. Based on a clinical case which is supported by a revision of appropriate literature, the authors have made relevant considerations on bio-ecology, diagnosis, prognostic and treatment of this disease.",
+            "journal": "Acta medica portuguesa",
+            "year": "1997",
+            "authors": [
+              "Tavares C",
+              "Freitas P",
+              "Afonso C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiplatyhelmintic Agents",
+              "Child",
+              "Fascioliasis",
+              "Humans",
+              "Liver",
+              "Male",
+              "Praziquantel",
+              "Tomography, X-Ray Computed",
+              "Ultrasonography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9235854/"
+          },
+          {
+            "pmid": "17707482",
+            "title": "Multiple brain hemorrhages and hematomas associated with ectopic fascioliasis in brain and eye.",
+            "abstract": "Fascioliasis is a parasitic infection caused by Fasciola hepatica. Human beings can be infected accidentally by an ingestion of the metacercariae; and the parasite exists almost persistently in the bile ducts, but rarely in other organs. We report an interesting case of ectopic fascioliasis in both the brain and the right eye of a school-aged boy, which was associated with 2 unruptured intracranial aneurysms. To our knowledge, no case report such as this has been found in the medical literature.",
+            "journal": "Surgical neurology",
+            "year": "2008",
+            "authors": [
+              "Zhou Liangxue",
+              "Luo Lingli",
+              "You Chao",
+              "Wang Bing",
+              "Xu Jianguo"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anthelmintics",
+              "Central Nervous System Helminthiasis",
+              "Child",
+              "Eye Infections, Parasitic",
+              "Fascioliasis",
+              "Hematoma",
+              "Humans",
+              "Intracranial Hemorrhages",
+              "Male",
+              "Praziquantel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17707482/"
+          },
+          {
+            "pmid": "2617651",
+            "title": "Praziquantel and Fasciola hepatica infection.",
+            "abstract": "",
+            "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+            "year": "1989",
+            "authors": [
+              "Farid Z",
+              "Kamal M",
+              "Mansour N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Child, Preschool",
+              "Fasciola hepatica",
+              "Fascioliasis",
+              "Feces",
+              "Female",
+              "Humans",
+              "Male",
+              "Praziquantel"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2617651/"
+          },
+          {
+            "pmid": "4023557",
+            "title": "Human fascioliasis in Cajamarca/Peru. I. Diagnostic methods and treatment with praziquantel.",
+            "abstract": "In a prospective study 34 Peruvian fascioliasis patients were followed up for three months after treatment with praziquantel. The rapid sedimentation of faeces was demonstrated to be the most appropriate parasitological technique for the diagnosis of Fasciola hepatica infections in man compared to the MIF concentration or the examination of duodenal fluid by Enterotest. After therapy with different doses of praziquantel only 21% of the patients stopped to excrete worm eggs although 17 patients had been treated repeatedly. During the period of observation all patients presented a decreasing number of symptoms. It is concluded that praziquantel is not very active against F. hepatica in man.",
+            "journal": "Tropical medicine and parasitology : official organ of Deutsche Tropenmedizinische Gesellschaft and of Deutsche Gesellschaft fur Technische Zusammenarbeit (GTZ)",
+            "year": "1985",
+            "authors": [
+              "Knobloch J",
+              "Delgado E",
+              "Alvarez A",
+              "Reymann U",
+              "Bialek R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Animals",
+              "Child",
+              "Fasciola hepatica",
+              "Fascioliasis",
+              "Feces",
+              "Female",
+              "Humans",
+              "Isoquinolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4023557/"
+          },
+          {
+            "pmid": "8254167",
+            "title": "Trematode infections. Opisthorchiasis, clonorchiasis, fascioliasis, and paragonimiasis.",
+            "abstract": "The parasitic diseases of the liver and lung are caused by trematodes or flukes--Opisthorchis viverrini, O. felineus, Fasciola hepatica, and Paragonimus westermani. Humans get infected by eating the second intermediate host of the fluke, for example, fish, crab, or water plant. The disease runs a chronic course. The diagnosis is made by the recover of eggs in stools or sputum, or by serodiagnosis. Praziquantel is the drug of choice except in falcioliaisis.",
+            "journal": "Infectious disease clinics of North America",
+            "year": "1993",
+            "authors": [
+              "Harinasuta T",
+              "Pungpak S",
+              "Keystone J S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Anthelmintics",
+              "Benzimidazoles",
+              "Clonorchiasis",
+              "Fascioliasis",
+              "Humans",
+              "Liver",
+              "Opisthorchiasis",
+              "Paragonimiasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8254167/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leiomyosarcoma",
+        "txgnn_score": 0.9624731540679932,
+        "txgnn_rank": 23611,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.9572036266326904,
+        "txgnn_rank": 24927,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01058",
+    "name": "Praziquantel",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Praziquantel"
+      },
+      "queried_at": "2026-03-10T08:24:38.557334",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Praziquantel"
+      },
+      "queried_at": "2026-03-10T08:24:45.037819",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "uterine corpus epithelioid leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:24:45.605837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "uterine corpus epithelioid leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:24:48.331393",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "uterine corpus epithelioid leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:24:49.224532",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T08:24:49.927087",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T08:24:52.907957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "queried_at": "2026-03-10T08:24:56.721046",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "retroperitoneal sarcoma"
+      },
+      "queried_at": "2026-03-10T08:24:57.393935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "retroperitoneal sarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:02.047499",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "retroperitoneal sarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:04.296431",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "uterine corpus myxoid leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:07.394247",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "uterine corpus myxoid leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:11.246862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "uterine corpus myxoid leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:12.093686",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "anus leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:12.647592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "anus leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:16.144377",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "anus leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:16.837557",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "small intestinal sarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:17.451887",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "small intestinal sarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:21.144616",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "small intestinal sarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:21.937005",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "gnathomiasis"
+      },
+      "queried_at": "2026-03-10T08:25:22.579800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "gnathomiasis"
+      },
+      "queried_at": "2026-03-10T08:25:25.350112",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "gnathomiasis"
+      },
+      "queried_at": "2026-03-10T08:25:27.960692",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "fascioliasis"
+      },
+      "queried_at": "2026-03-10T08:25:29.183737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "fascioliasis"
+      },
+      "queried_at": "2026-03-10T08:25:32.533417",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "fascioliasis"
+      },
+      "queried_at": "2026-03-10T08:25:35.545014",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:36.207865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:39.748149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "leiomyosarcoma"
+      },
+      "queried_at": "2026-03-10T08:25:40.912182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T08:25:41.434699",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T08:25:44.993018",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Praziquantel",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-10T08:25:45.797573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:25:45.799956"
+  }
+}

@@ -1,0 +1,2740 @@
+{
+  "drug": {
+    "inn": "Ipilimumab",
+    "drugbank_id": "DB06186",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "choroideremia",
+        "txgnn_score": 0.9906124472618104,
+        "txgnn_rank": 10103,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "non-cutaneous melanoma",
+        "txgnn_score": 0.9901592135429382,
+        "txgnn_rank": 10433,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00972933",
+            "title": "Neoadjuvant Anti-CTLA4 Blockade With Ipilimumab in Patients With AJCC Stage IIIB-C (Tx,1-4, N1b,2b, 2c, 3, M0) Melanoma: Immunogenicity And Biomarker Analysis",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2009-12",
+            "completion_date": "2017-09-26",
+            "country": "United States",
+            "enrollment": 59,
+            "brief_summary": "Ipilimumab is a manufactured monoclonal antibody, much like the antibodies usually made by the human body to fight off infection; however it is not known why the human body does not \"fight off\" a cancerous tumor. The idea behind developing this experimental drug is to stimulate the immune system to make antibodies to kill cancer cells. This research study is considered \"experimental\" because it has not received approval from the Food and Drug Administration (FDA) for the treatment of this type o",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Willing and able to give written informed consent.\n* Histologic diagnosis of melanoma belonging to T1-4 N1b,2b,2c,3 M 0 AJCC stages, that may present as any of the following groups:\n* Primary melanoma with clinically apparent (overt) regional lymph node metastases, confirmed b",
+            "endpoints": [
+              "To study the effects of ipilimumab upon the host immune response in nodal metastatic melanoma and in the peripheral blood comparing pre-treatment with post-treatment (baseline, 6 weeks) immunologic features."
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT00972933"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02278887",
+            "title": "Randomized Phase III Study Comparing a Non-myeloablative Lymphocyte Depleting Regimen of Chemotherapy Followed by Infusion of Tumor Infiltrating Lymphocytes and Interleukin-2 to Standard Ipilimumab Treatment in Metastatic Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2014-09-23",
+            "completion_date": "2023-12-31",
+            "country": "Denmark, Netherlands",
+            "enrollment": 168,
+            "brief_summary": "In this randomized controlled phase III study the investigators will evaluate whether TIL infusion preceded by non-myeloablative chemotherapy and followed by high dose bolus interleukin-2 can result in an improved progression free survival when randomly compared to ipilimumab in 168 stage IV melanoma patients. A health technology assessment (HTA) will be performed to evaluate the impact of the TIL treatment on patients and organizational processes and cost-effectivity.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed unresectable AJCC stage III or stage IV melanoma\n* Patients must have metastatic melanoma with a resectable metastatic lesion(s) of sufficient size (≥ 2-3 cm in total) and must be willing to undergo such a resection for experimental purposes.\n* Patient",
+            "endpoints": [
+              "Progression free survival"
+            ],
+            "sponsor": "The Netherlands Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02278887"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05200143",
+            "title": "A Phase II, Single-Arm Clinical Trial Evaluating the Triplet Combination of Ipilimumab, Nivolumab, and Cabozantinib in Patients With Anti-PD-1(L1) Refractory Cutaneous Melanoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2022-06-08",
+            "completion_date": "2024-07-23",
+            "country": "United States",
+            "enrollment": 4,
+            "brief_summary": "The primary objective of this clinical trial is to evaluate the clinical efficacy and progression free survival of the triplet combination of ipilimumab + nivolumab + cabozantinib in patients with anti-PD-1/PD-L1 refractory metastatic cutaneous melanoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologically (or cytologically) confirmed diagnosis of metastatic cutaneous melanoma.\n2. Prior therapy:\n\n   1. Must have been treated previously with an immune checkpoint inhibitor targeting PD-1 or PD-L1.\n   2. Disease progression following treatment with prior anti-PD-1/P",
+            "endpoints": [
+              "Progression Free Survival of the Triplet Combination of Ipilimumab + Nivolumab + Cabozantinib in Patients With Anti-PD-1/PD-L1 Refractory Metastatic Cutaneous Melanoma"
+            ],
+            "sponsor": "Providence Health & Services",
+            "url": "https://clinicaltrials.gov/study/NCT05200143"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02224768",
+            "title": "YERVOY Risk Minimisation Tool Evaluation Survey",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2015-07",
+            "completion_date": "2015-11",
+            "country": "United Kingdom, United States",
+            "enrollment": 158,
+            "brief_summary": "To evaluate the effectiveness of the YERVOY® educational Risk Minimization (RM) tools in terms of awareness about these tools, their utilization, knowledge and comprehension of Immune Related Adverse Reaction (irAR)s, and appropriate behavior by Healthcare Professional (HCP)s and patients",
+            "eligibility_criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com\n\nInclusion Criteria:\n\n* HCP experienced in the treatment of patients with the research compound and patients that have received at least one dose",
+            "endpoints": [
+              "The proportion of YERVOY HCPs that are aware of the existence of the risk communications tools and how the tools were accessed (i.e. paper or electronic versions)",
+              "Questionnaire: \"Who uses the RM communication tools, how, when they are used and how often they are used\"",
+              "Level of knowledge and comprehension of the key elements of important identified risks associated with YERVOY treatment based on the scores obtained from the Questionnaire Surveys"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT02224768"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02107755",
+            "title": "A Phase 2 Study Using Stereotactic Ablative Radiation Therapy and Ipilimumab in Patients With Oligometastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-09-05",
+            "completion_date": "2021-08-16",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "This phase II trial studies the effectiveness of the combination of stereotactic radiation therapy and ipilimumab in patients with metastatic melanoma that has spread to four or fewer sites in the body (oligometastatic). Stereotactic radiation therapy is a type of external beam radiation therapy that uses special equipment to position the patient and precisely give a either a single large dose of radiation therapy to a tumor or several large doses of radiation therapy to a tumor using precision ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Willing and able to give written informed consent\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-2\n* Histologic diagnosis of melanoma with metastatic disease to a visceral organ (lung, liver, brain, adrenal, nodal station outside the regional lymph drainage o",
+            "endpoints": [
+              "Rate of Progression-free Survival by mWHO Criteria"
+            ],
+            "sponsor": "Ohio State University Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02107755"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02115139",
+            "title": "A Multicenter, Single Arm, Phase 2 Clinical Study on the Combination of Radiation Therapy and Ipilimumab, for the Treatment of Patients With Melanoma and Brain Metastases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-04-04",
+            "completion_date": "2018-07-31",
+            "country": "Spain",
+            "enrollment": 58,
+            "brief_summary": "Ipilimumab adds a clinical benefit to radiation therapy in patients with melanoma metastatic to the brain.\n\nMelanoma is the third most common cancer causing brain metastases, after cancers of the lung and breast, which appears to reflect the relative propensity of melanoma to metastasize to the central nervous system (CNS). Brain metastases are responsible for 20 to 54 percent of deaths in patients with melanoma, and among those with documented brain metastases, these lesions contribute to death",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Willing and able to give written informed consent.\n2. Histologic diagnosis of melanoma.\n3. First episode of radiological evidence of brain metastases\n4. Be over the age of 18 years old\n5. Radiation Therapy Oncology Group-recursive partitioning analysis (RTOG-RPA) class 2\n6. K",
+            "endpoints": [
+              "1-year Survival Rate"
+            ],
+            "sponsor": "Grupo Español Multidisciplinar de Melanoma",
+            "url": "https://clinicaltrials.gov/study/NCT02115139"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03235245",
+            "title": "Combination of Targeted Therapy (Encorafenib and Binimetinib) Followed by Combination of Immunotherapy (Ipilimumab and Nivolumab) vs Immediate Combination of Immunotherapy in Patients With Unresectable or Metastatic Melanoma With BRAF V600 Mutation : an EORTC Randomized Phase II Study (EBIN)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-10-30",
+            "completion_date": "2027-01",
+            "country": "Spain, United Kingdom, France, Netherlands, Germany, Italy, Denmark, Finland, Poland",
+            "enrollment": 271,
+            "brief_summary": "This is a multicenter, 2-arm open-label, randomized comparative phase II study. The objective of this trial is to prospectively evaluate whether a sequential approach with an induction period of 12 weeks with encorafenib + binimetinib followed by combination immunotherapy with nivolumab + ipilimumab improves progression free survival compared to combination immunotherapy nivolumab + ipilimumab alone in patients with BRAF V600 mutation-positive unresectable or metastatic melanoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed unresectable stage III or IV cutaneous or mucosal melanoma\n* Presence of BRAF V600E or V600K mutation in tumor tissue prior to enrolment as per local assessment\n* Tumor tissue from an unresectable or metastatic site of disease must be ",
+            "endpoints": [
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT03235245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03225365",
+            "title": "Immune Modulation Study in Patients With Metastatic Melanoma Treated With a First Line Therapy of Nivolumab +/- Ipilimumab (IMMUNONIVO/MelpredictPD1).",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2019-10-10",
+            "completion_date": "2021-06-15",
+            "country": "France",
+            "enrollment": 5,
+            "brief_summary": "This is an open bi-centric prospective non-randomized study in patients with metastatic melanoma treated with a first line treatment of Nivolumab +/- Ipilimumab. The aim of the study is to characterize the immune cells modulations under anti-PD-1 +/- anti-CTLA4 and identify the differences between responder and non-responder patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women aged ≥ 18 years of age.\n* Patient with metastatic or unresectable melanoma\n* Nivolumab or Nivolumab + Ipilimumab treatment indication\n* Skin biopsies available\n* Patient affiliated to or a beneficiary of a social security category.\n* Signed Written Informed Conse",
+            "endpoints": [
+              "Change description of biological characteristics of immune cells of the blood by immunomonitoring.",
+              "Change in the immune response by skin biopsy."
+            ],
+            "sponsor": "Hospices Civils de Lyon",
+            "url": "https://clinicaltrials.gov/study/NCT03225365"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04462406",
+            "title": "A Phase II Study of Biomarker Driven Early Discontinuation of Anti-PD-1 Therapy in Patients With Advanced Melanoma (PET-Stop)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-02-09",
+            "completion_date": "2026-08-29",
+            "country": "United States",
+            "enrollment": 150,
+            "brief_summary": "This phase II trial investigates how well biomarkers on PET/CT imaging drive early discontinuation of anti-PD-1 therapy in patients with stage IIIB-IV melanoma that cannot be removed by surgery (unresectable). Anti-PD-1 therapy has become a standard therapy option for patients with unresectable melanoma. This trial is being done to determine if doctors can safely shorten the use of standard of care anti-PD1 therapy for melanoma by using biomarkers seen on PET/CT imaging and tumor biopsy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* STEP 0 PRE-REGISTRATION INCLUSION CRITERIA\n* Patient must have active advanced melanoma, defined as unresectable stage IIIB-IV by American Joint Committee on Cancer (AJCC) 8th edition\n* Patient must have melanoma originating from cutaneous, acral-lentiginous, or mucosal primar",
+            "endpoints": [
+              "Event free survival (EFS) rate (Arm A)"
+            ],
+            "sponsor": "Eastern Cooperative Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT04462406"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02990611",
+            "title": "A National, Prospective, Non-Interventional Study (NIS) of Nivolumab (BMS-936558) Monotherapy or in Combination With Ipilimumab in Patients With Advanced (Unresectable or Metastatic) Melanoma and in Patients With Adjuvant Nivolumab Therapy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2016-12-06",
+            "completion_date": "2025-06-20",
+            "country": "Germany",
+            "enrollment": 1087,
+            "brief_summary": "The purpose of this study is to describe the safety and effectiveness of nivolumab treatment, either in monotherapy or in combination with ipilimumab, overall and according to various subgroups of interest, in participants with advanced melanoma and in participants with adjuvant nivolumab therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nFor Cohort 1 and 2: (Recruitment ended by 02/20/2020)\n\n* Advanced melanoma (Stage III/Stage IV)\n* Histologically confirmed diagnosis\n* Treatment decision for nivolumab monotherapy or nivolumab/ipilimumab combination therapy has already been taken\n\nFor Cohort 3: (Recruitment ende",
+            "endpoints": [
+              "Overall survival (OS) of nivolumab/ipilimumab combination therapy",
+              "Relapse free survival (RFS) of adjuvant nivolumab therapy"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT02990611"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01496807",
+            "title": "A Phase Ib Study of Yervoy With Sylatron for Patients With Unresectable Stages IIIB/C/IV Melanoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2012-02-17",
+            "completion_date": "2016-08-29",
+            "country": "United States",
+            "enrollment": 31,
+            "brief_summary": "The purpose of this study is to see how much of the drug Yervoy can be safely tolerated when it is given to people who are also receiving a drug called Sylatron. Investigators also wish to find out whether the addition of Yervoy increases the chance that Sylatron will cause a rise in the level of antibodies in the patient's blood that recognize their own tissues, known as \"autoimmune\" antibodies. Investigators also want to find out how likely it is that their tumor will shrink.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must have cytologically or histologically-confirmed and unresectable melanoma, previously untreated systemically other than a BRAF inhibitor for metastatic disease, meeting one of the following American Joint Committee on Cancer (AJCC) staging criteria: AJCC Stage IV (Tany,Nan",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Sylatron",
+              "Maximum Tolerated Dose (MTD) of Ipilimumab"
+            ],
+            "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01496807"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02723006",
+            "title": "An Open-Label, Phase 1b, Multi-Arm Study to Evaluate the Safety, Tolerability, and Pharmacodynamics of Investigational Treatments in Combination With Standard of Care Immune Checkpoint Inhibitors in Patients With Advanced Melanoma",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2016-06-22",
+            "completion_date": "2018-05-11",
+            "country": "United States",
+            "enrollment": 22,
+            "brief_summary": "The purpose of this study is to determine the initial safety profile and initial antitumor activity of the combination treatments (immune checkpoint inhibitors \\[nivolumab, ipilimumab\\] with investigational drugs \\[TAK-580, TAK-202 (plozalizumab), vedolizumab\\]) in the 3 arms when administered to participants with advanced melanoma.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Is a male or female participant of 18 years or older.\n2. Has histologically confirmed, unresectable Stage III or Stage IV melanoma per the American Joint Committee on Cancer (AJCC) staging system.\n3. Has an eastern cooperative oncology group (ECOG) performance status of 0-1.\n",
+            "endpoints": [
+              "Number of Dose Limiting Toxicities (DLTs) During the Dose-escalation Safety Lead-in Phase"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT02723006"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02977052",
+            "title": "Multicenter Phase 2 Study to Identify of the Optimal Neo-Adjuvant Combination Scheme of Ipilimumab and Nivolumab (OpACIN-neo)",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2016-11-24",
+            "completion_date": "2025-06",
+            "country": "Austria, Australia, Sweden, Netherlands",
+            "enrollment": 186,
+            "brief_summary": "This is an open-label three-arm phase 2 trial (including a Simon stage 2 design) consisting of 90 stage III melanoma patients randomized 1:1:1 to receive either 2 courses 3 mg/kg ipilimumab + 1 mg/kg nivolumab every 3 weeks (Arm A), 2 courses 1 mg/kg ipilimumab + 3 mg/kg nivolumab every 3 weeks (Arm B), or 2 courses ipilimumab 3 mg/kg, directly followed by 2 courses nivolumab 3 mg/kg every 2 weeks (Arm C). All three treatment arms are applied prior to surgery at week 6, 30 patients per arm. Pati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults at least 18 years of age\n* World Health Organization (WHO) Performance Status 0 or 1\n* Cytologically or histologically confirmed resectable stage III melanoma with one or more macroscopic lymph node metastases (measurable according to RECIST 1.1), that can be biopsied, ",
+            "endpoints": [
+              "Safety as measured by the frequency of grade 3/4 immune-related adverse events, using CTCAE 4.03",
+              "Response rate according to RECIST 1.1",
+              "Pathological response according to central pathological revision, according to pathological response criteria"
+            ],
+            "sponsor": "The Netherlands Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT02977052"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06774989",
+            "title": "Real-life Pharmacological Monitoring of Encorafenib-Binimetinib in the Treatment of Metastatic Melanoma",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2025-01-02",
+            "completion_date": "2028-01",
+            "country": "France",
+            "enrollment": 66,
+            "brief_summary": "In recent years, the prognosis for BRAFV600E-mutant metastatic melanoma has been transformed with targeted therapies combining BRAF and MEK inhibitors (dabrafenib-trametinib and encorafenib-cobimetinib), which have improved progression-free survival and overall survival. However, adverse events are very frequent, and a significant proportion of patients progress secondarily. Several clinical studies have shown that inter-individual variability in plasma exposure to BRAF inhibitors (dabrafenib, v",
+            "eligibility_criteria": "Inclusion Criteria:\n\nAdults ≥ 18 years of age\n\n* Histologically confirmed advanced melanoma, stage III/stage IV inoperable (primary cutaneous, mucosal or unknown)\n* Treatment with encorafenib and/or binimetinib, whatever the line of treatment, for curative purposes.\n* Affiliated to a social security",
+            "endpoints": [
+              "association between the plasma exposure of encorafenib and binimetinib and the occurrence of dose-limiting toxicity"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT06774989"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01274338",
+            "title": "A Phase III Randomized Study of Adjuvant Ipilimumab Anti-CTLA4 Therapy Versus High-Dose Interferon a-2b for Resected High-Risk Melanoma",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2011-05-25",
+            "completion_date": "2026-03-19",
+            "country": "Canada, United States",
+            "enrollment": 1673,
+            "brief_summary": "This randomized phase III trial studies ipilimumab to see how well it works compared to high-dose interferon alfa-2b in treating patients with high-risk stage III-IV melanoma that has been removed by surgery. Immunotherapy with monoclonal antibodies, such as ipilimumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Interferon alfa-2b may interfere with the growth of tumor cells and slow the growth of melanoma and other ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients must have disease-free status documented by a complete physical examination and imaging studies within 4 weeks prior to randomization; imaging studies must include a total body positron emission tomography (PET)-computed tomography (CT) scan (with or without brain",
+            "endpoints": [
+              "Recurrence-free Survival (RFS; Arm B [HDI] vs. Arm C [LIP])",
+              "5-year Overall Survival (OS) Rate (Arm B [HDI] vs. Arm C [LIP])",
+              "Recurrence-free Survival (RFS; Arm A [HIP] vs. Arm B [HDI])"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01274338"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05428007",
+            "title": "A Phase II Study of the Interleukin-6 Receptor Inhibitor Sarilumab in Combination With Ipilimumab, Nivolumab and Relatlimab in Patients With Unresectable Stage III or Stage IV Melanoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-02-02",
+            "completion_date": "2028-02",
+            "country": "United States",
+            "enrollment": 105,
+            "brief_summary": "This study will evaluate how safe the study drug is, how well patients tolerate it, how it works in the body, and the disease's response to the drug. The study drug being tested is sarilumab, when given with the combination of ipilimumab, nivolumab, and relatlimab in patients like yourself, with stage III or stage IV melanoma that cannot be removed by surgery. Previous studies have provided a strong rationale for combining sarilumab, with ipilimumab, nivolumab and relatlimab in metastatic melano",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have signed and dated an Institutional Review Board/Independent Ethics Committee -approved written informed consent form in accordance with regulatory and institutional guidelines. This must be obtained before the performance of any protocol-related procedures th",
+            "endpoints": [
+              "Number of Grades 3-5 Treatment-Related Immune-Related Adverse Events (irAE) per NCI CTCAE v 5.0 Criteria",
+              "Response Evaluation Criteria in Solid Tumors (RECIST 1.1) Category"
+            ],
+            "sponsor": "NYU Langone Health",
+            "url": "https://clinicaltrials.gov/study/NCT05428007"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03752398",
+            "title": "A Phase 1 Multiple-Dose Study to Evaluate the Safety and Tolerability of XmAb®23104 in Subjects With Selected Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2019-05-01",
+            "completion_date": "2024-02-15",
+            "country": "United States",
+            "enrollment": 198,
+            "brief_summary": "This is a Phase 1, multiple dose, ascending dose escalation study to define a MTD/RD and regimen of XmAb23104, to describe safety and tolerability, to assess PK and immunogenicity, and to preliminarily assess anti-tumor activity of XmAb23104 monotherapy and combination therapy with ipilimumab in subjects with selected advanced solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Subjects in Part A (dose escalation) must have a diagnosis of any of the following:\n\n   Histologically or cytologically confirmed advanced solid tumors, including the following:\n   1. Melanoma (excluding uveal melanoma)\n   2. Cervical carcinoma\n   3. Pancreatic carcinoma\n   4",
+            "endpoints": [
+              "Treatment-related adverse events as assessed by CTCAE v4.03"
+            ],
+            "sponsor": "Xencor, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03752398"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05663775",
+            "title": "Prophylactic Oral Mesalamine for the Prevention of Immune-Related Colitis in Patients Treated With Ipilimumab/Nivolumab",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-08-20",
+            "completion_date": "2027-08",
+            "country": "Canada",
+            "enrollment": 20,
+            "brief_summary": "The study team's principal interest is to address the question, \"Will prophylactic treatment with mesalamine reduce the incidence and severity of immune-related diarrhea occurring secondarily to treatment with ipi/nivo?\"",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients must be 18 years of age or older.\n2. Patients with histologically confirmed, unresectable stage III or IV malignant melanoma.\n3. Patients must be capable of providing consent to enrolment and treatment.\n4. Patients with a performance status of ECOG 0-224 will be elig",
+            "endpoints": [
+              "Incidence of Treatment Related Diarrhea",
+              "Severity of Treatment Related Diarrhea",
+              "Causality of Treatment Related Diarrhea"
+            ],
+            "sponsor": "AHS Cancer Control Alberta",
+            "url": "https://clinicaltrials.gov/study/NCT05663775"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02668770",
+            "title": "A Phase I Trial of Ipilimumab (Immunotherapy) and MGN1703 (TLR Agonist) in Patients With Advanced Solid Malignancies",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-05-11",
+            "completion_date": "2025-12-31",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "The goal of this clinical research study is to find the highest tolerable dose of MGN1703 that can be given in combination with ipilimumab to patients with advanced tumors. The safety of this drug combination will also be studied.\n\nThis is an investigational study. MGN1703 is not FDA approved or commercially available. It is currently being used for research purposes only. Ipilimumab is FDA approved and commercially available for the treatment of unresectable (cannot be removed with surgery) or ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients must have a histologically-confirmed metastatic or locally advanced solid tumor that has failed to respond to standard therapy, progressed despite standard therapy, or for which standard therapy does not exist.\n2. There is no limit on the number of prior treatment re",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of MGN1703 with Ipilimumab"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02668770"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02599402",
+            "title": "Clinical Trial of Nivolumab (BMS-936558) Combined With Ipilimumab Followed by Nivolumab Monotherapy as First-Line Therapy of Subjects With Histologically Confirmed Stage III (Unresectable) or Stage IV Melanoma CheckMate 401: CHECKpoint Pathway and nivoluMAb Clinical Trial Evaluation 401",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-12-20",
+            "completion_date": "2020-02-10",
+            "country": "Switzerland, Australia, United Kingdom, France, Belgium, Austria, Germany, Italy, Finland, Sweden, Ireland, Norway",
+            "enrollment": 533,
+            "brief_summary": "The purpose of this study is to determine the effects of combination treatment of Nivolumab with Ipilimumab followed by Nivolumab monotherapy in patients with previously untreated advanced Melanoma.",
+            "eligibility_criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com\n\nInclusion Criteria:\n\n* Potential subjects must have advanced Melanoma (stage III or IV as confirmed by biopsy) with spread to other sites in the body and unable to be removed by surgery.\n* Potentia",
+            "endpoints": [
+              "Incidence of Participants With High-Grade (CTCAE v4.0 Grade 3-5) Treatment-Related Select Adverse Events"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT02599402"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07436390",
+            "title": "IFN-Gamma Expression in Tumor Tissue and Blood as a Predictor of Response to Immune Checkpoint Inhibitors in the First-Line Treatment of Metastatic Melanoma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2024-03-31",
+            "completion_date": "2024-03-31",
+            "country": "Slovenia",
+            "enrollment": 132,
+            "brief_summary": "This study evaluates whether interferon-gamma (IFN-γ) expression in tumor tissue and peripheral blood can serve as a predictive biomarker of response to immune checkpoint inhibitors in the first-line treatment of metastatic melanoma.\n\nAlthough immune checkpoint inhibitors have substantially improved outcomes in metastatic melanoma, not all patients respond to therapy. Reliable biomarkers that could help identify patients most likely to benefit from treatment are still lacking.\n\nThis study invest",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age over 18 years\n* Cytologically or histologically verified malignant melanoma\n* Stage IIID unresectable/IV according to AJCC classification (8th edition, 2018)\n* Performance status WHO 0-2 (ECOG criteria)\n* First-line systemic immunotherapy treatment (nivolumab, ipilimumab/n",
+            "endpoints": [
+              "Objective Response Rate (ORR) Assessed by Immune-Related RECIST (irRECIST)"
+            ],
+            "sponsor": "Institute of Oncology Ljubljana",
+            "url": "https://clinicaltrials.gov/study/NCT07436390"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05652673",
+            "title": "Safe Stop IPI-NIVO Trial: Early Discontinuation of Nivolumab Upon Achieving a (confirmed) Complete or Partial Response in Patients with Irresectable Stage III or Metastatic Melanoma Treated with First-line Ipilimumab-nivolumab",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-02-01",
+            "completion_date": "2029-12-01",
+            "country": "Netherlands",
+            "enrollment": 80,
+            "brief_summary": "Safe Stop IPI-NIVO Trial: Early discontinuation of nivolumab upon achieving a (confirmed) complete or partial response in patients with irresectable stage III or metastatic melanoma treated with first-line ipilimumab-nivolumab",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Irresectable stage III or metastatic melanoma\n* Treated with at least one dose of first-line ipilimumab-nivolumab and considered to be a candidate for maintenance treatment with nivolumab:\n\n  * previous systemic treatment, including immune-checkpoint",
+            "endpoints": [
+              "Ongoing response"
+            ],
+            "sponsor": "Erasmus Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05652673"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00094653",
+            "title": "A Randomized, Double-Blind, Multicenter Study Comparing MDX-010 Monotherapy, MDX-010 in Combination With a Melanoma Peptide Vaccine, and Melanoma Vaccine Monotherapy in HLA-A2*0201-Positive Patients With Previously Treated Unresectable Stage III or IV Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2004-09",
+            "completion_date": "2009-10",
+            "country": "Switzerland, United Kingdom, France, Canada, Belgium, Brazil, Germany, Argentina, Netherlands, United States, Chile, Hungary, South Africa",
+            "enrollment": 1783,
+            "brief_summary": "The purpose of this study is to determine the safety and efficacy of MDX-010 (ipilimumab, BMS-734016) (anti-CTLA4) in combination with MDX-1379 (gp100, BMS-734019) in patients with previously treated, unresectable Stage III or IV melanoma. Survival time will be evaluated, as well as patient responses and time to disease progression. Eligible patients are those who in response to a single regimen containing interleukin-2 (IL-2), dacarbazine, and/or temozolomide, have 1) relapsed following an obje",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with malignant melanoma\n* Measurable unresectable Stage III or IV melanoma\n* HLA-A\\*0201 positive\n* Previous treatment with \\& failure/relapse/inability to tolerate IL-2, dacarbazine and/or temozolomide\n* At least 4 weeks since prior treatment\n* Negative pregnancy\n* ",
+            "endpoints": [
+              "Overall Survival (OS) (Time-to-Death) Difference Between MDX-010 in Combination With gp 100 Melanoma Peptide Vaccine Versus gp 100 Melanoma Peptide Vaccine Alone"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT00094653"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01608594",
+            "title": "Neoadjuvant Combination Biotherapy With Ipilimumab (3 mg/kg or 10 mg/kg) and High Dose IFN-Α2B in Patients With Locally/Regionally Advanced/Recurrent Melanoma: a Randomized Safety, Efficacy and Biomarker Study",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2013-05-21",
+            "completion_date": "2017-02-27",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to evaluate the safety and potential effectiveness of a new treatment for advanced and recurrent melanoma involving the combination of Ipilimumab and IFN-α2b before surgery and to test for biomarker studies in blood and/or tumor to better understand this disease, how best to treat it and what patients should be treated with this combination.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women, at least 18 years of age\n* ECOG performance status 0 or 1\n* Histologic diagnosis of melanoma staged:\n* Tx or T1-4 and\n* N1b, or N2b, or N2c, or N3\n* M 0 that may present as any of the following groups:\n* Primary melanoma with clinically apparent regional lymph n",
+            "endpoints": [
+              "Adverse Events"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT01608594"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04988841",
+            "title": "Prospective randomIzed Clinical Trial Assessing the Tolerance and Clinical Benefit of feCAl tranSplantation in patientS With melanOma Treated With CTLA-4 and PD1 Inhibitors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2022-01-20",
+            "completion_date": "2025-04-22",
+            "country": "France",
+            "enrollment": 70,
+            "brief_summary": "Recent studies suggest that patients with metastatic melanoma whose gut microbiome is colonized by eubiotic bacteria have a stronger anti-cancer response to anti CTLA-4 and anti PD1. The hypothesis of this research is that a pooled standardized fecal microbiome transfer (FMT) will shift melanoma patients' gut microbiome towards a composition close to that associated with a better response, and will therefore increase the response to a combination of anti CTLA-4 and anti PD1, without affecting th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aged 18 to 80\n* Patients with unresectable or metastatic melanoma\n* Patients with ECOG performance of 0-2\n* Patients able to provide written informed consent and understand the risks associated with MaaT013\n* Have measurable disease as per RECIST version 1.1, on a tum",
+            "endpoints": [
+              "To assess whether the safety of a 23-week treatment with MaaT013, combined with ipilimumab+nivolumab, is different from that of ipilimumab+nivolumab+placebo in patients with melanoma naïve to Ipilimumab and anti-PD1"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT04988841"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03645928",
+            "title": "A Phase 2, Multicenter Study of Autologous Tumor Infiltrating Lymphocytes (LN 144/LN-145/LN-145-S1) in Patients With Solid Tumors",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-05-07",
+            "completion_date": "2029-08-09",
+            "country": "Switzerland, Spain, United Kingdom, France, Canada, Germany, United States, Greece",
+            "enrollment": 245,
+            "brief_summary": "A prospective, open-label, multi-cohort, non-randomized, multicenter Phase 2 study evaluating adoptive cell therapy (ACT) with TIL \\[LN-144/LN-145 (lifileucel)\\] in combination with immune checkpoint inhibitors or TIL \\[LN-144/LN-145 (lifileucel) and LN-145-S1\\] as a single agent therapy.",
+            "eligibility_criteria": "Inclusion Criteria\n\n* Must have a confirmed diagnosis of malignancy of their receptive histologies: unresectable or metastatic melanoma Stage IIIC to IV (Cohorts 1A,1B and 1C), advanced, recurrent or metastatic HNSCC (Cohort 2A), or Stage III or Stage IV non-small cell lung cancer (Cohorts 3A, 3B, a",
+            "endpoints": [
+              "Objective Response Rate",
+              "Safety Profile Measured by Grade ≥3 TEAEs",
+              "To evaluate the feasibility of producing lifileucel using tumor samples obtained before (Cohort 3D) or during (Cohort 3E) frontline platinum doublet chemotherapy and pembrolizumab in patients with Stage IV NSCLC"
+            ],
+            "sponsor": "Iovance Biotherapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03645928"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06240143",
+            "title": "Multicenter Phase 1b/2 Trial Testing Neoadjuvant Intradermal Ipilimumab and Nivolumab in High Risk Stage II Melanoma - MARIANE",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-03-08",
+            "completion_date": "2034-03",
+            "country": "Netherlands",
+            "enrollment": 96,
+            "brief_summary": "This open label, single country trial will test if local injection of low-dose ipilimumab and nivolumab, is safe and reduces the sentinel node positivity in high-risk stage II melanoma patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women, at least 18 years of age;\n* World Health Organization (WHO) Performance Status 0 or 1;\n* Histologically confirmed, stage pT3-4 cutaneous melanoma (Breslow thickness \\>2.0mm; according to AJCC criteria 8th edition);\n* Having ≥44% risk for SN positivity as assesse",
+            "endpoints": [
+              "Feasibility of application of studytreatment",
+              "Rate of effectiveness of the studytreatment"
+            ],
+            "sponsor": "The Netherlands Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT06240143"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02743819",
+            "title": "Phase II Study of Pembrolizumab and Ipilimumab Following Initial Anti-PD1/L1 Antibody",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-06-28",
+            "completion_date": "2026-06",
+            "country": "United States",
+            "enrollment": 70,
+            "brief_summary": "Phase II study evaluating the benefit of the combination of anti-PD1 (pembrolizumab) and anti-CTLA4 (ipilimumab) antibodies in advanced melanoma. The study will determine the response rate of the combination and evaluate other clinical parameters such as progression-free survival and safety of the combination following anti-PD1/L1 antibody. The study will also provide the opportunity to investigate blood or tumor based factors that may predict response to anti-PD1 antibody in combination with an",
+            "eligibility_criteria": "Inclusion Criteria:\n\nIn order to be eligible for participation in this trial, the subject must:\n\n1. Be willing and able to provide written informed consent for the trial.\n2. Be 18 years of age on day of signing informed consent.\n3. Have experienced disease progression or stable disease lasting at le",
+            "endpoints": [
+              "Overall Response Rate (OR) Per irRECIST"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT02743819"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01689974",
+            "title": "Phase II Randomized Trial of Ipilimumab Versus Ipilimumab and Radiotherapy in Metastatic Melanoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2013-01",
+            "completion_date": "2015-03",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "An attractive area of research regards immune manipulations to recover some of the patient's immune response to his/her tumor, a strategy that has the advantages of being both natural and potentially long-lasting.\\[1\\] We propose to combine immunotherapy with radiotherapy directed to a metastatic site, to create a \"hub\" for in vivo immunization to the tumor, to enable \"tumor rejection\" at the other metastatic sites. This \"in vivo immunization\" is explored as a viable alternative to an individual",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ability to understand and the willingness to sign a written informed consent document;\n* Histologic diagnosis of locally unresectable, metastatic melanoma.\n* Any BRAF status is permitted\n* Any prior therapy is permitted except prior therapy with ipilimumab.\n* Patients must hav",
+            "endpoints": [
+              "Response Rates of Ipilimumab Alone and of Ipilimumab With Radiation Therapy and to Estimate the Difference Between Response Rates With Ipilimumab Alone and Ipilimumab With Radiation Therapy"
+            ],
+            "sponsor": "NYU Langone Health",
+            "url": "https://clinicaltrials.gov/study/NCT01689974"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03126110",
+            "title": "A Phase 1/2 Study Exploring the Safety, Tolerability, and Efficacy of INCAGN01876 in Combination With Immune Therapies in Subjects With Advanced or Metastatic Malignancies",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-04-25",
+            "completion_date": "2021-11-09",
+            "country": "Australia, United States, Spain, Belgium",
+            "enrollment": 145,
+            "brief_summary": "The purpose of this study is to determine the safety, tolerability, and efficacy of INCAGN01876 when given in combination with immune therapies in subjects with advanced or metastatic malignancies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Locally advanced or metastatic disease; locally advanced disease must not be amenable to resection with curative intent.\n* Phase 1: Subjects with advanced or metastatic solid tumors.\n* Phase 1: Subjects who have disease progression after treatment with available therapies.\n* P",
+            "endpoints": [
+              "Phase 1: Number of Participants With Any Treatment-emergent Adverse Event (TEAE)",
+              "Phase 2: Objective Response Rate (ORR) Per RECIST v1.1"
+            ],
+            "sponsor": "Incyte Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT03126110"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03958383",
+            "title": "Phase I/II Intratumoral Administration of Hu14.18-IL2, With Local Radiation, Nivolumab and Ipilimumab in Subjects With Advanced Melanoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-01-30",
+            "completion_date": "2026-08-15",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "This phase I/II trial is designed to determine the maximum tolerated dose or the maximum administered dose of intratumoral administration of hu14.18-IL2 and to evaluate side effects of intratumoral hu14.18-IL2 when given alone, after radiation therapy, after radiation therapy and in combination with nivolumab, and after radiation therapy and in combination with nivolumab and ipilimumab in patients with melanoma that is advanced (stage IV) or with melanoma that cannot be removed by surgery and is",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must have histologically proven, malignant melanoma, that is advanced (stage IV) or is unresectable and therefore considered surgically incurable\n* Subject's disease must be measurable by immune-related RECIST criteria using clinical assessments or imaging\n* Subjects ",
+            "endpoints": [
+              "Incidence of Adverse Events",
+              "Maximum Tolerated Dose (MTD)",
+              "Maximum Administered Dose (MAD)"
+            ],
+            "sponsor": "University of Wisconsin, Madison",
+            "url": "https://clinicaltrials.gov/study/NCT03958383"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01515189",
+            "title": "A Randomized Double-Blind Phase III Study of Ipilimumab Administered at 3 mg/kg Versus at 10 mg /kg in Subjects With Previously Treated or Untreated Unresectable or Metastatic Melanoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2012-02-17",
+            "completion_date": "2017-08-17",
+            "country": "Australia, Belgium, Austria, United States, Canada, Netherlands, Italy, Czechia, Sweden, Poland, Norway, United Kingdom, France, Germany, Argentina, Israel, Denmark, Mexico, Hungary, Switzerland, Spain, South Africa",
+            "enrollment": 831,
+            "brief_summary": "The purpose of this study is to determine whether giving Ipilimumab at a dose of 10mg/kg will extend the lives of subjects with unresectable or metastatic melanoma more than giving Ipilimumab at a dose of 3 mg/kg",
+            "eligibility_criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com.\n\nInclusion Criteria:\n\n* Unresectable Stage III or Stage IV melanoma\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n\nExclusion Criteria:\n\n* Brain metastases with symptoms o",
+            "endpoints": [
+              "Overall Survival (OS)"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT01515189"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06047379",
+            "title": "An Open-label Phase 1/2 Dose Finding, Safety and Efficacy Study of Oral NEO212 in Patients With Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or Uncontrolled Brain Metastasis in Patients With Select Solid Tumors.",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2027-08-31",
+            "country": "United States",
+            "enrollment": 134,
+            "brief_summary": "This multi-site, Phase 1/2 clinical trial is an open-label study to identify the safety, pharmacokinetics, and efficacy of a repeated dose regimen of NEO212 alone for the treatment of patients with radiographically-confirmed progression of Astrocytoma IDH- mutant, Glioblastoma IDH-wildtype, and the safety, pharmacokinetics and efficacy of a repeated dose regimen of NEO212 when given with select SOC for the treatment of solid tumor patients with radiographically confirmed uncontrolled metastases ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be ≥ 18yrs of age.\n* Patient must have the ability to understand, and the willingness to sign, a written informed consent form.\n* Patient has been on a stable or decreasing dose of steroids for at least five days prior to the date of informed consent.\n* Any toxici",
+            "endpoints": [
+              "Phase 1: safety and tolerability of increasing dose levels of orally administered NEO212 alone in patients with Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or patients with select solid tumors with uncontrolled metastases to the brain",
+              "Phase 1: Identify the maximum tolerated dose (MTD) of NEO212",
+              "Phase 1: Determine the recommended Phase 2 dose (RP2D) of NEO212"
+            ],
+            "sponsor": "Neonc Technologies, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06047379"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05384496",
+            "title": "Phase 2 Study of Axitinib + PD-1 Blockade in Mucosal Melanoma With Pilot Addition of Stereotactic Body Radiotherapy or Ipilimumab in Select Progressors",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-05-17",
+            "completion_date": "2027-05",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "The researchers are doing this study to find out whether the combination of axitinib and nivolumab is an effective and safe treatment for people with advanced or metastatic mucosal melanoma that has not been treated before.\n\nThe researchers think that a combination of axitinib and nivolumab may help people with this disease because both drugs target and block proteins that play a role in cancer cell survival and growth. The researchers think the drugs may be more effective if given in combinatio",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologic diagnosis of unresectable or advanced mucosal melanoma arising from the head/neck (e.g. sinonasal, oral cavity, conjunctival), gastrointestinal (e.g. anorectal, esophageal), or genitourinary (e.g. vulvovaginal, urethral) sites.\n* Measurable disease\n\n  1. Initial stu",
+            "endpoints": [
+              "best objective response"
+            ],
+            "sponsor": "Memorial Sloan Kettering Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT05384496"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01709162",
+            "title": "A Randomized, Open-Label, Multicenter Phase II Study of Ipilimumab Retreatment Versus Chemotherapy for Subjects With Advanced Melanoma Who Progressed After Initially Achieving Disease Control With Ipilimumab Therapy",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2013-03",
+            "completion_date": "2014-07",
+            "country": "France, Austria, Italy, Germany, United States",
+            "enrollment": 31,
+            "brief_summary": "The purpose of the study is to determine whether additional doses of ipilimumab have a positive effect on survival in the treatment of advanced melanoma that has progressed after successful initial treatment with ipilimumab.",
+            "eligibility_criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com.\n\nKey Inclusion Criteria:\n\n* Histologic diagnosis of unresectable stage III or IV metastatic melanoma\n* Prior ipilimumab induction treatment (3 mg/kg)\n* Documented disease control \\[Stable Disease ≥",
+            "endpoints": [
+              "Overall Survival"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT01709162"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02662725",
+            "title": "A Multicenter Phase II Study of Ipilimumab Combined With a Stereotactic Radiosurgery in Melanoma Patients With Brain Metastases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-09",
+            "completion_date": "2015-12",
+            "country": "France",
+            "enrollment": 73,
+            "brief_summary": "This is a non-controlled, open label, Phase II Study of ipilimumab combined with a Stereotactic Radiosurgery. The study included an induction phase of four IV infusions of Ipilimumab at 10 mg/kg every 3 weeks associated with a stereotactic radiosurgery performed 3 days before 2nd ipilimumab administration. A Maintenance phase included Ipilimumab, IV, 10 mg/kg once every 12 weeks, starting at week 24, in the absence of PD, unacceptable toxicity or withdrawal of consent or disease progression. The",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Willing and able to give written informed consent.\n2. Men and women ≥ 18 years of age.\n3. Patient eligible to single dose Stereotactic Radiotherapy (Radiosurgery) as per the pluridisciplinary committee.\n4. Neurologically asymptomatic or pauci-symptomatic patients. Patients wi",
+            "endpoints": [
+              "Overall survival rate"
+            ],
+            "sponsor": "University Hospital, Lille",
+            "url": "https://clinicaltrials.gov/study/NCT02662725"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02009384",
+            "title": "A Phase II Open-Label Study of Ipilimumab Administered to Stage IIIC and Stage IV Melanoma Patients After Regulatory T Cell Depletion With Denileukin Diftitox",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2012-01",
+            "completion_date": "2014-10",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "This is an open-label, clinical efficacy study of Ipilimumab in patients with Stage IIIC and Stage IV melanoma who have recently been treated with Denileukin Diftitox. Approximately 42 patients with radiographically measurable melanoma who have received at least one cycle of Denileukin Diftitox will be enrolled and treated in the study.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female patients ≥18 years of age;\n2. Patients with histological confirmed melanoma (Stage IIIC or Stage IV, American Joint Commission on Cancer);\n3. Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) of 0 to 2;\n4. Life expectancy ≥3 months;\n5. Treatment",
+            "endpoints": [
+              "Change From Baseline Using Immune-related Response Criteria (irRC)"
+            ],
+            "sponsor": "University of Louisville",
+            "url": "https://clinicaltrials.gov/study/NCT02009384"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02659540",
+            "title": "A Pilot (Phase 1) Study to Evaluate the Safety and Efficacy of Combination Checkpoint Blockade (Ipilimumab and Nivolumab) Plus External Beam Radiotherapy in Subjects With Stage IV Melanoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2016-10-13",
+            "completion_date": "2020-07-27",
+            "country": "United States",
+            "enrollment": 20,
+            "brief_summary": "This is an ongoing, Phase 1, open-label, multicenter, pilot study of the checkpoint antibodies ipilimumab and nivolumab in combination with radiotherapy (RT) in 18 subjects with unresectable Stage IV melanoma. The primary study objective is to evaluate the safety of study treatment. Secondary objectives are to evaluate objective response rate (ORR) and disease control rate (DCR) at Weeks 12 and 18, duration of response, progression-free survival (PFS), and overall survival (OS).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Histologic diagnosis of Stage IV metastatic melanoma, with 1 melanoma lesion that could be safely irradiated and, in the opinion of the radiation oncologist, was of benefit to the subject to irradiate (note: subjects with primary ocular and mucosal melanoma were permitted). L",
+            "endpoints": [
+              "Number of Subjects With Treatment-emergent Adverse Events (TEAEs)"
+            ],
+            "sponsor": "Ludwig Institute for Cancer Research",
+            "url": "https://clinicaltrials.gov/study/NCT02659540"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04697576",
+            "title": "Intralesional Influenza Vaccine for Patients With Melanoma",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-10-20",
+            "completion_date": "2026-12-31",
+            "country": "United States",
+            "enrollment": 36,
+            "brief_summary": "This phase I trial investigates the effects of influenza vaccine in treating patients with stage I-IV melanoma. While intramuscular administration of influenza vaccine provides immunization against the influenza virus, giving influenza vaccine directly into the tumor (intralesional) may decrease the size of the injected melanoma tumor, or the extent of the melanoma within the body.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Males or females\n* 18 to 99 years of age\n* Histologically confirmed cutaneous melanoma by historical pathology report review, clinical Stage I-III (Cohort #1), or Stage IV (Cohort #2) cutaneous melanoma\n* At least one, biopsy-proven, palpable melanoma tumor deposit suitable fo",
+            "endpoints": [
+              "Incidence of adverse events (AEs)",
+              "Maximum tolerated dose (MTD) in Cohorts #1 and #2"
+            ],
+            "sponsor": "Ohio State University Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT04697576"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04495257",
+            "title": "A Phase I Study of APX005M in Combination With Nivolumab and Ipilimumab in Treatment Naïve Patients With Advanced Melanoma or Renal Cell Carcinoma",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-09-14",
+            "completion_date": "2026-08-28",
+            "country": "United States",
+            "enrollment": 26,
+            "brief_summary": "This study is a Phase 1, open-label, single institution, dose escalation and dose expansion study to evaluate the efficacy, safety, and tolerability of APX005M in combination with nivolumab and ipilimumab in patients with advanced melanoma and RCC.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. At least 1 site of disease must be accessible to provide repeat biopsies for tumor tissue. The biopsy may be waived if not feasible upon discussion with the study PIs. This site may be a target lesion as long as it will not be rendered unmeasurable by the biopsy procedure.",
+            "endpoints": [
+              "Dose-limiting toxicities",
+              "Recommended dose of APX005M"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT04495257"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01708941",
+            "title": "A Randomized Phase II Study of Ipilimumab at 3 mg/kg or 10 mg/kg Alone or in Combination With High Dose Interferon-Alpha in Advanced Melanoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2013-01-18",
+            "completion_date": "2026-03-19",
+            "country": "United States",
+            "enrollment": 88,
+            "brief_summary": "This randomized phase II trial studies how well ipilimumab with or without high-dose recombinant interferon alpha-2b works in treating patients with stage III-IV melanoma that cannot be removed by surgery. Monoclonal antibodies, such as ipilimumab, may block tumor growth by targeting certain cells. Recombinant interferon alfa-2b may interfere with the growth of tumor cells. It is not yet known whether ipilimumab is more effective with or without high-dose recombinant interferon alfa-2b in treati",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have unresectable stage III or stage IV melanoma, either initial presentation or recurrent, that is of cutaneous origin or unknown primary origin and that is histologically diagnosed\n* No more than one prior systemic therapeutic regimen for unresectable stage III",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01708941"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04655157",
+            "title": "A Multi-Center Phase I/II Open Label Study to Evaluate Safety and Efficacy in Participants With Metastatic BRAF-mutant Melanoma Treated With Encorafenib With and Without Binimetinib in Combination With Nivolumab and Low-dose Ipilimumab. (QUAD 01: Quadruple Therapy in Melanoma)",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2021-05-28",
+            "completion_date": "2022-09-20",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "Patients with unresectable or metastatic BRAF-mutant melanoma high-risk patients will be given 450 mg orally (PO) daily (QD) plus binimetinib 45 mg PO twice daily (BID) together with nivolumab administered intravenously (IV) at 3mg/kg and ipilimumab administered IV at 1 mg/kg every 3 weeks for 4 doses, followed by nivolumab administered IV at 480mg every 4 weeks until progression or discontinuation due to toxicity. Concurrently, a triple therapy arm will be explored with encorafenib 300 mg PO QD",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed Written Informed Consent\n\n   1. Participants must have signed and dated an IRB/IEC approved written informed consent form in accordance with regulatory and institutional guidelines. This must be obtained before the performance of any protocol-related procedures that ar",
+            "endpoints": [
+              "Recommended Phase II Dose (RP2D) of Encorafenib + Nivolumab + Ipilimumab",
+              "Recommended Phase II Dose (RP2D) of Encorafenib + Binimetinib + Nivolumab + Ipilimumab"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT04655157"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03165422",
+            "title": "A Real-World Study of Ipilimumab Treatment After Nivolumab Treatment in Melanoma in Japan",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2017-03-01",
+            "completion_date": "2018-12-29",
+            "country": "Japan",
+            "enrollment": 68,
+            "brief_summary": "This is a medical chart review of ipilimumab treatment after nivolumab treatment in melanoma in Japan",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult patients \\> 18 years of age or older\n* Diagnosis of advanced melanoma (unresectable/metastatic), alive or deceased as of date of data collection\n* Treated with ipilimumab between 31-Aug-2015 and 31-Mar-2017 before or after nivolumab treatment\n\nExclusion Criteria:\n\n* Pati",
+            "endpoints": [
+              "Incidence of ipilimumab treatment after nivolumab treatment",
+              "Incidence of nivolumab treatment after ipilimumab treatment",
+              "Duration of nivolumab treatment"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT03165422"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00636168",
+            "title": "Adjuvant Immunotherapy With Anti-CTLA-4 Monoclonal Antibody (Ipilimumab) Versus Placebo After Complete Resection of High Risk Stage III Melanoma: A Randomized, Double-blind Phase 3 Trial of the EORTC Melanoma Group",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2008-06-30",
+            "completion_date": "2018-11-26",
+            "country": "Australia, Belgium, Austria, United States, Canada, Netherlands, Italy, Russia, Czechia, Sweden, Poland, Norway, United Kingdom, France, Germany, Denmark, Switzerland, Spain, Finland",
+            "enrollment": 1211,
+            "brief_summary": "The purpose of the study is to determine if ipilimumab is effective in preventing or delaying recurrence and prolongs survival after complete resection of high risk stage III melanoma",
+            "eligibility_criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com.\n\nInclusion Criteria:\n\n* Age ≥ 18 years\n* Complete and adequate resection of Stage III melanoma with histologically confirmed melanoma metastatic to lymph node\n* Disease-free\n* Eastern Cooperative O",
+            "endpoints": [
+              "Recurrence Free Survival (RFS) Per Independent Review Committee (IRC) in the Intent to Treat (ITT) Population",
+              "Number of Participants With Recurrence or Death as Per Independent Review Committee (IRC) in the Intent to Treat (ITT) Population",
+              "Recurrence-Free Survival (RFS) Rates Per IRC at 1 Year, 2 Years, and 3 Years in the ITT Population"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT00636168"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06581406",
+            "title": "A Randomized, Phase 2/3, Open-Label Study to Investigate the Efficacy and Safety of RP2 in Combination With Nivolumab Versus Ipilimumab in Combination With Nivolumab in Immune Checkpoint Inhibitor-Naïve Adult Patients With Metastatic Uveal Melanoma",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-12-17",
+            "completion_date": "2031-10",
+            "country": "United Kingdom, United States",
+            "enrollment": 280,
+            "brief_summary": "The purpose of this study is to measure the clinical benefits of the combination of RP2 and nivolumab as compared with the combination of nivolumab and ipilimumab in patients with metastatic uveal melanoma who have not been treated with immune checkpoint inhibitor therapy.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Patients who are 18 years of age or older at the time of signed informed consent.\n* Patients with confirmed diagnosis of metastatic Uveal melanoma not amenable to surgical resection.\n* Has at least 1 measurable and injectable tumor of ≥ 1 cm in longest diameter (≥ 1.5 cm i",
+            "endpoints": [
+              "Overall Survival (OS)",
+              "Progression Free Survival (PFS)"
+            ],
+            "sponsor": "Replimune Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06581406"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03326258",
+            "title": "Phase Ib/II Clinical Trial of Glembatumumab Vedotin and Nivolumab in Advanced Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2018-04-20",
+            "completion_date": "2018-04-20",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "This phase Ib/II trial studies the best dose of glembatumumab vedotin when giving together with nivolumab and ipilimumab in treating patients with solid tumor that has spread to other places in the body and cannot be removed by surgery. Monoclonal antibodies, such as glembatumumab vedotin, nivolumab, and ipilimumab, may interfere with the ability of tumor cells to grow and spread.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed malignancy that is metastatic or unresectable and for which standard curative measures do not exist or are no longer effective\n* For TNBC and solid tumors other than melanoma: GPNMB expression as defined by at least 25% of malignant ",
+            "endpoints": [
+              "Recommended phase 2 dose for the combination of glembatumumab vedotin and nivolumab (Phase Ib)",
+              "Antitumor activity measured by Immune-Modified Response Evaluation Criteria in Solid Tumors (iRECIST)/Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 (Phase II)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT03326258"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00623766",
+            "title": "A Multi-Center Phase II Study to Evaluate Tumor Response to Ipilimumab (BMS-734016) Monotherapy in Subjects With Melanoma Brain Metastases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2008-07",
+            "completion_date": "2012-10",
+            "country": "United States",
+            "enrollment": 99,
+            "brief_summary": "To assess the response of melanoma with brain metastases to ipilimumab treatment while maintaining acceptable tolerability.",
+            "eligibility_criteria": "Key inclusion criteria\n\n* Histologically confirmed malignant melanoma\n* At least 1 measurable index brain metastasis \\>0.5 cm and no larger than 3 cm in diameter that had not been previously irradiated, and/or 2 measurable lesions \\>0.3 cm visible on contrast magnetic resonance\n* Index brain lesion ",
+            "endpoints": [
+              "Disease Control Rate by Modified World Health Organization (mWHO) Tumor Assessment Criteria"
+            ],
+            "sponsor": "Bristol-Myers Squibb",
+            "url": "https://clinicaltrials.gov/study/NCT00623766"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03033576",
+            "title": "A Phase II Randomized Study of Nivolumab (NSC-748726) With Ipilimumab (NSC-732442) or Ipilimumab Alone in Advanced Melanoma Patients Refractory to an Anti-PD1 or Anti-PD-L1 Agent",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-10-23",
+            "completion_date": "2024-03-20",
+            "country": "United States",
+            "enrollment": 94,
+            "brief_summary": "This phase II trial studies how well ipilimumab with or without nivolumab work in treating patients with melanoma that is stage IV or stage III and cannot be removed by surgery. Immunotherapy with monoclonal antibodies, such as ipilimumab and nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have pathologically confirmed melanoma that is either stage IV or unresectable stage III; patients may have primaries of cutaneous, mucosal or unknown origin; patients with uveal (ocular) primary are not eligible\n* Patients must have measurable disease per RECIST",
+            "endpoints": [
+              "Progression Free Survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT03033576"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02306850",
+            "title": "Phase 2B Single-site, Open-label, Nonrandomized Study Evaluating the Efficacy of Neoadjuvant Pembrolizumab for Unresectable Stage III and Unresectable Stage IV Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-01",
+            "completion_date": "2018-06-08",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "This study is being done to see if using the study drug, pembrolizumab, can shrink down melanoma tumors enough so that they will be small enough to cut out, so that there will be no cancer left in the body.\n\nEligible participants include those who have not received any systemic melanoma therapies (i.e. participants do not have to fail ipilimumab or BRAF inhibitor) and those who have failed all available systemic options (if the participant meets other inclusion / exclusion criteria).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Be able to provide written informed consent.\n2. Be 18 years old at time of consent.\n3. Have measurable disease by RECIST 1.1.\n4. Has a diagnosis of unresectable Stage III or Stage IV melanoma with anatomic site(s) of metastasis that could be amenable to curative resection if ",
+            "endpoints": [
+              "Resectability Rate"
+            ],
+            "sponsor": "St. Louis University",
+            "url": "https://clinicaltrials.gov/study/NCT02306850"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01302496",
+            "title": "A Two-stage Phase II Study of Autologous TriMix-DC Therapeutic Vaccine in Combination With Ipilimumab in Patients With Previously Treated Unresectable Stage III or IV Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2011-02",
+            "completion_date": "2017-01",
+            "country": "Belgium",
+            "enrollment": 39,
+            "brief_summary": "The CTLA-4 blocking monoclonal antibody ipilimumab (MDX-010, BMS-734016), has demonstrated anti-tumor activity in a subgroup of patients with Stage III (unresectable) or Stage IV melanoma (measurable per modified WHO criteria), who have received prior treatment with any regimen (non-experimental or experimental), except a CD-137 agonist or a CTLA4 inhibitor or agonist and relapsed, failed to respond (CR or PR) or did not tolerate that regimen (Wolchok, Neyns et al. 2009; O'Day, Maio et al. 2010)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Willing and able to give written informed consent;\n2. Accessible for treatment and follow-up;\n3. Histologically confirmed malignant melanoma; primary melanoma of the skin, or unknown primary site (patients with primary mucosa or uveal melanoma are not eligible).\n4. Measurable",
+            "endpoints": [
+              "disease control rate according to the immune-related response criteria"
+            ],
+            "sponsor": "Universitair Ziekenhuis Brussel",
+            "url": "https://clinicaltrials.gov/study/NCT01302496"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "24999899",
+            "title": "Ipilimumab in pretreated patients with unresectable or metastatic cutaneous, uveal and mucosal melanoma.",
+            "abstract": "To evaluate the efficacy and tolerability of ipilimumab in an Australian clinical setting, and to assess the association of response with melanoma subtype, BRAF mutation status, absolute lymphocyte count and incidence of serious immune-related adverse events (AEs).",
+            "journal": "The Medical journal of Australia",
+            "year": "2014",
+            "authors": [
+              "Alexander Marliese",
+              "Mellor James D",
+              "McArthur Grant",
+              "Kee Damien"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "DNA Mutational Analysis",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Humans",
+              "Ipilimumab",
+              "Lymphocyte Count"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24999899/"
+          },
+          {
+            "pmid": "28183255",
+            "title": "Melanoma Adjuvant Treatment: Current Insight and Clinical Features.",
+            "abstract": "Melanoma represents 2-3% of all cancers, 95% of them arise from skin, while only 5% are non-cutaneous melanoma. Despite an optimal surgery management, the risk of a local and systemic relapse remains high, particularly in high-risk patients (node-positive or node-negative T3b, T4 a/b). We conducted a systematic review of the main published and ongoing phase I/II/III trials between 2000 and June 2015 on the adjuvant treatment of cutaneous melanoma. The IFN remains the only option currently available for this aim. Ipilimumab represents a possible breakthrough in this setting, considering the positive results of the EORTC 18701 trials in terms of disease free survival (DFS), while data regarding OS are pending. Recent advances in the understanding of the biology of melanoma result in the identification of MAPK pathway role in the melanoma development. Based on these features, B-RAF inhibitors and their combination with immunotherapy could represent the upcoming therapeutic strategy.",
+            "journal": "Current cancer drug targets",
+            "year": "2018",
+            "authors": [
+              "D'Aniello Carmine",
+              "Perri Francesco",
+              "Scarpati Giuseppina Della Vittoria",
+              "Pepa Chiara Della",
+              "Pisconti Salvatore"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Chemotherapy, Adjuvant",
+              "Humans",
+              "Melanoma",
+              "Prognosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28183255/"
+          },
+          {
+            "pmid": "29466692",
+            "title": "Anti-programmed cell death-1 (PD-1) monoclonal antibodies in treating advanced melanoma -- a clinical update.",
+            "abstract": "Since their approval by regulatory agencies worldwide, the anti-PD-1 monoclonal antibodies (mAbs), as monotherapy or in combination with ipilimumab, have become the standard frontline therapy for advanced BRAF-wild-type melanoma and an eminent rival to targeted therapy in the first-line setting for unresectable BRAF-mutated melanoma. Mature survival data from randomized phase 3 trials have emerged, confirming their position in the current treatment schema for advanced melanoma. Recently, the clinical utility of anti-PD-1 agents has extended into other disease settings, such as resected high-risk melanomas, non-cutaneous subtypes, and brain metastases. How to best combat resistance to anti-PD-1 mAbs remains the major focus of clinical investigations. This review aims to provide an update on the recent progress and current challenges relating to the clinical application of anti-PD-1 agents in the treatment of advanced melanoma.",
+            "journal": "Discovery medicine",
+            "year": "2018",
+            "authors": [
+              "Trinh Van Anh",
+              "Joseph Jocelyn",
+              "Hwu Wen-Jen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Immunological",
+              "Brain Neoplasms",
+              "Female",
+              "Humans",
+              "Male",
+              "Melanoma",
+              "Neoplasm Metastasis",
+              "Neoplasm Proteins",
+              "Programmed Cell Death 1 Receptor",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29466692/"
+          },
+          {
+            "pmid": "37887546",
+            "title": "Effectiveness of Immune Checkpoint Inhibitor with Anti-PD-1 Monotherapy or in Combination with Ipilimumab in Younger versus Older Adults with Advanced Melanoma.",
+            "abstract": "Background: The majority of melanoma is diagnosed in individuals between 55 and 84 years old. Current data varied in reporting differences in survival outcomes amongst different age groups. Methods: A retrospective, multi-center, provincial cohort database was used to investigate the relationship between age (<65 or ≥65 years old) and overall survival. Patients must have had histologically confirmed locally advanced or metastatic melanoma and had to have received at least one cycle of immunotherapy (single agent nivolumab, pembrolizumab, or combination ipilimumab plus nivolumab). Results: From August 2013 to May 2020, we identified 497 patients (median age = 64 [range 12-96 years]; 65.2% men; 36.4% with a BRAF mutation (V600E and V600K)). Of these, 260 were < 65 years old, and 237 were ≥65 years old. A total of 39.1% of the patients in the younger cohort received combination ICI compared with 10.2% in the older cohort, and the difference was statistically significant. Median survival a",
+            "journal": "Current oncology (Toronto, Ont.)",
+            "year": "2023",
+            "authors": [
+              "Woo Taylor E",
+              "Stukalin Igor",
+              "Ding Philip Q",
+              "Goutam Siddhartha",
+              "Sander Michael"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Aged",
+              "Child",
+              "Adolescent",
+              "Young Adult",
+              "Adult",
+              "Middle Aged",
+              "Aged, 80 and over",
+              "Child, Preschool"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37887546/"
+          },
+          {
+            "pmid": "40236344",
+            "title": "A Case Report of Metastatic Melanoma in the Transverse Colon.",
+            "abstract": "Colonic metastasis from melanoma is extremely rare and is often asymptomatic, complicating detection. Diagnosis requires imaging and endoscopic evaluation. Treatment typically involves surgical resection with systemic therapies like immunotherapy and targeted therapy. However, immunotherapy has increased immune-related adverse events, including gastrointestinal perforation, a rare but serious complication. This report details a case of a Caucasian male patient in his 60s with a history of excised scalp melanoma eight years prior, who developed metastatic melanoma in the transverse colon. After initiating combination immunotherapy with ipilimumab/nivolumab, he suffered a bowel perforation, necessitating palliative care. The case underscores the need for vigilant monitoring for asymptomatic gastrointestinal tract metastases in melanoma patients and careful risk assessment when considering immunotherapy. It emphasizes the challenge of balancing aggressive treatment with managing potential",
+            "journal": "Cureus",
+            "year": "2025",
+            "authors": [
+              "Tan Sophia Bee Ting",
+              "Lamparelli Michael"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40236344/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell melanoma",
+        "txgnn_score": 0.9896048307418824,
+        "txgnn_rank": 10822,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02834013",
+            "title": "DART: Dual Anti-CTLA-4 and Anti-PD-1 Blockade in Rare Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-01-30",
+            "completion_date": "2026-05-01",
+            "country": "Guam, United States",
+            "enrollment": 818,
+            "brief_summary": "This phase II trial studies nivolumab and ipilimumab in treating patients with rare tumors. Immunotherapy with monoclonal antibodies, such as nivolumab and ipilimumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.\n\nThis trial enrolls participants for the following cohorts based on condition:\n\n1. Epithelial tumors of nasal cavity, sinuses, nasopharynx: A) Squamous cell carcinoma with variants of nasal cavity, sinuses, an",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients are eligible under ONE of the following criteria:\n\n  * For all cohorts except the gestational trophoblastic disease (GTD) (Cohort #47), patients must have histologically and/or biochemically confirmed rare cancer and must be able to submit specimens; to be eligible fo",
+            "endpoints": [
+              "Overall response rate (ORR)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02834013"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40697187",
+            "title": "Synchronous Presentation of Nodular Melanoma and Epithelioid Cell Melanoma: Case Report.",
+            "abstract": "Introduction: The synchronous occurrence of melanomas of varying histological types is an uncommon event, with reported incidences ranging from 0.2% to 8.6%. Case Report: We present the case of a patient diagnosed with Stage IIB nodular melanoma and Stage IIIC epithelioid cell melanoma within a 3-month period. After surgical excision of both lesions, lymph node enlargement was observed in the obturator region, indicating metastatic spread. As a result, combined immunotherapy with nivolumab and ipilimumab was initiated. Nivolumab and ipilimumab were administered at doses of 1 and 3 mg/kg, respectively, every 3 weeks for a total of four doses. Thereafter, treatment was continued with nivolumab alone at a dose of 3 mg/kg every 2 weeks. The patient underwent three cycles of immunotherapy, initially combined with intravenous methylprednisolone, later transitioned to an oral regimen with dexamethasone. The patient initially demonstrated a favorable clinical response without adverse effects. ",
+            "journal": "Case reports in oncological medicine",
+            "year": "2025",
+            "authors": [
+              "Gizzi Gianluca",
+              "Didona Dario",
+              "Thal Serge C",
+              "Scarsella Luca"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40697187/"
+          },
+          {
+            "pmid": "25610749",
+            "title": "Late development of splenic sarcoidosis-like lesions in a patient with metastatic melanoma and long-lasting clinical response to ipilimumab.",
+            "abstract": "A male patient with Stage IV melanoma was treated with ipilimumab resulting in a long-lasting partial response according to RECIST criteria. However, twenty months after ipilimumab treatment, routine follow-up CT scan revealed new splenic lesions initially interpreted as indicative of progressive disease. Nevertheless, a biopsy was performed and histologic evaluation showed that the lesions did not contain malignant cells but rather constituted non-caseating epithelioid cell granulomas consistent with sarcoidosis. As the patient was asymptomatic no treatment was initiated and over the following months the splenic lesions slowly disappeared and to date the patient remains in remission. Ipilimumab is now widely used in the treatment of melanoma patients. Our case-report illustrates that physicians should consider the possibility of ipilimumab induced visceral sarcoidosis-like reactions, mimicking metastatic lesions, developing even many months after ipilimumab treatment. Thus, biopsy of ",
+            "journal": "Oncoimmunology",
+            "year": "2014",
+            "authors": [
+              "Andersen Rikke",
+              "Nørgaard Peter",
+              "Al-Jailawi Mohamad Kadhem Mohamad",
+              "Svane Inge Marie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25610749/"
+          },
+          {
+            "pmid": "26877232",
+            "title": "Extensive tumoral melanosis associated with ipilimumab-treated melanoma.",
+            "abstract": "Tumoral melanosis describes a pigmented lesion clinically similar to melanoma but on histology reveals dense aggregates of melanin-laden, benign macrophages without malignant cells. In the few reported cases so far, tumoral melanosis has arisen in the skin or lymph node of a patient with a regressed melanoma or an epithelioid tumour. As a marker of regressed primary melanoma, its discovery may prompt investigation and surveillance for undiagnosed local or metastatic disease. Here, we present a unique case of extensive tumoral melanosis arising during ipilimumab treatment of in-transit metastases from a previously excised melanoma.",
+            "journal": "The British journal of dermatology",
+            "year": "2016",
+            "authors": [
+              "Staser K",
+              "Chen D",
+              "Solus J",
+              "Rosman I S",
+              "Schaffer A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Diagnosis, Differential",
+              "Humans",
+              "Ipilimumab",
+              "Male",
+              "Melanoma",
+              "Melanosis",
+              "Neoplasm Recurrence, Local"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26877232/"
+          },
+          {
+            "pmid": "39987464",
+            "title": "Rare Lacrimal Gland Melanoma: A Case Report and Treatment Insights.",
+            "abstract": "BACKGROUND Melanoma is a malignant transformation of melanocytes known for its capacity to metastasize, necessitating early diagnosis and intervention. While over 97% of melanomas are diagnosed with a known primary site, such as the skin, eye, or mucous membranes, rare cases like melanoma of unknown primary (MUP) can present with atypical manifestations, highlighting the need for comprehensive examinations. CASE REPORT In January 2023, a 68-year-old woman presented with a 4-week history of swelling and discoloration in her left upper eyelid, revealing a hard, livid mass indicative of malignancy. Surgery and subsequent histopathology confirmed epithelioid cell melanoma in the lacrimal gland. Although no other primary melanoma sites were found, imaging and biopsy in August 2023 identified metastatic spread to her lungs. Despite proton radiotherapy, progression led to thoracoscopic surgery for metastasis resection in September 2023. Further re-evaluation revealed metastases in both lungs,",
+            "journal": "The American journal of case reports",
+            "year": "2025",
+            "authors": [
+              "Told Reinhard",
+              "Schiefer Ana-Iris",
+              "Hoeller Christoph",
+              "Reumueller Adrian",
+              "Kreminger Judith"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Melanoma",
+              "Aged",
+              "Eye Neoplasms",
+              "Lung Neoplasms",
+              "Lacrimal Apparatus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39987464/"
+          },
+          {
+            "pmid": "38757469",
+            "title": "Utility of next-generation sequencing in the diagnosis of metastatic melanoma: A case report.",
+            "abstract": "During routine dermatologic examination, a 77-year-old male was noted to have a firm blue subcutaneous nodule on his right lateral upper back. His past medical history included metastatic melanoma of unknown primary involving right and left axillary lymph nodes, treated with ipilimumab/nivolumab with complete response, and subsequent primary uveal melanoma. The subcutaneous nodule was located near his previous right axillary scar for metastatic melanoma. Excision of the nodule showed a plexiform neoplasm involving mid and deep dermis composed of spindle and epithelioid atypical cells admixed with numerous melanophages. Central necrosis was present. Immunohistochemical studies revealed the tumor cells to be diffusely positive for HMB45, with retained expression of BAP1 and p16. The tumor cells were negative for PRAME, nuclear expression of β-catenin, LEF1, and BRAF V600E. Molecular studies demonstrated BAP1 and GNA11 somatic mutations, a profile different from that exhibited by his prio",
+            "journal": "Journal of cutaneous pathology",
+            "year": "2024",
+            "authors": [
+              "Turcios Escobar Saul",
+              "Yang Richard",
+              "Nelson Kelly C",
+              "Gershenwald Jeffrey E",
+              "Tawbi Hussein"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Melanoma",
+              "Aged",
+              "Skin Neoplasms",
+              "Ubiquitin Thiolesterase",
+              "High-Throughput Nucleotide Sequencing",
+              "Uveal Neoplasms",
+              "Tumor Suppressor Proteins",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38757469/"
+          },
+          {
+            "pmid": "30454709",
+            "title": "Immunotherapy with ipilimumab plus nivolumab in a stage IV melanoma patient during pregnancy.",
+            "abstract": "",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2018",
+            "authors": [
+              "Menzer Christian",
+              "Beedgen Bernd",
+              "Rom Joachim",
+              "Duffert Christin M",
+              "Volckmar Anna-Lena"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cesarean Section",
+              "Digestive System Neoplasms",
+              "Fatal Outcome",
+              "Female",
+              "Humans",
+              "Immunotherapy",
+              "Infant, Newborn",
+              "Infant, Premature",
+              "Ipilimumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30454709/"
+          },
+          {
+            "pmid": "24274261",
+            "title": "Diagnostic dilemma: late presentation of amelanotic BRAF-negative metastatic malignant melanoma resembling clear cell sarcoma: a case report.",
+            "abstract": "Clear cell sarcoma is a rare cancer primarily of tendons, fascia, and aponeuroses that can be difficult to discern from primary cutaneous malignant melanoma. The two cancers share several histological markers, with most cases of both cancers staining positively for S-100, HMB-45, and melanin. Primary therapy of both cancers involves wide local excision, but while systemic therapy has proven benefit for malignant melanoma, it has not been established for clear cell sarcoma.We report the case of a 58 year old woman with a large, ulcerated, fungating mass on her left lower leg. Frozen section of the mass showed a malignant epithelioid and spindle cell tumor confined to the subcutaneous tissue. A provisional diagnosis of soft-tissue sarcoma was made. Through in-depth study of initial biopsy with immunohistochemistry for S-100, HMB-45, MART-1, and MITF, along with karyotyping and FISH analysis for EWS gene rearrangement, the diagnosis of amelanotic malignant melanoma was confirmed. The pati",
+            "journal": "Diagnostic pathology",
+            "year": "2013",
+            "authors": [
+              "Wagner Barrett Parker",
+              "Epperla Narendranath",
+              "Medina-Flores Rafael"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Biomarkers, Tumor",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Ipilimumab",
+              "MART-1 Antigen",
+              "Melanoma",
+              "Microphthalmia-Associated Transcription Factor",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24274261/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "eyelid melanoma",
+        "txgnn_score": 0.9894641637802124,
+        "txgnn_rank": 10919,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36801380",
+            "title": "Ipilimumab and Nivolumab for Treatment of Eyelid Spindle Cell Melanoma.",
+            "abstract": "",
+            "journal": "American journal of ophthalmology",
+            "year": "2023",
+            "authors": [
+              "Shoji Marissa K",
+              "Rong Andrew J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Nivolumab",
+              "Ipilimumab",
+              "Melanoma",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36801380/"
+          },
+          {
+            "pmid": "29071268",
+            "title": "Development of Ocular Rosacea following Combined Ipilimumab and Nivolumab Treatment for Metastatic Malignant Skin Melanoma.",
+            "abstract": "To report a case of severe ocular rosacea following ipilimumab plus nivolumab treatment in a patient with metastatic malignant skin melanoma.",
+            "journal": "Ocular oncology and pathology",
+            "year": "2017",
+            "authors": [
+              "Brouwer Niels J",
+              "Haanen John B A G",
+              "Jager Martine J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29071268/"
+          },
+          {
+            "pmid": "40594536",
+            "title": "Disproportionality analysis of adverse events associated with ipilimumab and nivolumab combination therapy based on FAERS database.",
+            "abstract": "The combination of immune checkpoint inhibitors (ICIs), such as ipilimumab and nivolumab, has revolutionized cancer treatment, particularly for advanced melanoma and other solid tumors. However, rare adverse events (AEs) associated with this combination are often underreported in clinical trials. This study aimed to investigate the safety profile of these drugs using the FDA Adverse Event Reporting System (FAERS) database. A retrospective analysis of data from 2015 to the first quarter of 2024 was conducted, focusing on AEs submitted by healthcare professionals. Disproportionality analysis, using algorithms like Reporting Odds Ratio (ROR) and Bayesian Confidence Propagation Neural Network (BCPNN), identified AE signals. A total of 19,462 reports related to the combination therapy were retrieved, spanning 20 System Organ Classes (SOCs), with endocrine and hepatobiliary disorders being most affected. Additionally, 125 unexpected significant AEs were identified, including thyrotoxic crisi",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Dai Xianyu",
+              "Cao Hongliang",
+              "Li Jiajun",
+              "Zhang Tao",
+              "Hou Yuchuan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Ipilimumab",
+              "Nivolumab",
+              "Retrospective Studies",
+              "Adverse Drug Reaction Reporting Systems",
+              "Databases, Factual",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bayes Theorem",
+              "Melanoma",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40594536/"
+          },
+          {
+            "pmid": "30909967",
+            "title": "Checkpoint inhibition immunotherapy for advanced local and systemic conjunctival melanoma: a clinical case series.",
+            "abstract": "Herein, we describe the use of systemic immunotherapy for both locally advanced and metastatic conjunctival melanoma. Current treatments for advanced conjunctival melanoma typically result in poor local control leading to disfiguring orbital exenteration surgery. Locoregional spread of conjunctival malignant melanoma typically requires pre-auricular and cervical lymph node dissection with post-operative adjuvant radiation therapy. In addition, classic systemic chemotherapy has been unsuccessful in the treatment of metastatic disease.",
+            "journal": "Journal for immunotherapy of cancer",
+            "year": "2019",
+            "authors": [
+              "Finger Paul T",
+              "Pavlick Anna C"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Conjunctival Neoplasms",
+              "Female",
+              "Humans",
+              "Interferons",
+              "Ipilimumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30909967/"
+          },
+          {
+            "pmid": "39987464",
+            "title": "Rare Lacrimal Gland Melanoma: A Case Report and Treatment Insights.",
+            "abstract": "BACKGROUND Melanoma is a malignant transformation of melanocytes known for its capacity to metastasize, necessitating early diagnosis and intervention. While over 97% of melanomas are diagnosed with a known primary site, such as the skin, eye, or mucous membranes, rare cases like melanoma of unknown primary (MUP) can present with atypical manifestations, highlighting the need for comprehensive examinations. CASE REPORT In January 2023, a 68-year-old woman presented with a 4-week history of swelling and discoloration in her left upper eyelid, revealing a hard, livid mass indicative of malignancy. Surgery and subsequent histopathology confirmed epithelioid cell melanoma in the lacrimal gland. Although no other primary melanoma sites were found, imaging and biopsy in August 2023 identified metastatic spread to her lungs. Despite proton radiotherapy, progression led to thoracoscopic surgery for metastasis resection in September 2023. Further re-evaluation revealed metastases in both lungs,",
+            "journal": "The American journal of case reports",
+            "year": "2025",
+            "authors": [
+              "Told Reinhard",
+              "Schiefer Ana-Iris",
+              "Hoeller Christoph",
+              "Reumueller Adrian",
+              "Kreminger Judith"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Melanoma",
+              "Aged",
+              "Eye Neoplasms",
+              "Lung Neoplasms",
+              "Lacrimal Apparatus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39987464/"
+          },
+          {
+            "pmid": "39240220",
+            "title": "Primary Treatment of Eyelid Conjunctival Melanoma with Immunotherapy: A Case Report.",
+            "abstract": "Conjunctival melanoma is a rare, life- and sight-threatening ocular malignancy sharing molecular features with cutaneous and mucosal melanoma. Despite current clinical approaches, high recurrence rates and frequent metastases pose significant challenges in management. Immune checkpoint inhibitors such as ipilimumab and nivolumab have revolutionized cutaneous melanoma treatment, but their efficacy in conjunctival melanoma remains largely unexplored. Herein, the authors present the case of metastatic palpebral conjunctival melanoma in a 59-year-old male successfully treated with a first-line combination of ipilimumab and nivolumab without adjuvant therapies or local surgeries. Local disease resolution was achieved after only 7 months of treatment, and the immune checkpoint inhibitor regimen was well-tolerated with limited systemic adverse effects and no ocular side effects.",
+            "journal": "Ophthalmic plastic and reconstructive surgery",
+            "year": "2025",
+            "authors": [
+              "Weiss Madison E",
+              "Perzia Brittany M",
+              "Sinard John H",
+              "Tran Thuy T",
+              "Maeng Michelle M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Melanoma",
+              "Middle Aged",
+              "Conjunctival Neoplasms",
+              "Eyelid Neoplasms",
+              "Ipilimumab",
+              "Immunotherapy",
+              "Antineoplastic Agents, Immunological",
+              "Nivolumab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39240220/"
+          },
+          {
+            "pmid": "41280706",
+            "title": "Metastatic melanoma to the orbit masquerading as idiopathic orbital inflammation: a case report.",
+            "abstract": "This case highlights an exceedingly rare presentation of secondary orbital melanoma and reviews the current literature on orbital melanoma. Case presentation: A 39-year-old man was referred to our clinic after acute-onset decreased vision and left upper eyelid ptosis. Outside-hospital magnetic resonance imaging (MRI) showed an enhancing left superior orbital apex mass. The patient was initially treated for presumed idiopathic orbital inflammation without improvement. An orbital biopsy was performed, and the pathology showed secondary malignant melanoma. A computed tomography (CT) chest scan showed likely pulmonary metastases. Upon further questioning, the patient reported a history of an incompletely excised pigmented forearm lesion. The patient was treated systemically with nivolumab and ipilimumab. Conclusions and importance: Despite its rarity, orbital melanoma should be considered in the differential diagnosis of patients with an orbital apex mass that does not respond to treatment",
+            "journal": "Frontiers in ophthalmology",
+            "year": "2025",
+            "authors": [
+              "Fernandes Joshua J",
+              "Sharabura Anna B",
+              "Pfannenstiel Matt M",
+              "Sokol Jason A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41280706/"
+          },
+          {
+            "pmid": "31373986",
+            "title": "Development of Poliosis Following Checkpoint Inhibitor Treatment for Cutaneous Melanoma.",
+            "abstract": "The authors describe a clinical case whereby a patient with metastatic cutaneous melanoma developed eyelash poliosis after undergoing treatment with combination immunotherapy with ipilimumab and nivolumab.",
+            "journal": "Ophthalmic plastic and reconstructive surgery",
+            "year": "2019",
+            "authors": [
+              "Ediriwickrema Lilangi S",
+              "Liu Catherine Y",
+              "Kikkawa Don O",
+              "Korn Bobby S"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents, Immunological",
+              "Eyelashes",
+              "Female",
+              "Humans",
+              "Immunotherapy",
+              "Ipilimumab",
+              "Melanoma",
+              "Middle Aged",
+              "Nivolumab",
+              "Pigmentation Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31373986/"
+          },
+          {
+            "pmid": "31360555",
+            "title": "Exclusive Cutaneous and Subcutaneous Sarcoidal Granulomatous Inflammation due to Immune Checkpoint Inhibitors: Report of Two Cases with Unusual Manifestations and Review of the Literature.",
+            "abstract": "Recent emergence of immune checkpoint inhibitors (ICIs) has revolutionized the treatment of cancers and produced prolonged response by boosting the immune system against tumor cells. The primary target antigens are cytotoxic T-lymphocyte-associated antigen-4 (CTLA-4), a downregulator of T-cell activation, and programmed cell death-1 receptor (PD-1), a regulator of T-cell proliferation. This enhanced immune response can induce autoimmune adverse effects in many organs. Although skin toxicities are the most common, sarcoidal inflammation with exclusive cutaneous involvement is a rare occurrence with only 6 cases reported to date. We report 2 cases with unusual features. One patient is a female who was treated for metastatic renal cell carcinoma with combination of ipilimumab (anti-CTLA-4) and nivolumab (anti-PD-1). She developed deep nodules showing sarcoidal dermatitis and panniculitis on histopathologic exam. The second patient is a male with melanoma of eyelid conjunctiva who was trea",
+            "journal": "Case reports in dermatological medicine",
+            "year": "2019",
+            "authors": [
+              "Mobini Narciss",
+              "Dhillon Rummit",
+              "Dickey Jason",
+              "Spoon Jordan",
+              "Sadrolashrafi Kaviyon"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31360555/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "scrotum melanoma",
+        "txgnn_score": 0.9883997440338136,
+        "txgnn_rank": 11751,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02834013",
+            "title": "DART: Dual Anti-CTLA-4 and Anti-PD-1 Blockade in Rare Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-01-30",
+            "completion_date": "2026-05-01",
+            "country": "Guam, United States",
+            "enrollment": 818,
+            "brief_summary": "This phase II trial studies nivolumab and ipilimumab in treating patients with rare tumors. Immunotherapy with monoclonal antibodies, such as nivolumab and ipilimumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.\n\nThis trial enrolls participants for the following cohorts based on condition:\n\n1. Epithelial tumors of nasal cavity, sinuses, nasopharynx: A) Squamous cell carcinoma with variants of nasal cavity, sinuses, an",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients are eligible under ONE of the following criteria:\n\n  * For all cohorts except the gestational trophoblastic disease (GTD) (Cohort #47), patients must have histologically and/or biochemically confirmed rare cancer and must be able to submit specimens; to be eligible fo",
+            "endpoints": [
+              "Overall response rate (ORR)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02834013"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "amelanotic skin melanoma",
+        "txgnn_score": 0.9863855242729188,
+        "txgnn_rank": 13307,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          },
+          {
+            "pmid": "41310270",
+            "title": "Amelanotic melanoma of the central nervous system with systemic spread - imaging pitfalls and clues in a rare paediatric case with congenital melanocytic naevi.",
+            "abstract": "Amelanotic melanoma involving the central nervous system (CNS) in association with congenital melanocytic naevi (CMN) is exceptionally rare and aggressive. Our literature review identified only two prior paediatric cases, reported in 1999 and 2021. To the best of our knowledge, this is the first reported paediatric case of CNS amelanotic melanoma with systemic metastases associated with CMN. We present a 2-year-old girl with CMN who developed an afebrile seizure, vomiting and neurological decline. Imaging revealed hydrocephalus, diffuse leptomeningeal enhancement, spinal cord compression and distant metastases. Histopathology confirmed metastatic amelanotic melanoma. She was treated with targeted therapy comprising trametinib and azacitidine, with a plan for immunotherapy (nivolumab and ipilimumab) after weaning off intravenous dexamethasone for cord compression. This case underscores the diagnostic challenge due to imaging similarities with other neoplastic, infectious and inflammator",
+            "journal": "Child's nervous system : ChNS : official journal of the International Society for Pediatric Neurosurgery",
+            "year": "2025",
+            "authors": [
+              "Tan Xin Yuan",
+              "Teh Daniel Jing Wen",
+              "Tan Timothy Shao Ern"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Case Reports"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Nevus, Pigmented",
+              "Child, Preschool",
+              "Melanoma, Amelanotic",
+              "Skin Neoplasms",
+              "Central Nervous System Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41310270/"
+          },
+          {
+            "pmid": "25743721",
+            "title": "An unusual presentation of malignant melanoma: amelanotic gastric metastasis.",
+            "abstract": "",
+            "journal": "The American journal of gastroenterology",
+            "year": "2015",
+            "authors": [
+              "Ozturk Omer",
+              "Basar Omer",
+              "Koklu Seyfettin",
+              "Yuksel Osman",
+              "Purnak Tugrul"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Antineoplastic Protocols",
+              "Biopsy",
+              "Dexamethasone",
+              "Endoscopy, Gastrointestinal",
+              "Humans",
+              "Ipilimumab",
+              "Male",
+              "Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25743721/"
+          },
+          {
+            "pmid": "20593249",
+            "title": "Continuous systemic corticosteroids do not affect the ongoing regression of metastatic melanoma for more than two years following ipilimumab therapy.",
+            "abstract": "Malignant melanoma is an aggressive skin cancer with no effective therapies currently approved for advanced disease. In the case presented, a 55-year-old female patient diagnosed with widespread disease from amelanotic desmoplastic melanoma was treated with 10 mg/kg ipilimumab as part of a phase II clinical trial (CA184-008). Prior to ipilimumab, three chemotherapeutic regimens had failed. Ipilimumab acts as a T-cell potentiator via blockade of cytotoxic T-lymphocyte antigen-4, a negative regulator of T-cell activation. Response to ipilimumab treatment was rapid, with a substantial drop in tumor volume within 12 weeks of treatment initiation. Based on the appearance of a new subcutaneous lesion, reinduction with ipilimumab was performed at Week 30. Following reinduction, the appearance of another small new lesion made the patient ineligible, as per protocol, for further dosing despite stabilization of her remaining lesions. Ipilimumab-associated immune-related adverse events were manag",
+            "journal": "Medical oncology (Northwood, London, England)",
+            "year": "2011",
+            "authors": [
+              "Harmankaya Kaan",
+              "Erasim Christa",
+              "Koelblinger Claus",
+              "Ibrahim Ramy",
+              "Hoos Axel"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents",
+              "Clinical Trials, Phase II as Topic",
+              "Diarrhea",
+              "Fatigue",
+              "Female",
+              "Humans",
+              "Ipilimumab",
+              "Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20593249/"
+          },
+          {
+            "pmid": "29560705",
+            "title": "Amelanotic metastatic melanoma of the stomach presenting with iron deficiency anemia.",
+            "abstract": "",
+            "journal": "Acta gastro-enterologica Belgica",
+            "year": "2017",
+            "authors": [
+              "Iadevaia M D",
+              "Sgambato D",
+              "Miranda A",
+              "Ferrante E",
+              "Federico A"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Anemia, Iron-Deficiency",
+              "Antineoplastic Agents, Immunological",
+              "Diagnosis, Differential",
+              "Gastroscopy",
+              "Humans",
+              "Immunohistochemistry",
+              "Ipilimumab",
+              "Male",
+              "Melanoma, Amelanotic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29560705/"
+          },
+          {
+            "pmid": "24274261",
+            "title": "Diagnostic dilemma: late presentation of amelanotic BRAF-negative metastatic malignant melanoma resembling clear cell sarcoma: a case report.",
+            "abstract": "Clear cell sarcoma is a rare cancer primarily of tendons, fascia, and aponeuroses that can be difficult to discern from primary cutaneous malignant melanoma. The two cancers share several histological markers, with most cases of both cancers staining positively for S-100, HMB-45, and melanin. Primary therapy of both cancers involves wide local excision, but while systemic therapy has proven benefit for malignant melanoma, it has not been established for clear cell sarcoma.We report the case of a 58 year old woman with a large, ulcerated, fungating mass on her left lower leg. Frozen section of the mass showed a malignant epithelioid and spindle cell tumor confined to the subcutaneous tissue. A provisional diagnosis of soft-tissue sarcoma was made. Through in-depth study of initial biopsy with immunohistochemistry for S-100, HMB-45, MART-1, and MITF, along with karyotyping and FISH analysis for EWS gene rearrangement, the diagnosis of amelanotic malignant melanoma was confirmed. The pati",
+            "journal": "Diagnostic pathology",
+            "year": "2013",
+            "authors": [
+              "Wagner Barrett Parker",
+              "Epperla Narendranath",
+              "Medina-Flores Rafael"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Biomarkers, Tumor",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Ipilimumab",
+              "MART-1 Antigen",
+              "Melanoma",
+              "Microphthalmia-Associated Transcription Factor",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24274261/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "superficial spreading melanoma",
+        "txgnn_score": 0.9863855242729188,
+        "txgnn_rank": 13310,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          },
+          {
+            "pmid": "36541394",
+            "title": "Analysis of top-cited articles on melanoma.",
+            "abstract": "This bibliometric analysis evaluates the most influential studies in clinical research on melanoma.",
+            "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+            "year": "2022",
+            "authors": [
+              "Fan Ka Siu",
+              "Fan Ka Hay",
+              "Tse Pak Lim",
+              "Ding Hao",
+              "Su Runqing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "United States",
+              "Bibliometrics",
+              "Melanoma",
+              "Skin Neoplasms",
+              "Databases, Factual",
+              "Cutaneous Malignant Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36541394/"
+          },
+          {
+            "pmid": "33803762",
+            "title": "Talimogene Laherparepvec (T-VEC): An Intralesional Cancer Immunotherapy for Advanced Melanoma.",
+            "abstract": "Direct intralesional injection of specific or even generic agents, has been proposed over the years as cancer immunotherapy, in order to treat cutaneous or subcutaneous metastasis. Such treatments usually induce an effective control of disease in injected lesions, but only occasionally were able to demonstrate a systemic abscopal effect on distant metastases. The usual availability of tissue for basic and translational research is a plus in utilizing this approach, which has been used in primis for the treatment of locally advanced melanoma. Melanoma is an immunogenic tumor that could often spread superficially causing in-transit metastasis and involving draining lymph nodes, being an interesting model to study new drugs with different modality of administration from normal available routes. Talimogene laherperepvec (T-VEC) is an injectable modified oncolytic herpes virus being developed for intratumoral injection, that produces granulocyte-macrophage colony-stimulating factor (GM-CSF)",
+            "journal": "Cancers",
+            "year": "2021",
+            "authors": [
+              "Ferrucci Pier Francesco",
+              "Pala Laura",
+              "Conforti Fabio",
+              "Cocorocchio Emilia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33803762/"
+          },
+          {
+            "pmid": "39001417",
+            "title": "Primary Tumor Characteristics as Biomarkers of Immunotherapy Response in Advanced Melanoma: A Retrospective Cohort Study.",
+            "abstract": "Identifying patients likely to benefit from immune checkpoint inhibitor (ICI) treatment remains a crucial goal for melanoma. The objective of this study is to assess the association between primary tumor features and immunotherapy response and survival in advanced melanoma patients. In this single-center retrospective cohort study, disease characteristics, response to immunotherapy, PFS, and OS were assessed among melanoma patients (excluding mucosal and uveal primaries) treated with ICI. Among 447 patients, 300 (67.1%) received anti-PD-1 monotherapy and 147 (32.9%) received ipilimumab/nivolumab. A total of 338 (75.6%) had cutaneous melanoma, 29 (6.5%) had acral melanoma, and 80 (17.9%) had melanoma of unknown primary. Ulceration and stage at initial presentation were associated with inferior outcomes on univariate analysis. However, on multivariate analysis, this result was not observed, but cutaneous melanoma and each of its subtypes (superficial spreading, nodular, other, unknown) w",
+            "journal": "Cancers",
+            "year": "2024",
+            "authors": [
+              "Goodman Rachel S",
+              "Jung Seungyeon",
+              "Fletcher Kylie",
+              "Burnette Hannah",
+              "Mohyuddin Ismail"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39001417/"
+          },
+          {
+            "pmid": "34638410",
+            "title": "Severe Late-Onset Grade III-IV Adverse Events under Immunotherapy: A Retrospective Study of 79 Cases.",
+            "abstract": "Background: For several decades, PD-1 has been a target in malignant melanoma (MM). PD-1 inhibitors (nivolumab, pembrolizumab) and anti-CTLA-4 (CD152) (ipilimumab) have revolutionized cancer therapy. PD-1 and CTLA-4 inhibition leads to prolonged lymphocyte effects, which explains the cytotoxicity underlying immune-reaction-based adverse events (irAEs). Most irAEs occur in the first cycle of treatment at a median of 40 days. IrAEs of any grade have been observed in 68.2% of patients, with 10% of patients experiencing severe grade III/IV irAEs. Data on late-onset irAEs are lacking. Methods: Data on patients with advanced melanoma (N = 1862) from March 2016 to March 2021 were obtained from the RicMel database, a French national multicentric biobank dedicated to the follow-up of MM patients. Patients who received anti-PD-1 therapy or a combination therapy and experienced grade III-IV irAEs were selected and analyzed at 7 months, one year and two years after treatment was initiated. Results",
+            "journal": "Cancers",
+            "year": "2021",
+            "authors": [
+              "L'Orphelin Jean-Matthieu",
+              "Varey Emilie",
+              "Khammari Amir",
+              "Dreno Brigitte",
+              "Dompmartin Anne"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34638410/"
+          },
+          {
+            "pmid": "33715172",
+            "title": "Five-year survival with nivolumab in previously untreated Japanese patients with advanced or recurrent malignant melanoma.",
+            "abstract": "We report the 5-year follow-up results from a single-arm, open-label, multicenter phase II study (ONO-4538-08) conducted in Japan. Twenty-four patients with treatment-naïve, recurrent, or unresectable stage III/IV malignant melanoma received 3 mg/kg nivolumab every 2 weeks until progressive disease or unacceptable toxicity occurred. The 5-year overall survival (OS) rate was 26.1%. Five years after the start of nivolumab treatment, there were six survivors. The 5-year OS rate was 66.7% for patients with a superficial spreading type, 14.3% for acral lentiginous type, and 16.7% for mucosal type. The 5-year progression-free survival rate was 17.2%. No new cases of partial response or complete response were observed after 3 years, and overall response and disease control rates were similar to those reported at 3 years. The treatment-related adverse events reported between the 3- and 5-year follow-up periods were anemia (grade 2), white blood cell count decrease (grade 2), and psoriasiform d",
+            "journal": "The Journal of dermatology",
+            "year": "2021",
+            "authors": [
+              "Uhara Hisashi",
+              "Kiyohara Yoshio",
+              "Uehara Jiro",
+              "Fujisawa Yasuhiro",
+              "Takenouchi Tatsuya"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease-Free Survival",
+              "Humans",
+              "Ipilimumab",
+              "Japan",
+              "Melanoma",
+              "Nivolumab",
+              "Progression-Free Survival",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33715172/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lentigo maligna melanoma",
+        "txgnn_score": 0.9863855242729188,
+        "txgnn_rank": 13308,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          },
+          {
+            "pmid": "36541394",
+            "title": "Analysis of top-cited articles on melanoma.",
+            "abstract": "This bibliometric analysis evaluates the most influential studies in clinical research on melanoma.",
+            "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+            "year": "2022",
+            "authors": [
+              "Fan Ka Siu",
+              "Fan Ka Hay",
+              "Tse Pak Lim",
+              "Ding Hao",
+              "Su Runqing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "United States",
+              "Bibliometrics",
+              "Melanoma",
+              "Skin Neoplasms",
+              "Databases, Factual",
+              "Cutaneous Malignant Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36541394/"
+          },
+          {
+            "pmid": "28348944",
+            "title": "Tumoral Melanosis Associated with Pembrolizumab-Treated Metastatic Melanoma.",
+            "abstract": "Tumoral melanosis is a form of completely regressed melanoma that usually presents as darkly pigmented lesions suspicious for malignant melanoma. Histology reveals dense dermal and subcutaneous infiltration of melanophages. Pembrolizumab is an antibody directed against programmed death receptor-1 (PD1) and is frontline treatment for advanced melanoma. An 81-year-old man with metastatic melanoma treated with pembrolizumab who developed tumoral melanosis at previous sites of metastases is described. The PubMed database was searched with the key words: antibody, immunotherapy, melanoma, melanosis, metastasis, pembrolizumab, and tumoral. The papers generated by the search and their references were reviewed. The patient was initially diagnosed with lentigo maligna melanoma on the left cheek three years earlier, and he was treated with wide local excision. The patient was subsequently diagnosed with epidermotropic metastatic malignant melanoma on the left parietal scalp 14 months later and w",
+            "journal": "Cureus",
+            "year": "2017",
+            "authors": [
+              "Bari Omar",
+              "Cohen Philip R"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28348944/"
+          },
+          {
+            "pmid": "24338272",
+            "title": "Long-lasting complete response of metastatic melanoma to ipilimumab with analysis of the resident immune cells.",
+            "abstract": "Even though ipilimumab is a promising antibody used for stage IV melanoma therapy, the response varies and is difficult to predict. We here report on a case of successful treatment with ipilimumab in dacarbazine-resistant metastatic malignant melanoma, including a review of the literature on the long-term treatment results. A 62-year-old patient with a history of a resected lentigo-maligna melanoma 5 years earlier and parotideal metastasis 1 year before was admitted with a newly detected 3.5 cm liver metastasis. Atypical liver resection was performed (R1). Immunohistochemically, CD3+ T-lymphocytes and CD68+ macrophages were detected at the tumour margins and within the parotideal and hepatic melanoma metastases. A sub-analysis of the liver metastasis showed scattered FOX-P3+ regulatory T-lymphocytes as well as multiple CD8+ effector T-cells. Chemotherapy with dacarbazine 1,000 mg/m(2)/day was administered at 4-weeks intervals for 3 months. A follow-up positron-emission computed tomogra",
+            "journal": "Medical oncology (Northwood, London, England)",
+            "year": "2014",
+            "authors": [
+              "Tsaknakis Birgit",
+              "Schaefer Inga-Marie",
+              "Schwörer Harald",
+              "Sahlmann Carsten-Oliver",
+              "Thoms Kai-Martin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Antigens, CD",
+              "Antigens, Differentiation, Myelomonocytic",
+              "Antineoplastic Agents",
+              "CD3 Complex",
+              "CTLA-4 Antigen",
+              "Humans",
+              "Hutchinson's Melanotic Freckle",
+              "Immune System",
+              "Immunohistochemistry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24338272/"
+          },
+          {
+            "pmid": "28500627",
+            "title": "Widespread biphasic amyloidosis related to ipilimumab treatment for metastatic melanoma.",
+            "abstract": "",
+            "journal": "International journal of dermatology",
+            "year": "2017",
+            "authors": [
+              "Velasco-Tamariz Virginia",
+              "Burillo-Martínez Sara",
+              "Prieto-Barrios Marta",
+              "Calleja-Algarra Alba",
+              "Rodríguez-Peralto José L"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Amyloidosis",
+              "Antineoplastic Agents, Immunological",
+              "Biopsy, Needle",
+              "Follow-Up Studies",
+              "Humans",
+              "Hutchinson's Melanotic Freckle",
+              "Immunohistochemistry",
+              "Infusions, Intravenous",
+              "Ipilimumab",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28500627/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "CDK4 linked melanoma",
+        "txgnn_score": 0.9863855242729188,
+        "txgnn_rank": 13309,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acral lentiginous melanoma (disease)",
+        "txgnn_score": 0.9863855242729188,
+        "txgnn_rank": 13306,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04462406",
+            "title": "A Phase II Study of Biomarker Driven Early Discontinuation of Anti-PD-1 Therapy in Patients With Advanced Melanoma (PET-Stop)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-02-09",
+            "completion_date": "2026-08-29",
+            "country": "United States",
+            "enrollment": 150,
+            "brief_summary": "This phase II trial investigates how well biomarkers on PET/CT imaging drive early discontinuation of anti-PD-1 therapy in patients with stage IIIB-IV melanoma that cannot be removed by surgery (unresectable). Anti-PD-1 therapy has become a standard therapy option for patients with unresectable melanoma. This trial is being done to determine if doctors can safely shorten the use of standard of care anti-PD1 therapy for melanoma by using biomarkers seen on PET/CT imaging and tumor biopsy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* STEP 0 PRE-REGISTRATION INCLUSION CRITERIA\n* Patient must have active advanced melanoma, defined as unresectable stage IIIB-IV by American Joint Committee on Cancer (AJCC) 8th edition\n* Patient must have melanoma originating from cutaneous, acral-lentiginous, or mucosal primar",
+            "endpoints": [
+              "Event free survival (EFS) rate (Arm A)"
+            ],
+            "sponsor": "Eastern Cooperative Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT04462406"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02519322",
+            "title": "Neoadjuvant and Adjuvant Checkpoint Blockade in Patients With Clinical Stage III or Oligometastatic Stage IV Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-02-02",
+            "completion_date": "2023-01-26",
+            "country": "United States",
+            "enrollment": 53,
+            "brief_summary": "This randomized phase II trial studies how well nivolumab with or without ipilimumab or relatlimab before surgery works in treating patients with stage IIIB-IV melanoma that can be removed by surgery. Immunotherapy with monoclonal antibodies, such as nivolumab, ipilimumab, and relatlimab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Giving nivolumab alone or in combination with ipilimumab or relatlimab before surgery m",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Capable of giving written informed consent, which includes compliance with the requirements and restrictions listed in the consent form\n* Patients must have histologically or cytologically confirmed stage IIIB/C or stage IV oligometastatic melanoma; oligometastatic melanoma is",
+            "endpoints": [
+              "Arm C: Number of Participants With the Pathologic Response Rate"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02519322"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07155317",
+            "title": "The TIME Trial - Phase II Randomized Controlled Trial of Time-of-Day Specified Immunotherapy for Advanced Melanoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-10-29",
+            "completion_date": "2027-12-31",
+            "country": "United States",
+            "enrollment": 99,
+            "brief_summary": "This phase II trial tests the safety and effectiveness of giving ipilimumab and nivolumab in the morning compared to other times of day in treating patients with melanoma that is stage IV or that cannot be removed by surgery (unresectable). Immunotherapy with monoclonal antibodies, such as ipilimumab and nivolumab, may help the body's immune system attack the tumor and may interfere with the ability of tumor cells to grow and spread. While some patients have impressive outcomes with both of thes",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pathologically confirmed American Joint Committee on Cancer (AJCC) 8th edition stage IV unresectable cutaneous, acral, or mucosal melanoma\n* No uveal melanoma\n* Patients with asymptomatic, non-hemorrhagic brain metastases \\< 2 cm are eligible\n* No prior immunotherapy within 1 ",
+            "endpoints": [
+              "Progression-Free Survival (PFS) A versus (vs.) C and B vs. C"
+            ],
+            "sponsor": "Emory University",
+            "url": "https://clinicaltrials.gov/study/NCT07155317"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04493203",
+            "title": "A Phase II Trial of Nivolumab Plus Axitinib in Patients With Anti-PD1 Refractory Advanced Melanoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-12-18",
+            "completion_date": "2025-04-12",
+            "country": "United States",
+            "enrollment": 31,
+            "brief_summary": "This is Phase II trial of nivolumab plus axitinib for patients with unresectable stage III or IV melanoma who have progressed on prior anti-PD1 therapy with or without concomitant anti-CTLA4 therapy. Patients will receive treatment with nivolumab 480 mg intravenously every 4 weeks and axitinib 5 mg twice daily by mouth. Patients may continue both agents for up to two years if they do not experience disease progression or dose-limiting toxicities.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have unresectable (stage III) or advanced (stage IV) cutaneous or mucosal melanoma. Patients with uveal melanoma are not eligible.\n* Progressed on prior anti-PD1 therapy with or without anti-CTLA4 therapy. Patients may have progressed in the adjuvant setting if treated within ",
+            "endpoints": [
+              "Overall Response Rate (ORR)",
+              "Overall Response Rate (ORR) - Prior Ipilimumab / Nivolumab Treatment",
+              "Overall Response Rate (ORR) - no Prior Ipilimumab / Nivolumab"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT04493203"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02978443",
+            "title": "A Study to Estimate the Anti-Tumor Activity and Identify Potential Predictors of Response in Patients With Advanced Mucosal or Acral Lentiginous Melanoma Receiving Standard Nivolumab in Combination With Ipilimumab Followed by Nivolumab Monotherapy",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2017-07-26",
+            "completion_date": "2022-08-02",
+            "country": "United States",
+            "enrollment": 14,
+            "brief_summary": "Participants with advanced or metastatic mucosal melanoma (cohort A) and acral lentiginous melanoma (cohort B) eligible for treatment with nivolumab in combination with ipilimumab followed by nivolumab therapy will submit tissue blocks from tumors of malignant melanoma for histopathology review and immunohistochemistry analysis at Georgetown University-Lombardi Comprehensive Cancer Center. Pretreatment blood will be drawn and stored in the Melanoma Research Foundation Breakthrough Consortium Vir",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed MCM or ALM that is metastatic or unresectable.\n* Patients must be eligible to receive nivolumab in combination with ipilimumab treatment per institutional guidelines.\n* Patients must have a tissue block (or 20 unstained slides) avail",
+            "endpoints": [
+              "Objective Response Rate (ORR) With Mucosal Melanoma (MCM)"
+            ],
+            "sponsor": "Georgetown University",
+            "url": "https://clinicaltrials.gov/study/NCT02978443"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04511013",
+            "title": "A Randomized Phase 2 Trial of Encorafenib + Binimetinib + Nivolumab vs Ipilimumab + Nivolumab in BRAF-V600 Mutant Melanoma With Brain Metastases",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-01-06",
+            "completion_date": "2027-06-30",
+            "country": "United States",
+            "enrollment": 112,
+            "brief_summary": "This phase II trial compares the effect of encorafenib, binimetinib, and nivolumab versus ipilimumab and nivolumab in treating patients with BRAF- V600 mutant melanoma that has spread to the brain (brain metastases). Encorafenib and binimetinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Ipilimumab and nivolumab are monoclonal antibodies that may interfere with the ability of tumor cells to grow and spread. This trial aims to find out which approach",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have histologically and pathologically confirmed melanoma that has metastasized to the brain\n* Any primary (cutaneous, acral/mucosal, etc) or unknown origin are permitted, except that participants with uveal primary are not eligible\n* Participants must have B",
+            "endpoints": [
+              "Progression-free survival"
+            ],
+            "sponsor": "SWOG Cancer Research Network",
+            "url": "https://clinicaltrials.gov/study/NCT04511013"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40853557",
+            "title": "Cutaneous Melanoma: A Review.",
+            "abstract": "Melanoma, the fifth most common cancer in the US, has increased from 8.8 per 100 000 in 1975 to 28.42 per 100 000 in 2022. Cutaneous melanoma comprises 94% of cases, with 104 960 US cases projected for 2025.",
+            "journal": "JAMA",
+            "year": "2025",
+            "authors": [
+              "Joshi Urvashi Mitbander",
+              "Kashani-Sabet Mohammed",
+              "Kirkwood John M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Immune Checkpoint Inhibitors",
+              "Melanoma",
+              "Risk Factors",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms",
+              "United States",
+              "Skin",
+              "Ultraviolet Rays",
+              "Neoplasm Staging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40853557/"
+          },
+          {
+            "pmid": "26511495",
+            "title": "Development of brain metastases in patients with metastatic melanoma while receiving ipilimumab.",
+            "abstract": "Ipilimumab is a monoclonal antibody blocking the inhibitory molecule CTLA4 expressed by activated T lympocytes, used for the treatment of metastatic melanoma. Recent studies have shown its potential efficacy on brain metastases.",
+            "journal": "Journal of neuro-oncology",
+            "year": "2016",
+            "authors": [
+              "Frenard C",
+              "Peuvrel L",
+              "Jean M Saint",
+              "Brocard A",
+              "Knol A C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antibodies, Monoclonal",
+              "Brain Neoplasms",
+              "Disease Progression",
+              "Female",
+              "Humans",
+              "Ipilimumab",
+              "Male",
+              "Melanoma",
+              "Middle Aged",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26511495/"
+          },
+          {
+            "pmid": "29079332",
+            "title": "Retrospective study of advanced melanoma patients treated with ipilimumab after nivolumab: Analysis of 60 Japanese patients.",
+            "abstract": "Due to resistance and immune-related adverse events (irAE) some melanoma patients require ipilimumab after nivolumab therapy. However, little is known about the result of this switching.",
+            "journal": "Journal of dermatological science",
+            "year": "2018",
+            "authors": [
+              "Fujisawa Yasuhiro",
+              "Yoshino Koji",
+              "Otsuka Atsushi",
+              "Funakoshi Takeru",
+              "Uchi Hiroshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease Progression",
+              "Disease-Free Survival",
+              "Drug Substitution",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29079332/"
+          },
+          {
+            "pmid": "32314157",
+            "title": "Adjuvant Therapy is Effective for Melanoma Patients with a Positive Sentinel Lymph Node Biopsy Who Forego Completion Lymphadenectomy.",
+            "abstract": "Multiple adjuvant therapies for melanoma have been approved since 2015 based on randomized trials demonstrating improvements in recurrence-free survival (RFS) with adjuvant therapy after surgical resection of high-risk disease. Inclusion criteria for these trials required performance of a completion lymph node dissection (CLND) for positive sentinel lymph node (pSLN) disease.",
+            "journal": "Annals of surgical oncology",
+            "year": "2020",
+            "authors": [
+              "Farrow Norma E",
+              "Raman Vignesh",
+              "Williams Taylor P",
+              "Nguyen Kayla Y",
+              "Tyler Douglas S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lymph Node Excision",
+              "Melanoma",
+              "Neoplasm Recurrence, Local",
+              "Neoplasm Staging",
+              "Retrospective Studies",
+              "Sentinel Lymph Node",
+              "Sentinel Lymph Node Biopsy",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32314157/"
+          },
+          {
+            "pmid": "33715172",
+            "title": "Five-year survival with nivolumab in previously untreated Japanese patients with advanced or recurrent malignant melanoma.",
+            "abstract": "We report the 5-year follow-up results from a single-arm, open-label, multicenter phase II study (ONO-4538-08) conducted in Japan. Twenty-four patients with treatment-naïve, recurrent, or unresectable stage III/IV malignant melanoma received 3 mg/kg nivolumab every 2 weeks until progressive disease or unacceptable toxicity occurred. The 5-year overall survival (OS) rate was 26.1%. Five years after the start of nivolumab treatment, there were six survivors. The 5-year OS rate was 66.7% for patients with a superficial spreading type, 14.3% for acral lentiginous type, and 16.7% for mucosal type. The 5-year progression-free survival rate was 17.2%. No new cases of partial response or complete response were observed after 3 years, and overall response and disease control rates were similar to those reported at 3 years. The treatment-related adverse events reported between the 3- and 5-year follow-up periods were anemia (grade 2), white blood cell count decrease (grade 2), and psoriasiform d",
+            "journal": "The Journal of dermatology",
+            "year": "2021",
+            "authors": [
+              "Uhara Hisashi",
+              "Kiyohara Yoshio",
+              "Uehara Jiro",
+              "Fujisawa Yasuhiro",
+              "Takenouchi Tatsuya"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease-Free Survival",
+              "Humans",
+              "Ipilimumab",
+              "Japan",
+              "Melanoma",
+              "Nivolumab",
+              "Progression-Free Survival",
+              "Skin Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33715172/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06186",
+    "name": "Ipilimumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Ipilimumab"
+      },
+      "queried_at": "2026-03-10T04:49:58.499460",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Ipilimumab"
+      },
+      "queried_at": "2026-03-10T04:50:06.489104",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T04:50:07.073292",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T04:50:11.014558",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "choroideremia"
+      },
+      "queried_at": "2026-03-10T04:50:11.733337",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:14.739176",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:18.416726",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "non-cutaneous melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:22.137931",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:25.708214",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:29.517397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "epithelioid cell melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:33.255827",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:33.941658",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:37.626187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "eyelid melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:40.275768",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:41.245025",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:45.391630",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "scrotum melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:46.272764",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "amelanotic skin melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:46.944182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "amelanotic skin melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:51.376427",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "amelanotic skin melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:53.340898",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "superficial spreading melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:54.018543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "superficial spreading melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:57.014055",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "superficial spreading melanoma"
+      },
+      "queried_at": "2026-03-10T04:50:59.296457",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T04:51:00.161457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T04:51:03.962822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "lentigo maligna melanoma"
+      },
+      "queried_at": "2026-03-10T04:51:06.360500",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "CDK4 linked melanoma"
+      },
+      "queried_at": "2026-03-10T04:51:07.112628",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "CDK4 linked melanoma"
+      },
+      "queried_at": "2026-03-10T04:51:10.998451",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "CDK4 linked melanoma"
+      },
+      "queried_at": "2026-03-10T04:51:15.179266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:51:17.670707",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:51:21.614778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Ipilimumab",
+        "disease": "acral lentiginous melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:51:23.532416",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:51:23.551618"
+  }
+}

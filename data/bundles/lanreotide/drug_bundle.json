@@ -1,0 +1,1679 @@
+{
+  "drug": {
+    "inn": "Lanreotide",
+    "drugbank_id": "DB06791",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hypertrichosis (disease)",
+        "txgnn_score": 0.9996999502182008,
+        "txgnn_rank": 797,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malformation syndrome with odontal and/or periodontal component",
+        "txgnn_score": 0.9996469020843506,
+        "txgnn_rank": 914,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22057194",
+            "title": "Periodontitis and diabetes: a two-way relationship.",
+            "abstract": "Periodontitis is a common chronic inflammatory disease characterised by destruction of the supporting structures of the teeth (the periodontal ligament and alveolar bone). It is highly prevalent (severe periodontitis affects 10-15% of adults) and has multiple negative impacts on quality of life. Epidemiological data confirm that diabetes is a major risk factor for periodontitis; susceptibility to periodontitis is increased by approximately threefold in people with diabetes. There is a clear relationship between degree of hyperglycaemia and severity of periodontitis. The mechanisms that underpin the links between these two conditions are not completely understood, but involve aspects of immune functioning, neutrophil activity, and cytokine biology. There is emerging evidence to support the existence of a two-way relationship between diabetes and periodontitis, with diabetes increasing the risk for periodontitis, and periodontal inflammation negatively affecting glycaemic control. Incide",
+            "journal": "Diabetologia",
+            "year": "2012",
+            "authors": [
+              "Preshaw P M",
+              "Alba A L",
+              "Herrera D",
+              "Jepsen S",
+              "Konstantinidis A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Diabetes Mellitus, Type 1",
+              "Diabetes Mellitus, Type 2",
+              "Humans",
+              "Periodontitis",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22057194/"
+          },
+          {
+            "pmid": "35688447",
+            "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+            "abstract": "The recently published clinical practice guideline (CPG) for the treatment of periodontitis in stages I-III provided evidence-based recommendations for the treatment of periodontitis patients, defined according to the 2018 classification. Stage IV periodontitis shares the severity and complexity characteristics of stage III periodontitis, but includes the anatomical and functional sequelae of tooth and periodontal attachment loss (tooth flaring and drifting, bite collapse, etc.), which require additional interventions following completion of active periodontal therapy.",
+            "journal": "Journal of clinical periodontology",
+            "year": "2022",
+            "authors": [
+              "Herrera David",
+              "Sanz Mariano",
+              "Kebschull Moritz",
+              "Jepsen Søren",
+              "Sculean Anton"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Delivery of Health Care",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Periodontics",
+              "Periodontitis",
+              "Tooth Loss"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35688447/"
+          },
+          {
+            "pmid": "9495612",
+            "title": "Microbial complexes in subgingival plaque.",
+            "abstract": "It has been recognized for some time that bacterial species exist in complexes in subgingival plaque. The purpose of the present investigation was to attempt to define such communities using data from large numbers of plaque samples and different clustering and ordination techniques. Subgingival plaque samples were taken from the mesial aspect of each tooth in 185 subjects (mean age 51 +/- 16 years) with (n = 160) or without (n = 25) periodontitis. The presence and levels of 40 subgingival taxa were determined in 13,261 plaque samples using whole genomic DNA probes and checkerboard DNA-DNA hybridization. Clinical assessments were made at 6 sites per tooth at each visit. Similarities between pairs of species were computed using phi coefficients and species clustered using an averaged unweighted linkage sort. Community ordination was performed using principal components analysis and correspondence analysis. 5 major complexes were consistently observed using any of the analytical methods.",
+            "journal": "Journal of clinical periodontology",
+            "year": "1998",
+            "authors": [
+              "Socransky S S",
+              "Haffajee A D",
+              "Cugini M A",
+              "Smith C",
+              "Kent R L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Bacteria, Anaerobic",
+              "Bacterial Typing Techniques",
+              "Cluster Analysis",
+              "DNA Probes",
+              "DNA, Bacterial",
+              "Dental Plaque",
+              "Ecosystem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9495612/"
+          },
+          {
+            "pmid": "37435999",
+            "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+            "abstract": "Regenerative periodontal surgical procedures are an important component in the treatment of advanced periodontitis. They aim to improve the long-term prognosis of teeth that are periodontally compromised by the presence of intrabony and/or furcation defects, resulting biologically in formation of root cementum, periodontal ligament, and alveolar bone and evidenced clinically by reduction of deep pockets to maintainable probing depths and/or improvements of vertical and horizontal furcation depth. Over the last 25 years, substantial clinical evidence has been accumulated to support the value of regenerative procedures in periodontally compromised dentitions. However, treatment success requires close attention to certain factors on the level of the patient, the tooth/defect, and the operator. Ignoring these factors in case selection, treatment planning, and treatment execution will increase the risk of complications that may jeopardize clinical success and may even be considered as treat",
+            "journal": "Periodontology 2000",
+            "year": "2023",
+            "authors": [
+              "Jepsen Karin",
+              "Sculean Anton",
+              "Jepsen Søren"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Guided Tissue Regeneration, Periodontal",
+              "Oral Surgical Procedures",
+              "Treatment Outcome",
+              "Periodontitis",
+              "Prognosis",
+              "Alveolar Bone Loss",
+              "Furcation Defects"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37435999/"
+          },
+          {
+            "pmid": "35420698",
+            "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+            "abstract": "Glycaemic control is a key component in diabetes mellitus (diabetes) management. Periodontitis is the inflammation and destruction of the underlying supporting tissues of the teeth. Some studies have suggested a bidirectional relationship between glycaemic control and periodontitis.  Treatment for periodontitis involves subgingival instrumentation, which is the professional removal of plaque, calculus, and debris from below the gumline using hand or ultrasonic instruments. This is known variously as scaling and root planing, mechanical debridement, or non-surgical periodontal treatment. Subgingival instrumentation is sometimes accompanied by local or systemic antimicrobials, and occasionally by surgical intervention to cut away gum tissue when periodontitis is severe. This review is part one of an update of a review published in 2010 and first updated in 2015, and evaluates periodontal treatment versus no intervention or usual care.  OBJECTIVES: To investigate the effects of periodonta",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "authors": [
+              "Simpson Terry C",
+              "Clarkson Janet E",
+              "Worthington Helen V",
+              "MacDonald Laura",
+              "Weldon Jo C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Diabetes Mellitus, Type 2",
+              "Glycated Hemoglobin",
+              "Glycemic Control",
+              "Humans",
+              "Periodontal Index",
+              "Periodontitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35420698/"
+          },
+          {
+            "pmid": "36883660",
+            "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+            "abstract": "Gingival fibroblasts (GFs) are essential components of the periodontium, which are responsible for the maintenance of tissue structure and integrity. However, the physiological role of GFs is not restricted to the production and remodeling of the extracellular matrix. GFs also act as sentinel cells that modulate the immune response to oral pathogens invading the gingival tissue. As an important \"nonclassical\" component of the innate immune system, GFs respond to bacteria and damage-related signals by producing cytokines, chemokines, and other inflammatory mediators. Although the activation of GFs supports the elimination of invading bacteria and the resolution of inflammation, their uncontrolled or excessive activation may promote inflammation and bone destruction. This occurs in periodontitis, a chronic inflammatory disease of the periodontium initiated and sustained by dysbiosis. In the inflamed gingival tissue, GFs acquire imprinted proinflammatory phenotypes that promote the growth",
+            "journal": "Journal of dental research",
+            "year": "2023",
+            "authors": [
+              "Wielento A",
+              "Lagosz-Cwik K B",
+              "Potempa J",
+              "Grabiec A M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Porphyromonas gingivalis",
+              "Inflammation",
+              "Gingiva",
+              "Chronic Periodontitis",
+              "Fibroblasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36883660/"
+          },
+          {
+            "pmid": "37452425",
+            "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes Mediate Endoplasmic Reticulum Stress and Immune Reprogramming for Periodontitis Therapy.",
+            "abstract": "Periodontitis is a chronic infectious disease caused by bacterial irritation. As an essential component of the host immunity, macrophages are highly plastic and play a crucial role in inflammatory response. An appropriate and timely transition from proinflammatory (M1) to anti-inflammatory (M2) macrophages is indispensable for treating periodontitis. As M2 macrophage-derived exosomes (M2-exos) can actively target inflammatory sites and modulate immune microenvironments, M2-exos can effectively treat periodontitis. Excessive endoplasmic reticulum stress (ER stress) and unfolded protein response (UPR) are highly destructive pathological characteristics during inflammatory periodontal bone loss. Although melatonin has antioxidant and anti-inflammatory effects, studies focusing on melatonin ER stress modulation remain limited. This study fabricates engineered M2-exos loading with melatonin (Mel@M2-exos) for treating periodontitis. As a result, M2-exos drive an appropriate and timely macrop",
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "authors": [
+              "Cui Ya",
+              "Hong Shebin",
+              "Xia Yunhui",
+              "Li Xiaojing",
+              "He Xiaoya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Rats",
+              "Humans",
+              "Animals",
+              "Melatonin",
+              "Exosomes",
+              "Periodontitis",
+              "Endoplasmic Reticulum Stress",
+              "Inflammation",
+              "Macrophages"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37452425/"
+          },
+          {
+            "pmid": "29193334",
+            "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+            "abstract": "The integrity of the peri-implant soft-tissue seal is crucial for maintaining peri-implant tissue health. Whilst the transmucosal component of the restored implant shares some common features with teeth, namely the presence of a junctional epithelium and a connective tissue component, there are some important differences. A key difference is the nature of the relationship of the connective tissue with the implant surface, whereby there is 'adaptation' of collagen fibers in a parallel orientation in relation to the implant, but insertion of fiber attachment perpendicularly into cementum in the case of teeth. This, combined with reduced cellularity and vascularity in the peri-implant connective tissue, may make implants more susceptible to disease initiation and progression. Furthermore, the presence of a subgingival connection between the implant and the abutment/restoration poses some specific challenges, and maintaining the integrity of this connection is important in preserving peri-",
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "authors": [
+              "Ivanovski Saso",
+              "Lee Ryan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Collagen",
+              "Connective Tissue",
+              "Dental Abutments",
+              "Dental Implant-Abutment Design",
+              "Dental Implantation, Endosseous",
+              "Dental Implants",
+              "Dental Prosthesis, Implant-Supported",
+              "Epithelial Attachment",
+              "Fibroblasts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29193334/"
+          },
+          {
+            "pmid": "38907216",
+            "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+            "abstract": "Periodontitis is a chronic inflammation caused by a bacterial infection and is intimately associated with an overactive immune response. Biomaterials are being utilized more frequently in periodontal therapy due to their designability and unique drug delivery system. However, local and systemic immune response reactions driven by the implantation of biomaterials could result in inflammation, tissue damage, and fibrosis, which could end up with the failure of the implantation. Therefore, immunological adjustment of biomaterials through precise design can reduce the host reaction while eliminating the periodontal tissue's long-term chronic inflammation response. It is important to note that macrophages are an active immune system component that can participate in the progression of periodontal disease through intricate polarization mechanisms. And modulating macrophage polarization by designing biomaterials has emerged as a new periodontal therapy technique. In this review, we discuss th",
+            "journal": "Journal of nanobiotechnology",
+            "year": "2024",
+            "authors": [
+              "Peng Shumin",
+              "Fu Haojie",
+              "Li Rui",
+              "Li Hui",
+              "Wang Shuyuan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Periodontitis",
+              "Biocompatible Materials",
+              "Macrophages",
+              "Animals",
+              "Immunotherapy",
+              "Drug Delivery Systems"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38907216/"
+          },
+          {
+            "pmid": "38362600",
+            "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+            "abstract": "Mounting evidence indicates that periodontitis-related oral bacteria may contribute to gut microbial dysbiosis. This clinical study aimed to explore the oral-gut microbial signatures associated with periodontitis and to longitudinally evaluate the effect of periodontal treatment on the oral and gut microbial composition. Stool and saliva samples from generalized stage III/IV periodontitis patients (n = 47) were collected and analyzed by 16S ribosomal RNA gene amplicon sequencing, before and 3 mo after steps I to II of periodontal therapy. Periodontally healthy matched subjects (n = 47) were used as controls. Principal component analysis was carried out to identify oral-gut microbial profiles between periodontitis patients at baseline and healthy subjects; periodontitis samples were longitudinally compared before and after treatment. β-Diversity of gut microbial profiles of periodontitis patients before treatment significantly differed from healthy controls (P < 0.001). Periodontal ther",
+            "journal": "Journal of dental research",
+            "year": "2024",
+            "authors": [
+              "Baima G",
+              "Ferrocino I",
+              "Del Lupo V",
+              "Colonna E",
+              "Thumbigere-Math V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Gastrointestinal Microbiome",
+              "Dysbiosis",
+              "RNA, Ribosomal, 16S",
+              "Periodontitis",
+              "Microbiota"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38362600/"
+          },
+          {
+            "pmid": "7782979",
+            "title": "The modified papilla preservation technique. A new surgical approach for interproximal regenerative procedures.",
+            "abstract": "A modification of the papilla preservation technique has been applied to achieve primary closure of the interproximal tissue over barrier membranes placed coronal to the alveolar crest. Fifteen patients with deep intrabony interproximal defects were treated. Defects had a probing attachment level loss of 9.9 +/- 3.2 mm and a recession of the gingival margin of 1.7 +/- 1.6 mm. The depth of the intrabony component was 5.5 +/- 2.9 mm; while the suprabony component was 5.9 +/- 2.0 mm. Titanium-reinforced teflon membranes were placed 1.3 +/- 0.7 mm from the cemento-enamel junction, 4.5 +/- 1.6 mm coronal to the interproximal alveolar bone crest. Primary closure over the interproximal portion of the membrane was obtained in 93% of cases. In 73% of the cases complete coverage of the membrane was maintained until its removal at 6 weeks. These data indicate that the modified papilla preservation technique can be successfully applied to obtain primary closure of the interdental space in regenera",
+            "journal": "Journal of periodontology",
+            "year": "1995",
+            "authors": [
+              "Cortellini P",
+              "Prato G P",
+              "Tonetti M S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alveolar Bone Loss",
+              "Female",
+              "Gingiva",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Male",
+              "Membranes, Artificial",
+              "Middle Aged",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7782979/"
+          },
+          {
+            "pmid": "29194794",
+            "title": "The periodontal pocket.",
+            "abstract": "Periodontal disease is synonymous with the presence of periodontal pockets, and very often the clinical success of periodontal therapy is based on periodontal pocket depth reduction. Therefore, in the fields of periodontology and implant dentistry, significant research effort has been placed on the etiopathogenesis, diagnosis and treatment of periodontal/peri-implant disease and as a consequence on pocket pathology. In this volume of Periodontology 2000, the in-depth reviews include topics ranging from preclinical models, anatomy and structure of tissues, and molecular and bacterial components, to treatments of pockets around teeth and implants. These reviews aim to provide the readers with current and future perspectives on the different areas of research into the periodontal pocket.",
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "authors": [
+              "Donos Nikolaos"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dental Calculus",
+              "Dental Implantation, Endosseous",
+              "Dental Implants",
+              "Gingiva",
+              "Gingival Crevicular Fluid",
+              "Humans",
+              "Oral Hygiene",
+              "Peri-Implantitis",
+              "Periodontal Diseases",
+              "Periodontal Index"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29194794/"
+          },
+          {
+            "pmid": "29291254",
+            "title": "Supportive periodontal therapy (SPT) for maintaining the dentition in adults treated for periodontitis.",
+            "abstract": "Periodontitis is a bacterially-induced, chronic inflammatory disease that destroys the connective tissues and bone that support teeth. Active periodontal treatment aims to reduce the inflammatory response, primarily through eradication of bacterial deposits. Following completion of treatment and arrest of inflammation, supportive periodontal therapy (SPT) is employed to reduce the probability of re-infection and progression of the disease; to maintain teeth without pain, excessive mobility or persistent infection in the long term, and to prevent related oral diseases.According to the American Academy of Periodontology, SPT should include all components of a typical dental recall examination, and importantly should also include periodontal re-evaluation and risk assessment, supragingival and subgingival removal of bacterial plaque and calculus, and re-treatment of any sites showing recurrent or persistent disease. While the first four points might be expected to form part of the routine",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "authors": [
+              "Manresa Carolina",
+              "Sanz-Miralles Elena C",
+              "Twigg Joshua",
+              "Bravo Manuel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anti-Bacterial Agents",
+              "Chronic Periodontitis",
+              "Dental Plaque",
+              "Humans",
+              "Middle Aged",
+              "Periodontal Debridement",
+              "Periodontics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29291254/"
+          },
+          {
+            "pmid": "12010523",
+            "title": "Clinical significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing.",
+            "abstract": "Analysis of Egyptian hieroglyphics and medical papyri indicate that non-surgical periodontal treatment was common 3000-4000 years ago. Even today, scaling and root planing (SRP) remains an essential part of successful periodontal therapy. The collective evidence from numerous clinical trials reveals a consistency of clinical response in the treatment of chronic periodontitis by SRP using manual, sonic, or ultrasonic instrumentation. Thus, SRP remains the 'gold standard' to which more recently developed therapeutic modalities must be compared. Inherent to the clinical evaluation of SRP are such concerns as manual versus sonic and ultrasonic instrumentation, control of sub-gingival bacterial populations, removal of calculus, root smoothness and changes in various clinical parameters, e.g. probing depth, attachment levels, bleeding on probing and gingival inflammation. Lastly, an abbreviated discussion is presented on a relatively new paradigm of complete mouth 'disinfection' in a compres",
+            "journal": "Journal of clinical periodontology",
+            "year": "2002",
+            "authors": [
+              "Cobb Charles M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Chronic Disease",
+              "Dental Calculus",
+              "Dental Plaque",
+              "Dental Scaling",
+              "Evidence-Based Medicine",
+              "Gingival Hemorrhage",
+              "Gingivitis",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12010523/"
+          },
+          {
+            "pmid": "18673013",
+            "title": "Rethinking periodontal inflammation.",
+            "abstract": "Clinical signs and symptoms, as well as medical and dental history, are all considered in the clinical determination of gingival inflammation and periodontal disease severity. However, the \"biologic systems model\" highlights that the clinical presentation of periodontal disease is closely tied to the underlying biologic phenotype. We propose that the determination and integration of subject-level factors, microbial composition, systemic immune response, and gingival tissue inflammatory mediator responses will better reflect the biology of the biofilm-gingival interface in a specific patient and may provide insights on clinical management. Disease classifications and multivariable models further refine the biologic basis for the increasing severity of periodontal disease expression. As such, new classifications may better identify disease-susceptible and treatment-non-responsive individuals than current classifications that are heavily influenced by probing and attachment level measurem",
+            "journal": "Journal of periodontology",
+            "year": "2008",
+            "authors": [
+              "Offenbacher Steven",
+              "Barros Silvana P",
+              "Beck James D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biofilms",
+              "Disease Susceptibility",
+              "Epigenesis, Genetic",
+              "Gingivitis",
+              "Humans",
+              "Inflammation",
+              "Inflammation Mediators",
+              "Models, Biological",
+              "Periodontitis",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18673013/"
+          },
+          {
+            "pmid": "20599785",
+            "title": "Complement and periodontitis.",
+            "abstract": "Although the complement system is centrally involved in host defense, its overactivation or deregulation (e.g., due to inherent host genetic defects or due to pathogen subversion) may excessively amplify inflammation and contribute to immunopathology. Periodontitis is an oral infection-driven chronic inflammatory disease which exerts a systemic impact on health. This paper reviews evidence linking complement to periodontal inflammation and pathogenesis. Clinical and histological observations show a correlation between periodontal inflammatory activity and local complement activation. Certain genetic polymorphisms or deficiencies in specific complement components appear to predispose to increased susceptibility to periodontitis. Animal model studies and in vitro experiments indicate that periodontal bacteria can either inhibit or activate distinct components of the complement cascade. Porphyromonas gingivalis, a keystone species in periodontitis, subverts complement receptor 3 and C5a a",
+            "journal": "Biochemical pharmacology",
+            "year": "2010",
+            "authors": [
+              "Hajishengallis George"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Complement Activation",
+              "Complement C5a",
+              "Complement Inactivating Agents",
+              "Complement System Proteins",
+              "Genetic Predisposition to Disease",
+              "Host-Pathogen Interactions",
+              "Humans",
+              "Immunity, Innate",
+              "Macrophage-1 Antigen"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20599785/"
+          },
+          {
+            "pmid": "17243998",
+            "title": "A minimally invasive surgical technique with an enamel matrix derivative in the regenerative treatment of intra-bony defects: a novel approach to limit morbidity.",
+            "abstract": "This study was undertaken to describe a new surgical approach (minimally invasive surgical technique, MIST) and to evaluate preliminarily its clinical performance and patient perception associated with the application of enamel matrix derivative (EMD) in the treatment of isolated deep intra-bony defects.",
+            "journal": "Journal of clinical periodontology",
+            "year": "2007",
+            "authors": [
+              "Cortellini Pierpaolo",
+              "Tonetti Maurizio S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Alveolar Bone Loss",
+              "Attitude to Health",
+              "Cohort Studies",
+              "Dental Enamel Proteins",
+              "Female",
+              "Follow-Up Studies",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Intraoperative Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17243998/"
+          },
+          {
+            "pmid": "11276517",
+            "title": "Osseous resective surgery.",
+            "abstract": "Osseous resective surgery necessitates following certain guidelines for proper recontouring of the alveolar bone and proper management and positioning of the gingival tissues. The results from osseous resective surgery are technique sensitive. It has limited use in treating cases with very deep intrabony or hemiseptal defects, which should be treated with a different surgical approach. If osseous resective surgery is used in advanced lesions, a compromise in the amount of probing depth reduction should be expected. Yet, osseous resective surgery provides the surest method of reducing pockets with an intrabony or hemiseptal osseous component of 3 mm or less, albeit at the expense of some attachment in the neighboring less involved sites. Osseous resective surgery has been and remains one of the principal periodontal treatment modalities because of its proven success (Fig. 17).",
+            "journal": "Periodontology 2000",
+            "year": "2000",
+            "authors": [
+              "Carnevale G",
+              "Kaldahl W B"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alveolar Bone Loss",
+              "Alveolar Process",
+              "Alveoloplasty",
+              "Animals",
+              "Bone Remodeling",
+              "Bone Resorption",
+              "Clinical Trials as Topic",
+              "Gingival Recession",
+              "Gingivoplasty",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11276517/"
+          },
+          {
+            "pmid": "34269040",
+            "title": "The apically incised coronally advanced surgical technique (AICAST) for periodontal regeneration in isolated defects: a case series.",
+            "abstract": "The aim of this retrospective case series was to report the performance up to 5 years of an innovative surgical design (the apically incised coronally advanced surgical technique [AICAST]) for the regenerative treatment of one- or two-walled intrabony periodontal lesions.",
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "authors": [
+              "Calzavara Dino",
+              "Morante Segio",
+              "Sanz Javier",
+              "Noguerol Fernando",
+              "Gonzalez Jerian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alveolar Bone Loss",
+              "Dental Enamel Proteins",
+              "Follow-Up Studies",
+              "Gingival Recession",
+              "Guided Tissue Regeneration, Periodontal",
+              "Humans",
+              "Periodontal Attachment Loss",
+              "Regeneration",
+              "Retrospective Studies",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34269040/"
+          },
+          {
+            "pmid": "3533789",
+            "title": "Juvenile periodontitis.",
+            "abstract": "Juvenile periodontitis occurs in children and young adults and can be classified into: periodontitis which occurs in otherwise healthy individuals, and periodontitis which occurs in juveniles with systemic disease. The periodontitis which occurs in otherwise healthy individuals consists of two major forms: juvenile periodontitis, also called periodontosis or localized juvenile periodontitis (LJP), and generalized juvenile periodontitis which includes early onset adult periodontitis, recurrent necrotizing ulcerative periodontitis and the true generalized form of juvenile periodontitis. Periodontitis in systemically diseased individuals can be divided into three subgroups: juvenile periodontitis associated with primary neutrophil disorders, juvenile periodontal disease in which neutrophils are secondarily abnormal, and juvenile periodontitis associated with other diseases. Juvenile periodontitis is perhaps the best understood form of periodontal disease. A major infecting organism, Actin",
+            "journal": "International dental journal",
+            "year": "1986",
+            "authors": [
+              "Genco R J",
+              "Christersson L A",
+              "Zambon J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Aggressive Periodontitis",
+              "Disease",
+              "Humans",
+              "Periodontal Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3533789/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+        "txgnn_score": 0.9996066689491272,
+        "txgnn_rank": 989,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "isolated genetic hair shaft abnormality",
+        "txgnn_score": 0.9995854496955872,
+        "txgnn_rank": 1013,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ambras type hypertrichosis universalis congenita",
+        "txgnn_score": 0.9995763897895812,
+        "txgnn_rank": 1029,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal-hepatic-pancreatic dysplasia",
+        "txgnn_score": 0.9892661571502686,
+        "txgnn_rank": 11066,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pulmonary arteriovenous malformation (disease)",
+        "txgnn_score": 0.9891496300697328,
+        "txgnn_rank": 11151,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polycystic kidney disease 3 with or without polycystic liver disease",
+        "txgnn_score": 0.9884158372879028,
+        "txgnn_rank": 11735,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38958301",
+            "title": "ACG Clinical Guideline: Focal Liver Lesions.",
+            "abstract": "Focal liver lesions (FLLs) have become an increasingly common finding on abdominal imaging, especially asymptomatic and incidental liver lesions. Gastroenterologists and hepatologists often see these patients in consultation and make recommendations for management of multiple types of liver lesions, including hepatocellular adenoma, focal nodular hyperplasia, hemangioma, and hepatic cystic lesions including polycystic liver disease. Malignancy is important to consider in the differential diagnosis of FLLs, and healthcare providers must be familiar with the diagnosis and management of FLLs. This American College of Gastroenterology practice guideline uses the best evidence available to make diagnosis and management recommendations for the most common FLLs.",
+            "journal": "The American journal of gastroenterology",
+            "year": "2024",
+            "authors": [
+              "Frenette Catherine",
+              "Mendiratta-Lala Mishal",
+              "Salgia Reena",
+              "Wong Robert J",
+              "Sauer Bryan G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Focal Nodular Hyperplasia",
+              "Liver Neoplasms",
+              "Liver Diseases",
+              "Hemangioma",
+              "Cysts",
+              "Adenoma, Liver Cell",
+              "Diagnosis, Differential",
+              "Gastroenterology",
+              "Carcinoma, Hepatocellular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38958301/"
+          },
+          {
+            "pmid": "30819518",
+            "title": "Autosomal dominant polycystic kidney disease.",
+            "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) is the most common hereditary kidney disease and one of the most common causes of end-stage kidney disease. Multiple clinical manifestations, such as enlarged kidneys filled with growing cysts, hypertension, and multiple extrarenal complications, including liver cysts, intracranial aneurysms, and cardiac valvular disease, show that ADPKD is a systemic disorder. New information derived from clinical research using molecular genetics and advanced imaging techniques has provided enhanced tools for assessing the diagnosis and prognosis for individual patients and their families. Phase 3 randomised, placebo-controlled clinical trials have clarified aspects of disease management and a disease-modifying therapeutic drug is now available for patients with high risk of rapid disease progression. These developments provide a strong basis on which to make clear recommendations about the management of affected patients and families. Implementati",
+            "journal": "Lancet (London, England)",
+            "year": "2019",
+            "authors": [
+              "Cornec-Le Gall Emilie",
+              "Alam Ahsan",
+              "Perrone Ronald D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cysts",
+              "Disease Progression",
+              "Female",
+              "Genetic Testing",
+              "Humans",
+              "Liver Diseases",
+              "Magnetic Resonance Imaging",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30819518/"
+          },
+          {
+            "pmid": "35487607",
+            "title": "Polycystic Kidney/Liver Disease.",
+            "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) is a genetic disorder that leads to chronic kidney disease and end-stage kidney disease (ESKD). Polycystic liver disease (PCLD) is the most common extrarenal manifestation of ADPKD. Though isolated PCLD and PCLD due to ADPKD are genetically distinct, they follow a similar clinical course of hepatomegaly from multiple cysts with preserved liver function. Tolvaptan use in ADPKD can slow down the deterioration of renal function and growth of cysts. Somatostatin analogs can slow the growth of polycystic livers but the effect is short-lived. The only curative therapy for PCLD is liver transplantation. Renal transplantation can significantly improve survival in patients with ESKD due to ADPKD.",
+            "journal": "Clinics in liver disease",
+            "year": "2022",
+            "authors": [
+              "Roediger Rebecca",
+              "Dieterich Douglas",
+              "Chanumolu Pramodh",
+              "Deshpande Priya"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Female",
+              "Humans",
+              "Kidney",
+              "Liver Diseases",
+              "Male",
+              "Polycystic Kidney Diseases",
+              "Polycystic Kidney, Autosomal Dominant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35487607/"
+          },
+          {
+            "pmid": "29038287",
+            "title": "Genetic Complexity of Autosomal Dominant Polycystic Kidney and Liver Diseases.",
+            "abstract": "Data indicate significant phenotypic and genotypic overlap, plus a common pathogenesis, between two groups of inherited disorders, autosomal dominant polycystic kidney diseases (ADPKD), a significant cause of ESRD, and autosomal dominant polycystic liver diseases (ADPLD), which result in significant PLD with minimal PKD. Eight genes have been associated with ADPKD (PKD1 and PKD2), ADPLD (PRKCSH, SEC63, LRP5, ALG8, and SEC61B), or both (GANAB). Although genetics is only infrequently used for diagnosing these diseases and prognosing the associated outcomes, its value is beginning to be appreciated, and the genomics revolution promises more reliable and less expensive molecular diagnostic tools for these diseases. We therefore propose categorization of patients with a phenotypic and genotypic descriptor that will clarify etiology, provide prognostic information, and better describe atypical cases. In genetically defined cases, the designation would include the disease and gene names, with",
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2018",
+            "authors": [
+              "Cornec-Le Gall Emilie",
+              "Torres Vicente E",
+              "Harris Peter C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alleles",
+              "Calcium-Binding Proteins",
+              "Cysts",
+              "Diagnosis, Differential",
+              "Genetic Testing",
+              "Glucosidases",
+              "Glucosyltransferases",
+              "Humans",
+              "Intracellular Signaling Peptides and Proteins",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29038287/"
+          },
+          {
+            "pmid": "38097330",
+            "title": "Genetic Spectrum of Polycystic Kidney and Liver Diseases and the Resulting Phenotypes.",
+            "abstract": "Polycystic kidney diseases are a group of monogenically inherited disorders characterized by cyst development in the kidney with defects in primary cilia function central to pathogenesis. Autosomal dominant polycystic kidney disease (ADPKD) has progressive cystogenesis and accounts for 5-10% of kidney failure (KF) patients. There are two major ADPKD genes, PKD1 and PKD2, and seven minor loci. PKD1 accounts for ∼80% of patients and is associated with the most severe disease (KF is typically at 55-65 years); PKD2 accounts for ∼15% of families, with KF typically in the mid-70s. The minor genes are generally associated with milder kidney disease, but for DNAJB11 and ALG5, the age at KF is similar to PKD2. PKD1 and PKD2 have a high level of allelic heterogeneity, with no single pathogenic variant accounting for >2% of patients. Additional genetic complexity includes biallelic disease, sometimes causing very early-onset ADPKD, and mosaicism. Autosomal dominant polycystic liver disease is cha",
+            "journal": "Advances in kidney disease and health",
+            "year": "2023",
+            "authors": [
+              "Yang Hana",
+              "Sieben Cynthia J",
+              "Schauer Rachel S",
+              "Harris Peter C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Humans",
+              "Liver Diseases",
+              "Polycystic Kidney, Autosomal Recessive",
+              "Phenotype",
+              "Mutation",
+              "Ciliopathies",
+              "Polycystic Kidney, Autosomal Dominant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38097330/"
+          },
+          {
+            "pmid": "35728731",
+            "title": "EASL Clinical Practice Guidelines on the management of cystic liver diseases.",
+            "abstract": "The advent of enhanced radiological imaging techniques has facilitated the diagnosis of cystic liver lesions. Concomitantly, the evidence base supporting the management of these diseases has matured over the last decades. As a result, comprehensive clinical guidance on the subject matter is warranted. These Clinical Practice Guidelines cover the diagnosis and management of hepatic cysts, mucinous cystic neoplasms of the liver, biliary hamartomas, polycystic liver disease, Caroli disease, Caroli syndrome, biliary hamartomas and peribiliary cysts. On the basis of in-depth review of the relevant literature we provide recommendations to navigate clinical dilemmas followed by supporting text. The recommendations are graded according to the Oxford Centre for Evidence-Based Medicine system and categorised as 'weak' or 'strong'. We aim to provide the best available evidence to aid the clinical decision-making process in the management of patients with cystic liver disease.",
+            "journal": "Journal of hepatology",
+            "year": "2022",
+            "authors": [],
+            "pub_types": [
+              "Practice Guideline",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Hamartoma",
+              "Humans",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35728731/"
+          },
+          {
+            "pmid": "34034501",
+            "title": "A review of the diagnosis and management of liver hydatid cyst.",
+            "abstract": "Hydatidosis is a zoonosis caused by Echinococcus in the larval stage. Humans are accidental intermediary hosts where cystic lesions develop, primarily in the liver and the lungs. It is usually asymptomatic, hence it often represents an incidental finding. Symptoms result from cyst expansion and/or host inflammatory reaction. Hepatomegaly is the most common sign. Hydatidosis induces no specific changes in lab tests but immunodiagnostics are available that may complement its study, with antibody detection being the modality of choice. While ultrasound is the main diagnostic technique, tomography offers more accurate information regarding both characteristics and anatomical relations. A number of therapy options are presently available. Treatment with albendazole, whether combined or not with praziquantel, is useful for smaller, uncomplicated cysts (< 5 cm). Only 30 % of cysts disappear with medical treatment alone. Surgery is indicated for bigger liver cysts (> 10 cm), and cysts at risk ",
+            "journal": "Revista espanola de enfermedades digestivas",
+            "year": "2022",
+            "authors": [
+              "Ferrer Inaebnit Ester",
+              "Molina Romero Francesc Xavier",
+              "Segura Sampedro Juan José",
+              "González Argenté Xavier",
+              "Morón Canis José Miguel"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Albendazole",
+              "Cysts",
+              "Echinococcosis",
+              "Echinococcosis, Hepatic",
+              "Humans",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34034501/"
+          },
+          {
+            "pmid": "37208103",
+            "title": "Issues in multi-organ transplantation of the liver with kidney or heart in polycystic liver-kidney disease or congenital heart disease: Current practices and immunological aspects.",
+            "abstract": "Solid organ transplantation has become an integral part of the management of patients with end-stage diseases of the kidney, liver, heart and lungs. Most procedures occur in isolation, but multi-organ transplantation of the liver with either the kidney or heart has become an option. As more patients with congenital heart disease and cardiac cirrhosis survive into adulthood, particularly after the Fontan procedure, liver transplant teams are expected to face questions regarding multi-organ (heart-liver) transplantation. Similarly, patients with polycystic kidneys and livers may be managed by multi-organ transplantation. Herein, we review the indications and outcomes of simultaneous liver-kidney transplantation for polycystic liver-kidney disease, and discuss the indications, timing and procedural aspects of combined heart-liver transplantation. We also summarise the evidence for, and potential mechanisms underlying, the immunoprotective impact of liver allografts on the simultaneously t",
+            "journal": "Journal of hepatology",
+            "year": "2023",
+            "authors": [
+              "Taner Timucin",
+              "Hilscher Moira B",
+              "Broda Christopher R",
+              "Drenth Joost P H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Liver",
+              "Liver Transplantation",
+              "Heart Defects, Congenital",
+              "Liver Diseases",
+              "Humans",
+              "Polycystic Kidney Diseases",
+              "Kidney",
+              "Cysts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37208103/"
+          },
+          {
+            "pmid": "40081770",
+            "title": "Therapeutic opportunities in polycystic kidney and liver disease through extracellular matrix dynamics.",
+            "abstract": "Autosomal Dominant and Autosomal Recessive Polycystic Kidney Disease (ADPKD and ARPKD) are, respectively, common and rare forms of polycystic disorders, characterized by the formation and progressive growth of cysts from tubules in the kidneys and bile ducts in the liver. Alterations in the extracellular matrix (ECM) and in the activity of matrix metalloproteases (MMPs), both associated with fibrosis, have been shown to be important factors in cystic growth and progression of these diseases. We used tandem mass spectrometry (LC-MS/MS) to identify the most enriched proteins and pathways in an orthologous rapidly progressive mouse model of ADPKD: Pkd1flox/floxTamCre. This information was used to discover and validate novel therapeutic targets in orthologous models of ADPKD (Pkd1flox/floxTamCre) and ARPKD (Pkdh1del3-4/del3-4). ECM related pathways and expression levels of MMPs were among the most dysregulated cellular processes in polycystic kidney and liver. Selective inhibition of MMPs ",
+            "journal": "Biochemical pharmacology",
+            "year": "2025",
+            "authors": [
+              "Cordido Adrian",
+              "Nuñez-González Laura",
+              "Lamas-González Olaya",
+              "Vizoso-González Marta",
+              "Bravo Susana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Extracellular Matrix",
+              "Mice",
+              "Polycystic Kidney Diseases",
+              "Liver Diseases",
+              "Cysts",
+              "Humans",
+              "Male",
+              "Polycystic Kidney, Autosomal Dominant",
+              "Mice, Inbred C57BL"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40081770/"
+          },
+          {
+            "pmid": "36047551",
+            "title": "[Polycystic liver disease].",
+            "abstract": "Polycystic liver disease (PLD) includes three entities in adults : biliary hamartomas which develop as a result of ductal plate malformation, autosomal dominant polycystic liver disease (ADPLD) and autosomal dominant polycystic kidney disease (ADPKD) which occur in the setting of genetic disorders. Hamartomas are asymptomatic and benign. PLD are marked by a steady growth of cysts over time, clinically silent in the majority of cases. Symptomatic forms mainly affect women due to the influence of estrogens on the growth of cysts therefore estrogen treatments are contraindicated in this setting. Diagnosis is based on imaging. Complications are rare but must be identified early in order to offer appropriate care in an expert center.",
+            "journal": "Revue medicale suisse",
+            "year": "2022",
+            "authors": [
+              "Ongaro Marie",
+              "Bronstein Francois-Nathan",
+              "Goossens Nicolas",
+              "Spahr Laurent",
+              "Bresson Hadni Solange"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cysts",
+              "Female",
+              "Hamartoma",
+              "Humans",
+              "Liver",
+              "Liver Diseases",
+              "Polycystic Kidney, Autosomal Dominant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36047551/"
+          },
+          {
+            "pmid": "30652979",
+            "title": "Genetics of polycystic liver diseases.",
+            "abstract": "This review provides an outline of the most recent insights and significant discoveries regarding the genetic mechanisms involved in polycystic liver disease.",
+            "journal": "Current opinion in gastroenterology",
+            "year": "2019",
+            "authors": [
+              "Lee-Law Pui Y",
+              "van de Laarschot Liyanne F M",
+              "Banales Jesus M",
+              "Drenth Joost P H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cysts",
+              "Humans",
+              "Liver Diseases",
+              "Mutation",
+              "Peptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30652979/"
+          },
+          {
+            "pmid": "28317394",
+            "title": "An update on the pathophysiology and management of polycystic liver disease.",
+            "abstract": "Polycystic liver disease (PLD) is characterized by the presence of multiple cholangiocyte-derived hepatic cysts that progressively replace liver tissue. They are classified as an inherited ciliopathy /cholangiopathy as pathology exists at the level of the primary cilia of cholangiocytes. Aberrant expression of the proteins in primary cilia can impair their structures and functions, thereby promoting cystogenesis. Areas covered: This review begins by looking at the epidemiology of PLD and its natural history. It then describes the pathophysiology and corresponding potential treatment strategies for PLD. Expert commentary: Traditionally, therapies for symptomatic PLD have been limited to symptomatic management and surgical interventions. Such techniques are not completely effective, do not alter the natural history of the disease, and are linked with high rate of re-accumulation of cysts. As a result, there has been a push for drugs targeted at abnormal cellular signaling cascades to add",
+            "journal": "Expert review of gastroenterology & hepatology",
+            "year": "2017",
+            "authors": [
+              "Wong May Yw",
+              "McCaughan Geoffrey W",
+              "Strasser Simone I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cysts",
+              "Disease Progression",
+              "Humans",
+              "Liver",
+              "Liver Diseases",
+              "Risk Factors",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28317394/"
+          },
+          {
+            "pmid": "37266470",
+            "title": "Polycystic Kidney Disease and Polycystic Liver Disease Associated to Advanced Gastric Cancer: an External Complication of Potter III Disease.",
+            "abstract": "Autosomal dominant polycystic kidney disease (ADPKD) is the most frequent of the hereditary diseases affecting the kidney but it can also be associated with cysts in the pancreas, liver, arachnoid, seminal vesicles. In particular, ADPKD plus adult polycystic liver disease (APLD) is defined as Potter type III. In the literature, the association of malignant neoplasm with APLD and ADPKD is extremely rare. We have found only nine cases. Only one report described multiple gastric carcinomas associated with Potter type III cystic disease. We described a case of a man suffering from ADPKD and APLD plus a stage IV (TNM) gastric adenocarcinoma.",
+            "journal": "Maedica",
+            "year": "2023",
+            "authors": [
+              "Coco Danilo",
+              "Leanza Silvana"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37266470/"
+          },
+          {
+            "pmid": "36200122",
+            "title": "Polycystic Liver Disease: Pathophysiology, Diagnosis and Treatment.",
+            "abstract": "Polycystic liver disease (PLD) is a clinical condition characterized by the presence of more than 10 cysts in the liver. It is a rare disease Of genetic etiology that presents as an isolated disease or assoc\\iated with polycystic kidney disease. Ductal plate malformation, ciliary dysfunction, and changes in cell signaling are the main factors involved in its pathogenesis. Most patients with PLD are asymptomatic, but in 2-5% of cases the disease has disabling symptoms and a significant reduction in quality of life. The diagnosis is based on family history of hepatic and/or renal polycystic disease, clinical manifestations, patient age, and polycystic liver phenotype shown on imaging examinations. PLD treatment has evolved considerably in the last decades. Somatostatin analogues hold promise in controlling disease progression, but liver transplantation remains a unique curative treatment modality.",
+            "journal": "Hepatic medicine : evidence and research",
+            "year": "2022",
+            "authors": [
+              "Norcia Luiz Fernando",
+              "Watanabe Erika Mayumi",
+              "Hamamoto Filho Pedro Tadao",
+              "Hasimoto Claudia Nishida",
+              "Pelafsky Leonardo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36200122/"
+          },
+          {
+            "pmid": "35777701",
+            "title": "An update on ductal plate malformations and fibropolycystic diseases of the liver.",
+            "abstract": "A variety of cystic and fibrocystic lesions can occur in the liver, which may be single or multiple and etiologically can be acquired or have genetic underpinnings. Although the morphology of ductal plate development and various associated malformations has been well described, the genetic etiologies of many of these disorders are still poorly understood. Multiple clinical phenotypes in the liver are proposed to originate from ductal plate malformations: congenital hepatic fibrosis, Caroli's disease, Von Meyenburg complex, and the liver cysts of autosomal dominant polycystic kidney and liver diseases. Although many of the patients with these disorders, particularly with isolated liver involvement remain asymptomatic, some develop portal hypertension or symptoms from cyst enlargement. Development of hepatocellular malignancy is a risk in a small subset. Recent advances have made it now possible for some of these phenotypes to be genetically defined, and intriguingly animal models of adu",
+            "journal": "Human pathology",
+            "year": "2023",
+            "authors": [
+              "Mirza Haris",
+              "Besse Whitney",
+              "Somlo Stefan",
+              "Weinreb Jeffrey",
+              "Kenney Barton"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Liver Diseases",
+              "Liver Cirrhosis",
+              "Caroli Disease",
+              "Cysts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35777701/"
+          },
+          {
+            "pmid": "34724412",
+            "title": "Polycystic Liver Disease: Advances in Understanding and Treatment.",
+            "abstract": "Polycystic liver disease (PLD) is a group of genetic disorders characterized by progressive development of cholangiocyte-derived fluid-filled hepatic cysts. PLD is the most common manifestation of autosomal dominant and autosomal recessive polycystic kidney diseases and rarely occurs as autosomal dominant PLD. The mechanisms of PLD are a sequence of the primary (mutations in PLD-causative genes), secondary (initiation of cyst formation), and tertiary (progression of hepatic cystogenesis) interconnected molecular and cellular events in cholangiocytes. Nonsurgical, surgical, and limited pharmacological treatment options are currently available for clinical management of PLD. Substantial evidence suggests that pharmacological targeting of the signaling pathways and intracellular processes involved in the progression of hepatic cystogenesis is beneficial for PLD. Many of these targets have been evaluated in preclinical and clinical trials. In this review, we discuss the genetic, molecular,",
+            "journal": "Annual review of pathology",
+            "year": "2022",
+            "authors": [
+              "Masyuk Tatyana V",
+              "Masyuk Anatoliy I",
+              "LaRusso Nicholas F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Humans",
+              "Liver Diseases",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34724412/"
+          },
+          {
+            "pmid": "26126910",
+            "title": "Lanreotide and its Potential Applications in Polycystic Kidney and Liver Diseases.",
+            "abstract": "Multiple Gαi protein-coupled somatostatin receptors (SSTRs) are expressed in human kidney and liver tissues. Also, aberrant cAMP signaling has been shown to play a critical role in cysto-genesis and enlargement of the human kidney and liver. Thus, somatostatin (SST) analogs become potential and promising alternatives in treating human polycystic kidney disease (PKD) and polycystic liver disease (PLD) via interacting with Gαi protein-coupled SSTRs and further blocking cAMP production. Lanreotide is a synthetic, long-acting SST analog with high binding affinity to SSTR2, and has been clinically approved for the treatment of acromegaly due to excessive growth hormone. Recently, this SST analog has been applied in the treatment of PKD and PLD, and has shown an effective reduction of liver and kidney volume compared to placebo. This review will discuss the discovery of this peptide and its clinical applications in the treatment of PKD/PLD patients.",
+            "journal": "Current topics in medicinal chemistry",
+            "year": "2015",
+            "authors": [
+              "Sun Lichun",
+              "Yu Cui-Yun",
+              "Mackey L Vienna",
+              "Coy David H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Humans",
+              "Liver Diseases",
+              "Peptides, Cyclic",
+              "Polycystic Kidney Diseases",
+              "Somatostatin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26126910/"
+          },
+          {
+            "pmid": "24443335",
+            "title": "Polycystic liver disease.",
+            "abstract": "A widespread use of ultrasound (US) examination is contributing to an increase in the diagnosis of renal and hepatic cysts. However, the vast majority of these lesions are benign with an indolent course during the patient's lifespan. Adult polycystic kidney disease (APKD) is one of the most common diagnosed entities. APKD is a genetic disease defined by the presence of multiple kidney cysts, occasionally accompanied by hepatic cysts. The presence of hepatic cysts sparing kidneys is very rare and thereby must be assumed as a different clinical entity. This article describes a case of an exuberant hepatomegaly due to the presence of isolated multiple hepatic cysts without renal involvement.",
+            "journal": "BMJ case reports",
+            "year": "2014",
+            "authors": [
+              "Leão Rodrigo Nazário",
+              "Salustio Raquel",
+              "Ribeiro José Vaz"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Diagnosis, Differential",
+              "Female",
+              "Follow-Up Studies",
+              "Hepatectomy",
+              "Humans",
+              "Liver Diseases",
+              "Magnetic Resonance Imaging",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24443335/"
+          },
+          {
+            "pmid": "37943238",
+            "title": "Extrarenal Manifestations: Polycystic Liver Disease and Its Complications.",
+            "abstract": "The liver is the commonest site of involvement outside of the kidney in autosomal dominant polycystic kidney disease. Most individuals with polycystic liver disease are asymptomatic and require no therapeutic interventions, but a small number of affected individuals who experience symptomatic polycystic liver disease develop medical complications as a result of massive enlargement of cyst number and size and hepatic parenchyma and its subsequent associated complications. This can lead to deterioration in overall health and quality of life, increasing morbidity and mortality. In this review, we will touch upon disease pathogenesis, prevalence, and complications and discuss recent advances in surgical and medical management.",
+            "journal": "Advances in kidney disease and health",
+            "year": "2023",
+            "authors": [
+              "Bugazia Seif",
+              "Hogan Marie C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Quality of Life",
+              "Liver Diseases",
+              "Cysts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37943238/"
+          },
+          {
+            "pmid": "30579648",
+            "title": "Hamartomas and malformations of the liver.",
+            "abstract": "Hamartomas and malformations of the liver are rare and can lead to diagnostic challenges. Most present as mass lesions that can mimic true neoplasms of the liver on imaging and sometimes on histology, one example being focal nodular hyperplasia. The primary cell type in the hamartomas and malformations can be biliary, vascular, or hepatic. Biliary lesions include bile duct hamartomas and simple liver cysts. Other cystic malformations include the ciliated hepatic foregut cysts and mesothelial cysts. Vascular malformations include telangiectasias, arteriovenous malformations, and hereditary lymphedema. Malformations composed primarily of hepatocytes include accessory lobes and focal nodular hyperplasia. All of these entities are discussed, with a focus on the diagnostic histological findings.",
+            "journal": "Seminars in diagnostic pathology",
+            "year": "2019",
+            "authors": [
+              "Torbenson Michael S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cysts",
+              "Hamartoma",
+              "Humans",
+              "Liver",
+              "Liver Diseases",
+              "Liver Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30579648/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "genetic alopecia",
+        "txgnn_score": 0.9876430034637452,
+        "txgnn_rank": 12323,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thoracic malformation",
+        "txgnn_score": 0.9875303506851196,
+        "txgnn_rank": 12417,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00990535",
+            "title": "Efficacy and Safety of High Dose Regimen of Octreotide LAR in Patients With Neuroendocrine Tumors in Progressive Disease: A Phase II, Open, Multicentric Prospective Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-01",
+            "completion_date": "2008-12",
+            "country": "Italy",
+            "enrollment": 28,
+            "brief_summary": "Octreotide (OCT) is a somatostatin analogue (SSA) available in a long-acting formulation, conventionally administered every 28 days at the maximum dose of 30 mg. Together with lanreotide, it is considered the therapy of choice in the control of endocrine syndromes associated with neuroendocrine tumors (NET)s. A complete or partial clinical response to SSA therapy is generally achieved in at least 50% of the patients with neuroendocrine syndrome. Many studies reported a clinical response in 70-90",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Well differentiated neuroendocrine tumors in disease progression\n\nExclusion Criteria:\n\n* Well differentiated neuroendocrine tumors without disease progression\n* Patients with intolerance to somatostatin analogues",
+            "endpoints": [
+              "Tumor stabilization"
+            ],
+            "sponsor": "Federico II University",
+            "url": "https://clinicaltrials.gov/study/NCT00990535"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "12768334",
+            "title": "111In-DOTA- dPhe1-Tyr3-octreotide, 111In-DOTA-lanreotide and 67Ga citrate scintigraphy for visualisation of extranodal marginal zone B-cell lymphoma of the MALT type: a comparative study.",
+            "abstract": "Somatostatin receptor (SSTR) scintigraphy and gallium-67 citrate ((67)Ga) scintigraphy have been used for visualisation of Hodgkin's lymphoma and non-Hodgkin's lymphoma. However, experience with B-cell lymphoma of the mucosa-associated lymphoid tissue (MALT) type is very limited. The aim of this study was to prospectively compare the (67)Ga scintigraphy results with those obtained by (111)In-DOTA- dPhe(1)-Tyr(3)-octreotide ((111)In-DOTA-TOCT) and (111)In-DOTA-lanreotide ((111)In-DOTA-LAN) scintigraphy in patients with proven MALT-type lymphoma. Comparative scintigraphic examinations using (67)Ga, (111)In-DOTA-TOCT and (111)In-DOTA-LAN were performed in 18 patients (11 female and 7 male, median age 64+/-15 years) with histologically verified MALT-type lymphomas of various origin. Planar and single-photon emission tomography imaging acquisitions were performed after injection of a mean dose of 185+/-26 MBq (67)Ga and 165+/-20 MBq (111)In-DOTA-TOCT or (111)In-DOTA-LAN. All scintigraphic r",
+            "journal": "European journal of nuclear medicine and molecular imaging",
+            "year": "2003",
+            "authors": [
+              "Li Shuren",
+              "Kurtaran Amir",
+              "Li Mei",
+              "Traub-Weidinger Tatjana",
+              "Kienast Oskar"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Validation Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Citrates",
+              "False Negative Reactions",
+              "False Positive Reactions",
+              "Female",
+              "Gallium",
+              "Heterocyclic Compounds",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12768334/"
+          },
+          {
+            "pmid": "38441351",
+            "title": "Effective management of recurrent Doege-Potter syndrome with somatostatin-analogues: A case report.",
+            "abstract": "Doege-Potter syndrome is defined as paraneoplastic hypoinsulinemic hypoglycemia associated with a benign or malignant solitary fibrous tumor frequently located in pleural, but also extrapleural sites. Hypoglycemia can be attributed to paraneoplastic secretion of \"Big-IGF-II,\" a precursor of Insulin-like growth factor-II. This prohormone aberrantly binds to and activates insulin receptors, with consecutive initiation of common insulin actions such as inhibition of gluconeogenesis, activation of glycolysis and stimulation of cellular glucose uptake culminating in recurrent tumor-induced hypoglycemic episodes. Complete tumor resection or debulking surgery is considered the most promising treatment for DPS.",
+            "journal": "Cancer reports (Hoboken, N.J.)",
+            "year": "2024",
+            "authors": [
+              "Schöler Felix",
+              "Storz Maximilian Andreas",
+              "Khavaran Ashkan",
+              "Hümmler Nicolas",
+              "Russe Maximilian Frederik"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Aged, 80 and over",
+              "Kidney Diseases",
+              "Somatostatin",
+              "Neoplasms",
+              "Hypoglycemia",
+              "Congenital Abnormalities",
+              "Kidney"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38441351/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06791",
+    "name": "Lanreotide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lanreotide"
+      },
+      "queried_at": "2026-03-09T11:55:17.002404",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lanreotide"
+      },
+      "queried_at": "2026-03-09T11:55:19.543411",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T11:55:20.061875",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T11:55:23.906520",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "hypertrichosis (disease)"
+      },
+      "queried_at": "2026-03-09T11:55:25.404349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T11:55:26.497083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T11:55:30.496839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "queried_at": "2026-03-09T11:55:37.781751",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T11:55:38.892656",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T11:55:42.706246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "queried_at": "2026-03-09T11:55:43.401063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T11:55:43.916434",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T11:55:47.603258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "queried_at": "2026-03-09T11:55:48.478341",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T11:55:49.127197",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T11:55:52.131650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "queried_at": "2026-03-09T11:55:52.878543",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "renal-hepatic-pancreatic dysplasia"
+      },
+      "queried_at": "2026-03-09T11:55:53.538530",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "renal-hepatic-pancreatic dysplasia"
+      },
+      "queried_at": "2026-03-09T11:55:58.307435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "renal-hepatic-pancreatic dysplasia"
+      },
+      "queried_at": "2026-03-09T11:55:59.608935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-09T11:56:00.523119",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-09T11:56:04.583932",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "queried_at": "2026-03-09T11:56:05.640612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "polycystic kidney disease 3 with or without polycystic liver disease"
+      },
+      "queried_at": "2026-03-09T11:56:06.754651",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "polycystic kidney disease 3 with or without polycystic liver disease"
+      },
+      "queried_at": "2026-03-09T11:56:11.012822",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "polycystic kidney disease 3 with or without polycystic liver disease"
+      },
+      "queried_at": "2026-03-09T11:56:18.017218",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "genetic alopecia"
+      },
+      "queried_at": "2026-03-09T11:56:18.652035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "genetic alopecia"
+      },
+      "queried_at": "2026-03-09T11:56:22.018035",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "genetic alopecia"
+      },
+      "queried_at": "2026-03-09T11:56:22.714778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "thoracic malformation"
+      },
+      "queried_at": "2026-03-09T11:56:23.377590",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "thoracic malformation"
+      },
+      "queried_at": "2026-03-09T11:56:27.465028",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lanreotide",
+        "disease": "thoracic malformation"
+      },
+      "queried_at": "2026-03-09T11:56:31.371137",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:56:31.491355"
+  }
+}

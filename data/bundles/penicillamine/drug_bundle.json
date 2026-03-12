@@ -1,0 +1,1630 @@
+{
+  "drug": {
+    "inn": "Penicillamine",
+    "drugbank_id": "DB00859",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "megaloblastic anemia (disease)",
+        "txgnn_score": 0.9801613688468932,
+        "txgnn_rank": 16950,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tricarboxylic acid cycle disorder",
+        "txgnn_score": 0.93464332818985,
+        "txgnn_rank": 29815,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37150036",
+            "title": "The molecular mechanisms of cuproptosis and its relevance to cardiovascular disease.",
+            "abstract": "Recently, cuproptosis has been demonstrated to be a new non-apototic cell death mode that is characterized by copper dependence and the regulation of mitochondrial respiration. Cuproptosis is distinct from known cell death modes such as apoptosis, necrosis, pyroptosis, or ferroptosis. Excessive copper induces cuproptosis by promoting protein toxic stress reactions via copper-dependent anomalous oligomerization of lipoylation proteins in the tricarboxylic acid (TCA) cycle and reducing iron-sulfur cluster protein levels. Ferredoxin1 (FDX1) promotes dihydrolipoyl transacetylase (DLAT) lipoacylation and abates iron-sulfur cluster proteins by reducing Cu2+ to Cu+, inducing cell death. Copper homeostasis depends on the copper transporter, and disturbances to this homeostasis cause cuproptosis. Recent evidence has shown that cuproptosis plays a significant role in the occurrence and development of many cardiovascular diseases, such as myocardial ischemia/reperfusion (I/R) injury, heart failur",
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2023",
+            "authors": [
+              "Wang Di",
+              "Tian Zhenyu",
+              "Zhang Peng",
+              "Zhen Lv",
+              "Meng Qingju"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Cardiovascular Diseases",
+              "Copper",
+              "Heart Failure",
+              "Apoptosis",
+              "Sulfur",
+              "Iron"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37150036/"
+          },
+          {
+            "pmid": "39031346",
+            "title": "Cuproptosis and physical training.",
+            "abstract": "Copper is an essential element in the human body, involved in many physiological and metabolic functions, including coagulation, oxidative metabolism, and hormone production. The maintenance of copper homeostasis within cells is a complex procedure that is intrinsically controlled by a multitude of intricate mechanisms. Disorders of copper homeostasis encompass a wide range of pathological conditions, including degenerative neurological diseases, metabolic disorders, cardio-cerebrovascular diseases, and tumors. Cuproptosis, a recently identified non-apoptotic mode of cell death mode, is characterized by copper dependence and the regulation of mitochondrial respiration. Cuproptosis represents a novel form of cell death distinct from the previously described modes, including apoptosis, necrosis, pyroptosis, and ferroptosis. Excess copper has been shown to induce cuproptosis by stimulating protein toxic stress responses via copper-dependent abnormal oligomerization of lipoylation proteins",
+            "journal": "Clinical hemorheology and microcirculation",
+            "year": "2024",
+            "authors": [
+              "Kordi Negin",
+              "Saydi Ali",
+              "Azimi Maliheh",
+              "Mazdarani Farivar Haji",
+              "Gadruni Keivan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Copper",
+              "Exercise",
+              "Homeostasis",
+              "Regulated Cell Death"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39031346/"
+          },
+          {
+            "pmid": "27001865",
+            "title": "Triethylenetetramine modulates polyamine and energy metabolism and inhibits cancer cell proliferation.",
+            "abstract": "Polyamine metabolism is an attractive anticancer drug target, since polyamines are absolutely required for cellular proliferation, and increased levels of polyamines and their biosynthetic enzyme ornithine decarboxylase (ODC) are associated with cancer. Triethylenetetramine (TETA) is a charge-deficient isosteric analogue of the polyamine spermidine (Spd) and a Cu(II)-chelating compound used for the treatment of Wilson's disease, and it has been implicated as a potential anticancer therapeutic drug. In the present study, we studied the effects of TETA in comparison with two other Cu(II)-chelators, D-penicillamine (PA) and tetrathiomolybdate (TTM), on polyamine metabolism in DU145 prostate carcinoma, MCF-7 breast carcinoma and JEG-3 choriocarcinoma cells. TETA induced antizyme, down-regulated ODC and inhibited [(14)C] Spd uptake. Moreover, it completely prevented α-difluoromethylornithine (DFMO)-induced increase in [(14)C] Spd uptake, and inhibited [(14)C] putrescine (Put) uptake and ODC",
+            "journal": "The Biochemical journal",
+            "year": "2016",
+            "authors": [
+              "Hyvönen Mervi T",
+              "Ucal Sebahat",
+              "Pasanen Markku",
+              "Peräniemi Sirpa",
+              "Weisell Janne"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amine Oxidase (Copper-Containing)",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Eflornithine",
+              "Energy Metabolism",
+              "Female",
+              "Humans",
+              "MCF-7 Cells",
+              "Male",
+              "Molybdenum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27001865/"
+          },
+          {
+            "pmid": "14103408",
+            "title": "[RECENT IDEAS ON CYSTINOSIS].",
+            "abstract": "",
+            "journal": "Bulletins et memoires de la Societe medicale des hopitaux de Paris",
+            "year": "1963",
+            "authors": [
+              "ROSSIER A",
+              "CALDERA R",
+              "ODIEVRE M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acid Metabolism, Inborn Errors",
+              "Blood Chemical Analysis",
+              "Citric Acid Cycle",
+              "Cystinosis",
+              "Dimercaprol",
+              "Feeding and Eating Disorders",
+              "Growth",
+              "Humans",
+              "Infant",
+              "Kidney"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14103408/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "disease of transporter activity",
+        "txgnn_score": 0.9302335381507874,
+        "txgnn_rank": 30611,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39589160",
+            "title": "Copper homeostasis and neurodegenerative diseases.",
+            "abstract": "Copper, one of the most prolific transition metals in the body, is required for normal brain physiological activity and allows various functions to work normally through its range of concentrations. Copper homeostasis is meticulously maintained through a complex network of copper-dependent proteins, including copper transporters (CTR1 and CTR2), the two copper ion transporters the Cu -transporting ATPase 1 (ATP7A) and Cu-transporting beta (ATP7B), and the three copper chaperones ATOX1, CCS, and COX17. Disruptions in copper homeostasis can lead to either the deficiency or accumulation of copper in brain tissue. Emerging evidence suggests that abnormal copper metabolism or copper binding to various proteins, including ceruloplasmin and metallothionein, is involved in the pathogenesis of neurodegenerative disorders. However, the exact mechanisms underlying these processes are not known. Copper is a potent oxidant that increases reactive oxygen species production and promotes oxidative str",
+            "journal": "Neural regeneration research",
+            "year": "2025",
+            "authors": [
+              "Wang Yuanyuan",
+              "Li Daidi",
+              "Xu Kaifei",
+              "Wang Guoqing",
+              "Zhang Feng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39589160/"
+          },
+          {
+            "pmid": "3077031",
+            "title": "Cystinuria.",
+            "abstract": "Cystinuria is an inherited metabolic disease resulting in renal stone formation. An incidence of 1 in 7000 makes it a relatively common genetic disease. The biochemical defect is a carrier protein in the epithelial cells of certain organs. This carrier protein is responsible for the transport of cystine and the dibasic amino acids. Cystine is a poorly soluble compound which precipitates in acid urine and results in renal calculi. Cystine stones account for 1 to 2% of all renal calculi. Homozygotes are detected by the high concentration of cystine in their urine. Treatment consists of sulfhydryl compounds that form more soluble compounds with cystine through sulfhydryl exchange as well as alkalinization of urine and hydration to make cystine more soluble.",
+            "journal": "Critical reviews in clinical laboratory sciences",
+            "year": "1988",
+            "authors": [
+              "Feld R D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Amino Acids",
+              "Animals",
+              "Biological Transport, Active",
+              "Cystinuria",
+              "Humans",
+              "Penicillamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3077031/"
+          },
+          {
+            "pmid": "36183738",
+            "title": "Trientine tetrahydrochloride versus penicillamine for maintenance therapy in Wilson disease (CHELATE): a randomised, open-label, non-inferiority, phase 3 trial.",
+            "abstract": "Wilson disease is an inherited disorder of copper transport. Whereas penicillamine is used therapeutically to re-establish copper balance, trientine is indicated for patients with penicillamine intolerance. We aimed to compare penicillamine with trientine tetrahydrochloride (TETA4) for maintenance therapy in patients with Wilson disease.",
+            "journal": "The lancet. Gastroenterology & hepatology",
+            "year": "2022",
+            "authors": [
+              "Schilsky Michael L",
+              "Czlonkowska Anna",
+              "Zuin Massimo",
+              "Cassiman David",
+              "Twardowschy Carlos"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Equivalence Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Chelating Agents",
+              "Copper",
+              "Hepatolenticular Degeneration",
+              "Penicillamine",
+              "Trientine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36183738/"
+          },
+          {
+            "pmid": "39031346",
+            "title": "Cuproptosis and physical training.",
+            "abstract": "Copper is an essential element in the human body, involved in many physiological and metabolic functions, including coagulation, oxidative metabolism, and hormone production. The maintenance of copper homeostasis within cells is a complex procedure that is intrinsically controlled by a multitude of intricate mechanisms. Disorders of copper homeostasis encompass a wide range of pathological conditions, including degenerative neurological diseases, metabolic disorders, cardio-cerebrovascular diseases, and tumors. Cuproptosis, a recently identified non-apoptotic mode of cell death mode, is characterized by copper dependence and the regulation of mitochondrial respiration. Cuproptosis represents a novel form of cell death distinct from the previously described modes, including apoptosis, necrosis, pyroptosis, and ferroptosis. Excess copper has been shown to induce cuproptosis by stimulating protein toxic stress responses via copper-dependent abnormal oligomerization of lipoylation proteins",
+            "journal": "Clinical hemorheology and microcirculation",
+            "year": "2024",
+            "authors": [
+              "Kordi Negin",
+              "Saydi Ali",
+              "Azimi Maliheh",
+              "Mazdarani Farivar Haji",
+              "Gadruni Keivan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Copper",
+              "Exercise",
+              "Homeostasis",
+              "Regulated Cell Death"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39031346/"
+          },
+          {
+            "pmid": "29625923",
+            "title": "Wilson's disease: A 2017 update.",
+            "abstract": "Wilson's disease (WD) is characterised by a deleterious accumulation of copper in the liver and brain. It is one of those rare genetic disorders that benefits from effective and lifelong treatments that have dramatically transformed the prognosis of the disease. In Europe, its clinical prevalence is estimated at between 1.2 and 2/100,000 but the genetic prevalence is higher, at around 1/7000. Incomplete penetrance of the gene or the presence of modifier genes may account for the difference between the calculated genetic prevalence and the number of patients diagnosed with WD. The clinical spectrum of WD is broader as expected with mild clinical presentations and late onset of the disease after the age of 40 in 6% of patients. WD is usually suspected when ceruloplasmin and serum copper levels are low and 24h urinary copper excretion is elevated. Recently, a major diagnostic advance was achieved with implementation of the direct assay of \"free copper\", or exchangeable copper (CuEXC). The",
+            "journal": "Clinics and research in hepatology and gastroenterology",
+            "year": "2018",
+            "authors": [
+              "Poujois Aurélia",
+              "Woimant France"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Biomarkers",
+              "Brain",
+              "Ceruloplasmin",
+              "Chelating Agents",
+              "Copper",
+              "Copper-Transporting ATPases",
+              "Cornea",
+              "Genetic Therapy",
+              "Hepatocytes",
+              "Hepatolenticular Degeneration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29625923/"
+          },
+          {
+            "pmid": "39420162",
+            "title": "Trientine Tetrahydrochloride, From Bench to Bedside: A Narrative Review.",
+            "abstract": "Trientine tetrahydrochloride (TETA-4HCl, Cuvrior®) is a copper chelating agent with the active moiety triethylenetetramine (trientine), developed by Orphalan, Inc. to address the unmet needs in the treatment of Wilson disease. The journey from bench to bedside builds upon the documented safety profile of trientine hydrochloride capsules developed initially to meet the needs of individuals intolerant to D-penicillamine (DPA). Trientine hydrochloride capsules are inherently unstable requiring strict cold chain storage conditions from production, transportation, and use at home by the patient. Trientine tetrahydrochloride has a distinctive, patent-protected unique polymorphic form, which permits the production at scale of film-coated scored tablets deemed room temperature stable for 36 months. Trientine tetrahydrochloride is supported by a well-characterized pharmacodynamic, pharmacokinetic, and metabolic profile demonstrating reliable and predictable dose linearity and dose proportionali",
+            "journal": "Drugs",
+            "year": "2024",
+            "authors": [
+              "Kamlin C Omar F",
+              "M Jenkins Timothy",
+              "L Heise Jamie",
+              "S Amin Naseem"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Trientine",
+              "Hepatolenticular Degeneration",
+              "Chelating Agents",
+              "Penicillamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39420162/"
+          },
+          {
+            "pmid": "32996699",
+            "title": "mtDNA depletion-like syndrome in Wilson disease.",
+            "abstract": "Wilson disease (WD) is caused by mutations in the copper transporter ATP7B, with its main pathology attributed to copper-mediated oxidative damage. The limited therapeutic effect of copper chelators and the early occurrence of mitochondrial deficits, however, undermine the prevalence of this mechanism.",
+            "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+            "year": "2020",
+            "authors": [
+              "Medici Valentina",
+              "Sarode Gaurav V",
+              "Napoli Eleonora",
+              "Song Gyu-Young",
+              "Shibata Noreene M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Copper",
+              "Copper-Transporting ATPases",
+              "DNA, Mitochondrial",
+              "Hepatolenticular Degeneration",
+              "Humans",
+              "Liver",
+              "Mice",
+              "Penicillamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32996699/"
+          },
+          {
+            "pmid": "33300046",
+            "title": "GanDouLing promotes proliferation and differentiation of neural stem cells in the mouse model of Wilson's disease.",
+            "abstract": "Wilson's disease (WD) is an autosomal recessive disease caused by mutation of the ATPase copper transporting β (ATP7B) gene, resulting in abnormal copper metabolism. We aimed to investigate the protective effect of GanDouLing (GDL) on neural stem cell (NSC) function in a mouse model of WD. NSCs were treated with different concentrations of GDL alone or in combination with penicillamine, following which we evaluated cellular growth, apoptosis, and differentiation. Nuclear factor E2-related factor 2 (Nrf2) pathway and NOD-like receptor family pyrin domain-containing 3 (NLRP3) inflammasome activation were analyzed via Western blotting. Treatment with GDL alone or in combination with penicillamine significantly increased proliferation and inhibited apoptosis of NSCs in a dose-dependent manner. In addition, GDL treatment remarkably promoted differentiation of NSCs. Consistently, levels of class III β-tubulin (Tuj1) and microtubule-associated protein 2 (MAP2) were significantly elevated, whe",
+            "journal": "Bioscience reports",
+            "year": "2021",
+            "authors": [
+              "Dong Ting",
+              "Wu Ming-Cai",
+              "Tang Lu-Lu",
+              "Jiang Hai-Lin",
+              "Zhou Ping"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Cell Differentiation",
+              "Cell Proliferation",
+              "Cells, Cultured",
+              "Disease Models, Animal",
+              "Female",
+              "Hepatolenticular Degeneration",
+              "Mice",
+              "Mice, Inbred C3H"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33300046/"
+          },
+          {
+            "pmid": "18568852",
+            "title": "Diagnosis of Wilson's disease: a comprehensive review.",
+            "abstract": "Wilson's disease is an autosomal recessive disorder of copper metabolism. The culprit gene is ATP7B. The worldwide prevalence is about 1 in 30,000, which may vary by population. Higher prevalence rates were reported using more sensitive screening techniques and pilot population screening. Typical presentations include neuropsychiatric and hepatic dysfunction, whereas atypical presentations are protean. Diagnosis relies on a high clinical suspicion, typical neurological symptoms, presence of Kayser-Fleischer rings, and reduced serum ceruloplasmin concentration. The conventional value of < 0.20 g/l is not a universal diagnostic value. Age of the subjects and analytical variations should be considered when interpreting these levels. Patients with inconclusive findings require further investigations such as 24 h urinary free-copper excretion, penicillamine challenge test, liver copper measurement, and detection of gene mutations. Direct molecular diagnosis remains the most decisive tool. O",
+            "journal": "Critical reviews in clinical laboratory sciences",
+            "year": "2008",
+            "authors": [
+              "Mak Chloe M",
+              "Lam Ching-Wan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphatases",
+              "Cation Transport Proteins",
+              "Ceruloplasmin",
+              "Copper",
+              "Copper-Transporting ATPases",
+              "Hepatolenticular Degeneration",
+              "Humans",
+              "Mutation",
+              "Polymorphism, Single Nucleotide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18568852/"
+          },
+          {
+            "pmid": "19179618",
+            "title": "Interleukin-1beta contributes via nitric oxide to the upregulation and functional activity of the zinc transporter Zip14 (Slc39a14) in murine hepatocytes.",
+            "abstract": "Zinc metabolism during chronic disease is dysregulated by inflammatory cytokines. Experiments with IL-6 knockout mice show that LPS regulates expression of the zinc transporter, Zip14, by a mechanism that is partially independent of IL-6. The LPS-induced model of sepsis may occur by a mechanism signaled by nitric oxide (NO) as a secondary messenger. To address the hypothesis that NO can modulate Zip14 expression, we treated primary hepatocytes from wild-type mice with the NO donor S-nitroso N-acetyl penicillamine (SNAP). After treatment with SNAP, steady-state Zip14 mRNA levels displayed a maximal increase after 8 h and a concomitant increase in the transcriptional activity of the gene. Chromatin immunoprecipitation documented the kinetics of activator protein (AP)-1 and RNA polymerase II association with the Zip14 promoter after NO exposure, indicating a role of AP-1 in transcription of Zip14. We then stimulated the primary murine hepatocytes with IL-1beta, an LPS-induced proinflammat",
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2009",
+            "authors": [
+              "Lichten Louis A",
+              "Liuzzi Juan P",
+              "Cousins Robert J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cation Transport Proteins",
+              "Gene Expression Regulation",
+              "Hepatocytes",
+              "Interleukin-1beta",
+              "Lipopolysaccharides",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Mice, Knockout",
+              "Nitric Oxide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19179618/"
+          },
+          {
+            "pmid": "19193655",
+            "title": "TGF-beta1 inhibits expression and activity of hENT1 in a nitric oxide-dependent manner in human umbilical vein endothelium.",
+            "abstract": "We studied whether transforming growth factor beta1 (TGF-beta1) modulates human equilibrative nucleoside transporters 1 (hENT1) expression and activity in human umbilical vein endothelial cells (HUVECs). hENT1-mediated adenosine transport and expression are reduced in gestational diabetes and hyperglycaemia, conditions associated with increased synthesis and release of nitric oxide (NO) and TGF-beta1 in this cell type. TGF-beta1 increases NO synthesis via activation of TGF-beta receptor type II (TbetaRII), and NO inhibits hENT1 expression and activity in HUVECs.",
+            "journal": "Cardiovascular research",
+            "year": "2009",
+            "authors": [
+              "Vega José L",
+              "Puebla Carlos",
+              "Vásquez Rodrigo",
+              "Farías Marcelo",
+              "Alarcón Julio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine",
+              "Cells, Cultured",
+              "Endothelial Cells",
+              "Endothelium, Vascular",
+              "Equilibrative Nucleoside Transporter 1",
+              "Female",
+              "Humans",
+              "Nitric Oxide",
+              "Pregnancy",
+              "Pregnancy Complications"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19193655/"
+          },
+          {
+            "pmid": "9789728",
+            "title": "Mechanisms of drug-induced diarrhoea in the elderly.",
+            "abstract": "In the rapidly increasing elderly population, diarrhoea as a result of drug therapy is an important consideration. The elderly consume a disproportionately large number of drugs for multiple acute and chronic diseases. Drugs can compromise both immune and nonimmune responses. Aging decreases the quality and proportion of T cells which in turn reduces the production of secretory IgA, the primary immune response of the gut. Acid production in the stomach decreases with increasing age and this compromise its vital 'self-sterilising' function, thus increasing the risk of diarrhoea due to viral, bacterial and protozoal pathogens. Other nonimmune defence mechanisms include the motility of the small intestine and the host-protective commensal bacteria of the colon. Drug induced hypomotility may result in bacterial overgrowth, deconjugation of bile salts and diarrhoea. Less commonly, diarrhoea may occur due to hypermotility because of a cholinergic-like syndrome. In the colon the host-protecti",
+            "journal": "Drugs & aging",
+            "year": "1998",
+            "authors": [
+              "Ratnaike R N",
+              "Jones T E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aging",
+              "Diarrhea",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9789728/"
+          },
+          {
+            "pmid": "34857647",
+            "title": "Bis-choline tetrathiomolybdate prevents copper-induced blood-brain barrier damage.",
+            "abstract": "In Wilson disease, excessive copper accumulates in patients' livers and may, upon serum leakage, severely affect the brain according to current viewpoints. Present remedies aim at avoiding copper toxicity by chelation, for example, by D-penicillamine (DPA) or bis-choline tetrathiomolybdate (ALXN1840), the latter with a very high copper affinity. Hence, ALXN1840 may potentially avoid neurological deterioration that frequently occurs upon DPA treatment. As the etiology of such worsening is unclear, we reasoned that copper loosely bound to albumin, that is, mimicking a potential liver copper leakage into blood, may damage cells that constitute the blood-brain barrier, which was found to be the case in an in vitro model using primary porcine brain capillary endothelial cells. Such blood-brain barrier damage was avoided by ALXN1840, plausibly due to firm protein embedding of the chelator bound copper, but not by DPA. Mitochondrial protection was observed, a prerequisite for blood-brain barr",
+            "journal": "Life science alliance",
+            "year": "2022",
+            "authors": [
+              "Borchard Sabine",
+              "Raschke Stefanie",
+              "Zak Krzysztof M",
+              "Eberhagen Carola",
+              "Einer Claudia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biological Transport",
+              "Biomarkers",
+              "Blood-Brain Barrier",
+              "Brain",
+              "Cell Survival",
+              "Chelating Agents",
+              "Copper",
+              "Endothelial Cells",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34857647/"
+          },
+          {
+            "pmid": "29935960",
+            "title": "Intestinal absorption of S-nitrosothiols: Permeability and transport mechanisms.",
+            "abstract": "S-Nitrosothiols, a class of NO donors, demonstrate potential benefits for cardiovascular diseases. Drugs for such chronic diseases require long term administration preferentially through the oral route. However, the absorption of S-nitrosothiols by the intestine, which is the first limiting barrier for their vascular bioavailability, is rarely evaluated. Using an in vitro model of intestinal barrier, based on human cells, the present work aimed at elucidating the mechanisms of intestinal transport (passive or active, paracellular or transcellular pathway) and at predicting the absorption site of three S-nitrosothiols: S-nitrosoglutathione (GSNO), S-nitroso-N-acetyl-l-cysteine (NACNO) and S-nitroso-N-acetyl-d-penicillamine (SNAP). These S-nitrosothiols include different skeletons carrying the nitroso group, which confer different physico-chemical characteristics and biological activities (antioxidant and anti-inflammatory). According to the values of apparent permeability coefficient, t",
+            "journal": "Biochemical pharmacology",
+            "year": "2018",
+            "authors": [
+              "Bonetti Justine",
+              "Zhou Yi",
+              "Parent Marianne",
+              "Clarot Igor",
+              "Yu Haiyan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Biological Transport",
+              "Caco-2 Cells",
+              "Cell Membrane Permeability",
+              "Cell Survival",
+              "Humans",
+              "Intestinal Absorption",
+              "S-Nitrosothiols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29935960/"
+          },
+          {
+            "pmid": "3995211",
+            "title": "The development of screening tests for D-penicillamine-like antirheumatic activity based on in vivo interactions with copper.",
+            "abstract": "Injections of labile copper complexes such as copper II bisglycinate [Cu(II)gly] induce marked inflammatory responses in rats in contrast to stable copper complexes like copper II bishistidinate which are nonirritant. The antirheumatic drugs D-penicillamine, mercaptopyridoxine, thiola and captopril, inhibit Cu(II)gly-induced cutaneous vascular permeability when given intravenously and show oral cupriuretic activity. Inhibition of Cu(II)gly inflammation alone or cupriuretic activity alone do not appear predictive of clinical antirheumatic activity since L-cysteine methylester and trien, which are active in the former and latter tests, respectively, are devoid of clinical antirheumatic activity. Indomethacin and aspirin are inactive in these tests, thus discounting the concept that such drugs act in part through their copper complexes. The mechanisms by which labile copper induces inflammation and by which D-penicillamine-like drugs modulate the response are discussed. It is suggested th",
+            "journal": "British journal of rheumatology",
+            "year": "1985",
+            "authors": [
+              "Cashin C H",
+              "Lewis E J",
+              "Burden T"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arthritis, Rheumatoid",
+              "Capillary Permeability",
+              "Copper",
+              "Drug Interactions",
+              "Extremities",
+              "Female",
+              "Glycine",
+              "Histidine",
+              "Inflammation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3995211/"
+          },
+          {
+            "pmid": "21709497",
+            "title": "Evaluation of Cuprimine® and Syprine® for decorporation of radioisotopes of cesium, cobalt, iridium and strontium.",
+            "abstract": "Cuprimine® and Syprine® are therapeutics approved by the USFDA to treat copper overload in Wilson Disease (a genetic defect in copper transport) by chelation and accelerated excretion of internally-deposited copper. These oral therapeutics are based on the respective active ingredients D-penicillamine (DPA) and N,N'-bis (2-aminoethyl) -1,2-ethanediamine dihydrochloride (Trien). Cuprimine is considered the primary treatment, although physicians are increasingly turning to Syprine as a first-line therapy. Both drugs exhibit oral systemic activity and low toxicity; their biological effects and safety are established. Previous in vivo studies using a rodent animal model established the decorporation potential of Cuprimine and Syprine for (60)Co and (210)Po. Currently these studies are being expanded to evaluate the in vivo decorporation efficacy of these drugs for several additional radionuclides. In this report, results of this investigation are discussed using the radionuclides (137)Cs, ",
+            "journal": "Health physics",
+            "year": "2011",
+            "authors": [
+              "Levitskaia Tatiana G",
+              "Creim Jeffrey A",
+              "Curry Terry L",
+              "Luders Teresa",
+              "Peterson James M"
+            ],
+            "pub_types": [
+              "Evaluation Study",
+              "Journal Article",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cesium",
+              "Cobalt",
+              "Injections, Intraventricular",
+              "Iridium",
+              "Male",
+              "Pilot Projects",
+              "Radiation Monitoring",
+              "Radioisotopes",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21709497/"
+          },
+          {
+            "pmid": "41406573",
+            "title": "Repurposing melatonin's therapeutic potential in Wilson disease: Addressing copper overload and redox imbalance.",
+            "abstract": "Loss-of-function mutations in copper-ATPase ATP7B underlie Wilson disease (WD), a disorder characterized by hepatic copper accumulation and severe hepato-neuropathology. Existing chelation therapeutics remove excess copper but lack intrinsic antioxidant capacity and frequently cause systemic toxicity. Here we evaluate melatonin, an FDA-approved indoleamine with antioxidant and putative metal-chelating activity, as a candidate therapeutic for WD. In ATP7B-/- hepatocytes, melatonin restored copper-induced reactive oxygen species (ROS) to basal levels, reduced apoptosis twofold, and attenuated Nrf2 nuclear translocation leading to reduction of Hemoxygenase-1 abundance. Live-cell ratiometric analysis of GSSG/GSH using GRX1-roGFP2 expressed in melatonin-treated ATP7B-/- hepatocytes revealed a significant reduction in intensity-ratio, indicating an effective mitigation of copper-induced glutathione oxidation. Isothermal calorimetric titration revealed a moderate Cu2+ affinity (KaITC = 4.54 ×",
+            "journal": "Redox biology",
+            "year": "2026",
+            "authors": [
+              "Pandey Raviranjan",
+              "Roy Arpan Narayan",
+              "Sarkar Sandip",
+              "Rohman Rakiba",
+              "Chakraborty Kaustav"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Copper",
+              "Melatonin",
+              "Hepatolenticular Degeneration",
+              "Animals",
+              "Oxidation-Reduction",
+              "Copper-Transporting ATPases",
+              "Humans",
+              "Mice",
+              "Reactive Oxygen Species",
+              "Caenorhabditis elegans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41406573/"
+          },
+          {
+            "pmid": "27591223",
+            "title": "Coronary microvascular dysfunction after long-term diabetes and hypercholesterolemia.",
+            "abstract": "Coronary microvascular dysfunction (CMD) has been proposed as an important component of diabetes mellitus (DM)- and hypercholesterolemia-associated coronary artery disease (CAD). Previously we observed that 2.5 mo of DM and high-fat diet (HFD) in swine blunted bradykinin (BK)-induced vasodilation and attenuated endothelin (ET)-1-mediated vasoconstriction. Here we studied the progression of CMD after 15 mo in the same animal model of CAD. Ten male swine were fed a HFD in the absence (HFD, n = 5) or presence of streptozotocin-induced DM (DM + HFD, n = 5). Responses of small (∼300-μm-diameter) coronary arteries to BK, ET-1, and the nitric oxide (NO) donor S-nitroso-N-acetylpenicillamine were examined in vitro and compared with those of healthy (Normal) swine (n = 12). Blood glucose was elevated in DM + HFD (17.6 ± 4.5 mmol/l) compared with HFD (5.1 ± 0.4 mmol/l) and Normal (5.8 ± 0.6 mmol/l) swine, while cholesterol was markedly elevated in DM + HFD (16.8 ± 1.7 mmol/l) and HFD (18.1 ± 2.6",
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2016",
+            "authors": [
+              "Sorop Oana",
+              "van den Heuvel Mieke",
+              "van Ditzhuijzen Nienke S",
+              "de Beer Vincent J",
+              "Heinonen Ilkka"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bradykinin",
+              "Coronary Vessels",
+              "Diabetes Mellitus, Experimental",
+              "Diet, High-Fat",
+              "Endothelin-1",
+              "Hypercholesterolemia",
+              "Intermediate-Conductance Calcium-Activated Potassium Channels",
+              "Large-Conductance Calcium-Activated Potassium Channels",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27591223/"
+          },
+          {
+            "pmid": "5516432",
+            "title": "The metabolism of amino acids, peptides, and disulfides in lysosomes of fibroblasts cultured from normal individuals and those with cystinosis.",
+            "abstract": "The metabolism of amino acids, peptides, and disulfides has been investigates in cultured skin fibroblasts from normal individuals and patients with cystinosis. Human fibroblast lysosomes closely resemble the lysosomes of mouse peritoneal macrophages in having an apparent permeability barrier to amino acids and peptides with molecular weights of greater than 220-230. Cystinotic and normal cells behave similarly in this regard. Normal cells do not undergo lysosomal swelling when exposed to cysteine-penicillamine disulfides, while cystinotic cells are prominently vacuolized under these conditions. Normal lysosomes may have a specific mechanism for the disposal of cystine, and deficient activity of this mechanism in cystinotic lysosomes could result in cystine storage therein. The demonstration that human fibroblasts can be used conveniently to study lysosomal metabolism of small substrates may facilitate investigations of these aspects of lysosomal function in a variety of genetic diseas",
+            "journal": "The Journal of experimental medicine",
+            "year": "1970",
+            "authors": [
+              "Schulman J D",
+              "Bradley K H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acids",
+              "Cell Membrane Permeability",
+              "Culture Techniques",
+              "Cystinosis",
+              "Fibroblasts",
+              "Humans",
+              "Lysosomes",
+              "Penicillamine",
+              "Peptides",
+              "Sulfides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5516432/"
+          },
+          {
+            "pmid": "40890927",
+            "title": "Methanobactin rapidly facilitates biliary copper excretion in a Wilson disease rat model visualised by 64Cu PET/MRI.",
+            "abstract": "Methanobactins are peptides with high copper affinity and potential to treat Wilson disease. We examined how two methanobactins (ARBM101 and MB-OB3b) affected copper handling in the LPP Atp7b-/- Wilson disease rat model, compared to penicillamine or saline, by 64Cu positron emission tomography/magnetic resonance imaging. Heterozygotes served as controls.",
+            "journal": "British journal of pharmacology",
+            "year": "2026",
+            "authors": [
+              "Lynderup Emilie Munk",
+              "Vendelbo Mikkel Holm",
+              "Kirk Frederik Teicher",
+              "Vase Karina Højrup",
+              "Alstrup Aage Kristian Olsen"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Hepatolenticular Degeneration",
+              "Copper",
+              "Magnetic Resonance Imaging",
+              "Positron-Emission Tomography",
+              "Copper Radioisotopes",
+              "Imidazoles",
+              "Oligopeptides",
+              "Male",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40890927/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+        "txgnn_score": 0.9300561547279358,
+        "txgnn_rank": 30635,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form",
+        "txgnn_score": 0.9287715554237366,
+        "txgnn_rank": 30857,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form",
+        "txgnn_score": 0.9287715554237366,
+        "txgnn_rank": 30858,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adult polyglucosan body disease",
+        "txgnn_score": 0.9249318838119508,
+        "txgnn_rank": 31475,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "granulomatous disease, chronic, X-linked",
+        "txgnn_score": 0.9248355627059937,
+        "txgnn_rank": 31490,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11595467",
+            "title": "Treatment of primary biliary cirrhosis.",
+            "abstract": "Primary biliary cirrhosis (PBC) is a presumed autoimmune disease of the liver, which predominantly affects middle age women. Most patients are diagnosed when asymptomatic. The disease is characterised by chronic, granulomatous inflammation of the small bile ducts, which leads to progressive ductopenia, cholestasis, fibrosis, cirrhosis and eventual liver failure. All PBC patients with abnormal liver biochemistry should be considered for therapy. Ursodeoxycholic acid (URSO) treatment reduces intracellular hydrophobic bile acid levels and thereby may have a cytoprotective effect on cell membranes. URSO may also act as an immunomodulating agent. Multicenter randomised controlled trials proved that the treatment is associated with a marked improvement in serum biochemical markers of cholestasis, i.e. bilirubin, ALP, GGT, including fall in serum cholesterol levels. Treatment does not seem to benefit the symptoms of fatigue, pruritus, and osteoporosis. UDCA has been shown when given in a dose",
+            "journal": "Journal of physiology, Paris",
+            "year": "2001",
+            "authors": [
+              "Szalay F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Budesonide",
+              "Cholagogues and Choleretics",
+              "Humans",
+              "Immunosuppression Therapy",
+              "Liver Cirrhosis, Biliary",
+              "Liver Transplantation",
+              "Preventive Medicine",
+              "Ursodeoxycholic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11595467/"
+          },
+          {
+            "pmid": "15456326",
+            "title": "Options for treatment of primary biliary cirrhosis.",
+            "abstract": "Primary biliary cirrhosis (PBC) is a chronic progressive cholestatic disease where there is progressive, granulomatous destruction of the middle-sized bile ducts. The disease affects mainly middle-aged women. The association with other autoimmune diseases and the widespread disturbance of the humoral and cellular immune systems has led to the inclusion of PBC as an autoimmune disease. However, there are several lines of evidence that suggest that both host and environmental factors are implicated in triggering the disease. Without a clear aetiology, it is difficult to find a logical approach to treatment. Well constructed clinical trials are difficult to run because of the variable and long natural history of the disease; and suitable endpoints are difficult to define and validated surrogate endpoints have not been defined. The only drug licensed for use is the bile acid, ursodeoxycholic acid. This drug is associated with significant biochemical improvement and improvement in the immun",
+            "journal": "Drugs",
+            "year": "2004",
+            "authors": [
+              "Oo Ye H",
+              "Neuberger James"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Antipruritics",
+              "Cholagogues and Choleretics",
+              "Clinical Trials as Topic",
+              "Female",
+              "Humans",
+              "Immunosuppressive Agents",
+              "Liver Cirrhosis, Biliary",
+              "Liver Transplantation",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15456326/"
+          },
+          {
+            "pmid": "3286461",
+            "title": "Clinical and statistical analyses of new and evolving therapies for primary biliary cirrhosis.",
+            "abstract": "Primary biliary cirrhosis is a chronic, progressive, cholestatic liver disease thought to be related to abnormalities in immune regulation. The disease is associated with granulomatous bile duct destruction, cholestasis, hepatic copper overloading and the development of hepatic fibrosis or cirrhosis or both. There have been numerous therapeutic trials evaluating immunosuppressive, antifibrotic and cupruretic agents. Prednisolone, D-penicillamine, azathioprine, colchicine and chlorambucil have been evaluated in controlled clinical trials, and biochemical improvement of liver function has been noted with all of the agents, except D-penicillamine. Improved survival has also been reported in patients treated long-term with azathioprine and colchicine. However, none of the therapeutic agents has been demonstrated to halt histologic progression of the disease or to induce a complete clinical, biochemical and histologic remission as has been reported in patients with autoimmune chronic active",
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "1988",
+            "authors": [
+              "Wiesner R H",
+              "Grambsch P M",
+              "Lindor K D",
+              "Ludwig J",
+              "Dickson E R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Azathioprine",
+              "Chlorambucil",
+              "Clinical Trials as Topic",
+              "Colchicine",
+              "Humans",
+              "Liver Cirrhosis, Biliary",
+              "Penicillamine",
+              "Random Allocation",
+              "Research Design"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3286461/"
+          },
+          {
+            "pmid": "31650185",
+            "title": "Nitric oxide and peroxynitrite trigger and enhance release of neutrophil extracellular traps.",
+            "abstract": "Despite great interest, the mechanism of neutrophil extracellular traps (NETs) release is not fully understood and some aspects of this process, e.g. the role of reactive nitrogen species (RNS), still remain unclear. Therefore, our aim was to investigate the mechanisms underlying RNS-induced formation of NETs and contribution of RNS to NETs release triggered by various physiological and synthetic stimuli. The involvement of RNS in NETs formation was studied in primary human neutrophils and differentiated human promyelocytic leukemia cells (HL-60 cells). RNS (peroxynitrite and nitric oxide) efficiently induced NETs release and potentiated NETs-inducing properties of platelet activating factor and lipopolysaccharide. RNS-induced NETs formation was independent of autophagy and histone citrullination, but dependent on the activity of phosphoinositide 3-kinases (PI3K) and myeloperoxidase, as well as selective degradation of histones H2A and H2B by neutrophil elastase. Additionally, NADPH ox",
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2020",
+            "authors": [
+              "Manda-Handzlik Aneta",
+              "Bystrzycka Weronika",
+              "Cieloch Adrianna",
+              "Glodkowska-Mrowka Eliza",
+              "Jankowska-Steifer Ewa"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenine",
+              "DNA",
+              "Extracellular Traps",
+              "Granulomatous Disease, Chronic",
+              "Humans",
+              "Leukocyte Elastase",
+              "Neutrophils",
+              "Nitric Oxide",
+              "Peroxynitrous Acid",
+              "Phosphatidylinositol 3-Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31650185/"
+          },
+          {
+            "pmid": "8667252",
+            "title": "Type II collagen-induced arthritis in the diabetic-resistant biobreeding rat: inflammatory and histopathological features of joint pathology and effects of antiinflammatory and antirheumatic drugs on this chronic arthritic process.",
+            "abstract": "Diabetic-resistant (DR) BioBreeding (BB) rats developed an erosive hind paw arthritis when immunized with an emulsion of bovine type II collagen (CII) and incomplete Freund's adjuvant. Macroscopic clinical evidence of type II collagen-induced arthritis (CIA) first appeared as periarticular erythema and edema in the hind paws between days 9 and 10 postimmunization with CII. The incidence of CIA was 100% by day 11 in the CII-challenged rats; and CIA severity progressed over a 28-day period with radiographic evaluation revealing focal resorption of bone together with osteophyte formation in the tibiotarsal joint and soft tissue swelling. The histopathology of CIA included an hyperplastic synovium that invaded and eroded articular cartilage at the joint margins, and subchondral bone resorption associated with bone-derived, multinucleated cell-containing granulomatous lesions in the rat hind paw. The corticosteroid, methylprednisolone (medrol), and the nonsteroidal antiinflammatory drug, fl",
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "1996",
+            "authors": [
+              "Smith R J",
+              "Sly L M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenal Cortex Hormones",
+              "Animals",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Arthritis",
+              "Collagen",
+              "Disease Models, Animal",
+              "Female",
+              "Histocytochemistry",
+              "Male",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8667252/"
+          },
+          {
+            "pmid": "7542684",
+            "title": "Measurement of methemoglobin formation from oxyhemoglobin. A real-time, continuous assay of nitric oxide release by human polymorphonuclear leukocytes.",
+            "abstract": "We have evaluated the spectrophotometric measurement (at 401 vs. 411 nm) of nitric oxide (NO)-dependent methemoglobin formation from oxyhemoglobin in order to assess NO release from human polymorphonuclear neutrophil leukocytes (PMN). S-nitroso-D,L-acetyl-penicillamine (SNAP, 25-200 microM), a donor of NO, induced a dose-dependent methemoglobin formation. Furthermore, when PMN were activated with N-formyl-methionylleucyl-phenylalanine or phorbol myristate acetate in the presence of superoxide dismutase (SOD) and catalase, methemoglobin formation ensued. The amount of methemoglobin formed was dependent on the amounts of oxyhemoglobin and stimulus used, and the number of PMN in the assay. The NO synthase (NOS) inhibitors NG-monomethyl-L-arginine or nitro-L-arginine methyl ester did not affect methemoglobin generation from oxyhemoglobin induced by SNAP but inhibited that mediated by activated PMN with IC50 values of 250 microM and 340 microM, respectively. The substrate for NO formation f",
+            "journal": "Journal of immunological methods",
+            "year": "1995",
+            "authors": [
+              "Lärfars G",
+              "Gyllenhammar H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Oxidoreductases",
+              "Catalase",
+              "Granulomatous Disease, Chronic",
+              "Humans",
+              "Leukocyte Count",
+              "Methemoglobin",
+              "Neutrophils",
+              "Nitric Oxide",
+              "Nitric Oxide Synthase",
+              "Oxyhemoglobins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7542684/"
+          },
+          {
+            "pmid": "7360040",
+            "title": "Pyoderma gangrenosum: clinical and laboratory findings in 15 patients with special reference to polyarthritis.",
+            "abstract": "Fifteen consecutive patients with PG have been studied during the period 1971-78. Systemic disease was found in 13 of the patients and preceded the skin disease in 10 patients by 1-25 years. Only two patients had ulcerative colitis. One patient had paroxysmal nocturnal hemoglobinuria and three patients had an IgA myeloma. Eight patients had polyarthritis; this was classical seropositive rheumatoid arthritis in two patients, and a seronegative inflammatory polyarthritis in six patients. Four patients had an unusual progressive erosive seronegative polyarthritis without evidence of granulomatous bowel disease, psoriasis, genital, urinary tract or eye disease. In three of these four patients the arthritis preceded the PG. Synovial fluid analysis showed depressed complement levels and in one patient deposits of immunoglobulins and complement were demonstrated in the synovial membrane. The course of the arthritis was progressive with development of disabling joint deformities and erosive de",
+            "journal": "Medicine",
+            "year": "1980",
+            "authors": [
+              "Holt P J",
+              "Davies M G",
+              "Saunders K C",
+              "Nuki G"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Arthritis",
+              "Arthritis, Rheumatoid",
+              "Chemotaxis, Leukocyte",
+              "Colitis, Ulcerative",
+              "Female",
+              "Hemoglobinuria, Paroxysmal",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7360040/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pyruvate metabolism disorder",
+        "txgnn_score": 0.915429711341858,
+        "txgnn_rank": 33045,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39147330",
+            "title": "Melatonin alleviates brain injury in copper-laden rats: Underlying benefits for Wilson's disease.",
+            "abstract": "Copper serves as an indispensable cofactor for all living organisms, and its excessive accumulation has been associated with a variety of diseases. Wilson's disease (WD) serves as an illustrative example of copper toxicity in humans, frequently presenting with liver and/or neuropsychiatric symptoms. The current therapeutic drugs, penicillamine (PA) and zinc gluconate (ZnG), have constraints, and research on their combination efficacy remains insufficient. It has been reported that melatonin (MLT) plays a vital role in binding to transition metals and exhibits strong antioxidant capacity. To investigate the therapeutic efficacy of MLT and combined treatment, rats were randomly divided into the following seven groups: the control (Con) group, copper-laden model rat (Mod) group, PA-treated group, ZnG-treated group, MLT- treated group, PA-ZnG-treated group, and PA-MLT-treated group. Then potential mechanisms and targets were investigated using a combination of metabolomics and network phar",
+            "journal": "Biochemical pharmacology",
+            "year": "2024",
+            "authors": [
+              "Zhang Xiaodan",
+              "Zhou Lihong",
+              "Peng Yulong",
+              "He Shiyu",
+              "Mao Zhen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Hepatolenticular Degeneration",
+              "Melatonin",
+              "Rats",
+              "Copper",
+              "Male",
+              "Rats, Sprague-Dawley",
+              "Molecular Docking Simulation",
+              "Brain Injuries"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39147330/"
+          },
+          {
+            "pmid": "14211101",
+            "title": "CHRONIC ACIDOSIS DUE TO AN ERROR IN LACTATE AND PYRUVATE METABOLISM. REPORT OF TWO CASES.",
+            "abstract": "",
+            "journal": "Pediatrics",
+            "year": "1964",
+            "authors": [
+              "ISRAELS S",
+              "HAWORTH J C",
+              "GOURLEY B",
+              "FORD J D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetoacetates",
+              "Acidosis",
+              "Blood",
+              "Blood Gas Analysis",
+              "Carbohydrate Metabolism",
+              "Carbohydrate Metabolism, Inborn Errors",
+              "Epinephrine",
+              "Fructose",
+              "Glucagon",
+              "Glucose Tolerance Test"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14211101/"
+          },
+          {
+            "pmid": "5644093",
+            "title": "Cystinosis. Plasma cystine and cysteine concentrations and the effect of D-penicillamine and dietary treatment.",
+            "abstract": "",
+            "journal": "The American journal of medicine",
+            "year": "1968",
+            "authors": [
+              "Crawhall J C",
+              "Lietman P S",
+              "Schneider J A",
+              "Seegmiller J E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acid Metabolism, Inborn Errors",
+              "Amino Acids",
+              "Blood Chemical Analysis",
+              "Cysteine",
+              "Cystine",
+              "Cystinosis",
+              "Cystinuria",
+              "Diet Therapy",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5644093/"
+          },
+          {
+            "pmid": "7204691",
+            "title": "Porphyria cutanea tarda complicating Wilson's disease.",
+            "abstract": "A young woman is described in whom symptomatic porphyria cutanea tarda (PCT) developed during copper chelation therapy for Wilson's disease. Termination of ethanol ingestion and oral contraceptive use resulted in cessation of blistering skin lesions and reduction in urinary porphyrin excretion. This is the first recorded coincidence of these two rare hepatic diseases. Therapeutic implications are discussed.",
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1981",
+            "authors": [
+              "Chesney T M",
+              "Wardlaw L L",
+              "Kaplan R J",
+              "Chow J F"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Hepatolenticular Degeneration",
+              "Humans",
+              "Penicillamine",
+              "Porphyrias",
+              "Skin Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7204691/"
+          },
+          {
+            "pmid": "14103408",
+            "title": "[RECENT IDEAS ON CYSTINOSIS].",
+            "abstract": "",
+            "journal": "Bulletins et memoires de la Societe medicale des hopitaux de Paris",
+            "year": "1963",
+            "authors": [
+              "ROSSIER A",
+              "CALDERA R",
+              "ODIEVRE M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acid Metabolism, Inborn Errors",
+              "Blood Chemical Analysis",
+              "Citric Acid Cycle",
+              "Cystinosis",
+              "Dimercaprol",
+              "Feeding and Eating Disorders",
+              "Growth",
+              "Humans",
+              "Infant",
+              "Kidney"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14103408/"
+          },
+          {
+            "pmid": "4879837",
+            "title": "Amyotrophic lateral sclerosis and metallic toxins.",
+            "abstract": "",
+            "journal": "Archives of environmental health",
+            "year": "1968",
+            "authors": [
+              "Currier R D",
+              "Haerer A F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Agricultural Workers' Diseases",
+              "Amyotrophic Lateral Sclerosis",
+              "Arsenic",
+              "Chelating Agents",
+              "Environmental Exposure",
+              "Female",
+              "Humans",
+              "Lead"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4879837/"
+          },
+          {
+            "pmid": "14211528",
+            "title": "[ON THE BIOCHEMISTRY AND THERAPY OF CYSTINOSIS].",
+            "abstract": "",
+            "journal": "Annales paediatrici. International review of pediatrics",
+            "year": "1964",
+            "authors": [
+              "SCHAERER K",
+              "ANTENER I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Body Fluids",
+              "Cystinosis",
+              "Diet",
+              "Diet Therapy",
+              "Humans",
+              "Methionine",
+              "Penicillamine",
+              "Pyruvates",
+              "Urine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14211528/"
+          },
+          {
+            "pmid": "5312270",
+            "title": "Treatment of cystinosis with a diet poor in cystine and methionine.",
+            "abstract": "",
+            "journal": "Acta paediatrica Scandinavica",
+            "year": "1970",
+            "authors": [
+              "Christensen M F",
+              "Nielsen J A",
+              "Henriksen O"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acids",
+              "Body Height",
+              "Body Weight",
+              "Child",
+              "Child, Preschool",
+              "Cysteine",
+              "Cystine",
+              "Cystinosis",
+              "Cystinuria",
+              "Diet Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5312270/"
+          },
+          {
+            "pmid": "5983794",
+            "title": "[An effective dietetic and medicinal treatment of cystinosis].",
+            "abstract": "",
+            "journal": "Helvetica paediatrica acta",
+            "year": "1966",
+            "authors": [
+              "Bauer B",
+              "Antener I"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amino Acids",
+              "Child, Preschool",
+              "Cystine",
+              "Cystinosis",
+              "Diet Therapy",
+              "Humans",
+              "Kidney Function Tests",
+              "Male",
+              "Methenolone",
+              "Penicillamine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5983794/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anemia, nonspherocytic hemolytic, due to G6PD deficiency",
+        "txgnn_score": 0.9025954008102416,
+        "txgnn_rank": 34538,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00859",
+    "name": "Penicillamine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Penicillamine"
+      },
+      "queried_at": "2026-03-10T07:53:40.914612",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Penicillamine"
+      },
+      "queried_at": "2026-03-10T07:53:42.255738",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "megaloblastic anemia (disease)"
+      },
+      "queried_at": "2026-03-10T07:53:44.106985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "megaloblastic anemia (disease)"
+      },
+      "queried_at": "2026-03-10T07:53:47.229455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "megaloblastic anemia (disease)"
+      },
+      "queried_at": "2026-03-10T07:53:48.129761",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "tricarboxylic acid cycle disorder"
+      },
+      "queried_at": "2026-03-10T07:53:48.796979",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "tricarboxylic acid cycle disorder"
+      },
+      "queried_at": "2026-03-10T07:53:52.294894",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "tricarboxylic acid cycle disorder"
+      },
+      "queried_at": "2026-03-10T07:53:54.440272",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "disease of transporter activity"
+      },
+      "queried_at": "2026-03-10T07:53:55.341009",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "disease of transporter activity"
+      },
+      "queried_at": "2026-03-10T07:53:58.442979",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "disease of transporter activity"
+      },
+      "queried_at": "2026-03-10T07:54:01.469951",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-10T07:54:02.205881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-10T07:54:06.495865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "queried_at": "2026-03-10T07:54:07.376632",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+      },
+      "queried_at": "2026-03-10T07:54:07.948496",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+      },
+      "queried_at": "2026-03-10T07:54:12.552092",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+      },
+      "queried_at": "2026-03-10T07:54:13.339509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+      },
+      "queried_at": "2026-03-10T07:54:15.189185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+      },
+      "queried_at": "2026-03-10T07:54:18.905127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+      },
+      "queried_at": "2026-03-10T07:54:19.905750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "adult polyglucosan body disease"
+      },
+      "queried_at": "2026-03-10T07:54:20.829712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "adult polyglucosan body disease"
+      },
+      "queried_at": "2026-03-10T07:54:24.777497",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "adult polyglucosan body disease"
+      },
+      "queried_at": "2026-03-10T07:54:25.490541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "granulomatous disease, chronic, X-linked"
+      },
+      "queried_at": "2026-03-10T07:54:26.026672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "granulomatous disease, chronic, X-linked"
+      },
+      "queried_at": "2026-03-10T07:54:29.270460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "granulomatous disease, chronic, X-linked"
+      },
+      "queried_at": "2026-03-10T07:54:32.236644",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "pyruvate metabolism disorder"
+      },
+      "queried_at": "2026-03-10T07:54:32.850117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "pyruvate metabolism disorder"
+      },
+      "queried_at": "2026-03-10T07:54:36.503340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "pyruvate metabolism disorder"
+      },
+      "queried_at": "2026-03-10T07:54:39.513159",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "anemia, nonspherocytic hemolytic, due to G6PD deficiency"
+      },
+      "queried_at": "2026-03-10T07:54:40.441954",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "anemia, nonspherocytic hemolytic, due to G6PD deficiency"
+      },
+      "queried_at": "2026-03-10T07:54:43.683955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Penicillamine",
+        "disease": "anemia, nonspherocytic hemolytic, due to G6PD deficiency"
+      },
+      "queried_at": "2026-03-10T07:54:44.886634",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:54:44.889779"
+  }
+}

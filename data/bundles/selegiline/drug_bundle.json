@@ -1,0 +1,1490 @@
+{
+  "drug": {
+    "inn": "Selegiline",
+    "drugbank_id": "DB01037",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
+        "txgnn_score": 0.991481065750122,
+        "txgnn_rank": 9417,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "schizophrenia",
+        "txgnn_score": 0.991418719291687,
+        "txgnn_rank": 9461,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00456976",
+            "title": "Efficacy of Selegiline Augmentation of Antipsychotic Medication to Treat Negative Symptoms in Inpatients With Chronic Schizophrenia",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2007-04",
+            "completion_date": "2007-09",
+            "country": "Iran",
+            "enrollment": 70,
+            "brief_summary": "Antipsychotic drugs are effective in treating the positive symptoms of schizophrenia; however their efficacy in treating negative symptoms is limited. This study wants to evaluate efficacy of selegiline augmentation of antipsychotic medication to treat negative symptoms in inpatients with chronic schizophrenia. With randomized clinical trial two groups of patients will select to receive selegiline or placebo.\n\nPrimary end point is decreasing in negative symptoms in case group. Inclusion criteria",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with moderate to severe negative symptoms\n* Patients with at least one year antipsychotic drug therapy, at the current dose \\>= 1 month.\n* No other psychotropic drugs during past month\n\nExclusion Criteria:\n\n* Severe major depressive disorder\n* Substance abuse\n* Severe",
+            "endpoints": [
+              "decreasing in negative symptoms in case group"
+            ],
+            "sponsor": "Tabriz University",
+            "url": "https://clinicaltrials.gov/study/NCT00456976"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37087864",
+            "title": "Efficacy and safety of selegiline across different psychiatric disorders: A systematic review and meta-analysis of oral and transdermal formulations.",
+            "abstract": "Selegiline is an irreversible, selective type-B monoamine oxidase inhibitor (MAOI) approved for Parkison's disease-oral and major depressive disorder-transdermal formulation) resulting in non-selective MAOI activity at oral doses≥20 mg/day. The present systematic review and meta-analysis appraises the evidence of different formulations/dosages of selegiline across different psychiatric conditions. We inquired PubMed/MEDLINE/Cochrane-Central/WHO-ICTRP/Clarivate-WebOfScience and the Chinese-Electronic-Journal Database from inception to 10/26/2022 for selegiline trials involving psychiatric patients. Random-effects meta-analyses assessed heterogeneity, publication/risk biases, and confidence in the evidence, followed by sensitivity, subgroup, and meta-regression analyses. Co-primary outcomes were: changes in symptom score (standardized mean difference=SMD) and author-defined response (risk ratios=RRs). RRs of adverse events and all-cause discontinuation were secondary and acceptability ou",
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2023",
+            "authors": [
+              "Rossano Flavia",
+              "Caiazza Claudio",
+              "Sobrino Andrea",
+              "Solini Niccolò",
+              "Vellucci Alessandro"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Selegiline",
+              "Major Depressive Disorder",
+              "Monoamine Oxidase Inhibitors",
+              "Attention Deficit Disorder with Hyperactivity",
+              "Methylphenidate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37087864/"
+          },
+          {
+            "pmid": "17405823",
+            "title": "The role of selegiline in the treatment of negative symptoms associated with schizophrenia.",
+            "abstract": "To evaluate the role of selegiline in the treatment of negative symptoms associated with schizophrenia.",
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2007",
+            "authors": [
+              "Fohey Krista D",
+              "Hieber Robin",
+              "Nelson Leigh Anne"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dopamine Agents",
+              "Humans",
+              "Monoamine Oxidase Inhibitors",
+              "Schizophrenia",
+              "Selegiline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17405823/"
+          },
+          {
+            "pmid": "22533871",
+            "title": "Strategies for the treatment of antipsychotic-induced sexual dysfunction and/or hyperprolactinemia among patients of the schizophrenia spectrum: a review.",
+            "abstract": "There is limited evidence for the management of sexual dysfunction and/or hyperprolactinemia resulting from use of antipsychotics in patients with schizophrenia and spectrum. The aim of this study was to review and describe the strategies for the treatment of antipsychotic-induced sexual dysfunctions and/or hyperprolactinemia. The research was carried out through Medline/PubMed, Cochrane, Lilacs, Embase, and PsycINFO, and it included open labels or randomized clinical trials. The authors found 31 studies: 25 open-label noncontrolled studies and 6 randomized controlled clinical trials. The randomized, double-blind controlled studies that were conducted with adjunctive treatment that showed improvement of sexual dysfunction and/or decrease of prolactin levels were sildenafil and aripiprazole. The medication selegiline and cyproheptadine did not improve sexual function. The switch to quetiapine was demonstrated in 2 randomized controlled studies: 1 showed improvement in the primary outcom",
+            "journal": "Journal of sex & marital therapy",
+            "year": "2012",
+            "authors": [
+              "Nunes Luciana Vargas Alves",
+              "Moreira Hugo Cogo",
+              "Razzouk Denise",
+              "Nunes Sandra Odebrecht Vargas",
+              "Mari Jair De Jesus"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antipsychotic Agents",
+              "Aripiprazole",
+              "Drug Substitution",
+              "Drug Therapy, Combination",
+              "Erectile Dysfunction",
+              "Female",
+              "Humans",
+              "Hyperprolactinemia",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22533871/"
+          },
+          {
+            "pmid": "26848926",
+            "title": "Antioxidant treatments for schizophrenia.",
+            "abstract": "There is accumulating evidence that progressive changes in brain structure and function take place as schizophrenia unfolds. Among many possible candidates, oxidative stress may be one of the mediators of neuroprogression, grey matter loss and subsequent cognitive and functional impairment. Antioxidants are exogenous or endogenous molecules that mitigate any form of oxidative stress or its consequences. They may act from directly scavenging free radicals to increasing anti-oxidative defences. There is evidence that current treatments impact oxidative pathways and may to some extent reverse pro-oxidative states in schizophrenia. The existing literature, however, indicates that these treatments do not fully restore the deficits in antioxidant levels or restore levels of oxidants in schizophrenia. As such, there has been interest in developing interventions aimed at restoring this oxidative balance beyond the benefits of antipsychotics in this direction. If antioxidants are to have a plac",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2016",
+            "authors": [
+              "Magalhães Pedro V S",
+              "Dean Olivia",
+              "Andreazza Ana C",
+              "Berk Michael",
+              "Kapczinski Flávio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Allopurinol",
+              "Antioxidants",
+              "Antipsychotic Agents",
+              "Ascorbic Acid",
+              "Dehydroepiandrosterone",
+              "Drug Therapy, Combination",
+              "Free Radical Scavengers",
+              "Ginkgo biloba",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26848926/"
+          },
+          {
+            "pmid": "8627275",
+            "title": "Treatment of negative symptoms in schizophrenia and schizoaffective disorder by selegiline augmentation of antipsychotic medication. A pilot study examining the role of dopamine.",
+            "abstract": "It has been suggested that schizophrenic negative symptoms may be manifestations of regionally deficient CNS dopaminergic activity. We sought to test this hypothesis by openly treating patients on chronic antipsychotic medication who showed prominent negative symptoms with low-dose selegiline (5 mg b.i.d.), a monoamine oxidase-B inhibitor that selectively enhances dopaminergic activity. Twenty-one patients meeting DSM-III-R criteria for chronic schizophrenia (N = 14) or schizoaffective disorder (N = 7) with prominent negative symptoms were studied. Subjects had been kept at their current antipsychotic and antiparkinsonian medication dose levels for at least a month before the study, which was continued unchanged throughout the trial. Over 6 weeks of selegiline treatment, a 34.7% reduction in negative symptoms was demonstrated on the Scale for the Assessment of Negative Symptoms. There were also reductions in depressive symptoms (21-item Hamilton Depression Scale dropped 36.8%) and extr",
+            "journal": "The Journal of nervous and mental disease",
+            "year": "1996",
+            "authors": [
+              "Bodkin J A",
+              "Cohen B M",
+              "Salomon M S",
+              "Cannon S E",
+              "Zornberg G L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antipsychotic Agents",
+              "Basal Ganglia Diseases",
+              "Depressive Disorder",
+              "Dopamine",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8627275/"
+          },
+          {
+            "pmid": "29552749",
+            "title": "Miscellaneous treatments for antipsychotic-induced tardive dyskinesia.",
+            "abstract": "Antipsychotic (neuroleptic) medication is used extensively to treat people with chronic mental illnesses. Its use, however, is associated with adverse effects, including movement disorders such as tardive dyskinesia (TD) - a problem often seen as repetitive involuntary movements around the mouth and face. This review, one in a series examining the treatment of TD, covers miscellaneous treatments not covered elsewhere.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "authors": [
+              "Soares-Weiser Karla",
+              "Rathbone John",
+              "Ogawa Yusuke",
+              "Shinohara Kiyomi",
+              "Bergman Hanna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic Uptake Inhibitors",
+              "Adult",
+              "Anti-Anxiety Agents",
+              "Antipsychotic Agents",
+              "Dihydroergotoxine",
+              "Dyskinesia, Drug-Induced",
+              "Ginkgo biloba",
+              "Humans",
+              "Hypnosis",
+              "Plant Extracts"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29552749/"
+          },
+          {
+            "pmid": "36561338",
+            "title": "Altered states, alkaloids, and catatonia: Monoaminoxidase inhibitors and their role in the history of psychopharmacology.",
+            "abstract": "Monoamine oxidases are mitochondrial enzymes that catalyze the oxidative deamination of biogenic amines (adrenaline, noradrenaline, serotonin, and dopamine), causing their inactivation and subsequently playing a fundamental role in the homeostasis of various neurotransmitters. As the regulation of these effects was deemed important in clinical practice, numerous modulators of these enzymes were tested for various clinical effects. The purpose of this paper is to present a few historical landmarks regarding monoaminoxidase inhibitors and their usefulness as psychopharmacological agents. We will be focusing on banisterine, iproniazid, selegiline, rasagiline, tranylcypromine, moclobemide, and their role in the history of psychopharmacology. An almost unknown fact is that harmine, an MAO-A alkaloid, was used as early as the latter half of the 1920s in Bucharest, to reduce catatonic symptoms in schizophrenia, thus ushering the dawn of psychopharmacology era which started with chlorpromazine",
+            "journal": "Frontiers in pharmacology",
+            "year": "2022",
+            "authors": [
+              "Buda Octavian",
+              "Hostiuc Sorin",
+              "Popa-Velea Ovidiu",
+              "Boroghina Steluta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36561338/"
+          },
+          {
+            "pmid": "17972359",
+            "title": "Efficacy of selegiline add on therapy to risperidone in the treatment of the negative symptoms of schizophrenia: a double-blind randomized placebo-controlled study.",
+            "abstract": "It has been reported that selegiline, a Selective Monoamine Oxidase Inhibitor B (MAOI-B), at low doses would be helpful for treating negative symptoms in schizophrenia. Nevertheless, the results are contradictory so far. This study was designed to investigate the effect of selegiline added to risperidone as augmentation therapy in patients with chronic schizophrenia and prominent negative symptoms in an 8 week, double blind and randomized clinical trial.",
+            "journal": "Human psychopharmacology",
+            "year": "2008",
+            "authors": [
+              "Amiri Afshar",
+              "Noorbala Ahmad-Ali",
+              "Nejatisafa Ali-Akbar",
+              "Ghoreishi Abolfazl",
+              "Derakhshan Mohammad-Kamran"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antipsychotic Agents",
+              "Chronic Disease",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male",
+              "Monoamine Oxidase Inhibitors",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17972359/"
+          },
+          {
+            "pmid": "23152218",
+            "title": "Management of sexual dysfunction due to antipsychotic drug therapy.",
+            "abstract": "Psychotropic drugs are associated with sexual dysfunction. Symptoms may concern penile erection, lubrication, orgasm, libido, retrograde ejaculation, sexual arousal, or overall sexual satisfaction. These are major aspects of tolerability and can highly affect patients' compliance.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2012",
+            "authors": [
+              "Schmidt Hannah M",
+              "Hagen Mathias",
+              "Kriston Levente",
+              "Soares-Weiser Karla",
+              "Maayan Nicola"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Benzodiazepines",
+              "Cross-Over Studies",
+              "Drug Substitution",
+              "Erectile Dysfunction",
+              "Female",
+              "Humans",
+              "Male",
+              "Olanzapine",
+              "Piperazines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23152218/"
+          },
+          {
+            "pmid": "15677608",
+            "title": "Double-blind, placebo-controlled, multicenter trial of selegiline augmentation of antipsychotic medication to treat negative symptoms in outpatients with schizophrenia.",
+            "abstract": "The authors' goal was to test the efficacy of selegiline augmentation of antipsychotic medication in outpatients with schizophrenia who had negative symptoms of moderate or greater severity.",
+            "journal": "The American journal of psychiatry",
+            "year": "2005",
+            "authors": [
+              "Bodkin J Alexander",
+              "Siris Samuel G",
+              "Bermanzohn Paul C",
+              "Hennen John",
+              "Cole Jonathan O"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Ambulatory Care",
+              "Antipsychotic Agents",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male",
+              "Monoamine Oxidase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15677608/"
+          },
+          {
+            "pmid": "17253492",
+            "title": "Management of sexual dysfunction due to antipsychotic drug therapy.",
+            "abstract": "Psychotropic drugs are associated with sexual dysfunction. Symptoms may concern penile erection, lubrication, orgasm, libido, sexual arousal or overall sexual satisfaction.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2007",
+            "authors": [
+              "Berner M M",
+              "Hagen M",
+              "Kriston L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Cross-Over Studies",
+              "Erectile Dysfunction",
+              "Female",
+              "Humans",
+              "Male",
+              "Piperazines",
+              "Purines",
+              "Randomized Controlled Trials as Topic",
+              "Selegiline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17253492/"
+          },
+          {
+            "pmid": "35624406",
+            "title": "Modelling the neurodevelopmental pathogenesis in neuropsychiatric disorders. Bioactive kynurenines and their analogues as neuroprotective agents-in celebration of 80th birthday of Professor Peter Riederer.",
+            "abstract": "Following introduction of the monoamine oxidase type B inhibitor selegiline for the treatment of Parkinson's disease (PD), discovery of the action mechanism of Alzheimer's disease-modifying agent memantine, the role of iron in PD, and the loss of electron transport chain complex I in PD, and development of the concept of clinical neuroprotection, Peter Riederer launched one of the most challenging research project neurodevelopmental aspects of neuropsychiatric disorders. The neurodevelopmental theory holds that a disruption of normal brain development in utero or during early life underlies the subsequent emergence of neuropsychiatric symptoms during later life. Indeed, the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition and the International Classification of Diseases, 11th Revision categorize autism spectrum disorder and attention deficit hyperactivity disorder in neurodevelopmental disorders (NDDs). More and more evidence, especially from preclinical studies, is",
+            "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+            "year": "2022",
+            "authors": [
+              "Tanaka Masaru",
+              "Spekker Eleonóra",
+              "Szabó Ágnes",
+              "Polyák Helga",
+              "Vécsei László"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autism Spectrum Disorder",
+              "Humans",
+              "Kynurenine",
+              "Neurodevelopmental Disorders",
+              "Neuroprotective Agents",
+              "Selegiline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35624406/"
+          },
+          {
+            "pmid": "17262163",
+            "title": "A systematic review on clinical management of antipsychotic-induced sexual dysfunction in schizophrenia.",
+            "abstract": "Sexual dysfunction frequently occurs in patients with schizophrenia under antipsychotic therapy, and the presence of sexual side effects may affect compliance. The aim of this study was to review and describe clinical findings relating to the appropriate management of such dysfunctions.",
+            "journal": "Sao Paulo medical journal = Revista paulista de medicina",
+            "year": "2006",
+            "authors": [
+              "Costa Anna Maria Niccolai",
+              "Lima Mauricio Silva de",
+              "Mari Jair de Jesus"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Algorithms",
+              "Antipsychotic Agents",
+              "Dopamine Agonists",
+              "Evidence-Based Medicine",
+              "Female",
+              "Humans",
+              "Libido",
+              "Male",
+              "Menstruation Disturbances",
+              "Orgasm"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17262163/"
+          },
+          {
+            "pmid": "10752567",
+            "title": "Atypical antipsychotics in the treatment of drug-induced psychosis in Parkinson's disease.",
+            "abstract": "Our experience with atypical antipsychotics in patients with PD is that their motor effects are not predictable. The multiple reports concerning clozapine's beneficial effects on tremor, dystonia, nocturnal akathisia, and dyskinesias all underscore this observation. However, the appearance of even minor degrees of parkinsonism in normal volunteers or schizophrenics should suggest that an antipsychotic will not be well-tolerated in patients with PD. The treatment of PD is probably the most stringent test of a drug's freedom from parkinsonian side effects. The data from trials in schizophrenia concerning parkinsonian effects cannot always be confidently interpreted. Virtually all subjects in these trials have been treated with typical neuroleptics until shortly before study entry. Because the parkinsonian side effects of these drugs may persist for several months, patients may still show declining levels of parkinsonism even when placed on a drug that induces it if this effect is milder ",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2000",
+            "authors": [
+              "Friedman J H",
+              "Factor S A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antiparkinson Agents",
+              "Antipsychotic Agents",
+              "Humans",
+              "Neurologic Examination",
+              "Parkinson Disease",
+              "Psychiatric Status Rating Scales",
+              "Psychoses, Substance-Induced"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10752567/"
+          },
+          {
+            "pmid": "16930948",
+            "title": "Pharmacological treatment of primary negative symptoms in schizophrenia: a systematic review.",
+            "abstract": "Optimal treatment of primary negative symptoms is important because their presence is associated with poor outcome.",
+            "journal": "Schizophrenia research",
+            "year": "2006",
+            "authors": [
+              "Murphy Brendan P",
+              "Chung Young-Chul",
+              "Park Tae-Won",
+              "McGorry Patrick D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Affect",
+              "Antidepressive Agents",
+              "Antipsychotic Agents",
+              "Drug Therapy",
+              "Humans",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16930948/"
+          },
+          {
+            "pmid": "10080262",
+            "title": "Selegiline augmentation of antipsychotics for the treatment of negative symptoms in schizophrenia.",
+            "abstract": "This case series describes three patients with a DSM-IV diagnosis of schizophrenia attending a continuing day treatment (CDT) program. They showed significant improvement in negative symptoms and overall functioning after the addition of selegiline to the antipsychotic regimen. No side effects were observed with this combination.",
+            "journal": "Comprehensive psychiatry",
+            "year": "1999",
+            "authors": [
+              "Gupta S",
+              "Droney T",
+              "Kyser A",
+              "Keller P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antipsychotic Agents",
+              "Brief Psychiatric Rating Scale",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Monoamine Oxidase Inhibitors",
+              "Psychotic Disorders",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10080262/"
+          },
+          {
+            "pmid": "7831475",
+            "title": "Possible mechanisms of action of (-)deprenyl and other MAO-B inhibitors in some neurologic and psychiatric disorders.",
+            "abstract": "",
+            "journal": "Progress in neurobiology",
+            "year": "1994",
+            "authors": [
+              "Berry M D",
+              "Juorio A V",
+              "Paterson I A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aging",
+              "Alzheimer Disease",
+              "Animals",
+              "Cognition Disorders",
+              "Depressive Disorder",
+              "Humans",
+              "Longevity",
+              "Mental Disorders",
+              "Monoamine Oxidase Inhibitors",
+              "Nervous System Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7831475/"
+          },
+          {
+            "pmid": "7901857",
+            "title": "Selegiline for neuroleptic-induced parkinsonism.",
+            "abstract": "",
+            "journal": "Pharmacopsychiatry",
+            "year": "1993",
+            "authors": [
+              "Gewirtz G R",
+              "Sharif Z",
+              "Cadet J L",
+              "Sarti P",
+              "Gorman J M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Antipsychotic Agents",
+              "Haloperidol",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Parkinson Disease, Secondary",
+              "Schizophrenia",
+              "Selegiline"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7901857/"
+          },
+          {
+            "pmid": "19194522",
+            "title": "Medications Development for the Treatment of Nicotine Dependence in Individuals with Schizophrenia.",
+            "abstract": "The development of medications for the treatment of nicotine dependence in patients with schizophrenia is a public health priority due to its high prevalence rates, devastating medical consequences, and difficulty to treat. It has been hypothesized that the high prevalence of nicotine dependence among patients with schizophrenia may be due to a shared neurobiological vulnerability. This shared vulnerability has been evidenced in reports showing that nicotine improves neuropsychological deficits associated with schizophrenia such as in the P50 evoked auditory potentials, spatial working memory, and attention. The common pathophysiologic pathways of smoking and schizophrenia may serve as the basis for the pharmacological evaluation of medications for the treatment of these concurrent disorders. Currently, little research of medications for the treatment of this comorbidity has been conducted. Studies have evaluated the efficacy of smoking cessation medications in patients with schizophre",
+            "journal": "Journal of dual diagnosis",
+            "year": "2007",
+            "authors": [
+              "Montoya Ivan D",
+              "Vocci Frank"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19194522/"
+          },
+          {
+            "pmid": "8102552",
+            "title": "A placebo-controlled trial of selegiline (L-deprenyl) in the treatment of tardive dyskinesia.",
+            "abstract": "The goal of this study was to determine whether selegiline (L-deprenyl), a selective monoamine oxidase B inhibitor and antioxidant, would improve neuroleptic-induced tardive dyskinesia (TD). Thirty-three patients with TD were randomly assigned to selegiline 10 mg/day or placebo for 6 weeks and were assessed at baseline and at weeks 1, 2, 4, and 6 for TD, parkinsonism, akathisia, depression, and positive and negative symptoms. Examinations for TD were videotaped and scored by a rater unaware of the temporal sequence of examination. Twenty-eight subjects completed at least 1 week of treatment; all five dropouts were receiving selegiline. When baseline score and gender were controlled, the group receiving selegiline displayed significantly less improvement of TD compared with the placebo group. The two treatment groups did not differ in any other outcome measure. Selegiline was less effective than placebo in reducing symptoms of TD over a 6-week trial. This may be the result of the dopami",
+            "journal": "Biological psychiatry",
+            "year": "1993",
+            "authors": [
+              "Goff D C",
+              "Renshaw P F",
+              "Sarid-Segal O",
+              "Dreyfuss D A",
+              "Amico E T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antipsychotic Agents",
+              "Double-Blind Method",
+              "Dyskinesia, Drug-Induced",
+              "Female",
+              "Free Radicals",
+              "Humans",
+              "Lipid Peroxidation",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8102552/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital disorder of glycosylation with defective fucosylation",
+        "txgnn_score": 0.9901600480079652,
+        "txgnn_rank": 10432,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retinal dystrophy with or without extraocular anomalies",
+        "txgnn_score": 0.9900611639022828,
+        "txgnn_rank": 10496,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "9416661",
+            "title": "Orbital infections.",
+            "abstract": "Orbital infections account for the majority of primary intraorbital disease processes. Sinusitis is the most common etiology. Five stages of cellulitis secondary to sinusitis have been described. Systemic conditions which predispose to orbital infection include diabetes, septicemia, malignancy, and immunosuppresion. Clinical signs and symptoms include superficial inflammatory changes, as well as proptosis, limitation of extraocular motility, and visual loss. Causative agents are most commonly bacteria, with fungus, viruses, and parasites seen less frequently. Imaging is performed by CT and/or MRI which are complementary in certain cases. Differential diagnosis of imaging abnormalities includes inflammatory and granulomatous diseases, as well as neoplasm.",
+            "journal": "Seminars in ultrasound, CT, and MR",
+            "year": "1997",
+            "authors": [
+              "Hershey B L",
+              "Roth T C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Eye Infections",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Orbit",
+              "Orbital Diseases",
+              "Tomography, X-Ray Computed"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9416661/"
+          },
+          {
+            "pmid": "20127583",
+            "title": "Pearls: diplopia.",
+            "abstract": "Double vision may arise from ocular, neurologic, or extraocular muscle disorders. The approach to patients with diplopia requires a systematic approach to the history and the physical examination. There are many challenges in the evaluation of diplopia, ranging from the patient's mental status to the fine points of the examination. This article provides a process for interviewing and examining these patients, explaining the rationale and differential diagnosis of various clinical presentations. Common causes of monocular and binocular diplopia are addressed by the pattern of diplopia described by the patient. The examination and the interpretation of examination findings are presented by incorporating the \"upside-down-and-backwards\" concept. This review offers some Pearls-perhaps even diamonds-on evaluating patients who complain of diplopia, as well as those who have eye movement abnormalities but can't articulate their symptoms.",
+            "journal": "Seminars in neurology",
+            "year": "2010",
+            "authors": [
+              "Friedman Deborah I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Child",
+              "Diagnosis, Differential",
+              "Diplopia",
+              "Humans",
+              "Neurologic Examination",
+              "Ocular Motility Disorders",
+              "Terminology as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20127583/"
+          },
+          {
+            "pmid": "22241537",
+            "title": "[Congenital ptosis].",
+            "abstract": "Simple congenital ptosis is the most common form, characterised by fatty dystrophy and fibrosis of the levator muscle, which leads to a restricted elevation in upgaze and a lid lag in downgaze. In the complicated form additional changes will be found: fibrosis of extraocular muscles, synkinesia or anomalies of the lids. Moreover, congenital ptosis is relatively often associated with refractive errors and/or disturbance of the binocular vision. Therefore a careful examination is necessary. Therapeutic management includes first prevention of amblyopia either by occlusion or by early surgical intervention. The choice of operation depends on the grade of ptosis, the actual levator function and the presence of lid anomalies as well.",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "2012",
+            "authors": [
+              "Hübner H"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Blepharoptosis",
+              "Humans",
+              "Muscular Diseases",
+              "Oculomotor Muscles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22241537/"
+          },
+          {
+            "pmid": "38249493",
+            "title": "Congenital anomalies of lens shape.",
+            "abstract": "The crystalline lens is an important structure in the eye that starts to develop as early as the 22nd day of gestation, with further differentiation that continues after the induction. Congenital anomalies of the lens may involve the size, shape, and position of the lens. They may sometimes be associated with anterior segment dysgenesis or persistence of the tunica vasculosa lentis and hyperplastic vitreous and hyaloid system. Manifestations of anomalies of the lens shape are usually seen in early or late childhood however may sometimes be delayed into adulthood based on the level of visual impairment or the presence or absence of any syndromic associations. While lens coloboma has more often been reported in isolation, the more commonly implicated genes include the PAX6 gene, lenticonus in particular anterior is often part of Alport syndrome with extra-ocular manifestations in the kidneys and hearing abnormalities due to mutations in the alpha 5 chain of the Type IV collagen gene. Rec",
+            "journal": "Taiwan journal of ophthalmology",
+            "year": "2023",
+            "authors": [
+              "Bhate Manjushree",
+              "Motwani Divya",
+              "Murthy Somasheila I",
+              "Fernandes Merle"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38249493/"
+          },
+          {
+            "pmid": "109006",
+            "title": "Unilateral cryptophthalmia.",
+            "abstract": "Two patients had the variable clinical features of unilateral cryptophthalmia. A 5-month-old boy had isolated unilateral cryptophthalmia: a small boney orbit, deformed optic canal, and a small amorphous mass with no normal intraocular tissue representing the globe. No extraocular muscles or optic nerve were identified by B-scan ultrasound or by computed axial tomography x-ray techniques. The second patient, a 13-year-old girl, had unilateral cryptophthalmia, and numerous systemic abnormalities including a head circumference less than the third percentile, severe mental retardation, hypoplasia of the left side of the head, and a left facial cleft deformity. She also had contractures of hips, knees and ankles, and bilateral spasticity and jerky movements. The left boney orbit was contracted and deformed and contained a small amorphous tissue with no ocular detail, as revealed by B-scan and computed tomography scan.",
+            "journal": "American journal of ophthalmology",
+            "year": "1979",
+            "authors": [
+              "Howard R O",
+              "Fineman R M",
+              "Anderson B",
+              "Moseley N",
+              "Gilman M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Adolescent",
+              "Adult",
+              "Child, Preschool",
+              "Chromosomes, Human",
+              "Eye Abnormalities",
+              "Facial Bones",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/109006/"
+          },
+          {
+            "pmid": "24413161",
+            "title": "Congenital trochlear-oculomotor synkinesis.",
+            "abstract": "Synkinesis of the extraocular muscles forms a subset of congenital ocular motility abnormalities termed congenital cranial dysinnervation disorders. Synkinesis most frequently involves the abducens or oculomotor nerves and rarely the trochlear nerve. Only 3 such patients have been described in the literature. We report an isolated case of trochlear-oculomotor synkinesis in a healthy 6-year-old boy and discuss the proposed pathophysiology of this disorder.",
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2014",
+            "authors": [
+              "Bursztyn Lulu L C D",
+              "Makar Inas"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Diagnosis, Differential",
+              "Eye Movements",
+              "Humans",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Ocular Motility Disorders",
+              "Oculomotor Muscles",
+              "Oculomotor Nerve",
+              "Synkinesis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24413161/"
+          },
+          {
+            "pmid": "7035111",
+            "title": "The Wagner-Stickler syndrome complex.",
+            "abstract": "The Wagner's vitreoretinal degeneration is a condition characterized by myopia, cataract, optically empty vitreous cavity and retinal breaks leading to retinal detachments with poor surgical prognosis. Several extraocular manifestations were reported to be associated with these eye findings and various syndromes were delineated describing sensorineural deafness, orofacial anomalies and skeletal dysplasias. There is enough evidence to suggest that this condition results from a phenotypic variability of genic origin, transmitted as an irregular autosomal dominant trait. In the absence of knowledge about the primary gene defect, the problems in nosology emphasize the difficulty in distinguishing genetic heterogeneity from variable gene expression. In view of the great deal of similarity between all these syndromes with vitreoretinal degeneration it is suggested that all these entities represent the extremes of the same disease spectrum forming parts of a continuum.",
+            "journal": "Documenta ophthalmologica. Advances in ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Godel V",
+              "Nemet P",
+              "Lazar M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Bone and Bones",
+              "Face",
+              "Humans",
+              "Mouth Abnormalities",
+              "Myopia",
+              "Retina",
+              "Retinal Degeneration",
+              "Syndrome",
+              "Vitreous Body"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7035111/"
+          },
+          {
+            "pmid": "38321238",
+            "title": "Pediatric orbital lesions: ocular pathologies.",
+            "abstract": "Orbital pathologies can be broadly classified as ocular, extra-ocular soft-tissue (non-neoplastic and neoplastic), osseous, and traumatic. In part 1 of this orbital series, the authors will discuss the differential diagnosis and key imaging features of pediatric ocular pathologies. These include congenital and developmental lesions (microphthalmos, anophthalmos, persistent fetal vasculature, coloboma, morning glory disc anomaly, retinopathy of prematurity, Coats disease), optic disc drusen, infective and inflammatory lesions (uveitis, toxocariasis, toxoplasmosis), and ocular neoplasms (retinoblastoma, retinal hamartoma, choroidal melanoma, choroidal nevus). This pictorial review provides a practical approach to the imaging work-up of these anomalies with a focus on ocular US as the first imaging modality and additional use of CT and/or MRI for the evaluation of intracranial abnormalities. The characteristic imaging features of the non-neoplastic mimics of retinoblastoma, such as persis",
+            "journal": "Pediatric radiology",
+            "year": "2024",
+            "authors": [
+              "Gerrie Samantha K",
+              "Rajani Heena",
+              "Branson Helen M",
+              "Lyons Christopher J",
+              "Marie Eman"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Diagnosis, Differential",
+              "Diagnostic Imaging",
+              "Eye Diseases",
+              "Orbital Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38321238/"
+          },
+          {
+            "pmid": "19826317",
+            "title": "Variable synergistic divergence.",
+            "abstract": "To report a patient with congenital fibrosis of the extraocular muscles showing either synergistic divergence or adduction.",
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "2009",
+            "authors": [
+              "Kim Jae Hyoung",
+              "Hwang Jeong-Min"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abducens Nerve",
+              "Atrophy",
+              "Blepharoptosis",
+              "Blinking",
+              "Child",
+              "Exotropia",
+              "Eye Movements",
+              "Female",
+              "Fibrosis",
+              "Fixation, Ocular"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19826317/"
+          },
+          {
+            "pmid": "33447730",
+            "title": "Eye involvement in inherited metabolic disorders.",
+            "abstract": "Inherited metabolic disorders are a large group of rare disorders affecting normal biochemical pathways. Many metabolic disorders can present with symptoms affecting the eye, and eye disorders can evolve later in the natural history of an already diagnosed metabolic disorder. The ophthalmic involvement can be very varied affecting any part of the eye, including abnormalities of cornea, lens dislocation and cataracts, retina and the distal optic pathway, and extraocular muscles. Awareness of inherited metabolic disorders is important to facilitate early diagnosis and in some cases instigate early treatment if a patient presents with eye involvement suggestive of a metabolic disorder. Ophthalmological interventions are also an important component of the multisystem holistic approach to treating patients with metabolic disorders.",
+            "journal": "Therapeutic advances in ophthalmology",
+            "year": "2020",
+            "authors": [
+              "Davison James E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33447730/"
+          },
+          {
+            "pmid": "19064847",
+            "title": "Orbital arteriovenous malformations.",
+            "abstract": "To present the clinical features, management, and outcomes in a series of patients with orbital arteriovenous malformations (AVMs).",
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "2008",
+            "authors": [
+              "Warrier Sunil",
+              "Prabhakaran Venkatesh C",
+              "Valenzuela Alejandra",
+              "Sullivan Tim J",
+              "Davis Garry"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Arteriovenous Malformations",
+              "Carotid Artery, External",
+              "Embolization, Therapeutic",
+              "Face",
+              "Female",
+              "Fluorescein Angiography",
+              "Humans",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19064847/"
+          },
+          {
+            "pmid": "24932988",
+            "title": "Pathogenesis and treatment of maculopathy associated with cavitary optic disc anomalies.",
+            "abstract": "To propose a unifying theory regarding the pathogenesis of maculopathy associated with cavitary optic disc anomalies and to describe a rational approach to achieving a permanent cure in affected eyes.",
+            "journal": "American journal of ophthalmology",
+            "year": "2014",
+            "authors": [
+              "Jain Nieraj",
+              "Johnson Mark W"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Eye Diseases, Hereditary",
+              "Humans",
+              "Laser Coagulation",
+              "Macula Lutea",
+              "Optic Disk",
+              "Retinal Diseases",
+              "Tomography, Optical Coherence",
+              "Vitrectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24932988/"
+          },
+          {
+            "pmid": "33806565",
+            "title": "Optic Nerve Head and Retinal Abnormalities Associated with Congenital Fibrosis of the Extraocular Muscles.",
+            "abstract": "Congenital fibrosis of the extraocular muscles (CFEOM) is a congenital cranial dysinnervation disorder caused by developmental abnormalities affecting cranial nerves/nuclei innervating the extraocular muscles. Autosomal dominant CFEOM arises from heterozygous missense mutations of KIF21A or TUBB3. Although spatiotemporal expression studies have shown KIF21A and TUBB3 expression in developing retinal ganglion cells, it is unclear whether dysinnervation extends beyond the oculomotor system. We aimed to investigate whether dysinnervation extends to the visual system by performing high-resolution optical coherence tomography (OCT) scans characterizing retinal ganglion cells within the optic nerve head and retina. Sixteen patients with CFEOM were screened for mutations in KIF21A, TUBB3, and TUBB2B. Six patients had apparent optic nerve hypoplasia. OCT showed neuro-retinal rim loss. Disc diameter, rim width, rim area, and peripapillary nerve fiber layer thickness were significantly reduced i",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Thomas Mervyn G",
+              "Maconachie Gail D E",
+              "Kuht Helen J",
+              "Chan Wai-Man",
+              "Sheth Viral"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Cranial Nerves",
+              "Female",
+              "Fibrosis",
+              "Humans",
+              "Male",
+              "Mutation, Missense",
+              "Oculomotor Muscles",
+              "Ophthalmoplegia",
+              "Optic Disk"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33806565/"
+          },
+          {
+            "pmid": "30747268",
+            "title": "Neuroradiological and clinical features in ophthalmoplegia.",
+            "abstract": "Especially in acute onset of ophthalmoplegia, efficient neuroradiological evaluation is necessary to assist differential diagnosis, clinical course, and treatment options.",
+            "journal": "Neuroradiology",
+            "year": "2019",
+            "authors": [
+              "Weidauer Stefan",
+              "Hofmann Christian",
+              "Wagner Marlies",
+              "Hattingen Elke"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Diagnosis, Differential",
+              "Humans",
+              "Neuroimaging",
+              "Ophthalmoplegia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30747268/"
+          },
+          {
+            "pmid": "30196776",
+            "title": "Ophthalmoplegia and Congenital Cranial Dysinnervation Disorders.",
+            "abstract": "Some forms of ophthalmoplegia are congenital and fall into the category of Congenital Cranial Dysinnervation Disorders (CCDDs). These disorders arise from a primary defect of cranial nucleus/nerve development or guidance. Many have substantial limitations of ocular motility with or without other associated features. The type and degree of ophthalmoplegia can be similar between CCDD subtypes as well as with non-congenital forms of ophthalmoplegia. Therefore diagnostic confirmation often requires neuro-imaging and/or genetic investigations. The clinician should consider this category in cases of ophthalmoplegia that are congenital and nonprogressive in nature.",
+            "journal": "Journal of binocular vision and ocular motility",
+            "year": "2018",
+            "authors": [
+              "Oystreck Darren T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cranial Nerves",
+              "Eye Movements",
+              "Fibrosis",
+              "Humans",
+              "Oculomotor Muscles",
+              "Ophthalmoplegia",
+              "Congenital Cranial Dysinnervation Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30196776/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Charcot-Marie-Tooth disease, demyelinating, type 1G",
+        "txgnn_score": 0.9895021319389344,
+        "txgnn_rank": 10891,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atypical glycine encephalopathy",
+        "txgnn_score": 0.9891998767852784,
+        "txgnn_rank": 11108,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myopia X-linked",
+        "txgnn_score": 0.9886566400527954,
+        "txgnn_rank": 11544,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myopia 26, X-linked, female-limited",
+        "txgnn_score": 0.987828254699707,
+        "txgnn_rank": 12192,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "syndromic myopia",
+        "txgnn_score": 0.9875178933143616,
+        "txgnn_rank": 12424,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hydranencephaly (disease)",
+        "txgnn_score": 0.98666650056839,
+        "txgnn_rank": 13087,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01037",
+    "name": "Selegiline",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Selegiline"
+      },
+      "queried_at": "2026-03-10T05:32:50.107228",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Selegiline"
+      },
+      "queried_at": "2026-03-10T05:32:51.105940",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+      },
+      "queried_at": "2026-03-10T05:32:51.719594",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+      },
+      "queried_at": "2026-03-10T05:32:54.739362",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+      },
+      "queried_at": "2026-03-10T05:32:55.521088",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "schizophrenia"
+      },
+      "queried_at": "2026-03-10T05:32:56.163476",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "schizophrenia"
+      },
+      "queried_at": "2026-03-10T05:33:01.071567",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "schizophrenia"
+      },
+      "queried_at": "2026-03-10T05:33:04.445135",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "congenital disorder of glycosylation with defective fucosylation"
+      },
+      "queried_at": "2026-03-10T05:33:05.501643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "congenital disorder of glycosylation with defective fucosylation"
+      },
+      "queried_at": "2026-03-10T05:33:09.850132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "congenital disorder of glycosylation with defective fucosylation"
+      },
+      "queried_at": "2026-03-10T05:33:10.588103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "retinal dystrophy with or without extraocular anomalies"
+      },
+      "queried_at": "2026-03-10T05:33:11.117982",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "retinal dystrophy with or without extraocular anomalies"
+      },
+      "queried_at": "2026-03-10T05:33:14.258610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "retinal dystrophy with or without extraocular anomalies"
+      },
+      "queried_at": "2026-03-10T05:33:16.673127",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "Charcot-Marie-Tooth disease, demyelinating, type 1G"
+      },
+      "queried_at": "2026-03-10T05:33:17.404049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "Charcot-Marie-Tooth disease, demyelinating, type 1G"
+      },
+      "queried_at": "2026-03-10T05:33:21.090546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "Charcot-Marie-Tooth disease, demyelinating, type 1G"
+      },
+      "queried_at": "2026-03-10T05:33:22.144395",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "atypical glycine encephalopathy"
+      },
+      "queried_at": "2026-03-10T05:33:22.690958",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "atypical glycine encephalopathy"
+      },
+      "queried_at": "2026-03-10T05:33:26.193672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "atypical glycine encephalopathy"
+      },
+      "queried_at": "2026-03-10T05:33:27.571352",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "myopia X-linked"
+      },
+      "queried_at": "2026-03-10T05:33:28.826687",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "myopia X-linked"
+      },
+      "queried_at": "2026-03-10T05:33:33.200244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "myopia X-linked"
+      },
+      "queried_at": "2026-03-10T05:33:34.924376",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "myopia 26, X-linked, female-limited"
+      },
+      "queried_at": "2026-03-10T05:33:35.625434",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "myopia 26, X-linked, female-limited"
+      },
+      "queried_at": "2026-03-10T05:33:38.995206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "myopia 26, X-linked, female-limited"
+      },
+      "queried_at": "2026-03-10T05:33:40.054968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "syndromic myopia"
+      },
+      "queried_at": "2026-03-10T05:33:40.753274",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "syndromic myopia"
+      },
+      "queried_at": "2026-03-10T05:33:44.462509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "syndromic myopia"
+      },
+      "queried_at": "2026-03-10T05:33:45.227471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "hydranencephaly (disease)"
+      },
+      "queried_at": "2026-03-10T05:33:45.746384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "hydranencephaly (disease)"
+      },
+      "queried_at": "2026-03-10T05:33:49.258114",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Selegiline",
+        "disease": "hydranencephaly (disease)"
+      },
+      "queried_at": "2026-03-10T05:33:50.101877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:33:50.107292"
+  }
+}

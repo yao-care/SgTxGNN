@@ -1,0 +1,553 @@
+{
+  "drug": {
+    "inn": "Framycetin",
+    "drugbank_id": "DB00452",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.9966315627098083,
+        "txgnn_rank": 4980,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "urinary tract infection (disease)",
+        "txgnn_score": 0.994176745414734,
+        "txgnn_rank": 7237,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "816047",
+            "title": "[The application of Actihaemyl in chronically inflamed and dystrophic urinary bladder (author's transl)].",
+            "abstract": "The effect of automated continuous irrigation treatment with Actihaemyl on bacterial growth in the infected urinary bladder was tested using an experimental model. The result was that instillation alone of this preparation promoted growth of Escherichia coli, Proteus mirabilis, and Pseudomonas aeruginosa in the infected bladder. With simultaneous application of Framycetinsulfate or Kanamycin the growth of Pr. mirabilis and Ps. aeruginosa was totally suppressed in the \"urine\", and the growth of E. coli extensively low. At the same time there was a clear reduction in the bacterial count in the coagulum that served as a substitute bladder wall. Thus a urinary tract infection is a contraindication for local treatment with Actihaemyl of a tropically disturbed urinary bladder inasmuch as an effective antibiotic is not added to the instillate. With the latter combination, however, a therapeutic trial is justified in chronic, inflammatory, dystrophic bladders.",
+            "journal": "Der Urologe. Ausg. A",
+            "year": "1976",
+            "authors": [
+              "Truss F",
+              "Nabert-Bock G",
+              "Zimmermann A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Actihaemyl",
+              "Biological Products",
+              "Drug Therapy, Combination",
+              "Escherichia coli",
+              "Framycetin",
+              "Humans",
+              "Kanamycin",
+              "Models, Biological",
+              "Oxygen Consumption",
+              "Proteus mirabilis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/816047/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital prothrombin deficiency",
+        "txgnn_score": 0.994074523448944,
+        "txgnn_rank": 7321,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Ureaplasma urethritis",
+        "txgnn_score": 0.9927797913551332,
+        "txgnn_rank": 8399,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gonococcal urethritis",
+        "txgnn_score": 0.9927797913551332,
+        "txgnn_rank": 8400,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine inflammatory disease",
+        "txgnn_score": 0.9917882084846495,
+        "txgnn_rank": 9188,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "xanthogranulomatous pyelonephritis",
+        "txgnn_score": 0.9917858242988586,
+        "txgnn_rank": 9190,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.9895108342170716,
+        "txgnn_rank": 10881,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "13316238",
+            "title": "[Trial therapy with new antibiotic framycetin in pneumology].",
+            "abstract": "",
+            "journal": "Bruxelles medical",
+            "year": "1956",
+            "authors": [
+              "WILLIOT J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Bacterial Agents",
+              "Antibiotics, Antitubercular",
+              "Bronchitis",
+              "Framycetin",
+              "Pulmonary Medicine",
+              "Tuberculosis",
+              "Tuberculosis, Pulmonary"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13316238/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "genital herpes",
+        "txgnn_score": 0.9866014122962952,
+        "txgnn_rank": 13142,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vitamin deficiency disorder",
+        "txgnn_score": 0.9679043292999268,
+        "txgnn_rank": 21940,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00452",
+    "name": "Framycetin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Framycetin"
+      },
+      "queried_at": "2026-03-10T01:38:51.427797",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Framycetin"
+      },
+      "queried_at": "2026-03-10T01:39:08.693953",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T01:39:09.480778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T01:39:13.429775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T01:39:14.725374",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-10T01:39:15.321533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-10T01:39:21.824268",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "urinary tract infection (disease)"
+      },
+      "queried_at": "2026-03-10T01:39:25.224419",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T01:39:26.095514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T01:39:31.342241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T01:39:33.037676",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T01:39:33.594580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T01:39:36.481277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "Ureaplasma urethritis"
+      },
+      "queried_at": "2026-03-10T01:39:37.826063",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T01:39:38.531880",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T01:39:43.128988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "gonococcal urethritis"
+      },
+      "queried_at": "2026-03-10T01:39:44.532522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-10T01:39:45.381836",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-10T01:39:49.776979",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "uterine inflammatory disease"
+      },
+      "queried_at": "2026-03-10T01:39:50.521854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-10T01:39:51.123499",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-10T01:39:56.489639",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "queried_at": "2026-03-10T01:39:57.473293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T01:39:59.506655",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T01:40:03.823474",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T01:40:07.835690",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "genital herpes"
+      },
+      "queried_at": "2026-03-10T01:40:08.652915",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "genital herpes"
+      },
+      "queried_at": "2026-03-10T01:40:12.732886",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "genital herpes"
+      },
+      "queried_at": "2026-03-10T01:40:14.198651",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "vitamin deficiency disorder"
+      },
+      "queried_at": "2026-03-10T01:40:14.945478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "vitamin deficiency disorder"
+      },
+      "queried_at": "2026-03-10T01:40:22.932818",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Framycetin",
+        "disease": "vitamin deficiency disorder"
+      },
+      "queried_at": "2026-03-10T01:40:24.742043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:40:24.754346"
+  }
+}

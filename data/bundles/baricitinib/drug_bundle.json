@@ -1,0 +1,665 @@
+{
+  "drug": {
+    "inn": "Baricitinib",
+    "drugbank_id": "DB11817",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9994463324546814,
+        "txgnn_rank": 1235,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.999355971813202,
+        "txgnn_rank": 1387,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.9330820441246032,
+        "txgnn_rank": 30095,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "WHIM syndrome",
+        "txgnn_score": 0.9311695098876952,
+        "txgnn_rank": 30424,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "plasma cell myeloma",
+        "txgnn_score": 0.9182626008987428,
+        "txgnn_rank": 32629,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34856779",
+            "title": "Simultaneous effective treatment of critical COVID-19 disease and newly diagnosed high-risk multiple myeloma with thalidomide, methylprednisolone, tocilizumab and baricitinib: is it clinically feasible?",
+            "abstract": "",
+            "journal": "Minerva medica",
+            "year": "2021",
+            "authors": [
+              "Szabo Balint G",
+              "Lorinczi Csaba",
+              "Szanka Judit",
+              "Lakatos Botond",
+              "Sinko Janos"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34856779/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.9101352095603944,
+        "txgnn_rank": 33700,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06475820",
+            "title": "Prospective Pilot Study of the Clinical Efficacy and Safety of the Method for Preventing a Graft-versus-host Disease Through the Agency of Using the Combination of Post-transplantation Cyclophosphamide With Abatacept, Vedolizumab and Baricitinib at Children and Young Adults With Hemoblastosis After Hematopoietic Stem Cell Transplantation From an Unrelated or Haploidentic Donor",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-12-01",
+            "completion_date": "2027-04-01",
+            "country": "Russia",
+            "enrollment": 150,
+            "brief_summary": "GVHD prevention using a combination of post-transplantation cyclophosphamide in combination with abatacept, vedolizumab and and Baricitinib in children and young adults with hematoloblastosis after myeloablative conditioning regimen with treosulfan/TBI, cyclophosphamide/etoposide, fludarabine after HSCT from matched unrelated and haploidentical donors",
+            "eligibility_criteria": "Inclusion Criteria:\n\nfollowing diseases:\n\n* acute lymphoblastic,\n* myeloblastic,\n* biphenotypic,\n* bilinear leukemia,\n* malignant lymphoma,\n* myelodysplastic syndrome, 2. Donors:\n* voluntary fully HLA-matched unrelated,\n* related haploidentical donors 3. Clinical center: National Medical Research Ce",
+            "endpoints": [
+              "Estimate the probability of developing acute GVHD stage II-IV after HSCT",
+              "side effects of conditioning",
+              "transplant-associated mortality"
+            ],
+            "sponsor": "Federal Research Institute of Pediatric Hematology, Oncology and Immunology",
+            "url": "https://clinicaltrials.gov/study/NCT06475820"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36569952",
+            "title": "Repurposing BCL-2 and Jak 1/2 inhibitors: Cure and treatment of HIV-1 and other viral infections.",
+            "abstract": "B cell lymphoma 2 (BCL-2) family proteins are involved in the mitochondrial apoptotic pathway and are key modulators of cellular lifespan, which is dysregulated during human immunodeficiency virus type 1 (HIV-1) and other viral infections, thereby increasing the lifespan of cells harboring virus, including the latent HIV-1 reservoir. Long-lived cells harboring integrated HIV-1 DNA is a major barrier to eradication. Strategies reducing the lifespan of reservoir cells could significantly impact the field of cure research, while also providing insight into immunomodulatory strategies that can crosstalk to other viral infections. Venetoclax is a first-in-class orally bioavailable BCL-2 homology 3 (BH3) mimetic that recently received Food and Drug Administration (FDA) approval for treatment in myeloid and lymphocytic leukemia. Venetoclax has been recently investigated in HIV-1 and demonstrated anti-HIV-1 effects including a reduction in reservoir size. Another immunomodulatory strategy towa",
+            "journal": "Frontiers in immunology",
+            "year": "2022",
+            "authors": [
+              "Reece Monica D",
+              "Song Colin",
+              "Hancock Sarah C",
+              "Pereira Ribeiro Susan",
+              "Kulpa Deanna A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "United States",
+              "Humans",
+              "HIV Infections",
+              "Virus Latency",
+              "HIV-1",
+              "Janus Kinases",
+              "Drug Repositioning",
+              "Signal Transduction",
+              "COVID-19",
+              "STAT Transcription Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36569952/"
+          },
+          {
+            "pmid": "35442720",
+            "title": "Acute Leukemia Classification Using Transcriptional Profiles From Low-Cost Nanopore mRNA Sequencing.",
+            "abstract": "Most cases of pediatric acute leukemia occur in low- and middle-income countries, where health centers lack the tools required for accurate diagnosis and disease classification. Recent research shows the robustness of using unbiased short-read RNA sequencing to classify genomic subtypes of acute leukemia. Compared with short-read sequencing, nanopore sequencing has low capital and consumable costs, making it suitable for use in locations with limited health infrastructure.",
+            "journal": "JCO precision oncology",
+            "year": "2022",
+            "authors": [
+              "Wang Jeremy",
+              "Bhakta Nickhill",
+              "Ayer Miller Vanessa",
+              "Revsine Mahler",
+              "Litzow Mark R"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Child",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Nanopore Sequencing",
+              "Nanopores",
+              "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+              "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma",
+              "RNA, Messenger"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35442720/"
+          },
+          {
+            "pmid": "34730109",
+            "title": "Antibody-drug conjugates plus Janus kinase inhibitors enable MHC-mismatched allogeneic hematopoietic stem cell transplantation.",
+            "abstract": "Despite the curative potential of hematopoietic stem cell transplantation (HSCT), conditioning-associated toxicities preclude broader clinical application. Antibody-drug conjugates (ADCs) provide an attractive approach to HSCT conditioning that minimizes toxicity while retaining efficacy. Initial studies of ADC conditioning have largely focused on syngeneic HSCT. However, to treat acute leukemias or induce tolerance for solid organ transplantation, this approach must be expanded to allogeneic HSCT (allo-HSCT). Using murine allo-HSCT models, we show that pharmacologic Janus kinase 1/2 (JAK1/2) inhibition combined with CD45- or cKit-targeted ADCs enables robust multilineage alloengraftment. Strikingly, myeloid lineage donor chimerism exceeding 99% was achievable in fully MHC-mismatched HSCT using this approach. Mechanistic studies using the JAK1/2 inhibitor baricitinib revealed marked impairment of T and NK cell survival, proliferation, and effector function. NK cells were exquisitely se",
+            "journal": "The Journal of clinical investigation",
+            "year": "2021",
+            "authors": [
+              "Persaud Stephen P",
+              "Ritchey Julie K",
+              "Kim Sena",
+              "Lim Sora",
+              "Ruminski Peter G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Allografts",
+              "Animals",
+              "Azetidines",
+              "Disease Models, Animal",
+              "Graft vs Host Disease",
+              "Graft vs Leukemia Effect",
+              "Hematopoietic Stem Cell Transplantation",
+              "Immunoconjugates",
+              "Interleukin-15",
+              "Janus Kinase 1"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34730109/"
+          },
+          {
+            "pmid": "31816725",
+            "title": "Effective quantification of 11 tyrosine kinase inhibitors and caffeine in human plasma by validated LC-MS/MS method with potent phospholipids clean-up procedure. Application to therapeutic drug monitoring.",
+            "abstract": "Therapeutic drug monitoring (TDM) help to improve treatment efficacy and safety. Therefore, a simple and sensitive liquid chromatography-tandem mass spectrometry (LC-MS/MS) method was developed and validated for the simultaneous monitoring of 11 tyrosine kinase inhibitors (TKIs) in human plasma. TKIs included in the assay are used in the treatment of chronic myeloid leukemia (CML: imatinib, dasatinib, nilotinib, bosutinib, ponatinib), polycythemia vera (ruxolitinib), chronic lymphocytic leukemia (ibrutinib) and rheumatoid arthritis (filgotinib, tofacitinib, baricitinib, peficitinib). Caffeine was also included in the method. Caffeine increases the acidity of the stomach and decreases its pH as well as is a competitive inhibitor of cytochrome P450 isoenzymes. Thus, it may influence absorption and metabolism of some TKIs, by modifying their plasma levels. The analytes of interest and their stable isotope-labeled internal standards were extracted from 200 μL of human plasma. Microelution-",
+            "journal": "Talanta",
+            "year": "2020",
+            "authors": [
+              "Koller Dora",
+              "Vaitsekhovich Viktoryia",
+              "Mba Cecile",
+              "Steegmann Juan L",
+              "Zubiaur Pablo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Caffeine",
+              "Chromatography, Liquid",
+              "Drug Monitoring",
+              "Humans",
+              "Phospholipids",
+              "Protein Kinase Inhibitors",
+              "Protein-Tyrosine Kinases",
+              "Tandem Mass Spectrometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31816725/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Meester-Loeys syndrome",
+        "txgnn_score": 0.8821299076080322,
+        "txgnn_rank": 36518,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.8759273290634155,
+        "txgnn_rank": 37116,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heparin cofactor 2 deficiency",
+        "txgnn_score": 0.8630914688110352,
+        "txgnn_rank": 38194,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.8468078374862671,
+        "txgnn_rank": 39417,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11817",
+    "name": "Baricitinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Baricitinib"
+      },
+      "queried_at": "2026-03-09T12:13:34.494989",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Baricitinib"
+      },
+      "queried_at": "2026-03-09T12:13:38.597213",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:39.235154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:44.119500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:44.959588",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:45.528477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:49.759846",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:50.766043",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:13:51.607990",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:13:56.365117",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:13:57.102850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T12:13:57.712554",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T12:14:02.679510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T12:14:03.546629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:14:04.102017",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:14:09.243612",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:14:13.196578",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-09T12:14:13.998216",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-09T12:14:19.542730",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-09T12:14:23.222384",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "Meester-Loeys syndrome"
+      },
+      "queried_at": "2026-03-09T12:14:24.241184",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "Meester-Loeys syndrome"
+      },
+      "queried_at": "2026-03-09T12:14:29.015933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "Meester-Loeys syndrome"
+      },
+      "queried_at": "2026-03-09T12:14:30.882492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-09T12:14:32.031022",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-09T12:14:37.685156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-09T12:14:38.816360",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-09T12:14:39.733405",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-09T12:14:46.144999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-09T12:14:47.528402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-09T12:14:48.444557",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-09T12:14:54.163752",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Baricitinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-09T12:14:55.109466",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:14:55.126530"
+  }
+}

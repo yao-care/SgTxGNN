@@ -1,0 +1,785 @@
+{
+  "drug": {
+    "inn": "Tofacitinib",
+    "drugbank_id": "DB08895",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9895851016044616,
+        "txgnn_rank": 10837,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.988814413547516,
+        "txgnn_rank": 11421,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.966618001461029,
+        "txgnn_rank": 22359,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "plasma cell myeloma",
+        "txgnn_score": 0.9608997702598572,
+        "txgnn_rank": 24051,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "38071595",
+            "title": "Multiple myeloma, haematologic malignancy and immunosuppressant and immunomodulatory medications are associated with sebaceous carcinoma, a pharmacovigilance study of the FDA adverse event reporting system.",
+            "abstract": "Sebaceous carcinoma (SC) is a rare skin cancer with significant associated morbidity and mortality. A known association exists between immunosuppression, in particular solid organ transplant patients (SOTR), and SC. However, the comparative reporting odds ratios (ROR) of different immunosuppressive medications and SC are incompletely defined.",
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2024",
+            "authors": [
+              "Jedlowski Patrick M",
+              "DuPont Jason P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "United States",
+              "Multiple Myeloma",
+              "Male",
+              "Female",
+              "Adverse Drug Reaction Reporting Systems",
+              "Middle Aged",
+              "Immunosuppressive Agents",
+              "Aged",
+              "United States Food and Drug Administration"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38071595/"
+          },
+          {
+            "pmid": "29622655",
+            "title": "Repurposing tofacitinib as an anti-myeloma therapeutic to reverse growth-promoting effects of the bone marrow microenvironment.",
+            "abstract": "The myeloma bone marrow microenvironment promotes proliferation of malignant plasma cells and resistance to therapy. Activation of JAK/STAT signaling is thought to be a central component of these microenvironment-induced phenotypes. In a prior drug repurposing screen, we identified tofacitinib, a pan-JAK inhibitor Food and Drug Administration (FDA) approved for rheumatoid arthritis, as an agent that may reverse the tumor-stimulating effects of bone marrow mesenchymal stromal cells. Herein, we validated in vitro, in stromal-responsive human myeloma cell lines, and in vivo, in orthotopic disseminated xenograft models of myeloma, that tofacitinib showed efficacy in myeloma models. Furthermore, tofacitinib strongly synergized with venetoclax in coculture with bone marrow stromal cells but not in monoculture. Surprisingly, we found that ruxolitinib, an FDA approved agent targeting JAK1 and JAK2, did not lead to the same anti-myeloma effects. Combination with a novel irreversible JAK3-select",
+            "journal": "Haematologica",
+            "year": "2018",
+            "authors": [
+              "Lam Christine",
+              "Ferguson Ian D",
+              "Mariano Margarette C",
+              "Lin Yu-Hsiu T",
+              "Murnane Megan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Marrow",
+              "Cell Communication",
+              "Disease Models, Animal",
+              "Drug Repositioning",
+              "Humans",
+              "Janus Kinases",
+              "Mesenchymal Stem Cells",
+              "Mice",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29622655/"
+          },
+          {
+            "pmid": "39819734",
+            "title": "Use of disease modifying anti-rheumatic drugs and risk of multiple myeloma in US Veterans with rheumatoid arthritis.",
+            "abstract": "Biologic (b) and targeted synthetic (ts) disease-modifying anti-rheumatic drugs (DMARDs) used in the management of rheumatoid arthritis (RA) target inflammatory pathways implicated in the pathogenesis of multiple myeloma (MM). It is unknown whether use of b/tsDMARDs affects the incidence of MM.",
+            "journal": "BMC rheumatology",
+            "year": "2025",
+            "authors": [
+              "Tokareva Kate",
+              "Peterson Alexander C",
+              "Baraff Aaron",
+              "Chung Sarah P",
+              "Barton Jennifer"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39819734/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.9542893767356871,
+        "txgnn_rank": 25650,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "31263618",
+            "title": "Chronic Myeloid Leukemia in a Patient Receiving Tofacitinib: A Case Report and Literature Review.",
+            "abstract": "Tofacitinib is a new oral Janus kinase inhibitor that has shown promising clinical benefit in various rheumatologic diseases. However, many concerns related to the development of malignancies have been reported with its use.",
+            "journal": "Case reports in rheumatology",
+            "year": "2019",
+            "authors": [
+              "Medawar Georgio",
+              "Chahrouri Joseph",
+              "Said Rabih"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31263618/"
+          },
+          {
+            "pmid": "26300391",
+            "title": "Differences in gene expression and alterations in cell cycle of acute myeloid leukemia cell lines after treatment with JAK inhibitors.",
+            "abstract": "Janus kinase (JAK) inhibitors are a promising treatment strategy in several hematological malignancies and autoimmune diseases. A number of inhibitors are in clinical development, and two have already reached the market. Unfortunately, all of them are burdened with different toxicity profiles. To check if the JAK inhibitors of different selectivity evoke different responses on JAK2-dependent and independent cells, we have used three acute myeloid leukemia cell lines with confirmed JAK2 mutation status. We have found that JAK inhibitors exert distinct effect on the expression of BCLXL, CCND1 and c-MYC genes, regulated by JAK pathway, in JAK2 wild type cells in comparison to JAK2 V617F-positive cell lines. Moreover, cell cycle analysis showed that inhibitors alter the cycle by arresting cells in different phases. Our results suggest that observed effect of JAK2 inhibitors on transcription and cell cycle level in different cell lines are associated not with activity within JAK family, but",
+            "journal": "European journal of pharmacology",
+            "year": "2015",
+            "authors": [
+              "Gunerka Pawel",
+              "Dymek Barbara",
+              "Stanczak Aleksandra",
+              "Bujak Anna",
+              "Grygielewicz Paulina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cell Cycle",
+              "Cell Line, Tumor",
+              "Cyclin D1",
+              "Down-Regulation",
+              "Gene Expression",
+              "Humans",
+              "Imidazoles",
+              "Janus Kinases",
+              "Leukemia, Myeloid, Acute",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26300391/"
+          },
+          {
+            "pmid": "38992456",
+            "title": "Modulation of aryl hydrocarbon receptor activity by tyrosine kinase inhibitors (ponatinib and tofacitinib).",
+            "abstract": "Ponatinib and tofacitinib, established kinase inhibitors and FDA-approved for chronic myeloid leukemia and rheumatoid arthritis, are recently undergoing investigation in diverse clinical trials for potential repurposing. The aryl hydrocarbon receptor (AhR), a transcription factor influencing a spectrum of physiological and pathophysiological activities, stands as a therapeutic target for numerous diseases. This study employs molecular modelling tools and in vitro assays to identify ponatinib and tofacitinib as AhR ligands, elucidating their binding and molecular interactions in the AhR PAS-B domain. Molecular docking analyses revealed that ponatinib and tofacitinib occupy the central pocket within the primary cavity, similar to AhR agonists 2,3,7,8-tetrachlorodibenzodioxin (TCDD) and (benzo[a]pyrene) B[a]P. Our simulations also showed that these compounds exhibit good stability, stabilizing many hot spots within the PAS-B domain, including the Dα-Eα loop, which serves as a regulatory e",
+            "journal": "Archives of biochemistry and biophysics",
+            "year": "2024",
+            "authors": [
+              "Mosa Farag E S",
+              "Alqahtani Mohammed A",
+              "El-Ghiaty Mahmoud A",
+              "El-Mahrouk Sara R",
+              "Barakat Khaled"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Binding Sites",
+              "Cytochrome P-450 CYP1A1",
+              "Imidazoles",
+              "Ligands",
+              "Molecular Docking Simulation",
+              "Piperidines",
+              "Protein Binding",
+              "Pyridazines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38992456/"
+          },
+          {
+            "pmid": "22777068",
+            "title": "[New kinase inhibitors].",
+            "abstract": "Treatment of rheumatoid arthritis (RA) has dramatically changed during the last 15 years. A limited number of conventional disease-modifying antirheumatic drugs (DMARD) in combination with non-steroid anti-inflammatory drugs (NSAID) and corticosteroids are facing a variety of biologics that are increasingly being used. Because of the high costs of biologics as well as the necessity for subcutaneous or intravenous administration, there is currently a growing interest in new and potent oral compounds such as the small molecules. Inflammatory pathways and mechanisms in signal transduction have been characterized in detail. Instead of neutralizing the action of a proinflammatory cytokine by antagonizing its biologic effect by an antibody, these small molecules interfere with the intracellular pathways of the inflammatory cascade. Intracellular kinases are among these enzymes which are crucially involved in intracellular signal transduction. Kinase inhibitors have been successfully used wit",
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2012",
+            "authors": [
+              "Rubbert-Roth A"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antirheumatic Agents",
+              "Drug Delivery Systems",
+              "Humans",
+              "Protein Kinase Inhibitors",
+              "Rheumatic Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22777068/"
+          },
+          {
+            "pmid": "29458040",
+            "title": "Pharmacological inhibition of JAK3 enhances the antitumor activity of imatinib in human chronic myeloid leukemia.",
+            "abstract": "Imatinib (IMA) is the standard treatment for CML; however, stopping IMA sometimes results in disease relapse, which suggests that leukemic stem cells (LSCs) remain in such patients, even after complete molecular remission has been achieved. Therefore, new strategies will be required to eradicate LSCs. The Janus kinase-signal transducer and activator of transcription (JAK-STAT) pathway is part of the BCR-ABL signaling network, and it is activated in CML, especially in LSCs. JAK2 is known to be associated with CML survival, but the role of JAK3 in CML remains unknown. The antitumor effects of IMA and a JAK3 inhibitor, tofacitinib were examined using the MTT assay in K562 and KCL22. To investigate the mechanisms of action of IMA and the JAK inhibitors in CML cells, we examined apoptosis, the cell cycle, and JAK-STAT signaling using flow cytometry, immunofluorescent microscopy, and Western blotting. The pharmacological inhibition of JAK3 by tofacitinib synergistically enhanced the antitumo",
+            "journal": "European journal of pharmacology",
+            "year": "2018",
+            "authors": [
+              "Yagi Kenta",
+              "Shimada Akira",
+              "Sendo Toshiaki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Cell Cycle",
+              "Cell Line, Tumor",
+              "Humans",
+              "Imatinib Mesylate",
+              "Janus Kinase 3",
+              "K562 Cells",
+              "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+              "Neoplastic Stem Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29458040/"
+          },
+          {
+            "pmid": "37352275",
+            "title": "Comparing the value of mono- vs coculture for high-throughput compound screening in hematological malignancies.",
+            "abstract": "Large-scale compound screens are a powerful model system for understanding variability of treatment response and discovering druggable tumor vulnerabilities of hematological malignancies. However, as mostly performed in a monoculture of tumor cells, these assays disregard modulatory effects of the in vivo microenvironment. It is an open question whether and to what extent coculture with bone marrow stromal cells could improve the biological relevance of drug testing assays over monoculture. Here, we established a high-throughput platform to measure ex vivo sensitivity of 108 primary blood cancer samples to 50 drugs in monoculture and coculture with bone marrow stromal cells. Stromal coculture conferred resistance to 52% of compounds in chronic lymphocytic leukemia (CLL) and 36% of compounds in acute myeloid leukemia (AML), including chemotherapeutics, B-cell receptor inhibitors, proteasome inhibitors, and Bromodomain and extraterminal domain inhibitors. Only the JAK inhibitors ruxoliti",
+            "journal": "Blood advances",
+            "year": "2023",
+            "authors": [
+              "Herbst Sophie A",
+              "Kim Vladislav",
+              "Roider Tobias",
+              "Schitter Eva C",
+              "Bruch Peter-Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Coculture Techniques",
+              "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "Drug Resistance, Neoplasm",
+              "Leukemia, Myeloid, Acute",
+              "Hematologic Neoplasms",
+              "Tumor Microenvironment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37352275/"
+          },
+          {
+            "pmid": "34693224",
+            "title": "Schlafen 11 expression in human acute leukemia cells with gain-of-function mutations in the interferon-JAK signaling pathway.",
+            "abstract": "Schlafen11 (SLFN11) is referred to as interferon (IFN)-inducible. Based on cancer genomic databases, we identified human acute myeloid and lymphoblastic leukemia cells with gain-of-function mutations in the Janus kinase (JAK) family as exhibiting high SLFN11 expression. In these cells, the clinical JAK inhibitors cerdulatinib, ruxolitinib, and tofacitinib reduced SLFN11 expression, but IFN did not further induce SLFN11 despite phosphorylated STAT1. We provide evidence that suppression of SLFN11 by JAK inhibitors is caused by inactivation of the non-canonical IFN pathway controlled by AKT and ERK. Accordingly, the AKT and ERK inhibitors MK-2206 and SCH77284 suppressed SLFN11 expression. Both also suppressed the E26 transformation-specific (ETS)-family genes ETS-1 and FLI-1 that act as transcription factors for SLFN11. Moreover, SLFN11 expression was inhibited by the ETS inhibitor TK216. Our study reveals that SLFN11 expression is regulated via the JAK, AKT and ERK, and ETS axis. Pharmac",
+            "journal": "iScience",
+            "year": "2021",
+            "authors": [
+              "Murai Yasuhisa",
+              "Jo Ukhyun",
+              "Murai Junko",
+              "Fukuda Shinsaku",
+              "Takebe Naoko"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34693224/"
+          },
+          {
+            "pmid": "31816725",
+            "title": "Effective quantification of 11 tyrosine kinase inhibitors and caffeine in human plasma by validated LC-MS/MS method with potent phospholipids clean-up procedure. Application to therapeutic drug monitoring.",
+            "abstract": "Therapeutic drug monitoring (TDM) help to improve treatment efficacy and safety. Therefore, a simple and sensitive liquid chromatography-tandem mass spectrometry (LC-MS/MS) method was developed and validated for the simultaneous monitoring of 11 tyrosine kinase inhibitors (TKIs) in human plasma. TKIs included in the assay are used in the treatment of chronic myeloid leukemia (CML: imatinib, dasatinib, nilotinib, bosutinib, ponatinib), polycythemia vera (ruxolitinib), chronic lymphocytic leukemia (ibrutinib) and rheumatoid arthritis (filgotinib, tofacitinib, baricitinib, peficitinib). Caffeine was also included in the method. Caffeine increases the acidity of the stomach and decreases its pH as well as is a competitive inhibitor of cytochrome P450 isoenzymes. Thus, it may influence absorption and metabolism of some TKIs, by modifying their plasma levels. The analytes of interest and their stable isotope-labeled internal standards were extracted from 200 μL of human plasma. Microelution-",
+            "journal": "Talanta",
+            "year": "2020",
+            "authors": [
+              "Koller Dora",
+              "Vaitsekhovich Viktoryia",
+              "Mba Cecile",
+              "Steegmann Juan L",
+              "Zubiaur Pablo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Caffeine",
+              "Chromatography, Liquid",
+              "Drug Monitoring",
+              "Humans",
+              "Phospholipids",
+              "Protein Kinase Inhibitors",
+              "Protein-Tyrosine Kinases",
+              "Tandem Mass Spectrometry"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31816725/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.795458972454071,
+        "txgnn_rank": 42045,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "marcothrombocytopenia with mitral valve insufficiency",
+        "txgnn_score": 0.7617131471633911,
+        "txgnn_rank": 43385,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hereditary thrombocytopenia with normal platelets",
+        "txgnn_score": 0.7576059699058533,
+        "txgnn_rank": 43565,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.7533830404281616,
+        "txgnn_rank": 43704,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "retroperitoneal neoplasm",
+        "txgnn_score": 0.7525942921638489,
+        "txgnn_rank": 43724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08895",
+    "name": "Tofacitinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tofacitinib"
+      },
+      "queried_at": "2026-03-10T05:10:06.701656",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tofacitinib"
+      },
+      "queried_at": "2026-03-10T05:10:08.336337",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T05:10:08.854116",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T05:10:11.885571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T05:10:12.633949",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T05:10:13.275514",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T05:10:16.126972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T05:10:16.874716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T05:10:18.150459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T05:10:22.389632",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T05:10:23.585758",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T05:10:25.337781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T05:10:28.799238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T05:10:32.064178",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T05:10:32.805743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T05:10:35.827959",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T05:10:42.852625",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T05:10:43.553212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T05:10:46.904091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-10T05:10:47.877678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T05:10:48.527525",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T05:10:52.484371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "marcothrombocytopenia with mitral valve insufficiency"
+      },
+      "queried_at": "2026-03-10T05:10:53.359515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T05:10:54.586681",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T05:10:58.383692",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "hereditary thrombocytopenia with normal platelets"
+      },
+      "queried_at": "2026-03-10T05:10:59.110815",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T05:10:59.689524",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T05:11:02.602830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-10T05:11:03.428439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T05:11:04.002795",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T05:11:07.280225",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tofacitinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "queried_at": "2026-03-10T05:11:07.985281",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T05:11:07.994202"
+  }
+}

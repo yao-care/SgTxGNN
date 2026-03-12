@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Magnesium acetate tetrahydrate",
+    "drugbank_id": "DB09409",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "migraine disorder",
+        "txgnn_score": 0.9528094530105592,
+        "txgnn_rank": 26030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "txgnn_score": 0.9445979595184326,
+        "txgnn_rank": 27906,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9263796806335448,
+        "txgnn_rank": 31272,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open-angle glaucoma",
+        "txgnn_score": 0.9181340336799622,
+        "txgnn_rank": 32650,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9154790043830872,
+        "txgnn_rank": 33039,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9151350259780884,
+        "txgnn_rank": 33079,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.8792725205421448,
+        "txgnn_rank": 36807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "atrophoderma vermiculata",
+        "txgnn_score": 0.8744252324104309,
+        "txgnn_rank": 37239,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital hypotrichosis milia",
+        "txgnn_score": 0.8494337797164917,
+        "txgnn_rank": 39220,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ulerythema ophryogenesis",
+        "txgnn_score": 0.8480319976806641,
+        "txgnn_rank": 39328,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09409",
+    "name": "Magnesium acetate tetrahydrate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate"
+      },
+      "queried_at": "2026-03-10T09:26:26.667482",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate"
+      },
+      "queried_at": "2026-03-10T09:26:28.302221",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T09:26:28.994334",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T09:26:32.296164",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "migraine disorder"
+      },
+      "queried_at": "2026-03-10T09:26:33.234086",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T09:26:33.985349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T09:26:37.935435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "migraine with brainstem aura"
+      },
+      "queried_at": "2026-03-10T09:26:38.583273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:26:39.062688",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:26:42.684511",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:26:44.139699",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T09:26:44.663365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T09:26:48.235324",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "open-angle glaucoma"
+      },
+      "queried_at": "2026-03-10T09:26:49.253072",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:26:49.906156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:26:54.860243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:26:55.735305",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T09:26:56.233383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T09:26:58.994566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-10T09:27:00.036322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T09:27:00.705239",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T09:27:03.955302",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-10T09:27:05.540650",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T09:27:06.156017",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T09:27:09.012156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "atrophoderma vermiculata"
+      },
+      "queried_at": "2026-03-10T09:27:09.643703",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T09:27:10.465770",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T09:27:14.190610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "queried_at": "2026-03-10T09:27:15.209518",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-10T09:27:15.889195",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-10T09:27:18.945129",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Magnesium acetate tetrahydrate",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "queried_at": "2026-03-10T09:27:19.658628",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:27:19.662376"
+  }
+}

@@ -1,0 +1,959 @@
+{
+  "drug": {
+    "inn": "Tirofiban",
+    "drugbank_id": "DB00775",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9626614451408386,
+        "txgnn_rank": 23554,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03691727",
+            "title": "A Phase 1/2a Exploratory Clinical Trial: Induced Suppression of Platelets Activity in Aneurysmal SAH Management (iSPASM)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-01-24",
+            "completion_date": "2021-07-01",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This is a phase 1/2a, randomized, double blind, single-center study comparing standard care alone to standard care with Aggrastat in patients diagnosed with aneurysmal subarachnoid hemorrhage.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 and ≤ 85 years\n* Hunt and Hess scale ≤ 4 at time of admission or following EVD placement.\n* CT showing modified Fisher grade 1-4 aSAH on admission.\n* The Modified Fisher CT rating scale: Grade 1 (minimal or diffuse thing SAH without IVH); Grade 2 (minimal or thin SAH ",
+            "endpoints": [
+              "Number of Participants With Intracranial Hemorrhage (Symptomatic and Asymptomatic)",
+              "Number of Participants With Delayed Cerebral Ischemia /Clinical Vasospasm"
+            ],
+            "sponsor": "University of Iowa",
+            "url": "https://clinicaltrials.gov/study/NCT03691727"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01863134",
+            "title": "Clinical Effects of Eptifibatide Administration in High Risk Patients Presenting With Non-ST Segment Elevation Acute Coronary Syndrome (NSTE-ACS) Requiring Urgent Coronary Artery Bypass Graft Surgery in Short- and Long-Term Follow-up",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2005-01",
+            "completion_date": "2010-12",
+            "country": "United States, Poland",
+            "enrollment": 140,
+            "brief_summary": "1. INTRODUCTION\n\n   Through last couple of years the number of patients treated for acute coronary event without persistent ST segment elevation in ECG has been growing.\n\n   This is probably an effect of improving diagnostics of myocardial infraction without persistent ST segment elevation in ECG, due to routine Troponin serum level evaluation and better primary prevention.\n\n   This fact makes the search for the optimal treatment for patients with acute coronary event without persistent ST segme",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects must have a typical anginal pain lasting at least 20 min., but no longer than 24h.\n* ECG confirming ischaemia\n* ST segment depression \\>= 1,0 mm in at least 2 leads, or,\n* negative T waves \\>= 2,0 mm in at least 2 leads.\n* Positive troponin I (TnI).\n* Subjects must de",
+            "endpoints": [
+              "Major Adverse Cardiac and Cerebrovascular Events (MACCE)"
+            ],
+            "sponsor": "Medical University of Silesia",
+            "url": "https://clinicaltrials.gov/study/NCT01863134"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "16287613",
+            "title": "Two distinct subgroups of tirofiban-induced thrombocytopenia exist due to drug dependent antibodies that cause platelet activation and increased ischaemic events.",
+            "abstract": "Tirofiban-associated thrombocytopenia is due to drug-dependent antibodies (DDAbs) directed against the GPIIb/IIIa complex which can bind after drug-induced conformational changes to the receptor complex. In such cases a higher incidence of myocardial infarction and mortality has been reported raising the possibility of platelet activation. We followed consecutive cases treated with tirofiban to determine the incidence of thrombocytopenia and confirmed that this was due to tirofiban-dependent antibodies. We then tested if these antibodies could cause platelet activation in vitro and correlated this with clinical outcome. In 871 treated patients, severe thrombocytopenia was observed in 11 cases, an incidence of 1.26%. Tirofiban dependent antibodies were confirmed in all cases using a flow cytometric assay. There were two distinct presentations of thrombocytopenia, one occurring acutely, and the second a delayed thrombocytopenia occurring after several days of tirofiban exposure and in ke",
+            "journal": "Platelets",
+            "year": "2005",
+            "authors": [
+              "Dunkley Scott",
+              "Evans Sue",
+              "Gaudry Leonie",
+              "Jepson Nigel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Aged",
+              "Aged, 80 and over",
+              "Autoantibodies",
+              "Coronary Disease",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Platelet Activation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16287613/"
+          },
+          {
+            "pmid": "12204495",
+            "title": "Effect of additional temporary glycoprotein IIb/IIIa receptor inhibition on troponin release in elective percutaneous coronary interventions after pretreatment with aspirin and clopidogrel (TOPSTAR trial).",
+            "abstract": "The Troponin in Planned PTCA/Stent Implantation With or Without Administration of the Glycoprotein IIb/IIIa Receptor Antagonist Tirofiban (TOPSTAR) trial investigated: 1) the amount of troponin T (TnT) release after nonacute, elective percutaneous coronary intervention (PCI) in patients pretreated with aspirin and clopidogrel; and 2) the effect of additional glycoprotein (GP) IIb/IIIa receptor inhibiton on postinterventional TnT release.",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2002",
+            "authors": [
+              "Bonz Andreas W",
+              "Lengenfelder Björn",
+              "Strotmann Jörg",
+              "Held Stefanie",
+              "Turschner Oliver"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angioplasty, Balloon, Coronary",
+              "Aspirin",
+              "Clopidogrel",
+              "Coronary Disease",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Elective Surgical Procedures",
+              "Humans",
+              "Platelet Aggregation Inhibitors",
+              "Platelet Glycoprotein GPIIb-IIIa Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12204495/"
+          },
+          {
+            "pmid": "16682384",
+            "title": "A comparison of dual vs. triple antiplatelet therapy in patients with non-ST-segment elevation acute coronary syndrome: results of the ELISA-2 trial.",
+            "abstract": "To compare dual vs. triple antiplatelet pre-treatment in patients with non-ST-elevation acute coronary syndrome (NSTE ACS) who were planned for early catheterization.",
+            "journal": "European heart journal",
+            "year": "2006",
+            "authors": [
+              "Rasoul Saman",
+              "Ottervanger Jan Paul",
+              "de Boer Menko-Jan",
+              "Miedema Kor",
+              "Hoorntje Jan C A"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aspirin",
+              "Clopidogrel",
+              "Disease-Free Survival",
+              "Drug Combinations",
+              "Enzymes",
+              "Female",
+              "Humans",
+              "Male",
+              "Myocardial Infarction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16682384/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.962498128414154,
+        "txgnn_rank": 23606,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "15199475",
+            "title": "GPIIb/IIIa antagonists and other anti-integrins.",
+            "abstract": "Platelet aggregation involves the binding of adhesive proteins (fibrinogen, von Willebrand factor) to the alphaIIbbeta3 integrin, which assumes a high-affinity state for adhesive proteins during platelet activation. The occupied integrin sends signals back into the platelet, and the bound adhesive protein forms the bridges linking platelets together. Anti-integrin therapy is designed to inhibit this process in arterial thrombosis. Abciximab, mouse-human chimeric Fab fragments, blocks platelet aggregation and provides proven clinical benefit in acute situations such as in patients with unstable angina undergoing angioplasty or stenting. Eptifibatide and tirofiban are small molecular mass inhibitors also in current use. In contrast, oral inhibitors of alphaIIbbeta3 have proved disappointing, provoking increased mortality without assuring an adequate blockade of alphaIIbbeta3. The problems of using anti-integrin therapy are discussed in this article as are ways of improving its efficacity",
+            "journal": "Seminars in vascular medicine",
+            "year": "2003",
+            "authors": [
+              "Nurden Alan T",
+              "Nurden Paquita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abciximab",
+              "Adenosine Diphosphate",
+              "Administration, Oral",
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Eptifibatide",
+              "Humans",
+              "Immunoglobulin Fab Fragments",
+              "Integrins",
+              "Peptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15199475/"
+          },
+          {
+            "pmid": "23580774",
+            "title": "Integrin αIIbβ3: from discovery to efficacious therapeutic target.",
+            "abstract": "From the initial description of platelets in 1882, their propensity to aggregate and to contribute to thrombosis was apparent. Indeed, excessive platelet aggregation is associated with myocardial infarction and other thrombotic diseases whereas Glanzmann thrombasthenia, in which platelet aggregation is reduced, is a bleeding syndrome. Over the last half of the 20th century, many investigators have provided insights into the cellular and molecular basis for platelet aggregation. The major membrane protein on platelets, integrin αIIbβ3, mediates this response by rapidly transiting from its resting to an activated state in which it serves as a receptor for ligands that can bridge platelets together. Monoclonal antibodies, natural products, and small peptides were all shown to inhibit αIIbβ3 dependent platelet aggregation, and these inhibitors became the forerunners of antagonists that proceeded through preclinical testing and into large patient trials to treat acute coronary syndromes, pa",
+            "journal": "Circulation research",
+            "year": "2013",
+            "authors": [
+              "Bledzka Kamila",
+              "Smyth Susan S",
+              "Plow Edward F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Drug Discovery",
+              "Humans",
+              "Molecular Targeted Therapy",
+              "Platelet Aggregation Inhibitors",
+              "Platelet Glycoprotein GPIIb-IIIa Complex",
+              "Thrombosis",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23580774/"
+          },
+          {
+            "pmid": "12529292",
+            "title": "Dynamics of GPIIb/IIIa-mediated platelet-platelet interactions in platelet adhesion/thrombus formation on collagen in vitro as revealed by videomicroscopy.",
+            "abstract": "The conventional description of platelet interactions with collagen-coated surfaces in vitro, based on serial static measurements, is that platelets first adhere and spread to form a monolayer and then recruit additional layers of platelets. To obtain dynamic information, we studied gravity-driven platelet deposition in vitro on purified type 1 collagen by video phase-contrast microscopy at 22 degrees C. With untreated human and wild-type mouse platelets, soon after the initial adhesion of a small number of \"vanguard\" platelets, \"follower\" platelets attached to the spread-out vanguard platelets. Follower platelets then adhered to and spread onto nearby collagen or over the vanguard platelets. Thus, thrombi formed as a concerted process rather than as sequential processes. Treatment of human platelets with monoclonal antibody (mAb) 7E3 (anti-GPIIb/IIIa (alphaIIbbeta3) + alphaVbeta3) or tirofiban (anti-GPIIb/IIIa) did not prevent platelet adhesion but nearly eliminated the deposition of ",
+            "journal": "Blood",
+            "year": "2003",
+            "authors": [
+              "Patel Dipti",
+              "Väänänen Heikki",
+              "Jirousková Markéta",
+              "Hoffmann Thomas",
+              "Bodian Carol"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Blood Platelets",
+              "Cell Communication",
+              "Collagen Type I",
+              "Humans",
+              "Kinetics",
+              "Mice",
+              "Microscopy, Video",
+              "Platelet Adhesiveness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12529292/"
+          },
+          {
+            "pmid": "32877806",
+            "title": "Complementary roles of platelet αIIbβ3 integrin, phosphatidylserine exposure and cytoskeletal rearrangement in the release of extracellular vesicles.",
+            "abstract": "Platelets can release extracellular vesicles (EVs) upon stimulation with various agonists. Interestingly, platelets from patients with Glanzmann thrombasthenia have reduced EV release. These platelets lack functional αIIbβ3 integrins, indicating that αIIbβ3 integrin is critical in vesicle release. Integrin activation is central in platelet function and is associated with e.g. adhesion, aggregation and cytoskeletal rearrangement. However, while platelet activation pathways are widely known, the mechanisms underlying EV release remain uncharacterized. We investigated the role of integrin αIIbβ3, phosphatidyl serine (PS) exposure, cytoskeletal rearrangement and their associated signalling pathways in EV release.",
+            "journal": "Atherosclerosis",
+            "year": "2020",
+            "authors": [
+              "Heinzmann Alexandra C A",
+              "Karel Mieke F A",
+              "Coenen Daniëlle M",
+              "Vajen Tanja",
+              "Meulendijks Nicole M M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blood Platelets",
+              "Extracellular Vesicles",
+              "Humans",
+              "Integrin beta3",
+              "Phosphatidylserines",
+              "Platelet Activation",
+              "Platelet Glycoprotein GPIIb-IIIa Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32877806/"
+          },
+          {
+            "pmid": "9588399",
+            "title": "Cone and plate(let) analyzer: monitoring glycoprotein IIb/IIIa antagonists and von Willebrand disease replacement therapy by testing platelet deposition under flow conditions.",
+            "abstract": "Exposure of citrated whole blood samples to polystyrene plates under flow conditions with the cone and plate(let) analyzer (CPA) results in surface immobilization of plasma von Willebrand factor (vWF) followed by platelet deposition. Staining the plates allows measurement of the percentage of surface covered (SC) by the adhered particles and their average size (AS). Both SC and AS parameters depend on platelet count and hematocrit level and reach maximal values after 2 minutes; only AS is shear rate dependent. Under optimal assay conditions (2 minutes at 1800 sec(-1)) normal blood samples yielded an SC of 14.9% +/- 2.5% and an AS of 39.4 +/- 5.2 microm2. Severe von Willebrand disease (eight patients) yielded low SC (5.2% +/- 2.1%), which was restored to normal by testing with vWF precoated surfaces. Glanzmann's thrombasthenia (six patients) samples demonstrated no adhesion of platelet at all. Blocking of the glycoprotein (GP) IIb/IIIa receptor by the chimeric antibody abciximab, and of",
+            "journal": "American heart journal",
+            "year": "1998",
+            "authors": [
+              "Varon D",
+              "Lashevski I",
+              "Brenner B",
+              "Beyar R",
+              "Lanir N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blood Circulation",
+              "Blood Platelets",
+              "Hematocrit",
+              "Hematology",
+              "Humans",
+              "Platelet Count",
+              "Platelet Glycoprotein GPIIb-IIIa Complex",
+              "Polystyrenes",
+              "Stress, Mechanical",
+              "Thrombasthenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9588399/"
+          },
+          {
+            "pmid": "15193700",
+            "title": "Release of soluble CD40L from platelets is regulated by glycoprotein IIb/IIIa and actin polymerization.",
+            "abstract": "The purpose of this study was to examine the effects of glycoprotein (GP) IIb/IIIa antagonists (abciximab, eptifibatide, and tirofiban) and other inhibitors on translocation of CD40L from intraplatelet stores to the platelet surface and on the release of soluble CD40L (sCD40L) from platelets.",
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2004",
+            "authors": [
+              "Furman Mark I",
+              "Krueger Lori A",
+              "Linden Matthew D",
+              "Barnard Marc R",
+              "Frelinger Andrew L"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Actin Depolymerizing Factors",
+              "Blood Platelets",
+              "CD40 Ligand",
+              "Chelating Agents",
+              "Cytochalasin D",
+              "Destrin",
+              "Dipeptides",
+              "Dose-Response Relationship, Drug",
+              "Edetic Acid",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15193700/"
+          },
+          {
+            "pmid": "12411291",
+            "title": "Recombinant factor VIIa enhances deposition of platelets with congenital or acquired alpha IIb beta 3 deficiency to endothelial cell matrix and collagen under conditions of flow via tissue factor-independent thrombin generation.",
+            "abstract": "A novel approach to treat bleeding episodes in patients with Glanzmann thrombasthenia (GT) and perhaps also in patients receiving alpha IIb beta 3 inhibitors is the administration of recombinant factor VIIa (rFVIIa). The mechanism of action of rFVIIa in these patients is, however, still unclear. We studied the effect of rFVIIa-mediated thrombin formation on adhesion of alpha IIb beta 3-deficient platelets under flow conditions. Adhesion of alpha IIb beta 3-deficient platelets to the extracellular matrix (ECM) of stimulated human umbilical vein endothelial cells or to collagen type III was studied using a model system with washed platelets and red cells. When alpha IIb beta 3-deficient platelets were perfused over the surface at arterial shear rate for 5 minutes, a low surface coverage was observed (GT platelets, mean +/- SEM, 37.5% +/- 5.0%; normal platelets preincubated with an RGD-containing peptide, 7.4% +/- 2.1%). When rFVIIa, together with factors X and II, was added to the perfus",
+            "journal": "Blood",
+            "year": "2003",
+            "authors": [
+              "Lisman Ton",
+              "Moschatsis Sultana",
+              "Adelmeijer Jelle",
+              "Nieuwenhuis H Karel",
+              "De Groot Philip G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abciximab",
+              "Adult",
+              "Antibodies, Monoclonal",
+              "Blood Platelets",
+              "Cells, Cultured",
+              "Collagen",
+              "Drug Evaluation, Preclinical",
+              "Endothelium, Vascular",
+              "Eptifibatide",
+              "Extracellular Matrix"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12411291/"
+          },
+          {
+            "pmid": "11019977",
+            "title": "GPIIb-IIIa antagonist-induced reduction in platelet surface factor V/Va binding and phosphatidylserine expression in whole blood.",
+            "abstract": "In addition to inhibition of platelet aggregation, GPIIb-IIIa antagonists may reduce thrombotic events via other mechanisms. In a novel whole blood flow cytometric system, we investigated the effects of GPIIb-IIIa antagonists, in the presence or absence of thrombin inhibitors, on platelet surface-bound factor V/Va and platelet surface phospholipids. Diluted venous blood was incubated with either buffer or a GPIIb-IIIa antagonist (abciximab, tirofiban, or eptifibatide). Some samples were pre-incubated with clinically relevant concentrations of unfractionated heparin (UFH), a low molecular weight heparin, a direct thrombin inhibitor, or buffer only. Platelets were then activated and labeled with mAb V237 (factor V/Va-specific) or annexin V (binds phosphatidylserine), fixed, and analyzed by flow cytometry. In the absence of thrombin inhibitors, GPIIb-IIIa antagonists (especially abciximab) significantly reduced agonist-induced platelet procoagulant activity, as determined by reduced bindi",
+            "journal": "Thrombosis and haemostasis",
+            "year": "2000",
+            "authors": [
+              "Furman M I",
+              "Krueger L A",
+              "Frelinger A L",
+              "Barnard M R",
+              "Mascelli M A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abciximab",
+              "Antibodies, Monoclonal",
+              "Blood Platelets",
+              "Collagen",
+              "Dose-Response Relationship, Drug",
+              "Eptifibatide",
+              "Factor V",
+              "Flow Cytometry",
+              "Humans",
+              "Immunoglobulin Fab Fragments"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11019977/"
+          },
+          {
+            "pmid": "16820939",
+            "title": "Efficient platelet delta-granule release induced by [Ca2+]i elevation is modulated by GPIIbIIIa.",
+            "abstract": "Intracellular Ca2+ elevation generates a cascade of events that leads to platelet activation and degranulation. The GPIIbIIIa-ligand molecular complex plays a central role in several aspects of platelet activation. Taking advantage of the flow cytometric simultaneous analysis of surface GPIIbIIIa expression and intracellular serotonin content, we demonstrate here that the functional inhibition of GPIIbIIIa generates an impairment of delta-granule release even upon maximal intracellular Ca2+ elevation. In healthy subjects, the GPIIbIIIa inhibitor tirofiban impairs platelet delta-granule release. Analogously, Glanzmann thrombasthenia patients show an impairment of delta-granule release that is proportional to their residual expression of platelet GPIIbIIIa. These data show that platelet surface expression of functional GPIIbIIIa is required for a fully efficient secretion of delta-granules and serotonin release. The implications of our findings are discussed in the light of the complex i",
+            "journal": "International journal of molecular medicine",
+            "year": "2006",
+            "authors": [
+              "Gobbi Giuliana",
+              "Sponzilli Ivonne",
+              "Mirandola Prisco",
+              "Tazzari Pier Luigi",
+              "Caimi Luigi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Blood Platelets",
+              "Calcium",
+              "Cytoplasmic Granules",
+              "Exocytosis",
+              "Female",
+              "Humans",
+              "Male",
+              "Phenotype",
+              "Platelet Glycoprotein GPIIb-IIIa Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16820939/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9526248574256896,
+        "txgnn_rank": 26094,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "41709810",
+            "title": "ST-Segment Elevation Myocardial Infarction Following Adalimumab Initiation in a Young Adult.",
+            "abstract": "Tumor necrosis factor alpha inhibitors have transformed management of autoimmune diseases, but cardiovascular safety profile of these diseases remains an area of investigation.",
+            "journal": "JACC. Case reports",
+            "year": "2026",
+            "authors": [
+              "Harfoush Allam",
+              "Parasuraman Sathish",
+              "Dastidar Amardeep",
+              "Wong Chih",
+              "Ibrahem Abdalazeem"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41709810/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "trigeminal autonomic cephalalgia",
+        "txgnn_score": 0.9467299580574036,
+        "txgnn_rank": 27430,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "headache disorder",
+        "txgnn_score": 0.9453150033950806,
+        "txgnn_rank": 27746,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.94337397813797,
+        "txgnn_rank": 28142,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congenital prothrombin deficiency",
+        "txgnn_score": 0.9398879408836364,
+        "txgnn_rank": 28842,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "12411291",
+            "title": "Recombinant factor VIIa enhances deposition of platelets with congenital or acquired alpha IIb beta 3 deficiency to endothelial cell matrix and collagen under conditions of flow via tissue factor-independent thrombin generation.",
+            "abstract": "A novel approach to treat bleeding episodes in patients with Glanzmann thrombasthenia (GT) and perhaps also in patients receiving alpha IIb beta 3 inhibitors is the administration of recombinant factor VIIa (rFVIIa). The mechanism of action of rFVIIa in these patients is, however, still unclear. We studied the effect of rFVIIa-mediated thrombin formation on adhesion of alpha IIb beta 3-deficient platelets under flow conditions. Adhesion of alpha IIb beta 3-deficient platelets to the extracellular matrix (ECM) of stimulated human umbilical vein endothelial cells or to collagen type III was studied using a model system with washed platelets and red cells. When alpha IIb beta 3-deficient platelets were perfused over the surface at arterial shear rate for 5 minutes, a low surface coverage was observed (GT platelets, mean +/- SEM, 37.5% +/- 5.0%; normal platelets preincubated with an RGD-containing peptide, 7.4% +/- 2.1%). When rFVIIa, together with factors X and II, was added to the perfus",
+            "journal": "Blood",
+            "year": "2003",
+            "authors": [
+              "Lisman Ton",
+              "Moschatsis Sultana",
+              "Adelmeijer Jelle",
+              "Nieuwenhuis H Karel",
+              "De Groot Philip G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Abciximab",
+              "Adult",
+              "Antibodies, Monoclonal",
+              "Blood Platelets",
+              "Cells, Cultured",
+              "Collagen",
+              "Drug Evaluation, Preclinical",
+              "Endothelium, Vascular",
+              "Eptifibatide",
+              "Extracellular Matrix"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12411291/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thromboangiitis obliterans",
+        "txgnn_score": 0.9216378927230836,
+        "txgnn_rank": 32025,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9139834642410278,
+        "txgnn_rank": 33236,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cholecystolithiasis",
+        "txgnn_score": 0.9109635949134828,
+        "txgnn_rank": 33595,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00775",
+    "name": "Tirofiban",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tirofiban"
+      },
+      "queried_at": "2026-03-10T09:00:54.738419",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tirofiban"
+      },
+      "queried_at": "2026-03-10T09:00:57.070658",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T09:00:58.037544",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T09:01:02.275015",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T09:01:04.567974",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T09:01:05.344502",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T09:01:08.495068",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T09:01:11.937693",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T09:01:12.797299",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T09:01:15.495456",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T09:01:17.720792",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:01:18.628837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:01:23.349139",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "queried_at": "2026-03-10T09:01:24.248444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:01:25.057054",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:01:28.222492",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "headache disorder"
+      },
+      "queried_at": "2026-03-10T09:01:29.368250",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T09:01:30.315560",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T09:01:34.606202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T09:01:35.422796",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T09:01:36.004785",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T09:01:39.420686",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "queried_at": "2026-03-10T09:01:41.606938",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "thromboangiitis obliterans"
+      },
+      "queried_at": "2026-03-10T09:01:42.106697",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "thromboangiitis obliterans"
+      },
+      "queried_at": "2026-03-10T09:01:44.900068",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "thromboangiitis obliterans"
+      },
+      "queried_at": "2026-03-10T09:01:45.614506",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T09:01:46.250083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T09:01:49.597289",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T09:01:50.258823",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "cholecystolithiasis"
+      },
+      "queried_at": "2026-03-10T09:01:51.854801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "cholecystolithiasis"
+      },
+      "queried_at": "2026-03-10T09:01:54.823512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tirofiban",
+        "disease": "cholecystolithiasis"
+      },
+      "queried_at": "2026-03-10T09:01:55.577170",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:01:55.585573"
+  }
+}

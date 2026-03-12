@@ -1,0 +1,628 @@
+{
+  "drug": {
+    "inn": "Capmatinib",
+    "drugbank_id": "DB11791",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9944650530815125,
+        "txgnn_rank": 6947,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33513356",
+            "title": "Properties of FDA-approved small molecule protein kinase inhibitors: A 2021 update.",
+            "abstract": "Owing to the dysregulation of protein kinase activity in many diseases including cancer, the protein kinase enzyme family has become one of the most important drug targets in the 21st century. There are 62 FDA-approved therapeutic agents that target about two dozen different protein kinases and eight of these were approved in 2020. All of the FDA-approved drugs are orally effective with the exception of netarsudil (a ROCK1/2 non-receptor protein-serine/threonine kinase antagonist given as an eye drop for the treatment of glaucoma) and temsirolimus (an indirect mTOR inhibitor given intravenously for the treatment of renal cell carcinoma). Of the approved drugs, ten target protein-serine/threonine protein kinases, four are directed against dual specificity protein kinases (MEK1/2), thirteen block non-receptor protein-tyrosine kinases, and 35 target receptor protein-tyrosine kinases. The data indicate that 55 of these drugs are prescribed for the treatment of neoplasms (52 against solid t",
+            "journal": "Pharmacological research",
+            "year": "2021",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Drug Approval",
+              "Humans",
+              "Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Protein Structure, Secondary",
+              "Pyrazoles",
+              "Pyridines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33513356/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9903010129928588,
+        "txgnn_rank": 10333,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.989471435546875,
+        "txgnn_rank": 10914,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heart disease",
+        "txgnn_score": 0.9863685965538024,
+        "txgnn_rank": 13320,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02626234",
+            "title": "A Phase I, Multicenter, Open-label, Single-sequence Drug-drug Interaction Study to Assess the Effect of INC280 on the Pharmacokinetics of Digoxin and Rosuvastatin in Patients With cMET-dysregulated Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2015-12-08",
+            "completion_date": "2017-04-28",
+            "country": "Spain, United Kingdom, Belgium, Austria, Italy, United States, Czechia, Greece",
+            "enrollment": 32,
+            "brief_summary": "the study aim to assess the effect of INC280 on the pharmacokinetics of digoxin and rosuvastatin in patients with cMET-dysregulated advanced solid tumors",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients must have:\n\n* advanced solid tumors and have confirmed cMET dysregulation\n* at least one measurable lesion as defined by RECIST 1.1.\n* recovered from all toxicities related to prior anti-cancer therapies\n* adequate organ function\n* ECOG performance status (PS) of 0 or 1",
+            "endpoints": [
+              "AUClast of digoxin and rosuvastatin",
+              "AUCinf of digoxin and rosuvastatin",
+              "Lambda_z of digoxin and rosuvastatin"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT02626234"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02159066",
+            "title": "The LOGIC 2 Trial A Phase II, Multi-center, Open-label Study of Sequential LGX818/MEK162 Combination Followed by a Rational Combination With Targeted Agents After Progression, to Overcome Resistance in Adult Patients With Locally Advanced or Metastatic BRAF V600 Melanoma.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2014-07-23",
+            "completion_date": "2023-01-10",
+            "country": "Switzerland, Australia, Spain, United Kingdom, Canada, Netherlands, Germany, Italy, United States",
+            "enrollment": 158,
+            "brief_summary": "The primary purpose of this study is to assess the anti-tumor activity of LGX818/MEK162 in combination with targeted agents after progression on LGX818/MEK162 combination therapy, as well as the safety and tolerability of the novel triple combinations.",
+            "eligibility_criteria": "INCLUSION CRITERIA:\n\n* Age ≥ 18 years\n* Histologically confirmed diagnosis of unresectable stage III or metastatic melanoma (stage IIIC to IV per American Joint Committee on Cancer \\[AJCC\\])\n* Documented evidence of BRAF V600 mutation.\n* Newly obtained tumor biopsy at baseline, and patient agrees to",
+            "endpoints": [
+              "Overall Response Rate (ORR): Part II"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT02159066"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "32333917",
+            "title": "The selective c-Met inhibitor capmatinib offsets cisplatin-nephrotoxicity and doxorubicin-cardiotoxicity and improves their anticancer efficacies.",
+            "abstract": "The incorporation of mesenchymal-epithelial transition factor (c-Met) inhibitors with conventional chemotherapeutics may increase the anticancer efficacy of chemotherapeutic agents, but bears the risk of enhancing the adverse effects. To test the hypothesis, co-administration of the novel c-Met inhibitor capmatinib with cisplatin (CIS) or doxorubicin (DOX) was investigated on nephrotoxicity and cardiotoxicity induced by these agents in mice, as well as their in vitro cytotoxicities. The results demonstrated that capmatinib in vivo offered protection against nephrotoxicity and cardiotoxicity by both CIS and DOX, respectively. The underlying mechanisms behind capmatinib protective effect were found to be i) limiting excessive generation of reactive oxygen species by decreasing the level of lipid peroxidation and nitrosative stress products; and ii) suppressing overproduction of pro-inflammatory mediators like TNF-α and IL-6 that coincided with less inflammatory cell infiltration as denot",
+            "journal": "Toxicology and applied pharmacology",
+            "year": "2020",
+            "authors": [
+              "Shaker Mohamed E",
+              "Shaaban Ahmed A",
+              "El-Shafey Mohamed M",
+              "El-Mesery Mohamed E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Cardiotoxicity",
+              "Cisplatin",
+              "Doxorubicin",
+              "Female",
+              "Imidazoles",
+              "Kidney",
+              "Lipid Peroxidation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32333917/"
+          },
+          {
+            "pmid": "36709977",
+            "title": "Cardiac toxicity associated with pharmacokinetic drug-drug interaction between crizotinib and sofosbuvir/velpatasvir: A case report.",
+            "abstract": "This case report describes a pharmacokinetic drug-drug interaction between crizotinib, a tyrosine kinase inhibitor, and sofosbuvir/velpatasvir, a direct-acting antiviral drug, leading to cardiac toxicity. A 75-year-old man, with no cardiovascular history but a diagnosis of metastatic nonsmall cell lung cancer with mesenchymal-epithelial transition exon-14 deletion and hepatitis C virus infection genotype 1A, received both crizotinib and sofosbuvir/velpatasvir. Crizotinib was well tolerated, but 1 week after sofosbuvir/velpatasvir initiation, the patient experienced bilateral lower-limb oedema and class III New York Heart Association dyspnoea. We assumed that increased exposure to crizotinib could account for this cardiac toxicity. Drug causality was probable according to the Naranjo scale. We hypothesized a reciprocal interaction between crizotinib and velpatasvir, mediated by both cytochrome 3A4 (CYP3A4) and P-glycoprotein (P-gp). Clinicians should be aware of the risk of drug-drug in",
+            "journal": "British journal of clinical pharmacology",
+            "year": "2023",
+            "authors": [
+              "Monribot Anthia",
+              "Huillard Olivier",
+              "Khoudour Nihel",
+              "Préta Laure-Hélène",
+              "Blanchet Benoit"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Humans",
+              "Aged",
+              "Sofosbuvir",
+              "Antiviral Agents",
+              "Crizotinib",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cardiotoxicity",
+              "Cytochrome P-450 CYP3A",
+              "Hepatitis C, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36709977/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Jeune syndrome situs inversus",
+        "txgnn_score": 0.9862110018730164,
+        "txgnn_rank": 13428,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+        "txgnn_score": 0.985849916934967,
+        "txgnn_rank": 13671,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "orofacial clefting syndrome",
+        "txgnn_score": 0.985792338848114,
+        "txgnn_rank": 13705,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Laubry-Pezzi syndrome",
+        "txgnn_score": 0.9857265949249268,
+        "txgnn_rank": 13756,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "interventricular septum aneurysm",
+        "txgnn_score": 0.9854808449745178,
+        "txgnn_rank": 13910,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.985469937324524,
+        "txgnn_rank": 13916,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11791",
+    "name": "Capmatinib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Capmatinib"
+      },
+      "queried_at": "2026-03-10T03:59:27.007394",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Capmatinib"
+      },
+      "queried_at": "2026-03-10T03:59:32.256715",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T03:59:33.065820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T03:59:36.407665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T03:59:38.106866",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T03:59:38.623527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T03:59:42.576099",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T03:59:44.309482",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T03:59:45.032542",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T03:59:47.940007",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T03:59:48.696981",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T03:59:49.504931",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T03:59:53.508520",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "heart disease"
+      },
+      "queried_at": "2026-03-10T03:59:55.816839",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T03:59:57.240585",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T04:00:00.389141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "queried_at": "2026-03-10T04:00:01.154817",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "queried_at": "2026-03-10T04:00:01.724703",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "queried_at": "2026-03-10T04:00:05.041723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "queried_at": "2026-03-10T04:00:06.289919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "orofacial clefting syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:07.054957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "orofacial clefting syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:10.324986",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "orofacial clefting syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:11.254190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:11.784176",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:14.498919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "queried_at": "2026-03-10T04:00:15.215669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "interventricular septum aneurysm"
+      },
+      "queried_at": "2026-03-10T04:00:15.773435",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "interventricular septum aneurysm"
+      },
+      "queried_at": "2026-03-10T04:00:19.034413",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "interventricular septum aneurysm"
+      },
+      "queried_at": "2026-03-10T04:00:19.933057",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T04:00:20.449123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T04:00:23.778607",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T04:00:24.622471",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:00:24.654039"
+  }
+}

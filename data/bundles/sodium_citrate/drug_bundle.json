@@ -1,0 +1,2709 @@
+{
+  "drug": {
+    "inn": "Sodium citrate",
+    "drugbank_id": "DB09154",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "papillary conjunctivitis",
+        "txgnn_score": 0.9994682669639589,
+        "txgnn_rank": 1200,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.9994551539421082,
+        "txgnn_rank": 1220,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03705793",
+            "title": "Effectiveness of Mometasone Nasal Irrigation for Chronic Rhinosinusitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2019-01-01",
+            "completion_date": "2020-03-15",
+            "country": "United States",
+            "enrollment": 53,
+            "brief_summary": "Chronic rhinosinusitis (CRS) affects up to 12.5% of the US population and has a significant disease burden. The recommended medical management of CRS includes large-volume, low-pressure saline lavage, systemic antibiotics, and intranasal corticosteroids (INCS). While the efficacy and safety of INCS are well-established for the long-term management of CRS, penetration of INCS beyond the nasal vestibule and into the paranasal sinuses is limited. The aim of this study is to evaluate the effectivene",
+            "eligibility_criteria": "Inclusion Criteria:\n\n12-weeks or longer of two or more of the following signs and symptom consistent with CRS:\n\n* mucopurulent drainage(anterior, posterior, or both)\n* nasal obstruction (congestion)\n* facial pain-pressure-fullness\n* and decreased sense of smell\n\nAND inflammation documented by one or",
+            "endpoints": [
+              "Change in Sino-Nasal Outcome Test Scores (SNOT-22)"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT03705793"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05075980",
+            "title": "HEADLIGHT: Hypofractionated Proton Therapy for Head and Neck Cancers",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2022-02-16",
+            "completion_date": "2035-11-15",
+            "country": "United States",
+            "enrollment": 174,
+            "brief_summary": "This clinical trial studies how well intensity modulated proton therapy (IMPT) or intensity modulated X-ray (radiation) therapy (IMRT) works after surgery in treating patients with head and neck cancer. IMPT is a type of radiation therapy that allows for the most accurate application of proton radiation to the tumor and has the potential to reduce treatment-related side effects. IMRT is a type of 3-dimensional radiation therapy that uses computer-generated images to show the size and shape of th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\>= 18 years\n* Histological confirmation of a newly diagnosed non-human papillomavirus (HPV) associated malignant epithelial cancer in the head and/or neck. Diagnosis requires confirmation of p16 and/or HPV DNA negativity for oropharyngeal and unknown primary sites. p16 po",
+            "endpoints": [
+              "Rate of local/regional control (LRF)"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT05075980"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03493425",
+            "title": "Phase II Randomized Trial of Neo-Adjuvant Chemotherapy Followed by Surgery and Post-Operative Radiation Versus Surgery and Post-Operative Radiation for Organ Preservation of T3 and T4a Nasal and Paranasal Sinus Squamous Cell Carcinoma (NPNSCC)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-03-12",
+            "completion_date": "2029-03-31",
+            "country": "United States",
+            "enrollment": 82,
+            "brief_summary": "This randomized phase II trial studies how well chemotherapy before surgery and radiation therapy works compared to surgery and radiation therapy alone in treating patients with nasal and paranasal sinus cancer that can be removed by surgery. Drugs used in chemotherapy, such as docetaxel, cisplatin, and carboplatin work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Radiation therapy uses high-",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n* General physical condition compatible with the proposed chemotherapy and surgery\n* Stage T3 or T4a, histologically-confirmed NPNSCC requiring orbital or skull base resection:\n\n  * Stages T3 and T4a diseas",
+            "endpoints": [
+              "Structure preservation rate defined as both skull base and orbit being preserved",
+              "Overall survival (OS)"
+            ],
+            "sponsor": "Eastern Cooperative Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT03493425"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05063552",
+            "title": "A Phase II/III Trial of Chemotherapy + Cetuximab vs Chemotherapy + Bevacizumab vs Atezolizumab + Bevacizumab Following Progression on Immune Checkpoint Inhibition in Recurrent/Metastatic Head and Neck Cancers",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-03-13",
+            "completion_date": "2027-12-15",
+            "country": "United States",
+            "enrollment": 430,
+            "brief_summary": "This phase II/III compares the standard therapy (chemotherapy plus cetuximab) versus adding bevacizumab to standard chemotherapy, versus combination of just bevacizumab and atezolizumab in treating patients with head and neck cancer that has spread to other places in the body (metastatic or advanced stage) or has come back after prior treatment (recurrent). Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must have histologically confirmed squamous cell carcinoma of the head and neck (HNSCC) (excluding squamous cell carcinoma \\[SCC\\] of salivary glands, Epstein-Barr virus \\[EBV\\]-associated nasopharynx and skin)\n* Patient must have measurable disease as defined by Respo",
+            "endpoints": [
+              "Progression free survival (PFS) (Phase II)",
+              "Overall survival (OS) (Phase III)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05063552"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00707473",
+            "title": "Phase II Trial of Induction Therapy With Docetaxel, Cisplatin and Fluorouracil in Previously Untreated Patients With Locally Advanced Squamous Cell Carcinoma and/or Poorly Differentiated Carcinoma of the Nasal Cavity and/or Paranasal Sinuses",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2008-06-16",
+            "completion_date": "2027-09-30",
+            "country": "United States",
+            "enrollment": 31,
+            "brief_summary": "This phase II trial studies how well docetaxel, cisplatin and fluorouracil work in treating patients with previously untreated stage II-IV nasal cavity and/or paranasal sinus cancer. Drugs used in chemotherapy, such as docetaxel, cisplatin and fluorouracil, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have a confirmed (by a MD Anderson Cancer Center \\[MDACC\\] pathologist) cytologic or histological diagnosis of locally advanced squamous cell carcinoma, poorly differentiated carcinoma, or sinonasal undifferentiated carcinoma of the nasal cavity and/or paranasal ",
+            "endpoints": [
+              "Clinical/radiographic complete rate after induction chemotherapy with docetaxel, cisplatin, and fluorouracil",
+              "Local tumor control to 80%"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT00707473"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05172245",
+            "title": "Phase 1/1b Study of AKT Inhibitor Ipatasertib With Chemoradiation for Locally Advanced Head and Neck Cancer",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2022-09-19",
+            "completion_date": "2026-06-01",
+            "country": "Canada, United States",
+            "enrollment": 46,
+            "brief_summary": "This phase I/Ib trial tests the safety and best dose of ipatasertib in combination with the usual treatment approach using chemotherapy together with radiation therapy (\"chemo-radiation\") in patients with head and neck cancer. Ipatasertib is in a class of medications called protein kinase B (AKT) inhibitors. It may stop the growth of tumor cells and may kill them. Cisplatin, which is a chemotherapy used in this trial, is in a class of medications known as platinum-containing compounds. It works ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have pathologically confirmed HNSCC (including tumors of the oropharynx, hypopharynx, larynx, oral cavity, nasal cavity, maxillary and other paranasal sinuses, and unknown primary of the head and neck), with measurable disease as per RECIST 1.1\n* Oropharyngeal an",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) and recommended phase 2 dose of ipatasertib in combination with definitive chemo-radiation"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05172245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02196168",
+            "title": "A Randomized Phase II Trial of Cisplatin With or Without Wee1 Kinase Inhibitor AZD1775 (MK-1775) for First-line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (RM-SCCHN)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2014-03",
+            "completion_date": "2016-04",
+            "country": "Canada",
+            "enrollment": 6,
+            "brief_summary": "This randomized phase II trial studies how well cisplatin with or without WEE1 inhibitor MK-1775 works in treating patients with head and neck cancer that has come back or has spread to other parts of the body. Drugs used in chemotherapy, such as cisplatin, may prevent tumor cells from multiplying by damaging their deoxyribonucleic acid (DNA), which in turn stops the tumor from growing. WEE1 inhibitor MK-1775 may stop the growth of tumor cells by blocking some of the enzymes needed for cell grow",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed SCCHN that is recurrent and/or metastatic and not amendable to curative therapy by surgery or radiation; SCCHN originating from the following sites are eligible: oral cavity, oropharynx, larynx, hypopharynx and paran",
+            "endpoints": [
+              "Overall Response Rate (Complete Plus Partial Response) Using RECIST Criteria v1.1"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02196168"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.9994495511054992,
+        "txgnn_rank": 1231,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "stomach disease",
+        "txgnn_score": 0.9989427924156188,
+        "txgnn_rank": 2088,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00062374",
+            "title": "An Evaluation of Preoperative Chemotherapy With Irinotecan and Cisplatin for Advanced, But Resectable Gastric Cancer: A Coordinated Multidisciplinary, Multicenter Study Linking Functional Imaging, Genomic Expression Profiles and Histopathology",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-06",
+            "completion_date": "2011-06",
+            "country": "United States",
+            "enrollment": 55,
+            "brief_summary": "This phase II trial is studying how well giving irinotecan together with cisplatin works in treating patients who are undergoing surgical resection for locally advanced cancer of the stomach or gastroesophageal junction. Drugs used in chemotherapy, such as irinotecan and cisplatin, work in different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one chemotherapy drug and giving them before surgery may shrink the tumor so that it can be removed during surg",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients must have microscopically confirmed adenocarcinoma of the stomach or gastroesophageal (GE) junction with material reviewed by the Department of Pathology of the participating Institution; tumors involving the GE junction must have the bulk of their disease in the ",
+            "endpoints": [
+              "Histological Response Determined by FDG Uptake Correlates"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00062374"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01667575",
+            "title": "Efficiency Study of Clarithromycin and Bismuth-containing Quadruple Therapy to Treat H.Pylori",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-08",
+            "completion_date": "2013-05",
+            "country": "China",
+            "enrollment": 180,
+            "brief_summary": "The purpose of this study is to observe the efficacy of ten day triple therapy-based, bismuth-containing quadruple therapy for H.pylori treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients who presented with upper gastrointestinal symptoms and endoscopically proven H.pylori-positive functional dyspepsia and scarred peptic ulcers\n\nExclusion Criteria:\n\n* patients less than 18 years old, with history of H. pylori infection treatment, with previous gastric ",
+            "endpoints": [
+              "Eradication rate of Helicobacter pylori"
+            ],
+            "sponsor": "Shanghai Jiao Tong University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT01667575"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02432209",
+            "title": "Improving Reproductive Fitness Through Pretreatment With Lifestyle Modification in Obese Women With Unexplained Infertility",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2015-08",
+            "completion_date": "2020-05",
+            "country": "United States",
+            "enrollment": 379,
+            "brief_summary": "A two-arm, multicenter, prospective, randomized clinical trial of a lifestyle modification program with tracked increased physical activity and weight loss (intensive) compared to recommendations to tracking of increased physical activity alone with weight maintenance (standard) in women with obesity and unexplained infertility. This 16 week period of lifestyle modification will be followed by an open label empiric infertility treatment regimen consisting of three cycles of ovarian stimulation w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Women ≥18 to ≤ 40 years of age, with one or more years infertility history, desirous of conceiving, regularly ovulating (defined as 9 or more menses per year), at initiation of participation.\n2. BMI ≥ 30 kg/m2.\n3. Normal uterine cavity and at least one open fallopian tube con",
+            "endpoints": [
+              "Rate of Good Birth Outcomes"
+            ],
+            "sponsor": "Yale University",
+            "url": "https://clinicaltrials.gov/study/NCT02432209"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04753437",
+            "title": "A Phase 1, Double-Blind, Parallel Group Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Quadruple Therapy (Bismuth, Clarithromycin, and Amoxicillin) With Vonoprazan Versus Quadruple Therapy With Esomeprazole",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2021-04-06",
+            "completion_date": "2021-11-05",
+            "country": "China",
+            "enrollment": 44,
+            "brief_summary": "Helicobacter Pylori (H Pylori) is a bug found in the digestive system. It can cause soreness and redness in the stomach (gastritis). It can also cause ulcers in the stomach and other parts of the digestive system. Vonoprazan is a medicine to treat people with H Pylori. It is taken together with other medicines to fight infections caused by H Pylori.\n\nThe main aim of this study is to learn if vonoprazan changes how the other medicines are processed by the body. It will be compared with another me",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. HP positive participants.\n2. Weighs at least 50 kilogram (kg) and has a body mass index between greater than (\\>) 18 and less than equal to (\\<=) 30 kilogram per square meter (kg/m\\^2), inclusive, at screening and Day -1 (check-in).\n3. Is willing to abstain from strenuous exe",
+            "endpoints": [
+              "Cmax: Maximum Observed Plasma Concentration for Bismuth",
+              "AUCτ: Area Under the Plasma Concentration-time Curve During a Dosing Interval τ for Bismuth",
+              "Aeτ: Total Amount of Bismuth Excreted in Urine During a Dosing Interval τ for Bismuth"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT04753437"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06401083",
+            "title": "The Effect of an Additional Pre-extubational Loading Dose of Caffeine-citrate",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2023-12-21",
+            "completion_date": "2028-12",
+            "country": "Hungary",
+            "enrollment": 226,
+            "brief_summary": "The goal of this clinical trial is to answer whether the use of a single loading dose (20 mg/kg) of caffeine citrate one hour before extubation has an impact on the success rate of extubation among preterm neonates. In addition, the investigators would like to assess the frequency of apneas and side effects of the intervention, as well as the development of NEC, BPD, IVH, PVL, and long-term neurodevelopmental outcomes in the investigated populations.\n\nAccording to institutional protocol, preterm",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Premature infant born before 32nd week of gestation is completed;\n* Had been mechanically ventilated for at least 48 hours;\n* Before the first planned extubation.\n\nExclusion Criteria:\n\n* Lack of informed consent, refusal to participate in the study;\n* Major congenital anomaly;",
+            "endpoints": [
+              "Rate of extubation failure"
+            ],
+            "sponsor": "Semmelweis University",
+            "url": "https://clinicaltrials.gov/study/NCT06401083"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03425747",
+            "title": "CALCIUM CITRATE vs CALCIUM CARBONATE FOR THE MANAGEMENT OF CHRONIC HYPOPARATHYROIDISM",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2019-10-15",
+            "completion_date": "2020-04-01",
+            "country": "Italy",
+            "enrollment": 26,
+            "brief_summary": "Hypoparathyroidism is an endocrinopathy characterized by a deficient secretion or action of PTH associated with low calcium level. According to the European guideline (2015), standard treatment includes oral calcium salts and active vitamin D metabolites to relieve symptoms of hypocalcaemia, maintain serum calcium levels in the low normal range and improve the patient's QoL Calcium carbonate is most often used and less expensive than other calcium preparations and contains the highest concentrat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of postsurgical chronic hypoparathyroidism by at least 6 months\n* No change of treatment over the last 3 months prior to enrollment.\n* Values of serum calcium and phosphorus stable over the last three months prior to enrollment\n* Absence of symptoms from hypocalcaemi",
+            "endpoints": [
+              "Change in serum calcium level",
+              "Change in calcium oxalate saturation"
+            ],
+            "sponsor": "Campus Bio-Medico University",
+            "url": "https://clinicaltrials.gov/study/NCT03425747"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05998863",
+            "title": "Effervescent Calcium Magnesium Citrate to Prevent Mineral Metabolism and Renal Complications of Chronic Proton Pump Inhibitor Therapy",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-04-19",
+            "completion_date": "2026-12-31",
+            "country": "United States",
+            "enrollment": 56,
+            "brief_summary": "Proton pump inhibitors (PPIs) are widely used for the control of gastric ulcer-gastritis, erosive esophagitis (gastroesophageal reflux disease), peptic ulcer disease (duodenal ulcer), and heartburn. Despite their efficacy, their use has been implicated in possibly causing fragility fractures (osteoporosis), hypomagnesemia (magnesium deficiency) and increased risk of chronic kidney disease (CKD). The current trial represents the investigators ongoing effort to discern whether these complications ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ambulatory adult subjects (\\> 21 years of age) of either gender of any ethnicity\n* Must have taken PPI (omeprazole or equivalent ≥ 20 mg/day, ≥ three times per week, for at least 2 months)\n* Expected to continue at a similar dosage\n* Stage 1 hypertension (with systolic blood p",
+            "endpoints": [
+              "Change From Baseline in Bone Mineral Density (BMD) T-Score at 1 Year",
+              "Change From Baseline in the Fractional Excretion of Magnesium (FEMg) at 1 Year",
+              "Change from baseline in endogenous creatinine clearance at 1 year."
+            ],
+            "sponsor": "University of Texas Southwestern Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05998863"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02887573",
+            "title": "Free-residue Nutrients for the Bowel Preparation of Colon Capsule Endoscopy",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2014-01",
+            "completion_date": "2017-07",
+            "country": "N/A",
+            "enrollment": 62,
+            "brief_summary": "Colon capsule endoscopy(CCE) is a new diagnostic method of colonic lesions.It has advantages of no requirement for sedation and air insufflation.The bowel preparation has a closely relationship with yield of diagnosing diseases.Bowel preparation of CCE is not only to clean the colon but also to promote capsule propulsion.Now there is not an optimal method for CCE.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18-80 years of age.\n* underwent a diagnostic OC that demonstrated colorectal polyps that required endoscopic treatment.\n\nExclusion Criteria:\n\n1. dysphagia/swallowing disorder\n2. prior major abdominal surgery of the gastrointestinal tract, known or suspected bowel obstruction\n3",
+            "endpoints": [
+              "Bowel Cleansing Level of Two Different Bowel Preparation Methods"
+            ],
+            "sponsor": "Xijing Hospital of Digestive Diseases",
+            "url": "https://clinicaltrials.gov/study/NCT02887573"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07173504",
+            "title": "The Effect of Continuous Versus Intermittent Enteral Nutrition on Metabolic Outcomes in Critically Ill Patients",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-09-30",
+            "completion_date": "2028-09",
+            "country": "Netherlands",
+            "enrollment": 124,
+            "brief_summary": "The goal of this clinical trial is to investigate the effect of continuous versus intermittent enteral nutrition on metabolic outcomes in critically ill adult patients.\n\nThe aim of this study is to:\n\n• To assess the effect of a daytime intermittent tube feeding pattern compared to standard continuous tube feeding on glycaemic control, gastrointestinal function, gastrointestinal hormones, markers of sleep quality and circadian rhythm, and lean body mass and body composition.\n\nParticipants will re",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥18 years;\n2. Receiving or eligible to receive exclusively gastric tube feeding;\n3. Expected ICU stay ≥48 hours;\n4. Receiving or anticipated to receive invasive mechanical ventilation within 48 hours after ICU admission.\n\nExclusion Criteria:\n\n1. The treating clinician con",
+            "endpoints": [
+              "Glycaemic variability"
+            ],
+            "sponsor": "Gelderse Vallei Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07173504"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06696248",
+            "title": "The Efficacy of Carvedilol Combined with Compound Alverine Citrate Soft Capsules in the Treatment of Portal Hypertension in Patients with Liver Cirrhosis: a Prospective, Open-label, Multicentre, Randomised Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-11-15",
+            "completion_date": "2025-09-30",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "Brief summaries of CZXH-PH-ALV-2403 The goal of this clinical trial is to learn if the combination of alverine and carvedilol works to treat portal hypertension in adult patients with liver cirrhosis. It will also learn about the safety of alverine.\n\nThe main question it aims to answer is:\n\nFor patients with liver cirrhosis and portal hypertension who have been treated with carvedilol at a dose of up to 15 mg/day or at a lower dose that is the maximum tolerated for at least 3 months, and still h",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ages 18 to 80 years old (inclusive), no gender restrictions;\n* Patients with liver cirrhosis diagnosed by clinical, laboratory, imaging examinations, and/or liver biopsy;\n* Treated with carvedilol at a dose of up to 15 mg/day or at a lower dose that is the maximum tolerated fo",
+            "endpoints": [
+              "The 24-week response rate"
+            ],
+            "sponsor": "Shanghai Changzheng Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06696248"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05966246",
+            "title": "The Effect of Prucalopride Succinate on Gastrointestinal Motility After Laparoscopic Gastrectomy : Prospective Double Blind Case-control Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2022-01-25",
+            "completion_date": "2023-06-30",
+            "country": "South Korea",
+            "enrollment": 106,
+            "brief_summary": "In order to improve postoperative ileus in patients undergoing gastrointestinal surgery, digestive medications and prokinetics have been routinely used. Among them, mosapride citrate is widely used as a representative drug, as it is a 5-hydroxytryptamine 4 receptor agonist that increases gastrointestinal motility.\n\nPrucalopride succinate (dihydrobenzofurancarboxamide) is a type of 5-hydroxytryptamine 4 receptor agonist that has a higher affinity for the 5-HT4 receptor compared to mosapride (a be",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients diagnosed with gastric adenocarcinoma pathologically before surgery\n2. Patients who underwent complete surgical resection (R0 resection)\n3. Patients with an ASA score of 3 or less\n\nExclusion Criteria:\n\n1. Patients over 80 years of age\n2. Ascites or peritoneal metasta",
+            "endpoints": [
+              "Quantitative intestinal motility measurement using radio-opaque markers"
+            ],
+            "sponsor": "Gangnam Severance Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05966246"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05753306",
+            "title": "A Phase II Study of Robotic Cytoreduction and Hyperthermic Intraperitoneal Chemotherapy (HIPEC) for Patients With Gastric Cancer and Limited Peritoneal Metastasis: ROBO-CHIP Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-04-20",
+            "completion_date": "2028-03-31",
+            "country": "United States",
+            "enrollment": 40,
+            "brief_summary": "This phase II clinical trial tests how well robotic cytoreduction and hyperthermic intraperitoneal chemotherapy (HIPEC) in treating patients with gastric cancer that has spread to the tissue that lines the wall of the abdominal cavity (peritoneum). Gastric cancer is the third leading cause of cancer related deaths worldwide and peritoneal metastasis are found in 30% of patients at time of diagnosis. Patients with peritoneal metastasis have poor survival rates. Traditional surgery is done with a ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Restricted to 18 to 80 years of age\n* Eastern Cooperative Oncology Group (ECOG) performance status =\\< 2\n* Histologic confirmation of gastric adenocarcinoma including all subtypes and Siewert type II/III gastroesophageal (GE) junction adenocarcinomas\n* Absolute neutrophil coun",
+            "endpoints": [
+              "Hospital length of stay",
+              "30 day readmission rate",
+              "Adverse Events"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT05753306"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05608577",
+            "title": "RE-BLEED: A Digital Platform for Identifying Bleeding Patients - a Feasibility Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-10-01",
+            "completion_date": "2026-02-18",
+            "country": "United Kingdom",
+            "enrollment": 40,
+            "brief_summary": "The RE-BLEED feasibility study aims to develop and test a real-time digital platform, whereby bleeding patients in-hospital can be identified and approached for their consent to participate in future research studies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nRetrospective cohort:\n\n* Adults aged between 16 and 110\n* Admitted to hospital (Oxford University Hospitals NHS Foundation Trust) or attended the emergency department between 1/3/2011 to 31/8/2023\n\nProspective cohort:\n\n* Adults aged between 16 and 110\n* Admitted to hospital (Oxf",
+            "endpoints": [
+              "Recruitment rate"
+            ],
+            "sponsor": "University of Oxford",
+            "url": "https://clinicaltrials.gov/study/NCT05608577"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02555852",
+            "title": "Proton Pump Inhibitors and the Risk of Hospitalization for Community-acquired Pneumonia: Replicated Cohort Studies With Meta-analysis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2011-09",
+            "completion_date": "2012-02",
+            "country": "Canada",
+            "enrollment": 4238504,
+            "brief_summary": "The purpose of the study is to determine whether proton pump inhibitors (PPIs), a medication used to treat gastric conditions, increase the risk of hospitalization for community-acquired pneumonia (HCAP).\n\nThe investigators will carry out separate population-based cohort studies using administrative health databases in eight jurisdictions in Canada, the US, and the UK. Cohort entry will be defined by the initiation of an oral non-steroidal anti-inflammatory drug, with follow-up until hospitaliza",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a first oral NSAID prescription\n* Patients at least 40 years of age (except Alberta, Ontario, and Nova Scotia, where patients will be at least 66 years of age)\n* Patients with at least 1 year of history in the database.\n\nExclusion Criteria:\n\n* Patients aged \\< 40",
+            "endpoints": [
+              "Hospitalization for Community-Acquired Pneumonia (HCAP)"
+            ],
+            "sponsor": "Canadian Network for Observational Drug Effect Studies, CNODES",
+            "url": "https://clinicaltrials.gov/study/NCT02555852"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03040817",
+            "title": "Cooperative Group for Clinical Research in G-POEM (POP), Jiangsu, China",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2017-09-01",
+            "completion_date": "2019-12-16",
+            "country": "China",
+            "enrollment": 50,
+            "brief_summary": "Diabetic gastroparesis, postsurgical gastroparesis, idiopathic gastroparesis and primary pyloric stenosis are debilitating gastrointestinal motility disorder. However, there is limited medical therapeutic options for these diseases. Gastric peroral endoscopic pyloromyotomy (G-POEM) is an emerging novel endoscopic technique which is reported as a minimally invasive therapy. But so far, the efficacy and safety of G-POEM on these diseases are rarely explored. So, there is a cooperative group compos",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age between 16 to 80 years old\n2. Full sufficiency in literacy\n3. Be off proton pump inhibitor, antacids and prokinetics ≥ 2 weeks\n4. Refractory gastroesophageal reflux disease induced by postsurgical gastroparesis\n\nExclusion Criteria:\n\n1. Severe heart, lung, and cerebrovascu",
+            "endpoints": [
+              "Change from Baseline in Gastric Emptying Imaging at 6 months.",
+              "Change from Baseline in Gastric Emptying Imaging at 12 months.",
+              "Change from Baseline in Gastric Emptying Imaging at 24 months."
+            ],
+            "sponsor": "Zhongda Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03040817"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04626609",
+            "title": "Prostaglandin and Cannabinoid Receptors in the Development of Eosinophilic Esophagitis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-07-01",
+            "completion_date": "2024-11-18",
+            "country": "Austria",
+            "enrollment": 45,
+            "brief_summary": "The purpose of this study is to investigate prostaglandin and cannabinoid receptors and their endogenous ligands in eosinophilic esophagitis (EoE). A prostaglandin D2 receptor antagonist has been shown to improve disease symptoms suggesting a regulatory role for bioactive lipids in EoE. Prostaglandin D2 and E2, and endocannabinoids are lipid mediators that govern the functional and inflammatory behavior of immune cells critical for EoE development. The prostaglandin D2 and E2 receptor axis, and ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* diagnosed or suspected EoE or GERD\n* without esophageal diseases\n* with signed informed consent\n\nExclusion Criteria:\n\n* viral or parasitic diseases (e.g. herpes, candidiasis)\n* eosinophilic gastroenteritis, hypereosinophilic syndrome, Crohn's disease\n* autoimmune diseases\n* un",
+            "endpoints": [
+              "Analysis of cannabinoid receptors- protein content",
+              "Analysis of cannabinoid receptors- transcripts",
+              "Analysis of prostaglandin D2 receptors- protein content"
+            ],
+            "sponsor": "Medical University of Graz",
+            "url": "https://clinicaltrials.gov/study/NCT04626609"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00285688",
+            "title": "Antibiotic Resistance Helicobacter Pylori and Clarithromycin Resistance Mutation in Helicobacter Pylori in Rajavithi Hospital",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2006-06",
+            "completion_date": "2007-12",
+            "country": "Thailand",
+            "enrollment": 200,
+            "brief_summary": "Peptic ulcer disease is the most common gastrointestinal disease. Antibiotic resistant Helicobacter pylori is a major problem worldwide. The gold standard for Helicobacter pylori eradication is composed of Proton-pump inhibitor/Ranitidine bismuth citrate + Amoxycillin + Metronidazole /Clarithromycin. In Thailand, clarithromycin resistant strains increased and led to treatment failure. Data on file at Rajavithi Hospital showed that metronidazole resistant H. pylori was about 50% and Clarithromyci",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* male or female with dyspepsia\n* age \\> 15 years\n* fulfil indication for gastroscopic examination\n* able to give informed consent\n\nExclusion Criteria:\n\n* contraindication for gastroscopic examination and biopsy",
+            "endpoints": [
+              "Incidence of H. pylori Clarithromycin resistance gene"
+            ],
+            "sponsor": "Department of Medical Services Ministry of Public Health of Thailand",
+            "url": "https://clinicaltrials.gov/study/NCT00285688"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01153204",
+            "title": "Satisfaction With the Treatment, Confidence and Naturalness in Engaging in Sexual Activity in Men With Psychogenic Erectile Dysfunction: Randomized Controlled Trial of Three Therapeutic Approaches.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "",
+            "completion_date": "",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "Context and Objectives: Erectile dysfunction severely compromises not only sexual satisfaction, which is well known to be closely linked to overall life satisfaction but is also associated with a lower quality of life, lower self-esteem, depression, anxiety and adverse effects on interpersonal relationships. The objective was to assess the efficacy of psychotherapy and/or sildenafil for psychogenic erectile dysfunction.\n\nDesign and Settings: randomized controlled single-blind trial performed at ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. exclusive diagnosis of psychogenic ED, using a checklist for DSM-IV criteria.Morning erections, situational erections (masturbatory or with another partner), or acute onset are characteristics of psychogenic ED;\n2. age between 25 and 50 years;\n3. mild and moderate erectile dy",
+            "endpoints": [
+              "Satisfaction with the treatment"
+            ],
+            "sponsor": "Federal University of São Paulo",
+            "url": "https://clinicaltrials.gov/study/NCT01153204"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03050359",
+            "title": "A Randomized Double-Blind, Double-Dummy, Phase 3 Study to Evaluate the Efficacy and Safety of Oral TAK-438 20 mg Compared to Lansoprazole 30 mg Once- or Twice-Daily in the Treatment of Endoscopically Confirmed Duodenal Ulcer Subjects With or Without Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2017-04-05",
+            "completion_date": "2019-07-19",
+            "country": "China, Taiwan, Philippines, South Korea",
+            "enrollment": 533,
+            "brief_summary": "The purpose of this study is to demonstrate the non-inferior efficacy of TAK-438 versus lansoprazole in the treatment of participants with duodenal ulcer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1\\. Has endoscopic evidence of active duodenal ulcer(s) (i.e., mucosal defects with white coating \\[including cases associated with blood coagulation as long as there is no active bleeding\\]) measuring 5 mm or larger in longest diameter within 14 days prior to randomization.\n\nEx",
+            "endpoints": [
+              "Percentage of Participants With Endoscopically Confirmed Healing of Duodenal Ulcers"
+            ],
+            "sponsor": "Takeda",
+            "url": "https://clinicaltrials.gov/study/NCT03050359"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05065424",
+            "title": "Use of Premedication for Less Invasive Surfactant Administration: A Randomized Control Trial",
+            "phase": "PHASE4",
+            "status": "SUSPENDED",
+            "start_date": "2022-04-06",
+            "completion_date": "2026-07-01",
+            "country": "United States",
+            "enrollment": 58,
+            "brief_summary": "The purpose of this study is to conduct a double blinded randomized control trial to determine the safety and efficacy of using IV fentanyl and atropine prior to Less Invasive Surfactant Administration (LISA) procedure in preterm infants with Respiratory Distress Syndrome compared to the local standard of care to perform this procedure without any premedication.\n\nHypothesis: In infants greater than or equal to 29 weeks gestational age requiring the Less Invasive Surfactant Administration procedu",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Infants ≥29 weeks gestational age initiated on CPAP in the delivery room or upon admission who require ≥0.25 FiO2.\n\nExclusion Criteria:\n\n* Infants requiring intubation prior to surfactant therapy\n* Infants with known severe congenital anomalies (including complex congenital he",
+            "endpoints": [
+              "Number of bradycardia and hypoxemia events during LISA procedure"
+            ],
+            "sponsor": "University of Texas Southwestern Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05065424"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02175901",
+            "title": "Prospective, Randomized Controlled Trial Comparing Amoxicillin and Metronidazole Based Bismuth-containing Quadruple Therapy With Amoxicillin and Clarithromycin Based Quadruple Therapy for First-line Helicobacter Pylori Eradication",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2014-07",
+            "completion_date": "2015-01",
+            "country": "China",
+            "enrollment": 215,
+            "brief_summary": "No trial has examined the the efficacy of amoxicillin and metronidazole based quadruple therapy for Helicobacter pylori treatment. The study aims to compare the effectiveness and safety of 14-day amoxicillin-/metronidazole-based quadruple regiment and classical quadruple regiment for Helicobacter pylori eradication.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants with non-investigated/functional dyspepsia or scarred peptic ulcer with indication of H pylori eradication treatment\n* Ability and willingness to participate in the study and to sign and give informed consent\n* confirmed H pylori infection by at least one of the f",
+            "endpoints": [
+              "Eradication rate of Helicobacter pylori"
+            ],
+            "sponsor": "Shanghai Jiao Tong University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT02175901"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01385098",
+            "title": "Preoperative Vitamin D Status and Efficacy of Therapeutic Vitamin D Supplementation Postoperatively in Bariatric Surgery Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2011-07",
+            "completion_date": "2015-09",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "As the use of bariatric surgery for treatment of extreme obesity adults continues to rise, clinicians must be aware of pre-existing nutritional deficiencies in overweight and obese patients. Nutritional deficiencies are common in patients undergoing bariatric surgery and these deficiencies should be detected and addressed early to avoid post-operative complications. To improve long-term outcomes following bariatric surgery, nutritional screening and prescribing appropriate supplementation to pre",
+            "eligibility_criteria": "Inclusion Criteria: Adult female obese patients undergoing either Roux-en Y gastric bypass or sleeve gastrectomy at The Methodist Hospital may participate in the study. Obese patients with a body mass index (BMI) \\> 40 or BMI \\>35 with a co-morbidity will be eligible.\n\n\\-\n\nExclusion Criteria:Subject",
+            "endpoints": [
+              "Vitamin D Concentrations, Pre Operative and Post Bariatric Surgery Following 12 Weeks of Vitamin D Supplementation"
+            ],
+            "sponsor": "The Methodist Hospital Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT01385098"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05356000",
+            "title": "Determine the Contribution of Paracellular GI Oxalate Absorption in Obese and Roux-en-Y Gastric Bypass Kidney Stone Patients",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-01-25",
+            "completion_date": "2026-08-02",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "This study aims to learn more about how oxalate, a compound found in many foods, may affect a person's chances of forming kidney stones. Active participation in this study will last for around one week.\n\nFor the first two days, subjects will be asked to eat a special diet at home. From Days 3-5, they will eat special meals delivered to their home from a research clinic at the University of Chicago. They will also collect 24-hour urine samples at home on Days 4 and 5. On Day 6, they will come in ",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPost-Roux-en-Y gastric bypass stone formers:\n\n* Age 18-70\n* Previous history of Roux-en-Y gastric bypass\n* History of at least one calcium-based kidney stone after surgery\n* Pre-protocol urine oxalate above the lab normal range (50mg/day)\n\nObese stone formers:\n\n* Age 18-70\n* Bod",
+            "endpoints": [
+              "Change in 24-hour urine oxalate from baseline to after 5 days on low oxalate diet (2 days on participant managed, 3 days on clinical research center prepared diet of 50mg/day)",
+              "Percent absorption of 13C2-oxalate from pre-load baseline (time 0) to 2, 4-, 6-, and 24-hour time points",
+              "Change in urine 13C2-oxalate from pre-load baseline (time 0) to 2, 4-, 6-, and 24-hour time points"
+            ],
+            "sponsor": "University of Chicago",
+            "url": "https://clinicaltrials.gov/study/NCT05356000"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01948245",
+            "title": "A Double Blinded, Randomized, Controlled Investigation of Taurolidine-citrate/Heparin Catheter Lock Solution Versus Heparin in Patients on Home Parenteral Nutrition With Previously Proven High Risk of Catheter Related Blood Stream Infections.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2013-10",
+            "completion_date": "2016-12",
+            "country": "Denmark",
+            "enrollment": 42,
+            "brief_summary": "The purpose of the investigation is to compare two catheter lock solutions (TaurolockTMHep100 and Heparin 100 IE/ml), on the occurence of catheter related blood stream infection, in patients with intestinal failure and a central venous access device for home parenteral nutrition.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with long-term intestinal failure who will receive PS at least 2 times /week over a subcutaneously tunneled single-lumen CVC (Hickman/Broviac) for at least one year.\n* Estimated life expectancy ≥1 year\n* Male or female patient aged 18 - 80 years\n* Patient is fully abl",
+            "endpoints": [
+              "Mean number of catheter related blood stream infections(CRBSI)/ 1000 catheter days in each group"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT01948245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05836402",
+            "title": "Low-Carbohydrate Dietary and Lifestyle Interventions for the Management of Long COVID-19 Syndrome: A Prospective and Interventional Randomized Controlled Pilot Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2023-09-14",
+            "completion_date": "2025-08-04",
+            "country": "United States",
+            "enrollment": 14,
+            "brief_summary": "Rationale: Hyper-inflammatory responses seen in acute COVID-19 are also a feature of long covid, a condition of long-term consequences that are persisting or appearing after initial infection and recovery from acute COVID-19. Long-standing, often disabling symptoms are common in long covid and can be highly varied. Common symptoms include fatigue, brain fog, muscle and chest pain, migraines, shortness of breath, anosmia, muscle weakness, and cognitive dysfunction. 35% of post-COVID patients were",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years of age or older.\n* Positive test result for SARS-CoV-2 (PCR or antigen test) at least 2 months prior to study entry.\n* At least two neurological and/or physical symptoms that are typical for long covid and that either started at COVID-19 infection and are ongoing at s",
+            "endpoints": [
+              "Feasibility of dietary intervention:",
+              "Safety signals for electrolytes",
+              "Safety signals for kidney function"
+            ],
+            "sponsor": "University of Southern California",
+            "url": "https://clinicaltrials.gov/study/NCT05836402"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04350346",
+            "title": "A Prospective, Randomized Controlled Trial of the Comparative Analysis Between Motilitone and Gasmotin for the Symptom Relief in Gallstone Patients With Functional Dyspepsia",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2020-03-25",
+            "completion_date": "2021-09",
+            "country": "South Korea",
+            "enrollment": 70,
+            "brief_summary": "* (Cause of cholelithiasis) Recently, the average age has increased, and the occurrence of gallstones has increased as the dietary life has been westernized due to the improvement of socio-economic level. When cholesterol increases, the occurrence of gallstones increases. Factors include high-calorie high-fat diet, increasing age, women, pregnant women, obesity, and oral contraceptives. There are cases. As another cause, gallstones occur well even when bile stasis occurs due to a decrease in mot",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. 19 years old to under 75\n2. Patients with dyspepsia in patients with cholelithiasis\n3. Patients who consented to this study and conducted questionnaires and tests during follow up\n\nExclusion Criteria:\n\n1. asymptomatic cholelithiasis\n2. Gallstones over 3cm\n3. Acute cholecystit",
+            "endpoints": [
+              "Check symptom improvement",
+              "Changes in serum concentrations of WBC count (10^3/µL), before and after the administration",
+              "Changes in serum concentrations of RBC count (10^6/µL), before and after the administration"
+            ],
+            "sponsor": "Yonsei University",
+            "url": "https://clinicaltrials.gov/study/NCT04350346"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03320538",
+            "title": "Efficacy and Safety of Hou Gu Mi Xi in Patients With Peptic Ulcer Diseases: A Multicenter, Randomized, Double-blinded, Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-07-10",
+            "completion_date": "2020-09-17",
+            "country": "China",
+            "enrollment": 360,
+            "brief_summary": "This trial aims to determine whether Jiangzhong Hou Gu® Mi Xi™ is an effective intervention to improve symptoms and indicators in patients with spleen qi deficiency and peptic ulcer diseases.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient should be diagnosed as gastric or duodenal ulcer under endoscope; the diameter of ulcers range from 0.3 to 1.0 cm; no indicator of bleeding or perforation.\n2. Patient should be diagnosed as syndrome of spleen qi deficiency, that is, meet 2 main symptoms of spleen defi",
+            "endpoints": [
+              "Total effective rate",
+              "Quality of ulcer healing",
+              "Changes in Spleen Qi Deficiency Symptoms Grading and Quantifying Scale (unit: score on a scale)"
+            ],
+            "sponsor": "Jiangxi University of Traditional Chinese Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT03320538"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07139951",
+            "title": "Prophylactic Hyperthermic IntraperitOneal Chemotherapy (p-HIPEC) for pRevention of perItONeal Recurrence in Gastric Cancer: MC240402 (HORIZON) Trial",
+            "phase": "PHASE2",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2025-12-03",
+            "completion_date": "2031-11-03",
+            "country": "United States",
+            "enrollment": 16,
+            "brief_summary": "This phase II trial tests how well concentrating heated (hyperthermic) chemotherapy in the area that contains the abdominal organs (intraperitoneal \\[IP\\]) at the time of surgery works in treating patients with gastric or gastroesophageal junction adenocarcinoma at high risk of the cancer coming back to the abdominal cavity (peritoneal) after a period of improvement (recurrence). Recurrence in the peritoneum often occurs within the first 18 months after surgery. This is thought to be due to tumo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 18 and ≤ 80 years\n* Histological confirmation of adenocarcinoma of the stomach or gastroesophageal junction (GEJ) (Siewert type II or III)\n* Tumor index (TI) ≥ 90 (T stage multiplied by the largest tumor diameter in mm on endoscopic ultrasound \\[EUS\\]). Patients with lin",
+            "endpoints": [
+              "Peritoneal Recurrence-free Survival"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT07139951"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00985608",
+            "title": "Efficacy of Acetilcysteine in 'Rescue' Therapy for Helicobacter Pylori Infection. Pilot Study",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2009-04",
+            "completion_date": "2009-09",
+            "country": "Italy",
+            "enrollment": 40,
+            "brief_summary": "H pylori gastric infection is one of the most prevalent infectious diseases worldwide. The discovery that most upper gastrointestinal diseases are related to H pylori infection and therefore can be treated with antibiotics is an important medical advance. Currently, a first-line triple therapy based on proton pump inhibitor (PPI) or ranitidine bismuth citrate (RBC) plus two antibiotics (clarithromycin and amoxicillin or nitroimidazole) is recommended by all consensus conferences and guidelines. ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Both genders\n* Age \\> 18 years\n* Persistent infection from Helicobacter pylori, at gastroscopy or 13C urea breath test, after at least two antibiotic unsuccessful eradication attempts\n\nExclusion Criteria:\n\n* Verified allergies to the acetylcysteine or to the antibiotics to cur",
+            "endpoints": [
+              "To evaluate the usefulness of NAC as pre-treatment attempt associated with a culture-guided antibiotic therapy as rescue therapy after multi-attempts antibiotic failure"
+            ],
+            "sponsor": "Catholic University of the Sacred Heart",
+            "url": "https://clinicaltrials.gov/study/NCT00985608"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04329494",
+            "title": "Safety and Efficacy of Pressurized Intraperitoneal Aerosolized Chemotherapy (PIPAC) in Ovarian, Uterine, Appendiceal, Colorectal, and Gastric Cancer Patients With Peritoneal Carcinomatosis (PC)",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2020-08-21",
+            "completion_date": "2028-01-05",
+            "country": "United States",
+            "enrollment": 49,
+            "brief_summary": "This phase I trial studies the side effects of pressurized intraperitoneal aerosol chemotherapy (PIPAC) in treating patients with ovarian, uterine, appendiceal, stomach (gastric), or colorectal cancer that has spread to the lining of the abdominal cavity (peritoneal carcinomatosis). Chemotherapy drugs, such as cisplatin, doxorubicin, oxaliplatin, leucovorin, fluorouracil, mitomycin, and irinotecan, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented informed consent of the participant and/or legally authorized representative\n* Patients must have histologically confirmed ovarian, uterine, gastric, appendiceal or colorectal cancer with PC\n* Prior IP chemotherapy is permitted\n* Eastern Cooperative Oncology Group (",
+            "endpoints": [
+              "Dose limiting toxicities",
+              "Incidence of adverse events"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04329494"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04213794",
+            "title": "A Prospective Study of Heated Intra-Peritoneal Chemotherapy (H.I.P.E.C.) With Doxorubicin and Cisplatin in Pediatric Patients With Pelvic and Abdominal Tumors. The TOAST IT Trial (Trial Of Adjuvant Surgical Treatment With Intraperitoneal Chemotherapy)",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2019-11-08",
+            "completion_date": "2024-10-03",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "This early phase I trial studies how well heated intra-peritoneal chemotherapy with doxorubicin and cisplatin work for the treatment of abdominal or pelvic tumors that can be removed by surgery (resectable), does not respond to treatment (refractory), or has come back (recurrent). Heated intra-peritoneal chemotherapy is a procedure performed in combination with abdominal surgery for cancer that has spread to the abdomen. It involves the infusion of a heated chemotherapy solution that circulates ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have resectable, primary refractory or recurrent intra-abdominal or pelvic tumors based on imaging studies with measurable disease (\\>= 1 cm in 2 perpendicular planes), or primary tumor with peritoneal implants in whom no known other curative treatment exists, an",
+            "endpoints": [
+              "Incidence of adverse events of cytoreductive surgery (CRS) with heated intra-peritoneal chemotherapy (HIPEC) in this patient population"
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT04213794"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06510010",
+            "title": "Perioperative Oxaliplatin With S-1 Combined H. Pylori Eradication in the Management of Locally Advanced Adenocarcinoma of the Gastric and Oesophagogastric Junction: an Open-label, Prospective, Multicenter, Randomised, Phase 2 Trial.",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-12-31",
+            "completion_date": "2027-07-31",
+            "country": "China",
+            "enrollment": 198,
+            "brief_summary": "This study focuses on patients with H. pylori-positive resectable locally advanced adenocarcinoma of the gastric and oesophagogastric junction. It evaluates the perioperative oxaliplatin with S-1 (SOX) combined H. pylori eradication versus oxaliplatin with S-1 in the management of H. pylori-positive locally advanced adenocarcinoma of the gastric and oesophagogastric junction (cT3/4a Nx or T2 N2/3, M0) , assessing their values and advantages.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. have been fully informed about the study and voluntarily signed the informed consent form (ICF);\n2. Gastroscopy pathology confirmed locally advanced adenocarcinoma of the gastric and oesophagogastric junction (Siewert type I-III);\n3. Clinical (enhanced CT, enhanced MRI, or PE",
+            "endpoints": [
+              "major pathological response (MPR)"
+            ],
+            "sponsor": "Sixth Affiliated Hospital, Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT06510010"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01739231",
+            "title": "Safety, Reactogenicity, Tolerability, Immunogenicity and Efficacy of Live Attenuated ETEC ACE527 Vaccine Administered Alone or With a Double Mutant E. Coli Heat Labile Toxin (dmLT) in Healthy Adult Volunteers",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2012-09",
+            "completion_date": "2014-01",
+            "country": "United States",
+            "enrollment": 81,
+            "brief_summary": "This is a research study about an experimental (investigational) oral ETEC vaccine (ACE527). ACE527 is a live attenuated vaccine that is being made to prevent disease from enterotoxigenic Escherichia coli (ETEC), which causes watery diarrhea, largely in children living in developing countries and in travelers to those countries. This research study is also testing an investigational adjuvant called dmLT. An adjuvant is something that is added to a vaccine to make it work better. The purpose of t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male and female healthy adults between 18 and 50 years of age at the time of enrollment.\n2. General good health, without clinically significant medical history, physical examination findings or clinical laboratory abnormalities per clinical judgment of PI.\n3. Negative pregnan",
+            "endpoints": [
+              "Part A: Number of Serious Adverse Events and Adverse Events Leading to Withdrawal",
+              "Part A: Number of Participants Experiencing Unsolicited Adverse Events, by Severity and Relationship to Vaccination",
+              "Part A: Number of Solicited Reactions"
+            ],
+            "sponsor": "PATH",
+            "url": "https://clinicaltrials.gov/study/NCT01739231"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03299725",
+            "title": "A Prospective Open-label Study on Efficacy and Tolerability of Colloidal Bismuth Sub-citrate as Adjunctive Therapy to a Combination of Esomeprazole, Amoxicillin and Metronidazole for 10 Days for Helicobacter Pylori Elimination in Children",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2017-11-24",
+            "completion_date": "2019-11",
+            "country": "Belgium",
+            "enrollment": 120,
+            "brief_summary": "Helicobacter pylori infection causes chronic gastritis, peptic ulcer disease and is involved in the development of gastric cancer.\n\nCurrent accepted strategies to eliminate the infection in children are a 10 days sequential treatment (proton pump inhibitor + amoxicillin 5 days followed by proton pump inhibitor + metronidazole + clarithromycin 5 days) or a triple therapy 14 days (proton pump inhibitor + amoxicillin + clarithromycin or metronidazole).\n\nHowever, there is a concern due to the growin",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Paediatric subjects aged 6 to 17 years of either gender\n* Body weight ≥ 20kg.\n* Helicobacter pylori gastritis confirmed by positive histology and culture with antimicrobial susceptibility testing.\n* Antral and corpus biopsies must have been taken for histology and culture duri",
+            "endpoints": [
+              "13C-urea breath test"
+            ],
+            "sponsor": "Queen Fabiola Children's University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT03299725"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04721964",
+            "title": "Evaluation of the Effects of Routine Iron Supplementation in Children on Gastrointestinal Iron Losses.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-02-25",
+            "completion_date": "2021-06-16",
+            "country": "Kenya",
+            "enrollment": 24,
+            "brief_summary": "Iron deficiency anaemia (IDA) is common among infants and young children in sub-Saharan Africa.Oral iron administration is usually recom-mended as cost effective measure to prevent and treat iron deficiency (ID) and IDA during childhood. In Kenya, national nutrition policies for anaemia prevention recommend a daily dose of 3-6 mg ele-mental iron per kg body weight if a child is diagnosed with anaemia.\n\nUsing a novel technology, recent research found increased iron losses during iron supplementat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participation in former Fe\\_HMO\\_GOS study (JKUAT/IERC No. 301019) or INSPIRE study (JKUAT/IERC No. JKU/2/4/896B).\n* Mildly to moderately anaemic defined as 9.0 g/dL ≤ Hb \\< 11 g/dL.\n* Iron deficiency defined as ZPP \\>80μmol/mol.\n* Willingness of the caregiver to participate i",
+            "endpoints": [
+              "Fecal occult blood concentration",
+              "Fecal occult blood concentration",
+              "Fecal occult blood concentration"
+            ],
+            "sponsor": "Swiss Federal Institute of Technology",
+            "url": "https://clinicaltrials.gov/study/NCT04721964"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02513849",
+            "title": "A Pilot Study of Tamoxifen in Oesophageal Cancer",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "start_date": "2015-12",
+            "completion_date": "2018-11",
+            "country": "United Kingdom",
+            "enrollment": 20,
+            "brief_summary": "Cancer of the gullet (oesophagus) is a lethal disease in which only 15% of patients survive 5 years once diagnosed. It is more common in men than women, and men appear to have a worse prognosis. One suggestion for this gender difference is the sex hormone oestrogen, which exerts its effect via oestrogen receptors. The role of oestrogen in breast cancer is well described, and antioestrogen medication such as tamoxifen, which blocks oestrogen receptors are in widespread and effective use. The role",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with oesophageal cancer who are not candidates for surgical resection or further chemotherapy.\n* Men aged 18 - 95.\n* Women aged 55 - 95.\n* Patients who have a biopsy specimen of the cancer stored in the laboratory from the time of diagnosis.\n* The patient agrees and i",
+            "endpoints": [
+              "A change in Ki67 expression following tamoxifen therapy, by comparing the pre- and post- tamoxifen biopsies"
+            ],
+            "sponsor": "University of Nottingham",
+            "url": "https://clinicaltrials.gov/study/NCT02513849"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04905147",
+            "title": "Randomized Controlled Trials of Efficacy of Mosapride on Recovery of Intestinal Motility After Elective Colorectal Cancer Surgery",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-07-01",
+            "completion_date": "2023-11-30",
+            "country": "Thailand",
+            "enrollment": 44,
+            "brief_summary": "Postoperative ileus (POI) is one of the most common causes of prolonged hospital stays after abdominal surgery. The pathophysiology of POI is multifactorial and complex.It is known to be associated with sympathetic neural reflexes,local and systemic inflammatory mediators,and changes invarious neural and hormonal transmitters.Sympathetic (adrenergic) hyperactivity results in reduction of propulsive motility,and an increase in sphinctertone.Parasympathetic (cholinergic) hypoactivity results in ad",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who are undergoing elective colorectal cancer surgery at Ramathibodi hospital both open and laparoscopic surgery.\n* Both male and female who age between 15 to 70 years old.\n* Physical status American Society of Anesthesiologists (ASA) classification1-2-3.\n\nExclusion C",
+            "endpoints": [
+              "Postoperative time to the first passage of flatus.",
+              "Postoperative time to the first passage of flatus.",
+              "Postoperative time to the first passage of flatus."
+            ],
+            "sponsor": "Mahidol University",
+            "url": "https://clinicaltrials.gov/study/NCT04905147"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06473493",
+            "title": "The Safety and Efficacy of Compound Alverine Citrate Soft Capsules in the Treatment of Portal Hypertension in Patients With Liver Cirrhosis: a Multicentre, Single-arm, Exploratory Trial s: a Multicentre, Single-arm, Exploratory Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-06",
+            "completion_date": "2025-03",
+            "country": "N/A",
+            "enrollment": 30,
+            "brief_summary": "Study Overall Design: This trial is a prospective, multi-center, single-arm, exploratory clinical study. Subjects who meet the inclusion criteria and do not meet the exclusion criteria will receive Compound Alverine Citrate Capsules (Lejiansu; specification: each capsule contains 60 mg of Alverine Citrate and 300 mg of Simethicone; produced by Laboratoires Mayoly Spindler, France) after signing the informed consent form. The dosage is 180 mg/day (1 capsule orally three times a day) for a treatme",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 18 and 80 years (inclusive), regardless of gender.\n* Patients diagnosed with cirrhosis through clinical evaluation, laboratory tests, imaging studies, and/or liver biopsy.\n* Hepatic venous pressure gradient (HVPG) ≥ 12 mmHg.\n* Willingness to participate and sign th",
+            "endpoints": [
+              "Safety assessment: the incidence of adverse events, serious adverse events, and adverse events leading to treatment discontinuation after treatment.",
+              "24-week response rate"
+            ],
+            "sponsor": "Shanghai Changzheng Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06473493"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04209933",
+            "title": "Comparison of Efficacy of Bismuth Potassium Citrate, Pectin Bismuth Capsules, and Pectin Bismuth Granules in the Treatment of Helicobacter Pylori (Hp) First-line Quadruple Regimen: a Multicenter, Randomized, Prospective, Comparative Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-05-25",
+            "completion_date": "2020-08-30",
+            "country": "China",
+            "enrollment": 240,
+            "brief_summary": "This study aims to compare efficacy and safety of bismuth-containing quadruple therapy（with rabeprazole amoxicillin clarithromycin）of different kinds of bismuth（Bismuth potassium citrate, pectin bismuth capsules, pectin bismuth particles）in H. pylori first-line eradication. It is hypothesized that different bismuth containing quadruple therapies have comparable eradication efficacy and safety. Patients with confirmed H. pylori positive status will be randomized to one of the treatments described",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age between 18\\~75,both gender.\n* Patients with upper gastrointestinal symptoms and with documented H.pylori infection.\n* Patients are willing to receive eradication treatment.\n* Women are eligible if they are not pregnant or nursing, and if they are of childbearing potential ",
+            "endpoints": [
+              "helicobacter pylori eradication"
+            ],
+            "sponsor": "Xijing Hospital of Digestive Diseases",
+            "url": "https://clinicaltrials.gov/study/NCT04209933"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06850480",
+            "title": "A Multicenter, Randomized, Double-blind, Double-simulated, Positive Parallel-control Phase III Clinical Trails of JP-1366（Zastaprazan Citrate） Tablets and Nexium® on Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-12-05",
+            "completion_date": "2025-04-30",
+            "country": "China",
+            "enrollment": 356,
+            "brief_summary": "To evaluate the efficacy and safety of JP-1366 tablets and Nexium® (Esomeprazole magnesium enteric-coated tablets) in subjects with reflux esophagitis.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Voluntarily participate and sign a written informed consent form, and be able to understand the information provided and comply with the program requirements;\n2. Age between 18-75 years old (including boundary values) during screening, both male and female are acceptable.\n3. ",
+            "endpoints": [
+              "Percentage of subjects with esophageal mucosal healing confirmed by upper gastrointestinal endoscopy within 8 weeks of treatment"
+            ],
+            "sponsor": "Livzon Pharmaceutical Group Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06850480"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03452696",
+            "title": "Clinical Trial to Evaluate the Gastric Tolerability and Efficacy of the Food Supplement of Microencapsulated Calcium Carbonate vs Conventional Calcium Carbonate and Calcium Citrate",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2018-06-15",
+            "completion_date": "2019-04-03",
+            "country": "Spain",
+            "enrollment": 208,
+            "brief_summary": "Interventional Clinical trial with food supplement, randomized, double-blind, comparative between microencapsulated calcium, calcium carbonate salts standardized and calcium citrate, in a population of postmenopausal women, lasting 1 month.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Postmenopausal woman\n* Low contribution of elemental calcium in the daily diet\n\nExclusion Criteria:\n\n* Hypersensitivity to the active substances or to any of the excipients\n* Renal insufficiency\n* History of kidney or urinary stones\n* Use in the last month of diuretics (furose",
+            "endpoints": [
+              "Gastric symptoms"
+            ],
+            "sponsor": "Instituto Palacios",
+            "url": "https://clinicaltrials.gov/study/NCT03452696"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01219023",
+            "title": "Treatment of Palmar Plantar Erythrodysesthesia (PPE) With Topical Sildenafil",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-06",
+            "completion_date": "2012-04",
+            "country": "United States",
+            "enrollment": 10,
+            "brief_summary": "Hand-foot syndrome (HFS), also known as palmar-plantar erythrodysethesia (PPE), occurs in a 25%-50% of patients treated with several commonly used anti-cancer drugs including capecitabine and sunitinib. These drugs are known to improve survival in many cancers, including cancers of the colon, stomach, liver, breast, kidney, and GI stromal tumors (GIST). Worldwide, over 400,000 patients per year are treated with one of these agents. HFS involves skin changes, such as swelling, peeling, and bliste",
+            "eligibility_criteria": "Inclusion Criteria:\n\nSubjects must meet the following criteria to be eligible for the study:\n\n1. Receiving capecitabine or sunitinib as part of routine standard care.\n2. CTCAE version 4.0, grade 1-3 PPE.\n3. Adults age ≥ 18\n4. Karnofsky (KPS) performance status of ≥70%\n5. Adequate organ and marrow fu",
+            "endpoints": [
+              "Grade of hand foot syndrome over time as measured by NCI CTC version 4.0 PPE syndrome criteria",
+              "Assessment of patient reported pain, at rest and when making a fist, using a 1-10 score.",
+              "Assessment of severity of erythema and desquamation or blistering as measured on 0-4 score from photographs."
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT01219023"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06470386",
+            "title": "The Efficacy and Safety of Compound Alverine Citrate Soft Capsules in the Treatment of Portal Hypertension in Patients With Liver Cirrhosis: a Prospective, Open-label, Multicentre, Randomised Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-06",
+            "completion_date": "2025-11",
+            "country": "N/A",
+            "enrollment": 178,
+            "brief_summary": "Study Overall Design:\n\nThis trial is a prospective, open-label, multicenter, randomized controlled clinical trial. Subjects who meet the inclusion criteria and do not meet the exclusion criteria will be randomly assigned to either the Alverine treatment group or the Carvedilol treatment group in a 1:1 ratio after signing the informed consent form. After randomization, participants will enter a 24-week medication period. Apart from the baseline period, the efficacy of the treatment will be evalua",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age 18 to 80 years (inclusive), regardless of gender.\n2. Patients with cirrhosis confirmed by clinical, laboratory, imaging examinations, and/or liver biopsy.\n3. Hepatic venous pressure gradient (HVPG) ≥ 10 mmHg.\n4. Agree to participate and sign the informed consent form.\n\nEx",
+            "endpoints": [
+              "The response rate.",
+              "Safety assessment."
+            ],
+            "sponsor": "Shanghai Changzheng Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06470386"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04095975",
+            "title": "Effectiveness of Prescription vs. Non-prescription Urinary Alkalinizing Agents on Kidney Stone Risk",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2019-08-28",
+            "completion_date": "2021-06-24",
+            "country": "United States",
+            "enrollment": 31,
+            "brief_summary": "Randomized treatment trial of baking soda or LithoLyte to determine if baking soda and Litholyte are effective in raising 24 hour urine citrate and pH.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Must be suitable for the study per clinical judgement of study team members\n* Patient in the UW Health University Hospital Urology Clinic or the Metabolic Stone Clinic\n* Had at least one kidney stone event\n* Greater than or equal to 18 years of age\n* 24 hour urine citrate is l",
+            "endpoints": [
+              "Change in 24 hour urine citrate",
+              "Change in 24 hour urine pH"
+            ],
+            "sponsor": "University of Wisconsin, Madison",
+            "url": "https://clinicaltrials.gov/study/NCT04095975"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02891447",
+            "title": "A Phase II Study of Cytoreduction, Gastrectomy, and Hyperthermic Intraperitoneal Chemoperfusion (HIPEC) in Patients With Gastric Adenocarcinoma and Carcinomatosis or Positive Cytology",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-09-01",
+            "completion_date": "2023-04-11",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This phase II trial studies how well heated mitomycin and cisplatin during surgery work in treating patients with stomach or gastroesophageal cancer. Drugs used in chemotherapy, such as mitomycin and cisplatin, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Heating a chemotherapy solution and infusing it directly into the abdomen may kill more tumor cells.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Eastern Cooperative Oncology Group (ECOG) performance status =\\< 2\n* Cytologic or histologic proof of adenocarcinoma of the stomach or gastroesophageal junction\n* Leukocytes \\>= 3,000/uL\n* Absolute neutrophil count \\>= 1,500/uL\n* Platelets \\>= 60,000/Ul\n* Serum creatinine =\\< ",
+            "endpoints": [
+              "Overall Survival"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02891447"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05172245",
+            "title": "Phase 1/1b Study of AKT Inhibitor Ipatasertib With Chemoradiation for Locally Advanced Head and Neck Cancer",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2022-09-19",
+            "completion_date": "2026-06-01",
+            "country": "Canada, United States",
+            "enrollment": 46,
+            "brief_summary": "This phase I/Ib trial tests the safety and best dose of ipatasertib in combination with the usual treatment approach using chemotherapy together with radiation therapy (\"chemo-radiation\") in patients with head and neck cancer. Ipatasertib is in a class of medications called protein kinase B (AKT) inhibitors. It may stop the growth of tumor cells and may kill them. Cisplatin, which is a chemotherapy used in this trial, is in a class of medications known as platinum-containing compounds. It works ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have pathologically confirmed HNSCC (including tumors of the oropharynx, hypopharynx, larynx, oral cavity, nasal cavity, maxillary and other paranasal sinuses, and unknown primary of the head and neck), with measurable disease as per RECIST 1.1\n* Oropharyngeal an",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) and recommended phase 2 dose of ipatasertib in combination with definitive chemo-radiation"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05172245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01667718",
+            "title": "Levofloxacin-containing Therapy for Helicobacter Pylori Treatment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2012-05",
+            "completion_date": "2012-10",
+            "country": "China",
+            "enrollment": 161,
+            "brief_summary": "To examine and compare the efficacy of 2 week Levofloxacin-containing therapies with and without Bismuth for H.pylori treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients who presented with upper gastrointestinal symptoms and endoscopically proven H.pylori-positive functional dyspepsia and scarred peptic ulcer\n\nExclusion Criteria:\n\n* patients with peptic ulcer, previous H.pylori eradication therapy, previous gastric surgery, pregnancy,",
+            "endpoints": [
+              "eradication rate of Helicobacter pylori"
+            ],
+            "sponsor": "Shanghai Jiao Tong University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT01667718"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05596071",
+            "title": "Whether Opioids Are Factor That Induced Postoperative Delirium?",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-06-25",
+            "completion_date": "2020-12-31",
+            "country": "China",
+            "enrollment": 130,
+            "brief_summary": "The purpose of this study was to investigate whether perioperative use of low doses of opioids could reduce postoperative delirium .",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients' age ≥65 years\n* Underwent elective radical gastrectomy\n\nExclusion Criteria:\n\n* Mini-Mental Scale Test (MMSE) Exclusion criteria: illiteracy \\<18, primary school \\<21, junior school and above \\<25\n* Preoperative clear systems and spiritual history of neurological dise",
+            "endpoints": [
+              "Incidence of postoperative delirium",
+              "Incidence of postoperative delirium"
+            ],
+            "sponsor": "Zhejiang Cancer Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT05596071"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06826443",
+            "title": "A Comparative Evaluation of Mosapride Versus Metoclopramide for Enteral Feeding Intolerance in Critically Ill Patients",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-02",
+            "completion_date": "2025-05",
+            "country": "Egypt",
+            "enrollment": 100,
+            "brief_summary": "Caring for critically ill patients in an intensive care unit (ICU) is considered a standard of care. According to the Society of Critical Care Medicine (SCCM), as a function of the complex nature of the care provided in the ICU, the ideal method to provide support to the critically ill involves the participation of a multi-professional staff.\n\nProvision of nutrition support to the critically ill is now established as an essential part of patient care where aiming toward 100% of the predicted tar",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients aging between 18 and 60 years (of both sexes)\n* Patients admitted to the ICU and are expected to stay in the ICU for not less than 7 days\n* Patients prescribed enteral feeding.\n\nExclusion Criteria:\n\nThe following patients are\n\n* Age less than 18 years or more than 60 ",
+            "endpoints": [
+              "Gastric residual volume will be measured by ultrasonography"
+            ],
+            "sponsor": "Ain Shams University",
+            "url": "https://clinicaltrials.gov/study/NCT06826443"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02830789",
+            "title": "Investigation of the Optimal Calcium Supplement Following Roux-en-Y Gastric Bypass in Order to Treat Secondary Hyperparathyroidism: A Clinical Randomized Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-12",
+            "completion_date": "2017-05",
+            "country": "Denmark",
+            "enrollment": 38,
+            "brief_summary": "This study investigates whether calcium citrate or calcium carbonate are the optimal supplement to treat secondary hyperparathyroidism following Roux-en-Y gastric bypass operation.\n\nHalf of the participants will be randomized to receive calcium citrate, while the other half will receive calcium carbonate. The study will be double blinded.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Roux-en-Y gastric bypass operation ≥12 months ago\n* Parathyroid hormone \\> 6.9 pmol/l\n* Vitamin D \\> 50 nmol/l\n* P-Calcium \\[1.18-1.32\\] mmol/l\n\nExclusion Criteria:\n\n* Liver disease\n* Renal disease\n* Hypercalcemia\n* Untreated thyroid disease\n* Parathyroid disease except second",
+            "endpoints": [
+              "Parathyroid Hormone"
+            ],
+            "sponsor": "University of Aarhus",
+            "url": "https://clinicaltrials.gov/study/NCT02830789"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35934181",
+            "title": "5-aminolevulinic acid and sodium ferrous citrate decreased cell viability of gastric cancer cells by enhanced ROS generation through improving COX activity.",
+            "abstract": "Mitochondrial dysfunctions are related to cancer development.. 5-aminolevulinic acid (ALA) is used for photodynamic therapy (PDT). In this PDT, protoporphyrin IX (PpIX), which is converted from ALA, can generate reactive oxygen species (ROS) that kill the cancer cell. ALA is also reported to promote cytochrome c oxidase (COX) activity, which can generate ROS itself. Therefore, this study focused on the effect of ALA during PDT. In addition, in the previous study, sodium ferrous citrate (SFC) is reported to increase COX activity. So, this study also aims to improve the COX activity by the addition of SFC that can promote ROS generation, which has a cytotoxic effect.",
+            "journal": "Photodiagnosis and photodynamic therapy",
+            "year": "2022",
+            "authors": [
+              "Suprihadi Arif",
+              "Pustimbara Anantya",
+              "Ogura Shun-Ichiro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aminolevulinic Acid",
+              "Photochemotherapy",
+              "Cell Survival",
+              "Reactive Oxygen Species",
+              "Stomach Neoplasms",
+              "Protoporphyrins",
+              "Cell Line, Tumor",
+              "Photosensitizing Agents",
+              "Ferrous Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35934181/"
+          },
+          {
+            "pmid": "27163639",
+            "title": "3-Bromopyruvate and sodium citrate induce apoptosis in human gastric cancer cell line MGC-803 by inhibiting glycolysis and promoting mitochondria-regulated apoptosis pathway.",
+            "abstract": "Cancer cells are mainly dependent on glycolysis to generate adenosine triphosphate (ATP) and intermediates required for cell growth and proliferation. Thus, inhibition of glycolysis might be of therapeutic value in antitumor treatment. Our previously studies had found that both 3-bromopyruvate (BP) and sodium citrate (SCT) can inhibit tumor growth and proliferation in vitro and in vivo. However, the mechanism involved in the BP and SCT mediated antitumor activity is not entirely clear. In this work, it is demonstrated that BP inhibits the enzyme hexokinase (HK) activity and SCT suppresses the phosphofructokinase (PFK) activity respectively, both the two agents decrease viability, ATP generation and lactate content in the human gastric cancer cell line MGC-803. These effects are directly correlated with blockage of glycolysis. Furthermore, BP and SCT can induce the characteristic manifestations of mitochondria-regulated apoptosis, such as down-regulation of anti-apoptosis proteins Bcl-2",
+            "journal": "Biochemical and biophysical research communications",
+            "year": "2016",
+            "authors": [
+              "Guo Xingyu",
+              "Zhang Xiaodong",
+              "Wang Tingan",
+              "Xian Shulin",
+              "Lu Yunfei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Cell Line, Tumor",
+              "Citrates",
+              "Gastric Mucosa",
+              "Glycolysis",
+              "Humans",
+              "Mitochondria",
+              "Pyruvates",
+              "Sodium Citrate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27163639/"
+          },
+          {
+            "pmid": "26708213",
+            "title": "3-bromopyruvate and sodium citrate target glycolysis, suppress survivin, and induce mitochondrial-mediated apoptosis in gastric cancer cells and inhibit gastric orthotopic transplantation tumor growth.",
+            "abstract": "Glycolysis is the primary method utilized by cancer cells to produce the energy (adenosine triphosphate, ATP) required for cell proliferation. Therefore, inhibition of glycolysis may inhibit tumor growth. We previously found that both 3-bromopyruvate (3-BrPA) and sodium citrate (SCT) can inhibit glycolysis in vitro; however, the underlying inhibitory mechanisms remain unclear. In the present study, we used a human gastric cancer cell line (SGC-7901) and an orthotopic transplantation tumor model in nude mice to explore the specific mechanisms of 3-BrPA and SCT. We found that both 3-BrPA and SCT effectively suppressed cancer cell proliferation, arrested the cell cycle, induced apoptosis, and decreased the production of lactate and ATP. 3-BrPA significantly reduced the glycolytic enzyme hexokinase activity, while SCT selectively inhibited phosphofructokinase-1 activity. Furthermore, 3-BrPA and SCT upregulated the expression of pro-apoptotic proteins (Bax, cytochrome c, and cleaved caspase",
+            "journal": "Oncology reports",
+            "year": "2016",
+            "authors": [
+              "Wang Ting-An",
+              "Zhang Xiao-Dong",
+              "Guo Xing-Yu",
+              "Xian Shu-Lin",
+              "Lu Yun-Fei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphate",
+              "Animals",
+              "Apoptosis",
+              "Cell Proliferation",
+              "Citrates",
+              "Glycolysis",
+              "Humans",
+              "Inhibitor of Apoptosis Proteins",
+              "Injections, Intraperitoneal",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26708213/"
+          },
+          {
+            "pmid": "24659865",
+            "title": "What is the best strategy for successful bowel preparation under special conditions?",
+            "abstract": "Adequate bowel preparation is important for successful colonoscopic examination. Several effective colonic cleansing agents are available and routinely prescribed, but each carries its own limitations and benefits from particular dosing regimens. The most frequently prescribed colonic cleansing agent, the polyethylene glycol (PEG) cathartic solution, suffers from low patient compliance in general, due to its unpalatable taste and smell coupled with the large ingested volumes required. However, PEG is preferred over other cathartics for use in individuals of advanced age, sufferers of chronic kidney disease, heart failure and inflammatory bowel disease, and women who are pregnant or lactating. The laxative agents sodium phosphate (NaP) and sodium picosulfate plus magnesium citrate have been applied and have improved patient compliance and tolerance. NaP, however, should be avoided in individuals with impaired renal function or plasma clearance, such as those with chronic kidney disease,",
+            "journal": "World journal of gastroenterology",
+            "year": "2014",
+            "authors": [
+              "Lim Yun Jeong",
+              "Hong Su Jin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Cathartics",
+              "Chronic Disease",
+              "Colonoscopy",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24659865/"
+          },
+          {
+            "pmid": "12684814",
+            "title": "Immunohistochemical localization of sodium-potassium ATPase in human normal stomach and gastric adenocarcinomas.",
+            "abstract": "We studied the expression pattern of Na, K-ATPase beta 1 subunit in human normal stomachs and in gastric adenocarcinomas by using anti-Na, K-ATPase beta 1 subunit-specific monoclonal antibody. Tissue samples were processed in formalin solution or in a cold acetic acid-ethanol solution, routinely processed, embedded in paraffin, and an immunoperoxidase method for Na, K-ATPase beta 1 subunit was performed. After antigen retrieval using a steamer in citrate buffer (pH 6.0), tissue sections initially fixed in cold acetic acid-ethanol showed intense immunoreactivity with the antibody at the lateral or basolateral cytoplasmic membrane of normal gastric epithelial cells, at the cytoplasmic membrane of gastric carcinoma cells according to the level of differentiation, and at the cytoplasmic membrane and in the cytoplasm of Schwann cells and neurons in the mesenteric plexus of the gastric wall. Acetic acid-ethanol and paraffin embedding is a useful method for the investigation of the immunohist",
+            "journal": "Histochemistry and cell biology",
+            "year": "2003",
+            "authors": [
+              "Kobayashi Chujiro",
+              "Hayama Masayoshi",
+              "Harada Oi",
+              "Terasawa Fumiko",
+              "Okumura Nobuo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Gastric Mucosa",
+              "Humans",
+              "Immunoblotting",
+              "Immunoenzyme Techniques",
+              "Isoenzymes",
+              "Sodium-Potassium-Exchanging ATPase",
+              "Stomach",
+              "Stomach Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12684814/"
+          },
+          {
+            "pmid": "3013486",
+            "title": "Nuclear medicine and esophageal surgery.",
+            "abstract": "The principal radionuclide procedures involved in the evaluation of esophageal disorders that are amenable to surgery are illustrated and briefly described. The role of the radionuclide esophagogram (RE) in the diagnosis and management of achalasia, oculopharyngeal muscular dystrophy and its complications, tracheoesophageal fistulae, pharyngeal and esophageal diverticulae, gastric transposition, and fundoplication is discussed. Detection of columnar-lined esophagus by Tc-99m pertechnetate imaging and of esophageal carcinoma by Ga-67 citrate and Tc-99m glucoheptonate studies also is presented.",
+            "journal": "Clinical nuclear medicine",
+            "year": "1986",
+            "authors": [
+              "Taillefer R",
+              "Beauchamp G",
+              "Duranceau A C",
+              "Lafontaine E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Barrett Esophagus",
+              "Deglutition Disorders",
+              "Diverticulum, Esophageal",
+              "Esophageal Achalasia",
+              "Esophageal Diseases",
+              "Esophageal Neoplasms",
+              "Esophagus",
+              "Gallium Radioisotopes",
+              "Gastroesophageal Reflux",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3013486/"
+          },
+          {
+            "pmid": "25073632",
+            "title": "Education and Imaging. Gastroenterology: acute mucosal injury of esophagus and stomach induced by sodium picosulfate/magnesium citrate for bowel preparation.",
+            "abstract": "",
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2014",
+            "authors": [
+              "Suh Jung Pil",
+              "Choi Yong Sung",
+              "Lee Suk Hee"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Aged",
+              "Cathartics",
+              "Citrates",
+              "Citric Acid",
+              "Colonoscopy",
+              "Esophagus",
+              "Female",
+              "Gastric Mucosa",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25073632/"
+          },
+          {
+            "pmid": "29913138",
+            "title": "The Effect of Thiazide and Potassium Citrate Use on the Health Related Quality of Life of Patients with Urolithiasis.",
+            "abstract": "To our knowledge it is unknown whether the benefits of medical management of urolithiasis outweigh the potential side effects of the medications used, including potassium citrate and thiazide diuretics. Therefore, we evaluated the relationship between potassium citrate or thiazides and overall stone related health related quality of life.",
+            "journal": "The Journal of urology",
+            "year": "2018",
+            "authors": [
+              "Raffin Eric P",
+              "Penniston Kristina L",
+              "Antonelli Jodi A",
+              "Viprakasit Davis P",
+              "Averch Timothy D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Cohort Studies",
+              "Cross-Sectional Studies",
+              "Fatigue",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Potassium Citrate",
+              "Quality of Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29913138/"
+          },
+          {
+            "pmid": "10499455",
+            "title": "Onset of action of antisecretory drugs: beneficial effects of a rapid increase in intragastric pH in acid reflux disease.",
+            "abstract": "The majority of patients who have symptomatic acid reflux disease will have a normal oesophageal mucosa or will have only a mild degree of oesophagitis. Treatment to relieve symptoms as they occur may be the best way to manage these patients, to whom the speed of symptom relief is of primary importance. The effervescent complex used to formulate effervescent ranitidine contains sodium bicarbonate and monosodium citrate, and has, therefore, an intrinsic acid-neutralizing capacity in addition to the well-documented antisecretory activity.",
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1999",
+            "authors": [
+              "Pipkin G A",
+              "Mills J G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Gastric Acid",
+              "Gastric Mucosa",
+              "Gastroesophageal Reflux",
+              "Heartburn",
+              "Histamine H2 Antagonists",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Ranitidine",
+              "Stomach",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10499455/"
+          },
+          {
+            "pmid": "6489697",
+            "title": "Effect of sodium taurocholate on the human gastric mucosa at acid and neutral pH's.",
+            "abstract": "This study was conducted to determine whether taurocholate alters human gastric function and structure at a neutral pH, when ionized, and to contrast this with its effect at an acid intraluminal pH, when pronated. Five fasted healthy subjects were studied on 4 days in random order. Net ion fluxes, mucosal damage (as quantitated endoscopically), and potential difference were measured. The control solution instilled into the stomach in the first, third, and fourth 15-min periods contained 200 ml of 100 mM HCl, 54 mM mannitol, and [14C]polyethylene glycol. Taurocholate (10 mM) was added to the control solution (pH 1.1) or citrate buffer (pH 7.0) during the second 15-min period. The effect of citrate buffer alone or control solution alone was also tested. Because hydrogen and sodium fluxes could not be quantitated at pH 7 in the presence of citrate buffer, the net ion fluxes during the 15 min immediately after exposure to the test agent were measured. At both pH 1.1 and 7.0 taurocholate pr",
+            "journal": "Gastroenterology",
+            "year": "1984",
+            "authors": [
+              "Stern A I",
+              "Hogan D L",
+              "Isenberg J I"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Duodenogastric Reflux",
+              "Female",
+              "Gastric Acid",
+              "Gastric Mucosa",
+              "Gastroscopy",
+              "Humans",
+              "Hydrogen-Ion Concentration",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6489697/"
+          },
+          {
+            "pmid": "29115645",
+            "title": "Combined 18F-FDG PET/CT imaging and a gastric orthotopic xenograft model in nude mice are used to evaluate the efficacy of glycolysis-targeted therapy.",
+            "abstract": "As discovered by Warburg 80 years ago most malignant cells rely more on glycolysis than normal cells. The high rate of glycolysis provides faster ATP production and greater lactic acid for tumor proliferation and invasion, thus indicating a potential target in anticancer therapy. Our previous studies demonstrated that 3-bromopyruvate (3-BrPA) and sodium citrate (SCT) inhibited tumor cell proliferation in vitro. However, the underlying mechanisms still warrant further investigation. In the present study, we employed the human SGC-7901 gastric cancer cell line, built an orthotopic xenograft model in nude mice, examined the treatment response by 18F-FDG PET/CT and investigated the mechanisms of 3-BrPA and SCT in vivo. Our results demonstrated that glycolysis and tumor growth were inhibited by intraperitoneal injection of 3-BrPA and SCT, which were imaged using an 18F-FDG PET/CT scanner. In addition, apoptosis induced by 3-BrPA and SCT was initiated by the upregulation of Bax and downregul",
+            "journal": "Oncology reports",
+            "year": "2018",
+            "authors": [
+              "Wang Ting-An",
+              "Xian Shu-Lin",
+              "Guo Xing-Yu",
+              "Zhang Xiao-Dong",
+              "Lu Yun-Fei"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Citrates",
+              "Female",
+              "Fluorodeoxyglucose F18",
+              "Gene Expression Regulation, Neoplastic",
+              "Glycolysis",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29115645/"
+          },
+          {
+            "pmid": "32933720",
+            "title": "Expression of asprosin in rat hepatic, renal, heart, gastric, testicular and brain tissues and its changes in a streptozotocin-induced diabetes mellitus model.",
+            "abstract": "In this study, we aimed to investigate the presence of asprosin (ASP) in the liver, kidneys, heart, stomach, testicles and brain and to determine the serum and tissue asprosin levels in diabetic rats. A total of 14 male Wistar Albino rats were divided into two groups, each containing 7 rats: (I) control group and (II) experimental diabetes group. Control rats received no treatment and the rats in the experiment group received single-dose of streptozotocin (STZ) (50 mg/kg) dissolved in 0.1 M sodium citrate buffer (pH: 4.5) intraperitoneally. Serum levels of asprosin were measured using ELISA method. The presence of asprosin in hepatic, renal, cardiac, gastric, testicular and brain tissues was investigated using immunohistochemical staining. Asprosin was detected in hepatocytes in the liver, cortical distal tubule cells in the kidney, cardiomyocytes in heart, surface epithelial cells of stomach fundus, interstitial Leydig cells in testes and cortical neurons of the brain. Compared to con",
+            "journal": "Tissue & cell",
+            "year": "2020",
+            "authors": [
+              "Kocaman Nevin",
+              "Kuloğlu Tuncay"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Male",
+              "Blood Glucose",
+              "Body Weight",
+              "Brain",
+              "Diabetes Mellitus, Experimental",
+              "Disease Models, Animal",
+              "Epithelial Cells",
+              "Fibrillin-1",
+              "Hepatocytes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32933720/"
+          },
+          {
+            "pmid": "38114010",
+            "title": "Gastric acid-responsive deformable sodium alginate/Bletilla striata polysaccharide in situ gel for the protection and treatment of alcohol-induced peptic ulcers.",
+            "abstract": "First-line drugs for peptic ulcer (PU) treatment are typically limited by poor targeting and adverse effects associated with long-term use. Despite recent advancements in novel therapeutic approaches for PU, the development of sustained-release delivery systems tailored to specific pathological characteristics remains challenging. Persistent inflammation, particularly gastric inflammatory microenvironment imbalance, characterizes the PU. In this study, we prepared an in situ gel composed of sodium alginate, deacetylated gellan gum, calcium citrate, and Bletilla striata polysaccharide (BSP) to achieve sustained release of BSP. The BSP in situ gel demonstrated favorable fluidity in vitro and completed self-assembly in vivo in response to the acidic milieu at a pH of 1.5. Furthermore, the shear, extrusion, and deformation properties increased by 26.4 %, 103.7 %, and 46.3 %, respectively, with long-term gastric retention (4 h) and mucosal adaptation. Animal experiments confirmed that the B",
+            "journal": "International journal of biological macromolecules",
+            "year": "2024",
+            "authors": [
+              "Fan Yilin",
+              "Hong Ran",
+              "Sun Xiaoli",
+              "Luo Qiaomei",
+              "Wei Huilin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Alginates",
+              "Gastric Acid",
+              "Polysaccharides",
+              "Ethanol",
+              "Peptic Ulcer",
+              "Inflammation",
+              "Orchidaceae"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38114010/"
+          },
+          {
+            "pmid": "25794247",
+            "title": "Treatment of Severe Metabolic Alkalosis with Continuous Renal Replacement Therapy: Bicarbonate Kinetic Equations of Clinical Value.",
+            "abstract": "Concomitant severe metabolic alkalosis, hypernatremia, and kidney failure pose a therapeutic challenge. Hemodialysis to correct azotemia and abnormal electrolytes results in rapid correction of serum sodium, bicarbonate, and urea but presents a risk for dialysis disequilibrium and brain edema. We describe a patient with Zollinger-Ellison syndrome with persistent encephalopathy, severe metabolic alkalosis (highest bicarbonate 81 mEq/L), hypernatremia (sodium 157 mEq/L), and kidney failure despite 30 hours of intravenous crystalloids and proton pump inhibitor. We used continuous renal replacement therapy (RRT) with delivered hourly urea clearance of ~3 L/hour (24 hour sustained low efficiency dialysis with regional citrate anticoagulation protocol at blood flow rate 60 ml/min and dialysate flow rate 400 ml/min). To mitigate a pronounced decrease in plasma osmolality while removing urea from this hypernatremic patient, dialysate sodium was set to start at 155 mEq/L then at 150 mEq/L after",
+            "journal": "ASAIO journal (American Society for Artificial Internal Organs : 1992)",
+            "year": "2015",
+            "authors": [
+              "Yessayan Lenar",
+              "Yee Jerry",
+              "Frinak Stan",
+              "Kwon David",
+              "Szamosfalvi Balazs"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Alkalosis",
+              "Bicarbonates",
+              "Humans",
+              "Kinetics",
+              "Male",
+              "Models, Theoretical",
+              "Renal Replacement Therapy",
+              "Young Adult",
+              "Zollinger-Ellison Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25794247/"
+          },
+          {
+            "pmid": "25316860",
+            "title": "Effect of buffer on the immune response to trivalent oral poliovirus vaccine in Bangladesh: a community based randomized controlled trial.",
+            "abstract": "Polio eradication efforts have been hampered by low responses to trivalent oral poliovirus vaccine (tOPV) in some developing countries. Since stomach acidity may neutralize vaccine viruses, we assessed whether administration of a buffer solution could improve the immunogenicity of tOPV.",
+            "journal": "The Journal of infectious diseases",
+            "year": "2014",
+            "authors": [
+              "Chandir Subhash",
+              "Ahamed Kabir U",
+              "Baqui Abdullah H",
+              "Sutter Roland W",
+              "Okayasu Hiromasa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antibodies, Neutralizing",
+              "Antibodies, Viral",
+              "Bangladesh",
+              "Buffers",
+              "Citrates",
+              "Excipients",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25316860/"
+          },
+          {
+            "pmid": "1777551",
+            "title": "Protection from gastrointestinal side-effects by azapropazone by its incorporation into a glucose-sodium acid citrate formulation.",
+            "abstract": "Addition of glucose and sodium citrate to azapropazone, in proportions of 1:1:1 by weight reduced gastric mucosal damage in rats and there was a trend towards reduction in radiolabelled faecal red cell loss in human volunteers compared with that with azapropazone alone. The glucose and citrate did not affect the pharmacokinetics of azapropazone, or its therapeutic efficacy. While no difference was observed in endoscopic injury and in symptomatic gastrointestinal complaints in a multicentre comparison in rheumatic patients, a striking reduction in symptoms was observed in those patients with a history of severe gastrointestinal intolerance to non-steroidal anti-inflammatory drugs.",
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "1991",
+            "authors": [
+              "Rainsford K D",
+              "Dieppe P A",
+              "Pritchard M H",
+              "Rhodes J",
+              "Leach H"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Animals",
+              "Apazone",
+              "Arthritis, Rheumatoid",
+              "Citrates",
+              "Citric Acid",
+              "Endoscopy, Gastrointestinal",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1777551/"
+          },
+          {
+            "pmid": "1149036",
+            "title": "Pancreatic adenocarcinoma in inbred guinea pigs induced by n-methyl-N-nitrosourea.",
+            "abstract": "Long-term studies of the carcinogenicity of N-methyl-N-nitrosourea (MNU) in inbred guinea pigs were undertaken to develop an animal model of pancreatic adenocarcinoma. MNU, freshly, dissolved in 0.015 M sodium citrate buffer, pH 6.0, was administered by gavage once weekly at a dose of 10 mg/kg body weight to inbred strain 13 guinea pigs. By 27 weeks, 54% of guinea pigs given MNU weekly died, mostly due to severe atrophy and fatty metamorphosis of the exocrine acinar cells of the pancreas. Of 34 guinea pigs that survived more than 27 weeks of MNU administration, 10 (29%) developed pancreatic adenocarcinoma between 28 and 44 weeks. Other tumors included adenocarcinoma of the stomach (two animals) and of colon (one animal), lymphoma of mesenteric nodes (three animals), and a hepatoma (one animal). Atypical changes involving acinar cells were observed in certain pancreatic lobules and included ductular or pseudoductular transformation, acinar ectasia, increased mitotic activity, and periac",
+            "journal": "Cancer research",
+            "year": "1975",
+            "authors": [
+              "Reddy J K",
+              "Rao M S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adenocarcinoma",
+              "Animals",
+              "Disease Models, Animal",
+              "Female",
+              "Guinea Pigs",
+              "Intestinal Neoplasms",
+              "Lymphoma",
+              "Male",
+              "Mesentery",
+              "Methylnitrosourea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1149036/"
+          },
+          {
+            "pmid": "30186818",
+            "title": "Increased Duodenal Iron Absorption through Upregulation of Ferroportin 1 due to the Decrement in Serum Hepcidin in Patients with Chronic Hepatitis C.",
+            "abstract": "Hepatic iron accumulation is generally increased in the chronic hepatitis C (CHC) liver; however, the precise mechanism of such accumulation remains unclear. We evaluated iron absorption from the gastrointestinal tract of patients with CHC and control participants. We measured the expression of a panel of molecules associated with duodenal iron absorption and serum hepcidin levels to determine the mechanism of iron accumulation in the CHC liver. We enrolled 24 patients with CHC and 9 patients with chronic gastritis without Helicobacter pylori infection or an iron metabolism disorder as control participants. An oral iron absorption test (OIAT) was administered which involved a dosage of 100 mg of sodium ferrous citrate. Serum level of hepcidin-25 was measured by liquid chromatography-tandem mass spectrometry. Ferroportin 1 (FPN) mRNA was measured by RT-PCR and FPN protein was analyzed by western blot. Samples were obtained from duodenum biopsy tissue from each CHC patient and control pa",
+            "journal": "Canadian journal of gastroenterology & hepatology",
+            "year": "2018",
+            "authors": [
+              "Sato Masanori",
+              "Miyanishi Koji",
+              "Tanaka Shingo",
+              "Sakurada Akira",
+              "Sakamoto Hiroki"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Caco-2 Cells",
+              "Cation Transport Proteins",
+              "Chronic Disease",
+              "Duodenum",
+              "Female",
+              "Gastritis",
+              "Gene Expression",
+              "Hepatitis C, Chronic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30186818/"
+          },
+          {
+            "pmid": "31739258",
+            "title": "Tumor-specific design of PEGylated gadolinium-based nanoscale particles: Facile synthesis, characterization, and improved magnetic resonance imaging of metastasis lung cancer.",
+            "abstract": "Herein we report the synthesis and characterization of the antifouling Gadolinium oxide (Gd2O3) nanoparticles (NPs) modified with PEG with improved biocompatibility for MR imaging purposes. In this report, using the solvothermal decomposition of Gadolinium (III) in the presence of Na3cit, monitored by surface modification with PEG and L-Cys. The synthesized nanoparticles were confirmed by the TEM, DLS and UV-Visible spectroscopy. The morphological results show normal distance across of the flawless Gd2O3-PEG-Cys-NPs show 7.9 ± 0.4 nm, discretely, with a thin size exchange. This infers the surface adjustment does not obviously alteration the center size of the Gd2O3-NPs when contrasted with the perfect sodium citrate-balanced out Gd2O3-NPs. The Gd2O3-PEG-L-Cys-NPs are highly stable at room temperature, water dispersible and importantly less cytotoxic at high concentration of the NPs. The T1-weighted MR phantasm readings evidentially displayed that the formed PEG coated Gd2O3-PEG and Gd2",
+            "journal": "Journal of photochemistry and photobiology. B, Biology",
+            "year": "2020",
+            "authors": [
+              "Sui Yuan",
+              "Li Yuzhou",
+              "Li Yiming",
+              "Jin Hongrui",
+              "Zheng Yinshi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Biocompatible Materials",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Contrast Media",
+              "Cysteine",
+              "Gadolinium",
+              "Hemolysis",
+              "Humans",
+              "Lung Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31739258/"
+          },
+          {
+            "pmid": "7086102",
+            "title": "Most patients with active symptomatic duodenal ulcers fail to develop ulcer-type pain in response to gastroduodenal acidification.",
+            "abstract": "The most frequent symptom of duodenal ulcer is epigastric pain. However, the pathogenesis of duodenal ulcer pain is not established, although it is often attributed to duodenal acidification. The purpose of this study was to determine whether or not gastroduodenal acidification with either 400 ml of pH 1 citric acid or pH 0.85 hydrochloric acid resulted in ulcer-type pain in patients with endoscopically documented active symptomatic duodenal ulcer under doubled-blind randomized conditions. Thirteen consecutive male duodenal ulcer patients with daytime and nocturnal epigastric pain were studied before beginning medical therapy; five with citric acid or sodium citrate at pH's 1, 3, and 7, and eight with hydrochloric acid at pH 0.85 and pH 7 sodium citrate. Ten normal subjects served as controls. Four of the five symptomatic duodenal ulcer patients failed to have pain with the pH 1 citric acid, while one developed pain. Five of the eight patients tested with 0.15 mM hydrochloric acid had ",
+            "journal": "Journal of clinical gastroenterology",
+            "year": "1982",
+            "authors": [
+              "Harrison A",
+              "Isenberg J I",
+              "Schapira M",
+              "Hagie L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Citrates",
+              "Citric Acid",
+              "Double-Blind Method",
+              "Duodenal Ulcer",
+              "Humans",
+              "Hydrochloric Acid",
+              "Hydrogen-Ion Concentration",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7086102/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "postgastrectomy syndrome",
+        "txgnn_score": 0.9979156851768494,
+        "txgnn_rank": 3525,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastroduodenitis",
+        "txgnn_score": 0.9961563944816588,
+        "txgnn_rank": 5452,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33310102",
+            "title": "In situ decorated Au NPs on chitosan-encapsulated Fe3O4-NH2 NPs as magnetic nanocomposite: Investigation of its anti-colon carcinoma, anti-gastric cancer and anti-pancreatic cancer.",
+            "abstract": "Chitosan is a linear polysaccharide and non-toxic bioactive polymer with a wide variety of applications due to its functional properties such as ease of modification, and biodegradability. In this investigation, magnetic cores (Fe3O4) were synthesized using a fabrication method involving coprecipitation of Fe2+ and Fe3+. Then the magnetic nanoparticles were encapsulated by chitosan layers. In the next step, magnetite-gold composite nanoparticles were synthesized with spherical shapes and sizes ranging from 20 to 30 nm, using sodium citrate as a natural reducing agent. The morphological and physicochemical features of the material were determined using several advanced techniques like FT-IR, ICP analysis, FESEM, EDS, XRD, TEM, XPS and VSM. In the biological part of the present study, the cell viability of Fe3O4, HAuCl4, and Fe3O4@CS/AuNPs was very low against human colorectal carcinoma cell lines i.e. Ramos.2G6.4C10, HCT-8 [HRT-18], HCT 116, and HT-29, human gastric cancer cell lines i.",
+            "journal": "International journal of biological macromolecules",
+            "year": "2021",
+            "authors": [
+              "Wang Xinjie",
+              "Almoallim Hesham S",
+              "Cui Qingli",
+              "Alharbi Sulaiman Ali",
+              "Yang Hongli"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Chitosan",
+              "Chlorides",
+              "Dose-Response Relationship, Drug",
+              "Drug Compounding",
+              "Ferrosoferric Oxide",
+              "Gold Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33310102/"
+          },
+          {
+            "pmid": "7086102",
+            "title": "Most patients with active symptomatic duodenal ulcers fail to develop ulcer-type pain in response to gastroduodenal acidification.",
+            "abstract": "The most frequent symptom of duodenal ulcer is epigastric pain. However, the pathogenesis of duodenal ulcer pain is not established, although it is often attributed to duodenal acidification. The purpose of this study was to determine whether or not gastroduodenal acidification with either 400 ml of pH 1 citric acid or pH 0.85 hydrochloric acid resulted in ulcer-type pain in patients with endoscopically documented active symptomatic duodenal ulcer under doubled-blind randomized conditions. Thirteen consecutive male duodenal ulcer patients with daytime and nocturnal epigastric pain were studied before beginning medical therapy; five with citric acid or sodium citrate at pH's 1, 3, and 7, and eight with hydrochloric acid at pH 0.85 and pH 7 sodium citrate. Ten normal subjects served as controls. Four of the five symptomatic duodenal ulcer patients failed to have pain with the pH 1 citric acid, while one developed pain. Five of the eight patients tested with 0.15 mM hydrochloric acid had ",
+            "journal": "Journal of clinical gastroenterology",
+            "year": "1982",
+            "authors": [
+              "Harrison A",
+              "Isenberg J I",
+              "Schapira M",
+              "Hagie L"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Citrates",
+              "Citric Acid",
+              "Double-Blind Method",
+              "Duodenal Ulcer",
+              "Humans",
+              "Hydrochloric Acid",
+              "Hydrogen-Ion Concentration",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7086102/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial visceral myopathy",
+        "txgnn_score": 0.9941858053207396,
+        "txgnn_rank": 7220,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rosacea conjunctivitis",
+        "txgnn_score": 0.9926693439483644,
+        "txgnn_rank": 8488,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "allergic urticaria",
+        "txgnn_score": 0.991790771484375,
+        "txgnn_rank": 9183,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intestinal obstruction",
+        "txgnn_score": 0.988970160484314,
+        "txgnn_rank": 11298,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04161599",
+            "title": "Oral + Parenteral Antibiotic Prophylaxis Before Colonic Surgery With vs Without Mechanical Bowel Preparation: a Prospective, Multicentric, Randomised, Controlled Trial.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2022-03-01",
+            "completion_date": "2024-07",
+            "country": "Spain, United Kingdom, Italy, China, Russia, Greece",
+            "enrollment": 968,
+            "brief_summary": "The ORALEV Study found that preoperative oral antibiotics can reduce the incidence of surgical site infections after colonic resection, compared with no preparation.\n\nThe role of mechanical bowel preparation in patients needing colonic surgery is yet to be elucidated.\n\nNo randomised controlled trials have assessed the impact of mechanical bowel preparation combined with oral antibiotics on the incidence of surgical site infections after colonic surgery, compared with oral antibiotics only.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients of both genders, aged 18 years or above, with colonic disease without contraindications to surgical treatment, diagnosed with neoplasia or diverticular disease (diverticulosis with indication to elective surgery: stricture, chronic constipation), patients for whom a s",
+            "endpoints": [
+              "Rate of Wound infection"
+            ],
+            "sponsor": "Hospital Universitari Vall d'Hebron Research Institute",
+            "url": "https://clinicaltrials.gov/study/NCT04161599"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00672594",
+            "title": "Investigator-Initiated Pilot Study of Sunitinib Malate in Patients With Newly Diagnosed Prostate Cancer Prior to Prostatectomy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-07",
+            "completion_date": "2013-09",
+            "country": "United States",
+            "enrollment": 30,
+            "brief_summary": "The purpose of this study is to look at blood and tissue samples for changes following the use of Sunitinib malate. Additionally, we would like to find out if the drug, Sunitinib malate, is safe and works in men with prostate cancer. Sunitinib malate , also known as Sutent, is approved by the U.S. Food and Drug Administration (FDA), for treatment of tumors of intestines and kidney but it is being tested in research studies for use in men with prostate cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologic evidence of adenocarcinoma of the prostate deemed candidates for curative RRP\n* Intermediate or high risk, clinically localized disease\n* Adequate organ function\n* Patients must be surgically sterile or must agree to use effective contraception during the period of ",
+            "endpoints": [
+              "Change in Apoptotic Indices Before and After Treatment",
+              "Change in Proliferation Indices Before and After Treatment"
+            ],
+            "sponsor": "Duke University",
+            "url": "https://clinicaltrials.gov/study/NCT00672594"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05769894",
+            "title": "Is There an Association Between Non-cardiac Inflammatory Conditions and Dynamic Changes in Platelet Priming & Reactivity? A Prospective Observational Single Centre Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2023-04-01",
+            "completion_date": "2024-08-01",
+            "country": "N/A",
+            "enrollment": 100,
+            "brief_summary": "Non-cardiac acute and chronic inflammatory conditions are associated with high risk of acute myocardial infarction.\n\nSpecifically, there are reports of high prevalence of AMI and cardiac death in chronic conditions such as Rheumatoid arthritis, chronic gum disease, psoriasis and Chronic airway disease. Furthermore, there are intriguing temporal links between acute non-cardiac conditions, including fractured neck of femur and admission for chest infection in the elderly and subsequent risk of AMI",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients over 18 years of age.\n* Indication for inclusion:\n\nGroup 1 fractured neck of femur Group 2 age \\>70yrs with chest infection Group 3 healthy volunteers receiving COVID booster dose Group 4 Acute myocardial infarction within 6 weeks from suffering (Fracture neck of femu",
+            "endpoints": [
+              "Dynamic platelet reactivity with non-cardiac inflammation"
+            ],
+            "sponsor": "University Hospital Southampton NHS Foundation Trust",
+            "url": "https://clinicaltrials.gov/study/NCT05769894"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07097142",
+            "title": "The Phase III Adaptive Radiation and Chemotherapy for Muscle Invasive Bladder Cancer Trial (ARCHER)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2026-05-11",
+            "completion_date": "2030-05-31",
+            "country": "United States",
+            "enrollment": 486,
+            "brief_summary": "This phase III trial compares the effect of decreased number of radiation (ultra-hypofractionated) treatments to the usual radiation number of treatments (hypofractionation) with standard of care chemotherapy, with cisplatin, gemcitabine or mitomycin and 5-fluorouracil for the treatment of patients with muscle invasive bladder cancer. Hypofractionated radiation therapy delivers higher doses of radiation therapy over a short period of time. Ultra-hypofractionated radiation therapy delivers radiat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically proven, cT2-T3,N0M0 urothelial carcinoma of the bladder prior to randomization.\n\n  * Note: Patients with mixed urothelial carcinoma will be eligible for the trial, but the presence of small cell carcinoma will make a patient ineligible\n* Must undergo a transuret",
+            "endpoints": [
+              "Bladder-intact event-free survival (BI-EFS)"
+            ],
+            "sponsor": "NRG Oncology",
+            "url": "https://clinicaltrials.gov/study/NCT07097142"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00567567",
+            "title": "Phase III Randomized Trial of Single vs. Tandem Myeloablative Consolidation Therapy for High-Risk Neuroblastoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2007-11-05",
+            "completion_date": "2022-03-31",
+            "country": "Switzerland, Australia, Canada, New Zealand, United States, Puerto Rico",
+            "enrollment": 665,
+            "brief_summary": "This randomized phase III trial compares two different high-dose chemotherapy regimens followed by a stem cell transplant in treating younger patients with high-risk neuroblastoma. Drugs used in chemotherapy work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving combination chemotherapy before surgery may make the tumor smaller and reduce the amount of normal tissue that needs to be removed. Giving these treatments before a",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of neuroblastoma or ganglioneuroblastoma by histology or as evidenced by the presence of clumps of tumor cells in bone marrow and elevated catecholamine metabolites in urine meeting any of the following criteria:\n\n  * Patients with newly diagnosed neuroblastoma with ",
+            "endpoints": [
+              "Event-free Survival Rate",
+              "Response After Induction Therapy",
+              "Incidence Rate of Local Recurrence"
+            ],
+            "sponsor": "Children's Oncology Group",
+            "url": "https://clinicaltrials.gov/study/NCT00567567"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00369122",
+            "title": "A PHASE II STUDY OF BEVACIZUMAB IN COMBINATION WITH DEFINITIVE RADIOTHERAPY AND CISPLATIN CHEMOTHERAPY IN UNTREATED PATIENTS WITH LOCALLY ADVANCED CERVICAL CARCINOMA",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2006-08-11",
+            "completion_date": "2016-12-15",
+            "country": "Canada, United States",
+            "enrollment": 60,
+            "brief_summary": "This phase II trial is studying how well giving bevacizumab together with radiation therapy and cisplatin works in treating patients with previously untreated locally advanced cervical cancer. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Bevacizumab may also stop the growth of cervical cancer by blocking blood flo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically confirmed squamous cell, adenocarcinoma, or adenosquamous cell carcinoma of the uterine cervix, meeting 1 of the following stage criteria:\n\n  * Stage IIB-IIIB lymph nodes\n  * Stage IB-IIA disease with biopsy-proven pelvic node metastases and/or tumor size \\>= 5 ",
+            "endpoints": [
+              "Number of Subjects With Treatment-related Serious Adverse Events (SAEs) and Adverse Events (AEs) as Assessed by CTCAE v. 3.0 Criteria Within the First 90 Days From Treatment Start."
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00369122"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06844565",
+            "title": "Role of IL 12 and IL 23 as Potential Biomarkers in Diagnosis of Early Crohn's Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-01-01",
+            "completion_date": "2023-12-31",
+            "country": "Egypt",
+            "enrollment": 110,
+            "brief_summary": "This study aims to evaluate the role of Interleukin (IL)-12 and IL-23 as potential biomarkers in the diagnosis of early Crohn's disease.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age from 18 to 65 years.\n* Both sexes.\n* Patients who are suspected of having Crohn's disease clinically and by colonoscopy (like ulcers, fistulas, or skip lesions).\n* Non-specific ileitis by histopathology.\n\nExclusion Criteria:\n\n* Patients with no pathological samples through",
+            "endpoints": [
+              "Sensitivity of IL-23 to predict Crohn's disease"
+            ],
+            "sponsor": "Tanta University",
+            "url": "https://clinicaltrials.gov/study/NCT06844565"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01948245",
+            "title": "A Double Blinded, Randomized, Controlled Investigation of Taurolidine-citrate/Heparin Catheter Lock Solution Versus Heparin in Patients on Home Parenteral Nutrition With Previously Proven High Risk of Catheter Related Blood Stream Infections.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2013-10",
+            "completion_date": "2016-12",
+            "country": "Denmark",
+            "enrollment": 42,
+            "brief_summary": "The purpose of the investigation is to compare two catheter lock solutions (TaurolockTMHep100 and Heparin 100 IE/ml), on the occurence of catheter related blood stream infection, in patients with intestinal failure and a central venous access device for home parenteral nutrition.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with long-term intestinal failure who will receive PS at least 2 times /week over a subcutaneously tunneled single-lumen CVC (Hickman/Broviac) for at least one year.\n* Estimated life expectancy ≥1 year\n* Male or female patient aged 18 - 80 years\n* Patient is fully abl",
+            "endpoints": [
+              "Mean number of catheter related blood stream infections(CRBSI)/ 1000 catheter days in each group"
+            ],
+            "sponsor": "Rigshospitalet, Denmark",
+            "url": "https://clinicaltrials.gov/study/NCT01948245"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04329494",
+            "title": "Safety and Efficacy of Pressurized Intraperitoneal Aerosolized Chemotherapy (PIPAC) in Ovarian, Uterine, Appendiceal, Colorectal, and Gastric Cancer Patients With Peritoneal Carcinomatosis (PC)",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2020-08-21",
+            "completion_date": "2028-01-05",
+            "country": "United States",
+            "enrollment": 49,
+            "brief_summary": "This phase I trial studies the side effects of pressurized intraperitoneal aerosol chemotherapy (PIPAC) in treating patients with ovarian, uterine, appendiceal, stomach (gastric), or colorectal cancer that has spread to the lining of the abdominal cavity (peritoneal carcinomatosis). Chemotherapy drugs, such as cisplatin, doxorubicin, oxaliplatin, leucovorin, fluorouracil, mitomycin, and irinotecan, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented informed consent of the participant and/or legally authorized representative\n* Patients must have histologically confirmed ovarian, uterine, gastric, appendiceal or colorectal cancer with PC\n* Prior IP chemotherapy is permitted\n* Eastern Cooperative Oncology Group (",
+            "endpoints": [
+              "Dose limiting toxicities",
+              "Incidence of adverse events"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04329494"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04905147",
+            "title": "Randomized Controlled Trials of Efficacy of Mosapride on Recovery of Intestinal Motility After Elective Colorectal Cancer Surgery",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-07-01",
+            "completion_date": "2023-11-30",
+            "country": "Thailand",
+            "enrollment": 44,
+            "brief_summary": "Postoperative ileus (POI) is one of the most common causes of prolonged hospital stays after abdominal surgery. The pathophysiology of POI is multifactorial and complex.It is known to be associated with sympathetic neural reflexes,local and systemic inflammatory mediators,and changes invarious neural and hormonal transmitters.Sympathetic (adrenergic) hyperactivity results in reduction of propulsive motility,and an increase in sphinctertone.Parasympathetic (cholinergic) hypoactivity results in ad",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who are undergoing elective colorectal cancer surgery at Ramathibodi hospital both open and laparoscopic surgery.\n* Both male and female who age between 15 to 70 years old.\n* Physical status American Society of Anesthesiologists (ASA) classification1-2-3.\n\nExclusion C",
+            "endpoints": [
+              "Postoperative time to the first passage of flatus.",
+              "Postoperative time to the first passage of flatus.",
+              "Postoperative time to the first passage of flatus."
+            ],
+            "sponsor": "Mahidol University",
+            "url": "https://clinicaltrials.gov/study/NCT04905147"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07256171",
+            "title": "Cholesterol Optimization After Stroke: a Multicenter Prospective Study on LDL Cholesterol Control in Patients With Acute Stroke.",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-01-01",
+            "completion_date": "2026-12-31",
+            "country": "N/A",
+            "enrollment": 500,
+            "brief_summary": "This study (acronym COAST Trial) is a multicenter observational registry aiming to document: patients' adherence and persistence to lipid-lowering therapy prescribed for secondary prevention; the proportion of patients achieving LDL cholesterol therapeutic targets at 3 months; the incidence of cerebrovascular recurrence and mortality at 90 days, as well as the occurrence of any adverse effects from these therapies. This information will provide a snapshot of post-stroke/TIA lipid-lowering manage",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* • Recent acute cerebrovascular event, defined as a confirmed diagnosis of ischemic stroke, hemorrhagic stroke, or TIA occurring less than 30 days prior to enrollment.\n\n  * Availability of a baseline measured LDL cholesterol value (direct or calculated) at the time of the index",
+            "endpoints": [
+              "Adherence to lipid-lowering therapy"
+            ],
+            "sponsor": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+            "url": "https://clinicaltrials.gov/study/NCT07256171"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03593252",
+            "title": "Pre-Operative Mechanical Bowel Preparation And Prophylactic Oral Antibiotics For Pediatric Patients Undergoing Elective Colorectal Surgery: A Feasibility Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-01-01",
+            "completion_date": "2024-01-30",
+            "country": "N/A",
+            "enrollment": 81,
+            "brief_summary": "Infections after elective intestinal surgery remain a significant burden for patients and for the health care system. The cost of treating a single surgical site infection is estimated at approximately $27,000. In adult patients, there is good evidence that the combination of oral antibiotics and mechanical bowel preparation is effective at reducing infections after intestinal surgery. In children, the body of evidence is much weaker. In this population, little evidence exists for oral antibioti",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Pediatric patients aged three months to eighteen years being treated by the Pediatric General Surgery service at McMaster Children's Hospital.\n2. Undergoing elective colorectal surgery.\n3. Parents or legal guardian able to give free and informed consent.\n\nExclusion Criteria:\n",
+            "endpoints": [
+              "Feasibility (no. enrolled)",
+              "rate of post-randomization exclusions",
+              "Protocol deviations"
+            ],
+            "sponsor": "McMaster University",
+            "url": "https://clinicaltrials.gov/study/NCT03593252"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01805310",
+            "title": "Pre-operative Bowel Preparation Prior to Minimally Invasive Sacral Colpopexy",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2013-02",
+            "completion_date": "2017-08",
+            "country": "United States",
+            "enrollment": 95,
+            "brief_summary": "Prior to surgery, gynecologists and urogynecologists have routinely prescribed preoperative mechanical bowel preparations in attempts to decrease the risk of infection, while also providing easier bowel manipulation and better visualization during surgery. However, many of these proposed benefits have never been proven, and usage of bowel preparations amongst surgeons remains highly variable. In both the general surgery and gynecology literature, researchers have begun to question the need for t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Female\n* Age ≥ 18 years\n* Planned laparoscopic or robotic-assisted sacral colpopexy\n\nExclusion Criteria:\n\n* History of ulcerative colitis or Crohn's disease\n* Prior large or small bowel resection\n* Known diagnosis of gastroparesis\n* Prior pelvic radiation\n* History of abdomina",
+            "endpoints": [
+              "PAC-SYM"
+            ],
+            "sponsor": "University of Pittsburgh",
+            "url": "https://clinicaltrials.gov/study/NCT01805310"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04493125",
+            "title": "The Effect of Mosapride Citrate on Gastrointestinal Motility After Laparoscopic Gastrectomy: Prospective, Double Blind Placebo-controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-07-27",
+            "completion_date": "2021-03-30",
+            "country": "South Korea",
+            "enrollment": 104,
+            "brief_summary": "\"Mosapride citrate is a 5-hydroxytryptamine 4 receptor agonist, and is widely used as an agent to increase intestinal motility. Mosapride citrate has been demonstrated in in vitro and in vivo studies to increase both gastric and colon motility. In a case-control study of patients undergoing colonectomy, mosapride citrate was found to significantly reduce gas passing and defecation time.\n\nRecently, a study reported that mosapride citrate acts on the α7nACh receptor and, consequently, suppresses t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients diagnosed with gastric cancer pathologically before surgery\n2. Patients who underwent surgical resection (R0 resection)\n3. Patients with an ASA score of 3 or less\n\nExclusion Criteria:\n\n1. Patients over 80 years old\n2. When there are multiple or peritoneal metastases\n",
+            "endpoints": [
+              "The number of radiopaque markers transferred to the large intestine 3 days after surgery"
+            ],
+            "sponsor": "Gangnam Severance Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT04493125"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06689982",
+            "title": "Tofacitinib in Patients With Amyotrophic Lateral Sclerosis: A Proof-of-concept Clinical Trials",
+            "phase": "EARLY_PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-12-01",
+            "completion_date": "2026-06-01",
+            "country": "China",
+            "enrollment": 12,
+            "brief_summary": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease, of which motor-neuron's degeneration may be associated with neuroinflammation. Tofacitinib is a Janus kinase (JAK) inhibitor that affects cellular hematopoiesis and cellular immune function. At the same time, tofacitinib is suitable for rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis. This study is a single center, single arm, proof of concept, clinical trial study, and it is planned to use tofacitini",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years old≤ age≤ 75 years old, males or females;\n* Forced vital capacity ≥ 60% of predicted vital capacity during the screening period;\n* The diagnosis conforms to the diagnostic criteria for amyotrophic lateral sclerosis on the Gold Coast;\n* Based on the analysis of whether",
+            "endpoints": [
+              "Changes of ALSFRS-R scale scores in ALS patients"
+            ],
+            "sponsor": "Beijing Tiantan Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06689982"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "7671093",
+            "title": "Diagnosis and treatment of calcium kidney stones.",
+            "abstract": "Calcium oxalate nephrolithiasis is a common syndrome that recurs and may be complicated by infection, obstruction, bleeding, and rarely, impairment in renal function. The formation of Ca oxalate stones depends on the state of urinary supersaturation with respect to Ca and oxalate and the action of urinary inhibitors of crystal nucleation, aggregation, and growth. Idiopathic hypercalciuria is the most common cause of Ca oxalate stones and is characterized by hypercalciuria, normocalcemia, and intestinal Ca hyperabsorption with or without elevated serum 1,25(OH)2D3 levels in the absence of other known causes of hypercalciuria. Current diagnostic evaluation of recurrent Ca oxalate nephrolithiasis should be conducted while the patients follow their usual diets and includes the following: 1. Analysis of stone composition by polarization microscopy. 2. Measurement of serum Ca, phosphate, uric acid, 1,25(OH)2D3, and creatinine. 3. Twenty-four-hour urine collection for an analysis of volume, p",
+            "journal": "Advances in endocrinology and metabolism",
+            "year": "1995",
+            "authors": [
+              "Klugman V",
+              "Favus M J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Calcium",
+              "Humans",
+              "Kidney Calculi"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7671093/"
+          },
+          {
+            "pmid": "4398338",
+            "title": "The cause and prevention of postoperative intraperitoneal adhesions.",
+            "abstract": "",
+            "journal": "Surgery, gynecology & obstetrics",
+            "year": "1971",
+            "authors": [
+              "Ellis H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abdomen",
+              "Enzyme Therapy",
+              "Exudates and Transudates",
+              "Fibrin",
+              "Fibrinolytic Agents",
+              "Histamine H1 Antagonists",
+              "Humans",
+              "Hyaluronoglucosaminidase",
+              "Intestinal Obstruction",
+              "Ischemia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4398338/"
+          },
+          {
+            "pmid": "32564884",
+            "title": "Current practice of rapid sequence induction in adults: A national survey among anesthesiologists in Spain.",
+            "abstract": "Rapid sequence induction (RSI) in adults has undergone changes in recent years due to pharmacological and technological advances. The objective of this survey was to evaluate current practice among Spanish anesthesiologists.",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2020",
+            "authors": [
+              "Sastre J A",
+              "López T",
+              "Gómez-Ríos M A",
+              "Garzón J C",
+              "Mariscal M L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesiology",
+              "Health Care Surveys",
+              "Humans",
+              "Practice Patterns, Physicians'",
+              "Rapid Sequence Induction and Intubation",
+              "Spain"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32564884/"
+          },
+          {
+            "pmid": "12649986",
+            "title": "[Pathophysiology, diagnosis and conservative therapy in calcium kidney calculi].",
+            "abstract": "Annual incidences of kidney stones are about 0.1-0.4% of the population, and lifetime prevalences in the USA and Europe range between 8 and 15%. Kidney stones occur more frequently with increasing age and among men. Within ten years, the disease usually recurs in more than 50% of patients. Nowadays, about 85% of all kidney stones contain calcium salts (calcium oxalate and/or calcium phosphate) as their main crystalline components. Because human urine is commonly supersaturated with respect to calcium salts as well as to uric acid, crystalluria is very common, i.e. healthy people excrete up to ten millions of microcrystals every day. Recurrent stone formers appear to excrete lower amounts or structurally defective forms of crystallization inhibitors which allows for the formation of large crystal aggregates as precursors of stones. Alternatively, crystal adhesion to urothelial surfaces may be enhanced in stone formers. Medical treatment of renal colic is based on nonsteroidal antiinflam",
+            "journal": "Therapeutische Umschau. Revue therapeutique",
+            "year": "2003",
+            "authors": [
+              "Hess B"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Calcium Compounds",
+              "Crystallization",
+              "Female",
+              "Humans",
+              "Kidney Calculi",
+              "Male",
+              "Risk Factors",
+              "Secondary Prevention",
+              "Tissue Adhesions",
+              "Urothelium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12649986/"
+          },
+          {
+            "pmid": "19868847",
+            "title": "THE EFFECT OF INORGANIC SALTS ON THE CHEMICAL CHANGES IN THE BLOOD OF THE DOG AFTER OBSTRUCTION OF THE DUODENUM.",
+            "abstract": "The chemical changes in the blood of dogs treated with various inorganic salts after obstruction of the duodenum are reported. Two dogs treated with sodium chloride survived approximately six times as long as the average untreated animal, one living 22 days, the other 24 days. Ammonium chloride was found to produce an acidosis. The administration of potassium chloride, calcium chloride, and magnesium chloride did not prevent the usual rise in non-protein nitrogen and fall in chlorides, and the fatal outcome. Iodides seemingly hasten the toxic process. Sodium bromide appears to have an inhibitory action upon it, but much less than that of sodium chloride. Sodium sulfate, magnesium sulfate, sodium citrate, monosodium phosphate, and disodium phosphate failed to alter the course of the intoxication. Atropine and pilocarpine were without therapeutic value in preventing the changes characteristic of intestinal obstruction.",
+            "journal": "The Journal of experimental medicine",
+            "year": "1924",
+            "authors": [
+              "Haden R L",
+              "Orr T G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19868847/"
+          },
+          {
+            "pmid": "21234579",
+            "title": "Treatment of postoperative ileus with choline citrate--results of a prospective, randomised, placebo-controlled, double-blind multicentre trial.",
+            "abstract": "This was a prospective, randomised, placebo-controlled, double-blind multicentre trial to analyse the efficacy of choline citrate in patients with postoperative ileus (POI) after elective colorectal surgery.",
+            "journal": "International journal of colorectal disease",
+            "year": "2011",
+            "authors": [
+              "Herzog Torsten",
+              "Lemmens Hans P",
+              "Arlt Georg",
+              "Raakow Roland",
+              "Weimann Arved"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Choline",
+              "Demography",
+              "Double-Blind Method",
+              "Endpoint Determination",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21234579/"
+          },
+          {
+            "pmid": "17511291",
+            "title": "[Distigmine bromide improves chronic intestinal pseudo-obstruction in a case of MELAS].",
+            "abstract": "A 34-year-old man with MELAS (mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes) showed chronic intestinal pseudo-obstruction (CIPO), which was improved by the administration of distigmine bromide. He exhibited generalized tonic clonic seizures at the age of 21, and mitochondrial DNA analysis showed the MELAS mutation. At the age of 34, he became akinetic mutism after nonconvulsive status epilepticus and needed enteral nutrition through a nasogasrtic tube. However, he developed abdominal distention and vomiting, and was diagnosed as CIPO, therefore tube feeding was stopped. Although the administration of domperidone, mosapride citrate, butyric acid bacteria, sodium picosulfate, prostaglandin F2 alpha, pantothenic acid, dioctyl sodium sulfosuccinate, and so on, was ineffective, the administration of distigmine bromide improved his bowel motion disturbance and abnormal distention. The present case is the first MELAS patient with CIPO to be ameliorated by d",
+            "journal": "Rinsho shinkeigaku = Clinical neurology",
+            "year": "2007",
+            "authors": [
+              "Nakae Yoshiharu",
+              "Kishida Hitaru",
+              "Hakii Yasuhito",
+              "Koyano Shigeru",
+              "Suzuki Yume"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Chronic Disease",
+              "Humans",
+              "Intestinal Pseudo-Obstruction",
+              "MELAS Syndrome",
+              "Male",
+              "Pyridinium Compounds",
+              "Receptors, Cholinergic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17511291/"
+          },
+          {
+            "pmid": "20177092",
+            "title": "CT colonography after metallic stent placement for acute malignant colonic obstruction.",
+            "abstract": "To evaluate the feasibility of using computed tomographic (CT) colonography for preoperative examination of the proximal colon after metallic stent placement in patients with acute colon obstruction caused by colorectal cancer.",
+            "journal": "Radiology",
+            "year": "2010",
+            "authors": [
+              "Cha Eun-Young",
+              "Park Seong Ho",
+              "Lee Seung Soo",
+              "Kim Jin Cheon",
+              "Yu Chang Sik"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Aged",
+              "Colonic Neoplasms",
+              "Colonography, Computed Tomographic",
+              "Contrast Media",
+              "Female",
+              "Humans",
+              "Intestinal Obstruction",
+              "Iohexol",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20177092/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09154",
+    "name": "Sodium citrate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sodium citrate"
+      },
+      "queried_at": "2026-03-09T10:59:21.933110",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sodium citrate"
+      },
+      "queried_at": "2026-03-09T10:59:23.580583",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:59:24.347809",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:59:27.651979",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "papillary conjunctivitis"
+      },
+      "queried_at": "2026-03-09T10:59:28.602832",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T10:59:29.410205",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T10:59:32.854368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-09T10:59:34.047278",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T10:59:34.952838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T10:59:40.006763",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-09T10:59:40.978900",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "stomach disease"
+      },
+      "queried_at": "2026-03-09T10:59:50.241302",
+      "status": "success",
+      "result_count": 50,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "stomach disease"
+      },
+      "queried_at": "2026-03-09T10:59:53.779677",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "stomach disease"
+      },
+      "queried_at": "2026-03-09T10:59:57.522812",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "postgastrectomy syndrome"
+      },
+      "queried_at": "2026-03-09T10:59:58.157503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "postgastrectomy syndrome"
+      },
+      "queried_at": "2026-03-09T11:00:01.463460",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "postgastrectomy syndrome"
+      },
+      "queried_at": "2026-03-09T11:00:02.353410",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T11:00:03.023083",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T11:00:08.198526",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "gastroduodenitis"
+      },
+      "queried_at": "2026-03-09T11:00:10.591313",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T11:00:11.392469",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T11:00:15.072076",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "familial visceral myopathy"
+      },
+      "queried_at": "2026-03-09T11:00:15.987296",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T11:00:16.643819",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T11:00:20.603566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "rosacea conjunctivitis"
+      },
+      "queried_at": "2026-03-09T11:00:21.304128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T11:00:21.875174",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T11:00:25.226807",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "allergic urticaria"
+      },
+      "queried_at": "2026-03-09T11:00:26.150157",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "intestinal obstruction"
+      },
+      "queried_at": "2026-03-09T11:00:27.554744",
+      "status": "success",
+      "result_count": 15,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "intestinal obstruction"
+      },
+      "queried_at": "2026-03-09T11:00:30.905420",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium citrate",
+        "disease": "intestinal obstruction"
+      },
+      "queried_at": "2026-03-09T11:00:33.531890",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T11:00:33.539905"
+  }
+}

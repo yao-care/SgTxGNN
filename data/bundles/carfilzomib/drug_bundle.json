@@ -1,0 +1,1300 @@
+{
+  "drug": {
+    "inn": "Carfilzomib",
+    "drugbank_id": "DB08889",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "CMM7",
+        "txgnn_score": 0.9936595559120178,
+        "txgnn_rank": 7669,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pediatric leptomeningeal melanoma",
+        "txgnn_score": 0.9930003881454468,
+        "txgnn_rank": 8233,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epithelioid cell uveal melanoma",
+        "txgnn_score": 0.9922656416893004,
+        "txgnn_rank": 8822,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar melanoma (disease)",
+        "txgnn_score": 0.9919344186782836,
+        "txgnn_rank": 9084,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "melanoma",
+        "txgnn_score": 0.9902744293212892,
+        "txgnn_rank": 10354,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33671902",
+            "title": "Carfilzomib in Combination with Bortezomib Enhances Apoptotic Cell Death in B16-F1 Melanoma Cells.",
+            "abstract": "Proteasome inhibitors, such as bortezomib (BZ) and carfilzomib (CFZ), have been suggested as treatments for various cancers. To utilize BZ and/or CFZ as effective therapeutics for treating melanoma, we studied their molecular mechanisms using B16-F1 melanoma cells. Flow cytometry of Annexin V-fluorescein isothiocyanate-labeled cells indicated apoptosis induction by treatment with BZ and CFZ. Apoptosis was evidenced by the activation of various caspases, including caspase 3, 8, 9, and 12. Treatment with BZ and CFZ induced endoplasmic reticulum (ER) stress, as indicated by an increase in eIF2α phosphorylation and the expression of ER stress-associated proteins, including GRP78, ATF6α, ATF4, XBP1, and CCAAT/enhancer-binding protein homologous protein. The effects of CFZ on ER stress and apoptosis were lower than that of BZ. Nevertheless, CFZ and BZ synergistically induced ER stress and apoptosis in B16-F1 cells. Furthermore, the combinational pharmacological interactions of BZ and CFZ aga",
+            "journal": "Biology",
+            "year": "2021",
+            "authors": [
+              "Lee Min Seung",
+              "Lim So Hyun",
+              "Yu Ah-Ran",
+              "Hwang Chi Yeon",
+              "Kang Insug"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33671902/"
+          },
+          {
+            "pmid": "36134605",
+            "title": "Comprehensive molecular docking and dynamic simulations for drug repurposing of clinical drugs against multiple cancer kinase targets.",
+            "abstract": "Drug repurposing is a method to identify novel therapeutic agents from the existing drugs and clinical compounds. In the present comprehensive work, molecular docking, virtual screening and dynamics simulations were carried out for ten cancer types viz breast, colon, central nervous system, leukaemia, melanoma, ovarian, prostate, renal and lung (non-small and small cell) against validated eighteen kinase targets. The study aims to understand the action of chemotherapy drugs mechanism through binding interactions against selected targets via comparative docking simulations with the state-art molecular modelling suits such as MOE, Cresset-Flare, AutoDock Vina, GOLD and GLIDE. Chemotherapeutic drugs (n = 112) were shortlisted from standard drug databases with appropriate chemoinformatic filters. Based on docking studies it was revealed that leucovorin, nilotinib, ellence, thalomid and carfilzomib drugs possessed potential against other cancer targets. A library was built to enumerate nove",
+            "journal": "Journal of biomolecular structure & dynamics",
+            "year": "2023",
+            "authors": [
+              "Shaikh Nilofer",
+              "Linthoi R K",
+              "Swamy K V",
+              "Karthikeyan Muthukumarasamy",
+              "Vyas Renu"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36134605/"
+          },
+          {
+            "pmid": "31540997",
+            "title": "The Zinc-Finger AN1-Type Domain 2a Gene Acts as a Regulator of Cell Survival in Human Melanoma: Role of E3-Ligase cIAP2.",
+            "abstract": "The zinc-finger AN1-type domain-2a gene, also known as AIRAP (arsenite-inducible RNA-associated protein), was initially described as an arsenite-inducible gene in Caenorhabditis elegans and mammalian cells. Differently from the AIRAP worm homologue, aip-1, a gene known to play an important role in preserving animal lifespan and buffering arsenic-induced proteotoxicity, mammals have a second, constitutively expressed, AIRAP-like gene (AIRAPL), recently implicated in myeloid transformation. We have identified human AIRAP as a canonical heat-shock gene, whose expression, differently from AIRAPL, is strictly dependent on the proteotoxic-stress regulator heat-shock factor 1 (HSF1). AIRAP function is still not well defined and there is no information on AIRAP in cancer. Herein we show that bortezomib and next-generation proteasome inhibitors ixazomib and carfilzomib markedly induce AIRAP expression in human melanoma at concentrations comparable to plasma-levels in treated patients. AIRAP-dow",
+            "journal": "Molecular cancer research : MCR",
+            "year": "2019",
+            "authors": [
+              "Pizzato Scomazzon Sofia",
+              "Riccio Anna",
+              "Santopolo Silvia",
+              "Lanzilli Giulia",
+              "Coccia Marta"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Baculoviral IAP Repeat-Containing 3 Protein",
+              "Boron Compounds",
+              "Bortezomib",
+              "Cell Line, Tumor",
+              "Cell Transformation, Neoplastic",
+              "Gene Expression Regulation, Neoplastic",
+              "Glycine",
+              "Heat Shock Transcription Factors",
+              "Humans",
+              "Melanoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31540997/"
+          },
+          {
+            "pmid": "29581547",
+            "title": "Protein targeting chimeric molecules specific for bromodomain and extra-terminal motif family proteins are active against pre-clinical models of multiple myeloma.",
+            "abstract": "Bromodomain and extraterminal (BET) domain containing protein (BRD)-4 modulates the expression of oncogenes such as c-myc, and is a promising therapeutic target in diverse cancer types. We performed pre-clinical studies in myeloma models with bi-functional protein-targeting chimeric molecules (PROTACs) which target BRD4 and other BET family members for ubiquitination and proteasomal degradation. PROTACs potently reduced the viability of myeloma cell lines in a time-dependent and concentration-dependent manner associated with G0/G1 arrest, reduced levels of CDKs 4 and 6, increased p21 levels, and induction of apoptosis. These agents specifically decreased cellular levels of downstream BRD4 targets, including c-MYC and N-MYC, and a Cereblon-targeting PROTAC showed downstream effects similar to those of an immunomodulatory agent. Notably, PROTACs overcame bortezomib, dexamethasone, lenalidomide, and pomalidomide resistance, and their activity was maintained in otherwise isogenic myeloma c",
+            "journal": "Leukemia",
+            "year": "2018",
+            "authors": [
+              "Zhang Xiaohui",
+              "Lee Hans C",
+              "Shirazi Fazal",
+              "Baladandayuthapani Veerabhadran",
+              "Lin Heather"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amino Acid Motifs",
+              "Animals",
+              "Antineoplastic Agents",
+              "Cell Cycle Checkpoints",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Humans",
+              "Mice"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29581547/"
+          },
+          {
+            "pmid": "27016342",
+            "title": "Chemotherapy induces expression and release of heparanase leading to changes associated with an aggressive tumor phenotype.",
+            "abstract": "High heparanase expression is associated with enhanced tumor growth, angiogenesis, and metastasis in many types of cancer. However, the mechanisms driving high heparanase expression are not fully understood. In the present study, we discovered that drugs used in the treatment of myeloma upregulate heparanase expression. Frontline anti-myeloma drugs, bortezomib and carfilzomib activate the nuclear factor-kappa B (NF-κB) pathway to trigger heparanase expression in tumor cells. Blocking the NF-κB pathway diminished this chemotherapy-induced upregulation of heparanase expression. Activated NF-κB signaling was also found to drive high heparanase expression in drug resistant myeloma cell lines. In addition to enhancing heparanase expression, chemotherapy also caused release of heparanase by tumor cells into the conditioned medium. This soluble heparanase was taken up by macrophages and triggered an increase in TNF-α production. Heparanase is also taken up by tumor cells where it induced expr",
+            "journal": "Matrix biology : journal of the International Society for Matrix Biology",
+            "year": "2016",
+            "authors": [
+              "Ramani Vishnu C",
+              "Vlodavsky Israel",
+              "Ng Mary",
+              "Zhang Yi",
+              "Barbieri Paola"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Bortezomib",
+              "Cell Line, Tumor",
+              "Doxorubicin",
+              "Enzyme Induction",
+              "Gene Expression Regulation, Neoplastic",
+              "Glucuronidase",
+              "Humans",
+              "Melanoma",
+              "Melphalan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27016342/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.979438066482544,
+        "txgnn_rank": 17269,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "27291302",
+            "title": "Multiple myeloma: 2016 update on diagnosis, risk-stratification, and management.",
+            "abstract": "Multiple myeloma accounts for approximately 10% of hematologic malignancies.The diagnosis requires ≥10% clonal bone marrow plasma cells or a biopsy proven plasmacytoma plus evidence of one or more multiple myeloma defining events (MDE): CRAB (hypercalcemia, renal failure, anemia, or lytic bone lesions) features felt related to the plasma cell disorder, bone marrow clonal plasmacytosis ≥60%, serum involved/uninvolved free light chain (FLC) ratio ≥100 (provided involved FLC is ≥100 mg/L), or >1 focal lesion on magnetic resonance imaging. Patients with del(17p), t(14;16), and t(14;20) have high-risk multiple myeloma. Patients with t(4;14) translocation and gain(1q) have intermediate-risk. All others are considered standard-risk. Initial treatment consists of bortezomib, lenalidomide, dexamethasone (VRD). In high-risk patients, carfilzomib, lenalidomide, dexamethasone (KRD) is an alternative to VRD. In eligible patients, initial therapy is given for approximately 3-4 months followed by aut",
+            "journal": "American journal of hematology",
+            "year": "2016",
+            "authors": [
+              "Rajkumar S Vincent"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Multiple Myeloma",
+              "Risk Assessment"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27291302/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "intellectual disability, autosomal dominant 55, with seizures",
+        "txgnn_score": 0.9782437086105348,
+        "txgnn_rank": 17880,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.970113217830658,
+        "txgnn_rank": 21227,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03530683",
+            "title": "A Phase 1a/1b Dose-Escalation and Expansion Trial of TTI-622 in Patients With Advanced Hematologic Malignancies, Including Lymphoma, Leukemia, and Multiple Myeloma",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2018-05-14",
+            "completion_date": "2024-07-18",
+            "country": "United States",
+            "enrollment": 189,
+            "brief_summary": "The purpose of this clinical trial is to learn how the experimental medicine maplirpacept (PF-07901801) affects people with various types of blood cancers:\n\n* relapsed or refractory (R/R) lymphoma\n* multiple myeloma\n* newly diagnosed acute myeloid leukemia (AML).\n\nThis trial will be conducted in the outpatient setting in 2 parts, phase 1a and phase 1b. You may only participate in one part of the study.\n\nDuring phase 1a of this study, we will explore how much maplirpacept (PF-07901801), when used",
+            "eligibility_criteria": "Key Inclusion Criteria (Phase 1a and Phase 1b, all Cohorts):\n\n1. Available fresh or archived tumor tissue.\n2. Eastern Cooperative Oncology Group (ECOG) performance status score of 0, 1, or 2.\n3. Adequate coagulation function.\n4. Adequate hepatic function.\n5. Adequate hematologic status.\n6. Adequate ",
+            "endpoints": [
+              "Phase 1a: Number of adverse events (AE) by severity",
+              "Phase 1a: Number of AEs by Frequency",
+              "Phase 1a: Number of participants with Dose-Limiting Toxicities (DLT)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT03530683"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01137747",
+            "title": "A Phase I Trial of Carfilzomib in Adult Patients With Relapsed Acute Myeloid and Acute Lymphoblastic Leukemia",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-10",
+            "completion_date": "2015-07",
+            "country": "United States",
+            "enrollment": 18,
+            "brief_summary": "This study is to test escalating doses of carfilzomib in patients with relapsed acute myeloid and acute lymphoblastic leukemia.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nDisease Related\n\n* Relapsed acute myeloid leukemia or relapsed acute lymphoblastic leukemia. Patients with primary refractory AML or ALL (after standard induction chemotherapy) are also eligible if they have evidence of persistent disease documented by bone marrow biopsy done wi",
+            "endpoints": [
+              "To determine the maximum tolerated dose (MTD) and dose limiting toxicity (DLT)"
+            ],
+            "sponsor": "Washington University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT01137747"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02551718",
+            "title": "Individualized Treatment for Relapsed/Refractory Acute Leukemia Based on Chemosensitivity and Genomics/Gene Expression Data",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2015-09-11",
+            "completion_date": "2021-05-13",
+            "country": "United States",
+            "enrollment": 34,
+            "brief_summary": "This pilot clinical trial studies the feasibility of choosing treatment based on a high throughput ex vivo drug sensitivity assay in combination with mutation analysis for patients with acute leukemia that has returned after a period of improvement (relapsed) or does not respond to treatment (refractory). A high throughput screening assay tests many different drugs individually or in combination that kill leukemia cells in tiny chambers at the same time. High throughput drug sensitivity assay an",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of acute leukemia by World Health Organization (WHO) criteria (e.g.-acute myeloid leukemia, acute lymphoblastic leukemia, acute leukemia of ambiguous origin)\n* Either:\n\n  * Relapsed after or refractory to prior treatment with at least two regimens or lines of treatme",
+            "endpoints": [
+              "Percentage of Patients we Are Able to Test and Initiate Treatment Within a 21 Day Period"
+            ],
+            "sponsor": "University of Washington",
+            "url": "https://clinicaltrials.gov/study/NCT02551718"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01204164",
+            "title": "Phase 1 Dose-Escalation and Pharmacokinetic Study of TG02 Citrate in Patients With Advanced Hematological Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-08",
+            "completion_date": "2016-04",
+            "country": "United States",
+            "enrollment": 120,
+            "brief_summary": "This is a multicenter, open-label, dose escalation Phase 1 study.",
+            "eligibility_criteria": "Part 1 Inclusion Criteria:\n\n* Relapsed AML, ALL, CML in blast crisis, or MDS\n* 65+ yrs with AML not eligible for standard frontline chemo\n* Interval from prior treatment to time of study drug at least 5 half-lives for cytotoxic/ noncytotoxic agents.\n* Persistent clinically significant toxicities fro",
+            "endpoints": [
+              "Maximum Tolerated Dose"
+            ],
+            "sponsor": "Tragara Pharmaceuticals, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT01204164"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39285441",
+            "title": "Proteasome inhibition enhances the anti-leukemic efficacy of chimeric antigen receptor (CAR) expressing NK cells against acute myeloid leukemia.",
+            "abstract": "Relapsed and refractory acute myeloid leukemia (AML) carries a dismal prognosis. CAR T cells have shown limited efficacy in AML, partially due to dysfunctional autologous T cells and the extended time for generation of patient specific CAR T cells. Allogeneic NK cell therapy is a promising alternative, but strategies to enhance efficacy and persistence may be necessary. Proteasome inhibitors (PI) induce changes in the surface proteome which may render malignant cells more vulnerable to NK mediated cytotoxicity. Here, we investigated the potential benefit of combining PIs with CAR-expressing allogeneic NK cells against AML.",
+            "journal": "Journal of hematology & oncology",
+            "year": "2024",
+            "authors": [
+              "Sedloev David",
+              "Chen Qian",
+              "Unglaub Julia M",
+              "Schanda Nicola",
+              "Hao Yao"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Killer Cells, Natural",
+              "Leukemia, Myeloid, Acute",
+              "Proteasome Inhibitors",
+              "Receptors, Chimeric Antigen",
+              "Animals",
+              "Mice",
+              "Cell Line, Tumor",
+              "Bortezomib",
+              "Oligopeptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39285441/"
+          },
+          {
+            "pmid": "24590311",
+            "title": "Synergistic effects of proteasome inhibitor carfilzomib in combination with tyrosine kinase inhibitors in imatinib-sensitive and -resistant chronic myeloid leukemia models.",
+            "abstract": "The tyrosine kinase inhibitor (TKI) imatinib has transformed the treatment and outlook of chronic myeloid leukemia (CML); however, the development of drug resistance and the persistence of TKI-resistant stem cells remain obstacles to eradicating the disease. Inhibition of proteasome activity with bortezomib has been shown to effectively induce apoptosis in TKI-resistant cells. In this study, we show that exposure to the next generation proteasome inhibitor carfilzomib is associated with a decrease in ERK signaling and increased expression of Abelson interactor proteins 1 and 2 (ABI-1/2). We also investigate the effect of carfilzomib in models of imatinib-sensitive and -resistant CML and demonstrate a potent reduction in proliferation and induction of apoptosis in a variety of models of imatinib-resistant CML, including primitive CML stem cells. Carfilzomib acts synergistically with the TKIs imatinib and nilotinib, even in imatinib-resistant cell lines. In addition, we found that the pr",
+            "journal": "Oncogenesis",
+            "year": "2014",
+            "authors": [
+              "Crawford L J",
+              "Chan E T",
+              "Aujay M",
+              "Holyoake T L",
+              "Melo J V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24590311/"
+          },
+          {
+            "pmid": "32566462",
+            "title": "Peripheral Artery Disease and Stroke.",
+            "abstract": "Peripheral artery disease (PAD) and stroke can occur as vascular complication of anticancer treatment. Although the mechanisms, monitoring, and management of cardiotoxicities have received broad attention, vascular toxicities remain often underrecognized. In addition, the development of new chemotherapeutic drugs bears the risk of vasotoxicities that are yet to be identified and may not be realized with short-term follow-up periods. The propensity to develop PAD and/or stroke reflects the complex interplay between patient's baseline risk and preexisting vascular disease, particularly hypertension and diabetes, while evidence for genetic predisposition is increasing. Chemotherapeutic agents with a prominent vascular side effect profile have been identified. Interruption of vascular endothelial growth factor (VEGF) inhibitors (VEGFIs) signaling (i.e., bevacizumab) is associated with vascular toxicity and clinical sequelae such as hypertension, stroke, and thromboembolism beyond acute cor",
+            "journal": "Journal of cardiovascular echography",
+            "year": "2020",
+            "authors": [
+              "Zito Concetta",
+              "Manganaro Roberta",
+              "Carerj Scipione",
+              "Antonini-Canterin Francesco",
+              "Benedetto Frank"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32566462/"
+          },
+          {
+            "pmid": "27911437",
+            "title": "The role of the proteasome in AML.",
+            "abstract": "Acute myeloid leukemia (AML) is deadly hematologic malignancy. Despite a well-characterized genetic and molecular landscape, targeted therapies for AML have failed to significantly improve clinical outcomes. Over the past decade, proteasome inhibition has been demonstrated to be an effective therapeutic strategy in several hematologic malignancies. Proteasome inhibitors, such as bortezomib and carfilzomib, have become mainstays of treatment for multiple myeloma and mantle cell lymphoma. In light of this success, there has been a surge of literature exploring both the role of the proteasome and the effects of proteasome inhibition in AML. Pre-clinical studies have demonstrated that proteasome inhibition disrupts proliferative cell signaling pathways, exhibits cytotoxic synergism with other chemotherapeutics and induces autophagy of cancer-related proteins. Meanwhile, clinical trials incorporating bortezomib into combination chemotherapy regimens have reported a range of responses in AML",
+            "journal": "Blood cancer journal",
+            "year": "2016",
+            "authors": [
+              "Csizmar C M",
+              "Kim D-H",
+              "Sachs Z"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Autophagy",
+              "Bortezomib",
+              "Cell Proliferation",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Oligopeptides",
+              "Proteasome Endopeptidase Complex",
+              "Proteasome Inhibitors",
+              "Signal Transduction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27911437/"
+          },
+          {
+            "pmid": "26674111",
+            "title": "A phase I study of carfilzomib for relapsed or refractory acute myeloid and acute lymphoblastic leukemia.",
+            "abstract": "",
+            "journal": "Leukemia & lymphoma",
+            "year": "2016",
+            "authors": [
+              "Wartman Lukas D",
+              "Fiala Mark A",
+              "Fletcher Theresa",
+              "Hawkins Emily R",
+              "Cashen Amanda"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Oligopeptides",
+              "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+              "Proteasome Inhibitors",
+              "Recurrence",
+              "Retreatment",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26674111/"
+          },
+          {
+            "pmid": "24418752",
+            "title": "Ritonavir, nelfinavir, saquinavir and lopinavir induce proteotoxic stress in acute myeloid leukemia cells and sensitize them for proteasome inhibitor treatment at low micromolar drug concentrations.",
+            "abstract": "Protein metabolism is an innovative potential therapeutic target for AML. Proteotoxic stress (PS) sensitizes malignant cells for proteasome inhibitor treatment. Some HIV protease inhibitors (HIV-PI) induce PS and may therefore be combined with proteasome inhibitors to achieve PS-targeted therapy of AML.",
+            "journal": "Leukemia research",
+            "year": "2014",
+            "authors": [
+              "Kraus Marianne",
+              "Müller-Ide Hendrik",
+              "Rückrich Thomas",
+              "Bader Jürgen",
+              "Overkleeft Herman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Cytotoxins",
+              "Drug Resistance, Neoplasm",
+              "Drug Synergism",
+              "Gene Expression Regulation, Leukemic",
+              "HIV Protease Inhibitors",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Lopinavir",
+              "Nelfinavir"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24418752/"
+          },
+          {
+            "pmid": "19275578",
+            "title": "Antiproliferative and proapoptotic effects of proteasome inhibitors and their combination with histone deacetylase inhibitors on leukemia cells.",
+            "abstract": "New chemotherapeutic agents are still required to further optimise treatment of leukemia patients. Proteasome inhibition by bortezomib, PR-171 (carfilzomib) and NPI-0052 (salinosporamide A) has been successfully used for the treatment of multiple myeloma and mantle cell lymphoma and is considered also as novel treatment strategy in leukemia. Combination of proteasome inhibitors bortezomib and NPI-0052 induces synergistic anti-multiple myeloma activity both in vitro using multiple myeloma cells and in vivo in a human plasmacytoma xenograft mouse model. Cell death resulting from proteasome inhibition requires caspase activation and increased levels of reactive oxygen species. While bortezomib induces several caspases, NPI-0052 activates predominantly caspase-8-dependent pathway. We studied the effect of bortezomib (10 nM) on DNA synthesis and apoptosis in human acute myeloid cell lines KASUMI-1, ML-1, ML-2 and CTV-1 cells. Bortezomib was potent inhibitor of DNA synthesis in all four type",
+            "journal": "Cardiovascular & hematological disorders drug targets",
+            "year": "2009",
+            "authors": [
+              "Fuchs Ota",
+              "Provaznikova Dana",
+              "Marinov Iuri",
+              "Kuzelova Katerina",
+              "Spicka Ivan"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Boronic Acids",
+              "Bortezomib",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Drug Synergism",
+              "Enzyme Inhibitors",
+              "Histone Deacetylase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19275578/"
+          },
+          {
+            "pmid": "40389585",
+            "title": "Highly specific Immunoproteasome inhibitor M3258 induces proteotoxic stress and apoptosis in KMT2A::AFF1 driven acute lymphoblastic leukemia.",
+            "abstract": "Proteasome inhibitors (PIs) bortezomib, carfilzomib and ixazomib are approved for the treatment of multiple myeloma and mantle cell lymphoma and have clinical activity in acute lymphoblastic leukemia (ALL). The predominant form of proteasome in these hematologic malignancies is the lymphoid tissue-specific immunoproteasome. FDA-approved PIs inhibit immunoproteasomes and ubiquitously expressed constitutive proteasomes causing on-target toxicities in non-hematological tissues. Replacing PIs with selective immunoproteasome inhibitors (IPIs) should reduce these toxicities. We have previously shown that IPI ONX-0914 causes apoptosis of ALL cells expressing the KMT2A::AFF1 (MLL-AF4) fusion protein but did not elucidate the mechanism. Here we show that a novel, highly specific IPI M3258 induces rapid apoptosis in ALL cells in vitro and is comparable to bortezomib in its ability to reduce tumor growth and to cause tumor regression when combined with chemotherapy in vivo. Treatment of KMT2A::AF",
+            "journal": "Scientific reports",
+            "year": "2025",
+            "authors": [
+              "Jenkins Tyler W",
+              "Fitzgerald Jacquelyn Elise",
+              "Park Jieun",
+              "Wilson Addison M",
+              "Berry Kristy L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Apoptosis",
+              "Proteasome Inhibitors",
+              "Myeloid-Lymphoid Leukemia Protein",
+              "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+              "Cell Line, Tumor",
+              "Animals",
+              "Histone-Lysine N-Methyltransferase",
+              "Mice",
+              "Proteasome Endopeptidase Complex"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40389585/"
+          },
+          {
+            "pmid": "36281397",
+            "title": "Systematic molecular profiling of acute leukemia cancer stem cells allows identification of druggable targets.",
+            "abstract": "Acute myeloid leukemia (AML) is one of the most prevalent and acute blood cancers with a poor prognosis and low overall survival rate, especially in the elderly. Although several new AML markers and drug targets have been recently identified, the rate of long-term cancer eradication has not improved significantly due to the presence and drug resistance of AML cancer stem cells (CSCs). Here we develop a novel computational pipeline to analyze the transcriptomic profiles of AML cancer (stem) cells and identify novel candidate AML CSC markers and drug targets. In our novel pipeline we apply a top-down meta-analysis strategy to integrate The Cancer Genome Atlas data with CSC datasets to infer cell stemness features. As a result, a set of genes termed the \"AML key CSC genes\" along with all the available drugs/compounds that could target them were identified. Overall, our novel computational pipeline could retrieve known cancer drugs (Carfilzomib) and predicted novel drugs such as Zonisamide",
+            "journal": "Heliyon",
+            "year": "2022",
+            "authors": [
+              "Salavaty Adrian",
+              "Shehni Sara Alaei",
+              "Ramialison Mirana",
+              "Currie Peter D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36281397/"
+          },
+          {
+            "pmid": "22929803",
+            "title": "Carfilzomib and ONX 0912 inhibit cell survival and tumor growth of head and neck cancer and their activities are enhanced by suppression of Mcl-1 or autophagy.",
+            "abstract": "Carfilzomib is a selective, irreversible inhibitor of the chymotrypsin-like activity of the proteasome and is undergoing clinical evaluation in myeloma. ONX 0912 (oprozomib) is an orally bioavailable derivative. The activities of carfilzomib and ONX 0912 against solid tumor malignancies are less well understood. We investigated the impact and mechanisms of action of carfilzomib and ONX 0912 in preclinical models of head and neck squamous cell carcinoma (HNSCC).",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2012",
+            "authors": [
+              "Zang Yan",
+              "Thomas Sufi M",
+              "Chan Elena T",
+              "Kirk Christopher J",
+              "Freilino Maria L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antinematodal Agents",
+              "Apoptosis",
+              "Autophagy",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Cell Transformation, Neoplastic",
+              "Gene Expression Regulation, Neoplastic",
+              "Head and Neck Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22929803/"
+          },
+          {
+            "pmid": "27246906",
+            "title": "Dual inhibition of Mcl-1 by the combination of carfilzomib and TG02 in multiple myeloma.",
+            "abstract": "Carfilzomib (Kyprolis®), a second generation proteasome inhibitor, is FDA approved for single-agent use among relapsed/refractory multiple myeloma (MM). To enhance the therapeutic efficacy of carfilzomib, we sought to combine carfilzomib with other novel agents. TG02, a multi-kinase inhibitor, targets JAK2 and CDK9. The rationale for co-treatment with carfilzomib and TG02 is that both independently target Mcl-1 and most myeloma cells are dependent on this anti-apoptotic protein for survival. We observed at least additive effects using the combination treatment in MM cell lines and patient samples. To determine how the bone marrow environment affects the efficacy of the combination we conducted co-culture experiments with Hs-5 stromal cells. We also examined the mechanism of increased apoptosis by determining the affect on expression of the Bcl-2 family of proteins. We found that carfilzomib increases NOXA mRNA expression, as expected, and TG02 treatment caused a decrease in Mcl-1 prote",
+            "journal": "Cancer biology & therapy",
+            "year": "2016",
+            "authors": [
+              "Ponder Katelyn G",
+              "Matulis Shannon M",
+              "Hitosugi Sadae",
+              "Gupta Vikas A",
+              "Sharp Cathy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cell Line, Tumor",
+              "Heterocyclic Compounds, 4 or More Rings",
+              "Humans",
+              "Multiple Myeloma",
+              "Myeloid Cell Leukemia Sequence 1 Protein",
+              "Oligopeptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27246906/"
+          },
+          {
+            "pmid": "28340282",
+            "title": "Carfilzomib induces leukaemia cell apoptosis via inhibiting ELK1/KIAA1524 (Elk-1/CIP2A) and activating PP2A not related to proteasome inhibition.",
+            "abstract": "Enhancing the tumour suppressive activity of protein phosphatase 2A (PP2A) has been suggested to be an anti-leukaemic strategy. KIAA1524 (also termed CIP2A), an oncoprotein inhibiting PP2A, is associated with disease progression in chronic myeloid leukaemia and may be prognostic in cytogenetically normal acute myeloid leukaemia. Here we demonstrated that the selective proteasome inhibitor, carfilzomib, induced apoptosis in sensitive primary leukaemia cells and in sensitive leukaemia cell lines, associated with KIAA1524 protein downregulation, increased PP2A activity and decreased p-Akt, but not with the proteasome inhibition effect of carfilzomib. Ectopic expression of KIAA1524, or pretreatment with the PP2A inhibitor, okadaic acid, suppressed carfilzomib-induced apoptosis and KIAA1524 downregulation in sensitive cells, whereas co-treatment with the PP2A agonist, forskolin, enhanced carfilzomib-induced apoptosis in resistant cells. Mechanistically, carfilzomib affected KIAA1524 transcr",
+            "journal": "British journal of haematology",
+            "year": "2017",
+            "authors": [
+              "Liu Chun-Yu",
+              "Hsieh Feng-Shu",
+              "Chu Pei-Yi",
+              "Tsai Wen-Chun",
+              "Huang Chun-Teng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Animals",
+              "Apoptosis",
+              "Autoantigens",
+              "Cell Line, Tumor",
+              "Cycloheximide",
+              "Down-Regulation",
+              "Female",
+              "HL-60 Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28340282/"
+          },
+          {
+            "pmid": "25830014",
+            "title": "Novel agents for the treatment of childhood acute leukemia.",
+            "abstract": "Together, acute lymphoblastic leukemia (ALL) and acute myeloid leukemia (AML) make up approximately one-third of all pediatric cancer diagnoses. Despite remarkable improvement in the treatment outcomes of these diseases over the past several decades, the prognosis for certain high-risk groups of leukemia and for relapsed disease remains poor. However, recent insights into different types of 'driver' lesions of leukemogenesis, such as the aberrant activation of signaling pathways and various epigenetic modifications, have led to the discovery of novel agents that specifically target the mechanism of transformation. In parallel, emerging approaches in cancer immunotherapy have led to newer therapies that can exploit and harness cytotoxic immunity directed against malignant cells. This review details the rationale and implementation of recent and specifically targeted therapies in acute pediatric leukemia. Topics covered include the inhibition of critical cell signaling pathways [BCR-ABL,",
+            "journal": "Therapeutic advances in hematology",
+            "year": "2015",
+            "authors": [
+              "Annesley Colleen E",
+              "Brown Patrick"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25830014/"
+          },
+          {
+            "pmid": "31785545",
+            "title": "Targeting the ubiquitin-proteasome pathway to overcome anti-cancer drug resistance.",
+            "abstract": "Drug resistance is a major obstacle in the field of pre-clinical and clinical therapeutics. The development of novel technologies and targeted therapies have yielded new modalities to overcome drug resistance, but multidrug resistance (MDR) remains one of the major challenges in the treatment of cancer. The ubiquitin-proteasome system (UPS) has a central role in regulating the levels and activities of a multitude of proteins as well as regulation of cell cycle, gene expression, response to oxidative stress, cell survival, cell proliferation and apoptosis. Therefore, inhibition of the UPS could represent a novel strategy for the treatment and overcoming of drug resistance in chemoresistant malignancies. In 2003, bortezomib was approved by the FDA for the treatment of multiple myeloma (MM). However, due to its limitations, second generation proteasome inhibitors (PIs) like carfilzomib, ixazomib, oprozomib, delanzomib and marizomib were introduced which displayed clinical activity in bort",
+            "journal": "Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy",
+            "year": "2020",
+            "authors": [
+              "Narayanan Silpa",
+              "Cai Chao-Yun",
+              "Assaraf Yehuda G",
+              "Guo Hui-Qin",
+              "Cui Qingbin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Drug Resistance, Neoplasm",
+              "Humans",
+              "Neoplasms",
+              "Proteasome Endopeptidase Complex",
+              "Proteasome Inhibitors",
+              "Signal Transduction",
+              "Ubiquitin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31785545/"
+          },
+          {
+            "pmid": "34732858",
+            "title": "A unique role of p53 haploinsufficiency or loss in the development of acute myeloid leukemia with FLT3-ITD mutation.",
+            "abstract": "With an incidence of ~50%, the absence or reduced protein level of p53 is much more common than TP53 mutations in acute myeloid leukemia (AML). AML with FLT3-ITD (internal tandem duplication) mutations has an unfavorable prognosis and is highly associated with wt-p53 dysfunction. While TP53 mutation in the presence of FLT3-ITD does not induce AML in mice, it is not clear whether p53 haploinsufficiency or loss cooperates with FLT3-ITD in the induction of AML. Here, we generated FLT3-ITD knock-in; p53 knockout (heterozygous and homozygous) double-transgenic mice and found that both alterations strongly cooperated in the induction of cytogenetically normal AML without increasing the self-renewal potential. At the molecular level, we found the strong upregulation of Htra3 and the downregulation of Lin28a, leading to enhanced proliferation and the inhibition of apoptosis and differentiation. The co-occurrence of Htra3 overexpression and Lin28a knockdown, in the presence of FLT3-ITD, induced",
+            "journal": "Leukemia",
+            "year": "2022",
+            "authors": [
+              "Yang Min",
+              "Pan Zengkai",
+              "Huang Kezhi",
+              "Büsche Guntram",
+              "Liu Hongyun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Gene Duplication",
+              "Gene Expression Regulation, Leukemic",
+              "Gene Knock-In Techniques",
+              "Haploinsufficiency",
+              "Leukemia, Myeloid, Acute",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Mutation",
+              "Tumor Suppressor Protein p53"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34732858/"
+          },
+          {
+            "pmid": "22411899",
+            "title": "Obatoclax interacts synergistically with the irreversible proteasome inhibitor carfilzomib in GC- and ABC-DLBCL cells in vitro and in vivo.",
+            "abstract": "Interactions between the irreversible proteasome inhibitor carfilzomib and the pan-BH3 mimetic obatoclax were examined in germinal center (GC)- and activated B-cell-diffuse large B-cell lymphoma (ABC-DLBCL) cells. Cotreatment with minimally toxic concentrations of carfilzomib (i.e., 2-6 nmol/L) and subtoxic concentrations of obatoclax (0.05-2.0 μmol/L) synergistically increased apoptosis in multiple DLBCL cell lines and increased lethality toward primary human DLBCL but not normal CD34(+) cells. Synergistic interactions were associated with sharp increases in caspase-3 activation, PARP cleavage, p-JNK induction, upregulation of Noxa, and AKT dephosphorylation. Combined treatment also diminished carfilzomib-mediated Mcl-1 upregulation whereas immunoprecipitation analysis revealed reduced associations between Bak and Mcl-1/Bcl-xL and Bim and Mcl-1. The carfilzomib/obatoclax regimen triggered translocation, conformational change, and dimerization of Bax and activation of Bak. Genetic inte",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2012",
+            "authors": [
+              "Dasmahapatra Girija",
+              "Lembersky Dmitry",
+              "Son Minkyeong P",
+              "Patel Hiral",
+              "Peterson Derick"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't",
+              "Retracted Publication"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Apoptosis Regulatory Proteins",
+              "Bcl-2-Like Protein 11",
+              "Cell Line, Tumor",
+              "Drug Synergism",
+              "Germinal Center",
+              "Histones",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22411899/"
+          },
+          {
+            "pmid": "30374242",
+            "title": "Bortezomib-Induced Cardiac Tamponade in a 49-Year-Old Man.",
+            "abstract": "Proteasome inhibitors such as bortezomib and carfilzomib have been used effectively to treat patients who have certain hematologic malignancies. Proteasome activity is elevated in the heart, and potent inhibition results in accumulation of misfolded intracellular protein aggregates and apoptosis. Heart failure, conduction disturbances, and premature atherosclerosis have been associated with bortezomib therapy. We describe the case of a 49-year-old man who was taking bortezomib for graft-versus-host disease, when he developed cardiac tamponade and needed emergency pericardiocentesis. At that time, there was no evidence of graft-versus-host disease. To our knowledge, this is the first time that a pericardial effusion without underlying cardiac dysfunction has been reported in relation to bortezomib therapy. The diagnosis of pericardial effusion during bortezomib therapy, the absence of other causative agents-including graft-versus-host disease-and no recurrence of pericardial effusion af",
+            "journal": "Texas Heart Institute journal",
+            "year": "2018",
+            "authors": [
+              "Burkhart Taylor",
+              "Keith Matthew Cody Lee",
+              "Lenneman Carrie Ann Geisberg",
+              "Fernando Rajeev Ruben"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Bortezomib",
+              "Cardiac Tamponade",
+              "Echocardiography, Doppler",
+              "Fluoroscopy",
+              "Follow-Up Studies",
+              "Graft vs Host Disease",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30374242/"
+          },
+          {
+            "pmid": "17341267",
+            "title": "The proteasome inhibitors bortezomib and PR-171 have antiproliferative and proapoptotic effects on primary human acute myeloid leukaemia cells.",
+            "abstract": "Proteasome inhibitors represent a new class of antineoplastic drugs that are considered in the treatment of haematological malignancies. We compared the effects of the reversible proteasome inhibitor bortezomib (Velcade) and the epoxomicin derivative PR-171, an irreversible inhibitor, on primary human acute myeloid leukaemia (AML) cells. Both drugs inhibited autocrine- and cytokine-dependent proliferation of primary AML blasts when tested at nanomolar levels (0.1-100 nmol/l). The antiproliferative effect was independent of basal chymotrypsin-like proteasome activity (showing a 20-fold variation between patients), genetic abnormalities, morphological differentiation and CD34 expression when testing a large group of consecutive patients (n = 54). The effect was retained in cocultures with bone marrow stromal cells. In addition, both drugs enhanced apoptosis. The effect of PR-171 could be detected at lower concentrations than for bortezomib, especially when testing the influence on clonog",
+            "journal": "British journal of haematology",
+            "year": "2007",
+            "authors": [
+              "Stapnes Camilla",
+              "Døskeland Anne P",
+              "Hatfield Kimberley",
+              "Ersvaer Elisabeth",
+              "Ryningen Anita"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Apoptosis",
+              "Boronic Acids",
+              "Bortezomib",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Dose-Response Relationship, Drug"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17341267/"
+          },
+          {
+            "pmid": "24735925",
+            "title": "Proteasome inhibitors evoke latent tumor suppression programs in pro-B MLL leukemias through MLL-AF4.",
+            "abstract": "Chromosomal translocations disrupting MLL generate MLL-fusion proteins that induce aggressive leukemias. Unexpectedly, MLL-fusion proteins are rarely observed at high levels, suggesting excessive MLL-fusions may be incompatible with a malignant phenotype. Here, we used clinical proteasome inhibitors, bortezomib and carfilzomib, to reduce the turnover of endogenous MLL-fusions and discovered that accumulated MLL-fusions induce latent, context-dependent tumor suppression programs. Specifically, in MLL pro-B lymphoid, but not myeloid, leukemias, proteasome inhibition triggers apoptosis and cell cycle arrest involving activation cleavage of BID by caspase-8 and upregulation of p27, respectively. Furthermore, proteasome inhibition conferred preliminary benefit to patients with MLL-AF4 leukemia. Hence, feasible strategies to treat cancer-type and oncogene-specific cancers can be improvised through harnessing inherent tumor suppression properties of individual oncogenic fusions.",
+            "journal": "Cancer cell",
+            "year": "2014",
+            "authors": [
+              "Liu Han",
+              "Westergard Todd D",
+              "Cashen Amanda",
+              "Piwnica-Worms David R",
+              "Kunkle Lori"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Apoptosis",
+              "Boronic Acids",
+              "Bortezomib",
+              "DNA-Binding Proteins",
+              "G2 Phase Cell Cycle Checkpoints",
+              "Histone-Lysine N-Methyltransferase",
+              "Humans",
+              "M Phase Cell Cycle Checkpoints"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24735925/"
+          },
+          {
+            "pmid": "34035431",
+            "title": "Activity of immunoproteasome inhibitor ONX-0914 in acute lymphoblastic leukemia expressing MLL-AF4 fusion protein.",
+            "abstract": "Proteasome inhibitors bortezomib and carfilzomib are approved for the treatment of multiple myeloma and mantle cell lymphoma and have demonstrated clinical efficacy for the treatment of acute lymphoblastic leukemia (ALL). The t(4;11)(q21;q23) chromosomal translocation that leads to the expression of MLL-AF4 fusion protein and confers a poor prognosis, is the major cause of infant ALL. This translocation sensitizes tumor cells to proteasome inhibitors, but toxicities of bortezomib and carfilzomib may limit their use in pediatric patients. Many of these toxicities are caused by on-target inhibition of proteasomes in non-lymphoid tissues (e.g., heart muscle, gut, testicles). We found that MLL-AF4 cells express high levels of lymphoid tissue-specific immunoproteasomes and are sensitive to pharmacologically relevant concentrations of specific immunoproteasome inhibitor ONX-0914, even in the presence of stromal cells. Inhibition of multiple active sites of the immunoproteasomes was required ",
+            "journal": "Scientific reports",
+            "year": "2021",
+            "authors": [
+              "Jenkins Tyler W",
+              "Downey-Kopyscinski Sondra L",
+              "Fields Jennifer L",
+              "Rahme Gilbert J",
+              "Colley William C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Gene Expression Regulation, Neoplastic",
+              "Humans",
+              "Male",
+              "Mice",
+              "Myeloid-Lymphoid Leukemia Protein",
+              "Oligopeptides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34035431/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "neutrophil immunodeficiency syndrome",
+        "txgnn_score": 0.9510905146598816,
+        "txgnn_rank": 26440,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "central nervous system melanocytic neoplasm",
+        "txgnn_score": 0.93287593126297,
+        "txgnn_rank": 30129,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08889",
+    "name": "Carfilzomib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Carfilzomib"
+      },
+      "queried_at": "2026-03-10T04:36:58.448320",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Carfilzomib"
+      },
+      "queried_at": "2026-03-10T04:37:02.478608",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T04:37:03.031642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T04:37:06.530820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "CMM7"
+      },
+      "queried_at": "2026-03-10T04:37:07.253206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:07.869922",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:13.878583",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "pediatric leptomeningeal melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:14.928193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:15.651005",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:18.387087",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "epithelioid cell uveal melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:19.121737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:37:19.770695",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:37:22.720348",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "vulvar melanoma (disease)"
+      },
+      "queried_at": "2026-03-10T04:37:23.635390",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:25.683587",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:28.998925",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "melanoma"
+      },
+      "queried_at": "2026-03-10T04:37:31.440703",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T04:37:32.027806",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T04:37:34.975317",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-10T04:37:36.724227",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "intellectual disability, autosomal dominant 55, with seizures"
+      },
+      "queried_at": "2026-03-10T04:37:37.219643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "intellectual disability, autosomal dominant 55, with seizures"
+      },
+      "queried_at": "2026-03-10T04:37:40.236340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "intellectual disability, autosomal dominant 55, with seizures"
+      },
+      "queried_at": "2026-03-10T04:37:41.147326",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T04:37:41.837937",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T04:37:45.370848",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T04:37:48.511054",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "neutrophil immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:37:49.059159",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "neutrophil immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:37:53.020995",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "neutrophil immunodeficiency syndrome"
+      },
+      "queried_at": "2026-03-10T04:37:53.733206",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "central nervous system melanocytic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:37:54.374328",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "central nervous system melanocytic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:37:57.923272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carfilzomib",
+        "disease": "central nervous system melanocytic neoplasm"
+      },
+      "queried_at": "2026-03-10T04:37:58.728766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:37:58.749490"
+  }
+}

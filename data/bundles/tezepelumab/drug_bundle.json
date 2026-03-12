@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Tezepelumab",
+    "drugbank_id": "DB15090",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9840198755264282,
+        "txgnn_rank": 14808,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.983126699924469,
+        "txgnn_rank": 15376,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.983126699924469,
+        "txgnn_rank": 15377,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.983126699924469,
+        "txgnn_rank": 15378,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.983126699924469,
+        "txgnn_rank": 15379,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.983126699924469,
+        "txgnn_rank": 15380,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.982868790626526,
+        "txgnn_rank": 15534,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.982868790626526,
+        "txgnn_rank": 15535,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9822173714637756,
+        "txgnn_rank": 15904,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9811689853668212,
+        "txgnn_rank": 16462,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15090",
+    "name": "Tezepelumab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Tezepelumab"
+      },
+      "queried_at": "2026-03-10T07:25:35.167575",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Tezepelumab"
+      },
+      "queried_at": "2026-03-10T07:25:36.241149",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:25:36.918221",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:25:40.231790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:25:41.299459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:25:41.878541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:25:45.470801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:25:46.413145",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:25:47.419202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:25:52.883717",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:25:53.701538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:25:54.227207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:25:57.666252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:25:59.180955",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:25:59.771219",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:26:03.970080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:26:04.858211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:26:05.350892",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:26:08.184933",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:26:08.812512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:26:11.357624",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:26:15.378034",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:26:16.473141",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:26:17.169154",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:26:21.068343",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:26:21.998440",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:26:22.648200",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:26:26.374935",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:26:27.281093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:26:27.912566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:26:33.054156",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Tezepelumab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:26:33.961384",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:26:33.993871"
+  }
+}

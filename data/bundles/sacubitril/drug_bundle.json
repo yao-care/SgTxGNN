@@ -1,0 +1,1503 @@
+{
+  "drug": {
+    "inn": "Sacubitril",
+    "drugbank_id": "DB09292",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+        "txgnn_score": 0.995797634124756,
+        "txgnn_rank": 5779,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Homeodomain Proteins",
+              "Transcription Factors",
+              "Anterior Eye Segment",
+              "Eye Abnormalities",
+              "Forkhead Transcription Factors",
+              "Mutation",
+              "Eye Diseases, Hereditary",
+              "Bone and Bones",
+              "Hearing Loss, Sensorineural"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35882526/"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurrence risk can be determined only after complete evaluation of the patient and other family members.",
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "authors": [
+              "Pagon R A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S.",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Choroid",
+              "Coloboma",
+              "Eye",
+              "Eye Abnormalities",
+              "Female",
+              "Genes, Dominant",
+              "Genes, Recessive",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6782689/"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle interhemispheric variant\" of HPE at the less severe end of the spectrum. Between them, different intermediate forms demonstrate a continuum in a wide phenotypic spectrum rather than well-defined categories. Although the term \"HPE\" suggests a disorder affecting only the prosencephalon, other brain structures are involved, underlining the complexity of the malformation. Because of close spatiotemporal interactions and common signaling pathways contributing to the development of both brain and face, co",
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anencephaly",
+              "Brain",
+              "Central Nervous System",
+              "Dandy-Walker Syndrome",
+              "Eye Abnormalities",
+              "Face",
+              "Holoprosencephaly",
+              "Humans",
+              "Prosencephalon",
+              "Spinal Cord"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30182440/"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Coloboma",
+              "Humans",
+              "Infant",
+              "Neuroimaging",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Retinal Vessels"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33870948/"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough examination of the child's eye, often with general anesthesia. Different clinical aspects can be observed: simple megalocornea without ocular or systemic anomalies, megalocornea with ocular and/or systemic anomalies as well as multiple malformation syndromes, dermatological diseases, skeletal diseases, and genetic or chromosomic diseases. A systematic general pediatric examination is therefore necessary. Congenital megalocornea must be considered, first of all, as a differential diagnosis of primar",
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child, Preschool",
+              "Cornea",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Genetic Linkage",
+              "Glaucoma",
+              "Humans",
+              "Infant",
+              "Infant, Newborn",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11941259/"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Choroid",
+              "Choroidal Neovascularization",
+              "Coloboma",
+              "Diagnosis, Differential",
+              "Humans",
+              "Optic Disk",
+              "Optic Nerve Diseases",
+              "Pigment Epithelium of Eye",
+              "Retina",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10498002/"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "authors": [
+              "Savino P J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Coloboma",
+              "Fundus Oculi",
+              "Humans",
+              "Ischemia",
+              "Nerve Compression Syndromes",
+              "Ophthalmoscopy",
+              "Optic Disk",
+              "Optic Nerve",
+              "Optic Nerve Diseases",
+              "Optic Neuritis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6390155/"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a result, the horse owner frequently receives misinformation. Hopefully, this brief coverage of congenital ocular anomalies will provide useful information and assist in appropriate communication to concerned parties.",
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "authors": [
+              "Roberts S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cataract",
+              "Eye Abnormalities",
+              "Eye Diseases, Hereditary",
+              "Eyelid Diseases",
+              "Horse Diseases",
+              "Horses",
+              "Nasolacrimal Duct",
+              "Night Blindness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1458324/"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used in four eyelids with congenital distichiasis, with very good results.",
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Cryotherapy",
+              "Eyelashes",
+              "Eyelids",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16848213/"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Branchio-Oto-Renal Syndrome",
+              "Child, Preschool",
+              "Female",
+              "Humans",
+              "Phenotype"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22963965/"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, appropriate facial embryology, assessment and surgical considerations of the various congenital craniofacial abnormalities are reviewed. The expanding availability of craniofacial surgeons and surgical teams along with improved surgical results will ultimately require an increasing involvement by many more ophthalmologists in the evaluation and management of these congenital abnormalities.",
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Craniofacial Dysostosis",
+              "Craniosynostoses",
+              "Eye Abnormalities",
+              "Facial Bones",
+              "Humans",
+              "Orbit",
+              "Skull",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2237761/"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Infant",
+              "Humans",
+              "Nasolacrimal Duct",
+              "Lacrimal Duct Obstruction",
+              "Eyelids",
+              "Lacrimal Apparatus",
+              "Eyelid Diseases",
+              "Treatment Outcome",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36636984/"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Child",
+              "Eyelids",
+              "Female",
+              "Fraser Syndrome",
+              "Humans",
+              "Male",
+              "Microphthalmos",
+              "Rare Diseases",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35791156/"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Adolescent",
+              "Adult",
+              "Child",
+              "Coloboma",
+              "DNA Mutational Analysis",
+              "DNA-Binding Proteins",
+              "Female",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11581073/"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases, respectively. Thirty-four (54%) of the 63 CAKUT-associated genes (55 'green' and 8 'amber') had a reported ocular phenotype. Five of the 6 most common CAKUT-associated genes (PAX2, EYA1, SALL1, GATA3, PBX1) that represent 30% of all diagnoses had ocular features. The ocular abnormalities found with most CAKUT-associated genes and with five of the six commonest were coloboma, microphthalmia, optic disc anomalies, refraction errors (astigmatism, myopia, and hypermetropia), and cataract. Seven of ",
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Mice",
+              "Animals",
+              "Humans",
+              "Kidney",
+              "Urinary Tract",
+              "Vesico-Ureteral Reflux",
+              "Urogenital Abnormalities"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37468646/"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate or uvula 7/21, high, broad nasal bridge 15/15, cranial abnormality 6/21, congenital heart defect 5/21, cryptorchidism 9/21, and mental retardation 11/17. In our series, the most frequent anomalies include telecanthus 18/18, hypospadias 18/18, cleft lip/palate or uvula 8/18, high, broad nasal bridge 10/11, cranial abnormality 12/18, congenital heart defect 3/18, upper urinary tract anomaly 4/9, and mental retardation 10/12. There is also an increased incidence of like-sex twinning, 11/18 in our fa",
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Cleft Lip",
+              "Cleft Palate",
+              "Diseases in Twins",
+              "Eyelids",
+              "Humans",
+              "Hypospadias",
+              "Male",
+              "Pedigree",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3050099/"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of posterior embryotoxon with iris bridging strands (Axenfeld anomaly) and iris hypoplasia causing corectopia and pseudopolycoria (Rieger anomaly). Glaucoma due to iridogoniodysgenesis is the main source of morbidity and is typically diagnosed during infancy or childhood in over half of affected individuals. Angle bypass surgery, such as glaucoma drainage devices and trabeculectomies, is often needed to obtain intraocular pressure control. A multi-disciplinary approach including glaucoma specialists a",
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36926528/"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Abnormalities, Multiple",
+              "Eyebrows",
+              "Eyelashes",
+              "Eyelids",
+              "Humans",
+              "Infant, Newborn",
+              "Macrostomia",
+              "Male",
+              "Surgical Flaps",
+              "Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2036354/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+        "txgnn_score": 0.9956924319267272,
+        "txgnn_rank": 5880,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic nephropathy",
+        "txgnn_score": 0.9950370192527772,
+        "txgnn_rank": 6456,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06501651",
+            "title": "A Prospective, Randomized, Controlled, Multicenter Study of Sacubitril/Valsartan in the Treatment of Patients With Mild to Moderate Essential Hypertension and Type 2 Diabetic Nephropathy: The Hyper-Save Study",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-08-01",
+            "completion_date": "2025-04-10",
+            "country": "China",
+            "enrollment": 297,
+            "brief_summary": "This study aims to compare the efficacy and safety of Sacubitril/Valsartan versus Valsartan in patients with essential hypertension and type 2 diabetic nephropathy over a 12-week treatment period, including two treatment groups, with a total of 297 eligible subjects randomly assigned in a 2:1 ratio to either the experimental group or the control group.Subjects will participate in the study through two phases: the screening period and the follow-up period.The primary outcome measure is the change",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18 years or older, no gender restriction;\n* Diagnosed with mild to moderate primary hypertension (140 ≤ SBP \\< 180 mmHg and/or 90 ≤ DBP \\< 110 mmHg), including newly diagnosed or inadequately treated patients (those who have not followed previous medical advice and have un",
+            "endpoints": [
+              "Reduction in 24-hour ambulatory systolic blood pressure(SBP)"
+            ],
+            "sponsor": "Sichuan Academy of Medical Sciences",
+            "url": "https://clinicaltrials.gov/study/NCT06501651"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04735354",
+            "title": "Sacubitril/Valsartan in Heart Failure With Reduced Ejection Fraction Patients: a Real World Study in India",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2020-10-27",
+            "completion_date": "2022-06-01",
+            "country": "India",
+            "enrollment": 268,
+            "brief_summary": "This was a non-interventional, retrospective EMR analysis of longitudinal prescriptions in India for a period of 1.5 years. Demographic profile of patients with heart failure with reduced ejection fraction on sacubitril/valsartan was recorded.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients ≥18 years with a diagnosis of HFrEF as mentioned in database or heart failure with a recording of LVEF \\<40% at or before the index date\n* A prescription of sacubitril/valsartan\n\nExclusion Criteria:\n\n* Diagnosis of HF specified as preserved/mid-range ejection fraction",
+            "endpoints": [
+              "Age information",
+              "Gender information",
+              "Number of participants by Geographic area"
+            ],
+            "sponsor": "Novartis",
+            "url": "https://clinicaltrials.gov/study/NCT04735354"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37625003",
+            "title": "Diabetic Nephropathy: Update on Pillars of Therapy Slowing Progression.",
+            "abstract": "Management of diabetic kidney disease (DKD) has evolved in parallel with our growing understanding of the multiple interrelated pathophysiological mechanisms that involve hemodynamic, metabolic, and inflammatory pathways. These pathways and others play a vital role in the initiation and progression of DKD. Since its initial discovery, the blockade of the renin-angiotensin system has remained a cornerstone of DKD management, leaving a large component of residual risk to be dealt with. The advent of sodium-glucose cotransporter 2 inhibitors followed by nonsteroidal mineralocorticoid receptor antagonists and, to some extent, glucagon-like peptide 1 receptor agonists (GLP-1 RAs) has ushered in a resounding paradigm shift that supports a pillared approach in maximizing treatment to reduce outcomes. This pillared approach is like that derived from the approach to heart failure treatment. The approach mandates that all agents that have been shown in clinical trials to reduce cardiovascular ou",
+            "journal": "Diabetes care",
+            "year": "2023",
+            "authors": [
+              "Naaman Sandra C",
+              "Bakris George L"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Diabetic Nephropathies",
+              "Kidney",
+              "Heart",
+              "Heart Failure",
+              "Glucagon-Like Peptide 1",
+              "Diabetes Mellitus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37625003/"
+          },
+          {
+            "pmid": "35992034",
+            "title": "Sacubitril/Valsartan Improves Progression of Early Diabetic Nephropathy in Rats Through Inhibition of NLRP3 Inflammasome Pathway.",
+            "abstract": "Diabetic nephropathy (DN), a global disease, is the leading cause of end-stage renal disease. There is a lack of specific treatment for this disease, and early intervention in disease progression is essential. In this paper, we used a rat model of early diabetic nephropathy to explore the therapeutic mechanism of sacubitril/valsartan in rats with early diabetic nephropathy.",
+            "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+            "year": "2022",
+            "authors": [
+              "Pan Yan",
+              "Liu Lei",
+              "Yang Huijuan",
+              "Chen Weidong",
+              "Chen Zheng"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35992034/"
+          },
+          {
+            "pmid": "36589853",
+            "title": "Sacubitril/Valsartan contributes to improving the diabetic kidney disease and regulating the gut microbiota in mice.",
+            "abstract": "Diabetic kidney disease (DKD), as a serious microvascular complication of diabetes, has limted treatment options. It is reported that the Sacubitril/Valsartan (Sac/Val) can improve kidney function, and the disordered gut microbiota and part of its metabolites are related to the development of DKD. Therefore, we aim to explore whether the effect of Sac/Val on DKD is associated with the gut microbiota and related plasma metabolic profiles.",
+            "journal": "Frontiers in endocrinology",
+            "year": "2022",
+            "authors": [
+              "Wang Peipei",
+              "Guo Ruixue",
+              "Bai Xiwen",
+              "Cui Wen",
+              "Zhang Yiding"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Male",
+              "Mice",
+              "Biomarkers",
+              "Diabetes Mellitus",
+              "Diabetic Nephropathies",
+              "Fibrosis",
+              "Gastrointestinal Microbiome",
+              "Mice, Inbred C57BL",
+              "RNA, Ribosomal, 16S"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36589853/"
+          },
+          {
+            "pmid": "32596035",
+            "title": "LCZ696 mitigates diabetic-induced nephropathy through inhibiting oxidative stress, NF-κB mediated inflammation and glomerulosclerosis in rats.",
+            "abstract": "Diabetic nephropathy (DN) is among the most common microvascular complications of diabetes resulting in end-stage renal disease and therefore search for candidates which can ameliorate the kidney function is needed simultaneously with standard diabetic pharmacotherapy. The current study was aimed to investigate the effect of long term sacubitril/valsartan therapy (LCZ696) in diabetic rats to assess its ameliorative impact against various pathological parameters such as oxidative stress, inflammation and glomerulosclerosis associated with chronic DN.",
+            "journal": "PeerJ",
+            "year": "2020",
+            "authors": [
+              "Mohany Mohamed",
+              "Alanazi Ahmed Z",
+              "Alqahtani Faleh",
+              "Belali Osamah M",
+              "Ahmed Mohammed M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32596035/"
+          },
+          {
+            "pmid": "37549515",
+            "title": "Therapeutic improvements of nifedipine controlled-release tablets combined with sacubitril valsartan on patients with diabetic nephropathy complicated with hypertension.",
+            "abstract": "This study aimed to evaluate the efficacy of nifedipine controlled-release tablets combined with sacubitril valsartan in diabetic nephropathy (DN) patients with hypertension. One hundred and twelve DN patients with hypertension were enrolled. They were randomly divided into the control group (treated with nifedipine controlled-release tablets combined with valsartan) and the observation group (treated with nifedipine controlled-release tablets combined with sacubitril valsartan). Renal function, endothelial function and inflammatory response were examined. After three-months treatment, the levels of clinical indexes (glycosylated hemoglobin, fasting blood glucose, systolic and diastolic blood pressure), renal function indicators (urinary albumin excretion rate, blood urea nitrogen, serum creatinine and cystatin C), endothelial function indicators (microalbumin, angiotensin II, thrombomodulin and cartilage oligomeric matrix protein) and inflammatory response factors (interleukin-6 and t",
+            "journal": "International immunopharmacology",
+            "year": "2023",
+            "authors": [
+              "Wei Yinyu",
+              "Hu Lele",
+              "Liu Guoying"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Nifedipine",
+              "Diabetic Nephropathies",
+              "Delayed-Action Preparations",
+              "Valsartan",
+              "Hypertension",
+              "Biphenyl Compounds",
+              "Drug Combinations",
+              "Tetrazoles",
+              "Diabetes Mellitus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37549515/"
+          },
+          {
+            "pmid": "34441977",
+            "title": "Diabetes Mellitus and Heart Failure.",
+            "abstract": "Diabetes mellitus (DM) is a major risk factor for new-onset heart failure (HF) and vice versa. The pathogenesis of new-onset HF in DM is complex and has been largely attributed to the toxic cardiovascular effects of hyperglycemia and relevant metabolic abnormalities (diabetic cardiomyopathy) as well as the frequently coexisting morbidities such as hypertension (HTN), coronary artery disease (CAD), and diabetic nephropathy. In patients with type 1 DM (T1DM), HF develops in the setting of a dysregulated immune response, whereas in most patients with type 2 DM (T2DM), against a background of overweight/obesity. HF prevention in DM is feasible with rigorous treatment of cardiovascular risk factors and selective antidiabetic agents. Conversely, development of new-onset T2DM in HF (cardiogenic DM) is common and has been attributed to an increase in the resistance to insulin, especially in the skeletal muscle, liver, and adipose tissue as well as in diminished insulin secretory response to hy",
+            "journal": "Journal of clinical medicine",
+            "year": "2021",
+            "authors": [
+              "Triposkiadis Filippos",
+              "Xanthopoulos Andrew",
+              "Bargiota Alexandra",
+              "Kitai Takeshi",
+              "Katsiki Niki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34441977/"
+          },
+          {
+            "pmid": "33870733",
+            "title": "Sacubitril/valsartan treatment has differential effects in modulating diabetic kidney disease in db/db mice and KKAy mice compared with valsartan treatment.",
+            "abstract": "Although renin-angiotensin blockade has shown beneficial outcomes in patients with diabetes, renal injury progresses in most of these patients. Therefore, there remains a need for new therapeutic targets in diabetic kidney disease. Enhancement of vasoactive peptides, such as natriuretic peptides, via neprilysin inhibition, has been a new approach. A first-in-class drug, sacubitril/valsartan (Sac/Val), a combination of the angiotensin II receptor blocker Val and neprilysin inhibitor prodrug Sac, has been shown to be more effective than renin-angiotensin blockade alone in the treatment of heart failure with reduced ejection fraction. In this study, we tested the effects of Sac/Val in diabetic kidney disease. We administered Sac/Val or Val to two type 2 diabetes mouse models, db/db mice or KKAy mice. After 3 mo of treatment, Sac/Val attenuated the progression of proteinuria, glomerulosclerosis, and podocyte loss in both models of diabetic mice. Val shared a similar improvement but to a le",
+            "journal": "American journal of physiology. Renal physiology",
+            "year": "2021",
+            "authors": [
+              "Myakala Komuraiah",
+              "Jones Bryce A",
+              "Wang Xiaoxin X",
+              "Levi Moshe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Albuminuria",
+              "Aminobutyrates",
+              "Angiotensin Receptor Antagonists",
+              "Animals",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Diabetic Nephropathies",
+              "Drug Combinations",
+              "Inflammation",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33870733/"
+          },
+          {
+            "pmid": "40416927",
+            "title": "BOLD MRI to Evaluate the Effects of Sacubitril/Valsartan on Renal Protection in Type 2 Diabetics.",
+            "abstract": "To investigate the effects of sacubitril/valsartan on diabetic nephropathy patients by blood-oxygenation-level dependent-magnetic resonance imaging (BOLD-MRI).",
+            "journal": "Diabetes, metabolic syndrome and obesity : targets and therapy",
+            "year": "2025",
+            "authors": [
+              "Zhai Limin",
+              "Wang Yue",
+              "Xiang Li",
+              "Ni Liang-Ping",
+              "Zhang Deyuan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40416927/"
+          },
+          {
+            "pmid": "35165832",
+            "title": "Newer Drugs to Reduce High Blood Pressure and Mitigate Hypertensive Target Organ Damage.",
+            "abstract": "This review aims to investigate the blood pressure (BP)-lowering effects of emerging drugs developed to treat diabetic kidney disease and heart failure (HF). We summarize the potential pathophysiological mechanisms responsible for mitigating hypertensive target organ damage and evaluating the available clinical data on these newer drugs.",
+            "journal": "Current hypertension reports",
+            "year": "2022",
+            "authors": [
+              "Upadhya Bharathi",
+              "Kozak Patrick M",
+              "Stacey Richard Brandon",
+              "Vasan Ramachandran S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aminobutyrates",
+              "Angiotensin Receptor Antagonists",
+              "Antihypertensive Agents",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Cardiovascular Diseases",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Nephropathies",
+              "Drug Combinations",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35165832/"
+          },
+          {
+            "pmid": "34734359",
+            "title": "Use of disease-modifying drugs in diabetic patients with heart failure with reduced ejection fraction.",
+            "abstract": "Type 2 diabetes mellitus and heart failure are closely related, patients with type 2 diabetes mellitus have a higher risk of developing heart failure, and those with heart failure are at increased risk of developing type 2 diabetes. Although no specific randomized clinical trials have been conducted to test the effect of cardiovascular therapies (drugs and/or devices) in diabetic patients with heart failure, a lot of evidence shows that all interventions effective in improving prognosis in patients with heart failure reduced ejection fraction are equally beneficial in patients with and without diabetes. However, the use of disease-modifying drugs in patients with diabetes and heart failure reduced ejection fraction is a clinical challenge due to the increased risk of adverse effects. For example, β-blockers are underutilized in diabetic patients due to the theoretical unfavorable effects on glucose metabolism as well as the use of drugs that interact with the renin-angiotensin system c",
+            "journal": "Heart failure reviews",
+            "year": "2023",
+            "authors": [
+              "Masarone Daniele",
+              "Pacileo Roberta",
+              "Pacileo Giuseppe"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Stroke Volume",
+              "Diabetes Mellitus, Type 2",
+              "Angiotensin Receptor Antagonists",
+              "Heart Failure",
+              "Renin-Angiotensin System"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34734359/"
+          },
+          {
+            "pmid": "30909895",
+            "title": "The combination of a neprilysin inhibitor (sacubitril) and angiotensin-II receptor blocker (valsartan) attenuates glomerular and tubular injury in the Zucker Obese rat.",
+            "abstract": "Diabetic nephropathy (DN) is characterized by glomerular and tubulointerstitial injury, proteinuria and remodeling. Here we examined whether the combination of an inhibitor of neprilysin (sacubitril), a natriuretic peptide-degrading enzyme, and an angiotensin II type 1 receptor blocker (valsartan), suppresses renal injury in a pre-clinical model of early DN more effectively than valsartan monotherapy.",
+            "journal": "Cardiovascular diabetology",
+            "year": "2019",
+            "authors": [
+              "Habibi Javad",
+              "Aroor Annayya R",
+              "Das Nitin A",
+              "Manrique-Acevedo Camila M",
+              "Johnson Megan S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, Non-P.H.S."
+            ],
+            "mesh_terms": [
+              "Aminobutyrates",
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Arterial Pressure",
+              "Biomarkers",
+              "Biphenyl Compounds",
+              "Blood Glucose",
+              "Diabetic Nephropathies",
+              "Disease Models, Animal",
+              "Drug Combinations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30909895/"
+          },
+          {
+            "pmid": "35975848",
+            "title": "Diabetes and Cardiorenal Complications: A Clinical Review of Existing Therapies and Novel Combinations, Focusing on SGLT2 Inhibitors.",
+            "abstract": "Type 2 diabetes mellitus (T2DM) is a set of metabolic disorders specified by hyperglycemia as a result of abnormalities in insulin secretion or sensitivity. Chronic kidney disease (CKD) and cardiovascular disease (CVD) are the widespread co-morbidities of T2DM and share risk factors for onset and progression. Despite numerous mono- and combination therapies exist, the progression of diabetes complications remains a global health concern. Treatment options for diabetic- CKD and CVD include drugs targeting hyperglycemia, hypertension, albuminuria, hyperlipidemia and the renin-angiotensin aldosterone system (RAAS). The sodium-glucose co-transporter 2 channel (SGLT2) is abundantly present in proximal tubules of the kidney and its capacity to recover glucose and sodium from the glomerular filtrate limits urinary glucose and sodium excretion. SGLT2 inhibitors (SGLT2i) reduce sodium and glucose reabsorption in the proximal and thus increase urinary glucose excretion in T2DM. SGLT2i monotherap",
+            "journal": "Current diabetes reviews",
+            "year": "2023",
+            "authors": [
+              "Kale Ajinath",
+              "Sharma Anshima",
+              "Anders Hans-Joachim",
+              "Gaikwad Anil Bhanudas"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sodium-Glucose Transporter 2 Inhibitors",
+              "Diabetes Mellitus, Type 2",
+              "Sodium-Glucose Transporter 2",
+              "Hypoglycemic Agents",
+              "Diabetic Nephropathies",
+              "Glucose",
+              "Hyperglycemia",
+              "Renal Insufficiency, Chronic",
+              "Cardiovascular Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35975848/"
+          },
+          {
+            "pmid": "40635044",
+            "title": "LCZ696 improves oxidative stress injury in human podocytes induced by increased glucose levels via Nrf2/HO-1 signaling pathway.",
+            "abstract": "Uncontrolled diabetes results in diabetic kidney disease (DKD), impacting approximately 40% of individuals with diabetes. Early indicators include podocyte damage and proteinuria, which are influenced by oxidative stress and dysregulation of the Nrf2/HO-1 pathway.",
+            "journal": "European journal of medical research",
+            "year": "2025",
+            "authors": [
+              "Zhang Hongqiang",
+              "Yu Mingrui",
+              "Zhang Yijie",
+              "Lu Donglin",
+              "Liu Gang"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Podocytes",
+              "NF-E2-Related Factor 2",
+              "Oxidative Stress",
+              "Humans",
+              "Glucose",
+              "Signal Transduction",
+              "Valsartan",
+              "Biphenyl Compounds",
+              "Drug Combinations",
+              "Aminobutyrates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40635044/"
+          },
+          {
+            "pmid": "37202215",
+            "title": "Sacubitril/valsartan ameliorates renal tubulointerstitial injury through increasing renal plasma flow in a mouse model of type 2 diabetes with aldosterone excess.",
+            "abstract": "Aldosterone has been assumed to be one of aggravating factors in diabetic kidney disease (DKD). Natriuretic peptides/guanylyl cyclase-A/cGMP signalling has been shown to ameliorate aldosterone-induced renal injury in mice. Sacubitril/valsartan (SAC/VAL) is used clinically for chronic heart failure and hypertension, in part by augmenting natriuretic peptide bioavailability. The effects of SAC/VAL on renal pathophysiology including in DKD, however, have remained unclarified.",
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "2023",
+            "authors": [
+              "Nishio Haruomi",
+              "Ishii Akira",
+              "Yamada Hiroyuki",
+              "Mori Keita P",
+              "Kato Yukiko"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Male",
+              "Mice",
+              "Animals",
+              "Aldosterone",
+              "Renal Plasma Flow",
+              "Diabetes Mellitus, Type 2",
+              "Kidney",
+              "Valsartan",
+              "Biphenyl Compounds",
+              "Diabetic Nephropathies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37202215/"
+          },
+          {
+            "pmid": "34431635",
+            "title": "[Potential role of sacubitril/valsartan combination in type 2 diabetes].",
+            "abstract": "Sacubitril/valsartan, a first-in-class angiotensin receptor-neprilysin inhibitor (ARNI), is indicated for the treatment of heart failure with reduced ejection fraction. It has demonstrated benefits in terms of cardiovascular morbidity and mortality reduction in this population. Recently, this drug association has also been shown to improve glycemic control and insulin sensitivity in patients with obesity and/or type 2 diabetes. Furthermore, some studies suggest a protective role of this new drug class in diabetic nephropathy. Altogether, these data raise the question about the potential place of ARNI in prevention and treatment of type 2 diabetes, a condition closely associated with heart failure.",
+            "journal": "Revue medicale suisse",
+            "year": "2021",
+            "authors": [
+              "Esser Nathalie",
+              "Paquot Nicolas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminobutyrates",
+              "Angiotensin Receptor Antagonists",
+              "Biphenyl Compounds",
+              "Diabetes Mellitus, Type 2",
+              "Drug Combinations",
+              "Humans",
+              "Neprilysin",
+              "Valsartan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34431635/"
+          },
+          {
+            "pmid": "29661699",
+            "title": "Effect of neprilysin inhibition on renal function in patients with type 2 diabetes and chronic heart failure who are receiving target doses of inhibitors of the renin-angiotensin system: a secondary analysis of the PARADIGM-HF trial.",
+            "abstract": "Neprilysin inhibition has favourable effects on experimental diabetic nephropathy. We sought to assess the effects of neprilysin inhibition on the course of renal function in patients with type 2 diabetes.",
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2018",
+            "authors": [
+              "Packer Milton",
+              "Claggett Brian",
+              "Lefkowitz Martin P",
+              "McMurray John J V",
+              "Rouleau Jean L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aminobutyrates",
+              "Angiotensin Receptor Antagonists",
+              "Angiotensin-Converting Enzyme Inhibitors",
+              "Biphenyl Compounds",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Diabetes Mellitus, Type 2",
+              "Diabetic Nephropathies",
+              "Drug Combinations"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29661699/"
+          },
+          {
+            "pmid": "27129187",
+            "title": "Blood pressure-independent renoprotection in diabetic rats treated with AT1 receptor-neprilysin inhibition compared with AT1 receptor blockade alone.",
+            "abstract": "ARNI [dual AT1 (angiotensin II type 1) receptor-neprilysin inhibition] exerts beneficial effects on blood pressure and kidney function in heart failure, compared with ARB (AT1 receptor blockade) alone. We hypothesized that ARNI improves cardiac and kidney parameters in diabetic TGR(mREN2)27 rats, an angiotensin II-dependent hypertension model. Rats were made diabetic with streptozotocin for 5 or 12 weeks. In the final 3 weeks, rats were treated with vehicle, irbesartan (ARB) or irbesartan+thiorphan (ARNI). Blood pressure, measured by telemetry in the 5-week group, was lowered identically by ARB and ARNI. The heart weight/tibia length ratio in 12-week diabetic animals was lower after ARNI compared with after ARB. Proteinuria and albuminuria were observed from 8 weeks of diabetes onwards. ARNI reduced proteinuria more strongly than ARB, and a similar trend was seen for albuminuria. Kidneys of ARNI-treated animals showed less severe segmental glomerulosclerosis than those of ARB-treated a",
+            "journal": "Clinical science (London, England : 1979)",
+            "year": "2016",
+            "authors": [
+              "Roksnoer Lodi C W",
+              "van Veghel Richard",
+              "Clahsen-van Groningen Marian C",
+              "de Vries René",
+              "Garrelds Ingrid M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aminobutyrates",
+              "Angiotensin II Type 1 Receptor Blockers",
+              "Animals",
+              "Atrial Natriuretic Factor",
+              "Biphenyl Compounds",
+              "Blood Pressure",
+              "Diabetes Mellitus, Experimental",
+              "Diabetic Nephropathies",
+              "Drug Combinations",
+              "Neprilysin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27129187/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.9934679865837096,
+        "txgnn_rank": 7855,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hemoglobinopathy",
+        "txgnn_score": 0.9918153882026672,
+        "txgnn_rank": 9160,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sclerosing cholangitis",
+        "txgnn_score": 0.9892494678497314,
+        "txgnn_rank": 11080,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.98920738697052,
+        "txgnn_rank": 11104,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "homozygous familial hypercholesterolemia",
+        "txgnn_score": 0.9887019395828248,
+        "txgnn_rank": 11503,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "partial deletion of the short arm of chromosome 16",
+        "txgnn_score": 0.988476037979126,
+        "txgnn_rank": 11699,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "beta-thalassemia with other manifestations",
+        "txgnn_score": 0.988331377506256,
+        "txgnn_rank": 11813,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09292",
+    "name": "Sacubitril",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sacubitril"
+      },
+      "queried_at": "2026-03-10T02:41:45.290266",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sacubitril"
+      },
+      "queried_at": "2026-03-10T02:41:47.334182",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T02:41:48.379816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T02:41:52.971211",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "queried_at": "2026-03-10T02:41:56.185820",
+      "status": "success",
+      "result_count": 18,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T02:41:56.808284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T02:42:00.583589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "queried_at": "2026-03-10T02:42:01.585215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T02:42:02.245452",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T02:42:05.193064",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "diabetic nephropathy"
+      },
+      "queried_at": "2026-03-10T02:42:10.723815",
+      "status": "success",
+      "result_count": 17,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T02:42:12.481473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T02:42:15.714378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T02:42:18.527938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T02:42:20.601762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T02:42:24.663736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "hemoglobinopathy"
+      },
+      "queried_at": "2026-03-10T02:42:27.454768",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T02:42:29.240531",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T02:42:33.214333",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "sclerosing cholangitis"
+      },
+      "queried_at": "2026-03-10T02:42:34.125808",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T02:42:34.838012",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T02:42:39.913272",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T02:42:40.861663",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T02:42:45.420889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T02:42:49.085338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "queried_at": "2026-03-10T02:42:49.819237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T02:42:50.487144",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T02:42:54.871375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "queried_at": "2026-03-10T02:42:57.478606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T02:42:58.417669",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T02:43:02.034742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sacubitril",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "queried_at": "2026-03-10T02:43:03.188996",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:43:03.226765"
+  }
+}

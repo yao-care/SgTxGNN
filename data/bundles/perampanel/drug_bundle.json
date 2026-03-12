@@ -1,0 +1,2813 @@
+{
+  "drug": {
+    "inn": "Perampanel",
+    "drugbank_id": "DB08883",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "visual epilepsy",
+        "txgnn_score": 0.999226450920105,
+        "txgnn_rank": 1609,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03780907",
+            "title": "A Randomised, Double-Blind, Placebo-Controlled Study of the Tolerability, Safety and Pharmacokinetics of E2007 in Epileptic Patients With Partial and Generalised Seizures",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2003-02-14",
+            "completion_date": "2003-08-06",
+            "country": "Germany",
+            "enrollment": 18,
+            "brief_summary": "The objectives of this study were to assess the tolerability and safety of E2007 in patients with refractory partial or generalised seizures and to assess the pharmacokinetics of E2007 in epileptic patients receiving at least one concomitant anti-epileptic drug.",
+            "eligibility_criteria": "Inclusion Criteria\n\nA patient who met the following inclusion criteria was eligible to participate in the study:\n\n1. Males or females with simple or complex partial seizures with or without secondary generalization, or primary generalized tonic-clonic seizures according to the International League a",
+            "endpoints": [
+              "Number of participants with Treatment Emergent Adverse Events (TEAEs)",
+              "Clinical Global Impression of Tolerability (CGIT)",
+              "Pharmacokinetic Parameter: Area Under the Curve (AUC)(0-24hr) of E2007"
+            ],
+            "sponsor": "Eisai Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03780907"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02900755",
+            "title": "Effects of Perampanel on Cognition and Electroencephalography in Patients With Epilepsy",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-12",
+            "completion_date": "2020-11-20",
+            "country": "South Korea",
+            "enrollment": 30,
+            "brief_summary": "Perampanel, a novel AED, has been recently authorized in Korea and worldwide as a treatment of refractory partial-onset seizures with a new anti-epileptic mechanism of a selective non-competitive antagonist of AMPA receptors.\n\nEvaluating adverse effects during the introduction of new AED is often difficult since the complaints are subjective and objective assessment is complicated due to the polytherapy. Majority of previous studies are focused on quantitative analysis of EEG for taking new AEDs",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female subjects aged 18-65 years\n* Provide written informed consent signed by the subject or legal guardian prior to entering the study in accordance with the IRB guidelines\n* Subjects in otherwise good health (with the exception of epilepsy), as determined by the PI v",
+            "endpoints": [
+              "Quantitative EEG (qEEG) change"
+            ],
+            "sponsor": "Seoul National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02900755"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03653741",
+            "title": "Effects of Perampanel on Neurophysiology Test Perimeters",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-10-01",
+            "completion_date": "2021-11-29",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "This is a study to evaluate the effects of perampanel, a FDA approved drug for epilepsy, on commonly performed neurophysiology tests: electroencephalogram (EEG), somatosensory evoked potential (SEP), brainstem auditory evoked potential (BAEP), and visual evoked potential (VEP). Many other drugs used in the treatment of epilepsy have been shown to affect the results of these test but no one has yet examined if perampanel affects these tests. The investigators plan to recruit 12 healthy normal mal",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy subjects between the ages of 18 to 50 years old with a body mass index of 19-29 kg/m2 will be recruited.\n\nExclusion Criteria:\n\n* Subjects would be excluded if they use recreational drugs and have any neurologic disease, psychiatric condition or any other condition that",
+            "endpoints": [
+              "Change in Baseline Visual Evoked Potential (P100) Amplitude",
+              "Change in Baseline Visual Evoked Potential (P100) Latency",
+              "Change in Baseline Brainstem Auditory Evoked Potential (Waves I, III, V) Amplitude"
+            ],
+            "sponsor": "Weill Medical College of Cornell University",
+            "url": "https://clinicaltrials.gov/study/NCT03653741"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37684052",
+            "title": "Management of epilepsy during pregnancy and lactation.",
+            "abstract": "Epilepsy is a group of neurological diseases characterized by susceptibility to recurrent seizures. Antiseizure medications (ASMs) are the mainstay of treatment, but many antiseizure medications with variable safety profiles have been approved for use. For women with epilepsy in their childbearing years, the safety profile is important for them and their unborn children, because treatment is often required to protect them from seizures during pregnancy and lactation. Since no large randomized controlled trials have investigated safety in this subgroup of people with epilepsy, pregnancy registries, cohort and case-control studies from population registries, and a few large prospective cohort studies have played an important role. Valproate, in monotherapy and polytherapy, has been associated with elevated risk of major congenital malformations and neurodevelopmental disorders in children born to mothers who took it. Topiramate and phenobarbital are also associated with elevated risks of",
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "2023",
+            "authors": [
+              "Hope Omotola A",
+              "Harris Katherine Mj"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Pregnancy",
+              "Female",
+              "Humans",
+              "Breast Feeding",
+              "Valproic Acid",
+              "Prospective Studies",
+              "Lactation",
+              "Epilepsy",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37684052/"
+          },
+          {
+            "pmid": "36218253",
+            "title": "[Paediatric status epilepticus].",
+            "abstract": "Status epilepticus is defined as the situation resulting from the failure of the mechanisms responsible for terminating an epileptic seizure. In 2015, an operational concept was adopted internationally in which two times are identified: a first time, at which treatment must begin (five minutes for convulsive status, 10-15 minutes for focal and non-convulsive status); and a second time, after which there is considered to be a high risk of subsequent sequelae (30 minutes in the case of the convulsive). It occurs in 3-42/100,000 children per year, who are refractory or super-refractory in 10-40% of cases.",
+            "journal": "Revista de neurologia",
+            "year": "2022",
+            "authors": [
+              "Soto-Insuga V",
+              "González-Alguacil E",
+              "García-Peñas J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics",
+              "Anticonvulsants",
+              "Benzodiazepines",
+              "Child",
+              "Epilepsy",
+              "Humans",
+              "Ketamine",
+              "Lacosamide",
+              "Levetiracetam"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36218253/"
+          },
+          {
+            "pmid": "36150304",
+            "title": "Perampanel monotherapy for the treatment of epilepsy: Clinical trial and real-world evidence.",
+            "abstract": "Perampanel, a selective, non-competitive α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor antagonist, is a once-daily oral anti-seizure medication (ASM) for focal-onset seizures (FOS) and generalized tonic-clonic seizures (GTCS). In the US, perampanel is approved for the treatment of FOS (adjunctive and monotherapy), with or without focal to bilateral tonic-clonic seizures (FBTCS), in patients aged ≥4 years, and as adjunctive treatment of GTCS in patients aged ≥12 years. The monotherapy approvals in the US were based on the Food and Drug Administration's (FDA's) policy allowing extrapolation of adjunctive data to the monotherapy setting in the absence of randomized controlled monotherapy trials; since then, perampanel monotherapy has received approvals in approximately 48 countries. As there are key differences in clinical evidence of perampanel as adjunctive therapy vs monotherapy, we review the clinical outcomes of perampanel when administered as primary or secondary mon",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2022",
+            "authors": [
+              "Yamamoto Takamichi",
+              "Gil-Nagel Antonio",
+              "Wheless James W",
+              "Kim Ji Hyun",
+              "Wechsler Robert T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anticonvulsants",
+              "Retrospective Studies",
+              "Prospective Studies",
+              "Treatment Outcome",
+              "Pyridones",
+              "Epilepsy",
+              "Drug Therapy, Combination",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36150304/"
+          },
+          {
+            "pmid": "26111428",
+            "title": "Perampanel for epilepsy with partial-onset seizures: a pharmacokinetic and pharmacodynamic evaluation.",
+            "abstract": "Epilepsies are among the most common diseases of the CNS. As available antiepileptic drugs do not successfully control seizures in one-third of these patients, the development of drugs with new mechanisms of action is an urgent requirement.",
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2015",
+            "authors": [
+              "Schulze-Bonhage Andreas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Epilepsies, Partial",
+              "Half-Life",
+              "Humans",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26111428/"
+          },
+          {
+            "pmid": "31912315",
+            "title": "Therapeutic Drug Monitoring of Antiepileptic Drugs in Women with Epilepsy Before, During, and After Pregnancy.",
+            "abstract": "During pregnancy, the pharmacokinetics of an antiepileptic drug is altered because of changes in the clearance capacity and volume of distribution. These changes may have consequences for the frequency of seizures during pregnancy and fetal exposure to antiepileptic drugs. In 2009, a review was published providing guidance for the dosing and therapeutic drug monitoring of antiepileptic drugs during pregnancy. Since that review, new drugs have been licensed and new information about existing drugs has been published. With this review, we aim to provide an updated narrative overview of changes in the pharmacokinetics of antiepileptic drugs in women during pregnancy. In addition, we aim to formulate advice for dose modification and therapeutic drug monitoring of antiepileptic drugs. We searched PubMed and the available literature on the pharmacokinetic changes of antiepileptic drugs and seizure frequency during pregnancy published between January 2007 and September 2018. During pregnancy,",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2020",
+            "authors": [
+              "Arfman Inge J",
+              "Wammes-van der Heijden Elisabeth A",
+              "Ter Horst Peter G J",
+              "Lambrechts Danielle A",
+              "Wegner Ilse"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Drug Monitoring",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Postpartum Period",
+              "Pregnancy",
+              "Pregnancy Complications",
+              "Pregnancy Trimesters",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31912315/"
+          },
+          {
+            "pmid": "29898971",
+            "title": "Practice guideline update summary: Efficacy and tolerability of the new antiepileptic drugs I: Treatment of new-onset epilepsy: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Epilepsy Society.",
+            "abstract": "To update the 2004 American Academy of Neurology (AAN) guideline for treating new-onset focal or generalized epilepsy with second- and third-generation antiepileptic drugs (AEDs).",
+            "journal": "Neurology",
+            "year": "2018",
+            "authors": [
+              "Kanner Andres M",
+              "Ashman Eric",
+              "Gloss David",
+              "Harden Cynthia",
+              "Bourgeois Blaise"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticonvulsants",
+              "Child",
+              "Epilepsies, Partial",
+              "Epilepsy, Absence",
+              "Epilepsy, Generalized",
+              "Humans",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29898971/"
+          },
+          {
+            "pmid": "36034267",
+            "title": "Perampanel and childhood absence epilepsy: A real life experience.",
+            "abstract": "The aim of our study was to evaluate the effectiveness and tolerability of perampanel (PER) as first add-on and as second line monotherapy in subjects with childhood absence epilepsy.",
+            "journal": "Frontiers in neurology",
+            "year": "2022",
+            "authors": [
+              "Operto Francesca Felicia",
+              "Orsini Alessandro",
+              "Sica Gianpiero",
+              "Scuoppo Chiara",
+              "Padovano Chiara"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36034267/"
+          },
+          {
+            "pmid": "24559052",
+            "title": "The discovery and development of perampanel for the treatment of epilepsy.",
+            "abstract": "Perampanel is a novel AMPA receptor antagonist, approved in over 35 countries as an adjunctive therapy for the treatment of partial-onset seizures with or without secondarily generalized seizures in patients with epilepsy aged 12 years and older (18 years and older in Canada). These countries include the members of the European Union, the USA, Canada and Switzerland. The AMPA receptor antagonist, perampanel, is the first approved antiepileptic drug to inhibit excitation of postsynaptic membranes through the selective inhibition of glutamate receptors.",
+            "journal": "Expert opinion on drug discovery",
+            "year": "2014",
+            "authors": [
+              "Hanada Takahisa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Epilepsy",
+              "Humans",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24559052/"
+          },
+          {
+            "pmid": "36878742",
+            "title": "Efficacy, tolerability and safety of perampanel in children and adolescents with epilepsy: Systematic review and meta-analysis.",
+            "abstract": "Perampanel (PER) is a novel antiepileptic drug. The efficacy, tolerability and safety of PER in children and adolescents with epilepsy are still unclear. We aimed to study the efficacy and safety of PER in children and adolescents with epilepsy.",
+            "journal": "Brain & development",
+            "year": "2023",
+            "authors": [
+              "Sun Sujuan",
+              "Li Xiangliang",
+              "Liu Xuewu"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adolescent",
+              "Child",
+              "Treatment Outcome",
+              "Epilepsy",
+              "Seizures",
+              "Anticonvulsants",
+              "Drug Therapy, Combination",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36878742/"
+          },
+          {
+            "pmid": "37775491",
+            "title": "Efficacy and safety of adjunctive treatment with perampanel in epilepsy patients.",
+            "abstract": "Epilepsy is a neurological disease with high global prevalence. Almost one-third of epilepsy patients continue having seizures despite adequate treatment. Perampanel has been widely used in the Western countries as an adjunctive therapy for both generalized and focal seizures. Owing to its high cost, the use of perampanel is limited in our country.",
+            "journal": "The Medical journal of Malaysia",
+            "year": "2023",
+            "authors": [
+              "Lim K Y",
+              "Khoo C S",
+              "Rajah R",
+              "Tan H J",
+              "Tajurudin F W"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Retrospective Studies",
+              "Anticonvulsants",
+              "Treatment Outcome",
+              "Drug Therapy, Combination",
+              "Epilepsy",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37775491/"
+          },
+          {
+            "pmid": "25878177",
+            "title": "Perampanel efficacy and tolerability with enzyme-inducing AEDs in patients with epilepsy.",
+            "abstract": "Evaluate the impact of concomitant enzyme (CYP3A4)-inducer antiepileptic drugs (EIAEDs) on the efficacy and safety of perampanel in patients from the 3 phase-III clinical trials.",
+            "journal": "Neurology",
+            "year": "2015",
+            "authors": [
+              "Gidal Barry E",
+              "Laurenza Antonio",
+              "Hussein Ziad",
+              "Yang Haichen",
+              "Fain Randi"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticonvulsants",
+              "Cytochrome P-450 CYP3A Inducers",
+              "Disorders of Excessive Somnolence",
+              "Dizziness",
+              "Dose-Response Relationship, Drug",
+              "Double-Blind Method",
+              "Drug Administration Schedule",
+              "Drug Combinations",
+              "Drug Interactions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25878177/"
+          },
+          {
+            "pmid": "37329172",
+            "title": "Efficacy of perampanel in pediatric epilepsy with known and presumed genetic etiology.",
+            "abstract": "The efficacy of perampanel (PER) in pediatric epilepsy with specific etiologies has not been well established. Here, we investigated outcome and predictors of PER treatment in a pediatric cohort with known and presumed genetic etiology.",
+            "journal": "Annals of clinical and translational neurology",
+            "year": "2023",
+            "authors": [
+              "Miao Pu",
+              "Zhu Xueying",
+              "Jin Wenqin",
+              "Yu Lingyan",
+              "Li Yanfang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child",
+              "Epilepsy",
+              "Seizures",
+              "Pyridones",
+              "Causality",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37329172/"
+          },
+          {
+            "pmid": "37378757",
+            "title": "Antiseizure medications for idiopathic generalized epilepsies: a systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy and safety of antiseizure medications (ASMs), both as monotherapies and adjunctive therapies, for idiopathic generalized epilepsies (IGEs) and related entities.",
+            "journal": "Journal of neurology",
+            "year": "2023",
+            "authors": [
+              "Chu Hongyuan",
+              "Zhang Xinyu",
+              "Shi Jie",
+              "Zhou Zhirui",
+              "Yang Xu"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child",
+              "Valproic Acid",
+              "Topiramate",
+              "Levetiracetam",
+              "Ethosuximide",
+              "Anticonvulsants",
+              "Epilepsy, Generalized",
+              "Seizures",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37378757/"
+          },
+          {
+            "pmid": "27935018",
+            "title": "Tolerability and efficacy of perampanel in children with refractory epilepsy.",
+            "abstract": "There are few reports on the tolerability and efficacy of perampanel, a new antiepileptic drug with a novel mechanism of action, in children and adolescents. We aimed to describe our experience with perampanel add-on and mono-therapy in children with refractory epilepsy.",
+            "journal": "Developmental medicine and child neurology",
+            "year": "2017",
+            "authors": [
+              "Heyman Eli",
+              "Lahat Eli",
+              "Levin Noa",
+              "Epstein Orna",
+              "Lazinger Mirit"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Anticonvulsants",
+              "Child",
+              "Child, Preschool",
+              "Drug Resistant Epilepsy",
+              "Female",
+              "Humans",
+              "Infant",
+              "Male",
+              "Medical Records Systems, Computerized"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27935018/"
+          },
+          {
+            "pmid": "38861254",
+            "title": "The cenobamate KORK study-A prospective monocenter observational study investigating cenobamate as an adjunctive therapy in refractory epilepsy, with comparisons to historical cohorts treated with add-on lacosamide, perampanel, and brivaracetam.",
+            "abstract": "In Europe, cenobamate has been approved for use as an adjunctive therapy in adult patients with epilepsy (PWE) with focal-onset seizures (FOS) who have not responded satisfactorily to treatment with at least two antiseizure medications (ASMs). Pivotal trials and real-world observational studies have demonstrated a high efficacy of cenobamate, even in very difficult-to-treat epilepsies. Our aim was to investigate the efficacy of add-on cenobamate in adult PWE who were prospectively monitored. We compared these results with those previously obtained for add-on lacosamide, perampanel, and brivaracetam therapy.",
+            "journal": "Epilepsia open",
+            "year": "2024",
+            "authors": [
+              "Steinhoff Bernhard J",
+              "Georgiou Dimitra",
+              "Intravooth Tassanai"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Comparative Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Lacosamide",
+              "Anticonvulsants",
+              "Male",
+              "Female",
+              "Adult",
+              "Drug Therapy, Combination",
+              "Middle Aged",
+              "Carbamates",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38861254/"
+          },
+          {
+            "pmid": "37292124",
+            "title": "Effectiveness and tolerability of perampanel monotherapy in children with newly diagnosed focal epilepsy.",
+            "abstract": "To examine the clinical effectiveness and tolerability of perampanel (PER) as initial monotherapy in pediatric patients with newly diagnosed focal epilepsy.",
+            "journal": "Frontiers in neurology",
+            "year": "2023",
+            "authors": [
+              "Zhao Fen",
+              "Ren Ying",
+              "Geng Guifu",
+              "Zhang Tong",
+              "Hu Wandong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37292124/"
+          },
+          {
+            "pmid": "41043235",
+            "title": "Perampanel effects on seizures and sleep quality in people with epilepsy: A prospective multicenter study.",
+            "abstract": "Preliminary studies suggested a potential beneficial effect of perampanel (PER) on sleep in people with epilepsy (PwE). The present multicenter study evaluated the clinical potential of the early use of PER in PwE on seizures and on sleep quality, insomnia, daytime sleepiness and circadian rhythm preferences, as well as on depressive symptoms and quality of life.",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2025",
+            "authors": [
+              "Bergamo G",
+              "Fernandes M",
+              "Maio S",
+              "Pauletto G",
+              "Nilo A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Adult",
+              "Anticonvulsants",
+              "Middle Aged",
+              "Quality of Life",
+              "Epilepsy",
+              "Nitriles",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41043235/"
+          },
+          {
+            "pmid": "40949139",
+            "title": "Epilepsy and migraine: a diagnostic and therapeutic challenge.",
+            "abstract": "Migraine and epilepsy are two common, chronic, disabling, paroxysmal neurological disorders. A growing body of evidence from epidemiological, genetic, neurophysiological, and clinical research suggests a complex, bidirectional association between them. Migraine prevalence in epilepsy patients ranges from 8% to 23%, while the reverse is noted at 1%-17%. Both disorders are underpinned by cortical hyperexcitability, dysfunctional neurotransmission, and impaired ion homeostasis. Shared genetic mutations, particularly in genes encoding ion channel subunits such as CACNA1A, SCN1A, and ATP1A2, further support a common channelopathy model. Cortical spreading depression, the electrophysiological substrate of migraine aura, and paroxysmal depolarization shift, a hallmark of epileptic activity, share converging features, including neuronal depolarization, potassium accumulation, glutamate release, and eventual firing suppression. Glial dysfunction, glutamatergic excitotoxicity, and mitochondrial ",
+            "journal": "Frontiers in pharmacology",
+            "year": "2025",
+            "authors": [
+              "Pascarella Angelo",
+              "Marsico Oreste",
+              "Abelardo Domenico",
+              "Cutellè Roberta",
+              "Bulgari Alessandro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40949139/"
+          },
+          {
+            "pmid": "36206645",
+            "title": "Efficacy and safety of perampanel in epilepsy: A systematic review and meta-analysis of randomised controlled trials.",
+            "abstract": "Perampanel a third-generation antiseizure medication, belongs to a new promising class of drugs called AMPA receptor antagonists, approved to treat focal-onset seizures with or without focal to bilateral tonic clonic seizures and primary generalized tonic-clonic seizures.",
+            "journal": "Seizure",
+            "year": "2022",
+            "authors": [
+              "Lavu Alekhya",
+              "Aboulatta Laila",
+              "Abou-Setta Ahmed M",
+              "Aloud Basma",
+              "Askin Nicole"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anticonvulsants",
+              "Treatment Outcome",
+              "Pyridones",
+              "Seizures",
+              "Epilepsy",
+              "Drug Therapy, Combination",
+              "Randomized Controlled Trials as Topic",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36206645/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "eating seizures",
+        "txgnn_score": 0.9986035227775574,
+        "txgnn_rank": 2599,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "30842918",
+            "title": "Perampanel-induced, new-onset food aversion in a 29-year-old female with medically refractory frontal lobe epilepsy.",
+            "abstract": "Perampanel is a selective, noncompetitive amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid glutamate receptor antagonist indicated for management of partial-onset and primary generalized seizures in epilepsy patients aged ≥12 years.",
+            "journal": "The mental health clinician",
+            "year": "2019",
+            "authors": [
+              "Marvanova Marketa"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30842918/"
+          },
+          {
+            "pmid": "34991910",
+            "title": "Long-term efficacy of low-dose perampanel for progressive myoclonus epilepsy in a patient with Gaucher disease type 3.",
+            "abstract": "We report the case of a patient with progressive myoclonus epilepsy due to Gaucher disease type 3 whose seizures and ability to perform activities of daily living were significantly improved after starting low-dose perampanel therapy.",
+            "journal": "Brain & development",
+            "year": "2022",
+            "authors": [
+              "Tahara Mayu",
+              "Higurashi Norimichi",
+              "Narita Aya",
+              "Ida Hiroyuki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Gaucher Disease",
+              "Humans",
+              "Myoclonic Epilepsies, Progressive",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34991910/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "orgasm-induced seizures",
+        "txgnn_score": 0.9986035227775574,
+        "txgnn_rank": 2600,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "audiogenic seizures",
+        "txgnn_score": 0.9986035227775574,
+        "txgnn_rank": 2601,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33666943",
+            "title": "Perampanel and pregnancy.",
+            "abstract": "The objective was to summarize pregnancy and fetal/postnatal outcomes following maternal perampanel exposure using preclinical and clinical data, and to use physiologically based pharmacokinetic (PBPK) modeling to improve understanding of perampanel pharmacokinetics (PK) during pregnancy.",
+            "journal": "Epilepsia",
+            "year": "2021",
+            "authors": [
+              "Vazquez Blanca",
+              "Tomson Torbjörn",
+              "Dobrinsky Cindy",
+              "Schuck Edgar",
+              "O'Brien Terence J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Anticonvulsants",
+              "Dose-Response Relationship, Drug",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Nitriles",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33666943/"
+          },
+          {
+            "pmid": "30092489",
+            "title": "Perampanel chronic treatment does not induce tolerance and decreases tolerance to clobazam in genetically epilepsy prone rats.",
+            "abstract": "Tolerance to some therapeutic effects of antiepileptic drugs may account for the development of pharmacoresistance in patients with epilepsy. In the present study, following oral acute pretreatment with the new antiepileptic drug perampanel (0.1, 0.3, 1 or 3 mg/kg), we observed that the drug significantly and dose-dependently attenuated the seizure phases (clonus and tonus) of audiogenic seizures in genetically epilepsy prone rats (GEPR-9 s), a genetic model of reflex generalized epilepsy. In addition, the GEPR-9 s were administered orally with perampanel (1 or 3 mg/kg) once daily for 10 weeks in order to study the possible development of tolerance, and when animals were subjected to auditory stimulation we observed that the ED50 values against clonus or tonus were not significantly different from those observed after single administration. Furthermore, the duration of anticonvulsant effects observed between 60 min and 9 h following oral administration of perampanel (1 mg/kg) were simi",
+            "journal": "Epilepsy research",
+            "year": "2018",
+            "authors": [
+              "Citraro Rita",
+              "De Sarro Caterina",
+              "Leo Antonio",
+              "Donato di Paola Eugenio",
+              "Palma Ernesto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acoustic Stimulation",
+              "Administration, Oral",
+              "Animals",
+              "Anticonvulsants",
+              "Brain",
+              "Clobazam",
+              "Dose-Response Relationship, Drug",
+              "Drug Tolerance",
+              "Epilepsy, Reflex",
+              "Genetic Predisposition to Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30092489/"
+          },
+          {
+            "pmid": "38629017",
+            "title": "Irregular Tremulous Movements and Infrequent Seizures: A Clinical-Electrophysiological Diagnosis of Benign Adult Familial Myoclonus Epilepsy.",
+            "abstract": "We report a case involving a 31-year-old male without any known precipitating injuries presenting with involuntary finger movements and rare seizures. There was a noted family history of tremulous movements. Yet the characteristics of his finger movements were irregular and not typical of essential tremor (ET). Electrophysiological examinations, including video EEG, showed no epileptic discharges, and brain MRI results were normal. However, somatosensory evoked potentials (SEP) revealed the presence of giant SEP, and a positive cortical (C)-reflex was observed, leading to a clinical diagnosis of benign adult familial myoclonus epilepsy (BAFME). Management with valproic acid and perampanel resulted in a significant reduction of symptoms. This case highlights the necessity of considering BAFME in the differential diagnosis for atypical tremorous finger movements, especially with a relevant family history, and the critical role of electrophysiological findings indicative of cortical hyper",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Imon Kazuki",
+              "Neshige Shuichiro",
+              "Maeda Akiko",
+              "Yamamoto Yumiko",
+              "Maruyama Hirofumi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38629017/"
+          },
+          {
+            "pmid": "38029871",
+            "title": "Cenobamate enhances the anticonvulsant effect of other antiseizure medications in the DBA/2 mouse model of reflex epilepsy.",
+            "abstract": "Clinical studies documented that cenobamate (CNB) has a marked efficacy compared to other antiseizure medications (ASMs) in reducing focal seizures. To date, different aspects of CNB need to be clarified, including its efficacy against generalized seizures. Similarly, the pattern of drug-drug interactions between CNB and other ASMs also compels further investigation. This study aimed to detect the role of CNB on generalized seizures using the DBA/2 mouse model. We have also studied the effects of an adjunctive CNB treatment on the antiseizure properties of some ASMs against reflex seizures. The effects of this adjunctive treatment on motor performance, body temperature, and brain levels of ASMs were also evaluated. CNB was able to antagonize seizures in DBA/2 mice. CNB, at 5 mg/kg, enhanced the antiseizure activity of ASMs, such as diazepam, clobazam, levetiracetam, perampanel, phenobarbital, topiramate, and valproate. No synergistic effects were observed when CNB was co-administered w",
+            "journal": "European journal of pharmacology",
+            "year": "2024",
+            "authors": [
+              "Leo Antonio",
+              "Bosco Francesca",
+              "Guarnieri Lorenza",
+              "De Sarro Caterina",
+              "Rania Vincenzo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Mice",
+              "Animals",
+              "Anticonvulsants",
+              "Epilepsy, Reflex",
+              "Valproic Acid",
+              "Topiramate",
+              "Levetiracetam",
+              "Drug Synergism",
+              "Mice, Inbred DBA",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38029871/"
+          },
+          {
+            "pmid": "21635236",
+            "title": "Perampanel: a novel, orally active, noncompetitive AMPA-receptor antagonist that reduces seizure activity in rodent models of epilepsy.",
+            "abstract": "To assess the pharmacology of perampanel and its antiseizure activity in preclinical models. Perampanel [2-(2-oxo-1-phenyl-5-pyridin-2-yl-1,2-dihydropyridin-3-yl) benzonitrile] is a novel, orally active, prospective antiepileptic agent currently in development for refractory partial-onset seizures.",
+            "journal": "Epilepsia",
+            "year": "2011",
+            "authors": [
+              "Hanada Takahisa",
+              "Hashizume Yutaka",
+              "Tokuhara Naoki",
+              "Takenaka Osamu",
+              "Kohmura Naohiro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amygdala",
+              "Animals",
+              "Anticonvulsants",
+              "Brain",
+              "Calcium",
+              "Cells, Cultured",
+              "Disease Models, Animal",
+              "Dogs",
+              "Intracellular Space",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21635236/"
+          },
+          {
+            "pmid": "41116590",
+            "title": "Perampanel as an Effective Treatment for Cortical Reflex Myoclonus in Juvenile Huntington's Disease.",
+            "abstract": "",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2026",
+            "authors": [
+              "Yamada Ken",
+              "Tojima Maya",
+              "Nakanishi Etsuro",
+              "Ayaki Takashi",
+              "Takahashi Ryosuke"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41116590/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thinking seizures",
+        "txgnn_score": 0.9986035227775574,
+        "txgnn_rank": 2602,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02849626",
+            "title": "An Open-Label, Multicenter Study With an Extension Phase to Evaluate the Safety, Tolerability, and Exposure-Efficacy Relationship of Perampanel Oral Suspension When Administered as an Adjunctive Therapy in Pediatric Subjects (Age 4 to Less Than 12 Years) With Inadequately Controlled Partial-Onset Seizures or Primary Generalized Tonic Clonic Seizures",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-11-16",
+            "completion_date": "2021-12-06",
+            "country": "Spain, France, Canada, South Korea, Belgium, Italy, Latvia, United States, Czechia, Hungary, Poland, Japan",
+            "enrollment": 180,
+            "brief_summary": "This is an open-label, multicenter study with an Extension Phase to evaluate the safety and tolerability of perampanel oral suspension when administered as an adjunctive therapy in children (ages 4 to less than \\[\\<\\] 12 years) with inadequately controlled partial onset seizures (POS) or primary generalized tonic clonic (PGTC) seizures.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a diagnosis of epilepsy with POS with or without secondarily generalized (SG) seizures or PGTC seizures according to the International League Against Epilepsy's (ILAE) Classification of Epileptic Seizures (1981). A diagnosis should have been established at least 6 months ",
+            "endpoints": [
+              "Percentage of Participants With Treatment Emergent Adverse Events (AEs) and Treatment Emergent Serious Adverse Events (SAEs) for Total Group of Participants - Core Phase and Extension Phase A of This Study",
+              "Percentage of Participants With Treatment Emergent Markedly Abnormal Laboratory Values for Total Group of Participants- Core Phase and Extension Phase A of This Study",
+              "Percentage of Participants With Abnormal Vital Sign Values for Total Group of Participants- Core Phase and Extension Phase A of This Study"
+            ],
+            "sponsor": "Eisai Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02849626"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04015141",
+            "title": "An Open-Label Study With Extension Phase to Evaluate the Efficacy and Safety of Perampanel Administered as an Adjunctive Therapy in Pediatric Subjects (Age 1 Month to Less Than 18 Years) With Childhood Epilepsy",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2019-05-31",
+            "completion_date": "2027-12-23",
+            "country": "Spain, France, Belgium, Germany, Denmark, United States, Czechia",
+            "enrollment": 100,
+            "brief_summary": "The purpose of the study is to evaluate the efficacy of perampanel as measured by the 50 percent (%) responder rate during the maintenance period of the core study for seizure frequency in participants with pediatric epileptic syndrome (Cohort 1) and partial-onset seizures (POS) (Cohort 2).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Male or female participants. Cohort 1: age 1 month to less than 18 years; Cohort 2: age 1 month to less than 2 years at the time of informed consent/assent. Participants below the age of 1 year must have been at least 36 weeks of gestational age at birth.\n* Have a diagnosis of",
+            "endpoints": [
+              "Proportion of 50% Responders For All Seizures During the Maintenance Period of Core Study"
+            ],
+            "sponsor": "Eisai Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT04015141"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "30675751",
+            "title": "Preliminary evidence about irritability in patients with epilepsy treated by perampanel as first add-on therapy compared to levetiracetam and valproic acid.",
+            "abstract": "Irritability has been described as a frequent adverse event in patients affected by epilepsy and treated with perampanel (PER), levetiracetam (LEV), and less frequently with valproic acid (VPA). Since the questionnaire for irritability (I-EPI) is a validated instrument to measure this psychiatric manifestation in patients affected by epilepsy, in this study we aimed at investigating the effect of PER as first add-on therapy on I-EPI. Moreover, we compared the effectiveness and I-EPI scores obtained at 12-month follow-up visits in patients treated by PER, LEV, or VPA in order to measure irritability as a consequence of these treatments.",
+            "journal": "CNS neuroscience & therapeutics",
+            "year": "2019",
+            "authors": [
+              "Liguori Claudio",
+              "Turner Katherine",
+              "Izzi Francesca",
+              "Assogna Martina",
+              "Canevini Maria P"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticonvulsants",
+              "Anxiety",
+              "Drug Therapy, Combination",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Irritable Mood",
+              "Levetiracetam",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30675751/"
+          },
+          {
+            "pmid": "27988935",
+            "title": "Perampanel effects in the WAG/Rij rat model of epileptogenesis, absence epilepsy, and comorbid depressive-like behavior.",
+            "abstract": "Perampanel (PER), a selective non-competitive α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA)-receptor antagonist, exhibits broad-spectrum anticonvulsant activity in several seizure models, but its potential disease-modifying effects have not been investigated. Because of the relevance of AMPA receptors in epileptogenesis and psychiatric comorbidities, we studied the effects of PER in the WAG/Rij rat model of epileptogenesis, absence epilepsy, and depressive-like comorbidity.",
+            "journal": "Epilepsia",
+            "year": "2017",
+            "authors": [
+              "Citraro Rita",
+              "Leo Antonio",
+              "Franco Valentina",
+              "Marchiselli Roberto",
+              "Perucca Emilio"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Avoidance Learning",
+              "Chromatography, High Pressure Liquid",
+              "Depressive Disorder",
+              "Disease Models, Animal",
+              "Electroencephalography",
+              "Electroshock",
+              "Epilepsy, Absence",
+              "Exploratory Behavior"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27988935/"
+          },
+          {
+            "pmid": "40839459",
+            "title": "Effectiveness of perampanel as the only adjunctive anti-seizure medication in adults: Final results from the observational PERPRISE study in Germany.",
+            "abstract": "The PERPRISE study (Study 509; NCT04202159) was a prospective, observational, non-interventional study in a real-world setting in Germany. This study was conducted to evaluate the effectiveness of perampanel as the only adjunctive treatment for 12 months in patients aged ≥18 years with focal to bilateral tonic-clonic seizures (FBTCS) or generalized tonic-clonic seizures (GTCS) in clinical practice.",
+            "journal": "Epilepsia open",
+            "year": "2025",
+            "authors": [
+              "Steinhoff Bernhard J",
+              "Goldmann Tobias",
+              "Kockelmann Edgar",
+              "Winter Yaroslav"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Nitriles",
+              "Anticonvulsants",
+              "Pyridones",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Adult",
+              "Germany",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40839459/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "startle epilepsy",
+        "txgnn_score": 0.9986035227775574,
+        "txgnn_rank": 2603,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37770509",
+            "title": "SLCO5A1 and synaptic assembly genes contribute to impulsivity in juvenile myoclonic epilepsy.",
+            "abstract": "Elevated impulsivity is a key component of attention-deficit hyperactivity disorder (ADHD), bipolar disorder and juvenile myoclonic epilepsy (JME). We performed a genome-wide association, colocalization, polygenic risk score, and pathway analysis of impulsivity in JME (n = 381). Results were followed up with functional characterisation using a drosophila model. We identified genome-wide associated SNPs at 8q13.3 (P = 7.5 × 10-9) and 10p11.21 (P = 3.6 × 10-8). The 8q13.3 locus colocalizes with SLCO5A1 expression quantitative trait loci in cerebral cortex (P = 9.5 × 10-3). SLCO5A1 codes for an organic anion transporter and upregulates synapse assembly/organisation genes. Pathway analysis demonstrates 12.7-fold enrichment for presynaptic membrane assembly genes (P = 0.0005) and 14.3-fold enrichment for presynaptic organisation genes (P = 0.0005) including NLGN1 and PTPRD. RNAi knockdown of Oatp30B, the Drosophila polypeptide with the highest homology to SLCO5A1, causes over-reactive start",
+            "journal": "NPJ genomic medicine",
+            "year": "2023",
+            "authors": [
+              "Roshandel Delnaz",
+              "Sanders Eric J",
+              "Shakeshaft Amy",
+              "Panjwani Naim",
+              "Lin Fan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37770509/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "micturation-induced seizures",
+        "txgnn_score": 0.9986035227775574,
+        "txgnn_rank": 2604,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "36218253",
+            "title": "[Paediatric status epilepticus].",
+            "abstract": "Status epilepticus is defined as the situation resulting from the failure of the mechanisms responsible for terminating an epileptic seizure. In 2015, an operational concept was adopted internationally in which two times are identified: a first time, at which treatment must begin (five minutes for convulsive status, 10-15 minutes for focal and non-convulsive status); and a second time, after which there is considered to be a high risk of subsequent sequelae (30 minutes in the case of the convulsive). It occurs in 3-42/100,000 children per year, who are refractory or super-refractory in 10-40% of cases.",
+            "journal": "Revista de neurologia",
+            "year": "2022",
+            "authors": [
+              "Soto-Insuga V",
+              "González-Alguacil E",
+              "García-Peñas J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics",
+              "Anticonvulsants",
+              "Benzodiazepines",
+              "Child",
+              "Epilepsy",
+              "Humans",
+              "Ketamine",
+              "Lacosamide",
+              "Levetiracetam"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36218253/"
+          },
+          {
+            "pmid": "37684052",
+            "title": "Management of epilepsy during pregnancy and lactation.",
+            "abstract": "Epilepsy is a group of neurological diseases characterized by susceptibility to recurrent seizures. Antiseizure medications (ASMs) are the mainstay of treatment, but many antiseizure medications with variable safety profiles have been approved for use. For women with epilepsy in their childbearing years, the safety profile is important for them and their unborn children, because treatment is often required to protect them from seizures during pregnancy and lactation. Since no large randomized controlled trials have investigated safety in this subgroup of people with epilepsy, pregnancy registries, cohort and case-control studies from population registries, and a few large prospective cohort studies have played an important role. Valproate, in monotherapy and polytherapy, has been associated with elevated risk of major congenital malformations and neurodevelopmental disorders in children born to mothers who took it. Topiramate and phenobarbital are also associated with elevated risks of",
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "2023",
+            "authors": [
+              "Hope Omotola A",
+              "Harris Katherine Mj"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Pregnancy",
+              "Female",
+              "Humans",
+              "Breast Feeding",
+              "Valproic Acid",
+              "Prospective Studies",
+              "Lactation",
+              "Epilepsy",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37684052/"
+          },
+          {
+            "pmid": "26111428",
+            "title": "Perampanel for epilepsy with partial-onset seizures: a pharmacokinetic and pharmacodynamic evaluation.",
+            "abstract": "Epilepsies are among the most common diseases of the CNS. As available antiepileptic drugs do not successfully control seizures in one-third of these patients, the development of drugs with new mechanisms of action is an urgent requirement.",
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2015",
+            "authors": [
+              "Schulze-Bonhage Andreas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Disease Models, Animal",
+              "Dose-Response Relationship, Drug",
+              "Epilepsies, Partial",
+              "Half-Life",
+              "Humans",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26111428/"
+          },
+          {
+            "pmid": "37378757",
+            "title": "Antiseizure medications for idiopathic generalized epilepsies: a systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy and safety of antiseizure medications (ASMs), both as monotherapies and adjunctive therapies, for idiopathic generalized epilepsies (IGEs) and related entities.",
+            "journal": "Journal of neurology",
+            "year": "2023",
+            "authors": [
+              "Chu Hongyuan",
+              "Zhang Xinyu",
+              "Shi Jie",
+              "Zhou Zhirui",
+              "Yang Xu"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child",
+              "Valproic Acid",
+              "Topiramate",
+              "Levetiracetam",
+              "Ethosuximide",
+              "Anticonvulsants",
+              "Epilepsy, Generalized",
+              "Seizures",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37378757/"
+          },
+          {
+            "pmid": "31912315",
+            "title": "Therapeutic Drug Monitoring of Antiepileptic Drugs in Women with Epilepsy Before, During, and After Pregnancy.",
+            "abstract": "During pregnancy, the pharmacokinetics of an antiepileptic drug is altered because of changes in the clearance capacity and volume of distribution. These changes may have consequences for the frequency of seizures during pregnancy and fetal exposure to antiepileptic drugs. In 2009, a review was published providing guidance for the dosing and therapeutic drug monitoring of antiepileptic drugs during pregnancy. Since that review, new drugs have been licensed and new information about existing drugs has been published. With this review, we aim to provide an updated narrative overview of changes in the pharmacokinetics of antiepileptic drugs in women during pregnancy. In addition, we aim to formulate advice for dose modification and therapeutic drug monitoring of antiepileptic drugs. We searched PubMed and the available literature on the pharmacokinetic changes of antiepileptic drugs and seizure frequency during pregnancy published between January 2007 and September 2018. During pregnancy,",
+            "journal": "Clinical pharmacokinetics",
+            "year": "2020",
+            "authors": [
+              "Arfman Inge J",
+              "Wammes-van der Heijden Elisabeth A",
+              "Ter Horst Peter G J",
+              "Lambrechts Danielle A",
+              "Wegner Ilse"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Drug Monitoring",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Postpartum Period",
+              "Pregnancy",
+              "Pregnancy Complications",
+              "Pregnancy Trimesters",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31912315/"
+          },
+          {
+            "pmid": "35061214",
+            "title": "Third-Generation Antiseizure Medications for Adjunctive Treatment of Focal-Onset Seizures in Adults: A Systematic Review and Network Meta-analysis.",
+            "abstract": "Brivaracetam (BRV), cenobamate (CNB), eslicarbazepine acetate (ESL), lacosamide (LCM) and perampanel (PER) are antiseizure medications (ASMs) approved for adjunctive treatment of focal-onset seizures. So far, no randomised controlled trial directly compared the efficacy and safety of these drugs.",
+            "journal": "Drugs",
+            "year": "2022",
+            "authors": [
+              "Lattanzi Simona",
+              "Trinka Eugen",
+              "Zaccara Gaetano",
+              "Striano Pasquale",
+              "Russo Emilio"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticonvulsants",
+              "Carbamates",
+              "Chlorophenols",
+              "Dibenzazepines",
+              "Double-Blind Method",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Lacosamide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35061214/"
+          },
+          {
+            "pmid": "29898971",
+            "title": "Practice guideline update summary: Efficacy and tolerability of the new antiepileptic drugs I: Treatment of new-onset epilepsy: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Epilepsy Society.",
+            "abstract": "To update the 2004 American Academy of Neurology (AAN) guideline for treating new-onset focal or generalized epilepsy with second- and third-generation antiepileptic drugs (AEDs).",
+            "journal": "Neurology",
+            "year": "2018",
+            "authors": [
+              "Kanner Andres M",
+              "Ashman Eric",
+              "Gloss David",
+              "Harden Cynthia",
+              "Bourgeois Blaise"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticonvulsants",
+              "Child",
+              "Epilepsies, Partial",
+              "Epilepsy, Absence",
+              "Epilepsy, Generalized",
+              "Humans",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29898971/"
+          },
+          {
+            "pmid": "38643679",
+            "title": "A comparison of cenobamate with other newer antiseizure medications for adjunctive treatment of focal-onset seizures: A systematic review and network meta-analysis.",
+            "abstract": "To compare the efficacy, safety, and tolerability of cenobamate with other newer anti-seizure medications (ASMs) including brivaracetam, eslicarbazepine, lacosamide, perampanel, and zonisamide, approved for adjunctive treatment of drug-resistant focal-onset seizures (FOS) in adults with epilepsy.",
+            "journal": "Seizure",
+            "year": "2024",
+            "authors": [
+              "Mulheron Stuart",
+              "Leahy Thomas P",
+              "McStravick Megan",
+              "Doran Rachael",
+              "Delanty Norman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Comparative Study",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anticonvulsants",
+              "Seizures",
+              "Carbamates",
+              "Epilepsies, Partial",
+              "Chlorophenols",
+              "Tetrazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38643679/"
+          },
+          {
+            "pmid": "39576191",
+            "title": "Efficacy and safety of perampanel in patients with seizures associated with Lennox-Gastaut syndrome: A randomized trial.",
+            "abstract": "The Phase 3 Study 338 (NCT02834793) assessed long-term clinical outcomes of adjunctive perampanel in patients ≥2 years of age with uncontrolled seizures associated with Lennox-Gastaut syndrome (LGS).",
+            "journal": "Epilepsia",
+            "year": "2025",
+            "authors": [
+              "Vossler David G",
+              "Porter Brenda E",
+              "Kira Ryutaro",
+              "Lee Jeehun",
+              "Aeby Alec"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pyridones",
+              "Nitriles",
+              "Male",
+              "Female",
+              "Anticonvulsants",
+              "Lennox Gastaut Syndrome",
+              "Double-Blind Method",
+              "Seizures",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39576191/"
+          },
+          {
+            "pmid": "41043235",
+            "title": "Perampanel effects on seizures and sleep quality in people with epilepsy: A prospective multicenter study.",
+            "abstract": "Preliminary studies suggested a potential beneficial effect of perampanel (PER) on sleep in people with epilepsy (PwE). The present multicenter study evaluated the clinical potential of the early use of PER in PwE on seizures and on sleep quality, insomnia, daytime sleepiness and circadian rhythm preferences, as well as on depressive symptoms and quality of life.",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2025",
+            "authors": [
+              "Bergamo G",
+              "Fernandes M",
+              "Maio S",
+              "Pauletto G",
+              "Nilo A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Female",
+              "Adult",
+              "Anticonvulsants",
+              "Middle Aged",
+              "Quality of Life",
+              "Epilepsy",
+              "Nitriles",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41043235/"
+          },
+          {
+            "pmid": "33296808",
+            "title": "Perampanel exhibits anticonvulsant action against pentylentetrazol-induced seizures in immature rats.",
+            "abstract": "Perampanel is a new antiepileptic drug with unique mechanism of action - antagonism of AMPA receptors. Its action in immature animals is not yet sufficiently known therefore we started to study anticonvulsant action of perampanel pretreatment (1-20 mg/kg i.p.) against seizures elicited by pentylenetetrazol. Three age groups of rats were examined - 12, 18 and 25 days old. Perampanel selectively suppressed the tonic phase of generalized seizures in the two younger groups and whole tonic-clonic seizures in the 25-day-old group. It exhibited also an anticonvulsant action against minimal clonic seizures present in control 18- and 25-day-old rats. Perampanel is an effective anticonvulsant drug even at very early stages of brain development.",
+            "journal": "Epilepsy research",
+            "year": "2021",
+            "authors": [
+              "Mareš Pavel",
+              "Kubová Hana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Nitriles",
+              "Pentylenetetrazole",
+              "Pyridones",
+              "Rats",
+              "Rats, Wistar",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33296808/"
+          },
+          {
+            "pmid": "33914090",
+            "title": "Perampanel, a potent AMPA receptor antagonist, protects against tetramethylenedisulfotetramine-induced seizures and lethality in mice: comparison with diazepam.",
+            "abstract": "Tetramethylenedisulfotetramine (TETS), a noncompetitive GABAA receptor antagonist, is a potent, highly lethal convulsant that is considered to be a chemical threat agent. Here, we assessed the ability of the AMPA receptor antagonist perampanel to protect against TETS-induced seizures and lethality in mice when administered before or after treatment with the toxicant. For comparison, we conducted parallel testing with diazepam, which is a first-line treatment for chemically induced seizures in humans. Pre-treatment of mice with either perampanel (1-4 mg/kg, i.p.) or diazepam (1-5 mg/kg, i.p.) conferred protection in a dose-dependent fashion against tonic seizures and lethality following a dose of TETS (0.2 mg/kg, i.p.) that rapidly induces seizures and death. The ED50 values for protection against mortality were 1.6 mg/kg for perampanel and 2.1 mg/kg for diazepam. Clonic seizures were unaffected by perampanel and only prevented in a minority of animals by high-dose diazepam. Neither tre",
+            "journal": "Archives of toxicology",
+            "year": "2021",
+            "authors": [
+              "Zolkowska Dorota",
+              "Dhir Ashish",
+              "Rogawski Michael A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Bridged-Ring Compounds",
+              "Diazepam",
+              "Mice",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33914090/"
+          },
+          {
+            "pmid": "29042752",
+            "title": "Spotlight on perampanel in the management of seizures: design, development and an update on place in therapy.",
+            "abstract": "Perampanel is a first-in-class antiepileptic medication approved for the treatment of partial (focal) seizures, and as adjunctive treatment for primarily generalized tonic-clonic seizures. The pharmacology, efficacy data, adverse-effect profile, pharmacokinetics and place in therapy are reviewed.",
+            "journal": "Drug design, development and therapy",
+            "year": "2017",
+            "authors": [
+              "Faulkner Michele A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Anticonvulsants",
+              "Dose-Response Relationship, Drug",
+              "Drug Interactions",
+              "Drug Therapy, Combination",
+              "Epilepsy",
+              "Humans",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29042752/"
+          },
+          {
+            "pmid": "36878742",
+            "title": "Efficacy, tolerability and safety of perampanel in children and adolescents with epilepsy: Systematic review and meta-analysis.",
+            "abstract": "Perampanel (PER) is a novel antiepileptic drug. The efficacy, tolerability and safety of PER in children and adolescents with epilepsy are still unclear. We aimed to study the efficacy and safety of PER in children and adolescents with epilepsy.",
+            "journal": "Brain & development",
+            "year": "2023",
+            "authors": [
+              "Sun Sujuan",
+              "Li Xiangliang",
+              "Liu Xuewu"
+            ],
+            "pub_types": [
+              "Meta-Analysis",
+              "Systematic Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adolescent",
+              "Child",
+              "Treatment Outcome",
+              "Epilepsy",
+              "Seizures",
+              "Anticonvulsants",
+              "Drug Therapy, Combination",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36878742/"
+          },
+          {
+            "pmid": "27274257",
+            "title": "Clinical efficacy of perampanel for partial-onset and primary generalized tonic-clonic seizures.",
+            "abstract": "Perampanel, a selective noncompetitive antagonist at the α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptor, is highly effective in a wide range of experimental models. Although initially licensed as adjunctive therapy for partial seizures with or without secondary generalization in patients aged 12 years or older, the US Food and Drug Administration has recently approved its use in the treatment of primary generalized tonic-clonic seizures (PGTCS). This paper reviews the pharmacokinetics, efficacy, and tolerability of perampanel as an antiepileptic drug.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2016",
+            "authors": [
+              "Besag Frank Mc",
+              "Patsalos Philip N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27274257/"
+          },
+          {
+            "pmid": "36150304",
+            "title": "Perampanel monotherapy for the treatment of epilepsy: Clinical trial and real-world evidence.",
+            "abstract": "Perampanel, a selective, non-competitive α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor antagonist, is a once-daily oral anti-seizure medication (ASM) for focal-onset seizures (FOS) and generalized tonic-clonic seizures (GTCS). In the US, perampanel is approved for the treatment of FOS (adjunctive and monotherapy), with or without focal to bilateral tonic-clonic seizures (FBTCS), in patients aged ≥4 years, and as adjunctive treatment of GTCS in patients aged ≥12 years. The monotherapy approvals in the US were based on the Food and Drug Administration's (FDA's) policy allowing extrapolation of adjunctive data to the monotherapy setting in the absence of randomized controlled monotherapy trials; since then, perampanel monotherapy has received approvals in approximately 48 countries. As there are key differences in clinical evidence of perampanel as adjunctive therapy vs monotherapy, we review the clinical outcomes of perampanel when administered as primary or secondary mon",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2022",
+            "authors": [
+              "Yamamoto Takamichi",
+              "Gil-Nagel Antonio",
+              "Wheless James W",
+              "Kim Ji Hyun",
+              "Wechsler Robert T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anticonvulsants",
+              "Retrospective Studies",
+              "Prospective Studies",
+              "Treatment Outcome",
+              "Pyridones",
+              "Epilepsy",
+              "Drug Therapy, Combination",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36150304/"
+          },
+          {
+            "pmid": "29573400",
+            "title": "Retrospective study of perampanel efficacy and tolerability in myoclonic seizures.",
+            "abstract": "Perampanel is an antiepileptic drug (AED) approved for add-on treatment of focal seizures (with or without generalization) and primary generalized tonic-clonic (GTC) seizures. Our objective was to explore the effectiveness and tolerability of adjunctive perampanel in patients with drug-resistant myoclonic seizures, after failure of other AEDs.",
+            "journal": "Acta neurologica Scandinavica",
+            "year": "2018",
+            "authors": [
+              "Gil-López F J",
+              "Montoya J",
+              "Falip M",
+              "Aparicio J",
+              "López-González F J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anticonvulsants",
+              "Drug Therapy, Combination",
+              "Epilepsies, Myoclonic",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29573400/"
+          },
+          {
+            "pmid": "35770766",
+            "title": "A systematic review of the efficacy of perampanel as treatment for myoclonic seizures and symptomatic myoclonus.",
+            "abstract": "Epileptic myoclonus or myoclonic seizures can occur in idiopathic generalized epilepsy (IGE) and progressive myoclonus epilepsy (PME). However, symptomatic myoclonus which is stimulus-sensitive and provoked by movement is typically seen in PME and Lance-Adams syndrome. Symptomatic myoclonus is not always associated with epileptiform discharges on the electroencephalogram. Therapeutic interventions such as anti-seizure medications (ASMs), the ketogenic diet and vagus nerve stimulation are not always effective. There is emerging evidence that perampanel (PER), an α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptor antagonist, may be effective for the treatment of myoclonic seizures and symptomatic myoclonus. We performed a systematic review of the literature to assess the efficacy of PER as treatment for myoclonic seizures and symptomatic myoclonus. Twenty-seven studies with a total sample size of 260 patients were included. The efficacy of PER was analysed separately fo",
+            "journal": "Epileptic disorders : international epilepsy journal with videotape",
+            "year": "2022",
+            "authors": [
+              "Mir Ali",
+              "Alghamdi Abdulaziz",
+              "Alotaibi Wajd",
+              "Samreen Daniya",
+              "Alotaibi Manar"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Epilepsies, Myoclonic",
+              "Epilepsy, Generalized",
+              "Humans",
+              "Immunoglobulin E",
+              "Levetiracetam",
+              "Myoclonic Epilepsies, Progressive",
+              "Myoclonus",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35770766/"
+          },
+          {
+            "pmid": "37661647",
+            "title": "Efficacy and safety of perampanel monotherapy in Chinese patients with focal-onset seizures: A single-center, prospective, real-world observational study.",
+            "abstract": "Efficacy and safety of perampanel monotherapy for treating focal-onset seizures (FOS) has been barely studied in China. This observational study aimed to evaluate the efficacy and safety of perampanel monotherapy in treating Chinese patients with FOS.",
+            "journal": "Epilepsia open",
+            "year": "2023",
+            "authors": [
+              "Ma Haiyan",
+              "Zhu Haitao",
+              "Chen Fangqing",
+              "Yang Yiqing",
+              "Qu Xuefeng"
+            ],
+            "pub_types": [
+              "Observational Study",
+              "Multicenter Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Prospective Studies",
+              "East Asian People",
+              "Anticonvulsants",
+              "Treatment Outcome",
+              "Seizures",
+              "Outpatients",
+              "Nitriles",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37661647/"
+          },
+          {
+            "pmid": "36734057",
+            "title": "Perampanel as precision therapy in rare genetic epilepsies.",
+            "abstract": "Perampanel, an antiseizure drug with α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor antagonist properties, may have a targeted effect in genetic epilepsies with overwhelming glutamate receptor activation. Epilepsies with loss of γ-aminobutyric acid inhibition (e.g., SCN1A), overactive excitatory neurons (e.g., SCN2A, SCN8A), and variants in glutamate receptors (e.g., GRIN2A) hold special interest. We aimed to collect data from a large rare genetic epilepsy cohort treated with perampanel, to detect possible subgroups with high efficacy.",
+            "journal": "Epilepsia",
+            "year": "2023",
+            "authors": [
+              "Nissenkorn Andreea",
+              "Kluger Gerhard",
+              "Schubert-Bast Susanne",
+              "Bayat Allan",
+              "Bobylova Marya"
+            ],
+            "pub_types": [
+              "Multicenter Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Child",
+              "Humans",
+              "Epilepsies, Partial",
+              "Anticonvulsants",
+              "Retrospective Studies",
+              "Treatment Outcome",
+              "Epilepsy",
+              "Seizures",
+              "Pyridones",
+              "Glutamic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36734057/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "reading seizures",
+        "txgnn_score": 0.9982500672340392,
+        "txgnn_rank": 3087,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02849626",
+            "title": "An Open-Label, Multicenter Study With an Extension Phase to Evaluate the Safety, Tolerability, and Exposure-Efficacy Relationship of Perampanel Oral Suspension When Administered as an Adjunctive Therapy in Pediatric Subjects (Age 4 to Less Than 12 Years) With Inadequately Controlled Partial-Onset Seizures or Primary Generalized Tonic Clonic Seizures",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2016-11-16",
+            "completion_date": "2021-12-06",
+            "country": "Spain, France, Canada, South Korea, Belgium, Italy, Latvia, United States, Czechia, Hungary, Poland, Japan",
+            "enrollment": 180,
+            "brief_summary": "This is an open-label, multicenter study with an Extension Phase to evaluate the safety and tolerability of perampanel oral suspension when administered as an adjunctive therapy in children (ages 4 to less than \\[\\<\\] 12 years) with inadequately controlled partial onset seizures (POS) or primary generalized tonic clonic (PGTC) seizures.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Have a diagnosis of epilepsy with POS with or without secondarily generalized (SG) seizures or PGTC seizures according to the International League Against Epilepsy's (ILAE) Classification of Epileptic Seizures (1981). A diagnosis should have been established at least 6 months ",
+            "endpoints": [
+              "Percentage of Participants With Treatment Emergent Adverse Events (AEs) and Treatment Emergent Serious Adverse Events (SAEs) for Total Group of Participants - Core Phase and Extension Phase A of This Study",
+              "Percentage of Participants With Treatment Emergent Markedly Abnormal Laboratory Values for Total Group of Participants- Core Phase and Extension Phase A of This Study",
+              "Percentage of Participants With Abnormal Vital Sign Values for Total Group of Participants- Core Phase and Extension Phase A of This Study"
+            ],
+            "sponsor": "Eisai Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT02849626"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33666943",
+            "title": "Perampanel and pregnancy.",
+            "abstract": "The objective was to summarize pregnancy and fetal/postnatal outcomes following maternal perampanel exposure using preclinical and clinical data, and to use physiologically based pharmacokinetic (PBPK) modeling to improve understanding of perampanel pharmacokinetics (PK) during pregnancy.",
+            "journal": "Epilepsia",
+            "year": "2021",
+            "authors": [
+              "Vazquez Blanca",
+              "Tomson Torbjörn",
+              "Dobrinsky Cindy",
+              "Schuck Edgar",
+              "O'Brien Terence J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Anticonvulsants",
+              "Dose-Response Relationship, Drug",
+              "Epilepsy",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Nitriles",
+              "Pregnancy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33666943/"
+          },
+          {
+            "pmid": "30092489",
+            "title": "Perampanel chronic treatment does not induce tolerance and decreases tolerance to clobazam in genetically epilepsy prone rats.",
+            "abstract": "Tolerance to some therapeutic effects of antiepileptic drugs may account for the development of pharmacoresistance in patients with epilepsy. In the present study, following oral acute pretreatment with the new antiepileptic drug perampanel (0.1, 0.3, 1 or 3 mg/kg), we observed that the drug significantly and dose-dependently attenuated the seizure phases (clonus and tonus) of audiogenic seizures in genetically epilepsy prone rats (GEPR-9 s), a genetic model of reflex generalized epilepsy. In addition, the GEPR-9 s were administered orally with perampanel (1 or 3 mg/kg) once daily for 10 weeks in order to study the possible development of tolerance, and when animals were subjected to auditory stimulation we observed that the ED50 values against clonus or tonus were not significantly different from those observed after single administration. Furthermore, the duration of anticonvulsant effects observed between 60 min and 9 h following oral administration of perampanel (1 mg/kg) were simi",
+            "journal": "Epilepsy research",
+            "year": "2018",
+            "authors": [
+              "Citraro Rita",
+              "De Sarro Caterina",
+              "Leo Antonio",
+              "Donato di Paola Eugenio",
+              "Palma Ernesto"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acoustic Stimulation",
+              "Administration, Oral",
+              "Animals",
+              "Anticonvulsants",
+              "Brain",
+              "Clobazam",
+              "Dose-Response Relationship, Drug",
+              "Drug Tolerance",
+              "Epilepsy, Reflex",
+              "Genetic Predisposition to Disease"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30092489/"
+          },
+          {
+            "pmid": "38629017",
+            "title": "Irregular Tremulous Movements and Infrequent Seizures: A Clinical-Electrophysiological Diagnosis of Benign Adult Familial Myoclonus Epilepsy.",
+            "abstract": "We report a case involving a 31-year-old male without any known precipitating injuries presenting with involuntary finger movements and rare seizures. There was a noted family history of tremulous movements. Yet the characteristics of his finger movements were irregular and not typical of essential tremor (ET). Electrophysiological examinations, including video EEG, showed no epileptic discharges, and brain MRI results were normal. However, somatosensory evoked potentials (SEP) revealed the presence of giant SEP, and a positive cortical (C)-reflex was observed, leading to a clinical diagnosis of benign adult familial myoclonus epilepsy (BAFME). Management with valproic acid and perampanel resulted in a significant reduction of symptoms. This case highlights the necessity of considering BAFME in the differential diagnosis for atypical tremorous finger movements, especially with a relevant family history, and the critical role of electrophysiological findings indicative of cortical hyper",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Imon Kazuki",
+              "Neshige Shuichiro",
+              "Maeda Akiko",
+              "Yamamoto Yumiko",
+              "Maruyama Hirofumi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38629017/"
+          },
+          {
+            "pmid": "38029871",
+            "title": "Cenobamate enhances the anticonvulsant effect of other antiseizure medications in the DBA/2 mouse model of reflex epilepsy.",
+            "abstract": "Clinical studies documented that cenobamate (CNB) has a marked efficacy compared to other antiseizure medications (ASMs) in reducing focal seizures. To date, different aspects of CNB need to be clarified, including its efficacy against generalized seizures. Similarly, the pattern of drug-drug interactions between CNB and other ASMs also compels further investigation. This study aimed to detect the role of CNB on generalized seizures using the DBA/2 mouse model. We have also studied the effects of an adjunctive CNB treatment on the antiseizure properties of some ASMs against reflex seizures. The effects of this adjunctive treatment on motor performance, body temperature, and brain levels of ASMs were also evaluated. CNB was able to antagonize seizures in DBA/2 mice. CNB, at 5 mg/kg, enhanced the antiseizure activity of ASMs, such as diazepam, clobazam, levetiracetam, perampanel, phenobarbital, topiramate, and valproate. No synergistic effects were observed when CNB was co-administered w",
+            "journal": "European journal of pharmacology",
+            "year": "2024",
+            "authors": [
+              "Leo Antonio",
+              "Bosco Francesca",
+              "Guarnieri Lorenza",
+              "De Sarro Caterina",
+              "Rania Vincenzo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Mice",
+              "Animals",
+              "Anticonvulsants",
+              "Epilepsy, Reflex",
+              "Valproic Acid",
+              "Topiramate",
+              "Levetiracetam",
+              "Drug Synergism",
+              "Mice, Inbred DBA",
+              "Seizures"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38029871/"
+          },
+          {
+            "pmid": "41116590",
+            "title": "Perampanel as an Effective Treatment for Cortical Reflex Myoclonus in Juvenile Huntington's Disease.",
+            "abstract": "",
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2026",
+            "authors": [
+              "Yamada Ken",
+              "Tojima Maya",
+              "Nakanishi Etsuro",
+              "Ayaki Takashi",
+              "Takahashi Ryosuke"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41116590/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "beta-ketothiolase deficiency",
+        "txgnn_score": 0.9979344606399536,
+        "txgnn_rank": 3504,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "status epilepticus",
+        "txgnn_score": 0.9976527094841005,
+        "txgnn_rank": 3840,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06401707",
+            "title": "PeRampanel fOr Status ePilEpticus pRophylaxis Post-cardiac Arrest",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2024-05-20",
+            "completion_date": "2026-10-20",
+            "country": "United States",
+            "enrollment": 52,
+            "brief_summary": "Brain injury is the main cause of death and disability for patients surviving cardiac arrest resuscitation and seizures are diagnosed in up to a third of these patients. The investigators are proposing a pilot randomized placebo-controlled clinical trial to evaluate the safety and feasibility of perampanel use for post-cardiac arrest status epilepticus (PCARSE) prevention after cardiac arrest.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥18 years old\n* Non-traumatic, out-of-hospital cardiac arrest\n* Comatose on admission - defined as not following commands\n* Return of spontaneous circulation (ROSC) within less than 45 minutes from the time of cardiac arrest (defined as the time of 911 or EMS (emergency me",
+            "endpoints": [
+              "Safety and tolerability of perampanel",
+              "Adverse and Serious Adverse Events"
+            ],
+            "sponsor": "University of California, San Francisco",
+            "url": "https://clinicaltrials.gov/study/NCT06401707"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04309721",
+            "title": "Efficacy of add-on PEramPanel in Focal Motor Status Epilepticus",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2022-11-02",
+            "completion_date": "2023-11-13",
+            "country": "France",
+            "enrollment": 1,
+            "brief_summary": "Randomized controlled trial on focal motor status epilepticus (SE), studying the add-on efficacy of the enteral administration of perampanel (PER) to a conventional intravenous antiepileptic drug.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients aged 18 years or above, including the protected adults with a focal motor status epilepticus, defined by prominent clinically objective focal motor symptoms (clonic, tonic, myoclonic, adversive or oculoclonic), lasting for more than 10 minutes before any treatment or",
+            "endpoints": [
+              "Administration or not of either (i) an additional second-line antiepileptic drug, either intravenous or orally, or (ii) a third-line (anesthetic drug)"
+            ],
+            "sponsor": "Assistance Publique - Hôpitaux de Paris",
+            "url": "https://clinicaltrials.gov/study/NCT04309721"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05684978",
+            "title": "Efficacy and Safety of Perampanel in the Treatment of Refractory Status Epilepticus",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2025-10-10",
+            "completion_date": "2025-10-10",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "This project is aiming to better understand the use of perampanel as an appropriate standard-of-care therapy for treatment refractory status epilepticus (RSE), to identify determinants of outcomes, and establish safety. The study will recruit 25 patients at WSU. The study will last for about 96 weeks and will involve a screening visit and two in clinic visits at 3 and 6 months. If the subjects give written informed consent and meet all eligibility criteria they will be clinically evaluated and w",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults patients equal or greater than 18 years\n* Patients in RSE that require IV anesthetic infusions. Note: RSE is defined as status epilepticus that fails to terminate after an adequate dose of benzodiazepines (1st line agents) and an AED (2nd line agent). Adequate doses hav",
+            "endpoints": [
+              "Primary Outcomes"
+            ],
+            "sponsor": "Wayne State University",
+            "url": "https://clinicaltrials.gov/study/NCT05684978"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07443241",
+            "title": "Gender-specific Differences in the Etiology, Diagnosis, Treatment and Outcome of Status Epilepticus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2010-12-16",
+            "completion_date": "2024-03-27",
+            "country": "N/A",
+            "enrollment": 779,
+            "brief_summary": "Sex-specific differences in neurological emergencies such as Status epilepticus (SE) remain understudied despite growing recognition of gender disparities in medicine. This study aimes to investigate sex-related differences in etiology, diagnostics, treatment, and outcomes among patients with SE. The investigators conducted a retrospective analysis of 779 patients treated with SE at Marburg University Hospital between 2011 and 2023.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* patients who were treated at Marburg University Hospital (UKGM Marburg) between January 2011 to March 2023 with diagnosis of SE\n\nExclusion Criteria:\n\n* children",
+            "endpoints": [
+              "Age at SE Onset",
+              "Diagnosis of SE Subtype",
+              "Semiology: Focal vs. Generalized"
+            ],
+            "sponsor": "University Hospital Marburg",
+            "url": "https://clinicaltrials.gov/study/NCT07443241"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05756621",
+            "title": "SUPER-refractory Status Epilepticus After Cardiac Arrest: a Multicenter, Retrospective, Cohort Study of Dual Anti-glutamate Therapy With Ketamine and Perampanel",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2022-01-15",
+            "completion_date": "2025-09-30",
+            "country": "Italy",
+            "enrollment": 80,
+            "brief_summary": "Status epilepticus (SE) is found in 20-30% of patients in coma after cardiac arrest, is often refractory to medical therapy and is considered a negative prognostic factor. Intensity and duration of treatment of refractory and super-refractory post-anoxic SE pose the ethical dilemma between futility of treatments and, conversely, their premature suspension. A recent study by the Epilepsy Center of the San Gerardo Hospital has shown that patients with super-refractory post-anoxic SE and favorable ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* age ≥ 18 years\n* patients in coma after cardio-circulatory arrest (CCA) admitted to the Intensive Care Unit and treated with target temperature management (TTM) for the first 24 hours\n* initiation of continuous electroencephalographic (cEEG) monitoring within 24-36 hours of CC",
+            "endpoints": [
+              "Number of patients with resolution of status epilepticus"
+            ],
+            "sponsor": "University of Milano Bicocca",
+            "url": "https://clinicaltrials.gov/study/NCT05756621"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36218253",
+            "title": "[Paediatric status epilepticus].",
+            "abstract": "Status epilepticus is defined as the situation resulting from the failure of the mechanisms responsible for terminating an epileptic seizure. In 2015, an operational concept was adopted internationally in which two times are identified: a first time, at which treatment must begin (five minutes for convulsive status, 10-15 minutes for focal and non-convulsive status); and a second time, after which there is considered to be a high risk of subsequent sequelae (30 minutes in the case of the convulsive). It occurs in 3-42/100,000 children per year, who are refractory or super-refractory in 10-40% of cases.",
+            "journal": "Revista de neurologia",
+            "year": "2022",
+            "authors": [
+              "Soto-Insuga V",
+              "González-Alguacil E",
+              "García-Peñas J J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anesthetics",
+              "Anticonvulsants",
+              "Benzodiazepines",
+              "Child",
+              "Epilepsy",
+              "Humans",
+              "Ketamine",
+              "Lacosamide",
+              "Levetiracetam"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36218253/"
+          },
+          {
+            "pmid": "33719651",
+            "title": "Treatment of Super-Refractory Status Epilepticus: A Review.",
+            "abstract": "Super-refractory status epilepticus (SRSE) presents management challenges due to the absence of randomized controlled trials and a plethora of potential medical therapies. The literature on treatment options for SRSE reports variable success and quality of evidence. This review is a sequel to the 2020 American Epilepsy Society (AES) comprehensive review of the treatment of convulsive refractory status epilepticus (RSE).",
+            "journal": "Epilepsy currents",
+            "year": "2021",
+            "authors": [
+              "Ochoa Juan G",
+              "Dougherty Michelle",
+              "Papanastassiou Alex",
+              "Gidal Barry",
+              "Mohamed Ismail"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33719651/"
+          },
+          {
+            "pmid": "35151187",
+            "title": "Perampanel in achieving status epilepticus cessation: A systematic review.",
+            "abstract": "Status epilepticus (SE) is a neurological emergency necessitating rapid seizure control to prevent long-term consequences. Perampanel (PER) is a novel selective, noncompetitive alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic (AMPA) receptor antagonist that demonstrated efficacy and safety in lithium-pilocarpine models of SE; however, data in humans are limited. This systematic review was performed to assess the efficacy and safety of PER in patients with SE, RSE, and SRSE.",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2022",
+            "authors": [
+              "Perez Dominique Q",
+              "Espiritu Adrian I",
+              "Jamora Roland Dominic G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Female",
+              "Humans",
+              "Infant",
+              "Nitriles",
+              "Pyridones",
+              "Retrospective Studies",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35151187/"
+          },
+          {
+            "pmid": "26436331",
+            "title": "Perampanel in the treatment of focal and idiopathic generalized epilepsies and of status epilepticus.",
+            "abstract": "Perampanel is the latest approved antiepileptic drug in focal and generalized epilepsies and has a distinct and selective mode of action on AMPA-receptors. Several thousand patients have received perampanel within randomized placebo-controlled trials, open-label extension trials and post-marketing observational studies. Significant median partial-onset seizure reduction rates of 23% for 4 mg/day, 26-31% for 8 mg/day and 18-35% for 12 mg/day were reported. Likewise 50 percent responder rates were 29% for 4 mg/day, 33-38% for 8 mg/day and 34-36% for 12 mg/day. Primary generalized tonic-clonic seizures were reduced by 76.5% (8 mg) vs 38.4% (placebo) in a recent controlled trial. Overall, perampanel is well tolerated and the main adverse events are dizziness, somnolence and fatigue. There are also anecdotal reports on use in progressive myoclonic epilepsies and status epilepticus. Perampanel will likely remain an important, possibly broad-spectrum AED with a significant market share, espec",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2015",
+            "authors": [
+              "Strzelczyk Adam",
+              "Willems Laurent M",
+              "Willig Sophia",
+              "Rosenow Felix",
+              "Bauer Sebastian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Epilepsies, Partial",
+              "Epilepsy, Generalized",
+              "Humans",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26436331/"
+          },
+          {
+            "pmid": "31147899",
+            "title": "Perampanel for Refractory Status Epilepticus… Another Tool in the Armamentarium.",
+            "abstract": "",
+            "journal": "Neurocritical care",
+            "year": "2019",
+            "authors": [
+              "Hocker Sara"
+            ],
+            "pub_types": [
+              "Editorial",
+              "Comment"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Intensive Care Units",
+              "Nitriles",
+              "Pyridones",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31147899/"
+          },
+          {
+            "pmid": "33754209",
+            "title": "Efficacy and safety of perampanel in refractory and super-refractory status epilepticus: cohort study of 81 patients and literature review.",
+            "abstract": "The effective dose of perampanel in status epilepticus (SE), refractory SE (RSE), and super-refractory SE (SRSE) in humans is unknown, and the potential of perampanel in treating SE has not been evaluated in a large cohort.",
+            "journal": "Journal of neurology",
+            "year": "2021",
+            "authors": [
+              "Lim Siew-Na",
+              "Wu Tony",
+              "Tseng Wei-En Johnny",
+              "Chiang Hsing-I",
+              "Cheng Mei-Yun"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Cohort Studies",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Nitriles",
+              "Pyridones",
+              "Retrospective Studies",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33754209/"
+          },
+          {
+            "pmid": "31264486",
+            "title": "Recent advances in the pharmacotherapy of epilepsy: brivaracetam and perampanel as broad-spectrum antiseizure drugs for the treatment of epilepsies and status epilepticus.",
+            "abstract": "Introduction: Antiseizure drugs (ASDs) play a central and crucial role in the treatment of epilepsy patients, as the majority require anticonvulsant treatment for an extended period of time. Since up to 30% of patients are refractory to medical treatment, new therapeutic options are necessary. Perampanel (PER) and brivaracetam (BRV) are the latest approved ASDs that may be considered in a variety of epilepsy syndromes. PER has a distinct and selective mode of action on α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptors and is licensed for use in focal and generalized epilepsies. BRV is a derivative of levetiracetam but exhibits a 20-fold higher affinity and a faster brain entry time as a synaptic vesicle glycoprotein 2A (SV2A) ligand. Areas covered: This article reviews the advances in the epileptic treatment and provides a comparison of PER and BRV. Both drugs have shown comparable results in randomized controlled trials, and both are well tolerated. Expert opinion:",
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2019",
+            "authors": [
+              "Willems Laurent Maximilian",
+              "Bauer Sebastian",
+              "Rosenow Felix",
+              "Strzelczyk Adam"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Clinical Trials as Topic",
+              "Epilepsy",
+              "Half-Life",
+              "Humans",
+              "Nitriles",
+              "Pyridones",
+              "Pyrrolidinones",
+              "Receptors, AMPA",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31264486/"
+          },
+          {
+            "pmid": "30891695",
+            "title": "Perampanel Treatment for Refractory Status Epilepticus in a Neurological Intensive Care Unit.",
+            "abstract": "Perampanel is a novel anti-epileptic drug (AED) which acts as a non-competitive α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor antagonist to reduce glutamate-mediated postsynaptic excitation. Previous animal studies and a few case reports/series have suggested that it may be effective to treat refractory status epilepticus (RSE).",
+            "journal": "Neurocritical care",
+            "year": "2019",
+            "authors": [
+              "Ho Chen-Jui",
+              "Lin Chih-Hsiang",
+              "Lu Yan-Ting",
+              "Shih Fu-Yuan",
+              "Hsu Che-Wei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anticonvulsants",
+              "Critical Care",
+              "Electroencephalography",
+              "Female",
+              "Hospitalization",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30891695/"
+          },
+          {
+            "pmid": "30473267",
+            "title": "Novel drugs and early polypharmacotherapy in status epilepticus.",
+            "abstract": "Rescue medications for status epilepticus (SE) have a relatively high rate of failure. The purpose of this review is to summarize the evidence for the efficacy of novel drugs and early polypharmacotherapy for SE.",
+            "journal": "Seizure",
+            "year": "2019",
+            "authors": [
+              "Amengual-Gual Marta",
+              "Sánchez Fernández Iván",
+              "Wainwright Mark S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Cannabinoid Receptor Modulators",
+              "Drug Therapy, Combination",
+              "Excitatory Amino Acid Antagonists",
+              "Humans",
+              "Immunologic Factors",
+              "Neurosteroids",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30473267/"
+          },
+          {
+            "pmid": "39213748",
+            "title": "Role of α-amino-3‑hydroxy-5-methyl-4-isoxazolepropionic acid receptors and the antagonist perampanel in geriatric epilepsy and status epilepticus.",
+            "abstract": "The α-amino-3‑hydroxy-5-methyl-4-isoxazolepropionic acid receptor (AMPAR) is an ionotropic glutamate receptor recognized for its active involvement in epilepsy. Through AMPAR functional alterations, multiple factors contribute to the increased susceptibility to seizures in the geriatric population. These factors include changes in the hippocampus, neuroinflammation, ischemic insults, amyloid deposition, previous seizures, alterations in the microenvironment, and neurovascular unit dysfunction. Perampanel, a noncompetitive AMPAR antagonist, has been approved for the treatment of focal and generalized epilepsy. However, a complete understanding of AMPAR's role in epileptogenesis and the pharmacotherapy of perampanel in the geriatric population remains elusive. To address this gap, we conducted a comprehensive literature review, screening 1557 articles and ultimately selecting 94 relevant ones. We provided insights into AMPAR functionality changes and perampanel's role in treating geriatr",
+            "journal": "Archives of gerontology and geriatrics",
+            "year": "2025",
+            "authors": [
+              "Huang Yi-Te",
+              "Huang Tzu-Hsin",
+              "Chen Yu-Shiue",
+              "Li Ya-Jhen",
+              "Huang Chin-Wei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pyridones",
+              "Nitriles",
+              "Status Epilepticus",
+              "Receptors, AMPA",
+              "Anticonvulsants",
+              "Aged",
+              "Epilepsy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39213748/"
+          },
+          {
+            "pmid": "30613951",
+            "title": "Perampanel for treatment of status epilepticus in Austria, Finland, Germany, and Spain.",
+            "abstract": "Novel treatments are needed to control treatment-resistant status epilepticus (SE). We report a summary of clinical cases where perampanel was used in established SE, refractory SE (RSE), or super-refractory SE (SRSE).",
+            "journal": "Acta neurologica Scandinavica",
+            "year": "2019",
+            "authors": [
+              "Strzelczyk Adam",
+              "Knake Susanne",
+              "Kälviäinen Reetta",
+              "Santamarina Estevo",
+              "Toledo Manuel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anticonvulsants",
+              "Austria",
+              "Female",
+              "Finland",
+              "Germany",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Nitriles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30613951/"
+          },
+          {
+            "pmid": "40543019",
+            "title": "Perampanel as a second-line therapy to midazolam reduces soman-induced status epilepticus and neurodegeneration in rats.",
+            "abstract": "A benzodiazepine (diazepam or midazolam) is one of the current standards of care therapies to effectively terminate organophosphorus nerve agent-induced status epilepticus when administered shortly after onset. Preclinical studies showed that benzodiazepines were less effective in stopping status epilepticus when treatment was delayed up to 30 min from the time of organophosphorus exposure, highlighting the need for adjuncts to midazolam in a delayed treatment scenario. In this study, we evaluated the alpha-amino-3-hydroxy-5-methylisoxazole-4-propionic acid (AMPA) receptor antagonist perampanel for efficacy as a second-line antiseizure medication against soman-induced benzodiazepine-refractory status epilepticus.",
+            "journal": "Epilepsia open",
+            "year": "2025",
+            "authors": [
+              "Steier Hailey G",
+              "Schultz Caroline R",
+              "Niquet Jerome",
+              "Nguyen Donna A",
+              "Stone Michael F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Nitriles",
+              "Status Epilepticus",
+              "Pyridones",
+              "Midazolam",
+              "Soman",
+              "Male",
+              "Rats, Sprague-Dawley",
+              "Rats",
+              "Anticonvulsants"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40543019/"
+          },
+          {
+            "pmid": "30076046",
+            "title": "Perampanel in the treatment of status epilepticus: A systematic review of the literature.",
+            "abstract": "Perampanel (PER) is a noncompetitive β-amino-3-(5-methyl-3-oxo-1,2-oxazol-4-yl)propionic acid (AMPA) receptor antagonist with demonstrated efficacy in animal models of status epilepticus (SE). We performed a systematic review of the literature to assess the efficacy and tolerability of PER in the treatment of refractory and super-refractory SE.",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2018",
+            "authors": [
+              "Brigo Francesco",
+              "Lattanzi Simona",
+              "Rohracher Alexandra",
+              "Russo Emilio",
+              "Meletti Stefano"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Humans",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA",
+              "Status Epilepticus",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30076046/"
+          },
+          {
+            "pmid": "38256862",
+            "title": "Efficacy of Perampanel in Refractory and Super-Refractory Status Epilepticus with Suspected Inflammatory Etiology: A Case Series.",
+            "abstract": "(1) Background: Increasing evidence supports the anti-inflammatory and neuroprotective role of perampanel (PER), mediated by decreased expression of pro-inflammatory cytokines and by interference with apoptosis processes. Therefore, the use of PER to treat status epilepticus (SE) with suspected inflammatory etiology is appealing and deserves further investigation. (2) Methods: We retrospectively analyzed seven patients (five F, two M; median age: 62 years) with refractory and super-refractory SE due to a probable or defined inflammatory etiology and treated with PER. (3) Results: PER was administered as the third (4/7) or fourth drug (3/7), with a median loading dose of 32 mg/day (range: 16-36 mg/day) and a median maintenance dose of 10 mg/day (range: 4-12 mg/day). In five cases, SE was focal, while in two patients, it was generalized. SE was caused by systemic inflammation in three patients, while in the other four subjects, it was recognized to have an autoimmune etiology. SE resolut",
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "authors": [
+              "Nilo Annacarmen",
+              "Vogrig Alberto",
+              "Belluzzo Marco",
+              "Lettieri Christian",
+              "Verriello Lorenzo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38256862/"
+          },
+          {
+            "pmid": "32915470",
+            "title": "Allopregnanolone and perampanel as adjuncts to midazolam for treating diisopropylfluorophosphate-induced status epilepticus in rats.",
+            "abstract": "Combinations of midazolam, allopregnanolone, and perampanel were assessed for antiseizure activity in a rat diisopropylfluorophosphate (DFP) status epilepticus model. Animals receiving DFP followed by atropine and pralidoxime exhibited continuous high-amplitude rhythmical electroencephalography (EEG) spike activity and behavioral seizures for more than 5 hours. Treatments were administered intramuscularly 40 min after DFP. Seizures persisted following midazolam (1.8 mg/kg). The combination of midazolam with either allopregnanolone (6 mg/kg) or perampanel (2 mg/kg) terminated EEG and behavioral status epilepticus, but the onset of the perampanel effect was slow. The combination of midazolam, allopregnanolone, and perampanel caused rapid and complete suppression of EEG and behavioral seizures. In the absence of DFP, animals treated with the three-drug combination were sedated but not anesthetized. Animals that received midazolam alone exhibited spontaneous recurrent EEG seizures, whereas",
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "2020",
+            "authors": [
+              "Dhir Ashish",
+              "Bruun Donald A",
+              "Guignet Michelle",
+              "Tsai Yi-Hua",
+              "González Eduardo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Behavior, Animal",
+              "Drug Therapy, Combination",
+              "Electroencephalography",
+              "Isoflurophate",
+              "Male",
+              "Midazolam",
+              "Nitriles",
+              "Pregnanolone",
+              "Pyridones"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32915470/"
+          },
+          {
+            "pmid": "39436521",
+            "title": "Effectiveness and safety of Perampanel in refractory status epilepticus: a case series.",
+            "abstract": "Perampanel is a selective non-competitive antagonist of AMPA receptors, and the first agent of this class to become available for the treatment of epilepsy. It could be a useful tool for treatment of refractory status epilepticus (RSE).",
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2025",
+            "authors": [
+              "Renna Rosaria",
+              "Andreone Vincenzo",
+              "Barone Paolo",
+              "Penza Pietro"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anticonvulsants",
+              "Drug Resistant Epilepsy",
+              "Nitriles",
+              "Pyridones",
+              "Receptors, AMPA",
+              "Status Epilepticus",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39436521/"
+          },
+          {
+            "pmid": "29663350",
+            "title": "The role of AMPA receptors and their antagonists in status epilepticus.",
+            "abstract": "Status epilepticus (SE) is typically defined as a prolonged self-sustaining seizure or repeated seizures showing an incomplete recovery between them. SE represents a medical emergency often associated with significant disability, morbidity, and mortality. Despite the clinical impact, the mechanisms underlying the transition from self-limited seizures to protracted, medically refractory seizures are not completely understood. About 40% of patients in established SE are refractory to antiepileptic drugs (first-line treatment); therefore, there is a need for more efficacious drugs. In this review, we focused on the current knowledge about the involvement of alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptors during SE, the preclinical efficacy of its antagonists, and the currently published clinical studies involving drugs with this mechanism of action. We carried out an extensive literature search to recognize experimental and clinical articles both on AMPA receptor",
+            "journal": "Epilepsia",
+            "year": "2018",
+            "authors": [
+              "Leo Antonio",
+              "Giovannini Giada",
+              "Russo Emilio",
+              "Meletti Stefano"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anticonvulsants",
+              "Humans",
+              "Receptors, AMPA",
+              "Status Epilepticus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29663350/"
+          },
+          {
+            "pmid": "38761446",
+            "title": "Use of perampanel oral suspension for the treatment of refractory and super-refractory status epilepticus.",
+            "abstract": "Status epilepticus (SE) is a medical emergency associated with a significant risk of disability and death. The treatment of SE follows a step-wise approach, with limited data on ideal antiseizure medications (ASMs) for refractory and super refractory SE (RSE/SRSE). Perampanel (PER), an AMPA receptor antagonist, has shown promise in animal models but still has limited data in humans. This study tried to evaluate optimal dosage and safety of PER in RSE and SRSE patients.",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2024",
+            "authors": [
+              "Bruschi G",
+              "Pellegrino L",
+              "Bisogno A L",
+              "Ferreri F",
+              "Kassabian B"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pyridones",
+              "Male",
+              "Female",
+              "Nitriles",
+              "Status Epilepticus",
+              "Middle Aged",
+              "Anticonvulsants",
+              "Adult",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38761446/"
+          },
+          {
+            "pmid": "33866126",
+            "title": "Efficacy of oral perampanel in status epilepticus and acute repetitive seizures in children at a tertiary care hospital in Thailand.",
+            "abstract": "Status epilepticus (SE) and acute repetitive seizure (ARS) are emergency conditions associated with significant morbidity and mortality in children. Anti-seizure medications (ASMs) need to terminate seizures to prevent brain damage and death. Common challenges that delay the management of SE and ARS in children at Phramongkutklao hospital are difficulty in accessing intravenous route for drug administration and inadequate number of intensive care units (which will be required in case of the use of adverse events to anesthetic ASMs). Oral, non-sedating ASMs could be a potential option to terminate seizures effectively in SE and ARS in children and further studies in this aspect are needed. We performed a prospective, descriptive study in children with SE or ARS < 18 years of age who had contraindication to or their seizures were refractory to the second-line ASMs after benzodiazepine and received oral perampanel. Demographic data, efficacy, and adverse effects of treatment were recorded",
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2021",
+            "authors": [
+              "Wachiropathum Peeraya",
+              "Nabangchang Charcrin",
+              "Likasitthananon Napakjira",
+              "Suwanpakdee Piradee"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anticonvulsants",
+              "Child",
+              "Humans",
+              "Nitriles",
+              "Prospective Studies",
+              "Pyridones",
+              "Seizures",
+              "Status Epilepticus",
+              "Tertiary Care Centers",
+              "Thailand"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33866126/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB08883",
+    "name": "Perampanel",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Perampanel"
+      },
+      "queried_at": "2026-03-09T15:50:26.719049",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Perampanel"
+      },
+      "queried_at": "2026-03-09T15:50:29.777073",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "visual epilepsy"
+      },
+      "queried_at": "2026-03-09T15:50:31.000295",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "visual epilepsy"
+      },
+      "queried_at": "2026-03-09T15:50:34.389629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "visual epilepsy"
+      },
+      "queried_at": "2026-03-09T15:50:45.156037",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "eating seizures"
+      },
+      "queried_at": "2026-03-09T15:50:46.022399",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "eating seizures"
+      },
+      "queried_at": "2026-03-09T15:50:52.194741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "eating seizures"
+      },
+      "queried_at": "2026-03-09T15:50:56.104497",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "orgasm-induced seizures"
+      },
+      "queried_at": "2026-03-09T15:50:56.803888",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "orgasm-induced seizures"
+      },
+      "queried_at": "2026-03-09T15:51:01.579729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "orgasm-induced seizures"
+      },
+      "queried_at": "2026-03-09T15:51:02.676699",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "audiogenic seizures"
+      },
+      "queried_at": "2026-03-09T15:51:04.125270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "audiogenic seizures"
+      },
+      "queried_at": "2026-03-09T15:51:07.875533",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "audiogenic seizures"
+      },
+      "queried_at": "2026-03-09T15:51:15.984367",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "thinking seizures"
+      },
+      "queried_at": "2026-03-09T15:51:19.275704",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "thinking seizures"
+      },
+      "queried_at": "2026-03-09T15:51:23.535508",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "thinking seizures"
+      },
+      "queried_at": "2026-03-09T15:51:29.077925",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "startle epilepsy"
+      },
+      "queried_at": "2026-03-09T15:51:30.476207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "startle epilepsy"
+      },
+      "queried_at": "2026-03-09T15:51:34.680254",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "startle epilepsy"
+      },
+      "queried_at": "2026-03-09T15:51:40.562712",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "micturation-induced seizures"
+      },
+      "queried_at": "2026-03-09T15:51:42.124792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "micturation-induced seizures"
+      },
+      "queried_at": "2026-03-09T15:51:47.392213",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "micturation-induced seizures"
+      },
+      "queried_at": "2026-03-09T15:51:53.390015",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "reading seizures"
+      },
+      "queried_at": "2026-03-09T15:51:55.021454",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "reading seizures"
+      },
+      "queried_at": "2026-03-09T15:51:58.812461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "reading seizures"
+      },
+      "queried_at": "2026-03-09T15:52:01.338200",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "beta-ketothiolase deficiency"
+      },
+      "queried_at": "2026-03-09T15:52:01.929741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "beta-ketothiolase deficiency"
+      },
+      "queried_at": "2026-03-09T15:52:07.218740",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "beta-ketothiolase deficiency"
+      },
+      "queried_at": "2026-03-09T15:52:08.047761",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "status epilepticus"
+      },
+      "queried_at": "2026-03-09T15:52:09.536765",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "status epilepticus"
+      },
+      "queried_at": "2026-03-09T15:52:15.030308",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Perampanel",
+        "disease": "status epilepticus"
+      },
+      "queried_at": "2026-03-09T15:52:18.839094",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T15:52:18.852811"
+  }
+}

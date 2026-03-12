@@ -1,0 +1,780 @@
+{
+  "drug": {
+    "inn": "Peppermint oil",
+    "drugbank_id": "DB11198",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "leprosy",
+        "txgnn_score": 0.9979808926582336,
+        "txgnn_rank": 3433,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pneumocystosis",
+        "txgnn_score": 0.9958077669143676,
+        "txgnn_rank": 5772,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "coronary artery disease",
+        "txgnn_score": 0.9935226440429688,
+        "txgnn_rank": 7810,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myocardial ischemia",
+        "txgnn_score": 0.9925758838653564,
+        "txgnn_rank": 8575,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "echinococcus granulosus infectious disease",
+        "txgnn_score": 0.9925193786621094,
+        "txgnn_rank": 8622,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of vocal cord",
+        "txgnn_score": 0.9913920164108276,
+        "txgnn_rank": 9492,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "uterine polyp",
+        "txgnn_score": 0.9913733601570128,
+        "txgnn_rank": 9520,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of middle ear",
+        "txgnn_score": 0.9913554787635804,
+        "txgnn_rank": 9530,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cardiovascular disease",
+        "txgnn_score": 0.9913097620010376,
+        "txgnn_rank": 9566,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04966546",
+            "title": "Targeting Spreading Depolarization After Chronic Subdural Hematoma Surgery (TASD)",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "start_date": "2022-06-01",
+            "completion_date": "2025-12-01",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Chronic Subdural Hematoma (cSDH) is an extremely common problem, particularly in the aging population, where fluid like collections compress the brain, frequently requiring surgical drainage. After drainage, 25-50% of patients experience post operative neurologic deficits such as weakness or confusion that are often not explained by problems such as seizure, stroke, or mass effect from the fluid and blood. Recent subdural recordings have demonstrated that some of these neurological deficits may ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Surgical intervention for chronic or subacute SDH\n* Electrode strip placed at time of surgery (for clinical indication of enhanced seizure monitoring)\n* Age 18-100\n* SD detected within 48h of surgery\n\nExclusion Criteria:\n\n* Acute SDH requiring large craniotomy (some acute suba",
+            "endpoints": [
+              "Spreading depolarizations and seizures",
+              "90 day eGOS"
+            ],
+            "sponsor": "University of New Mexico",
+            "url": "https://clinicaltrials.gov/study/NCT04966546"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05071833",
+            "title": "Effects of Oral Peppermint Supplementation on Cardiometabolic Parameters",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-11-01",
+            "completion_date": "2022-11-05",
+            "country": "United Kingdom",
+            "enrollment": 36,
+            "brief_summary": "Cardiovascular disease, type 2 diabetes mellitus and associated diseases combined are the leading health burden and cause of mortality worldwide; therefore, the necessity for an intervention is paramount. Dietary interventions to improve cardiometabolic health are highly sought after as they possess less risk than pharmacological drugs. Previous non-randomized interventions have shown that oral peppermint may be beneficial in improving cardiometabolic outcomes. However, to date, no research has ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Healthy\n* Between 18 \\& 65 years\n* Non-smoker\n* BMI \\< 30\n* Able to give informed consent\n\nExclusion Criteria:\n\n* Pregnancy\n* Diabetes or any other metabolic/ uncontrolled hypertensive conditions\n* Food allergies to peppermint\n* Habitual consumption of peppermint\n* Not regular",
+            "endpoints": [
+              "Systolic blood pressure",
+              "Systolic blood pressure"
+            ],
+            "sponsor": "University of Central Lancashire",
+            "url": "https://clinicaltrials.gov/study/NCT05071833"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05561543",
+            "title": "Effects of Peppermint Oil in Cardiometabolic Outcomes in Participants With Mild-moderate Hypertension.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2024-01-01",
+            "completion_date": "2025-08-10",
+            "country": "United Kingdom",
+            "enrollment": 40,
+            "brief_summary": "Cardiovascular and associated hypertensive diseases are the leading health burden and cause of mortality worldwide; therefore, the necessity for effective interventions is paramount. Dietary interventions to improve cardiovascular health are highly sought after as they possess less risk and financial burden than pharmacological drugs. Our previous randomized trial has shown that oral peppermint can improving systolic blood pressure and other cardiovascular/ blood lipids in healthy individuals. H",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Aged from 18-65 years\n2. Systolic blood pressure 120 to 139 mmHg\n3. Not taking prescribed medicine for blood pressure management\n4. have the ability to complete written questionnaires independently\n5. Able to provide informed consent\n\nExclusion Criteria:\n\n1. diagnosed diabete",
+            "endpoints": [
+              "Systolic blood pressure",
+              "Systolic blood pressure"
+            ],
+            "sponsor": "University of Central Lancashire",
+            "url": "https://clinicaltrials.gov/study/NCT05561543"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40333716",
+            "title": "Effects of peppermint (Mentha piperita L.) oil in cardiometabolic outcomes in participants with pre and stage 1 hypertension: Protocol for a placebo randomized controlled trial.",
+            "abstract": "Hypertension is the predominant risk factor for cardiovascular disease morbidity and mortality, with significant healthcare utilization and expenditure. Pharmaceutical management is habitually adopted; although its long-term effectiveness remains ambiguous, and accompanying adverse effects are disquieting. Peppermint owing to its abundance of menthol and flavonoids, possesses a range of potential hypertensive benefits.",
+            "journal": "PloS one",
+            "year": "2025",
+            "authors": [
+              "Sinclair Jonathan",
+              "Du XuanYi",
+              "Shadwell Gareth",
+              "Dillon Stephanie",
+              "Butters Bobbie"
+            ],
+            "pub_types": [
+              "Clinical Trial Protocol",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Blood Pressure",
+              "Heart Rate",
+              "Hypertension",
+              "Mentha piperita",
+              "Plant Oils"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40333716/"
+          },
+          {
+            "pmid": "25037671",
+            "title": "Acupuncture for acute stroke, peppermint oil for irritable bowel syndrome, yoga for depression and anxiety, hypnotherapy for smoking cessation, and lime juice for sickle cell anemia.",
+            "abstract": "",
+            "journal": "Explore (New York, N.Y.)",
+            "year": "2014",
+            "authors": [
+              "Glickman-Simon Richard",
+              "Savasta Stephanie"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acupuncture Therapy",
+              "Anemia, Sickle Cell",
+              "Anxiety",
+              "Citrus",
+              "Complementary Therapies",
+              "Depression",
+              "Fruit",
+              "Humans",
+              "Hypnosis",
+              "Irritable Bowel Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25037671/"
+          },
+          {
+            "pmid": "39139335",
+            "title": "Unveiling the Preparation and Characterization of Lercanidipine Hydrochloride in an Oral Solid Self-Nanoemulsion for Enhancing Oral Delivery.",
+            "abstract": "Chronic kidney disease (CKD) is becoming increasingly prevalent worldwide, particularly among the elderly, along with an increase in the incidence of hypertension and cardiovascular disorders. Developing lipid-based oral dosage forms with a higher expected bioavailability of antihypertensive drugs with nephroprotective effects poses a challenge. Lercanidipine hydrochloride (LRCH) is a newer type of third-generation dihydropyridine calcium channel blocker that functions as an antihypertensive and has significant nephroprotective effects. Due to its extensive first-pass metabolism, its bioavailability is about 10% and increases to 3-4 times when taken with a high-fat meal. Targeting this drug to the lymphatic system using the solid self-nano-emulsifying drug delivery system (SSNEDDS) is a promising approach for improving LRCH's bioavailability and dispersion rate. SSNEDDS combines the benefits of both liquid self-emulsifying and solid dosage forms, improving drug stability and extending ",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Abdul Hussein Haneen M",
+              "Ghareeb Mowafaq M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39139335/"
+          },
+          {
+            "pmid": "28889028",
+            "title": "Development and in vitro/in vivo performance of self-nanoemulsifying drug delivery systems loaded with candesartan cilexetil.",
+            "abstract": "Candesartan cilexetil is widely used in the management of hypertension and heart failure. The drug delivery encounters obstacles of poor aqueous solubility, efflux by intestinal P-glycoprotein and vulnerability to enzymatic degradation in small intestine. Self-nanoemulsifying drug delivery systems (SNEDDS) loaded with candesartan cilexetil were successfully developed to overcome such obstacles. Preliminary screening was carried out to select proper surfactant, co-surfactant and oil combination for successful SNEDDS formulation. All screened excipients were reported for their P-glycoprotein and cytochrome P450 3A4 (CYP3A4) modulation activity. Ternary and pseudo ternary diagrams were constructed to optimize the system. Peppermint oil and clove oil showed a high emulsification ability. The nature of obtained dispersions was identified to be nanoemulsions. Twenty-four formulations were evaluated for stability, robustness to dilution and self-emulsification efficiency. All formulations sho",
+            "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "year": "2017",
+            "authors": [
+              "AboulFotouh Khaled",
+              "Allam Ayat A",
+              "El-Badry Mahmoud",
+              "El-Sayed Ahmed M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ATP Binding Cassette Transporter, Subfamily B, Member 1",
+              "Animals",
+              "Antihypertensive Agents",
+              "Benzimidazoles",
+              "Biphenyl Compounds",
+              "Cytochrome P-450 CYP3A",
+              "Drug Delivery Systems",
+              "Drug Liberation",
+              "Emulsions",
+              "Hypertension"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28889028/"
+          },
+          {
+            "pmid": "27277875",
+            "title": "Real-time monitoring of exhaled volatiles using atmospheric pressure chemical ionization on a compact mass spectrometer.",
+            "abstract": "Breath analyses have potential to detect early signs of disease onset. Ambient ionization allows direct combination of breath gases with MS for fast, on-line analysis. Portable MS systems would facilitate field/clinic-based breath analyses. Results & methodology: Volunteers ingested peppermint oil capsules and exhaled volatile compounds were monitored over 10 h using a compact mass spectrometer. A rise and fall in exhaled menthone was observed, peaking at 60-120 min. Real-time analysis showed a gradual rise in exhaled menthone postingestion. Sensitivity was comparable to established methods, with detection in the parts per trillion range.",
+            "journal": "Bioanalysis",
+            "year": "2016",
+            "authors": [
+              "Heaney Liam M",
+              "Ruszkiewicz Dorota M",
+              "Arthur Kayleigh L",
+              "Hadjithekli Andria",
+              "Aldcroft Clive"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Atmospheric Pressure",
+              "Breath Tests",
+              "Equipment Design",
+              "Exhalation",
+              "Female",
+              "Humans",
+              "Male",
+              "Mass Spectrometry",
+              "Mentha piperita"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27277875/"
+          },
+          {
+            "pmid": "30070742",
+            "title": "Gastric cooling and menthol cause an increase in cardiac parasympathetic efferent activity in healthy adult human volunteers.",
+            "abstract": "What is the central question of this study? How do gastric stretch and gastric cooling stimuli affect cardiac autonomic control? What is the main finding and its importance? Gastric stretch causes an increase in cardiac sympathetic activity. Stretch combined with cold stimulation result in an elimination of the sympathetic response to stretch and an increase in cardiac parasympathetic activity, in turn resulting in a reduction in heart rate. Gastric cold stimulation causes a shift in sympathovagal balance towards parasympathetic dominance. The cold-induced bradycardia has the potential to decrease cardiac workload, which might be significant in individuals with cardiovascular pathologies.",
+            "journal": "Experimental physiology",
+            "year": "2018",
+            "authors": [
+              "Kazadi Lubobo-Claude",
+              "Fletcher Janine",
+              "Barrow Paul A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Autonomic Nervous System",
+              "Blood Pressure",
+              "Bradycardia",
+              "Cold Temperature",
+              "Cross-Over Studies",
+              "Electrocardiography",
+              "Healthy Volunteers",
+              "Heart",
+              "Heart Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30070742/"
+          },
+          {
+            "pmid": "19198983",
+            "title": "New evidence in general practice, internal medicine and cardiovascular medicine.",
+            "abstract": "",
+            "journal": "Internal and emergency medicine",
+            "year": "2009",
+            "authors": [
+              "Conti Andrea Alberto",
+              "Dilaghi Beatrice",
+              "Modesti Pietro Amedeo",
+              "Nozzoli Carlo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Cardiovascular Diseases",
+              "Diet, Mediterranean",
+              "Dietary Fiber",
+              "Evidence-Based Medicine",
+              "Family Practice",
+              "Health Services Accessibility",
+              "Humans",
+              "Internal Medicine",
+              "Irritable Bowel Syndrome",
+              "Mentha piperita"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19198983/"
+          },
+          {
+            "pmid": "17577363",
+            "title": "Allergic contact dermatitis to peppermint foot spray.",
+            "abstract": "",
+            "journal": "Contact dermatitis",
+            "year": "2007",
+            "authors": [
+              "Kalavala M",
+              "Hughes T M",
+              "Goodwin R G",
+              "Anstey A V",
+              "Stone N M"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Dermatitis, Allergic Contact",
+              "Golf",
+              "Humans",
+              "Leg",
+              "Mentha piperita",
+              "Middle Aged",
+              "Patch Tests",
+              "Plant Oils",
+              "Vasculitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17577363/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "polyp of frontal sinus",
+        "txgnn_score": 0.9912065863609314,
+        "txgnn_rank": 9644,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11198",
+    "name": "Peppermint oil",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Peppermint oil"
+      },
+      "queried_at": "2026-03-09T21:33:00.201355",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Peppermint oil"
+      },
+      "queried_at": "2026-03-09T21:33:02.507861",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T21:33:04.578322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T21:33:08.823090",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "leprosy"
+      },
+      "queried_at": "2026-03-09T21:33:11.628906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "pneumocystosis"
+      },
+      "queried_at": "2026-03-09T21:33:13.781527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "pneumocystosis"
+      },
+      "queried_at": "2026-03-09T21:33:21.844597",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "pneumocystosis"
+      },
+      "queried_at": "2026-03-09T21:33:24.629162",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "coronary artery disease"
+      },
+      "queried_at": "2026-03-09T21:33:25.732531",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "coronary artery disease"
+      },
+      "queried_at": "2026-03-09T21:33:33.179897",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "coronary artery disease"
+      },
+      "queried_at": "2026-03-09T21:33:35.185643",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "myocardial ischemia"
+      },
+      "queried_at": "2026-03-09T21:33:37.112695",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "myocardial ischemia"
+      },
+      "queried_at": "2026-03-09T21:33:42.687321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "myocardial ischemia"
+      },
+      "queried_at": "2026-03-09T21:33:44.148339",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-09T21:33:45.333596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-09T21:33:53.519723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "queried_at": "2026-03-09T21:33:55.391249",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-09T21:33:58.425920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-09T21:34:02.457017",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of vocal cord"
+      },
+      "queried_at": "2026-03-09T21:34:03.387614",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-09T21:34:04.380467",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-09T21:34:09.110330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "uterine polyp"
+      },
+      "queried_at": "2026-03-09T21:34:10.754201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-09T21:34:13.446309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-09T21:34:22.148704",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of middle ear"
+      },
+      "queried_at": "2026-03-09T21:34:23.738134",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "cardiovascular disease"
+      },
+      "queried_at": "2026-03-09T21:34:25.083563",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "cardiovascular disease"
+      },
+      "queried_at": "2026-03-09T21:34:31.051158",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "cardiovascular disease"
+      },
+      "queried_at": "2026-03-09T21:34:37.954430",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-09T21:34:40.208329",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-09T21:34:45.427707",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Peppermint oil",
+        "disease": "polyp of frontal sinus"
+      },
+      "queried_at": "2026-03-09T21:34:46.474110",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T21:34:46.483888"
+  }
+}

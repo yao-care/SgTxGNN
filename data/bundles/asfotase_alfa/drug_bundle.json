@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Asfotase alfa",
+    "drugbank_id": "DB09105",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
+        "txgnn_score": 0.9994850158691406,
+        "txgnn_rank": 1177,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Steel syndrome",
+        "txgnn_score": 0.9991058707237244,
+        "txgnn_rank": 1793,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exocrine pancreatic insufficiency",
+        "txgnn_score": 0.9989374279975892,
+        "txgnn_rank": 2101,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Scheie syndrome",
+        "txgnn_score": 0.9985185265541076,
+        "txgnn_rank": 2724,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Hurler syndrome",
+        "txgnn_score": 0.9975380897521972,
+        "txgnn_rank": 3986,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lysosomal storage disease with skeletal involvement",
+        "txgnn_score": 0.9973074197769164,
+        "txgnn_rank": 4233,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial apolipoprotein C-II deficiency",
+        "txgnn_score": 0.99714595079422,
+        "txgnn_rank": 4435,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices without bleeding",
+        "txgnn_score": 0.9968056678771972,
+        "txgnn_rank": 4792,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "esophageal varices with bleeding",
+        "txgnn_score": 0.9968056678771972,
+        "txgnn_rank": 4793,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cystinosis",
+        "txgnn_score": 0.9965077042579652,
+        "txgnn_rank": 5104,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09105",
+    "name": "Asfotase alfa",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Asfotase alfa"
+      },
+      "queried_at": "2026-03-09T14:18:08.959072",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Asfotase alfa"
+      },
+      "queried_at": "2026-03-09T14:18:11.706962",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
+      },
+      "queried_at": "2026-03-09T14:18:12.392136",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
+      },
+      "queried_at": "2026-03-09T14:18:16.082146",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"
+      },
+      "queried_at": "2026-03-09T14:18:16.932320",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Steel syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:18.091997",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Steel syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:21.649972",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Steel syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:22.568736",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "exocrine pancreatic insufficiency"
+      },
+      "queried_at": "2026-03-09T14:18:23.292444",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "exocrine pancreatic insufficiency"
+      },
+      "queried_at": "2026-03-09T14:18:26.761539",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "exocrine pancreatic insufficiency"
+      },
+      "queried_at": "2026-03-09T14:18:29.373331",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Scheie syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:30.957441",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Scheie syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:36.690690",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Scheie syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:38.955093",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Hurler syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:39.789877",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Hurler syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:44.036335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "Hurler syndrome"
+      },
+      "queried_at": "2026-03-09T14:18:45.288519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "lysosomal storage disease with skeletal involvement"
+      },
+      "queried_at": "2026-03-09T14:18:46.685202",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "lysosomal storage disease with skeletal involvement"
+      },
+      "queried_at": "2026-03-09T14:18:51.589149",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "lysosomal storage disease with skeletal involvement"
+      },
+      "queried_at": "2026-03-09T14:18:53.342291",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-09T14:18:54.708541",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-09T14:19:02.795266",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "familial apolipoprotein C-II deficiency"
+      },
+      "queried_at": "2026-03-09T14:19:04.549135",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T14:19:05.890947",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T14:19:15.727185",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "esophageal varices without bleeding"
+      },
+      "queried_at": "2026-03-09T14:19:16.586459",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T14:19:17.852647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T14:19:22.620349",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "esophageal varices with bleeding"
+      },
+      "queried_at": "2026-03-09T14:19:24.846095",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "cystinosis"
+      },
+      "queried_at": "2026-03-09T14:19:26.153667",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "cystinosis"
+      },
+      "queried_at": "2026-03-09T14:19:29.807920",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Asfotase alfa",
+        "disease": "cystinosis"
+      },
+      "queried_at": "2026-03-09T14:19:30.460230",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T14:19:30.464879"
+  }
+}

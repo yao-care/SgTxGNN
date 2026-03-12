@@ -1,0 +1,1536 @@
+{
+  "drug": {
+    "inn": "Lemborexant",
+    "drugbank_id": "DB11951",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "sleep disorder, initiating and maintaining sleep",
+        "txgnn_score": 0.9975058436393738,
+        "txgnn_rank": 4025,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06928766",
+            "title": "Effects of Eszopiclone and Lemborexant in People With Obstructive Sleep Apnoea (OSA) With a Low Arousal Threshold Who Have Difficulty Maintaining or Falling Asleep (ELOSA): A Double-blind, Placebo-controlled, Randomised, Trial.",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-05-01",
+            "completion_date": "2027-06-30",
+            "country": "Australia",
+            "enrollment": 15,
+            "brief_summary": "Insomnia and obstructive sleep apnoea (OSA) are very common conditions, collectively estimated to affect 2 billion people globally, and share many of the same symptoms. It is also common for people to have both insomnia and sleep apnoea (COMISA). Indeed, 30 to 40% of patients with chronic insomnia also fulfil the diagnostic criteria for OSA. These people can be particularly challenging to treat with conventional therapy approaches.\n\nPeople get OSA for different reasons. One key cause is waking u",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Moderate or more difficulty \"staying or initiating asleep\" score on the Insomnia Severity Index questionnaire\n* Obstructive Sleep Apnoea (OSA), Apnoea Hypopnea Index ≥ 10 events/hour\n* Low arousal respiratory threshold OSA endotype\n* BMI ≤35 kg/m2\n\nExclusion Criteria:\n\n* Conco",
+            "endpoints": [
+              "Change in OSA severity (eszopiclone and lemborexant night vs. placebo night)"
+            ],
+            "sponsor": "Flinders University",
+            "url": "https://clinicaltrials.gov/study/NCT06928766"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "35843245",
+            "title": "Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis.",
+            "abstract": "Behavioural, cognitive, and pharmacological interventions can all be effective for insomnia. However, because of inadequate resources, medications are more frequently used worldwide. We aimed to estimate the comparative effectiveness of pharmacological treatments for the acute and long-term treatment of adults with insomnia disorder.",
+            "journal": "Lancet (London, England)",
+            "year": "2022",
+            "authors": [
+              "De Crescenzo Franco",
+              "D'Alò Gian Loreto",
+              "Ostinelli Edoardo G",
+              "Ciabattini Marco",
+              "Di Franco Valeria"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Benzodiazepines",
+              "Doxepin",
+              "Eszopiclone",
+              "Melatonin",
+              "Randomized Controlled Trials as Topic",
+              "Sleep Initiation and Maintenance Disorders",
+              "Zolpidem"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35843245/"
+          },
+          {
+            "pmid": "37549414",
+            "title": "Insomnia Management: A Review and Update.",
+            "abstract": "Insomnia is a distinct disorder that is common, yet underrecognized and undertreated in primary care. Treating insomnia has been shown to improve outcomes, including reduced risk of developing cardiovascular and mental health disorders. Insomnia is influenced by the brain's regulation of sleep and wake, which are mutually exclusive events. Insomnia should be treated as a distinct condition, even when occurring with a comorbid diagnosis such as depression or anxiety. Clinicians should implement a multimodal approach to insomnia management, including nonpharmacologic interventions and pharmacologic therapy (when indicated). Pharmacologic agents that are approved by the US Food and Drug Administration for insomnia include benzodiazepine receptor agonists (zolpidem, eszopiclone, and zaleplon), low-dose doxepin (tricyclic antidepressant), ramelteon (melatonin receptor agonist), and dual orexin receptor agonists (DORAs, daridorexant, lemborexant, and suvorexant). Unlike other pharmacologic a",
+            "journal": "The Journal of family practice",
+            "year": "2023",
+            "authors": [
+              "Shaha David P"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Sleep",
+              "Zolpidem",
+              "Doxepin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37549414/"
+          },
+          {
+            "pmid": "31880796",
+            "title": "Comparison of Lemborexant With Placebo and Zolpidem Tartrate Extended Release for the Treatment of Older Adults With Insomnia Disorder: A Phase 3 Randomized Clinical Trial.",
+            "abstract": "Insomnia disorder is prevalent and associated with health risks in older adults; however, efficacy and safety issues with existing treatments create significant unmet needs in this patient population.",
+            "journal": "JAMA network open",
+            "year": "2019",
+            "authors": [
+              "Rosenberg Russell",
+              "Murphy Patricia",
+              "Zammit Gary",
+              "Mayleben David",
+              "Kumar Dinesh"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Delayed-Action Preparations",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Hypnotics and Sedatives",
+              "Male",
+              "Middle Aged",
+              "Polysomnography",
+              "Pyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31880796/"
+          },
+          {
+            "pmid": "40555730",
+            "title": "Comparative efficacy and safety of daridorexant, lemborexant, and suvorexant for insomnia: a systematic review and network meta-analysis.",
+            "abstract": "In order to appraise the risk-benefit balance of the three available dual orexin receptor antagonists (DORAs; daridorexant, lemborexant, and suvorexant) for the management of adults with insomnia, we conducted a systematic review and random-effects model network meta-analysis.",
+            "journal": "Translational psychiatry",
+            "year": "2025",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Citrome Leslie",
+              "Sakuma Kenji",
+              "Hatano Masakazu"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Azepines",
+              "Orexin Receptor Antagonists",
+              "Pyridines",
+              "Pyrimidines",
+              "Pyrrolidines",
+              "Randomized Controlled Trials as Topic",
+              "Sleep Initiation and Maintenance Disorders",
+              "Treatment Outcome",
+              "Triazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40555730/"
+          },
+          {
+            "pmid": "30058034",
+            "title": "Insomnia in Elderly Patients: Recommendations for Pharmacological Management.",
+            "abstract": "Chronic insomnia affects 57% of the elderly in the United States, with impairment of quality of life, function, and health. Chronic insomnia burdens society with billions of dollars in direct and indirect costs of care. The main modalities in the treatment of insomnia in the elderly are psychological/behavioral therapies, pharmacological treatment, or a combination of both. Various specialty societies view psychological/behavioral therapies as the initial treatment intervention. Pharmacotherapy plays an adjunctive role when insomnia symptoms persist or when patients are unable to pursue cognitive behavioral therapies. Current drugs for insomnia fall into different classes: orexin agonists, histamine receptor antagonists, non-benzodiazepine gamma aminobutyric acid receptor agonists, and benzodiazepines. This review focuses on Food and Drug Administration (FDA)-approved drugs for insomnia, including suvorexant, low-dose doxepin, Z-drugs (eszopiclone, zolpidem, zaleplon), benzodiazepines ",
+            "journal": "Drugs & aging",
+            "year": "2018",
+            "authors": [
+              "Abad Vivien C",
+              "Guilleminault Christian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Off-Label Use",
+              "Quality of Life",
+              "Safety",
+              "Sleep Initiation and Maintenance Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30058034/"
+          },
+          {
+            "pmid": "36701954",
+            "title": "Efficacy and tolerability of pharmacological treatments for insomnia in adults: A systematic review and network meta-analysis.",
+            "abstract": "Insomnia is one of the most common and burdensome disorders in adults. We compared and ranked insomnia medication on the basis of their efficacy and tolerability. We performed a systematic review and network meta-analysis of placebo-controlled or head-to-head randomized controlled trials for primary insomnia in adults comparing 20 drugs. We searched eight databases and seven trial registers from inception to March 1st, 2022. Primary outcomes included sleep latency (SL), awake time after sleep onset (WASO) and discontinuation for adverse events (AED), and secondary outcomes included total sleep time (TST), sleep efficiency (SE), sleep quality (SQ) and adverse events (ADE). Pooled standardized mean differences or odds ratios with 95% credible intervals were estimated using pairwise and network meta-analysis with random-effects. Differences among trial findings were explored in subgroup and sensitivity analyses. Confidence in evidence was assessed using GRADE. The PROSPERO registered numb",
+            "journal": "Sleep medicine reviews",
+            "year": "2023",
+            "authors": [
+              "Yue Jing-Li",
+              "Chang Xiang-Wen",
+              "Zheng Jun-Wei",
+              "Shi Le",
+              "Xiang Ya-Jie"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Network Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Adult",
+              "Sleep Initiation and Maintenance Disorders",
+              "Sleep",
+              "Hypnotics and Sedatives",
+              "Wakefulness",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36701954/"
+          },
+          {
+            "pmid": "32585700",
+            "title": "Long-term efficacy and tolerability of lemborexant compared with placebo in adults with insomnia disorder: results from the phase 3 randomized clinical trial SUNRISE 2.",
+            "abstract": "To assess long-term efficacy and safety of lemborexant (LEM), a novel dual orexin receptor antagonist, versus placebo in adults with insomnia disorder.",
+            "journal": "Sleep",
+            "year": "2020",
+            "authors": [
+              "Kärppä Mikko",
+              "Yardley Jane",
+              "Pinner Kate",
+              "Filippov Gleb",
+              "Zammit Gary"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Double-Blind Method",
+              "Humans",
+              "Orexin Receptor Antagonists",
+              "Pyridines",
+              "Pyrimidines",
+              "Sleep Initiation and Maintenance Disorders",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32585700/"
+          },
+          {
+            "pmid": "35972717",
+            "title": "Orexin Receptor Antagonists and Insomnia.",
+            "abstract": "We review recent evidence on the use of orexin receptor antagonists (ORAs) for treating insomnia. We evaluate studies on five dual ORAs and one selective ORA.",
+            "journal": "Current psychiatry reports",
+            "year": "2022",
+            "authors": [
+              "Wu Xin",
+              "Xue Tao",
+              "Chen Zhouqing",
+              "Wang Zhong",
+              "Chen Gang"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Orexin Receptor Antagonists",
+              "Orexin Receptors",
+              "Orexins",
+              "Sleep",
+              "Sleep Initiation and Maintenance Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35972717/"
+          },
+          {
+            "pmid": "33636648",
+            "title": "Long-term effectiveness and safety of lemborexant in adults with insomnia disorder: results from a phase 3 randomized clinical trial.",
+            "abstract": "Lemborexant is a dual orexin receptor antagonist approved in the United States, Japan, and Canada for the treatment of insomnia in adults. We report effectiveness and safety outcomes in subjects with insomnia who received up to twelve months of continuous lemborexant treatment in Study E2006-G000-303 (Study 303; SUNRISE-2).",
+            "journal": "Sleep medicine",
+            "year": "2021",
+            "authors": [
+              "Yardley Jane",
+              "Kärppä Mikko",
+              "Inoue Yuichi",
+              "Pinner Kate",
+              "Perdomo Carlos"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Canada",
+              "Double-Blind Method",
+              "Humans",
+              "Japan",
+              "Pyridines",
+              "Pyrimidines",
+              "Sleep Initiation and Maintenance Disorders",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33636648/"
+          },
+          {
+            "pmid": "37086045",
+            "title": "The orexin story and orexin receptor antagonists for the treatment of insomnia.",
+            "abstract": "Insomnia is present in up to one third of the adult population worldwide, and it can present independently or with other medical conditions such as mental, metabolic, or cardiovascular diseases, which highlights the importance of treating this multifaceted disorder. Insomnia is associated with an abnormal state of hyperarousal (increased somatic, cognitive, and cortical activation) and orexin has been identified as a key promotor of arousal and vigilance. The current standards of care for the treatment of insomnia recommend non-pharmacological interventions (cognitive behavioural therapy) as first-line treatment and, if behavioural interventions are not effective or available, pharmacotherapy. In contrast to most sleep medications used for decades (benzodiazepines and 'Z-drugs'), the new orexin receptor antagonists do not modulate the activity of γ-aminobutyric acid receptors, the main inhibitory mechanism of the central nervous system. Instead, they temporarily block the orexin pathwa",
+            "journal": "Journal of sleep research",
+            "year": "2023",
+            "authors": [
+              "Muehlan Clemens",
+              "Roch Catherine",
+              "Vaillant Cedric",
+              "Dingemanse Jasper"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Orexins",
+              "Orexin Receptor Antagonists",
+              "Sleep",
+              "Wakefulness"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37086045/"
+          },
+          {
+            "pmid": "37796657",
+            "title": "Lemborexant and Daridorexant for the Treatment of Insomnia: An Indirect Comparison Using Number Needed to Treat, Number Needed to Harm, and Likelihood to Be Helped or Harmed.",
+            "abstract": "Objective: To determine if there are differences in the number needed to treat (NNT), number needed to harm (NNH), and likelihood to be helped or harmed (LHH) between lemborexant and daridorexant and to compare lemborexant with daridorexant indirectly. Methods: Dichotomous efficacy and tolerability outcomes reported for Phase 3 daridorexant trials (conducted May 29, 2018-May 14, 2020) for months 1 and 3 were identified from published literature and regulatory documents. Analogous data were extracted for lemborexant from Phase 3 studies (conducted May 31, 2016-January 8, 2019). NNT, NNH, and LHH were then calculated. Results: Lemborexant 5 mg and 10 mg had clinically relevant therapeutic effect sizes, evidenced by most NNT values versus placebo < 10 for Insomnia Severity Index [ISI], subjective total sleep time [sTST], and polysomnography outcomes. NNH values for adverse events (AEs) were > 10, suggesting relative tolerability. Somnolence was the most common AE. Discontinuation rates of",
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2023",
+            "authors": [
+              "Citrome Leslie",
+              "Juday Timothy R",
+              "Lundwall Christie"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Sleepiness",
+              "Treatment Outcome",
+              "Clinical Trials, Phase III as Topic",
+              "Imidazoles",
+              "Pyrrolidines",
+              "Pyridines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37796657/"
+          },
+          {
+            "pmid": "34121443",
+            "title": "Comparative efficacy of lemborexant and other insomnia treatments: a network meta-analysis.",
+            "abstract": "BACKGROUND: Insomnia is a common disorder associated with a substantial burden of illness, particularly in older adults. OBJECTIVE: To compare the efficacy and safety of lemborexant with specified other insomnia treatments through a systematic literature review and network meta-analysis (NMA). METHODS: Medline and Embase were systematically searched from inception to February 2019 and updated with a targeted search of PubMed for pivotal trials in March 2021. Randomized controlled trials in adults with primary insomnia were included if they reported results following at least 1 week of treatment. Interventions of interest were specified as lemborexant, suvorexant, benzodiazepines, benzodiazepine receptor agonists (also called Z-drugs [zolpidem, eszopiclone, zaleplon, zopiclone]), trazodone, and ramelteon. Efficacy outcomes included wake after sleep onset (WASO), sleep efficiency (SE), latency to persistent sleep (LPS)/sleep onset latency (SOL), total sleep time (TST) and Insomnia Severi",
+            "journal": "Journal of managed care & specialty pharmacy",
+            "year": "2021",
+            "authors": [
+              "McElroy Heather",
+              "O'Leary Beth",
+              "Adena Michael",
+              "Campbell Renee",
+              "Monfared Amir Abbas Tahami"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Orexin Receptor Antagonists",
+              "Pyridines",
+              "Pyrimidines",
+              "Sleep Initiation and Maintenance Disorders",
+              "Treatment Outcome",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34121443/"
+          },
+          {
+            "pmid": "37229388",
+            "title": "Treatment strategy for insomnia disorder: Japanese expert consensus.",
+            "abstract": "There is a lack of evidence regarding answers for clinical questions about treating insomnia disorder. This study aimed to answer the following clinical questions: (1) how to use each hypnotic and non-pharmacological treatment differently depending on clinical situations and (2) how to reduce or stop benzodiazepine hypnotics using alternative pharmacological and non-pharmacological treatments.",
+            "journal": "Frontiers in psychiatry",
+            "year": "2023",
+            "authors": [
+              "Takaesu Yoshikazu",
+              "Sakurai Hitoshi",
+              "Aoki Yumi",
+              "Takeshima Masahiro",
+              "Ie Kenya"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37229388/"
+          },
+          {
+            "pmid": "41071053",
+            "title": "Comprehensive understanding of the treatment of insomnia with lemborexant.",
+            "abstract": "Benzodiazepine derivatives and Z-drugs have traditionally been the cornerstone of pharmacological insomnia treatment. However, concerns regarding increased risks of falls, next-morning residual effects, dose tolerance, dependence, and withdrawal symptoms have prompted growing interest in alternative therapies.",
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2025",
+            "authors": [
+              "Inoue Yuichi",
+              "Koebis Michinori"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Half-Life",
+              "Hypnotics and Sedatives",
+              "Orexin Receptor Antagonists",
+              "Pyridines",
+              "Pyrimidines",
+              "Sleep Initiation and Maintenance Disorders",
+              "Network Meta-Analysis as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41071053/"
+          },
+          {
+            "pmid": "32531478",
+            "title": "Lemborexant vs suvorexant for insomnia: A systematic review and network meta-analysis.",
+            "abstract": "We conducted a random-effects model network meta-analysis to examine differences between lemborexant and suvorexant in efficacy and safety outcomes for treating patients with insomnia. We searched Embase, MEDLINE, and CENTRAL from their inception until April/28/2020. Primary outcomes were subjective time to sleep onset (sTSO), subjective total sleep time (sTST), and subjective wake-after-sleep onset (sWASO) at week 1. Four double-blind, randomized controlled trials were identified (n = 3237; 72.4% female; mean age 58.0 years). The treatment arm consisted of lemborexant 10 mg/d (LEM10, n = 592), lemborexant 5 mg/d (LEM5, n = 589), suvorexant 20/15 mg/d (SUV20/15, n = 493), zolpidem tartrate extended release 6.25 mg/d (ZOL6.25, n = 263), and placebo (n = 1300). All active treatments outperformed placebo regarding sTSO at week 1; standardized mean differences (95% credible interval): LEM10 = -0.51 (-0.63, -0.39), LEM5 = -0.48 (-0.60, -0.36), SUV20/15 = -0.21 (-0.33, -0.10), and ZOL6.25 = ",
+            "journal": "Journal of psychiatric research",
+            "year": "2020",
+            "authors": [
+              "Kishi Taro",
+              "Nomura Ikuo",
+              "Matsuda Yuki",
+              "Sakuma Kenji",
+              "Okuya Makoto"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Network Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Azepines",
+              "Double-Blind Method",
+              "Pyridines",
+              "Pyrimidines",
+              "Randomized Controlled Trials as Topic",
+              "Sleep Initiation and Maintenance Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32531478/"
+          },
+          {
+            "pmid": "39879708",
+            "title": "Effect of lemborexant on sleep architecture in participants with insomnia disorder and mild obstructive sleep apnea.",
+            "abstract": "Comorbid insomnia with obstructive sleep apnea (COMISA) is associated with worse daytime function and more medical/psychiatric comorbidities vs either condition alone. COMISA may negatively impact sleep duration and reduce rapid eye movement (REM) sleep, thereby impairing cognition. These post-hoc analyses evaluated the effect of lemborexant (LEM), a dual-orexin-receptor antagonist approved for adults with insomnia, on sleep architecture in participants with COMISA.",
+            "journal": "Sleep medicine",
+            "year": "2025",
+            "authors": [
+              "Kushida Clete A",
+              "Zammit Gary K",
+              "Cheng Jocelyn Y",
+              "Kumar Dinesh",
+              "Moline Margaret"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Male",
+              "Sleep Initiation and Maintenance Disorders",
+              "Sleep Apnea, Obstructive",
+              "Female",
+              "Middle Aged",
+              "Polysomnography",
+              "Pyridines",
+              "Pyrimidines",
+              "Sleep, REM"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39879708/"
+          },
+          {
+            "pmid": "32901578",
+            "title": "Clinical pharmacology, efficacy, and safety of orexin receptor antagonists for the treatment of insomnia disorders.",
+            "abstract": "The last two decades have witnessed a rapid increase in the knowledge about the role of the orexin system, particularly in the regulation of wakefulness and arousal. Dual orexin receptor antagonists (DORAs) have been approved for the treatment of insomnia disorders (suvorexant, lemborexant) and drugs with a distinctive profile (daridorexant) or orexin-2 receptor selectivity (seltorexant) are in development.",
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2020",
+            "authors": [
+              "Muehlan Clemens",
+              "Vaillant Cedric",
+              "Zenklusen Isabelle",
+              "Kraehenbuehl Stephan",
+              "Dingemanse Jasper"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Humans",
+              "Orexin Receptor Antagonists",
+              "Orexins",
+              "Sleep Aids, Pharmaceutical",
+              "Sleep Initiation and Maintenance Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32901578/"
+          },
+          {
+            "pmid": "39277609",
+            "title": "Orexin receptor antagonists in the treatment of insomnia associated with psychiatric disorders: a systematic review.",
+            "abstract": "Insomnia is highly comorbid in patients with psychiatric disorders, including depression, bipolar disorder, and substance use disorders, and should be treated as an independent condition. Dual orexin receptor antagonists (DORAs) have been investigated as a treatment for chronic insomnia. The objective of this systematic review was to examine evidence for two DORAs, lemborexant and suvorexant, as treatments for insomnia comorbid with a psychiatric disorder. We searched PubMed, Cochrane, and Embase from their inception until January and April 2023, and included studies examining suvorexant and lemborexant for treating insomnia comorbid with psychiatric disorders. We also manually searched clinical trial registries ( https://clinicaltrials.gov and https://www.umin.ac.jp/ctr ). Randomized clinical trials and observational/cohort studies were included. We identified 18 studies from PubMed, Cochrane, and Embase and three studies from clinicaltrials.gov and UMIN. Of the 21 reports, four were ",
+            "journal": "Translational psychiatry",
+            "year": "2024",
+            "authors": [
+              "Kishi Taro",
+              "Koebis Michinori",
+              "Sugawara Michiko",
+              "Kawatsu Yuka",
+              "Taninaga Takehiro"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Azepines",
+              "Comorbidity",
+              "Mental Disorders",
+              "Orexin Receptor Antagonists",
+              "Randomized Controlled Trials as Topic",
+              "Sleep Initiation and Maintenance Disorders",
+              "Triazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39277609/"
+          },
+          {
+            "pmid": "32096020",
+            "title": "Lemborexant: First Approval.",
+            "abstract": "Lemborexant (DAYVIGO™) is an orally administered, dual orexin receptor (OXR) antagonist that exhibits reversible competitive antagonism at OXR1 and OXR2 (> affinity at OXR2) that was discovered and developed by Eisai Inc. for the treatment of adult patients with insomnia. In December 2019, lemborexant received its first approval (with final interim scheduling) in the USA for the treatment of adult patients with insomnia, characterized by difficulties with sleep onset and/or sleep maintenance. In January 2020, lemborexant also received approval in Japan for the treatment of insomnia. It is also being investigated for the treatment of irregular sleep-wake rhythm disorder (ISWRD) associated with mild to moderate Alzheimer's disease. This article summarizes the milestones in the development of lemborexant leading to its first global approval.",
+            "journal": "Drugs",
+            "year": "2020",
+            "authors": [
+              "Scott Lesley J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Alzheimer Disease",
+              "Drug Approval",
+              "Humans",
+              "Mitochondrial Proteins",
+              "Orexin Receptor Antagonists",
+              "Pyridines",
+              "Pyrimidines",
+              "Sleep Disorders, Circadian Rhythm",
+              "Sleep Initiation and Maintenance Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32096020/"
+          },
+          {
+            "pmid": "36472134",
+            "title": "Comparison of the treatment effectiveness between lemborexant and zolpidem tartrate extended-release for insomnia disorder subtypes defined based on polysomnographic findings.",
+            "abstract": "Patients with chronic insomnia may respond differently to therapeutic modalities. This study examined differences in response of individuals with 2 insomnia phenotypes-short sleep duration (I-SSD; < 6 hours) and normal sleep duration (I-NSD; ≥ 6 hours) determined by polysomnography-to treatment with lemborexant and zolpidem tartrate extended-release 6.25 mg (zolpidem ER), compared with placebo.",
+            "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+            "year": "2023",
+            "authors": [
+              "Inoue Yuichi",
+              "Nishida Maika",
+              "Kubota Naoki",
+              "Koebis Michinori",
+              "Taninaga Takehiro"
+            ],
+            "pub_types": [
+              "Randomized Controlled Trial",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Zolpidem",
+              "Sleep Initiation and Maintenance Disorders",
+              "Hypnotics and Sedatives",
+              "Treatment Outcome",
+              "Double-Blind Method",
+              "Pyridines",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36472134/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute encephalopathy with biphasic seizures and late reduced diffusion",
+        "txgnn_score": 0.9737594723701476,
+        "txgnn_rank": 19806,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "agoraphobia",
+        "txgnn_score": 0.8826629519462585,
+        "txgnn_rank": 36470,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epilepsy, childhood absence, susceptibility to",
+        "txgnn_score": 0.8665986061096191,
+        "txgnn_rank": 37867,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "faciodigitogenital syndrome",
+        "txgnn_score": 0.8619408011436462,
+        "txgnn_rank": 38289,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Wernicke-Korsakoff syndrome",
+        "txgnn_score": 0.8615950345993042,
+        "txgnn_rank": 38317,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign paroxysmal torticollis of infancy",
+        "txgnn_score": 0.8598422408103943,
+        "txgnn_rank": 38436,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inherited prion disease",
+        "txgnn_score": 0.8571149706840515,
+        "txgnn_rank": 38644,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "attention deficit-hyperactivity disorder",
+        "txgnn_score": 0.8303723335266113,
+        "txgnn_rank": 40343,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01246765",
+            "title": "National Pregnancy Registry for Psychiatric Medications",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2008-11",
+            "completion_date": "2033-12",
+            "country": "United States",
+            "enrollment": 5000,
+            "brief_summary": "The National Pregnancy Registry for Psychiatric Medications is dedicated to evaluating the safety of psychiatric medications such as antidepressants, ADHD medications, sedative hypnotics, and atypical antipsychotics that many people take during pregnancy to treat a wide range of mood, anxiety, executive function, or psychiatric disorders. The goal of this Registry is to gather information on the safety of these medications during pregnancy, as current data is limited.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pregnant women\n* Age 18-45\n* Subjects will be willing to participate over the phone\n* Subjects will be able to provide informed consent\n\nExclusion Criteria:\n\n* Women who have completed their pregnancy\n* Women who are planning to become pregnant\n* Women who are not taking any p",
+            "endpoints": [
+              "Major Malformations in Infants"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01246765"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anxiety disorder",
+        "txgnn_score": 0.7934280037879944,
+        "txgnn_rank": 42128,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06496282",
+            "title": "The Efficacy of Lemborexant Versus Placebo on Improving Sleep Quality Among Hospital Rotating Shift Workers: A Randomized, Double-Blind, Placebo-Controlled Trial",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "start_date": "2024-08",
+            "completion_date": "2026-07",
+            "country": "Thailand",
+            "enrollment": 50,
+            "brief_summary": "Shift Work Sleep Disorder (SWSD) are caused by working shifts with a wake-up schedule and sleeping in a way that is different from the natural way of sleeping and avoiding sleep usually results in deviations. of the biological clock (Biological clock), which is an important cause of sleep problems including insomnia, excessive sleepiness or daytime sleepiness these problems was associated cadiovascular events, decrease quality of life and long term working. At the present there are limited infor",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 20-60 years\n* Rotating shift workers at least 3 months and continue rotating shift until end of study\n* Participants who have sleep problem especially total sleep time lower than 6 hours and/or unable to sleep effectively according to the ICSD-3 at least 1 criteria\n* Parti",
+            "endpoints": [
+              "Assessment effective of sleep quality in lemborexant 5 mg compare with placebo group",
+              "Changing of Brian-derived neurotropic (BDNF) in lemborexant 5 mg compare with placebo group"
+            ],
+            "sponsor": "Phramongkutklao College of Medicine and Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06496282"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01246765",
+            "title": "National Pregnancy Registry for Psychiatric Medications",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "start_date": "2008-11",
+            "completion_date": "2033-12",
+            "country": "United States",
+            "enrollment": 5000,
+            "brief_summary": "The National Pregnancy Registry for Psychiatric Medications is dedicated to evaluating the safety of psychiatric medications such as antidepressants, ADHD medications, sedative hypnotics, and atypical antipsychotics that many people take during pregnancy to treat a wide range of mood, anxiety, executive function, or psychiatric disorders. The goal of this Registry is to gather information on the safety of these medications during pregnancy, as current data is limited.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pregnant women\n* Age 18-45\n* Subjects will be willing to participate over the phone\n* Subjects will be able to provide informed consent\n\nExclusion Criteria:\n\n* Women who have completed their pregnancy\n* Women who are planning to become pregnant\n* Women who are not taking any p",
+            "endpoints": [
+              "Major Malformations in Infants"
+            ],
+            "sponsor": "Massachusetts General Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT01246765"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06981195",
+            "title": "Neurofunctional Phenotyping to Investigate the Role of the Orexin System at the Intersection of Opioid Use Disorder and Insomnia Among Women and Men Receiving Buprenorphine",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-05-27",
+            "completion_date": "2029-07-30",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "The goal of this clinical trial is to learn about how certain medications used to treat insomnia (e.g., Lemborexant) impact sleep, mood, and behavior in men and women with Opioid Use Disorder who are taking prescribed buprenorphine. The main questions it aims to answer are:\n\n1. What is the effect of the study drug (lemborexant) on sleep outcomes?\n2. What is the effect of the study drug (lemborexant) on impulsive behavior (as measured by computer test performance)?\n3. What is the effect of the st",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Be 18 + years-of-age\n2. Meet current DSM-5 criteria for opioid use disorder (OUD) with at least moderate severity\n3. Receiving outpatient treatment for OUD with sublingual buprenorphine film/tablets ranging 8mg to 24mg or with extended-release injectable buprenorphine\n4. Stab",
+            "endpoints": [
+              "Insomnia",
+              "Impulsivity"
+            ],
+            "sponsor": "Virginia Commonwealth University",
+            "url": "https://clinicaltrials.gov/study/NCT06981195"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05458609",
+            "title": "Lemborexant Augmentation of Naltrexone for Alcohol Craving and Sleep: A Randomized, Double-Blind, Placebo- Controlled Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2023-02-09",
+            "completion_date": "2024-01-30",
+            "country": "United States",
+            "enrollment": 8,
+            "brief_summary": "The purpose of this study to evaluate the effects of naltrexone plus lemborexant augmentation compared to naltrexone plus placebo on cue-induced and non-cued alcohol cravings in people with alcohol use disorder and insomnia. Our secondary goals are to evaluate the effects of lemborexant plus naltrexone combination on sleep quality using self-report questionnaires and actigraph data, depression, anxiety, and suicidal ideation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Admission to The Menninger clinic\n* Age 18-65 years\n* diagnosis of alcohol use disorder using the DSM-5 criteria confirmed with SCID-5 and\n* Diagnosis of insomnia using the DSM 5 criteria, confirmed with SCID-5\n\nExclusion Criteria:\n\n* unstable medical conditions (e.g. liver en",
+            "endpoints": [
+              "Cue-induced Alcohol Cravings using the Alcohol Urge Questionnaire",
+              "Non-Cued Alcohol Cravings using the Penn Alcohol Craving Scale"
+            ],
+            "sponsor": "Baylor College of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT05458609"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06225947",
+            "title": "A Prospective, Multi-center, 3-month, Observational Study to Evaluate the Effectiveness and Safety of Lemborexant in Chinese Patients With Insomnia in Real World Setting.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2024-02-22",
+            "completion_date": "2025-06-30",
+            "country": "China",
+            "enrollment": 200,
+            "brief_summary": "This study is a prospective, open-label, single arm, multicenter study lasting 12 weeks to evaluate effectiveness and safety of lemborexant(LEM). Patient self-evaluation reports and safety events will be collected at baseline and 4 visits during treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adults (≥18 years) and agreed to participate in the study, regardless of gender.\n* Diagnosed with insomnia according to DSM-5.\n* Insomnia Severity Index (ISI) score \\>10.\n* Subjects who can guarantee at least 7 hours of bedtime.\n* Subjects signed informed consent forms after t",
+            "endpoints": [
+              "Proportion of patients with insomnia remission"
+            ],
+            "sponsor": "Guangdong Provincial People's Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06225947"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06779149",
+            "title": "Efficacy of CBT-I and Lemborexant Medication for Different Subtypes of Chronic Insomnia",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-04-01",
+            "completion_date": "2027-02",
+            "country": "Canada",
+            "enrollment": 90,
+            "brief_summary": "The primary aims of this study is to contrast the effectiveness of CBT-I and pharmacotherapy (lemborexant) compared to placebo on sleep and mental health outcomes in people with insomnia disorder and anxiety/depressive symptoms. In addition, the study will evaluate whether insomnia phenotypes (i.e., +/- 6hrs of sleep) at baseline moderate the effectiveness of the intervention on both sleep and mental health outcomes.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* 18 years of age or older at the time of enrolment\n* Meeting Diagnostic and Statistical Manual of Mental Disorders (DSM-5) criteria for insomnia disorder (Duke Sleep Interview), with total Insomnia Severity Index (ISI) score \\> 10, and score ≥ 2 on either the interference or di",
+            "endpoints": [
+              "Insomnia Symptom Severity"
+            ],
+            "sponsor": "Laval University",
+            "url": "https://clinicaltrials.gov/study/NCT06779149"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03001557",
+            "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study With Open-Label Extension Phase of the Efficacy and Safety of Lemborexant in Subjects With Irregular Sleep-Wake Rhythm Disorder and Mild to Moderate Alzheimer's Disease Dementia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-12-20",
+            "completion_date": "2020-04-17",
+            "country": "United Kingdom, United States, Japan",
+            "enrollment": 63,
+            "brief_summary": "This study will be conducted to determine the dose response of lemborexant (LEM) on the change from baseline in actigraphy-derived sleep-related parameters, wake-related parameters, and circadian-rhythm related parameters. Following the eligibility screening period, eligible participants will be assigned at random to 1 of 4 doses of LEM or to placebo for 4 weeks. After a 2-week follow-up period, eligible participants may enter an open-label extension period for up to 30 months or until the progr",
+            "eligibility_criteria": "Inclusion Criteria (Core Study):\n\n* Male or female, age 60 to 90 years at the time of informed consent\n* Able to provide informed consent. If a participant lacks capacity to consent in the investigator's opinion, the participant's assent should be obtained, if required in accordance with local laws,",
+            "endpoints": [
+              "Core Phase: Change From Baseline in Mean Actigraphy Sleep Efficiency (aSE) With Lemborexant Compared to Placebo During Week 1 of Treatment",
+              "Core Phase: Change From Baseline in Mean aSE With Lemborexant Compared to Placebo During Week 2 of Treatment",
+              "Core Phase: Change From Baseline in Mean aSE With Lemborexant Compared to Placebo During Week 3 of Treatment"
+            ],
+            "sponsor": "Eisai Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03001557"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06843187",
+            "title": "Lemborexant for the Treatment of Residual Insomnia in Adequately Treated Major Depressive Disorder: a Pilot Randomized Controlled Trial",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-02",
+            "completion_date": "2026-09",
+            "country": "Canada",
+            "enrollment": 30,
+            "brief_summary": "The goal of this clinical trial is to learn if Lemborexant works to treat residual insomnia in adults with depression that is being treated. It will also learn about how practical, tolerable, and effective Lemborexant is. The main questions it aims to answer are:\n\n* Does Lemborexant help participants improve sleep and reduce insomnia symptoms?\n* How practical is it to use Lemborexant (how many participants join, drop out, and follow the study rules)? How do participants feel about using it (base",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Aged 18 to 70 (inclusive), with a self-reported body mass index (BMI) between 19 and 35 kg/m2 (inclusive).\n2. Meet criteria for MDD without psychotic symptoms as defined by the Diagnostic and Statistical Manual of Mental Disorders Fifth Edition (DSM-5) and currently in a MDE ",
+            "endpoints": [
+              "Feasibility Outcomes",
+              "Tolerability Outcomes"
+            ],
+            "sponsor": "Unity Health Toronto",
+            "url": "https://clinicaltrials.gov/study/NCT06843187"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37549414",
+            "title": "Insomnia Management: A Review and Update.",
+            "abstract": "Insomnia is a distinct disorder that is common, yet underrecognized and undertreated in primary care. Treating insomnia has been shown to improve outcomes, including reduced risk of developing cardiovascular and mental health disorders. Insomnia is influenced by the brain's regulation of sleep and wake, which are mutually exclusive events. Insomnia should be treated as a distinct condition, even when occurring with a comorbid diagnosis such as depression or anxiety. Clinicians should implement a multimodal approach to insomnia management, including nonpharmacologic interventions and pharmacologic therapy (when indicated). Pharmacologic agents that are approved by the US Food and Drug Administration for insomnia include benzodiazepine receptor agonists (zolpidem, eszopiclone, and zaleplon), low-dose doxepin (tricyclic antidepressant), ramelteon (melatonin receptor agonist), and dual orexin receptor agonists (DORAs, daridorexant, lemborexant, and suvorexant). Unlike other pharmacologic a",
+            "journal": "The Journal of family practice",
+            "year": "2023",
+            "authors": [
+              "Shaha David P"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Sleep",
+              "Zolpidem",
+              "Doxepin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37549414/"
+          },
+          {
+            "pmid": "40943625",
+            "title": "Targeting the Orexin System in the Pharmacological Management of Insomnia and Other Diseases: Suvorexant, Lemborexant, Daridorexant, and Novel Experimental Agents.",
+            "abstract": "The orexin (hypocretin) system plays a central role in regulating the sleep-wake cycle through two neuropeptides, orexin-A and orexin-B, which act on OX1R and OX2R receptors. Emerging evidence links heightened orexin signaling with the pathophysiology of chronic insomnia. This review outlines the neurobiology of the orexinergic system, compares the pharmacological profile of dual orexin receptor antagonists (DORAs) to traditional GABAergic hypnotics, and evaluates the clinical efficacy and safety of Suvorexant, Lemborexant, and Daridorexant. DORAs function by selectively dampening orexin-driven arousal, thereby facilitating sleep onset and maintenance without disrupting natural sleep architecture. Clinical trials have shown that these agents significantly reduce sleep latency and enhance sleep continuity, with a favorable side effect profile. Overall, DORAs represent a distinct and clinically advantageous option for insomnia treatment, with growing interest in their potential utility a",
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "authors": [
+              "Żełabowski Kacper",
+              "Petrov Wiktor",
+              "Wojtysiak Kacper",
+              "Ratka Zuzanna",
+              "Biedka Kamil"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Azepines",
+              "Triazoles",
+              "Orexin Receptor Antagonists",
+              "Orexins",
+              "Animals",
+              "Pyrimidines",
+              "Orexin Receptors",
+              "Pyrrolidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40943625/"
+          },
+          {
+            "pmid": "39632341",
+            "title": "Efficacy and safety of lemborexant in subjects with insomnia disorder receiving medications for depression or anxiety symptoms.",
+            "abstract": "Individuals with insomnia frequently have comorbid depression or anxiety. This study sought to provide a preliminary indication of the effects of lemborexant (LEM) in subjects treated for mild depression/anxiety symptoms.",
+            "journal": "Neuropsychopharmacology reports",
+            "year": "2025",
+            "authors": [
+              "Krystal Andrew",
+              "Blier Pierre",
+              "Culpepper Larry",
+              "Nierenberg Andrew A",
+              "Takaesu Yoshikazu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Clinical Trial, Phase III",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Male",
+              "Female",
+              "Middle Aged",
+              "Double-Blind Method",
+              "Adult",
+              "Anxiety",
+              "Depression",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39632341/"
+          },
+          {
+            "pmid": "40704033",
+            "title": "Adverse events of pharmacological interventions for insomnia disorder in adults: a systematic review and network meta-analysis.",
+            "abstract": "The clinical decision-making to insomnia drugs should comprehensively weight its risks.",
+            "journal": "Frontiers in psychiatry",
+            "year": "2025",
+            "authors": [
+              "Lu Changhong",
+              "Geng Yuanyuan",
+              "Guan Xiaoli",
+              "Meng Ying",
+              "Zhu Mucheng"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40704033/"
+          },
+          {
+            "pmid": "40162013",
+            "title": "Efficacy and safety of Lemborexant in treating adult patients with insomnia in China: a single-center, retrospective observational study.",
+            "abstract": "Except for one case report, there has been no published study of Lemborexant treatment for patients with insomnia in China. This study investigated efficacy and safety of Lemborexant in treating Chinese patients with insomnia.",
+            "journal": "Frontiers in neurology",
+            "year": "2025",
+            "authors": [
+              "Jian Weiying",
+              "Feng Minyan",
+              "Zhao Yifan",
+              "Li Jin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40162013/"
+          },
+          {
+            "pmid": "40346496",
+            "title": "Efficacy of cognitive behavioral therapy for insomnia and lemborexant medication for different subtypes of chronic insomnia: study protocol for a randomized controlled trial.",
+            "abstract": "Insomnia is a prevalent yet under-characterized disorder, particularly regarding the heterogeneity of patients and their associated responses to different treatment modalities. This often leads to suboptimal management. There is a need to consider personalized approaches tailored to the characteristics of insomnia phenotypes with regard to objective evidence of shortened sleep duration (< 6 h). This study will examine whether there is a differential treatment response to cognitive behavioral therapy for insomnia (CBT-I) versus pharmacotherapy (lemborexant) as a function of insomnia phenotypes (i.e., ± 6 h of sleep).",
+            "journal": "BMC psychiatry",
+            "year": "2025",
+            "authors": [
+              "Chen Si-Jing",
+              "Ivers Hans",
+              "Dang-Vu Thien Thanh",
+              "Shapiro Colin M",
+              "Carney Colleen E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial Protocol"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Sleep Initiation and Maintenance Disorders",
+              "Cognitive Behavioral Therapy",
+              "Pyridines",
+              "Adult",
+              "Orexin Receptor Antagonists",
+              "Pyrimidines",
+              "Treatment Outcome",
+              "Male",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40346496/"
+          },
+          {
+            "pmid": "35043499",
+            "title": "Hypocretins (orexins): The ultimate translational neuropeptides.",
+            "abstract": "The hypocretins (Hcrts), also known as orexins, are two neuropeptides produced exclusively in the lateral hypothalamus. They act on two specific receptors that are widely distributed across the brain and involved in a myriad of neurophysiological functions that include sleep, arousal, feeding, reward, fear, anxiety and cognition. Hcrt cell loss in humans leads to narcolepsy with cataplexy (narcolepsy type 1), a disorder characterized by intrusions of sleep into wakefulness, demonstrating that the Hcrt system is nonredundant and essential for sleep/wake stability. The causal link between Hcrts and arousal/wakefulness stabilisation has led to the development of a new class of drugs, Hcrt receptor antagonists to treat insomnia, based on the assumption that blocking orexin-induced arousal will facilitate sleep. This has been clinically validated: currently, two Hcrt receptor antagonists are approved to treat insomnia (suvorexant and lemborexant), with a New Drug Application recently submit",
+            "journal": "Journal of internal medicine",
+            "year": "2022",
+            "authors": [
+              "Jacobson Laura H",
+              "Hoyer Daniel",
+              "de Lecea Luis"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Intracellular Signaling Peptides and Proteins",
+              "Narcolepsy",
+              "Neuropeptides",
+              "Orexins",
+              "Sleep Initiation and Maintenance Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35043499/"
+          },
+          {
+            "pmid": "40434499",
+            "title": "A new direction for adjunctive therapy of difficult-to-treat depression: examining the role of orexin receptor antagonists.",
+            "abstract": "One of the several pressing unmet needs in the pharmacotherapy of MDD is development of drugs with novel mechanisms of action that can effectively treat depressed patients who do not respond to first- and second-line antidepressants. The value of identifying such a medication would be enhanced if it were also generally well-tolerated and addressed depressive symptoms that are less responsive to SSRIs or SNRIs, such as insomnia or anxiety. This narrative review summarizes the investigation of a novel class of medications originally developed to treat insomnia, the Orexin Receptor Antagonists (ORAs), as adjunctive treatments for depressed patients who have been able to tolerate but who do not obtain an adequate response to standard antidepressants. Although it is likely that the currently approved Dual Orexin Receptor Antagonists (DORAs)-suvorexant, lemborexant and daridorexant-are safe and useful options for concomitant therapy of insomnia in antidepressant-treated patients, these medic",
+            "journal": "European archives of psychiatry and clinical neuroscience",
+            "year": "2025",
+            "authors": [
+              "Thase Michael E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Orexin Receptor Antagonists",
+              "Antidepressive Agents",
+              "Depressive Disorder, Treatment-Resistant",
+              "Sleep Initiation and Maintenance Disorders",
+              "Major Depressive Disorder"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40434499/"
+          },
+          {
+            "pmid": "39149638",
+            "title": "Lemborexant for the Treatment of Insomnia in Patients From China: Four Case Studies.",
+            "abstract": "Lemborexant is a competitive antagonist of dual orexin receptors indicated for the treatment of adult patients with insomnia characterized by difficulties with sleep onset and/or sleep maintenance that occur at least three nights per week for ≥3 months, although there is adequate opportunity for sleep. There has been no published study of its efficacy and safety in treating patients from China with insomnia. In this case report, we present four adult patients from China with insomnia who were successfully treated with add-on lemborexant or switched from benzodiazepines or Z-drugs to lemborexant. None of the four patients experienced any discomforts related to lemborexant use. In conclusion, lemborexant treatment was effective and safe in treating the four patients from China with insomnia in this case report, and more studies are warranted to further assess the efficacy and safety of lemborexant in treating patients from China with insomnia.",
+            "journal": "Cureus",
+            "year": "2024",
+            "authors": [
+              "Jian Weiying",
+              "Feng Minyan",
+              "Li Jin"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39149638/"
+          },
+          {
+            "pmid": "36539372",
+            "title": "Successful treatment of switching from benzodiazepine to orexin receptor antagonists improves cognitive function in psychiatric disorders: four case reports.",
+            "abstract": "Benzodiazepines are used in the treatmentof anxiety and insomnia. On the other hand, they not only have side effects such as drowsiness, poor concentration, and muscle relaxation but also persistent cognitive decline. Even if we try to reduce the dose of these drugs to improve drug-induced cognitive function, it is difficult to do so due to dependence and worsening insomnia. I report four cases in which cognitive dysfunction was improved by switching from benzodiazepines to orexin receptor antagonists (suvorexant and lemborexant ). Orexin receptor antagonists were effective to improve cognitive impairment. In cognitive dysfunction caused by benzodiazepines, switching to orexin receptor antagonists may be effective.",
+            "journal": "International clinical psychopharmacology",
+            "year": "2023",
+            "authors": [
+              "Hori Hikaru"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Benzodiazepines",
+              "Sleep Initiation and Maintenance Disorders",
+              "Orexin Receptor Antagonists",
+              "Cognition",
+              "Cognitive Dysfunction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36539372/"
+          },
+          {
+            "pmid": "41490393",
+            "title": "Evaluating the Safety of Prescription Sleep Medications in Patients Undergoing Total Knee Arthroplasty: A Propensity Matched Analysis.",
+            "abstract": "Impaired sleep is reported in over 50% of patients after a total knee arthroplasty (TKA). Clinicians often treat postoperative sleep disturbances with medications; however, the risks associated with the use of sleep medications after TKA are not well understood. We assessed the association between sleep medication use after TKA and postoperative complications.",
+            "journal": "The Journal of the American Academy of Orthopaedic Surgeons",
+            "year": "2025",
+            "authors": [
+              "Young Bill",
+              "Zhuang Thompson",
+              "Fernando Navin",
+              "Manner Paul",
+              "Kamal Robin N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41490393/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB11951",
+    "name": "Lemborexant",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Lemborexant"
+      },
+      "queried_at": "2026-03-09T08:05:28.516644",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Lemborexant"
+      },
+      "queried_at": "2026-03-09T08:05:30.901979",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "queried_at": "2026-03-09T08:05:31.491964",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "queried_at": "2026-03-09T08:05:35.984073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "queried_at": "2026-03-09T08:05:39.931838",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "acute encephalopathy with biphasic seizures and late reduced diffusion"
+      },
+      "queried_at": "2026-03-09T08:05:40.718871",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "acute encephalopathy with biphasic seizures and late reduced diffusion"
+      },
+      "queried_at": "2026-03-09T08:05:44.119682",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "acute encephalopathy with biphasic seizures and late reduced diffusion"
+      },
+      "queried_at": "2026-03-09T08:05:45.417981",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-09T08:05:46.865161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-09T08:05:53.191399",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "agoraphobia"
+      },
+      "queried_at": "2026-03-09T08:05:54.524677",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "epilepsy, childhood absence, susceptibility to"
+      },
+      "queried_at": "2026-03-09T08:05:55.246914",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "epilepsy, childhood absence, susceptibility to"
+      },
+      "queried_at": "2026-03-09T08:05:59.076712",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "epilepsy, childhood absence, susceptibility to"
+      },
+      "queried_at": "2026-03-09T08:06:00.122617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T08:06:01.579104",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T08:06:05.150478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "queried_at": "2026-03-09T08:06:07.246755",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "Wernicke-Korsakoff syndrome"
+      },
+      "queried_at": "2026-03-09T08:06:08.317182",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "Wernicke-Korsakoff syndrome"
+      },
+      "queried_at": "2026-03-09T08:06:11.775516",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "Wernicke-Korsakoff syndrome"
+      },
+      "queried_at": "2026-03-09T08:06:13.747945",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-09T08:06:14.484446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-09T08:06:17.933552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "queried_at": "2026-03-09T08:06:22.404937",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "inherited prion disease"
+      },
+      "queried_at": "2026-03-09T08:06:24.332244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "inherited prion disease"
+      },
+      "queried_at": "2026-03-09T08:06:29.357079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "inherited prion disease"
+      },
+      "queried_at": "2026-03-09T08:06:31.377924",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T08:06:33.775318",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T08:06:37.357869",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "queried_at": "2026-03-09T08:06:38.416212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "anxiety disorder"
+      },
+      "queried_at": "2026-03-09T08:06:44.024599",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "anxiety disorder"
+      },
+      "queried_at": "2026-03-09T08:06:47.826889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Lemborexant",
+        "disease": "anxiety disorder"
+      },
+      "queried_at": "2026-03-09T08:06:50.327729",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T08:06:50.331416"
+  }
+}

@@ -1,0 +1,764 @@
+{
+  "drug": {
+    "inn": "Sugammadex",
+    "drugbank_id": "DB06206",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "breast fibrocystic disease",
+        "txgnn_score": 0.9849240779876708,
+        "txgnn_rank": 14245,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.983931601047516,
+        "txgnn_rank": 14856,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peripheral arterial disease",
+        "txgnn_score": 0.9806431531906128,
+        "txgnn_rank": 16737,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02601508",
+            "title": "A Randomized, Parallel Design, Single-center Study to Compare of Surgical Condition and Postoperative Complications With Moderate and Deep Neuromuscular Blockade in Laparoscopic Gastrectomy",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2015-11",
+            "completion_date": "2017-08",
+            "country": "South Korea",
+            "enrollment": 80,
+            "brief_summary": "This study is designed to evaluate the surgeon's satisfaction with either deep or moderate neuromuscular blockade during laparoscopic gastrectomy surgery and observe the recovery profiles in the recovery room and the ward.The explorative objective of this study is to evaluate the safety profiles of deep and moderate neuromuscular blockades via observation of postoperative complications.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All adult (≥ 20 years of age) patients scheduled for an elective laparoscopic gastrectomy who have signed the written informed consent.\n\nExclusion Criteria:\n\n* Known allergy to rocuronuim, cisatracurium or sugammadex\n* Significant liver or kidney dysfunction\n* Any neuromuscula",
+            "endpoints": [
+              "Surgical rating SCORE(SRS)"
+            ],
+            "sponsor": "Chonnam National University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02601508"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03962725",
+            "title": "Eliminating Use of Non Depolarizing Neuromuscular Blocking Agents to Reduce Postoperative Pulmonary Complications: A Multi-center, Randomized Control Trial",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "start_date": "2019-08-07",
+            "completion_date": "2022-12-19",
+            "country": "United States",
+            "enrollment": 3,
+            "brief_summary": "The goal of this study to evaluate whether eliminating the use of non-depolarizing neuromuscular blocking agents (NMBA) for maintenance of general anesthesia reduces postoperative pulmonary complications in higher risk patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* At least 18 years of age\n* Undergoing non-cardiac surgery under general anesthesia with an endotracheal tube\n* those at higher risk of developing postoperative pulmonary complications (internally validated risk prediction score of \\>=20)\n\nExclusion Criteria:\n\n* Emergency surge",
+            "endpoints": [
+              "Number of participants who either had postoperative pulmonary complications or died in hospital within 28 days of index procedure."
+            ],
+            "sponsor": "Beth Israel Deaconess Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03962725"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04258007",
+            "title": "Recovery Profile of Sugammadex Versus Neostigmine in Pediatric Patients Undergoing Cardiac Catheterization: a Randomized Double-blind Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2020-01-27",
+            "completion_date": "2020-11-18",
+            "country": "Egypt",
+            "enrollment": 50,
+            "brief_summary": "This study hypothesizes that Sugammadex may has more appropriate recovery profile than neostigmine in pediatric cardiac patients undergoing cardiac catheterization. In pediatric cardiac patients, clear and rapid recovery (fast-tracking) is required to maintain hemodynamic within the normal physiological values which may be saved by sugammadex",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* American Society of Anesthesiologists physical status (ASA) I-III\n\nExclusion Criteria:\n\n* Legal guardian refusal.\n* Any patients with known drug hypersensitivity.\n* Kidney failure.\n* Liver failure.\n* Diseases affecting the neuromuscular junction.\n* A history of malignant hyper",
+            "endpoints": [
+              "Reversal efficacy"
+            ],
+            "sponsor": "Mansoura University",
+            "url": "https://clinicaltrials.gov/study/NCT04258007"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07092046",
+            "title": "How Safe is Minimal Flow Anesthesia in Terms of Infection?",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2025-07-01",
+            "completion_date": "2026-01",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 140,
+            "brief_summary": "This study is being done to find out if the heat and moisture that build up during minimal flow anesthesia can lead to the growth of germs (microorganisms) inside the anesthesia equipment. Minimal flow anesthesia (using fresh gas flow of 0.5 liters per minute or less) is known to help protect the lungs and the environment. However, it may also cause water to collect in the equipment, which could allow germs to grow. In this study, we want to see whether this type of anesthesia is safe when it co",
+            "eligibility_criteria": "Inclusion Criteria:\n\nA total of 140 voluntary patients will be included in the study.\n\nPatients will be aged between 18 and 65 years.\n\nBoth male and female patients will be enrolled.\n\nAll patients will be classified as c physical status I or II.\n\nPatients will undergo elective surgical procedures.\n\n",
+            "endpoints": [
+              "Assessment of Bacterial Contamination in Anesthesia Circuits and Nasopharyngeal Swab Samples"
+            ],
+            "sponsor": "Ankara City Hospital Bilkent",
+            "url": "https://clinicaltrials.gov/study/NCT07092046"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06678451",
+            "title": "Effect of Sugammadex on Quality of Recovery Following Laparoscopic Bariatric Surgery",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-12",
+            "completion_date": "2025-05",
+            "country": "N/A",
+            "enrollment": 60,
+            "brief_summary": "Laparoscopic bariatric surgery has been recognized as the most effective treatment for obesity and related metabolic diseases. Because obesity patients often associated with sleep apnea syndrome or obesity hypoventilation syndrome, combined with the residual effect of muscle relaxants during the operation is easy to lead to respiratory obstruction and respiratory insufficiency, and hypoxemia and carbon dioxide retention are easy to occur after surgery, Post-extubation is prone to upper respirato",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age 18-50 years\n* Body Mass Index (BMI) ≥ 40kg/m²\n* American Society of Anesthesiologists (ASA) grade I to III classification\n* NYHA cardiac function grade I - II\n\nExclusion Criteria:\n\n* Patients with neuromuscular disease or respiratory system disease\n* Patients with severe a",
+            "endpoints": [
+              "Postoperative muscle relaxation recovery"
+            ],
+            "sponsor": "Shanxi Bethune Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06678451"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "apocrine adenosis of breast",
+        "txgnn_score": 0.978184938430786,
+        "txgnn_rank": 17907,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blunt duct adenosis of breast",
+        "txgnn_score": 0.978184938430786,
+        "txgnn_rank": 17908,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombotic disease",
+        "txgnn_score": 0.9750185012817384,
+        "txgnn_rank": 19319,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28714298",
+            "title": "Effect of sugammadex on coagulation as detected by rotational thromboelastometry in morbidly obese patients.",
+            "abstract": "Sugammadex, which is used to reverse rocuronium-induced neuromuscular blockade, has a limited and transient effect on activated partial thromboplastin time and prothrombin time. However, no data are available on the effects of sugammadex on coagulation in morbidly obese patients, as assessed by rotational thromboelastometry (ROTEM®).",
+            "journal": "Minerva anestesiologica",
+            "year": "2018",
+            "authors": [
+              "Carron Michele",
+              "Bertini Diana",
+              "Prandini Tancredi",
+              "Fanton Francesca",
+              "Foletto Mirto"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Blood Coagulation",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Obesity, Morbid",
+              "Sugammadex",
+              "Thrombelastography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28714298/"
+          },
+          {
+            "pmid": "22577926",
+            "title": "Sugammadex antagonising rocuronium in three patients with liver dysfunction undergoing transjugular intrahepatic portosystemic shunt.",
+            "abstract": "",
+            "journal": "Anaesthesia and intensive care",
+            "year": "2012",
+            "authors": [
+              "Batistaki C",
+              "Matsota P",
+              "Kalimeris K",
+              "Brountzos E",
+              "Kostopanagiotou G"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Androstanols",
+              "Anesthesia Recovery Period",
+              "Budd-Chiari Syndrome",
+              "Female",
+              "Hepatitis C",
+              "Humans",
+              "Liver Cirrhosis",
+              "Liver Diseases",
+              "Liver Function Tests"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22577926/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tendinitis",
+        "txgnn_score": 0.974215567111969,
+        "txgnn_rank": 19642,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22658394",
+            "title": "[Unexpected difficult airway in a patient during shoulder arthroscopy with general anaesthesia and interscalene brachial plexus block].",
+            "abstract": "",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2012",
+            "authors": [
+              "Pacreu S",
+              "Vila E",
+              "Fernández Candil J",
+              "Londono O"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Airway Management",
+              "Albuterol",
+              "Anesthesia, General",
+              "Arthroscopy",
+              "Brachial Plexus Block",
+              "Bronchial Spasm",
+              "Calcinosis",
+              "Consciousness Monitors",
+              "Humans",
+              "Hydrocortisone"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22658394/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "antithrombin deficiency type 2",
+        "txgnn_score": 0.974179744720459,
+        "txgnn_rank": 19658,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign mammary dysplasia",
+        "txgnn_score": 0.9741655588150024,
+        "txgnn_rank": 19666,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9729827642440796,
+        "txgnn_rank": 20139,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05332028",
+            "title": "Comparison of the Analgesic Efficacy of Ultrasound-guided Paravertebral Block and Mid-point Transverse Process Pleura Block in Mastectomy Surgery",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2020-03-26",
+            "completion_date": "2021-04-20",
+            "country": "Turkey (Türkiye)",
+            "enrollment": 64,
+            "brief_summary": "This study was performed to analyze the postoperative analgesic effects of the paravertebral block (PVB) and Mid-Point Transverse Process Pleura (MTP) block after a unilateral mastectomy surgery.\n\nThis study included 64 women aged 18-65 years, American Society of Anesthesiologists score I-III, who were scheduled for unilateral simple mastectomy operation due to breast cancer. Patients were randomly assigned to Group 1 (Patients undergoing PVB) or Group 2 (Patients undergoing MTP block) for a rat",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All patients were informed about the study, and written informed consent was obtained from all participants who agreed to participate in the study.\n* aged 18-65 years\n* ASA I-III\n* scheduled for unilateral simple mastectomy operation due to breast cancer.\n\nExclusion Criteria:\n",
+            "endpoints": [
+              "to compare the postoperative opioid consumption in the first 24 hours after surgery"
+            ],
+            "sponsor": "Ataturk University",
+            "url": "https://clinicaltrials.gov/study/NCT05332028"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "33863374",
+            "title": "Postoperative malignant hyperthermia confirmed by calcium-induced calcium release rate after breast cancer surgery, in which prompt recognition and immediate dantrolene administration were life-saving: a case report.",
+            "abstract": "Malignant hyperthermia (MH) is a rare genetic disease characterized by the development of very serious symptoms, and hence prompt and appropriate treatment is required. However, postoperative MH is very rare, representing only 1.9% of cases as reported in the North American Malignant Hyperthermia Registry (NAMHR). We report a rare case of a patient who developed sudden postoperative hyperthermia after mastectomy, which was definitively diagnosed as MH by the calcium-induced calcium release rate (CICR) measurement test.",
+            "journal": "Journal of medical case reports",
+            "year": "2021",
+            "authors": [
+              "Miyazaki Natsumi",
+              "Kobayashi Takayuki",
+              "Komiya Takako",
+              "Okada Toshio",
+              "Ishida Yusuke"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anesthesia, General",
+              "Anesthetics, Inhalation",
+              "Breast Neoplasms",
+              "Calcium",
+              "Dantrolene",
+              "Female",
+              "Humans",
+              "Hyperthermia",
+              "Malignant Hyperthermia",
+              "Mastectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33863374/"
+          },
+          {
+            "pmid": "20422852",
+            "title": "A new approach to anesthesia management in myasthenia gravis: reversal of neuromuscular blockade by sugammadex.",
+            "abstract": "A neuromuscular blocking drug (NMBD) induced neuromuscular blockade (NMB) in patients with myasthenia gravis usually dissipates either spontaneously or by administration of neostigmine. We administered sugammadex to a patient with myasthenia gravis to reverse a rocuronium-induced profound NMB. NMBDs predispose such patients to severe postoperative residual paralysis and respiratory complications. Sugammadex binds steroidal NMBDs and, therefore reverses a rocuronium or vecuronium-induced NMB, without interfering with cholinergic transmission. A rapid and complete recovery from profound NMB was achieved and no adverse events were observed. This case suggests that sugammadex is a safe and effective antagonist of a rocuronium induced NMB blockade in patients with myasthenia gravis.",
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2010",
+            "authors": [
+              "de Boer H D",
+              "van Egmond J",
+              "Driessen J J",
+              "Booij L H J D"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Androstanols",
+              "Anesthesia Recovery Period",
+              "Breast Neoplasms",
+              "Disease Susceptibility",
+              "Female",
+              "Humans",
+              "Mastectomy",
+              "Myasthenia Gravis",
+              "Neuromuscular Blockade"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20422852/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB06206",
+    "name": "Sugammadex",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sugammadex"
+      },
+      "queried_at": "2026-03-10T07:05:25.887400",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sugammadex"
+      },
+      "queried_at": "2026-03-10T07:05:26.539844",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T07:05:27.002013",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T07:05:30.505622",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T07:05:31.532589",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T07:05:32.144963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T07:05:35.253642",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T07:05:35.990853",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T07:05:36.747667",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T07:05:39.512137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "peripheral arterial disease"
+      },
+      "queried_at": "2026-03-10T07:05:40.177865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T07:05:40.898750",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T07:05:44.725080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T07:05:58.365557",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T07:05:58.849006",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T07:06:02.059544",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T07:06:02.812571",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-10T07:06:03.342215",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-10T07:06:06.762635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-10T07:06:08.872158",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T07:06:09.647098",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T07:06:13.970311",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "tendinitis"
+      },
+      "queried_at": "2026-03-10T07:06:15.662170",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T07:06:16.163637",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T07:06:19.709181",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T07:06:20.369152",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T07:06:20.894367",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T07:06:24.231031",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T07:06:24.952703",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T07:06:25.533719",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T07:06:31.112876",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sugammadex",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T07:06:34.960291",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:06:34.976004"
+  }
+}

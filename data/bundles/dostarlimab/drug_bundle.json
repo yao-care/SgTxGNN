@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Dostarlimab",
+    "drugbank_id": "DB15627",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "tendinopathy",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 51903,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autoimmune retinopathy",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52037,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anaphylaxis",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52027,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic anaphylaxis",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52028,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "exercise-induced anaphylaxis",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52029,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "food-dependent exercise-induced anaphylaxis",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52030,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hypervalinemia and hyperleucine-isoleucinemia",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52031,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "metabolic epilepsy",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52032,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adolescent/adult onset autosomal dominant epilepsy with auditory features",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52033,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adolescent/adult-onset epilepsy syndrome",
+        "txgnn_score": 0.5,
+        "txgnn_rank": 52034,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15627",
+    "name": "Dostarlimab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Dostarlimab"
+      },
+      "queried_at": "2026-03-10T10:37:21.300647",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Dostarlimab"
+      },
+      "queried_at": "2026-03-10T10:37:30.957699",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "tendinopathy"
+      },
+      "queried_at": "2026-03-10T10:37:32.349258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "tendinopathy"
+      },
+      "queried_at": "2026-03-10T10:37:36.524546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "tendinopathy"
+      },
+      "queried_at": "2026-03-10T10:37:38.475011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "autoimmune retinopathy"
+      },
+      "queried_at": "2026-03-10T10:37:39.326743",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "autoimmune retinopathy"
+      },
+      "queried_at": "2026-03-10T10:37:44.413873",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "autoimmune retinopathy"
+      },
+      "queried_at": "2026-03-10T10:37:45.479740",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:46.249837",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:49.497538",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:50.732554",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "idiopathic anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:51.481081",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "idiopathic anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:56.777244",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "idiopathic anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:58.303245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:37:59.233820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:38:03.741143",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:38:04.724775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:38:05.378675",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:38:09.071503",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "queried_at": "2026-03-10T10:38:09.933766",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "hypervalinemia and hyperleucine-isoleucinemia"
+      },
+      "queried_at": "2026-03-10T10:38:10.497803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "hypervalinemia and hyperleucine-isoleucinemia"
+      },
+      "queried_at": "2026-03-10T10:38:13.789159",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "hypervalinemia and hyperleucine-isoleucinemia"
+      },
+      "queried_at": "2026-03-10T10:38:15.750011",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "metabolic epilepsy"
+      },
+      "queried_at": "2026-03-10T10:38:16.295807",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "metabolic epilepsy"
+      },
+      "queried_at": "2026-03-10T10:38:19.675684",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "metabolic epilepsy"
+      },
+      "queried_at": "2026-03-10T10:38:20.726281",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "adolescent/adult onset autosomal dominant epilepsy with auditory features"
+      },
+      "queried_at": "2026-03-10T10:38:21.505235",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "adolescent/adult onset autosomal dominant epilepsy with auditory features"
+      },
+      "queried_at": "2026-03-10T10:38:24.782133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "adolescent/adult onset autosomal dominant epilepsy with auditory features"
+      },
+      "queried_at": "2026-03-10T10:38:25.775106",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "adolescent/adult-onset epilepsy syndrome"
+      },
+      "queried_at": "2026-03-10T10:38:26.780923",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "adolescent/adult-onset epilepsy syndrome"
+      },
+      "queried_at": "2026-03-10T10:38:32.086079",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Dostarlimab",
+        "disease": "adolescent/adult-onset epilepsy syndrome"
+      },
+      "queried_at": "2026-03-10T10:38:32.785968",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:38:32.792695"
+  }
+}

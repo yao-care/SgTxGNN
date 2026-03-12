@@ -1,0 +1,2644 @@
+{
+  "drug": {
+    "inn": "Pilocarpine",
+    "drugbank_id": "DB01085",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary hereditary glaucoma",
+        "txgnn_score": 0.9983406066894532,
+        "txgnn_rank": 2969,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "oral candidiasis",
+        "txgnn_score": 0.9889829754829408,
+        "txgnn_rank": 11290,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00168181",
+            "title": "A Phase III Randomized Trial Comparing Oral Pilocarpine (Salagen) Versus Submandibular Salivary Gland Transfer Protocol, For the Prevention of Radiation (XRT) Induced Xerostomia in Head and Neck Cancer Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2002-04",
+            "completion_date": "2008-04",
+            "country": "Canada",
+            "enrollment": 220,
+            "brief_summary": "This is a study to see whether the drug Salagen or salivary gland transfer is better for the prevention of dryness of the mouth in patients with head and neck cancer receiving radiation treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Previously untreated and confirmed histological diagnosis of squamous cell/adenoid cystic carcinoma of the oropharynx, hypopharynx, larynx, and patients with unknown primary tumor with metastases to the neck nodes and squamous cell carcinoma of the skin of head and neck regio",
+            "endpoints": [
+              "To compare the efficacy of prevention of XRT induced xerostomia using two different approaches: oral Pilocarpine versus submandibular salivary gland transfer protocol; To compare the rate and severity of XRT induced xerostomia using these two strategies"
+            ],
+            "sponsor": "AHS Cancer Control Alberta",
+            "url": "https://clinicaltrials.gov/study/NCT00168181"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "11252939",
+            "title": "[Dry mouth].",
+            "abstract": "The sensation of dry mouth is a common problem, often neglected. The decrease of salivary flow causes chronic oral discomfort and functional problems and predisposes to rampant dental caries and oral candidiasis. Various methods are described to evaluate salivary gland hypofunction but no single test has sufficiently high specificity and sensitivity. Categorised questionnaires and unstimulated whole saliva flow are valuable. The causes of xerostomia are numerous, of which the principal are, drug or radiation induced xerostomia and primary an secondary Sjögren's syndrome. Treatment calls for good hydration, optimal oral hygiene and prophylaxis of candidosis. All unnecessary medications must be avoided. Oral pilocarpine is the only drug which had demonstrated beneficial effects if no contraindications exist.",
+            "journal": "La Revue du praticien",
+            "year": "2001",
+            "authors": [
+              "Vidal E",
+              "Liozon E",
+              "Soria P"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Oral",
+              "Dental Caries",
+              "Diagnosis, Differential",
+              "Humans",
+              "Medical History Taking",
+              "Muscarinic Agonists",
+              "Oral Hygiene",
+              "Pilocarpine",
+              "Saliva",
+              "Sensitivity and Specificity"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11252939/"
+          },
+          {
+            "pmid": "7705213",
+            "title": "Oral pilocarpine: a review of its pharmacological properties and clinical potential in xerostomia.",
+            "abstract": "Pilocarpine is a cholinergic agonist which stimulates salivary secretion both in individuals with normal salivary gland function and in those with impaired salivary flow (xerostomia or oral dryness). A rapid increase in salivary flow rate is observed following oral pilocarpine administration and peak levels are maintained for at least 1 to 2 hours. Mean salivary flow rates after administration of pilocarpine are 2- to 10-fold higher than after placebo, and no evidence of tolerance to the pharmacological effects of the drug has been observed during prolonged administration for up to 5 months. The clinical efficacy of oral pilocarpine in relieving symptoms of xerostomia (resulting from radiation therapy to the head and neck region or salivary gland dysfunction), including oral dryness and difficulty in chewing, swallowing and speaking, has been demonstrated in double-blind placebo-controlled clinical trials. In these studies, pilocarpine 5 to 10mg 3 times daily increased salivary flow an",
+            "journal": "Drugs",
+            "year": "1995",
+            "authors": [
+              "Wiseman L R",
+              "Faulds D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Controlled Clinical Trials as Topic",
+              "Humans",
+              "Pilocarpine",
+              "Radiotherapy",
+              "Randomized Controlled Trials as Topic",
+              "Salivary Glands",
+              "Salivation",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7705213/"
+          },
+          {
+            "pmid": "20308007",
+            "title": "Oral and dental health care of oral cancer patients: hyposalivation, caries and infections.",
+            "abstract": "Oral cancer and its treatment can cause a variety of problems to patients, also as regards maintaining their daily oral hygiene. Surgery mutilates tissues which may hamper cleaning the teeth and mucosal surfaces. The patient may have complicated reconstructive structures that also need continuous attention. Radiotherapy-induced hyposalivation further complicates the situation and decreases the quality of life. Consequently, dental caries, mucosal diseases such as candidosis and sialadenitis become problematic to treat. Hence every effort should be focused on prevention. In caries prevention intensified fluoride therapy together with dietary counseling is needed. Oral cancer patients also need to be frequently referred to dental hygienists for professional cleaning. Drinking enough daily and moisturizing mucosal surfaces with commercial dry-mouth products, vegetable oils, milk products and respective topical agents need to be individually recommended. In addition, patients with severe d",
+            "journal": "Oral oncology",
+            "year": "2010",
+            "authors": [
+              "Meurman Jukka H",
+              "Grönroos Lisa"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Candidiasis, Oral",
+              "Dental Caries",
+              "Female",
+              "Humans",
+              "Male",
+              "Mouth Neoplasms",
+              "Oral Health",
+              "Patient Education as Topic",
+              "Periodontal Diseases",
+              "Quality of Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20308007/"
+          },
+          {
+            "pmid": "31177394",
+            "title": "Factors associated with severe oral mucositis and candidiasis in patients undergoing radiotherapy for oral and oropharyngeal carcinomas: a retrospective multicenter study of 326 patients.",
+            "abstract": "The present retrospective multicenter study intended to investigate the factors associated with severe oral mucositis and candidiasis in patients undergoing radiotherapy for oral and oropharyngeal carcinomas.",
+            "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+            "year": "2020",
+            "authors": [
+              "Nishii Mika",
+              "Soutome Sakiko",
+              "Kawakita Akiko",
+              "Yutori Hirokazu",
+              "Iwata Eiji"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Aged",
+              "Candidiasis, Oral",
+              "Cetuximab",
+              "Cisplatin",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31177394/"
+          },
+          {
+            "pmid": "1496162",
+            "title": "Salivary and oral components of Sjögren's syndrome.",
+            "abstract": "The intraoral symptoms and signs of SS are not specific to SS, being shared with other conditions in which salivary function is diminished. The decrease in saliva causes chronic oral discomfort and functional problems and predisposes patients to dental caries and oral candidiasis. Many methods have been used to assess SGs in SS objectively, but at present a labial salivary gland biopsy specimen showing focal lymphocytic sialadenitis provides the best diagnostic criterion for the salivary component of SS, in terms of its disease specificity, convenience, availability, and low risk. The treatment of xerostomia in patients with SS consists of (1) preventing new and recurrent dental caries by frequent and regular application of topical fluoride, careful dental supervision, and avoidance of sucrose and other metabolizable carbohydrates between meals; (2) reducing oral symptoms by diagnosing and treating oral candidiasis (repeatedly if necessary); and (3) attempting to replace lost saliva by",
+            "journal": "Rheumatic diseases clinics of North America",
+            "year": "1992",
+            "authors": [
+              "Daniels T E",
+              "Fox P C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Dental Caries",
+              "Humans",
+              "Salivary Glands",
+              "Sjogren's Syndrome",
+              "Tongue"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1496162/"
+          },
+          {
+            "pmid": "22249779",
+            "title": "Xerostomia in patients on chronic hemodialysis.",
+            "abstract": "Xerostomia is the subjective feeling of a dry mouth, which is relatively common in patients on chronic hemodialysis. Xerostomia can be caused by reduced salivary flow secondary to atrophy and fibrosis of the salivary glands, use of certain medications, restriction of fluid intake and old age. In patients undergoing hemodialysis, xerostomia is associated with the following problems: difficulties in chewing, swallowing, tasting and speaking; increased risk of oral disease, including lesions of the mucosa, gingiva and tongue; bacterial and fungal infections, such as candidiasis, dental caries and periodontal disease; interdialytic weight gain resulting from increased fluid intake; and a reduction in quality of life. Unfortunately, no effective treatment exists for xerostomia in patients on chronic hemodialysis. The stimulation of salivary glands by mechanical means (such as chewing gum) or pharmacological agents (such as pilocarpine and angiotensin-converting-enzyme inhibitors, the latter",
+            "journal": "Nature reviews. Nephrology",
+            "year": "2012",
+            "authors": [
+              "Bossola Maurizio",
+              "Tazza Luigi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Global Health",
+              "Humans",
+              "Incidence",
+              "Kidney Failure, Chronic",
+              "Renal Dialysis",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22249779/"
+          },
+          {
+            "pmid": "19300364",
+            "title": "Sjögren's syndrome of the oral cavity. Review and update.",
+            "abstract": "Sjögren's syndrome is one of the most frequent autoimmune diseases. It is a chronic and systemic disorder predominantly found in women, and is characterized by the appearance of a lymphocytic inflammatory infiltrate, with dryness of the oral cavity and eyes, secondary to involvement of the salivary and lacrimal glands. The underlying causal mechanism involves a number of factors and has not been clearly established, though an autoimmune response is known to be triggered, with the accumulation of immune complexes in the gland acini that interfere with gland function. In the oral cavity, xerostomia or hyposialia is the most disabling manifestation for patients, and is accompanied by rapidly progressing caries, candidiasis and an important worsening of buccodental health. The most important complication is a 44-fold increase in the risk of developing non-Hodgkin lymphoma, compared with the general population. The treatment of Sjögren's syndrome is limited to symptomatic management, and in",
+            "journal": "Medicina oral, patologia oral y cirugia bucal",
+            "year": "2009",
+            "authors": [
+              "Margaix-Muñoz Maria",
+              "Bagán José V",
+              "Poveda Rafael",
+              "Jiménez Yolanda",
+              "Sarrión Gracia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mouth Diseases",
+              "Sjogren's Syndrome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19300364/"
+          },
+          {
+            "pmid": "11680356",
+            "title": "The management of Sjögren's syndrome in dental practice.",
+            "abstract": "Sjögren's syndrome, or SS, is a multisystem inflammatory disorder of the exocrine glands with a wide range of extraglandular involvement. Symptoms of dry eyes and xerostomia, although not invariably present, are characteristic features of SS. An increased risk of oral and dental diseases is a prominent consequence of SS.",
+            "journal": "Journal of the American Dental Association (1939)",
+            "year": "2001",
+            "authors": [
+              "al-Hashimi I"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Candidiasis",
+              "Dental Care for Chronically Ill",
+              "Dental Caries",
+              "Drinking",
+              "Humans",
+              "Saliva",
+              "Saliva, Artificial",
+              "Sjogren's Syndrome",
+              "Xerophthalmia",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11680356/"
+          },
+          {
+            "pmid": "36402239",
+            "title": "Use and efficacy of mouthwashes in elderly patients: A systematic review of randomized clinical trials.",
+            "abstract": "A higher prevalence of oral problems has been observed in the elderly population. One of the treatment options for some of these pathologies is the administration of mouthwashes combined with mechanical removal techniques. Besides, each type of oral rinse treats certain oral diseases, and it should be selected for each specific situation.",
+            "journal": "Annals of anatomy = Anatomischer Anzeiger : official organ of the Anatomische Gesellschaft",
+            "year": "2023",
+            "authors": [
+              "Pérez-Nicolás Claudia",
+              "Pecci-Lloret María Pilar",
+              "Guerrero-Gironés Julia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Humans",
+              "Middle Aged",
+              "Chlorhexidine",
+              "Fluorides",
+              "Mouthwashes",
+              "Oils, Volatile",
+              "Randomized Controlled Trials as Topic",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36402239/"
+          },
+          {
+            "pmid": "9257424",
+            "title": "Radiation-induced xerostomia: pathophysiology, clinical course and supportive treatment.",
+            "abstract": "Xerostomia, or oral dryness, is one of the most common complaints experienced by patients who have had radiotherapy of the oral cavity and neck region. The hallmarks of radiation-induced damage are acinar atrophy and chronic inflammation of the salivary glands. The early response, resulting in atrophy of the secretory cells without inflammation might be due to radiation-induced apoptosis. In contrast, the late response with inflammation could be a result of radiation-induced necrosis. The subjective complaint of a dry mouth appears to be poorly correlated with objective findings of salivary gland dysfunction. Xerostomia, with secondary symptoms of increased dental caries, difficulty in chewing, swallowing and speaking, and an increased incidence of oral candidiasis, can have a significant effect on the quality of life. At present there is no causal treatment for radiation-induced xerostomia. Temporary symptomatic relief can be offered by moistening agents and saliva substitutes, and is",
+            "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+            "year": "1997",
+            "authors": [
+              "Guchelaar H J",
+              "Vermes A",
+              "Meerwaldt J H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Palliative Care",
+              "Radiation Injuries",
+              "Radiotherapy",
+              "Saliva, Artificial",
+              "Salivary Glands",
+              "Salivation",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9257424/"
+          },
+          {
+            "pmid": "30674648",
+            "title": "Repurposing Pilocarpine Hydrochloride for Treatment of Candida albicans Infections.",
+            "abstract": "Acetylcholine modulates the virulence of Candidaalbicans and regulates an appropriate immune response to infection in a Galleria mellonella infection model. Indeed, the evidence suggests that C. albicans possesses a functional cholinergic receptor that can regulate filamentous growth and biofilm formation. Furthermore, G. mellonella immune cell subsets possess repertories of cholinergic receptors which regulate an effective and appropriate cellular immune response to C. albicans infection. This study aimed to investigate the cholinergic receptor subtype involved in regulation of filamentous growth and biofilm formation by C. albicans and determine the roles of cholinergic receptors in modulation of G. mellonella immune cell subsets. The general muscarinic receptor agonist, pilocarpine hydrochloride, inhibited C. albicans biofilm formation and pathogenicity, a phenomenon that could be reversed using the general muscarinic receptor antagonist, scopolamine. Pilocarpine hydrochloride prote",
+            "journal": "mSphere",
+            "year": "2019",
+            "authors": [
+              "Nile Christopher",
+              "Falleni Monica",
+              "Cirasola Daniela",
+              "Alghamdi Abeer",
+              "Anderson Oliver F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Candida albicans",
+              "Candidiasis",
+              "Cholinergic Agonists",
+              "Disease Models, Animal",
+              "Drug Repositioning",
+              "Immunologic Factors",
+              "Lepidoptera",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30674648/"
+          },
+          {
+            "pmid": "29953856",
+            "title": "Benefits of long-term pilocarpine due to increased muscarinic acetylcholine receptor 3 in salivary glands.",
+            "abstract": "Hypofunction of the salivary gland causes several life-disrupting side effects such as dental caries, oral candidiasis, loss of taste, and swallowing disorders. No satisfactory therapy has been established to treat salivary hypofunction. Pilocarpine represents a potential treatment for dry mouth due to Sjögren's syndrome (SS). Although subjective improvement was consistently observed with pilocarpine therapy, the mechanism was unclear. In this study, we investigated the mechanism of recovery in salivation following treatment with pilocarpine. We first examined the effectiveness of pilocarpine in SS patients as quantified by the Saxon test and the visual analogue scale average. We found that salivation ability and subjective symptoms improved by continuous administration of pilocarpine. These results demonstrated that long-term medication for dry mouth patients was more effective. However, as the mechanism remained unclear, molecular biological mechanisms were analyzed based on the effe",
+            "journal": "Biochemical and biophysical research communications",
+            "year": "2018",
+            "authors": [
+              "Minagi Hitomi Ono",
+              "Ikai Kazuki",
+              "Araie Takafumi",
+              "Sakai Manabu",
+              "Sakai Takayoshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Animals",
+              "Female",
+              "Humans",
+              "Male",
+              "Mice, Inbred ICR",
+              "Middle Aged",
+              "Muscarinic Agonists",
+              "Pilocarpine",
+              "Receptor, Muscarinic M3"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29953856/"
+          },
+          {
+            "pmid": "11490519",
+            "title": "Therapy of Sjögren's syndrome. New aspects and future directions.",
+            "abstract": "Therapy of Sjögren's syndrome remains empirical and symptomatic. The main goals are to treat the disease related features, especially sicca manifestations, since the immunosuppressive therapy has not given promising results. For the treatment of keratoconjunctivitis sicca: local stimulators of tear secretion, protective bicarbonate buffered solutions, replacement therapy or supportive operative procedures should be tried. For oral manifestations: stimulators of salivary secretion such as pilocarpine, or agents changing the consistency of saliva such as bromhexine orally should be tried. Saliva substitutes have a transient effect. Frequent ingestion of sugar free liquids may help. Oral hygiene is important to avoid oral candidiasis and dental caries. Treatment of parotid gland swelling is not necessary. Pulmonary manifestations include pulmonary infiltrates in perialveolar areas, nodular or cavitary lesions which may represent lymphoma. Hilar adenopathy, solid or cavitary lesions should",
+            "journal": "Annales de medecine interne",
+            "year": "1998",
+            "authors": [
+              "Vlachoyiannopoulos P G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Follow-Up Studies",
+              "Humans",
+              "Patient Care Team",
+              "Sjogren's Syndrome",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11490519/"
+          },
+          {
+            "pmid": "31775834",
+            "title": "The effect of pilocarpine on dental caries in patients with primary Sjögren's syndrome: a database prospective cohort study.",
+            "abstract": "Primary Sjögren's syndrome (pSS) is associated with dental caries. Pilocarpine, a salivary stimulant, can improve the amount and flow rate of saliva in patients with pSS. This study aimed to assess whether the risk of dental caries decreases with the use of pilocarpine in patients with pSS.",
+            "journal": "Arthritis research & therapy",
+            "year": "2019",
+            "authors": [
+              "Hsu Chung-Yuan",
+              "Hung Kuo-Chun",
+              "Lin Ming-Shyan",
+              "Ko Chi-Hua",
+              "Lin Yu-Sheng"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Candidiasis",
+              "Dental Caries",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Muscarinic Agonists",
+              "Outcome Assessment, Health Care",
+              "Periodontitis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31775834/"
+          },
+          {
+            "pmid": "16927740",
+            "title": "Assessment of the use of sialogogues in the clinical management of patients with xerostomia.",
+            "abstract": "This study was conducted to assess the clinical efficacy and adverse effects of pilocarpine, bethanechol and cevimeline in patients with xerostomia. In this open-label crossover assessment in 20 patients with xerostomia, a one- to two-week course of each medication with a one-week washout period was prescribed. Side effects, symptoms, whole stimulated and unstimulated saliva were measured. Each sialogogue was found to increase saliva and decrease symptoms. A mixed-effects analysis showed a greater increase in stimulated saliva on bethanechol compared to pilocarpine (0.106, p = 0.0272). Increased sweating was the most common side effect, experienced more frequently with pilocarpine as compared to bethanechol (p = 0.0588) or cevimeline (p = 0.0143). A carryover effect beyond the washout period was seen. Effects on saliva and side effects vary between sialogogues, suggesting a benefit of trials with different sialogogues to determine individual patient preference. The observed carryover e",
+            "journal": "Special care in dentistry : official publication of the American Association of Hospital Dentists, the Academy of Dentistry for the Handicapped, and the American Society for Geriatric Dentistry",
+            "year": "2006",
+            "authors": [
+              "Chainani-Wu Nita",
+              "Gorsky Meir",
+              "Mayer Priscilla",
+              "Bostrom Alan",
+              "Epstein Joel B"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Bethanechol",
+              "Candida",
+              "Candidiasis, Oral",
+              "Colony Count, Microbial",
+              "Cross-Over Studies",
+              "Deglutition",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16927740/"
+          },
+          {
+            "pmid": "22034800",
+            "title": "Management of xerostomia and salivary gland hypofunction.",
+            "abstract": "Xerostomia and salivary gland hypofunction are conditions that have been associated with increased prevalence of caries, periodontitis, and candidiasis. Oral health care providers must be aware of the etiologies and clinical manifestations of salivary gland hypofunction in order to identify patients with this condition and to prevent its potential complications. The various modalities available to manage this condition range from frequent sips of water to the intake of systemic medications like pilocarpine or cevimeline.",
+            "journal": "Journal of the California Dental Association",
+            "year": "2011",
+            "authors": [
+              "Ram Saravanan",
+              "Kumar Satish",
+              "Navazesh Mahvash"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Age Factors",
+              "Candidiasis, Oral",
+              "Chronic Disease",
+              "Dental Caries",
+              "Diet",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Life Style",
+              "Lubricants",
+              "Muscarinic Agonists"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22034800/"
+          },
+          {
+            "pmid": "17943748",
+            "title": "Interventions for preventing oral mucositis for patients with cancer receiving treatment.",
+            "abstract": "Treatment of cancer is increasingly more effective but is associated with short and long term side effects. Oral side effects remain a major source of illness despite the use of a variety of agents to prevent them. One of these side effects is oral mucositis (mouth ulcers).",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2007",
+            "authors": [
+              "Worthington H V",
+              "Clarkson J E",
+              "Eden O B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Antineoplastic Agents",
+              "Candidiasis, Oral",
+              "Cryotherapy",
+              "Drugs, Chinese Herbal",
+              "Humans",
+              "Ice",
+              "Mouth Mucosa",
+              "Neoplasms",
+              "Randomized Controlled Trials as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17943748/"
+          },
+          {
+            "pmid": "2342589",
+            "title": "Oral complications of cancer therapies. Management of salivary dysfunction.",
+            "abstract": "Xerostomia is a common complication of radiation therapy to the head and neck. In such cases, the symptom is often permanent and leads to difficulty in mastication, wearing dentures, deglutition, and speaking. Other side effects include candidiasis and caries. Therapy is for the most part symptomatic and empirical. However, the use of sialogogues shows promise. Effective salivary substitutes and sialogogues that have minimal side effects need to be developed.",
+            "journal": "NCI monographs : a publication of the National Cancer Institute",
+            "year": "1990",
+            "authors": [
+              "Greenspan D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Head and Neck Neoplasms",
+              "Humans",
+              "Pilocarpine",
+              "Radiotherapy",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2342589/"
+          },
+          {
+            "pmid": "12004635",
+            "title": "Assessing salivary gland hypofunction--Part two.",
+            "abstract": "",
+            "journal": "Practical procedures & aesthetic dentistry : PPAD",
+            "year": "2002",
+            "authors": [
+              "Muzyka Brian C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Infective Agents, Local",
+              "Candidiasis, Oral",
+              "Dental Caries",
+              "Humans",
+              "Maltose",
+              "Mastication",
+              "Muscarinic Agonists",
+              "Pilocarpine",
+              "Quinuclidines",
+              "Saliva"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12004635/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "glaucoma 1, open angle",
+        "txgnn_score": 0.9874780178070068,
+        "txgnn_rank": 12460,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05231928",
+            "title": "Efficacy of a Novel Argon Laser Iridoplasty for Management of Pigment Dispersion Syndrome Assessed by Anterior Segment Optical Coherence Tomography",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-12-01",
+            "completion_date": "2023-02-01",
+            "country": "Egypt",
+            "enrollment": 10,
+            "brief_summary": "Pigment dispersion syndrome is a rare condition where anomalous iris configuration leads to posterior iris bowing with subsequent friction with the lenticulozonular unit resulting in dispersion of pigment from the back surface of the iris into the anterior segment as well as thinning with resultant transillumination defects in the mid iris segment. The released pigment is deposited in various parts of the anterior segment resulting in a constellation of clinical signs:\n\nKrukenberg Spindle: Back ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pigment dispersion syndrome/glaucoma confirmed by either clinical signs or imaging with documented posterior iris bowing.\n\nExclusion Criteria:\n\n* Active or history of Uveitis.\n* Pupil size \\> 7mm in mesopic conditions.\n* Previous Iris-based laser procedures e.g. Iridotomy, Iri",
+            "endpoints": [
+              "correction of posterior iris bowing"
+            ],
+            "sponsor": "Fayoum University",
+            "url": "https://clinicaltrials.gov/study/NCT05231928"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03798223",
+            "title": "Optimal Treatment Protocol for Selective Laser Trabeculoplasty",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-01-10",
+            "completion_date": "2027-12-31",
+            "country": "Sweden",
+            "enrollment": 400,
+            "brief_summary": "A randomized controlled trial to evaluate which treatment protocol in selective laser trabeculoplasty that is most optimal in terms of efficacy and safety.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* diagnosis primary open-angle glaucoma, pseudo-exfoliative glaucoma or ocular hypertension.\n* intra-ocular pressure (IOP) at least 18 mmHg treatment day.\n* treatment is performed by an experienced laser surgeon.\n* SLT treatment and follow-up are expected to be possible to perfo",
+            "endpoints": [
+              "Change in intraocular pressure (IOP)",
+              "Achievement of 20% reduction in IOP",
+              "Survival (no additional intervention)"
+            ],
+            "sponsor": "Vastra Gotaland Region",
+            "url": "https://clinicaltrials.gov/study/NCT03798223"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05159960",
+            "title": "Optimal Treatment Protocol for Selective Laser Trabeculoplasty - Repeat Trial",
+            "phase": "NA",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2022-01-10",
+            "completion_date": "2027-12-31",
+            "country": "Sweden",
+            "enrollment": 400,
+            "brief_summary": "Glaucoma is a common eye disease that can lead to blindness. The only known way to reduce the rate of disease progression is by reducing the pressure in the eye (the intraocular pressure, IOP). Selective laser trabeculoplasty (SLT) is an ophthalmic laser intervention with the purpose of reducing the IOP.\n\nSLT can be performed in different ways, with four of the treatment protocols being evaluated in the Optimal SLT (OSLT) trial.\n\nSLT is a repeatable procedure, but scientific evidence is scarce r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Included in the OSLT trial\n* Followed up without the need for other treatment escalation than repeat SLT\n\nExclusion Criteria:\n\n* Unable to participate in follow up due to health conditions, strength or physical location.",
+            "endpoints": [
+              "Relative IOP reduction for each SLT iteration"
+            ],
+            "sponsor": "Vastra Gotaland Region",
+            "url": "https://clinicaltrials.gov/study/NCT05159960"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02613013",
+            "title": "Laser Peripheral Iridotomy Plus Laser Peripheral Iridoplasty for Primary Angle Closure With Multi-mechanism Based on UBM: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2015-10",
+            "completion_date": "2022-04",
+            "country": "China",
+            "enrollment": 240,
+            "brief_summary": "This is a 10-centre randomized controlled clinical trial to explore whether laser peripheral iridoplasty (LPIP) plus laser peripheral iridotomy (LPI) is more effective than single LPI to control the progression of primary angle closure with multi-mechanism based on the UBM classification.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of primary angle closure (PAC), with IOP≤30mmHg and PAS≤270°.\n2. PAC with multi-mechanism based on UBM examination (multi-mechanism is defined as primary angle closure is caused by pupil block plus at least one kind of non-pupil block factors like (relative",
+            "endpoints": [
+              "Progression rate determined by number of patients who progress after laser treatment for each group."
+            ],
+            "sponsor": "Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT02613013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04005079",
+            "title": "A Prospective Randomized Control Trial of Pilocarpine Use After Combined Cataract/Trabectome Surgery",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2019-06-05",
+            "completion_date": "2021-01-21",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Combined cataract + trabectome surgery is a surgery designed to help lower the intraocular pressure (pressure in the eye) and hopefully reduce the need for topical drops, progression of glaucoma, and/or further glaucoma surgeries. The purpose of this study is to assess whether using pilocarpine, a medication which is FDA approved to induce miosis, (in other words cause the pupil to constrict or become smaller) provides additional benefit to the success of Trabectome and cataract surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age Range: 30 to 100 years old\n* Patients with ocular hypertension or open angle glaucoma undergoing combined cataract surgery with trabectome in a single surgical center\n\nExclusion Criteria:\n\n* Patients with previous history of eye surgeries (including laser procedures).",
+            "endpoints": [
+              "Percentage of intraocular lowering from baseline",
+              "Number of IOP lowering agents required to achieve goal IOP",
+              "Rate of progression to further glaucoma surgeries."
+            ],
+            "sponsor": "Montefiore Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04005079"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03654885",
+            "title": "XEN-45 Gel Stent Versus Trabeculectomy in Glaucoma: Gold-Standard Pathway Study (GPS)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-10-01",
+            "completion_date": "2021-05-13",
+            "country": "United States",
+            "enrollment": 158,
+            "brief_summary": "The purpose of this study is to compare the safety and efficacy of XEN-45 to trabeculectomy in participants with open angle glaucoma refractory to topical medical therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Open-angle glaucoma where the intraocular pressure (IOP) is not controlled when using topical IOP-lowering glaucoma medication\n* Best-corrected baseline Snellen visual acuity of 20/100 or better\n* Visual field mean deviation no worse than -18.0 decibels (dB)\n* Medicated IOP ≥1",
+            "endpoints": [
+              "Percentage of Participants Achieving at Least 20% Intraocular Pressure (IOP) Reduction (Improvement) From Baseline at Month 12 With Prespecified Caveats"
+            ],
+            "sponsor": "Allergan",
+            "url": "https://clinicaltrials.gov/study/NCT03654885"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00803803",
+            "title": "Dose, Effects and Characteristics of Pilocarpine",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "1978-08",
+            "completion_date": "1979-12",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "The purpose of this investigation, in which pilocarpine was given in repeated doses, was to evaluate: Part I - the effects of different concentrations of pilocarpine hydrochloride on intraocular pressure. Part II -the effects on intraocular pressure of glaucomatous patients to pilocarpine 2% when given once, twice and four daily. In addition, we studied various attributes of the eye which may serve as indicators of responsiveness of individual patients to pilocarpine.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primary open-angle glaucoma\n* Primary open-angle glaucoma suspect",
+            "endpoints": [
+              "Intraocular Pressure"
+            ],
+            "sponsor": "Wills Eye",
+            "url": "https://clinicaltrials.gov/study/NCT00803803"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "27347646",
+            "title": "Effect of Pilocarpine Hydrochloride on the Schlemm Canal in Healthy Eyes and Eyes With Open-Angle Glaucoma.",
+            "abstract": "The in vivo effect of pilocarpine hydrochloride on the Schlemm canal may help explain its pharmacologic mechanism of action and better indicate its clinical use.",
+            "journal": "JAMA ophthalmology",
+            "year": "2016",
+            "authors": [
+              "Skaat Alon",
+              "Rosman Michael S",
+              "Chien Jason L",
+              "Mogil Rachel S",
+              "Ren Ruojin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anterior Eye Segment",
+              "Female",
+              "Follow-Up Studies",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27347646/"
+          },
+          {
+            "pmid": "7916025",
+            "title": "A comparison of the efficacy of various metipranolol-pilocarpine combinations in patients with ocular hypertension and primary open-angle glaucoma.",
+            "abstract": "We compared the ocular hypotensive effects of four fixed-dose metipranolol-pilocarpine combinations in nineteen ocular hypertensive subjects and glaucoma patients. Each patient was tested with all of the study medications: vehicle alone, 0.1% metipranolol HCl + 2% pilocarpine HCl, 0.1% metipranolol HCl + 4% pilocarpine HCl, 0.3% metipranolol HCl + 2% pilocarpine HCl, and 0.3% metipranolol HCl + 4% pilocarpine HCl, in a single dose, randomized, double-masked, cross-over placebo-controlled trial. In addition, another eight age and baseline intraocular pressure (IOP)-matched subjects received 0.1% or 0.3% metipranolol HCl, while a similar group of 14 volunteers received 2% or 4% pilocarpine HCl. A two week washout period was instituted between the various groups of treatments. All four metipranolol-pilocarpine combinations were more effective than placebo or either medication alone in reducing the average IOP for up to 8 hours (p < 0.05 for each treatment group). Metipranolol HCl 0.3%, re",
+            "journal": "Journal of ocular pharmacology",
+            "year": "1994",
+            "authors": [
+              "Sharir M",
+              "Zimmerman T J",
+              "del Negro R G",
+              "Ball S F",
+              "Kooner K S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Double-Blind Method",
+              "Drug Evaluation",
+              "Drug Therapy, Combination",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7916025/"
+          },
+          {
+            "pmid": "10509848",
+            "title": "Comparison of dorzolamide and pilocarpine as adjunctive therapy in patients with open-angle glaucoma and ocular hypertension.",
+            "abstract": "Many patients with glaucoma or ocular hypertension initially receive beta-blocker monotherapy to control intraocular pressure (IOP), but some of these patients will require an additional IOP-lowering agent within 1 year. This active-controlled, double-masked, randomized, multicenter, 12-week study compared the effectiveness and tolerability of dorzolamide hydrochloride ophthalmic solution 2% TID with those of pilocarpine hydrochloride 2% QID as adjunctive therapy to timolol maleate ophthalmic gel-forming solution (TG) 0.5% QD as measured by changes in IOP and occurrence of adverse events. One hundred ninety-four patients with open-angle glaucoma or ocular hypertension participated in this study. Their mean age was approximately 63 years. Slightly more than one half were white, and approximately one third were black. After a 3-week run-in period during which all patients received TG 0.5% QD, patients with an IOP of > or = 22 mm Hg at the morning trough measurement were randomly assigned",
+            "journal": "Clinical therapeutics",
+            "year": "1999",
+            "authors": [
+              "Hartenbaum D",
+              "Maloney S",
+              "Vaccarelli L",
+              "Liss C",
+              "Wilson H"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Pharmaceutic",
+              "Carbonic Anhydrase Inhibitors",
+              "Double-Blind Method",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Ocular Hypertension",
+              "Parasympathomimetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10509848/"
+          },
+          {
+            "pmid": "36380636",
+            "title": "High-Frequency Deep Sclerotomy as Adjunctive Therapy in Open-Angle Glaucoma Patients.",
+            "abstract": "Glaucoma is a chronic, progressive disease of the optic nerve that can cause vision loss and blindness. High-frequency deep sclerotomy (HFDS) is a novel ab interno procedure used to lower intraocular pressure (IOP). This study aims at examining hypotensive effects of HFDS in patients with medically uncontrolled primary open-angle glaucoma (POAG).",
+            "journal": "Ophthalmic research",
+            "year": "2023",
+            "authors": [
+              "Kontic Marko",
+              "Todorovic Dusan",
+              "Zecevic Rada",
+              "Vulovic Tatjana Sarenac"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glaucoma, Open-Angle",
+              "Sclera",
+              "Trabecular Meshwork",
+              "Intraocular Pressure",
+              "Trabeculectomy",
+              "Ophthalmic Solutions",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36380636/"
+          },
+          {
+            "pmid": "15846712",
+            "title": "Medical versus surgical interventions for open angle glaucoma.",
+            "abstract": "Open angle glaucoma (OAG) is the commonest cause of irreversible blindness worldwide.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2005",
+            "authors": [
+              "Burr J",
+              "Azuara-Blanco A",
+              "Avenell A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Middle Aged",
+              "Pilocarpine",
+              "Randomized Controlled Trials as Topic",
+              "Trabeculectomy",
+              "Vision Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15846712/"
+          },
+          {
+            "pmid": "419977",
+            "title": "Pilocarpine medication in open-angle glaucoma. A study using pilocarpine eyedrops and an ocular therapeutic system.",
+            "abstract": "Two modes of topical pilocarpine therapy were applied to sixteen patients with open-angle glaucoma. A pilocarpine drop medication (2% solution four times daily) was compared to a constant and continuous supply of pilocarpine by a therapeutic delivery system (Ocusert P-40). The pressure reducing efficiency was studied in the morning and in the following four hour period of an ordinary drop medication regimen. The results indicate about equal pressure reducing properties in both high and low pre-treatment pressure values. However, compared to pilocarpine drops, we found a statistically significant lower pressure in the morning after the Ocusert unit, especially in glaucomatous eyes with high pre-treatment pressure.",
+            "journal": "Acta ophthalmologica",
+            "year": "1979",
+            "authors": [
+              "Brinchmann-Hansen O",
+              "Anmarkrud N"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Aged",
+              "Female",
+              "Glaucoma",
+              "Humans",
+              "Intraocular Pressure",
+              "Male",
+              "Methods",
+              "Middle Aged",
+              "Ophthalmic Solutions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/419977/"
+          },
+          {
+            "pmid": "2212504",
+            "title": "[Primary open-angle glaucoma. Effects of an eyedrop combining timolol and pilocarpine on the ocular pressure].",
+            "abstract": "In a limited group of open angle glaucoma patients treated twice daily with timoptol 0.5% and having by this treatment a mean intra-ocular pressure of 21-22 mmHg, the association of timoptol 0.5% with pilocarpine 2% respectively, lowered the intra-ocular pressure to an average of 17.8 mmHg and 16.6 mmHg after one and three weeks of continuous treatment. For this study, the patients have been divided into 3 groups: A group treated with timoptol 0.5% alone throughout the 49 days of the study. A group treated with timoptol 0.5%-pilocarpine 2% (timpilo 2) from day 21 to day 49. A final group treated with timoptol 0.5% until day 21 and then with timoptol 0.5%-pilocarpine 4% (timpilo 4) through out day 49. These patients stopped the treatment before the end of the study. Intra-ocular pressures were measured on days 0, 21 and 49. We found a higher drop of pressure (-4.8 mmHg) in the timpilo 2 group than in the timoptol 0.5% group (-1 mmHg) before instillation as well as 2 hours afterwards (-5",
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "1990",
+            "authors": [
+              "Leroy C",
+              "Collignon-Brach J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Double-Blind Method",
+              "Drug Combinations",
+              "Drug Evaluation",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male",
+              "Ophthalmic Solutions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2212504/"
+          },
+          {
+            "pmid": "23887",
+            "title": "Medical treatment of open-angle glaucoma.",
+            "abstract": "",
+            "journal": "British medical journal",
+            "year": "1978",
+            "authors": [],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Catecholamines",
+              "Drug Synergism",
+              "Glaucoma",
+              "Humans",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23887/"
+          },
+          {
+            "pmid": "36548467",
+            "title": "Changes to Outflow Structures After Pilocarpine in Primary Open Angle Glaucoma Compared With Healthy Individuals Using Optical Coherence Tomography.",
+            "abstract": "Lower response of aqueous outflow pathway structures after pilocarpine could be observed in primary open angle glaucoma (POAG) patients, which is likely to be helpful for understanding intraocular pressure (IOP) evaluation in glaucoma.",
+            "journal": "Journal of glaucoma",
+            "year": "2023",
+            "authors": [
+              "Chen Liwen",
+              "Chen Zhiqi",
+              "Deng Chaohua",
+              "Chen Wei",
+              "Zhang Hong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pilocarpine",
+              "Tomography, Optical Coherence",
+              "Intraocular Pressure",
+              "Glaucoma, Open-Angle",
+              "Trabecular Meshwork",
+              "Glaucoma",
+              "Miosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36548467/"
+          },
+          {
+            "pmid": "18721251",
+            "title": "Efficacy and safety of latanoprost versus pilocarpine/timolol maleate fixed combination in patients with primary open-angle glaucoma or ocular hypertension.",
+            "abstract": "This study aimed to compare the safety and effect on intraocular pressure (IOP) of latanoprost given every evening versus pilocarpine/timolol maleate fixed combination (PTFC) given twice daily in patients with primary open-angle glaucoma (POAG) or ocular hypertension (OH).",
+            "journal": "Acta ophthalmologica",
+            "year": "2008",
+            "authors": [
+              "Kałuzny Józef",
+              "Sobecki Roman",
+              "Czechowicz-Janicka Krystyna",
+              "Kecik Dariusz",
+              "Kałuzny Bartłomiej J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Drug Administration Schedule",
+              "Drug Combinations",
+              "Eye",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Latanoprost",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18721251/"
+          },
+          {
+            "pmid": "3510342",
+            "title": "Glaucoma: an overview.",
+            "abstract": "Glaucoma is a potentially blinding ocular disease that commonly affects elderly persons. In this review, we discuss the range of clinical findings, appropriate diagnostic tests, and available medical, laser, and surgical treatment options. New developments in the evaluation of the optic nerve and in visual field testing may facilitate the early detection of glaucoma, and new therapeutic agents hold promise for the future.",
+            "journal": "Mayo Clinic proceedings",
+            "year": "1986",
+            "authors": [
+              "Johnson D H",
+              "Brubaker R F"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aqueous Humor",
+              "Carbonic Anhydrase Inhibitors",
+              "Cholinesterase Inhibitors",
+              "Epinephrine",
+              "Glaucoma",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Laser Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3510342/"
+          },
+          {
+            "pmid": "9534022",
+            "title": "Brimonidine. A review of its pharmacological properties and clinical potential in the management of open-angle glaucoma and ocular hypertension.",
+            "abstract": "Brimonidine is a highly selective alpha 2-adrenoceptor agonist which reduces intraocular pressure (IOP) by reducing aqueous humour production and increasing aqueous humour outflow via the uveoscleral pathway. Brimonidine is indicated for the topical management of open-angle glaucoma or ocular hypertension. In 3 large comparative studies in patients with open-angle glaucoma or ocular hypertension, the ocular hypotensive efficacy of brimonidine was maintained during treatment periods of up to 1 year. Mean reductions in peak (measured 2 hours after the morning dose) and trough (measured 12 hours after the evening dose) IOP were 5.6 to 5.9 and 3.3 to 3.7 mm Hg, respectively, after 3 or 12 months of treatment with brimonidine 0.2% twice daily. The efficacy of brimonidine in this setting was similar to that of timolol 0.5% twice daily at peak only (-6.0mm Hg), and superior to that of betaxolol 0.25% twice daily at both peak (-3.5mm Hg) and trough (-2.7mm Hg). When added to topical beta-adren",
+            "journal": "Drugs & aging",
+            "year": "1998",
+            "authors": [
+              "Adkins J C",
+              "Balfour J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic alpha-Agonists",
+              "Aged",
+              "Brimonidine Tartrate",
+              "Clinical Trials as Topic",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Ocular Hypertension",
+              "Quinoxalines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9534022/"
+          },
+          {
+            "pmid": "22972069",
+            "title": "Medical versus surgical interventions for open angle glaucoma.",
+            "abstract": "Open angle glaucoma (OAG) is a common cause of blindness.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2012",
+            "authors": [
+              "Burr Jennifer",
+              "Azuara-Blanco Augusto",
+              "Avenell Alison",
+              "Tuulonen Anja"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Middle Aged",
+              "Pilocarpine",
+              "Randomized Controlled Trials as Topic",
+              "Trabeculectomy",
+              "Vision Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22972069/"
+          },
+          {
+            "pmid": "491473",
+            "title": "[Comparative study between timolol and pilocarpine in the treatment of open-angle glaucoma (author's transl)].",
+            "abstract": "Timolol, a beta-blocker with special influence on aqueous humor production and less influence on outflow facility lowered the intraocular pressure after one single local application for more than 12 hours. Normal diurnal variations of the intraocular pressure were also observed. Fifty open-angle glaucoma patients from the University of Münster, Eye Clinic, took part in a comparative study between Timolol and Pilocarpine. For a period of 17 weeks the patients were given various concentrations of Timolol ophthalmic solution. The continual lowering of the intraocular pressure following Timolol application was noted in 88% of the patients, whereas the rate of success on only 56% could be recorded with Pilocarpine. Side-effects, which for the Pilocarpine-treated patients were very irritating, e. g. miosis with possible night-blindness, accommodation spasms, myopia, etc. were not observed with Timolol. Pupil diameter and pupillary reaction remained unchanged with the application of Timolol. ",
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1979",
+            "authors": [
+              "Schiffer H P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Double-Blind Method",
+              "Evaluation Studies as Topic",
+              "Glaucoma",
+              "Humans",
+              "Intraocular Pressure",
+              "Pilocarpine",
+              "Propanolamines",
+              "Timolol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/491473/"
+          },
+          {
+            "pmid": "27668698",
+            "title": "Ocular safety of propiverine hydrochloride in elderly patients with primary open- and narrow-angle glaucoma .",
+            "abstract": "Propiverine hydrochloride (P4) is an antimuscarinic drug used in overactive bladder syndrome.",
+            "journal": "International journal of clinical pharmacology and therapeutics",
+            "year": "2016",
+            "authors": [
+              "Gatchev Emil",
+              "Petkova Natalia",
+              "Braeter Manfred",
+              "de Mey Christian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Aged",
+              "Benzilates",
+              "Double-Blind Method",
+              "Female",
+              "Glaucoma, Angle-Closure",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27668698/"
+          },
+          {
+            "pmid": "11200308",
+            "title": "Topical dorzolamide 2%/timolol 0.5%: a review of its use in the treatment of open-angle glaucoma.",
+            "abstract": "The nonselective beta-blocker timolol and the carbonic anhydrase inhibitor dorzolamide both lower intraocular pressure (IOP). Timolol and dorzolamide have different mechanisms of action and their effects are additive when administered together. Therefore, the 2 drugs are frequently used concomitantly to treat patients with open-angle glaucoma who have not adequately responded to first-line therapy. A barrier to good compliance with concomitant therapy is the need to administer 5 or 6 drops of medication on 2 or 4 occasions during the day. Timolol 0.5% and dorzolamide 2.0% have therefore been combined in a single formulation, reducing the number of administrations required to 2 per day. Clinical trials in patients with glaucoma have demonstrated that dorzolamide 2%/timolol 0.5% (dorzolamide/timolol) is superior to monotherapy with the individual components. When dorzolamide/timolol administered twice daily was compared with concomitant treatment with dorzolamide 2% and timolol 0.5%, eac",
+            "journal": "Drugs & aging",
+            "year": "2000",
+            "authors": [
+              "Ormrod D",
+              "McClellan K"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Carbonic Anhydrase Inhibitors",
+              "Drug Combinations",
+              "Drug Therapy, Combination",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11200308/"
+          },
+          {
+            "pmid": "19920680",
+            "title": "Effectiveness and Tolerance of beta-Blocker/Pilocarpine Combination Eye Drops in Primary Open-Angle Glaucoma and High Intraocular Pressure.",
+            "abstract": "A randomized, double-blind, parallel-group study compared the effectiveness and tolerability of three treatments for glaucoma: 2% carteolol/2% pilocarpine fixed-ratio combination (CBS 341A) twice a day, versus a 0.5% timolol/2% pilocarpine fixed combination twice a day versus 2% carteolol twice a day and 2% pilocarpine three times a day. The treatment period lasted 2 months. At the end of the comparative study, CBS 341A was evaluated in an open-label study during 1 year in the same patients. Seventy-two patients with primary open-angle glaucoma or high intraocular pressure were included in the study. Their intraocular pressure was >21 mm Hg while receiving beta-blocker eyedrops alone. After 15 days and 2 months of treatment with one of the three study treatments, intraocular pressure was measured at 12 noon and 7 p.m.",
+            "journal": "Journal of glaucoma",
+            "year": "1995",
+            "authors": [
+              "Demailly P",
+              "Allaire C",
+              "Bron V",
+              "Trinquand C"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19920680/"
+          },
+          {
+            "pmid": "10901475",
+            "title": "The additive intraocular pressure-lowering effect of latanoprost 0.005% daily once and pilocarpine 2% t.i.d. in patients with open-angle glaucoma or ocular hypertension. a 6-month, randomized, multicenter study. German Latanoprost Study Group.",
+            "abstract": "To compare the additional intraocular pressure-lowering effect of latanoprost 0.005% administered once daily with that of pilocarpine 2% administered three times daily in patients with primary open-angle glaucoma or ocular hypertension currently on monotherapy with timolol 0.5% twice daily.",
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2000",
+            "authors": [
+              "Diestelhorst M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Adult",
+              "Aged",
+              "Antihypertensive Agents",
+              "Circadian Rhythm",
+              "Drug Administration Schedule",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10901475/"
+          },
+          {
+            "pmid": "8198156",
+            "title": "Combined timolol and pilocarpine vs pilocarpine alone and timolol alone in the treatment of glaucoma.",
+            "abstract": "We compared the effects of pilocarpine 4% alone, timolol 0.5% alone, and a combination of timolol 0.5% and pilocarpine 4% in the treatment of glaucoma. We treated 43 patients with glaucoma using each drug and then with the combination of drugs for four weeks each. Only patients with a morning intraocular pressure of at least 24 mm Hg without treatment were included. The patients were examined, after one and four weeks of treatment with pilocarpine, timolol, or combined timolol 0.5% and pilocarpine 4%, before the morning dose and at two and five hours after it. At the end of the study, the mean reduction in intraocular pressure from baseline was 9.2 +/- 5.1 mm Hg (28.5% +/- 12.7%) with combined timolol 0.5% and pilocarpine 4%, 5.6 +/- 3.6 mm Hg (17.6% +/- 9.7%) with pilocarpine, and 7.5 +/- 5.0 mm Hg (21.2% +/- 12.6%) with timolol. Intraocular pressure was consistently lower with the combination treatment than with timolol or pilocarpine alone. We believe that this combined solution of ",
+            "journal": "American journal of ophthalmology",
+            "year": "1994",
+            "authors": [
+              "Zadok D",
+              "Geyer O",
+              "Zadok J",
+              "Lazar M",
+              "Krakowski D"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Drug Therapy, Combination",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male",
+              "Ocular Hypertension",
+              "Ophthalmic Solutions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8198156/"
+          },
+          {
+            "pmid": "21602708",
+            "title": "Longitudinal changes in anterior chamber configuration in eyes with open-angle glaucoma and associated factors.",
+            "abstract": "To investigate longitudinal changes in anterior chamber depth (ACD) and anterior chamber angle (ACA) and the associated factors in patients with primary open-angle glaucoma using the scanning peripheral ACD analyzer.",
+            "journal": "Journal of glaucoma",
+            "year": "2012",
+            "authors": [
+              "Pan Zhiying",
+              "Furuya Toshie",
+              "Kashiwagi Kenji"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Aging",
+              "Anterior Chamber",
+              "Ciliary Body",
+              "Cornea",
+              "Disease Progression",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21602708/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "open angle glaucoma",
+        "txgnn_score": 0.986376941204071,
+        "txgnn_rank": 13315,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05231928",
+            "title": "Efficacy of a Novel Argon Laser Iridoplasty for Management of Pigment Dispersion Syndrome Assessed by Anterior Segment Optical Coherence Tomography",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-12-01",
+            "completion_date": "2023-02-01",
+            "country": "Egypt",
+            "enrollment": 10,
+            "brief_summary": "Pigment dispersion syndrome is a rare condition where anomalous iris configuration leads to posterior iris bowing with subsequent friction with the lenticulozonular unit resulting in dispersion of pigment from the back surface of the iris into the anterior segment as well as thinning with resultant transillumination defects in the mid iris segment. The released pigment is deposited in various parts of the anterior segment resulting in a constellation of clinical signs:\n\nKrukenberg Spindle: Back ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Pigment dispersion syndrome/glaucoma confirmed by either clinical signs or imaging with documented posterior iris bowing.\n\nExclusion Criteria:\n\n* Active or history of Uveitis.\n* Pupil size \\> 7mm in mesopic conditions.\n* Previous Iris-based laser procedures e.g. Iridotomy, Iri",
+            "endpoints": [
+              "correction of posterior iris bowing"
+            ],
+            "sponsor": "Fayoum University",
+            "url": "https://clinicaltrials.gov/study/NCT05231928"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03798223",
+            "title": "Optimal Treatment Protocol for Selective Laser Trabeculoplasty",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-01-10",
+            "completion_date": "2027-12-31",
+            "country": "Sweden",
+            "enrollment": 400,
+            "brief_summary": "A randomized controlled trial to evaluate which treatment protocol in selective laser trabeculoplasty that is most optimal in terms of efficacy and safety.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* diagnosis primary open-angle glaucoma, pseudo-exfoliative glaucoma or ocular hypertension.\n* intra-ocular pressure (IOP) at least 18 mmHg treatment day.\n* treatment is performed by an experienced laser surgeon.\n* SLT treatment and follow-up are expected to be possible to perfo",
+            "endpoints": [
+              "Change in intraocular pressure (IOP)",
+              "Achievement of 20% reduction in IOP",
+              "Survival (no additional intervention)"
+            ],
+            "sponsor": "Vastra Gotaland Region",
+            "url": "https://clinicaltrials.gov/study/NCT03798223"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02865473",
+            "title": "Anterior Segment Imaging With Ultrahigh-resolution OCT in Patients With Glaucoma and Pseudoexfoliation Syndrome - a Pilot Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2016-04-20",
+            "completion_date": "2023-12",
+            "country": "Austria",
+            "enrollment": 90,
+            "brief_summary": "The aim of the present study is to develop a measurement protocol for optimal imaging of the anterior segment of the eye, including anterior chamber angle, Schlemm's canal, filtering bleb and pseudoexfoliation deposits on the lens based on measurements in patients with glaucoma and PEX. In glaucoma the structures of the anterior chamber are important for classification, therapy, progression and prognosis and imaging of the angle between the iris and the cornea is the key for open angle and close",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Men and women aged over 18 years\n\nFor patients with primary open angle glaucoma:\n\n* Diagnosed primary open angle glaucoma\n* Visual field defects and optic nerve head appearance characteristic for glaucoma\n* Open anterior chamber angle as evidenced by gonioscopy\n* No previous g",
+            "endpoints": [
+              "3-dimensional imaging of the anterior eye segment"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT02865473"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05159960",
+            "title": "Optimal Treatment Protocol for Selective Laser Trabeculoplasty - Repeat Trial",
+            "phase": "NA",
+            "status": "ENROLLING_BY_INVITATION",
+            "start_date": "2022-01-10",
+            "completion_date": "2027-12-31",
+            "country": "Sweden",
+            "enrollment": 400,
+            "brief_summary": "Glaucoma is a common eye disease that can lead to blindness. The only known way to reduce the rate of disease progression is by reducing the pressure in the eye (the intraocular pressure, IOP). Selective laser trabeculoplasty (SLT) is an ophthalmic laser intervention with the purpose of reducing the IOP.\n\nSLT can be performed in different ways, with four of the treatment protocols being evaluated in the Optimal SLT (OSLT) trial.\n\nSLT is a repeatable procedure, but scientific evidence is scarce r",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Included in the OSLT trial\n* Followed up without the need for other treatment escalation than repeat SLT\n\nExclusion Criteria:\n\n* Unable to participate in follow up due to health conditions, strength or physical location.",
+            "endpoints": [
+              "Relative IOP reduction for each SLT iteration"
+            ],
+            "sponsor": "Vastra Gotaland Region",
+            "url": "https://clinicaltrials.gov/study/NCT05159960"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05352854",
+            "title": "In Vivo Morphological Changes of Ciliary Body and Trabecular Meshwork in High Myopia Eyes With Open-angle Glaucoma in Their Accommodation Induced by Pilocarpine",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2022-05-01",
+            "completion_date": "2022-08",
+            "country": "N/A",
+            "enrollment": 120,
+            "brief_summary": "Glaucoma is the leading cause of irreversible blindness worldwide. Although the pathogenesis remains unclear, pathologic increase in intraocular pressure (IOP) due to blocked aqueous outflow through the trabecular-Schlemm canal is known to be an important risk factor, and reduction of IOP is the only clinically validated way to retard the progression of OAG. Ciliary muscle plays a central role in the trabecular meshwork-Schlemm canal outflow pathway. Clinical evidence suggests that ciliary muscl",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Emmetropia/low myopia,high myopia, primary open-angle glaucoma without high myopia, and high myopia with primary open-angle glaucoma\n* have a good gaze to complete the test required inspection;\n\nExclusion Criteria:\n\n* hypersensitivity to pilocarpine\n* History of eye surgery, i",
+            "endpoints": [
+              "Morphology of ciliary body",
+              "Morphology of ciliary body",
+              "Morphology of trabecular meshwork"
+            ],
+            "sponsor": "Wenzhou Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT05352854"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02754570",
+            "title": "The Diurnal and Nocturnal Effect of Pilocarpine on Intraocular Pressure and Ocular Perfusion Pressure",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2016-07",
+            "completion_date": "2018-02-21",
+            "country": "United States",
+            "enrollment": 27,
+            "brief_summary": "The aim of this study will be to determine the effects of pilocarpine as an adjunct medication to latanoprost monotherapy at multiple intervals throughout a 24-hour period and compare these effects to latanoprost alone.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Current confirmed diagnosis of:\n\n  * open angle glaucoma, or\n  * ocular hypertension including pigment dispersion glaucoma, and\n  * pseudoexfoliation glaucoma.\n* Current use of topical latanoprost once a day in both eyes for at least 6 weeks\n* any race/ethnicity\n\nExclusion Cri",
+            "endpoints": [
+              "Change in Intraocular Pressure From Baseline at Visit 3"
+            ],
+            "sponsor": "University of Colorado, Denver",
+            "url": "https://clinicaltrials.gov/study/NCT02754570"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02613013",
+            "title": "Laser Peripheral Iridotomy Plus Laser Peripheral Iridoplasty for Primary Angle Closure With Multi-mechanism Based on UBM: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2015-10",
+            "completion_date": "2022-04",
+            "country": "China",
+            "enrollment": 240,
+            "brief_summary": "This is a 10-centre randomized controlled clinical trial to explore whether laser peripheral iridoplasty (LPIP) plus laser peripheral iridotomy (LPI) is more effective than single LPI to control the progression of primary angle closure with multi-mechanism based on the UBM classification.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Clinical diagnosis of primary angle closure (PAC), with IOP≤30mmHg and PAS≤270°.\n2. PAC with multi-mechanism based on UBM examination (multi-mechanism is defined as primary angle closure is caused by pupil block plus at least one kind of non-pupil block factors like (relative",
+            "endpoints": [
+              "Progression rate determined by number of patients who progress after laser treatment for each group."
+            ],
+            "sponsor": "Sun Yat-sen University",
+            "url": "https://clinicaltrials.gov/study/NCT02613013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04005079",
+            "title": "A Prospective Randomized Control Trial of Pilocarpine Use After Combined Cataract/Trabectome Surgery",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "start_date": "2019-06-05",
+            "completion_date": "2021-01-21",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "Combined cataract + trabectome surgery is a surgery designed to help lower the intraocular pressure (pressure in the eye) and hopefully reduce the need for topical drops, progression of glaucoma, and/or further glaucoma surgeries. The purpose of this study is to assess whether using pilocarpine, a medication which is FDA approved to induce miosis, (in other words cause the pupil to constrict or become smaller) provides additional benefit to the success of Trabectome and cataract surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age Range: 30 to 100 years old\n* Patients with ocular hypertension or open angle glaucoma undergoing combined cataract surgery with trabectome in a single surgical center\n\nExclusion Criteria:\n\n* Patients with previous history of eye surgeries (including laser procedures).",
+            "endpoints": [
+              "Percentage of intraocular lowering from baseline",
+              "Number of IOP lowering agents required to achieve goal IOP",
+              "Rate of progression to further glaucoma surgeries."
+            ],
+            "sponsor": "Montefiore Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04005079"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05241938",
+            "title": "Computer-guided Selective Laser Trabeculoplasty (PSLT) in the Treatment of Ocular Hypertension and Open-angle Glaucoma Compared to Prostaglandin Analogue Eye Drops: a Non-inferiority Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2021-09-01",
+            "completion_date": "2022-12-20",
+            "country": "Brazil",
+            "enrollment": 75,
+            "brief_summary": "This study aims to compare the efficacy of PSLT and the topical use of prostaglandin-like hypotensive eye drops in the treatment of ocular hypertensive or glaucomatous patients in decreasing intraocular pressure and measuring changes in functional, structural and biomechanical parameters evaluated by computerized perimetry and optical coherence tomography (OCT) related to pressure change resulting from treatments",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of ocular hypertension (IOP ≥ 24 mmHg in both eyes) or diagnosis of open-angle glaucoma (POAG) in both eyes\n* Proper visualization of angle structures and 360 degree open angles in both eyes\n* No previous intraocular surgery with the exception of phacoemulsification ",
+            "endpoints": [
+              "Intraocular pressure change"
+            ],
+            "sponsor": "Federal University of Rio Grande do Sul",
+            "url": "https://clinicaltrials.gov/study/NCT05241938"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03654885",
+            "title": "XEN-45 Gel Stent Versus Trabeculectomy in Glaucoma: Gold-Standard Pathway Study (GPS)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-10-01",
+            "completion_date": "2021-05-13",
+            "country": "United States",
+            "enrollment": 158,
+            "brief_summary": "The purpose of this study is to compare the safety and efficacy of XEN-45 to trabeculectomy in participants with open angle glaucoma refractory to topical medical therapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Open-angle glaucoma where the intraocular pressure (IOP) is not controlled when using topical IOP-lowering glaucoma medication\n* Best-corrected baseline Snellen visual acuity of 20/100 or better\n* Visual field mean deviation no worse than -18.0 decibels (dB)\n* Medicated IOP ≥1",
+            "endpoints": [
+              "Percentage of Participants Achieving at Least 20% Intraocular Pressure (IOP) Reduction (Improvement) From Baseline at Month 12 With Prespecified Caveats"
+            ],
+            "sponsor": "Allergan",
+            "url": "https://clinicaltrials.gov/study/NCT03654885"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00803803",
+            "title": "Dose, Effects and Characteristics of Pilocarpine",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "1978-08",
+            "completion_date": "1979-12",
+            "country": "United States",
+            "enrollment": 37,
+            "brief_summary": "The purpose of this investigation, in which pilocarpine was given in repeated doses, was to evaluate: Part I - the effects of different concentrations of pilocarpine hydrochloride on intraocular pressure. Part II -the effects on intraocular pressure of glaucomatous patients to pilocarpine 2% when given once, twice and four daily. In addition, we studied various attributes of the eye which may serve as indicators of responsiveness of individual patients to pilocarpine.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Primary open-angle glaucoma\n* Primary open-angle glaucoma suspect",
+            "endpoints": [
+              "Intraocular Pressure"
+            ],
+            "sponsor": "Wills Eye",
+            "url": "https://clinicaltrials.gov/study/NCT00803803"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "36548467",
+            "title": "Changes to Outflow Structures After Pilocarpine in Primary Open Angle Glaucoma Compared With Healthy Individuals Using Optical Coherence Tomography.",
+            "abstract": "Lower response of aqueous outflow pathway structures after pilocarpine could be observed in primary open angle glaucoma (POAG) patients, which is likely to be helpful for understanding intraocular pressure (IOP) evaluation in glaucoma.",
+            "journal": "Journal of glaucoma",
+            "year": "2023",
+            "authors": [
+              "Chen Liwen",
+              "Chen Zhiqi",
+              "Deng Chaohua",
+              "Chen Wei",
+              "Zhang Hong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Pilocarpine",
+              "Tomography, Optical Coherence",
+              "Intraocular Pressure",
+              "Glaucoma, Open-Angle",
+              "Trabecular Meshwork",
+              "Glaucoma",
+              "Miosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36548467/"
+          },
+          {
+            "pmid": "6426371",
+            "title": "Treatment of glaucoma.",
+            "abstract": "In the past five years, new therapeutic modalities have been discovered that have revolutionized the medical and surgical management of glaucoma. New methods of drug delivery have been developed for pilocarpine and epinephrine. Timolol maleate has become the most widely used drug in the treatment of glaucoma since it was approved for general use in 1978. This chapter reviews the pharmacology of the newer antiglaucoma medications and gives a perspective on the role of laser surgery in open-angle glaucoma.",
+            "journal": "Annual review of medicine",
+            "year": "1984",
+            "authors": [
+              "Remis L L",
+              "Epstein D L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Betaxolol",
+              "Epinephrine",
+              "Glaucoma",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Hydroxydopamines",
+              "Laser Therapy",
+              "Levobunolol",
+              "Oxidopamine",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6426371/"
+          },
+          {
+            "pmid": "656353",
+            "title": "Mechanisms in open-angle glaucoma.",
+            "abstract": "One hundred and nineteen eyes from 68 patients with open-angle glaucoma were provoked by means of a pilocarpine phenylephrine provocative test. In 22% the response was the same as that seen in normal eyes. In 78% the response was the same as that seen in contralateral eyes at risk to the development of closed-angle glaucoma, which do not develop a positive provocative test. The 68 patients were randomised and 34 submitted to a \"dummy\" provocative test. No significant change in pressure or outflow occurred. Fifty-two of the 93 eyes with an abnormal provocative test were selected for a peripheral iridectomy and reprovoked at least 6 months after operation. The results were significantly different from those obtained before operation. It was concluded that partial-angle closure could be demonstrated in some eyes with apparent open-angle glaucoma. The mechanisms involved in the production of partial-angle closure in eyes with apparent open-angle glaucoma are discussed.",
+            "journal": "The British journal of ophthalmology",
+            "year": "1978",
+            "authors": [
+              "Mapstone R"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Dose-Response Relationship, Drug",
+              "Glaucoma",
+              "Humans",
+              "Intraocular Pressure",
+              "Iris",
+              "Phenylephrine",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/656353/"
+          },
+          {
+            "pmid": "4691318",
+            "title": "Echothiophate, pilocarpine, and open-angle glaucoma.",
+            "abstract": "",
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "1973",
+            "authors": [
+              "Kini M M",
+              "Dahl A A",
+              "Roberts C R",
+              "Lehwalder L W",
+              "Grant W M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Drug Combinations",
+              "Echothiophate Iodide",
+              "Glaucoma",
+              "Humans",
+              "Intraocular Pressure",
+              "Middle Aged",
+              "Ophthalmic Solutions",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4691318/"
+          },
+          {
+            "pmid": "9534022",
+            "title": "Brimonidine. A review of its pharmacological properties and clinical potential in the management of open-angle glaucoma and ocular hypertension.",
+            "abstract": "Brimonidine is a highly selective alpha 2-adrenoceptor agonist which reduces intraocular pressure (IOP) by reducing aqueous humour production and increasing aqueous humour outflow via the uveoscleral pathway. Brimonidine is indicated for the topical management of open-angle glaucoma or ocular hypertension. In 3 large comparative studies in patients with open-angle glaucoma or ocular hypertension, the ocular hypotensive efficacy of brimonidine was maintained during treatment periods of up to 1 year. Mean reductions in peak (measured 2 hours after the morning dose) and trough (measured 12 hours after the evening dose) IOP were 5.6 to 5.9 and 3.3 to 3.7 mm Hg, respectively, after 3 or 12 months of treatment with brimonidine 0.2% twice daily. The efficacy of brimonidine in this setting was similar to that of timolol 0.5% twice daily at peak only (-6.0mm Hg), and superior to that of betaxolol 0.25% twice daily at both peak (-3.5mm Hg) and trough (-2.7mm Hg). When added to topical beta-adren",
+            "journal": "Drugs & aging",
+            "year": "1998",
+            "authors": [
+              "Adkins J C",
+              "Balfour J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adrenergic alpha-Agonists",
+              "Aged",
+              "Brimonidine Tartrate",
+              "Clinical Trials as Topic",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Ocular Hypertension",
+              "Quinoxalines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9534022/"
+          },
+          {
+            "pmid": "36380636",
+            "title": "High-Frequency Deep Sclerotomy as Adjunctive Therapy in Open-Angle Glaucoma Patients.",
+            "abstract": "Glaucoma is a chronic, progressive disease of the optic nerve that can cause vision loss and blindness. High-frequency deep sclerotomy (HFDS) is a novel ab interno procedure used to lower intraocular pressure (IOP). This study aims at examining hypotensive effects of HFDS in patients with medically uncontrolled primary open-angle glaucoma (POAG).",
+            "journal": "Ophthalmic research",
+            "year": "2023",
+            "authors": [
+              "Kontic Marko",
+              "Todorovic Dusan",
+              "Zecevic Rada",
+              "Vulovic Tatjana Sarenac"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Glaucoma, Open-Angle",
+              "Sclera",
+              "Trabecular Meshwork",
+              "Intraocular Pressure",
+              "Trabeculectomy",
+              "Ophthalmic Solutions",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36380636/"
+          },
+          {
+            "pmid": "29164845",
+            "title": "Current therapeutic options and treatments in development for the management of primary open-angle glaucoma.",
+            "abstract": "Primary open angle glaucoma (POAG) is the most common type of glaucoma, and is responsible for approximately 90% of glaucoma cases in North America. POAG is characterized by an asymptomatic onset, where patients do not present with symptoms until significant visual loss occurs in late stages of the disease. Importantly, while glaucoma is associated with several risk factors that contribute to damage and disease progression, intraocular pressure (IOP) is the only proven modifiable risk factor at this time. Treatments for POAG include use of pharmacologic and surgical interventions. As of this writing, available pharmacologic options reduce IOP through reduction of aqueous humor production or by facilitating aqueous humor drainage through the uveoscleral outflow pathway (the unconventional pathway). Although cholinergic agonists (eg, pilocarpine) indirectly targets aqueous humor draining through the trabecular meshwork/Schlemm's canal (the conventional outflow pathway), cholinergic agoni",
+            "journal": "The American journal of managed care",
+            "year": "2017",
+            "authors": [
+              "Liebmann Jeffrey M",
+              "Lee Jeannie K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aqueous Humor",
+              "Benzoates",
+              "Cholinergic Agents",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Nitrates",
+              "Prostaglandins F, Synthetic",
+              "Purines",
+              "Trabecular Meshwork"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29164845/"
+          },
+          {
+            "pmid": "23887",
+            "title": "Medical treatment of open-angle glaucoma.",
+            "abstract": "",
+            "journal": "British medical journal",
+            "year": "1978",
+            "authors": [],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Catecholamines",
+              "Drug Synergism",
+              "Glaucoma",
+              "Humans",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23887/"
+          },
+          {
+            "pmid": "15846712",
+            "title": "Medical versus surgical interventions for open angle glaucoma.",
+            "abstract": "Open angle glaucoma (OAG) is the commonest cause of irreversible blindness worldwide.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2005",
+            "authors": [
+              "Burr J",
+              "Azuara-Blanco A",
+              "Avenell A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Middle Aged",
+              "Pilocarpine",
+              "Randomized Controlled Trials as Topic",
+              "Trabeculectomy",
+              "Vision Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15846712/"
+          },
+          {
+            "pmid": "22972069",
+            "title": "Medical versus surgical interventions for open angle glaucoma.",
+            "abstract": "Open angle glaucoma (OAG) is a common cause of blindness.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2012",
+            "authors": [
+              "Burr Jennifer",
+              "Azuara-Blanco Augusto",
+              "Avenell Alison",
+              "Tuulonen Anja"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Middle Aged",
+              "Pilocarpine",
+              "Randomized Controlled Trials as Topic",
+              "Trabeculectomy",
+              "Vision Disorders"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22972069/"
+          },
+          {
+            "pmid": "9713782",
+            "title": "A comparison of the effects of betaxolol, timolol, and pilocarpine on visual function in patients with open-angle glaucoma.",
+            "abstract": "The author compares the effect of betaxolol, timolol, and pilocarpine on visual functions in patients with glaucoma.",
+            "journal": "Journal of glaucoma",
+            "year": "1998",
+            "authors": [
+              "Drance S M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Aged",
+              "Betaxolol",
+              "Double-Blind Method",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Pilocarpine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9713782/"
+          },
+          {
+            "pmid": "27347646",
+            "title": "Effect of Pilocarpine Hydrochloride on the Schlemm Canal in Healthy Eyes and Eyes With Open-Angle Glaucoma.",
+            "abstract": "The in vivo effect of pilocarpine hydrochloride on the Schlemm canal may help explain its pharmacologic mechanism of action and better indicate its clinical use.",
+            "journal": "JAMA ophthalmology",
+            "year": "2016",
+            "authors": [
+              "Skaat Alon",
+              "Rosman Michael S",
+              "Chien Jason L",
+              "Mogil Rachel S",
+              "Ren Ruojin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Anterior Eye Segment",
+              "Female",
+              "Follow-Up Studies",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27347646/"
+          },
+          {
+            "pmid": "27668698",
+            "title": "Ocular safety of propiverine hydrochloride in elderly patients with primary open- and narrow-angle glaucoma .",
+            "abstract": "Propiverine hydrochloride (P4) is an antimuscarinic drug used in overactive bladder syndrome.",
+            "journal": "International journal of clinical pharmacology and therapeutics",
+            "year": "2016",
+            "authors": [
+              "Gatchev Emil",
+              "Petkova Natalia",
+              "Braeter Manfred",
+              "de Mey Christian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Aged",
+              "Benzilates",
+              "Double-Blind Method",
+              "Female",
+              "Glaucoma, Angle-Closure",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27668698/"
+          },
+          {
+            "pmid": "1841899",
+            "title": "Medical and socio-economic aspects of long term therapy of open angle glaucoma.",
+            "abstract": "Hundred patients of open angle glaucoma (OAG) who were on any one of the three drugs pilocarpine, timolol and epinephrine--for an average period of 3.3 years were chosen. Proforma regarding socio-economic status and the patients' reaction to long-term medication were recorded. Though the objective and subjective effects of long term medication were negligible the financial constraints were considerable. More than 70% patient would prefer laser's and surgery because of the cumbersome schedule and financial burden. The visit to the clinic was a time consuming process suggesting a lack of adequate glaucoma follow-up at the peripheral level. The study reflects a need for reorientation of glaucoma management.",
+            "journal": "Indian journal of ophthalmology",
+            "year": "1991",
+            "authors": [
+              "Sood N N",
+              "Kumar H",
+              "Patil N D",
+              "Aggarwal A C",
+              "Sihota R"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Epinephrine",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Longitudinal Studies",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1841899/"
+          },
+          {
+            "pmid": "19266464",
+            "title": "[Glaucoma].",
+            "abstract": "Glaucoma is one of the most frequent causes of blindness in the world. Although there are several different subforms of glaucoma, their final common pathway is an atrophy of the optic disc leading to progressive visual field defects and finally total blindness. The loss of function in glaucoma is irreversible, i.e. early detection of the disease is the most important part of its therapy. Early detection, however, requires improved knowledge about the disease in the general population and the active help of all general practitioners, explaining their patients the insidious nature of the disease.",
+            "journal": "Therapeutische Umschau. Revue therapeutique",
+            "year": "2009",
+            "authors": [
+              "Funk Jens"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetazolamide",
+              "Age Factors",
+              "Aged",
+              "Carbonic Anhydrase Inhibitors",
+              "Child",
+              "Child, Preschool",
+              "Diagnosis, Differential",
+              "Glaucoma",
+              "Glaucoma, Angle-Closure",
+              "Glaucoma, Open-Angle"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19266464/"
+          },
+          {
+            "pmid": "7916025",
+            "title": "A comparison of the efficacy of various metipranolol-pilocarpine combinations in patients with ocular hypertension and primary open-angle glaucoma.",
+            "abstract": "We compared the ocular hypotensive effects of four fixed-dose metipranolol-pilocarpine combinations in nineteen ocular hypertensive subjects and glaucoma patients. Each patient was tested with all of the study medications: vehicle alone, 0.1% metipranolol HCl + 2% pilocarpine HCl, 0.1% metipranolol HCl + 4% pilocarpine HCl, 0.3% metipranolol HCl + 2% pilocarpine HCl, and 0.3% metipranolol HCl + 4% pilocarpine HCl, in a single dose, randomized, double-masked, cross-over placebo-controlled trial. In addition, another eight age and baseline intraocular pressure (IOP)-matched subjects received 0.1% or 0.3% metipranolol HCl, while a similar group of 14 volunteers received 2% or 4% pilocarpine HCl. A two week washout period was instituted between the various groups of treatments. All four metipranolol-pilocarpine combinations were more effective than placebo or either medication alone in reducing the average IOP for up to 8 hours (p < 0.05 for each treatment group). Metipranolol HCl 0.3%, re",
+            "journal": "Journal of ocular pharmacology",
+            "year": "1994",
+            "authors": [
+              "Sharir M",
+              "Zimmerman T J",
+              "del Negro R G",
+              "Ball S F",
+              "Kooner K S"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Double-Blind Method",
+              "Drug Evaluation",
+              "Drug Therapy, Combination",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7916025/"
+          },
+          {
+            "pmid": "6413360",
+            "title": "Open-angle glaucoma: diagnosis and management.",
+            "abstract": "Open-angle glaucoma is not a benign disease; untreated, it can lead to total blindness. If intraocular tension is controlled early, before onset of visual field loss or optic nerve degeneration, the prognosis is good.",
+            "journal": "Hospital practice (Office ed.)",
+            "year": "1983",
+            "authors": [
+              "Jindra L F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Aqueous Humor",
+              "Drug Therapy, Combination",
+              "Epinephrine",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Intraocular Pressure",
+              "Microsurgery",
+              "Optic Nerve"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6413360/"
+          },
+          {
+            "pmid": "1872141",
+            "title": "Occurrence of disc haemorrhages in open-angle glaucoma treated with pilocarpine or timolol.",
+            "abstract": "1573 examinations were performed on 397 eyes. hh was found in 55 eyes--thromboses included--at 91 examinations. Part of this material qualified for use in a comparative study with pilocarpine in 81 eyes and timolol in 82 eyes. The relative frequency of hh in the treated groups and in the pretreatment group was not significantly different from that of the whole material. No indication of pressure reduction with effect on the occurrence of hh could be detected. The average probability of hh at an examination chosen at random was 6 per cent in this material of ordinary simple and capsular glaucoma cases. The occurrence of haemorrhages in relation to age, sex, general hypertension and diabetes are discussed.",
+            "journal": "Acta ophthalmologica",
+            "year": "1991",
+            "authors": [
+              "Sonnsjö B",
+              "Holmin C",
+              "Krakau C E"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Aged, 80 and over",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Incidence",
+              "Intraocular Pressure",
+              "Male",
+              "Middle Aged",
+              "Optic Disk"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1872141/"
+          },
+          {
+            "pmid": "10509848",
+            "title": "Comparison of dorzolamide and pilocarpine as adjunctive therapy in patients with open-angle glaucoma and ocular hypertension.",
+            "abstract": "Many patients with glaucoma or ocular hypertension initially receive beta-blocker monotherapy to control intraocular pressure (IOP), but some of these patients will require an additional IOP-lowering agent within 1 year. This active-controlled, double-masked, randomized, multicenter, 12-week study compared the effectiveness and tolerability of dorzolamide hydrochloride ophthalmic solution 2% TID with those of pilocarpine hydrochloride 2% QID as adjunctive therapy to timolol maleate ophthalmic gel-forming solution (TG) 0.5% QD as measured by changes in IOP and occurrence of adverse events. One hundred ninety-four patients with open-angle glaucoma or ocular hypertension participated in this study. Their mean age was approximately 63 years. Slightly more than one half were white, and approximately one third were black. After a 3-week run-in period during which all patients received TG 0.5% QD, patients with an IOP of > or = 22 mm Hg at the morning trough measurement were randomly assigned",
+            "journal": "Clinical therapeutics",
+            "year": "1999",
+            "authors": [
+              "Hartenbaum D",
+              "Maloney S",
+              "Vaccarelli L",
+              "Liss C",
+              "Wilson H"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adjuvants, Pharmaceutic",
+              "Carbonic Anhydrase Inhibitors",
+              "Double-Blind Method",
+              "Female",
+              "Glaucoma, Open-Angle",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Ocular Hypertension",
+              "Parasympathomimetics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10509848/"
+          },
+          {
+            "pmid": "419977",
+            "title": "Pilocarpine medication in open-angle glaucoma. A study using pilocarpine eyedrops and an ocular therapeutic system.",
+            "abstract": "Two modes of topical pilocarpine therapy were applied to sixteen patients with open-angle glaucoma. A pilocarpine drop medication (2% solution four times daily) was compared to a constant and continuous supply of pilocarpine by a therapeutic delivery system (Ocusert P-40). The pressure reducing efficiency was studied in the morning and in the following four hour period of an ordinary drop medication regimen. The results indicate about equal pressure reducing properties in both high and low pre-treatment pressure values. However, compared to pilocarpine drops, we found a statistically significant lower pressure in the morning after the Ocusert unit, especially in glaucomatous eyes with high pre-treatment pressure.",
+            "journal": "Acta ophthalmologica",
+            "year": "1979",
+            "authors": [
+              "Brinchmann-Hansen O",
+              "Anmarkrud N"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Aged",
+              "Female",
+              "Glaucoma",
+              "Humans",
+              "Intraocular Pressure",
+              "Male",
+              "Methods",
+              "Middle Aged",
+              "Ophthalmic Solutions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/419977/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "osteoradionecrosis of the mandible",
+        "txgnn_score": 0.9859524965286256,
+        "txgnn_rank": 13600,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "commissural lip fistula",
+        "txgnn_score": 0.9858033657073976,
+        "txgnn_rank": 13697,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "burning mouth syndrome",
+        "txgnn_score": 0.9855776429176332,
+        "txgnn_rank": 13840,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34598858",
+            "title": "Hyposalivation and Xerostomia and Burning Mouth Syndrome: Medical Management.",
+            "abstract": "In this chapter, the authors review the benefits of saliva and the destructive consequences of its loss. It is hoped that this will help their colleagues identify and treat patients before development of symptoms. Xerostomia is the subjective complaint of dry mouth or sensation of oral dryness. Hyposalivation is the actual decrease in measured salivary outflow. The authors discuss a compiled list of highly cited medications commonly used today that are linked with xerostomia and hyposalivation. There are numerous treatment modalities that are present, such as saliva substitutes, mouth rinses, sugar-free candy, and pilocarpine among others.",
+            "journal": "Oral and maxillofacial surgery clinics of North America",
+            "year": "2022",
+            "authors": [
+              "Thakkar Jaykrishna P",
+              "Lane Christopher J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Burning Mouth Syndrome",
+              "Humans",
+              "Saliva",
+              "Xerostomia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34598858/"
+          },
+          {
+            "pmid": "1923398",
+            "title": "Clinical characteristics and management outcome in the burning mouth syndrome. An open study of 130 patients.",
+            "abstract": "Clinical characteristics and treatment responses were studied in 130 patients with burning mouth syndrome (BMS). Most patients were postmenopausal women, and the tongue was the most frequently afflicted site. Although 39% of the patients complained of dry mouth, no causative factors were evident. Therefore BMS is assumed to be a functional disorder. This was at least partially confirmed because the most effective management was in response to mood-altering drugs. From our data BMS appears to be a chronic condition with variations in symptoms among patients and without a predictable endpoint.",
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1991",
+            "authors": [
+              "Gorsky M",
+              "Silverman S",
+              "Chinn H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Amitriptyline",
+              "Antifungal Agents",
+              "Burning Mouth Syndrome",
+              "Chlordiazepoxide",
+              "Diazepam",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1923398/"
+          },
+          {
+            "pmid": "11808055",
+            "title": "Significance of saliva for the denture-wearing population.",
+            "abstract": "This paper summarises a series of studies already published in German and presents new data related to the aetiology of the 'dry mouth' and its associated problems.",
+            "journal": "Gerodontology",
+            "year": "2000",
+            "authors": [
+              "Niedermeier W",
+              "Huber M",
+              "Fischer D",
+              "Beier K",
+              "Müller N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aging",
+              "Burning Mouth Syndrome",
+              "Cholagogues and Choleretics",
+              "Denture Retention",
+              "Estrogens",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11808055/"
+          },
+          {
+            "pmid": "16424527",
+            "title": "Conjunctival epithelium improvement after systemic pilocarpine in patients with Sjogren's syndrome.",
+            "abstract": "To evaluate the effect of oral pilocarpine treatment on conjunctival epithelium of patients with Sjögren's syndrome (SS).",
+            "journal": "The British journal of ophthalmology",
+            "year": "2006",
+            "authors": [
+              "Aragona P",
+              "Di Pietro R",
+              "Spinella R",
+              "Mobrici M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Cell Count",
+              "Conjunctiva",
+              "Epithelium",
+              "Female",
+              "Goblet Cells",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16424527/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "oral leukoedema",
+        "txgnn_score": 0.9855776429176332,
+        "txgnn_rank": 13841,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "chronic tic disorder",
+        "txgnn_score": 0.9689491987228394,
+        "txgnn_rank": 21643,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign shuddering attacks",
+        "txgnn_score": 0.9681473970413208,
+        "txgnn_rank": 21873,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01085",
+    "name": "Pilocarpine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pilocarpine"
+      },
+      "queried_at": "2026-03-09T19:13:57.690326",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pilocarpine"
+      },
+      "queried_at": "2026-03-09T19:14:00.282648",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T19:14:01.793950",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T19:14:06.328413",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "queried_at": "2026-03-09T19:14:07.435749",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "oral candidiasis"
+      },
+      "queried_at": "2026-03-09T19:14:08.748442",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "oral candidiasis"
+      },
+      "queried_at": "2026-03-09T19:14:13.947953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "oral candidiasis"
+      },
+      "queried_at": "2026-03-09T19:14:21.105239",
+      "status": "success",
+      "result_count": 19,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-09T19:14:24.165154",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-09T19:14:29.908552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "glaucoma 1, open angle"
+      },
+      "queried_at": "2026-03-09T19:14:34.027159",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "open angle glaucoma"
+      },
+      "queried_at": "2026-03-09T19:14:36.658451",
+      "status": "success",
+      "result_count": 11,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "open angle glaucoma"
+      },
+      "queried_at": "2026-03-09T19:14:42.518198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "open angle glaucoma"
+      },
+      "queried_at": "2026-03-09T19:14:51.596009",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "osteoradionecrosis of the mandible"
+      },
+      "queried_at": "2026-03-09T19:14:54.275731",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "osteoradionecrosis of the mandible"
+      },
+      "queried_at": "2026-03-09T19:15:00.038999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "osteoradionecrosis of the mandible"
+      },
+      "queried_at": "2026-03-09T19:15:02.173929",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "commissural lip fistula"
+      },
+      "queried_at": "2026-03-09T19:15:02.999573",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "commissural lip fistula"
+      },
+      "queried_at": "2026-03-09T19:15:08.098401",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "commissural lip fistula"
+      },
+      "queried_at": "2026-03-09T19:15:09.842187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "burning mouth syndrome"
+      },
+      "queried_at": "2026-03-09T19:15:10.941927",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "burning mouth syndrome"
+      },
+      "queried_at": "2026-03-09T19:15:15.539252",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "burning mouth syndrome"
+      },
+      "queried_at": "2026-03-09T19:15:19.656139",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "oral leukoedema"
+      },
+      "queried_at": "2026-03-09T19:15:20.520025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "oral leukoedema"
+      },
+      "queried_at": "2026-03-09T19:15:25.172771",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "oral leukoedema"
+      },
+      "queried_at": "2026-03-09T19:15:26.724332",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-09T19:15:28.454606",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-09T19:15:33.081546",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "chronic tic disorder"
+      },
+      "queried_at": "2026-03-09T19:15:34.102369",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-09T19:15:37.680087",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-09T19:15:46.210992",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pilocarpine",
+        "disease": "benign shuddering attacks"
+      },
+      "queried_at": "2026-03-09T19:15:48.626528",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:15:48.682940"
+  }
+}

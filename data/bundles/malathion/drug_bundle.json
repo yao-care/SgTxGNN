@@ -1,0 +1,529 @@
+{
+  "drug": {
+    "inn": "Malathion",
+    "drugbank_id": "DB00772",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "seborrheic keratosis",
+        "txgnn_score": 0.9645292162895204,
+        "txgnn_rank": 22983,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvar inverted follicular keratosis",
+        "txgnn_score": 0.9604709148406982,
+        "txgnn_rank": 24151,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic dermatitis",
+        "txgnn_score": 0.9411554336547852,
+        "txgnn_rank": 28600,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "24126752",
+            "title": "Scalp involvement by Sarcoptes scabiei var hominis resembling seborrhoeic dermatitis in two immunocompromised patients with systemic lupus erythematosus.",
+            "abstract": "Scabies is a common condition in New Zealand but scalp infestation by the mite is not often considered. Topical treatments traditionally do not involve the scalp. We report two cases of immunocompromised patients with systemic lupus erythematosus (SLE) who had scalp infestation clinically mimicking seborrhoeic dermatitis.",
+            "journal": "The New Zealand medical journal",
+            "year": "2013",
+            "authors": [
+              "Birry Antonia",
+              "Jarrett Paul"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Animals",
+              "Diagnosis, Differential",
+              "Female",
+              "Humans",
+              "Immunocompromised Host",
+              "Insecticides",
+              "Ivermectin",
+              "Malathion"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24126752/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mycotic corneal ulcer",
+        "txgnn_score": 0.8295456767082214,
+        "txgnn_rank": 40380,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "inherited skin tumor",
+        "txgnn_score": 0.770057201385498,
+        "txgnn_rank": 43094,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "anogenital human papillomavirus infection",
+        "txgnn_score": 0.7656373977661133,
+        "txgnn_rank": 43242,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast fibrocystic disease",
+        "txgnn_score": 0.7612918019294739,
+        "txgnn_rank": 43400,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign mammary dysplasia",
+        "txgnn_score": 0.7564709782600403,
+        "txgnn_rank": 43617,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blunt duct adenosis of breast",
+        "txgnn_score": 0.7402889132499695,
+        "txgnn_rank": 44094,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "apocrine adenosis of breast",
+        "txgnn_score": 0.7402889132499695,
+        "txgnn_rank": 44095,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00772",
+    "name": "Malathion",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Malathion"
+      },
+      "queried_at": "2026-03-10T08:53:47.453614",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Malathion"
+      },
+      "queried_at": "2026-03-10T08:53:49.082743",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T08:53:50.079550",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T08:53:53.033552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T08:53:54.576371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T08:53:55.456282",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T08:53:59.483175",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T08:54:00.347241",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:54:00.945938",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:54:05.299102",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "seborrheic dermatitis"
+      },
+      "queried_at": "2026-03-10T08:54:08.808163",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "mycotic corneal ulcer"
+      },
+      "queried_at": "2026-03-10T08:54:09.333772",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "mycotic corneal ulcer"
+      },
+      "queried_at": "2026-03-10T08:54:14.491763",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "mycotic corneal ulcer"
+      },
+      "queried_at": "2026-03-10T08:54:15.548820",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "inherited skin tumor"
+      },
+      "queried_at": "2026-03-10T08:54:17.405103",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "inherited skin tumor"
+      },
+      "queried_at": "2026-03-10T08:54:21.158255",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "inherited skin tumor"
+      },
+      "queried_at": "2026-03-10T08:54:21.940759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "queried_at": "2026-03-10T08:54:23.232564",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "queried_at": "2026-03-10T08:54:26.033512",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "queried_at": "2026-03-10T08:54:26.713354",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T08:54:27.290862",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T08:54:30.032123",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T08:54:30.738312",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T08:54:31.194335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T08:54:34.356267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T08:54:35.331132",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:54:35.830554",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:54:40.682406",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:54:41.435213",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:54:42.107812",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:54:45.991078",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Malathion",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T08:54:47.885258",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:54:47.890867"
+  }
+}

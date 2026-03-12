@@ -1,0 +1,2097 @@
+{
+  "drug": {
+    "inn": "Sertaconazole",
+    "drugbank_id": "DB01153",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "dermatophytosis of groin and perianal area",
+        "txgnn_score": 0.99980491399765,
+        "txgnn_rank": 614,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tinea corporis",
+        "txgnn_score": 0.9993768334388732,
+        "txgnn_rank": 1332,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35068526",
+            "title": "Efficacy and Safety of Eberconazole vs Sertaconazole in Localised Tinea Infection.",
+            "abstract": "Topical antifungals especially azole group of drugs are effective agents in the treatment of dermatophytoses producing 100% clinical and mycological cure. Each of them vary having specific characteristics to tackle several clinical challenges like high relapse rate, recurrences and quality of life.",
+            "journal": "Indian journal of dermatology",
+            "year": "2021",
+            "authors": [
+              "Ravichandran Mirunalini",
+              "Srikanth S",
+              "Kumar B Aravinda",
+              "Munusamy Rajesh"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35068526/"
+          },
+          {
+            "pmid": "25386455",
+            "title": "Comparison of topical anti- fungal agents sertaconazole and clotrimazole in the treatment of tinea corporis-an observational study.",
+            "abstract": "To compare the efficacy of topical antifungal agents, Sertaconazole and Clotrimazole in Tinea corporis patients.",
+            "journal": "Journal of clinical and diagnostic research : JCDR",
+            "year": "2014",
+            "authors": [
+              "Shivamurthy Raghu Prasada Malladar",
+              "Reddy Shashikala Gowdara Hanumantappa",
+              "Kallappa Ravindra",
+              "Somashekar Shankar Achar",
+              "Patil Deepa"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25386455/"
+          },
+          {
+            "pmid": "19275277",
+            "title": "Sertaconazole: a review of its use in the management of superficial mycoses in dermatology and gynaecology.",
+            "abstract": "Sertaconazole (Dermofix, Ertaczo, Ginedermofix, Monazol, Mykosert or Zalain), an imidazole antifungal agent, inhibits the synthesis of ergosterol, an essential cell wall component of fungi. It is indicated in the EU for the treatment of superficial skin mycoses such as dermatophytosis (including tinea corporis, tinea cruris, tinea manus, tinea barbae and tinea pedis), cutaneous candidiasis, pityriasis versicolor and seborrhoeic dermatitis of the scalp, and in the US for tinea pedis only. Sertaconazole has broad-spectrum antifungal activity against dermatophytes of the Trichophyton, Epidermophyton and Microsporum genera, and yeasts of the genera Candida and Cryptococcus; additionally, it is effective against opportunistic filamentous fungi and Gram-positive bacteria. Moreover, the antifungal activity of sertaconazole is maintained in clinical isolates of dermatophytes that show reduced susceptibility to other azoles. While the drug has good dermal penetration, this is not associated wit",
+            "journal": "Drugs",
+            "year": "2009",
+            "authors": [
+              "Croxtall Jamie D",
+              "Plosker Greg L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Randomized Controlled Trials as Topic",
+              "Suppositories",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19275277/"
+          },
+          {
+            "pmid": "24249898",
+            "title": "Efficacy and Safety of Terbinafine Hydrochloride 1% Cream vs. Sertaconazole Nitrate 2% Cream in Tinea Corporis and Tinea Cruris: A Comparative Therapeutic Trial.",
+            "abstract": "To the best of our knowledge, till date no study comparing the efficacy and safety of terbinafine hydrochloride 1% cream and sertaconazole nitrate 2% cream has been done in localized tinea corporis and tinea cruris.",
+            "journal": "Indian journal of dermatology",
+            "year": "2013",
+            "authors": [
+              "Choudhary Sv",
+              "Bisati S",
+              "Singh Al",
+              "Koley S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24249898/"
+          },
+          {
+            "pmid": "18039020",
+            "title": "Comparative study of 2% sertaconazole solution and cream formulations in patients with tinea corporis, tinea pedis interdigitalis, or a corresponding candidosis.",
+            "abstract": "Based on the results of numerous preclinical and clinical studies, sertaconazole can be considered a safe and effective drug for the treatment of fungal skin infections.",
+            "journal": "American journal of clinical dermatology",
+            "year": "2007",
+            "authors": [
+              "Borelli Claudia",
+              "Klövekorn Gunther",
+              "Ernst Thomas-Matthias",
+              "Bödeker Rolf-Hasso",
+              "Korting Hans Christian"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Cutaneous",
+              "Antifungal Agents",
+              "Chemistry, Pharmaceutical",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Middle Aged",
+              "Prospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18039020/"
+          },
+          {
+            "pmid": "23566144",
+            "title": "Sertaconazole: an antifungal agent for the topical treatment of superficial candidiasis.",
+            "abstract": "Sertaconazole is a useful antifungal agent against mycoses of the skin and mucosa, such as cutaneous, genital and oral candidiasis and tinea pedis. Its antifungal activity is due to inhibition of the ergosterol biosynthesis and disruption of the cell wall. At higher concentrations, sertaconazole is able to bind to nonsterol lipids of the fungal cell wall, increasing the permeability and the subsequent death of fungal cells. Fungistatic and fungicidal activities on Candida are dose-dependent. The antifungal spectrum of sertaconazole includes deramophytes, Candida, Cryptococcus, Malassezia and also Aspergillus, Scedosporium and Scopulariopsis. Sertaconazole also shows an antimicrobial activity against streptococci, staphylococci and protozoa (Trichomonas). In clinical trials including patients with vulvovaginal candidiasis, a single dose of sertaconazole produced a higher cure rate compared with other topical azoles such as econazole and clotrimazole, in shorter periods. Sertaconazole ha",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2013",
+            "authors": [
+              "Carrillo-Muñoz Alfonso Javier",
+              "Tur-Tur Cristina",
+              "Giusiano Gustavo",
+              "Marcos-Arias Cristina",
+              "Eraso Elena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23566144/"
+          },
+          {
+            "pmid": "17121064",
+            "title": "The safety and efficacy of sertaconazole nitrate cream 2% for tinea pedis.",
+            "abstract": "To determine the safety and efficacy of topical sertaconazole nitrate cream 2% in the treatment of tinea pedis, 2 randomized, multicenter, double-blinded, parallel group, vehicle-controlled studies were conducted. A total of 588 subjects were enrolled, and 383 subjects were randomized to treatment with sertaconazole or vehicle applied twice daily for 4 weeks. Improvements in symptoms were noted at week 1 in the active treatment group. At week 4, mycologic cure was seen in 70.3% of sertaconazole-treated subjects and 36.7% of vehicle-treated subjects (P<.0001). At week 6, 46.7% of sertaconazole-treated subjects had successful treatment outcomes compared with 14.9% of vehicle-treated subjects (P<.0001). No serious adverse events were reported, and rates of cutaneous adverse events were comparable between treatment groups. In conclusion, sertaconazole nitrate cream 2% was well-tolerated, offered rapid relief of symptoms, and achieved high rates of mycologic cure. The stability of the mycol",
+            "journal": "Cutis",
+            "year": "2006",
+            "authors": [
+              "Savin Ronald",
+              "Jorizzo Joseph"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antifungal Agents",
+              "Child",
+              "Double-Blind Method",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17121064/"
+          },
+          {
+            "pmid": "20349685",
+            "title": "Safety and efficacy of sertaconazole nitrate cream 2% in the treatment of tinea pedis interdigitalis: a subgroup analysis.",
+            "abstract": "Sertaconazole nitrate is a broad-spectrum antifungal agent indicated in the United States for the treatment of tinea pedis interdigitalis. The objective of this subgroup analysis was to evaluate the safety and efficacy of sertaconazole nitrate cream 2%, specifically in participants with tinea pedis interdigitalis (ie, fungal skin disease of the toe web) of dermatophyte origin. A total of 92 participants were included in this analysis. The primary end points were eradication of the pathogen (confirmed by fungal culture results) and reduction in total clinical score (TCS) of at least 2 points. Secondary end points included reducing signs and symptoms and reporting adverse events (AEs). After 4 weeks of treatment, 88.8% (79/89) of evaluable participants achieved success on the primary end points. Most participants also demonstrated substantial improvement in signs and symptoms after 4 weeks of treatment: 63.7% (58/91) were free of erythema, 33.0% (30/91) were free of desquamation, and 91.",
+            "journal": "Cutis",
+            "year": "2010",
+            "authors": [
+              "Borelli Claudia",
+              "Korting Hans Christian",
+              "Bödeker Rolf-Hasso",
+              "Neumeister Claudia"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Ointments",
+              "Thiophenes",
+              "Tinea Pedis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20349685/"
+          },
+          {
+            "pmid": "24249897",
+            "title": "A comparative randomized open label study to evaluate efficacy, safety and cost effectiveness between topical 2% sertaconazole and topical 1% butenafine in tinea infections of skin.",
+            "abstract": "Dermatophytoses are the superficial fungal infections of skin, hair, and nail. Butenafine is a benzylamine group of antifungal that inhibits the biosynthesis of ergosterol by blocking squalene epoxidase. Sertaconazole is a newer imidazole antifungal which inhibits the biosynthesis of ergosterol by inhibiting 14-α lanosterol demethylase. The study was done to compare a newer antifungal with a relatively older one.",
+            "journal": "Indian journal of dermatology",
+            "year": "2013",
+            "authors": [
+              "Thaker Saket J",
+              "Mehta Dimple S",
+              "Shah Hiral A",
+              "Dave Jayendra N",
+              "Mundhava Shailesh G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24249897/"
+          },
+          {
+            "pmid": "34760651",
+            "title": "Comparison of efficacy, safety, and cost-effectiveness of sertaconazole and luliconazole cream in patients with dermatophytoses: A prospective, randomized, open-label study.",
+            "abstract": "To compare efficacy, safety, and cost-effectiveness of sertaconazole (2%) and luliconazole (1%) cream in patients with dermatophytoses.",
+            "journal": "Perspectives in clinical research",
+            "year": "2021",
+            "authors": [
+              "Dakhale Ganesh N",
+              "Gupta Ashish V",
+              "Mukhi Jayesh I",
+              "Kalikar Mrunalini V"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34760651/"
+          },
+          {
+            "pmid": "16822638",
+            "title": "Review of in vitro activity of sertaconazole nitrate in the treatment of superficial fungal infections.",
+            "abstract": "The evaluation of susceptibility patterns of clinical and laboratory isolates of dermatophytes and Candida to sertaconazole nitrate has been determined using macrodilution and microdilution test methods in laboratories worldwide. Antimycotics that have been compared to sertaconazole nitrate include itraconazole, clotrimazole, miconazole, and terbinafine. A comparison of the minimum inhibitory concentrations clearly shows differences in potency and spectrum among the various agents. This article reviews the antifungal activity of sertaconazole nitrate against major fungal pathogens that cause and complicate tinea pedis. In light of the new topical formulation of sertaconazole nitrate, this compilation of data from the literature is helpful for relating in vitro data to the tissue concentrations required for effective eradication of cutaneous fungal infections.",
+            "journal": "Diagnostic microbiology and infectious disease",
+            "year": "2006",
+            "authors": [
+              "Pfaller Michael A",
+              "Sutton Deanna A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Drug Resistance, Fungal",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16822638/"
+          },
+          {
+            "pmid": "15954850",
+            "title": "Sertaconazole: updated review of a topical antifungal agent.",
+            "abstract": "Sertaconazole is an imidazole-type antifungal agent that has shown considerable in vitro activity against pathogenic fungi. Various studies carried out in animal models, clinical and toxicologic trials have confirmed the value of sertaconazole in the topical treatment of superficial mycoses in dermatology and gynecology. After several years of clinical experience in the topical treatment of dermatophytosis and Tinea versicolor, the substance has been approved for gynecologic candidiasis in Europe. Sertaconazole has a wide action spectrum that includes yeasts and dermatophyte fungi, and it is also active against bacteria, mainly Gram-positive cocci, making it highly efficient in the treatment of polymicrobial infections. The recent approval of the molecule by the US Food and Drug Administration, and the appearance of a new formulation of sertaconazole for the treatment of onychomycoses on a weekly administrative basis, are all data relevant to the process of marketing the product.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2005",
+            "authors": [
+              "Carrillo-Muñoz Alfonso J",
+              "Giusiano Gustavo",
+              "Ezkurra Pilar Ariadna",
+              "Quindós Guillermo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15954850/"
+          },
+          {
+            "pmid": "21746955",
+            "title": "Sertaconazole nitrate shows fungicidal and fungistatic activities against Trichophyton rubrum, Trichophyton mentagrophytes, and Epidermophyton floccosum, causative agents of tinea pedis.",
+            "abstract": "The fungistatic and fungicidal activities of sertaconazole against dermatophytes were evaluated by testing 150 clinical isolates of causative agents of tinea pedis, Trichophyton rubrum, Trichophyton mentagrophytes, and Epidermophyton floccosum. The overall geometric means for fungistatic and fungicidal activities of sertaconazole against these isolates were 0.26 and 2.26 μg/ml, respectively, although values were higher for T. mentagrophytes than for the others. This is the first comprehensive demonstration of the fungicidal activity of sertaconazole against dermatophytes.",
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2011",
+            "authors": [
+              "Carrillo-Muñoz Alfonso J",
+              "Tur-Tur Cristina",
+              "Cárdenes Delia C",
+              "Estivill Dolors",
+              "Giusiano Gustavo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Epidermophyton",
+              "Imidazoles",
+              "Microbial Sensitivity Tests",
+              "Thiophenes",
+              "Tinea Pedis",
+              "Trichophyton"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21746955/"
+          },
+          {
+            "pmid": "28066103",
+            "title": "Efficacy and tolerability of topical sertaconazole versus topical terbinafine in localized dermatophytosis: A randomized, observer-blind, parallel group study.",
+            "abstract": "Epidermal dermatophyte infections most commonly manifest as tinea corporis or tinea cruris. Topical azole antifungals are commonly used in their treatment but literature suggests that most require twice-daily application and provide lower cure rates than the allylamine antifungal terbinafine. We conducted a head-to-head comparison of the effectiveness of the once-daily topical azole, sertaconazole, with terbinafine in these infections.",
+            "journal": "Indian journal of pharmacology",
+            "year": "2016",
+            "authors": [
+              "Chatterjee Dattatreyo",
+              "Ghosh Sudip Kumar",
+              "Sen Sukanta",
+              "Sarkar Saswati",
+              "Hazra Avijit"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Antifungal Agents",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Middle Aged",
+              "Naphthalenes",
+              "Terbinafine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28066103/"
+          },
+          {
+            "pmid": "30409926",
+            "title": "A randomized, double-blind trial of amorolfine 0.25% cream and sertaconazole 2% cream in limited dermatophytosis.",
+            "abstract": "Dermatophytosis is becoming increasingly unresponsive to conventional antifungals. Newer topical antifungals may be more effective in these patients.",
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2019",
+            "authors": [
+              "Das Anirban",
+              "Sil Amrita",
+              "Sarkar Tushar Kanti",
+              "Sen Arpita",
+              "Chakravorty Sriparna"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adolescent",
+              "Adult",
+              "Antifungal Agents",
+              "Double-Blind Method",
+              "Drug Compounding",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30409926/"
+          },
+          {
+            "pmid": "24909149",
+            "title": "Poly(ethylene glycol)-block-poly(ε-caprolactone) nanomicelles for the solubilization and enhancement of antifungal activity of sertaconazole.",
+            "abstract": "Sertaconazole nitrate is a broad spectrum imidazole antifungal agent with antibacterial and anti-inflammatory properties. However, its lipophilic nature and very poor aqueous solubility limit its use in the clinic. The aim of this study was to develop and characterize poly(ethylene glycol)-block-poly(ε-caprolactone) (PEG-b-PCL) polymeric nanomicelles for the solubilization and enhancement of sertaconazole antifungal activity. Sertaconazole was incorporated into PEG-b- PCL polymeric nanomicelles by a co-solvent evaporation method and micelle size, drug loading capacity and drug release properties were determined. The antifungal properties of nanomicelle-loaded drug were evaluated in Fusarium miscanthi, Microsporum canis, and Trichophyton mentagrophytes isolated, respectively from fungal keratitis, ringworm, and tinea corporis. PEG-b-PCL formed nanomicelles in aqueous solution with a diameter ranging from 40-80 nm, depending on the polymer composition and level of drug loading. Drug load",
+            "journal": "Current drug delivery",
+            "year": "2014",
+            "authors": [
+              "Soliman Ghareb M",
+              "Attia Mohamed A",
+              "Mohamed Ramadan A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Drug Delivery Systems",
+              "Ethylene Glycols",
+              "Fusarium",
+              "Imidazoles",
+              "Micelles",
+              "Microbial Sensitivity Tests",
+              "Microsporum",
+              "Nanostructures",
+              "Polyesters"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24909149/"
+          },
+          {
+            "pmid": "27502503",
+            "title": "New Antifungal Agents and New Formulations Against Dermatophytes.",
+            "abstract": "A variety of oral and topical antifungal agents are available for the treatment of superficial fungal infections caused by dermatophytes. This review builds on the antifungal therapy update published in this journal for the first special issue on Dermatophytosis (Gupta and Cooper 2008;166:353-67). Since 2008, there have not been additions to the oral antifungal armamentarium, with terbinafine, itraconazole, and fluconazole still in widespread use, albeit for generally more severe or recalcitrant infections. Griseofulvin is used in the treatment of tinea capitis. Oral ketoconazole has fallen out of favor in many jurisdictions due to risks of hepatotoxicity. Topical antifungals, applied once or twice daily, are the primary treatment for tinea pedis, tinea corporis/tinea cruris, and mild cases of tinea unguium. Newer topical antifungal agents introduced include the azoles, efinaconazole, luliconazole, and sertaconazole, and the oxaborole, tavaborole. Research is focused on developing form",
+            "journal": "Mycopathologia",
+            "year": "2017",
+            "authors": [
+              "Gupta Aditya K",
+              "Foley Kelly A",
+              "Versteeg Sarah G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Drug Compounding",
+              "Humans",
+              "Tinea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27502503/"
+          },
+          {
+            "pmid": "23372210",
+            "title": "Comparative assessment of the efficacy and safety of sertaconazole (2%) cream versus terbinafine cream (1%) versus luliconazole (1%) cream in patients with dermatophytoses: a pilot study.",
+            "abstract": "Sertaconazole is a new, broad spectrum, fungicidal and fungistatic imidazole with added antipruritic and anti-inflammatory activity that would provide greater symptomatic relief and hence would be beneficial in improving the quality of life for the patient with dermatophytoses.",
+            "journal": "Indian journal of dermatology",
+            "year": "2013",
+            "authors": [
+              "Jerajani Hr",
+              "Janaki C",
+              "Kumar Sharath",
+              "Phiske Meghana"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23372210/"
+          },
+          {
+            "pmid": "1627203",
+            "title": "Therapeutic efficacy and safety of the new antimycotic sertaconazole in the treatment of Pityriasis versicolor.",
+            "abstract": "The activity of 7-chloro-3-[1-(2,4-dichlorophenyl)-2-(1H-imidazol-1-yl) ethoxy-methyl]benzo[b]thiophene (sertaconazole, FI-7045, CAS 99592-32,2) was studied in a randomized parallel double-blind clinical trial on 21 patients suffering from Pityriasis versicolor (confirmed by KOH microscopic examination and exploration with Wood's light). The patients were divided into two treatment groups: one with 11 patients receiving sertaconazole 1% cream and the other with 10 patients receiving sertaconazole 2% cream. The cream was applied twice a day during 4 weeks. The data were assessed clinically and microscopically (optical and fluorescence). All the patients were cured (100% cure), showing excellent efficacy. A check-up performed after the end of the treatment showed no relapses of infection. The drug safety was optimum, since no local or general undesirable effects were recorded, nor were there any changes in the analytical parameters studied in the 21 patients. Because of its high antifung",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1992",
+            "authors": [
+              "Nasarre J",
+              "Umbert P",
+              "Herrero E",
+              "Roset P",
+              "Márquez M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antifungal Agents",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Middle Aged",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1627203/"
+          },
+          {
+            "pmid": "18693645",
+            "title": "Comprehensive management of patients with superficial fungal infections: the role of sertaconazole nitrate.",
+            "abstract": "The incidence of mycotic infections is on the rise in the United States. The failure of patients and clinicians to recognize a fungal infection early may lead to extensive, severe, and difficult-to-treat disease. Treatment decisions must include an awareness of the etiologic organism involved, the potential for long-term recurrence, symptoms such as inflammation and itching, and the importance of patient adherence to treatment. Sertaconazole nitrate, a broad-spectrum imidazole agent with antifungal, antibacterial, antiinflammatory, and antipruritic properties, is the topical antifungal agent most recently approved by the US Food and Drug Administration. A review of its mechanisms of action, pharmacokinetic profile, fungistatic and fungicidal activities, and clinical properties examines a substantial body of research findings that establish its efficacy, safety, and tolerability. Its use in the treatment of tinea pedis and other superficial mycotic infections is reviewed here.",
+            "journal": "Cutis",
+            "year": "2008",
+            "authors": [
+              "Del Rosso James Q"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans",
+              "Imidazoles",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18693645/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cutaneous candidiasis",
+        "txgnn_score": 0.9963473677635192,
+        "txgnn_rank": 5265,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "23566144",
+            "title": "Sertaconazole: an antifungal agent for the topical treatment of superficial candidiasis.",
+            "abstract": "Sertaconazole is a useful antifungal agent against mycoses of the skin and mucosa, such as cutaneous, genital and oral candidiasis and tinea pedis. Its antifungal activity is due to inhibition of the ergosterol biosynthesis and disruption of the cell wall. At higher concentrations, sertaconazole is able to bind to nonsterol lipids of the fungal cell wall, increasing the permeability and the subsequent death of fungal cells. Fungistatic and fungicidal activities on Candida are dose-dependent. The antifungal spectrum of sertaconazole includes deramophytes, Candida, Cryptococcus, Malassezia and also Aspergillus, Scedosporium and Scopulariopsis. Sertaconazole also shows an antimicrobial activity against streptococci, staphylococci and protozoa (Trichomonas). In clinical trials including patients with vulvovaginal candidiasis, a single dose of sertaconazole produced a higher cure rate compared with other topical azoles such as econazole and clotrimazole, in shorter periods. Sertaconazole ha",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2013",
+            "authors": [
+              "Carrillo-Muñoz Alfonso Javier",
+              "Tur-Tur Cristina",
+              "Giusiano Gustavo",
+              "Marcos-Arias Cristina",
+              "Eraso Elena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23566144/"
+          },
+          {
+            "pmid": "19275277",
+            "title": "Sertaconazole: a review of its use in the management of superficial mycoses in dermatology and gynaecology.",
+            "abstract": "Sertaconazole (Dermofix, Ertaczo, Ginedermofix, Monazol, Mykosert or Zalain), an imidazole antifungal agent, inhibits the synthesis of ergosterol, an essential cell wall component of fungi. It is indicated in the EU for the treatment of superficial skin mycoses such as dermatophytosis (including tinea corporis, tinea cruris, tinea manus, tinea barbae and tinea pedis), cutaneous candidiasis, pityriasis versicolor and seborrhoeic dermatitis of the scalp, and in the US for tinea pedis only. Sertaconazole has broad-spectrum antifungal activity against dermatophytes of the Trichophyton, Epidermophyton and Microsporum genera, and yeasts of the genera Candida and Cryptococcus; additionally, it is effective against opportunistic filamentous fungi and Gram-positive bacteria. Moreover, the antifungal activity of sertaconazole is maintained in clinical isolates of dermatophytes that show reduced susceptibility to other azoles. While the drug has good dermal penetration, this is not associated wit",
+            "journal": "Drugs",
+            "year": "2009",
+            "authors": [
+              "Croxtall Jamie D",
+              "Plosker Greg L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Randomized Controlled Trials as Topic",
+              "Suppositories",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19275277/"
+          },
+          {
+            "pmid": "11118563",
+            "title": "Sertaconazole: pharmacology of a gynecological antifungal agent.",
+            "abstract": "Sertaconazole is a broad spectrum antifungal agent with excellent activity against yeasts, dermatophytes and opportunistic fungi. In addition to this antifungal efficacy, it has a good safety profile, sustained cutaneous retention, and low systemic absorption, all of which make it ideal for topical applications. In this study, the pharmacological properties of sertaconazole related to the treatment of vaginal fungi, in particular vulvovaginal candidiasis, are reviewed. As with all other infectious processes, the interacting components are infectious microorganism, host and drug. The following properties of sertaconazole have been investigated in pre-clinical studies: its in vitro spectrum of activity and potency against causative agents and accompanying factors in vaginal infection; its mechanism of action, whether it acts on the pathogenic properties of the microorganism; if it affects host defense mechanisms and how its antifungal activity is manifested in vivo in experimental candid",
+            "journal": "International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics",
+            "year": "2000",
+            "authors": [
+              "Palacín C",
+              "Tarragó C",
+              "Ortiz J A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis, Vulvovaginal",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Microbial Sensitivity Tests",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11118563/"
+          },
+          {
+            "pmid": "1627201",
+            "title": "Phase II study of the therapeutic efficacy and safety of the new antimycotic sertaconazole in the treatment of superficial mycoses caused by Candida albicans.",
+            "abstract": "The activity of 7-chloro-3-[1-(2,4-dichlorophenyl)-2-(1H-imidazol-1-yl)ethoxy-methyl] benzo[b]thiophene (sertaconazole, FI-7045, CAS 99592-32-2) was studied in a randomized parallel double-blind clinical trial on 20 patients suffering from superficial mycosis caused by Candida albicans (confirmed microscopically and microbiologically). The patients were divided into two groups; one received sertaconazole 1% cream (10 patients) and the other received sertaconazole 2% cream (10 patients), over a period of 28 days. Clinical, microscopic and microbiological parameters were evaluated. Analytical parameters such as the appearance of possible undesirable effects (both local and general) were also monitored. The cure was total for 19 out of the 20 patients, demonstrating high efficacy. There were no relapses of infection in any of the cured patients. No local or general effects were recorded during the trial. The analytical parameters remained within normal limits. The clinical and microbiolog",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1992",
+            "authors": [
+              "Umbert P",
+              "Nasarre J",
+              "Bello A",
+              "Herrero E",
+              "Roset P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Double-Blind Method",
+              "Drug Evaluation",
+              "Humans",
+              "Imidazoles",
+              "Middle Aged",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1627201/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Majocchi granuloma",
+        "txgnn_score": 0.9958861470222472,
+        "txgnn_rank": 5720,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ectothrix infectious disease",
+        "txgnn_score": 0.9958861470222472,
+        "txgnn_rank": 5721,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "endothrix infectious disease",
+        "txgnn_score": 0.9956336617469788,
+        "txgnn_rank": 5943,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "superficial mycosis",
+        "txgnn_score": 0.995545506477356,
+        "txgnn_rank": 6015,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19275277",
+            "title": "Sertaconazole: a review of its use in the management of superficial mycoses in dermatology and gynaecology.",
+            "abstract": "Sertaconazole (Dermofix, Ertaczo, Ginedermofix, Monazol, Mykosert or Zalain), an imidazole antifungal agent, inhibits the synthesis of ergosterol, an essential cell wall component of fungi. It is indicated in the EU for the treatment of superficial skin mycoses such as dermatophytosis (including tinea corporis, tinea cruris, tinea manus, tinea barbae and tinea pedis), cutaneous candidiasis, pityriasis versicolor and seborrhoeic dermatitis of the scalp, and in the US for tinea pedis only. Sertaconazole has broad-spectrum antifungal activity against dermatophytes of the Trichophyton, Epidermophyton and Microsporum genera, and yeasts of the genera Candida and Cryptococcus; additionally, it is effective against opportunistic filamentous fungi and Gram-positive bacteria. Moreover, the antifungal activity of sertaconazole is maintained in clinical isolates of dermatophytes that show reduced susceptibility to other azoles. While the drug has good dermal penetration, this is not associated wit",
+            "journal": "Drugs",
+            "year": "2009",
+            "authors": [
+              "Croxtall Jamie D",
+              "Plosker Greg L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Randomized Controlled Trials as Topic",
+              "Suppositories",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19275277/"
+          },
+          {
+            "pmid": "23566144",
+            "title": "Sertaconazole: an antifungal agent for the topical treatment of superficial candidiasis.",
+            "abstract": "Sertaconazole is a useful antifungal agent against mycoses of the skin and mucosa, such as cutaneous, genital and oral candidiasis and tinea pedis. Its antifungal activity is due to inhibition of the ergosterol biosynthesis and disruption of the cell wall. At higher concentrations, sertaconazole is able to bind to nonsterol lipids of the fungal cell wall, increasing the permeability and the subsequent death of fungal cells. Fungistatic and fungicidal activities on Candida are dose-dependent. The antifungal spectrum of sertaconazole includes deramophytes, Candida, Cryptococcus, Malassezia and also Aspergillus, Scedosporium and Scopulariopsis. Sertaconazole also shows an antimicrobial activity against streptococci, staphylococci and protozoa (Trichomonas). In clinical trials including patients with vulvovaginal candidiasis, a single dose of sertaconazole produced a higher cure rate compared with other topical azoles such as econazole and clotrimazole, in shorter periods. Sertaconazole ha",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2013",
+            "authors": [
+              "Carrillo-Muñoz Alfonso Javier",
+              "Tur-Tur Cristina",
+              "Giusiano Gustavo",
+              "Marcos-Arias Cristina",
+              "Eraso Elena"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Anti-Bacterial Agents",
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Clinical Trials as Topic",
+              "Dose-Response Relationship, Drug",
+              "Humans",
+              "Imidazoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23566144/"
+          },
+          {
+            "pmid": "16822638",
+            "title": "Review of in vitro activity of sertaconazole nitrate in the treatment of superficial fungal infections.",
+            "abstract": "The evaluation of susceptibility patterns of clinical and laboratory isolates of dermatophytes and Candida to sertaconazole nitrate has been determined using macrodilution and microdilution test methods in laboratories worldwide. Antimycotics that have been compared to sertaconazole nitrate include itraconazole, clotrimazole, miconazole, and terbinafine. A comparison of the minimum inhibitory concentrations clearly shows differences in potency and spectrum among the various agents. This article reviews the antifungal activity of sertaconazole nitrate against major fungal pathogens that cause and complicate tinea pedis. In light of the new topical formulation of sertaconazole nitrate, this compilation of data from the literature is helpful for relating in vitro data to the tissue concentrations required for effective eradication of cutaneous fungal infections.",
+            "journal": "Diagnostic microbiology and infectious disease",
+            "year": "2006",
+            "authors": [
+              "Pfaller Michael A",
+              "Sutton Deanna A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Drug Resistance, Fungal",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16822638/"
+          },
+          {
+            "pmid": "18693645",
+            "title": "Comprehensive management of patients with superficial fungal infections: the role of sertaconazole nitrate.",
+            "abstract": "The incidence of mycotic infections is on the rise in the United States. The failure of patients and clinicians to recognize a fungal infection early may lead to extensive, severe, and difficult-to-treat disease. Treatment decisions must include an awareness of the etiologic organism involved, the potential for long-term recurrence, symptoms such as inflammation and itching, and the importance of patient adherence to treatment. Sertaconazole nitrate, a broad-spectrum imidazole agent with antifungal, antibacterial, antiinflammatory, and antipruritic properties, is the topical antifungal agent most recently approved by the US Food and Drug Administration. A review of its mechanisms of action, pharmacokinetic profile, fungistatic and fungicidal activities, and clinical properties examines a substantial body of research findings that establish its efficacy, safety, and tolerability. Its use in the treatment of tinea pedis and other superficial mycotic infections is reviewed here.",
+            "journal": "Cutis",
+            "year": "2008",
+            "authors": [
+              "Del Rosso James Q"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Humans",
+              "Imidazoles",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18693645/"
+          },
+          {
+            "pmid": "1627201",
+            "title": "Phase II study of the therapeutic efficacy and safety of the new antimycotic sertaconazole in the treatment of superficial mycoses caused by Candida albicans.",
+            "abstract": "The activity of 7-chloro-3-[1-(2,4-dichlorophenyl)-2-(1H-imidazol-1-yl)ethoxy-methyl] benzo[b]thiophene (sertaconazole, FI-7045, CAS 99592-32-2) was studied in a randomized parallel double-blind clinical trial on 20 patients suffering from superficial mycosis caused by Candida albicans (confirmed microscopically and microbiologically). The patients were divided into two groups; one received sertaconazole 1% cream (10 patients) and the other received sertaconazole 2% cream (10 patients), over a period of 28 days. Clinical, microscopic and microbiological parameters were evaluated. Analytical parameters such as the appearance of possible undesirable effects (both local and general) were also monitored. The cure was total for 19 out of the 20 patients, demonstrating high efficacy. There were no relapses of infection in any of the cured patients. No local or general effects were recorded during the trial. The analytical parameters remained within normal limits. The clinical and microbiolog",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1992",
+            "authors": [
+              "Umbert P",
+              "Nasarre J",
+              "Bello A",
+              "Herrero E",
+              "Roset P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antifungal Agents",
+              "Candidiasis, Cutaneous",
+              "Double-Blind Method",
+              "Drug Evaluation",
+              "Humans",
+              "Imidazoles",
+              "Middle Aged",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1627201/"
+          },
+          {
+            "pmid": "15954850",
+            "title": "Sertaconazole: updated review of a topical antifungal agent.",
+            "abstract": "Sertaconazole is an imidazole-type antifungal agent that has shown considerable in vitro activity against pathogenic fungi. Various studies carried out in animal models, clinical and toxicologic trials have confirmed the value of sertaconazole in the topical treatment of superficial mycoses in dermatology and gynecology. After several years of clinical experience in the topical treatment of dermatophytosis and Tinea versicolor, the substance has been approved for gynecologic candidiasis in Europe. Sertaconazole has a wide action spectrum that includes yeasts and dermatophyte fungi, and it is also active against bacteria, mainly Gram-positive cocci, making it highly efficient in the treatment of polymicrobial infections. The recent approval of the molecule by the US Food and Drug Administration, and the appearance of a new formulation of sertaconazole for the treatment of onychomycoses on a weekly administrative basis, are all data relevant to the process of marketing the product.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2005",
+            "authors": [
+              "Carrillo-Muñoz Alfonso J",
+              "Giusiano Gustavo",
+              "Ezkurra Pilar Ariadna",
+              "Quindós Guillermo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15954850/"
+          },
+          {
+            "pmid": "23546772",
+            "title": "The efficacy and safety of sertaconazole cream (2 %) in diaper dermatitis candidiasis.",
+            "abstract": "Diaper dermatitis (DD) is an inflammatory irritating condition that is common in infants. Most cases are associated with the yeast colonization of Candida or diaper dermatitis candidiasis (DDC), and therefore, the signs and symptoms improve with antimycotic treatment. Sertaconazole is a broad-spectrum third-generation imidazole derivative that is effective and safe for the treatment for superficial mycoses, such as tineas, candidiasis, and pityriasis versicolor. Our goal was to assess the efficacy and safety of sertaconazole cream (2 %) in DDC.",
+            "journal": "Mycopathologia",
+            "year": "2013",
+            "authors": [
+              "Bonifaz Alexandro",
+              "Tirado-Sánchez Andrés",
+              "Graniel María José",
+              "Mena Carlos",
+              "Valencia Adriana"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Diaper Rash",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23546772/"
+          },
+          {
+            "pmid": "27502503",
+            "title": "New Antifungal Agents and New Formulations Against Dermatophytes.",
+            "abstract": "A variety of oral and topical antifungal agents are available for the treatment of superficial fungal infections caused by dermatophytes. This review builds on the antifungal therapy update published in this journal for the first special issue on Dermatophytosis (Gupta and Cooper 2008;166:353-67). Since 2008, there have not been additions to the oral antifungal armamentarium, with terbinafine, itraconazole, and fluconazole still in widespread use, albeit for generally more severe or recalcitrant infections. Griseofulvin is used in the treatment of tinea capitis. Oral ketoconazole has fallen out of favor in many jurisdictions due to risks of hepatotoxicity. Topical antifungals, applied once or twice daily, are the primary treatment for tinea pedis, tinea corporis/tinea cruris, and mild cases of tinea unguium. Newer topical antifungal agents introduced include the azoles, efinaconazole, luliconazole, and sertaconazole, and the oxaborole, tavaborole. Research is focused on developing form",
+            "journal": "Mycopathologia",
+            "year": "2017",
+            "authors": [
+              "Gupta Aditya K",
+              "Foley Kelly A",
+              "Versteeg Sarah G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Drug Compounding",
+              "Humans",
+              "Tinea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27502503/"
+          },
+          {
+            "pmid": "1627202",
+            "title": "Therapeutic efficacy and safety of the new antimycotic sertaconazole in the treatment of cutaneous dermatophytosis.",
+            "abstract": "7-Chloro-3-[1-(2,4-dichlorophenyl)-2-(1H-imidazol-1-yl)ethoxy-methyl] benzo[b]thiophene (sertaconazole, FI-7045, CAS 99592-32-2) is a new antimycotic which, in experimental infection studies, proved to possess potent antifungal activity. In a randomized, parallel, double-blind trial, the activity of sertaconazole cream was studied in 20 patients suffering from superficial mycoses caused by dermatophytes, confirmed by microscopic examination (KOH) and culture test. The patients, who were included in accordance with microbiological, microscopic and clinical criteria, were divided into two groups of 10 and were treated with sertaconazole 1% or sertaconazole 2% (cream) twice a day for 28 days. Both treatments achieved a total cure of the disease, with a cure being reached in a shorter time in the group of patients treated with sertaconazole 2%. No undesirable effects or statistically significant changes in the blood tests conducted at the end of the trial were observed. The results of the ",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1992",
+            "authors": [
+              "Pedragosa R",
+              "González B",
+              "Martín M",
+              "Herrero E",
+              "Roset P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Double-Blind Method",
+              "Humans",
+              "Imidazoles",
+              "Middle Aged",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1627202/"
+          },
+          {
+            "pmid": "1627204",
+            "title": "Multi-centre double-blind trial on the efficacy and safety of sertaconazole 2% cream in comparison with miconazole 2% cream on patients suffering from cutaneous mycoses.",
+            "abstract": "The efficacy and tolerance of 7-chloro-3-[1-(2,4-dichlorophenyl)-2- (1H-imidazol-1-yl)ethoxy-methyl]benzo[b]thiophene (sertaconazole, FI-7045, CAS 99592-32-2) 2% dermatological cream in two daily applications compared with miconazole 2% cream in two daily applications were studied on 631 patients suffering from superficial cutaneous mycosis (sertaconazole n = 317, miconazole n = 314), in a double-blind, controlled multicentre trial with parallel groups. The therapeutic efficacy was evaluated by clinical assessment of the improvement of the lesion and symptoms, a microscopic test on the presence of hyphae or mycelia in the affected area and a culture test on the presence of active infection. Tolerance and safety were evaluated by a general blood analysis and interrogation of the patient on adverse effects. The rate of clinical cures for both treatments at the end of the follow-up was 95.6% for sertaconazole and 88.1% for miconazole, with the difference being statistically significant. I",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1992",
+            "authors": [
+              "Alomar C",
+              "Bassas S",
+              "Casas M",
+              "Crespo V",
+              "Ferrándiz C"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Adult",
+              "Aged",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1627204/"
+          },
+          {
+            "pmid": "25968082",
+            "title": "[Cutaneous Malassezia infections and Malassezia associated dermatoses: An update].",
+            "abstract": "The lipophilic yeast fungus Malassezia (M.) spp. is the only fungal genus or species which is part of the physiological human microbiome. Today, at least 14 different Malassezia species are known; most of them can only be identified using molecular biological techniques. As a facultative pathogenic microorganism, Malassezia represents the causative agent both of superficial cutaneous infections and of blood stream infections. Pityriasis versicolor is the probably most frequent infection caused by Malassezia. Less common, Malassezia folliculitis occurs. There is only an episodic report on Malassezia-induced onychomycosis. Seborrhoeic dermatitis represents a Malassezia-associated inflammatory dermatosis. In addition, Malassezia allergenes should be considered as the trigger of \"Head-Neck\"-type atopic dermatitis. Ketoconazole possesses the strongest in vitro activity against Malassezia, and represents the treatment of choice for topical therapy of pityriasis versicolor. Alternatives inclu",
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2015",
+            "authors": [
+              "Nenoff P",
+              "Krüger C",
+              "Mayser P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Dermatitis, Atopic",
+              "Dermatitis, Seborrheic",
+              "Itraconazole",
+              "Ketoconazole",
+              "Malassezia",
+              "Tinea Versicolor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25968082/"
+          },
+          {
+            "pmid": "8118161",
+            "title": "New topical antifungal drugs.",
+            "abstract": "The new antifungal drugs used for topical treatment of superficial, skin and mucosal mycoses are reviewed. Amorolfine and allylamines (naftifine and terbinafine) are promising original molecules with new and different modes of action against fungi. Rilopirox is a new pyridone derivative under study. A great number of azole derivatives, such as oxiconazole, isoconazole, sulconazole, and terconazole, are used as topical antifungals. Three of them are synthesized in Barcelona by pharmaceutical laboratories: sertaconazole, flutrimazole and eberconazole. All of them are now in the register process for commercialization. The combination of antifungals with active products, such as keratoplastics, is used mainly for the treatment of onychomycoses; 40% urea associated with 1% bifonazole has shown high efficacy for this indication.",
+            "journal": "Archives of medical research",
+            "year": "1993",
+            "authors": [
+              "Torres-Rodríguez J M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Animals",
+              "Antifungal Agents",
+              "Dermatomycoses",
+              "Disease Models, Animal",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8118161/"
+          },
+          {
+            "pmid": "31348769",
+            "title": "[First autochthonous case report of tinea nigra in Chile].",
+            "abstract": "Tinea nigra is an infrequent superficial mycosis caused by the dematiaceous fungus Hortaea werneckii. It usually occurs in tropical coastal areas, with very few reports in South American countries with temperate climates, generally corresponding to infections imported by travelers. We present the case of a Chilean adult patient, with no previous history of recent trips, with clinical and microbiological background consistent with palmar tinea nigra, treated with oral itraconazole and topical sertaconazole with a favorable response. This article is the first case reported in Chile, of autochthonous origin.",
+            "journal": "Medwave",
+            "year": "2019",
+            "authors": [
+              "Arellano Javier",
+              "Vargas Pablo",
+              "Urrutia Mauricio"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antifungal Agents",
+              "Chile",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Itraconazole",
+              "Thiophenes",
+              "Tinea",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31348769/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatophytosis of scalp or beard",
+        "txgnn_score": 0.9955346584320068,
+        "txgnn_rank": 6026,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "34934294",
+            "title": "Beard Reconstruction.",
+            "abstract": "Loss of beard can occur due to many reasons. As beard has huge cosmetic importance, loss of beard can be psychologically traumatic. Beard can be absent from puberty, called as congenital absence of beard. Beard loss can be secondary to dermatological conditions such as nodulocystic acne. In our setting, the most common cause of loss of beard is burn injury. There are many treatment options such as surgical excision of scar, flaps Z/W plasty, and hair transplantation to reconstruct the beard. We present the follicular unit extraction (FUE) method of beard reconstruction.",
+            "journal": "International journal of trichology",
+            "year": "2021",
+            "authors": [
+              "Yaseen Ummer",
+              "Ahmed Shabir",
+              "Ahmed Muzaffar"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34934294/"
+          },
+          {
+            "pmid": "19275277",
+            "title": "Sertaconazole: a review of its use in the management of superficial mycoses in dermatology and gynaecology.",
+            "abstract": "Sertaconazole (Dermofix, Ertaczo, Ginedermofix, Monazol, Mykosert or Zalain), an imidazole antifungal agent, inhibits the synthesis of ergosterol, an essential cell wall component of fungi. It is indicated in the EU for the treatment of superficial skin mycoses such as dermatophytosis (including tinea corporis, tinea cruris, tinea manus, tinea barbae and tinea pedis), cutaneous candidiasis, pityriasis versicolor and seborrhoeic dermatitis of the scalp, and in the US for tinea pedis only. Sertaconazole has broad-spectrum antifungal activity against dermatophytes of the Trichophyton, Epidermophyton and Microsporum genera, and yeasts of the genera Candida and Cryptococcus; additionally, it is effective against opportunistic filamentous fungi and Gram-positive bacteria. Moreover, the antifungal activity of sertaconazole is maintained in clinical isolates of dermatophytes that show reduced susceptibility to other azoles. While the drug has good dermal penetration, this is not associated wit",
+            "journal": "Drugs",
+            "year": "2009",
+            "authors": [
+              "Croxtall Jamie D",
+              "Plosker Greg L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Randomized Controlled Trials as Topic",
+              "Suppositories",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19275277/"
+          },
+          {
+            "pmid": "34984089",
+            "title": "Beard and Moustache Reconstruction.",
+            "abstract": "Beard and moustache reconstruction has gained more popularity and acceptance over the last decade. The procedure is done for the correction of facial areas with hair density deficit and also for the cosmetic enhancement of pre-existing facial hair. The surgical technique includes the harvesting of grafts from the scalp by the follicular unit excision (FUE) or follicular unit transplantation (FUT) technique and then placing them in either premade slits or by stick and place method. The advancement and refinement of procedure over the years has aided in achieving the optimal aesthetic results, with minimal side effects.",
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "authors": [
+              "Dua Kapil",
+              "Verma Vandana",
+              "Dua Aman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34984089/"
+          },
+          {
+            "pmid": "38936998",
+            "title": "Facial Hair in Hair Restoration Surgery: Beard Transplantation and Beard-To-Scalp Hair Restoration.",
+            "abstract": "Restoration of the beard region has become an important component of hair restoration surgery due to increased awareness of its natural-appearing results. In the author's experience performing more than 700 primary beard hair transplants and tens of reparative procedures, key aesthetic steps include proper graft dissection so that one- and two-hair grafts contain a minimal cuff of surrounding skin, acute angulation and appropriate direction of recipient sites using the smallest possible recipient-site blades, and aesthetic design.",
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2024",
+            "authors": [
+              "Epstein Jeffrey S"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Hair",
+              "Alopecia",
+              "Esthetics",
+              "Scalp",
+              "Hair Follicle"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38936998/"
+          },
+          {
+            "pmid": "38106958",
+            "title": "Stress, a Brief Update.",
+            "abstract": "Stress is fundamental for health and adaptation; it is an evolutionarily conserved response that involves several systems in the organism. The study of the stress response could be traced back to the end of the nineteenth century with George Beard's or Claude Bernard's work and, from that moment on, several studies that have allowed the elucidation of its neurobiology and the consequences of suﬀering from it were consolidated. In this theoretical review, we discuss the most relevant researches to our knowledge on the study of stress response, from the concept of stress, its neurobiology, the hormonal response during stress, as well as its regulation, the eﬀects of acute and chronic stress, stress from cognition, the diﬀerent stress responses during life, as well as its relationship with diﬀerent psychiatric disorders. Taken together, the reviewed research updates the classic perspective on stress, increasing the factors that should be considered in research to explore the eﬀects of str",
+            "journal": "International journal of psychological research",
+            "year": "2023",
+            "authors": [
+              "Valencia-Florez Kenji Baruch",
+              "Sánchez-Castillo Hugo",
+              "Vázquez Priscila",
+              "Zarate Pavel",
+              "Paz Diana Berenice"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38106958/"
+          },
+          {
+            "pmid": "37510908",
+            "title": "Beard Alopecia: An Updated and Comprehensive Review of Etiologies, Presentation and Treatment.",
+            "abstract": "Facial hair is an important social and psychologic aspect of clinical appearance for men. The purpose of this review is to provide a comprehensive overview of the causes of alopecia of the beard including the prevalence, pathophysiology, clinical presentation, and treatment. In this review, we highlight more common causes of beard alopecia including alopecia areata and pseudofolliculitis barbae, infectious causes such as tinea barbae and herpes simplex folliculitis, and rare causes including dermatopathia pigmentosa reticularis and frontal fibrosing alopecia. This review serves as an important resource for clinicians when faced with patients suffering from beard alopecia.",
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "authors": [
+              "Kaiser Michael",
+              "Abdin Rama",
+              "Yaghi Marita",
+              "Gaumond Simonetta I",
+              "Jimenez Joaquin J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37510908/"
+          },
+          {
+            "pmid": "32473165",
+            "title": "Long-lived zebrafish Rohon-Beard cells.",
+            "abstract": "During normal development of the nervous system, extensive neuronal proliferation as well as death occurs. The extent of development death varies considerably between neuronal populations from little to almost 100%. Early born somatosensory neurons, known as Rohon-Beard cells, have served as an example of neurons that disappear during early developmental stages, presumably as their function is taken over by later developing dorsal root ganglion neurons. However, recent studies have raised questions about the extent to which zebrafish Rohon-Beard cells die during embryogenesis. While Rohon-Beard cells have distinguishing morphological features during embryonic stages development, they subsequently undergo substantial changes in their shape, size and position that hinder their unambiguous identification at later stages. To overcome this obstacle, we identify Rohon-Beard cells at one day, and using a combination of mosaic and stable transgenic labeling and repeated observation, follow the",
+            "journal": "Developmental biology",
+            "year": "2020",
+            "authors": [
+              "Williams Kristina",
+              "Ribera Angeles B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Embryo, Nonmammalian",
+              "Ganglia, Spinal",
+              "Longevity",
+              "Neurons",
+              "Somatosensory Cortex",
+              "Zebrafish"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32473165/"
+          },
+          {
+            "pmid": "17232589",
+            "title": "The Germ-Cells.",
+            "abstract": "",
+            "journal": "Journal of anatomy and physiology",
+            "year": "1903",
+            "authors": [
+              "Beard J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17232589/"
+          },
+          {
+            "pmid": "39492201",
+            "title": "Hair Restoration in the Ethnic Patient.",
+            "abstract": "Hair restoration surgery is a popular procedure among patients of all ethnic groups. Whether performing hair procedures to treat male and female pattern hair loss, or to restore eyebrows and beards, or to shorten overly high hairlines, the surgeon must consider differences in esthetic ideals, hair characteristics, and healing properties to achieve optimal results.",
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2022",
+            "authors": [
+              "Epstein Jeffrey S",
+              "Epstein Gorana Kuka",
+              "Abdul Al-Awady Abdurrahman"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39492201/"
+          },
+          {
+            "pmid": "40642854",
+            "title": "Beard Length and the Efficacy of an Aviator Oxygen Mask.",
+            "abstract": "Facial hair is prohibited for most airline pilots because of the widespread belief that the seal on oxygen masks might be rendered ineffective, preventing aircrew from performing their duties during emergencies.",
+            "journal": "Aerospace medicine and human performance",
+            "year": "2025",
+            "authors": [
+              "French John",
+              "Wagner Scott D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Oximetry",
+              "Adult",
+              "Male",
+              "Aerospace Medicine",
+              "Oxygen Saturation",
+              "Hypoxia",
+              "Masks",
+              "Young Adult",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40642854/"
+          },
+          {
+            "pmid": "32716531",
+            "title": "Clinical Issues-August 2020.",
+            "abstract": "Pneumatic tourniquet education and documentation Key words: pneumatic tourniquet, documentation, competency verification, tourniquet cuff. Creating a safe environment for surgical patients with latex allergies or sensitivities Key words: natural rubber latex, latex allergy, latex sensitivity, latex reaction, anaphylaxis. Covering patients' beards Key words: facial hair, surgical site infection (SSI), beard, sterile field. Informed consent requirements Key words: informed consent, witness, legal representative, signature. Promoting well-being through mindfulness Key words: conscious leadership, mindfulness, well-being, work environment, positive focus.",
+            "journal": "AORN journal",
+            "year": "2020",
+            "authors": [
+              "Anderson Mary Alice"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32716531/"
+          },
+          {
+            "pmid": "32541711",
+            "title": "Beards and masks.",
+            "abstract": "",
+            "journal": "British dental journal",
+            "year": "2020",
+            "authors": [
+              "Matharu K"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "COVID-19",
+              "Face",
+              "Hair",
+              "Humans",
+              "Masks"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32541711/"
+          },
+          {
+            "pmid": "37251589",
+            "title": "The role of recognition error in the stability of green-beard genes.",
+            "abstract": "The empirical examples of the green-beard genes, once a conundrum of evolutionary biology, are accumulating, while theoretical analyses of this topic are occasional compared to those concerning (narrow-sense) kin selection. In particular, the recognition error of the green-beard effect that the cooperator fails to accurately recognize the other cooperators or defectors is readily found in numerous green-beard genes. To our knowledge, however, no model up to date has taken that effect into account. In this article, we investigated the effect of recognition error on the fitness of the green-beard gene. By employing theories of evolutionary games, our mathematical model predicts that the fitness of the green-beard gene is frequency dependent (frequency of the green-beard gene), which was corroborated by experiments performed with yeast FLO1. The experiment also shows that the cells with the green-beard gene (FLO1) are sturdier under severe stress. We conclude that the low recognition erro",
+            "journal": "Evolution letters",
+            "year": "2023",
+            "authors": [
+              "Choi Jibeom",
+              "Lee Seoeun",
+              "Kim Hyun",
+              "Park Junpyo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37251589/"
+          },
+          {
+            "pmid": "26942473",
+            "title": "To Beard or Not to Beard? Bacterial Shedding Among Surgeons.",
+            "abstract": "Beards in the operating room are controversial because of their potential to retain and transmit pathogenic organisms. Many bearded orthopedic surgeons choose to wear nonsterile hoods in addition to surgical masks to decrease contamination of the operative field. The goal of this study was to determine whether nonsterile surgical hoods reduce the risk of bacterial shedding posed by beards. Bearded (n=10) and clean-shaven (n=10) subjects completed 3 sets of standardized facial motions, each lasting 90 seconds and performed over blood agar plates, while unmasked, masked, and masked and hooded. The plates were cultured for 48 hours under aerobic and anaerobic conditions. Colony-forming units (CFUs) were quantified, expanded, and identified. Overall, the addition of surgical hoods did not decrease the total number of anaerobic and aerobic CFUs isolated per subject, with a mean of 1.1 CFUs while hooded compared with 1.4 CFUs with the mask alone (P=.5). Unmasked subjects shed a mean of 6.5 C",
+            "journal": "Orthopedics",
+            "year": "2016",
+            "authors": [
+              "Parry Joshua Alan",
+              "Karau Melissa J",
+              "Aho Johnathon M",
+              "Taunton Michael",
+              "Patel Robin"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bacteria",
+              "Bacterial Shedding",
+              "Colony Count, Microbial",
+              "Face",
+              "Hair",
+              "Humans",
+              "Male",
+              "Operating Rooms",
+              "Surgeons"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26942473/"
+          },
+          {
+            "pmid": "27502503",
+            "title": "New Antifungal Agents and New Formulations Against Dermatophytes.",
+            "abstract": "A variety of oral and topical antifungal agents are available for the treatment of superficial fungal infections caused by dermatophytes. This review builds on the antifungal therapy update published in this journal for the first special issue on Dermatophytosis (Gupta and Cooper 2008;166:353-67). Since 2008, there have not been additions to the oral antifungal armamentarium, with terbinafine, itraconazole, and fluconazole still in widespread use, albeit for generally more severe or recalcitrant infections. Griseofulvin is used in the treatment of tinea capitis. Oral ketoconazole has fallen out of favor in many jurisdictions due to risks of hepatotoxicity. Topical antifungals, applied once or twice daily, are the primary treatment for tinea pedis, tinea corporis/tinea cruris, and mild cases of tinea unguium. Newer topical antifungal agents introduced include the azoles, efinaconazole, luliconazole, and sertaconazole, and the oxaborole, tavaborole. Research is focused on developing form",
+            "journal": "Mycopathologia",
+            "year": "2017",
+            "authors": [
+              "Gupta Aditya K",
+              "Foley Kelly A",
+              "Versteeg Sarah G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Arthrodermataceae",
+              "Drug Compounding",
+              "Humans",
+              "Tinea"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27502503/"
+          },
+          {
+            "pmid": "25426178",
+            "title": "Dengue fever: a Wikipedia clinical review.",
+            "abstract": "Dengue fever, also known as breakbone fever, is a mosquito-borne infectious tropical disease caused by the dengue virus. Symptoms include fever, headache, muscle and joint pains, and a characteristic skin rash that is similar to measles. In a small proportion of cases, the disease develops into life-threatening dengue hemorrhagic fever, which results in bleeding, thrombocytopenia, and leakage of blood plasma, or into dengue shock syndrome, in which dangerously low blood pressure occurs. Treatment of acute dengue fever is supportive, with either oral or intravenous rehydration for mild or moderate disease and use of intravenous fluids and blood transfusion for more severe cases. Along with attempts to eliminate the mosquito vector, work is ongoing to develop a vaccine and medications targeted directly at the virus.",
+            "journal": "Open medicine : a peer-reviewed, independent, open-access journal",
+            "year": "2014",
+            "authors": [
+              "Heilman James M",
+              "De Wolff Jacob",
+              "Beards Graham M",
+              "Basden Brian J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Dengue",
+              "Dengue Vaccines",
+              "Fluid Therapy",
+              "Humans",
+              "Insect Vectors",
+              "Mosquito Control"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25426178/"
+          },
+          {
+            "pmid": "34146585",
+            "title": "Quantitative analysis of mitochondrial ATP synthesis.",
+            "abstract": "We present a computational framework for analyzing and simulating mitochondrial ATP synthesis using basic thermodynamic and kinetic principles. The framework invokes detailed descriptions of the thermodynamic driving forces associated with the processes of the electron transport chain, mitochondrial ATP synthetase, and phosphate and adenine nucleotide transporters. Assembling models of these discrete processes into an integrated model of mitochondrial ATP synthesis, we illustrate how to analyze and simulate in vitro respirometry experiments and how models identified from in vitro experimental data effectively explain cardiac respiratory control in vivo. Computer codes for these analyses are embedded as Python scripts in a Jupyter Book to facilitate easy adoption and modification of the concepts developed here. This accessible framework may also prove useful in supporting educational applications. All source codes are available on at https://beards-lab.github.io/QAMAS_book/.",
+            "journal": "Mathematical biosciences",
+            "year": "2021",
+            "authors": [
+              "Randall E Benjamin",
+              "Hock Marcus",
+              "Lopez Rachel",
+              "Marzban Bahador",
+              "Marshall Collin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adenosine Triphosphate",
+              "Computer Simulation",
+              "Kinetics",
+              "Mitochondria",
+              "Models, Biological",
+              "Thermodynamics"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34146585/"
+          },
+          {
+            "pmid": "34984086",
+            "title": "Using Nonscalp Hair in Scalp Hair Restoration-Theory and Execution.",
+            "abstract": "Harvesting of beard and body hair follicles for transplantation can be an effective form of treatment for appropriate patients. These patients may have had prior scalp transplantation and require repair but do not have sufficient scalp donor follicles remaining. Other patients will have these hairs mixed with scalp hairs to produce a greater density of hair on the bald scalp. Follicular unit excision (FUE) is preferred for body and beard follicle harvesting. Not all body hair is suitable for transplantation. Only hairs that are similar in appearance and behavior to scalp hair are suitable for transplantation to the scalp. The best nonscalp sources are the beard and anterior torso. Hairs from other body sites may be used for transplantation to the eyebrows. The standard techniques of FUE harvesting and anesthesia must be modified from those used in scalp harvesting to be safe and effective. With proper patient selection and technique, a significant cosmetic benefit can be achieved from ",
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "authors": [
+              "True Robert H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34984086/"
+          },
+          {
+            "pmid": "38530738",
+            "title": "Multi-Label Conditional Generation From Pre-Trained Models.",
+            "abstract": "Although modern generative models achieve excellent quality in a variety of tasks, they often lack the essential ability to generate examples with requested properties, such as the age of the person in the photo or the weight of the generated molecule. To overcome these limitations we propose PluGeN (Plugin Generative Network), a simple yet effective generative technique that can be used as a plugin for pre-trained generative models. The idea behind our approach is to transform the entangled latent representation using a flow-based module into a multi-dimensional space where the values of each attribute are modeled as an independent one-dimensional distribution. In consequence, PluGeN can generate new samples with desired attributes as well as manipulate labeled attributes of existing examples. Due to the disentangling of the latent representation, we are even able to generate samples with rare or unseen combinations of attributes in the dataset, such as a young person with gray hair, ",
+            "journal": "IEEE transactions on pattern analysis and machine intelligence",
+            "year": "2024",
+            "authors": [
+              "Proszewska Magdalena",
+              "Wolczyk Maciej",
+              "Zieba Maciej",
+              "Wielopolski Patryk",
+              "Maziarka Lukasz"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38530738/"
+          },
+          {
+            "pmid": "36487685",
+            "title": "Beards.",
+            "abstract": "",
+            "journal": "Hall's journal of health",
+            "year": "1874",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36487685/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pityriasis versicolor",
+        "txgnn_score": 0.994526207447052,
+        "txgnn_rank": 6893,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "19275277",
+            "title": "Sertaconazole: a review of its use in the management of superficial mycoses in dermatology and gynaecology.",
+            "abstract": "Sertaconazole (Dermofix, Ertaczo, Ginedermofix, Monazol, Mykosert or Zalain), an imidazole antifungal agent, inhibits the synthesis of ergosterol, an essential cell wall component of fungi. It is indicated in the EU for the treatment of superficial skin mycoses such as dermatophytosis (including tinea corporis, tinea cruris, tinea manus, tinea barbae and tinea pedis), cutaneous candidiasis, pityriasis versicolor and seborrhoeic dermatitis of the scalp, and in the US for tinea pedis only. Sertaconazole has broad-spectrum antifungal activity against dermatophytes of the Trichophyton, Epidermophyton and Microsporum genera, and yeasts of the genera Candida and Cryptococcus; additionally, it is effective against opportunistic filamentous fungi and Gram-positive bacteria. Moreover, the antifungal activity of sertaconazole is maintained in clinical isolates of dermatophytes that show reduced susceptibility to other azoles. While the drug has good dermal penetration, this is not associated wit",
+            "journal": "Drugs",
+            "year": "2009",
+            "authors": [
+              "Croxtall Jamie D",
+              "Plosker Greg L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candidiasis, Vulvovaginal",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Randomized Controlled Trials as Topic",
+              "Suppositories",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19275277/"
+          },
+          {
+            "pmid": "1627203",
+            "title": "Therapeutic efficacy and safety of the new antimycotic sertaconazole in the treatment of Pityriasis versicolor.",
+            "abstract": "The activity of 7-chloro-3-[1-(2,4-dichlorophenyl)-2-(1H-imidazol-1-yl) ethoxy-methyl]benzo[b]thiophene (sertaconazole, FI-7045, CAS 99592-32,2) was studied in a randomized parallel double-blind clinical trial on 21 patients suffering from Pityriasis versicolor (confirmed by KOH microscopic examination and exploration with Wood's light). The patients were divided into two treatment groups: one with 11 patients receiving sertaconazole 1% cream and the other with 10 patients receiving sertaconazole 2% cream. The cream was applied twice a day during 4 weeks. The data were assessed clinically and microscopically (optical and fluorescence). All the patients were cured (100% cure), showing excellent efficacy. A check-up performed after the end of the treatment showed no relapses of infection. The drug safety was optimum, since no local or general undesirable effects were recorded, nor were there any changes in the analytical parameters studied in the 21 patients. Because of its high antifung",
+            "journal": "Arzneimittel-Forschung",
+            "year": "1992",
+            "authors": [
+              "Nasarre J",
+              "Umbert P",
+              "Herrero E",
+              "Roset P",
+              "Márquez M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antifungal Agents",
+              "Double-Blind Method",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male",
+              "Middle Aged",
+              "Skin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1627203/"
+          },
+          {
+            "pmid": "15954850",
+            "title": "Sertaconazole: updated review of a topical antifungal agent.",
+            "abstract": "Sertaconazole is an imidazole-type antifungal agent that has shown considerable in vitro activity against pathogenic fungi. Various studies carried out in animal models, clinical and toxicologic trials have confirmed the value of sertaconazole in the topical treatment of superficial mycoses in dermatology and gynecology. After several years of clinical experience in the topical treatment of dermatophytosis and Tinea versicolor, the substance has been approved for gynecologic candidiasis in Europe. Sertaconazole has a wide action spectrum that includes yeasts and dermatophyte fungi, and it is also active against bacteria, mainly Gram-positive cocci, making it highly efficient in the treatment of polymicrobial infections. The recent approval of the molecule by the US Food and Drug Administration, and the appearance of a new formulation of sertaconazole for the treatment of onychomycoses on a weekly administrative basis, are all data relevant to the process of marketing the product.",
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2005",
+            "authors": [
+              "Carrillo-Muñoz Alfonso J",
+              "Giusiano Gustavo",
+              "Ezkurra Pilar Ariadna",
+              "Quindós Guillermo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antifungal Agents",
+              "Humans",
+              "Imidazoles",
+              "Mycoses",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15954850/"
+          },
+          {
+            "pmid": "23546772",
+            "title": "The efficacy and safety of sertaconazole cream (2 %) in diaper dermatitis candidiasis.",
+            "abstract": "Diaper dermatitis (DD) is an inflammatory irritating condition that is common in infants. Most cases are associated with the yeast colonization of Candida or diaper dermatitis candidiasis (DDC), and therefore, the signs and symptoms improve with antimycotic treatment. Sertaconazole is a broad-spectrum third-generation imidazole derivative that is effective and safe for the treatment for superficial mycoses, such as tineas, candidiasis, and pityriasis versicolor. Our goal was to assess the efficacy and safety of sertaconazole cream (2 %) in DDC.",
+            "journal": "Mycopathologia",
+            "year": "2013",
+            "authors": [
+              "Bonifaz Alexandro",
+              "Tirado-Sánchez Andrés",
+              "Graniel María José",
+              "Mena Carlos",
+              "Valencia Adriana"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Topical",
+              "Antifungal Agents",
+              "Candida",
+              "Candidiasis",
+              "Diaper Rash",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23546772/"
+          },
+          {
+            "pmid": "25968082",
+            "title": "[Cutaneous Malassezia infections and Malassezia associated dermatoses: An update].",
+            "abstract": "The lipophilic yeast fungus Malassezia (M.) spp. is the only fungal genus or species which is part of the physiological human microbiome. Today, at least 14 different Malassezia species are known; most of them can only be identified using molecular biological techniques. As a facultative pathogenic microorganism, Malassezia represents the causative agent both of superficial cutaneous infections and of blood stream infections. Pityriasis versicolor is the probably most frequent infection caused by Malassezia. Less common, Malassezia folliculitis occurs. There is only an episodic report on Malassezia-induced onychomycosis. Seborrhoeic dermatitis represents a Malassezia-associated inflammatory dermatosis. In addition, Malassezia allergenes should be considered as the trigger of \"Head-Neck\"-type atopic dermatitis. Ketoconazole possesses the strongest in vitro activity against Malassezia, and represents the treatment of choice for topical therapy of pityriasis versicolor. Alternatives inclu",
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2015",
+            "authors": [
+              "Nenoff P",
+              "Krüger C",
+              "Mayser P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antifungal Agents",
+              "Dermatitis, Atopic",
+              "Dermatitis, Seborrheic",
+              "Itraconazole",
+              "Ketoconazole",
+              "Malassezia",
+              "Tinea Versicolor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25968082/"
+          },
+          {
+            "pmid": "26135513",
+            "title": "Could nanovesicles containing a penetration enhancer clinically improve the therapeutic outcome in skin fungal diseases?",
+            "abstract": "To study whether the formulation of an antifungal drug in nanovesicular form containing skin penetration enhancer would clinically modulate its therapeutic effectiveness.",
+            "journal": "Nanomedicine (London, England)",
+            "year": "2015",
+            "authors": [
+              "Bsieso Eman A",
+              "Nasr Maha",
+              "Moftah Noha H",
+              "Sammour Omaima A",
+              "Abd El Gawad Nabaweya A"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Animals",
+              "Antifungal Agents",
+              "Child",
+              "Dermatomycoses",
+              "Female",
+              "Humans",
+              "Imidazoles",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26135513/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tinea profunda",
+        "txgnn_score": 0.993669092655182,
+        "txgnn_rank": 7659,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01153",
+    "name": "Sertaconazole",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sertaconazole"
+      },
+      "queried_at": "2026-03-09T10:46:53.367626",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sertaconazole"
+      },
+      "queried_at": "2026-03-09T10:46:55.341178",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "dermatophytosis of groin and perianal area"
+      },
+      "queried_at": "2026-03-09T10:46:56.196790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "dermatophytosis of groin and perianal area"
+      },
+      "queried_at": "2026-03-09T10:46:59.227647",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "dermatophytosis of groin and perianal area"
+      },
+      "queried_at": "2026-03-09T10:47:00.321999",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "tinea corporis"
+      },
+      "queried_at": "2026-03-09T10:47:01.192586",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "tinea corporis"
+      },
+      "queried_at": "2026-03-09T10:47:05.575617",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "tinea corporis"
+      },
+      "queried_at": "2026-03-09T10:47:08.873821",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-09T10:47:10.756365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-09T10:47:14.728277",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "cutaneous candidiasis"
+      },
+      "queried_at": "2026-03-09T10:47:16.603545",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T10:47:17.179500",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T10:47:21.825659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "Majocchi granuloma"
+      },
+      "queried_at": "2026-03-09T10:47:22.712674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T10:47:23.206187",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T10:47:27.740338",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T10:47:29.138028",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T10:47:30.202621",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T10:47:33.709403",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "endothrix infectious disease"
+      },
+      "queried_at": "2026-03-09T10:47:35.093741",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T10:47:36.380402",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T10:47:40.334917",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "superficial mycosis"
+      },
+      "queried_at": "2026-03-09T10:47:44.882318",
+      "status": "success",
+      "result_count": 13,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "queried_at": "2026-03-09T10:47:45.766537",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "queried_at": "2026-03-09T10:47:49.765320",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "queried_at": "2026-03-09T10:47:53.903060",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "pityriasis versicolor"
+      },
+      "queried_at": "2026-03-09T10:47:54.411487",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "pityriasis versicolor"
+      },
+      "queried_at": "2026-03-09T10:47:57.281091",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "pityriasis versicolor"
+      },
+      "queried_at": "2026-03-09T10:47:59.242117",
+      "status": "success",
+      "result_count": 6,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T10:47:59.730635",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T10:48:03.231522",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sertaconazole",
+        "disease": "tinea profunda"
+      },
+      "queried_at": "2026-03-09T10:48:04.089442",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T10:48:04.090640"
+  }
+}

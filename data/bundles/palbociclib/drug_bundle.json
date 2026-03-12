@@ -1,0 +1,2037 @@
+{
+  "drug": {
+    "inn": "Palbociclib",
+    "drugbank_id": "DB09073",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "hyperthyroidism",
+        "txgnn_score": 0.994446873664856,
+        "txgnn_rank": 6962,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rheumatoid arthritis",
+        "txgnn_score": 0.993599772453308,
+        "txgnn_rank": 7732,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "33587021",
+            "title": "Amelioration of rheumatoid arthritis in a breast cancer patient treated with palbociclib: a case report.",
+            "abstract": "Rheumatoid arthritis is a common autoimmune disease that requires new therapeutic agents. Cyclin-dependent kinase 4/6 inhibitors have recently been approved for metastatic breast cancer patients and have also been reported to improve the arthritis score in collagen-induced arthritis mouse models. We report a 56-year-old woman who had previously been diagnosed with rheumatoid arthritis and treated with methotrexate. At age 40, she underwent surgery with curative intent for breast cancer but subsequently developed lung metastases. Palbociclib, a cyclin-dependent kinase 4/6 inhibitor, was administered in combination with fulvestrant (anti-oestrogen drug) for metastatic breast cancer. One month later, serum matrix metalloproteinase-3 and C-reactive protein levels were markedly decreased, and her rheumatoid arthritis symptoms, which had worsened just prior to the detection of metastatic lung disease, showed amelioration. Methotrexate, which had been used to treat her rheumatoid arthritis, c",
+            "journal": "Modern rheumatology case reports",
+            "year": "2021",
+            "authors": [
+              "Murakami Fumi",
+              "Horimoto Yoshiya",
+              "Shimizu Hideo",
+              "Tada Kurisu",
+              "Yamaji Ken"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Arthritis, Rheumatoid",
+              "Breast Neoplasms",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Piperazines",
+              "Protein Kinase Inhibitors",
+              "Pyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33587021/"
+          },
+          {
+            "pmid": "39940918",
+            "title": "CDK6-Dependent, CDK4-Independent Synovial Hyperplasia in Arthritic Mice and Tumor Necrosis Factor-α-Induced Proliferation of Synovial Fibroblasts.",
+            "abstract": "Palbociclib, a dual CDK4/6 kinase inhibitor used for breast cancer, has been explored as a treatment option for rheumatoid arthritis (RA). Preclinical studies have reported palbociclib-induced myelosuppression, but no such effects have been observed in Cdk4 or Cdk6 single-deficient mice. Synoviocyte proliferation-associated in collagen-induced arthritis 1/serum amyloid A-like 1 (SPACIA1/SAAL1) is involved in G1 phase progression. Given that SPACIA1/SAAL1 upregulates CDK6 (but not CDK4) expression, we aimed to determine whether suppressing CDK6 expression alone could prevent synovial hyperplasia without myelosuppression. The effects of CDK6 expression on TNF-α-induced rheumatoid arthritis synovial fibroblast (RASF) proliferation and synovial hyperplasia in collagen-induced arthritis (CIA) mice were investigated by modulating the transcriptional level with a CDK6 expression inhibitor (indole-3-carbinol), CDK6 small interfering RNA (siRNA), and Cdk6-deficient mice. Indole-3-carbinol or CD",
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "authors": [
+              "Komatsu Rie",
+              "Fujii Ryoji",
+              "Ogasawara Toru",
+              "Suzuki-Takahashi Yuki",
+              "Chen Sandy"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cyclin-Dependent Kinase 6",
+              "Cyclin-Dependent Kinase 4",
+              "Tumor Necrosis Factor-alpha",
+              "Mice",
+              "Cell Proliferation",
+              "Fibroblasts",
+              "Arthritis, Experimental",
+              "Hyperplasia",
+              "Synovial Membrane"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39940918/"
+          },
+          {
+            "pmid": "40504547",
+            "title": "Pre-existing and emerging immune-mediated diseases in patients with breast cancer undergoing cyclin-dependent kinases 4/6 inhibitors and endocrine therapy.",
+            "abstract": "CDK4/6 inhibitors (CDK4/6i) are cornerstone therapies in Hormone Receptor Positive (HR+)/Human Epidermal Growth Factor Receptor 2 Negative (HER2-) Breast Cancer (BC) and emerging evidence suggests that they may influence immune function, potentially enhancing antitumor immunity but also triggering autoimmune reactions. This study aims to investigate the prevalence of autoimmune diseases (AD) in patients with HR+/HER2- BC to identify potential predictive biomarkers and to assess the impact of AD on disease progression.",
+            "journal": "The oncologist",
+            "year": "2025",
+            "authors": [
+              "Jacobs Flavia",
+              "Gaudio Mariangela",
+              "Andreottola Chiara",
+              "Borroni Riccardo",
+              "Benvenuti Chiara"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Breast Neoplasms",
+              "Female",
+              "Middle Aged",
+              "Cyclin-Dependent Kinase 6",
+              "Cyclin-Dependent Kinase 4",
+              "Protein Kinase Inhibitors",
+              "Retrospective Studies",
+              "Adult",
+              "Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40504547/"
+          },
+          {
+            "pmid": "25165034",
+            "title": "Cell cycle regulation therapy combined with cytokine blockade enhances antiarthritic effects without increasing immune suppression.",
+            "abstract": "Biological disease-modifying antirheumatic drugs (DMARDs) that inhibit aberrant immune reactions in rheumatoid arthritis (RA) cannot induce complete remission in all patients. Combination therapies using two biological DMARDs have failed to exert additive effects and increased serious infections. We have found that cell cycle inhibition of synovial fibroblasts with cyclin-dependent kinase (CDK) inhibitors ameliorated the disease in animal models of RA without attenuating acquired immunity. The objective of this study was to determine whether a clinically well-tolerated selective CDK 4/6 inhibitor (CDKI), palbociclib, is effective and whether combination with cytokine blockers acts additively without enhancing immune suppression.",
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2016",
+            "authors": [
+              "Hosoya Tadashi",
+              "Iwai Hideyuki",
+              "Yamaguchi Yu",
+              "Kawahata Kimito",
+              "Miyasaka Nobuyuki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Antibody Formation",
+              "Antirheumatic Agents",
+              "Arthritis, Experimental",
+              "Arthritis, Rheumatoid",
+              "Biological Products",
+              "Dose-Response Relationship, Drug",
+              "Drug Evaluation, Preclinical",
+              "Drug Therapy, Combination"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25165034/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombotic disease",
+        "txgnn_score": 0.9932125806808472,
+        "txgnn_rank": 8065,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05468697",
+            "title": "A Multicenter, Open-label, Randomized, Phase 1/2 Study of Belzutifan in Combination With Palbociclib Versus Belzutifan Monotherapy in Participants With Advanced Renal Cell Carcinoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-08-10",
+            "completion_date": "2026-07-21",
+            "country": "Australia, Israel, United States",
+            "enrollment": 60,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of belzutifan monotherapy and belzutifan plus palbociclib combination therapy in participants with advanced clear-cell renal cell carcinoma (ccRCC) who experienced disease progression on or after receiving prior therapy. The study will establish the safety of belzutifan plus palbociclib and determine a recommended dosage of palbociclib for the combination therapy by ascending dose escalation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Has a histologically confirmed diagnosis of unresectable Stage IV (per American Joint Committee on Cancer \\[AJCC\\], 8th Edition) RCC with clear-cell component\n* Has had disease progression on or after having received at least 2 systemic treatments for unresectable Stage IV RCC",
+            "endpoints": [
+              "Number of Participants Who Experience at Least One Dose-limiting Toxicity (DLT)",
+              "Number of Participants Who Experience at Least One Adverse Event (AE)",
+              "Number of Participants Who Discontinue Study Treatment Due to an AE"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT05468697"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05371275",
+            "title": "Phase II Safety Single-arm Study of CDK4/6 Inhibition With Palbociclib in Hospitalized, Moderate COVID-19 Cases to Prevent Thromboinflammation",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2022-04-21",
+            "completion_date": "2022-12",
+            "country": "Germany",
+            "enrollment": 0,
+            "brief_summary": "This is a one-site, interventional, prospective, single-arm, open-label, controlled phase-IIa trial evaluating the safety and efficacy of palbociclib in hospitalized, moderate COVID- 19 cases.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. age \\>= 18 years\n2. positive PCR COVID-19 test (max. 72h old)\n3. known vaccination status\n4. ANC \\>= 1,000/mm3 and platelets \\>= 50,000/mm3\n5. willingness to participate (written informed consent)\n6. established risk factors for a severe course of COVID-19-disease, for exampl",
+            "endpoints": [
+              "Rate of treatment-related treatment discontinuation after 21 days of palbociclib treatment"
+            ],
+            "sponsor": "biotx.ai GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT05371275"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37994878",
+            "title": "Interstitial lung disease and CDK4/6 inhibitors in the treatment of breast cancer.",
+            "abstract": "CDK4/6 inhibitors have changed the treatment paradigm of many patients living with metastatic and early-stage high-risk hormone receptor (HR)-positive breast cancer. Even though patients and clinicians are aware and learning how to manage common adverse events, such as bone marrow suppression and gastrointestinal toxicities, there are less common and potentially severe adverse events, such as interstitial lung disease (ILD), that require special consideration.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2023",
+            "authors": [
+              "Schlam Ilana",
+              "Giordano Antonio",
+              "Tolaney Sara M"
+            ],
+            "pub_types": [
+              "Review",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Breast Neoplasms",
+              "Protein Kinase Inhibitors",
+              "Drug Interactions",
+              "Lung Diseases, Interstitial",
+              "Aminopyridines",
+              "Cyclin-Dependent Kinase 4"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37994878/"
+          },
+          {
+            "pmid": "39123221",
+            "title": "Comparative analysis of adverse events associated with CDK4/6 inhibitors based on FDA's adverse event reporting system: a case control pharmacovigilance study.",
+            "abstract": "Cyclin-dependent kinase 4/6 (CDK4/6) inhibitors marked a milestone in the breast cancer treatment. Due to the potential impact of adverse effects on treatment decisions and patient outcomes, careful consideration of the varying toxicities of CDK4/6 inhibitors is crucial, as three inhibitors-palbociclib, abemaciclib, and ribociclib-have been approved with differences in adverse event profiles. However, limitations in clinical trials call for urgent real-world safety studies to evaluate and compare the risk of adverse events (AEs) among these CDK4/6 inhibitors. Therefore, this study aimed to analyze AEs of CDK4/6 inhibitors and provide insights for clinical drug selection, using real world database.",
+            "journal": "BMC pharmacology & toxicology",
+            "year": "2024",
+            "authors": [
+              "Lin Wanlong",
+              "Zeng Yanbin",
+              "Weng Lizhu",
+              "Yang Jianhui",
+              "Zhuang Wei"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Comparative Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Adverse Drug Reaction Reporting Systems",
+              "Aminopyridines",
+              "Antineoplastic Agents",
+              "Benzimidazoles",
+              "Case-Control Studies",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Pharmacovigilance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39123221/"
+          },
+          {
+            "pmid": "39302147",
+            "title": "Double-stranded DNA enhances platelet activation, thrombosis, and myocardial injury via cyclic GMP-AMP synthase.",
+            "abstract": "Elevated dsDNA levels in ST-elevated myocardial infarction (STEMI) patients are associated with increased infarct size and worse clinical outcomes. However, the direct effect of dsDNA on platelet activation remains unclear. This study aims to investigate the direct influence of dsDNA on platelet activation, thrombosis, and the underlying mechanisms.",
+            "journal": "Cardiovascular research",
+            "year": "2025",
+            "authors": [
+              "Zhang Wei",
+              "Zhang Yan",
+              "Han Liping",
+              "Bo Tao",
+              "Qi Zhiyong"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Nucleotidyltransferases",
+              "NLR Family, Pyrin Domain-Containing 3 Protein",
+              "Humans",
+              "Platelet Activation",
+              "Blood Platelets",
+              "DNA",
+              "Membrane Proteins",
+              "Signal Transduction",
+              "ST Elevation Myocardial Infarction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39302147/"
+          },
+          {
+            "pmid": "39083396",
+            "title": "A disproportionality analysis of CDK4/6 inhibitors in the FDA Adverse Event Reporting System (FAERS).",
+            "abstract": "The FDA Adverse Event Reporting System (FAERS) was used to mine and evaluate adverse events (AEs) associated with cyclin-dependent kinase (CDK) 4/6 inhibitors, thereby providing a reference for clinical rational drug use.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2025",
+            "authors": [
+              "Peng Yuan",
+              "Zhou Yuying",
+              "Zhou Xuanyi",
+              "Jia Xu",
+              "Zhong Yan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adverse Drug Reaction Reporting Systems",
+              "Humans",
+              "United States Food and Drug Administration",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "United States",
+              "Protein Kinase Inhibitors",
+              "Piperazines",
+              "Antineoplastic Agents",
+              "Pyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39083396/"
+          },
+          {
+            "pmid": "41496429",
+            "title": "Age-stratified toxicity patterns of CDK4/6 inhibitors in older women with breast cancer: Disproportionality analysis from the FAERS database.",
+            "abstract": "Despite their benefits, the safety of cyclin-dependent kinases 4 and 6 (CDK4/6) inhibitors in older patients remains underexplored. We aimed to investigate the toxicities associated with CDK4/6 inhibitors in subgroups of older patients, through analysis of the FAERS database.",
+            "journal": "Breast (Edinburgh, Scotland)",
+            "year": "2026",
+            "authors": [
+              "Köylü Bahadır",
+              "Esen Buğra Han",
+              "Kıkılı Cevat İlteriş",
+              "Kemik Fatih",
+              "Demir Nazan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Breast Neoplasms",
+              "Aged",
+              "Aminopyridines",
+              "Purines",
+              "Cyclin-Dependent Kinase 4",
+              "Middle Aged",
+              "Retrospective Studies",
+              "Cyclin-Dependent Kinase 6"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41496429/"
+          },
+          {
+            "pmid": "36794339",
+            "title": "Thromboembolism profiles associated with cyclin-dependent kinase 4/6 inhibitors: a real-world pharmacovigilance study and a systematic review.",
+            "abstract": "Thrombosis is the second leading cause of mortality in cancer patients. This study aimed to investigate the association between cyclin-dependent kinase 4 and 6 inhibitors (CDK4/6i) and thrombosis.",
+            "journal": "Expert opinion on drug safety",
+            "year": "2023",
+            "authors": [
+              "Gao Siyuan",
+              "Li Yu",
+              "He Zhichao",
+              "Zhu Jianhong",
+              "Liang Dan"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Meta-Analysis",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Cyclin-Dependent Kinase 4",
+              "Venous Thromboembolism",
+              "Pharmacovigilance",
+              "Retrospective Studies",
+              "Aminopyridines",
+              "Thrombosis",
+              "Protein Kinase Inhibitors",
+              "Breast Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36794339/"
+          },
+          {
+            "pmid": "35300061",
+            "title": "Thromboembolic Events in Patients with HER2-Negative, Hormone Receptor-Positive, Metastatic Breast Cancer Treated with Ribociclib Combined with Letrozole or Fulvestrant: A Real-World Data.",
+            "abstract": "Cyclin dependent kinase (CDK) 4/6 inhibitors (palbociclib, ribociclib and abemaciclib) modulate endocrine resistance and are integral treatment for patients with advanced hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative breast cancer. Since their approval, CDK4/6 inhibitors are widely used in clinical practice. Thromboembolic events (TEE) were not a major issue in patients treated on clinical trials utilizing these agents. However, conflicting data started to emerge describing higher than expected rates of both arterial and venous thrombosis in patients treated with CDK4/6 inhibitors. In this study, we report our experience on TEE in patients treated with one of these agents (ribociclib) in real-world settings.",
+            "journal": "Cancer management and research",
+            "year": "2022",
+            "authors": [
+              "Abdel-Razeq Hikmat",
+              "Sharaf Baha'",
+              "AlMasri Rama",
+              "Abdel-Razeq Rashid",
+              "Tamimi Faris"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35300061/"
+          },
+          {
+            "pmid": "27098250",
+            "title": "Enhanced Megakaryopoiesis and Platelet Activity in Hypercholesterolemic, B6-Ldlr-/-, Cdkn2a-Deficient Mice.",
+            "abstract": "Genome-wide association studies for coronary artery disease/myocardial infarction revealed a 58 kb risk locus on 9p21.3. Refined genetic analyses revealed unique haplotype blocks conferring susceptibility to atherosclerosis per se versus risk for acute complications in the presence of underlying coronary artery disease. The cell proliferation inhibitor locus, CDKN2A, maps just upstream of the myocardial infarction risk block, is at least partly regulated by the noncoding RNA, ANRIL, overlapping the risk block, and has been associated with platelet counts in humans. Thus, we tested the hypothesis that CDKN2A deficiency predisposes to increased platelet production, leading to increased platelet activation in the setting of hypercholesterolemia.",
+            "journal": "Circulation. Cardiovascular genetics",
+            "year": "2016",
+            "authors": [
+              "Wang Wei",
+              "Oh Seon",
+              "Koester Mark",
+              "Abramowicz Sandra",
+              "Wang Nan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antithrombin III",
+              "Atherosclerosis",
+              "Blood Platelets",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Cyclin-Dependent Kinase Inhibitor p15",
+              "Cyclin-Dependent Kinase Inhibitor p16",
+              "Cyclin-Dependent Kinase Inhibitor p18",
+              "Disease Models, Animal"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27098250/"
+          },
+          {
+            "pmid": "38390439",
+            "title": "Cerebral venous sinus thrombosis in a patient treated with ribociclib for metastatic breast cancer. Case reports and literature review.",
+            "abstract": "Breast cancer is the most diagnosed cancer among women worldwide. Cyclin dependent kinase 4/6 inhibitors (ribociclib, palbociclib, and abemaciclib) modulate endocrine resistance and are widely used treatment for patients with advanced-stage hormone receptor-positive, human epidermal growth factor receptor 2-negative breast cancer. Reports of both venous and arterial thromboembolic events, as a complication of cyclin dependent kinase 4/6 inhibitors, are increasingly recognized, but none involved cerebral venous sinus. We herein report on a 44-year-old female patient who initially presented with an early-stage breast cancer treated with surgery, chemotherapy, radiation therapy and finished 5 years of tamoxifen uneventfully. Eight years after her initial diagnosis, she relapsed with a solitary brain lesion which was resected and treated with radiation therapy, and was then started on aromatase inhibitors. Few months later, she progressed with biopsy-proven cervical and mediastinal lymph n",
+            "journal": "SAGE open medical case reports",
+            "year": "2024",
+            "authors": [
+              "Sharaf Baha",
+              "Othman Zeina",
+              "Abu Faris Hala",
+              "Al-Bitar Malak",
+              "Al-Zoubi Qasem"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38390439/"
+          },
+          {
+            "pmid": "40623899",
+            "title": "[Chinese guidance for the clinical application of Adeno-associated virus vector-based gene therapy for hemophilia B (2025)].",
+            "abstract": "The mainstay of treatment for hemophilia B is Factor Ⅸ or non-factor drug therapy; however, as the disease is incurable, lifelong treatment is required. In recent years, gene therapy for hemophilia B has advanced significantly, with three adeno-associated virus (AAV) vector-based gene therapy products receiving market authorization globally. Among these, Palbociclib was recently approved in China. AAV vector gene therapy is characterized by its irreversible post-treatment effects and potential for long-term efficacy; however, suboptimal efficacy or loss of efficacy has been observed in some cases during early clinical trials. Eligibility for AAV vector gene therapy primarily depends on several factors, including patient diagnostic subtype, age, inhibitor status, AAV capsid antibody titer, and the preferences of the patient and/or their family. Given that AAV vector-based gene therapy for hemophilia has become an accessible frontier treatment, the Thrombosis and Hemostasis Group of the ",
+            "journal": "Zhonghua xue ye xue za zhi = Zhonghua xueyexue zazhi",
+            "year": "2025",
+            "authors": [],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Genetic Therapy",
+              "Hemophilia B",
+              "Dependovirus",
+              "Genetic Vectors",
+              "China"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40623899/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+        "txgnn_score": 0.992980420589447,
+        "txgnn_rank": 8250,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.9899555444717408,
+        "txgnn_rank": 10558,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.989412009716034,
+        "txgnn_rank": 10959,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05627232",
+            "title": "A Two-Part Phase 1b Study Evaluating the Combination of Tazemetostat and CPX-351 (Part 1) and Palbociclib Pre-Treatment Followed by CPX-351 (Part 2) for the Treatment of Relapsed or Refractory Acute Myeloid Leukemia",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2023-08-28",
+            "completion_date": "2029-01",
+            "country": "United States",
+            "enrollment": 24,
+            "brief_summary": "This is a two-part phase Ib dose escalation study to evaluate the safety and preliminary efficacy of the combination of tazemetostat and CPX-351 following pre-treatment with palbociclib for patients with relapsed or refractory (R/R) acute myeloid leukemia (AML). Part 1 of the study will seek to establish the safety, tolerability, biological activity and recommended Part 2 dose of tazemetostat in combination with standard-dose CPX-351. Once the recommended Part 2 dose is established, the study wi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Provide signed and dated informed consent form\n* Willing to comply with all study procedures and be available for the duration of the study\n* Male or female \\>= 18 years of age\n* Histologically confirmed acute myeloid leukemia (non-M3) relapsed from or refractory to at least 1",
+            "endpoints": [
+              "Incidence of grade >= 3 non-hematologic dose limiting toxicities"
+            ],
+            "sponsor": "Thomas Jefferson University",
+            "url": "https://clinicaltrials.gov/study/NCT05627232"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03132454",
+            "title": "Phase I Study of Palbociclib Alone and in Combination in Patients With Relapsed and Refractory Leukemias",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-07-25",
+            "completion_date": "2027-12-31",
+            "country": "United States",
+            "enrollment": 32,
+            "brief_summary": "This phase I trial studies the side effects and best dose of palbociclib when given alone and in combination with sorafenib, decitabine, or dexamethasone in treating patients with leukemia that has come back (recurrent) or that does not respond to previous treatment (refractory). Palbociclib, sorafenib, and decitabine may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as dexamethasone, work in different ways to stop the gro",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Participants with a diagnosis of histologically confirmed relapsed or refractory (R/R) acute myeloid leukemia or R/R acute lymphoblastic leukemia for which no available standard therapies are indicated or anticipated to result in a durable response.\n2. Only participants with ",
+            "endpoints": [
+              "Maximum tolerated dose (MTD) as determined by dose limiting toxicity (DLT)"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03132454"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02310243",
+            "title": "Phase Ib/IIa Study of Palbociclib in MLL-rearranged Acute Leukemias AMLSG 23-14/Palbo-AL-1",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2015-07",
+            "completion_date": "2019-07",
+            "country": "Germany",
+            "enrollment": 50,
+            "brief_summary": "Diagnosis: Acute myeloid leukemia; Acute lymphoblastic leukemia Age ≥ 18 years, no upper age limit Study drug: Palbociclib Phase Ib/IIa, open-label\n\n* Phase Ib: Based on previous experience with 125 mg palbociclib once daily for 21 days followed by 7 days of rest in patients with breast cancer, liposarcoma, non-small cell lung cancer, hepatocellular carcinoma, ovarian cancer, mantle-cell lymphoma, and glioblastoma, this regimen will be chosen for the first dose to be evaluated in the phase Ib. B",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with confirmed diagnosis of acute leukemia with MLL rearrangement according to the 2008 WHO Classification\n* Patients with MLL-rearranged leukemia who are refractory to standard induction therapy and not immediate candidates for allogeneic HSCT (bridge to transplant i",
+            "endpoints": [
+              "Number of Participants with Adverse Events",
+              "Maximum tolerated dose of palbociclib",
+              "overall response rate"
+            ],
+            "sponsor": "University of Ulm",
+            "url": "https://clinicaltrials.gov/study/NCT02310243"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03844997",
+            "title": "Phase I/II Trial of CPX-351 + Palbociclib in Patients With Acute Myeloid Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2019-06-06",
+            "completion_date": "2024-01-24",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "The purpose of this study is to evaluate the safety and tolerability of Palbociclib in combination with investigational (experimental) drug, CPX-351 and evaluate the efficacy of Palbociclib in combination with chemotherapy as measured by overall response rate (ORR), i.e. complete response (CR) and CR with incomplete blood count recovery (CRi) by 2003 IWG criteria.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Newly diagnosed acute myeloid leukemia according to 2016 WHO criteria(excluding APL \\[AML-M3\\]).\n* Eastern Cooperative Oncology Group (ECOG) Performance Status \\<2\n* Subjects must have normal organ function as defined below:\n* Total bilirubin \\<2 times upper limit of normal ((",
+            "endpoints": [
+              "Safety and Tolerability of Experimental Dose of Palbociclibin Combination With CPX-351 as Measured by Number of Participants With Dose Limiting Toxicities.",
+              "Efficacy of Palbociclibin Combination With Chemotherapy as Measured by Overall Response Rate (ORR)."
+            ],
+            "sponsor": "Case Comprehensive Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03844997"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03878524",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: PRIME",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2020-04-01",
+            "completion_date": "2020-12-10",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "This phase Ib trial determines if samples from a patient's cancer can be tested to find combinations of drugs that provide clinical benefit for the kind of cancer the patient has. This study is also being done to understand why cancer drugs can stop working and how different cancers in different people respond to different types of therapy.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Ability to understand and the willingness to sign a written informed consent document\n* Participants \\>= 21 years old at time of informed consent. Both men and women and members of all races and ethnic groups will be included\n* Participants, both men and women, must agree ",
+            "endpoints": [
+              "Feasibility of implementing an individualized treatment strategy (number of participants to receive first dose)"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03878524"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "29291023",
+            "title": "Combined venetoclax and alvocidib in acute myeloid leukemia.",
+            "abstract": "More effective treatment options for elderly acute myeloid leukemia (AML) patients are needed as only 25-50% of patients respond to standard-of-care therapies, response duration is typically short, and disease progression is inevitable even with some novel therapies and ongoing clinical trials. Anti-apoptotic BCL-2 family inhibitors, such as venetoclax, are promising therapies for AML. Nonetheless, resistance is emerging. We demonstrate that venetoclax combined with cyclin-dependent kinase (CDK) inhibitor alvocidib is potently synergistic in venetoclax-sensitive and -resistant AML models in vitro, ex vivo and in vivo. Alvocidib decreased MCL-1, and/or increased pro-apoptotic proteins such as BIM or NOXA, often synergistically with venetoclax. Over-expression of BCL-XL diminished synergy, while knock-down of BIM almost entirely abrogated synergy, demonstrating that the synergistic interaction between alvocidib and venetoclax is primarily dependent on intrinsic apoptosis. CDK9 inhibition",
+            "journal": "Oncotarget",
+            "year": "2017",
+            "authors": [
+              "Bogenberger James",
+              "Whatcott Clifford",
+              "Hansen Nanna",
+              "Delman Devora",
+              "Shi Chang-Xin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29291023/"
+          },
+          {
+            "pmid": "36076608",
+            "title": "Palbociclib promotes the antitumor activity of Venetoclax plus Azacitidine against acute myeloid leukemia.",
+            "abstract": "Around 70 % of patients diagnosed with acute myeloid leukemia (AML) survive less than 5 years due to drug resistance and disease relapse. Consequently, improved clinical treatments are urgently needed. Some but not all AML patients benefit from the combination of the BCL-2 inhibitor Venetoclax with the hypomethylation agent Azacitidine. Here we investigated the utility of employing the cyclin dependent kinase (CDK6) inhibitor Palbociclib to improve the efficacy of Venetoclax/Azacitidine combination therapy. Our analysis of publicly available RNA sequencing datasets showed CDK6 was highly expressed in the major acute forms of leukemia including AML. Consistently, using qPCR and flow cytometry we found that CDK6 was overexpressed in bone marrow mononuclear cells from AML patients compared to healthy controls. Subsequent in vitro testing of Palbociclib, Venetoclax and Azacitidine, alone and in combination against CDK6-overexpressing AML cells lines THP-1 and KG-1 and primary AML cells sho",
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2022",
+            "authors": [
+              "Wang Anyou",
+              "Fang Mingmeng",
+              "Jiang Hui",
+              "Wang Dongyao",
+              "Zhang Xuhan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Azacitidine",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Leukemia, Myeloid, Acute",
+              "Mice",
+              "Piperazines",
+              "Protein Kinase Inhibitors",
+              "Proto-Oncogene Proteins c-bcl-2",
+              "Pyridines",
+              "Sulfonamides"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36076608/"
+          },
+          {
+            "pmid": "38890447",
+            "title": "Combination of menin and kinase inhibitors as an effective treatment for leukemia with NUP98 translocations.",
+            "abstract": "Chromosomal translocations of the nucleoporin 98 (NUP98) gene are found in acute myeloid leukemia (AML) patients leading to very poor outcomes. The oncogenic activity of NUP98 fusion proteins is dependent on the interaction between Mixed Lineage Leukemia 1 and menin. NUP98-rearranged (NUP98-r) leukemia cells also rely on specific kinases, including CDK6 and/or FLT3, suggesting that simultaneous targeting of these kinases and menin could overcome limited sensitivity to single agents. Here, we found that combinations of menin inhibitor, MI-3454, with kinase inhibitors targeting either CDK6 (Palbociclib) or FLT3 (Gilteritinib) strongly enhance the anti-leukemic effect of menin inhibition in NUP98-r leukemia models. We found strong synergistic effects of both combinations on cell growth, colony formation and differentiation in patient samples with NUP98 translocations. These combinations also markedly augmented anti-leukemic efficacy of menin inhibitor in Patient Derived Xenograft models o",
+            "journal": "Leukemia",
+            "year": "2024",
+            "authors": [
+              "Miao Hongzhi",
+              "Chen Dong",
+              "Ropa James",
+              "Purohit Trupta",
+              "Kim EunGi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Animals",
+              "Nuclear Pore Complex Proteins",
+              "Mice",
+              "Protein Kinase Inhibitors",
+              "Proto-Oncogene Proteins",
+              "Translocation, Genetic",
+              "Xenograft Model Antitumor Assays",
+              "Piperazines",
+              "Pyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38890447/"
+          },
+          {
+            "pmid": "36400926",
+            "title": "Targeting cell cycle and apoptosis to overcome chemotherapy resistance in acute myeloid leukemia.",
+            "abstract": "Chemotherapy-resistant acute myeloid leukemia (AML), frequently driven by clonal evolution, has a dismal prognosis. A genome-wide CRISPR knockout screen investigating resistance to doxorubicin and cytarabine (Dox/AraC) in human AML cell lines identified gene knockouts involving AraC metabolism and genes that regulate cell cycle arrest (cyclin dependent kinase inhibitor 2A (CDKN2A), checkpoint kinase 2 (CHEK2) and TP53) as contributing to resistance. In human AML cohorts, reduced expression of CDKN2A conferred inferior overall survival and CDKN2A downregulation occurred at relapse in paired diagnosis-relapse samples, validating its clinical relevance. Therapeutically targeting the G1S cell cycle restriction point (with CDK4/6 inhibitor, palbociclib and KAT6A inhibitor, WM-1119, to upregulate CDKN2A) synergized with chemotherapy. Additionally, direct promotion of apoptosis with venetoclax, showed substantial synergy with chemotherapy, overcoming resistance mediated by impaired cell cycle",
+            "journal": "Leukemia",
+            "year": "2023",
+            "authors": [
+              "Ling Victoria Y",
+              "Straube Jasmin",
+              "Godfrey William",
+              "Haldar Rohit",
+              "Janardhanan Yashaswini"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Cell Cycle",
+              "Cytarabine",
+              "Apoptosis",
+              "Cell Cycle Checkpoints",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36400926/"
+          },
+          {
+            "pmid": "40482924",
+            "title": "Antibody-mediated ratiometric delivery of FLT3 and CDK4/6 dual inhibitors for targeted treatment of acute myeloid leukemia.",
+            "abstract": "Molecularly targeted agents have revolutionized the paradigm of cancer treatment; however, their efficacy is often downplayed by rapid clearance in vivo, inferior cellular delivery and drug resistance. The combination of targeted drugs could improve the clinical efficacy only to some extent, due to overlapping toxicities and difficulty in maintaining certain drug ratios. Here, we report on ratiometric codelivery of FLT3 and CDK4/6 dual inhibitors, gilteritinib and palbociclib, by daratumumab-decorated polymersomes (GIPA@DP) for high-efficacy targeted therapy of acute myeloid leukemia (AML). GIPA@DP showed synergistic anti-AML effects on MV-4-11 cells, with a half-maximal inhibitory concentration of ca. 2.6 ng/mL for each drug, which was further reduced to below 1 ng/mL by pretreating the cells with all-trans retinoic acid. GIPA@DP maintained an essentially constant GI/PA ratio in vivo and actively targeted AML cells at different leukemia sites. Selective AML-targeting in conjunction wi",
+            "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+            "year": "2025",
+            "authors": [
+              "Zhai Zhenzhen",
+              "Li Chenming",
+              "Chen Lin",
+              "Zhao Yan",
+              "Tang Xueling"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Leukemia, Myeloid, Acute",
+              "fms-Like Tyrosine Kinase 3",
+              "Humans",
+              "Animals",
+              "Cyclin-Dependent Kinase 6",
+              "Cyclin-Dependent Kinase 4",
+              "Cell Line, Tumor",
+              "Pyridines",
+              "Antibodies, Monoclonal",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40482924/"
+          },
+          {
+            "pmid": "38430306",
+            "title": "Successful use of Palbociclib combined with Venetoclax and Azacitidine in an adult with refractory/relapsed therapy-related acute myeloid leukemia.",
+            "abstract": "Therapy-related acute myeloid leukemia (t-AML) is considered high risk as it related to prior exposure to cytotoxic chemotherapy agents for solid tumors or hematologic malignancies. Compared with de novo AML, t-AML is associated with lower remission rates, inferior overall survival (OS) and higher relapse rates. Many efforts have been devoted to improving the overall but with limited success, and novel strategy is thus highly needed.",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2024",
+            "authors": [
+              "Qu Wenqiang",
+              "Lu Jialing",
+              "Ji Yujie",
+              "He Zhewei",
+              "Hou Mengjia"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Middle Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Azacitidine",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Leukemia, Myeloid, Acute",
+              "Neoplasm Recurrence, Local",
+              "Neoplasms, Second Primary",
+              "Piperazines",
+              "Pyridines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38430306/"
+          },
+          {
+            "pmid": "40330925",
+            "title": "Chronic myeloid leukemia in a patient treated with palbociclib and exemestane: a case report.",
+            "abstract": "Breast cancer is the most common type of cancer among women worldwide. Hormone receptor-positive (HR+), human epidermal growth factor receptor 2-negative (HER2-) breast cancer constitutes the predominant subtype, accounting for approximately 70% of all breast cancer cases. Cyclin-dependent kinase 4/6 (CDK4/6) inhibitors, in conjunction with endocrine therapy (ET), have been used as the standard treatment for patients diagnosed with HR+ advanced breast cancer. The hematological adverse effects associated with CDK4/6 inhibitors include leukopenia, neutropenia, anemia, and thrombocytopenia, but the incidence of hematological malignancies following treatment with these agents remains relatively rare.",
+            "journal": "AME case reports",
+            "year": "2025",
+            "authors": [
+              "Xu Lishan",
+              "Gan Lu",
+              "Song Shuai"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40330925/"
+          },
+          {
+            "pmid": "34958208",
+            "title": "Discovery of Dual CDK6/PIM1 Inhibitors with a Novel Structure, High Potency, and Favorable Druggability for the Treatment of Acute Myeloid Leukemia.",
+            "abstract": "Nowadays, the simultaneous inhibition of two or more pathways plays an increasingly important role in cancer treatment due to the complex and diverse pathogenesis of cancer, and the combination of the cyclin-dependent kinase 6 (CDK6) inhibitor and PIM1 inhibitor was found to generate synergistic effects in acute myeloid leukemia (AML) treatment. Therefore, we discovered a novel lead 1 targeting CDK6/PIM1 via pharmacophore-based and structure-based virtual screening, synthesized five different series of new derivates, and obtained a potent and balanced dual CDK6/PIM1 inhibitor 51, which showed high kinase selectivity. Meanwhile, 51 displayed an excellent safety profile and great pharmacokinetic properties. Furthermore, 51 displayed stronger potency in reducing the burden of AML than palbociclib and SMI-4a in vivo. In summary, we offered a new direction for AML treatment and provided a great lead compound for AML preclinical studies.",
+            "journal": "Journal of medicinal chemistry",
+            "year": "2022",
+            "authors": [
+              "Yuan Kai",
+              "Ji Minghui",
+              "Xie Shengnan",
+              "Qiu Zhixia",
+              "Chen Weijiao"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cyclin-Dependent Kinase 6",
+              "Drug Discovery",
+              "Female",
+              "High-Throughput Screening Assays",
+              "Humans",
+              "Leukemia, Myeloid, Acute"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34958208/"
+          },
+          {
+            "pmid": "33068248",
+            "title": "Inhibition of CDK4/6 and autophagy synergistically induces apoptosis in t(8;21) acute myeloid leukemia cells.",
+            "abstract": "The t(8;21) translocation is the most common cytogenetic abnormality in acute myeloid leukemia (AML). Although t(8;21) AML patients have a relatively favorable prognosis, relapse is a frequent occurrence, underscoring the need to develop novel therapeutic approaches. Here, we showed that t(8;21) AML is characterized by frequent mutation and overexpression of CCND2. Analysis of 19 AML cell lines showed that t(8;21) AML cells had lower IC50 values for the selective CDK4/6 inhibitors palbociclib and abemaciclib than non-t(8;21) AML cells. CDK4/6 inhibitors caused cell cycle arrest at G1 phase and impaired cell proliferation in t(8;21) AML cells. CDK4/6 inhibition decreased MAP-ERK and PI3K-AKT-mTOR signaling pathway activity, induced LC3B-I to LC3B-II conversion, and enhanced autophagosome formation, suggesting autophagy induction. Treatment of t(8;21) AML cells with the autophagy inhibitors chloroquine (CQ) or LY294002 in combination with the CDK4/6 inhibitor abemaciclib significantly in",
+            "journal": "International journal of hematology",
+            "year": "2021",
+            "authors": [
+              "Nakatani Kana",
+              "Matsuo Hidemasa",
+              "Harata Yutarou",
+              "Higashitani Moe",
+              "Koyama Asami"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Apoptosis",
+              "Autophagy",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Chromosomes, Human, Pair 21",
+              "Chromosomes, Human, Pair 8",
+              "Cyclin D2",
+              "Cyclin-Dependent Kinase 4",
+              "Cyclin-Dependent Kinase 6",
+              "Gene Expression"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33068248/"
+          },
+          {
+            "pmid": "35035775",
+            "title": "GZ17-6.02 and palbociclib interact to kill ER+ breast cancer cells.",
+            "abstract": "GZ17-6.02 is presently undergoing clinical evaluation in solid tumors and lymphoma. The present studies were performed to define its biology in estrogen receptor positive breast cancer cells and to determine whether it interacted with palbociclib to enhance tumor cell killing. GZ17-6.02 interacted in an additive fashion with palbociclib to kill ER+ breast cancer cells. GZ17-6.02 and palbociclib cooperated to inactivate mTOR and AKT and to activate ULK1 and PERK. The drugs interacted to increase the expression of FAS-L and BAX, and to decrease the levels of MCL1, the estrogen receptor, and HDACs 1-3. Palbociclib activated ERBB3, an effect blocked by GZ17-6.02. GZ17-6.02 and palbociclib interacted to increase the expression of multiple toxic BH3 domain proteins and to reduce MCL1 and BCL-XL expression. Knock down of FAS-L reduced the lethality of [GZ17-6.02 + palbociclib]. GZ17-6.02 and palbociclib interacted to enhance autophagosome formation and autophagic flux. Knock down of Beclin1, ",
+            "journal": "Oncotarget",
+            "year": "2022",
+            "authors": [
+              "Booth Laurence",
+              "West Cameron",
+              "Moore Robert P",
+              "Von Hoff Daniel",
+              "Dent Paul"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "AMP-Activated Protein Kinases",
+              "Adaptor Proteins, Signal Transducing",
+              "Antineoplastic Agents",
+              "Apoptosis Regulatory Proteins",
+              "Beclin-1",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Drug Synergism",
+              "Eukaryotic Initiation Factor-2",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35035775/"
+          },
+          {
+            "pmid": "37457126",
+            "title": "How acute myeloid leukemia (AML) escapes from FMS-related tyrosine kinase 3 (FLT3) inhibitors? Still an overrated complication?",
+            "abstract": "FMS-related tyrosine kinase 3 (FLT3) mutations, present in about 25%-30% of acute myeloid leukemia (AML) patients, constitute one of the most frequently detected mutations in these patients. The binding of FLT3L to FLT3 activates the phosphatidylinositol 3-kinase (PI3K) and RAS pathways, producing increased cell proliferation and the inhibition of apoptosis. Two types of FLT3 mutations exist: FLT3-ITD and FLT3-TKD (point mutations in D835 and I836 or deletion of codon I836). A class of drugs, tyrosine-kinase inhibitors (TKI), targeting mutated FLT3, is already available with 1st and 2nd generation molecules, but only midostaurin and gilteritinib are currently approved. However, the emergence of resistance or the selection of clones not responding to FLT3 inhibitors has become an important clinical dilemma, as the duration of clinical responses is generally limited to a few months. This review analyzes the insights into mechanisms of resistance to TKI and poses a particular view on the ",
+            "journal": "Cancer drug resistance (Alhambra, Calif.)",
+            "year": "2023",
+            "authors": [
+              "Perrone Salvatore",
+              "Ottone Tiziana",
+              "Zhdanovskaya Nadezda",
+              "Molica Matteo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37457126/"
+          },
+          {
+            "pmid": "27323399",
+            "title": "An essential pathway links FLT3-ITD, HCK and CDK6 in acute myeloid leukemia.",
+            "abstract": "CDK4/CDK6 and RB proteins drive the progression through the G1 phase of the cell cycle. In acute myeloid leukemia (AML), the activity of the CDK/Cyclin D complex is increased. The mechanism involved is unknown, as are the respective roles played by CDK4 or CDK6 in this process. Here, we report that AML cells carrying FLT3-ITD mutations are dependent on CDK6 for cell proliferation while CDK4 is not essential. We showed that FLT3-ITD signaling is responsible for CDK6 overexpression, through a pathway involving the SRC-family kinase HCK. Accordingly, FLT3-ITD failed to transform primary hematopoietic progenitor cells from Cdk6-/- mice. Our results demonstrate that CDK6 is the primary target of CDK4/CDK6 inhibitors in FLT3-ITD positive AML. Furthermore, we delineate an essential protein kinase pathway -FLT3/HCK/CDK6- in the context of AML with FLT3-ITD mutations.",
+            "journal": "Oncotarget",
+            "year": "2016",
+            "authors": [
+              "Lopez Sophie",
+              "Voisset Edwige",
+              "Tisserand Julie C",
+              "Mosca Cyndie",
+              "Prebet Thomas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Line, Tumor",
+              "Cyclin-Dependent Kinase 6",
+              "Gene Expression Regulation, Leukemic",
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "Mice, Knockout",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27323399/"
+          },
+          {
+            "pmid": "32591645",
+            "title": "Requirement for LIM kinases in acute myeloid leukemia.",
+            "abstract": "Acute myeloid leukemia (AML) is an aggressive disease for which only few targeted therapies are available. Using high-throughput RNA interference (RNAi) screening in AML cell lines, we identified LIM kinase 1 (LIMK1) as a potential novel target for AML treatment. High LIMK1 expression was significantly correlated with shorter survival of AML patients and coincided with FLT3 mutations, KMT2A rearrangements, and elevated HOX gene expression. RNAi- and CRISPR-Cas9-mediated suppression as well as pharmacologic inhibition of LIMK1 and its close homolog LIMK2 reduced colony formation and decreased proliferation due to slowed cell-cycle progression of KMT2A-rearranged AML cell lines and patient-derived xenograft (PDX) samples. This was accompanied by morphologic changes indicative of myeloid differentiation. Transcriptome analysis showed upregulation of several tumor suppressor genes as well as downregulation of HOXA9 targets and mitosis-associated genes in response to LIMK1 suppression, prov",
+            "journal": "Leukemia",
+            "year": "2020",
+            "authors": [
+              "Jensen Patrizia",
+              "Carlet Michela",
+              "Schlenk Richard F",
+              "Weber Andrea",
+              "Kress Jana"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Cell Differentiation",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cyclin-Dependent Kinase 6",
+              "Gene Expression Profiling",
+              "Gene Expression Regulation, Leukemic",
+              "Genes, Homeobox",
+              "HL-60 Cells",
+              "Humans",
+              "Leukemia, Myeloid, Acute"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32591645/"
+          },
+          {
+            "pmid": "36799136",
+            "title": "Palbociclib (PD 0332991) Interaction with Kinases. Theoretical and Comparative Molecular Docking Study.",
+            "abstract": "The optimized geometry of palbociclib, (PD 0332991) (8-cyclopentyl-6-ethanoyl-5-methyl-2-(5-(piperazin-1-yl)pyridin-2-ylamino)pyrido[2,3-d]pyrimidin-7(8H)-one), electrostatic potential map, molecular orbitals were calculated using the density functional theory. The geometry was used in a molecular docking study of palbociclib-kinase complexes, results could be explained by the charge of the nitrogen and oxygen atoms within the palbociclib. Energy gap of HOMO-LUMO surfaces, could help to explain the reactivity of the ligand and the hydrogen bonding with three different kinases, two of CDK6 and one of CDK4 type. Docking results are similar and complementary with literature reports using molecular dynamics, were hydrogen bonding was obtained and analyzed. The promiscuity of three kinases with palbociclib was detected by the docking results, thus, palbociclib could be used in other types of cancer besides myeloid leukemia. Some similarities are found with CDK4/CDK6 kinases which allow us t",
+            "journal": "Chemistry & biodiversity",
+            "year": "2023",
+            "authors": [
+              "Aceves-Hernández Juan M",
+              "Inés Nicolás Vázquez María",
+              "Luis Garza Rivera José",
+              "Espinoza Godínez Angélica",
+              "Mateo Flores Juan"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Molecular Docking Simulation",
+              "Neoplasms",
+              "Piperazines",
+              "Pyridines",
+              "Protein Kinase Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36799136/"
+          },
+          {
+            "pmid": "38514796",
+            "title": "Palbociclib and chemotherapy followed by blinatumomab consolidation to CAR-T cell therapy in KMT2A-rearranged, therapy-related acute lymphoblastic leukemia.",
+            "abstract": "",
+            "journal": "Pediatric blood & cancer",
+            "year": "2024",
+            "authors": [
+              "Sarkar Sanila",
+              "Rav Emily",
+              "Stitzlein Lea",
+              "Gibson Amber",
+              "McCall David"
+            ],
+            "pub_types": [
+              "Letter",
+              "Case Reports",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Antibodies, Bispecific",
+              "Myeloid-Lymphoid Leukemia Protein",
+              "Histone-Lysine N-Methyltransferase",
+              "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+              "Immunotherapy, Adoptive",
+              "Piperazines",
+              "Pyridines",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38514796/"
+          },
+          {
+            "pmid": "34430715",
+            "title": "Efficacy of a combination therapy targeting CDK4/6 and autophagy in a mouse xenograft model of t(8;21) acute myeloid leukemia.",
+            "abstract": "One of the most frequent cytogenetic abnormalities in acute myeloid leukemia (AML) is t(8;21). Although patients with t(8;21) AML have a more favorable prognosis than other cytogenetic subgroups, relapse is still common and novel therapeutic approaches are needed. A recent study showed that t(8;21) AML is characterized by CCND2 deregulation and that co-inhibition of CDK4/6 and autophagy induces apoptosis in t(8;21) AML cells. In this study, we examined the in vivo effects of co-inhibiting CDK4/6 and autophagy. We used a mouse model in which t(8;21)-positive Kasumi-1 cells were subcutaneously inoculated into NOD/Shi-scid IL2Rgnull mice. The mice were treated with the autophagy inhibitor chloroquine (CQ), a CDK4/6 inhibitor (either abemaciclib or palbociclib), or a CDK4/6 inhibitor plus CQ. After 20 days of treatment, tumor volume was measured, and immunostaining and transmission electron microscopy observations were performed. There was no change in tumor growth in CQ-treated mice. Howe",
+            "journal": "Biochemistry and biophysics reports",
+            "year": "2021",
+            "authors": [
+              "Matsuo Hidemasa",
+              "Nakatani Kana",
+              "Harata Yutarou",
+              "Higashitani Moe",
+              "Ito Yuri"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34430715/"
+          },
+          {
+            "pmid": "38731835",
+            "title": "Systems Biology for Drug Target Discovery in Acute Myeloid Leukemia.",
+            "abstract": "Combining new therapeutics with all-trans-retinoic acid (ATRA) could improve the efficiency of acute myeloid leukemia (AML) treatment. Modeling the process of ATRA-induced differentiation based on the transcriptomic profile of leukemic cells resulted in the identification of key targets that can be used to increase the therapeutic effect of ATRA. The genome-scale transcriptome analysis revealed the early molecular response to the ATRA treatment of HL-60 cells. In this study, we performed the transcriptomic profiling of HL-60, NB4, and K562 cells exposed to ATRA for 3-72 h. After treatment with ATRA for 3, 12, 24, and 72 h, we found 222, 391, 359, and 1032 differentially expressed genes (DEGs) in HL-60 cells, as well as 641, 1037, 1011, and 1499 DEGs in NB4 cells. We also found 538 and 119 DEGs in K562 cells treated with ATRA for 24 h and 72 h, respectively. Based on experimental transcriptomic data, we performed hierarchical modeling and determined cyclin-dependent kinase 6 (CDK6), tum",
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "authors": [
+              "Novikova Svetlana",
+              "Tolstova Tatiana",
+              "Kurbatov Leonid",
+              "Farafonova Tatiana",
+              "Tikhonova Olga"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Tretinoin",
+              "Systems Biology",
+              "HL-60 Cells",
+              "Gene Expression Profiling",
+              "K562 Cells",
+              "Drug Discovery",
+              "Transcriptome",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38731835/"
+          },
+          {
+            "pmid": "41468895",
+            "title": "CDK4/6 inhibition overcomes venetoclax resistance mechanisms with enhanced combination activity in acute myeloid leukemia.",
+            "abstract": "Venetoclax (ven) combined with azacytadine is a widely used therapy for acute myeloid leukemia (AML). However, most patients develop resistance. To identify more effective combinations, we analyze 302 AML patient samples and find ven plus palbociclib (ven+palbo), a cyclin dependent kinase (CDK)4/6 inhibitor, to be highly effective. Ven+palbo shows synergistic activity in AML cell lines and patient-derived xenograft mouse models. Patient samples exhibiting a synergistic response to ven+palbo show downregulation of genes involved in protein synthesis. Genome-wide (CRISPR) screening shows that loss of translational genes uniquely confers sensitivity to ven but not to ven+palbo. AML cells exposed to ven exhibit an adaptive increase of protein synthesis that is overcome by ven+palbo through regulation of translational machinery. Additionally, ven+palbo mitigates resistance mechanisms observed with single-agent ven (BAX loss) and palbo (RB1 loss). Finally, we identify the loss of IKZF1 as a ",
+            "journal": "Cell reports. Medicine",
+            "year": "2026",
+            "authors": [
+              "Stewart Melissa L",
+              "Gibbs Jessica",
+              "Watanabe-Smith Kevin",
+              "Nguyen Ariel",
+              "Kenna Isabel"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Drug Resistance, Neoplasm",
+              "Cyclin-Dependent Kinase 6",
+              "Animals",
+              "Sulfonamides",
+              "Cyclin-Dependent Kinase 4",
+              "Mice",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41468895/"
+          },
+          {
+            "pmid": "40377769",
+            "title": "Drug-induced second tumors: a disproportionality analysis of the FAERS database.",
+            "abstract": "Drug-induced second tumors (DIST) refer to new primary cancers that develop during or after the treatment of an initial cancer due to the long-term effects of medications. As a severe long-term adverse event, DIST has gained widespread attention globally in recent years. With the increasing prevalence of cancer treatments and the prolonged survival of patients, drug-induced second tumors have become more prominent and pose a significant public health challenge. However, most existing studies have focused on individual drugs or small patient cohorts, lacking large-scale, real-world data evaluations. Particularly, the potential second-tumor risk of new drugs remains underexplored.",
+            "journal": "Discover oncology",
+            "year": "2025",
+            "authors": [
+              "Chen Shupeng",
+              "Zhang Yuzhe",
+              "Li Xiaojian",
+              "Tang Nana",
+              "Zeng Yingjian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40377769/"
+          },
+          {
+            "pmid": "30381403",
+            "title": "Recurrent CCND3 mutations in MLL-rearranged acute myeloid leukemia.",
+            "abstract": "In acute myeloid leukemia (AML), MLL (KMT2A) rearrangements are among the most frequent chromosomal abnormalities; however, knowledge of the genetic landscape of MLL-rearranged AML is limited. In this study, we performed whole-exome sequencing (n = 9) and targeted sequencing (n = 56) of samples from pediatric MLL-rearranged AML patients enrolled in the Japanese Pediatric Leukemia/Lymphoma Study Group AML-05 study. Additionally, we analyzed 105 pediatric t(8;21) AML samples and 30 adult MLL-rearranged AML samples. RNA-sequencing data from 31 patients published in a previous study were also reanalyzed. As a result, we identified 115 mutations in pediatric MLL-rearranged AML patients (2.1 mutations/patient), with mutations in signaling pathway genes being the most frequently detected (60.7%). Mutations in genes associated with epigenetic regulation (21.4%), transcription factors (16.1%), and the cohesin complex (8.9%) were also commonly detected. Novel CCND3 mutations were identified in 5",
+            "journal": "Blood advances",
+            "year": "2018",
+            "authors": [
+              "Matsuo Hidemasa",
+              "Yoshida Kenichi",
+              "Fukumura Kazutaka",
+              "Nakatani Kana",
+              "Noguchi Yuki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Child",
+              "Child, Preschool",
+              "Cyclin D",
+              "Cyclin D3",
+              "DNA Copy Number Variations",
+              "Female",
+              "G1 Phase Cell Cycle Checkpoints",
+              "Gene Rearrangement",
+              "Histone-Lysine N-Methyltransferase"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30381403/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "multiple endocrine neoplasia",
+        "txgnn_score": 0.9885806441307068,
+        "txgnn_rank": 11622,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03280563",
+            "title": "A Phase Ib/II, Open-Label, Multicenter, Randomized Umbrella Study Evaluating the Efficacy and Safety of Multiple Immunotherapy-Based Treatment Combinations in Patients With Hormone Receptor-Positive HER2-Negative Breast Cancer (MORPHEUS-HR+ Breast Cancer)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-12-22",
+            "completion_date": "2024-09-26",
+            "country": "Israel, United States, South Korea",
+            "enrollment": 144,
+            "brief_summary": "This study is designed to evaluate the efficacy, safety, and pharmacokinetics of several immunotherapy-based combination treatments in participants with inoperable locally advanced or metastatic HR-positive, HER2-negative breast cancer who have progressed during or following treatment with a cyclin-dependent kinase (CDK) 4/6 inhibitor in the first- or second-line setting, such as palbociclib, ribociclib, or abemaciclib. The study will be performed in two stages. During Stage 1, participants will",
+            "eligibility_criteria": "Inclusion Criteria for Both Stages:\n\n* Measurable disease per RECIST v1.1\n* Adequate hematologic and end organ function\n* Disease progression during or after first- or second-line hormonal therapy with CDK4/6 inhibitor\n\nInclusion Criteria for Stage 1:\n\n* Eastern Cooperative Oncology Group (ECOG) per",
+            "endpoints": [
+              "Stage 1: Percentage of Participants With Objective Response"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT03280563"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04736576",
+            "title": "Prospective, Multicenter, Observational Study to Evaluate Patient-reported Outcome and Physical Activity Using Smartphone-based Application and Wearable Device in Japanese Patients With HR+/HER2- Advanced Breast Cancer Treated With Palbociclib Plus Endocrine Therapy or Endocrine Monotherapy",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2021-02-24",
+            "completion_date": "2023-03-24",
+            "country": "Japan",
+            "enrollment": 99,
+            "brief_summary": "The study is a prospective, multicenter, observational study to evaluate PRO and physical activity using smartphone-based application and wearable device in Japanese patients with HR+/HER2- advanced breast cancer (ABC).\n\nPatients will be enrolled into either palbociclib plus endocrine therapy group (Group 1) or endocrine monotherapy group (Group 2) based on the discretion of the treating physician under routine clinical practice. Total target number of patients is approximately one-hundred in th",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Adult women (≥ 20 years of age)\n2. Diagnosis of adenocarcinoma of the breast with evidence of metastatic disease or advanced disease not amenable to resection or radiation therapy with curative intent.\n3. Documented evidence of HR+/HER2- tumor based on the patient's surgical ",
+            "endpoints": [
+              "Change From Baseline in European Organization for Research and Treatment of Cancer Quality of Life Questionnaire-30 (Items) [EORTC-QLQ-C30] Global Health Status (GHS) Sub-scale Score for Cycle 1",
+              "Change From Baseline in EORTC-QLQ-C30 GHS Sub-scale Score for Cycle 2",
+              "Change From Baseline in EORTC-QLQ-C30 GHS Sub-scale Score for Cycle 3"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04736576"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04802759",
+            "title": "A Phase Ib/II, Open-Label, Multicenter, Randomized Umbrella Study Evaluating the Efficacy and Safety of Multiple Treatment Combinations in Patients With Breast Cancer (MORPHEUS-BREAST CANCER)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2021-06-22",
+            "completion_date": "2029-05-30",
+            "country": "Australia, Spain, South Korea, Israel, United States",
+            "enrollment": 316,
+            "brief_summary": "This is a Phase Ib/II, open-label, multicenter, randomized umbrella study in participants with breast cancer. The study is designed with the flexibility to open new treatment arms as new treatments become available, close existing treatment arms that demonstrate minimal clinical activity or unacceptable toxicity, or modify the patient population.\n\nCohort 1 will focus on participants with inoperable, locally advanced or metastatic, estrogen receptor-positive (ER+), HER2-negative breast cancer who",
+            "eligibility_criteria": "Inclusion Criteria:\n\nInclusion Criteria for Cohort 1 (Stage 1 \\[and Stage 2, only where indicated\\]):\n\n* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1\n* Documented estrogen receptor-positive (ER+) tumor\n* Patients for whom endocrine therapy is recommended and treatment with ",
+            "endpoints": [
+              "Percentage of Participants with Objective Response, Defined as a Complete or Partial Response, as Determined by the Investigator According to Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST v1.1)",
+              "Number of Participants with Adverse Events, Severity Determined According to National Cancer Institute Common Terminology Criteria for Adverse Events, version 5.0 (NCI CTCAE v5.0)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04802759"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01942135",
+            "title": "MULTICENTER, RANDOMIZED, DOUBLE-BLIND, PLACEBO-CONTROLLED, PHASE 3 TRIAL OF FULVESTRANT (FASLODEX (REGISTERED)). WITH OR WITHOUT PD-0332991 (PALBOCICLIB) +/- GOSERELIN IN WOMEN WITH HORMONE RECEPTOR-POSITIVE, HER2-NEGATIVE METASTATIC BREAST CANCER WHOSE DISEASE PROGRESSED AFTER PRIOR ENDOCRINE THERAPY",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2013-09-26",
+            "completion_date": "2022-09-28",
+            "country": "Australia, Turkey (Türkiye), United Kingdom, Canada, Romania, Belgium, Netherlands, Germany, Italy, South Korea, United States, Portugal, Russia, Ukraine, Ireland, Taiwan, Japan",
+            "enrollment": 521,
+            "brief_summary": "The study is a randomized, double blind, placebo controlled, Phase 3 clinical trial with the primary objective of demonstrating the superiority of palbociclib in combination with fulvestrant (Faslodex®) over fulvestrant alone in prolonging PFS in women with HR+, HER2 negative metastatic breast cancer whose disease has progressed after prior endocrine therapy. The safety between the two treatment arms will also be compared. During study treatment, pre- and perimenopausal women must be receiving t",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Women 18 years or older with metastatic or locally advanced disease, not amenable to curative therapy\n* Confirmed diagnosis of HR+/HER2- breast cancer\n* Any menopausal status\n* Progressed within 12 months from prior adjuvant or progressed within 1 month from prior advanced/met",
+            "endpoints": [
+              "Progression-Free Survival (PFS) as Assessed by the Investigator"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01942135"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02894398",
+            "title": "Open-label, Multi-center, sINGlE Arm Clinical Study to Evaluate Efficacy/QoL in Women With HR+, HER2-, Regionally Recurrent or Metastatic Breast Cancer Receiving Palbociclib With an AI or Fulvestrant After Prior Endocrine Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2016-09-06",
+            "completion_date": "2023-02-15",
+            "country": "Germany",
+            "enrollment": 388,
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and quality of life in women with advanced breast cancer (locally advance inoperable or metastatic adenocarcinoma of the breast), HR+ / HER2-, who are treated with an aromatase inhibitor or fulvestrant as baseline therapy in combination with palbociclib (Ibrance)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Personally signed written informed consent prior to beginning protocol specific procedures, including expected cooperation of the patient for the treatment and follow-up, must be obtained and documented according to the local regulatory requirements\n2. Women with proven diagn",
+            "endpoints": [
+              "Clinical Benefit Rate (CBR)"
+            ],
+            "sponsor": "iOMEDICO AG",
+            "url": "https://clinicaltrials.gov/study/NCT02894398"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05343117",
+            "title": "Comparative Effectiveness of Palbociclib Based-therapy as Initial Endocrine Therapy Versus Palbociclib Based-therapy After Chemotherapy for HR+/HER2- Advanced Breast Cancer in Chinese Clinical Practice: a Real-world Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2021-12-01",
+            "completion_date": "2024-06-01",
+            "country": "China",
+            "enrollment": 400,
+            "brief_summary": "A multi-center non-interventional observational study led by the Cancer Hospital Chinese Academy of Medical Sciences to compare the effectiveness of palbociclib based-therapy as initial endocrine therapy versus palbociclib based-therapy after chemotherapy for HR+/HER2- advanced breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years, female (retrospective part);\n2. Histologically or cytologically confirmed recurrent or metastatic HR+/HER2- breast cancer, if there was metastatic pathology, the histological pathology of metastases should prevail (retrospective part);\n3. Received palbociclib ",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "ChineseAMS",
+            "url": "https://clinicaltrials.gov/study/NCT05343117"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03238196",
+            "title": "A Phase Ib Trial of Fulvestrant, Palbociclib (CDK4/6 Inhibitor) and Erdafitinib (JNJ- 42756493,Pan-FGFR Tyrosine Kinase Inhibitor) in ER+/HER2-/FGFR-Amplified Metastatic Breast Cancer (MBC)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2017-08-18",
+            "completion_date": "2024-03-20",
+            "country": "United States",
+            "enrollment": 35,
+            "brief_summary": "This is an open-label, multi-institution, phase Ib trial that evaluates the safety and tolerability and preliminary anti-tumor activity of fulvestrant, palbociclib and erdafitinib in patients with ER+/HER2-/FGFR-amplified metastatic breast cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must be able to swallow and retain oral medication\n* Patients must be ≥ 18 years of age\n* Female patients of no childbearing potential must be post-menopausal. Postmenopausal female subjects should be defined prior to protocol enrollment by any of the following:\n* Par",
+            "endpoints": [
+              "Number of Participants With Dose Limiting Toxicities (DLT) in the First Cycle for the Determination of the Maximum Tolerated Dose (MTD)"
+            ],
+            "sponsor": "Vanderbilt-Ingram Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03238196"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02624973",
+            "title": "PErsonalized TREatment of High-risk MAmmary Cancer - the PETREMAC Trial",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2016-04-15",
+            "completion_date": "2030-06",
+            "country": "Norway",
+            "enrollment": 200,
+            "brief_summary": "Breast cancer is an optimal \"model disease\" for studying personalized medicine. Breast cancer was the first malignancy for which a predictive factor forecasting response to therapy was identified nearly 50 years ago; the expression of the estrogen receptor (ER). Furthermore, breast cancer is by far the malignancy in which prognostic and predictive factors have been most extensively studied. Primary medical treatment (pre-surgical medical therapy) offers a unique setting to explore predictive fac",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Previously untreated, histologically confirmed non-inflammatory breast cancer, \\>4 cm in diameter and /or metastatic ipsilateral axillary deposits for which the smallest diameter of the largest node \\>2 cm by CT or ultrasound scan.\n* WHO performance status 0-1\n* Known tumor ER",
+            "endpoints": [
+              "Predictive and prognostic value of mutations in 300 cancer-related genes assessed in breast cancer tissue by next generation sequencing before starting neoadjuvant therapy."
+            ],
+            "sponsor": "Haukeland University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02624973"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05216432",
+            "title": "First-in-Human Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, as a Single Agent in Patients With Advanced Solid Tumors and in Combination With Endocrine Therapy +/- a CDK4/6 or CDK4 Inhibitor in Patients With Advanced Solid Tumors or Advanced Breast Cancer",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-12-08",
+            "completion_date": "2027-04-30",
+            "country": "Australia, Spain, France, Italy, United States",
+            "enrollment": 930,
+            "brief_summary": "This is an open-label, FIH study designed to evaluate the maximum tolerated dose, recommended Phase 2 dose, safety, tolerability, PK, pharmacodynamics, and preliminary antineoplastic activity of RLY-2608, in advanced solid tumor patients with a Phosphatidylinositol-4,5-bisphosphate-3 kinase, catalytic subunit alpha (PIK3CA) mutation in blood and/or tumor per local assessment. The study will evaluate RLY-2608 as a single agent for patients with unresectable or metastatic solid tumors. It will als",
+            "eligibility_criteria": "Key Inclusion Criteria\n\nPatient has ECOG performance status of 0-1\n\nOne or more documented primary oncogenic PIK3CA mutation(s) in blood and/or tumor per local assessment\n\nOther potentially oncogenic PIK3CA mutations may be considered but must be approved by the Sponsor prior to enrollment.\n\nPart 1 ",
+            "endpoints": [
+              "Determination of maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D) of RLY-2608 as a single agent",
+              "Determination of maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D) of RLY-2608 in combination with fulvestrant",
+              "Determination of maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D) of RLY-2608 in combination with fulvestrant and a CDK 4/6 inhibitor (palbociclib, ribociclib), and in combination with CDK4 inhibitor (PF-07220060) and fulvestrant"
+            ],
+            "sponsor": "Relay Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05216432"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03195192",
+            "title": "Utilizing Multiomic Advanced Diagnostics to Identify CDK 4/6 Inhibitor Response Predictors and a Post-treatment Multiomic Signature for Patients With ER+/HER2- Metastatic Breast Cancer",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-03-09",
+            "completion_date": "2020-06-30",
+            "country": "United States",
+            "enrollment": 28,
+            "brief_summary": "This is an open-label, multicenter study in patients with metastatic breast cancer who are candidates for standard first line treatment with palbociclib or ribociclib plus endocrine therapy. To be eligible, patients must have received no prior chemotherapeutic or hormonal regimen for metastatic disease. However, patients may still be considered eligible if they have already started treatment with endocrine therapy (an aromatase inhibitor or fulvestrant) plus palbociclib or ribociclib for no long",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically proven diagnosis of adenocarcinoma of the breast with evidence of locoregionally recurrent or metastatic disease.\n* Tumors must be estrogen and/or progesterone receptor positive according to ASCO/CAP 2010 guidelines as either ",
+            "endpoints": [
+              "Evaluate baseline phosphorylated RB levels in tumor tissue as a predictive marker of response to palbociclib or ribociclib as first line treatment for ER+/HER2- metastatic breast cancer"
+            ],
+            "sponsor": "Side-Out Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT03195192"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04767594",
+            "title": "PERFORM: An EPidEmiological, PRospective Cohort Study to Generate Real-world Evidence in Patients With HR+/HER2- Advanced Breast Cancer Treated in the First Line Setting as Per Current Standard Of Care With an EndocRine-based Palbociclib CoMbination Therapy",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-10-27",
+            "completion_date": "2029-04-30",
+            "country": "Austria, Germany",
+            "enrollment": 1409,
+            "brief_summary": "This is a prospective, single-arm, multi-center observational non-interventional study (NIS) in Germany and Austria.",
+            "eligibility_criteria": "Patients must meet all of the following inclusion criteria to be eligible for inclusion in the study:\n\n1. Evidence of a personally signed and dated informed consent document indicating that the patient has been informed of all pertinent aspects of the study.\n2. Diagnosis of HR+/HER2- locally advance",
+            "endpoints": [
+              "Progression-free survival (PFS)"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04767594"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06126003",
+            "title": "A Multi-center, 2-arm Observational Study Exploring the Role of the Gut and Tumor Microbiome in the Differential Immune Profile of Patients With Early Stage (II-III), Locally Advanced or Advanced ER-positive and HER2-negative Breast Cancer (Arm-1).",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "start_date": "2023-12-01",
+            "completion_date": "2024-07-31",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "The purpose of this research study is to collect samples of blood and stool and analyse primary tumor from participants with breast cancer to see how the bacteria in the body affect cancer and how well it responds to treatment. By comparing samples and data from multiple participants with breast cancer, it may be possible to identify how a person's gut health and tumor microenvironment affects how they respond to certain cancer treatments.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nArm-1: Early stage (II-III), locally advanced or advanced ER-positive and HER2-negative Breast Cancer\n\n1. Signed, written, voluntary, and informed consent\n2. Histological confirmation of early stage (II-III) locally advanced or advanced ER positive and HER2 negative breast cance",
+            "endpoints": [
+              "Interaction between the gut microbiome, tumor microbiome and serum immune profile for patients with early stage (II-III), locally advanced or advanced ER-positive and HER2-negative breast cancer."
+            ],
+            "sponsor": "BioCorteX Inc",
+            "url": "https://clinicaltrials.gov/study/NCT06126003"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04247633",
+            "title": "Single-arm Phase II Study of Palbociclib Plus Endocrine Therapy in Patients With High Risk ER-positive/HER2-negative T1-2N0-1 Early Breast Cancer Incorporating GenesWell™ BCT",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-02-11",
+            "completion_date": "2025-02",
+            "country": "South Korea",
+            "enrollment": 578,
+            "brief_summary": "This is a phase II, multi-center, single-arm, open-label trial to evaluate efficacy of palbociclib with endocrine therapy as adjuvant treatment in women with C-high/G-high risk ER-positive/HER2-negative T1-2N0-1 EBC(Early Breast Cancer)",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patient is an adult, ≥ 19 years old at the time of informed consent\n2. Premenopausal and postmenopausal women or men with invasive breast cancer\n3. De novo primary disease\n4. Patient who performed surgery with curative aim\n5. Patient who has negative surgical resection margin",
+            "endpoints": [
+              "3-year event-free survival"
+            ],
+            "sponsor": "Samsung Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04247633"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02465060",
+            "title": "Molecular Analysis for Therapy Choice (MATCH)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2015-08-17",
+            "completion_date": "2026-12-31",
+            "country": "Guam, Puerto Rico, United States",
+            "enrollment": 6452,
+            "brief_summary": "This phase II MATCH screening and multi-sub-trial studies how well treatment that is directed by genetic testing works in patients with solid tumors, lymphomas, or multiple myelomas that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced) and does not respond to treatment (refractory). Patients must have progressed following at least one line of standard treatment or for which no agreed upon treatment approach exists. Genetic tests l",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* ELIGIBILITY CRITERIA FOR SCREENING BIOPSY (STEP 0)\n* Patients must be \\>= 18 years of age. Because no dosing or adverse event data are currently available on the use of study investigational agents in patients \\< 18 years of age, children are excluded from this study\n* Patient",
+            "endpoints": [
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT02465060"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04606446",
+            "title": "A PHASE 1/2A DOSE ESCALATION AND EXPANSION STUDY TO EVALUATE SAFETY, TOLERABILITY, PHARMACOKINETIC, PHARMACODYNAMIC, AND ANTI-TUMOR ACTIVITY OF PF-07248144 IN PARTICIPANTS WITH ADVANCED OR METASTATIC SOLID TUMORS",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2020-11-16",
+            "completion_date": "2029-09-22",
+            "country": "Australia, South Korea, United States, China, Japan",
+            "enrollment": 320,
+            "brief_summary": "This is an open-label, multi center study to evaluate safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of PF-07248144 and early signs of clinical efficacy of PF-07248144 as a single agent and in combination with other agents",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Disease Characteristics - Breast, Prostate, and Lung Cancer\n* Part 1A (Monotherapy Dose Escalation) Histological or cytological diagnosis of locally advanced or metastatic ER+HER2- breast cancer, CRPC, or NSCLC that is intolerant or resistant to standard therapy or for which n",
+            "endpoints": [
+              "Number of participants with dose-limiting toxicities in the Dose Escalation Arms.",
+              "Safety and Tolerability as assessed by adverse event monitoring for participants enrolled in the Dose Escalation Arms.",
+              "Safety and Tolerability through monitoring of laboratory assessments for participants enrolled in the Dose Escalation Arms."
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04606446"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04553133",
+            "title": "PHASE 1/2A DOSE ESCALATION, FINDING AND EXPANSION STUDY EVALUATING SAFETY, TOLERABILITY, PHARMACOKINETICS, PHARMACODYNAMICS AND ANTI TUMOR ACTIVITY OF PF-07104091 AS A SINGLE AGENT AND IN COMBINATION THERAPY",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-09-16",
+            "completion_date": "2026-03-30",
+            "country": "Argentina, United States, China, Bulgaria, Japan",
+            "enrollment": 154,
+            "brief_summary": "To assess the safety and tolerability of increasing doses of PF-07104091 and to estimate the Maximum Tolerated Dose (MTD) and/or select the Recommended Phase 2 dose (RP2D) for PF-07104091 as a single agent in participants with advanced or metastatic small cell lung, breast and ovarian cancers.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants with HR-positive HER2-negative advanced or metastatic breast cancer (received at least two prior lines in the advanced or metastatic setting including one prior line of combined CDK4/6 inhibitor and endocrine therapy and no more than two prior lines of cytotoxic c",
+            "endpoints": [
+              "Dose Escalation: Number of participants with Dose-limiting toxicities (DLT) during first cycle",
+              "To evaluate incidence of treatment emergent adverse events and laboratory abnormalities",
+              "Evaluate pulse rate that is out of normal range and changes in pulse rate as compared to baseline"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT04553133"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03355157",
+            "title": "A Randomized, Open-label, Multi-center Phase IV Study Evaluating Palbociclib Plus Endocrine Treatment Versus a Chemotherapy-based Treatment Strategy in Patients With Hormone Receptor Positive / HER2 Negative Breast Cancer in a Real World Setting (GBG 93 - PADMA Study).",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2018-03-01",
+            "completion_date": "2024-08-30",
+            "country": "Germany",
+            "enrollment": 130,
+            "brief_summary": "The goal of the study for patients with metastatic breast cancer (MBC) is to show that palbociclib + endocrine therapy shows a significant improvement in time-to-treatment failure over chemotherapy regimen (mono-chemotherapy with or without endocrine therapy). This would provide level 1 evidence from real world that palbociclib plus endocrine therapy is the first choice in MBC patients needing first-line therapy not only compared to endocrine therapy but also compared to chemotherapy with or wit",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Written informed consent prior to beginning specific protocol procedures, including expected cooperation of the patients for the treatment and follow-up, willingness and ability to complete collection of data via wearable device and study mobile must be obtained and documente",
+            "endpoints": [
+              "Time-to-treatment failure (TTF)"
+            ],
+            "sponsor": "GBG Forschungs GmbH",
+            "url": "https://clinicaltrials.gov/study/NCT03355157"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06344780",
+            "title": "A Multi-center Study of the Clinical Outcomes of Abemaciclib, Palbociclib or Dalpiciclib Combined with Endocrine Therapy As First-line Treatment in HR Positive, HER2 Negative Unresectable or Metastatic Breast Cancer in Real World Practice",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-05-20",
+            "completion_date": "2025-02-01",
+            "country": "China",
+            "enrollment": 200,
+            "brief_summary": "A multi-center, real world study to evaluate the clinical outcomes and safety of Abemaciclib, Palbociclib or Dalpiciclib combined with endocrine therapy as first-line treatment in HR Positive, HER2 Negative unresectable or metastatic Breast Cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. age \\>= 18 years old;\n2. Patients who were diagnosed as HR Positive, HER2 Negative recurrent unresectable (local or regional) or stage IV (M1) breast cancer between June 2020 to October 2023;\n3. Received CDK4/6 inhibitors(Abemaciclib, Palbociclib or Dalpiciclib) as first-line",
+            "endpoints": [
+              "PFS"
+            ],
+            "sponsor": "Fudan University",
+            "url": "https://clinicaltrials.gov/study/NCT06344780"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04931342",
+            "title": "A Phase II, Open-Label, Multicenter, Platform Study Evaluating the Efficacy and Safety of Biomarker-Driven Therapies in Patients With Persistent or Recurrent Rare Epithelial Ovarian Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2021-10-07",
+            "completion_date": "2028-05-30",
+            "country": "Switzerland, Australia, Spain, France, Canada, South Korea, Turkey (Türkiye), United Kingdom, Germany, Italy, United States, Russia, Czechia",
+            "enrollment": 176,
+            "brief_summary": "This study will evaluate the efficacy and safety of multiple biomarker-selected treatments in patients with persistent or recurrent rare epithelial ovarian, fallopian tube, or primary peritoneal tumors. Enrollment will take place in two phases: a preliminary phase followed by a potential expansion phase.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Persistent or recurrent EOC that meets the following criteria: Histologically confirmed non-high-grade serous, non-high-grade endometrioid epithelial ovarian, fallopian tube, or primary peritoneal cancer, including but not limited to low-grade serous ovarian carcinoma, clear c",
+            "endpoints": [
+              "Confirmed Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT04931342"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03870919",
+            "title": "PALbociclib in Advanced Breast Cancer: Therapy INtegrating locorEgional Treatment and Palbociclib in de Novo, Treatment Naive, Stage IV ER+, HER2- Breast Cancer Patients",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2019-10-23",
+            "completion_date": "2027-10-23",
+            "country": "France",
+            "enrollment": 200,
+            "brief_summary": "Approximately 3.5% to 6% of newly diagnosed breast cancer patients are stage IV metastatic. De novo metastatic breast cancer accounts for 20% to 25% of these cases. Despite a decrease in mortality in Europe and North America due to early detection and access to treatment, breast cancer remains the 2ⁿᵈ leading cause of cancer deaths in developed countries after lung cancer and the world's leading cause.\n\nIn the ESME French national retrospective cohort (NCT03275311), the newly diagnosed estrogen ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Women with newly diagnosed and histologically proven de novo adenocarcinoma of the breast, Any T, any N, with at least one metastatic site measurable and/or non-measurable according to Response Evaluation Criteria In Solid Tumours (RECIST) v1.1 and/or PET Response Criteria in",
+            "endpoints": [
+              "Overall survival rate in patients receiving the letrozole plus palbociclib combination plus locoregional treatment"
+            ],
+            "sponsor": "UNICANCER",
+            "url": "https://clinicaltrials.gov/study/NCT03870919"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03573648",
+            "title": "A Pilot Study of IMMUNe mOdulation in Early Stage Estrogen Receptor Positive Breast Cancer Treated With neoADjuvant Avelumab, Palbociclib, and Endocrine Therapy: The ImmunoADAPT Study",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2018-11-13",
+            "completion_date": "2026-06-30",
+            "country": "United States",
+            "enrollment": 33,
+            "brief_summary": "Eligible patients with estrogen receptor positive breast cancer will undergo a biopsy and be randomized to receive endocrine therapy (ET) versus endocrine therapy with palbociclib (PET) in a 1:2 ratio. After 1 cycle (28 days) another biopsy will be obtained, and both arms will receive avelumab (A) for 3 additional cycles. Patients will then undergo breast surgery.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Stage II-III ER-positive breast cancer\n* Tumor evaluable either by ultrasound or by touch.\n* Age ≥ 18 years.\n* Eastern Cooperative Oncology Group performance status of 1 or less.\n* Adequate organ and bone marrow function within 28 days prior to registration.\n* Females of child",
+            "endpoints": [
+              "Clinical Complete Response"
+            ],
+            "sponsor": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins",
+            "url": "https://clinicaltrials.gov/study/NCT03573648"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07222215",
+            "title": "A Phase II Multi-Center Open-label Randomized Study of CAPecitabine in Combination With ELAcestrant Versus Capecitabine Alone in Advanced Estrogen Receptor-Positive Breast Cancer (CAPELA)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2026-01-16",
+            "completion_date": "2030-10-01",
+            "country": "United States",
+            "enrollment": 297,
+            "brief_summary": "The goal of this research study is to compare a combination of two drugs, capecitabine and elacestrant to capecitabine alone as a treatment for advanced estrogen receptor-positive (ER+) breast cancer. This study is designed for participants with cancer that has previously stopped responding to medication in the class of therapy called CDK 4/6 inhibitors, including palbociclib, ribociclib, or abemaciclb.\n\nThe names of the study drugs involved in this study are:\n\n* Elacestrant (a type of selective",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Participants must have histologically confirmed estrogen receptor-positive (ER+), HER2- negative metastatic or locally recurrent unresectable (advanced) invasive breast cancer.\n\nER and HER2 measurements should be performed according to institutional guidelines in a CLIA-approv",
+            "endpoints": [
+              "Progression Free Survival (PFS) in ESR1 mutant population",
+              "Progression Free Survival (PFS) in intention to treat (ITT) population"
+            ],
+            "sponsor": "Dana-Farber Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT07222215"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03878524",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: PRIME",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2020-04-01",
+            "completion_date": "2020-12-10",
+            "country": "United States",
+            "enrollment": 2,
+            "brief_summary": "This phase Ib trial determines if samples from a patient's cancer can be tested to find combinations of drugs that provide clinical benefit for the kind of cancer the patient has. This study is also being done to understand why cancer drugs can stop working and how different cancers in different people respond to different types of therapy.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Ability to understand and the willingness to sign a written informed consent document\n* Participants \\>= 21 years old at time of informed consent. Both men and women and members of all races and ethnic groups will be included\n* Participants, both men and women, must agree ",
+            "endpoints": [
+              "Feasibility of implementing an individualized treatment strategy (number of participants to receive first dose)"
+            ],
+            "sponsor": "OHSU Knight Cancer Institute",
+            "url": "https://clinicaltrials.gov/study/NCT03878524"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04478266",
+            "title": "A Randomized, Multicenter, Double-blind Phase 3 Study of Amcenestrant (SAR439859) Plus Palbociclib Versus Letrozole Plus Palbociclib for the Treatment of Patients With ER (+), HER2 (-) Breast Cancer Who Have Not Received Prior Systemic Anti-cancer Treatment for Advanced Disease",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "start_date": "2020-10-14",
+            "completion_date": "2023-05-26",
+            "country": "Australia, Belgium, Austria, United States, Ukraine, Canada, South Korea, Netherlands, Italy, Chile, Czechia, Russia, Japan, Poland, United Kingdom, France, Brazil, Germany, Argentina, Hungary, Georgia, Spain, Turkey (Türkiye), South Africa, Finland, China, Portugal, Bulgaria, Singapore, Taiwan",
+            "enrollment": 1068,
+            "brief_summary": "Primary Objective:\n\nTo determine whether Amcenestrant (SAR439859) in combination with palbociclib improves progression free survival (PFS) when compared with letrozole in combination with palbociclib in participants with estrogen receptor positive (ER+), human epidermal growth factor receptor 2 negative (HER2-) advanced breast cancer who have not received any prior systemic anticancer therapies for advanced disease.\n\nSecondary Objective:\n\n* To compare the overall survival in both treatment arms.",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Adult participants with loco-regional recurrent or metastatic disease not amenable to curative treatment.\n* Confirmed diagnosis of ER+/HER2- breast cancer.\n* No prior systemic treatment for loco-regional recurrent or metastatic disease.\n* Measurable disease evaluable per Resp",
+            "endpoints": [
+              "Progression-free Survival (PFS)"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT04478266"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05564377",
+            "title": "Molecular Analysis for Combination Therapy Choice (ComboMATCH)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-04-07",
+            "completion_date": "2030-07-01",
+            "country": "Puerto Rico, United States",
+            "enrollment": 2900,
+            "brief_summary": "This ComboMATCH patient screening trial is the gateway to a coordinated set of clinical trials to study cancer treatment directed by genetic testing. Patients with solid tumors that have spread to nearby tissue or lymph nodes (locally advanced) or have spread to other places in the body (advanced) and have progressed on at least one line of standard systemic therapy or have no standard treatment that has been shown to prolong overall survival may be candidates for these trials. Genetic tests loo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must have measurable disease\n* Patient must have an Eastern Cooperative Oncology Group (ECOG) performance status between 0-2 OR patient must have Lansky performance status of \\>= 50% or Karnofsky performance status of \\>= 50%\n* Patient must be deemed potentially eligib",
+            "endpoints": [
+              "Accrual of patients to ComboMATCH treatment trials",
+              "Assignment of patients to ComboMATCH treatment trials",
+              "Enrollment rates to ComboMATCH treatment trials"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05564377"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9885172843933104,
+        "txgnn_rank": 11674,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hyperthyroxinemia",
+        "txgnn_score": 0.9877979159355164,
+        "txgnn_rank": 12211,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Prinzmetal angina",
+        "txgnn_score": 0.9874738454818726,
+        "txgnn_rank": 12468,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09073",
+    "name": "Palbociclib",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Palbociclib"
+      },
+      "queried_at": "2026-03-10T04:01:25.884253",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Palbociclib"
+      },
+      "queried_at": "2026-03-10T04:01:26.771662",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T04:01:27.282737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T04:01:30.580178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "hyperthyroidism"
+      },
+      "queried_at": "2026-03-10T04:01:31.227903",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:01:31.778422",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:01:35.224073",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "rheumatoid arthritis"
+      },
+      "queried_at": "2026-03-10T04:01:38.223328",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-10T04:01:41.058394",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-10T04:01:44.649207",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "thrombotic disease"
+      },
+      "queried_at": "2026-03-10T04:01:47.603270",
+      "status": "success",
+      "result_count": 10,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+      },
+      "queried_at": "2026-03-10T04:01:48.182049",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+      },
+      "queried_at": "2026-03-10T04:01:52.031759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+      },
+      "queried_at": "2026-03-10T04:01:53.103839",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T04:01:53.781964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T04:01:57.650039",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-10T04:01:58.380902",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T04:01:59.108293",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T04:02:02.881307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-10T04:02:05.404203",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T04:02:10.109392",
+      "status": "success",
+      "result_count": 25,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T04:02:14.618964",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "queried_at": "2026-03-10T04:02:15.579957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T04:02:16.584070",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T04:02:20.182913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-10T04:02:20.901672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "hyperthyroxinemia"
+      },
+      "queried_at": "2026-03-10T04:02:21.445315",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "hyperthyroxinemia"
+      },
+      "queried_at": "2026-03-10T04:02:25.095826",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "hyperthyroxinemia"
+      },
+      "queried_at": "2026-03-10T04:02:26.447495",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T04:02:27.043366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T04:02:30.338610",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Palbociclib",
+        "disease": "Prinzmetal angina"
+      },
+      "queried_at": "2026-03-10T04:02:31.511160",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:02:31.513430"
+  }
+}

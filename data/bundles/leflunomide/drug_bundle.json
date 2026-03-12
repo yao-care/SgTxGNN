@@ -1,0 +1,1310 @@
+{
+  "drug": {
+    "inn": "Leflunomide",
+    "drugbank_id": "DB01097",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "brachydactyly-syndactyly syndrome",
+        "txgnn_score": 0.999293565750122,
+        "txgnn_rank": 1517,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+        "txgnn_score": 0.9992623925209044,
+        "txgnn_rank": 1556,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "indolent plasma cell myeloma",
+        "txgnn_score": 0.9546870589256288,
+        "txgnn_rank": 25538,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "plasma cell myeloma",
+        "txgnn_score": 0.9515765905380248,
+        "txgnn_rank": 26325,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01646385",
+            "title": "Long-term Safety and Efficacy of Etanercept in a UK Observational Cohort Study - a Retrospective Database Analysis of British Society of Rheumatology Biologics Registry (BSRBR) Data",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2012-02",
+            "completion_date": "2012-08",
+            "country": "N/A",
+            "enrollment": 6393,
+            "brief_summary": "This study will assess the rates of serious adverse events and death in adult rheumatoid arthritis patients treated with etanercept over the long-term in real-life clinical practice. It will also assess whether there is any difference in the rate of serious adverse events in patients trated with etanercept in comparision to patients treated with conventional disease-modifying anti-rheumatic drugs (DMARDs). The study will in addition quantify the efficacy of etanercept in this population by asses",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* adult\n* rheumatoid arthritis\n* group 1: initiating etanercept as first biologic therapy\n* group 2: DAS28\\<4.2, biologic naive and treated with non-biologic DMARDs\n\nExclusion Criteria:\n\n* diagnosis of other inflammatory arthritis",
+            "endpoints": [
+              "Crude Incidence Rate of Malignancy",
+              "Crude Incidence Rate of Lymphoproliferative Malignancy (LM)",
+              "Crude Incidence Rate of Serious Infections"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT01646385"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00720798",
+            "title": "Long-term Extension Study of Safety During Treatment With Tocilizumab (MRA) in Patients Completing Treatment in MRA Core Studies",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2005-09",
+            "completion_date": "2013-04",
+            "country": "Australia, Belgium, United States, Slovenia, Peru, Iceland, Lithuania, Canada, Netherlands, Italy, Russia, Czechia, Sweden, Thailand, Serbia, Norway, Hong Kong, United Kingdom, France, Brazil, Germany, Argentina, Israel, Denmark, Mexico, Panama, Switzerland, Spain, Finland, China, Portugal, Costa Rica, South Africa, Puerto Rico",
+            "enrollment": 2067,
+            "brief_summary": "This single-arm study evaluated the long-term efficacy and safety of tocilizumab in participants who had completed treatment in the tocilizumab core studies (NCT00106522 \\[Roche protocol WA18062\\], NCT00106574 \\[Roche protocol WA18063\\], and NCT00109408 \\[Roche protocol WA17824\\]) of adults with rheumatoid arthritis. Participants received tocilizumab alone or in combination with standard anti-rheumatic treatment.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who have completed participation in 1 of the core studies in adult rheumatoid arthritis.\n\nExclusion Criteria:\n\n* Treatment with any investigational agent since the last administration of study drug in the core studies.\n* Treatment with iv gamma globulin, plasmapheresi",
+            "endpoints": [
+              "Percentage of Participants With ≥ 1 Adverse Event"
+            ],
+            "sponsor": "Hoffmann-La Roche",
+            "url": "https://clinicaltrials.gov/study/NCT00720798"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03952832",
+            "title": "Phase 2 Trial of Leflunomide in Patients With High-Risk Smoldering Multiple Myeloma",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "start_date": "2019-12-11",
+            "completion_date": "2021-06-11",
+            "country": "United States",
+            "enrollment": 0,
+            "brief_summary": "This phase II trial studies how well leflunomide works in treating patients with high-risk smoldering multiple myeloma. Leflunomide may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All subjects must have the ability to understand and the willingness to sign a written informed consent\n* Patients must have a life expectancy of \\> 3 months\n* Patients must exhibit an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2\n* Patients must have a d",
+            "endpoints": [
+              "Progression to multiple myeloma",
+              "Overall survival"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT03952832"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02509052",
+            "title": "A Phase I/II Dose-Escalation Trial of Leflunomide in Patients With Relapsed or Relapsed/Refractory Multiple Myeloma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2015-12-02",
+            "completion_date": "2022-06-09",
+            "country": "United States",
+            "enrollment": 12,
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of leflunomide in treating patients with multiple myeloma that has come back (relapsed) or has not responded to previous treatment (refractory). Leflunomide may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All subjects must have the ability to understand and the willingness to sign a written informed consent\n* Patients must have a life expectancy of \\> 3 months\n* Patients must exhibit an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2\n* Patients must have a d",
+            "endpoints": [
+              "MTD, Defined as the Highest Dose in Which =< 1/6 Patients Experience a Dose-limiting Toxicity, Graded According to the National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.03",
+              "Best Overall Response Rate: Proportion of Patients Reaching CR by IMWG Criteria"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT02509052"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04370483",
+            "title": "Pilot Trial of Leflunomide in Patients With High-Risk Smoldering Multiple Myeloma",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2020-10-08",
+            "completion_date": "2026-11-10",
+            "country": "United States",
+            "enrollment": 1,
+            "brief_summary": "This pilot trial studies how well leflunomide works for the treatment of patients with high-risk smoldering plasma cell myeloma, for the delay of disease progression. Anti-inflammatory drugs, such as leflunomide lower the body's immune response and are used with other drugs in the treatment of some types of cancer. The information learned from this study will help researchers to learn more about the anti-myeloma activity of leflunomide, and whether it may delay the onset of symptomatic multiple ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All subjects must have the ability to understand and the willingness to sign a written informed consent\n* Patients must have a life expectancy of \\> 3 months\n* Patients must exhibit an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2\n* Patients must have a d",
+            "endpoints": [
+              "Progressive disease"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04370483"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04508790",
+            "title": "A Phase 2 Trial of Leflunomide, Pomalidomide, and Dexamethasone for Relapsed/Refractory Multiple Myeloma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2020-11-27",
+            "completion_date": "2027-02-14",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "This phase II trial studies how well leflunomide, pomalidomide, and dexamethasone work for the treatment of multiple myeloma that has come back (relapsed) or does not respond to treatment (refractory). Leflunomide may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Immunotherapy with pomalidomide, may induce changes in body's immune system and may interfere with the ability of tumor cells to grow and spread. Chemotherapy drugs, such as dexamethasone, work ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented informed consent of the participant and/or legally authorized representative\n\n  * Assent, when appropriate, will be obtained per institutional guidelines\n* Agreement to allow the use of archival tissue from diagnostic tumor biopsies\n\n  * If unavailable, exceptions m",
+            "endpoints": [
+              "Overall response"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT04508790"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05014646",
+            "title": "Phase 2 Trial of Leflunomide in African-American and European-American Patients With High-Risk Smoldering Multiple Myeloma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2022-03-07",
+            "completion_date": "2027-01-16",
+            "country": "United States",
+            "enrollment": 27,
+            "brief_summary": "This phase II trial studies the effects of leflunomide in treating African-American and European-American patients with high-risk smoldering multiple myeloma. Leflunomide is used to decrease the body's immune response and may delay the symptoms of multiple myeloma in patients of African-American and European decent.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* All subjects must have the ability to understand and the willingness to sign a written informed consent\n* Patients must be age \\>= 18 years\n* Patients must have a life expectancy of \\> 24 months\n* Patients must exhibit an Eastern Cooperative Oncology Group (ECOG) performance s",
+            "endpoints": [
+              "Progression to multiple myeloma",
+              "Incidence of adverse events"
+            ],
+            "sponsor": "City of Hope Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05014646"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05605587",
+            "title": "Leflunomide Treatment for MEN1 Patients - the LUMEN1 Trial",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "start_date": "2023-05-02",
+            "completion_date": "2026-01-13",
+            "country": "Switzerland",
+            "enrollment": 3,
+            "brief_summary": "Multiple endocrine neoplasia type 1 (MEN1) is an autosomal dominant disorder due to mutations in the tumor suppressor gene MEN1 with the corresponding gen product menin. MEN1 is characterized by the occurrence of parathyroid, pancreatic islet and anterior pituitary tumors which can release excessive amounts of hormones (= functional active tumors). Other tumors (e.g. carcinoid tumors, adrenocortical tumors, meningiomas, facial angiofibromas, collagenomas, lipomas) have also been described. There",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adult (≥18 years) patients with known pathogenic or likely pathogenic MEN1-germline mutation and at least 1 associated tumor lesion OR hormonal syndrome\n\nExclusion Criteria:\n\n* uncontrolled arterial hypertension, defined as blood pressure \\>160/100 mmHg\n* Impaired kidney funct",
+            "endpoints": [
+              "The primary outcome is the effect of a 6 months' treatment with leflunomide 20mg/day on MEN1-associated functional and non-functional tumors"
+            ],
+            "sponsor": "University Hospital, Basel, Switzerland",
+            "url": "https://clinicaltrials.gov/study/NCT05605587"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "16155443",
+            "title": "Toxic neuropathy.",
+            "abstract": "This paper examines recent research on toxic neuropathy and potential therapeutic developments. It also summarizes reports of new agents reported to cause peripheral neuropathy.",
+            "journal": "Current opinion in neurology",
+            "year": "2005",
+            "authors": [
+              "Umapathi Thirugnanam",
+              "Chaudhry Vinay"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Boronic Acids",
+              "Bortezomib",
+              "Clinical Trials as Topic",
+              "Epothilones",
+              "Genetic Therapy",
+              "Humans",
+              "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+              "Isoxazoles",
+              "Leflunomide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16155443/"
+          },
+          {
+            "pmid": "34577124",
+            "title": "The Mitochondria-Independent Cytotoxic Effect of Leflunomide on RPMI-8226 Multiple Myeloma Cell Line.",
+            "abstract": "Leflunomide, an anti-inflammatory agent, has been shown to be effective in multiple myeloma (MM) treatment; however, the mechanism of this phenomenon has not been fully elucidated. The aim of the study was to assess the role of mitochondria and dihydroorotate dehydrogenase (DHODH) inhibition in the cytotoxicity of leflunomide in relation to the MM cell line RPMI 8226. The cytotoxic effect of teriflunomide-an active metabolite of leflunomide-was determined using MTT assay, apoptosis detection, and cell cycle analysis. To evaluate DHODH-dependent toxicity, the cultures treated with teriflunomide were supplemented with uridine. Additionally, the level of cellular thiols as oxidative stress symptom was measured as well as mitochondrial membrane potential and protein tyrosine kinases (PTK) activity. The localization of the compound in cell compartments was examined using HPLC method. Teriflunomide cytotoxicity was not abolished in uridine presence. Observed apoptosis occurred in a mitochond",
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2021",
+            "authors": [
+              "Adamczuk Grzegorz",
+              "Humeniuk Ewelina",
+              "Iwan Magdalena",
+              "Natorska-Chomicka Dorota",
+              "Adamczuk Kamila"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Leflunomide",
+              "Humans",
+              "Multiple Myeloma",
+              "Mitochondria",
+              "Cell Line, Tumor",
+              "Dihydroorotate Dehydrogenase",
+              "Toluidines",
+              "Apoptosis",
+              "Crotonates",
+              "Hydroxybutyrates"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34577124/"
+          },
+          {
+            "pmid": "19174558",
+            "title": "Dihydroorotate dehydrogenase inhibitor A771726 (leflunomide) induces apoptosis and diminishes proliferation of multiple myeloma cells.",
+            "abstract": "Multiple myeloma is still an incurable disease; therefore, new therapeutics are urgently needed. A771726 is the active metabolite of the immunosuppressive drug leflunomide, which is currently applied in the treatment of rheumatoid arthritis, BK virus nephropathy, and cytomegaly viremia. Here, we show that dihydroorotate dehydrogenase (DHODH) is commonly expressed in multiple myeloma cell lines and primary multiple myeloma cells. The DHODH inhibitor A771726 inhibits cell growth in common myeloma cell lines at clinically achievable concentrations in a time- and dose-dependent manner. Annexin V-FITC/propidium iodide staining revealed induction of apoptosis of multiple myeloma cell lines and primary multiple myeloma cells. The 5-bromo-2'-deoxyuridine cell proliferation assay showed that inhibition of cell growth was partly due to inhibition of multiple myeloma cell proliferation. A771726 induced G(1) cell cycle arrest via modulation of cyclin D2 and pRb expression. A771726 decreased phosph",
+            "journal": "Molecular cancer therapeutics",
+            "year": "2009",
+            "authors": [
+              "Baumann Philipp",
+              "Mandl-Weber Sonja",
+              "Völkl Andreas",
+              "Adam Christian",
+              "Bumeder Irmgard"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adaptor Proteins, Signal Transducing",
+              "Antineoplastic Agents",
+              "Apoptosis",
+              "Cell Adhesion Molecules",
+              "Cell Cycle Proteins",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Culture Media",
+              "Dihydroorotate Dehydrogenase",
+              "Down-Regulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19174558/"
+          },
+          {
+            "pmid": "40814067",
+            "title": "Targeting the MARCH5-MFN2 axis to enhance mitochondrial fusion and sensitize multiple myeloma cells to venetoclax.",
+            "abstract": "Accumulating evidence suggests that mitochondrial fission and fusion events are imbalanced in cancer due to defective activity of their key regulators. In this study, we investigated the functional role of the E3 ubiquitin ligase Membrane-Associated Ring-CH-Type Finger 5 (MARCH5) in regulating cell growth, metabolic reprogramming and drug resistance in multiple myeloma (MM) through the negative regulation of the mitochondrial fusion driver mitofusin 2 (MFN2).",
+            "journal": "Journal of translational medicine",
+            "year": "2025",
+            "authors": [
+              "Valentino Ilenia",
+              "Gallo Cantafio Maria Eugenia",
+              "Torcasio Roberta",
+              "Murfone Pierpaolo",
+              "Ganino Ludovica"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Multiple Myeloma",
+              "Humans",
+              "GTP Phosphohydrolases",
+              "Mitochondrial Dynamics",
+              "Animals",
+              "Mitochondrial Proteins",
+              "Cell Line, Tumor",
+              "Bridged Bicyclo Compounds, Heterocyclic",
+              "Sulfonamides",
+              "Apoptosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40814067/"
+          },
+          {
+            "pmid": "36996290",
+            "title": "Leflunomide Confers Rapid Recovery from COVID-19 and is Coupled with Temporal Immunologic Changes.",
+            "abstract": "Vaccines for SARS-CoV-2 have been considerably effective in reducing rates of infection and severe COVID-19. However, many patients, especially those who are immunocompromised due to cancer or other factors, as well as individuals who are unable to receive vaccines or are in resource-poor countries, will continue to be at risk for COVID-19. We describe clinical, therapeutic, and immunologic correlatives in two patients with cancer and severe COVID-19 who were treated with leflunomide after failing to respond to standard-of-care comprising remdesivir and dexamethasone. Both patients had breast cancer and were on therapy for the malignancy.",
+            "journal": "Journal of immunological sciences",
+            "year": "2023",
+            "authors": [
+              "Dona Ada Alice",
+              "Sanchez James F",
+              "Palmer Joycelynne M",
+              "Synold Timothy W",
+              "Chiuppesi Flavia"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36996290/"
+          },
+          {
+            "pmid": "32268821",
+            "title": "Repurposing leflunomide for relapsed/refractory multiple myeloma: a phase 1 study.",
+            "abstract": "The inexpensive, well-tolerated, immunomodulatory agent leflunomide, used extensively for the treatment of rheumatoid arthritis, has been shown to produce significant activity against multiple myeloma (MM) in pre-clinical studies. We conducted a phase 1 study (clinicaltrials.gov: NCT02509052) of single agent leflunomide in patients with relapsed/refractory MM (≥3 prior therapies). At dose levels 1 and 2 (20 and 40 mg), no dose-limiting toxicities (DLTs) were observed. At dose level 3 (60 mg), one patient experienced elevated alanine aminotransferase; an additional three patients were enrolled at this dose level without further DLTs. Overall, toxicities were infrequent and manageable. Nine out of 11 patients achieved stable disease (SD), two subjects experiencing SD for nearly one year or longer. The tolerable safety profile of leflunomide, combined with a potential disease stabilization, is motivating future studies of leflunomide, in combination with other MM drugs, or as an approach ",
+            "journal": "Leukemia & lymphoma",
+            "year": "2020",
+            "authors": [
+              "Rosenzweig Michael",
+              "Palmer Joycelynne",
+              "Tsai Ni-Chun",
+              "Synold Tim",
+              "Wu Xiwei"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase I",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Drug Repositioning",
+              "Humans",
+              "Leflunomide",
+              "Multiple Myeloma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32268821/"
+          },
+          {
+            "pmid": "30940637",
+            "title": "Leflunomide regulates c-Myc expression in myeloma cells through PIM targeting.",
+            "abstract": "Teriflunomide, the active metabolite of leflunomide, downregulates c-Myc expression through inhibition of PIM kinases. Leflunomide together with lenalidomide significantly extended survival in an in vivo MM model.",
+            "journal": "Blood advances",
+            "year": "2019",
+            "authors": [
+              "Buettner Ralf",
+              "Morales Corey",
+              "Caserta Enrico",
+              "Troadec Estelle",
+              "Gunes Emine G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Drug Synergism",
+              "Drug Therapy, Combination",
+              "Enzyme Inhibitors",
+              "Humans",
+              "Leflunomide",
+              "Lenalidomide",
+              "Mice",
+              "Multiple Myeloma",
+              "Proto-Oncogene Proteins c-myc"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30940637/"
+          },
+          {
+            "pmid": "36349910",
+            "title": "Buettner R, Morales C, Caserta E, et al. Leflunomide regulates c-Myc expression in myeloma cells through PIM targeting. Blood Adv. 2019;3(7):1027-1032.",
+            "abstract": "",
+            "journal": "Blood advances",
+            "year": "2022",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leflunomide",
+              "Multiple Myeloma",
+              "Proto-Oncogene Proteins c-pim-1",
+              "Proto-Oncogene Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36349910/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "txgnn_score": 0.9299437999725342,
+        "txgnn_rank": 30652,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06923488",
+            "title": "Phase I/II Study of Leflunomide in Combination With Decitabine for Treatment of Relapsed or Refractory (R/R) Myelodysplastic Syndromes (MDS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2025-08",
+            "completion_date": "2028-10",
+            "country": "United States",
+            "enrollment": 26,
+            "brief_summary": "The goal of this interventional clinical trial is to evaluate the safety and tolerability of leflunomide in combination with decitabine as treatment for patients with relapsed or refractory myelodysplastic syndromes (R/R MDS).\n\nThe main question this study aims to answer are to evaluate and estimate the maximum tolerated doses and/or biologically active doses of the combination of leflunomide-decitabine in participants.\n\nDecitabine will be administered at a dose of 20 mg/m2 by continuous intrave",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient has pathologically confirmed diagnosis of MDS\n* Patient has currently measurable disease meeting the following criteria:\n\n  * Bone marrow biopsy with more than 5% blasts, AND\n  * Absolute neutrophil count (ANC) less than 1,000/mcL, and/or platelet count less than 100,0",
+            "endpoints": [
+              "Percentage of incidences of regimen limiting toxicities (RLTs)"
+            ],
+            "sponsor": "West Virginia University",
+            "url": "https://clinicaltrials.gov/study/NCT06923488"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "15385935",
+            "title": "CPEC induces erythroid differentiation of human myeloid leukemia K562 cells through CTP depletion and p38 MAP kinase.",
+            "abstract": "Cyclopentenyl cytosine (CPEC) is a carbocyclic cytidine analog inhibitor of CTP synthetase and experimental drug for combination chemotherapy. CPEC treatment (50 nM) depleted intracellular CTP and induced a specific S-phase arrest and erythroid differentiation of human erythroleukemia K562 cells. The equilibrative nucleoside transporters (ENT1, 2) facilitated uptake of CPEC into K562 cells as evidenced by both NBMPR and dipyridamole inhibition of CPEC-mediated CTP depletion and erythroid differentiation. Incubation with the pyridinylimidazole p38 MAPK inhibitors, SB203580 or SB220025, suppressed both the CPEC-induced cell cycle arrest and differentiation of K562 cells. SB203580 also prevented the cell cycle arrest and erythroid differentiation of K562 cells induced by Leflunomide (LEF), a non-nucleoside inhibitor of the de novo pyrimidine pathway, without affecting LEF-induced depletion of pyrimidine pools. Finally, selective knockdown of p38 MAPK by using Smart Pooltrade mark siRNA to",
+            "journal": "Leukemia",
+            "year": "2004",
+            "authors": [
+              "Huang M",
+              "Wang Y",
+              "Collins M",
+              "Graves L M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Affinity Labels",
+              "Carbon-Nitrogen Ligases",
+              "Cell Differentiation",
+              "Cytidine",
+              "Cytidine Triphosphate",
+              "Dipyridamole",
+              "Enzyme Inhibitors",
+              "Equilibrative Nucleoside Transporter 1",
+              "Erythroid Precursor Cells",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15385935/"
+          },
+          {
+            "pmid": "30347213",
+            "title": "Revisiting the role of dihydroorotate dehydrogenase as a therapeutic target for cancer.",
+            "abstract": "Identified as a hallmark of cancer, metabolic reprogramming allows cancer cells to rapidly proliferate, resist chemotherapies, invade, metastasize, and survive a nutrient-deprived microenvironment. Rapidly growing cells depend on sufficient concentrations of nucleotides to sustain proliferation. One enzyme essential for the de novo biosynthesis of pyrimidine-based nucleotides is dihydroorotate dehydrogenase (DHODH), a known therapeutic target for multiple diseases. Brequinar, leflunomide, and teriflunomide, all of which are potent DHODH inhibitors, have been clinically evaluated but failed to receive FDA approval for the treatment of cancer. Inhibition of DHODH depletes intracellular pyrimidine nucleotide pools and results in cell cycle arrest in S-phase, sensitization to current chemotherapies, and differentiation in neural crest cells and acute myeloid leukemia (AML). Furthermore, DHODH is a synthetic lethal susceptibility in several oncogenic backgrounds. Therefore, DHODH-targeted t",
+            "journal": "Pharmacology & therapeutics",
+            "year": "2019",
+            "authors": [
+              "Madak Joseph T",
+              "Bankhead Armand",
+              "Cuthbertson Christine R",
+              "Showalter Hollis D",
+              "Neamati Nouri"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cell Differentiation",
+              "Dihydroorotate Dehydrogenase",
+              "Humans",
+              "Molecular Targeted Therapy",
+              "Neoplasms",
+              "Oxidoreductases Acting on CH-CH Group Donors",
+              "Pyrimidines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30347213/"
+          },
+          {
+            "pmid": "16927021",
+            "title": "Low dose leflunomide activates PI3K/Akt signalling in erythroleukemia cells and reduces apoptosis induced by anticancer agents.",
+            "abstract": "Rheumatoid arthritis (RA) is characterized by persistent joint synovial tissue inflammation. Leflunomide is an immunomodulatory agent that has been approved for treatment of active RA. In the past few years, uses other than RA treatment have appeared. Leflunomide has been reported to show antitumor potential through inhibition of cancer cell proliferation. We thus tested the antiproliferative potential of leflunomide on HEL and K562 erythroleukemia cells. The findings summarized in this report demonstrate for the first time that low dose leflunomide prolonged survival and reduced apoptosis induced by several anticancer agents in erythroleukemia cells. We showed that in treated cells, leflunomide reduced the signalling pathways involved in promoting apoptosis by reducing p38 MAPK and JNK basal activity. On the other hand, leflunomide transiently activated the ERK signalling pathway and induced a sustained activation of Akt. We also showed that leflunomide reduced caspase-3 activity and ",
+            "journal": "Apoptosis : an international journal on programmed cell death",
+            "year": "2006",
+            "authors": [
+              "Leger D Y",
+              "Liagre B",
+              "Beneytout J L"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Apoptosis",
+              "Caspase 3",
+              "Cell Proliferation",
+              "Cell Survival",
+              "DNA Fragmentation",
+              "Dose-Response Relationship, Drug",
+              "Enzyme Activation",
+              "Etoposide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16927021/"
+          },
+          {
+            "pmid": "11740804",
+            "title": "Platelet-derived growth factor receptors: a therapeutic target in solid tumors.",
+            "abstract": "Platelet-derived growth factor (PDGF) was one of the first polypeptide growth factors identified that signals through a cell surface tyrosine kinase receptor (PDGF-R) to stimulate various cellular functions including growth, proliferation, and differentiation. Since then, several related genes have been identified constituting a family of ligands (primarily PDGF A and B) and their cognate receptors (PDGF-R alpha and beta). To date, PDGF expression has been shown in a number of different solid tumors, from glioblastomas to prostate carcinomas. In these various tumor types, the biologic role of PDGF signaling can vary from autocrine stimulation of cancer cell growth to more subtle paracrine interactions involving adjacent stroma and even angiogenesis. The tyrosine kinase inhibitor imatinib mesylate (formerly STI571, [Gleevec]; Novartis Pharmaceuticals Corp, East Hanover, NJ) blocks activity of the Bcr-Abl oncoprotein, and was recently approved for several indications in the treatment of ",
+            "journal": "Seminars in oncology",
+            "year": "2001",
+            "authors": [
+              "George D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Clinical Trials as Topic",
+              "Enzyme Inhibitors",
+              "Humans",
+              "Imatinib Mesylate",
+              "Isoxazoles",
+              "Leflunomide",
+              "Ligands",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11740804/"
+          },
+          {
+            "pmid": "27094950",
+            "title": "BK virus-hemorrhagic cystitis following allogeneic stem cell transplantation: Clinical characteristics and utility of leflunomide treatment.",
+            "abstract": "BK virus-hemorrhagic cystitis (BKV-HC) is a potential cause of morbidity and mortality in patients having undergone allogeneic stem cell transplantation (Allo-SCT). We analyzed the clinical features of BKV-HC following Allo-SCT and reported the utility of leflunomide therapy for BKV-HC.",
+            "journal": "Turkish journal of haematology : official journal of Turkish Society of Haematology",
+            "year": "2016",
+            "authors": [
+              "Park Young Hoon",
+              "Lim Joo Han",
+              "Yi Hyeon Gyu",
+              "Lee Moon Hee",
+              "Kim Chul Soo"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27094950/"
+          },
+          {
+            "pmid": "31313387",
+            "title": "JAK inhibition by methotrexate (and csDMARDs) may explain clinical efficacy as monotherapy and combination therapy.",
+            "abstract": "Methotrexate (MTX) is recognized as the anchor drug in the algorithm treating chronic arthritis (RA, psoriatic arthritis), as well as a steroid sparing agent in other inflammatory conditions (polymyalgia rheumatica, vasculitis, scleroderma). Its main mechanism of action has been related to the increase in extracellular adenosine, which leads to the effects of A2A receptor in M1 macrophages that dampens TNFα and IL12 production and increases IL1Ra and TNFRp75. By acting on A2B receptor on M2 macrophages it enhances IL10 synthesis and inhibits NF-kB signaling. MTX has also been shown to exert JAK inhibition of JAK2 and JAK1 when tested in Drosophila melanogaster as a model of kinase activity and in human cell lines (nodular sclerosis Hodgkin's lymphoma and acute myeloid leukemia cell lines). These effects may explain why MTX leads to clinical effects similar to anti-TNFα biologics in monotherapy, but is less effective when compared to anti-IL6R in monotherapy, which acting upstream exert",
+            "journal": "Journal of leukocyte biology",
+            "year": "2019",
+            "authors": [
+              "Gremese Elisa",
+              "Alivernini Stefano",
+              "Tolusso Barbara",
+              "Zeidler Martin P",
+              "Ferraccioli Gianfranco"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Arthritis, Psoriatic",
+              "Drug Therapy, Combination",
+              "Humans",
+              "Janus Kinase 1",
+              "Janus Kinase 2",
+              "Janus Kinase Inhibitors",
+              "Leflunomide",
+              "Methotrexate",
+              "Rheumatic Fever"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31313387/"
+          },
+          {
+            "pmid": "12181422",
+            "title": "A77 1726 induces differentiation of human myeloid leukemia K562 cells by depletion of intracellular CTP pools.",
+            "abstract": "A77 1726 (LEF) is the active metabolite of leflunomide, a recently approved immunosuppressive agent. We examined the ability of LEF to induce differentiation of a human erythroleukemia (K562) cell line and show that LEF induces a dose- and time-dependent differentiation of these cells as characterized by growth inhibition, hemoglobin production, and erythroid membrane protein glycophorin A expression. This effect was dependent on depletion of the intracellular pyrimidine ribonucleotides (UTP and CTP), and preceded by a specific S-phase arrest of the cell cycle. Supplementation of the cultures with exogenous uridine restored intracellular UTP and CTP to normal levels and prevented the LEF-induced cell cycle block and differentiation of K562 cells. Interestingly, addition of cytidine alone blocked the LEF-induced differentiation of K562 cells but only restored the CTP pool. By contrast, neither deoxycytidine nor thymidine prevented the effects of LEF on these cells. Similarly, pyrimidine",
+            "journal": "Molecular pharmacology",
+            "year": "2002",
+            "authors": [
+              "Huang Min",
+              "Wang Yanhong",
+              "Collins Matthew",
+              "Mitchell Beverly S",
+              "Graves Lee M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Aniline Compounds",
+              "Anti-Inflammatory Agents, Non-Steroidal",
+              "Aspartate Carbamoyltransferase",
+              "Carbamoyl-Phosphate Synthase (Glutamine-Hydrolyzing)",
+              "Cell Cycle Proteins",
+              "Cell Differentiation",
+              "Cell Division",
+              "Crotonates",
+              "Cytidine",
+              "Cytidine Triphosphate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12181422/"
+          },
+          {
+            "pmid": "41549155",
+            "title": "BCOR mutations define a therapeutic vulnerability to DHODH Inhibition in acute myeloid leukemia.",
+            "abstract": "Acute Myeloid Leukemia (AML) remains challenging to treat, especially in cases with mutations in the BCL-6 co-repressor (BCOR), which are associated with poor prognosis and chemo-resistance. In this study, we reveal a synthetic lethal interaction between BCOR and dihydroorotate dehydrogenase (DHODH). We demonstrate that BCOR-deficient cells have a heightened sensitivity to DHODH inhibitors such as brequinar and leflunomide, that are already in clinical use. We confirm that DHODH inhibition selectively induces cell death in BCOR-mutant cells in multiple cellular models, in malignant and non-malignant cells, through chemical and genetic manipulation. Interestingly, we find that the dependency on DHODH does not stem from its role in de novo pyrimidine biosynthesis disruption. Rather, DHODH's role in the electron transport chain, essential for mitigating reactive oxygen species, may be the physiological vulnerability that pushes BCOR-mutant cells toward cell death when DHODH is inhibited. ",
+            "journal": "Annals of hematology",
+            "year": "2026",
+            "authors": [
+              "Robert Florian",
+              "Badja Cherif",
+              "Boushaki Soraya",
+              "Degasperi Andrea",
+              "Memari Yasin"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Leukemia, Myeloid, Acute",
+              "Dihydroorotate Dehydrogenase",
+              "Proto-Oncogene Proteins",
+              "Oxidoreductases Acting on CH-CH Group Donors",
+              "Mutation",
+              "Reactive Oxygen Species",
+              "Cell Line, Tumor",
+              "Leflunomide",
+              "Enzyme Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41549155/"
+          },
+          {
+            "pmid": "29119937",
+            "title": "Use of human Dihydroorotate Dehydrogenase (hDHODH) Inhibitors in Autoimmune Diseases and New Perspectives in Cancer Therapy.",
+            "abstract": "Human dihydroorotate dehydrogenase (hDHODH, EC 1.3.5.2), a flavindependent mitochondrial enzyme involved in de novo pyrimidine biosynthesis, is a validated therapeutic target for the treatment of autoimmune diseases, such as rheumatoid arthritis and multiple sclerosis. However, human DHODH inhibitors have also been investigated as treatment for cancer, parasite infections (i.e. malaria) and viruses as well as in the agrochemicals industry.",
+            "journal": "Recent patents on anti-cancer drug discovery",
+            "year": "2018",
+            "authors": [
+              "Lolli Marco L",
+              "Sainas Stefano",
+              "Pippione Agnese C",
+              "Giorgis Marta",
+              "Boschi Donatella"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autoimmune Diseases",
+              "Dihydroorotate Dehydrogenase",
+              "Drug Discovery",
+              "Enzyme Inhibitors",
+              "Humans",
+              "Neoplasms",
+              "Oxidoreductases Acting on CH-CH Group Donors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29119937/"
+          },
+          {
+            "pmid": "35810104",
+            "title": "Intra-host diversity of drug-resistant cytomegalovirus: A case report of cytomegalovirus infection after allogeneic hematopoietic cell transplantation.",
+            "abstract": "Cytomegalovirus (CMV) is a major infectious agent causing severe complications in allogeneic hematopoietic cell transplantation (HCT) recipients, thereby warranting the need for aggressive preemptive or targeted antiviral therapy. However, prolonged or repeated use of antiviral agents, such as ganciclovir (GCV), foscarnet (FOS), and cidofovir (CDV), can result in drug-resistant CMV infection, posing challenges to successful outcomes. Here, we report a case of a patient with acute myeloid leukemia and drug-resistant CMV infection who presented with persistent CMV DNAemia, colitis, pneumonia, and encephalitis. An intra-host diversity of UL97 and UL54 mutations were detected through the genotypic resistance testing conducted on two blood samples (D+199 and D+224) and a cerebrospinal fluid (CSF) specimen (D+260) collected from the patient. UL97 L595W/L595F and L595W mutations were detected in the blood and CSF samples, respectively, that conferred GCV resistance. UL54 F412L mutation detect",
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2022",
+            "authors": [
+              "Jung Ji-Yoon",
+              "Nho Dukhee",
+              "Cho Sung-Yeon",
+              "Lee Dong-Gun",
+              "Choi Su-Mi"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "Cidofovir",
+              "Cytomegalovirus",
+              "Cytomegalovirus Infections",
+              "Drug Resistance, Viral",
+              "Foscarnet",
+              "Ganciclovir",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Mutation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35810104/"
+          },
+          {
+            "pmid": "16688677",
+            "title": "Treatment of refractory CMV-infection following hematopoietic stem cell transplantation with the combination of foscarnet and leflunomide.",
+            "abstract": "Treatment of cytomegalovirus (CMV) disease after allogeneic hematopoietic stem cell transplantation (HSCT) is limited by toxicities of current antiviral drugs and the occurrence of drug resistant strains. Leflunomide, an immunosuppressive agent used for treatment of rheumatoid arthritis, also has activity against CMV by impairing viral assembly. Here we report the control of refractory CMV disease by the combined use of foscarnet and leflunomide.",
+            "journal": "Klinische Padiatrie",
+            "year": "2006",
+            "authors": [
+              "Ehlert K",
+              "Groll A H",
+              "Kuehn J",
+              "Vormoor J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antiviral Agents",
+              "Bone Marrow Purging",
+              "Cytomegalovirus",
+              "Cytomegalovirus Infections",
+              "Drug Resistance, Viral",
+              "Drug Therapy, Combination",
+              "Foscarnet",
+              "Hematopoietic Stem Cell Transplantation",
+              "Humans",
+              "Immunosuppression Therapy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16688677/"
+          },
+          {
+            "pmid": "15489872",
+            "title": "Use of leflunomide in an allogeneic bone marrow transplant recipient with refractory cytomegalovirus infection.",
+            "abstract": "Ganciclovir-resistant cytomegalovirus (CMV) infection is an emerging problem in transplant recipients. Foscarnet resistance and cidofovir resistance have also been described, but no previous reports have suggested treatment regimens for patients with CMV refractory to all three of these drugs. Leflunomide, an immunosuppressive drug used in rheumatoid arthritis and in rejection in solid-organ transplantation, has been reported to have novel anti-CMV activity. However, its clinical utility in CMV treatment has not been described previously. We report an allogeneic bone marrow transplant recipient who developed CMV infection refractory to sequential therapy with ganciclovir, foscarnet, and cidofovir. The patient was ultimately treated with a combination of leflunomide and foscarnet. Both phenotypic and genotypic virologic analysis was performed on sequential CMV isolates. The patient's high CMV-DNA viral load became undetectable on leflunomide and foscarnet, but the patient, who had sever",
+            "journal": "Bone marrow transplantation",
+            "year": "2004",
+            "authors": [
+              "Avery R K",
+              "Bolwell B J",
+              "Yen-Lieberman B",
+              "Lurain N",
+              "Waldman W J"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Bone Marrow Transplantation",
+              "Cytomegalovirus Infections",
+              "Drug Resistance, Viral",
+              "Drug Therapy, Combination",
+              "Fatal Outcome",
+              "Female",
+              "Foscarnet",
+              "Graft vs Host Disease",
+              "Humans",
+              "Immunosuppressive Agents"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15489872/"
+          },
+          {
+            "pmid": "28702160",
+            "title": "BK Virus-associated Hemorrhagic Cystitis in Patients with Allogeneic Hematopoietic Cell Transplantation: Report of Three Cases.",
+            "abstract": "BK viras is a human polyoma viras. It is acquired in early childhood and remains life-long latent in the genitourinary system. BK virus replication is more common in receiving immunosuppressive therapy receiving patients and transplant patients. BK virus could cause hemorrhagic cystitis in patients with allogeneic stem cell transplantation. Hemorrhagic cystitis is a serious complication of hematopoietic stem cell transplantation. Hemorrhagic cystitis could cause morbidity and long stay in the hospital. Diagnosis is more frequently determined by the presence of BK virus DNA detected with quantitative or real-time PCR testing in serum or plasma and less often in urine. The reduction of immunosuppression is effective in the treatment of BK virus infection. There are also several agents with anti-BK virus activity. Cidofovir is an active agent against a variety of DNA viruses including poliomyoma viruses and it is a cytosine nucleotide analogue. Intravenous immunoglobulin IgG (IVIG) also i",
+            "journal": "Hematology reports",
+            "year": "2017",
+            "authors": [
+              "Mert Duygu",
+              "Batgi Hikmetullah",
+              "Merdin Alparslan",
+              "Çeken Sabahat",
+              "Dal Mehmet Sinan"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28702160/"
+          },
+          {
+            "pmid": "19998010",
+            "title": "[Rationale for bone marrow examination in patients with inflammatory rheumatic diseases].",
+            "abstract": "Inflammatory rheumatic diseases and the applied immunosuppressive treatments can lead to bone marrow depressions and promote hematologic malignancies. Our objective was to explore indications for and results of bone marrow examinations in a large cohort.",
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "2009",
+            "authors": [
+              "Richter Jutta G",
+              "Gossen Pascal",
+              "Germing Ulrich",
+              "Blum Sabine",
+              "Hildebrandt Barbara"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Anti-Inflammatory Agents",
+              "Bone Marrow",
+              "Bone Marrow Diseases",
+              "Comorbidity",
+              "Female",
+              "Germany",
+              "Humans",
+              "Incidence",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19998010/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Meester-Loeys syndrome",
+        "txgnn_score": 0.865501344203949,
+        "txgnn_rank": 37982,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ganglioneuroblastoma (disease)",
+        "txgnn_score": 0.7629511952400208,
+        "txgnn_rank": 43335,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "WHIM syndrome",
+        "txgnn_score": 0.7587745785713196,
+        "txgnn_rank": 43503,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "scalp dermatosis",
+        "txgnn_score": 0.7387028932571411,
+        "txgnn_rank": 44146,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05195814",
+            "title": "An Investigation of Tofacitinib PsA Initiators in the CorEvitas SpA Registry",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-11-15",
+            "completion_date": "2023-10-31",
+            "country": "United States",
+            "enrollment": 141,
+            "brief_summary": "The purpose of this study is to learn about the safety and effects of the study medicine for the potential treatment of Psoriatic Arthritis (PsA). Psoriatic Arthritis is a joint swelling disease that can also affect the skin, nails and eyes. The study medicine is called Tofacitinib. This study is seeking participants who:\n\n* Started taking tofacitinib alone or with other approved medicines (eg. methotrexate, leflunomide, sulfasalazine, apremilast) for PsA disease. We will only look at participan",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* PsA patients in CorEvitas initiating tofacitinib monotherapy or in combination with oral small molecules (eg methotrexate, leflunomide, sulfasalazine, apremilast) after 14 December 2017 (market approval of tofacitinib in the US) with no prior use of tofacitinib. Only the patie",
+            "endpoints": [
+              "Change From Baseline to 6 Months in Tender Joint Count (68)",
+              "Change From Baseline to 6 Months in Swollen Joint Count (66)",
+              "Percentage of Participants Achieving Minimal Disease Activity at 6 Month Follow-up Visit"
+            ],
+            "sponsor": "Pfizer",
+            "url": "https://clinicaltrials.gov/study/NCT05195814"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+        "txgnn_score": 0.7224610447883606,
+        "txgnn_rank": 44616,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01097",
+    "name": "Leflunomide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Leflunomide"
+      },
+      "queried_at": "2026-03-09T11:59:35.173068",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Leflunomide"
+      },
+      "queried_at": "2026-03-09T11:59:38.576459",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T11:59:39.701346",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T11:59:47.386267",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "queried_at": "2026-03-09T11:59:48.485629",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T11:59:49.607397",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T11:59:53.681357",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "queried_at": "2026-03-09T11:59:54.433366",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T11:59:55.487519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T11:59:59.062133",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T11:59:59.982570",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:00:02.054916",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:00:05.665478",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "plasma cell myeloma"
+      },
+      "queried_at": "2026-03-09T12:00:08.650132",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-09T12:00:09.397618",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-09T12:00:12.640448",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "myeloid leukemia"
+      },
+      "queried_at": "2026-03-09T12:00:16.661668",
+      "status": "success",
+      "result_count": 14,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "Meester-Loeys syndrome"
+      },
+      "queried_at": "2026-03-09T12:00:17.592762",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "Meester-Loeys syndrome"
+      },
+      "queried_at": "2026-03-09T12:00:22.450851",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "Meester-Loeys syndrome"
+      },
+      "queried_at": "2026-03-09T12:00:23.146298",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-09T12:00:24.350961",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-09T12:00:28.530737",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "queried_at": "2026-03-09T12:00:30.565340",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T12:00:31.160025",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T12:00:35.543436",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "WHIM syndrome"
+      },
+      "queried_at": "2026-03-09T12:00:37.111245",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "scalp dermatosis"
+      },
+      "queried_at": "2026-03-09T12:00:38.109811",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "scalp dermatosis"
+      },
+      "queried_at": "2026-03-09T12:00:41.308151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "scalp dermatosis"
+      },
+      "queried_at": "2026-03-09T12:00:42.102906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-09T12:00:42.660457",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-09T12:00:45.608494",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Leflunomide",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "queried_at": "2026-03-09T12:00:46.431137",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T12:00:46.445785"
+  }
+}

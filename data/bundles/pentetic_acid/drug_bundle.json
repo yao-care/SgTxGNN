@@ -1,0 +1,920 @@
+{
+  "drug": {
+    "inn": "Pentetic acid",
+    "drugbank_id": "DB14007",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "thrombocytopenic purpura",
+        "txgnn_score": 0.9724711179733276,
+        "txgnn_rank": 20336,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03784898",
+            "title": "Collection of Blood Samples From Patients With Relapsing Forms of Multiple Sclerosis (RMS) Who Have Developed Immune Thrombocytopenic Purpura (ITP) After LEMTRADA® Treatment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2019-02-08",
+            "completion_date": "2019-12-11",
+            "country": "United States",
+            "enrollment": 13,
+            "brief_summary": "Primary Objective:\n\nTo collect blood samples in a new cohort of Relapsing Forms of Multiple Sclerosis (RMS) participants who had developed immune thrombocytopenic purpura (ITP) after LEMTRADA treatment, for future Deoxyribonucleic acid (DNA) analysis as part of a global biomarker project assessing pre-identified candidate single nucleotide polymorphisms (SNPs) associated to the development of ITP after LEMTRADA treatment in RMS participants.",
+            "eligibility_criteria": "Inclusion criteria :\n\n* Male and female adult participants who had been treated with LEMTRADA, with development of ITP subsequent to treatment. Participants does not need to be currently on LEMTRADA treatment.\n* Participants who had signed the study ICF.\n\nExclusion criteria:\n\n\\- Not applicable\n\nThe ",
+            "endpoints": [
+              "Number of Participants Who Provided Whole Blood Samples for DNA Extraction and Analysis"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT03784898"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic porphyria",
+        "txgnn_score": 0.9672096967697144,
+        "txgnn_rank": 22157,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "8312371",
+            "title": "5-Aminolevulinic acid induces single-strand breaks in plasmid pBR322 DNA in the presence of Fe2+ ions.",
+            "abstract": "5-Aminolevulinic acid (ALA), a heme precursor accumulated in chemical and inborn porphyrias, has been demonstrated to produce reactive oxygen species upon metal-catalyzed aerobic oxidation and to cause oxidative damage to proteins, liposomes and subcellular structures. Exposure of plasmid pBR322 DNA to ALA (0.01-3 mM) in the presence of 10 microM Fe2+ ions causes DNA single-strand breaks (ssb), revealed by agarose gel electrophoresis as an increase in the proportion of the open circular form (75 +/- 7.5% at 3 mM ALA) at the expense of the supercoiled form. Addition of either anti-oxidant enzymes such as superoxide dismutase (10 micrograms/ml) and catalase (20 micrograms/ml), or a metal chelator (DTPA, 2.5 mM), or a HO. scavenger (mannitol, 100 mM) inhibited the damage (by 30, 45, 55, and 81%, respectively), evidencing the involvement of O2-., H2O2 and HO. (by the Haber-Weiss reaction) in this process. Hydrogen peroxide (100 microM) or Fe2+ (10 microM) alone were of little effect on the",
+            "journal": "Biochimica et biophysica acta",
+            "year": "1994",
+            "authors": [
+              "Onuki J",
+              "Medeiros M H",
+              "Bechara E J",
+              "Di Mascio P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Aminolevulinic Acid",
+              "Antioxidants",
+              "DNA Damage",
+              "DNA, Circular",
+              "DNA, Single-Stranded",
+              "DNA, Superhelical",
+              "Dose-Response Relationship, Drug",
+              "Escherichia coli",
+              "Ferrous Compounds",
+              "Free Radical Scavengers"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8312371/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign recurrent intrahepatic cholestasis",
+        "txgnn_score": 0.9613575339317322,
+        "txgnn_rank": 23936,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "early-onset familial noncirrhotic portal hypertension",
+        "txgnn_score": 0.959977090358734,
+        "txgnn_rank": 24284,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatopulmonary syndrome",
+        "txgnn_score": 0.959977090358734,
+        "txgnn_rank": 24285,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primitive portal vein thrombosis",
+        "txgnn_score": 0.959977090358734,
+        "txgnn_rank": 24286,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatoportal sclerosis",
+        "txgnn_score": 0.959977090358734,
+        "txgnn_rank": 24287,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "22268180",
+            "title": "Hepatoportal sclerosis: CT and MRI appearance with histopathologic correlation.",
+            "abstract": "The purposes of this study were to describe the spectrum of cross-sectional imaging findings of pathologically proven hepatoportal sclerosis and to compare the features of advanced and nonadvanced hepatoportal sclerosis.",
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2012",
+            "authors": [
+              "Krishnan Pranay",
+              "Fiel M Isabel",
+              "Rosenkrantz Andrew B",
+              "Hajdu Cristina H",
+              "Schiano Thomas D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Child",
+              "Contrast Media",
+              "Female",
+              "Gadolinium DTPA",
+              "Humans",
+              "Hypertension, Portal",
+              "Liver Diseases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22268180/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "idiopathic copper-associated cirrhosis",
+        "txgnn_score": 0.959977090358734,
+        "txgnn_rank": 24288,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peliosis hepatis",
+        "txgnn_score": 0.9583977460861206,
+        "txgnn_rank": 24652,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "26600454",
+            "title": "Hepatobiliary and Pancreatic: Focal peliosis hepatis mimicking hepatocellular carcinoma in a hepatitis B carrier.",
+            "abstract": "",
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2016",
+            "authors": [
+              "Lai W J",
+              "Chiu N C",
+              "Chau G Y"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Biopsy",
+              "Carcinoma, Hepatocellular",
+              "Contrast Media",
+              "Diagnosis, Differential",
+              "Diffusion Magnetic Resonance Imaging",
+              "Gadolinium DTPA",
+              "Hepatectomy",
+              "Hepatitis C",
+              "Humans",
+              "Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26600454/"
+          },
+          {
+            "pmid": "15018164",
+            "title": "Peliosis hepatis presenting as a multifocal hepatic pseudotumor: MR findings in two cases.",
+            "abstract": "Two cases of pseudotumoral peliosis hepatis are presented with emphasis on MRI findings. One patient had four individual lesions, the other had two. Image characteristics in both were: heterogeneic signal intensity on T1-weighted images (T1WI) with areas of high-, intermediate, and low signal intensity; heterogeneic signal intensity on T2WI with presence of numerous intralesional \"cystic\" hyperintense areas with a hypointense border. Signal intensities on T1WI were iso- to hypointense in one case and mild central hyperintensities were demonstrated in the other case, probably due to intra-lesional hemorrhage or diffuse accumulation of fresh clotting within the sinusoids. One case demonstrated early enhancement of the peripheral borders in the arterial phase, and both demonstrated enhancement in the portovenous and late phases. One case was studied with Gd-BOPTA and iron oxides and demonstrated enhancement with both products, suggestive for the presence of hepatocytes and Kupffer cells. ",
+            "journal": "European radiology",
+            "year": "2003",
+            "authors": [
+              "Verswijvel G",
+              "Janssens F",
+              "Colla P",
+              "Mampaey S",
+              "Verhelst H"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Biopsy, Needle",
+              "Diagnosis, Differential",
+              "Female",
+              "Follow-Up Studies",
+              "Gadolinium DTPA",
+              "Granuloma, Plasma Cell",
+              "Humans",
+              "Immunohistochemistry",
+              "Liver Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15018164/"
+          },
+          {
+            "pmid": "8782181",
+            "title": "MR imaging of non-cancerous hepatic lesions in Long-Evans cinnamon rats.",
+            "abstract": "We measured MR images of the liver of Long-Evans Cinnamon (LEC) rats with pathologic correlation and assessed the effectiveness of MR imaging (MRI) for diagnosis of noncancerous hepatic lesions. T1- and T2-weighted images of their livers were obtained, and the dynamic and delayed studies after intravenous gadolinium injection were also performed. Cholangiofibrosis showed low signal intensity on T1-weighted images and high signal intensity on T2-weighted images. The T2 relaxation time of cholangiofibrosis was significantly prolonged (p < .01), and the signal intensity ratio of this lesion to muscle on T1-weighted images was significantly lower than that of normal liver parenchyma to muscle (p < .01). The lesion was enhanced immediately after gadolinium injection and the enhancement was prolonged. Among three cases of peliosis hepatis identified, one showed heterogeneous intensities on both T1- and T2-weighted images and the other two showed similar intensity pattern to cholangiofibrosis",
+            "journal": "Magnetic resonance imaging",
+            "year": "1996",
+            "authors": [
+              "Yoshioka H",
+              "Itai Y",
+              "Onaya H",
+              "Doy M",
+              "Mitsumori F"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Contrast Media",
+              "Gadolinium DTPA",
+              "Liver",
+              "Liver Diseases",
+              "Magnetic Resonance Imaging",
+              "Male",
+              "Organometallic Compounds",
+              "Peliosis Hepatis",
+              "Pentetic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8782181/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "hepatic infarction",
+        "txgnn_score": 0.9565725922584534,
+        "txgnn_rank": 25080,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25274233",
+            "title": "Hepatic infarction complicated with acute pancreatitis precisely diagnosed with gadoxetate disodium-enhanced magnetic resonance imaging.",
+            "abstract": "Pancreatitis may induce a spectrum of venous and arterial vascular complications. However, hepatic infarction complicated with acute pancreatitis seldom occurs because of the unique vascular configuration of the liver. We herein describe an extremely rare and unique case in which simultaneous portal vein and hepatic vein thrombosis were present. We precisely assessed both hepatic hemodynamics and hepatocellular function using sequential multidetector computed tomography and gadoxetate disodium-enhanced magnetic resonance imaging, which may provide useful information on the pathophysiological state and diagnosis of hepatic infarction.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2014",
+            "authors": [
+              "Maruyama Masahiro",
+              "Yamada Akira",
+              "Kuraishi Yasuhiro",
+              "Shibata Souichiro",
+              "Fukuzawa Shinya"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged",
+              "Budd-Chiari Syndrome",
+              "Contrast Media",
+              "Diagnosis, Differential",
+              "Female",
+              "Follow-Up Studies",
+              "Gadolinium DTPA",
+              "Humans",
+              "Image Enhancement",
+              "Infarction"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25274233/"
+          },
+          {
+            "pmid": "17929883",
+            "title": "Necrosis avidity of (99m)Tc(CO)3-labeled pamoic acid derivatives: synthesis and preliminary biological evaluation in animal models of necrosis.",
+            "abstract": "In a search for an infarct avid tracer agent with improved properties, we have observed that bis-DTPA derivatives of pamoic acid have a high avidity for necrotic tissue. Here, we report the synthesis, radiolabeling, and preliminary evaluation in normal mice and rats with hepatic infarction of the (99m)Tc-tricarbonyl complexes of N, N'-bis(diethylenetriaminopentaacetato)-4,4'-methylene bis(2-hydroxy-3-naphthoic hydrazide) ( (99m)Tc(CO) 3-bis-DTPA-pamoate) and [ N-(5-aminopentyl)pyridin-2-yl-methylamino]methylacetato-4,4'-methylene-2-hydroxy-3-napthalenecarboxamide-(2'-hydroxy-3'-naphthoic acid methyl ester) ( (99m)Tc(CO) 3 -12). Radiolabeling with (99m)Tc(CO) 3 (+) was achieved with a radiochemical yield of over 95% for both tracer agents. In normal mice, the polar (99m)Tc(CO) 3-bis-DTPA-pamoate was cleared from plasma via both the liver and the kidneys, while the more lipophilic (99m)Tc(CO) 3 -12 was rapidly cleared via the liver. Blood clearance in mice was faster for (99m)Tc(CO) 3 -1",
+            "journal": "Bioconjugate chemistry",
+            "year": "2007",
+            "authors": [
+              "Fonge Humphrey",
+              "Chitneni Satish K",
+              "Lixin Jin",
+              "Vunckx Kathleen",
+              "Prinsen Kristof"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Buffers",
+              "Carboxylic Acids",
+              "Disease Models, Animal",
+              "Liver",
+              "Mice",
+              "Molecular Structure",
+              "Naphthols",
+              "Necrosis",
+              "Octanols"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17929883/"
+          },
+          {
+            "pmid": "20580560",
+            "title": "Development and evaluation of a 68Ga labeled pamoic acid derivative for in vivo visualization of necrosis using positron emission tomography.",
+            "abstract": "In this study, we labeled N,N'-bis(diethylenetriamine pentaacetic acid)-pamoic acid bis-hydrazide (bis-DTPA-PA) with the generator produced PET radionuclide gallium-68 and evaluated 68Ga-bis-DTPA-PA as a potential tracer for in vivo visualization of necrosis by positron emission tomography (PET). Radiolabeling was achieved with a decay-corrected radiochemical yield of 63%. Biodistribution and in vivo stability studies in normal mice showed that 68Ga-bis-DTPA-PA is cleared faster from normal tissue than the previously reported 99mTc(CO)3 complex with bis-DTPA-PA which on the other hand is more stable in vivo. 68Ga-bis-DTPA-PA showed a 3.5-5 times higher binding to necrotic tissue than to viable tissue as shown by in vitro autoradiography while no statistically significant increased hepatic uptake was found in a biodistribution study in a mouse model of hepatic apoptosis. Specificity and avidity for necrosis was further evaluated in rats with a reperfused partial liver infarction and eth",
+            "journal": "Bioorganic & medicinal chemistry",
+            "year": "2010",
+            "authors": [
+              "Prinsen Kristof",
+              "Li Junjie",
+              "Vanbilloen Hubert",
+              "Vermaelen Peter",
+              "Devos Ellen"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Autoradiography",
+              "Gallium Radioisotopes",
+              "Infarction",
+              "Liver",
+              "Male",
+              "Mice",
+              "Naphthols",
+              "Necrosis",
+              "Pentetic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20580560/"
+          },
+          {
+            "pmid": "19160078",
+            "title": "Rat model of reperfused partial liver infarction: characterization with multiparametric magnetic resonance imaging, microangiography, and histomorphology.",
+            "abstract": "Rat model of reperfused partial liver infarction (RPLI) has been increasingly used in studying new diagnostics and therapeutics.",
+            "journal": "Acta radiologica (Stockholm, Sweden : 1987)",
+            "year": "2009",
+            "authors": [
+              "Wu X",
+              "Wang H",
+              "Chen F",
+              "Jin L",
+              "Li J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Angiography, Digital Subtraction",
+              "Animals",
+              "Contrast Media",
+              "Diffusion Magnetic Resonance Imaging",
+              "Disease Models, Animal",
+              "Gadolinium DTPA",
+              "Image Enhancement",
+              "Image Processing, Computer-Assisted",
+              "Infarction",
+              "Liver"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19160078/"
+          },
+          {
+            "pmid": "9406018",
+            "title": "Magnetic resonance imaging-histomorphologic correlation studies on paramagnetic metalloporphyrins in rat models of necrosis.",
+            "abstract": "The authors intended to confirm previous findings that paramagnetic porphyrins are avid only for intratumoral nonviable tissues, but not for viable tumor cells, and to test the hypothesis that necrosis, regardless of location and origin, can be visualized by metalloporphyrin enhanced magnetic resonance imaging (MRI).",
+            "journal": "Investigative radiology",
+            "year": "1997",
+            "authors": [
+              "Ni Y",
+              "Petré C",
+              "Miao Y",
+              "Yu J",
+              "Cresens E"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Contrast Media",
+              "Disease Models, Animal",
+              "Gadolinium DTPA",
+              "Image Enhancement",
+              "Infarction",
+              "Infusions, Intravenous",
+              "Kidney",
+              "Liver",
+              "Magnetic Resonance Imaging"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9406018/"
+          },
+          {
+            "pmid": "11224757",
+            "title": "MRI contrast enhancement of necrosis by MP-2269 and gadophrin-2 in a rat model of liver infarction.",
+            "abstract": "The mechanisms of action leading to specific localization of necrosis-avid contrast agents (NACAs) such as gadophrin-2 are not well defined. It has been suggested recently that agents with a high degree of serum albumin binding may also serve as NACAs by virtue of nonspecific hydrophobic interactions. The present MRI-histomorphology correlation study was conducted to verify the likelihood of the proposed albumin-binding mechanism by comparing an albumin-binding blood pool agent, MP-2269, with gadophrin-2 in a rat model of reperfused liver infarction.",
+            "journal": "Investigative radiology",
+            "year": "2001",
+            "authors": [
+              "Ni Y",
+              "Adzamli K",
+              "Miao Y",
+              "Cresens E",
+              "Yu J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Contrast Media",
+              "Gadolinium DTPA",
+              "Infarction",
+              "Liver",
+              "Magnetic Resonance Imaging",
+              "Mesoporphyrins",
+              "Metalloporphyrins",
+              "Necrosis",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11224757/"
+          },
+          {
+            "pmid": "2313361",
+            "title": "Use of isothiocyanatobenzyl-DTPA derivatized monoclonal antimyosin fab for enhanced in vivo target localization.",
+            "abstract": "Monoclonal antimyosin Fab (AM-Fab) was radiolabeled with 111In via a new bifunctional chelating agent, isothiocyanatobenzyl-DTPA (SCN-DTPA), and used to visualize acute reperfused experimental myocardial infarction. Antibody localization was compared to 201Tl (0.6 mCi) distribution in nine animals. Each animal was injected intravenously with 0.5 mCi of 111In-SCN-DTPA AM-Fab preparations (Prep 1 [n = 5] and 2 [n = 4]). The biodistribution was compared to that of 111In-labeled conventional bicyclic anhydride DTPA-AM-Fab (n = 5). 111In-SCN-DTPA AM-Fab Prep 1 (lowest specific activity) showed highest specific target localization (31.6 +/- 3.5, MEAN infarct[0-20% Tl-201] to normal ration +/- SE) and lowest hepatic sequestration (0.0108 +/- 0.002% ID/g). Prep 2 showed similar infarct localization (18.4 +/- 1.2) to control 111In-DTPA AM-Fab (16.9 +/- 1.1), but had higher hepatic activity (0.0326 +/- 0.014 and 0.0267 +/- 0.006 respectively). This difference in in vivo localization occurred des",
+            "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+            "year": "1990",
+            "authors": [
+              "Khaw B A",
+              "Gansow O",
+              "Brechbiel M W",
+              "O'Donnell S M",
+              "Nossiff N"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antibodies, Monoclonal",
+              "Chelating Agents",
+              "Dogs",
+              "Immunoglobulin Fab Fragments",
+              "Indium Radioisotopes",
+              "Isotope Labeling",
+              "Myocardial Infarction",
+              "Myosins",
+              "Pentetic Acid"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2313361/"
+          },
+          {
+            "pmid": "21075631",
+            "title": "Radiolabeling and preliminary biological evaluation of a (99m)Tc(CO)(3) labeled 3,3'-(benzylidene)-bis-(1H-indole-2-carbohydrazide) derivative as a potential SPECT tracer for in vivo visualization of necrosis.",
+            "abstract": "N,N'-bis(diethylenetriamine pentaacetic acid)-3,3'-(benzylidene)-bis-(1H-indole-2-carbohydrazide) (bis-DTPA-BI) was radiolabeled with (99m)Tc(CO)(3). The resulting (99m)Tc(CO)(3)-bis-DTPA-BI was characterized (LC-MS) and evaluated as a potential SPECT tracer for imaging of necrosis in Wistar rats with a reperfused partial liver infarction and Wistar rats with ethanol induced muscular necrosis. To study the specificity, uptake of (99m)Tc(CO)(3)-bis-DTPA-BI was also studied in a mouse model of Fas-mediated hepatic apoptosis. The obtained results indicate that (99m)Tc(CO)(3)-bis-DTPA-BI displays selective uptake in necrotic tissue and can be used for in vivo visualization of necrosis by SPECT.",
+            "journal": "Bioorganic & medicinal chemistry letters",
+            "year": "2011",
+            "authors": [
+              "Prinsen Kristof",
+              "Jin Lixin",
+              "Vunckx Kathleen",
+              "De Saint-Hubert Marijke",
+              "Zhou Lin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Apoptosis",
+              "Hepatocytes",
+              "Indoles",
+              "Isotope Labeling",
+              "Mice",
+              "Necrosis",
+              "Organotechnetium Compounds",
+              "Pentetic Acid",
+              "Radiopharmaceuticals"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21075631/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14007",
+    "name": "Pentetic acid",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Pentetic acid"
+      },
+      "queried_at": "2026-03-10T08:25:47.064494",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Pentetic acid"
+      },
+      "queried_at": "2026-03-10T08:25:56.657933",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-10T08:25:57.200986",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-10T08:25:59.914309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "thrombocytopenic purpura"
+      },
+      "queried_at": "2026-03-10T08:26:00.644645",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T08:26:01.233447",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T08:26:08.674113",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatic porphyria"
+      },
+      "queried_at": "2026-03-10T08:26:11.799434",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "benign recurrent intrahepatic cholestasis"
+      },
+      "queried_at": "2026-03-10T08:26:12.390378",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "benign recurrent intrahepatic cholestasis"
+      },
+      "queried_at": "2026-03-10T08:26:15.907881",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "benign recurrent intrahepatic cholestasis"
+      },
+      "queried_at": "2026-03-10T08:26:16.594284",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-10T08:26:17.103781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-10T08:26:20.441293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "queried_at": "2026-03-10T08:26:21.155721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-10T08:26:21.839446",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-10T08:26:24.977896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "queried_at": "2026-03-10T08:26:26.047263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T08:26:27.092844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T08:26:31.053896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "queried_at": "2026-03-10T08:26:33.163718",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-10T08:26:34.153988",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-10T08:26:37.040178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatoportal sclerosis"
+      },
+      "queried_at": "2026-03-10T08:26:39.165719",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-10T08:26:39.770044",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-10T08:26:43.189919",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "queried_at": "2026-03-10T08:26:44.353911",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "peliosis hepatis"
+      },
+      "queried_at": "2026-03-10T08:26:44.892466",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "peliosis hepatis"
+      },
+      "queried_at": "2026-03-10T08:26:49.189375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "peliosis hepatis"
+      },
+      "queried_at": "2026-03-10T08:26:52.799765",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatic infarction"
+      },
+      "queried_at": "2026-03-10T08:26:54.489226",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatic infarction"
+      },
+      "queried_at": "2026-03-10T08:26:58.289942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Pentetic acid",
+        "disease": "hepatic infarction"
+      },
+      "queried_at": "2026-03-10T08:27:00.848862",
+      "status": "success",
+      "result_count": 8,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T08:27:00.851493"
+  }
+}

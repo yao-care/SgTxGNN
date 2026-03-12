@@ -1,0 +1,655 @@
+{
+  "drug": {
+    "inn": "Octreotide",
+    "drugbank_id": "DB00104",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "vulvar inverted follicular keratosis",
+        "txgnn_score": 0.9957785606384276,
+        "txgnn_rank": 5801,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "seborrheic keratosis",
+        "txgnn_score": 0.9954841136932372,
+        "txgnn_rank": 6079,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrotic syndrome ocular anomalies",
+        "txgnn_score": 0.9884246587753296,
+        "txgnn_rank": 11730,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Addison disease",
+        "txgnn_score": 0.9873838424682616,
+        "txgnn_rank": 12553,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "17984930",
+            "title": "Response of ACTH to octreotide in a probable corticotropic adenoma associated with Addison's disease.",
+            "abstract": "Our patient was a 65-year-old woman previously diagnosed with Addison's disease. She presented an empty sella turcica and, at the age of 47, was discovered to have autonomous hypersecretion of adrenocorticotropic hormone (ACTH), suggesting a corticotropic adenoma secondary to Addison's disease, with a lack of response to high levels of dexamethasone. She maintained high ACTH levels despite corticosteroid treatment.",
+            "journal": "Neuro endocrinology letters",
+            "year": "2007",
+            "authors": [
+              "Suárez-Llanos José Pablo",
+              "Fernández-Fernández Elisa",
+              "Checa María Rosario",
+              "Jara-Albarrán Antonino"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "ACTH-Secreting Pituitary Adenoma",
+              "Adenoma",
+              "Adrenocorticotropic Hormone",
+              "Aged",
+              "Antineoplastic Agents, Hormonal",
+              "Empty Sella Syndrome",
+              "Female",
+              "Humans",
+              "Octreotide",
+              "Pituitary Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17984930/"
+          },
+          {
+            "pmid": "1973178",
+            "title": "Failure of somatostatin and octreotide to acutely affect the hypothalamic-pituitary-adrenal function in patients with corticotropin hypersecretion.",
+            "abstract": "Although somatostatin inhibits a variety of pituitary and non-pituitary hormones, not univocal data on its effects on ACTH release have been reported so far. In this study we investigated the effects of somatostatin or octreotide on ACTH levels of patients with corticotropin hypersecretion: 7 patients with Addison's disease, 2 patients previously adrenalectomized for Cushing's disease, 4 patients with Cushing's disease and 3 patients with ectopic ACTH syndrome. Plasma ACTH and cortisol levels were determined after somatostatin (500 micrograms over 60 min) infusion or octreotide (100 micrograms sc) injection. In 5 other patients with Cushing's disease ACTH and cortisol responses to CRH (1 microgram/kg iv) were evaluated in basal conditions and after octreotide acute administration. In no patients with Addison's disease any inhibitory influence of somatostatin (delta % = -21, -25) or octreotide (delta % = -38 +/- 12 vs -39 +/- 12 after saline) on plasma ACTH was found. Somatostatin did n",
+            "journal": "Journal of endocrinological investigation",
+            "year": "1990",
+            "authors": [
+              "Ambrosi B",
+              "Bochicchio D",
+              "Fadin C",
+              "Colombo P",
+              "Faglia G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adrenocorticotropic Hormone",
+              "Adult",
+              "Child",
+              "Endocrine System Diseases",
+              "Female",
+              "Humans",
+              "Hypothalamo-Hypophyseal System",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1973178/"
+          },
+          {
+            "pmid": "28222025",
+            "title": "Radiology of the adrenal incidentalomas. Review of the literature.",
+            "abstract": "The term \"adrenal incidentaloma\" is a radiological term. Adrenal incidentalomas are adrenal tumors discovered in an imaging study that has been obtained for indications exclusive to adrenal conditions (Udelsman 2001; Linos 2003; Bulow et al. 2006; Anagnostis et al. 2009). This definition excludes patients undergoing imaging testing as part of staging and work-up for cancer (Grumbach et al. 2003; Anagnostis et al. 2009). Papierska et al. (2013) have added the prerequisite that the size of a tumor must be \"greater than 1cm in diameter\", in order to be called incidentaloma. Although in the most cases these masses are non-hypersecreting and benign, they still represent an important clinical concern because of the risk of malignancy or hormone hyperfunction (Barzon et al. 2003). Th e adrenal tumors belong to the commonest incidental findings having been discovered (Kanagarajah et al. 2012).",
+            "journal": "Endocrine regulations",
+            "year": "2017",
+            "authors": [
+              "Farrugia F A",
+              "Martikos G",
+              "Surgeon C",
+              "Tzanetis P",
+              "Misiakos E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "3-Iodobenzylguanidine",
+              "Addison Disease",
+              "Adrenal Cortex Neoplasms",
+              "Adrenal Gland Diseases",
+              "Adrenal Gland Neoplasms",
+              "Adrenocortical Adenoma",
+              "Adrenocortical Carcinoma",
+              "Cushing Syndrome",
+              "Diffusion Magnetic Resonance Imaging",
+              "Fluorodeoxyglucose F18"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28222025/"
+          },
+          {
+            "pmid": "7627336",
+            "title": "Technetium-99m pentavalent dimercaptosuccinic acid imaging in patients with pituitary adenomas.",
+            "abstract": "We studied the tumor-seeking agent technetium-99m-labeled pentavalent dimercaptosuccinic acid ([99mTc](V)DMSA) to visualize 21 growth hormone (GH)-, nine prolactin (PRL)-, two mixed GH/PRL-, six adrenocorticotrophin (ACTH)-secreting and 15 clinically non-functioning pituitary adenomas, three craniopharyngiomas and one dysgerminoma of the sella. All non-adenomas and 31 out of 53 adenomas were studied before treatment: 22 after surgery and/or radiotherapy. Eight cases of acromegaly were studied before and after chronic treatment with octreotide, whereas three cases of acromegaly, one of prolactinoma and two of non-functioning adenoma were imaged before and after adenomectomy. As a control group, 27 patients without any clinical evidence of pituitary adenoma were studied: 10 of them were operated on previously and treated with iodine-131 for metastatic thyroid carcinoma, 10 had brain tumors and the remaining seven patients had functional pituitary hypersecretion (four Klinefelter's syndro",
+            "journal": "European journal of endocrinology",
+            "year": "1995",
+            "authors": [
+              "Lastoria S",
+              "Colao A",
+              "Vergara E",
+              "Ferone D",
+              "Varrella P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Addison Disease",
+              "Adenoma",
+              "Adolescent",
+              "Adrenocorticotropic Hormone",
+              "Adult",
+              "Aged",
+              "Child",
+              "Craniopharyngioma",
+              "Diagnosis, Computer-Assisted",
+              "Dysgerminoma"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7627336/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "membranoproliferative glomerulonephritis, X-linked",
+        "txgnn_score": 0.9872275590896606,
+        "txgnn_rank": 12681,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis",
+        "txgnn_score": 0.9857435822486876,
+        "txgnn_rank": 13744,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes",
+        "txgnn_score": 0.9857435822486876,
+        "txgnn_rank": 13745,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "adrenocortical insufficiency",
+        "txgnn_score": 0.9847419261932372,
+        "txgnn_rank": 14355,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "11194482",
+            "title": "[Pituitary pathology in elderly patients admitted in a division of internal medicine. Description of 3 cases].",
+            "abstract": "Pituitary diseases are often unrecognized in the elderly, although if they can be at the basis of several pathological conditions. We report three clinical cases. Patient n. 1: 87 years old woman, in poor general condition. Thyroid function evaluation showed secondary hypothyroidism. Subsequent pituitary function evaluation demonstrated hypopituitarism with empty sella. The diagnosis was \"hypopituitarism with secondary hypothyroidism and adrenocortical insufficiency, in empty sella\" starting substitutive treatment with glucocorticoids and L-thyroxine, with improvement in her clinical conditions. Patient n. 2: 74 years old woman, with severe congestive heart failure. Her clinical history revealed hypothyroidism. An endocrine evaluation (in absence of therapy) demonstrated panhypopituitarism with secondary hypothyroidism and adrenocortical insufficiency in presence of empty sella. The patients was started on substitutive treatment and her conditions improved. Patient n. 3: 74 years old m",
+            "journal": "Recenti progressi in medicina",
+            "year": "2000",
+            "authors": [
+              "Torre R",
+              "Pisani A",
+              "Venturi P",
+              "Bernasconi D",
+              "Del Monte P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "English Abstract",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adenoma",
+              "Adrenocorticotropic Hormone",
+              "Aged",
+              "Aged, 80 and over",
+              "Biomarkers",
+              "Female",
+              "Growth Hormone",
+              "Hormones",
+              "Humans",
+              "Hypothyroidism"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11194482/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "primary hypereosinophilic syndrome",
+        "txgnn_score": 0.984306812286377,
+        "txgnn_rank": 14619,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "autosomal recessive familial Mediterranean fever",
+        "txgnn_score": 0.9831334948539734,
+        "txgnn_rank": 15372,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00104",
+    "name": "Octreotide",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Octreotide"
+      },
+      "queried_at": "2026-03-10T02:45:37.688301",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Octreotide"
+      },
+      "queried_at": "2026-03-10T02:45:46.195683",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T02:45:46.927432",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T02:45:51.786552",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "queried_at": "2026-03-10T02:45:54.500659",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T02:45:55.074792",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T02:45:57.997856",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "seborrheic keratosis"
+      },
+      "queried_at": "2026-03-10T02:45:58.697753",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "nephrotic syndrome ocular anomalies"
+      },
+      "queried_at": "2026-03-10T02:45:59.249075",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "nephrotic syndrome ocular anomalies"
+      },
+      "queried_at": "2026-03-10T02:46:03.812198",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "nephrotic syndrome ocular anomalies"
+      },
+      "queried_at": "2026-03-10T02:46:04.631800",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "Addison disease"
+      },
+      "queried_at": "2026-03-10T02:46:05.327798",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "Addison disease"
+      },
+      "queried_at": "2026-03-10T02:46:10.099212",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "Addison disease"
+      },
+      "queried_at": "2026-03-10T02:46:16.462072",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "membranoproliferative glomerulonephritis, X-linked"
+      },
+      "queried_at": "2026-03-10T02:46:17.081000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "membranoproliferative glomerulonephritis, X-linked"
+      },
+      "queried_at": "2026-03-10T02:46:21.641866",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "membranoproliferative glomerulonephritis, X-linked"
+      },
+      "queried_at": "2026-03-10T02:46:23.342742",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis"
+      },
+      "queried_at": "2026-03-10T02:46:24.196671",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis"
+      },
+      "queried_at": "2026-03-10T02:46:27.929677",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "familial idiopathic steroid-resistant nephrotic syndrome with diffuse mesangial sclerosis"
+      },
+      "queried_at": "2026-03-10T02:46:28.880216",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes"
+      },
+      "queried_at": "2026-03-10T02:46:30.163510",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes"
+      },
+      "queried_at": "2026-03-10T02:46:35.289769",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "familial idiopathic steroid-resistant nephrotic syndrome with minimal changes"
+      },
+      "queried_at": "2026-03-10T02:46:36.096984",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "adrenocortical insufficiency"
+      },
+      "queried_at": "2026-03-10T02:46:36.978672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "adrenocortical insufficiency"
+      },
+      "queried_at": "2026-03-10T02:46:42.398581",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "adrenocortical insufficiency"
+      },
+      "queried_at": "2026-03-10T02:46:45.527012",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "primary hypereosinophilic syndrome"
+      },
+      "queried_at": "2026-03-10T02:46:46.805811",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "primary hypereosinophilic syndrome"
+      },
+      "queried_at": "2026-03-10T02:46:51.688385",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "primary hypereosinophilic syndrome"
+      },
+      "queried_at": "2026-03-10T02:46:52.701826",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "queried_at": "2026-03-10T02:46:54.039477",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "queried_at": "2026-03-10T02:46:57.608292",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Octreotide",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "queried_at": "2026-03-10T02:46:58.588864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T02:46:58.610029"
+  }
+}

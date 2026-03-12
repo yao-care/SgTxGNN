@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Zolbetuximab",
+    "drugbank_id": "DB15118",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "diabetic cataract",
+        "txgnn_score": 0.9848715662956238,
+        "txgnn_rank": 14276,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "mature cataract",
+        "txgnn_score": 0.984109103679657,
+        "txgnn_rank": 14742,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "immature cataract",
+        "txgnn_score": 0.984109103679657,
+        "txgnn_rank": 14743,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetes mellitus type 2 associated cataract",
+        "txgnn_score": 0.984109103679657,
+        "txgnn_rank": 14744,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "tetanic cataract",
+        "txgnn_score": 0.984109103679657,
+        "txgnn_rank": 14745,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "craniostenosis cataract",
+        "txgnn_score": 0.984109103679657,
+        "txgnn_rank": 14746,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nuclear senile cataract",
+        "txgnn_score": 0.983853816986084,
+        "txgnn_rank": 14901,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "cortical cataract",
+        "txgnn_score": 0.983853816986084,
+        "txgnn_rank": 14902,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "senile cataract",
+        "txgnn_score": 0.9832333922386168,
+        "txgnn_rank": 15293,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.9819761514663696,
+        "txgnn_rank": 16027,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB15118",
+    "name": "Zolbetuximab",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Zolbetuximab"
+      },
+      "queried_at": "2026-03-10T07:09:30.054549",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Zolbetuximab"
+      },
+      "queried_at": "2026-03-10T07:09:31.465283",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:09:32.018891",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:09:34.952660",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetic cataract"
+      },
+      "queried_at": "2026-03-10T07:09:35.667347",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:09:36.302450",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:09:40.618080",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "mature cataract"
+      },
+      "queried_at": "2026-03-10T07:09:41.341870",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:09:41.987387",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:09:45.582558",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "immature cataract"
+      },
+      "queried_at": "2026-03-10T07:09:47.212939",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:09:47.747184",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:09:50.654002",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "queried_at": "2026-03-10T07:09:51.393341",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:09:52.056168",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:09:54.919371",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "tetanic cataract"
+      },
+      "queried_at": "2026-03-10T07:09:55.740507",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:09:56.248404",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:09:59.219263",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "craniostenosis cataract"
+      },
+      "queried_at": "2026-03-10T07:10:00.029797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:10:00.740246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:10:03.571545",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "nuclear senile cataract"
+      },
+      "queried_at": "2026-03-10T07:10:04.354392",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:10:04.889240",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:10:08.159987",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "cortical cataract"
+      },
+      "queried_at": "2026-03-10T07:10:08.889729",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:10:09.458774",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:10:12.689835",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "senile cataract"
+      },
+      "queried_at": "2026-03-10T07:10:13.409335",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:10:14.061489",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:10:17.605827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Zolbetuximab",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T07:10:18.644816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T07:10:18.663628"
+  }
+}

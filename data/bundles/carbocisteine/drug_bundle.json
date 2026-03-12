@@ -1,0 +1,1480 @@
+{
+  "drug": {
+    "inn": "Carbocisteine",
+    "drugbank_id": "DB04339",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "gout",
+        "txgnn_score": 0.9966937303543092,
+        "txgnn_rank": 4914,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bronchitis",
+        "txgnn_score": 0.9876663684844972,
+        "txgnn_rank": 12304,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02858193",
+            "title": "2-way Crossover, Randomised, Single Dose and 2-stage Bioequivalence Phase I Study of Carbocysteine-L-lysine Salt 1.35 g Powder for Oral Solution Formulation vs 90 mg/mL Syrup Formulation After Oral Administration to Healthy Volunteers.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2016-07-04",
+            "completion_date": "2016-10-10",
+            "country": "Switzerland",
+            "enrollment": 30,
+            "brief_summary": "Objectives:\n\nThe objectives of the study was to investigate the bioequivalence between two formulations containing S-carboxymethyl-L-cysteine L-lysine monohydrate salt (SCMC-lys) when administered as single oral dose in two consecutive study periods to healthy male and female volunteers under fasting conditions.\n\nPrimary end-point: to evaluate the bioequivalent rate (Cmax) and extent (AUC0-t) of absorption of carbocysteine after single oral administration of test and reference.\n\nSecondary end-po",
+            "eligibility_criteria": "Inclusion Criteria:\n\nTo be enrolled in this study, subjects must fulfil all these criteria:\n\n1. Informed consent: signed written informed consent before inclusion in the study\n2. Sex and Age: males/females,18-55 years old inclusive\n3. Body Mass Index (BMI): 18.5-30 kg/m2 inclusive\n4. Vital signs: sy",
+            "endpoints": [
+              "Carbocysteine Plasma PK Parameters: Cmax",
+              "Carbocysteine Plasma PK Parameters: AUC0-t"
+            ],
+            "sponsor": "Dompé Farmaceutici S.p.A",
+            "url": "https://clinicaltrials.gov/study/NCT02858193"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "39413571",
+            "title": "Efficacy and safety of mucolytics in patients with stable chronic obstructive pulmonary disease: A systematic review and meta-analysis.",
+            "abstract": "The efficacy and safety of mucolytics in patients with chronic obstructive pulmonary disease (COPD) and chronic bronchitis or exacerbations of COPD have been reported. We conducted a systematic review and meta-analysis of mucolytics in patients with stable COPD.",
+            "journal": "Respiratory investigation",
+            "year": "2024",
+            "authors": [
+              "Ohnishi Hiroshi",
+              "Tanimoto Takuya",
+              "Inaba Ryunosuke",
+              "Eitoku Masamitsu"
+            ],
+            "pub_types": [
+              "Systematic Review",
+              "Journal Article",
+              "Meta-Analysis"
+            ],
+            "mesh_terms": [
+              "Pulmonary Disease, Chronic Obstructive",
+              "Humans",
+              "Expectorants",
+              "Ambroxol",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome",
+              "Acetylcysteine",
+              "Disease Progression",
+              "Carbocysteine",
+              "Hospitalization"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39413571/"
+          },
+          {
+            "pmid": "31107966",
+            "title": "Mucolytic agents versus placebo for chronic bronchitis or chronic obstructive pulmonary disease.",
+            "abstract": "Individuals with chronic bronchitis or chronic obstructive pulmonary disease (COPD) may suffer recurrent exacerbations with an increase in volume or purulence of sputum, or both. Personal and healthcare costs associated with exacerbations indicate that therapies that reduce the occurrence of exacerbations are likely to be useful. Mucolytics are oral medicines that are believed to increase expectoration of sputum by reducing its viscosity, thus making it easier to cough it up. Improved expectoration of sputum may lead to a reduction in exacerbations of COPD.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2019",
+            "authors": [
+              "Poole Phillippa",
+              "Sathananthan Kavin",
+              "Fortescue Rebecca"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Bronchitis, Chronic",
+              "Disease Progression",
+              "Expectorants",
+              "Humans",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Quality of Life",
+              "Randomized Controlled Trials as Topic",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31107966/"
+          },
+          {
+            "pmid": "8500784",
+            "title": "Carbocisteine improves the mucociliary transport rate in rats with SO2-induced bronchitis.",
+            "abstract": "In order to study the effect of carbocisteine on the mucociliary function of the respiratory tract, we performed a double-blind study on rats with SO2-induced (400 ppm) hypersecretion. During the experimental bronchitis, the treated group of rats received carbocisteine through a stomach tube at a dose level of 500 mg/kg for 15 days, whereas the untreated group of rats received distilled water. After killing the rats, and following lung excision, the respiratory mucus was scraped off and collected by using a glass capillary. The mucus degree of purulence was macroscopically estimated and the mucus transport rate was measured by using the frog palate technique. The mean mucus relative transport rate, measured on the frog palate, was 0.60 +/- 0.17 in the untreated group and was significantly higher (P < 0.01) in the treated group (0.73 +/- 0.14). Carbocisteine also significantly altered (P < 0.01) the mucus macroscopical aspect, leading to a decrease in the number of rats with purulent mu",
+            "journal": "Fundamental & clinical pharmacology",
+            "year": "1993",
+            "authors": [
+              "Zahm J M",
+              "Levrier J",
+              "Duval D",
+              "Pierrot D",
+              "Puchelle E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bronchitis",
+              "Carbocysteine",
+              "Double-Blind Method",
+              "Male",
+              "Microscopy, Electron",
+              "Mucociliary Clearance",
+              "Mucous Membrane",
+              "Mucus",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8500784/"
+          },
+          {
+            "pmid": "20956182",
+            "title": "Mucoactive therapy in COPD.",
+            "abstract": "It has been shown that mucus hypersecretion is associated with greater susceptibility for chronic obstructive pulmonary disease (COPD), excess forced expiratory volume in 1&emsp14;s decline, hospitalisations and excess mortality. The effects of mucoactive drugs on outcomes have been reviewed in several meta-analyses, the largest one including 26 studies. 21 studies were performed in patients with chronic bronchitis and five in patients with COPD. The majority of these trials were performed with N-acetylcysteine (n = 13) and carbocysteine (n = 3). Overall, there was a significant reduction in exacerbations (0.05 per patient per month) and the number of days with disability (0.56 days per patient per month). Mucolytics were well tolerated and the number of adverse events was lower than with placebo (odds ratio 0.78). In the largest and best designed study with N-acetylcysteine in 523 patients with COPD, the reduction in exacerbations was only observed in patients not taking inhaled corti",
+            "journal": "European respiratory review : an official journal of the European Respiratory Society",
+            "year": "2010",
+            "authors": [
+              "Decramer M",
+              "Janssens W"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Expectorants",
+              "Humans",
+              "Mucus",
+              "Pulmonary Disease, Chronic Obstructive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20956182/"
+          },
+          {
+            "pmid": "19144049",
+            "title": "Carbocisteine can scavenge reactive oxygen species in vitro.",
+            "abstract": "Reactive oxygen species (ROS) play an important role in the pathogenesis of various respiratory diseases. Carbocisteine, a mucoregulatory drug, is used in the treatment of several disease states but little information is available about its scavenger effects on ROS. The present study was designed to examine the scavenger effects of carbocisteine on ROS.",
+            "journal": "Respirology (Carlton, Vic.)",
+            "year": "2009",
+            "authors": [
+              "Nogawa Hisashi",
+              "Ishibashi Yuji",
+              "Ogawa Akitsu",
+              "Masuda Kayoko",
+              "Tsubuki Takeshi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bronchitis, Chronic",
+              "Carbocysteine",
+              "Cells, Cultured",
+              "Expectorants",
+              "Free Radical Scavengers",
+              "Humans",
+              "Lung Diseases",
+              "Oxidation-Reduction",
+              "Pulmonary Disease, Chronic Obstructive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19144049/"
+          },
+          {
+            "pmid": "18832259",
+            "title": "Erdosteine for COPD exacerbations.",
+            "abstract": "The mucolytic drug erdosteine (Erdotin - Galen) is licensed in the UK as treatment for up to 10 days \"for the symptomatic treatment of acute exacerbations of chronic bronchitis in adults\". This indication differs from that for carbocisteine and mecysteine, two older mucolytic drugs that are licensed for adjunctive treatment in respiratory disorders characterised by viscous mucus, and typically used for longer to prevent exacerbations of chronic obstructive pulmonary disease (COPD). Does erdosteine have a role for people with COPD exacerbations?",
+            "journal": "Drug and therapeutics bulletin",
+            "year": "2008",
+            "authors": [],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Drug Combinations",
+              "Expectorants",
+              "Humans",
+              "Pulmonary Disease, Chronic Obstructive",
+              "Randomized Controlled Trials as Topic",
+              "Thioglycolates",
+              "Thiophenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18832259/"
+          },
+          {
+            "pmid": "3907681",
+            "title": "Long-term oral carbocisteine therapy in patients with chronic bronchitis. A double blind trial with placebo control.",
+            "abstract": "",
+            "journal": "The British journal of clinical practice",
+            "year": "1985",
+            "authors": [
+              "Grillage M",
+              "Barnard-Jones K"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bronchitis",
+              "Carbocysteine",
+              "Clinical Trials as Topic",
+              "Cysteine",
+              "Double-Blind Method",
+              "Humans",
+              "Peak Expiratory Flow Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3907681/"
+          },
+          {
+            "pmid": "30670922",
+            "title": "Mucoactive Agents in the Therapy of Upper Respiratory Airways Infections: Fair to Describe Them Just as Mucoactive?",
+            "abstract": "Upper and lower respiratory tract infections are common conditions for which medical advice is sought, and their management relies on the use of prescription and over-the-counter (OTC) medicines. Ambroxol, bromhexine, carbocysteine, erdosteine, N-acetyl cysteine (NAC), and sobrerol are mucoactive agents for which clinical trials have been conducted, have been awarded well-established status by regulatory authorities, and are available as OTC or prescription products.",
+            "journal": "Clinical medicine insights. Ear, nose and throat",
+            "year": "2019",
+            "authors": [
+              "Scaglione Francesco",
+              "Petrini Orlando"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30670922/"
+          },
+          {
+            "pmid": "23291681",
+            "title": "A definite case of (L)-carbocisteine-induced pneumonia with CATCH22 syndrome.",
+            "abstract": "A 32-year-old male with CATCH22 syndrome presented with a high fever and productive cough after taking drugs for acute bronchitis, including (L)-carbocisteine. Chest radiography revealed ground-glass opacities in the bilateral lung fields. He had a history of similar pneumonia. Under the assumption of drug-induced pneumonia, or bacterial or viral pneumonia, all drugs including (L)-carbocisteine were discontinued, and antibiotics were started. A drug-induced lymphocyte stimulation test was positive only for (L)-carbocisteine. The only drug in common between this and the previous episode of pneumonia was (L)-carbocisteine. We thus concluded that this was a definite case of (L)-carbocisteine-induced pneumonia in a patient with CATCH22 syndrome.",
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2013",
+            "authors": [
+              "Kudo Kenichiro",
+              "Ichihara Eiki",
+              "Hisamoto Akiko",
+              "Hotta Katsuyuki",
+              "Miyahara Nobuaki"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents",
+              "Carbocysteine",
+              "Cough",
+              "DiGeorge Syndrome",
+              "Drug Hypersensitivity",
+              "Follow-Up Studies",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23291681/"
+          },
+          {
+            "pmid": "23728642",
+            "title": "Acetylcysteine and carbocysteine for acute upper and lower respiratory tract infections in paediatric patients without chronic broncho-pulmonary disease.",
+            "abstract": "Acetylcysteine and carbocysteine are the most commonly prescribed mucolytic drugs in Brazil and many European and African countries. To our knowledge, no systematic review has been published on their efficacy and safety for acute upper and lower respiratory tract infections (RTIs) in children without chronic broncho-pulmonary disease.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2013",
+            "authors": [
+              "Chalumeau Martin",
+              "Duijvestijn Yvonne C M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Acute Disease",
+              "Age Factors",
+              "Carbocysteine",
+              "Child",
+              "Child, Preschool",
+              "Cough",
+              "Expectorants",
+              "Humans",
+              "Infant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23728642/"
+          },
+          {
+            "pmid": "19160217",
+            "title": "Acetylcysteine and carbocysteine for acute upper and lower respiratory tract infections in paediatric patients without chronic broncho-pulmonary disease.",
+            "abstract": "Acetylcysteine and carbocysteine are the most commonly prescribed mucolytic drugs in many European countries. To our knowledge, no systematic review has been published on their efficacy and safety for acute upper and lower respiratory tract infections (ARTIs) in children without chronic broncho-pulmonary disease.",
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2009",
+            "authors": [
+              "Duijvestijn Yvonne C M",
+              "Mourdi Nadjette",
+              "Smucny John",
+              "Pons Gérard",
+              "Chalumeau Martin"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Carbocysteine",
+              "Child",
+              "Child, Preschool",
+              "Expectorants",
+              "Humans",
+              "Infant",
+              "Randomized Controlled Trials as Topic",
+              "Respiratory Tract Infections"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19160217/"
+          },
+          {
+            "pmid": "2099568",
+            "title": "Long-lasting effects on rheology and clearance of bronchial mucus after short-term administration of high doses of carbocysteine-lysine to patients with chronic bronchitis.",
+            "abstract": "The rheological behavior and clearance of bronchial mucus samples collected by protected expectoration from 24 out-patients with simple chronic bronchitis were investigated before, at the end of a short period of treatment (4 days) with a single oral dose of 2.7 g (sachet) of carbocysteine-lysine (evening meal), and on the 4th and 8th days after the end of treatment versus placebo. In the group treated with carbocysteine-lysine, there were significant reductions in viscosity (-67, -48, -62%) and increases in mucociliary transport (+41, +31, +34%) at the three times mentioned. The most striking finding was that the improvements were still present 8 days after cessation of treatment. The elasticity parameter was not affected in any statistically significant way (-10, -24, +65%). These findings suggest the presence of some type of 'post-mucoactive' effect.",
+            "journal": "Respiration; international review of thoracic diseases",
+            "year": "1990",
+            "authors": [
+              "Braga P C",
+              "Allegra L",
+              "Rampoldi C",
+              "Ornaghi A",
+              "Beghi G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Bronchitis",
+              "Carbocysteine",
+              "Chronic Disease",
+              "Female",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Mucociliary Clearance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2099568/"
+          },
+          {
+            "pmid": "1487227",
+            "title": "Study on the effect of oral administration of carbocysteine on ventilatory parameters in the SO2 inhalation model of bronchitis in the rat.",
+            "abstract": "In order to study the physiological correlates of the beneficial action of carbocisteine (S-carboxy-methyl-cysteine), we have measured the changes occurring in ventilatory parameters in rats made bronchitic by prolonged exposure (2 weeks) to air containing sulfur dioxide (SO2). In animals treated with distilled water (1 ml/100 g/day), statistically significant (P < 0.05) changes in respiratory frequency (-20%) and tidal volume (+31%) were found. As a result of these opposing changes, the ventilation/min was stable. Moreover, the compliance was decreased (33%, P < 0.05) and the resistance was greatly enhanced (+ 99%, P < 0.05). The concomitant administration of carbocisteine (500 mg/kg po/day) with SO2 inhalation significantly (P < 0.05) prevented the development of resistance without effecting significant changes in the other parameters except for a slight improvement in ventilation/min. In conclusion, this improved respiratory resistance in the bronchitic carbocisteine-treated animals",
+            "journal": "Fundamental & clinical pharmacology",
+            "year": "1992",
+            "authors": [
+              "Levrier J",
+              "Duval D",
+              "Lloyd K G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Administration, Oral",
+              "Animals",
+              "Bronchitis",
+              "Carbocysteine",
+              "Disease Models, Animal",
+              "Lung",
+              "Male",
+              "Random Allocation",
+              "Rats"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1487227/"
+          },
+          {
+            "pmid": "20654866",
+            "title": "[Mucolytic drugs: towards a contraindication in infants].",
+            "abstract": "",
+            "journal": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie",
+            "year": "2010",
+            "authors": [
+              "Mourdi N",
+              "Dubus J-C",
+              "Bavoux F",
+              "Boyer-Gervoise M",
+              "Jean-Pastor M-J"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Bronchitis",
+              "Carbocysteine",
+              "Contraindications",
+              "Cross-Cultural Comparison",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Europe",
+              "Expectorants",
+              "France",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20654866/"
+          },
+          {
+            "pmid": "367726",
+            "title": "Effects of S-carboxymethylcysteine on tracheal mucus velocity.",
+            "abstract": "The effects of S-carboxymethylcysteine on tracheal mucus velocity were assessed in a double blind crossover study between 2 grams S-carboxymethylcysteine and placebo. Subjects included six healthy non-smokers, eight smokers with small airway disease and chronic simple bronchitis, and eight subjects with chronic obstructive bronchitis. Tracheal mucus velocity was measured prior to and two and three hours after each subject had ingested S-carboxymethylcysteine or placebo. No significant change in tracheal mucus velocity occurred after placebo or S-carboxymethylcysteine in any of the groups, indicating that the drug has no acute effect on mucus transport.",
+            "journal": "Chest",
+            "year": "1978",
+            "authors": [
+              "Goodman R M",
+              "Yergin B M",
+              "Sackner M A"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article",
+              "Research Support, U.S. Gov't, P.H.S."
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Bronchitis",
+              "Carbocysteine",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Cysteine",
+              "Female",
+              "Humans",
+              "Lung Diseases, Obstructive",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/367726/"
+          },
+          {
+            "pmid": "3155012",
+            "title": "[Carbocysteine-sobrerol combination and exacerbation of chronic bronchitis].",
+            "abstract": "",
+            "journal": "Archivio Monaldi per le malattie del torace",
+            "year": "1988",
+            "authors": [
+              "Pasturenzi L",
+              "Donnetta A M",
+              "Gualtieri G",
+              "Luisetti M"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Ambroxol",
+              "Amoxicillin",
+              "Bronchitis",
+              "Carbocysteine",
+              "Cefuroxime",
+              "Chronic Disease",
+              "Drug Therapy, Combination",
+              "Expectorants",
+              "Humans",
+              "Terpenes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3155012/"
+          },
+          {
+            "pmid": "3518737",
+            "title": "The effect of reducing agents on proteolytic enzymes and oxidation of alpha 1-proteinase inhibitor.",
+            "abstract": "We have studied the effect of the mucolytic agent N-acetylcysteine and dithiothreitol on the oxidation of alpha 1-PI by hydrogen peroxide, and their effect on porcine pancreatic elastase and leukocyte elastase. In addition, the effect of S-(carboxymethyl)cysteine (= carbocisteine, a mucolytic agent which does not have reducing properties) was studied in vitro and in patients with chronic obstructive bronchitis. Following addition of 59.6mM N-acetylcysteine, the amidolytic activity of leukocyte elastase was decreased by 55.3% and that of porcine pancreatic elastase by 57.0%. Dithiothreitol (5.7 mM) caused the loss of 97.4% and 67.6% of amidolytic activity of leukocyte elastase and porcine pancreatic elastase respectively whereas S-(carboxymethyl)cysteine had no effect. Similar results were found for the effect on elastolytic activity. Oxidation of alpha 1-PI by 8.6mM H2O2 resulted in partial loss of inhibitory function (mean 68.7% activity of native alpha 1-PI). N-Acetylcysteine and dit",
+            "journal": "Biological chemistry Hoppe-Seyler",
+            "year": "1986",
+            "authors": [
+              "Morrison H M",
+              "Burnett D",
+              "Stockley R A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Blood Proteins",
+              "Bronchitis",
+              "Dithiothreitol",
+              "Forced Expiratory Volume",
+              "Humans",
+              "Kinetics",
+              "Oxidation-Reduction",
+              "Peptide Hydrolases",
+              "Protease Inhibitors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3518737/"
+          },
+          {
+            "pmid": "1134660",
+            "title": "[Studies of the clinical effectiveness of the mucolytic drug, S-carboxymethylcysteine, in the therapy of acute and chronic bronchitis].",
+            "abstract": "",
+            "journal": "Minerva medica",
+            "year": "1975",
+            "authors": [
+              "Magliulo E",
+              "Bonizzoni D",
+              "Cattaneo E",
+              "Scevola D",
+              "Concia E"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Adult",
+              "Aged",
+              "Bronchitis",
+              "Carbocysteine",
+              "Chronic Disease",
+              "Cysteine",
+              "Expectorants",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1134660/"
+          },
+          {
+            "pmid": "941624",
+            "title": "Lack of gastric effects of S-(carboxy-methyl)-L-cysteine.",
+            "abstract": "In 10 male subjects, the effects of oral S-(carboxy-methyl)-L-cysteine (SCMC) -- a mucolytic agent useful in the treatment of chronic obstructive bronchitis -- on gastric secretion of acid and N-acetylneuraminic acid (NANA) containing glycoproteins were investigated. Gastric acid outputs and mucus secretory rates remained unchanged during a 10-day period of daily administration of SCMC. Thus, the receptors of SCMC in the bronchial system appear to differ basically from those in the stomach.",
+            "journal": "Acta hepato-gastroenterologica",
+            "year": "1976",
+            "authors": [
+              "Domschke W",
+              "Domschke S",
+              "Demling L"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Carbocysteine",
+              "Cysteine",
+              "Gastric Juice",
+              "Gastric Mucins",
+              "Gastric Mucosa",
+              "Humans",
+              "Male",
+              "Sialic Acids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/941624/"
+          },
+          {
+            "pmid": "789027",
+            "title": "S-carboxymethylcysteine in the fluidification of sputum and treatment of chronic airway obstruction.",
+            "abstract": "The clinical results and changes in sputum found in both a short-term inpatient trial and a subsequent long-term outpatient investigation (three-month double-blind controlled study) of 82 patients with chronic bronchitis treated with a new mucolytic agent, S-carboxymethylcysteine (Mucodyne), are reported. Fluidification of sputum with reduction in certain measurements of the viscosity of morning sputum aliquots, associated with improvement in the ability to cough up bronchial secretions, significant increase in sputum volume output, and improvement in ventilation (as estimated by the forced expiratory volume in one second), were observed in both trials as dose-related responses, with an increase in the ease of expectoration and a reduction in cough frequency and dyspnea. Therapy with S-carboxymethylcysteine was well tolerated, and there were no serious adverse effects, either immediate or delayed. We suggest that the effect of the drug in fluidifying sputum may be due to a mucoregulato",
+            "journal": "Chest",
+            "year": "1976",
+            "authors": [
+              "Edwards G F",
+              "Steel A E",
+              "Scott J K",
+              "Jordan J W"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Controlled Clinical Trial",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Bronchitis",
+              "Carbocysteine",
+              "Chronic Disease",
+              "Clinical Trials as Topic",
+              "Cysteine",
+              "Female",
+              "Forced Expiratory Volume",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/789027/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "appendicitis",
+        "txgnn_score": 0.9868578910827636,
+        "txgnn_rank": 12936,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "congestive heart failure",
+        "txgnn_score": 0.9846907258033752,
+        "txgnn_rank": 14389,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "28679982",
+            "title": "[Pseudomelanosis duodeni:a case report].",
+            "abstract": "An 83-year-old Japanese man underwent esophagogastroduodenoscopy for screening purposes. He had a medical history of hypertension, chronic kidney disease, chronic heart failure, and chronic myeloid leukemia, and he had been taking the following medications:ferrous citrate, furosemide, spironolactone, tolvaptan, bisoprolol, nicorandil, warfarin, nilotinib, febuxostat, esomeprazole, digestive enzyme complex, ambroxol, carbocysteine, and potassium L-aspartate. Esophagogastroduodenoscopy revealed a brownish speckled pigmentation in the duodenal bulb. Biopsy specimens from the duodenal villi revealed a brown pigment deposition, which appeared bright on scanning electron microscopy. Energy dispersive X-ray spectroscopy and elemental mapping revealed the presence of iron and sulfur in the duodenal villi. Consequently, pseudomelanosis duodeni was diagnosed based on these findings.",
+            "journal": "Nihon Shokakibyo Gakkai zasshi = The Japanese journal of gastro-enterology",
+            "year": "2017",
+            "authors": [
+              "Iwamuro Masaya",
+              "Oka Shohei",
+              "Kanzaki Hiromitsu",
+              "Tanaka Takehiro",
+              "Kawano Seiji"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aged, 80 and over",
+              "Biopsy",
+              "Duodenal Diseases",
+              "Duodenoscopy",
+              "Humans",
+              "Male",
+              "Melanosis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28679982/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute pulmonary heart disease",
+        "txgnn_score": 0.9814086556434632,
+        "txgnn_rank": 16333,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04853238",
+            "title": "COPD Disease Burden, Patient Characteristics, Maintenance Treatment Patterns and Factors Influencing Treatment Decisions in China Tier 2 and Tier 3 Hospitals",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-04-27",
+            "completion_date": "2023-02-06",
+            "country": "China",
+            "enrollment": 1507,
+            "brief_summary": "This observational study will be conducted in COPD participants in Tier 2 and 3 hospitals in China to gain an understanding of the complex COPD management and physician's treatment strategy.",
+            "eligibility_criteria": "Inclusion criteria:\n\n* Male or female participants with minimum 40 years of age.\n* A diagnosis of COPD confirmed by spirometry (According to Global initiative for chronic obstructive lung disease \\[GOLD\\] 2019 criteria) in Tier 2 and Tier 3 hospitals.\n* In hospitalized participants, recruit only par",
+            "endpoints": [
+              "Number of Participants Who Received COPD Prescription for Maintenance Treatment at Baseline",
+              "Number of Participants Who Received COPD Prescription for Maintenance Treatment at 3 Months",
+              "Number of Participants With Moderate Acute Exacerbation Requiring no Hospitalization by Each COPD Maintenance Treatment at Follow-up (Week 1)"
+            ],
+            "sponsor": "GlaxoSmithKline",
+            "url": "https://clinicaltrials.gov/study/NCT04853238"
+          }
+        ],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "epiglottitis",
+        "txgnn_score": 0.9812726974487304,
+        "txgnn_rank": 16416,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "peritonitis",
+        "txgnn_score": 0.9811083674430848,
+        "txgnn_rank": 16504,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "24303786",
+            "title": "Carbocisteine reduces virus-induced pulmonary inflammation in mice exposed to cigarette smoke.",
+            "abstract": "Carbocisteine (S-CMC) inhibits viral infection and prevents acute exacerbation of chronic obstructive pulmonary disease. We recently demonstrated the protective effects of NF-E2-related factor (Nrf) 2 against influenza virus (FluV)-induced pulmonary inflammation in mice exposed to cigarette smoke (CS). In our current study, we investigated the effects of S-CMC on Nrf2 activation in cultured macrophages, and in mice infected with influenza after exposure to CS. Nuclear translocation of Nrf2 and the expression of Nrf2-targeted antioxidant genes, such as heavy and light subunits of γ glutamyl cysteine synthetase and heme oxigenase-1, were enhanced in a dose-dependent manner after treatment with S-CMC in peritoneal and alveolar macrophages of wild-type mice, but not in those of Nrf2-deficient mice. Nuclear translocation of Nrf2 in macrophages was inhibited by the phosphatidylinositol 3-kinase inhibitor, LY294002. Phosphorylated Akt, Nrf2, and heme oxigenase-1 were induced in the alveolar m",
+            "journal": "American journal of respiratory cell and molecular biology",
+            "year": "2014",
+            "authors": [
+              "Yageta Yuichi",
+              "Ishii Yukio",
+              "Morishima Yuko",
+              "Ano Satoshi",
+              "Ohtsuka Shigeo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antioxidants",
+              "Carbocysteine",
+              "Glutamate-Cysteine Ligase",
+              "Heme Oxygenase-1",
+              "Macrophages, Alveolar",
+              "Membrane Proteins",
+              "Mice",
+              "Mice, Inbred C57BL",
+              "NF-E2-Related Factor 2"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24303786/"
+          },
+          {
+            "pmid": "6530353",
+            "title": "The effect of penicillamine and related thiols on cyclophosphamide-induced cystitis and bone marrow suppression.",
+            "abstract": "When adult male Wistar-Kyoto rats had been injected intra-peritoneally with a dose of 100 mg/kg of cyclophosphamide (CP), their urinary bladders showed changes of thickening and haemorrhage visible macroscopically, and oedema, necrosis and haemorrhage of the mucosa visible microscopically. There was an increase in bladder weight from an average of 60 mg in untreated control rats to an average of 125 mg in the CP-treated rats. When in addition they had been given 400 mg/kg of a thiol drug, namely either penicillamine or its disulphide, or N-acetylcysteine (NAC) or its S-carboxymethyl derivative carbocysteine, the increase in bladder weight and the histologic changes of haemorrhagic cystitis were found to be prevented by the co-administration of penicillamine or NAC but not by penicillamine disulphide or carbocysteine. The leucopenia caused by CP was not prevented by co-administration of these thiol drugs. It is concluded that penicillamine, like NAC, is effective in preventing CP-induce",
+            "journal": "International journal of tissue reactions",
+            "year": "1984",
+            "authors": [
+              "Christophidis N",
+              "Cosolo W",
+              "Louis W J",
+              "Louis C J"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bone Marrow",
+              "Cell Survival",
+              "Cyclophosphamide",
+              "Cystitis",
+              "Male",
+              "Penicillamine",
+              "Rats",
+              "Structure-Activity Relationship",
+              "Sulfhydryl Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6530353/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "laryngitis",
+        "txgnn_score": 0.9646969437599182,
+        "txgnn_rank": 22932,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "21636230",
+            "title": "Efficacy of combined treatment with S-carboxymethylcysteine (carbocisteine) and clarithromycin in chronic rhinosinusitis patients without nasal polyp or with small nasal polyp.",
+            "abstract": "In Japan, fourteen-membered ring macrolides, antibacterial agents, and S-carboxymethylcysteine (SCMC; carbocisteine), a mucolytic, are commonly used to treat chronic rhinosinusitis (CRS), and they are also used in combination. However, no large-scale randomized study has examined the effects of these pharmacotherapies. The aim of this study is to evaluate the effect of combined administration of clarithromycin (CAM), a fourteen-membered ring macrolide, and SCMC, compared with CAM single therapy.",
+            "journal": "Auris, nasus, larynx",
+            "year": "2012",
+            "authors": [
+              "Majima Yuichi",
+              "Kurono Yuichi",
+              "Hirakawa Katsuhiro",
+              "Ichimura Keiichi",
+              "Haruna Shinichi"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anti-Bacterial Agents",
+              "Carbocysteine",
+              "Chronic Disease",
+              "Clarithromycin",
+              "Drug Therapy, Combination",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21636230/"
+          },
+          {
+            "pmid": "28473270",
+            "title": "Clinical practice guidelines for the diagnosis and management of otitis media with effusion (OME) in children in Japan, 2015.",
+            "abstract": "To (1) indicate the definition, the disease state, methods of diagnosis, and testing for otitis media with effusion (OME) in childhood (<12 years); and (2) recommend methods of treatment in accordance with the evidence-based consensus reached by the Subcommittee of Clinical Practice Guideline for Diagnosis and Management of OME in Children.",
+            "journal": "Auris, nasus, larynx",
+            "year": "2017",
+            "authors": [
+              "Ito Makoto",
+              "Takahashi Haruo",
+              "Iino Yukiko",
+              "Kojima Hiromi",
+              "Hashimoto Sho"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Acoustic Impedance Tests",
+              "Adenoidectomy",
+              "Algorithms",
+              "Anti-Bacterial Agents",
+              "Anti-Infective Agents, Local",
+              "Audiometry, Pure-Tone",
+              "Carbocysteine",
+              "Hearing Loss",
+              "Humans",
+              "Japan"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28473270/"
+          },
+          {
+            "pmid": "35341623",
+            "title": "Pharmacotherapy focusing on for the management of otitis media with effusion in children: Systematic review and meta-analysis.",
+            "abstract": "To examine the evidence for treating children with otitis media with effusion with pharmacotherapy.",
+            "journal": "Auris, nasus, larynx",
+            "year": "2022",
+            "authors": [
+              "Ikeda Ryoukichi",
+              "Hidaka Hiroshi",
+              "Ito Makoto",
+              "Kamide Yosuke",
+              "Kuroki Haruo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Administration, Intranasal",
+              "Child",
+              "Glucocorticoids",
+              "Humans",
+              "Nasal Sprays",
+              "Otitis Media",
+              "Otitis Media with Effusion",
+              "Steroids"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35341623/"
+          },
+          {
+            "pmid": "20807377",
+            "title": "The effect and mechanism of action of carbocysteine on airway bacterial load in rats chronically exposed to cigarette smoke.",
+            "abstract": "Carbocysteine (S-carboxymethylcysteine) is a mucoactive drug with in vitro free radical scavenging and anti-inflammatory properties. Several clinical trials have indicated that carbocysteine reduces exacerbation rates in COPD. In the present study, the effect of carbocysteine on the airway load of Haemophilus influenzae was assessed in rats chronically exposed to cigarette smoke (CS). In addition, the effects of carbocysteine on airway mucus hypersecretion and mucociliary clearance (MCC) associated with the adherence and clearance of H. influenzae were investigated.",
+            "journal": "Respirology (Carlton, Vic.)",
+            "year": "2010",
+            "authors": [
+              "Sun Li",
+              "Tang Lifeng",
+              "Xu Yan",
+              "Wang Shouqin",
+              "Li Yaming"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Bacterial Adhesion",
+              "Bacterial Load",
+              "Carbocysteine",
+              "Expectorants",
+              "Goblet Cells",
+              "Haemophilus Infections",
+              "Haemophilus influenzae",
+              "Male",
+              "Mucociliary Clearance"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20807377/"
+          },
+          {
+            "pmid": "30259890",
+            "title": "Inhibitory Effects of S-carboxymethylcystein on Goblet Cell Proliferation in Cultured Epithelium.",
+            "abstract": "The influence of S-carboxymethylcystein (S-CMC) on the proliferation ability of goblet cells in nasal polyp epithelium in response to inflammatory stimulation was examined.",
+            "journal": "Journal of Nippon Medical School = Nippon Ika Daigaku zasshi",
+            "year": "2018",
+            "authors": [
+              "Yamaguchi Satoshi",
+              "Matsune Shoji",
+              "Sekine Kuwon",
+              "Wakayama Nozomu",
+              "Kitayama Yasuhiko"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Carbocysteine",
+              "Cell Proliferation",
+              "Cells, Cultured",
+              "Chronic Disease",
+              "Depression, Chemical",
+              "Dose-Response Relationship, Drug",
+              "Epithelial Cells",
+              "Goblet Cells"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30259890/"
+          },
+          {
+            "pmid": "15205558",
+            "title": "Reduced airway inflammation and remodeling in parallel with mucin 5AC protein expression decreased by s-carboxymethylcysteine, a mucoregulant, in the airways of rats exposed to sulfur dioxide.",
+            "abstract": "Human obstructive airway diseases are histopathologically characterized by inflammatory cell infiltration, goblet cell hyperplasia, and mucus hypersecretion in airways. We prepared a rat model of airway injury by exposure of sulfur dioxide (SO2) and then evaluated the effects of S-carboxymethylcysteine (S-CMC), a mucoregulant.",
+            "journal": "International archives of allergy and immunology",
+            "year": "2004",
+            "authors": [
+              "Sueyoshi Sumihisa",
+              "Miyata Yuki",
+              "Masumoto Yoshihiro",
+              "Ishibashi Yuji",
+              "Matsuzawa Shigeki"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Evaluation Study",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Air Pollutants",
+              "Animals",
+              "Bronchitis",
+              "Carbocysteine",
+              "Disease Models, Animal",
+              "Expectorants",
+              "Goblet Cells",
+              "Immunohistochemistry",
+              "Inhalation Exposure",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15205558/"
+          },
+          {
+            "pmid": "10214889",
+            "title": "Clinical efficacy of an antiallergic drug on otitis media with effusion in association with allergic rhinitis.",
+            "abstract": "The effect of azelastine hydrochloride (AZ), an oral antiallergic drug, was evaluated in patients displaying otitis media with effusion (OME) accompanying allergic rhinitis.",
+            "journal": "Auris, nasus, larynx",
+            "year": "1999",
+            "authors": [
+              "Suzuki M",
+              "Kawauchi H",
+              "Mogi G"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Comparative Study",
+              "Journal Article",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adolescent",
+              "Adult",
+              "Anti-Allergic Agents",
+              "Carbocysteine",
+              "Child",
+              "Child, Preschool",
+              "Drug Therapy, Combination",
+              "Expectorants",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10214889/"
+          },
+          {
+            "pmid": "3835885",
+            "title": "The ciliary activity of the middle ear lining in some pathological states.",
+            "abstract": "The ciliary activity in some pathological middle ear lining was discussed with special reference to the morphology of the epithelial cells in this paper. The changes in ciliary activity due to in vitro Staphylococcus aureus injection did not practically show any differences between the sites. On the other hand, the time-course changes in ciliary activity after in vivo S. aureus injection were found to differ between the sites. Ciliary activity was rather accelerated at the proximal site, while it was decelerated at the distal site. Few changes but for sporadic small compound cilia were observed at the proximal site, and some inflammatory changes were noted at the epithelium of the distal site. SO2 exposure affected the middle ear lining of rabbits. Fourteen days after 4 week's exposure to SO2, the middle ear lining displayed declined ciliary activity and many signs suggestive of secretory asthenia. In addition, the middle ear lining of rabbits given about 600 mg carbocysteine, both dur",
+            "journal": "Auris, nasus, larynx",
+            "year": "1985",
+            "authors": [
+              "Kihara S",
+              "Ohashi Y",
+              "Maruoka K",
+              "Ikeoka H",
+              "Masutani H"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Cilia",
+              "Ear, Middle",
+              "Guinea Pigs",
+              "Rabbits",
+              "Staphylococcus aureus",
+              "Sulfur Dioxide"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3835885/"
+          },
+          {
+            "pmid": "2532606",
+            "title": "Oral N-acetylcysteine or S-carboxymethylcysteine inhibit cigarette smoke-induced hypersecretion of mucus in rat larynx and trachea in situ.",
+            "abstract": "Two weeks exposure of rats to cigarette smoke (CS) significantly (p less than 0.05) increased the secretion of fucose-containing glycoconjugates above normal in an in situ preparation of larynx and trachea. After equilibration mean basal secretion in CS-exposed rats was 24 micrograms (per 30 min collection) which was 8 times higher than that of unexposed animals (p less than 0.01). N-acetylcysteine (NAC) or S-carboxymethylcysteine (SCMC) given as 1% of the drinking water, before and after daily exposure to CS, significantly inhibited the development of the CS-induced increase in fucose secretion reducing the mean for basal secretion in each group to 7 and 5 micrograms, respectively (p less than 0.05). Neither NAC nor SCMC had significant effects on baseline glycoconjugate secretion in control animals. Albumin was inconsistently present in the secretions of both control and CS-exposed animals, whereas in those exposed to CS and also given one of the two cysteine derivatives there was a ",
+            "journal": "The European respiratory journal",
+            "year": "1989",
+            "authors": [
+              "Rogers D F",
+              "Turner N C",
+              "Marriott C",
+              "Jeffery P K"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Acetylcysteine",
+              "Animals",
+              "Carbocysteine",
+              "Cysteine",
+              "Fucose",
+              "Hexoses",
+              "Larynx",
+              "Male",
+              "Mucus",
+              "Plants, Toxic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2532606/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Lesch-Nyhan syndrome",
+        "txgnn_score": 0.9640259742736816,
+        "txgnn_rank": 23146,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "gastrointestinal allergy",
+        "txgnn_score": 0.962744414806366,
+        "txgnn_rank": 23530,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB04339",
+    "name": "Carbocisteine",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Carbocisteine"
+      },
+      "queried_at": "2026-03-10T01:31:45.229605",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Carbocisteine"
+      },
+      "queried_at": "2026-03-10T01:31:48.067384",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T01:31:48.610723",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T01:31:52.193115",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "gout"
+      },
+      "queried_at": "2026-03-10T01:31:54.406353",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T01:31:55.511230",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T01:32:00.344235",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "bronchitis"
+      },
+      "queried_at": "2026-03-10T01:32:06.846208",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "appendicitis"
+      },
+      "queried_at": "2026-03-10T01:32:07.491515",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "appendicitis"
+      },
+      "queried_at": "2026-03-10T01:32:12.442581",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "appendicitis"
+      },
+      "queried_at": "2026-03-10T01:32:13.149895",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "congestive heart failure"
+      },
+      "queried_at": "2026-03-10T01:32:13.663608",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "congestive heart failure"
+      },
+      "queried_at": "2026-03-10T01:32:17.695193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "congestive heart failure"
+      },
+      "queried_at": "2026-03-10T01:32:20.962691",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T01:32:22.568095",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T01:32:27.807865",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "acute pulmonary heart disease"
+      },
+      "queried_at": "2026-03-10T01:32:29.914821",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-10T01:32:31.317855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-10T01:32:35.659271",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "epiglottitis"
+      },
+      "queried_at": "2026-03-10T01:32:37.763171",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "peritonitis"
+      },
+      "queried_at": "2026-03-10T01:32:39.862322",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "peritonitis"
+      },
+      "queried_at": "2026-03-10T01:32:44.600909",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "peritonitis"
+      },
+      "queried_at": "2026-03-10T01:32:47.265691",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "laryngitis"
+      },
+      "queried_at": "2026-03-10T01:32:47.892916",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "laryngitis"
+      },
+      "queried_at": "2026-03-10T01:32:53.713243",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "laryngitis"
+      },
+      "queried_at": "2026-03-10T01:33:00.044365",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "Lesch-Nyhan syndrome"
+      },
+      "queried_at": "2026-03-10T01:33:01.604595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "Lesch-Nyhan syndrome"
+      },
+      "queried_at": "2026-03-10T01:33:06.729905",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "Lesch-Nyhan syndrome"
+      },
+      "queried_at": "2026-03-10T01:33:08.277270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "gastrointestinal allergy"
+      },
+      "queried_at": "2026-03-10T01:33:11.307155",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "gastrointestinal allergy"
+      },
+      "queried_at": "2026-03-10T01:33:17.105951",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Carbocisteine",
+        "disease": "gastrointestinal allergy"
+      },
+      "queried_at": "2026-03-10T01:33:18.782579",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:33:18.801713"
+  }
+}

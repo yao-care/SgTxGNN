@@ -1,0 +1,1538 @@
+{
+  "drug": {
+    "inn": "Sotalol",
+    "drugbank_id": "DB00489",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "sick sinus syndrome 2, autosomal dominant",
+        "txgnn_score": 0.9975512623786926,
+        "txgnn_rank": 3970,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Wildervanck syndrome",
+        "txgnn_score": 0.9964970946311952,
+        "txgnn_rank": 5111,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sarcoglycanopathy",
+        "txgnn_score": 0.9964473843574524,
+        "txgnn_rank": 5163,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "stroke disorder",
+        "txgnn_score": 0.9944025874137878,
+        "txgnn_rank": 7016,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01447862",
+            "title": "Vernakalant Versus Ibutilide In Recent-Onset Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2011-10",
+            "completion_date": "2015-05",
+            "country": "Austria",
+            "enrollment": 101,
+            "brief_summary": "Atrial fibrillation is the most common cardiac arrhythmia and is expected to affect about 30 million North Americans and Europeans by 2050. Atrial fibrillation is associated with increased cardiovascular morbidity and mortality, with stroke being an especially important and potentially devastating complication. Many studies have investigated the efficacy of different drugs in converting atrial fibrillation to sinus rhythm. There are numerous randomized controlled trials that have tested the effi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Symptoms of atrial fibrillation since no longer than 48 hours\n* Age 18 - 90 years\n\nExclusion Criteria:\n\n* Need for immediate electrical cardioversion due to hemodynamic instability (hypotension: systolic blood pressure \\< 100 mmHg, dyspnea, loss of consciousness, unstable angi",
+            "endpoints": [
+              "Time in minutes until conversion to sinus rhythm (measured from the start of the first study drug administration)"
+            ],
+            "sponsor": "Medical University of Vienna",
+            "url": "https://clinicaltrials.gov/study/NCT01447862"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02459574",
+            "title": "Ablation Verses Anti-arrhythmic Therapy for Reducing All Hospital Episodes From Recurrent Atrial Fibrillation",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2015-05-01",
+            "completion_date": "2018-11-27",
+            "country": "United Kingdom",
+            "enrollment": 321,
+            "brief_summary": "A streamlined AF ablation procedure done without PV mapping as a daycase is more effective than anti-arrhythmic drugs at reducing all hospital episodes for recurrent atrial fibrillation.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Documented paroxysmal atrial fibrillation\n2. Modification or initiation of anti-arrhythmic agent required for symptom control\n3. Males or females eighteen (18) to eighty (80) years of age\n4. Suitable candidate for catheter ablation\n5. Signed informed consent\n\nExclusion Criter",
+            "endpoints": [
+              "All Hospital Episodes (Emergency Room or Patient Request for OPD) Related to Treatment for Atrial Arrhythmia"
+            ],
+            "sponsor": "Imperial College London",
+            "url": "https://clinicaltrials.gov/study/NCT02459574"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00007605",
+            "title": "CSP #399 - The Effects of Antiarrhythmic Therapy in Maintaining Stability of Sinus Rhythm in Atrial Fibrillation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "1998-04",
+            "completion_date": "2003-12",
+            "country": "United States",
+            "enrollment": 706,
+            "brief_summary": "Atrial fibrillation is the most frequently occurring cardiac arrhythmia, with 1.0-1.5 million cases annually. It is a risk factor for congestive heart failure, and stroke, 75,000 cases of the latter occurring annually in patients with atrial fibrillation. The safety of the most widely used antiarrhythmic agent for this group of patients, quinidine, has been called into question. This study seeks to determine whether two other agents, amiodarone and sotalol, are safe and effective treatments for ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients who have atrial fibrillation continuously for greater than 72 hours.\n\nExclusion Criteria:",
+            "endpoints": [
+              "Treatment failure, defined as occurrence of atrial fibrillation or flutter after day 28 or failure to convert to sinus rhythm."
+            ],
+            "sponsor": "VA Office of Research and Development",
+            "url": "https://clinicaltrials.gov/study/NCT00007605"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00523978",
+            "title": "A Randomized, Controlled Clinical Trial of Catheter Cryoablation in the Treatment of Paroxysmal Atrial Fibrillation.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2006-10",
+            "completion_date": "2011-07",
+            "country": "Canada, United States",
+            "enrollment": 245,
+            "brief_summary": "This study (STOP AF) is a prospective, randomized, controlled, multicenter, pivotal clinical investigation conducted at 26 investigational sites in the United States and Canada. Subjects with paroxysmal atrial fibrillation (PAF) referred for ablative intervention after efficacy failure of one or more Study Atrial Fibrillation (AF) Drugs (flecainide, propafenone or sotalol) were randomized 2:1 to cryoablation intervention (Experimental Subjects, ES) or to a Study AF Drug (Control Subjects, CS). S",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented Paroxysmal Atrial Fibrillation (PAF): PAF diagnosis, 2 episodes of PAF within the last 2 months, at least 1 episode of PAF must be documented\n* Age 18-75\n* Documented Effectiveness Failure of one (1) AF drug\n* Willing to be randomized to either group and do full 12 ",
+            "endpoints": [
+              "Acute Procedural Success (APS)",
+              "Freedom From Chronic Treatment Failure (CTF)",
+              "Treatment Success"
+            ],
+            "sponsor": "Medtronic Cardiac Rhythm and Heart Failure",
+            "url": "https://clinicaltrials.gov/study/NCT00523978"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00911508",
+            "title": "Catheter Ablation vs Anti-arrhythmic Drug Therapy for Atrial Fibrillation Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2009-11-13",
+            "completion_date": "2017-12-31",
+            "country": "Australia, United Kingdom, Canada, South Korea, Germany, Italy, United States, China, Russia, Czechia",
+            "enrollment": 2204,
+            "brief_summary": "The (Catheter Ablation Versus Anti-arrhythmic Drug Therapy for Atrial Fibrillation Trial) CABANA Trial has the overall goal of establishing the appropriate roles for medical and ablative intervention for atrial fibrillation (AF). The CABANA Trial is designed to test the hypothesis that the treatment strategy of left atrial catheter ablation for the purpose of eliminating atrial fibrillation (AF) will be superior to current state-of-the-art therapy with either rate control or rhythm control drugs",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Over the preceding 6 months have:\n\n  1. ≥2 paroxysmal (electrocardiographic documentation of at least 1) atrial fibrillation (AF) episodes lasting ≥1 hour in duration: (that terminate spontaneously within 7 days or cardioversion is performed within 48h of AF onset): or\n  2. el",
+            "endpoints": [
+              "Number of Participants With Composite of Total Mortality, Disabling Stroke, Serious Bleeding, or Cardiac Arrest in Patients Warranting Therapy for AF."
+            ],
+            "sponsor": "Mayo Clinic",
+            "url": "https://clinicaltrials.gov/study/NCT00911508"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02294955",
+            "title": "Catheter Ablation Compared With Pharmacological Therapy for Atrial Fibrillation - a Randomized Multicentre Study Comparing Atrial Fibrillation Ablation Strategy With Optimized Conventional Pharmacological Strategy After 12 Months Follow-up.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2008-05",
+            "completion_date": "2018-09",
+            "country": "Sweden",
+            "enrollment": 152,
+            "brief_summary": "The objective is to compare the efficacy of 2 treatment strategies, catheter ablation of atrial fibrillation versus optimized pharmacological therapy, in patients with symptomatic atrial fibrillation.\n\nIt is a randomized, prospective, controlled, open-label multicentre, parallel-group study including 116 patients. Inclusion criteria are patients aged 30-70 years with symptoms related to atrial fibrillation and who have failed or been intolerant to at least one anti-arrhythmic drug, with at least",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with symptoms related to atrial fibrillation (AF), who have failed or been intolerant to at least one drug used for either rate or rhythm control (Vaughan Williams class I, II, or III anti-arrhythmic drug) thus excluding digitalis and Calcium channel inhibitors.\n2. T",
+            "endpoints": [
+              "quality of life"
+            ],
+            "sponsor": "Uppsala University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT02294955"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06096337",
+            "title": "A Prospective Randomized Multicenter Global Study Comparing Pulsed Field Ablation (PFA) Versus Anti-Arrhythmic Drug (AAD) Therapy as a First Line Treatment for Persistent Atrial Fibrillation",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-12-28",
+            "completion_date": "2028-02-04",
+            "country": "Hong Kong, Australia, Spain, France, Canada, Croatia, Belgium, Austria, Germany, Italy, United States, Singapore, Taiwan",
+            "enrollment": 484,
+            "brief_summary": "The purpose of this study is to establish the safety and effectiveness of pulsed field ablation as a first-line ablation treatment for subjects with persistent atrial fibrillation as compared to subjects who received an initial treatment with anti-arrhythmic drugs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years of age, or older if specified by local law\n2. Have symptomatic persistent AF, confirmed by both:\n\n   a. Documentation, within 180 days of randomization, or treatment assignment for roll-in subjects, of either: i. A 24-hour continuous ECG recording (from any reg",
+            "endpoints": [
+              "Rate of randomized PFA or PFA Assigned subjects with PFA System inserted into the body, during the index or repeat PFA procedure during blanking period, with device or procedure-related Composite Adverse Events that is serious.",
+              "Rate of intent to treat subjects with treatment success from the pulse field ablation treatment and Anti-Arrhythmic Drug treatment."
+            ],
+            "sponsor": "Boston Scientific Corporation",
+            "url": "https://clinicaltrials.gov/study/NCT06096337"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01856075",
+            "title": "Relative Effectiveness of Dronedarone vs. Other Treatments of Atrial Fibrillation",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2012-10",
+            "completion_date": "2015-08",
+            "country": "Germany",
+            "enrollment": 1015,
+            "brief_summary": "This is an international observational multicentre study to be conducted in Germany, Spain, Italy and USA. The main objective of the study is to evaluate the relative effectiveness of dronedarone in real world clinical practice versus other anti-arrhythmic agents of interest. The design of the study is a historic-prospective cohort with dynamic exposure and stratified competitive recruitment with balanced comparison groups of dronedarone versus alternative antiarrhythmic drugs of interest.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient 18 years old or above\n* Patient with paroxysmal or persistent atrial fibrillation\n* Patient using an AAi (antiarrhythmic drug of interest) or dronedarone (index drug)\n* Patient's treatment changed from one AAi to another AAi or dronedarone OR from no antiarrhythmic the",
+            "endpoints": [
+              "Change from baseline Recurrence of Atrial Fibrillation"
+            ],
+            "sponsor": "La-ser Europe Limited",
+            "url": "https://clinicaltrials.gov/study/NCT01856075"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06783868",
+            "title": "Randomized Control Study to Assess the Neurological Outcomes After Atrial Fibrillation Ablation for Rhythm Control vs Routine Medication Therapy in Patients With Recent Stroke: SAVE STROKE Phase II Study",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2025-10",
+            "completion_date": "2027-06",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "A prospective, non-blinded, multi-center study to assess the impact of early Catheter Ablation (CA) in patients with a new diagnosis of Atrial Fibrillation(AF) at the time of stroke. 100 patients will be enrolled.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Ages \\>18 and able to provide consent.\n* Presenting with an acute stroke and new-onset AF\n* Modified RANKIN score (mRS) \\< 6\n* Must be able to undergo some form of cardiac monitoring \\[implantable loop recorder (ILR), electrocardiogram (ECG), Holter monitor\\] to quantify AF bu",
+            "endpoints": [
+              "Functional neurologic outcome - Modified Rankin Scale",
+              "Recurrent Stroke"
+            ],
+            "sponsor": "Kansas City Heart Rhythm Research Foundation",
+            "url": "https://clinicaltrials.gov/study/NCT06783868"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05279833",
+            "title": "SLR/NMA of Multaq® vs Sotalol to Assess for Safety in Patients With Atrial Fibrillation (AFib)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2021-09-24",
+            "completion_date": "2022-03-31",
+            "country": "France",
+            "enrollment": 87810,
+            "brief_summary": "A systematic literature review (SLR) will be conducted to understand the landscape of evidence on the relative safety and effectiveness/efficacy of dronedarone compared to sotalol in patients with AFib within interventional clinical trials and observational studies.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nFollowing eligibility criteria are defined to select relevant studies from the literature\n\n* Adults with Atrial Fibrillation(AFib) (non-permanent, including paroxysmal or persistent, long-standing persistent AFib \\[over 12 months\\]))\n* Participants have received either Dronedaro",
+            "endpoints": [
+              "Number of participants with Cardiovascular (CV) hospitalization",
+              "Number of participants with ventricular proarrhythmia",
+              "Number of all-cause mortality events"
+            ],
+            "sponsor": "Sanofi",
+            "url": "https://clinicaltrials.gov/study/NCT05279833"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03737929",
+            "title": "Comparison of the Efficacy of Hybrid Ablative Therapy for Patients with Persistent Atrial Fibrillation Versus Conventional Catheter Ablation",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2019-07-08",
+            "completion_date": "2025-12-31",
+            "country": "France",
+            "enrollment": 228,
+            "brief_summary": "Atrial fibrillation (AF) is the most common cardiac arrhythmia with a prevalence ranging from 5% over 60 years old to 17% after 85 years old. Besides hemodynamical compromises and occurrence of heart failure, stroke remains the most feared complication related to AF with a risk increased by 5-fold.\n\nCatheter ablation with the aim of pulmonary veins isolation (PVI) has evolved as a standardized treatment option in paroxysmal AF (PAF), supported by the current guidelines. However, due to advanced ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* To have a history of symptomatic persistent atrial fibrillation (AF) (continuous AF lasting 7 days or more) or long-standing persistent AF (continuous AF lasting for more than 12 months)\n* To be refractory to or intolerant to at least one class I (flecainide / propafenone) or ",
+            "endpoints": [
+              "Atrial fibrillation (AF)/Atrial tachycardia (AT) recurrence"
+            ],
+            "sponsor": "University Hospital, Toulouse",
+            "url": "https://clinicaltrials.gov/study/NCT03737929"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06322017",
+            "title": "Prospective Multicenter Randomized and Controlled Study Evaluating the Benefit of Early Pulmonary Vein Isolation Compared to Usual Treatment in Patients Aged Over 75 Years and Presenting With Atrial Fibrillation",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2024-04-09",
+            "completion_date": "2030-04-09",
+            "country": "France",
+            "enrollment": 294,
+            "brief_summary": "Therapeutic management of Atrial Fibrillation (AF) is based either on heart rate control or on rhythm control, a strategy which aims to maintain a normal heart rhythm. The benefit in terms of morbidity and mortality of a normal heart rhythm would, however, be largely offset by the frequent side effects of antiarrhythmic drugs which could even lead to an increase in mortality compared to rate control. This increase has particularly been suggested in people aged over 75.\n\nSince the emergence of ca",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Man or woman aged 75 and over.\n* Paroxysmal AF or early recurrent or persistent paroxysmal AF first diagnosed less than 12 months ago.\n* Patient who consented to participate in the study.\n* Patient affiliated to a social security system.\n\nExclusion Criteria:\n\n* Indication of c",
+            "endpoints": [
+              "Time before occurrence of the first event among cardiovascular death, hospitalization (all causes) and stroke"
+            ],
+            "sponsor": "Nantes University Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT06322017"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03118518",
+            "title": "STOP AF First: Cryoballoon Catheter Ablation in an Antiarrhythmic Drug Naive Paroxysmal Atrial Fibrillation",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "start_date": "2017-06-23",
+            "completion_date": "2020-06-25",
+            "country": "United States",
+            "enrollment": 225,
+            "brief_summary": "To provide data demonstrating the safety and effectiveness of the Arctic Front Advance™ Cardiac CryoAblation Catheter for the treatment of recurrent symptomatic paroxysmal atrial fibrillation, without the requirement that the subjects be drug refractory.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* A diagnosis of symptomatic paroxysmal AF with the following documentation: (1) physician's note indicating recurrent self- terminating AF or paroxysmal AF; and (2) any ECG documented AF within 6 months prior to enrollment.\n* Age 18-80\n\nExclusion Criteria:\n\n* History of AF trea",
+            "endpoints": [
+              "Percentage of Participants With Treatment Success at 12 Months After Antiarrhythmic Drug (AAD) Initiation or Ablation Utilizing the Arctic Front Advance™ Cardiac CryoAblation Catheter.",
+              "Primary Safety Endpoint - Rate of Composite List of Serious Adverse Events."
+            ],
+            "sponsor": "Medtronic Cardiac Ablation Solutions",
+            "url": "https://clinicaltrials.gov/study/NCT03118518"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02830360",
+            "title": "Ventricular Tachycardia Antiarrhythmics or AblatioN In Structural Heart Disease 2",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2016-10",
+            "completion_date": "2024-06-30",
+            "country": "Canada, France, United States",
+            "enrollment": 416,
+            "brief_summary": "A multicenter, randomized clinical trial to assess whether catheter ablation or antiarrhythmic drug therapy provides the most effective control of important clinical outcomes for patients with prior myocardial infarction and sustained monomorphic ventricular tachycardia (VT).",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Prior Myocardial Infarction and\n* One of the following VT events while not being treated with amiodarone, sotalol, or another class I or class III antiarrhythmic drug) within the last 6 months:\n\n  * Sustained monomorphic VT documented on 12-lead ECG or rhythm strip terminated ",
+            "endpoints": [
+              "All-cause mortality",
+              "Appropriate ICD shock at least 14 days post randomization",
+              "VT storm at least 14 days post randomization"
+            ],
+            "sponsor": "Nova Scotia Health Authority",
+            "url": "https://clinicaltrials.gov/study/NCT02830360"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05656170",
+            "title": "Pre-Operative Stellate Ganglion to Prevent Post-Operative Atrial Fibrillation",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "start_date": "2023-10-01",
+            "completion_date": "2024-04",
+            "country": "N/A",
+            "enrollment": 0,
+            "brief_summary": "New onset atrial fibrillation is a common problem after cardiac surgery. The reported incidence after coronary artery bypass grafting (CABG) is 15-40%, 37-50% after valve surgery, and up to 60% after CABG and valve surgery. Post-operative atrial fibrillation (POAF) is associated with increase risk for stroke, increased length of hospital stay, increase risk of other new arrhythmias, increased need for pacemaker implantation, and increased mortality. Several interventions have been implemented in",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients \\> 18 years old scheduled to undergo elective coronary artery bypass (CABG) surgery based on current surgical guidelines.\n\nExclusion Criteria:\n\n* Prior history of atrial fibrillation\n* Current antiarrhythmic use (other than beta blockers)\n* Inability of patient to pro",
+            "endpoints": [
+              "Incidence of new onset atrial fibrillation after CABG surgery"
+            ],
+            "sponsor": "Rush University Medical Center",
+            "url": "https://clinicaltrials.gov/study/NCT05656170"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07405671",
+            "title": "Randomized Evaluation of fleCAinide Safety Versus STandard of Care in Patients With Coronary Artery Disease and Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2026-09",
+            "completion_date": "2029-12",
+            "country": "N/A",
+            "enrollment": 988,
+            "brief_summary": "The goal of this clinical trial is to learn whether the antiarrhythmic drug flecainide can be used as safely as standard rhythm-control drugs in people with atrial fibrillation (AF) and stable coronary artery disease (CAD). The study includes adults aged 18 years and older who have AF and known but stable coronary artery disease.\n\nThe main questions this study aims to answer are:\n\n* Is treatment with flecainide as safe as standard rhythm-control drugs (sotalol or amiodarone) in this patient grou",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Voluntary written informed consent of the participant or their legally authorized representative has been obtained prior to any screening procedures\n2. At least 18 years of age at the time of signing the Informed Consent Form\n3. Non-permanent atrial fibrillation or ectopic at",
+            "endpoints": [
+              "Composite safety outcome"
+            ],
+            "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+            "url": "https://clinicaltrials.gov/study/NCT07405671"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00392106",
+            "title": "Study of Focused Circumferential UltraSound for the Treatment of Atrial Fibrillation",
+            "phase": "PHASE3",
+            "status": "SUSPENDED",
+            "start_date": "2006-04",
+            "completion_date": "2011-06",
+            "country": "Czechia, United States",
+            "enrollment": 240,
+            "brief_summary": "The purpose of this study is to determine if the HIFU Pulmonary Vein Ablation System is effective in the treatment of paroxysmal Atrial Fibrillation compared to the control of best medical therapy with FDA approved antiarrhythmic drugs.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Documented atrial fibrillation\n* Failed or intolerant to at least 1 anti-arrhythmic drug\n* Able to take anti-coagulant therapy\n* Able to complete screening tests required for inclusion/exclusion criteria\n* Able to take at least 1 approved anti-arrhythmic drug\n* Not pregnant\n* ",
+            "endpoints": [
+              "Acute treatment with elimination of AF episodes",
+              "Death, stroke, and hospitalization for recurrence of AF"
+            ],
+            "sponsor": "ProRhythm, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT00392106"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05034432",
+            "title": "Prophylactic Intra-Operative Ventricular Arrhythmia Ablation in High-Risk LVAD Candidates (PIVATAL)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "start_date": "2022-05-27",
+            "completion_date": "2026-06-30",
+            "country": "United States",
+            "enrollment": 100,
+            "brief_summary": "To investigate the effect of VTA ablation at the time of LVAD implant to see if it can reduce the incidence of VTA after surgery",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age \\> 18 years\n* Presence of advanced cardiomyopathy (of all INTERMACS classification) and eligible for LVAD implant per the decision of the Heart Failure clinical team\n* Implanted cardioverter defibrillator (ICD) any time in past with remote monitoring or planned to undergo ",
+            "endpoints": [
+              "Recurrent VTA"
+            ],
+            "sponsor": "University of Rochester",
+            "url": "https://clinicaltrials.gov/study/NCT05034432"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05939076",
+            "title": "First-line Cryoablation for Early Treatment of Persistent Atrial Fibrillation - a Randomized Study Comparing Early Trigger Isolation Using the Cryoballoon Versus Antiarrhythmic Medication",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2023-08-21",
+            "completion_date": "2028-12",
+            "country": "United Kingdom, Hungary, Slovakia, Sweden",
+            "enrollment": 220,
+            "brief_summary": "The goal of this multicentre, prospective, randomized, open, blinded for evaluation of end point (PROBE) controlled parallel-group superiority trial, is to compare the efficacy of antiarrhythmic drug (AAD) therapy and cryoballoon pulmonary vein isolation (PVI) regarding freedom from atrial fibrillation (%) assessed by an implantable cardiac monitor (ICM), ECG tracing or Holter at 12 months in patients with persistent AF. The main question\\[s\\] it aims to answer are:\n\n* Will first-line cryoballoo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Non-longstanding persistent symptomatic AF with at least 2 episodes within last 24 months, the latest episode within the previous 6 months and one documented on a 12 lead ECG or Holter monitor, that is classified as either\n\n  1. Classical persistent AF (continuously sustained ",
+            "endpoints": [
+              "Proportion of patients free from first atrial tachyarrhythmia recurrence lasting 6 minutes or longer"
+            ],
+            "sponsor": "Region Örebro County",
+            "url": "https://clinicaltrials.gov/study/NCT05939076"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02145546",
+            "title": "Antiarrhythmic Drugs Assessment in Preventing Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "start_date": "2014-05",
+            "completion_date": "2017-05",
+            "country": "China",
+            "enrollment": 600,
+            "brief_summary": "The current evidences indicate that \\~30% patients with sick sinus syndrome(SSS) would develop persistent atrial fibrillation (AF) after a long term pacing therapy. However, the accurate influence of antiarrhythmic drugs on the AF is still not well defined. The purpose of the study is to assess the therapeutic effects of various antiarrhythmic drugs (Amiodarone, Sotalol and Propafenone) on the long term management of AF in SSS patients with AF, including the reduced AF burden (duration and episo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* at least 18 years old\n* sick sinus syndrome with pacemaker Class I or Class IIa indication\n* has a pacemaker which can provide the daily AF burden monitor record for at least 28 days\n* has at AF record in the past 6 months, the valid AF record includes any of\n\n  1. at least on",
+            "endpoints": [
+              "Average AF burden in minutes per day",
+              "Persistent AF free survival rate"
+            ],
+            "sponsor": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine",
+            "url": "https://clinicaltrials.gov/study/NCT02145546"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05511389",
+            "title": "A Randomized Controlled Trial of Anterior-posterior Versus Anterior-lateral Shock Vectors for Electrical Cardioversion of Atrial Fibrillation",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2023-02-22",
+            "completion_date": "2027-07",
+            "country": "Canada",
+            "enrollment": 1500,
+            "brief_summary": "Atrial fibrillation is the most common heart rhythm disorder (arrhythmia) worldwide. Nearly 40 million people are affected by atrial fibrillation worldwide, and this number is expected to increase by over 50% by 2050. Atrial fibrillation can cause strokes, heart attacks, heart failure, poor quality of life and even death. Almost half a million deaths worldwide are expected to be related to atrial fibrillation by 2050, and many billions of dollars are spent on atrial fibrillation related healthca",
+            "eligibility_criteria": "Inclusion Criteria:\n\nConsenting adult patients scheduled for non-emergent electrical cardioversion of Atrial Fibrillation or Flutter\n\nExclusion Criteria:\n\n1. Insufficiently anticoagulation for cardioversion as per Canadian Cardiovascular Society guidelines or have not undergone trans-esophageal echo",
+            "endpoints": [
+              "First-shock cardioversion success"
+            ],
+            "sponsor": "McMaster University",
+            "url": "https://clinicaltrials.gov/study/NCT05511389"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02389218",
+            "title": "A Prospective Study of Medical Therapy Against Cryoballoon Ablation in Symptomatic Recent Onset Persistent Atrial Fibrilation",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "start_date": "2015-03-03",
+            "completion_date": "2020-05-14",
+            "country": "Belgium",
+            "enrollment": 13,
+            "brief_summary": "Prospective trial comparing the efficacy and safety of CryoBalloonAblation (CBA) to standardized medication for treatment of early onset persistent atrial fibrillation (AF) without structural heart disease. The value of CBA in these patients has never been studied; the endpoints for persistent patients are much easier than for paroxysmal patients. Reduction in left atrial (LA) size will be compared versus patients on drug therapy and versus failing patients.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* \\> 21 years and legally capable\n* First documentation or history of symptomatic AF more than 30 sec within the last 2 years\n* Twice AF within the last year\n* One episode cardioverted after more than 48 hours or spontaneously terminated after more than 7 days\n* Eligible for at ",
+            "endpoints": [
+              "Sinus rhythm"
+            ],
+            "sponsor": "University Hospital, Ghent",
+            "url": "https://clinicaltrials.gov/study/NCT02389218"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "38011245",
+            "title": "Evolving Contemporary Management of Atrial Fibrillation in Hypertrophic Cardiomyopathy.",
+            "abstract": "Atrial fibrillation (AF) is the most common sustained arrhythmia in hypertrophic cardiomyopathy (HCM) with clinical and subclinical episodes occurring in nearly one-half of patients. AF in HCM historically has been characterized as a decisive disease complication associated with substantial risk for thromboembolic stroke and increased morbidity and mortality. However, there have been many advances in treatment strategy resulting in improved outcomes for this patient group. For example, stroke risk in HCM has been greatly reduced by using systemic oral anticoagulation initiated after the first clinical (symptomatic) AF episode, usually with preference given to direct anticoagulants over warfarin. In contrast, stroke risk scoring systems (such as CHA2DS2-VASc score) are not informative in HCM given the substantial potential for stroke events in patients with low scores, and therefore should not be used for anticoagulation decisions in this disease. A novel risk score specifically designe",
+            "journal": "Circulation",
+            "year": "2023",
+            "authors": [
+              "Rowin Ethan J",
+              "Link Mark S",
+              "Maron Martin S",
+              "Maron Barry J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Atrial Fibrillation",
+              "Anti-Arrhythmia Agents",
+              "Quality of Life",
+              "Risk Factors",
+              "Anticoagulants",
+              "Stroke",
+              "Cardiomyopathy, Hypertrophic",
+              "Catheter Ablation",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38011245/"
+          },
+          {
+            "pmid": "11445058",
+            "title": "Atrial Flutter.",
+            "abstract": "Atrial flutter (AFl) is an arrhythmia resulting from reentry in a macroreentrant circuit, most commonly in the right atrium. Typical AFl uses the narrow isthmus of right atrial tissue between the tricuspid valve annulus and the inferior vena cava orifice as part of the macroreentrant circuit. The treatment of AFl is directed toward achieving the following four goals. 1) In the presence of AFl, adequate rate control is required, which can be achieved in most but not all patients by oral or intravenous digoxin, calcium channel blockers, or beta-blockers, alone or in combination. 2) Anticoagulation with warfarin should be considered in patients with recurrent AFl, especially those over 70 years of age, and those with a history of atrial fibrillation, stroke, or structural heart disease. 3) Conversion to sinus rhythm can be achieved in up to 70% of patients with intravenous ibutilide, but this should be reserved for patients with either normal hearts or only mild left ventricular dysfuncti",
+            "journal": "Current treatment options in cardiovascular medicine",
+            "year": "2001",
+            "authors": [
+              "Garg Ashok",
+              "Feld Gregory K."
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11445058/"
+          },
+          {
+            "pmid": "25430048",
+            "title": "Atrial fibrillation (acute onset).",
+            "abstract": "Acute atrial fibrillation is rapid, irregular, and chaotic atrial activity of recent onset. Various definitions of acute atrial fibrillation have been used in the literature, but for the purposes of this review we have included studies where atrial fibrillation may have occurred up to 7 days previously. Risk factors for acute atrial fibrillation include increasing age, cardiovascular disease, alcohol, diabetes, and lung disease. Acute atrial fibrillation increases the risk of stroke and heart failure. The condition resolves spontaneously within 24 to 48 hours in more than 50% of people; however, many people will require interventions to control heart rate or restore sinus rhythm.",
+            "journal": "BMJ clinical evidence",
+            "year": "2014",
+            "authors": [
+              "Lip Gregory Y H",
+              "Apostolakis Stavros"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Electric Countershock",
+              "Humans",
+              "Safety"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25430048/"
+          },
+          {
+            "pmid": "21718559",
+            "title": "Atrial fibrillation (acute onset).",
+            "abstract": "Acute atrial fibrillation is rapid, irregular, and chaotic atrial activity of less than 48 hours' duration. Risk factors for acute atrial fibrillation include increasing age, cardiovascular disease, alcohol, diabetes, and lung disease. Acute atrial fibrillation increases the risk of stroke and heart failure. The condition resolves spontaneously within 24 to 48 hours in over 50% of people; however, many people will require interventions to control heart rate or restore sinus rhythm.",
+            "journal": "BMJ clinical evidence",
+            "year": "2011",
+            "authors": [
+              "Lip Gregory Y H",
+              "Apostolakis Stavros"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Humans",
+              "Propafenone",
+              "Sotalol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21718559/"
+          },
+          {
+            "pmid": "19450312",
+            "title": "Atrial fibrillation (acute onset).",
+            "abstract": "Risk factors for acute atrial fibrillation include increasing age, cardiovascular disease, alcohol, diabetes, and lung disease. Acute atrial fibrillation increases the risk of stroke and heart failure. Acute atrial fibrillation resolves spontaneously within 24-48 hours in over 50% of people, however many people will require interventions to control heart rate or restore sinus rhythm.",
+            "journal": "BMJ clinical evidence",
+            "year": "2008",
+            "authors": [
+              "Lip Gregory Y H",
+              "Watson Timothy"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Systematic Review"
+            ],
+            "mesh_terms": [
+              "Acute Disease",
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Humans",
+              "Propafenone",
+              "Sotalol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19450312/"
+          },
+          {
+            "pmid": "39077579",
+            "title": "The Challenge of Managing Atrial Fibrillation during Pregnancy.",
+            "abstract": "The incidence of atrial fibrillation (AF) during pregnancy increases with maternal age and with the presence of structural heart disorders. Early diagnosis and prompt therapy can considerably reduce the risk of thromboembolism. The therapeutic approach to AF during pregnancy is particularly challenging, and the maternal and fetal risks associated with the use of antiarrhythmic and anticoagulant drugs must be carefully evaluated. Moreover, the currently used thromboembolic risk scores have yet to be validated for the prediction of stroke during pregnancy. At present, electrical cardioversion is considered to be the safest and most effective strategy in women with hemodynamic instability. Beta-selective blockers are also recommended as the first choice for rate control. Antiarrhythmic drugs such as flecainide, propafenone and sotalol should be considered for rhythm control if atrioventricular nodal-blocking drugs fail. AF catheter ablation is currently not recommended during pregnancy. O",
+            "journal": "Reviews in cardiovascular medicine",
+            "year": "2023",
+            "authors": [
+              "Lucà Fabiana",
+              "Oliva Fabrizio",
+              "Abrignani Maurizio Giuseppe",
+              "Russo Maria Giovanna",
+              "Parrini Iris"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39077579/"
+          },
+          {
+            "pmid": "29954667",
+            "title": "Efficacy and adverse effects of sotalol in adults with congenital heart disease.",
+            "abstract": "Adults with congenital heart disease (CHD) are predisposed to arrhythmias, which can often be refractory to medical therapy. Sotalol is an attractive alternative antiarrhythmic to amiodarone in this younger patient population, given the latter's toxicity profile, but it may have proarrhythmic effects. We therefore aimed to assess the efficacy and safety of sotalol in adults with CHD.",
+            "journal": "International journal of cardiology",
+            "year": "2019",
+            "authors": [
+              "Moore Benjamin M",
+              "Cordina Rachael L",
+              "McGuire Mark A",
+              "Celermajer David S"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Anti-Arrhythmia Agents",
+              "Arrhythmias, Cardiac",
+              "Australia",
+              "Child",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Electrocardiography",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29954667/"
+          },
+          {
+            "pmid": "37485722",
+            "title": "Dronedarone Versus Sotalol in Antiarrhythmic Drug-Naive Veterans With Atrial Fibrillation.",
+            "abstract": "Sotalol and dronedarone are both used for maintenance of sinus rhythm for patients with atrial fibrillation. However, while sotalol requires initial monitoring for QT prolongation and proarrhythmia, dronedarone does not. These treatments can be used in comparable patients, but their safety and effectiveness have not been compared head to head. Therefore, we retrospectively evaluated the effectiveness and safety using data from a large health care system.",
+            "journal": "Circulation. Arrhythmia and electrophysiology",
+            "year": "2023",
+            "authors": [
+              "Pundi Krishna",
+              "Fan Jun",
+              "Kabadi Shaum",
+              "Din Natasha",
+              "Blomström-Lundqvist Carina"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Female",
+              "Humans",
+              "Middle Aged",
+              "Aged",
+              "Aged, 80 and over",
+              "Male",
+              "Anti-Arrhythmia Agents",
+              "Dronedarone",
+              "Sotalol",
+              "Atrial Fibrillation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37485722/"
+          },
+          {
+            "pmid": "1281807",
+            "title": "Efficacy and safety of sotalol in patients with complex ventricular arrhythmias.",
+            "abstract": "Sotalol is a unique beta-blocker that prolongs repolarization. Its use in 626 patients with complex ventricular ectopic activity, as reported in the literature, resulted in suppression of arrhythmia in 50 to 60% of treatment attempts. Detailed analysis of data on arrhythmias in 356 patients that were entered prospectively into a database revealed a median reduction in ventricular premature beats of 76%, compared to a median suppression of repetitive ventricular ectopic activity of 91% and of episodes of nonsustained ventricular tachycardia of 97% (p = 0.002 vs reduction of ventricular premature beats). This marked antiarrhythmic potency of sotalol in repetitive ventricular arrhythmias is thought to be due to its class III activity. Drug efficacy was independent of age, sex, the presence or absence of organic heart disease and the degree of sotalol-induced prolongation of corrected QT interval. Evaluation of left ventricular function in 215 patients treated with the drug demonstrated th",
+            "journal": "International journal of cardiology",
+            "year": "1992",
+            "authors": [
+              "Hohnloser S H",
+              "Zabel M",
+              "van de Loo A",
+              "Klingenheben T",
+              "Just H"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Cardiac Complexes, Premature",
+              "Clinical Trials as Topic",
+              "Databases, Factual",
+              "Drug Industry",
+              "Electrocardiography, Ambulatory",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1281807/"
+          },
+          {
+            "pmid": "28496906",
+            "title": "Risk of Cardiovascular Events, Stroke, Congestive Heart Failure, Interstitial Lung Disease, and Acute Liver Injury: Dronedarone versus Amiodarone and Other Antiarrhythmics.",
+            "abstract": "No published studies have evaluated the risks of cardiovascular (CV) events, stroke, congestive heart failure (CHF), interstitial lung disease (ILD), and severe acute liver injury (ALI) related to antiarrhythmics treatment in real-world clinical practice setting. We examined the relationship between the above events and the selected antiarrhythmics in the real-world setting in the US. Using a retrospective cohort design, the hazard ratios of the outcome events were analyzed from 10,455 adult patients with a diagnosis of atrial fibrillation/atrial flutter and a new treatment with dronedarone (comparison drug), amiodarone, sotalol, flecainide, or propafenone between 07/20/2009 and 12/31/2010 from the Clinformatics Data MartTM database. The patients were followed until: 1) switch to another antiarrhythmic drug, 2) occurrence of the outcome event, 3) end of enrollment, or 4) end of the study period, whichever occurred first. No significant differences were observed in the hazard ratios of ",
+            "journal": "Journal of atrial fibrillation",
+            "year": "2013",
+            "authors": [
+              "Gao Shujun",
+              "Dai Wanju",
+              "Zhang Ling",
+              "Juhaeri Juhaeri",
+              "Wang Yunxun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28496906/"
+          },
+          {
+            "pmid": "8809539",
+            "title": "Follow-up of atrial fibrillation: The initial experience of the Canadian Registry of Atrial Fibrillation.",
+            "abstract": "Previous reports of the follow-up of patients with atrial fibrillation have been confusing because of the variety of clinical presentations, heterogeneity of underlying pathology, and the initiation of follow-up at various stages of the patient's disease. The Canadian Registry of Atrial Fibrillation (CARAF) is a non-interventional, follow-up study of patients enrolled at the time of their initial diagnosis with atrial fibrillation at seven Canadian centres. At baseline, a comprehensive database recorded clinical, laboratory, and echocardiographic variables. No specific intervention was initiated and care was left to the attending physicians. Follow-up was performed at 3 months, 1 year, then annually. Echocardiograms were repeated every 2 years. Recurrence of atrial fibrillation, medical intervention, stroke, death, and other significant events have been specifically recorded. To date, 967 patients have been enrolled. Seven hundred and sixty-seven patients have been followed for 1 year,",
+            "journal": "European heart journal",
+            "year": "1996",
+            "authors": [
+              "Kerr C",
+              "Boone J",
+              "Connolly S",
+              "Greene M",
+              "Klein G"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Clinical Trials as Topic",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Male",
+              "Registries",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8809539/"
+          },
+          {
+            "pmid": "8346725",
+            "title": "Effect of oral sotalol on systemic hemodynamics and programmed electrical stimulation in patients with ventricular arrhythmias and structural heart disease.",
+            "abstract": "We explored the central hemodynamic responses to oral sotalol during dose titration in patients with ventricular arrhythmias who underwent programmed ventricular stimulation. Twelve patients were included in the study, 9 with a history of sustained ventricular tachyarrhythmias (6 postmyocardial infarction and 3 with cardiomyopathy) and 3 with a history of nonsustained ventricular tachycardia postmyocardial infarction. Left ventricular ejection fractions were < 45% in 10 patients, and < 35% in 5; the mean ejection fraction was 37% (range 20-51%). Sotalol prevented the induction of ventricular tachycardia in each of 3 patients with nonsustained ventricular tachycardia and in 6 of 9 with sustained ventricular tachycardia at baseline study. At peak action (2 hours) after sotalol loading (mean dose, 167 mg orally twice daily), the hemodynamic effects included bradycardia, decreased cardiac index, increased left ventricular filling pressure and systemic vascular resistance, and no change in ",
+            "journal": "The American journal of cardiology",
+            "year": "1993",
+            "authors": [
+              "Winters S L",
+              "Kukin M",
+              "Pe E",
+              "Stewart D",
+              "Deitchman D"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Oral",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Arrhythmias, Cardiac",
+              "Cardiac Pacing, Artificial",
+              "Cardiomyopathies",
+              "Hemodynamics",
+              "Humans",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8346725/"
+          },
+          {
+            "pmid": "9152674",
+            "title": "Avoiding drug problems. The safety of drugs for supraventricular tachycardia.",
+            "abstract": "To minimize drug problems in the treatment of supraventricular tachycardias, it is important to understand the spectrum of adverse events and to identify patients at high risk for these problems. Adverse cardiac and non-cardiac effects are associated, to varying degrees, with currently available antiarrhythmics. Cardiac adverse events include the development of rhythm disturbances, such as ventricular tachycardia or torsades des pointes, may result in syncope or death. In a meta-analysis of six randomized trials of quinidine vs placebo for atrial fibrillation, 1.8% of quinidine-treated patients died as opposed to 0.3% of placebo-treated patients. This increase in mortality was also noted in patients enrolled in the Stroke Prevention in Atrial Fibrillation Trial who were treated with type I antiarrhythmics. This increase in mortality was confined primarily to patients with a history of congestive heart failure. In a randomized trial of propafenone and sotalol for the treatment of atrial",
+            "journal": "European heart journal",
+            "year": "1997",
+            "authors": [
+              "Reimold S C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Anti-Arrhythmia Agents",
+              "Arrhythmias, Cardiac",
+              "Drug Monitoring",
+              "Electrocardiography",
+              "Female",
+              "Humans",
+              "Male",
+              "Randomized Controlled Trials as Topic",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9152674/"
+          },
+          {
+            "pmid": "9358515",
+            "title": "Risk of complications of atrial fibrillation.",
+            "abstract": "Atrial fibrillation is associated with three major risk of complications: thromboembolism, hemodynamic compromise, and arrhythmogenesis. In patients with chronic atrial fibrillation the incidence of embolization is about 5% per year. The risk of embolism and in particular of stroke can be reduced by warfarin anticoagulation. Aspirin is generally less effective than warfarin, although it is probably more effective than placebo. The hemodynamic complications which may occur during atrial fibrillation are mainly due to the loss of effective atrial contraction, the irregular ventricular rhythm, and the possible excessively rapid ventricular rate. Sudden death is a recognized manifestation of Wolff-Parkinson-White syndrome and is considered to be precipitated by atrial fibrillation in the majority of patients. Torsades de pointes is perhaps the most widely recognized proarrhythmia associated with treatment of atrial fibrillation, especially with 1A antiarrhythmic drugs and sotalol. The chro",
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "1997",
+            "authors": [
+              "Capucci A",
+              "Villani G Q",
+              "Aschieri D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Anti-Arrhythmia Agents",
+              "Anticoagulants",
+              "Atrial Fibrillation",
+              "Cardiac Output, Low",
+              "Chronic Disease",
+              "Death, Sudden, Cardiac",
+              "Hemodynamics",
+              "Humans",
+              "Risk Factors"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9358515/"
+          },
+          {
+            "pmid": "37777295",
+            "title": "Chapter 5: Guideline Recommendations: Which AAD and for Whom?",
+            "abstract": "This chapter discusses the American College of Cardiology/American Heart Association/ Heart Rhythm Society (AHA/ACC/HRS) and European Society of Cardiology (ESC) guidelines for atrial fibrillation (AF) management with particular focus on antiarrhythmic drug (AAD) selection and the identification of individuals for whom AAD treatment is appropriate. Discussion includes AAD indications, when to start an AAD, choosing among AADs, how to minimize proarrhythmic risk, how to determine efficacy, and the use of adjuvant interventions. The indications for all AADs are based on safety; the current AHA/ACC/HRS and ESC guidelines state that the choice of AAD is based on the presence or absence of structural heart disease (SHD), coronary artery disease, or heart failure (HF), with further recommendations in the ESC guidelines based on HF type (e.g., HF with reduced ejection fraction [HFrEF] versus HF with preserved ejection fraction [HFpEF]). The chapter closes with a discussion of the lack of cons",
+            "journal": "The American journal of cardiology",
+            "year": "2023",
+            "authors": [
+              "Deering Thomas F",
+              "Reiffel James A",
+              "Solomon Allen J",
+              "Tamirisa Kamala P"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Practice Guideline",
+              "Video-Audio Media"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Heart Failure",
+              "Sotalol",
+              "Stroke Volume",
+              "United States"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37777295/"
+          },
+          {
+            "pmid": "25428811",
+            "title": "Analysis of the cost-effectiveness of dronedarone versus amiodarone, propafenone, and sotalol in patients with atrial fibrillation: results for Serbia.",
+            "abstract": "Recent studies have shown that dronedarone is associated with significantly fewer adverse effects and treatment discontinuations, and a trend toward reduced all-cause mortality, compared with amiodarone. Introduction of dronedarone in clinical practice is limited by its higher cost than amiodarone, propafenone, and sotalol.",
+            "journal": "Kardiologia polska",
+            "year": "2015",
+            "authors": [
+              "Tesic Danka",
+              "Kostic Marina",
+              "Paunovic Dusko",
+              "Jankovic Slobodan M"
+            ],
+            "pub_types": [
+              "Comparative Study",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Cost-Benefit Analysis",
+              "Disease-Free Survival",
+              "Humans",
+              "Models, Theoretical",
+              "Propafenone",
+              "Serbia",
+              "Sotalol"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25428811/"
+          },
+          {
+            "pmid": "37676022",
+            "title": "Are antiarrhythmic agents indicated in premature ventricular complex-induced cardiomyopathy and when?",
+            "abstract": "Premature ventricular complexes (PVCs) are the most common ventricular arrhythmia that are encountered in the clinical practice. Recent data suggests that high PVC burden may lead to the development of PVC-induced cardiomyopathy (PVC-CM) even in patients without structural heart disease. Treatment for effective suppression of PVCs, can reverse PVC-CM. Both antiarrhythmic drugs (AADs) and catheter ablation (CA) are recognized treatment modalities for any cardiac arrhythmias. However, with increasing preference of CA, the role of AADs needs further defining regarding their efficacy, safety, indications and patient selection to treat PVC-CM.",
+            "journal": "Journal of cardiovascular electrophysiology",
+            "year": "2024",
+            "authors": [
+              "Kantharia Bharat K",
+              "Shah Arti N"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Anti-Arrhythmia Agents",
+              "Ventricular Premature Complexes",
+              "Stroke Volume",
+              "Ventricular Dysfunction, Left",
+              "Cardiomyopathies",
+              "Catheter Ablation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37676022/"
+          },
+          {
+            "pmid": "20638626",
+            "title": "Gender in atrial fibrillation: Ten years later.",
+            "abstract": "Atrial fibrillation (AF) is the most common arrhythmia encountered in both male and female patients.",
+            "journal": "Gender medicine",
+            "year": "2010",
+            "authors": [
+              "Michelena Hector I",
+              "Powell Brian D",
+              "Brady Peter A",
+              "Friedman Paul A",
+              "Ezekowitz Michael D"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Electrophysiology",
+              "Female",
+              "Heart Rate",
+              "Humans",
+              "Male",
+              "Pennsylvania",
+              "Pulmonary Veins",
+              "Quality of Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20638626/"
+          },
+          {
+            "pmid": "28916640",
+            "title": "Clinical Profile and Consequences of Atrial Fibrillation in Hypertrophic Cardiomyopathy.",
+            "abstract": "Atrial fibrillation (AF), the most common sustained arrhythmia in hypertrophic cardiomyopathy (HCM), is capable of producing symptoms that impact quality of life and is associated with risk for embolic stroke. However, the influence of AF on clinical course and outcome in HCM remains incompletely resolved.",
+            "journal": "Circulation",
+            "year": "2017",
+            "authors": [
+              "Rowin Ethan J",
+              "Hausvater Anais",
+              "Link Mark S",
+              "Abt Patrick",
+              "Gionfriddo William"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Amiodarone",
+              "Anti-Arrhythmia Agents",
+              "Atrial Fibrillation",
+              "Cardiomyopathy, Hypertrophic",
+              "Catheter Ablation",
+              "Echocardiography"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28916640/"
+          },
+          {
+            "pmid": "7509121",
+            "title": "Response to sotalol predicts the response to amiodarone during serial drug testing in patients with sustained ventricular tachycardia and coronary artery disease.",
+            "abstract": "It was analyzed whether the response to sotalol can predict the response to amiodarone as evaluated by programmed ventricular stimulation in 30 patients with coronary artery disease and documented recurrent sustained ventricular tachycardia (VT). Programmed ventricular stimulation was performed using 1 or 2 extrastimuli during sinus rhythm and 4 drive cycle lengths at 2 right ventricular sites. If no ventricular tachyarrhythmia was induced, a third extrastimulus was introduced during a paced cycle length of 500 ms. During the control study, VT (mean cycle length 305 +/- 63 ms) was induced in all patients, and the right ventricular effective refractory period (during S1-S1 = 500 ms) was 223 +/- 12 ms. After sotalol, sustained and nonsustained VT were inducible in 22 (73%) and 7 (23%) patients, respectively. One patient did not undergo stimulation on sotalol, because of side effects. After amiodarone, sustained and nonsustained VT were inducible in 23 (77%) and 7 (23%) patients, respecti",
+            "journal": "The American journal of cardiology",
+            "year": "1994",
+            "authors": [
+              "Martínez-Rubio A",
+              "Shenasa M",
+              "Chen X",
+              "Wichter T",
+              "Breithardt G"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Amiodarone",
+              "Cardiac Complexes, Premature",
+              "Cardiac Pacing, Artificial",
+              "Cohort Studies",
+              "Coronary Disease",
+              "Drug Evaluation",
+              "Electrocardiography",
+              "Female",
+              "Forecasting",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7509121/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "manic bipolar affective disorder",
+        "txgnn_score": 0.994333267211914,
+        "txgnn_rank": 7072,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "39179332",
+            "title": "β-Adrenoceptor blockade can augment the torsadogenic action of risperidone.",
+            "abstract": "Risperidone is a second-generation antipsychotic for treating schizophrenia and bipolar disorder. It can potently inhibit IKr, but is classified into conditional risk for torsade de pointes (TdP) by CredibleMeds®. Our previous studies using chronic atrioventricular block dogs showed that risperidone alone did not induce TdP, and that dl-sotalol (β-adrenoceptor blockade plus IKr inhibition) induced TdP three times more frequently than d-sotalol (IKr inhibition alone). Since risperidone can block α1-adrenoceptor and decrease blood pressure, the resulting reflex-mediated increase of sympathetic tone on β-adrenoceptor might protect the heart from its IKr inhibition-associated TdP. To validate this hypothesis, risperidone was administered to chronic atrioventricular block dogs after β-adrenoceptor blocker atenolol infusion with monitoring J-Tpeak and Tpeak-Tend, which are proarrhythmic surrogate markers of \"substrate\" and \"trigger\" toward TdP, respectively. Atenolol alone induced TdP in 1 o",
+            "journal": "Journal of pharmacological sciences",
+            "year": "2024",
+            "authors": [
+              "Goto Ai",
+              "Kambayashi Ryuichi",
+              "Izumi-Nakaseko Hiroko",
+              "Takei Yoshinori",
+              "Sugiyama Atsushi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Risperidone",
+              "Animals",
+              "Dogs",
+              "Atenolol",
+              "Antipsychotic Agents",
+              "Adrenergic beta-Antagonists",
+              "Torsades de Pointes",
+              "Atrioventricular Block",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39179332/"
+          },
+          {
+            "pmid": "32124390",
+            "title": "Adverse effects of interactions between antipsychotics and medications used in the treatment of cardiovascular disorders.",
+            "abstract": "High level of comorbidity between bipolar disorder or schizophrenia and cardiovascular diseases (CVD) in clinical practice may contribute to drug-drug interactions between medications used in these conditions. The aim of this study was to evaluate harmful interactions between antipsychotics and medications used in treatment of CVD.",
+            "journal": "Pharmacological reports : PR",
+            "year": "2020",
+            "authors": [
+              "Siwek Marcin",
+              "Woroń Jarosław",
+              "Gorostowicz Aleksandra",
+              "Wordliczek Jerzy"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Adverse Drug Reaction Reporting Systems",
+              "Antipsychotic Agents",
+              "Cardiovascular Diseases",
+              "Cytochrome P-450 Enzyme System",
+              "Drug Interactions",
+              "Drug-Related Side Effects and Adverse Reactions",
+              "Humans",
+              "Liver",
+              "Schizophrenia"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32124390/"
+          },
+          {
+            "pmid": "10958269",
+            "title": "Permanent pacing-aid to carry out long-term lithium therapy in manic patient with symptomatic bradycardia.",
+            "abstract": "",
+            "journal": "Pharmacopsychiatry",
+            "year": "2000",
+            "authors": [
+              "Kähkönen S",
+              "Kaartinen M",
+              "Juhela P"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adrenergic beta-Antagonists",
+              "Aged",
+              "Antimanic Agents",
+              "Atenolol",
+              "Bipolar Disorder",
+              "Bradycardia",
+              "Glaucoma",
+              "Humans",
+              "Hypertension",
+              "Lithium"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10958269/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "macrocephaly, dysmorphic facies, and psychomotor retardation",
+        "txgnn_score": 0.9942166805267334,
+        "txgnn_rank": 7190,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "obsolete susceptibility to ischemic stroke",
+        "txgnn_score": 0.9923408031463624,
+        "txgnn_rank": 8760,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+        "txgnn_score": 0.9874841570854188,
+        "txgnn_rank": 12455,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ABri amyloidosis",
+        "txgnn_score": 0.9871337413787842,
+        "txgnn_rank": 12752,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "periodic paralysis with transient compartment-like syndrome",
+        "txgnn_score": 0.9849100708961488,
+        "txgnn_rank": 14249,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00489",
+    "name": "Sotalol",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sotalol"
+      },
+      "queried_at": "2026-03-09T19:44:19.560372",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sotalol"
+      },
+      "queried_at": "2026-03-09T19:44:23.592296",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "sick sinus syndrome 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-09T19:44:24.732545",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "sick sinus syndrome 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-09T19:44:31.093111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "sick sinus syndrome 2, autosomal dominant"
+      },
+      "queried_at": "2026-03-09T19:44:32.511455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "Wildervanck syndrome"
+      },
+      "queried_at": "2026-03-09T19:44:35.079860",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "Wildervanck syndrome"
+      },
+      "queried_at": "2026-03-09T19:44:39.832803",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "Wildervanck syndrome"
+      },
+      "queried_at": "2026-03-09T19:44:43.743572",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "sarcoglycanopathy"
+      },
+      "queried_at": "2026-03-09T19:44:45.028694",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "sarcoglycanopathy"
+      },
+      "queried_at": "2026-03-09T19:44:50.034775",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "sarcoglycanopathy"
+      },
+      "queried_at": "2026-03-09T19:44:51.604307",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "stroke disorder"
+      },
+      "queried_at": "2026-03-09T19:45:08.851123",
+      "status": "success",
+      "result_count": 22,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "stroke disorder"
+      },
+      "queried_at": "2026-03-09T19:45:14.156691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "stroke disorder"
+      },
+      "queried_at": "2026-03-09T19:45:19.309858",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-09T19:45:19.980433",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-09T19:45:24.838003",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "manic bipolar affective disorder"
+      },
+      "queried_at": "2026-03-09T19:45:32.156575",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      },
+      "queried_at": "2026-03-09T19:45:33.212383",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      },
+      "queried_at": "2026-03-09T19:45:38.243641",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "macrocephaly, dysmorphic facies, and psychomotor retardation"
+      },
+      "queried_at": "2026-03-09T19:45:40.991473",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-09T19:45:42.463488",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-09T19:45:48.231896",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "queried_at": "2026-03-09T19:45:49.791234",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T19:45:51.038719",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T19:45:56.612547",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "queried_at": "2026-03-09T19:45:57.701901",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T19:45:58.704898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T19:46:04.204081",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "ABri amyloidosis"
+      },
+      "queried_at": "2026-03-09T19:46:06.369840",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "queried_at": "2026-03-09T19:46:08.132963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "queried_at": "2026-03-09T19:46:12.781899",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sotalol",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "queried_at": "2026-03-09T19:46:16.390246",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T19:46:16.405982"
+  }
+}

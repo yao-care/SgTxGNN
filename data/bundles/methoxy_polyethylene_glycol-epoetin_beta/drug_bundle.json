@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Methoxy polyethylene glycol-epoetin beta",
+    "drugbank_id": "DB09107",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "primary release disorder of platelets",
+        "txgnn_score": 0.9935532808303832,
+        "txgnn_rank": 7776,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "Glanzmann thrombasthenia",
+        "txgnn_score": 0.9929957985877992,
+        "txgnn_rank": 8239,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "pseudo-von Willebrand disease",
+        "txgnn_score": 0.9924678206443788,
+        "txgnn_rank": 8656,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "severe nonproliferative diabetic retinopathy",
+        "txgnn_score": 0.9914928078651428,
+        "txgnn_rank": 9408,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heparin cofactor 2 deficiency",
+        "txgnn_score": 0.9909947514533995,
+        "txgnn_rank": 9806,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "antithrombin deficiency type 2",
+        "txgnn_score": 0.9906818866729736,
+        "txgnn_rank": 10040,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "factor 5 excess with spontaneous thrombosis",
+        "txgnn_score": 0.9903733730316162,
+        "txgnn_rank": 10272,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "thrombophilia",
+        "txgnn_score": 0.9891112446784972,
+        "txgnn_rank": 11190,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "diabetic retinopathy",
+        "txgnn_score": 0.985670268535614,
+        "txgnn_rank": 13790,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "HER2 positive breast carcinoma",
+        "txgnn_score": 0.9844604134559632,
+        "txgnn_rank": 14548,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB09107",
+    "name": "Methoxy polyethylene glycol-epoetin beta",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta"
+      },
+      "queried_at": "2026-03-10T04:40:30.394464",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta"
+      },
+      "queried_at": "2026-03-10T04:40:31.712479",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T04:40:32.443128",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T04:40:35.735985",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "primary release disorder of platelets"
+      },
+      "queried_at": "2026-03-10T04:40:37.555852",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T04:40:38.205788",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T04:40:42.153566",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "queried_at": "2026-03-10T04:40:43.006056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T04:40:43.594518",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T04:40:47.244721",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "queried_at": "2026-03-10T04:40:48.143674",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:40:48.709186",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:40:52.304693",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:40:53.034773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T04:40:54.245909",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T04:40:57.243368",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T04:40:57.954151",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T04:40:58.541942",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T04:41:03.964470",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T04:41:04.794810",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T04:41:05.632351",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T04:41:08.482781",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "queried_at": "2026-03-10T04:41:09.291672",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T04:41:10.459662",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T04:41:15.187509",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "thrombophilia"
+      },
+      "queried_at": "2026-03-10T04:41:15.789000",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:41:16.348857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:41:19.904889",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "diabetic retinopathy"
+      },
+      "queried_at": "2026-03-10T04:41:20.589231",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T04:41:21.120907",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T04:41:24.483716",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Methoxy polyethylene glycol-epoetin beta",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "queried_at": "2026-03-10T04:41:25.233994",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T04:41:25.242617"
+  }
+}

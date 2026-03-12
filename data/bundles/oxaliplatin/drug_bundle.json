@@ -1,0 +1,2558 @@
+{
+  "drug": {
+    "inn": "Oxaliplatin",
+    "drugbank_id": "DB00526",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "malignant pleural mesothelioma",
+        "txgnn_score": 0.9967901110649108,
+        "txgnn_rank": 4805,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00859469",
+            "title": "Oxaliplatin (Eloxatin®) Plus Gemcitabine as First or Second-line Chemotherapy for Patients With Malignant Pleural or Peritoneal Mesothelioma: A Phase II Clinical Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2004-04",
+            "completion_date": "2013-03",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "In patients with pleural or peritoneal mesothelioma, what is the response rate to combined Oxaliplatin (ELOXATIN®) and Gemcitabine chemotherapy?",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed malignant pleural or peritoneal mesothelioma epithelial, sarcomatoid, or mixed subtype, not amenable to curative treatment with surgery. Patients with pleural mesothelioma will be clinically staged using the International Mesotheliom",
+            "endpoints": [
+              "Best Response"
+            ],
+            "sponsor": "Columbia University",
+            "url": "https://clinicaltrials.gov/study/NCT00859469"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06310473",
+            "title": "Efficacy and Safety of Neoadjuvant Cadonilimab and Chemotherapy for Locally Advanced Esophagogastric Junction and Gastric Cancer : a Prospective, Open-label, Single-Arm Phase II Study",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "start_date": "2024-03",
+            "completion_date": "2028-03",
+            "country": "China",
+            "enrollment": 30,
+            "brief_summary": "For locally advanced esophagogastric junction and gastric cancer, neoadjuvant chemotherapy can downstage T and N stage,treated distant micrometastases early , and finally improve the long-term survival. Combination of perioperative PD-1 antibody and chemotherapy for locally advanced esophagogastric junction and gastric cancer could be a novel therapy to increase response rate and reduce recurrence rate.Cadonilimab, a tetravalent bispecific antibody targeting PD-1 and CTLA-4, is designed to retai",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. Confirmed gastric and gastroesophageal junction adenocarcinoma by Gastroscopic biopsy histopathological examination.\n2. Imaging (CT/MRI) and diagnostic laparoscopy confirmed at the stage of cT3-4aN1-3M0(AJCC 8th) .\n3. Physical condition and organ function allow for for la",
+            "endpoints": [
+              "Pathologic complete remission rate (pCR)"
+            ],
+            "sponsor": "Nanfang Hospital, Southern Medical University",
+            "url": "https://clinicaltrials.gov/study/NCT06310473"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05107674",
+            "title": "A Phase 1a, Dose Escalation, Safety and Tolerability Study of NX-1607, a Casitas B-lineage Lymphoma Proto-oncogene (CBL-B) Inhibitor, in Adults With Advanced Malignancies, With Phase 1b Expansion in Select Tumor Types",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-09-29",
+            "completion_date": "2028-02-28",
+            "country": "United Kingdom, United States",
+            "enrollment": 345,
+            "brief_summary": "This is a first-in-human Phase 1a/1b multicenter, open-label oncology study designed to evaluate the safety and anti-cancer activity of NX-1607 in patients with advanced malignancies.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Age ≥ 18 years.\n* Measurable disease per disease-specific response criteria.\n* Patients must have disease that is metastatic or unresectable and have received standard treatment options, are not candidates for standard treatment options, or will otherwise be prevented from",
+            "endpoints": [
+              "Incidence of treatment-emergent adverse events (TEAEs), including Grade ≥ 3 TEAEs, treatment-emergent serious adverse events (SAEs), TEAEs leading to study drug discontinuation, and deaths due to TEAEs",
+              "Incidence of immune-related AEs (irAEs), all deaths, and dose-limiting toxicities (DLTs)",
+              "Objective Response Rate (ORR) per disease-specific response criteria as assessed by the Investigator"
+            ],
+            "sponsor": "Nurix Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05107674"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00996385",
+            "title": "A Two Stage, Open Label, Phase II Study of VELCADE Plus ELOXATIN in Previously Treated Patients With Malignant Pleural or Peritoneal Mesothelioma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2009-09",
+            "completion_date": "2014-09",
+            "country": "United States",
+            "enrollment": 29,
+            "brief_summary": "Study chemotherapy will consist of four treatments with Velcade (days 1, 4, 15, and 18) and two treatments with Eloxatin(days 4 and 18). Patients will be undergo standard of care blood work and Quality of Life (QOL) questionnaires at each visit and will be have repeat CT scans performed to assess tumor response every 2 cycles (8 weeks). Each patient will be allowed to receive a maximum of 6 cycles of therapy. Following discontinuation of treatment due to disease progression or completion of ther",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically confirmed malignant pleural or peritoneal mesothelioma epithelial, sarcomatoid, or mixed subtype, not amenable to curative treatment with surgery. Patients with pleural mesothelioma will be clinically staged using the IMIG's staging criteria (",
+            "endpoints": [
+              "Objective tumor response rate"
+            ],
+            "sponsor": "Columbia University",
+            "url": "https://clinicaltrials.gov/study/NCT00996385"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03210298",
+            "title": "Multicenter, International Online Documentation of Indications and Results of Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC Und PITAC) for Treating Malignant Peritoneal and Pleural Diseases",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "start_date": "2016-01",
+            "completion_date": "2022-09",
+            "country": "Switzerland, Australia, Spain, France, Belgium, Austria, Argentina, Germany, Denmark, Italy, Russia, Singapore, Poland",
+            "enrollment": 1000,
+            "brief_summary": "Multicentric, international, web-based prospective documentation of the indications and results of Pressurized Aerosol Chemotherapy (so-called PIPAC or PITAC) for treating malignant pleural and peritoneal diseases. Indication is decided by the treating physician. There are no predefined inclusion or exclusion criteria.",
+            "eligibility_criteria": "Inclusion criteria:\n\n* verified peritoneal metastasis\n* colorectal cancer\n* ovarian cancer\n* gastric cancer\n* appendical cancer\n* pseudomyxoma peritonei\n* malignant mesothelioma\n* pancreatic cancer\n* gallbladder cancer\n* small bowel cancer\n\nExclusion criteria\n\n\\- bowel obstruction",
+            "endpoints": [
+              "Overall survival"
+            ],
+            "sponsor": "University of Magdeburg",
+            "url": "https://clinicaltrials.gov/study/NCT03210298"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "12610498",
+            "title": "Chemotherapy for malignant pleural mesothelioma: past results and recent developments.",
+            "abstract": "This review summarises the results of previously conducted clinical trials, and subsequently presents data arising from all phase II-III studies on chemotherapy of malignant pleural mesothelioma (MPM) published since the last relevant overview. While response rates exceeding 30% have barely been achieved with established cytotoxic drugs in MPM therapy, novel chemotherapeutic agents and their combinations appear more promising. This applies especially to the antimetabolites, and in particular to pemetrexed that produced response rates of up to 45% in combination with platinum compounds. Raltitrexed combined with oxaliplatin has also been shown to be effective, and gemcitabine-applied as a single agent or in combination with cisplatin-as well as vinorelbine appear to improve the quality of life in patients presenting with MPM. Data can now be more precisely analysed by increasingly implemented randomised studies, applying a standardised staging system, and distinguishing prognostic group",
+            "journal": "British journal of cancer",
+            "year": "2003",
+            "authors": [
+              "Tomek S",
+              "Emri S",
+              "Krejcy K",
+              "Manegold C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Clinical Trials, Phase II as Topic",
+              "Clinical Trials, Phase III as Topic",
+              "Humans",
+              "Mesothelioma",
+              "Pleural Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12610498/"
+          },
+          {
+            "pmid": "15261443",
+            "title": "Chemotherapy for malignant pleural mesothelioma: past results and recent developments.",
+            "abstract": "This review summarises results of previously conducted clinical trials and subsequently presents data arising from all phase II-III studies on chemotherapy for malignant pleural mesothelioma (MPM) published since the last relevant overview. While response rates exceeding 30% have barely been achieved with established cytotoxic drugs in MPM therapy, novel chemotherapeutic agents and their combinations appear somewhat more promising. This applies especially to the antimetabolites, and in particular to pemetrexed which produced response rates of up to 45% in combination with platinum compounds. Raltitrexed combined with oxaliplatin has also been shown to be effective, and gemcitabine--applied as a single agent or in combination with cisplatin--as well as vinorelbine appear to improve quality of life in patients presenting with MPM. Data can now be more precisely analysed by increasingly implemented randomised studies, applying a standardised staging system, and distinguishing prognostic g",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2004",
+            "authors": [
+              "Tomek Sandra",
+              "Manegold Christian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Phytogenic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Mesothelioma",
+              "Pleural Neoplasms",
+              "Quality of Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15261443/"
+          },
+          {
+            "pmid": "26526504",
+            "title": "Vinca alkaloids in the therapeutic management of malignant pleural mesothelioma.",
+            "abstract": "Therapeutic options for malignant pleural mesothelioma (MPM) are limited. Most patients are treated with chemotherapy during the course of their disease. The combination of pemetrexed with a platinum compound is the standard of care in the first-line setting, while no established treatment exists in the second and beyond-line setting. Vinca alkaloids are chemotherapeutic agents that have demonstrated clinical efficacy both as single agents and in combination in a broad spectrum of cancers, including MPM. Vinorelbine has shown activity in MPM patients as neoadjuvant therapy, first-line treatment, and in the second and third-line setting. Vinflunine is a derivative of vinorelbine that has been studied in MPM as first-line agent. While the role of vinca alkaloids in the first-line treatment of MPM seems marginal, treatment with vinorelbine remains a reasonable option for pemetrexed-pretreated patients in clinical practice, based on an acceptable rate of stable disease, confirmed by severa",
+            "journal": "Cancer treatment reviews",
+            "year": "2015",
+            "authors": [
+              "Ceresoli Giovanni Luca",
+              "Zucali Paolo Andrea"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Humans",
+              "Lung Neoplasms",
+              "Mesothelioma",
+              "Mesothelioma, Malignant",
+              "Organoplatinum Compounds",
+              "Oxaliplatin"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26526504/"
+          },
+          {
+            "pmid": "11989592",
+            "title": "Oxaliplatin and raltitrexed in the treatment of inoperable malignant pleural mesothelioma: results of a pilot study.",
+            "abstract": "The treatment of inoperable malignant pleural mesothelioma is a challenge for the oncologist. Available chemotherapy regimens achieve poor results, therefore new agents or combinations are needed. In a phase I study, the combination of oxaliplatin and raltitrexed was shown to be active against malignant pleural mesothelioma. We herein report the results of a pilot study about the treatment of this disease.",
+            "journal": "Tumori",
+            "year": "2001",
+            "authors": [
+              "Maisano R",
+              "Caristi N",
+              "Toscano G",
+              "Aragona M",
+              "Spadaro P"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease Progression",
+              "Drug Administration Schedule",
+              "Enzyme Inhibitors",
+              "Female",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11989592/"
+          },
+          {
+            "pmid": "31455014",
+            "title": "Building a Bridge between Chemotherapy and Immunotherapy in Malignant Pleural Mesothelioma: Investigating the Effect of Chemotherapy on Immune Checkpoint Expression.",
+            "abstract": "In light of the promising results of immune checkpoint blockade (ICPB) in malignant pleural mesothelioma (MPM), we investigated the effect of different chemotherapeutic agents on the expression of immune checkpoints (ICPs) in order to rationally design a good treatment schedule for their combination with ICP blocking antibodies. Cisplatin, oxaliplatin and pemetrexed are interesting chemotherapeutic agents to combine with immunotherapy given their immunomodulatory capacities. We looked into cisplatin and pemetrexed because their combination is used as first-line treatment of MPM. Additionally, the effect of the immunogenic chemotherapeutic agent, oxaliplatin, was also studied. Three different MPM cell lines were used for representation of both epithelioid and sarcomatoid subtypes. The desired inhibitory concentrations of the chemotherapeutic agents were determined with the SRB-assay. Allogeneic co-cultures of MPM cells with healthy donor peripheral blood mononuclear cells (PBMC) were se",
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "authors": [
+              "Marcq Elly",
+              "Audenaerde Jonas Rm Van",
+              "Waele Jorrit De",
+              "Jacobs Julie",
+              "Loenhout Jinthe Van"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Cell Line, Tumor",
+              "Combined Modality Therapy",
+              "Gene Expression",
+              "Humans",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31455014/"
+          },
+          {
+            "pmid": "14609447",
+            "title": "A multicenter phase II study of gemcitabine and oxaliplatin for malignant pleural mesothelioma.",
+            "abstract": "We conducted a phase II multicenter trial to evaluate the activity of combined gemcitabine and oxaliplatin in malignant pleural mesothelioma. Twenty-five patients were recruited between May 1999 and December 2001 and received gemcitabine 1000 mg/m2 intravenously over 30 minutes and oxaliplatin 80 mg/m2 intravenously over 3 hours on days 1 and 8 of a 21-day cycle for a maximum of 6 cycles. Eligibility criteria included an Eastern Cooperative Oncology Group performance status of 0-2 and no prior chemotherapy. Best objective responses achieved were as follows: partial response, 10 patients (40%, 95% CI, 21%-61%); stable disease, 6 patients (24%, 95% CI, 9%-45%); and progressive disease, 9 patients (36%, 95% CI, 18%-57%). Median time to disease progression was 7 months, and median survival was 13 months. One-year survival was 60% (95% CI, 31%-72%). There were 2 deaths from disease progression. Toxicity was mainly hematologic. Grade 3/4 nausea and vomiting occurred in 8% of patients, neurop",
+            "journal": "Clinical lung cancer",
+            "year": "2003",
+            "authors": [
+              "Schutte Wolfgang",
+              "Blankenburg Thomas",
+              "Lauerwald Kathrin",
+              "Schreiber Jens",
+              "Bork Ines"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14609447/"
+          },
+          {
+            "pmid": "11836672",
+            "title": "The emerging role of antifolates in the treatment of malignant pleural mesothelioma.",
+            "abstract": "Clinicians have long regarded malignant pleural mesothelioma as a chemoresistant neoplasm and as a result no standard chemotherapy regimen has emerged. Antifolates such as methotrexate are among the most active compounds in mesothelioma, albeit based only on phase II data. Recently two antifolate-based combinations with apparently higher efficacy than older regimens have emerged: the pemetrexed/cisplatin regimen and the raltitrexed/oxaliplatin regimen. In two phase I trials with pemetrexed combined with either cisplatin or carboplatin responses occurred in five of 11 and nine of 29 patients, respectively. In a phase I trial of raltitrexed/oxaliplatin, six of 17 patients (35%) with mesothelioma achieved a partial response. In a phase II trial of raltitrexed/oxaliplatin, 14 objective responses were confirmed in 72 patients (25%) with malignant pleural mesothelioma. Indeed, responses were seen in cisplatin-refractory patients. Based on the promising results from these combination trials, ",
+            "journal": "Seminars in oncology",
+            "year": "2002",
+            "authors": [
+              "Fizazi Karim",
+              "John William J",
+              "Vogelzang Nicholas J"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cisplatin",
+              "Clinical Trials as Topic",
+              "Folic Acid Antagonists",
+              "Glutamates",
+              "Guanine",
+              "Humans",
+              "Mesothelioma",
+              "Organoplatinum Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11836672/"
+          },
+          {
+            "pmid": "12601280",
+            "title": "Chemotherapy for malignant pleural mesothelioma.",
+            "abstract": "This paper covers the outcome of previously conducted clinical trials on chemotherapy for malignant pleural mesothelioma and presents data from recent phase II and phase III trials. In contrast to conventional cytotoxic drugs, which have barely produced response rates exceeding 30%, recently introduced chemotherapeutic agents and their combinations promise to be more effective. Especially pemetrexed has yielded response rates of up to 45% in combination with platinum compounds. Furthermore, raltitrexed-oxaliplatin has shown promising activity and gemcitabine was found to improve quality of life in patients with malignant pleural mesothelioma when applied as a single agent or in combination with cisplatin. Based on robust phase III study results, pemetrexed-cisplatin may soon be considered with chemotherapy for this aggressive disease.",
+            "journal": "Current opinion in oncology",
+            "year": "2003",
+            "authors": [
+              "Tomek Sandra",
+              "Manegold Christian"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Clinical Trials as Topic",
+              "Humans",
+              "Mesothelioma",
+              "Palliative Care",
+              "Pleural Neoplasms",
+              "Quality of Life"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12601280/"
+          },
+          {
+            "pmid": "19091133",
+            "title": "Gemcitabine combined with oxaliplatin in pretreated patients with malignant pleural mesothelioma: an observational study.",
+            "abstract": "The aim of this study was to investigate the efficacy and safety of oxaliplatin +/- gemcitabine in patients with diffuse malignant pleural mesothelioma (MPM) pretreated with pemetrexed.",
+            "journal": "Journal of occupational medicine and toxicology (London, England)",
+            "year": "2008",
+            "authors": [
+              "Xanthopoulos Athanasios",
+              "Bauer Torsten T",
+              "Blum Torsten G",
+              "Kollmeier Jens",
+              "Schönfeld Nicolas"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19091133/"
+          },
+          {
+            "pmid": "12525529",
+            "title": "Combination of raltitrexed and oxaliplatin is an active regimen in malignant mesothelioma: results of a phase II study.",
+            "abstract": "The aim of this open-label phase II study was to evaluate the activity of raltitrexed (Tomudex; AstraZeneca, Cergy, France) and oxaliplatin combination therapy in patients with diffuse malignant pleural mesothelioma. PATIENT AND METHODSs: Fifteen pretreated and 55 chemotherapy-naive patients (median age, 60 years; World Health Organization performance status of < or = 2) were enrolled. Most patients (66%) had advanced disease. Patients received raltitrexed 3 mg/m2 followed by oxaliplatin 130 mg/m2 every 3 weeks.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2003",
+            "authors": [
+              "Fizazi K",
+              "Doubre H",
+              "Le Chevalier T",
+              "Riviere A",
+              "Viala J"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease Progression",
+              "Dose-Response Relationship, Drug",
+              "Female",
+              "Gastrointestinal Diseases",
+              "Hematologic Diseases",
+              "Humans",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12525529/"
+          },
+          {
+            "pmid": "25028262",
+            "title": "EF24 and RAD001 potentiates the anticancer effect of platinum-based agents in human malignant pleural mesothelioma (MSTO-211H) cells and protects nonmalignant mesothelial (MET-5A) cells.",
+            "abstract": "The most widespread neoplasm of the pleura is malignant pleural mesothelioma (MPM) with low prevalence rate. The mechanistic target of rapamycin signaling pathway, inhibited by RAD001, was shown to be deregulated in MPM development and considered a novel target for the MPM therapy. The EF24, a curcumin analog, also affects several signaling pathways and kills cancer cells as a single agent or in combination with classical drugs. We aimed to evaluate possible effects of RAD001, EF24, cisplatin, and oxaliplatin treatments on both malignant pleural mesothelioma (MSTO-211H) and nonmalignant mesothelial (Met-5A) cell lines. The effects of the agents on MSTO-211H and Met-5A cells were evaluated in terms of cell viability, cytotoxicity, DNA synthesis rate, quantitation of apoptotic DNA fragmentation, and cleaved caspase 3 levels. Moreover, quantitative messenger RNA (mRNA) analysis of apoptotic (CASP9) and antiapoptotic (BCL2L1 and BCL2) genes were also performed. We found that both EF24 and ",
+            "journal": "Human & experimental toxicology",
+            "year": "2015",
+            "authors": [
+              "Onen H I",
+              "Yilmaz A",
+              "Alp E",
+              "Celik A",
+              "Demiroz S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Caspase 3",
+              "Caspase 9",
+              "Cell Line",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Cisplatin",
+              "Curcumin",
+              "DNA Fragmentation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25028262/"
+          },
+          {
+            "pmid": "15639727",
+            "title": "Phase II trial of vinorelbine and oxaliplatin as first-line therapy in malignant pleural mesothelioma.",
+            "abstract": "The incidence of malignant pleural mesothelioma (MPM) is increasing. Treatment options are limited, although recently published data have offered cause for optimism. We reported a response rate of 24% with low toxicity for single agent vinorelbine. Here we report a phase II trial of vinorelbine with oxaliplatin (VO) in patients with untreated MPM. Chemotherapy consisted of vinorelbine 30 mg/m(2), days 1 and 8 of a 21-day-cycle, and oxaliplatin 130 mg/m(2), day 1. Treatment continued up to six cycles. The primary endpoint was objective response. Secondary endpoints were toxicity, progression-free and overall survival. Responses were assessed by modified RECIST criteria. Twenty-six patients were enrolled. There were six partial remissions, 17 patients with stable disease, and three patients with PD. Response rate was 23% (95% confidence interval 9-44%). Median number of cycles delivered was four. Progression-free survival from first treatment was 4.7 months, and overall survival was 8.8 ",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2005",
+            "authors": [
+              "Fennell Dean A",
+              "C Steele Jeremy P",
+              "Shamash Jonathan",
+              "Sheaff Michael T",
+              "Evans Marie T"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Disease Progression",
+              "Female",
+              "Humans",
+              "Male",
+              "Mesothelioma",
+              "Middle Aged",
+              "Organoplatinum Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15639727/"
+          },
+          {
+            "pmid": "14606495",
+            "title": "Re: a multicenter phase II study of gemcitabine and oxaliplatin for malignant pleural mesothelioma.",
+            "abstract": "",
+            "journal": "Clinical lung cancer",
+            "year": "2003",
+            "authors": [
+              "Vogelzang Nicholas J"
+            ],
+            "pub_types": [
+              "Letter"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Clinical Trials as Topic",
+              "Deoxycytidine",
+              "Drug Costs",
+              "Endpoint Determination",
+              "Humans",
+              "Mesothelioma",
+              "Organoplatinum Compounds",
+              "Oxaliplatin",
+              "Patient Care Planning"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14606495/"
+          },
+          {
+            "pmid": "10930799",
+            "title": "Combination raltitrexed (Tomudex(R))-oxaliplatin: a step forward in the struggle against mesothelioma? The Institut Gustave Roussy experience with chemotherapy and chemo-immunotherapy in mesothelioma.",
+            "abstract": "The aim of this study was to review the experience of the Institut Gustave Roussy in 163 patients with malignant mesothelioma over a 9-year period. Data from seven consecutive prospective trials, four of chemo-immunotherapy and three of chemotherapy were reviewed. The rationale, methods and results of these trials are summarised and discussed. 98 patients were included in four phase II trials of chemo-immunotherapy whose common denominator was a combination of cisplatin and alpha-interferon. The response rate ranged from 15% to 40%. High-dose weekly cisplatin combined with alpha-interferon yielded the highest response rate but the toxicity of this regimen was considered unacceptable. Neither higher doses of alpha-interferon or the addition of mitomycin C or interleukin-2 to the regimen were able to enhance the activity of this combination. 18 patients were included in a paclitaxel-cisplatin phase II trial. The response rate was only 6% (95% confidence interval (CI): 0-24) and toxicity ",
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2000",
+            "authors": [
+              "Fizazi K",
+              "Caliandro R",
+              "Soulié P",
+              "Fandi A",
+              "Daniel C"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Meta-Analysis",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cisplatin",
+              "Clinical Trials, Phase I as Topic",
+              "Clinical Trials, Phase II as Topic",
+              "Female",
+              "Humans",
+              "Immunotherapy",
+              "Interferon-alpha"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10930799/"
+          },
+          {
+            "pmid": "15893013",
+            "title": "Raltitrexed-Oxaliplatin combination chemotherapy is inactive as second-line treatment for malignant pleural mesothelioma patients.",
+            "abstract": "Within a single-institution phase II trial, we investigated the antitumor activity of the Raltitrexed-Oxaliplatin combination as second-line therapy for malignant pleural mesothelioma (MPM). Fourteen patients were enrolled and all were assessable for response. The trial was then closed because chemotherapy, though well tolerated, yielded no objective responses. The best response observed was disease stabilization in 4 patients only (28.57%), while the other 10 patients (71.42%) progressed despite treatment. Median time to progression (TTP) was 8 weeks (average: 9.85, range: 7-20), while median overall survival was just 14 weeks (average: 21.69, range: 9-66+).",
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2005",
+            "authors": [
+              "Porta Camillo",
+              "Zimatore Matteo",
+              "Bonomi Lucia",
+              "Imarisio Ilaria",
+              "Paglino Chiara"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Female",
+              "Humans",
+              "Infusions, Intravenous",
+              "Male",
+              "Mesothelioma",
+              "Middle Aged",
+              "Organoplatinum Compounds"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15893013/"
+          },
+          {
+            "pmid": "15625372",
+            "title": "Statistical validation of the EORTC prognostic model for malignant pleural mesothelioma based on three consecutive phase II trials.",
+            "abstract": "Malignant pleural mesothelioma (MPM) carries a poor prognosis due to chemoresistance. The European Organisation for Research and Treatment of Cancer (EORTC) prognostic model was reported to predict survival in MPM. Our retrospective analysis set out to test the validity of the model as a prognostic tool in patients treated in three phase II trials at St Bartholomew's Hospital (London, United Kingdom) between 1999 and 2003.",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2005",
+            "authors": [
+              "Fennell Dean A",
+              "Parmar Amit",
+              "Shamash Jonathan",
+              "Evans Marie T",
+              "Sheaff Michael T"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Validation Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Phytogenic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Camptothecin",
+              "Cisplatin",
+              "Clinical Trials, Phase II as Topic",
+              "Drug Resistance, Neoplasm",
+              "Female"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15625372/"
+          },
+          {
+            "pmid": "12056700",
+            "title": "Raltitrexed: current clinical status and future directions.",
+            "abstract": "Raltitrexed ('Tomudex') monotherapy is a conveniently administered alternative to 5-fluorouracil (5-FU) in the first-line treatment of advanced colorectal cancer (CRC), and has single-agent activity in a variety of advanced solid tumours. Although both raltitrexed and 5-FU are thymidylate synthase inhibitors, raltitrexed has a specific mode of action and a toxicity profile distinct from 5-FU. The mechanism of action of raltitrexed is also completely different from that of oxaliplatin, irinotecan and other drugs with which it has been combined. These properties, together with preclinical data, suggested that combinations of raltitrexed with 5-FU, other chemotherapeutic agents, or radiotherapy could result in improved therapies for a variety of advanced solid tumours, including advanced CRC. This review outlines the appropriate management of patients treated with raltitrexed, whether as monotherapy or in combination, and discusses the preliminary results of combination studies with ralti",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2002",
+            "authors": [
+              "Van Cutsem E",
+              "Cunningham D",
+              "Maroun J",
+              "Cervantes A",
+              "Glimelius B"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antimetabolites, Antineoplastic",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Clinical Trials as Topic",
+              "Colorectal Neoplasms",
+              "Fluorouracil",
+              "Humans",
+              "Mesothelioma",
+              "Organoplatinum Compounds",
+              "Oxaliplatin",
+              "Quinazolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12056700/"
+          },
+          {
+            "pmid": "37359920",
+            "title": "Peritoneal Mesothelioma: Systematic Review of Hyperthermic Intraperitoneal Chemotherapy (HIPEC) Protocol Outcomes.",
+            "abstract": "Diffuse malignant peritoneal mesothelioma (DMPM) prognosis was improved by the locoregional treatment combining cytoreductive surgery (CRS) and hyperthermic intraperitoneal chemotherapy (HIPEC). HIPEC is a multiparametric treatment with multiple protocols proposed and reviewed in this work. A systematic review of medical literature was performed according to PRISMA guidelines. The search strategy used \"malignant peritoneal mesothelioma\" and \"HIPEC\" as keywords in three databases. Studies were included if reporting precisely the HIPEC regimen and the related outcomes, if comparing regimen, or if reporting national/international guidelines. The GRADE methodology was used to rate the level of evidence. Twenty-eight studies were included in this review: 1 was a meta-analysis, 18 reported cohort outcomes, 4 retrospectively compared HIPEC regimens, and 5 were guidelines. Six HIPEC regimens were found, 4 with one drug (cisplatin, mitomycine-C, carboplatin, oxaliplatin), 2 using two drugs (cis",
+            "journal": "Indian journal of surgical oncology",
+            "year": "2023",
+            "authors": [
+              "Kepenekian Vahan",
+              "Sgarbura Olivia",
+              "Marchal Frederic",
+              "Villeneuve Laurent",
+              "Glehen Olivier"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37359920/"
+          },
+          {
+            "pmid": "39183488",
+            "title": "Drug sensitivity tumor cell clusters in malignant peritoneal mesothelioma.",
+            "abstract": "To explore the most effective adjuvant chemotherapy regimen for malignant peritoneal mesothelioma (MPM) through patient derived tumor-like cell clusters (PTC) drug sensitivity test.",
+            "journal": "Journal of surgical oncology",
+            "year": "2024",
+            "authors": [
+              "Su Yan-Dong",
+              "Ma Ru",
+              "Fu Yu-Bin",
+              "Wu He-Liang",
+              "Liang Xin-Li"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Peritoneal Neoplasms",
+              "Female",
+              "Male",
+              "Middle Aged",
+              "Deoxycytidine",
+              "Oxaliplatin",
+              "Gemcitabine",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Mesothelioma, Malignant"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39183488/"
+          },
+          {
+            "pmid": "20933167",
+            "title": "[Second-line therapy in patients with malignant pleural mesothelioma. A French retrospective study (2005-2006)].",
+            "abstract": "The role of second-line chemotherapy (SLC) has still not been established in malignant pleural mesothelioma (MPM) but SLC is increasingly used because many patients are still fit at the time of the progression of the disease.",
+            "journal": "Revue de pneumologie clinique",
+            "year": "2010",
+            "authors": [
+              "Margery J",
+              "Rivière F",
+              "Planchard D",
+              "Le Floch H",
+              "Ferrand F-R"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Carboplatin",
+              "Cisplatin",
+              "Deoxycytidine",
+              "Disease Progression",
+              "Feasibility Studies",
+              "Female",
+              "France"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20933167/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant epithelioid mesothelioma",
+        "txgnn_score": 0.994870901107788,
+        "txgnn_rank": 6588,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT07330271",
+            "title": "A Multicenter, Randomized Controlled Trial of PTC-Guided Personalized Therapy for Peritoneal Mesothelioma",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "start_date": "2025-12-02",
+            "completion_date": "2031-11-01",
+            "country": "China",
+            "enrollment": 347,
+            "brief_summary": "Official Title: A Study of Key Parameters and Mechanisms in Personalized Diagnosis and Treatment Using Tumor Models\n\nWhy is this study being done? This research study is for adults with a type of cancer called Malignant Peritoneal Mesothelioma (MPM). Currently, it is hard for doctors to know which treatment will work best for each patient after surgery. This study will test a new, personalized way to choose treatments using a model grown from a patient's own tumor in the lab, called a Patient-de",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPatients must meet ALL of the following criteria to be eligible for the study:\n\n* Aged 18 years or older.\n* Histopathologically confirmed diagnosis of epithelioid or biphasic malignant peritoneal mesothelioma (MPM).\n* Scheduled to undergo cytoreductive surgery (CRS) combined wit",
+            "endpoints": [
+              "Overall Survival"
+            ],
+            "sponsor": "Beijing Tsinghua Chang Gung Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT07330271"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "31455014",
+            "title": "Building a Bridge between Chemotherapy and Immunotherapy in Malignant Pleural Mesothelioma: Investigating the Effect of Chemotherapy on Immune Checkpoint Expression.",
+            "abstract": "In light of the promising results of immune checkpoint blockade (ICPB) in malignant pleural mesothelioma (MPM), we investigated the effect of different chemotherapeutic agents on the expression of immune checkpoints (ICPs) in order to rationally design a good treatment schedule for their combination with ICP blocking antibodies. Cisplatin, oxaliplatin and pemetrexed are interesting chemotherapeutic agents to combine with immunotherapy given their immunomodulatory capacities. We looked into cisplatin and pemetrexed because their combination is used as first-line treatment of MPM. Additionally, the effect of the immunogenic chemotherapeutic agent, oxaliplatin, was also studied. Three different MPM cell lines were used for representation of both epithelioid and sarcomatoid subtypes. The desired inhibitory concentrations of the chemotherapeutic agents were determined with the SRB-assay. Allogeneic co-cultures of MPM cells with healthy donor peripheral blood mononuclear cells (PBMC) were se",
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "authors": [
+              "Marcq Elly",
+              "Audenaerde Jonas Rm Van",
+              "Waele Jorrit De",
+              "Jacobs Julie",
+              "Loenhout Jinthe Van"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Cell Line, Tumor",
+              "Combined Modality Therapy",
+              "Gene Expression",
+              "Humans",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31455014/"
+          },
+          {
+            "pmid": "31345777",
+            "title": "Anti-Mesothelin Recombinant Immunotoxin Therapy for Colorectal Cancer.",
+            "abstract": "Mesothelin (MSLN) is a cell surface glycoprotein expressed at a high level on many malignancies, including pancreatic adenocarcinoma, serous ovarian cancer, and epithelioid mesothelioma. MSLN-targeted recombinant immunotoxins (RITs) consist of an anti-MSLN Fv fused to the catalytic domain of Pseudomonas exotoxin A. Recent data has also shown that MSLN is expressed at clinically relevant levels on the surface of colorectal cancer (CRC). In this study, CRC cell lines were tested for MSLN expression and susceptibility to MSLN-targeted RITs.",
+            "journal": "Clinical colorectal cancer",
+            "year": "2019",
+            "authors": [
+              "Cerise Adam",
+              "Bera Tapan K",
+              "Liu Xiufen",
+              "Wei Junxia",
+              "Pastan Ira"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Intramural"
+            ],
+            "mesh_terms": [
+              "ADP Ribose Transferases",
+              "Animals",
+              "Antigens, Neoplasm",
+              "Antineoplastic Agents, Immunological",
+              "Bacterial Toxins",
+              "Cell Line, Tumor",
+              "Colorectal Neoplasms",
+              "Exotoxins",
+              "Female",
+              "GPI-Linked Proteins"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31345777/"
+          },
+          {
+            "pmid": "36400887",
+            "title": "Safety and Feasibility of High-Pressure/High-Dose Pressurized Intraperitoneal Aerosol Chemotherapy (HP/HD-PIPAC) for Primary and Metastatic Peritoneal Surface Malignancies.",
+            "abstract": "The aim of this study was to evaluate the feasibility and perioperative safety of high-pressure/high-dose pressurized intraperitoneal aerosol chemotherapy (HP/HD-PIPAC) to manage peritoneal surface malignancies (PSM).",
+            "journal": "Annals of surgical oncology",
+            "year": "2023",
+            "authors": [
+              "Ramos Arias Gabriel",
+              "Sindayigaya Rémy",
+              "Ouaissi Mehdi",
+              "Buggisch Jonathan R",
+              "Schmeding Maximilian"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Child",
+              "Adolescent",
+              "Young Adult",
+              "Adult",
+              "Middle Aged",
+              "Aged",
+              "Aged, 80 and over",
+              "Peritoneal Neoplasms",
+              "Retrospective Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36400887/"
+          },
+          {
+            "pmid": "29978366",
+            "title": "Impact of Combination Chemotherapy in Peritoneal Mesothelioma Hyperthermic Intraperitoneal Chemotherapy (HIPEC): The RENAPE Study.",
+            "abstract": "The introduction of cytoreductive surgery (CRS) in combination with hyperthermic intraperitoneal chemotherapy (HIPEC) improved the prognosis of selected patients with peritoneal mesothelioma (PM).",
+            "journal": "Annals of surgical oncology",
+            "year": "2018",
+            "authors": [
+              "Malgras Brice",
+              "Gayat Etienne",
+              "Aoun Olivier",
+              "Lo Dico Réa",
+              "Eveno Clarisse"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Chemotherapy, Cancer, Regional Perfusion",
+              "Cisplatin",
+              "Combined Modality Therapy",
+              "Doxorubicin",
+              "Erythrocyte Transfusion",
+              "Female",
+              "Follow-Up Studies",
+              "Humans",
+              "Hyperthermia, Induced"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29978366/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "sarcomatoid mesothelioma",
+        "txgnn_score": 0.9943972826004028,
+        "txgnn_rank": 7018,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "25680983",
+            "title": "Cytoreductive surgery and hyperthermic intraperitoneal chemotherapy with oxaliplatin for peritoneal mesothelioma: preliminary results and survival analysis.",
+            "abstract": "Peritoneal mesothelioma is a rare disease with poor prognosis. The present study reports single center experience with cytoreductive surgery (CRS) and hyperthermic intraperitoneal chemotherapy with oxaliplatin (HIPEC-OX) over an eight-year period.",
+            "journal": "Surgical oncology",
+            "year": "2015",
+            "authors": [
+              "Hubert Julien",
+              "Thiboutot Eva",
+              "Dubé Pierre",
+              "Cloutier Alexis-Simon",
+              "Drolet Pierre"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Cytoreduction Surgical Procedures",
+              "Databases, Factual",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Hyperthermia, Induced",
+              "Infusions, Parenteral",
+              "Male"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25680983/"
+          },
+          {
+            "pmid": "31455014",
+            "title": "Building a Bridge between Chemotherapy and Immunotherapy in Malignant Pleural Mesothelioma: Investigating the Effect of Chemotherapy on Immune Checkpoint Expression.",
+            "abstract": "In light of the promising results of immune checkpoint blockade (ICPB) in malignant pleural mesothelioma (MPM), we investigated the effect of different chemotherapeutic agents on the expression of immune checkpoints (ICPs) in order to rationally design a good treatment schedule for their combination with ICP blocking antibodies. Cisplatin, oxaliplatin and pemetrexed are interesting chemotherapeutic agents to combine with immunotherapy given their immunomodulatory capacities. We looked into cisplatin and pemetrexed because their combination is used as first-line treatment of MPM. Additionally, the effect of the immunogenic chemotherapeutic agent, oxaliplatin, was also studied. Three different MPM cell lines were used for representation of both epithelioid and sarcomatoid subtypes. The desired inhibitory concentrations of the chemotherapeutic agents were determined with the SRB-assay. Allogeneic co-cultures of MPM cells with healthy donor peripheral blood mononuclear cells (PBMC) were se",
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "authors": [
+              "Marcq Elly",
+              "Audenaerde Jonas Rm Van",
+              "Waele Jorrit De",
+              "Jacobs Julie",
+              "Loenhout Jinthe Van"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Agents, Immunological",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Biomarkers, Tumor",
+              "Cell Line, Tumor",
+              "Combined Modality Therapy",
+              "Gene Expression",
+              "Humans",
+              "Immunomodulation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31455014/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "malignant visceral pleura tumor",
+        "txgnn_score": 0.9925990104675292,
+        "txgnn_rank": 8554,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "35831561",
+            "title": "New insights into the unique nature of colorectal cancer peritoneal metastases-rethinking HIPEC.",
+            "abstract": "Colorectal peritoneal metastases (CRPM) can be resistant to the chemotherapy agent (oxaliplatin) most employed, up until recently, as hyperthermic intraperitoneal chemotherapy (HIPEC). Glutathione-mediated inactivation of oxaliplatin can be substantially reduced by genomic deletion of the gene or pharmacological inhibition of glutamate-cysteine ligase in CRPM tumouroids. These discoveries may rekindle the enthusiasm for HIPEC in concert with cytoreductive surgery, which has been employed to manage patients with this once-nihilistic form of stage-IV disease.",
+            "journal": "British journal of cancer",
+            "year": "2022",
+            "authors": [
+              "Ramsay Robert G",
+              "Flood Michael"
+            ],
+            "pub_types": [
+              "Editorial"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Colorectal Neoplasms",
+              "Combined Modality Therapy",
+              "Cytoreduction Surgical Procedures",
+              "Humans",
+              "Hyperthermia, Induced",
+              "Hyperthermic Intraperitoneal Chemotherapy",
+              "Oxaliplatin",
+              "Peritoneal Neoplasms",
+              "Survival Rate"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35831561/"
+          },
+          {
+            "pmid": "30911633",
+            "title": "Pharmacological principles of intraperitoneal and bidirectional chemotherapy.",
+            "abstract": "Intraperitoneal chemotherapy is associated with a significant pharmacokinetic and pharmacodynamic benefit and can, alone or in combination with systemic chemotherapy (bidirectional chemotherapy), be used for treating primary and secondary peritoneal surface malignancies. Due to the peritoneal-plasma barrier, high intraperitoneal drug concentration can be achieved by intraperitoneal chemotherapy, whereas systemic concentration remains low. Bidirectional chemotherapy may provide in addition adequate drug concentrations from the side of the subperitoneal space to the peritoneal tumour nodules. Major pharmacological problems of intraperitoneal chemotherapy are limited tissue penetration and poor homogeneity of drug distribution to the entire seroperitoneal surface. Significant pharmacological determinants of intraperitoneal chemotherapy are choice of drug, drug dosage, solution volume, carrier solution, intra-abdominal pressure, temperature, duration, mode of administration, extent of peri",
+            "journal": "Pleura and peritoneum",
+            "year": "2017",
+            "authors": [
+              "de Bree Eelco",
+              "Michelakis Dimosthenis",
+              "Stamatiou Dimitris",
+              "Romanos John",
+              "Zoras Odysseas"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30911633/"
+          },
+          {
+            "pmid": "25028262",
+            "title": "EF24 and RAD001 potentiates the anticancer effect of platinum-based agents in human malignant pleural mesothelioma (MSTO-211H) cells and protects nonmalignant mesothelial (MET-5A) cells.",
+            "abstract": "The most widespread neoplasm of the pleura is malignant pleural mesothelioma (MPM) with low prevalence rate. The mechanistic target of rapamycin signaling pathway, inhibited by RAD001, was shown to be deregulated in MPM development and considered a novel target for the MPM therapy. The EF24, a curcumin analog, also affects several signaling pathways and kills cancer cells as a single agent or in combination with classical drugs. We aimed to evaluate possible effects of RAD001, EF24, cisplatin, and oxaliplatin treatments on both malignant pleural mesothelioma (MSTO-211H) and nonmalignant mesothelial (Met-5A) cell lines. The effects of the agents on MSTO-211H and Met-5A cells were evaluated in terms of cell viability, cytotoxicity, DNA synthesis rate, quantitation of apoptotic DNA fragmentation, and cleaved caspase 3 levels. Moreover, quantitative messenger RNA (mRNA) analysis of apoptotic (CASP9) and antiapoptotic (BCL2L1 and BCL2) genes were also performed. We found that both EF24 and ",
+            "journal": "Human & experimental toxicology",
+            "year": "2015",
+            "authors": [
+              "Onen H I",
+              "Yilmaz A",
+              "Alp E",
+              "Celik A",
+              "Demiroz S M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Caspase 3",
+              "Caspase 9",
+              "Cell Line",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Cisplatin",
+              "Curcumin",
+              "DNA Fragmentation"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25028262/"
+          },
+          {
+            "pmid": "24137395",
+            "title": "A multiple cavity malignancy involving the renal capsule, pleura and meninges: A case report and review of the literature.",
+            "abstract": "Malignant renal subcapsular effusions commonly arise from primary or metastatic renal neoplasms. The current case report presents a rare case of malignancy with a massive renal subcapsular effusion accompanied by a malignant pleural effusion of an unknown primary site, which underwent progression to carcinomatous meningitis during chemotherapy. The type of adenocarcinoma present was determined by effusion cytology. Intravenous chemotherapy (docetaxel plus oxaliplatin and gemcitabine plus cisplatin) were administered; however, the disease still progressed. Time to progression was 9 months during treatment of gefitinib. Comprehensive therapies, including intracavity chemotherapy, immunotherapy and gefitinib, were shown to be effective and prolonged the patient's survival time.",
+            "journal": "Oncology letters",
+            "year": "2013",
+            "authors": [
+              "Zhu Li-Jing",
+              "Liu Bao-Rui",
+              "Qian Xiao-Ping",
+              "Kong Wei-Wei",
+              "Hu Wen-Jing"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24137395/"
+          },
+          {
+            "pmid": "36658247",
+            "title": "Evidence-Based Surgical Approach to Gastroesophageal Junction Cancer: How We Do Robotic Transhiatal Lower Mediastinal Dissection and Esophagojejunostomy.",
+            "abstract": "Currently available data suggest that gastroesophageal junction (GEJ) cancers with an esophageal extension less than 2 cm can be removed using gastrectomy with a limited esophagectomy via a transhiatal approach and selective lower mediastinal dissection.1 In this multimedia article, we demonstrate our approach to robotic total gastrectomy with data-driven mediastinal lymph node (LN) dissection and sutured esophagojejunostomy for GEJ cancer.The video shows the case of a 63-year-old man with Siewert type 2 GEJ adenocarcinoma. The size of the tumor was 3 cm, and its esophageal extension was 2 cm. The man underwent preoperative chemoradiotherapy (5-FU/oxaliplatin, 45 Gy) with excellent treatment effect. After dissection of the esophagus from the bilateral diaphragmatic crus, surrounding lymph node (LN) tissue (#110) was identified and dissected. In this case, intraoperative findings showed the posterior lower mediastinal LNs (#112) to be swollen, and they were sampled. Surgeons should take",
+            "journal": "Annals of surgical oncology",
+            "year": "2023",
+            "authors": [
+              "Hirata Yuki",
+              "Mansfield Paul",
+              "Badgwell Brian D",
+              "Ikoma Naruhiko"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Middle Aged",
+              "Robotic Surgical Procedures",
+              "Adenocarcinoma",
+              "Esophageal Neoplasms",
+              "Stomach Neoplasms",
+              "Lymph Node Excision",
+              "Esophagogastric Junction",
+              "Anastomosis, Surgical",
+              "Esophagectomy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36658247/"
+          },
+          {
+            "pmid": "34479745",
+            "title": "Cost-effectiveness analysis of pressurized intraperitoneal aerosol chemotherapy (PIPAC) in patients with gastric cancer and peritoneal metastasis.",
+            "abstract": "The aim of this study was to assess the cost-effectiveness of pressurized intraperitoneal aerosol chemotherapy with low-dose cisplatin and doxorubicin (PIPAC C/D) for the treatment of advanced gastric cancer.",
+            "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+            "year": "2022",
+            "authors": [
+              "Javanbakht Mehdi",
+              "Mashayekhi Atefeh",
+              "Branagan-Harris Michael",
+              "Horvath Philipp",
+              "Königsrainer Alfred"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Aerosols",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Capecitabine",
+              "Carcinoma",
+              "Cisplatin",
+              "Cost-Benefit Analysis",
+              "Doxorubicin",
+              "Humans",
+              "Injections, Intraperitoneal",
+              "Laparoscopy"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34479745/"
+          },
+          {
+            "pmid": "30643112",
+            "title": "Pressurized Intraperitoneal Aerosol Chemotherapy (PIPAC) for Peritoneal Metastases in Solid Organ Graft Recipients: First Experience.",
+            "abstract": "BACKGROUND Therapy of peritoneal metastases (PM) in solid organ transplant recipients is challenging. Pressurized intraperitoneal aerosol chemotherapy (PIPAC) might constitute a new therapeutic opportunity for these patients. MATERIAL AND METHODS This was a single-center, retrospective analysis of prospective registry data (NCT03210298) in a tertiary care center between 1.7.2016 and 31.12.2017. Intraperitoneal administration of oxaliplatin 92 mg/m² body surface or a combination of cisplatin 7.5 mg/m² and doxorubicin 1.5 mg/m², repeated every 6 weeks. Objective tumor response was documented via histology (Peritoneal Regression Grading Score, PRGS), adverse events according to Common Terminology Criteria for Adverse Events (CTCAE) 4.0. RESULTS Out of 71 consecutive patients treated with PIPAC, 2 patients (2.8%) were solid organ transplant recipients. The first patient had metachronous PM of colonic cancer origin after liver transplantation. The second patient had synchronous PM of pancre",
+            "journal": "Annals of transplantation",
+            "year": "2019",
+            "authors": [
+              "Horvath Philipp",
+              "Yurttas Can",
+              "Struller Florian",
+              "Bösmüller Hans",
+              "Lauer Ulrich M"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Administration, Inhalation",
+              "Antineoplastic Agents",
+              "Cisplatin",
+              "Colonic Neoplasms",
+              "Doxorubicin",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Oxaliplatin",
+              "Pancreatic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30643112/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "female breast carcinoma",
+        "txgnn_score": 0.9854275584220886,
+        "txgnn_rank": 13946,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03854864",
+            "title": "Evaluation by Oncologists of Strategies for the Prevention and Treatment of Chemotherapy-induced Peripheral Neuropathies: Observational and Cross-sectional Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "start_date": "2019-01-14",
+            "completion_date": "2019-03-23",
+            "country": "France",
+            "enrollment": 216,
+            "brief_summary": "Chemotherapy induced peripheral neuropathy (CIPN) is one of the most deleterious adverse effect of neurotoxic anticancer drugs affecting up to 40% of patients. These neurotoxic anticancer agents include mainly: cisplatin (bronchopulmonary cancers), oxaliplatin (colorectal cancers), paclitaxel (breast cancers and bronchopulmonary cancers), docetaxel (breast cancers and bronchopulmonary cancers) and bortezomib (multiple myeloma).\n\nCIPN affects not only the quality of life of patients, it also has ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Oncologist\n\nExclusion Criteria:\n\n* pain physician",
+            "endpoints": [
+              "Treatment strategy for CIPN"
+            ],
+            "sponsor": "University Hospital, Clermont-Ferrand",
+            "url": "https://clinicaltrials.gov/study/NCT03854864"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03875313",
+            "title": "A Phase 1b/2 Open Label, Dose Escalation and Expansion Study of the Glutaminase Inhibitor CB-839 in Combination With the PARP Inhibitor Talazoparib in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2019-05-20",
+            "completion_date": "2020-07-29",
+            "country": "United States",
+            "enrollment": 33,
+            "brief_summary": "This is a Phase 1b/2 study to determine the recommended phase 2 dose (RP2D), safety and tolerability, pharmacokinetics (PK) and clinical activity of the glutaminase inhibitor CB-839 with the poly adenosine diphosphate ribose polymerase (PARP) inhibitor talazoparib in participants with advanced/metastatic solid tumors.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n(Part 1)\n\n-Documented incurable/locally advanced or metastatic solid tumors that have either relapsed or are refractory or intolerant to standard therapies of proven clinical benefit.\n\n(Part 2) Meets 1 of the 3 defined cohorts:\n\n* Cohort 1: Documented incurable/locally advanced ",
+            "endpoints": [
+              "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) Excluding Deaths Due to Disease Progression",
+              "Number of Participants With Laboratory Abnormalities (Hematology, Clinical Chemistry) at More Than 1 Clinic Visit",
+              "Number of Participants With Dose-Limiting Toxicities (DLTs)"
+            ],
+            "sponsor": "Calithera Biosciences, Inc",
+            "url": "https://clinicaltrials.gov/study/NCT03875313"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT06047379",
+            "title": "An Open-label Phase 1/2 Dose Finding, Safety and Efficacy Study of Oral NEO212 in Patients With Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or Uncontrolled Brain Metastasis in Patients With Select Solid Tumors.",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-11-01",
+            "completion_date": "2027-08-31",
+            "country": "United States",
+            "enrollment": 134,
+            "brief_summary": "This multi-site, Phase 1/2 clinical trial is an open-label study to identify the safety, pharmacokinetics, and efficacy of a repeated dose regimen of NEO212 alone for the treatment of patients with radiographically-confirmed progression of Astrocytoma IDH- mutant, Glioblastoma IDH-wildtype, and the safety, pharmacokinetics and efficacy of a repeated dose regimen of NEO212 when given with select SOC for the treatment of solid tumor patients with radiographically confirmed uncontrolled metastases ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must be ≥ 18yrs of age.\n* Patient must have the ability to understand, and the willingness to sign, a written informed consent form.\n* Patient has been on a stable or decreasing dose of steroids for at least five days prior to the date of informed consent.\n* Any toxici",
+            "endpoints": [
+              "Phase 1: safety and tolerability of increasing dose levels of orally administered NEO212 alone in patients with Astrocytoma IDH-mutant, Glioblastoma IDH-wildtype or patients with select solid tumors with uncontrolled metastases to the brain",
+              "Phase 1: Identify the maximum tolerated dose (MTD) of NEO212",
+              "Phase 1: Determine the recommended Phase 2 dose (RP2D) of NEO212"
+            ],
+            "sponsor": "Neonc Technologies, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT06047379"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04279509",
+            "title": "Selecting Chemotherapy With High-throughput Drug Screen Assay Using Patient Derived Organoids in Patients With Refractory Solid Tumours (SCORE)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "start_date": "2019-05-29",
+            "completion_date": "2022-05",
+            "country": "Singapore",
+            "enrollment": 35,
+            "brief_summary": "This is a single-centre study based on the Simon 2-stage optimax design: 12 patients will be enrolled initially (Stage I), which will then be expanded to a further 13 patients (Stage II) if 3 or more patients enrolled in stage I of the study achieve an objective response with the chemotherapeutic agent selected by the drug screen assay. A total of 25 patients will be included in both stages of study.\n\nPatients enrolled on study will undergo a fresh biopsy of tumour lesion to obtain cells that wi",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Age ≥ 21 years.\n* Histological or cytological diagnosis of head and neck squamous cell carcinoma (HNSCC), colorectal, breast or epithelial ovarian cancer.\n* ECOG 0-1.\n* At least 1 tumour lesion (primary or metastatic) amenable to fresh biopsy\n* At least 1 measurable tumour les",
+            "endpoints": [
+              "Overall radiological response rate",
+              "Correlation between patient genotype, tumor biomarkers and blood biomarkers with clinical outcome"
+            ],
+            "sponsor": "National University Hospital, Singapore",
+            "url": "https://clinicaltrials.gov/study/NCT04279509"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03253575",
+            "title": "CANscriptTM Clinical Outcomes in a Real-World Setting (ANCERS)-2: A Prospective, Multicenter, Observational Study Examining the Clinical Utility of CANscriptTM in Routine Clinical Practice",
+            "phase": "N/A",
+            "status": "SUSPENDED",
+            "start_date": "2017-07-13",
+            "completion_date": "2019-12-15",
+            "country": "United States",
+            "enrollment": 800,
+            "brief_summary": "The purpose of this study is to test the CANscript™ sensitivity assay, which is a new and different assay developed to test the sensitivity of different cancer types to physician selected therapies (both drugs and/or drug combinations) indicated for the stage and type of cancer for treatment. CANscript™ tests how a patients specific tumor reacts to the therapies being considered by the treating physician. CANscript™ test results have been shown to closely correspond with actual clinical results,",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Male or female patient ≥18 years old\n2. ECOG performance status of ≤ 2\n3. The patient's tumor must be amenable to a tumor biopsy sampling, so that CANscript can be performed\n4. The patient must have disease that is measurable by standard imaging techniques, per the RECIST 1.1",
+            "endpoints": [
+              "CANscript decision impact will be captured via a study specific questionnaire"
+            ],
+            "sponsor": "Mitra RxDx, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03253575"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05891171",
+            "title": "A Phase 1/1b Study to Evaluate the Safety and Tolerability of AB598 Monotherapy and Combination Therapy in Participants With Advanced Malignancies",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2023-10-13",
+            "completion_date": "2026-03",
+            "country": "Australia, United States, Taiwan",
+            "enrollment": 40,
+            "brief_summary": "The primary purpose of this study is to assess the safety and tolerability of AB598 in participants with advanced malignancies.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Must have at least 1 measurable lesion per Response Evaluation Criteria in Solid Tumors (RECIST) guidance\n* Eastern Cooperative Oncology Group (ECOG) performance status score of 0 or 1\n* Prior systemic radiation or whole brain radiation therapy must have been completed at ",
+            "endpoints": [
+              "Number of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+              "Dose Escalation Cohorts: Number of Participants with Dose-Limiting Toxicities (DLTs)"
+            ],
+            "sponsor": "Arcus Biosciences, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05891171"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02009449",
+            "title": "A Phase 1, Open-Label Dose Escalation First-in-Human Study to Evaluate the Tolerability, Safety, Maximum Tolerated Dose, Preliminary Clinical Activity and Pharmacokinetics of AM0010 in Patients With Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2013-11-15",
+            "completion_date": "2023-07-22",
+            "country": "United States",
+            "enrollment": 353,
+            "brief_summary": "This is a first-in-human, open-label, dose escalation study to evaluate the safety and tolerability of pegilodecakin in participants with advanced solid tumors, dosed daily subcutaneously as a monotherapy or in combination with chemotherapy or immunotherapy.",
+            "eligibility_criteria": "Inclusion Criteria:\n\nPart A Escalation Cohorts:\n\no Histologically or cytologically confirmed advanced malignant solid tumor, limited to melanoma, castrate resistant prostate cancer (CRPC), ovarian cancer (OVCA), renal cell carcinoma, colorectal carcinoma (CRC), pancreatic carcinoma or non-small cell",
+            "endpoints": [
+              "Safety and tolerability as measured by incidence of adverse events",
+              "Pharmacokinetic (PK) parameters"
+            ],
+            "sponsor": "Eli Lilly and Company",
+            "url": "https://clinicaltrials.gov/study/NCT02009449"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05007106",
+            "title": "A Multicenter, Open-label, Phase 2 Basket Study of MK-7684A, a Co-formation of Vibostolimab (MK-7684) With Pembrolizumab (MK-3475), With or Without Other Anticancer Therapies in Participants With Selected Solid Tumors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2021-09-16",
+            "completion_date": "2025-08-05",
+            "country": "Colombia, Spain, France, Canada, South Korea, Turkey (Türkiye), Netherlands, Germany, Israel, Italy, United States, Chile, Poland, Taiwan, Japan",
+            "enrollment": 613,
+            "brief_summary": "The purpose of this study is to determine the safety, tolerability, and preliminary efficacy of pembrolizumab/vibostolimab co-formulation (MK-7684A) with or without other anticancer therapies in participants with selected advanced solid tumors. The primary hypothesis is that pembrolizumab/vibostolimab co-formulation is superior to pembrolizumab alone in terms of objective response rate or progression-free survival in participants with cervical cancer.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* One of the following histologically or cytologically confirmed, advanced (unresectable or metastatic) solid tumors:\n\n  * Squamous cell carcinoma, adenosquamous carcinoma, or adenocarcinoma of the cervix\n  * Endometrial cancer\n  * Head and neck squamous cell carcinoma (HNSCC)\n ",
+            "endpoints": [
+              "Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 as Assessed by Blinded Independent Central Review (BICR)",
+              "Progression-Free Survival (PFS) per RECIST 1.1 as Assessed by BICR",
+              "ORR per RECIST 1.1 as Assessed by Investigator in Participants with Selected Solid Tumors"
+            ],
+            "sponsor": "Merck Sharp & Dohme LLC",
+            "url": "https://clinicaltrials.gov/study/NCT05007106"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04485013",
+            "title": "A Phase 1a/1b Dose Escalation/Expansion Study of TTX-080, an HLA-G Antagonist, as Monotherapy and in Combination With Pembrolizumab, Cetuximab or FOLFIRI Plus Cetuximab in Patients With Advanced Solid Refractory/Resistant Malignancies",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2020-07-14",
+            "completion_date": "2027-06-01",
+            "country": "United States",
+            "enrollment": 240,
+            "brief_summary": "TTX-080-001 is a Phase 1, open label, dose escalation and dose expansion clinical study to determine the safety, tolerability, and recommended Phase 2 dose of TTX-080 monotherapy (HLA-G inhibitor) and in combination with either pembrolizumab (PD-1 inhibitor), cetuximab (EGFR inhibitor) or FOLFIRI plus cetuximab (EGFR inhibitor) in patients with advanced refractory / resistant solid malignancies including metastatic colorectal cancer (mCRC) patients.",
+            "eligibility_criteria": "Abbreviated Inclusion Criteria:\n\n1. Subject with histological diagnosis of advanced/metastatic cancer \\[currently enrolling in CRC only\\]\n2. Age 18 years or older, is willing and able to provide informed consent\n3. Evidence of measurable disease\n4. Eastern Cooperative Oncology Group (ECOG) performan",
+            "endpoints": [
+              "1. To determine the anti-tumor activity of TTX-080 by objective response rate [complete response + partial response) for each tumor arm per RECIST 1.1"
+            ],
+            "sponsor": "Tizona Therapeutics, Inc",
+            "url": "https://clinicaltrials.gov/study/NCT04485013"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02419495",
+            "title": "Phase IB Study to Evaluate the Safety of Selinexor (KPT-330) in Combination With Multiple Standard Chemotherapy or Immunotherapy Agents in Patients With Advanced Malignancies",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2015-06-26",
+            "completion_date": "2024-09-16",
+            "country": "United States",
+            "enrollment": 221,
+            "brief_summary": "This phase Ib trial studies the side effects and best dose of selinexor when given together with several different standard chemotherapy or immunotherapy regimens in treating patients with malignancies that have spread to other places in the body and usually cannot be cured or controlled with treatment (advanced). Selinexor may stop the growth of cancer cells by blocking enzymes needed for cell growth. Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either b",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must have histologically or cytologically confirmed malignant neoplasms (not including hematological malignancies and brain tumors) untreated or previously treated requiring further treatment; patients in Arm L (pembrolizumab), Arm M (nivolumab), and Arms N, O, P (niv",
+            "endpoints": [
+              "Incidence of adverse events"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT02419495"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00096278",
+            "title": "A Phase III Clinical Trial Comparing Infusional 5-Fluorouracil (5-FU), Leucovorin, and Oxaliplatin (mFOLFOX6) Every Two Weeks With Bevacizumab to the Same Regimen Without Bevacizumab for the Treatment of Patients With Resected Stages II and III Carcinoma of the Colon",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "start_date": "2004-09-15",
+            "completion_date": "2012-12-31",
+            "country": "United States",
+            "enrollment": 2710,
+            "brief_summary": "This randomized phase III trial is studying giving oxaliplatin, leucovorin, and fluorouracil together with bevacizumab to see how well it works compared to oxaliplatin, leucovorin, and fluorouracil alone in treating patients who have undergone surgery for stage II or stage III colon cancer. Drugs used in chemotherapy, such as oxaliplatin, leucovorin, and fluorouracil, work in different ways to stop tumor cells from dividing so they stop growing or die. Monoclonal antibodies such as bevacizumab c",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients must consent to be in the study and must have signed and dated an IRB approved consent form conforming to federal and institutional guidelines\n* Randomization must occur during the three-week interval beginning on postoperative day 29 and ending on postoperative day 5",
+            "endpoints": [
+              "Disease-free Survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT00096278"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05107674",
+            "title": "A Phase 1a, Dose Escalation, Safety and Tolerability Study of NX-1607, a Casitas B-lineage Lymphoma Proto-oncogene (CBL-B) Inhibitor, in Adults With Advanced Malignancies, With Phase 1b Expansion in Select Tumor Types",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "start_date": "2021-09-29",
+            "completion_date": "2028-02-28",
+            "country": "United Kingdom, United States",
+            "enrollment": 345,
+            "brief_summary": "This is a first-in-human Phase 1a/1b multicenter, open-label oncology study designed to evaluate the safety and anti-cancer activity of NX-1607 in patients with advanced malignancies.",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n* Age ≥ 18 years.\n* Measurable disease per disease-specific response criteria.\n* Patients must have disease that is metastatic or unresectable and have received standard treatment options, are not candidates for standard treatment options, or will otherwise be prevented from",
+            "endpoints": [
+              "Incidence of treatment-emergent adverse events (TEAEs), including Grade ≥ 3 TEAEs, treatment-emergent serious adverse events (SAEs), TEAEs leading to study drug discontinuation, and deaths due to TEAEs",
+              "Incidence of immune-related AEs (irAEs), all deaths, and dose-limiting toxicities (DLTs)",
+              "Objective Response Rate (ORR) per disease-specific response criteria as assessed by the Investigator"
+            ],
+            "sponsor": "Nurix Therapeutics, Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT05107674"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01233505",
+            "title": "A Phase I Study of ABT-888 in Combination With Oxaliplatin and Capecitabine in Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "start_date": "2010-10",
+            "completion_date": "",
+            "country": "United States",
+            "enrollment": 16,
+            "brief_summary": "This phase I trial is studying the side effects and the best dose of veliparib when given together with capecitabine and oxaliplatin in treating patients with advanced solid tumors. Veliparib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as capecitabine and oxaliplatin, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving veliparib together with",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed solid tumors that fulfill ≥ 1 of the following criteria:\n\n  * BRCA1/2 mutation and a BRCA-related malignancy\n\n    * Patients without a known BRCA mutation must have a probability of harboring a BRCA gene mutation as assessed by BRCAPRO",
+            "endpoints": [
+              "Maximum-tolerated (MTD) dose of veliparib in combination with oxaliplatin and capecitabine as assessed by the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0",
+              "Dose-limiting toxicities of veliparib in combination with oxaliplatin and capecitabine as assessed by NCI CTCAE version 4.0"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01233505"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03170960",
+            "title": "A Phase 1b Dose-Escalation Study of Cabozantinib (XL184) Administered Alone or in Combination With Atezolizumab to Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-09-05",
+            "completion_date": "2027-09-30",
+            "country": "Australia, Spain, France, United Kingdom, Belgium, Netherlands, Germany, Italy, United States",
+            "enrollment": 914,
+            "brief_summary": "This is a multicenter Phase 1b, open-label study to assess safety, tolerability, preliminary efficacy, and pharmacokinetics (PK) of cabozantinib taken in combination with atezolizumab in subjects with multiple tumor types, including advanced urothelial carcinoma (UC) (including bladder, renal pelvis, ureter, urethra), renal cell carcinoma (RCC), castration-resistant prostate cancer (CRPC), non-small-cell lung cancer (NSCLC), triple negative breast cancer (TNBC), ovarian cancer (OC), endometrial ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Cytologically or histologically and radiologically confirmed solid tumor that is inoperable, locally advanced, metastatic, or recurrent:\n\n   * Dose-Escalation Stage:\n\n     * Subjects with UC (including renal pelvis, ureter, bladder, urethra) after prior platinum-based therapy",
+            "endpoints": [
+              "Dose Escalation: MTD/Recommended Dose",
+              "Dose Expansion: ORR"
+            ],
+            "sponsor": "Exelixis",
+            "url": "https://clinicaltrials.gov/study/NCT03170960"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT02658214",
+            "title": "A Phase Ib Study to Evaluate the Safety and Tolerability of Durvalumab and Tremelimumab in Combination With First-Line Chemotherapy in Patients With Advanced Solid Tumors.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2016-04-28",
+            "completion_date": "2019-11-14",
+            "country": "South Korea, Japan",
+            "enrollment": 32,
+            "brief_summary": "Durvalumab and Tremelimumab in combination with first-line chemotherapy in the following indications: Ovarian/peritoneal/fallopian tube cancer, SCCHN, TNBC, SCLC and gastric/GEJ cancer, PDAC, ESCC.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. ≥18 years\n2. Written informed consent\n3. Patients with histologically or cytologically documented chemotherapy-naïve locally advanced unresectable or metastatic ovarian/peritoneal/fallopian tube cancer, SCCHN, TNBC, SCLC, gastric cancer/GEJ, PDAC and ESCC.\n4. ECOG performance",
+            "endpoints": [
+              "Laboratory findings (including: clinical chemistry, hematology, and urinalysis)",
+              "Incidence of Adverse Events",
+              "Tumor assessment based on RECIST 1.1 (for cohort 6 only)"
+            ],
+            "sponsor": "AstraZeneca",
+            "url": "https://clinicaltrials.gov/study/NCT02658214"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00006121",
+            "title": "Phase II Study of Oxaliplatin Single Agent in Patients With Metastatic Breast Cancer After Failure of Anthracycline/Taxane Based Chemotherapy",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "start_date": "2000-05",
+            "completion_date": "",
+            "country": "United Kingdom, France, Belgium, Austria, Israel, Germany, Slovenia",
+            "enrollment": 18,
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of oxaliplatin in treating women who have advanced or metastatic breast cancer that has not responded to previous chemotherapy.",
+            "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed advanced or metastatic breast cancer\n* Bidimensionally measurable disease\n\n  * At least one lesion at least 2 cm in one dimension by CT scan or MRI\n* Must have failed prior anthracycline/taxane based chemotherapy as defined by one of the following",
+            "endpoints": [],
+            "sponsor": "European Organisation for Research and Treatment of Cancer - EORTC",
+            "url": "https://clinicaltrials.gov/study/NCT00006121"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01183663",
+            "title": "A Phase I Study of Lenalidomide in Combination With Bevacizumab, Sorafenib, Temsirolimus, or 5-fluorouracil, Leucovorin, Oxaliplatin (FOLFOX) in Patients With Advanced Cancers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2010-08",
+            "completion_date": "2016-05",
+            "country": "United States",
+            "enrollment": 180,
+            "brief_summary": "The goal of this clinical research study is to find the highest tolerable doses of the combinations of lenalidomide and other drugs that can be given to patients with advanced cancer. The safety of the drug combinations will also be studied.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Patients with advanced or metastatic cancer that is refractory to standard therapy, has relapsed after standard therapy, or for which there is no standard therapy available.\n2. Patients must be \\>/= 3 weeks beyond treatment with a cytotoxic chemotherapy regimen, therapeutic r",
+            "endpoints": [
+              "Maximum Tolerated Dose (MTD) of Lenalidomide in Combination With Bevacizumab, Sorafenib, Temsirolimus, or 5-Fluorouracil, Leucovorin, Oxaliplatin (FOLFOX)"
+            ],
+            "sponsor": "M.D. Anderson Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT01183663"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05566457",
+            "title": "Clinical Study of Huangshi Guizhi Wuwu Decoction in Improving the Paclitaxel-related Neurotoxicity in Breast Cancer Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2020-01-01",
+            "completion_date": "2023-01-01",
+            "country": "China",
+            "enrollment": 92,
+            "brief_summary": "The current treatments for albumin-bound paclitaxel (nab-PTX) -related peripheral neurotoxicity (PN) mainly included cryotherapy and compression therapy , oral B group vitamin , and duloxetine. However, treatment effectiveness of these three methods is limited. Huangqi Guizhi Wuwu decoction (HGWD) is an herbal formula recorded in \"Synopsis of the Golden Chamber\" for improving limb pain, tingling, and numbness, which is composed of five crude drugs (Astragali Radix, Cinnamomi Ramulus, Paeoniae Ra",
+            "eligibility_criteria": "The inclusion criteria comprised:\n\nˑ histologically confirmed untreated BC; ˑ female; ˑage from 18 to 65 years old; ( ˑ Eastern Cooperative Oncology Group (ECOG) performance status (PS) score of 0 or 1; ˑat least receiving 4 cycles of nab-PTX (260mg/m2); ˑ grade 2 or greater nab-PTX induced-PN evalu",
+            "endpoints": [
+              "European Organisation for the Research and Treatment of Cancer-Chemotherapy-induced peripheral neuropathy (EORTC QLQ-CIPN20) questionnaire"
+            ],
+            "sponsor": "ChineseAMS",
+            "url": "https://clinicaltrials.gov/study/NCT05566457"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01081262",
+            "title": "A GCIG Intergroup Multicenter Phase III Trial of Open Label Carboplatin and Paclitaxel +/- NCI-Supplied Agent: Bevacizumab (NSC #704865) Compared With Oxaliplatin and Capecitabine +/- Bevacizumab as First Line Chemotherapy in Patients With Mucinous Epithelial Ovarian or Fallopian Tube Cancer (MEOC)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2010-10-12",
+            "completion_date": "2026-03-12",
+            "country": "United States",
+            "enrollment": 50,
+            "brief_summary": "This randomized phase III trial studies carboplatin given together with paclitaxel with or without bevacizumab to see how well it works compared with oxaliplatin given together with capecitabine with or without bevacizumab as first-line therapy in treating patients with newly diagnosed stage II-IV, or recurrent (has come back) stage I epithelial ovarian or fallopian tube cancer. Drugs used in chemotherapy, such as carboplatin, paclitaxel, oxaliplatin, and capecitabine, work in different ways to ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patients with a histologic diagnosis of mucinous adenocarcinoma of the ovary or fallopian tube with either optimal (=\\< 1 cm residual disease) or suboptimal residual disease following initial surgery; patients may have measurable disease as defined by Response Evaluation Crite",
+            "endpoints": [
+              "Overall Survival"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT01081262"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04276493",
+            "title": "Phase 1b/2 Study Investigating Safety, Tolerability, Pharmacokinetics and Preliminary Antitumor Activity of Anti-HER2 Bispecific Antibody ZW25 in Combination With Chemotherapy With/Without Tislelizumab in Patients With Advanced HER2-positive Breast Cancer or Gastric/Gastroesophageal Junction Adenocarcinoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-03-26",
+            "completion_date": "2024-10-31",
+            "country": "China, Taiwan, South Korea",
+            "enrollment": 71,
+            "brief_summary": "The purpose of the study is to assess the safety, tolerability and preliminary antitumor activity of zanidatamab in combination with docetaxel in participants with human epidermal growth factor receptor 2 (HER2)-positive breast cancer, and zanidatamab in combination with tislelizumab and chemotherapy in participants with HER2-positive gastric/gastroesophageal Junction (GEJ) adenocarcinoma",
+            "eligibility_criteria": "Key Inclusion Criteria:\n\n1. Disease diagnosis and prior treatment:\n\n   1. Cohort 1 (the first-line breast cancer treatment cohort):\n\n      * Female participants with histologically or cytologically confirmed unresectable, locally advanced, recurrent or metastatic adenocarcinoma of the breast and can",
+            "endpoints": [
+              "Number of Participants experiencing Adverse Events (AEs)",
+              "Number of Participants experiencing Serious Adverse Events (SAEs) as assessed by the investigator.",
+              "Objective response rate (ORR)"
+            ],
+            "sponsor": "BeiGene",
+            "url": "https://clinicaltrials.gov/study/NCT04276493"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT05564377",
+            "title": "Molecular Analysis for Combination Therapy Choice (ComboMATCH)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "start_date": "2023-04-07",
+            "completion_date": "2030-07-01",
+            "country": "Puerto Rico, United States",
+            "enrollment": 2900,
+            "brief_summary": "This ComboMATCH patient screening trial is the gateway to a coordinated set of clinical trials to study cancer treatment directed by genetic testing. Patients with solid tumors that have spread to nearby tissue or lymph nodes (locally advanced) or have spread to other places in the body (advanced) and have progressed on at least one line of standard systemic therapy or have no standard treatment that has been shown to prolong overall survival may be candidates for these trials. Genetic tests loo",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Patient must have measurable disease\n* Patient must have an Eastern Cooperative Oncology Group (ECOG) performance status between 0-2 OR patient must have Lansky performance status of \\>= 50% or Karnofsky performance status of \\>= 50%\n* Patient must be deemed potentially eligib",
+            "endpoints": [
+              "Accrual of patients to ComboMATCH treatment trials",
+              "Assignment of patients to ComboMATCH treatment trials",
+              "Enrollment rates to ComboMATCH treatment trials"
+            ],
+            "sponsor": "National Cancer Institute (NCI)",
+            "url": "https://clinicaltrials.gov/study/NCT05564377"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "28632865",
+            "title": "Effect of First-Line Chemotherapy Combined With Cetuximab or Bevacizumab on Overall Survival in Patients With KRAS Wild-Type Advanced or Metastatic Colorectal Cancer: A Randomized Clinical Trial.",
+            "abstract": "Combining biologic monoclonal antibodies with chemotherapeutic cytotoxic drugs provides clinical benefit to patients with advanced or metastatic colorectal cancer, but the optimal choice of the initial biologic therapy in previously untreated patients is unknown.",
+            "journal": "JAMA",
+            "year": "2017",
+            "authors": [
+              "Venook Alan P",
+              "Niedzwiecki Donna",
+              "Lenz Heinz-Josef",
+              "Innocenti Federico",
+              "Fruth Briant"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Angiogenesis Inhibitors",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Camptothecin",
+              "Canada",
+              "Cetuximab"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28632865/"
+          },
+          {
+            "pmid": "40513578",
+            "title": "Cisplatin and temozolomide combinatorial treatment triggers hypermutability and immune surveillance in experimental cancer models.",
+            "abstract": "Hypermutation induced by mismatch repair (MMR) inactivation leads to immune surveillance in colorectal cancer (CRC) and in several other malignancies. We investigated the impact of a rationally designed chemotherapy combination on the generation of hypermutation and immunogenicity in otherwise immune-refractory CRC and breast cancer mouse models. Combinatorial treatment with cisplatin (CDDP) and temozolomide (TMZ) induces an adaptive downregulation of MMR, resulting in chemotherapy-dependent hypermutability and increase in predicted neoantigens. This combination specifically alters the immune fitness of the tumors, ultimately leading to CD8+ T cell-mediated immune surveillance, immunoediting of chemotherapy-induced neoantigens, and durable immunological memory. Treatment with CDDP and TMZ also remodels the innate immune microenvironment and induces long-lasting responses and complete rejections when combined with anti-PD-1 therapy in mice. The same effects are not observed using the cl",
+            "journal": "Cancer cell",
+            "year": "2025",
+            "authors": [
+              "Vitiello Pietro Paolo",
+              "Rousseau Benoit",
+              "Chilà Rosaria",
+              "Battuello Paolo",
+              "Amodio Vito"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Temozolomide",
+              "Mice",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cisplatin",
+              "Female",
+              "Tumor Microenvironment",
+              "Humans",
+              "Immunologic Surveillance",
+              "Colorectal Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40513578/"
+          },
+          {
+            "pmid": "23168366",
+            "title": "Continuation of bevacizumab after first progression in metastatic colorectal cancer (ML18147): a randomised phase 3 trial.",
+            "abstract": "Bevacizumab plus fluoropyrimidine-based chemotherapy is standard treatment for first-line and bevacizumab-naive second-line metastatic colorectal cancer. We assessed continued use of bevacizumab plus standard second-line chemotherapy in patients with metastatic colorectal cancer progressing after standard first-line bevacizumab-based treatment.",
+            "journal": "The Lancet. Oncology",
+            "year": "2013",
+            "authors": [
+              "Bennouna Jaafar",
+              "Sastre Javier",
+              "Arnold Dirk",
+              "Österlund Pia",
+              "Greil Richard"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Colorectal Neoplasms",
+              "Disease-Free Survival",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23168366/"
+          },
+          {
+            "pmid": "38657754",
+            "title": "Fusobacterium nucleatum induces oxaliplatin resistance by inhibiting ferroptosis through E-cadherin/β-catenin/GPX4 axis in colorectal cancer.",
+            "abstract": "Fusobacterium (F.) nucleatum is a carcinogenesis microbiota in colorectal cancer (CRC). Growing evidence shows that F. nucleatum contributes to chemoresistance. Ferroptosis is reported to restore the susceptibility of resistant cells to chemotherapy. However, the role of gut microbiota affecting ferroptosis in chemoresistance remains unclear. Here, we examined the CRC tissues of patients using 16S rRNA sequencing to investigate the possible connection between gut microbiota dysbiosis and the relapse of CRC. We found that a high abundance of F. nucleatum in CRC tissue is associated with relapse. We further demonstrated that F. nucleatum induced oxaliplatin resistance in vitro and in vivo. The transcriptome of an F. nucleatum-infected cell revealed ferroptosis was associated with F. nucleatum infection. We perform malondialdehyde, ferrous iron, and glutathione assays to verify the effect of F. nucleatum on ferroptosis under oxaliplatin treatment in vivo and in vitro. Mechanistically, F. ",
+            "journal": "Free radical biology & medicine",
+            "year": "2024",
+            "authors": [
+              "Li Bowen",
+              "Wei Zixian",
+              "Wang Zhiyue",
+              "Xu Fangqi",
+              "Yang Jinhua"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Ferroptosis",
+              "Humans",
+              "Colorectal Neoplasms",
+              "Drug Resistance, Neoplasm",
+              "Cadherins",
+              "Oxaliplatin",
+              "beta Catenin",
+              "Phospholipid Hydroperoxide Glutathione Peroxidase",
+              "Animals",
+              "Fusobacterium nucleatum"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38657754/"
+          },
+          {
+            "pmid": "36142383",
+            "title": "Potent Chlorambucil-Platinum(IV) Prodrugs.",
+            "abstract": "The DNA-alkylating derivative chlorambucil was coordinated in the axial position to atypical cytotoxic, heterocyclic, and non-DNA coordinating platinum(IV) complexes of type, [PtIV(HL)(AL)(OH)2](NO3)2 (where HL is 1,10-phenanthroline, 5-methyl-1,10-phenanthroline or 5,6-dimethyl-1,10-phenanthroline, AL is 1S,2S-diaminocyclohexane). The resultant platinum(IV)-chlorambucil prodrugs, PCLB, 5CLB, and 56CLB, were characterized using high-performance liquid chromatography, nuclear magnetic resonance, ultraviolet-visible, circular dichroism spectroscopy, and electrospray ionization mass spectrometry. The prodrugs displayed remarkable antitumor potential across multiple human cancer cell lines compared to chlorambucil, cisplatin, oxaliplatin, and carboplatin, as well as their platinum(II) precursors, PHENSS, 5MESS, and 56MESS. Notably, 56CLB was exceptionally potent in HT29 colon, Du145 prostate, MCF10A breast, MIA pancreas, H460 lung, A2780, and ADDP ovarian cell lines, with GI50 values rangi",
+            "journal": "International journal of molecular sciences",
+            "year": "2022",
+            "authors": [
+              "Aputen Angelico D",
+              "Elias Maria George",
+              "Gilbert Jayne",
+              "Sakoff Jennette A",
+              "Gordon Christopher P"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carboplatin",
+              "Cell Line, Tumor",
+              "Chlorambucil",
+              "Cisplatin",
+              "Female",
+              "Humans",
+              "Male",
+              "Organoplatinum Compounds",
+              "Ovarian Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36142383/"
+          },
+          {
+            "pmid": "33669671",
+            "title": "Effect of Oxaliplatin, Olaparib and LY294002 in Combination on Triple-Negative Breast Cancer Cells.",
+            "abstract": "Triple-negative breast cancer (TNBC) has a poor prognosis as the therapy has several limitations, most importantly, treatment resistance. In this study we examined the different responses of triple-negative breast cancer line MDA-MB-231 and hormone receptor-positive breast cancer line MCF7 to a combined treatment including olaparib, a poly-(ADP ribose) polymerase (PARP) inhibitor, oxaliplatin, a third-generation platinum compound and LY294002, an Akt pathway inhibitor. We applied the drugs in a single, therapeutically relevant concentration individually and in all possible combinations, and we assessed the viability, type of cell death, reactive oxygen species production, cell-cycle phases, colony formation and invasive growth. In agreement with the literature, the MDA-MB-231 cells were more treatment resistant than the MCF7 cells. However, and in contrast with the findings of others, we detected no synergistic effect between olaparib and oxaliplatin, and we found that the Akt pathway ",
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "authors": [
+              "Andreidesz Kitti",
+              "Koszegi Balazs",
+              "Kovacs Dominika",
+              "Bagone Vantus Viola",
+              "Gallyas Ferenc"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Cell Cycle",
+              "Cell Death",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Cell Survival",
+              "Chromones",
+              "Female",
+              "Humans",
+              "Morpholines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33669671/"
+          },
+          {
+            "pmid": "9647613",
+            "title": "Ongoing and unsaid on oxaliplatin: the hope.",
+            "abstract": "Oxaliplatin, the first available diaminocyclohexane platinum, has clinical activity in colorectal and ovarian cancers. Its mechanism of action is thought to be similar to that of cisplatin, its main mechanism being the intrastrand DNA adduct between two adjacent guanins or two adjacent guanine and adenine adducts. Ongoing molecular pharmacological studies of the mechanism of action of cisplatin suggest that platinated adducts are recognized by proteins of the mismatch repair system, including the products of the hMLH1 and hMSH2 genes. DNA mismatch repair defects occur in a wide variety of sporadic human cancers, are the main genetic factor in hereditary non-polyposis colon cancer and a frequent de novo or acquired phenomenon in ovarian cancer and other solid tumours. Moreover, they have recently been reported to be a cause of resistance to cisplatin but not to oxaliplatin, as diaminocyclohexane platinum adducts do not appear to be recognized by the mismatch repair complex. These findin",
+            "journal": "British journal of cancer",
+            "year": "1998",
+            "authors": [
+              "Cvitkovic E"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Cisplatin",
+              "DNA Repair",
+              "Drug Resistance, Neoplasm",
+              "Female",
+              "Gastrointestinal Neoplasms",
+              "Humans",
+              "Neoplasms",
+              "Organoplatinum Compounds",
+              "Ovarian Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9647613/"
+          },
+          {
+            "pmid": "39013199",
+            "title": "Expert consensus: Profiling and management of advanced or metastatic epithelial ovarian cancer.",
+            "abstract": "Introduction and objective: The approach to patients with advanced or metastatic high-grade epithelial ovarian cancer (EOC) has evolved over time with the advent of new therapies and multimodal strategies. The objective of this consensus of experts is to generate national recommendations for the profiling and management of advanced or metastatic high-grade OEC, defined as stages III and IV of the “The International Federation of Gynecology and Obstetrics (FIGO) classification at the time of diagnosis to base on the literature review that included international evidence-based clinical practice guidelines (CPG). Material and methods: Eleven panelists (oncologists and gynecological oncologists) answered 8 questions about the profiling and management of advanced or metastatic ovarian epithelial carcinoma. The panelists were chosen for their academic profile and influence in national health institutions. Guidelines from the “ESMO Standardized Operating Procedures Consensus Conference” were ",
+            "journal": "Revista colombiana de obstetricia y ginecologia",
+            "year": "2024",
+            "authors": [
+              "Pierre Marc E",
+              "Manneh Ray",
+              "Hernández Abraham",
+              "Rodríguez Juliana",
+              "Fletcher Angélica V"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Consensus Statement",
+              "Practice Guideline",
+              "English Abstract"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Ovarian Neoplasms",
+              "Carcinoma, Ovarian Epithelial",
+              "Evidence-Based Medicine",
+              "Neoplasm Grading",
+              "Neoplasm Staging",
+              "Cytoreduction Surgical Procedures",
+              "Neoplasms, Glandular and Epithelial",
+              "Consensus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39013199/"
+          },
+          {
+            "pmid": "38007757",
+            "title": "Oxaliplatin and Checkpoint Inhibitor Induces Immunogenic Cells Death and Promotes Therapeutic Efficacy in the Model of Murine Triple Positive Breast Cancer.",
+            "abstract": "Various damage-associated molecular patterns (DAMPs) associated with immunogenic cell death (ICD) have been discovered, potentially leading to cancer cell elimination. Certain platinum-based compounds can trigger both cancer cell apoptosis and ICD. This study aims to investigate the effect of the therapy of anti- PDL1 with Oxaliplatin by increasing amount and increasing treatment duration of anti-PDL1 with Oxaliplatin in SK-Br-3, both in vitro and in vivo conditions. The study will use HER-2 (3+) breast cancer cell line, SKBr3. The cells will be treated with increasing concentrations of Oxaliplatin with anti-PDL1 for different durations. In vitro death of cancer cells will be measured by MTT assay, HMGB1 will be measured by western blot. Additionally, ATP release will be measured, mice will be injected with SK-Br-3 and treated with the combo therapy of anti-PDL1 with Oxaliplatin, and in vivo tumor growth will be recorded weekly for xenograft. The positive control for the experiments is",
+            "journal": "Studies in health technology and informatics",
+            "year": "2023",
+            "authors": [
+              "Shi Haokun"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Mice",
+              "Animals",
+              "Female",
+              "Oxaliplatin",
+              "Breast Neoplasms",
+              "Immunogenic Cell Death",
+              "Cell Line, Tumor"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38007757/"
+          },
+          {
+            "pmid": "39466024",
+            "title": "Phase I Study of ROR1-Specific CAR-T Cells in Advanced Hematopoietic and Epithelial Malignancies.",
+            "abstract": "The receptor tyrosine kinase-like orphan receptor 1 (ROR1) is expressed in hematopoietic and epithelial cancers but has limited expression on normal adult tissues. This phase I study evaluated the safety of targeting ROR1 with autologous T lymphocytes engineered to express a ROR1 chimeric antigen receptor (CAR). Secondary objectives evaluated the persistence, trafficking, and antitumor activity of CAR-T cells.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2025",
+            "authors": [
+              "Jaeger-Ruckstuhl Carla A",
+              "Specht Jennifer M",
+              "Voutsinas Jenna M",
+              "MacMillan Hugh R",
+              "Wu Qian Vicky"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase I"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Receptor Tyrosine Kinase-like Orphan Receptors",
+              "Female",
+              "Middle Aged",
+              "Male",
+              "Aged",
+              "Immunotherapy, Adoptive",
+              "Receptors, Chimeric Antigen",
+              "Adult",
+              "Hematologic Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39466024/"
+          },
+          {
+            "pmid": "35123744",
+            "title": "Oxaliplatin delivery via chitosan/vitamin E conjugate micelles for improved efficacy and MDR-reversal in breast cancer.",
+            "abstract": "A bioinspired chitosan/vitamin E conjugate (Ch/VES, 1:4) was synthesized, optimized based on chitosan's molecular weight (15, 300 kDa), and was assembled to entrap oxaliplatin (OXPt). 1H NMR, infrared spectroscopy, chromatography, X-ray photoelectron spectroscopy, X-ray diffraction, drug release, hemolysis, and stability studies were performed to characterize OXPt@Ch/VES micelles. The therapeutic efficacy of the micelles was tested in vitro in ER+/PR+/HER2- and triple-negative sensitive/resistant breast cancer cells, MCF-7 and MDA-MB-231 via cellular uptake, cytotoxicity, nuclear staining, DNA fragmentation, mitochondrial membrane potential, ROS generation, apoptosis, and cell cycle assays and in vivo using 4T1(Luc)-tumor-bearing mice. OXPt@Ch/VES Ms exhibited decreased IC50 towards MCF-7, MDA-MB-231 (sensitive/resistant) than OXPt. OXPt@Ch/VES Ms caused extensive DNA damage, mitochondrial depolarization, apoptosis, and cell-growth arrest (G2/M). OXPt@Ch/VES Ms treatment retarded tumor",
+            "journal": "Carbohydrate polymers",
+            "year": "2022",
+            "authors": [
+              "Itoo Asif Mohd",
+              "Paul Milan",
+              "Ghosh Balaram",
+              "Biswas Swati"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Cell Line, Tumor",
+              "Cell Survival",
+              "Chitosan",
+              "Drug Carriers",
+              "Drug Resistance, Multiple",
+              "Drug Resistance, Neoplasm",
+              "Erythrocytes"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35123744/"
+          },
+          {
+            "pmid": "37129948",
+            "title": "BRCA2 Germline Mutations Identify Gastric Cancers Responsive to PARP Inhibitors.",
+            "abstract": "Despite negative results of clinical trials conducted on the overall population of patients with gastric cancer, PARP inhibitor (PARPi) therapeutic strategy still might represent a window of opportunity for a subpopulation of patients with gastric cancer. An estimated 7% to 12% of gastric cancers exhibit a mutational signature associated with homologous recombination (HR) failure, suggesting that these patients could potentially benefit from PARPis. To analyze responsiveness of gastric cancer to PARPi, we exploited a gastroesophageal adenocarcinoma (GEA) platform of patient-derived xenografts (PDX) and PDX-derived primary cells and selected 10 PDXs with loss-of-function mutations in HR pathway genes. Cell viability assays and preclinical trials showed that olaparib treatment was effective in PDXs harboring BRCA2 germline mutations and somatic inactivation of the second allele. Olaparib responsive tumors were sensitive to oxaliplatin as well. Evaluation of HR deficiency (HRD) and mutati",
+            "journal": "Cancer research",
+            "year": "2023",
+            "authors": [
+              "Petrelli Annalisa",
+              "Rizzolio Sabrina",
+              "Pietrantonio Filippo",
+              "Bellomo Sara E",
+              "Benelli Matteo"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Poly(ADP-ribose) Polymerase Inhibitors",
+              "Germ-Line Mutation",
+              "Stomach Neoplasms",
+              "Retrospective Studies",
+              "BRCA1 Protein",
+              "BRCA2 Protein",
+              "Antineoplastic Agents",
+              "Ovarian Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37129948/"
+          },
+          {
+            "pmid": "36397238",
+            "title": "A Phase II Trial of S-1 and Oxaliplatin in Patients with Metastatic Breast Cancer Previously Treated with Anthracycline and Taxane (KCSG-BR07-03).",
+            "abstract": "This single-arm phase II trial investigate the efficacy and safety of S-1 plus oxaliplatin (SOX) in patients with metastatic breast cancer.",
+            "journal": "Cancer research and treatment",
+            "year": "2023",
+            "authors": [
+              "Lee Dae-Won",
+              "Keam Bhumsuk",
+              "Lee Keun Seok",
+              "Ahn Jin-Hee",
+              "Sohn Joohyuk"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Female",
+              "Breast Neoplasms",
+              "Oxaliplatin",
+              "Anthracyclines",
+              "Neutropenia",
+              "Taxoids",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Neoplasm Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36397238/"
+          },
+          {
+            "pmid": "40405392",
+            "title": "TRPM8 levels determine tumor vulnerability to channel agonists.",
+            "abstract": "Targeted therapies have pervasively enhanced clinical protocols and significantly improved survival and quality of life of cancer patients. Mostly grounded on small molecules and antibodies targeting deregulated mechanisms in cancer cells, precision oncology approaches are limited to a few tumor types because of the paucity of clinically actionable targets. Here, we report a comparative analysis of the cation channel transient receptor potential melastatin 8 (TRPM8; also known as transient receptor potential cation channel subfamily M member 8) in lung, breast, colorectal, and prostate cancers. Our findings reveal high levels of channel expression in cores of all four carcinomas, irrespective of reduced expression of its RNA. Importantly, cancer cell lines that represent the various tumor types consistently show that sub-lethal chemotherapy dosages combined with the TRPM8 agonist D-3263 have a synergistic lethal effect. In addition, administration of D-3263 increases the cytotoxicity o",
+            "journal": "Molecular oncology",
+            "year": "2025",
+            "authors": [
+              "Alaimo Alessandro",
+              "Carbone Francesco Giuseppe",
+              "Buzo Kristi",
+              "Annesi Nicole",
+              "Genovesi Sacha"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "TRPM Cation Channels",
+              "Cell Line, Tumor",
+              "Neoplasms",
+              "Oxaliplatin",
+              "Male",
+              "Fluorouracil",
+              "Female",
+              "Organoids",
+              "Gene Expression Regulation, Neoplastic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40405392/"
+          },
+          {
+            "pmid": "29202657",
+            "title": "A case of gastric cancer metastasis to the breast in a female with BRCA2 germline mutation and literature review.",
+            "abstract": "Gastric cancer is a deadly disease. Common sites of distant metastasis of gastric cancer are the peritoneum, liver, lymph nodes, and lung. The breast is a rare site of metastasis in gastric cancer which occurs in males dominantly.",
+            "journal": "Acta chirurgica Belgica",
+            "year": "2019",
+            "authors": [
+              "Dulskas Audrius",
+              "Al Bandar Mahdi",
+              "Choi Yoon Young",
+              "Shin Su-Jin",
+              "Beom Seung-Hoon"
+            ],
+            "pub_types": [
+              "Case Reports",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Breast Neoplasms",
+              "Carcinoma, Signet Ring Cell",
+              "Female",
+              "Genes, BRCA2",
+              "Germ-Line Mutation",
+              "Humans",
+              "Stomach Neoplasms"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29202657/"
+          },
+          {
+            "pmid": "22569841",
+            "title": "Long-term neurotoxicity effects of oxaliplatin added to fluorouracil and leucovorin as adjuvant therapy for colon cancer: results from National Surgical Adjuvant Breast and Bowel Project trials C-07 and LTS-01.",
+            "abstract": "Neurotoxicity from adjuvant treatment with oxaliplatin has been studied in patients with colorectal carcinoma in short-term studies, but, to the authors' knowledge, the current article is the first long-term assessment which reports the National Surgical Adjuvant Breast and Bowel Project (NSABP) investigation of whether excess neurotoxicity persists beyond 4 years.",
+            "journal": "Cancer",
+            "year": "2012",
+            "authors": [
+              "Kidwell Kelley M",
+              "Yothers Greg",
+              "Ganz Patricia A",
+              "Land Stephanie R",
+              "Ko Clifford Y"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase III",
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Chemotherapy, Adjuvant",
+              "Colorectal Neoplasms",
+              "Female",
+              "Fluorouracil",
+              "Humans",
+              "Leucovorin",
+              "Male",
+              "Middle Aged"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22569841/"
+          },
+          {
+            "pmid": "19596973",
+            "title": "Salvage chemotherapy with oxaliplatin and capecitabine for breast cancer patients pretreated with anthracyclines and taxanes.",
+            "abstract": "There is no standard treatment for breast cancer patients whose tumors have been exposed both to anthracyclines and taxanes. Oxaliplatin shows synergism with 5-fluorouracil (5-FU) and capecitabine is an oral prodrug of 5-FU with known efficacy in pretreated patients. This phase II trial studied the efficacy and toxicity of the oxaliplatin-capecitabine combination as salvage treatment in breast cancer patients pretreated with anthracyclines and taxanes. Patients received oxaliplatin 80 mg/m(2) on day 1 followed by oral capecitabine 1800 mg/m(2) divided in two doses for 7 days every two weeks for a maximum of twelve courses or until disease progression. Twenty-eight patients were evaluable for efficacy and toxicity. Objective responses (all partial) were documented in 9 patients [32%; 95% confidence interval (CI): 13-51.2%]. Responses were documented at all metastatic sites. The median response duration was 5 months (range 3-9), median time to progression was 4.5 months (range 2-10) and ",
+            "journal": "Anticancer research",
+            "year": "2009",
+            "authors": [
+              "Polyzos Aristides",
+              "Gogas Helen",
+              "Markopoulos Christos",
+              "Tsavaris Nikolas",
+              "Papadopoulos Othon"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Anthracyclines",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Capecitabine",
+              "Deoxycytidine",
+              "Female",
+              "Fluorouracil",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19596973/"
+          },
+          {
+            "pmid": "23228989",
+            "title": "Capecitabine and oxaliplatin in combination as first- or second-line therapy for metastatic breast cancer: a Wisconsin Oncology Network trial.",
+            "abstract": "Several cytotoxic chemotherapy regimens are active against metastatic breast cancer; however, benefits are modest and overall prognosis remains limited. For anthracycline and taxane-pretreated metastatic breast cancer, there remains a relative paucity of therapies with significant activity. This Phase II study evaluated the combination of capecitabine and oxaliplatin (XELOX) among patients with metastatic breast cancer being treated in the first- or second-line setting.",
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2013",
+            "authors": [
+              "Njiaju U O",
+              "Tevaarwerk A J",
+              "Kim K",
+              "Chang J E",
+              "Hansen R M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Antibiotics, Antineoplastic",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Capecitabine",
+              "Confidence Intervals",
+              "Deoxycytidine"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23228989/"
+          },
+          {
+            "pmid": "17687199",
+            "title": "[Bevacizumab (Avastin)].",
+            "abstract": "Angiogenesis is one of the hallmarks of cancer. Among the identified angiogenic factors, vascular endothelial growth factor (VEGF) is a crucial regulator of angiogenesis in normal and malignant tissue. Increased expression of VEGF has been detected in most tumors of humans, and it is associated with increased risks of recurrence, metastasis, and death. Bevacizumab (Avastin), a recombinant humanized monoclonal antibody targeting VEGF, has been evaluated in various solid tumors. Some pivotal phase III trials demonstrated that the addition of bevacizumab to conventional chemotherapy showed a survival benefit with acceptable toxicity. The United States Food and Drug Administration approved the use of bevacizumab for patients with unresectable colorectal cancer and unresectable non-squamous, non small cell lung cancer. In April 2007, the Japanese Ministry of Health, Labour and Welfare approved bevacizumab for patients with unresectable colorectal cancer. The usage of bevacizumab will be sti",
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2007",
+            "authors": [
+              "Yamazaki Kentaro",
+              "Yoshino Takayuki",
+              "Boku Narikazu"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Angiogenesis Inhibitors",
+              "Antibodies, Monoclonal",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Breast Neoplasms",
+              "Camptothecin",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Chemotherapy, Adjuvant",
+              "Clinical Trials, Phase III as Topic"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17687199/"
+          },
+          {
+            "pmid": "12960739",
+            "title": "Oxaliplatin and 5-fluorouracil for heavily pretreated metastatic breast cancer: a preliminary phase II study.",
+            "abstract": "Oxaliplatin shows in vitro and in vivo synergism with 5-fluorouracil (5-FU). In this study we evaluate the clinical efficacy of oxaliplatin and 5-FU in heavily pretreated metastatic breast cancer. Eligible patients had to be pretreated with both anthracyclines and taxanes. Pretreatment with capecitabine was recommended but not mandatory. Chemotherapy: oxaliplatin 85 mg/m2/2 h day 1, folinic acid 400 mg/m2/2 h day 1, 5-FU 400 mg/m2 i.v. push day 1, 5-FU 2400 mg/m2 continuous infusion/48 h day 1, q2w. Fourteen patients were included: one male and 13 females; age: median 53 years (38-62); ECOG 0: three patients, 1: nine patients, 2: two patients; all patients were pretreated with anthracyclines and taxanes, capecitabine: nine patients, vinorelbine: six patients, trastuzumab: four patients, hormonal therapy: 12 patients; lines of prior palliative chemotherapy: 0: one patient, 1: three patients, 2: one patient, 3: three patients, 4: four patients, 5: two patients.",
+            "journal": "Anti-cancer drugs",
+            "year": "2003",
+            "authors": [
+              "Thuss-Patience Peter C",
+              "von Minckwitz Gunter",
+              "Kretzschmar Albrecht",
+              "Loibl Sibylle",
+              "Schaller Gerhard"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Antineoplastic Agents",
+              "Breast Neoplasms",
+              "Drug Synergism",
+              "Female",
+              "Fluorouracil",
+              "Humans",
+              "Male",
+              "Middle Aged",
+              "Neoplasm Metastasis"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12960739/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+        "txgnn_score": 0.9834730625152588,
+        "txgnn_rank": 15132,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parameningeal embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.981787085533142,
+        "txgnn_rank": 16150,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.9817250370979308,
+        "txgnn_rank": 16180,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "embryonal extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.9816029667854308,
+        "txgnn_rank": 16219,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prostate embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.98091858625412,
+        "txgnn_rank": 16610,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00526",
+    "name": "Oxaliplatin",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Oxaliplatin"
+      },
+      "queried_at": "2026-03-10T01:21:24.928950",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Oxaliplatin"
+      },
+      "queried_at": "2026-03-10T01:21:28.778612",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant pleural mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:31.277812",
+      "status": "success",
+      "result_count": 5,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant pleural mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:37.302962",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant pleural mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:41.045776",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant epithelioid mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:43.658821",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant epithelioid mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:49.384596",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant epithelioid mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:54.764255",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "sarcomatoid mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:21:56.265957",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "sarcomatoid mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:22:00.902127",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "sarcomatoid mesothelioma"
+      },
+      "queried_at": "2026-03-10T01:22:05.464712",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant visceral pleura tumor"
+      },
+      "queried_at": "2026-03-10T01:22:06.357773",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant visceral pleura tumor"
+      },
+      "queried_at": "2026-03-10T01:22:10.364827",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "malignant visceral pleura tumor"
+      },
+      "queried_at": "2026-03-10T01:22:37.319606",
+      "status": "success",
+      "result_count": 7,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T01:22:43.888886",
+      "status": "success",
+      "result_count": 21,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T01:22:49.502419",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "female breast carcinoma"
+      },
+      "queried_at": "2026-03-10T01:23:07.941300",
+      "status": "success",
+      "result_count": 20,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-10T01:23:09.075702",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-10T01:23:22.843356",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-10T01:23:24.482321",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:28.281056",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:34.815527",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:36.092568",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:36.957838",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:43.192045",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:43.884665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:45.369759",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:50.308210",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:51.758816",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:23:54.717978",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:24:01.337453",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Oxaliplatin",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-10T01:24:02.563375",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T01:24:02.572709"
+  }
+}

@@ -1,0 +1,1133 @@
+{
+  "drug": {
+    "inn": "Everolimus",
+    "drugbank_id": "DB01590",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "liposarcoma",
+        "txgnn_score": 0.9987576007843018,
+        "txgnn_rank": 2392,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03114527",
+            "title": "Phase II Trial of Ribociclib in Combination With Everolimus in Advanced Dedifferentiated Liposarcoma (DDL) and Leiomyosarcoma (LMS)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "start_date": "2017-08-08",
+            "completion_date": "2025-12",
+            "country": "United States",
+            "enrollment": 48,
+            "brief_summary": "This is a two center, 2 arm, Phase II study evaluating the combination of Ribociclib and Everolimus in patients with advanced DDL and LMS who have had at least 1 prior systemic therapy. Patients will be enrolled by sarcoma histology into DDL (Arm A) and LMS (Arm B). The purpose of this study is to determine the anti-tumor activity of this doublet therapy in these patient cohorts. Ribociclib will be administered orally at 300 mg/day 3 weeks on/1 week off. Everolimus will be administered 2.5 mg or",
+            "eligibility_criteria": "Inclusion Criteria Step 1:\n\n* Male or female patients 18 years or older.\n* Patients must have locally advanced, metastatic or refractory leiomyosarcoma or dedifferentiated liposarcoma.\n* A) Patients enrolled into the dedifferentiated cohort do not require prior systemic therapy (may be naive to syst",
+            "endpoints": [
+              "Antitumor activity of Ribociclib in combination with Everolimus in advanced LMS or DDL"
+            ],
+            "sponsor": "Fox Chase Cancer Center",
+            "url": "https://clinicaltrials.gov/study/NCT03114527"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "37967116",
+            "title": "SAR-096: Phase II Clinical Trial of Ribociclib in Combination with Everolimus in Advanced Dedifferentiated Liposarcoma (DDL) and Leiomyosarcoma (LMS).",
+            "abstract": "Dedifferentiated liposarcoma (DDL) and leiomyosarcoma (LMS) are two common subtypes of soft-tissue sarcoma, a rare group of diseases for which new treatments are needed. Chemotherapy remains the standard option for advanced disease. Targeting cyclin-dependent kinase 4 and 6 (CDK4/6) in DDL and mTOR in LMS is of biologic interest. When combined, the CDK4 inhibitor ribociclib and the mTOR inhibitor everolimus have shown synergistic growth inhibition in multiple tumor models, suggesting that this combination could be beneficial in patients.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2024",
+            "authors": [
+              "Movva Sujana",
+              "Matloob Sahar",
+              "Handorf Elizabeth A",
+              "Choy Edwin",
+              "Merriam Priscilla"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Multicenter Study",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Aminopyridines",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Everolimus",
+              "Leiomyosarcoma",
+              "Liposarcoma",
+              "Purines",
+              "TOR Serine-Threonine Kinases"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37967116/"
+          },
+          {
+            "pmid": "36003796",
+            "title": "Review: Precise sarcoma patient-derived orthotopic xenograft (PDOX) mouse models enable identification of novel effective combination therapies with the cyclin-dependent kinase inhibitor palbociclib: A strategy for clinical application.",
+            "abstract": "Sarcomas are rare heterogeneous malignant tumors that originate and develop in soft tissue or bone. Effective treatment for sarcomas is still limited to traditional chemotherapy and surgery that are often ineffective for recurrent disease. Cyclin-dependent kinases (CDKs) promote abnormal cell cycling and cell division in many cancers including sarcomas. Therefore, our hypothesis was that CDK inhibitors may be useful candidates for sarcoma treatment. Patient-derived orthotopic xenograft (PDOX) mouse models mimic the clinical disease for all major cancer types and have identified effective treatments that hold much clinical promise. The present report reviews sarcoma PDOX models that we have established for their potential to discover effective combination treatments based on CDK inhibitors for recalcitrant sarcoma.",
+            "journal": "Frontiers in oncology",
+            "year": "2022",
+            "authors": [
+              "Higuchi Takashi",
+              "Igarashi Kentaro",
+              "Yamamoto Norio",
+              "Hayashi Katsuhiro",
+              "Kimura Hiroaki"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36003796/"
+          },
+          {
+            "pmid": "26518767",
+            "title": "Activation of the Akt-mTOR and MAPK pathways in dedifferentiated liposarcomas.",
+            "abstract": "The Akt/mTOR and MAPK pathways play important roles in modulating cellular function in response to extracellular signals, and they are known to be activated in certain kinds of sarcomas. Few investigations have examined these pathways in dedifferentiated liposarcoma (DDLS), in relation to clinicopathological features. Clinicopathological and immunohistochemical analyses were conducted using 99 DDLS specimens. An in vitro study was also conducted to examine the antitumor effects of an mTOR inhibitor and a MEK inhibitor on two DDLS cell lines. The clinicopathological analyses revealed that the AJCC staging was a significant prognostic factor for overall survival and that the tumor size, depth, and location were significant prognostic factors for event-free survival. Phosphorylated Akt (pAkt), pmTOR, pS6RP, p4E-BP1, pMEK, and pERK expressions were positive in 57.4, 52.4, 71.4, 57.1, 84.1, and 50.8 % of the dedifferentiated component of the 63 primary DDLSs. Positive staining for pmTOR was",
+            "journal": "Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine",
+            "year": "2016",
+            "authors": [
+              "Ishii Takeaki",
+              "Kohashi Kenichi",
+              "Iura Kunio",
+              "Maekawa Akira",
+              "Bekki Hirofumi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Cell Line, Tumor",
+              "Cell Proliferation",
+              "Diphenylamine",
+              "Drug Synergism",
+              "Everolimus"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26518767/"
+          },
+          {
+            "pmid": "29848686",
+            "title": "Broad-spectrum Preclinical Antitumor Activity of Eribulin (Halaven®): Combination with Anticancer Agents of Differing Mechanisms.",
+            "abstract": "Eribulin is used in many countries to treat patients with advanced breast cancer or liposarcoma and exerts in vivo anticancer activity under monotherapy conditions against various human tumor xenograft models. Here, eribulin in combination with mechanistically different anticancer agents was evaluated.",
+            "journal": "Anticancer research",
+            "year": "2018",
+            "authors": [
+              "Asano Makoto",
+              "Matsui Junji",
+              "Towle Murray J",
+              "Wu Jiayi",
+              "McGonigle Sharon"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "A549 Cells",
+              "Animals",
+              "Antineoplastic Agents",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Breast Neoplasms",
+              "Carcinoma, Non-Small-Cell Lung",
+              "Cell Line, Tumor",
+              "Drug Synergism",
+              "Female",
+              "Furans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29848686/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "ovarian myxoid liposarcoma",
+        "txgnn_score": 0.9984083771705629,
+        "txgnn_rank": 2883,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "dermatofibrosarcoma protuberans",
+        "txgnn_score": 0.9981891512870787,
+        "txgnn_rank": 3155,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "37610680",
+            "title": "Multi-omic profiling and real time ex vivo modelling of imatinib-resistant dermatofibrosarcoma protuberans with fibrosarcomatous transformation.",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a rare and indolent cutaneous sarcoma, with the risk of aggressive fibro-sarcomatous transformation. Limited effective options are available for un-resectable or metastatic DFSP beyond targeting the oncogenic PDGF pathway with imatinib therapy. We established a patient-derived xenograft (PDX) and cell line model (designated MDFSP-S1) of imatinib-resistant DFSP with fibro-sarcomatous transformation. Whole genome sequencing identified high-level amplification at chromosomes 17 and 22, whilst homozygous deep deletion was demonstrated at chromosome 9 (CDKN2A, CDKN2B, MTAP). RNA sequencing followed by Sanger sequencing confirmed the pathognomonic COL1A1-PDGFB t (17;22) rearrangement in the original tumour, PDX and cell line model. Immunohistochemistry profiles of the PDX model were consistent with the patient's tumour sample (CD34 + /MIB1 + /SOX10- ). Gene set enrichment analysis highlighted top-scoring Hallmark gene sets in several oncogenic signal",
+            "journal": "Human cell",
+            "year": "2023",
+            "authors": [
+              "Chan Jason Yongsheng",
+              "Lee Elizabeth Chun Yong",
+              "Li Zhimei",
+              "Lee Jing Yi",
+              "Lim Abner Herbert"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37610680/"
+          },
+          {
+            "pmid": "15921309",
+            "title": "[Clinical studies with imatinib in 2004].",
+            "abstract": "The successful period of targeted molecular therapy of malignancies started with the beneficial clinical application of trastuzumab and imatinib. Imatinib is a targeted molecule capable to inhibit tyrosine kinase active in the production of abl-bcr protein responsible for the translocation of 9 and 22 chromosome in chronic myeloid leukemia. Simultaneously the drug may be active against C-kit PDGFRalpha and beta, COL 1a1 and FIPI-LI gene mutations as well. Consequently, imatinib exerts a therapeutic effect upon chronic myeloid leukemia, gastrointestinal stroma tumor, dermatofibrosarcoma protuberans and hypereosinophilic syndroma. Besides, several studies are ongoing in other solid tumours characterized by those mutations, which might be blocked through imatinib treatment. Studies are in progress determining the place of imatinib in the \"complex therapy\". Resistance developed against the drug may be overcome by new molecules, such as SU 11248 or everolimus. It can be stated that imatinib",
+            "journal": "Orvosi hetilap",
+            "year": "2005",
+            "authors": [
+              "Eckhardt Sándor"
+            ],
+            "pub_types": [
+              "English Abstract",
+              "Journal Article",
+              "Review"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Benzamides",
+              "Clinical Trials as Topic",
+              "Dermatofibrosarcoma",
+              "Fusion Proteins, bcr-abl",
+              "Gastrointestinal Stromal Tumors",
+              "Humans",
+              "Hypereosinophilic Syndrome",
+              "Imatinib Mesylate",
+              "Leukemia, Myelogenous, Chronic, BCR-ABL Positive"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15921309/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "parameningeal embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.9976810216903688,
+        "txgnn_rank": 3807,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+        "txgnn_score": 0.99759703874588,
+        "txgnn_rank": 3913,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "embryonal extrahepatic bile duct rhabdomyosarcoma",
+        "txgnn_score": 0.997470498085022,
+        "txgnn_rank": 4059,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "rhabdomyosarcoma (disease)",
+        "txgnn_score": 0.9973913431167604,
+        "txgnn_rank": 4147,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT01216839",
+            "title": "Phase II Study of Everolimus in Children and Adolescents With Refractory or Relapsed Rhabdomyosarcoma and Other Soft Tissue Sarcomas",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "start_date": "2011-03",
+            "completion_date": "2013-12",
+            "country": "Brazil",
+            "enrollment": 20,
+            "brief_summary": "The purpose of this study is to determine the Everolimus aim response in children and adolescents with refractory or relapsed Rhabdomyosarcoma and other soft tissue sarcomas",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Rhabdomyosarcoma and other soft tissue sarcoma histological confirmation.\n* No option of known curative treatment, neither approved treatment that increases survival with adequate quality of life.\n* Karnofsky scale ≥ 50 for patients over 16 years and Lansky scale ≥ 50 for pati",
+            "endpoints": [
+              "Determine the Everolimus aim response in children and adolescents with refractory and relapsed Rhabdomyosarcoma and other soft tissue sarcomas"
+            ],
+            "sponsor": "Hospital Santa Marcelina",
+            "url": "https://clinicaltrials.gov/study/NCT01216839"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT00187174",
+            "title": "Phase I Trial of RAD001C (Everolimus) in Pediatric Patients With Recurrent Refractory Solid Tumors or Brain Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "start_date": "2004-10",
+            "completion_date": "2008-10",
+            "country": "United States",
+            "enrollment": 41,
+            "brief_summary": "Patients with recurrent or refractory solid tumors or brain tumors that are unresponsive to conventional therapy, or with no known effective therapy, will be treated. Experiments in the laboratory have shown the experimental drug RAD001C (RAD001, Everolimus) can prevent cells from multiplying. RAD001 is now being tested in diseases such as cancer, in which excessive cell multiplication needs to be stopped. The drug has been tested in adult cancer patients and has been well tolerated by subjects ",
+            "eligibility_criteria": "Inclusion Criteria:\n\n* Adequate performance status\n* Adequate bone marrow, kidney, heart, and liver function\n\nExclusion Criteria:\n\n* Must not be receiving concomitant anti-cancer treatment\n* Must not be pregnant",
+            "endpoints": [
+              "To find the highest dose of RAD001 that can be given to children with refractory or relapsing solid tumors, leukemias, or brain tumors without causing severe side effects"
+            ],
+            "sponsor": "St. Jude Children's Research Hospital",
+            "url": "https://clinicaltrials.gov/study/NCT00187174"
+          },
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT03245151",
+            "title": "A Phase 1/2 Study of Lenvatinib in Combination With Everolimus in Recurrent and Refractory Pediatric Solid Tumors, Including CNS Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2017-11-16",
+            "completion_date": "2022-09-30",
+            "country": "Canada, United States",
+            "enrollment": 64,
+            "brief_summary": "Phase 1 of this study, utilizing a rolling 6 design, will be conducted to determine a maximum tolerated dose (MTD) and recommended Phase 2 dose (RP2D), and to describe the toxicities of lenvatinib administered in combination with everolimus once daily to pediatric participants with recurrent/refractory solid tumors. Phase 2, utilizing Simon's optimal 2-stage design, will be conducted to estimate the antitumor activity of lenvatinib in combination with everolimus in pediatric participants with se",
+            "eligibility_criteria": "Inclusion Criteria\n\n* ≥2 years and \\<18 years of age for enrolment in Phase 1 or ≥2 years and ≤21 years of age for enrolment in Phase 2.\n* Recurrent or refractory solid tumors\n\n  * Phase 1: All solid tumors (measurable or evaluable disease), including primary central nervous system (CNS) tumors; exc",
+            "endpoints": [
+              "Phase 1: Maximum Tolerated Dose (MTD) of Lenvatinib in Combination With Everolimus",
+              "Phase 1: Recommended Phase 2 Dose (RP2D) of Lenvatinib in Combination With Everolimus",
+              "Phase 1: Number of Participants With Any Treatment-emergent Adverse Event (TEAE)"
+            ],
+            "sponsor": "Eisai Inc.",
+            "url": "https://clinicaltrials.gov/study/NCT03245151"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "40313040",
+            "title": "A Phase 1/2 Study of Lenvatinib in Combination With Everolimus in Recurrent and Refractory Pediatric and Young Adult Solid Tumors.",
+            "abstract": "Developing targeted therapies with manageable toxicities remains a high priority for pediatric cancer. We sought to determine the recommended Phase 2 dose (RP2D) and evaluate the antitumor activity of lenvatinib+everolimus in children/young adults with select recurrent/refractory solid tumors.",
+            "journal": "Pediatric blood & cancer",
+            "year": "2025",
+            "authors": [
+              "Dela Cruz Filemon S",
+              "Fox Elizabeth",
+              "DuBois Steven G",
+              "Friedman Gregory K",
+              "Croop James M"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Clinical Trial, Phase I",
+              "Clinical Trial, Phase II",
+              "Multicenter Study"
+            ],
+            "mesh_terms": [
+              "Humans",
+              "Quinolines",
+              "Adolescent",
+              "Child",
+              "Female",
+              "Phenylurea Compounds",
+              "Male",
+              "Young Adult",
+              "Everolimus",
+              "Child, Preschool"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40313040/"
+          },
+          {
+            "pmid": "35012940",
+            "title": "Functional impact and targetability of PI3KCA, GNAS, and PTEN mutations in a spindle cell rhabdomyosarcoma with MYOD1 L122R mutation.",
+            "abstract": "Spindle cell/sclerosing rhabdomyosarcoma (ssRMS) is a rare subtype of rhabdomyosarcoma, commonly harboring a gain-of-function L122R mutation in the muscle-specific master transcription factor MYOD1. MYOD1-mutated ssRMS is almost invariably fatal, and development of novel therapeutic approaches based on the biology of the disease is urgently needed. MYOD1 L122R affects the DNA-binding domain and is believed to confer MYC-like properties to MYOD1, driving oncogenesis. Moreover, the majority of the MYOD1-mutated ssRMS harbor additional alterations activating the PI3K/AKT pathway. It is postulated that the PI3K/AKT pathway cooperates with MYOD1 L122R. To address this biological entity, we established and characterized a new patient-derived ssRMS cell line OHSU-SARC001, harboring MYOD1 L122R as well as alterations in PTEN, PIK3CA, and GNAS We explored the functional impact of these aberrations on oncogenic signaling with gain-of-function experiments in C2C12 murine muscle lineage cells. The",
+            "journal": "Cold Spring Harbor molecular case studies",
+            "year": "2022",
+            "authors": [
+              "Choo Florence",
+              "Odintsov Igor",
+              "Nusser Kevin",
+              "Nicholson Katelyn S",
+              "Davis Lara"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Animals",
+              "Cell Line, Tumor",
+              "Child",
+              "Chromogranins",
+              "GTP-Binding Protein alpha Subunits, Gs",
+              "Humans",
+              "Mice",
+              "Mutation",
+              "MyoD Protein"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35012940/"
+          },
+          {
+            "pmid": "34295326",
+            "title": "Combination Therapy With Anti-PD-1 or PD-1 Antibody Alone in Asian Pediatric Patients With Relapsed or Refractory Cancer.",
+            "abstract": "There is limited experience of PD-1 antibody combined with other therapies in children. We aimed to explore the antitumor activity and safety of PD-1 antibody monotherapy or combination with other regimens in relapsed or refractory pediatric cancer. This is a retrospective-case study conducted in two Chinese expert centers. The primary objective of this study was to describe the overall response rate (ORR) and disease control rate (DCR). Secondary objectives included characterizing toxicities. Of the 22 pediatric patients with cancer who received PD-1 inhibitors, the median follow-up for all patients after the commencement of PD-1 therapy with or without other regimens was 12.3 months (0 - 43 months). PD-1 antibody monotherapy demonstrated antitumor activity in a population of pediatric patients with Hodgkin lymphoma (HL), with an objective response rate (ORR) and disease control rate (DCR) of 83.3% (3CR and 2PR) and 100%, respectively. However, no objective response was observed in pa",
+            "journal": "Frontiers in immunology",
+            "year": "2021",
+            "authors": [
+              "Que Yi",
+              "Wang Juan",
+              "Zhu Jia",
+              "Li Na",
+              "Huang Junting"
+            ],
+            "pub_types": [
+              "Clinical Trial",
+              "Journal Article",
+              "Multicenter Study",
+              "Observational Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents, Immunological",
+              "Burkitt Lymphoma",
+              "Child",
+              "Child, Preschool",
+              "China",
+              "Drug Therapy, Combination",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34295326/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "prostate embryonal rhabdomyosarcoma",
+        "txgnn_score": 0.9973872303962708,
+        "txgnn_rank": 4158,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "unclassified renal cell carcinoma",
+        "txgnn_score": 0.9972219467163086,
+        "txgnn_rank": 4333,
+        "clinical_trials": [
+          {
+            "registry": "ClinicalTrials.gov",
+            "id": "NCT04134390",
+            "title": "Pilot Study of Cabozantinib Efficacy, Safety and Tolerability in Metastatic Renal Carcinoma in Aged Fragile Patients: CABOMAYOR Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "start_date": "2020-02-17",
+            "completion_date": "2023-11-22",
+            "country": "Spain",
+            "enrollment": 25,
+            "brief_summary": "Aged fragile patients are not usually included in clinical trials and efficacy and tolerability of the different available treatments in this population are unknown.\n\nConversely, ageing has been associated with a decrease in the efficacy of immune checkpoint inhibitors due to a decline in the effectiveness of the immune system (immunosenescence). In the Checkmate 025 trial comparing nivolumab with everolimus, the Hazard Ratio (HR) in patients older than 75 years old favoured everolimus, 1.23 (0.",
+            "eligibility_criteria": "Inclusion Criteria:\n\n1. Documented histological or cytological diagnosis of renal cell cancer.\n2. Measurable disease per RECIST 1.1 as determined by the investigator.\n3. Metastatic disease.\n4. Patient must have signed the informed consent document.\n5. Capable of understanding and complying with the ",
+            "endpoints": [
+              "Objective Response Rate (ORR)",
+              "Objective Response Rate (ORR)"
+            ],
+            "sponsor": "Spanish Oncology Genito-Urinary Group",
+            "url": "https://clinicaltrials.gov/study/NCT04134390"
+          }
+        ],
+        "pubmed_articles": [
+          {
+            "pmid": "26794930",
+            "title": "Everolimus versus sunitinib for patients with metastatic non-clear cell renal cell carcinoma (ASPEN): a multicentre, open-label, randomised phase 2 trial.",
+            "abstract": "Non-clear cell renal cell carcinomas are histologically and genetically diverse kidney cancers with variable prognoses, and their optimum initial treatment is unknown. We aimed to compare the mTOR inhibitor everolimus and the VEGF receptor inhibitor sunitinib in patients with non-clear cell renal cell carcinoma.",
+            "journal": "The Lancet. Oncology",
+            "year": "2016",
+            "authors": [
+              "Armstrong Andrew J",
+              "Halabi Susan",
+              "Eisen Tim",
+              "Broderick Samuel",
+              "Stadler Walter M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Carcinoma, Renal Cell",
+              "Confidence Intervals",
+              "Disease-Free Survival",
+              "Dose-Response Relationship, Drug",
+              "Drug Administration Schedule",
+              "Everolimus",
+              "Female",
+              "Follow-Up Studies"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26794930/"
+          },
+          {
+            "pmid": "27601542",
+            "title": "Phase II Trial and Correlative Genomic Analysis of Everolimus Plus Bevacizumab in Advanced Non-Clear Cell Renal Cell Carcinoma.",
+            "abstract": "Purpose The decreased effectiveness of single-agent targeted therapies in advanced non-clear cell renal cell carcinoma (ncRCC) compared with clear cell renal cell carcinoma (RCC) supports the study of combination regimens. We evaluated the efficacy of everolimus plus bevacizumab in patients with metastatic ncRCC. Patients and Methods In this single-center phase II trial, treatment-naive patients received everolimus 10 mg oral once per day plus bevacizumab 10 mg/kg intravenously every 2 weeks. The primary end point was progression-free survival (PFS) at 6 months. Correlative analyses explored candidate tissue biomarkers through next-generation sequencing. Results Thirty-five patients were enrolled with the following histologic subtypes: chromophobe (n = 5), papillary (n = 5), and medullary (n = 2) RCC and unclassified RCC (uRCC, n = 23). The majority of patients had papillary growth as a major component (n = 14). For 34 evaluable patients, median PFS, overall survival, and objective res",
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2016",
+            "authors": [
+              "Voss Martin H",
+              "Molina Ana M",
+              "Chen Ying-Bei",
+              "Woo Kaitlin M",
+              "Chaim Joshua L"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Biomarkers, Tumor",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Everolimus",
+              "Female",
+              "High-Throughput Nucleotide Sequencing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27601542/"
+          },
+          {
+            "pmid": "24458473",
+            "title": "Treatment outcome with mTOR inhibitors for metastatic renal cell carcinoma with nonclear and sarcomatoid histologies.",
+            "abstract": "The clinical trials that reported benefit of the rapalogs temsirolimus and everolimus in advanced renal cell carcinoma (RCC) were primarily conducted in patients with clear-cell histology (ccRCC). We assessed outcome with these mammalian target of rapamicin (mTOR) inhibitors in two subsets of kidney cancer: sarcomatoid variant ccRCC and nonclear-cell RCC.",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2014",
+            "authors": [
+              "Voss M H",
+              "Bastos D A",
+              "Karlo C A",
+              "Ajeti A",
+              "Hakimi A A"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Adolescent",
+              "Adult",
+              "Aged",
+              "Aged, 80 and over",
+              "Antineoplastic Agents",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Everolimus",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24458473/"
+          },
+          {
+            "pmid": "23180114",
+            "title": "Phase II trial of everolimus for the treatment of nonclear-cell renal cell carcinoma.",
+            "abstract": "We investigated the efficacy of everolimus against nonclear-cell renal cell carcinoma (nccRCC). Patients and methods Patients with nccRCC received 10-mg everolimus once daily until disease progression or unacceptable toxicity.",
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2013",
+            "authors": [
+              "Koh Y",
+              "Lim H Y",
+              "Ahn J H",
+              "Lee J-L",
+              "Rha S Y"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antibodies, Monoclonal, Humanized",
+              "Antineoplastic Agents",
+              "Bevacizumab",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Everolimus",
+              "Female",
+              "Humans"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23180114/"
+          },
+          {
+            "pmid": "33867192",
+            "title": "A Single-arm, Multicenter, Phase 2 Study of Lenvatinib Plus Everolimus in Patients with Advanced Non-Clear Cell Renal Cell Carcinoma.",
+            "abstract": "Non-clear cell renal cell carcinoma (nccRCC) accounts for ≤20% of RCC cases. Lenvatinib (a multitargeted tyrosine kinase inhibitor) in combination with everolimus (an mTOR inhibitor) is approved for the treatment of advanced RCC after one prior antiangiogenic therapy.",
+            "journal": "European urology",
+            "year": "2021",
+            "authors": [
+              "Hutson Thomas E",
+              "Michaelson M Dror",
+              "Kuzel Timothy M",
+              "Agarwal Neeraj",
+              "Molina Ana M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Multicenter Study",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Carcinoma, Renal Cell",
+              "Everolimus",
+              "Humans",
+              "Kidney Neoplasms",
+              "Phenylurea Compounds",
+              "Quinolines"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33867192/"
+          },
+          {
+            "pmid": "33593885",
+            "title": "Angiokines Associated with Targeted Therapy Outcomes in Patients with Non-Clear Cell Renal Cell Carcinoma.",
+            "abstract": "Biomarkers are needed in patients with non-clear cell renal cell carcinomas (NC-RCC) to inform treatment selection but also to identify novel therapeutic targets. We thus sought to profile circulating angiokines in the context of a randomized treatment trial of everolimus versus sunitinib.",
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2021",
+            "authors": [
+              "Armstrong Andrew J",
+              "Nixon Andrew B",
+              "Carmack Andrea",
+              "Yang Qian",
+              "Eisen Tim"
+            ],
+            "pub_types": [
+              "Journal Article",
+              "Randomized Controlled Trial",
+              "Research Support, Non-U.S. Gov't"
+            ],
+            "mesh_terms": [
+              "Antineoplastic Agents",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Female",
+              "Humans",
+              "Kidney Neoplasms",
+              "Lymphokines",
+              "Placenta Growth Factor",
+              "Pyrroles",
+              "Treatment Outcome"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33593885/"
+          },
+          {
+            "pmid": "26626617",
+            "title": "Everolimus Versus Sunitinib Prospective Evaluation in Metastatic Non-Clear Cell Renal Cell Carcinoma (ESPN): A Randomized Multicenter Phase 2 Trial.",
+            "abstract": "Sunitinib and everolimus are standard first-line and second-line therapies, respectively, in clear cell renal cell carcinoma (ccRCC).",
+            "journal": "European urology",
+            "year": "2016",
+            "authors": [
+              "Tannir Nizar M",
+              "Jonasch Eric",
+              "Albiges Laurence",
+              "Altinmakas Emre",
+              "Ng Chaan S"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Comparative Study",
+              "Journal Article",
+              "Multicenter Study",
+              "Randomized Controlled Trial"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Agents",
+              "Carcinoma, Renal Cell",
+              "Disease-Free Survival",
+              "Early Termination of Clinical Trials",
+              "Everolimus",
+              "Female",
+              "Humans",
+              "Indoles"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26626617/"
+          },
+          {
+            "pmid": "32975815",
+            "title": "Everolimus plus bevacizumab is an effective first-line treatment for patients with advanced papillary variant renal cell carcinoma: Final results from a phase II trial.",
+            "abstract": "We previously reported on a phase 2 study of everolimus plus bevacizumab across various nonclear cell renal cell carcinoma (nccRCC) histologies and observed encouraging activity among patients with papillary RCC (pRCC) and unclassified RCC (uRCC) with a major papillary component. We subsequently expanded the study to enroll additional patients with pRCC variants.",
+            "journal": "Cancer",
+            "year": "2020",
+            "authors": [
+              "Feldman Darren R",
+              "Ged Yasser",
+              "Lee Chung-Han",
+              "Knezevic Andrea",
+              "Molina Ana M"
+            ],
+            "pub_types": [
+              "Clinical Trial, Phase II",
+              "Journal Article",
+              "Research Support, N.I.H., Extramural"
+            ],
+            "mesh_terms": [
+              "Adult",
+              "Aged",
+              "Antineoplastic Combined Chemotherapy Protocols",
+              "Bevacizumab",
+              "Carcinoma, Renal Cell",
+              "DNA-Binding Proteins",
+              "Everolimus",
+              "Female",
+              "Fumarate Hydratase",
+              "High-Throughput Nucleotide Sequencing"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32975815/"
+          },
+          {
+            "pmid": "34765076",
+            "title": "Tissue based biomarkers in non-clear cell RCC: Correlative analysis from the ASPEN clinical trial.",
+            "abstract": "Biomarkers are needed in patients with non-clear cell renal cell carcinomas (NC-RCC), particularly papillary renal cell carcinoma, in order to inform on initial treatment selection and identify potentially novel targets for therapy. We enrolled 108 patients in ASPEN, an international randomized open-label phase 2 trial of patients with metastatic papillary, chromophobe, or unclassified NC-RCC treated with the mTOR inhibitor everolimus (n=57) or the vascular endothelial growth factor (VEGF) receptor inhibitor sunitinib (n=51), stratified by MSKCC risk and histology. The primary endpoint was overall survival (OS) and secondary efficacy endpoints for this exploratory biomarker analysis were radiographic progression-free survival (rPFS) defined by intention-to-treat using the RECIST 1.1 criteria and radiographic response rates. Tissue biomarkers (n=78) of mTOR pathway activation (phospho-S6 and -Akt, c-kit) and VEGF pathway activation (HIF-1α, c-MET) were prospectively explored in tumor ti",
+            "journal": "Kidney cancer journal : official journal of the Kidney Cancer Association",
+            "year": "2021",
+            "authors": [
+              "Halabi Susan",
+              "Yang Qian",
+              "Carmack Andrea",
+              "Zhang Shiqi",
+              "Foo Wen-Chi"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34765076/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
+        "txgnn_score": 0.9972219467163086,
+        "txgnn_rank": 4334,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB01590",
+    "name": "Everolimus",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Everolimus"
+      },
+      "queried_at": "2026-03-09T18:29:42.607724",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Everolimus"
+      },
+      "queried_at": "2026-03-09T18:29:47.288090",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T18:29:47.916666",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T18:29:52.338898",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "liposarcoma"
+      },
+      "queried_at": "2026-03-09T18:29:56.220247",
+      "status": "success",
+      "result_count": 4,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T18:29:56.843963",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:03.599270",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:05.518607",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T18:30:06.427722",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T18:30:10.219786",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "queried_at": "2026-03-09T18:30:13.024793",
+      "status": "success",
+      "result_count": 2,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:14.671222",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:19.935161",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "parameningeal embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:21.333778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-09T18:30:22.198439",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-09T18:30:28.088678",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+      },
+      "queried_at": "2026-03-09T18:30:29.340854",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:30.422665",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:35.455857",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "embryonal extrahepatic bile duct rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:37.129926",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-09T18:30:38.326265",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-09T18:30:43.670844",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "rhabdomyosarcoma (disease)"
+      },
+      "queried_at": "2026-03-09T18:30:48.242856",
+      "status": "success",
+      "result_count": 3,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:49.683790",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:54.994273",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "prostate embryonal rhabdomyosarcoma"
+      },
+      "queried_at": "2026-03-09T18:30:56.431616",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T18:30:58.073944",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T18:31:02.903238",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "queried_at": "2026-03-09T18:31:11.334484",
+      "status": "success",
+      "result_count": 9,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T18:31:12.337680",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T18:31:16.396325",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Everolimus",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "queried_at": "2026-03-09T18:31:17.444490",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-09T18:31:17.450670"
+  }
+}

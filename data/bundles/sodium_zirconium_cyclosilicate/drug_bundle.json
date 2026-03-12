@@ -1,0 +1,500 @@
+{
+  "drug": {
+    "inn": "Sodium zirconium cyclosilicate",
+    "drugbank_id": "DB14048",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "breast fibrocystic disease",
+        "txgnn_score": 0.934087872505188,
+        "txgnn_rank": 29918,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "benign mammary dysplasia",
+        "txgnn_score": 0.9229677319526672,
+        "txgnn_rank": 31810,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "blunt duct adenosis of breast",
+        "txgnn_score": 0.9184640645980836,
+        "txgnn_rank": 32598,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "apocrine adenosis of breast",
+        "txgnn_score": 0.9184640645980836,
+        "txgnn_rank": 32599,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast abscess",
+        "txgnn_score": 0.9098422527313232,
+        "txgnn_rank": 33737,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "fat necrosis of breast",
+        "txgnn_score": 0.9098422527313232,
+        "txgnn_rank": 33738,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "lactation disease",
+        "txgnn_score": 0.9078772664070128,
+        "txgnn_rank": 33976,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "breast adenosis",
+        "txgnn_score": 0.905494213104248,
+        "txgnn_rank": 34246,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "heparin cofactor 2 deficiency",
+        "txgnn_score": 0.8867445588111877,
+        "txgnn_rank": 36092,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "antithrombin deficiency type 2",
+        "txgnn_score": 0.885463535785675,
+        "txgnn_rank": 36222,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB14048",
+    "name": "Sodium zirconium cyclosilicate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate"
+      },
+      "queried_at": "2026-03-10T09:56:10.393245",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate"
+      },
+      "queried_at": "2026-03-10T09:56:19.944422",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T09:56:20.702125",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T09:56:24.512519",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast fibrocystic disease"
+      },
+      "queried_at": "2026-03-10T09:56:25.364412",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T09:56:26.479111",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T09:56:32.603691",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "benign mammary dysplasia"
+      },
+      "queried_at": "2026-03-10T09:56:35.129232",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:35.671455",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:40.127201",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:41.470260",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:42.329993",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:45.217864",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "apocrine adenosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:45.940580",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast abscess"
+      },
+      "queried_at": "2026-03-10T09:56:46.516807",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast abscess"
+      },
+      "queried_at": "2026-03-10T09:56:49.977801",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast abscess"
+      },
+      "queried_at": "2026-03-10T09:56:50.866551",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "fat necrosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:51.650068",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "fat necrosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:55.697496",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "fat necrosis of breast"
+      },
+      "queried_at": "2026-03-10T09:56:56.678592",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "lactation disease"
+      },
+      "queried_at": "2026-03-10T09:56:57.439757",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "lactation disease"
+      },
+      "queried_at": "2026-03-10T09:57:02.388461",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "lactation disease"
+      },
+      "queried_at": "2026-03-10T09:57:03.620644",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast adenosis"
+      },
+      "queried_at": "2026-03-10T09:57:04.248404",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast adenosis"
+      },
+      "queried_at": "2026-03-10T09:57:08.363484",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "breast adenosis"
+      },
+      "queried_at": "2026-03-10T09:57:09.004208",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T09:57:09.590288",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T09:57:13.120855",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "queried_at": "2026-03-10T09:57:13.957309",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T09:57:14.479778",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T09:57:18.641237",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Sodium zirconium cyclosilicate",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "queried_at": "2026-03-10T09:57:20.743595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T09:57:20.755424"
+  }
+}

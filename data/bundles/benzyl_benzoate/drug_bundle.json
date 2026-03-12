@@ -1,0 +1,531 @@
+{
+  "drug": {
+    "inn": "Benzyl benzoate",
+    "drugbank_id": "DB00676",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": null,
+    "predicted_indications": [
+      {
+        "disease_name": "pharyngitis",
+        "txgnn_score": 0.8865901827812195,
+        "txgnn_rank": 36117,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "nasal cavity disease",
+        "txgnn_score": 0.8846932053565979,
+        "txgnn_rank": 36293,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vaginitis (disease)",
+        "txgnn_score": 0.8775092959403992,
+        "txgnn_rank": 36971,
+        "clinical_trials": [],
+        "pubmed_articles": [
+          {
+            "pmid": "40190812",
+            "title": "A Progesterone Microneedle Patch for Self-Administration in the Prevention of Preterm Birth in a Mouse Model.",
+            "abstract": "Progesterone, recommended for preventing preterm birth (PTB) in high-risk women, is traditionally administered via oral capsules, vaginal gels, and oil injections, which pose issues like low bioavailability, systemic side effects, and irritation, leading to reduced compliance. To address these issues, a user-friendly administration approach to deliver progesterone was needed to development for the prevention of PTB.",
+            "journal": "Drug design, development and therapy",
+            "year": "2025",
+            "authors": [
+              "Yu Hang",
+              "Zhu Wenting",
+              "Yuan Zhongwen",
+              "Feng Senling",
+              "Huang Hanhui"
+            ],
+            "pub_types": [
+              "Journal Article"
+            ],
+            "mesh_terms": [
+              "Animals",
+              "Mice",
+              "Premature Birth",
+              "Progesterone",
+              "Female",
+              "Disease Models, Animal",
+              "Particle Size",
+              "Pregnancy",
+              "Needles",
+              "Emulsions"
+            ],
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40190812/"
+          }
+        ],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "acute laryngopharyngitis",
+        "txgnn_score": 0.8765954375267029,
+        "txgnn_rank": 37063,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvitis",
+        "txgnn_score": 0.858737051486969,
+        "txgnn_rank": 38522,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "bacterial vaginosis",
+        "txgnn_score": 0.8562232255935669,
+        "txgnn_rank": 38716,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vaginal discharge",
+        "txgnn_score": 0.8555704951286316,
+        "txgnn_rank": 38768,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvovaginitis",
+        "txgnn_score": 0.8542406558990479,
+        "txgnn_rank": 38894,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "leukoplakia of vagina",
+        "txgnn_score": 0.8525179624557495,
+        "txgnn_rank": 39028,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      },
+      {
+        "disease_name": "vulvovaginal candidiasis",
+        "txgnn_score": 0.8435319662094116,
+        "txgnn_rank": 39635,
+        "clinical_trials": [],
+        "pubmed_articles": [],
+        "ictrp_trials": [],
+        "evidence_level": null,
+        "mechanistic_link": null,
+        "similarity_to_original": null
+      }
+    ],
+    "is_novel_check_done": true
+  },
+  "tfda": {
+    "found": false,
+    "records": []
+  },
+  "safety": {
+    "label_sources": [],
+    "key_warnings": [],
+    "ddi": []
+  },
+  "drugbank": {
+    "found": true,
+    "drugbank_id": "DB00676",
+    "name": "Benzyl benzoate",
+    "mechanism_of_action": null,
+    "description": null,
+    "source": "vocab_only"
+  },
+  "package_insert": {
+    "found": false
+  },
+  "collection_log": [
+    {
+      "source": "ddi",
+      "query_params": {
+        "drug": "Benzyl benzoate"
+      },
+      "queried_at": "2026-03-10T10:22:52.038147",
+      "status": "not_found",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "drugbank",
+      "query_params": {
+        "drug": "Benzyl benzoate"
+      },
+      "queried_at": "2026-03-10T10:23:06.948588",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T10:23:07.536178",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T10:23:11.428912",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "pharyngitis"
+      },
+      "queried_at": "2026-03-10T10:23:13.416293",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T10:23:14.740259",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T10:23:18.661830",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "nasal cavity disease"
+      },
+      "queried_at": "2026-03-10T10:23:19.624365",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vaginitis (disease)"
+      },
+      "queried_at": "2026-03-10T10:23:20.789850",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vaginitis (disease)"
+      },
+      "queried_at": "2026-03-10T10:23:24.827611",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vaginitis (disease)"
+      },
+      "queried_at": "2026-03-10T10:23:28.178110",
+      "status": "success",
+      "result_count": 1,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T10:23:28.773261",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T10:23:31.521692",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "acute laryngopharyngitis"
+      },
+      "queried_at": "2026-03-10T10:23:32.657748",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T10:23:33.393595",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T10:23:36.884548",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvitis"
+      },
+      "queried_at": "2026-03-10T10:23:37.684193",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T10:23:38.363190",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T10:23:43.176330",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "bacterial vaginosis"
+      },
+      "queried_at": "2026-03-10T10:23:43.979339",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T10:23:45.186874",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T10:23:48.314269",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vaginal discharge"
+      },
+      "queried_at": "2026-03-10T10:23:49.113150",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T10:23:49.766797",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T10:23:52.892638",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvovaginitis"
+      },
+      "queried_at": "2026-03-10T10:23:54.587954",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "leukoplakia of vagina"
+      },
+      "queried_at": "2026-03-10T10:23:55.129906",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "leukoplakia of vagina"
+      },
+      "queried_at": "2026-03-10T10:23:58.619953",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "leukoplakia of vagina"
+      },
+      "queried_at": "2026-03-10T10:23:59.313965",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "clinicaltrials",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "queried_at": "2026-03-10T10:23:59.841726",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "ictrp",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "queried_at": "2026-03-10T10:24:03.713913",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    },
+    {
+      "source": "pubmed",
+      "query_params": {
+        "drug": "Benzyl benzoate",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "queried_at": "2026-03-10T10:24:04.869138",
+      "status": "success",
+      "result_count": 0,
+      "error_message": null
+    }
+  ],
+  "metadata": {
+    "top_n": 10,
+    "min_score": 0.5,
+    "indications_found": 10,
+    "created_at": "2026-03-10T10:24:04.882370"
+  }
+}
